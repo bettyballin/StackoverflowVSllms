@@ -1,1 +1,0 @@
-select id, name, created from thing limit(0,20)

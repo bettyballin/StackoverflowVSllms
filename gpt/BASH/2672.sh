@@ -1,0 +1,1 @@
+sqlplus "sys as sysdba"

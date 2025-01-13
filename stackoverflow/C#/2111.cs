@@ -1,1 +1,0 @@
-protected void Page_PreInit(object sender, EventArgs e)\n{\n    Response.StatusCode = 301;\n    Response.StatusDescription = "Moved Permanently";\n    Response.RedirectLocation = "AnotherPage.aspx";\n    HttpContext.Current.ApplicationInstance.CompleteRequest();\n}

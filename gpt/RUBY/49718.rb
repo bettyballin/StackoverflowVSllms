@@ -1,0 +1,1 @@
+production:\n     adapter: mysql2\n     encoding: utf8\n     database: <%= ENV['DATABASE_NAME'] %>\n     username: <%= ENV['DATABASE_USER'] %>\n     password: <%= ENV['DATABASE_PASSWORD'] %>\n     host: <%= ENV['DATABASE_HOST'] %>

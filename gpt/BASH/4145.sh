@@ -1,0 +1,1 @@
+@echo off\n   set LOGFILE=D:\xxx\import.log\n   echo Starting import process >> %LOGFILE%\n   REM Your commands here\n   echo Process completed with exit code %ERRORLEVEL% >> %LOGFILE%\n   exit /b %ERRORLEVEL%

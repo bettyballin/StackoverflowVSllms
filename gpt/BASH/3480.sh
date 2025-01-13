@@ -1,0 +1,1 @@
+svn resolve --accept working /path/to/conflicted/file

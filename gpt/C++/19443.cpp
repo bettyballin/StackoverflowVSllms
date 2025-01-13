@@ -1,0 +1,1 @@
+int* myArray = new int[10];\n    // ... use myArray\n    delete[] myArray;  // Must remember to deallocate, and ensure it's not used afterward

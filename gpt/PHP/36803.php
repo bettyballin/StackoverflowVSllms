@@ -1,0 +1,1 @@
+<?php\nsetlocale(LC_ALL, 'en_US.UTF-8');\nbindtextdomain("mydomain", "./locale");\ntextdomain("mydomain");\n\n// Example usage\necho gettext("Hello, world!");\n?>

@@ -1,0 +1,1 @@
+gcc -O3 -msse2 -funroll-loops -o myprogram myprogram.c

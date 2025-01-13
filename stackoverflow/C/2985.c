@@ -1,1 +1,0 @@
-//#include "Foo.h" // including Foo.h causes circular reference\nclass Foo;\n\nclass Bar\n{\n...\n};

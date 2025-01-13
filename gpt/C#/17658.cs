@@ -1,0 +1,1 @@
+protected void Application_BeginRequest(Object sender, EventArgs e)\n{\n    // Check if the connection is forwarded as secure\n    if (Request.Headers["X-Forwarded-Proto"] == "https" || \n        Request.Headers["X-Forwarded-Ssl"] == "on")\n    {\n        Request.ServerVariables["HTTPS"] = "on";\n    }\n}

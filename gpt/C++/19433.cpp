@@ -1,0 +1,1 @@
+std::string result = std::string("Some text") + s1 + "some more text\n";\nstd::cout << result;

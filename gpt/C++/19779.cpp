@@ -1,0 +1,1 @@
+extern "C" {\n    #include "your_library_header.h"\n}

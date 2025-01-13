@@ -1,1 +1,0 @@
-Book.find(\n  :all, \n  :conditions => \n    ['created_at <= ? AND show_time >= ? AND \n      NOT EXISTS \n        (SELECT * FROM notifications \n         INNER JOIN notification_types ON notifications.notification_type_id = notification_types.id \n         WHERE notification_types.name = ? AND notifications.book_id = books.id)',\n     max_date, min_date, 'type1'\n    ])

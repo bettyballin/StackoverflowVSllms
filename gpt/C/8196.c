@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nFILE *fp[2];\n\nint main() {\n    // Assign the FILE pointers\n    fp[0] = stdout;\n    fp[1] = dump_f;\n\n    // Your code here\n\n    return 0;\n}

@@ -1,1 +1,0 @@
-$articles = Article::getAll("order by ranking desc, created DESC limit $offset, $num_items");

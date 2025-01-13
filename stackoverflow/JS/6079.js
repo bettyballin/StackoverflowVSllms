@@ -1,1 +1,0 @@
-window.parent.window.location.href = window.parent.window.location.href;

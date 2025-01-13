@@ -1,1 +1,0 @@
-void runwait ( int seconds )\n{\n   clock_t endwait;\n   endwait = clock () + seconds * CLOCKS_PER_SEC ;\n   while (clock() < endwait)\n   {\n      /* Do stuff while waiting */\n   }\n}

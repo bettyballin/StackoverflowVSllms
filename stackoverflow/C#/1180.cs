@@ -1,1 +1,0 @@
-//user is a DirectoryEntry\nIADsTSUserEx adsiUser = (IADsTSUserEx)user.NativeObject; 

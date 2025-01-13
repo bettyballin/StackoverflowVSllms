@@ -1,1 +1,0 @@
-Select New With {.name = p.website_name, .id = p.website_id

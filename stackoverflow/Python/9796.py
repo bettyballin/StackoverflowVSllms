@@ -1,1 +1,0 @@
-AllocationSet(\n    Alloc( name="some name", value=1.23 ),\n    Alloc( name="another name", value=2.34 ),\n    Alloc( name="yet another name", value=4.56 ),\n)

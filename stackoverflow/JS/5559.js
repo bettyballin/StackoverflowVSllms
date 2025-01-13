@@ -1,1 +1,0 @@
-if(xhr && xhr.readyState != 4) {\n    setTimeout(arguments.callee, 50);\n    return;\n  }

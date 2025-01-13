@@ -1,1 +1,0 @@
-${RAILS_ROOT}/vendor/rails

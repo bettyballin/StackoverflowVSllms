@@ -1,0 +1,1 @@
+#pragma once\n\n#include "MyTemplateClass.h"\n\nvoid useTemplateClass();

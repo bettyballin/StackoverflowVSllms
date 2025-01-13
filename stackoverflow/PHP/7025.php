@@ -1,1 +1,0 @@
-header("Content-Disposition: attachment; filename=\"" . basename($File) . "\"");\nheader("Content-Type: application/octet-stream");\nheader("Content-Length: " . filesize($File));\nheader("Connection: close");

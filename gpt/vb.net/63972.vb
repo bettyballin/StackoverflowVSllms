@@ -1,0 +1,1 @@
+' Example of namespace in a class within App_Code folder\n   Namespace MyAppNamespace\n       Public Class MyClass\n           ' Class implementation\n       End Class\n   End Namespace\n\n   ' Example of import in the .aspx.vb file\n   Imports MyAppNamespace

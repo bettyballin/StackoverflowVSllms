@@ -1,0 +1,1 @@
+SELECT T1.date, T1.symbol, T1.MPR\nFROM TableName AS T1\nWHERE T1.symbol IN (\n    SELECT TOP 2 T2.symbol\n    FROM TableName AS T2\n    WHERE T2.date = T1.date\n    ORDER BY T2.MPR DESC\n)\nORDER BY T1.date, T1.MPR DESC;

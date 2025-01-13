@@ -1,1 +1,0 @@
-CREATE TABLE user_loc \n(\n    longitude float(n,m) not null, \n    latitude float(n,m) not null, \n    user_id int unsigned not null\n);

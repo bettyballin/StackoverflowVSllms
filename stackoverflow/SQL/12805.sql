@@ -1,1 +1,0 @@
-SELECT period, 'Truck' AS NameOfVehicle, Truck AS Value FROM vehicle\nUNION ALL\nSELECT period, 'Car', Car FROM vehicle\nUNION ALL\nSELECT period, 'Boat', Boat FROM vehicle

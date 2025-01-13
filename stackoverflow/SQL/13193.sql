@@ -1,1 +1,0 @@
-CREATE TABLE test(rowid int identity(100,1) primary key)\nGO\nALTER TABLE test ADD CONSTRAINT CK_test_Range\n    CHECK (rowid >= 100 AND rowid < 1000)\nGO    \nINSERT INTO test default values;\nGO 900    \nSELECT * FROM test\nGO    \nDROP TABLE test

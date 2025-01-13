@@ -1,0 +1,1 @@
+ALTER TABLE your_table\nADD InsertedDateTime DATETIME DEFAULT GETDATE();

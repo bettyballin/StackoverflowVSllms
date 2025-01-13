@@ -1,0 +1,1 @@
+#container {\n    width: 800px;\n    margin: 0 auto;\n}\n#leftbar {\n    float: left;\n    width: 200px;\n}\n#rightbar {\n    margin: 0 0 0 210px;\n    width: 550px;\n}

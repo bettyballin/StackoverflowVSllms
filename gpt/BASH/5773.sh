@@ -1,0 +1,1 @@
+# Example SCP command\n   scp local-file.txt user@remote-host:/path/to/destination/

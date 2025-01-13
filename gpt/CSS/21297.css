@@ -1,0 +1,1 @@
+html, body, form {\n    height: 100%;\n    margin: 0;\n    padding: 0;\n}\n\n#form1 {\n    display: flex;\n    flex-direction: column;\n    height: 100%;\n}\n\n#rptvReport {\n    flex: 1;\n}

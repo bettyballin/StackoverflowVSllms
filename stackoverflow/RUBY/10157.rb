@@ -1,1 +1,0 @@
-assert_select "#first_name" do\n  assert_select "[value=?]", address.first_name unless address.first_name.blank?\nend

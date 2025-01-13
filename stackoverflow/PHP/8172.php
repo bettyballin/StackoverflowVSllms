@@ -1,1 +1,0 @@
-<? $this->headLink()->appendAlternate('/feed/', 'application/rss+xml', 'RSS Feed'); ?>

@@ -1,0 +1,1 @@
+find /path/to/Maildir -type f -name '*:2,ST' -delete

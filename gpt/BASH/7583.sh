@@ -1,0 +1,1 @@
+wbadmin start recovery -version:<VersionID> -items:<Files/Folders> -backupTarget:<BackupLocation> -machine:<ComputerName> -recoveryTarget:<DestinationPath>

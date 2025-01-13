@@ -1,1 +1,0 @@
-#include <iostream>\n#include <iomanip>\nusing namespace std;\n\nint main () {\n  cout << setw(21) << left << "Test"    << 1 << endl;\n  cout << setw(21) << left << "Test2"   << 2 << endl;\n  cout << setw(21) << left << "Iamlongverylongblah"     << 2 << endl;\n  cout << setw(21) << left << "Etc"     << 1 << endl;\n  return 0;\n}

@@ -1,0 +1,1 @@
+chkconfig --del <service_name>

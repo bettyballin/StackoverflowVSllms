@@ -1,0 +1,1 @@
+// In FormsController\npublic function homepage() {\n    $userId = $this->request->getSession()->read('User.UserId');\n    if (!$userId) {\n        // Handle the case when the user ID is not in the session\n        return $this->redirect(['controller' => 'Users', 'action' => 'login']);\n    }\n\n    // Pass the userId to the view\n    $this->set(compact('userId'));\n}

@@ -1,0 +1,1 @@
+CREATE TABLE Charts (\n    ChartId INT PRIMARY KEY,\n    ReportId INT FOREIGN KEY REFERENCES Reports(ReportId),\n    ChartType VARCHAR(50),\n    Color VARCHAR(20),\n    -- Other common columns\n    CONSTRAINT CHK_ChartType CHECK (ChartType IN ('Line', 'Pie', 'Bar'))\n);

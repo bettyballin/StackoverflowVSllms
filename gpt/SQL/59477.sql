@@ -1,0 +1,1 @@
+CREATE PUBLIC SYNONYM MyTempTable FOR myDB.MyTempTable;

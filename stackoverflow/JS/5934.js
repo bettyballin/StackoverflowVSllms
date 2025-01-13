@@ -1,1 +1,0 @@
-document.getElementById('addField').onclick = addFileInput;

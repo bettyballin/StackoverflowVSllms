@@ -1,0 +1,1 @@
+require 'active_record'\n    require 'active_record/railtie'\n    require 'yaml'\n\n    db_config = YAML.load_file('database.yml')\n    ActiveRecord::Base.configurations = db_config\n    ActiveRecord::Base.establish_connection(:development)\n\n    load 'active_record/railties/databases.rake'

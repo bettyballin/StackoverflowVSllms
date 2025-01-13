@@ -1,1 +1,0 @@
-FILES=(*)\necho "${FILES[@]:0:10}"

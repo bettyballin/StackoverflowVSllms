@@ -1,0 +1,1 @@
+iconv -f EBCDIC-US -t ASCII localfile.ebcdic > localfile.ascii

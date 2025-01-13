@@ -1,1 +1,0 @@
-select * from comm c, worker w where c.actor=w.oid;

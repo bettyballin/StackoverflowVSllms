@@ -1,0 +1,1 @@
+var connectionString = "your_connection_string_here";\nvar newsInserter = new NewsInserter(connectionString);\n\nvar newsList = new List<(string Title, string Tag)>\n{\n    ("Title1", "Tag1"),\n    ("Title2", "Tag2"),\n    // Add more news items here\n};\n\nnewsInserter.InsertNews(newsList);

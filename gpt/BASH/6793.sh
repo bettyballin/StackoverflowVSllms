@@ -1,0 +1,1 @@
+# Create a virtual server on F5 BIG-IP\ntmsh create ltm virtual myVirtualServer destination 10.0.0.1:80 pool myPool

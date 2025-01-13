@@ -1,1 +1,0 @@
-$opts = array('http' => array('header'=> 'Cookie: ' . $_SERVER['HTTP_COOKIE']."\r\n"));\n$context = stream_context_create($opts);\n$contents = file_get_contents('http://example.com/test1.txt', false, $context);\necho $contents;

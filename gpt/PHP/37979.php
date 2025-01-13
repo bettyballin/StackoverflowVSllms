@@ -1,0 +1,1 @@
+class Error {\n    public $message;\n    public $code;\n\n    public function __construct($message, $code = 0) {\n        $this->message = $message;\n        $this->code = $code;\n    }\n}

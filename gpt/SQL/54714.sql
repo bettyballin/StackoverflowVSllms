@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX IX_Orders_CustomerID \nON Orders (CustomerID)\nINCLUDE (OrderDate, TotalAmount);

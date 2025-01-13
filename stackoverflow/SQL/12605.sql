@@ -1,1 +1,0 @@
-SELECT ordernumber FROM orders\n--Filter #1 - based on Parameter #1\nWHERE (@param1 IS NULL) OR (somefield = @param1)\n--Filter #2 - based on Parameter #2\nAND WHERE (@param2 IS NULL) or (somefield2 = @param2)\n--Filter #3 - based on Parameter #3\nAND WHERE (@param3 IS NULL) or (somefield3 = @param3)

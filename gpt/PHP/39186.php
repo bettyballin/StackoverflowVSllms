@@ -1,0 +1,1 @@
+<?php\n$filename = 'chat.txt';\n\nif (file_exists($filename)) {\n    $messages = file_get_contents($filename);\n    echo nl2br($messages);\n} else {\n    echo 'No messages yet.';\n}\n?>

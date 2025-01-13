@@ -1,0 +1,1 @@
+CREATE TABLE #PKMapping (\n    OldPK INT,\n    NewPK INT\n);

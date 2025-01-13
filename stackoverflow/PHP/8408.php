@@ -1,1 +1,0 @@
-// return mime type ala mimetype extension\n$finfo = finfo_open(FILEINFO_MIME);\n\n//check to see if the mime-type starts with 'text'\nreturn substr(finfo_file($finfo, $filename), 0, 4) == 'text';

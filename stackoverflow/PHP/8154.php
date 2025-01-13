@@ -1,1 +1,0 @@
-$objectB = clone $objectA;

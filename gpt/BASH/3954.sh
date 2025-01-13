@@ -1,0 +1,1 @@
+@echo off\n    REM Navigate to your project directory\n    cd /path/to/your/eclipse/project\n\n    REM Run the Maven command to clean and package the project\n    mvn clean package\n\n    REM The WAR file will be created in the target directory

@@ -1,0 +1,1 @@
+docker run --rm -v /path/to/user/code:/home/sandboxuser/code -w /home/sandboxuser/code code_sandbox /bin/bash -c "gcc main.c -o main && ./main"

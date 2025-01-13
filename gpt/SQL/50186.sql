@@ -1,0 +1,1 @@
+SELECT CONVERT(INT, your_string_column) AS your_integer_column\nFROM your_table;

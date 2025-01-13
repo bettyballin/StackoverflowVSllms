@@ -1,1 +1,0 @@
-SELECT * FROM Flats WHERE Flats.VersionStamp <= ? AND Flats.Flat=?

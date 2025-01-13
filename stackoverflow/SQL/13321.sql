@@ -1,1 +1,0 @@
-SELECT *\nFROM comments\nINNER JOIN users ON comments.pooster = users.id\nWHERE comments.content_id = '$id'\nORDER BY comments.date ASC

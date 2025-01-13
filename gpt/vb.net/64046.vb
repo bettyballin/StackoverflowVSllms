@@ -1,0 +1,1 @@
+If key.Equals("search", StringComparison.OrdinalIgnoreCase) Then\n    DoSomething()\nEnd If

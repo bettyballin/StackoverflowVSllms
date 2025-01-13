@@ -1,1 +1,0 @@
-int WinMain( HINSTANCE hInstance, HINSTANCE hPrev, LPSTR lpCmdLine, int nCmdShow )\n{\n    return WrapperDllMain( hInstance, hPrev, lpCmdLine, nCmdShow, &user_main );\n}

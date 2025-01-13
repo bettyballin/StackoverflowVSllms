@@ -1,0 +1,1 @@
+umber = 1234\ndigit_list = [int(digit) for digit in str(number)]\nprint(digit_list)

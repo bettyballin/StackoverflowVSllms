@@ -1,0 +1,1 @@
+class Person\n{\n    public string CompositeKey { get; set; }\n}\n\nclass Exclusions\n{\n    public string CompositeKey { get; set; }\n}\n\nList<Person> people = GetFromDB();\nList<Exclusions> exclusions = GetFromOtherDB();\n\nList<Person> filteredResults = people\n    .Where(person => !exclusions.Any(exclusion => exclusion.CompositeKey == person.CompositeKey))\n    .ToList();

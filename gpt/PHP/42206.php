@@ -1,0 +1,1 @@
+foreach ($post_data as $key => $value) {\n    echo "Key: $key, Value: $value\n";\n}

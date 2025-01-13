@@ -1,1 +1,0 @@
-var newFileUpload = document.createElement('input');\nnewFileUpload.type = 'file';\n//newFileUpload.id = 'file01';\nnewFileUpload.name = 'file01';\ncontainer.appendChild(newFileUpload);

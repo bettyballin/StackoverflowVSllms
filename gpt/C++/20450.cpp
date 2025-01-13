@@ -1,0 +1,1 @@
+// CFun.hpp\n#ifndef CFUN_HPP\n#define CFUN_HPP\n\nclass CFun {\npublic:\n    void existingMethod() {\n        // Existing method implementation\n    }\n};\n\n#endif // CFUN_HPP

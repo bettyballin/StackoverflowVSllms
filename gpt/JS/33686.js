@@ -1,0 +1,1 @@
+// Store data\nlocalStorage.setItem('key', 'value');\n\n// Retrieve data\nconst value = localStorage.getItem('key');\n\n// Remove data\nlocalStorage.removeItem('key');\n\n// Clear all data\nlocalStorage.clear();

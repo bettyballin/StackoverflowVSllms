@@ -1,1 +1,0 @@
-class MainEntryClass\n{\n    static void Main(string[] args)\n    {\n        FolderAlerter fa = new FolderAlerter(); \n        Application.Run();\n    }\n}

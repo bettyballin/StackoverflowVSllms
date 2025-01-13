@@ -1,0 +1,1 @@
+public class YourHandler : IHttpHandler\n{\n    public void ProcessRequest(HttpContext context)\n    {\n        context.Response.Write("Handler Invoked");\n        context.Response.ContentType = "text/plain";\n        // Your handler logic here\n    }\n\n    public bool IsReusable\n    {\n        get { return false; }\n    }\n}

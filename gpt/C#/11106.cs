@@ -1,0 +1,1 @@
+using System;\nusing System.IO;\nusing System.Xml.Serialization;\n\npublic void SerializeToXml<T>(T entity, string filePath)\n{\n    XmlSerializer serializer = new XmlSerializer(typeof(T));\n    using (FileStream stream = new FileStream(filePath, FileMode.Create))\n    {\n        serializer.Serialize(stream, entity);\n    }\n}

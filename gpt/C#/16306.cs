@@ -1,0 +1,1 @@
+// Add the namespace of the resource file\nusing MyApp.Resources;\n\npublic class MyModel\n{\n    [Required(ErrorMessage = ValidationMessages.RequiredFieldError)]\n    public string Name { get; set; }\n}

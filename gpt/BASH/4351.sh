@@ -1,0 +1,1 @@
+cd C:\Inetpub\Mailroot\n   cscript smtpreg.vbs /add 1 OnArrival FilterEmails CDO.SS_SMTPOnArrivalSink "C:\Path\To\Your\filterEmails.vbs"

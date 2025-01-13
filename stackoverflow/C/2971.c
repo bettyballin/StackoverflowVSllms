@@ -1,1 +1,0 @@
-pair<iterator, iterator> equal_range(const key_type& k)

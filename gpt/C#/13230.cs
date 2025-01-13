@@ -1,0 +1,1 @@
+WebServiceHost2 host = new WebServiceHost2(\n    typeof(GiftService),\n    true,\n    new Uri("http://localhost:8099/tserverservice"));\nhost.EnableAutomaticHelpPage = false; // Disable the automatic help page\nhost.Open();\n\nConsole.WriteLine("Running");\nConsole.ReadLine();\nhost.Close();

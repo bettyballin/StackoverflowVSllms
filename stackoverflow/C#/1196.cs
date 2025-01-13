@@ -1,1 +1,0 @@
-try \n{\n    SyndicationFeed fetchedItems = SyndicationFeed.Load(XmlReader.Create(feedUrl));\n    // Validation successful.\n} \ncatch { // Validation failed. };

@@ -1,0 +1,1 @@
+<?php\n// Disable output buffering\nif (ob_get_level()) {\n    ob_end_flush();\n}\n?>

@@ -1,0 +1,1 @@
+var string1 = "value1";\nvar string2 = "value2";\nvar string3 = "value3";\nvar string4 = "value4";\nvar string5 = "value5";

@@ -1,0 +1,1 @@
+class Admin_Bootstrap extends Zend_Application_Module_Bootstrap\n   {\n       protected function _initAdminLayout()\n       {\n           $this->bootstrap('layout');\n           $layout = $this->getResource('layout');\n           $layout->setLayoutPath(APPLICATION_PATH . '/modules/admin/layouts/scripts');\n       }\n   }

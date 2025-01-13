@@ -1,1 +1,0 @@
-ActionController::Base.param_parsers[Mime::Type.lookup('application/vnd.com.example.foo+json')]=lambda do |body|\n  JSON.parse body\nend

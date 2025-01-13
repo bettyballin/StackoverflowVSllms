@@ -1,1 +1,0 @@
-dim originalDate as DateTime\noriginalDate = '(get your date for comparison)\nif originalDate.Date = Datetime.now.date then\n  'it happened today.\nend if

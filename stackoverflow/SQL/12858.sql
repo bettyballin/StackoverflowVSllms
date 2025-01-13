@@ -1,1 +1,0 @@
-UPDATE users SET `authorised` = IF (`authorised`, 0, 1)

@@ -1,1 +1,0 @@
-$sections_array = mysql_fetch_array($sections_query) or die(mysql_error());

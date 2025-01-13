@@ -1,1 +1,0 @@
-if (!empty($_POST['PHPSESSID']))\n   session_start($_POST['PHPSESSID']);\nelse\n    session_start();

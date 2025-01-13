@@ -1,0 +1,1 @@
+# Set an extended attribute\n   setfattr -n user.myattribute -v "myvalue" myfile.txt\n\n   # Get the value of an extended attribute\n   getfattr -n user.myattribute myfile.txt\n\n   # List all extended attributes\n   getfattr -d myfile.txt

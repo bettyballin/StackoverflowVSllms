@@ -1,0 +1,1 @@
+<?php\nwp_list_pages(array(\n    'include' => '18,3,9,11,13,15,7',\n    'depth' => 2,\n    'title_li' => '',\n    'walker' => new Custom_Walker_Page()\n));\n?>

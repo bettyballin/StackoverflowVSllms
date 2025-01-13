@@ -1,0 +1,1 @@
+git add .gitattributes\n   git add <your-binary-files>\n   git commit -m "Track binary files with Git LFS"

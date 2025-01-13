@@ -1,1 +1,0 @@
-QGLContext::swapBuffers()

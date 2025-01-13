@@ -1,0 +1,1 @@
+ssh-copy-id user@remote-server

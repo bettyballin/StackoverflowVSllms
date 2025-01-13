@@ -1,1 +1,0 @@
-echo select * from dual; | sqlplus user/pw@db

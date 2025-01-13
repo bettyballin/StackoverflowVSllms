@@ -1,0 +1,1 @@
+UPDATE Customers\nSET SomeColumn = SomeValue\nWHERE SomeCondition = 'Value'

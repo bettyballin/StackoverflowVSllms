@@ -1,1 +1,0 @@
-$(function(){\n  $('.inputDate').live('click', function() {\n    $(this).datepicker({\n      starts: 1,\n      position: 'right',\n      onChange: function(formated, dates){\n        $('#inputDate').val(formated);\n        $('#inputDate').DatePickerHide();\n      }\n    });\n  });\n});

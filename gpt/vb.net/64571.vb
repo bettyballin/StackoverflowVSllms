@@ -1,0 +1,1 @@
+' Define the ProgID of your .NET class\n    Dim dotNetObject\n    Set dotNetObject = CreateObject("YourNamespace.YourClassName")\n\n    ' Call a method on the .NET object\n    Dim result\n    result = dotNetObject.YourMethod("parameter")\n\n    ' Display the result\n    MsgBox result

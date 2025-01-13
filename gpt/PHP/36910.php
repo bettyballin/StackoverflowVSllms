@@ -1,0 +1,1 @@
+<?php\n    use PHPUnit\Framework\TestCase;\n\n    class ExampleControllerTest extends TestCase\n    {\n        public function testIndex()\n        {\n            $output = $this->request('GET', 'example/index');\n            $this->assertStringContainsString('Welcome to CodeIgniter', $output);\n        }\n    }

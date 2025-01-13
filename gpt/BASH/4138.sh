@@ -1,0 +1,1 @@
+@echo off\nREM Set the console to UTF-8 code page\nchcp 65001 >nul\n\nREM Set JAVA_OPTS to include UTF-8 encoding\nset JAVA_OPTS=-Dfile.encoding=UTF-8\n\nREM Run your Java application\njava %JAVA_OPTS% -jar YourApplication.jar

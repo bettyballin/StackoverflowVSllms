@@ -1,1 +1,0 @@
-static IDictionary<string, Regex> countryRegex = CreateCountryRegexDictionary();\n\nstatic IDictionary<strnig, Regex CreateCountryRegexDictionary()\n{\n    Dictionary<string, Regex>() ret = new Dictionary<string, Regex>();\n    ret["USA"] = new Regex("^[2-9]\\d{2}-\\d{3}-\\d{4}$");\n    // etc\n    return ret;\n}

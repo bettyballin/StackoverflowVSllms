@@ -1,0 +1,1 @@
+# Example command to scan a file using ClamAV\n   clamscan --infected --remove --recursive /path/to/uploaded/files

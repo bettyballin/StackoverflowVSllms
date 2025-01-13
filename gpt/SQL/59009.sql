@@ -1,0 +1,1 @@
+SELECT table_name\nFROM all_tables\nWHERE owner = 'YOUR_USERNAME';

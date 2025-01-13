@@ -1,1 +1,0 @@
-Dim data As New DataTable()\ndata.Columns.Add(New DataColumn("Link", Type.GetType("System.String")))\nDim newRow As DataRow = data.NewRow()\nnewRow("Link") = "http://www.stackoverflow.com"\ndata.Rows.Add(newRow)\nDataGridView1.DataSource = data

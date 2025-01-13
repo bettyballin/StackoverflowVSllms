@@ -1,0 +1,1 @@
+# Use the desired new date and time\n    export GIT_COMMITTER_DATE="Wed Oct 6 20:19:19 2021 +0200"\n    export GIT_AUTHOR_DATE="Wed Oct 6 20:19:19 2021 +0200"\n\n    # Amend the commit without changing the message or content\n    git commit --amend --no-edit\n\n    # Continue rebasing\n    git rebase --continue

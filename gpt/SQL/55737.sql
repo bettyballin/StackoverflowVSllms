@@ -1,0 +1,1 @@
+INSERT INTO search_results (search_id, result_id)\n   VALUES \n   (1, 10),\n   (2, 20),\n   (3, 30)\n   ON DUPLICATE KEY UPDATE result_id = VALUES(result_id);

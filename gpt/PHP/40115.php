@@ -1,0 +1,1 @@
+// In your module or bootstrap file\n   use Laminas\Session\SessionManager;\n   use Laminas\Session\Container;\n\n   $sessionManager = new SessionManager();\n   Container::setDefaultManager($sessionManager);

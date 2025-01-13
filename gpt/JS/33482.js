@@ -1,0 +1,1 @@
+dwr.engine.beginBatch();\n\nYourJavaScriptClass.remoteMethod1(param1, function(response) {\n  // Handle response for remoteMethod1\n});\n\nYourJavaScriptClass.remoteMethod2(param2, function(response) {\n  // Handle response for remoteMethod2\n});\n\ndwr.engine.endBatch();

@@ -1,0 +1,1 @@
+from dir2.file2 import ClassOne\n\nmyObject = ClassOne()\nprint("Before reload:", myObject)\n\nmyObject.reload_module()\n\n# Create a new instance to use the reloaded module\nmyNewObject = ClassOne()\nprint("After reload:", myNewObject)

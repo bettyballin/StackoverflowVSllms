@@ -1,0 +1,1 @@
+LinkedListNode<string> paulsNode = beatles.NodeAt(6);\n    LinkedListNode<string> recentHindrance = beatles.AddBefore(paulsNode, "Yoko");\n    recentHindrance = beatles.AddBefore(recentHindrance, "Aunt Mimi");\n    beatles.AddBefore(recentHindrance, "Father Jim");

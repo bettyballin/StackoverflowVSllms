@@ -1,0 +1,1 @@
+SELECT s.sid, s.serial#, q.sql_text\nFROM v$session s\nJOIN v$sql q ON s.sql_id = q.sql_id\nWHERE q.sql_text LIKE '%part_of_your_query%';

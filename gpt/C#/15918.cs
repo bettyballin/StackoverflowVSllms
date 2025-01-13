@@ -1,0 +1,1 @@
+public ActionResult MyAction()\n{\n    // Get the current user\n    var currentUser = User.Identity;\n    \n    if (currentUser.IsAuthenticated)\n    {\n        // Get the username\n        string username = currentUser.Name;\n        \n        // Additional logic here\n    }\n    \n    // Your action logic here\n    return View();\n}

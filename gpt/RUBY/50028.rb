@@ -1,0 +1,1 @@
+if User.valid_attribute?(:login, "login value")\n  # The login is valid\nelse\n  # The login is invalid\nend

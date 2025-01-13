@@ -1,0 +1,1 @@
+<configuration>\n     <system.webServer>\n       <handlers>\n         <add name="YourHandlerName" path="YourPath" verb="*" type="Namespace.YourHandlerType, YourAssembly" resourceType="Unspecified" />\n       </handlers>\n     </system.webServer>\n   </configuration>

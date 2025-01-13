@@ -1,0 +1,1 @@
+ildasm /OUT=MyAssembly.il MyAssembly.dll

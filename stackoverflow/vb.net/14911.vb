@@ -1,1 +1,0 @@
-Me.GridView1.SelectedIndex

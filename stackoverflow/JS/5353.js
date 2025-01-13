@@ -1,1 +1,0 @@
-var id = empid;\n\n$.ajax({\n    type: "POST",\n    url: "../Webservices/EmployeeService.asmx/GetEmployeeOrders",\n    data: "{empid: " + empid + "}",\n    contentType: "application/json; charset=utf-8",\n    dataType: "json",\n    success: function(result){\n        alert(result.d);\n        console.log(result);\n    }\n});

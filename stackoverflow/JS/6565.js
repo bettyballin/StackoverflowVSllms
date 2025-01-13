@@ -1,1 +1,0 @@
-$("input:checkbox[name=type]:checked").each(function(){\n    yourArray.push($(this).val());\n});

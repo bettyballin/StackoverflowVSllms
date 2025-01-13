@@ -1,0 +1,1 @@
+set_time_limit(30); // 30 seconds

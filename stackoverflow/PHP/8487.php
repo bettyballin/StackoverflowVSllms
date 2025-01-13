@@ -1,1 +1,0 @@
-$line=$body;\nif (preg_match('/^.{1,260}\b/s', $body, $match))\n{\n    $line=$match[0];\n}

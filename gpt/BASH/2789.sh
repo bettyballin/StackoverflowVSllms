@@ -1,0 +1,1 @@
+regasm /tlb:MyClassLibrary.tlb MyClassLibrary.dll

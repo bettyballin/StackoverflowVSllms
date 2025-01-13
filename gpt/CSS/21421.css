@@ -1,0 +1,1 @@
+.container {\n        display: flex;\n        flex-wrap: wrap;\n    }\n    .item {\n        flex: 1 1 200px; /* Flex-grow, flex-shrink, flex-basis */\n    }

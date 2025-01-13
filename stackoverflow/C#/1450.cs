@@ -1,1 +1,0 @@
-filedata = File.ReadAllBytes("../../filefolder/myfile.txt");

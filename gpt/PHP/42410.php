@@ -1,0 +1,1 @@
+foreach ($_GET as $field => $label) {\n    $datarray[] = $_GET[$field];\n    \n    if (is_array($_GET[$field])) {\n        foreach ($_GET[$field] as $value) {\n            echo htmlspecialchars($value, ENT_QUOTES, 'UTF-8') . "<br>";\n        }\n    } else {\n        echo htmlspecialchars($_GET[$field], ENT_QUOTES, 'UTF-8') . "<br>";\n    }\n}\nprint_r($datarray);

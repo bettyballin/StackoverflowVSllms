@@ -1,0 +1,1 @@
+@echo off\n    REM Remove the docs directory\n    rmdir /S /Q "C:\Projects\test_export\docs"\n\n    REM Remove the test.php file\n    del /Q "C:\Projects\test_export\test.php"

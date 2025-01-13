@@ -1,0 +1,1 @@
+SELECT \n    CASE \n        WHEN INSTR(bom_course_id, '.') > 0 THEN SUBSTR(bom_course_id, INSTR(bom_course_id, '.') + 1) \n        ELSE SUBSTRING(bom_course_id, CHARINDEX('.', bom_course_id) + 1, LEN(bom_course_id))\n    END AS result\nFROM your_table_name;

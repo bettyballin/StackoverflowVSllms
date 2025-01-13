@@ -1,1 +1,0 @@
-function getData() {\n    $.getJSON(someUrl, gotData);\n  }\n\n  // Whenever a query stops, start a new one.\n  $(document).ajaxStop(getData, 0);\n  // Start the first query.\n  getData();

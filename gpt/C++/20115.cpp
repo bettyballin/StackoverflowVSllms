@@ -1,0 +1,1 @@
+#pragma once\n\n#include <QtCore/QObject>\n#include <QtCore/QThread>\n\nclass FroggerDLL : public QObject {\n    Q_OBJECT\npublic:\n    explicit FroggerDLL(QObject *parent = nullptr);\n    void manipulateQObject(QObject *obj);\n};

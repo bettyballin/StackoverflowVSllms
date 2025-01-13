@@ -1,1 +1,0 @@
-<Extension Name="CSV" Type="Microsoft.ReportingServices.Rendering.CsvRenderer.CsvReport,Microsoft.ReportingServices.CsvRendering">\n            <Configuration>\n                <DeviceInfo>\n                    <Encoding>Unicode</Encoding>\n                </DeviceInfo>\n            </Configuration>\n        </Extension>

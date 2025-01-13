@@ -1,0 +1,1 @@
+BEGIN\n  INSERT INTO players (player_no, position, goals)\n  VALUES (:TEAM.player_no, :TEAM.position, :TEAM.goals);\n  COMMIT;\nEXCEPTION\n  WHEN OTHERS THEN\n    -- Handle exception, for example show a message to the user\n    MESSAGE('Error: ' || SQLERRM);\n    RAISE;\nEND;

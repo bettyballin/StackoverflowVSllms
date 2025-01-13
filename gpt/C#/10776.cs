@@ -1,0 +1,1 @@
+var webProxy = new WebProxy\n{\n    Address = new Uri("http://your-proxy-address:your-port"), // Replace with your proxy address and port\n    UseDefaultCredentials = true\n};\n\nWebRequest.DefaultWebProxy = webProxy;

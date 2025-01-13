@@ -1,0 +1,1 @@
+Assembly assembly = Assembly.LoadFrom("plugin.dll");\n  Type type = assembly.GetType("PluginNamespace.PluginClass");\n  MethodInfo method = type.GetMethod("PluginMethod");\n  object instance = Activator.CreateInstance(type);\n  method.Invoke(instance, null);

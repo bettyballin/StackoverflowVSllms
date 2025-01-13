@@ -1,0 +1,1 @@
+<Project ...>\n  ...\n  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">\n    <Reference Include="CodeSiteLogging">\n      <HintPath>path\to\CodeSiteLogging.dll</HintPath>\n    </Reference>\n  </PropertyGroup>\n  ...\n</Project>

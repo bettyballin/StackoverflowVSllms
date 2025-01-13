@@ -1,0 +1,1 @@
+<codeAnalyzer>\n    <suppressWarnings>\n        <warning id="bad_escape_sequence" />\n    </suppressWarnings>\n</codeAnalyzer>

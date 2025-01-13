@@ -1,1 +1,0 @@
-SELECT\n    img.*\nFROM\n    foobar foo\n    INNER JOIN foobar_img img ON\n        foo.id = img.id\nWHERE\n    foo.id = $key

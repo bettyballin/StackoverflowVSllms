@@ -1,1 +1,0 @@
-create table MarkupTable(\n  id int identity(1,1) /*please don't berate me for using identity!*/\n, markup varchar(max) /* this will use only the space taken by your markup string */\n)\n\ninsert MarkupTable select '<html><b>demo</b></html>'\n\nselect * from MarkupTable

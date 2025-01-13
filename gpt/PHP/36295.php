@@ -1,0 +1,1 @@
+echo ngettext('There is %d item', 'There are %d items', $itemCount);

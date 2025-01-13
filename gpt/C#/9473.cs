@@ -1,0 +1,1 @@
+using System.Runtime.InteropServices;\n\n   // Example of releasing a COM object\n   Marshal.ReleaseComObject(comObject);\n   comObject = null;

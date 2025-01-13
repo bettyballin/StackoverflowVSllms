@@ -1,0 +1,1 @@
+public void ConfigureServices(IServiceCollection services)\n   {\n       services.AddScoped<IUserDataService, UserDataService>();\n       services.AddControllersWithViews();\n   }

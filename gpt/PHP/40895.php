@@ -1,0 +1,1 @@
+<?php \n$chk = 1;\nif ($chk == 1) {\n    echo '<script type="text/javascript">\n            document.addEventListener("DOMContentLoaded", function() {\n                testing();\n            });\n          </script>';\n}\n?>

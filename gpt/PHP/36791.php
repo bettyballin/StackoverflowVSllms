@@ -1,0 +1,1 @@
+// Example 1\n$array = array();\n\nif ($array) {\n    echo 'the array has items';\n}\n\n// Example 2\n$array = array();\n\nif (count($array)) {\n    echo 'the array has items';\n}

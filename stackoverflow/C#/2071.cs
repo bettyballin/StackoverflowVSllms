@@ -1,1 +1,0 @@
-interface IBlogDaoService\n{\n    Blog GetBlog(long id);\n    void SaveBlog(Blog blog);\n}

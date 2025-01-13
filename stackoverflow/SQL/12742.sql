@@ -1,1 +1,0 @@
-declare @temp table (\n    idx int identity(1,1),\n    field1 int,\n    field2 varchar(max))\n\ndeclare @result int\n\ninsert into @temp (field1, field2)\nexec @result = sp_who\n\ndeclare @counter int\n\nset @counter = 1\n\nwhile @counter < (select max(idx) from @temp)\nbegin\n    -- do what you want with the rows here\n    set @counter = @counter + 1\nend

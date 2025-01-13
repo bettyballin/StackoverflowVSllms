@@ -1,1 +1,0 @@
-include("http://www.mysite.com/script.php");

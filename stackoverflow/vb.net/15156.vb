@@ -1,1 +1,0 @@
-Public Class foo\n\n    Public Event TestEvent()\n\nEnd Class\n\n\nPublic Class bar\n    Dim WithEvents x As New foo\n    Public Sub HandleEvent() Handles x.TestEvent\n    End Sub\nEnd Class

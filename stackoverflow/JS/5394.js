@@ -1,1 +1,0 @@
-function foo () {\n  var name = document.formxml.xmlname.value;\n  alert(name);\n}

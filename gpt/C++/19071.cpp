@@ -1,0 +1,1 @@
+// In player.cpp\n\nvoid CBasePlayer::UpdateSpeed()\n{\n    // Increase the player's speed by 20%\n    m_flMaxSpeed *= 1.2;\n}

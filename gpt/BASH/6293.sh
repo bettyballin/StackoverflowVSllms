@@ -1,0 +1,1 @@
+install_name_tool -add_rpath @executable_path/lib /path/to/your/application\n   install_name_tool -change libclntsh.dylib.19.1 @executable_path/lib/libclntsh.dylib.19.1 /path/to/your/applicatio

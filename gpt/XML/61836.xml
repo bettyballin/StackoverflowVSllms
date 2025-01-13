@@ -1,0 +1,1 @@
+<system.serviceModel>\n     <bindings>\n       <netTcpBinding>\n         <binding name="NetTcpBindingConfig" \n                  maxConnections="1000" \n                  listenBacklog="200"/>\n       </netTcpBinding>\n     </bindings>\n   </system.serviceModel>

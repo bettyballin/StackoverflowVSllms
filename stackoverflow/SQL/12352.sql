@@ -1,1 +1,0 @@
-SELECT actiondate\n    ,status\nFROM actions\nINNER JOIN (\n    SELECT username\n        ,MAX(uuid) as last_uuid from actions\n    WHERE actiondate < 20061231\n    GROUP BY username\n) AS last_occur\n    ON last_occur.username = actions.username\n    AND last_occur.last_uuid = actions.uuid\nWHERE actiondate < 20061231

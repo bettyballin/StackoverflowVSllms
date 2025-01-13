@@ -1,0 +1,1 @@
+public MyPocoModels.Customer GetCustomerById(int id)\n{\n    return (from c in DataContext.Customers\n            where c.ID == id\n            select new MyPocoModels.Customer\n            {\n                ID = c.ID,\n                Name = c.Name\n            }).FirstOrDefault();\n}

@@ -1,0 +1,1 @@
+g++ -o yaml_emitter example.cpp -lyaml-cpp

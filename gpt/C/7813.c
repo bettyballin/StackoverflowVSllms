@@ -1,0 +1,1 @@
+int i;\n   for(i = low; i <= high; ++i)\n   {\n           res = runalg(i);\n           if (res > highestres)\n           {\n                   highestres = res;\n           }\n   }

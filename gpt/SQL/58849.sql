@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n    SELECT\n        your_table.*,\n        SUM(reviews.rev_rating) / COUNT(reviews.rev_id) AS avg_rating\n    FROM your_table\n    JOIN reviews ON your_table.id = reviews.your_table_id\n    GROUP BY your_table.id\n) AS subquery\nWHERE avg_rating > x;

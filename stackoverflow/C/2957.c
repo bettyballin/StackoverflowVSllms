@@ -1,1 +1,0 @@
-std::map<std::pair<int,int>, int> myMap;\n\nmyMap[std::make_pair(10,20)] = 25;\nstd::cout << myMap[std::make_pair(10,20)] << std::endl;

@@ -1,0 +1,1 @@
+.container {\n       display: flex;\n       flex-direction: row;\n   }\n   .right-panel {\n       flex: 1;\n       /* Other styles */\n   }

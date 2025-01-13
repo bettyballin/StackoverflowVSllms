@@ -1,1 +1,0 @@
-select table1.*, t2.max_ds\nfrom table1 \ninner join (select id, max(datestamp) as max_ds from table2 group by id) t2\non t2.id = table1.id\norder by t2.max_ds

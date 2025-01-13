@@ -1,1 +1,0 @@
-SELECT messages.*, read_messages.id as read_id\nFROM messages \nLEFT OUTER JOIN read_messages \n   ON ( messages.id = read_messages.message_id AND read_messages.user_id  = [ USER ID ] )

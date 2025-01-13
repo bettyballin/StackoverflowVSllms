@@ -1,1 +1,0 @@
-CREATE XML SCHEMA COLLECTION MySchemaCollection\nAS N'...(here comes your xml schema as a string).....'

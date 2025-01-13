@@ -1,0 +1,1 @@
+DECLARE @CampaignName NVARCHAR(100) = 'New Campaign';\nDECLARE @CampaignDate DATETIME = GETDATE();\n\nEXEC InsertCampaignWithRandomOrganisations @Name = @CampaignName, @Date = @CampaignDate;

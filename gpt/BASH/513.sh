@@ -1,0 +1,1 @@
+ssh user@IP 'source /etc/profile; source ~/.bash_profile; <command>'

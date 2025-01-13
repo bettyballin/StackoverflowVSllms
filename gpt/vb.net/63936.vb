@@ -1,0 +1,1 @@
+Imports System.Web\nImports System.Web.Mvc\n\nPublic Class YourController\n    Inherits Controller\n\n    ' This action will have request validation disabled\n    <HttpPost()>\n    <ValidateInput(False)>\n    Public Function YourAction(yourModel As YourModel) As ActionResult\n        ' Your action logic here\n        Return View()\n    End Function\nEnd Class

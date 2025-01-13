@@ -1,1 +1,0 @@
-UPDATE\n  MyTable\nSET\n  Col1 = CASE WHEN b.Foo = "Bar" THEN LOWER(b.Baz) ELSE "" END,\n  Col2 = ISNULL(c.Bling, 0) * 100 / Col3\nFROM\n  MyTable \n  INNER JOIN MySecondTable AS b ON b.Id = MyTable.SecondId\n  LEFT  JOIN ##MyTempTable AS c ON c.Id = b.ThirdId\nWHERE\n  MyTabe.Col3 > 0\n  AND b.Foo NOT IS NULL\n  AND MyTable.TheDate > GETDATE() - 10

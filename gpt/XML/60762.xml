@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <defaultDocument>\n      <files>\n        <add value="index.aspx" />\n      </files>\n    </defaultDocument>\n  </system.webServer>\n</configuration>

@@ -1,0 +1,1 @@
+public IActionResult Login(LoginViewModel model)\n{\n    // Perform user authentication logic\n    var identity = new GenericIdentity(model.Username);\n    var principal = new GenericPrincipal(identity, null);\n    Thread.CurrentPrincipal = principal;\n\n    // Set HttpContext.Current.User if using ASP.NET\n    HttpContext.User = principal;\n\n    // Continue with login logic\n}

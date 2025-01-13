@@ -1,0 +1,1 @@
+// Controller1.php\n$data['td_color'] = 'red';\n$this->load->view('your_view', $data);\n\n// Controller2.php\n$data['td_color'] = 'blue';\n$this->load->view('your_view', $data);

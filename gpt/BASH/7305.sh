@@ -1,0 +1,1 @@
+cat your-key.pem your-cert.pem > your-combined.pem

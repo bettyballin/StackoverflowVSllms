@@ -1,1 +1,0 @@
-/// Round up to next higher power of 2 (return x if it's already a power\n/// of 2).\ninline int\npow2roundup (int x)\n{\n    if (x < 0)\n        return 0;\n    --x;\n    x |= x >> 1;\n    x |= x >> 2;\n    x |= x >> 4;\n    x |= x >> 8;\n    x |= x >> 16;\n    return x+1;\n}

@@ -1,0 +1,1 @@
+<%\nDim myComComponent\nSet myComComponent = Server.CreateObject("YourNamespace.MyComComponent")\nDim physicalPath\nphysicalPath = myComComponent.GetMapPath("/somelocation")\nResponse.Write("Physical path: " & physicalPath)\nSet myComComponent = Nothing\n%>

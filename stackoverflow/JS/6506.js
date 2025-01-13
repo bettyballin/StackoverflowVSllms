@@ -1,1 +1,0 @@
-blogLink = $("ul.mainnav li.blog a").click(function () {\n    $("#tagcloud").show();\n});\n$("ul.mainnav li a").not(blogLink).click(function () {\n    $("#tagcloud").hide();\n});

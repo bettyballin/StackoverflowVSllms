@@ -1,0 +1,1 @@
+CREATE TABLE bookings (\n    id INTEGER PRIMARY KEY,\n    start_time TEXT,\n    end_time TEXT\n);

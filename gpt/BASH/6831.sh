@@ -1,0 +1,1 @@
+* * * * * /usr/bin/python3 /path/to/schedule_tasks.py

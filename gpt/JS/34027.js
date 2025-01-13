@@ -1,0 +1,1 @@
+function AddContent(content) {\n    // Create the new element using jQuery\n    var $div = $('<div>').html(content);\n    \n    // Append the new element to the target area\n    $div.appendTo($("#contentAreas"));\n    \n    // Initially hide the element\n    $div.hide();\n    \n    // Fade in the element\n    $div.fadeIn("slow");\n}

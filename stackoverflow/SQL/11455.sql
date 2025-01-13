@@ -1,1 +1,0 @@
-(SELECT MAX(maktipi) FROM TH_Islem WHERE refNo = @refNo )

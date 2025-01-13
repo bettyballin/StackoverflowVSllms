@@ -1,0 +1,1 @@
+public void Reset()\n{\n    // Log the callstack or any relevant details\n    System.Diagnostics.StackTrace stackTrace = new System.Diagnostics.StackTrace(true);\n    System.Diagnostics.Debug.WriteLine(stackTrace.ToString());\n\n    // Additional logging\n    System.Diagnostics.Debug.WriteLine("Reset method called");\n\n    _form.Reset();\n}

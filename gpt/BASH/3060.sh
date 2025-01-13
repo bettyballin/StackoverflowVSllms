@@ -1,0 +1,1 @@
+export LANG=en_US.UTF-8\nexport LC_ALL=en_US.UTF-8

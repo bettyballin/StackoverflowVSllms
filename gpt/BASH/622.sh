@@ -1,0 +1,1 @@
+firefox --disable-web-security --user-data-dir="/path/to/temp/data"

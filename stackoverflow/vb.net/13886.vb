@@ -1,1 +1,0 @@
-rtbMain.Lines(lineNumber)

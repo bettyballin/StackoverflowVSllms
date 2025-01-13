@@ -1,0 +1,1 @@
+using Shell32;\n\nclass Program\n{\n    static void Main()\n    {\n        Shell shell = new Shell();\n        Folder folder = shell.NameSpace(11); // 11 corresponds to the Start Menu\n        if (folder != null)\n        {\n            string path = folder.Self.Path;\n            System.Windows.Forms.MessageBox.Show(path);\n        }\n    }\n}

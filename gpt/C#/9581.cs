@@ -1,0 +1,1 @@
+// Example of simple logging\ntry\n{\n    // Your application code\n}\ncatch (Exception ex)\n{\n    System.IO.File.WriteAllText("error_log.txt", ex.ToString());\n    MessageBox.Show("An error occurred. Please check the error_log.txt file for details.");\n}

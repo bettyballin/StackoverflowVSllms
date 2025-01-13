@@ -1,0 +1,1 @@
+# Using a lambda\nmultiply = lambda x, y: x * y\nprint(multiply(2, 3))  # Output: 6\n\n# Using a regular function\ndef multiply(x, y):\n    return x * y\n\nprint(multiply(2, 3))  # Output: 6

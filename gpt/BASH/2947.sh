@@ -1,0 +1,1 @@
+ab -n 1000 -c 10 http://testserver/submitdata?ax=value1&ay=value2&az=value3

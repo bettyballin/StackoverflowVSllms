@@ -1,0 +1,1 @@
+using System;\n\nclass Program\n{\n    static void Main()\n    {\n        Console.OutputEncoding = System.Text.Encoding.UTF8;\n        Console.WriteLine("Copyright \u00A9 2023 YourCompanyName");\n    }\n}

@@ -1,1 +1,0 @@
-Regex.Replace(fileContentString, "(?<=SendersTimeSeriesIdentification:\s.*)[_\W]", "0")

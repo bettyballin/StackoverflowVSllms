@@ -1,0 +1,1 @@
+<?php\n$_MY_SUPERGLOBAL = [\n    'varname' => 'your_value'\n];\n?>

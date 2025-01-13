@@ -1,1 +1,0 @@
-row = dao().create(id);

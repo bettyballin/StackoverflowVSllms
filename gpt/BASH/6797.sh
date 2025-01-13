@@ -1,0 +1,1 @@
+set PATH=C:\path\to\dll\directory;%PATH%

@@ -1,0 +1,1 @@
+# Enable UEFI Secure Boot in BIOS settings\n# Use tools like 'mokutil' to manage keys\nsudo mokutil --list-enrolled

@@ -1,1 +1,0 @@
-yum install gcc gcc-c++ kernel-devel

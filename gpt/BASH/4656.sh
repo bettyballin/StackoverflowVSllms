@@ -1,0 +1,1 @@
+sudo iptables -A OUTPUT -m cgroup --cgroup 0x00110011 -p tcp --dport 80 -j REJECT

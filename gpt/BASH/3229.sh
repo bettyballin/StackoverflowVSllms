@@ -1,0 +1,1 @@
+sudo systemctl start mysql\n    # or\n    sudo service mysql start

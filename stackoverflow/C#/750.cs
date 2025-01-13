@@ -1,1 +1,0 @@
-btnCalendarToggle.Text = "\u25BC";

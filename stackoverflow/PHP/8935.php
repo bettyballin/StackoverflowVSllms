@@ -1,1 +1,0 @@
-$result = array();\nparse_str($queryString, $result)\n$filters = $result['filter'];\n\nforeach($filters as $filter) {\n// your code\n}

@@ -1,1 +1,0 @@
-select whatevercolumnsyouwant\n  from client\n  join profile using (profile_id)\n  join email on client.profile_id = email.profile_id\n            and email.primary = 1\n  join phone on client.profile_id = phone.profile_id\n            and phone.primary = 1\nwhere client.id = :whateverclientid

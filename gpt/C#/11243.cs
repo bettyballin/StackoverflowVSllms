@@ -1,0 +1,1 @@
+string imageDirectory = System.IO.Path.Combine(Application.LocalUserAppDataPath, "Images");\nif (!System.IO.Directory.Exists(imageDirectory))\n{\n    System.IO.Directory.CreateDirectory(imageDirectory);\n}\n\n// Now you can use imageDirectory to access your images

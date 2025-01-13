@@ -1,0 +1,1 @@
+public ActionResult Index()\n    {\n        var model = new HomeModel\n        {\n            Greeting = "Hello, World!"\n            // Populate other properties\n        };\n\n        return View(model);\n    }

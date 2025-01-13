@@ -1,0 +1,1 @@
+cd C:\path\to\your\dll\nregasm /codebase YourComponent.dll

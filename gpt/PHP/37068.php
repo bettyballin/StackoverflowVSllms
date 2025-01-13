@@ -1,0 +1,1 @@
+<?php\nnamespace String;\n\nfunction match($string1, $string2)\n{\n    // Function definition\n}\n\nnamespace AnotherNamespace;\n\nfunction anotherFunction()\n{\n    // Function definition\n}\n?>

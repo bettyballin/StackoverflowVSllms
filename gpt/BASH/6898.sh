@@ -1,0 +1,1 @@
+dotnet new worker -n MyWorkerService

@@ -1,1 +1,0 @@
-screen -dr -X screen sleep 20

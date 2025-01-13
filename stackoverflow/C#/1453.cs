@@ -1,1 +1,0 @@
-switch (args[0])\n{\n    case "UserID":\n        Console.Write("UserID");\n        break;\n    case "PackageID":\n        Console.Write("PackageID");\n        break;\n    case "MVRType":\n        if (args[1] == "None")\n            Console.Write("None");\n        else\n            goto default;\n        break;\n    default:\n        Console.Write("Default");\n        break;\n}

@@ -1,0 +1,1 @@
+LogParser.exe "SELECT * FROM <path_to_log_files> WHERE cs-uri-stem LIKE '%.ashx'" -i:IISW3C

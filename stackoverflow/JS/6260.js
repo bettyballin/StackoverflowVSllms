@@ -1,1 +1,0 @@
-new Ajax.Request(baseurl + 'MyMethod', {\n        method: 'POST',\n        postBody: '{"foo":4, "bar":"test"}',\n        encoding: "UTF-8",\n        contentType: "application/json;",\n        onSuccess: function(result) {\n            alert(result.responseJSON.d); \n        },\n        onFailure: function() {\n            alert("Error");\n        }\n    });

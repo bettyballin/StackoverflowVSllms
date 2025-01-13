@@ -1,1 +1,0 @@
-public function save($siteObj) \n {\n     // Save the passed object.\n\n     $sql = "UPDATE site SET isPrimary = 1 WHERE id != ?";\n\n     $stmt = new PDO_Statement($sql);\n\n     $stmt->execute($siteObj->id);\n\n }

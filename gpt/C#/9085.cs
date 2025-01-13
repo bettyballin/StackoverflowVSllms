@@ -1,0 +1,1 @@
+using System;\nusing System.Web.UI;\n\npublic partial class Default : Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n    }\n}

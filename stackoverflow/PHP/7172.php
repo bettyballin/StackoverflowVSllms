@@ -1,1 +1,0 @@
-$array= array('first' => array('bazi1'), 'second' => array('foo1'), 'third' => array('foo2') );\nfunction modify_foo(&$item, $key)\n{\n   $item = str_replace('foo', 'foo-bar', $item);\n}\narray_walk_recursive( $array, 'modify_foo' );

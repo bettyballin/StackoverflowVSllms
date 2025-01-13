@@ -1,0 +1,1 @@
+$new_text = preg_replace('/^>.*$/m', '<font color="grey">$0</font>', $text);

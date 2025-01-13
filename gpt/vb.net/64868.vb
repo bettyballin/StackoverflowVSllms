@@ -1,0 +1,1 @@
+Public Class Domain\n\n    Private _property As SomeOtherDomainObject\n\n    Public Property SomeProperty As SomeOtherDomainObject\n        Get\n            Return _property\n        End Get\n        Set(value As SomeOtherDomainObject)\n            _property = value\n        End Set\n    End Property\n\nEnd Class

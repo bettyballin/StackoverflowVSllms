@@ -1,0 +1,1 @@
+BACKUP DATABASE [WSS_Content] TO DISK = 'C:\Backup\WSS_Content.bak'\n   BACKUP DATABASE [SharePoint_Config] TO DISK = 'C:\Backup\SharePoint_Config.bak'

@@ -1,1 +1,0 @@
-[i for i,x in enumerate(testlist) if x == 1]

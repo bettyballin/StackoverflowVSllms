@@ -1,0 +1,1 @@
+SELECT REGEXP_SUBSTR(\n       'ABC has detected a change in the status of one of your products in the state of KS. CURRENT STATUS: DELINQUENT', \n       'DELINQUENT'\n   ) AS status\n   FROM dual;

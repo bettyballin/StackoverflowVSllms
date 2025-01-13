@@ -1,0 +1,1 @@
+chmod +x /path/to/cgi-bin/test.cgi

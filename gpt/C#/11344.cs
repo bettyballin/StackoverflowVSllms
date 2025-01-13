@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n   {\n       if (!Request.IsSecureConnection)\n       {\n           string url = "https://" + Request.ServerVariables["HTTP_HOST"] + Request.RawUrl;\n           Response.Redirect(url);\n       }\n   }

@@ -1,0 +1,1 @@
+using System.IO;\n\n   public void WriteBinaryDataToMemoryStream(byte[] data)\n   {\n       using (MemoryStream memoryStream = new MemoryStream())\n       {\n           memoryStream.Write(data, 0, data.Length);\n           // Use memoryStream as needed\n       }\n   }

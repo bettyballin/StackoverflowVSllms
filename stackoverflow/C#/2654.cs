@@ -1,1 +1,0 @@
-public class DynamicResult\n{\n  public DateTime OrderDate {get;set;}\n  public decimal? Location1 {get;set;}\n  public decimal? Location2 {get;set;}\n//..\n  public decimal? Location100 {get;set;}\n}

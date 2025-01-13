@@ -1,1 +1,0 @@
-BEGIN TRANSACTION\nUPDATE accounts set balance = balance - amount WHERE ac_num = 101\nUPDATE accounts set balance = balance + amount WHERE ac_num = 102\nCOMMIT TRANSACTION

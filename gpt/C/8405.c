@@ -1,0 +1,1 @@
+if (in_len > dst_len) {\n    // Handle error\n}\nmemcpy(dst, src, in_len);

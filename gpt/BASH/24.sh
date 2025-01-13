@@ -1,0 +1,1 @@
+ssh user@remote_host 'head -n 20 /path/to/remote/file | tail -n 10'

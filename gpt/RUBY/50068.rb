@@ -1,0 +1,1 @@
+def your_action\n  # Your action code here\n\n  respond_to do |format|\n    format.js # This will look for a corresponding .js.erb template\n  end\nend

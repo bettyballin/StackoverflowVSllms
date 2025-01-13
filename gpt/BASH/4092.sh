@@ -1,0 +1,1 @@
+sudo yum install php-gd\nsudo systemctl restart httpd   # or restart your web server

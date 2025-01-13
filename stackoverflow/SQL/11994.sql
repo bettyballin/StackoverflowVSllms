@@ -1,1 +1,0 @@
-\nCREATE TEMPORARY TABLE myTopCustomers\n   SELECT customers.*,count(*) num from customers join purchases using(customerID)\n   join items using(itemID) GROUP BY customers.ID HAVING num > 10;

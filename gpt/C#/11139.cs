@@ -1,0 +1,1 @@
+@helper HasErrors(ViewDataDictionary viewData)\n{\n    bool hasErrors = viewData.ModelState.Values.Any(x => x.Errors.Count > 0);\n    return hasErrors;\n}

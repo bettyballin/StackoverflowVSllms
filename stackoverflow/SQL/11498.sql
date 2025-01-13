@@ -1,1 +1,0 @@
-`Select udfConcatName(First, Middle, Last) from foo`

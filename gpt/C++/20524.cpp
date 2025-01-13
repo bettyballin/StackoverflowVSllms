@@ -1,0 +1,1 @@
+// PLDHashNumber\n// nsDiskCache::Hash(const char * key)\n// {\n//     PLDHashNumber h = 0;\n//     for (const PRUint8* s = (PRUint8*) key; *s != '\0'; ++s)\n//         h = PR_ROTATE_LEFT32(h, 4) ^ *s;\n//     return (h == 0 ? ULONG_MAX : h);\n// }

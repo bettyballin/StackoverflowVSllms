@@ -1,0 +1,1 @@
+-- Example of a simple row-level lock\n    LOCK TABLES messages WRITE;\n    \n    -- Perform your message insert/update operations here\n    \n    UNLOCK TABLES;

@@ -1,0 +1,1 @@
+const API_URLS = {\n    getUsers: '/api/users',\n    getUserById: (id) => `/api/users/${id}`,\n    createUser: '/api/users',\n    updateUser: (id) => `/api/users/${id}`,\n    deleteUser: (id) => `/api/users/${id}`\n};\n\n// Usage Example\nfetch(API_URLS.getUsers)\n    .then(response => response.json())\n    .then(data => console.log(data));

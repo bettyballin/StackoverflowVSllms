@@ -1,0 +1,1 @@
+select NVL(t1.a, 0) + NVL(t2.b, 0) as sum\nfrom (select (aa + bb) a, id from table_x where cc = 'on') t1\nright join table_y t2 on t1.id = t2.id;

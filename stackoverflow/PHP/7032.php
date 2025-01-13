@@ -1,1 +1,0 @@
-curl_setopt(CURLOPT_RETURNTRANSFER, true);

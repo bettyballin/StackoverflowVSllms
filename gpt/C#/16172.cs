@@ -1,0 +1,1 @@
+string settingValue = ConfigurationManager.AppSettings["MySetting"];

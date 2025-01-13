@@ -1,1 +1,0 @@
-// this is an array of default values for the fields that could be in the POST\n$defaultValues = array(\n    'table_of_contents' => '',\n    'length' => 25,\n    'lossless_copy' => false,\n);\n$data = array_merge($defaultValues, $_POST);\n// $data is now the post with all the keys set

@@ -1,1 +1,0 @@
-if($row->parent_category_id != 0) {\n    $text .= "    ";\n}

@@ -1,0 +1,1 @@
+strlen('foo'); // valid\n      strlen 'foo'; // invalid

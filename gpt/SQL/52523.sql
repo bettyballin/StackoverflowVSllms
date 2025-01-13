@@ -1,0 +1,1 @@
+DECLARE @bit BIT = 1; -- Change this value to 0 to test the other condition\n\nSELECT *\nFROM your_table\nWHERE (column = 1 AND @bit = 1) OR (@bit = 0);

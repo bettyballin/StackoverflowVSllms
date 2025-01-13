@@ -1,1 +1,0 @@
-SELECT DISTINCT DOC.ID_Kandidat, IDXS.* FROM\nOPENQUERY([GRIP-SERVER],'select FileName, path, size, vpath from "GRIP-SERVER"."Web2"..SCOPE() where\ncontains(''"reiseportal*"'')') AS IDXS INNER JOIN\ntblK_Dokumente AS DOC\nON DOC.Link = IDXS.[FileName]\nORDER BY ID_Kandidat

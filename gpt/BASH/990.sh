@@ -1,0 +1,1 @@
+vcbuild.exe myproject.vcproj "Release|Win32" /ORDER:orderfile.txt

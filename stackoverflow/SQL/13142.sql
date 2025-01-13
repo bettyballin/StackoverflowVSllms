@@ -1,1 +1,0 @@
-select t1.make, t1.model, t1.year, t1.other_cols\nfrom table t1\nwhere year = (select max(year) from table t2\n              where t2.make = t1.make\n              and t2.model = t1.model\n             );

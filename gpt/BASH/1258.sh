@@ -1,0 +1,1 @@
+$env:SVN_CMD_DEBUG = 1

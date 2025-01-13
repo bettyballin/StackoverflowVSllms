@@ -1,0 +1,1 @@
+pip install purecloud-platform-client-v2

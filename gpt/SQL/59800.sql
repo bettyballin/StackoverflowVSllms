@@ -1,0 +1,1 @@
+-- Enable Unified Auditing\nALTER SYSTEM SET AUDIT_TRAIL=DB,EXTENDED SCOPE=SPFILE;\n\n-- Restart the database\nSHUTDOWN IMMEDIATE;\nSTARTUP;\n\n-- Create an audit policy\nCREATE AUDIT POLICY my_audit_policy\n  ACTIONS ALL ON hr.employees;\n\n-- Enable the audit policy\nAUDIT POLICY my_audit_policy;

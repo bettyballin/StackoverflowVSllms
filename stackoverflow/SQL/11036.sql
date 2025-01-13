@@ -1,1 +1,0 @@
-SELECT\n    CASE WHEN Score BETWEEN 0 AND 100 THEN Score\n        WHEN Score < 0 THEN 0\n        ELSE 100 END as BoundScore\nFROM YourTable

@@ -1,1 +1,0 @@
->>> from datetime import datetime\n>>> datetime.now(pytz.timezone("Australia/Melbourne")) \\n            .replace(hour=0, minute=0, second=0, microsecond=0) \\n            .astimezone(pytz.utc)

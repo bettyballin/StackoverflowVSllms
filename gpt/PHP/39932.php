@@ -1,0 +1,1 @@
+if ($p->begin_document("large_output.pdf", "optimize=true") == 0) {\n       die("Error: " . $p->get_errmsg());\n   }

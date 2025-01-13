@@ -1,1 +1,0 @@
-$text = "<TEXTFORMAT LEADING='2'><P ALIGN='LEFT'><FONT FACE='Verdana' style='font-size:10' COLOR='#0B333C'>My name's Mark</FONT></P></TEXTFORMAT>";\necho preg_replace('/<([^<>]+)>/e', '"<" . str_replace("\\\\\'", \'"\', "$1") . ">"', $text);

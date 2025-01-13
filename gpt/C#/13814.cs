@@ -1,0 +1,1 @@
+// Example configuration for connecting to an intermediary LDAP\nDirectoryEntry ldapConnection = new DirectoryEntry("LDAP://intermediary-ldap-server");\nldapConnection.Username = "yourUsername";\nldapConnection.Password = "yourPassword";\n\n// Use this connection in your MOSS configuratio

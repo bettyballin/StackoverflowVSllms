@@ -1,0 +1,1 @@
+public class YourDbContext : DbContext\n{\n    public DbSet<YourEntityClass> Entities { get; set; }\n}\n\nusing (var context = new YourDbContext())\n{\n    var entity = new YourEntityClass { Property = "Value" };\n    context.Entities.Add(entity);\n    context.SaveChanges();\n}

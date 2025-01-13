@@ -1,1 +1,0 @@
-$(".body_content p:first").addClass("blueStuff");

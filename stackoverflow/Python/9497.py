@@ -1,1 +1,0 @@
-def getReversedList(aList, end, start, step):\n    return aList[end:start if start!=-1 else None:step]

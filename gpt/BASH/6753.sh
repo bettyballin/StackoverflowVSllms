@@ -1,0 +1,1 @@
+set GIT_PROJECT_ROOT=e:\vc\git

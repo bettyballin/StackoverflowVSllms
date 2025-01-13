@@ -1,0 +1,1 @@
+dumpbin /dependents <path_to_executable>

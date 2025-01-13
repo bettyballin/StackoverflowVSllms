@@ -1,0 +1,1 @@
+' Assume your custom UserControl is named MyUserControl\nDim myControl As New MyUserControl()\n\n' Set properties for the control if needed\nmyControl.Name = "myDynamicControl"\nmyControl.Size = New Size(200, 100)\nmyControl.Location = New Point(10, 10)\n\n' Add the UserControl to the form's Controls collection\nMe.Controls.Add(myControl)

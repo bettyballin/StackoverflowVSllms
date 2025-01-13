@@ -1,0 +1,1 @@
+-- Index for the zip table\nCREATE INDEX idx_zip_lat_long ON zip (Latitude, Longitude);\nCREATE INDEX idx_zip_zipcode ON zip (zipcode);\n\n-- Index for the postalcode table\nCREATE INDEX idx_postalcode_lat_long ON postalcode (Latitude, Longitude);\nCREATE INDEX idx_postalcode_postalcode ON postalcode (postalcode);

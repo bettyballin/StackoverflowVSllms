@@ -1,1 +1,0 @@
-$xml = simplexml_load_file('file.xml');\n$result = $xml->xpath('//GROUP_ID');\nwhile(list(,$node) = each($result)) {\n    $id = (string) $node;\n    break; // optional\n}

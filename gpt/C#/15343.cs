@@ -1,0 +1,1 @@
+List<int> list1 = new List<int> { 1, 2, 3 };\n    List<int> list2 = new List<int> { 4, 5, 6 };\n    list1.AddRange(list2);\n    // list1 now contains: 1, 2, 3, 4, 5, 6

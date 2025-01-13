@@ -1,1 +1,0 @@
-wget --mirror --convert-links -w 1 http://www.example.com

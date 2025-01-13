@@ -1,1 +1,0 @@
-select AverageDate = cast(avg(cast(MyDateColumn as decimal(20, 10))) as datetime)\nfrom    MyTable

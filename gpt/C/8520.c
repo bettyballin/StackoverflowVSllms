@@ -1,0 +1,1 @@
+MyStruct* createMyStruct() {\n       MyStruct* ptr = malloc(sizeof(MyStruct));\n       // Initialize ptr\n       return ptr;\n   }\n\n   void destroyMyStruct(MyStruct* ptr) {\n       // Perform necessary cleanup\n       free(ptr);\n   }

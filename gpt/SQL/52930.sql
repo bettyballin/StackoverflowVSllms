@@ -1,0 +1,1 @@
+SELECT TO_CHAR(\n           NVL(arg1 - arg2, TO_DSINTERVAL('0 00:00:00')), \n           'S00 " " HH24:MI:SS.FF3'\n       ) AS formatted_interval\nFROM table1;

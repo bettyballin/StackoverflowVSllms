@@ -1,0 +1,1 @@
+public class MyDbContext : DbContext\n    {\n        public MyDbContext(DbContextOptions<MyDbContext> options) : base(options) { }\n\n        public DbSet<MyEntity> MyEntities { get; set; }\n    }

@@ -1,0 +1,1 @@
+curl -I http://machine001/Services/conversionService.asmx

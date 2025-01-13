@@ -1,1 +1,0 @@
-sed -i.bak -e 's%C://temp%//home//some//blah%' large_file.sql

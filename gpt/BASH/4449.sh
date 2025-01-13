@@ -1,0 +1,1 @@
+# Apply migrations for the test database\npython manage.py migrate --run-syncdb

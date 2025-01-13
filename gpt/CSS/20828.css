@@ -1,0 +1,1 @@
+label {\n    display: inline-block;\n    min-width: 10em; /* Adjust as needed */\n    text-align: right;\n    margin-right: 10px; /* Adjust as needed */\n}\n\ninput[type="checkbox"] {\n    vertical-align: middle;\n}

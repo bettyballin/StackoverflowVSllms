@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    var formValues = $('#yourFormId').serialize();\n    console.log(formValues);\n});

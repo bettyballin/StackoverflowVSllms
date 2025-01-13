@@ -1,0 +1,1 @@
+$MAT_HOME/MemoryAnalyzer -vmargs -Xmx4G -XX:-UseGCOverheadLimit

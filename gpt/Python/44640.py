@@ -1,0 +1,1 @@
+import re\n\n   def is_valid_email(email):\n       regex = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'\n       return re.match(regex, email) is not None\n\n   email = "example@example.com"\n   print(is_valid_email(email))

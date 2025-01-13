@@ -1,1 +1,0 @@
-function mysql2table($date) {\n    $new = explode("-",$date);\n    $a=array ($new[2], $new[1], $new[0]);\nreturn $n_date=implode("-", $a);\n}

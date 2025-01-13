@@ -1,0 +1,1 @@
+icacls "C:\path\to\your\files\*" /grant Users:F /T

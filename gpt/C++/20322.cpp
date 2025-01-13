@@ -1,0 +1,1 @@
+extern "C" __declspec(dllimport) int Add(int a, int b);

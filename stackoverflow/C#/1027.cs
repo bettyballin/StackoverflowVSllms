@@ -1,1 +1,0 @@
-public Form1()\n{\n    InitializeComponent();\n    checkedListBox1.Items.Add("Can't check me", CheckState.Indeterminate);\n}\n\nprivate void checkedListBox1_ItemCheck(object sender, ItemCheckEventArgs e)\n{\n    if (e.CurrentValue == CheckState.Indeterminate)\n    {\n        e.NewValue = CheckState.Indeterminate;\n    }\n}

@@ -1,0 +1,1 @@
+# Create a tarball without compression\ntar -cvf binaries.tar /path/to/binary/files\n\n# Import the tarball into SVN\nsvn import binaries.tar http://your_svn_repository/path/to/destination -m "Import binaries"

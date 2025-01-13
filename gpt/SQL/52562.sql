@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX UQ_Table_ID_RecordStatus\nON Table(ID)\nWHERE RecordStatus = 1;

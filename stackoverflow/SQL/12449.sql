@@ -1,1 +1,0 @@
-INSERT INTO Users(id, firstname, surname, ...)\n    SELECT id, firstname, surname, ...\n        FROM Customers;\nINSERT INTO Addresses(id, street1, street2, ...)\n    SELECT id, street1, street2, ...\n        FROM Customers;\nINSERT INTO Phone_Numbers(id, number, type, ...)\n    SELECT id, phone, type, ...\n        FROM Customers;

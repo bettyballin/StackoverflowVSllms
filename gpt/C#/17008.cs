@@ -1,0 +1,1 @@
+public interface IUnitOfWork : IDisposable\n    {\n        IRepository<Location> Locations { get; }\n        IRepository<Item> Items { get; }\n        void Commit();\n    }

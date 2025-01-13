@@ -1,0 +1,1 @@
+class User < ApplicationRecord\n  validate :password_cannot_be_equal_to_login\n\n  private\n\n  def password_cannot_be_equal_to_login\n    if password == login\n      errors.add(:password, "cannot be the same as the login")\n    end\n  end\nend

@@ -1,0 +1,1 @@
+SELECT headline, category_id\nFROM headlines\nWHERE category_id IN (list_of_category_ids)\nORDER BY category_id, headline;

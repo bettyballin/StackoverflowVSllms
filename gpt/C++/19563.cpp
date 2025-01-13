@@ -1,0 +1,1 @@
+struct Foo {\n  Foo(int i) {} // No default constructor\n};\n\nint main(void) {\n  std::list<Foo> l(10); // Error: Foo is not default-constructible\n}

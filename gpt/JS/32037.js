@@ -1,0 +1,1 @@
+(function(global) {\n       var myWidget = {};\n       \n       myWidget.uniqueVariable = 'value';\n       myWidget.uniqueFunction = function() {\n           // Function logic here\n       };\n       \n       global.myWidget = myWidget;\n   })(window);

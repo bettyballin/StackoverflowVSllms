@@ -1,1 +1,0 @@
-using (Stream s = new FileStream(fullFilePath, \n                                 FileMode.Open,\n                                 FileAccess.Read,\n                                 FileShare.ReadWrite))\n{\n  ...\n}

@@ -1,0 +1,1 @@
+<system.web>\n  <sessionState cookieless="UseCookies" />\n  <httpCookies requireSSL="false" sameSite="None" />\n</system.web>

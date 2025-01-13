@@ -1,0 +1,1 @@
+SELECT table1.Num, table2.id,*  \nFROM table1, table2  \nWHERE table1.Num = table2.id

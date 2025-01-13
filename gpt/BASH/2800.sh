@@ -1,0 +1,1 @@
+# Convert Excel to CSV using a command-line tool like ssconvert\n   ssconvert example.xlsx example.csv

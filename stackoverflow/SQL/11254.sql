@@ -1,1 +1,0 @@
-update  btd.dbo.tblpayroll\nset     empname = ( select Legal_Name\n                    from Com.dbo.Workers\n                    where  isnumeric(Employee_ID) = 1\n                           and convert(varchar,Employee_ID)\n                             = convert(varchar,empnum) \n                           and Legal_name is not NULL)\nwhere   empname is NULL

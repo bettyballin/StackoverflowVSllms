@@ -1,1 +1,0 @@
-def get_first_text_part(msg):\n    maintype = msg.get_content_maintype()\n    if maintype == 'multipart':\n        for part in msg.get_payload():\n            if part.get_content_maintype() == 'text':\n                return part.get_payload()\n    elif maintype == 'text':\n        return msg.get_payload()

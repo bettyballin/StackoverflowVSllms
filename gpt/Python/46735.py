@@ -1,0 +1,1 @@
+myList = [0]\n    myList[len(myList)-1] += 1  # Directly modifies the last element of myList\n    print(myList)  # Output: [1]

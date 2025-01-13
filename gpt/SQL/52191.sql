@@ -1,0 +1,1 @@
+CREATE TABLE FormSubmissions (\n    SubmissionID INT PRIMARY KEY IDENTITY,\n    SubmissionDate DATETIME DEFAULT GETDATE()\n);\n\nCREATE TABLE TextboxEntries (\n    EntryID INT PRIMARY KEY IDENTITY,\n    SubmissionID INT,\n    TextboxNumber INT,\n    TextboxValue NVARCHAR(MAX),\n    FOREIGN KEY (SubmissionID) REFERENCES FormSubmissions(SubmissionID)\n);

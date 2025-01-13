@@ -1,0 +1,1 @@
+Function CalculateTotal(a As Double, b As Double) As Double\n        CalculateTotal = a + b\n    End Functio

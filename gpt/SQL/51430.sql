@@ -1,0 +1,1 @@
+INSERT INTO Locations (Id, Name, GeoLocation)\nVALUES\n(1, 'Location1', geography::Point(47.6062, -122.3321, 4326)), -- Example coordinates for Seattle, WA\n(2, 'Location2', geography::Point(34.0522, -118.2437, 4326)), -- Example coordinates for Los Angeles, CA\n(3, 'Location3', geography::Point(40.7128, -74.0060, 4326)); -- Example coordinates for New York, NY

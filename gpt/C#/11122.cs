@@ -1,0 +1,1 @@
+private int myMethod_2()\n{\n    int result = someCall(someValue);\n    return result; // Set breakpoint here and modify 'result' in the Immediate Window\n}

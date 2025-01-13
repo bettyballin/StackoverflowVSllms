@@ -1,1 +1,0 @@
-select (datepart(dd,'2008-10-08')-1) / 7 + 1

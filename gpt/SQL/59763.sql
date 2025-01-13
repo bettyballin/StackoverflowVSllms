@@ -1,0 +1,1 @@
+DECLARE @xml XML;\nSET @xml = '<root><value>123</value></root>';\n\nSELECT @xml.value('(/root/value)[1]', 'int') AS Value;

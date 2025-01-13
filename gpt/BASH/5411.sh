@@ -1,0 +1,1 @@
+sudo iptables -A INPUT -i eth0 -s 192.168.1.0/24 -j ACCEPT\n   sudo iptables -A OUTPUT -o eth0 -d 192.168.1.0/24 -j ACCEPT

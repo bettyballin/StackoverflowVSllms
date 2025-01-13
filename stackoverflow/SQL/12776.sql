@@ -1,1 +1,0 @@
-SELECT    ID,\n          COALESCE(Col1, Col2, Col3) AS Col,\n          CASE COALESCE(Col1, Col2, Col3)\n              WHEN Col1 THEN 'Col1'\n              WHEN Col2 THEN 'Col2'\n              WHEN Col3 THEN 'Col3'\n              ELSE 'Unknown'\n          END AS Source\nFROM      MyTable

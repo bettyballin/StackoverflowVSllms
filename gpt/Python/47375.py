@@ -1,0 +1,1 @@
+# Encrypt a file\nwith open('path/to/input_file.txt', 'rb') as f:\n    status = gpg.encrypt_file(\n        f, recipients=['user@example.com'], output='path/to/encrypted_file.gpg'\n    )\n\n# Check if encryption was successful\nprint(f'Encryption successful: {status.ok}')\nprint(f'Status: {status.status}')\nprint(f'Stderr: {status.stderr}')

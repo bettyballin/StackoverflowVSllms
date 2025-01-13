@@ -1,0 +1,1 @@
+echo "restore_command = 'cp /path_to_wal_archive/%f %p'" > /path_to_data_directory/recovery.conf\n   echo "recovery_target_time = 'YYYY-MM-DD HH:MM:SS'" >> /path_to_data_directory/recovery.conf

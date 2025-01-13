@@ -1,1 +1,0 @@
-Dim dr As DbDataReader = Nothing

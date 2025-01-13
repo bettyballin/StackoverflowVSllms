@@ -1,0 +1,1 @@
+# Navigate to the Boost root directory\ncd path\to\boost\n\n# Clean previous builds\nb2 --clean\n\n# Build Boost with the appropriate toolset and configuration\nb2 toolset=msvc-8.0 variant=debug link=shared threading=multi --build-type=complete

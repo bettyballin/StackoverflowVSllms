@@ -1,0 +1,1 @@
+<?php\n// index.php\nsession_start();\ninclude 'db_config.php';\n\n// Your existing code\nif (!isset($_SESSION["logged_in"])) {\n    header('Location: login.php');\n    exit;\n}\n\n// Other code that uses $dbconn...\n?>

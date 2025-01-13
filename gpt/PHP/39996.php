@@ -1,0 +1,1 @@
+// Set MySQL to the user's time zone\n$timezone = 'America/Los_Angeles';\n$pdo->exec("SET time_zone = '$timezone'");

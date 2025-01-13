@@ -1,0 +1,1 @@
+ping -c 10 <centos_server_ip>\n   iperf3 -c <centos_server_ip>

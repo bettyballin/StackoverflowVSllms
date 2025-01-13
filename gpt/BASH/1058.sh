@@ -1,0 +1,1 @@
+ano ~/.bashrc\n   # or\n   nano ~/.zshrc

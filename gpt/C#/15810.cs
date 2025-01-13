@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    myDiv.Style["background-color"] = "red";\n    myDiv.Style["width"] = "200px";\n    myDiv.Style["height"] = "100px";\n    myDiv.Style["position"] = "absolute";\n    myDiv.Style["top"] = "50px";\n    myDiv.Style["left"] = "100px";\n}

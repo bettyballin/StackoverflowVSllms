@@ -1,0 +1,1 @@
+// Define your POCO with business logic methods\npublic class BusinessObject\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n\n    // Business logic method\n    public void Populate()\n    {\n        // Business logic here\n    }\n\n    // Another business logic method\n    public void Calculate()\n    {\n        // Calculation logic here\n    }\n}

@@ -1,1 +1,0 @@
-mk=# SELECT version();\n                                            version                                            \n-----------------------------------------------------------------------------------------------\n PostgreSQL 8.3.3 on i486-pc-linux-gnu, compiled by GCC cc (GCC) 4.2.3 (Ubuntu 4.2.3-2ubuntu7)\n(1 row)

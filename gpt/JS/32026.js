@@ -1,0 +1,1 @@
+var ajax = new Ajax.Request('server.php?store=11200&product=Meat', {\n    onSuccess: function(myData) {\n        whatever\n    }\n});

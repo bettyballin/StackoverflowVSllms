@@ -1,0 +1,1 @@
+class A<T>\n{\n    internal void Add(T obj) { }\n}\n\nclass C { }\n\nclass B<T> where T : C, new() // Adding 'new()' constraint to ensure T has a parameterless constructor\n{\n    public B()\n    {\n        A<T> a = new A<T>();\n        T obj = new T(); // Creating an instance of T\n        a.Add(obj); // This works because obj is of type T\n    }\n}

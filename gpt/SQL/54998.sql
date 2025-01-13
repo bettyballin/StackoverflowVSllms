@@ -1,0 +1,1 @@
+CREATE TABLE `session` (\n  `session_id` VARCHAR(128) NOT NULL,\n  `save_path` VARCHAR(128) NOT NULL,\n  `name` VARCHAR(128) NOT NULL,\n  `modified` INT(11) DEFAULT NULL,\n  `lifetime` INT(11) DEFAULT NULL,\n  `session_data` TEXT,\n  PRIMARY KEY (`session_id`, `save_path`, `name`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8;

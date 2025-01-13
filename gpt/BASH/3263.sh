@@ -1,0 +1,1 @@
+#!/bin/sh\nwhile true\ndo\n  nice -n 19 python server.py\n  sleep 1\ndone

@@ -1,0 +1,1 @@
+/* Non-language specific CSS */\n:root {\n  --search-header-image: url(/images/default/headers/search_lo.gif);\n}\n\n:root[lang="en"] {\n  --search-header-image: url(/images/en/headers/search_lo.gif);\n}\n\n:root[lang="de"] {\n  --search-header-image: url(/images/de/headers/search_lo.gif);\n}\n\n/* Other language variables can be added similarly */

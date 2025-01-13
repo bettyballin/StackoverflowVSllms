@@ -1,0 +1,1 @@
+/* Example CSS to remove the border */\n.navbar {\n    border: none; /* Removes any border */\n    padding: 0;   /* Resets padding */\n    margin: 0;    /* Resets margin */\n}

@@ -1,1 +1,0 @@
-SELECT\n    CONVERT(VARCHAR(10), YourDateColumn, 101),\n    COUNT(*)\nFROM\n    YourTable\nGROUP BY\n    CONVERT(VARCHAR(10), YourDateColumn, 101)

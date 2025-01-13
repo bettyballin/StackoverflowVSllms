@@ -1,0 +1,1 @@
+sudo yum groupinstall "Development Tools"\n   sudo yum install freetds freetds-devel libjpeg-devel zlib-devel

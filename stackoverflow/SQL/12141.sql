@@ -1,1 +1,0 @@
-select *\nfrom (\n    select * \n    from mytable\n) subquery

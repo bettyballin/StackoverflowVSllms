@@ -1,1 +1,0 @@
-$('.klik').click(function() { alert('test'); });

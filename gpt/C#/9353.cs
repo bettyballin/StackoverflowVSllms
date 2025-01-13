@@ -1,0 +1,1 @@
+Type oClassType = Type.GetTypeFromProgID("Your.ProgID.Here");

@@ -1,0 +1,1 @@
+protected void Session_End(Object sender, EventArgs e)\n{\n    var sessionObject = HttpContext.Current.Session["SessionObjectWrapper"] as IDisposable;\n    sessionObject?.Dispose();\n}

@@ -1,0 +1,1 @@
+// PHP index.php\n   <?php\n   $tasks = file_get_contents('http://rails-backend/tasks');\n   $tasks = json_decode($tasks, true);\n   ?>\n\n   <html>\n   <body>\n     <h1>Task List</h1>\n     <ul>\n       <?php foreach ($tasks as $task): ?>\n         <li><?php echo htmlspecialchars($task['title']); ?></li>\n       <?php endforeach; ?>\n     </ul>\n   </body>\n   </html>

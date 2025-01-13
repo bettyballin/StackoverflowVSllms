@@ -1,0 +1,1 @@
+public class ParentMap : ClassMap<Parent>\n{\n    public ParentMap()\n    {\n        Id(x => x.ID).GeneratedBy.Identity();\n        // other mappings\n    }\n}\n\npublic class ChildMap : SubclassMap<Child>\n{\n    public ChildMap()\n    {\n        KeyColumn("ID");\n        // other mappings\n    }\n}

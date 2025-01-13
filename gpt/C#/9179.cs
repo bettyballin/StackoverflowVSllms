@@ -1,0 +1,1 @@
+public class BloggingContext : DbContext\n    {\n        public DbSet<Blog> Blogs { get; set; }\n        public DbSet<Post> Posts { get; set; }\n\n        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)\n        {\n            optionsBuilder.UseSqlServer("your_connection_string_here");\n        }\n    }

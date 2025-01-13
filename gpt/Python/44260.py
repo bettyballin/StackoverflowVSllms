@@ -1,0 +1,1 @@
+def weighted_average(new_value, current_avg, alpha=0.1):\n       return alpha * new_value + (1 - alpha) * current_avg

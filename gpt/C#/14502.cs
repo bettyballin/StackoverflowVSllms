@@ -1,0 +1,1 @@
+public class HTTPModuleA : IHttpModule\n   {\n       public void Init(HttpApplication context)\n       {\n           // Initialization code here\n       }\n\n       public void Dispose()\n       {\n           // Cleanup code here\n       }\n   }

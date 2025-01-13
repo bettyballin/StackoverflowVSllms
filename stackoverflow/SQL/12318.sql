@@ -1,1 +1,0 @@
-EXECUTE IMMEDIATE  'CREATE GLOBAL TEMPORARY TABLE tmp_tab AS (' || query || ')';

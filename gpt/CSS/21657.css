@@ -1,0 +1,1 @@
+.clearfix::after {\n        content: "";\n        clear: both;\n        display: table;\n    }

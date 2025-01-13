@@ -1,0 +1,1 @@
+// Start a secure session\nsession_start();\nif (!isset($_SESSION['user_id'])) {\n    // Authenticate user and set session\n    $_SESSION['user_id'] = $user->id;\n}\n\n// On each request, check session\nif (isset($_SESSION['user_id'])) {\n    // User is authenticated\n} else {\n    // Deny access\n}

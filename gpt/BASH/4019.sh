@@ -1,0 +1,1 @@
+lsof /path/to/file

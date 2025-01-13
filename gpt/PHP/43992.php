@@ -1,0 +1,1 @@
+// In the Controller\n    $captcha = new Zend_Captcha_Image();\n    $captcha->setWordLen(6)\n            ->setTimeout(300)\n            ->generate();\n    $this->view->captcha = $captcha;

@@ -1,0 +1,1 @@
+using System.Runtime;\n\n   public class Program\n   {\n       public static void Main(string[] args)\n       {\n           ProfileOptimization.SetProfileRoot(@"C:\Path\To\Profile");\n           ProfileOptimization.StartProfile("Startup.Profile");\n           \n           // Application code\n       }\n   }

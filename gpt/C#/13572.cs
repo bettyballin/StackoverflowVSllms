@@ -1,0 +1,1 @@
+public interface IRepository<T> {\n       T getById(int id);\n       List<T> getAll();\n       void add(T entity);\n       void update(T entity);\n       void delete(int id);\n   }

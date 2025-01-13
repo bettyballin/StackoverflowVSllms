@@ -1,0 +1,1 @@
+CREATE TABLE Attendance (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    employee_id INT NOT NULL,\n    shift_id INT NOT NULL,\n    time_arrived TIME NULL,\n    time_left TIME NULL,\n    status ENUM('present', 'sick', 'no-show', 'other') DEFAULT 'present',\n    FOREIGN KEY (employee_id) REFERENCES Employees(id),\n    FOREIGN KEY (shift_id) REFERENCES Shifts(id)\n);

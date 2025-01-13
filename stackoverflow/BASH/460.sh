@@ -1,1 +1,0 @@
-mysqldump my_database > database.dump

@@ -1,0 +1,1 @@
+public class UserModel\n     {\n         [Required(ErrorMessage = "Name is required")]\n         [StringLength(50, ErrorMessage = "Name cannot be longer than 50 characters")]\n         public string Name { get; set; }\n         \n         [Range(18, 65, ErrorMessage = "Age must be between 18 and 65")]\n         public int Age { get; set; }\n     }

@@ -1,0 +1,1 @@
+(generic as DetailElement).DescEN = "Howdy";

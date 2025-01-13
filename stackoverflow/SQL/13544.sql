@@ -1,1 +1,0 @@
-dbms_output.put_line(v_temp_tabtype(i).myString);

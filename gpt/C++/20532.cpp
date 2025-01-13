@@ -1,0 +1,1 @@
+#include <windows.h>\n\nint main() {\n    // Add the directory containing DLLs to the search path\n    SetDllDirectory(L"C:\\Path\\To\\Your\\DLLs");\n\n    // Your service code here\n    // ...\n\n    // Remove the directory from the search path\n    SetDllDirectory(NULL);\n\n    return 0;\n}

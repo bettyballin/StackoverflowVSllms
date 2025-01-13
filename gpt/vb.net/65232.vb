@@ -1,0 +1,1 @@
+Sub ExampleMethod(ByVal firstName As String, ByVal lastName As String)\n    Console.WriteLine("Full Name: " & firstName & " " & lastName)\nEnd Sub\n\n' Using named arguments\nExampleMethod(firstName := "John", lastName := "Doe")

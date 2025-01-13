@@ -1,0 +1,1 @@
+sed -i '' '/\/\*\* ProjectName/,/ USA\./d' *.java

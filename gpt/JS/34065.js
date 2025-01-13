@@ -1,0 +1,1 @@
+function submitToServlet(newAction) {\n    document.userGameForm.action = newAction;\n    document.userGameForm.submit();\n}

@@ -1,1 +1,0 @@
-Process[] processes = Process.GetProcessesByName(processName);\nforeach(Process process in processes)\n{\n   process.Kill();\n}

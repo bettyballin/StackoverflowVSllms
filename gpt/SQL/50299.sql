@@ -1,0 +1,1 @@
+CREATE INDEX idx_tag_id ON tbl_tag_relations(tag_id);\nCREATE INDEX idx_news_id ON tbl_tag_relations(news_id);

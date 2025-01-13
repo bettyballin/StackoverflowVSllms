@@ -1,1 +1,0 @@
-SELECT  course, COUNT(DISTINCT student)\nFROM    course_enrolment\nGROUP BY course

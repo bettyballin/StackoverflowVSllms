@@ -1,0 +1,1 @@
+DECLARE @var int;\n   SELECT @var = ColumnName FROM TableName WHERE Condition;  -- Works with multiple rows but assigns the last value\n   SET @var = (SELECT ColumnName FROM TableName WHERE Condition);  -- Works only if the subquery returns a single value

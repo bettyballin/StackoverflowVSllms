@@ -1,1 +1,0 @@
-SELECT id, email, IF(active = 1, 'enabled', 'disabled') AS account_status FROM users

@@ -1,0 +1,1 @@
+RAILS_ENV=test rake db:drop db:create db:schema:load

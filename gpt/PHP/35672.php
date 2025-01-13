@@ -1,0 +1,1 @@
+$user = User::newFromName('USERNAME');\n    $user->addGroup('Human Resources');\n    $user->saveSettings();

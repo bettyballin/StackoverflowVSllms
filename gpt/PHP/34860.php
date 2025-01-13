@@ -1,0 +1,1 @@
+$similar = "tags LIKE '%one%' OR tags LIKE '%two%' OR tags LIKE '%three%'";

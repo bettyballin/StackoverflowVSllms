@@ -1,1 +1,0 @@
-SELECT tags.id, tags.tag_name, COUNT(*) AS num_tags\nFROM tags, examples_tags, examples\nWHERE tags.id = examples_tags.tag_id \n    and examples_tags.example_id=examples.id\n    and examples.category = 'english examples'\nGROUP BY tags.id, tags.tag_name

@@ -1,0 +1,1 @@
+// Storing data in session\nSession["WizardData"] = yourDataObject;\n\n// Retrieving data from session\nvar yourDataObject = Session["WizardData"] as YourDataType;\n\n// Check if data exists\nif (yourDataObject != null)\n{\n    // Process data\n}\nelse\n{\n    // Handle missing session data\n}

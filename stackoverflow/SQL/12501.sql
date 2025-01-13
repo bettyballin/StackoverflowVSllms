@@ -1,1 +1,0 @@
-SELECT Table_name,Table_rows FROM \ninformation_schema.tables\nWHERE TABLE_SCHEMA = 'yourdatabase'

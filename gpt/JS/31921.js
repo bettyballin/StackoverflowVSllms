@@ -1,0 +1,1 @@
+// Example: Simple jQuery event handling\n   $(document).ready(function() {\n       $('#exampleButton').click(function() {\n           alert('Button clicked!');\n       });\n   });

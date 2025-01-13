@@ -1,0 +1,1 @@
+objcopy --dump-section .data=a_data.o a.so\n   objcopy --dump-section .data=b_data.o b.so

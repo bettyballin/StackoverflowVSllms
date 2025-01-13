@@ -1,0 +1,1 @@
+// ClientApp.cpp\n#include <iostream>\n#include "MyLibrary.h"\n\nint main()\n{\n    int number = 5;\n    int square = calculateSquare(number);\n    std::cout << "The square of " << number << " is " << square << std::endl;\n    return 0;\n}

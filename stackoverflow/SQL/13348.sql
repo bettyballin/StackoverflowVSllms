@@ -1,1 +1,0 @@
-tb_jobseeker.created_at

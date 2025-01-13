@@ -1,0 +1,1 @@
+<?php\n   require_once 'users/init.php';\n   if (!hasPerm([2])) { // Replace '2' with the appropriate permission level\n       die("You do not have permission to view this page.");\n   }\n   ?>

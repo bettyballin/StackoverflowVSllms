@@ -1,0 +1,1 @@
+Public Interface IContainer\n    ' Define necessary methods and properties here\nEnd Interface

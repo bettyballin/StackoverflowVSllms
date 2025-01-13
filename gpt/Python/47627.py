@@ -1,0 +1,1 @@
+import cProfile\nimport pstats\n\ndef main():\n    # Your main code here\n    pass\n\nif __name__ == "__main__":\n    profiler = cProfile.Profile()\n    profiler.enable()\n    \n    main()\n    \n    profiler.disable()\n    stats = pstats.Stats(profiler)\n    stats.sort_stats(pstats.SortKey.TIME)  # You can choose other sorting keys like CUMULATIVE\n    stats.print_stats()

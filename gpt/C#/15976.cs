@@ -1,0 +1,1 @@
+using System.Web;\n\npublic class MyService\n{\n    private readonly HttpContextBase _context;\n\n    public MyService(HttpContextBase context)\n    {\n        _context = context;\n    }\n\n    public string GetCurrentUser()\n    {\n        return _context.User.Identity.Name;\n    }\n}

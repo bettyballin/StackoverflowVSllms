@@ -1,0 +1,1 @@
+sudo cntlm -c /etc/cntlm.conf

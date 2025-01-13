@@ -1,0 +1,1 @@
+public class PhoneService : IPhoneService\n{\n    public void CallNumber(string phoneNumber)\n    {\n        // Implementation to interact with your phone system\n        Console.WriteLine($"Calling {phoneNumber}...");\n    }\n}

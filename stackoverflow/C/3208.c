@@ -1,1 +1,0 @@
-//MBI5168\n#define SH_DIR_OE    DDRC\n#define SH_DIR_SDI   DDRC\n#define SH_DIR_CLK   DDRC\n#define SH_DIR_LE    DDRC\n\n#define SH_BIT_OE    0x08\n#define SH_BIT_SDI   0x01\n#define SH_BIT_CLK   0x02\n#define SH_BIT_LE    0x04\n\n#define SH_PORT_OE   PORTC\n#define SH_PORT_SDI  PORTC\n#define SH_PORT_CLK  PORTC\n#define SH_PORT_LE   PORTC

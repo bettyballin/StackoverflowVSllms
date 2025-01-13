@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', () => {\n    const rows = document.querySelectorAll('table tr');\n    rows.forEach((row, index) => {\n        if (index % 2 === 0) {\n            row.classList.add('even');\n        } else {\n            row.classList.add('odd');\n        }\n    });\n});

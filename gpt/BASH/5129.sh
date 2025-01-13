@@ -1,0 +1,1 @@
+chmod +x /path/to/your/cgi-bin/*.pl

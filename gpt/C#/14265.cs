@@ -1,0 +1,1 @@
+protected void CustomValidator1_ServerValidate(object source, ServerValidateEventArgs args)\n{\n    args.IsValid = false; // Always set to false to trigger the validation summary message\n}

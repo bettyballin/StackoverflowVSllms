@@ -1,1 +1,0 @@
-select \n    distinct \n    dateadd(day, -1 * DAY(datefield) + 1, datefield)\nFrom\n    datetable\norder by\n    dateadd(day, -1 * DAY(datefield) + 1, datefield) 

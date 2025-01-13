@@ -1,0 +1,1 @@
+CREATE TABLE Resumes (\n    Id INT PRIMARY KEY IDENTITY,\n    UserId INT,\n    FileName NVARCHAR(255),\n    Content VARBINARY(MAX)\n);

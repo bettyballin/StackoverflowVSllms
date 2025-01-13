@@ -1,0 +1,1 @@
+regasm YourComponent.dll /tlb:YourComponent.tlb

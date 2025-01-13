@@ -1,1 +1,0 @@
-def is_first_rar(filename)\n    if ((filename =~ /part(\d+)\.rar$/) == nil)\n        return (filename =~ /\.rar$/) != nil\n    else\n        return $1.to_i == 1\n    end\nend

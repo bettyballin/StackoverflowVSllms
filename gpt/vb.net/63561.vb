@@ -1,0 +1,1 @@
+Public Class MyClass\n    Public Shared Sub MySharedMethod()\n        Console.WriteLine("This is a shared method.")\n    End Sub\nEnd Class\n\n' Calling the shared method from the class type\nMyClass.MySharedMethod()\n\n' Calling the shared method from an instance of the class\nDim mc As New MyClass()\nmc.MySharedMethod()

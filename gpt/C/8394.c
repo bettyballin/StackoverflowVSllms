@@ -1,0 +1,1 @@
+FILE* f = fopen("blah", "w");\nif (f != NULL) {\n    // Use the file\n    fclose(f);\n}

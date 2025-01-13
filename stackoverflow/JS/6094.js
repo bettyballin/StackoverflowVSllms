@@ -1,1 +1,0 @@
-$('#content').html('');\n    $.ajax({\n          url:'twitterProxy.php?username=Anand_Dasgupta&results=3',\n            dataType: "json",\n            success: function(data) {\n                    $('#content').append('<p>'+data.rank+'</p>');\n            }\n    });});

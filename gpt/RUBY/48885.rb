@@ -1,0 +1,1 @@
+<%= link_to "Delete", employee_path(@employee), method: :delete, remote: true, data: { confirm: "Are you sure?" } %>

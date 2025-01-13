@@ -1,1 +1,0 @@
-$text = preg_replace('!/\*.*?\*/!s', '', $text);\n$text = preg_replace('/\n\s*\n/', "\n", $text);

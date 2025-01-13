@@ -1,0 +1,1 @@
+SELECT\nCASE WHEN fldField = 'YYY' THEN 'OTH' ELSE 'XXX' END AS newField\nFROM tmpTable;

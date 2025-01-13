@@ -1,0 +1,1 @@
+WITH tempt2 AS (\n    SELECT 'value1' AS col1, 'value2' AS col2\n    FROM dual\n    UNION ALL\n    SELECT 'value3' AS col1, 'value4' AS col2\n    FROM dual\n)\nSELECT t1.*, tempt2.col2\nFROM t1\nLEFT JOIN tempt2 ON t1.col1 = tempt2.col1;

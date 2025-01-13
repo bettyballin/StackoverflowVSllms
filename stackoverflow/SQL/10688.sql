@@ -1,1 +1,0 @@
-SELECT count(subadd.address) \nFROM (SELECT name, address, phone, from user) as subadd;

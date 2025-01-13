@@ -1,1 +1,0 @@
-public bool IsValid<TEntity>()\n{\n    // validation logic goes here\n}

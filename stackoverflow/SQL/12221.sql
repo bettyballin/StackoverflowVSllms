@@ -1,1 +1,0 @@
-declare @done bit\nwhile @done <> 1\n    begin\n    UPDATE ...\n    if @@rowcount = 0 set done = 1\n    end

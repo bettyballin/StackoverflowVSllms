@@ -1,1 +1,0 @@
-SELECT * FROM Table WHERE City LIKE "%Ft. Myers%" 

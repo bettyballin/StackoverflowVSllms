@@ -1,1 +1,0 @@
-__FUNCTION__ for undecorated names

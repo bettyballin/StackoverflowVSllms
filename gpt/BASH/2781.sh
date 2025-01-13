@@ -1,0 +1,1 @@
+# Download and extract the source code for Binutils 2.19\nwget http://ftp.gnu.org/gnu/binutils/binutils-2.19.tar.gz\ntar -xzvf binutils-2.19.tar.gz\n\n# Navigate to the extracted directory\ncd binutils-2.19\n\n# Configure the build\n./configure --target=psp --prefix=/usr/local/psp\n\n# Build and install\nmake\nmake install

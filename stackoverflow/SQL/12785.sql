@@ -1,1 +1,0 @@
-DECLARE @x xml = N'abcDEF!@4';\nSELECT @x.value('fn:upper-case(/text()[1])', 'nvarchar(10)');

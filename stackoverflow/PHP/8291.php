@@ -1,1 +1,0 @@
-# This empties $_SESSION\n$_SESSION = array();\n\nsession_start();\n\n$_SESSION['login']['email'] = "ntohuh";\n\necho '<pre>';\nprint_r($_SESSION);\necho '</pre>';

@@ -1,0 +1,1 @@
+while read -r line; do echo $line | awk '{print $3}'; done < in.txt | sort | uniq > out.txt

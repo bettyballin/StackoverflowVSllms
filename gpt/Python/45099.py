@@ -1,0 +1,1 @@
+import sys\n\nif len(sys.argv) > 1:\n    file_path = sys.argv[1]\n    with open(file_path, 'r') as file:\n        content = file.read()\n        print(content)

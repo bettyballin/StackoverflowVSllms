@@ -1,1 +1,0 @@
-List<ListItem> users = new List<ListItem>();\nforeach (SubscriptionUser su in subscriptionDetails.UserList)\n{\n    users.Add(new ListItem(su.FirstName + " " + su.LastName, su.EmailAddress));\n}\nddlPrimaryContact.DataTextField = "Text";\nddlPrimaryContact.DataValueField = "Value";\nddlPrimaryContact.DataSource = users;\nddlPrimaryContact.DataBind();

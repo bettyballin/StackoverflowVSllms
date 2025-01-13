@@ -1,0 +1,1 @@
+USE [master];\nGO\nCREATE LOGIN [YourLoginName] FROM WINDOWS;\nGO\n\nUSE [YourDatabaseName];\nGO\nCREATE USER [YourLoginName] FOR LOGIN [YourLoginName];\nGO

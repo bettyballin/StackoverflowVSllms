@@ -1,0 +1,1 @@
+private EventHandler _myEvent;\n    public event EventHandler MyEvent\n    {\n        add\n        {\n            _myEvent += value;\n            // Additional logic here\n        }\n        remove\n        {\n            _myEvent -= value;\n            // Additional logic here\n        }\n    }

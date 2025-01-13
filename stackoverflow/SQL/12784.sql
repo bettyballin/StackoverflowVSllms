@@ -1,1 +1,0 @@
-_____________\n          |__PROBLEMS__|          |__PEOPLE__|\n          |id <PK>     |          |          |\n          |person <FK> | -------->|          |\n          |problemType |          |_________ |\n          -------------- 

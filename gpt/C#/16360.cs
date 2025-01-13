@@ -1,0 +1,1 @@
+HtmlPage.Window.Invoke("callComMethod", "your parameter");

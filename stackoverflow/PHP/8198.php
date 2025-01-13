@@ -1,1 +1,0 @@
-session_start()\n$page = 1; // Page ID\nif(isset($_SESSION[$page]))\n{\n    // Do something if the person refreshed\n}\nelse\n{\n     $_SESSION[$page] = time();\n     // record hit.\n}

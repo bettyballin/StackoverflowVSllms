@@ -1,1 +1,0 @@
-$a = "Hi!";\n\n$a .= " I";\n$a .= " love";\n$a .= " StackOverflow";\n$a .= " a";\n$a .= " lot";\n\necho $a; // echos "Hi! I love StackOverflow a lot"

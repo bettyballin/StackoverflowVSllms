@@ -1,1 +1,0 @@
-$.get('http://example.com/data', {'foo':'bar'}, function(resonseData){\n    //code here will be called when the ajax call has completed\n})

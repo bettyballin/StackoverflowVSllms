@@ -1,0 +1,1 @@
+if (!isset($_SESSION['user_id']) || !is_int($_SESSION['user_id'])) {\n       // Handle invalid session data\n   }

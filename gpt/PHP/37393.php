@@ -1,0 +1,1 @@
+$array1 = [...]; // some array\n$array2 = [...]; // some other array\n\n$keywords = array_merge($array1, $array2);

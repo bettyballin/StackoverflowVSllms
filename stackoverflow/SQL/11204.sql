@@ -1,1 +1,0 @@
-select \n    t1.name, \n    t1.age as a, \n    count(t2.age) NumberSameAge\nfrom \n   tbl_students t1 inner join tbl_students t2\n    on t1.age=t2.age\nwhere \n   city = 'ny'\ngroup by t1.name, t1.age

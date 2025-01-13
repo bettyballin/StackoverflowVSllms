@@ -1,0 +1,1 @@
+<module>\n    <name>ExampleModule</name>\n    <version>1.0</version>\n    <dependencies>\n        <dependency>AnotherModule</dependency>\n    </dependencies>\n</module>

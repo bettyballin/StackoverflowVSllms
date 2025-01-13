@@ -1,0 +1,1 @@
+jar -cvf updated-application.war -C extracted-directory/ .

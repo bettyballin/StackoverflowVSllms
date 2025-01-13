@@ -1,0 +1,1 @@
+from myapp.models import MyModel\n\nqueryset = MyModel.objects.all()\nprint(queryset.query)

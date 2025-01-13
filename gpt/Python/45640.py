@@ -1,0 +1,1 @@
+import os\n\nconsumer_key = os.getenv('TWITTER_CONSUMER_KEY')\nconsumer_secret = os.getenv('TWITTER_CONSUMER_SECRET')\naccess_token = os.getenv('TWITTER_ACCESS_TOKEN')\naccess_token_secret = os.getenv('TWITTER_ACCESS_TOKEN_SECRET')

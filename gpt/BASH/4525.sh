@@ -1,0 +1,1 @@
+* * * * * cd /path/to/project/subdir && /usr/bin/php script.php

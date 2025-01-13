@@ -1,0 +1,1 @@
+#include <cstddef>\n\nint main() {\n    int* ptr = NULL; // or better use: int* ptr = nullptr; if using C++11 or later\n    return 0;\n}

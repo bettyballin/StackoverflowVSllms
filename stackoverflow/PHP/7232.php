@@ -1,1 +1,0 @@
-$items = array();\n\nwhile($row = mysql_fetch_array($result, MYSQL_BOTH)) {\n    $items[] = $row;\n}\necho 'Count of Order Items...', count($items);

@@ -1,1 +1,0 @@
-select\n    *\nfrom\n    posts p\n    left outer join (select post_id, max(image_id) as image_id \n        from postimages group by post_id) pi on\n        p.id = pi.post_id\n    left outer join images im on\n        pi.image_id = im.image_id

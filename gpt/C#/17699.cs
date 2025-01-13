@@ -1,0 +1,1 @@
+[AttributeUsage(AttributeTargets.Method)]\npublic class MessageHandlerAttribute : Attribute\n{\n    public MessageHandlerAttribute(string name)\n    {\n        HandlerName = name;\n    }\n\n    public string HandlerName { get; }\n}

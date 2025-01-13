@@ -1,0 +1,1 @@
+grep '\.important$' filelist.txt > important_files.txt

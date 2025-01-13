@@ -1,0 +1,1 @@
+// Register the COM server as per usual COM registration process\nextern "C" HRESULT __stdcall DllRegisterServer()\n{\n    // Registration code here\n}\n\nextern "C" HRESULT __stdcall DllUnregisterServer()\n{\n    // Unregistration code here\n}

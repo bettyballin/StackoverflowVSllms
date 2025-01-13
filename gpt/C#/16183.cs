@@ -1,0 +1,1 @@
+if (string.IsNullOrWhiteSpace(input))\n  {\n      throw new ArgumentException("Input cannot be empty or whitespace.", nameof(input));\n  }

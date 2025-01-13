@@ -1,1 +1,0 @@
-if (readOnlyFields.Contains(propertyName)) return false;\nelse return base.CanWriteProperty(propertyName);

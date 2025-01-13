@@ -1,0 +1,1 @@
+export LDFLAGS="-lresolv"\n./configure --with-apxs2=/usr/sbin/apxs --with-iconv=shared,/usr\nmake\nsudo make install

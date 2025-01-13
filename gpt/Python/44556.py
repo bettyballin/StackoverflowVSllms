@@ -1,0 +1,1 @@
+from rest_framework import viewsets\n   from .models import MyModel\n   from .serializers import MyModelSerializer\n\n   class MyModelViewSet(viewsets.ModelViewSet):\n       queryset = MyModel.objects.all()\n       serializer_class = MyModelSerializer

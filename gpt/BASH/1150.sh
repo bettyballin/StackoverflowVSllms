@@ -1,0 +1,1 @@
+ilmerge /out:CombinedLibrary.dll MyClassLibrary.dll MyWrapperLibrary.dll

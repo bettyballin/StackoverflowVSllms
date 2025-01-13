@@ -1,0 +1,1 @@
+import tempfile\n  with tempfile.TemporaryDirectory() as temp_dir:\n      temp_file_path = os.path.join(temp_dir, "temp_file.tmp")

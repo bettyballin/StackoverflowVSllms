@@ -1,0 +1,1 @@
+<?php\nif (isset($_GET['session_id'])) {\n    session_id($_GET['session_id']);\n}\nsession_start();\n\nif (!isset($_SESSION['counter'])) {\n    $_SESSION['counter'] = 0;\n}\n\n$_SESSION['counter']++;\n\necho "You have visited this page " . $_SESSION['counter'] . " times.";\necho " Your session ID is " . session_id();\n?>

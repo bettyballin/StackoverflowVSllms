@@ -1,0 +1,1 @@
+# Example string\ns = "123"\n\n# No conversion needed\nstr_val = str(s)\n\nprint(str_val)

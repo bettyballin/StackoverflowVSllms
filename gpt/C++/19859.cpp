@@ -1,0 +1,1 @@
+if (foo == static_cast<unsigned int>(~0)) {\n    ...\n}

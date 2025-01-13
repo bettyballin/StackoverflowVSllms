@@ -1,0 +1,1 @@
+@media (max-width: 600px) {\n        .container {\n            width: 100%;\n        }\n    }\n    @media (min-width: 601px) {\n        .container {\n            max-width: 1200px;\n            margin: 0 auto;\n        }\n    }

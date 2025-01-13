@@ -1,0 +1,1 @@
+g++ server.cpp -o server\ng++ client.cpp -o client

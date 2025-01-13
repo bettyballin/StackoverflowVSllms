@@ -1,0 +1,1 @@
+// Using plain JavaScript\nvar element = document.getElementById('myElement');\nvar value = element.getAttribute('data-custom-attr');\nelement.setAttribute('data-custom-attr', 'newValue');\n\n// Using jQuery\nvar $element = $('#myElement');\nvar value = $element.data('custom-attr');\n$element.data('custom-attr', 'newValue');

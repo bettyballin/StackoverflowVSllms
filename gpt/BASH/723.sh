@@ -1,0 +1,1 @@
+put local_file_path remote_file_path

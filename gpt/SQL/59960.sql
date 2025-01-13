@@ -1,0 +1,1 @@
+ALTER TABLE mytable NOLOGGING;\n\nINSERT /*+ APPEND */ INTO mytable\nSELECT /* Your data source here */;\nCOMMIT;

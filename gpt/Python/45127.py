@@ -1,0 +1,1 @@
+if instance.is_dirty(['field1']):\n    print("field1 has been modified.")

@@ -1,0 +1,1 @@
+ALTER TABLE AuditLog\nADD ModifiedBy VARCHAR(255),\n    ChangeReason VARCHAR(255);

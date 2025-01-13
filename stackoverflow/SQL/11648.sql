@@ -1,1 +1,0 @@
-with T_with_RN as\n    (select Department\n        , Category\n        , row_number() over (partition by Department order by count(*) Desc) as RN\n    from T\n    group by Department, Category)\nselect Department, Category\nfrom T_with_RN\nwhere RN = 1

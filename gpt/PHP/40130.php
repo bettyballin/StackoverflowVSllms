@@ -1,0 +1,1 @@
+// Using PDO_MySQL extension\ntry {\n    $pdo = new PDO("mysql:host=localhost;dbname=database", "user", "password");\n    // Set the PDO error mode to exception\n    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);\n    echo "Connected successfully"; \n} catch(PDOException $e) {\n    echo "Connection failed: " . $e->getMessage();\n}

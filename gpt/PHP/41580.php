@@ -1,0 +1,1 @@
+<?php\nheader('Content-Type: application/javascript');\n\n// Your PHP code to generate JavaScript here\necho "var myVar = 'Hello, World!';";\n?>

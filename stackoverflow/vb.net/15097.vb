@@ -1,1 +1,0 @@
-Dim cert2 As X509Certificate2\nDim ch As New X509Chain()\nch.Build(cert2)\n\nDim element As X509ChainElement\n\nFor Each element In ch.ChainElements\n    blob = element.Certificate.RawData()\nNext Element

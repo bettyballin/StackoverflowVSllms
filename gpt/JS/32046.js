@@ -1,0 +1,1 @@
+// Call pagemethod with token instead of user ID\nPageMethods.MyMethod(userToken, onSuccess, onFailure);\n\nfunction onSuccess(result) {\n    console.log("Success: " + result);\n}\n\nfunction onFailure(error) {\n    console.log("Error: " + error);\n}

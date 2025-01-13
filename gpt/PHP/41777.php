@@ -1,0 +1,1 @@
+$results = $db->query("SELECT id, name FROM table");\n\nif ($results !== false) {\n    foreach ($results as $index => $row) {\n        echo "Row $index: Name = " . $row['name'] . ", ID = " . $row['id'] . "<br>";\n    }\n} else {\n    echo "No results found.";\n}

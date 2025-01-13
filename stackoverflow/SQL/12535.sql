@@ -1,1 +1,0 @@
-SELECT a.*\nFROM Table as a\nJOIN (\n   SELECT ProductCode, SerialNumber, MAX(DatePurchased) as MaxDate \n   FROM Table\n   GROUP BY ProductCode, SerialNumber\n) as b ON\n   a.ProductCode = b.ProductCode\n   AND a.SerialNumber = b.SerialNumber\n   AND a.DatePurchased = b.MaxDate\nWHERE\n   a.CustomerID = 'xxx'

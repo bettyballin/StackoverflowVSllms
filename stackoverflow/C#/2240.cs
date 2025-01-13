@@ -1,1 +1,0 @@
-public partial class Window1 : INotifyPropertyChanged

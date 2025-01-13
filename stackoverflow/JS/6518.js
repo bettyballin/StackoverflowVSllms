@@ -1,1 +1,0 @@
-function Foo(givenId)\n{\n    var id = givenId;\n\n    this.Bar = function() {\n        WScript.Echo(id); //change this to alert(...)\n        }\n}\n\nvar foo = new Foo(52);\nfoo.Bar();

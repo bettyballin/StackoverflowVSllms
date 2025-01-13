@@ -1,0 +1,1 @@
+DECLARE @StartDate DATE = '2023-01-01';\nDECLARE @EndDate DATE = '2023-01-31';\n\nSELECT \n    (DATEDIFF(DAY, @StartDate, @EndDate) + 1)\n    - (DATEDIFF(WEEK, @StartDate, @EndDate) * 2)\n    - (CASE WHEN DATENAME(WEEKDAY, @StartDate) = 'Sunday' THEN 1 ELSE 0 END)\n    - (CASE WHEN DATENAME(WEEKDAY, @EndDate) = 'Saturday' THEN 1 ELSE 0 END) AS WorkDays;

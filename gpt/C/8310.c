@@ -1,0 +1,1 @@
+char recvbuf[512];\n   int recvbuflen = 512;\n   int bytesReceived = recv(ConnectSocket, recvbuf, recvbuflen, 0);\n   if (bytesReceived > 0) {\n       printf("Bytes received: %d\n", bytesReceived);\n       printf("Data: %.*s\n", bytesReceived, recvbuf);\n   }

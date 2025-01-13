@@ -1,0 +1,1 @@
+/* Reset margin and padding */\nbody, html {\n    margin: 0;\n    padding: 0;\n    overflow-x: hidden; /* Prevent horizontal scrolling */\n}\n\n/* Ensure content does not overflow */\n.container {\n    max-width: 100%;\n    overflow: hidden;\n}\n\n/* Example of fixing large bottom margin or padding */\nfooter {\n    margin-bottom: 0;\n    padding-bottom: 0;\n}

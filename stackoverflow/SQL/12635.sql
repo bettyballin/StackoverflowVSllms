@@ -1,1 +1,0 @@
-ALTER TABLE my_table ADD (last_update_time DATE);

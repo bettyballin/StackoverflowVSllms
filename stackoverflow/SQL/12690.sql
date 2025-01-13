@@ -1,1 +1,0 @@
-select i.quantity \nfrom inventory i, concession c\nwhere i.inventory_id = c.inventory_id and c.concession_id = cs.concession_id

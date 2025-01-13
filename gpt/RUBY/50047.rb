@@ -1,0 +1,1 @@
+# Install Rails\ngem install rails\n\n# Create a new Rails project\nrails new band_website\n\n# Navigate to the project directory\ncd band_website\n\n# Generate a controller\nrails generate controller Home index\n\n# Set up routes (config/routes.rb)\nroot 'home#index'\n\n# Start the Rails server\nrails server

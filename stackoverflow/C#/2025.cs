@@ -1,1 +1,0 @@
-var typed = from row in cxt.SomeFunction(123)\n            select new MyType {Id = row.Id, Name = row.Name, ...}

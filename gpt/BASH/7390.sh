@@ -1,0 +1,1 @@
+chmod -R +a# 0 "staff allow read,write,delete,add_file,add_subdirectory,delete_child,readattr,writeattr,readextattr,writeextattr,readsecurity,writesecurity,chown" /path/to/your/folder

@@ -1,1 +1,0 @@
-where col1 in (...) AND col2 in (...)

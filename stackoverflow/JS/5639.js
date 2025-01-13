@@ -1,1 +1,0 @@
-// no need to pass map or results div since\n// we are only interested in travel time.\nvar directions = new GDirections (); 

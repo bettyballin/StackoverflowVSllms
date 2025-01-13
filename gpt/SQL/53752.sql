@@ -1,0 +1,1 @@
+-- Example of Hash Join:\nSELECT /*+ USE_HASH(t1 t2) */ t1.*, t2.*\nFROM table1 t1\nJOIN table2 t2 ON t1.id = t2.id;\n\n-- Example of Merge Join:\nSELECT /*+ USE_MERGE(t1 t2) */ t1.*, t2.*\nFROM table1 t1\nJOIN table2 t2 ON t1.id = t2.id;

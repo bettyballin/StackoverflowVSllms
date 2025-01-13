@@ -1,1 +1,0 @@
-jetcomp.exe -src:"C:\input.mdb" -dest:"output.mdb"

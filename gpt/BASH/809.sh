@@ -1,0 +1,1 @@
+# Install MaxScale\n   sudo apt-get install maxscale\n\n   # Configure MaxScale with sharding rules\n   # Edit /etc/maxscale.cnf to set up service, router, and server configurations

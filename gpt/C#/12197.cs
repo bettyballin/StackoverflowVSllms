@@ -1,0 +1,1 @@
+amespace CommonLib\n{\n    public static class Utility\n    {\n        public static void YourMethod()\n        {\n            // Your method implementation here\n        }\n    }\n}

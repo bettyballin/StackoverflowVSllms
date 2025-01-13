@@ -1,1 +1,0 @@
-if @note.valid? and @task.save

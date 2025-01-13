@@ -1,0 +1,1 @@
+composer require --dev phpunit/phpunit\n   vendor/bin/phpunit --init

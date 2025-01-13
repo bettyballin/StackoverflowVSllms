@@ -1,0 +1,1 @@
+# Fit the mediator model\nmodel.M <- lm(M ~ X, data = data)\n\n# Fit the outcome model\nmodel.Y <- lm(Y ~ X + M, data = data)\n\n# Perform mediation analysis\nmed.out <- mediate(model.M, model.Y, treat = "X", mediator = "M", boot = TRUE, sims = 1000)\n\n# Summary of mediation analysis\nsummary(med.out)

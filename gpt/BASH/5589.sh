@@ -1,0 +1,1 @@
+#!/bin/bash\n\n   # Revert to default xmodmap\n   setxkbmap

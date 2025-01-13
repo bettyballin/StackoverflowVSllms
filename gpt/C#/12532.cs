@@ -1,0 +1,1 @@
+[StructLayout(LayoutKind.Sequential)]\n   public struct BIG_INPUT_STRC {\n       public int someValue;\n       public IntPtr buffer; // Use IntPtr for pointers\n   }\n\n   [StructLayout(LayoutKind.Sequential)]\n   public struct BIG_OUTPUT_STRC {\n       public int resultCode;\n       public IntPtr outputBuffer;\n   }

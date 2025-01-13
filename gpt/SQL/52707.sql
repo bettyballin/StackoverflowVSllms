@@ -1,0 +1,1 @@
+CREATE TABLE email_aliases (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    alias VARCHAR(255) NOT NULL,\n    real_email VARCHAR(255) NOT NULL,\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);

@@ -1,0 +1,1 @@
+string pattern = @"<title>(?<Title>.*?)</title>.*?<div class=""article"">(?<Text>.*?)</div>";\nRegex regex = new Regex(pattern, RegexOptions.Singleline);\n\nif (regex.IsMatch(html))\n{\n    Match match = regex.Match(html);\n    string title = match.Groups["Title"].Value;\n    string text = match.Groups["Text"].Value;\n    // Process the extracted title and text\n}

@@ -1,1 +1,0 @@
-# first, strip underscores\nCLEAN=${STRING//_/}\n# next, replace spaces with underscores\nCLEAN=${CLEAN// /_}\n# now, clean out anything that's not alphanumeric or an underscore\nCLEAN=${CLEAN//[^a-zA-Z0-9_]/}\n# finally, lowercase with TR\nCLEAN=`echo -n $CLEAN | tr A-Z a-z`

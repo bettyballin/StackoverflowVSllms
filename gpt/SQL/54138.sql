@@ -1,0 +1,1 @@
+CREATE TABLE InternalMail (\n    ID INT PRIMARY KEY AUTO_INCREMENT,\n    FromID INT,\n    FromType VARCHAR(10), -- 'Company' or 'Employee'\n    ToID INT,\n    ToType VARCHAR(10),   -- 'Company' or 'Employee'\n    Message TEXT,\n    -- other fields as required\n);

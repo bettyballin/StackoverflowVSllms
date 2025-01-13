@@ -1,1 +1,0 @@
-$num = 1;\n\n$list = array_fill(0, 5000, str_repeat('1234567890', $num));\n\n$before = microtime(true);\nfor ($i=0 ; $i<10000 ; $i++) {\n    $str = serialize($list);\n}\n$after = microtime(true);\n\nvar_dump($after-$before);\nvar_dump(memory_get_peak_usage());

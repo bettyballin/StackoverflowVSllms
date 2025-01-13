@@ -1,0 +1,1 @@
+truss -o output.txt beanstalkd -d -l hostip -p 11300

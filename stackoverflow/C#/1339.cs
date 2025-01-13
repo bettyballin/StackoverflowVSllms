@@ -1,1 +1,0 @@
-int row;\nButton btn = sender as Button;\nif (btn != null)\n{\n    row = Grid.GetRow(btn); // And you have the row number...\n}\nelse\n{\n    // A nasty error occurred...\n}

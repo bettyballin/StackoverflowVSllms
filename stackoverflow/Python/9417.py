@@ -1,1 +1,0 @@
-import re\ngrps = re.compile(r'CN=(\w+)').findall\n\ndef anyof(short_group_list, adu):\n  all_groups_of_user = set(g for gs in adu.get('memberOf',()) for g in grps(gs))\n  return sorted(all_groups_of_user.intersection(short_group_list))

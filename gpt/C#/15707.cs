@@ -1,0 +1,1 @@
+// Retrieving and decrypting the cookie value\nHttpCookie cookie = HttpContext.Current.Request.Cookies["MyCookie"];\nif (cookie != null)\n{\n    string encryptedValue = cookie.Value;\n    string decryptedValue = CookieEncryption.Decrypt(encryptedValue);\n    // Use the decrypted value as needed\n}

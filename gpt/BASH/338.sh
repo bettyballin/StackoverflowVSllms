@@ -1,0 +1,1 @@
+ldapsearch -x -H ldap://localhost -D "cn=admin,dc=example,dc=com" -w admin_password -b "dc=example,dc=com" "(objectclass=inetOrgPerson)"

@@ -1,1 +1,0 @@
-SELECT\n  p.PatientID,\n  v.VisitID,\n  v.HeartRate,\n  v.VisitDate\nFROM\n  Patient p\n  INNER JOIN Visit v ON p.PatientID = v.PatientID\nWHERE\n  v.VisitDate = (\n    SELECT MIN(VisitDate) \n    FROM Visit \n    WHERE PatientId = p.PatientId\n  )

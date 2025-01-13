@@ -1,0 +1,1 @@
+public void LoadConfig()\n   {\n       string configUrl = "http://configserver/config/CachePolicy.xml";\n       var configFile = new WebClient().DownloadString(configUrl);\n       // Process the configuration file\n   }

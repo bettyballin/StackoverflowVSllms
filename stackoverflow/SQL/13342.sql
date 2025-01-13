@@ -1,1 +1,0 @@
-create table month_value( \n    eid int not null, month int, year int,  value int );

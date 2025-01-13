@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION get_employee_name (p_employee_id IN NUMBER) \n   RETURN VARCHAR2\n   RESULT_CACHE\n   IS\n      l_employee_name employees.employee_name%TYPE;\n   BEGIN\n      SELECT employee_name INTO l_employee_name\n      FROM employees\n      WHERE employee_id = p_employee_id;\n      RETURN l_employee_name;\n   END get_employee_name;

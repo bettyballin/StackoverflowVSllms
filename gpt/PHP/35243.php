@@ -1,0 +1,1 @@
+class SomeOtherClass {\n    public function someMethod() {\n        $db = Database::getInstance();\n        $connection = $db->getConnection();\n        // Perform database operations with $connection\n    }\n}

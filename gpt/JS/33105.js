@@ -1,0 +1,1 @@
+<script>\n    var displayItemUrl = '@Url.Action("DisplayItem", "Home")';\n</script>

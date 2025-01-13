@@ -1,0 +1,1 @@
+tkprof <trace_file_name> <output_file_name>

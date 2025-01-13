@@ -1,0 +1,1 @@
+typedef struct MyType1* MyType1Handle;\ntypedef struct MyType2* MyType2Handle;

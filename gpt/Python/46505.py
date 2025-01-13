@@ -1,0 +1,1 @@
+import os\nimport signal\n\nPIPE_FILE = '/path/to/pipe'\nserver_pid = 1234  # Replace with the actual server PID\n\ndef Serve():\n    with pipe_lock:\n        if os.path.exists(PIPE_FILE):\n            os.unlink(PIPE_FILE)\n        os.mkfifo(PIPE_FILE)\n    os.kill(server_pid, signal.SIGUSR1)\n    with open(PIPE_FILE) as pipe:\n        for i in pipe:\n            print(i, end='')

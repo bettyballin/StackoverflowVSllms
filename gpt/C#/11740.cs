@@ -1,0 +1,1 @@
+// IRepository.cs\npublic interface IRepository<T>\n{\n    void Add(T entity);\n    void Remove(T entity);\n    T GetById(int id);\n    IEnumerable<T> GetAll();\n}\n\n// IProductRepository.cs (if you need specific methods for products)\npublic interface IProductRepository : IRepository<Product>\n{\n    IEnumerable<Product> GetProductsByCategory(string category);\n}

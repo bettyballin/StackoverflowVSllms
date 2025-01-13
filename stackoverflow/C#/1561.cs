@@ -1,1 +1,0 @@
-static ConfigurationSettings\n{\n     static String ConnectionString\n     {\n        get\n        {\n           var result = "TESTCONNECTIONSTRING";\n           if (ConfigurationManager.ConnectionStrings["SOMEKEY"] != null)\n               result = ConfigurationManager.ConnectionStrings["SOMEKEY"];\n           return result;\n     }\n}

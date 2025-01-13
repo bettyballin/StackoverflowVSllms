@@ -1,1 +1,0 @@
-select m.PersonName, c.CourseName\nfrom   Master m\njoin   Detail d on d.MasterID = m.ID\njoin   Course c on c.ID = d.CourseID\nwhere  d.StartDate = (select max(d2.StartDate)\n                      from   Detail d2\n                      where  d2.MasterID = m.ID\n                     )

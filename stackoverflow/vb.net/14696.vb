@@ -1,1 +1,0 @@
-Private Sub work_CrossThreadEvent(ByVal sender As Object, ByVal e As System.EventArgs) Handles work.CrossThreadEvent\n\n       If Me.InvokeRequired Then\n           Me.BeginInvoke(New EventHandler(AddressOf work_CrossThreadEvent), New Object() {sender, e})\n           Return\n       End If\n\n      Me.Text = "Cross Thread"\n\nEnd Sub

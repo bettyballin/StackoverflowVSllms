@@ -1,0 +1,1 @@
+CREATE TABLE documents (\n    id NUMBER PRIMARY KEY,\n    title VARCHAR2(200),\n    content CLOB\n);

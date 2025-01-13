@@ -1,0 +1,1 @@
+#!/bin/bash\n\nfor file in */*/*.mov; do\n  newname=$(echo "$file" | sed "s|[^/]*/[^/]*/||")\n  ln -s "$file" "$newname"\ndone

@@ -1,1 +1,0 @@
-SELECT DISTINCT YEAR(yourDateColumn) FROM yourTable;

@@ -1,0 +1,1 @@
+SELECT DISTINCT TABLE_NAME\nFROM INFORMATION_SCHEMA.COLUMNS\nWHERE DATA_TYPE IN ('binary', 'varbinary', 'image'); -- 'image' is specific to SQL Server

@@ -1,1 +1,0 @@
-$threshold = 1024;\n\nforeach (glob("*.png") as $filename) {\n    $size = filesize($filename);\n    if ($size > $threshold) {\n        unlink($filename);\n    }\n}

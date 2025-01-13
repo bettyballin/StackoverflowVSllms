@@ -1,0 +1,1 @@
+cmp -n $(stat -c%s A) A B

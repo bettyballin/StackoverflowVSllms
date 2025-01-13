@@ -1,0 +1,1 @@
+-- Subquery in SELECT\nSELECT column1, (SELECT column2 FROM table2 WHERE table2.id = table1.id) AS subquery_column FROM table1;\n\n-- Subquery in WHERE\nSELECT * FROM table1 WHERE column1 IN (SELECT column1 FROM table2 WHERE condition);

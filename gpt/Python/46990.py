@@ -1,0 +1,1 @@
+with open('file.txt', 'r') as file:\n       contents = file.read()\n   # File is automatically closed after exiting the with block

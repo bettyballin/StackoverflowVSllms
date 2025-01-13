@@ -1,0 +1,1 @@
+import difflib\n\n   text1 = """1. Name 1, Comment\n   2. Name 2, Comment\n   3. Name 3 , Comment\n   5. Name 10, Comment"""\n\n   text2 = """1. Name 1, Comment\n   2. Name 2, Comment\n   3. Name 3, Comment\n   4. Name 4, Comment"""\n\n   diff = difflib.ndiff(text1.splitlines(), text2.splitlines())\n   print('\n'.join(diff))

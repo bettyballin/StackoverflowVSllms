@@ -1,0 +1,1 @@
+ALTER TABLE masterTable ADD NormalizedTextField AS LTRIM(RTRIM(COALESCE(TextField, '')));\nALTER TABLE incomingDataTable ADD NormalizedTextField AS LTRIM(RTRIM(COALESCE(TextField, '')));

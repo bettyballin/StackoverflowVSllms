@@ -1,0 +1,1 @@
+#include <stdint.h>\n#include <stddef.h>\n\nuint16_t ip_checksum(const uint8_t *data, size_t length) {\n    uint32_t sum = 0;\n    for (size_t i = 0; i < length; i += 2) {\n        uint16_t word = (data[i] << 8) + (i + 1 < length ? data[i + 1] : 0);\n        sum += word;\n        if (sum > 0xFFFF) {\n            sum -= 0xFFFF;\n        }\n    }\n    return ~sum;\n}

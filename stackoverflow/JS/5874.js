@@ -1,1 +1,0 @@
-var obj = new ActiveXObject("Some.Object")

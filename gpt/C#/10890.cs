@@ -1,0 +1,1 @@
+using System;\nusing System.Web.UI;\n\nnamespace YourNamespace\n{\n    public partial class YourPage : Page\n    {\n        protected void ListBox1_SelectedIndexChanged(object sender, EventArgs e)\n        {\n            Label1.Text = "Selected Item: " + ListBox1.SelectedItem.Text;\n        }\n    }\n}

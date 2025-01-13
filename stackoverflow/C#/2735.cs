@@ -1,1 +1,0 @@
-byte[] plaintextBytes = GetDataToProtect();\nbyte[] encodedBytes = ProtectedData.Protect(plaintextBytes, null, DataProtectionScope.CurrentUser);

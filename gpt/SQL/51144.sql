@@ -1,0 +1,1 @@
+SELECT \n    j.Job,\n    j.Status,\n    j.[Open date],\n    n_open.Text AS [Open note],\n    n_close.Text AS [Close note]\nFROM \n    Jobs j\nLEFT JOIN \n    Notes n_open ON j.Job = n_open.Job AND n_open.Type = 'Open'\nLEFT JOIN \n    Notes n_close ON j.Job = n_close.Job AND n_close.Type = 'Close'

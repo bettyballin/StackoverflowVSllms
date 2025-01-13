@@ -1,0 +1,1 @@
+$.validator.addMethod("validUserName",\n  function(value, element) {\n    return this.optional(element) || \n      /^[\p{L}\p{M}\p{N}\p{Zs}-]+$/u.test(value); \n  },\n  "Can only contain letters, numbers, spaces, and hyphens."\n);

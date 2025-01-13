@@ -1,0 +1,1 @@
+[Test]\npublic void CustomConstraintTest()\n{\n    string actual = "test";\n    Assert.That(actual, new CustomConstraint("expected"));\n}

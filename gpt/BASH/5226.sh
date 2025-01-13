@@ -1,0 +1,1 @@
+sudo ls -hal /root/ | sudo tee /root/test.out > /dev/null

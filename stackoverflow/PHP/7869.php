@@ -1,1 +1,0 @@
-preg_match('/<div class="articleTitle">(.*?)<\/div>/i', $source, $matches);\nprint_r($matches);

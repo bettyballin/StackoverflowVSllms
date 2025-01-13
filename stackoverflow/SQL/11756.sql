@@ -1,1 +1,0 @@
-UPDATE myschema.tableA update_tableA\n   SET field_id = \n   ( SELECT src.field_id \n         FROM myschema.srcTable src\n         INNER JOIN myschema.tableB tableB ON \n           SDO_ANYINTERACT( tableB.shape, src.shape ) = 'TRUE'\n        WHERE update_tableA.id = tableB.id \n   );

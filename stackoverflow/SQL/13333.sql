@@ -1,1 +1,0 @@
--- begin transaction\nupdate my_table set count = count - 1 where id = '7'\ndelete from my_table where id = '7' and count = 0\ncommit

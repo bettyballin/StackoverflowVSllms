@@ -1,0 +1,1 @@
+# config/application.rb\n\nmodule YourAppName\n  class Application < Rails::Application\n    # Other configurations...\n\n    # Add this line to force HTML output instead of XHTML\n    config.action_view.default_form_with_generates_ids = false\n    config.action_view.form_with_generates_remote_forms = false\n  end\nend

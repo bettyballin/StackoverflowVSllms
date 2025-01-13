@@ -1,1 +1,0 @@
-SELECT\n  date, item, SUM(cnt)\nFROM (\n  SELECT\n    date, item, count(item_id) AS cnt\n  FROM test_popularity\n  GROUP BY date, item_id\n  ORDER BY cnt DESC\n) t\nGROUP BY date;

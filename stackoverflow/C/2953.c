@@ -1,1 +1,0 @@
-unsigned int hash(char *value){...}\n\ntypedef struct _tuple {\n    unsigned int bitvalues;\n    void * data\n} tuple;\n\ntuple a,b,c,d;\na.bitvalues  = hash("one");\na.bitvalues |= hash("four");\n//a.data = something;\n\nunsigned int event = 0;\n//foreach value in event;\nevent |= hash(string_val);\n\n// foreach tuple\nif(x->bitvalues & test == test)\n{\n     //matches\n}

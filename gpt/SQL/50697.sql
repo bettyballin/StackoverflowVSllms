@@ -1,0 +1,1 @@
+SELECT *\nFROM YourTable\nWHERE YourColumn BETWEEN 10 AND 20;

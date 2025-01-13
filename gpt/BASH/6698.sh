@@ -1,0 +1,1 @@
+et stop comsysapp\n    rmdir /s /q %windir%\registration\n    net start comsysapp

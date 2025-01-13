@@ -1,0 +1,1 @@
+void Application_Start(object sender, EventArgs e)\n   {\n       // Replace with the actual path to your DLL\n       string dllPath = Server.MapPath("~/bin/dtSearchNetApi.dll");\n       System.Reflection.Assembly.LoadFile(dllPath);\n   }

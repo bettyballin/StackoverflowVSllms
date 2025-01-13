@@ -1,0 +1,1 @@
+// Program.cs\nusing System;\nusing MediaPlayerWrapper;\n\nclass Program\n{\n    static void Main()\n    {\n        MediaPlayerBridge bridge = new MediaPlayerBridge();\n        bridge.SomeFunction();\n    }\n}

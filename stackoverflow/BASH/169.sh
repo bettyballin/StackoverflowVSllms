@@ -1,1 +1,0 @@
-svn info path/to/filename

@@ -1,1 +1,0 @@
-delete from Areas where RegionID in (select Region_ID from Regions where Country_ID in (select Country_ID where CountryName='Somelandia'))\ndelete from Regions where Country_ID in (select Country_ID where CountryName='Somelandia')\ndelete from Country where CountryName = 'Somelandia'

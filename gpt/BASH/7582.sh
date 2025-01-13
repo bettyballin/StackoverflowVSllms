@@ -1,0 +1,1 @@
+curl -X GET http://<your_server>/<your_service>/Employees/{employeeNumber}

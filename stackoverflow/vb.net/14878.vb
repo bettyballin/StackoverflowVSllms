@@ -1,1 +1,0 @@
-Dim timediff As Integer = TimeSpan.FromTicks(diff).Seconds

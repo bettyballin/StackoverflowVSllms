@@ -1,1 +1,0 @@
-Dictionary<Key, ThatTinyStructYouHadToCreate>

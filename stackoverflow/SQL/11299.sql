@@ -1,1 +1,0 @@
-SELECT * FROM Customer \n    WHERE CustomerID IN (SELECT ID FROM MyOtherLargeTableOfCustomers)

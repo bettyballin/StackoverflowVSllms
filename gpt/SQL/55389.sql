@@ -1,0 +1,1 @@
+CREATE TABLE entities (\n    id INT PRIMARY KEY,\n    name VARCHAR(255) NOT NULL\n);\n\nCREATE TABLE entity_entity (\n    entity_id_a INT,\n    entity_id_b INT,\n    PRIMARY KEY (entity_id_a, entity_id_b),\n    FOREIGN KEY (entity_id_a) REFERENCES entities(id),\n    FOREIGN KEY (entity_id_b) REFERENCES entities(id)\n);

@@ -1,0 +1,1 @@
+# Edit sudoers file\nsudo visudo\n# Example entry for user 'admin' with logging\nadmin ALL=(ALL) ALL, !/bin/su

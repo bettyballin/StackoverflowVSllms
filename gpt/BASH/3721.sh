@@ -1,0 +1,1 @@
+touch myproject/tests/__init__.py\n    touch myproject/tests/extensions/__init__.py

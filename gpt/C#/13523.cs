@@ -1,0 +1,1 @@
+protected void SearchButton_Click(object sender, EventArgs e)\n{\n    if (Page.IsValid)\n    {\n        // Perform search\n    }\n}\n\nprotected void CommentButton_Click(object sender, EventArgs e)\n{\n    if (Page.IsValid)\n    {\n        // Submit comment\n    }\n}

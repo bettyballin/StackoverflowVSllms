@@ -1,0 +1,1 @@
+protected void Application_Start()\n{\n    GlobalFilters.Filters.Add(new RequireHttpsAttribute());\n\n    AreaRegistration.RegisterAllAreas();\n    RouteConfig.RegisterRoutes(RouteTable.Routes);\n}

@@ -1,1 +1,0 @@
-<html>\n<head>\n    <title>Test</title>\n</head>\n<body>\n    <input type="text" name="test1" value="<?php echo htmlspecialchars($_GET['test1'], ENT_QUOTES); ?>">\n</body>\n</html>

@@ -1,0 +1,1 @@
+int main(int argc, char *argv[]) {\n    // Register signal handler for SIGSEGV (segmentation fault) and other signals\n    signal(SIGSEGV, signalHandler);\n    signal(SIGABRT, signalHandler);\n    // Add other signals as needed\n\n    // Your program code goes here\n\n    return 0;\n}

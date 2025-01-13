@@ -1,0 +1,1 @@
+while ($row = mysqli_fetch_assoc($result)) {\n    $postContent = $row['value'];\n    echo $postContent;\n}

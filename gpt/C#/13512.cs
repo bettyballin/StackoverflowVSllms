@@ -1,0 +1,1 @@
+string username = "yourUsername";\nstring domain = "yourDomain";\n\nbool isActive = ActiveDirectoryHelper.IsUserActive(username, domain);\n\nif (isActive)\n{\n    Console.WriteLine("User is active.");\n}\nelse\n{\n    Console.WriteLine("User is not active.");\n}

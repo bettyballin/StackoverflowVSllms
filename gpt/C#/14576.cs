@@ -1,0 +1,1 @@
+public class DateTimeProvider : IDateTimeProvider\n{\n    public DateTime Now => DateTime.Now;\n}

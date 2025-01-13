@@ -1,0 +1,1 @@
+from datetime import datetime\n\nformatted_data = [\n    {\n        'the_date': datetime.strptime(entry['date'], '%Y-%m-%d').strftime('%m/%d/%Y'),\n        'total_numbers_data': entry['total_numbers_data']\n    }\n    for entry in data\n]

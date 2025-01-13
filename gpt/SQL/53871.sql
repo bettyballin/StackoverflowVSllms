@@ -1,0 +1,1 @@
+SELECT dbo.DecimalToBase32(1234567890)

@@ -1,1 +1,0 @@
-User.Identity // in the controller\nHttpContext.User.Identity // in the controller\nSystem.Web.HttpContext.Current.User.Identity // anywhere

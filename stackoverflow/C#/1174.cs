@@ -1,1 +1,0 @@
-public decimal FindDifference(decimal nr1, decimal nr2)\n{\n  return Math.Abs(nr1 - nr2);\n}

@@ -1,0 +1,1 @@
+<rule name="Rewrite reportsdomain to maindomain/reports" stopProcessing="true">\n     <match url="(.*)" />\n     <conditions>\n       <add input="{HTTP_HOST}" pattern="^reportsdomain$" />\n     </conditions>\n     <action type="Rewrite" url="http://maindomain/reports/{R:1}" />\n   </rule>

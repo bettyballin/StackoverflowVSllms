@@ -1,1 +1,0 @@
-if object_id('tempdb..#myTempTable') is not null\n    drop table #myTempTable

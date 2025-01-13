@@ -1,0 +1,1 @@
+perf stat -e instructions,branches,branch-misses,fp_arith_inst_retired.scalar_double ./your_program

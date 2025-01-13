@@ -1,1 +1,0 @@
-CREATE TABLE table_name \n(\n    c1 INT NOT NULL,\n    c2 INT NOT NULL,\n    PRIMARY KEY (c1, c2)\n)

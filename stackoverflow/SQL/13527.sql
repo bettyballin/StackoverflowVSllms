@@ -1,1 +1,0 @@
-Select p.name, p.id from product p, \n(select product_id from properties where value='red') colors,\n(select product_id from properties where value='small') sizes\nwhere p.id=colors.product_id and p.id=sizes.product_id

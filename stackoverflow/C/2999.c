@@ -1,1 +1,0 @@
-struct timeval {\n  time_t tv_sec;\n  suseconds_t tv_usec;\n}

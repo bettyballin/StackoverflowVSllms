@@ -1,0 +1,1 @@
+<?php\n// Read the contents of the text file\n$file_path = 'path/to/your/file.txt';\n$text = file_get_contents($file_path);\n\n// Display the contents within a <pre> tag\necho '<pre>' . htmlspecialchars($text) . '</pre>';\n?>

@@ -1,1 +1,0 @@
-select max(bar.timestamp), foo.foo_fluff \n from foo\n inner join bar\n          on foo.foo_id = bar.foo_id\n group by foo.foo_fluff

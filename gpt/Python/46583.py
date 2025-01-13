@@ -1,0 +1,1 @@
+import win32com.client\n\n# Create a COM object\ncom_object = win32com.client.Dispatch("Your.COM.Object")\n\n# Call a method on the COM object\nresult = com_object.YourMethod("argument")\n\n# Print the result\nprint(result)

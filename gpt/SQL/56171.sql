@@ -1,0 +1,1 @@
+SELECT g.GroupName\nFROM Groups g\nINNER JOIN UserGroups ug ON g.GroupID = ug.GroupID\nWHERE ug.UserID = ?

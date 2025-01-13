@@ -1,0 +1,1 @@
+1..2\nok 1 - hello function with 'World'\nok 2 - hello function with ''

@@ -1,0 +1,1 @@
+$xml_text = file_get_contents("php://input");\n$xml = simplexml_load_string($xml_text);\necho $xml->item; // Access the element using the correct case

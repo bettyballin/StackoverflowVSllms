@@ -1,1 +1,0 @@
-[WebMethod(EnableSession = true)]\npublic void MyWebService()\n{\n    Foo foo;\n    Session["MyObjectName"] = new Foo();\n    foo = Session["MyObjectName"] as Foo;\n}

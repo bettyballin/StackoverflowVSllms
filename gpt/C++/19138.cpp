@@ -1,0 +1,1 @@
+#include <iostream>\n#include <type_traits>\n\nint main() {\n    static_assert(sizeof(int) == 4, "Size of int must be 4 bytes.");\n    std::cout << "All static assertions passed." << std::endl;\n    return 0;\n}

@@ -1,0 +1,1 @@
+-- Add a new column for string values\nALTER TABLE Results ADD ValueString VARCHAR(255);\n\n-- When inserting data, decide which column to use based on the type\nINSERT INTO Results (TestID, TestCode, Value, ValueString)\nVALUES (1, 'TestCode1', 123, NULL);\n\nINSERT INTO Results (TestID, TestCode, Value, ValueString)\nVALUES (2, 'TestCode2', NULL, 'Sample Text');

@@ -1,1 +1,0 @@
-public interface IDataTransporterSettings \n{\n    // any common settings are defined here\n}

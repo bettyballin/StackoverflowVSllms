@@ -1,0 +1,1 @@
+-- Create the view\nCREATE VIEW myView AS\nSELECT * FROM myTable WHERE someCondition = true;\n\n-- Query the view\nSELECT * FROM myView;

@@ -1,1 +1,0 @@
-[main_list[x] for x in indexes]

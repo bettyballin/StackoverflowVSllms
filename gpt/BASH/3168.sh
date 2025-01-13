@@ -1,0 +1,1 @@
+ffmpeg -re -i input.flv -c:v libx264 -c:a aac -f flv rtmp://localhost/live/stream

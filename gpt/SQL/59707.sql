@@ -1,0 +1,1 @@
+DECLARE @result NVARCHAR(200);\n\n-- Test with invalid input\nSET @result = dbo.ValidateInput(NULL);\nPRINT @result;  -- Output: Error: Invalid input. Input cannot be NULL or empty.\n\n-- Test with valid input\nSET @result = dbo.ValidateInput('Hello, world!');\nPRINT @result;  -- Output: Valid input: Hello, world!

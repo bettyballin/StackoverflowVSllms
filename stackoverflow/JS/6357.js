@@ -1,1 +1,0 @@
-var c = $("#myTable tr:first td").length;\n$("#myTable tr:first").append("<td><a href=''>Delete</a> Col "+(c+1)+"</td>");\n$("#myTable tr:gt(0)").append("<td>Col</td>");

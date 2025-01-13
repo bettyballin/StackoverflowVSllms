@@ -1,0 +1,1 @@
+sudo apt-get install imagemagick\n     sudo apt-get install php-imagick

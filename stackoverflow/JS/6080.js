@@ -1,1 +1,0 @@
-$("#interceptMe").click(function(event){\n\n    event.preventDefault();\n\n    // Ajax here\n\n    return false; //for good measure\n});

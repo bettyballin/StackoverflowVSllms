@@ -1,0 +1,1 @@
+Dim string1 As String = "Hello"\nDim string2 As String = "Hello"\nDim string3 As String = "World"\nDim string4 As String = "World"\n\nIf (string1 = string2 And string3 = string4) Then\n    ' Perform operation\n    Console.WriteLine("Strings are equal.")\nElse\n    ' Perform another operation\n    Console.WriteLine("Strings are not equal.")\nEnd If

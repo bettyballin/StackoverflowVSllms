@@ -1,0 +1,1 @@
+sftp -o UserKnownHostsFile=server_key.pub user@your.server.com

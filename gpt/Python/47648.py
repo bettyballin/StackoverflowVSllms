@@ -1,0 +1,1 @@
+DATABASES = {\n       'default': {\n           'ENGINE': 'django.db.backends.postgresql',\n           'NAME': 'yourdbname',\n           'USER': 'yourdbuser',\n           'PASSWORD': 'yourdbpassword',\n           'HOST': 'localhost',  # or the appropriate host\n           'PORT': '5432',       # or the appropriate port\n       }\n   }

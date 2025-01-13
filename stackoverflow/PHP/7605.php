@@ -1,1 +1,0 @@
-$line = new line_hollow();

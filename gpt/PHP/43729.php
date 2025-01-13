@@ -1,0 +1,1 @@
+<?php\n$password = 'your_password_here';\n$hashed_password = password_hash($password, PASSWORD_DEFAULT);\n\necho $hashed_password;\n?>

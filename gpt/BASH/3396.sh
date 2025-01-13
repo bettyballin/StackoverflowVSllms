@@ -1,0 +1,1 @@
+TfsConfig RebuildWarehouse /ReportingDataSourcePassword:Password

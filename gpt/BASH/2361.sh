@@ -1,0 +1,1 @@
+sudo svnadmin create /var/svn/repos/myproject

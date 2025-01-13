@@ -1,0 +1,1 @@
+WITH LatestExam AS (\n    SELECT\n        Student_ID,\n        MAX(ExamEntry) AS LatestExamEntry\n    FROM\n        data\n    GROUP BY\n        Student_ID\n)\nSELECT\n    d.Student_ID,\n    d.Grade\nFROM\n    data d\nJOIN\n    LatestExam le ON d.Student_ID = le.Student_ID AND d.ExamEntry = le.LatestExamEntry\nWHERE\n    d.Grade >= 50; -- Assuming passing grade is 50

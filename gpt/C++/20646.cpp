@@ -1,0 +1,1 @@
+// Use /DELAYLOAD:ModuleA.dll linker option\n   #include <delayimp.h>

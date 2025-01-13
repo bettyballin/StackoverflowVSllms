@@ -1,1 +1,0 @@
-SELECT\n    people.id, people.name, people.surname\nFROM\n    people\n    CROSS JOIN\n    (SELECT 1 AS foo UNION ALL SELECT 2 UNION ALL SELECT 3) bar;

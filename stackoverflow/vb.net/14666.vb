@@ -1,1 +1,0 @@
-Dim results = From item In bloops _\n              Select New Razzie() With _\n              { _\n                  .FirstName = item.FirstName, _\n                  .LastName = item.LastName _\n              }

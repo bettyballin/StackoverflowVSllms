@@ -1,0 +1,1 @@
+# Create a custom SELinux policy module to restrict access\n    sudo semodule -i my_shared_memory_policy.pp

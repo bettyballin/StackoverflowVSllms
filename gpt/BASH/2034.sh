@@ -1,0 +1,1 @@
+klist -k -t /path/to/your.keytab

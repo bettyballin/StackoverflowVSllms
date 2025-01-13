@@ -1,0 +1,1 @@
+protected void Button1_Click(object sender, EventArgs e)\n{\n    // Any server-side logic if needed\n}

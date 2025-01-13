@@ -1,1 +1,0 @@
-grant [permissions] on [table] to public

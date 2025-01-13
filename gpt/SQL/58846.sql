@@ -1,0 +1,1 @@
+CREATE INDEX idx_person_upper_last_name \nON person (UPPER(NVL(last_name, 'N/A')));

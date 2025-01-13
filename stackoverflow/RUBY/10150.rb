@@ -1,1 +1,0 @@
-"one" -> 1, "two" -> 2, ... "twenty" -> 20,\n"dozen" -> 12, "score" -> 20, ...\n"hundred" -> 100, "thousand" -> 1000, "million" -> 1000000

@@ -1,0 +1,1 @@
+CREATE TABLE users (\n       id INT,\n       name VARCHAR(100),\n       email VARCHAR(100)\n   );

@@ -1,0 +1,1 @@
+setspn -A HTTP/servername domain\username\n     setspn -A HTTP/servername.domain.com domain\username

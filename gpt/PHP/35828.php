@@ -1,0 +1,1 @@
+// application/views/scripts/_partials/login-form.phtml\n   <?php\n   $form = new Application_Form_Login();\n   echo $this->form($form);\n   ?>

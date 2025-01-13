@@ -1,0 +1,1 @@
+# Fibonacci with Recursion\ndef fib_recursive(n):\n    if n <= 1:\n        return n\n    return fib_recursive(n-1) + fib_recursive(n-2)\n\n# Fibonacci with Memoization\ndef fib_memoization(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fib_memoization(n-1, memo) + fib_memoization(n-2, memo)\n    return memo[n]

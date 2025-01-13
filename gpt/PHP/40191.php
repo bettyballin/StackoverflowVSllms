@@ -1,0 +1,1 @@
+<?php\n   $corporateUrl = Mage::getStoreConfig('general/custom_links/corporate_website_url');\n   echo $corporateUrl;\n   ?>

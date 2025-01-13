@@ -1,0 +1,1 @@
+SELECT * \nFROM HastaKurumlari\nWHERE CONVERT(SMALLDATETIME, '21-05-2009', 103) \nBETWEEN startDate \n    AND ISNULL(endDate, '9999-12-31')

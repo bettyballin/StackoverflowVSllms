@@ -1,0 +1,1 @@
+<bean id="openSessionInViewFilter" class="org.springframework.orm.hibernate3.support.OpenSessionInViewFilter" />

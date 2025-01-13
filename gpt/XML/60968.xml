@@ -1,0 +1,1 @@
+<property\n    name="tin"\n    column="TIN"\n    not-null="true"\n    type="your.package.StringPreserveWhitespaceType"\n    length="9"/>

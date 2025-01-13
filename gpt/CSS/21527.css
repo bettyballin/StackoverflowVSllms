@@ -1,0 +1,1 @@
+/* Example to trigger hasLayout */\n.your-navigation-class {\n    zoom: 1; /* Triggers hasLayout in IE */\n}

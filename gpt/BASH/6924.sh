@@ -1,0 +1,1 @@
+umount ~/remote_mount

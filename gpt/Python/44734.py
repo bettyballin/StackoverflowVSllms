@@ -1,0 +1,1 @@
+import pandas as pd\n\n# Define the path to the XLS file and the output CSV file\nxls_file_path = 'path/to/your/file.xls'\ncsv_file_path = 'path/to/output/file.csv'\n\n# Read the first sheet of the Excel file\ndf = pd.read_excel(xls_file_path, sheet_name=0)\n\n# Write the DataFrame to a CSV file\ndf.to_csv(csv_file_path, index=False)

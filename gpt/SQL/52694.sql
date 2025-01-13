@@ -1,0 +1,1 @@
+SELECT \n    CAST(CAST(dates AS DATE) AS DATETIME) + CAST(CONVERT(TIME, times) AS DATETIME) AS CombinedDateTime\nFROM \n    YourTable

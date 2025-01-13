@@ -1,0 +1,1 @@
+<PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">\n  <OutputPath>..\Debug\</OutputPath>\n</PropertyGroup>\n<PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">\n  <OutputPath>..\Release\</OutputPath>\n</PropertyGroup>

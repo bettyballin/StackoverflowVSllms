@@ -1,0 +1,1 @@
+// In your controller or script\n   $userId = 1; // example user ID\n   $user = new Application_Model_User($userId);\n\n   // Get password if 'Default' auth method is used\n   $password = $user->getPassword();\n\n   // Get user metadata\n   $metadata = $user->getMetadata();

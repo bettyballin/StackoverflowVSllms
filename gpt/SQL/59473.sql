@@ -1,0 +1,1 @@
+-- Example: Inserting data into InfluxDB\n     INSERT temperature,location=us-midwest value=82 1465839830100400200

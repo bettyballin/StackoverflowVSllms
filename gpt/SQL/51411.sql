@@ -1,0 +1,1 @@
+CREATE GLOBAL TEMPORARY TABLE temp_table (\n       column1 datatype,\n       column2 datatype,\n       -- add more columns as needed\n   ) ON COMMIT PRESERVE ROWS;

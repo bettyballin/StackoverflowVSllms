@@ -1,0 +1,1 @@
+<?php\ndate_default_timezone_set('America/Chicago');\n\n// Your date and time calculations here\necho date('Y-m-d H:i:s');\n?>

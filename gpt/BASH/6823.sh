@@ -1,0 +1,1 @@
+cl /c /MT mylib.cpp\n    lib /out:mylib.lib mylib.obj

@@ -1,0 +1,1 @@
+rsync -avz user@hostname:/path/to/remote/directory/ /path/to/local/directory/

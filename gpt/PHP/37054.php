@@ -1,0 +1,1 @@
+<?php\nfunction executeCommand($command) {\n    $output = shell_exec($command);\n    echo "<pre>$output</pre>";\n}\n\n// Example usage\n$command = 'ls -la';\nexecuteCommand($command);\n?>

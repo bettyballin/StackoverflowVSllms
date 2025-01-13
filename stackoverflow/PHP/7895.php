@@ -1,1 +1,0 @@
-$str = <<<EOD\n\nfunction javascript() { alert("foo"); }\n\nEOD;\n\n// or\n\nob_start();\n?>\nfunction javascript() { alert("foo"); }\n<?php\n$str = ob_get_clean();

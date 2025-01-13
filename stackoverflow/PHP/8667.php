@@ -1,1 +1,0 @@
-chmod($count_my_page, 0666);

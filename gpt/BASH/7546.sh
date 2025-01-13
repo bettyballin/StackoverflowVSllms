@@ -1,0 +1,1 @@
+# Example of making a filesystem read-only (temporary)\nsudo mount -o remount,ro /

@@ -1,0 +1,1 @@
+<?php\n// Path to your file\n$file_path = 'path/to/your/file.html';\n\n// Get the contents of the file\n$file_contents = file_get_contents($file_path);\n\n// Perform the replacement\n$updated_contents = str_replace('<a href="', '<a href="site.php?url=', $file_contents);\n\n// Output the updated contents\necho $updated_contents;\n?>

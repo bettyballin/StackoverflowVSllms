@@ -1,0 +1,1 @@
+# Avoid using Perl-like global variables\n$global_var = 'Hello'\n\n# Better to use constants or instance variables\nGLOBAL_VAR = 'Hello'

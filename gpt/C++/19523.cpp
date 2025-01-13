@@ -1,0 +1,1 @@
+struct Foo {\n  Foo() {} // Default constructor\n  Foo(int i) {}\n};\n\nint main(void) {\n  std::list<Foo> l(10); // Now it compiles\n}

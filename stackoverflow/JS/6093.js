@@ -1,1 +1,0 @@
-document.getElementById("mySelect").options[document.getElementById("mySelect").selectedIndex].value

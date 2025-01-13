@@ -1,0 +1,1 @@
+cl /LD mylibrary.cpp /Fe:mylibrary.dll

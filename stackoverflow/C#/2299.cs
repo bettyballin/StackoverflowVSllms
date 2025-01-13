@@ -1,1 +1,0 @@
-WindowsIdentity.GetCurrent()

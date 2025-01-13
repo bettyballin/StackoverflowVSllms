@@ -1,0 +1,1 @@
+/* Styles for read links with !important */\na.read {\n  color: #444 !important;\n  font-weight: normal !important; /* or lighter if you prefer */\n}\n\n/* Styles for unread links with !important */\na.unread {\n  font-weight: bold !important;\n  color: black !important;\n}

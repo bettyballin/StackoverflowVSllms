@@ -1,0 +1,1 @@
+// application/bootstrap.php or application/routes.php\n   Route::set('default', '(<controller>(/<action>(/<id>)))')\n       ->defaults(array(\n           'controller' => 'Welcome',\n           'action'     => 'index',\n       ));

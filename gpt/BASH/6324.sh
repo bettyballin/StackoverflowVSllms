@@ -1,0 +1,1 @@
+# Install Cava Packager\ncpan install Cava::Packager\n\n# Package your Perl script\ncavapackager --output myscript.exe myscript.pl

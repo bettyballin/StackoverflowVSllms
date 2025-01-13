@@ -1,0 +1,1 @@
+$k = $this->_tbl_key; // Assume $this->_tbl_key contains the name of a property as a string, e.g., "propertyName"\n\nif( $this->$k) // This is equivalent to accessing $this->propertyName\n{\n    $ret = $this->_db->updateObject($this->_tbl, $this, $this->_tbl_key, $updateNulls);\n}\nelse\n{\n    $ret = $this->_db->insertObject($this->_tbl, $this, $this->_tbl_key);\n}

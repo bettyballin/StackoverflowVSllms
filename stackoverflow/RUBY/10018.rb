@@ -1,1 +1,0 @@
-require 'rubygems'\nrequire 'eventmachine'\n\nmodule Echo\n  def receive_data data\n    send_data data\n  end\nend\n\nEM.run {\n  EM.start_server "0.0.0.0", 10000, Echo\n}

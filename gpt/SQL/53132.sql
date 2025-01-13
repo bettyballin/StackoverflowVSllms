@@ -1,0 +1,1 @@
+SELECT SQL_CALC_FOUND_ROWS node_ID, node_title, node_lastupdated\n   FROM node\n   INNER JOIN viewpermission ON viewpermission_nodeID = node_ID\n   WHERE viewpermission_usergroupID IN (<...usergroups of current user...>)\n   GROUP BY node_ID\n   ORDER BY node_lastupdated DESC\n   LIMIT 20;

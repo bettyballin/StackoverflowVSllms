@@ -1,0 +1,1 @@
+# tasks.py\nfrom celery import Celery\n\napp = Celery('tasks')\napp.config_from_object('celeryconfig')\n\n@app.task\ndef long_running_task(arg1, arg2):\n    # Simulate a long-running task\n    import time\n    time.sleep(10)\n    return arg1 + arg2

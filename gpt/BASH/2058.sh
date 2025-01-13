@@ -1,0 +1,1 @@
+ls -la /home/username/workfolder/.git

@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <handlers>\n      <add name="ImageHandler" path="ImageHandler.ashx" verb="*" type="ImageHandler" resourceType="Unspecified" />\n    </handlers>\n  </system.webServer>\n</configuration>

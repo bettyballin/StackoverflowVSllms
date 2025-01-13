@@ -1,0 +1,1 @@
+CREATE TABLE my_table (\n    id NUMBER,\n    data_column VARCHAR2(100),\n    partition_year NUMBER\n)\nPARTITION BY RANGE (partition_year) (\n    PARTITION P2001 VALUES LESS THAN (2002),\n    PARTITION P2002 VALUES LESS THAN (2003),\n    PARTITION P2003 VALUES LESS THAN (2004),\n    -- Add additional partitions as needed\n    PARTITION PMaxValue VALUES LESS THAN (MAXVALUE)\n);

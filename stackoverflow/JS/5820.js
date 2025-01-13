@@ -1,1 +1,0 @@
-$("#searchstring").autocomplete("../items/getitemsforautocomplete", {  ... more code }

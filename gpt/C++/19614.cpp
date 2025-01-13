@@ -1,0 +1,1 @@
+ReturnValue MyClass::FunctionThatAltersMembersAndNeverFails()\n{\n    // Do stuff to members of MyClass that never fails\n    ReturnValue successfulResultObject;\n    return successfulResultObject;\n}\n\nvoid MyClass::DoWork()\n{\n    // Do some stuff\n    FunctionThatAltersMembersAndNeverFails();\n    // Do more stuff\n}

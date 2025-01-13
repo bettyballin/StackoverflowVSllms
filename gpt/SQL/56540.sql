@@ -1,0 +1,1 @@
+-- Change schema for MovieData table\nALTER SCHEMA dbo TRANSFER jonathan.MovieData;\n\n-- Change schema for another table, e.g., ActorData\nALTER SCHEMA dbo TRANSFER jonathan.ActorData;\n\n-- Continue for other tables as needed

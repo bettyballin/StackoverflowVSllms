@@ -1,0 +1,1 @@
+devenv /Clean Solution\n   devenv /Rebuild Solutio

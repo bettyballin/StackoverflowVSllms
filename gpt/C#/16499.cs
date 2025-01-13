@@ -1,0 +1,1 @@
+using Microsoft.Practices.EnterpriseLibrary.Validation.Validators;\n\n   public class MyClass\n   {\n       [NotNullValidator(\n           MessageTemplateResourceName = "PropertyNameRequired",\n           MessageTemplateResourceType = typeof(ValidationMessages))]\n       public string PropertyName { get; set; }\n   }

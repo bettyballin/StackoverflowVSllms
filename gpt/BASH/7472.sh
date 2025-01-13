@@ -1,0 +1,1 @@
+icacls %windir%\system32\timedate.cpl /deny *S-1-5-32-545:(X)

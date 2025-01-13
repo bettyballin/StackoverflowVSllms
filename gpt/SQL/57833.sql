@@ -1,0 +1,1 @@
+DECLARE @SQLPath NVARCHAR(256);\nEXEC xp_instance_regread \n    N'HKEY_LOCAL_MACHINE', \n    N'Software\Microsoft\MSSQLServer\Setup', \n    N'SQLPath', \n    @SQLPath OUTPUT;\n\nSELECT @SQLPath AS [SQL Server Installation Path];

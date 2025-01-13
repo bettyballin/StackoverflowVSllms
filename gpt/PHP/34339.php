@@ -1,0 +1,1 @@
+<?php\n$output = null;\n$return_var = null;\n\n// Starting the process\nexec('/usr/bin/processName', $output, $return_var);\necho "Output: " . implode("\n", $output);\necho "Return value: " . $return_var;\n\n// Killing the process\nexec('/usr/bin/killall processName', $output, $return_var);\necho "Output: " . implode("\n", $output);\necho "Return value: " . $return_var;\n?>

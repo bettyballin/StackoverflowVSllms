@@ -1,1 +1,0 @@
-$badlist = Array(\n  'admin',\n  'staff',\n  'official'\n);\n\nforeach($badlist as $badword){\n  if (strpos(strtolower($_POST['username']), $badword)!==FALSE)\n    die('fail');\n}

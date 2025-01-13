@@ -1,0 +1,1 @@
+SELECT \n    IIf(dbo_tbl_property.LASTSERVICEDATE > Contour_dates.[Last CP12 Date], \n        dbo_tbl_property.LASTSERVICEDATE, \n        Contour_dates.[Last CP12 Date]) AS MaxDate\nFROM \n    dbo_tbl_property, \n    Contour_dates;

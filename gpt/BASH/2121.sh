@@ -1,0 +1,1 @@
+regsvr32 your-thumbnail-provider.dll

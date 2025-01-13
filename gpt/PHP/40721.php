@@ -1,0 +1,1 @@
+<?php\n$servername = "remote_ip";\n$username = "username";\n$password = "password";\n$database = "database_name";\n\n// Create connection\n$conn = new mysqli($servername, $username, $password, $database);\n\n// Check connection\nif ($conn->connect_error) {\n    die("Connection failed: " . $conn->connect_error);\n}\necho "Connected successfully";\n?>

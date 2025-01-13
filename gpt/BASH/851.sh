@@ -1,0 +1,1 @@
+#!/bin/bash\n\n   # Variables\n   LOCAL_PORT=8080\n   REMOTE_PORT=80\n   REMOTE_HOST="remote.example.com"\n\n   # Set up the SSH tunnel\n   ssh -N -L ${LOCAL_PORT}:localhost:${REMOTE_PORT} -i ~/.ssh/id_rsa_tunnel user@${REMOTE_HOST}

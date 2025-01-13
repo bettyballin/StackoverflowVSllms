@@ -1,1 +1,0 @@
---accept ARG             : specify automatic conflict resolution action\n                          ('postpone', 'base', 'mine-full', 'theirs-full',\n                          'edit', 'launch')

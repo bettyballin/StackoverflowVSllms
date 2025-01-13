@@ -1,0 +1,1 @@
+$randomString = generateRandomString($originalString, 6);\n   echo $randomString;

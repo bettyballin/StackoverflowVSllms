@@ -1,0 +1,1 @@
+using System;\nusing System.Net;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        HttpListener listener = new HttpListener();\n        listener.Prefixes.Add("http://myip:8080/app/");\n        listener.Start();\n        //.... and so on\n    }\n}

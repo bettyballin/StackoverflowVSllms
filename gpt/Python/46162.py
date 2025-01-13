@@ -1,0 +1,1 @@
+from xmldiff import main\n\n# Load the XML files\nxml_file1 = 'file1.xml'\nxml_file2 = 'file2.xml'\n\n# Perform the diff\ndiff = main.diff_files(xml_file1, xml_file2)\n\n# Print the differences\nfor item in diff:\n    print(item)

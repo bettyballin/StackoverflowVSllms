@@ -1,0 +1,1 @@
+// deploy.php\n     namespace Deployer;\n\n     require 'recipe/common.php';\n\n     host('example.com')\n         ->set('deploy_path', '/var/www/html')\n         ->user('deployer')\n         ->identityFile('~/.ssh/id_rsa');\n\n     task('deploy', [\n         'deploy:prepare',\n         'deploy:publish',\n     ]);\n\n     after('deploy:failed', 'deploy:unlock');

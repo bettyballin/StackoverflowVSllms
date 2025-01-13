@@ -1,0 +1,1 @@
+<?php\necho "This is a test. <br>";\necho "This is another test.";\n?>

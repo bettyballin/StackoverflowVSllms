@@ -1,1 +1,0 @@
-$hashedPassword = hash_hmac('whirlpool',$password.$salt,$key);

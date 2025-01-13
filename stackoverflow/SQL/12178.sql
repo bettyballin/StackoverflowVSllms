@@ -1,1 +1,0 @@
-select *\nfrom YourTable\nPIVOT (sum(amount) FOR Method in (Cash,Check)) as Y

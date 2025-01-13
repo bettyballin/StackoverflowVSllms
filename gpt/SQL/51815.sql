@@ -1,0 +1,1 @@
+CREATE TABLE employees (\n    id INT PRIMARY KEY,\n    name VARCHAR(100),\n    position VARCHAR(100)\n);\n\nINSERT INTO employees (id, name, position)\nVALUES (1, 'John Doe', 'Manager')\nON DUPLICATE KEY UPDATE\n    name = VALUES(name),\n    position = VALUES(position);

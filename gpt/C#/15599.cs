@@ -1,0 +1,1 @@
+// Replace vbLf with "\n"\nstring lineFeed = "\n";\n\n// Replace Chr(<charCode>) with Convert.ToChar(<charCode>)\nchar character = Convert.ToChar(65); // Example for character 'A'\n\n// Alternatively, you can use character literals directly\nchar characterLiteral = 'A';

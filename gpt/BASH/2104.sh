@@ -1,0 +1,1 @@
+PerfView collect -zip:MyAppPerf.etl.zip -maxCollectSec:60 MyApp.exe

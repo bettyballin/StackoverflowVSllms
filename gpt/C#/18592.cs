@@ -1,0 +1,1 @@
+public partial class CustomErrorDialog : Form\n   {\n       public CustomErrorDialog(string errorMessage)\n       {\n           InitializeComponent();\n           lblErrorMessage.Text = errorMessage;\n       }\n   }

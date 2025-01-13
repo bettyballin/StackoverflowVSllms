@@ -1,0 +1,1 @@
+<TestMethod(), Timeout(15 * 60 * 1000)> Public Sub DoSomething()\n       ' Your test code here\n   End Sub

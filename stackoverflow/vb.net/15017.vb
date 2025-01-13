@@ -1,1 +1,0 @@
-Dim db   As Database\n  Dim tdef As TableDef\n  Dim fdef As Field\n  Dim pdef As Property\n\n  Set db = CurrentDb()\n  Set tdef = db.TableDefs("analyzedCopy3")\n  Set fdef = tdef.Fields("PercentSuccess")\n\n  Set pdef = fdef.CreateProperty("Format", dbText, "Percent")\n  fdef.Properties.Append pdef

@@ -1,1 +1,0 @@
-Zend_Controller_Front

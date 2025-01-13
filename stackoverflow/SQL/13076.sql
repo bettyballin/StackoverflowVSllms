@@ -1,1 +1,0 @@
-DELETE FROM Table\nWHERE ID NOT IN\n(\nSELECT MIN(ID)\nFROM Table\nGROUP BY Field1, Field2, Field3, ...\n)

@@ -1,1 +1,0 @@
-from itertools import product, permutations\nimport operator\n\nchars = 'abcdefghijklmnopqrstuvwxyz0123456789'\nl = 2    # Max prefix / suffix length\nwords = reduce(operator.add, [[''.join(p) for p in permutations(chars, i)] for i in range(1, l+1)])\ndomains = [w[0] + 'hello' + w[1] for w in product(words, words)]

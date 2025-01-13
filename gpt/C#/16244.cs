@@ -1,0 +1,1 @@
+protected void LoginButton_Click(object sender, EventArgs e)\n{\n    // Perform authentication logic here\n\n    // If authentication is successful\n    if (IsAuthenticated)\n    {\n        // Redirect to HTTP version of the site\n        Response.Redirect("http://example.com/home");\n    }\n    else\n    {\n        // Handle failed authentication\n    }\n}

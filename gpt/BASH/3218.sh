@@ -1,0 +1,1 @@
+gcc -Q -O2 --help=optimizers

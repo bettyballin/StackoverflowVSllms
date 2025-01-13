@@ -1,0 +1,1 @@
+extern "C" __declspec(dllexport) bool OpenA(const char* file) {\n    return true;\n}

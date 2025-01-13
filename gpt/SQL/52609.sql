@@ -1,0 +1,1 @@
+CREATE TABLE your_table (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    event_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,\n    other_column VARCHAR(255),\n    ...\n    -- other columns\n);

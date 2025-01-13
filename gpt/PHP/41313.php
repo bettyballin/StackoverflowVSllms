@@ -1,0 +1,1 @@
+mysql_connect($host, $user, $pass) or die("could not connect");

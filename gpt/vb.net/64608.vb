@@ -1,0 +1,1 @@
+Dim value As Integer = 5\n\nSelect Case True\n    Case value < 3\n        Console.WriteLine("Value is less than 3")\n    Case value < 10\n        Console.WriteLine("Value is less than 10")\n    Case Else\n        Console.WriteLine("Value is 10 or more")\nEnd Select

@@ -1,0 +1,1 @@
+<Extensions>\n       <ReportItems>\n           <Extension Name="MyCustomControl" Type="CustomReportItem.MyCustomControl, CustomReportItemAssembly" />\n       </ReportItems>\n   </Extensions>

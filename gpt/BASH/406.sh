@@ -1,0 +1,1 @@
+# Install htop for interactive process viewer\n   sudo apt-get install htop\n   htop\n\n   # Use top for a quick overview of system performance\n   top

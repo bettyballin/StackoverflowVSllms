@@ -1,1 +1,0 @@
-if (!($ftpfd = ftp_connect($hostname))) { ... }

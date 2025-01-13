@@ -1,0 +1,1 @@
+sudo mkdir -p /var/run/lighttpd\nsudo chown -R www-data:www-data /var/run/lighttpd

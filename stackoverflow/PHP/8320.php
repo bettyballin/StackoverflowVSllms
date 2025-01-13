@@ -1,1 +1,0 @@
-echo eval('return $'. $string . ';');

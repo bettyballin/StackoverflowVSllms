@@ -1,0 +1,1 @@
+cp /usr/lib/x86_64-linux-gnu/libSDL.so.1 AppDir/usr/lib/\n    cp /usr/lib/x86_64-linux-gnu/libSDL_image.so.1 AppDir/usr/lib/

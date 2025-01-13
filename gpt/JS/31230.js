@@ -1,0 +1,1 @@
+$('#edit .postcontent').load('admin-ajax.php', {'action': 'qe-getpost'});

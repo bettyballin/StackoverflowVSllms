@@ -1,0 +1,1 @@
+protected void Application_Start()\n    {\n        // Configure ActiveRecord\n        var source = ActiveRecordSectionHandler.Instance;\n        ActiveRecordStarter.Initialize(source, typeof(Product));\n        \n        // Other MVC configurations\n        AreaRegistration.RegisterAllAreas();\n        RouteConfig.RegisterRoutes(RouteTable.Routes);\n    }

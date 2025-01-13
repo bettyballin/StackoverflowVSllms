@@ -1,1 +1,0 @@
-update MyTable Set RandomFld =  CONVERT(varchar(10), NEWID())

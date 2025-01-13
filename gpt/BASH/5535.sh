@@ -1,0 +1,1 @@
+@echo off\nfor /f "tokens=2 delims=[]" %%i in ('wmic logicaldisk where "VolumeName='WinPE'" get DeviceID /format:list') do set bootdrv=%%i\nset bootdrv=%bootdrv:~0,2%\necho Boot drive detected as: %bootdrv%

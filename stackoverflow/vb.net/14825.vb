@@ -1,1 +1,0 @@
-With testObject\n    .Height = 100\n    .Text = "Hello, World"\n    .Rows = 20\n    .Cols = 20\nEnd With

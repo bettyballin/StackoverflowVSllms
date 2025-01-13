@@ -1,0 +1,1 @@
+icacls "%DLL_LOC%" /inheritance:r\n   icacls "%DLL_LOC%" /grant Administrators:F\n   icacls "%DLL_LOC%" /remove Users

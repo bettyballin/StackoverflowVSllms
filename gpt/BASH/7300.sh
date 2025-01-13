@@ -1,0 +1,1 @@
+jpegtran -optimize -copy none -outfile optimized.jpg your-image.jpg

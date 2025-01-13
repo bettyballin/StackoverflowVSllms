@@ -1,0 +1,1 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">\n  <a href="http://example.com/page.php%3Fid=123">\n    <rect x="10" y="10" width="80" height="80" fill="blue"/>\n  </a>\n</svg>

@@ -1,1 +1,0 @@
-for key, value in stateDict.items(): # .iteritems() in Python 2.x\n    print "The abbreviation for %s is %s." % (key, value)

@@ -1,0 +1,1 @@
+$o->setHello($msg == 'hello' ? 'hello' : 'bye');

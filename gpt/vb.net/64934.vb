@@ -1,0 +1,1 @@
+Private Sub Test()\n    ' Clear the combobox before filling it\n    frmMyForm.cmbMyCombo.Clear\n    \n    ' Fill the combobox with data\n    FillComboBoxFromMDB "Database.mdb", "SELECT MyTable.MyText FROM MyTable", frmMyForm.cmbMyCombo\nEnd Sub

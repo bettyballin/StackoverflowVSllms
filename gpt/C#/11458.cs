@@ -1,0 +1,1 @@
+using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    connection.Open();\n    using (SqlCommand command = new SqlCommand("SET DATEFORMAT YMD;", connection))\n    {\n        command.ExecuteNonQuery();\n    }\n    // Your subsequent operations\n}

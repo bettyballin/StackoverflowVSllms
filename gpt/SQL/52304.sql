@@ -1,0 +1,1 @@
+SELECT * FROM region1.customer_table\nUNION ALL\nSELECT * FROM region2.customer_table\nUNION ALL\nSELECT * FROM region3.customer_table;

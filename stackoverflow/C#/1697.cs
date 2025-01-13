@@ -1,1 +1,0 @@
-string path = (new System.Uri(Assembly.GetExecutingAssembly().CodeBase)).AbsolutePath;

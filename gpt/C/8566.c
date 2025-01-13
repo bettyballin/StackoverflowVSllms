@@ -1,0 +1,1 @@
+int server_fd = socket(AF_INET, SOCK_STREAM, 0);\n   struct sockaddr_in address;\n   address.sin_family = AF_INET;\n   address.sin_addr.s_addr = INADDR_ANY;\n   address.sin_port = htons(PORT);\n\n   bind(server_fd, (struct sockaddr *)&address, sizeof(address));\n   listen(server_fd, SOMAXCONN);

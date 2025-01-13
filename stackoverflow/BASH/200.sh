@@ -1,1 +1,0 @@
-cat myResultFile.txt | sed '/^$/d' > newResultFile.txt

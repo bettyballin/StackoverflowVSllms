@@ -1,0 +1,1 @@
+using (var context = new YourDataContext())\n{\n    var recordId = 1; // The ID of the record you want to update\n    var newValue = "NewValue"; // The new value for the column\n\n    context.ExecuteCommand(\n        "UPDATE YourTable SET YourColumn = {0} WHERE Id = {1}",\n        newValue,\n        recordId\n    );\n}

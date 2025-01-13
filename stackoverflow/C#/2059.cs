@@ -1,1 +1,0 @@
-var top15 = session.CreateQuery("from SomeEntity")\n                .SetFirstResult(0)\n                .SetMaxResults(15)\n                .List<SomeEntity>();

@@ -1,1 +1,0 @@
-ini_set("display_errors", 0);\nini_set("log_errors", 1);\n\n//Define where do you want the log to go, syslog or a file of your liking with\nini_set("error_log", "syslog"); // or ini_set("error_log", "/path/to/syslog/file");

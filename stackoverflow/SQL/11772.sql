@@ -1,1 +1,0 @@
-SELECT to_char(wid_date - 7/24,'IYYY'), to_char(wid_date - 7/24,'IW'), tonnes\nFROM production\nWHERE to_char(wid_date - 7/24,'IYYY') = '2009' \nGROUP BY to_char(wid_date - 7/24,'IYYY'), to_char(wid_date - 7/24,'IW')

@@ -1,1 +1,0 @@
-- form_tag({:controller => "users", :action => "create"}, {:method => "post"}) do\n  = oauth_register_button :value => "Sign In with Twitter"

@@ -1,0 +1,1 @@
+String stringVar = "Hello, World!";\n  int intVar = 42;

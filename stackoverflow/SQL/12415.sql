@@ -1,1 +1,0 @@
-INSERT INTO table1 ( column1 )\nSELECT  col1\nFROM    table2  

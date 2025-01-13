@@ -1,1 +1,0 @@
-7za.exe a -tzip ex%1-logs.zip %2\ex%1*.log\ndel %2\ex%1*.log

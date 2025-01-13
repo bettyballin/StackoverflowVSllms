@@ -1,0 +1,1 @@
+class Zend_View_Helper_CategoryList extends Zend_View_Helper_Abstract\n   {\n       public function categoryList()\n       {\n           $categoriesModel = new Application_Model_Categories();\n           $categories = $categoriesModel->fetchAll();\n           return $categories;\n       }\n   }

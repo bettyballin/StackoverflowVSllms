@@ -1,0 +1,1 @@
+#define DLLAPI __declspec(dllexport)  // or __declspec(dllimport) if importing\n\nclass DLLAPI Base\n{\n    public:\n    virtual void B();\n};\n\nclass DLLAPI Derived : public Base\n{\n    public:\n    virtual void B();\n    virtual void D();\n};

@@ -1,0 +1,1 @@
+public Label lblHeading\n{\n    get { return this.lblHeading; }\n}

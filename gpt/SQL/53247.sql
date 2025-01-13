@@ -1,0 +1,1 @@
+SELECT * FROM crosstab(\n        'SELECT entity_id, attribute_name, attribute_value\n         FROM form_data\n         ORDER BY 1,2'\n    ) AS ct(entity_id INT, field1 TEXT, field2 TEXT, field3 TEXT);

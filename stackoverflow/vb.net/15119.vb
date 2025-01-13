@@ -1,1 +1,0 @@
-Dim fileEntries As String() = Directory.GetFiles(targetDirectory,"*.txt")\n    ' Process the list of .txt files found in the directory. '\n    Dim fileName As String\n    For Each fileName In fileEntries\n        ProcessFile(fileName)

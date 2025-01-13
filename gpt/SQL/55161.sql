@@ -1,0 +1,1 @@
+CREATE INDEX idx_attribute1 ON items(attribute1);\nCREATE INDEX idx_attribute2 ON items(attribute2);\n-- Add indexes for other frequently queried attributes

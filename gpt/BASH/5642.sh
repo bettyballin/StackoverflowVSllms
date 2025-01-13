@@ -1,0 +1,1 @@
+sudo dpkg-reconfigure --priority=low unattended-upgrades

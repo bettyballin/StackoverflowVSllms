@@ -1,0 +1,1 @@
+# Updating all items that match the filter in a single query\nSomething.objects.filter(x='y').update(a="something")

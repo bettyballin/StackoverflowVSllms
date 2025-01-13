@@ -1,0 +1,1 @@
+$lessonCulture = 'fr_FR'; // for example\n   $currentLesson = $lesson->getCurrentLessonWithFallback($lessonCulture);\n   echo $currentLesson->getTitle();

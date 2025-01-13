@@ -1,1 +1,0 @@
-void copyVecFast(vec<int> original) // no reference\n{\n\n  vector<int> new_;\n  new_.swap(original); \n}

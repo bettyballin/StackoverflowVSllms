@@ -1,0 +1,1 @@
+DECLARE @ApplicationId uniqueidentifier\n   SELECT @ApplicationId = ApplicationId FROM aspnet_Applications WHERE ApplicationName = 'YourApplicationName'\n\n   INSERT INTO aspnet_Roles (ApplicationId, RoleId, RoleName, LoweredRoleName)\n   VALUES (@ApplicationId, NEWID(), 'newRole', LOWER('newRole'))

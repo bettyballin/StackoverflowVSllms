@@ -1,0 +1,1 @@
+#include <CORBA.h>\n#include <mico/TimeBase.h>\n\nint main(int argc, char* argv[]) {\n    const char* orb_args[] = {\n        "dummy_arg",\n        "-ORBclientCallTimeOut",\n        "10000"\n    };\n    int orb_argc = 3;\n\n    CORBA::ORB_var orb = CORBA::ORB_init(orb_argc, const_cast<char**>(orb_args));\n    \n    // Your client code here\n\n    orb->destroy();\n    return 0;\n}

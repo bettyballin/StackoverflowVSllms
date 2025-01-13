@@ -1,1 +1,0 @@
-create view getNewID as select newid() as new_id\n    \n    create function myfunction ()\n    returns uniqueidentifier\n    as begin\n       return (select new_id from getNewID)\n    end

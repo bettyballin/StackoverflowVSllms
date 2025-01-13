@@ -1,1 +1,0 @@
-"C:\Program Files\Microsoft SQL Server\90\Tools\Binn\osql.exe" \n    -E -Q "BACKUP DATABASE mydatabase TO DISK='C:\tmp\db.bak' WITH FORMAT"

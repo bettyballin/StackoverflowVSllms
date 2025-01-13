@@ -1,0 +1,1 @@
+// Example of tail-recursive function\n   int tail_recursive_function(int n, int acc) {\n       if (n == 0) return acc;\n       return tail_recursive_function(n - 1, acc + n);\n   }

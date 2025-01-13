@@ -1,0 +1,1 @@
+<?php\n$method = '<li><p><!-- watermark --></p></li>';\n\n// Use a regular expression to remove HTML comments\n$methodfinal = preg_replace('/<li><p><!--.*?--><\/p><\/li>/', '', $method);\n\necho $methodfinal;\n?>

@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Loop through each file in the current directory\nfor file in *; do\n    # Check if it is a regular file\n    if [ -f "$file" ]; then\n        # Use awk to append the filename to each line\n        awk -v filename="$file" '{print $0, filename}' "$file" > temp && mv temp "$file"\n    fi\ndone

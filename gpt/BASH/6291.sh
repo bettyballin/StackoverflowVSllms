@@ -1,0 +1,1 @@
+sc sdset YourServiceName D:(A;;CCLCSWRPWPDTLOCRRC;;;WD)

@@ -1,0 +1,1 @@
+#!/bin/bash\n\nURL="http://example.com"\nRRD_FILE="website.rrd"\n\nresponse_time=$(curl -o /dev/null -s -w "%{time_total}\n" $URL)\nrrdtool update $RRD_FILE N:$response_time

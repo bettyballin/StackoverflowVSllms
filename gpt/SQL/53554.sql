@@ -1,0 +1,1 @@
+SELECT p1.domain_id, p2.domain_id, COUNT(p1.domain_id) AS d1, COUNT(p2.domain_id) AS d2\nFROM PDB AS p1\nJOIN Interacting_PDBs AS i1 ON p1.id = i1.PDB_first_id\nJOIN Interacting_PDBs AS i2 ON i1.id = i2.id\nJOIN PDB AS p2 ON p2.id = i2.PDB_second_id\nGROUP BY p1.domain_id, p2.domain_id\nHAVING d1 > 100 AND d2 > 100\nORDER BY d1, d2;

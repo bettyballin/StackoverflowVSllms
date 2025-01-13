@@ -1,0 +1,1 @@
+#!/bin/bash\n     echo "Starting the application"\n     /path/to/applicatio

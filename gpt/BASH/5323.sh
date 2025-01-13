@@ -1,0 +1,1 @@
+openssl pkey -in mycert.pem -out private.key

@@ -1,0 +1,1 @@
+cd c:\www\project1\n   svn add --force * --auto-props --parents --depth infinity -q

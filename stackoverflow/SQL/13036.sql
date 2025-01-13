@@ -1,1 +1,0 @@
-audit UPDATE on SCOTT.EMP by access;

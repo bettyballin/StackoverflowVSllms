@@ -1,0 +1,1 @@
+etstat -an | grep 33306

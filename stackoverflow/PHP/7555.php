@@ -1,1 +1,0 @@
-// iterate public vars of class instance $class\nforeach (get_object_vars($class) as $prop_name => $prop_value) {\n   echo "$prop_name: $prop_value\n";\n}

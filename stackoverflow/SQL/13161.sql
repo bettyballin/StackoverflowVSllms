@@ -1,1 +1,0 @@
-SELECT * FROM syscacheobjects -- shows the contents of the procedure \n    -- cache for all databases\nDBCC PROCCACHE -- shows some general cache statistics\nDBCC CACHESTATS -- shows  the usage statistics for the cache, things like hit ratio

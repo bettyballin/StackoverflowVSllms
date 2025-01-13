@@ -1,0 +1,1 @@
+// Add this line before making the web service call\n   ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;

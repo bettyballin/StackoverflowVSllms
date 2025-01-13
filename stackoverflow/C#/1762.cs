@@ -1,1 +1,0 @@
-public class MyController\n{\n    public ActionResult MyAction(string DropDownListName)\n    {\n\n    }\n}

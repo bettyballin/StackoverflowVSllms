@@ -1,0 +1,1 @@
+// Example of installing Tideways\n   sudo apt-get install tideways-php tideways-daemo

@@ -1,1 +1,0 @@
-if($this->_request->isXmlHttpRequest())\n{\n    //The request was made with via ajax\n}

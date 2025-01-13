@@ -1,1 +1,0 @@
-while (1) {\n    numbytes = recv(sockfd, buf, MAXDATASIZE-1, 0);\n    buf[numbytes] = '\0';\n    printf("Count: %d, Error: %d, Received: %s\n", numbytes, errno, buf);\n    // more code to react goes here\n}

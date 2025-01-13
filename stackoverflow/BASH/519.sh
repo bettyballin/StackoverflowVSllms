@@ -1,1 +1,0 @@
-RewriteCond %{REQUEST_URI} !^/dir/\nRewriteCond %{REQUEST_FILENAME} !-f\nRewriteRule ^([^/]+)/([^/]+)/([^/]+)/(.*) dir/$2/$4?value=$1&anothervalue=$3 [L,QSA]

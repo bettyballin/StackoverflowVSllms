@@ -1,0 +1,1 @@
+SELECT\n    thread.due_date\nFROM\n    thread\nLEFT JOIN\n    product ON thread.prod_id = product.id\nWHERE\n    thread.user_id = '5'\n    OR product.user_id = '5';

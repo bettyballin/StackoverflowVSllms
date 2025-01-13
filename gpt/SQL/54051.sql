@@ -1,0 +1,1 @@
+SELECT \n        type, \n        multi_pages_kb, \n        single_pages_kb \n    FROM \n        sys.dm_os_memory_clerks \n    WHERE \n        type = 'MEMORYCLERK_SQLCLR';

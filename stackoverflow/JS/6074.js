@@ -1,1 +1,0 @@
-Ext.Ajax.request({\n  loadMask: true,\n  url: 'myfile.php',\n  params: {id: "1"},\n  success: function(resp) {\n    // resp is the XmlHttpRequest object\n    var options = Ext.decode(resp.responseText).options;\n\n    Ext.each(options, function(op) {\n      alert(op.message);\n    }\n  }\n});

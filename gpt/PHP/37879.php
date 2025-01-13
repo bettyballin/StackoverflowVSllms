@@ -1,0 +1,1 @@
+// PHP4 with magic quotes\n   $data = addslashes($_POST['data']);\n   \n   // PHP5 without magic quotes\n   $data = mysqli_real_escape_string($conn, $_POST['data']);

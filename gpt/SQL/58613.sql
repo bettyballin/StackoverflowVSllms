@@ -1,0 +1,1 @@
+CREATE TABLE user_log (\n      id INT AUTO_INCREMENT PRIMARY KEY,\n      user_id INT,\n      action VARCHAR(255),\n      target_user_id INT\n  );

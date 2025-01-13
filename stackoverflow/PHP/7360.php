@@ -1,1 +1,0 @@
-class Comment extends AppModel\n{\n  var $name = ‘Comment’;\n  var $belongsTo = array(‘Person’);\n}

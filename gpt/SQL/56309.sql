@@ -1,0 +1,1 @@
+-- Enable tracing for the current session\n   ALTER SESSION SET SQL_TRACE = TRUE;\n\n   -- Run the report generation job here\n\n   -- Disable tracing\n   ALTER SESSION SET SQL_TRACE = FALSE;\n\n   -- Use TKPROF to format the trace file generated\n   tkprof tracefile.trc outputfile.prf

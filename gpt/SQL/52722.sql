@@ -1,0 +1,1 @@
+SELECT\n    a.num,\n    fixed_number = CAST(REPLACE(\n        REPLICATE('0', 12 - LEN(REPLACE(CAST(CONVERT(DECIMAL(10,2), a.num) AS VARCHAR), '.', '')))\n        + CAST(CONVERT(DECIMAL(10,2), a.num) AS VARCHAR), '.', '') AS VARCHAR(12))\nFROM\n    (\n    -- Test Data\n    SELECT num = 2400.00 UNION ALL\n    SELECT num = 385.00 UNION ALL\n    SELECT num = 123454.34\n    ) a

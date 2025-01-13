@@ -1,0 +1,1 @@
+// Open Event Viewer\n   eventvwr.msc

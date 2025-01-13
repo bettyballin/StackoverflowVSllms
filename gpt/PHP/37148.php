@@ -1,0 +1,1 @@
+// Your protected content goes here\necho "Welcome, " . $userdata['username'] . "!";

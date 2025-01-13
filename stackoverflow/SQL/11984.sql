@@ -1,1 +1,0 @@
-SELECT t1.id1\n  FROM table1 t1\n INNER JOIN table2 ON something = something

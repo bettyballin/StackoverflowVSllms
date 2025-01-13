@@ -1,1 +1,0 @@
-import socket\nsock = socket.socket()\nsock.connect((address, port))

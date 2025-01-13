@@ -1,0 +1,1 @@
+// party.cpp\n#include "CFun.hpp"\n#include <iostream>\n\nclass ExtendedCFun : public CFun {\npublic:\n    void hello() {\n        std::cout << "hello" << std::endl;\n    }\n};\n\nint main() {\n    ExtendedCFun obj;\n    obj.existingMethod(); // Call the existing method\n    obj.hello();          // Call the new method\n    return 0;\n}

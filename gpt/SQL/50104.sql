@@ -1,0 +1,1 @@
+CREATE TABLE form_responses (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    form_id INT,\n    submitted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    FOREIGN KEY (form_id) REFERENCES forms(id)\n);

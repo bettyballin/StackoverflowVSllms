@@ -1,1 +1,0 @@
-[StructLayout(LayoutKind.Explicit)]\nstruct Test\n{\n    [FieldOffset(0)]\n    public IntPtr ptr;\n    [FieldOffset(0)]\n    public string str;\n}

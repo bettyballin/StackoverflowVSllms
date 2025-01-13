@@ -1,1 +1,0 @@
-TRUNCATE #Table1\n\nSET IDENTITY_INSERT #Table1 ON\n\nINSERT INTO #Table1 (TableID) -- This is your primary key field\nVALUES (@SequenceNumber - 1)\n\nSET IDENTITY_INSERT #Table1 OFF\n\nDELETE FROM #Table1

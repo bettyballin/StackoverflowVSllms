@@ -1,0 +1,1 @@
+class FileManager {\n       private $uploadDir;\n\n       public function __construct($uploadDir) {\n           $this->uploadDir = $uploadDir;\n       }\n\n       public function upload($file) {\n           $targetFile = $this->uploadDir . basename($file["name"]);\n           return move_uploaded_file($file["tmp_name"], $targetFile);\n       }\n   }

@@ -1,1 +1,0 @@
-[DisplayName("Foo bar")]

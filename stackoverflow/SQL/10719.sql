@@ -1,1 +1,0 @@
-SELECT movies.id, movies.title, COUNT(ratings.id) AS num_ratings \n  FROM movies \n  LEFT JOIN ratings ON ratings.movie_id=movies.id \n  GROUP BY movies.id \n  HAVING num_ratings > 5;

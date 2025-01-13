@@ -1,0 +1,1 @@
+EXPLAIN PLAN FOR\n   SELECT * FROM your_view_name;\n   \n   SELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);

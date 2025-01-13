@@ -1,0 +1,1 @@
+var propertyValue = Object1?.Object2?.Object3?.Property;\n\nif (propertyValue == null)\n{\n    // Handle the case where any object in the hierarchy is null\n}\nelse\n{\n    // Proceed with your logic\n}

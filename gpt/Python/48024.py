@@ -1,0 +1,1 @@
+from django import forms\nfrom .models import YourModel\n\nclass YourForm(forms.Form):\n    your_field = forms.ModelMultipleChoiceField(\n        queryset=YourModel.objects.all(),\n        widget=forms.CheckboxSelectMultiple\n    )

@@ -1,0 +1,1 @@
+typedef struct _IMAGE_THUNK_DATA {\n    union {\n        PBYTE  ForwarderString;\n        PDWORD Function;\n        DWORD  Ordinal;\n        PIMAGE_IMPORT_BY_NAME AddressOfData;\n    } u1;\n} IMAGE_THUNK_DATA;

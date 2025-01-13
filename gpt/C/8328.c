@@ -1,0 +1,1 @@
+void myfunc(int *a) {\n    // function implementation\n}

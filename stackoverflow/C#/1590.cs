@@ -1,1 +1,0 @@
-<script runat="server">\n    protected LayoutModel LayoutModel\n    {\n        get\n        {\n            return ViewData["LayoutModel"] as LayoutModel;\n        }\n    }\n</script>

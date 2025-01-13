@@ -1,0 +1,1 @@
+if (isset($_SESSION['valid_username'])) {\n    $author = strtolower($_SESSION['valid_username']);\n    // Proceed with using $author\n} else {\n    // Handle the case where the session variable is not set\n    $author = '';\n}

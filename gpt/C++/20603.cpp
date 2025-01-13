@@ -1,0 +1,1 @@
+#include <windows.h>\n\n      void someFunction() {\n          OutputDebugString(L"Debug Message: Entering someFunction");\n          // Your code here\n          OutputDebugString(L"Debug Message: Exiting someFunction");\n      }

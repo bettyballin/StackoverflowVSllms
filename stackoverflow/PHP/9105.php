@@ -1,1 +1,0 @@
-<?php\n  sleep(ini_get('max_execution_time') + 10);\n?>

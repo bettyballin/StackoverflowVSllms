@@ -1,0 +1,1 @@
+ALTER TABLE your_table_name ROW_FORMAT=COMPACT;

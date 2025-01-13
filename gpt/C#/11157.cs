@@ -1,0 +1,1 @@
+for (int i = 0; i < 10; i++)\n{\n    Console.WriteLine(i);\n}

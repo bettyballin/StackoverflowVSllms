@@ -1,1 +1,0 @@
-declare\n   l_cnt integer;\nbegin\n   select count(*)\n   into   l_cnt\n   from   x\n   where  x.col_a = value_a \n   and    x.col_b = value_b\n   and    rownum = 1;\nend;

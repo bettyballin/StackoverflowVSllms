@@ -1,1 +1,0 @@
-if (myReader["Additional"] != DBNull.Value)\n{\n    ltlAdditional.Text = "contains data";\n}\nelse\n{\n     ltlAdditional.Text = "is null";\n}

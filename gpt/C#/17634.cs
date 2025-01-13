@@ -1,0 +1,1 @@
+DeleteGridCellContent(myGrid, 1, 2); // This will delete the content in row 1, column 2

@@ -1,0 +1,1 @@
+./get_image_info.sh image.jpg

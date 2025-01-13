@@ -1,1 +1,0 @@
-set ANSI_NULLS ON\nset QUOTED_IDENTIFIER ON\ngo\n\n\nALTER PROCEDURE [dbo].[mh_getSchemaVersion]\n@schemaVer VARCHAR(256) OUTPUT\nAS\n    select @schemaVer = CAST( (select value from fn_listextendedproperty(default, default, default, default, default, default, default) where name=N'schemaVersion') AS varchar(256) )\n    return @@ROWCOUNT

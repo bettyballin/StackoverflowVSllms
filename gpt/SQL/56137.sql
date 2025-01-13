@@ -1,0 +1,1 @@
+SELECT \n    b.[Book ID],\n    b.[Book Name],\n    STUFF((SELECT ', ' + CAST(bt.[Tag ID] AS VARCHAR)\n           FROM BookTag bt\n           WHERE bt.[Book ID] = b.[Book ID]\n           FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)'), 1, 2, '') AS Tags\nFROM \n    Book b\nORDER BY \n    b.[Book ID];

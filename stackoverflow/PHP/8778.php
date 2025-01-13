@@ -1,1 +1,0 @@
-$curl = curl_init();\ncurl_setopt($curl, CURLOPT_URL, "http://remote.com/client.asp");\ncurl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);\n$output = curl_exec($curl);\ncurl_close($curl);\nif (simplexml_load_string($output)) {\n  // well-formed XML\n} else {\n  // it isn't\n}

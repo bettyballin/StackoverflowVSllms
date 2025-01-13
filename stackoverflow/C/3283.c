@@ -1,1 +1,0 @@
-system("someapp.exe 42 24");

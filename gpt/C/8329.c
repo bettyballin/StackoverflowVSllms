@@ -1,0 +1,1 @@
+#include <windows.h>\n\n    HINSTANCE hDll = LoadLibrary("thirdpartylibrary.dll");\n    if (hDll == NULL) {\n        // Handle the error\n    }

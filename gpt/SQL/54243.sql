@@ -1,0 +1,1 @@
+SELECT \n       DeviceHistoryID,\n       -- Other columns\n       (CASE \n           WHEN [condition] THEN 'The additional info field of this device has been modified'\n           ELSE 'Other description'\n       END) AS EventDescription\n   FROM \n       History

@@ -1,0 +1,1 @@
+sudo apt-get install chrony\n    sudo systemctl enable chronyd\n    sudo systemctl start chronyd

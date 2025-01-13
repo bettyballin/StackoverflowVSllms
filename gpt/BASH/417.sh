@@ -1,0 +1,1 @@
+gsutil cp -r gs://your-bucket-name/path-to-exported-data/ ./local-directory

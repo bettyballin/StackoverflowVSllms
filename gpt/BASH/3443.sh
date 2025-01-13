@@ -1,0 +1,1 @@
+sudo iptables -t nat -A PREROUTING -p tcp --dport <source-port> -j DNAT --to-destination <destination-ip>:<destination-port>\n    sudo iptables -A FORWARD -p tcp -d <destination-ip> --dport <destination-port> -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT

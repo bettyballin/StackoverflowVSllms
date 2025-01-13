@@ -1,1 +1,0 @@
-similar_text("input string", "match against this", $pct_accuracy);

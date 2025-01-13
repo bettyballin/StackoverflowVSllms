@@ -1,1 +1,0 @@
-$xml=simplexml_load_file($file);\nforeach($xml->Var[0]->attributes() as $a => $b) {\n    echo $a,'="',$b,"\"\n";\n}

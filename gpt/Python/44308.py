@@ -1,0 +1,1 @@
+from flask_limiter import Limiter\n    from flask import Flask\n\n    app = Flask(__name__)\n    limiter = Limiter(app, key_func=get_remote_address)\n\n    @app.route("/product-page")\n    @limiter.limit("5 per minute")\n    def product_page():\n        return "This is a product page."

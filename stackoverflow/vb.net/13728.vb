@@ -1,1 +1,0 @@
-Z = iif(y=0, 0, x/y)  'Throws a divide by zero exception when y is 0

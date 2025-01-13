@@ -1,0 +1,1 @@
+sudo apt-get install duplicity\n     duplicity /home/user/source file:///home/user/backup

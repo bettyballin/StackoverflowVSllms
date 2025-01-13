@@ -1,0 +1,1 @@
+DECLARE @data XML\nSET @data = \n    '<DOD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" \n          xsi:nil="true" />'\n\nSELECT \n    Value1 = CASE \n                WHEN @data.exist('/DOD[@xsi:nil="true"]') = 1 \n                THEN NULL \n                ELSE @data.value('/DOD[1]', 'datetime') \n             END

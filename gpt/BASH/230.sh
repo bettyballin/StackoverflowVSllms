@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Check if process ID is provided\nif [ -z "$1" ]; then\n  echo "Usage: $0 <pid>"\n  exit 1\nfi\n\nPID=$1\n\n# Get the process status\nSTATUS=$(ps -o stat= -p $PID)\n\nif [ -z "$STATUS" ]; then\n  echo "Process $PID not found"\nelse\n  echo "Process $PID status: $STATUS"\nfi

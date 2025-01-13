@@ -1,0 +1,1 @@
+// This will use the same session within the same application\nResponse.Redirect("AnotherPage.aspx");

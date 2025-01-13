@@ -1,0 +1,1 @@
+CComPtr<IRawPdu> MyClass::getRawPdu() {\n    if (mRawPdu == nullptr) {\n        // Perform initialization of mRawPdu here\n        // For example:\n        // mRawPdu.CoCreateInstance(CLSID_RawPdu);\n    }\n    return mRawPdu;\n}

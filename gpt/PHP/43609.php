@@ -1,0 +1,1 @@
+// Enable caching for a specific page\n$this->output->cache($n);\n\n// Disable caching for a specific page\n$this->output->delete_cache();

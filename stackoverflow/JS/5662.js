@@ -1,1 +1,0 @@
-$(function() {\n    $("#left-col").sortable({\n        handle: '.item h2',\n        connectWith: '#right-col'\n    }).disableSelection();\n    $("#right-col").sortable({\n        handle: '.item h2',\n        connectWith: '#left-col'\n    }).disableSelection();\n});

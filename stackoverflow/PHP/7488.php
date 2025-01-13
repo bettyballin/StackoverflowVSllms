@@ -1,1 +1,0 @@
-<?php\nfunction get_date($args) {\n    // get the data as $data\n    return drupal_json $data;\n}

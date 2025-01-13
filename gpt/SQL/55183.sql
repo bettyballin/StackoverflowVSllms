@@ -1,0 +1,1 @@
+UPDATE your_table\nSET single_cost = CEILING(cost / participant);

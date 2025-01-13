@@ -1,1 +1,0 @@
-If rb.FullSlots = 0 And Threading.Interlocked.Read(ProducerFinished) = 0 Then\n   Exit While\nEnd If\nDim t As Tile = rb.Read()    

@@ -1,1 +1,0 @@
-ALTER TRIGGER trfoobar DISABLE;\nALTER TABLE foobar ADD (newcol number);\nUPDATE foobar SET newcol=oldcol, oldcol=null;\nALTER TABLE foobar MODIFY(oldcol number(22,2));\nUPDATE foobar SET oldcol=newcol;\nALTER TABLE foobar DROP(newcol);\nALTER TRIGGER trfoobar ENABLE;

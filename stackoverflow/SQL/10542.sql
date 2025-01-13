@@ -1,1 +1,0 @@
-trunc. log on checkpoint

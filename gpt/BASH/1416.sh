@@ -1,0 +1,1 @@
+# Using PowerShell\nGet-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Office\12.0\Excel\InstallRoot" -Name "Path"

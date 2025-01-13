@@ -1,1 +1,0 @@
-$_COOKIE["phpbb2mysql_data"]

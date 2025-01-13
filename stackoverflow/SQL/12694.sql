@@ -1,1 +1,0 @@
-select right(left(convert(nvarchar, @DateNow, 121), 16), 5)

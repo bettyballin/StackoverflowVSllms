@@ -1,1 +1,0 @@
-sum = 0;\nwhile (n != 0) {\n    sum += n % 10;\n    n /= 10;\n}

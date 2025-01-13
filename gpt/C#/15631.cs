@@ -1,0 +1,1 @@
+string password = "userPassword";\n   string hashedPassword = PasswordHelper.HashPassword(password);\n   // Store `hashedPassword` in the database

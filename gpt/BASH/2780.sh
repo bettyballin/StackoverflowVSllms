@@ -1,0 +1,1 @@
+cd /vmfs/volumes/datastore_name/vm_directory/

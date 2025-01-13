@@ -1,1 +1,0 @@
-$string=preg_replace('/\[#\s#\s([0-9]+)\]/', '$1', $string);

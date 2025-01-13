@@ -1,1 +1,0 @@
->>> import os\n>>> clear = lambda: os.system('cls')\n>>> clear()

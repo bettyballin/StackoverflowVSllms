@@ -1,0 +1,1 @@
+public class LayoutModel\n    {\n        public string Greeting { get; set; }\n        // Add other properties relevant to the layout\n    }\n\n    public class HomeModel : LayoutModel\n    {\n        // Add properties specific to HomeModel\n    }

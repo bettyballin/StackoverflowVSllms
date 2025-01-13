@@ -1,1 +1,0 @@
-/**\n * Some description of function behaviour.\n *\n * @param Whatever $blah\n */\npublic function myFunction($blah)\n{\n    $blah-> \n    // Now $blah is Whatever object, autocompletion will work.\n}

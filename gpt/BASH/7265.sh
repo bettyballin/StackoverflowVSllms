@@ -1,0 +1,1 @@
+chown youruser:yourgroup /Volumes/1&1\ Internet/website/.git/hooks/pre-commit

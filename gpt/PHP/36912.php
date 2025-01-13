@@ -1,0 +1,1 @@
+<?php\n    define('ENVIRONMENT', 'testing');\n    $_SERVER['CI_ENV'] = 'testing';\n    require __DIR__ . '/../application/tests/Bootstrap.php';

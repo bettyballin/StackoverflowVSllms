@@ -1,0 +1,1 @@
+<asp:TextBox ID="TextBox1" runat="server" />\n<script type="text/javascript">\n    document.getElementById('<%= TextBox1.ClientID %>').onkeydown = function(event) {\n        if (event.keyCode === 13) { // 13 is the Enter key\n            event.preventDefault();\n            return false;\n        }\n    };\n</script>

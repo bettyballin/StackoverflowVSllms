@@ -1,0 +1,1 @@
+UPDATE YourTable\nSET YourDateTimeColumn = DATEADD(day, ABS(CHECKSUM(NEWID()) % 3650), '2000-01-01')

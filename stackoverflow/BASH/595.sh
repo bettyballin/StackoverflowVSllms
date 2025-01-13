@@ -1,1 +1,0 @@
-ssh -i /Users/myuser/.ssh/id_rsa -F /Users/myuser/.ssh/config login@host

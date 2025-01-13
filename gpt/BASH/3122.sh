@@ -1,0 +1,1 @@
+# Step 1: Replace newlines within fields with spaces\nperl -pe 's/\x01\n/\x01 /g' input_file > temp_file\n\n# Step 2: Replace the record separator (STX + newline) with a newline character\nperl -pe 's/\x02\n/\n/g' temp_file > output_file\n\n# Clean up\nrm temp_file

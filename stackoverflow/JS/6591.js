@@ -1,1 +1,0 @@
-xhr.setRequestHeader("Content-Length", "0");

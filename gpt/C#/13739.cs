@@ -1,0 +1,1 @@
+private List<Item> m_items = ...;\n\npublic Item GetItemByIdx(int idx)\n{\n    return m_items[idx]; // Let the List<T> handle the bounds checking\n}

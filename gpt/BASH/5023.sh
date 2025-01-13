@@ -1,0 +1,1 @@
+erl -name fred@ipaddress -setcookie mysecretcookie

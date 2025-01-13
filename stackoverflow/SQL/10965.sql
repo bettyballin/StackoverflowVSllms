@@ -1,1 +1,0 @@
-LET new_id = DBINFO('sqlca.sqlerrd1');

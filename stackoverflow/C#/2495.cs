@@ -1,1 +1,0 @@
-var q = from account in dataContext.Accounts\n    where account.amount < 1000\n    select account;\n\ndataContext.DeleteAllOnSubmit(q);

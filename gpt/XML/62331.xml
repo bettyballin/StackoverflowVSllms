@@ -1,0 +1,1 @@
+<PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.10.0" />\n    <PackageReference Include="MSTest.TestAdapter" Version="2.2.4" />\n    <PackageReference Include="MSTest.TestFramework" Version="2.2.4" />

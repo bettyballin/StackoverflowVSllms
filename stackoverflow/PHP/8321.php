@@ -1,1 +1,0 @@
-class String {\n   private $_value = '';\n   public function __construct($value) {\n      $_value = $value;\n   }\n   public function __call ($name, $arguments) {\n      return new String($name($_value, $arguments));\n   }\n}\n\n$string = new String($string);\necho $string->trim()->strtolower()->str_repeat(2);

@@ -1,0 +1,1 @@
+$to = 'recipient@example.com';\n$subject = 'Subject';\n$message = 'Message body';\n$headers = 'From: sender@example.com';\n\n// Additional parameters\n$additional_parameters = '-f realname@realhost';\n\n// Send mail\nmail($to, $subject, $message, $headers, $additional_parameters);

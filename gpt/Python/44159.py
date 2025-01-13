@@ -1,0 +1,1 @@
+import urllib.parse\n\n# Example of encoding a URL\nurl = 'https://example.com/über'\nencoded_url = urllib.parse.quote(url)\nprint(encoded_url)  # Output: https%3A//example.com/%C3%BCber\n\n# Decoding the URL back to a string\ndecoded_url = urllib.parse.unquote(encoded_url)\nprint(decoded_url)  # Output: https://example.com/über

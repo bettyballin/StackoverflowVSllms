@@ -1,0 +1,1 @@
+ul {\n    zoom: 1; /* Triggers hasLayout in IE6 */\n    display: inline-block; /* Another hasLayout trigger */\n    width: 100%; /* Ensure it takes full width, which can also trigger hasLayout */\n}

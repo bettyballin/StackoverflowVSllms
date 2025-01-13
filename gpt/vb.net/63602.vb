@@ -1,0 +1,1 @@
+Public Class Type1\n\n    Private integerField As Integer\n\n    Public Sub New()\n        MyBase.New()\n    End Sub\n\n    Private Property integerProperty() As Integer\n        Get\n            Return Me.integerField\n        End Get\n        Set(ByVal Value As Integer)\n            Me.integerField = Value\n        End Set\n    End Property\nEnd Class

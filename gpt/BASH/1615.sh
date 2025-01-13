@@ -1,0 +1,1 @@
+./startServer.sh server1 -debug

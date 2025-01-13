@@ -1,1 +1,0 @@
-$text = 'this is a $test'; // single quotes to simulate getting it from a file\n$test = 'banana';\n$text = eval('return "' . addslashes($text) . '";');\necho $text; // this is a banana

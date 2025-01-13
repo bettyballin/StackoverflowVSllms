@@ -1,0 +1,1 @@
+#if defined(__x86_64__) || defined(_M_X64) || defined(__LP64__) || defined(_LP64)\n// Code for 64-bit platforms\n#else\n// Code for 32-bit platforms\n#endif

@@ -1,0 +1,1 @@
+/nastools/python64/bin/python /remote/path/impo/manager.py

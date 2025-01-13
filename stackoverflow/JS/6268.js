@@ -1,1 +1,0 @@
-$('#SomeContainer').Load("default.aspx?What=GimmeSomeSweetAjax");

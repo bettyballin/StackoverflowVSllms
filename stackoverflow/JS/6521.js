@@ -1,1 +1,0 @@
-var selector = $(this);\n$(".pageNav a").live("click", function() {\n  // do something\n  selector.hide();\n});

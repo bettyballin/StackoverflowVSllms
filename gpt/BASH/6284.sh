@@ -1,0 +1,1 @@
+htpasswd -c /etc/apache2/.htpasswd yourusername

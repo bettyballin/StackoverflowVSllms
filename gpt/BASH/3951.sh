@@ -1,0 +1,1 @@
+@echo off\n\n:: Remove from registry\nreg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "MyBatchFile" /f\n\necho Batch file removed from startup.

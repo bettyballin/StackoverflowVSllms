@@ -1,1 +1,0 @@
-CREATE TABLE `posts` (\n`pID` bigint(20) NOT NULL auto_increment,\n`content` text NOT NULL,\n`time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,\n`uID` bigint(20) NOT NULL,\n`wikiptr` bigint(20) default NULL,\n`cID` bigint(20) NOT NULL,\nPRIMARY KEY  (`pID`),\nForeign Key(`cID`) references categories(`cID`),\nForeign Key(`uID`) references users(`uID`)\n) ENGINE=InnoDB;

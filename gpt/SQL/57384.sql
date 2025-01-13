@@ -1,0 +1,1 @@
+-- Delete all records from tblTable1\nDELETE FROM tblTable1;\n\n-- Insert records from tblTable1_Link into tblTable1 with explicit column names\nINSERT INTO tblTable1 (Column1, Column2, Column3, ...)\nSELECT Column1, Column2, Column3, ...\nFROM tblTable1_Link;

@@ -1,0 +1,1 @@
+ffmpeg -i input.mp4 -i background.jpg -i soundtrack.mp3 -filter_complex "[0:v][1:v] overlay=0:0" -map 0:a -map 2:a -c:v libx264 -c:a aac output.mp4

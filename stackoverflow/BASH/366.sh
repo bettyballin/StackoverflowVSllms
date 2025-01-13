@@ -1,1 +1,0 @@
-wls:/offline> connect('weblogic','weblogic','t3://localhost:7002')

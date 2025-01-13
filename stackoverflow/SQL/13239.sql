@@ -1,1 +1,0 @@
-create unique index only_one_yes on mytable\n(case when col='YES' then 'YES' end);

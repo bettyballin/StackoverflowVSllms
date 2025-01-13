@@ -1,0 +1,1 @@
+SplitValue    ValueColumn1   ValueColumn2\n----------    ------------   ------------\nABC           1              2\n123           1              2\nXYZ           2              3\n789           2              3

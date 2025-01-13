@@ -1,0 +1,1 @@
+<?php\n$iniFilePath = '/etc/php.d/eaccelerator.ini';\n\nif (file_exists($iniFilePath)) {\n    $config = parse_ini_file($iniFilePath, true);\n    // Optionally, you can define these configurations as constants or set them in the PHP environment\n    foreach ($config as $key => $value) {\n        ini_set($key, $value);\n    }\n}\n?>

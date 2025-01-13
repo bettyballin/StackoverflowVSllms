@@ -1,0 +1,1 @@
+public interface ICustomRenderer\n    {\n        void Render3DObject();\n    }\n\n    public abstract class BaseModule\n    {\n        public abstract void Initialize();\n    }

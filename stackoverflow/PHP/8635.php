@@ -1,1 +1,0 @@
-$srcName = 'source.png';\n\n$info = getimageinfo($srcName);\n$src = imagecreatefrompng($srcName);\n\n// Create a new image up to 800px tall\n$dest = imagecreate($info[0], min($info[1], 800));\nimagecopy($dest, $src, 0, 0, 0, 0, $info[0], min($info[1], 800));\n\n// Output\nheader('Content-type: image/png');\nimagepng($dest);

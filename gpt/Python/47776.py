@@ -1,0 +1,1 @@
+from django.contrib import admin\nfrom .models import FileUpload\nfrom .forms import FileUploadForm\n\nclass FileUploadAdmin(admin.ModelAdmin):\n    form = FileUploadForm\n\nadmin.site.register(FileUpload, FileUploadAdmin)

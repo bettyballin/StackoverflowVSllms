@@ -1,1 +1,0 @@
-$user = array("name" => "bob", \n              "age" => 20,\n              "websites" => array("example.com","bob.example.com","bob2.example.com"),\n              "and_one" => "more");

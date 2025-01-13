@@ -1,0 +1,1 @@
+int      = 1\ndouble   = 1.0, 1.0e5\ndecimal  = 1.0m, 1.0M\nfloat    = 1.0f, 1.0F\nshort    = 1, (short)1\nushort   = 1, (ushort)1\nlong     = 1L, 1l\nulong    = 1UL, 1ul

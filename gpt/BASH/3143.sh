@@ -1,0 +1,1 @@
+#!/bin/bash\n\n    # Install cpanm if not already installed\n    if ! command -v cpanm &> /dev/null; then\n        curl -L https://cpanmin.us | perl - App::cpanminus\n    fi\n\n    # Install specific versions of modules\n    cpanm Module::Name@1.23\n    cpanm Another::Module@4.56\n    # Add more modules as needed\n\n    echo "All specified modules have been installed."

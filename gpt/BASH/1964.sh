@@ -1,0 +1,1 @@
+ping [SERVER IP ADDRESS]\n   telnet [SERVER IP ADDRESS] 1521

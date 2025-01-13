@@ -1,0 +1,1 @@
+@echo off\nset "searchTerm=YourSearchTermHere"\nset "outputFile=search_results.reg"\nRegScanner.exe /sregex /stext %searchTerm% /sreg %outputFile%\necho Search results saved to %outputFile%

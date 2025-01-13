@@ -1,1 +1,0 @@
-CREATE TABLE `content` (\n  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,\n  `name` VARCHAR  NOT NULL,\n  `short_description` TEXT  NOT NULL,\n  `tags` TEXT ,\n  `data` TEXT ,\n  `content_type` INT  NOT NULL,\n  `created_at` DATETIME  NOT NULL,\n  `updated_at` DATETIME  NOT NULL,\n  PRIMARY KEY (`id`)\n)

@@ -1,1 +1,0 @@
-select\n  date = case date_attribute\n            when charindex('DSP',date_attribute) > 0 then substring(date_attribute,beg,end)\n            when charindex('DISCH',date_attribute) > 0 then substring(date_attribute,beg,end)\n            else 'unknown'\n        end \n from myTable

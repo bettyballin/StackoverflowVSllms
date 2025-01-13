@@ -1,1 +1,0 @@
-namespace YourNamespace\n{\n    public IgnoreRequestHandler : IHttpHandler\n    {\n        public IsReusable { get { return true; } }\n\n        public void ProcessRequest(HttpContext context)\n        { }\n    }\n}

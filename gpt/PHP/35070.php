@@ -1,0 +1,1 @@
+<?php\n$start = microtime(true);\n\n$uname = php_uname('s n');\n\n$end = microtime(true);\n$execution_time = ($end - $start);\n\necho "php_uname('s n') executed in " . $execution_time . " seconds.\n";\necho "Result: " . $uname . "\n";\n?>

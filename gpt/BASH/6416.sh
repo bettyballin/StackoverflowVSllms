@@ -1,0 +1,1 @@
+#!/bin/bash\npid=<your_java_process_id>\nwhile true; do\n    jstat -gc $pid\n    jcmd $pid GC.heap_info\n    jcmd $pid Thread.print\n    sleep 60\ndone

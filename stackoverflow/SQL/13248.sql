@@ -1,1 +1,0 @@
-CREATE TABLE "SF_Bands" ( ... );\n\nSELECT * FROM sf_bands;  -- ERROR!

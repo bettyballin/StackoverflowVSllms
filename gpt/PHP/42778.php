@@ -1,0 +1,1 @@
+class DogObject {\n    public function __isset($name) {\n        return false;\n    }\n}\n\n$dog = new DogObject();\nif (isset($dog->dummyProperty)) {\n    return "This is bad;";\n} else {\n    return "Excellent! $dog was false!";\n}

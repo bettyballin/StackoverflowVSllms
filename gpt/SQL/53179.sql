@@ -1,0 +1,1 @@
+BEGIN\n        proc2;\n    END;\n    /\n\n    -- Output:\n    -- ID: 1\n    -- ID: 2

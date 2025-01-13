@@ -1,0 +1,1 @@
+using System.Web.Mvc;\n\npublic class BaseController : Controller\n{\n    protected override void OnActionExecuting(ActionExecutingContext filterContext)\n    {\n        base.OnActionExecuting(filterContext);\n        // Additional common logic for all controllers can go here\n    }\n}

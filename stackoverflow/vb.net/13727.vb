@@ -1,1 +1,0 @@
-try\n   dim context = new //LINQ-To-SQL context\n   dim db = new context.mytable\n   db.somefield = something\n   context.insertonsubmit(db )\n   context.save\ncatch ex as exception\n   context.dispose();\nend try

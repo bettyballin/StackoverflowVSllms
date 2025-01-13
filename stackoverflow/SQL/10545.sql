@@ -1,1 +1,0 @@
-SELECT AVG( value ) , thetime\nFROM hourly_averages\nGROUP BY DATE( thetime ), HOUR( thetime )

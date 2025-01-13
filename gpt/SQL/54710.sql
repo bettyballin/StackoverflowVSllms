@@ -1,0 +1,1 @@
+ALTER TABLE YourTable\nALTER COLUMN YourColumn VARCHAR(100);

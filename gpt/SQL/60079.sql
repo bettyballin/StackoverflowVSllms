@@ -1,0 +1,1 @@
+CREATE TABLE CLIENT\n    (\n        NAME VARCHAR2(11 BYTE),\n        ID_CLIENT NUMBER\n    );

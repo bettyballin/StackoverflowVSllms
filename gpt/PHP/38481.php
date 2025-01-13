@@ -1,0 +1,1 @@
+// In your view script\n$this->headStyle()->captureStart();\n?>\n    body {\n        background: #FFFFFF;\n    }\n<?php\n$this->headStyle()->captureEnd();

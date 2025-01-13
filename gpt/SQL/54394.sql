@@ -1,0 +1,1 @@
+CREATE TABLE test (\n  id INT IDENTITY(1,1) PRIMARY KEY,\n  myNum INT NULL\n);

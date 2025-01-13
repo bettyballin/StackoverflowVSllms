@@ -1,1 +1,0 @@
-SELECT column_name, COUNT(column_name)\nFROM table_name\nGROUP BY column_name\nHAVING COUNT(column_name) > 1;

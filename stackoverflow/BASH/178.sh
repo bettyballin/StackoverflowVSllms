@@ -1,1 +1,0 @@
-#/bin/bash\nssh -t -x root@db-host 'mysqldump db' -r file.sql

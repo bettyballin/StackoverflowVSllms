@@ -1,0 +1,1 @@
+fetch('/your/api/endpoint/')\n  .then(response => response.json())\n  .then(data => {\n    // Handle success\n    console.log(data);\n  })\n  .catch(error => {\n    // Handle error\n    console.error(error);\n  });

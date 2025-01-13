@@ -1,0 +1,1 @@
+curl -v "http://your-tomcat-server/your-rest-endpoint?param1=value1&param2=value2"

@@ -1,0 +1,1 @@
+public static XElement ToXml(this IEnumerable input)\n{\n    if (input == null) return null;\n\n    Type itemType = input.GetType().GetGenericArguments()[0];\n    var root = new XElement(itemType.Name.Trim('_'));\n\n    foreach (var item in input)\n    {\n        root.Add(item.ToXml());\n    }\n\n    return root;\n}

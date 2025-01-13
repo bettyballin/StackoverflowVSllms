@@ -1,1 +1,0 @@
-var gmap = function() {\n    this.add = function() {\n        alert('add');\n    return this;\n    }\n\n    this.del = function() {\n       alert('delete');\n       return this;\n    }\n\n    if (this instanceof gmap) {\n        return this.gmap;\n    } else {\n        return new gmap();\n    }\n}\nvar test = new gmap();\ntest.add().del();

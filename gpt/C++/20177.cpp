@@ -1,0 +1,1 @@
+#include "person.pb.h"\n\n// Serialize\nPerson person;\nperson.set_name("John Doe");\nperson.set_id(1234);\nperson.set_email("john.doe@example.com");\n\nstd::string output;\nperson.SerializeToString(&output);\n\n// Deserialize\nPerson person2;\nperson2.ParseFromString(output);

@@ -1,0 +1,1 @@
+routing_entry route = consultTable(someDestinationID);\nif (route.initialized) {\n    // The route is valid and has been initialized\n} else {\n    // The route is not valid or not found\n}

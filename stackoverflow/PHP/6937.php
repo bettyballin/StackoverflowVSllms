@@ -1,1 +1,0 @@
-$xml = simplexml_load_string($str);\nforeach ($xml->channel->item as $item) {\n    var_dump($item->description);\n}

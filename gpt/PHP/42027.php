@@ -1,0 +1,1 @@
+function yourtheme_preprocess_form_element(&$variables) {\n    $element = &$variables['element'];\n    if (isset($element['#field_prefix']) && strpos($element['#id'], 'edit-field-contenttype-fieldname') !== FALSE) {\n        $variables['prefix'] = '<span class="field-prefix">' . $element['#field_prefix'] . '</span>';\n    }\n}

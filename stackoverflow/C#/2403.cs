@@ -1,1 +1,0 @@
-class TestClass3 : TestInterfaces.MyInterface\n{\n\n    TestInterfaces.MyInterface.MyEnum TestInterfaces.MyInterface.Number\n    {\n        get { throw new Exception("The method or operation is not implemented."); }\n    }\n\n}

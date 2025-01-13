@@ -1,0 +1,1 @@
+SELECT Departments.DepartmentID, Departments.DepartmentName, Employees.EmployeeID, Employees.EmployeeName\nFROM Employees\nRIGHT OUTER JOIN Departments\nON Employees.DepartmentID = Departments.DepartmentID;

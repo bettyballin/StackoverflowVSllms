@@ -1,0 +1,1 @@
+Assert.That(product.IsValid(), Is.False);\nAssert.That(productList, Has.Count.EqualTo(5));\nAssert.That(product.Name, Is.Not.Null.And.Not.Empty);

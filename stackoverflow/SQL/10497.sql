@@ -1,1 +1,0 @@
-select *\nfrom  \n( select * \n  from emp \n  order by sal desc ) \nwhere ROWNUM <= 5;

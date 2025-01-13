@@ -1,0 +1,1 @@
+javac -cp "path/to/your/libs/*" CommandLineApp.java\njava -cp ".:path/to/your/libs/*" CommandLineApp

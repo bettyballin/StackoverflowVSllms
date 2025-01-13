@@ -1,0 +1,1 @@
+SELECT id, YEAR(year_month) AS year, MONTH(year_month) AS month\nFROM YourTable;

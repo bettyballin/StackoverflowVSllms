@@ -1,0 +1,1 @@
+@echo off\nset host=%COMPUTERNAME%\necho %host%

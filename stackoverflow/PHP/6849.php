@@ -1,1 +1,0 @@
-$filename = time() . '.txt';\n$fp = fopen($filename,'w');\nfputs($fp,$mysql);\nfclose($fp);

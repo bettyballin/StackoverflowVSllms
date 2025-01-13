@@ -1,0 +1,1 @@
+button {\n       display: block;\n       width: auto; /* or a specific width if you prefer */\n       height: 40px; /* example height */\n       margin: 5px;\n       padding: 10px;\n   }

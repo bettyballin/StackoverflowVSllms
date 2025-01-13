@@ -1,1 +1,0 @@
-If ListBox1.SelectedItems.Count == 0

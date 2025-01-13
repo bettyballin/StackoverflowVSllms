@@ -1,0 +1,1 @@
+using (FileStream fs = new FileStream(_PathToPdf, FileMode.Open, FileAccess.Read, FileShare.Delete))\n   {\n       WebBrowser1.Navigate(fs.Name);\n   }

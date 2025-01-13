@@ -1,0 +1,1 @@
+udevadm info --query=property --name=/dev/sdX | grep MY_CUSTOM_PROPERTY

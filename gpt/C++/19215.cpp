@@ -1,0 +1,1 @@
+#include <boost/property_tree/ptree.hpp>\n#include <boost/property_tree/ini_parser.hpp>\n\nint main() {\n    boost::property_tree::ptree pt;\n    boost::property_tree::ini_parser::read_ini("example.ini", pt);\n\n    int some_setting = pt.get<int>("section.some_setting");\n    std::cout << "some_setting: " << some_setting << std::endl;\n\n    return 0;\n}

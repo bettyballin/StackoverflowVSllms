@@ -1,1 +1,0 @@
-SELECT  id\nFROM    (\n        SELECT  B AS id\n        FROM    compat\n        WHERE   A IN (list)\n        UNION\n        SELECT  A\n        FROM    compat\n        WHERE   B IN (list)\n        ) q\nGROUP BY\n        id\nHAVING  COUNT(*) = @cnt

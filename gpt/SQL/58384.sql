@@ -1,0 +1,1 @@
+SELECT \n    SchedID,\n    LEVEL AS PaymentNum,\n    StartDate + (LEVEL - 1) * Frequency * INTERVAL '1' MONTH AS DueDate,\n    LEVEL * PaymentAmt AS RunningExpectedTotal\nFROM \n    PaymentSchedule\nCONNECT BY \n    PRIOR SchedID = SchedID AND \n    PRIOR DBMS_RANDOM.VALUE IS NOT NULL AND \n    LEVEL <= (Term / Frequency)\nORDER BY \n    SchedID, PaymentNum;

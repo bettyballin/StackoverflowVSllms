@@ -1,0 +1,1 @@
+java -javaagent:/path/to/jacocoagent.jar=destfile=jacoco.exec -jar yourprogram.jar

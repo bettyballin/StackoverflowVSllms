@@ -1,1 +1,0 @@
-ALTER TABLE TableName ALTER COLUMN  ColumnName Text(50)

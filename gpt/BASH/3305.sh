@@ -1,0 +1,1 @@
+pip install pelican\n   pelican-quickstart\n   pelican content

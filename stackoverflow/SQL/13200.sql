@@ -1,1 +1,0 @@
-SELECT object_id\n,      SUM(vote) + '/' + total AS normalized_score\nFROM   tabel\n,      (\n       SELECT sum(vote) AS total\n       FROM   tabel\n       ) \nGROUP BY object_id, total

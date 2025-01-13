@@ -1,0 +1,1 @@
+// Avoid this\n   var files = Directory.GetFiles("C:\\some_directory");

@@ -1,0 +1,1 @@
+<?php\n// index.php\n\n// Set some data to be used in home.php\n$_REQUEST['data'] = 'some value';\n\n// Forward the request to home.php\ninclude('home.php');

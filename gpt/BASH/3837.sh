@@ -1,0 +1,1 @@
+gcc -shared -o libyourlibrary.so your_source_files.c -Wl,--version-script=hide_symbols.map

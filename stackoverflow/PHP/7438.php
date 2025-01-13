@@ -1,1 +1,0 @@
-$this->Session->write('Auth.User.customer_id', 4);

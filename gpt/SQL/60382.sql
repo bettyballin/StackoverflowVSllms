@@ -1,0 +1,1 @@
+SELECT *\nFROM sys.synonyms\nWHERE base_object_name LIKE '%YourStoredProcedureName%'

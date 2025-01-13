@@ -1,0 +1,1 @@
+sudo nscd -i passwd\n   sudo nscd -i group

@@ -1,0 +1,1 @@
+// To autoload the helper, add it in application/config/autoload.php\n   $autoload['helper'] = array('custom');

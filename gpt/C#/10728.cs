@@ -1,0 +1,1 @@
+' Replace <br/> tags with newline characters\nplainText = plainText.Replace("<br/>", Environment.NewLine)\nplainText = plainText.Replace("<br />", Environment.NewLine)

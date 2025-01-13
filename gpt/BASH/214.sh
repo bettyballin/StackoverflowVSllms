@@ -1,0 +1,1 @@
+keytool -importcert -alias youralias -file yourcertificate.crt -keystore keystore.p12

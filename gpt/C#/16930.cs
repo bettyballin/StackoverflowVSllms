@@ -1,0 +1,1 @@
+string url = "http://example.com";\nstring htmlContent = WebPageFetcher.GetHtml(url);\nConsole.WriteLine(htmlContent);

@@ -1,1 +1,0 @@
-function getFirstRight(rights) {\n  var m = rights.match(/(^|;)(LA_[^;]*)/)\n  return m ? m[2] : "";\n}

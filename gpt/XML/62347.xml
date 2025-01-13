@@ -1,0 +1,1 @@
+<build>\n    <resources>\n        <resource>\n            <directory>src/main/resources</directory>\n        </resource>\n    </resources>\n    <testResources>\n        <testResource>\n            <directory>src/test/resources</directory>\n        </testResource>\n    </testResources>\n</build>

@@ -1,0 +1,1 @@
+from django.db.models import Q\nfrom functools import reduce\nimport operator\n\n# Example dictionary\nd = {'k1': 'v1', 'k2': 'v2'}\n\n# Build the Q objects\nquery = reduce(operator.or_, (Q(**{k: v}) for k, v in d.items()))\n\n# Perform the query\nresults = SomeModel.objects.filter(query)

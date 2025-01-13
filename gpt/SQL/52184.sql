@@ -1,0 +1,1 @@
+SELECT t.threadID\nFROM threads t\nJOIN (\n    SELECT threadID, MAX(timestamp) AS last_activity\n    FROM posts\n    GROUP BY threadID\n) p ON t.threadID = p.threadID\nORDER BY p.last_activity DESC;

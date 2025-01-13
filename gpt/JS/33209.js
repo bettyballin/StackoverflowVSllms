@@ -1,0 +1,1 @@
+function UpdateTime() {\n    PageMethods.GetCurrentDate(OnSucceeded, OnFailed); \n}\n\nfunction OnSucceeded(result, userContext, methodName) {\n    document.getElementById('Literal1').innerHTML = result; \n}\n\nfunction OnFailed(error, userContext, methodName) {\n    document.getElementById('Literal1').innerHTML = "An error occurred.";\n}

@@ -1,1 +1,0 @@
-WHILE indx IS NOT NULL LOOP\n\n      BEGIN\n         table_dump_csv(tableList(indx), tableList(indx) || '.csv');\n      EXCEPTION\n         WHEN OTHERS THEN\n            -- Handle/Ignore the exception as appropriate\n      END;\n\n\n      indx := tableList.NEXT(indx);\n\n   END LOOP;

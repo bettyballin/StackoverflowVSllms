@@ -1,0 +1,1 @@
+// Assuming 'session' is your NHibernate session and 'results' is the list of entities\n   foreach (var item in results)\n   {\n       NHibernateUtil.Initialize(item);\n   }\n\n   gridView.DataSource = results;\n   gridView.DataBind();

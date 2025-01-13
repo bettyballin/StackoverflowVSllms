@@ -1,0 +1,1 @@
+template <typename X>\nstruct Foo<X, Base<X>, typename enable_if<Base<X>::value>::type> {\n    enum { value = 0 };\n};\n\ntemplate <typename X, typename Y>\nstruct Foo<X, Y, typename enable_if<Y::value>::type > {\n    enum { value = 1 };\n};\n\nint main(int, char**) {\n    Foo<int> foo;  // This should now compile correctly\n}

@@ -1,0 +1,1 @@
+@echo off\n"C:\Program Files (x86)\WinSCP\WinSCP.com" /script=script.txt

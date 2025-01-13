@@ -1,0 +1,1 @@
+<?php\n$site = file_get_contents('your_url_here');\n$pattern = '/[\w-]+@([\w-]+\.)+[\w-]+/i';\npreg_match_all($pattern, $site, $matches);\n\n$unique_emails = array_unique($matches[0]);\n\nprint_r($unique_emails);\n?>

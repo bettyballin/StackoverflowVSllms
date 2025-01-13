@@ -1,0 +1,1 @@
+public class MyClass\n{\n    private SynchronizedProperty<int> x = new SynchronizedProperty<int>();\n\n    public int X\n    {\n        get { return x.Value; }\n        set { x.Value = value; }\n    }\n}

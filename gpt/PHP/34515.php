@@ -1,0 +1,1 @@
+$formattedDateString = '2009-02-15 08:47:45'; // Replace this with your date\n$query = "SELECT id FROM entries WHERE entries.date >= '$formattedDateString'";\n$result = mysql_query($query);

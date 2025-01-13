@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n    int *array = (int *)malloc(10 * sizeof(int));\n    if (array == NULL) {\n        fprintf(stderr, "Memory allocation failed\n");\n        return 1;\n    }\n\n    // Initialize array\n    for (int i = 0; i < 10; i++) {\n        array[i] = 0;\n    }\n\n    // Your code logic here\n\n    free(array);\n    return 0;\n}

@@ -1,1 +1,0 @@
-GUID guid;\nHRESULT hr = CoCreateGuid(&guid); \n\n// Convert the GUID to a string\n_TUCHAR * guidStr;\nUuidToString(&guid, &guidStr);

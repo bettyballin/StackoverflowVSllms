@@ -1,0 +1,1 @@
+# Ruby 1.8.6\n   lambda = lambda { |x| x + 1 }\n   \n   # Ruby 1.9\n   lambda = ->(x) { x + 1 }

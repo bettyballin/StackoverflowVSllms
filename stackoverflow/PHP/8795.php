@@ -1,1 +1,0 @@
-$name = $modules['modulearr'][$i]->mod_name;

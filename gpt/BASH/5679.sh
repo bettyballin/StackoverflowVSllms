@@ -1,0 +1,1 @@
+export MITSCHEME_HOME=/usr/local/mit-scheme-7.5.1\n   export PATH=$MITSCHEME_HOME/bin:$PATH

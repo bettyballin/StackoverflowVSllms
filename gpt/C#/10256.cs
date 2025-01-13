@@ -1,0 +1,1 @@
+using System;\nusing System.Linq;\n\nclass Program\n{\n    static void Main()\n    {\n        string input = "9quali52ty3";\n        int[] asciiValues = input.Select(c => (int)c).ToArray();\n\n        // Output the ASCII values\n        foreach (int value in asciiValues)\n        {\n            Console.WriteLine(value);\n        }\n    }\n}

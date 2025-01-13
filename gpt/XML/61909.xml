@@ -1,0 +1,1 @@
+<weblogic-web-app>\n    <container-descriptor>\n        <jsp-descriptor>\n            <debug>true</debug>\n        </jsp-descriptor>\n    </container-descriptor>\n    <!-- other configurations -->\n</weblogic-web-app>

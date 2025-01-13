@@ -1,1 +1,0 @@
-def formout(results):\n  marker = dict(__xx__='   Total')\n  current_stock = None\n  for stock, kind, cash in results:\n    if stock != current_stock:\n      print marker.get(stock, stock).strip()\n      current_stock = stock\n    if kind in marker and stock in marker:\n      kind = ' '*8\n    print '    %s;%s' % (marker.get(kind, kind), cash)

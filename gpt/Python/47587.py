@@ -1,0 +1,1 @@
+result = "-".join(["Hello", "world"]).upper()

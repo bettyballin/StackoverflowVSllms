@@ -1,1 +1,0 @@
-System.Drawing.Image.FromStream(yourStream).Height

@@ -1,0 +1,1 @@
+sqlcmd -S myServer -d myDB -E -Q "SET NOCOUNT ON; SELECT col1, col2, col3 FROM SomeTable" -o "MyData.csv" -h-1 -s"," -W

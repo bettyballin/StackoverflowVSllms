@@ -1,1 +1,0 @@
-Select * \nFROM TABLE_NAME\nWHERE table_width = SOME_VALUE3\nAND table_height= SOME_VALUE2\nAND table_length = SOME_VALUE3

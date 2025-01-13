@@ -1,1 +1,0 @@
-foreach( A ) { \n  if( eleA NOT IN B ) {\n    DELETED\n  }\n}\nforeach( B ) {\n  if( eleB NOT IN A ) {\n    ADDED\n  }\n}

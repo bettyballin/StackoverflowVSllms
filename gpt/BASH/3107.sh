@@ -1,0 +1,1 @@
+java -agentpath:/path/to/jprofiler/bin/linux-x64/libjprofilerti.so=port=8849 -jar yourapp.jar

@@ -1,0 +1,1 @@
+# Install Django\npip install django\n\n# Create a new Django project\ndjango-admin startproject myproject\n\n# Navigate to the project directory\ncd myproject\n\n# Run the development server\npython manage.py runserver

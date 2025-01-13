@@ -1,1 +1,0 @@
-function encodeLatin1URIComponent(str) {\n    var bytes= '';\n    for (var i= 0; i<str.length; i++)\n        bytes+= str.charCodeAt(i)<256? str.charAt(i) : '?';\n    return escape(bytes).split('+').join('%2B');\n}

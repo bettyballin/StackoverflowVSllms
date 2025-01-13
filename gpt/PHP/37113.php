@@ -1,0 +1,1 @@
+<?php\ndate_default_timezone_set('America/Los_Angeles');\necho date('D j M Y, G:ia');\n?>

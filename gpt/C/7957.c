@@ -1,0 +1,1 @@
+float data[4] __attribute__((aligned(16)));

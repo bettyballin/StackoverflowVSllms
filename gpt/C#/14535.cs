@@ -1,0 +1,1 @@
+var subscriptions = from subscription in dbContext.Subscriptions\n                       where subscription.Expires > DateTime.Now\n                       select subscription;

@@ -1,0 +1,1 @@
+def add(a, b):  # 'a' and 'b' are parameters\n    return a + b\n\nresult = add(3, 5)  # '3' and '5' are arguments\nprint(result)  # Output: 8

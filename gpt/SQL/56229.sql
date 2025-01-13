@@ -1,0 +1,1 @@
+CREATE TABLE cache (\n    page VARCHAR(255) PRIMARY KEY,\n    cache_file VARCHAR(255),\n    uptodate BOOLEAN\n);

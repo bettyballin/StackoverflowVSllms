@@ -1,0 +1,1 @@
+SELECT DISTINCT UserId\nFROM Table1 t1\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM Table1 t2\n    WHERE t2.UserId <> t1.UserId\n      AND t2.EntityId NOT IN (SELECT EntityId FROM Table1 WHERE UserId = 1)\n)\nAND UserId <> 1;

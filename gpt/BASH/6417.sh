@@ -1,0 +1,1 @@
+ifconfig  # or ip a

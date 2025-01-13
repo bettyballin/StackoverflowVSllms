@@ -1,1 +1,0 @@
-response = self.wTree.get_widget("aboutdialog1").run() # or however you run it\nif response == gtk.RESPONSE_DELETE_EVENT or response == gtk.RESPONSE_CANCEL:\n  self.wTree.get_widget("aboutdialog1").hide()

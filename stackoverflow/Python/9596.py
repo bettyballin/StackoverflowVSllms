@@ -1,1 +1,0 @@
-MyClass.objects.filter( aField__contains=var1, secondField__exact=var2 )

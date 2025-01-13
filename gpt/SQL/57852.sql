@@ -1,0 +1,1 @@
+CREATE TABLE individual_profiles (\n    user_id INT PRIMARY KEY,\n    first_name VARCHAR(50) NOT NULL,\n    last_name VARCHAR(50) NOT NULL,\n    date_of_birth DATE,\n    FOREIGN KEY (user_id) REFERENCES users(user_id)\n);

@@ -1,1 +1,0 @@
-WebBrowser browser = new WebBrowser();\n// this will load up a URL into the web browser:\nbrowser.Navigate(@"http://www.stackoverflow.com"); 

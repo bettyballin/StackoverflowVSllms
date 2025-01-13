@@ -1,0 +1,1 @@
+ssh -i /path/to/your/id_dsa your_username@example.com

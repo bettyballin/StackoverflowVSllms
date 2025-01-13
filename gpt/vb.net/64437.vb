@@ -1,0 +1,1 @@
+Public Class CurrentUser\n    Public Property UserName As String\n    Public Property UserId As Integer\n    ' Add other properties as needed\nEnd Class

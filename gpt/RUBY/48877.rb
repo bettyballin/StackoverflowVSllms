@@ -1,0 +1,1 @@
+# Remove the existing unpacked gem directory\nrm -rf vendor/gems/mygem\n\n# Unpack the gem with the correct version\nrake gems:unpack GEM=mygem VERSION=1.2.3

@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetUserByUsername\n    @Username NVARCHAR(50)\nAS\nBEGIN\n    SELECT * FROM users WHERE username = @Username;\nEND

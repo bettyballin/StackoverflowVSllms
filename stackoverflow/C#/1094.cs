@@ -1,1 +1,0 @@
-store.UndoManager.UndoState = UndoState.Disabled

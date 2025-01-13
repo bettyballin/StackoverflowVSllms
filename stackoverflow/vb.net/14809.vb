@@ -1,1 +1,0 @@
-' Create an instance of the Ftp class. \nDim ftp As New Ftp()\n\n' Connect securely using explicit SSL. \n' Use the third argument to specify additional SSL parameters. \nftp.Connect(hostname, 21, Nothing, FtpSecurity.Explicit)\n\n' Connection is protected now, we can log in safely. \nftp.Login(username, password)

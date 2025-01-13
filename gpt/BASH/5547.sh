@@ -1,0 +1,1 @@
+cat server_cert.pem intermediate_cert.pem > combined_cert.pem

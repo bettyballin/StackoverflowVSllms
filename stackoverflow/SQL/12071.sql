@@ -1,1 +1,0 @@
-PARAMETERS foryear Short;\nTRANSFORM Sum(mytable.amount) AS total\nSELECT mytable.project\nFROM mytable\nWHERE mytable.year In ([foryear],[foryear]+1)\nGROUP BY mytable.project\nPIVOT IIf(mytable.year=[foryear],"thisyear","nextyear") IN ("thisyear", "nextyear");

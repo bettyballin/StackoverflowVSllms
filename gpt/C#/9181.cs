@@ -1,0 +1,1 @@
+public class ContactMapping : ClassMap<Contact>\n{\n    public ContactMapping()\n    {\n        Table("Contacts");\n\n        Id(x => x.Identity).Column("Id");\n        References(x => x.Company).Column("CompanyID");\n        Map(x => x.Name).Column("Name");\n    }\n}

@@ -1,1 +1,0 @@
-select table_schema , table_name from qsys2.systables where File_type = 'S'

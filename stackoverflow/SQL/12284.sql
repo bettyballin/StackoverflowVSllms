@@ -1,1 +1,0 @@
-UPDATE tblStarting_Data, qryIDPerCustomer\nSET tblStarting_Data.CustomerID=qryIDPerCustomer.CustomerID\nWHERE tblStarting_Data.TEMPCustomer=qryIDPerCustomer.CustomerName

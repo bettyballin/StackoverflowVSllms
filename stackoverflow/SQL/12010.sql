@@ -1,1 +1,0 @@
-OR CONVERT(Varchar(10), JoinDate, 101) LIKE '%{0}%'

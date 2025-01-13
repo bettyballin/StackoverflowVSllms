@@ -1,1 +1,0 @@
-class ReportField\n{\n  public static $foo = new ReportField()\n}

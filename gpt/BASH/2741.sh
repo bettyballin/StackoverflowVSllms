@@ -1,0 +1,1 @@
+perl -d:NYTProf your_program.pl

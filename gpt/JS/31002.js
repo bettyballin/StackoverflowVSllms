@@ -1,0 +1,1 @@
+// Instead of using i++\nfor (let i = 0; i < 10; i += 1) {\n    /* foo */\n}\n\n// Instead of using a++\nwhile (a < 10) {\n    /* foo */\n    a += 1;\n}

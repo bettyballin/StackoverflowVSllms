@@ -1,0 +1,1 @@
+$.get(contentUrl, null, function(response) {\n    $('#dialog').find('.bd').html(response);\n\n    // Assuming you have the URL of the external CSS file\n    var cssUrl = 'path/to/your/stylesheet.css';\n    var link = $('<link>', {\n        rel: 'stylesheet',\n        type: 'text/css',\n        href: cssUrl\n    });\n    $('head').append(link);\n}, "waitDlg");

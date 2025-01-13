@@ -1,1 +1,0 @@
-Dim Frm As New MyNiceForm

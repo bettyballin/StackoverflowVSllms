@@ -1,0 +1,1 @@
+using System;\n\npublic class Foo\n{\n    public Guid UniqueIdentifier { get; private set; }\n\n    public Foo()\n    {\n        UniqueIdentifier = Guid.NewGuid();\n    }    \n}

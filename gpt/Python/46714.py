@@ -1,0 +1,1 @@
+from string import Template\n\ntemplate = Template('Hello, $name')\nprint(template.substitute(name='world'))

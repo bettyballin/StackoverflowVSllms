@@ -1,1 +1,0 @@
-CREATE TRIGGER my_table_fulltext_trigger \nBEFORE INSERT OR UPDATE ON my_table \nFOR EACH ROW EXECUTE PROCEDURE tsvector_update_trigger(\n  'fulltext',\n  'pg_catalog.english', \n  'column_with_text_1', \n  'column_with_text_2', \n  'column_with_text_N'\n);

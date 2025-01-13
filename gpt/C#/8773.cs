@@ -1,0 +1,1 @@
+public class HomeController : BaseController\n{\n    public ActionResult Index()\n    {\n        // You can access LoggedUser here\n        var user = LoggedUser;\n\n        return View();\n    }\n}

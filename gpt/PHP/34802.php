@@ -1,0 +1,1 @@
+<?php\nrequire_once('arraytest.php');\nsession_start();\n$bob = new DoDoDo();\n$_SESSION['bob'] = serialize($bob);\n?>

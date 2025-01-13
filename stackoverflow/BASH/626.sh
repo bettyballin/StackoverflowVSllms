@@ -1,1 +1,0 @@
-@echo off\nif not exist log.txt GOTO :write\necho Date/Time last login:\ntype log.txt\ndel log.txt\n:write\necho %date%, %time%. >> log.txt\n@pause\nexit

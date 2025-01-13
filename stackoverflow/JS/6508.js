@@ -1,1 +1,0 @@
-var src = document.getElementsByTagName('script')[0].src;

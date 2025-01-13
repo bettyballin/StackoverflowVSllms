@@ -1,0 +1,1 @@
+INSERT INTO target_table (col1, col2, col3)\nSELECT src.col1, src.col2, src.col3\nFROM source_table src\nLEFT JOIN target_table tgt\nON src.key_column = tgt.key_column\nWHERE tgt.key_column IS NULL;

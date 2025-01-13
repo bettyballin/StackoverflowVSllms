@@ -1,1 +1,0 @@
-var answers = new Array();\nfor (x=0; x< allAnswers.length; x++)\n   {\n       answers[ x ]=new Array();\n       answers[ x ]['id'] = allAnswers[x]['id'];\n       answers[ x ]['val'] = $("#field_" + x).val();\n   }

@@ -1,0 +1,1 @@
+echo "alias eclipse='/path/to/eclipse-launch.sh'" >> ~/.bashrc\n   source ~/.bashrc

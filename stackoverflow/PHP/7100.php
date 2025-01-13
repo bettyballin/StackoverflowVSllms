@@ -1,1 +1,0 @@
-class EditUserController {\n  function saveUser() {\n    $db = Database::GetInstance();\n    $db->execute("update users set ...", ...);\n  }\n}

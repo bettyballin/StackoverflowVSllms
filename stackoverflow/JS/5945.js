@@ -1,1 +1,0 @@
-function test(){\n    var req = new XMLHttpRequest();\n    req.open('GET', 'index2.htm', false);    \n    req.send(null);\n    if(req.status == 200)\n    alert("got some stuff back:"+req.responseText);\n}

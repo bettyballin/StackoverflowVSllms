@@ -1,0 +1,1 @@
+clang-tidy your_code.cpp --checks='-*,clang-analyzer-deadcode.*'

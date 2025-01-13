@@ -1,1 +1,0 @@
-class lifetime\n{\n    public function __construct()\n    {\n         echo "construct\n";\n    }\n    public function __destruct()\n    {\n         echo "destruct\n";\n    }\n\n\n}\n\nfunction getTestObject()\n{\n   return new lifetime();\n}\n\n\nfunction foo($obj)\n{\n   echo "inside foo\n";\n}\n\n\n\n\necho "Calling foo\n";\nfoo(getTestObject());\necho "foo complete\n";

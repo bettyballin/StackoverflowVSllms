@@ -1,0 +1,1 @@
+$string = "hello world";\n    echo urlencode($string); // Outputs: hello+world

@@ -1,0 +1,1 @@
+using System.Data.OracleClient;\n\n// Assuming 'connection' is your OracleConnection object\nusing (OracleCommand command = new OracleCommand("ALTER SESSION SET CURRENT_SCHEMA=myDB", connection))\n{\n    command.ExecuteNonQuery();\n}

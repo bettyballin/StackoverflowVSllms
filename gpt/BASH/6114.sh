@@ -1,0 +1,1 @@
+dotnet new webapi -n SmsReceiver\ncd SmsReceiver

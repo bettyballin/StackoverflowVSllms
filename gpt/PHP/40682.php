@@ -1,0 +1,1 @@
+require 'vendor/autoload.php';\n\n   use Crunz\Schedule;\n\n   $schedule = new Schedule();\n   $schedule->run('/usr/bin/php /path/to/your_script.php')\n            ->dailyAt('13:00')\n            ->weekdays();\n\n   return $schedule;

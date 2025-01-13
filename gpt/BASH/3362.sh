@@ -1,0 +1,1 @@
+ping localhost\n\ntelnet localhost 27374

@@ -1,1 +1,0 @@
-<?php\n$ar = array(array(1,  10,   9.0,   'HELLO'),\n            array(1,  11,  12.9,   'HELLO'),\n            array(3,  12,  10.9,   'HELLO'));\nfunction col($tbl,$col){\n    $ret = array();\n    foreach ($tbl as $row){\n        $ret[count($ret)+1] = $row[$col];\n    }\n    return $ret;\n}\nprint (max(col($ar,2))."\n");\nprint (min(col($ar,1))."\n");\n?>

@@ -1,0 +1,1 @@
+inline void myInlineFunction() {} // typically external linkage

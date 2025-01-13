@@ -1,1 +1,0 @@
-use Template;\nuse My::Template::Context;

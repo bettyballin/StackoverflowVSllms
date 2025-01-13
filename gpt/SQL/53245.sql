@@ -1,0 +1,1 @@
+DECLARE @foo INT = 42;\nDECLARE @bar INT = 84;\n\nDECLARE @variable_name VARCHAR(10);\nSET @variable_name = 'foo';\n\n-- Create a dynamic SQL statement to print the variable\nDECLARE @sql NVARCHAR(MAX);\nSET @sql = N'SELECT ' + @variable_name + ' AS VariableValue';\n\n-- Execute the dynamic SQL statement\nEXEC sp_executesql @sql;

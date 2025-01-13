@@ -1,0 +1,1 @@
+$type = "enum('a','b','c')";\n\n// option one\n$type_1 = preg_replace('#^enum\s*\(\s*\'|\'\s*\)\s*$#', '', $type);\n$result = preg_split('#\'\s*,\s*\'#', $type_1);

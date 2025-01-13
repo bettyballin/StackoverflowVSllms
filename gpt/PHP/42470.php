@@ -1,0 +1,1 @@
+<?php\nheader('Content-Type: application/json');\n$return = array("msg" => "Testing, testing.");\necho json_encode($return);\n?>

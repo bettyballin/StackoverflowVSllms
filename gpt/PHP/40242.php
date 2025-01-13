@@ -1,0 +1,1 @@
+<?php\n// Retrieve the protocol (HTTP or HTTPS)\n$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";\n\n// Retrieve the domain name\n$domainName = $_SERVER['HTTP_HOST'];\n\n// Combine to form the full URL\n$fullUrl = $protocol . $domainName;\n\necho $fullUrl;\n?>

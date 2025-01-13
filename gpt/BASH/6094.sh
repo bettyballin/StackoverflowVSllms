@@ -1,0 +1,1 @@
+#!/bin/bash\n\nFILE="my_playlist.m3u"\n\nif [[ "$(uname)" == "Linux" ]]; then\n    # For Linux systems\n    xdg-open "$FILE"\nelif [[ "$(uname -o)" == "Cygwin" ]]; then\n    # For Cygwin on Windows\n    cygstart "$FILE"\nelse\n    echo "Unsupported OS"\n    exit 1\nfi

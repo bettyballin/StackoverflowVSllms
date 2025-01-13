@@ -1,1 +1,0 @@
--- Start of last month \nSELECT CAST('01 '+ RIGHT(CONVERT(CHAR(11),DATEADD(MONTH,-1,GETDATE()),113),8) AS datetime)

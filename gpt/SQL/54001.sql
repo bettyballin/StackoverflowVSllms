@@ -1,0 +1,1 @@
+SELECT *\nFROM foo\nWHERE 1 <> 1\nORDER BY 1;

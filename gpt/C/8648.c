@@ -1,0 +1,1 @@
+#include <unistd.h>\n#include <stdio.h>\n\nint main() {\n    printf("Sleeping for 2 seconds...\n");\n    sleep(2); // Sleep for 2 seconds\n    printf("Awake!\n");\n    return 0;\n}

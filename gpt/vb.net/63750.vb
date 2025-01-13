@@ -1,0 +1,1 @@
+Private Sub RadioButton1_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RadioButton1.CheckedChanged\n    Dim radioButton As RadioButton = CType(sender, RadioButton)\n    \n    If radioButton.Checked Then\n        Beep()\n    End If\nEnd Sub

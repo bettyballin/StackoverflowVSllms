@@ -1,0 +1,1 @@
+class MyClass {\n  constructor() {\n    this.allVarsDefined = this.allVarsDefined.bind(this);\n  }\n  \n  allVarsDefined() {\n    // Your function logic here\n  }\n\n  someMethod() {\n    // Ensure 'this' context is preserved\n    this.allVarsDefined();\n  }\n}\n\nconst myInstance = new MyClass();\nmyInstance.someMethod();

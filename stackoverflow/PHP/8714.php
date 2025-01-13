@@ -1,1 +1,0 @@
-$links = $dom->getElementsByTagName('a');\n\nforeach ($links as $link) {\n    $spans = $link->getElementsByTagName('span');\n}

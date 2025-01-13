@@ -1,0 +1,1 @@
+<?php\nfunction viewPage($page_id) {\n    global $pdo;\n\n    $stmt = $pdo->prepare("SELECT p.title, r.content, r.author, r.created_at FROM pages p \n                           JOIN revisions r ON p.current_revision_id = r.id \n                           WHERE p.id = :page_id");\n    $stmt->execute(['page_id' => $page_id]);\n    return $stmt->fetch(PDO::FETCH_ASSOC);\n}\n?>

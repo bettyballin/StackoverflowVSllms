@@ -1,1 +1,0 @@
-$username = $_POST["username"];\n$password = $_POST["password"];\n// INCORRECT. Will literary assign TWITTER_CREDENTIALS as $username:$password\n// define('TWITTER_CREDENTIALS', '$username:$password');\n\n// CORRECT, will parse the variables and assign the result to TWITTER_CREDENTIALS\ndefine('TWITTER_CREDENTIALS', "$username:$password");

@@ -1,0 +1,1 @@
+SELECT YEAR(registerDate) AS year, MONTH(registerDate) AS month, COUNT(*) AS total_per_month \n   FROM #__users \n   GROUP BY YEAR(registerDate), MONTH(registerDate);

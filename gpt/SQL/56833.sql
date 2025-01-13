@@ -1,0 +1,1 @@
+SELECT \n    PKCol,\n    MAX(ColA) AS ColA,\n    MAX(ColB) AS ColB,\n    MAX(ColC) AS ColC,\n    MAX(ColD) AS ColD,\n    MAX(ColE) AS ColE\nFROM \n    YourResultingTable\nGROUP BY \n    PKCol;

@@ -1,0 +1,1 @@
+Dim MyObject As New GenericStat()\nMyObject.Value = 42\nResponse.Write(MyObject)  ' This will output "42"

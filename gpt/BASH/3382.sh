@@ -1,0 +1,1 @@
+g++ -Werror=non-pod-varargs -o your_program your_program.cpp

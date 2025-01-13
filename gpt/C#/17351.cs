@@ -1,0 +1,1 @@
+public interface IModelConverter<TDomain, TLinq>\n{\n    TDomain ConvertToDomain(TLinq item);\n    TLinq ConvertToLinq(TDomain item);\n}

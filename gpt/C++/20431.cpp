@@ -1,0 +1,1 @@
+#include <iostream>\n\nint main() {\n    int value;\n    \n    // Read the value passed from PHP\n    std::cin >> value;\n\n    // Perform some operations (e.g., increment the value)\n    int result = value + 1;\n\n    // Output the result\n    std::cout << result << std::endl;\n\n    return 0;\n}

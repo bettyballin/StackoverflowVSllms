@@ -1,0 +1,1 @@
+CREATE TABLE tracking_data (\n        user_id INT,\n        course_id INT,\n        name VARCHAR(255),\n        value VARCHAR(255),\n        created_at TIMESTAMP\n    )\n    PARTITION BY RANGE (YEAR(created_at)) (\n        PARTITION p2023 VALUES LESS THAN (2024),\n        PARTITION p2024 VALUES LESS THAN (2025),\n        PARTITION p2025 VALUES LESS THAN (2026)\n    );

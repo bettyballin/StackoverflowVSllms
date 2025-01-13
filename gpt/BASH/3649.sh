@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Start monitoring the current directory for file creation events\ninotifywait -m -e create --format '%w%f' . > created_files.log &\nINOTIFY_PID=$!\n\n# Run the test program\n./run_test_program\n\n# Stop monitoring\nkill $INOTIFY_PID\n\n# Collect the list of created files\ncat created_files.log > list-of-files\n\n# Clean up\nrm -f created_files.log

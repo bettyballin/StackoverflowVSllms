@@ -1,1 +1,0 @@
-Doctrine::loadModels($path);\nDoctrine::createTablesFromArray(Doctrine::getLoadedModels());

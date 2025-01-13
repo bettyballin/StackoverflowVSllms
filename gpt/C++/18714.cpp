@@ -1,0 +1,1 @@
+int a = 5; // 0101 in binary\n     int b = 3; // 0011 in binary\n     int result = a | b; // 0111 in binary, which is 7

@@ -1,1 +1,0 @@
-ListItem li = new ListItem("Richard Byrd", "11");\nli.Selected = false;\nli.Attributes.Add("Style", "color: red;");\nCheckBoxList1.Items.Add(li);

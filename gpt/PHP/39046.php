@@ -1,0 +1,1 @@
+$form = new Zend_Form();\n$form->setMethod('post');\n\n// Use an underscore or another character instead of spaces in the name\n$form->addElement('textarea', 'name_with_space', array(\n    'label' => 'Name with Space'\n));\n\n// Access the values after form submission\n$values = $form->getValues();

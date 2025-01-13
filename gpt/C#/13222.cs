@@ -1,0 +1,1 @@
+[TestFixture]\npublic class MyClassTests\n{\n    [Test]\n    public void MultiplyTest()\n    {\n        var myClass = new MyClass();\n        int result = myClass.Multiply(2, 3);\n        Assert.AreEqual(6, result);\n    }\n}

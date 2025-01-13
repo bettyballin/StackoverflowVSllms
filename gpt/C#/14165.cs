@@ -1,0 +1,1 @@
+public class Term\n{\n    public int Id { get; set; }\n    public string Key { get; set; }\n    public string Value { get; set; }\n}

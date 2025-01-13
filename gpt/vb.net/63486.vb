@@ -1,0 +1,1 @@
+' Example setting in the designer or programmatically\nMe.AssetDataGridView.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right\nMe.AssetIdentifierDataGridView.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right\n' For buttons, you might set the Dock property to appropriate values or use TableLayoutPanel for better control

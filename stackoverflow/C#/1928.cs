@@ -1,1 +1,0 @@
-XmlDocument doc = new XmlDocument();\ndoc.Load(docfile);\nXmlNodeList items = doc.SelectNodes("/part1/part2");\nforeach (item in items)\n{\n    XMLNode x = item.SelectNodes("part3");\n    //Dostuff\n}

@@ -1,0 +1,1 @@
+curl -O http://pear.php.net/go-pear.phar\n    sudo php go-pear.phar

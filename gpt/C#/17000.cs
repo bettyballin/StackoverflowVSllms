@@ -1,0 +1,1 @@
+public class KeepSessionAlive : IHttpHandler {\n       public void ProcessRequest(HttpContext context) {\n           if (context.Session != null) {\n               context.Session["KeepAlive"] = DateTime.Now;\n           }\n       }\n\n       public bool IsReusable {\n           get { return false; }\n       }\n   }

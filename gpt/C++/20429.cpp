@@ -1,0 +1,1 @@
+// utils.h\n#pragma once\n#include <string>\n#include <windows.h>\n#include <winhttp.h>\n\n#pragma comment(lib, "winhttp.lib")\n\nclass http\n{\npublic:\n    http();\n    ~http();\n\n    std::string getText();\n\nprivate:\n    HINTERNET hSession;\n    HINTERNET hConnect;\n    HINTERNET hRequest;\n};

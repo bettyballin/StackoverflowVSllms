@@ -1,0 +1,1 @@
+using System;\n\n   namespace BusinessLogic\n   {\n       public class MyBusinessLogic\n       {\n           public string GetGreeting(string name)\n           {\n               return $"Hello, {name}";\n           }\n       }\n   }

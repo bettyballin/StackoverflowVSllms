@@ -1,1 +1,0 @@
-if($stmt->execute()) {\n //code\n}\nelse{\n die($stmt->error);\n}

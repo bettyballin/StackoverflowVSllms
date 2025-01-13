@@ -1,1 +1,0 @@
-svnadmin hotcopy /srv/svn /srv/svn_backups/$(date +%Y%m%d)

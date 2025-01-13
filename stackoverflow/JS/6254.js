@@ -1,1 +1,0 @@
-// your callback function\n\nfunction () {\n    // set the image hidden by default    \n    $(this).hide(); \n\n    // with the holding div #loader, apply:\n    $this_img\n      // remove the loading class (so no background spinner), \n      .removeClass('loading')\n      // then insert our image\n     //.prepend(this)

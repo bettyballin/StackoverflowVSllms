@@ -1,0 +1,1 @@
+DECLARE @attributetypeid BIGINT = --Your attribute type id\nDECLARE @productid BIGINT = --Your product id\nDECLARE @includedids VARCHAR(MAX) = '25,26' --Your included ids\n\nDELETE FROM reltable\nWHERE productid = @productid\nAND attributetypeid = @attributetypeid\nAND attributeid NOT IN (SELECT Item FROM dbo.SplitString(@includedids, ','))

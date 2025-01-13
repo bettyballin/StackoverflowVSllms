@@ -1,1 +1,0 @@
-class MyForm < ActiveForm\n  validates_presence_of :name\n  validates_presence_of :graph_size, :if => # ...blah blah \nend\n\nform = MyForm.new(params[:form])\nform.validate\nform.errors

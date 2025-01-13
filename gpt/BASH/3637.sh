@@ -1,0 +1,1 @@
+gcc -O3 -ftree-vectorize -mavx -fopt-info-vec your_file.c -o your_program

@@ -1,1 +1,0 @@
-if(msg == 'not ok')\n{\n    alert('error occured');\n}\n\nif(msg == 'ok')\n    alert('update the table');\n}

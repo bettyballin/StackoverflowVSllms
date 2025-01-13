@@ -1,0 +1,1 @@
+<!-- Example for Apache Tomcat (server.xml) -->\n   <Connector port="8080" protocol="HTTP/1.1"\n              connectionTimeout="20000"\n              redirectPort="8443"\n              server=""/>

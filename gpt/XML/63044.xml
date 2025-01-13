@@ -1,0 +1,1 @@
+<session-config>\n    <cookie-config>\n        <http-only>true</http-only>\n        <secure>true</secure> <!-- if the application uses HTTPS -->\n    </cookie-config>\n</session-config>

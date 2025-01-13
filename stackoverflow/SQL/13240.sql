@@ -1,1 +1,0 @@
-DELETE from emails WHERE emali.user_id=userid AND email NOT IN(...list of emails from the form...) 

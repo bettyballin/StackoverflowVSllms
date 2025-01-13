@@ -1,0 +1,1 @@
+using System;\nusing System.Web;\nusing System.Web.Routing;\n\npublic class Global : HttpApplication\n{\n    void Application_Start(object sender, EventArgs e)\n    {\n        RegisterRoutes(RouteTable.Routes);\n    }\n\n    void RegisterRoutes(RouteCollection routes)\n    {\n        routes.MapPageRoute("TestRoute", "test.aspx", "~/WRC/test.aspx");\n    }\n}

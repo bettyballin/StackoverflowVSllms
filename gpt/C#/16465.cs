@@ -1,0 +1,1 @@
+void Session_End(object sender, EventArgs e)\n{\n    // Log session end\n    System.Diagnostics.Debug.WriteLine("Session ended at: " + DateTime.Now);\n    // Optionally, perform cleanup tasks\n}

@@ -1,1 +1,0 @@
-DECLARE\n   done  BOOLEAN;\nBEGIN\n   FOR i IN 1..50 LOOP\n      IF done THEN\n         GOTO end_loop;\n      END IF;\n   <<end_loop>>  -- not allowed unless an executable statement follows\n   NULL; -- add NULL statement to avoid error\n   END LOOP;  -- raises an error without the previous NULL\nEND;

@@ -1,0 +1,1 @@
+my_list = [1, 2, 3, 4, 5]\nmy_list.remove(3)  # Removes the first occurrence of the value 3\nprint(my_list)  # Output: [1, 2, 4, 5]

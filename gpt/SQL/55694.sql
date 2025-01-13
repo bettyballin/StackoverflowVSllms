@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetMyValue\n    @newvalue INT OUTPUT\nAS\nBEGIN\n    -- Your logic to calculate the value\n    SET @newvalue = (SELECT some_value FROM some_table); -- Example query\nEND

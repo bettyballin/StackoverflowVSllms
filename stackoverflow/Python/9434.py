@@ -1,1 +1,0 @@
-from functools import partial\n\nfor name in iter(partial(raw_input, 'Name:'), ''):\n    do_something_with(name)

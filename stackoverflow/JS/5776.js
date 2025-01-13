@@ -1,1 +1,0 @@
-$('body').css('backgroundImage', 'url(something.gif)');

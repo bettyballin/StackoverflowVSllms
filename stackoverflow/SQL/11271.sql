@@ -1,1 +1,0 @@
-select max(if(forename='john',surname,null)) as john,\n       max(if(forename='lucy',surname,null)) as lucy,\n       max(if(forename='jenny',surname,null)) as jenny,       \n       max(if(forename='steve',surname,null)) as steve,       \n       max(if(forename='richard',surname,null)) as richard,\n       address\nfrom tablename \ngroup by address;

@@ -1,1 +1,0 @@
-$(function() {\n    $("img")\n        .mouseover(function() { \n            var src = $(this).attr("src").match(/[^\.]+/) + "over.gif";\n            $(this).attr("src", src);\n        })\n        .mouseout(function() {\n            var src = $(this).attr("src").replace("over.gif", ".gif");\n            $(this).attr("src", src);\n        });\n});

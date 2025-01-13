@@ -1,1 +1,0 @@
-SELECT  tp.*, \n        (\n        SELECT  1\n        FROM    table tc\n        WHERE   tc.parent = tp.id\n        LIMIT 1\n        ) AS has_children\nFROM    table tp

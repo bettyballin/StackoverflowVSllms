@@ -1,0 +1,1 @@
+// MyFramework.h\n#include <MyFramework/MyClass.h>

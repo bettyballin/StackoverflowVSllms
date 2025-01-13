@@ -1,1 +1,0 @@
-import gtk.gdk\nimport pynotify\n\nn = pynotify.Notification("This is my title", "This is my description")\nn.set_hint('x', gtk.gdk.screen_width()/2.)\nn.set_hint('y', gtk.gdk.screen_height()/2.)\nn.show()

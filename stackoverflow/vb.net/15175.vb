@@ -1,1 +1,0 @@
-Dim Result = IF(expression,<true return>,<false return>)

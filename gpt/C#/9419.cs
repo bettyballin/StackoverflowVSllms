@@ -1,0 +1,1 @@
+var proxyFactory = new WcfProxyFactory<IMyService>();\nvar proxy = proxyFactory.GetProxy();\ntry\n{\n    proxy.MyServiceMethod();\n}\ncatch (Exception ex)\n{\n    // Handle exception\n    proxyFactory.CloseProxy();\n}

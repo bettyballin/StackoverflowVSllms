@@ -1,0 +1,1 @@
+// Setting a secure cookie with HttpOnly and Secure flags\n   document.cookie = "sessionId=abc123; HttpOnly; Secure; SameSite=Strict";

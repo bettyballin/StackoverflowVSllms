@@ -1,1 +1,0 @@
-var myStylesLocation = "myStyles.css";

@@ -1,0 +1,1 @@
+<?php\necho "<a href='src1'><img src='src_path1' id='fid1' alt='Name1' /></a>Click To View image1\n";\necho "<a href='src2'><img src='src_path2' id='fid2' alt='Name2' /></a>Click To View image2\n";\n// etc.\n?>

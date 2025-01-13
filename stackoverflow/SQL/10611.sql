@@ -1,1 +1,0 @@
-CREATE PROCEDURE CopyNewSub1Records (IN oldID, IN NewID)\nBEGIN\n     INSERT INTO Sub1\n     (\n          ID,\n          SubID,\n          Col1,\n          Col2\n     )\n     SELECT\n          NewID,\n          SubID,\n          Col1,\n          Col2\n     FROM\n          Sub1\n     WHERE\n          ID = oldID\nEND

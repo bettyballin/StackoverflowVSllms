@@ -1,1 +1,0 @@
-seekbar.connect("value-changed", control_changed, label)\nseekbar.connect("notify::fraction", fraction_changed, label)

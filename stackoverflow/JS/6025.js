@@ -1,1 +1,0 @@
-function callbackReceiver(callback) {\n    callback("Hello World");\n}\n\nfunction callback(value1, value2) {\n    console.log(value1, value2);\n}

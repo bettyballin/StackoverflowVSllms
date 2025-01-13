@@ -1,0 +1,1 @@
+public class MyDataContext : DataContext\n{\n    public Table<MyTable> MyTables;\n\n    public MyDataContext(string connection) : base(connection) { }\n}\n\n[Table(Name = "myTable")]\npublic class MyTable\n{\n    [Column(IsPrimaryKey = true)]\n    public int Id { get; set; }\n\n    [Column]\n    public string TypeOfSelect { get; set; }\n\n    // Add other columns as needed\n}

@@ -1,1 +1,0 @@
-#!/bin/sh\n\nprintf "Content-type: text/html\n\n"\nexec visitors -A /home/logs/access_log

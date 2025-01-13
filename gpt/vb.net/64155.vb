@@ -1,0 +1,1 @@
+<Serializable()> \nPartial Public Class Customers\n    ' Methods and variables for this part of the class\nEnd Class

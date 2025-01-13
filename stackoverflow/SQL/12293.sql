@@ -1,1 +1,0 @@
-SELECT ...\nFROM (((Participant PAR\n    INNER JOIN Individual IND \n        ON PAR.APETSID = IND.APETSID)\n    INNER JOIN Ethnicity ETH \n        ON IND.EthnicityID = ETH.ID)\n    INNER JOIN Education EDU \n        ON IND.EducationID = EDU.ID)\n    INNER JOIN Marital MAR \n        ON IND.Marital = MAR.ID

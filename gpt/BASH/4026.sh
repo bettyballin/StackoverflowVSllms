@@ -1,0 +1,1 @@
+sudo supervisorctl status\n   sudo supervisorctl restart php-daemon\n   sudo supervisorctl stop php-daemo

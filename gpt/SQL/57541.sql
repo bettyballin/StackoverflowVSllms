@@ -1,0 +1,1 @@
+SELECT DISTINCT tablename.field1Date,\n                tablename.field2Number,\n                tablename.field3Text \nFROM tablename;

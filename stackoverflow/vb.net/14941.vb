@@ -1,1 +1,0 @@
-Format(DateText, "dd/mm/yyyy")

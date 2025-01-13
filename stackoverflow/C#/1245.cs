@@ -1,1 +1,0 @@
-nsMngr.AddNamespace("atom", "http://www.w3.org/2005/Atom");

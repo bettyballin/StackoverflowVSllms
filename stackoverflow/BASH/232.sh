@@ -1,1 +1,0 @@
-dumpbin /exports whatever.dll

@@ -1,0 +1,1 @@
+Rails.application.routes.draw do\n      resource :signup do\n        resource :step1\n        resource :step2\n        resource :step3\n        # Add more steps as needed\n      end\n    end

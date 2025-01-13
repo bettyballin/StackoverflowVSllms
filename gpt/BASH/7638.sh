@@ -1,0 +1,1 @@
+sudo iptables -A OUTPUT -p tcp --syn -j NFQUEUE --queue-num 0

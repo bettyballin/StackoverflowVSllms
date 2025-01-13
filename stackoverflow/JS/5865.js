@@ -1,1 +1,0 @@
-$(".lsHeader").each(function() {\n    if (!$(this).next().is("div.contact")) {\n        $(this).hide();\n    }\n});

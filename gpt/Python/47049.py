@@ -1,0 +1,1 @@
+# my_module.py\ndef _inner():\n    # Implementation of the inner function\n    pass\n\ndef outer():\n    return _inner()

@@ -1,0 +1,1 @@
+// In your data access class\nusing CommonValidation;\n\npublic class UserRepository\n{\n    public void SaveUser(User user)\n    {\n        if (!Validator.IsValidEmail(user.Email))\n        {\n            throw new ArgumentException("Invalid email address");\n        }\n        \n        // Proceed with saving the user to the database\n    }\n}

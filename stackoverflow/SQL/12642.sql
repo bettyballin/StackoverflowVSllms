@@ -1,1 +1,0 @@
-table.date >=11.06.2009 AND table.date < 11.07.2009

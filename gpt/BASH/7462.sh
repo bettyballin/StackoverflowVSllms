@@ -1,0 +1,1 @@
+javac HelloWorld.java\n   jamvm -cp . HelloWorld

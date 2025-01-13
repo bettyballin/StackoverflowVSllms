@@ -1,0 +1,1 @@
+procstat -f <pid> | grep 'cwd'

@@ -1,0 +1,1 @@
+sudo opcontrol --init\nsudo opcontrol --start

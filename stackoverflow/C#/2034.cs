@@ -1,1 +1,0 @@
-StringBuilder js = new StringBuilder("<script language=\"javascript\">");\njs.Append("_window = window.open(\"\",'_new');");\njs.Append("_window.document.open(\"application/pdf\");");\njs.Append("_window.location.href = \"ApkRapportPage.aspx\";");  \njs.Append("_window.document.close();");\njs.Append("</script>");\n\nResponse.Write(js.ToString());

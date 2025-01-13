@@ -1,1 +1,0 @@
-ScrollViewer sv = FindVisualChild<ScrollViewer>(listOfItems);\nVisibility scrollbarVisibility = sv.ComputedVerticalScrollBarVisibility;

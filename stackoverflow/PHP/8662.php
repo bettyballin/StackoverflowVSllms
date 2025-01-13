@@ -1,1 +1,0 @@
-$sql = "select tb1.f1 as tb1f1,tb1.f2 as tb1f2,tb2.f1 as tb2f1 from tb1,tb2";\n$result = mysql_query($sql);\nwhile ($row = mysql_fetch_assoc($result)) {\n    $result['t1']['f1']=$row['tb1f1'];\n    $result['t1']['f2']=$row['tb1f2'];\n    $result['t2']['f1']=$row['tb2f1'];\n}

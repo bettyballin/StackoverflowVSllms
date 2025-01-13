@@ -1,1 +1,0 @@
-function(data) {\n    $.each(data.array1, function(i) {\n        alert(data.array2[i]);\n    });\n}

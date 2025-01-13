@@ -1,0 +1,1 @@
+find . -type f ! -name "*.jpg" ! -name "*.png" ! -name "*.gif" -exec grep -s "B206" '{}' \; -print

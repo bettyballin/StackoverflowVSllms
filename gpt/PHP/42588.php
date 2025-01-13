@@ -1,0 +1,1 @@
+function addOne(&$num) {\n    $num += 1;\n}\n\n$value = 5;\naddOne($value);\necho $value; // Outputs: 6

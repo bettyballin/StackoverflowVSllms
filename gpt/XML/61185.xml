@@ -1,0 +1,1 @@
+<EntityType Name="YourEntityName">\n        <Key>\n            <PropertyRef Name="CorrectPrimaryKeyColumn" />\n        </Key>\n        <Property Name="CorrectPrimaryKeyColumn" Type="int" Nullable="false" />\n        <Property Name="UnwantedKeyColumn" Type="string" Nullable="false" />\n        <!-- Other properties -->\n    </EntityType>

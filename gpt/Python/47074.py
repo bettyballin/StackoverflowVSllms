@@ -1,0 +1,1 @@
+import html\n\nhtml_string = "&lt; &amp; &gt;"\ntext_string = html.unescape(html_string)\n\nprint(text_string)  # Output: < & >

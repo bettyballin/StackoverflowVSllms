@@ -1,1 +1,0 @@
-=iif(Fields!~MyColumnName~.Value.ToString().Contains("Others") = True,"Red","Black")

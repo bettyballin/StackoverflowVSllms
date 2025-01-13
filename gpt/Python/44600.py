@@ -1,0 +1,1 @@
+lib1 = __import__('library1')\nlib2 = __import__('library2')\n\nresult1 = lib1.function_name()\nresult2 = lib2.function_name()

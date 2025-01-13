@@ -1,1 +1,0 @@
-USE AdventureWorks2008; \nGO \n\n\nSELECT FirstName, LastName\nFROM Person.Person \nTABLESAMPLE (100 ROWS)\nWHERE EmailPromotion = 2;

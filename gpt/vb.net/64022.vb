@@ -1,0 +1,1 @@
+Sub SampleProcedure()\n    On Error GoTo procErr\n\n    ' Code that might cause an error\n    Dim x As Integer\n    x = 1 / 0\n\n    Exit Sub\n\nprocErr:\n    ' Error handling code\n    MsgBox "An error occurred: " & Err.Description\nEnd Sub

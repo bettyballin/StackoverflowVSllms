@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="a.aspx.cs" Inherits="a" %>\n<!DOCTYPE html>\n<html>\n<head>\n    <title>Test</title>\n</head>\n<body>\n    <div>\n        <% Server.Execute("b.aspx"); %>\n    </div>\n</body>\n</html>

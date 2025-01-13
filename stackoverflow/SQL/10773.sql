@@ -1,1 +1,0 @@
-select *\nfrom mytable\nwhere datecolumn > (select datecolumn from mytable where id = @id)\norder by datecolumn\nlimit 1

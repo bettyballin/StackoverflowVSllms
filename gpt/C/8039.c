@@ -1,0 +1,1 @@
+// Before optimization\nint a = 2 + 3;\n\n// After constant folding\nint a = 5;

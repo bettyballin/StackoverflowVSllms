@@ -1,0 +1,1 @@
+XDocument doc = XDocument.Parse(@"<root><item><element><child /></element></item></root>");\nXElement childElement = doc.Descendants("child").First();\nstring xpath = childElement.GetXPath();\nConsole.WriteLine(xpath); // Output: /root/item/element[1]/child[1]

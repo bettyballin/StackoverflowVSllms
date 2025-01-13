@@ -1,1 +1,0 @@
-SELECT min(ID), Product, Color FROM table GROUP BY Product, Color;

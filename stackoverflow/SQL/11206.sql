@@ -1,1 +1,0 @@
-select years,\nsum(1*(1-abs(sign(id1-56)))) as id1,\nsum(1*(1-abs(sign(id2-56)))) as id2,\nsum(1*(1-abs(sign(id3-56)))) as id3,\nsum(1*(1-abs(sign(id4-56)))) as id4,\nfrom mytable\ngroup by years

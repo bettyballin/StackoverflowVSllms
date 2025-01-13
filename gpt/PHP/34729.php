@@ -1,0 +1,1 @@
+// Capture the title into a variable\n$title = get_the_title();\n\n// Manipulate the title\n$modified_title = str_replace(" ", "-", strtolower($title));\n\n// Output the modified title\necho $modified_title;

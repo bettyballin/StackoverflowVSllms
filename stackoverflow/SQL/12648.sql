@@ -1,1 +1,0 @@
-select avg(TimeInMs) as AvgTime from Table \nwhere ApplicaitonName = @ApplicationName

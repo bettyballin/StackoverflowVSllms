@@ -1,0 +1,1 @@
+cmd = new SqlCommand("usp_test", cn);\ncmd.CommandType = CommandType.StoredProcedure;\n\ncn.Open();\nobject result = cmd.ExecuteScalar();\ncn.Close();\n\nif (result == null)\n{\n    Response.Write("Result set is empty");\n}\nelse\n{\n    TestOutput = Convert.ToInt32(result);\n    Response.Write(TestOutput);\n}

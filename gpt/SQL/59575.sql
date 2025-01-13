@@ -1,0 +1,1 @@
+CREATE TABLE Company (\n    CompanyID INT IDENTITY(1,1) PRIMARY KEY,\n    CompanyName NVARCHAR(255) NOT NULL,\n    State NVARCHAR(2) NOT NULL,\n    UNIQUE (CompanyName, State)\n);\n\nCREATE TABLE RelatedTable (\n    RelatedID INT IDENTITY(1,1) PRIMARY KEY,\n    CompanyID INT,\n    FOREIGN KEY (CompanyID) REFERENCES Company(CompanyID)\n);

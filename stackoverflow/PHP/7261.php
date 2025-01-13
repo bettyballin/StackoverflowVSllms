@@ -1,1 +1,0 @@
-if(empty($_FILES['image']['name'])){\n    $image_caption = $_POST['image_caption'];\n}else{\n    ....(etc)

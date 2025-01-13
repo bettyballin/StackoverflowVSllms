@@ -1,0 +1,1 @@
+<dependency>\n  <groupId>javax.servlet</groupId>\n  <artifactId>servlet-api</artifactId>\n  <version>${version.servlet-api}</version>\n  <scope>test</scope>\n</dependency>

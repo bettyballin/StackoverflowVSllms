@@ -1,0 +1,1 @@
+private object GetDbValue(object value)\n{\n    return value ?? DBNull.Value;\n}

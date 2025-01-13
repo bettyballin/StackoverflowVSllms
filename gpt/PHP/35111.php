@@ -1,0 +1,1 @@
+<?php\nif(isset($_COOKIE['gallery_id'])) {\n    $gallery_id = $_COOKIE['gallery_id'];\n    // Use $gallery_id as needed\n} else {\n    // Handle the case where the cookie is not set\n}\n?>

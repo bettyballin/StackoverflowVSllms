@@ -1,0 +1,1 @@
+CComPtr<IXMLDOMDocument> doc;\np->get_doc(&doc);\ndoc->save(CComVariant(L"C:\\pathto\\mydoc.xml"));

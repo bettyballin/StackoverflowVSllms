@@ -1,0 +1,1 @@
+jruby -S gem install rails

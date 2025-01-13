@@ -1,1 +1,0 @@
-select c.Name, max(c.Candy) as Candy, max(c.PreferenceFactor) as PreferenceFactor\nfrom Candy c\ninner join (\n    select Name, max(PreferenceFactor) as MaxPreferenceFactor\n    from Candy\n    group by Name\n) cm on c.Name = cm.Name and c.PreferenceFactor = cm.MaxPreferenceFactor\ngroup by c.Name\norder by PreferenceFactor desc, Name

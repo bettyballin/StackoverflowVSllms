@@ -1,0 +1,1 @@
+# Clone TFS repository using Git-TFS\ngit tfs clone http://{tfs-url}:8080/tfs/{collection} $/path/to/your/repo\n\n# Make changes and commit\ngit add .\ngit commit -m "Your commit message"\n\n# Create a patch\ngit format-patch origi

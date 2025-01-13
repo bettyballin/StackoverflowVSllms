@@ -1,0 +1,1 @@
+void myFunction() noexcept(false); // Function that may throw exceptions\nvoid anotherFunction() noexcept;   // Function that does not throw exceptions

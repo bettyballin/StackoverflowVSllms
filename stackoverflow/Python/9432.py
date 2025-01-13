@@ -1,1 +1,0 @@
-class FlushFile(object):\n    """Write-only flushing wrapper for file-type objects."""\n    def __init__(self, f):\n        self.f = f\n    def write(self, x):\n        self.f.write(x)\n        self.f.flush()\n\n# Replace stdout with an automatically flushing version\nsys.stdout = FlushFile(sys.__stdout__)

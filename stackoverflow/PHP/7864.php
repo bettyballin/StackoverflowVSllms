@@ -1,1 +1,0 @@
-public function __call($method, $args){\n\n    if ('Action' == substr($method, -6) && $method != 'indexAction') {\n        // If the action method was not found, forward to the index action\n        return $this->_forward('index');\n    }\n\n    // all other methods throw an exception\n    throw new Exception('Invalid method "' . $method . '" called', 500);\n}

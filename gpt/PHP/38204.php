@@ -1,0 +1,1 @@
+function getCategories(){\n    $prod = new C_Product();\n    $cat= $prod->getCategorieenAsArray();\n\n    $tr = "";\n    foreach ($cat as $key => $value){\n        $tr .= "<tr id='row_$key'><td>&nbsp;</td><td>$value</td><td><img class='deleterow' data-id='$key' src='images/delete_button.gif'></td></tr>";\n    }\n    return $tr;\n}

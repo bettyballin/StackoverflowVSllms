@@ -1,0 +1,1 @@
+$a = "abc dec g (gold)";\n$result = explode('(', $a)[0];\necho $result; // Output: abc dec g

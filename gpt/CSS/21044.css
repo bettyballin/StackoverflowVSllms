@@ -1,0 +1,1 @@
+/* Non-language specific CSS */\ndiv.topHeader p#searchHeader {\n  background: var(--search-header-image) no-repeat scroll center center;\n}

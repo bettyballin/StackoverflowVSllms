@@ -1,1 +1,0 @@
-404 \nheader("Location: /some/nonexistantpath/you_want_to_show_the_user");\n\n500\nheader("Location: /some/path/that/exists/and/has/a/php/error.php");

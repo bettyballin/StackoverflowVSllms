@@ -1,1 +1,0 @@
-public function __construct() {\n    $store = $this->_helper->loadModel('stores');\n    $store->getByPrimary($storeid);\n}

@@ -1,1 +1,0 @@
-declare @month tinyint\ndeclare @day tinyint\nset @month = 9\nset @day = 1\n\ndeclare @date datetime\n\n-- this could be inlined if desired\nset @date = convert(char(4),year(getdate()))+'0101'\nset @date = dateadd(month,@month-1,@date)\nset @date = dateadd(day,@day-1,@date)\n\nif @date <= getdate()-1\n  set @date = dateadd(year,1,@date)\n\nselect @date

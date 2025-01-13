@@ -1,1 +1,0 @@
-SELECT followup.value, \n    ( SELECT TOP 1 f1.VALUE \n      FROM followup as f1 \n      WHERE f1.id<followup.id \n      ORDER BY f1.id DESC\n    ) AS Prev_Value\nFROM followup

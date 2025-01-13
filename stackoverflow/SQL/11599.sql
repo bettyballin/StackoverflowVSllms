@@ -1,1 +1,0 @@
-SELECT (count(*)/(SELECT cast(count(*) as float) FROM users))*100 FROM users\nWHERE score < (SELECT score FROM users WHERE user = 'john')

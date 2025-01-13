@@ -1,0 +1,1 @@
+$.get(contentUrl, null, function(response) {\n    $('#dialog').find('.bd').html(response);\n\n    // Assuming `response` includes a <style> or CSS string\n    var cssContent = '/* Your dynamic CSS here */';\n    var style = $('<style>').text(cssContent);\n    $('head').append(style);\n}, "waitDlg");

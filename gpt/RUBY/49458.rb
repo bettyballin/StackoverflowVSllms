@@ -1,0 +1,1 @@
+# db/migrate/xxxx_create_widgets.rb\n    class CreateWidgets < ActiveRecord::Migration[6.1]\n      def change\n        create_table :widgets do |t|\n          t.string :name\n          t.text :description\n          t.string :author\n          t.text :code\n\n          t.timestamps\n        end\n      end\n    end

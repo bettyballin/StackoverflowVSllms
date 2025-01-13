@@ -1,0 +1,1 @@
+city, state, zip = *(0..2).to_a\nputs city  # Output: 0\nputs state # Output: 1\nputs zip   # Output: 2

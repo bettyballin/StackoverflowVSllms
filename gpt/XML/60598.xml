@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <httpModules>\n      <add name="BandwidthThrottleModule" type="YourNamespace.BandwidthThrottleModule, YourAssemblyName" />\n    </httpModules>\n  </system.web>\n</configuration>

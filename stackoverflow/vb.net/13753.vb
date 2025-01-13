@@ -1,1 +1,0 @@
-class Base\n    protected m_x as integer\nend class\n\nclass Derived1\n    inherits Base\n    public sub Foo(other as Base)\n        other.m_x = 2\n    end sub\nend class\n\nclass Derived2\n    inherits Base\nend class

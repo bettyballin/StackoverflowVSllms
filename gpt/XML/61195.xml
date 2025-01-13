@@ -1,0 +1,1 @@
+<system.web>\n       <sessionState cookieless="UseUri" />\n   </system.web>

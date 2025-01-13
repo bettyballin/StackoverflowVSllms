@@ -1,1 +1,0 @@
-$ echo -e "line 1\nline 2\nline 3" > a\n$ sed -e 's/2/b/' <a >b\n$ sed -e 's/2/c/' <a >c\n$ diff a b > ab.diff\n$ patch c < ab.diff\n$ cat c.rej\n***************\n*** 2\n- line 2\n--- 2 -----\n+ line b

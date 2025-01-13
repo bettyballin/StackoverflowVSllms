@@ -1,0 +1,1 @@
+pm install cypress --save-dev

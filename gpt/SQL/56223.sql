@@ -1,0 +1,1 @@
+SELECT TO_CHAR(your_date_column, 'YYYY-MM-DD HH24:MI:SS') AS military_time\nFROM your_table;

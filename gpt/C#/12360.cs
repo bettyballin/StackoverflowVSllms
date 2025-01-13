@@ -1,0 +1,1 @@
+// Example in ASP.NET\n   SqlCommand command = new SqlCommand("YourQuery", connection);\n   command.CommandTimeout = 120; // Set to an appropriate value

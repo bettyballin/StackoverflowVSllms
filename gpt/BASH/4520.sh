@@ -1,0 +1,1 @@
+locale -a | grep en_US

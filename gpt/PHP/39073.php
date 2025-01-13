@@ -1,0 +1,1 @@
+<?php\nrequire 'vendor/autoload.php';\n\nuse Pelago\Emogrifier\CssInliner;\n\n$html = '\n<style type="text/css">\na {\n    color: #a8a8a8;\n}\n</style>\n<a href="http://blah/blah/blah">click here</a>\n';\n\n$cssInliner = CssInliner::fromHtml($html)->inlineCss();\n$inlinedHtml = $cssInliner->render();\n\necho $inlinedHtml;\n?>

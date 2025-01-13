@@ -1,1 +1,0 @@
-public class PersonCompanyService\n{\n  void SavePersonCompany(IPersonCompany personCompany)\n  {\n    personRepository.SavePerson();\n    // do some work for a new company, etc.\n    companyRepository.SaveCompany();\n  }\n}

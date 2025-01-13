@@ -1,0 +1,1 @@
+<?php\nsession_start();\nif ($_SERVER['REQUEST_METHOD'] == 'POST') {\n    $_SESSION['loginid'] = $_POST['username'];\n    // Redirect to another page after setting the session variable\n    header("Location: welcome.html");\n    exit();\n}\n?>

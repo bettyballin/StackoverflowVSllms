@@ -1,0 +1,1 @@
+ffmpeg -i input.wmv -c:v libx264 output.mp4

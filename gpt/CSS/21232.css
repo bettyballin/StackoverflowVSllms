@@ -1,0 +1,1 @@
+.vertical-text {\n    writing-mode: vertical-rl;\n    transform: rotate(180deg); /* For webkit browsers */\n    -webkit-transform: rotate(180deg); /* For older webkit browsers */\n    -ms-writing-mode: tb-rl; /* For IE */\n    -moz-writing-mode: vertical-rl; /* For older Firefox versions */\n    -o-writing-mode: vertical-rl; /* For older Opera versions */\n}

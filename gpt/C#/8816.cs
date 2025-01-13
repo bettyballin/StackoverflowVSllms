@@ -1,0 +1,1 @@
+public class MyViewModel\n{\n    public UserModel LoggedUser { get; set; }\n    // other properties\n}

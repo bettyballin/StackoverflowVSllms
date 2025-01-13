@@ -1,1 +1,0 @@
-session_start(); # start session handling.\n$_SESSION['test']='hello world';\nexit();

@@ -1,0 +1,1 @@
+list_obj_1 = [{}] * 10  # This will create a list with 10 references to the same dictionary\nlist_obj_2 = [{} for i in range(10)]  # This will create a list with 10 different dictionaries

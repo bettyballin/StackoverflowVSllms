@@ -1,1 +1,0 @@
-$var = '_GET';\n${$var}[$key]

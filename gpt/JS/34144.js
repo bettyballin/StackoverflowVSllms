@@ -1,0 +1,1 @@
+// Define a model class\nclass User {\n    constructor(id, name, email) {\n        this.id = id;\n        this.name = name;\n        this.email = email;\n    }\n}\n\n// Example of creating a new User instance\nlet user = new User(1, 'John Doe', 'john.doe@example.com');\nconsole.log(user);

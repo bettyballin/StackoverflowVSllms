@@ -1,1 +1,0 @@
-avr-as --gstabs -mmcu=atmega644 a.s -o a.o

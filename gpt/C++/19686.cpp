@@ -1,0 +1,1 @@
+#include <iostream>\n#include <conio.h>  // For _getch()\n\nint main() {\n    std::cout << "Press any key to continue...\n";\n    char ch = _getch();  // Get a single character without waiting for ENTER\n    std::cout << "You pressed: " << ch << std::endl;\n    return 0;\n}

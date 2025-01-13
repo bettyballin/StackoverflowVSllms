@@ -1,1 +1,0 @@
-basicDatePicker.selectDate = basicDatePicker.selectDate.wrap(function(orig,year,month,day,hide) {\n  myListener(year,month,day);\n  return orig(year,month,day,hide);\n});

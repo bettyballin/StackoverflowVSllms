@@ -1,1 +1,0 @@
-public int PropertyA\n{\n    get\n    {\n        return //etc...\n    }\n    set\n    {\n        if (condition == true)\n        {\n            throw new ArgumentOutOfRangeException("value", "/* etc... */");\n        }\n        // ... etc\n    }\n}

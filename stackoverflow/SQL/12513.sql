@@ -1,1 +1,0 @@
-SELECT * FROM (ControlPoint\nINNER JOIN Project ON ControlPoint.ProjectID = Project.ProjectID)\nINNER JOIN Site ON Site.SiteID = Project.SiteID\nWHERE Project.ProjectName LIKE '*Flood*'

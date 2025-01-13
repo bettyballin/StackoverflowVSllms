@@ -1,0 +1,1 @@
+<?php\ninclude 'File2.php';\n?>

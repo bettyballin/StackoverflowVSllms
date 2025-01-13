@@ -1,1 +1,0 @@
-CREATE TRIGGER dbo.My_Table_Delete_Instead_Of_Trigger\nON dbo.My_Table\nINSTEAD OF DELETE\nAS\nBEGIN\n\n     -- Do some stuff here\n\n     DELETE T\n     FROM DELETED D\n     INNER JOIN dbo.My_Table T ON T.PK_1 = D.PK_1 AND T.PK_2 = D.PK_2\nEND

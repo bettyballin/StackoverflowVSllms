@@ -1,0 +1,1 @@
+cd /path/to/new-central-repo\n    git remote add origin <central-server-repo-url>\n    git push --force origin mai

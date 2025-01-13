@@ -1,0 +1,1 @@
+docker run -d --name languagetool -p 8010:8010 \\n        --memory 1000m --memory-swap 1000m \\n        languagetool/languagetool

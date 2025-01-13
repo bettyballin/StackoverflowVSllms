@@ -1,0 +1,1 @@
+class TableB < ApplicationRecord\nend

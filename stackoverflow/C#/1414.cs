@@ -1,1 +1,0 @@
-var control = (from d in grid.Children\n               where Grid.GetColumn(d as FrameworkElement) == 3 \n                  && Grid.GetRow(d as FrameworkElement) == 4\n               select d).FirstOrDefault();

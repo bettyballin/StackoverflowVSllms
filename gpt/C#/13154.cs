@@ -1,0 +1,1 @@
+public class SimplePerson\n{\n    public string FirstName { get; set; }\n    public string LastName { get; set; }\n    public string PetName { get; set; }\n}

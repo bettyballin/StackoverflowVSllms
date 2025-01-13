@@ -1,0 +1,1 @@
+ul {\n    list-style-type: none;\n    padding: 0;\n    margin: 0;\n    display: flex;\n}\n\nli.layout {\n    margin-right: 20px; /* Adjust spacing between columns as needed */\n}\n\nul.layout-children {\n    list-style-type: none;\n    padding: 0;\n    margin: 0;\n}

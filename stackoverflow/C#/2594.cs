@@ -1,1 +1,0 @@
-public static Boolean IsEmpty<T>(this IEnumerable<T> source)\n{\n    if (source == null)\n        return true; // or throw an exception\n    return !source.Any();\n}

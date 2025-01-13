@@ -1,1 +1,0 @@
-query.SetParameter(position, null, NHibernateUtil.Int32);

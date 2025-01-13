@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded", function() {\n    var images = document.querySelectorAll('img');\n    images.forEach(function(img) {\n        img.onerror = function() {\n            this.src = 'path/to/your/fallback/image.png';\n        };\n    });\n});

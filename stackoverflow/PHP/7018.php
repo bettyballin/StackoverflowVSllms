@@ -1,1 +1,0 @@
-<?php\n    class Dealer extends AppModel\n    {\n        var $name = 'Dealer';\n        var $hasMany = array(\n            'Product' => array(\n                'className' => 'Product',\n                'conditions' => null,\n                'order' => null,\n                'foreignKey' => 'dealer_id'\n            )\n        );\n    }\n?>

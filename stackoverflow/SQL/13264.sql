@@ -1,1 +1,0 @@
-select cast(N'' as xml).value('xs:base64Binary(xs:hexBinary(sql:variable("@encryptedCreditCardNumber")))', 'varchar(max)');

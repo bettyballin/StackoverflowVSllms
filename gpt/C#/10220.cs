@@ -1,0 +1,1 @@
+string CombineFields(string[] fields)\n{\n    return string.Join("|||", fields);\n}\n\nstring[] SeparateFields(string combinedString)\n{\n    return combinedString.Split(new string[] { "|||" }, StringSplitOptions.None);\n}

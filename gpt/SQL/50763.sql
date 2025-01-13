@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION get_user_details(user_id INT)\n    RETURNS TABLE(id INT, username VARCHAR, email VARCHAR) AS $$\n    BEGIN\n        RETURN QUERY\n        SELECT id, username, email\n        FROM auth_user\n        WHERE id = user_id;\n    END;\n    $$ LANGUAGE plpgsql;

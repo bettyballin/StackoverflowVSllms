@@ -1,0 +1,1 @@
+IF @Notify = 0\nBEGIN\n    DECLARE @dtTopDate DATETIME\n    \n    SELECT TOP 1 @dtTopDate = date_build\n    FROM database..table\n    WHERE parent = @Parent\n      AND child = @Child\n    ORDER BY date_build DESC\n\n    INSERT INTO database2..table (parent, child, notification_date, change_date)\n    VALUES (@Parent, @Child, @dtTopDate, GETDATE())\n    \n    RETURN\nEND

@@ -1,1 +1,0 @@
-SELECT\n    SERVERPROPERTY('LicenseType'),\n    SERVERPROPERTY('NumLicenses'),\n    SERVERPROPERTY('EngineEdition'),\n    SERVERPROPERTY('Edition')

@@ -1,1 +1,0 @@
-$ touch a1.a a2.a a3.a\n$ ls\n\na1.a  a2.a  a3.a\n\n$ for a in a*.a ; do cp $a $(echo $a | sed 's/^a/b/') ; done\n$ ls\n\na1.a  a2.a  a3.a  b1.a  b2.a  b3.a

@@ -1,1 +1,0 @@
-Header('Location: '.download_link)

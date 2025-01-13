@@ -1,0 +1,1 @@
+rm -r your_symlink_name

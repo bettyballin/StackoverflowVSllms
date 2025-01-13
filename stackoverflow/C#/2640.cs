@@ -1,1 +1,0 @@
-partial class ExampleElement\n{\n    string GetExampleDisplayValue()\n    {\n        return "Example : " + this.Example;\n    }\n}

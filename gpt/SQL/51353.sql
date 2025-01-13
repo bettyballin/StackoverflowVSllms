@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE process_numbers(p_numbers IN number_table) IS\nBEGIN\n  FOR i IN 1..p_numbers.COUNT LOOP\n    -- process each element in the array\n    DBMS_OUTPUT.PUT_LINE('Processing number: ' || p_numbers(i));\n  END LOOP;\nEND;\n/

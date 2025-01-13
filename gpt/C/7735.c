@@ -1,0 +1,1 @@
+typedef struct {\n    int16_t leftChannel;\n    int16_t rightChannel;\n} PcmSample;\n\ntypedef struct {\n    PcmSample* samples;\n    size_t sampleCount;\n    int sampleRate;\n    int bitsPerSample;\n    int numChannels;\n} PcmBuffer;

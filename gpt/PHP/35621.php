@@ -1,0 +1,1 @@
+require('path/to/smarty/libs/Smarty.class.php');\nrequire('path/to/block.products.php');\n\n$smarty = new Smarty();\n$smarty->registerPlugin('block', 'products', 'smarty_block_products');

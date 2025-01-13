@@ -1,0 +1,1 @@
+sudo chown -R richard:developers /server/staging\n    sudo chmod -R g+s /server/staging

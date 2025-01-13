@@ -1,1 +1,0 @@
-// First, probably the more parsable way.\nforeach($array as $key => $values)\n{\n    $end[$spuid] = $values;\n    $spuid = $values['spuid']\n    $end[$spuid]['authors'][] = array('sfirst' => $values['sfirst'],\n                          'smi' => $values['smi'],\n                           'slast' => $values['slast']);\n\n}

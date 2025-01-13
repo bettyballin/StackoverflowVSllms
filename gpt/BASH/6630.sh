@@ -1,0 +1,1 @@
+tar -czvf /backup/apache_backup.tar.gz /etc/apache2 /var/www

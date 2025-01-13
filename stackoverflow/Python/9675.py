@@ -1,1 +1,0 @@
-def f():\n    return 1, 2, 3\n\n_, _, x = f()

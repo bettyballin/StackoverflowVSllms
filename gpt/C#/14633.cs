@@ -1,0 +1,1 @@
+Uri baseAddress = new Uri("http://www.domain.com/YourService.svc");\nServiceHost selfHost = new ServiceHost(typeof(YourService), baseAddress);

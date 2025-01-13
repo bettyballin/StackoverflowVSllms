@@ -1,1 +1,0 @@
-select c1,c2,c3, \n       count(src1) CNT1, \n       count(src2) CNT2\n  from (select a.*, \n               1 src1, \n               to_number(null) src2 \n          from a\n        union all\n        select b.*, \n               to_number(null) src1, \n               2 src2 \n          from b\n       )\ngroup by c1,c2,c3\nhaving count(src1) <> count(src2);

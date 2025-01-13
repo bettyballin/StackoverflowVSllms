@@ -1,0 +1,1 @@
+require 'erb'\n\n  template = ERB.new <<-TEMPLATE\n  <table border="0" cellpadding="4">\n    <% (0...25).step(5) do |i| %>\n      <tr align="right">\n        <% (i...i+5).each do |j| %>\n          <td bgcolor="<%= j.odd? ? 'pink' : 'green' %>"><%= j + 1 %></td>\n        <% end %>\n      </tr>\n    <% end %>\n  </table>\n  TEMPLATE\n  \n  puts template.result

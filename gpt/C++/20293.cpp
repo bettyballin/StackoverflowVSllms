@@ -1,0 +1,1 @@
+#include <string>\n\nconst char VAL_TAG_OPEN[] = "<value>";\nconst char VAL_TAG_CLOSE[] = "</value>";\n\n// Assuming sVal is a valid pointer to a std::string\nstd::string sAttr;\nstd::string sValStr = *sVal; // Dereferencing sVal to get the actual string\n\nsAttr = std::string(VAL_TAG_OPEN) + sValStr + VAL_TAG_CLOSE;

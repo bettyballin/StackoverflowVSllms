@@ -1,1 +1,0 @@
-select * from \n(\n    SELECT TOP(10) id, categoryID, userID\n    FROM Stories\n    ORDER BY Stories.LastActivityAt\n) s\nINNER JOIN Stories ON Stories.ID = s.id\nINNER JOIN Categories ON Categories.ID = s.CategoryID\nINNER JOIN Users ON Users.ID = s.UserID

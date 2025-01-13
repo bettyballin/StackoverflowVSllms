@@ -1,0 +1,1 @@
+public class YourDbContext : DbContext\n{\n    public DbSet<Table1> Table1 { get; set; }\n    public DbSet<Table2> Table2 { get; set; }\n\n    // Other configurations\n}

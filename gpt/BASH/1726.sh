@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Source file to check\nSOURCE_FILE="your_program.c"\n\n# Compile with GCC and check for deprecated declarations\ngcc -Wall -Wextra -Wdeprecated-declarations -o /dev/null $SOURCE_FILE\n\n# Run cppcheck for additional analysis\ncppcheck --enable=all --suppress=missingIncludeSystem $SOURCE_FILE

@@ -1,0 +1,1 @@
+private void Form1_Load(object sender, EventArgs e)\n{\n    // Assuming dataGridView1 is your DataGridView and it is already bound to data\n    dataGridView1.Sort(dataGridView1.Columns["Name"], System.ComponentModel.ListSortDirection.Ascending);\n}

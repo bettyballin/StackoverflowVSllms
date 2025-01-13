@@ -1,0 +1,1 @@
+cacls "C:\YourFolder" /E /G username:R\ncacls "C:\YourFolder" /E /P username:W\ncacls "C:\YourFolder" /E /D username:D

@@ -1,1 +1,0 @@
-// I assume you've already got fMethodInfo and nameMethodInfo.\nExpression fCall = Expression.Call(null, fMethodInfo);\nExpression nameCall = Expression.Call(fCall, nameMethodInfo);\nExpression<Func<string>> lambda = Expression.Lambda<Func<string>>(nameCall, null);\nFunc<string> compiled = lambda.Compile();

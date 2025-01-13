@@ -1,0 +1,1 @@
+db.users.save({ firstName: "Allain" })\n   db.users.save({ firstName: "Bob", lastName: "Loblaw" })

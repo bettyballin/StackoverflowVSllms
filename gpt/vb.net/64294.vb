@@ -1,0 +1,1 @@
+Imports System\nImports Test.Data\n\nModule Module1\n    Sub Main()\n        ' Your code to utilize the generated namespace\n    End Sub\nEnd Module

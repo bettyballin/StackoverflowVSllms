@@ -1,0 +1,1 @@
+svn propset svn:externals "external_project_name <URL_of_external_project>" .

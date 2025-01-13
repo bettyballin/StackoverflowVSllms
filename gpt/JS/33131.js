@@ -1,0 +1,1 @@
+<script>\nif (window.innerWidth <= 800) {\n    window.location.href = "https://m.yoursite.com";\n}\n</script>

@@ -1,0 +1,1 @@
+from django.db import connection\n\n    def get_user_details(user_id):\n        with connection.cursor() as cursor:\n            cursor.callproc('get_user_details', [user_id])\n            columns = [col[0] for col in cursor.description]\n            results = [dict(zip(columns, row)) for row in cursor.fetchall()]\n        return results

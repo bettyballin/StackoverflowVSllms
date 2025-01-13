@@ -1,0 +1,1 @@
+int main() {\n    Object obj;\n    obj.DoX(42);       // Using DoX with an int\n    obj.DoX(3.14);     // Using DoX with a double\n    obj.DoX("Hello");  // Using DoX with a const char*\n    return 0;\n}

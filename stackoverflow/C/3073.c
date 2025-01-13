@@ -1,1 +1,0 @@
-typedef boost::function<void(void)> Action;\n\nclass Data {\npublic:\n  Data();\n  ~Data();\n  Register(Action action) { _a = action; }\n\nprivate:\n  Action _a;\n};\n\nclass Display {\npublic:\n  Display(Data d) { d.Register( bind(&Display::SomeTask, this) ); }\n  ~Display();\n  void SomeTask();\n};

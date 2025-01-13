@@ -1,1 +1,0 @@
-select\n u.user_id, u.user_type, concat_ws(profile_first_name + profile_last_name) as full_name\nfrom \n users u, user_profiles up\nwhere u.key = up.key\n and u.user_type = 'user'\n\nunion\n\nselect\n u.user_id, u.user_type, concat_ws(profile_first_name + profile_last_name) as full_name\nfrom \n users u, company_profiles cp\nwhere u.key = cp.key\n and u.user_type = 'company'

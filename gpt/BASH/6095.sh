@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d '{\n  "zone": "example.com",\n  "file": "/etc/bind/zones/example.com.db",\n  "type": "master"\n}' http://127.0.0.1:8053/api/v1/zones

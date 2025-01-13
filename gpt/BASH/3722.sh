@@ -1,0 +1,1 @@
+javac ClassLoadingAgent.java\n    jar cvfm ClassLoadingAgent.jar MANIFEST.MF ClassLoadingAgent.class

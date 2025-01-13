@@ -1,0 +1,1 @@
+EXEC your_stored_procedure arguments;

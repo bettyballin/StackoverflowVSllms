@@ -1,1 +1,0 @@
-public interface IOrderService{\n    int CalculateTotal(Order order);\n}

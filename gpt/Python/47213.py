@@ -1,0 +1,1 @@
+def foo(x):\n       pass\n\n   foo.description = "This function does nothing"\n   foo.version = 1.0

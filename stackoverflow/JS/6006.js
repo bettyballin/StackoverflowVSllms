@@ -1,1 +1,0 @@
-$.ajax({\n   url: '/some/url',\n   dataType: 'json',\n   type: 'post',\n   data: $('form').serialize(),\n   success: function(data) {\n       if (data.Redirect) {\n          window.location.href = data.Redirect;\n       }\n       else {\n         ...handle other responses...\n       }\n   }\n   ... more options...\n});

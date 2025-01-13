@@ -1,1 +1,0 @@
-test = list('asdf')\n[function(x) for x in test]

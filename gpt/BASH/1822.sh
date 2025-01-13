@@ -1,0 +1,1 @@
+# Switch to the main branch\nsvn switch http://svn.example.com/repo/trunk\n\n# Merge changes from the feature branch\nsvn merge http://svn.example.com/repo/branches/feature-branch\n\n# Resolve any conflicts\nsvn resolve --accept=working <conflicted-file>\n\n# Commit the merged changes\nsvn commit -m "Merged changes from feature branch"

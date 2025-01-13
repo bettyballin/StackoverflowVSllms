@@ -1,0 +1,1 @@
+// ast.h\ntypedef struct ASTNode {\n    int nodetype;\n    struct ASTNode *left;\n    struct ASTNode *right;\n    /* You can add more fields as needed */\n} ASTNode;

@@ -1,1 +1,0 @@
-SELECT * FROM table WHERE datetime LIKE '2008-08-01%

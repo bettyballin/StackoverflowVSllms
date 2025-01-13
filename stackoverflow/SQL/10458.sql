@@ -1,1 +1,0 @@
-select concat(to_char(89.2244, '999G999G999G999G990D00'),'%') from dual

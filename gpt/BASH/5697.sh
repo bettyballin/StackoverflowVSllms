@@ -1,0 +1,1 @@
+# Update and install SSH server\nsudo apt-get update\nsudo apt-get install openssh-server\n\n# Start and enable SSH service\nsudo systemctl start ssh\nsudo systemctl enable ssh\n\n# Configure firewall to allow SSH\nsudo ufw allow ssh\nsudo ufw enable

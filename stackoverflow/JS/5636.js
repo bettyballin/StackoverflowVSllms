@@ -1,1 +1,0 @@
-function makeAjaxRequest()\n{\n   var url="script-that-checks-db.php";\n   $.get(url,{},verifyDb);\n}\n\nfunction verifyDb(response)\n{\n    if (response==1)\n    {\n       //The value exists, do what you want to do here\n    }\n\n    else\n    {\n      //The value doesn't exist\n    }\n}

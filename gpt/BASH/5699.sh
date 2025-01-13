@@ -1,0 +1,1 @@
+aximp YourActiveXControl.ocx /out:AxYourActiveXControl.dll /namespace:YourNamespace

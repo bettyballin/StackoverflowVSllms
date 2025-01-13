@@ -1,0 +1,1 @@
+XmlDocument xmldoc = new XmlDocument();\nstring text = "Hello, I am text &#945; &#160; &#8211; &#8212;";\nxmldoc.InnerXml = "<p>" + text + "</p>";

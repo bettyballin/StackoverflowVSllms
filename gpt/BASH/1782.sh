@@ -1,0 +1,1 @@
+sudo apt-get install kcachegrind  # For Debian/Ubuntu\n   sudo dnf install kcachegrind      # For Fedora

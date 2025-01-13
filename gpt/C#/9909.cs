@@ -1,0 +1,1 @@
+public int countSetBits(int n) {\n    int count = 0;\n    while (n != 0) {\n        n &= (n - 1); // Clear the least significant bit set\n        count++;\n    }\n    return count;\n}

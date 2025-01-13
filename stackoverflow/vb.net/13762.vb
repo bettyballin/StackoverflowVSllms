@@ -1,1 +1,0 @@
-array = Split(objTextFile.ReadAll(), ";")

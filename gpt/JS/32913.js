@@ -1,0 +1,1 @@
+TreePanel.on('click', showDocumentFromTree);\n\nfunction showDocumentFromTree(node) {   \n    if (TreePanel.getSelectionModel().isSelected(node)) {\n        dataStore.baseParams = {\n            node: node.id,\n            limit: 10\n        }\n        dataStore.load({\n            params: {\n                start: 0\n            }\n        });\n    }\n};

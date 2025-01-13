@@ -1,1 +1,0 @@
-CREATE TABLE t1(\n    a,                 -- default collation type BINARY\n    b COLLATE BINARY,  -- default collation type BINARY\n    c COLLATE REVERSE, -- default collation type REVERSE\n    d COLLATE NOCASE   -- default collation type NOCASE\n);

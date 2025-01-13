@@ -1,0 +1,1 @@
+from django.http import HttpResponse\n\nclass HttpResponseSeeOther(HttpResponse):\n    status_code = 303\n\ndef my_view(request):\n    return HttpResponseSeeOther(headers={'Location': 'https://example.com/new-url'})

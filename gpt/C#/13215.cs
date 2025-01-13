@@ -1,0 +1,1 @@
+// Example of locking mechanism using the uniqueSessionID\nlock (lockObject)\n{\n    // Clean up old locks\n    CleanUpOldLocks();\n\n    // Retrieve the oldest unlocked image\n    var image = GetOldestUnlockedImage();\n\n    // Lock the image to the current session using the uniqueSessionID\n    LockImageToSession(image, uniqueSessionID);\n}

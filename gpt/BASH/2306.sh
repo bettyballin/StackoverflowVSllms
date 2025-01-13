@@ -1,0 +1,1 @@
+dumpbin /symbols MyLib.obj

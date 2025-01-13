@@ -1,1 +1,0 @@
-echo curl_error($ch);

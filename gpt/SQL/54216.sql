@@ -1,0 +1,1 @@
+SELECT\n    e.name,\n    STUFF((\n        SELECT ';' + p.email\n        FROM PERSON p\n        WHERE p.agentofrecord_id = e.employee_id\n          AND dbo.GetPersonMember(p.person_id) = 1\n          AND p.isactive = 1\n          AND p.email <> ''\n        FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)'), 1, 1, '') AS emails\nFROM\n    EMPLOYEE e\nORDER BY\n    e.name;

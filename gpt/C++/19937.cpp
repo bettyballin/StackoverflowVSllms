@@ -1,0 +1,1 @@
+struct Node {\n    string key;\n    Node* left;\n    Node* right;\n    Node(string k) : key(k), left(nullptr), right(nullptr) {}\n};\n\nclass BST {\npublic:\n    Node* root;\n    BST() : root(nullptr) {}\n    // Implement insert, search, and delete functions\n};

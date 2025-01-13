@@ -1,0 +1,1 @@
+WITH SubTableWithRowNumber AS (\n    SELECT\n        main_table_id,\n        tag,\n        ROW_NUMBER() OVER (PARTITION BY main_table_id ORDER BY tag) AS rn\n    FROM\n        sub_table\n)\nSELECT\n    m.id,\n    m.title,\n    st.tag\nFROM\n    main_table m\nLEFT JOIN\n    SubTableWithRowNumber st\nON\n    m.id = st.main_table_id\nAND\n    st.rn = 1;

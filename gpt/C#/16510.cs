@@ -1,0 +1,1 @@
+// Assume _validationKey is a byte array representing the 64-byte validation key\nbyte[] _validationKey = ...; // Your 64-byte key\n\n// Create an HMACSHA1 instance using the validation key\nHMACSHA1 hashSha = new HMACSHA1(_validationKey);\n\n// Compute the hash of the input bytes\nbyte[] ret = hashSha.ComputeHash(bytes, offSet, count);\n\n// Return the computed hash\nreturn ret;

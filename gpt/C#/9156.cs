@@ -1,0 +1,1 @@
+string value = Session["nodeName"] as string; // replace "nodeName" with the actual XML node name\n\nif(value != null)\n{\n    // Use the value\n    Response.Write(value);\n}\nelse\n{\n    // Handle the case when the value is not found\n    Response.Write("Node not found in session.");\n}

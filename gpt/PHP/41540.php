@@ -1,0 +1,1 @@
+// src/Model/Entity/Person.php\n   namespace App\Model\Entity;\n\n   use Cake\ORM\Entity;\n\n   class Person extends Entity {\n       protected $_accessible = [\n           '*' => true,\n           'id' => false,\n       ];\n   }

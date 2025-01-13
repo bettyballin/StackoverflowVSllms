@@ -1,1 +1,0 @@
-using(WebClient client = new WebClient()) {\n    string html = client.DownloadString(address);\n}

@@ -1,0 +1,1 @@
+IEnumerable<int> enumerable = new List<int> { 1, 2, 3, 4, 5 };\nList<int> list = enumerable as List<int> ?? enumerable.ToList();

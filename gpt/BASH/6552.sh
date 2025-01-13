@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Define variables\nSOURCE_DIR="/path/to/source"\nDEST_DIR="/path/to/destination"\nSSH_USER="username"\nSSH_HOST="remotehost"\nDAYS=7\n\n# Find files modified in the last N days and rsync them\nfind "$SOURCE_DIR" -type f -mtime -"$DAYS" -print0 | rsync -avz --files-from=- --from0 "$SOURCE_DIR" "$SSH_USER@$SSH_HOST:$DEST_DIR"

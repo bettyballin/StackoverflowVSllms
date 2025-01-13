@@ -1,0 +1,1 @@
+#pragma message "Including header file X"\n    #include "headerX.h"\n    \n    #pragma message "Including header file Y"\n    #include "headerY.h"\n    \n    #define foo 42\n    #pragma message("foo is defined in header file Y")

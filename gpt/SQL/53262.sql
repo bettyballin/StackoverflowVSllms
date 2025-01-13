@@ -1,0 +1,1 @@
+SELECT Format([YourField], "0.000") AS FormattedField\nFROM YourTable;

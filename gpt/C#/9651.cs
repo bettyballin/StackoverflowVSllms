@@ -1,0 +1,1 @@
+string pem = "-----BEGIN RSA PRIVATE KEY-----\n...your key...\n-----END RSA PRIVATE KEY-----";\nRSACryptoServiceProvider rsaProvider = PemReaderExample.GetRsaCryptoServiceProvider(pem);\n\n// Now you can use rsaProvider to decrypt data

@@ -1,0 +1,1 @@
+YourServiceClient client = new YourServiceClient();\nclient.Endpoint.Address = new EndpointAddress("https://yourserviceurl/service.svc");

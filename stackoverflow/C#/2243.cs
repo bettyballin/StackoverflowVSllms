@@ -1,1 +1,0 @@
-using (Stream receiveStream = response.GetResponseStream()) {\n   for (int offcnt = receiveStream.Read(trans, 0, trans.Length); offcnt > 0; offcnt = receiveStream.Read(trans, 0, trans.Length)) {\n      context.Response.OutputStream.Write(trans, 0, offcnt);\n   }\n}

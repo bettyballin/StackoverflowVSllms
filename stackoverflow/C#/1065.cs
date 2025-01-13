@@ -1,1 +1,0 @@
-void OneWay()\n        {\n            System.Data.SqlClient.SqlDataReader reader = null;\n            int i = reader.GetInt32(0);\n        }\n\n        void OtherWay()\n        {\n            System.Data.SqlClient.SqlDataReader reader = null;\n            int i = (int)reader[0];\n        }

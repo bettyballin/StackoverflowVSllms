@@ -1,1 +1,0 @@
-scode[codeCount] = 1;

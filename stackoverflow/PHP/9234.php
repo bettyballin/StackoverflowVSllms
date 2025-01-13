@@ -1,1 +1,0 @@
-function Redirect($url, $permanent = false)\n{\n    if (headers_sent() === false)\n    {\n        header('Location: ' . $url, true, ($permanent === true) ? 301 : 302);\n    }\n\n    exit();\n}\n\nRedirect('http://www.google.com/', false);

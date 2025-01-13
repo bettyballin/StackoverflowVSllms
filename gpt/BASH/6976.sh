@@ -1,0 +1,1 @@
+sudo apt-get update\n   sudo apt-get upgrade\n   sudo apt-get install apache2\n   sudo apt-get install php5\n   sudo apt-get install postgresql-8.3

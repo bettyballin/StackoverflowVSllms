@@ -1,0 +1,1 @@
+# Example of installing Memcached on a Debian/Ubuntu server\n   sudo apt-get install memcached\n\n   # Example of installing Redis on a Debian/Ubuntu server\n   sudo apt-get install redis-server

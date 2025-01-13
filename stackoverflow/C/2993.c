@@ -1,1 +1,0 @@
-class A {\n   public:\n     A( int ){}\n};

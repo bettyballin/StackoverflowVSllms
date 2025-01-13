@@ -1,0 +1,1 @@
+var contacts = ImportContacts("path/to/your/contacts.csv");\n\n   foreach (var contact in contacts)\n   {\n       Console.WriteLine($"Name: {contact.Name}, Email: {contact.Email}");\n   }

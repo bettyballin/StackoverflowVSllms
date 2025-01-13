@@ -1,0 +1,1 @@
+INSERT INTO Clients (ClientName)\nSELECT DISTINCT ClientName\nFROM OldProjects;

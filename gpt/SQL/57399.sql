@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\n-- Your SQL statements here\nUPDATE Employees SET Salary = Salary + 1000 WHERE EmployeeID = 1;\n\n-- Check the results\nSELECT * FROM Employees WHERE EmployeeID = 1;\n\n/* If satisfied, commit the transaction */\n-- COMMIT TRANSACTION;\n\n/* If not satisfied, rollback the transaction */\n-- ROLLBACK TRANSACTION;

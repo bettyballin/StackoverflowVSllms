@@ -1,0 +1,1 @@
+string logonUser = Request.ServerVariables["LOGON_USER"];\nResponse.Write("LOGON_USER: " + logonUser);

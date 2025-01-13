@@ -1,1 +1,0 @@
-dataPathComboBox.DisplayMember = "descript"

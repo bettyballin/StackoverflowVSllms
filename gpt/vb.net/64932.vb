@@ -1,0 +1,1 @@
+Dim obj As New ExampleClass()\nobj.RandomValue = 123\n\nDim formatter As New BinaryFormatter()\nUsing stream As New FileStream("data.bin", FileMode.Create, FileAccess.Write, FileShare.None)\n    formatter.Serialize(stream, obj)\nEnd Using

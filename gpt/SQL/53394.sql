@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE GetChangeHistory (\n       p_TableName IN VARCHAR2,\n       p_PrimaryKeyValue IN VARCHAR2,\n       p_Result OUT SYS_REFCURSOR\n   ) AS\n   BEGIN\n       OPEN p_Result FOR\n       SELECT * FROM ChangeHistory\n       WHERE TableName = p_TableName\n       AND PrimaryKeyValue = p_PrimaryKeyValue\n       ORDER BY ChangeDate DESC;\n   END GetChangeHistory;

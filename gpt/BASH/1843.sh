@@ -1,0 +1,1 @@
+# Creating a ZFS pool on an SSD\n    sudo zpool create mypool /dev/sdX

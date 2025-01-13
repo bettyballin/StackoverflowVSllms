@@ -1,1 +1,0 @@
-char * buffer = 0;\nlong length;\nFILE * f = fopen (filename, "rb");\n\nif (f)\n{\n  fseek (f, 0, SEEK_END);\n  length = ftell (f);\n  fseek (f, 0, SEEK_SET);\n  buffer = malloc (length);\n  if (buffer)\n  {\n    fread (buffer, 1, length, f);\n  }\n  fclose (f);\n}\n\nif (buffer)\n{\n  // start to process your data / extract strings here...\n}

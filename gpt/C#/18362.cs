@@ -1,0 +1,1 @@
+SPSecurity.RunWithElevatedPrivileges(delegate() {\n    using (SPSite site = new SPSite(_SPSite)) {\n        using (SPWeb eachWeb = site.OpenWeb()) {\n            SPListItemCollection myItemCollection = eachWeb.Lists["Listings"].Items;\n            // Your code to work with the items goes here\n        }\n    }\n});

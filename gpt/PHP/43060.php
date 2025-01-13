@@ -1,0 +1,1 @@
+<?php\nprint 'Hello';\n?>

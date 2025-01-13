@@ -1,0 +1,1 @@
+require 'cgi'\n\nclass ApplicationController < ActionController::Base\n  before_action :log_referer\n\n  private\n\n  def log_referer\n    referer = request.headers['Referer']\n    sanitized_referer = CGI.escapeHTML(referer.to_s)\n    Rails.logger.info "Referer: #{sanitized_referer}"\n  end\nend

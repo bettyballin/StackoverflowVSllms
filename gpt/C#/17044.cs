@@ -1,0 +1,1 @@
+var translations = TranslationCache.GetTranslations("en");\nif (translations.TryGetValue("hello", out var helloTranslation))\n{\n    Console.WriteLine(helloTranslation); // Output: Hello\n}

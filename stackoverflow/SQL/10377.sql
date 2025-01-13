@@ -1,1 +1,0 @@
-select col1, col2, 'ABC' as col3 from Table1 where col1 = 0;

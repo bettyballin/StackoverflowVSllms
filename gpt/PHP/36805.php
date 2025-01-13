@@ -1,0 +1,1 @@
+<?php\n\nreturn [\n    'database' => [\n        'host' => 'localhost',\n        'user' => 'root',\n        'password' => 'password',\n        'dbname' => 'example_db',\n    ],\n    'app' => [\n        'debug' => true,\n        'log_file' => '/path/to/log/file.log',\n    ],\n];

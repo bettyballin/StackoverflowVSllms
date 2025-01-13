@@ -1,0 +1,1 @@
+ALTER VIEW [dbo].[v_users]\nAS\nSELECT \n    auid,\n    user_id,\n    username\nFROM dbo.users;

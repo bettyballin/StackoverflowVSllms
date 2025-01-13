@@ -1,1 +1,0 @@
-<ItemGroup>\n    <Content Include="Content\test.html" />\n    <Content Include="Content\*.html" />\n        <Content Include="Content\*.gif" />\n       <Content Include="Content\*.css" />\n       <Content Include="Content\*.jpg" />\n       <Content Include="Content\*\*.js" />

@@ -1,0 +1,1 @@
+# Example: Checkpointing a JVM process with PID 1234\n   criu dump -t 1234 -D /path/to/checkpoint/dir --shell-job\n\n   # Example: Restoring the checkpointed JVM process\n   criu restore -D /path/to/checkpoint/dir --shell-job

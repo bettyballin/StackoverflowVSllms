@@ -1,1 +1,0 @@
-setcookie($cookie, '', 1, '/');

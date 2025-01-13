@@ -1,0 +1,1 @@
+UPDATE c\nSET\n    c.BusinessRegionId = b.Id\nFROM \n    Company c\nINNER JOIN Locality l ON \n    c.LocalityId = l.Id\nINNER JOIN \n    (SELECT Id\n     FROM BusinessRegion\n     WHERE tag = 'Australia/New South Wales') b\nON \n    l.StateOrProvinceAbbreviation = 'NSW'

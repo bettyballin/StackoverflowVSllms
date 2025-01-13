@@ -1,1 +1,0 @@
-WebClient webClient = new WebClient();\nwebClient.UploadFileAsync(address, fileName);\nwebClient.UploadProgressChanged += WebClientUploadProgressChanged;

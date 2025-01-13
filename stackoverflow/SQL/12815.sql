@@ -1,1 +1,0 @@
-SELECT GROUP_CONCAT(email ORDER BY date ASC SEPARATOR '|'), newsletterid, date\nFROM \n   (SELECT email, newsletterid, date \n    FROM newsletter_queue\n    WHERE status="0"\n    ORDER BY date ASC\n    LIMIT 125) as Unsent\nGROUP BY newsletterid

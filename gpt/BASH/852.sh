@@ -1,0 +1,1 @@
+# Stop Oracle Enterprise Manager service\nemctl stop dbconsole\n\n# Start Oracle Enterprise Manager service\nemctl start dbconsole

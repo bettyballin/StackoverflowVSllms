@@ -1,0 +1,1 @@
+function unsignedToSigned($unsignedInt)\n{\n    if ($unsignedInt > 0x7FFFFFFF) {\n        $signedInt = $unsignedInt - 0x100000000;\n    } else {\n        $signedInt = $unsignedInt;\n    }\n    return $signedInt;\n}\n\n// Example usage\n$unsignedInt = ip2long('192.168.1.1');\n$signedInt = unsignedToSigned($unsignedInt);\n\necho $signedInt;

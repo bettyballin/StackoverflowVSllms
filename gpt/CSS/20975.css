@@ -1,0 +1,1 @@
+html {\n  font-size: 16px; /* Base font size */\n}\n\nbody {\n  font-size: 1rem; /* 16px */\n}\n\nh1 {\n  font-size: 2rem; /* 32px */\n}\n\np {\n  font-size: 1rem; /* 16px */\n}\n\n.small-text {\n  font-size: 0.875rem; /* 14px */\n}

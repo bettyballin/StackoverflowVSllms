@@ -1,1 +1,0 @@
-$imagehtml = htmlspecialchars(json_encode('<img src="'.$imageSrc.'" >'), ENT_QUOTES);\n$screenshotLink = '<p><a href="#" onclick="makewindows($imagehtml); return false;">View Screenshot</a>';

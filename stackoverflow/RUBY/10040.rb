@@ -1,1 +1,0 @@
-<pre>\n    x[i]\n    x[i, j]\n    x[[i]]\n    x[[i, j]]\n    x$a\n    x$"a"\n</pre>

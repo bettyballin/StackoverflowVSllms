@@ -1,0 +1,1 @@
+SELECT\n    menu_items.name,\n    COALESCE(SUM(order_items.quantity), 0) AS count\nFROM \n    menu_items\nLEFT JOIN \n    order_items ON menu_items.id = order_items.menu_item_id\nLEFT JOIN \n    orders ON orders.id = order_items.order_id AND \n              orders.date >= '2008-11-01' AND \n              orders.date <= '2008-11-30'\nGROUP BY \n    menu_items.id

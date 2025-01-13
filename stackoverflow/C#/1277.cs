@@ -1,1 +1,0 @@
-public BuilderInclusionsForm(Product p) : this()\n{\n    IEnumerable<Product> ps = db2.GetTable(p.GetType()).Cast<Product>();\n    product = ps.SingleOrDefault(a => a.ProductID == p.ProductID);\n}

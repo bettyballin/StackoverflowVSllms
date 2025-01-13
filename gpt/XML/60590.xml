@@ -1,0 +1,1 @@
+<Context>\n       <Environment name="config/myKey" value="myValue" type="java.lang.String" />\n   </Context>

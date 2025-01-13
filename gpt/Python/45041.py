@@ -1,0 +1,1 @@
+# Sample dictionary\nmy_dict = {'a': 1, 'b': 2, 'c': 3}\n\n# Extracting variables from dictionary\nlocals().update(my_dict)\n\n# Now you can access 'a', 'b', and 'c' as variables\nprint(a)  # Output: 1\nprint(b)  # Output: 2\nprint(c)  # Output: 3

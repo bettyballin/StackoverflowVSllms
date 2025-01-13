@@ -1,0 +1,1 @@
+ALTER TABLE parent_table MODIFY (parent_column VARCHAR2(20));\nALTER TABLE child_table MODIFY (child_column VARCHAR2(20));

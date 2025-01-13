@@ -1,0 +1,1 @@
+git checkout -b feature/add-users-table\n    git add 20231010_add_users_table.sql\n    git commit -m "Add users table"\n    git push origin feature/add-users-table\n    # Create a pull request for review

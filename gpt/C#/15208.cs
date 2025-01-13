@@ -1,0 +1,1 @@
+var system = (QLO.System)Connection.System;\nvar isInitialised = system.InitialiseData(path);

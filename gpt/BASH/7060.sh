@@ -1,0 +1,1 @@
+sudo apt-get install python3-gi gir1.2-goocanvas-2.0

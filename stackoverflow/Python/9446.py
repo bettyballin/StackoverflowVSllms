@@ -1,1 +1,0 @@
-class Pathology(models.Model):\n    pathology = models.CharField(max_length=100)\n    publications = models.ManyToManyField(Publication)\n\nclass Publication(models.Model):\n    pubtitle = models.TextField()

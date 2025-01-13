@@ -1,0 +1,1 @@
+<!-- View: example_view.php -->\n<!DOCTYPE html>\n<html>\n<head>\n    <title>Example Page</title>\n</head>\n<body>\n    <h1><?php echo htmlspecialchars($title, ENT_QUOTES, 'UTF-8'); ?></h1>\n    <p><?php echo htmlspecialchars($content, ENT_QUOTES, 'UTF-8'); ?></p>\n</body>\n</html>

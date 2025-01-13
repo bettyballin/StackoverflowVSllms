@@ -1,0 +1,1 @@
+<serviceCredentials>\n     <serviceCertificate \n       storeName="My" \n       storeLocation="LocalMachine" \n       x509FindType="FindBySubjectDistinguishedName" \n       findValue="CN=HighBall" />\n     <userNameAuthentication \n       userNamePasswordValidationMode="MembershipProvider"\n       membershipProviderName="HighBallMembershipProvider" />\n   </serviceCredentials>

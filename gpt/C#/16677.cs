@@ -1,0 +1,1 @@
+// Example of using raw SQL in LINQ to SQL\nvar context = new YourDataContext();\nvar query = context.ExecuteQuery<YourEntity>("SELECT * FROM YourTable WHERE SomeCondition = {0}", someValue);

@@ -1,0 +1,1 @@
+using (var stream = new MemoryStream())\n{\n    var writer = new SmartAsciiWriter(stream);\n    writer.Write("some fancy long text");\n    writer.Write("another text");\n    writer.Write("some fancy long text"); // This will use the cached byte array\n}

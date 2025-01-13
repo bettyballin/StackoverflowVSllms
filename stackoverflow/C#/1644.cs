@@ -1,1 +1,0 @@
-String.IsNullOrEmpty(fromname) || \n(   !String.IsNullOrEmpty(fromname) && \n    msg.FromName.ToLower().Contains(fromname.ToLower())\n)

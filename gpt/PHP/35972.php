@@ -1,0 +1,1 @@
+$pathway = &$mainframe->getPathway();\n$items = $pathway->getPathWay();\n\n// Debug output\necho '<pre>';\nprint_r($items);\necho '</pre>';

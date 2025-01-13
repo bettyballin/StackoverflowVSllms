@@ -1,1 +1,0 @@
-_db.GetChangeSet().Inserts.Count();

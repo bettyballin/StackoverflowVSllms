@@ -1,0 +1,1 @@
+<?php\nrequire 'business_logic.php';\n$user = getUserData();\ninclude 'template.php';\n?>

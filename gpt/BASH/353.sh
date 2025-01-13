@@ -1,0 +1,1 @@
+svn commit -m "Added external reference to MySharedLibrary"

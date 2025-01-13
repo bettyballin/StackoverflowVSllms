@@ -1,1 +1,0 @@
-calculatedRatio = heads / (heads + tails / 1000)

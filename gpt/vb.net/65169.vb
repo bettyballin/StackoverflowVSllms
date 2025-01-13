@@ -1,0 +1,1 @@
+Imports System.Runtime.InteropServices\n\nDim my_integer As Integer = 42\nDim gch As GCHandle = GCHandle.Alloc(my_integer, GCHandleType.Pinned)\nDim ptr As IntPtr = gch.AddrOfPinnedObject()\n\n' You can now use ptr in your API call\nAPICall(ptr)\n\n' When done, free the handle\ngch.Free()

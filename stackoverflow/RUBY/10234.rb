@@ -1,1 +1,0 @@
-def current_objects\n    @current_objects ||= @client.client_regions.paginate(:page => params[:page], :order => "name")\nend

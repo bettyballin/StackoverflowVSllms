@@ -1,1 +1,0 @@
-SELECT\n    COALESCE(p.id, c.id),\n    COALESCE(p.name, c.name),\n    p.num AS pending,\n    c.num AS completed,\n    COALESCE (p.num, 0) + COALESCE (c.num, 0) AS total\nFROM\n    pending p\n    FULL OUTER JOIN\n    completed c ON p.id = c.id

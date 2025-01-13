@@ -1,1 +1,0 @@
-<xsd:complexType name="ArrayOf_xsd_long">\n    <xsd:complexContent mixed="false">\n      <xsd:restriction base="soapenc:Array">\n        <xsd:attribute wsdl:arrayType="soapenc:long[]" ref="soapenc:arrayType" />\n      </xsd:restriction>\n    </xsd:complexContent>\n  </xsd:complexType>

@@ -1,0 +1,1 @@
+[HttpPut]\npublic IHttpActionResult UpdateResource(int id, [FromBody] ResourceModel resource)\n{\n    // Your logic to update the resource\n    return Ok();\n}

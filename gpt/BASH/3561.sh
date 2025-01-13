@@ -1,0 +1,1 @@
+./editgroups.cgi                 # Access the group management interface

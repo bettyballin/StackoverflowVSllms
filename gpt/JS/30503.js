@@ -1,0 +1,1 @@
+tinymce.init({\n  selector: 'textarea',  // Change this value according to your HTML\n  plugins: 'paste',\n  toolbar: 'paste'\n});

@@ -1,0 +1,1 @@
+smem -k | grep php

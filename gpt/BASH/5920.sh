@@ -1,0 +1,1 @@
+sudo auditctl -a always,exit -F arch=b64 -S execve -k process_creatio

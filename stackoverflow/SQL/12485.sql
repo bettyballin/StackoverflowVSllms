@@ -1,1 +1,0 @@
-"select id from votes where username = '$user' and article_id  = $this->id"

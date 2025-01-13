@@ -1,0 +1,1 @@
+public interface IDependency1\n    {\n        void Method1();\n    }\n\n    public interface IDependency2\n    {\n        void Method2();\n    }\n\n    public interface IDependency3\n    {\n        void Method3();\n    }

@@ -1,0 +1,1 @@
+const crypto = require('crypto');\n\n// Generate a secure token\nfunction generateToken() {\n  return crypto.randomBytes(32).toString('hex');\n}\n\n// Example usage\nconst token = generateToken();\nconsole.log('Generated Token:', token);

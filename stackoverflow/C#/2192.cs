@@ -1,1 +1,0 @@
-int milliseconds = Int32.Parse(inputString);\nTimeSpan t = TimeSpan.FromMilliseconds(milliseconds);\nDateTime base = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);\nDateTime result = base + t;

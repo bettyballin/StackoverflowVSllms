@@ -1,1 +1,0 @@
-cd /etc/parselog/\nexport PATH=/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/X11R6/bin:/root/bin\nphp run_all.php >/dev/null

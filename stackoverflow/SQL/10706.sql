@@ -1,1 +1,0 @@
-SELECT tabs.tab_id, tabs.song_id, tabs.user_id, tabs.tab_version, tabs.number_of_hits, artist.artist_name, users.user_alias, songs.song_name, tabs.time_added\nFROM tabs\nLEFT JOIN users ON users.user_id = tabs.user_id\nLEFT JOIN songs ON songs.song_id = tabs.song_id\nLEFT JOIN artist ON artist.artist_id = songs.artist_id\nORDER BY tabs.time_added DESC LIMIT 15

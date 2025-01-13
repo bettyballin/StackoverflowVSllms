@@ -1,0 +1,1 @@
+SELECT *\nFROM table_name\nWHERE created_by = 'user_id'\n   OR changed_by = 'user_id'

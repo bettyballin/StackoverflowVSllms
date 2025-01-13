@@ -1,0 +1,1 @@
+go build -o webserver example.go\n./webserver

@@ -1,1 +1,0 @@
-$this->_helper->viewRenderer->setNoRender();

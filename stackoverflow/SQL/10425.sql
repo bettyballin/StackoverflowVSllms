@@ -1,1 +1,0 @@
-select * from OpenRowset('MSDASQL',\n'Driver={Microsoft Text Driver (*.txt;\n*.csv)};DefaultDir=c:\;','select * from [FileName.csv]')

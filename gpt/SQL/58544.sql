@@ -1,0 +1,1 @@
+SET GLOBAL slow_query_log = 'ON';\n   SET GLOBAL long_query_time = 1; -- in seconds

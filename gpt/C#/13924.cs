@@ -1,0 +1,1 @@
+var obj1 = new SomeClass();\nvar obj2 = new SomeClass();\nvar obj3 = obj1;\n\nAssert.AreNotEqual(obj1, obj2); // Passes if obj1 and obj2 do not have the same value.\nAssert.AreNotSame(obj1, obj2); // Passes if obj1 and obj2 are not the same instance.\nAssert.AreNotSame(obj1, obj3); // Fails because obj1 and obj3 refer to the same instance.

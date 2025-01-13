@@ -1,0 +1,1 @@
+cd %ALLUSERSPROFILE%\Microsoft\Crypto\RSA\MachineKeys

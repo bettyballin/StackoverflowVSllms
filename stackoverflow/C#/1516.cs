@@ -1,1 +1,0 @@
-Size = TextRenderer.MeasureText([String], [Font])

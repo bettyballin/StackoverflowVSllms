@@ -1,1 +1,0 @@
-exec master..xp_cmdshell 'whoami'

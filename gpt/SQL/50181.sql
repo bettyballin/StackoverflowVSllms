@@ -1,0 +1,1 @@
+SELECT CASE\n           WHEN COUNT(*) = 0 THEN NULL\n           WHEN SUM(CASE WHEN someBool THEN 0 ELSE 1 END) = 0 THEN TRUE\n           ELSE FALSE\n       END AS all_true\nFROM myTable\nWHERE someKey = 1;

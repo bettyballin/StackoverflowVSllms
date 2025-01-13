@@ -1,1 +1,0 @@
-update entries set\n  processed = true\nwhere (\n  select count(*)\n  from entries as E\n  where E.user_id = entries.user_id\n  and E.created > entries.created\n) >= 3

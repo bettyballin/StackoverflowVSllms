@@ -1,0 +1,1 @@
+# Check iptables rules\n   sudo iptables -L -n\n\n   # If using UFW, check status\n   sudo ufw status

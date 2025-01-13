@@ -1,0 +1,1 @@
+RSAParameters privateKey = RSA.ExportParameters(true); // Export private key\nRSAParameters publicKey = RSA.ExportParameters(false); // Export public key

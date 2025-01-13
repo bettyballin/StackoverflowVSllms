@@ -1,0 +1,1 @@
+lli --llvm your_code.bc

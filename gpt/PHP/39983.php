@@ -1,0 +1,1 @@
+$hostname = gethostname();\necho $hostname;

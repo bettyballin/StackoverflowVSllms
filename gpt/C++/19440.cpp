@@ -1,0 +1,1 @@
+std::vector<int> myVector;\n    myVector.push_back(42);  // Automatically resizes as needed and manages memory

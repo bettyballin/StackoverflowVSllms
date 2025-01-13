@@ -1,0 +1,1 @@
+class MyThirdPartyLibrary extends third_party_library {\n    public function buggy_function() {\n        return 'good result';\n    }\n}

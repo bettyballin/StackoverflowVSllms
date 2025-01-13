@@ -1,1 +1,0 @@
-$request->setActionName('someaction');\n$request->setControllerName('somecontroller');

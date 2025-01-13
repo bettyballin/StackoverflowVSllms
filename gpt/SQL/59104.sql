@@ -1,0 +1,1 @@
+WITH CTE AS (\n    SELECT TOP 100\n        *,\n        ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS rn\n    FROM T1\n)\nUPDATE CTE\nSET F1 = 'new_value'\nWHERE rn <= 100;

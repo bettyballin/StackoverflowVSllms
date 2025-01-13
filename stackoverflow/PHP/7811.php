@@ -1,1 +1,0 @@
-function shutdown() {\n    global $dbg_stack_a;\n    print_r($dbg_stack_a);\n}\nregister_shutdown_function('shutdown');

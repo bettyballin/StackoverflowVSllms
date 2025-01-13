@@ -1,0 +1,1 @@
+cscript %SYSTEMDRIVE%\Inetpub\AdminScripts\iisweb.vbs /query

@@ -1,1 +1,0 @@
-var pollingId = window.setInterval(poll, 250);\nfunction poll(){\n   //make an AJAX request, do something with it (like update your progress bar).\n   if(done){\n      window.clearInterval(pollingId);\n   }\n}

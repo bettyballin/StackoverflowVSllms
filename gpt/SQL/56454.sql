@@ -1,0 +1,1 @@
+SELECT\n    emp_no,\n    LPAD(ROW_NUMBER() OVER (PARTITION BY emp_no ORDER BY book_id), 2, '0') AS book_no,\n    book_id\nFROM\n    your_table\nORDER BY\n    emp_no, book_no;

@@ -1,1 +1,0 @@
-// remove p/div/tr inside of td's\n  result = System.Text.RegularExpressions.Regex.Replace(result, @"<td\b(?:[^>""']|""[^""]*""|'[^']*')*>.*?</td\b(?:[^>""']|""[^""]*""|'[^']*')*>", new MatchEvaluator(RemoveTagsWithinTD));

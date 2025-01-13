@@ -1,0 +1,1 @@
+git config --get http.proxy\n   git config --get https.proxy

@@ -1,0 +1,1 @@
+CREATE TABLE events (\n    event_id NUMBER PRIMARY KEY,\n    event_timestamp VARCHAR2(23) -- Format: 'YYYY-MM-DD HH24:MI:SS.FF3'\n);

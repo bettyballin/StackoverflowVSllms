@@ -1,1 +1,0 @@
-link_to 'Recipes', recipes_path

@@ -1,0 +1,1 @@
+lorem --words 10

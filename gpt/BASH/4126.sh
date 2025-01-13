@@ -1,0 +1,1 @@
+@echo off\nsqlcmd -S YourServerName -d AxDWH_Central_Reporting -Q "EXEC sp_spaceused @updateusage = N'TRUE'" -s "," -W

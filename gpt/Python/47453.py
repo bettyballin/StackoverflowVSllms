@@ -1,0 +1,1 @@
+import re\n\ntext = '''http://www.othersite.com/image01.jpg\nhttp://www.mysite.com/image01.jpg\nhttp://www.mysite.com/category/image01.jpg\n'''\n\n# Define the pattern and replacement string\npattern = r'http://www\.mysite\.com/([^/]+\.jpg)'\nreplacement = r'http://www.NEW_WEBSITE.com/\1'\n\n# Perform the replacement\nresult = re.sub(pattern, replacement, text)\n\nprint(result)

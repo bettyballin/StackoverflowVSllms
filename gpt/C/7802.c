@@ -1,0 +1,1 @@
+#include <dlfcn.h>\n   #include <stdio.h>\n\n   __attribute__((constructor))\n   void init() {\n       void *handle = dlopen("/path/to/your/library.so", RTLD_LAZY);\n       if (!handle) {\n           fprintf(stderr, "%s\n", dlerror());\n           return;\n       }\n       // Load your functions and start your watchdog here\n   }

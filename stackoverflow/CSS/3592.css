@@ -1,1 +1,0 @@
-table, td {\n    border: 1px #CCC;\n}\n\ntable {\n    margin: 0;\n    border-spacing: 0;\n    border-style: none none solid solid;\n}\n\n* html table {\n    border-collapse: collapse;\n}\n\ntd {\n    border-style: solid solid none none;\n    padding: 5px;\n}

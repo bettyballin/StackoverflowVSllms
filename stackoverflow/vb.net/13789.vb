@@ -1,1 +1,0 @@
-Dim now As Date = DateTime.Now\nDim dueTime As Integer ' milliseconds to the next half-hour\ndueTime = 1800000 - (now.Minute Mod 30) * 60000 - now.Second * 1000 - now.Millisecond\noTimer = New System.Threading.Timer(oCallBack, Nothing, dueTime, 1800000)

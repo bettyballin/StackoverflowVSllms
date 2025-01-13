@@ -1,0 +1,1 @@
+// In your PHP application\n      ini_set('session.save_handler', 'pdo');\n      ini_set('session.save_path', 'mysql:host=localhost;dbname=sessions');

@@ -1,0 +1,1 @@
+// Example: Separating classes into different files\n\n// File: MyClass1.cs\npublic class MyClass1\n{\n    public void Method1()\n    {\n        // Implementation\n    }\n}\n\n// File: MyClass2.cs\npublic class MyClass2\n{\n    public void Method2()\n    {\n        // Implementation\n    }\n}

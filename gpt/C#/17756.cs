@@ -1,0 +1,1 @@
+public class User\n{\n    [NotNullNotEmpty]\n    public virtual string Username { get; set; }\n\n    [Email]\n    public virtual string Email { get; set; }\n}

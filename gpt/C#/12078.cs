@@ -1,0 +1,1 @@
+cmd = new SqlCommand("EXEC StoredProc @p1, @p2");\ncmd.CommandType = CommandType.Text;\ncmd.Parameters.AddWithValue("@p1", 1);\ncmd.Parameters.AddWithValue("@p2", 2);

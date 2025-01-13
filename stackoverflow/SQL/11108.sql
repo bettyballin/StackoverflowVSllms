@@ -1,1 +1,0 @@
-sqlite> create table people (first_name varchar, last_name varchar, email_address varchar);\nsqlite> select * from sqlite_master;\ntable|people|people|2|CREATE TABLE people (first_name varchar, last_name varchar, email_address varchar)

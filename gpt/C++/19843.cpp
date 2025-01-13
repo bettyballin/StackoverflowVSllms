@@ -1,0 +1,1 @@
+std::bitset<128> bitset;\n   bitset.set(0); // set the first bit\n   bitset.set(65); // set the 65th bit\n   bool isSet = bitset.test(65); // check if the 65th bit is set

@@ -1,0 +1,1 @@
+CREATE PROCEDURE YourStoredProcedureName\nAS\nBEGIN\n    SET NOCOUNT ON;\n\n    -- Your stored procedure code here\n\nEND;

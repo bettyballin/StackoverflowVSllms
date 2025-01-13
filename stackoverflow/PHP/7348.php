@@ -1,1 +1,0 @@
-<?php\n     if ($url == "http://www.sample.com/test.php") {\n         echo "<div>whatever</div>";\n     } else {\n         echo "<div> do not show</div>";\n     };\n ?>

@@ -1,1 +1,0 @@
-Dictionary<string, Widget> dict = new Dictionary<string, Widget>();\nWidget myWidget = GetSomeWidget();\ndict.Add(myWidget.Name, myWidget);

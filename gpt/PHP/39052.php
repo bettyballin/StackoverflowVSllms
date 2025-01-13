@@ -1,0 +1,1 @@
+$arr[0]["abc"] = "val1";\n$arr[0]["xyz"] = "val4";\n$arr[1]["abc"] = "val2";\n$arr[1]["xyz"] = "val5";\n$arr[2]["abc"] = "val3";\n$arr[2]["xyz"] = "val6";

@@ -1,1 +1,0 @@
-mysql_query("UPDATE foo SET flag=true WHERE id IN (".implode(', ',$list).")");

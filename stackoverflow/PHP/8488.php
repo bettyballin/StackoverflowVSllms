@@ -1,1 +1,0 @@
-$matches = array();\npreg_match("/^\**/", $string, $matches);\n$result =  strlen($matches[0]) ;

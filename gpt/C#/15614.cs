@@ -1,0 +1,1 @@
+public partial class uls_dbDataContext\n{\n    public List<office_location> GetOfficeLocations()\n    {\n        return office_locations.ToList();\n    }\n}

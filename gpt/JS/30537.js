@@ -1,0 +1,1 @@
+function loadContent() {\n    var xhr = new XMLHttpRequest();\n    xhr.open('GET', 'path_to_your_controller.php', true);\n    xhr.onreadystatechange = function () {\n        if (xhr.readyState == 4 && xhr.status == 200) {\n            document.getElementById('yourDivId').innerHTML = xhr.responseText;\n        }\n    };\n    xhr.send();\n}

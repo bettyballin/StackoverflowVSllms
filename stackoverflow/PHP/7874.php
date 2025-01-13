@@ -1,1 +1,0 @@
-// Reads through the $dir directory\n// traversing children, and returns all contents\n$dirIterator = new RecursiveDirectoryIterator($dir);\n\n// Flattens the recursive iterator into a single\n// dimension, so it doesn't need recursive loops\n$dirContents = new RecursiveIteratorIterator($dirIterator);

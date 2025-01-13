@@ -1,1 +1,0 @@
-SELECT EmpID\nFROM mytable t1\nJOIN mytable t2 ON t1.EmpID = t2.EmpID AND t2.DeptID = 2\nJOIN mytable t3 ON t2.EmpID = t3.EmpID AND t3.DeptID = 3\nWHERE DeptID = 1

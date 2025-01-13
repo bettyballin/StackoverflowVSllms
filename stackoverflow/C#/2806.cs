@@ -1,1 +1,0 @@
-[ServiceBehavior(AddressFilterMode = AddressFilterMode.Any)]

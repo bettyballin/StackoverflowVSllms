@@ -1,0 +1,1 @@
+curl -O https://beta.quicklisp.org/quicklisp.lisp\n   sbcl --load quicklisp.lisp\n   (quicklisp-quickstart:install)

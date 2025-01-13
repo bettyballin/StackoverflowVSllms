@@ -1,0 +1,1 @@
+protected void SomeEventHandler(object sender, EventArgs e)\n   {\n       var customer = // Get the customer entity\n\n       ExecuteWithPermissionCheck(Permission.Read, () => ViewCustomer(customer), customer);\n   }

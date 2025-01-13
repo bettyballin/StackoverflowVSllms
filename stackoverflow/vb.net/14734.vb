@@ -1,1 +1,0 @@
-Private Sub AdjustControlProperties(oControl as MyUserControl)\n...\nEnd Sub

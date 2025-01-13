@@ -1,0 +1,1 @@
+[ServiceContract]\npublic interface IGreeter\n{\n    [OperationContract]\n    [WebGet(UriTemplate = "")]\n    string Greet();\n}

@@ -1,1 +1,0 @@
-Dictionary<YourClass, int>

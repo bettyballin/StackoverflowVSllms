@@ -1,0 +1,1 @@
+sudo xcode-select -switch /Developer/Platforms/MacOSX.platform/Developer

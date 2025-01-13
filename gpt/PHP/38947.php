@@ -1,0 +1,1 @@
+$xmlData = '<root><key1>value1</key1><key2>value2</key2></root>';\n$xmlObject = simplexml_load_string($xmlData);\n$json = json_encode($xmlObject);\n$array = json_decode($json, true);\n\nprint_r($array);

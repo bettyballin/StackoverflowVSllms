@@ -1,0 +1,1 @@
+DECLARE @floatValue FLOAT = 123456789.01234;\nSELECT FORMAT(@floatValue, 'N5') AS formatted_value;

@@ -1,0 +1,1 @@
+# Creating a note for a customer\ncustomer = Customer.find(1)\ncustomer.notes.create(content: "Customer note content")\n\n# Creating a note for a job\njob = Job.find(1)\njob.notes.create(content: "Job note content")

@@ -1,0 +1,1 @@
+DECLARE @NTGroupName NVARCHAR(100) = 'YourNTGroupName'\nDECLARE @SchemaName NVARCHAR(100) = 'dbo'\nDECLARE @SQL NVARCHAR(MAX)\n\nSELECT @SQL = COALESCE(@SQL + '; ', '') + \n              'GRANT EXECUTE ON [' + @SchemaName + '].[' + name + '] TO [' + @NTGroupName + ']'\nFROM sysobjects\nWHERE xtype = 'P' AND \n      uid = SCHEMA_ID(@SchemaName)\n\nEXEC sp_executesql @SQL

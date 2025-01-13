@@ -1,0 +1,1 @@
+using System.ComponentModel.DataAnnotations;\n\npublic class LoginViewModel\n{\n    [Required(ErrorMessage = "Email address is required")]\n    [EmailAddress(ErrorMessage = "Invalid email address")]\n    public string EmailAddress { get; set; }\n}

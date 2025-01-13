@@ -1,1 +1,0 @@
-select table_name from user_constraints\nwhere r_constraint_name in\n  (select constraint_name \n     from user_constraints\n     where constraint_type in ('P','U')\n     and table_name = upper('&tableOfInterest')\n  ) 

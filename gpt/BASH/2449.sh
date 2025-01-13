@@ -1,0 +1,1 @@
+# Sample shell command to check available memory and CPU on a Linux server\nfree -h\nlscpu

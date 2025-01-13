@@ -1,0 +1,1 @@
+Dim num As Integer = &H100ABC       'Hex\nDim num2 As Integer = &O123765      'Octal\n\nDim myFantasy As Integer = Convert.ToInt32("1000", 2)  ' Binary\nDim myReality As Integer = 2 ^ 3    ' Equivalent to binary 1000

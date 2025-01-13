@@ -1,0 +1,1 @@
+// Ensure the filename is sanitized and safe\n$safe_filename = basename($_GET['filename']);\n$filePath = "/the/file/path/{$safe_filename}";\noutputFile($filePath, $safe_filename);

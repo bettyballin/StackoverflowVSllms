@@ -1,0 +1,1 @@
+/* Apply styles to direct child tables of a specific container */\n.container > table {\n    border: dashed 1px #333333;\n    padding: 2px;\n}\n\n/* No styles for nested tables */\n.container > table > table {\n    border: none;\n    padding: 0;\n}

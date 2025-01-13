@@ -1,0 +1,1 @@
+CREATE TABLE ReportFiles (\n    ReportID INT PRIMARY KEY IDENTITY,\n    ReportName NVARCHAR(255),\n    ReportData VARBINARY(MAX),\n    CreatedDate DATETIME DEFAULT GETDATE(),\n    ModifiedDate DATETIME DEFAULT GETDATE()\n);

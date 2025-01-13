@@ -1,0 +1,1 @@
+<?php\n// Original string in Russian encoded in Windows-1251\n$russian_string = "Пример текста на русском";\n\n// Convert the string from Windows-1251 to UTF-8\n$utf8_string = mb_convert_encoding($russian_string, 'UTF-8', 'Windows-1251');\n\necho $utf8_string;\n?>

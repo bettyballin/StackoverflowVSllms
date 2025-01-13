@@ -1,0 +1,1 @@
+switch (obfuscatedCondition) {\n        case 1:\n            // do something\n            break;\n        case 2:\n            // do something else\n            break;\n    }

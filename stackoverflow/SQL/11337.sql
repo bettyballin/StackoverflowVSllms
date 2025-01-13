@@ -1,1 +1,0 @@
-SELECT SQL_CALC_FOUND_ROWS t3.id, a,bunch,of,other,stuff FROM t1, t2, t3 \nWHERE (associate t1,t2, and t3 with each other) \nGROUP BY t3.id \nLIMIT 10,20

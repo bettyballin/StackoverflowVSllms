@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.fn_find_root(@id INT)\nRETURNS TABLE\nAS\nRETURN (\n    SELECT result AS created_in_variant\n    FROM (\n        -- Your logic to calculate created_in_variant based on @id\n        -- Replace this with the actual logic of find_root stored procedure\n        SELECT @id AS result\n    ) AS derived\n);

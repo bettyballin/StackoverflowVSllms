@@ -1,0 +1,1 @@
+<%= select_tag(:editlevel, options_from_collection_for_select(Level.all, :id, :name), id: 'editlevel_select') %>\n\n<%= select_tag(:lques, {}, { size: 10, style: "width:200px", id: 'lques_select' }) %>

@@ -1,0 +1,1 @@
+std::vector<int> copyVecFast1(const std::vector<int>& original)\n   {\n     std::vector<int> newVec;\n     newVec.reserve(original.size());\n     std::copy(original.begin(), original.end(), std::back_inserter(newVec));\n     return newVec;\n   }

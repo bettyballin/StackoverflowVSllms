@@ -1,0 +1,1 @@
+# app.rb\nrequire 'sinatra'\nrequire 'sinatra/activerecord'\nrequire './models/user' # Example model\n\nset :database_file, 'config/database.yml'\n\nget '/' do\n  @users = User.all\n  erb :index\nend

@@ -1,1 +1,0 @@
-$query = "SELECT DATE(date) as mydate, id FROM your_data_table ORDER BY mydate, id";\n$result = $pdo->query($query);\n\n$oldDate = false;\nwhile ( list($date, $id) = $result->fetch(PDO::FETCH_NUM) ) {\n    if ( $oldDate != $date ) {\n        echo "$date\n$id\n";\n        $oldDate = $date;\n    } else {\n        echo "$id\n";\n    }\n}

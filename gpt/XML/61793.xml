@@ -1,0 +1,1 @@
+<dependencies>\n    <dependency>\n        <groupId>org.seleniumhq.selenium</groupId>\n        <artifactId>selenium-java</artifactId>\n        <version>4.0.0</version>\n    </dependency>\n    <dependency>\n        <groupId>org.seleniumhq.selenium</groupId>\n        <artifactId>selenium-chrome-driver</artifactId>\n        <version>4.0.0</version>\n    </dependency>\n</dependencies>

@@ -1,0 +1,1 @@
+gcc myProgram.c -o myProgram

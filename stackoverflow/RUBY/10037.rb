@@ -1,1 +1,0 @@
-Given I am logged in as "auser@example.com"\n\nGiven /^I am logged in as "(.*)"$/ do |email|\n  @user = Factory(:user, :email => email)\n  @user.activate!\n  visit("/session/new")\n  fill_in("email", :with => @user.email)\n  fill_in("password", :with => @user.password)\n  click_button("Sign In")\nend

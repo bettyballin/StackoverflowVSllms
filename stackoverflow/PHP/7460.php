@@ -1,1 +1,0 @@
-<?php\necho "Php max int: ".PHP_INT_MAX."\n";\necho "The Val: ".(-1580033017 + -2072974554)."\n";\necho "Intval of the val: ".intval(-3653007571)."\n";\necho "And 0xffffffff of the val: ".(-3653007571 & 0xffffffff)."\n";\n?>

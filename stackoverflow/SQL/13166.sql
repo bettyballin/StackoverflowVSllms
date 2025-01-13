@@ -1,1 +1,0 @@
-SELECT A.*\nFROM Author A LEFT JOIN AuthorOfTitle T ON A.AID = T.AID\nWHERE T.ID IS NULL

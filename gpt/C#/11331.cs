@@ -1,0 +1,1 @@
+public Point ConvertToPoint(PointSurrogate surrogate)\n{\n    return new Point(surrogate.X, surrogate.Y);\n}

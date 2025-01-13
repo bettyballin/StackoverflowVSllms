@@ -1,0 +1,1 @@
+using System;\nusing System.Diagnostics;\n\npublic class Example\n{\n    public static void Main()\n    {\n        using (Process process = new Process())\n        {\n            process.StartInfo.FileName = "example.exe";\n            process.Start();\n\n            // Wait for the process to exit if needed\n            process.WaitForExit();\n        }\n    }\n}

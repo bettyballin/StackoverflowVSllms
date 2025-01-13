@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <security>\n      <authorization>\n        <remove users="*" roles="" verbs="" />\n        <add accessType="Allow" users="UserMappedToBigClientX" />\n      </authorization>\n    </security>\n  </system.webServer>\n</configuration>

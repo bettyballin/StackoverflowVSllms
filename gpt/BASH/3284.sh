@@ -1,0 +1,1 @@
+cp -r /path/to/nexus-data/etc /path/to/backup-location/etc

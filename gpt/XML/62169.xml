@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <handlers>\n      <add name="TestHandler" path="testhandler/*" verb="*" type="HandlerLib.testhandler, HandlerLib" resourceType="Unspecified" />\n    </handlers>\n  </system.webServer>\n</configuration>

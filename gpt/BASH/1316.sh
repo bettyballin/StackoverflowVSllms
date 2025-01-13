@@ -1,0 +1,1 @@
+CC=m68k-amigaos-gcc\nCFLAGS=-noixemul -O2\nLDFLAGS=-lauto -lamiga\n\nSRCS=myapp.c\nOBJS=$(SRCS:.c=.o)\nTARGET=myapp\n\nall: $(TARGET)\n\n$(TARGET): $(OBJS)\n	$(CC) $(CFLAGS) -o $(TARGET) $(OBJS) $(LDFLAGS)\n\n%.o: %.c\n	$(CC) $(CFLAGS) -c $< -o $@\n\nclean:\n	rm -f $(OBJS) $(TARGET)

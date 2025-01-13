@@ -1,0 +1,1 @@
+$normal_array = array();\n$array_of_arrayrefs = array(&$normal_array);\n\n// Using a reference variable to access the last element as a reference\n$ref = &$array_of_arrayrefs[count($array_of_arrayrefs) - 1];\n$ref["one"] = 1;\n\nprint $normal_array["one"]; // should output 1

@@ -1,0 +1,1 @@
+ps -o pgid= -p <PID>

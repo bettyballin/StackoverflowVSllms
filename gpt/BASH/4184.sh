@@ -1,0 +1,1 @@
+@echo off\nREM This script initializes the SAS environment and then opens the dataset\n\nREM Step 1: Run the autoexec.sas to set the environment\nsas -sysin "path\to\your\autoexec.sas"\n\nREM Step 2: Open the dataset in SAS after the environment is set\nREM Replace "path\to\your\dataset.sas7bdat" with the actual path to your dataset\nsas -sysin "path\to\your\open_dataset.sas"

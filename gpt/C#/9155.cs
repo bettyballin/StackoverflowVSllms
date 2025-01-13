@@ -1,0 +1,1 @@
+using (SqlCommand searchResult = new SqlCommand(\n    "SELECT ItemID, Name, RelDate, Price, Status " +\n    "FROM item_k " +\n    "WHERE itemID IN (SELECT Value FROM dbo.SplitStringToInt(@itemIDs, ','))", \n    searchCon))\n{\n    searchResult.Parameters.AddWithValue("@itemIDs", itemIDs);\n    // Execute your query as needed\n}

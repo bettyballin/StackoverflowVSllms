@@ -1,0 +1,1 @@
+# Instead of using a multiline lambda\n# which is not allowed in Python\n\n# Define a named function\ndef example_function(x):\n    if x > 10:\n        return x * 2\n    else:\n        return x + 2\n\n# Use the named function\nresult = example_function(15)\nprint(result)  # Output: 30

@@ -1,1 +1,0 @@
-Dim A(0) as Int32\nA(0) = 1\nTasks.Task.Create(AddressOf TransferData, A)

@@ -1,1 +1,0 @@
-Dim str1 As String = "String one"\nDim str2 As String = str1\nDim str3 As String = "String three"\nDim str4 As String = str3\n\nIf String.Compare(str1, str2) = 0 And String.Compare(str3, str4) = 0 Then\n    MessageBox.Show("str1 = str2 And str3 = str4")\nElse\n    MessageBox.Show("Else")\nEnd If

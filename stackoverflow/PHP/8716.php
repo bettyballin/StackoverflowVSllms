@@ -1,1 +1,0 @@
-Global $some_external_var;

@@ -1,0 +1,1 @@
+# Create a new cgroup\nsudo cgcreate -g cpu:/my_cgroup\n\n# Add your process to the cgroup\nsudo cgclassify -g cpu:/my_cgroup <PID>

@@ -1,0 +1,1 @@
+using System.ComponentModel.DataAnnotations;\n\npublic interface IMyInterface\n{\n    string Name { get; set; }\n}\n\npublic class MyClass : IMyInterface\n{\n    [Required]\n    [StringLength(100, MinimumLength = 5)]\n    public string Name { get; set; }\n}

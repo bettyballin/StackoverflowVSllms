@@ -1,0 +1,1 @@
+/* Example IE-specific fixes */\n     .tcat {\n         background: #333333 url('http://www.teamdelta.byethost12.com/barbg.jpg') repeat-x top left !important;\n         /* Adding !important to override other styles */\n     }

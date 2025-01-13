@@ -1,1 +1,0 @@
-foreach(Banana b in fruits.OfType<Banana>())

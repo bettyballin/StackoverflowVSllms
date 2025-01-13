@@ -1,0 +1,1 @@
+<?php\nforeach ($_POST as $key => $value) {\n    // Sanitize the input to prevent XSS attacks\n    $clean_key = htmlspecialchars($key, ENT_QUOTES, 'UTF-8');\n    $clean_value = htmlspecialchars($value, ENT_QUOTES, 'UTF-8');\n\n    // You can now use $clean_key and $clean_value as needed\n    echo "Key: $clean_key; Value: $clean_value<br>";\n}\n?>

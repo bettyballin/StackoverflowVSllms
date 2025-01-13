@@ -1,0 +1,1 @@
+' Assuming you have a form named 'myForm'\nDim myFormHandle As IntPtr = myForm.Handle

@@ -1,1 +1,0 @@
-If TypeName(foobar) = "CommandButton" Then\n   DoSomething\nEnd If

@@ -1,0 +1,1 @@
+# Check Apache error logs\nsudo tail -f /var/log/httpd/error_log\n\n# Check Nginx error logs (if applicable)\nsudo tail -f /var/log/nginx/error.log\n\n# Check mail logs\nsudo tail -f /var/log/maillog

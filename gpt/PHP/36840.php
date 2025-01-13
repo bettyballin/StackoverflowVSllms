@@ -1,0 +1,1 @@
+$imageID = 1; // Example image ID\n$stmt = $conn->prepare("SELECT t.tag FROM tags t JOIN image_tags it ON t.id = it.tag_id WHERE it.image_id = :image_id");\n$stmt->execute([':image_id' => $imageID]);\n$tags = $stmt->fetchAll(PDO::FETCH_COLUMN);\n\nprint_r($tags);

@@ -1,0 +1,1 @@
+require 'DataModel.php';\nrequire 'DataController.php';\n\n$model = new DataModel();\n$controller = new DataController($model);\n$controller->loadView();

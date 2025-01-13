@@ -1,0 +1,1 @@
+If Array.IndexOf(selectedUsersRoles, RoleCheckBox.Text) >= 0 Then\n    RoleCheckBox.Checked = True\nElse\n    RoleCheckBox.Checked = False\nEnd If

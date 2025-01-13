@@ -1,1 +1,0 @@
-Dim dec As Decimal = 1.25D\ndec.ToString(System.Globalization.CultureInfo.InvariantCulture);\n//writes 1.25

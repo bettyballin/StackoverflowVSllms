@@ -1,0 +1,1 @@
+md5deep find * | sed '/Is a directory/d'

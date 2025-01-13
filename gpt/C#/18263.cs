@@ -1,0 +1,1 @@
+[HandleHttpRequestValidationException]\npublic ActionResult YourAction()\n{\n    // Your action logic here\n}

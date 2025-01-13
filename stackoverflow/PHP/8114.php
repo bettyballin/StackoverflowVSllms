@@ -1,1 +1,0 @@
-class pushNotifications {\n...\n     private $sslPem = 'cert.pem';\n...\n     function connectToAPNS(){\n          $streamContext = stream_context_create();\n          stream_context_set_option($streamContext, 'ssl', 'local_cert', dirname(__FILE__) . '/' . $this->sslPem);

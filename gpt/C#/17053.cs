@@ -1,0 +1,1 @@
+IEnumerable<T> Filter<T>(Func<T, bool> predicate, IEnumerable<T> source) {\n    return source.Aggregate(\n        Enumerable.Empty<T>(),\n        (acc, x) => predicate(x) ? acc.Append(x) : acc\n    );\n}

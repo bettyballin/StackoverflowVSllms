@@ -1,1 +1,0 @@
-SELECT CAST (s || ' seconds' AS INTERVAL) + TIMESTAMP 'now'\nFROM generate_series(0, -60, -5) s

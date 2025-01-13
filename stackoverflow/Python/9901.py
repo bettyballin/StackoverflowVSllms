@@ -1,1 +1,0 @@
-mylist.sort(key=lambda d: (d['weight'], d['factor']))

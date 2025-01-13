@@ -1,0 +1,1 @@
+class PdfParserController < ApplicationController\n  def create\n    user_id = params[:user_id]\n    # Now you have the user_id and can identify the user\n    # Process other form fields as needed\n    # Save to database or perform other actions\n\n    render json: { status: 'success' }\n  end\nend

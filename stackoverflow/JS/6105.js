@@ -1,1 +1,0 @@
-document.getElementById(comment_id).getElementsByTagName('textarea')[0].focus();

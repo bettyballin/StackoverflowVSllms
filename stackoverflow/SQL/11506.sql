@@ -1,1 +1,0 @@
-SELECT\n     T1.prodid,\n     T1.issue\nFROM\n     Sales T1\nLEFT OUTER JOIN dbo.Sales T2 ON\n     T2.custid = T1.custid AND\n     T2.prodid = T1.prodid AND\n     T2.datesold > T1.datesold\nWHERE\n     T1.custid = @custid AND\n     T2.custid IS NULL

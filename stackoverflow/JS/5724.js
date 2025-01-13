@@ -1,1 +1,0 @@
-$(function() {\n        var $frame = $('<iframe style="width:200px; height:100px; border: 0px;">');\n        $('body').html( $frame );\n        setTimeout( function() {\n                var doc = $frame[0].contentWindow.document;\n                var $body = $('body',doc);\n                $body.html(your_html);\n        }, 1 );\n});

@@ -1,0 +1,1 @@
+-- Example of dropping a clustered primary key\nALTER TABLE YourTable\nDROP CONSTRAINT YourPrimaryKey;\n\n-- Post drop, the table becomes a heap\n-- Data is now stored unordered, and non-clustered indexes use RIDs

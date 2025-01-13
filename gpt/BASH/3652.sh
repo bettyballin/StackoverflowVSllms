@@ -1,0 +1,1 @@
+openssl genpkey -algorithm RSA -out client-key.pem\n    openssl req -new -key client-key.pem -out client-req.pem -subj "/C=US/ST=State/L=City/O=Organization/OU=OrgUnit/CN=client.example.com"\n    openssl x509 -req -in client-req.pem -CA ca-cert.pem -CAkey ca-key.pem -CAcreateserial -out client-cert.pem -days 365 -sha256

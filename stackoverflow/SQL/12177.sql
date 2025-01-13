@@ -1,1 +1,0 @@
-SELECT b FROM y where a=if(@value IN (select a from y group by a),@value,0);

@@ -1,0 +1,1 @@
+$search = 'hello "this is literal" and "another phrase" here';\n$pattern = '/"([^"]*)"/';\n\n$regex = preg_match_all($pattern, $search, $matches);\n\nprint_r($matches[1]);

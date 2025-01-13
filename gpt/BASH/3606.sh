@@ -1,0 +1,1 @@
+# Example for iptables\n   iptables -A INPUT -p tcp --dport 10000 -j ACCEPT\n   iptables -A INPUT -p tcp --dport 1025:9999 -j ACCEPT\n   service iptables save\n   service iptables restart

@@ -1,0 +1,1 @@
+<?php\n    session_start();\n    \n    $response = array(\n        'status' => 'abc',\n        'a' => 'abc',\n        'b' => 'abc',\n        'c' => 'abc'\n    );\n\n    header('Content-Type: application/json');\n    echo json_encode($response);\n    exit;\n?>

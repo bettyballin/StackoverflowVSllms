@@ -1,1 +1,0 @@
-declare @v varchar(50),@v2 char(50)\nselect @v ='a',@v2 = 'a'\n\nselect datalength(@v),datalength(@v2)

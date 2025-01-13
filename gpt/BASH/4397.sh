@@ -1,0 +1,1 @@
+sc create "ServiceName" binPath= "C:\Path\To\ExeName.exe /service" start= auto

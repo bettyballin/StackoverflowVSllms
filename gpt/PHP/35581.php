@@ -1,0 +1,1 @@
+// page1.php\nsession_start();\n$_SESSION['formData'] = $_POST['formData']; // assuming formData is the name of your form input

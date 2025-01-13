@@ -1,0 +1,1 @@
+TreeNode selectedNode = tvTreeView.SelectedNode;\nif (selectedNode != null && selectedNode.Parent != null)\n{\n    TreeNode firstSibling = selectedNode.Parent.FirstNode;\n    if (firstSibling != null && firstSibling.Index == 0)\n    {\n        // Your logic here\n    }\n}

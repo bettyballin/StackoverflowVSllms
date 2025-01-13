@@ -1,0 +1,1 @@
+class Bootstrap extends Zend_Application_Bootstrap_Bootstrap\n{\n    protected function _initViewHelpers()\n    {\n        $view = new Zend_View();\n        $view->addHelperPath('application/views/helpers', 'Zend_View_Helper');\n        $viewRenderer = Zend_Controller_Action_HelperBroker::getStaticHelper('ViewRenderer');\n        $viewRenderer->setView($view);\n    }\n}

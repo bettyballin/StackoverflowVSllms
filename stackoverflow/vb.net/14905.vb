@@ -1,1 +1,0 @@
-If val1 = valN AndAlso val2 = valN AndAlso ... Then\nEnd If

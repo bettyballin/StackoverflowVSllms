@@ -1,1 +1,0 @@
-find . -type f -wholename \*.mbox | sed 's/\(.*\)\.mbox/mv "\1.mbox" "\1"/' | sh

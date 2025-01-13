@@ -1,0 +1,1 @@
+#!/usr/sbin/dtrace -s\n\nsched:::on-cpu\n{\n    self->ts = timestamp;\n}\n\nsched:::off-cpu\n/self->ts/\n{\n    @[execname] = sum(timestamp - self->ts);\n    self->ts = 0;\n}\n\ntick-1sec\n{\n    printa(@);\n    trunc(@);\n}

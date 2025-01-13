@@ -1,0 +1,1 @@
+WITH RankedData AS (\n    SELECT\n        id,\n        RANK() OVER (ORDER BY points DESC, name ASC) AS rank,\n        name\n    FROM\n        rankings\n)\nSELECT\n    id,\n    rank,\n    name\nFROM\n    RankedData\nWHERE\n    rank BETWEEN 2 AND 5\nORDER BY\n    rank, id;

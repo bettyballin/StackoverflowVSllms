@@ -1,1 +1,0 @@
-<?php\n$file = "http://www.domain.com/thisisthefileiwant.zip";\n$hostfile = fopen($file, 'r');\n$fh = fopen("thisisthenameofthefileiwantafterdownloading.zip", 'w');\n\nwhile (!feof($hostfile)) {\n    $output = fread($hostfile, 8192);\n    fwrite($fh, $output);\n}\n\nfclose($hostfile);\nfclose($fh);\n?>

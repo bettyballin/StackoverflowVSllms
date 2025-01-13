@@ -1,1 +1,0 @@
-select *\nfrom user u\nleft join key k on u.userid = k.userid\nleft join laptop l on l.userid = u.userid

@@ -1,1 +1,0 @@
-WITH X (ProductId, CategoryId) AS (\n    SELECT ProductId, CategoryId FROM #ProductCategory\n    UNION ALL\n    SELECT X.ProductId, C.ParentCategoryId FROM X\n    INNER JOIN #Category C ON X.CategoryId = C.CategoryId\n)\nSELECT ProductId, CategoryId FROM X ORDER BY CategoryId, ProductId

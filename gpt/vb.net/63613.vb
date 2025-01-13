@@ -1,0 +1,1 @@
+' Visual Basic\nPublic Sub SetMyProperty(ByVal value as String)\n    m_myField = value\nEnd Sub

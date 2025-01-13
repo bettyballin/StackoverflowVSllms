@@ -1,0 +1,1 @@
+#include "IsolatedFunction.h"\n\nextern "C" MYDLL_API int IsolatedFunction(int someParam) {\n    return someParam * 2; // Example implementation\n}

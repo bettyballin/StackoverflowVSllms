@@ -1,0 +1,1 @@
+GRANT db_ddladmin TO bhk;\n-- Or if you prefer minimal permissions:\nGRANT ALTER ON #Table1 TO bhk;

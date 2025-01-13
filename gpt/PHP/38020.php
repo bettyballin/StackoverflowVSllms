@@ -1,0 +1,1 @@
+<?php\n$cpulimit_command = "cpulimit -p $pg_pid -l 50"; // Example to limit CPU usage to 50%\nexec($cpulimit_command);\n?>

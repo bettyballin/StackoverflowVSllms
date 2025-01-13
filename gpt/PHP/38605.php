@@ -1,0 +1,1 @@
+$str = "";\n   for ($i = 0; $i < 1000; $i++) {\n       $str .= "some string ";\n   }

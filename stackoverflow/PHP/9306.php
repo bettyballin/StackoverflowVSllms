@@ -1,1 +1,0 @@
-if ($_SERVER['HTTP_X_FORWARDED_FOR']){\n    $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];\n} \nelse{ \n    $ip = $_SERVER['REMOTE_ADDR'];\n}

@@ -1,0 +1,1 @@
+WITH table1 AS (\n    SELECT field1, field2\n    FROM some_table\n),\ntable2 AS (\n    SELECT table1.field1, other_table.field3\n    FROM other_table\n    JOIN table1 ON other_table.some_field = table1.some_field\n)\nSELECT ...\nFROM table2\nWHERE ...;

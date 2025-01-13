@@ -1,0 +1,1 @@
+import resource\n\n# Disable core dumps\nresource.setrlimit(resource.RLIMIT_CORE, (0, 0))

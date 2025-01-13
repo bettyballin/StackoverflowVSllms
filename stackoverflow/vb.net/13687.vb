@@ -1,1 +1,0 @@
-cn = New OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\emp.mdb;")\ncn.Open()\nstr = "insert into table1 values(21,'ABC001')"\ncmd = New OleDbCommand(str, cn)\ncmd.ExecuteNonQuery

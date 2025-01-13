@@ -1,0 +1,1 @@
+#include <objbase.h>\n\nHRESULT hr = CoInitializeEx(NULL, COINIT_SPEED_OVER_MEMORY);\nif (SUCCEEDED(hr)) {\n    // COM library initialized with speed over memory preference\n    // Your code here\n    \n    // When done, uninitialize COM library\n    CoUninitialize();\n} else {\n    // Handle the error\n}

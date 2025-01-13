@@ -1,1 +1,0 @@
-from glob import iglob\nimport shutil\nimport os\n\nPATH = r'C:\music'\n\ndestination = open('everything.mp3', 'wb')\nfor filename in iglob(os.path.join(PATH, '*.mp3')):\n    shutil.copyfileobj(open(filename, 'rb'), destination)\ndestination.close()

@@ -1,1 +1,0 @@
-DECLARE\n  CURSOR c1 (job VARCHAR2, max_wage NUMBER) IS\n    SELECT * FROM employees WHERE job_id = job AND salary > max_wage;\nBEGIN\n  FOR person IN c1('CLERK', 3000)\n  LOOP\n     -- process data record\n    DBMS_OUTPUT.PUT_LINE('Name = ' || person.last_name || ', salary = ' ||\n                         person.salary || ', Job Id = ' || person.job_id );\n  END LOOP;\nEND;

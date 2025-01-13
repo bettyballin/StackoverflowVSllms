@@ -1,0 +1,1 @@
+svn add path/to/your/sql/files/*\nsvn commit -m "Added stored procedures"

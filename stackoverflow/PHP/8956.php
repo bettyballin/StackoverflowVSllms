@@ -1,1 +1,0 @@
-<a href="house.php?id=<?php echo $house_id;?>">\n  <?php echo $house_name;?>\n</a>

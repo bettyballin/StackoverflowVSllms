@@ -1,1 +1,0 @@
-SELECT T1.* \nFROM\n(SELECT TOP X Id, Title, Comments, CreatedDate\nFROM MyTable\nWHERE CreatedDate > @OlderThanDate\nORDER BY CreatedDate) T1\nORDER BY CreatedDate DESC

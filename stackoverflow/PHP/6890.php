@@ -1,1 +1,0 @@
-$output = file_get_contents('http://www.something.com/myOwnScript.php');\n\necho '<pre>';\nprint_r($output);\necho '</pre>';

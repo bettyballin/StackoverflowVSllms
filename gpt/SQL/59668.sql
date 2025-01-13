@@ -1,0 +1,1 @@
+-- Enable SQL trace for your session\nALTER SESSION SET sql_trace = TRUE;\n\n-- Execute your query or application code\n\n-- Disable SQL trace\nALTER SESSION SET sql_trace = FALSE;

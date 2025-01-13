@@ -1,0 +1,1 @@
+USE CMSNET_DEV;\nGO\nCREATE USER [ReadUser] FOR LOGIN [ReadUser];\nGO\n\nUSE Mattercentre_dev;\nGO\nCREATE USER [ReadUser] FOR LOGIN [ReadUser];\nGO

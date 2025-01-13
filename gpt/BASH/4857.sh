@@ -1,0 +1,1 @@
+if [ -v mystr ] && [ -n "$mystr" ]; then\n  echo "The variable 'mystr' is defined and not empty."\nelse\n  echo "The variable 'mystr' is either not defined or empty."\nfi

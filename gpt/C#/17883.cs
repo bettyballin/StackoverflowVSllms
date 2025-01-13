@@ -1,0 +1,1 @@
+public class UserViewModel\n{\n    public string Username { get; set; }\n    public bool IsAuthenticated { get; set; }\n}

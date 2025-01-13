@@ -1,1 +1,0 @@
->>> import os.path\n >>> os.path.exists("/proc/0")\n False\n >>> os.path.exists("/proc/12")\n True

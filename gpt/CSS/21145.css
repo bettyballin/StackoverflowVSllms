@@ -1,0 +1,1 @@
+/* CSS Example */\n.resizable-box {\n  width: 200px;\n  height: 150px;\n  background-color: lightblue;\n  resize: both;\n  overflow: auto;\n}

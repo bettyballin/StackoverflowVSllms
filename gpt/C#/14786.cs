@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    UsernameLabel.AssociatedControlID = UsernameTextBox.ID;\n    UsernameLabel.Text = "Username:";\n}

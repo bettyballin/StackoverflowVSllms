@@ -1,0 +1,1 @@
+void PrintObject(object obj) {\n        Console.WriteLine(obj);\n    }\n    \n    int number = 123;\n    PrintObject(number);  // Boxing occurs here

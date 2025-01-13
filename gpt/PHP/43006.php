@@ -1,0 +1,1 @@
+<?php\n$text = "<a href='test'>Test</a>";\necho htmlspecialchars($text, ENT_QUOTES, 'UTF-8');\n// Output: &lt;a href=&#039;test&#039;&gt;Test&lt;/a&gt;\n?>

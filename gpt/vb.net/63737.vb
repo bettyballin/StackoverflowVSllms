@@ -1,0 +1,1 @@
+Public Class MyVBClass\n    Implements IMyInterface\n\n    Public Sub MyMethod() Implements IMyInterface.MyMethod\n        ' Implementation\n    End Sub\nEnd Class

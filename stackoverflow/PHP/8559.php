@@ -1,1 +1,0 @@
-$vars = array( "fname" => "Jonathan", "lname" => "Sampson" );\n$snoopy = new Snoopy();\n\n$snoopy->httpmethod = "GET"; // is GET by default\n$snoopy->submit( "http://www.example.com", $vars );\nprint $snoopy->results;

@@ -1,0 +1,1 @@
+$memcache = new Memcache();\n$memcache->connect('127.0.0.1', 11211);\n$stats = $memcache->getStats();\n\n// Memory usage information\necho "Total memory: " . $stats['limit_maxbytes'] . " bytes\n";\necho "Memory used: " . $stats['bytes'] . " bytes\n";

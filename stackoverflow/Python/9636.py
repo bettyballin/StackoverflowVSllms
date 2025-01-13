@@ -1,1 +1,0 @@
-x = getattr(self, source)

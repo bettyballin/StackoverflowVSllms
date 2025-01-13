@@ -1,1 +1,0 @@
-var param = new object[] {"some parameter"};\nHtmlPage.Window.Invoke("myfunc",param);

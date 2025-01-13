@@ -1,1 +1,0 @@
-Dim time As String() = Me.DropDownList1.SelectedValue.Split(New Char() {":", " "})\nDim hours As Integer = Integer.Parse(time(0))\nDim minutes As Integer = Integer.Parse(time(1))\nDim ampm As Integer = 12\nIf time(2).ToLower() = "am" Then\n  ampm = 0\nEnd If\nDim dt As DateTime = DateTime.Today.AddHours(hours + ampm).AddMinutes(minutes)

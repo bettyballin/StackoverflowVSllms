@@ -1,0 +1,1 @@
+<?php\nclass Registry {\n    public $helper;\n\n    public function __construct() {\n        $this->helper = new Helper();\n    }\n}\n?>

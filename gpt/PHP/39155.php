@@ -1,0 +1,1 @@
+// application/controllers/Welcome.php\nclass Welcome extends CI_Controller {\n\n    public function index() {\n        $this->load->view('welcome_message');\n    }\n}\n\n// application/views/welcome_message.php\n<html>\n<head>\n    <title>Welcome to CodeIgniter</title>\n</head>\n<body>\n    <h1>Hello, World!</h1>\n</body>\n</html>

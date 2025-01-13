@@ -1,0 +1,1 @@
+// Upload XML document through the eXist-db dashboard or use the REST API\n   curl -u admin:password -X PUT -T /path/to/your/document.xml http://localhost:8080/exist/rest/db/mycollection/document.xml

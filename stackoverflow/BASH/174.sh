@@ -1,1 +1,0 @@
-mage.exe \n\n-update >>path to your application manifest in the virtual directory<<\n\n-providerurl >>location of application manifest virtual directory<< \n\n-certfile Clickoncekey.pfx -password >>your password<<

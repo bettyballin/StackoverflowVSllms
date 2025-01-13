@@ -1,1 +1,0 @@
-CREATE VIEW form_defaults\nAS\nSELECT FormID\nFROM whatever\nWHERE isDefault = 1\nGO\nCREATE UNIQUE CLUSTERED INDEX ix_form_defaults on form_defaults (FormID)\nGO

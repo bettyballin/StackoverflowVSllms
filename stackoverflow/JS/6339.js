@@ -1,1 +1,0 @@
-Object.prototype.doAjaxCall = function(url) {\n    var bind = function(context, method) {\n        return function() {\n            return method.apply(context, arguments);\n        };\n    };\n\n    $.get(url, null, bind(this, this.handleAjaxResponse));\n};

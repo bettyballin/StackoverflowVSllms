@@ -1,1 +1,0 @@
-function RemoveTableRow(row, id) {\n   $('#'+row).remove();\n   // id should be used for ajax call\n}

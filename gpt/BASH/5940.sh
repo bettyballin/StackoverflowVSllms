@@ -1,0 +1,1 @@
+wget -c http://something.com/path/to/file.data

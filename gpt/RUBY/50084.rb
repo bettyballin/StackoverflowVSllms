@@ -1,0 +1,1 @@
+module UsefulThings\n  def format_text(x)\n    # implementation\n  end\nend\n\nclass UsefulWorker\n  def do_work\n    formatter = Object.new.extend(UsefulThings)\n    formatter.format_text("abc")\n    # ...\n  end\nend

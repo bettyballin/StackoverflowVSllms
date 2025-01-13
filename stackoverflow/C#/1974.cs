@@ -1,1 +1,0 @@
-[OperationContract]\n[WebInvoke(Method = "PUT", UriTemplate = "/admin/post/{id}")]\nvoid UpdatePost(string id, Post post);

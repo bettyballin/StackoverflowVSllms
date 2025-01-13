@@ -1,1 +1,0 @@
-select ora_database_name from dual;\nselect sys_context('userenv','db_name') from dual;\nselect global_name from global_name;

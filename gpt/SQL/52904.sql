@@ -1,0 +1,1 @@
+DECLARE @imported BIT\n\nSELECT id, import_id, name \nFROM Foo \nWHERE (@imported = 1 AND import_id IS NOT NULL)\n   OR (@imported = 0 AND import_id IS NULL)

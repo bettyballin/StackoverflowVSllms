@@ -1,0 +1,1 @@
+#include <map>\n\n   class urllib {\n       // Class definition\n   };\n\n   static std::map<int, urllib> url_container;\n\n   extern "C" __declspec(dllexport) void add_url(int ucid) {\n       url_container[ucid] = urllib();\n   }

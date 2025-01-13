@@ -1,1 +1,0 @@
-SELECT region, name, population\n  FROM bbc x\n WHERE population >= ALL\n    (SELECT population\n       FROM bbc y\n      WHERE y.region = x.region\n        AND population IS NOT NULL)

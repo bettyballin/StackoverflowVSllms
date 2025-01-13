@@ -1,1 +1,0 @@
-select * from table where concat_ws(' ',first_name,last_name) \nlike '%$search_term%';

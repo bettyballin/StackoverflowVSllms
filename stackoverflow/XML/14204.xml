@@ -1,1 +1,0 @@
-<!-- divide somevalue by 1000 --> \n<xsl:value-of select="somevalue div 1000.0" />

@@ -1,0 +1,1 @@
+/usr/local/bin/python2.6 -c "import <module_name>"

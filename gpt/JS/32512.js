@@ -1,0 +1,1 @@
+// Example JavaScript for device fingerprinting\n   const deviceFingerprint = generateDeviceFingerprint();\n   sendFingerprintToServer(deviceFingerprint);

@@ -1,1 +1,0 @@
-players = Player.objects.filter(batting__gt=F('bowling'))

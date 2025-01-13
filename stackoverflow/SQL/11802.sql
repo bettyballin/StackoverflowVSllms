@@ -1,1 +1,0 @@
-update plantfunctiontable set decommissioned=1 where plantunitid  between 49 and 57

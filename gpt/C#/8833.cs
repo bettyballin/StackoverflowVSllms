@@ -1,0 +1,1 @@
+string userName = SPContext.Current.Web.CurrentUser.LoginName;\nstring displayName = SPContext.Current.Web.CurrentUser.Name;

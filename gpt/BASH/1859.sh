@@ -1,0 +1,1 @@
+ios-deploy --justlaunch --bundle ./build/YourApp.ipa

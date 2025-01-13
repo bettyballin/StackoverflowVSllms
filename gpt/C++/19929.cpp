@@ -1,0 +1,1 @@
+renderer->drawVertices(4, RenPrimTriangleFan, material, vpc);

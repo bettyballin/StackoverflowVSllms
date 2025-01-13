@@ -1,0 +1,1 @@
+# Example command to use Pandoc\n   pandoc -f docbook -t pdf -o output.pdf input.xml

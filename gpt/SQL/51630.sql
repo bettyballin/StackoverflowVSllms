@@ -1,0 +1,1 @@
+-- Check roles granted to the user\n   SELECT * FROM dba_role_privs WHERE grantee = 'YOUR_USER';\n   \n   -- Check privileges granted to the roles\n   SELECT * FROM role_tab_privs WHERE role IN (SELECT granted_role FROM dba_role_privs WHERE grantee = 'YOUR_USER');

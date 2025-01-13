@@ -1,0 +1,1 @@
+(gdb) break some_function\n(gdb) run your_script.php

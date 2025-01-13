@@ -1,0 +1,1 @@
+IEnumerable<MyObject> myEnumerable = // some IEnumerable<MyObject>;\nList<MyObject> myList = myEnumerable.ToList();

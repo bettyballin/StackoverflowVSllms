@@ -1,1 +1,0 @@
-if(mb_check_encoding($string, 'UTF-8'))\n{\n    // do something\n}

@@ -1,0 +1,1 @@
+BEGIN\n    UTL_MAIL.SEND(\n        sender => 'sender@example.com',\n        recipients => 'recipient@example.com',\n        subject => 'Test Mail',\n        message => 'This is a test email.'\n    );\nEND;\n/

@@ -1,1 +1,0 @@
-function disable(validatorId)\n{\n   var validator = document.getElementById(validatorId);\n   ValidatorEnable(validator, false);\n}

@@ -1,0 +1,1 @@
+// Store user information in session\nSession["LoginID"] = user.LoginID;\nSession["CompanyID"] = user.CompanyID;\nSession["IsLoggedIn"] = true;

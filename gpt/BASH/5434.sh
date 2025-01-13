@@ -1,0 +1,1 @@
+find /path/to/your/site -type f -name "*.html" -o -name "*.php" -exec tidy -modify -uppercase-attributes no -uppercase-tags no -wrap 0 {} +

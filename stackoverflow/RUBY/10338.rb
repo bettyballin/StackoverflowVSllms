@@ -1,1 +1,0 @@
-def field_with_error(object, method, &block)\n  if block_given?\n    if error_message_on(object, method).empty?\n      concat capture(&block)\n    else\n      concat '<span class="fieldWithErrors">' + capture(&block) + '</span>'\n    end\n  end\nend

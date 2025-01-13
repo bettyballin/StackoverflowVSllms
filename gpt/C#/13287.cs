@@ -1,0 +1,1 @@
+decimal difference1 = CalculateDifference(100, 25);     // Output: 75\ndecimal difference2 = CalculateDifference(100, -25);    // Output: 125\ndecimal difference3 = CalculateDifference(-100, -115);  // Output: 15\ndecimal difference4 = CalculateDifference(-500, 100);   // Output: 600

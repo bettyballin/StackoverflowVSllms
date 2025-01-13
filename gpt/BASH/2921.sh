@@ -1,0 +1,1 @@
+keytool -genkeypair -alias mykey -keyalg RSA -keysize 2048 -keystore mykeystore.p12 -storetype PKCS12 -storepass strongpassword -validity 365

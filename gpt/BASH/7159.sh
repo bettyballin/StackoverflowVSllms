@@ -1,0 +1,1 @@
+# Create a Docker container to run the PHP script\ndocker run --rm -v /path/to/user/scripts:/scripts -w /scripts php:7.4-cli php user_script.php

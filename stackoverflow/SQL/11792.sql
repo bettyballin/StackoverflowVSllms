@@ -1,1 +1,0 @@
-select s.id, s.classDate, s.instructor ,\ncount(distinct e.id) as enrolled,\ncount(distinct w.id) as waiting\nfrom schedule as s\nleft outer join enrolled as e\non s.id = e.scheduleID\nleft outer join waitlist as w\non s.id = w.scheduleID\ngroup by s.id

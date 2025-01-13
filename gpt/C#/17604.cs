@@ -1,0 +1,1 @@
+public DataSet ConvertToDataSet(List<MyObject> list)\n{\n    DataSet dataSet = new DataSet();\n    DataTable dataTable = ConvertToDataTable(list);\n    dataSet.Tables.Add(dataTable);\n    return dataSet;\n}

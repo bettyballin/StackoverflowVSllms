@@ -1,0 +1,1 @@
+SELECT DISTINCT B.tabname AS table_name\nFROM sysviews A\nJOIN systables B ON A.viewtext LIKE '%' || B.tabname || '%'\nWHERE A.tabname = 'your_view_name';

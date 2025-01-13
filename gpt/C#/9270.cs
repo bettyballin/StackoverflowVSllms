@@ -1,0 +1,1 @@
+ConnectionStringSettings cs = ConfigurationManager.ConnectionStrings["PrimaryConnectionString"];\nif (cs != null && !string.IsNullOrEmpty(cs.ConnectionString))\n{\n    this.Connection.ConnectionString = cs.ConnectionString;\n}

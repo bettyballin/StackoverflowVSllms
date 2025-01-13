@@ -1,0 +1,1 @@
+import tkinter as tk\n\n    def on_button_click():\n        lbl.config(text="Hello, World!")\n\n    root = tk.Tk()\n    root.title("Sample Application")\n\n    btn = tk.Button(root, text="Click Me", command=on_button_click)\n    btn.pack(pady=20)\n\n    lbl = tk.Label(root, text="")\n    lbl.pack(pady=20)\n\n    root.mainloop()

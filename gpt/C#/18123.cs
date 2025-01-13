@@ -1,0 +1,1 @@
+public static class FNV1aHash\n{\n    public const uint FNVPrime = 16777619;\n    public const uint OffsetBasis = 2166136261;\n\n    public static uint ComputeHash(string data)\n    {\n        uint hash = OffsetBasis;\n        foreach (char c in data)\n        {\n            hash ^= c;\n            hash *= FNVPrime;\n        }\n        return hash;\n    }\n}

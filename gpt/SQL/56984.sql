@@ -1,0 +1,1 @@
+Set Scripting Options\n---------------------\nTypes of data to script: Schema only

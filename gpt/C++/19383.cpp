@@ -1,0 +1,1 @@
+// In header\nvoid foo(const bar*);\n\n// In cpp\nvoid Foo::foo(const bar* pBar) {\n    // Stuff\n}

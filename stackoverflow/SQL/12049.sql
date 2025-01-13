@@ -1,1 +1,0 @@
-EXEC SomeProc 'Foo', 'Bar'

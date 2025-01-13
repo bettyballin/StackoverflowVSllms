@@ -1,0 +1,1 @@
+# Check the temporary files directory\ndu -sh /var/lib/postgresql/*/pg_tblspc/*/PG_*/pgsql_tmp/

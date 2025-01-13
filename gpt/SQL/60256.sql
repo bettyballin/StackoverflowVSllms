@@ -1,0 +1,1 @@
+CREATE TABLE chapters (\n    id INT PRIMARY KEY,\n    title VARCHAR(255),\n    position DECIMAL(10, 5)\n);

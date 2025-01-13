@@ -1,1 +1,0 @@
-SELECT ps.player_id, ps.position, ps.number, p.name\nFROM players ps, player p\nWHERE p.player_id=ps.player_id

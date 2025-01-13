@@ -1,0 +1,1 @@
+sudo chcon -R -t httpd_sys_rw_content_t /home/taalhulp/domains/taalhulpmanager.nl/public_html/files

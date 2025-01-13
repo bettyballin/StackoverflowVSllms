@@ -1,1 +1,0 @@
-$("input[type='radio'][name='theme']").click(function() {\n    var value = $(this).val();\n});

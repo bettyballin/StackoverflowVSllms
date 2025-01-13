@@ -1,0 +1,1 @@
+cat /path/to/your/repository/db/format

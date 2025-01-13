@@ -1,1 +1,0 @@
-long totalSessionBytes = 0;\nBinaryFormatter b = new BinaryFormatter();\nMemoryStream m;\nforeach(var obj in Session) \n{\n  m = new MemoryStream();\n  b.Serialize(m, obj);\n  totalSessionBytes += m.Length;\n}

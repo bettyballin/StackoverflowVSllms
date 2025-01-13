@@ -1,1 +1,0 @@
-$shoutDate = date('Y-m-d', $shoutTime);\nif ($shoutDate == date('Y-m-d'))\n    return date('H:i', $shoutTime);\n\nif ($shoutDate == date('Y-m-d', mktime(0, 0, 0, date('m'), date('d') - 1, date('Y'))))\n    return 'yesterday';\n\nreturn gregoriantojd(date('m'), date('d'), date('y')) - gregoriantojd(date('m', $shoutTime), date('d', $shoutTime), date('y', $shoutTime)) . ' days ago';

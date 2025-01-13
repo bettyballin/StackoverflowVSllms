@@ -1,0 +1,1 @@
+public partial class MyUserControl : System.Web.UI.UserControl\n   {\n       public string ValidationGroup\n       {\n           get { return RequiredFieldValidator1.ValidationGroup; }\n           set\n           {\n               RequiredFieldValidator1.ValidationGroup = value;\n               // Set the ValidationGroup for other validators if any\n           }\n       }\n   }

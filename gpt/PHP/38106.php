@@ -1,0 +1,1 @@
+<?php\necho '<a href="GetCustomerData.php?id=10" class="dynamic-link">show me </a>';\necho '<a href="GetCustomerData.php?id=11" class="dynamic-link">show me </a>';\n?>

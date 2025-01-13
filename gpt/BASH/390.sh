@@ -1,0 +1,1 @@
+svn add --force --no-ignore `cat new_files.txt`\n    svn diff > new_files_patch.diff

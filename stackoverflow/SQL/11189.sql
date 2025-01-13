@@ -1,1 +1,0 @@
-select strftime('%Y-%m-%dT%H:%M:00.000',start_ts) TIME_INTERVAL, \n    (select count(session_id) \n      from sessions s2 \n      where strftime('%Y-%m-%dT%H:%M:00.000',s1.start_ts) between s2.start_ts and s2.end_ts) ACTIVE_SESSIONS\n   from sessions s1\n   group by strftime('%Y-%m-%dT%H:%M:00.000',start_ts);

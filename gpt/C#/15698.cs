@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    // Example: If you want to process the content before rendering\n    // This could involve sanitizing input, formatting URLs, etc.\n}

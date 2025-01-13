@@ -1,0 +1,1 @@
+using (SqlCommand cmd = new SqlCommand(query, connection))\n{\n    cmd.Parameters.AddWithValue("@sp1", searchString + "%");\n    // Execute your command here\n}

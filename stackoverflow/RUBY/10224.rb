@@ -1,1 +1,0 @@
-@new_user.checklist_items.create! :name => 'Wash and wax the Ford F650.'

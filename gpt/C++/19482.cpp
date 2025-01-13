@@ -1,0 +1,1 @@
+// main.cpp\n     #include "MyClass.h"\n\n     int main() {\n         MyClass myClassInstance;\n         myClassInstance.DisplayMessage();\n         return 0;\n     }

@@ -1,0 +1,1 @@
+sc failure ServiceName reset= 0 actions= restart/60000

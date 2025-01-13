@@ -1,1 +1,0 @@
->>> 'w\xc3\xb6rner'.decode('utf-8')\nu'w\xf6rner'

@@ -1,1 +1,0 @@
-DECLARE @MySQL nvarchar(MAX)\nSELECT @MySql = SqlColumn FROM MyTable WHERE MyId = 1\nEXEC(@MySql)

@@ -1,1 +1,0 @@
-update VersionedFields\nset Value = replace(value,'<iframe','<a><iframe')\n\nupdate VersionedFields\nset Value = replace(value,'> </iframe>','</a>')

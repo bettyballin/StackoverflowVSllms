@@ -1,1 +1,0 @@
-SELECT  COUNT(*)\nFROM    conditionentrytable c\nWHERE   conditionlevelentryid=189\n        AND DATEDIFF(dd, COALESCE(c.checkoffdate, GETDATE()),c.conditionentrydatetime) > 14

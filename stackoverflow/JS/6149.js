@@ -1,1 +1,0 @@
-$("INPUT[type='file']").val(something)

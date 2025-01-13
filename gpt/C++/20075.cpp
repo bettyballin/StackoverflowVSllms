@@ -1,0 +1,1 @@
+class Foo {\npublic:\n    void f1() {\n        f1_private();\n    }\n\nprivate:\n    void f1_private() {\n        // Implementation\n    }\n};\n\nvoid f2() {\n    Foo foo;\n    // foo.f1_private(); // Illegal, cannot access private member\n    foo.f1(); // Legal, but f1_private is only accessible through f1\n}

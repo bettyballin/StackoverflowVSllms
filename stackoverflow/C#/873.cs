@@ -1,1 +1,0 @@
-var user = userRepository.Load(1);\nvar list = user.OrganizationUsers; // All the organizations the user is a part of including their role and flagged values.\n\nvar organization = list[0].Organization; 

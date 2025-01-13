@@ -1,1 +1,0 @@
-Image i = Image.FromFile("image.jpg");

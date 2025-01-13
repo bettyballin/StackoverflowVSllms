@@ -1,0 +1,1 @@
+CREATE TABLE SourceCodeExamples (\n    id SERIAL PRIMARY KEY,\n    code TEXT\n);

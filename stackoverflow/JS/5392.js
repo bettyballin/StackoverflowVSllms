@@ -1,1 +1,0 @@
-$("#webdev").load("api.php?do=get_form_webdev");

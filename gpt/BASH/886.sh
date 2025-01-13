@@ -1,0 +1,1 @@
+./configure --prefix=/usr/local/php5 --with-config-file-path=/usr/local/php5/lib

@@ -1,0 +1,1 @@
+using System.Web.Mvc;\n\npublic class YourController : Controller\n{\n    public ActionResult YourAction()\n    {\n        var user = User.Identity; // User is a property of Controller\n        if (user.IsAuthenticated)\n        {\n            string userName = user.Name;\n            // Do something with userName\n        }\n\n        return View();\n    }\n}

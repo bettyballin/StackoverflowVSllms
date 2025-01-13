@@ -1,0 +1,1 @@
+public class Person\n{\n    private string name;\n    \n    public string Name\n    {\n        get { return name; }\n        set \n        { \n            if (string.IsNullOrWhiteSpace(value))\n                throw new ArgumentException("Name cannot be null or empty");\n            name = value; \n        }\n    }\n}

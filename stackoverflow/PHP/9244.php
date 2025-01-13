@@ -1,1 +1,0 @@
-echo getNextQuestionID() . ", " getNextQuestionID() . ", " getNextQuestionID();

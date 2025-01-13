@@ -1,0 +1,1 @@
+public partial class MyService : ServiceBase\n{\n    protected override void OnStart(string[] args)\n    {\n        Task.Run(() =>\n        {\n            // Perform heavy operation here\n        });\n    }\n\n    protected override void OnStop()\n    {\n        // Cleanup code here\n    }\n}

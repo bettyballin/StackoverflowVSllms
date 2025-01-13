@@ -1,0 +1,1 @@
+etstat -ano | findstr :<port>

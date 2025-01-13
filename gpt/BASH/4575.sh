@@ -1,0 +1,1 @@
+sudo usermod -a -G webusers apache\n   sudo usermod -a -G webusers your_ftp_user

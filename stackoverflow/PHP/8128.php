@@ -1,1 +1,0 @@
-Warning: Call to protected MyChild1::__destruct() from context '' during shutdown ignored in Unknown on line 0\nWarning: Call to private MyChild2::__destruct() from context '' during shutdown ignored in Unknown on line 0

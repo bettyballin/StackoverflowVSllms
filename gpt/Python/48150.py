@@ -1,0 +1,1 @@
+import os\n\n# Secure key generation using randomness\nsecure_key = os.urandom(32)  # Generates 32 bytes (256 bits) of random data\n\n# Insecure key generation without enough randomness\ninsecure_key = b'A' * 32  # A predictable and repeated pattern\n\nprint(f"Secure Key: {secure_key.hex()}")\nprint(f"Insecure Key: {insecure_key.hex()}")

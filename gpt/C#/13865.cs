@@ -1,0 +1,1 @@
+// Example (ASP.NET) - CSRF token generation\n@Html.AntiForgeryToken()

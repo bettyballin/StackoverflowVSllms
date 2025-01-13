@@ -1,0 +1,1 @@
+openssl pkcs12 -in your_keystore.p12 -nocerts -nodes -out private_key.pem

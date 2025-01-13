@@ -1,1 +1,0 @@
-Option Infer On\n ...\n Dim file = TagLib.File.Create(filepath)\n\n If file.Tag.Pictures.Length >= 1 Then\n    Dim bin = DirectCast(file.Tag.Pictures(0).Data.Data, Byte())\n    PreviewPictureBox.Image = Image.FromStream(New MemoryStream(bin)).GetThumbnailImage(100, 100, Nothing, System.IntPtr.Zero)\n End If

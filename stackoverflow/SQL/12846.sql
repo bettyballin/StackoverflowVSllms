@@ -1,1 +1,0 @@
-Begin\n   DBMS_OUTPUT.PUT_LINE(DBMS_PROFILER.START_PROFILER('tag value for your run'));\n   your_procedure_to_test();\n   DBMS_OUTPUT.PUT_LINE(DBMS_PROFILER.STOP_PROFILER());\nEND;

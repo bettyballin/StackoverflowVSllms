@@ -1,0 +1,1 @@
+# Suppose you are rendering a list of books with their authors\nbooks = Book.objects.select_related('author').all()\nfor book in books:\n    print(book.title, book.author.name)  # No additional queries are made here

@@ -1,1 +1,0 @@
-SQL> select empno\n  2       , mgr\n  3    from emp\n  4   where empno in (7876,7788,7566,7839)\n  5  /\n\n     EMPNO        MGR\n---------- ----------\n      7566       7839\n      7788       7566\n      7839       7839\n      7876       7788\n\n4 rijen zijn geselecteerd.

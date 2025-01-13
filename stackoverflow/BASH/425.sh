@@ -1,1 +1,0 @@
-mysql -h<hostname> -u<username> -p<password> mydatabase < dump.mysql

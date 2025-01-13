@@ -1,0 +1,1 @@
+.img_holder {\n    border: 1px solid #c8c8c8;\n    display: block;\n    background: #fff;\n    height: 100px;\n    cursor: pointer; /* Ensures the pointer cursor on hover */\n}\n\n.img {\n    _margin: 0 12px 12px 0;\n}\n\na.img {\n    display: inline-block; /* Ensure the anchor tag is properly displayed */\n}

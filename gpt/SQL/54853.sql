@@ -1,0 +1,1 @@
+INSERT INTO search_index (id, title, description, keywords)\nSELECT id, title, description, keywords FROM myTable;

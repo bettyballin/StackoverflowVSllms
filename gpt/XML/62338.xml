@@ -1,0 +1,1 @@
+<id name="BackerEntryId">\n  <generator class="guid" />\n</id>\n<property name="BackerEntryTypeId" />\n<property name="Name" />\n<property name="Description" />\n<property name="MaxLength" />\n<property name="IsRequired" />\n<property name="Priority" />\n<many-to-one name="Backer" class="Backer" column="BackerId" not-null="true" />

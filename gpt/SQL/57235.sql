@@ -1,0 +1,1 @@
+impdp username/password@database schemas=your_schema directory=import_dir dumpfile=export.dmp logfile=import.log

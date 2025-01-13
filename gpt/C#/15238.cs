@@ -1,0 +1,1 @@
+Trace.WriteLine("This is a debug message");

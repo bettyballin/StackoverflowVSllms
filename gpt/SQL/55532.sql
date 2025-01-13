@@ -1,0 +1,1 @@
+SELECT v.*\nFROM Videos v\nJOIN UserSubscriptions us ON v.CategoryID = us.CategoryID\nLEFT JOIN UserWatchedVideos uwv ON v.VideoID = uwv.VideoID AND uwv.UserID = us.UserID\nWHERE us.UserID = @UserID AND uwv.VideoID IS NULL;

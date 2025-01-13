@@ -1,0 +1,1 @@
+# lib/lib_th.rb\nmodule LibTH\n  module Error\n    IDNotFound = Class.new(StandardError)\n  end\nend

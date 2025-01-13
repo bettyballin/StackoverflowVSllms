@@ -1,1 +1,0 @@
-static string GetColumnName(int index)\n{\n    const int alphabetsCount = 26;\n\n    if (index > alphabetsCount) {\n        return GetColumnName(index / alphabetsCount) + GetColumnName(index % alphabetsCount);\n    } else {\n        int code = (index - 1) + (int)'A';\n        return char.ConvertFromUtf32(code);\n    }\n}

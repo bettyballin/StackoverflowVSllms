@@ -1,0 +1,1 @@
+dot -Tpng network_map.dot -o network_map.png

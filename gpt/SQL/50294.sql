@@ -1,0 +1,1 @@
+USE [YourDestinationDatabase]\nGO\n\nSET ANSI_NULLS ON\nGO\n\nSET QUOTED_IDENTIFIER ON\nGO\n\nCREATE PROCEDURE [dbo].[YourStoredProcedureName]\nAS\nBEGIN\n    -- Your procedure code here\nEND\nGO

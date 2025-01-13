@@ -1,1 +1,0 @@
-sizeof (long) * ARRAY_LEN

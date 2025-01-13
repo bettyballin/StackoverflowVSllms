@@ -1,0 +1,1 @@
+class SiteManagerController < ApplicationController\n  def index\n    @sites = Site.includes(buildings: { meters: :values })\n  end\nend

@@ -1,0 +1,1 @@
+// config.php\nreturn [\n    'db_host' => 'localhost',\n    'db_name' => 'database_name',\n    'db_user' => 'database_user',\n    'db_pass' => 'database_password',\n];

@@ -1,1 +1,0 @@
-<?php\n  $whatever = true;\n\n  if ($whatever == true) {\n    echo "file2.php has been included<br />";\n  } else {\n    // Additional code here\n  }\n?>

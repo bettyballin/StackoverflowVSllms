@@ -1,0 +1,1 @@
+CREATE MATERIALIZED VIEW localized_products AS\n   SELECT p.id, COALESCE(pl.name, p.name) as localized_name\n   FROM products p\n   LEFT JOIN products_l10n pl ON p.id = pl.product_id AND pl.language = 'de';

@@ -1,0 +1,1 @@
+sudo ethtool -K eth0 tx off

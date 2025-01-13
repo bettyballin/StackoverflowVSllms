@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: text/xml" --data @soap_message.xml http://your-server-endpoint

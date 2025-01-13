@@ -1,0 +1,1 @@
+call_user_func_array(array($this->object, 'method'), array($arg1, $arg2));

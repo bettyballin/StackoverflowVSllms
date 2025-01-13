@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Process the file and sum sizes by date\nawk '{sizes[$2] += $1} END {for (date in sizes) print sizes[date], date}' filename | sort

@@ -1,1 +1,0 @@
-while ($row = mysql_fetch_array($result)) {\n    foreach ($row as $columnName => $columnData) {\n        echo 'Column name: ' . $columnName . ' Column data: ' . $columnData . '<br />';\n    }\n}

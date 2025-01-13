@@ -1,0 +1,1 @@
+DECLARE @maxLen INT = (SELECT CHARACTER_MAXIMUM_LENGTH \n                       FROM INFORMATION_SCHEMA.COLUMNS \n                       WHERE TABLE_NAME = 'Contact' \n                       AND COLUMN_NAME = 'EmailAddress');\n\nUPDATE Contact\nSET EmailAddress = EmailAddress + '.x'\nWHERE LEN(EmailAddress) + 2 <= @maxLen;

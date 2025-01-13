@@ -1,0 +1,1 @@
+using NCalc;\n\n   public decimal EvaluateFormula(string formula, Dictionary<string, decimal> variables)\n   {\n       Expression e = new Expression(formula);\n       foreach (var variable in variables)\n       {\n           e.Parameters[variable.Key] = variable.Value;\n       }\n       return (decimal)e.Evaluate();\n   }

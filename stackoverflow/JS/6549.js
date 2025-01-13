@@ -1,1 +1,0 @@
-function traverseDocument(node, func) {\n  func(node);\n  var children = node.childNodes;\n  for (var i = 0; i < children.length; i++)\n    traverseDocument(children[i], func);\n}   \n\nfunction capitaliseText(node) {\n  if (node.nodeType == 3) // A text node\n    node.nodeValue = node.nodeValue.toUpperCase();\n}\n\ntraverseDocument(document.body, capitaliseText);

@@ -1,0 +1,1 @@
+if (a === b) {\n      console.log("Equal");\n  }

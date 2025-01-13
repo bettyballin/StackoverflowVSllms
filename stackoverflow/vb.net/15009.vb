@@ -1,1 +1,0 @@
-Sub Test(ByVal x As StringBuilder, ByRef y As StringBuilder)\n   ' accessing the objects\n   x.Append("1")\n   y.Append("2")\n   ' remove the copy of the reference to x\n   x = Nothing\n   ' remove the reference to y\n   y = Nothing\nEnd Sub

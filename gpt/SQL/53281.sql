@@ -1,0 +1,1 @@
+CREATE TABLE file_versions (\n        id INT PRIMARY KEY AUTO_INCREMENT,\n        file_id INT,\n        version INT,\n        is_draft BOOLEAN,\n        is_final BOOLEAN,\n        submitted TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n        file_path VARCHAR(255),\n        FOREIGN KEY (file_id) REFERENCES files(id)\n    );

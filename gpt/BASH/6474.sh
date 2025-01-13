@@ -1,0 +1,1 @@
+# Open Terminal and navigate to the MAMP MySQL directory\n   cd /Applications/MAMP/Library/bin\n\n   # Use mysql to import all databases\n   ./mysql -u root -p < /path/to/Dropbox/db_backup.sql

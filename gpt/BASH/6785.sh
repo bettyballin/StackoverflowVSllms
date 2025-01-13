@@ -1,0 +1,1 @@
+#!/bin/bash\n   ssh user@remote_linux_box 'sudo systemctl restart service_name'

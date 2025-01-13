@@ -1,1 +1,0 @@
-If coalesce( expr1, expr2, ... expr_n ) is not null then do something end if;

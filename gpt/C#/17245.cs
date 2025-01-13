@@ -1,0 +1,1 @@
+// Original\n    public class MyClass\n    {\n        public int MyMethod(string param) { return 0; }\n    }\n\n    // Changed - This will break the interface.\n    public class MyClass\n    {\n        public int MyMethod(int param) { return 0; }\n    }

@@ -1,1 +1,0 @@
-class IModule\n{\npublic:\n    virtual ~IModule(); // <= important!\n    virtual void doStuff() = 0;\n};

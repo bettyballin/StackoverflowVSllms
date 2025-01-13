@@ -1,0 +1,1 @@
+aspnet_regiis.exe -pef "appSettings" "path\to\your\application"

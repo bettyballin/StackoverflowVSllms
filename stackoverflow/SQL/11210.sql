@@ -1,1 +1,0 @@
-ALTER TABLE `foo` RENAME TO `bar`

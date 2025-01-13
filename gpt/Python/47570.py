@@ -1,0 +1,1 @@
+import hashlib\nprint(hashlib.sha512("test\n").hexdigest())

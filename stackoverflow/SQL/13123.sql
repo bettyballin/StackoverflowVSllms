@@ -1,1 +1,0 @@
-insert into ContactGroupMapping\nselect cont.ID, grp.ID\nfrom StagingTable stag\ninner join Contacts cont on cont.UserID = stag.UserID\ninner join Groups grp on grp.GroupID = stag.GroupID

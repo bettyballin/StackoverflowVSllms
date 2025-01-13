@@ -1,1 +1,0 @@
-begin transaction\n\n// Query being validated goes here\n\nrollback transactio

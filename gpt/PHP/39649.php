@@ -1,0 +1,1 @@
+// Less efficient: calling the function multiple times\nfor ($i = 0; $i < 10; $i++) {\n    echo time() . "\n";\n}\n\n// More efficient: calling the function once and using a local variable\n$currentTime = time();\nfor ($i = 0; $i < 10; $i++) {\n    echo $currentTime . "\n";\n}

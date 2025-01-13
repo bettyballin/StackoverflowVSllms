@@ -1,0 +1,1 @@
+find . -type f \( -name "*.py" -o -name "*.html" -o -name "*.txt" -o -name "*.js" \) \\n  ! -name "*.pyc" ! -path "*/.svn/*" ! -name "*combo_*.js" -exec grep "pattern" {} +

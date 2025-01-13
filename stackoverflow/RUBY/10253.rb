@@ -1,1 +1,0 @@
-\nbutton.signal_connect("clicked") {\n    create_page(notebook)\n}

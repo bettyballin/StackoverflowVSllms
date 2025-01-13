@@ -1,0 +1,1 @@
+<!-- app/views/multi_step_forms/contact_info.html.erb -->\n<%= form_with model: @form, url: multi_step_forms_path(step: 'contact_info'), method: :post do |f| %>\n  <%= f.label :email %>\n  <%= f.email_field :email %>\n  <%= f.submit 'Next' %>\n<% end %>

@@ -1,0 +1,1 @@
+# For Debian-based systems\nsudo apt-get install xsltproc pandoc\n\n# For macOS\nbrew install xsltproc pandoc

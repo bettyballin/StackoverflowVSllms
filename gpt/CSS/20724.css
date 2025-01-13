@@ -1,0 +1,1 @@
+.custom-shape-div {\n  width: 200px;\n  height: 200px;\n  background-color: lightblue;\n  clip-path: polygon(10% 10%, 90% 20%, 80% 90%, 20% 80%);\n}

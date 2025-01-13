@@ -1,1 +1,0 @@
-Public Function ValidateXML(ByVal strXML As String) As Boolean\n  Dim xsdPath As String = "path to your xsd"\n  Dim schema As XmlReader = XmlReader.Create(xsdPath)\n  Dim document As XmlDocument = New XmlDocument()\n  document.LoadXml(strXML)\n  document.Schemas.Add("", schema)\n  document.Validate(AddressOf ValidationEventHandler)\nEnd Functio

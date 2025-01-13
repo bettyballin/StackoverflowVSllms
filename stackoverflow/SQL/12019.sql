@@ -1,1 +1,0 @@
-select\n    orderid,\n    case when maxprice is null then 0 else maxprice end as maxprice\nfrom (\n    select\n        orderid = o.id,\n        maxprice = (select MAX(price) from orderlines ol \n                    where ol.orderid = o.id)\n    from orders o\n) sub

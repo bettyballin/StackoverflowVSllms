@@ -1,0 +1,1 @@
+using (var context = new YourDataContext())\n{\n    string command = "DELETE FROM Accounts WHERE amount < 1000";\n    context.ExecuteCommand(command);\n}

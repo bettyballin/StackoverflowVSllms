@@ -1,0 +1,1 @@
+var list = new List<string> { "a", "b", "c" };\nExtendListWithNull(list, 10);\n// list now has 10 elements, with the last 7 elements being null

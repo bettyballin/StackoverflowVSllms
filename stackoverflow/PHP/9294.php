@@ -1,1 +1,0 @@
-$ref = new ReflectionObject($this);\n$ref->getFileName(); // return the file where the object's class was declared

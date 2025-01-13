@@ -1,0 +1,1 @@
+require 'gserver'\n\nclass MyServer < GServer\n  def serve(io)\n    while (message = io.gets)  # `gets` expects a newline-terminated string\n      puts "Received: #{message}"\n    end\n  end\nend\n\nserver = MyServer.new(12345)\nserver.start\n\n# Keep the server running\nsleep

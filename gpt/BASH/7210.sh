@@ -1,0 +1,1 @@
+mysql -u yourusername -p yourpassword yourdatabase < backup.sql

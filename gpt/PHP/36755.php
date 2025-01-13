@@ -1,0 +1,1 @@
+$size1 = filesize('file1.csv');\n   $size2 = filesize('file2.csv');

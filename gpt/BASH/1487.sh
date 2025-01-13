@@ -1,0 +1,1 @@
+make -C /lib/modules/$(uname -r)/build M=$PWD modules\nsudo insmod my_module.ko

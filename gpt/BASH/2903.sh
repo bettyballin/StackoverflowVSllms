@@ -1,0 +1,1 @@
+c:\> bcp "select c1, c2 from srcTable" queryout tableData.bcp -c -T -S srcServer\nc:\> bcp destTable in tableData.bcp -c -T -S destServer

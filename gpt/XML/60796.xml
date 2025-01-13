@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <!-- HTTP Session Configuration -->\n    <sessionState mode="InProc" cookieless="UseCookies" timeout="20" cookieName="HTTPSESSIONID" />\n    <!-- HTTPS Session Configuration -->\n    <sessionState mode="InProc" cookieless="UseCookies" timeout="20" cookieName="HTTPSSESSIONID" requireSSL="true" />\n  </system.web>\n</configuration>

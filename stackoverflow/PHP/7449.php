@@ -1,1 +1,0 @@
-$generatedKey = sha1(mt_rand(10000,99999).time().$email);

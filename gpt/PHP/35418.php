@@ -1,0 +1,1 @@
+header("Pragma: no-cache");\nheader("Cache-Control: no-store, no-cache, must-revalidate");\nheader("Cache-Control: post-check=0, pre-check=0", false);\nheader("Cache-Control: max-age=0", false);

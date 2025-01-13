@@ -1,0 +1,1 @@
+gcc -o mysql_example mysql_example.c -lmysqlclient

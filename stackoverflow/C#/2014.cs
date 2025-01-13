@@ -1,1 +1,0 @@
-System.Text.Encoding.Unicode.GetBytes()

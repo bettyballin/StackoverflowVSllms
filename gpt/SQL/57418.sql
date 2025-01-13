@@ -1,0 +1,1 @@
+-- Set SQLPATH environment variable (Note that this temporarily sets it for the current session)\nHOST set SQLPATH=C:\desired\directory\path\n\n-- Execute SQL script\n@your_script.sql

@@ -1,0 +1,1 @@
+msdeploy -verb:sync -source:contentPath="C:\path\to\website" -dest:contentPath="Default Web Site",ComputerName="https://your-server:8172/msdeploy.axd",UserName="username",Password="password",AuthType="Basic"

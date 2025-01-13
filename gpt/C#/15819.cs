@@ -1,0 +1,1 @@
+string encodedInput = HttpUtility.HtmlEncode(userInput);

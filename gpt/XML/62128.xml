@@ -1,0 +1,1 @@
+<Render>\n     ...\n     <Extension Name="CSV" Type="Microsoft.ReportingServices.Rendering.DataRenderer.CsvReport,Microsoft.ReportingServices.DataRendering">\n       <Configuration>\n         <DeviceInfo>\n           <Encoding>ASCII</Encoding>\n         </DeviceInfo>\n       </Configuration>\n     </Extension>\n     ...\n   </Render>

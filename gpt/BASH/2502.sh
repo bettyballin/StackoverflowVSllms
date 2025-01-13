@@ -1,0 +1,1 @@
+loadjava -u username/password@db_alias -r -v -f -genmissing -s -grant public C:\oracle\product\10.2.0\db_5\sqlj\lib\dbwsclientws.jar C:\oracle\product\10.2.0\db_5\sqlj\lib\dbwsclientdb102.jar

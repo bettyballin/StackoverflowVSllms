@@ -1,0 +1,1 @@
+javac -source 1.5 -target 1.5 -d out MyClass.java

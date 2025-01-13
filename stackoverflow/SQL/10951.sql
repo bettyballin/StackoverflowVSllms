@@ -1,1 +1,0 @@
-SELECT (fields)\nFROM (table)\nWHERE \n  DATEDIFF(MINUTE, CREATETIME, getutcdate()) <= (3*24*60 + 30)

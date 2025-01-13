@@ -1,1 +1,0 @@
-select * from AuditTable where endDate is NULL

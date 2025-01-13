@@ -1,0 +1,1 @@
+using (var connection = new MySqlConnection(connectionString))\n   {\n       var person = connection.QuerySingleOrDefault<Person>("SELECT * FROM People WHERE Id = @Id", new { Id = id });\n       person.FirstName = "John";\n       connection.Execute("UPDATE People SET FirstName = @FirstName WHERE Id = @Id", person);\n   }

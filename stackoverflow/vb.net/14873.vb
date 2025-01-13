@@ -1,1 +1,0 @@
-For Each c In Cache\n    ' Do something with c\nNext\n' Pardon  my VB syntax if it's wrong

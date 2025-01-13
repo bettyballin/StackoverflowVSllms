@@ -1,0 +1,1 @@
+php bin/magento cache:clean\nphp bin/magento cache:flush

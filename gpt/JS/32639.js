@@ -1,0 +1,1 @@
+import { myFunction } from './myModule.js';\n\n// Use the imported function\nmyFunction();

@@ -1,0 +1,1 @@
+# In config/environments/production.rb\n   config.force_ssl = true

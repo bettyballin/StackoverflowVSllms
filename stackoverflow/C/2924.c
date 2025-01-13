@@ -1,1 +1,0 @@
-</p>\n\n<p>#DEFINE TIER_NORMAL 1</p>\n\n<p>#DEFINE TIER_LITE etc.</p>\n\n<p>then</p>\n\n<p>#ifdef TIER_NORMAL </p>\n\n<p>do tier normal stuff</p>\n\n<p>#endif

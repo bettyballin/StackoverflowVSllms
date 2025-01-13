@@ -1,1 +1,0 @@
-$images_array = glob($dir.'*.jpg');

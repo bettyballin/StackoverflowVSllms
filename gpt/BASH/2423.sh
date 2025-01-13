@@ -1,0 +1,1 @@
+# Fetch the server certificate and save it to server.crt\nopenssl s_client -connect example.com:443 -showcerts </dev/null 2>/dev/null | openssl x509 -outform PEM > server.crt\n\n# Import the certificate into the truststore\nkeytool -import -alias myserver -file server.crt -keystore /path/to/truststore.jks

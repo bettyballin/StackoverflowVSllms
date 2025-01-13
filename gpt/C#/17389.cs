@@ -1,0 +1,1 @@
+[WebMethod]\npublic byte[] GetExcelFile()\n{\n    string filePath = HttpContext.Current.Server.MapPath("~/Reports/Report.xlsx");\n    byte[] fileBytes = File.ReadAllBytes(filePath);\n    return fileBytes;\n}

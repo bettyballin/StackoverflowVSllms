@@ -1,0 +1,1 @@
+"C:\Program Files\LibreOffice\program\soffice.exe" --headless --convert-to pdf input.svg --outdir output_dir

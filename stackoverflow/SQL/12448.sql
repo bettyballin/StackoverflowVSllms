@@ -1,1 +1,0 @@
-UPDATE people\nSET    prize = CASE WHEN id = @lucky THEN 'Gold' ELSE 'Silver' END\nWHERE  class = (\n       SELECT  class\n       FROM    people\n       WHERE   id = @lucky\n       )

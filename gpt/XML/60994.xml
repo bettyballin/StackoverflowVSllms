@@ -1,0 +1,1 @@
+<system.webServer>\n    <modules>\n        <remove name="UrlAuthorization" />\n        <add name="UrlAuthorization" type="System.Web.Security.UrlAuthorizationModule" preCondition="integratedMode,runtimeVersionv2.0" />\n    </modules>\n</system.webServer>

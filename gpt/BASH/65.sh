@@ -1,0 +1,1 @@
+dd if=SMS_recovered.tar of=partial_sms_recovered.tar bs=512 skip=2

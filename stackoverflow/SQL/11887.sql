@@ -1,1 +1,0 @@
-score = (votes / 10) + comments  \nage = UNIX_TIMESTAMP() - UNIX_TIMESTAMP(date_created)\n\nif(age < 86400) score = score * 1.5

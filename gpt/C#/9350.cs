@@ -1,0 +1,1 @@
+double MMSquared = 1000.0;\ndouble SquareInchesByDiv = MMSquared / 645.16;\ndouble SquareInchesByMul = MMSquared * 0.0015500031000062000124000248000496;

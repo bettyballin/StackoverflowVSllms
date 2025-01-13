@@ -1,0 +1,1 @@
+// First, install Lodash via npm\n   // npm install lodash\n\n   const _ = require('lodash');\n\n   // Example usage of Lodash\n   const obj = { a: 1, b: 2 };\n   const newObj = _.assign({}, obj, { c: 3 });\n\n   console.log(newObj); // Output: { a: 1, b: 2, c: 3 }

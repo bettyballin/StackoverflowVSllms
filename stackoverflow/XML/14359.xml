@@ -1,1 +1,0 @@
-<system.serviceModel>\n    <bindings>\n        <wsHttpBinding>\n            <binding name="SecurityEnabledWsHttp">\n                <security mode="Transport">\n                    <transport clientCredentialType="Windows" />\n                </security>\n            </binding>\n        </wsHttpBinding>\n    </bindings>\n</system.serviceModel>

@@ -1,0 +1,1 @@
+$array = [\n    (object) ['type' => 'node', 'sid' => 158, 'score' => 0.059600525242489],\n    (object) ['type' => 'node', 'sid' => 247, 'score' => 0.059600525242489]\n];\n\nusort($array, function($a, $b) {\n    return $b->score <=> $a->score;\n});\n\nprint_r($array);

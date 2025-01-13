@@ -1,0 +1,1 @@
+<configuration>\n  <appSettings>\n    <add key="XMLToBeTransformed" value="path_to_your_xml_file.xml" />\n    <add key="XSLTfile" value="path_to_your_xslt_file.xslt" />\n    <add key="NewCSVLocation" value="path_to_output_csv_file.csv" />\n  </appSettings>\n</configuration>

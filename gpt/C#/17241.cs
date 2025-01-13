@@ -1,0 +1,1 @@
+using (SPSite site = new SPSite("http://yoursite")) {\n        SPWeb web = site.OpenWeb(); // This can be very slow\n        // Perform operations with the web object\n    }

@@ -1,0 +1,1 @@
+vi file.txt  # or any other text editor

@@ -1,0 +1,1 @@
+$username = substr($username, 0, 50); // Limit username to 50 characters

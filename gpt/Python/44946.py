@@ -1,0 +1,1 @@
+my_list = [True, True, False]\nresult = any(my_list)\nprint(result)  # Output will be True

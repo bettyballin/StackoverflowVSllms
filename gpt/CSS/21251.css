@@ -1,0 +1,1 @@
+.navigation {\n  text-align: center; /* Center the content inside the navigation container */\n}\n\n.navigation ul {\n  display: inline-block; /* Make the ul element inline-block to allow centering */\n  list-style: none;\n  padding: 0;\n  margin: 0;\n}\n\n.navigation li {\n  float: left; /* Keep the float left to display items horizontally */\n  margin: 0 1.15em;\n}

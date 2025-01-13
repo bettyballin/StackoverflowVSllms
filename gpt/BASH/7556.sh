@@ -1,0 +1,1 @@
+pg_restore -U your_pg_username -h your_pg_host -d your_pg_database -t your_table -f your_table.csv

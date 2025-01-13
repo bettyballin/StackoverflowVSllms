@@ -1,0 +1,1 @@
+// test.cc\n   #include <iostream>\n   #include "replace_all.h"\n\n   using namespace std;\n\n   int main() {\n       string const a = "foo bar fee boor foo barfoo b";\n       cout << replace_all<string>("foo", "damn", a) << endl;\n       return 0;\n   }

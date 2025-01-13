@@ -1,1 +1,0 @@
-Array.Sort( myArray, Comparer.DefaultInvariant );\n\nArray.BinarySearch( myArray, myString, Comparer.DefaultInvariant );

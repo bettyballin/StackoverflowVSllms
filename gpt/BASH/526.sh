@@ -1,0 +1,1 @@
+sudo apt-get install cloc  # For Debian/Ubuntu-based systems\n# or\nbrew install cloc  # For macOS

@@ -1,0 +1,1 @@
+// Ensure this code runs once, typically on document ready\n   $(document).on('mouseover', 'img.del', function() {\n       $(this).css('cursor', 'pointer');\n   });

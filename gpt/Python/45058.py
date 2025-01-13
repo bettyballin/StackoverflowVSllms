@@ -1,0 +1,1 @@
+from scipy.stats import gaussian_kde\n\n# Example: KDE for data\ndata = np.random.normal(loc=0, scale=1, size=1000)  # Sample data\nkde = gaussian_kde(data)

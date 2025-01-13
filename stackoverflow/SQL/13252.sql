@@ -1,1 +1,0 @@
-insert into MyTable(field1, field2, id_backup)\n    select field1, field2, uniqueId from MyTable where uniqueId = @Id;

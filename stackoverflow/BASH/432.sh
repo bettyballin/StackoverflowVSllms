@@ -1,1 +1,0 @@
-mysql -u your_user -D your_database_name -e "show tables" -s | \n  egrep "^Whatever_" | \n  xargs -I "@@" echo mysql -u your_user -D your_database_name -e "DROP TABLE @@"

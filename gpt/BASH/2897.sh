@@ -1,0 +1,1 @@
+reg import "\\remote_machine\C$\path\to\test.reg"

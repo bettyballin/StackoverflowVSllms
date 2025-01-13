@@ -1,0 +1,1 @@
+runas /user:Administrator "path_to_profiler_executable"

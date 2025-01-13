@@ -1,0 +1,1 @@
+<?php\n$pipeName = '/tmp/my_pipe'; // Change this based on your OS and named pipe location\n\n// Create or open the named pipe\n$pipe = fopen($pipeName, 'w+');\nif (!$pipe) {\n    die('Failed to open pipe');\n}\n\n// Write data to the pipe\nfwrite($pipe, "Hello from PHP");\n\n// Close the pipe\nfclose($pipe);\n?>

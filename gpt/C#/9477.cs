@@ -1,0 +1,1 @@
+public class BaseController : Controller\n{\n    protected override ViewDataDictionary CreateViewData()\n    {\n        return new CustomViewDataDictionary();\n    }\n\n    protected CustomViewDataDictionary CustomViewData => ViewData as CustomViewDataDictionary;\n}

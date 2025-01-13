@@ -1,0 +1,1 @@
+// Pseudo-code for a simple rootkit\n   void install_rootkit() {\n       hook_function("system_call", malicious_handler);\n   }\n\n   void malicious_handler() {\n       // Code to intercept and manipulate system calls\n   }

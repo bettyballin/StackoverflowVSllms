@@ -1,1 +1,0 @@
-.clearfix:after {\n    content: ".";\n    display: block;\n    clear: both;\n    visibility: hidden;\n    line-height: 0;\n    height: 0;\n}\n\n.clearfix {\n    display: inline-block;\n}\n\nhtml[xmlns] .clearfix {\n    display: block;\n}\n\n`*` html .clearfix {\n    height: 1%;\n}

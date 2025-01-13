@@ -1,0 +1,1 @@
+php2exe compile your_script.php

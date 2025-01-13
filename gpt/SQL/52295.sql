@@ -1,0 +1,1 @@
+SELECT g.*\nFROM [Group] g\nLEFT JOIN People p ON g.GroupId = p.GroupId\nWHERE p.GroupId IS NULL;

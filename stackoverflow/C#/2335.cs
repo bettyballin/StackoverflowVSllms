@@ -1,1 +1,0 @@
-public static bool IsChanged(T current, T previous)\n{\n    //perform recursion\n    if (graphIsChanged)\n       return true;\n    else\n       return IsChanged(current, previous);\n}

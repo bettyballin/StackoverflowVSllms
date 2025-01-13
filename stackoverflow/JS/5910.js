@@ -1,1 +1,0 @@
-for (var i = 0; i < elem.attributes.length; i++) {\n    var attrib = elem.attributes[i];\n    console.log(attrib.name + " = " + attrib.value);\n}

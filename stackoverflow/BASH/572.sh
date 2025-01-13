@@ -1,1 +1,0 @@
-#!/bin/sh\nwhile true\ndo\n    java MainClass\ndone

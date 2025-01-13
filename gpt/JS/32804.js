@@ -1,0 +1,1 @@
+function onSuccess() {\n    alert("Record added successfully!");\n}

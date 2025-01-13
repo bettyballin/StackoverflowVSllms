@@ -1,0 +1,1 @@
+SELECT \n       HEX(id) AS id,\n       other_column\n   FROM \n       example_table;

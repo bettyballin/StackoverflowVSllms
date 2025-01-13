@@ -1,0 +1,1 @@
+Environment.SetEnvironmentVariable("HTTP_PROXY", Nothing)\nEnvironment.SetEnvironmentVariable("HTTPS_PROXY", Nothing)

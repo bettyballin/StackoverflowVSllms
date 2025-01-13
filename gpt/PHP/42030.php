@@ -1,0 +1,1 @@
+<?php\n   header('Content-Type: text/plain; charset=iso-8859-1');\n   echo "Your data here";\n   ?>

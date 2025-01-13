@@ -1,0 +1,1 @@
+using (ISession session = sessionFactory.OpenSession())\n   {\n       var person = session.Get<Person>(id);\n       person.FirstName = "John";\n       using (ITransaction transaction = session.BeginTransaction())\n       {\n           session.Save(person);\n           transaction.Commit();\n       }\n   }

@@ -1,0 +1,1 @@
+// Example of a PostCSS configuration (postcss.config.js)\n   module.exports = {\n     plugins: {\n       'postcss-import': {},\n       'postcss-preset-env': {\n         stage: 1,\n         features: {\n           'nesting-rules': true\n         }\n       },\n       'cssnano': {}\n     }\n   };

@@ -1,1 +1,0 @@
-SELECT 1 WHERE 'foo' NOT LIKE '%[^0-9]%'\n\nSELECT 1 WHERE '123' NOT LIKE '%[^0-9]%'\n\nSELECT 1 WHERE 'aa1' NOT LIKE '%[^0-9]%'\n\nSELECT 1 WHERE '1bb' NOT LIKE '%[^0-9]%'\n\nSELECT 1 WHERE NULL NOT LIKE '%[^0-9]%'\n\nSELECT 1 WHERE '   ' NOT LIKE '%[^0-9]%'\n\n--FAIL. Need extra check. Perhaps NULLIF\nSELECT 1 WHERE '' NOT LIKE '%[^0-9]%'

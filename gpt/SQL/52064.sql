@@ -1,0 +1,1 @@
+USE MSCRM_CONFIG;\n\nDECLARE @SystemUserId UNIQUEIDENTIFIER;\nSET @SystemUserId = 'PUT-USER-ID-HERE'; -- Replace with the actual SystemUserId\n\nINSERT INTO dbo.DeploymentAdministrator (SystemUserId)\nVALUES (@SystemUserId);

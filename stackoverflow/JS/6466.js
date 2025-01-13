@@ -1,1 +1,0 @@
-function getStatus() {\n    $.getJSON("/status.php",{"session":0, "requestID":12345}, \n    function(data) { //data is the returned JSON object from the server {name:"value"}\n          setStatus(data.status);\n          window.setTimeout("getStatus()",intervalInMS)\n    });\n}

@@ -1,1 +1,0 @@
-WebProxy proxy = new WebProxy(@"http://blahblah/proxy.pac);

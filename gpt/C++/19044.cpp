@@ -1,0 +1,1 @@
+// MyLibrary.cpp\nextern "C" __declspec(dllexport) int Add(int a, int b) {\n    return a + b;\n}

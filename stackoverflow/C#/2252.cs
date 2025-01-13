@@ -1,1 +1,0 @@
-public void TestForEach()\n    {\n        List<string> items = new List<string> { "one", "two", "three" };\n\n        foreach (string item in items)\n        {\n            Debug.WriteLine(item);\n        }\n    }

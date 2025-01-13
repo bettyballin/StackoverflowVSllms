@@ -1,0 +1,1 @@
+LOAD DATA INFILE 'path/to/output.csv'\nINTO TABLE products\nFIELDS TERMINATED BY ','\nENCLOSED BY '"'\nLINES TERMINATED BY '\n'\nIGNORE 1 ROWS\n(name, price);

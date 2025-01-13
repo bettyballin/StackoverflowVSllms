@@ -1,1 +1,0 @@
-create table date_test (entry_date date);\n\nalter table date_test add constraint day_is_not_sunday\n      check ( to_char(entry_date,'DAY','NLS_DATE_LANGUAGE = ENGLISH') not like 'SUNDAY%'); 

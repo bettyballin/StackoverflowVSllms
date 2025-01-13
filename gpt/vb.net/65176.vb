@@ -1,0 +1,1 @@
+Function IsPositiveNumber(ByVal number As Integer) As Boolean\n    If number <= 0 Then\n        Return False\n    End If\n    \n    ' Additional logic can be here\n\n    ' If we reach this point, it means the number is positive\n    Return True\nEnd Functio

@@ -1,0 +1,1 @@
+CREATE TABLE People (\n       PersonId INT IDENTITY(1,1) PRIMARY KEY,\n       Name NVARCHAR(100),\n       SSN NVARCHAR(50)\n   );

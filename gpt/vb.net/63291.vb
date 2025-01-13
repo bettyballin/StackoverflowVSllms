@@ -1,0 +1,1 @@
+Dim lguidKey As New Guid(lstrErrorParts(0))\n   Dim lstrErrorMsg As String = mcolSchedulesNeedingOverride(lguidKey)\n   lstrErrorMsg &= vbNewLine & lstrErrorParts(2)\n   mcolSchedulesNeedingOverride(lguidKey) = lstrErrorMsg

@@ -1,1 +1,0 @@
-curl_setopt($myCurlResource, CURLOPT_HEADER, true)

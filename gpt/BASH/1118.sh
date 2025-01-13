@@ -1,0 +1,1 @@
+# Install texlive if not already installed\nsudo apt-get install texlive-extra-utils\n\n# Crop a PDF using pdfcrop\npdfcrop input.pdf output.pdf

@@ -1,0 +1,1 @@
+SELECT *\nFROM TableA\nINNER JOIN TableB \n    ON (TableA.Column1 = TableB.Column1 OR TableA.Column1 = 0)

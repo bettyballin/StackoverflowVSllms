@@ -1,1 +1,0 @@
-import numpy as np\nmatrixSize = 10 \nA = np.random.rand(matrixSize, matrixSize)\nB = np.dot(A, A.transpose())\nprint 'random positive semi-define matrix for today is', B

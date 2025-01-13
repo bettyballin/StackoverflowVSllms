@@ -1,0 +1,1 @@
+// Example to check CURL version\n    echo 'CURL Version: ' . curl_version()['version'];

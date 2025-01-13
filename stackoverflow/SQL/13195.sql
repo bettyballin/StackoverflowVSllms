@@ -1,1 +1,0 @@
-create function DictValue(\n  @id int,\n  @key nvarchar(max)\n) \nreturns nvarchar(max) as \nbegin\n  declare @value nvarchar(max)\n  select \n    @value = Dict.value(\n      '(StringDictionary/Pair[@Key=sql:variable("@key")])[1]', \n      'nvarchar(max)'\n    ) \n    from TableWithXmlColumn\n    where Id = @id\n  return @value\nend

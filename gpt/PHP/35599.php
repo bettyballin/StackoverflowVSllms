@@ -1,0 +1,1 @@
+<?php\n// Good practice: Using functions to encapsulate logic\nfunction calculateSum($a, $b) {\n    return $a + $b;\n}\n\n$result = calculateSum(5, 10);\necho $result; // Outputs: 15\n\n// Poor practice: Inlining code for performance at the cost of readability\n$a = 5;\n$b = 10;\n$result = $a + $b;\necho $result; // Outputs: 15\n?>

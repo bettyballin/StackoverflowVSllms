@@ -1,1 +1,0 @@
-UPDATE A\n    SET A.NAME = B.NAME\nFROM TableNameA A, TableNameB B\nWHERE A.ID = B.ID

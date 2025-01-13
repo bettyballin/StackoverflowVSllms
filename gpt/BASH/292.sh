@@ -1,0 +1,1 @@
+mkdir build-gcc\n   cd build-gcc\n   ../gcc-x.x.x/configure --target=<target-triplet> --prefix=<install-prefix> --enable-languages=c,c++ --disable-multilib --with-newlib\n   make all-gcc\n   make install-gcc

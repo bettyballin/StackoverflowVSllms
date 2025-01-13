@@ -1,1 +1,0 @@
-SearchButton.UseSubmitBehavior = False

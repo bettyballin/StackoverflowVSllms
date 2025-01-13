@@ -1,0 +1,1 @@
+<?php\ntry {\n    $pdo = new PDO('mysql:host=localhost;dbname=your_database', 'your_username', 'your_password');\n    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);\n} catch (PDOException $e) {\n    die("Could not connect to the database: " . $e->getMessage());\n}\n?>

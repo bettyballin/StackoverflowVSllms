@@ -1,1 +1,0 @@
-Request.ServerVariables[ "INSTANCE_ID" ]

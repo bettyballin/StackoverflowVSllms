@@ -1,0 +1,1 @@
+<bindings>\n       <webHttpBinding>\n           <binding name="webHttpBindingConfig">\n               <!-- Optional: Add binding configurations here -->\n           </binding>\n       </webHttpBinding>\n   </bindings>

@@ -1,1 +1,0 @@
-Select ID, Cat, Price, Name, Abbrv\nFrom\n(SELECT t1.ID, t1.Cat, t1.Price, t1.Price AS SortPrice, NULL as Name, NULL as Abbrv \nFROM t1\nUNION\nSELECT t2.ID, NULL as Cat, NULL as Price, t1.Price as SortPrice, t2.Name, t2.Abbrv \n   FROM t2\n   inner join t1 on t2.id = t1.id\n) t3\nORDER BY SortPrice DESC, Abbrv ASC

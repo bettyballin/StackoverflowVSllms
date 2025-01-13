@@ -1,0 +1,1 @@
+sudo debugfs -R 'stat /data/file1' test.img

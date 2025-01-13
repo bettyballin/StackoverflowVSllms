@@ -1,1 +1,0 @@
-$type = $_GET['type'];\nif (!preg_match('/^[a-z]{0,3}$/', $type)) {\n    // Handle error properly here.\n    die('Type argument must be a string of 0-3 lower case letters (a-z)');\n}

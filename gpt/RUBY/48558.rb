@@ -1,0 +1,1 @@
+first, *rest = [1, 2, 3, 4]\n    p first  # prints 1\n    p rest   # prints [2, 3, 4]

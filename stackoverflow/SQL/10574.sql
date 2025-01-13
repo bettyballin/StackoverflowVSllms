@@ -1,1 +1,0 @@
-SELECT t1.*, t3.* \nFROM Table1 t1\n     INNER JOIN Table2 t2\n         ON t1.ID = t2.T1ID\n     INNER JOIN Table3\n         ON t2.T3ID = t3.PK

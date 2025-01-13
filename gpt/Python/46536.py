@@ -1,0 +1,1 @@
+from lxml import etree\n\nxml = '<node attribute1="10" attribute2="0" />'\ntree = etree.fromstring(xml)\n\n# Find all attributes with value > 0\nattributes = tree.attrib\n\n# Filter and format the attributes\nresult = [f"{name}={value}" for name, value in attributes.items() if int(value) > 0]\n\nprint(result)

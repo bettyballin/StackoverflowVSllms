@@ -1,0 +1,1 @@
+using System;\n\npublic class Program\n{\n    public static void Main()\n    {\n        string input = "I DonÃ¢â‚¬â„¢t see ya..";\n        string cleanedString = input.Replace("Ã¢â‚¬â„¢", "");\n        Console.WriteLine(cleanedString);\n    }\n}

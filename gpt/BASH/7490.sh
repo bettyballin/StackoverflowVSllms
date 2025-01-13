@@ -1,0 +1,1 @@
+# Clean local repository (optional)\nrm -rf ~/.m2/repository\n\n# Run Maven clean\nmvn clean\n\n# Install dependencies and build the project\nmvn install

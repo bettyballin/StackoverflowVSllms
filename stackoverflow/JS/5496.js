@@ -1,1 +1,0 @@
-function MakeCall(url,callback) { \n    $.ajax({\n        async: false,\n        url: url,\n        dataType: "text",\n        success: callback\n    });\n}

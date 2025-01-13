@@ -1,0 +1,1 @@
+docker-compose up -d\n    docker-compose dow

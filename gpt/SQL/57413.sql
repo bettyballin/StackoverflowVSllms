@@ -1,0 +1,1 @@
+DECLARE\n  l_transaction_id VARCHAR2(100);\nBEGIN\n  l_transaction_id := DBMS_TRANSACTION.LOCAL_TRANSACTION_ID(TRUE);\n  IF l_transaction_id IS NULL THEN\n    DBMS_OUTPUT.PUT_LINE('No active transaction.');\n  ELSE\n    DBMS_OUTPUT.PUT_LINE('Active transaction ID: ' || l_transaction_id);\n  END IF;\nEND;\n/

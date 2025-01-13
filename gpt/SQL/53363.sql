@@ -1,0 +1,1 @@
+SELECT s.sid, s.serial#, s.username, s.status, s.osuser, s.machine, s.program, \n          s.event, s.wait_class, s.seconds_in_wait, q.sql_text\n   FROM v$session s\n   JOIN v$sql q ON s.sql_id = q.sql_id\n   WHERE s.username = 'your_username';

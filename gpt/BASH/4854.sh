@@ -1,0 +1,1 @@
+pdfcpu trim input.pdf output.pdf

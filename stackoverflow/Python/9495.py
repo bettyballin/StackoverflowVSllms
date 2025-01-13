@@ -1,1 +1,0 @@
-Session.query(Project).filter(Project.entries.any())

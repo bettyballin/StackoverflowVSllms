@@ -1,0 +1,1 @@
+CREATE TABLE athletes (\n    student_id INT PRIMARY KEY,\n    sport VARCHAR(50),\n    FOREIGN KEY (student_id) REFERENCES students(student_id)\n);\n\nCREATE TABLE musicians (\n    student_id INT PRIMARY KEY,\n    instrument VARCHAR(50),\n    FOREIGN KEY (student_id) REFERENCES students(student_id)\n);

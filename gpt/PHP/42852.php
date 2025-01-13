@@ -1,0 +1,1 @@
+$sortedIterator = new SortedIterator($dir, function($a, $b) {\n    return $a->getSize() - $b->getSize();\n});

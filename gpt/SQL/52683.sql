@@ -1,0 +1,1 @@
+SELECT \n    MIN(DateAdded) AS firstdate,\n    MAX(DateAdded) AS lastdate\nFROM \n    News;

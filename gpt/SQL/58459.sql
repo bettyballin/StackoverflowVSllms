@@ -1,0 +1,1 @@
+-- Ensure there are no conflicting rows before updating\nUPDATE at\nSET Status = 2\nFROM dbo.ApprovalTasks at\nJOIN dbo.ApprovalsView av ON at.ApprovalTaskID = av.ApprovalTaskID\nWHERE at.ApprovalTaskID = 48\nAND NOT EXISTS (\n    SELECT 1\n    FROM dbo.SomeOtherTable st\n    WHERE st.SomeColumn = at.SomeColumn\n    -- Additional conditions to avoid conflicts\n);

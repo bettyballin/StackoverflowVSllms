@@ -1,0 +1,1 @@
+CREATE TABLE comments (\n       id SERIAL PRIMARY KEY,\n       article_id INTEGER NOT NULL REFERENCES articles(id),\n       user_id INTEGER NOT NULL,\n       created_at TIMESTAMP DEFAULT NOW(),\n       is_read BOOLEAN DEFAULT FALSE\n   );

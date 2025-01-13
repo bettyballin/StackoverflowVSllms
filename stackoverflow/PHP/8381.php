@@ -1,1 +1,0 @@
-<?php\n\n$data = range( 'a', 'z' );\n$numCols = 2;\n\necho "<table>\n";\necho "\t<tr>\n";\n\nforeach( $data as $i => $item )\n{\n    if ( $i != 0 && $i++ % $numCols == 0 )\n    {\n        echo "\t</tr>\n\t<tr>\n";\n    }\n    echo "\t\t<td>$item</td>\n";\n}\n\necho "\t</tr>\n";\necho '</table>';

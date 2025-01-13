@@ -1,0 +1,1 @@
+if (User.IsInRole("YourRoleName"))\n{\n    // Grant access\n}\nelse\n{\n    // Deny access\n}

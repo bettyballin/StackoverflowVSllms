@@ -1,0 +1,1 @@
+gem install ruby-oci8

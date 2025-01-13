@@ -1,1 +1,0 @@
-$truncated = (strlen($string) > 20) ? substr($string, 0, 20) . '...' : $string;

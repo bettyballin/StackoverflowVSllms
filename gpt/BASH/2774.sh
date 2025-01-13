@@ -1,0 +1,1 @@
+%SystemRoot%\Microsoft.NET\Framework\v1.1.4322\aspnet_regiis.exe -s W3SVC/<SiteID>/ROOT/<VirtualDirectory1>\n      %SystemRoot%\Microsoft.NET\Framework\v2.0.50727\aspnet_regiis.exe -s W3SVC/<SiteID>/ROOT/<VirtualDirectory2>

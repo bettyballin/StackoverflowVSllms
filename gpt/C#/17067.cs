@@ -1,0 +1,1 @@
+var bananas = fruits.Where(f => f is Banana).Cast<Banana>();\n\nforeach (var banana in bananas)\n{\n    Console.WriteLine(banana.IsYellow);\n}

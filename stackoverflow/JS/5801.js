@@ -1,1 +1,0 @@
-var pattern = new RegExp("\{[a-zA-Z]+\}", "g");

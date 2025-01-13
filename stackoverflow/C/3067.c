@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nvoid foo()\n{\n    int a = 10;\n    static int sa = 10;\n\n    a += 5;\n    sa += 5;\n\n    printf("a = %d, sa = %d\n", a, sa);\n}\n\n\nint main()\n{\n    int i;\n\n    for (i = 0; i < 10; ++i)\n        foo();\n}

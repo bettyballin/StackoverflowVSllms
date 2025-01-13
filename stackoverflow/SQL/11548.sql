@@ -1,1 +1,0 @@
-SELECT FieldName\nFROM TableName\nLEFT JOIN TableName2 ON UPPER(ColumnName) LIKE TableName2.FieldName2 + '%'\nWHERE TableName2.FieldName2 IS NULL

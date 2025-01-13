@@ -1,1 +1,0 @@
-exec sys.dbms_system.set_bool_param_in_session( *sid*, *serial#*, 'timed_statistics', true )\nexec sys.dbms_system.set_int_param_in_session( *sid*, *serial#*, 'max_dump_file_size', 2000000000 )\nexec sys.dbms_system.set_ev( *sid*, *serial#*, 10046, 5, '' )

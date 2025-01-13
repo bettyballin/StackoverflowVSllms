@@ -1,1 +1,0 @@
-document.getElementById('fancy_frame').onload = setTimeout( printWindow, 2500 );\n\n// implemented in the HTML that is loaded in 'fancy_frame'\nfunction printWindow()\n{\n    window.print();\n}

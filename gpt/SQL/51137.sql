@@ -1,0 +1,1 @@
+DELIMITER $$\n\n   CREATE TRIGGER your_table_after_update\n   AFTER UPDATE ON your_table\n   FOR EACH ROW\n   BEGIN\n     IF NEW.fire_trigger = 1 THEN\n       -- Your trigger logic here\n       -- For example, inserting into a log table\n       INSERT INTO your_log_table (updated_id, update_time) VALUES (NEW.id, NOW());\n     END IF;\n   END$$\n\n   DELIMITER ;

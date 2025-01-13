@@ -1,1 +1,0 @@
-function adbtest() {\n    adb shell  am instrument -w -e class blah.package.$1 blah.package.test/android.test.InstrumentationTestRunner;\n}

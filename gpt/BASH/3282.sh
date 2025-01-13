@@ -1,0 +1,1 @@
+cp -r /path/to/nexus-data/db /path/to/backup-location/db

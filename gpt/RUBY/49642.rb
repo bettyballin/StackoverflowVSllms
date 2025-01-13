@@ -1,0 +1,1 @@
+# config/initializers/mime_types.rb\nMime::Type.register "application/vnd.com.example.Foo+json", :foo_jso

@@ -1,1 +1,0 @@
-Dim endTime as DateTime = DateTime.Now.Add(TimeSpan.FromMinutes(4))

@@ -1,0 +1,1 @@
+from a import *\n\ndef some_function():\n    if name == "Michael":\n        if age == 15:\n            print("Simple!")\n\nsome_function()

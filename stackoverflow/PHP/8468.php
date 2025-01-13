@@ -1,1 +1,0 @@
-for  ($i = 1 ; $i <= 3 ; $i++){\n    $varName = "pBalance".$i;\n    $tempTotal += $$varName;\n}

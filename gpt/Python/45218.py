@@ -1,0 +1,1 @@
+from locust import HttpUser, task, between\n\n   class MyUser(HttpUser):\n       wait_time = between(1, 5)\n\n       @task\n       def put_request(self):\n           self.client.put("/resource", json={"key": "value"})\n\n       @task\n       def delete_request(self):\n           self.client.delete("/resource")

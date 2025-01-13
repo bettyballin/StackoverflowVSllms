@@ -1,1 +1,0 @@
-UPDATE\n    table2\nSET\n    timestampcolumn = whatever\nWHERE\n    EXISTS (SELECT * \n       FROM table1\n       WHERE\n           table1.key = table2.key)\n\n\nINSERT table2 (col1, col2, col3...)\nSELECT col1, col2, col3...\nFROM table1\nWHERE\n    NOT EXISTS (SELECT * \n       FROM table2\n       WHERE\n           table2.key = table1.key)

@@ -1,0 +1,1 @@
+class Post extends AppModel\n{\n    var $name = 'Post';\n\n    var $validate = array(\n        'title' => array(\n            'rule' => 'notBlank',\n            'message' => 'Title cannot be empty'\n        ),\n        'body' => array(\n            'rule' => 'notBlank',\n            'message' => 'Body cannot be empty'\n        )\n    );\n}

@@ -1,0 +1,1 @@
+SELECT userid, score, RANK() OVER (ORDER BY score DESC) as rank\nFROM leaderboard\nWHERE userid = 'specific_userid';

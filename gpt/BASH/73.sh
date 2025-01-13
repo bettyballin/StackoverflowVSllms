@@ -1,0 +1,1 @@
+# Sending a PUT request\n   curl -X PUT http://example.com/resource -d '{"key":"value"}' -H "Content-Type: application/json"\n\n   # Sending a DELETE request\n   curl -X DELETE http://example.com/resource

@@ -1,1 +1,0 @@
-DataSet ds = new DataSet();\nds.Tables.Add(new DataTable());\nds.Tables[0].Columns.Add("column_1", typeof(string));\nds.Tables[0].Columns.Add("column_2", typeof(int));\nds.Tables[0].Columns.Add("column_4", typeof(string));\nds.Tables[0].Columns.Add("column_3", typeof(string));\n//set column 3 to be before column 4\nds.Tables[0].Columns[3].SetOrdinal(2);

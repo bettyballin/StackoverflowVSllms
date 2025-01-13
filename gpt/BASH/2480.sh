@@ -1,0 +1,1 @@
+javaws -Xnosplash -verbose jnlp-url > output.txt 2>&1

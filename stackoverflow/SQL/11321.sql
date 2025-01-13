@@ -1,1 +1,0 @@
-MsgId identity -- NOT NULL\nMsgTypeCode varchar(20) -- NOT NULL  \nSourceCode varchar(20)  -- process inserting the message -- NULLable  \nState char(1) -- 'N'ew if queued, 'A'(ctive) if processing, 'C'ompleted, default 'N' -- NOT NULL \nCreateTime datetime -- default GETDATE() -- NOT NULL  \nMsg varchar(255) -- NULLable  

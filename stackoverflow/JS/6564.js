@@ -1,1 +1,0 @@
-var queryString = $('#myFormId').formSerialize();

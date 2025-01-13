@@ -1,0 +1,1 @@
+#include <windows.h>\n#include <iostream>\n\nDWORD WINAPI MyThreadFunction(LPVOID lpParam) {\n    std::cout << "Thread is running..." << std::endl;\n    return 0;\n}\n\nint main() {\n    HANDLE thread = CreateThread(NULL, 0, MyThreadFunction, NULL, 0, NULL);\n    WaitForSingleObject(thread, INFINITE);\n    CloseHandle(thread);\n    return 0;\n}

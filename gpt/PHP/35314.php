@@ -1,0 +1,1 @@
+// Assuming autoloading is set up correctly\n   $user = ORM::factory('User', $id);\n   echo $user->username;

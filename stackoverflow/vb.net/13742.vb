@@ -1,1 +1,0 @@
-If usedTemplates IsNot Nothing Then\n    addIns = addIns.Where(Function(a) usedTemplates.Contains(a.TemplateID) = False) _\n                   .ToList()\nEnd If

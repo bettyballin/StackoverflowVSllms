@@ -1,1 +1,0 @@
-<?php\n$text = "blah\n<!-x=abc->blah<!-x=def->blah\n\nblah<!-x=ghi->\nblahblah" ;\n$reg  = "/<!-x=(.*)->/U" ;\npreg_match_all( $reg, $text, $matches ) ;\nprint_r( $matches ) ;

@@ -1,0 +1,1 @@
+SET STATISTICS TIME ON\n   \n   SELECT\n       lat.LAT AS Lat,\n       lon.LON AS Lon\n   FROM\n       Address_Location WITH(NOLOCK)\n   CROSS APPLY dbo.usf_GIS_GET_LAT(City, [State]) AS lat\n   CROSS APPLY dbo.usf_GIS_GET_LON(City, [State]) AS lon\n   WHERE\n       ID IN (SELECT TOP 100 ID FROM Address_Location WITH(NOLOCK) ORDER BY ID DESC)\n   \n   SET STATISTICS TIME OFF

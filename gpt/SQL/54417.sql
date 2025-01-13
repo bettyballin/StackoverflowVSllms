@@ -1,0 +1,1 @@
+SELECT `ip`, DATE(`when`) as `date`\nFROM `metrics`\nWHERE `vidID` = '1'\nGROUP BY DATE(`when`);

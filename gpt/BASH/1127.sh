@@ -1,0 +1,1 @@
+rsync -av --dry-run --out-format='%n' source/ destination/ > filelist.txt

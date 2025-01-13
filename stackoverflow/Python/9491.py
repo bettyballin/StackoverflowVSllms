@@ -1,1 +1,0 @@
-from django.db.models import Max, F\n\nContract.objects.annotate(max_price=Max('market__contract__current_price')).filter(current_price=F('max_price')).select_related()

@@ -1,1 +1,0 @@
-SELECT TRIM(BOTH ', ' FROM CONCAT(IFNULL(address,''), ', ', IFNULL(city,''))) FROM locals;

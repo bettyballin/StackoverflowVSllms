@@ -1,0 +1,1 @@
+docker run -it --name myapp-testing -v /path/to/app:/app myapp-image

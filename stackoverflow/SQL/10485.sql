@@ -1,1 +1,0 @@
-SELECT p.id, name\nFROM parent p\nJOIN relationship r1 ON p.id = r1.parent_id AND r1.other_id = 100\nJOIN relationship r2 ON p.id = r2.parent_id AND r2.other_id = 101\nJOIN relationship r3 ON p.id = r3.parent_id AND r3.other_id = 102\nJOIN relationship r4 ON p.id = r4.parent_id AND r4.other_id = 103

@@ -1,0 +1,1 @@
+convert capture.xwd capture.png

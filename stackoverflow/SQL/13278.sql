@@ -1,1 +1,0 @@
-SELECT  Description, Date\nFROM     (SELECT  ROW_NUMBER() OVER (ORDER BY Date DESC)\n             AS Row, Description, Date FROM LOG)\n            AS LogWithRowNumbers\nWHERE  Row >= 11 AND Row <= 20

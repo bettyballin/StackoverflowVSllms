@@ -1,1 +1,0 @@
-$("div#foo").fadeIn("fast",function(){\n      $("div#bar").fadeIn("fast", function(){\n           // etc.\n      });\n   });

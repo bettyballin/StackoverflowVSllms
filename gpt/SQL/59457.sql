@@ -1,0 +1,1 @@
+SELECT city\nFROM cities\nORDER BY \n    CASE \n        WHEN city = 'Montreal' THEN 0\n        ELSE 1\n    END, \n    city;

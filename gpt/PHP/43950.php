@@ -1,0 +1,1 @@
+// Enable all errors, warnings, and notices\nerror_reporting(E_ALL);\n\n// Optionally, you can also display the errors (useful in development)\nini_set('display_errors', 1);

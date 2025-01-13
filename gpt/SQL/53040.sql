@@ -1,0 +1,1 @@
+CREATE TABLE form_data (\n        id SERIAL PRIMARY KEY,\n        form_id INT,\n        form_data JSONB\n    );

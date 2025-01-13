@@ -1,1 +1,0 @@
-t1 | ID, FK, Data\nt2 | ID2, Data2

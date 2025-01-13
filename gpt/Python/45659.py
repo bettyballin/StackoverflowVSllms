@@ -1,0 +1,1 @@
+df.at[row_index, 'col'] = 'updated_value'

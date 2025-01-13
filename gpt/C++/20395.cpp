@@ -1,0 +1,1 @@
+// MyDialogDLL.h\n#ifdef MYDIALOGDLL_EXPORTS\n#define MYDIALOGDLL_API __declspec(dllexport)\n#else\n#define MYDIALOGDLL_API __declspec(dllimport)\n#endif\n\nextern "C" MYDIALOGDLL_API void ShowDialog();

@@ -1,0 +1,1 @@
+@echo off\nset backupFile=C:\Backups\SBS_Backup.bkf\nset logFile=C:\Backups\SBS_Backup_Log.txt\n\nntbackup backup systemstate "@C:\Backup Selection Files\SBS_Backup.bks" /j "SBS Backup" /f "%backupFile%" /l:s > "%logFile%" 2>&1

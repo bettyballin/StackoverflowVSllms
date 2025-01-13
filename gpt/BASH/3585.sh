@@ -1,0 +1,1 @@
+rsync -av --delete /path/to/source/ /path/to/destination/

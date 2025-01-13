@@ -1,1 +1,0 @@
-std::cout << std::setw (10) << 77 << std::endl;

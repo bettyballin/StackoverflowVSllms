@@ -1,0 +1,1 @@
+for file in .[^.]*; do\n  if [ -f "$file" ]; then\n    sed -i.bakkk -e 's#/sa/#/he/#g' "$file"\n  fi\ndone

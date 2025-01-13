@@ -1,0 +1,1 @@
+ALTER TABLE your_table\nADD CONSTRAINT unique_ab UNIQUE (a, b);

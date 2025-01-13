@@ -1,0 +1,1 @@
+#include <QApplication>\n#include <QPushButton>\n\nint main(int argc, char *argv[]) {\n    QApplication app(argc, argv);\n\n    QPushButton button("Hello World");\n    button.resize(200, 100);\n    button.show();\n\n    return app.exec();\n}

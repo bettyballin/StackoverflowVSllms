@@ -1,0 +1,1 @@
+awk '\n/^ Wed Nov 12.*cat/ { \n    print; \n    while ((getline line) > 0) {\n        if (line ~ /^ Wed Nov 12/) {\n            if (line ~ /cat/) {\n                print line;\n            } else {\n                break;\n            }\n        } else {\n            print line;\n        }\n    }\n}\n' logfile

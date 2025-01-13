@@ -1,1 +1,0 @@
-def doAppend( size=10000 ):\n    result = []\n    for i in range(size):\n        message= "some unique object %d" % ( i, )\n        result.append(message)\n    return result\n\ndef doAllocate( size=10000 ):\n    result=size*[None]\n    for i in range(size):\n        message= "some unique object %d" % ( i, )\n        result[i]= message\n    return result

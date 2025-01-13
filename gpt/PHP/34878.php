@@ -1,0 +1,1 @@
+// db.php or similar file\n$mysqli = new mysqli("localhost", "username", "password", "database");\n\nif ($mysqli->connect_error) {\n    die("Connection failed: " . $mysqli->connect_error);\n}\n\n// Add message code here\n\n$mysqli->close();\n?>

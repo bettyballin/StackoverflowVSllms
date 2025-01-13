@@ -1,1 +1,0 @@
-$postslist = get_posts($cat->cat_ID, 'numberposts=1&order=DESC');

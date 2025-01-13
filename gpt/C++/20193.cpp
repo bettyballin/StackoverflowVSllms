@@ -1,0 +1,1 @@
+#include <htmlhelp.h>\n   #pragma comment(lib, "htmlhelp.lib")

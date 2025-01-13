@@ -1,0 +1,1 @@
+<?php\n   $to = "recipient@example.com";\n   $subject = "Test mail";\n   $message = "Hello! This is a simple email message.";\n   $headers = "From: sender@example.com";\n\n   if (mail($to, $subject, $message, $headers)) {\n       echo "Email successfully sent.";\n   } else {\n       echo "Email sending failed.";\n   }\n   ?>

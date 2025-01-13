@@ -1,1 +1,0 @@
-$str = '<img src="...">';\n\necho '<a href="#" onclick="makewindows('\n    . htmlspecialchars(json_encode($str))\n    . '); return false;">Click for full description</a></p>';

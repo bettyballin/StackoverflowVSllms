@@ -1,1 +1,0 @@
-$('#tabs').bind('tabsshow', function(event, ui) {\n    if (ui.panel.id == "tabs-5") {\n        directions = new GDirections(dirMap, $("div#dirMapText").get(0));\n        directions.load("from: Yokota@35.740066,139.347582 to: Ruby International@35.796532,139.406645");\n    }\n});

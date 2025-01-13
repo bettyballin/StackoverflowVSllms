@@ -1,0 +1,1 @@
+session_start(); // Make sure to start the session\n\n// When the user selects a language\n$_SESSION['user_language'] = 'en'; // this would be the user-selected language\n\n// To retrieve the language\nif(isset($_SESSION['user_language'])) {\n    $user_language = $_SESSION['user_language'];\n} else {\n    // Fallback language\n    $user_language = 'default_language';\n}

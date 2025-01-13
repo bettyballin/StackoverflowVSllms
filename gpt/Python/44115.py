@@ -1,0 +1,1 @@
+last_9_items = num_list[-9:]

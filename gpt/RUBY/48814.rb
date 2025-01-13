@@ -1,0 +1,1 @@
+gem install mini_magick\ngem install docsplit

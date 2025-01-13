@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Load environment variables from a protected file\nsource /etc/myapp/config\n\n# Alternatively, retrieve from secret-tool\n# DB_PASSWORD=$(secret-tool lookup service myapp db_password)\n\n# Use the password in your application\necho "Connecting to the database with password: $DB_PASSWORD"

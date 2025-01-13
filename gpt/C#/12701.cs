@@ -1,0 +1,1 @@
+using System;\n\nclass Program\n{\n    static void Main()\n    {\n        int processorCount = Environment.ProcessorCount;\n        Console.WriteLine("Number of processors: " + processorCount);\n    }\n}

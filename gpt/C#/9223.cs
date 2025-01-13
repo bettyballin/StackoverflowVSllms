@@ -1,0 +1,1 @@
+public string MyProperty\n{\n    get\n    {\n        return _MyBackingField;\n    }\n    set\n    {\n        if (value.Length > 100)\n            throw new ArgumentException("MyProperty has a maximum length of 100.", nameof(value));\n\n        _MyBackingField = value;\n    }\n}

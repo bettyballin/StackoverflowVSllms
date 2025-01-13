@@ -1,1 +1,0 @@
-SELECT u.username, a.name\nFROM user_activity ua\nINNER JOIN session s\nON ua.session_id = s.session_id\nINNER JOIN user u\nON s.user_id = u.user_id\nINNER JOIN activity a\nON ua.activity_id = a.activity_id

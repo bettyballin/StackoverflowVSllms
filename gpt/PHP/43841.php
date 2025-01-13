@@ -1,0 +1,1 @@
+$mail->Username   = getenv('GMAIL_USERNAME');\n$mail->Password   = getenv('GMAIL_PASSWORD');

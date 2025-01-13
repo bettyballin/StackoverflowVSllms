@@ -1,1 +1,0 @@
-public DomainObject(delegate getApplicationsByBatchID)\n{\n    ...\n}

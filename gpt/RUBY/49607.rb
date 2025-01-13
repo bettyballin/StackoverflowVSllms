@@ -1,0 +1,1 @@
+class CreateCustomTable < ActiveRecord::Migration[6.0]\n  def change\n    create_table :custom_table, id: false do |t|\n      t.string :key_column, primary_key: true\n      t.string :value_column\n\n      t.timestamps\n    end\n  end\nend

@@ -1,1 +1,0 @@
-interface c extends a, b\n{\n   ...\n}

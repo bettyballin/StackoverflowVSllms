@@ -1,0 +1,1 @@
+DllLoader loader = new DllLoader();\nloader.LoadDll(@"C:\path\to\your\dll\YourLibrary.dll");

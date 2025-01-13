@@ -1,0 +1,1 @@
+sword status = OCILobTrim(envhp, errhp, lob_loc, 0);\nif (status != OCI_SUCCESS) {\n    // Handle the error\n    OCIErrorGet(errhp, 1, NULL, &errcode, errbuf, sizeof(errbuf), OCI_HTYPE_ERROR);\n    fprintf(stderr, "OCILobTrim failed: %s\n", errbuf);\n}

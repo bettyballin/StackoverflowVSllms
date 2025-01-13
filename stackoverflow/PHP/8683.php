@@ -1,1 +1,0 @@
-session_start();\n$_SESSION['mailbox'] = array( /* messages */ );

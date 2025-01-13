@@ -1,0 +1,1 @@
+#include <unistd.h>\n#include <iostream>\n\nint main() {\n    long cache_line_size = sysconf(_SC_LEVEL1_DCACHE_LINESIZE);\n    if (cache_line_size == -1) {\n        std::cerr << "Could not determine cache line size" << std::endl;\n        return 1;\n    }\n    std::cout << "Cache line size: " << cache_line_size << " bytes" << std::endl;\n    return 0;\n}

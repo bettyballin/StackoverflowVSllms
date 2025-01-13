@@ -1,0 +1,1 @@
+[HttpPost]\npublic ActionResult Logout()\n{\n    // Invalidate the session\n    Session.Clear();\n    Session.Abandon();\n\n    // Clear authentication cookies\n    FormsAuthentication.SignOut();\n\n    // Return a success response\n    return Json(new { success = true });\n}

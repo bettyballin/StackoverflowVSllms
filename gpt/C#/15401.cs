@@ -1,0 +1,1 @@
+var sessionFactory = new NHibernate.Cfg.Configuration().Configure().BuildSessionFactory();\nusing (var session = sessionFactory.OpenSession())\n{\n    using (var transaction = session.BeginTransaction())\n    {\n        var users = session.CreateCriteria<User>().List<User>();\n        transaction.Commit();\n    }\n}

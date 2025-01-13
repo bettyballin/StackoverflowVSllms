@@ -1,0 +1,1 @@
+<connectionStrings>\n     <add name="AccessDbContext"\n          connectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\path\to\your\database.accdb;"\n          providerName="System.Data.OleDb" />\n   </connectionStrings>

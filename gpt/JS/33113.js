@@ -1,0 +1,1 @@
+<script>\n     var timezone_offset_minutes = new Date().getTimezoneOffset();\n     timezone_offset_minutes = timezone_offset_minutes == 0 ? 0 : -timezone_offset_minutes;\n     document.cookie = "timezone_offset=" + timezone_offset_minutes;\n   </script>

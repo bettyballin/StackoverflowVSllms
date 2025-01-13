@@ -1,0 +1,1 @@
+<?php\n$string1 = "I am looking for a way to pull the first 100 characters from a string variable to put in another variable for printing.";\n$string2 = substr($string1, 0, 100);\nprint $string2;\n?>

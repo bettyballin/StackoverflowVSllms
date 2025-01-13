@@ -1,0 +1,1 @@
+# Set the path to GCC 4.1\nexport PATH=/path/to/gcc-4.1/bin:$PATH\nexport LD_LIBRARY_PATH=/path/to/gcc-4.1/lib:$LD_LIBRARY_PATH\nexport C_INCLUDE_PATH=/path/to/gcc-4.1/include:$C_INCLUDE_PATH\nexport CPLUS_INCLUDE_PATH=/path/to/gcc-4.1/include:$CPLUS_INCLUDE_PATH

@@ -1,0 +1,1 @@
+#include <windows.h>\n#include <combaseapi.h>\n#include <atlbase.h>

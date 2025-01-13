@@ -1,0 +1,1 @@
+public class MyData\n{\n    public string Field1 { get; set; }\n    public string Field2 { get; set; }\n    public string Field3 { get; set; }\n}

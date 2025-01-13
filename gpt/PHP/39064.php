@@ -1,0 +1,1 @@
+define( 'BP_DEBUG', true );

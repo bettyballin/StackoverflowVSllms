@@ -1,0 +1,1 @@
+// Assume $db is your PDO instance and $str is the search term\n$str = '%' . $str . '%';\n$query = $db->prepare("SELECT * FROM comments WHERE comment LIKE :search");\n$query->bindParam(':search', $str, PDO::PARAM_STR);\n$query->execute();\n\n$results = $query->fetchAll(PDO::FETCH_ASSOC);

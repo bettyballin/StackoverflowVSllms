@@ -1,0 +1,1 @@
+CREATE LOGIN [exampleUser] WITH PASSWORD = 'StrongPassword123!',\nCHECK_POLICY = ON,\nCHECK_EXPIRATION = ON;

@@ -1,0 +1,1 @@
+public class UniqueNamedEntityMap : ClassMap<UniqueNamedEntity>\n{\n    public UniqueNamedEntityMap()\n    {\n        Id(x => x.Id);\n        Map(x => x.UniqueName).Not.Nullable();\n        // Other common mappings\n    }\n}

@@ -1,0 +1,1 @@
+class ITest {\npublic:\n    virtual void doSomething() = 0;\n\nprotected:\n    virtual ~ITest() {} // Make the destructor virtual\n};\n\nvoid someFunction(ITest* test) {\n    test->doSomething(); // ok\n    // deleting object is not allowed\n    // delete test; \n}

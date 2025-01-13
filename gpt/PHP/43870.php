@@ -1,0 +1,1 @@
+$config = parse_ini_file('/path/to/secure/config.ini');\n   $encryption_key = $config['encryption_key'];

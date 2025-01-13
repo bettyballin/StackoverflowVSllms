@@ -1,0 +1,1 @@
+files = [\n  'yes.rar',\n  'yes.part1.rar',\n  'yes.part01.rar',\n  'yes.part001.rar',\n  'no.part2.rar',\n  'no.part02.rar',\n  'no.part002.rar',\n  'no.part011.rar'\n]\n\nregex = /^(.*\.rar|.*\.part0*1\.rar)$/\n\nfiles.each do |file|\n  if file.match?(regex)\n    puts "#{file} matches"\n  else\n    puts "#{file} does not match"\n  end\nend

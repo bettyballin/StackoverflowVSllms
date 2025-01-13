@@ -1,0 +1,1 @@
+-- Step 1: Drop the existing constraint\nALTER TABLE your_table_name DROP CONSTRAINT gradeRule;\n\n-- Step 2: Add the new constraint with updated values\nALTER TABLE your_table_name\nADD CONSTRAINT gradeRule CHECK (grade IN ('easy', 'medium', 'hard'));

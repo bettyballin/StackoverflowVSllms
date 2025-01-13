@@ -1,0 +1,1 @@
+SELECT table_name, ROUND((num_rows - num_blocks) / num_rows * 100, 2) AS fragmentation FROM user_tables WHERE num_rows > 0;

@@ -1,1 +1,0 @@
-DELETE FROM student WHERE\n(student.course, student.major) IN\n(SELECT schedule.course, schedule.major FROM schedule)

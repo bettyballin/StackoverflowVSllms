@@ -1,0 +1,1 @@
+sudo losetup -fP /path/to/disk_image.img

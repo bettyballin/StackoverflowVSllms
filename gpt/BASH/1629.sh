@@ -1,0 +1,1 @@
+cd ~\n   git init .emacs.d\n   cd .emacs.d\n   git add .\n   git commit -m "Initial commit"

@@ -1,1 +1,0 @@
-function redirect(a,b){\n      if(confirm('Your email id is in DB')){\n          window.location.href='/articles.asp?a='+a+'&b='+b;\n       }\n} 

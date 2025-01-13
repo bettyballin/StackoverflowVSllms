@@ -1,1 +1,0 @@
-$obj = ORM::factory('shoppingcart')->where('sessionID',session_id())->find();\n\nif($obj->loaded == TRUE)\n{\n  // user has a shopping cart\n}\nelse\n{\n  // no shopping cart found\n}

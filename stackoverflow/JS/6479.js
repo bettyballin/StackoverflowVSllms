@@ -1,1 +1,0 @@
-function cbWrapper(data, funct){\n    if($("#myForm", data).length > 0)\n        top.location.href="login.htm";//redirection\n    else\n        funct(data);\n}

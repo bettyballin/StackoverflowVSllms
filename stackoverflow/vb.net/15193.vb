@@ -1,1 +1,0 @@
-If New FileInfo(.FileName).Length > 25 * 1024 Then ... 'More than 25KB'\nDim img = Image.FromFile(.FileName)\nIf img.Size.Width > 150 OrElse img.Size.Height > 150 Then ... 'More than 150x150'\nPicturebox1.Image = img

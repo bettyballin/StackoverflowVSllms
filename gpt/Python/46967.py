@@ -1,0 +1,1 @@
+from selenium import webdriver\n   from selenium.webdriver.common.keys import Keys\n\n   driver = webdriver.Chrome()\n   driver.get("http://www.example.com")\n   assert "Example Domain" in driver.title\n   driver.close()

@@ -1,0 +1,1 @@
+SaveImageWithRetryAndUniqueName("path/to/image", chart);

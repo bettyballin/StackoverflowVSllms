@@ -1,1 +1,0 @@
-class PermissionList(models.Model):\n    setter = models.ManyToManyField(User)\n    email = models.EmailField(unique=True) #don't want conflicting results\n    permission = models.BooleanField()

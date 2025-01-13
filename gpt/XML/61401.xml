@@ -1,0 +1,1 @@
+<tasks>\n  <msbuild>\n    ...\n  </msbuild>\n  <exec>\n    <executable>powershell.exe</executable>\n    <buildArgs>-File "C:\Path\To\DeploymentScript.ps1"</buildArgs>\n    <baseDirectory>C:\Path\To\Build\Output</baseDirectory>\n    <timeout>300</timeout>\n  </exec>\n</tasks>

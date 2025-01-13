@@ -1,0 +1,1 @@
+BEGIN\n       DBMS_OUTPUT.PUT_LINE('Starting script...');\n       EXECUTE IMMEDIATE 'ALTER TABLE employees ADD (email VARCHAR2(50))';\n       COMMIT;\n       DBMS_OUTPUT.PUT_LINE('Script complete.');\n   END;\n   /

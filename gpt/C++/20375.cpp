@@ -1,0 +1,1 @@
+amespace bg = boost::geometry;\nnamespace bgi = boost::geometry::index;\n\ntypedef bg::model::point<float, 2, bg::cs::cartesian> Point;\ntypedef bg::model::box<Point> Box;\ntypedef std::pair<Point, unsigned> Value;

@@ -1,1 +1,0 @@
->>> sorted(mytuple)\n[['I', 4], ['say', 2], ['say', 5], ['tomato', 3], ['tomato', 6], ['you', 1]]

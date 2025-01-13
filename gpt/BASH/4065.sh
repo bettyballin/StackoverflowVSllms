@@ -1,0 +1,1 @@
+pdflatex your-document.tex

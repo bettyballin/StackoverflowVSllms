@@ -1,0 +1,1 @@
+<?php\n// Clear APC user cache\napc_clear_cache('user');\n\n// Clear APC opcode cache\napc_clear_cache();\n\n// If using APCu, use the following line to clear user cache\n// apcu_clear_cache();\n\necho "APC caches cleared.";\n?>

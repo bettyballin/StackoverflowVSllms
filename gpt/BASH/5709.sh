@@ -1,0 +1,1 @@
+# For Python 2.x\n   python -m SimpleHTTPServer 8000

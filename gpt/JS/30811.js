@@ -1,0 +1,1 @@
+var myUrl = "http://example.com/index.html?param=1&anotherParam=2";\nvar encodedUrl = encodeURIComponent(myUrl);\nvar myOtherUrl = "http://example.com/index.html?url=" + encodedUrl;\n\nconsole.log(myOtherUrl);

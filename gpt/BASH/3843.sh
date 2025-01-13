@@ -1,0 +1,1 @@
+sudo chmod 755 /usr/local/php/lib/php/extensions/no-debug-non-zts-20060613/gd.so\n   sudo chown root:wheel /usr/local/php/lib/php/extensions/no-debug-non-zts-20060613/gd.so

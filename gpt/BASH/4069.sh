@@ -1,0 +1,1 @@
+phpize\n   ./configure\n   make\n   sudo make install

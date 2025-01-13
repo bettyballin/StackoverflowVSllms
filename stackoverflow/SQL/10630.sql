@@ -1,1 +1,0 @@
-SELECT Col1, Col2, Unp1, Unp2, Unp3\nFROM TBL\nUNPIVOT (XX For Unp1 (ColXX1, ColXX2))\nUNPIVOT (YY For Unp2 (ColYY1, ColYY2))\nUNPIVOT (ZZ For Unp2 (ColZZ1, ColZZ2))

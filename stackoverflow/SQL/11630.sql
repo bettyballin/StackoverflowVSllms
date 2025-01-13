@@ -1,1 +1,0 @@
---using equals operator...\nSelect t1.DataID, t2.DataID From TestTable t1, TestTable t2\nWhere t1.DataID <> t2.DataID\nand t1.Data = t2.Data\n\n--using replace to add an escape character.\nSelect t1.DataID, t2.DataID From TestTable t1, TestTable t2\nWhere t1.DataID <> t2.DataID\nand t1.Data like REPLACE(t2.Data, '[', '\[') escape '\'

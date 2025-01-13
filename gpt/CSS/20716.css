@@ -1,0 +1,1 @@
+div#header {\n    width: 100%;\n    background-color: #252525;\n    padding: 10px 0px 10px 15px;\n    position: relative;\n    box-sizing: border-box; /* Add this line */\n}\n\ndiv#login {\n    float: right;\n    position: absolute;\n    right: 10px;\n    top: 5px;\n}

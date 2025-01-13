@@ -1,1 +1,0 @@
-var $hasMany = array('Friend');

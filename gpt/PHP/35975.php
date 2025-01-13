@@ -1,0 +1,1 @@
+$pdo = new PDO('mysql:host=localhost;dbname=test', 'username', 'password');\n$stmt = $pdo->prepare("INSERT INTO table_name (column_name) VALUES (:value)");\n\n// Binding NULL\n$value = null;\n$stmt->bindValue(':value', $value, PDO::PARAM_NULL);\n$stmt->execute();\n\n// Binding empty string\n$value = '';\n$stmt->bindValue(':value', $value, PDO::PARAM_STR);\n$stmt->execute();

@@ -1,0 +1,1 @@
+open -na "Terminal" --args bash -c '/path/to/your/script.sh'

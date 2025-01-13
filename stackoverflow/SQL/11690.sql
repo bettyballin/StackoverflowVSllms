@@ -1,1 +1,0 @@
-SELECT *, AVG(hits / DATEDIFF(NOW(), created)) as avg_hits\nFROM entries\nWHERE is_published = 1\nGROUP BY id\nORDER BY avg_hits DESC\nLIMIT 10

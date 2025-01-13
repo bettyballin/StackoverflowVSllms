@@ -1,0 +1,1 @@
+#Disable Warning BC40000 ' Obsolete warning\n\n' Your code that uses the obsolete method\nDim result As String = SomeObsoleteMethod()\n\n#Enable Warning BC40000 ' Obsolete warning

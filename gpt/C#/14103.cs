@@ -1,0 +1,1 @@
+string a = "Hello";\nstring b = " World";\n\nstring result = (a ?? "") + (b ?? "");\nConsole.WriteLine(result); // Outputs: "Hello World"

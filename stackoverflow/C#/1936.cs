@@ -1,1 +1,0 @@
-DirectoryEntry myOU = new DirectoryEntry("LDAP://OU=MyOU,......,DC=MyCompany,DC=com");

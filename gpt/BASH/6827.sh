@@ -1,0 +1,1 @@
+// Example of registering an OCX file\n   regsvr32 yourcontrol.ocx

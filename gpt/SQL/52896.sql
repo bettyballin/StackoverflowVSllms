@@ -1,0 +1,1 @@
+CREATE DIRECTORY backup_dir AS '/path/to/backup/location';

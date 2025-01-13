@@ -1,0 +1,1 @@
+PDFMerger.MergePDFs("path/to/first.pdf", "path/to/second.pdf", "path/to/output.pdf");

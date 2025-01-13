@@ -1,0 +1,1 @@
+Sub CallWebService()\n       Dim comObject As Object\n       Set comObject = CreateObject("YourComLibrary.YourClass")\n\n       On Error GoTo ErrorHandler\n       Dim result As Variant\n       result = comObject.YourMethod("parameter1", "parameter2")\n       MsgBox "Result: " & result\n\n       Exit Sub\n\n   ErrorHandler:\n       MsgBox "Error: " & Err.Description\n   End Sub

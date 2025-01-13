@@ -1,0 +1,1 @@
+<ItemGroup>\n    <Reference Include="ThirdPartyLibrary">\n        <HintPath>..\ThirdParty\thirdparty.dll</HintPath>\n    </Reference>\n</ItemGroup>

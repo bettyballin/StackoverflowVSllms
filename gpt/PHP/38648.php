@@ -1,0 +1,1 @@
+$arr = array("a" => "a", "b" => "b", "z" => "z");\n\nforeach ($arr as $key => $val) {\n    echo "$key: $val\n";\n}

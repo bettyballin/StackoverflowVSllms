@@ -1,1 +1,0 @@
-class childClass extends parentClass\n{\n    function childClass()\n    {\n        //do nothing\n    }\n\n    function loadFromParentObj( $parentObj )\n    {\n        $this->a = $parentObj->a;\n        $this->b = $parentObj->b;\n        $this->c = $parentObj->c;\n    }\n};\n\n$myParent = new parentClass();\n$myChild = new childClass();\n$myChild->loadFromParentObj( $myParent );

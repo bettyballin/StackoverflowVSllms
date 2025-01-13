@@ -1,0 +1,1 @@
+class YourModelsController < ApplicationController\n  def download\n    your_model = YourModel.find(params[:id])\n    send_data your_model.binary_data, filename: 'your_file.bin', type: 'application/octet-stream'\n  end\nend

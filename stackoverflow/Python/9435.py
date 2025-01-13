@@ -1,1 +1,0 @@
-def on_TestClass_destroy(self, widget):\n    gtk.main_quit()

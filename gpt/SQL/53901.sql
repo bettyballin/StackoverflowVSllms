@@ -1,0 +1,1 @@
+SELECT EXTRACT(EPOCH FROM (enddate - stardate)) AS seconds_diff\nFROM your_table;

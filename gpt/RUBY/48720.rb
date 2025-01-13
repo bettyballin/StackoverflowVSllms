@@ -1,0 +1,1 @@
+class Item < ActiveRecord::Base\n  has_many :tran_items\n  has_many :transactions, through: :tran_items\nend\n\nclass TranItem < ActiveRecord::Base\n  belongs_to :item\n  belongs_to :transaction\nend\n\nclass Transaction < ActiveRecord::Base\n  has_many :tran_items\n  has_many :items, through: :tran_items\nend

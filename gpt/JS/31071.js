@@ -1,0 +1,1 @@
+// main.js\n   require.config({\n       paths: {\n           'jquery': 'path/to/jquery',\n           'plugin1': 'path/to/plugin1',\n           'plugin2': 'path/to/plugin2',\n           'plugin3': 'path/to/plugin3'\n       }\n   });\n\n   require(['jquery', 'plugin1', 'plugin2', 'plugin3'], function($) {\n       // Your initialization code here\n   });

@@ -1,1 +1,0 @@
-protected override void OnKeyUp(KeyEventArgs e)\n{\n    if (e.KeyCode == Keys.Right)\n    {\n       Control activeControl = this.ActiveControl;\n\n       if(activeControl == null)\n       {\n            activeControl = this;\n       }\n\n       this.SelectNextControl(activeControl, true, true, true, true);\n       e.Handled = true;\n    }\n\n    base.OnKeyUp(e);\n}

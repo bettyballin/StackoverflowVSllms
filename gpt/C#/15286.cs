@@ -1,0 +1,1 @@
+// Example of a simple controller action in ASP.NET MVC\n   public class HomeController : Controller\n   {\n       public ActionResult Index()\n       {\n           var model = new MyViewModel { Message = "Hello, world!" };\n           return View(model);\n       }\n   }

@@ -1,0 +1,1 @@
+$wgGroupPermissions['readers']['read'] = true;\n$wgGroupPermissions['editors']['read'] = true;\n$wgGroupPermissions['editors']['edit'] = true;\n$wgGroupPermissions['admins']['read'] = true;\n$wgGroupPermissions['admins']['edit'] = true;\n$wgGroupPermissions['admins']['delete'] = true;

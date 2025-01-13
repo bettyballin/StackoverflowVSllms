@@ -1,1 +1,0 @@
-News.all(:conditions => {:role_id => @news_writers.map(&:id)})

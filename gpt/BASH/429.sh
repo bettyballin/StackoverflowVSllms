@@ -1,0 +1,1 @@
+# Create a Docker container with limited resources\ndocker run -d \\n  --name sandbox \\n  --memory="256m" \\n  --cpus="1" \\n  -v /path/to/sandbox:/sandbox \\n  --read-only \\n  your-container-image

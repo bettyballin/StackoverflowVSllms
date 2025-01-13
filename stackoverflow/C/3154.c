@@ -1,1 +1,0 @@
-void returnString(char myString[])\n{\n  const char *aString = "test string";\n  memcpy(myString, aString, 12);\n}

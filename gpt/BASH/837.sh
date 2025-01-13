@@ -1,0 +1,1 @@
+loadjava -user MYUSER/MYPWD@dbinstance -resolve saaj-api.jar\n   loadjava -user MYUSER/MYPWD@dbinstance -resolve saaj-impl.jar

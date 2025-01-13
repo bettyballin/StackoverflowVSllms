@@ -1,1 +1,0 @@
-$path = $GLOBALS['LOCALE_DIR'] . '/en/LC_MESSAGES/mydomain.po';\n$poSrc = file_get_contents($path);\npreg_match_all('/msgid\s+\"([^\"]*)\"/', $poSrc, $matches);\n$msgids = $matches[1];\n\nforeach ($msgids as $msgid) {\n    do_something_awesome($msgid);\n}

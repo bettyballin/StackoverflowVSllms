@@ -1,0 +1,1 @@
+-- Enable CDC on a table\nEXEC sys.sp_cdc_enable_table\n    @source_schema = 'dbo',\n    @source_name   = 'MyTable',\n    @role_name     = NULL;\n\n-- Changes can be queried from the CDC table\nSELECT * FROM cdc.dbo_MyTable_CT;

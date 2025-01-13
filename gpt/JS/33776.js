@@ -1,0 +1,1 @@
+$(function() {\n    $("#datepicker").datepicker({\n        dateFormat: "dd/mm/yy"\n    });\n});

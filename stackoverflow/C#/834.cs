@@ -1,1 +1,0 @@
-while(!string.IsNullOrEmpty(str))

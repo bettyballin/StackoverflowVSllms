@@ -1,0 +1,1 @@
+<?php\ninclude 'path/to/geshi/geshi.php';\n\n$source = '<?php echo "Hello, World!"; ?>';\n$language = 'php'; // Set the language\n\n$geshi = new GeSHi($source, $language);\necho $geshi->parse_code();\n?>

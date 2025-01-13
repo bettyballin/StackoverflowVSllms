@@ -1,0 +1,1 @@
+composer require pear/text_languagedetect

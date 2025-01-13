@@ -1,0 +1,1 @@
+<?php\necho session_save_path();\n?>

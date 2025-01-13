@@ -1,0 +1,1 @@
+using System;\nusing System.Drawing.Printing;\n\nclass Program\n{\n    static void Main()\n    {\n        PrinterSettings printerSettings = new PrinterSettings();\n        string defaultPrinter = printerSettings.PrinterName;\n\n        Console.WriteLine("Default Printer: " + defaultPrinter);\n    }\n}

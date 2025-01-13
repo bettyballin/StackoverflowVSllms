@@ -1,0 +1,1 @@
+$booleanValue = $row['boolean_column']; // This is your boolean value from the database\n\n   if ($booleanValue) {\n       echo 'Yes'; // or echo '<img src="tick.png">';\n   } else {\n       echo 'No'; // or echo '<img src="cross.png">';\n   }

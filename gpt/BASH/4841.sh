@@ -1,0 +1,1 @@
+pdftk input.pdf output output.pdf flatte

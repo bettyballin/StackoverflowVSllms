@@ -1,0 +1,1 @@
+const ffmpeg = require('fluent-ffmpeg');\n\n   ffmpeg()\n     .input('guitar.mp3')\n     .input('vocals.mp3')\n     .complexFilter(['[0:a][1:a]amix=inputs=2:duration=first:dropout_transition=3[a]'])\n     .outputOptions('-map', '[a]')\n     .save('output.mp3')\n     .on('end', () => {\n       console.log('Finished processing');\n     });

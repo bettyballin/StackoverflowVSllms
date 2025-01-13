@@ -1,0 +1,1 @@
+easy_install python-ldap\n   easy_install LDAPMultiPlugins\n   easy_install PloneLDAP

@@ -1,1 +1,0 @@
-INSERT INTO `table` (`id`, `event`)  VALUES (1, 94263), (2, 75015), (3, 75015);

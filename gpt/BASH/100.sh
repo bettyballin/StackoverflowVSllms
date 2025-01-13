@@ -1,0 +1,1 @@
+openssl x509 -inform DER -in your_certificate.cer -out your_certificate.crt

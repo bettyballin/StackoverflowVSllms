@@ -1,0 +1,1 @@
+CREATE TABLE example (\n    id CHAR(36) PRIMARY KEY,\n    column1 VARCHAR(255)\n);

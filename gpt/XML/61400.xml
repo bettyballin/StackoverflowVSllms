@@ -1,0 +1,1 @@
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">\n  <appSettings>\n    <add key="ServiceUrl" value="http://qa-service-url" \n      xdt:Transform="SetAttributes" xdt:Locator="Match(key)"/>\n  </appSettings>\n</configuration>

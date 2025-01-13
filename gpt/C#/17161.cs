@@ -1,0 +1,1 @@
+using System.Collections.Generic;\nusing System.Web.Mvc;\n\nnamespace YourNamespace\n{\n    public class YourViewModel\n    {\n        public string SelectedValue { get; set; }\n        public IEnumerable<SelectListItem> YourDropdownList { get; set; }\n    }\n}

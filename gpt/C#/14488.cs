@@ -1,0 +1,1 @@
+using (var context = new MyDbContext())\n{\n    var articles = context.Articles.ToList<Content>();\n    var newsItems = context.NewsItems.ToList<Content>();\n\n    var contents = articles.Concat(newsItems).ToList();\n\n    // Pass `contents` to your UserControl\n}

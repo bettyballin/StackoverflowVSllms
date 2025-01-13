@@ -1,0 +1,1 @@
+-- Create a view with stripped spaces\nCREATE VIEW MyView AS \nSELECT \n    REPLACE(MyField, ' ', '') AS MyFieldNoSpaces,\n    OtherField1,\n    OtherField2\nFROM \n    MyTable;\n\n-- Create an index on the underlying table\nCREATE INDEX MyIndex ON MyTable (REPLACE(MyField, ' ', ''));

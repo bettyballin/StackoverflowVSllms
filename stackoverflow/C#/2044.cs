@@ -1,1 +1,0 @@
-var q = \n    from c in categories\n    select new { c.Name, c.DisplayName, Count = c.Products.Count() }

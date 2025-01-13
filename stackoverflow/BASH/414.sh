@@ -1,1 +1,0 @@
-nohup xm console | tee domU-console.log & 

@@ -1,1 +1,0 @@
-INSERT INTO TableB (Col1)\n (SELECT Col1 FROM TableA\n  UNION\n SELECT Col2 FROM TableA)

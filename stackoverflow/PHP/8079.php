@@ -1,1 +1,0 @@
-$length = strlen($string);\n$thisWordCodeVerdeeld = array();\nfor ($i=0; $i<$length; $i++) {\n    $thisWordCodeVerdeeld[$i] = $string[$i];\n}

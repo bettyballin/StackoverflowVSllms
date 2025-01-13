@@ -1,0 +1,1 @@
+Dim obj As MyClass = Nothing\n' obj is explicitly set to Nothing\nobj.DoSomething()

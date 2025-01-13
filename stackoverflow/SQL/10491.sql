@@ -1,1 +1,0 @@
-declare @i int\ndeclare @v int \ncreate  table #t (val int)\ninsert into #t\nexec ('declare @i int  set @i = 0 select @i+1') \nselect * from #t

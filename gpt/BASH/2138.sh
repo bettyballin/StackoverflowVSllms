@@ -1,0 +1,1 @@
+composer global require phpmd/phpmd\n    phpmd /path/to/code text codesize,unusedcode,naming

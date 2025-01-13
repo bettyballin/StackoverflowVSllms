@@ -1,1 +1,0 @@
-SELECT WidgetID FROM Widget INNER JOIN WidgetAttributes WA ON WA.Key = SearchAttributes.Key AND WA.WidgetID = Widget.WidgetID GROUP BY WidgetID HAVING COUNT(Widget.WidgetID) > @SearchAttributesCount

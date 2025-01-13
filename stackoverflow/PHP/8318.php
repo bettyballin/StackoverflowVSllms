@@ -1,1 +1,0 @@
-<?php\n\nob_start();\necho 'a';\nprint 'b';\n\n// some statement that removes all printed/echoed items\nob_end_clean();\n\necho 'c';\n\n// the final output is equal to 'c', not 'abc'\n\n?>

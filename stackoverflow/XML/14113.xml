@@ -1,1 +1,0 @@
-<bag name="BackerEntries" table="BackerEntry" cascade="all" lazy="false" order-by="Priority">\n  <key column="BackerId" not-null="true"/>\n  <one-to-many class="BackerEntry" />\n</bag>

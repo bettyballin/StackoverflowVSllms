@@ -1,0 +1,1 @@
+{\n  someKey: 'some value',\n  someHTML: "<%= h render_to_string(partial: '/foo/baz', formats: [:html]) %>"\n}

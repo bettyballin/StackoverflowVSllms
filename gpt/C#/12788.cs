@@ -1,0 +1,1 @@
+var query1 = context.Table1.Where(t => t.Region == 1 && t.Name == "test");\nvar query2 = context.Table1.Where(t => t.Name == "test" && t.Region == 1);

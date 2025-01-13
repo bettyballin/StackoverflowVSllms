@@ -1,1 +1,0 @@
-$write_handle = fopen($write_file, 'w');\nif ($write_handle === false)\n{\n    die('Could not open file ' . $write_file);\n}

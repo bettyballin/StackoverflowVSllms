@@ -1,1 +1,0 @@
-public interface IControlSituationPage // your page implements this\n{\n    void SetAvisibility(bool visibility);\n    void SetBVisibility(bool visibility);\n    ...\n}

@@ -1,1 +1,0 @@
-struct task_struct find_task_by_pid(pid_t pid)

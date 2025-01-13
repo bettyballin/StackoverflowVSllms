@@ -1,0 +1,1 @@
+function BronKerbosch(R, P, X):\n    if P is empty and X is empty:\n        report R as a maximal clique\n    for each vertex v in P:\n        BronKerbosch(R union {v}, P intersect neighbors(v), X intersect neighbors(v))\n        P := P \ {v}\n        X := X union {v}

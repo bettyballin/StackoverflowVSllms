@@ -1,1 +1,0 @@
-SELECT *\nFROM yourtable\nWHERE yourcolumn LIKE 'X%'

@@ -1,0 +1,1 @@
+using Dapper;\n   using System.Data.SqlClient;\n\n   var sql = "SELECT * FROM Users WHERE Username = @Username";\n   using (var connection = new SqlConnection(connectionString))\n   {\n       var users = connection.Query<User>(sql, new { Username = username });\n   }

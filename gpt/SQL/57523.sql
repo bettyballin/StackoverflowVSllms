@@ -1,0 +1,1 @@
+CREATE TABLE votes (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    article_id INT NOT NULL,\n    user_id INT NOT NULL,\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    UNIQUE KEY unique_vote (article_id, user_id)\n);

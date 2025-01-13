@@ -1,1 +1,0 @@
-$GLOBALS['ADODB_CACHE_DIR']=$_SERVER['DOCUMENT_ROOT'].'/../cache/adodb';

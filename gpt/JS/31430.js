@@ -1,0 +1,1 @@
+function getBrowserWidth() {\n    return window.innerWidth;\n}\n\nconsole.log(getBrowserWidth());

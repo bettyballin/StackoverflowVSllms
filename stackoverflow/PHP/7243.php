@@ -1,1 +1,0 @@
-$this->Question->unBindModel(array('hasMany' => array(’Answer’)))

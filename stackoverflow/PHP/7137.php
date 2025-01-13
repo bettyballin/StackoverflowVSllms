@@ -1,1 +1,0 @@
-echo "Using ", memory_get_peak_usage(1), " bytes of ram.";

@@ -1,0 +1,1 @@
+SELECT \n    q1.Plant, \n    q1.Material, \n    q1.[1] AS Workcenter1, \n    q2.[1] AS Setuptime1, \n    q1.[2] AS Workcenter2, \n    q2.[2] AS Setuptime2\nFROM \n    Crosstab_Query1 AS q1\nINNER JOIN \n    Crosstab_Query2 AS q2\nON \n    q1.Plant = q2.Plant \n    AND q1.Material = q2.Material;

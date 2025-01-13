@@ -1,0 +1,1 @@
+// src/Controllers/HomeController.php\nnamespace App\Controllers;\n\nuse App\Core\Controller;\n\nclass HomeController extends Controller {\n    public function index() {\n        $this->render('home/index', ['message' => 'Hello, World!']);\n    }\n}

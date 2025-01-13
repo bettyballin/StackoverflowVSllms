@@ -1,0 +1,1 @@
+double r_x = x2 / x1; // Ratio for x coordinates\ndouble r_y = y2 / y1; // Ratio for y coordinates

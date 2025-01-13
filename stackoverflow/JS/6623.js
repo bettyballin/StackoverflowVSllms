@@ -1,1 +1,0 @@
-document.getElementById('headerimg').src='2.jpg';

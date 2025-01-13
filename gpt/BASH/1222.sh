@@ -1,0 +1,1 @@
+mysqldump -u username -p --routines --databases dbname --compatible=mysql40 > backup.sql

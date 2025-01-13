@@ -1,1 +1,0 @@
-SELECT  cust_name\nFROM    t_customer c \nORDER BY\n    REGEXP_REPLACE(cust_name, '[0-9]', ''), TO_NUMBER(REGEXP_SUBSTR(cust_name, '[0-9]+'))

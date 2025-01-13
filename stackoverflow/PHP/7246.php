@@ -1,1 +1,0 @@
-<?php\n        $im = file_get_contents('filename.gif');\n        $imdata = base64_encode($im);      \n?> 

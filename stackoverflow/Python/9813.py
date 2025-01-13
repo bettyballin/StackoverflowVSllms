@@ -1,1 +1,0 @@
-import csv\nsource = open( "myfile.csv", "rb" )\nrdr= csv.reader( source )\nfor row in rdr:\n    print "The sample battery has a Voltage: %.1fV, and capacity: %dmAh" % ( float(row[0]), int(row[1]), )

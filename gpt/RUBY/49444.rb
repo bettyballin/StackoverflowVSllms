@@ -1,0 +1,1 @@
+var1 = ""\nvar2 = nil\nvar3 = "Hello"\n\nputs var1.nil?    # false\nputs var1.empty?  # true\n\nputs var2.nil?    # true\n# puts var2.empty? # NoMethodError: undefined method `empty?' for nil:NilClass\n\nputs var3.nil?    # false\nputs var3.empty?  # false\n\nputs defined?(var1) # "local-variable"\nputs defined?(var2) # "local-variable"\nputs defined?(var3) # "local-variable"

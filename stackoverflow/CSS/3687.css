@@ -1,1 +1,0 @@
-OL#page_one { counter-reset: item }\nOL#page_two { counter-reset: item 5 }\nLI { display: block }\nLI:before {\n    content: counter(item) ". ";\n    counter-increment: item;\n    display:block;\n}

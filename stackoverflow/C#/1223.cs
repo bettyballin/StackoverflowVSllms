@@ -1,1 +1,0 @@
-list.AddRange(new T[size - count]);

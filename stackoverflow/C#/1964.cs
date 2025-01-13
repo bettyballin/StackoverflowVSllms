@@ -1,1 +1,0 @@
-List<string> stuff = new List<string>();\n...\n\nvar groups = \n    from s in stuff\n    group s by s into g\n    select new { \n        Stuff = g.Key, \n        Count = g.Count() \n    };

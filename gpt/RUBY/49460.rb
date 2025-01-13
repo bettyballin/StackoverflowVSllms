@@ -1,0 +1,1 @@
+# app/models/widget.rb\n    require 'sanitize'\n\n    class Widget < ApplicationRecord\n      before_save :sanitize_code\n\n      private\n\n      def sanitize_code\n        self.code = Sanitize.fragment(code, Sanitize::Config::RELAXED)\n      end\n    end

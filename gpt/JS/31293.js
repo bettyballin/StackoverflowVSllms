@@ -1,0 +1,1 @@
+// Example AJAX request using Axios\n   axios.get('your_php_file.php')\n       .then(response => {\n           document.getElementById('result').innerHTML = response.data;\n       });

@@ -1,0 +1,1 @@
+SELECT b.bulletinID\nFROM bulletins b\nJOIN friends f ON b.userID = f.friendID\nWHERE f.userID = :userID\nLIMIT 50;

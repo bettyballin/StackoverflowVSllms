@@ -1,0 +1,1 @@
+$(".row a").each(function(){\n  var href = $(this).attr("href");\n  var newHref = href.replace(/\s/g, "%20");\n  $(this).attr("href", newHref);\n});

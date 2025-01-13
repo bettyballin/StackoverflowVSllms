@@ -1,0 +1,1 @@
+public class ProviderManager\n{\n    [ImportMany]\n    public IEnumerable<IProvider> Providers { get; set; }\n\n    public void LoadProviders()\n    {\n        var catalog = new AggregateCatalog();\n        catalog.Catalogs.Add(new DirectoryCatalog("Plugins"));\n        var container = new CompositionContainer(catalog);\n        container.ComposeParts(this);\n    }\n}

@@ -1,0 +1,1 @@
+-- Ensure you have a full backup before doing this operation\n-- Step 1: Backup the transaction log\nBACKUP LOG [YourDatabaseName] TO DISK = 'path_to_backup_file';\n\n-- Step 2: Shrink the log file\nDBCC SHRINKFILE (YourDatabaseName_Log, target_size_in_MB);

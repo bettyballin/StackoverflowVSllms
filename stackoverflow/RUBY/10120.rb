@@ -1,1 +1,0 @@
-model = Model.new(options)\nmodel.id = DESIRED_ID\nmodel.save

@@ -1,0 +1,1 @@
+./follow_symlinks.sh /Library/Java/Home

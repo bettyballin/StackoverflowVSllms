@@ -1,0 +1,1 @@
+# Stop CouchDB\n   sudo systemctl stop couchdb\n\n   # Backup data files\n   cp -r /var/lib/couchdb /path/to/backup\n\n   # Start CouchDB\n   sudo systemctl start couchdb

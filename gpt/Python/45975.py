@@ -1,0 +1,1 @@
+initialize_repository()\ncommit(file, changes, author, message)\nhistory = get_commit_history(file)

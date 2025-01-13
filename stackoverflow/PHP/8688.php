@@ -1,1 +1,0 @@
-ioctl($socket, 0x8004667e, 1);

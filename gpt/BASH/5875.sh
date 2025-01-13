@@ -1,0 +1,1 @@
+for url in $(cat urls.txt); do\n        wget -c "$url" &\n        if (( $(jobs -r | wc -l) >= 10 )); then  # Adjust the number based on server capacity\n            wait -n\n        fi\n    done\n    wait

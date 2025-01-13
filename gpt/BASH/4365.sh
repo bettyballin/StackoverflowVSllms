@@ -1,0 +1,1 @@
+unshar yourfile.shar

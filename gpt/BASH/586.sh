@@ -1,0 +1,1 @@
+sudo -H mktexlsr\n   sudo -H updmap-sys --force --enable Map=cm-super.map

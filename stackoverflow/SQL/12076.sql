@@ -1,1 +1,0 @@
-select * from table_a, table_b\nwhere table_a.sku = table_b.sku\nand abs(datediff(second,table_a.datetime,table_b.datetime))<=3

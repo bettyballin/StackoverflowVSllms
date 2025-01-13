@@ -1,0 +1,1 @@
+* * * * * /usr/bin/php /path/to/your/test.php

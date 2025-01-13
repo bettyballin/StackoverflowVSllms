@@ -1,0 +1,1 @@
+<?php\n// PHP code\n$row = $dataTable[0];\n$value = $row['ColumnName'];\necho $value;\n?>

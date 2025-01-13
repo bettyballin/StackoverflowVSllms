@@ -1,1 +1,0 @@
-INTO @variable_name[ ,...n]

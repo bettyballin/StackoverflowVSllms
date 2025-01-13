@@ -1,1 +1,0 @@
-REPLACE(\n     RTRIM(\n          REPLACE(\n               CAST(@test AS VARCHAR), '0', ' '\n          )\n     ), ' ', '0'\n) +\nCASE\n     WHEN @test = FLOOR(@test) THEN '00'\n     WHEN FLOOR(@test*10) = @test * 10 THEN '0'\n     ELSE ''\nEND

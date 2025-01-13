@@ -1,0 +1,1 @@
+foreach ($data as $item) {\n    echo $item;\n    ob_flush(); // Flush the PHP buffer\n    flush();    // Flush the web server buffer\n}

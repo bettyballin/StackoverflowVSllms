@@ -1,1 +1,0 @@
-Type type = GetType();\nMethodInfo method = type.GetMethod("Show"+reportName+"Report");\nif (method != null)\n{\n    method.Invoke(this, null);\n}

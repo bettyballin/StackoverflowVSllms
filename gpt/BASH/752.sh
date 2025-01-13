@@ -1,0 +1,1 @@
+wget https://sourceforge.net/projects/gsoap2/files/latest/download\n   tar -xzf gsoap_*.tar.gz\n   cd gsoap-*\n   ./configure\n   make\n   sudo make install

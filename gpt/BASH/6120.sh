@@ -1,0 +1,1 @@
+mysqldump --all-databases --master-data --single-transaction --flush-logs --hex-blob --routines --triggers --events > /path/to/backup.sql

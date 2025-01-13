@@ -1,0 +1,1 @@
+// Storing a value in session\nSession["UserName"] = "George";\n\n// Retrieving a value from session\nstring userName = Session["UserName"] as string;\n\n// Removing a value from session\nSession.Remove("UserName");

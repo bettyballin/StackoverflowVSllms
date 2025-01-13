@@ -1,0 +1,1 @@
+slookup rss.fok.nl

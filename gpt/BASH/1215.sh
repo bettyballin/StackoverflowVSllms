@@ -1,0 +1,1 @@
+export PERL_LOCAL_LIB_ROOT=~/myapp_local_lib\n   export PERL_MB_OPT="--install_base ~/myapp_local_lib"\n   export PERL_MM_OPT="INSTALL_BASE=~/myapp_local_lib"\n   export PERL5LIB=~/myapp_local_lib/lib/perl5\n   export PATH=~/myapp_local_lib/bin:$PATH

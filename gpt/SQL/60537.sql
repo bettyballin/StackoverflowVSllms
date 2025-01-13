@@ -1,0 +1,1 @@
+CREATE TEMPORARY TABLE cleaned_data AS\n   SELECT column1, column2\n   FROM raw_data\n   WHERE condition;

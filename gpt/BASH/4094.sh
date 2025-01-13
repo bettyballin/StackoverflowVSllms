@@ -1,0 +1,1 @@
+ls -l file.txt

@@ -1,0 +1,1 @@
+if parsed_message['command'] == 'PRIVMSG':\n    sender = parsed_message['prefix']\n    target = parsed_message['params'][0]\n    msg = parsed_message['params'][1]\n    result = {\n        "sender": sender,\n        "target": target,\n        "message": msg\n    }\n    print(result)

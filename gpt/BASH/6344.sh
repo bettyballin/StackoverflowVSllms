@@ -1,0 +1,1 @@
+coverage run -m unittest discover\n   coverage report -m

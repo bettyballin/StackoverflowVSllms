@@ -1,1 +1,0 @@
-dwr.engine.beginBatch();\nRemote.methodInBatch1(params, callback1);\nRemote.methodInBatch2(params, callback2);\ndwr.engine.endBatch({\n  timeout:3000\n});

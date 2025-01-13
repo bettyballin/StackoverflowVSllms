@@ -1,1 +1,0 @@
-begin tran\nif exists (select * from table with (updlock,serializable) where key = @key)\nbegin\n   update table set ...\n   where key = @key\nend\nelse\nbegin\n   insert into table (key, ...)\n   values (@key, ...)\nend\ncommit tra

@@ -1,1 +1,0 @@
-function escCtrlChars($str)\n{\n    return preg_replace('/([\0\t\n\v\f\r\'\"!-])/ie', '"!".ord(substr("$1",0,1))."!"', $str);\n}

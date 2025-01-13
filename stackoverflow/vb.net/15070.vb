@@ -1,1 +1,0 @@
-Dim Message As MailMessage\nDim Smtp As SmtpClient\n\nMessage = New MailMessage("email@domain.com", "email@domain.com", "Packaged Failed", "Package Failed because...")\n\nSmtp = New SmtpClient(Dts.Variables("EmailServer").Value.ToString())\nSmtp.Credentials = CredentialCache.DefaultNetworkCredentials\nSmtp.Send(Message)\n\nDts.TaskResult = Dts.Results.Failure

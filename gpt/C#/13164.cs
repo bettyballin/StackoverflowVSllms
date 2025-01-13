@@ -1,0 +1,1 @@
+[ServiceContract(Name = "ContactLookup", Namespace = "Search")]\npublic interface IAjaxResultSearcherService\n{\n    [OperationContract]\n    [WebGet(UriTemplate = "SearchResultsWithNameLike?name={name}", ResponseFormat = WebMessageFormat.Json)]\n    Result[] SearchResultsWithNameLike(string name);\n}

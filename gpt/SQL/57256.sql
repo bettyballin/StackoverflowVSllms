@@ -1,0 +1,1 @@
+https://www.ibm.com/docs/en/db2-for-zos/12?topic=reference-sql

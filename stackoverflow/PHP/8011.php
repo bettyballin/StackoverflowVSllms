@@ -1,1 +1,0 @@
-ConnectionFactory::getInstance(ConnectionFactory::DEVELOPMENT);

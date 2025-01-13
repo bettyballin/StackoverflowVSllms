@@ -1,0 +1,1 @@
+<?php\nfunction customDate($x) {\n    $contents = $_FILES['userfile']['tmp_name'];\n    $contents = file("$contents");\n    $date = $contents[$x][6].$contents[$x][7]\n        ."-".$contents[$x][8].$contents[$x][9]\n        ."-"."20".$contents[$x][4].$contents[$x][5];\n    return $date;\n}\n?>

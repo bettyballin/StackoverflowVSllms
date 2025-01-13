@@ -1,1 +1,0 @@
-CXXFLAGS = -Wall ...\nbin_PROGRAMS = test\ntest_SOURCES = main.cpp\ntest_LDADD = libutility.a\nnoinst_LIBRARIES = libutility.a\nlibutility_a_SOURCES = utility.cpp\nlibutility_a_CXXFLAGS = $(CXXFLAGS) -Wno-unused-value

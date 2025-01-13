@@ -1,1 +1,0 @@
-SELECT *\nFROM Table\nWHERE Substring(column, index, length) = 'blah'

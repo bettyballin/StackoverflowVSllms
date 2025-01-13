@@ -1,0 +1,1 @@
+sudo chmod -R 755 /path/to/your/directory\n   sudo find /path/to/your/directory -type f -exec chmod 644 {} \;

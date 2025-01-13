@@ -1,0 +1,1 @@
+#include <intrin.h>\n#pragma intrinsic(_ReturnAddress)\n\nvoid* getReturnAddress() {\n    return _ReturnAddress();\n}

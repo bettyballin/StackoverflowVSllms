@@ -1,0 +1,1 @@
+g++ -o myproject -include header.h source.cpp

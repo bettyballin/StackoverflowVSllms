@@ -1,1 +1,0 @@
-WITH XMLNAMESPACES('[URI1]' AS ns, '[URI2]' AS soap) \n\nSELECT TransactionID, \n    T2.Loc.query('data(ns:SubscriberCode)') as 'SubscriberCode',\nFROM TempWorksRequest\nCROSS APPLY RequestXML.nodes('soap:Envelope/soap:Body/ns:RunPackage/ns:xmlDoc/ns:Request') as T2(Loc)

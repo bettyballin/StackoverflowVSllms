@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (IsPostBack)\n    {\n        string username = Request.Form["username"];\n        string password = Request.Form["password"];\n\n        // Use the retrieved data as needed\n        // For example:\n        // AuthenticateUser(username, password);\n    }\n}

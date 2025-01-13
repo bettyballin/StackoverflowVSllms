@@ -1,0 +1,1 @@
+Private Sub ResetToolStripVisibility()\n        Me.ToolStrip1.Visible = True\n    End Sub\n\n    ' Call this method in relevant places where the visibility might be reset

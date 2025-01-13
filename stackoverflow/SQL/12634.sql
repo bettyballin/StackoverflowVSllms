@@ -1,1 +1,0 @@
-INSERT INTO myTable (SortOrder, CategoryId, <other columns> ...)\nSELECT ROW_NUMBER() OVER (PARTITION BY CategoryId ORDER BY mySortCriteria)\n  , CategoryId\n  , <other columns> ...\n  FROM SourceTable;

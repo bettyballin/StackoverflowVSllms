@@ -1,1 +1,0 @@
-SELECT DISTINCT p.page_title\nFROM revision r, page p\nWHERE r.rev_page = p.page_id\nAND p.page_namespace = 0\nAND rev_user = {$userId}\nGROUP by p.page_title\nORDER BY MAX(r.rev_id) DESC\nLIMIT 3

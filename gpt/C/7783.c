@@ -1,0 +1,1 @@
+struct {\n    char c;\n    int i;\n} a;

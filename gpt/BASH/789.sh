@@ -1,0 +1,1 @@
+icpc -O3 -xHost your_program.cpp -o your_program

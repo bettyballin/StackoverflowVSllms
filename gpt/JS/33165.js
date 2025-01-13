@@ -1,0 +1,1 @@
+if (oSession.HostnameIs("yourserver")) {\n    oSession.host = "127.0.0.1:8888";\n}

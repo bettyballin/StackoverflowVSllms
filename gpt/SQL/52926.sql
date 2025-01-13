@@ -1,0 +1,1 @@
+SELECT CustomerNumber, CustomerName\nFROM Customer\nWHERE User = ?\nORDER BY CAST(CustomerNumber AS UNSIGNED), CustomerNumber;

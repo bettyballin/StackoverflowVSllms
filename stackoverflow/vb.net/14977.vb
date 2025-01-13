@@ -1,1 +1,0 @@
-Function GetMonthLastDate(ByVal sDateTime As DateTime)\n  Dim nextMonth As DateTime = sDateTime.AddMonths(1)\n  Return New DateTime(nextMonth.YearPart, nextMonth.MonthPart, 1).AddDays(-1)\nEnd Functio

@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION cascade_soft_delete()\nRETURNS TRIGGER AS $$\nBEGIN\n    IF NEW.is_deleted = TRUE THEN\n        UPDATE child_table SET is_deleted = TRUE WHERE parent_id = NEW.id;\n    ELSE\n        UPDATE child_table SET is_deleted = FALSE WHERE parent_id = NEW.id;\n    END IF;\n    RETURN NEW;\nEND;\n$$ LANGUAGE plpgsql;

@@ -1,0 +1,1 @@
+app.use((req, res, next) => {\n    res.set('Cache-Control', 'no-store');\n    next();\n});

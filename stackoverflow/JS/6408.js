@@ -1,1 +1,0 @@
-var theWindow = "." + this.windowname + "_window .window .content";

@@ -1,0 +1,1 @@
+<?php\n// data.php\nheader('Content-Type: application/json');\n\n$data = array(\n    'status' => 'success',\n    'message' => 'Hello from PHP'\n);\n\necho json_encode($data);\n?>

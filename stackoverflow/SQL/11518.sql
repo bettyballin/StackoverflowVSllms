@@ -1,1 +1,0 @@
-CONVERT(varchar,[datefield],104)\n     + ' '\n     + SUBSTRING(CONVERT(varchar,[datefield],108),1,5)

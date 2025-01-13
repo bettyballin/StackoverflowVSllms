@@ -1,0 +1,1 @@
+$ CATALINA_HOME/bin/shutdown.sh\n   $ CATALINA_HOME/bin/startup.sh

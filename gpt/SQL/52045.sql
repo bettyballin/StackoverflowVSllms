@@ -1,0 +1,1 @@
+USE [YourDatabaseName];\nGO\n\n-- Enable the guest account if it is disabled\nALTER USER [guest] WITH LOGIN = [guest];\nGO\n\n-- Grant SELECT permissions to the guest account on specific views\nGRANT SELECT ON [YourViewName] TO [guest];\nGO

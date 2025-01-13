@@ -1,0 +1,1 @@
+cscript %SYSTEMDRIVE%\inetpub\adminscripts\adsutil.vbs set W3SVC/1/Root/ScriptMaps "*,C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll,1,GET,HEAD,POST,DEBUG;*.exe,*,GET,HEAD,POST;*.dll,*,GET,HEAD,POST"

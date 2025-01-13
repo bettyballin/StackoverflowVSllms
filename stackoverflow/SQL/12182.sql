@@ -1,1 +1,0 @@
-MWATSON@> set serveroutput on\nMWATSON@> !cat test.sql\n\nBEGIN\n IF 1 = 1 THEN\n    DBMS_OUTPUT.PUT_LINE('ABOUT TO EXIT');\n    RETURN;\n  END IF;\n  DBMS_OUTPUT.PUT_LINE('DID NOT EXIT');\nEND;\n\nMWATSON@> @test\n  8  /\nABOUT TO EXIT\n\nPL/SQL procedure successfully completed.\n\nMWATSON@> 

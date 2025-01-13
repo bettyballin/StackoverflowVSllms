@@ -1,0 +1,1 @@
+CREATE TABLE Shifts (\n    Id INT PRIMARY KEY,\n    CommonProperty1 VARCHAR(100),\n    ShiftProperty1 VARCHAR(100)\n);\n\nCREATE TABLE StaffTimeOffs (\n    Id INT PRIMARY KEY,\n    CommonProperty1 VARCHAR(100),\n    StaffTimeOffProperty1 VARCHAR(100)\n);

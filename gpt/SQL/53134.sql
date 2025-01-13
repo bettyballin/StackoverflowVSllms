@@ -1,0 +1,1 @@
+SELECT n.node_ID, n.node_title, n.node_lastupdated\n   FROM (\n       SELECT node_ID\n       FROM viewpermission\n       WHERE viewpermission_usergroupID IN (<...usergroups of current user...>)\n       GROUP BY viewpermission_nodeID\n       LIMIT 1000\n   ) AS vp\n   INNER JOIN node AS n ON vp.node_ID = n.node_ID\n   ORDER BY n.node_lastupdated DESC\n   LIMIT 20;

@@ -1,1 +1,0 @@
-Drop table tblTable1\n\nselect * into tblTable1 from tblTable1_Link

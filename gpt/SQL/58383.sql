@@ -1,0 +1,1 @@
+ALTER TABLE articles DROP INDEX title_content_fulltext;\nALTER TABLE articles ADD FULLTEXT(title_content_fulltext (title, content));

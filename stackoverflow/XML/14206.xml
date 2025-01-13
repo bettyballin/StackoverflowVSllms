@@ -1,1 +1,0 @@
-<service>\n    <name>web_http</name>\n    <server>\n      <address>x.x.x.x:80</address>\n      <type>tcp</type>\n      <dispatchmode>first-available</dispatchmode>

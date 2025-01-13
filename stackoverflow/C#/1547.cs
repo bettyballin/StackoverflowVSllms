@@ -1,1 +1,0 @@
-sharedDS.Clear();\nsharedDS.Table1.Columns[0].AutoIncrementStep = -1;\nsharedDS.Table1.Columns[0].AutoIncrementSeed = -1;\nsharedDS.Table1.Columns[0].AutoIncrementStep = 1;\nsharedDS.Table1.Columns[0].AutoIncrementSeed = 1;

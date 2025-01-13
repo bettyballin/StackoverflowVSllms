@@ -1,0 +1,1 @@
+<!-- Example configuration snippet -->\n<appSettings>\n    <add key="enableheader" value="false"/>\n</appSettings>

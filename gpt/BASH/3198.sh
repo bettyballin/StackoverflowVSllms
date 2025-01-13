@@ -1,0 +1,1 @@
+sudo mkdir /Volumes/NTFS\n    sudo /usr/local/bin/ntfs-3g /dev/disk1s1 /Volumes/NTFS -o local -o allow_other -o auto_xattr -o auto_cache

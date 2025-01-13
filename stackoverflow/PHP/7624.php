@@ -1,1 +1,0 @@
-<?php\nif(!empty($_POST['guess'] )) {\n    print "Last guess {$_POST['guess']}";\n}\n?>

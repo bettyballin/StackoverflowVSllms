@@ -1,0 +1,1 @@
+git subtree add --prefix=projects/proj1 https://github.com/username/proj1.git master --squash\n    git subtree add --prefix=projects/proj2 https://github.com/username/proj2.git master --squash

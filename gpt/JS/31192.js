@@ -1,0 +1,1 @@
+// Assume you already have the index values\nvar parentId = "10";\nvar childClass = "5";\n\n// Access the parent node with the given id\nvar parentNode = document.getElementById(parentId);\n\n// Access the child node with the given class within the parent node\nvar childNode = parentNode.getElementsByClassName(childClass)[0];\n\nconsole.log(childNode);

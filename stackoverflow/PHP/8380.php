@@ -1,1 +1,0 @@
-$prop = 'newname';\n$obj->$prop = 42;

@@ -1,0 +1,1 @@
+sudo apt-get install glade\nsudo gem install gtk3

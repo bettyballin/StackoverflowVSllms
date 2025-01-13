@@ -1,0 +1,1 @@
+CREATE INDEX idx_example \nON YourTableName (YourVarcharColumn);

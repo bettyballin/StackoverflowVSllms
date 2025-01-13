@@ -1,0 +1,1 @@
+CREATE TABLE archive_tracking_data LIKE tracking_data;\n    \n    INSERT INTO archive_tracking_data\n    SELECT * FROM tracking_data\n    WHERE created_at < '2023-01-01';\n\n    DELETE FROM tracking_data\n    WHERE created_at < '2023-01-01';

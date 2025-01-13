@@ -1,0 +1,1 @@
+-- Mark job as completed\nUPDATE tbl\nSET status = 'completed', owner = NULL, available = FALSE\nWHERE job_id = ? AND owner = CONNECTION_ID();

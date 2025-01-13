@@ -1,0 +1,1 @@
+SELECT p.name\nFROM products p\nINNER JOIN reviews r ON p.id = r.product_id\nGROUP BY p.id, p.name\nHAVING AVG(r.rating) > 3;

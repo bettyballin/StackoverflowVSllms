@@ -1,0 +1,1 @@
+ALTER TABLE [Production].[ProductCostHistory] WITH CHECK ADD \n   CONSTRAINT [FK_ProductCostHistory_Product_ProductID] FOREIGN KEY([ProductID])\n   REFERENCES [Production].[Product] ([ProductID]);\n   GO\n\n   ALTER TABLE [Production].[ProductCostHistory] CHECK CONSTRAINT\n   [FK_ProductCostHistory_Product_ProductID];\n   GO

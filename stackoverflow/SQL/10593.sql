@@ -1,1 +1,0 @@
-SELECT emailaddress FROM temp_table WHERE emailaddress NOT IN (SELECT emailaddress FROM table)

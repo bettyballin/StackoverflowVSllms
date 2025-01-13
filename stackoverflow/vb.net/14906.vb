@@ -1,1 +1,0 @@
-if CDbl(strActualRate) <> CDbl(strProposed) then\n     Response.Write "Both are not equal!"\nend if

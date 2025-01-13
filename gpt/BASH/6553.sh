@@ -1,0 +1,1 @@
+sudo apt-get install libapache2-mod-security2\n   sudo a2enmod security2\n   sudo systemctl restart apache2

@@ -1,1 +1,0 @@
-var t = $.template('<div><img src="${url}" />${name}</div>');\n\n$(selector).append( t , {\n     url: jsonObj.url,\n     name: jsonObj.name\n});

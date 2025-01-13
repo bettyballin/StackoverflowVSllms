@@ -1,0 +1,1 @@
+header('Content-Type: application/pdf');\nheader('Content-Disposition: inline; filename="downloaded.pdf"');\nheader('Content-Transfer-Encoding: binary');\nheader('Accept-Ranges: bytes');

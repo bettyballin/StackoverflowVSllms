@@ -1,1 +1,0 @@
-public static bool IsNullOrEmpty(this string value)\n{\n    return string.IsNullOrEmpty(value);\n}\npublic static void ThrowIfNull<T>(this T obj, string parameterName)\n        where T : class\n{\n    if(obj == null) throw new ArgumentNullException(parameterName);\n}

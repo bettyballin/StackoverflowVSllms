@@ -1,1 +1,0 @@
-WHERE\n  DateDiff(d, Received, GETDATE()) = 0

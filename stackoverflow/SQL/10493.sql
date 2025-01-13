@@ -1,1 +1,0 @@
-SELECT Row,Name,Age\nFROM (SELECT @row := @row + 1 AS Row, Name,Age FROM table1 ) \nAs derived1

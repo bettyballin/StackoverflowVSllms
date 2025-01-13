@@ -1,0 +1,1 @@
+// Enable Xdebug profiling\n   xdebug_start_trace('/path/to/tracefile.xt');\n   // Your code here\n   xdebug_stop_trace();

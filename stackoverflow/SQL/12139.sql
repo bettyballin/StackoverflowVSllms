@@ -1,1 +1,0 @@
-UPDATE Company\nSET BusinessRegionId = (\n    SELECT TOP 1 Id\n    FROM BusinessRegion\n    WHERE Tag = 'Australia/New South Wales')\nFROM Locality l\nWHERE l.Id = LocalityId AND l.StateOrProvinceAbbreviation = 'NSW'

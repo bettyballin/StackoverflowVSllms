@@ -1,0 +1,1 @@
+[CustomAuthorize]\n   public class SecuredController : Controller\n   {\n       public ActionResult Index()\n       {\n           return View();\n       }\n   }

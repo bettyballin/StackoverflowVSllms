@@ -1,1 +1,0 @@
-if (!getline(std::cin, str)) {\n    std::cin.clear();\n    std::cout << std::endl;\n}

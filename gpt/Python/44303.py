@@ -1,0 +1,1 @@
+from myapp import app  # Import your WSGI application\n\n# Wrap the application with the profiling middleware\napp = ProfilingMiddleware(app)

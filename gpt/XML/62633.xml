@@ -1,0 +1,1 @@
+<company>\n  <name>Acme</name>\n  <employees>\n    <employee>\n      <name>John</name>\n      <uri>/company/acme/employee/john</uri>\n    </employee>\n    <employee>\n      <name>Jack</name>\n      <uri>/company/acme/employee/jack</uri>\n    </employee>\n  </employees>\n</company>

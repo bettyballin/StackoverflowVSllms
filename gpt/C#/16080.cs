@@ -1,0 +1,1 @@
+var cfg = new Configuration();\ncfg.Configure(); // configures NHibernate using the hibernate.cfg.xml file\ncfg.AddAssembly(typeof(YourEntityClass).Assembly);\nvar sessionFactory = cfg.BuildSessionFactory();

@@ -1,0 +1,1 @@
+<?php\n   require_once 'path/to/htmlpurifier/library/HTMLPurifier.auto.php';\n   $config = HTMLPurifier_Config::createDefault();\n   $purifier = new HTMLPurifier($config);\n   $cleanHtml = $purifier->purify($dirtyHtml);\n   ?>

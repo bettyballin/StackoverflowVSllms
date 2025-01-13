@@ -1,1 +1,0 @@
-SELECT i.id,\n       i.created_at\nFROM   imports i\n       INNER JOIN (SELECT   a.import_id\n                   FROM     albums a\n                            INNER JOIN songs s\n                              ON a.id = s.album_id\n                   GROUP BY a.id\n                   HAVING   Count(* ) = 1) AS TEMP\n         ON i.id = TEMP.import_id; 

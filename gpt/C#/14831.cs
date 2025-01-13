@@ -1,0 +1,1 @@
+public class Calculator\n{\n    public static T Subtract<T>(T a, T b) where T : ISubtractable<T>\n    {\n        return a.Subtract(b);\n    }\n}

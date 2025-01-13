@@ -1,1 +1,0 @@
-SELECT emp_id, text\n  FROM employee_comment\n WHERE REGEXP_LIKE(text,'...-....');

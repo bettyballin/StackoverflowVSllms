@@ -1,1 +1,0 @@
-COMAdmin.COMAdminCatalog catalog = new COMAdmin.COMAdminCatalogClass();\ncatalog.Connect(servername);\ncatalog.ShutdownApplication(AppNameOrAppID);

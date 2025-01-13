@@ -1,0 +1,1 @@
+#pragma once\n\n#ifdef SHARED_DLL_EXPORTS\n#define SHARED_API __declspec(dllexport)\n#else\n#define SHARED_API __declspec(dllimport)\n#endif\n\ntemplate <typename T>\nclass SHARED_API MyTemplateClass {\npublic:\n    static T staticMember;\n};\n\n// Explicit instantiation declaration\nextern template class SHARED_API MyTemplateClass<int>;

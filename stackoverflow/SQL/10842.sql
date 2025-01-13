@@ -1,1 +1,0 @@
-SELECT last_name, commission_pct,\n  (CASE commission_pct \n    WHEN 0.1 THEN ‘Low’ \n    WHEN 0.15 THEN ‘Average’\n    WHEN 0.2 THEN ‘High’ \n    ELSE ‘N/A’ \n  END ) Commission\nFROM employees ORDER BY last_name; 

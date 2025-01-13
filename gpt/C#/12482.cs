@@ -1,0 +1,1 @@
+text.RemoveRange(1, 2); // Removes 2 elements starting from index 1

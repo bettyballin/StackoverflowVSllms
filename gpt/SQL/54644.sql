@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\n-- Simulate a long-running query\nWAITFOR DELAY '00:05:00'; -- Wait for 5 minutes\n\n-- Your insert/update/delete query here\nINSERT INTO YourTable (Column1, Column2)\nVALUES ('Value1', 'Value2');\n\nCOMMIT TRANSACTION;

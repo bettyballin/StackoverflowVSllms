@@ -1,1 +1,0 @@
-// second parameter 'a' stands for APPEND\n$f = fopen('/path/to/the/file/you/want/to/write/to', 'a');

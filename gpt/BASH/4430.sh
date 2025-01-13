@@ -1,0 +1,1 @@
+telnet smtp.yourmailserver.com 587

@@ -1,1 +1,0 @@
-this.requiredValidator.Enabled = this.myRadioButton.Checked;

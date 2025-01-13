@@ -1,1 +1,0 @@
-select RESULT.* from classmembercall as RESULT \ninner join classmembercall as INPUT \n    ON RESULT.startedontick BETWEEN INPUT.startedontick and INPUT.finishedontick \n    AND RESULT.finishedontick BETWEEN INPUT.startedontick and INPUT.finishedontick\nwhere INPUT.CallGUID = 'CAE8210C-617A-49F4-A739-E442F39B55B0'

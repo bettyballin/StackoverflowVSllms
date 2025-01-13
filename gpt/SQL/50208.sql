@@ -1,0 +1,1 @@
+UPDATE YourTable\nSET ColumnA = 0\nWHERE ColumnA IS NULL;

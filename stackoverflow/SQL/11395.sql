@@ -1,1 +1,0 @@
-DECLARE @x varchar(8000)\n\nSELECT TOP 4\n    @x=ISNULL(@x+', ','')+carModels\n    FROM dbo.Models\n\nSELECT @x AS carModels

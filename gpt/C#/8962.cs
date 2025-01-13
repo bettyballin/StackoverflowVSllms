@@ -1,0 +1,1 @@
+using System.Web.Mvc;\n\npublic class YourController : Controller\n{\n    [HttpPost]\n    public ActionResult Move()\n    {\n        // Your code-behind logic here\n        // Example:\n        // Move();\n\n        // Return a response if needed\n        return Json(new { success = true });\n    }\n\n    protected void Move()\n    {\n        // Your move logic here\n    }\n}

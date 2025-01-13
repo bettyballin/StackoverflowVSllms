@@ -1,1 +1,0 @@
-DELETE a \nFROM tGeoQuestions as a\nJOIN tGeoQuizToQuestion as b \nON a.id = b.questionid\nAND b.quizId = @quizId\n\n\nDELETE tGeoQuizToQuestion  WHERE quizId = @quizId 

@@ -1,1 +1,0 @@
-foreach($data->item->thumbnail as $thumbnail) {\n\n    $url = $thumbnail['url'];\n    $height = $thumbnail['height'];\n    $width = $thumbnail['width'];\n}

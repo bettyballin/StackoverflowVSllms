@@ -1,1 +1,0 @@
->>> f = open('myfile.txt', 'r')\n>>> f.read()

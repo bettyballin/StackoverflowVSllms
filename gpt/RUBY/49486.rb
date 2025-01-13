@@ -1,0 +1,1 @@
+user = User.new\nuser.username = "John"\nuser.hashed_password = "securepassword"\nuser.first_name = "John"\nuser.last_name = "Coltrane"\nuser.email = "john@coltrane.com"\nuser.display_name = "Johndisplay"\nuser.user_level = 9\nuser.save

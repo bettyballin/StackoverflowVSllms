@@ -1,0 +1,1 @@
+sudo chmod 755 /Developer/Extras/PHP/ZendDebugger.so\n   sudo chown root:admin /Developer/Extras/PHP/ZendDebugger.so

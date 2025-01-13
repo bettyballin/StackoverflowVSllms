@@ -1,1 +1,0 @@
-$string="a:3:{i:0;i:4;i:1;i:3;i:2;i:2;}";\n$array=unserialize($string);\nprint_r($array);

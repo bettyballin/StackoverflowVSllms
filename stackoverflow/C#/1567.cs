@@ -1,1 +1,0 @@
-DataTable dt = new DataTable("files");\ndt.Columns.Add("name", typeof(string));\ndt.Columns.Add("size", typeof(int));\ndt.Columns.Add("content", typeof(byte[]));

@@ -1,0 +1,1 @@
+$cache = \Zend\Cache\StorageFactory::factory(array(\n       'adapter' => array(\n           'name' => 'filesystem',\n           'options' => array('cache_dir' => './data/cache'),\n       ),\n       'plugins' => array('serializer'),\n   ));

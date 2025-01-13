@@ -1,1 +1,0 @@
-SPSecurity.RunWithElevatedPrivleges(delegate()\n{\n     //Your code here\n});

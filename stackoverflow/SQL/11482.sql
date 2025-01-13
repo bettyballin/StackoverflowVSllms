@@ -1,1 +1,0 @@
-SELECT  CASE WHEN p\n        THEN\n        (\n        SELECT  name\n        FROM    table2 t2\n        WHERE   t2.id = t3.id\n        ) \n        ELSE\n        (\n        SELECT  name\n        FROM    table1 t1\n        WHERE   t1.id = t3.id\n        )\n        END\nFROM    table3 t3

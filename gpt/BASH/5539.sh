@@ -1,0 +1,1 @@
+@echo off\nset "filename=binaryfile.bin"\n\npowershell -command ^\n    "$bytes = [System.IO.File]::ReadAllBytes('%filename%');" ^\n    "foreach ($byte in $bytes) { Write-Host ([Convert]::ToString($byte, 2).PadLeft(8, '0')) }"

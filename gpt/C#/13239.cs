@@ -1,0 +1,1 @@
+private void btnGetUserInfo_Click(object sender, EventArgs e)\n{\n    string vpnUsername = "user_vpn"; // Replace with the actual VPN username\n\n    ADHelper.GetUserInfo(vpnUsername);\n}

@@ -1,0 +1,1 @@
+sequences = [DSequence(1, "ATCG"), DSequence(2, "GGTA")]\nprint(sequences)

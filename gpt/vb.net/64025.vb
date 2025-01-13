@@ -1,0 +1,1 @@
+If System.IO.File.Exists("file.txt") Then\n    For Each line As String In System.IO.File.ReadAllLines("file.txt")\n        ' Do Something\n    Next\nElse\n    Console.WriteLine("File not found.")\nEnd If

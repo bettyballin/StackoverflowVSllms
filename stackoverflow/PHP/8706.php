@@ -1,1 +1,0 @@
-ob_start(); // begin collecting output\n\ninclude 'myfile.php';\n\n$result = ob_get_clean(); // retrieve output from myfile.php, stop buffering

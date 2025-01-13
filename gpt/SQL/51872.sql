@@ -1,0 +1,1 @@
+CREATE TABLE dbo.AccessViewPKInfo (\n    ViewName NVARCHAR(128),\n    PrimaryKeyField NVARCHAR(128)\n);

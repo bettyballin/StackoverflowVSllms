@@ -1,0 +1,1 @@
+# Example using iptables to limit access to HTTP (port 80) and HTTPS (port 443) only\niptables -A INPUT -p tcp --dport 80 -j ACCEPT\niptables -A INPUT -p tcp --dport 443 -j ACCEPT\niptables -A INPUT -p tcp --dport 3389 -j DROP  # Block RDP access\niptables -A INPUT -p tcp --dport 22 -j DROP  # Block SSH access unless required

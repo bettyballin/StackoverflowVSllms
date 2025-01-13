@@ -1,0 +1,1 @@
+(gdb) target sim\n    (gdb) load myprogram\n    (gdb) run\n    (gdb) disassemble /r

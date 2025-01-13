@@ -1,0 +1,1 @@
+$cleanInput = strip_tags($userInput);

@@ -1,0 +1,1 @@
+/* Define the initial state of the link */\na {\n    color: #006699;\n    text-decoration: none;\n    transition: color 0.3s ease; /* Adjust the duration as needed */\n}\n\n/* Define the hover state of the link */\na:hover {\n    color: #4796E9;\n}

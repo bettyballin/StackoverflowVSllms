@@ -1,0 +1,1 @@
+# Navigate to the folder's parent directory\ncd C:\inetpub\wwwroot\MyAppName\n\n# Create the App_GlobalResources folder if it does not exist\nmkdir App_GlobalResources\n\n# Grant permissions to the IIS_IUSRS group\nicacls App_GlobalResources /grant IIS_IUSRS:(OI)(CI)RX

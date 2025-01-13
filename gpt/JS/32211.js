@@ -1,0 +1,1 @@
+// JavaScript to change the content of an HTML element dynamically\ndocument.getElementById('myElement').innerHTML = 'New Content';

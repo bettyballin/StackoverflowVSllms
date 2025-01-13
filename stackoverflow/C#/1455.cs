@@ -1,1 +1,0 @@
-ParameterDirection.ReturnValue

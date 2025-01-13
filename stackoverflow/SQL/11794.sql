@@ -1,1 +1,0 @@
-SELECT StudentName FROM Students WHERE StudentID NOT IN (SELECT StudentID FROM StudentClass)

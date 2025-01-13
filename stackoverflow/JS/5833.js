@@ -1,1 +1,0 @@
-function inArray(needle, haystack) {\n    var length = haystack.length;\n    for(var i = 0; i < length; i++) {\n        if(haystack[i] == needle) return true;\n    }\n    return false;\n}

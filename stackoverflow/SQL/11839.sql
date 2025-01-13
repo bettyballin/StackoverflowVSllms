@@ -1,1 +1,0 @@
-SELECT su.Name, COUNT(ui.ID)\nFROM systemUsers su\nLEFT JOIN userIncidences ui ON ui.idUser = su.ID\nGROUP BY su.Name

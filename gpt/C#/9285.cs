@@ -1,0 +1,1 @@
+[WebMethod]\npublic string GetStatementForXml(string contractList, DateTime startDate, DateTime endDate)\n{\n    // Retrieve the DataSet as usual\n    DataSet ds = GetStatementFor(contractList, startDate, endDate);\n\n    // Convert the DataSet to an XML string\n    string xmlData = ds.GetXml();\n\n    // Return the XML string\n    return xmlData;\n}

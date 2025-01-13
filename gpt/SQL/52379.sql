@@ -1,0 +1,1 @@
+CREATE INDEX idx_event_type ON Events (EventType);

@@ -1,0 +1,1 @@
+// Assuming `total` is a variable that holds the sum of prices\n   protected void Page_Load(object sender, EventArgs e)\n   {\n       if (!IsPostBack)\n       {\n           txtTotalAmount.Text = total.ToString(); // Set the value to the TextBox\n       }\n   }

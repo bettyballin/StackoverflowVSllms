@@ -1,1 +1,0 @@
-SELECT lesson.id, p1.first_name, p1.surname, start_time, instrument.name \nFROM  lesson l JOIN person p1 ON l.student = p1.id\nJOIN person p2 ON l.teacher = p2.id\nJOIN instrument i ON i.id = l.instrument_id\nLEFT JOIN invoice_lesson il ON l.id = il.lesson_id\nWHERE il.lesson_id IS NULL\nORDER BY surname

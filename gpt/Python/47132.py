@@ -1,0 +1,1 @@
+# Load a specific glade file for a specific window or dialog\nself.wTree = gtk.glade.XML("windowxyz.glade")

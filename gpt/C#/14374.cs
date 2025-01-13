@@ -1,0 +1,1 @@
+public IRestResponse GetProfile(String username)\n{\n    string decodedUsername = Uri.UnescapeDataString(username);\n    // Now use the decodedUsername which will have the backslash\n}

@@ -1,1 +1,0 @@
-var query = db.Employees.ToList();

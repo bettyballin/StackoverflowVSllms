@@ -1,0 +1,1 @@
+HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://example.com");\nrequest.ClientCertificates.Add(new X509Certificate("pathToYourCertificate"));

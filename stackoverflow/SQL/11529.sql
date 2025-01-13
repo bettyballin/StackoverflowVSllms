@@ -1,1 +1,0 @@
-SELECT DISTINCT\n     O.organization_id,\n     O.organization_name\nFROM\n     Categories CAT\nINNER JOIN Categories SUB ON\n     SUB.parent_id = CAT.category_id\nINNER JOIN Category_Organizations CO ON\n     CO.category_id = SUB.category_id\nINNER JOIN Organizations O ON\n     O.organization_id = CO.organization_id\nWHERE\n     CAT.category_id = @category_id

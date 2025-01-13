@@ -1,0 +1,1 @@
+HttpCookie myCookie = new HttpCookie("MyCookie");\nmyCookie.Value = encryptedValue;\nmyCookie.HttpOnly = true; // Prevents client-side script access\nmyCookie.Secure = true; // Ensures the cookie is sent over HTTPS only\nResponse.Cookies.Add(myCookie);

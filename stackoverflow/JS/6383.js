@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    var Page_IsValid = <%= ViewData.ModelState.IsValid %>;\n</script> 

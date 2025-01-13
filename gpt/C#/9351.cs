@@ -1,0 +1,1 @@
+string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\YourDatabase.mdf;Integrated Security=True;";

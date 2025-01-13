@@ -1,1 +1,0 @@
-allParents = $("#myElement").parents("*")

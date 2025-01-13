@@ -1,0 +1,1 @@
+chmod +x organize_images.sh\n./organize_images.sh

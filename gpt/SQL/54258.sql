@@ -1,0 +1,1 @@
+ALTER ROLE [SelectRole] ADD MEMBER [Test];

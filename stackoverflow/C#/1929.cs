@@ -1,1 +1,0 @@
-if(args.GetLength(0) == 1 && args[0].ToUpper() == "/SERVICE")\n{\n    ServiceBase[] services = new ServiceBase[] { new MyService() };\n    ServiceBase.Run(services);        \n} // if\nelse\n{\n    InitAndStartWhateverIsNecessaryToRunServer();\n    Console.ReadLine();    \n} // else

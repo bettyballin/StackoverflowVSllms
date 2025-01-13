@@ -1,1 +1,0 @@
-Set HttpReq = Server.CreateObject("MSXML2.ServerXMLHTTP")\nHttpReq.open "GET", "Rest_URI", False\nHttpReq.send

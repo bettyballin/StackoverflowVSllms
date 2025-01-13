@@ -1,1 +1,0 @@
-SELECT domain FROM table WHERE 'www.google.com' LIKE CONCAT('%', domain);

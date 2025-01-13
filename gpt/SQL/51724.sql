@@ -1,0 +1,1 @@
+CREATE TABLE example_varchar (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    description VARCHAR(255) -- Efficient for strings up to 255 characters\n);\n\nCREATE TABLE example_text (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    description TEXT -- Used for potentially very large strings\n);

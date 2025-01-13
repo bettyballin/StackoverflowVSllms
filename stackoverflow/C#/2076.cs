@@ -1,1 +1,0 @@
-yourEnumerable.Skip(4).Take(3).Select( x=>x )\n\n(from p in intList.Skip(x).Take(n) select p).sum()

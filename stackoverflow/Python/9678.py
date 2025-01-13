@@ -1,1 +1,0 @@
-class MyFramework(object):\n    """A bare MyFramework, I only hold a person's name\n    """\n    _addons= {}\n    @staticmethod\n    def addAddon(name, addon):\n        MyFramework._addons[name]= addon\n\n    def __init__(self, person):\n        self.person= person\n        for name, addon in MyFramework._addons.items():\n            setattr(self, name, addon(self))

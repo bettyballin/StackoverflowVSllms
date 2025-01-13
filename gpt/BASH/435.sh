@@ -1,0 +1,1 @@
+tail -q -f file1 file2 file3

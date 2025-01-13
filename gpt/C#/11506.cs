@@ -1,0 +1,1 @@
+using System;\n   using System.Xml;\n   using System.Xml.XPath;\n\n   XmlDocument doc = new XmlDocument();\n   doc.Load("yourfile.xml");\n   \n   XPathNavigator navigator = doc.CreateNavigator();\n   XPathNodeIterator nodes = navigator.Select("//yourXpathExpression");\n   while (nodes.MoveNext())\n   {\n       Console.WriteLine(nodes.Current.OuterXml);\n   }

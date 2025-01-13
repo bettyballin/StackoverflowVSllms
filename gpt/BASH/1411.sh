@@ -1,0 +1,1 @@
+Get-ChildItem -Recurse -Include *.aspx, *.aspx.vb, *.ascx, *.ascx.vb | Select-Object FullName | Out-File "ProjectFilesList.txt"

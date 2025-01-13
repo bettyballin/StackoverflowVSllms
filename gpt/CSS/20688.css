@@ -1,0 +1,1 @@
+/* Apply a CSS reset to ensure consistent styling across browsers */\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n}\n\n/* Explicitly set margin and padding for .news_item */\n.news_item {\n    margin: 0;\n    padding: 0;\n}

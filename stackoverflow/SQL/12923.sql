@@ -1,1 +1,0 @@
-SELECT  r1.Code, r1.Date, r1.Rate\nFROM    RateTable r1\nWHERE   r1.Rate <> (SELECT TOP 1 Rate\n                   FROM    RateTable\n                   WHERE   Date < r1.Date\n                   ORDER BY Date DESC)

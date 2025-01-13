@@ -1,0 +1,1 @@
+template<typename T>\n   void doIt(T *arg) { }\n\n   void doIt(int *arg) { }\n\n   int main() {\n       int *i = new int;\n       doIt(i);  // Ambiguous call\n   }

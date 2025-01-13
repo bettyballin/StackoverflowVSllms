@@ -1,0 +1,1 @@
+sudo rpm -ivh mysql-workbench-community-<version>.el7.x86_64.rpm

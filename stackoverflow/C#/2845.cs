@@ -1,1 +1,0 @@
-From c In Concessions _\nJoin f In Firms on f.FirmID equals c.FirmID _\nGroup by f.Title _\nInto TotalArea = sum(c.OfficialArea)  _\nOrder by TotalArea Descending _\nSelect Title, TotalArea

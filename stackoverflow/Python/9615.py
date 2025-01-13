@@ -1,1 +1,0 @@
-gtk.status_icon_position_menu

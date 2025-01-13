@@ -1,1 +1,0 @@
-SELECT \n  p.p_pid, \n  p.p_name, \n  p.p_url \nFROM products p \nINNER JOIN activity a on p.p_pid = a.a_pid \nWHERE \n  a.a_uid= ".$uid_int." \nGROUP BY \n  p_pid, p_name, p_url\nORDER BY \n  max(a.a_time) DESC \n  LIMIT 6

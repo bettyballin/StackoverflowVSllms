@@ -1,0 +1,1 @@
+CREATE TYPE dbo.RecordSet1 AS TABLE\n(\n    Column1 INT,\n    Column2 NVARCHAR(50)\n    -- Add more columns as needed\n);\n\nCREATE TYPE dbo.RecordSet2 AS TABLE\n(\n    ColumnA INT,\n    ColumnB NVARCHAR(50)\n    -- Add more columns as needed\n);

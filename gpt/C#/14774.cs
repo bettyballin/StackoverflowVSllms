@@ -1,0 +1,1 @@
+protected void GridView1_DataBound(object sender, EventArgs e)\n{\n    if (GridView1.Rows.Count == 0)\n    {\n        // GridView is empty, do something\n    }\n}

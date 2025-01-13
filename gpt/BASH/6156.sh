@@ -1,0 +1,1 @@
+certutil -K -d /path/to/nssdb\n   certutil -L -n "mykey" -d /path/to/nssdb -a > nss_public_key.pem

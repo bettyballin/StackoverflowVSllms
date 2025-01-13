@@ -1,0 +1,1 @@
+$url = preg_replace('/[^a-zA-Z0-9-]/', '', str_replace(' ', '-', $url));

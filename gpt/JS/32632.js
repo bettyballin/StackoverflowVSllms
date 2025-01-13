@@ -1,0 +1,1 @@
+var MyLibrary = new function(){\n    var self = this;\n    self.MyLibrary = function(){\n         // init code\n    }\n}

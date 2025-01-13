@@ -1,0 +1,1 @@
+<connectionStrings>\n    <add name="OracleDbConnection" connectionString="Data Source=YourTNSAlias;User Id=your_user;Password=your_password;" providerName="System.Data.OracleClient" />\n</connectionStrings>

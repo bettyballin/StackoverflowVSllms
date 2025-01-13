@@ -1,0 +1,1 @@
+Appverif.exe -enable locks -for w3wp.exe

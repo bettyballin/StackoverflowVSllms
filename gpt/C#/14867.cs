@@ -1,0 +1,1 @@
+[ComVisible(true)]\n[Guid("YOUR-GUID-HERE")]\n[ClassInterface(ClassInterfaceType.None)]\npublic class ReadStream : IReadStream\n{\n    public int Read()\n    {\n        // Your implementation\n        return 42; // Example return value\n    }\n}

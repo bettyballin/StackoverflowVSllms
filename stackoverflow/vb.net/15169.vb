@@ -1,1 +1,0 @@
-Dim writeFile As TWriteFileCommand \nwriteFile = DirectCast(CommunicationLink.CreateCommand(TOPKernel.TCommand.CommandType.WriteFile), TWriteFileCommand)

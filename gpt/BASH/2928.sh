@@ -1,0 +1,1 @@
+windbg -y "path_to_symbols" -i "path_to_image_files" -z "path_to_dump_file"

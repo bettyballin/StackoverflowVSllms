@@ -1,0 +1,1 @@
+Dim itemsToRemove As New List(Of ListItem)()\n\n' First, collect all items to be removed\nFor Each item As ListItem In CtheList.Items\n    If item.Text.IndexOf("W:") > -1 Then\n        itemsToRemove.Add(item)\n    End If\nNext\n\n' Then, remove the collected items\nFor Each itemToRemove As ListItem In itemsToRemove\n    CtheList.Items.Remove(itemToRemove)\nNext

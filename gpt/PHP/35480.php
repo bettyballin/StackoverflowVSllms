@@ -1,0 +1,1 @@
+$attachment = ORM::factory('Attachment', $id);\nif ($attachment->loaded()) {\n    $data = hex2bin($attachment->data);\n    // Do something with the $data\n}

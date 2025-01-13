@@ -1,0 +1,1 @@
+// Example of dangerous system command execution\n    exec('rm -rf /');

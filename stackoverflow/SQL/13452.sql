@@ -1,1 +1,0 @@
-SELECT * from vocabulary \nWHERE translation like 'word'  \nunion all\nSELECT * from vocabulary \nWHERE translation LIKE '%word%' and translation not like 'word'  

@@ -1,1 +1,0 @@
-string s = "131";\ns =  s.PadLeft(8, '0');

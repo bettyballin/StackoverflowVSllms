@@ -1,0 +1,1 @@
+sudo chown root:myappuser /etc/myapp/config\n     sudo chmod 600 /etc/myapp/config

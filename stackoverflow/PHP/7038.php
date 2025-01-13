@@ -1,1 +1,0 @@
-$all_possibilities = "1234567891234";\n$unique = array();\nforeach (count_chars($all_possibilities, 1) as $c => $occurrences) {\n  if ($occurrences == 1)\n    $unique[] = chr($c);\n}\nprint join("", $unique) . "\n";

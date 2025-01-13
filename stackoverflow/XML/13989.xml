@@ -1,1 +1,0 @@
-<query name="queryName">\n  <![CDATA[\n        FROM Table\n        WHERE \n          upper(TRANSLATE(nivell_1,'ÀàÉÈéèÍíÓóÒòÚú','AaEEeeIiOoOoUu')) LIKE\n          upper(TRANSLATE(nivell_1,'ÀàÉÈéèÍíÓóÒòÚú','AaEEeeIiOoOoUu'))\n  ]]>         \n  </query>

@@ -1,0 +1,1 @@
+div.error { display:none; }\ninput:focus { border: 1px dotted black; }\ninput.error { border: 2px solid red; }\nlabel.error { color: white; font-size:16px; font-family: Nyala; background-color: red; }\nlabel.valid { color: green; }

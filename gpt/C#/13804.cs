@@ -1,0 +1,1 @@
+// Example of configuring ANTS Performance Profiler\n   AntsPerformanceProfiler.Configure(new AntsConfiguration\n   {\n       ApplicationType = ApplicationType.Web,\n       WebApplicationPath = "path_to_your_app"\n   });

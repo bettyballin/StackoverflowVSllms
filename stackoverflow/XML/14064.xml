@@ -1,1 +1,0 @@
-<authorization>\n    <!--  \n        <deny users="?" />\n        <allow     users="[comma separated list of users]"\n                   roles="[comma separated list of roles]"/>\n        <deny      users="[comma separated list of users]"\n                   roles="[comma separated list of roles]"/>\n    -->\n</authorization>

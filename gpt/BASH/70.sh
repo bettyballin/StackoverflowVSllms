@@ -1,0 +1,1 @@
+gcc -o main main.c -ldl\ngcc -shared -o libexample.so -fPIC libexample.c

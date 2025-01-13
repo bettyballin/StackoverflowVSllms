@@ -1,1 +1,0 @@
-// how you get this doesn't matter so long as it is in the Context\nUser user = ...; \nRole role = new Role {Id = 2}; \n// role 2 is in unchanged state\nctx.AttachTo("Roles", role); \n// role 2 is unchanged + added relationship between user and role 2\nuser.Roles.Add(role); \nctx.SaveChanges(); 

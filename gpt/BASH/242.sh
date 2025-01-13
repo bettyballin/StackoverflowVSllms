@@ -1,0 +1,1 @@
+objdump -d /opt/glibc/lib/libc.so.6 | grep -i sse

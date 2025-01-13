@@ -1,0 +1,1 @@
+public class UserModel\n    {\n        [Required]\n        [StringLength(100, MinimumLength = 6)]\n        public string Name { get; set; }\n        \n        [EmailAddress]\n        public string Email { get; set; }\n    }

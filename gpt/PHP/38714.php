@@ -1,0 +1,1 @@
+$string = "example";\n$array = str_split($string); // Splits string into an array of characters\n// OR\n$array = explode(" ", $string); // Splits string into an array using a delimiter (space in this example)

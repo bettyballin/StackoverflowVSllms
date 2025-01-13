@@ -1,0 +1,1 @@
+SELECT item.id, item.name\nFROM item\nJOIN tree AS item_tree ON item.tree_id = item_tree.id\nWHERE EXISTS (\n    SELECT 1\n    FROM tree AS type_tree\n    WHERE type_tree.type = x\n    AND item_tree.lft BETWEEN type_tree.lft AND type_tree.rgt\n);

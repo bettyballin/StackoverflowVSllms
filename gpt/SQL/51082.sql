@@ -1,0 +1,1 @@
+COPY your_table_name (column1, column2, column3, ...)\nFROM '/path/to/your/file.csv'\nWITH (FORMAT csv, HEADER true);

@@ -1,1 +1,0 @@
-Shoes.app do \n  interfaces = ["blah", "blah1", "blah2"]\n  # proc is also called lambda\n  @run_rest_of_application = proc do\n    if @interface == "blah"\n      do_blah\n    # etc\n  end\n\n  @list_box = list_box(:items => interfaces) do |list|\n    @interface = list.text\n    @run_rest_of_application.call\n    @list_box.hide # Maybe you only wanted this one time?\n  end\nend

@@ -1,0 +1,1 @@
+#include "thirdpartylibrary.h"\n\nint main() {\n    // Call a function from the third-party library\n    ThirdPartyFunction();\n    return 0;\n}

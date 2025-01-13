@@ -1,0 +1,1 @@
+sudo chown root:root myprogram\nsudo chmod 4755 myprogram

@@ -1,0 +1,1 @@
+pm install html-minifier purgecss clean-css htmlclea

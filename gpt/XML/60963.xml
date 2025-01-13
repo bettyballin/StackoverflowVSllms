@@ -1,0 +1,1 @@
+<servlet>\n       <servlet-name>greetServlet</servlet-name>\n       <servlet-class>com.google.gwt.sample.stockwatcher.server.GreetingServiceImpl</servlet-class>\n   </servlet>\n   <servlet-mapping>\n       <servlet-name>greetServlet</servlet-name>\n       <url-pattern>/stockwatcher/greet</url-pattern>\n   </servlet-mapping>

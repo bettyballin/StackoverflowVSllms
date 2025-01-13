@@ -1,1 +1,0 @@
-public class DataContext : DataContextBase\n{\n    public DataContext()\n        : base(ConnectionHolder.ConnectionString)\n    {\n    }\n}

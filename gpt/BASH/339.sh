@@ -1,0 +1,1 @@
+pip install mutagen sqlalchemy sqlite3

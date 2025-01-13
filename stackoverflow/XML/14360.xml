@@ -1,1 +1,0 @@
-<soap:Envelope>\n    <soap:Body>\n        ... message contents\n    </soap:Body>\n</soap:Envelope> 

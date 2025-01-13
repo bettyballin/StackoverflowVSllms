@@ -1,0 +1,1 @@
+idevicedebug -u <device-id> stop com.yourcompany.yourapp

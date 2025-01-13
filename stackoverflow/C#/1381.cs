@@ -1,1 +1,0 @@
-// in IToaster.cs\npublic interface IToaster<T> {}\n\n// in your StructureMap registry\nScan(x =>\n{\n    x.Assembly("MVCDemo");\n    x.Assembly("MVCDemo.Infrastructure");\n    x.Assembly("MVCDemo.Services");\n\n    x.AddAllTypesOf(typeof(IToaster<>))\n});

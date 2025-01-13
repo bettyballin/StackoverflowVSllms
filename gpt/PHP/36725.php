@@ -1,0 +1,1 @@
+<?php\n// Sample array with 10 elements\n$array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];\n\n// Element to be inserted\n$newElement = 'newElement';\n\n// Position where the new element should be inserted (e.g., index 3)\n$position = 3;\n\n// Insert the element into the array\narray_splice($array, $position, 0, $newElement);\n\n// Print the modified array\nprint_r($array);\n?>

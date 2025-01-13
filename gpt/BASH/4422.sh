@@ -1,0 +1,1 @@
+# For JavaScript\n     npx nyc --reporter=html mocha\n\n     # For Python\n     coverage run -m pytest && coverage report

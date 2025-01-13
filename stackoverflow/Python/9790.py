@@ -1,1 +1,0 @@
->>> def g(x):\n...   g.r = 4\n...\n>>> g\n<function g at 0x0100AD68>\n>>> g(3)\n>>> g.r\n4

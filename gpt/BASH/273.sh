@@ -1,0 +1,1 @@
+cd build-gcc\n   make all\n   make install

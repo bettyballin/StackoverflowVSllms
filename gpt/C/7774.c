@@ -1,0 +1,1 @@
+#include <openssl/rand.h>\n\nint get_random_bytes(unsigned char *buf, int num) {\n    if (RAND_bytes(buf, num) != 1) {\n        // Handle error\n        return -1;\n    }\n    return 0;\n}

@@ -1,1 +1,0 @@
-<?php\n   echo Date("Y-m-d",(strtoTime($_GET[date])+86400));\n?>

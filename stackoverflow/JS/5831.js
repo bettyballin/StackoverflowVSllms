@@ -1,1 +1,0 @@
-$('.toggle').click(function(){\n    $(this).siblings('ul').toggle();\n});

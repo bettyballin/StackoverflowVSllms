@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="YourNamespace.Default" %>\n<!DOCTYPE html>\n<html>\n<head runat="server">\n    <title>Dynamic List Example</title>\n</head>\n<body>\n    <form id="form1" runat="server">\n        <div>\n            <ul id="dynamicList" runat="server"></ul>\n        </div>\n    </form>\n</body>\n</html>

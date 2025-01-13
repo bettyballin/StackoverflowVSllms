@@ -1,0 +1,1 @@
+bool ConvertVariantBoolToBool(VARIANT_BOOL varBool) {\n    return varBool != VARIANT_FALSE;\n}

@@ -1,1 +1,0 @@
-$("#myID").click(\n  function () {\n     var someText = "my dynamic text";\n     var newDiv = $("<div>").append(someText).click(function () { alert("click!"); });\n     $(this).append(newDiv);\n  }\n)

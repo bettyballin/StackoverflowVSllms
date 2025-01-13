@@ -1,0 +1,1 @@
+' Assuming timReminder is your Timer object\nAddHandler timReminder.Tick, AddressOf timReminder_Tick

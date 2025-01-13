@@ -1,1 +1,0 @@
-MyObject *o = NULL;\n\no->func();

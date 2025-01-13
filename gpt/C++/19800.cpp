@@ -1,0 +1,1 @@
+#include "stdafx.h"\n#include "YourCOMServer.h"\n#include "udt.h"  // Include the header generated from udt.idl\n\nSTDMETHODIMP CMyCOMServer::MyQuery(BSTR instr, MyEnum_t* outint)\n{\n    // Your implementation logic here\n    *outint = value_a;  // Example of setting the enum value\n    return S_OK;\n}

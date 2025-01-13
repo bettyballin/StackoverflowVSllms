@@ -1,0 +1,1 @@
+tf history /collection:http://tfs:8080/tfs/DefaultCollection $/ProjectPath /recursive /format:detailed

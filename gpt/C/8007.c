@@ -1,0 +1,1 @@
+// mytime.c\n#include <time.h>\n\ntime_t time(time_t *t) {\n    time_t fixed_time = 1609459200; // Fixed timestamp (e.g., Jan 1, 2021)\n    if (t) {\n        *t = fixed_time;\n    }\n    return fixed_time;\n}

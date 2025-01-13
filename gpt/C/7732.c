@@ -1,0 +1,1 @@
+printf("The temperature is %d.\n", temperature)

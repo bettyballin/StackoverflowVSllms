@@ -1,1 +1,0 @@
-$Color = new COM('ColorClass');\n$Color->set_color_function($red, $green, $blue);

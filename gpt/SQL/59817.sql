@@ -1,0 +1,1 @@
+ALTER TABLE CustomerContacts\nADD CONSTRAINT FK_CustomerContacts_idCustomer\nFOREIGN KEY (idCustomer)\nREFERENCES Customers(idCustomer)\nON UPDATE CASCADE;\n\nALTER TABLE CustomerNotes\nADD CONSTRAINT FK_CustomerNotes_idCustomer\nFOREIGN KEY (idCustomer)\nREFERENCES Customers(idCustomer)\nON UPDATE CASCADE;

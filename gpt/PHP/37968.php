@@ -1,0 +1,1 @@
+echo '<pre>';\nprint_r($_SERVER);\necho '</pre>';

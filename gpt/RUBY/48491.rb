@@ -1,0 +1,1 @@
+autoload :SomeClass, 'some_class'

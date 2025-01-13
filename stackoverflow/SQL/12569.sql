@@ -1,1 +1,0 @@
-Select Name, Count(Name) As Count \n    From Table\n    Group By Name\n    Having Count(Name) > 1\n    Order By Count(Name) Desc

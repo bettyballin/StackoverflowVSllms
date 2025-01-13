@@ -1,0 +1,1 @@
+// Example of enforcing HTTPS in ASP.NET Core\npublic void Configure(IApplicationBuilder app, IHostingEnvironment env)\n{\n    var options = new RewriteOptions().AddRedirectToHttps();\n    app.UseRewriter(options);\n\n    app.UseAuthentication();\n    app.UseMvc();\n}

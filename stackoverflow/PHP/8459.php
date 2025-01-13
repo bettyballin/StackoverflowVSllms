@@ -1,1 +1,0 @@
-preg_match_all("<(?:p|ul|ol)>(.*?)</(?:p|ul|ol)>", $string, $matches)

@@ -1,0 +1,1 @@
+public function indexAction()\n{\n    $storeid = $this->getStoreId();\n\n    if (!$storeid) {\n        $this->_forward('notfound');\n        return;\n    }\n\n    $store = $this->_helper->loadModel('stores');\n    $store->getByPrimary($storeid);\n\n    // Store $store in session\n    $session = new Zend_Session_Namespace('storeNamespace');\n    $session->store = $store;\n}

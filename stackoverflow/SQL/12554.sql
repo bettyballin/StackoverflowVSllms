@@ -1,1 +1,0 @@
-create trigger mytrigger on mytable for insert, update, delete\nas\n    if ( select count(*) from inserted ) > 0\n        -- insert or update\n        select FooId, Name from inserted\n    else\n        -- delete\n        select FooId, Name from deleted

@@ -1,0 +1,1 @@
+wine your_bridge_application.exe

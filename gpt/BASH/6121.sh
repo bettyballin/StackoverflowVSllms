@@ -1,0 +1,1 @@
+composer require openid/php-openid

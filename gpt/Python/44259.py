@@ -1,0 +1,1 @@
+def update_price_probabilities(b, q_yes, q_no):\n       p_yes = 1 / (1 + math.exp((q_no - q_yes) / b))\n       p_no = 1 - p_yes\n       return p_yes, p_no

@@ -1,0 +1,1 @@
+private function getSlaveConnection() {\n        foreach ($this->slaveConnections as $index => $connection) {\n            if ($connection->ping()) {\n                return $connection;\n            }\n        }\n        // Fallback to master if no slaves are available\n        return $this->masterConnection;\n    }

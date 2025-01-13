@@ -1,1 +1,0 @@
-namespace VW {\n  struct Foo {\n      friend Foo operator+(const Foo&, const Foo&);\n  };\n}\nVW::Foo VW::operator+(const Foo& lhs, const Foo& rhs) { return lhs; }

@@ -1,1 +1,0 @@
-IntPtr mainHandle = FindWindow("mIRC", null);\nIntPtr serverHandle = FindWindowEx(mainHandle, new IntPtr(0), "MDIClient", null);  \nIntPtr chanHandle = FindWindowEx(serverHandle, new IntPtr(0), "mIRC_Channel", null);  \nIntPtr editHandle = FindWindowEx(chanHandle, new IntPtr(0), "richEdit20A", null);\nSendMessage(editHandle, 0x000C, 0, "Hello World");

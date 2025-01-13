@@ -1,0 +1,1 @@
+gcc -o notify_example notify_example.c `pkg-config --cflags --libs libnotify`

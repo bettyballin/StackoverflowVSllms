@@ -1,0 +1,1 @@
+tar -xvf j2sdk-1_4_2_19-linux-i586.bi

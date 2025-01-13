@@ -1,0 +1,1 @@
+pm install --save-dev webpack webpack-cli css-loader style-loader mini-css-extract-plugin\n   npm install --save-dev babel-loader @babel/core @babel/preset-env

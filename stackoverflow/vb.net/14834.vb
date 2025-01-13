@@ -1,1 +1,0 @@
-Dim pc As PerformanceCounter = New PerformanceCounter("System", "System Up Time")\n\npc.NextValue() ' This returns zero for a reason I don't know\n\n' This call to NextValue gets the correct value\nDim ts As TimeSpan = TimeSpan.FromSeconds(pc.NextValue())

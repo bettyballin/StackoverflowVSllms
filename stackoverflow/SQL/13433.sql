@@ -1,1 +1,0 @@
-SELECT\n  p.id pd_id\n, p.var_no\n, p.status\n, o.name operator\n, o.r_id\n, o.r_type\n, o.start_datetime\n, o.end_datetime\n--, p.id rd_id\n--, p.s_control\n, p.xml_data last_d_res_xml\nFROM schema_a.table_x p\nJOIN schema_b.table_y o ON p.id = o.pd_id\nWHERE p.some_id = 11\nORDER BY pd_id DESC, end_datetime DESC NULLS FIRST

@@ -1,0 +1,1 @@
+pm install -g html-minifier\n   html-minifier --input-dir src --output-dir dist --file-ext html --collapse-whitespace --remove-comments

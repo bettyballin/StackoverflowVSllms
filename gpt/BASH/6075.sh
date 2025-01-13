@@ -1,0 +1,1 @@
+sudo a2enmod php\nsudo systemctl restart apache2

@@ -1,1 +1,0 @@
-django.db.transaction.commit_manually

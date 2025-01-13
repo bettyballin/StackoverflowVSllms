@@ -1,0 +1,1 @@
+try {\n        $pdo = new PDO('pgsql:host=your_host;dbname=your_db', 'username', 'password');\n        // Use $pdo for database operations\n    } catch (PDOException $e) {\n        echo 'Connection failed: ' . $e->getMessage();\n    }

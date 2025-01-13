@@ -1,0 +1,1 @@
+swig -php -o foo_wrap.c foo.i

@@ -1,0 +1,1 @@
+public static class GeneratorFactory\n{\n    [Import]\n    public static Func<double, IRandomNumberGenerator> CreateConcreteRNG { get; set; }\n}

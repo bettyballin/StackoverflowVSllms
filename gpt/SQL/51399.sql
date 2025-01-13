@@ -1,0 +1,1 @@
+DECLARE\n  v_result INTEGER;\nBEGIN\n  Testing('someKey', v_result);\n  DBMS_OUTPUT.PUT_LINE('Result: ' || v_result);\nEND;

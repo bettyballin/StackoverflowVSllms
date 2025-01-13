@@ -1,0 +1,1 @@
+public interface IAdifWriter {\n    void WriteHeader();\n    void WriteRecord();\n    void WriteFooter();\n}

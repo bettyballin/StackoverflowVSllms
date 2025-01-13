@@ -1,0 +1,1 @@
+import random\n\ndef generate_high_ascii_password(length=12):\n    characters = ''.join(chr(i) for i in range(33, 127)) + ''.join(chr(i) for i in range(128, 256))\n    password = ''.join(random.choice(characters) for i in range(length))\n    return password\n\n# Generate a 12-character password with high ASCII characters\nprint(generate_high_ascii_password())

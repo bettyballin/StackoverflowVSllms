@@ -1,0 +1,1 @@
+input[type="file"] {\n    width: 100%; /* or any specific width you need */\n    box-sizing: border-box; /* ensures padding and border are included in the width */\n}

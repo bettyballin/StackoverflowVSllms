@@ -1,0 +1,1 @@
+# On Windows\nxampp\apache\bin\httpd.exe -k restart\n\n# On Linux\nsudo /opt/lampp/lampp restart

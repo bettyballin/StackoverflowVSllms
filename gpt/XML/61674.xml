@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" ?>\n   <phpdoc>\n       <title>My Project Documentation</title>\n       <directories>\n           <directory>src</directory>\n       </directories>\n       <target>docs</target>\n   </phpdoc>

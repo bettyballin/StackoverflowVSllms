@@ -1,0 +1,1 @@
+tar --exclude='path/to/images/tmp' -czpf /path/to/backups/my_backup.tar.gz -C path/to/images .

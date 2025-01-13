@@ -1,0 +1,1 @@
+int calculatedHeight = CalculateHeight(myText, myFont, myWidth, myLinkLabel.Links.Count > 0);

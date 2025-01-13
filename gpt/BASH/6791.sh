@@ -1,0 +1,1 @@
+if "$(ConfigurationName)" == "Debug" (\n       regsvr32 /s "$(TargetDir)yourcom.dll"\n   )

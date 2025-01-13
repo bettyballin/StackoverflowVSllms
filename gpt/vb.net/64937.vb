@@ -1,0 +1,1 @@
+Public Delegate Sub MyDelegate(ByVal message As String)\n\nSub Main()\n    ' Create an instance of the delegate\n    Dim del As MyDelegate = New MyDelegate(AddressOf MyMethod)\n    \n    ' Invoke the delegate\n    del("Hello, world!")\nEnd Sub\n\nSub MyMethod(ByVal message As String)\n    Console.WriteLine(message)\nEnd Sub

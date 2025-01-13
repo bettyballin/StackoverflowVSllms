@@ -1,1 +1,0 @@
-soup = BeautifulSoup.BeautifulSoup(urllib.urlopen(url).read())

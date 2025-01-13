@@ -1,0 +1,1 @@
+echo '<html>',\n     '<body>',\n     'The content of the ', $container, ' element is displayed in your ', $other_container,\n     '</body>',\n     '</html>';

@@ -1,1 +1,0 @@
-For Each dkn As String in GridView1.DataKeyNames\n     ' -- Do something here with dkn\n Next

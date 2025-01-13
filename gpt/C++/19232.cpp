@@ -1,0 +1,1 @@
+#include <windows.h>\n   #include <tchar.h>\n\n   TCHAR path[MAX_PATH];\n   GetWindowsDirectory(path, MAX_PATH);\n   _tcscat(path, _T("\\Application Data\\MyProgram"));\n   CreateDirectory(path, NULL);\n   // Use this path to store your INI files

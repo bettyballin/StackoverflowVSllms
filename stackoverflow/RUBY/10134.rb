@@ -1,1 +1,0 @@
-map.resources :posts, :path_prefix => '/:version'

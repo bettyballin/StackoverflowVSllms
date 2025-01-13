@@ -1,1 +1,0 @@
-if ($smarty->get_template_vars('foo') === null) \n{\n   $smarty->assign('foo', 'some value');\n}

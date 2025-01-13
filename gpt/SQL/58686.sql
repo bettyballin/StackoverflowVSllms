@@ -1,0 +1,1 @@
+CREATE OR REPLACE PACKAGE BODY log_control IS\n        PROCEDURE enable_logging IS\n        BEGIN\n            g_logging_enabled := TRUE;\n        END enable_logging;\n\n        PROCEDURE disable_logging IS\n        BEGIN\n            g_logging_enabled := FALSE;\n        END disable_logging;\n    END log_control;

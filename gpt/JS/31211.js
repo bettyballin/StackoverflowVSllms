@@ -1,0 +1,1 @@
+// You can use jQuery for any dynamic interactions if needed\n$(document).ready(function() {\n    // Example: Highlight prerequisites when clicked\n    $('#course-prerequisites li').on('click', function() {\n        $(this).toggleClass('highlight');\n    });\n});

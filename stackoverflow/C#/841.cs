@@ -1,1 +1,0 @@
-private System.Data.Linq.Link<String> _content;\n    [Column(Name = "content", DbType = "NVarChar(MAX) NOT NULL", Storage = "_content")]\n    public String Content\n    {\n        get { return this._content.Value; }\n        set { this._content.Value = value; }\n    }

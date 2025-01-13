@@ -1,1 +1,0 @@
-set @query := (\n  select concat(\n    "select",\n      group_concat(concat("\n  1 as ", column_name) separator ','),\n    "\nfrom dual")\n  from information_schema.columns\n  where table_name = 'columns')\n;\nprepare s1 from @query\n;\nexecute s1\n;\ndeallocate prepare s1\n;

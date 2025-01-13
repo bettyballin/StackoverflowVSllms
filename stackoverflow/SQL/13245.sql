@@ -1,1 +1,0 @@
-WITH months (date) AS (\nSELECT GETDATE() AS date\nUNION ALL\nSELECT \n    DATEADD(MONTH,1,date)\nFROM months\nWHERE DATEDIFF(MONTH,GETDATE(),date) < 12)

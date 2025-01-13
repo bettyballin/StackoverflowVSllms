@@ -1,0 +1,1 @@
+CREATE TABLE ExampleTable (\n    Id INT PRIMARY KEY,\n    CaseSensitiveColumn VARCHAR(100) COLLATE Latin1_General_CS_AS, -- Case Sensitive collation\n    CaseInsensitiveColumn VARCHAR(100) COLLATE Latin1_General_CI_AS -- Case Insensitive collation\n);

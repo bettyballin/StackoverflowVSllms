@@ -1,0 +1,1 @@
+#include <iostream>\n\nint _tmain(int argc, _TCHAR* argv[])\n{\n    std::cout << "Hello World" << std::endl;\n    std::cin.get(); // Waits for a key press\n    return 0;\n}

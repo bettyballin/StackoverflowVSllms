@@ -1,1 +1,0 @@
-WHERE EventDate BETWEEN @DateStart AND @DateEnd

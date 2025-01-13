@@ -1,0 +1,1 @@
+-- Start SQL*Plus and connect to your database\nsqlplus username/password@database\n\n-- Set the output file path and name\nSPOOL /path/to/your/folder/output.txt\n\n-- Execute your query\nSELECT * FROM TEST;\n\n-- Stop spooling\nSPOOL OFF\n\n-- Exit SQL*Plus\nEXIT

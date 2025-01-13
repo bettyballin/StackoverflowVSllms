@@ -1,0 +1,1 @@
+using System.Text.RegularExpressions;\n\n   public bool ValidateInput(string input)\n   {\n       string pattern = @"^[a-zA-Z0-9]*$"; // Example pattern\n       return Regex.IsMatch(input, pattern);\n   }

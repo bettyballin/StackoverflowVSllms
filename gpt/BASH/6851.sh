@@ -1,0 +1,1 @@
+// Example of launching a Compute Engine instance using gcloud command-line tool\n   gcloud compute instances create my-instance --zone=us-central1-a --machine-type=n1-standard-8 --image=debian-9

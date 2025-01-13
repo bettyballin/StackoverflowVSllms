@@ -1,1 +1,0 @@
-SELECT col1, col2, col3 \nINTO Table1\nFROM Table2 

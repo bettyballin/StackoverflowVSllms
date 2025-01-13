@@ -1,1 +1,0 @@
-$contents = @file('/path/to/error.log', FILE_SKIP_EMPTY_LINES);\nif (is_array($contents)) {\n    echo end($contents);\n}\nunset($contents);

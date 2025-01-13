@@ -1,0 +1,1 @@
+group :test do\n  gem 'database_cleaner-active_record'\nend

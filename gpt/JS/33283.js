@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('table.grid>tbody').on('mouseover mouseout', function(ev) {\n        var $target = $(ev.target).closest('tr');\n        if ($target.length) {\n            $target.toggleClass('hover', ev.type === 'mouseover');\n        }\n    });\n});

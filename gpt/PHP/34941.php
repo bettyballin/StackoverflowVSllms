@@ -1,0 +1,1 @@
+<?php\n$code = file_get_contents('myfile.php');\nob_start();\neval("?>$code<?php ");\n$xhtml = ob_get_clean();\n?>

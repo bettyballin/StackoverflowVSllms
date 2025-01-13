@@ -1,1 +1,0 @@
-SELECT ColumnA FROM Table1 UNION Select ColumnB FROM Table2 ORDER BY 1

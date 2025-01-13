@@ -1,0 +1,1 @@
+CREATE DATABASE LINK abcd\nCONNECT TO remote_user IDENTIFIED BY remote_password\nUSING 'remote_database';

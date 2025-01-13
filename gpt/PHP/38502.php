@@ -1,0 +1,1 @@
+<?php\n    // Set the P3P header\n    header('P3P: CP="CAO PSA OUR"');\n\n    // Set the cookie before any output\n    setcookie('hello', 'poopoo', time() + 3600, '/');\n\n    // Output the cookie value\n    if (isset($_COOKIE['hello'])) {\n        echo $_COOKIE['hello'];\n    } else {\n        echo 'Cookie is not set';\n    }\n?>

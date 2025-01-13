@@ -1,0 +1,1 @@
+[Authorize]\n   public IActionResult SensitiveAction()\n   {\n       // Secure logic here\n   }

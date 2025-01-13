@@ -1,0 +1,1 @@
+if (isset($_POST['remember_me'])) {\n       setcookie("username", $username, time()+1209600, "/", ".example.com"); // 2 weeks\n   } else {\n       setcookie("username", "", time()-3600, "/", ".example.com"); // Delete cookie\n   }

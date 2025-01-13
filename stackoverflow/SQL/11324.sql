@@ -1,1 +1,0 @@
-SELECT user_name, truncate(event_time, 'YYYYMMDD HH24MI'), count(*)\nFROM job_table\nWHERE event_time > TO_DATE( some start date time)\nAND user_name IN ( list of users to query )\nGROUP BY user_name, truncate(event_time, 'YYYYMMDD HH24MI') 

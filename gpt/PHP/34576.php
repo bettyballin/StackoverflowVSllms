@@ -1,0 +1,1 @@
+<?php\n$array_A = array(13, 4, 59, 38, 9, 69, 72, 93, 1, 3, 5);\n$array_B = array(29, 72, 21, 3, 6);\n\n$common_elements = array_intersect($array_A, $array_B);\n$common_count = count($common_elements);\n\necho "Number of common elements: " . $common_count; // Output should be 2\n?>

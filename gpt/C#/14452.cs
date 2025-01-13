@@ -1,0 +1,1 @@
+public Form1()\n{\n    InitializeComponent();\n    this.FormClosing += new FormClosingEventHandler(Form1_FormClosing);\n}

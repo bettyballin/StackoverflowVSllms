@@ -1,0 +1,1 @@
+// Check if a unique key exists in session storage\nif (!sessionStorage.getItem('uniqueTabKey')) {\n    // Generate a unique key for the tab\n    const uniqueTabKey = 'tab_' + Math.random().toString(36).substr(2, 9);\n    sessionStorage.setItem('uniqueTabKey', uniqueTabKey);\n}\n\n// Retrieve the unique key\nconst tabKey = sessionStorage.getItem('uniqueTabKey');

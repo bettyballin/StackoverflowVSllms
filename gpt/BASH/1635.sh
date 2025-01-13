@@ -1,0 +1,1 @@
+ocra wrapper.rb --add-all-core --no-lzma

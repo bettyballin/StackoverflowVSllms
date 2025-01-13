@@ -1,0 +1,1 @@
+// Inspecting before EndEdit\nvar currentRow = (DataRowView)bindingSource.Current;\nConsole.WriteLine($"Before EndEdit: {currentRow["yourStringColumnName"]}");\n\n// After EndEdit\nbindingSource.EndEdit();\ncurrentRow = (DataRowView)bindingSource.Current;\nConsole.WriteLine($"After EndEdit: {currentRow["yourStringColumnName"]}");

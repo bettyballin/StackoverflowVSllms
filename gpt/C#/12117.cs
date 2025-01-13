@@ -1,0 +1,1 @@
+public class FirstController : Controller\n{\n    public ActionResult FirstAction()\n    {\n        // Logic for FirstAction\n        return RedirectToAction("SecondAction", "SecondController");\n    }\n}\n\npublic class SecondController : Controller\n{\n    public ActionResult SecondAction()\n    {\n        // Logic for SecondAction\n        return View();\n    }\n}

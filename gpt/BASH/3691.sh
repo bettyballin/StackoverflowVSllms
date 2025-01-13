@@ -1,0 +1,1 @@
+sudo nano /etc/dhcp3/dhclient.conf

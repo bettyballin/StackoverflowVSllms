@@ -1,0 +1,1 @@
+public class MyDataContext : DataContext\n{\n    public Table<MyEntity> MyEntities;\n\n    public MyDataContext(string connectionString) : base(connectionString)\n    {\n    }\n}

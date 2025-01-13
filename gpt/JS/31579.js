@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    window.onload = function() {\n        var form = document.getElementById('myForm');\n        if (form) {\n            form.target = 'myIframe';\n        }\n    };\n</script>

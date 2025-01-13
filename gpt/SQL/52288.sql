@@ -1,0 +1,1 @@
+SELECT name \nFROM sys.server_principals \nWHERE type = 'G';

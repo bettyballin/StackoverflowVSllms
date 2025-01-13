@@ -1,0 +1,1 @@
+ALTER INDEX [PK_YourTable] ON YourTable REBUILD;\n    -- or\n    ALTER INDEX [PK_YourTable] ON YourTable REORGANIZE;

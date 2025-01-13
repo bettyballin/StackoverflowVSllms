@@ -1,0 +1,1 @@
+RewriteEngine On\nRewriteRule ^(.*)\.html$ $1.html.php [L]

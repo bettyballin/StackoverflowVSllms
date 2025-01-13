@@ -1,1 +1,0 @@
-SELECT TOP 1 employee.name, employee.salary from (\n    SELECT TOP N employee.name, employee.salary\n    FROM employee\n    ORDER BY employee.salary DESC )

@@ -1,0 +1,1 @@
+#include <jni.h>\n    #include "NativeExample.h"\n    #include <stdio.h>\n\n    JNIEXPORT void JNICALL Java_NativeExample_printMessage(JNIEnv *env, jobject obj) {\n        printf("Hello from native code!\n");\n    }

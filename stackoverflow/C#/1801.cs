@@ -1,1 +1,0 @@
-MyControl row = (MyControl)LoadControl("~/controls/MyControl.ascx");\n    TableCell newCell = new TableCell();\n    newCell.Controls.Add(row);\n    TableRow newRow = new TableRow();\n    newRow.Cells.Add(newCell);\n    MyTable.Rows.Add(newRow);

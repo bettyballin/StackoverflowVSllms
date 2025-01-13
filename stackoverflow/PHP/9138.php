@@ -1,1 +1,0 @@
-function func($a) {\n    return $a['word'];\n}\nimplode(' ', array_map('func', $x));

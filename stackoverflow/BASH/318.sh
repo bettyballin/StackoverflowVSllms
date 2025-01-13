@@ -1,1 +1,0 @@
-keytool\n    -import\n    -alias <provide_an_alias>\n    -file <certificate_file>\n    -keystore <your_path_to_jre>/lib/security/cacerts

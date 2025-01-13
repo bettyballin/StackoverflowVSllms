@@ -1,0 +1,1 @@
+c:\> bcp srcTable format nul -c -f formatFile.fmt -T -S srcServer

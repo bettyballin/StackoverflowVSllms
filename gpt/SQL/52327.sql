@@ -1,0 +1,1 @@
+CREATE TRIGGER PreventFullTableUpdateDelete\nON MyTable\nAFTER UPDATE, DELETE\nAS\nBEGIN\n    IF NOT EXISTS (SELECT * FROM inserted) AND NOT EXISTS (SELECT * FROM deleted)\n    BEGIN\n        RAISERROR ('UPDATE or DELETE statement without WHERE clause is not allowed', 16, 1);\n        ROLLBACK TRANSACTION;\n    END\nEND;

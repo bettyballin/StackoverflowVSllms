@@ -1,0 +1,1 @@
+public class ClientBase\n{ }\n\npublic class GenericProxy<T> where T : ClientBase\n{\n    T _proxy;\n\n    public GenericProxy(string configName, Func<string, T> factory)\n    {\n        if (factory == null)\n        {\n            throw new ArgumentNullException(nameof(factory));\n        }\n\n        _proxy = factory(configName);\n    }\n}

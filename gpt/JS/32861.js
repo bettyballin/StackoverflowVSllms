@@ -1,0 +1,1 @@
+let myArray = ['a', 'b', 'c', 'd'];\n     myArray.splice(1, 1);\n     console.log(myArray); // Output: ['a', 'c', 'd']\n     console.log(myArray.length); // Output: 3

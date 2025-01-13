@@ -1,0 +1,1 @@
+px prettier --write "path/to/your/file.html"

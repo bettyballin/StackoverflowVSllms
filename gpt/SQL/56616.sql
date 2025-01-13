@@ -1,0 +1,1 @@
+CREATE TABLE unused_columns (\n        table_name VARCHAR(128),\n        column_name VARCHAR(128),\n        column_type VARCHAR(128)\n    );

@@ -1,0 +1,1 @@
+using System;\nusing MyVCLibrary;\n\nclass Program\n{\n    static void Main()\n    {\n        try\n        {\n            MyClass myClass = new MyClass();\n            myClass.MyMethod();\n        }\n        catch (Exception ex)\n        {\n            Console.WriteLine($"Exception: {ex.Message}");\n        }\n    }\n}

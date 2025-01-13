@@ -1,0 +1,1 @@
+# Example command to create a new site in IIS\nNew-Website -Name "car.mydir.com" -Port 80 -PhysicalPath "C:\inetpub\car" -HostHeader "car.mydir.com"

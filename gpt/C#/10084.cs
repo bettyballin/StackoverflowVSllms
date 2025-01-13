@@ -1,0 +1,1 @@
+using System;\n    using System.Runtime.InteropServices;\n\n    public class ComWrapper\n    {\n        [DllImport("YourComComponent.dll")]\n        public static extern int YourMethod();\n\n        public void UseComComponent()\n        {\n            int result = YourMethod();\n            // Handle the result\n        }\n    }

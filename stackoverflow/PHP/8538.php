@@ -1,1 +1,0 @@
-$event_time = strtotime('Sat Oct 25 21:55:29 +0000 2008');

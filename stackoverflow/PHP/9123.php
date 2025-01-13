@@ -1,1 +1,0 @@
-$var = filter_var($var, FILTER_SANITIZE_STRING);

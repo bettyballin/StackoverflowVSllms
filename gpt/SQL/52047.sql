@@ -1,0 +1,1 @@
+SELECT t2.id, t2.name\nFROM tbl2 t2\nLEFT JOIN tbl3 t3\nON t2.id = t3.tbl2_id\nWHERE t3.tbl1_id = ? AND t2.id NOT IN (\n    SELECT t3.tbl2_id\n    FROM tbl3 t3\n    WHERE t3.tbl1_id = ?\n);

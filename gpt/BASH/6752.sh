@@ -1,0 +1,1 @@
+git clone ssh://myuser@myip/e/vc/git/myrepo.git testrepo

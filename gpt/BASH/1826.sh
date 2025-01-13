@@ -1,0 +1,1 @@
+dotnet add package Microsoft.EntityFrameworkCore\ndotnet add package Microsoft.EntityFrameworkCore.SqlServer\ndotnet add package Microsoft.EntityFrameworkCore.Oracle

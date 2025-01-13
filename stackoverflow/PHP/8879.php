@@ -1,1 +1,0 @@
-$columns = array('EGGS', 'SALAD', 'TREES', 'REVISED');\nforeach($columns as $column) {\n    $$column = $columns[$column] ? 'YES' : 'NO';\n}

@@ -1,0 +1,1 @@
+mclient -d your_database_name -u your_username -w your_password -i database_name_schema.sql\nmclient -d your_database_name -u your_username -w your_password -i database_name_data.sql

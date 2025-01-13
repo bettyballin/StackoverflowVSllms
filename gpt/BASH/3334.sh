@@ -1,0 +1,1 @@
+for img in *.jpg; do\n  convert "$img" -profile AdobeRGB1998.icc -profile sRGB.icc "converted_$img"\ndone

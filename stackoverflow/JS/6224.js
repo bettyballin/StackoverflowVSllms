@@ -1,1 +1,0 @@
-(data.RoleOwners.length === 0)

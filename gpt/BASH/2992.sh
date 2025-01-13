@@ -1,0 +1,1 @@
+wget -S -O - http://localhost/CFIDE/administrator/\n     wget -S -O - http://localhost/CFIDE/main/ide.cfm

@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <modules>\n      <add name="SecureSessionModule" type="Namespace.SecureSessionModule, AssemblyName"/>\n    </modules>\n  </system.webServer>\n</configuration>

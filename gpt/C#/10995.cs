@@ -1,0 +1,1 @@
+if (Session["MyObject"] != null)\n   {\n       MyObject myObject = Session["MyObject"] as MyObject;\n       // Proceed with using the object\n   }\n   else\n   {\n       // Handle the case where the session variable is not set\n   }

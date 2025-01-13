@@ -1,0 +1,1 @@
+Dim db As New DatabaseWrapper("mssql", "your_connection_string_here")\ndb.Open()\nDim command As DbCommand = db.CreateCommand("SELECT * FROM YourTable")\n' Execute command and process results\ndb.Close()

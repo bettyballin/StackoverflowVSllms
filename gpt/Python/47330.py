@@ -1,0 +1,1 @@
+# After obfuscation\ndef f1(a1):\n    print(f"Hello, {a1}!")\n\nf1("Alice")

@@ -1,1 +1,0 @@
-SELECT NAME FROM ITEM WHERE ID IN (?, ?, ?, ?)

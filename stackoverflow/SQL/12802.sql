@@ -1,1 +1,0 @@
-SELECT somedate, somevalue,\n  SUM(somevalue) OVER(ORDER BY somedate \n     ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) \n          AS RunningTotal\n  FROM Table

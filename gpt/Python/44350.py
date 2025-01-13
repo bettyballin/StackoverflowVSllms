@@ -1,0 +1,1 @@
+import re\n\ndef sanitize_input(input):\n    if input is None:\n        return None\n    return re.sub(r"['\"\\\0\r\n\t\b\x1A]", r"\\\g<0>", input)

@@ -1,1 +1,0 @@
-preg_match('/^[A-Z1-9]+$/', $data)

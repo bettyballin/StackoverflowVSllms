@@ -1,1 +1,0 @@
-<script language="javascript" type="text/javascript">\nfunction addtext(text) {\n    document.myform.description.value += text;\n}\n</script>\n\n...\n\n<a href="#" onclick="addtext('@<?php echo htmlspecialchars(addslashes($userName)) ?>'); return false"\n  >reply</a>

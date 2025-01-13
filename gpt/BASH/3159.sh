@@ -1,0 +1,1 @@
+# Using standard debug information\ngcc -g -o myprogram myprogram.c\n\n# Using GDB-optimized debug information\ngcc -ggdb -o myprogram myprogram.c

@@ -1,0 +1,1 @@
+$data = array(\n    'column1' => 'value1',\n    'column2' => new Zend_Db_Expr('NULL'), // This will set column2 to NULL\n);\n\n$db->insert('your_table_name', $data);

@@ -1,0 +1,1 @@
+function TextBoxDTownCityClient(sender, args) {\n    var value = document.getElementById('<%= TextBoxDTownCity.ClientID %>').value;\n    if (value.trim() === '') {\n        args.IsValid = false;\n        alert("Delivery Town or City required");\n    } else {\n        args.IsValid = true;\n    }\n}

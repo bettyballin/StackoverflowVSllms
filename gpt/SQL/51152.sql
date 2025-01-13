@@ -1,0 +1,1 @@
+CREATE INDEX idx_employee_id ON EmployeesToDelete(employee_id);

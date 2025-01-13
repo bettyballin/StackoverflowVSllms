@@ -1,1 +1,0 @@
-create function yearfrac (@d1 datetime, @d2 datetime) returns float\nas\nbegin\nreturn abs(datediff(d, @d1, @d2)) / 365.00\nend

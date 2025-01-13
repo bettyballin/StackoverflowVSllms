@@ -1,0 +1,1 @@
+bcp "SELECT '\"' + Column1 + '\",\"' + Column2 + '\",\"' + Column3 + '\"' FROM YourDatabase.dbo.YourTable" queryout "output.csv" -c -t, -T -S your_server -f format.fmt

@@ -1,1 +1,0 @@
-INSERT INTO DataTable (ContactName, Designation) VALUES \n    (@ContactName1, @Designation1), \n    (@ContactName2, @Designation2);

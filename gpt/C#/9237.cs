@@ -1,0 +1,1 @@
+public SampleWindow()\n{\n    InitializeComponent();\n    person = new Person();\n    person.Age = new Age();\n    person.Age.Value = 28;\n\n    numericAdmins.SetSource("Age.Value", person);\n}\n\nprivate void btnOk_Click(object sender, RoutedEventArgs e)\n{         \n    if (!String.IsNullOrEmpty(person.Error))\n    {\n        MessageBox.Show("Error: " + person.Error);\n    }\n}

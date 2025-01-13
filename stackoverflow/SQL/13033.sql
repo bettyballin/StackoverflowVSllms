@@ -1,1 +1,0 @@
-"INSERT INTO offtopic VALUES('', '$author', '$subject', '$body', '$time',    '$next', '$previous', '$branchedFrom', '$branchedTo'"

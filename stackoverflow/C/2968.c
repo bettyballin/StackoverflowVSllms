@@ -1,1 +1,0 @@
-class Score {\n\n  private:\n   int score;\n\n  public:\n   static bool valid( int score ) { \n    return score > 0  ; \n   }\n \n    Score( int s ) {\n    if( ! valid( s ) ) { \n      throw InvalidParameter();\n    }\n\n    score = s;\n   }\n}   

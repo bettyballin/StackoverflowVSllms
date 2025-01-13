@@ -1,1 +1,0 @@
-$go->setDecorators(array(array('ViewHelper')))\n   ->setIgnore(true)\n   ->setAttrib('onclick', 'this.disabled = true');

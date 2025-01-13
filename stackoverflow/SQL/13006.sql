@@ -1,1 +1,0 @@
-:a_var\n select * \n  from A_TABLE \n  where A_COLUMN = :a_var\n    union\n select * \n  from A_TABLE \n  where B_COLUMN = :a_var;

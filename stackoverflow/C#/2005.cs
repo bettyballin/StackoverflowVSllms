@@ -1,1 +1,0 @@
-class Order\n{\n   private List<OrderLine> lines = new List<OrderLine>();\n\n   IEnumerable<OrderLine> Lines { get { return this.lines; } }\n\n   void AddLine(OrderLine line)\n   {\n       this.orders.Add(line);\n   }\n}

@@ -1,0 +1,1 @@
+Dim dropdownlist As New DropDownList()\ndropdownlist.DataSource = New String() {"one", "two"}\nDim databoundCalled As Boolean = False\n\nAddHandler dropdownlist.DataBound, Sub(o, e) databoundCalled = True\n\ndropdownlist.DataBind()

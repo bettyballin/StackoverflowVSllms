@@ -1,0 +1,1 @@
+<?php\nsession_start();\nheader('Content-Type: application/json');\necho json_encode(array('msg' => $_SESSION['msg']));\n?>

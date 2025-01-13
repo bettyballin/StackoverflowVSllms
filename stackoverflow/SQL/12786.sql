@@ -1,1 +1,0 @@
-SELECT\n   (SELECT id FROM YourTable WHERE id < YourId ORDER BY id DESC LIMIT 1) AS prev,\n   (SELECT id FROM YourTable WHERE id > YourId ORDER BY id ASC LIMIT 1) AS next\n;

@@ -1,0 +1,1 @@
+CREATE EVENT refresh_materialized_view\n    ON SCHEDULE EVERY 1 DAY\n    DO\n    BEGIN\n        TRUNCATE TABLE materialized_view;\n        INSERT INTO materialized_view\n        SELECT * FROM your_view;\n    END;

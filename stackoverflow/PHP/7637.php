@@ -1,1 +1,0 @@
-//store this value in a config file\n$salt = 'somelongsecretstring';\n\nforeach($key as $val)\n{\n  $md5 = md5($salt . $key);\n  $_SESSION['keys'][$md5] = $key;\n  echo '<tr><td><a href="?key='.$md5.'">$val</a></td></tr>';\n}

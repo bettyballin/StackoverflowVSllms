@@ -1,1 +1,0 @@
-$floats = array_map('floatval', $nonFloats);

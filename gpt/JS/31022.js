@@ -1,0 +1,1 @@
+Event.observe('form908983160', 'submit', function(event) {\n    new Ajax.Updater('comments', '/blog/posts/comments/add', {\n        asynchronous: true,\n        evalScripts: true,\n        parameters: Form.serialize('form908983160'),\n        requestHeaders: ['X-Update', 'comments']\n    });\n    event.stop(); // Prevent the default form submission\n}, false);

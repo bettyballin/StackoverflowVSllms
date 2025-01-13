@@ -1,0 +1,1 @@
+[HttpPost]\n    [ValidateAntiForgeryToken]\n    public ActionResult Submit(UserModel model)\n    {\n        if (ModelState.IsValid)\n        {\n            // Process the data\n        }\n        return View(model);\n    }

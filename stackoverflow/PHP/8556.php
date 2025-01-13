@@ -1,1 +1,0 @@
-<?php\nsession_start();\nif ($_POST['user'] == 'john' && $_POST['pwd'] == 'password') {\n    $_SESSION['loggedIn']  = true;\n    $_SESSION['firstname'] = 'John';\n}\n?>

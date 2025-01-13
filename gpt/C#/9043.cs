@@ -1,0 +1,1 @@
+public List<MyTable> ExecuteSqlQuery(string sqlQuery)\n{\n    using (var context = new MyDataContext("your_connection_string"))\n    {\n        var result = context.ExecuteQuery<MyTable>(sqlQuery).ToList();\n        return result;\n    }\n}

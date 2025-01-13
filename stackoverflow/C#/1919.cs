@@ -1,1 +1,0 @@
-LastPage aPage = somePage\n      .SomeAction()\n      .AnotherActionWithParams("somevalue")\n      //... other actions\n      .AnotherOneThatKeepsYouOnthePage(); \n  // add some asserts using methods that give you info\n  // on LastPage (or that check the info is there).\n  // you can of course break the statements to add additional \n  // asserts on the multi-steps story.

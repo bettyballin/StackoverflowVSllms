@@ -1,1 +1,0 @@
-$.ajax({\n    /* ajax options omitted */\n    error: function (xmlHttpRequest, textStatus, errorThrown) {\n         if(xmlHttpRequest.readyState == 0 || xmlHttpRequest.status == 0) \n              return;  // it's not really an error\n         else\n              // Do normal error handling\n});

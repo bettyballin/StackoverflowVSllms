@@ -1,0 +1,1 @@
+// Assuming $controller is an object, $action is the method name, and $params is an array of parameters\ncall_user_func_array([$controller, $action], $params);

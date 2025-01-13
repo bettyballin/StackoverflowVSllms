@@ -1,0 +1,1 @@
+string secret = Decrypt("EncryptedString");

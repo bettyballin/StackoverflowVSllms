@@ -1,0 +1,1 @@
+CREATE TABLE example_table (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    url VARCHAR(2083) NOT NULL\n);

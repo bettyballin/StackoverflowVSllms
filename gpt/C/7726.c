@@ -1,0 +1,1 @@
+PROCESS_MITIGATION_DYNAMIC_CODE_POLICY policy;\n   policy.ProhibitDynamicCode = 1;\n   SetProcessMitigationPolicy(ProcessDynamicCodePolicy, &policy, sizeof(policy));

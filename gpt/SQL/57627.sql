@@ -1,0 +1,1 @@
+;WITH CTE AS (\n    SELECT *\n    FROM MM.test_1(dbo.test_2(kp.id))\n)\nSELECT *\nFROM CTE\nWHERE id = 4679;

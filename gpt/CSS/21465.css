@@ -1,0 +1,1 @@
+/* Apply hasLayout property for IE6 */\nul, ol {\n    zoom: 1;\n}\n\n/* Example of floating div and wrapping text */\n.floating-div {\n    float: left;\n    width: 200px;\n    height: 100px;\n    background-color: gray;\n    margin-right: 10px;\n}

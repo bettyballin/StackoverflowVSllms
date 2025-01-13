@@ -1,0 +1,1 @@
+using (BinaryWriter bw = new BinaryWriter(File.Open("data.dat", FileMode.Create), Encoding.ASCII))\n{\n    string value = "Foo";\n\n    // Writes 1 byte for length prefix (3) + 3 bytes for characters = 4 bytes total\n    bw.Write(value);\n\n    // Writes 3 bytes for characters 'F', 'o', 'o' = 3 bytes total\n    bw.Write(value.ToCharArray());\n}

@@ -1,0 +1,1 @@
+-- Deny direct access to the table\nDENY SELECT ON users.MESSAGES TO [YourUserRole];\n\n-- Grant access to the view\nGRANT SELECT ON users.VIEW_MESSAGES TO [YourUserRole];

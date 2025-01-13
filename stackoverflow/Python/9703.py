@@ -1,1 +1,0 @@
-myFunc(name="bob", age=10, gender="male")

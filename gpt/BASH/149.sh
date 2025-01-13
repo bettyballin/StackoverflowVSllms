@@ -1,0 +1,1 @@
+*/5 * * * * /usr/bin/php /path/to/your/send_emails.php

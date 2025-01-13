@@ -1,1 +1,0 @@
-SELECT t2.MinOfPriority, tn.Field2, Nz([tn.Field3],999) AS Priority, \n       tn.Field4, tn.Field5\nFROM tn \nINNER JOIN (SELECT Min(Nz(tn.Field3,999)) AS MinOfPriority, tn.Field2\n            FROM  tn GROUP BY tn.Field2) AS t2 ON tn.Field2 = t2.Field2\nORDER BY t2.MinOfPriority, tn.Field2, Nz([Field3],999);

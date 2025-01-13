@@ -1,0 +1,1 @@
+string value = "<your html content here>";\nvalue = value.Replace("<br>", Environment.NewLine)\n             .Replace("<br/>", Environment.NewLine)\n             .Replace("<br />", Environment.NewLine)\n             .Trim();

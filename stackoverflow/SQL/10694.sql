@@ -1,1 +1,0 @@
-SELECT Curr.ProdID, Curr.PublishDate As CurrentIssue, Prev.PublishDate AS PrevIssue\nFROM Issues Curr, Issues Prev\nWHERE ProdID=123 AND Curr.PublishDate='12/06/2008' AND Prev.IssueID=Curr.IssueID - 1

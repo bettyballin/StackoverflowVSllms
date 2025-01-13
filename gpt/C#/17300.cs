@@ -1,0 +1,1 @@
+using Owasp.Sanitizer;\n\n   var sanitizer = new HtmlSanitizer();\n   string sanitizedHtml = sanitizer.Sanitize(userInput);

@@ -1,0 +1,1 @@
+public IEnumerable<YourObject> GetPagedData(int pageNumber, int pageSize)\n{\n    return dataAccessLayer.GetPagedData(pageNumber, pageSize);\n}

@@ -1,0 +1,1 @@
+gacutil -l | findstr YourAssemblyName

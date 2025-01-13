@@ -1,0 +1,1 @@
+-- Enable Service Broker\n   ALTER DATABASE [YourDatabaseName] SET ENABLE_BROKER;\n   \n   -- Enable SQL Cache Dependency\n   EXEC sp_configure 'show advanced options', 1; \n   RECONFIGURE; \n   EXEC sp_configure 'clr enabled', 1; \n   RECONFIGURE;\n   EXEC sp_configure 'allow updates', 0; \n   RECONFIGURE;

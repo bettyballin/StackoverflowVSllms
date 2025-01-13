@@ -1,0 +1,1 @@
+sorted_list.extend(new_items)\n  sorted_list.sort()

@@ -1,0 +1,1 @@
+objcopy --add-gnu-debuglink=my_program.debug my_program

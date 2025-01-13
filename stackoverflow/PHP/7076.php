@@ -1,1 +1,0 @@
-$cresult = split("\r\n", $cresult);

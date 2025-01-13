@@ -1,1 +1,0 @@
-function translate(i) {\n  google.language.translate(testua, languages[i], languages[i+1], function(result) {\n    if (result.translation) {\n      text = result.translation;\n      f.textarea1.value = text;\n      if (i < translationNumber) { translate(i++); }\n    }\n  }\n}

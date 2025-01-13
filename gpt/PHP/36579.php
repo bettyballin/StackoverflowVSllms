@@ -1,0 +1,1 @@
+$registered_triggers = [];\n\n   function register_trigger($trigger_name, $callback) {\n       global $registered_triggers;\n       $registered_triggers[$trigger_name] = $callback;\n   }

@@ -1,1 +1,0 @@
-original_samples = [0, 0.1, 0.2, 0.3, 0.4, 0.5]\n\ndef faster(samples):\n    new_samples = []\n    for i = 0 to samples.length:\n        if i is even:\n            new_samples.add(0.5 * (samples[i] + samples[i+1]))\n    return new_samples\n\nfaster_samples = faster(original_samples)

@@ -1,0 +1,1 @@
+import random\n\n# Create a list with 12000 random integers\nmy_list = [random.randint(1, 100000) for _ in range(12000)]\n\n# Sort the list\nmy_list.sort()\n\n# Print the first 10 elements to verify\nprint(my_list[:10])

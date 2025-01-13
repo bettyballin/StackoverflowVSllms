@@ -1,0 +1,1 @@
+-- On the master\n    CREATE USER 'replica_user'@'%' IDENTIFIED BY 'password';\n    GRANT REPLICATION SLAVE ON *.* TO 'replica_user'@'%';\n\n    -- On the slave\n    CHANGE MASTER TO MASTER_HOST='master_host', MASTER_USER='replica_user', MASTER_PASSWORD='password', MASTER_LOG_FILE='mysql-bin.000001', MASTER_LOG_POS=  107;\n    START SLAVE;

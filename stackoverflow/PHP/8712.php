@@ -1,1 +1,0 @@
-$url = $this->view->url(array('controller' => 'team', \n                              'action' => 'manage', \n                              'id' => $teamID), null, null);\n\n$this->view->response = '<script type="text/javascript">\n                           window.location = "'.$url.'"\n                        </script>';

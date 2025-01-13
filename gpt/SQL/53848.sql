@@ -1,0 +1,1 @@
+SELECT * FROM myTable as t\nWHERE t.ID = 4\n    AND t.X = 1\n    AND t.Name COLLATE Cyrillic_General_CI_AS LIKE N'%аккаунт%'

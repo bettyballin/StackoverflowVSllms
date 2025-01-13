@@ -1,0 +1,1 @@
+text.Sort(); // Sorts in ascending order by default

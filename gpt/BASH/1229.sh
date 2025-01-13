@@ -1,0 +1,1 @@
+Pattern: (.*)\((\d+)\): col: (\d+) Warning: (.*)\nLink: file://$1\nLine: $2

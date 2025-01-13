@@ -1,0 +1,1 @@
+<?php\nsession_start();\nsession_unset();\nsession_destroy();\necho "You have been logged out.";\n?>

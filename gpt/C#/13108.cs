@@ -1,0 +1,1 @@
+public class AccountController : Controller\n{\n    public ActionResult Login()\n    {\n        // Your login logic here\n        return View();\n    }\n}

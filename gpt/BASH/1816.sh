@@ -1,0 +1,1 @@
+keytool -export -alias tomcat -keystore tomcat.jks -file tomcat.crt

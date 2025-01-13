@@ -1,0 +1,1 @@
+using (var context = new YourDbContext())\n{\n    string sql = "UPDATE Products SET Count = 0 WHERE Type = 1";\n    context.Database.ExecuteSqlCommand(sql);\n}

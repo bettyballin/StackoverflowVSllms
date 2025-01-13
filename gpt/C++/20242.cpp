@@ -1,0 +1,1 @@
+struct PluginContext;\n\nextern "C" {\n    typedef PluginContext* PluginContextHandle;\n\n    __declspec(dllexport) PluginContextHandle createContext();\n    __declspec(dllexport) void destroyContext(PluginContextHandle context);\n}

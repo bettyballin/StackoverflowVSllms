@@ -1,1 +1,0 @@
-SELECT comm from yourtable \n  where profit BETWEEN yourtable.ProfitStartRange and yourtable.ProfitEndRange

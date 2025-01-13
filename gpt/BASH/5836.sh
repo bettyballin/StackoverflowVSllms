@@ -1,0 +1,1 @@
+git tag -a v0.1.0 -m "Initial release"\ngit push origin v0.1.0

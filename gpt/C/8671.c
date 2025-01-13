@@ -1,0 +1,1 @@
+__asm__ __volatile__ (\n    ".byte 0x90\n\t"  // Insert a NOP instruction\n);

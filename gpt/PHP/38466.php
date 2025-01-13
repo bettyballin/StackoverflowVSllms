@@ -1,0 +1,1 @@
+function getNewNews($userId, $pdo) {\n    $stmt = $pdo->prepare("\n        SELECT n.id, n.title, n.content, n.posted_at\n        FROM news n\n        LEFT JOIN user_read_news ur ON n.id = ur.news_id AND ur.user_id = ?\n        WHERE ur.news_id IS NULL\n        ORDER BY n.posted_at DESC\n    ");\n    $stmt->execute([$userId]);\n    return $stmt->fetchAll(PDO::FETCH_ASSOC);\n}

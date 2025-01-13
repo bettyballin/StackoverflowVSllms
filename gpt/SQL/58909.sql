@@ -1,0 +1,1 @@
+CREATE INDEX idx_A_lookupB ON A(lookupB);\nCREATE INDEX idx_B_lookupC ON B(lookupC);\nCREATE INDEX idx_C_id ON C(id);

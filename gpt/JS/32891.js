@@ -1,0 +1,1 @@
+<!-- Example using a build tool to conditionally include data-test-id -->\n   # In your build script or server-side code\n   if (ENV != 'production') {\n       <tr data-test-id="carrot-1">\n           <td class="color">green</td>\n           <td class="size">doesn't matter</td>\n       </tr>\n   }

@@ -1,0 +1,1 @@
+find . -maxdepth 1 -name 'OneThing-*.extension' -exec sh -c 'cp "$0" "${0/OneThing/AnotherThing}"' {} \;

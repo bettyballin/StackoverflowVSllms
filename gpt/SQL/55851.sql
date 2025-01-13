@@ -1,0 +1,1 @@
+INSERT INTO FieldLabels (fieldName, fieldLabel)\nVALUES \n    ('height', 'Height (cm)'),\n    ('age', 'Age in years'),\n    ('bloodAlcPct', 'Blood Alcohol %'),\n    ('monthsIncarcerated', 'Months in jail');

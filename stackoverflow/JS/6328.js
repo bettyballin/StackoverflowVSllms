@@ -1,1 +1,0 @@
-$("a[rel^='lightbox']").livequery(function(){ \n    $(this).slimbox({/* Put custom options here */}, null, function(el) {\n            return (this == el) || ((this.rel.length > 8) && (this.rel == el.rel));\n    }), function() {\n        //remove slimbox? this is called when elements no longer match\n    }\n});

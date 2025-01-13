@@ -1,0 +1,1 @@
+<?php\n$output = shell_exec('perl process_text.pl');\necho $output;\n?>

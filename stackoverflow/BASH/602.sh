@@ -1,1 +1,0 @@
-scp file user@server:/path

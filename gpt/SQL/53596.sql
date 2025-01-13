@@ -1,0 +1,1 @@
+DECLARE @SearchTerm NVARCHAR(100) = 'Break';\nDECLARE @Pattern NVARCHAR(100) = '%[^a-zA-Z0-9]' + @SearchTerm + '[^a-zA-Z0-9]%';\n\nSELECT BusinessName\nFROM YourTable\nWHERE PATINDEX(@Pattern, ' ' + BusinessName + ' ') > 0;

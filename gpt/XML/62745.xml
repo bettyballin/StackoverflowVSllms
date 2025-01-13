@@ -1,0 +1,1 @@
+<Target Name="AfterBuild">\n     <!-- Comment out or remove the following line -->\n     <!-- <Exec Command="&quot;$(FrameworkSDKDir)\bin\gacutil.exe&quot; -nologo -i &quot;$(TargetPath)&quot;" /> -->\n   </Target>

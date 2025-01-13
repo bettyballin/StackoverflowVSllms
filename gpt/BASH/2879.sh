@@ -1,0 +1,1 @@
+composer global require squizlabs/php_codesniffer\n    phpcs /path/to/code

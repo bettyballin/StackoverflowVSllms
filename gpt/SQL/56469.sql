@@ -1,0 +1,1 @@
+SELECT *\n   FROM YourFactTable fact\n   JOIN TimeDimension time ON fact.time_id = time.time_id\n   WHERE DATEPART(HOUR, time.hour) BETWEEN 9 AND 17;

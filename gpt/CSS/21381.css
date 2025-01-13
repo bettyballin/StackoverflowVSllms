@@ -1,0 +1,1 @@
+.nav {\n      ul {\n        margin: 0;\n        padding: 0;\n        list-style: none;\n      }\n      li { display: inline-block; }\n      a {\n        display: block;\n        padding: 6px 12px;\n        text-decoration: none;\n      }\n    }

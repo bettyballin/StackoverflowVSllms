@@ -1,0 +1,1 @@
+import requests\n\n# URL of the PHP page\nurl = 'http://yourwebsite.com/your_php_page.php'\n\n# The data to be sent in the POST request\ndata = {\n    'product_name': 'example_product'\n}\n\n# Send the POST request\nresponse = requests.post(url, data=data)\n\n# Print the response from the server\nprint(response.text)

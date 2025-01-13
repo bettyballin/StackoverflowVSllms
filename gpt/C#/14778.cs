@@ -1,0 +1,1 @@
+public class MySingleton\n{\n    private static readonly Lazy<MySingleton> instance = new Lazy<MySingleton>(() => new MySingleton());\n\n    public static MySingleton Instance => instance.Value;\n\n    private MySingleton()\n    {\n        // Initialization code\n    }\n\n    public void Initialize()\n    {\n        // Additional initialization if necessary\n    }\n}

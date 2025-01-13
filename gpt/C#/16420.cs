@@ -1,0 +1,1 @@
+string connectionString = Environment.GetEnvironmentVariable("MY_DB_CONNECTION_STRING");

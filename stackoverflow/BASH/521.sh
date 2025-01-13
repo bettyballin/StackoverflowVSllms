@@ -1,1 +1,0 @@
-cd <wherever you installed the server>\ZendServer\share\nrd /S /Q ZendFramework\nmkdir ZendFramework\ncd ZendFramework\nsvn co http://framework.zend.com/svn/framework/standard/trunk/ .

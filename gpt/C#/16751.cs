@@ -1,0 +1,1 @@
+// Remove columns by name\nds.Tables[0].Columns.Remove("ColumnName1");\nds.Tables[0].Columns.Remove("ColumnName2");\n\n// Or, remove columns by index (Note: Remove in reverse order to avoid index shifting issues)\nds.Tables[0].Columns.RemoveAt(2);\nds.Tables[0].Columns.RemoveAt(1);

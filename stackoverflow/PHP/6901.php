@@ -1,1 +1,0 @@
-function sort_callback($a, $b) {\n    if ($a[2] == $b[2]) {\n        return 0;\n    }\n\n    return ($a[2] < $b[2]) ? -1 : 1;\n}\n\nuasort($array1, 'sort_callback');

@@ -1,0 +1,1 @@
+bool isValid = totp.VerifyTotp(userProvidedCode, out long timeStepMatched, VerificationWindow.RfcSpecifiedNetworkDelay);\n   if (isValid)\n   {\n       // Proceed with login\n   }\n   else\n   {\n       // Reject login\n   }

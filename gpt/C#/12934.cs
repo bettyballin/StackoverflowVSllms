@@ -1,0 +1,1 @@
+protected void LoadUserControl(string controlPath)\n   {\n       UserControl userControl = (UserControl)LoadControl(controlPath);\n       Placeholder.Controls.Clear();\n       Placeholder.Controls.Add(userControl);\n   }

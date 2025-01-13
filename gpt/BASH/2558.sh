@@ -1,0 +1,1 @@
+sudo perl -MCPAN -e 'CPAN::Config->load; $CPAN::Config->{urllist} = ["http://cpan.metacpan.org/"]; CPAN::Config->commit'

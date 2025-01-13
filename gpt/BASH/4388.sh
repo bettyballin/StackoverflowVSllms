@@ -1,0 +1,1 @@
+certreq -new request.inf request.csr\n    certreq -submit -attrib "CertificateTemplate:WebServer" request.csr issuedCert.cer

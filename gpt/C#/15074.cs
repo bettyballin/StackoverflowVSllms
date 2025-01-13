@@ -1,0 +1,1 @@
+using (var context = new YourDbContext())\n{\n    context.Database.Log = Console.Write;\n    var data = context.YourEntities.ToList();\n}

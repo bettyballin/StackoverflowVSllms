@@ -1,0 +1,1 @@
+function getCsvLines($filePath) {\n        $handle = fopen($filePath, 'r');\n        while (($line = fgetcsv($handle)) !== false) {\n            yield $line;\n        }\n        fclose($handle);\n    }\n\n    foreach (getCsvLines('path/to/file.csv') as $line) {\n        // Process each line\n    }

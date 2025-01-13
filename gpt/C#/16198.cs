@@ -1,0 +1,1 @@
+public class Entity\n{\n    public Guid Id { get; private set; }\n    public string Name { get; set; }\n\n    public Entity()\n    {\n        Id = Guid.NewGuid(); // Generate GUID in the constructor\n    }\n}\n\n// Usage\nvar entity = new Entity { Name = "Sample Entity" };\nConsole.WriteLine(entity.Id); // GUID is already available

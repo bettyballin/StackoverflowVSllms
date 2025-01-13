@@ -1,0 +1,1 @@
+<?php\n// Using include\ninclude 'optional_file.php';\necho 'This will be printed even if optional_file.php is missing.';\n\n// Using require\nrequire 'essential_file.php';\necho 'This will not be printed if essential_file.php is missing.';\n?>

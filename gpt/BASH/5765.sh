@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Start the process in the background\nyour_process_command &\nPROCESS_PID=$!\n\n# Wait for a specific amount of time (e.g., 2 hours)\nsleep 2h\n\n# Terminate the process\nkill $PROCESS_PID\n\n# Restart the process\nyour_process_command &

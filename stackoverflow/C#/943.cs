@@ -1,1 +1,0 @@
-[Obsolete("Foo is deprecated. Use Bar instead for munging widgets.")]

@@ -1,0 +1,1 @@
+$('#element').text(userInput); // Safe way to insert user input

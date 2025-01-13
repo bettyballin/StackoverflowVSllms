@@ -1,1 +1,0 @@
-SELECT t.Type, t.Code, COUNT(t.Code) AS CountOfCode, \n  [CountOfCode]/DCount("Code","t","Code=" & [Code])*100 AS PercentCode, \n  [CountOfCode]/DCount("Type","t","Type=" & [Type])*100 AS PercentType\n      FROM t\n      GROUP BY t.Type, t.Code

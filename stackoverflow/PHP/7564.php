@@ -1,1 +1,0 @@
-putenv("TZ=US/Central");

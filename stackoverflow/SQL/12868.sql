@@ -1,1 +1,0 @@
-SQL> alter session set nls_numeric_characters = ', '\n  2  ;\n\nSession altered.\n\nSQL> select to_char(999999/100, '9G999D99')\n  2    from dual;\n\nTO_CHAR(9\n---------\n 9 999,99

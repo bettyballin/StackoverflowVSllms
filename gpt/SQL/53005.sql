@@ -1,0 +1,1 @@
+DECLARE @FullNameToSearch NVARCHAR(100) = 'Bill Smith';\n\n   SELECT *\n   FROM Users\n   WHERE CONTAINS((FirstName, LastName), @FullNameToSearch);

@@ -1,0 +1,1 @@
+[WebMethod]\npublic static List<Country> GetCountries()\n{\n    return CountryRepository.Instance.GetAll();\n}\n\n[WebMethod]\npublic static List<Town> GetTownsByCountry(int countryId)\n{\n    return TownRepository.Instance.GetByCountry(countryId);\n}

@@ -1,0 +1,1 @@
+SELECT ROWNUM, column_name\n     FROM table_name\n     WHERE ROWNUM <= 10;

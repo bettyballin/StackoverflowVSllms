@@ -1,0 +1,1 @@
+[Serializable]\npublic class MySerializableClass\n{\n    public string SomeProperty { get; set; }\n    public int AnotherProperty { get; set; }\n\n    // Exclude ReflectPropertyDescriptor or other non-serializable members\n}

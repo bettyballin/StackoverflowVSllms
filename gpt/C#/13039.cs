@@ -1,0 +1,1 @@
+// In your view\n@Html.AntiForgeryToken()\n\n// In your controller\n[HttpPost]\n[ValidateAntiForgeryToken]\npublic JsonResult FindWidgets()\n{\n    var widgets = GetWidgets();\n    return Json(widgets, JsonRequestBehavior.AllowGet);\n}

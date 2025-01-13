@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n    SELECT *\n    FROM news\n    ORDER BY id DESC\n    LIMIT 0, 20\n) lasttwenty\nORDER BY views DESC\nLIMIT 0, 5

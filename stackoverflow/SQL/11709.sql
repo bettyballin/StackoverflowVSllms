@@ -1,1 +1,0 @@
-begin\n   insert into t (mykey, mystuff) \n      values ('X', 123);\nexception\n   when dup_val_on_index then\n      update t \n      set    mystuff = 123 \n      where  mykey = 'X';\nend;   

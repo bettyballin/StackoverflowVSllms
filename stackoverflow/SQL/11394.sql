@@ -1,1 +1,0 @@
-" (start_time >= ? AND start_time <= ?) OR "\n            " (end_time > ? AND end_time <?) OR "\n            " (start_time < ? AND end_time > ?)"

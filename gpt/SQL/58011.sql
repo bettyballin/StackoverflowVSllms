@@ -1,0 +1,1 @@
+ALTER TABLE your_table DISABLE CONSTRAINT constraint_name;\nALTER INDEX your_index UNUSABLE;\n\n-- Perform the data load here\n\nALTER TABLE your_table ENABLE CONSTRAINT constraint_name;\nALTER INDEX your_index REBUILD;

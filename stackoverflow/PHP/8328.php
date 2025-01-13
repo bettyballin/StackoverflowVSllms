@@ -1,1 +1,0 @@
-$uri = "/directory/link.php";\n$uri = ltrim($uri, '/');

@@ -1,1 +1,0 @@
-<?php\n\n  switch ($_GET["id"]) {\n    case "tips":\n      $title = "Tips";\n      $page  = "tips.php";\n  }\n\n?>\n<html>\n <head>\n  <title><?php print $title; ?></title>\n </head>\n <body>\n  <?php include($page); ?>\n </body>\n</html>

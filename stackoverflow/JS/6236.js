@@ -1,1 +1,0 @@
-ctx.translate(32, 120);

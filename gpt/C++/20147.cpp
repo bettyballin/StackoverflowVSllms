@@ -1,0 +1,1 @@
+std::vector<int> vec = {1, 2, 3, 4, 5};\nstd::vector<int> result;\nfor (auto it = vec.begin(); it != vec.end(); ++it) {\n    result.push_back((*it) * 2);\n}

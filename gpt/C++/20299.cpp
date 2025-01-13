@@ -1,0 +1,1 @@
+// ModuleA.h\n   #ifdef MODULEA_EXPORTS\n   #define MODULEA_API __declspec(dllexport)\n   #else\n   #define MODULEA_API __declspec(dllimport)\n   #endif\n\n   MODULEA_API void FunctionA();

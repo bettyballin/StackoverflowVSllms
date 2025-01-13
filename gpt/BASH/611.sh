@@ -1,0 +1,1 @@
+$ cd subby\n   $ git checkout <desired-commit-hash>

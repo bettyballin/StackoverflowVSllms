@@ -1,1 +1,0 @@
-Public Sub DecryptFile(ByVal FileName As String)\n  Dim strCommand As String\n  strCommand = "C:\Program Files\GNU\GnuPG\gpg.exe " _\n  & "--batch --passphrase ""My PassPhrase that I used""" & FileName\n  Shell strCommand, vbNormalFocus\nEnd Sub

@@ -1,1 +1,0 @@
-<?php\n$a = '';\n$b = NULL;\nvar_dump(isset($a));\nvar_dump(isset($b));\nvar_dump(isset($c));

@@ -1,0 +1,1 @@
+SELECT \n       [YourTextDateField] AS OriginalDate,\n       CDate(Mid([YourTextDateField], 1, InStr([YourTextDateField], " ") - 1) & " " & Mid([YourTextDateField], InStr([YourTextDateField], " ") + 1)) AS ConvertedDate\n   FROM \n       [YourTableName];

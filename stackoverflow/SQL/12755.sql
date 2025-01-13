@@ -1,1 +1,0 @@
-select User_id\n,case \n    when (YEAR(DOB) < 1980 AND Job_Title = "manager")   then 'Old Fart'\n    when (YEAR(DOB) < 1980 AND Job_Title = "associate") then 'Old Timer'\n    when (YEAR(DOB) > 1980 AND Job_Title = "manager")   then 'Eager Beaver'\n    when (YEAR(DOB) > 1980 AND Job_Title = "associate") then 'Slacker'\n    else 'nobody'\nend\nas Real_Title \nfrom users

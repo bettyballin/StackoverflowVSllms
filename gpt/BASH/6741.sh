@@ -1,0 +1,1 @@
+cd /home/administrator/Project File/hooks

@@ -1,0 +1,1 @@
+#!/bin/bash\n    GIT_DIR=/path/to/repo/.git\n    WORK_TREE=/path/to/working/dir\n    \n    while read oldrev newrev ref\n    do\n        if [[ $ref =~ .*/feature-branch$ ]];\n        then\n            echo "Deploying feature-branch to testing server..."\n            git --work-tree=$WORK_TREE --git-dir=$GIT_DIR checkout -f feature-branch\n        fi\n    done

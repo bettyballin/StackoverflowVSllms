@@ -1,0 +1,1 @@
+Partial Public Class Client\n    Function IsWashington() As Boolean\n        Return Me.LastName = "Washington"\n    End Function\nEnd Class

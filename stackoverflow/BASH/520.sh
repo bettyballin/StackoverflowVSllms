@@ -1,1 +1,0 @@
-openssl pkcs12 -in oldpkcs.p12 -out keys -passout pass:tmp\nopenssl pkcs12 -in keys -export -out new.p12 -passin pass:tmp -passout pass:newpasswd

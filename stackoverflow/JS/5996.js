@@ -1,1 +1,0 @@
-$("#buttonid").bind('propertychange', function(e) {\n    if (e.originalEvent.propertyName == "value") {\n       // value is changed, handle it here      \n    }\n});

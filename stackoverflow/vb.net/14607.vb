@@ -1,1 +1,0 @@
-If Date.Now.Hour < 12 The

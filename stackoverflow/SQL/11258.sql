@@ -1,1 +1,0 @@
-DELETE\n    Posts,\n    Comments\nFROM Posts\nINNER JOIN Comments ON\n    Posts.PostID = Comments.PostID\nWHERE Posts.PostID = $post_id;

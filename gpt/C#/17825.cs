@@ -1,0 +1,1 @@
+private int currentPage = 1;\n\nprivate void btnNextPage_Click(object sender, EventArgs e)\n{\n    currentPage++;\n    LoadData(currentPage);\n}\n\nprivate void btnPreviousPage_Click(object sender, EventArgs e)\n{\n    if (currentPage > 1)\n    {\n        currentPage--;\n        LoadData(currentPage);\n    }\n}

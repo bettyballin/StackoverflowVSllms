@@ -1,0 +1,1 @@
+<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>\n   <div id="app">\n     <input v-model="name" />\n     <p>{{ name }}</p>\n   </div>\n\n   <script>\n     new Vue({\n       el: '#app',\n       data: {\n         name: 'John Doe'\n       }\n     });\n   </script>

@@ -1,0 +1,1 @@
+// Get the user input from the textbox\nconst userInput = document.getElementById('userInput').value;\n\n// Sanitize the input using DOMPurify\nconst sanitizedInput = DOMPurify.sanitize(userInput);\n\n// Now you can safely use the sanitized input\nconsole.log(sanitizedInput);

@@ -1,0 +1,1 @@
+gcc -Wno-deprecated-declarations -o myprogram myprogram.c

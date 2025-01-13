@@ -1,0 +1,1 @@
+CREATE TABLE transactions (\n    id SERIAL PRIMARY KEY,\n    user_id INT NOT NULL,\n    description VARCHAR(255) NOT NULL,\n    amount DECIMAL(10, 2) NOT NULL,\n    transaction_date DATE NOT NULL,\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    FOREIGN KEY (user_id) REFERENCES users(id)\n);

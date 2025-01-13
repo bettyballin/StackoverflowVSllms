@@ -1,0 +1,1 @@
+const myModule = require('./myModule.js');\n\n// Now you can use the functions or variables exported from myModule.js\nmyModule.myFunction();

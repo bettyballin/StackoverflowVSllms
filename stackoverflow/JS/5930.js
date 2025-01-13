@@ -1,1 +1,0 @@
-function dump(obj) {\n    var out = '';\n    for (var i in obj) {\n        out += i + ": " + obj[i] + "\n";\n    }\n\n    alert(out);\n\n    // or, if you wanted to avoid alerts...\n\n    var pre = document.createElement('pre');\n    pre.innerHTML = out;\n    document.body.appendChild(pre)\n}

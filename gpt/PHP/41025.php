@@ -1,0 +1,1 @@
+class My_Form_Element_TextHtml extends Zend_Form_Element_Xhtml\n{\n    public function render(Zend_View_Interface $view = null)\n    {\n        return '<div class="custom-html">This is custom HTML text</div>';\n    }\n}\n\n// Usage:\n$form->addElement(new My_Form_Element_TextHtml('customHtml'));

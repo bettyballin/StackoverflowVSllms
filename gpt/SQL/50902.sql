@@ -1,0 +1,1 @@
+SELECT DISTINCT p.product_id\nFROM products p\nINNER JOIN attribproducts ap1 ON p.product_id = ap1.product_id\nINNER JOIN attribproducts ap2 ON p.product_id = ap2.product_id\nINNER JOIN attribproducts ap3 ON p.product_id = ap3.product_id\nWHERE ap1.attribute_id IN (9, 10, 11)\n  AND ap2.attribute_id IN (60, 61)\n  AND ap3.attribute_id IN (70, 71, 72);

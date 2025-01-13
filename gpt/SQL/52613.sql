@@ -1,0 +1,1 @@
+-- Table for user IDs and usernames\nCREATE TABLE UserNames (\n    userid INT PRIMARY KEY,\n    username TEXT\n);\n\n-- Table for other user data\nCREATE TABLE UserDetails (\n    userid INT,\n    userpass_salthash INT,\n    user_someopt1 INT,\n    user_sig TEXT,\n    FOREIGN KEY (userid) REFERENCES UserNames(userid)\n);

@@ -1,1 +1,0 @@
-SELECT * \nFROM   \n(\nSELECT * \nFROM   tab1 , \n       tab2 \nWHERE  tab1.key = tab2.fkey\n)\nWHERE  field1 = 'value';

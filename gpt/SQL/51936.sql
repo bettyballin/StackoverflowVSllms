@@ -1,0 +1,1 @@
+CREATE INDEX idx_foreign_key_f ON T(f);

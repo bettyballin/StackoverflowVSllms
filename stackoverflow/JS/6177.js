@@ -1,1 +1,0 @@
-jQuery.fn.extend({\n    bar: function() {\n        return this.html();\n    }\n});\n\nalert($('#foo').bar());

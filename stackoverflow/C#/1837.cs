@@ -1,1 +1,0 @@
-private void Splitter_MouseEnter(object sender, EventArgs e)\n{\n    ((Splitter)sender).BackColor = SystemColors.ControlDark;\n}\n\nprivate void Splitter_MouseLeave(object sender, EventArgs e)\n{\n    ((Splitter)sender).BackColor = SystemColors.Control;\n}

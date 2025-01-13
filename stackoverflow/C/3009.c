@@ -1,1 +1,0 @@
-char *tmpname = strdup("/tmp/tmpfileXXXXXX");\n    ofstream f;\n    int fd = mkstemp(tmpname);\n    f.attach(fd);

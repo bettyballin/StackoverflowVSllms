@@ -1,0 +1,1 @@
+$client = new Zend_Http_Client('http://affiliate-feed-url.com');\n     $response = $client->request();\n     if ($response->isSuccessful()) {\n         $feedData = $response->getBody();\n         // Process the feed data as needed\n     }

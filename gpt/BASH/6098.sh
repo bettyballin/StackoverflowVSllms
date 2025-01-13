@@ -1,0 +1,1 @@
+sudo chown -R www-data:www-data /home/username/Websites/website/photos\n   sudo chmod -R 755 /home/username/Websites/website/photos

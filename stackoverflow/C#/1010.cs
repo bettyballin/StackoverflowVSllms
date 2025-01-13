@@ -1,1 +1,0 @@
-int noOfRows = data.Count - 1;\nint noOfColumns = mydataclass.GetType().GetProperties().Count() - 1;\nObject[noOfRows, noOfColumns] myArray;

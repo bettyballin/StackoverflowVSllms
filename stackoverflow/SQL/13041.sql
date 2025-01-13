@@ -1,1 +1,0 @@
-SELECT TOP 1 t1.Id+1 \nFROM table t1\nWHERE NOT EXISTS(SELECT * FROM table t2 WHERE t2.Id = t1.Id + 1)\nORDER BY t1.Id

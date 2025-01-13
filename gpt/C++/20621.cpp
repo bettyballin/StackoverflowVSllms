@@ -1,0 +1,1 @@
+_CRTALLOC(".CRT$XIC") static pinit = __initstdio1;

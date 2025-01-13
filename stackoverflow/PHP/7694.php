@@ -1,1 +1,0 @@
-$qry = "select *   \n             from   school\n             where display = 'Y'\n             order by name, id";

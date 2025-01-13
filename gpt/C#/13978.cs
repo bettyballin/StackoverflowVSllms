@@ -1,0 +1,1 @@
+string connectionString = "Driver={Microsoft ODBC for Oracle};Server=OracleServer;Uid=ma;Pwd=ma;";\nusing (OdbcConnection connection = new OdbcConnection(connectionString))\n{\n    connection.Open();\n    // Your code here\n}

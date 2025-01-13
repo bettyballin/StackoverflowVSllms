@@ -1,1 +1,0 @@
-row = $("body").find('#' + row_id);

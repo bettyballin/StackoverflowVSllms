@@ -1,0 +1,1 @@
+extern "C" {\n    const int PLUGIN_API_VERSION = 1;\n\n    typedef void (*PluginFunction)();\n\n    struct Plugin {\n        const char* name;\n        PluginFunction initialize;\n        PluginFunction shutdown;\n    };\n\n    __declspec(dllexport) int getPluginAPIVersion() {\n        return PLUGIN_API_VERSION;\n    }\n\n    __declspec(dllexport) Plugin* getPlugin();\n}

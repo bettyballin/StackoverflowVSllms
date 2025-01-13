@@ -1,0 +1,1 @@
+function updateClock() {\n    var timeStamp = <?php echo time() * 1000; ?>; // PHP returns Unix timestamp in seconds, multiply by 1000 for milliseconds\n    var currentTime = new Date();\n    currentTime.setTime(timeStamp);\n\n    console.log(currentTime); // For debugging purposes, print the current time\n    // ... additional code to update the clock UI\n}

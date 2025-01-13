@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>com.foo</groupId>\n    <artifactId>footron</artifactId>\n    <version>4.2</version>\n    <scope>runtime</scope>\n    <type>dll</type>\n</dependency>

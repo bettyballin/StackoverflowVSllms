@@ -1,0 +1,1 @@
+// Assuming `tbl` is the table object and it has a property `SchemaName`\n   string schemaNamespace = string.IsNullOrEmpty(tbl.SchemaName) ? "DefaultNamespace" : tbl.SchemaName;\n\n   // Set the namespace - you'll need to find the correct place in the template\n   string classNamespace = "YourBaseNamespace." + schemaNamespace;

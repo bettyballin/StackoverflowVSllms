@@ -1,0 +1,1 @@
+sqlplus / as sysdba\nSELECT status FROM v$instance;\n\n-- If status is MOUNTED or NOMOUNT\nALTER DATABASE OPEN;\n\n-- If database needs a restart\nSHUTDOWN IMMEDIATE;\nSTARTUP;

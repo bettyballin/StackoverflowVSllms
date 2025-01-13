@@ -1,0 +1,1 @@
+echo -e '#!/bin/bash\nexec "$APPDIR/usr/bin/your-application" "$@"' > AppDir/AppRun\n    chmod +x AppDir/AppRu

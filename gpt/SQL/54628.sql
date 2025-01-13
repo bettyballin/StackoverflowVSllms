@@ -1,0 +1,1 @@
+CREATE TABLE Tree (\n    NodeID INT PRIMARY KEY,\n    NodeName NVARCHAR(100),\n    LeftValue INT,\n    RightValue INT\n);

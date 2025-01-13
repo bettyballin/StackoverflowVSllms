@@ -1,0 +1,1 @@
+find /path/to/your/directory -type f -exec sed -i 's/index\.php3/index.php/g' {} +

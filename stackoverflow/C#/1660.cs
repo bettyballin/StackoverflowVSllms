@@ -1,1 +1,0 @@
-this.Attributes.Add("onblur", string.Format("ValidationSummaryOnSubmit('{0}')", this.ValidationGroup);

@@ -1,0 +1,1 @@
+# Add the following line at the end of /etc/apache2/envvars\n   . /etc/apache2/envvars.d/foo.conf

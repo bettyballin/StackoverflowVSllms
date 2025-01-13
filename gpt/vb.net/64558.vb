@@ -1,0 +1,1 @@
+Imports x.y\n\nModule Module1\n    Sub Main()\n        Dim r As String = "greg"\n        Dim s As String = z.q(r) ' Call the extension method as a static method\n        Console.WriteLine(s) ' Output will be "greg greg"\n    End Sub\nEnd Module

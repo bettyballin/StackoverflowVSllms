@@ -1,1 +1,0 @@
-$ cat run_php_with_apache\n#!/bin/sh\ncp "$1" /var/www/\ncurl "http://localhost/`basename "$1"`"\nrm "/var/www/`basename "$1"`"

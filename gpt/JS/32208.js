@@ -1,0 +1,1 @@
+function imageUploaded(data) {\n  var data = evalJson(data);\n  userImage.attr('src', data.large_thumb);\n  ajaxSpinner.fadeOut(1500, function() {\n    userImage.fadeIn(1500);\n  });\n}

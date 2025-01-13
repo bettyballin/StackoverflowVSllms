@@ -1,1 +1,0 @@
-SELECT  UserID, UserName, EmailAddress, Source\nFROM    (SELECT UserID, UserName, EmailAddress, Source,\n                ROW_NUMBER() OVER (PARTITION BY UserID\n                                   ORDER BY EmailAddress DESC) \n                    AS RowNumber\n         FROM   MyTable) AS a\nWHERE   a.RowNumber = 1

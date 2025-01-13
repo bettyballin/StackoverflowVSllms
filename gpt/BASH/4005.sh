@@ -1,0 +1,1 @@
+sudo update-alternatives --install /usr/bin/gcc gcc /path/to/gcc-3.4.6/bin/gcc 10\nsudo update-alternatives --install /usr/bin/gcc gcc /path/to/gcc-4.1/bin/gcc 20\n\n# To select the default version of GCC\nsudo update-alternatives --config gcc

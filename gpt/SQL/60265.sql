@@ -1,0 +1,1 @@
+CREATE TABLE zip_codes (\n       id SERIAL PRIMARY KEY,\n       zip_code VARCHAR(10) NOT NULL,\n       city VARCHAR(100),\n       state VARCHAR(100),\n       latitude DECIMAL(10, 8) NOT NULL,\n       longitude DECIMAL(11, 8) NOT NULL\n   );

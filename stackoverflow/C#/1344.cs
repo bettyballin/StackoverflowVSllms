@@ -1,1 +1,0 @@
-bool IsPerfectSquare(long input)\n{\n    long closestRoot = (long) Math.Sqrt(input);\n    return input == closestRoot * closestRoot;\n}

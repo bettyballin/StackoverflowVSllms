@@ -1,0 +1,1 @@
+$cleanupTimeout = 30; // Time in minutes to keep old sessions\n\n// Database connection\n$pdo = new PDO('mysql:host=localhost;dbname=your_database', 'username', 'password');\n\n// Delete old sessions\n$stmt = $pdo->prepare("DELETE FROM user_sessions WHERE last_activity < NOW() - INTERVAL :timeout MINUTE");\n$stmt->execute([':timeout' => $cleanupTimeout]);

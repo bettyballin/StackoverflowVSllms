@@ -1,0 +1,1 @@
+protected void btnExportToPdf_Click(object sender, EventArgs e)\n{\n    ExportGridViewToPdf(myGridView);\n}

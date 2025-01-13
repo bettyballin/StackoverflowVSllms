@@ -1,1 +1,0 @@
-$this->getLogger()->getLogLevel() == sfLogger::DEBUG

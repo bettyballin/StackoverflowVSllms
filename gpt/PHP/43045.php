@@ -1,0 +1,1 @@
+<?php\nclass Calculator {\n    public function add($a, $b) {\n        return $a + $b;\n    }\n}\n\n$calc = new Calculator();\n$result = $calc->add(2, 3);\necho $result; // Outputs: 5\n?>

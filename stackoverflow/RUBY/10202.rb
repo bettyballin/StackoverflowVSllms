@@ -1,1 +1,0 @@
-for each entry\n    if any tag in original_tags\n        tag_list[tag]++\nend\n\nfor next in tag_list\n    tag_count[tag_list[next]] += next\nend  

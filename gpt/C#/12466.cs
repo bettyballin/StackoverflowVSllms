@@ -1,0 +1,1 @@
+List<string> foundAll = text.FindAll(item => item.Length > 3);

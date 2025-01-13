@@ -1,0 +1,1 @@
+class MyClass {\n    public $prop1 = NULL;\n    public $prop2 = 'value';\n}\n\n$instance = new MyClass();\nvar_dump(property_exists($instance, 'prop1')); // Outputs: bool(true)\nvar_dump(property_exists($instance, 'prop2')); // Outputs: bool(true)\nvar_dump(property_exists($instance, 'prop3')); // Outputs: bool(false)

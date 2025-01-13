@@ -1,1 +1,0 @@
-interface IInterface\n{\n}\n\nclass TheClass implements IInterface\n{\n}\n\n$cls = new TheClass();\nif ($cls instanceof IInterface) {\n    echo "yes";\n}

@@ -1,0 +1,1 @@
+gcc -o get_console_user get_console_user.c -framework SystemConfiguratio

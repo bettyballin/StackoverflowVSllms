@@ -1,0 +1,1 @@
+<?php\nif (isset($_POST['item'])) {\n    $item = intval($_POST['item']);\n\n    // Simulate an HTTP request and return a status (success or failure)\n    // In a real scenario, you would use something like cURL or file_get_contents()\n    $status = rand(0, 1) ? "Success" : "Failure";\n\n    echo $status;\n}\n?>

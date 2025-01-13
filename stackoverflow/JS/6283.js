@@ -1,1 +1,0 @@
-var rbtn = document.getElementById('radioButton1');

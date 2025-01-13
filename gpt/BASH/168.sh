@@ -1,0 +1,1 @@
+ssh -S my-ctrl-socket -O exit user@host

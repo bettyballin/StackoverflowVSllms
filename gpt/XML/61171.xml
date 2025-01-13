@@ -1,0 +1,1 @@
+<jvm-options>-Djavax.net.ssl.trustStore=C:\Users\Projects\npope-PostiniSSO\PostiniSSO\ssltest.keystore</jvm-options>\n   <jvm-options>-Djavax.net.ssl.trustStorePassword=yourTrustStorePassword</jvm-options>

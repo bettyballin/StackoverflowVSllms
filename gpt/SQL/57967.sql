@@ -1,0 +1,1 @@
+SELECT * FROM nested_category WHERE lft BETWEEN 1 AND 8 ORDER BY lft;

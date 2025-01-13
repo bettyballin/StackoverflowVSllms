@@ -1,1 +1,0 @@
-Rails::Initializer.run do |config|\n   ...  \n config.action_controller.session = {\n   :session_key => '_portal_session',\n   :secret      => '72bf006c18d459acf51836d2aea01e0afd0388f860fe4b07a9a57dedd25c631749ba9b65083a85af38bd539cc810e81f559e76d6426c5e77b6064f42e14f7415'\n  }\n  ...\nend

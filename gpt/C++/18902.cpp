@@ -1,0 +1,1 @@
+#pragma GCC diagnostic push\n#pragma GCC diagnostic ignored "-Weffc++"\n\n// Code that triggers the specific warning you want to suppress\n\n#pragma GCC diagnostic pop\n\n// Code that should not suppress the warning

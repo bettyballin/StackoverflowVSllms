@@ -1,1 +1,0 @@
-select date_part('second',date1) - date_part('second',date2) 

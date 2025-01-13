@@ -1,0 +1,1 @@
+<?php\n   require_once('FirePHPCore/FirePHP.class.php');\n   ob_start(); // Start output buffering\n   \n   $firephp = FirePHP::getInstance(true);\n   \n   // Log a message\n   $firephp->log('Hello World');\n   \n   // Log a variable\n   $myArray = array('key1' => 'value1', 'key2' => 'value2');\n   $firephp->log($myArray, 'My Array');\n   \n   ?>

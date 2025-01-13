@@ -1,0 +1,1 @@
+(Int32)X + (Int32)Y * (Int32)Int16.MaxValue;

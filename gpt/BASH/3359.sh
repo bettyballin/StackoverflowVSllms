@@ -1,0 +1,1 @@
+valgrind --tool=massif ./your_applicatio

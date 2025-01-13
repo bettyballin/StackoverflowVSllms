@@ -1,0 +1,1 @@
+SELECT \n    (SELECT COUNT(*) \n     FROM Sales AS s2 \n     WHERE s2.customer_name = s1.customer_name \n       AND s2.order_date <= s1.order_date \n    ) AS pivot_id,\n    s1.customer_name,\n    s1.order_date,\n    s1.price\nFROM Sales AS s1\nORDER BY s1.customer_name, s1.order_date;

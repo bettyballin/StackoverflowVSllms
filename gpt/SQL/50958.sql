@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT a.id) AS total_companies\nFROM `companies` a\nJOIN `company_products` b ON b.company_id = a.id\nJOIN `product_prices` c ON c.product_id = b.id\nWHERE\n  b.type = "%s"\n  AND c.date = "%s"

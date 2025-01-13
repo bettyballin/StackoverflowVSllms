@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    Response.Cache.SetExpires(DateTime.UtcNow.AddDays(30));\n    Response.Cache.SetCacheability(HttpCacheability.Public);\n    Response.Cache.SetValidUntilExpires(true);\n}

@@ -1,1 +1,0 @@
-SELECT *\nFROM tablename\nWHERE criteria

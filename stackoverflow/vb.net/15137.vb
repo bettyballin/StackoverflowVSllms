@@ -1,1 +1,0 @@
-TrackBar1.Size = New Point(newwidth, newheight)

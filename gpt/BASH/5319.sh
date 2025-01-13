@@ -1,0 +1,1 @@
+ltrace -o output.txt -f -p <PID>

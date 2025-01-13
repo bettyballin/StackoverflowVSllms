@@ -1,0 +1,1 @@
+<?php\n// Set the maximum execution time to 30 seconds for this script\nset_time_limit(30);\n\n// Your script logic here\n?>

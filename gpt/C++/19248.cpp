@@ -1,0 +1,1 @@
+STDMETHODIMP CReportManager::GetReportAccessRights(long lReportCode, VARIANT_BOOL *bShared, VARIANT_BOOL *bRunOnly, VARIANT_BOOL *bCopy)\n{\n    // Implementation that sets the values of bShared, bRunOnly, and bCopy\n}

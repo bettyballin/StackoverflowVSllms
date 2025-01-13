@@ -1,1 +1,0 @@
-select tab1.id, tab2.id, tab3.id \nfrom tab1\nleft outer join tab2 on tab1.col1 = tab2.col1\nleft outer join tab3 on tab2.col2 = tab3.col2;

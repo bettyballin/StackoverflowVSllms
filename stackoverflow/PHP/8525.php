@@ -1,1 +1,0 @@
-<?php\n$transport = array('foot', 'bike', 'car', 'plane');\n\nforeach ($transport as $value) {\n    echo $value;\n}\n?>

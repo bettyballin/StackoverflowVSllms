@@ -1,0 +1,1 @@
+<?php\n// Generate a random number between 1 and 10\n$random_number = rand(1, 10);\n\n// Construct the default avatar image path using the random number\n$default_avatar = '/images/noavatar' . $random_number . '.gif';\n\n// Display the avatar, using the random default avatar if no Gravatar is found\necho get_avatar($comment, $size = '78', $default_avatar);\n?>

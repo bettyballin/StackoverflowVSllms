@@ -1,1 +1,0 @@
-ActiveRecord::Base.record_timestamps = false\nbegin\n  run_the_code_that_imports_the_data\nensure\n  ActiveRecord::Base.record_timestamps = true  # don't forget to enable it again!\nend

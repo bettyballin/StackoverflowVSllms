@@ -1,1 +1,0 @@
-declare @formID int\ndeclare FormsCursor cursor fast_forward for Select formId FROM Forms WHERE Tenant = @Tenant\n\nopen FormsCursor\n\nfetch next from FormsCursor into @formID\n\nwhile @@fetch_status = 0\nbegin\n\n   exec Delete_Form @formID\n\n   fetch next from FormsCursor into @formID\n\nend\n\nclose FormsCursor\ndeallocate FormsCursor

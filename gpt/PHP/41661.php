@@ -1,0 +1,1 @@
+// Car.php\nclass Car {\n    // Car implementation\n}\n\n// Door.php\nclass Door {\n    // Door implementation\n}

@@ -1,0 +1,1 @@
+# Install pdfjam\nsudo apt-get install pdfjam\n\n# Crop a PDF using pdfjam\npdfjam --trim '1cm 1cm 1cm 1cm' --clip true input.pdf --outfile output.pdf

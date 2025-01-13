@@ -1,1 +1,0 @@
-Dim thisClass As Type = GetType(yourWebFormName)  

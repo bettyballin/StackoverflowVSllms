@@ -1,1 +1,0 @@
-string file = Path.Combine(dir, Guid.NewGuid().ToString() + ".tmp");\n// perhaps check File.Exists(file), but it would be a long-shot...\nbool canCreate;\ntry\n{\n    using (File.Create(file)) { }\n    File.Delete(file);\n    canCreate = true;\n}\ncatch\n{\n    canCreate = false;\n}

@@ -1,0 +1,1 @@
+EXEC sp_replicationdboption @dbname = 'YourDatabase', @optname = 'publish', @value = 'true';

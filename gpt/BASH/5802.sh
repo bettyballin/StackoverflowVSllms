@@ -1,0 +1,1 @@
+mkdir -p ~/.unison\n    nano ~/.unison/default.prf

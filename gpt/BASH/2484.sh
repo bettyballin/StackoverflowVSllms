@@ -1,0 +1,1 @@
+svnsync sync file:///path/to/mirror-repo

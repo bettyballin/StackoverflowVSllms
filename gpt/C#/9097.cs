@@ -1,0 +1,1 @@
+using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    connection.Open();\n    using (SqlCommand command = new SqlCommand("your_query_here", connection))\n    {\n        using (SqlDataReader reader = command.ExecuteReader())\n        {\n            // Process data here\n        }\n    }\n}

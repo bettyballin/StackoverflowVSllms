@@ -1,0 +1,1 @@
+private void textBoxName_TextChanged(object sender, EventArgs e)\n    {\n        if (string.IsNullOrEmpty(textBoxName.Text))\n        {\n            errorProvider.SetError(textBoxName, "Name is required.");\n        }\n        else\n        {\n            errorProvider.SetError(textBoxName, string.Empty);\n        }\n    }

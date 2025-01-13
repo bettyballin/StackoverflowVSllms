@@ -1,0 +1,1 @@
+sed 's/.\{80\}/&\n/g' inputfile.txt > outputfile.txt

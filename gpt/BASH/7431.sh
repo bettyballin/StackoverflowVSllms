@@ -1,0 +1,1 @@
+# Example cron job for daily backup at midnight\n   0 0 * * * /path/to/backup_script.sh

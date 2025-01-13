@@ -1,1 +1,0 @@
-function foo() {\n  echo "Flush!";\n  return true;\n}\n\nob_start();\n$a = foo();\nob_end_clean();

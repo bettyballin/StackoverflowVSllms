@@ -1,0 +1,1 @@
+SELECT \n    InvoiceID AS '@ID',\n    CustomerName AS 'Customer/Name',\n    InvoiceDate AS 'Customer/InvoiceDate',\n    TotalAmount AS 'Customer/TotalAmount'\nFROM \n    Invoices\nFOR XML PATH('Invoice'), ROOT('Invoices')

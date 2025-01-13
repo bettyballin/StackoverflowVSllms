@@ -1,1 +1,0 @@
-Public MaintenanceMenuList As ListView\n\nFunction AddItems()\n\n    Dim lstModules As New ListBox()\n\n    ' if the object is nothing, create it\n    If MaintenanceMenuList Is Nothing Then \n        MaintenanceMenuList = New ListView\n    End If\n\n    MaintenanceMenuList.Items.Add("item_1")\n    lstModules.Items.Add(MaintenanceMenuList)\n\nEnd Functio

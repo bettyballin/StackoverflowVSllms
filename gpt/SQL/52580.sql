@@ -1,0 +1,1 @@
+ALTER TABLE Patrols\n   ADD CONSTRAINT CK_Patrols_NoOverlap\n   CHECK (dbo.IsPatrolOverlapping(GuardID, Starts, Ends, PatrolID) = 0);

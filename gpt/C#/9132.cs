@@ -1,0 +1,1 @@
+public static void RegisterRoutes(RouteCollection routes)\n   {\n       routes.IgnoreRoute("{resource}.axd/{*pathInfo}");\n\n       routes.MapPageRoute(\n           "DefaultRoute",\n           "{page}",\n           "~/Default.aspx"\n       );\n   }\n\n   protected void Application_Start(object sender, EventArgs e)\n   {\n       RegisterRoutes(RouteTable.Routes);\n   }

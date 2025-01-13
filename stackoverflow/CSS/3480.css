@@ -1,1 +1,0 @@
-a:link\n{\n   background-image:none;\n}\n\na:hover\n{\n   background-image:url('images/icon.png');\n   background-repeat:no-repeat;\n   background-position:right;\n   padding-right:10px /*adjust based on icon size*/\n}

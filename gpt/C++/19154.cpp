@@ -1,0 +1,1 @@
+// Instead of this\n    static int x = initialize_x();\n\n    // Use this\n    int get_x() {\n        static int x = initialize_x();\n        return x;\n    }

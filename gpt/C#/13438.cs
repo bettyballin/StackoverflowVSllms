@@ -1,0 +1,1 @@
+using System;\nusing System.Collections.Generic;\n\npublic class TreeNode\n{\n    public string Name { get; set; }\n    public List<TreeNode> Children { get; set; } = new List<TreeNode>();\n\n    public TreeNode(string name)\n    {\n        Name = name;\n    }\n\n    public void AddChild(TreeNode child)\n    {\n        Children.Add(child);\n    }\n}

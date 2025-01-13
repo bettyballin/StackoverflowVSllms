@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() {\n    var refreshMetaTag = document.getElementById('refresh');\n    if (refreshMetaTag) {\n        refreshMetaTag.setAttribute('content', '-1');\n    }\n});

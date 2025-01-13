@@ -1,0 +1,1 @@
+svn checkout http://yourserver/svn/yourrepository

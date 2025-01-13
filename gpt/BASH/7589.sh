@@ -1,0 +1,1 @@
+sudo pear install --alldeps phpunit/PHPUnit

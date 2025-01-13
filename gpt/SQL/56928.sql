@@ -1,0 +1,1 @@
+SELECT *\nFROM users\nWHERE TRANSLATE(first_name, 'abcdefghijklmnopqrstuvwxyz', '##########################') <> first_name\n   OR TRANSLATE(last_name, 'abcdefghijklmnopqrstuvwxyz', '##########################') <> last_name;

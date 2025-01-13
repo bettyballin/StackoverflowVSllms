@@ -1,1 +1,0 @@
-Protected Overrides Sub Render(ByVal writer As System.Web.UI.HtmlTextWriter)\n        Validator.Display = ValidatorDisplay.Dynamic\n        MyBase.Render(writer)\n    End Sub

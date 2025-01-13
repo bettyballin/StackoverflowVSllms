@@ -1,0 +1,1 @@
+Assert.That(productList, Has.Count.EqualTo(5));

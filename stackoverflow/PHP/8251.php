@@ -1,1 +1,0 @@
-$http = new HttpQueryString();\n$http->set($_POST);\n\ncurl_setopt($ch, CURLOPT_POST, 1);\ncurl_setopt($ch, CURLOPT_POSTFIELDS,$http->get());

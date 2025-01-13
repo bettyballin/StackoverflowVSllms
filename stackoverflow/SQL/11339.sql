@@ -1,1 +1,0 @@
-| id| name       | value        |\n+---+------------+--------------+\n| 1 | array_key  | array_value  |\n| 2 | array_key2 | array_value2 |

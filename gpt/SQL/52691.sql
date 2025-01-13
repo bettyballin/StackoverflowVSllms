@@ -1,0 +1,1 @@
+select \n    col1,\n    col2,\n    case when col3 = 'E01089001' then 1 else 2 end as col3_value1,\n    case when col3 = 'E01089001' then 3 else 4 end as col3_value2\nfrom \n    Table1\nwhere \n    col1 = 'A0529';

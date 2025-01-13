@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        string script = ConfirmPopup.GetShowConfirmScript(btnTrigger.ClientID);\n        btnTrigger.OnClientClick = script;\n    }\n}

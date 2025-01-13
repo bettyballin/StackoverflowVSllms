@@ -1,0 +1,1 @@
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MyControl.ascx.cs" Inherits="YourNamespace.MyControl" %>\n<asp:TableCell runat="server">\n    <!-- Your cell content goes here -->\n</asp:TableCell>

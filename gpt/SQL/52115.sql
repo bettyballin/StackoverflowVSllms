@@ -1,0 +1,1 @@
+SHOW lc_collate;

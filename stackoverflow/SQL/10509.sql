@@ -1,1 +1,0 @@
-table1\n\nc1 NVARCHAR (20)\nc2 NVARCHAR (20)\nc3 NVARCHAR (20)\nc4 NVARCHAR (20) \nc5 NVARCHAR (4000) //maximum allowed and fully populated for testing purposes

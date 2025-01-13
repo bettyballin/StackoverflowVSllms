@@ -1,0 +1,1 @@
+-- V1__Create_table.sql\n     CREATE TABLE ExampleTable (\n         Id INT PRIMARY KEY,\n         Name NVARCHAR(100) NOT NULL\n     );

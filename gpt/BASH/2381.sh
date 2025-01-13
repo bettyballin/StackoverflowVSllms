@@ -1,0 +1,1 @@
+pdfinfo yourfile.pdf | grep Pages

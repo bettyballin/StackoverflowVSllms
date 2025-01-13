@@ -1,1 +1,0 @@
-$('#g').load("load.php?url=google.com")

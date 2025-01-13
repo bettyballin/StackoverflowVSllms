@@ -1,0 +1,1 @@
+INSERT INTO GENOTYPE (fk_ind, fk_rsid, call)\nSELECT IND.id, MARKER.id, temp_data.genotype\nFROM temp_data\nJOIN IND ON IND.name = temp_data.individual\nJOIN POP ON POP.id = IND.fk_pop AND POP.population = temp_data.pop\nJOIN MARKER ON MARKER.rsid = temp_data.marker;

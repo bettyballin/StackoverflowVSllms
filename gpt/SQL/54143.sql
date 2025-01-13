@@ -1,0 +1,1 @@
+DECLARE @GivenDate DATE = '2023-10-15'; -- Example date\n\nSELECT DAY(EOMONTH(@GivenDate)) AS NumberOfDaysInMonth;

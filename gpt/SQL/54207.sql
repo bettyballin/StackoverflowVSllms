@@ -1,0 +1,1 @@
+CREATE MATERIALIZED VIEW b_mv AS SELECT * FROM b@remotedb;\n\n   -- Join with the materialized view\n   SELECT a.col, b_mv.col\n   FROM a, b_mv\n   WHERE a.b_id = b_mv.id;

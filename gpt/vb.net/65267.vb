@@ -1,0 +1,1 @@
+Dim myTemp As String\nmyTemp = System.DateTime.Now().ToString("MMMddyyyy_HHmmss") & ".pdf"\n\nSystem.IO.File.Copy(myFile, "c:\" & myTemp)\n\n' Wait until the file is created\nWhile Not System.IO.File.Exists("c:\" & myTemp)\n    System.Threading.Thread.Sleep(100) ' Sleep for 100 milliseconds before checking again\nEnd While\n\nOpenFile("c:\" & myTemp)

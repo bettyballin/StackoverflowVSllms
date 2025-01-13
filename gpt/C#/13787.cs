@@ -1,0 +1,1 @@
+public class ApplicationUser : IdentityUser\n   {\n       // You can add additional properties for your user here\n   }

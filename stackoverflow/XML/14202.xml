@@ -1,1 +1,0 @@
-<exec executable="svnversion" outputproperty="svnversion" failonerror="true">\n  <env key="path" value="/usr/bin"/>\n  <arg value="--no-newline" />\n</exec>

@@ -1,1 +1,0 @@
-require_once 'Zend/Loader.php';\nZend_Loader::registerAutoload();

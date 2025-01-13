@@ -1,0 +1,1 @@
+git clone /path/to/up-to-date-local-repo /path/to/new-central-repo

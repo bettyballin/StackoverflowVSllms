@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\n// Your code that needs session data\n// ...\n\n// Close the session as soon as you're done with it\nsession_write_close();\n\n// Continue with the rest of your script\n// ...\n?>

@@ -1,0 +1,1 @@
+gcc -march=znver2 -O2 myprogram.c -o myprogram

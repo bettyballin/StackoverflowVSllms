@@ -1,0 +1,1 @@
+for (int i = 0; i < 4; ++i) {\n        process(data[i]);\n    }\n\n    // Unrolled version\n    process(data[0]);\n    process(data[1]);\n    process(data[2]);\n    process(data[3]);

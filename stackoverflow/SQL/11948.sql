@@ -1,1 +1,0 @@
-select CASE \n                WHEN exists (select email from companies c where c.Id = u.ID and c.Email = u.Email) THEN 1 \n                ELSE 2 END as SortMeFirst,   * \n    From Users u \n    where companyId = 1 \n    order by SortMeFirst

@@ -1,0 +1,1 @@
+composer require --dev sebastianbergmann/phploc\n   vendor/bin/phploc src

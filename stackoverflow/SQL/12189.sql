@@ -1,1 +1,0 @@
-CREATE TABLE foo (ord INT, col VARCHAR)

@@ -1,0 +1,1 @@
+from sqlalchemy import create_engine, MetaData, Table, select\n\n   engine = create_engine('your_database_url')\n   metadata = MetaData(bind=engine)\n   your_table = Table('your_table', metadata, autoload=True)\n\n   query = select([your_table]).where(your_table.c.condition == 'value')

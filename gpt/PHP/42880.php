@@ -1,0 +1,1 @@
+class Customer extends BaseCustomer\n{\n    protected $completedOrdersCount;\n\n    public function setCompletedOrdersCount($count)\n    {\n        $this->completedOrdersCount = $count;\n    }\n\n    public function getCompletedOrdersCount()\n    {\n        return $this->completedOrdersCount;\n    }\n}

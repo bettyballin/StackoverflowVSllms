@@ -1,1 +1,0 @@
-import  javax.servlet.http.HttpServlet\n\nimport  cStringIO\nimport  gzip\nimport  string\n\ndef compressBuf(buf):\n    zbuf = cStringIO.StringIO()\n    zfile = gzip.GzipFile(mode = 'wb',  fileobj = zbuf, compresslevel = 6)\n    zfile.write(buf)\n    zfile.close()\n    return zbuf.getvalue()

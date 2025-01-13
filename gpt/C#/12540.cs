@@ -1,0 +1,1 @@
+Guid newGuid = Guid.NewGuid();\nConsole.WriteLine(newGuid);

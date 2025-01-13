@@ -1,0 +1,1 @@
+DELETE FROM events\n   WHERE adr_id IN (\n       SELECT adr_id\n       FROM addresses\n       WHERE per_id = 45\n   );\n\n   DELETE FROM addresses\n   WHERE per_id = 45;

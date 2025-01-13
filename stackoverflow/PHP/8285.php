@@ -1,1 +1,0 @@
-$pagefixed = str_replace("href=\"/","href=\"http://www.domain.com/","$page");

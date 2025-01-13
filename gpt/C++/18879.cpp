@@ -1,0 +1,1 @@
+#include "obj.h"\n\nextern "C" GLboolean load_obj(const char *filename, GLuint *object_list)\n{\n    // Your code here\n    // Example: *object_list = some_value;\n    return GL_TRUE; // or GL_FALSE based on your logic\n}

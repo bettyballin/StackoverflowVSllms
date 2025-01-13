@@ -1,0 +1,1 @@
+-- Replace 'YourTableName' with the name of your table\nALTER TABLE YourTableName REBUILD;

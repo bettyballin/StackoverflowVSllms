@@ -1,1 +1,0 @@
-internal static string Create(ref RandomNumberGenerator randgen)\n{\n    if (randgen == null)\n    {\n        randgen = new RNGCryptoServiceProvider();\n    }\n    byte[] data = new byte[15];\n    randgen.GetBytes(data);\n    return Encode(data);\n}

@@ -1,1 +1,0 @@
-question id (int) | user id (int) | permanent (bool) | timestamp (datetime)

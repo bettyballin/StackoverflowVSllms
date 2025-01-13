@@ -1,0 +1,1 @@
+uget push MyCommonLibrary.<version>.nupkg -Source <YourNuGetRepo>

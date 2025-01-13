@@ -1,0 +1,1 @@
+-- Set up a publication on the warehouse database\n-- Set up a subscription on the report database\n-- Configure the publication and subscription to use transactional replicatio

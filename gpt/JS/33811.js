@@ -1,0 +1,1 @@
+axios.get('your-api-endpoint')\n        .then(function (response) {\n            // Handle the response data\n        })\n        .catch(function (error) {\n            // Handle the error\n        });

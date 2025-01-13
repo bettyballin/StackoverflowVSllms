@@ -1,1 +1,0 @@
-Query > Include Actual Execution Pla

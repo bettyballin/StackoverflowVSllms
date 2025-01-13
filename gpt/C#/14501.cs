@@ -1,0 +1,1 @@
+public interface IHttpModule\n   {\n       void Init(HttpApplication context);\n       void Dispose();\n   }

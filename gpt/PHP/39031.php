@@ -1,0 +1,1 @@
+<?php\n$url = "http://example.com/data.xml";\n$response = file_get_contents($url);\nif ($response === FALSE) {\n    // Handle error\n} else {\n    echo $response;\n}\n?>

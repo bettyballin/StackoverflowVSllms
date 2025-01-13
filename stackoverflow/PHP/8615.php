@@ -1,1 +1,0 @@
-public function get_email_address() {\n    if (!$this->email_address) {\n        $this->load_all_data_from_db($this->id)\n    }\n    return $this->email_address;\n}

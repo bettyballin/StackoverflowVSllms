@@ -1,0 +1,1 @@
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;\n    DELETE FROM your_table_name WHERE primary_key_column = your_primary_key_value;

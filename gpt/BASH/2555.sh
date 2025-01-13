@@ -1,0 +1,1 @@
+ping -t 1.2.3.4\n   tracert 1.2.3.4

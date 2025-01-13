@@ -1,0 +1,1 @@
+del /Q /S "%APPDATA%\VisualSVN\Cache"

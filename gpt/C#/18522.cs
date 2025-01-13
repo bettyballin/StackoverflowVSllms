@@ -1,0 +1,1 @@
+using System.Windows;\n\nnamespace WpfApp\n{\n    public partial class MainWindow : Window\n    {\n        public MainWindow()\n        {\n            InitializeComponent();\n        }\n    }\n}

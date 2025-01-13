@@ -1,0 +1,1 @@
+SELECT dbo.YearFrac('2022-01-01', '2023-06-15') AS YearFractio

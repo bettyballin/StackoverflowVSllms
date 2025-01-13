@@ -1,1 +1,0 @@
-$(document).keypress( function(e) {\n    if (e.keyCode == 27) {\n       $(this).trigger('click');\n    }\n}

@@ -1,1 +1,0 @@
-string wcPath = "c:\\my working copy";\nusing (SvnClient client = new SvnClient())\n{\n    client.CheckOut(new Uri("http://server/path/to/repos"), wcPath);\n}

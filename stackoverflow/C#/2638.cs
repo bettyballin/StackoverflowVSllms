@@ -1,1 +1,0 @@
-\n\nInstalledFontCollection installedFontCollection = new InstalledFontCollection();\n\n// Get the array of FontFamily objects.\nFontFamily[] fontFamilies = installedFontCollection.Families;

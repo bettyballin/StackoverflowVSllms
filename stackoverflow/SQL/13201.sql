@@ -1,1 +1,0 @@
-CREATE TABLE ValueCodes\n(\n    Value     INTEGER NOT NULL PRIMARY KEY,\n    Meaning   VARCHAR(32) NOT NULL UNIQUE\n);\n\nCREATE TABLE Results\n(\n   TestID     ...,\n   TestCode   ...,\n   Value      INTEGER NOT NULL FOREIGN KEY REFERENCES ValueCodes\n);

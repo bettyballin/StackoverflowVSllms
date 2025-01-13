@@ -1,0 +1,1 @@
+class Example {\n    private $data = [];\n\n    public function &getData() {\n        return $this->data;\n    }\n}\n\n$example = new Example();\n$data = &$example->getData(); // Note the '&' symbol to get the reference\n\n$data[] = "New value";\n\nprint_r($example->getData());

@@ -1,1 +1,0 @@
-select \n  SUM((DATEDIFF(d, FromDate, ToDAte)) / 365.25) as 'years-count'\nfrom \n  mytableofdates

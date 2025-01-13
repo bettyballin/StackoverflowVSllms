@@ -1,1 +1,0 @@
-GROUP_CONCAT(DISTINCT FruitName)

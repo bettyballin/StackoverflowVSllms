@@ -1,0 +1,1 @@
+CREATE TABLE YourTableName (\n    Id INT PRIMARY KEY,\n    Type CHAR(10),\n    CONSTRAINT CHK_Type CHECK (Type IN ('Black', 'White', 'Red', 'Blue'))\n);

@@ -1,1 +1,0 @@
-$s = '<div id="content">\n\n<div id="contentleft">  <SCRIPT language=JavaScript>';\n\nif( preg_match('/id="content">(.*?)<SCRIPT/s', $s, $matches) )\n    print $matches[1]."\n";

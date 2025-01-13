@@ -1,1 +1,0 @@
-SELECT Elements.*, \n       (\n        SELECT Groups.GroupName\n          FROM Groups \n         WHERE Elements.IdGroup = Groups.IdGroup\n       )\n  FROM Elements\n WHERE EXISTS (\n               SELECT * \n                 FROM Groups \n                WHERE Elements.IdGroup = Groups.IdGroup\n              );

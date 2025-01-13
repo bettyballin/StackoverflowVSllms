@@ -1,0 +1,1 @@
+svn copy https://your-repo-url/branches/release-branch https://your-repo-url/tags/release-tag -m "Tagging the release"

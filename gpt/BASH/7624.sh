@@ -1,0 +1,1 @@
+# Example of using auditd for monitoring\nsudo apt-get install auditd\n# Add a rule to monitor changes to /etc/passwd\nsudo auditctl -w /etc/passwd -p wa -k passwd_changes\n# Check audit logs\nsudo ausearch -k passwd_changes

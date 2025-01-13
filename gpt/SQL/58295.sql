@@ -1,0 +1,1 @@
+GRANT VIEW SERVER STATE TO LimitedAccessLogin;

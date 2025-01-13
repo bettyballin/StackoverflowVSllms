@@ -1,1 +1,0 @@
-<?php\n// The message\n$message = "Line 1\nLine 2\nLine 3";\n\n// In case any of our lines are larger than 70 characters, we should use wordwrap()\n$message = wordwrap($message, 70);\n\n// Send\nmail('caffeinated@example.com', 'My Subject', $message);\n?>

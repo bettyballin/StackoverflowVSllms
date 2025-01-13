@@ -1,0 +1,1 @@
+# test/performance/browsing_test.rb\nrequire 'test_helper'\nrequire 'performance_test_help'\n\nclass BrowsingTest < ActionController::PerformanceTest\n  self.profile_options = {\n    :runs => 5,\n    :metrics => [:wall_time, :memory, :cpu_time],\n    :output => 'tmp/performance'\n  }\n\n  def test_worksheet\n    get '/reduction/worksheet'\n  end\nend

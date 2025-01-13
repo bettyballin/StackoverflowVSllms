@@ -1,0 +1,1 @@
+SELECT \n    i.Id AS ItemId,\n    i.Event_id,\n    i.Section,\n    s.Face_value\nFROM \n    Item i\nJOIN \n    Event e ON i.Event_id = e.Id\nJOIN \n    Seat s ON e.Venue_id = s.Venue_id \n          AND e.Configuration = s.Configuration \n          AND i.Section = s.Section;

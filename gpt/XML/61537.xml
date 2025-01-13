@@ -1,0 +1,1 @@
+<dependency>\n        <groupId>org.espertech</groupId>\n        <artifactId>esper</artifactId>\n        <version>8.8.0</version> <!-- Check for the latest version -->\n    </dependency>

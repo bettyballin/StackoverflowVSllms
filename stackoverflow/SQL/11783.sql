@@ -1,1 +1,0 @@
-INSERT INTO `purchase`\nSET `product_id` = $whatever,\n`price` = (\n    SELECT `price`\n    FROM `product`\n    WHERE `id` = $whatever\n)

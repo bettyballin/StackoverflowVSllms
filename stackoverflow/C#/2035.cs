@@ -1,1 +1,0 @@
-Environment.SetEnvironmentVariable("PATH", Environment.CurrentDirectory + "\\oracle\\11.1\\odac;" + Environment.CurrentDirectory + "\\oracle\\11.1\\odac\\bin;", EnvironmentVariableTarget.Process);\nEnvironment.SetEnvironmentVariable("ORACLE_HOME", Environment.CurrentDirectory + "\\oracle\\11.1\\odac", EnvironmentVariableTarget.Process);

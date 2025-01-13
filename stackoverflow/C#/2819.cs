@@ -1,1 +1,0 @@
-Application.Run(new MainForm());

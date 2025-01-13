@@ -1,0 +1,1 @@
+sudo chcon -t httpd_sys_rw_content_t /var/www/cgi-bin/script/your_config_file

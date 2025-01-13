@@ -1,1 +1,0 @@
-// Your element constructor\nfunction GuiElement() {\n    this.id = GuiElement.getID();\n}\nGuiElement.counter = 0;\nGuiElement.getID = function() { return 'element_' + GuiElement.counter++; };

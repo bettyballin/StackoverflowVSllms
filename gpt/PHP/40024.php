@@ -1,0 +1,1 @@
+<?php\n// For example, during login\n$_SESSION['user_id'] = $userId; // Store user ID in the session\n$_SESSION['username'] = $username; // Store username in the session\n?>

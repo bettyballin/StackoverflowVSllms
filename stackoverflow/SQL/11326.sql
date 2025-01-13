@@ -1,1 +1,0 @@
-DECLARE @start  AS DATETIME,\n        @end    AS DATETIME\n\nSELECT  @start = '2009-01-01',\n        @end   = getdate()\n\nDECLARE @dates TABLE    (\n                        dt  DATETIME\n                        )\n\nWHILE (@start < @end)\nBEGIN\n    INSERT  @dates\n    SELECT  @start\n\n    SELECT @start = DATEADD(day, 1, @start)\nEND\n\nSELECT  *\nFROM    @dates

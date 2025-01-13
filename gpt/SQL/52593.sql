@@ -1,0 +1,1 @@
+TRUNCATE TABLE dbo.MyMaterializedResults;\n    \n    INSERT INTO dbo.MyMaterializedResults (Column1, Column2, TotalColumn3)\n    SELECT \n        Column1, \n        Column2, \n        SUM(Column3) AS TotalColumn3\n    FROM dbo.MyTable\n    GROUP BY \n        Column1, \n        Column2;

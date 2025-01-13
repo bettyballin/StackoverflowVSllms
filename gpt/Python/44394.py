@@ -1,0 +1,1 @@
+import shapefile\n\n# Open a shapefile\nsf = shapefile.Reader("path/to/tiger/shapefile.shp")\n\n# Print the fields\nprint(sf.fields)\n\n# Iterate through the shapes and records\nfor shape_rec in sf.iterShapeRecords():\n    shape = shape_rec.shape\n    record = shape_rec.record\n    print(f"Shape: {shape}\nRecord: {record}")

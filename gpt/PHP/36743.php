@@ -1,0 +1,1 @@
+$file_content = file_get_contents('yourfile.csv');\n   if (mb_detect_encoding($file_content, 'UTF-8', true) === false) {\n       $file_content = utf8_encode($file_content);\n   }

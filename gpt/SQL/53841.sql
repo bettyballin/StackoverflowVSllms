@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.GetRecentDates(@Days INT)\nRETURNS @DateRange TABLE (StartDate DATETIME)\nAS\nBEGIN\n    DECLARE @StartDate DATETIME\n    SET @StartDate = DATEADD(d, -@Days, GETDATE())\n\n    INSERT INTO @DateRange (StartDate)\n    VALUES (@StartDate)\n    \n    RETURN\nEND

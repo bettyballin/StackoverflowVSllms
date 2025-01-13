@@ -1,0 +1,1 @@
+USE master;\n   GO\n   ALTER LOGIN [sa] WITH PASSWORD = 'YourStrongPassword';\n   GO

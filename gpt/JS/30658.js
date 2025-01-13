@@ -1,0 +1,1 @@
+function showMessage(message) {\n    alert(message);\n}\n\nshowMessage("Hello, World!");

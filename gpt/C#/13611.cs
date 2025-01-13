@@ -1,0 +1,1 @@
+using (ServiceHost host = new ServiceHost(typeof(MyComService)))\n    {\n        host.Open();\n        Console.WriteLine("Service is running...");\n        Console.ReadLine();\n    }

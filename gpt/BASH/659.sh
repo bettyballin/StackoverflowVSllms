@@ -1,0 +1,1 @@
+cd webappfolder\n   git remote add staging <URL-or-path-to-staging-repo>

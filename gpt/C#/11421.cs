@@ -1,0 +1,1 @@
+amespace AddAjaxToApplication\n   {\n       public class List : System.Web.Services.WebService\n       {\n           [WebMethod]\n           public string HelloWorld()\n           {\n               return "Hello World";\n           }\n       }\n   }

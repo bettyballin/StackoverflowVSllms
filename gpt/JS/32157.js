@@ -1,0 +1,1 @@
+document.addEventListener('contextmenu', function(event) {\n       event.preventDefault();\n   });

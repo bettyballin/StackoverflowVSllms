@@ -1,0 +1,1 @@
+export CFLAGS="-I/usr/local/opt/jpeg/include"\nexport LDFLAGS="-L/usr/local/opt/jpeg/lib"\npip install Pillow

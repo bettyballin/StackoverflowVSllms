@@ -1,1 +1,0 @@
-if (!stristr($fileName, '.php'))\n    $filename.='.php';

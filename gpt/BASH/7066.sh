@@ -1,0 +1,1 @@
+sudo apt-get install kibana\n     sudo systemctl start kibana\n     sudo systemctl enable kibana

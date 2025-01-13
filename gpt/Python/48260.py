@@ -1,0 +1,1 @@
+import requests\n\n# Replace 'your_bot_token' with your actual bot token\nbot_token = 'your_bot_token'\nchat_id = 'your_chat_id'\nmessage = 'Hello from my bot!'\n\nurl = f'https://api.telegram.org/bot{bot_token}/sendMessage'\npayload = {\n    'chat_id': chat_id,\n    'text': message\n}\n\nresponse = requests.post(url, data=payload)\nprint(response.json())

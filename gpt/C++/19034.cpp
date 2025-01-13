@@ -1,0 +1,1 @@
+long int sz;\nchar tmpret[128];\n\n// Take substring of c, translate in c string, convert to int, \n// and multiply with 1024\nsz = atoi(c.substr(0, pos).c_str()) * 1024;\n\nsnprintf(tmpret, 128, "%ld", sz);

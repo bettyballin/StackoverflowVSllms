@@ -1,0 +1,1 @@
+ini_set('memory_limit', '512M'); // Adjust the memory limit as needed\n   ini_set('max_execution_time', 300); // Adjust the max execution time as needed

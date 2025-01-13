@@ -1,0 +1,1 @@
+if (!EventLog.SourceExists("MyAppLog"))\n   {\n       EventLog.CreateEventSource("MyAppLog", "Application");\n   }\n\n   EventLog myLog = new EventLog();\n   myLog.Source = "MyAppLog";\n   myLog.WriteEntry("Message");

@@ -1,0 +1,1 @@
+openssl pkcs12 -in certificate.pfx -out certificate.der -nodes -nocerts\n    openssl x509 -outform der -in cert.crt -out cert.der

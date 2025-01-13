@@ -1,0 +1,1 @@
+CREATE TABLE test_table (\n    id INT PRIMARY KEY,\n    datetime DATETIME\n);\n\n-- Insert some test data\nINSERT INTO test_table (id) VALUES (1), (2), (3);\n\n-- Update the datetime column for all rows\nUPDATE test_table SET datetime = NOW();\n\n-- Check the result\nSELECT * FROM test_table;

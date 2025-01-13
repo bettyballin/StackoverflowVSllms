@@ -1,1 +1,0 @@
-protected override void Render(HtmlTextWriter writer)\n{\n    StringWriter output = new StringWriter();\n    base.Render(new HtmlTextWriter(output));\n    //This is the rendered HTML of your page. Feel free to manipulate it.\n    string outputAsString = output.ToString();\n\n    writer.Write(outputAsString);\n}

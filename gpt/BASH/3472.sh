@@ -1,0 +1,1 @@
+rsync -av --delete /path/to/your/website /path/to/backup/locatio

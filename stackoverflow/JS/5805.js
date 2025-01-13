@@ -1,1 +1,0 @@
-$(points).hover(\n    function () {\n            var point = $(this);\n\n            $('#features_key').fadeOut('normal', function() {\n                    $('#features_key').html(point.next('.info').clone()).fadeIn('normal');\n            });\n    }, \n    function () {\n    }\n);

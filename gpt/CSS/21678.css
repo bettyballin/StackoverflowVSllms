@@ -1,0 +1,1 @@
+.subBlock {\n    display: flex;\n    flex-direction: column;\n}\n\n.item {\n    margin: 0;\n    padding: 0;\n}

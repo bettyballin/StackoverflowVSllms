@@ -1,1 +1,0 @@
-class Hello\n  def create_some_state\n    @hello = "hello"\n  end\nend\n\nh = Hello.new\np h.instance_variables \n\nh.create_some_state\np h.instance_variables\n\n# Output\n[]\n["@hello"]

@@ -1,1 +1,0 @@
-txtBox.Attributes.Add("Type", "T"); // Type of control.\ntxtBox.Attributes.Add("IsKeyField", "Y"); // Is dynamically created field.\ntxtBox.Attributes.Add("IsMandatory", "Y");  // Is mandatory or not?

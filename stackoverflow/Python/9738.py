@@ -1,1 +1,0 @@
-estNumOfLines = sizeOfFile / avgLineSize

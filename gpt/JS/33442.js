@@ -1,0 +1,1 @@
+var iframe = document.getElementById('additionalTxt_f');\niframe.onload = function() {\n    var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;\n    var bodyContent = iframeDocument.getElementsByTagName("body")[0].innerHTML;\n    console.log(bodyContent);\n};

@@ -1,0 +1,1 @@
+using System;\nusing System.Web.Services;\n\npublic partial class Default : System.Web.UI.Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n    }\n\n    [WebMethod]\n    public static string GetMessage()\n    {\n        return "Hello, this is a message from the server!";\n    }\n}

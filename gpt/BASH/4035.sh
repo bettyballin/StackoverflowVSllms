@@ -1,0 +1,1 @@
+aws s3api put-bucket-encryption --bucket your-bucket-name --server-side-encryption-configuration '{\n    "Rules": [{\n        "ApplyServerSideEncryptionByDefault": {\n            "SSEAlgorithm": "AES256"\n        }\n    }]\n}'

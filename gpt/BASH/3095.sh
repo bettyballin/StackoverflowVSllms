@@ -1,0 +1,1 @@
+gcc -o shell main.c -lreadline

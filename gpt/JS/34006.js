@@ -1,0 +1,1 @@
+// Example pseudocode for rate limiting\n   if (user.uploadCount > maxUploadsPerHour) {\n       throw new RateLimitException("Upload limit exceeded.");\n   }

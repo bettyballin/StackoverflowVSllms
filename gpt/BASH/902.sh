@@ -1,0 +1,1 @@
+git config --global http.sslBackend schannel\n   git config --global http.sslVerify false

@@ -1,0 +1,1 @@
+// completion toggling\n$('.item input').click(function() {\n    $.post('complete.php', { item: this.id }, () => {\n        $(this).parent().fadeOut('slow');\n    });\n});

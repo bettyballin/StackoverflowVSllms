@@ -1,0 +1,1 @@
+if (HttpContext.Current.User.Identity.AuthenticationType == "Kerberos")\n{\n    // Kerberos is being used, proceed with delegation\n}\nelse\n{\n    // Handle other authentication types\n}

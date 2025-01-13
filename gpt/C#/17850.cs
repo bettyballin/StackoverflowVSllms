@@ -1,0 +1,1 @@
+using (var session = sessionFactory.OpenSession())\n   {\n       // Perform operations with session\n   } // session is closed at the end of using block

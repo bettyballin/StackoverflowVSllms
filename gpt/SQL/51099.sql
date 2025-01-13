@@ -1,0 +1,1 @@
+SELECT TO_DATE('2008.12.23 00:00:00', 'YYYY.MM.DD HH24:MI:SS') AS converted_date\nFROM dual;

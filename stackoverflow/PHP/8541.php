@@ -1,1 +1,0 @@
-<?php\n\nfunction emailize($text)\n{\n    $regex = '/(\S+@\S+\.\S+)/';\n    $replace = '<a href="mailto:$1">$1</a>';\n\n    return preg_replace($regex, $replace, $text);\n}\n\n\necho emailize ("bla bla bla e@mail.com bla bla bla");\n\n?>

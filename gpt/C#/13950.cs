@@ -1,0 +1,1 @@
+authenticationCookie.HttpOnly = true;\nauthenticationCookie.Secure = FormsAuthentication.RequireSSL;

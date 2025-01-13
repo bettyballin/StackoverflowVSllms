@@ -1,0 +1,1 @@
+SELECT Employers.name, Depts.deptName \nFROM Employers\nJOIN Depts ON Employers.deptId = Depts.id\nWHERE Employers.id = 'ID';

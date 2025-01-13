@@ -1,0 +1,1 @@
+#include <stdio.h>\n\n__declspec(dllexport) void hello_world() {\n    printf("Hello, World!\n");\n}

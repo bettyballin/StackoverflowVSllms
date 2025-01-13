@@ -1,0 +1,1 @@
+<server id="server1">\n         <host>192.168.1.1</host>\n     </server>\n     <application>\n         <name>App1</name>\n         <server-ref refid="server1"/>\n     </application>

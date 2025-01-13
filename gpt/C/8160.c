@@ -1,0 +1,1 @@
+#include <gtkdatabox.h>\n\n// Create a new GtkDatabox widget\nGtkWidget *databox = gtk_databox_new();

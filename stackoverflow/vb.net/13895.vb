@@ -1,1 +1,0 @@
-Dim wndBookmark as New WindowEditBookmark(CType(_MenuBookmark, BookmarkItem))\nwndBookmark.ShowDialog()

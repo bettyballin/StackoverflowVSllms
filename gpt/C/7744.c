@@ -1,0 +1,1 @@
+#define STRUCTMEMBER_PTR(Ptr, Member, Value) ((Ptr)->Member = Value)

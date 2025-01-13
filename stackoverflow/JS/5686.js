@@ -1,1 +1,0 @@
->>> new Date('7/30/2009');\nThu Jul 30 2009 00:00:00 GMT-0700 (Pacific Daylight Time)\n>>> new Date('2009/7/30');\nThu Jul 30 2009 00:00:00 GMT-0700 (Pacific Daylight Time)

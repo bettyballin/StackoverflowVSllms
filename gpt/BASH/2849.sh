@@ -1,0 +1,1 @@
+cleartool protectvob -add_group gA -acl -chown gA -chgrp gA -chmod 770 vA

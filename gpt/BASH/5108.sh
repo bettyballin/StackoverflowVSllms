@@ -1,0 +1,1 @@
+pgp --encrypt testfile.txt --recipient "User Name"

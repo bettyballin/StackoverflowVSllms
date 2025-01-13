@@ -1,1 +1,0 @@
-SELECT  SUM( CASE  WHEN Stop = '31 dec 9999' \n                   THEN DateDiff(mi, Start, Stop)\n                   ELSE DateDiff(mi, Start, GetDate())\n             END ) AS TotalMinutes \nFROM    task

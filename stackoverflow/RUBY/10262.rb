@@ -1,1 +1,0 @@
-def create\n  @obj = TheObject.new(params[:object])\n  render :action => :new unless @obj.save\nend

@@ -1,0 +1,1 @@
+cd /path/to/usb-stick/Python-3.x.x\n   ./pytho

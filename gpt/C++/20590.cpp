@@ -1,0 +1,1 @@
+HRESULT RPC_Function(UINT input);

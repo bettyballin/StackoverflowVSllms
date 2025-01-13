@@ -1,0 +1,1 @@
+use PHPUnit\Framework\TestCase;\n\nclass YourTestClass extends TestCase\n{\n    public function setUp(): void\n    {\n        // Old instance creation\n        $test = new \MyNamespace\NonPersistentStorage();\n\n        // Creating a mock object for the class within the namespace\n        $mock = $this->createMock(\MyNamespace\NonPersistentStorage::class);\n    }\n}

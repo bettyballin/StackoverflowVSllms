@@ -1,0 +1,1 @@
+cat new_lines.txt existing_file.txt > temp_file.txt && mv temp_file.txt existing_file.txt

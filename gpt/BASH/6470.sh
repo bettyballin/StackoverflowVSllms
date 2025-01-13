@@ -1,0 +1,1 @@
+# Example usage of jstat to get garbage collection statistics\njstat -gc <pid>

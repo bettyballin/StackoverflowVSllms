@@ -1,1 +1,0 @@
-def iterate(i):\n    for value in i:\n        yield value\n    retur

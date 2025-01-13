@@ -1,1 +1,0 @@
-SELECT\n    (SELECT COUNT(*) FROM Z WHERE IDX = X.ID AND IDY = Y.ID),\n    X.ID,\n    Y.ID\nFROM\n    X,Y

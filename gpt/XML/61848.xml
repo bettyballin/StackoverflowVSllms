@@ -1,0 +1,1 @@
+<dependency>\n       <groupId>org.apache.velocity</groupId>\n       <artifactId>velocity</artifactId>\n       <version>1.7</version>\n   </dependency>\n   <dependency>\n       <groupId>org.apache.velocity.tools</groupId>\n       <artifactId>velocity-tools-generic</artifactId>\n       <version>2.0</version>\n   </dependency>

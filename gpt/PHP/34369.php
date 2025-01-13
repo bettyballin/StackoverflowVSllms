@@ -1,0 +1,1 @@
+// When a new product is added\nfile_put_contents('cache_version.txt', time());

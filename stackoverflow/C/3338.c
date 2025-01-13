@@ -1,1 +1,0 @@
-template<typename A, typename B>\nclass Foo { };\n\nstruct Bar {\n  void method ( Foo<int,int> const& stuff = ( Foo<int,int>() ) );\n};

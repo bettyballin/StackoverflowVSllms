@@ -1,1 +1,0 @@
-for each row in phone_numbers h /* Note this is ALL home AND cell phones */\n   select c.number from phone_numbers c\n   where h.person_id = c.person_id\n   and h.type = 'home'\n   and c.type = 'cell';\n   if c.number is null (i.e. no row found)\n     display h.*\n   end if\nend loop;

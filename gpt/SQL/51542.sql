@@ -1,0 +1,1 @@
+SELECT * FROM articles WHERE MATCH(title, content) AGAINST('search terms');

@@ -1,0 +1,1 @@
+export PYTHONPATH=/path/to/your/library\n    python your_program.py

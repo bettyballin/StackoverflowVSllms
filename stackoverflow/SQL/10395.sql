@@ -1,1 +1,0 @@
-SELECT * FROM Customer WHERE EmailDomain LIKE 'abc%de%sss%'

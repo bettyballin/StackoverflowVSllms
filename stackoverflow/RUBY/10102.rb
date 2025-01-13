@@ -1,1 +1,0 @@
-Given /^I login successfully$/\n    step "I login with valid credentials" \nend 

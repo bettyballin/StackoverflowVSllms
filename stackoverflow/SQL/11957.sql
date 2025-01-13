@@ -1,1 +1,0 @@
-CREATE TABLE Test\n(\n    T0 INT Not NULL,\n    T1 INT NUll \n)\n\nINSERT INTO Test VALUES(1, NULL) -- Works!\n\nALTER TABLE Test\n    WITH NOCHECK\n        ADD CONSTRAINT N_null_test CHECK (T1 IS NOT NULL)\n\n    ALTER COLUMN T1 int NOT NULL \n\nINSERT INTO Test VALUES(1, NULL) -- Doesn't work now!

@@ -1,0 +1,1 @@
+CREATE TABLE test_table (\n    num_col NUMBER(10, 2),\n    float_col FLOAT(126)\n);\n\nINSERT INTO test_table (num_col, float_col) VALUES (0.1, 0.1);\n\nSELECT num_col * 10, float_col * 10 FROM test_table;

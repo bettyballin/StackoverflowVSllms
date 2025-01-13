@@ -1,0 +1,1 @@
+SELECT COUNT(id)\nFROM stats\nWHERE YEAR(record_date) = 2009;

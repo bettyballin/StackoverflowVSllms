@@ -1,1 +1,0 @@
-def create\n  @customer = Customer.new(params[:customer])\n  if @customer.save\n    flash[:notice] = 'Customer was successfully created.'\n    redirect_to(@customer)\n  else\n    render :action => "new"\n  end\nend

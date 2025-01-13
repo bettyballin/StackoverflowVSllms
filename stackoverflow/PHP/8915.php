@@ -1,1 +1,0 @@
-$query = "SELECT COUNT(*) AS total FROM table";\n$results = mysql_query($query, $connection);\n$values = mysql_fetch_assoc($results);\n$num_rows = $values['total'];

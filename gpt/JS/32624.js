@@ -1,0 +1,1 @@
+$("#apply-webdev").click(function() {\n    $("#webdev").slideToggle();\n    $.ajax({\n        url: "api.php?do=get_form_webdev",\n        cache: false,\n        success: function(data) {\n            $("#webdev").html(data.params); // Assuming data.params contains HTML\n        },\n        dataType: "json"\n    });\n});

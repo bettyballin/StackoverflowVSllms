@@ -1,1 +1,0 @@
-Dim User = System.Security.Principal.WindowsIdentity.GetCurrent.User\n    Dim UserName = User.Translate(GetType(System.Security.Principal.NTAccount)).Value

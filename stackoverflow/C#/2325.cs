@@ -1,1 +1,0 @@
-class MyTypeList : IList<MyType>\n{\n    private List<MyType> internalList = new ...;\n\n    public bool Contains(MyType instance)\n    {\n\n    }\n\n    ....\n}

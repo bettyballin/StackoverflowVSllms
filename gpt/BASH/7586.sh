@@ -1,0 +1,1 @@
+sudo systemctl start chronyd\n    sudo systemctl enable chronyd

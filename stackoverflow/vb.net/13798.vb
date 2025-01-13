@@ -1,1 +1,0 @@
-pkg = app.LoadPackage(pkgLocation, eventListener)\n' Set the file path variable in the package\n' NB: You may need to prefix "User::" to the variable name depending on the execution method\npkg.Variables("filePath").Value = databasePath\npkgResults = pkg.Execute(Nothing, Nothing, eventListener, Nothing, Nothing)

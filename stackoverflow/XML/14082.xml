@@ -1,1 +1,0 @@
-<filter>\n            <filter-name>Authentication Filter</filter-name>\n            <filter-class>\n                    com.nfsdsystems.security.filters.AuthenticationFilter</filter-class>\n    </filter>\n    <filter-mapping>\n            <filter-name>Authentication Filter</filter-name>\n            <url-pattern>/*</url-pattern>\n    </filter-mapping>

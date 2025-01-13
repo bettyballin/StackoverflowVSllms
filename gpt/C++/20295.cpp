@@ -1,0 +1,1 @@
+// MyLibrary.cpp\n#include "MyLibrary.h"\n\n__declspec(dllexport) int calculateSquare(int num)\n{\n    return num * num;\n}

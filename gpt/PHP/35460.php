@@ -1,0 +1,1 @@
+// Example of using Memcached in PHP\n$memcache = new Memcached();\n$memcache->addServer('localhost', 11211);\n$key = "some_key";\n$data = $memcache->get($key);\nif ($data === false) {\n    $data = fetchDataFromDatabase();\n    $memcache->set($key, $data, 600); // cache for 10 minutes\n}

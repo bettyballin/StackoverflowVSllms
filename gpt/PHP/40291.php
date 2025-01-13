@@ -1,0 +1,1 @@
+$imagePath = 'path/to/large/image.jpg';\n$imageSize = @getimagesize($imagePath);\n\nif ($imageSize === false) {\n    error_log('Error getting image size for ' . $imagePath);\n    echo 'Error getting image size.';\n} else {\n    list($width, $height) = $imageSize;\n    echo "Width: $width, Height: $height";\n}

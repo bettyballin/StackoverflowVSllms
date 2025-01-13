@@ -1,0 +1,1 @@
+// Assuming $db is your Zend_Db_Adapter instance\n$select = $db->select()\n             ->from(array('c' => 'clubs'))\n             ->join(array('cpd' => 'club_photos_default'), 'c.id = cpd.c_id')\n             ->group('c.id');\n\n$result = $db->fetchAll($select);

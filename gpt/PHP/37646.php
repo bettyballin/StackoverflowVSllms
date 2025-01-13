@@ -1,0 +1,1 @@
+function getRandomStrength($min = 1.1, $max = 9.9) {\n    $rand = mt_rand() / mt_getrandmax();\n    $normalized_value = pow(M_E, ($rand - 1.033) / -0.45);\n    $value = round($min + ($normalized_value - 1.1) * ($max - $min) / (9.9 - 1.1), 1);\n    return $value;\n}\n\n// Example usage:\n$min = 1.5;\n$max = 8.0;\n$strength = getRandomStrength($min, $max);\necho $strength;

@@ -1,1 +1,0 @@
-struct HWND__ { int unused; }; typedef struct HWND__ *HWND

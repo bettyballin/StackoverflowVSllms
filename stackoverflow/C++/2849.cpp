@@ -1,1 +1,0 @@
-#include <iostream>\n\nnamespace nsB {\n    void foo() { std::cout << "nsB\n";}\n}\n\nnamespace nsA {\n    void foo() { std::cout << "nsA\n";}\n    namespace subA {\n        void foo() { std::cout << "nsA::subA\n";}\n        void bar() {\n            nsB::foo();\n        }\n    }\n}\n\nint main() {\n    nsA::subA::bar();\n}

@@ -1,0 +1,1 @@
+from faker import Faker\n\n   fake = Faker()\n   for _ in range(10):\n       print(fake.name())

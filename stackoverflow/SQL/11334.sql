@@ -1,1 +1,0 @@
-select\n    unique_key \nfrom\n    src_table\nwhere\n    natural_key1 = :1

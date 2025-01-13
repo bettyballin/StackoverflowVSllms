@@ -1,0 +1,1 @@
+# Sorting a list of tuples by the second element\ndata = [(1, 'b'), (2, 'a'), (3, 'c')]\nsorted_data = sorted(data, key=lambda x: x[1])\nprint(sorted_data)  # Output: [(2, 'a'), (1, 'b'), (3, 'c')]\n\n# Filtering a list to get only even numbers\nnumbers = [1, 2, 3, 4, 5, 6]\neven_numbers = list(filter(lambda x: x % 2 == 0, numbers))\nprint(even_numbers)  # Output: [2, 4, 6]

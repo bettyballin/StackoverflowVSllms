@@ -1,0 +1,1 @@
+mkdir build-binutils\n    cd build-binutils\n    ../binutils-2.36/configure --target=arm-none-eabi --prefix=/usr/local/gnuarm\n    make\n    sudo make install\n    cd ..

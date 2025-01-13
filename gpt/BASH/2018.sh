@@ -1,0 +1,1 @@
+git fetch username@url.com:/home/username/workfolder

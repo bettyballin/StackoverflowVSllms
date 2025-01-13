@@ -1,0 +1,1 @@
+using (var connection = new SqlConnection("your connection string"))\n    {\n        var result = connection.Query<YourEntityClass>("SELECT * FROM YourTable");\n    }

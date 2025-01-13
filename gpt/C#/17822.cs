@@ -1,0 +1,1 @@
+routes.MapRoute(\n    name: "ExportToPdf",\n    url: "Pdf/ExportToPdf",\n    defaults: new { controller = "Pdf", action = "ExportToPdf" }\n);

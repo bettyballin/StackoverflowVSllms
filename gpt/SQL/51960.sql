@@ -1,0 +1,1 @@
+ALTER FUNCTION [udf_DateTimeFromDataDtID]\n(\n    @DATA_DT_ID int -- In form YYYYMMDD\n)\nRETURNS datetime\nWITH SCHEMABINDING\nAS\nBEGIN\n    RETURN CONVERT(datetime, CONVERT(char(8), @DATA_DT_ID), 112)\nEND

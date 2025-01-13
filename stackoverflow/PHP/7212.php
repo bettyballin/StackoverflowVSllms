@@ -1,1 +1,0 @@
-if ( false === strpos( $input_date, ':' ) )\n{\n  $input_date .= ':00';\n}

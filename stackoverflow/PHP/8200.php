@@ -1,1 +1,0 @@
-$attachment = $mail->createAttachment($fileContents);

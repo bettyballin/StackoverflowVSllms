@@ -1,1 +1,0 @@
-chown -R apache /home/brianly/svn/test

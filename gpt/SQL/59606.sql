@@ -1,0 +1,1 @@
+SELECT SYS_CONTEXT('USERENV', 'SERVER_HOST') AS host_name,\n       SYS_CONTEXT('USERENV', 'INSTANCE_NAME') AS instance_name\nFROM dual;

@@ -1,1 +1,0 @@
-string data = "{\"Header\":{\"AuthToken\":null,\"ProductID\":\"NOR\",\"SessToken\":null,\"Version\":1},\"ReturnAuthentication\":true,\"Password\":\"" + pwd + "\",\"Username\":\"" + uname + "\",\"ReturnCredentials\":true}";

@@ -1,1 +1,0 @@
-x = [2, 5, 8, 33, 58]\nprint x.collect {|n| x.collect {|i| (n-i).abs}}.flatte

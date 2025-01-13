@@ -1,1 +1,0 @@
-XmlNode listXml = sharePointLists.GetList(listName);\nFile.WriteAllText("listdefinition.xml", listXml.OuterXml);

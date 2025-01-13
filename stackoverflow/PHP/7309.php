@@ -1,1 +1,0 @@
-$src = 'http://foo.bar.com/some_directory/xx/a12.php?whatever=youwant';\npreg_match( '/([a-z]{2})\/([^\/]+)\.php/', $src, $matches );\n/* grab "xx" */\n$first = $matches[1];\n/* grab "a12" */\n$second = $matches[2];

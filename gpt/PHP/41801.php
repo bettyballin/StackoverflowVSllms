@@ -1,0 +1,1 @@
+$pattern = '/(?P<name>[a-z]+)/';

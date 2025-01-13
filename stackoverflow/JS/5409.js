@@ -1,1 +1,0 @@
-jQuery.event.trigger("ajaxStart");

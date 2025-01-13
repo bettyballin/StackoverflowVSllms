@@ -1,1 +1,0 @@
-Dim matches As MatchCollection\nDim regex As New Regex("\d{6} \d{7}")\nmatches = regex.Matches(your_text_string)

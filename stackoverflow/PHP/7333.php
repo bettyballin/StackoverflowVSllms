@@ -1,1 +1,0 @@
-function test($var) {\n    if (is_array($_SESSION['myarray']) {\n        array_push($_SESSION['myarray'], $var);\n        if (count($_SESSION['myarray']) > 10) {\n            $_SESSION['myarray'] = array_slice($_SESSION['myarray'], -10);\n        }\n    }\n}

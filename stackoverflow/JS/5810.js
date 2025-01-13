@@ -1,1 +1,0 @@
-window.setTimeout("Button1.click()",5000)

@@ -1,0 +1,1 @@
+public static void RegisterRoutes(RouteCollection routes)\n{\n    routes.IgnoreRoute("{resource}.axd/{*pathInfo}");\n\n    routes.MapRoute(\n        name: "Default",\n        url: "{controller}/{action}/{name}",\n        defaults: new { controller = "Home", action = "Index", name = UrlParameter.Optional }\n    );\n}

@@ -1,0 +1,1 @@
+// MyClass.h\n#pragma once\n\npublic ref class MyClass\n{\npublic:\n    MyClass();\n    void MyMethod();\n};\n\n// MyClass.cpp\n#include "MyClass.h"\n#include <iostream>\n\nMyClass::MyClass() {}\n\nvoid MyClass::MyMethod() {\n    std::cout << "Hello from VC++!" << std::endl;\n}

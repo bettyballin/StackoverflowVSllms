@@ -1,0 +1,1 @@
+CREATE TABLE votes (\n       vote_id INT AUTO_INCREMENT PRIMARY KEY,\n       user_id INT,\n       question_id INT,\n       vote_value ENUM('Yes', 'No', 'Maybe'),\n       vote_timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n   );

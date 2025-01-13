@@ -1,1 +1,0 @@
-<?php\n$objFSO = new COM("Scripting.FileSystemObject");\n$objFile = $objFSO->GetFile(<strong>FILE</strong>);\necho "path: ", $objFile->Path, "\nshort path: ", $objFile->ShortPath;

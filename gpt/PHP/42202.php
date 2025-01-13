@@ -1,0 +1,1 @@
+$content = '...'; // your HTML content\n\npreg_match_all('/<a[^>]*>(.*?)<\/a>/i', $content, $matches);\n\n$links = $matches[1]; // this will contain the text between <a> and </a> tags\n\nforeach ($links as $link) {\n    echo $link . "\n";\n}

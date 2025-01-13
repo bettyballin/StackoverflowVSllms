@@ -1,1 +1,0 @@
-Dim currentDomain As AppDomain = AppDomain.CurrentDomain\n    AddHandler currentDomain.AssemblyResolve, AddressOf AssemblyResolve_EventHandler

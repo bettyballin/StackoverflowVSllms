@@ -1,1 +1,0 @@
-select u.fname, u.lname, u.role, u.username, r.building, r.room, r.region, \na.office_bldg, a.office_num\nfrom \nusers u \njoin `resident assistant` r on (u.username = r.username) \njoin `area coordinator` a  on (u.username = a.username)\nwhere\nu.username = 'foo' and r.region = 'China'

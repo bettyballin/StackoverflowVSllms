@@ -1,0 +1,1 @@
+try\n{\n    // Your data transfer logic here\n}\ncatch (Exception ex)\n{\n    // Log the exception\n    System.Diagnostics.Debug.WriteLine(ex.Message);\n    // Optionally, log to a file or monitoring system\n}

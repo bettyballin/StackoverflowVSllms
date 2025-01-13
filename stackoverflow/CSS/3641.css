@@ -1,1 +1,0 @@
-ul {\n  overflow: auto;  // allow li's to overflow w/ scroll bar\n                   // at the bottom of the menu\n}\n\nli {\n  white-space: nowrap; // stop the wrapping in the first place\n}

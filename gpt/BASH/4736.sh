@@ -1,0 +1,1 @@
+yum groupinstall "Development Tools"\n    yum install subversion-devel httpd-devel

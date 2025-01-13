@@ -1,1 +1,0 @@
-(\niterate over file list\n  for each matching file\n   echo filename\n) | cpio -H newc -o | ssh remotehost cd location \&\& | cpio -H newc -imud

@@ -1,1 +1,0 @@
-Create Table ExamAnswers\n{\n   StudentID varchar(12),\n   QuestionID int,\n   Answer char(1)\n}

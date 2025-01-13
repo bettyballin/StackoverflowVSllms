@@ -1,0 +1,1 @@
+#include <iostream>\n#include <ctime>\n#include <string>\n\nint main() {\n    time_t seconds;\n    time(&seconds);\n\n    // Convert time_t to a string\n    std::string timeStr = ctime(&seconds);\n\n    // Print the string\n    std::cout << timeStr << std::endl;\n\n    return 0;\n}

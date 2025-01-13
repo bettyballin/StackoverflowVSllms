@@ -1,0 +1,1 @@
+regsvr32 msolap100.dll\n     regsvr32 msmdlocal.dll\n     regsvr32 msmdpump.dll\n     regsvr32 msmdredir.dll\n     regsvr32 msmgdsrv.dll

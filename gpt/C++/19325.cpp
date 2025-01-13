@@ -1,0 +1,1 @@
+#pragma comment(linker, "/DEBUG:FULL")

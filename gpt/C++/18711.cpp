@@ -1,0 +1,1 @@
+~ConnectionManager()\n{\n    Dispose(false);\n}

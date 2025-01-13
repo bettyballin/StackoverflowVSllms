@@ -1,1 +1,0 @@
-select substring(replicate(','+cast(Reps as varchar),Sets),2,8000) as Reps\nfrom Table

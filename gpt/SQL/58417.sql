@@ -1,0 +1,1 @@
+-- View the current max_allowed_packet value\nSHOW VARIABLES LIKE 'max_allowed_packet';\n\n-- Set the max_allowed_packet value (e.g., 64MB)\nSET GLOBAL max_allowed_packet = 67108864;  -- 64MB in bytes

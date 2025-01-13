@@ -1,0 +1,1 @@
+WITH RECURSIVE Tree AS (\n    SELECT id, parentid, data1, data2\n    FROM tree_data\n    WHERE id = 1 -- Example root id\n\n    UNION ALL\n\n    SELECT child.id, child.parentid, child.data1, child.data2\n    FROM tree_data child\n    INNER JOIN Tree parent ON child.parentid = parent.id\n)\nSELECT SUM(data1) AS sum_data1,\n       SUM(data2) AS sum_data2\nFROM Tree;

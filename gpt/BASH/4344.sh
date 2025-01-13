@@ -1,0 +1,1 @@
+C:\Windows\Microsoft.NET\Framework\v2.0.50727>aspnet_regiis -pe "system.web/membership" -site "Default Web Site" -app "/MyApp"

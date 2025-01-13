@@ -1,0 +1,1 @@
+#include <assert.h>\n#include <math.h>\n\nfloat sqrt_non_negative(float value) {\n    assert(value >= 0.0f); // Ensure the value is non-negative\n    return sqrtf(value);\n}

@@ -1,0 +1,1 @@
+CREATE TABLE FailedLoginSummary (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    ip_address VARCHAR(45) NOT NULL,\n    username VARCHAR(255) NOT NULL,\n    failed_attempts INT DEFAULT 0,\n    last_attempt_time DATETIME NOT NULL,\n    UNIQUE KEY (username, ip_address)\n);

@@ -1,0 +1,1 @@
+hostname="your_input_string"\n\nif [[ $hostname =~ ^[a-zA-Z0-9-]+$ ]] && [[ ${#hostname} -ge 2 && ${#hostname} -le 63 ]] && [[ $hostname != -* ]] && [[ $hostname != *- ]]; then\n    echo "Valid hostname"\nelse\n    echo "Invalid hostname"\nfi

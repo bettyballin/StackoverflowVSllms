@@ -1,1 +1,0 @@
-var vid = $(this).next(".pid").val();\nvar formdata = $('form#addToCart'+ vid).serialize();

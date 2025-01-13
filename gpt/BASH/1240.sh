@@ -1,0 +1,1 @@
+// Example of enabling Redis module\n   drush en redis -y

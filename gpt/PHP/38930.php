@@ -1,0 +1,1 @@
+$posts = mysql_query("SELECT * FROM Posts ORDER BY Created DESC");\n$array = mysql_fetch_array($posts);\n$timestamp = strtotime($array['Created']);\necho $timestamp;

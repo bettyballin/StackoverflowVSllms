@@ -1,0 +1,1 @@
+SELECT Column1, Column2, SUM(Column3)\n   FROM MyTable\n   GROUP BY GROUPING SETS ((Column1, Column2), (Column1), ());

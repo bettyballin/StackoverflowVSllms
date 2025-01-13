@@ -1,1 +1,0 @@
-CHILD: PARENT_ID integer, CHILD_ID serial, DESCRIPTION character varying(50)

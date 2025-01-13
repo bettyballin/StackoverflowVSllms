@@ -1,0 +1,1 @@
+<?php\n$data = $_REQUEST['in'];\n$urlDecodedData = urldecode($data);\n$raw = base64_decode($urlDecodedData);\n\necho $raw;\n?>

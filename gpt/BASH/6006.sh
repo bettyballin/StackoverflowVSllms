@@ -1,0 +1,1 @@
+sed 's/Hello \(.*\)! Have a good day./Bye \1! Good night./' inputfile.txt > outputfile.txt

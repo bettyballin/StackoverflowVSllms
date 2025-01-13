@@ -1,1 +1,0 @@
-public static void PrintAllPilots(Type type, string pathToDb)\n{\n  ...\n  IObjectSet result = db.QueryByExample(type);\n}\n\nPrintAllPilots(typeof(SomeType),somePath);

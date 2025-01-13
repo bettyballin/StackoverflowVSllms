@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    $('#test').click(function (event) {\n        event.preventDefault();\n        $("#myImage").attr("src", "newImage.jpg");\n    });\n\n    $('#myImage').click(function (event) {\n        event.preventDefault();\n        alert("You clicked the image");\n    });\n</script>

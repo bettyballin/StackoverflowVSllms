@@ -1,0 +1,1 @@
+int number = 1234567;\nstring formattedNumber = String.Format("{0:N0}", number);\nConsole.WriteLine(formattedNumber); // Output: 1,234,567

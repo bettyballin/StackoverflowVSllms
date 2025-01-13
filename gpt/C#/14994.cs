@@ -1,0 +1,1 @@
+// Example using LINQ\nvar result = context.MyTable.Select(x => new { x.ColA, x.ColB, x.ColC }).ToList();

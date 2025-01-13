@@ -1,0 +1,1 @@
+[ServiceContract]\npublic interface IExcelService\n{\n    [OperationContract]\n    [WebGet(UriTemplate = "/GetExcelFile/{documentId}")]\n    Stream GetExcelFile(string documentId);\n}

@@ -1,0 +1,1 @@
+<?php\n// Path to the file\n$file = 'path/to/your/file';\n\n// Create a new finfo resource\n$finfo = finfo_open(FILEINFO_MIME_TYPE);\n\n// Check the MIME type of the file\n$fileType = finfo_file($finfo, $file);\n\n// Close the finfo resource\nfinfo_close($finfo);\n\necho 'The MIME type of the file is: ' . $fileType;\n?>

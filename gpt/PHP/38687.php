@@ -1,0 +1,1 @@
+// PHP Example\n$string = "example";\n$array = str_split($string); // ['e', 'x', 'a', 'm', 'p', 'l', 'e']\n$array[0] = 'E';\n$newString = implode("", $array); // "Example"

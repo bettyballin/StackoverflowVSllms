@@ -1,0 +1,1 @@
+export JPEG_ROOT=/usr/local/opt/jpeg

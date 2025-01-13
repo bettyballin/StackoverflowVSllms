@@ -1,1 +1,0 @@
-select convert(varchar(8), dateadd(second, [SecondsColumn], 0),  108)

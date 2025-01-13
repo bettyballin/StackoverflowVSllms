@@ -1,0 +1,1 @@
+readelf -Ws <your_shared_object.so>

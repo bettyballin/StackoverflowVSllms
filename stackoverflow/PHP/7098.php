@@ -1,1 +1,0 @@
-$string = "This is my test case for an example.";\n$tmp = explode(' ', $string);\n$result = array();\n//assuming $string contains more than one word\nfor ($i = 0; $i < count($tmp) - 1; ++$i) {\n    $result[$i] = $tmp[$i].' '.$tmp[$i + 1];\n}\nprint_r($result);

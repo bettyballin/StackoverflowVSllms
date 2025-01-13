@@ -1,0 +1,1 @@
+-- Example update on a leaf node\nUPDATE items SET tot = 10 WHERE num = 5;\n\n-- Process the queue\nCALL process_queue();

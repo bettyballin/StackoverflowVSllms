@@ -1,0 +1,1 @@
+touch ~/.authinfo.gpg\n   chmod 600 ~/.authinfo.gpg

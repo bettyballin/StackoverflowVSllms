@@ -1,1 +1,0 @@
-$('#elementId').click(function(){\n  //do redirection\n});

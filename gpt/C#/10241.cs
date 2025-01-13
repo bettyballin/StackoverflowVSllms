@@ -1,0 +1,1 @@
+MyClass a = new MyClass();\n  MyClass b = a;\n  b.property = 2; // a.property also becomes 2

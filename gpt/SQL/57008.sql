@@ -1,0 +1,1 @@
+LOAD DATA\nINFILE 'your_data_file.dat'\nINTO TABLE your_table\nFIELDS TERMINATED BY ',' \n(\n    your_date_column DATE "DDMONYYYY"\n)

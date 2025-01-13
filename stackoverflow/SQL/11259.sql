@@ -1,1 +1,0 @@
-SELECT b.index\nFROM   points AS a, points AS b, points AS c\nWHERE  a.index = b.index-1 AND c.index = b.index+1\n   AND a.value < b.value   AND c.value < b.value 

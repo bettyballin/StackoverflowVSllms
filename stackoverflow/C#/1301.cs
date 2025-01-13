@@ -1,1 +1,0 @@
-var keys = new HashSet<string>();\n    Regex.Replace(input, "@@[^@]+@@", match => {\n        keys.Add(match.Value);\n        return ""; // doesn't matter\n    });\n    foreach (string key in keys) {\n        Console.WriteLine(key);\n    }

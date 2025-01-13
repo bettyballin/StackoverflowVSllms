@@ -1,0 +1,1 @@
+$jsonData = '{\n  "group1": {\n    "name1": 3923,\n    "name2": 9879,\n    "name3": 8944\n  },\n  "group2": {\n    "name5": 9823\n  },\n  "group3": {\n    "name9": 9822,\n    "name1": 4894\n  }\n}';\n\n$data = json_decode($jsonData, true);\n\nprint_r($data);

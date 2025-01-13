@@ -1,1 +1,0 @@
-class Foo\n  include ActiveModel::Validations\nend

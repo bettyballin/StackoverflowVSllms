@@ -1,0 +1,1 @@
+$sql = "\n    SELECT a.activity_type, a.user_id, COUNT(*) as activity_count\n    FROM Activities a\n    JOIN Followers f ON a.user_id = f.follower_id\n    WHERE f.user_id = ?\n    GROUP BY a.activity_type, a.user_id\n    ORDER BY a.activity_type, a.user_id;\n";\n\n$stmt = $pdo->prepare($sql);\n$stmt->execute([$userId]);\n$groupedActivities = $stmt->fetchAll(PDO::FETCH_ASSOC);

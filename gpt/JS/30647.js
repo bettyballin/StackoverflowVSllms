@@ -1,0 +1,1 @@
+function searchCallback(html) {\n    var $div = $("#divSearchResults");\n    $div.hide().html(html).slideDown();\n}

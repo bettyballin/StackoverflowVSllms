@@ -1,0 +1,1 @@
+-- Example of creating a database instance in Google Cloud SQL\n    gcloud sql instances create my-instance --database-version=POSTGRES_12 --tier=db-f1-micro --region=us-central

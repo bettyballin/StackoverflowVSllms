@@ -1,0 +1,1 @@
+public class Adapter1\n{\n    public void CallService()\n    {\n        string configPath = "Path to Adapter1.config";\n        string endpointName = "Service1Soap";\n        var client = ServiceClientFactory.CreateClient<Service1Soap>(configPath, endpointName);\n\n        // Use the client\n        // client.SomeMethod();\n    }\n}

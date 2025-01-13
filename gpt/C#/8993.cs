@@ -1,0 +1,1 @@
+DataTable table = dataSet.Tables["YourTableName"];\nDataRow[] rows = table.Select();\nobject[] columnValues = rows.Select(row => row["YourColumnName"]).ToArray();

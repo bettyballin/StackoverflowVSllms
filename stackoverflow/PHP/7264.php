@@ -1,1 +1,0 @@
-function text($var) \n\n{\n\n    if ( ! $var) {\n        return;\n    }\n    do_something();\n\n}\n\n$var = text('');\n\necho gettype($var);\necho is_bool($var) ? "true" : "false";\necho is_string($var) ? "true" : "false";\necho is_null($var) ? "true" : "false";

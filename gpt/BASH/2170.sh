@@ -1,0 +1,1 @@
+editbin /LARGEADDRESSAWARE yourapp.exe

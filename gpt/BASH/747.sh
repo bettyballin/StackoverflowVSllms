@@ -1,0 +1,1 @@
+crontab-lint your-crontab-file

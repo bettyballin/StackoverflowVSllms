@@ -1,0 +1,1 @@
+window.addEventListener('load', function() {\n    document.body.classList.add('loaded');\n});

@@ -1,1 +1,0 @@
-Select B, C\nFrom Table\nWhere B In\n    (Select B From Table\n     Group By B\n     Having Count(*) > 1)

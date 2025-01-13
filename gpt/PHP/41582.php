@@ -1,0 +1,1 @@
+<?php echo link_to_unless_current('controller/method', 'Link Title'); ?>

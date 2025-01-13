@@ -1,0 +1,1 @@
+int* ptr = new int;\n// Use ptr\ndelete ptr;\nptr = NULL;  // Set to NULL after delete

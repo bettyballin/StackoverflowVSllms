@@ -1,0 +1,1 @@
+$text = "This & that &amp; those &nbsp; things";\n\n$result = preg_replace('/&(?!amp;|lt;|gt;|quot;|apos;|#\d{2,4};|#[xX][0-9a-fA-F]{2,4};)/', '&amp;', $text);\n\necho $result;

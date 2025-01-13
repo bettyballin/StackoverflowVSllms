@@ -1,1 +1,0 @@
-before_filter :login_required, :except => [:index]\n\n before_filter(:only => :index) do |controller|\n   login_required unless controller.request.format.js?\n end

@@ -1,0 +1,1 @@
+var query = from c in Db.Concessions\n            join f in Db.Firms on c.FirmID equals f.FirmID into firms\n            from f in firms.DefaultIfEmpty()\n            select new\n            {\n                c.ConcessionID,\n                c.Title,\n                Firm_Title = f != null ? f.Title : string.Empty\n            };

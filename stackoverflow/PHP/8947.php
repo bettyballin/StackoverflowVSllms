@@ -1,1 +1,0 @@
-<?php\nheader('Content-type: text/plain; charset=utf-8');\necho '<script>alert(document.URL);</script>';

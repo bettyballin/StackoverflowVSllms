@@ -1,1 +1,0 @@
-$config = array('auth' => 'login',\n   'username' => 'smtpUsernameHere'),\n   'password' => 'smtpPasswordHere')\n);

@@ -1,0 +1,1 @@
+# Example of a simple Tkinter application\n   import tkinter as tk\n   \n   root = tk.Tk()\n   label = tk.Label(root, text="Hello, World!")\n   label.pack()\n   root.mainloop()

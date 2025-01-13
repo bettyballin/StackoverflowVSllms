@@ -1,1 +1,0 @@
-<UnmanagedFunctionPointer(CallingConvention.Cdecl)>

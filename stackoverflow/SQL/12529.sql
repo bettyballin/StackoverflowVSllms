@@ -1,1 +1,0 @@
-where xxx is not null

@@ -1,1 +1,0 @@
-s = WEBrick::HTTPServer.new( :Port => 3344, :BindAddress => "127.0.0.1" )\ns.start

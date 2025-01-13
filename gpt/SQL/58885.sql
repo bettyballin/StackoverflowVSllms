@@ -1,0 +1,1 @@
+SELECT * FROM myTable\nWHERE myField IN ('xpoints', 'ypoints');

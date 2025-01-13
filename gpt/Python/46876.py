@@ -1,0 +1,1 @@
+def test_addition():\n       assert 10 + 5 == 15

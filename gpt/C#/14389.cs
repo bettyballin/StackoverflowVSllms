@@ -1,0 +1,1 @@
+public class Program\n{\n    public static void Main()\n    {\n        byte[] input = new byte[16]; // Example input\n        byte[] output = new byte[16];\n        byte[] key = new byte[16]; // Example key\n\n        AESCudaWrapper aesWrapper = new AESCudaWrapper();\n        aesWrapper.Encrypt(input, output, key);\n\n        Console.WriteLine("Encryption complete");\n    }\n}

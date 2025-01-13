@@ -1,1 +1,0 @@
-gtk_tree_view_get_colum

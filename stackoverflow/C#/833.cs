@@ -1,1 +1,0 @@
-System.Web.HttpContext.Current.User.Identity.IsAuthenticated;

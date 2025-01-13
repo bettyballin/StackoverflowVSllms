@@ -1,0 +1,1 @@
+try {\n    MyManagedClass^ myObject = gcnew MyManagedClass();\n    // Use myObject\n} catch (OutOfMemoryException^ ex) {\n    // Handle the exception\n    Console::WriteLine("Memory allocation failed: {0}", ex->Message);\n}

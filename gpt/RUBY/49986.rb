@@ -1,0 +1,1 @@
+map.resources :websites, :has_many => :dns_records, :requirements => { :id => /[^\/]+/ }\n   map.resources :dns_records, :belongs_to => :website

@@ -1,0 +1,1 @@
+ln -s public_html www

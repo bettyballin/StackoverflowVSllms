@@ -1,1 +1,0 @@
-$m = new Message();\n$m->type = 'text/html';\n$m->from = 'John Doe <jdoe@yahoo.com>';\n$m->to = 'Random Hacker <rh@gmail.com>';\n$m->subject = 'Invitation email';\n$m->importBody('invitation.html');\n\n$d = new MessageDispatcher();\n$d->dispatch($m);

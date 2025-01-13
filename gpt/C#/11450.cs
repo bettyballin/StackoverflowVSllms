@@ -1,0 +1,1 @@
+public class MyStoredProcedureResult\n{\n    public int Id { get; set; }\n}

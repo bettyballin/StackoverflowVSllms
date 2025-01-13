@@ -1,1 +1,0 @@
-select \n   '<?xml version="1.0" encoding="ISO-8859-1" ?>' + char(13) + char(10) +\n   '<root>' + char(13) + char(10) +\n   '    <value>' + yourtable.yourfield + '</value>' + char(13) + char(10) +\n   '</root>' + char(13) + char(10)\nfrom yourtable\nwhere id = 1

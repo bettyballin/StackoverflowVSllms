@@ -1,0 +1,1 @@
+smbutil lookup <hostname>

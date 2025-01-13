@@ -1,0 +1,1 @@
+.container {\n  display: flex;\n  justify-content: space-between; /* Distributes space between items */\n}\n\n.item {\n  background-color: lightgray;\n  padding: 20px;\n  text-align: center;\n}

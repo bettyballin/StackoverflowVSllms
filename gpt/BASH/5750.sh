@@ -1,0 +1,1 @@
+sudo apt-get update\n   sudo apt-get install -y libxml2-dev libssl-dev libbz2-dev libcurl4-openssl-dev libjpeg-dev libpng-dev libxpm-dev libfreetype6-dev libmcrypt-dev libmysqlclient-dev libreadline-dev libtidy-dev libxslt1-dev libzip-dev

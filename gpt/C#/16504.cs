@@ -1,0 +1,1 @@
+string pattern = @"\d+";\n   string input = "There are 123 apples";\n   Match match = Regex.Match(input, pattern);\n   if (match.Success)\n   {\n       Console.WriteLine("Found a number: " + match.Value);\n   }

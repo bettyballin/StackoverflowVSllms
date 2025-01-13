@@ -1,0 +1,1 @@
+-- Create a non-clustered index on the Department column\nCREATE INDEX IX_Department ON Employees(Department);\n\n-- Create a composite index on Department and Salary\nCREATE INDEX IX_Department_Salary ON Employees(Department, Salary);

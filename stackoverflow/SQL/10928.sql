@@ -1,1 +1,0 @@
-CREATE TABLE [dbo].[users](\n    [username] [varchar](50) NOT NULL,\n    [password] [varchar](50) NOT NULL\n)\n\nCREATE TABLE [dbo].[user_roles](\n    [username] [varchar](50) NOT NULL,\n    [role_name] [varchar](50) NOT NULL\n)\n\nCREATE TABLE [dbo].[roles_permissions](\n    [role_name] [varchar](50) NOT NULL,\n    [permission] [varchar](50) NOT NULL\n)

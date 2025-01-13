@@ -1,1 +1,0 @@
-data: "=" + action + "&ids=" + ids + "&authenticity_token=" + AUTH_TOKEN,

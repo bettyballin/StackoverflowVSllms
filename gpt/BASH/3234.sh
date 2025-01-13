@@ -1,0 +1,1 @@
+$ git rm --cached path/to/unwanted/submodule\n   $ rm -rf .git/modules/path/to/unwanted/submodule\n   $ git commit -m "Removed unwanted submodule"

@@ -1,1 +1,0 @@
-Dim x As Integer\nSelect Case x\n    Case 6\n        Dim z As Integer = 6\n    Case 7\n        Dim z As Integer = 7\nEnd Select\nConsole.Write(z)

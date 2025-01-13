@@ -1,1 +1,0 @@
-SELECT\n  It.ItemID,\n  It.Title [ItemTitle],\n  Tg.TagID,\n  Tg.Title [TagTitle]\nFROM Item It\nLEFT OUTER JOIN Tag Tg\nON It.ItemID = Tg.ItemID

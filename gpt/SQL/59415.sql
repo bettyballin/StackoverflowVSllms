@@ -1,0 +1,1 @@
+CREATE FULLTEXT INDEX ON MyTable(MyColumn) \n   KEY INDEX PK_MyTable \n   ON MyFullTextCatalog;

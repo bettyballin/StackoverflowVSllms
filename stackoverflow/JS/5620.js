@@ -1,1 +1,0 @@
-var panel = new Sys.UI.Control($get("myUpdatePanel"));\n\nfunction beginRequestHandler(sender, args) {            \n    panel.set_visible(false); \n}\n\nfunction endRequestHandler(sender, args) {\n    panel.set_visible(true); \n}

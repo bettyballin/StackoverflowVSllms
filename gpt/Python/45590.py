@@ -1,0 +1,1 @@
+def is_power_of_two(x):\n    if x <= 0:\n        return False\n    return (x & (x - 1)) == 0\n\n# Test cases\nprint(is_power_of_two(4))  # True, because 4 is 2^2\nprint(is_power_of_two(5))  # False, because 5 is not a power of 2\nprint(is_power_of_two(8))  # True, because 8 is 2^3\nprint(is_power_of_two(7))  # False, because 7 is not a power of 2

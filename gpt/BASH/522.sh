@@ -1,0 +1,1 @@
+sed -E 's|C:\\good\\([^\\]*)\\([^\\]*)|C:/good/\1/\2|g' inputfile > outputfile

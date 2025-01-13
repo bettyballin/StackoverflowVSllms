@@ -1,0 +1,1 @@
+using System;\nusing System.Data.SqlClient;\n\npublic void ExecuteDatabaseOperation()\n{\n    using (SqlConnection connection = new SqlConnection("your_connection_string_here"))\n    {\n        connection.Open();\n\n        // Perform database operations\n    } // connection.Close() is automatically called here\n}

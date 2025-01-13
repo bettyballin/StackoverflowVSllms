@@ -1,1 +1,0 @@
-$_COOKIE['PHPSESSID'] = $_POST['PHPSESSID'];\nsession_start();

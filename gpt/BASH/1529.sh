@@ -1,0 +1,1 @@
+caspol -machine -addgroup 1.2 -url file://NetworkShare/* FullTrust

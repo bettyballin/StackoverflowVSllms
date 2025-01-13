@@ -1,1 +1,0 @@
-ini_set("mysql.trace_mode", "0");

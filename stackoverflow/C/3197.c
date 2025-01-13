@@ -1,1 +1,0 @@
-bool operator()(Thing& start, Thing& end) {

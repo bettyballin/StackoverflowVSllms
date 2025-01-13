@@ -1,0 +1,1 @@
+pprof --pdf ./sample_app profile.prof > profile.pdf

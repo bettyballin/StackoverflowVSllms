@@ -1,0 +1,1 @@
+@echo off\ndialog.exe --msgbox "Hello, this is a message box!" 10 30

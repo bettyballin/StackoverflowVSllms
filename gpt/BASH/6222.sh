@@ -1,0 +1,1 @@
+# Add a user to the repository with read-only access\ngit remote add readonly-user git@github.com:organization/repo.git\ngit fetch readonly-user\n\n# Set permissions using a Git hosting service (example with GitHub CLI)\ngh repo edit organization/repo --add-collaborator readonly-user --permission read

@@ -1,1 +1,0 @@
-SetCursor(LoadCursor(NULL, IDC_ARROW));

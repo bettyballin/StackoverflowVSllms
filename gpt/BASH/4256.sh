@@ -1,0 +1,1 @@
+@echo off\nREM Add your directory to the PATH\nset "MY_DLL_PATH=C:\path\to\your\dll"\nset "PATH=%MY_DLL_PATH%;%PATH%"\n\nREM Now you can run your application\nyour_application.exe

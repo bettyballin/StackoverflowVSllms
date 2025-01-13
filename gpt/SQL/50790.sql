@@ -1,0 +1,1 @@
+EXEC sp_addlinkedserver \n        @server = 'SiminnSrv', \n        @srvproduct = '',\n        @provider = 'SQLNCLI', \n        @datasrc = 'my.serveradr.com', \n        @catalog = 'devel';

@@ -1,0 +1,1 @@
+UPDATE YourTable SET [timestamp] = TimestampCopy;

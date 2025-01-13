@@ -1,0 +1,1 @@
+public interface IOperation\n{\n    string Name { get; }\n    double Execute(double a, double b);\n}

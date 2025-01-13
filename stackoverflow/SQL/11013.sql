@@ -1,1 +1,0 @@
-CREATE TABLE QuestionsAnswered (UserID INT, QuestionID INT)\n\nSELECT *\nFROM Question\nWHERE ID NOT IN (SELECT QuestionID \n                 FROM QuestionsAnswered\n                 WHERE UserID = @UserID)\n\nINSERT INTO QuestionsAnswered\n(UserID, QuestionID)\nVALUES\n(@UserID, @QuestionID)

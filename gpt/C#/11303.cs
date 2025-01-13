@@ -1,0 +1,1 @@
+using System;\n\n   class Program\n   {\n       static void Main(string[] args)\n       {\n           string input = args.Length > 0 ? args[0] : "World";\n           Console.WriteLine("Hello, " + input);\n       }\n   }

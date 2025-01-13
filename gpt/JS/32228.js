@@ -1,0 +1,1 @@
+function decodeHtmlEntities(str) {\n  const tempElement = document.createElement('textarea');\n  tempElement.innerHTML = str;\n  return tempElement.value;\n}\n\nconst encodedString = '&#97; &#98; &#99;';\nconst decodedString = decodeHtmlEntities(encodedString);\nconsole.log(decodedString);  // Output: "a b c"

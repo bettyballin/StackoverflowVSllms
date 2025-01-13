@@ -1,0 +1,1 @@
+./linuxdeployqt-continuous-x86_64.AppImage AppDir/usr/bin/myappbinary -appimage

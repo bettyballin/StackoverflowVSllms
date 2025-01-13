@@ -1,1 +1,0 @@
-<?php\n\n    $event_date = '2010-01-01 00:00:00';\n    $event_time = strtotime($event_date);\n    $diff = $event_time - time();\n    echo floor($diff/(24*60*60)).' days to go for the great event';\n\n?>

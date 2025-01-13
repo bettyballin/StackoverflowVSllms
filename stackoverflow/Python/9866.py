@@ -1,1 +1,0 @@
-from django.contrib.auth.models import User, Permission\nfrom django.db.models import Q\n\nperm = Permission.objects.get(codename='blogger')  \nusers = User.objects.filter(Q(groups__permissions=perm) | Q(user_permissions=perm)).distinct()

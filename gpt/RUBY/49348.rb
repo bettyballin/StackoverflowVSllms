@@ -1,0 +1,1 @@
+def new\n  @vendor = Vendor.find(params[:vendor_id])\n  @review = @vendor.reviews.build\n\n  respond_to do |format|\n    format.html # new.html.erb\n    format.xml  { render :xml => @review }\n  end\nend

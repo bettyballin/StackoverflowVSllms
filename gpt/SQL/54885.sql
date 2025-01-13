@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS count_yesterday\nFROM your_table\nWHERE DATE(date_field) = CURDATE() - INTERVAL 1 DAY;

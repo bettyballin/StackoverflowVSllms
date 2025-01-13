@@ -1,0 +1,1 @@
+$query = "SELECT * FROM table WHERE date_column REGEXP '" . $regex . "'";

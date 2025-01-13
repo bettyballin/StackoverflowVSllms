@@ -1,1 +1,0 @@
-var nomAppDeNavigateur = navigator.appName;

@@ -1,0 +1,1 @@
+SELECT \n    TO_CHAR(Registered_on, 'DD-Mon-YY HH24') AS Hourly_Date,\n    COUNT(*) AS Registrations\nFROM \n    employeeReg\nGROUP BY \n    TO_CHAR(Registered_on, 'DD-Mon-YY HH24')\nORDER BY \n    TO_CHAR(Registered_on, 'DD-Mon-YY HH24');

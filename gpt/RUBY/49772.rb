@@ -1,0 +1,1 @@
+class Image < ActiveRecord::Base\n  # existing code...\n\n  def url_for_image\n    # Assuming you have a controller action that serves the image\n    # You might need to adjust the route here\n    Rails.application.routes.url_helpers.rails_blob_url(self, only_path: true)\n  end\nend

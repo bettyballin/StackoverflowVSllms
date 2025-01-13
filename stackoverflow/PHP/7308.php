@@ -1,1 +1,0 @@
-$data = array('test' => array('deeper' => array('last' => 'foo'), 'bar'), 'baz');\n\nvar_dump($data);\n\nfunction printValue($value, $key, $userData) \n{\n    //echo "$value\n";\n    $userData[] = $value;\n}\n\n\n$result = new ArrayObject();\narray_walk_recursive($data, 'printValue', $result);\n\nvar_dump($result);

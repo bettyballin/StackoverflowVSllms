@@ -1,0 +1,1 @@
+// Implementation based on the specifications of RFC 2616 (HTTP/1.1)\npublic class HttpRequest {\n    // code here\n}

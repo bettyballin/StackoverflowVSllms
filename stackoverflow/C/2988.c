@@ -1,1 +1,0 @@
-#ifdef LIBRARY_EXPORTS\n#    define LIBRARY_API __declspec(dllexport)\n#else\n#    define LIBRARY_API __declspec(dllimport)\n#endif

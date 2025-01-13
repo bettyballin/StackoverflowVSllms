@@ -1,1 +1,0 @@
-$url = "/shop/" . $_category->getUrlKey() . '.html';

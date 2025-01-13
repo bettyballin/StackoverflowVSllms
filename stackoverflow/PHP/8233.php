@@ -1,1 +1,0 @@
-$template = "/v1/People/{personID}/Addresses";\n$people_address = str_replace('{personID}', $_SESSION['personID'], $template);\n\necho $people_address;

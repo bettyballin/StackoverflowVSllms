@@ -1,1 +1,0 @@
-static bool deleteAll( Foo * theElement ) { delete theElement; return true; }\n\nfoo_list . remove_if ( deleteAll );

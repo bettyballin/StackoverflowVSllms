@@ -1,1 +1,0 @@
-select name, b.EXPANSION\n  from employees a\n  join dbo.parseName('John Smith') b\n    on a.CODE = b.CODE

@@ -1,0 +1,1 @@
+resources :list_items do\n  member do\n    patch :approve\n  end\nend

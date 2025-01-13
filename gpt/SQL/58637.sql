@@ -1,0 +1,1 @@
+EXEC AccessOtherDatabase @BaseDatabaseName = 'A'

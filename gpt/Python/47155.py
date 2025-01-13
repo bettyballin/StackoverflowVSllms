@@ -1,0 +1,1 @@
+import requests\n\n   page_id = 'your-page-id'\n   access_token = 'your-access-token'\n   url = f"https://graph.facebook.com/v13.0/{page_id}/photos?access_token={access_token}"\n\n   response = requests.get(url)\n   if response.status_code == 200:\n       photos_data = response.json()\n       print(photos_data)\n   else:\n       print(f"Error: {response.status_code}")

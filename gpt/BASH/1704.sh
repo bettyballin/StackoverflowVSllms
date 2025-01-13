@@ -1,0 +1,1 @@
+env CPUPROFILE=./jags.prof /usr/local/bin/jags regression.cmd\n     pprof /usr/local/bin/jags jags.prof

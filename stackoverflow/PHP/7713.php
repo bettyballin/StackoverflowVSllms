@@ -1,1 +1,0 @@
-Smarty::_parse_resource_name()

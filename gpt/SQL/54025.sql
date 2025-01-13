@@ -1,0 +1,1 @@
+CREATE TABLE People (\n    id int,\n    name varchar(20),\n    birthdate datetime\n)

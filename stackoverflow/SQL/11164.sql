@@ -1,1 +1,0 @@
-SELECT * FROM foo WHERE DAYOFWEEK(bar) = 2

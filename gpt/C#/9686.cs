@@ -1,0 +1,1 @@
+List<SimpleItem> items = new List<SimpleItem>();\n\nSimpleItem item1 = new SimpleItem();\nitem1["SomeIDString"] = "Value1";\nitems.Add(item1);\n\nSimpleItem item2 = new SimpleItem();\nitem2["SomeIDString"] = "Value2";\nitems.Add(item2);

@@ -1,0 +1,1 @@
+DELETE FROM your_table\n    WHERE rowid NOT IN (\n        SELECT MIN(rowid)\n        FROM your_table\n        GROUP BY column_name\n    );

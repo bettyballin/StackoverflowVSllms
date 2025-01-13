@@ -1,0 +1,1 @@
+$x[1] = [];\n$x[1]['parent'] = [];\n$x[1]['parent'][] = 'child';

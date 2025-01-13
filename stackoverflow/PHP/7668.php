@@ -1,1 +1,0 @@
-function TestBlockHTML ($replStr) {\nreturn <<<HTML\n    <html>\n    <body><h1>{$replStr}</h1>\n    </body>\n    </html>\nHTML;\n}

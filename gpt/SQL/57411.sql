@@ -1,0 +1,1 @@
+`payment_due_on` date DEFAULT NULL,

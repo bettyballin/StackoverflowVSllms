@@ -1,1 +1,0 @@
-foreach ($primes as $p) {\n  if ($p > 10000 && IsPrime(doSomeCalculationsOn($p))) {\n    return $p;\n  }\n}

@@ -1,0 +1,1 @@
+var firstAdult = people.FirstOrDefault(p => p.Age >= 18);

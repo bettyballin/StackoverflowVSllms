@@ -1,0 +1,1 @@
+$string = getStringFromDatabase();\n\nforeach (str_split($string) as $char) {\n    printf("%02X ", ord($char));\n}

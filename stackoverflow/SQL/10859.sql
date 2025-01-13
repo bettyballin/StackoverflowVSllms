@@ -1,1 +1,0 @@
-Table Item: ItemId\nTable Rating: UserId, ItemId1, ItemId2, WinnerId

@@ -1,1 +1,0 @@
-$string = '0123456789012345';\n$sets = str_split($string, 4);\nprint_r($sets);

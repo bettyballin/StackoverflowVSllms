@@ -1,0 +1,1 @@
+install_name_tool -change libclntsh.dylib.19.1 @rpath/libclntsh.dylib.19.1 /path/to/your/applicatio

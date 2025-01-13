@@ -1,0 +1,1 @@
+gateway_username = ENV['PAYMENT_GATEWAY_USERNAME']\n   gateway_password = ENV['PAYMENT_GATEWAY_PASSWORD']

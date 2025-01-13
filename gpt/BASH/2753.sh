@@ -1,0 +1,1 @@
+xmllint --schema schema.xsd example.xml --noout\nexample.xml:5: element title: Schemas validity error : Element 'title': This element is not expected.\nexample.xml fails to validate

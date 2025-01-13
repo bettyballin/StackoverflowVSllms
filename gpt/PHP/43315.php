@@ -1,0 +1,1 @@
+$pdo = new PDO('mysql:host=localhost;dbname=your_db', 'username', 'password');\n$logMessage = "User logged in at " . date('Y-m-d H:i:s');\n$stmt = $pdo->prepare("INSERT INTO logs (message) VALUES (:message)");\n$stmt->execute([':message' => $logMessage]);

@@ -1,1 +1,0 @@
-<script type="text/javascript"> \nfunction initialize() {\n  var map;\n  if (GBrowserIsCompatible()) {\n    map = new GMap2(document.getElementById("map_canvas"));\n\n    var zoomlevel = 9;\n    var lat= <?php echo $latitude ?>;\n    var lgt= <?php echo $longitude ?>;\n    map.setCenter(new GLatLng(lat, lgt), zoomlevel);\n    .........\n    ...............\n</script>

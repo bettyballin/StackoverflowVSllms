@@ -1,1 +1,0 @@
-require_once('Net/DNS.php');\n$resolver = new Net_DNS_Resolver();\n$response = $resolver->query('_xmpp-server._tcp.gmail.com', 'SRV');\nif ($response) {\n    foreach ($response->answer as $rr) {\n        $rr->display();\n    }\n}

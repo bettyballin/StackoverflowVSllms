@@ -1,0 +1,1 @@
+export GMON_OUT_PREFIX=/path/to/your/directory/gmon.out

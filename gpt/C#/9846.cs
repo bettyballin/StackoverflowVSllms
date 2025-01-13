@@ -1,0 +1,1 @@
+protected void Application_Start()\n   {\n       AreaRegistration.RegisterAllAreas();\n       RouteConfig.RegisterRoutes(RouteTable.Routes);\n       \n       // Register MEF\n       MefConfig.RegisterMef();\n       \n       // Set the custom controller factory\n       ControllerBuilder.Current.SetControllerFactory(new MefControllerFactory());\n   }

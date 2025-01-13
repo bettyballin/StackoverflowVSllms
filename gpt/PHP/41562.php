@@ -1,0 +1,1 @@
+$pk = $_GET["pk"];\n$sql = "SELECT * FROM Auctions WHERE ARTICLE_NO = '$pk'";\n// Make sure to use prepared statements to avoid SQL injection\n// Example with PDO:\n// $stmt = $pdo->prepare($sql);\n// $stmt->execute([':pk' => $pk]);\n// $result = $stmt->fetchAll();

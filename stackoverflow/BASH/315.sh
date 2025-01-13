@@ -1,1 +1,0 @@
-grep foo.zip /path/to/access.log | grep 200 | wc -l

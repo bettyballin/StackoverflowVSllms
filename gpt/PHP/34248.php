@@ -1,0 +1,1 @@
+$secureURL = generateSecureURL(128);\necho "1024-bit Secure URL Token: " . $secureURL;

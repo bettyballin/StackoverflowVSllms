@@ -1,1 +1,0 @@
-functioName.myVar = value

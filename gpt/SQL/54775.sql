@@ -1,0 +1,1 @@
+SELECT unique_id\nFROM your_table\nWHERE user_id = ?\nORDER BY unique_id;

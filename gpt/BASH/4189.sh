@@ -1,0 +1,1 @@
+@echo off\nNET STOP Apache2.4\nNET START Apache2.4

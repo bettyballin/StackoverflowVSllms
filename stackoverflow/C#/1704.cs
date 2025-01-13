@@ -1,1 +1,0 @@
-grid.DataSource = myEntities.Customers.Where(c => c.Name == "Bob");

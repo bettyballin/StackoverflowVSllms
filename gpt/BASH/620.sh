@@ -1,0 +1,1 @@
+LD_PRELOAD=./liboverride.so ./your_applicatio

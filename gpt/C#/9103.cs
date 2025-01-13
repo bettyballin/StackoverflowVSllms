@@ -1,0 +1,1 @@
+using System;\n\nnamespace YourNamespace\n{\n    public partial class ViewSpiffyStuff : SpiffyPage\n    {\n        protected void Page_Load(object sender, EventArgs e)\n        {\n            // Any additional page load logic for ViewSpiffyStuff can go here\n        }\n    }\n}

@@ -1,0 +1,1 @@
+export KRB5_CONFIG=/etc/krb5.conf\nfirefox

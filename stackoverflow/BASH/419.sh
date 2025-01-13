@@ -1,1 +1,0 @@
-files=(/my/dir/*)\nprintf "%s\n" "${files[RANDOM % ${#files[@]}]}"

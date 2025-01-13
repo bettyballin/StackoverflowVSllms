@@ -1,0 +1,1 @@
+using NewNamespace;\n\n// Or\nNewNamespace.MyClass obj = new NewNamespace.MyClass();

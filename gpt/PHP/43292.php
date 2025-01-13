@@ -1,0 +1,1 @@
+$search = 'search_string';\n$replace = 'replacement_string';\n$subject = 'This is the search_string that we want to replace only once. Another search_string should remain untouched.';\n\n$result = preg_replace('/' . preg_quote($search, '/') . '/', $replace, $subject, 1);\n\necho $result;

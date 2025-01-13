@@ -1,1 +1,0 @@
-Dim WSHShell\nSet WSHShell = WScript.CreateObject("WScript.Shell")\n'repeat the line below for each key to delete \nWSHShell.RegDelete "[Location of Key]"

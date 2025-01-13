@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    string userInput = Request.Form["userInput"];\n    string safeInput = HttpUtility.HtmlEncode(userInput);\n\n    // Use the safeInput for further processing\n    // ...\n}

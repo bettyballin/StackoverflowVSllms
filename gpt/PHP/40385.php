@@ -1,0 +1,1 @@
+$words = ['School', 'Google', 'Gooooogle', 'VooDoo'];\nforeach ($words as $word) {\n    $word2 = preg_replace('/(\w)\1+/', '$1', $word);\n    echo $word2 . "\n";\n}\n\n// Outputs:\n// Schol\n// Gogle\n// Gogle\n// Vodo

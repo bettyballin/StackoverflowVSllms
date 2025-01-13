@@ -1,0 +1,1 @@
+// In your controller\npublic IActionResult MobileView()\n{\n    if (Request.Headers["User-Agent"].ToString().Contains("Mobile"))\n    {\n        return View("MobileView");\n    }\n    return View("DesktopView");\n}

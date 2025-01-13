@@ -1,0 +1,1 @@
+// Using jQuery\n   $(function() {\n     $('img.lazyload').each(function() {\n       var img = $(this);\n       img.attr('src', img.data('src'));\n     });\n   });

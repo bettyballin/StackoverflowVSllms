@@ -1,1 +1,0 @@
-var x = new {};\n// Won't compile - no implicit conversion from object to the anonymous type\nx = new object(); 

@@ -1,0 +1,1 @@
+void Application_Error(object sender, EventArgs e)\n   {\n       Exception exception = Server.GetLastError();\n       // Log the exception (e.g., using log4net or any logging framework)\n       Server.ClearError();\n   }

@@ -1,0 +1,1 @@
+CALL usp_dropTable('SOMESCHEMA', 'SOME_TABLE');

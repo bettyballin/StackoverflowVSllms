@@ -1,1 +1,0 @@
-SELECT COUNT(*), HOUR(timecode)\nFROM timecodeTable\nGROUP BY HOUR(timecode);

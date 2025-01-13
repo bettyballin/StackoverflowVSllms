@@ -1,0 +1,1 @@
+# child_module.py\nfrom ..parent_directory.parent_module import ParentClass\n\nclass ChildClass(ParentClass):\n    def __init__(self):\n        super().__init__()\n        print("ChildClass initialized")\n\n# Example usage\nif __name__ == "__main__":\n    child_instance = ChildClass()

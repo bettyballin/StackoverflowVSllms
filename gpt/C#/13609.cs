@@ -1,0 +1,1 @@
+if (!ModelState.IsValid)\n  {\n      return View(candidateToEdit);\n  }

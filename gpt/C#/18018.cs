@@ -1,0 +1,1 @@
+[HttpPost]\npublic JsonResult YourServerEndpoint(string key1, string key2)\n{\n    // Process the data\n    var result = new { success = true, message = "Data processed successfully" };\n    return Json(result);\n}

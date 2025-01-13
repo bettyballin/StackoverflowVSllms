@@ -1,0 +1,1 @@
+// Get the full hostname\nvar hostname = window.location.hostname;\n\n// Split the hostname into parts\nvar parts = hostname.split('.');\n\n// Check if there is a subdomain\nif (parts.length > 2) {\n    var subdomain = parts.slice(0, -2).join('.');\n    console.log(subdomain); // Outputs: sample\n} else {\n    console.log("No subdomain present");\n}

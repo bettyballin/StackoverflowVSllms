@@ -1,0 +1,1 @@
+@extends('layouts.main')\n\n   @section('title', 'Home Page')\n\n   @section('content')\n       <h1>Welcome to the Home Page</h1>\n       <p>This is the dynamic content for the home page.</p>\n   @endsectio

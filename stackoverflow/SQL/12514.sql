@@ -1,1 +1,0 @@
-SELECT ... From ... WHERE date > DATEADD(year,-1,GETDATE())

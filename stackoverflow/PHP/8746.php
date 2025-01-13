@@ -1,1 +1,0 @@
-$meta = $statement->result_metadata(); \n\nwhile ($field = $meta->fetch_field()) { \n    $params[] = &$row[$field->name]; \n} \n\ncall_user_func_array(array($statement, 'bind_result'), $params);            \nwhile ($statement->fetch()) { \n    foreach($row as $key => $val) { \n        $c[$key] = $val; \n    } \n    $hits[] = $c; \n} \n$statement->close(); 

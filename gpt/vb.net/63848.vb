@@ -1,0 +1,1 @@
+' If using global.asa\n   <SCRIPT LANGUAGE="VBScript" RUNAT="Server">\n     Sub Session_OnStart\n       ' Timeout in minutes\n       Session.Timeout = 20\n     End Sub\n   </SCRIPT>

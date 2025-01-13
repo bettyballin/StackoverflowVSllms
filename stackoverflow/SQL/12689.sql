@@ -1,1 +1,0 @@
-SELECT \n   TransactionID, \n   T2.Loc.query('declare namespace ns="[URI1]";data(ns:Request/ns:SubscriberCode)') \n     as 'SubscriberCode'\nFROM   \n   TempWorksRequest\nCROSS APPLY \n   RequestXML.nodes('declare namespace soap="[URI]";\n                     declare namespace ns="[URI1]";\n                     soap:Envelope/soap:Body/ns:RunPackage/ns:xmlDoc') as T2(Loc)

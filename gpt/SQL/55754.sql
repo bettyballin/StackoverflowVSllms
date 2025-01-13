@@ -1,0 +1,1 @@
+SELECT t1.PrimaryKey, t2.ID\nFROM t1\nINNER JOIN t2\nON (t1.DD & " J" & MID(t1.TN,2,1) = t2.StartLink)\nAND (t1.DD & " J" & MID(t1.TN,4,1) = t2.EndLink)\nWHERE t1.TN Like "J?/?" AND t1.DD Like "M*";

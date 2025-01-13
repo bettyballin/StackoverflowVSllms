@@ -1,0 +1,1 @@
+setsebool -P httpd_enable_homedirs 1

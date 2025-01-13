@@ -1,0 +1,1 @@
+from scapy.all import sniff\n\ndef packet_callback(packet):\n    if packet.haslayer('TCP') and packet['TCP'].dport == 25:\n        print(packet.show())\n\n# Capture packets on the specified interface (e.g., 'eth0')\nsniff(iface='eth0', prn=packet_callback, filter='tcp port 25', store=0)

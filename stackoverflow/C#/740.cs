@@ -1,1 +1,0 @@
-SqlCommandBuilder.DeriveParameters(mySqlCommand)

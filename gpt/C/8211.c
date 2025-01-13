@@ -1,0 +1,1 @@
+#include <curl/curl.h>\n      // Initialize and set up the libcurl SFTP session here

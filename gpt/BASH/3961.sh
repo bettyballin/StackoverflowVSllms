@@ -1,0 +1,1 @@
+@echo off\nREM Remove the existing backup directory\nrmdir /S /Q G:\myRepositoryBackup\n\nREM Perform the hotcopy operation\nsvnadmin hotcopy C:\myRepository G:\myRepositoryBackup --clean-logs\n\nREM Check if the operation succeeded\nif %errorlevel% neq 0 (\n    echo Hotcopy failed!\n) else (\n    echo Hotcopy succeeded!\n)

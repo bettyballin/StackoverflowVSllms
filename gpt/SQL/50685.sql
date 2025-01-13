@@ -1,0 +1,1 @@
+SELECT column1, SUM(column2) as total\nFROM TABLE\nGROUP BY column1\nORDER BY total;

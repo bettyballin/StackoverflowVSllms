@@ -1,0 +1,1 @@
+SELECT LENGTH('your_string') AS string_length FROM DUMMY;

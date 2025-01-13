@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('input[name=userinput]').keyup(function() {\n      $('#inputval').text($(this).val());\n    });\n    });

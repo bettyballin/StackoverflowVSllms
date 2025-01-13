@@ -1,0 +1,1 @@
+MERGE INTO someTable st\nUSING\n(\n    SELECT id, field1, field2, etc,\n           ROW_NUMBER() OVER (ORDER BY id) AS row_num\n    FROM otherTable\n) ot\nON st.field1 = ot.field1\nWHEN NOT MATCHED THEN\n    INSERT (field1, field2, etc)\n    VALUES (ot.field1, ot.field2, ot.etc)\nOUTPUT $action, inserted.*, deleted.*, ot.row_num\nORDER BY ot.row_num;

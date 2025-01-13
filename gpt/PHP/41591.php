@@ -1,0 +1,1 @@
+<?php\n     require 'vendor/autoload.php';\n     \n     Kint::dump($variable);

@@ -1,1 +1,0 @@
-$data = trim(preg_replace('/\s+/g', '', $data));

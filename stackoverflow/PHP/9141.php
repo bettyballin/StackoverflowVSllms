@@ -1,1 +1,0 @@
-$browser = get_browser();\n\nif($browser->browser == 'IE' && $browser->majorver == 6) {\n    echo "IE6";\n} elseif($browser->browser == 'IE' && $browser->majorver == 7) {\n    echo "IE7";\n}

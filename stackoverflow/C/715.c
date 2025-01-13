@@ -1,1 +1,0 @@
-$ cat foo.c\n#include <stdio.h>\n\nint main(int argc, char *argv[]) {\n\n    char buf[1024];\n    proc_sysname(0, buf, 1024);\n    printf("%s\n", buf);\n\n}\n$ gcc -ofoo -lproc foo.c\n$ ./foo\nSYS#0\n$

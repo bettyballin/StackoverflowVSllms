@@ -1,1 +1,0 @@
-class a extends ArrayObject {\n    public function offsetSet($i, $v) {\n        echo 'appending ' . $v;\n        parent::offsetSet($i, $v);\n    }\n}\n\n$a = new a;\n$a[] = 1;

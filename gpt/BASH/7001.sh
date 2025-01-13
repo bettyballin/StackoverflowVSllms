@@ -1,0 +1,1 @@
+if [[ "$(id -nu)" == "$someuser" ]]; then\n    echo "I love you madly, $someuser"\nfi

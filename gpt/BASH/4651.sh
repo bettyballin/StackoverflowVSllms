@@ -1,0 +1,1 @@
+make menuconfig\n    # Enable KASAN: Kernel hacking -> Memory Debugging -> KASAN\n    make\n    sudo make modules_install install

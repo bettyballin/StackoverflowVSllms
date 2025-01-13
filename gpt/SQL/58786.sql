@@ -1,0 +1,1 @@
+ALTER TABLE YourTable\nALTER COLUMN YourFloatColumn DECIMAL(10, 2);

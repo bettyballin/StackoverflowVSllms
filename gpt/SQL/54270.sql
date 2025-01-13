@@ -1,0 +1,1 @@
+-- Update statistics\n   EXEC sp_updatestats;\n   \n   -- Rebuild indexes\n   ALTER INDEX ALL ON your_table REBUILD;

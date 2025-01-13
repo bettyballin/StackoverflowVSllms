@@ -1,0 +1,1 @@
+gcc -shared -o my_function.so -I/usr/include/mysql -fPIC my_function.c

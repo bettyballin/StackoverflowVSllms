@@ -1,0 +1,1 @@
+<!-- application/views/partials/user_profile.php -->\n   <div class="user-profile-box">\n       <h2>User Profile</h2>\n       <p>Name: <?= $user->name; ?></p>\n       <p>Email: <?= $user->email; ?></p>\n       <!-- Add more user details as needed -->\n   </div>

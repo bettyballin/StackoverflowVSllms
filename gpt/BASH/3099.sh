@@ -1,0 +1,1 @@
+cd Path\To\Your\Tests\nMSTest.exe /testcontainer:*.dll

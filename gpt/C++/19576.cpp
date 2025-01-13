@@ -1,0 +1,1 @@
+#include <iostream>\n#include "log4net.h" // Hypothetical log4net header\n\nint main() {\n    // Initialize the logger\n    log4net::Logger logger = log4net::Logger::getLogger("main");\n    \n    // Log a message\n    logger.info("Hello, log4net!");\n\n    return 0;\n}

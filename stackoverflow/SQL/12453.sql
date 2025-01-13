@@ -1,1 +1,0 @@
-SELECT * INTO NewTablenNmeHere\nFROM OPENROWSET( 'Microsoft.Jet.OLEDB.4.0', \n'Excel 8.0;Database=C:\testing.xls','SELECT * FROM [Sheet1$]') 

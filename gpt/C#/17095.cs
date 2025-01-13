@@ -1,0 +1,1 @@
+HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://yourwebserviceurl");\n    X509Certificate2 cert = new X509Certificate2("path_to_your_certificate.pfx", "your_password");\n    request.ClientCertificates.Add(cert);\n\n    HttpWebResponse response = (HttpWebResponse)request.GetResponse();

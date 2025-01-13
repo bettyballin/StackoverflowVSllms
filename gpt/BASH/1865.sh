@@ -1,0 +1,1 @@
+svn cleanup /path/to/working/copy

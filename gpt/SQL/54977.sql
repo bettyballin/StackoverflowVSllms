@@ -1,0 +1,1 @@
+SELECT STR(float_column, 25, 0) AS varchar_column\nFROM your_table;

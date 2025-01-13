@@ -1,0 +1,1 @@
+string dbPassword = ConfigurationManager.AppSettings["DBPassword"];

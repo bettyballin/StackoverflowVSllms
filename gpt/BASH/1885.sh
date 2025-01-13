@@ -1,0 +1,1 @@
+# Mount a tmpfs at /mnt/tmpfs\n   sudo mount -t tmpfs -o size=512M tmpfs /mnt/tmpfs

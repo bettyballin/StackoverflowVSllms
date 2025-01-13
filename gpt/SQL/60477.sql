@@ -1,0 +1,1 @@
+DELETE FROM MetricsArchive\n    WHERE MetricDate < DATEADD(YEAR, -5, GETDATE());

@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\nxhr.open('GET', 'https://example.com/api/resource', true);\nxhr.setRequestHeader('Accept', 'application/json'); // or any other MIME type\nxhr.onload = function() {\n  if (xhr.status >= 200 && xhr.status < 300) {\n    console.log(JSON.parse(xhr.responseText));\n  }\n};\nxhr.send();

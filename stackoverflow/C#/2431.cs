@@ -1,1 +1,0 @@
-public override int GetHashCode()\n{\n    unchecked // Overflow is fine, just wrap\n    {\n        int hash = 17;\n        // Suitable nullity checks etc, of course :)\n        hash = hash * 23 + field1.GetHashCode();\n        hash = hash * 23 + field2.GetHashCode();\n        hash = hash * 23 + field3.GetHashCode();\n        return hash;\n    }\n}

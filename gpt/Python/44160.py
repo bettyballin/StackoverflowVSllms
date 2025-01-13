@@ -1,0 +1,1 @@
+import re\n\ndef validate_user_id(user_id):\n    if re.match(r'^(?=.*[a-zA-Z])(?=.*[0-9])[a-zA-Z0-9]+$', user_id):\n        return True\n    return False\n\n# Example usage\nuser_id = "user123"\nif validate_user_id(user_id):\n    print("Valid user ID")\nelse:\n    print("Invalid user ID")

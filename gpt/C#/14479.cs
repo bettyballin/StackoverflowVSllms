@@ -1,0 +1,1 @@
+/// <summary>\n/// Converts the object to its string representation.\n/// </summary>\n/// <returns>A string that represents the object.</returns>\npublic override string ToString()\n{\n    return "Your string representation here";\n}

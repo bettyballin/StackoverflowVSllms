@@ -1,1 +1,0 @@
-SELECT\n     T1.user\nFROM\n     Some_Table T1\nLEFT OUTER JOIN Some_Table T2 ON\n     T2.user = T1.user AND\n     T2.success = 1 AND\n     T2.date > T1.date\nWHERE\n     T1.success = 1 AND\n     T1.action = 'login' AND\n     T2.id IS NULL

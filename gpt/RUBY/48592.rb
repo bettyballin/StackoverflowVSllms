@@ -1,0 +1,1 @@
+gem install bundler-audit\n   bundle-audit check --update

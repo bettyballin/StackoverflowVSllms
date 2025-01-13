@@ -1,1 +1,0 @@
-Array.Reverse( keyByteArray );

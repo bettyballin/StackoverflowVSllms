@@ -1,0 +1,1 @@
+string inputPdfPath = "path/to/your/input.pdf";\nstring outputPdfPath = "path/to/your/output.pdf";\nConvertPdfToBlackAndWhite(inputPdfPath, outputPdfPath);

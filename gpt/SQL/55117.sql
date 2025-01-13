@@ -1,0 +1,1 @@
+SET profiling = 1;\n      -- Execute your query\n      SHOW PROFILES;\n      SHOW PROFILE FOR QUERY <query_id>;

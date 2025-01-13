@@ -1,1 +1,0 @@
-SELECT tags.*, COUNT(ct.company_id) AS count\nFROM company2tag ct\nINNER JOIN tags ON tags.id = ct.tag_id\nINNER JOIN (\n    SELECT company_id FROM company2tag\n    WHERE tag_id = 18\n    GROUP BY company_id\n    HAVING COUNT(company_id) = 1\n) ctf ON ct.company_id = ctf.company_id\nWHERE tags.id != 18\nGROUP BY ct.tag_id\nORDER BY count DESC\nLIMIT 5;

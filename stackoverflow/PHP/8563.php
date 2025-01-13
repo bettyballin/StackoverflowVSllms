@@ -1,1 +1,0 @@
-$xmlrpc->call_method('DoSomething', array($arg1, $arg2));

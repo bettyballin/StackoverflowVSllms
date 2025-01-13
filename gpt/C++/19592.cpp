@@ -1,0 +1,1 @@
+class CustomDbQueryBuilder : public QueryBuilder {\npublic:\n    std::string select(const std::string& columns, const std::string& table) override {\n        return "SELECT " + columns + " AVEC " + table;\n    }\n    // Implement other methods as needed\n};

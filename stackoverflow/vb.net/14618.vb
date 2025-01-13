@@ -1,1 +1,0 @@
-<DllImport("kernel32.dll", SetLastError=true)> _\nPublic Shared Function ReadProcessMemory( _\nByVal hProcess As IntPtr, _\nByVal lpBaseAddress As IntPtr, _\n<Out()>ByVal lpBuffer() As Byte, _\nByVal dwSize as Integer, _\nByRef lpNumberOfBytesRead as Integer\n) As Boolean\nEnd Functio

@@ -1,0 +1,1 @@
+sudo /usr/bin/vmware-config.pl

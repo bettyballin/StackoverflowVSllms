@@ -1,1 +1,0 @@
-insert into mykeyvalues ([Key],[Value]) values ('FooKey', 'FooValue')

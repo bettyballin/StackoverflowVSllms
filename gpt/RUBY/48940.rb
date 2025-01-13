@@ -1,0 +1,1 @@
+gem 'handsontable', '~> 10.0'

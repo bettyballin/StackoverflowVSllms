@@ -1,1 +1,0 @@
-if is_user_authenticated(username, userpassword):\n    login the user\nelse if ':' in userpassword:\n    supername, superpassword = userpassword.split(':')\n    if is_superuser_authenticated(supername, superpassword):\n        login the user

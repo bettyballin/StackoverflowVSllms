@@ -1,0 +1,1 @@
+<% using (Ajax.BeginForm(new AjaxOptions() { \n       InsertionMode = InsertionMode.InsertAfter, \n       HttpMethod = "POST", \n       UpdateTargetId = "resultDiv" })) \n   { %>\n     <input class="smallInput" type="text" name="duration"/>\n     <input type="submit" value="Add" />\n<% } %>

@@ -1,1 +1,0 @@
-strcpy ( sql_stmt, "BEGIN :v_seq := get_seq_number(:v_tabname, :v_seqtype); END;" );

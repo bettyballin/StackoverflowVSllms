@@ -1,1 +1,0 @@
-Set objDeletedItem = objDeletedItem.Move(DeletedFolder)\n  objDeletedItem.Delete

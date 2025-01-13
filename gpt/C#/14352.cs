@@ -1,0 +1,1 @@
+/// <summary>\n/// Gets or sets the name of the person.\n/// </summary>\npublic string Name { get; set; }

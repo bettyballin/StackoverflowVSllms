@@ -1,0 +1,1 @@
+# Clean and rebuild the solution in Release mode\n   msbuild /t:Clean,Build /p:Configuration=Release

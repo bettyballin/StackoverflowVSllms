@@ -1,0 +1,1 @@
+gobuster dir -u http://example.com -w /path/to/wordlist.txt

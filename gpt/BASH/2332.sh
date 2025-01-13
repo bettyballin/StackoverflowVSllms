@@ -1,0 +1,1 @@
+msdeploy -verb:sync -source:contentPath="C:\LocalPublishPath" -dest:contentPath="C:\RemoteDestinationPath",computerName="https://yourserver.com/msdeploy.axd",username="yourusername",password="yourpassword",authType="Basic"

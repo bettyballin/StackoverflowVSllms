@@ -1,0 +1,1 @@
+public class AppController : Controller\n{\n    protected readonly IMyService _myService;\n\n    public AppController(IMyService myService)\n    {\n        _myService = myService ?? throw new ArgumentNullException(nameof(myService));\n    }\n\n    // Your controller actions here\n}

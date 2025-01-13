@@ -1,1 +1,0 @@
-function getLocalizedDate($date = 'now', $format_string = '%Y-%M-%D')\n{\n    jimport('joomla.utilities.date');\n    $jdate = new JDate($date);\n    return $jdate->toFormat(JText::_($format_string));\n}

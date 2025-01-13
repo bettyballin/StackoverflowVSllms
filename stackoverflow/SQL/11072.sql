@@ -1,1 +1,0 @@
-replace(replace(rtrim(ltrim('0123-2349823')), '-', ''), '/', '')

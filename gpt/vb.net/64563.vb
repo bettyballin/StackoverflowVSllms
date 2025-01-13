@@ -1,0 +1,1 @@
+Dim objDoc, objNode, position\nSet objDoc = CreateObject("Microsoft.XMLDOM")\nobjDoc.async = False\nobjDoc.load("books.xml")\n\nposition = 1\n\nFor Each objNode In objDoc.SelectNodes("//books/book")\n    WScript.Echo position\n    position = position + 1\nNext

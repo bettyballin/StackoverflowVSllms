@@ -1,0 +1,1 @@
+ulimit -n 4096  # increases the limit to 4096

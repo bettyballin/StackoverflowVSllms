@@ -1,0 +1,1 @@
+# On Debian-based systems (Ubuntu, etc.)\n   sudo systemctl restart apache2\n\n   # On Red Hat-based systems (CentOS, etc.)\n   sudo systemctl restart httpd

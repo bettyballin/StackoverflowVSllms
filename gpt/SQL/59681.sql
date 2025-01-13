@@ -1,0 +1,1 @@
+-- V1__Create_table.sql\nCREATE TABLE IF NOT EXISTS my_table (\n    id INT PRIMARY KEY,\n    name VARCHAR(255) NOT NULL\n);\n\n-- V2__Alter_table.sql\nALTER TABLE my_table ADD COLUMN email VARCHAR(255);

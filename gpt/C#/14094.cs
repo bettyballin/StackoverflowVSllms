@@ -1,0 +1,1 @@
+using System;\nusing System.Runtime.InteropServices;\n\nclass Program\n{\n    [DllImport("YourCppLibrary.dll")]\n    private static extern void YourCppFunction();\n\n    static void Main()\n    {\n        Console.WriteLine("Calling function from merged DLL...");\n        YourCppFunction();\n    }\n}

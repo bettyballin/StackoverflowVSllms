@@ -1,1 +1,0 @@
-create table TestTable (id int)\nalter table TestTable add constraint unique_id unique (id)\ncreate unique index ix_TestTable_id on TestTable (id)\n\nselect * from sys.indexes where [object_id] = object_id('TestTable')

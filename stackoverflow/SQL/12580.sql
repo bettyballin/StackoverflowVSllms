@@ -1,1 +1,0 @@
-select t.type                                          as "Type"\n     , sum(case when t.status = 'A' then 1 else 0 end) as "Count A"\n     , sum(case when t.status = 'I' then 1 else 0 end) as "Count I"\n     , sum(case when t.status = 'F' then 1 else 0 end) as "Count F"\n  from my_table t\n group by t.type\n order by t.type desc

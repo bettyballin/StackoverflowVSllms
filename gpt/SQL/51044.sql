@@ -1,0 +1,1 @@
+CREATE INDEX idx_url_hash ON Bookmarks (DBMS_CRYPTO.HASH(UTL_RAW.CAST_TO_RAW(URL), 1));

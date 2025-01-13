@@ -1,1 +1,0 @@
-function db($host, $user, $pass, $database) {\n    if (($this->con = mysql_connect($host, $user, $pass)) === false) {\n        throw new Exception(mysql_error());\n    }\n    if (!mysql_select_db($database)) {\n        throw new Exception(mysql_error());\n    }\n}

@@ -1,0 +1,1 @@
+$observer = $this->getMock('SomeObserverClass', array('method'));\n$observer->expects($this->once())\n         ->method('method')\n         ->with(\n             $this->equalTo($arg1),\n             $this->equalTo($arg2)\n         );

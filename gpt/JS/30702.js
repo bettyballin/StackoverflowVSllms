@@ -1,0 +1,1 @@
+$('#questions-form ul li').each(function() {\n    var fieldset = $(this).closest('fieldset');\n    var qIndex = $('#questions-form fieldset').index(fieldset);\n    console.log(qIndex); // This will log the correct index of the fieldset\n});

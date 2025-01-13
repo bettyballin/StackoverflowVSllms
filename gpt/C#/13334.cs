@@ -1,0 +1,1 @@
+// Example of using Session.Clear()\nprotected void ClearSession()\n{\n    Session.Clear();  // Removes all session data but keeps the session active\n}\n\n// Example of using Session.Abandon()\nprotected void AbandonSession()\n{\n    Session.Abandon();  // Ends the session and triggers the Session_End event\n}

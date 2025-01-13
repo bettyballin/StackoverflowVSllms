@@ -1,0 +1,1 @@
+sxstrace parse -logfile:sxstrace.etl -outfile:sxstrace.txt

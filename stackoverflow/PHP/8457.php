@@ -1,1 +1,0 @@
-$months = array();\n$currentMonth = (int)date('m');\n\nfor ($x = $currentMonth; $x < $currentMonth + 12; $x++) {\n    $months[] = date('F', mktime(0, 0, 0, $x, 1));\n}

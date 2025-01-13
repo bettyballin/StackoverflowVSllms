@@ -1,0 +1,1 @@
+ALTER TABLE your_table\nADD LastUpdatedDateTime DATETIME;\n\nCREATE TRIGGER trg_UpdateLastUpdatedDateTime\nON your_table\nAFTER INSERT, UPDATE\nAS\nBEGIN\n    SET NOCOUNT ON;\n    UPDATE your_table\n    SET LastUpdatedDateTime = GETDATE()\n    FROM inserted\n    WHERE your_table.PrimaryKey = inserted.PrimaryKey;\nEND;

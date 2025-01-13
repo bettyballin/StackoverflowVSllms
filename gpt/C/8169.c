@@ -1,0 +1,1 @@
+FILE *dump_f = fopen("dump.txt", "w");\nif (dump_f == NULL) {\n    perror("Failed to open file");\n    return 1;\n}

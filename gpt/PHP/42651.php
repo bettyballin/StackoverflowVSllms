@@ -1,0 +1,1 @@
+<?php\n// Enable profiling for the current script\nini_set('xdebug.profiler_enable', 1);\n\nfunction myFunc() {\n    // Your function code here\n}\n\n// Call the function you want to profile\nmyFunc();\n?>

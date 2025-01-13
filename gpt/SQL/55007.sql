@@ -1,0 +1,1 @@
+ALTER TABLE customer STORAGE (NEXT 10M);

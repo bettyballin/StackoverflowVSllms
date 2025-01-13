@@ -1,0 +1,1 @@
+resources :phone_numbers, only: [:destroy]

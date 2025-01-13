@@ -1,0 +1,1 @@
+from ocspbuilder import OCSPRequestBuilder\n    from asn1crypto import x509, ocsp\n    \n    cert = x509.Certificate.load(open('cert.pem', 'rb').read())\n    issuer = x509.Certificate.load(open('issuer_cert.pem', 'rb').read())\n    \n    builder = OCSPRequestBuilder(cert, issuer)\n    request = builder.build()\n    \n    print('OCSP Request:', request)

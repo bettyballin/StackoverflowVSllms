@@ -1,0 +1,1 @@
+find . -type f -exec grep -Is "B206" '{}' \; -print

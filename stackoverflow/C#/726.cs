@@ -1,1 +1,0 @@
-List<Customers> customers = new List<Customers>();\nPopulate(customers);\nGridView1.DataSource = customers;\nGridView1.DataBind();

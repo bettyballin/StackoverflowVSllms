@@ -1,1 +1,0 @@
-function hello() {\n    print "Hello World";\n}\nob_start();\nhello();\n$output = ob_get_clean();\nprint "--" . $output . "--";

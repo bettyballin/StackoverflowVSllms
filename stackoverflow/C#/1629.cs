@@ -1,1 +1,0 @@
-Dictionary< double, char> dic = new Dictionary< double, char>();\n//Adding a new item\nvoid AddItem(char c, double angle)\n{\n    if (!dic.ContainsKey(angle))\n        dic.Add(angle,c);\n}\n//Retreiving an item\nchar GetItem(double angle)\n {\n    char c;\n    if (!dic.TryGetValue(angle, out c))\n        return '';\n    else\n        return c;   \n }

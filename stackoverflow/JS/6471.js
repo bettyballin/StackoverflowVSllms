@@ -1,1 +1,0 @@
-var prm = Sys.WebForms.PageRequestManager.getInstance();\n\n  prm.add_endRequest(EndRequest);\n\n  // runs when async postback completes.\n  function EndRequest(sender, args)\n  {\n  if (sender._postBackSettings.sourceElement.id) // the id of the element that raised the postback that is completing\n      {\n        //Do what you need to do here\n      }  \n  }

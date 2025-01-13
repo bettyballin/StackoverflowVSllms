@@ -1,0 +1,1 @@
+gpg --import public_key.asc

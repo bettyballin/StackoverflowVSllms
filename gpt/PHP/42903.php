@@ -1,0 +1,1 @@
+function countImages($dir) {\n    $images = glob("$dir/*.{jpg,jpeg,png,gif,bmp}", GLOB_BRACE);\n    return count($images);\n}\n\n$imageCount = countImages('/path/to/your/directory');\necho "Total number of images: $imageCount";

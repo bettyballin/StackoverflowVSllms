@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <string.h>\n\nint main() {\n    char str1[50] = "1";\n    char str2[] = "1";\n    \n    // Concatenate str2 onto str1\n    strcat(str1, str2);\n    \n    // Print the result\n    printf("Concatenated string: %s\n", str1);\n    \n    return 0;\n}

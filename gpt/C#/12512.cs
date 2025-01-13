@@ -1,0 +1,1 @@
+using (var context = new DataContext())\n{\n    Fruit fruit = new Fruit \n    { \n        FruitID = fruitId, \n        FruitName = newFruitName, \n        FruitStatusID = null \n    };\n    \n    context.Fruits.Attach(fruit, true);\n    context.Refresh(RefreshMode.KeepCurrentValues, fruit);\n    context.SubmitChanges();\n}

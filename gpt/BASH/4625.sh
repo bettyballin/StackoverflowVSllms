@@ -1,0 +1,1 @@
+icacls "%APPDATA%\Microsoft\Crypto\RSA" /grant "IIS APPPOOL\YourAppPoolName":(OI)(CI)F

@@ -1,0 +1,1 @@
+SELECT * FROM tblTest WHERE testid = @param_id;

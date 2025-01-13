@@ -1,0 +1,1 @@
+sudo mv j2sdk1.4.2_19 /usr/lib/jvm/java-1.4.2

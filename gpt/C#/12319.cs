@@ -1,0 +1,1 @@
+[ComImport, Guid("your-guid-here"), InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]\npublic interface IYourInterface\n{\n    [DispId(5)]\n    bool IsValid();\n}

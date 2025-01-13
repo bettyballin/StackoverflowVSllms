@@ -1,1 +1,0 @@
-try\n{ \n    window.resizeTo(500, 300); \n} catch(e) { }

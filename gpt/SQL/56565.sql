@@ -1,0 +1,1 @@
+CREATE TABLE replay_rounds_team (\n    replay_id INT UNSIGNED NOT NULL,\n    round SMALLINT UNSIGNED NOT NULL,\n    winning_team_id TINYINT UNSIGNED NOT NULL,\n    FOREIGN KEY (replay_id) REFERENCES replays(id),\n    FOREIGN KEY (winning_team_id) REFERENCES teams(id),\n    PRIMARY KEY (replay_id, round)\n) CHARACTER SET=utf8\nCOLLATE=utf8_general_ci\nENGINE=InnoDB;

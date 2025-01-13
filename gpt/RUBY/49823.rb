@@ -1,0 +1,1 @@
+@results = []\n\nNote.order(updated_at: :desc).limit(3).each do |item|\n  @results << item\nend\n\nPicture.order(updated_at: :desc).limit(3).each do |item|\n  @results << item\nend\n\n@results = @results.sort_by { |result| -result.updated_at.to_i }

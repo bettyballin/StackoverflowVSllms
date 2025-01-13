@@ -1,0 +1,1 @@
+// Hashing a password\n$password = 'your_password';\n$hashed_password = password_hash($password, PASSWORD_BCRYPT);\n\n// Verifying a password\nif (password_verify($password, $hashed_password)) {\n    echo 'Password is valid!';\n} else {\n    echo 'Invalid password.';\n}

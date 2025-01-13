@@ -1,0 +1,1 @@
+using System.ServiceModel;\n\nnamespace QS.DialogManager.Communication.IISHost\n{\n    public class RecipientService : IRecipientService\n    {\n        public string GetData(int value)\n        {\n            return string.Format("You entered: {0}", value);\n        }\n    }\n}

@@ -1,0 +1,1 @@
+SELECT COLUMN_NAME\n   FROM INFORMATION_SCHEMA.COLUMNS\n   WHERE TABLE_SCHEMA = 'your_database'\n     AND TABLE_NAME = 'your_table'\n     AND COLUMN_COMMENT NOT LIKE '%deprecated%';

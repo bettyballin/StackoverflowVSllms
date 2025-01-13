@@ -1,1 +1,0 @@
-from guppy import hpy\nh = hpy()\nprint(h.heap())

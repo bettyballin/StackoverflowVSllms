@@ -1,1 +1,0 @@
-sed '/regexp/i\\n\n$H\nx'

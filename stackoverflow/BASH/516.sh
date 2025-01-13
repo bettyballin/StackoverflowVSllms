@@ -1,1 +1,0 @@
-awk '{n2=n1;n1=n;n=$0;if(NR%3==0){printf"%s,%s,%s\n",n2,n1,n}}' yourData.txt

@@ -1,0 +1,1 @@
+cd %windir%\system32\inetsrv\n\nappcmd add app /site.name:"Default Web Site" /path:/application /physicalPath:C:\Inetpub\wwwroot\applicatio

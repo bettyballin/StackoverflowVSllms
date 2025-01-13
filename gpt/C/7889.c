@@ -1,0 +1,1 @@
+PHP_FUNCTION(TestPassRef)\n{\n    zval *val;\n\n    // Parse parameters\n    ZEND_PARSE_PARAMETERS_START(1, 1)\n        Z_PARAM_ZVAL_EX(val, 1, 0)\n    ZEND_PARSE_PARAMETERS_END();\n\n    // Modify the value\n    if (Z_TYPE_P(val) == IS_STRING) {\n        zval_dtor(val);\n        ZVAL_STRING(val, "changed value");\n    }\n}

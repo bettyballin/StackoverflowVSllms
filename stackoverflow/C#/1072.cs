@@ -1,1 +1,0 @@
-void AssertSingleThread()\n{\n   if (m_ThreadId < 0) m_ThreadId = Thread.CurrentThread.ManagedThreadId;\n   Debug.Assert(m_ThreadId == Thread.CurrentThread.ManagedThreadId);\n}

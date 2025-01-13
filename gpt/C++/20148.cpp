@@ -1,0 +1,1 @@
+#include "FroggerDLL.h"\n\nFroggerDLL::FroggerDLL(QObject *parent) : QObject(parent) {\n    // Initialization code\n}\n\nvoid FroggerDLL::manipulateQObject(QObject *obj) {\n    // Manipulation code\n}

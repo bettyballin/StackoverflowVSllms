@@ -1,0 +1,1 @@
+public class HelloWorldResponse\n{\n    public string StrVal1 { get; set; }\n    public string StrVal2 { get; set; }\n}\n\n[WebMethod]\npublic HelloWorldResponse HelloWorld3()\n{\n    return new HelloWorldResponse\n    {\n        StrVal1 = "Hello World",\n        StrVal2 = "Hello World Again!"\n    };\n}

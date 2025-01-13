@@ -1,0 +1,1 @@
+Foo MyOnceUsedFoo = new Foo();\nint FooBarResult = MyOnceUsedFoo.Bar();

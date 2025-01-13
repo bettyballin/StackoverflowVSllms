@@ -1,1 +1,0 @@
-Directory.GetFiles (sourceDirectory_, "*.jpg")

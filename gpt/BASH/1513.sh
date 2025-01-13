@@ -1,0 +1,1 @@
+gcc -g -o beanstalkd beanstalkd.c -levent

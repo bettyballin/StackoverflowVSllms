@@ -1,1 +1,0 @@
-SELECT  *\nFROM    user uo\nWHERE   EXISTS (\n        SELECT  1\n        FROM    user ui\n        WHERE   ui.ip = uo.ip\n                AND banned = 1\n        LIMIT 4, 1\n        )\n        AND banned = 0

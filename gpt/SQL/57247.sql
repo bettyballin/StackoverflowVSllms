@@ -1,0 +1,1 @@
+SELECT j, h\nFROM Job j\nJOIN j.history h\nWHERE h.assignDate = (\n    SELECT MAX(h2.assignDate)\n    FROM JobOwnerHistory h2\n    WHERE h2.job = j\n)\nAND h.jobOwner.id = :ownerId

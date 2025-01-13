@@ -1,0 +1,1 @@
+WITH cte AS (\n    SELECT (SELECT column_name FROM another_table WHERE condition) AS alias_column\n    FROM your_table\n)\nSELECT count(*), alias_column\nFROM cte\nGROUP BY alias_column;

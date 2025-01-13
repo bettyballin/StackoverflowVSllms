@@ -1,0 +1,1 @@
+java -jar YourApplication.jar configFile1.properties &\njava -jar YourApplication.jar configFile2.properties &

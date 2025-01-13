@@ -1,1 +1,0 @@
-$date1 = "2007-03-24";\n$date2 = "2009-06-26";\n\n$diff = abs(strtotime($date2) - strtotime($date1));\n\n$years = floor($diff / (365*60*60*24));\n$months = floor(($diff - $years * 365*60*60*24) / (30*60*60*24));\n$days = floor(($diff - $years * 365*60*60*24 - $months*30*60*60*24)/ (60*60*24));\n\nprintf("%d years, %d months, %d days\n", $years, $months, $days);

@@ -1,0 +1,1 @@
+git tag -a release-1.0-manufacturing -m "Release 1.0 for manufacturing"\n    git tag -a release-1.0-production -m "Release 1.0 for production"

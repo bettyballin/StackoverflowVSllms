@@ -1,1 +1,0 @@
-Dim val = DirectCast([Enum].Parse(GetType(Gender), "Male"), Gender)

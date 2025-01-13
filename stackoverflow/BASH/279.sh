@@ -1,1 +1,0 @@
-cd my_directory/ && tar -zcvf ../my_dir.tgz . && cd - 

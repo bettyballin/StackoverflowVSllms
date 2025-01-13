@@ -1,0 +1,1 @@
+def probability_consecutive_ones(N, X):\n    if X > N:\n        return 0.0\n    return (N - X + 1) / (2 ** X)\n\n# Example usage:\nN = 10  # Total number of bits\nX = 3   # Number of consecutive bits set to 1\nprob = probability_consecutive_ones(N, X)\nprint(f"The probability of {X} consecutive bits being 1 in a set of {N} bits is: {prob:.6f}")

@@ -1,0 +1,1 @@
+mv yourfile.xml httpdocs/secure_data/yourfile.xml

@@ -1,1 +1,0 @@
-<%= Html.ActionLink(Of SearchController)("Search Drinks", Function(s) s.Results("Beverages",2)) %>

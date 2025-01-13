@@ -1,1 +1,0 @@
-$workbook->setVersion(8); // Use Excel97/2000 Format\n$worksheet->writeString(0, 0, $str);

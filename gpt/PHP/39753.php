@@ -1,0 +1,1 @@
+<?php\n$file = 'path/to/your/localfile.php';\n\nif (file_exists($file)) {\n    include $file;\n} else {\n    echo "The file does not exist.";\n}\n?>

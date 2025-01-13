@@ -1,1 +1,0 @@
-$string = 'abc fox fox fox ghi xyz';\n\n$substring = 'fox';\n\n$substringCount = substr_count($string, $substring);\n\necho '"' . $substring . '" appears in "' . $string . '" ' . $substringCount . ' times';

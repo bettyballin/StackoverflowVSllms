@@ -1,0 +1,1 @@
+rsync -avz -e ssh avalys@remote_host:/home/avalys/html/welcome.msg /path/to/local/destinatio

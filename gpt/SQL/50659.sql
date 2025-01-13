@@ -1,0 +1,1 @@
+INSERT INTO `products` (`product_name`, `product_description`)\nVALUES ('Product A', 'Description of Product A');

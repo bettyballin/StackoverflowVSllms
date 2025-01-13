@@ -1,1 +1,0 @@
-String.Join(",", (From item In objectArray Select stringVal = item.ToString()).ToArray())

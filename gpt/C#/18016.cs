@@ -1,0 +1,1 @@
+using System.Runtime.InteropServices;\n\nnamespace ComTest\n{\n    [ComImport]\n    [Guid("75400503-939F-11D4-9E44-0050040CE72C")]\n    public class ResSrvDll\n    {\n    }\n}

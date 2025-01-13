@@ -1,0 +1,1 @@
+Dim reader As SqlClient.SqlDataReader\n\n' Less efficient way:\nWhile reader.Read()\n    Dim value As String = reader("value").ToString()\n    ' Process value...\nEnd While\n\n' More efficient way:\nDim valueOrdinal As Integer = reader.GetOrdinal("value")\nWhile reader.Read()\n    Dim value As String = reader.GetString(valueOrdinal)\n    ' Process value...\nEnd While

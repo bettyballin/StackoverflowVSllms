@@ -1,0 +1,1 @@
+HRESULT Size(long* top, long* left, long* bottom, long* right);

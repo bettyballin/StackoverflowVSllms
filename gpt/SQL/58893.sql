@@ -1,0 +1,1 @@
+DROP SYNONYM problematic_synonym;\n    CREATE OR REPLACE SYNONYM problematic_synonym FOR correct_target_table;

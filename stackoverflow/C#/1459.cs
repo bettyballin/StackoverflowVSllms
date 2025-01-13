@@ -1,1 +1,0 @@
-Membership.GetUser().UserName

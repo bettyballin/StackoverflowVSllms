@@ -1,0 +1,1 @@
+SELECT \n    IIf(IsNull([YourBooleanField]), False, [YourBooleanField]) AS SafeBooleanField\nFROM \n    YourTableName;

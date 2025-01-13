@@ -1,1 +1,0 @@
-SELECT COl1, Col2, ...\nFROM MyTable\nWHERE id IN (SELECT id FROM @MyTempTable)

@@ -1,0 +1,1 @@
+protected void btnSubmit_Click(object sender, EventArgs e)\n{\n    // Your server-side code here\n    Response.Write("Form submitted successfully!");\n}

@@ -1,0 +1,1 @@
+public IEnumerable<DataRecord> GetPagedData(int pageSize)\n{\n    int pageNumber = 0;\n    List<DataRecord> records;\n\n    do\n    {\n        records = GetDataFromDatabase(pageNumber, pageSize);\n        foreach (var record in records)\n        {\n            yield return record;\n        }\n        pageNumber++;\n    } while (records.Count == pageSize);\n}

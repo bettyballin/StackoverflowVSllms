@@ -1,1 +1,0 @@
-Path.GetFileNameWithoutExtension(Request.Path)

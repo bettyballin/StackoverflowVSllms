@@ -1,0 +1,1 @@
+DECLARE @AffectedRows INT;\n\nEXEC MyStoredProcedure @AffectedRows OUTPUT;\n\n-- Now @AffectedRows contains the number of rows affected\nPRINT @AffectedRows;

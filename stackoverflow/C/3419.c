@@ -1,1 +1,0 @@
-ldap_set_option( ld, LDAP_OPT_RECONNECT, LDAP_OPT_ON );

@@ -1,0 +1,1 @@
+string currentPath = this.Request?.CurrentExecutionFilePath;\n\nif (string.IsNullOrEmpty(currentPath))\n{\n    // Handle the case where the request or path is null or empty\n    // Log an error, set a default value, etc.\n}\nelse\n{\n    string[] parts = currentPath.Split('/');\n    // Continue processing\n}

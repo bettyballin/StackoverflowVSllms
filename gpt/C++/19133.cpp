@@ -1,0 +1,1 @@
+std::transform(m.begin(), m.end(), std::back_inserter(v), [](const MyMap::value_type &pair) {\n    return pair.first;\n});

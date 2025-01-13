@@ -1,1 +1,0 @@
-struct table_format_header {\n  int number_of_fields; /* number of fields that will be defined in table */\n                        /* sent before the field descriptions themselves  */\n};\n\nstruct table_format {\n   char column_name[8];   /* name of column ("sensor");  */\n   char fmt_specifier[5]; /* format specifier for column */\n\n   ... (etc)\n}

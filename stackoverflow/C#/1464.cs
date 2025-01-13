@@ -1,1 +1,0 @@
-Response.AppendHeader( "content-disposition", "attachment; filename=" + name );\nResponse.ContentType = "application/zip";\nResponse.WriteFile(pathToFile);

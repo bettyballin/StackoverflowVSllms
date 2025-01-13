@@ -1,0 +1,1 @@
+#include "NativeClass.h"\n#include <iostream>\n\nNativeClass::NativeClass() : m_value(0) {}\n\nNativeClass::~NativeClass() {}\n\nvoid NativeClass::DoSomething() {\n    std::cout << "Doing something with value: " << m_value << std::endl;\n}

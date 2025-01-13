@@ -1,1 +1,0 @@
-UPDATE tableName SET tableName.LastPolledDtg = LastPolledDtg\nWHERE tableName.key = ID;

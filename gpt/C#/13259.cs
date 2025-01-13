@@ -1,0 +1,1 @@
+using LiteDB;\n\n   using (var db = new LiteDatabase(@"MyData.db"))\n   {\n       var col = db.GetCollection<MyData>("mydata");\n       // Perform database operations\n   }

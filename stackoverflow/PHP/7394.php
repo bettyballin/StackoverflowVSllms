@@ -1,1 +1,0 @@
-$gs_relations = new GSRelations();\n$part = $gs_relations->select()->from('gs_relations','subscriber_id')->where('group_id = ?',$group_id);\n$select = $this->select()->setIntegrityCheck(false);\n$select->from('subscribers')->where('id in (' . $part->__toString() . ')');\nreturn $select;

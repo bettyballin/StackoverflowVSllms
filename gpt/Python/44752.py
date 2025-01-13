@@ -1,0 +1,1 @@
+INSTALLED_APPS = [\n        ...\n        'rest_framework',\n        ...\n    ]

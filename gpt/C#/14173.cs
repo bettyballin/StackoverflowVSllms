@@ -1,0 +1,1 @@
+// Example of generating a query string\n   string url = "SearchResults.aspx?param1=value1&param2=value2";\n   Response.Redirect(url);\n\n   // To retrieve the parameters\n   var param1 = Request.QueryString["param1"];\n   var param2 = Request.QueryString["param2"];

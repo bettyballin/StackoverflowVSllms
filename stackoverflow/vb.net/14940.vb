@@ -1,1 +1,0 @@
-For i = 0 To Model.ArrayProperty.GetUpperBound(0)\n     For j = 0 To Model.ArrayProperty(i).GetUpperBound(0)\n        doWhatever( Model.ArrayProperty(i)(j) )\n     Next\n  Next

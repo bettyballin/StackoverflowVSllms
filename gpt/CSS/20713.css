@@ -1,0 +1,1 @@
+#contentBody {\n  display: flex;\n  width: N%; /* Set the desired percentage width for the container */\n}\n\n#contentLeft {\n  width: 205px;\n}\n\n#contentRight {\n  flex: 1;\n}

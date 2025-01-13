@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n    system("curl -s https://api.ipify.org");\n    return 0;\n}

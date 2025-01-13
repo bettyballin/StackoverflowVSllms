@@ -1,0 +1,1 @@
+arm-mingw32ce-g++ hello.cpp -o hello.exe

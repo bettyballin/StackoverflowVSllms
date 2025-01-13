@@ -1,1 +1,0 @@
-INSERT INTO wp_posts (post_title,post_content,post_name,post_date,post_date_gmt,post_modified,post_modified_gmt,post_author,post_status) \nVALUES ('title','text','post_name',now(),now(),now(),now(),1,'publish')\n\nINSERT INTO wp_term_relationships (object_id,term_taxonomy_id) VALUES ([the_id_of_above_post],1)

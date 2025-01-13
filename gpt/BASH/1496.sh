@@ -1,0 +1,1 @@
+openssl x509 -req -in mycsr.csr -signkey mykey.key -out mycert.crt -extensions v3_req -extfile san_config.cnf

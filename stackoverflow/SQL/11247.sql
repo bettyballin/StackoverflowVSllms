@@ -1,1 +1,0 @@
-SELECT * FROM "File" where 1 = 0

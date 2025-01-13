@@ -1,1 +1,0 @@
-new Zend_Controller_Router_Route('index/*', \narray('controller' => 'index', 'action' => 'custom', 'module'=>'index') 

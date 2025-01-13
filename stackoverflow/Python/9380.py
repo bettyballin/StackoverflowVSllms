@@ -1,1 +1,0 @@
-import sys\nsys.exit()

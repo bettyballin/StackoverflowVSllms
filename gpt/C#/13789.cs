@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!Page.User.Identity.IsAuthenticated)\n    {\n        Response.Redirect("Login.aspx");\n    }\n\n    // Additional session checks if needed\n    if (Session["User"] == null)\n    {\n        Response.Redirect("Login.aspx");\n    }\n}

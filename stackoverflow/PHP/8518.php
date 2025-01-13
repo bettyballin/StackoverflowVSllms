@@ -1,1 +1,0 @@
-$refl = new ReflectionMethod(get_class($this), 'myFunction');\n$numParams = $refl->getNumberOfParameters();

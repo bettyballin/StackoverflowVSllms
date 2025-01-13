@@ -1,0 +1,1 @@
+aspnet_regiis -pd "connectionStrings" -app "/YourApplicationName"

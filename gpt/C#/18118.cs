@@ -1,0 +1,1 @@
+var seq = Enumerable.Range(1, 10).Reverse();\nvar sort1 = seq.OrderBy(i => i);

@@ -1,0 +1,1 @@
+DECLARE @DateString CHAR(8)\nSET @DateString = CONVERT(CHAR(8), DATEADD(DAY, -7, GETDATE()), 112)\n\nEXECUTE master.dbo.xp_delete_file 0, \n    N'e:\Database Backups\',\n    N'7z', \n    @DateString, \n    1

@@ -1,0 +1,1 @@
+t1 is the child table of t2.\nt2 is the parent table of t1.

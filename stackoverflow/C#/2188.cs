@@ -1,1 +1,0 @@
-Blah blahInstance = new Blah();\n     System.Action fooFunc = blahInstance.Foo;\n     Console.WriteLine(fooFunc.Method.Name);

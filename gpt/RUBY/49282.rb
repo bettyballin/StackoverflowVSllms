@@ -1,0 +1,1 @@
+class ApplicationController < ActionController::Base\n  append_before_action :final_authenticate\n\n  private\n\n  def final_authenticate\n    # Your authentication logic here\n  end\nend

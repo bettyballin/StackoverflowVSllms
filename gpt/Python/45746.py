@@ -1,0 +1,1 @@
+import regex as re\n\ndef range_to_regex(start, end):\n    range_re = re.compile(r'\b\d+\b')\n    return range_re\n\n# Example usage:\nstart = 100\nend = 199\npattern = range_to_regex(start, end)\nprint(pattern.pattern)  # Output: \b\d+\b

@@ -1,0 +1,1 @@
+CREATE TABLE User (\n    email sysname NOT NULL,\n    sign varbinary(512) NULL\n);

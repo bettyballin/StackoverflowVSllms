@@ -1,0 +1,1 @@
+Student student = new Student { Pk = 1, Name = "John Doe" };\nSchedule schedule = new Schedule { Semester = "Fall 2023", Student = student };\nstudent.Schedules.Add(schedule);\n\n// Accessing student's name from schedule\nstring studentName = schedule.Student.Name;\nConsole.WriteLine(studentName);  // Outputs: John Doe

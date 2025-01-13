@@ -1,0 +1,1 @@
+var identity = new ClaimsIdentity();\n   identity.AddClaim(new Claim(ClaimTypes.Name, "username"));\n   identity.AddClaim(new Claim(ClaimTypes.Role, "Administrator"));\n   identity.AddClaim(new Claim("Permission", "ReadWrite"));\n\n   var principal = new ClaimsPrincipal(identity);\n   Thread.CurrentPrincipal = principal;

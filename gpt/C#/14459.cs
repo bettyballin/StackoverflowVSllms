@@ -1,0 +1,1 @@
+public class TrackerRequest\n   {\n       public List<string> Ids { get; set; }\n       public List<string> Titles { get; set; }\n   }

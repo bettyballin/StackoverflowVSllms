@@ -1,1 +1,0 @@
-Select First 10 * from myTable

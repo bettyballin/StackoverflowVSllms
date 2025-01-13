@@ -1,0 +1,1 @@
+openssl x509 -noout -fingerprint -in public_key.pem

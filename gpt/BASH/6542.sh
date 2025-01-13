@@ -1,0 +1,1 @@
+# For Debian/Ubuntu\n   sudo apt-get update\n   sudo apt-get install sshfs\n\n   # For Red Hat/CentOS\n   sudo yum install epel-release\n   sudo yum install sshfs

@@ -1,0 +1,1 @@
+QRectF selectionArea = ...; // Define the selected area\nQString selectedText = page->text(selectionArea);\nqDebug() << "Selected text:" << selectedText;

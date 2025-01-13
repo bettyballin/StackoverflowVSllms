@@ -1,0 +1,1 @@
+# Compile Java source code to bytecode\njavac MyClass.java\n\n# Convert Java bytecode to Dalvik bytecode\nd8 MyClass.class --output out/\n\n# The resulting Dalvik bytecode will be in the 'out/' directory

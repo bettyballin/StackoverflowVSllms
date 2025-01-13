@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.apache.xmlgraphics</groupId>\n    <artifactId>fop</artifactId>\n    <version>2.6</version>\n</dependency>

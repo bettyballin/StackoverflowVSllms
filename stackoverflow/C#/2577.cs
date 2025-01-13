@@ -1,1 +1,0 @@
-Page.Validate(MyValidationGroup1);\nPage.Validate(MyValidationGroup2);\nif(Page.IsValid)\n{\n    //do stuff\n}

@@ -1,0 +1,1 @@
+function userLogin($user) {\n    // Your login logic here\n\n    // Trigger the 'onUserLogin' event\n    EventManager::trigger('onUserLogin', $user);\n}

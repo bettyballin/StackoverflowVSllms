@@ -1,0 +1,1 @@
+# Copy repository locally\n   cp -r /Volumes/1&1\ Internet/website /local/path/to/website\n\n   # Navigate to the copied repository\n   cd /local/path/to/website\n\n   # Perform your commit\n   git add .\n   git commit -m "Your commit message"\n\n   # Push the changes back to the remote server\n   git push origin master

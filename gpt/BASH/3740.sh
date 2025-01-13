@@ -1,0 +1,1 @@
+sudo chown -R tomcat:tomcat /var/data/tdb\nsudo chmod -R 755 /var/data/tdb

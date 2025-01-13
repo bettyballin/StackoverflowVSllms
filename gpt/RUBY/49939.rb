@@ -1,0 +1,1 @@
+# Save this as hello.rb\nputs "Hello from IronRuby!"

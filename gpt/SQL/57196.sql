@@ -1,0 +1,1 @@
+-- As userA, call the procedure\nEXEC userB.create_table_in_cluster('new_table_name');

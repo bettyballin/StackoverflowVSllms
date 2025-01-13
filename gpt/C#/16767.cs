@@ -1,0 +1,1 @@
+public class FinancialData\n     {\n         public int Id { get; set; }\n         public string Description { get; set; }\n         public decimal Amount { get; set; }\n         public DateTime Date { get; set; }\n         // Add other properties as needed\n     }

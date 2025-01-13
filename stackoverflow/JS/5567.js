@@ -1,1 +1,0 @@
-element.html(String.fromCharCode(32));

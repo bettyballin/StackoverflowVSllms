@@ -1,0 +1,1 @@
+IRevision<T> current = context.GetTable(typeof(T))\n    .Cast<IRevision<T>>() // This does not execute the query\n    .SingleOrDefault(o => o.ID == recordId); // This executes the query

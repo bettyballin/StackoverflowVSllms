@@ -1,1 +1,0 @@
-Dim xmlDocument as MSXML2.DOMDocument\nSet xmlDocument = CreateObject("MSXML2.DOMDocument")

@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (User.IsInRole(@"domain\groupA"))\n    {\n        // User is in domain\groupA, show/hide items accordingly\n    }\n    else\n    {\n        // User is not in domain\groupA, show/hide items accordingly\n    }\n}

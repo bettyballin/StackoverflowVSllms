@@ -1,1 +1,0 @@
-select *\nfrom \n   (\n   select a + b as aliased_column\n   from table\n   ) dt\nwhere dt.aliased_column = something.

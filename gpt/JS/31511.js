@@ -1,0 +1,1 @@
+// Function to keep session alive\n    function keepSessionAlive() {\n        fetch('/keep-alive', {\n            method: 'GET'\n        });\n    }\n\n    // Keep session alive every few minutes if there is user activity\n    setInterval(keepSessionAlive, 10 * 60 * 1000); // every 10 minutes

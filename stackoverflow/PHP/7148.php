@@ -1,1 +1,0 @@
-if (!empty($row["title"])) {\n    $catList[$row["datasource_id"]] = $row["title"];\n}

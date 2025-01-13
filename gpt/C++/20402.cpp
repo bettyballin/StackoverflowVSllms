@@ -1,0 +1,1 @@
+#include <iostream>\n#include <memory>\n\nusing namespace std;\n\nclass MyClass\n{\npublic:\n    MyClass() { cout << "created" << endl; }\n    int solution() { return 42; }\n    virtual ~MyClass() {}\n};\n\nint main(int argc, char *argv[])\n{\n    unique_ptr<MyClass> ptr = make_unique<MyClass>();\n    cout << ptr->solution() << endl;\n    return 0;\n}

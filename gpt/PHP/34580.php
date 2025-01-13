@@ -1,0 +1,1 @@
+<?php\n// PHP code to encode the URL\n$text = "This is a test string with special characters: !@#$%^&*()";\n$encodedText = urlencode($text);\necho $encodedText;\n// Output: This+is+a+test+string+with+special+characters%3A+%21%40%23%24%25%5E%26%2A%28%29\n?>

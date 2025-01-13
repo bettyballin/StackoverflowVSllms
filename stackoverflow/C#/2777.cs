@@ -1,1 +1,0 @@
-List<Action> actions = new List<Action>();\n\nfor (int i = 0; i < 10; i++)\n{\n    actions.Add(() => Console.WriteLine(i));\n}\n\nforeach (Action action in actions)\n{\n    action();\n}

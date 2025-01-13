@@ -1,0 +1,1 @@
+List<Razzie> razzies = bloops\n    .Where(b => b.SomeCondition) // Replace with your condition\n    .Select(b => new Razzie\n    {\n        FirstName = b.FirstName,\n        LastName = b.LastName\n    })\n    .ToList();

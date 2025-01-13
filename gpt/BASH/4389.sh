@@ -1,0 +1,1 @@
+regsvr32 path_to_dll\owc11.dll

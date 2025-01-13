@@ -1,1 +1,0 @@
-if (!$('#uname').val().match("^[a-z0-9'.\s]{1,50}$")) {\n    //not a correct username\n}

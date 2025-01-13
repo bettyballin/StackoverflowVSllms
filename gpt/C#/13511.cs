@@ -1,0 +1,1 @@
+public class AuditLog\n   {\n       public int Id { get; set; }\n       public int TicketId { get; set; }\n       public string UserId { get; set; }\n       public DateTime EditTime { get; set; }\n       public string Action { get; set; }\n   }

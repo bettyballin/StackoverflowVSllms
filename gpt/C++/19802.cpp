@@ -1,0 +1,1 @@
+#include <boost/function.hpp>\n#include <list>\n\ntemplate< class T >\nvoid example() {\n    std::list< boost::function<T ()> >::iterator it;\n    //                               ^ Note the added space here\n}

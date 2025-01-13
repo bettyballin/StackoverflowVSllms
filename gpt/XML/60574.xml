@@ -1,0 +1,1 @@
+<configuration>\n       <appSettings>\n           <add key="TablePrefix" value="CustomPrefix_" />\n       </appSettings>\n   </configuration>

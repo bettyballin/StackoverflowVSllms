@@ -1,0 +1,1 @@
+#postbody {\n    width: 100%; /* or any other specific width you prefer */\n    overflow-x: auto; /* Allows for horizontal scrolling if the content overflows */\n}\n\n.gridview-table {\n    width: 100%;\n    table-layout: fixed; /* Ensures the table respects the parent width */\n}

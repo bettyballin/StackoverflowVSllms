@@ -1,0 +1,1 @@
+#!/bin/bash\n    \n    # Source the script to set the LOGFILE variable\n    source /path/to/generate_logfile.sh "$@"\n    \n    # Execute your command and tee the output to the log file\n    java CMD | tee "$LOGFILE"

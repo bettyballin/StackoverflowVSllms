@@ -1,0 +1,1 @@
+$varname = "HTTP_{$method}_VARS";

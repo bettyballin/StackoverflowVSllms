@@ -1,0 +1,1 @@
+IPrincipal principal = Thread.CurrentPrincipal;\n   // Or for the specific WCF context:\n   IPrincipal principal = ServiceSecurityContext.Current.PrimaryIdentity;

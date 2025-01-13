@@ -1,0 +1,1 @@
+.sympath+ <path_to_pdb_files>

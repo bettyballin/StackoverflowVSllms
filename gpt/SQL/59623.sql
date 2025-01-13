@@ -1,0 +1,1 @@
+USE master;\nGO\nALTER DATABASE [YourDatabaseName] SET MULTI_USER;\nGO

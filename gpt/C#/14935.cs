@@ -1,0 +1,1 @@
+using System.ComponentModel.DataAnnotations;\n\n   public class Person\n   {\n       [Required(ErrorMessage = "Name is required.")]\n       public string Name { get; set; }\n\n       [Range(18, 60, ErrorMessage = "Age must be between 18 and 60.")]\n       public int Age { get; set; }\n   }

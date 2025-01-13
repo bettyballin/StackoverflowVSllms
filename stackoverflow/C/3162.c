@@ -1,1 +1,0 @@
-mysql_query(sqlhnd, "SELECT * FROM `my_table`");\nMYSQL_RES *confres = mysql_store_result(sqlhnd);\nint totalrows = mysql_num_rows(confres);\nint numfields = mysql_num_fields(confres);\nMYSQL_FIELD *mfield;\n\nwhile((row = mysql_fetch_row(confres)))\n{\n    for(i = 0; i < numfields; i++)\n    {\n        char *val = row[i];\n        // do something with val...\n    }\n}

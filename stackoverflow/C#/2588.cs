@@ -1,1 +1,0 @@
-byte[] bytes = Encoding.GetEncoding(437).GetBytes("ê");

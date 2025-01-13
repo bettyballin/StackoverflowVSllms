@@ -1,0 +1,1 @@
+powershell.exe -File "C:\Path\To\MonitorServices.ps1"

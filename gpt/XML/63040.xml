@@ -1,0 +1,1 @@
+<configuration>\n  <appSettings>\n    <add key="ServiceProcessUsername" value="yourUsername"/>\n    <add key="ServiceProcessPassword" value="yourPassword"/>\n  </appSettings>\n</configuration>

@@ -1,0 +1,1 @@
+#connectionCanvas {\n    position: absolute;\n    top: 0;\n    left: 0;\n    z-index: -1; /* Ensure it is behind other elements */\n}

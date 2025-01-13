@@ -1,1 +1,0 @@
-SELECT my_column FROM my_table WHERE search_column = ?

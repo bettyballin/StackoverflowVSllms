@@ -1,0 +1,1 @@
+CREATE TABLE StagingMovies (\n       UniqueName VARCHAR(255),\n       Title VARCHAR(255),\n       Year INT\n   );\n\n   CREATE TABLE StagingMPAARatings (\n       UniqueName VARCHAR(255),\n       MPAA_Rating VARCHAR(50),\n       Reason TEXT\n   );\n\n   CREATE TABLE StagingRunningTimes (\n       UniqueName VARCHAR(255),\n       RunningTime INT\n   );

@@ -1,1 +1,0 @@
-AddHandler AppDomain.CurrentDomain.UnhandledException, AddressOf MyExceptionFilter

@@ -1,0 +1,1 @@
+sudo systemctl enable my_task.timer\n   sudo systemctl start my_task.timer

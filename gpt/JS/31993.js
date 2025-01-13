@@ -1,0 +1,1 @@
+// Express.js server example\nconst express = require('express');\nconst app = express();\n\napp.get('/data', (req, res) => {\n    const data = {\n        name: 'John Doe',\n        age: 30,\n        occupation: 'Engineer'\n    };\n    res.json(data);\n});\n\napp.listen(3000, () => {\n    console.log('Server running on port 3000');\n});

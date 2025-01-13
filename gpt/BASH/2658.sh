@@ -1,0 +1,1 @@
+gacutil /i YourNewAssembly.dll

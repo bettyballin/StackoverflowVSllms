@@ -1,0 +1,1 @@
+svn copy https://your-repo-url/trunk https://your-repo-url/branches/release-branch -m "Creating a branch for release"

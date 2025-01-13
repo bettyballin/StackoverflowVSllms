@@ -1,0 +1,1 @@
+// Example of enforcing HTTPS\n    if (location.protocol !== 'https:') {\n        location.replace(`https://${location.hostname}${location.pathname}`);\n    }

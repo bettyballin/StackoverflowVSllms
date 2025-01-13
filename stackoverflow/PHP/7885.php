@@ -1,1 +1,0 @@
-if ($_FILES['avatar']['type'] == "image/gif")\nif ($_FILES['avatar']['type'] == "image/jpeg")\nif ($_FILES['avatar']['type'] == "image/png")

@@ -1,1 +1,0 @@
-DELETE a.* FROM A a JOIN B b ON b.id = a.id WHERE b.date < '2008-10-10';

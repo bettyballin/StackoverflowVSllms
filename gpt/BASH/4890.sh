@@ -1,0 +1,1 @@
+pg_restore -U [username] -h [host] -p [port] -d [database_name] --schema=new_schema_name /path/to/backup/schema.dump

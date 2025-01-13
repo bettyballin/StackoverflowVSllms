@@ -1,0 +1,1 @@
+public async Task<IActionResult> Upload()\n{\n    using (var reader = new StreamReader(Request.Body))\n    {\n        var content = await reader.ReadToEndAsync();\n        // Process the content\n    }\n    return Ok();\n}

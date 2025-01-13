@@ -1,1 +1,0 @@
-$whitelist = array('home', 'page');\n\n  if (in_array($_GET['page'], $whitelist)) {\n        include($_GET['page'].'.php');\n  } else {\n        include('home.php');\n  }

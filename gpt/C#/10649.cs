@@ -1,0 +1,1 @@
+string computerNameEnv = System.Environment.GetEnvironmentVariable("COMPUTERNAME");

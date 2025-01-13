@@ -1,0 +1,1 @@
+using Microsoft.Security.Application;\n\n    string safeInput = Encoder.HtmlEncode(userInput);

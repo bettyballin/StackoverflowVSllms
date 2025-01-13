@@ -1,1 +1,0 @@
-def escape(arg):\n    "escape shell special characters"\n    slash = '\\'\n    special = '"$()'\n\n    arg = string.replace(arg, slash, slash+slash)\n    for c in special:\n        arg = string.replace(arg, c, slash+c)\n\n    return '"' + arg + '"'

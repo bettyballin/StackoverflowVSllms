@@ -1,0 +1,1 @@
+SELECT \n    CAST(AVG(CAST(your_datetime_column AS FLOAT)) AS DATETIME) AS AvgDateTime\nFROM \n    your_table;

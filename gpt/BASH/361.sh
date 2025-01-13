@@ -1,0 +1,1 @@
+sed -i -r 's#c:\\DEV\\Suite\\.*?\\Modules#c:\\DEV\\Suite\\Project X - Version 99.98\\Modules#I' test.txt

@@ -1,1 +1,0 @@
-create index ixBlah on demo (name) include (password);

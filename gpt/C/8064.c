@@ -1,0 +1,1 @@
+// Before optimization\ni = i + 1;\ni = i + 1;\n\n// After peephole optimization\ni = i + 2;

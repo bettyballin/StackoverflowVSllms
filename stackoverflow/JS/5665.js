@@ -1,1 +1,0 @@
-// test to check if the persons are returned!\ntest("getPersons", function() {\n  stop();\n  getPersons(function(response) {\n    persons = $.evalJSON(response.d);\n    equals(persons[0].FirstName, "Mohammad");\n    start();\n  });\n});

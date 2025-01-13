@@ -1,0 +1,1 @@
+$fp = fsockopen("www.paypal.com", 80, $errno, $errstr, 30);\n    if (!$fp) {\n        echo "Error: $errno - $errstr<br />\n";\n    } else {\n        // Your code here\n        fclose($fp);\n    }

@@ -1,0 +1,1 @@
+SELECT\n  MAX(CASE WHEN field1 IS NOT NULL THEN 1 ELSE 0 END) AS field1_non_null,\n  MAX(CASE WHEN field2 IS NOT NULL THEN 1 ELSE 0 END) AS field2_non_null,\n  MAX(CASE WHEN field3 IS NOT NULL THEN 1 ELSE 0 END) AS field3_non_null,\n  ...\n  MAX(CASE WHEN field70 IS NOT NULL THEN 1 ELSE 0 END) AS field70_non_null\nFROM series\nWHERE t_stamp BETWEEN x AND y;

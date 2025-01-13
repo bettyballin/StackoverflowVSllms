@@ -1,0 +1,1 @@
+CREATE INDEX idx_status_log_userid_logcreated ON status_log(userid, logcreated);

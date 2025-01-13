@@ -1,0 +1,1 @@
+DECLARE @Desc NVARCHAR(500);\nEXEC GetDataFromDynamicView @TableName = 'YourViewName', @Code = 'YourCodeValue', @Desc = @Desc OUTPUT;\nSELECT @Desc AS Description;

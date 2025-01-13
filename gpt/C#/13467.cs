@@ -1,0 +1,1 @@
+protected void ULRepeater_ItemDataBound(object sender, RepeaterItemEventArgs e)\n{\n    if (e.Item.ItemType == ListItemType.Item || e.Item.ItemType == ListItemType.AlternatingItem)\n    {\n        Image img = (Image)e.Item.FindControl("PartImg");\n        img.ID = "PartImg_" + e.Item.ItemIndex;\n        // You can generate more descriptive IDs based on your data here\n    }\n}

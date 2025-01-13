@@ -1,0 +1,1 @@
+Imports System.Threading\n\nPublic Class MyClass\n    Private _myField As Integer\n\n    Public Property MyField As Integer\n        Get\n            Return Thread.VolatileRead(_myField)\n        End Get\n        Set(value As Integer)\n            Thread.VolatileWrite(_myField, value)\n        End Set\n    End Property\nEnd Class

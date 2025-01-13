@@ -1,0 +1,1 @@
+int? n1 = null;\nint? n2 = null;\nbool result = (n1 == null && n2 == null) || (n1 <= n2);\nAssert.IsTrue(result);  // This will succeed

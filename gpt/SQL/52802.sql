@@ -1,0 +1,1 @@
+STARTUP NOMOUNT PFILE='/path/to/init.ora';

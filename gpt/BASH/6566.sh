@@ -1,0 +1,1 @@
+sudo /Applications/XAMPP/xamppfiles/bin/mysqladmin -u root -pyourpassword shutdown\n   sudo /Applications/XAMPP/xamppfiles/bin/mysqld_safe &

@@ -1,0 +1,1 @@
+keytool -importkeystore -deststorepass changeit -destkeystore mykeystore.jks -srckeystore mycert.p12 -srcstoretype pkcs12 -alias mykey

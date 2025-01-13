@@ -1,0 +1,1 @@
+using System.Web.Security.AntiXss;\n\n   // HTML Encoding example\n   string encodedHtml = AntiXssEncoder.HtmlEncode(userInput, true);\n\n   // URL Encoding example\n   string encodedUrl = AntiXssEncoder.UrlEncode(userInput);

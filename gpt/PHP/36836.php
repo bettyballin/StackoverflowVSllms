@@ -1,0 +1,1 @@
+while (/* condition */) {\n       // Process a small batch of data\n       processBatch($batch);\n\n       // Sleep for a short period to reduce CPU load\n       sleep(1); // or usleep(500000) for 0.5 seconds\n   }

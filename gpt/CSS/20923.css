@@ -1,0 +1,1 @@
+.div-with-backgrounds {\n  background-image: url('gradient-image.png'), url('sliver-image.png');\n  background-repeat: no-repeat, repeat-x;\n  background-position: top, bottom;\n}

@@ -1,0 +1,1 @@
+#include <memory>\nusing namespace std;\n\nauto_ptr<Table> table(db->query("select * from t")); // Works

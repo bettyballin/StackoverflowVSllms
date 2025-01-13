@@ -1,0 +1,1 @@
+msbuild /t:ConvertHtmlToMht yourprojectfile.csproj

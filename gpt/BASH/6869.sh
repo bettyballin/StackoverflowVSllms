@@ -1,0 +1,1 @@
+:: Backup Exec log file on Windows\n   notepad "C:\Program Files\Symantec\Backup Exec\Logs\bkupinst.htm"

@@ -1,1 +1,0 @@
-SELECT name, value \n  FROM v$parameter\n WHERE name = 'sessions'

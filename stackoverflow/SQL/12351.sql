@@ -1,1 +1,0 @@
-CREATE TABLE #KeysToProcess\n(\n     TempID    int  not null primary key identity(1,1)\n    ,YourKey1  int  not null\n    ,YourKey2  int  not null\n)\n\nINSERT INTO #KeysToProcess (YourKey1,YourKey2)\nSELECT TOP n YourKey1,YourKey2  FROM MyTable

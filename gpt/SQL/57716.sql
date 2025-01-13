@@ -1,0 +1,1 @@
+UPDATE `session` SET `session_data` = 'updated_session_data', `t_updated` = CURRENT_TIMESTAMP\n    WHERE `session_id` = 'random_session_id';

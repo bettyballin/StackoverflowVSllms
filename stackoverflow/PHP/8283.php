@@ -1,1 +1,0 @@
-$tmp = $array[1];\n$array[1] = $array[2];\n$array[2] = $tmp;

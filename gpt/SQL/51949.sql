@@ -1,0 +1,1 @@
+CREATE VIEW vw_Product\nAS\nSELECT \n    ProductID,\n    ProductName,\n    RegularPrice,\n    Discount,\n    (RegularPrice - Discount) AS SalePrice\nFROM \n    Products;

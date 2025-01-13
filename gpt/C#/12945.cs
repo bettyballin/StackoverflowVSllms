@@ -1,0 +1,1 @@
+try\n{\n    // Assuming 'ctx' is your DataContext and 'respToDelete' is the resp object to delete\n    ctx.resps.DeleteOnSubmit(respToDelete);\n    ctx.SubmitChanges();\n}\ncatch (ValidationException ex)\n{\n    var errors = ex.ValidationErrors;\n    // Handle validation errors\n}

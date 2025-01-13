@@ -1,0 +1,1 @@
+from django.core.mail import send_mail\n\n   def send_confirmation_email(user):\n       confirmation_link = create_confirmation_link(user)\n       subject = "Confirm your email"\n       message = f"Please confirm your email by clicking the following link: {confirmation_link}"\n       send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [user.email])

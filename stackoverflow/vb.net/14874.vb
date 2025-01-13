@@ -1,1 +1,0 @@
-AddHandler Obj.Ev_Event, AddressOf EventHandler

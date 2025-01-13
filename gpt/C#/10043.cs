@@ -1,0 +1,1 @@
+var person = db.People.SingleOrDefault(p => p.Id == id);\n   person.FirstName = "John";\n   db.SaveChanges();

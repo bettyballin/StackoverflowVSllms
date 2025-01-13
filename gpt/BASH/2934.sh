@@ -1,0 +1,1 @@
+# Send an email to the subscription address\necho "subscribe http-wg" | mail -s "Subscribe" sympa@ietf.org

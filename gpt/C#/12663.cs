@@ -1,0 +1,1 @@
+@Html.ActionLink("View Account", "Details", "Accounts", new { token = account.Token }, null)

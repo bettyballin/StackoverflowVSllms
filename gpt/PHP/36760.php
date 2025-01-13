@@ -1,0 +1,1 @@
+<?php\n$string = "hello123!";\npreg_match("/([0-9]*)/", $string, $matches);\necho $matches[1]; // Output: 123\n?>

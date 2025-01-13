@@ -1,1 +1,0 @@
-select * \nfrom mytable\nwhere id in (select id from mytable where \n              COMPLETIONDATE >= TO_DATE('29/06/08','DD/MM/YY')    \n              COMPLETIONDATE <= TO_DATE('29/06/09','DD/MM/YY')\n)

@@ -1,0 +1,1 @@
+jar cvf my-service.sar META-INF/ my-ds.xml lib/

@@ -1,0 +1,1 @@
+ServiceHost host = new ServiceHost(typeof(MyService), new Uri("http://localhost:8000/MyService"));\n   host.AddServiceEndpoint(typeof(IMyService), new BasicHttpBinding(), "");\n   host.Open();

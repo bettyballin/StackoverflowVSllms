@@ -1,1 +1,0 @@
-for (int i = 1; i <= numberofGuests; i++) {\n    var adult = new Guest();\n    adult.Id = i;\n    adult.Title = "Mr";\n    adult.Firstname = "Test";\n    adult.Surname = "Test";\n    list.Add(adult)\n}

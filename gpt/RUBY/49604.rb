@@ -1,0 +1,1 @@
+def valid_utf8?(file_path)\n  File.open(file_path, "rb") do |file|\n    file.read.force_encoding("UTF-8").valid_encoding?\n  end\nrescue\n  false\nend\n\nfile_path = 'path/to/your/file.txt'\nif valid_utf8?(file_path)\n  puts "The file '#{file_path}' is valid UTF-8."\nelse\n  puts "The file '#{file_path}' is not valid UTF-8."\nend

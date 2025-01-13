@@ -1,0 +1,1 @@
+<%\n' Store the line number in a session variable\nSession("lineNumber") = 5 ' Example line number\n%>

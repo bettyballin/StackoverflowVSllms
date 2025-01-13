@@ -1,0 +1,1 @@
+string connectionString = "Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;Max Pool Size=100;Min Pool Size=10;Connection Lifetime=600;Connection Timeout=30;";

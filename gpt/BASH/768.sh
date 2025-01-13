@@ -1,0 +1,1 @@
+sudo mkdir /mnt/ipod\n  sudo mount /dev/sdX /mnt/ipod

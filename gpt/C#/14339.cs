@@ -1,0 +1,1 @@
+[OperationBehavior(Impersonation = ImpersonationOption.Required)]\npublic void MyOperation(int arg)\n{\n    // Your code here\n}

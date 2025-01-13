@@ -1,0 +1,1 @@
+// HomeController.cs\n[HttpPost]\npublic ActionResult SubmitPartialForm(YourModel model)\n{\n    if (ModelState.IsValid)\n    {\n        // Process the form data\n        // Optionally return a partial view with updated data\n        return PartialView("_MyPartialView", model);\n    }\n\n    return new HttpStatusCodeResult(HttpStatusCode.BadRequest);\n}

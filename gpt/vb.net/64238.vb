@@ -1,0 +1,1 @@
+' Assuming you have a GridView control named GridView1\nDim keyNames As String() = GridView1.DataKeyNames\n\n' You can loop through the key names if needed\nFor Each keyName As String In keyNames\n    ' Do something with each keyName\n    Response.Write("DataKeyName: " & keyName & "<br />")\nNext

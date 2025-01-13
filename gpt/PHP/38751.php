@@ -1,0 +1,1 @@
+<?php\nclass StaticClass {\n    public static function foo() {\n        echo "Hello from StaticClass::foo()\n";\n    }\n}\n\n$name = 'StaticClass';\n$name::foo(); // This will call StaticClass::foo()\n?>

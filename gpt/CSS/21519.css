@@ -1,0 +1,1 @@
+<style>\na {\n    color: blue; /* or any color you prefer */\n    text-decoration: underline; /* to make the link more visible */\n}\n\na:hover {\n    color: darkblue; /* a different color on hover for better visibility */\n}\n</style>

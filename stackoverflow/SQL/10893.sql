@@ -1,1 +1,0 @@
-Insert Into TableName (userID, courseID)\n  Select userID, 11 From TableName Where courseID=6;

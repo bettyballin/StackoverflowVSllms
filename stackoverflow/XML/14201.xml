@@ -1,1 +1,0 @@
-<webHttpBinding>\n    <binding name="CommerceRESTBinding">\n        <security mode="Transport">\n                <transport clientCredentialType = "None" proxyCredentialType="None"/>\n        </security>\n\n</binding>\n  </webHttpBinding>

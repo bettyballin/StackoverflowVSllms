@@ -1,1 +1,0 @@
-<test> _\nPublic Sub Test\n  mockedRepository.Expect(Function(x) domock(x)).DoOtherStuff()\nEnd SUb\n\nPrivate Function domock(Byval x as whateverxis) as boolean\n  x.AddUser(someUser)\n  return false 'but actualy who cares\nEnd Functio

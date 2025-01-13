@@ -1,0 +1,1 @@
+// file: classb.php\nclass B {\n    public function sayHello() {\n        echo "Hello from B";\n    }\n}\n\n// file: classa.php\ninclude_once 'classb.php';\nclass A {\n    public $b;\n    \n    public function __construct() {\n        $this->b = new B();\n    }\n    \n    public function greet() {\n        $this->b->sayHello();\n    }\n}

@@ -1,0 +1,1 @@
+# app/controllers/some_controller.rb\nclass SomeController < ApplicationController\n  before_action :require_login\n\n  def some_action\n    # You can access the current user with current_user\n    @user = current_user\n    # Your action logic here\n  end\nend

@@ -1,1 +1,0 @@
-$("#closeLink").click(closeIt);

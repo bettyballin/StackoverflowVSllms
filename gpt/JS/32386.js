@@ -1,0 +1,1 @@
+window.myAlias = document.getElementById.bind(document);\n\n// Now you can use myAlias to get elements by ID\nvar element = myAlias('item1');\nconsole.log(element);

@@ -1,1 +1,0 @@
-Select Table_name as "Table name"\nFrom Information_schema.Tables\nWhere Table_type = 'BASE TABLE' and Objectproperty \n(Object_id(Table_name), 'IsMsShipped') = 0

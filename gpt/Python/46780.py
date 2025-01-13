@@ -1,0 +1,1 @@
+import wmi\n\nclass RealDiskInfoProvider(DiskInfoProvider):\n    def get_logical_disk_info(self):\n        c = wmi.WMI()\n        return c.Win32_LogicalDisk()

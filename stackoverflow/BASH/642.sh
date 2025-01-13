@@ -1,1 +1,0 @@
-g++ main.o -o myapp ... \\n   -Wl,--rpath=/path/to/newglibc \\n   -Wl,--dynamic-linker=/path/to/newglibc/ld-linux.so.2

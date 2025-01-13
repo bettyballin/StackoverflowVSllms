@@ -1,0 +1,1 @@
+#include <iostream>\n#include <string>\n#include "custom_stream.h" // Ensure this is the path to your header file\n\nint main() {\n    custom_stream::stringstream str;\n    str << "Hello World";\n    std::cout << str.str() << std::endl;\n    return 0;\n}

@@ -1,0 +1,1 @@
+sudo cp -r /path/to/your/app /var/www/html/

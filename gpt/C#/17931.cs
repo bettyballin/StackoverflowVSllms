@@ -1,0 +1,1 @@
+public class SessionInfo\n{\n    public string SessionID { get; set; }\n    public string IPAddress { get; set; }\n    public string UserAgent { get; set; }\n    public DateTime StartTime { get; set; }\n}

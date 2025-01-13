@@ -1,0 +1,1 @@
+$request = new HttpRequest('http://example.com/resource', HttpRequest::METH_PUT);\n$data = 'your raw data';\n\n$request->setBody($data);\n$request->setHeaders(array(\n    'Content-Type' => 'application/json',\n    'x-example-info' => '2342342'\n));\n\ntry {\n    $response = $request->send();\n    echo $response->getBody();\n} catch (HttpException $ex) {\n    echo $ex;\n}

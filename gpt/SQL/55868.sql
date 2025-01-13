@@ -1,0 +1,1 @@
+SELECT \n    empName, \n    dbo.GroupConcat(empName) AS projectIDs\nFROM \n    project_members\nGROUP BY \n    empName;

@@ -1,0 +1,1 @@
+public void StoreUsingKey<T>(T value) where T : class\n{\n    if (value is IIDModel idModel)\n    {\n        Store(idModel);\n    }\n\n    AddToCacheUsingKey(value);\n}\n\npublic void Store<T>(T value) where T : class, IIDModel\n{\n    AddModelToCache(value);\n}

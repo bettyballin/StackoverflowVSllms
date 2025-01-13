@@ -1,0 +1,1 @@
+-- process_data.sql\nSET PAGESIZE 0 FEEDBACK OFF VERIFY OFF HEADING OFF ECHO OFF\nSPOOL output.txt\n\n-- Select statement to process primary keys\nSELECT /*+ PARALLEL */ *\nFROM your_table\nWHERE primary_key IN (\n    -- List of primary keys (you may need to split this into smaller chunks if it's too large)\n);\n\nSPOOL OFF\nEXIT

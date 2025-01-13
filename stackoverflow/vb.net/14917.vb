@@ -1,1 +1,0 @@
-Dim strscript As String = "<script>alert('hello');window.location.href='http://www.google.com'</script>"\n\n   If Not ClientScript.IsClientScriptBlockRegistered("clientscript") Then\n       ClientScript.RegisterStartupScript(Me.GetType(), "clientscript", strscript)\n   End If

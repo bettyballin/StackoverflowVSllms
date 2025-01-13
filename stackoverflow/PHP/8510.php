@@ -1,1 +1,0 @@
-$str = <<<EOD\nExample of string\nspanning multiple lines\nusing heredoc syntax.\nEOD;

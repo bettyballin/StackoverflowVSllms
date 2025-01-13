@@ -1,1 +1,0 @@
-Class Superman\n    include Superpower\n    include Fly\n    # ...\nend

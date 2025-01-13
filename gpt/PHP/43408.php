@@ -1,0 +1,1 @@
+// Using slashes as delimiters\n$pattern = '/abc/i';\nif (preg_match($pattern, 'ABC')) {\n    echo "Match found!";\n}\n\n// Using hash as delimiters\n$pattern = '#abc#i';\nif (preg_match($pattern, 'ABC')) {\n    echo "Match found!";\n}\n\n// Using tilde as delimiters\n$pattern = '~abc~i';\nif (preg_match($pattern, 'ABC')) {\n    echo "Match found!";\n}

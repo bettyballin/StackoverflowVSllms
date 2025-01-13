@@ -1,0 +1,1 @@
+// Existing function\nextern "C" __declspec(dllexport) void ExistingFunction1() {\n    // Implementation\n}\n\n// New function\nextern "C" __declspec(dllexport) void NewFunction1() {\n    // Implementation\n}

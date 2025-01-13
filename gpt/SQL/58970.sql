@@ -1,0 +1,1 @@
+SELECT * FROM notes WHERE MATCH(title, body) AGAINST('test' IN NATURAL LANGUAGE MODE);

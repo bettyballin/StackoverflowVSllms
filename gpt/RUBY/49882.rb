@@ -1,0 +1,1 @@
+class Invoice < ApplicationRecord\n  before_update :prevent_address_id_change, if: :address_id_changed?\n\n  private\n\n  def prevent_address_id_change\n    errors.add(:address_id, "cannot be changed once set")\n    throw(:abort) # This will prevent the record from being saved\n  end\nend

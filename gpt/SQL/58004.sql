@@ -1,0 +1,1 @@
+EXPLAIN\nSELECT * \nFROM a \nJOIN b ON a.b_id = b.id\nJOIN c ON b.c_id = c.id\nJOIN d ON c.d_id = d.id;

@@ -1,1 +1,0 @@
-$description = preg_replace("#(^|[\n ])\#(\w+)#ise", "'\\1<a href=\"".$pre."/hash/\\2\" rel=\"nofollow\" class=\"hash ".$colour."\">#\\2</a>'", $description);

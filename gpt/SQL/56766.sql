@@ -1,0 +1,1 @@
+SELECT pg_cancel_backend(pid)\nFROM pg_stat_activity\nWHERE query LIKE 'DROP INDEX%';

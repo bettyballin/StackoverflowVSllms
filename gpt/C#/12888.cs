@@ -1,0 +1,1 @@
+public static string ResolveUrlStatic(string relativeUrl)\n{\n    return System.Web.VirtualPathUtility.ToAbsolute(relativeUrl);\n}

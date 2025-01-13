@@ -1,0 +1,1 @@
+-- Example of using WITH RECOMPILE for a specific query\n   SELECT *\n   INTO #TempTable\n   FROM LargeTable\n   OPTION (RECOMPILE);

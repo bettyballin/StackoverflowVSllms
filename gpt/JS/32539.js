@@ -1,0 +1,1 @@
+window.onscroll = function() {\n    var divElement = document.getElementById('yourDivId');\n    if (divElement) {\n        // Force reflow/repaint\n        divElement.style.display = 'none';\n        divElement.offsetHeight; // Trigger reflow\n        divElement.style.display = 'block';\n    }\n};

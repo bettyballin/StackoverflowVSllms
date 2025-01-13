@@ -1,0 +1,1 @@
+@media (max-width: 768px) {\n        .main-content {\n            flex-direction: column;\n        }\n        .nav, .con1, .con2, .con3 {\n            flex-basis: 100%;\n        }\n    }

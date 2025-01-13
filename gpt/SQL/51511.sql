@@ -1,0 +1,1 @@
+ALTER TABLE table_name\n     ADD CONSTRAINT constraint_name UNIQUE (column_name);

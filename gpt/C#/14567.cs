@@ -1,0 +1,1 @@
+foreach (var event in events)\n{\n    if (event.Date == currentDay)\n    {\n        LinkButton lb = new LinkButton();\n        lb.Text = "View Event";\n        lb.OnClientClick = $"goToEventDetails({event.EventID}); return false;";\n        // Add lb to your calendar cell\n    }\n}

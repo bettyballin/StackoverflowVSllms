@@ -1,1 +1,0 @@
-void assignObject(ClassA*& pa, ClassB*& pb)\n{\n    pa = new ClassA;\n    pb = new ClassB;\n}\n\nClassA* pa = NULL;\nClassA* pb = NULL;\nassignObject(pa, pb); // both will be assigned as expected.

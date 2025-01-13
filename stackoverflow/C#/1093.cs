@@ -1,1 +1,0 @@
-bool valid = false;\n using (PrincipalContext context = new PrincipalContext(ContextType.Domain))\n {\n     valid = context.ValidateCredentials( username, password );\n }

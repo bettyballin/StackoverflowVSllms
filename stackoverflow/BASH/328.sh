@@ -1,1 +1,0 @@
-$ pygmentize -O full -O style=native -o test.html test.py

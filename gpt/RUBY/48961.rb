@@ -1,0 +1,1 @@
+# config/initializers/patch_example_gem.rb\nmodule ExampleGem\n  class ExampleClass\n    def example_method\n      # Your patched implementation\n      puts "This is the patched method"\n    end\n  end\nend

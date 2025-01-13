@@ -1,1 +1,0 @@
-send.Write(ctype(9, UShort))

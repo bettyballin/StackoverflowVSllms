@@ -1,0 +1,1 @@
+#!/bin/bash\n# Assuming you want to compare all files in the current directory\nfiles=(*)\nnum_files=${#files[@]}\nfor ((i=0; i<num_files-1; i++)); do\n  for ((j=i+1; j<num_files; j++)); do\n    echo "Comparing ${files[i]} and ${files[j]}:"\n    diff "${files[i]}" "${files[j]}"\n    echo\n  done\ndone

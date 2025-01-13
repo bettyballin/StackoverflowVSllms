@@ -1,1 +1,0 @@
-class A {\npublic:\n   void doSomething( boost::function< void ( int ) > callback )\n   {\n      callback( 5 );\n   }\n};

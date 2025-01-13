@@ -1,0 +1,1 @@
+sudo apt install apache2 mariadb-server libapache2-mod-php7.4\n    sudo apt install php7.4-gd php7.4-json php7.4-mysql php7.4-curl php7.4-mbstring\n    sudo apt install php7.4-intl php-imagick php7.4-xml php7.4-zip

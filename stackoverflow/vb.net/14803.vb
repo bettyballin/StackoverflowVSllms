@@ -1,1 +1,0 @@
-Public Class B(Of T)\n    Protected Function P(ByVal arg As T) As Boolean\n    End Function\nEnd Class\nPublic Class C\n    Inherits B(Of Integer)\n    Private Sub New(ByVal arg As Integer)\n        Dim d = Function() P(arg)\n    End Sub\nEnd Class

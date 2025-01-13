@@ -1,0 +1,1 @@
+select fname, lname \nfrom people \nwhere isValid = 1 and lname like '%test%'

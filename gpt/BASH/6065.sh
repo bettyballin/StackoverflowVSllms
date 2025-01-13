@@ -1,0 +1,1 @@
+tar -cf - folder/ | xz -9e > archive.tar.xz

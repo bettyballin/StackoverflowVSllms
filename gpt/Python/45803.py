@@ -1,0 +1,1 @@
+import time\n\nstart_time = time.monotonic()\nsomeSQLOrSomething()\nend_time = time.monotonic()\n\nprint("That took %.3f seconds" % (end_time - start_time))

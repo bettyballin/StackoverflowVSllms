@@ -1,0 +1,1 @@
+rasdial $vpnName /phonebook:"C:\Users\<YourUsername>\AppData\Roaming\Microsoft\Network\Connections\Pbk\rasphone.pbk"

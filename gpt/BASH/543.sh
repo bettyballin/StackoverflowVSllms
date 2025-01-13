@@ -1,0 +1,1 @@
+gcc -shared -o libFilePermissionChecker.so -fPIC FilePermissionChecker.c

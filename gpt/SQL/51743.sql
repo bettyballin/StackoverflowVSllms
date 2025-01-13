@@ -1,0 +1,1 @@
+-- In SSMS:\n   -- 1. Right-click on the database you want to transfer.\n   -- 2. Go to Tasks -> Export Data.\n   -- 3. Follow the wizard to choose the source and destination databases.

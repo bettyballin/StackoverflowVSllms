@@ -1,0 +1,1 @@
+// Assuming $db is your database connection object\n\n$user = new User($db);\n$isLoggedin = $user->checkLogin('user@example.com', 'password123');\n\nif ($isLoggedin) {\n    // User is logged in\n} else {\n    // Login failed\n}

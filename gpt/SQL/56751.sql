@@ -1,0 +1,1 @@
+-- Inserting into Table B\nINSERT INTO B (Aid, bnum) VALUES (:Aid, bnum_seq.NEXTVAL);\n\n-- Inserting into Table C\nINSERT INTO C (Aid, cnum) VALUES (:Aid, cnum_seq.NEXTVAL);\n\n-- Inserting into Table D\nINSERT INTO D (Aid, bnum, cnum, dnum) VALUES (:Aid, :bnum, :cnum, dnum_seq.NEXTVAL);

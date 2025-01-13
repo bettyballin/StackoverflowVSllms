@@ -1,0 +1,1 @@
+MustInherit Class MyBaseClass\n    Public Shared Sub Method1()\n        ' Implementation here\n    End Sub\n\n    Public Shared Sub Method2()\n        ' Implementation here\n    End Sub\n\n    Public Shared Sub Method3()\n        ' Implementation here\n    End Sub\nEnd Class

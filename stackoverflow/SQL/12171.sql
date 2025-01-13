@@ -1,1 +1,0 @@
-ALTER TABLE Employee ADD EmployeeID int identity(1,1) PRIMARY KEY;\n\nWHILE EXISTS (SELECT COUNT(*) FROM Employee GROUP BY EmpID, EmpSSN HAVING COUNT(*) > 1)\nBEGIN\n    DELETE FROM Employee WHERE EmployeeID IN \n    (\n        SELECT MIN(EmployeeID) as [DeleteID]\n        FROM Employee\n        GROUP BY EmpID, EmpSSN\n        HAVING COUNT(*) > 1\n    )\nEND

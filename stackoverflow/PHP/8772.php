@@ -1,1 +1,0 @@
-$tablePages = 'orweb_pages';

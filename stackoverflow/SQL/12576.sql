@@ -1,1 +1,0 @@
-SELECT SUBSTRING(master.dbo.fn_varbintohexstr(HashBytes('MD5', 'HelloWorld')), 3, 32)

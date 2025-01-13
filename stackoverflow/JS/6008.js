@@ -1,1 +1,0 @@
-xhr.onreadystatechange = function() { \n     if (xhr.readyState === 4 && xhr.status === 200) loadFinished();\n }\n xhr.open(requestType, url,  true);

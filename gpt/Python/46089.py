@@ -1,0 +1,1 @@
+import numpy as np\nimport matplotlib.pyplot as plt\n\ndef generate_ar_process(n, phi, sigma=1):\n    ar = np.zeros(n)\n    for t in range(1, n):\n        ar[t] = phi * ar[t-1] + np.random.normal(scale=sigma)\n    return ar\n\nn = 100\nphi = 0.7\ntime_series = generate_ar_process(n, phi)\nplt.plot(time_series)\nplt.title('AR(1) Process Time Series')\nplt.show()

@@ -1,0 +1,1 @@
+// mydll.cpp\n   void MyInternalFunction() {\n       // Implementation of the function\n   }\n\n   extern "C" __declspec(dllexport) void MyExportedFunction() {\n       // Implementation of the function\n   }

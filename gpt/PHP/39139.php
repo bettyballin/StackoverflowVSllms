@@ -1,0 +1,1 @@
+for ($i = 0; $i < 10000; $i++) {\n    echo 'Hello world, my name is ' . $name;\n}

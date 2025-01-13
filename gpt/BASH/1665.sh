@@ -1,0 +1,1 @@
+sudo grep -E "^johndoe.*NOPASSWD" /etc/sudoers

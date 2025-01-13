@@ -1,1 +1,0 @@
-function(rowNames) {\n    // rowNames is an Array of JavaScript JSON Objects representing a RowName.\n    // \n    // Lets iterate over the rowNames.  Let's let the RowName object have \n    // a Title property which we'll alert.\n    for (var i = 0; i < rowNames.length; i++) {\n        alert(rowNames[i].Title);\n    }\n}

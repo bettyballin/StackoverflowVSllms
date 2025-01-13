@@ -1,1 +1,0 @@
-var lines =File.ReadAllLines(args[0]);\n    using (var outfs = File.AppendText(args[1]))\n    {\n        outfs.Write("<html><body><table>");\n        foreach (var line in lines)\n            outfs.Write("<tr><td>" + string.Join("</td><td>", line.Split(',')) + "</td></tr>");\n        outfs.Write("</table></body></html>");\n    }

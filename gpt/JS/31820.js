@@ -1,0 +1,1 @@
+// Assuming you have initialized the YUI Editor and stored its instance in a variable named 'myEditor'\nmyEditor.on('editorContentLoaded', function() {\n    myEditor.focus();\n});

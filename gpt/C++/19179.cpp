@@ -1,0 +1,1 @@
+#pragma comment(lib, "msvcrt.lib")\n#pragma comment(lib, "gmp.lib")

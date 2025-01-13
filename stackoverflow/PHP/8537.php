@@ -1,1 +1,0 @@
-foreach ($progress as $str) {\n    if (preg_match_all('/\[download] (\d+\.\d)% of (\d+\.\d+\w)/', $str, $matches)) {\n        var_dump($matches);\n    }\n}

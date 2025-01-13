@@ -1,0 +1,1 @@
+div {\n    width: 200px;\n    height: 200px;\n    background-color: lightblue;\n    padding: 20px;\n    border-radius: 15px; /* Adjust the value to get the desired rounding */\n}

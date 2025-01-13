@@ -1,0 +1,1 @@
+$users = User::select('id', 'name', 'email')->get();

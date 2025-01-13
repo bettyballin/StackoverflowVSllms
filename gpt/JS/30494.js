@@ -1,0 +1,1 @@
+// Assuming settings.functionName and t.parentNode.id are defined\nvar functionName = settings.functionName;\nvar argument = t.parentNode.id;\n\n// Check if the function exists and is callable\nif (typeof window[functionName] === 'function') {\n    window[functionName](argument);\n} else {\n    console.error('Function', functionName, 'is not defined');\n}

@@ -1,0 +1,1 @@
+// In your C code\nextern void my_function();\n\nint main() {\n    my_function();\n    return 0;\n}

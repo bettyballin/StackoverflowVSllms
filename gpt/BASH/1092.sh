@@ -1,0 +1,1 @@
+sshfs remote_user@remote_host:/remote/path /path/to/mount/point -o uid=$(id -u your_local_user) -o gid=$(id -g your_local_user)

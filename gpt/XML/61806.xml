@@ -1,0 +1,1 @@
+<configuration>\n  <oracle.dataAccess.client>\n    <settings>\n      <add name="DllPath" value="C:\Oracle\product\11.2.0\client_2\bin" />\n    </settings>\n  </oracle.dataAccess.client>\n</configuration>

@@ -1,0 +1,1 @@
+#include <windows.h>\n   #include <iostream>\n\n   int main(int argc, char* argv[]) {\n       if (argc > 1) {\n           std::string path(argv[1]);\n           std::cout << "Mapped drive path: " << path << std::endl;\n           // Use the path as needed\n       } else {\n           std::cerr << "No path argument passed." << std::endl;\n       }\n       return 0;\n   }

@@ -1,1 +1,0 @@
-IF @ID IS NULL OR @ID <= 0\nBEGIN\n\n    DECLARE @msg varchar(250)\n    SELECT @msg = 'ID is ' +  Convert(varchar(15), @ID) + '. Value cannot be null or less then zero'\n\n    RAISERROR 27001 @msg\n    RETURN 27001\nEND

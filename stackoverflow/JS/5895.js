@@ -1,1 +1,0 @@
-checkingPosition = false;\n$window.scroll(function() {\n   if(checkingPosition) return;\n   checkingPosition = true;\n   //do stuff\n   checkingPosition = false;\n});

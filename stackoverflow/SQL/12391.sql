@@ -1,1 +1,0 @@
-alter table #tmp drop column id

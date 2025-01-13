@@ -1,1 +1,0 @@
-SELECT user_id\nFROM skills\nWHERE skill_id IN (51, 52, 53, 54, 55)\nGROUP BY user_id\nHAVING COUNT(*) = 5;

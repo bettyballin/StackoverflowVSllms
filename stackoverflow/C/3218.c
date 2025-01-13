@@ -1,1 +1,0 @@
--static int st_ioctl(struct inode *inode, struct file *file,\n- unsigned int cmd_in, unsigned long arg)\n+static long st_ioctl(struct file *file, unsigned int cmd_in, unsigned long arg)\n{

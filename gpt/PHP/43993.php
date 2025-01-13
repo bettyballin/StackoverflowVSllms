@@ -1,0 +1,1 @@
+<?php\n// Your existing code\n\n// Set the HTTP response status to 404\nheader('HTTP/1.0 404 Not Found');\n\n// Include or redirect to a custom 404 page\ninclude '404.php';\n// or\n// require '404.php';\n// or\n// header('Location: /404.html');\n// exit;\n?>

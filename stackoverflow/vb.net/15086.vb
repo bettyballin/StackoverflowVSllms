@@ -1,1 +1,0 @@
-For i as integer = 0 to 3\n    account1(i) = "Account1"\n    account2(i) = "Account2"\n    account3(i) = "Account3"\n    account4(i) = "Account4"\nNext

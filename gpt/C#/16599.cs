@@ -1,0 +1,1 @@
+using Castle.ActiveRecord;\n\n[ActiveRecord("Users")]\npublic class User : ActiveRecordBase<User>\n{\n    [PrimaryKey(PrimaryKeyType.Identity)]\n    public int Id { get; set; }\n\n    [Property]\n    public string Name { get; set; }\n\n    [Property]\n    public string Email { get; set; }\n}

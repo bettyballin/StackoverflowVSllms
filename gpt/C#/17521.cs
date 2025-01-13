@@ -1,0 +1,1 @@
+dynamic system = Connection.System;\nvar isInitialised = system.InitialiseData(path);

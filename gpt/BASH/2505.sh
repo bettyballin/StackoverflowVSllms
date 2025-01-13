@@ -1,0 +1,1 @@
+cd <path_to_tags_directory>

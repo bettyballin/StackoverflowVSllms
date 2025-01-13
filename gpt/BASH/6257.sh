@@ -1,0 +1,1 @@
+dig -x your.server.ip.address

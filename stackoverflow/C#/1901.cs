@@ -1,1 +1,0 @@
-SendMessage(this.Handle.ToInt32(), WM_SYSCOMMAND, SC_MONITORPOWER, –1);

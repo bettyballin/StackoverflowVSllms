@@ -1,0 +1,1 @@
+from django.db import models\n\nclass FloorPlan(models.Model):\n    name = models.CharField(max_length=255)\n    regions = models.JSONField()  # Store the regions as a JSON object

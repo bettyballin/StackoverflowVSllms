@@ -1,0 +1,1 @@
+./editgroups.cgi?action=edit&group=read-only

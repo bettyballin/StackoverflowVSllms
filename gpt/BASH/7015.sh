@@ -1,0 +1,1 @@
+sudo apt-get install systemtap systemtap-sdt-dev linux-headers-$(uname -r) linux-image-$(uname -r)-dbg

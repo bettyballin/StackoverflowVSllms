@@ -1,1 +1,0 @@
-<configuration>  \n     <system.net>    \n      <mailSettings>      \n       <smtp deliveryMethod="SpecifiedPickupDirectory">        \n        <specifiedPickupDirectory pickupDirectoryLocation="c:\LocalDir"/>      \n       </smtp>    \n      </mailSettings>  \n     </system.net>\n    </configuration>

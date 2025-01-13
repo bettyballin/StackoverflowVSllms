@@ -1,0 +1,1 @@
+icacls C:\ /deny www.xyz.test:(OI)(CI)W

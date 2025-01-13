@@ -1,0 +1,1 @@
+.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh; /* Full viewport height for demonstration */\n}\n.child {\n  width: _insert width here_;\n  height: _insert height here_;\n}

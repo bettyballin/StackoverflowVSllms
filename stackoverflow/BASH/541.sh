@@ -1,1 +1,0 @@
-telnet RelayServerAddress 25

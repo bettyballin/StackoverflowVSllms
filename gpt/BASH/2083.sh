@@ -1,0 +1,1 @@
+# Example command to run HammerDB\n   hammerdbcli auto myscript.tcl

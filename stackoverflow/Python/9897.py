@@ -1,1 +1,0 @@
-import itertools\n\ngroup1 = ['a', 'b']\ngroup2 = ['c', 'd']\n\nprint list(itertools.product(group1, group2))\n\n#==> [('a', 'c'), ('a', 'd'), ('b', 'c'), ('b', 'd')]

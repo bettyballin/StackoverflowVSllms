@@ -1,1 +1,0 @@
-function fn($return=false) {\n    if ($return) {\n        return 'blah';\n    } else {\n        echo 'blah';\n    }\n}

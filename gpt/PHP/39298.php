@@ -1,0 +1,1 @@
+// Translators: 'page-error-invalid-username' and other error codes\n$errorKey = 'page-error-' . $error;\n$this->translate($errorKey);

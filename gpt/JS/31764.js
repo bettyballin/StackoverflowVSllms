@@ -1,0 +1,1 @@
+// JavaScript: Fetch session data via AJAX when needed\n$.ajax({\n    url: 'session_data.php',\n    method: 'GET',\n    success: function(data) {\n        const sessionData = JSON.parse(data);\n        console.log(sessionData);\n    },\n    error: function(error) {\n        console.error('Error fetching session data', error);\n    }\n});

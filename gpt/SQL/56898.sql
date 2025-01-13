@@ -1,0 +1,1 @@
+CREATE TABLE DOC_Documents (\n    DOC_ID INT IDENTITY PRIMARY KEY,\n    DOC_Order INT,\n    DOC_Name NVARCHAR(255)\n);

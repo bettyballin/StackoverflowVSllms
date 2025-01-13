@@ -1,0 +1,1 @@
+function is_iphone() {\n    return strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone') !== false;\n}\n\nif (is_iphone()) {\n    // Serve a version of the page without AJAX\n} else {\n    // Serve the normal version with AJAX\n}

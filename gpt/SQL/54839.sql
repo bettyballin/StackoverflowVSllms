@@ -1,0 +1,1 @@
+INSERT INTO events (event_id, event_timestamp) \nVALUES (1, '2023-10-03 14:30:45.123');

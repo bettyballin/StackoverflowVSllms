@@ -1,1 +1,0 @@
-rake db:fixtures:dump\n    # Create YAML test fixtures from data in an existing database.

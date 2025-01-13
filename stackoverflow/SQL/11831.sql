@@ -1,1 +1,0 @@
-select t.tag, max(a.date_time) as latest\nfrom articles a\ninner join articletags t\non t.id = a.id\ngroup by t.tag

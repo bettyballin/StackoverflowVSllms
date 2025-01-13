@@ -1,1 +1,0 @@
-var x = e.pageX - $(this).offset().left;\nvar y = e.pageY - $(this).offset().top;

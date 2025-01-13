@@ -1,1 +1,0 @@
-class Example {\n    private function __construct() { }\n\n    public static method createA(..) { \n        //configure for mode A\n        $cls = new self; \n        return $cls;\n    }\n\n    public static method createB(..) { \n        //configure for mode B\n        $cls = new self; \n        return $cls;\n    }\n}\n\n$x = Example::createA();

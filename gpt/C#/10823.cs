@@ -1,0 +1,1 @@
+public enum TypeEnum\n{\n    Type1 = 1,\n    Type2 = 2,\n    Type3 = 3\n    // Add other types as required\n}

@@ -1,1 +1,0 @@
-$("#aanmeldForm").submit(function(){\n    //TODO: some data keeping jobs to be done\n    // make sure the form was valid *before* dismissing the popup\n    if($(this).valid()) {\n        self.opener.location = 'http://ladosa.com';\n        self.close();\n        return true;\n    }\n    // stop the form submitting\n    return false;\n});

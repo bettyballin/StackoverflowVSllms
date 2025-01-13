@@ -1,0 +1,1 @@
+task :default => [:build, :test]\n\n   task :build do\n     sh 'xcodebuild -project YourProject.xcodeproj -scheme YourScheme'\n   end\n\n   task :test do\n     sh 'xcodebuild test -project YourProject.xcodeproj -scheme YourScheme -destination "platform=macOS"'\n   end

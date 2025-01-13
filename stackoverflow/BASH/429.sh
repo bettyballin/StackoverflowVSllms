@@ -1,1 +1,0 @@
-pprof /usr/local/bin/REAL_EXEC jags.prof

@@ -1,1 +1,0 @@
-import savestate, pickle, __main__\npickle.dump(__main__, open('savestate.pickle', 'wb'), 2)

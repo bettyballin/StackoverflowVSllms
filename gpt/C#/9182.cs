@@ -1,0 +1,1 @@
+using System;\n\nclass Program\n{\n    static void Main()\n    {\n        MyCppWrapper wrapper = new MyCppWrapper();\n        int result = wrapper.MyCppFunction(5, 3);\n        Console.WriteLine("Result: " + result);\n    }\n}

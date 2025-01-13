@@ -1,0 +1,1 @@
+public ref class Hello\n   {\n   // Class definition\n   };

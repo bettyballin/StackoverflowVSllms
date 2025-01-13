@@ -1,0 +1,1 @@
+SELECT P.ProductId, P.ProductType, P.Description, A.AttributeName, A.AttributeValue\nFROM Products P\nLEFT JOIN ProductAttributes A ON P.ProductId = A.ProductId\nWHERE P.ProductType = 'Light Bulb' AND A.AttributeName = 'Wattage' AND A.AttributeValue = '75';

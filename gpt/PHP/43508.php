@@ -1,0 +1,1 @@
+$hook['post_controller_constructor'][] = array(\n    'class'    => 'AuthHook',\n    'function' => 'check_auth',\n    'filename' => 'AuthHook.php',\n    'filepath' => 'hooks'\n);

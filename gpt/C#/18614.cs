@@ -1,0 +1,1 @@
+// Assuming 'dateFromDb' is the DateTime object retrieved from the database\nDateTime dateFromDb = GetDateFromDatabase(); // Replace with your actual method\n\n// Convert the UTC time to local time\nDateTime localDate = dateFromDb.ToLocalTime();\n\n// Bind the 'localDate' to your data grid\nyourDataGrid.ItemsSource = new List<DateTime> { localDate };

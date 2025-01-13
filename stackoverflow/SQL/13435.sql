@@ -1,1 +1,0 @@
-from com.ep.cqprojects.db.Projects\n where active_date - kickoff_meeting_date < 31\n   and month(active_date) - month(kickoff_meeting_date) < 2

@@ -1,1 +1,0 @@
-$this->db->select('field1, ... ,fieldn, count(1) as number_elements_of_row');\n\n$this->db->group_by(array('field_group_1', ... ,'field_group_n'));\n\n$result = $this->db->get('mytable');

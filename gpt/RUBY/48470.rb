@@ -1,0 +1,1 @@
+# In graduate_students_controller\n   session[:graduate_student_data] = some_data\n\n   # In current_students_controller\n   session[:current_student_data] = some_other_data

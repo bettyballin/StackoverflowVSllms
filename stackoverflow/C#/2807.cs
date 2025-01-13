@@ -1,1 +1,0 @@
-[XmlRoot("foo")]\npublic class Foo\n{\n     [XmlAttribute("bar")] \n     public string bar;\n     [XmlAttribute("baz")] \n     public double baz;\n}

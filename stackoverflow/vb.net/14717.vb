@@ -1,1 +1,0 @@
-Private Sub DoSomethingToAllControls(ByVal Container As Control)\n    Dim ctl As Control\n    For Each ctl In Container.Controls\n        ' Do Something..\n\n        ' Recursively call this function for any container controls.\n        If ctl.HasChildren Then\n            DoSomethingToAllControls(ctl)\n        End If\n    Next\nEnd Sub

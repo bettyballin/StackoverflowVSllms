@@ -1,1 +1,0 @@
-<sql ... print="yes" output="temp.properties"\n        expandProperties="true" showheaders="false" showtrailers="false" >\n        <![CDATA[\n        select 'current.sp.version=' || NAME from SERVICE_PACK;\n        select 'current.major.version=' || NAME from VERSION;\n        ]]>\n</sql>

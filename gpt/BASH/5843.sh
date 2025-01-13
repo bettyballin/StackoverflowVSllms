@@ -1,0 +1,1 @@
+sudo yum install xorg-x11-server-Xvfb

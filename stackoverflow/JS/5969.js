@@ -1,1 +1,0 @@
-function validate(){\n    //perform some validation\n    return $("#myTextbox").val()=="";\n}

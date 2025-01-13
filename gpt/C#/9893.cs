@@ -1,0 +1,1 @@
+public ActionResult DisplayHtmlContent()\n{\n    // Assume you have retrieved the HTML content from the database.\n    string htmlContent = "<pre>This is some sample text</pre>";\n\n    // Pass the HTML content to the view using ViewData or ViewBag.\n    ViewData["HtmlContent"] = htmlContent;\n\n    return View();\n}

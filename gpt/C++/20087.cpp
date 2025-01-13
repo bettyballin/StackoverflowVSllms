@@ -1,0 +1,1 @@
+// ExampleClass.h\n#ifndef EXAMPLE_CLASS_H\n#define EXAMPLE_CLASS_H\n\n#ifdef BUILD_DLL\n#define DLL_API __declspec(dllexport)\n#else\n#define DLL_API __declspec(dllimport)\n#endif\n\ntemplate <typename T>\nclass DLL_API ExampleClass {\npublic:\n    ExampleClass(T value);\n    void display();\nprivate:\n    T value;\n};\n\n#endif // EXAMPLE_CLASS_H

@@ -1,0 +1,1 @@
+php bin/laminas module:create <ModuleName>

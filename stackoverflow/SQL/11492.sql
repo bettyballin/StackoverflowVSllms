@@ -1,1 +1,0 @@
-sp_depends <object_name> 

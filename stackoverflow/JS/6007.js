@@ -1,1 +1,0 @@
-function loadResults(){\n  $('div.to.update').load('yourpage.php')\n  setTimeOut(arguments.callee, 10000)\n}\n\nloadResults()

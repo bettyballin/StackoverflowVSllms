@@ -1,1 +1,0 @@
-comment = comment.Replace(System.Environment.NewLine, "<br />");

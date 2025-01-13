@@ -1,0 +1,1 @@
+extern "C" {\n    typedef void (*PluginFunction)();\n\n    struct Plugin {\n        const char* name;\n        PluginFunction initialize;\n        PluginFunction shutdown;\n    };\n\n    __declspec(dllexport) Plugin* getPlugin();\n}

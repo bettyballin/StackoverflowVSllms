@@ -1,0 +1,1 @@
+# Set environment variables in a secure way\n   export DB_USER="your_db_user"\n   export DB_PASSWORD="your_db_password"\n   \n   # Use the variables in your script\n   sqlplus $DB_USER/$DB_PASSWORD@your_database

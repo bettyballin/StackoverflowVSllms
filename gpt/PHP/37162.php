@@ -1,0 +1,1 @@
+// Fetch all rows from the table\n$rows = $table->fetchAll();\n\n// Convert each row to an indexed array\n$indexedRows = array_map(function($row) {\n    return array_values($row->toArray());\n}, $rows->toArray());\n\n// Output the indexed rows\nprint_r($indexedRows);

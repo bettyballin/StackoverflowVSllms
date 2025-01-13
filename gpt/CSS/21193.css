@@ -1,0 +1,1 @@
+#container {\n  text-align: center;\n}\n\n#container someelement {\n  display: inline-block;\n  text-align: left; /* This ensures that the text inside the element is left-aligned */\n}

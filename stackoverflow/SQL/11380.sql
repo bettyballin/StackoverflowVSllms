@@ -1,1 +1,0 @@
-select p.* from Profile p join \n(SELECT UserID, MIN(ProfilePriority) AS ProfilePriority\nFROM Profile\nWHERE ProfileLanguage = 'en-US' OR ProfilePriority = 2\nGROUP BY UserID) tt\non p.userID = tt.UserID and p.ProfilePriority = tt.ProfilePriority

@@ -1,0 +1,1 @@
+from fastdtw import fastdtw\nfrom scipy.spatial.distance import euclidean\n\n# Define two line strings as lists of (latitude, longitude) tuples\nline_string1 = [(lat1, lon1), (lat2, lon2), ...]\nline_string2 = [(latA, lonA), (latB, lonB), ...]\n\n# Calculate the DTW distance\ndistance, path = fastdtw(line_string1, line_string2, dist=euclidean)\n\nprint("DTW Distance:", distance)

@@ -1,0 +1,1 @@
+dism /Unmount-Wim /MountDir:C:\WinPE_x86\Mount /Commit

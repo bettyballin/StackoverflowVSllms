@@ -1,1 +1,0 @@
-sp_configure 'allow updates', 1

@@ -1,0 +1,1 @@
+LOAD DATA\nINFILE 'your_data_file.dat'\nBADFILE 'your_bad_file.bad'\nDISCARDFILE 'your_discard_file.dsc'\nAPPEND\nINTO TABLE your_table\nFIELDS TERMINATED BY "~" OPTIONALLY ENCLOSED BY '"'\n(\n  column1,\n  column2,\n  column3,\n  column4\n)

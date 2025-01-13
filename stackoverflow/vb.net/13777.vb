@@ -1,1 +1,0 @@
-Datagrid.Columns("Zone").DisplayIndex = 0

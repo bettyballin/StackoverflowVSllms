@@ -1,1 +1,0 @@
-Dim dsStuff As New DataSet()\ndsStuff.ReadXml("PathToFile")\n\nDim dvStuff As New DataView(dsStuff.Tables(0))\ndvStuff.Sort = "Name = 'FilteredName'"\n\nddlStuff.DataSource = dvStuff\nddlStuff.DataTextField = "Name"  \nddlStuff.DataValueField = "ID"  \n\nddlStuff.DataBind()

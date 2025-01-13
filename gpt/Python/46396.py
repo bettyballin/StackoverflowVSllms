@@ -1,0 +1,1 @@
+from sklearn.feature_extraction.text import TfidfVectorizer\n    from sklearn.cluster import DBSCAN\n\n    documents = ["news article 1 text", "news article 2 text", ...]\n    vectorizer = TfidfVectorizer(stop_words='english')\n    X = vectorizer.fit_transform(documents)\n\n    dbscan = DBSCAN(eps=0.5, min_samples=5).fit(X)\n    labels = dbscan.labels_

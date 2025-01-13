@@ -1,1 +1,0 @@
-CREATE TABLE `sheetname` (\n`DartNumber` VarChar (16)\n, `ClientId` VarChar (10)\n, `Population` VarChar (30))

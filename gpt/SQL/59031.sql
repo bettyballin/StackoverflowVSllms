@@ -1,0 +1,1 @@
+SELECT LOWER(firstname) AS firstname_lowercase\nFROM Person;

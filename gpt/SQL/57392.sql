@@ -1,0 +1,1 @@
+WITH DirectDescendants AS (\n  SELECT id\n  FROM your_table\n  WHERE parent_id = 3\n)\nSELECT \n  CASE \n    WHEN EXISTS (SELECT 1 FROM DirectDescendants) THEN id\n    ELSE 3\n  END AS children\nFROM DirectDescendants\nUNION\nSELECT 3 AS children\nWHERE NOT EXISTS (SELECT 1 FROM DirectDescendants);

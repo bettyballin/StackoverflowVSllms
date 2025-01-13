@@ -1,1 +1,0 @@
-import os\n\ndef check_pid(pid):        \n    """ Check For the existence of a unix pid. """\n    try:\n        os.kill(pid, 0)\n    except OSError:\n        return False\n    else:\n        return True

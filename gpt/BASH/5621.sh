@@ -1,0 +1,1 @@
+# Install Ruby extension\n   ext install rebornix.ruby\n\n   # Install ruby-irb extension\n   ext install kaiwood.ruby-irb\n\n   # Open an integrated terminal and run IRB\n   irb

@@ -1,0 +1,1 @@
+// Example in Python using Fernet symmetric encryption\n    from cryptography.fernet import Fernet\n\n    key = Fernet.generate_key()\n    cipher_suite = Fernet(key)\n    cipher_text = cipher_suite.encrypt(b"Sensitive data")\n    plain_text = cipher_suite.decrypt(cipher_text)

@@ -1,0 +1,1 @@
+msbuild /t:Package /p:Configuration=Release /p:PackageLocation="C:\path\to\output\MyApp.zip"

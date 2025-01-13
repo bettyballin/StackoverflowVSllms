@@ -1,0 +1,1 @@
+gcc -shared -o w3btrv7.dll w3btrv7.c

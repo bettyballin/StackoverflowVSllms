@@ -1,0 +1,1 @@
+jekyll new myblog\n   cd myblog

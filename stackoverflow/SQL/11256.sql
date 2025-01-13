@@ -1,1 +1,0 @@
-SELECT foo.bar, baz.yoo, count(baz.yoo) over (partition by foo.bar) as yoo_count \nfrom foo, bar\nwhere foo.baz_id = baz.id and baz.id in (...)

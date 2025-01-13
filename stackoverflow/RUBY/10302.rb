@@ -1,1 +1,0 @@
-require 'RMagick'\npdf = Magick::ImageList.new("doc.pdf")\nthumb = pdf.scale(300, 300)\nthumb.write "doc.png"

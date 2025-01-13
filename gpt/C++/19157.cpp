@@ -1,0 +1,1 @@
+#include <iostream>\n\nvoid incrementCounter() {\n    static int counter = 0; // Allocated in the data area\n    counter++;\n    std::cout << "Counter: " << counter << std::endl;\n}\n\nint main() {\n    incrementCounter(); // Output: Counter: 1\n    incrementCounter(); // Output: Counter: 2\n    incrementCounter(); // Output: Counter: 3\n    return 0;\n}

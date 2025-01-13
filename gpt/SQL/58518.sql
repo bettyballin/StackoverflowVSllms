@@ -1,0 +1,1 @@
+SELECT Year, 1 AS Week, Week1 AS Sales FROM SalesData\nUNION ALL\nSELECT Year, 2 AS Week, Week2 AS Sales FROM SalesData\nUNION ALL\nSELECT Year, 3 AS Week, Week3 AS Sales FROM SalesData\n-- ...\nUNION ALL\nSELECT Year, 52 AS Week, Week52 AS Sales FROM SalesData

@@ -1,1 +1,0 @@
-{\n    Name             : 'ObjectName',\n    Host             : 'http://localhost',\n    ImagesPath       : '/Images/',\n    MoreInformation  : {TestString : 'hello world'}\n};\n\n// And to access the nested object property:\nobj.MoreInformation.TestString

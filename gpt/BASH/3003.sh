@@ -1,0 +1,1 @@
+mogrify -path output_directory -resize 800x600 -format jpg *.png

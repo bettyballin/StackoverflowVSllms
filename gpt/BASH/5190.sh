@@ -1,0 +1,1 @@
+#!/bin/bash\n\n   USER_SNIPPETS_PATH="/Users/<YourUsername>/Library/Application Support/SQL Developer/UserSnippets/snippets.xml"\n   BACKUP_PATH="/path/to/backup/snippets.xml"\n\n   cp "$USER_SNIPPETS_PATH" "$BACKUP_PATH"\n   echo "Backup completed successfully."

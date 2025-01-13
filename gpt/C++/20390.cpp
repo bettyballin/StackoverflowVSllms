@@ -1,0 +1,1 @@
+class ClassTest {\n    public:\n        ClassTest() {\n            // Add some code here to ensure it's not optimized out\n            int dummy = 0;\n            dummy++;\n        }\n        void DoIt() {\n            // Implementation of DoIt\n        }\n    };

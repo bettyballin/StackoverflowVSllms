@@ -1,0 +1,1 @@
+#define _GNU_SOURCE\n   #include <link.h>\n\n   unsigned int la_version(unsigned int version) {\n       return LAV_CURRENT;\n   }

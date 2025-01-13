@@ -1,1 +1,0 @@
-foreach($array1 as $id => $sub_array)\n{\n    echo $sub_array['title'];\n    foreach($array2[$id]['tags'] as $tag)\n    {\n        echo $tag;\n    }\n}

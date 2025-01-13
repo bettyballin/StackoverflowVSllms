@@ -1,1 +1,0 @@
-foreach (var position in positions.OrderByDescending(x=>x))\n   list.RemoveAt(position);

@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        RoleService roleService = new RoleService();\n        List<string> roles = roleService.GetOrderedRoles();\n\n        RoleDropDownList.DataSource = roles;\n        RoleDropDownList.DataBind();\n    }\n}

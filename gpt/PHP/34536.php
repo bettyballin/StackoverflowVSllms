@@ -1,0 +1,1 @@
+// index.php or any other file\n$config = include('/path/to/config.php');\n$pdo = new PDO("mysql:host={$config['db_host']};dbname={$config['db_name']}", $config['db_user'], $config['db_pass']);

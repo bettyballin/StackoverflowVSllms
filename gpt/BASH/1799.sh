@@ -1,0 +1,1 @@
+svn propset svn:externals "Lib/Lib1 ^/Libs/Lib1\n   Lib/Lib2 ^/Libs/Lib2\n   Lib/ExtLib1 ^/External/ExtLib1\n   Lib/ExtLib2 ^/External/ExtLib2" /repo/Projects/ProjectA

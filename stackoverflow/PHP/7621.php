@@ -1,1 +1,0 @@
-switch($kind)\n{\n    case 'kind2':\n        // do some stuff for kind2 here\n        break;\n\n    // [...]\n\n    case 'kindn':\n        // do some stuff for kindn here\n        break;\n\n    case 'kind1':\n    default: \n        // Assume kind1\n        $kind = 'kind1';\n\n        break;\n\n}

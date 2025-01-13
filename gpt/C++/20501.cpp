@@ -1,0 +1,1 @@
+#include <stddef.h>  // for size_t\n#include <tchar.h>   // for TCHAR and _tcslen\n\nsize_t i, size = _tcslen(str);    \nfor(i = 0; i < size; i++) {\n   // code here\n}

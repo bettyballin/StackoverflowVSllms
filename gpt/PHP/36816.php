@@ -1,0 +1,1 @@
+<?php\n// Set the include path to DIR\nset_include_path(__DIR__ . '/DIR');\n\n// Now include main.php\ninclude 'main.php';\n?>

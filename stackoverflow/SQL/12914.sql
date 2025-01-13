@@ -1,1 +1,0 @@
-WITH MEMBER [Measures].[Incoming Traffic] AS\n'([Measures].[Total traffic], [Direction].[(All)].[In])'

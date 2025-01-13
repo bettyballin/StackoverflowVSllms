@@ -1,1 +1,0 @@
-Protected Overrides Sub OnInit(ByVal e As System.EventArgs)\n    // this assigns Page_PreLoad as the event handler \n    // for the PreLoad event of the Control's Page property\n    AddHandler Me.Page.PreLoad, AddressOf Page_PreLoad\n    MyBase.OnInit(e)\nEnd Sub\n\nPrivate Sub Page_PreLoad(ByVal sender As Object, ByVal e As System.EventArgs)\n    // do something here\nEnd Sub

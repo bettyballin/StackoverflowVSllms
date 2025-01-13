@@ -1,0 +1,1 @@
+switch (value) {\n    case FOO:  // 'break' inside\n    {\n        int i;\n        doStuff();\n        break;\n    }\n\n    case BAR: // 'break' inside\n    {\n        int i;\n        doStuff();\n        break;\n    }\n\n    default:\n        // default case if needed\n        break;\n}

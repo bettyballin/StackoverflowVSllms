@@ -1,1 +1,0 @@
-DECLARE @name varchar(255)\nSET @name = NULL\n\nselect @Name = COALESCE(@Name + ',','') + LastName from Person.Person\nSelect @name

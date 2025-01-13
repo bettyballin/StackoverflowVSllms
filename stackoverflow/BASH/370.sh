@@ -1,1 +1,0 @@
-system("file -bi $uploadedfile")

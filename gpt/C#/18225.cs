@@ -1,0 +1,1 @@
+public void ConfigureServices(IServiceCollection services)\n{\n    services.AddDbContext<ApplicationDbContext>(options =>\n        options.UseSqlServer(Configuration.GetConnectionString("LocalSQLServer")));\n    \n    // For Azure SQL Database, use the Azure connection string\n    // options.UseSqlServer(Configuration.GetConnectionString("AzureSQLDatabase"));\n}

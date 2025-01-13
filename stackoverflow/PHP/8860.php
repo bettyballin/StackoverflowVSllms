@@ -1,1 +1,0 @@
-public boolean offsetExists  ( string $offset  )\npublic mixed offsetGet ( string $offset )\npublic void offsetSet ( string $offset , string $value )\npublic void offsetUnset ( string $offset )

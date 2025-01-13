@@ -1,1 +1,0 @@
-DECLARE\n    @old_name   VARCHAR(100),\n    @new_name   VARCHAR(100)\n\nSET @old_name = 'tblFoo'\nSET @new_name = 'tblFooBar'\n\nSELECT\n    'EXEC sp_rename ''' + name + ''', ''' + REPLACE(name, @old_name, @new_name) + ''''\nFROM dbo.sysobjects\nWHERE name LIKE '%' + @old_name + '%'

@@ -1,1 +1,0 @@
-UPDATE db1.table\nJOIN   db2.table\nON     db1.table.id = db2.table.id\nSET    db1.table.name = db2.table.name, \n       db1.table.address = db2.table.address

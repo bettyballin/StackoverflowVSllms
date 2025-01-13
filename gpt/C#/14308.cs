@@ -1,0 +1,1 @@
+protected void Application_Start()\n    {\n        HttpCookie sessionStateCookie = new HttpCookie("ASP.NET_SessionId");\n        sessionStateCookie.SameSite = SameSiteMode.Strict; // or SameSiteMode.Lax based on your requirement\n        Response.Cookies.Add(sessionStateCookie);\n    }

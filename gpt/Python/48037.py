@@ -1,0 +1,1 @@
+[('23 Street', 'road'), ('213', 'house_number'), ('new york', 'city'), ('ny', 'state')]

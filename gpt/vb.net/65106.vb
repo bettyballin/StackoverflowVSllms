@@ -1,0 +1,1 @@
+' For single (float)\nDim bytesSingle() As Byte = {0, 0, 128, 63}\nDim resultSingle As Single = BitConverter.ToSingle(bytesSingle, 0)\nConsole.WriteLine(resultSingle)\n\n' For double\nDim bytesDouble() As Byte = {0, 0, 0, 0, 0, 0, 240, 63}\nDim resultDouble As Double = BitConverter.ToDouble(bytesDouble, 0)\nConsole.WriteLine(resultDouble)

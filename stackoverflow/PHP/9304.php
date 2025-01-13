@@ -1,1 +1,0 @@
-/* @var $objs Test[] */\nforeach ($objs as $obj) {\n    // Typehinting will occur after typing $obj->\n}

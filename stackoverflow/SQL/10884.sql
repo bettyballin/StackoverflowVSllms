@@ -1,1 +1,0 @@
-SELECT *\nFROM categories AS child\nLEFT JOIN categories AS parent ON parent.id=child.parent\nLEFT JOIN categories AS grandparent ON grandparent.id=parent.parent\nWHERE child.id=(id) OR parent.id=(id) OR grandparent.id=(id);

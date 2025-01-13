@@ -1,1 +1,0 @@
-DwrService.getThings({\n  callback:function(things){\n    for(thing in things){\n      YAHOO.augmentProto(thing, my.beautiful.package.MyClass);\n    }\n    // do your stuff here\n  }\n});

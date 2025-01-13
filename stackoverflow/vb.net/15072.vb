@@ -1,1 +1,0 @@
-Dim loTupleExistingKeys = from t in m_losSPResults Select t.key3, t.key4

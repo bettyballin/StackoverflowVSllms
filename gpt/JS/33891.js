@@ -1,0 +1,1 @@
+// Check if Mapstraction is still maintained and compatible with your project requirements\n\nvar mapstraction = new Mapstraction('map', 'google');\nmapstraction.addControls({\n  pan: true,\n  zoom: 'large',\n  map_type: true\n});\nmapstraction.setCenterAndZoom(new LatLonPoint(37.7749, -122.4194), 13); // San Francisco

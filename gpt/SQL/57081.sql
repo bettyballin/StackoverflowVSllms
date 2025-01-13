@@ -1,0 +1,1 @@
+run {\n     shutdown immediate;  -- Shut down the database\n     startup mount;       -- Start the database in mount mode\n     allocate channel c1 device type disk;\n     restore database from '/path/to/backup/db_*.bkp';\n     recover database;    -- Apply the redo logs\n     alter database open resetlogs;  -- Open the database with reset logs\n     release channel c1;\n   }

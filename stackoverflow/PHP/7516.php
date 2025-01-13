@@ -1,1 +1,0 @@
-class Template {\n  function Parse($model) {\n    ob_start();\n    require '/var/www/template.html.php'; // I wouldn't use absolute paths\n    $return = ob_get_clean();\n  }\n}

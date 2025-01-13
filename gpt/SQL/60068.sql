@@ -1,0 +1,1 @@
+SELECT *\n    FROM customer\n    WHERE CONTAINS(fname, 'someName');

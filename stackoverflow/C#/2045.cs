@@ -1,1 +1,0 @@
-Cache.Insert("MyCacheKey", myObjectToCache, null, DateTime.Now.AddDays(1), null);

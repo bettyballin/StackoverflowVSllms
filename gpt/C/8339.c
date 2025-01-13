@@ -1,0 +1,1 @@
+#include <stdio.h>\n\ntypedef int Int32;\n\nint main() {\n    Int32 status;\n\n    #pragma GCC diagnostic push\n    #pragma GCC diagnostic ignored "-Wformat"\n    printf("status: %x", status);\n    #pragma GCC diagnostic pop\n\n    return 0;\n}

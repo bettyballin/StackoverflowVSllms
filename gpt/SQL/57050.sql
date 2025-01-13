@@ -1,0 +1,1 @@
+expdp username/password@dbservice schemas=schema_name directory=DATA_PUMP_DIR dumpfile=export.dmp logfile=export.log

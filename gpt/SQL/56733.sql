@@ -1,0 +1,1 @@
+SELECT \n    e.primary AS username, \n    e.eventDate \nFROM \n    eventcal e \nJOIN \n    users u ON e.primary = u.username \nWHERE \n    MONTH(e.eventDate) BETWEEN 8 AND 12 \n    OR MONTH(e.eventDate) BETWEEN 1 AND 5;

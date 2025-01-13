@@ -1,1 +1,0 @@
-Uri uri = new Uri("http://www.mywebsite.com:80/pages/page1.aspx");\nstring requested = uri.Scheme + Uri.SchemeDelimiter + uri.Host + ":" + uri.Port;

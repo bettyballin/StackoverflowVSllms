@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        // Example array of image URLs\n        string[] imageUrls = {\n            "url1.jpg",\n            "url2.jpg",\n            "url3.jpg",\n            // Add more URLs as needed\n        };\n\n        // Bind the image URLs to the DataList\n        BindImages(imageUrls);\n    }\n}

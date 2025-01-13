@@ -1,1 +1,0 @@
-SELECT s.name, c.className, (s.id_class = c.id_class) AS is_current\nFROM s JOIN many_to_many AS mtm ON (s.id_student = mtm.id_student)\n  JOIN c ON (c.id_class = mtm.id_class);

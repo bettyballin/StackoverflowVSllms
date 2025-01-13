@@ -1,0 +1,1 @@
+class Upload < ApplicationRecord\n      mount_uploader :file, FileUploader\n    end

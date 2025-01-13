@@ -1,0 +1,1 @@
+# myapp/test_runner.py\n\nfrom django.test.runner import DiscoverRunner\n\nclass NoDbTestRunner(DiscoverRunner):\n    """A test runner to use the existing database schema."""\n\n    def setup_databases(self, **kwargs):\n        pass  # Disable database creation\n\n    def teardown_databases(self, old_config, **kwargs):\n        pass  # Disable database teardow

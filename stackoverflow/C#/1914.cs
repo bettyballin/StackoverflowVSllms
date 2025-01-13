@@ -1,1 +1,0 @@
-var query = myDataContext.ChapterMeeting\n  .GroupBy(cm => cm.ChapterID)\n  .Select(g => new {\n      g.Key,\n      MinMeetingDate = g.Min(cm => cm.MeetingDate)\n  });

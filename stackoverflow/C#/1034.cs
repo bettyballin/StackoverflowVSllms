@@ -1,1 +1,0 @@
-namespace MyApps.Migrations\n{\n    public class _001_Initial : Migration\n    {\n        public override void Up()\n        {\n            //Execute your upgrade query here\n        }\n        public override void Down()\n        {\n            //Execute your downgrade query here\n        }\n    }\n}

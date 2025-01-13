@@ -1,0 +1,1 @@
+<!-- app/views/assets/edit.js.erb -->\n$('#preview').html('<%= j render("edit_form", asset: @asset) %>');

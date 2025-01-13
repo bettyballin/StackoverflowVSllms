@@ -1,0 +1,1 @@
+amespace ns {\n    class A {};\n}

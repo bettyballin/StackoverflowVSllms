@@ -1,0 +1,1 @@
+sudo nano /etc/ppp/ip-up.d/route-setup

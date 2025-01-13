@@ -1,0 +1,1 @@
+using System;\nusing System.Linq;\n\nclass Program\n{\n    static void Main()\n    {\n        int[] numbers = { 1, 2, 3, 4, 5 };\n\n        // Lambda expression to define a condition\n        var evenNumbers = numbers.Where(n => n % 2 == 0);\n\n        foreach (var num in evenNumbers)\n        {\n            Console.WriteLine(num);\n        }\n    }\n}

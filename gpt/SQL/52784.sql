@@ -1,0 +1,1 @@
+SELECT child.*\nFROM nested_category AS parent\nJOIN nested_category AS child ON child.parent_id = parent.id\nWHERE parent.id = ?;

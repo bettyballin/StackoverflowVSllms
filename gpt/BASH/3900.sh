@@ -1,0 +1,1 @@
+cd <local_checkout_directory>\n   svn status

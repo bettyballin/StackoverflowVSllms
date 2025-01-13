@@ -1,0 +1,1 @@
+public class GameMap : ClassMap<Game>\n{\n    public GameMap()\n    {\n        Id(x => x.Id);\n        References(x => x.Event)\n            .Fetch.Select()\n            .BatchSize(10); // Adjust batch size as needed\n        // Other mappings...\n    }\n}

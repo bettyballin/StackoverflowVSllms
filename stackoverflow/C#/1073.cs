@@ -1,1 +1,0 @@
-public void Each<T>(IEnumerable<T> items, Action<T> action)\n{\n    foreach (var item in items)\n        action(item);\n}

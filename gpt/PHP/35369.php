@@ -1,0 +1,1 @@
+// See the __get() example above for usage.

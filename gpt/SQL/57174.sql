@@ -1,0 +1,1 @@
+CREATE INDEX idx_page_page_id ON page(page_id);\nCREATE INDEX idx_pagelinks_pl_from ON pagelinks(pl_from);

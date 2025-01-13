@@ -1,0 +1,1 @@
+if (preg_match("/^#[0-9A-F]{6}$/i", $sColor)) {\n    // The color is valid\n}

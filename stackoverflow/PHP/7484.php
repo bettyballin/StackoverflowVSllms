@@ -1,1 +1,0 @@
-// escaped\npreg_replace('/((www|http:\/\/)[^ ]+)/', '<a href="\1">\1</a>', $str);\n\n// another delimiter, '@'\npreg_replace('@((www|http://)[^ ]+)@', '<a href="\1">\1</a>', $str);

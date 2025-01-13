@@ -1,0 +1,1 @@
+/* styles.css.twig */\nbody {\n    background-color: {{ background_color }};\n    color: {{ text_color }};\n}

@@ -1,0 +1,1 @@
+var query = from row in myTable\n            group row by row.title into g\n            select new \n            {\n                Title = g.Key,\n                CountF1 = g.Count(r => r.f1 == 1),\n                CountF2 = g.Count(r => r.f2 == 1),\n                CountF3 = g.Count(r => r.f3 == 1)\n            };\n\nvar result = query.ToList();

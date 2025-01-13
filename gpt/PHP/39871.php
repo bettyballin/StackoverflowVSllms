@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\nif (isset($_SESSION['progress'])) {\n    echo json_encode(array('progress' => $_SESSION['progress']));\n} else {\n    echo json_encode(array('progress' => 0));\n}\n?>

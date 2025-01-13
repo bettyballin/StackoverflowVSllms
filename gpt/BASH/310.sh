@@ -1,0 +1,1 @@
+chmod +x send_sms.php

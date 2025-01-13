@@ -1,0 +1,1 @@
+FilterExpression="CONVERT(varchar, UserID) LIKE '%{0}%' OR UserName LIKE '%{0}%' OR FirstName LIKE '%{0}%' OR LastName LIKE '%{0}%' OR JoinDate LIKE '%{0}%' OR Region LIKE '%{0}%' OR City LIKE '%{0}%' OR SponsorName LIKE '%{0}%'"

@@ -1,0 +1,1 @@
+RESTORE DATABASE [YourDatabaseName]\nFROM DISK = '\\NetworkPath\YourBackupFile.bak'\nWITH MOVE 'LogicalDataFileName' TO 'C:\Program Files\Microsoft SQL Server\MSSQL\Data\YourDatabaseName.mdf',\n     MOVE 'LogicalLogFileName' TO 'C:\Program Files\Microsoft SQL Server\MSSQL\Data\YourDatabaseName_log.ldf',\n     REPLACE;

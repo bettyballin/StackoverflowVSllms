@@ -1,1 +1,0 @@
-ORDER BY datetime DESC

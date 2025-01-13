@@ -1,1 +1,0 @@
-SELECT  (\n        SELECT COUNT(*)\n        FROM   tab1\n        ) AS count1,\n        (\n        SELECT COUNT(*)\n        FROM   tab2\n        ) AS count2\nFROM    dual

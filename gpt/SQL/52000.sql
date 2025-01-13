@@ -1,0 +1,1 @@
+SELECT \n    DateOfBirth, \n    (YEAR(GETDATE()) - YEAR(DateOfBirth)) - \n    CASE \n        WHEN MONTH(GETDATE()) < MONTH(DateOfBirth) OR \n             (MONTH(GETDATE()) = MONTH(DateOfBirth) AND DAY(GETDATE()) < DAY(DateOfBirth)) \n        THEN 1 \n        ELSE 0 \n    END AS Age\nFROM \n    YourTableName;

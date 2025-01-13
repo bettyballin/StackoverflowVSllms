@@ -1,0 +1,1 @@
+sudo apt install build-essential dkms\nsudo apt install virtualbox-guest-dkms virtualbox-guest-x11

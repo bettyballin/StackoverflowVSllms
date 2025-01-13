@@ -1,1 +1,0 @@
-<?php\n$f = fopen('sample.txt', 'r');\n$lineNo = 0;\n$startLine = 3;\n$endLine = 6;\nwhile ($line = fgets($f)) {\n    $lineNo++;\n    if ($lineNo >= $startLine) {\n        echo $line;\n    }\n    if ($lineNo == $endLine) {\n        break;\n    }\n}\nfclose($f);

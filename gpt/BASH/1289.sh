@@ -1,0 +1,1 @@
+list_sources:\n       @$(MAKE) -n | grep -E '\.c|\.cpp|\.h' | sed 's/.* //g' | sort | uniq > source_files.txt

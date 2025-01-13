@@ -1,1 +1,0 @@
-select\n  count(count_col),\n  alias_column\nfrom\n  (\n  select \n    count_col, \n    (select value from....) as alias_column \n  from \n    table\n  ) as inline\ngroup by \n  alias_colum

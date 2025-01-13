@@ -1,0 +1,1 @@
+CREATE LOGIN [LoginName] WITH PASSWORD = 'StrongPassword';

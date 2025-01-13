@@ -1,0 +1,1 @@
+using System.IO;\nusing OfficeOpenXml;\n\npublic void ProtectExcel(string inputFile, string outputFile, string password)\n{\n    FileInfo fileInfo = new FileInfo(inputFile);\n    using (ExcelPackage package = new ExcelPackage(fileInfo))\n    {\n        package.Workbook.Protection.SetPassword(password);\n        package.SaveAs(new FileInfo(outputFile));\n    }\n}

@@ -1,0 +1,1 @@
+bindiff first.idb second.idb

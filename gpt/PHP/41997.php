@@ -1,0 +1,1 @@
+<?php\nsession_start();\nsession_regenerate_id(true); // Regenerate session ID to prevent session fixation\nini_set('session.cookie_secure', true); // Ensure the session cookie is sent over HTTPS\nini_set('session.cookie_httponly', true); // Prevent JavaScript from accessing session cookie\n?>

@@ -1,0 +1,1 @@
+# Restart IIS to apply changes\niisreset

@@ -1,0 +1,1 @@
+Public Class HelloWorld\n    Public Shared Sub Main()\n        Console.WriteLine("Hello, World!")\n    End Sub\nEnd Class

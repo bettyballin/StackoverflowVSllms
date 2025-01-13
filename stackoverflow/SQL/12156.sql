@@ -1,1 +1,0 @@
-SELECT Col.Column_Name from \n    INFORMATION_SCHEMA.TABLE_CONSTRAINTS Tab, \n    INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE Col \nWHERE \n    Col.Constraint_Name = Tab.Constraint_Name\n    AND Col.Table_Name = Tab.Table_Name\n    AND Tab.Constraint_Type = 'PRIMARY KEY'\n    AND Col.Table_Name = '<your table name>'

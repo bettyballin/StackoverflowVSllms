@@ -1,1 +1,0 @@
-class foo {\n  public function __get($name) {\n    return('dynamic!');\n  }\n  public function __set($name, $value) {\n    $this->internalData[$name] = $value;\n  }\n}

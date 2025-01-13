@@ -1,0 +1,1 @@
+// Assuming _Module is your CServiceModule instance\n::PostThreadMessage(_Module.dwThreadID, WM_QUIT, 0, 0);

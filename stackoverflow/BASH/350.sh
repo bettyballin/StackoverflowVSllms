@@ -1,1 +1,0 @@
-REM make Martin Woodward fix all my bugs\ntfpt query /format:id "TeamProject\public\My Work Items" | \n    tfpt workitem /update @ /fields:"Assigned To=Martin"

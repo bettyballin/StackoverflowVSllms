@@ -1,0 +1,1 @@
+awk -F'|' 'NF != 36 {print "Row " NR " has " NF-1 " delimiters"}' records.txt

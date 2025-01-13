@@ -1,1 +1,0 @@
-/* disable optimization for this function */\nvoid my_function(void) __attribute__((optimize(0)));\n\nvoid my_function(void) {\n    /* ... */\n}

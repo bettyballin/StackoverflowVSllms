@@ -1,0 +1,1 @@
+var headers = new air.URLRequestHeader("Content-Type", "application/x-www-form-urlencoded");\n   myRequest.requestHeaders.push(headers);

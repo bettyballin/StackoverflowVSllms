@@ -1,1 +1,0 @@
-while (!items.isEmpty()) {\n  rowRemain = m;\n  rowContents = [];\n  while (!items.isEmpty() && rowRemain > items[0].width) {\n    i = items.shift();\n    rowRemain -= i.width\n    rowContents.push(i);\n  }\n  rows.push(rowContents);\n}

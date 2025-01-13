@@ -1,0 +1,1 @@
+set SVN_SSH=C:\Path\To\PuTTY\plink.exe

@@ -1,1 +1,0 @@
-RewriteCond %{HTTP_COOKIE} PHPSESSID=([a-zA-Z0-9]+)\nRewriteCond %{REQUEST_FILENAME} %{REQUEST_FILENAME}-%1.html\nRewriteRule ^ %{REQUEST_FILENAME}-%1.html

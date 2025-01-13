@@ -1,1 +1,0 @@
-HttpWebRequest request = (HttpWebRequest)WebRequest.Create(address);\n\nSystem.Diagnostics.Stopwatch timer = new Stopwatch();\ntimer.Start();\n\nHttpWebResponse response = (HttpWebResponse)request.GetResponse();\n\ntimer.Stop();\n\nTimeSpan timeTaken = timer.Elapsed;

@@ -1,0 +1,1 @@
+function set_cache($key, $value, $ttl = 3600) {\n    $db = initialize_cache_db();\n    $stmt = $db->prepare("REPLACE INTO cache (key, value, timestamp) VALUES (:key, :value, :timestamp)");\n    $stmt->execute([\n        ':key' => $key,\n        ':value' => $value,\n        ':timestamp' => time() + $ttl\n    ]);\n}

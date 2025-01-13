@@ -1,0 +1,1 @@
+[HttpPost]\n    public IActionResult AddItems([FromBody] Dictionary<string, string> values)\n    {\n        // do something with the dictionary\n        return Json(new { success = true });\n    }

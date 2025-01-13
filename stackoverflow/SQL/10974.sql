@@ -1,1 +1,0 @@
-SELECT e.*, ISNULL(ec.TotalRegistrants, 0) FROM events e LEFT OUTER JOIN\n(\n   SELECT event_id, Count(registrant_id) AS TotalRegistrants\n   FROM registrant_event\n   GROUP BY event_id\n) ec ON e.id  = ec.event_id

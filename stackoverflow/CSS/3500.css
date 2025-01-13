@@ -1,1 +1,0 @@
-#overlay_div {\nposition: absolute;\ntop: 0;\nbottom: 0;\nleft: 0;\nright: 0;\nbackground-color: #000;\n}\n\n#overlay_div #logindiv {\nposition: absolute;\ntop: 50%;\nleft:50%;\nheight: 20em;\nwidth: 40em;\nmargin: -10em 0 0 -20em;\nbackground-color: #fff;\n}

@@ -1,1 +1,0 @@
-Dim result = Regex.Replace(input, "(\d)\s*:\s*(\d)", "$1:$2")

@@ -1,1 +1,0 @@
-echo 'main(){puts("hello");}' | tcc -run -

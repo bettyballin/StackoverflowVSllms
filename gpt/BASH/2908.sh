@@ -1,0 +1,1 @@
+procdump -ma 1234 C:\Dumps\ProcessDump.dmp

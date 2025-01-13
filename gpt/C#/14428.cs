@@ -1,0 +1,1 @@
+dateTimePicker1.Format = DateTimePickerFormat.Custom;\ndateTimePicker1.CustomFormat = "MMMM dd yyyy";

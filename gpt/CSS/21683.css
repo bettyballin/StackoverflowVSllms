@@ -1,0 +1,1 @@
+#stories li a {color:red}    /* ID selector - specificity: 1-0-0 */\n.default li.expand a {color:green}    /* Class selectors - specificity: 0-2-0 */\nli.expand a {color:blue}    /* Type and class selectors - specificity: 0-1-1 */

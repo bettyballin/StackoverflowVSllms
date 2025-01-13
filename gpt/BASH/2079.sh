@@ -1,0 +1,1 @@
+cd <web_root>\n   svn add --force .\n   svn commit -m "Your commit message"

@@ -1,0 +1,1 @@
+Private Sub ShowMyForm()\n    ' Create a new instance of the form\n    myForm = New Form()\n\n    ' Add your controls and set properties here\n\n    ' Show the form\n    myForm.Show()\nEnd Sub

@@ -1,0 +1,1 @@
+./configure --prefix=/usr/local/python2.5 --enable-shared --with-gcc\nmake\nmake install

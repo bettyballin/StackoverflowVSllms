@@ -1,1 +1,0 @@
-SELECT t1.LogEntryID, t1.Value, t1.ThresholdID, \n    case when t1.Value < t2.threshold then 1 else 0 end as Rank\nFROM Table1 t1 \nINNER JOIN Table2 t2 ON t1.ThresholdID = t2.ThresholdID \nORDER By Rank

@@ -1,1 +1,0 @@
-private _$PropertyName$ As $PropertyType$\nPublic WriteOnly Property $PropertyName$() As $PropertyType$\n     Set(ByVal value as $PropertyType$)\n          _$PropertyName$ = value\n     End Set\nEnd Property $Enter$

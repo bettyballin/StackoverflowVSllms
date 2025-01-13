@@ -1,0 +1,1 @@
+if (fileUpload.HasFile) {\n        string fileName = Path.GetFileName(fileUpload.FileName);\n        string path = Server.MapPath("~/uploads/" + fileName);\n        fileUpload.SaveAs(path);\n    }

@@ -1,0 +1,1 @@
+tlbimp YourVb6Dll.dll /out:Interop.YourVb6Dll.dll

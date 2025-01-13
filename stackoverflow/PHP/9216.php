@@ -1,1 +1,0 @@
-foreach($arr as $k1 => $v1) {\n  foreach ($v1 as $k2 => $v2) {\n    $newArray[$k2][$k1] = $v2\n  }\n}

@@ -1,1 +1,0 @@
-The <value expression>s are effectively evaluated for each row\n              of T before updating any row of T.

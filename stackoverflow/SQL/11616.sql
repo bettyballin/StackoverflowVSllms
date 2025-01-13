@@ -1,1 +1,0 @@
-SELECT T1.AcountNo, T1.Balance, T2.Balance, \n       DECODE( NVL(T2.Balance, 0), 0, 0, T1.Balance, T2.Balance)\nFROM Temp1 T1, Temp2 T2 \nWHERE T1.AccountNo = T2.AccountNo \n  AND ((T1.Balance / T2.Balance > 1.1) OR (T1.Balance / T2.Balance < 0.9))

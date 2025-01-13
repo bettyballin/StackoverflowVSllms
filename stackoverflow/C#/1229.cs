@@ -1,1 +1,0 @@
-IEnumerable<int> myRange = Enumerable.Range(1, 10);

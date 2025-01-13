@@ -1,0 +1,1 @@
+<%= link_to 'Log out', session_path, method: :delete, data: { confirm: 'Are you sure you want to log out?' } %>

@@ -1,0 +1,1 @@
+# Create the initial CSV file\necho 'one, two, three' > testfile.csv\n\n# Insert the header line at the beginning of the file\nsed -i '1icolumn1, column2, column3' testfile.csv

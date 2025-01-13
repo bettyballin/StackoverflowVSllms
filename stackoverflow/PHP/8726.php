@@ -1,1 +1,0 @@
-string mysql_get_host_info  ([ resource $link_identifier  ] )

@@ -1,0 +1,1 @@
+ini_set('memory_limit', '256M'); // Adjust the memory limit as needed\n\nob_start();\n\n// Business Logic, etc\n\nheader->output();\necho apply_post_filter(ob_get_clean());\nfooter->output();

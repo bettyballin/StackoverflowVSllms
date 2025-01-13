@@ -1,0 +1,1 @@
+$smarty->assign('variable', 'This is a value assigned from PHP.');\n$smarty->display('your_template.tpl');

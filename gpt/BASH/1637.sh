@@ -1,0 +1,1 @@
+java -jar my_project.jar

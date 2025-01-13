@@ -1,1 +1,0 @@
-select\n    t.cd,\n    t.stdate,\n    t.enddate,\n    sum(t.pr)\nfrom\n    table t\ngroup by\n    t.cd,\n    t.stdate,\n    t.enddate

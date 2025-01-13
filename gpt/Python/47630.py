@@ -1,0 +1,1 @@
+my_map = {'a': 1, 'b': 2}\n\ninv_map = {v: k for k, v in my_map.items()}\n\nprint(inv_map)  # Output: {1: 'a', 2: 'b'}

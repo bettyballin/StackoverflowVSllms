@@ -1,0 +1,1 @@
+<?php\n// Set the 404 header\nhttp_response_code(404);\n\n// Display your custom 404 error page\ninclude('path/to/error/notfound.php');\nexit;\n?>

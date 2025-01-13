@@ -1,1 +1,0 @@
-<?php\n\nif (ob_get_level() == 0) ob_start();\n\n$test = Array('one','two','three','four');\nforeach ($test as $key=>$val)\n{\n    echo $test;\n    ob_flush();\n    flush();\n}\n\nob_end_flush();\n\n?>

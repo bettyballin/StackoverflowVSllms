@@ -1,0 +1,1 @@
+var a = 10;\nvar b = 20;\nvar sum = a + b;\nconsole.log("The sum of a and b is: " + sum);

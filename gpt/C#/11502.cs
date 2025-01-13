@@ -1,0 +1,1 @@
+IDictionary<Guid, int> sessionMap = new Dictionary<Guid, int>();\n\n// Populate this map when sessions are created/updated\nsessionMap[sessionGuid] = sessionId;\n\n// Use it to find the session ID from the GUID\nint sessionId;\nif (sessionMap.TryGetValue(sessionGuid, out sessionId))\n{\n    // Use sessionId for further operations\n}

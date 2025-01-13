@@ -1,0 +1,1 @@
+$dir = 'path/to/your/folder/'; // Make sure this is the server path to your folder\n\n// Fetch all jpg files from the directory\n$images_array = glob($dir . '*.jpg');\n\n// Loop through the array and display each image\nforeach ($images_array as $image) {\n    $image_url = str_replace($_SERVER['DOCUMENT_ROOT'], '', $image);\n    echo '<img src="' . $image_url . '" />';\n}

@@ -1,0 +1,1 @@
+$wgGroupPermissions['*']['edit'] = false;\n    $wgGroupPermissions['user']['edit'] = true;\n    $wgGroupPermissions['Human Resource']['edit'] = true;\n    $wgGroupPermissions['*']['createaccount'] = false;\n    $wgGroupPermissions['*']['read'] = false;\n    $wgWhitelistRead = array("Main Page", "Special:Userlogin", "-", "MediaWiki:Monobook.css");

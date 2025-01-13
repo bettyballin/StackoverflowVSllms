@@ -1,0 +1,1 @@
+SPSecurity.RunWithElevatedPrivileges(delegate()\n{\n    using (SPSite site = new SPSite("http://yoursitecollectionurl"))\n    {\n        using (SPWeb web = site.OpenWeb())\n        {\n            // Perform actions with elevated privileges\n        }\n    }\n});

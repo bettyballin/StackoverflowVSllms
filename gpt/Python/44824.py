@@ -1,0 +1,1 @@
+# Example usage of PyPy for speed improvements\nimport time\n\ndef compute():\n    return sum(range(10**7))\n\nstart_time = time.time()\nresult = compute()\nend_time = time.time()\n\nprint("Result:", result)\nprint("Elapsed time:", end_time - start_time)

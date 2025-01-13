@@ -1,0 +1,1 @@
+def find_indices(i, M):\n    r = row_index(i, M)\n    c = column_index(i, M)\n    return r, c\n\n# Example usage:\nM = 4\ni = 9\nrow, col = find_indices(i, M)\nprint(f"row_index({i}, {M}) = {row}")  # Output: 3\nprint(f"column_index({i}, {M}) = {col}")  # Output: 3

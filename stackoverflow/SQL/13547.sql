@@ -1,1 +1,0 @@
-WITH NumberedMyTable AS\n(\n    SELECT\n        Id,\n        Value,\n        ROW_NUMBER() OVER (ORDER BY Id) AS RowNumber\n    FROM\n        MyTable\n)\nSELECT\n    Id,\n    Value\nFROM\n    NumberedMyTable\nWHERE\n    RowNumber BETWEEN @From AND @To

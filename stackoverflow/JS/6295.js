@@ -1,1 +1,0 @@
-// Update <link> \nvar headLink = $('rssHead1'); \nif(headLink) { headLink.remove(); }\nheadLink = new Element('link', {\n  'id': 'rssHead1',\n  'type': 'application/rss+xml',\n  'rel': 'alternate',\n  'href': serverResponse.rssLink,\n  'title': 'Monitor this search'\n});\n$$('head').first().insert({bottom: headLink});

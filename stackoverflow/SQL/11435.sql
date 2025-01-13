@@ -1,1 +1,0 @@
-SQL> alter session set nls_date_format = 'yyyy-mm-dd :hh24:mi:ss';\n\nSession changed.\n\nSQL> select sysdate from dual;\n\nSYSDATE\n--------------------\n2008-12-19 :12:18:28\n\nSQL> select (round(sysdate) + 1/24) + 1  from dual;\n\n(ROUND(SYSDATE)+1/24\n--------------------\n2008-12-21 :01:00:00

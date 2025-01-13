@@ -1,1 +1,0 @@
-myFile=open(r'C:\NEWMASTERLIST\FULLLIST.txt','r+')

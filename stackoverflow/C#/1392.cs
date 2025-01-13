@@ -1,1 +1,0 @@
-IE. Session["isActive"] = true;

@@ -1,0 +1,1 @@
+class MyClass {\npublic:\n    MyClass* operator&() {\n        return this; // Example implementation\n    }\n};\n\nvoid foo(MyClass* ptr) {\n    // Do something with ptr\n}\n\nint main() {\n    MyClass obj;\n    foo(&obj); // Correctly uses the overloaded operator&\n}

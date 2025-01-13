@@ -1,0 +1,1 @@
+# Example of UDP socket creation in Python with IPv6\n    import socket\n    udp_socket = socket.socket(socket.AF_INET6, socket.SOCK_DGRAM)\n    udp_socket.bind(("::", 12345))

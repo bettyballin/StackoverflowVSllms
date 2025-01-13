@@ -1,0 +1,1 @@
+// Spinlock using Test-and-Set\n   int lock = 0;\n\n   void acquire_lock() {\n       while (__sync_lock_test_and_set(&lock, 1)) {\n           // Busy-wait (spin) until the lock is acquired\n       }\n   }\n\n   void release_lock() {\n       __sync_lock_release(&lock);\n   }

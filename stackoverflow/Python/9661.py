@@ -1,1 +1,0 @@
-for i in xrange(100000):\n    print i

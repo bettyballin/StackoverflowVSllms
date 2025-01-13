@@ -1,1 +1,0 @@
-$(function() {\n    $("tr").hover(function() {\n       var id = this.id.split('_').pop();\n       $("#remove_" + id).show();\n    }, function() {\n       var id = this.id.split('_').pop();\n       $("#remove_" + id).hide();\n    });\n});

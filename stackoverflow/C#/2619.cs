@@ -1,1 +1,0 @@
-void Test1(string param)\n{\n    param = "new value";\n}\n\nstring s1 = "initial value";\nTest1(s1);\n// s1 == "initial value"

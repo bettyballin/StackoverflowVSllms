@@ -1,0 +1,1 @@
+string needle = "example";\nforeach (FooObj foo in _list)\n{\n    if (foo.Name == needle)\n        return foo;\n}

@@ -1,0 +1,1 @@
+@Html.ActionLink("Link Text", "ActionName", "ControllerName", New With {.id = 123}, Nothing)

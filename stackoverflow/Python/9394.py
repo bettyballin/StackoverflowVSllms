@@ -1,1 +1,0 @@
-def sanitized(func):\n    def sfunc(*args, **kwds):\n        return func(*[arg or '' for arg in args],\n                    **dict((k, v or '') for k,v in kwds.iteritems()))\n    sfunc.func_name = func.func_name\n    sfunc.func_doc = func.func_doc\n    return sfunc

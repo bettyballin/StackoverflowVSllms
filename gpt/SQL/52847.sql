@@ -1,0 +1,1 @@
+INSERT INTO another_table (column1, column2, ..., columnN)\nSELECT column1, column2, ..., columnN\nFROM your_table\nWHERE action LIKE 'bse%';

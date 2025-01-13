@@ -1,0 +1,1 @@
+// mylib.cpp\n   #include <iostream>\n\n   extern "C" void hello() {\n       std::cout << "Hello, world!" << std::endl;\n   }

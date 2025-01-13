@@ -1,1 +1,0 @@
->>> def magic(left, op, right):\n...     return op(left, right)\n...\n>>> magic(5, (lambda a, b: a == b), 5)\nTrue\n>>> magic(5, (lambda a, b: a == b), 4)\nFalse

@@ -1,0 +1,1 @@
+<script id="person-template" type="text/x-handlebars-template">\n  <span>{{f_name}} {{l_name}}</span><br/>\n  Your Age Is: {{age}}<br/>\n</script>

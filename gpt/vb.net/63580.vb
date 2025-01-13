@@ -1,0 +1,1 @@
+Imports MyNamespace\n\n   Public Class _Default\n       Inherits System.Web.UI.Page\n\n       Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load\n           Dim myObject As New myclass()\n           ' Use myObject\n       End Sub\n   End Class

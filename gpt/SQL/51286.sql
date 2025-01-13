@@ -1,0 +1,1 @@
+CREATE EXTENSION hstore;\n   CREATE TABLE users (id serial PRIMARY KEY, data hstore);

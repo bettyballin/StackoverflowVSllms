@@ -1,1 +1,0 @@
-$return_value = array();\n$return_value['value1'] = 'data 1';\n$return_value['value2'] = 'data 2';\necho json_encode($return_value);

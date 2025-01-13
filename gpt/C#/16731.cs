@@ -1,0 +1,1 @@
+using System.Web.Mvc;\n\n    public class WikiController : Controller\n    {\n        public ActionResult Page()\n        {\n            // Your logic to handle the wiki page\n            return View();\n        }\n    }

@@ -1,0 +1,1 @@
+// Use the query() method to get a Cake\ORM\Query object\n$query = $modelName->find('all');\n\n// Use the each() method to iterate over the results\n$query->each(function ($row) {\n    // Process each row here\n    // For example, you can print out each row's data\n    print_r($row);\n});

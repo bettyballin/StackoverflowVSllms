@@ -1,0 +1,1 @@
+class Controller_Users extends Controller {\n    public function action_login() {\n        // Handle login logic\n    }\n\n    public function action_profile() {\n        // Handle user profile logic\n    }\n}

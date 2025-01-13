@@ -1,0 +1,1 @@
+#ifdef __cplusplus\n#define EXTERN extern "C"\n#else\n#define EXTERN extern\n#endif

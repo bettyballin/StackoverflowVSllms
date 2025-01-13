@@ -1,1 +1,0 @@
-// grid line and tick every 10\n$x->set_range(\n    mktime(0, 0, 0, 7, 1, date('Y')),    // <-- min == 1st\nJan, this year\n    mktime(0, 0, 0, 7, 31, date('Y'))    // <-- max == 31st\nJan, this year\n    );\n\n// show ticks and grid lines for every day: \n$x->set_steps(86400);

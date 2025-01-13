@@ -1,0 +1,1 @@
+CREATE TABLE Bracket (\n    bracket_id INT PRIMARY KEY,\n    game_id INT,\n    next_game_id INT,\n    FOREIGN KEY (game_id) REFERENCES Games(game_id),\n    FOREIGN KEY (next_game_id) REFERENCES Games(game_id)\n);

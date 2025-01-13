@@ -1,0 +1,1 @@
+import os\n  temp_file_name = "temp_file.tmp"\n  if not os.path.exists(temp_file_name):\n      with open(temp_file_name, 'w') as temp_file:\n          temp_file.write("Temporary data")

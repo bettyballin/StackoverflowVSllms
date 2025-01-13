@@ -1,0 +1,1 @@
+CREATE TABLE YourTable (\n    YourColumn DECIMAL(38, 18) -- Adjust precision and scale as needed\n);

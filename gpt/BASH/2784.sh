@@ -1,0 +1,1 @@
+bcp your_database.dbo.your_table in "path\to\your\file.txt" -c -t, -S your_server_name -U your_username -P your_password

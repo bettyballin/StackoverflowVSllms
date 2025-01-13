@@ -1,0 +1,1 @@
+std::vector<int> MyUsefulClass::processUsefulData(std::vector<int>& data) {\n    doProcessA(data, dataMember_);\n    doProcessB(data, otherDataMember_);\n    return data;\n}\n\nvoid doProcessA(std::vector<int>& data, int dataMember) {\n    // implementation...\n}\n\nvoid doProcessB(std::vector<int>& data, int otherDataMember) {\n    // implementation...\n}

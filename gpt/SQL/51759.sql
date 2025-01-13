@@ -1,0 +1,1 @@
+SELECT \n    name AS TableName,\n    create_date AS CreationDate\nFROM \n    sys.tables\nWHERE \n    name = 'YourTableName';

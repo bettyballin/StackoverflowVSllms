@@ -1,0 +1,1 @@
+chmod -x Documents\n   ls Documents      # This will list the files in the Documents directory\n   cd Documents      # This will fail with a "Permission denied" error

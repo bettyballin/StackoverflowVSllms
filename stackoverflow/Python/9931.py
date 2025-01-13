@@ -1,1 +1,0 @@
-def mapper(keys, values):\n    n = len(keys)\n    return [dict(zip(keys, values[i:i + n]))\n            for i in range(0, len(values), n)]

@@ -1,1 +1,0 @@
-def create\n  # ...\n  respond_to do |format|\n    format.html # for standard requests\n    format.js # for AJAX requests\n    # other formats...\n  end\nend

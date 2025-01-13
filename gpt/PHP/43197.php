@@ -1,0 +1,1 @@
+array(6) {\n  [0] =>\n  string(5) "Apfel"\n  [1] =>\n  string(6) "Äpfel"\n  [2] =>\n  string(6) "Birnen"\n  [3] =>\n  string(9) "Ungetiere"\n  [4] =>\n  string(9) "Ungetüme"\n  [5] =>\n  string(11) "Österreich"\n}

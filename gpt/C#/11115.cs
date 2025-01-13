@@ -1,0 +1,1 @@
+HttpCookie cookie = new HttpCookie("MyCookie", "cookieValue");\n// Do not set the Expires property to make it a session cookie\nResponse.Cookies.Add(cookie);

@@ -1,0 +1,1 @@
+<!DOCTYPE html>\n<html>\n<head>\n  <meta charset="UTF-8">\n  <title>PDF Layout</title>\n  <%= wicked_pdf_stylesheet_link_tag 'pdf' %>\n</head>\n<body>\n  <%= yield %>\n</body>\n</html>

@@ -1,1 +1,0 @@
-SELECT COUNT(*)\nFROM Table1 t1 INNER JOIN Table2 t2 ON t1.id = t2.id\nWHERE \n    (t1.timestamp - t2.timestamp > 1000) or \n    (t2.timestamp - t1.timestamp > 1000)

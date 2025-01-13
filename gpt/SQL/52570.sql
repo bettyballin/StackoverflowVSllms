@@ -1,0 +1,1 @@
+SELECT DISTINCT [Equipment List].ID AS Expr1, [Job Assignments].Job\nFROM [Equipment List]\nLEFT JOIN (\n    SELECT EquipmentID, Job\n    FROM [Job Assignments]\n    WHERE [Date Returned] IS NULL\n) AS JobAssignmentsFiltered\nON [Equipment List].ID = JobAssignmentsFiltered.EquipmentID;

@@ -1,0 +1,1 @@
+// application/bootstrap.php or application/routes.php\nRoute::set('ajax', 'ajax/<action>', array('action' => '(login|editprofile)'))\n    ->defaults(array(\n        'controller' => 'Ajax',\n        'action'     => 'index',\n    ));

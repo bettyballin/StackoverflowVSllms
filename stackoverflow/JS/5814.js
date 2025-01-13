@@ -1,1 +1,0 @@
-$("dialog").focus(function() {\n  // save the selection\n}).blur(function() {\n  // set the text selection\n});

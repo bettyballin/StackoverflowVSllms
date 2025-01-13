@@ -1,0 +1,1 @@
+CREATE TABLE foo AS \nSELECT 10 AS x, 'a' AS y FROM dual UNION \nSELECT 20, 'b' FROM dual UNION \nSELECT 30, 'c' FROM dual;

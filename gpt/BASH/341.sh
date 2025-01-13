@@ -1,0 +1,1 @@
+chmod +x /path/to/wrapper_script.sh

@@ -1,0 +1,1 @@
+if (isNotEmpty($userinput['phoneNumber']))\n{\n    // Validate the phone number\n}\nelse\n{\n    echo "Phone number not entered<br/>";\n}

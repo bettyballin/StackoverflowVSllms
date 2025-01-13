@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Start the Java server in the background\njava Server &\n\n# Collect arguments and send to the server\nfor i in {1..1500}; do\n    echo "arg$i" | nc localhost 12345\ndone

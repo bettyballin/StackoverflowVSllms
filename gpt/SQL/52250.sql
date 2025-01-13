@@ -1,0 +1,1 @@
+SELECT \n    CASE \n        WHEN final_score > 100 THEN 100\n        WHEN final_score < 0 THEN 0\n        ELSE final_score\n    END AS capped_score\nFROM \n    your_table;

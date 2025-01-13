@@ -1,0 +1,1 @@
+public class HomeController : Controller\n{\n    public ActionResult Index()\n    {\n        // Handle the request\n        return View();\n    }\n}

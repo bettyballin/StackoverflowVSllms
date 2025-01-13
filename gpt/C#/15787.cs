@@ -1,0 +1,1 @@
+string str = "Example <TAG1> text";\nstr = str.Replace("<TAG1>", ((char)0x01).ToString());

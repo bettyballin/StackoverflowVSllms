@@ -1,0 +1,1 @@
+function convert_to_utf8($string) {\n    return mb_convert_encoding($string, 'UTF-8', 'auto');\n}

@@ -1,0 +1,1 @@
+CREATE TABLE ExampleTable (\n    ID INT PRIMARY KEY,\n    TextColumn NVARCHAR(MAX)\n);

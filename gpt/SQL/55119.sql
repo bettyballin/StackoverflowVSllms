@@ -1,0 +1,1 @@
+SET @address_id = 1;\n\nSELECT \n    CONCAT('SELECT * FROM ', table_schema, '.', table_name, ' WHERE ', column_name, ' = ', @address_id, ';') AS query\nFROM \n    information_schema.key_column_usage\nWHERE \n    referenced_table_name = 'address' AND referenced_column_name = 'id';

@@ -1,0 +1,1 @@
+public class Product\n{\n    [Key]\n    [MaxLength(5)]\n    public string ProductCode { get; set; }\n    public string Name { get; set; }\n    // other properties\n}

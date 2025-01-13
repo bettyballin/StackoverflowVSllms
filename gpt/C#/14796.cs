@@ -1,0 +1,1 @@
+CreateAppPool("localhost", "MyAppPool");\nSetAppPoolCredentials("localhost", "MyAppPool", "yourUsername", "yourPassword");

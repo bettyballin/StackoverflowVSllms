@@ -1,0 +1,1 @@
+private DateTime? startdate;\n\n// Example usage\nstartdate = null; // valid\nstartdate = DateTime.Now; // valid

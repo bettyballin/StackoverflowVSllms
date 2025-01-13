@@ -1,1 +1,0 @@
-var targetUrl = "/jQueryProxy.php";

@@ -1,0 +1,1 @@
+import uuid\nimport base64\n\ndef generate_unique_identifier():\n    # Generate a UUID\n    uid = uuid.uuid4()\n    # Encode the UUID to a short string\n    short_uid = base64.urlsafe_b64encode(uid.bytes).rstrip(b'=').decode('ascii')\n    return short_uid[:6]  # Return first 6 characters for brevity\n\n# Example usage\nidentifier = generate_unique_identifier()\nprint(identifier)

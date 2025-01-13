@@ -1,0 +1,1 @@
+text.ForEach(item => Console.WriteLine(item));

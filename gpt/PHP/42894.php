@@ -1,0 +1,1 @@
+class TBoxRect {\n        public $top;\n        public $left;\n        public $bottom;\n        public $right;\n    }\n\n    // Assuming the COM object is $comObject\n    $result = new TBoxRect();\n    $result->top = $comObject->GetTop();\n    $result->left = $comObject->GetLeft();\n    $result->bottom = $comObject->GetBottom();\n    $result->right = $comObject->GetRight();

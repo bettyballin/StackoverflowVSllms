@@ -1,1 +1,0 @@
-import re\n\ndef func1(s):\n    print s, "is a nice string"\n\ndef func2(s):\n    print s, "is a bad string"\n\nfuncs = {\n    r".*pat1.*": func1,\n    r".*pat2.*": func2\n}\ns = "Some string with both pat1 and pat2"\n\nfor pat, func in funcs.items():\n    if re.search(pat, s):\n        func(s)

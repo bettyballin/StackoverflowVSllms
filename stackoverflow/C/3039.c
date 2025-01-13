@@ -1,1 +1,0 @@
-#include <iostream>\nusing std::cout;\nclass A { public: int x; };\nclass B { public: int y; };\nclass C : public B, public A { public: void foo(){ cout << "a.x == " << x << "\n";}};\n\nint main() {\n    typedef void (A::*pmf_t)();\n    C c; c.x = 42; c.y = -1;\n\n    pmf_t mf = static_cast<pmf_t>(&C::foo);\n    (c.*mf)();\n}

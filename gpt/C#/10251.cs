@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n   {\n       if (!User.IsInRole("YourADRole"))\n       {\n           Response.Redirect("~/AccessDenied.aspx");\n       }\n   }

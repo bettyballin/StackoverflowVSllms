@@ -1,1 +1,0 @@
-<target name="check-abc">\n    <available file="abc.txt" property="abc.present"/>\n</target>\n\n<target name="do-if-abc" depends="check-abc" if="abc.present">\n    ...\n</target> 

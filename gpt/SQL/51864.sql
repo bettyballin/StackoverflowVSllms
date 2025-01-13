@@ -1,0 +1,1 @@
+ALTER TABLE MyTable\nALTER COLUMN MyVarcharColumn VARCHAR(255);\n\nCREATE NONCLUSTERED INDEX IX_MyTable_MyVarcharColumn\nON MyTable (MyVarcharColumn);

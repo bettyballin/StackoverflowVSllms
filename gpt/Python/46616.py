@@ -1,0 +1,1 @@
+import gtk\n\n# Create a GDK color\ncolor = gtk.gdk.Color(65535, 0, 0)  # Red color\n\n# Allocate the color in the colormap of the default screen\ncolormap = gtk.gdk.colormap_get_system()\ncolormap.alloc_color(color, True, True)

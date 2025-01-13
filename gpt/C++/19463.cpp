@@ -1,0 +1,1 @@
+#include <list>\n#include <iostream>\n\nstd::list<int> generateList() {\n    std::list<int> myList = {1, 2, 3, 4, 5};\n    return myList; // RVO or move semantics will optimize this\n}\n\nint main() {\n    std::list<int> resultList = generateList();\n    for(int value : resultList) {\n        std::cout << value << " ";\n    }\n    return 0;\n}

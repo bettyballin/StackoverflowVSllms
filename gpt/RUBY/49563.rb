@@ -1,0 +1,1 @@
+class Post < ActiveRecord::Base\n  has_many :comments, dependent: :destroy\nend\n\nclass Comment < ActiveRecord::Base\n  belongs_to :post\n\n  # If you have validations, ensure they do not take parameters\n  validates :name, presence: true\n  validates :website, presence: true\n  validates :comment, presence: true\n  validates :email, presence: true\nend

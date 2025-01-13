@@ -1,1 +1,0 @@
-TlbImp %windir%\system32\ActiveDs.tlb /out:Interop.ActiveDs.dll /keyfile:KeyFile.snk

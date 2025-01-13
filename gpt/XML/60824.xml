@@ -1,0 +1,1 @@
+<xsl:if test="$var = concat('&quot;', &quot;'&quot;)">\n    <!-- Your code here -->\n</xsl:if>

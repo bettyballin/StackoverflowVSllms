@@ -1,1 +1,0 @@
-HMODULE hEXE = GetModuleHandle(NULL);

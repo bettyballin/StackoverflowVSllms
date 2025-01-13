@@ -1,0 +1,1 @@
+javac CreateFiles.java\njava CreateFiles

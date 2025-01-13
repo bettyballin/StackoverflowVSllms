@@ -1,0 +1,1 @@
+using System.Reflection;\n\n[assembly: AssemblyTitle("YourAssemblyName")]\n[assembly: AssemblyVersion("1.0.0.0")]\n\n// Add the build date attribute\n[assembly: BuildDate("$(BUILDDATE)")]

@@ -1,1 +1,0 @@
-$("table tbody tr:not(:first-child)").hide();

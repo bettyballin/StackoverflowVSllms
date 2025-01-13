@@ -1,0 +1,1 @@
+function resetElementToDefault(element) {\n    var newElement = document.createElement(element.tagName);\n    newElement.innerHTML = element.innerHTML;\n    element.parentNode.replaceChild(newElement, element);\n}\n\n// Example usage:\nvar myElement = document.querySelector('div');\nresetElementToDefault(myElement);

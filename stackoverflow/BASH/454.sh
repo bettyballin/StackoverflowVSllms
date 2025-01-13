@@ -1,1 +1,0 @@
-yum --disablerepo=\* --enablerepo=c5-testing list available \*php\*

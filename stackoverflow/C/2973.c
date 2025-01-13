@@ -1,1 +1,0 @@
-typedef struct { int value ; } P ;\n\n/* p is a pointer to P */\nvoid doSomethingElse(P * p)\n{\n   p->value = 32 ;\n   p = malloc(sizeof(P)) ; /* Don't bother with the leak */\n   p->value = 45 ;\n}\n\nvoid doSomething()\n{\n   P * p = malloc(sizeof(P)) ;\n   p->value = 25 ;\n\n   doSomethingElse(p) ;\n\n     int i = p->value ;\n   /* Value of p ? 25 ? 32 ? 42 ? */\n}

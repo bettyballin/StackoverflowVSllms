@@ -1,0 +1,1 @@
+// This is a pseudo-code representation\nHostExtensionsPage hostExtensions = new HostExtensionsPage();\nhostExtensions.navigateTo();\nhostExtensions.installLanguagePack("es-ES");\nhostExtensions.installLanguagePack("zh-CN");

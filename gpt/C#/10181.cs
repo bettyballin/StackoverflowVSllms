@@ -1,0 +1,1 @@
+public class Comment\n{\n    [SubSonicPrimaryKey]\n    public Guid CommentId { get; set; }\n    \n    public Guid PostingId { get; set; } // Foreign Key Reference\n    \n    public string Body { get; set; }\n}

@@ -1,0 +1,1 @@
+<?php\nrequire 'vendor/autoload.php';\n\nuse Jfcherng\Diff\DiffHelper;\n\n$oldText = "This is the old text.";\n$newText = "This is the new text.";\n\n$options = [\n    'context' => 3,\n    'ignoreCase' => false,\n    'ignoreWhitespace' => false,\n];\n\n$result = DiffHelper::calculate($oldText, $newText, 'Inline', $options);\n\necho $result;\n?>

@@ -1,1 +1,0 @@
-html.Append("<html><body>")\n\nmsgbox("nothing happens")

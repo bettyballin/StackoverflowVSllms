@@ -1,0 +1,1 @@
+const http = require('http');\n\n   const requestListener = function (req, res) {\n       res.writeHead(200);\n       res.end('Hello, World!');\n   }\n\n   const server = http.createServer(requestListener);\n   server.listen(8080, () => {\n       console.log('Server is running on http://localhost:8080');\n   });

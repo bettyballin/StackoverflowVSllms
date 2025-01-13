@@ -1,1 +1,0 @@
-string path = System.Web.HttpServerUtility.MapPath("/MyWebSite");

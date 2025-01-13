@@ -1,0 +1,1 @@
+#!/bin/sh\n     REPO="$1"\n     REV="$2"\n     \n     # Trigger the deployment script\n     /path/to/your/deployment/script.sh

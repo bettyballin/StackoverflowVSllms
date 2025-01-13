@@ -1,0 +1,1 @@
+private string GetCurrentSchema(OracleConnection connection)\n{\n    using (OracleCommand command = new OracleCommand("SELECT SYS_CONTEXT('USERENV', 'CURRENT_SCHEMA') FROM DUAL", connection))\n    {\n        return command.ExecuteScalar().ToString();\n    }\n}

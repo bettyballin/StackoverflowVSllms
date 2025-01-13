@@ -1,1 +1,0 @@
-SELECT \n    CASE WHEN ValueColumn IS NULL THEN 'FALSE' ELSE 'TRUE' END BooleanOutput \nFROM \n    table 

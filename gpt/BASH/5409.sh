@@ -1,0 +1,1 @@
+sudo iptables -A INPUT -i lo -j ACCEPT\n   sudo iptables -A OUTPUT -o lo -j ACCEPT

@@ -1,0 +1,1 @@
+etsh advfirewall firewall add rule name="BlockTCPConnection" protocol=TCP dir=out remoteport=<port> action=block

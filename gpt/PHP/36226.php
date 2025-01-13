@@ -1,0 +1,1 @@
+<?php\n$toMail = "me@mydomain.com"; \n$subject = "Test Email";\n$message = "This is a test email.";\n$headers = "From: sender@mydomain.com\r\n";\n\n// Send the email\nif(mail($toMail, $subject, $message, $headers)) {\n    echo "Email successfully sent to $toMail...";\n} else {\n    echo "Email sending failed...";\n}\n?>

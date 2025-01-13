@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Run your build command\n./your_build_command.sh\n\n# Notify you that the build is done\nnotify-send "Build Completed" "Your build has finished successfully."

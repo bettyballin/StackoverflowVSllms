@@ -1,0 +1,1 @@
+cd dbeaver\n   ./dbeaver

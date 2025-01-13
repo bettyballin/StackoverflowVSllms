@@ -1,0 +1,1 @@
+<!-- _graph1.html.erb -->\n<div>\n  <!-- Render chart1 using @data -->\n</div>\n\n<!-- _graph2.html.erb -->\n<div>\n  <!-- Render chart2 using @data -->\n</div>

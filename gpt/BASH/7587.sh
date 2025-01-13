@@ -1,0 +1,1 @@
+sudo systemctl start ntpd\n    sudo systemctl enable ntpd

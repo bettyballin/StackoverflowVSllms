@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\nINSERT INTO YourTable (Column1, Column2, ..., Column150)\nVALUES (Value1, Value2, ..., Value150);\n\nINSERT INTO YourTable (Column1, Column2, ..., Column150)\nVALUES (Value1, Value2, ..., Value150);\n\n-- Repeat for all 100 rows\n\nCOMMIT TRANSACTION;

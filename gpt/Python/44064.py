@@ -1,0 +1,1 @@
+with open('example.txt', 'a') as file:\n    file.write('\n')

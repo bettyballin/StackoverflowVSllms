@@ -1,0 +1,1 @@
+<hibernate-mapping>\n    <class name="com.example.Tutorial" table="tutorial">\n        <id name="id" column="tid">\n            <generator class="native"/>\n        </id>\n        <property name="name" column="name" type="string"/>\n        \n        <many-to-one name="course" column="course_id" not-null="true"/>\n    </class>\n</hibernate-mapping>

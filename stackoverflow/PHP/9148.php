@@ -1,1 +1,0 @@
-function __construct ($var1, $var2 = null)\n{\n   if (isset($var2))\n   {\n      //Do one thing\n   }\n   else\n   {\n      //Do another\n   }\n}

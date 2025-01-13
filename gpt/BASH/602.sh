@@ -1,0 +1,1 @@
+brew install perl\nbrew install pytho

@@ -1,0 +1,1 @@
+cd ~/remote_mount\n  cp remote_file.txt ~/local_directory/

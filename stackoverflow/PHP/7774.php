@@ -1,1 +1,0 @@
-$classname = 'SomeClassName';\nfor ($x = 0; $x < 100000; $x++){\n  $object = new $classname;\n}

@@ -1,0 +1,1 @@
+protected void SearchButton_Click(object sender, EventArgs e)\n{\n    if (!string.IsNullOrEmpty(SearchTextBox.Text))\n    {\n        // Perform search\n    }\n    else\n    {\n        // Handle empty search term\n    }\n}

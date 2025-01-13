@@ -1,0 +1,1 @@
+string fileName = Guid.NewGuid().ToString() + Path.GetExtension(My_HTMLInputFile.PostedFile.FileName);\nstring filePath = HttpContext.Current.Server.MapPath("~/photos/" + fileName);\nMy_HTMLInputFile.PostedFile.SaveAs(filePath);

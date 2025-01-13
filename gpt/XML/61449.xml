@@ -1,0 +1,1 @@
+<listener>\n    <listener-class>com.example.MySessionListener</listener-class>\n</listener>

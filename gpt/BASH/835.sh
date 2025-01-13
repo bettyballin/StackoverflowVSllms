@@ -1,0 +1,1 @@
+mysql -u username -p -e "SELECT * FROM your_table" --batch --silent | sed 's/\t/,/g'

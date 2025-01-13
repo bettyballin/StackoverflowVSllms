@@ -1,0 +1,1 @@
+// Example: Pseudocode for behavioral analysis\n   if (account1.behaviorPattern == account2.behaviorPattern && account1.votedFor == account2.votedFor) {\n       flagAsSuspicious();\n   }

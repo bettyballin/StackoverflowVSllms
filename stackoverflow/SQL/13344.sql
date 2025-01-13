@@ -1,1 +1,0 @@
-SELECT uid, timestamp \nFROM node_revisions \nWHERE timestamp = (SELECT MAX(timestamp) FROM node_revisions);

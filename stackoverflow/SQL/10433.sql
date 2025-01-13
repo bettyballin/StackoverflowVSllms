@@ -1,1 +1,0 @@
-select * from test where find_in_set('1',bbb)

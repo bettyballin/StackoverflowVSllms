@@ -1,1 +1,0 @@
-class MY_Form_validation extends CI_Form_validation\n{\n    public function getErrorsArray()\n    {\n        return $this->_error_array;\n    }\n}

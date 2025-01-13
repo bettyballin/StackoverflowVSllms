@@ -1,0 +1,1 @@
+require_once 'Zend/Loader/StandardAutoloader.php';\n\n   $loader = new Zend\Loader\StandardAutoloader(array(\n       'autoregister_zf' => true,\n   ));\n   $loader->register();

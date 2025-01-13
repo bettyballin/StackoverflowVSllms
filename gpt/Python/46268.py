@@ -1,0 +1,1 @@
+from enum import Enum\n\nclass Command(Enum):\n    START = "Start"\n    STOP = "Stop"\n\ndef match_command(cmd):\n    if cmd == Command.START:\n        return "Starting"\n    elif cmd == Command.STOP:\n        return "Stopping"\n    else:\n        return "Unknown command"\n\ncommand = Command.START\nprint(match_command(command))  # "Starting"

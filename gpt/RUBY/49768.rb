@@ -1,0 +1,1 @@
+Shoes.app do\n  background rgb(1.0, 1.0, 1.0, 0.0) # Transparent background\n  para "Text", :stroke => red, :size => 100\nend

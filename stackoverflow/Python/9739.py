@@ -1,1 +1,0 @@
-py> p=ipaddr.IPv6("2001:888:2000:d::a2")\npy> p.SetPrefix(64)\npy> p\nIPv6('2001:888:2000:d::a2/64')\npy> p.network_ext\n'2001:888:2000:d::'

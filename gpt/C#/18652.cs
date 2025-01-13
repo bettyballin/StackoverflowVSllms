@@ -1,0 +1,1 @@
+public class CustomAuthorizationManager : ServiceAuthorizationManager\n   {\n       protected override bool CheckAccessCore(OperationContext operationContext)\n       {\n           // Extract and validate API key and signature here\n           return true; // Return true if authorized\n       }\n   }

@@ -1,1 +1,0 @@
-ini_set('memory_limit', '1024M');\n\n$key = str_repeat('x', 1024 * 1024 * 128);\n\n$foo = array($key => $key);\n\necho strlen(key($foo)) . "<br>";\necho strlen($foo[$key]) . "<br>";

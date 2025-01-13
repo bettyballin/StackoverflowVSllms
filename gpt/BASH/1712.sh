@@ -1,0 +1,1 @@
+pprof --ignore=libLAPACK /usr/local/bin/jags jags.prof

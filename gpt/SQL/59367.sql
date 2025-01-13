@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_CheckID\nON MyTable\nAFTER INSERT\nAS\nBEGIN\n    IF EXISTS (SELECT * FROM inserted WHERE ID < 100 OR ID > 999)\n    BEGIN\n        RAISERROR('ID is out of allowed range (100-999)', 16, 1);\n        ROLLBACK TRANSACTION;\n    END\nEND;

@@ -1,0 +1,1 @@
+DECLARE\n  ln_count NUMBER;\nBEGIN\n  SELECT 1\n  INTO ln_count\n  FROM table_1, table_2...., table_n\n  WHERE <various joins and conditions>\n  AND ROWNUM = 1;\n\n  IF ln_count > 0 THEN\n    <do stuff>\n  END IF;\nEND;

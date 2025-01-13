@@ -1,0 +1,1 @@
+tar -czvf vm_image_name.tar.gz vm_image_directory/

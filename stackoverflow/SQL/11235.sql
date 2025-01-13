@@ -1,1 +1,0 @@
-UPDATE sysdba.ADDRESS\nSET Address1 = '123 Tech Parway'\nFROM sysdba.ADDRESS\nINNER JOIN sysdba.CONTACT \n    ON sysdba.CONTACT.AddressID = sysdba.ADDRESS.AddressID\nWHERE sysdba.CONTACT.contactID = 'CRBD'

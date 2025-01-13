@@ -1,0 +1,1 @@
+slookup data.example.com

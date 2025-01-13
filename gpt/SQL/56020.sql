@@ -1,0 +1,1 @@
+CREATE TABLE MyTable (\n    ID INT PRIMARY KEY,\n    DataColumn VARCHAR(255),\n    RowNumber INT\n);

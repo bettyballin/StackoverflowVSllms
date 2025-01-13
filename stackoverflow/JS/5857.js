@@ -1,1 +1,0 @@
-$('#dialog').dialog({\n open: function(event, ui) {\n    $(ui).find('#date').datepicker().click(function(){\n        $(this).datepicker('show');\n    });\n },\n close: function(event,ui) {\n    $(ui).find('#date').datepicker('destroy');\n }});

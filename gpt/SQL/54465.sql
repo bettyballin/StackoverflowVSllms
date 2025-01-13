@@ -1,0 +1,1 @@
+INSERT INTO dbo.AccessViewPKInfo (ViewName, PrimaryKeyField)\nVALUES ('YourViewName', 'YourPrimaryKeyField');

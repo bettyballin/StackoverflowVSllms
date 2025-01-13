@@ -1,0 +1,1 @@
+class MyClass {\n      public $property;\n      function myMethod() {\n          return $this->property;\n      }\n  }

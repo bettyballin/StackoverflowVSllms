@@ -1,1 +1,0 @@
-<Reference Include="Foo" Condition="'$(Configuration)'=='Debug'"/>\n<Reference Include="Bar" Condition="'$(Configuration)'=='Release'"/>

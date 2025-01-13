@@ -1,0 +1,1 @@
+class ActiveSupport::TestCase\n  setup do\n    @@default_region = Region.find_by_uri("whistler")\n  end\nend

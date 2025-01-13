@@ -1,0 +1,1 @@
+<?php\nif (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) {\n    ob_start('ob_gzhandler');\n} else {\n    ob_start();\n}\nheader('Content-Type: application/javascript');\n\n// Your JavaScript content here\n?>

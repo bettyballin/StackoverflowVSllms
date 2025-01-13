@@ -1,0 +1,1 @@
+Dim current = Request.Path.Remove(0, 1).Replace(".aspx", "")

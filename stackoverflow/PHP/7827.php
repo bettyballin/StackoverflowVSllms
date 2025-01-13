@@ -1,1 +1,0 @@
-const table = 'text';\n\n$a = array( table => 'myTable', order => 'myOrder' );\n\n$table = $a[table]

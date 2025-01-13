@@ -1,0 +1,1 @@
+chmod 700 create_files.sh\n./create_files.sh

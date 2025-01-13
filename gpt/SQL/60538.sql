@@ -1,0 +1,1 @@
+SELECT \n    CASE \n        WHEN [category] LIKE "*abc*" THEN "DEF" \n        ELSE category \n    END AS category,\n    Month,\n    Sum(qty) AS [qty]\nFROM [tableX]\nGROUP BY \n    CASE \n        WHEN [category] LIKE "*abc*" THEN "DEF" \n        ELSE category \n    END, \n    Month

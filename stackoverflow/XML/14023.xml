@@ -1,1 +1,0 @@
-<field name="birthDate">\n  <field-validator type="regex">\n      <param name="expression">[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]</param>\n      <message>The value must be in the format yyyy-MM-dd</message>\n </field-validator>

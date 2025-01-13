@@ -1,0 +1,1 @@
+public void ExampleUsage()\n{\n    string originalText = "Hello, World!";\n    string encodedText = Base64UrlEncode(originalText);\n    Console.WriteLine("Encoded: " + encodedText); // Encoded: SGVsbG8sIFdvcmxkIQ\n\n    string decodedText = Base64UrlDecode(encodedText);\n    Console.WriteLine("Decoded: " + decodedText); // Decoded: Hello, World!\n}

@@ -1,1 +1,0 @@
-Using mysql as SqlCommand = new SqlCommand(sSql, cnInput)\n  ' do stuff'\nEnd Using\n\nUsing mysql as SqlCommand = new SqlCommand(otherSql, cnInput)\n  ' do other stuff'\nEnd Using

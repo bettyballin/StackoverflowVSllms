@@ -1,0 +1,1 @@
+#!/bin/bash\n\n    # Variables\n    REPO_URL="svn://your_svn_repo_url/path/to/repo"\n    CHECKOUT_DIR="/path/to/your/web/root"\n\n    # Checkout or update the repository\n    if [ -d "$CHECKOUT_DIR/.svn" ]; then\n        svn update "$CHECKOUT_DIR"\n    else\n        svn checkout "$REPO_URL" "$CHECKOUT_DIR"\n    fi

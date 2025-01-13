@@ -1,0 +1,1 @@
+.container {\n  position: relative;\n}\n.item {\n  position: absolute;\n  left: /* calculate position */;\n  /* Add width as needed */\n}

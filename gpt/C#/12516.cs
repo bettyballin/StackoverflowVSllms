@@ -1,0 +1,1 @@
+// Example: Ensure all threads are stopped\n   foreach (var thread in threadList)\n   {\n       if (thread.IsAlive)\n       {\n           thread.Abort();\n           thread.Join();\n       }\n   }

@@ -1,0 +1,1 @@
+$.ajax({\n  url: '/path/to/your/endpoint.json', // Ensure the URL ends with .json\n  type: 'GET',\n  dataType: 'json',\n  success: function(data) {\n    console.log(data);\n  },\n  error: function(jqXHR, textStatus, errorThrown) {\n    console.error('Error fetching JSON:', textStatus, errorThrown);\n  }\n});

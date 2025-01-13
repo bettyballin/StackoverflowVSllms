@@ -1,0 +1,1 @@
+SELECT EmpID\nFROM your_table\nWHERE DeptID IN (1, 2, 3) -- Replace this list with your target DeptIDs\nGROUP BY EmpID\nHAVING COUNT(DISTINCT DeptID) = 3; -- Replace 3 with the count of your target DeptIDs

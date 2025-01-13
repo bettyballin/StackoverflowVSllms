@@ -1,0 +1,1 @@
+# Example of weak encryption usage in Python\n   from Crypto.Cipher import DES\n\n   key = b'weakkey!'\n   cipher = DES.new(key, DES.MODE_ECB)\n   encrypted_data = cipher.encrypt(b'plaintext')

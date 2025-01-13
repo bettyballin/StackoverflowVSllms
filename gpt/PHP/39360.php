@@ -1,0 +1,1 @@
+<?php\n// Define your site's domain\n$siteDomain = 'example.com';\n\n// Check if the referrer is set and contains your site's domain\nif (!isset($_SERVER['HTTP_REFERER']) || strpos($_SERVER['HTTP_REFERER'], $siteDomain) === false) {\n    // If not, redirect to the index page\n    header('Location: /index.php');\n    exit();\n}\n\n// Your protected page content here\n?>

@@ -1,0 +1,1 @@
+SELECT TOP 1 * \nFROM AuditLog \nWHERE TableName = 'YourTable' \nORDER BY Timestamp DESC;

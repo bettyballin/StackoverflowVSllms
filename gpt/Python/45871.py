@@ -1,0 +1,1 @@
+# Example of a list\nfruits = ["apple", "banana", "cherry"]\nfruits.append("date")\nfruits[0] = "avocado"  # Changing the first element

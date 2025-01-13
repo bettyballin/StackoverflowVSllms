@@ -1,0 +1,1 @@
+public class YourController : Controller\n{\n    [HttpPost]\n    public ActionResult SelectResult(int id)\n    {\n        // Perform your state update logic here\n\n        // You can return a JSON result if needed\n        return Json(new { success = true });\n    }\n}

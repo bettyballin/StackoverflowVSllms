@@ -1,0 +1,1 @@
+// Set the text domain as 'messages' and directory for translation files\nbindtextdomain("messages", "./locale");\ntextdomain("messages");\n\n// Translate a string\necho gettext("Hello World");

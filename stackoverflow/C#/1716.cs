@@ -1,1 +1,0 @@
-ViewData["DivIsVisible"] = ...\nreturn View();\n\n// or with ViewModel\n\npublic class TheViewModel\n{\n    public bool DivIsVisible;\n\n    ...\n}\n\n...\n\nvar model = new TheViewModel { DivIsVisible = true /* false */, ... }\nreturn View(model);

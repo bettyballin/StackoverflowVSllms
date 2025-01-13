@@ -1,0 +1,1 @@
+gcc -O2 --omit-frame-pointer -s -o the_answer the_answer.c

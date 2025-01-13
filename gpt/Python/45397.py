@@ -1,0 +1,1 @@
+def preprocess_string(s):\n    return ' '.join(sorted(s.lower().split()))\n\n# Example usage\ns1 = preprocess_string("Acme Company")\ns2 = preprocess_string("Company Acme")\nprint(f"Levenshtein distance between '{s1}' and '{s2}' is {levenshtein_distance(s1, s2)}")

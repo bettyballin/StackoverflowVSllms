@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>com.github.jsqlparser</groupId>\n    <artifactId>jsqlparser</artifactId>\n    <version>4.2</version> <!-- Check for the latest version -->\n</dependency>

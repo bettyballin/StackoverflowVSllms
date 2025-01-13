@@ -1,0 +1,1 @@
+if fileitem.filename:\n    # Get the filename\n    filename = os.path.basename(fileitem.filename)\n    \n    # Open a temporary file to write the content\n    with open('/tmp/' + filename, 'wb') as f:\n        f.write(fileitem.file.read())\n    \n    print("File uploaded successfully.")\nelse:\n    print("No file was uploaded.")

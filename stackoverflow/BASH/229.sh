@@ -1,1 +1,0 @@
-sudo aptitude install html2ps

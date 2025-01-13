@@ -1,0 +1,1 @@
+$rssContent = file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/path/to/rss-feed.xml');\nif ($rssContent === FALSE) {\n    echo "Failed to retrieve RSS feed.";\n} else {\n    echo $rssContent;\n}

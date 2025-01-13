@@ -1,0 +1,1 @@
+<?php\n$date = new DateTime('2009-03-01', new DateTimeZone('UTC'));\n$timestamp = $date->getTimestamp();\n$days = $timestamp / 60 / 60 / 24;\n\necho $timestamp . "\n";\necho $days . " days\n";\n?>

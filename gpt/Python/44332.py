@@ -1,0 +1,1 @@
+import csv\n\ndata = [\n    ["Name", "ID", "Value"],\n    ["John", "001", "100"],\n    ["Jane", "005", "200"],\n]\n\nwith open('output.csv', 'w', newline='') as file:\n    writer = csv.writer(file)\n    for row in data:\n        row = [f'="{item}"' if item.isdigit() and item.startswith('0') else item for item in row]\n        writer.writerow(row)

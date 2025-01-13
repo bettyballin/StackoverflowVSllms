@@ -1,0 +1,1 @@
+$pattern = '/(?P<percentage>\d{1,3}\.\d{1,2})%\s+of\s+(?P<size>\d+\.\d+[kBM])\sat/';

@@ -1,0 +1,1 @@
+grep -F "your_substring" your_file.txt

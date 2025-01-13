@@ -1,1 +1,0 @@
-List<Post> PostDao::searchPostsByDate(Date d);\nvoid PostDao::save(Post p);

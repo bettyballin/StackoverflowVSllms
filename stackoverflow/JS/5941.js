@@ -1,1 +1,0 @@
-var valid_form = true;\n$$('#my_form input').each(function(item){\n    if( item.value == '' ) valid_form = false;\n});

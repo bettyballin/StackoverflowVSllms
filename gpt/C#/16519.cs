@@ -1,0 +1,1 @@
+private void StopAnalysis()\n{\n    StopCurrentAnalisis();\n}

@@ -1,0 +1,1 @@
+<?php\n   define('WP_USE_THEMES', false);\n   require('path/to/your-wordpress-installation/wp-blog-header.php');\n   ?>

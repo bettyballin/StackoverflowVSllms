@@ -1,0 +1,1 @@
+try\n   {\n       // SNMP related code\n   }\n   catch (NullReferenceException ex)\n   {\n       // Log detailed information\n       Log.Error("NullReferenceException occurred: " + ex.ToString());\n       throw;\n   }

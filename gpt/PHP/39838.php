@@ -1,0 +1,1 @@
+$xml_text = file_get_contents("php://input");\n$xml = simplexml_load_string($xml_text);\n$item = strtolower($xml->item); // Convert to lowercase\necho $item;

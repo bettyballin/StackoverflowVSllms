@@ -1,0 +1,1 @@
+# Example proxy settings for Windows\nnetsh winhttp set proxy 127.0.0.1:8888\n\n# Example proxy settings for Unix-based systems\nexport http_proxy=http://127.0.0.1:8888\nexport https_proxy=http://127.0.0.1:8888

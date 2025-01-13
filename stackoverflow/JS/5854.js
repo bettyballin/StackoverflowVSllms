@@ -1,1 +1,0 @@
-tempImg = new Image()\ntempImg.src="pic2.jpg"

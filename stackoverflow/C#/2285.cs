@@ -1,1 +1,0 @@
-Uri target = null;\nif ( Uri.TryCreate(userSuppliedString, UriKind.Absolute, out target) &&\n      (Uri.UriSchemeHttp == target.Scheme || Uri.UriSchemeHttps == target.Scheme) )\n{\n  // It's an URI that I can use \n  Process.Start(target.ToString());\n}

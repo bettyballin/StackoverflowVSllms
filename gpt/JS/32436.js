@@ -1,0 +1,1 @@
+var log = function(arg1, arg2){\n    console.log("inside :" + arg1 + " / " + arg2);\n}; \n\nvar wrap = function(fn){\n    return function(){\n        console.log("before :");\n        // Use apply to pass all arguments to the original function\n        fn.apply(this, arguments);\n        console.log("after :");\n    }\n};\n\nvar fn = wrap(log);\nfn(1, 2);

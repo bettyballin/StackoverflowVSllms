@@ -1,0 +1,1 @@
+# Example of a simple build script using Makefile\n   all: build deploy\n\n   build:\n       javac -d bin src/*.java\n\n   deploy:\n       scp -r bin user@production-server:/path/to/deploy

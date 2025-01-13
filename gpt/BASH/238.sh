@@ -1,0 +1,1 @@
+# Step 1: Combine cert and key into a PKCS12 file\nopenssl pkcs12 -export -in mycert.crt -inkey mykey.key -out mycert.p12 -name myalias\n\n# Step 2: Import the PKCS12 file into the Java keystore\nkeytool -importkeystore -destkeystore broker.ks -srckeystore mycert.p12 -srcstoretype PKCS12 -alias myalias

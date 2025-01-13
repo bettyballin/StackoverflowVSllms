@@ -1,1 +1,0 @@
-SELECT * \n  FROM videos AS c \n WHERE (VideoId = (SELECT MAX(VideoId) FROM videos WHERE VideoId < c.VideoId AND IsActive = 1)\n    OR  VideoId = (SELECT MIN(VideoId) FROM videos WHERE VideoId > c.VideoId AND IsActive = 1))

@@ -1,0 +1,1 @@
+public partial class MainWindow : Window\n{\n    public MainWindow()\n    {\n        InitializeComponent();\n        this.DataContext = new Order { OrderId = 1234 };\n    }\n}\n\npublic class Order\n{\n    public int OrderId { get; set; }\n}

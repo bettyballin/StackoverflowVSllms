@@ -1,0 +1,1 @@
+amespace MyApplication.Interfaces\n{\n    public interface IMyService\n    {\n        void Execute();\n    }\n}

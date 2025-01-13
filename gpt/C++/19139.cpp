@@ -1,0 +1,1 @@
+#include <msclr/marshal_cppstd.h>\nusing namespace System;\nusing namespace System::Reflection;\n\npublic ref class MyClass\n{\npublic:\n    MyClass()\n    {\n        String^ exePath = Assembly::GetEntryAssembly()->Location;\n        std::string exePathStd = msclr::interop::marshal_as<std::string>(exePath);\n        // Use exePathStd as needed\n    }\n};

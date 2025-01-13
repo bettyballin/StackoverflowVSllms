@@ -1,1 +1,0 @@
-public void GetFileVersion() {\n    // Get the file version for the notepad.\n    FileVersionInfo myFileVersionInfo = FileVersionInfo.GetVersionInfo("%systemroot%\\Notepad.exe");\n\n    // Print the file name and version number.\n    textBox1.Text = "File: " + myFileVersionInfo.FileDescription + '\n' +\n       "Version number: " + myFileVersionInfo.FileVersion;\n }

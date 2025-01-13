@@ -1,1 +1,0 @@
-public class JsonWrapper\n{\n   public object Data { get; set; }\n   public bool IsError { get; set; }\n   public string Message { get; set; }\n}

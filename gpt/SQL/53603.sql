@@ -1,0 +1,1 @@
+INSERT INTO POSTS (id, content) VALUES (1, 'This is a post related to a category.');\nINSERT INTO CATEGORIES (id, name) VALUES (1, 'Category 1');\nINSERT INTO POST_RELATIONS (post_id, related_id, related_type) VALUES (1, 1, 'CATEGORY');

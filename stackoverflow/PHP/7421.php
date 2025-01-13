@@ -1,1 +1,0 @@
-$splitString = preg_split('/(\/|\,| with |\&/)/', $string);

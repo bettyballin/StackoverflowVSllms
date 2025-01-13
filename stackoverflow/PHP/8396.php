@@ -1,1 +1,0 @@
-function loadPlugin($pluginName) {\n    require_once $pluginName . '.php';\n\n    $plugin = new $pluginName;\n    //do whatever with $plugin\n}

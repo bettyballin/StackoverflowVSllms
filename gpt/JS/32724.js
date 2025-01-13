@@ -1,0 +1,1 @@
+const cssnano = require('cssnano');\n\n   cssnano.process(css, { from: 'src/app.css', to: 'dist/app.min.css' }).then(result => {\n     fs.writeFileSync('dist/app.min.css', result.css);\n     if (result.map) {\n       fs.writeFileSync('dist/app.min.css.map', result.map);\n     }\n   });

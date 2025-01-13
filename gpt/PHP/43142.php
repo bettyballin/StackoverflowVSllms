@@ -1,0 +1,1 @@
+// Ensure the BCMath extension is enabled\n\n// Define your large numbers\n$a = '62574';\n$b = '62574';\n$mod = '104659';\n\n// Perform the multiplication\n$product = bcmul($a, $b);\n\n// Perform the modulus operation\n$modulus = bcmod($product, $mod);\n\necho "Product: $product\n";\necho "Modulus: $modulus\n";

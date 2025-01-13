@@ -1,1 +1,0 @@
-$("#mydiv").load("filter.html", null, function() {\n   $("#filterDiv input").focus( function() {\n      alert('Hello');\n   });\n});

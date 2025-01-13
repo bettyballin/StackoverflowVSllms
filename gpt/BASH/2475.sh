@@ -1,0 +1,1 @@
+tracepath <destination_ip>

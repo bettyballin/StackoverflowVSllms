@@ -1,1 +1,0 @@
-MyObject myObject = calculateMyObject();

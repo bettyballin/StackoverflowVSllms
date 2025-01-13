@@ -1,0 +1,1 @@
+INSERT INTO chapters (id, title, position) VALUES\n(1, 'Introduction', 1.0),\n(2, 'Accessibility', 2.0),\n(3, 'Form vs. Function', 3.0),\n(4, 'Errors', 4.0),\n(5, 'Consistency', 5.0),\n(6, 'Conclusion', 6.0),\n(7, 'Index', 7.0);

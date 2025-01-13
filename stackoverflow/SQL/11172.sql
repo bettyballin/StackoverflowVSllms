@@ -1,1 +1,0 @@
-INSERT INTO user VALUES('localhost','root',PASSWORD('some_pass'),'Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y');\nFLUSH PRIVILEGES;

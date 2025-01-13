@@ -1,1 +1,0 @@
-var len = document.checks.user.length;\nif(len == undefined) len = 1;\nfor (i = 0; i < len; i++) //for all check boxes

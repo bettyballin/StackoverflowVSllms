@@ -1,1 +1,0 @@
-List<string> ListOfCountries = new List(Countries)\n\n...ListOfCountries.Contains(t.Country)

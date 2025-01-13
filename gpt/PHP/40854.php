@@ -1,0 +1,1 @@
+function restrict_content_for_subscribers() {\n    if (current_user_can('subscriber')) {\n        wp_redirect(home_url()); // Redirect to the homepage, for example\n        exit;\n    }\n}\nadd_action('template_redirect', 'restrict_content_for_subscribers');

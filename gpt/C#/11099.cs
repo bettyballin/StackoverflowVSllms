@@ -1,0 +1,1 @@
+using (SqlConnection sqlConnection = new SqlConnection(connectionString))\n    {\n        sqlConnection.Open();\n        using (SqlCommand sqlCommand = new SqlCommand(storedProcedureName, sqlConnection))\n        {\n            sqlCommand.CommandTimeout = 60; // Set timeout to 60 seconds\n            sqlCommand.ExecuteNonQuery();\n        }\n    }

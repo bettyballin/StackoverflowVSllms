@@ -1,0 +1,1 @@
+tar -xvf glibc-<version>.tar.gz\n   cd glibc-<version>

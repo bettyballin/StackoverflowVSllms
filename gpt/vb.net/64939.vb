@@ -1,0 +1,1 @@
+Public Class Form1\n    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load\n        Dim htmlContent As String = "<b>Hello</b> World"\n        WebBrowser1.DocumentText = htmlContent\n    End Sub\nEnd Class

@@ -1,1 +1,0 @@
-mydb.ExecuteSql("INSERT INTO table(foreign_key1, value) VALUES(9, 'text'); SELECT SCOPE_IDENTITY();");

@@ -1,0 +1,1 @@
+gcc main.o -L. -lmylibrary -o myapp

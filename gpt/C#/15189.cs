@@ -1,0 +1,1 @@
+using System;\nusing System.Collections.Generic;\nusing System.Linq;\n\npublic class YourClass\n{\n    public Array Values { get; set; }\n\n    public List<object> CategoriesToList()\n    {\n        List<object> vals = new List<object>();\n        vals.AddRange(this.Values.Cast<object>());\n\n        return vals;\n    }\n}

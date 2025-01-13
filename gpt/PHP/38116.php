@@ -1,0 +1,1 @@
+if ($_POST) {\n    // Handle POST request with data\n}

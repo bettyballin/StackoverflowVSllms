@@ -1,1 +1,0 @@
-$.post("setData.php", { myPOSTvar: "myData" },\n    function(data){\n        alert("Data saved");\n});

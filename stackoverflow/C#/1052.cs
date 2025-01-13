@@ -1,1 +1,0 @@
-List<Foo> fooList = new List<Foo>();\nIEnumerable<Foo> extract = from foo in fooList where foo.Bar > 10 select Foo.Name.ToUpper();

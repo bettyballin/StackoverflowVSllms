@@ -1,0 +1,1 @@
+$username = $_POST['username'];\n   $password = md5($_POST['password']);

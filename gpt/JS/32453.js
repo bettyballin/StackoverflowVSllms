@@ -1,0 +1,1 @@
+$(".toolWindow").click(toolWindow_click);\n    $(".toolWindow").keypress(toolWindow_keypress);

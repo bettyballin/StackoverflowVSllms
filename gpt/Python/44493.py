@@ -1,0 +1,1 @@
+from memory_profiler import profile\n\n    @profile\n    def my_function():\n        a = [1] * (10 ** 6)\n        b = [2] * (2 * 10 ** 7)\n        del b\n        return a\n\n    if __name__ == "__main__":\n        my_function()

@@ -1,0 +1,1 @@
+string documentPath = @"C:\TestCode\TestApp\Testform.cs";\nstring folder = Path.GetDirectoryName(@"C:\TestCode\TestApp\");\n\nSystem.Diagnostics.Process p = new System.Diagnostics.Process();\np.StartInfo.FileName = "notepad.exe";\np.StartInfo.Arguments = documentPath;\np.StartInfo.UseShellExecute = true;\np.Start();

@@ -1,0 +1,1 @@
+sed -i 's|<html>|<html><link rel="stylesheet" type="text/css" href="LivingInStyle.css">|' yourfile.html

@@ -1,0 +1,1 @@
+CREATE TABLE company_profiles (\n    user_id INT PRIMARY KEY,\n    company_name VARCHAR(100) NOT NULL,\n    registration_number VARCHAR(50) NOT NULL,\n    contact_person VARCHAR(50),\n    FOREIGN KEY (user_id) REFERENCES users(user_id)\n);

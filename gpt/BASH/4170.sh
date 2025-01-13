@@ -1,0 +1,1 @@
+robocopy "source_folder_path" "destination_folder_path" /E /Z /MT:32 /R:5 /W:5 /LOG:C:\robocopy_log.txt

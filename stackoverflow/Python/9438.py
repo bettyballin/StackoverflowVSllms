@@ -1,1 +1,0 @@
-from ..subpkg2 import mod

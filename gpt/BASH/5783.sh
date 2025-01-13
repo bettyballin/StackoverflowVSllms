@@ -1,0 +1,1 @@
+setspn -L your_server_name\n      setspn -S HTTP/server-name your_domain\your_service_account\n      setspn -S HTTP/server-name.domain.name your_domain\your_service_account

@@ -1,0 +1,1 @@
+#include <PDF/PDFNet.h>\n   #include <PDF/PDFDoc.h>\n   #include <PDF/Convert.h>\n\n   using namespace pdftron;\n\n   int main() {\n       PDFNet::Initialize();\n       PDFDoc doc;\n       Convert::FromCAD(doc, "input.dwg", nullptr);\n       doc.Save("output.pdf", SDF::SDFDoc::e_linearized);\n       PDFNet::Terminate();\n       return 0;\n   }

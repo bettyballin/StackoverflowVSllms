@@ -1,0 +1,1 @@
+dotnet new console -n OpcUaClient\n    cd OpcUaClient\n    dotnet add package OPCFoundation.NetStandard.Opc.Ua

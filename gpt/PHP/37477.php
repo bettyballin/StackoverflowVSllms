@@ -1,0 +1,1 @@
+<?php\n$user_data = '<script>alert("XSS")</script>';\n$safe_data = htmlspecialchars($user_data, ENT_QUOTES, 'UTF-8'); \necho $safe_data; // &lt;script&gt;alert(&quot;XSS&quot;)&lt;/script&gt;\n?>

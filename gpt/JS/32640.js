@@ -1,0 +1,1 @@
+function disableValidators() {\n    var validators = document.getElementsByClassName('gridValidator');\n    for (var i = 0; i < validators.length; i++) {\n        ValidatorEnable(validators[i], false);\n    }\n}

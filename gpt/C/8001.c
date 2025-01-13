@@ -1,0 +1,1 @@
+#include <string.h>\n#include <errno.h>\n#include <stdio.h>\n\nint main() {\n    char src[10] = "123456789";\n    char dest[10];\n\n    errno_t status = memcpy_s(dest, sizeof(dest), src, strlen(src) + 1);\n    if (status != 0) {\n        printf("Error copying memory: %d\n", status);\n        return -1;\n    }\n\n    printf("Copied string: %s\n", dest);\n    return 0;\n}

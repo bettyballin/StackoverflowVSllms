@@ -1,1 +1,0 @@
-lines = open(filename).read().splitlines()

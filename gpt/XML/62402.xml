@@ -1,0 +1,1 @@
+<configuration>\n      <system.webServer>\n        <application path="/" applicationPool="PS-Extranet">\n          <virtualDirectory path="/" physicalPath="%SystemDrive%\inetpub\wwwroot" userName="administrator" password="YourCorrectPassword" />\n        </application>\n      </system.webServer>\n    </configuration>

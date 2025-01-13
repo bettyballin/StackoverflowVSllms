@@ -1,0 +1,1 @@
+public static class EmployeeExtensions\n{\n    public static string GetDisplayName(this Employee employee)\n    {\n        return $"{employee.FirstName} {employee.MiddleName} {employee.LastName}".Trim();\n    }\n}

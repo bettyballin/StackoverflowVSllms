@@ -1,0 +1,1 @@
+CREATE TABLE example (\n       is_active BIT(1)\n   );

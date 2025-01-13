@@ -1,1 +1,0 @@
-<?php\n$var = "nÖ§9q1Fª£ˆæÓ§Œ_»—Ló]j";\n\nfor($i = 0; $i < strlen($var); $i++)\n{\n   echo ord($var[$i])."<br/>";\n}\n?>

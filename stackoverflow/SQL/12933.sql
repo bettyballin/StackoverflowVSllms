@@ -1,1 +1,0 @@
-where MY_DATE > dateadd (yy, -1, getdate())

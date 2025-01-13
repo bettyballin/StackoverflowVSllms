@@ -1,0 +1,1 @@
+using System;\nusing System.Net;\n\nclass Program\n{\n    static void Main()\n    {\n        string input = "<p>This is a <strong>sample</strong> string with HTML tags.</p>";\n        string encoded = WebUtility.HtmlEncode(input);\n        Console.WriteLine(encoded);\n    }\n}

@@ -1,0 +1,1 @@
+CREATE TABLE Books (\n    BookID INT PRIMARY KEY,\n    Title NVARCHAR(255),\n    Summary TEXT\n);

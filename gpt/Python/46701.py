@@ -1,0 +1,1 @@
+# Complicated solution\ndef calculate_total_price(prices, tax_rate):\n    total = 0\n    for price in prices:\n        total += price + (price * tax_rate / 100)\n    return total\n\n# Simplified solution\ndef calculate_total_price(prices, tax_rate):\n    tax_multiplier = 1 + tax_rate / 100\n    return sum(price * tax_multiplier for price in prices)

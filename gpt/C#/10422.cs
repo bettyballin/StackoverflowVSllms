@@ -1,0 +1,1 @@
+using System;\nusing System.Runtime.InteropServices;\n\nint hr = SomeCOMFunction();\ntry {\n    Marshal.ThrowExceptionForHR(hr);\n    // Proceed if successful\n}\ncatch (COMException ex)\n{\n    // Handle error\n}

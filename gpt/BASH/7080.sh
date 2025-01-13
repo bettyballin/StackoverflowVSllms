@@ -1,0 +1,1 @@
+gcc -Wsign-compare -Werror -o your_program your_program.c

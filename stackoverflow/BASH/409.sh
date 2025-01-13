@@ -1,1 +1,0 @@
-dd if=/dev/zero bs=1 seek=4294967295 count=1 of=4G\nls -l 4G\n-rw-r--r-- 1 me wheel 4294967296 2009-04-01 13:28 4G

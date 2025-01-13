@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("SELECT * FROM users WHERE user_id = ? AND password_part = ?");\n    $stmt->bind_param("ss", $user_id, $password_part);\n    $stmt->execute();

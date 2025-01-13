@@ -1,1 +1,0 @@
-vars.php\n<?php\n\n$color = 'green';\n$fruit = 'apple';\n\n?>\n\ntest.php\n<?php\n\necho "A $color $fruit"; // A\n\ninclude 'vars.php';\n\necho "A $color $fruit"; // A green apple\n\n?>

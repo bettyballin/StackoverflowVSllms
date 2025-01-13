@@ -1,0 +1,1 @@
+for file in *.cpp; do\n  sed -i '0,/#include/{s/#include/#include "newfile.h"\n#include/}' "$file"\ndone

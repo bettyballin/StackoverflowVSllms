@@ -1,0 +1,1 @@
+tracd --port 8000 /path/to/your/trac/environment

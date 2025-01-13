@@ -1,1 +1,0 @@
-foreach ($countries as $key => $country) {\n    $selected = ""\n    if ($key == $mycountry) $selected = ' selected="selected" ';\n    print '<option value=' . $key . $selected . '>' . $country . '</option>';\n}

@@ -1,0 +1,1 @@
+using System.Windows;\nusing System.Windows.Input;\n\nnamespace WpfApp\n{\n    public partial class MainWindow : Window\n    {\n        public MainWindow()\n        {\n            InitializeComponent();\n        }\n\n        private void Label_MouseDown(object sender, MouseButtonEventArgs e)\n        {\n            MyTextBox.Focus();\n        }\n    }\n}

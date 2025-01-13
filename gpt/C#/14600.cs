@@ -1,0 +1,1 @@
+public class Office2003Wrapper : IOfficeWrapper\n{\n    public void OpenDocument(string filePath)\n    {\n        // Implementation for Office 2003\n    }\n\n    public void SaveDocument(string filePath)\n    {\n        // Implementation for Office 2003\n    }\n}

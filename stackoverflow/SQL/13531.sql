@@ -1,1 +1,0 @@
-select batch \n,      count(case when status=1 then 1 end) status1\n,      count(case when status=2 then 1 end) status2\n,      count(case when status=3 then 1 end) status3\nfrom   table\ngroup by batch;

@@ -1,1 +1,0 @@
-$values=array(\n  'user_id'=>1,\n  'foo'=>'bar'\n);\n$secret='MySecretSalt';\n\n$plain="";\nforeach($values as $key=>$value)\n{\n    $plain.=$key.'|'.$value.'|';\n}\n$plain.=$secret;\n$hash=sha1($plain);

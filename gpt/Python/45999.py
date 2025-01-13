@@ -1,0 +1,1 @@
+from django import forms\n\nclass ResumeForm(forms.ModelForm):\n    class Meta:\n        model = Resume\n        fields = ['file']

@@ -1,0 +1,1 @@
+using StructureMap.Configuration.DSL;\n\npublic class ProductMockRegistry : Registry\n{\n    public ProductMockRegistry()\n    {\n        ForRequestedType<IProductRepository>().AddInstances(repository =>\n        {\n            repository.OfConcreteType<ProductMockRepository>();\n        });\n    }\n}

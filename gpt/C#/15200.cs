@@ -1,0 +1,1 @@
+// Assuming 'myEntities' is your DbContext and 'entityName' is your DbSet\nvar filteredData = myEntities.entityName.Where(entity => entity.Field == fieldValue).ToList();\ngrid.DataSource = filteredData;

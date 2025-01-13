@@ -1,0 +1,1 @@
+var mockService = new Mock<IService>();\n    mockService.Setup(service => service.GetData()).Returns("Mocked Data");

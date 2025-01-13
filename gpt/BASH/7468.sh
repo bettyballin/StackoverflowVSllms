@@ -1,0 +1,1 @@
+chmod +x rename_images.sh\n./rename_images.sh

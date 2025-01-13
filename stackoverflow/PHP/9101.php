@@ -1,1 +1,0 @@
-<?\n$badUrl = "http://www.site.com/backend.php?/c=crud&m=index&t=care";\n$goodUrl = str_replace('?/', '?', $badUrl);

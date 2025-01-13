@@ -1,0 +1,1 @@
+SELECT \n    e.EmpID, \n    e.FirstName, \n    e.LastName, \n    e.Email, \n    e.Phone, \n    o.OtherName\nFROM \n    EMPLOYEE e\nJOIN \n    OTHERNAME o\nON \n    e.FirstName = o.Name;

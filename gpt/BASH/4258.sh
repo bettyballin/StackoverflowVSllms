@@ -1,0 +1,1 @@
+wpeinit\n\ncall detect_boot_drive.bat\n\n:: Example usage of the boot drive letter\n:: Replace "your_wim_file.wim" with the actual WIM file name\nimagex.exe /apply %bootdrv%\path\to\your_wim_file.wim 1 C:

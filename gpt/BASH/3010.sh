@@ -1,0 +1,1 @@
+openssl pkcs12 -export -in newcert.pem -inkey newkey.pem -out newcert.p12 -certfile demoCA/cacert.pem

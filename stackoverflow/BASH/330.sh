@@ -1,1 +1,0 @@
-#!/bin/bash\n\nsed "s/"${TM_DIRECTORY##*/}"/theWordYouWanToReplaceTheDirWith/g" | cat

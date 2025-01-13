@@ -1,0 +1,1 @@
+$("a:contains('Link 2')").each(function(){\n   // Find the title string for each row\n   var title = $(this).closest('.row').find('b').text();\n\n   // Log the title to verify\n   console.log(title);\n\n   // Add 'Link 3' after the current 'Link 2'\n   $(this).after(' <a href="#">Link 3</a>');\n});

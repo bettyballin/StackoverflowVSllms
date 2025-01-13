@@ -1,1 +1,0 @@
-IEnumerable<TResult> Zip<TResult,T1,T2>\n    (IEnumerable<T1> a,\n     IEnumerable<T2> b,\n     Func<T1,T2,TResult> combine)\n{\n    using (var f = a.GetEnumerator())\n    using (var s = b.GetEnumerator())\n    {\n        while (f.MoveNext() && s.MoveNext())\n            yield return combine(f.Current, s.Current);\n    }\n}

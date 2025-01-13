@@ -1,0 +1,1 @@
+<?php\n$db = sqlite_popen('my_database.db', 0666, $sqliteerror);\nif (!$db) {\n    die("SQLite error: " . $sqliteerror);\n}\n\n// Perform database operations\n$result = sqlite_query($db, 'SELECT * FROM my_table');\nwhile ($row = sqlite_fetch_array($result, SQLITE_ASSOC)) {\n    print_r($row);\n}\n?>

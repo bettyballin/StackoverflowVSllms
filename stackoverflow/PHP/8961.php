@@ -1,1 +1,0 @@
-$message = new Zend_Mail();\n$message->setFrom('fake@email.com', 'My Fake Mailing List')\n                                ->setSubject($subject)\n                                ->setBodyText($body);\n\nforeach($subscribers as $subscriber){\n\n    $message->addTo($subscriber->email);\n}\n$message->send();

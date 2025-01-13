@@ -1,0 +1,1 @@
+GetCustomer(1); // optionalMessage will be "(no message)"\nGetCustomer(1, "Hello"); // optionalMessage will be "Hello"

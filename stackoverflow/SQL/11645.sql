@@ -1,1 +1,0 @@
-SELECT\n   uc.id AS creator,\n   uu.id AS updater,\n   uo.id AS owner,\n   a.[name]\nFROM\n    asset a\n    JOIN\n    user uc ON uc.user_pk = a.created_by\n    JOIN\n    user uu ON uu.user_pk = a.updated_by\n    JOIN\n    user uo ON uo.user_pk = a.owned_by

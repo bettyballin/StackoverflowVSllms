@@ -1,1 +1,0 @@
-$last_line = $output = system ("~/public_html/cgi-bin/srch.sh &> ~/public_html/errors.txt",$retval);

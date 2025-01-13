@@ -1,0 +1,1 @@
+while($row = mysql_fetch_assoc($result)) {\n    echo '<tr>';\n    $pk = $row['ARTICLE_NO'];\n\n    foreach($row as $key => $value) {\n        echo '<td><a href="#" onclick="GetAuctionData(\''.$pk.'\')">' . $value . '</a></td>';\n    }\n    echo '</tr>';  // Don't forget to close the <tr> tag\n}

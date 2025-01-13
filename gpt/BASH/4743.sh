@@ -1,0 +1,1 @@
+sudo pecl uninstall pdo_mysql\n   sudo pecl uninstall pdo\n   sudo pecl uninstall mysql

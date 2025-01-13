@@ -1,0 +1,1 @@
+function saveTheme(theme) {\n        localStorage.setItem('selectedTheme', theme);\n    }

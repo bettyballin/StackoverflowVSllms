@@ -1,1 +1,0 @@
-list.Skip(fromRange).Take(toRange - fromRange)

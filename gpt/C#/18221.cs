@@ -1,0 +1,1 @@
+DataTable datatablePeople = new DataTable();\nDataRow newrow = datatablePeople.NewRow();\nnewrow["FirstName"] = "Bob";\ndatatablePeople.Rows.Add(newrow);\n// DataAdapter or similar required to update the database

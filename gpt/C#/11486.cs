@@ -1,0 +1,1 @@
+using System;\nusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        string fullPath = @"C:\temp\temp2\foo\bar.txt";\n        string directoryPath = Path.GetDirectoryName(fullPath);\n        string directoryName = new DirectoryInfo(directoryPath).Name;\n\n        Console.WriteLine(directoryName); // Output: foo\n    }\n}

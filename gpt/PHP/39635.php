@@ -1,0 +1,1 @@
+$conn = new XMPPHP_XMPP('jabber.org', 5222, 'username', 'password', 'xmpphp', 'domain', $printlog=false, $loglevel=XMPPHP_Log::LEVEL_INFO);\n    try {\n        $conn->connect();\n        $conn->processUntil('session_start');\n        $conn->presence();\n        echo "Connected and authenticated!";\n    } catch(XMPPHP_Exception $e) {\n        die($e->getMessage());\n    }

@@ -1,0 +1,1 @@
+BACKUP LOG [YourDatabaseName]\nTO DISK = 'C:\Backups\YourDatabaseName_Log.trn'\nWITH NAME = 'Transaction Log Backup of YourDatabaseName';

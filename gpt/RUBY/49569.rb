@@ -1,0 +1,1 @@
+# Creating a hash using the hash rocket syntax\noptions = { :on => :create }

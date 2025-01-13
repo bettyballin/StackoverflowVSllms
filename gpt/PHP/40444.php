@@ -1,0 +1,1 @@
+$data = array(\n    'title' => $this->input->post('title', TRUE),\n    'date' => $this->input->post('date', TRUE),\n    'mytext' => $this->input->post('mytext', TRUE)\n);\n\n$this->db->insert('blog', $data);

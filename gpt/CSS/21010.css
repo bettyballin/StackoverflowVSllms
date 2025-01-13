@@ -1,0 +1,1 @@
+#outerBox {\n  display: flex;\n}\n\n.innerBox {\n  flex: 1;\n  margin: 10px; /* Optional: to add some spacing between the boxes */\n  border: 1px solid #000; /* Optional: to visualize the boxes */\n}

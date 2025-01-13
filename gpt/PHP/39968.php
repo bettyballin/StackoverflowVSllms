@@ -1,0 +1,1 @@
+<?php\n     return [\n         'database' => [\n             'host' => 'localhost',\n             'username' => 'dev_user',\n             'password' => 'dev_pass',\n             'database' => 'dev_db',\n         ],\n         'google_map_api_key' => 'dev_api_key',\n         // Other dev-specific settings\n     ];

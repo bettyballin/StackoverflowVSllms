@@ -1,1 +1,0 @@
-MyFunction(++myInt);\nMyFunction(myInt++);

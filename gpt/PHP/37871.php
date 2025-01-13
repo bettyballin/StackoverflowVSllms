@@ -1,0 +1,1 @@
+// Example usage of OpenInviter\n   require_once('openinviter/openinviter.php');\n   $inviter = new OpenInviter();\n   $inviter->startPlugin('gmail');\n   $contacts = $inviter->getContacts('user@example.com', 'password');

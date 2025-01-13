@@ -1,0 +1,1 @@
+// Example: Focus on testing critical business logic\n   [Test]\n   public void CalculateTotal_ShouldReturnCorrectTotal()\n   {\n       var order = new Order();\n       order.AddItem(new Item("Widget", 10.0m));\n       order.AddItem(new Item("Gadget", 20.0m));\n       \n       var total = order.CalculateTotal();\n       \n       Assert.AreEqual(30.0m, total);\n   }

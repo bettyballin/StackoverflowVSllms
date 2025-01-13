@@ -1,0 +1,1 @@
+$query = "SELECT * FROM your_table";\n$result = mysql_query($query);\n\nif (!$result) {\n    die('Invalid query: ' . mysql_error());\n}\n\nwhile ($row = mysql_fetch_array($result)) {\n    // Process the row\n}

@@ -1,0 +1,1 @@
+import re\n\ndef is_valid_vb_string(input_string):\n    pattern = r'^"([^"]|(""))*"$'\n    return bool(re.match(pattern, input_string))\n\n# Example usage\ninput_string = '""This is a valid VB string with ""escaped"" quotes""'\nprint(is_valid_vb_string(input_string))  # Output: True or False

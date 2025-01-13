@@ -1,1 +1,0 @@
-$str = 'djriojnrwadoiaushd';\n$pos = strpos( $str, 'j' );\nif( $pos !== FALSE )\n{\n    echo substr_replace( $str, '', $pos, 1 );\n}

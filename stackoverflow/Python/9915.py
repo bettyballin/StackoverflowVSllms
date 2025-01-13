@@ -1,1 +1,0 @@
-mins = items[:n]\nmins.sort()\nfor i in items[n:]:\n    if i < mins[-1]: \n        mins.append(i)\n        mins.sort()\n        mins= mins[:n]

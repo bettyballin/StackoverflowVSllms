@@ -1,0 +1,1 @@
+session_start();\n   error_log("Session ID: " . session_id());

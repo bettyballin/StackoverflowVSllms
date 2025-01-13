@@ -1,0 +1,1 @@
+icacls "C:\path\to\your\site" /grant IUSR:(OI)(CI)RX

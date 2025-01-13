@@ -1,0 +1,1 @@
+et use X: \\sshfs\username@hostname\remote_folder

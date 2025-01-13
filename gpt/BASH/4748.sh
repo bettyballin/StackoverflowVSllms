@@ -1,0 +1,1 @@
+cd /etc/yum.repos.d/\n    wget http://vault.centos.org/5.11/os/x86_64/CentOS-Base.repo

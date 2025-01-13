@@ -1,0 +1,1 @@
+CREATE PROCEDURE SelectFromTables\n    @IncludeSecondTable BIT\nAS\nBEGIN\n    WITH CombinedResults AS (\n        SELECT * \n        FROM FirstTable\n        UNION ALL\n        SELECT * \n        FROM SecondTable\n        WHERE @IncludeSecondTable = 1\n    )\n    SELECT * FROM CombinedResults;\nEND

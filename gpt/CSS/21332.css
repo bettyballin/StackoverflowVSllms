@@ -1,0 +1,1 @@
+table {\n  border-collapse: collapse;\n  width: 100%; /* Ensure the table spans the full width of its container */\n}\n\ntr {\n  padding: 0;\n  margin: 0;\n  border: 0;\n}\n\ntd {\n  padding: 0;\n  margin: 0;\n  border: 0;\n}\n\nimg {\n  display: block; /* Remove any whitespace below the image */\n  width: 95px; /* Ensure the image width is set correctly */\n}

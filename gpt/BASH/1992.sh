@@ -1,0 +1,1 @@
+ssh serverA\n    ssh serverB

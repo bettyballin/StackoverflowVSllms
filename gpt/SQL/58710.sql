@@ -1,0 +1,1 @@
+-- Create temp table with only primary keys\n    SELECT PrimaryKey\n    INTO #TempTable\n    FROM PrimaryTable\n    WHERE <conditions>;\n\n    -- Further processing with join\n    SELECT pt.*\n    FROM PrimaryTable pt\n    JOIN #TempTable tt ON pt.PrimaryKey = tt.PrimaryKey\n    WHERE <paging conditions>;

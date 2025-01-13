@@ -1,0 +1,1 @@
+SELECT * FROM some_table WHERE id IN ('1001', '2002', '3003', ...);

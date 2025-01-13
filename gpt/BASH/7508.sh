@@ -1,0 +1,1 @@
+git clone https://github.com/fanf2/cmph.git\n  cd cmph\n  ./configure\n  make\n  sudo make install

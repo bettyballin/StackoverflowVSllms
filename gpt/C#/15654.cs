@@ -1,0 +1,1 @@
+Txns.Clear(); // Removes all elements from the dictionary\nTxns = null; // Removes the reference to the dictionary\nGC.Collect(); // Forces a garbage collectio

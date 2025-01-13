@@ -1,0 +1,1 @@
+#include <vector>\n#include <algorithm>\n\ntemplate <typename T>\nvoid ensure_sorted(std::vector<T>& v) {\n    if (!std::is_sorted(v.begin(), v.end())) {\n        std::sort(v.begin(), v.end());\n    }\n}

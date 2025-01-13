@@ -1,0 +1,1 @@
+// LegacyController.php\npublic function loginAction()\n{\n    global $someGlobalVariable;\n    $someGlobalVariable = 'some value';\n\n    include '/path/to/legacy/login.php';\n    return $this->getResponse();\n}

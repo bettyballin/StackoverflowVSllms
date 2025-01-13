@@ -1,1 +1,0 @@
-<?php\n    $lang = $_GET['lang'];\n    if ( empty($lang) ) $lang = 'fra';\n    header( 'Location: http://acecrodeo.com/new/01-acec.php?lang='.$lang) ;\n?>

@@ -1,0 +1,1 @@
+<!-- app/views/meals/_food_fields.html.erb -->\n   <div class="nested-fields">\n     <%= f.label :name %>\n     <%= f.text_field :name %>\n     <%= link_to_remove_fields "Remove Food", f %>\n   </div>

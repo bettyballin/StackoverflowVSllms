@@ -1,0 +1,1 @@
+WHERE [tstamp] >= @dateParam AND [tstamp] < DATEADD(day, 1, @dateParam)

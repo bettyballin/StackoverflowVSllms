@@ -1,0 +1,1 @@
+table {\n    margin: 10px 0;\n    padding: 0;\n    border-collapse: collapse;\n    border: 0;\n}\n\ntd {\n    border: 1px solid #CCCCCC;\n    padding: 5px;\n}\n\ntr:first-child td {\n    border-top: 0;\n}

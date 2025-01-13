@@ -1,0 +1,1 @@
+def example_action\n      @data = { key: 'value' }\n      render json: @data\n    end

@@ -1,1 +1,0 @@
-xml.setProperty "SelectionNamespaces", "xmlns:s='http://my.domain.com/' xmlns:soap='http://www.w3.org/2003/05/soap-envelope'"\n\n' ...\n\nSet redirectUrl = xml.selectSingleNode("/soap:Envelope/soap:Body/s:GetMsisdnResponse/s:GetMsisdnResult/s:RedirectUrl")

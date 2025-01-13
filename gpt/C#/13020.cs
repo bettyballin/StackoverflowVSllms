@@ -1,0 +1,1 @@
+var mockRepository = new Mock<IUserRepository>();\n   mockRepository.Setup(repo => repo.GetUser(It.IsAny<int>())).Returns(new User { Id = 1, Name = "Test User" });\n\n   var service = new UserService(mockRepository.Object);\n   var user = service.GetUser(1);\n\n   Assert.IsNotNull(user);\n   Assert.AreEqual("Test User", user.Name);

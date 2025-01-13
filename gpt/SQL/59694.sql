@@ -1,0 +1,1 @@
+SELECT orderID \nFROM tasks t1 \nWHERE NOT EXISTS (\n    SELECT 1 \n    FROM tasks t2 \n    WHERE t2.orderID = t1.orderID \n      AND t2.engineer1 IS NOT NULL \n      AND t2.engineer2 IS NOT NULL\n);

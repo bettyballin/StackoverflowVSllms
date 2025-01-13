@@ -1,1 +1,0 @@
-$conn = get_db_conn(); # should reuse a connection if it exists\n\n# Have MySQL count the rows, instead of fetching a list (also prevent injection)\n$res = mysql_query(sprintf("SELECT COUNT(*) FROM users WHERE uid=%d", $user));\n\n# if the query fails\nif (!$res) return false;\n\n# explode the result\nlist($count) = mysql_fetch_row($res);\nreturn ($count === '1');

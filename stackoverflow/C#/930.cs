@@ -1,1 +1,0 @@
-int numberOfColumns = int.MinValue;\n\nforeach (List<object> outputColumns in outputRows)\n{\n        if (numberOfColumns < outputColumns.Count)\n        { numberOfColumns = outputColumns.Count; }\n}

@@ -1,1 +1,0 @@
-/// <summary>\n    /// Interaction logic for App.xaml\n    /// </summary>\n    public partial class App : Application\n    {\n        public App()\n        {\n            FrameworkElement.LanguageProperty.OverrideMetadata(typeof(FrameworkElement), new FrameworkPropertyMetadata(XmlLanguage.GetLanguage(CultureInfo.CurrentCulture.IetfLanguageTag)));\n\n        }\n    }

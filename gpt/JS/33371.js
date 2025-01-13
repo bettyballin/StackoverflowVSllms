@@ -1,0 +1,1 @@
+function clearField(field, defaultValue) {\n    if (field.value === defaultValue) {\n        field.value = '';\n    }\n}

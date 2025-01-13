@@ -1,1 +1,0 @@
-$('.updatebutton-362').click

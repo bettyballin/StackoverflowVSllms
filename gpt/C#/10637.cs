@@ -1,0 +1,1 @@
+// To get a setting value\nvar mySettingValue = Properties.Settings.Default.anysetting;\n\n// To set a setting value\nProperties.Settings.Default.anysetting = "new value";\n\n// To save the setting value\nProperties.Settings.Default.Save();

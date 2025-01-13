@@ -1,1 +1,0 @@
-UPDATE ClusterControl\n     SET lastTimestamp = CURRENT_TIMESTAMP\n     WHERE NodeID = {MyNodeID};

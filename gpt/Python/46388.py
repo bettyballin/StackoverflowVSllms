@@ -1,0 +1,1 @@
+sep = b'\x01'\ndata = ["abc", "def", "ghi", "jkl"]\nresult = sep.join(s.encode('utf-8') for s in data).decode('utf-8')\nprint(result)

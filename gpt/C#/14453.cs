@@ -1,0 +1,1 @@
+[WebMethod]\npublic static string GetDate(string one, string two)\n{\n    return "yes";\n}

@@ -1,0 +1,1 @@
+# Create the writable directory\nmkdir /var/www/html/writable\n\n# Change ownership to the web server user\nchown www-data:www-data /var/www/html/writable\n\n# Set directory permissions to allow write access\nchmod 755 /var/www/html/writable

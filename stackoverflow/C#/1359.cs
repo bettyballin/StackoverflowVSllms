@@ -1,1 +1,0 @@
-// serverless\nDirectoryEntry rootConfig = new DirectoryEntry("LDAP://dc=domainname,dc=com");\n\n// server bound\nDirectoryEntry rootEntry = new DirectoryEntry("LDAP://domainControllerName/dc=domainName,dc=com");

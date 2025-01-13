@@ -1,1 +1,0 @@
-SELECT\n    Table1.PersonCode, Table1.Name, Table2.Location, MAX(Table2.ServiceDate)\nFROM\n    Table1 \n    INNER JOIN Table2 on Table1.ID = Table2.Table1ID \nWHERE\n    TABLE1.PersonCode = 'XYZ'\nGROUP BY\n    Table1.PersonCode,Table1.Name, Table2.Locatio

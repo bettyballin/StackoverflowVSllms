@@ -1,1 +1,0 @@
->> Process.kill 0, 370\n=> 1\n>> Process.kill 0, 2\nErrno::ESRCH: No such process\n    from (irb):5:in `kill'\n    from (irb):5\n>> 

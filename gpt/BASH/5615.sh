@@ -1,0 +1,1 @@
+chown -R mysql:mysql /database/mysql\n    chmod 750 /database/mysql

@@ -1,0 +1,1 @@
+// Insert a new row\n    DataRow newRow = ds.Tables["SampleTable"].NewRow();\n    newRow["Id"] = 3;\n    newRow["Name"] = "Alice";\n    ds.Tables["SampleTable"].Rows.Add(newRow);

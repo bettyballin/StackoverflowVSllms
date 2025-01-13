@@ -1,0 +1,1 @@
+const uncss = require('uncss');\n\n    const files = ['index.html', 'about.tpl'];\n\n    uncss(files, (error, output) => {\n      console.log(output);\n    });

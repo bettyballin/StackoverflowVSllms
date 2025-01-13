@@ -1,0 +1,1 @@
+using System.Security.Cryptography;\n\npublic string GenerateSecureToken()\n{\n    using (var rng = new RNGCryptoServiceProvider())\n    {\n        var tokenData = new byte[32];\n        rng.GetBytes(tokenData);\n        return Convert.ToBase64String(tokenData);\n    }\n}

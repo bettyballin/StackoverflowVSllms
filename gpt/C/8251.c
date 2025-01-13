@@ -1,0 +1,1 @@
+CRITICAL_SECTION cs;\n// Initialization of critical section somewhere in your code\nInitializeCriticalSection(&cs);\n\n// In the code where you need to update values atomically\nEnterCriticalSection(&cs);\nvalue1++;\nvalue2++;\noldValue = newValue;\nLeaveCriticalSection(&cs);\n\n// Cleanup critical section somewhere in your code\nDeleteCriticalSection(&cs);

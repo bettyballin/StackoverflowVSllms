@@ -1,0 +1,1 @@
+using (SqlCommand cmd = new SqlCommand("INSERT INTO MyTable (Name, Data) VALUES (@Name, @Data)", connection))\n{\n    cmd.Parameters.Add(new SqlParameter("@Name", SqlDbType.NVarChar, 50)).Value = "John Doe";\n    cmd.Parameters.Add(new SqlParameter("@Data", SqlDbType.VarBinary, 8000)).Value = myByteArray;\n    cmd.ExecuteNonQuery();\n}

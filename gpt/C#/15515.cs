@@ -1,0 +1,1 @@
+public partial class YourView : UserControl\n{\n    public YourView()\n    {\n        InitializeComponent();\n        DataContext = new YourViewModel();\n    }\n}

@@ -1,0 +1,1 @@
+fetch('/api/atms')\n    .then(response => response.json())\n    .then(data => {\n        data.forEach(atm => addATMMachine(atm.location, atm.status));\n    });

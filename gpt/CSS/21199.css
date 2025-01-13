@@ -1,0 +1,1 @@
+div#thing {\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  z-index: 2;\n  margin: 0 auto;\n  width: fit-content; /* Adjust width as needed */\n}

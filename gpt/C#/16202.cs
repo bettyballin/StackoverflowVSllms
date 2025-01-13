@@ -1,0 +1,1 @@
+WebBrowser1.Navigate("file:///C:/path/to/empty.html");

@@ -1,1 +1,0 @@
-// Comments out by Corey Trager, Oct 2008 to workaround permission restrictions at shared host.  This is not used.\n//        public static readonly System.String LOCK_DIR = SupportClass.AppSettings.Get("Lucene.Net.lockDir", System.IO.Path.GetTempPath());

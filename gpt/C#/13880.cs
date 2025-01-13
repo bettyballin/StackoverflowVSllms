@@ -1,0 +1,1 @@
+// Save activation key to HKCU\n   RegistryKey key = Registry.CurrentUser.CreateSubKey(@"SOFTWARE\MyApp");\n   key.SetValue("ActivationKey", activationKey);\n   key.Close();

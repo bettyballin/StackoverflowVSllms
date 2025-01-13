@@ -1,0 +1,1 @@
+# On a system using systemd\nsudo systemctl restart named\n\n# On older systems\nsudo service named restart

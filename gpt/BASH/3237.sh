@@ -1,0 +1,1 @@
+sed 's/\([0-9]*\) qux/\1 /' data.txt > output.txt

@@ -1,0 +1,1 @@
+find A -type f | sort > listA.txt\nfind B -type f | sort > listB.txt\ncomm -12 listA.txt listB.txt

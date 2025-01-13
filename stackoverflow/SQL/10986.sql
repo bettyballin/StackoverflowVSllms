@@ -1,1 +1,0 @@
-SELECT p.prod_name, l.label_name\nFROM products p\nJOIN labels l\n    ON l.label_id = p.label_id\nWHERE p.in_stock > 0

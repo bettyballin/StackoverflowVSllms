@@ -1,0 +1,1 @@
+#include <iostream>\n#include <filesystem>\n\nnamespace fs = std::filesystem;\n\nbool file_exists(const std::string& path) {\n    return fs::exists(path);\n}\n\nint main() {\n    std::string path = "example.txt";\n    if (file_exists(path)) {\n        std::cout << "File exists.\n";\n    } else {\n        std::cout << "File does not exist.\n";\n    }\n    return 0;\n}

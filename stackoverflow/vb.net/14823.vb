@@ -1,1 +1,0 @@
-Dim lines = File.GetAllLines("file.xml")\n' Check the lines (which is a String array) for the criteria

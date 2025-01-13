@@ -1,0 +1,1 @@
+public partial class MyDataContext : DataContext {\n        public Table<Author> Authors;\n        \n        public MyDataContext(string connection) : base(connection) { }\n    }

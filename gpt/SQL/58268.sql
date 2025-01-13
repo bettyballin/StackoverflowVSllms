@@ -1,0 +1,1 @@
+-- Example using CTE instead of temporary table\n    WITH EmployeeCTE AS (\n        SELECT employee_id, name, salary\n        FROM employees\n        WHERE department_id = 10\n    )\n    SELECT * FROM EmployeeCTE;

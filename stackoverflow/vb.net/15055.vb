@@ -1,1 +1,0 @@
-Private Function getAllTextBoxes(ByVal container As ContainerControl) As Dictionary(Of String, TextBox)\n    Dim allTextBoxes As New Dictionary(Of String, TextBox)\n\n    For Each ctrl As Control In container.Controls\n        If TypeOf ctrl Is TextBox Then allTextBoxes.Add(ctrl.Name, ctrl)\n    Next\n\n    Return allTextBoxes\nEnd Functio

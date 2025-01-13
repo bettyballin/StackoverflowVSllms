@@ -1,1 +1,0 @@
-cast(getdate() as Date)

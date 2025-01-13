@@ -1,1 +1,0 @@
-(article_id, revision_id, differences)

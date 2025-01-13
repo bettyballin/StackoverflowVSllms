@@ -1,0 +1,1 @@
+// Storing search results in Session\nSession["SearchResults"] = searchResults;\n\n// Retrieving search results from Session\nvar searchResults = Session["SearchResults"];

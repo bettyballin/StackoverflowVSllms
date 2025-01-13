@@ -1,0 +1,1 @@
+struct SMyDataWord\n{\n    int Name : 40;\n    int Colour : 24;\n};

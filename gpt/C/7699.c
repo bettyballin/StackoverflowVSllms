@@ -1,0 +1,1 @@
+#include <stdint.h>\n\nint test(int x) {\n    int y;\n    union {\n        uint32_t full;\n        uint16_t half[2];\n    } temp;\n\n    temp.full = x;\n    asm ("rorw $8, %0" : "=r"(temp.half[0]) : "0"(temp.half[0]));\n    y = temp.full;\n\n    return y;\n}

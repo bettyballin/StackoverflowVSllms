@@ -1,0 +1,1 @@
+sudo adduser testuser\nsudo usermod -aG sudo testuser

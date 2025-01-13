@@ -1,0 +1,1 @@
+SELECT \n    tags.id, \n    tags.tag_name, \n    COUNT(examples_tags.example_id) AS no_examples\nFROM \n    tags\nJOIN \n    examples_tags ON tags.id = examples_tags.tag_id\nJOIN \n    examples ON examples.id = examples_tags.example_id\nWHERE \n    examples.category = 'english examples'\nGROUP BY \n    tags.id, tags.tag_name;

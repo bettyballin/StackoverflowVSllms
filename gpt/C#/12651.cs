@@ -1,0 +1,1 @@
+using (var document = new PdfDocument())\n   {\n       // Your PDF generation logic here\n   }

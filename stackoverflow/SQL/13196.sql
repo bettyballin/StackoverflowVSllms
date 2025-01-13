@@ -1,1 +1,0 @@
-select courseid as cid,\nif ( select count(*) from instructor where courseid = cid ) > 2 \n   then 'Committee' \nelse \n   list(name order by name) \nendif as profs\nfrom instructor\ngroup by courseid\norder by cid 

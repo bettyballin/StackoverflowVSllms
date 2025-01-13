@@ -1,1 +1,0 @@
-<%= Ajax.ActionLink("Log On", "LogOn", "Account", new AjaxOptions {\n    UpdateTargetId = "lll",\n    Confirm = "blah",\n    HttpMethod = "Get"}) %>

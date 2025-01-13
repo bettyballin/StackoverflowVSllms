@@ -1,1 +1,0 @@
-var tpl = "<div> ... </div>"

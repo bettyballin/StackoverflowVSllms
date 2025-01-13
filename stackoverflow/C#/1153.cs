@@ -1,1 +1,0 @@
-string GetOtherPage(System.Uri url)\n{\n    return new System.Net.WebClient().DownloadString(url);\n}

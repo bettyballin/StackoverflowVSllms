@@ -1,0 +1,1 @@
+services.AddAntiforgery(options => options.HeaderName = "X-XSRF-TOKEN");

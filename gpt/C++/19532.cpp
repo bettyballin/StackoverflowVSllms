@@ -1,0 +1,1 @@
+#include "base.h"\n    #include "dll.h"\n\n    class D3D9Sprite : public base::Sprite {\n        // Implement all virtual methods from base::Sprite\n    };\n\n    extern "C" __declspec(dllexport) base::Sprite* CreateSpriteInstance() {\n        return new D3D9Sprite();\n    }

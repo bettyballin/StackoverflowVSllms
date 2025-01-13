@@ -1,0 +1,1 @@
+using MyApplication.Interfaces;\n\nnamespace MyApplication.Implementations\n{\n    [Export(typeof(IMyService))]\n    public class MyService : IMyService\n    {\n        public void Execute()\n        {\n            // Implementation code here\n        }\n    }\n}

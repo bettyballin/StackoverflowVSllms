@@ -1,0 +1,1 @@
+// src/Controller/PostsController.php\n   namespace App\Controller;\n\n   class PostsController extends AppController\n   {\n       public function index()\n       {\n           $this->commonMethod();\n           // Other code specific to PostsController\n       }\n   }

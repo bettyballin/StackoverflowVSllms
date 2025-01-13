@@ -1,0 +1,1 @@
+cscript.exe iiscnfg.vbs /import /f c:\backup.xml /dp /lm /u username /p password

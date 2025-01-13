@@ -1,1 +1,0 @@
-<configuration>\n   <location path="ProtectedPage.aspx">\n      <system.web>\n         <authorization>\n            <allow users="SomeUser"/>\n            <deny users="?"/>\n         </authorization>\n      </system.web>\n   </location>\n</configuration>

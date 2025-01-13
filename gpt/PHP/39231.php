@@ -1,0 +1,1 @@
+// Assuming $row['url'] contains the URL from MySQL\n$url = str_replace("%3A", ":", nl2br($row['url']));\n\n// Echo the modified URL\necho $url;

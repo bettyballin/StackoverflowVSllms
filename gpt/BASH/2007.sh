@@ -1,0 +1,1 @@
+rdiff signature file1.txt file1.sig

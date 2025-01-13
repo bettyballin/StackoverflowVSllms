@@ -1,1 +1,0 @@
-new AjaxOptions { UpdateTargetId = "somebox", LoadingElementId = "status-waiting" }

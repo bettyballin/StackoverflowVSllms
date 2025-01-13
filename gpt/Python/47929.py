@@ -1,0 +1,1 @@
+import foo\n\nd = foo.data\nd.fn(1, 2, 3)

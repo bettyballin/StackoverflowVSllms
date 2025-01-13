@@ -1,0 +1,1 @@
+' Using My namespace to read a text file\nDim contents As String\ncontents = My.Computer.FileSystem.ReadAllText("c:\mytextfile.txt")

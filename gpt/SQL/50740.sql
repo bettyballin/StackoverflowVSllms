@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\nWITH MaxID AS (\n    SELECT MAX(id) AS max_id FROM Table1\n)\nINSERT INTO Table1 (id, data_field)\nSELECT max_id + 1, '[blob of data]'\nFROM MaxID;\n\nCOMMIT TRANSACTION;

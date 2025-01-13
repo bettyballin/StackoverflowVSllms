@@ -1,0 +1,1 @@
+:: Install Apache as a service\nxampp/apache_installservice.bat\n\n:: Install MySQL as a service\nxampp/mysql_installservice.bat

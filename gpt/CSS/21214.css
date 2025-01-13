@@ -1,0 +1,1 @@
+.text-replacement {\n    display: flex;\n    gap: 10px; /* Adjust spacing between images as needed */\n}\n\n.word {\n    position: relative;\n    display: inline-block;\n}\n\n.word::before {\n    content: attr(data-text);\n    visibility: hidden;\n    display: block;\n    height: 0;\n    overflow: hidden;\n}\n\n.word img {\n    display: inline-block;\n}

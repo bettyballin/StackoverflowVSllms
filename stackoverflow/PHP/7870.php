@@ -1,1 +1,0 @@
-$result = mysql_query("UPDATE auth SET username='$username', password='$password', studycode='$studycode', description='$description', server='$server' WHERE `index` ='$id'");

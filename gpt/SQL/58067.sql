@@ -1,0 +1,1 @@
+SELECT \n    e.eventId, \n    e.eventName, \n    STRING_AGG(a.artistName, ', ') AS ArtistLineup\nFROM \n    event e\nJOIN \n    event_artist a ON e.eventId = a.eventId\nGROUP BY \n    e.eventId, e.eventName;

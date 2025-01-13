@@ -1,0 +1,1 @@
+<?php echo $this->jQuery()\n    ->setUiVersion('1.8.24') // Ensure you use jQuery UI 1.8 or later\n    ->setCdnSsl(true)\n    ->addStylesheet('https://code.jquery.com/ui/1.8.24/themes/base/jquery-ui.css')\n    ->setLocalPath('https://code.jquery.com/jquery-1.4.2.min.js')\n    ->addJavascriptFile('https://code.jquery.com/ui/1.8.24/jquery-ui.min.js');\n?>

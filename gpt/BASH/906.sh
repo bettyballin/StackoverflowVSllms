@@ -1,0 +1,1 @@
+strings binary_file | grep GCC

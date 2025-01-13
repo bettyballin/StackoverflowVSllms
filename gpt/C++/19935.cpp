@@ -1,0 +1,1 @@
+class X {};\n   class Y {};\n   class Both : public X, public Y {};\n\n   void doIt(X *arg) { }\n   void doIt(Y *arg) { }\n\n   int main() {\n       Both *b = new Both();\n       doIt(b);  // Ambiguous call\n   }

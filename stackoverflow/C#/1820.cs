@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\n    class myDllCaller {\n\n       //call to function in the dll returning an int\n      [DllImport("MyFavorite.dll")]\n      private static extern int dllFunction(//list of parameters to function);\n\n    public static void Main() {\n    int rerult = dllFunction();\n\n    }\n}

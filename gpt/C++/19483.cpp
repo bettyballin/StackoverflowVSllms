@@ -1,0 +1,1 @@
+// MyClass.cpp\n     #include "MyClass.h"\n     #include <iostream>\n\n     MyClass::MyClass() {}\n\n     void MyClass::DisplayMessage() {\n         std::cout << "Hello from MyClass!" << std::endl;\n     }

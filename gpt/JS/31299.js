@@ -1,0 +1,1 @@
+function setProgress(progress) {\n  var progressBar = document.getElementById('progressBar');\n  if (progressBar) {\n    progressBar.style.width = progress + '%';\n    progressBar.innerText = progress + '%';\n  }\n}

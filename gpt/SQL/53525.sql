@@ -1,0 +1,1 @@
+-- MySQL View\n   CREATE VIEW standardized_view AS\n   SELECT id, name, email FROM users;\n\n   -- PostgreSQL View\n   CREATE VIEW standardized_view AS\n   SELECT id, name, email FROM users;

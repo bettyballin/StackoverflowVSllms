@@ -1,1 +1,0 @@
-$("a.voteup").click(function(){\n  $.get("updatescore.php", {"id":"112","score":"1"}, function(response){\n    /* Do something with the response */\n  });\n});

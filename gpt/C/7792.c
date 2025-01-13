@@ -1,0 +1,1 @@
+// Original kernel file (e.g., tcp_input.c)\nstatic void original_function(void) {\n    // do something interesting\n}\n\nvoid (*function_ptr)(void) = original_function;\nEXPORT_SYMBOL(function_ptr);

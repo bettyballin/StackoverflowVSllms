@@ -1,0 +1,1 @@
+curl -X POST -d "item[name]=myname" -H "Content-Type: application/x-www-form-urlencoded" http://localhost:3000/items

@@ -1,0 +1,1 @@
+function xwait() {\n    while ! xwininfo -name "$1" | grep -q 'Map State: IsViewable'; do sleep 1; done\n}\n\nxterm -T foo &\nxwait foo\nxmovewindow foo 10 20

@@ -1,1 +1,0 @@
-$this->view->variables['foo'] = 'bar';\n\nextract($this->view->variables); // now $foo = 'bar';

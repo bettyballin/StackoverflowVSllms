@@ -1,1 +1,0 @@
-select * from Property\nwhere \nexists (select * from Property_Feature where pid = property.pid and fid = 'key_air_conditioning')\nand\nexists (select * from Property_Feature where pid = property.pid and fid = 'key_pool')

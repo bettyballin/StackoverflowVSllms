@@ -1,0 +1,1 @@
+protected void Application_Error(object sender, EventArgs e)\n   {\n       Exception ex = Server.GetLastError();\n       // Log the exception or handle it as needed\n       Server.ClearError();\n       Response.Redirect("~/errorpage.aspx");\n   }

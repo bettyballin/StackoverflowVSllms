@@ -1,1 +1,0 @@
-SELECT password_field FROM mytable WHERE password_field=pwdencrypt(userEnteredValue)

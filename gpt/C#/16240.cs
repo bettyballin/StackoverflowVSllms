@@ -1,0 +1,1 @@
+// Example ASP.NET Web API Controller\nusing System.Web.Http;\n\npublic class ExampleController : ApiController\n{\n    [HttpGet]\n    [Route("api/example/getdata")]\n    public IHttpActionResult GetData()\n    {\n        // Call your .dll file here and get the result\n        var result = YourDllClass.YourMethod();\n        return Ok(result);\n    }\n}

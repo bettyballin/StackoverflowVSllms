@@ -1,0 +1,1 @@
+sudo bpftrace -e 'tracepoint:syscalls:sys_enter_* { printf("%s\n", probe); }'

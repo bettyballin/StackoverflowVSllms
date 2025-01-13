@@ -1,1 +1,0 @@
-class IWantToBeFriendsWithMyStruct\n{\n    template <typename T, typename U>\n    friend struct MyStruct;\n};

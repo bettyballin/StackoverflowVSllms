@@ -1,1 +1,0 @@
-Load from desc.txt insert into crsabstr_rec;

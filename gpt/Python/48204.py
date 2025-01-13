@@ -1,0 +1,1 @@
+# __init__.py\n\n# Initialization code or import statements\nprint("Initializing package")\n\n# Specify the modules to export\n__all__ = ["module1", "module2"]

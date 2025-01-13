@@ -1,0 +1,1 @@
+public partial class Form1 : Form\n{\n    public Form1()\n    {\n        InitializeComponent();\n    }\n\n    private void btnOpenForm2_Click(object sender, EventArgs e)\n    {\n        int customerId = 123; // Example customer ID\n        Form2 form2 = new Form2(customerId);\n        form2.Show();\n    }\n}

@@ -1,0 +1,1 @@
+a2enmod deflate\nsystemctl restart apache2

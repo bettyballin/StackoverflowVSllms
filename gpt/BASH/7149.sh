@@ -1,0 +1,1 @@
+sudo apt-get install rsnapshot\n     rsnapshot configtest  # Validate the configuration\n     rsnapshot hourly  # Perform an hourly backup\n     rsnapshot daily   # Perform a daily backup

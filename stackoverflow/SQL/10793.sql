@@ -1,1 +1,0 @@
-CREATE VIEW vw_Miles WITH SCHEMABINDING AS \nSELECT SUM([Count]) AS TotalMiles, \nCOUNT_BIG(*) AS [EntryCount],\nUserId\nFROM Miles\nGROUP BY UserID\nGO\nCREATE UNIQUE CLUSTERED INDEX ix_Miles ON vw_Miles(UserId)

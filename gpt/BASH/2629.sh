@@ -1,0 +1,1 @@
+depends.exe YourDLL.dll

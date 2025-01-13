@@ -1,0 +1,1 @@
+class MyClass {\n    private $privateMember;\n\n    public function __construct($value) {\n        $this->privateMember = $value;\n    }\n\n    public function getPrivateMember() {\n        return $this->privateMember;\n    }\n\n    public function setPrivateMember($value) {\n        $this->privateMember = $value;\n    }\n}

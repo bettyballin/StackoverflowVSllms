@@ -1,0 +1,1 @@
+g++ -std=c++11 -fpic -shared -o my_extension.so my_extension.cpp `php-config --includes` -lphpcpp

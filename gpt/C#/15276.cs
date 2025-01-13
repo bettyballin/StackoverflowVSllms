@@ -1,0 +1,1 @@
+string uniqueFilename = Server.MapPath($"{Guid.NewGuid()}.png");\nchart.SaveImage(uniqueFilename, ChartImageFormat.Png);

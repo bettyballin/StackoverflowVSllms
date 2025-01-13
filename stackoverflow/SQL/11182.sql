@@ -1,1 +1,0 @@
-declare @start datetime\nset @start = '2008-11-02 15:59:59.790'\n\ndeclare @end datetime\nset @end = '2008-11-02 19:05:41.857'

@@ -1,1 +1,0 @@
-term = "awesome"\nWidget.all(:conditions => ["name LIKE ?", "%#{term}%"])

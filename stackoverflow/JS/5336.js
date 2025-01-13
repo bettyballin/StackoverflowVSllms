@@ -1,1 +1,0 @@
-var divs = document.getElementsByTagName("div");\n//divs now contain each and every div element on the page\nvar selectionDiv = document.getElementById("MySecondDiv");

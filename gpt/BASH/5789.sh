@@ -1,0 +1,1 @@
+mkdir -p AppDir/usr/bin\n    cp your-application AppDir/usr/bin/

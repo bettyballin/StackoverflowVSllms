@@ -1,0 +1,1 @@
+amespace Application\Controller;\n\n   use Zend\Mvc\Controller\AbstractActionController;\n   use Zend\View\Model\ViewModel;\n\n   class UserController extends AbstractActionController\n   {\n       public function loginAction()\n       {\n           // Handle the login logic here\n           return new ViewModel();\n       }\n   }

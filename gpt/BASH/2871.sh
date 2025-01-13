@@ -1,0 +1,1 @@
+setspn -A HTTP/yourwebserver.yourdomain.com DomainUser

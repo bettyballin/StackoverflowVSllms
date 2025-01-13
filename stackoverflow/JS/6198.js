@@ -1,1 +1,0 @@
-document.getElementById('IframeId').contentWindow.document.getElementById('DivId');

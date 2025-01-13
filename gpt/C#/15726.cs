@@ -1,0 +1,1 @@
+Assert.That(!product.IsValid());

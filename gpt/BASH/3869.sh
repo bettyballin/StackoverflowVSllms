@@ -1,0 +1,1 @@
+sudo mkdir -p /var/svn\nsudo chown -R www-data:www-data /var/sv

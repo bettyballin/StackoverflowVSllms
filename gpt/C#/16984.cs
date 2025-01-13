@@ -1,0 +1,1 @@
+DataTable dataTable = yourTableAdapter.GetData();\n// Perform operations on dataTable

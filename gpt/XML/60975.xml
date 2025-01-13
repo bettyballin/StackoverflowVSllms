@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>commons-jxpath</groupId>\n    <artifactId>commons-jxpath</artifactId>\n    <version>1.3</version>\n</dependency>

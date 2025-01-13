@@ -1,1 +1,0 @@
-$.getJSON( 'http://<url>/api.php?callback=?', function ( data ) { alert ( data ); } );

@@ -1,0 +1,1 @@
+// PHP4\n   $variable = $some_value;\n   \n   // PHP5\n   $variable = $_GET['variable'];

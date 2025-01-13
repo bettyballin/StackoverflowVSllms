@@ -1,1 +1,0 @@
-def box_sizes(width, num_boxes) :\n    first_box = width / (10 * (1 - 0.9**n))\n    return [first_box * 0.9**i for i in range(n)]\n\n>>> box_sizes(100, 5)\n[24.419428096993972, 21.977485287294574, 19.779736758565118, 17.801763082708607, 16.021586774437747]\n>>> sum(_)\n100.00000000000001

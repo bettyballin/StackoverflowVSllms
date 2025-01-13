@@ -1,0 +1,1 @@
+double _AccelLimit;\nDataRow exercise = _exerciseDataSet.Exercise.FindByExerciseID(65);\n_AccelLimit = (double)exercise["DefaultAccelLimit"];

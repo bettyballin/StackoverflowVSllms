@@ -1,1 +1,0 @@
-for a in *.php\ndo\n  unexpand -t 4 $a >$a-notab\n  mv $a-notab $a\ndone

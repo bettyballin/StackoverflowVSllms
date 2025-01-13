@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Run gcc and capture the output\ngcc your_project_files.c 2>&1 | tee gcc_output.log | \\n# Highlight index warnings in red\ngrep --color=always -E "index|$" | \\n# Highlight unused warnings in blue\ngrep --color=always -E "unused|$" | \\n# Highlight other specific warnings in different colors\ngrep --color=always -E "specific_warning|$"

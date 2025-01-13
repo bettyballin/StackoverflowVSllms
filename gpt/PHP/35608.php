@@ -1,0 +1,1 @@
+while (!feof($file)) {\n       echo fread($file, 8192);\n       flush();\n   }\n   fclose($file);

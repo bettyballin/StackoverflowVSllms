@@ -1,1 +1,0 @@
-myTreeNode.Parent.FirstNode

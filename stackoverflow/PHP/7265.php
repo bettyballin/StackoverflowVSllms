@@ -1,1 +1,0 @@
-class someThing {\n\n    private $data = array();\n\n    public function __get( $property )\n    {\n        if ( isset( $this->data[$property] ) )\n        {\n            return $this->data[$property];\n        }\n        return null;\n    }\n\n    public function __set( $property, $value )\n    {\n        $this->data[$property] = $value;\n    }\n}

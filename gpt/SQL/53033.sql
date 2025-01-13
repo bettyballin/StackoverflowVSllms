@@ -1,0 +1,1 @@
+BEGIN\n    DBMS_STATS.GATHER_TABLE_STATS('your_schema', 'table1');\nEND;

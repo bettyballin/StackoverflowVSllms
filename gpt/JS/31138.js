@@ -1,0 +1,1 @@
+myObject.addEventListener(EventType, eventHandler, false, 0, true); // The last parameter 'true' makes the reference weak

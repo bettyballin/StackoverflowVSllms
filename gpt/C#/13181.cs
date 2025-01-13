@@ -1,0 +1,1 @@
+var hht = from x in db.HandheldAssets\n          join a in db.HandheldDevInfos on x.AssetID equals a.DevName into DevInfo\n          from aa in DevInfo.DefaultIfEmpty()\n          select new\n          {\n              AssetID = x.AssetID,\n              Status = (aa.Online ?? false) // Use the null-coalescing operator to set default value to false if null\n          };

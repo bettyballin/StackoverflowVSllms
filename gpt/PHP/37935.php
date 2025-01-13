@@ -1,0 +1,1 @@
+try {\n    // Do something\n} catch (Exception $ex) {\n    // Handle the error\n}\n\n// Clean up after yourself\ncleanup();\n\nfunction cleanup() {\n    // Your cleanup code here\n}

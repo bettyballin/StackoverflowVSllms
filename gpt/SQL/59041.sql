@@ -1,0 +1,1 @@
+SELECT employee_id, employee_name\nFROM employees\nWHERE department_id = 10;

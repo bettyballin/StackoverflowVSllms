@@ -1,1 +1,0 @@
-UPDATE\n     T1\nSET\n     column_1 = T2.column_1,\n     column_2 = T2.column_2,\n     ...\nFROM\n     dbo.My_Table T1\nINNER JOIN dbo.My_Table T2 ON\n     T2.id =\n          CASE\n               WHEN T1.id = @id_1 THEN @id_2\n               WHEN T1.id = @id_2 THEN @id_1\n               ELSE NULL\n          END\nWHERE\n     T1.id IN (@id_1, @id_2)

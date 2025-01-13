@@ -1,0 +1,1 @@
+pg_dump -U your_pg_username -h your_pg_host -d your_pg_database -t your_table -F c -f your_table.dump

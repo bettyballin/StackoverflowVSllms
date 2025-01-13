@@ -1,1 +1,0 @@
-function getCookie(N){\n   if(N=(new RegExp(';\\s*'+N+'=([^;]*)')).exec(';'+document.cookie+';'))\n      return N[1]\n}

@@ -1,0 +1,1 @@
+public static class AppProperties\n   {\n       public static string FromMailAddress = "your-email@example.com";\n       public static string FromDisplayName = "Your Name";\n       public static bool EnableSsl = false; // IIS 5.1 SMTP does not support SSL\n   }

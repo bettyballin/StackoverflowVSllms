@@ -1,1 +1,0 @@
-sqlite3_stmt* statement_handle;\nsqlite3_prepare_v2(db, "select a,b from Table where c = ?", -1, &statement_handle, NULL);

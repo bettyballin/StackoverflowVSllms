@@ -1,0 +1,1 @@
+[WebMethod]\npublic string SendEmail(string param1, string param2, string param3, string param4, string param5)\n{\n    // Your logic here\n    return "Email sent successfully!";\n}

@@ -1,1 +1,0 @@
-Table: Item\nColumns: ItemID, Title, Content\n\nTable: Tag\nColumns: TagID, Title\n\nTable: ItemTag\nColumns: ItemID, TagID

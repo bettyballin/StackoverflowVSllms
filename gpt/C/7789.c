@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <stdlib.h>\n\nvoid* monitored_malloc(size_t size) {\n    void* ptr = malloc(size);\n    printf("Allocated %zu bytes at %p\n", size, ptr);\n    return ptr;\n}\n\nvoid monitored_free(void* ptr) {\n    printf("Freed memory at %p\n", ptr);\n    free(ptr);\n}\n\n// Replace all malloc and free calls in your code with monitored_malloc and monitored_free

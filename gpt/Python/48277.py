@@ -1,0 +1,1 @@
+import datetime\n\ntimestamp = 1251783433\ndate_time = datetime.datetime.fromtimestamp(timestamp)\nprint(date_time.strftime('%Y-%m-%d %H:%M:%S'))

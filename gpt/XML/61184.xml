@@ -1,0 +1,1 @@
+<web-app>\n         <servlet>\n             <servlet-name>RMITunnelServlet</servlet-name>\n             <servlet-class>com.example.RMITunnelServlet</servlet-class>\n         </servlet>\n         <servlet-mapping>\n             <servlet-name>RMITunnelServlet</servlet-name>\n             <url-pattern>/rmi-tunnel</url-pattern>\n         </servlet-mapping>\n     </web-app>

@@ -1,0 +1,1 @@
+CREATE TABLE ExampleTable (\n    ExampleColumn nvarchar(50)\n);\n\nINSERT INTO ExampleTable (ExampleColumn)\nVALUES ('Hello');

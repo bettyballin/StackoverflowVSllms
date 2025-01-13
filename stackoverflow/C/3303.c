@@ -1,1 +1,0 @@
-int strpos(char* a, char* b) {\n  int n1, n2, i, j;\n  n1 = strlen(a);\n  n2 = strlen(b);\n  for (i = 0; i < n1-n2; i++) {\n    for (j = 0; j < n2; j++) {\n      if (a[i+j] != b[j]) break;\n      else if (j+1 == n2) return i;\n    }\n  }\n  return -1;\n}

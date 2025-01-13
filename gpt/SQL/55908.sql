@@ -1,0 +1,1 @@
+INSERT INTO FOO_Fruits (foo_id, fruit_id) VALUES (1, 1), (1, 2);

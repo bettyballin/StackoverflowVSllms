@@ -1,0 +1,1 @@
+WebProxy proxy = new WebProxy("http://<proxy address>:<port>", true);\nproxy.Credentials = new NetworkCredential("username", "password");\n\nHttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://<web service url>");\nrequest.Proxy = proxy;\n\nHttpWebResponse response = (HttpWebResponse)request.GetResponse();

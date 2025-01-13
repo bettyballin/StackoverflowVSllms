@@ -1,0 +1,1 @@
+rm -rf /path_to_data_directory/*

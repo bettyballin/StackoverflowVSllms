@@ -1,1 +1,0 @@
-SELECT * FROM passenger ppp\nINNER JOIN [passenger-flylist] ppff \nON ppp.[passenger-id] = ppff.[passenger-id]

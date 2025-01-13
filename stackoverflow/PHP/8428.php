@@ -1,1 +1,0 @@
-[LOOP]<td><?php print $row->title; ?></td>[/LOOP]

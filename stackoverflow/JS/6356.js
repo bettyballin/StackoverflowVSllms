@@ -1,1 +1,0 @@
-var myArray = [...],\n    low = myArray[0],\n    high = myArray[0]\n;\n// start looping at index 1\nfor (var i = 1, l = myArray.length; i < l; ++i) {\n    if (myArray[i] > high) {\n        high = myArray[i];\n    } else if (myArray[i] < low) {\n        low = myArray[i];\n    }\n}

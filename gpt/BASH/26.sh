@@ -1,0 +1,1 @@
+openssl pkcs12 -in your_keystore.p12 -clcerts -nokeys -out certificate.pem

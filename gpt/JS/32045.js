@@ -1,0 +1,1 @@
+$.ajax({\n    type: "GET",\n    url: "http://localhost:4000/MyService.asmx/PingService",\n    data: params,\n    dataType: "jsonp",\n    success: function(msg) {\n        id = msg;\n    },\n    error: function(xhr, ajaxOptions, thrownError) {\n        alert(xhr.status);\n        alert(thrownError);\n    }\n});

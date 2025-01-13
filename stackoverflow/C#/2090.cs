@@ -1,1 +1,0 @@
-DirectorySecurity DirSec = di.GetAccessControl(AccessControlSections.All);

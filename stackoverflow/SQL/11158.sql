@@ -1,1 +1,0 @@
-update auditdata set TATCallType='12',TATCallUnit='1' \nfrom auditdata auditdata \nWHERE EXISTS \n(SELECT id from Auditdata_sms_12 a_sns WHERE a_sns.id = auditdata.ID)

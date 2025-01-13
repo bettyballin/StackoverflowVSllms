@@ -1,0 +1,1 @@
+function echoer() {\n    echo 'foo';\n}\n\n// Start output buffering\nob_start();\n\n// Call the function that echoes\nechoer();\n\n// Get the contents of the output buffer\n$output = ob_get_clean();\n\necho $output; // This will print 'foo', or you can use $output as a variable

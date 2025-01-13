@@ -1,1 +1,0 @@
-DROP VIEW IF EXISTS [vtable]; -- "OR REPLACE"\nCREATE VIEW [vtable] AS SELECT * FROM Files_Table ORDER BY File;

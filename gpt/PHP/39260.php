@@ -1,0 +1,1 @@
+<?php if ($output) { ?>\n  <h2><?= htmlspecialchars($output, ENT_QUOTES, 'UTF-8'); ?></h2>\n<?php } ?>

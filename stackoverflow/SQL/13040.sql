@@ -1,1 +1,0 @@
-CREATE INDEX ix_index ON mytable (col1, col2 DESC);

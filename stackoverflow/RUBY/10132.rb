@@ -1,1 +1,0 @@
-require 'net/sftp'\n\nNet::SFTP.start('host', 'username', :password => 'password') do |sftp|\n  # upload a file or directory to the remote host\n  sftp.upload!("/path/to/local", "/path/to/remote")\n\n  # download a file or directory from the remote host\n  sftp.download!("/path/to/remote", "/path/to/local")\nend

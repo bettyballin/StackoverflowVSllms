@@ -1,0 +1,1 @@
+pip install linkchecker\n     linkchecker http://example.com

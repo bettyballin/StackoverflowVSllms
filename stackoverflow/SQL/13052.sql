@@ -1,1 +1,0 @@
-create database link other_db connect to remote_user identified by remote_passwd using remote_tnsname;\n\ncreate table a as select * from a@other_db;

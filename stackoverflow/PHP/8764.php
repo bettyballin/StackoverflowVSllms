@@ -1,1 +1,0 @@
-'entries'     => array(\n                         array(\n                               [...]\n                               'lastUpdate'   => 'timestamp of the publication date', // optional\n                               [...]

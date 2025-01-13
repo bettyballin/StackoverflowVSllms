@@ -1,0 +1,1 @@
+// React front-end component example\nimport React from 'react';\n\nclass PosComponent extends React.Component {\n  render() {\n    return (\n      <div>\n        <h1>Point of Sale System</h1>\n        {/* Add your component code here */}\n      </div>\n    );\n  }\n}\n\nexport default PosComponent;

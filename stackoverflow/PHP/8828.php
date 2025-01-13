@@ -1,1 +1,0 @@
-require_once 'Connections/connComparisonLogin.php';

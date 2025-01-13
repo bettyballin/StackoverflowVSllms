@@ -1,1 +1,0 @@
-void out(int x) {\n    cout << x << ' ';\n}\n\nvector<int> xs;\nxs.push_back(42);\nxs.push_back(23);\n\nfor_each(xs.begin(), xs.end(), out);

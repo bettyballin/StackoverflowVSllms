@@ -1,0 +1,1 @@
+AppDomain.CurrentDomain.SetAppDomainPolicy(new PolicyLevel { /* Set appropriate policy levels */ });

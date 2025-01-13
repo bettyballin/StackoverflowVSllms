@@ -1,0 +1,1 @@
+WITH duplicates AS (\n    SELECT \n        field1, \n        field2, \n        field3,\n        ROW_NUMBER() OVER (PARTITION BY field1, field2, field3 ORDER BY field1) AS rn\n    FROM table1\n)\nDELETE FROM table1\nWHERE (field1, field2, field3) IN (\n    SELECT field1, field2, field3\n    FROM duplicates\n    WHERE rn > 1\n);

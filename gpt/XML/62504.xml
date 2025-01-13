@@ -1,0 +1,1 @@
+<applicationPools>\n       <applicationPoolDefaults managedRuntimeLoader="v4.0" enable32BitAppOnWin64="false" />\n       <!-- other configuration settings -->\n   </applicationPools>

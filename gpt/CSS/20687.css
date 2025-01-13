@@ -1,0 +1,1 @@
+#right-content {\n    padding: 10px; /* Adjust as needed */\n    width: 90%; /* Adjust to fit the layout */\n    box-sizing: border-box; /* Use this with caution as IE6 does not support it */\n}

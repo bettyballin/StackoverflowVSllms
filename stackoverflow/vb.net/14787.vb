@@ -1,1 +1,0 @@
-Dim webClient As New System.Net.WebClient\nDim result As String = webClient.DownloadString("http://api.hostip.info/?ip=68.180.206.184")

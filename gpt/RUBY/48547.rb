@@ -1,0 +1,1 @@
+class User < ApplicationRecord\n  # No need to specify anything here, Rails will handle it\nend

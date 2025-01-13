@@ -1,0 +1,1 @@
+chmod +x /home/username/path/to/pipe.php

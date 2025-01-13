@@ -1,0 +1,1 @@
+#include <iostream>\n#include <vector>\n#include <ctime>\n#include <cstdlib>\nusing namespace std;\n\ntemplate <typename T>\nT range(vector<T> &v)\n{\n    typename vector<T>::iterator i = v.begin();\n    // Your function implementation here\n}\n\nint main() {\n    vector<int> v = {1, 2, 3, 4, 5};\n    cout << "Range: " << range(v) << endl;\n    return 0;\n}

@@ -1,0 +1,1 @@
+CREATE TABLE addresses (\n         id INT PRIMARY KEY,\n         addr VARCHAR(255),\n         city VARCHAR(255)\n         -- other fields\n     );

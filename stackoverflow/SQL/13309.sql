@@ -1,1 +1,0 @@
-update person set unique_number = nextval('number_sequence');

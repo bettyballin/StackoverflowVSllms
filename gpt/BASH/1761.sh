@@ -1,0 +1,1 @@
+jcmd <PID> JFR.start name=MyRecording duration=60s filename=/path/to/recording.jfr

@@ -1,0 +1,1 @@
+SELECT first_name, last_name\nFROM employees\nWHERE hire_date > '2020-01-01';

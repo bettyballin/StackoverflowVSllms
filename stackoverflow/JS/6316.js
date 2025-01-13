@@ -1,1 +1,0 @@
-startAngle = startAngle + stopAngle;\nstopAngle = startAngle - stopAngle;\nstartAngle = startAngle - stopAngle;

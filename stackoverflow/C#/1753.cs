@@ -1,1 +1,0 @@
-BigInteger bi = new BigInteger("12345678901234567890");\nstring s = bi.ToHexString();

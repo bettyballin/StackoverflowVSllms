@@ -1,0 +1,1 @@
+SELECT CONCAT(COALESCE(FirstName, ''), COALESCE(LastName, ''), COALESCE(Email, '')) as Vitals FROM MEMBERS

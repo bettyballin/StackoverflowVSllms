@@ -1,0 +1,1 @@
+$apiKey = "YOUR_API_KEY";\n$symbol = "AAPL";\n$url = "https://finnhub.io/api/v1/quote?symbol=$symbol&token=$apiKey";\n\n$response = file_get_contents($url);\n$data = json_decode($response, true);\n\nprint_r($data);

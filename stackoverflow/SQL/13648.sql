@@ -1,1 +1,0 @@
-SELECT A.*, B.*, C.*\n  FROM C\n    JOIN B ON B.cID = C.cID\n    JOIN A ON A.bID = B.bID\n    JOIN\n    (\n      SELECT id = min(aID)\n        FROM C\n          JOIN B ON B.cID = C.cID\n          JOIN A ON A.bID = B.bID\n        GROUP BY col3\n    ) D ON D.id = A.aID

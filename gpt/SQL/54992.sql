@@ -1,0 +1,1 @@
+SELECT * FROM large_table WHERE non_indexed_column = 'some_value';

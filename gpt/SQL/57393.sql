@@ -1,0 +1,1 @@
+-- Step 1: Alter the column type\nALTER TABLE YourTableName\nALTER COLUMN YourColumnName NVARCHAR(YourDesiredLength);\n\n-- Step 2: Update the column to trim whitespace\nUPDATE YourTableName\nSET YourColumnName = LTRIM(RTRIM(YourColumnName));

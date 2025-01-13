@@ -1,0 +1,1 @@
+/* CSS to define the style for the dynamic changes */\n#myElement {\n  color: blue;\n  transition: color 0.5s;\n}\n\n#myElement:hover {\n  color: red;\n}

@@ -1,1 +1,0 @@
-vendor/gems/some_gem-1.2.3

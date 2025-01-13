@@ -1,0 +1,1 @@
+# Create a file to be used as a simulated disk\ndd if=/dev/zero of=test.img bs=1M count=100\n\n# Format it with ext3 filesystem\nmkfs.ext3 test.img\n\n# Mount the file as a loop device\nsudo mount -o loop test.img /mnt/test

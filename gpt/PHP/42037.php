@@ -1,0 +1,1 @@
+$_SESSION['myvar'] = $_GET['myvar'];\n$myvar = 'a_new_string';

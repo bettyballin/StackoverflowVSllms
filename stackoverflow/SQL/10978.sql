@@ -1,1 +1,0 @@
-SELECT * \n  FROM (\n  SELECT *, \n    ROW_NUMBER() OVER (ORDER BY KeyboardId DESC) AS rn\n  FROM Table\n) AS t\nWHERE rn = 2;

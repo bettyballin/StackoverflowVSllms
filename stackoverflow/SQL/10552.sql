@@ -1,1 +1,0 @@
-SELECT COUNT(DISTINCT(STR(a) + ',' + STR(b)))\nFROM @YourTable

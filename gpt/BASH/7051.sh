@@ -1,0 +1,1 @@
+git add .\n   git commit -m "Add new feature"

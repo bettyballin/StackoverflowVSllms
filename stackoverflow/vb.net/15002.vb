@@ -1,1 +1,0 @@
-Dim t as new Thread(...)\nt.Sleep(1000)

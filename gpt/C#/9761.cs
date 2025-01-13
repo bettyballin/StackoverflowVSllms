@@ -1,0 +1,1 @@
+Thread.CurrentThread.CurrentUICulture = m_selectedCulture;\nEncoding l_Enc = Encoding.UTF8;\nHttpContext.Current.Response.ContentEncoding = l_Enc;\nHttpContext.Current.Request.ContentEncoding = l_Enc;

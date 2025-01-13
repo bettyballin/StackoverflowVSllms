@@ -1,1 +1,0 @@
-var container = new Container(new MvcDemoRegistry());\nvar cultureProvider = container.GetInstance<IProvideCultureInfo>();

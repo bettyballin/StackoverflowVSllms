@@ -1,1 +1,0 @@
-$file = fopen('myCSVFile.csv', 'r');\nwhile (($line = fgetcsv($file)) !== FALSE) {\n  //$line is an array of the csv elements\n  print_r($line);\n}\nfclose($file);

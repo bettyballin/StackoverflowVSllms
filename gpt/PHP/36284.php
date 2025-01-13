@@ -1,0 +1,1 @@
+<?php\nclass SimpleConsole {\n    public static function log($message) {\n        echo "<script>console.log(" . json_encode($message) . ");</script>";\n    }\n}\n\n// Usage\nSimpleConsole::log('This is a debug message');\nSimpleConsole::log($_POST);\n?>

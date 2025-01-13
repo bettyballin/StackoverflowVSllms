@@ -1,0 +1,1 @@
+var container = new UnityContainer();\n     container.AddNewExtension<Interception>();\n     container.RegisterType<IMyService, MyService>(\n         new Interceptor<InterfaceInterceptor>(),\n         new InterceptionBehavior<PolicyInjectionBehavior>()\n     );

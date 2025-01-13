@@ -1,1 +1,0 @@
-SELECT  *\nFROM    a\nWHERE   a.c IN (SELECT d FROM b)\n\nSELECT  a.*\nFROM    a\nJOIN    b\nON      a.c = b.d

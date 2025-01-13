@@ -1,0 +1,1 @@
+WITH CTE AS (\n    SELECT \n        id,\n        clientid,\n        ROW_NUMBER() OVER (PARTITION BY clientid ORDER BY id) AS rn\n    FROM tRealtyTrac\n)\nDELETE FROM tRealtyTrac\nWHERE id IN (\n    SELECT id \n    FROM CTE \n    WHERE rn > 1000\n);

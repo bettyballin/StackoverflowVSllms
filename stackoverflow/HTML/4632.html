@@ -1,1 +1,0 @@
-<div id="codeBlock" style="visible=false;">\n    <span id="val1"></span>\n    <br/>\n    <span id="val2"></span>\n    <br/>\n</div>\n............\n<script>\n    var jo = eval(req.responseText);\n    $('val1').innerHTML = jo.f_name + ' ' + jo.l_name;\n    $('val2').innerHTML = 'Your Age Is: ' + jo.age;\n    $('codeBlock').show();\n</script>

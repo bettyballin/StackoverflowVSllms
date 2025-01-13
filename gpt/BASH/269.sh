@@ -1,0 +1,1 @@
+ls -l /home/user1/MyApp/bin/wrapper

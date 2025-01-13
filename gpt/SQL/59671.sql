@@ -1,0 +1,1 @@
+-- Step 1: Create the new login if it doesn't already exist\nCREATE LOGIN [domain\abc] FROM WINDOWS;\n\n-- Step 2: Change the database owner to the new login\nUSE [YourDatabaseName];\nALTER AUTHORIZATION ON DATABASE::[YourDatabaseName] TO [domain\abc];

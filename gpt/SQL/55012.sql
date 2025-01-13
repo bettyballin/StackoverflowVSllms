@@ -1,0 +1,1 @@
+-- In the subreport\nParameter: @HasData\nDefault Value:\n=IIF(CountRows() > 0, True, False)\n\n-- In the main report, subreport properties\nParameters:\nName: HasData\nValue: =Parameters!SubreportHasData.Value\n\n-- Subreport visibility expression\n=IIF(Parameters!SubreportHasData.Value = False, True, False)

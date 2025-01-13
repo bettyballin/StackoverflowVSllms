@@ -1,0 +1,1 @@
+pvk2pfx -pvk MyPrivateKey.pvk -spc MyCertificate.cer -pfx MyCertificate.pfx

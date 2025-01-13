@@ -1,0 +1,1 @@
+# Ranking by flavor and goodness\ngoodness_rank_by_flavor = average_scores.groupby('flavor').apply(lambda x: x.sort_values('goodness_score', ascending=False)).reset_index(drop=True)\n\n# Ranking by attribute across all flavors\nrank_by_attribute = df.groupby('bakery').mean().rank(ascending=False)

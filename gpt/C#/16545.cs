@@ -1,0 +1,1 @@
+public static class HtmlHelper\n{\n    public static HtmlString Encode(string input)\n    {\n        return new HtmlString(System.Net.WebUtility.HtmlEncode(input));\n    }\n\n    public static HtmlString Raw(string input)\n    {\n        // Only use this method when the input is guaranteed to be safe\n        return new HtmlString(input);\n    }\n}

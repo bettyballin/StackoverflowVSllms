@@ -1,0 +1,1 @@
+for (std::list<item*>::iterator i = items.begin(); i != items.end(); /* no increment here */)\n{\n    bool isActive = (*i)->update();\n    if (!isActive) {\n        i = items.erase(i); // erase returns the next iterator\n    } else {\n        other_code_involving(*i);\n        ++i; // increment the iterator only if not erasing\n    }\n}

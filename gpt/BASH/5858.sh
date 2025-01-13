@@ -1,0 +1,1 @@
+/opt/timesys/at91sam9263_ek/toolchain/bin/armv5l-timesys-linux-gnueabi-gcc \\n  exists.cpp -o exists.exe -I ../boost_1_35_0/ -lboost_filesystem -lboost_system -lstdc++ -L . -latomic

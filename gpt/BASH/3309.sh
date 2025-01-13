@@ -1,0 +1,1 @@
+unzip master.zip\n   mv gitlist-master /path/to/your/webserver/gitlist

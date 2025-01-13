@@ -1,1 +1,0 @@
-class Foo\n{\n    private int count = 0;\n    public void TrySomething()    \n    {\n        count++;\n    }\n}

@@ -1,1 +1,0 @@
-mysql> SELECT 1 as ColumnA,'a' as ColumnB\n    -> UNION\n    -> SELECT 2, 'b'\n    -> UNION\n    -> SELECT 3, 'c';\n+---------+---------+\n| ColumnA | ColumnB |\n+---------+---------+\n|       1 | a       |\n|       2 | b       |\n|       3 | c       |\n+---------+---------+\n3 rows in set (0.05 sec)

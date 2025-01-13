@@ -1,1 +1,0 @@
-gst-launch filesrc location=filename.wma ! spider ! lame ! filesink location=filename.mp3

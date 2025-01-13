@@ -1,0 +1,1 @@
+sudo a2enmod php5\nsudo service apache2 restart

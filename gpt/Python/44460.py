@@ -1,0 +1,1 @@
+# Example dictionary\nmy_dict = {'a': 1, 'b': 2, 'c': 3}\n\n# Get the keys as a view object\nkeys_view = my_dict.keys()\n\n# Convert the view object to a list\nkeys_list = list(keys_view)\n\n# Print the list of keys\nprint(keys_list)  # Output: ['a', 'b', 'c']

@@ -1,1 +1,0 @@
-$("#posts").html($(data).filter("#posts").html());\n  $("#sorting").html($(data).filter("#sorting").html());

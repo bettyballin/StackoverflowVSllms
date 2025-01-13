@@ -1,0 +1,1 @@
+<div>\n    <h1>Main Content</h1>\n    <p>Key1: <?= $this->escape($this->data['key1']) ?></p>\n    <p>Key2: <?= $this->escape($this->data['key2']) ?></p>\n</div>

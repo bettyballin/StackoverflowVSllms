@@ -1,0 +1,1 @@
+Imports System.Web.Script.Serialization\n\nPublic Function SerializeToJson(ByVal obj As Object) As String\n    Dim serializer As New JavaScriptSerializer()\n    Dim jsonString As String = serializer.Serialize(obj)\n    Return jsonString\nEnd Functio

@@ -1,0 +1,1 @@
+class Test {\n    private static $greeting = 'hi';\n\n    public static function sayHi() {\n        echo self::$greeting;\n    }\n}\n\nTest::sayHi();  // Outputs: hi

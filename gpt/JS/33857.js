@@ -1,0 +1,1 @@
+function updateData(newData) {\n        cacheData('data', { version: currentVersion, data: newData });\n        // Send updated data to server\n        XMLHttpRequest.post('/update', newData);\n    }

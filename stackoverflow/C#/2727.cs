@@ -1,1 +1,0 @@
-using (var conn = new SqlConnection(yourConnectionString))\n{\n    var cmd = new SqlCommand("insert into Foo values (@bar)", conn);\n    cmd.Parameters.AddWithValue("@bar", 17);\n    conn.Open();\n    cmd.ExecuteNonQuery();\n}

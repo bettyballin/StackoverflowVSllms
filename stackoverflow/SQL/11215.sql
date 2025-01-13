@@ -1,1 +1,0 @@
-SELECT Count(*) FROM HashMaps where MapID = ? AND Key = ?

@@ -1,0 +1,1 @@
+using System;\nusing System.Diagnostics;\n\nclass Program\n{\n    static void Main()\n    {\n        foreach (Process process in Process.GetProcesses())\n        {\n            Console.WriteLine($"Process: {process.ProcessName} ID: {process.Id}");\n        }\n    }\n}

@@ -1,1 +1,0 @@
-var myEditor = new YAHOO.widget.Editor('editor', {focusAtStart:true});

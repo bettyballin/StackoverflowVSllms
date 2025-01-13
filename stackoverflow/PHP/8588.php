@@ -1,1 +1,0 @@
-function h($s) { echo(htmlspecialchars($s)); }\n...\n<?php h($POST['input']) ?>

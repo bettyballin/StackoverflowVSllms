@@ -1,0 +1,1 @@
+// DAL Layer\npublic class BusinessObjectRepository\n{\n    public void Save(BusinessObject bo)\n    {\n        // Data access logic to save the BusinessObject\n    }\n\n    public BusinessObject Load(int id)\n    {\n        // Data access logic to load the BusinessObject\n        return new BusinessObject(); // Mock return for demonstration\n    }\n}

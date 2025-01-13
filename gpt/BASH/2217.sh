@@ -1,0 +1,1 @@
+xmllint --xpath '//myel/@name' input.xml | awk -F '="|"' '{for (i=2; i<=NF; i+=2) print $2 ","}'

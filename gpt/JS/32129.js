@@ -1,0 +1,1 @@
+<script language="JavaScript" type="text/javascript">\n    function toggle(id) {\n        var element = document.getElementById(id);\n        if (element.style.display === 'block') {\n            element.style.display = 'none';\n        } else {\n            element.style.display = 'block';\n        }\n    }\n</script>

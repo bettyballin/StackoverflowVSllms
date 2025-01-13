@@ -1,1 +1,0 @@
-CREATE MASTER KEY ENCRYPTION BY password = 'MasterKey1$'

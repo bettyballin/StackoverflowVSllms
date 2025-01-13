@@ -1,1 +1,0 @@
-new FileInfo(@"C:\temp\temp2\foo\bar.txt").Directory.Name

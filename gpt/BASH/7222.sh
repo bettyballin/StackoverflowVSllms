@@ -1,0 +1,1 @@
+gcc -o yourapp yourapp.o -L. -lyourlib

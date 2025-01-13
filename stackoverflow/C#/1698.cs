@@ -1,1 +1,0 @@
-RegistryKey myKey = Registry.LocalMachine.OpenSubKey(\n  @"Software\MyCompany\MyAppName", \n  false);

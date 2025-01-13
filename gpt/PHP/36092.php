@@ -1,0 +1,1 @@
+// Load the comment by its ID\n$comment_id = 123; // Replace with the actual comment ID\n$comment = comment_load($comment_id);\n\nif ($comment) {\n  // Render the comment\n  $comment_rendered = render(comment_view($comment));\n  print $comment_rendered;\n} else {\n  print "Comment not found.";\n}

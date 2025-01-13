@@ -1,0 +1,1 @@
+protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)\n{\n    string selectedValue = DropDownList1.SelectedValue;\n    Session["SelectedValue"] = selectedValue;\n    Label1.Text = "Selected Value: " + selectedValue;\n}

@@ -1,0 +1,1 @@
+ALTER PACKAGE package_name COMPILE;\nALTER PACKAGE package_name COMPILE BODY;

@@ -1,1 +1,0 @@
-SELECT c.name, SUM(ABS(v.item_id)) \n FROM categories c,items i, votes v\n WHERE c.name = i.name\n    AND i.item_id=v.item_id\n    --AND v.created_at > #{1.week.ago}\n GROUP BY c.name \n ORDER BY SUM(ABS(v.item_id)) DESC LIMIT 5;

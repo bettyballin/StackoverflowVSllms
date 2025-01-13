@@ -1,0 +1,1 @@
+#!/usr/local/bin/php -d display_errors=Off\n<?php\n\n// display_errors is set to false via command line\n\n// This shouldn't display any errors\n$test = $foo;\n\n// We can also try\nini_set('display_errors', false);\n\n// This definitely shouldn't display an error\n$test = $fum;\n\n?>

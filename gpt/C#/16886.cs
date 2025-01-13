@@ -1,0 +1,1 @@
+protected void myImageButton_Click(object sender, ImageClickEventArgs e)\n{\n    // Change the class of myDiv\n    myDiv.Attributes["class"] = "newClass";\n\n    // Trigger an update for the OutsidePanel\n    OutsidePanel.Update();\n}

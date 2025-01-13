@@ -1,0 +1,1 @@
+#include "fcgi_stdio.h"\n#include <stdlib.h>\n\nint main(void) {\n    while (FCGI_Accept() >= 0) {\n        printf("Content-type: text/html\r\n"\n               "\r\n"\n               "<html><head><title>FastCGI Hello!</title></head>"\n               "<body><h1>Hello, FastCGI!</h1></body></html>");\n    }\n\n    return 0;\n}

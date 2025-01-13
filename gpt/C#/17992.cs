@@ -1,0 +1,1 @@
+// Example of impersonation if necessary\nWindowsIdentity identity = new WindowsIdentity("domain\\username", "password");\nWindowsImpersonationContext context = identity.Impersonate();\ntry\n{\n    // Code to run the executable\n}\nfinally\n{\n    context.Undo();\n}

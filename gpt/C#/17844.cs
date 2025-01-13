@@ -1,0 +1,1 @@
+ChannelFactory<IDeviceService> factory = new ChannelFactory<IDeviceService>("YourEndpointConfigurationName");\n   IDeviceService proxy = factory.CreateChannel();\n\n   proxy.SendCommand("YOUR_COMMAND");\n   string state = proxy.QueryState();

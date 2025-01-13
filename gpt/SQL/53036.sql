@@ -1,0 +1,1 @@
+CREATE LOGIN [DOMAIN\WebAppServiceAccount] FROM WINDOWS;

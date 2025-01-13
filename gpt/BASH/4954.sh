@@ -1,0 +1,1 @@
+# For an Apache server, you can use Certbot to install Let's Encrypt SSL certificates:\nsudo apt-get update\nsudo apt-get install certbot python3-certbot-apache\n\n# Obtain and install the certificate:\nsudo certbot --apache\n\n# Follow the prompts to configure your SSL certificate.

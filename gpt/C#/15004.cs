@@ -1,0 +1,1 @@
+// Example usage in an application\npublic class Program\n{\n    public static void Main(string[] args)\n    {\n        BusinessObjectRepository repository = new BusinessObjectRepository();\n        BusinessObjectService service = new BusinessObjectService(repository);\n\n        // Perform operations on the business object\n        service.ProcessBusinessObject(1);\n    }\n}

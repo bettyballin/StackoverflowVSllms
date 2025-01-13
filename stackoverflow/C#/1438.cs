@@ -1,1 +1,0 @@
-//... VSTO Startup Event\nWindowsForm form = new WindowsForm();\nform.FormClosed += new FormClosedEventHandler(form_FormClosed);\nform.Show();\n\n\nvoid form_FormClosed(object sender, FormClosedEventArgs e)\n{\n    this.Application.Activate();         \n    this.Application.ActiveWindow.WindowState = Microsoft.Office.Interop.Word.WdWindowState.wdWindowStateNormal;\n\n}

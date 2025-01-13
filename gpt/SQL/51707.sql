@@ -1,0 +1,1 @@
+CREATE OR REPLACE TYPE queuable_object_type AS OBJECT (\n    dummy_attr NUMBER,\n    MEMBER PROCEDURE enqueue\n);\n/

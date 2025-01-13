@@ -1,0 +1,1 @@
+public:\n       afx_msg void MyMethod(LPCTSTR input, BSTR* output);

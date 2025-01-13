@@ -1,0 +1,1 @@
+<?php\n// config.php\n$_PATHS["base"]      = dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR;\n$_PATHS["includes"]  = $_PATHS["base"] . "includes" . DIRECTORY_SEPARATOR;\nini_set("include_path", $_PATHS["includes"]);\n\n// Ensure no output is sent before session_start()\nob_start();\n?>

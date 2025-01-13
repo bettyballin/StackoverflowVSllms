@@ -1,0 +1,1 @@
+try {\n        window.$ = window.jQuery = require('jquery');\n    } catch (e) {}

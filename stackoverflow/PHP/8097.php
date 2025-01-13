@@ -1,1 +1,0 @@
-class SomeController extends ... {\n    ... function isAPhoneNumber($string){\n        if(...) {\n            return true;\n        }\n        else (...) {\n            return false;\n        }\n    }\n}

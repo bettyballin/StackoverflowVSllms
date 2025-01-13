@@ -1,0 +1,1 @@
+[ServiceContract]\npublic interface IRestService\n{\n    [OperationContract]\n    [WebGet(UriTemplate = "/data/{value}", ResponseFormat = WebMessageFormat.Json)]\n    string GetData(string value);\n}\n\npublic class RestService : IRestService\n{\n    public string GetData(string value)\n    {\n        return $"You entered: {value}";\n    }\n}

@@ -1,0 +1,1 @@
+convert base_image.jpg \\n    \( -size 800x600 xc:none -font TT0590M_.ttf -fill gray30 -gravity North \\n       -annotate +72+32 'ABCDEFGHIJKLM' -blur 0x4 \) \\n    -compose Over -composite \\n    -font TT0590M_.ttf -fill white -gravity North -annotate +72+27 'ABCDEFGHIJKLM' \\n    combined.png

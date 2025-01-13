@@ -1,0 +1,1 @@
+#!/bin/bash\n\n   HOST="remote_server"\n   USER="username"\n   PASS="password"\n   LOCAL_DIR="/path/to/local/dir"\n   REMOTE_DIR="/path/to/remote/dir"\n\n   lftp -e "\n   set ftp:ssl-allow no;\n   open -u $USER,$PASS sftp://$HOST;\n   mirror -R $LOCAL_DIR $REMOTE_DIR;\n   bye\n   "

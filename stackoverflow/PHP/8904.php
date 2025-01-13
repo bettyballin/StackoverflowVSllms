@@ -1,1 +1,0 @@
-$small = substr($big, 0, 100);

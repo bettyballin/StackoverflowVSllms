@@ -1,1 +1,0 @@
-$html->find('div.simplecomment', 0)->innertext = '';

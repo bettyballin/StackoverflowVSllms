@@ -1,0 +1,1 @@
+WITH height_percentiles AS (\n    SELECT\n        height,\n        percentile_cont(0.30) WITHIN GROUP (ORDER BY height) OVER () AS p30,\n        percentile_cont(0.70) WITHIN GROUP (ORDER BY height) OVER () AS p70\n    FROM heights\n)\nSELECT height\nFROM height_percentiles\nWHERE height > p30 AND height < p70;

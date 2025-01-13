@@ -1,1 +1,0 @@
-SELECT  *\nFROM    v$session v\nWHERE   v.AUDSID = userenv('sessionid')\n    AND v.TADDR IS NOT NULL

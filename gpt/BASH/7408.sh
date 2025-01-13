@@ -1,0 +1,1 @@
+sudo apt-get update\n   sudo apt-get install build-essential gcc-arm-linux-gnueabihf

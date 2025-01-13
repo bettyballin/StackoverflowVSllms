@@ -1,1 +1,0 @@
-SELECT 'Table1', id, ... FROM Table1\nUNION \nSELECT 'Table2', id, ... FROM Table2

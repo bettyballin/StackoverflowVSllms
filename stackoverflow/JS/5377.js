@@ -1,1 +1,0 @@
-$.ajax({\n    type: "GET",\n    url: "smpl.php",\n    success: function(servmsg){\n        $('#panelInfo').replaceWith('<p>' + servmsg + '</p>');\n        $('#years').change(function() { //or .click()\n            //do something\n        });\n    }\n});

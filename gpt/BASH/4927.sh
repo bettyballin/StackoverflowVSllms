@@ -1,0 +1,1 @@
+tidy -m -i -w 120 -asxhtml input.html

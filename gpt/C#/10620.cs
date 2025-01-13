@@ -1,0 +1,1 @@
+public class ProcessWrapper : IProcessWrapper\n{\n    public Process Start(ProcessStartInfo startInfo)\n    {\n        return Process.Start(startInfo);\n    }\n}

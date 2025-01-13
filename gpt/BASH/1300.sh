@@ -1,0 +1,1 @@
+// Example of creating a branch for release\n// Assuming a Git-like command structure for illustration\n\n// Create a new branch for the release\ngit checkout -b release-v1.0\n\n// After stabilizing the release, merge changes back to mainline\ngit checkout main\ngit merge release-v1.0\n\n// Optionally, delete the release branch if no longer needed\ngit branch -d release-v1.0

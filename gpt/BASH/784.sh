@@ -1,0 +1,1 @@
+bash get_pdf_dpi.sh your_scanned_document.pdf

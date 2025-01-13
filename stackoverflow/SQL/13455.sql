@@ -1,1 +1,0 @@
-SELECT t.id\n       , t.name\n       , t.created_at\n       , CASE WHEN t.parent_id > 0 THEN p.created_at ELSE NULL END AS parent_created_at \nFROM   Table t\nJOIN   Table p\nON     t.id = p.parent_id

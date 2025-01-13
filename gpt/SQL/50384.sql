@@ -1,0 +1,1 @@
+SELECT\n    Department,\n    AVG(Salary) AS AverageSalary\nFROM\n    (SELECT\n        Department,\n        Salary\n     FROM\n        Employees\n     WHERE\n        Salary > 50000) AS HighEarners\nGROUP BY\n    Department;

@@ -1,0 +1,1 @@
+perl replace_text_in_pdf.pl input.pdf output.pdf "old text" "new text"

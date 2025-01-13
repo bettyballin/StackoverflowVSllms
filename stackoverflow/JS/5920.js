@@ -1,1 +1,0 @@
-var that = this;\nthis.req.onreadystatechange = function() { this.handleReceive.apply(that, []); };

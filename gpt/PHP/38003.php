@@ -1,0 +1,1 @@
+<?php\nif (isset($_GET['myVariable'])) {\n    $myVariable = $_GET['myVariable'];\n    echo "The variable is: " . htmlspecialchars($myVariable);\n} else {\n    echo "Variable not set.";\n}\n?>

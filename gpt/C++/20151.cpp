@@ -1,0 +1,1 @@
+struct A {\n  A() : x_(NULL) {}\n\n  ~A() {\n    delete x_;\n  }\n\n  void Foo() {\n    x_ = new HugeThingy();\n    x_->Bar("I. Need. Garbage. Collection. Now.");\n  }\n\n  HugeThingy* x_;\n\n  DISALLOW_COPY_AND_ASSIGN(A);  // Macro to prevent copy/assign.\n};

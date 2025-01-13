@@ -1,1 +1,0 @@
-$('input[type="submit"]').click(function(event){\n event.preventDefault();\n this.click(null);\n});

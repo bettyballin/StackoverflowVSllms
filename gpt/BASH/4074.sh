@@ -1,0 +1,1 @@
+vendor/bin/phinx seed:create UserSeeder

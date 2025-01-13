@@ -1,0 +1,1 @@
+SqlCommand command = new SqlCommand(query);\n\ncommand.Parameters.Add("@Foo");\ncommand.Parameters[0].Value = Foo;\n\ncommand.Parameters.Add("@Bar");\ncommand.Parameters[1].Value = Bar;

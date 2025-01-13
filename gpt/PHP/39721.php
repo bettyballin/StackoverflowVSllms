@@ -1,0 +1,1 @@
+SomeFunction($_POST ? $_POST : array());

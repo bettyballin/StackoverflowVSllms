@@ -1,0 +1,1 @@
+<?php\nnamespace String;\n\nfunction match($string1, $string2)\n{\n    $string1 = trim($string1);\n    $string2 = trim($string2);\n\n    return strcasecmp($string1, $string2) == 0;\n}\n?>

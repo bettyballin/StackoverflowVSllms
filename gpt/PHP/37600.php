@@ -1,0 +1,1 @@
+$sql = "\n    SELECT \n        questions.id, \n        questions.title, \n        users.id AS user_id, \n        users.name AS user_name \n    FROM \n        questions \n    JOIN \n        users \n    ON \n        questions.user_id = users.id\n";

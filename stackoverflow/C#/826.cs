@@ -1,1 +1,0 @@
-StringBuilder builder = new StringBuilder();\nstring delimiter = "";\nforeach (string item in list)\n{\n    builder.Append(delimiter);\n    builder.Append(item);\n    delimiter = ",";       \n}\nreturn builder.ToString();

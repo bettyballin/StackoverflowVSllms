@@ -1,0 +1,1 @@
+public void BindDataToGridView(DataGridView dataGridView, List<MyObject> list)\n{\n    DataSet dataSet = ConvertToDataSet(list);\n    dataGridView.DataSource = dataSet.Tables[0];\n}

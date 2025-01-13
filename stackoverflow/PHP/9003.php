@@ -1,1 +1,0 @@
-list($hh,$mm,$ss)= split(':',$duration);

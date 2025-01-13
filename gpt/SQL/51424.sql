@@ -1,0 +1,1 @@
+CREATE TABLE DistanceChart (\n       StartLocation NVARCHAR(100),\n       EndLocation NVARCHAR(100),\n       Distance FLOAT,\n       PRIMARY KEY (StartLocation, EndLocation)\n   );

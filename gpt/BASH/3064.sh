@@ -1,0 +1,1 @@
+dbmate --url postgres://user:password@localhost:5432/mydb up

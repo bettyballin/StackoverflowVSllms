@@ -1,1 +1,0 @@
-function UrlExists(url, callback)\n{\n    var http = new XMLHttpRequest();\n    http.open('HEAD', url);\n    http.onreadystatechange = function() {\n        if (this.readyState == this.DONE) {\n            callback(this.status != 404);\n        }\n    };\n    http.send();\n}

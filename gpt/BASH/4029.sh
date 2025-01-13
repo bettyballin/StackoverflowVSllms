@@ -1,0 +1,1 @@
+gpg --output sensitive_data.enc --encrypt --recipient user@example.com sensitive_data.txt

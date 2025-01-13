@@ -1,0 +1,1 @@
+public ActionResult CaptureVideoSnapshot(string videoUrl)\n   {\n       string outputFilePath = Server.MapPath("~/Snapshots/snapshot.png");\n       CaptureSnapshot(videoUrl, outputFilePath);\n\n       return File(outputFilePath, "image/png");\n   }

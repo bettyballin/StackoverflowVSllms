@@ -1,1 +1,0 @@
-class Object;\nObject& getObject()\n{\n    static Object object;\n    return object;\n}

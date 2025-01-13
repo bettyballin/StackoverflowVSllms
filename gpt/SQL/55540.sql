@@ -1,0 +1,1 @@
+SELECT *\nFROM T1\nLEFT JOIN T2 ON T1.value = T2.value AND T1.use_T2 = 1\nWHERE (T1.use_T2 = 1 AND T2.value2 = 'variable2' AND T2.value3 = 'variable3')\n   OR T1.use_T2 = 0;

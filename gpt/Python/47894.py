@@ -1,0 +1,1 @@
+value = "Unsafe string"\nquery = "SELECT * FROM some_table WHERE some_char_field = %s;"\ncursor.execute(query, (value,))

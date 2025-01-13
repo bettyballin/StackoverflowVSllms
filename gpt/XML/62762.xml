@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <modules runAllManagedModulesForAllRequests="true">\n      <add name="DebugDelayModule" type="Namespace.DebugDelayModule, AssemblyName"/>\n    </modules>\n  </system.webServer>\n</configuration>

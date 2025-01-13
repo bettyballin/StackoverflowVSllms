@@ -1,0 +1,1 @@
+import json\n\n   def load_queries(config_path):\n       with open(config_path, 'r') as file:\n           return json.load(file)['queries']\n\n   queries = load_queries('path/to/your/config.json')\n   fetch_data_query = queries['fetch_data']

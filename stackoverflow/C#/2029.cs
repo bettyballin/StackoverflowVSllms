@@ -1,1 +1,0 @@
-Response.ContentType = "text/plain";\nResponse.OutputStream.Write(buffer, 0, buffer.Length);\nResponse.AddHeader("Content-Disposition", "attachment;filename=yourfile.txt");

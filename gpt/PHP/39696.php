@@ -1,0 +1,1 @@
+for ($i = 0; $i < 51; $i++) {  // last card need not swap\n  $j = rand($i, 51);          // ensure we only swap with elements that haven't been fixed\n\n  // swap the items\n  $tmp = $arr[$j];\n  $arr[$j] = $arr[$i];\n  $arr[$i] = $tmp;\n}

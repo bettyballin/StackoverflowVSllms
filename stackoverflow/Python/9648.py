@@ -1,1 +1,0 @@
-runcall(main, self.argv)

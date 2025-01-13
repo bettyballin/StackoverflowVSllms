@@ -1,1 +1,0 @@
-SELECT key, atrb1, atrb2 FROM table1

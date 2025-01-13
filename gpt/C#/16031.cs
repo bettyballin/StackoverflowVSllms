@@ -1,0 +1,1 @@
+public class HomeController : Controller\n{\n    public ActionResult GetData()\n    {\n        return Content("Hello, this is your data!");\n    }\n}

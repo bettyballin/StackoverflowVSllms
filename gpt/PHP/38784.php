@@ -1,0 +1,1 @@
+Configure::write('Session', array(\n    'defaults' => 'php',\n    'cookie' => 'MY_SESSION_COOKIE',\n    'timeout' => 1440,\n    'ini' => array(\n        'session.cookie_httponly' => true,\n        'session.cookie_secure' => false,\n        'session.cookie_samesite' => 'Lax', // or 'Strict' depending on your needs\n    ),\n));

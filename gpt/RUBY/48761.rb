@@ -1,0 +1,1 @@
+@if (ViewBag.Languages != null)\n   {\n       <ul>\n           @foreach (var language in ViewBag.Languages)\n           {\n               <li>@language</li>\n           }\n       </ul>\n   }

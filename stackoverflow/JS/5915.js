@@ -1,1 +1,0 @@
-function getPos(el) {\n    // yay readability\n    for (var lx=0, ly=0;\n         el != null;\n         lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);\n    return {x: lx,y: ly};\n}

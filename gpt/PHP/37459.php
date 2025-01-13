@@ -1,0 +1,1 @@
+if ($user->is_logged_in) {\n         $user_id = $user->id;\n         // Merge guest data with user data\n         mergeGuestData($guest_id, $user_id);\n     }

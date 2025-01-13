@@ -1,1 +1,0 @@
-FOREIGN KEY (col1, col2, col3) REFERENCES ParentTable (colA, colB, colC)

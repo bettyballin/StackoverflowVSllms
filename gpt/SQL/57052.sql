@@ -1,0 +1,1 @@
+DECLARE\n    var NEEDED_FIELD_TYPE;\nBEGIN\n    BEGIN\n        SELECT NEEDED_FIELD INTO var FROM table_name WHERE condition;\n        -- Further processing\n    EXCEPTION\n        WHEN NO_DATA_FOUND THEN\n            -- Handle no data found\n    END;\nEXCEPTION\n    WHEN OTHERS THEN\n        -- Handle other exceptions\nEND;

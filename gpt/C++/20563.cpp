@@ -1,0 +1,1 @@
+int Foo(int a);\nint Foo(int a, int b);\nvoid Bar(int foo);

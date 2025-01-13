@@ -1,0 +1,1 @@
+squirrels_with_nut_count = get_squirrels_with_nut_count('USA')\nfor squirrel in squirrels_with_nut_count:\n    print(f"Squirrel: {squirrel.name}, Nut Count: {squirrel.nut_count}")

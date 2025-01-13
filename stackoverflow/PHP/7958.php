@@ -1,1 +1,0 @@
-$lines = preg_split('|(?<!\!)\n|', $code);

@@ -1,0 +1,1 @@
+SELECT * FROM Car WHERE ManufacturerId = dbo.GetConstantValue('Nissan');

@@ -1,0 +1,1 @@
+var myObject = new MyObject\n{\n    Property1 = value1,\n    Property2 = value2\n};\nmyObject.Method1();\nmyObject.Method2();

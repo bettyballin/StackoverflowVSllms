@@ -1,0 +1,1 @@
+cp -r /path/to/nexus-data/blobs /path/to/backup-location/blobs

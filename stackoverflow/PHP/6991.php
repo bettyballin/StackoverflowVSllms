@@ -1,1 +1,0 @@
-switch ($var) {\n\n    case 0:\n    case 1:\n       do_it();\n       break;\n    case 2:\n       do_it_else();\n       break;\n\n}

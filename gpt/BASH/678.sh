@@ -1,0 +1,1 @@
+cl.exe /MD /D "_AFXDLL" your_source.cpp /link /OPT:REF /OPT:ICF

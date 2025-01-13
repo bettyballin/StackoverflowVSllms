@@ -1,1 +1,0 @@
-\nselect a.id, a.length, \ncoalesce(a.length - \n    (select b.length from foo b where b.id = a.id + 1), a.length) as diff\nfrom foo a

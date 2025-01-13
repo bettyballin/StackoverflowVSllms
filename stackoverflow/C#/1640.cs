@@ -1,1 +1,0 @@
-DateTime now = DateTime.Now;\n  DateTime rounded = new DateTime(((now.Ticks + 25000000) / 50000000) * 50000000);

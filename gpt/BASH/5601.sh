@@ -1,0 +1,1 @@
+# Example command to run a simple JMeter test\n    jmeter -n -t test-plan.jmx -l results.jtl

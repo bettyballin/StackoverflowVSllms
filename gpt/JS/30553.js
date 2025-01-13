@@ -1,0 +1,1 @@
+// Example using jQuery\n$.ajax({\n    url: 'your_php_page.php',\n    type: 'GET',\n    headers: {\n        'X-Requested-With': 'XMLHttpRequest'\n    },\n    success: function(response) {\n        // Handle the response\n    }\n});

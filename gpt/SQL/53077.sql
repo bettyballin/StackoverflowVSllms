@@ -1,0 +1,1 @@
+SELECT cs.IsEnabled\nFROM ClientSwitch cs\nJOIN Client c ON cs.ClientID = c.ClientID\nJOIN Switch s ON cs.SwitchID = s.SwitchID\nWHERE c.ClientName = 'ClientNameHere'\nAND s.SwitchName = 'E_SHOW_SALARY_ON_CHECKS';

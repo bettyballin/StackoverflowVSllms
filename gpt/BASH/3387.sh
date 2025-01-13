@@ -1,0 +1,1 @@
+svn commit -m "Moved file.txt from dir1 to dir2, maintaining history"

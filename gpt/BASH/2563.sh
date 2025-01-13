@@ -1,0 +1,1 @@
+cd C:\Program Files\Microsoft SQL Server\90\DTS\Binn\nregsvr32 MsDtsSrvr.dll\nregsvr32 MsDts.dll\nregsvr32 MsDtsPrf.dll

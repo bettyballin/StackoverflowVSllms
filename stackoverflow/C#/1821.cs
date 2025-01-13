@@ -1,1 +1,0 @@
-string s = XamlWriter.Save(value);

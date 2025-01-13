@@ -1,0 +1,1 @@
+cl /Zi /Od /MDd freeimage.cpp /link /DEBUG

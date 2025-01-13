@@ -1,1 +1,0 @@
-function unicode_decode($str){\n    return preg_replace("/\\\u([0-9A-F]{4})/ie", "iconv('utf-16', 'utf-8', hex2str(\"$1\"))", $str);    \n}\nfunction hex2str($hex) {\n    $r = '';\n    for ($i = 0; $i < strlen($hex) - 1; $i += 2)\n    $r .= chr(hexdec($hex[$i] . $hex[$i + 1]));\n    return $r;\n}

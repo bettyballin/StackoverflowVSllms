@@ -1,0 +1,1 @@
+#!/bin/sh\n   sml @SMLload=custom-init.sml

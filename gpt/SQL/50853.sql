@@ -1,0 +1,1 @@
+CREATE TABLE sales_partitioned (\n        sale_id serial,\n        sale_date date,\n        amount numeric\n    ) PARTITION BY RANGE (sale_date);\n\n    CREATE TABLE sales_2021 PARTITION OF sales_partitioned\n    FOR VALUES FROM ('2021-01-01') TO ('2022-01-01');

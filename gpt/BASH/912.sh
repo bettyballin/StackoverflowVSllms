@@ -1,0 +1,1 @@
+svnadmin dump /path/to/your/repository > repository_dumpfile

@@ -1,1 +1,0 @@
-cd ../database/My\ Schema\nsqlplus [uname]/[pw] @create_sequence.sql

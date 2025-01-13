@@ -1,0 +1,1 @@
+@echo off\nsetlocal\n\nset "directory=C:\path\to\your\directory"\n\nfor %%f in ("%directory%\*") do (\n    echo %%f\n)\n\nendlocal

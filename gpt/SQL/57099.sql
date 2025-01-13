@@ -1,0 +1,1 @@
+BEGIN\n       -- Your SQL code here\n     EXCEPTION\n       WHEN OTHERS THEN\n         DBMS_OUTPUT.PUT_LINE('Error: ' || SQLERRM);\n     END;

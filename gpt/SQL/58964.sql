@@ -1,0 +1,1 @@
+SELECT a1.AttributeId\nFROM Attributes a1\nJOIN Attributes a2 ON a1.AttributeId = a2.AttributeId\nWHERE a1.AssetId = (SELECT AssetId FROM Assets WHERE AssetName = 'Asset-A')\n  AND a2.AssetId = (SELECT AssetId FROM Assets WHERE AssetName = 'Asset-B');

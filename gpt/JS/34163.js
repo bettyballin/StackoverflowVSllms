@@ -1,0 +1,1 @@
+$.get(contentUrl, null, function(response) {\n    var $response = $(response);\n    var styles = $response.filter('style');\n\n    $('#dialog').find('.bd').html($response.not('style'));\n\n    if (styles.length) {\n        $('head').append(styles);\n    }\n}, "waitDlg");

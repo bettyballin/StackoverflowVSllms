@@ -1,0 +1,1 @@
+WITH RankedOrders AS (\n    SELECT\n        custid,\n        ordid,\n        qty,\n        datesold,\n        ROW_NUMBER() OVER (PARTITION BY custid ORDER BY datesold DESC) AS rn\n    FROM\n        Orders\n)\nSELECT\n    custid,\n    ordid,\n    qty,\n    datesold\nFROM\n    RankedOrders\nWHERE\n    rn = 2;

@@ -1,1 +1,0 @@
-// create the relationship between Booking and Booking_MNI\nDataRelation relBookingMNI;                         \nrelBookingMNI = new DataRelation("BookingToBookingMNI",dsBooking.Tables["Booking"].Columns["Record_Id"],dsBooking.Tables["Booking_MNI"].Columns["booking_record_id"]);\ndsBooking.Relations.Add(relBookingMNI);

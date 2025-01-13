@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Define the remote host and command\nREMOTE_HOST="username@remote_host"\nREMOTE_COMMAND="ls -l /path/to/directory"\n\n# Execute the remote command using ssh with a specified key\nssh -i /path/to/private_key -T $REMOTE_HOST <<EOF\n$REMOTE_COMMAND\nEOF

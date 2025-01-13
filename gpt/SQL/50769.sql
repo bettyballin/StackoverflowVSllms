@@ -1,0 +1,1 @@
+SET @myVar = 10;\n     SELECT @myVar; -- Returns 10

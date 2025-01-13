@@ -1,0 +1,1 @@
+// Logout method in your controller\npublic ActionResult Logout()\n{\n    // Clear the session\n    Session.Clear();\n    Session.Abandon();\n    \n    // Redirect to login page or other appropriate action\n    return RedirectToAction("Login");\n}

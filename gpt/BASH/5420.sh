@@ -1,0 +1,1 @@
+sudo systemctl start vnstat\n   sudo systemctl enable vnstat

@@ -1,1 +1,0 @@
-makecert -pe -ss MY -$ individual -n "CN=your name here" -len 2048 -r

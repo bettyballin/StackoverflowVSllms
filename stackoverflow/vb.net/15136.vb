@@ -1,1 +1,0 @@
-Dim mos As New ManagementObjectSearcher("SELECT * FROM Win32_PhysicalMedia")\n\nFor Each mo As ManagementObject In mos.Get()\n    Dim serial As String = mo("SerialNumber").ToString()\nNext

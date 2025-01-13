@@ -1,1 +1,0 @@
-SomeDataRow[0, DataRowVersion.Original] //by index\nSomeDataRow["ColumnName", DataRowVersion.Original] //by column name

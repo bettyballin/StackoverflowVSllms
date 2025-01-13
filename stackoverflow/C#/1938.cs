@@ -1,1 +1,0 @@
-void OnSessionStart(...)\n{\n    HttpContext.Current.Session.Add("__MySessionObject", new MySessionObject());\n}

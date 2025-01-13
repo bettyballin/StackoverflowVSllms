@@ -1,0 +1,1 @@
+Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load\n    BindListView()\nEnd Sub\n\nPrivate Sub BindListView()\n    HistoryListView.DataSource = From x in myContext.myTables ...\n    HistoryListView.DataBind()\nEnd Sub

@@ -1,0 +1,1 @@
+$(document).ready(function() { \n    $('div').each(function() {\n        $(this).click(function(e){\n            // 'e' is the event object\n            //some code\n        });\n    });\n});

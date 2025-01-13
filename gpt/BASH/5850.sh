@@ -1,0 +1,1 @@
+# For .NET applications\naspnet_regiis -pe "connectionStrings" -app "/YourApp" -prov "DataProtectionConfigurationProvider"

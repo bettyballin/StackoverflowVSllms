@@ -1,0 +1,1 @@
+DECLARE @temp TABLE (\n    ID INT IDENTITY(1, 1),\n    data NVARCHAR(100)\n)\n\nINSERT INTO @temp (data) VALUES ('a,b,c')\nINSERT INTO @temp (data) VALUES ('d,e,f')\n\n-- Assuming dbo.__StringSplit is defined as (string, delimiter)\nSELECT T.ID, S.Item AS dataItem\nFROM @temp AS T\nCROSS APPLY dbo.__StringSplit(T.data, ',') AS S

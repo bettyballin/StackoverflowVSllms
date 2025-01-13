@@ -1,1 +1,0 @@
-protected override void CreateChildControls(){\n  Controls.Add(someControl);\n  base.CreateChildControls();\n}

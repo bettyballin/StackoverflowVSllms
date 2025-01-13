@@ -1,1 +1,0 @@
-<script type="text/javascript">\ndocument.createElement('n');\n</script>

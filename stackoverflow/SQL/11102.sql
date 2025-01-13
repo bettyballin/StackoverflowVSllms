@@ -1,1 +1,0 @@
-Contacts:\n  ID (Primary Key)\n  Name\n  Job Title\n\nPhone Number Categories:\n  ID (Primary key)\n  Name\n\nPhone Numbers:\n  ID (Primary Key)\n  Category_ID (Foreign Key -> Phone Number Categories.ID)\n  Contact_ID (Foreign Key -> Contacts.ID)\n  Phone Number

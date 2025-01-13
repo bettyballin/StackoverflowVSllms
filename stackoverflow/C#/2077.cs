@@ -1,1 +1,0 @@
-List<string> strings = new string[] { "Hello", "Hello", "World" }.ToList();\n\nstrings = strings.Distinct().ToList();

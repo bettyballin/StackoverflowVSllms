@@ -1,1 +1,0 @@
-echo base64_decode($foundPart->getContent());

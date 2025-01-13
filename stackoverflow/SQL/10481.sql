@@ -1,1 +1,0 @@
-SELECT\n  MIN(logtimestamp) AS first_of_five_minutes\nFROM tLog\nGROUP BY\n  DATE(logtimestamp),\n  HOUR(logtimestamp),\n  MINUTE(logtimestamp) - (MINUTE(logtimestamp) % 5)

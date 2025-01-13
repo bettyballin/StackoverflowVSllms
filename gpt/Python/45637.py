@@ -1,0 +1,1 @@
+from django.db.models import Sum\nfrom django.db.models.functions import TruncDate\n\ndata = (\n    My_Model.objects\n    .annotate(date=TruncDate('time_stamp'))\n    .values('date')\n    .annotate(total_numbers_data=Sum('numbers_data'))\n    .order_by('date')\n)

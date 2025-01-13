@@ -1,0 +1,1 @@
+jar cvf mydll.jar -C native/ .

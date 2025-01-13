@@ -1,0 +1,1 @@
+EXECUTE 'SELECT * FROM my_table WHERE column = ' || quote_literal(user_input);

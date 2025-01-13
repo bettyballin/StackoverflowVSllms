@@ -1,0 +1,1 @@
+string connectionString = "User Id=<your_user_id>;Password=<your_password>;Data Source=<your_data_source>";

@@ -1,0 +1,1 @@
+public class SomeService\n{\n    private readonly IDateTimeProvider _dateTimeProvider;\n\n    public SomeService(IDateTimeProvider dateTimeProvider)\n    {\n        _dateTimeProvider = dateTimeProvider;\n    }\n\n    public void SomeMethod()\n    {\n        DateTime now = _dateTimeProvider.Now;\n        // Your logic here\n    }\n}

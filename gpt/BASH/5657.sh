@@ -1,0 +1,1 @@
+#!/bin/bash\n     # CI script to deploy nightly build\n     git pull origin nightly\n     ./deploy.sh # Custom deployment script

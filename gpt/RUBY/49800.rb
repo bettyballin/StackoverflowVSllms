@@ -1,0 +1,1 @@
+# Using Pundit\n   class ArticlePolicy < ApplicationPolicy\n     def show?\n       record.published? || record.author == user\n     end\n   end

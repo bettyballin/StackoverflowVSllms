@@ -1,1 +1,0 @@
-public static string Column(int column)\n{\n    column--;\n    if (column >= 0 && column < 26)\n        return ((char)('A' + column)).ToString();\n    else if (column > 25)\n        return Column(column / 26) + Column(column % 26 + 1);\n    else\n        throw new Exception("Invalid Column #" + (column + 1).ToString());\n}

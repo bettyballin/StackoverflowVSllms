@@ -1,0 +1,1 @@
+$.ajax({\n        url: 'your-api-endpoint',\n        method: 'GET',\n        success: function(response) {\n            // Handle the response data\n        }\n    });

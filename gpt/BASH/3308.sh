@@ -1,0 +1,1 @@
+tsqllint your_file.sql

@@ -1,1 +1,0 @@
-struct IExportedMethods {\n    virtual long __stdcall AMethod(void)=0;\n  };\n  // with the win32 macros:\n  interface IExportedMethods {\n    STDMETHOD_(long,AMethod)(THIS)PURE;\n  };

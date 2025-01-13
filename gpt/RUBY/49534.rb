@@ -1,0 +1,1 @@
+set :stage, :development\n     set :branch, 'develop'\n     server 'dev.example.com', user: 'deploy', roles: %w{app db web}

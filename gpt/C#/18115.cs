@@ -1,0 +1,1 @@
+int[] array = { 5, 3, 8, 4, 2 };\n     Array.Sort(array); // Sorts the array in-place\n     \n     List<int> list = new List<int> { 5, 3, 8, 4, 2 };\n     list.Sort(); // Sorts the list in-place

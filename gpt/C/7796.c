@@ -1,0 +1,1 @@
+extern (C) int add(int a, int b) {\n    return a + b;\n}\n\nextern (C) void PyInit_myextension() {\n    // Initialize your module here\n}

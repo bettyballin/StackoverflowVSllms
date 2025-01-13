@@ -1,1 +1,0 @@
-$matches = false;\nforeach ($pattern_array as $pattern)\n{\n  if (preg_match($pattern, $page))\n  {\n    $matches = true;\n  } \n}

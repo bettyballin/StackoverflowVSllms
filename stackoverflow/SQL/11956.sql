@@ -1,1 +1,0 @@
-select CONVERT(varchar(30), GETDATE(), 126)

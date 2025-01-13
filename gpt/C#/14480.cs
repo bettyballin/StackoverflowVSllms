@@ -1,0 +1,1 @@
+using System;\nusing System.Runtime.InteropServices;\n\npublic class AESCudaWrapper\n{\n    [DllImport("AESCudaLibrary.dll", EntryPoint = "AES_encrypt")]\n    public static extern void AES_encrypt(byte[] input, byte[] output, byte[] key);\n\n    public void Encrypt(byte[] input, byte[] output, byte[] key)\n    {\n        AES_encrypt(input, output, key);\n    }\n}

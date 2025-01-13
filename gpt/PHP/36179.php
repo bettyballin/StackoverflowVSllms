@@ -1,0 +1,1 @@
+Array\n(\n    [0] => srv\n    [1] => www\n    [2] => site.com\n    [3] => htdocs\n    [4] => system\n    [5] => application\n    [6] => views\n)

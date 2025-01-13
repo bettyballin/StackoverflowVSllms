@@ -1,1 +1,0 @@
-Create Table #Cities(City varchar(200))

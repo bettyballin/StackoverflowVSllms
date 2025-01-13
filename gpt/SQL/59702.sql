@@ -1,0 +1,1 @@
+DECLARE @DateTimeVariable DATETIME = '2023-10-12 14:30:00'\nDECLARE @VarCharVariable VARCHAR(10)\n\nSET @VarCharVariable = CONVERT(VARCHAR, @DateTimeVariable, 23)\n\nSELECT @VarCharVariable

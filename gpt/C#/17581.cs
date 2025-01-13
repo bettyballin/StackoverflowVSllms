@@ -1,0 +1,1 @@
+public class Account\n   {\n       public int Id { get; set; }\n       public Guid PublicId { get; set; } // Non-sensitive identifier\n       public string AccountNumber { get; set; }\n       // Other properties\n   }

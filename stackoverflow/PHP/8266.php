@@ -1,1 +1,0 @@
-$this->Auth->fields = array('username' => 'email', 'password' => 'password');

@@ -1,1 +1,0 @@
-# If not running interactively, don't do anything\n[ -z "$PS1" ] && retur

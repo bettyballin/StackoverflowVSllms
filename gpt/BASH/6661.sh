@@ -1,0 +1,1 @@
+# Install the necessary 32-bit libraries and tools (if not already installed)\nsudo apt-get install gcc-multilib\n\n# Assemble and link the x86 assembly code\ngcc -m32 -o program program.asm

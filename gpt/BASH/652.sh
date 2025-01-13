@@ -1,0 +1,1 @@
+g++ -o sanitize_html sanitize_html.cpp -lhtmlcxx

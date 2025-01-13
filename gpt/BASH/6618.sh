@@ -1,0 +1,1 @@
+# Example command to start OWASP ZAP in daemon mode\n    zap.sh -daemon -port 8080 -config api.disablekey=true

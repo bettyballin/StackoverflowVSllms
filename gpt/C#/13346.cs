@@ -1,0 +1,1 @@
+// Example of input validation\n    public class UserModel\n    {\n        [Required]\n        [StringLength(100, ErrorMessage = "Name length can't be more than 100.")]\n        public string Name { get; set; }\n\n        [EmailAddress]\n        public string Email { get; set; }\n    }

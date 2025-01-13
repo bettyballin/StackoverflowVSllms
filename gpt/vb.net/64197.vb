@@ -1,0 +1,1 @@
+' Check if there are any records that match the condition\nIf (From s In myEntity.employee Where s.employeeID = myEmployeeIDVariable).Any() Then\n    ' Fetch the first record that matches the condition\n    Dim r = (From s In myEntity.employee Where s.employeeID = myEmployeeIDVariable).First()\n\n    ' ... do stuff ...\nEnd If

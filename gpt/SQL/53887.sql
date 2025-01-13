@@ -1,0 +1,1 @@
+SELECT * FROM TABLE(get_rad@dblink_to_B);

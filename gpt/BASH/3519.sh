@@ -1,0 +1,1 @@
+# Install uniconvertor\nsudo apt-get install python-uniconvertor\n\n# Install ImageMagick and PHP extension\nsudo apt-get install imagemagick\nsudo apt-get install php-imagick\n\n# Restart the web server\nsudo systemctl restart apache2   # For Apache\nsudo systemctl restart nginx     # For Nginx

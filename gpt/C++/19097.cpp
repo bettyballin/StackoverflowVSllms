@@ -1,0 +1,1 @@
+#ifdef _MSC_VER  // Check if compiling with Microsoft Visual C++\n    #include "stdafx.h"\n    #endif

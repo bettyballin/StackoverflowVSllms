@@ -1,1 +1,0 @@
-SELECT tag_id\nFROM Post_tag_nn\nWHERE post_id = $post_id;

@@ -1,0 +1,1 @@
+$file = dirname(__FILE__); // dirname(__FILE__) is executed here\n$anotherVariable = $file;  // $file's value is copied to $anotherVariable

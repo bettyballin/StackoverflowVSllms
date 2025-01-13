@@ -1,0 +1,1 @@
+function clone(obj) {\n        return typeof obj === 'undefined' ?\n            this : (clone.prototype = Object(obj), new clone);\n    }

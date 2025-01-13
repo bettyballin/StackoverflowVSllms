@@ -1,1 +1,0 @@
-using System.Net.NetworkInformation    \n\nIPGlobalProperties properties = IPGlobalProperties.GetIPGlobalProperties();\nTcpConnectionInformation[] tcpInfoList = properties.GetActiveTcpConnections();

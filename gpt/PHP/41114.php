@@ -1,0 +1,1 @@
+<?php\n// Fetch the question from the database\n$question = $row2['Question'];\n\n// Convert newlines to <br> tags\n$formattedQuestion = nl2br(htmlspecialchars($question));\n\n// Display the formatted question\necho '<td width="700px" bgcolor="#EAD57F"><font color="#4A2A0B">Question :</font><font color="#5E450B">' . $formattedQuestion . '</font></td>';\n?>

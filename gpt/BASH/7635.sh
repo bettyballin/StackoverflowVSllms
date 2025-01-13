@@ -1,0 +1,1 @@
+g++ -o intercept intercept.cpp -lnetfilter_queue

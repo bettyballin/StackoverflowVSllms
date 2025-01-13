@@ -1,1 +1,0 @@
-percentage = (hours / 24 + minutes / (60 * 24)) * 100

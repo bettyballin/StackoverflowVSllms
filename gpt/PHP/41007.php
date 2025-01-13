@@ -1,0 +1,1 @@
+$config = json_decode(file_get_contents('path/to/template_config.json'), true);\n   if ($config) {\n       $templateName = $config['template_name'];\n       $contentAreas = $config['content_areas'];\n       // Use $templateName and $contentAreas as needed\n   }

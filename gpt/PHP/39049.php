@@ -1,0 +1,1 @@
+<?php\n$arr = [\n    "abc" => ["val1", "val2", "val3"],\n    "xyz" => ["val4", "val5", "val6"]\n];\n\n$newArr = [];\nforeach ($arr as $key => $values) {\n    foreach ($values as $index => $value) {\n        $newArr[$index][$key] = $value;\n    }\n}\n\n// Output the new array for verification\nprint_r($newArr);\n?>

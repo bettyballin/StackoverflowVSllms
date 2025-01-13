@@ -1,0 +1,1 @@
+sudo apt-get install ufw\n   sudo ufw default deny incoming\n   sudo ufw default allow outgoing\n   sudo ufw allow 22/tcp   # Allow SSH\n   sudo ufw allow 80/tcp   # Allow HTTP\n   sudo ufw allow 443/tcp  # Allow HTTPS\n   sudo ufw enable

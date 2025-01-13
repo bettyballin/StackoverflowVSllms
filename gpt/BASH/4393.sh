@@ -1,0 +1,1 @@
+c:\> myprogram > textfile.txt

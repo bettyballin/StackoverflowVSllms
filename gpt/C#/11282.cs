@@ -1,0 +1,1 @@
+using System;\nusing System.Windows.Forms;\n\nnamespace TestClient\n{\n    public partial class Form1 : Form\n    {\n        public Form1()\n        {\n            InitializeComponent();\n        }\n\n        protected override void OnShown(EventArgs e)\n        {\n            base.OnShown(e);\n            this.Visible = false;\n        }\n    }\n}

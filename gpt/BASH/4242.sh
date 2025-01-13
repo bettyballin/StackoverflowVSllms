@@ -1,0 +1,1 @@
+copy C:\OpenSSL-Win32\bin\ssleay32.dll %WINDIR%\System32\ssleay32.dll\n   copy C:\OpenSSL-Win32\bin\libeay32.dll %WINDIR%\System32\libeay32.dll

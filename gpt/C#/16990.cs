@@ -1,0 +1,1 @@
+public interface IRepository<T> where T : class\n    {\n        T GetById(object id);\n        void Add(T entity);\n        void Remove(T entity);\n    }

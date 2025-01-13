@@ -1,1 +1,0 @@
-if(new_username.IndexOf(" Joined") > 0)\n{\n      new_username = new_username.Substring(0, new_username.IndexOf(" Joined "))\n}

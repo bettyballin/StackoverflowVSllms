@@ -1,0 +1,1 @@
+public ActionResult Register(RegisterViewModel model)\n{\n    if (ModelState.IsValid)\n    {\n        User user = new User\n        {\n            Username = model.Username,\n            Password = model.Password,\n            Email = model.Email\n            // Map other fields\n        };\n\n        // Save the user to the database\n    }\n\n    return View(model);\n}

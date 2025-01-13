@@ -1,0 +1,1 @@
+// In your page load event or a common method\n   string currentUrl = HttpContext.Current.Request.Url.AbsoluteUri;\n   HttpContext.Current.Session["RedirectUrl"] = currentUrl;

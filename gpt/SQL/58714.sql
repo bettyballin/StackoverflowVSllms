@@ -1,0 +1,1 @@
+SELECT \n    RunOutDate, \n    ResupplyDate,\n    DATEDIFF(day, RunOutDate, ResupplyDate) + 1 AS DaysUnavailable\nFROM \n    FuelOutage;

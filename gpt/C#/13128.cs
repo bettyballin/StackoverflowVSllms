@@ -1,0 +1,1 @@
+using System.Web.Mvc;\n\n     public class EmployeeController : Controller\n     {\n         private EmployeeRepository _repository = new EmployeeRepository();\n\n         public ActionResult Index()\n         {\n             var employees = _repository.GetEmployees();\n             return View(employees);\n         }\n     }

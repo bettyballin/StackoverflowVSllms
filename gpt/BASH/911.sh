@@ -1,0 +1,1 @@
+svnadmin hotcopy /path/to/your/repository /path/to/backup --clean-logs

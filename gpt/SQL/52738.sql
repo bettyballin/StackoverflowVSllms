@@ -1,0 +1,1 @@
+-- customers table\ncustomer_id | customer_name\n------------|---------------\n1           | Alice\n2           | Bob\n3           | Charlie\n\n-- orders table\norder_id | customer_id | amount\n---------|-------------|-------\n101      | 1           | 50\n102      | 1           | 75\n103      | 2           | 100

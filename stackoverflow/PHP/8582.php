@@ -1,1 +1,0 @@
-foreach ($a as $key => $value) {\n    $o->$key = $value;\n}

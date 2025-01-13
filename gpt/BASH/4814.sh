@@ -1,0 +1,1 @@
+iisreset\n   net stop ReportServer$<INSTANCE>\n   net start ReportServer$<INSTANCE>

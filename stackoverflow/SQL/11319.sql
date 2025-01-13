@@ -1,1 +1,0 @@
-select \n    ol1.orderId,\n    ol1.orderLineId,\n    count(*) as lineNumber\nfrom \n    orderLine ol1\n    inner join orderLine ol2 \n        on ol1.orderId = ol2.orderId\n        and ol1.orderLineId >= ol2.orderLineId\ngroup by \n    ol1.orderId, \n    ol1.orderLineId

@@ -1,0 +1,1 @@
+CREATE TABLE leaderboard (\n    userid VARCHAR(128) NOT NULL PRIMARY KEY,\n    score REAL NOT NULL,\n    score_date DATETIME NOT NULL\n);\n\nCREATE INDEX idx_score ON leaderboard(score DESC);

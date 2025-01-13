@@ -1,0 +1,1 @@
+/// <summary>\n   /// This method adds two integers.\n   /// </summary>\n   /// <param name="a">The first integer.</param>\n   /// <param name="b">The second integer.</param>\n   /// <returns>The sum of the two integers.</returns>\n   public int Add(int a, int b)\n   {\n       return a + b;\n   }

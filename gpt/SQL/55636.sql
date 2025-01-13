@@ -1,0 +1,1 @@
+CREATE TABLE Events (\n    Id INT PRIMARY KEY,\n    EventType VARCHAR(50),  -- Discriminator column\n    -- Common properties\n    CommonProperty1 VARCHAR(100),\n    -- Properties specific to Shift\n    ShiftProperty1 VARCHAR(100),\n    -- Properties specific to StaffTimeOff\n    StaffTimeOffProperty1 VARCHAR(100)\n);

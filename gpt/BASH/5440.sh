@@ -1,0 +1,1 @@
+etsh advfirewall firewall add rule name="Allow SQL Server" protocol=TCP dir=in localport=1433 remoteip=<trusted_ip> action=allow

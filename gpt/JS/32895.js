@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    window.onload = function() {\n        // Close the window after a short delay\n        setTimeout(function() {\n            window.close();\n        }, 1000); // Delay in milliseconds\n    };\n</script>

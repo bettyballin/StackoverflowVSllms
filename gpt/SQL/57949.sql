@@ -1,0 +1,1 @@
+-- Create a new role\nCREATE ROLE [SpecificRole]\n\n-- Grant EXECUTE permission on the stored procedure to the new role\nGRANT EXECUTE ON [dbo].[StoredProcedureXPTO] TO [SpecificRole]\n\n-- Add users to the specific role as needed\nEXEC sp_addrolemember 'SpecificRole', 'UserName'

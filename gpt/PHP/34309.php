@@ -1,0 +1,1 @@
+$method = 'aes-128-cbc';\n$decrypted_string = openssl_decrypt($encrypted_string, $method, $key, OPENSSL_RAW_DATA, hex2bin($hexiv));\n\n// Remove padding (null characters) that might have been added during encryption\n$decrypted_string = rtrim($decrypted_string, "\0");\n\n// Optionally, you can also trim any additional whitespace\n$decrypted_string = trim($decrypted_string);

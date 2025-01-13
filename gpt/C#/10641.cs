@@ -1,0 +1,1 @@
+public override void VerifyRenderingInServerForm(Control control)\n{\n    // Required to avoid the runtime error "Control 'ListView1' of type 'ListView' must be placed inside a form tag with runat=server."\n}

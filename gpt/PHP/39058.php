@@ -1,0 +1,1 @@
+// Parsing JSON in PHP\n$jsonString = '{"name": "John", "age": 30}';\n$jsonObj = json_decode($jsonString, true);\necho $jsonObj['name']; // Output: Joh

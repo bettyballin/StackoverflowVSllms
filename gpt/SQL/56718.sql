@@ -1,0 +1,1 @@
+INSERT INTO NewDatabase.dbo.NewTable\n   SELECT * FROM OriginalDatabase.dbo.OriginalTable;

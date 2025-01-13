@@ -1,1 +1,0 @@
-SELECT \n        *\nFROM \n        myTable\nWHERE \n  CASE WHEN field1 LIKE 'match0' THEN \n    CASE WHEN myfunc(t1.hardwareConfig) LIKE 'match1' \n      THEN 1 \n    END \n  END = 1

@@ -1,0 +1,1 @@
+using System.ComponentModel.DataAnnotations;\n\n    public class Person\n    {\n        public int ID { get; set; }\n        \n        [Required]\n        public string Name { get; set; }\n        \n        [Range(0, int.MaxValue, ErrorMessage = "Number of cats named Ender must be a non-negative integer.")]\n        public int NumberOfCatsNamedEnder { get; set; }\n    }

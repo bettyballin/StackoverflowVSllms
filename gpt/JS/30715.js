@@ -1,0 +1,1 @@
+function DoSomething(a, b, c, d) {\n  console.log(a + b + c);\n  alert(1 / e);\n}\n\nvar fn2 = DoSomething.TryCatchWrap();\nfn2(1, 2, 3, 4);

@@ -1,1 +1,0 @@
-#centerpoint {\n    top: 50%;\n    left: 50%;\n    position: absolute;\n}\n\n#dialog {\n    position: relative;\n\n    width: 600px;\n    margin-left: -300px;\n\n    height: 400px;\n    margin-top: -200px;\n}

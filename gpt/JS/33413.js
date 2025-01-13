@@ -1,0 +1,1 @@
+var targetUrl = "http://localhost/jQueryProxy.php";\nvar parameters = ""; // later\n\n$.ajax({\n  type: "GET",\n  async: true,\n  url: targetUrl,\n  data: parameters,\n  success: function(response, status, xhr){\n    alert(response);\n  },\n  error: function(xhr, status, error) {\n    console.error("AJAX Error: " + status + ": " + error);\n  }\n});

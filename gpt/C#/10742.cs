@@ -1,0 +1,1 @@
+DateTime parsedDate;\nif (DateTime.TryParseExact(txtDate.Text, "dd-MMM-yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out parsedDate))\n{\n    var entity = new YourEntity\n    {\n        YourDateProperty = parsedDate\n    };\n    // Save entity using NHibernate session\n}\nelse\n{\n    // Handle invalid date format\n}

@@ -1,0 +1,1 @@
+for (int i = 0; i < 1000; i += 4) {\n    sum += array[i];\n    sum += array[i + 1];\n    sum += array[i + 2];\n    sum += array[i + 3];\n}

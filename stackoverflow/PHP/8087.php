@@ -1,1 +1,0 @@
-$checkboxes = $_POST['checkboxes'];

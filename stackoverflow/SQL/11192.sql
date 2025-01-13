@@ -1,1 +1,0 @@
-select exp(sum(ln(col)))\n  from table;

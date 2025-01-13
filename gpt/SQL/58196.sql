@@ -1,0 +1,1 @@
+INSERT INTO quotes (quote_text) VALUES ('The turkey is a large bird native to North America.');\n   INSERT INTO quotes (quote_text) VALUES ('We will have turkey for dinner tonight.');\n   INSERT INTO quotes (quote_text) VALUES ('Turkey is a country located mainly on the Anatolian Peninsula.');

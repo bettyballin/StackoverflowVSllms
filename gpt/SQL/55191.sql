@@ -1,0 +1,1 @@
+INSERT INTO CarList (CarColour, CarName, CarCompany)\nSELECT DISTINCT new.CarColour, new.CarName, new.CarCompany\nFROM NewCars new\nLEFT JOIN CarList old\nON new.CarColour = old.CarColour\nAND new.CarName = old.CarName\nAND new.CarCompany = old.CarCompany\nWHERE old.myID IS NULL;

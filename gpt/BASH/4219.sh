@@ -1,0 +1,1 @@
+@echo off\nsetlocal\n\nset a=1\nset b=2\n\nlogparser file:query.sql?a=%a%&b=%b% -o:Sql -server:databaseserver -database:database -createtable:ON -i:IISW3C -iCheckPoint:somewhere\query.lpc -transactionRowCount:200\n\nendlocal

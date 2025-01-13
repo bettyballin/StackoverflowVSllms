@@ -1,1 +1,0 @@
-sprintf(buffer, "This is a string with some %s and %d numbers", "strings", 42);

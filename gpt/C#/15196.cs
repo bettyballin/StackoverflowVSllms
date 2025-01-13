@@ -1,0 +1,1 @@
+// Example of using AES for encryption\n    using (Aes aesAlg = Aes.Create())\n    {\n        aesAlg.Key = Encoding.UTF8.GetBytes("YourEncryptionKeyHere");\n        aesAlg.IV = Encoding.UTF8.GetBytes("YourIVHere");\n        // Encryption code\n    }

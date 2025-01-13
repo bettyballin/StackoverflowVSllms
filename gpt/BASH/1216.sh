@@ -1,0 +1,1 @@
+cpanm --local-lib=~/myapp_local_lib Module::Name

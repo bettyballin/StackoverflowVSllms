@@ -1,0 +1,1 @@
+<!-- templates/upload.html -->\n<form method="post" enctype="multipart/form-data">\n    {% csrf_token %}\n    {{ form.as_p }}\n    <button type="submit">Upload</button>\n</form>\n\n<!-- templates/success.html -->\n<h1>Upload Successful</h1>\n<p>{{ response }}</p>\n\n<!-- templates/error.html -->\n<h1>Upload Failed</h1>\n<p>{{ response }}</p>

@@ -1,0 +1,1 @@
+SendMessage(GetDlgItem(hwndConsole, 1), WM_SETTEXT, 0, (LPARAM)"Your message here");

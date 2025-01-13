@@ -1,0 +1,1 @@
+<?php\n// Define a global variable\n$my_custom_global = "Hello, World!";\n\nfunction accessGlobalVariable() {\n    global $my_custom_global;\n    echo $my_custom_global;\n}\n\naccessGlobalVariable(); // Outputs: Hello, World!\n?>

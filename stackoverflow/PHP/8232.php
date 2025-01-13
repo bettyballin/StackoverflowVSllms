@@ -1,1 +1,0 @@
-<?php $userid= $this->params['pass'][0];?>\nvar userId = '<?=$userid?>';\n$("#displayPanel #saveForm").live("click", function(){\n    document.location = 'http://localhost/cake_1_2/forms/homepage/' + userId;\n});

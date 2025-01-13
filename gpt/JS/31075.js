@@ -1,0 +1,1 @@
+function get_gender() {\n    var dd = document.getElementById("gender_select");\n    if (dd) {\n        var theindex = dd.options[dd.selectedIndex].value;\n        var thevalue = dd.options[dd.selectedIndex].text;\n        document.getElementById("gender_text").value = thevalue;\n    } else {\n        console.error("Gender select element not found.");\n    }\n}

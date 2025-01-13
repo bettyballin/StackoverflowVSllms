@@ -1,0 +1,1 @@
+div.container {\n    width: 500px;\n}\ndiv.left {\n    float: left;\n}\ndiv.right {\n    float: right;\n    clear: right;\n}

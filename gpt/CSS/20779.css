@@ -1,0 +1,1 @@
+.example {\n        background: rgb(255, 0, 0); /* Fallback for older browsers */\n        background: rgba(255, 0, 0, 0.5); /* Modern browsers */\n    }

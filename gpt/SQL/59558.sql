@@ -1,0 +1,1 @@
+SELECT REPLACE(\n         REPLACE(\n           REPLACE('can no pay{1},as your payment{2}due on {3}', '{1}', 'value1'),\n         '{2}', 'value2'),\n       '{3}', 'value3') AS replaced_string\nFROM dual;

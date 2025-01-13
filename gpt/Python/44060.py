@@ -1,0 +1,1 @@
+[('Last year', 'DATE'), ('London', 'GPE'), ('Barack Obama', 'PERSON')]

@@ -1,1 +1,0 @@
-select *\nfrom table\nwhere id=isnull(@param, id)

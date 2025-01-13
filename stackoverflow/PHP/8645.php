@@ -1,1 +1,0 @@
-ini_set( 'include_path', 'new/path' );\n// or\nset_include_path( 'new/path' );

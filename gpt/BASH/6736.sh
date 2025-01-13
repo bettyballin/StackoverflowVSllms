@@ -1,0 +1,1 @@
+sudo ln -sf /usr/local/bin/gcc-4.4 /usr/local/bin/gcc\n   sudo ln -sf /usr/local/bin/g++-4.4 /usr/local/bin/g++

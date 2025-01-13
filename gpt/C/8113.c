@@ -1,0 +1,1 @@
+#pragma GCC optimize "O2"\n#pragma GCC diagnostic error "-Wuninitialized"\n\nint main() {\n    int x;\n    int y = x; // This should now be treated as an error\n    return 0;\n}

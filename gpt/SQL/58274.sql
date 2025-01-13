@@ -1,0 +1,1 @@
+-- Example of an optimized query using JOINs instead of nested subqueries\n    SELECT e.name, d.department_name\n    FROM employees e\n    JOIN departments d ON e.department_id = d.department_id;

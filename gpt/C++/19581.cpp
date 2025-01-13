@@ -1,0 +1,1 @@
+template<typename T>\n  concept Integral = std::is_integral_v<T>;\n\n  template<Integral T>\n  T add(T a, T b) {\n      return a + b;\n  }

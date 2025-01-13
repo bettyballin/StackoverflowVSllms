@@ -1,1 +1,0 @@
-def my_view(request, movie):\n    return render_to_template('my_view.html',\n                              {'movie': settings.MEDIA_URL + 'flash.swf?' + movie})

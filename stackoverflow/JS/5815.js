@@ -1,1 +1,0 @@
-$.ajax({\n   type: "POST", // the request type. You most likely going to use POST\n   url: "your_php_script.php", // the script path on the server side\n   data: "name=John&location=Boston", // here you put you http param you want to be able to retrieve in $_POST \n   success: function(msg) {\n     alert( "Data Saved: " + msg ); // what you do once the request is completed\n   }

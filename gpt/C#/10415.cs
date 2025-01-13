@@ -1,0 +1,1 @@
+using Microsoft.AspNet.SignalR;\n\n     public class ProgressHub : Hub\n     {\n         public void SendProgress(string message)\n         {\n             Clients.All.updateProgress(message);\n         }\n     }

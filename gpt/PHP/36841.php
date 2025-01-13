@@ -1,0 +1,1 @@
+// Ensure zend.assertions is set to 1 in php.ini for this to work properly\n\nini_set('zend.assertions', 1);\nini_set('assert.active', 1);\nini_set('assert.exception', 1);\n\n// Correct usage with boolean expression\nassert($a === $b);\n\n// Avoid using strings to evaluate code

@@ -1,0 +1,1 @@
+// Example using Entity Framework Core In-Memory Database\n   var options = new DbContextOptionsBuilder<MyDbContext>()\n                     .UseInMemoryDatabase(databaseName: "TestDatabase")\n                     .Options;\n   \n   using (var context = new MyDbContext(options))\n   {\n       // Seed data and perform testing\n   }

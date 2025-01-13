@@ -1,0 +1,1 @@
+<!-- app/views/widgets/show.html.erb -->\n    <h1><%= @widget.name %></h1>\n    <p><%= @widget.description %></p>\n    <iframe srcdoc="<%= @widget.code %>" width="100%" height="500px"></iframe>

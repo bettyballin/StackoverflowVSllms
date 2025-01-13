@@ -1,1 +1,0 @@
-WUApiLib.AutomaticUpdatesClass auc = new WUApiLib.AutomaticUpdatesClass();\nbool active = auc.ServiceEnabled;

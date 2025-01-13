@@ -1,0 +1,1 @@
+<?php\n\nuse PHPUnit\Framework\TestCase;\n\nclass ExampleTest extends TestCase\n{\n    public function testExample()\n    {\n        $this->assertTrue(true);\n    }\n}

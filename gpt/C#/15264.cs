@@ -1,0 +1,1 @@
+using System;\n   using MyLibraryLib;\n\n   class Program {\n       static void Main() {\n           var myLibrary = new MyLibrary();\n           string result = myLibrary.MyMethod("World");\n           Console.WriteLine(result); // Outputs: Hello, World\n       }\n   }

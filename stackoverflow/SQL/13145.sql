@@ -1,1 +1,0 @@
-CREATE TABLE users_images (\n    `id` int(10) unsigned auto_increment,\n    `userid` int(10) unsigned NOT NULL,\n    `name` varchar(255) NOT NULL, -- Filename for the image\n    `isavatar` tinyint(1) DEFAULT 0,\n    `isprofile` tinyint(1) DEFAULT 0,\n    PRIMARY KEY(id)\n) ENGINE=InnoDB CHARSET=utf8;

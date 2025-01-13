@@ -1,1 +1,0 @@
-if($_SERVER['HTTP_X_REQUESTED_WITH'] == 'XMLHttpRequest') {\n     //Request identified as ajax request\n }

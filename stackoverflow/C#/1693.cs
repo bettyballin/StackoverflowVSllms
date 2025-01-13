@@ -1,1 +1,0 @@
-var TagIds = new int[] {12, 32, 42};\n\nvar q = from map in Context.TagMaps \n        where TagIds.Contains(map.TagId)\n        select map.Items;

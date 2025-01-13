@@ -1,0 +1,1 @@
+private void okBtn_Click(object sender, EventArgs e)\n{\n    if (MainForm != null)\n    {\n        MainForm.maxGameCountLblUpdate(max);\n    }\n    else\n    {\n        MessageBox.Show("MainForm is not set.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);\n    }\n}

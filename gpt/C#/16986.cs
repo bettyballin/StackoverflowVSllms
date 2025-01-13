@@ -1,0 +1,1 @@
+public void ExampleRefMethod(ref int number)\n{\n    number += 10; // Modify the value\n}\n\npublic void TestRef()\n{\n    int myNumber = 5; // Must be initialized\n    ExampleRefMethod(ref myNumber);\n    Console.WriteLine(myNumber); // Output will be 15\n}

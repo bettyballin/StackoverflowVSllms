@@ -1,0 +1,1 @@
+public override bool Equals(object obj)\n{\n    if (obj == null || GetType() != obj.GetType())\n    {\n        return false;\n    }\n\n    Region other = (Region)obj;\n    return Cmr.CompareTo(other.Cmr) == 0 && Id == other.Id;\n}\n\npublic override int GetHashCode()\n{\n    return (Cmr, Id).GetHashCode();\n}

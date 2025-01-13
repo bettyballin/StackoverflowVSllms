@@ -1,0 +1,1 @@
+sudo apt-get install xfonts-base xfonts-100dpi xfonts-75dpi xfonts-scalable

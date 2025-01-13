@@ -1,0 +1,1 @@
+<?php\n$url = "http://www.example.com";\n$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$data = curl_exec($ch);\ncurl_close($ch);\necho $data;\n?>

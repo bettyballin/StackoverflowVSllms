@@ -1,1 +1,0 @@
-$mysqlquery="SELECT * FROM $gid";

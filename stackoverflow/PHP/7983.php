@@ -1,1 +1,0 @@
-<?php echo form_open('ad/pre_search');?>\n   <input type="text" name="keyword" />\n</form>

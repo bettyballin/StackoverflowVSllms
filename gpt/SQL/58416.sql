@@ -1,0 +1,1 @@
+ALTER TABLE your_table_name\nADD new_column_name datatype DEFAULT default_value;

@@ -1,0 +1,1 @@
+cp "/Users/<YourUsername>/Library/Application Support/SQL Developer/UserSnippets/snippets.xml" "/path/to/backup/snippets.xml"

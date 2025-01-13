@@ -1,0 +1,1 @@
+CREATE INDEX idx_products_l10n_language ON products_l10n (language);\n   CREATE INDEX idx_products_l10n_product_id ON products_l10n (product_id);

@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE log_message(p_log_level VARCHAR2, p_log_message VARCHAR2) IS\n    BEGIN\n        INSERT INTO log_table (log_level, log_message)\n        VALUES (p_log_level, p_log_message);\n    EXCEPTION\n        WHEN OTHERS THEN\n            NULL; -- Ignore errors in the logging mechanism\n    END log_message;

@@ -1,1 +1,0 @@
-select val from valuetable order by someothercolum

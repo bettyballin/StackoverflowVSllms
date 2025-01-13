@@ -1,1 +1,0 @@
-0x00000001 //edit permission\n0x00000002 //create new thing permission\n0x00000004 //delete things permission\n0x00000008 //view hidden things permission\n   .\n   .\n   .\n0x80000000 //total control of the server and everyone logged i

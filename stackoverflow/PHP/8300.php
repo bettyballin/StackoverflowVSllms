@@ -1,1 +1,0 @@
-$str = preg_replace('/{([-A-Z]+)}/e', 'file_get_contents(\'$1.html\')', $str);

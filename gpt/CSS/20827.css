@@ -1,0 +1,1 @@
+/* Apply hasLayout fix for IE7 */\n.parent-container,\n.menu,\n.menu ul {\n    zoom: 1;\n}

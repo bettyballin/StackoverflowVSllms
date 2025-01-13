@@ -1,0 +1,1 @@
+WITH TreeCTE AS (\n    SELECT NodeID, ParentID, NodeName\n    FROM Tree\n    WHERE NodeID = @RootNodeID -- Starting node\n\n    UNION ALL\n\n    SELECT t.NodeID, t.ParentID, t.NodeName\n    FROM Tree t\n    INNER JOIN TreeCTE cte ON t.ParentID = cte.NodeID\n)\nSELECT * FROM TreeCTE;

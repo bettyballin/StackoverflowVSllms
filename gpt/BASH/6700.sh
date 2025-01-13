@@ -1,0 +1,1 @@
+#!/bin/bash\n   /path/to/your_application\n   logout

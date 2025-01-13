@@ -1,1 +1,0 @@
-select p.*\nfrom\n  (select code_wildcard\n   from second\n   where id = 1) s\n  join parent p\n      on p.office_code like s.code_wildcard

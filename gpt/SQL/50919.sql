@@ -1,0 +1,1 @@
+SELECT mix_type || ' (' || TO_CHAR(mix_num) || ')' as description\nFROM acid_batch\nWHERE mix_num < 10;

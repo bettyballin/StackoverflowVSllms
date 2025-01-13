@@ -1,1 +1,0 @@
-getRadioButtonValue(this["whichThing"]))

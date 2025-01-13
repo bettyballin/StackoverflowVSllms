@@ -1,1 +1,0 @@
-render :template => "ctrl/update"

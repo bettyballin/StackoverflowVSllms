@@ -1,1 +1,0 @@
-$arr = array("gif" => array("extension" => "gif", "size" => "90"),\n             "jpg" => array("extension" => "jpeg", "size" => "120")\n\n               ...\n              );\n\necho "Extension: " . $arr['gif']['extension'] . " Size or whatever: " . $arr['gif']['size'];

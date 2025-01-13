@@ -1,0 +1,1 @@
+const obj = {\n     name: "Charlie",\n     greet: function() {\n       const innerFunction = () => {\n         console.log(this.name); // refers to obj, because arrow functions do not have their own `this`\n       };\n       innerFunction();\n     }\n   };\n   obj.greet(); // logs "Charlie"

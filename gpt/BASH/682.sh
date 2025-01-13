@@ -1,0 +1,1 @@
+echo '/dev/xvdf /mnt/oracle ext4 defaults,nofail 0 2' | sudo tee -a /etc/fstab

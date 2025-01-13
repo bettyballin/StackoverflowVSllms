@@ -1,1 +1,0 @@
-// Values you provide\nvar preferenceKey = "key";      // replace with the key for a preference\nvar preferenceValue = "value";  // replace with a preference to save\n\n// Preference code\nwidget.setPreferenceForKey(preferenceValue, preferenceKey);

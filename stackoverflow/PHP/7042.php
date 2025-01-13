@@ -1,1 +1,0 @@
-header('Content-type: text/plain');\nheader('Content-disposition: attachment; filename="test.txt"');

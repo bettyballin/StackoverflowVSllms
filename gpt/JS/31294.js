@@ -1,0 +1,1 @@
+$(function() {\n  $('#draggable').draggable({\n    helper: 'clone',\n    start: function(event, ui) {\n      var info = $(this).data('info');\n      console.log('Data:', info);\n    }\n  });\n\n  $('#droppable').droppable({\n    drop: function(event, ui) {\n      var info = ui.helper.data('info');\n      console.log('Dropped data:', info);\n    }\n  });\n});

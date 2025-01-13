@@ -1,0 +1,1 @@
+CREATE TABLE `attachments` (\n    `id` INT(11) NOT NULL AUTO_INCREMENT,\n    `name` VARCHAR(255) NOT NULL,\n    `size` INT(11) NOT NULL,\n    `data` LONGBLOB NOT NULL,\n    `mime_type` VARCHAR(255) NOT NULL,\n    PRIMARY KEY (`id`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8;

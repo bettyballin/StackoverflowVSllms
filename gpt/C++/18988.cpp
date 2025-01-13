@@ -1,0 +1,1 @@
+// File1.cpp\n   static int internalVar = 42; // internal linkage\n   static void internalFunc() {} // internal linkage

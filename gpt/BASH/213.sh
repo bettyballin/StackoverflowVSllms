@@ -1,0 +1,1 @@
+perf record -g ./your_application\n   perf report

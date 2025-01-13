@@ -1,0 +1,1 @@
+<plugin>\n      ...\n      <requires>\n         <import plugin="org.eclipse.jst.pagedesigner"/>\n         <import plugin="org.eclipse.ui.editors"/>\n         <import plugin="org.eclipse.ui.views"/>\n         ...\n      </requires>\n      ...\n   </plugin>

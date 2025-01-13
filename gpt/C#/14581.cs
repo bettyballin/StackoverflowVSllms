@@ -1,0 +1,1 @@
+public interface IUserDialogService\n{\n    string ShowModalDialog(string question);\n}

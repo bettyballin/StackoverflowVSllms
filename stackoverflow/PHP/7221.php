@@ -1,1 +1,0 @@
-$data = array(\n    1 => 'abcd',\n    2 => 'efg',\n);\nvar_dump($data);

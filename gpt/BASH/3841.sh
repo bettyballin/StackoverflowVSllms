@@ -1,0 +1,1 @@
+phpize\n   ./configure --with-gd\n   make\n   sudo make install

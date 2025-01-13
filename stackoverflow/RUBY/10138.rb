@@ -1,1 +1,0 @@
-User..has_many :objects

@@ -1,0 +1,1 @@
+<?php\n   $database = new SQLite3('database.db');\n\n   if (!$database) {\n       echo "Failed to create or open the database.";\n   } else {\n       echo "Database created or opened successfully.";\n   }\n   ?>

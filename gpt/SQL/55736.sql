@@ -1,0 +1,1 @@
+LOAD DATA INFILE 'path_to_your_file.csv'\n   INTO TABLE search_results\n   FIELDS TERMINATED BY ','\n   LINES TERMINATED BY '\n'\n   (search_id, result_id);

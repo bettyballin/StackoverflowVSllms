@@ -1,0 +1,1 @@
+def multi_text\n  render html: "Word1<br>Word2".html_safe\nend

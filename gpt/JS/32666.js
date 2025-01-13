@@ -1,0 +1,1 @@
+window.addEventListener('hashchange', function() {\n    console.log('Hash changed to: ' + window.location.hash);\n    // Your code to handle the hash change\n}, false);\n\n// Initial check on page load\nif (window.location.hash) {\n    console.log('Initial hash: ' + window.location.hash);\n    // Your code to handle the initial hash\n}

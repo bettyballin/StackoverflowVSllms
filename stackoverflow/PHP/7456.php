@@ -1,1 +1,0 @@
-$imagedata = imagecreatefrompng($imagefile);\nob_start();\nimagepng($imagedata);\n$stringdata = ob_get_contents(); // read from buffer\nob_end_clean(); // delete buffer\n$zdata = gzdeflate($stringdata);

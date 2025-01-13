@@ -1,0 +1,1 @@
+int main() {\n  B* b = new B();\n  b->A::DoSomething();    // Calls A::DoSomething()\n  //b->DoSomething();    // This would cause a compiler error\n  delete b;\n  return 0;\n}

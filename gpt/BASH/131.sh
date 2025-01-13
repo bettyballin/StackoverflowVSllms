@@ -1,0 +1,1 @@
+rsync -e 'ssh -o ControlPath=my-ctrl-socket' <file> user@host:<remotefile>

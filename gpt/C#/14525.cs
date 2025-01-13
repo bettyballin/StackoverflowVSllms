@@ -1,0 +1,1 @@
+if (File.Exists("path_to_your_file.xml"))\n   {\n       XDocument xDoc = XDocument.Load("path_to_your_file.xml");\n       // Manipulate the XML as needed\n       xDoc.Save("path_to_your_file.xml");\n   }\n   else\n   {\n       throw new FileNotFoundException("The specified XML file does not exist.");\n   }

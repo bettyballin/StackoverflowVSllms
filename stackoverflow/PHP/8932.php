@@ -1,1 +1,0 @@
-Zend_Controller_Action_Helper_FlashMessenger::getCurrentMessages()

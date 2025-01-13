@@ -1,0 +1,1 @@
+define(`SMART_HOST', `[localhost]')dnl\n   define(`RELAY_MAILER_ARGS', `TCP $h 2525')dnl\n   define(`ESMTP_MAILER_ARGS', `TCP $h 2525')dnl

@@ -1,1 +1,0 @@
-result := REGEXP_REPLACE(subject, '([$^[()+*?{\|])', '\\\1', 1, 0, 'c');

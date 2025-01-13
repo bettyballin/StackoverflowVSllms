@@ -1,0 +1,1 @@
+if (snmpObject == null)\n   {\n       // Log or handle the null reference\n       throw new InvalidOperationException("SNMP object is not initialized.");\n   }

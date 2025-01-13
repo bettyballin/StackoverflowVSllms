@@ -1,1 +1,0 @@
-Console.SetCursorPosition(0, 0);

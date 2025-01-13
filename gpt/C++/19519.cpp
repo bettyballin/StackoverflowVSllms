@@ -1,0 +1,1 @@
+#include <soci/soci.h>\n   #include <soci/mysql/soci-mysql.h>\n   \n   int main() {\n       soci::session sql(soci::mysql, "db=test user=root password='password'");\n       int count;\n       sql << "SELECT COUNT(*) FROM users", soci::into(count);\n       std::cout << "We have " << count << " users." << std::endl;\n   }

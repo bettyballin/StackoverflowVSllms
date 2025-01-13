@@ -1,0 +1,1 @@
+function greet(name: string): string {\n    return `Hello, ${name}!`;\n}

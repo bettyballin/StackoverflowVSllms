@@ -1,0 +1,1 @@
+CREATE VIEW View2\n   AS\n   SELECT Col1,\n          Col2,\n          Col3,\n          dbo.fn3(Col3) as Col4\n   FROM   View1;

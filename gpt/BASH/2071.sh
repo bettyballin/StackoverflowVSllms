@@ -1,0 +1,1 @@
+pathping [destination_ip_or_hostname]

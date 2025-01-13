@@ -1,1 +1,0 @@
-<div id="unapproved">\n  <%= render :partial => "unapproved" %>\n</div>

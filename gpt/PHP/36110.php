@@ -1,0 +1,1 @@
+// In app/Controller/BookingsController.php\n\nclass BookingsController extends AppController {\n    public $uses = array('Booking', 'Address');\n\n    public function someAction() {\n        $addressId = // ... obtain the address ID you need\n        $mapUrl = $this->Address->generateMapUrl($addressId);\n        $this->set('mapUrl', $mapUrl);\n    }\n}

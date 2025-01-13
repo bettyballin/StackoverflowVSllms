@@ -1,1 +1,0 @@
-class tattler_stats {\n    // class code here\n}

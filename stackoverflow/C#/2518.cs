@@ -1,1 +1,0 @@
-[DataSource("System.Data.SqlClient",\n    "Data Source=VSTS;Initial Catalog=ContactManagerWebTest;\n    Integrated Security=True", "ValidContactInfo",\n    DataAccessMethod.Sequential), TestMethod()]

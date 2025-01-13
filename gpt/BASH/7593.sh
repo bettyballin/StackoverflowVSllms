@@ -1,0 +1,1 @@
+sed '/SET @saved_cs_client/d' mrdb.sql | sed '/SET character_set_client/d' > mrdb_fixed.sql

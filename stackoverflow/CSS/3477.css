@@ -1,1 +1,0 @@
-H1:before {\n    content: "Chapter " counter(chapter) ". ";\n    counter-increment: chapter;  /* Add 1 to chapter */\n    counter-reset: section;      /* Set section to 0 */\n}\nH2:before {\n    content: counter(chapter) "." counter(section) " ";\n    counter-increment: section;\n}

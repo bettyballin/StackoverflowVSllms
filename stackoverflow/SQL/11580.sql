@@ -1,1 +1,0 @@
-SELECT COUNT(*) as totaloccurs, COUNT(@conditions@) as suboccurs\nFROM (@total@ as t1)

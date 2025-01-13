@@ -1,0 +1,1 @@
+<?php\n$variableToPass = "Hello, Base!"; // Define the variable\ninclude('base.php'); // Include the base.php file\n?>

@@ -1,0 +1,1 @@
+// In your C++ library header\nextern "C" {\n    void my_function();\n}

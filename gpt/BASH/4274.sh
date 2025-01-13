@@ -1,0 +1,1 @@
+@echo off\nregedit /s path\to\your\file.reg

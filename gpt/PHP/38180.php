@@ -1,0 +1,1 @@
+$filename = $file . "_" . date("Y-m-d_H-i", time());\n   header("Content-Type: text/csv; charset=utf-8");\n   header("Content-Disposition: attachment; filename=" . $filename . ".csv");\n\n   // BOM for UTF-8\n   echo "\xEF\xBB\xBF";\n\n   echo $csv_output;

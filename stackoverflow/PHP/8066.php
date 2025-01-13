@@ -1,1 +1,0 @@
-<ul>\n{section name="index" loop=$result}                     \n   <li style="float:left;">{$result[index].value}</li>\n{/section}\n   <br style="clear:both" />\n</ul>

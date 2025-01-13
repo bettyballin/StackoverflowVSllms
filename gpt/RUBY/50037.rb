@@ -1,0 +1,1 @@
+require 'wordnik'\n\nWordnik.configure do |config|\n  config.api_key = 'your_api_key'  # Replace with your Wordnik API key\nend\n\nresponse = Wordnik.word.get_definitions('example')  # Replace 'example' with the word you want to look up\n\nif response.any?\n  puts response.first['text']\nelse\n  puts "Definition not found."\nend

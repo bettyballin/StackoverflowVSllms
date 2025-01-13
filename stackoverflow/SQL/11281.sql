@@ -1,1 +1,0 @@
-select distinct\n  a.*\nfrom\n  a\n  inner join b on a.id = b.id

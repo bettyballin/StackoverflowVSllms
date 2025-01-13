@@ -1,0 +1,1 @@
+-- Anti-pattern\n   SELECT * FROM employees;\n\n   -- Better approach\n   SELECT id, name, department FROM employees;

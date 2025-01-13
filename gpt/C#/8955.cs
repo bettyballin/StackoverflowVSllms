@@ -1,0 +1,1 @@
+using System.Net.Security;\n   using System.Security.Cryptography.X509Certificates;\n\n   // Add this line before the Connect call\n   ServicePointManager.ServerCertificateValidationCallback += (sender, certificate, chain, sslPolicyErrors) => true;

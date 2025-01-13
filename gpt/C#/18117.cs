@@ -1,0 +1,1 @@
+public class CustomLocation\n    {\n        public string ID { get; set; }\n        public string Name { get; set; }\n\n        // Override ToString() if needed\n        public override string ToString()\n        {\n            return Name;\n        }\n    }

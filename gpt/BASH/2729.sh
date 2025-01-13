@@ -1,0 +1,1 @@
+c:\> bcp "select c1, c2 from srcTable" queryout tableData.bcp -f formatFile.fmt -T -S srcServer\nc:\> bcp destTable in tableData.bcp -f formatFile.fmt -T -S destServer

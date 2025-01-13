@@ -1,0 +1,1 @@
+CALL blah(NULL);

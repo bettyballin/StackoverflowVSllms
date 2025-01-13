@@ -1,0 +1,1 @@
+icacls YourAssembly.dll /grant UserOrGroupName:F

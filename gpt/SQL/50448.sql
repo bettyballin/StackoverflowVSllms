@@ -1,0 +1,1 @@
+CREATE TABLE translations (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    language_code VARCHAR(2) NOT NULL,\n    string_key VARCHAR(255) NOT NULL,\n    string_value MEDIUMTEXT NOT NULL,\n    UNIQUE(language_code, string_key)\n);

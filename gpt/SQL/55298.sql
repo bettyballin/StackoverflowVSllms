@@ -1,0 +1,1 @@
+INSERT INTO user_attributes (id, user_id, attribute_id, value) VALUES (1, 1, 1, 'foo@bar.net');\nINSERT INTO user_attributes (id, user_id, attribute_id, value) VALUES (2, 1, 2, '999998');

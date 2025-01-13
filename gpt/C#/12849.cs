@@ -1,0 +1,1 @@
+using Google.Cloud.Vision.V1;\n\n   var client = ImageAnnotatorClient.Create();\n   var image = Image.FromFile("sample.png");\n   var response = client.DetectText(image);\n   foreach (var annotation in response)\n   {\n       string text = annotation.Description;\n   }

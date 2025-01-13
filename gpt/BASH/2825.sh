@@ -1,0 +1,1 @@
+vmrun -T ws createVM /path/to/your/vm.vmx

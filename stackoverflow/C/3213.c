@@ -1,1 +1,0 @@
-template <typename T> struct B {\n      int m;\n      int n;\n      int f ();\n      int g ();\n    };\n    int n;\n    int g ();\n    template <typename T> struct C : B<T> {\n      void h ()\n      {\n        m = 0; // error\n        f ();  // error\n        n = 0; // ::n is modified\n        g ();  // ::g is called\n      }\n    };

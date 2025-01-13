@@ -1,1 +1,0 @@
-update contract c\nset contract_comment = contract_comment || '; 12/29/2008 Password ' ||\n(select password from WLogin w where w.default_customer_id = c.customer_id) ||''|| ' reinstated per Mickey Mouse;' WHERE Customer_id in (1234, 4567).

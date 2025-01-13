@@ -1,0 +1,1 @@
+private static readonly object syncHandle = new object();\n\npublic void SomeWebServiceMethod()\n{\n    lock (syncHandle)\n    {\n        // Critical section\n    }\n}

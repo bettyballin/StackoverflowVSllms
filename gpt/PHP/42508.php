@@ -1,0 +1,1 @@
+function getFractionalPart($number) {\n    return abs($number) - floor(abs($number));\n}\n\n// Example usage\n$number = 1.25;\n$fractionalPart = getFractionalPart($number);\necho $fractionalPart; // Outputs: 0.25

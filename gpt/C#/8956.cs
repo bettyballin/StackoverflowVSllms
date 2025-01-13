@@ -1,0 +1,1 @@
+amespace MyNameSpace.Models\n   {\n       public class PartOneModel\n       {\n           public string Data { get; set; }\n           // Other properties\n       }\n\n       public class PartTwoModel\n       {\n           public int Count { get; set; }\n           // Other properties\n       }\n   }

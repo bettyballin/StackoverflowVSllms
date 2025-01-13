@@ -1,1 +1,0 @@
-select\n  r.company_id, r.person_id, r.financial_year, count(r.person_id) \nfrom\n  Role as r \ngroup by\n  r.company_id, r.person_id, r.financial_year

@@ -1,1 +1,0 @@
-<?php\n$some_php_document = $_POST["some_value_submitted_via_ajax"];\n\n$parsed_doc = parse_url($some_php_document);\n\n//if $some-php-document is a URL (not a relative path to a file), \n    //then $some_php_document = null\nif (isset($parsed_doc['scheme']) || isset($parsed_doc['host'])) {\n    $some_php_document = null;\n}\n\n?>

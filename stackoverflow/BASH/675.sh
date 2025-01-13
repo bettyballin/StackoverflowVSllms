@@ -1,1 +1,0 @@
-sed 's/a.*b/xyz/g;' old_file > new_file

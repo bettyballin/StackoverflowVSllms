@@ -1,0 +1,1 @@
+<?php\n// Get the raw POST data\n$json = file_get_contents('php://input');\n\n// Decode the JSON data into a PHP array\n$data = json_decode($json, true);\n\n// Check if the JSON was decoded properly\nif (json_last_error() === JSON_ERROR_NONE) {\n    // Process the data\n    print_r($data); // For debugging purposes\n} else {\n    echo "Invalid JSON received.";\n}\n?>

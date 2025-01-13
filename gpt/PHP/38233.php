@@ -1,0 +1,1 @@
+<?php\n// Load the XML content from a file\n$xmlContent = file_get_contents('path_to_your_file.xml');\n\n// Parse the XML content\n$xml = simplexml_load_string($xmlContent);\n\n// Access the desired information\n$info = (string) $xml->tag1->subtag1;\n\necho $info; // Outputs: Info\n?>

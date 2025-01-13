@@ -1,1 +1,0 @@
-$(document).ready(function(){\n     var select = $('#select_type');\n     $('#' + select.val()).toggle(); // Toggle the preset value\n     select.change(function () {\n         $('fieldset').css('display','none');\n         $('#' + $(this).val()).toggle();\n     });\n});

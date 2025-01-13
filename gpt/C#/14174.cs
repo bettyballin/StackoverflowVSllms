@@ -1,0 +1,1 @@
+// C# code\nDataRow row = dataTable.Rows[0];\nstring value = row["ColumnName"].ToString();\nConsole.WriteLine(value);

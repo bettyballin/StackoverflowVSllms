@@ -1,1 +1,0 @@
-english2german = open("english2german.txt")\nenglist = []\ngerlist = []\n\nfor line in english2german:\n    (e, g) = line.split()\n    englist.append(e)\n    gerlist.append(g)

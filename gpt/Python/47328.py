@@ -1,0 +1,1 @@
+import re\n\nhtml_text = '''\n<b>\n<p class="normalText">\n<script type="text/javascript">\n'''\n\n# Regex pattern to match HTML tags and capture the tag names\npattern = r'<([a-zA-Z]+)[\s>]*'\n\n# Find all matches\nmatches = re.findall(pattern, html_text)\n\nprint(matches)  # Output: ['b', 'p', 'script']

@@ -1,0 +1,1 @@
+sudo vi /etc/yum.repos.d/CentOS-Vault.repo

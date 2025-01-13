@@ -1,1 +1,0 @@
-<?php\n$img = imagecreatefromjpeg('my.jpg');\n$textColor = imagecolorallocate($img, 0, 0, 0); // black text\n\nimagefttext($img, 13, 0, 105, 55, $textColor, './arial.ttf', 'Hello World');\n\n// Output image to the browser\nheader('Content-Type: image/jpeg');\nimagejpeg($img);\n\n// Or save to file\nimagejpeg($img, 'my-text.jpg');\n\nimagedestroy($img);\n?>

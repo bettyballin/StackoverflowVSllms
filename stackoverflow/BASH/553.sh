@@ -1,1 +1,0 @@
-if [ -z "${VAR+xxx}" ]; then echo "VAR is not set at all"; fi\nif [ -z "$VAR" ] && [ "${VAR+xxx}" = "xxx" ]; then echo "VAR is set but empty"; fi

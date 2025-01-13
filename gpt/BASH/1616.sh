@@ -1,0 +1,1 @@
+cd /path/to/working/copy\n   svn update\n   # Merge changes from remote repository\n   svn merge http://example.com/svn/repository/project\n   svn commit -m "Merged changes from remote repository"

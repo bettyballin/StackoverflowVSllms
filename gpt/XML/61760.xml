@@ -1,0 +1,1 @@
+<project name="freemarker" default="init" xmlns:ivy="antlib:org.apache.ivy.ant">\n\n    <!-- Ivy settings -->\n    <target name="init">\n        <ivy:settings/>\n        <ivy:retrieve/>\n    </target>\n\n    <!-- Other targets -->\n    ...\n</project>

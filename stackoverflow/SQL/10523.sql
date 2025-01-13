@@ -1,1 +1,0 @@
-SELECT * from dba_objects WHERE\nobject_name like '%DTN%'

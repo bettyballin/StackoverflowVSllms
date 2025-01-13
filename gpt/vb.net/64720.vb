@@ -1,0 +1,1 @@
+Attribute VB_Creatable = True\n   Attribute VB_PredeclaredId = False\n   Attribute VB_Exposed = True\n   Attribute VB_GlobalNameSpace = False\n   Attribute VB_TemplateDerived = False\n   Attribute VB_Customizable = True\n   Attribute VB_Description = "Your Description"\n   Attribute VB_Guid = "{A1111111-B222-C333-D444-E55555555555}"

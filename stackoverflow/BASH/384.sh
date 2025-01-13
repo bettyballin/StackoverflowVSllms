@@ -1,1 +1,0 @@
-$ pecl download memcached\n$ tar zxvf memcached-1.0.0.tgz (or whatever version downloads)\n$ cd memcached-1.0.0\n$ phpize\n$ ./configure --with-libmemcached-dir=/opt/local\n$ make\n$ sudo make install

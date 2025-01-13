@@ -1,0 +1,1 @@
+gunzip -c SMS.tar.gz > SMS_recovered.tar

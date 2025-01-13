@@ -1,1 +1,0 @@
-$page = $_GET['page'] . '.php';\nif(in_array($page, $all_pages)) {\n    include('pages/' . $page);\n}

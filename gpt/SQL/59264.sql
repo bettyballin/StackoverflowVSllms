@@ -1,0 +1,1 @@
+-- Example of setting cursor sharing\n    ALTER SYSTEM SET CURSOR_SHARING = FORCE SCOPE=BOTH;

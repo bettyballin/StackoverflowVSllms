@@ -1,0 +1,1 @@
+tail -f access.log | while read ip; do host "$ip"; done

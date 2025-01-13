@@ -1,0 +1,1 @@
+#container {\n  display: flex;\n  flex-direction: row;\n}\n\n#menu {\n  width: 200px; /* Adjust as necessary */\n}\n\n#right-column {\n  display: flex;\n  flex-direction: column;\n  width: 300px; /* Adjust as necessary */\n}\n\n#login, #content {\n  width: 100%; /* Make them take the full width of the right column */\n}\n\n/* Optional: Add some margins or padding as needed */

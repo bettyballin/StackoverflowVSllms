@@ -1,1 +1,0 @@
-Select \n   A.UnitNumber, B.UnitNumber\nfrom\n   DB1.dbo.TableA A FULL OUTER JOIN DB2.dbo.TableB B \n       on A.UnitNumber = B.UnitNumber\n       and A.BuildingNumber = B.BuildingNumber\nWhere\n   A.UnitNumber is null or B.UnitNumber is null

@@ -1,1 +1,0 @@
-<Compile \n    Exclude="inspector.aspx" \n    Condition="'$(Configuration)' == 'Release'" />

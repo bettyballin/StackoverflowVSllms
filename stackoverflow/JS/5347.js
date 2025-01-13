@@ -1,1 +1,0 @@
-if (userImage) {\n  userImage.fadeOut(1500, function() {\n    ajaxSpinner.fadeIn(1500, function(){\n        //now trigger the upload and you don't need the before submit anymore\n    });\n  });\n}\nelse {\n   // trigger the upload right away\n}

@@ -1,0 +1,1 @@
+CREATE FUNCTION my_transactional_function(input_type)\nRETURNS return_type\nLANGUAGE plpgsql\nAS $$\nBEGIN\n    -- Function logic here\n    RETURN result;\nEND;\n$$\nSTABLE;  -- Indicates the function is deterministic within a transactio

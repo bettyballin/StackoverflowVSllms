@@ -1,0 +1,1 @@
+$input = "Some terms with spaces between";\n$output = explode(' ', $input);\n\n// Print the output to verify\nprint_r($output);

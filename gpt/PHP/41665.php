@@ -1,0 +1,1 @@
+$sql = "SELECT FROM_UNIXTIME(timecode, '%Y-%m-%d') AS day, COUNT(*) AS count\n        FROM timecodeTable\n        GROUP BY day";

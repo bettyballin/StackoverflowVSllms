@@ -1,0 +1,1 @@
+from lxml import etree\n\n    # Load from a file\n    tree = etree.parse('example.xml')\n\n    # Load from a string\n    xml_string = '<root><element key="value">text</element></root>'\n    tree = etree.fromstring(xml_string)

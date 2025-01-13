@@ -1,0 +1,1 @@
+avr-gcc -v -o output.elf input.c

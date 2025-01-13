@@ -1,1 +1,0 @@
-session.use_trans_sid

@@ -1,1 +1,0 @@
-Dim handle As IntPtr = someControl.Handle

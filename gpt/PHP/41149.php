@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\n// Check if search preferences exist in the session\nif (isset($_SESSION['search_preferences'])) {\n    $search_preferences = $_SESSION['search_preferences'];\n    // Use $search_preferences as needed\n} else {\n    // Handle the case where there are no search preferences\n    $search_preferences = [];\n}\n?>

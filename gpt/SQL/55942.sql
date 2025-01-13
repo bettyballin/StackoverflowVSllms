@@ -1,0 +1,1 @@
+DECLARE\n    l_stmt VARCHAR2(4000);\nBEGIN\n    l_stmt := 'BEGIN NULL; END;';\n    -- Assuming your database link is named 'dblink'\n    EXECUTE IMMEDIATE 'BEGIN remote_exec(:1); END;'@dblink USING l_stmt;\nEND;\n/

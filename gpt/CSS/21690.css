@@ -1,0 +1,1 @@
+body > ul > li > a {\n    display: block;\n    margin: 0; /* Removed negative margins */\n    padding: 8px 32px 8px 10px;\n    text-decoration: none;\n    color: inherit;\n    background: url(listArrow.png) no-repeat right center;\n}

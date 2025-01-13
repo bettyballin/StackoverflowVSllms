@@ -1,0 +1,1 @@
+gpg --decrypt passwords.txt.gpg

@@ -1,0 +1,1 @@
+go get github.com/mailhog/MailHog\n   MailHog

@@ -1,0 +1,1 @@
+/* General display styles */\ntextarea {\n    overflow: auto; /* Allows scrolling if the content overflows */\n    /* Other styles as needed */\n}\n\n/* Print styles */\n@media print {\n    textarea {\n        height: auto; /* Auto size height for printing */\n        overflow: visible; /* Ensure all text is visible */\n    }\n}

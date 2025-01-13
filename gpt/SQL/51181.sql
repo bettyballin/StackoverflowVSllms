@@ -1,0 +1,1 @@
+INSERT INTO [MY_TABLE] (Field1, Field2, Field3, Field4) VALUES (1.0, 2.0, 3.0, 4.0);

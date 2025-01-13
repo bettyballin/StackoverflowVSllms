@@ -1,1 +1,0 @@
-var result = myList\n  .GroupBy(x => x.Id)\n  .Select(g => new Parent()\n  {\n    Key = g.Key,\n    Children = g.Select(x => x.SomeString).ToList()\n  });

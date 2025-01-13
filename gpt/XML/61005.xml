@@ -1,0 +1,1 @@
+<Products>\n  <Product>\n    <ProductID>1</ProductID>\n    <ProductName>Product A</ProductName>\n    <Price>10.0</Price>\n  </Product>\n  <Product>\n    <ProductID>2</ProductID>\n    <ProductName>Product B</ProductName>\n    <Price>20.0</Price>\n  </Product>\n</Products>

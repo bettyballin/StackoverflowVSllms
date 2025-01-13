@@ -1,0 +1,1 @@
+svn propset svn:ignore "config.conf" .

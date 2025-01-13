@@ -1,1 +1,0 @@
-select chr(9) from dual;

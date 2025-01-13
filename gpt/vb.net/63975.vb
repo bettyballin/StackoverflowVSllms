@@ -1,0 +1,1 @@
+Structure ctrObj\n    Dim Name As String\n    Dim Index As Integer\n    Dim Top As Integer\n    ' Left is a reserved keyword/property, hence renamed.\n    Dim Left_Renamed As Integer\n    Dim Height As Integer\n    Dim Width As Integer\n    Dim ScaleHeight As Integer\n    Dim ScaleWidth As Integer\nEnd Structure

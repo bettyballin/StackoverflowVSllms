@@ -1,0 +1,1 @@
+private void Form1_Load(object sender, EventArgs e)\n{\n    dataGridView1.KeyDown += new KeyEventHandler(dataGridView1_KeyDown);\n}

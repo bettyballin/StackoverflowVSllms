@@ -1,1 +1,0 @@
-DECLARE @Concat nvarchar(50)\nSET @Concat=N''\n\nSELECT @Concat = @Concat + Value + N' '\nFROM dbo.AttributeValue\nWHERE Attribute IN (N'name', N'species')\n\nSELECT @Concat

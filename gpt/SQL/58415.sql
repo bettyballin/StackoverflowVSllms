@@ -1,0 +1,1 @@
+CREATE TABLE Orders (\n    OrderID INT PRIMARY KEY,\n    OrderDate DATETIME\n);\n\nCREATE TABLE OrderItems (\n    OrderItemID INT PRIMARY KEY,\n    OrderID INT,\n    ProductID INT,\n    Quantity INT,\n    FOREIGN KEY (OrderID) REFERENCES Orders(OrderID) ON DELETE CASCADE\n);

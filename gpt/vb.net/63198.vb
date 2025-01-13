@@ -1,0 +1,1 @@
+If IsInteger(myInt) Then\n    ' The value is an integer\nElse\n    ' The value is not an integer\nEnd If

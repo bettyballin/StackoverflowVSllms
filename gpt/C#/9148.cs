@@ -1,0 +1,1 @@
+var query = from p in SomeDataContext.SomeTable\n            where IsDate(p.field1)\n            select new\n            {\n                SomeField = p.SomeField,\n                SomeDate = Convert.ToDateTime(p.field1)\n            };

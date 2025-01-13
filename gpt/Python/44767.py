@@ -1,0 +1,1 @@
+from bisect import bisect\n\nx = [1, 3, 5, 7, 9]\na = 4\n\nindex = bisect(x, a)  # O(log n)\nx.insert(index, a)    # O(n)\n\nprint(x)  # Output: [1, 3, 4, 5, 7, 9]

@@ -1,1 +1,0 @@
-SELECT...\nLIMIT y OFFSET x 

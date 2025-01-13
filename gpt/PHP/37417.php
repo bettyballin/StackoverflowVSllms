@@ -1,0 +1,1 @@
+<?php defined('SYSPATH') OR die('No direct script access.');\n\nclass Model_User extends ORM {\n    protected $_table_name = 'users';\n}

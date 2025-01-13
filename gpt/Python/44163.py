@@ -1,0 +1,1 @@
+# Trying to add an attribute to an instance of object() fails\na = object()\ntry:\n    a.hhh = 1\nexcept AttributeError as e:\n    print(e)  # Output: 'object' object has no attribute 'hhh'\n\n# Adding an attribute to a function works\ndef f():\n    return 1\n\nf.hhh = 1\nprint(f.hhh)  # Output: 1

@@ -1,0 +1,1 @@
+Dim query2 = MasterCalendarInstance _\n             .OrderBy(Function(x) x.Key) _\n             .Select(Function(x, index) New With {.CalendarId = x.Key, .Iter = index}) _\n             .ToList()

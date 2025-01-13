@@ -1,0 +1,1 @@
+ewfs /dev/ada0.eli

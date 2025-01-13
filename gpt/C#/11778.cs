@@ -1,0 +1,1 @@
+List<string> L = Enumerable.Repeat("default_value", 10).ToList();

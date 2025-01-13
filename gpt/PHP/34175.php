@@ -1,0 +1,1 @@
+$value = preg_replace('@(?<!\]\()((https?:\/\/[^\s<]+))@', '[$1]($1)', $value);

@@ -1,0 +1,1 @@
+INSERT INTO job_control_table (last_id_processed) VALUES (0);

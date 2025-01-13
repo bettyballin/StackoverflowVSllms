@@ -1,0 +1,1 @@
+var result = \n    from o in orders\n    join i in items on o.ID equals i.OrderA\n    select new { Order = o, Item = i }\n    .Union(\n        from o in orders\n        join i in items on o.ID equals i.OrderB\n        select new { Order = o, Item = i }\n    );\n\nforeach (var item in result)\n{\n    Console.WriteLine($"Order ID: {item.Order.ID}, Item: {item.Item}");\n}

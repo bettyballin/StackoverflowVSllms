@@ -1,1 +1,0 @@
-if(!$bib = Bib_Factory::loadValidBib('612e436')){\n    echo 'Error Message';\n} else {\n    //do what I intend to do with the object\n}

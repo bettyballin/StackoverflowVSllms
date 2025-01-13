@@ -1,0 +1,1 @@
+rpm --dbpath ~/myrpmdatabase -qa

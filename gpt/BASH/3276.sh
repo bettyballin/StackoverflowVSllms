@@ -1,0 +1,1 @@
+signtool sign /f yourCertificate.pfx /p yourPassword /t http://timestamp.url YourAssembly.dll

@@ -1,0 +1,1 @@
+import html\n\nencoded_str = "Scam, hoax, or the real deal, he&#8217;s gonna work his way to the bottom of the sordid tale, and hopefully end up with an arcade game in the process."\n\ndecoded_str = html.unescape(encoded_str)\n\nprint(decoded_str)

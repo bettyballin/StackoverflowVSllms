@@ -1,0 +1,1 @@
+/usr/lib/nagios/plugins/check_nrpe -H indexing_server_ip -c check_load

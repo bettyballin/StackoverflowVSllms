@@ -1,0 +1,1 @@
+$output = print_r($_SESSION['your_array'], true);\necho $output;

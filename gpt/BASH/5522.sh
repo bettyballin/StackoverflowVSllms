@@ -1,0 +1,1 @@
+symchk /r /s srv*d:\SymbolCache*http://msdl.microsoft.com/download/symbols <path_to_your_dmp_or_exe>

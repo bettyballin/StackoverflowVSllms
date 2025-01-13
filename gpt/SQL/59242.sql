@@ -1,0 +1,1 @@
+SELECT table1.*\nFROM table1\nINNER JOIN table2 ON table1.agent_name = table2.agent_name\nWHERE table2.department = 'desired_department';

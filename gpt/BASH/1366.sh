@@ -1,0 +1,1 @@
+# Import the BizTalk Snap-In\nAdd-PSSnapin Microsoft.BizTalk.Administration.SnapIn\n\n# Get the status of all BizTalk host instances\nGet-WmiObject -Namespace "root\MicrosoftBizTalkServer" -Class MSBTS_HostInstance | \nSelect-Object HostName, ServiceState | \nFormat-Table -AutoSize

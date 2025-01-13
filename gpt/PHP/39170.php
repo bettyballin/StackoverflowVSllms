@@ -1,0 +1,1 @@
+wp_list_categories( array(\n    'title_li' => '',\n    'walker'   => new Custom_Walker_Category()\n) );

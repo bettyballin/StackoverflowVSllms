@@ -1,0 +1,1 @@
+sudo tcptraceroute [destination_ip_or_hostname] 80

@@ -1,0 +1,1 @@
+class Numeric\n  def ounces\n    self\n  end\nend

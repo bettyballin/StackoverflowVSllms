@@ -1,1 +1,0 @@
-$"{1234:n}";  // Output: 1,234.00\n$"{9876:n0}"; // No digits after the decimal point. Output: 9,876

@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Define the base directory\nBASE_DIR="$HOME/code"\n\n# Find all directories within the base directory\nSUBDIRS=$(find "$BASE_DIR" -type d)\n\n# Append each directory to the PATH\nfor DIR in $SUBDIRS; do\n    PATH="$PATH:$DIR"\ndone\n\n# Export the updated PATH\nexport PATH\n\n# Optionally, print the new PATH to verify\necho $PATH

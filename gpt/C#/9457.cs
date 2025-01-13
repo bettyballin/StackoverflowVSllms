@@ -1,0 +1,1 @@
+var employees = from e in employees\n                where e.DepartmentId == 10\n                select new { e.EmployeeId, e.EmployeeName };

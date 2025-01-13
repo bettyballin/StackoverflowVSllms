@@ -1,0 +1,1 @@
+SET QUERY_GOVERNOR_COST_LIMIT 0; -- 0 means no limit

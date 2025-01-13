@@ -1,1 +1,0 @@
-Public Class someClass()\n  sub someMethod\n    Using someResource As New ResourceType( arguments )\n       ' no worries about IDisposable for someResource, as it is automatic\n    End Using\n  end sub\nEnd Class

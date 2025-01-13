@@ -1,1 +1,0 @@
-#!/bin/sh\nrsync -avrz --progress --exclude-from .rsync_exclude_remote . remote_login@remote_computer:remote_dir    \n\n# options\n#   -a  archive\n#   -v  verbose\n#   -r  recursive\n#   -z  compress 

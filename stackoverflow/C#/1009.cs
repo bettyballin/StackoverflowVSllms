@@ -1,1 +1,0 @@
-select new {Order = order, ProductName = order.Product.Name,\n             CustomerName = order.Customer.Name,\n             OrderType = order.OrderType.Name } // etc

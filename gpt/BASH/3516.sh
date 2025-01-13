@@ -1,0 +1,1 @@
+phpize\n./configure --enable-hello\nmake\nsudo make install

@@ -1,0 +1,1 @@
+sed -i ':a;N;$!ba;s/<hr \/>\n<div id="sidebar">/<\/div>\n<hr \/>\n<div id="sidebar">/g' file.txt

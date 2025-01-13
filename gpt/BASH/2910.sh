@@ -1,0 +1,1 @@
+set TNS_ADMIN=C:\oracle\network\admi

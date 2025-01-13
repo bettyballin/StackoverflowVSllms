@@ -1,1 +1,0 @@
-if (!preg_match('/^http:\/\//', $url))\n    $url = 'http://'.$url;

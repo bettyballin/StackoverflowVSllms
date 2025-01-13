@@ -1,1 +1,0 @@
-myChildNode.parentNode.removeChild(myChildNode);

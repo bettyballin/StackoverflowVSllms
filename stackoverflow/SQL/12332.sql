@@ -1,1 +1,0 @@
-select top 1 * \nfrom \nBills b1\ninner join Bills b2 on b1.id = b2.id - 1\nwhere\nb1.IsEstimate = 1 and b2.IsEstimate = 1\norder by\nb1.BillDate desc

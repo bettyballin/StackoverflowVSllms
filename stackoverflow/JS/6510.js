@@ -1,1 +1,0 @@
-xpathcount = selenium.getXpathCount("//input");\nfor (i = 0;i<xpathcount;i+=1){\n   selenium.click("//input["+i+"]");\n\n}

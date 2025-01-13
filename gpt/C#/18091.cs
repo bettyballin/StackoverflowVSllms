@@ -1,0 +1,1 @@
+using System;\nusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        string windowsDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Windows);\n        string explorerPath = Path.Combine(windowsDirectory, "explorer.exe");\n        \n        Console.WriteLine("Explorer Path: " + explorerPath);\n    }\n}

@@ -1,0 +1,1 @@
+svn commit -m "Ignoring local config.conf file"

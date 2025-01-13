@@ -1,0 +1,1 @@
+<?php\n$headers = getallheaders();\nprint_r($headers);\n?>

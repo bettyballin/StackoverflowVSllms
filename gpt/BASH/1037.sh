@@ -1,0 +1,1 @@
+rsync -av --delete --dry-run /home/user/music/flac/ /media/MUSIC/flac/

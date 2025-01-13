@@ -1,0 +1,1 @@
+CREATE TABLE your_table (\n       part1 INT,\n       part2 INT,\n       ...,\n       PRIMARY KEY (part1, part2)\n   );

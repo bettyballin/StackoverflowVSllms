@@ -1,0 +1,1 @@
+#!/bin/sh\nexport DISPLAY=THE_DISPLAY_I_WANT:0.1\njava -jar my.jar

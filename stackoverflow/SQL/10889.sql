@@ -1,1 +1,0 @@
-SELECT\n    from_unixtime(\n        avg(\n            unix_timestamp(date_one)-unix_timestamp(date_two)\n        )\n    )\nFROM\n    some_table\nWHERE\n    some-restriction-applies

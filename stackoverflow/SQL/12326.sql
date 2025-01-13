@@ -1,1 +1,0 @@
-select avg( columnname) from table;

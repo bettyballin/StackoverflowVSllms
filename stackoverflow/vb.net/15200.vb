@@ -1,1 +1,0 @@
-class JCProperty : inherits JCPropertyDB\n   {\n\n   New()\n      {\n      MyBase.New()\n\n      GetProperty(PropertyID)\n\n      }\n   }

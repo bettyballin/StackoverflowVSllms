@@ -1,1 +1,0 @@
-foreach ($results as $result) \n{\n    echo $result->nodeValue . "<br />";\n}

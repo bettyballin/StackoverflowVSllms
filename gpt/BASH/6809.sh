@@ -1,0 +1,1 @@
+// Execute an XQuery\n   basex -c "XQUERY doc('mydb')//elementName"

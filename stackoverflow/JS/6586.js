@@ -1,1 +1,0 @@
-$("html").click( function() { ...  } );

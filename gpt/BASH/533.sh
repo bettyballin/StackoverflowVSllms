@@ -1,0 +1,1 @@
+apk add php7 php7-fpm php7-mysqli mariadb mariadb-client nginx

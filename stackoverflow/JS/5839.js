@@ -1,1 +1,0 @@
-$.scrollTo("#image", "fast", function(){\n  //resize image here\n});

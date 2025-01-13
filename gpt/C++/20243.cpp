@@ -1,0 +1,1 @@
+#include "spooler.h"\n\nvoid spoolerFunction() {\n    // Function implementation\n}

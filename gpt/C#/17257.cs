@@ -1,0 +1,1 @@
+SqlCommand command = new SqlCommand();\ncommand.CommandTimeout = 60; // Timeout in seconds

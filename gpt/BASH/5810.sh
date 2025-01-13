@@ -1,0 +1,1 @@
+0 0 * * * /path/to/set_permissions.sh

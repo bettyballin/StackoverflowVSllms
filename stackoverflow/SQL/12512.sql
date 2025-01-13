@@ -1,1 +1,0 @@
-SELECT TOP 5 a.amount, b.sum\nFROM table a\nCROSS JOIN (SELECT SUM(amount) sum FROM table) b\nORDER BY amount DESC

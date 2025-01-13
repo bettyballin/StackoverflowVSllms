@@ -1,1 +1,0 @@
-public static class Lists\n{\n    public static List<T> RepeatedDefault<T>(int count)\n    {\n        return Repeated(default(T), count);\n    }\n\n    public static List<T> Repeated<T>(T value, int count)\n    {\n        List<T> ret = new List<T>(count);\n        ret.AddRange(Enumerable.Repeat(value, count));\n        return ret;\n    }\n}

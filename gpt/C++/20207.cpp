@@ -1,0 +1,1 @@
+obj* p = static_cast<obj*>(special_malloc(sizeof(obj) * 10));\n   for (int i = 0; i < 10; ++i) {\n       new (p + i) obj();\n   }

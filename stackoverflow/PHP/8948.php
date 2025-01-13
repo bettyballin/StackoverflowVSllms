@@ -1,1 +1,0 @@
-str_replace('_', ' ', basename($path, ".jpg"));

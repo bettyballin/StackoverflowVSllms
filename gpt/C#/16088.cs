@@ -1,0 +1,1 @@
+private void dep_OnChange(object sender, OracleNotificationEventArgs e)\n   {\n       // Handle notification event\n       Console.WriteLine("Change detected in table!");\n   }

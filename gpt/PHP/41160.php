@@ -1,0 +1,1 @@
+require_once("class1.php");\nrequire_once("class2.php");\n// Add additional class includes as needed

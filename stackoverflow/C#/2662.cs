@@ -1,1 +1,0 @@
-[Column(Storage="_Message", DbType="NVarChar(20)")]

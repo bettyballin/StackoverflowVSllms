@@ -1,1 +1,0 @@
-$List = array('page1', 'page2', 'page3', 'page4', 'page5');\n$CurrentPage = 3; // 'page4'\n\nwhile (key($List) !== $CurrentPage) next($List); // Advance until there's a match

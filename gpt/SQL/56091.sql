@@ -1,0 +1,1 @@
+CREATE TABLE my_table (\n         my_column VARCHAR(12)\n     );

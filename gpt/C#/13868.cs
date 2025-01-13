@@ -1,0 +1,1 @@
+StringBuilder sb = new StringBuilder();\nforeach (var item in items)\n{\n    sb.Append($"INSERT INTO YourTable (Column1, Column2) VALUES ({item.Value1}, {item.Value2}); ");\n}\n\nusing (SqlConnection connection = new SqlConnection(connectionString))\n{\n    SqlCommand command = new SqlCommand(sb.ToString(), connection);\n    connection.Open();\n    command.ExecuteNonQuery();\n}

@@ -1,0 +1,1 @@
+using System.Threading.Tasks;\n\npublic class YourClass\n{\n    public void ButtonClickHandler(object sender, EventArgs e)\n    {\n        // Return control to the user immediately\n        Task.Run(() => LongRunningMethod());\n    }\n\n    private void LongRunningMethod()\n    {\n        // Your long-running task here\n        // e.g., call to an external system\n    }\n}

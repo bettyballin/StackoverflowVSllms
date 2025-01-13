@@ -1,0 +1,1 @@
+$reader = new XMLReader();\n$reader->open('file.xml');\n\nwhile ($reader->read()) {\n    if ($reader->nodeType == XMLReader::ELEMENT && $reader->name == 'elementName') {\n        echo $reader->readInnerXml();\n    }\n}\n\n$reader->close();

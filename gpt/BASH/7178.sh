@@ -1,0 +1,1 @@
+sudo ln -s /usr/bin/gcc-4.2 /usr/bin/gcc\n    sudo ln -s /usr/bin/g++-4.2 /usr/bin/g++\n    sudo ln -s /usr/bin/gfortran-4.2 /usr/bin/gfortra

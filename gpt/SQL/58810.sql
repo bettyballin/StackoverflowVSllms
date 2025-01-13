@@ -1,0 +1,1 @@
+SELECT\n    your_table.*,\n    SUM(reviews.rev_rating) / COUNT(reviews.rev_id) AS avg_rating\nFROM your_table\nJOIN reviews ON your_table.id = reviews.your_table_id\nGROUP BY your_table.id\nHAVING avg_rating > x;

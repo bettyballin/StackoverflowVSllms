@@ -1,0 +1,1 @@
+var dealerList = repository.GetDealerList();\n    model.SellDealerList = new SelectList(dealerList, "id", "name", vehicle.SoldTo);\n    model.SoldTo = vehicle.SoldTo;  // Ensure this is set

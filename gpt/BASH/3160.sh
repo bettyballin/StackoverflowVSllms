@@ -1,0 +1,1 @@
+# Navigate to the directory containing your HTML and JAR files\ncd /path/to/your/applet/files\n\n# Start the HTTP server\npython -m http.server 8080

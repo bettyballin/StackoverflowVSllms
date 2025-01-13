@@ -1,0 +1,1 @@
+gpg --export -a "Your Name" > public_key.asc

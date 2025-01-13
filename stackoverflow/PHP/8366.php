@@ -1,1 +1,0 @@
-$Output = preg_replace('/'.preg_quote('<br>&'.'nbsp;').'$/i', '', $String);

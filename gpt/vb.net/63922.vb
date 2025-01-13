@@ -1,0 +1,1 @@
+<% \n   For Each key in Request.ServerVariables\n       Response.Write key & " = " & Request.ServerVariables(key) & "<br>"\n   Next\n   %>

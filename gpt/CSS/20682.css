@@ -1,0 +1,1 @@
+/* Sprite image example */\n.icon {\n    background-image: url('sprite.png');\n    background-repeat: no-repeat;\n}\n\n.icon-home {\n    width: 32px;\n    height: 32px;\n    background-position: 0 0;\n}\n\n.icon-settings {\n    width: 32px;\n    height: 32px;\n    background-position: -32px 0;\n}

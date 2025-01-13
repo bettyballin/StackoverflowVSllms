@@ -1,0 +1,1 @@
+curl -X POST -d "This is the body of the POST request" http://localhost:8080/myServlet

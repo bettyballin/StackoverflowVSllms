@@ -1,0 +1,1 @@
+DateTime dateTime = new DateTime(2009, 4, 1, 8, 0, 0); // '4/1/2009 8:00:00 AM'\nDateTime dateOnly = dateTime.Date; // '4/1/2009 12:00:00 AM' (time is set to 12:00:00 AM)\nstring dateString = dateOnly.ToString("d"); // '4/1/2009'\n\nConsole.WriteLine(dateString);

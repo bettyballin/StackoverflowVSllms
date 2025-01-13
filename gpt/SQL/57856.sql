@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.GetTopNEmployees(@companyId INT, @topN INT)\nRETURNS TABLE\nAS\nRETURN\n(\n    SELECT TOP(@topN) *\n    FROM Person\n    WHERE companyId = @companyId\n    ORDER BY personName\n);

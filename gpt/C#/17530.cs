@@ -1,0 +1,1 @@
+// Setting font for a form\nthis.Font = new Font("Segoe UI", 9);\n\n// Setting font for specific controls\nlabel1.Font = new Font("Segoe UI", 9);\ntextBox1.Font = new Font("Segoe UI", 9);\ncomboBox1.Font = new Font("Segoe UI", 9);\ndataGridView1.Font = new Font("Segoe UI", 9);

@@ -1,0 +1,1 @@
+SELECT employee_id, department_id,\n            salary,\n            RANK() OVER (PARTITION BY department_id ORDER BY salary DESC) as rank\n     FROM employees;

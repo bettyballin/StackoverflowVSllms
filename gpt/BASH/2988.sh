@@ -1,0 +1,1 @@
+setspn -S HTTP/server1.testdomain.com domain\serviceAccount

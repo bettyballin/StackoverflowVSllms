@@ -1,0 +1,1 @@
+.inputContent {\n    overflow: auto; /* Adds scrollbars when needed */\n    word-wrap: break-word; /* Ensures word-wrap within the textarea */\n    white-space: pre-wrap; /* Preserves whitespace and wraps text */\n}

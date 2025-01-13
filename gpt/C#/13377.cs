@@ -1,0 +1,1 @@
+public class Contact\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n    // Other properties\n}\n\npublic class ContactAddress\n{\n    public int Id { get; set; }\n    public int ContactId { get; set; }\n    public string Address { get; set; }\n    // Other properties\n}

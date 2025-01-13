@@ -1,1 +1,0 @@
-string dataSource = ConfigurationSettings.AppSettings["contactsDB"];\nusing(var objConn = new OleDbConnection(dataSource))\n{\n    string id = People[cboPeople.Text];\n    UpdateLiteral(objConn, id);\n}

@@ -1,0 +1,1 @@
+public static class Configuration\n   {\n       public const string ApplicationName = "My Application";\n       public const int DefaultTimeout = 30; // seconds\n   }

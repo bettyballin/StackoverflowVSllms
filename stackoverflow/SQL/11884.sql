@@ -1,1 +1,0 @@
-Begin Try\n    exec myManagedProc\nEnd Try\nBegin Catch\n    print 'Error:' + error_message()\nEnd Catch

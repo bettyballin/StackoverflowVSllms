@@ -1,0 +1,1 @@
+function applyCountToVars(&...$vars) {\n    foreach ($vars as &$var) {\n        $var = count($var);\n    }\n}\n\n$a = [1, 2, 3];\n$b = [4, 5, 6, 7];\n$c = [8];\n$d = [9, 10];\n\napplyCountToVars($a, $b, $c, $d);\n\necho "$a, $b, $c, $d"; // Output: 3, 4, 1, 2

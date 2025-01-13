@@ -1,0 +1,1 @@
+rman target /\n   ALTER DATABASE MOUNT;

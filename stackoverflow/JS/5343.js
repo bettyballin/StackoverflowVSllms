@@ -1,1 +1,0 @@
-$.get('updatescore.php', {'score': '222'}, function(d) {\n    alert('Hello from PHP: ' + d);\n});

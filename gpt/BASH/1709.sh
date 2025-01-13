@@ -1,0 +1,1 @@
+chmod +x process_csv.sh\n./process_csv.sh yourfile.csv

@@ -1,0 +1,1 @@
+CREATE DATABASE sns_website;\nCREATE USER 'sns_user'@'localhost' IDENTIFIED BY 'strong_password';\nGRANT ALL PRIVILEGES ON sns_website.* TO 'sns_user'@'localhost';\nFLUSH PRIVILEGES;

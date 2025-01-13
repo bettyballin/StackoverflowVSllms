@@ -1,0 +1,1 @@
+using System;\nusing System.Web.UI;\n\nnamespace HelloWorld\n{\n    public partial class _Default : Page\n    {\n        protected void Page_Load(object sender, EventArgs e)\n        {\n            // Your C# code here\n        }\n    }\n}

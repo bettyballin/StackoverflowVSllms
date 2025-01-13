@@ -1,1 +1,0 @@
-<location path="SignUp.aspx">\n<system.web>\n  <authorization>\n    <allow users="*"/>\n  </authorization>\n</system.web>\n</location>

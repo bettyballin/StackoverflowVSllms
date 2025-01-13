@@ -1,0 +1,1 @@
+$smarty->caching = Smarty::CACHING_LIFETIME_CURRENT; // or use Smarty::CACHING_LIFETIME_SAVED\n   $smarty->cache_lifetime = 120; // Set cache lifetime (in seconds)

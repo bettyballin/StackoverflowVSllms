@@ -1,1 +1,0 @@
-event.result.loginsuccess.name[0] == null

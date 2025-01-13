@@ -1,1 +1,0 @@
-UPDATE <tablename>\nSET <destination column name> = <source column name>

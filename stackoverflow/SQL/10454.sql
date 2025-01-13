@@ -1,1 +1,0 @@
-SELECT DISTINCT parentID FROM myOtherTable

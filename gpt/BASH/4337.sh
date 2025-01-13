@@ -1,0 +1,1 @@
+lsof +D /path/to/directory

@@ -1,0 +1,1 @@
+<script><![CDATA[\n     var x = "<tag>something</tag>";\n   ]]></script>

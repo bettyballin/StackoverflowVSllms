@@ -1,1 +1,0 @@
-$search = 'plumber';\n$post_fields = "TEXTSEARCH.JOBNAME=$search";\n\n$post_fields .="&REQUEST.WWW_JS_VAC_TEXTSEARCH=Search";\n$post_fields .="&TEXTSEARCH.DESCRIPTION= &TEXTSEARCH.LOCATION=";

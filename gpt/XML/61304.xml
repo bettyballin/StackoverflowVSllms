@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <webServices>\n      <soapExtensionTypes>\n        <add type="MyNamespace.SoapLogger, MyAssembly" priority="1" group="Low"/>\n      </soapExtensionTypes>\n    </webServices>\n  </system.web>\n</configuration>

@@ -1,0 +1,1 @@
+sqlite3 your_database.db < your_file.sql

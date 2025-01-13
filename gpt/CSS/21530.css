@@ -1,0 +1,1 @@
+<style>\n    .modalBackground {\n        background-color: #000;\n        opacity: 0.7;\n        filter: alpha(opacity=70);\n    }\n    .modalPopup {\n        background-color: #fff;\n        border: 1px solid #ccc;\n        padding: 10px;\n    }\n</style>

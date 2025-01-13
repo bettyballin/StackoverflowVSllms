@@ -1,0 +1,1 @@
+cd ~/setups/xslcache\n   phpize\n   ./configure --with-xslcache=/usr/lib/libxslt.so --with-xsl-exsl-dir=/usr/lib/libexslt.so\n   make clean\n   make\n   sudo make install

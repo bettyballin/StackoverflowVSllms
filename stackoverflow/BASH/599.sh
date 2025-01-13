@@ -1,1 +1,0 @@
-head -n2 sql.sql | hexdump -C

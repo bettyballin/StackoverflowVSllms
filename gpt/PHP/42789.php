@@ -1,0 +1,1 @@
+$num_two = rand() & 10;

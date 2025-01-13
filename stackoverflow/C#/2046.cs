@@ -1,1 +1,0 @@
-validationRule.FindText = this.Context["UsersDataSource.Users#csv.?UserName"].ToString();

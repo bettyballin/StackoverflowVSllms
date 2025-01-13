@@ -1,0 +1,1 @@
+<%= link_to "click here", controller: 'foo', action: 'bar', token: token, only_path: false %>

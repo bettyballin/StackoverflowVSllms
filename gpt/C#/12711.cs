@@ -1,0 +1,1 @@
+[TestClass]\n    public class MyEntityTests\n    {\n        [TestMethod]\n        public void TestMyEntityCreation()\n        {\n            var entity = new MyEntity();\n            Assert.IsNotNull(entity);\n        }\n    }

@@ -1,0 +1,1 @@
+ps2ps input.ps output.ps

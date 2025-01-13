@@ -1,0 +1,1 @@
+#include <windows.h>\n#include <iostream>\n\nbool IsConsoleApp() {\n    return GetConsoleWindow() != NULL;\n}\n\nint main() {\n    if (IsConsoleApp()) {\n        std::cout << "This is a console application." << std::endl;\n    } else {\n        MessageBox(NULL, L"This is a windowed application.", L"Info", MB_OK);\n    }\n    return 0;\n}

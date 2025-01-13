@@ -1,0 +1,1 @@
+interface EventInterface {\n    public function getEventType();\n}\n\ninterface PersonInterface {\n    public function getPersonDetails();\n}

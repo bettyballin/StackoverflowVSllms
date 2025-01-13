@@ -1,0 +1,1 @@
+<!-- Add this to your web.config file -->\n   <configuration>\n     <system.web>\n       <machineKey validationKey="YOUR_VALIDATION_KEY" decryptionKey="YOUR_DECRYPTION_KEY" validation="SHA1" decryption="AES" />\n     </system.web>\n   </configuration>

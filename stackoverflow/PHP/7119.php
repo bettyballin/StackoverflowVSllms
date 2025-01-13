@@ -1,1 +1,0 @@
-$_FILES['file']['tmp_name']

@@ -1,1 +1,0 @@
-var perm  = new FileIOPermission(PermissionState.Unrestricted);\nvar fullTrust = SecurityManager.IsGranted(perm);

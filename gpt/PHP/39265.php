@@ -1,0 +1,1 @@
+<?php\n$string = "This is my test case for an example.";\n\nfunction getConsecutiveWords($string) {\n    $words = explode(" ", $string);\n    $result = [];\n    \n    for ($i = 0; $i < count($words) - 1; $i++) {\n        $result[] = $words[$i] . ' ' . $words[$i + 1];\n    }\n    \n    return $result;\n}\n\nprint_r(getConsecutiveWords($string));\n?>

@@ -1,0 +1,1 @@
+using System.Web.Mvc;\nusing System.Web.Routing;\n\npublic class MvcApplication : System.Web.HttpApplication\n{\n    protected void Application_Start()\n    {\n        AreaRegistration.RegisterAllAreas();\n        RouteConfig.RegisterRoutes(RouteTable.Routes);\n        FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);\n    }\n}

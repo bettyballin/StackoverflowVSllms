@@ -1,1 +1,0 @@
-[DebuggerDisplay("x={xvar} Y={yvar} Width = {widthvar} Height = {heightvar}")]

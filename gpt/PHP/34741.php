@@ -1,0 +1,1 @@
+// PHP code to return JSON array\n$data = [\n    ["firstName" => "John", "lastName" => "Doe"],\n    ["firstName" => "Jane", "lastName" => "Smith"]\n];\necho json_encode($data);

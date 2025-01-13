@@ -1,1 +1,0 @@
-if (!mysql_connect(...)) {\n  error_log('Error connecting: ' . mysql_error()); // or just die\n}

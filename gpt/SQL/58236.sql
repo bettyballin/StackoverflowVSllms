@@ -1,0 +1,1 @@
+CREATE PROCEDURE ExecuteCondition\n    @condition BIT\nAS\nBEGIN\n    IF @condition = 1\n    BEGIN\n        SELECT * FROM ...\n    END\n    ELSE\n    BEGIN\n        SELECT * FROM ...\n    END\nEND

@@ -1,0 +1,1 @@
+/* Target IE 6 */\n* html .your-affected-element {\n    background-color: #ffffff; /* white background */\n}\n\n/* Target IE 7 */\n*:first-child+html .your-affected-element {\n    background-color: #ffffff; /* white background */\n}

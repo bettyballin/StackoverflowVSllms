@@ -1,0 +1,1 @@
+<reference name="top.links">\n       <remove name="currency" />\n   </reference>\n   \n   <reference name="product_list">\n       <block type="directory/currency" name="currency" as="currency" before="-" template="directory/currency.phtml"/>\n   </reference>

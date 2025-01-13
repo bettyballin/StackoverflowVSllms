@@ -1,0 +1,1 @@
+<system.net>\n  <connectionManagement>\n    <add address="*" maxconnection="100"/>\n  </connectionManagement>\n</system.net>

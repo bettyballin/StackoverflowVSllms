@@ -1,0 +1,1 @@
+SELECT synonym_name, table_owner, table_name\n    FROM all_synonyms\n    WHERE table_owner <> 'SYS'\n    ORDER BY table_owner, table_name;

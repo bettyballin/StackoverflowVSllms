@@ -1,0 +1,1 @@
+git checkout -b feature/my-new-feature\n   # Develop your feature\n   git add .\n   git commit -m "Add new feature"\n   git push origin feature/my-new-feature

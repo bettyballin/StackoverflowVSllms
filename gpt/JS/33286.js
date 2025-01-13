@@ -1,0 +1,1 @@
+var valid_form = true;\ndocument.querySelectorAll('#my_form input').forEach(function(item){\n    if (item.value === '') valid_form = false;\n});

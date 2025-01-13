@@ -1,1 +1,0 @@
-onew.onclick = new Function("fnDisplay_Computers('" + alines[i] + "')");

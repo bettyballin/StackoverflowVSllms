@@ -1,0 +1,1 @@
+<?php\n$conn = pg_connect("host=localhost dbname=yourdbname user=youruser password=yourpassword");\n\nif (!$conn) {\n    echo "An error occurred.\n";\n    exit;\n}\n\n$query = "INSERT INTO your_table (column1, column2) VALUES ($1, $2)";\n$result = pg_query_params($conn, $query, array('value1', 'value2'));\n\nif (!$result) {\n    echo "An error occurred.\n";\n    exit;\n}\n?>

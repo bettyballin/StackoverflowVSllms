@@ -1,0 +1,1 @@
+-- Enable the pg_stat_statements extension\nCREATE EXTENSION pg_stat_statements;\n\n-- Query the pg_stat_statements view to find slow queries\nSELECT\n    query,\n    calls,\n    total_time,\n    mean_time,\n    stddev_time,\n    rows\nFROM\n    pg_stat_statements\nORDER BY\n    mean_time DESC\nLIMIT 10;

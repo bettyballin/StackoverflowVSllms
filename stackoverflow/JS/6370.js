@@ -1,1 +1,0 @@
-//e.g. create some object\nvar inst = {};\ninst.name = 'My Name'\n\nvar target = $('#textbox1');\n\n//save the data\n$.data(target, 'PROP_NAME', inst);\n\n//retrieve the instance\nvar inst =  $.data(target, 'PROP_NAME');

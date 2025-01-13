@@ -1,1 +1,0 @@
-public class Employee\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n\n    public static Employee Create(IDataRecord record)\n    {\n        return new Employee\n        {\n           Id = record["id"],\n           Name = record["name"]\n        };\n    }\n}

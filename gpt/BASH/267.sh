@@ -1,0 +1,1 @@
+ssh -t somehost 'cd /some/directory/somewhere/named/Foo; exec $SHELL -l'

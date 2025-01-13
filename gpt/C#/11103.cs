@@ -1,0 +1,1 @@
+[Serializable]\npublic class YourEntity\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n    // Add other properties\n}

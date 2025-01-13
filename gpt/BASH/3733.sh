@@ -1,0 +1,1 @@
+wine ./myapp.exe

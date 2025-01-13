@@ -1,1 +1,0 @@
-$headers = array ('From' => $from,\n'To' => $emailto,\n'Subject' => $subject,\n'MIME-Version' => '1.0',\n'Content-type' => 'text/html; charset=iso-8859-1');

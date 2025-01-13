@@ -1,0 +1,1 @@
+$(document).ready(function(){\n    $("#loadButton").click(function(){\n        $("#content").load("content.html");\n    });\n});

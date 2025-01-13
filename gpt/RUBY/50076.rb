@@ -1,0 +1,1 @@
+class PhpController < ApplicationController\n  def call_php_method\n    output = `php path/to/script.php`\n    render plain: output\n  end\nend

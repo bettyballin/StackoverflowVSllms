@@ -1,0 +1,1 @@
+GRANT EXECUTE ON utl_mail TO MYUSER;

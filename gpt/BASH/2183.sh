@@ -1,0 +1,1 @@
+chmod +x my_productivity_script.sh\n./my_productivity_script.sh

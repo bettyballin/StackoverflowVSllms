@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Define backup source and destination\nSOURCE_DIR="$HOME"\nBACKUP_DIR="/path/to/backup/location"\nDATE=$(date +%Y-%m-%d-%H-%M-%S)\nBACKUP_FILE="$BACKUP_DIR/backup-$DATE.tar.gz"\n\n# Create the backup\ntar -czvf $BACKUP_FILE $SOURCE_DIR\n\n# Print status\nif [ $? -eq 0 ]; then\n    echo "Backup successful: $BACKUP_FILE"\nelse\n    echo "Backup failed"\nfi

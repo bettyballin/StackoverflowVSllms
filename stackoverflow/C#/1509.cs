@@ -1,1 +1,0 @@
-var query = list1.Except(list2);

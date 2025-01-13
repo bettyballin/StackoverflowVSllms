@@ -1,1 +1,0 @@
-SET /P VALUE_FROM_FILE= < AppServer.pid\ntaskkill /pid %VALUE_FROM_FILE% /f

@@ -1,1 +1,0 @@
-var obj = { name: "John", time: "2pm" };\n$.post("test.php", obj,\n  function(data){\n    alert("Data Loaded: " + data);\n    alert("obj name is " + obj.name);\n  });

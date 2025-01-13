@@ -1,1 +1,0 @@
->> require 'mocha'\n=> []\n>> Transporter.any_instance.stubs(:set_initial_state)\n=> #<Mocha::Expectation:0x21ee6e4 ...\n>> t = Factory(:transporter, :state => "active")\n=> #<Transporter ... state: "active">

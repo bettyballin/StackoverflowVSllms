@@ -1,0 +1,1 @@
+echo -e "\u4F60\u597D" >> file

@@ -1,0 +1,1 @@
+# spec/models/user_spec.rb\nrequire 'rails_helper'\n\nRSpec.describe User, type: :model do\n  it "is valid with valid attributes" do\n    user = User.new(email: "test@example.com", password: "password")\n    expect(user).to be_valid\n  end\n\n  it "is not valid without an email" do\n    user = User.new(password: "password")\n    expect(user).not_to be_valid\n  end\nend

@@ -1,1 +1,0 @@
-SELECT * \n      FROM USER_SOURCE \n     WHERE type='PACKAGE' \n       AND NAME='PACKAGE_NAME' \n  ORDER BY type, name, line;

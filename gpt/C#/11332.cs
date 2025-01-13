@@ -1,0 +1,1 @@
+HttpCookie authCookie = new HttpCookie("AuthCookie");\nauthCookie.Secure = true;\nauthCookie.HttpOnly = true;

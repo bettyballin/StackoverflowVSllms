@@ -1,0 +1,1 @@
+var ds = new MyDataSet();\n   var table = ds.Products; // This refers to the Products table in the DataSet

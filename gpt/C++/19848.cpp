@@ -1,0 +1,1 @@
+#include <windows.h>\n\n   int main() {\n       // Add the directory to the search path\n       SetDllDirectory("C:\\path\\to\\your\\dll");\n\n       // Now you can load your DLL or use its functions\n       // ...\n\n       // Optionally, reset the DLL directory after use\n       SetDllDirectory(NULL);\n\n       return 0;\n   }

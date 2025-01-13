@@ -1,0 +1,1 @@
+#include <mstask.h>\n#include <objbase.h>

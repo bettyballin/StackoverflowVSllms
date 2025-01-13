@@ -1,0 +1,1 @@
+[HttpPost]\n   public async Task<IActionResult> InsertForms(List<int> insertForms)\n   {\n       await _formService.InsertFormsAsync(insertForms);\n       return RedirectToAction("AdminInterface");\n   }

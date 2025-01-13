@@ -1,0 +1,1 @@
+var oClients = (from p in ERM.Parties\n                where p is Organisation\n                let org = p as Organisation\n                orderby org.CoName\n                select org).ToList();

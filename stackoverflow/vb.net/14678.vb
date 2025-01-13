@@ -1,1 +1,0 @@
-Private Dim m_Foo As String

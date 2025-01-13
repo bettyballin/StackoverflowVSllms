@@ -1,0 +1,1 @@
+echo htmlspecialchars($clean_html, ENT_QUOTES, 'UTF-8');

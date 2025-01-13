@@ -1,1 +1,0 @@
-$getRecords->num_rows

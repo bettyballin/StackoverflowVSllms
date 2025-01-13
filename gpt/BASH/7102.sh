@@ -1,0 +1,1 @@
+# On Windows Firewall, you can add a rule:\n   netsh advfirewall firewall add rule name="TFS Port 8080" dir=in action=allow protocol=TCP localport=8080

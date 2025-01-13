@@ -1,0 +1,1 @@
+string connectionString = "Data Source=your_sql_server;Initial Catalog=your_database;User ID=your_username;Password=your_password;Connect Timeout=30;";

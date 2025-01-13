@@ -1,0 +1,1 @@
+TCHAR* myString = TEXT("Hello, World!");

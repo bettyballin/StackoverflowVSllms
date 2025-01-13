@@ -1,1 +1,0 @@
-SELECT\n  *\nFROM\n  event AS e\n  LEFT JOIN event_location AS el ON el.event_id = e.event_id\n  LEFT JOIN location       AS  l ON l.location_id = el.location_id\nWHERE\n  e.keywords LIKE '%hello%' \n  OR e.keywords LIKE '%world%' 

@@ -1,1 +1,0 @@
-Dim odb As New DataClassesDataContext\n            Dim tst As New test\n            tst.name = "abcd"\n            odb.tests.InsertOnSubmit(tst)\n            odb.SubmitChanges()\n            Response.Write("id:" + tst.id.ToString)

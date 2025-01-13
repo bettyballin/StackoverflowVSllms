@@ -1,0 +1,1 @@
+diskutil info /Volumes/NAME_OF_YOUR_NTFS_VOLUME | grep 'Volume UUID'

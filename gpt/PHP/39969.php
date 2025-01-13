@@ -1,0 +1,1 @@
+<?php\n     return [\n         'database' => [\n             'host' => 'localhost',\n             'username' => 'prod_user',\n             'password' => 'prod_pass',\n             'database' => 'prod_db',\n         ],\n         'google_map_api_key' => 'prod_api_key',\n         // Other prod-specific settings\n     ];

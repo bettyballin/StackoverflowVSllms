@@ -1,1 +1,0 @@
-Dim wpfWindow as new WpfWindow()\nwpfWindow.Show() 'or ShowDialog depending.

@@ -1,0 +1,1 @@
+using System.DirectoryServices;\n\n   string adLdsPath = "LDAP://localhost:389/OU=YourApp,DC=YourDomain,DC=com";\n   DirectoryEntry entry = new DirectoryEntry(adLdsPath, "username", "password");\n\n   foreach (DirectoryEntry child in entry.Children)\n   {\n       Console.WriteLine(child.Path);\n   }

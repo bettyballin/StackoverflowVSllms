@@ -1,0 +1,1 @@
+CREATE TABLE pivot_table (\n       table1ID INT,\n       table2ID INT,\n       UNIQUE (table1ID, table2ID),\n       FOREIGN KEY (table1ID) REFERENCES table1(table1ID),\n       FOREIGN KEY (table2ID) REFERENCES table2(table2ID)\n   );

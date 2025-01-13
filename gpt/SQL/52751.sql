@@ -1,0 +1,1 @@
+-- Using SOUNDEX to find similar sounding words\n   SELECT * FROM your_table\n   WHERE SOUNDEX(your_column) = SOUNDEX('fireman');

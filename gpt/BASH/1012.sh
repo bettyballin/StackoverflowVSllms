@@ -1,0 +1,1 @@
+gacutil -i path\to\your\dotnetwrapper.dll

@@ -1,0 +1,1 @@
+protected void Application_BeginRequest(Object sender, EventArgs e)\n{\n    HttpContext.Current.Response.Headers["X-XRDS-Location"] = url;\n}

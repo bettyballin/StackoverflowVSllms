@@ -1,0 +1,1 @@
+Dim connectionString As String = "Driver={Microsoft ODBC for Oracle};Server=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=your_host)(PORT=your_port))(CONNECT_DATA=(SERVICE_NAME=your_service_name)));Uid=your_username;Pwd=your_password;"

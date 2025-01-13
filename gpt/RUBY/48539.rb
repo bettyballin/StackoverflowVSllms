@@ -1,0 +1,1 @@
+# config/application.rb\nmodule YourApp\n  class Application < Rails::Application\n    # other configurations...\n\n    # Use SQL schema format\n    config.active_record.schema_format = :sql\n  end\nend

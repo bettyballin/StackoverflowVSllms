@@ -1,0 +1,1 @@
+my_list = [3, 7, 19]\n\nfor index, value in enumerate(my_list):\n    print(f"Index: {index}, Value: {value}")

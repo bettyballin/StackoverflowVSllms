@@ -1,0 +1,1 @@
+ano ~/sync_to_remote.sh

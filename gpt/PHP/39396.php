@@ -1,0 +1,1 @@
+// Storing a value in APC cache\n$key = 'example_key';\n$value = 'example_value';\napc_store($key, $value);\n\n// Retrieving a value from APC cache\n$cachedValue = apc_fetch($key);\nif ($cachedValue === false) {\n    echo "Value not found in cache.";\n} else {\n    echo "Cached value: " . $cachedValue;\n}

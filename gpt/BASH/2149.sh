@@ -1,0 +1,1 @@
+sudo lighty-enable-mod fastcgi\n   sudo lighty-enable-mod fastcgi-php

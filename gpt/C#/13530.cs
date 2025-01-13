@@ -1,0 +1,1 @@
+[AcceptVerbs(HttpVerbs.Get)]\n    public ActionResult ThankYou()\n    {\n        return View();\n    }

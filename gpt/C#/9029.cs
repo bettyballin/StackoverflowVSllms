@@ -1,0 +1,1 @@
+using Oracle.DataAccess.Client;\n\npublic void ConnectToOracle()\n{\n    string connectionString = "User Id=<username>;Password=<password>;Data Source=<data_source>";\n    using (OracleConnection connection = new OracleConnection(connectionString))\n    {\n        connection.Open();\n        // Execute queries, read data, etc.\n    }\n}

@@ -1,1 +1,0 @@
-session.BeginTransaction(IsolationLevel.Serializable

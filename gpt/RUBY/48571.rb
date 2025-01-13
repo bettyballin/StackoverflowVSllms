@@ -1,0 +1,1 @@
+# test/test_helper.rb\nrequire File.expand_path('../../config/environment', __FILE__)\nrequire 'rails/test_help'\n\n# Require your module\nrequire File.expand_path('../../lib/foo', __FILE__)

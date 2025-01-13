@@ -1,1 +1,0 @@
-Dim myPen As New System.Drawing.Pen(System.Drawing.Color.Red)\nDim formGraphics as System.Drawing.Graphics\nformGraphics = Me.CreateGraphics()\nformGraphics.DrawLine(myPen, 0, 0, 200, 200)\nmyPen.Dispose()\nformGraphics.Dispose()

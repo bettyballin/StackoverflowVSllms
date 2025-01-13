@@ -1,1 +1,0 @@
-static_cast<char*>(static_cast<void*>(&book))

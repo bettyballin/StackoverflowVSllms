@@ -1,0 +1,1 @@
+define ORACLE_HOME = '&1'\n@&ORACLE_HOME/rdbms/admin/utlrp.sql

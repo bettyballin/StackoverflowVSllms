@@ -1,0 +1,1 @@
+# app/controllers/assets_controller.rb\nclass AssetsController < ApplicationController\n  def edit\n    @asset = Asset.find(params[:id])\n    \n    respond_to do |format|\n      format.html\n      format.js\n    end\n  end\nend

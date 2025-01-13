@@ -1,1 +1,0 @@
-class Class1 {\n    protected static $_count = 0;\n\n    public function incrementCount() {\n        return self::$_count++;\n    }\n}\n\n$instance1 = new Class1();\n$instance2 = new Class1();\nvar_dump($instance1->incrementCount(), $instance2->incrementCount());

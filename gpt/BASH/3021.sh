@@ -1,0 +1,1 @@
+gen install MyAssembly.dll

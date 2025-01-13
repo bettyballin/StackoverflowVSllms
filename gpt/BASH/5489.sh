@@ -1,0 +1,1 @@
+drwxrwxrwt  2 root root 4096 Oct  5 12:34 /tmp

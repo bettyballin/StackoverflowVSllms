@@ -1,0 +1,1 @@
+<composite-id name="Id" class="YourCompositeIdClass">\n       <key-property name="KeyPart1" />\n       <key-property name="KeyPart2" />\n   </composite-id>

@@ -1,0 +1,1 @@
+Imports System.Runtime.InteropServices\n\n<ComVisible(True)>\nPublic Class ScriptingObject\n    Public Sub AddFavorite(url As String)\n        ' Implement your code to add the favorite here\n        MsgBox("Adding favorite: " & url)\n    End Sub\nEnd Class

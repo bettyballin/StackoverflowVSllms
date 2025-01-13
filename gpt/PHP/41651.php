@@ -1,0 +1,1 @@
+header("Location: /other_page.php", true, 303);\nexit();

@@ -1,0 +1,1 @@
+# GET request\n     http GET http://example.com/resource\n\n     # POST request with JSON data\n     http POST http://example.com/resource key=value\n\n     # PUT request\n     http PUT http://example.com/resource key=value\n\n     # DELETE request\n     http DELETE http://example.com/resource

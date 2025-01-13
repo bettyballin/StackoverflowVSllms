@@ -1,1 +1,0 @@
-$output = sprintf("Here is the result: %s for this date %s", $result, $date);

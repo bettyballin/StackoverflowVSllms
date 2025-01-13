@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint main() {\n    char buffer[100];\n    // Using fgets() as a safer alternative to gets()\n    if (fgets(buffer, sizeof(buffer), stdin) != NULL) {\n        printf("%s", buffer);\n    }\n    return 0;\n}

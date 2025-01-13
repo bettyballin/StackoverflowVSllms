@@ -1,1 +1,0 @@
-$conditions   = array();\n$conditions[] = array('Post.id'=>$myId);\n$conditions[] = 'DATE(Post.date) > '.$date;\n\n$posts        = $this->find('all',array('conditions'=>$conditions));

@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX [IX_YourIndexName] ON [BackupTable] ([ColumnName1] ASC, [ColumnName2] DESC);\n-- Repeat for each index

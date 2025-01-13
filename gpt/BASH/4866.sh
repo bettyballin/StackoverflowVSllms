@@ -1,0 +1,1 @@
+mysql -uroot -pPassword123 mydatabase < /path/to/dumpfile.sql

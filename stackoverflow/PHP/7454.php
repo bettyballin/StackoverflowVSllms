@@ -1,1 +1,0 @@
-if ( preg_match("/[^-a-z0-9_]/i", $username) )\n{\n    return true;\n}

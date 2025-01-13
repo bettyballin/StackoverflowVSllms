@@ -1,0 +1,1 @@
+WITH LatestPosts AS (\n    SELECT TOP 5 ThreadID, Date\n    FROM tblPost\n    ORDER BY Date DESC\n)\nSELECT DISTINCT tblThread.Title\nFROM LatestPosts\nINNER JOIN tblThread ON LatestPosts.ThreadID = tblThread.ThreadID\nORDER BY MAX(LatestPosts.Date) DESC\nGROUP BY tblThread.Title;

@@ -1,1 +1,0 @@
-var myAjax = new Ajax.Updater(\n                    'container',\n                    url,\n                    {\n                    asynchronous:true,\n                    method: 'get',\n                    parameters: pars,\n                    evalScripts: true,\n                    onFailure: reportError\n                    }\n                 );

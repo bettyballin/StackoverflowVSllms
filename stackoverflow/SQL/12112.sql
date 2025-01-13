@@ -1,1 +1,0 @@
-select substring(ColumnName, patindex('%[^0]%',ColumnName), 10)

@@ -1,1 +1,0 @@
-SELECT MyObjects.Id,Value\nFROM Myobjects\nINNER JOIN \n(      \n  SELECT Id, max(GenerationId) as LastGen\n  FROM MyObjects\n  WHERE GenerationId <= @TargetGeneration\n  Group by Id\n) T1\nON MyObjects.Id = T1.Id AND MyObjects.GenerationId = LastGen\nWHERE DeleteAction = 'False'

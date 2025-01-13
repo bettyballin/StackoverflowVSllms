@@ -1,0 +1,1 @@
+svn diff > my_patch.patch

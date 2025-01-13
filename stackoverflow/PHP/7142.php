@@ -1,1 +1,0 @@
-$x_amount_of_lines = 30;\n$log = 'path/to/log.txt';\nif (filesize($log) >= $max_size)) {\n  $file = file($log);\n  $line = $file[0];\n  $file = array_splice($file, 2, $x_amount_of_lines);\n  $file = array_splice($file, 0, 0, array($line, "\n")); // put the first line back in\n  ...\n}

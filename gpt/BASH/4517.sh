@@ -1,0 +1,1 @@
+# Encrypt the file with the first public key\ngpg --output file.gpg --encrypt --recipient first@example.com file.txt\n\n# Encrypt the already encrypted file with the second public key\ngpg --output file.double.gpg --encrypt --recipient second@example.com file.gpg

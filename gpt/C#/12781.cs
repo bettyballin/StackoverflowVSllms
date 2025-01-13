@@ -1,0 +1,1 @@
+// Example ASP.NET Core Web API controller\n   [ApiController]\n   [Route("api/[controller]")]\n   public class DataController : ControllerBase\n   {\n       [HttpGet]\n       public IActionResult GetData()\n       {\n           var data = // fetch your data\n           return Ok(data);\n       }\n   }

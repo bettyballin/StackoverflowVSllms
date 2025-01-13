@@ -1,0 +1,1 @@
+CREATE TABLE ClassCoded (\n    CodedID INT PRIMARY KEY,\n    ClassID INT,\n    Label VARCHAR(255) NOT NULL,\n    Value INT NOT NULL,\n    FOREIGN KEY (ClassID) REFERENCES Class(ClassID)\n);

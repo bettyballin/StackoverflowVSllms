@@ -1,0 +1,1 @@
+$dir_handle = @opendir($url) or die("Unable to open $url");\n$count = 0;\nwhile ($file = readdir($dir_handle)) {\n    if (!is_dir($url.'/'.$file) && preg_match('/\.(jpg|gif|png)$/i', $file) && $file != "picture0.*") {\n        $galleryEventFile[$count] = $file;\n        $count++;\n    }\n}\nclosedir($dir_handle);

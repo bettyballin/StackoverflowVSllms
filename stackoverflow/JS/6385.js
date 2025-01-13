@@ -1,1 +1,0 @@
-$('#someTabLink').click(function() {\n    $('#someImage').show();\n});\n\n$('#someOtherTabLink').click(function() {\n    $('#someImage').hide();\n});

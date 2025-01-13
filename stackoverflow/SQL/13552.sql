@@ -1,1 +1,0 @@
-SELECT  d.*, c.*\nFROM    d\nJOIN    junction j\nON      j.d_id = d.id\nLEFT JOIN\n        с\nON      c.id = j.c_id

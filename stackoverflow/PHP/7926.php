@@ -1,1 +1,0 @@
-public function beforeFilter( )\n{\n    $this->Auth->autoRedirect   =   false;\n}

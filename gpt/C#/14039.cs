@@ -1,0 +1,1 @@
+using System.IO;\n\npublic void WriteDelimitedFile(string filePath, List<string[]> data)\n{\n    using (StreamWriter writer = new StreamWriter(filePath))\n    {\n        foreach (var line in data)\n        {\n            writer.WriteLine(string.Join(",", line)); // Use the same delimiter as in reading\n        }\n    }\n}

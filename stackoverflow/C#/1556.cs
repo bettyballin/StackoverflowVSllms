@@ -1,1 +1,0 @@
-using (OracleTransaction trans = conn.BeginTransaction())\n{\n  // ...\n  trans.Commit();\n}

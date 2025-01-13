@@ -1,0 +1,1 @@
+java -jar dbdoc.jar -dbtype oracle -host localhost -port 1521 -sid orcl -user username -password password -output /output/directory

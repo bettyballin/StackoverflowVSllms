@@ -1,1 +1,0 @@
-select dt, abs(qty), abs(val),\n       sum(case when reversal='Y' then -1 else 1 end) as count\nfrom transactions\ngroup by dt, abs(qty), abs(val)\nhaving sum(case when reversal='Y' then -1 else 1 end) > 1;

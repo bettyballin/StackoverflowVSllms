@@ -1,0 +1,1 @@
+CREATE TABLE member (\n       member_id INT PRIMARY KEY,\n       name VARCHAR(100)\n   );

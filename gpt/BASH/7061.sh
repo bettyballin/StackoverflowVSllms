@@ -1,0 +1,1 @@
+gcc -o your_program -pg -g your_source.c

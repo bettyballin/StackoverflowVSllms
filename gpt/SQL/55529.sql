@@ -1,0 +1,1 @@
+SELECT \n    s1.student_id,\n    s1.student_name,\n    s1.gpa,\n    (SELECT COUNT(*) + 1 \n     FROM students s2 \n     WHERE s2.gpa > s1.gpa) AS rank\nFROM \n    students s1\nORDER BY \n    s1.gpa DESC;

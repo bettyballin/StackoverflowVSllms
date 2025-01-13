@@ -1,0 +1,1 @@
+if (!currentUser.hasAccessTo(resourceId)) {\n       throw new UnauthorizedAccessException();\n   }

@@ -1,1 +1,0 @@
-function doSomething()\n{\n  var myVal = document.getElementById('myValidatorClientID');\n  ValidatorEnable(myVal, false); \n}

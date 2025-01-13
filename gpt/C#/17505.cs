@@ -1,0 +1,1 @@
+protected void Session_End(Object sender, EventArgs e)\n    {\n        // Log session end or handle cleanup\n    }

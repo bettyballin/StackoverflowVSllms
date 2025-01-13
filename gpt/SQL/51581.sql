@@ -1,0 +1,1 @@
+SELECT (SUM(tblTransaction.AmountPaid) - SUM(tblTransaction.AmountCharged)) AS TenantBalance, tblTransaction.TenantID\nFROM tblTransaction\nGROUP BY tblTransaction.TenantID

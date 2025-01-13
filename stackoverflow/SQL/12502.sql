@@ -1,1 +1,0 @@
-create FUNCTION [dbo].[udfStrippedTime]\n(\n    @dt datetime\n)\nRETURNS varchar(32)\nAS\nBEGIN\n    declare @t varchar(32)\n    set @t = convert( varchar(32), @dt, 108 )\n    set @t = left(@t,2) + substring(@t,4,2)\n\n    RETURN @t\nEND

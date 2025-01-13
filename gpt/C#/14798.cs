@@ -1,0 +1,1 @@
+using (new System.Security.Principal.WindowsImpersonationContext.Impersonate())\n{\n    // Code to write/update files\n}

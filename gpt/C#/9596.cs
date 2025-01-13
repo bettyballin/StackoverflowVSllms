@@ -1,0 +1,1 @@
+using System;\nusing System.Runtime.InteropServices;\n\n[InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]\n[Guid("XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX")]\npublic interface IMyComInterface\n{\n    int Add(int a, int b);\n}

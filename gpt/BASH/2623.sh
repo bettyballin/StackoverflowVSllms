@@ -1,0 +1,1 @@
+LogParser "SELECT TimeGenerated, EventID, Message FROM <path_to_security_event_logs> WHERE EventID IN (529, 530, 531, 532, 533, 534, 535, 536, 537, 539) ORDER BY TimeGenerated DESC" -i:EVT

@@ -1,0 +1,1 @@
+using Microsoft.Office.Interop.Word;\n\npublic void PrintWordDocument(string filePath)\n{\n    Application wordApp = new Application();\n    Document doc = wordApp.Documents.Open(filePath);\n    doc.PrintOut();\n    doc.Close(false);\n    wordApp.Quit();\n}

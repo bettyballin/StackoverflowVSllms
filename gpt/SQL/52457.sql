@@ -1,0 +1,1 @@
+WITH RecursiveCTE AS (\n    SELECT ID\n    FROM YourTable\n    WHERE ID = @IDToDelete\n    \n    UNION ALL\n    \n    SELECT child.ID\n    FROM YourTable AS child\n    INNER JOIN RecursiveCTE AS parent ON child.ParentId = parent.ID\n)\nDELETE FROM YourTable\nWHERE ID IN (SELECT ID FROM RecursiveCTE);

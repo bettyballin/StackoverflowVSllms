@@ -1,0 +1,1 @@
+public class SafeComHandle : SafeHandle\n   {\n       public SafeComHandle() : base(IntPtr.Zero, true) { }\n\n       public override bool IsInvalid => this.handle == IntPtr.Zero;\n\n       protected override bool ReleaseHandle()\n       {\n           Marshal.Release(this.handle);\n           return true;\n       }\n   }

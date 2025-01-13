@@ -1,1 +1,0 @@
-String text = "dssdfsfadafdsaf";\nvar repeatedChars = text.ToCharArray().GroupBy(x => x).Where(y => y.Count() > 1).Select(z=>z.Key);

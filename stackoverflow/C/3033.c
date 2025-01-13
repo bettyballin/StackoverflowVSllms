@@ -1,1 +1,0 @@
-int compareNames(Name n1, Name n2)\n{\n    if (n1.LastName < n2.LastName) {\n        return -1;\n    } else if (n1.LastName > n2.LastName) {\n        return 1;\n    } else if (n1.FirstName < n2.FirstName) {\n        return -1;\n    } else if (n1.FirstName > n2.FirstName) {\n        return 1;\n    } else {\n        return 0;\n    }\n}

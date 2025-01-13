@@ -1,0 +1,1 @@
+CREATE PROCEDURE CreateBackupDirectory\n    @directory NVARCHAR(255)\nAS\nBEGIN\n    DECLARE @cmd NVARCHAR(4000)\n\n    -- Construct the command to create the directory\n    SET @cmd = 'IF NOT EXIST "' + @directory + '" mkdir "' + @directory + '"'\n\n    -- Execute the command\n    EXEC xp_cmdshell @cmd\nEND

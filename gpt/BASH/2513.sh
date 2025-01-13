@@ -1,0 +1,1 @@
+wget https://github.com/s9y/Serendipity/releases/download/2.3.5/serendipity-2.3.5.zip

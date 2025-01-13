@@ -1,0 +1,1 @@
+string str = null; // str does not reference any object\nint? nullableInt = null; // nullableInt can hold a null value

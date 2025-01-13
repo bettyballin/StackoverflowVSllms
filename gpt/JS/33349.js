@@ -1,0 +1,1 @@
+var map = new GMap2(document.getElementById("map"));\nmap.setCenter(new GLatLng(37.4419, -122.1419), 13);\n\nvar geoXml = new GGeoXml("http://example.com/your-kml-file.kml");\nmap.addOverlay(geoXml);

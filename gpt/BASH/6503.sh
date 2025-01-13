@@ -1,0 +1,1 @@
+drush en jsonapi -y

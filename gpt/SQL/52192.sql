@@ -1,0 +1,1 @@
+CREATE TABLE exe_info (\n       exe_name VARCHAR2(255),\n       version VARCHAR2(50),\n       hash_code VARCHAR2(64)\n   );\n\n   INSERT INTO exe_info (exe_name, version, hash_code)\n   VALUES ('example.exe', '1.0.0.1', '1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef');

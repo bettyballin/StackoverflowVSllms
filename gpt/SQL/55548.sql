@@ -1,0 +1,1 @@
+CREATE OR REPLACE PACKAGE session_vars AS\n  myVar BOOLEAN := FALSE;\nEND session_vars;\n/

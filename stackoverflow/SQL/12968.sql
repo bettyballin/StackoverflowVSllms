@@ -1,1 +1,0 @@
-SELECT * from TEST where TEST.[HD-TEST]='H'

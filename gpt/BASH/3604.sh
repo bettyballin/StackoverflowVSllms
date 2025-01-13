@@ -1,0 +1,1 @@
+openssl req -new -engine pkcs11 -keyform engine -key slot_0-id_01 -out mycsr.pem

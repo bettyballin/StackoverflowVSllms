@@ -1,0 +1,1 @@
+svn add newfile.txt\nsvn commit -m "Adding new file"

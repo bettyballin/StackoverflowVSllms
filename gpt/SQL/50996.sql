@@ -1,0 +1,1 @@
+CREATE PARTITION SCHEME MyPartitionScheme\n    AS PARTITION MyPartitionFunction\n    TO (FileGroup1, FileGroup2, FileGroup3, FileGroup4, FileGroup5, FileGroup6);

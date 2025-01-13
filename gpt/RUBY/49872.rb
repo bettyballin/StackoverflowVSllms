@@ -1,0 +1,1 @@
+gem 'dm-core'\n   gem 'dm-sqlite-adapter'  # or another adapter of your choice

@@ -1,0 +1,1 @@
+int main() {\n        int number = 10;\n\n        if (number > 0) {\n            cout << "Number is positive" << endl;\n        } else {\n            cout << "Number is not positive" << endl;\n        }\n\n        for (int i = 0; i < 5; i++) {\n            cout << "i: " << i << endl;\n        }\n\n        return 0;\n    }

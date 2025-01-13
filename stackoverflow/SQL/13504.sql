@@ -1,1 +1,0 @@
-/* Variant 1 */\n\n\nSELECT  t.kilometers + g.kilometers\nINTO    c_kilometers\nFROM    table_name t, table_name2 g\nWHERE   etc1\n        AND etc2\n\n/* Variant 2 */\n\nSELECT  t.kilometers\nINTO    c_kilometers\nFROM    table_name\nWHERE   etc;\n\nSELECT  c_kilometers + g.kilometers\nINTO    c_kilometers\nFROM    table_name2\nWHERE   etc;

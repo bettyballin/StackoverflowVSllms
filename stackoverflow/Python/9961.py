@@ -1,1 +1,0 @@
-import os\nprint os.popen('php YourScript.php').read()

@@ -1,0 +1,1 @@
+using Moq;\n   using NUnit.Framework;\n\n   [TestFixture]\n   public class SampleMockTest\n   {\n       [Test]\n       public void TestMock()\n       {\n           var mock = new Mock<IList<string>>();\n           mock.Setup(m => m[0]).Returns("first");\n\n           Assert.AreEqual("first", mock.Object[0]);\n       }\n   }

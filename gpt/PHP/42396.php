@@ -1,0 +1,1 @@
+<?php\nsession_start();\nsession_destroy();\ninclude("isNotLoggedIn.php");\n?>

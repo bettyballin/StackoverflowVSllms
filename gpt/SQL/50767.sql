@@ -1,0 +1,1 @@
+CREATE INDEX idx_rules_a ON RULES (A);\nCREATE INDEX idx_rules_b ON RULES (B);\nCREATE INDEX idx_rules_c ON RULES (C);\n-- Repeat for all relevant columns

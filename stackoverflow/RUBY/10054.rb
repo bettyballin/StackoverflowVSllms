@@ -1,1 +1,0 @@
-validate :has_users?\n\ndef has_users?\n  # rails 2:\n  errors.add_to_base "Model must have some users." if self.users.blank?\nend

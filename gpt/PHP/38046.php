@@ -1,0 +1,1 @@
+function t1()\n{\n  echo 1;\n}\n\nfunction t2()\n{\n  echo 2;\n}\n\n$funcs = array('t1', 't2');\n\n$length = count($funcs);\nfor ($i = 0; $i < $length; $i++)\n{\n  $funcs[$i]();\n}

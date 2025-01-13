@@ -1,1 +1,0 @@
-Select *,\n    Price = (Select top 1 Price \n             From MyPrices \n             where PartID = mp.PartID \n             order by PriceDate desc\n            )\nfrom MyParts mp

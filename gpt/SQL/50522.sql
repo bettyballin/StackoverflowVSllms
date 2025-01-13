@@ -1,0 +1,1 @@
+SELECT DATE(date) as grouped_date, id\nFROM your_table\nORDER BY grouped_date, id;

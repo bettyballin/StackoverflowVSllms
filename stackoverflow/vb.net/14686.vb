@@ -1,1 +1,0 @@
-Imports CMS\n\nSub Whatever()\n    Dim a as new Arbo.MyObject() ' Arbo is a namespace inside CMS\n    Dim b as new Util.MyOtherObject() ' Util is a namespace inside Util\nEnd Sub

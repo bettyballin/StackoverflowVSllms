@@ -1,0 +1,1 @@
+ALTER TABLE Sales\nADD sold_on_indexable DATE\nGENERATED ALWAYS AS (COALESCE(sold_on, DATE '9999-12-31'));\n\nCREATE INDEX idx_sales_sold_on_indexable_total\nON Sales (sold_on_indexable, total);

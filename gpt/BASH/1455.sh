@@ -1,0 +1,1 @@
+powershell -File "path_to_your_script\RunSprocs.ps1"

@@ -1,0 +1,1 @@
+function isValidUSZIP(zip) {\n    return /^\d{5}(-\d{4})?$/.test(zip);\n}\n\n// Example usage:\nconsole.log(isValidUSZIP("12345"));     // true\nconsole.log(isValidUSZIP("12345-6789")); // true\nconsole.log(isValidUSZIP("123456"));     // false

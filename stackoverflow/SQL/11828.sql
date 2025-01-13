@@ -1,1 +1,0 @@
-SELECT  Count(TBL_PROPERTY.PROPREF) AS TotalOrders\n      , SUM( CASE WHEN TBL_REPAIR_ORDER.STATUS <> 'Completed' THEN 1 ELSE 0 END ) AS TotalNotCompleted

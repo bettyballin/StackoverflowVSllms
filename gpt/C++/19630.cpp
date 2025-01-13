@@ -1,0 +1,1 @@
+// main.cpp\n#include <iostream>\n#include "MyClass.h"\n\nint main() {\n    MyClass obj;\n    obj.myMethod();\n    return 0;\n}

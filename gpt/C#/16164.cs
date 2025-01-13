@@ -1,0 +1,1 @@
+public class Category\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n    public ICollection<Product> Products { get; set; }\n}\n\npublic class Product\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n    // No need for CategoryId in the class\n}

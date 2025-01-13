@@ -1,0 +1,1 @@
+<?php\n   $tab = $_GET['tab'];\n   // Fetch content based on the tab ID\n   if ($tab == 1) {\n       echo "Content for Tab 1 with Grid 1.";\n   } elseif ($tab == 2) {\n       echo "Content for Tab 2 with Grid 2.";\n   }\n   // Add more conditions as necessary\n   ?>

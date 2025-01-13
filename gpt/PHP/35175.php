@@ -1,0 +1,1 @@
+$formatted = sprintf("Scientific: %E", 1234.5678);\n    // Output: Scientific: 1.234568E+3

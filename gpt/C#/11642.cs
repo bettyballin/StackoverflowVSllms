@@ -1,0 +1,1 @@
+LinkedList<string> beatles = new LinkedList<string>();

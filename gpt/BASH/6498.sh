@@ -1,0 +1,1 @@
+chmod 600 sensitive_file.txt

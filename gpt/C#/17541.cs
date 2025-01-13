@@ -1,0 +1,1 @@
+lblError.CssClass = "error visible";\nlblError.Text = "Your error message";

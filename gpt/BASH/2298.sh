@@ -1,0 +1,1 @@
+java -XX:MaxHeapSize=512m -Xms512m -Dcom.sun.management.jmxremote -cp . fr.brouillard.jvm.MemoryFree

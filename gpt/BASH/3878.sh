@@ -1,0 +1,1 @@
+ssh username@yourserver.com\n   mysql -u yourdbuser -p yourdbname < /path/to/largefile.sql

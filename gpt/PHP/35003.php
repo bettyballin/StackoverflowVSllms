@@ -1,0 +1,1 @@
+$date = '2008-09-28 9:19 pm';\n$updated_date = preg_replace('/\s/', '<br>', $date, 1);\necho $updated_date;

@@ -1,0 +1,1 @@
+using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    connection.Open();\n    // Execute your data operations here\n\n    // The connection is automatically closed when exiting the using block\n}

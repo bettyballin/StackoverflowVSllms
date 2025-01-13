@@ -1,0 +1,1 @@
+#include <unistd.h>\n#include <stdio.h>\n\nint main() {\n    uid_t ruid, euid, suid;\n\n    // Get the real, effective, and saved UIDs\n    if (getresuid(&ruid, &euid, &suid) == -1) {\n        perror("getresuid");\n        return 1;\n    }\n\n    printf("Real UID: %d\n", ruid);\n    printf("Effective UID: %d\n", euid);\n    printf("Saved UID: %d\n", suid);\n\n    return 0;\n}

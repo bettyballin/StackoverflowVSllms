@@ -1,0 +1,1 @@
+CFLAGS += -G0 -Wall -O2 -I$(PSPSDK)/include\n   LDFLAGS += -L$(PSPSDK)/lib -lpspuser -lpspnet

@@ -1,1 +1,0 @@
-unsafe\n{\n    fixed ( int* paverage = _average )   \n    {\n        int* p = paverage + firstSample + 1;\n        for ( int sample = firstSample+1 ; sample <= lastSample ; sample++ )   \n        {\n            if ( *p < minY )\n                minY = *p;\n            if ( *p > maxY )\n                maxY = *p;\n            p++;\n        }\n    }   \n}

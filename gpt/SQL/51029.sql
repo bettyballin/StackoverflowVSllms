@@ -1,0 +1,1 @@
+INSERT INTO url_redirects (old_url, new_url) VALUES ('/old_page.html', '/old-page.php');\n-- Add more URL mappings as needed

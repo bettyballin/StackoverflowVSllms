@@ -1,0 +1,1 @@
+<?php\n// Set the cookie name you want to delete\n$cookie_name = "your_cookie_name";\n\n// Delete the cookie by setting its expiration date to a time in the past\nsetcookie($cookie_name, "", time() - 3600, "/");\n\n// Optionally, unset the cookie from the $_COOKIE superglobal array\nunset($_COOKIE[$cookie_name]);\n?>

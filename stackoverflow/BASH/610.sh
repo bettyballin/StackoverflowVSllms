@@ -1,1 +1,0 @@
-%windir%\system32\runas.exe /netonly /user:DOMAIN\UserID "C:\Program Files\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\SqlWb.exe"

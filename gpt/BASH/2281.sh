@@ -1,0 +1,1 @@
+java -jar trang.jar your_schema.dtd your_schema.xsd

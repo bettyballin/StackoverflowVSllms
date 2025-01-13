@@ -1,1 +1,0 @@
-$this->{$methodName}($arg1, $arg2, $arg3);\n$this->$methodName($arg1, $arg2, $arg3);\ncall_user_func_array(array($this, $methodName), array($arg1, $arg2, $arg3));

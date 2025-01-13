@@ -1,1 +1,0 @@
-SELECT c.constraintname, t.tablename\n    FROM sysconstraints c, systables t\n    WHERE c.tableid = t.tableid;

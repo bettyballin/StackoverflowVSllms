@@ -1,1 +1,0 @@
-$existingKeys = array_keys($array);\n\n//you can use any value instead of null\n$newKeys = array_fill_keys(range(min($existingKeys), max($existingKeys)), null);\n$array += $newKeys;\n\n//optional, probably not needed\nksort($array);

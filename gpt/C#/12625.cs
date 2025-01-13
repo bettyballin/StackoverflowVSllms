@@ -1,0 +1,1 @@
+using (var connection = new OracleConnection(connectionString))\n   {\n       connection.Open();\n       // Perform database operations\n   }  // Connection is automatically closed and disposed here

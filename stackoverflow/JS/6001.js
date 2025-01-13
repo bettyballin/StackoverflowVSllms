@@ -1,1 +1,0 @@
-function CancelPostBack() {\n\nvar objMan = Sys.WebForms.PageRequestManager.getInstance();\n\nif (objMan.get_isInAsyncPostBack())\n\n    objMan.abortPostBack();\n\n}

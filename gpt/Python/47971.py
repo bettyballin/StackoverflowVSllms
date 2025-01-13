@@ -1,0 +1,1 @@
+def my_view(request):\n        s = mark_safe('<p>Hello!</p>')\n        return render(request, 'my_template.html', {'s': s})

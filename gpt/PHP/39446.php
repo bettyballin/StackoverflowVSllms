@@ -1,0 +1,1 @@
+if (strstr($string, "_archived") !== false) {\n    // The string contains "_archived"\n}

@@ -1,1 +1,0 @@
-SELECT DISTINCT a,b,c FROM t

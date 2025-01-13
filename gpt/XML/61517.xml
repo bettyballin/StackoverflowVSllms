@@ -1,0 +1,1 @@
+<servlet>\n       <servlet-name>controller</servlet-name>\n       <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>\n   </servlet>\n   <servlet-mapping>\n       <servlet-name>controller</servlet-name>\n       <url-pattern>*.xhtml</url-pattern>\n   </servlet-mapping>

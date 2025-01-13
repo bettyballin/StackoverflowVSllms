@@ -1,0 +1,1 @@
+SELECT \n    CASE \n        WHEN DATENAME(dw, [Date]) IN ('Monday', 'Tuesday', 'Wednesday', 'Thursday') THEN DATEADD(day, 1, [Date])\n        WHEN DATENAME(dw, [Date]) = 'Friday' THEN DATEADD(day, 3, [Date])\n        ELSE [Date] -- If it's Saturday or Sunday, no change\n    END AS AdjustedDate\nFROM myTable

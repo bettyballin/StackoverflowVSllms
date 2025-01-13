@@ -1,1 +1,0 @@
-class LogicalDiskConsumer(object):\n\n    def __init__(self, arg1, arg2, LogicalDiskFactory)\n        self.arg1=arg1\n        self.arg2=arg2\n        self.LogicalDisk=LogicalDiskFactory()\n\n    def consumedisk(self):\n        self.LogicalDisk.someaction()

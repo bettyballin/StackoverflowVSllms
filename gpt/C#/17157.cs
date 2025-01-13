@@ -1,0 +1,1 @@
+using System.Security.Permissions;\n\n[SecurityPermission(SecurityAction.Demand, Flags = SecurityPermissionFlag.ControlPrincipal)]\npublic void SomeMethod()\n{\n    var identity = WindowsIdentity.GetCurrent();\n    // Your code here\n}

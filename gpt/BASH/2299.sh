@@ -1,0 +1,1 @@
+java -XX:+UseG1GC -XX:MinHeapFreeRatio=10 -XX:MaxHeapFreeRatio=20 -Dcom.sun.management.jmxremote -cp . fr.brouillard.jvm.MemoryFree

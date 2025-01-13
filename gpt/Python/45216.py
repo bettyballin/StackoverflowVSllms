@@ -1,0 +1,1 @@
+import re\n\ndef natural_sort_key(s, _nsre=re.compile('([0-9]+)')):\n    return [int(text) if text.isdigit() else text.lower() for text in _nsre.split(s)]\n\n# Your list of strings\nfile_names = ["name 1", "name 2", "name 10"]\n\n# Sort the list using the natural_sort_key\nsorted_file_names = sorted(file_names, key=natural_sort_key)\n\nprint(sorted_file_names)

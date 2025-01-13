@@ -1,1 +1,0 @@
-0 0 * * * php /path/to/file.php

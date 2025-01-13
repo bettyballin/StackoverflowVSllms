@@ -1,1 +1,0 @@
-$config = load_config_data(ENVIRONMENT);\n\nDb::setDefaultAdapter($config['database']);

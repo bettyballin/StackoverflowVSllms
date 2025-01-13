@@ -1,0 +1,1 @@
+<?php\ntry {\n    throw new Exception('Fail');\n} catch (Exception $e) {\n    echo 'Succeed';\n}\n?>

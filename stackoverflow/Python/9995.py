@@ -1,1 +1,0 @@
->>> for s in KnuthMorrisPratt([4,'a',3,5,6], [5,6]): print s\n3\n>>> for s in KnuthMorrisPratt([4,'a',3,5,6], [5,7]): print s\n(nothing)

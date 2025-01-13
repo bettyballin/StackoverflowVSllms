@@ -1,1 +1,0 @@
-$classname=$var.'Class';\n\n$bar=new $classname("xyz");

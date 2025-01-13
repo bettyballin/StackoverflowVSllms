@@ -1,1 +1,0 @@
-robert = Replace(robert, chr(34), "A")

@@ -1,0 +1,1 @@
+@echo off\necho Registering OCX and DLL files...\n\nREM Ensure you run this script as an administrator\nregsvr32 /s path\to\your\control.ocx\nregsvr32 /s path\to\your\library.dll\n\necho Registration complete.\npause

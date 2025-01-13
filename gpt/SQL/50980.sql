@@ -1,0 +1,1 @@
+INSERT INTO Matches (TeamA, TeamB) \nVALUES (LEAST('red', 'blue'), GREATEST('red', 'blue'));

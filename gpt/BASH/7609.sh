@@ -1,0 +1,1 @@
+perl Makefile.PL\n   nmake\n   nmake test\n   nmake install

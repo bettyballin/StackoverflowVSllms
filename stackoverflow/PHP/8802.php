@@ -1,1 +1,0 @@
-$_SESSION['myobject']=$myobject;

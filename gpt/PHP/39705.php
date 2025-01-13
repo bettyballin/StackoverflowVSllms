@@ -1,0 +1,1 @@
+echo "<pre>";\n\n$price = "1.15";\necho "Price = ";\nvar_dump($price);\n\n$price_corrected = $price * 100;\necho "Corrected price = ";\nvar_dump($price_corrected);\n\n$price_int = intval(round($price_corrected));\necho "Integer price = ";\nvar_dump($price_int);\n\necho "</pre>";

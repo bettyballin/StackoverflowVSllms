@@ -1,0 +1,1 @@
+SELECT fldField, \n       LEN(fldField) AS FieldLength, \n       DATALENGTH(fldField) AS DataLength\nFROM tmpTable\nWHERE fldField LIKE '%YYY%';

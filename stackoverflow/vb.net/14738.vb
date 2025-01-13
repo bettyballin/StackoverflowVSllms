@@ -1,1 +1,0 @@
-Dim S as String = System.Text.Encoding.GetEncoding(1252).GetString(array)

@@ -1,0 +1,1 @@
+public class Service1 : IService1\n{\n    public string GetData(string value)\n    {\n        return $"You entered: {value}";\n    }\n}

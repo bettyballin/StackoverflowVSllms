@@ -1,0 +1,1 @@
+CREATE TABLE test (\n  id serial NOT NULL PRIMARY KEY,\n  username varchar(100) NOT NULL,\n  dob timestamp with time zone NOT NULL\n);

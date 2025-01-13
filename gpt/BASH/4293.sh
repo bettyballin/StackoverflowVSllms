@@ -1,0 +1,1 @@
+cd my-static-site\n    npm init -y

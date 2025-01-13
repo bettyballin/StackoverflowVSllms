@@ -1,0 +1,1 @@
+SELECT c1.node1, c1.node2\nFROM Connections c1\nJOIN Connections c2\nON c1.node1 = c2.node2\nAND c1.node2 = c2.node1;

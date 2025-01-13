@@ -1,0 +1,1 @@
+Public Class Form1\n    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load\n        Dim myGroupBox As New TransparentGroupBox()\n        myGroupBox.Text = "My Transparent GroupBox"\n        myGroupBox.Size = New Size(200, 100)\n        myGroupBox.Location = New Point(50, 50)\n\n        Me.Controls.Add(myGroupBox)\n    End Sub\nEnd Class

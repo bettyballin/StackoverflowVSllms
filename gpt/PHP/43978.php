@@ -1,0 +1,1 @@
+// In the Controller\n    $session = new Zend_Session_Namespace('user');\n    $this->view->username = $session->username;

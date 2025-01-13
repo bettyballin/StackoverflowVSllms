@@ -1,1 +1,0 @@
-var contentId = $(this).siblings("input[name='id']").val();\n\nvar contentId = $(this).parent().children("input[name='id']").val();\n\nvar contentId = $(this).prev().prev().val();

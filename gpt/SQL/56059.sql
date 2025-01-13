@@ -1,0 +1,1 @@
+SELECT some_columns\nFROM table1\nRIGHT JOIN table2 ON table1.id = table2.table1_id\nINNER JOIN table3 ON table2.id = table3.table2_id;

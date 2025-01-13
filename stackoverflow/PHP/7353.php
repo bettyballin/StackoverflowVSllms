@@ -1,1 +1,0 @@
-$command = "/usr/bin/ffmpeg -i " . $src;

@@ -1,0 +1,1 @@
+SELECT *\nFROM YourTable\nWHERE CONTAINS((YourColumn), \n    '"Vitamin C" AND FORMSOF (INFLECTIONAL, child*)'\n)

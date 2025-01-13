@@ -1,1 +1,0 @@
-// You need to add a web resource call for each JS file in the project\n[assembly: WebResource("CombinedScripts.Console.js", "text/javascript")]\n[assembly: WebResource("CombinedScripts.Utilities.js", "text/javascript")]\n// Not setting IncludeScripts or ExcludeScripts marks all scripts as\n// combinable.\n[assembly: AjaxControlToolkit.ScriptCombine()]

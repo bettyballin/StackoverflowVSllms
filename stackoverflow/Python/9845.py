@@ -1,1 +1,0 @@
-import glob, os, shutil\n\nfiles = glob.iglob(os.path.join(source_dir, "*.ext"))\nfor file in files:\n    if os.path.isfile(file):\n        shutil.copy2(file, dest_dir)

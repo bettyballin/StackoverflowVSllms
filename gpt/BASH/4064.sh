@@ -1,0 +1,1 @@
+# Example of a cron job to run maintenance scripts weekly\n    0 3 * * 0 /path/to/maintenance_script.sh

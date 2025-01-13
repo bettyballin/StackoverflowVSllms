@@ -1,1 +1,0 @@
-public static class ExtensionMethods\n{\n    public static string Base64ToHex(this string str)\n    {\n        return ...;\n    }\n}

@@ -1,1 +1,0 @@
-SELECT id, COUNT(id) FROM tableA a WHERE id < 5 GROUP BY id HAVING a.value < a.id

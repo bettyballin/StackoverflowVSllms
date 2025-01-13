@@ -1,0 +1,1 @@
+etsh interface ipv6 show teredo

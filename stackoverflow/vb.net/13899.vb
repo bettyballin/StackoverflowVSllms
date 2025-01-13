@@ -1,1 +1,0 @@
-sql = "UPDATE tblAccounts SET balance = " & CDbl(balance + value) & " WHERE(accountID = " & accountID & ")"

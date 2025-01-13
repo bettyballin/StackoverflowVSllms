@@ -1,0 +1,1 @@
+var cfg = new Configuration();\ncfg.DataBaseIntegration(db =>\n{\n    db.ConnectionString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\YourDatabase.mdb;";\n    db.Dialect<NHibernate.Dialect.MsAccessDialect>();\n    db.Driver<NHibernate.Driver.OleDbDriver>();\n});

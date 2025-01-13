@@ -1,0 +1,1 @@
+// Client-side code\nconst eventSource = new EventSource('http://yourserver.com/events');\n\neventSource.onmessage = function(event) {\n    console.log('Data received from server: ', event.data);\n};\n\neventSource.onerror = function(error) {\n    console.error('SSE error: ', error);\n};

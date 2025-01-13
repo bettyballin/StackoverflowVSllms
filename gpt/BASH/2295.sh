@@ -1,0 +1,1 @@
+pkg install apache-24 mysql-57 tomcat-9

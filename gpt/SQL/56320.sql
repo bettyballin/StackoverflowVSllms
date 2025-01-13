@@ -1,0 +1,1 @@
+SELECT column1, column2\nFROM table1\nUNION\nSELECT CONVERT(column1 USING utf8) AS column1, CONVERT(column2 USING utf8) AS column2\nFROM table2;

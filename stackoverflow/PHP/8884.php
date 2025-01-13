@@ -1,1 +1,0 @@
-$obj->{$_GET["func"]}($_GET["param"])

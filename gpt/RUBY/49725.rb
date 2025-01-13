@@ -1,0 +1,1 @@
+require 'hpricot'\n\n# Load your XML\nxml = Hpricot.XML(your_xml_string)\n\n# Find all account nodes under the section with description "YYYYY"\naccounts = xml.search("//section[@description='YYYYY']//account")\n\n# Output or process the accounts as needed\naccounts.each do |account|\n  puts account.to_s\nend

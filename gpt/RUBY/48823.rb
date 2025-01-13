@@ -1,0 +1,1 @@
+<%= form_for @product do |f| %>\n  <%= f.label :category_id, 'Category' %>\n  <%= f.select :category_id, options_for_select(@categories.map { |c| [c.name, c.id] } + [['..or create a new one', 'new']], selected: f.object.category_id), { prompt: 'Please select a category' } %>\n  <%= f.submit 'Submit' %>\n<% end %>

@@ -1,1 +1,0 @@
-SELECT CASE transaction_isolation_level \n    WHEN 0 THEN 'Unspecified' \n    WHEN 1 THEN 'ReadUncommitted' \n    WHEN 2 THEN 'ReadCommitted' \n    WHEN 3 THEN 'Repeatable' \n    WHEN 4 THEN 'Serializable' \n    WHEN 5 THEN 'Snapshot' END AS TRANSACTION_ISOLATION_LEVEL \nFROM sys.dm_exec_sessions \nwhere session_id = @@SPID

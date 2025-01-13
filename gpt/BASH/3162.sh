@@ -1,0 +1,1 @@
+sudo yum install php-pecl-imagick

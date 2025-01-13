@@ -1,1 +1,0 @@
-$(document).ready(function() {\n        jQuery('#btnAddItem').click(function() { addItemToStorageList(); });\n\n        function addItemToStorageList() {\n            var stores = jQuery('#storeListBox').val();\n            alert(stores);\n            return false\n        }\n    });

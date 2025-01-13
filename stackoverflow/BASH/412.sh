@@ -1,1 +1,0 @@
-$ grep pattern $(find . -type f | grep -v '\.svn')

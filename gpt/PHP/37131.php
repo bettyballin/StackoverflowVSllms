@@ -1,0 +1,1 @@
+<?php\nsession_start();\nrequire_once('core.php');\n\nif (isset($_SESSION['inbox'])) {\n    $inbox = $_SESSION['inbox'];\n    // Display the inbox\n    foreach ($inbox as $email) {\n        echo '<p>' . htmlspecialchars($email['subject']) . '</p>';\n    }\n} else {\n    echo '<p>No emails found.</p>';\n}\n?>

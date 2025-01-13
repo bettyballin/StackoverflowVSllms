@@ -1,1 +1,0 @@
-$("#youChatDiv").attr({ scrollTop: $("#youChatDiv").attr("scrollHeight") });

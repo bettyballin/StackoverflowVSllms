@@ -1,1 +1,0 @@
-select list_id, address_id, count(*) as count\nfrom LIST_MEMBERSHIPS\ngroup by 1, 2\norder by 3 desc

@@ -1,0 +1,1 @@
+public static double PixelsToPoints(double pixels)\n{\n    const double pointsPerInch = 72.0;\n    const double pixelsPerInch = 96.0;\n    return pixels * (pointsPerInch / pixelsPerInch);\n}

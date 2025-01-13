@@ -1,0 +1,1 @@
+$user = 'your_username';\n$password = 'your_password';\n$dbname = 'your_database';\n$backup_file = 'backup.dmp';\n\n$command = "exp {$user}/{$password}@{$dbname} file={$backup_file}";\nexec($command, $output, $return_var);\n\nif ($return_var === 0) {\n    echo "Backup successful!";\n} else {\n    echo "Backup failed!";\n}

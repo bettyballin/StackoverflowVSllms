@@ -1,1 +1,0 @@
-SELECT\n    OBJECT_NAME(parent_id) AS [Table],\n    OBJECT_NAME(object_id) AS TriggerName\nFROM\n    sys.triggers\nWHERE\n    object_id = @@PROCID

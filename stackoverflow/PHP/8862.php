@@ -1,1 +1,0 @@
-$_SERVER['request_uri']

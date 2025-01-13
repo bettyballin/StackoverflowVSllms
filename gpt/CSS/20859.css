@@ -1,0 +1,1 @@
+/* Custom styles for hyperlinks */\na {\n    /* Your custom styles here */\n    color: red;\n    text-decoration: underline;\n}\n\n/* Remove styles for hyperlinks that contain only images */\na:only-child img,\na img:only-child {\n    /* Reset or override your custom styles here */\n    color: inherit;\n    text-decoration: none;\n}

@@ -1,0 +1,1 @@
+USE msdb;\nEXEC sp_helpuser;

@@ -1,0 +1,1 @@
+using System.Runtime.Serialization;\n\n[DataContract]\npublic class ServiceResponse\n{\n    [DataMember]\n    public string Status { get; set; }\n\n    [DataMember]\n    public string ErrorMessage { get; set; }\n}

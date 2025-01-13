@@ -1,1 +1,0 @@
-cd /System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework\nnm LaunchServices | grep __LSCopyApplicationArrayInFrontToBackOrder

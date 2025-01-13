@@ -1,0 +1,1 @@
+// In List.php (Model)\n     public function getSortedItems($listId) {\n         $items = $this->Item->find('all', [\n             'conditions' => ['Item.list_id' => $listId],\n             'order' => ['Item.rank' => 'ASC']\n         ]);\n         return $items;\n     }

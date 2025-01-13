@@ -1,0 +1,1 @@
+$serviceName = "YourServiceName"\n$sddl = "D:(A;;CCLCSWRPWPDTLOCRSDRCWDWO;;;SY)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)(A;;CCLCSWLOCRRC;;;IU)(A;;CCLCSWLOCRRC;;;SU)"\nSet-Service -Name $serviceName -SecurityDescriptor $sddl

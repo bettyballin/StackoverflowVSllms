@@ -1,1 +1,0 @@
-from a in ACCOUNTS \n     join ed in ENTRIESDETAIL on a.ACODE equals ed.ACODE\n     join e in ENTRIES on e.EID equals ed.EID\n     where e.EDATE > DateTime.Parse("1/1/1990")\n     group ed by ed.ACODE into g\n     select new { g.Group.Sum(s => s.EDAMOUNT) };

@@ -1,0 +1,1 @@
+template <typename T, typename U>\nstruct MyStruct {\n    T aType;\n    U anotherType;\n};\n\ntemplate <typename T, typename U>\nclass IWantToBeFriendsWithMyStruct {\n    friend struct MyStruct<T, U>; // Correct syntax to declare friendship\n};

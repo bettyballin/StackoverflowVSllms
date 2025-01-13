@@ -1,0 +1,1 @@
+rsync -avz /path/to/local/project/ me@otherlocation.net:/var/www/project

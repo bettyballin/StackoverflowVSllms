@@ -1,1 +1,0 @@
-ITypeLib *ptlib;\nLoadTypeLib("sql.tlb", &ptlib);

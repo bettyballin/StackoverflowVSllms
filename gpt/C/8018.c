@@ -1,0 +1,1 @@
+// Header file: foo.h\nenum Foo {\n    BAR,\n    BAZ\n};\n\n// Function declaration\nenum Foo testFunc(void);

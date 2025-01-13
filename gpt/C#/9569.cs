@@ -1,0 +1,1 @@
+string connectionStringA = "Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;Pooling=true;Min Pool Size=0;Max Pool Size=100;Connection Lifetime=0;";\nstring connectionStringB = "Server=myServerAddress;Database=myOtherDataBase;User Id=myUsername;Password=myPassword;Pooling=true;Min Pool Size=0;Max Pool Size=100;Connection Lifetime=0;";

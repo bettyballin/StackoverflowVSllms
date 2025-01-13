@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk">\n\n  <PropertyGroup>\n    <OutputType>Exe</OutputType>\n    <TargetFramework>net5.0</TargetFramework>\n  </PropertyGroup>\n\n  <ItemGroup>\n    <Compile Include="File1.fs" />\n    <Compile Include="File2.fs" />\n  </ItemGroup>\n\n</Project>

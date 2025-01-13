@@ -1,0 +1,1 @@
+public partial class YourEntityClass : IExtendedEntity\n   {\n       public string AdditionalProperty { get; set; }\n\n       public void AdditionalMethod()\n       {\n           // Your implementation here\n       }\n   }

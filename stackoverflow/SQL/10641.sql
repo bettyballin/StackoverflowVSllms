@@ -1,1 +1,0 @@
-begin\nctx_ddl.create_preference('my_multi', 'MULTI_COLUMN_DATASTORE');\nctx_ddl.set_attribute('my_multi', 'columns', 'column1, column2, column3');\nend;\n\n\ncreate index myindex on mytable(docs) \n  indextype is ctxsys.context \n  parameters ('DATASTORE my_multi');

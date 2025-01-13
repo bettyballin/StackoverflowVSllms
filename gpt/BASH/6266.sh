@@ -1,0 +1,1 @@
+rsync -avz -e "ssh -p 22" /local/folder user@remote_host:/remote/folder

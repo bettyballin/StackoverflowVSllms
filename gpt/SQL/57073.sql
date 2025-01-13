@@ -1,0 +1,1 @@
+DECLARE\n  v_original VARCHAR2(100) := 'a+b*c?';\n  v_escaped VARCHAR2(100);\nBEGIN\n  v_escaped := escape_regexp_special_chars(v_original);\n  DBMS_OUTPUT.PUT_LINE('Escaped string: ' || v_escaped);\nEND;\n/

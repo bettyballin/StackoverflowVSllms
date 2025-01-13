@@ -1,1 +1,0 @@
-if(isset($_GET['param_name'])){\n    // What ever you want to do with the value\n}

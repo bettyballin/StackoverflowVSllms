@@ -1,1 +1,0 @@
-SELECT DISTINCT CONCAT(first, ' ', last) AS receiver_name\nFROM names;

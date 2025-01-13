@@ -1,1 +1,0 @@
-M = 9999  # Upper bound on bid.\nseal(x) = M * randInt(9,99) + x\nunseal(x) = x % M

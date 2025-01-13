@@ -1,1 +1,0 @@
-select\n...\nCASE\n  WHEN date_due = 0 AND date_sent = 0 THEN "opened" \n  WHEN date_sent > 0 AND (CURRENT_DATE - date_due) <= 0 THEN "sent" \nEND AS status \n\n...\nfrom table\n\nwhere \n... (other conditions) ...\n\n**HAVING status = "sent"**

@@ -1,0 +1,1 @@
+# Update package lists\nsudo apt update\n\n# Install common development tools\nsudo apt install build-essential\n\n# Install PHP, Apache, and MySQL\nsudo apt install php apache2 mysql-server\n\n# Install Eclipse IDE\nsudo snap install --classic eclipse

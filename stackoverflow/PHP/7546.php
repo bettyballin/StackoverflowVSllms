@@ -1,1 +1,0 @@
-$monthlyBill = $_GET['monthlybill'];

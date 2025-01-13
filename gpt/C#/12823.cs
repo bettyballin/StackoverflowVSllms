@@ -1,0 +1,1 @@
+AddLink(MyForms.Select(CurrentForm => CurrentForm.GetLink()));

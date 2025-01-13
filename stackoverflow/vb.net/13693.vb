@@ -1,1 +1,0 @@
-If Session("whatever") IsNot Nothing The

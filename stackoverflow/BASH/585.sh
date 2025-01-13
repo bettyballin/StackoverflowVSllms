@@ -1,1 +1,0 @@
-gcc -shared -o c.so -Wl,--whole-archive a.a b.a -Wl,--no-whole-archive

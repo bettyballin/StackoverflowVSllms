@@ -1,0 +1,1 @@
+sudo lsyncd /etc/lsyncd/lsyncd.conf.lua

@@ -1,0 +1,1 @@
+import clr\n\n# Add reference to the interop assembly\nclr.AddReference("Interop.YourComDll")\n\n# Import the namespace from the COM DLL\nfrom YourComNamespace import YourComClass\n\n# Create an instance of the COM class\ncom_instance = YourComClass()\n\n# Call methods or properties on the COM class\nresult = com_instance.SomeMethod()\nprint(result)

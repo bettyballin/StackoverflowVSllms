@@ -1,1 +1,0 @@
-<!--<%= post.created_at.to_i * 1000 %>-->

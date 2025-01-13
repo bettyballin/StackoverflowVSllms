@@ -1,0 +1,1 @@
+pgloader mysql://user:password@localhost/source_database postgresql://user:password@localhost/target_database

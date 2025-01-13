@@ -1,0 +1,1 @@
+sudo yum install epel-release\n     sudo yum install lsyncd

@@ -1,0 +1,1 @@
+string userInput = Request.QueryString["input"];\n    if (!IsInputValid(userInput)) {\n        // Handle invalid input\n    }

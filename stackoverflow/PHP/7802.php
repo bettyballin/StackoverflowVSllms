@@ -1,1 +1,0 @@
-$user = new UserData(24);

@@ -1,1 +1,0 @@
-string keyName = @"Software\Microsoft\Windows\CurrentVersion\Run";\nusing (RegistryKey key = Registry.CurrentUser.OpenSubKey(keyName, true))\n{\n    if (key == null)\n    {\n        // Key doesn't exist. Do whatever you want to handle\n        // this case\n    }\n    else\n    {\n        key.DeleteValue("MyApp");\n    }\n}

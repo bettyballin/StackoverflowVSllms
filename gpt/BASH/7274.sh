@@ -1,0 +1,1 @@
+# Example GitFlow commands\n   git checkout -b feature/new-feature develop\n   # Work on the feature\n   git commit -m "Implement new feature"\n   git checkout develop\n   git merge --no-ff feature/new-feature\n   git checkout main\n   git merge --no-ff develop

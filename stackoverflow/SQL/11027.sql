@@ -1,1 +1,0 @@
-CREATE TABLE my_table( \n  col1 number,\n  col2 number\n)

@@ -1,0 +1,1 @@
+adt -package -target native ExtJsAirApp.air application.xml index.html

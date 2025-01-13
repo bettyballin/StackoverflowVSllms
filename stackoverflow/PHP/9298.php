@@ -1,1 +1,0 @@
-function cmp($a, $b) \n{\n   global $author_array;\n\n   $pos1=array_search ($a->ID, $author_array);\n   $pos2=array_search ($b->ID, $author_array);\n\n   if ($pos1==$pos2)\n       return 0;\n   else\n      return ($pos1 < $pos2 ? -1 : 1);\n\n}\n\n\nusort($user_results, "cmp");

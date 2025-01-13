@@ -1,1 +1,0 @@
-CREATE UNIQUE CLUSTERED INDEX index_name ON TABLE (col1,col2)

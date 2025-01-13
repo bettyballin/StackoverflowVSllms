@@ -1,0 +1,1 @@
+echo "250 32000 32 256" > /proc/sys/kernel/sem

@@ -1,0 +1,1 @@
+require 'rake/testtask'\n   \n   Rake::TestTask.new do |t|\n     t.libs << 'lib'\n     t.pattern = 'test/**/*_test.rb' # or 'test/**/*_tc.rb' based on your file naming\n   end\n\n   task default: :test

@@ -1,0 +1,1 @@
+<?php\nexec('/usr/bin/sudo /etc/init.d/portmap restart 2>&1', $output, $return_var);\nif ($return_var !== 0) {\n    echo "Command failed: " . implode("\n", $output);\n} else {\n    echo "Service restarted successfully.";\n}\n?>

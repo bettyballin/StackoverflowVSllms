@@ -1,1 +1,0 @@
-ALTER TABLE [Users] ADD  CONSTRAINT [IX_UniqueUserEmail] UNIQUE NONCLUSTERED \n(\n    [Email] ASC\n)\n\nALTER TABLE [Users] ADD  CONSTRAINT [IX_UniqueUserName] UNIQUE NONCLUSTERED \n(\n    [UserName] ASC\n)

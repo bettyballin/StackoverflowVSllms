@@ -1,0 +1,1 @@
+mv server.key /Applications/MAMP/conf/apache/\n    mv server.crt /Applications/MAMP/conf/apache/

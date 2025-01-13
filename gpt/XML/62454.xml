@@ -1,0 +1,1 @@
+<event-handler name="test.testFunction" broadcast="false">\n    <broadcasts />\n</event-handler>

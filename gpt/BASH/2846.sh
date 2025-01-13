@@ -1,0 +1,1 @@
+java -Djava.security.manager=allow -jar your-application.jar

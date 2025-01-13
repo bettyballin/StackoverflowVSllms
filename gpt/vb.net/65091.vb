@@ -1,0 +1,1 @@
+Dim today As DateTime = DateTime.Today\nDim startOfYear As New DateTime(today.Year, 1, 1)\n\n' To get the DateDiff in days from the start of the year to today\nDim daysDifference As Integer = (today - startOfYear).Days\n\nConsole.WriteLine("Start of the Year: " & startOfYear.ToString("d"))\nConsole.WriteLine("Days Difference: " & daysDifference)

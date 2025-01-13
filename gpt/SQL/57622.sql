@@ -1,0 +1,1 @@
+SELECT *\nFROM search_statistics\nWHERE search_timestamp BETWEEN '2023-01-01' AND '2023-12-31';

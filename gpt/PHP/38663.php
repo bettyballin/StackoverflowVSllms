@@ -1,0 +1,1 @@
+apc_define_constants('my_constants', array('CONST1' => 'value1', 'CONST2' => 'value2'));

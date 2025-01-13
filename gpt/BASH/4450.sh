@@ -1,0 +1,1 @@
+bcp YourDatabase.dbo.StagingTable in yourdatafile.txt -f yourformatfile.xml -T -S yourserver

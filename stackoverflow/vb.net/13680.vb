@@ -1,1 +1,0 @@
-SQLRemoveDupes = "DELETE FROM Newsletter_Subscribers WHERE EXISTS " & _ \n(select * from [" & strDBPath & "Customers].Customers where Subscriber_Email IN (Email, EmailO)"

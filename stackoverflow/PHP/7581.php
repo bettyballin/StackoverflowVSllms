@@ -1,1 +1,0 @@
-if (!is_array($friends2)) {\n  $friends2 = array();\n}

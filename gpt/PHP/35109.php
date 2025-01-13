@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $id = $_POST['id'];\n    $data = urldecode($_POST['data']);\n    // Process your data here\n    echo $data;\n}\n?>

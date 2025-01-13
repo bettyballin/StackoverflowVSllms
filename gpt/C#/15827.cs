@@ -1,0 +1,1 @@
+[ValidatorComposition(CompositionType.Or)]\n[RangeValidator(0, RangeBoundaryType.Inclusive, 1, RangeBoundaryType.Inclusive)]\n[ObjectValidator(Negated = true)]\npublic int? Age { get; set; }

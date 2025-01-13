@@ -1,0 +1,1 @@
+cycle_time = end_date - start_date;

@@ -1,0 +1,1 @@
+public class Customer\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n    public IList<Order> Orders { get; set; }\n}\n\npublic class Order\n{\n    public int Id { get; set; }\n    public string ProductName { get; set; }\n    public int Quantity { get; set; }\n}

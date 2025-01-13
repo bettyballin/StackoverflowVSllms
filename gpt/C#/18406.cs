@@ -1,0 +1,1 @@
+LinkedList<int> linkedList = new LinkedList<int>();\n   linkedList.AddLast(1);\n   linkedList.AddFirst(0);

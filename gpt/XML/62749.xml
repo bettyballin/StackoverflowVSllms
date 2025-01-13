@@ -1,0 +1,1 @@
+<dependency>\n       <groupId>org.springframework.security.oauth</groupId>\n       <artifactId>spring-security-oauth2</artifactId>\n       <version>2.5.0.RELEASE</version>\n   </dependency>

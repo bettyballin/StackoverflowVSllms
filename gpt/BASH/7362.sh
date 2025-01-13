@@ -1,0 +1,1 @@
+git config --global https.proxy http://proxy.mycompany:80

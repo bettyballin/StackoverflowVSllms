@@ -1,0 +1,1 @@
+sudo systemctl restart php4.3.9-fpm\nsudo systemctl restart php5.2-fpm\nsudo systemctl restart httpd

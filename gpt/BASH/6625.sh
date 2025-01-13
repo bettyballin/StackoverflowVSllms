@@ -1,0 +1,1 @@
+sudo ufw allow 'Apache Full'\n    sudo ufw enable

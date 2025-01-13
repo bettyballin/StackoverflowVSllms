@@ -1,1 +1,0 @@
-bool function() {\n    /* lots of code */\n    function()\n}

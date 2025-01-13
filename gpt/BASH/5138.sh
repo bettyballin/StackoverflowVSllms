@@ -1,0 +1,1 @@
+# Example command to check for vulnerabilities\n   npm audit

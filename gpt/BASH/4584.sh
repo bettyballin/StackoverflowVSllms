@@ -1,0 +1,1 @@
+php -dxdebug.remote_enable=1 /path/to/your_script.php

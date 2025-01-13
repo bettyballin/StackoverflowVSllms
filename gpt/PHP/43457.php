@@ -1,0 +1,1 @@
+include(DIR_WS_MODULES . 'random_products.php');

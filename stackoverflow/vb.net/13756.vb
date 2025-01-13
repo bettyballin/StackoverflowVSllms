@@ -1,1 +1,0 @@
-Set oParts = CreateObject("ADODB.Recordset")\noParts.Fields.Append "Part", adBSTR , 30\noParts.Ope

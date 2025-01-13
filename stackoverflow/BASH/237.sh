@@ -1,1 +1,0 @@
-SIZE=`stat -c %s filea`\ncmp -s -n $SIZE filea fileb # -s for silence

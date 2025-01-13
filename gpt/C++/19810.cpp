@@ -1,0 +1,1 @@
+extern "C" __declspec(dllexport) QWidget* findQWidget(HWND hwnd) {\n       return QWidget::find(hwnd);\n   }

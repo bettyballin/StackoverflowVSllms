@@ -1,0 +1,1 @@
+Dim text = "Line1<br/>Line2"\nDim markup = <span><%= XElement.Parse("<root>" & text & "</root>").Value %></span>.ToString

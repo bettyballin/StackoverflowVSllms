@@ -1,1 +1,0 @@
-UPDATE volunteer, people\nSET volunteer.email = 'me@email.com',\n    people.email = 'other@gmail.com',\n    people.first_name = 'first',\nWHERE people.id = 2 AND volunteer.id = 5;

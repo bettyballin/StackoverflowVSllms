@@ -1,0 +1,1 @@
+-- Create a new table\nCREATE TABLE table_name (\n    column1 datatype,\n    column2 datatype,\n    ...\n);\n\n-- Alter an existing table to add a new column\nALTER TABLE table_name ADD column_name datatype;\n\n-- Drop a table\nDROP TABLE table_name;

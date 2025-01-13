@@ -1,0 +1,1 @@
+Sub Main()\n    ' Assuming you have a method to create your COM object\n    Dim comObj As New ComObject()\n\n    ' Wrap the COM object in the .NET wrapper\n    Using wrapper As New ComObjectWrapper(comObj)\n        ' Call methods on the wrapper\n        wrapper.SomeMethod()\n    End Using\n    ' The wrapper's Dispose method will be called automatically here\nEnd Sub

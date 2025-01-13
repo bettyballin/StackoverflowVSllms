@@ -1,0 +1,1 @@
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MyControl.ascx.cs" Inherits="YourNamespace.MyControl" %>\n   <div>\n       <!-- Your control's HTML and server-side code here -->\n       <asp:Label ID="Label1" runat="server" Text="Hello, World!"></asp:Label>\n   </div>

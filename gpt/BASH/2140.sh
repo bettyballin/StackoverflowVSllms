@@ -1,0 +1,1 @@
+aspnet_regiis -pc "YourKeyContainerName" -exp -size 2048

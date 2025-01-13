@@ -1,0 +1,1 @@
+sudo chmod -R +a "everyone allow list,search,readattr,readextattr,readsecurity" /path/to/your/folder\n   sudo chmod -R +a "staff allow list,add_file,search,delete,readattr,writeattr,readextattr,writeextattr,readsecurity,writesecurity,chown" /path/to/your/folder

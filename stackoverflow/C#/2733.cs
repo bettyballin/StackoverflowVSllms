@@ -1,1 +1,0 @@
-public sealed class StatusCode {\n    private char value;\n\n    public static readonly StatusCode Unknown = new StatusCode('U');\n    public static readonly StatusCode Failure = new StatusCode('F');\n\n    private StatusCode(char v) {\n        value = v;\n    }\n\n    public override string ToString() {\n        return value.ToString();\n    }\n\n}

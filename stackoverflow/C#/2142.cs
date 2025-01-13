@@ -1,1 +1,0 @@
-db.PolicyholderSet.Where(ph =>\n   ph.Services.Any(s => s.Id == someId) &&\n   ph.Keywords.Any(kw => kw.Status == someStatus))

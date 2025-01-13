@@ -1,0 +1,1 @@
+<?php\n$datetime = new DateTime();\n$timezone = $datetime->getTimezone();\n$offset = $timezone->getOffset($datetime) / 3600;\n\necho 'UTC Offset: ' . $offset . ' hours';\n?>

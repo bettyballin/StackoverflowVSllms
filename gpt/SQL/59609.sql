@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS current_sessions\nFROM v$session;

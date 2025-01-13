@@ -1,1 +1,0 @@
-function replace_spaces ($text) {\n    $replacement = function ($matches) {\n        return str_replace ($matches[1], ' ', '&nbsp;').' ';\n    };\n    return preg_replace_callback ('/( +) /', $replacement, $text);\n}

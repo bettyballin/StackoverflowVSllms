@@ -1,0 +1,1 @@
+using BenchmarkDotNet.Attributes;\nusing BenchmarkDotNet.Running;\n\npublic class BenchmarkExample\n{\n    [Benchmark]\n    public void MethodToBenchmark()\n    {\n        // Code to benchmark\n    }\n\n    public static void Main(string[] args)\n    {\n        var summary = BenchmarkRunner.Run<BenchmarkExample>();\n    }\n}

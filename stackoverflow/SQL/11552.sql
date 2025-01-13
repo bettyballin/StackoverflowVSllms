@@ -1,1 +1,0 @@
-CONVERT(CHAR(8), datetime_column, 112)

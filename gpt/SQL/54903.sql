@@ -1,0 +1,1 @@
+ALTER TABLE YourTable ADD IsDeleted BIT DEFAULT 0;\n\n    -- Marking a record as deleted\n    UPDATE YourTable SET IsDeleted = 1 WHERE Id = @RecordId;

@@ -1,0 +1,1 @@
+<!-- Add this script at the end of your .aspx file or in a separate .js file -->\n<script type="text/javascript">\n    window.onload = function() {\n        var validator = document.getElementById('<%= valReq_txtTracks.ClientID %>');\n        if (validator) {\n            validator.style.color = '';\n        }\n    };\n</script>

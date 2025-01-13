@@ -1,1 +1,0 @@
-<asp:ScriptManager ID="ScriptManager1" runat="server">\n</asp:ScriptManager>\n\n<script type="text/javascript">\n    var prm = Sys.WebForms.PageRequestManager.getInstance();\n    prm.add_beginRequest(beginRequest);\n\n    function beginRequest() {\n        prm._scrollPosition = null;\n    }\n</script>

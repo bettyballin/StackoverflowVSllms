@@ -1,0 +1,1 @@
+public class Office2007Wrapper : IOfficeWrapper\n{\n    public void OpenDocument(string filePath)\n    {\n        // Implementation for Office 2007\n    }\n\n    public void SaveDocument(string filePath)\n    {\n        // Implementation for Office 2007\n    }\n}

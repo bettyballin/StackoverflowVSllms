@@ -1,0 +1,1 @@
+tail -f /path/to/error.log

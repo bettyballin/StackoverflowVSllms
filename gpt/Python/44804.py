@@ -1,0 +1,1 @@
+import random\n\ndef shuffle_with_no_adjacent_duplicates(arr):\n    while True:\n        random.shuffle(arr)\n        if all(arr[i] != arr[i + 1] for i in range(len(arr) - 1)):\n            return arr\n\n# Example usage:\nadvertisers = ["A", "A", "B", "B", "C", "C"]\nresult = shuffle_with_no_adjacent_duplicates(advertisers)\nprint(result)

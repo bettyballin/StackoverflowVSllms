@@ -1,1 +1,0 @@
-request.Method = "POST";\n\nusing (StreamWriter writer = new StreamWriter(request.GetRequestStream(), Encoding.ASCII))\n{\n    writer.Write("nick=" + username + "&password=" + password);\n}

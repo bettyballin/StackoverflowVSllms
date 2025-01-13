@@ -1,1 +1,0 @@
-= -Sum(CInt(Fields!Transfered.Value)).ToString() + " / " + CountRows().ToString()

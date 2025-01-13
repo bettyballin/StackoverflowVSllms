@@ -1,0 +1,1 @@
+SELECT e.id, e.name, e.capacity, COALESCE(r.registrant_count, 0) AS registrant_count\nFROM events e\nLEFT OUTER JOIN (\n    SELECT event_id, COUNT(*) AS registrant_count\n    FROM registrant_event\n    GROUP BY event_id\n) r ON e.id = r.event_id;

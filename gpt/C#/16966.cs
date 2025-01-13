@@ -1,0 +1,1 @@
+ServiceAccountChanger.ChangeServiceLogon("YourServiceName", "YourUsername", "YourPassword");

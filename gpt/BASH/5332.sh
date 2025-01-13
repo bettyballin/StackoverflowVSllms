@@ -1,0 +1,1 @@
+regsvr32 C:\oracle\instantclient_19_8\sqora32.dll

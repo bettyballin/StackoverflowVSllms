@@ -1,0 +1,1 @@
+$sql = 'SELECT article_id, title, article FROM journal WHERE article_id = ?';\n   $stmt = $conn->stmt_init();\n   $stmt->prepare($sql);

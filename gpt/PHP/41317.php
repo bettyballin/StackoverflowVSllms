@@ -1,0 +1,1 @@
+<?php\nsession_start();\n$_SESSION['download_token'] = bin2hex(random_bytes(16));\n?>\n\n<!-- Your link to the download script -->\n<a href="download.php?file=file_reference_here&token=<?php echo $_SESSION['download_token']; ?>">Download</a>

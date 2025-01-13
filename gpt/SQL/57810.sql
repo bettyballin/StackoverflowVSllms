@@ -1,0 +1,1 @@
+SELECT City, State\n   FROM Location\n   WHERE ZipCode = '10001';

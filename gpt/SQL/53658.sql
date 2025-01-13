@@ -1,0 +1,1 @@
+INSERT INTO events (event_datetime, has_time)\nVALUES ('2023-10-01 14:30:00', TRUE);

@@ -1,0 +1,1 @@
+# app/controllers/your_models_controller.rb\nclass YourModelsController < ApplicationController\n  def autocomplete\n    term = params[:term]\n    your_models = YourModel.where("name LIKE ?", "%#{term}%").limit(10)\n    render json: your_models.map { |your_model| { id: your_model.id, name: your_model.name } }\n  end\nend

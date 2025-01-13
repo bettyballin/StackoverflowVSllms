@@ -1,0 +1,1 @@
+DECLARE @myDoc XML;\nSET @myDoc = '<CustomerInfo><ID>1</ID></CustomerInfo>';\n\n-- Insert the new element with the same content\nSET @myDoc.modify('insert <Customer>{/CustomerInfo/*}</Customer> after (/CustomerInfo)[1]');\n\n-- Delete the old element\nSET @myDoc.modify('delete /CustomerInfo');\n\nSELECT @myDoc;

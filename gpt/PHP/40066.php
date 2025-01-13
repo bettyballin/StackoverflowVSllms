@@ -1,0 +1,1 @@
+// Example using PDO\n$pdo = new PDO('mysql:host=your_host;dbname=your_db', 'username', 'password');\n$stmt = $pdo->prepare('INSERT INTO users (name, email) VALUES (:name, :email)');\n$stmt->bindParam(':name', $sanitized_post['name']);\n$stmt->bindParam(':email', $sanitized_post['email']);\n$stmt->execute();

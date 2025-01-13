@@ -1,1 +1,0 @@
-$ts1 = strtotime('2009-07-26 18:42:21');\n$ts2 = strtotime('2009-07-26 18:42:20');\n\n$elapsedSeconds = $ts1 - $ts2; // = 1

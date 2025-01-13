@@ -1,1 +1,0 @@
-Select CHARINDEX ('S','MICROSOFT SQL SERVER 2000')\nResult: 6

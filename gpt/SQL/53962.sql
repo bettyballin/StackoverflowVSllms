@@ -1,0 +1,1 @@
+CREATE TABLE `main` (\n  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,\n  PRIMARY KEY (`id`)\n) ENGINE=InnoDB;\n\nCREATE TABLE `day` (\n  `main_id` int(10) unsigned NOT NULL,\n  `day` tinyint(4) NOT NULL,\n  CONSTRAINT `fk_db_main` FOREIGN KEY (`main_id`) REFERENCES `main` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION\n) ENGINE=InnoDB;

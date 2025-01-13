@@ -1,1 +1,0 @@
-echo '<td background="images/map/';\n$tile = mysql_fetch_array(\n          mysql_query(\n            "SELECT image FROM map WHERE horizontal = ".\n            ${'mapPiece' . $mapPieceCount}[0].\n            " AND verticle = ".\n            ${'mapPiece' . $mapPieceCount}[0]\n          )\n        );\necho $tile[0]; \necho '.png"></td>';

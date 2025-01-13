@@ -1,0 +1,1 @@
+// Example: Get all <div> elements\nvar divElements = document.querySelectorAll('div');\n\n// Example: Get an element by ID\nvar elementById = document.querySelector('#elementId');\n\n// Example: Get elements by class name\nvar elementsByClassName = document.querySelectorAll('.className');

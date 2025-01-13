@@ -1,0 +1,1 @@
+using System;\n\nclass MathBenchmark {\n    static void Main() {\n        var startTime = System.Diagnostics.Stopwatch.StartNew();\n        \n        for (int i = 0; i < 1000000; i++) {\n            Math.Pow(i, 2);\n        }\n        \n        startTime.Stop();\n        Console.WriteLine("C# Duration: " + startTime.ElapsedMilliseconds + " ms");\n    }\n}

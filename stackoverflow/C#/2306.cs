@@ -1,1 +1,0 @@
-var SQL = string.format("SELECT * FROM {0} WHERE {1} LIKE ?", TABLE, NAME);\nCmd.Parameters.AddWithValue(NAME, "%" + "JOHN" + "%");

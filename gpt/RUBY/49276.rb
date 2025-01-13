@@ -1,0 +1,1 @@
+# features/step_definitions/signup_steps.rb\nGiven("an account is created") do\n  @account = Account.create!(name: "Test Account")\n  allow_any_instance_of(RegistrationsController).to receive(:get_registration).and_return(@account)\nend

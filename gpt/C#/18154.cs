@@ -1,0 +1,1 @@
+using System;\nusing System.Web;\n\npublic class EnvironmentChecker\n{\n    public static bool IsRunningUnderWebServer()\n    {\n        return HttpContext.Current != null;\n    }\n}

@@ -1,1 +1,0 @@
-DECLARE @Warranty VARCHAR(50)\n\nSET @Warranty = @myDoc.value('(/Root/ProductDescription/Features/Warranty/text())[1]', 'varchar(50)' )\n\nSELECT @Warranty

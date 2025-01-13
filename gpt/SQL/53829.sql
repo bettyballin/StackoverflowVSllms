@@ -1,0 +1,1 @@
+CREATE TABLE Users (\n    UserID INT PRIMARY KEY,\n    Username NVARCHAR(50) NOT NULL,\n    HashedPassword NVARCHAR(60) NOT NULL, -- bcrypt hash length\n    Salt NVARCHAR(29) NOT NULL            -- bcrypt salt length\n);

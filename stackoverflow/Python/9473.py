@@ -1,1 +1,0 @@
-def change103(...):\n    "Create new table."\ndef change104(...):\n    """Transfer data from old table to new table and make\n       complicated changes in the process.\n    """\ndef change105(...):\n    "Drop old table"\ndef change106(...):\n    "Rename new table to old table"

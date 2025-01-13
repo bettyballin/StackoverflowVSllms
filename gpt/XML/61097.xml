@@ -1,0 +1,1 @@
+<configuration>\n     <system.web>\n       <sessionState \n         mode="SQLServer"\n         sqlConnectionString="data source=your_sql_server_name;Initial Catalog=ASPState;Integrated Security=True;"\n         cookieless="false"\n         timeout="20" />\n     </system.web>\n   </configuration>

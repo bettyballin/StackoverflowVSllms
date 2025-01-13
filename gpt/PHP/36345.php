@@ -1,0 +1,1 @@
+setcookie("username", $value, time()+3600, "/", ".example.com");

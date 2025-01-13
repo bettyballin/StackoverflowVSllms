@@ -1,1 +1,0 @@
-Dim p = Path.Combine(somePath, "foo\bar")

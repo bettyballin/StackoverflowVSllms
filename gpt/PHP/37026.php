@@ -1,0 +1,1 @@
+// Validating the token\n   if (!isset($_POST['token']) || $_POST['token'] !== $_SESSION['token']) {\n       echo "Invalid request.";\n       exit;\n   }

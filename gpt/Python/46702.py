@@ -1,0 +1,1 @@
+from collections import Counter\n\nwords = "apple banana apple strawberry banana lemon"\nword_list = words.split()\nfreqs = Counter(word_list)\n\nprint(freqs)

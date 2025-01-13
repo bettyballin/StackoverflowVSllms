@@ -1,0 +1,1 @@
+using System;\nusing System.Linq;\n\nclass Program\n{\n    static void Main()\n    {\n        var numbers = Enumerable.Range(1, 10).ToList();\n        \n        foreach (var number in numbers)\n        {\n            Console.WriteLine(number);\n        }\n    }\n}

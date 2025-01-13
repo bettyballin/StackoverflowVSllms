@@ -1,0 +1,1 @@
+sqlplus /@your_database

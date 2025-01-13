@@ -1,0 +1,1 @@
+# Tag the manufacturing branch\n    git checkout manufacturing-branch\n    git tag manufacturing-release-1.0\n\n    # Tag the production branch\n    git checkout production-branch\n    git tag production-release-1.0

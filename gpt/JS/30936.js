@@ -1,0 +1,1 @@
+// Assuming 'sessionData' is your session identifier\nconst sessionData = 'your-session-data';\nconst newWindow = window.open(`report.html?sessionData=${encodeURIComponent(sessionData)}`, '_blank');

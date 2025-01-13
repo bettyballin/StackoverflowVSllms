@@ -1,0 +1,1 @@
+@Ajax.ActionLink(" ", "Action", Args, new AjaxOptions { ... }, new { @class = "invisible-link" })

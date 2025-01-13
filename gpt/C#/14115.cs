@@ -1,0 +1,1 @@
+public class MyService : IMyService\n    {\n        public string MyOperation(string input)\n        {\n            return "Hello, " + input;\n        }\n    }

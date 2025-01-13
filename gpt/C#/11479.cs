@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\npublic void ShowMap(string address)\n{\n    string url = "https://maps.google.com/maps?q=" + Uri.EscapeDataString(address);\n    Process.Start(url);\n}

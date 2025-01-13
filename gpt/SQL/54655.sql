@@ -1,0 +1,1 @@
+CREATE LOGIN [Domain\UserName] FROM WINDOWS;\n    CREATE USER [Domain\UserName] FOR LOGIN [Domain\UserName];

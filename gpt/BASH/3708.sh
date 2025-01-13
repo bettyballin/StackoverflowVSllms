@@ -1,0 +1,1 @@
+java -Djava.security.policy=/path/to/your/custom.policy -jar signedapplet.jar

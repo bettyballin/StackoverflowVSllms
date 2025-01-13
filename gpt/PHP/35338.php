@@ -1,0 +1,1 @@
+session_name('MySessID');\nsession_start();\n\n// Your code here\n\n// Release the session lock\nsession_write_close();\n\n// Make the curl request\n$ch = curl_init('http://example.com/second_script.php');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$response = curl_exec($ch);\ncurl_close($ch);\n\n// Continue your code here

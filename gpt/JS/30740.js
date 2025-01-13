@@ -1,0 +1,1 @@
+ew Request.JSON({\n  url: '/resource/1',\n  headers: {\n    'Accept': 'application/json'\n  },\n  onSuccess: function(response) {\n    console.log(response);\n  }\n}).send();

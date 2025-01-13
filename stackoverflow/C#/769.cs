@@ -1,1 +1,0 @@
-myTable.PrimaryKey = new DataColumn[] {\n    myTable.Columns["SomeColumn"]\n};

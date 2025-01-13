@@ -1,1 +1,0 @@
-framerControl.Open(@"C:\SomeDocument.doc");

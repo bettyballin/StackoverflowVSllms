@@ -1,1 +1,0 @@
-order by \ncase when article.date is not null and article.date<issue.date then article.date\nelse issue.date end

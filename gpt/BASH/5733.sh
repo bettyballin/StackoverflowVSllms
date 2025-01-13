@@ -1,0 +1,1 @@
+# Open Wireshark and load the capture.pcap file for analysis\nwireshark capture.pcap

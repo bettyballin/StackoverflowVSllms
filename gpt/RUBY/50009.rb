@@ -1,0 +1,1 @@
+class Website < ActiveRecord::Base\n     def to_param\n       URI.escape(domain_name)\n     end\n   end

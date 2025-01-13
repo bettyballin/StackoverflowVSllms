@@ -1,1 +1,0 @@
-$x = unpack("H*", $row[0]); \necho $x[1];

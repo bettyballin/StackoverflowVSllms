@@ -1,1 +1,0 @@
-p1 = Popen(["dmesg"], stdout=PIPE)\np2 = Popen(["grep", "hda"], stdin=p1.stdout, stdout=PIPE)\noutput = p2.communicate()[0]

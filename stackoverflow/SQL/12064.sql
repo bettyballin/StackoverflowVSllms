@@ -1,1 +1,0 @@
-WITH cte AS (\n SELECT *, NTILE(100) OVER (ORDER BY column) as rank\n FROM table)\nSELECT * FROM cte WHERE rank BETWEEN 30 and 70

@@ -1,1 +1,0 @@
-select ...\nfrom   (\n       SELECT pId,\n              hdId,\n              obsDate\n              MAX(obsDate) over (partition by pId, hdId) maxDate\n       FROM   ml.Obs\n       WHERE  obsDate < {?EndDate}\n       )\nwhere  obsDate = maxDate\n/

@@ -1,0 +1,1 @@
+function get_cache($key) {\n    $db = initialize_cache_db();\n    $stmt = $db->prepare("SELECT value, timestamp FROM cache WHERE key = :key");\n    $stmt->execute([':key' => $key]);\n    $row = $stmt->fetch(PDO::FETCH_ASSOC);\n    \n    if ($row && $row['timestamp'] > time()) {\n        return $row['value'];\n    }\n    return null;\n}

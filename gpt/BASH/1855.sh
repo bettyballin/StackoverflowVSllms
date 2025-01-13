@@ -1,0 +1,1 @@
+openssl x509 -in yourcertificate.crt -text -noout

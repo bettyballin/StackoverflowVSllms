@@ -1,1 +1,0 @@
-#if _WIN64 \n// 64 bit build\n#else\n// 32 bit build\n#endif

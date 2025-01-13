@@ -1,0 +1,1 @@
+protected void Application_Start(object sender, EventArgs e)\n{\n    // Initialize the database here\n    InitializeDatabase();\n}\n\nprivate void InitializeDatabase()\n{\n    // Your database initialization code\n}

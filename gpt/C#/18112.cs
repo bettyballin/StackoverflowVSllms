@@ -1,0 +1,1 @@
+var customerAllViewModel = _container.Resolve<CustomerAllViewModel>();

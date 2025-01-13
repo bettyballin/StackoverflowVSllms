@@ -1,0 +1,1 @@
+public class Employee\n    {\n        public int ID { get; set; }\n        public string Lastname { get; set; }\n        public string Firstname { get; set; }\n\n        // Custom property to display Lastname, Firstname\n        public string FullName\n        {\n            get { return Lastname + ", " + Firstname; }\n        }\n    }

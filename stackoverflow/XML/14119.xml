@@ -1,1 +1,0 @@
-<bag name="Tutorials" cascade="all-delete-orphan">\n   <key column="someId" />\n   <one-to-many class="Tutorial" not-found="ignore" />

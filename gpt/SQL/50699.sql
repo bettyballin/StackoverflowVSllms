@@ -1,0 +1,1 @@
+EXEC sp_removedbreplication @dbname = 'bybox';

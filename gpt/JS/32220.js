@@ -1,0 +1,1 @@
+$('#yourForm').submit(function(e) {\n  e.preventDefault();\n  \n  prepImageArea().done(function() {\n    $(this).ajaxSubmit({\n      success: imageUploaded\n    });\n  });\n});

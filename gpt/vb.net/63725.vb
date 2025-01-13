@@ -1,0 +1,1 @@
+Private Sub SetRowHeight(newHeight As Double)\n    ' Ensure the height is set to a GridLength with Pixel value\n    AnimationRow.Height = New GridLength(newHeight, GridUnitType.Pixel)\nEnd Sub\n\n' Example usage: Set the height of AnimationRow to 0\nSetRowHeight(0)

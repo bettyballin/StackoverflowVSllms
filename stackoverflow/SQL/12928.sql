@@ -1,1 +1,0 @@
-SELECT * FROM update_log WHERE update_time > NOW() - 30 MINUTES;

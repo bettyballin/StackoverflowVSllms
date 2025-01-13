@@ -1,1 +1,0 @@
-<?php\nini_set('display_errors', true);\nerror_reporting(E_ALL | E_NOTICE);\n$id = mysql_pconnect('localhost','myusername', 'mypassword', true);\nprint "id=".$id."\n";\n?>

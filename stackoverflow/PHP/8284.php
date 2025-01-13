@@ -1,1 +1,0 @@
-$str = "%$str%";\n$query = $db->prepare("select * from comments where comment like :search");\n$query->bindParam(':search', $str);\n$query->execute();

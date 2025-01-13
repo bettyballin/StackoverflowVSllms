@@ -1,0 +1,1 @@
+import re\n    if re.search(r'(spam|viagra|free money)', form_content, re.IGNORECASE):\n        reject_submission()

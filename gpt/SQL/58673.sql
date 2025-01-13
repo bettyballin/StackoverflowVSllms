@@ -1,0 +1,1 @@
+CREATE INDEX idx_date ON myTable([Date]);\nCREATE INDEX idx_index ON myTable([Index]);

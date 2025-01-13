@@ -1,1 +1,0 @@
-$newDate = strtotime('+15 days',$date)

@@ -1,0 +1,1 @@
+svn delete foo-1.0.2 -m "Removing previous tag to allow new release preparation"

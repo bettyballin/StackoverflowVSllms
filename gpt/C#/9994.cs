@@ -1,0 +1,1 @@
+try\n   {\n       // Code that may throw an exception\n   }\n   catch (Exception ex)\n   {\n       // Log exception details\n       System.IO.File.AppendAllText(@"C:\Logs\errorlog.txt", ex.ToString());\n   }

@@ -1,0 +1,1 @@
+// Forces an immediate garbage collection of all generations.\nGC.Collect();\n// Wait for all finalizers to complete before continuing.\nGC.WaitForPendingFinalizers();\n// Optionally, force another garbage collection.\nGC.Collect();

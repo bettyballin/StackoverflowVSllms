@@ -1,0 +1,1 @@
+ALTER TABLE ReferencedTable\n   DROP CONSTRAINT FK_ReferencedTable_YourTable;\n\n   ALTER TABLE ReferencedTable\n   ADD CONSTRAINT FK_ReferencedTable_YourTable\n   FOREIGN KEY (NewGuidColumn) REFERENCES YourTable(NewGuidColumn);

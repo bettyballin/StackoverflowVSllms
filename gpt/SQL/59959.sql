@@ -1,0 +1,1 @@
+ALTER TABLE YourTableName\nADD CONSTRAINT YourConstraintName UNIQUE (YourColumnName);

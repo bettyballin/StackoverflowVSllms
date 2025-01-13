@@ -1,0 +1,1 @@
+rsync -a -l --no-perms --no-group --no-owner --chmod=D755,F644 --omit-dir-times /source/directory/ /destination/directory/

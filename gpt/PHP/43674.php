@@ -1,0 +1,1 @@
+<?php\n$input = '<br/>\n<br/>\n<br/>\n<br/>\n<br/>\n';\n$output = preg_replace('/(<br\/>\s*)+/', '<br/>', $input);\necho $output;\n?>

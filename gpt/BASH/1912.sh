@@ -1,0 +1,1 @@
+g++ -o your_program your_program.cpp -lboost_system -lboost_filesystem

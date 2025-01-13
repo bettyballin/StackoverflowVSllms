@@ -1,0 +1,1 @@
+ALTER TABLE your_table_name\nDROP CONSTRAINT your_unique_constraint_name;

@@ -1,0 +1,1 @@
+./decompress < compressed_file > decompressed_file

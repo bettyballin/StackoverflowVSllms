@@ -1,0 +1,1 @@
+CREATE TABLE ratings (\n    sysID INT IDENTITY PRIMARY KEY,\n    goods_type VARCHAR(16),\n    suminsured_min DECIMAL(9,2),\n    suminsured_max DECIMAL(9,2),\n    percent_premium DECIMAL(9,6),\n    UNIQUE (goods_type, suminsured_min, suminsured_max)\n);

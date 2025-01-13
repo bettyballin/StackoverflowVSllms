@@ -1,1 +1,0 @@
-select EMPLID, EFFDT, ACTION, ACTION_REASON\nfrom\n(\nSELECT EMPLID, EFFDT, ACTION, ACTION_REASON, row_number() over (order by emplid) rn\nfrom JOB where emplid ='12345'\n)\nwhere rn between 50 and 60;

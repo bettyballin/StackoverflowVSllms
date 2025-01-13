@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.immutables</groupId>\n    <artifactId>value</artifactId>\n    <version>2.9.0</version>\n</dependency>\n<dependency>\n    <groupId>org.immutables</groupId>\n    <artifactId>builder</artifactId>\n    <version>2.9.0</version>\n</dependency>

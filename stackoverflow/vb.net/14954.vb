@@ -1,1 +1,0 @@
-Dim WebSvcObj As Object\nDim LocatorObj As Object = CreateObject("WbemScripting.SWbemLocator")\nDim ProviderObj As Object = LocatorObj.ConnectServer(".", "root/MicrosoftIISv2", "", "")\nWebSvcObj = ProviderObj.get("IIsWebService='w3svc'")\nWebSvcObj.EnableWebServiceExtension("ASP.NET v2.0.50727")

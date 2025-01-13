@@ -1,0 +1,1 @@
+ew Ajax.Request('/traffic/testing01_four_log_info?testing01_num=123&fourth_name=LA1', {\n  asynchronous: true,\n  evalScripts: true,\n  method: 'get'\n});

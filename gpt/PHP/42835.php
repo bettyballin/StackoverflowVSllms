@@ -1,0 +1,1 @@
+$value = ($value === "") ? "" : $value; // Ensure $value is not NULL\n   $query = "INSERT INTO mytable SET somevarchar = ?";\n   $prepared = $db->prepare($query);\n   $result = $prepared->execute(array($value));

@@ -1,0 +1,1 @@
+target_dept_ids = [1, 2, 3]  # Example list of target DeptIDs\ndept_ids_str = ', '.join(map(str, target_dept_ids))\ncount_dept_ids = len(target_dept_ids)\n\nquery = f"""\nSELECT EmpID\nFROM your_table\nWHERE DeptID IN ({dept_ids_str})\nGROUP BY EmpID\nHAVING COUNT(DISTINCT DeptID) = {count_dept_ids};\n"""\n\nprint(query)

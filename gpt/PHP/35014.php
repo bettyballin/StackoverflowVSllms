@@ -1,0 +1,1 @@
+// Custom Plugin: my-custom-plugin.php\n\n// Hook into WordPress initialization\nadd_action('init', 'my_custom_function');\n\nfunction my_custom_function() {\n    // Your custom code here\n}

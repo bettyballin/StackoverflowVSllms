@@ -1,0 +1,1 @@
+<add name="DefaultDb" providerName="Oracle.DataAccess.Client" connectionString="Data Source=ora11dev;User Id=user;Password=pass;"/>

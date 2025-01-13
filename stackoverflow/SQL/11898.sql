@@ -1,1 +1,0 @@
-ALTER TABLE mytable \nALTER COLUMN mycolumn VARCHAR(10) \nCOLLATE SQL_Latin1_General_CP1_CS_AS

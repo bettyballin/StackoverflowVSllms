@@ -1,0 +1,1 @@
+# Extract the WAR file\njar -xvf your-application.war\n\n# Replace the necessary JAR files\ncp path/to/new-version.jar WEB-INF/lib/\n\n# Repack the WAR file\njar -cvf updated-application.war -C extracted-directory/ .

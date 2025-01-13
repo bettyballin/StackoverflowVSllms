@@ -1,0 +1,1 @@
+PropertyValueCollection memberOf = user.Properties["memberOf"];\n    foreach (string path in memberOf)\n    {\n        string cn = ExtractCommonName(path);\n        Console.WriteLine(cn);\n    }

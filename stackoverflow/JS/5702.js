@@ -1,1 +1,0 @@
-$(function() {\n    $("input.formdate").datepicker({\n        changeMonth: true,\n        changeYear: true,\n        dateFormat: <RESULT_FROM_CALLING_getDateFormat()>\n    });\n});

@@ -1,1 +1,0 @@
-function &set(&$x, &$y) {}

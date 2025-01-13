@@ -1,1 +1,0 @@
-select HOUR(added), count(*) as nbr\nfrom visits\nwhere added between '2009-07-14' and '2009-07-15'\ngroup by HOUR(added)\norder by HOUR(added)

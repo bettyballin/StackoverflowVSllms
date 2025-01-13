@@ -1,0 +1,1 @@
+icacls "C:\path\to\web\service\bin" /grant "IIS_IUSRS:(OI)(CI)RX"

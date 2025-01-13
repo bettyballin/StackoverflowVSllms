@@ -1,0 +1,1 @@
+rtmpdump -r "rtmp://yourserver/app" -y "yourStream" -o output.flv

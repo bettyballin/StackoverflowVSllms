@@ -1,0 +1,1 @@
+set transaction isolation level read uncommitted;\nselect * from your_table;

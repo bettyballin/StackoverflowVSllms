@@ -1,0 +1,1 @@
+// app/controllers/Home.php\nclass Home extends Controller {\n    public function index() {\n        $this->view('home/index');\n    }\n\n    public function signup() {\n        if ($_SERVER['REQUEST_METHOD'] == 'POST') {\n            // Validate and process form\n        } else {\n            $this->view('home/signup');\n        }\n    }\n}

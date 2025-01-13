@@ -1,0 +1,1 @@
+[Export(typeof(IProvider))]\npublic class ProviderA : IProvider\n{\n    public string Name => "ProviderA";\n\n    public Stream GetDataStream()\n    {\n        // Implementation for ProviderA\n    }\n}

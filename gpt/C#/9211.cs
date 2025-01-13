@@ -1,0 +1,1 @@
+using Microsoft.EntityFrameworkCore;\n\npublic class YourDbContext : DbContext\n{\n    public DbSet<YourEntity> YourEntities { get; set; }\n\n    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)\n    {\n        optionsBuilder.UseInMemoryDatabase("YourInMemoryDb");\n    }\n}

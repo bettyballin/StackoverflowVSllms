@@ -1,0 +1,1 @@
+# Redirect direct access to register.php to /register/\nRewriteCond %{THE_REQUEST} \s/register\.php[\s?] [NC]\nRewriteRule ^register\.php$ /register/ [R=301,L]\n\n# Existing rule to handle /register/\nRewriteRule ^register/$ /register.php [L]

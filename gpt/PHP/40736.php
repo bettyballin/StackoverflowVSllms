@@ -1,0 +1,1 @@
+foreach ($rows as &$row) {\n    $row['field'] = htmlspecialchars($row['field'], ENT_XML1, 'UTF-8');\n}

@@ -1,1 +1,0 @@
-def listit(t):\n    return list(map(listit, t)) if isinstance(t, (list, tuple)) else t

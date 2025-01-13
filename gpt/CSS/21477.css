@@ -1,0 +1,1 @@
+/* Using rem for consistent scaling */\nhtml {\n  font-size: 16px; /* Base size */\n}\n\nbody {\n  font-size: 1rem; /* 16px */\n}\n\nh1 {\n  font-size: 2rem; /* 32px */\n}\n\np {\n  font-size: 1rem; /* 16px */\n}

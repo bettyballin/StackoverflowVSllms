@@ -1,0 +1,1 @@
+#include <iostream>\n#include "somefun.h"\n\nint main()\n{\n    SomeFun(); // Call to the function declared in the header and defined elsewhere\n    return 0;\n}\n\nstd::string SomeFun()\n{\n    std::cout << "WOW this is unexpected" << std::endl;\n    return "";\n}

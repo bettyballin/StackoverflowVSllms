@@ -1,0 +1,1 @@
+# Restart the service (Windows)\n   net stop "Visual Studio Team Foundation Build"\n   net start "Visual Studio Team Foundation Build"

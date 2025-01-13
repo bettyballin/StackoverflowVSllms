@@ -1,0 +1,1 @@
+.container {\n    width: 80%; /* Adjusts to 80% of the viewport width */\n    margin: 0 auto; /* Centers the container */\n}\n\n.header, .content, .footer {\n    padding: 1rem;\n    box-sizing: border-box;\n}

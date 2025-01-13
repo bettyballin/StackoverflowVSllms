@@ -1,0 +1,1 @@
+const colors = [\n    '#FF5733', '#33FF57', '#3357FF', '#FF33A1',\n    '#FF8C33', '#8C33FF', '#33FFF5', '#F5FF33',\n    '#33FF8C', '#8CFF33', '#FF3380'\n];

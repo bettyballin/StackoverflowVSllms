@@ -1,0 +1,1 @@
+INSERT INTO MyTable (ColumnName) VALUES ('value');\n   SELECT SCOPE_IDENTITY() AS LastIdentity;

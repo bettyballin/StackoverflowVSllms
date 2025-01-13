@@ -1,0 +1,1 @@
+const regex = /a*b/;\nconst str = "aaaaab";\nconsole.log(str.match(regex));  // Output: ["aaaaab"]

@@ -1,0 +1,1 @@
+$ORACLE_HOME/bin/emctl stop dbconsole\n   $ORACLE_HOME/bin/emctl start dbconsole

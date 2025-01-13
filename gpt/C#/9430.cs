@@ -1,0 +1,1 @@
+var dataContext = // your data context;\nstring[] arrayOfQueryTerms = getsTheArray();\n\nvar search = new GenericSearch();\nvar result = search.GetQuery(dataContext.MyTable, arrayOfQueryTerms, e => e.FieldName);

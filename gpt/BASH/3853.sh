@@ -1,0 +1,1 @@
+screen -S session_name\n     screen -t log1 tail -f /path/to/log1\n     ctrl+a c  # Create a new window\n     screen -t log2 tail -f /path/to/log2\n     ctrl+a c  # Create another new window\n     screen -t log3 tail -f /path/to/log3

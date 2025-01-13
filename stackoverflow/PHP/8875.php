@@ -1,1 +1,0 @@
-class SOSplit extends URISplit {\n    function __construct() { \n        parent::__construct( "http://stackoverflow.com" );\n    }\n}\n\nclass URIResolve extends URISplit {\n\n    //some variables\n\n    function __construct($uri) {\n        parent::__construct( $uri);\n    }\n}

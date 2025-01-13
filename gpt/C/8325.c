@@ -1,0 +1,1 @@
+int myFourcc = 'ABCD';

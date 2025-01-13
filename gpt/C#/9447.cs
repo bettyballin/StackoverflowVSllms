@@ -1,0 +1,1 @@
+public ActionResult Create()\n{\n    var items = db.YourTable.ToList();\n    ViewBag.YourDropDownList = new SelectList(items, "ValueField", "TextField", null, "Please select an option");\n    return View();\n}

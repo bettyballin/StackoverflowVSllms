@@ -1,0 +1,1 @@
+g++ -o your_program your_program.cpp -L/path/to/library -lyour_library

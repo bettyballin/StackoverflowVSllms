@@ -1,0 +1,1 @@
+<h1>Gradebook</h1>\n   <div id="gradesheet"></div>\n   <%= javascript_include_tag 'grades' %>

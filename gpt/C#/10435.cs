@@ -1,0 +1,1 @@
+using System.Data.OleDb;\n\nstring connectionString = "Your_Connection_String_Here";\nusing (OleDbConnection connection = new OleDbConnection(connectionString))\n{\n    connection.Open();\n    string sql = "ALTER TABLE Customers ADD COLUMN Website HYPERLINK";\n    using (OleDbCommand command = new OleDbCommand(sql, connection))\n    {\n        command.ExecuteNonQuery();\n    }\n}

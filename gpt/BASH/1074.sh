@@ -1,0 +1,1 @@
+# Generate a private key\n   openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048\n\n   # Generate a self-signed certificate\n   openssl req -x509 -new -key private_key.pem -out certificate.pem -days 365

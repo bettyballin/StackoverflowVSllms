@@ -1,0 +1,1 @@
+from selenium import webdriver\n\n   driver = webdriver.Chrome()\n   driver.get("https://example.com/login")\n   driver.find_element_by_name("username").send_keys("testuser1")\n   driver.find_element_by_name("password").send_keys("password")\n   driver.find_element_by_name("submit").click()

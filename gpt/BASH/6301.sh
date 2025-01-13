@@ -1,0 +1,1 @@
+wmic product where "Name like '%%.NET Framework%%'" get Name, Versio

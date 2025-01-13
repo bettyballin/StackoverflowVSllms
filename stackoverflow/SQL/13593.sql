@@ -1,1 +1,0 @@
-CREATE TABLE #TempTable TABLE (\n        message VARCHAR(50)\n)

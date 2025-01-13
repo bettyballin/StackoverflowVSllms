@@ -1,0 +1,1 @@
+import bleach\n\ndef sanitize_html(html_content):\n    allowed_tags = bleach.sanitizer.ALLOWED_TAGS + ['img', 'div', 'svg']\n    allowed_attributes = {'img': ['src', 'alt'], 'div': ['onmouseover'], 'svg': ['onload']}\n    return bleach.clean(html_content, tags=allowed_tags, attributes=allowed_attributes)

@@ -1,1 +1,0 @@
-SELECT * \nFROM payment_line pl \nWHERE LENGTH(TRIM(TRANSLATE(pl.check_num, '0123456789',' '))) IS NULL \n   AND TRIM(TRANSLATE(pl.check_num, '0123456789','0123456789')) > 12345;

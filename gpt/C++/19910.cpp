@@ -1,0 +1,1 @@
+#include <iostream>\n\nvoid modifyByAddress(int *ptr) {\n    if (ptr != nullptr) {\n        *ptr = 20;\n    }\n}\n\nint main() {\n    int value = 5;\n    modifyByAddress(&value);\n    std::cout << "Value after modifyByAddress: " << value << std::endl; // Output: 20\n    return 0;\n}

@@ -1,0 +1,1 @@
+SELECT LOWER(your_column_name) AS lowercased_keyword\nFROM your_table_name;

@@ -1,0 +1,1 @@
+-- Start date of last month\nDECLARE @StartOfLastMonth DATE = DATEADD(MONTH, DATEDIFF(MONTH, 0, GETDATE()) - 1, 0);\n\n-- End date of last month\nDECLARE @EndOfLastMonth DATE = EOMONTH(GETDATE(), -1);\n\n-- Query to get statistics for last month\nSELECT * \nFROM YourTable S\nWHERE S.DATEENTERED BETWEEN @StartOfLastMonth AND @EndOfLastMonth;

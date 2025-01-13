@@ -1,0 +1,1 @@
+CREATE TABLE DocumentIndex (\n       Id INT PRIMARY KEY IDENTITY,\n       FileName NVARCHAR(255),\n       ExtractedText NVARCHAR(MAX)\n   );

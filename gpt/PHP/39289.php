@@ -1,0 +1,1 @@
+$templateFile = '/path/to/template.php';\n\nif (file_exists($templateFile)) {\n    include $templateFile;\n} else {\n    echo "Template file not found!";\n}

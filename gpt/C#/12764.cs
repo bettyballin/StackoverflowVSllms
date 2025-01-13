@@ -1,0 +1,1 @@
+DataGridViewColumnCollection dgv = myDataGridView.Columns;\nDataGridViewColumn firstFrozenOrVisibleColumn = null;\n\nforeach (DataGridViewColumn column in dgv)\n{\n    if ((column.Visible && column.Frozen) || column.Visible || column.Frozen)\n    {\n        firstFrozenOrVisibleColumn = column;\n        break;\n    }\n}\n\n// Use the firstFrozenOrVisibleColumn as needed

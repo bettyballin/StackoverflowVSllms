@@ -1,1 +1,0 @@
-class User extends AppModel {\n    var $table = 'User';\n    var $primaryKey = 'id';\n}

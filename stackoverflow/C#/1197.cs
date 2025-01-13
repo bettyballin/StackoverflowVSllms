@@ -1,1 +1,0 @@
-ImageCodecInfo pngCodec = ImageCodecInfo.GetImageEncoders().Where(codec => codec.FormatID.Equals(ImageFormat.Png.Guid)).FirstOrDefault();\nif (pngCodec != null)\n{\n    EncoderParameters parameters = new EncoderParameters();\n    parameters.Param[0] = new EncoderParameter(Encoder.ColorDepth, 8);\n    myImage.Save(myStream, pngCodec, parameters);\n}

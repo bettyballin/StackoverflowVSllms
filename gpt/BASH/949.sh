@@ -1,0 +1,1 @@
+rpm --dbpath ~/myrpmdatabase -U ~/rpmbuild/RPMS/noarch/myapp-1.0-1.noarch.rpm

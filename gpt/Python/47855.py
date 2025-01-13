@@ -1,0 +1,1 @@
+class ProductRank(models.Model):\n    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='productrank_set')\n    rank = models.IntegerField(default=0)

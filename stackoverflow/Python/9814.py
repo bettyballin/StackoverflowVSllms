@@ -1,1 +1,0 @@
-import sys\nimport time\n\ndef restart_line():\n    sys.stdout.write('\r')\n    sys.stdout.flush()\n\nsys.stdout.write('some data')\nsys.stdout.flush()\ntime.sleep(2) # wait 2 seconds...\nrestart_line()\nsys.stdout.write('other different data')\nsys.stdout.flush()

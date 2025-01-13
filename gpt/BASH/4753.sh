@@ -1,0 +1,1 @@
+hg commit -m "Resolved merge conflict in test.h"

@@ -1,0 +1,1 @@
+string connectionString = "User Id=myUsername;Password=myPassword;Data Source=myDataSource;" + \n                          "TraceFileName=C:\\trace\\odpnet_trace.txt;" + \n                          "TraceLevel=6;" + \n                          "TraceOption=IncludeConnectionPooling";

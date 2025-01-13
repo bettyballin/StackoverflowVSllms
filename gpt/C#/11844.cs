@@ -1,0 +1,1 @@
+// Example: Code to handle the 'ids' parameter in ASP.NET\nstring idsParam = Request.QueryString["ids"];\nif (!string.IsNullOrEmpty(idsParam))\n{\n    string[] idsArray = idsParam.Split('-');\n    // Now you have an array of IDs to work with\n}

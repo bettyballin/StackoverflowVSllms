@@ -1,1 +1,0 @@
-Imports System.Data.Linq.SqlClient \n\nDim QueryLogUser = from u in db.Users \nSelect u.Name, Duration = u.Log_Times.Select (Function(lt) SqlMethods.DateDiffSecond(lt.TimeIn, lt.TimeOut))\n\nDim LogUser = From u In QueryLogUser.AsEnumerable _\nSelect u.Name, TotalDuration = u.Duration.Sum Order By TotalDuration Descending

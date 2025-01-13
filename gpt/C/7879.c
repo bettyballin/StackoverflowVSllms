@@ -1,0 +1,1 @@
+sprintf(sql, "SELECT * FROM Customer_Table ORDER BY age_ID LIMIT 100 OFFSET %s;", offset);

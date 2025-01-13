@@ -1,0 +1,1 @@
+-- Example update query for a new price\nUPDATE Prices\nSET Price = 99.99, SaleStartDate = '2023-01-01', SaleEndDate = '2023-01-31'\nWHERE ProductID = (SELECT ProductID FROM Products WHERE SKU = '12345')\nAND PriceTypeID = (SELECT PriceTypeID FROM PriceTypes WHERE PriceTypeName = 'Sale')\nAND CompanyID = (SELECT CompanyID FROM Companies WHERE CompanyName = 'Government');

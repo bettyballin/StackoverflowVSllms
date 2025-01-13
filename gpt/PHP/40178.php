@@ -1,0 +1,1 @@
+// config/application.config.php\n\nreturn [\n    'modules' => [\n        'Application',\n    ],\n    'module_listener_options' => [\n        'config_glob_paths'    => [\n            'config/autoload/{,*.}{global,local}.php',\n        ],\n        'module_paths' => [\n            './module',\n            './vendor',\n        ],\n    ],\n];

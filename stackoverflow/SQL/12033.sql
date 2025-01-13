@@ -1,1 +1,0 @@
-SELECT Thread, Function, HitCount\nFROM (SELECT Thread, Function, HitCount,\n        MAX(HitCount) over (PARTITION BY Thread) as MaxHitCount\n    FROM Samples\n    WHERE FunctionId NOT IN\n        (SELECT CalleeId FROM Callers)) t \nWHERE HitCount = MaxHitCount \nORDER BY ThreadId, HitCount DESC

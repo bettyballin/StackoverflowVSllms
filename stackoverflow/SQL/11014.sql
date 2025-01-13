@@ -1,1 +1,0 @@
-Lock Table dbName.myTable for Access nowait\nSelect * from dbName.myTable;

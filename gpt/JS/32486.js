@@ -1,0 +1,1 @@
+class User {\n       constructor(email) {\n           if (!validateEmail(email)) {\n               throw new Error("Invalid email format");\n           }\n           this.email = email;\n       }\n   }

@@ -1,0 +1,1 @@
+sqlfluff lint your_file.sql

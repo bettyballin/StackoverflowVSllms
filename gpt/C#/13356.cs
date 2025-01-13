@@ -1,0 +1,1 @@
+using Microsoft.AspNetCore.WebUtilities;\n\n   string sanitizedInput = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(input));

@@ -1,1 +1,0 @@
-SELECT  *\nFROM    table\nCONNECT BY\n        parent = PRIOR id\n        AND active = 1

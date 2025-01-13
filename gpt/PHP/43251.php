@@ -1,0 +1,1 @@
+<?php\n$pattern = '/^\d{4}-\d{2}-\d{2}$/';\n$subject = "2023-10-05";\nif (preg_match($pattern, $subject)) {\n    echo "Valid date format";\n} else {\n    echo "Invalid date format";\n}\n?>

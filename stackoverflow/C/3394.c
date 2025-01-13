@@ -1,1 +1,0 @@
-typedef struct {\n  int myint;\n  char* mystring;\n} data;\n\ndata** array;

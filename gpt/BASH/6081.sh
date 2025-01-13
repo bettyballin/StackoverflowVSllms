@@ -1,0 +1,1 @@
+rsync -avz --include '*/' --include '*.class' --exclude '*' --prune-empty-dirs user@server:/usr/some/ /usr/project/backup/

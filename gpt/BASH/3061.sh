@@ -1,0 +1,1 @@
+#!/bin/sh\nset -e\n. /usr/share/debconf/confmodule\ndb_input high mypackage/license || true\ndb_go

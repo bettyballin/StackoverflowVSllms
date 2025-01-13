@@ -1,0 +1,1 @@
+sqlcmd -S server_name -U username -P password -d your_database -i your_file.sql

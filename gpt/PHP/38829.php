@@ -1,0 +1,1 @@
+<?php\n// Using a SELECT COUNT(*) query to get the number of rows\n$pdo = new PDO("mysql:host=your_host;dbname=your_db", "username", "password");\n$sql = "SELECT COUNT(*) FROM your_table WHERE your_conditions";\n$stmt = $pdo->prepare($sql);\n$stmt->execute();\n$rowCount = $stmt->fetchColumn();\n\necho "Number of rows: " . $rowCount;\n?>

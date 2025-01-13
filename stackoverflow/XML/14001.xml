@@ -1,1 +1,0 @@
-<customErrors defaultRedirect="sorry.htm" mode="On">  \n     <error statusCode="404" redirect="NotFound.aspx"/>\n</customErrors>

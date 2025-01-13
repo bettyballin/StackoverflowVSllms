@@ -1,0 +1,1 @@
+import sys\n\nprint(f"Inspect: {sys.flags.inspect}")\nprint(f"Interactive: {sys.flags.interactive}")

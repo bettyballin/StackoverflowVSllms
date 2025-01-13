@@ -1,1 +1,0 @@
-select itemID, itemTitle, deleted, userID\nFROM(\nSELECT i.id_itemID, i.itemTitle, M.deleted, M.userID\nFROM\n    MyList M\n    right OUTER JOIN Items I ON I.itemID= M.itemID\n) as MyTableItems\nwhere itemID = 3 or itemID is null

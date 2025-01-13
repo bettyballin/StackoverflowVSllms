@@ -1,0 +1,1 @@
+// Example using PDO\n$stmt = $pdo->prepare("CALL GetUserByUsername(:username)");\n$stmt->bindParam(':username', $username, PDO::PARAM_STR);\n$stmt->execute();\n$result = $stmt->fetchAll();

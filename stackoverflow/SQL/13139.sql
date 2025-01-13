@@ -1,1 +1,0 @@
-UPDATE table2 INNER JOIN table1 ON table2.ID = table1.ID\nSET table2.field1=table1.field1\nWHERE (table2.field1 & "") <> (table1.field1 & "")

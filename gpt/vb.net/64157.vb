@@ -1,0 +1,1 @@
+Public Delegate Sub LogDelegate(ByVal format As String, ByVal ParamArray args() As Object)

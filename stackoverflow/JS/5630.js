@@ -1,1 +1,0 @@
-function resolver(prefix) {\n    return prefix === 'x' ? 'http://www.w3.org/1999/xhtml' : null;\n}\nvar result = document.evaluate( "//x:a/x:img", document.body, resolver, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null );

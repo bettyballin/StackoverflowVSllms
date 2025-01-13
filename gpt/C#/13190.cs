@@ -1,0 +1,1 @@
+var directoryEntry = new DirectoryEntry("LDAP://dc=domain,dc=com");

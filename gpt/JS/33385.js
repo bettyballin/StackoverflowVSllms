@@ -1,0 +1,1 @@
+let array = [1, 2, 3];\n  let length = array.length;  // Always gets the length of the array\n  let first = array[0];  // Always gets the first element

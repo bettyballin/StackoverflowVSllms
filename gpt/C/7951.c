@@ -1,0 +1,1 @@
+int foo(char *c) {\n    // function implementation\n}\n\nint main() {\n    int (*thud)(void *);\n\n    thud = (int (*)(void *))(foo);\n}

@@ -1,1 +1,0 @@
-assert(("The number must be greater than zero!",  num > 0));

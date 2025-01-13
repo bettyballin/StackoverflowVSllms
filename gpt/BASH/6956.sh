@@ -1,0 +1,1 @@
+# Check if inside a screen session\n    if [ -n "$STY" ]; then\n        # Update DISPLAY variable\n        export DISPLAY=$(echo $SSH_CLIENT | awk '{print $1}'):0\n    fi

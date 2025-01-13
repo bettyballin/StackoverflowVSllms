@@ -1,0 +1,1 @@
+shuf -n 50000 input.txt > output.txt

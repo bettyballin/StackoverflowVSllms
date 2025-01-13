@@ -1,0 +1,1 @@
+// Setting the cache limiter to 'private'\n   session_cache_limiter('private');\n\n   // Retrieving the current cache limiter\n   $cacheLimiter = session_cache_limiter();\n   echo "Cache limiter is set to $cacheLimiter.";

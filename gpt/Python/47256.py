@@ -1,0 +1,1 @@
+class MyClass:\n    def __init__(self):\n        self._internal_var = 42\n\n    def _internal_method(self):\n        print("This is an internal method")\n\n    def __private_method(self):\n        print("This is a private method")\n\n# Usage\nobj = MyClass()\nobj._internal_method()  # Allowed but discouraged\n# obj.__private_method()  # Raises AttributeError

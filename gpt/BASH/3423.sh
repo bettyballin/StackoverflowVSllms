@@ -1,0 +1,1 @@
+# Change ownership to the Apache user and group\nsudo chown -R www-data:www-data /home/brianly/svn/test\n\n# Set directory and file permissions\nsudo find /home/brianly/svn/test -type d -exec chmod 750 {} \;\nsudo find /home/brianly/svn/test -type f -exec chmod 640 {} \;

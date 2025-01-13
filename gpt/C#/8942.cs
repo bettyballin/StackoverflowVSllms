@@ -1,0 +1,1 @@
+amespace MyNameSpace.ViewModels\n   {\n       public class DashboardViewModel\n       {\n           public PartOneModel PartOne { get; set; }\n           public PartTwoModel PartTwo { get; set; }\n           // Other parts\n       }\n   }

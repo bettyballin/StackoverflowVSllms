@@ -1,0 +1,1 @@
+echo %TNS_ADMIN%

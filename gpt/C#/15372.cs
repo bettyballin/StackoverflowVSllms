@@ -1,0 +1,1 @@
+public class YourViewModel\n    {\n        public string SoldTo { get; set; }\n        public SelectList SellDealerList { get; set; }\n    }

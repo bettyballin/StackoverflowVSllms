@@ -1,0 +1,1 @@
+employee = Employee.create(name: "John Doe", company_id: 1)

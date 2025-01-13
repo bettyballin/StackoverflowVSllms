@@ -1,0 +1,1 @@
+// Example batch script to register an OLE DB driver\nregsvr32 /s "path\to\your\oledbdriver.dll"

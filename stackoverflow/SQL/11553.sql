@@ -1,1 +1,0 @@
-SELECT Avg(Value), Max(Value), Min(Value) FROM tableName

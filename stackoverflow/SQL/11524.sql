@@ -1,1 +1,0 @@
-(SELECT \n     * \nFROM photos\n   WHERE ID < #current_id#\n   ORDER BY ID DESC LIMIT 10)\nUNION\n  (SELECT *\n   FROM photos\n   WHERE ID >= #current_id#\n   ORDER BY ID ASC LIMIT 10)\nORDER BY ID ASC

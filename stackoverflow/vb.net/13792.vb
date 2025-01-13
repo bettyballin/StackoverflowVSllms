@@ -1,1 +1,0 @@
-dv.RowFilter = "inspectionType='Buyer' AND postedDate >= #" & DateTime.Now.AddDays(-1).ToString("MMM dd yyyy hh.mm.ss") & "#"

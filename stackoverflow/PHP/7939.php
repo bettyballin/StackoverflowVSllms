@@ -1,1 +1,0 @@
-if ($i == $page)\n  $pagination .= "$i ";\nelse\n  $pagination .= "<a href=\"$_SERVER[PHP_SELF]?page=$i\">$i</a> ";

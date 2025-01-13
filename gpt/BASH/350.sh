@@ -1,0 +1,1 @@
+.read path/to/export.sqlite3.sql

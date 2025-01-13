@@ -1,0 +1,1 @@
+<ehcache>\n       <cache name="locationsCache"\n              maxEntriesLocalHeap="1000"\n              timeToLiveSeconds="3600">\n           <persistence strategy="none"/>\n       </cache>\n   </ehcache>

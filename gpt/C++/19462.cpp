@@ -1,0 +1,1 @@
+#include <windows.h>\n\nbool isProcessRunning(HANDLE process)\n{\n    if (process == INVALID_HANDLE_VALUE) return false;\n\n    DWORD exitCode;\n    if (!GetExitCodeProcess(process, &exitCode)) // Check if the function call fails\n    {\n        return false;\n    }\n\n    return exitCode == STILL_ACTIVE; // Check if the process is still active\n}

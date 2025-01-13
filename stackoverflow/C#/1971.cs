@@ -1,1 +1,0 @@
-skypeobj.SendCommand ( Command cmd );

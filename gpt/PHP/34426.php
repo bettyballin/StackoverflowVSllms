@@ -1,0 +1,1 @@
+// Appending multiple values at once using array_push\narray_push($array, $value1, $value2, $value3);

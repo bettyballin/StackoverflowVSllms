@@ -1,1 +1,0 @@
-[DllImport("mscoree.dll", CharSet=CharSet.Unicode)]\nstatic extern bool StrongNameSignatureVerificationEx(string wszFilePath, bool fForceVerification, ref bool  pfWasVerified);

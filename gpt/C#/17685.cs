@@ -1,0 +1,1 @@
+public bool IsIISCompressionEnabled(HttpRequest request)\n   {\n       string acceptEncoding = request.Headers["Accept-Encoding"];\n       return !string.IsNullOrEmpty(acceptEncoding) && (acceptEncoding.Contains("gzip") || acceptEncoding.Contains("deflate"));\n   }

@@ -1,0 +1,1 @@
+ANALYZE TABLE exhibitions;\nANALYZE TABLE temperatures;

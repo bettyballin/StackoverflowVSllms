@@ -1,0 +1,1 @@
+SELECT \n    ip_mask,\n    (LENGTH(REPLACE(TRANSLATE(BITAND(ip_mask, 255), '9', '1'), '0', '')) +\n     LENGTH(REPLACE(TRANSLATE(BITAND(ip_mask, 255 << 8), '9', '1'), '0', '')) +\n     LENGTH(REPLACE(TRANSLATE(BITAND(ip_mask, 255 << 16), '9', '1'), '0', '')) +\n     LENGTH(REPLACE(TRANSLATE(BITAND(ip_mask, 255 << 24), '9', '1'), '0', ''))\n    ) AS cidr\nFROM \n    subnets;

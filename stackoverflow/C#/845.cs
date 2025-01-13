@@ -1,1 +1,0 @@
-CookieContainer cookieContainer = new CookieContainer();\nloHttp.CookieContainer = cookieContainer;

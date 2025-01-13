@@ -1,0 +1,1 @@
+$frontController = Zend_Controller_Front::getInstance();\n   $frontController->addModuleDirectory(APPLICATION_PATH . '/modules');

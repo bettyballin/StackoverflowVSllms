@@ -1,0 +1,1 @@
+if __name__ == '__main__':\n    import ssl\n    context = ssl.SSLContext(ssl.PROTOCOL_TLSv1_2)\n    context.load_cert_chain('path/to/cert.pem', 'path/to/key.pem')\n    app.run(debug=True, port=443, ssl_context=context)

@@ -1,0 +1,1 @@
+mount /dev/ada0.eli /mnt

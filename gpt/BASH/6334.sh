@@ -1,0 +1,1 @@
+gcc -shared -Wl,-soname,c.so -o c.so a_data.o b_data.o

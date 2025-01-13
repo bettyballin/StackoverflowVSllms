@@ -1,0 +1,1 @@
+# Install the wordcloud-cli tool\npip install wordcloud-cli\n\n# Generate a word cloud from a text file\nwordcloud_cli --text my_text_file.txt --imagefile wordcloud.png

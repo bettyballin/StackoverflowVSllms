@@ -1,0 +1,1 @@
+sudo chown -R www-data:www-data /var/www/nextcloud/\n    sudo chmod -R 755 /var/www/nextcloud/

@@ -1,0 +1,1 @@
+java -jar selenium-server.jar -htmlSuite "*firefox /usr/lib/firefox-3.0.3/firefox" "https://www.example.com" "path/to/tests.html" "path/to/results.html"

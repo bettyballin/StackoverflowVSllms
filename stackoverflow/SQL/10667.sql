@@ -1,1 +1,0 @@
-UPDATE `table`\nSET priorityLevel = \nCASE \nWHEN `ID` = 12 THEN 1\nWHEN `ID` = 17 THEN 2 \nWHEN `ID` = 27 THEN 3\nWHEN `ID` = 26 THEN 4\nWHEN `ID` = 5 THEN 5\nEND \nWHERE `ID` IN (12, 17, 27, 26, 5);

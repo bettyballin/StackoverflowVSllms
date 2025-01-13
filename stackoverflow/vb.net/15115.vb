@@ -1,1 +1,0 @@
-Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click\n    Dim checkme As String = "thais is a sample sentence a"\n    Dim indexnum As Integer = -1\n    For i As Integer = 1 To 3\n        indexnum = checkme.IndexOf("a", indexnum + 1)\n    Next\n    MessageBox.Show(CStr(indexnum))\nEnd Sub

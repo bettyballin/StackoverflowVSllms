@@ -1,1 +1,0 @@
-CREATE PROCEDURE UpdateUserField\n(\n    @UserFieldNumber int,\n    @UserFieldNewValue int\n) AS\n\nIF @UserFieldNumber=1\nBEGIN\n    UPDATE MyTable SET UserField1 = @UserFieldNewValue\nEND\n\nIF @UserFieldNumber=2\nBEGIN\n    UPDATE MyTable SET UserField2 = @UserFieldNewValue\nEND

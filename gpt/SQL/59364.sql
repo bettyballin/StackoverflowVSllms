@@ -1,0 +1,1 @@
+WITH duplicates AS (\n    SELECT afield1\n    FROM afile\n    GROUP BY afield1\n    HAVING COUNT(*) > 1\n)\nSELECT a.*\nFROM afile a\nJOIN duplicates d ON a.afield1 = d.afield1;

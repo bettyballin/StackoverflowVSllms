@@ -1,1 +1,0 @@
-select users.name, notes.subject, notes.heading, notes.body\n from users, notes\n where users.id = notes.user_id\n and notes.timestamp = (select max(timestamp) from notes where user_id = users.id)

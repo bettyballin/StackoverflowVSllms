@@ -1,1 +1,0 @@
-static IEnumerable<T> EnumRange<T>(T begin, T end)\n{\n    T[] values = (T[])Enum.GetValues(typeof(T));\n    int beginIndex = Array.IndexOf(values, begin);\n    int endIndex = Array.IndexOf(values, end);\n\n    for(int i = beginIndex; i <= endIndex; ++i)\n        yield return values[i];\n}\n\nforeach(MyEnum e in EnumRange(MyEnum.First, MyEnum.Fourth)\n    // Code goes here

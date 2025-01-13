@@ -1,0 +1,1 @@
+from collections import namedtuple\n\ndef divide(x, y):\n    DivisionResult = namedtuple('DivisionResult', ['quotient', 'remainder'])\n    quotient = x / y\n    remainder = x % y\n    return DivisionResult(quotient, remainder)\n\nresult = divide(22, 7)\nprint(f"Quotient: {result.quotient}, Remainder: {result.remainder}")

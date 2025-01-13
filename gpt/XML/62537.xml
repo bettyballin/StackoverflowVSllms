@@ -1,0 +1,1 @@
+<!-- In Web.config -->\n   <sessionState mode="SQLServer" sqlConnectionString="data source=YourSqlServer;user id=YourUserId;password=YourPassword" />

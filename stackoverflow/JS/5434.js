@@ -1,1 +1,0 @@
-var lineItems = [];\n   ...\n   // when the button is clicked\n   lineItems[lineItems.length] = new X(constructor values); 

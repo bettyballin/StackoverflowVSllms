@@ -1,1 +1,0 @@
-Public Delegate Sub Format(ByVal value As String)

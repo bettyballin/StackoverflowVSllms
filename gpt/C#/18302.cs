@@ -1,0 +1,1 @@
+public class UserController : Controller\n{\n    public ActionResult Details(string name)\n    {\n        MyModelDataContext db = new MyModelDataContext();\n        Product user = db.Products.SingleOrDefault(t => t.Name == name);\n        if (user == null)\n        {\n            return HttpNotFound();\n        }\n        return View(user);\n    }\n}

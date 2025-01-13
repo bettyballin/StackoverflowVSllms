@@ -1,0 +1,1 @@
+Public Function ToInteger(ByVal s As String) As Integer\n    Dim result As Integer\n    If Integer.TryParse(s, result) Then\n        Return result\n    Else\n        Return 0\n    End If\nEnd Functio

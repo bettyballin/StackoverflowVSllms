@@ -1,1 +1,0 @@
-INSERT\n  WebsiteHistory\nSELECT\n  *,\n  GETDATE()\nFROM\n  Website\nWHERE\n  Id = @WebsiteId

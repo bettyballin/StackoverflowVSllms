@@ -1,0 +1,1 @@
+$array = ['first', 'second', 'third', 'fourth'];\n$lastKey = array_key_last($array);\n\nforeach ($array as $key => $value) {\n    $isLastElem = ($key === $lastKey);\n    if ($isLastElem) {\n        // This is the last element\n        echo "Last element: $value\n";\n    } else {\n        // This is not the last element\n        echo "Element: $value\n";\n    }\n}

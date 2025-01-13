@@ -1,0 +1,1 @@
+Protected Sub cvPersonality_ServerValidate(ByVal source As Object, ByVal args As System.Web.UI.WebControls.ServerValidateEventArgs)\n    Dim strDesc As String = Me.txtPersonality.Text\n    If Len(strDesc) > 200 Then\n        args.IsValid = False\n    Else\n        args.IsValid = True\n    End If\nEnd Sub

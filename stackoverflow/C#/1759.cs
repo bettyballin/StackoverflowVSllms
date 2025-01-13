@@ -1,1 +1,0 @@
-void Scenario1()\n{\n   try\n   {\n     var x = new SuspectType();\n     ...\n   }\n   catch (..) { ... }    \n}

@@ -1,0 +1,1 @@
+/* Example CSS for responsive design */\n.container {\n    display: flex;\n    flex-wrap: wrap;\n}\n\n.item {\n    flex: 1 1 auto;\n    margin: 10px;\n}\n\n@media (max-width: 600px) {\n    .item {\n        flex: 1 1 100%;\n    }\n}

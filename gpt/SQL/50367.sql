@@ -1,0 +1,1 @@
+ALTER TABLE my_table\nADD CONSTRAINT unique_columns UNIQUE (column1, column2, column3);

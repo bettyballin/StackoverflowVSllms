@@ -1,0 +1,1 @@
+<?php\n$value = $_GET['value'];\n$anothervalue = $_GET['anothervalue'];\n\n// Use $value and $anothervalue as needed in your script\n?>

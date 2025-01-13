@@ -1,0 +1,1 @@
+<?php\n// index.php\n\n// Forward the request to home.php without a browser redirect\ninclude('home.php');

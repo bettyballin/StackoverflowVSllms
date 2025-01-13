@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Replace <PGID> with the actual process group ID you want to kill\nPGID=<PGID>\n\n# Send the SIGTERM signal to all processes in the process group\nkill -TERM -$PGID\n\n# Optionally, you can use SIGKILL to forcefully terminate the processes\n# kill -KILL -$PGID

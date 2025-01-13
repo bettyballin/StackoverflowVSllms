@@ -1,0 +1,1 @@
+./bin/standalone.sh

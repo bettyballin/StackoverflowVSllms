@@ -1,0 +1,1 @@
+ar rcs libmylibrary.a library_file1.o library_file2.o

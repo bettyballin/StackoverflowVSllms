@@ -1,1 +1,0 @@
-UPDATE tableB\n     SET col1 = \n         CASE WHEN (0, 0) = (SELECT col1, col2 \n                               FROM tableA \n                              WHERE <tableA constraints>\n                            )\n              THEN "this value"\n              ELSE "that value"\n         END\n   WHERE <tableB constraints>;

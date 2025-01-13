@@ -1,0 +1,1 @@
+var names = people.Select(p => p.Name);

@@ -1,0 +1,1 @@
+upx --best your_executable.exe

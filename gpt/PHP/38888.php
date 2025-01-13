@@ -1,0 +1,1 @@
+/** @var int $myInt */\n   $myInt = 5;\n\n   /** @var string $myString */\n   $myString = "example";\n\n   /** @var array $myArray */\n   $myArray = [1, 2, 3];

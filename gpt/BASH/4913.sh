@@ -1,0 +1,1 @@
+#!/bin/bash\n   # /usr/local/bin/notify-ssh-login.sh\n\n   # Send an email notification\n   echo "SSH login detected on $(hostname) from $PAM_RHOST" | mail -s "SSH Login Alert" user@example.com\n\n   # Or log the details to a file\n   echo "SSH login detected on $(hostname) from $PAM_RHOST at $(date)" >> /var/log/ssh-login.log

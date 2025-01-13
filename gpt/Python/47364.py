@@ -1,0 +1,1 @@
+for i in range(1, 78):\n    filename = f"file{i}"\n    with open(filename, 'w') as f:\n        f.write(filename)

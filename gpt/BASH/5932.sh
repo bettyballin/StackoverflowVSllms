@@ -1,0 +1,1 @@
+rrdtool create website.rrd --step 300 \\nDS:response_time:GAUGE:600:U:U \\nRRA:AVERAGE:0.5:1:600 \\nRRA:AVERAGE:0.5:6:700

@@ -1,0 +1,1 @@
+import serial\n   import time\n\n   ser = serial.Serial('/dev/ttyACM0', 9600)\n\n   while True:\n       ser.write(b'1')\n       time.sleep(1)\n       ser.write(b'0')\n       time.sleep(1)

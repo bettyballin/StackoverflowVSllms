@@ -1,0 +1,1 @@
+// Get the link from the query parameter\n$link = $_GET['link'];\n\n// Check if the link starts with "http://" or "https://"\nif (!preg_match("~^(?:f|ht)tps?://~i", $link)) {\n    // If not, prepend "http://"\n    $link = "http://" . $link;\n}\n\n// Perform tracking or other operations here\n\n// Redirect to the final URL\nheader("Location: $link");\nexit();

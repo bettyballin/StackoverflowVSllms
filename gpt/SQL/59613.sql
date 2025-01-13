@@ -1,0 +1,1 @@
+REVOKE DELETE ON foo FROM your_user;

@@ -1,1 +1,0 @@
-bzero((char*) rkey,AES_KEY_LENGTH/8);      /* Set initial key  */\n\nfor (ptr= rkey, sptr= key; sptr < key_end; ptr++,sptr++)\n{\n  if (ptr == rkey_end)\n    ptr= rkey;  /*  Just loop over tmp_key until we used all key */\n  *ptr^= (uint8) *sptr;\n}

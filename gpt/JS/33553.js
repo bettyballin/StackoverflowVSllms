@@ -1,0 +1,1 @@
+// Example of using textContent to avoid XSS\n   const userInput = '<script>alert("XSS")</script>';\n   document.getElementById('output').textContent = userInput;

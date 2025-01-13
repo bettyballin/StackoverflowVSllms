@@ -1,0 +1,1 @@
+-- This is a single-line comment.\n-- You can use multiple lines if needed.\nSELECT * FROM employees;

@@ -1,0 +1,1 @@
+// C#\n   public int MyProperty { get; set; }

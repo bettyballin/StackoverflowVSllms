@@ -1,0 +1,1 @@
+<?php\n// Set the include path to the 'includes' directory\nset_include_path($_SERVER['DOCUMENT_ROOT'] . '/includes');\n\n// Now you can include files from the 'includes' directory\ninclude('header.php');\n?>

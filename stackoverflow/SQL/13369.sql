@@ -1,1 +1,0 @@
-select count(*), to_char('YYYY-MM-DD', created) from ABC group by to_char('YYYY-MM-DD', created)

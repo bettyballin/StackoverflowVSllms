@@ -1,0 +1,1 @@
+<%-- This is a custom comment and will not appear in the output --%>\n<div>\n    <!-- This is a normal HTML comment -->\n    <?php // This is a PHP comment ?>\n    <p>This is some content</p>\n</div>

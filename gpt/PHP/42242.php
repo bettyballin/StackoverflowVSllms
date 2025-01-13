@@ -1,0 +1,1 @@
+public function example_method()\n{\n    // Load input library\n    $this->load->library('input');\n\n    // Get the sanitized GET parameter\n    $id = $this->input->get('id', TRUE);\n\n    // Validate the input (e.g., ensure it's a numeric ID)\n    if (!is_numeric($id)) {\n        show_error('Invalid ID');\n    }\n\n    // Proceed with the business logic\n    // ...\n}

@@ -1,0 +1,1 @@
+#include <Windows.h>\n\nHRESULT hr = SomeCOMFunction();\nif (FAILED(hr)) {\n    // Handle error\n}

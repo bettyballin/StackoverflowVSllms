@@ -1,1 +1,0 @@
-$comma_separated = implode(",", array_keys($users_in_range));

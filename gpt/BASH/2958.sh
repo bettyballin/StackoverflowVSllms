@@ -1,0 +1,1 @@
+gcc -shared -fPIC -o libcustomwrite.so customwrite.c -ldl

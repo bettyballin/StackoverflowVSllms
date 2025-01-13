@@ -1,1 +1,0 @@
-ssh -t user@host pytho

@@ -1,0 +1,1 @@
+if (!string.IsNullOrEmpty(textblock.Text))\n{\n    grid.RowDefinitions[elementRow].Height = new GridLength(1, GridUnitType.Auto);\n}\nelse\n{\n    grid.RowDefinitions[elementRow].Height = new GridLength(0, GridUnitType.Auto);\n}

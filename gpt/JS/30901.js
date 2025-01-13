@@ -1,0 +1,1 @@
+$.ajax({\n    url: "http://localhost:17245/Service.svc/?format=json",\n    dataType: "jsonp",  // Use "jsonp" for cross-origin requests if the server supports it\n    success: function(data) {\n        alert(data.id);\n    },\n    error: function(jqXHR, textStatus, errorThrown) {\n        console.error("Error: " + textStatus + " - " + errorThrown);\n    }\n});

@@ -1,0 +1,1 @@
+composer require phan/phan\n  vendor/bin/phan --directory /path/to/your/php4/code

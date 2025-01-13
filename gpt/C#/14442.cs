@@ -1,0 +1,1 @@
+[CustomAuthorize]\npublic ActionResult YourAction()\n{\n    // Your action code here\n}

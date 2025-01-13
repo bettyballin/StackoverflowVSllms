@@ -1,1 +1,0 @@
-// at the top of your script\n$upload_success = FALSE;\n\n\n// when successfully detected upload\n$upload_success = TRUE;\n\n\n\n// if successful upload code is never run\n$display_error = "File not uploaded, may be too large a file, "\n.    "please upload less than 1MB"\n;\nprint $display_error;

@@ -1,0 +1,1 @@
+SELECT employees.id, employees.name, departments.department_name\nFROM employees\nFULL OUTER JOIN departments ON employees.department_id = departments.id;

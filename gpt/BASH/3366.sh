@@ -1,0 +1,1 @@
+signtool sign /tr http://timestamp.digicert.com /td SHA256 /fd SHA256 /a /f MyCert.pfx /p MyPassword MyApp.exe

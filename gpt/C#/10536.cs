@@ -1,0 +1,1 @@
+// Store the search results in Cache with a unique key for each user (e.g., user ID)\nCache["SearchResults_" + userId] = searchResultsDataTable;\n\n// Retrieve the search results from Cache\nDataTable searchResults = (DataTable)Cache["SearchResults_" + userId];

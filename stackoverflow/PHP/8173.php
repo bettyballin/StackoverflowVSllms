@@ -1,1 +1,0 @@
-dechex ( int $number )

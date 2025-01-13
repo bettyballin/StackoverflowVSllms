@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE (LENGTH(TRIM(your_field)) - LENGTH(REPLACE(TRIM(your_field), ' ', '')) + 1) < 4;

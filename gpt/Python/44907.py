@@ -1,0 +1,1 @@
+def compact(*names):\n    return {name: locals()[name] for name in names if name in locals()}\n\n# Example usage\nfoo = 'what'\nbar = 'ever'\na = compact('foo', 'bar')\nprint(a)\n# Output: {'foo': 'what', 'bar': 'ever'}

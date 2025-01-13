@@ -1,0 +1,1 @@
+// logoff.c\n   #include "logoff.h"\n\n   void logoff() {\n       // function implementation\n   }

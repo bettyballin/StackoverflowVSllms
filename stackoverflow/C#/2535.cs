@@ -1,1 +1,0 @@
-public string CryptAlgorithm {get; set; }

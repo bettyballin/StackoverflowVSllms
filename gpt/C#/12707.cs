@@ -1,0 +1,1 @@
+private async void StartRestore()\n{\n    lblStatus.Text = "Restoring Database";\n    await Task.Run(() => RestoreDatabase());\n}\n\nprivate void RestoreDatabase()\n{\n    Restore fullRestore = new Restore();\n\n    // Configure fullRestore\n\n    fullRestore.SqlRestore(_server);\n    fullRestore.Wait();\n}

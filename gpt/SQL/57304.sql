@@ -1,0 +1,1 @@
+CREATE TABLE schema1.DEPARTMENT (\n       deptId INT PRIMARY KEY,\n       deptName VARCHAR(100)\n   );

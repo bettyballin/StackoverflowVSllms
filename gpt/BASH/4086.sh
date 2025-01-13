@@ -1,0 +1,1 @@
+keytool -import -alias your_alias -file your_certificate.crt -keystore $JAVA_HOME/jre/lib/security/cacerts

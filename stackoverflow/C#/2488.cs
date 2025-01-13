@@ -1,1 +1,0 @@
-public class Holder<T> {\n    public T Value { get; set; }\n}\n\n...\n\nHolder<String> headerPath = new Holder<String>() { Value = "this is a test" };\nconfigMapping.Add("HEADERS_PATH", headerPath);\n\n...\n\n((Holder<String>)configMapping["HEADERS_PATH"]).Value = "this is a new test";\n\n// headerPath.Value == "this is a new test"

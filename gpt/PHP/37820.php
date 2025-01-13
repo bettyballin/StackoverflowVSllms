@@ -1,0 +1,1 @@
+// module.config.php\n   return [\n       'view_manager' => [\n           'default_encoding' => 'UTF-8',\n       ],\n   ];

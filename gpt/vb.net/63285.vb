@@ -1,0 +1,1 @@
+Dim EmployeeID As Integer = 10\nDim emp As WcfServiceLibrary1.Employee = WcfServiceLibrary1.Employee.Create(EmployeeID)\nResponse.Write(emp.LastName)

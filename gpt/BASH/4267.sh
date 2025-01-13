@@ -1,0 +1,1 @@
+@echo off\nsetlocal\nset "solutionDir=C:\Path\To\Your\Solution"\n\nfor /d %%x in ("%solutionDir%\*") do (\n    if exist "%%x\bin" rd /s /q "%%x\bin"\n    if exist "%%x\obj" rd /s /q "%%x\obj"\n)\n\necho Clean up completed.\npause

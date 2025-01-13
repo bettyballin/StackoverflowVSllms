@@ -1,1 +1,0 @@
-RewriteCond %{HTTPS} !on [OR]\nRewriteCond %{HTTP_HOST} !^www\.example\.com$ [NC]\nRewriteRule ^ https://www.example.com%{REQUEST_URI} [R=301]

@@ -1,1 +1,0 @@
-sys.dm_exec_connections

@@ -1,0 +1,1 @@
+SELECT mz_t_Services.p_ID \nFROM mz_t_Services \nWHERE mz_t_Services.p_ID NOT IN (\n    SELECT mz_t_NaznExec.p_Services \n    FROM mz_t_NaznExec \n    WHERE mz_t_NaznExec.p_Services IS NOT NULL\n)

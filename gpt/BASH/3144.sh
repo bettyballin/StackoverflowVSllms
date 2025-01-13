@@ -1,0 +1,1 @@
+mvn -Dsystem.test.property=test test

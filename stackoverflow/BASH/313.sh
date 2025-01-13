@@ -1,1 +1,0 @@
-for i in file*.c ; do\n        myprocess `gcc -E $i`\n    done

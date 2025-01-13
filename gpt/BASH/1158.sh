@@ -1,0 +1,1 @@
+cppcheck --enable=all your_code_base/

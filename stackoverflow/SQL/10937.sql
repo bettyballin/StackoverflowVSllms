@@ -1,1 +1,0 @@
-declare @sql varchar(8000) -- varchar(max) in SQL 2005+\n\nSELECT \n        @sql = t1.Routine_Definition\nFROM\n        INFORMATION_SCHEMA.Routines t1 \n\nprint @sql

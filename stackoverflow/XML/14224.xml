@@ -1,1 +1,0 @@
-<xsl:choose>\n    <xsl:when test="string-length(@Body) &gt 250"></xsl:when>\n    <xsl:otherwise></xsl:otherwise>\n</xsl:choose>

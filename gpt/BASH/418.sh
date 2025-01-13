@@ -1,0 +1,1 @@
+tar -xvf gcc-x.x.x.tar.gz\n   tar -xvf binutils-x.x.tar.gz\n   tar -xvf newlib-x.x.x.tar.gz

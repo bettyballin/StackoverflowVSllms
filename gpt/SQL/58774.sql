@@ -1,0 +1,1 @@
+INSERT INTO YourTable (YourFloatColumn) VALUES (40.33);

@@ -1,0 +1,1 @@
+WITH RankedFoods AS (\n  SELECT \n    B.id,\n    B.aid,\n    B.sort_key,\n    ROW_NUMBER() OVER (PARTITION BY B.aid ORDER BY B.sort_key DESC) AS rank\n  FROM \n    B\n)\nSELECT \n  A.id AS person_id,\n  B.id AS food_id,\n  B.sort_key\nFROM \n  A\nJOIN \n  RankedFoods B ON A.id = B.aid\nWHERE \n  B.rank <= 5\nORDER BY \n  A.id, B.rank;

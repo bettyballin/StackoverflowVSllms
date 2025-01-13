@@ -1,1 +1,0 @@
-count($this->_books);

@@ -1,0 +1,1 @@
+public class ModelBase\n   {\n       public string PartnerId { get; set; }\n       public string CurrentLoggedInUserEmail { get; set; }\n   }\n\n   public class ProductModel : ModelBase\n   {\n       // Product-specific properties\n   }

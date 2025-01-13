@@ -1,0 +1,1 @@
+class Test {\n    public function sayHi() {\n        echo 'hi';\n    }\n}\n\n$instance = new Test();\n$instance->sayHi();  // Outputs: hi

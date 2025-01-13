@@ -1,1 +1,0 @@
-// naive/boring approach\nint i = 0;\nint m = 0;\nwhile (i < a1.size() || i < a2.size()) {\n    if (i < a1.size())\n        mixed[m++] = a1[i];\n    if (i < a2.size())\n        mixed[m++] = a2[i];\n    i++;\n}

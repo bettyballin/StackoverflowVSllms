@@ -1,0 +1,1 @@
+resources :your_resources do\n  member do\n    post 'revert_to_version'\n  end\nend

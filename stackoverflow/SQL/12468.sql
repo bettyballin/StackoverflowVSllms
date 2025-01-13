@@ -1,1 +1,0 @@
-SELECT pagetag.id, page.name, group_concat(tag.name)\nFROM\n(\n    page LEFT JOIN pagetag ON page.id = pagetag.pageid\n)\nLEFT JOIN tag ON pagetag.tagid = tag.id\nGROUP BY page.id;

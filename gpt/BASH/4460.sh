@@ -1,0 +1,1 @@
+# To install Ocropus\npip install ocropy

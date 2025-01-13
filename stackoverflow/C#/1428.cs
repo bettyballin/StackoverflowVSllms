@@ -1,1 +1,0 @@
-HttpContext.Current.Server.MapPath(FullPath)

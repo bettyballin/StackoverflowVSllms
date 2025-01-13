@@ -1,1 +1,0 @@
-/// <summary>\n/// The GetForegroundWindow function returns a handle to the foreground window.\n/// </summary>\n[DllImport("user32.dll")]\nstatic extern IntPtr GetForegroundWindow();

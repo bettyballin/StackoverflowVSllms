@@ -1,0 +1,1 @@
+<?php\n$file = 'largefile.zip';\n$chunk_files = ['largefile.zip.part1', 'largefile.zip.part2', /* add more as needed */];\n$handle = fopen($file, 'wb');\n\nforeach ($chunk_files as $chunk_file) {\n    $chunk = file_get_contents($chunk_file);\n    fwrite($handle, $chunk);\n}\n\nfclose($handle);\n?>

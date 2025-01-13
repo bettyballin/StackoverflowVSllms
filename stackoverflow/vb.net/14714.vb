@@ -1,1 +1,0 @@
-ObjRapi.CopyFileToDevice("C:\results.txt", "\ \results.txt") 

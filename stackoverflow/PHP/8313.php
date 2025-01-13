@@ -1,1 +1,0 @@
-$keys = array_keys($output);\n$desired_keys = array('author', 'new_icon', 'admin_link', 'etc.');\n\nforeach($desired_keys as $desired_key){\n   if(in_array($desired_key, $keys)) continue;  // already set\n   $output[$desired_key] = '';\n}

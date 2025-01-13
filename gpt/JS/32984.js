@@ -1,0 +1,1 @@
+if (!Modernizr.canvas) {\n       // Fallback for canvas support\n   }

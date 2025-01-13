@@ -1,1 +1,0 @@
-print date('<format string>', strtotime($row['date_added']));

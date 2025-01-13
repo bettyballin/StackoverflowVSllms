@@ -1,0 +1,1 @@
+// Use AssemblyName to get the version\nstring version = someAssembly.GetName().Version.ToString();\nConsole.WriteLine(version);

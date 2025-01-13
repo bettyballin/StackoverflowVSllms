@@ -1,0 +1,1 @@
+header('P3P: CP="CAO PSA OUR"');

@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Compile the C code\ngcc input.c -o output\n\n# Run the compiled code with a timeout and limit resources\ntimeout 5s ./output

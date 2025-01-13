@@ -1,1 +1,0 @@
-WebOperationContext.Current.OutgoingResponse.Location = "http://server/customers/324";\nWebOperationContext.Current.OutgoingResponse.StatusCode = HttpStatusCode.MovedPermanently;

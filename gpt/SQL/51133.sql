@@ -1,0 +1,1 @@
+ALTER INDEX ALL ON your_table_name REBUILD;

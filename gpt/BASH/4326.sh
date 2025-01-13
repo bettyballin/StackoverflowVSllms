@@ -1,0 +1,1 @@
+diff -ruN -x "*~" old_directory new_directory > patchfile.diff

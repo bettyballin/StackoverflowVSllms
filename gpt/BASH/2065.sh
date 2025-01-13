@@ -1,0 +1,1 @@
+pygmentize -f html -O full,style=default -o output.html input.py

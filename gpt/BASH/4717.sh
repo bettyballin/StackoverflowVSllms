@@ -1,0 +1,1 @@
+perf record -g -o perf.data ./your_program

@@ -1,0 +1,1 @@
+CREATE VIEW my_view AS\n    SELECT id, column1, column2\n    FROM my_table;

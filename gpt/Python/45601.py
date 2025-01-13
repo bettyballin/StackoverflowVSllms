@@ -1,0 +1,1 @@
+import win32com.client\n\n    # Create the COM object\n    ole_object = win32com.client.Dispatch("Your.OLE.Component")\n\n    # Use the methods and properties of the OLE component\n    result = ole_object.SomeMethod()\n    print(result)

@@ -1,1 +1,0 @@
-protected void Application_EndRequest(Object sender, EventArgs e)\n{\n  if (Request.Url.ToString().IndexOf("MyWebService.asmx") > 0)\n  {\n    // Simulate a delay\n    System.Threading.Thread.Sleep(2000);\n  }\n}

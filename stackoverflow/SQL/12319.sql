@@ -1,1 +1,0 @@
-select p.* from programs p\nleft join \n(\n    select max(id) id1 from programs\n    where feed_id <> 0\n    group by feed_id\n    order by max(id) desc\n    limit 10\n) t on id1 = id\nwhere id1 is not null or feed_id = 0 \norder by id desc\nlimit 10;

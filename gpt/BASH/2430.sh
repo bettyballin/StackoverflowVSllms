@@ -1,0 +1,1 @@
+g++ -o myprogram mysourcefile.cpp

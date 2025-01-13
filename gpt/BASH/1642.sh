@@ -1,0 +1,1 @@
+cl /c /EHsc example.c\nlink /DLL /OUT:example.dll example.obj

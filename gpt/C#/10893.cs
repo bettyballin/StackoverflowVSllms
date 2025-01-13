@@ -1,0 +1,1 @@
+// In your application startup, you might map AD groups to roles\nRoleManager.CreateRole("Admin");\nRoleManager.CreateRole("User");\n\n// Map AD groups to application roles\n// This can be done using a configuration file or database\nRoleManager.AddUserToRole("DOMAIN\\AdminGroup", "Admin");\nRoleManager.AddUserToRole("DOMAIN\\UserGroup", "User");

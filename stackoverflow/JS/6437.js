@@ -1,1 +1,0 @@
-$(".x").click( function() {\n  for (var i=0; i<50; i++) toggleItem(i)\n});\n\nfunction toggleItem(i) {\n  if ($("#x"+i).is(':hidden')) {\n    $("#x"+i).show();\n  } else {\n    $("#x"+i).hide();\n  }\n}

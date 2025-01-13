@@ -1,0 +1,1 @@
+DECLARE @FirstNameToSearch VARCHAR(50) = 'Bill';\n   DECLARE @LastNameToSearch VARCHAR(50) = 'Smith';\n\n   SELECT U.*\n   FROM Users U\n   LEFT JOIN NameVariations NV ON U.FirstName = NV.VariationName\n   WHERE (U.FirstName = @FirstNameToSearch OR NV.OriginalName = @FirstNameToSearch)\n   AND U.LastName = @LastNameToSearch;

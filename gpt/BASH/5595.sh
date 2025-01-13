@@ -1,0 +1,1 @@
+pandoc -s yourfile.tex -t plain -o yourfile.txt

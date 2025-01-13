@@ -1,0 +1,1 @@
+If DataGridView1.IsCurrentCellInEditMode Then\n    DataGridView1.EndEdit()\nEnd If\n\n' Then continue with the AcceptChanges and Copy\nDataset1.AcceptChanges()\nDim Dataset2 As dsApplication = DirectCast(Dataset1.Copy(), dsApplication)

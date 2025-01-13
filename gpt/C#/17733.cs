@@ -1,0 +1,1 @@
+IPAddress gprsIpAddress = IPAddress.Parse("YOUR_GPRS_IP_ADDRESS");\ntcpServer = new TcpListener(gprsIpAddress, TCP_PORT);

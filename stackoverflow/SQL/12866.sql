@@ -1,1 +1,0 @@
-CREATE VIEW MyView AS\n    select x, y,z from table1\n    union all\n    select k,l,m from table2\nGO\n\nSELECT * FROM MyView\nSELECT * FROM MyView WHERE x = 0

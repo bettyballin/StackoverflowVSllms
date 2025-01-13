@@ -1,0 +1,1 @@
+# On Linux server\n   ping <Backup_Exec_Server_IP>\n   telnet <Backup_Exec_Server_IP> 10000

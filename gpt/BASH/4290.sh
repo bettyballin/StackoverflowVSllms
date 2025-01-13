@@ -1,0 +1,1 @@
+wget "https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage"\n    chmod +x appimagetool-x86_64.AppImage

@@ -1,1 +1,0 @@
->>> from elementtidy.TidyHTMLTreeBuilder import TidyHTMLTreeBuilder as TB\n>>> tb = TB()\n>>> tb.feed("<p>Hello world")\n>>> e= tb.close()\n>>> e.find(".//{http://www.w3.org/1999/xhtml}p")\n<Element {http://www.w3.org/1999/xhtml}p at 264eb8>

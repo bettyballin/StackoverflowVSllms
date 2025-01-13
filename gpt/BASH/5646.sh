@@ -1,0 +1,1 @@
+gsk8capicmd_64 -cert -list -db yourkey.kdb -stashed

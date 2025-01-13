@@ -1,1 +1,0 @@
-DECLARE\n  l_status  v$session.status%TYPE;\nBEGIN\n\n  dbms_system.set_ev( &sid, &serial, 10237, 1, '');\n\n  LOOP\n    SELECT status INTO l_status FROM v$session\n      WHERE sid = &sid and serial# = &serial;\n    EXIT WHEN l_status='INACTIVE';\n  END LOOP;\n\n  dbms_system.set_ev( &sid, &serial, 10237, 0, '');\nEND;

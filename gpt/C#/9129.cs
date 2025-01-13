@@ -1,0 +1,1 @@
+using System.Windows.Controls;\nusing System.Windows.Markup;\nusing System.IO;\n\npublic string GetXamlFromControl(TextBox fooBox)\n{\n    return XamlWriter.Save(fooBox);\n}

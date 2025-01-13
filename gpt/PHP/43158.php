@@ -1,0 +1,1 @@
+<?php\n\nenum Status: string\n{\n    case PENDING = 'pending';\n    case APPROVED = 'approved';\n    case REJECTED = 'rejected';\n}\n\n// Usage\n$status = Status::APPROVED;\n\nif ($status === Status::APPROVED) {\n    echo "Status is approved";\n}\n?>

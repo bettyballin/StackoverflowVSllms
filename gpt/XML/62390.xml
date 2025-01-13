@@ -1,0 +1,1 @@
+<schema xmlns="urn:schemas-microsoft-com:xml-data">\n     <element type="YourRootClass">\n       <attribute type="string" name="Property1" sql:datatype="nvarchar(50)" />\n       <attribute type="int" name="Property2" sql:datatype="int" />\n       <!-- Add more fields as needed -->\n     </element>\n   </schema>

@@ -1,0 +1,1 @@
+mkdir bar\n    cd bar\n    jar -xvf ../bar.war

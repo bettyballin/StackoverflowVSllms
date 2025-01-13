@@ -1,1 +1,0 @@
-Dim OriginalList As New List(Of String)(New String() {"a", "b", "c", "d"})\nDim TargetList As New List(Of String)(New String() {"a", "b", "c"})

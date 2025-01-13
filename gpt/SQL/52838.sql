@@ -1,0 +1,1 @@
+-- Example of encrypting data in MySQL\n   INSERT INTO users (username, encrypted_password) VALUES ('user1', AES_ENCRYPT('password', 'encryption_key'));

@@ -1,0 +1,1 @@
+-- Assuming Split function returns a table with columns 'pn' and 's'\n\nSELECT \n    pod.PurchaseOrderDetail, \n    cn.s AS ContractName, \n    cno.s AS ContractNo\nFROM \n    dbo.PurchaseOrderDetail AS pod\nCROSS APPLY \n    dbo.Split(';', pod.Comments) AS cn\nCROSS APPLY \n    dbo.Split(';', pod.Comments) AS cno\nWHERE \n    cn.pn = 1\n    AND cno.pn = 2;

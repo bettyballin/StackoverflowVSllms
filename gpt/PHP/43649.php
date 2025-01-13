@@ -1,0 +1,1 @@
+function returnsAnArray() {\n    return array('test');\n}\n\n// Using list() to destructure the returned array\nlist($firstElement) = returnsAnArray();\necho $firstElement;

@@ -1,0 +1,1 @@
+using (var context = new DataContext(connectionString))\n   {\n       var person = context.GetTable<Person>().SingleOrDefault(p => p.Id == id);\n       person.FirstName = "John";\n       context.SubmitChanges();\n   }

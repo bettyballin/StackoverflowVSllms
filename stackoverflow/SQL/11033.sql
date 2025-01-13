@@ -1,1 +1,0 @@
-SELECT contentID\nFROM tags\nWHERE tagID in (334, 338, 342)\nGROUP BY contentID\nHAVING COUNT(DISTINCT tagID) = 3\n\n\n--In general\nSELECT contentID\nFROM tags\nWHERE tagID in (...) --taglist\nGROUP BY contentID\nHAVING COUNT(DISTINCT tagID) = ... --tagcount

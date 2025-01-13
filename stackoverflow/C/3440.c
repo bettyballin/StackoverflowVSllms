@@ -1,1 +1,0 @@
-HtmlHelp(m_hWnd, "Help.chm", HH_DISPLAY_TOPIC, NULL);

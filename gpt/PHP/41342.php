@@ -1,0 +1,1 @@
+<?php\nheader("Expires: " . gmdate("D, d M Y H:i:s", time() + 2592000) . " GMT");\nheader("Cache-Control: public, max-age=2592000");\n?>

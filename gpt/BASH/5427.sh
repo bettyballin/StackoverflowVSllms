@@ -1,0 +1,1 @@
+ffmpeg -i input1.mp3 -i input2.mp3 -filter_complex amix=inputs=2:duration=first:dropout_transition=3 output.mp3

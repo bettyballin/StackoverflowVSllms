@@ -1,0 +1,1 @@
+python YourServiceScript.py debug

@@ -1,0 +1,1 @@
+# os.py\n\nimport sys\n\nif sys.platform == 'win32':\n    path = ntpath\nelse:\n    path = posixpath

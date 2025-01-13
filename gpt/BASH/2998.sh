@@ -1,0 +1,1 @@
+# Compile the C++ code\ng++ -c banking.cpp -o banking.o\n\n# Compile the C code\ngcc `pkg-config --cflags gtk+-3.0` -c main.c -o main.o\n\n# Link the object files and create the executable\ng++ banking.o main.o `pkg-config --libs gtk+-3.0` -o banking_app

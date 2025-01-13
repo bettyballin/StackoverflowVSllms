@@ -1,0 +1,1 @@
+# Check the current value\nsysctl net.ipv4.tcp_fin_timeout\n\n# Set the TIME_WAIT duration to 30 seconds (example)\nsudo sysctl -w net.ipv4.tcp_fin_timeout=30

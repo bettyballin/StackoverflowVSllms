@@ -1,0 +1,1 @@
+using System;\nusing System.Text;\n\nclass Program\n{\n    static void Main()\n    {\n        Console.OutputEncoding = new UTF8Encoding(true); // 'true' to emit BOM\n        Console.WriteLine("Your text here");\n    }\n}

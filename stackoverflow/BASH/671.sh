@@ -1,1 +1,0 @@
-@echo select count(*) from table; | sqlplus username/password@database

@@ -1,0 +1,1 @@
+SELECT to_char(date_uploaded, 'YYYY-MM-DD HH24:MI:SS') AS formatted_date FROM files WHERE id = 1;

@@ -1,0 +1,1 @@
+public static class EnvironmentVariableKey\n{\n    public static string GetEncryptionKey()\n    {\n        return Environment.GetEnvironmentVariable("ENCRYPTION_KEY");\n    }\n\n    public static void Main()\n    {\n        string encryptionKey = GetEncryptionKey();\n        // Use encryptionKey for your encryption/decryption operations\n    }\n}

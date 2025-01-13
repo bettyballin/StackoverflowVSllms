@@ -1,1 +1,0 @@
-Do\n     If isSomeCheckCondition() Then Exit Do\n     DoEvents\nLoop

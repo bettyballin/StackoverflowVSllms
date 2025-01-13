@@ -1,1 +1,0 @@
-public Form1()\n{\n    InitializeComponent();\n\n    Form2 embeddedForm = new Form2();\n    embeddedForm.TopLevel = false;\n    Controls.Add(embeddedForm);\n    embeddedForm.Show();\n}

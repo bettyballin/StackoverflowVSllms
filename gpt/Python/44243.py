@@ -1,0 +1,1 @@
+# x.py\nprint("x.py is imported")\n\n# y.py (symbolic link or hard link to x.py)\n# Symbolic link creation command (in Unix-based systems): ln -s x.py y.py\n\n# main.py\nimport x\nimport y\n\n# Output when running main.py\n# x.py is imported\n# x.py is imported

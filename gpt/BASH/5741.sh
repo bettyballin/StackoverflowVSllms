@@ -1,0 +1,1 @@
+# Save the state of the running container\ndocker commit <container_id> my_container_snapshot\n\n# Restore the container from the snapshot\ndocker run --name restored_container my_container_snapshot

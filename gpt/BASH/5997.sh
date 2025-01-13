@@ -1,0 +1,1 @@
+# Check if you can ping the server\nping IPADDRESS\n\n# Try to access the share directly using the IP address\n\\IPADDRESS\ShareName\n\n# Check firewall settings on the server\n# Ensure that File and Printer Sharing is allowed\n# Control Panel -> Windows Firewall -> Exceptions -> Check "File and Printer Sharing"

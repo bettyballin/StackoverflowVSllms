@@ -1,0 +1,1 @@
+sudo pear channel-discover pear.phpunit.de\n    sudo pear install phpunit/PHPUnit

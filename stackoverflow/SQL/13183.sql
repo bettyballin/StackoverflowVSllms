@@ -1,1 +1,0 @@
-select * from mytable@my_ms_sql_server;

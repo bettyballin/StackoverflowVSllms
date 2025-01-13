@@ -1,1 +1,0 @@
-SELECT     TotalCost = \n    CASE\n        WHEN (totalhours * staffbaserate) < 105 THEN (totalhours * staffbaserate)\n        ELSE (totalhours * staffbaserate) * 1.128\n    END\nFROM         newrotaRaw\nWHERE     staffref = @staffref

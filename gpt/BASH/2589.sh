@@ -1,0 +1,1 @@
+cucumber --format RubyProfFormatter --out profile.html

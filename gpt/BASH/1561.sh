@@ -1,0 +1,1 @@
+sed -i '/#START-EDIT/,/#END-EDIT/ s/#//g' yourfile.txt

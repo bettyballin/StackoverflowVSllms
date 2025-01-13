@@ -1,0 +1,1 @@
+BOOL CMyCustomControl::PreCreateWindow(CREATESTRUCT& cs) {\n    cs.style |= WS_CLIPCHILDREN;\n    return CWnd::PreCreateWindow(cs);\n}

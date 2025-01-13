@@ -1,1 +1,0 @@
-import re, mmap\n\nwith open('/var/log/error.log', 'r+') as f:\n  data = mmap.mmap(f.fileno(), 0)\n  mo = re.search('error: (.*)', data)\n  if mo:\n    print "found error", mo.group(1)

@@ -1,0 +1,1 @@
+$start = microtime(true);\n// Perform the encoding/decoding or serialization/unserialization\n$end = microtime(true);\necho 'Time: ' . ($end - $start);

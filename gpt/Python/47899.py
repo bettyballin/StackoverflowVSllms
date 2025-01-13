@@ -1,0 +1,1 @@
+# simple function that does something:\ndef myFunction(a, b, c):\n    print("call to myFunction:", a, b, c)\n\n# class used to store some data:\nclass data:\n    fn = staticmethod(myFunction)\n\n# Assign function to the class for storage.\n# This step is actually not necessary anymore since we already assigned it with staticmethod.\n# data.fn = myFunctio

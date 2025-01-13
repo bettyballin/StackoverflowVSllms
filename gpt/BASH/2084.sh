@@ -1,0 +1,1 @@
+# Example command to run WCAT\n   wcat.wsf -run -script myscript.wcat

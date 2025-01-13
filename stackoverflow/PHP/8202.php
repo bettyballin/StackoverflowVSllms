@@ -1,1 +1,0 @@
-<?php\n\n// pure PHP code, no HTML\n\n$name = htmlspecialchars($_GET['name']);\n$age = date('Y') - htmlspecialchars($_GET['age']);\n\n?>

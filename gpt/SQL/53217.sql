@@ -1,0 +1,1 @@
+CREATE TABLE example_table (\n    id BIGINT IDENTITY(100001,1) PRIMARY KEY,\n    other_column VARCHAR(255)\n);

@@ -1,0 +1,1 @@
+msdeploy -verb:sync -source:webServer -dest:auto,computerName=TargetServer

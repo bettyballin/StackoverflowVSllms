@@ -1,1 +1,0 @@
-if (!isset($arr[$key]))\n    $arr[$key] = 0;

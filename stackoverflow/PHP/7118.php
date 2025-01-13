@@ -1,1 +1,0 @@
-$lines = file("filename");\nforeach($lines as $line) {\n    $parts = explode("|", $line);\n    // do the database inserts here\n}

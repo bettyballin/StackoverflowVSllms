@@ -1,1 +1,0 @@
-select * from items where item_code = 'S' and item_size = 'm' 

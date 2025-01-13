@@ -1,0 +1,1 @@
+-- Enable encryption on the server\nEXEC sp_configure 'show advanced options', 1;\nRECONFIGURE;\nEXEC sp_configure 'force protocol encryption', 1;\nRECONFIGURE;

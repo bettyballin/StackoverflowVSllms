@@ -1,0 +1,1 @@
+WITH RECURSIVE CategoryPath (id, name, parentID, path) AS (\n  SELECT id, name, parentID, name AS path\n  FROM categories\n  WHERE id = 3  -- German Shepard\n\n  UNION ALL\n\n  SELECT c.id, c.name, c.parentID, CONCAT(cp.path, ' -> ', c.name)\n  FROM categories c\n  JOIN CategoryPath cp ON c.id = cp.parentID\n)\nSELECT path\nFROM CategoryPath\nORDER BY LENGTH(path) DESC\nLIMIT 1;

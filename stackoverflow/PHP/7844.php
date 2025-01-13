@@ -1,1 +1,0 @@
-$first = date('Y-m-d', mktime(0, 0, 0, $month, 1, $year));\n$last = date('Y-m-t', mktime(0, 0, 0, $month, 1, $year));

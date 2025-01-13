@@ -1,1 +1,0 @@
-[MessageHandlerAttribute("HandleLoginResponse",HandleLoginResponse)]\nprivate void HandleLoginResponse(object obj, TcpClient client)

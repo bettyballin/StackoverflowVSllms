@@ -1,1 +1,0 @@
-select \n  Cast(PersonCode as varchar(50)) + '\t'\n  + Cast(PersonReference as varchar(50))    \nfrom People

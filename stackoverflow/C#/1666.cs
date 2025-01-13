@@ -1,1 +1,0 @@
-lock(some_shared_object)\n{\n    //Your code here\n}

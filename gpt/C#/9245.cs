@@ -1,0 +1,1 @@
+protected void btnAddEvent_Click(object sender, EventArgs e)\n{\n    // Add new event to the database\n}\n\nprotected void btnAddQuestion_Click(object sender, EventArgs e)\n{\n    int eventId = Convert.ToInt32(ddlEvents.SelectedValue);\n    string questionText = txtQuestion.Text;\n\n    // Add new question to the database\n}

@@ -1,0 +1,1 @@
+ALTER SYSTEM SET OPTIMIZER_DYNAMIC_SAMPLING = 4; -- Level can be adjusted based on testing

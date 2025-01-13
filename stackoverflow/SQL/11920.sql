@@ -1,1 +1,0 @@
-SELECT author_last_name, dewey_number, NumOccurrences\nFROM author INNER JOIN\n     ( SELECT author_id, dewey_number,  COUNT(dewey_number) AS NumOccurrences\n        FROM book\n        GROUP BY author_id, dewey_number\n        HAVING ( COUNT(dewey_number) > 1 ) ) AS duplicates\nON author.id = duplicates.author_id

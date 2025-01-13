@@ -1,0 +1,1 @@
+// Loop example\nfor (int i = 0; i < n; i++) {\n    if (some_condition) {\n        goto CONTINUE_LOOP;\n    }\n    // Do some work here\n\nCONTINUE_LOOP:\n    // Continue to the next iteration\n}

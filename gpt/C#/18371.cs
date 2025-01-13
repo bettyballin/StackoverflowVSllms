@@ -1,0 +1,1 @@
+class Program\n    {\n        static void Main(string[] args)\n        {\n            var client = new MyServiceClient();\n            string result = client.MyOperation("World");\n            Console.WriteLine(result);\n            client.Close();\n        }\n    }

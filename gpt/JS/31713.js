@@ -1,0 +1,1 @@
+$(document).ready(function(){\n    // To show the div\n    $("#myDiv").show();\n    \n    // To hide the div again if needed\n    $("#myDiv").hide();\n});

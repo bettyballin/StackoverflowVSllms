@@ -1,1 +1,0 @@
-returnvalue = false\nif len(a) == len(b)\n   if len(a) < threshold\n      returnvalue = (sorted(a) == sorted(b))\n   else\n       returnvalue = naminsmethod(a, b)\nreturn returnvalue

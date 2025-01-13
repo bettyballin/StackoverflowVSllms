@@ -1,1 +1,0 @@
-delete\nfrom\n  MyTable\nwhere\n  item_id in\n  (\n    select\n      item_id\n    from\n      MyTable\n    group by\n      item_id\n    having\n      count(item_id) > 15\n  )\n  and\n    Date < @tDate

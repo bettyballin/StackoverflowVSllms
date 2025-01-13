@@ -1,0 +1,1 @@
+// Get the current URL\nfunction getCurrentUrl() {\n    $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";\n    $host = $_SERVER['HTTP_HOST'];\n    $requestUri = $_SERVER['REQUEST_URI'];\n\n    return $protocol . $host . $requestUri;\n}\n\n// Usage\n$currentUrl = getCurrentUrl();\necho $currentUrl;

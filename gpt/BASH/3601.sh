@@ -1,0 +1,1 @@
+chown -R named:named /etc/named\n   chmod -R 755 /etc/named

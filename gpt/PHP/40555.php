@@ -1,0 +1,1 @@
+$php_code = '<?php include("template.html"); ?>';\n$page = 'Hello! ' . htmlspecialchars($php_code);\n\n// Write to a new PHP file\nfile_put_contents('generated_page.php', $page);

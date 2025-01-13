@@ -1,1 +1,0 @@
-SELECT col INTO var FROM table WHERE something;

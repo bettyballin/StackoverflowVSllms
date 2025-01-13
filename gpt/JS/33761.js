@@ -1,0 +1,1 @@
+var elements = document.getElementsByClassName('your-class-name');\nvar elementsArray = Array.prototype.slice.call(elements); // Convert HTMLCollection to Array

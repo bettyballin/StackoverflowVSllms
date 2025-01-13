@@ -1,1 +1,0 @@
-<bindings>\n  <basicHttpBinding>\n    <binding name="NoSecurity">\n      <security mode="None" />\n    </binding>\n  </basicHttpBinding>

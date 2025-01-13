@@ -1,0 +1,1 @@
+UPDATE your_table\nSET Field1 = SUBSTRING(Field1, CHARINDEX('-', Field1) + 1, LEN(Field1)) \n             + '_' \n             + SUBSTRING(Field1, 1, CHARINDEX('-', Field1) - 1);

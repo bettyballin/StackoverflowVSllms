@@ -1,0 +1,1 @@
+// Using ArrayList\nArrayList arrayList = new ArrayList();\narrayList.Add(1);\narrayList.Add("string");\narrayList.Add(new object());\n\n// Using List<object>\nList<object> listObject = new List<object>();\nlistObject.Add(1);\nlistObject.Add("string");\nlistObject.Add(new object());

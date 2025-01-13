@@ -1,0 +1,1 @@
+svccfg -s svc:/network/ssh:default setprop options/tcp_trace=true\n   svcadm refresh ssh

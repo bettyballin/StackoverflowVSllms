@@ -1,1 +1,0 @@
-$("#move-me").remove().find('a').appendTo("#somewhere-else"); 

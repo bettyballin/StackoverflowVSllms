@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    // Example data\n    string[] items = { "Ite|m1", "Item2", "Item3" };\n    string response = string.Join("|||", items);\n    Response.Write(response);\n}

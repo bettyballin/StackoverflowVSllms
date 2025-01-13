@@ -1,1 +1,0 @@
-select * from myTable where datepart(hh, myDateField) > 17

@@ -1,0 +1,1 @@
+amespace MyApp.Models.ViewModels\n{\n    public class UserViewModel\n    {\n        public int Id { get; set; }\n        public string Username { get; set; }\n        public string Email { get; set; }\n        // Additional properties specific to the view\n    }\n}

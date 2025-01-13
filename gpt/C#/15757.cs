@@ -1,0 +1,1 @@
+amespace SanitizeLibrary\n    {\n        public class Sanitizer\n        {\n            public static string SanitizeInput(string input)\n            {\n                // Implement your sanitization logic here\n                return input.Trim().Replace("<", "&lt;").Replace(">", "&gt;");\n            }\n\n            // Add more sanitizing methods as needed\n        }\n    }

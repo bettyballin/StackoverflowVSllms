@@ -1,0 +1,1 @@
+extern "C" {\n    __declspec(dllexport) UnmanagedClass* CreateUnmanagedClass() {\n        return new UnmanagedClass();\n    }\n\n    __declspec(dllexport) void DestroyUnmanagedClass(UnmanagedClass* instance) {\n        delete instance;\n    }\n\n    __declspec(dllexport) void UnmanagedClass_DoSomething(UnmanagedClass* instance) {\n        instance->DoSomething();\n    }\n}

@@ -1,0 +1,1 @@
+def show\n  @post = Post.find(params[:id])\n  @comment = Comment.new\nend

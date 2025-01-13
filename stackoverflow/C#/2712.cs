@@ -1,1 +1,0 @@
-var groupQuery = from table in MyTable.AsEnumerable()\ngroup table by new { column1 = table["Column1"],  column2 = table["Column2"] }\n      into groupedTable\nselect new\n{\n   x = groupedTable.Key,  // Each Key contains column1 and column2\n   y = groupedTable.Count()\n}

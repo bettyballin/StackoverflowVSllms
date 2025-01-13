@@ -1,0 +1,1 @@
+df -h /tmp\n   ls -ld /tmp

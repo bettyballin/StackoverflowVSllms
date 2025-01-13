@@ -1,1 +1,0 @@
-$("#myform :input").change(function() {\n   $("#myform").data("changed",true);\n});

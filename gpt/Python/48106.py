@@ -1,0 +1,1 @@
+# fooext/setup.py\n   from setuptools import setup, find_packages\n\n   setup(\n       name='fooext',\n       version='0.1',\n       packages=find_packages(),\n       namespace_packages=['myframework', 'myframework.addons'],\n       entry_points={\n           'myframework.addons': [\n               'foo = myframework.addons.foo',\n           ],\n       },\n   )

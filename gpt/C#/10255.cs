@@ -1,0 +1,1 @@
+int customStackSize = 1024 * 1024; // 1 MB stack size\nThread newThread = new Thread(new ThreadStart(ThreadMethod), customStackSize);\nnewThread.Start();\n\nvoid ThreadMethod()\n{\n    // Your code here\n}

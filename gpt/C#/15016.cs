@@ -1,0 +1,1 @@
+string ipv4Pattern = @"^([0-9]{1,3}\.){3}[0-9]{1,3}$";\nRegex ipv4Regex = new Regex(ipv4Pattern);

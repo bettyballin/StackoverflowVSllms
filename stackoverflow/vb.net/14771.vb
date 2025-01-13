@@ -1,1 +1,0 @@
-WebMethod(EnableSession:=True)

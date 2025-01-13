@@ -1,1 +1,0 @@
-REPLACE INTO users SET ip = '$uip'; 

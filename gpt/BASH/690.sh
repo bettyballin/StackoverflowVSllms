@@ -1,0 +1,1 @@
+sudo apt update\n   sudo apt install zabbix-server-mysql zabbix-frontend-php zabbix-apache-conf zabbix-agent

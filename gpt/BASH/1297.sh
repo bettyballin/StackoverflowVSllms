@@ -1,0 +1,1 @@
+pm install -g prettier\n     prettier --write "**/*.js"

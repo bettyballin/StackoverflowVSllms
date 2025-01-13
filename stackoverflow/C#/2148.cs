@@ -1,1 +1,0 @@
-static class SocketExtensions\n{\n  public static bool IsConnected(this Socket socket)\n  {\n    try\n    {\n      return !(socket.Poll(1, SelectMode.SelectRead) && socket.Available == 0);\n    }\n    catch (SocketException) { return false; }\n  }\n}

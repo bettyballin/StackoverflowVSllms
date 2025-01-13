@@ -1,0 +1,1 @@
+gem install activerecord-oracle_enhanced-adapter

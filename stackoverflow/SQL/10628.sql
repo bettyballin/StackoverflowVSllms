@@ -1,1 +1,0 @@
-select \n    right( '00' + convert(varchar(2), datepart( mm, @ddate)), 2) + '/' +\n    right( convert(varchar(4), datepart( yy, @ddate) ), 2 )

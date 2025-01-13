@@ -1,0 +1,1 @@
+$controllerPath = 'controller';\n   define('CONTROLLER', str_replace('\\', '/', realpath($controllerPath)).'/');\n\n   // usage\n   require_once CONTROLLER . 'somecontroller.php';

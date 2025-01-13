@@ -1,1 +1,0 @@
-echo bin2hex($string);

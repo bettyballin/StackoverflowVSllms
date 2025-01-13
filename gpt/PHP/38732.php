@@ -1,0 +1,1 @@
+$result = ($value << $shift) & 0xFFFFFFFF;\n   if ($result < 0) {\n       $result += 0x100000000;\n   }

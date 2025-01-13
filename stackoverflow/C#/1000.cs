@@ -1,1 +1,0 @@
-bool isSubset = !t2.Except(t1).Any();

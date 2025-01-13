@@ -1,1 +1,0 @@
-SELECT \n   COUNT(*) as total_count,\n   SUM(enabled) as enabled_count\n FROM widget

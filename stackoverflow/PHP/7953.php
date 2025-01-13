@@ -1,1 +1,0 @@
-class MyDBClass {\n    var $sth;\n\n    function __construct($host, $user, $pass) {\n        $this->sth = mysql_connect($host, $user, $pass);\n    }\n\n    function close() {\n        mysql_close($this->sth);\n    }\n}

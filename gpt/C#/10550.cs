@@ -1,0 +1,1 @@
+public class Calculator {\n        public int calculateSum(int a, int b) {\n            return a + b;\n        }\n    }

@@ -1,0 +1,1 @@
+winscp.com /script=ftp_script.txt

@@ -1,0 +1,1 @@
+Sys.Application.add_load(function() {\n       // Your jQuery code\n       $("#myElement").click(function() {\n           alert("Element clicked!");\n       });\n   });

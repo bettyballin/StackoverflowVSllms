@@ -1,1 +1,0 @@
-$record = '123';\n\n$this->db->distinct();\n\n$this->db->select('accessid');\n\n$this->db->where('record', $record); \n\n$query = $this->db->get('accesslog');

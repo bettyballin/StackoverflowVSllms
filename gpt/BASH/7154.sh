@@ -1,0 +1,1 @@
+security add-generic-password -a <username> -s <service> -w <password>

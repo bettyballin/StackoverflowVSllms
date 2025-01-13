@@ -1,0 +1,1 @@
+// AddInView.cs\nusing System.AddIn.Pipeline;\n\n[AddInBase]\npublic abstract class AddInView\n{\n    public abstract string GetName();\n}

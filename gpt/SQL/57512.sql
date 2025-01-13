@@ -1,0 +1,1 @@
+USE <SharedServices_DB_Name>;\n\nSELECT ssp.Name AS SSPName, \n       cp.CrawlAccount AS DefaultCrawlingAccount\nFROM dbo.Objects AS ssp\nJOIN dbo.CrawlComponents AS cc ON ssp.Id = cc.SspId\nJOIN dbo.CrawlProperties AS cp ON cc.Id = cp.ComponentId\nWHERE cp.PropertyName = 'CrawlAccount';

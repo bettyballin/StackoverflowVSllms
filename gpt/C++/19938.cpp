@@ -1,0 +1,1 @@
+struct Node {\n    string key;\n    Node* next;\n    Node(string k) : key(k), next(nullptr) {}\n};\n\nclass LinkedList {\npublic:\n    Node* head;\n    LinkedList() : head(nullptr) {}\n    // Implement insert, search, and delete functions\n};

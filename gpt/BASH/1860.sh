@@ -1,0 +1,1 @@
+sqlcmd -S MyServer\MyInstance -i JobTemplate.sql -v DatabaseName="MyDatabase" -v OwnerAccount="sa" -v ServerName="MyServer"

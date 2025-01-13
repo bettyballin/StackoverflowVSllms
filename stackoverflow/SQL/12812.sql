@@ -1,1 +1,0 @@
-SELECT *\nFROM SERVER_A.People.dbo.Persons P\n    INNER JOIN SERVER_B.People.dbo.Students S\n        ON P.PersonID = S.PersonID

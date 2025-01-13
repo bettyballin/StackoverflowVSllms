@@ -1,1 +1,0 @@
-def select_rows(to_select):\n    if type(to_select) is not list: to_select = [ to_select ]\n\n    for row in range(0, table.numRows()):\n        if _table.item(row, 1).text() in to_select:\n            table.selectRow(row)

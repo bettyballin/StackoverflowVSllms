@@ -1,0 +1,1 @@
+[WebMethod]\n[ScriptMethod(ResponseFormat = ResponseFormat.Json)]\npublic bool TempCanMakeCall(string reservationNum, string completedReservationNum)\n{\n    return true;\n}

@@ -1,0 +1,1 @@
+java -jar trang.jar input.dtd output.xsd

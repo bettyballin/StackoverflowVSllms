@@ -1,0 +1,1 @@
+$("#MainConfig").clone(false).appendTo($("#smallConfig")).find('[id]').each(function() {\n    var newId = $(this).attr('id') + '_clone';\n    $(this).attr('id', newId);\n});

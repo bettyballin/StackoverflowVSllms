@@ -1,0 +1,1 @@
+<configuration>\n      <system.web>\n        <sessionState mode="StateServer" stateConnectionString="tcpip=127.0.0.1:42424" timeout="60" />\n      </system.web>\n    </configuration>

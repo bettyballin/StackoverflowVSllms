@@ -1,1 +1,0 @@
-Dim db As DAO.Database\n  Dim qdf As DAO.QueryDef\n\n  Set db = CurrentDB()\n  For Each qdf In db.QueryDefs\n    Debug.Print qdf.SQL\n  Next qdf\n  Set qdf = Nothing\n  Set db = Nothing

@@ -1,0 +1,1 @@
+DECLARE @test VARCHAR(20)\nSET @test = 'VALUE'\n\nEXEC sp_executesql N'SELECT @test', N'@test VARCHAR(20)', @test

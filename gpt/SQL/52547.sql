@@ -1,0 +1,1 @@
+SELECT \n    obj.name AS ObjectName,\n    ep.name AS PropertyName,\n    ep.value AS PropertyValue\nFROM \n    sys.extended_properties ep\nJOIN \n    sys.objects obj ON ep.major_id = obj.object_id\nWHERE \n    obj.name = 'MyProc';

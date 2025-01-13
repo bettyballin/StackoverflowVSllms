@@ -1,1 +1,0 @@
-TimeSpan t1 = TimeSpan.Parse("23:30");\nTimeSpan t2 = TimeSpan.Parse("00:40:00");\nTimeSpan t3 = t1.Add(t2);\nConsole.WriteLine(t3); // 1.00:10:00

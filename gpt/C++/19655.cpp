@@ -1,0 +1,1 @@
+class MyCug : public CUGCtrl\n{\npublic:\n    MyCug() {}\n    ~MyCug() {}\n\n    // Override necessary methods\n    virtual void OnSetup()\n    {\n        // Initialization code\n    }\n\n    // Additional customizations\n};

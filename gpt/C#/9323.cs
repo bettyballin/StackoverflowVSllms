@@ -1,0 +1,1 @@
+Dictionary<string, FooObj> fooDictionary = _list.ToDictionary(foo => foo.Name);\nstring needle = "example";\nif (fooDictionary.TryGetValue(needle, out FooObj result))\n{\n    // Use result\n}

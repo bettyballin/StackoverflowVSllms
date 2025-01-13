@@ -1,1 +1,0 @@
-UPDATE ud SET ud.mediaMsgCount = ud.mediaMsgCount + 1\nFROM user_data ud LEFT JOIN user_watch uw ON uw.watcher = ud.userId\nWHERE uw.watched = @watched

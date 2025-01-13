@@ -1,0 +1,1 @@
+.TwoCol img {\n    float: left;\n    padding-right: 5px;\n    border: none;\n}\n\n.TwoCol ul {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n    clear: left; /* This ensures the list clears the float */\n}\n\n.TwoCol ul li {\n    /* Optionally, add some margin or padding to the list items */\n    margin-left: 20px;\n}

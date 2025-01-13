@@ -1,0 +1,1 @@
+INSERT INTO TableB (ID, Names, Address)\nSELECT \n    ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS ID,\n    Names,\n    Address\nFROM\n    TableA;

@@ -1,1 +1,0 @@
-select orderId, CustomerId, orderDateTime\n    , row_number() over (partition by customerId order by orderDateTime) RN\n    , row_number() over (partition by orderDateTime order by customerId) AntiRN\nfrom #order

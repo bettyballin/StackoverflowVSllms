@@ -1,0 +1,1 @@
+using System;\nusing System.Runtime.InteropServices;\n\nclass Program\n{\n    [DllImport("MyCppDll.dll", CallingConvention = CallingConvention.Cdecl)]\n    public static extern void HelloWorld();\n\n    static void Main()\n    {\n        HelloWorld();\n    }\n}

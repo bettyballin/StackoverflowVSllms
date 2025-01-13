@@ -1,0 +1,1 @@
+require 'open3'\n\npid = Process.pid\nstdout, stderr, status = Open3.capture3("pstree #{pid}")\nputs stdout\n\nstdout, stderr, status = Open3.capture3("pstree #{pid}")\nputs stdout

@@ -1,0 +1,1 @@
+INSERT INTO cart_items (cart_id, item_id, quantity)\n   VALUES (?, ?, ?)\n   ON DUPLICATE KEY UPDATE quantity = VALUES(quantity);

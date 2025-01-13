@@ -1,1 +1,0 @@
-Set myXL = CreateObject("Excel.Application")

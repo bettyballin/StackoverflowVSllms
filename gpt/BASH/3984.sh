@@ -1,0 +1,1 @@
+mogrify -strip *.jpg

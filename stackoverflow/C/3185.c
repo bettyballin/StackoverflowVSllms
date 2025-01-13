@@ -1,1 +1,0 @@
-HKEY key;\nif(ERROR_SUCCESS == RegOpenKeyEx(HKEY_LOCAL_MACHINE, "System\\CurrentControlSet\\Control\\Power\\Timeouts", 0, 0, &key))\n{\n    if(RegSetValueEx(key, _T("BattSuspendTimeout"), 0, REG_DWORD, (LPBYTE)&dwData, sizeof(DWORD)))\n    {\n        RegCloseKey(key);\n        return FALSE;\n    }\n\n    RegCloseKey(key);\n}

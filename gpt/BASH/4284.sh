@@ -1,0 +1,1 @@
+pip install nltk spacy\npython -m spacy download en_core_web_sm

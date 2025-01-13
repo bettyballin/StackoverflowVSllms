@@ -1,0 +1,1 @@
+svn info <file-path> | grep '^URL'

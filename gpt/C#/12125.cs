@@ -1,0 +1,1 @@
+public class NativeMethods\n{\n    [DllImport("MyNativeLib.dll", CallingConvention = CallingConvention.Cdecl)]\n    public static extern int MyNativeMethod(int param);\n}\n\npublic class MyWrapper\n{\n    public int MyMethod(int param)\n    {\n        return NativeMethods.MyNativeMethod(param);\n    }\n}

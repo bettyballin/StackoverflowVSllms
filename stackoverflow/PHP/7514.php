@@ -1,1 +1,0 @@
-else \n                    {\n            $session['id']=session_id();\n            $session['username']=$username;\n            return 'yes';\n                    }\n            }

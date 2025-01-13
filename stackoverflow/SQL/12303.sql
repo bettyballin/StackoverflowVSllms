@@ -1,1 +1,0 @@
-SELECT Category, Count(*) as TheCount\nFROM\n(\n  SELECT Category1 as Category\n  FROM Items\n  UNION ALL\n  SELECT Category2\n  FROM Items\n) sub\nGROUP BY Category

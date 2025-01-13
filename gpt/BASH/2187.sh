@@ -1,0 +1,1 @@
+mkdir -p AppDir/usr/bin\n   cp myapp/myappbinary AppDir/usr/bin/

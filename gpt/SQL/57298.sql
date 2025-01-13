@@ -1,0 +1,1 @@
+-- Example of batch deletion\nDECLARE @BatchSize INT = 1000; -- Adjust the batch size as needed\nDECLARE @Offset INT = 0;\n\nWHILE EXISTS (SELECT 1 FROM OUR_TABLE WHERE ID IN (123, 345, ...)) \nBEGIN\n    DELETE TOP (@BatchSize) FROM OUR_TABLE WHERE ID IN (123, 345, ...) \n    SET @Offset = @Offset + @BatchSize;\nEND

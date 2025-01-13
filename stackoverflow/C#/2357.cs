@@ -1,1 +1,0 @@
-public static string base64Decode(string data)\n{\n    byte[] binary = Convert.FromBase64String(data);\n    return Encoding.Default.GetString(binary);\n}

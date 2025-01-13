@@ -1,0 +1,1 @@
+0 2 * * * psql -U your_user -d your_db -c "DELETE FROM foo WHERE to_be_deleted = TRUE AND deletion_date <= NOW() - INTERVAL '30 days';"

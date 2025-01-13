@@ -1,0 +1,1 @@
+SELECT job_name, next_run_date\nFROM   dba_scheduler_jobs\nWHERE  job_name = 'RESET_SEQUENCE_JOB';

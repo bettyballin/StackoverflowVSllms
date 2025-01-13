@@ -1,1 +1,0 @@
-function print_var_name($var) {\n    foreach($GLOBALS as $var_name => $value) {\n        if ($value === $var) {\n            return $var_name;\n        }\n    }\n\n    return false;\n}

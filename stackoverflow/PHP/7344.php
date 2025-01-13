@@ -1,1 +1,0 @@
-$file = 'backups/mytable.sql';\n$result = mysql_query("SELECT * INTO OUTFILE '$file' FROM `##table##`");

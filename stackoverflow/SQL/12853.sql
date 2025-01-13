@@ -1,1 +1,0 @@
-select field1, field2, ... from table1 where cond\nunion\nselect field1, field2, ... from table2 where cond AND param = 1

@@ -1,0 +1,1 @@
+SELECT e1.*, e2.*\nFROM Entity1_Entity2 ee\nJOIN Entity1 e1 ON ee.Entity1ID = e1.Entity1ID\nJOIN Entity2 e2 ON ee.Entity2ID = e2.Entity2ID\nWHERE '2023-06-15' BETWEEN ee.ValidStart AND ee.ValidEnd;

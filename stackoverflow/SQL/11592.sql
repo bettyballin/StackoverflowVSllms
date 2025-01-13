@@ -1,1 +1,0 @@
-SELECT *\nFROM   groups g \nWHERE NOT EXISTS \n    (\n      SELECT 1 \n      FROM users_groups ug \n      WHERE g.groupid = ug.groupid\n    );

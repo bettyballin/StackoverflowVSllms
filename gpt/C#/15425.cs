@@ -1,0 +1,1 @@
+using System.ServiceModel;\nusing System.ServiceModel.Activation;\n\n[AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Required)]\npublic class YourService : IYourService\n{\n    public void YourMethod()\n    {\n        var user = HttpContext.Current.User;\n        // Your logic here\n    }\n}

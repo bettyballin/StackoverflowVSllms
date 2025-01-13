@@ -1,0 +1,1 @@
+// Example: JSFiddle\n   $(document).ready(function() {\n       console.log('Hello, World!');\n   });

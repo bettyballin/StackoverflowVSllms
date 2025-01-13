@@ -1,0 +1,1 @@
+SELECT * \nFROM your_table \nWHERE your_column LIKE '%word1%word2%word3%';

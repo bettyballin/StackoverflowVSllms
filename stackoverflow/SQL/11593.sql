@@ -1,1 +1,0 @@
-SELECT name, line, text\n  FROM dba_source\n WHERE upper(text) like upper('%<<your_phrase>>%') escape '\' 

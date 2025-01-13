@@ -1,0 +1,1 @@
+$router->get('/account/friends/edit', 'AccountController@editFriends');

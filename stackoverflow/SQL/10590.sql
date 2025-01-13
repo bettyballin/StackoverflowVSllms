@@ -1,1 +1,0 @@
-<pre>SELECT <b>SQL_CALC_FOUND_ROWS</b> id FROM foo\nORDER BY id LIMIT 20,10</pre>

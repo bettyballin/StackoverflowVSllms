@@ -1,0 +1,1 @@
+<?php\n// Change the current working directory to the directory of the script\nchdir(__DIR__);\n\n// Now you can include or require files relative to the script's directory\n// Your code here...\n?>

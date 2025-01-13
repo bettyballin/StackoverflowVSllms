@@ -1,0 +1,1 @@
+<WebTest Name="SimpleWebTest" Id="b7e6e1d7-5e7e-4e0a-9b7f-1b2c6dbf1d8a" Owner="" Priority="1" Description="">\n  <Items>\n    <Request Method="GET" Url="http://example.com" Version="1.1">\n      <ValidationRules>\n        <ValidationRuleFindText FindText="Example Domain" IgnoreCase="True" />\n      </ValidationRules>\n    </Request>\n  </Items>\n</WebTest>

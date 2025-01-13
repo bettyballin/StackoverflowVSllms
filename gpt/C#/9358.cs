@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        // Create a new instance of the report\n        var report = new MyCustomReport();\n\n        // Set the report source\n        ReportViewer1.ReportSource = report;\n    }\n}

@@ -1,0 +1,1 @@
+memcpy(ret, s, len - sizeof(Stringpool_char));

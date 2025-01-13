@@ -1,0 +1,1 @@
+git am < 0001-<commit-message>.patch

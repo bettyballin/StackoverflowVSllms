@@ -1,1 +1,0 @@
-data.fn = staticmethod(myFunction)

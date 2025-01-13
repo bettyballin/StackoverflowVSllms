@@ -1,0 +1,1 @@
+string connectionString = "Data Source=myServerAddress;Initial Catalog=myDataBase;User Id=myUsername;Password=myPassword;MultipleActiveResultSets=True;";

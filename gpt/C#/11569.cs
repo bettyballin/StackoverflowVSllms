@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    Response.RedirectPermanent("http://www.example.com/newpage.aspx");\n}

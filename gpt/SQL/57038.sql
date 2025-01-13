@@ -1,0 +1,1 @@
+scott/tiger@myhost:1521/myservice

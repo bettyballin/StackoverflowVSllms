@@ -1,1 +1,0 @@
-SELECT timeId, timeStamp FROM TimeDimensio

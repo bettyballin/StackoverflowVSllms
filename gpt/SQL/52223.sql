@@ -1,0 +1,1 @@
+SELECT AVG(CAST(variable AS FLOAT)) AS Expr1, SUM(variable) AS Expr2\nFROM your_table_name;

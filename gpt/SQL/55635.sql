@@ -1,0 +1,1 @@
+SELECT \n    student_id,\n    student_name,\n    gpa,\n    RANK() OVER (ORDER BY gpa DESC) AS rank\nFROM \n    students;

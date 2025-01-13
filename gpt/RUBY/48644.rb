@@ -1,0 +1,1 @@
+# config/initializers/session_store.rb\n\nActionController::Base.session = {\n  :key         => '_your_app_session',\n  :secret      => 'some_secret_key',\n  :domain      => :all, # or specify your domain\n  :path        => '/'\n}

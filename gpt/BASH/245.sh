@@ -1,0 +1,1 @@
+gfortran -g -o my_program example.c leaky.f90\nvalgrind --leak-check=full ./my_program

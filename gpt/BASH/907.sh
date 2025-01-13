@@ -1,0 +1,1 @@
+sudo systemctl restart apache2  # For Apache\nsudo systemctl restart nginx    # For Nginx

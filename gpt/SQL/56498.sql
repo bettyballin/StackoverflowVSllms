@@ -1,0 +1,1 @@
+CREATE PROCEDURE DeleteRecordsAndChildren\nAS\nBEGIN\n    -- Delete records in child tables first\n    DELETE FROM ChildTable1 WHERE ParentID IN (SELECT ID FROM TBL WHERE Condition);\n    -- Repeat for each child table\n    \n    -- Then delete records in the parent table\n    DELETE FROM TBL WHERE Condition;\nEND;\nGO\n\n-- Execute the procedure\nEXEC DeleteRecordsAndChildren;

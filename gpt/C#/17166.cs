@@ -1,0 +1,1 @@
+using Microsoft.AspNetCore.WebUtilities;\n\n   // Encoding example\n   string encodedValue = WebEncoders.Base64UrlEncode(System.Text.Encoding.UTF8.GetBytes(userInput));\n\n   // Decoding example\n   string decodedValue = System.Text.Encoding.UTF8.GetString(WebEncoders.Base64UrlDecode(encodedValue));

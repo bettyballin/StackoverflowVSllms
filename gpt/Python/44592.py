@@ -1,0 +1,1 @@
+with open('path/to/file', 'r') as file:\n    data = file.read()

@@ -1,0 +1,1 @@
+// Fetching from the database\n   $result = $mysqli->query("SELECT ARTICLE_DESC FROM articles WHERE ARTICLE_NO = '220288560247'");\n   $row = $result->fetch_assoc();\n\n   // Displaying the HTML content\n   echo htmlspecialchars($row['ARTICLE_DESC'], ENT_QUOTES, 'UTF-8');

@@ -1,1 +1,0 @@
-$(window).on('hashchange', function() {\n  //.. work ..\n});

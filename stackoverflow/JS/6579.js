@@ -1,1 +1,0 @@
-xmlHttp.open("GET","blurb.php?"+Math.random();

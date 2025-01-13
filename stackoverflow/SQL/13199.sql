@@ -1,1 +1,0 @@
-SELECT * FROM sp_list_name(?);

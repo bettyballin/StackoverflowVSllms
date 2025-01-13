@@ -1,0 +1,1 @@
+from abc import ABC\n\nclass MyInterface(ABC):\n    pass\n\nclass MyClass(MyInterface):\n    pass\n\ninstance = MyClass()\n\nif isinstance(instance, MyInterface):\n    # The instance implements MyInterface

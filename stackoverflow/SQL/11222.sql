@@ -1,1 +1,0 @@
-UPDATE Persons SET UniqueName = temp.DeDupded FROM\n    (SELECT ID,\n        CASE WHEN ROW_NUMBER() OVER\n            (PARTITION BY UniqueName ORDER BY UniqueName) = 1 THEN UniqueName\n        ELSE UniqueName + CONVERT(VARCHAR, ROW_NUMBER()\n            OVER (PARTITION BY UniqueName ORDER BY UniqueName)-1) END AS DeDupded\n    FROM Persons) temp\nWHERE Persons.ID = temp.ID

@@ -1,0 +1,1 @@
+this.ViewStateEncryptionMode = ViewStateEncryptionMode.Always;

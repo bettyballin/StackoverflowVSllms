@@ -1,1 +1,0 @@
-$network=ip2long("200.10.10.0");\n$mask=ip2long("255.255.255.0");\n\n$remote=ip2long($_SERVER['REMOTE_ADDR']);\n\nif (($remote & $mask) == $network)\n{\n   //match!\n}\nelse\n{\n   //does not match!\n}

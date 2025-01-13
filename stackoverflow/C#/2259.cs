@@ -1,1 +1,0 @@
-var xmlContacts =\n      new XElement("contacts",\n         (from c in context.Contacts\n         select new XElement("contact",\n            new XElement\n            {\n               new XElement("name", c.Name), \n               new XElement("phone", c.Phone),\n               new XElement("postal", c.Postal)\n            )\n         )\n         ).ToArray()\n      )\n   );

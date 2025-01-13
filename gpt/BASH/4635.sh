@@ -1,0 +1,1 @@
+chmod +x /usr/lib/cgi-bin/hung_service.cgi

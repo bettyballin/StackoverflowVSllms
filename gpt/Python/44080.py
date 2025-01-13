@@ -1,0 +1,1 @@
+import re\n\nhtmlbody = """<tr><td width=60 bgcolor='#ffffcc'><b>random Value</b></td><td align=center width=80>"""\n\nreg = re.compile(r"<tr><td width=60 bgcolor='#ffffcc'><b>([^<]*)</b></td><td align=center width=80>")\nmatch = reg.search(htmlbody)\n\nif match:\n    value = match.group(1)\n    print('Value is:', value)\nelse:\n    print('No match found')

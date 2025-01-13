@@ -1,0 +1,1 @@
+# Example commands to deploy Java on a mainframe running Linux\n\n# Ensure Java is installed\nyum install java-11-openjdk-devel\n\n# Verify Java installation\njava -version\n\n# Deploy your Java application\njava -jar your-application.jar

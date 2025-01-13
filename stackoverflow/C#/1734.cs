@@ -1,1 +1,0 @@
-return from r in _context.Restaurants select new Restaurant()\n        {\n             Id=r.Id,\n             Name = r.Name\n        };

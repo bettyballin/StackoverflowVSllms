@@ -1,1 +1,0 @@
-SELECT * FROM table1 JOIN table2 ON (LOCATE(table2.real_email, table1.friend_email) > 0) 

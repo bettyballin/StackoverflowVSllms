@@ -1,1 +1,0 @@
-Regex MyRegex = new Regex("\\#\\w+");\nMatchCollection ms = MyRegex.Matches(InputText);

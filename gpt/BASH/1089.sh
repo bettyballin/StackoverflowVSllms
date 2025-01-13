@@ -1,0 +1,1 @@
+sed '/\/\/<<<TAG/,/\/\/TAG>>>/d' test.txt

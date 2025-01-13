@@ -1,0 +1,1 @@
+awk 'BEGIN {block = 0} \n     /^[[:space:]]*$/ {block++} \n     {print} \n     block == 2 && !inserted {print "TEST"; inserted=1}' inputfile

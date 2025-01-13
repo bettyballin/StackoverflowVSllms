@@ -1,0 +1,1 @@
+gcc -o your_application your_source.o -L/path/to/gcc-4.1/libs -Wl,-rpath,/path/to/gcc-4.1/libs

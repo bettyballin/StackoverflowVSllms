@@ -1,0 +1,1 @@
+perl -d:DProf your_script.pl

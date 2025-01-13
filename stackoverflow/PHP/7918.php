@@ -1,1 +1,0 @@
-$xmlString = 'some <b>mixed</b> content';\n\n$dom = new DOMDocument;\n$fragment = $dom->createDocumentFragment();\n$fragment->appendXML($xmlString);\n$dom->appendChild($fragment);\n// done

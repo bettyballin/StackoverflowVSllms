@@ -1,0 +1,1 @@
+# settings.py\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',  # Use SQLite for testing\n        'NAME': ':memory:',  # In-memory database for faster tests\n    }\n}

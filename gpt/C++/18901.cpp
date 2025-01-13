@@ -1,0 +1,1 @@
+HRESULT result = pSwapChain->Present(NULL, NULL, NULL, NULL, D3DPRESENT_DONOTWAIT);\nif (result == D3DERR_WASSTILLDRAWING) {\n    // Handle accordingly, possibly by retrying or deferring the call\n}

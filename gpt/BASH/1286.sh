@@ -1,0 +1,1 @@
+perl -pi -e 's/\A.*?Foo bar.*?Foo bar//s' 00ws110.txt

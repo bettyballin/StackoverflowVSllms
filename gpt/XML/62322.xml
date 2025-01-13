@@ -1,0 +1,1 @@
+// Example of URL rewriting in a Java web application (web.xml configuration)\n   <filter>\n       <filter-name>urlRewriteFilter</filter-name>\n       <filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>\n   </filter>\n   <filter-mapping>\n       <filter-name>urlRewriteFilter</filter-name>\n       <url-pattern>/*</url-pattern>\n   </filter-mapping>

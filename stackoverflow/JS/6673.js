@@ -1,1 +1,0 @@
-function ajaxValidate() {\n   return $('form').validate().form();\n}\n\n<% using (Ajax.BeginForm("Post", new AjaxOptions\n       {\n           UpdateTargetId = "GBPostList",\n           InsertionMode = InsertionMode.InsertBefore,\n           OnBegin = "ajaxValidate",\n           OnSuccess = "getGbPostSuccess",\n           OnFailure = "showFaliure"\n       }))\n       { %>

@@ -1,1 +1,0 @@
-DataSet myDataSet = new DataSet();\n\nmyDataSet.ReadXml("myXmlFile.xml");

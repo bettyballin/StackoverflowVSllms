@@ -1,0 +1,1 @@
+string machineName = Environment.MachineName;

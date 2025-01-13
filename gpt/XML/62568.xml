@@ -1,0 +1,1 @@
+<database>\n     <host>localhost</host>\n     <port>5432</port>\n     <username>user</username>\n     <password>pass</password>\n   </database>

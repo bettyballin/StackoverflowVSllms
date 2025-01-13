@@ -1,0 +1,1 @@
+Dim label1Pos As Point = GetLabelPositionRelativeToForm(Label1, Me)\nDim label2Pos As Point = GetLabelPositionRelativeToForm(Label2, Me)

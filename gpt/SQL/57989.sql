@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetCommaSeparatedString\nAS\nBEGIN\n    DECLARE @result NVARCHAR(MAX);\n\n    SELECT @result = STUFF((\n        SELECT ',' + ColumnName\n        FROM YourTableName\n        FOR XML PATH(''), TYPE\n    ).value('.', 'NVARCHAR(MAX)'), 1, 1, '');\n\n    -- Output the result\n    SELECT @result AS CommaSeparatedString;\nEND;

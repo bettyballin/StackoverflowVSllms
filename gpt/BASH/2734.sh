@@ -1,0 +1,1 @@
+xperf -on Latency -stackwalk Profile\n     xperf -d mytrace.etl

@@ -1,1 +1,0 @@
-client.options["protocol.http.ssl_config.verify_mode"] = nil 

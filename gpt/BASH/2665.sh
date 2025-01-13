@@ -1,0 +1,1 @@
+tnsping your_tns_entry

@@ -1,0 +1,1 @@
+public class Position\n{\n    public Guid PositionId { get; set; } // Use GUID instead of int for primary key\n    public string PositionName { get; set; }\n    public int PositionType { get; set; }\n}

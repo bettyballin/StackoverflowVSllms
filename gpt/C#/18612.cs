@@ -1,0 +1,1 @@
+DataSet ds = new DataSet();\nds.ReadXml(Server.MapPath("~/App_Data/Countries.xml"));\n\nDropDownList ddlCountries = new DropDownList();\nddlCountries.DataSource = ds.Tables[0];\nddlCountries.DataTextField = "Name";\nddlCountries.DataValueField = "ID";\nddlCountries.DataBind();

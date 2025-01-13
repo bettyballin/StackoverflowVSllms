@@ -1,1 +1,0 @@
-CREATE TABLE temp_to_delete AS(\n    (SELECT DISTINCT pl_from FROM pagelinks) \n        EXCEPT \n    (SELECT page_id FROM page));\nDELETE FROM pagelinks USING temp_to_delete \n    WHERE pagelinks.pl_from IN (temp_to_delete.pl_from);

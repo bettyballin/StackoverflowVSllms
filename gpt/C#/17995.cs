@@ -1,0 +1,1 @@
+string mimeType = MimeMapHelper.GetMimeType(".txt");\nConsole.WriteLine($"MIME type for .txt: {mimeType}");

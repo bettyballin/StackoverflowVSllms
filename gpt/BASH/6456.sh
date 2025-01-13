@@ -1,0 +1,1 @@
+ssh me@me.mydevbox.com "source ~/.bashrc; git-upload-pack"

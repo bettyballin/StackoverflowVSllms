@@ -1,1 +1,0 @@
-$string = $_POST['searchTerm'];\nif (get_magic_quotes_gpc()) {\n    $string = stripslashes($string);\n}\n$string = str_replace("%", "", $string);\n$safeString = mysql_real_escape_string($string);

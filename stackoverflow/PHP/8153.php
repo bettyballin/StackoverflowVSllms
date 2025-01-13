@@ -1,1 +1,0 @@
-Demo_Zend_Mail_InlineImages

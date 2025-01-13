@@ -1,0 +1,1 @@
+CREATE TABLE ErrorNumbers\n(\n    ErrorNumberID int,\n    ErrorText varchar(255),\n)

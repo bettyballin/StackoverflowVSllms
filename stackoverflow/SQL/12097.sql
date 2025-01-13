@@ -1,1 +1,0 @@
-SELECT usrFirst, usrLast FROM tblusers WHERE usrID IN ($string)

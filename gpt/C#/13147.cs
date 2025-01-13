@@ -1,0 +1,1 @@
+int price = (int)dr[3];

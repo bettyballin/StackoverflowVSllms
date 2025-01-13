@@ -1,1 +1,0 @@
-# this works:\nrm foo\n# versus this, which doesn't:\nrm foo/

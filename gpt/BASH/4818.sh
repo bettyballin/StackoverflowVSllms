@@ -1,0 +1,1 @@
+chmod 644 /path/to/mysql_connect.php

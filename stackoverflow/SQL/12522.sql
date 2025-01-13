@@ -1,1 +1,0 @@
-ALTER INDEX (your index name) ON (your table name) REORGANIZE

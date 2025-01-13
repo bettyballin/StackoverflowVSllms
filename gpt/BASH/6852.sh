@@ -1,0 +1,1 @@
+RewriteCond %{QUERY_STRING} ^id=([^&]*)&name=([^&]*)&var3=([^&]*)$\nRewriteRule ^test\.php$ /mysupertest/?id=%1&name=%2&var3=%3 [L,R=301]

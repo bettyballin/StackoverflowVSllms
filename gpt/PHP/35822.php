@@ -1,0 +1,1 @@
+<?php\n    $str   = "My name is jingle<br>\n";\n    $str2  = "I am a boy";\n\n    echo $str . $str2;\n?>

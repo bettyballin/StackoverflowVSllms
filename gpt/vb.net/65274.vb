@@ -1,0 +1,1 @@
+Public Class UtilityClass\n    Public Shared Sub PrintMessage(message As String)\n        Console.WriteLine(message)\n    End Sub\nEnd Class

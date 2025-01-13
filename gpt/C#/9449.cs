@@ -1,0 +1,1 @@
+using System;\nusing System.ComponentModel.DataAnnotations;\n\npublic class UserDetails\n{\n    [Key]\n    public Guid UserID { get; set; }\n\n    public int GroupID { get; set; }\n\n    public string Name { get; set; }\n}

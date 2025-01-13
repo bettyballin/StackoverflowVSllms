@@ -1,1 +1,0 @@
-<endpoint address="mex" binding="mexHttpBinding" name="mex" contract="IMetadataExchange"></endpoint>

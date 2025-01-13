@@ -1,1 +1,0 @@
-create table Apples(id int,brand varchar(20),HasWorms bit)\n\ninsert Apples values(1,'Granny Smith',1)\ninsert Apples values(2,'Granny Smith',0)\ninsert Apples values(3,'Granny Smith',1)\ninsert Apples values(4,'Jonagold',0)\ninsert Apples values(5,'Jonagold',0)\ninsert Apples values(6,'Gala',1)\ninsert Apples values(7,'Gala',1)

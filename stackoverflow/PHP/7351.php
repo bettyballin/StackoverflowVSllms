@@ -1,1 +1,0 @@
-$sc = new SoapClient('urlofmywsdl', array('location' => 'urltowebservice'));

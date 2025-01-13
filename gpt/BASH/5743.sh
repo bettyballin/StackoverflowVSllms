@@ -1,0 +1,1 @@
+dmtcp_checkpoint ./your_applicatio

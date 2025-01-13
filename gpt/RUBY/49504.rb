@@ -1,0 +1,1 @@
+# In your Gemfile\n   gem 'rack-mini-profiler'

@@ -1,0 +1,1 @@
+ini_set('display_errors', 1);\nini_set('display_startup_errors', 1);\nerror_reporting(E_ALL);\n\n$filter = isset($this->levels[$level]) ? $this->levels[$level] : $this->levels['max'];\n\nforeach ($this->tags as $name => $tag) {\n    $firephp->warn($tag);\n    if (!in_array($tag->type, $filter)) continue;\n    // code omitted (this is where it dies)\n}

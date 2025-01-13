@@ -1,0 +1,1 @@
+SELECT DISTINCT [t0].[Country]\nFROM [Customers] AS [t0]\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM [Employees] AS [t1]\n    WHERE [t0].[Country] = [t1].[Country]\n)

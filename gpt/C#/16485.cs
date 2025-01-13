@@ -1,0 +1,1 @@
+using System.Collections.Generic;\n\nclass NewList<T>\n{\n    private List<T> _list = new List<T>();\n\n    public void Add(T item)\n    {\n        _list.Add(item);\n    }\n\n    public T this[int index]\n    {\n        get { return _list[index]; }\n        set { _list[index] = value; }\n    }\n\n    // Add more methods to expose the functionalities you need\n}

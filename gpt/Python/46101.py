@@ -1,0 +1,1 @@
+# Observed probability after downsampling\np_observed = 0.6\n\n# Original ratio of 1s to 0s\nN1 = 1\nN0 = 1000\n\n# Correction factor\ncorrection_factor = N1 / N0\n\n# Calculate the original probability\np_original = p_observed / (p_observed + (1 - p_observed) * correction_factor)\nprint(p_original)

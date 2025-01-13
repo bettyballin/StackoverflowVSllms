@@ -1,1 +1,0 @@
-$arr = array('foo1' => 'bar1', 'foo2' => 'bar2');\nforeach ($arr as $key => $value)\n{\n  echo $key; // Outputs "foo1" the first time around and "foo2" the second.\n  echo $value; // Outputs "bar1" the first time around and" bar2" the second.\n}

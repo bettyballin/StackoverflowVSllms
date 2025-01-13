@@ -1,0 +1,1 @@
+<%\nResponse.ContentType = "application/json"\nDim pdfReady\npdfReady = Application("pdfReady")\n\nIf pdfReady Then\n    Response.Write "{""ready"": true}"\nElse\n    Response.Write "{""ready"": false}"\nEnd If\n%>

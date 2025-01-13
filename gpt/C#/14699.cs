@@ -1,0 +1,1 @@
+PdfGenerator pdfGenerator = new PdfGenerator();\npdfGenerator.CreatePdf(Server.MapPath("~/Files/Example.pdf"));

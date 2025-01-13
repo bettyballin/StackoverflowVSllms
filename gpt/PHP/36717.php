@@ -1,0 +1,1 @@
+if (($handle = fopen('yourfile.csv', 'r')) !== false) {\n       while (($data = fgetcsv($handle, 1000, ",")) !== false) {\n           // Process CSV data\n       }\n       fclose($handle);\n   }

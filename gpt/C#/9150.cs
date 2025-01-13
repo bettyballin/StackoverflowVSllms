@@ -1,0 +1,1 @@
+public bool IsDate(string dateString)\n{\n    DateTime tempDate;\n    return DateTime.TryParse(dateString, out tempDate);\n}

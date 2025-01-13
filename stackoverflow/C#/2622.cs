@@ -1,1 +1,0 @@
-public class MyController\n{\n  public RedirectResult Issue()\n  {\n    //return as a redirect\n    return Redirect("http://applicationb/issue");\n  }\n\n  public ActionResult Quality()\n  {\n    //This is here to show that, instead of redirecting, it returns a view.\n    return View();\n  }\n}

@@ -1,0 +1,1 @@
+using System.Configuration;\n\npublic void RefreshAppSettings()\n{\n    ConfigurationManager.RefreshSection("appSettings");\n}

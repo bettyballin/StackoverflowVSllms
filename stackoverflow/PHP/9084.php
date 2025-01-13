@@ -1,1 +1,0 @@
-$_SESSION['site_user_conutry'] = 'United-Kingdom';

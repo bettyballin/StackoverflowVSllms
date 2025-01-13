@@ -1,1 +1,0 @@
-function CheckBoxRequired_ClientValidate(sender, e)\n{\n    e.IsValid = jQuery(".AcceptedAgreement input:checkbox").is(':checked');\n}

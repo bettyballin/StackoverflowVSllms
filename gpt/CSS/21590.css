@@ -1,0 +1,1 @@
+ul {\n    width: 200px; /* Set the desired width of your menu */\n    white-space: nowrap; /* Prevent the list items from wrapping */\n    overflow-x: auto; /* Add a horizontal scroll bar if needed */\n    overflow-y: hidden; /* Prevent a vertical scroll bar */\n}\n\nli {\n    display: inline-block; /* Display list items inline */\n    width: auto; /* Adjust width as needed */\n}

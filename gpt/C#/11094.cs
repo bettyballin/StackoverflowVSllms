@@ -1,0 +1,1 @@
+foreach (var item in Enumerable)\n{\n    var itemsToAdd = new List<ItemType>();\n\n    foreach (var item2 in item.Enumerable)\n    {\n        itemsToAdd.Add(new ItemType(item2));\n    }\n\n    foreach (var newItem in itemsToAdd)\n    {\n        item.Add(newItem);\n    }\n}

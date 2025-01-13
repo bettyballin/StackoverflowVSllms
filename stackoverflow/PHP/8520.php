@@ -1,1 +1,0 @@
-while($row = mysql_fetch_array($result, MYSQL_ASSOC))\n{\n  foreach($row as $field=>$value)\n  {\n    echo "$field: {$value} <br />";\n  }\n}

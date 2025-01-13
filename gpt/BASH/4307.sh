@@ -1,0 +1,1 @@
+winhttpcertcfg -g -c LOCAL_MACHINE\My -s "CN=S80" -a "NETWORK SERVICE"

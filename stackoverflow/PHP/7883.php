@@ -1,1 +1,0 @@
-public function FetchRow($query)\n{\n    // ... do some stuff, and make a $result variable.\n    $ds = DatabaseStatement($result);\n    if ($ds) {\n        return $ds;\n    }\n    else {\n        return null;\n    }\n}

@@ -1,0 +1,1 @@
+int compiled_function()\n{\n    int temp1 = 3 - 2;\n    int temp2 = temp1 + 5;\n    return temp2;\n}

@@ -1,1 +1,0 @@
-progress = event.bytesLoaded/event.bytesTotal;

@@ -1,0 +1,1 @@
+// Parsing XML in PHP\n$xmlString = '<person><name>John</name><age>30</age></person>';\n$xmlObj = simplexml_load_string($xmlString);\necho $xmlObj->name; // Output: Joh

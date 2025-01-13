@@ -1,0 +1,1 @@
+using (IDbConnection db = new SqlConnection("YourConnectionStringHere"))\n    {\n        string sqlQuery = "INSERT INTO MyModels (Name) VALUES(@Name)";\n        db.Execute(sqlQuery, new { Name = "Test" });\n    }

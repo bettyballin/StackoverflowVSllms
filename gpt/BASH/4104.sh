@@ -1,0 +1,1 @@
+px create-react-app frontend\n   cd frontend\n   npm start

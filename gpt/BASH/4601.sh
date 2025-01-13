@@ -1,0 +1,1 @@
+# Open System Monitor via terminal\ngnome-system-monitor

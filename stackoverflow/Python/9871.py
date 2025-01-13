@@ -1,1 +1,0 @@
-x = cx + r * cos(a)\ny = cy + r * sin(a)

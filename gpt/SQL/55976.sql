@@ -1,0 +1,1 @@
+CREATE PROCEDURE HelloWorld\nAS EXTERNAL NAME SqlClrExample.[Namespace.ClassName].HelloWorld;

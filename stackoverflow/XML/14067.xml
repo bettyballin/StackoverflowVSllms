@@ -1,1 +1,0 @@
-<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'CompiledOutDebug|AnyCPU' ">\n   <DefineConstants>$(DefineConstants);MY_CONDITIONAL_COMPILATION_CONSTANT</DefineConstants>\n</PropertyGroup>

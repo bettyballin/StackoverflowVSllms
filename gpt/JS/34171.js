@@ -1,0 +1,1 @@
+document.addEventListener('click', function(event) {\n       if (event.target.matches('.your-button-class')) {\n           yourFunction();\n       }\n   });\n\n   function yourFunction() {\n       // Your JavaScript code here\n   }

@@ -1,1 +1,0 @@
-HttpCookie mycookie = new HttpCookie("ASP.NET_SessionId");\n    mycookie.Expires = DateTime.Now.AddDays(-1);\n    Response.Cookies.Add(mycookie);

@@ -1,0 +1,1 @@
+// Assuming $input is your Zend_Filter_Input instance\n$filteredData = $input->getEscaped();\n\n// Output the filtered data\nprint_r($filteredData);

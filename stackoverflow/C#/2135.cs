@@ -1,1 +1,0 @@
-IEnumerable myList = myDataGrid.ItemsSource;

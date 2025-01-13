@@ -1,1 +1,0 @@
-DateTime todaysDate = DateTime.Now;\nDateTime expirationDate = todaysDate.AddMonths(6);

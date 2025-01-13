@@ -1,0 +1,1 @@
+# test/factories/parents.rb\nFactoryBot.define do\n  factory :parent do\n    # Define the parent attributes\n  end\nend\n\n# test/factories/children.rb\nFactoryBot.define do\n  factory :child do\n    # Define the child attributes\n    association :parent\n  end\nend

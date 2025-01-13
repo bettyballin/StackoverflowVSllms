@@ -1,0 +1,1 @@
+function doSomething(url, elem) {\n   $.ajax({\n      type: "GET",\n      url: url,\n      dataType: "xml",\n      success: function(response) {\n          rssToTarget(response, elem);\n      }\n   });\n}\n\nfunction rssToTarget(response, elem) {\n   // Process the response and append to the elem\n   // For example:\n   $(elem).append(/* processed response */);\n}

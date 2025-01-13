@@ -1,0 +1,1 @@
+CREATE TABLE LightBulbTypes (\n    TypeId INT PRIMARY KEY,\n    TypeName NVARCHAR(50)\n);\n\nINSERT INTO LightBulbTypes (TypeId, TypeName) VALUES (1, 'Fluorescent'), (2, 'Incandescent'), (3, 'Halogen'), (4, 'LED');

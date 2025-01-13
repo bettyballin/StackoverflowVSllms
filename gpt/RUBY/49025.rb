@@ -1,0 +1,1 @@
+<%= image_tag(url_for_image(object), alt: object.comment) %>\n<%= object.comment %>

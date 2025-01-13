@@ -1,0 +1,1 @@
+session_start();\nheader("Location: http://www." . $_SESSION['domainname']);

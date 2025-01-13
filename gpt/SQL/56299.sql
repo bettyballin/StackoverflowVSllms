@@ -1,0 +1,1 @@
+CREATE TABLE map_lookup (\n       id INT AUTO_INCREMENT PRIMARY KEY,\n       map VARCHAR(255) UNIQUE NOT NULL\n   );

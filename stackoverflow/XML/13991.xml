@@ -1,1 +1,0 @@
-<w:p>\n  <w:pPr>\n    <w:spacing w:after="1"/>\n  </w:pPr>\n  <w:r>\n    <w:t>World</w:t> <-- Case 1: this changes to <w:t>ASDF</w:t>\n    <w:t>World</w:t> <-- Case 2: this changes to <w:t>ASDF</w:t>\n  </w:r>\n</w:p>

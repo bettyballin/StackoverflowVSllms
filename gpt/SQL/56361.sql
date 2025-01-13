@@ -1,0 +1,1 @@
+SELECT object_name, object_type\n   FROM dba_objects\n   WHERE owner = 'DMSYS'\n   AND status = 'INVALID';

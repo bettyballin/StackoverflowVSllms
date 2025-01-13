@@ -1,0 +1,1 @@
+// Fetch unread posts and store in session\n   $_SESSION['unread_posts'] = $unreadPosts;\n\n   // To check if a post is unread\n   function isPostUnread($postId) {\n       return isset($_SESSION['unread_posts'][$postId]);\n   }\n\n   // To mark a post as read\n   function markPostAsRead($postId) {\n       unset($_SESSION['unread_posts'][$postId]);\n   }

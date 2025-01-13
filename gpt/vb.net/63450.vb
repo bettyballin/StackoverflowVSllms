@@ -1,0 +1,1 @@
+Dim v = From a In AppDomain.CurrentDomain.GetAssemblies()\n        From b In a.GetExportedTypes()\n        Select b\nDim count = v.Count()

@@ -1,0 +1,1 @@
+char[] alphabet = new char[26];\nfor (int i = 0; i < 26; i++)\n{\n    alphabet[i] = (char)('A' + i);\n}\n\n// If you need lowercase letters, you can do the following:\nchar[] lowercaseAlphabet = new char[26];\nfor (int i = 0; i < 26; i++)\n{\n    lowercaseAlphabet[i] = (char)('a' + i);\n}

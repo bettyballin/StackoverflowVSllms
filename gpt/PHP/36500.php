@@ -1,0 +1,1 @@
+$mysqli = new mysqli("localhost", "user", "password", "database");\n\nif (isset($_GET['variableNameX'])) {\n    $stmt = $mysqli->prepare("SELECT * FROM table WHERE column = ?");\n    $stmt->bind_param('s', $_GET['variableNameX']);\n    $stmt->execute();\n    // Fetch results, etc.\n}

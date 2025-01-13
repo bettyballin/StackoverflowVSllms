@@ -1,0 +1,1 @@
+Icon fileIcon = FileIcon.GetFileIcon("C:\\Path\\To\\Your\\File.txt", true); // true for large icon, false for small ico

@@ -1,0 +1,1 @@
+CREATE TABLE your_table_name (\n     id INT AUTO_INCREMENT PRIMARY KEY,\n     column1 VARCHAR(255) NOT NULL,\n     column2 INT NOT NULL,\n     -- other columns\n   ) ENGINE=InnoDB ROW_FORMAT=COMPACT;

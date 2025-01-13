@@ -1,0 +1,1 @@
+<?php\n$string = "example string";\n$hash = hash('sha256', $string);\n$intHash = hexdec(substr($hash, 0, 8)); // Convert the first 8 characters of the hash to an integer\n\necho $intHash;\n?>

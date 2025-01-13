@@ -1,1 +1,0 @@
->>> import audiere\n>>> d = audiere.open_device()\n>>> t = d.create_tone(17000) # 17 KHz\n>>> t.play() # non-blocking call\n>>> import time\n>>> time.sleep(5)\n>>> t.stop()

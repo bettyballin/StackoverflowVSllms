@@ -1,1 +1,0 @@
-public GenericList<T> where T : IDisposable

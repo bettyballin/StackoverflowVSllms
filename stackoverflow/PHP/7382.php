@@ -1,1 +1,0 @@
-$data = $this->_request->getParams();\n\n$validators = array(\n    'month'   => 'Digits',\n);\n\n$input = new Zend_Filter_Input($filters, $validators, $data);

@@ -1,0 +1,1 @@
+@echo off\nstart powershell -File "C:\path\to\your\alert.ps1"\necho The script continues running...\nREM Your additional batch commands here

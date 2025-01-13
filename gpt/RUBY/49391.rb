@@ -1,0 +1,1 @@
+require 'cgi'\n\nescaped_string = CGI.escapeHTML(untrusted_string)

@@ -1,1 +1,0 @@
-struct MyClassLessThan\n{\n    bool operator() (const MyClass & left, const MyClass & right)\n    {\n        return left.key < right.key;\n    }\n    bool operator() (const MyClass & left, float right)\n    {\n        return left.key < right;\n    }\n    bool operator() (float left, const MyClass & right)\n    {\n        return left < right.key;\n    }\n};

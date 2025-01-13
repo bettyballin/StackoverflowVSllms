@@ -1,0 +1,1 @@
+public ActionResult SendReport(string date) {\n    // DO Stuff\n\n    return new JsonResult {\n        Data = new { result = "OK" },\n        JsonRequestBehavior = JsonRequestBehavior.AllowGet,\n        ContentType = "application/json"\n    };\n}

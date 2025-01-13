@@ -1,1 +1,0 @@
-$selectrand = array_rand($arrayname, 5);

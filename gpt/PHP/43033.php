@@ -1,0 +1,1 @@
+$repository = $entityManager->getRepository(YourEntity::class);\n$entity = $repository->find($id); // This will trigger the postLoad callback and echo the message.

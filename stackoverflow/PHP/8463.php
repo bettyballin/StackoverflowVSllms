@@ -1,1 +1,0 @@
-$imgname = "test.gif";\n$im = imagecreatefromgif ($imgname);\n\n$index = imagecolorclosest ( $im,  255,255,255 ); // get White COlor\nimagecolorset($im,$index,92,92,92); // SET NEW COLOR\n\n$imgname = "result.gif";\nimagegif($im, $imgname ); // save image as gif\nimagedestroy($im);

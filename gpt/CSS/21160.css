@@ -1,0 +1,1 @@
+@media print {\n       .container {\n           page-break-before: auto;\n           page-break-after: auto;\n           page-break-inside: avoid;\n       }\n   }

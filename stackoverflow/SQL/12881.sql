@@ -1,1 +1,0 @@
-select date from test where date = 8\nunion all\nselect max(date) from test where date < 8\nunion all\nselect min(date) from test where date > 8\norder by date;

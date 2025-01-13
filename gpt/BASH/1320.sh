@@ -1,0 +1,1 @@
+check program mongrel_queue_length with path "/path/to/your_script.py"\n       every 2 cycles\n       if status != 0 then alert\n       if status > 10 then exec "/path/to/restart_mongrel.sh"

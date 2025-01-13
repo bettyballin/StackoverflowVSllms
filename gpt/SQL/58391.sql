@@ -1,0 +1,1 @@
+ALTER SESSION SET sql_trace = TRUE;\n    <your_insert_statement>;\n    ALTER SESSION SET sql_trace = FALSE;

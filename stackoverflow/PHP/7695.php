@@ -1,1 +1,0 @@
-styles.php---------------------\n<?php\n$warningColor = "#f00";\n?>\n\n.warning {\n     color: <?=$warningColor?>;\n}\n.error {\n     color: <?=$warningColor?>;\n}\n\nindex.html----------------------\n\n<link rel="stylesheet" src="styles.php" />

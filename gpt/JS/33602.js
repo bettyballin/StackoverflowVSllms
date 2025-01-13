@@ -1,0 +1,1 @@
+// Press F12 in Internet Explorer to open Developer Tools\n     // Go to the "Network" tab and refresh the page to see network performance\n     // Use the "Performance" tab to measure rendering times

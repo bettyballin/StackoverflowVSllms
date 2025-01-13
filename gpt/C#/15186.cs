@@ -1,0 +1,1 @@
+using System;\nusing System.Collections.Generic;\nusing System.Linq;\n\npublic class Program\n{\n    public static void Main()\n    {\n        IEnumerable<string> words = new List<string> { "One", "Two", "Three" };\n        \n        // Using the custom ForEach extension method\n        words.ForEach(word => Console.WriteLine(word));\n    }\n}

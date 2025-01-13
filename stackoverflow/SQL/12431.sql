@@ -1,1 +1,0 @@
-SELECT orders.* FROM orders\nINNER JOIN (\n  SELECT emp, cat, MAX(date) date\n    FROM orders\n    GROUP BY emp, cat\n  ) criteria USING (emp, cat, date)

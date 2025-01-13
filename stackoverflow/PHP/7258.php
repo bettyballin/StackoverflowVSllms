@@ -1,1 +1,0 @@
-// $subject is you variable containing string you want to run regex on\n$result = preg_match('/<if>(.*)<else>(.*)/i', $subject, $matches);\n\n// $matches[0] has the full matched text\n// $matches[1] has if part\n// $matches[2] has else part

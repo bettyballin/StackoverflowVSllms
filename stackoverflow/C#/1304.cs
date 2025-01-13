@@ -1,1 +1,0 @@
-// Given an HTML document in "htmlDocument", and new content in "newContent"\nstring newHtmlDocument = htmlDocument.Replace("</body>", newContent+"</body>");

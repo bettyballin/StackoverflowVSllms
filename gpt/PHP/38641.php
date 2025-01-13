@@ -1,0 +1,1 @@
+amespace Project\Session;\n\nabstract class AbstractSession {\n    // Abstract class contents\n}\n\nclass Database extends AbstractSession {\n    // Class contents\n}

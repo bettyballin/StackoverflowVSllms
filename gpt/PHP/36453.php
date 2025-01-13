@@ -1,0 +1,1 @@
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $parameter = filter_input(INPUT_POST, 'parameter_name', FILTER_SANITIZE_STRING);\n    if ($parameter !== null) {\n        // Use $parameter securely\n    }\n}

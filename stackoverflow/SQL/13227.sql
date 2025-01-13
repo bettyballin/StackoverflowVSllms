@@ -1,1 +1,0 @@
-CREATE PROCEDURE dbo.CountRowsInTable(@RowCount INT OUTPUT)\nAS BEGIN\n  SELECT\n    @RowCount = COUNT(*)\n  FROM \n    SomeTable\nEND

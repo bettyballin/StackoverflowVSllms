@@ -1,1 +1,0 @@
-XPathIterator xit = XPathNavigator1.Select("/bookstore/book/@bk:ISBN");\nxit.MoveNext();\nString value = xit.Current.Value;

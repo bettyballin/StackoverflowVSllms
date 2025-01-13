@@ -1,1 +1,0 @@
-SELECT\n    MAX(CREATIONTIME),\n    A.AID\nFROM\n    A\nINNER JOIN\n    B\n    ON \n    A.AID = B.AID\nINNER JOIN\n    C\n    ON \n    B.CID = C.CID\nWHERE\n    A.STATUS = 'OK'\nGROUP BY\n    A.AID

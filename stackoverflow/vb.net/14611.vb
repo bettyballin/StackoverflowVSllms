@@ -1,1 +1,0 @@
-Private tags() As KeywordTag = { _\n    New KeywordTag() WITH {.Tag = test", .IncidentCount = 2076}, _\n    New KeywordTag() WITH {.Tag = "oi", .IncidentCount = 2052}, _\n    New KeywordTag() WITH {.Tag = "hmm", .IncidentCount = 1887}, _\n    New KeywordTag() WITH {.Tag = "grr", .IncidentCount = 1414}, _\n    New KeywordTag() WITH {.Tag = "thanks", .IncidentCount = 1166} _\n    }

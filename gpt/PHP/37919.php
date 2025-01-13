@@ -1,0 +1,1 @@
+session_start();\nrequire_once('../scripts/functions.php'); \n\n$role_auth = isset($_SESSION['role_auth']) ? $_SESSION['role_auth'] : null;\naccess($role_auth, array(0, 1, 2, 3, 4));

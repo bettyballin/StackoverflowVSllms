@@ -1,0 +1,1 @@
+EXPLAIN SELECT p FROM Person p WHERE p.name IN ('Joe', 'Jane', 'Bob', 'Alice');

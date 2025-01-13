@@ -1,0 +1,1 @@
+class Lib_Filters_Stripslashes implements Zend_Filter_Interface {\n    public function filter($value) {\n        if (is_array($value)) {\n            return array_map(array($this, 'filter'), $value);\n        }\n        return stripslashes($value);\n    }\n}

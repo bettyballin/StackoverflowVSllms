@@ -1,1 +1,0 @@
-class FormHandler(webapp.RequestHandler):\n  def post(self):\n    if processFormData(self.request):\n      self.redirect("http://example.com")

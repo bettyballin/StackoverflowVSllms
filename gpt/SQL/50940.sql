@@ -1,0 +1,1 @@
+CREATE TABLE comments (\n    comment_id SERIAL PRIMARY KEY,\n    article_id INT NOT NULL,\n    user_id INT NOT NULL,\n    comment TEXT NOT NULL,\n    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    parent_comment_id INT DEFAULT NULL,\n    FOREIGN KEY (parent_comment_id) REFERENCES comments (comment_id)\n);

@@ -1,1 +1,0 @@
-SELECT \n  section_name, \n  category_name,\n  result_level,\n  url,\n  winner\nFROM 2009_RKR_bestof\nINNER JOIN categories ON 2009_RKR_bestof.category = categories.id\nINNER JOIN sections ON 2009_RKR_bestof.section = sections.id\nORDER BY section_name,category_name ASC

@@ -1,0 +1,1 @@
+session_start();\n$session_token = bin2hex(random_bytes(32));\n$_SESSION['user_id'] = $user_id; // Store sensitive data server-side\ncreate_signed_cookie('session_token', $session_token, $secret_key);

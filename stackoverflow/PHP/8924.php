@@ -1,1 +1,0 @@
-$klass = new ReflectionClass($classname);\n$thing = $klass->newInstanceArgs($args);

@@ -1,1 +1,0 @@
-jQuery('form').ajaxForm({ \n    target: '#noteReturn',\n    success: function() { \n        $('#noteReturn').fadeIn('slow');\n    } \n});

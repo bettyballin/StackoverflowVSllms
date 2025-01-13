@@ -1,1 +1,0 @@
-var objDiv = document.getElementById("your_div");\nobjDiv.scrollTop = objDiv.scrollHeight;

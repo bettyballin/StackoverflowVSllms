@@ -1,0 +1,1 @@
+[HttpPost("submit-data")]\n   public IActionResult SubmitData([FromBody] UserInput input)\n   {\n       if (ModelState.IsValid)\n       {\n           // Process the input data securely\n           return Ok();\n       }\n       return BadRequest(ModelState);\n   }

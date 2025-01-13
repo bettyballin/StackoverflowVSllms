@@ -1,1 +1,0 @@
-class Chesterx{\n public $database, $member;\n public function __construct(){\n   $this->database = new database; //Whatever you use to create a database\n   $this->member = new member;\n }\n}

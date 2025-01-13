@@ -1,1 +1,0 @@
-<?php if(condition){ ?>\n     <!-- HTML here -->\n<?php } ?>

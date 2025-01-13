@@ -1,1 +1,0 @@
-select distinct top 20 isnull(rootid,id) from posts order by datetime desc

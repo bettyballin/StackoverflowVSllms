@@ -1,1 +1,0 @@
->>> import win32com.client\n>>> js = win32com.client.Dispatch('MSScriptControl.ScriptControl')\n>>> js.Language = 'JavaScript'\n>>> js.AddCode('function add(a, b) {return a+b;}')\n>>> js.Run('add', 1, 2)\n3

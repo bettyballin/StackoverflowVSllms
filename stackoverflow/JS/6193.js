@@ -1,1 +1,0 @@
-var grid = new Ext.grid.GridPanel(...);

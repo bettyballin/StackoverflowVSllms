@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare('SELECT * FROM employees WHERE name = :name');\n$stmt->execute([ 'name' => $name ]);\n\nforeach ($stmt as $row) {\n    // Do something with $row\n}

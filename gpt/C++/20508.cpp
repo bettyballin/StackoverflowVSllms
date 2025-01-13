@@ -1,0 +1,1 @@
+__stdcall void FooBar(int a, int b, double c);

@@ -1,0 +1,1 @@
+@media print {\n  body {\n    -webkit-print-color-adjust: exact;\n    print-color-adjust: exact;\n  }\n}

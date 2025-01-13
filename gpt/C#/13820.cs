@@ -1,0 +1,1 @@
+String longPath = "\\\\?\\C:\\your\\very\\long\\path\\that\\exceeds\\255\\characters\\here\\...";\n// Use longPath in file operations

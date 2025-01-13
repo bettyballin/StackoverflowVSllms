@@ -1,0 +1,1 @@
+public ActionResult Titles(string like)\n{\n    var titles = _db.GetTitles(like); // Implement this method to get matching titles\n    return PartialView("Titles", titles);\n}

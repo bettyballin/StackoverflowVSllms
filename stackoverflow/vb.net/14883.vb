@@ -1,1 +1,0 @@
-sub test(optional a as string = "", optional b as string = "")\n   msgbox(a & b)\nend sub

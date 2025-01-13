@@ -1,0 +1,1 @@
+std::unique_ptr<MyClass> ptr = std::make_unique<MyClass>();

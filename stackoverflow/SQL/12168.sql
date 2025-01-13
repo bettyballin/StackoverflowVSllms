@@ -1,1 +1,0 @@
-WITH\ntable1 AS\n        (\n        SELECT  field1, field2\n        FROM    some_table\n        ),\ntable2 AS\n        (\n        SELECT  field1, field2\n        FROM    other_table, table1\n        )\nSELECT  *\nFROM    table2

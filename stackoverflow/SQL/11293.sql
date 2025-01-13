@@ -1,1 +1,0 @@
-select substring(column,\n                 CHARINDEX ('news',lower(column))-10,\n                 20)\nFROM table \nWHERE column LIKE %news%

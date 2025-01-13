@@ -1,0 +1,1 @@
+mvn evosuite:generate

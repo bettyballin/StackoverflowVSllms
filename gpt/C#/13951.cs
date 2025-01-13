@@ -1,0 +1,1 @@
+[Authorize(Roles = "Admin")]\n     public ActionResult AdminOnly()\n     {\n         // Your code\n     }

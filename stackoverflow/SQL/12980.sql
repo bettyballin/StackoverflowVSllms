@@ -1,1 +1,0 @@
-SELECT  homes.home_id,\n    address,\n    city,\n    state,\n    zip,\n    photo_id\n    photo_url_dir \nFROM homes h\nleft outer join home_photos hp on h.home_id = hp.home_id\n    AND primary_photo_group_id = home_photo_group_id\n    AND home_photo_type_id = 2

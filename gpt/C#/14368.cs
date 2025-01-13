@@ -1,0 +1,1 @@
+var query = from t in db.Table\n            let Res = t.Distance - someValue\n            where Res < someOtherValue\n            orderby Res\n            select new\n            {\n                t.Id,\n                Res\n            };

@@ -1,0 +1,1 @@
+$url = 'page.php?token=' . session_id();\necho '<a href="' . $url . '">Link with Token</a>';

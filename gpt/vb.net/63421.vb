@@ -1,0 +1,1 @@
+' VB6 code to invoke PLINK and capture stdout\nDim shell As Object\nDim command As String\nDim output As String\n\nSet shell = CreateObject("WScript.Shell")\ncommand = "plink -ssh user@linuxserver -pw password \"command_to_run\""\nSet exec = shell.Exec(command)\n\nDo While Not exec.StdOut.AtEndOfStream\n    output = output & exec.StdOut.ReadLine & vbCrLf\nLoop\n\nMsgBox output

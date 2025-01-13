@@ -1,0 +1,1 @@
+SELECT unique_key\nFROM src_table\nWHERE natural_key1 = :1\nAND natural_key2 = :2\nAND natural_key3 = :3;

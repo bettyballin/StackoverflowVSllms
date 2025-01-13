@@ -1,1 +1,0 @@
-header("Cache-Control:  max-age=1");\n  header("Pragma: public");

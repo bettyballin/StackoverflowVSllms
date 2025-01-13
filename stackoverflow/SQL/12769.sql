@@ -1,1 +1,0 @@
-DECLARE\n  v_file_loc varchar2(100) := '....';\n  v_file_name varchar2(100) := '....';\n  v_text varchar2(4000);\nBEGIN\n    dbms_output.put_line('Starting file read');\n    fp := UTL_FILE.FOPEN(v_file_loc,v_file_name,'r');\n    LOOP\n        utl_file.GET_LINE(fp,v_text);\n        dbms_output.put_line(v_text);\n    END LOOP;\n    UTL_FILE.FCLOSE(fp);\nEND;\n/

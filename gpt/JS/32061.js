@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    // Example of calling the function when a button is clicked\n    $("#closeButton").click(function() {\n        closePanels();\n    });\n});

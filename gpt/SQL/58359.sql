@@ -1,0 +1,1 @@
+EXEC CompareTables 'Database1.dbo.TableName1', 'Database2.dbo.TableName2', 'Column1, Column2, Column3';

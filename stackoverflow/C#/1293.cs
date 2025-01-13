@@ -1,1 +1,0 @@
-void SetFocusControl(Control ctl)\n{\n    ctl.Focus();\n}

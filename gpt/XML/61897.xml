@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <authentication mode="Forms">\n      <!-- Your forms authentication settings go here -->\n    </authentication>\n  </system.web>\n</configuration>

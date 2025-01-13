@@ -1,0 +1,1 @@
+# First, download the IJava kernel\n      git clone https://github.com/SpencerPark/IJava.git\n      cd IJava\n      ./gradlew installKernel

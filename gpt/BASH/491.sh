@@ -1,0 +1,1 @@
+javac -cp jacob.jar JavaReadStream.java\njava -cp .;jacob.jar JavaReadStream

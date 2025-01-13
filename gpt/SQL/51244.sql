@@ -1,0 +1,1 @@
+-- Nested Query\n   SELECT name FROM (\n      SELECT name FROM employees WHERE department_id = 1\n   ) sub;\n   \n   -- Equivalent Single Query\n   SELECT name FROM employees WHERE department_id = 1;

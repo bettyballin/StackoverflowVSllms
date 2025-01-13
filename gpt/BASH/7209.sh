@@ -1,0 +1,1 @@
+mysqldump -u yourusername -p yourpassword yourdatabase > backup.sql

@@ -1,0 +1,1 @@
+ohup ./watch_directory.sh &

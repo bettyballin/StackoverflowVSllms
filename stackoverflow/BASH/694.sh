@@ -1,1 +1,0 @@
-mvn2.1 -Dsystem.test.property=test test -DforkMode=never 

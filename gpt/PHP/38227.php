@@ -1,0 +1,1 @@
+// Example of prepared statement in PDO\n   $stmt = $pdo->prepare('SELECT * FROM users WHERE email = :email');\n   $stmt->execute(['email' => $email]);\n   $user = $stmt->fetch();

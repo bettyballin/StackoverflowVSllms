@@ -1,0 +1,1 @@
+__attribute__((optimize("O0")))\nvoid problematicFunction() {\n    // Code that causes issues with optimization\n}

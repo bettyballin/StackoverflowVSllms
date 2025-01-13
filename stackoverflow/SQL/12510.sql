@@ -1,1 +1,0 @@
-SELECT groupname, SUM(value)\nFROM items\nWHERE groupname IN ('a', 'b')\nGROUP BY groupname

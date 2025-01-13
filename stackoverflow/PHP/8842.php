@@ -1,1 +1,0 @@
-// This...\necho 'one', 'two';\n\n// Is the same as this\necho 'one';\necho 'two';

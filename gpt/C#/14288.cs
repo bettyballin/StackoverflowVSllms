@@ -1,0 +1,1 @@
+public class BusinessLayer\n{\n    private IHost _host;\n\n    public BusinessLayer(IHost host)\n    {\n        _host = host;\n    }\n\n    public void SomeBusinessMethod()\n    {\n        var userInfo = _host.UserSession.User.Info;\n        // Perform business logic with userInfo\n    }\n}

@@ -1,0 +1,1 @@
+USE master;\nCREATE CERTIFICATE MyCert\nENCRYPTION BY PASSWORD = 'StrongPassword123'\nWITH SUBJECT = 'My Secure Certificate',\nEXPIRY_DATE = '2023-10-31';\nBACKUP CERTIFICATE MyCert\nTO FILE = '\\networkshare\certificates\MyCert.cer'\nWITH PRIVATE KEY (\n    FILE = '\\networkshare\certificates\MyCert.pvk',\n    ENCRYPTION BY PASSWORD = 'StrongPassword123'\n);

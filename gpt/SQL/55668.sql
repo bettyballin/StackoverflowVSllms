@@ -1,0 +1,1 @@
+SELECT \n    (SELECT SUM(ReceiptAmt) FROM Receipt WHERE ReceiptAmt > 0) - \n    (SELECT SUM(BalanceAmt) FROM Receipt WHERE BalanceAmt > 0) AS Balance\nFROM Receipt

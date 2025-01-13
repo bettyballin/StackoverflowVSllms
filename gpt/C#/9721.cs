@@ -1,0 +1,1 @@
+class Program\n{\n    static void Main(string[] args)\n    {\n        var app = new MyApp();\n\n        // Add layers and handlers\n        // app.AddLayer(layer1);\n        // app.AddLayer(layer2);\n        // ...\n\n        // On application exit\n        app.DisposeHandlers();\n    }\n}

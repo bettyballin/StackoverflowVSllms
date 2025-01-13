@@ -1,1 +1,0 @@
-[DataContract]\n[KnownType(typeof(B))]\npublic class A\n{\n   [DataMember]\n   public string Value { get; set; }\n}\n\n[DataContract]\npublic class B : A\n{\n   [DataMember]\n   public string OtherValue { get; set; }\n}

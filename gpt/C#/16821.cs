@@ -1,0 +1,1 @@
+protected void btnSubmit_Click(object sender, EventArgs e)\n{\n    Session["X"] = txtInput.Text;\n    Response.Redirect("Page2.aspx");\n}\n\nprotected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        if (Session["X"] != null)\n        {\n            txtInput.Text = Session["X"].ToString();\n        }\n    }\n}

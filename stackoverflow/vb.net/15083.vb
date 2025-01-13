@@ -1,1 +1,0 @@
-Dim text As String = "term: 156:59 datainput"\n    Dim fixedText As String = Regex.Replace(text, "(\d+):(\d+)", "$1-$2")

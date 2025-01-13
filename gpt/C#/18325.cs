@@ -1,0 +1,1 @@
+var rotator = new JpegRotator();\nrotator.RotateJpeg("C:\\source.jpg", "C:\\target.jpg", RotateFlipType.Rotate90FlipNone);

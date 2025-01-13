@@ -1,0 +1,1 @@
+public class MyClass\n{\n    [LogAspect]\n    public void MyProcess(int a, string b, object c)\n    {\n        Console.WriteLine("Inside MyProcess method.");\n        // Simulate method logic and potential exceptions\n        if (a == 0) throw new ArgumentException("Argument 'a' cannot be zero.");\n    }\n}

@@ -1,0 +1,1 @@
+// Assume userID is available from the session or some other source\nstring userID = Session["userID"].ToString();\nstring uniqueParam = DateTime.Now.Ticks.ToString();\nImage1.ImageUrl = "~/ImageHandler.ashx?userID=" + userID + "&t=" + uniqueParam;

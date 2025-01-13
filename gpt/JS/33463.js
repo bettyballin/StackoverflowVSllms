@@ -1,0 +1,1 @@
+$.ajax({\n        url: 'your-url.php',\n        method: 'POST',\n        data: { image: imageName },\n        success: function(response) {\n            // Handle success\n        },\n        error: function(jqXHR, textStatus, errorThrown) {\n            console.error('Ajax error:', textStatus, errorThrown);\n        }\n    });

@@ -1,1 +1,0 @@
-[assembly:FileIOPermission(SecurityAction.RequestRefuse, Unrestricted=true)]

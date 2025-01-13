@@ -1,0 +1,1 @@
+public void ExampleOutMethod(out int number)\n{\n    number = 10; // Must assign a value\n}\n\npublic void TestOut()\n{\n    int myNumber; // No need to initialize\n    ExampleOutMethod(out myNumber);\n    Console.WriteLine(myNumber); // Output will be 10\n}

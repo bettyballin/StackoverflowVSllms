@@ -1,0 +1,1 @@
+wget http://mysqltuner.pl/ -O mysqltuner.pl\n   chmod +x mysqltuner.pl\n   ./mysqltuner.pl

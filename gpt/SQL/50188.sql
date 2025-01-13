@@ -1,0 +1,1 @@
+SELECT p.ProductName, a.AttributeName, pa.Stock\nFROM Products p\nJOIN ProductAttributes pa ON p.ProductID = pa.ProductID\nJOIN Attributes a ON pa.AttributeID = a.AttributeID\nWHERE p.ProductID = 1 AND a.AttributeName IN ('Blue', 'Small');

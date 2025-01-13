@@ -1,0 +1,1 @@
+BoundingBox box1 = new BoundingBox(min1, max1);\n    BoundingBox box2 = new BoundingBox(min2, max2);\n\n    if (box1.Intersects(box2))\n    {\n        // Handle collision\n    }

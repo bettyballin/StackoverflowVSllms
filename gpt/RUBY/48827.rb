@@ -1,0 +1,1 @@
+// A simple DSL for financial transactions\ntransaction {\n    from "AccountA"\n    to "AccountB"\n    amount 100.0\n    currency "USD"\n}

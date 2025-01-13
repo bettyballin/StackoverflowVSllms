@@ -1,0 +1,1 @@
+$result = implode(delimiter, list);

@@ -1,0 +1,1 @@
+# app/models/user.rb\n    class User < ApplicationRecord\n      after_create :subscribe_to_mailchimp\n\n      def subscribe_to_mailchimp\n        list_id = 'your-mailchimp-list-id'\n        HOMINID.list_subscribe(list_id, self.email, { 'FNAME' => self.first_name, 'LNAME' => self.last_name }, 'html', false, true, true, false)\n      end\n    end

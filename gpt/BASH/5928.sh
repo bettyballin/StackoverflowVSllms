@@ -1,0 +1,1 @@
+# On 32-bit OS\ngcc -m32 -o benchmark32 benchmark.c\n./benchmark32\n\n# On 64-bit OS\ngcc -o benchmark64 benchmark.c\n./benchmark64

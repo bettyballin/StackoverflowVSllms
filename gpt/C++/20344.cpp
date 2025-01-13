@@ -1,0 +1,1 @@
+#include <list>\n\nstd::list<Foo*> foo_list;\n\n// Populate the list with pointers...\n\n// Cleanup\nfor (Foo* ptr : foo_list) {\n    delete ptr;\n}\nfoo_list.clear();

@@ -1,0 +1,1 @@
+yourDataSet.EnforceConstraints = false;\n     yourDataAdapter.Fill(yourDataSet);\n     yourDataSet.EnforceConstraints = true; // This will throw ConstraintException if there are issues

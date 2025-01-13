@@ -1,0 +1,1 @@
+# This command grants read access to the private key to the specified user\n    icacls "C:\ProgramData\Microsoft\Crypto\RSA\MachineKeys\<your_private_key_file>" /grant "IIS AppPool\YourAppPoolName":R

@@ -1,1 +1,0 @@
-<script type="text/javascript">alert("XSS attack!");</script>XSS here!

@@ -1,1 +1,0 @@
-$("#MyItemID").bind("click", function(){\n  func1();\n  func2();\n  func3();\n});

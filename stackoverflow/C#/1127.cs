@@ -1,1 +1,0 @@
-var numbers = new[] { 0, 1, 2, 2, 2, 3, 4, 4, 5 };\n\nvar uniqueNumbers =\n    from n in numbers\n    group n by n into nGroup\n    where nGroup.Count() == 1\n    select nGroup.Key;\n\n// { 0, 1, 3, 5 }

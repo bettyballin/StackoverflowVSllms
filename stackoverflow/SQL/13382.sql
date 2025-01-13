@@ -1,1 +1,0 @@
-SELECT * FROM\n  (SELECT * FROM $db_table ORDER BY $timestamp DESC LIMIT 100)\nORDER BY rand() LIMIT 1

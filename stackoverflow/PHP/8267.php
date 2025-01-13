@@ -1,1 +1,0 @@
-function selectFromArray($prefix="", $productArray=array()) {\n\n    return array_filter($productArray,\n        create_function('$element', \n             'return (stripos($element[1],"'.$prefix.'") === 0); '));\n}

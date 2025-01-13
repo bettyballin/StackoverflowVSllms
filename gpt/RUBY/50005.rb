@@ -1,0 +1,1 @@
+class Recurrence < ApplicationRecord\n  belongs_to :event\n\n  # Fields: frequency, interval, end_date, etc.\nend

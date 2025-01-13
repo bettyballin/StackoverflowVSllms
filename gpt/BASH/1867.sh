@@ -1,0 +1,1 @@
+zcat filename.gz | tail -n 10

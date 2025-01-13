@@ -1,1 +1,0 @@
-myTxtBox.DataBindings.Add("Text", foo, "MyString");

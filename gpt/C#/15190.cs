@@ -1,0 +1,1 @@
+[WebMethod]\npublic void ProcessRequest()\n{\n    // Process the request...\n\n    // Increment performance counters\n    PerformanceCounterHelper counterHelper = new PerformanceCounterHelper();\n    counterHelper.IncrementCounters();\n}

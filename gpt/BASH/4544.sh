@@ -1,0 +1,1 @@
+composer require pelago/emogrifier

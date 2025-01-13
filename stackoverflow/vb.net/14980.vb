@@ -1,1 +1,0 @@
-Dim sSQL as String\nsSQL = "select TestScenario,TestId from tblTesting where empid= '" & Me.txtEmpId.Value & "' and testid= '" & Me.txtAutoNumber.Value & "'"\nDebug.Print sSQL\nlstDiff.RowSource = sSQL

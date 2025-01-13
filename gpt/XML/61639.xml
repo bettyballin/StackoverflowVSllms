@@ -1,0 +1,1 @@
+<plugin>\n       <groupId>org.apache.maven.plugins</groupId>\n       <artifactId>maven-surefire-plugin</artifactId>\n       <version>2.22.2</version>\n       <configuration>\n           <parallel>methods</parallel>\n           <threadCount>4</threadCount>\n       </configuration>\n   </plugin>

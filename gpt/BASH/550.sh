@@ -1,0 +1,1 @@
+cd /path/to/your/application\nmake clean\nmake

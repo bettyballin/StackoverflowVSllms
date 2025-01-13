@@ -1,0 +1,1 @@
+// Proxy script on CMS server\n   $url = 'https://your-server.com/your-script.php?page=' . $_GET['page'];\n   $content = file_get_contents($url);\n   echo $content;

@@ -1,0 +1,1 @@
+// logout.php\nsession_start();\nsession_destroy();\nheader('Location: /home');\nexit;

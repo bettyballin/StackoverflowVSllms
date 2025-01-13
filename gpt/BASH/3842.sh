@@ -1,0 +1,1 @@
+slookup cas_server\n   dig cas_server

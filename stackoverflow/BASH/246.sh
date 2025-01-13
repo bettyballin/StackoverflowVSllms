@@ -1,1 +1,0 @@
-Regsvr32.exe /u "Program Files\Common Files\System\Ole DB\oledb32.dll"

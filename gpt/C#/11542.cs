@@ -1,0 +1,1 @@
+public class YourEntity\n{\n    public virtual Guid Id { get; set; }\n    // other properties\n}

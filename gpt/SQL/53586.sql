@@ -1,0 +1,1 @@
+ALTER PROCEDURE YourStoredProc\nAS\nBEGIN\n    -- Example of a dummy parameter\n    DECLARE @dummy INT = 0;\n    -- Your SP code here\nEND

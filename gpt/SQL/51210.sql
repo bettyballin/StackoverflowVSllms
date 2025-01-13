@@ -1,0 +1,1 @@
+SELECT V2.VideoID, V2.Title, COUNT(*) AS MatchCount\nFROM Videos V1\nJOIN VideoTags VT1 ON V1.VideoID = VT1.VideoID\nJOIN VideoTags VT2 ON VT1.TagID = VT2.TagID\nJOIN Videos V2 ON VT2.VideoID = V2.VideoID\nWHERE V1.VideoID = 1 AND V2.VideoID <> V1.VideoID\nGROUP BY V2.VideoID, V2.Title\nORDER BY MatchCount DESC;

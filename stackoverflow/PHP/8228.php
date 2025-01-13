@@ -1,1 +1,0 @@
-$numItems = count($arr);\n$i = 0;\nforeach($arr as $key=>$value) {\n  if(++$i === $numItems) {\n    echo "last index!";\n  }\n}    

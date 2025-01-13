@@ -1,1 +1,0 @@
-Dim lstResulst As New List(Of String)\nDim lstContent As New List(Of String)\nDim LineItems() As String\nDim objStreamReader as StreamReader\n\nobjStreamReader = File.OpenText(FILENAME)\n\nWhile objStreamReader.Peek() <> -1\n  lstContent.Add(objStreamReader.ReadLine())\nEnd While\n\nobjStreamReader.Close()

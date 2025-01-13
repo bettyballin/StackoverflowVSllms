@@ -1,1 +1,0 @@
-select dbms_metadata.get_ddl('TABLE','DEPT','SCOTT') from dual;

@@ -1,1 +1,0 @@
-SELECT  fol.*\n ,      (       SELECT  COUNT(*)\n                FROM    files           fil\n                WHERE   fil.Folder      = fol.Folder\n        )       AS      "Files"\nFROM    folders         fol\nWHERE   fol.userId      = 16

@@ -1,0 +1,1 @@
+def my_view(request):\n    custom_header_value = request.META.get('HTTP_CUSTOM_HEADER')\n    return HttpResponse(f'Custom Header Value: {custom_header_value}')

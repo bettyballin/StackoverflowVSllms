@@ -1,0 +1,1 @@
+openssl pkcs12 -export -out client.p12 -inkey client.key -in client.crt

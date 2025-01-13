@@ -1,0 +1,1 @@
+<person>\n  <name>John Doe</name>\n  <age>30</age>\n  <address>\n    <street>123 Main St</street>\n    <city>Anytown</city>\n    <zipcode>12345</zipcode>\n  </address>\n</person>

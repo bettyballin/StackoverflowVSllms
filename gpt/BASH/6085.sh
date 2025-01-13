@@ -1,0 +1,1 @@
+cut -d' ' -f 3 in.txt | sort | uniq > out.txt

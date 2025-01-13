@@ -1,1 +1,0 @@
-#warning "This will only hurt a little bit."\n#error "Or maybe a lot!"

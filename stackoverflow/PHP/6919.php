@@ -1,1 +1,0 @@
-$data = array(\n    "Bill Withers" => array (\n        "Lovely Day",\n        "Use Me",\n        "Ain't No Sunshine"\n    ),\n    "Fleet Foxes" => array (\n        "Sun It Rises",\n        "White Winter Hymnal"\n    ),\n    "Billy Joel" => array (\n        "Piano Man"\n    )\n);

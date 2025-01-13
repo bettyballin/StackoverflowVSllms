@@ -1,0 +1,1 @@
+SELECT v.VideoId, v.Title, v.Description\nFROM Videos v\nJOIN VideoCategories vc ON v.VideoId = vc.VideoId\nJOIN Categories c ON vc.CategoryId = c.CategoryId\nWHERE c.CategoryName = 'Jokes';

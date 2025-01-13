@@ -1,1 +1,0 @@
-function myfunction() {\n    global $stage;\n    ...\n}

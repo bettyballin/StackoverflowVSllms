@@ -1,0 +1,1 @@
+-- Query Users table\nSELECT * FROM Users WHERE ID = @UserID;\n\n-- Query Categories table\nSELECT * FROM Categories WHERE ID = @CategoryID;\n\n-- Query Objects table\nSELECT * FROM Objects WHERE UserID = @UserID AND CategoryID = @CategoryID;

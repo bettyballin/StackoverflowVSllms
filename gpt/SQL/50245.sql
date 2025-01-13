@@ -1,0 +1,1 @@
+SELECT \n    EmailAddress,\n    STUFF((SELECT ', ' + Column2\n           FROM YourTable t2\n           WHERE t2.EmailAddress = t1.EmailAddress\n           FOR XML PATH('')), 1, 2, '') AS Column2\nFROM \n    YourTable t1\nGROUP BY \n    EmailAddress;

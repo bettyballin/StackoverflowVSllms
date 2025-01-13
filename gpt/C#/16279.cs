@@ -1,0 +1,1 @@
+// Ensure the correct namespace is used\n   using YourNamespace.Generated;

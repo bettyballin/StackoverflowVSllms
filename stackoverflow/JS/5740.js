@@ -1,1 +1,0 @@
-var img=document.getElementById('heart' + id);\nif (img)\n{\n    if(img.src == 'images/heart.png')\n    {\n        img.src = 'images/unheart.png';\n    }\n    else if(img.src == 'images/unheart.png')\n    {\n        img.src = 'images/heart.png';\n    }\n} \nelse\n{\n     alert("Ooooh! No heart"+id+" element found!");\n}    

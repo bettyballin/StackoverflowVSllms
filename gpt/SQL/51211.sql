@@ -1,0 +1,1 @@
+UPDATE tblStarting_Data\nSET CustomerID = (\n    SELECT q.CustomerID\n    FROM qryIDPerCustomer q\n    WHERE q.TEMPCustomer = tblStarting_Data.TEMPCustomer\n)\nWHERE EXISTS (\n    SELECT 1\n    FROM qryIDPerCustomer q\n    WHERE q.TEMPCustomer = tblStarting_Data.TEMPCustomer\n);

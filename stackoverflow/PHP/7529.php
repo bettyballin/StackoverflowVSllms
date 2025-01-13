@@ -1,1 +1,0 @@
-$ch = curl_init();\n\ncurl_setopt($ch, CURLOPT_URL,            "http://url/url/url" );\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, 1 );\ncurl_setopt($ch, CURLOPT_POST,           1 );\ncurl_setopt($ch, CURLOPT_POSTFIELDS,     "body goes here" ); \ncurl_setopt($ch, CURLOPT_HTTPHEADER,     array('Content-Type: text/plain')); \n\n$result = curl_exec($ch);

@@ -1,0 +1,1 @@
+@echo off\nftp -i -s:"C:\path\to\FtpScript.txt"

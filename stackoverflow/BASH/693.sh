@@ -1,1 +1,0 @@
-sc.exe config "[servicename]" obj= "[.\username]" password= "[password]"

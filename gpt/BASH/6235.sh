@@ -1,0 +1,1 @@
+# Install New Relic PHP agent\n   sudo bash -c "$(curl -sSL https://download.newrelic.com/install/newrelic-cli/scripts/install.sh)"\n   newrelic install

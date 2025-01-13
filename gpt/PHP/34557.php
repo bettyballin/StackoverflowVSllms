@@ -1,0 +1,1 @@
+// Example input validation\nfunction sanitizeInput($input) {\n    return htmlspecialchars(strip_tags(trim($input)));\n}

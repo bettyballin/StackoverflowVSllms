@@ -1,0 +1,1 @@
+chmod +x control_launchagent.sh

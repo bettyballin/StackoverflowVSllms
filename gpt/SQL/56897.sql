@@ -1,0 +1,1 @@
+EXPLAIN\nSELECT\n    a.nid,\n    a.title,\n    a.uid,\n    b.parent,\n    b.weight,\n    c.name,\n    d.value\nFROM table1 AS a\nINNER JOIN table2 AS b ON a.vid = b.vid AND a.status = 1\nINNER JOIN table3 AS c ON c.uid = a.uid\nINNER JOIN table4 AS d ON d.content_id = a.nid AND d.value_type = 'percent' AND d.function = 'average';

@@ -1,0 +1,1 @@
+INSERT INTO day (main_id, day) VALUES (9, 0);

@@ -1,1 +1,0 @@
-passpage = document.URL \nif (top.location == self.location) \n top.location.href="master.html?" + passpage 

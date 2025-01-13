@@ -1,0 +1,1 @@
+function showDiv() {\n  var myDiv = document.getElementById('myDiv');\n  myDiv.style.display = 'block';\n  console.log(window.getComputedStyle(myDiv).display); // Check display property\n}

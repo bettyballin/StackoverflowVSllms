@@ -1,0 +1,1 @@
+-- Clustered index on the composite primary key\nCREATE CLUSTERED INDEX idx_AtoB_Aid_Bid ON AtoB(Aid ASC, Bid ASC);\n\n-- Additional non-clustered index on the reverse order\nCREATE NONCLUSTERED INDEX idx_AtoB_Bid_Aid ON AtoB(Bid ASC, Aid ASC);

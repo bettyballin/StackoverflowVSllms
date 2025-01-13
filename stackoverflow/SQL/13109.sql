@@ -1,1 +1,0 @@
-COLUMN A : 2\nCOLUMN B : 1\n\nCOLUMN A_PK : 1  ( if new.a < new.b then new.a else new.b )\nCOLUMN B_PK : 2  ( if new.b > new.a then new.b else new.a )

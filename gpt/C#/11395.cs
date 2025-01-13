@@ -1,0 +1,1 @@
+using System;\nusing MyComLib;\n\nnamespace MyCSharpApp\n{\n    class Program\n    {\n        static void Main(string[] args)\n        {\n            MyComObject comObj = new MyComObject();\n            string output = comObj.SDKFunction("input");\n            Console.WriteLine(output);\n        }\n    }\n}

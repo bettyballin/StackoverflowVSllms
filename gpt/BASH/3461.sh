@@ -1,0 +1,1 @@
+bsdiff old_directory new_directory patch_file

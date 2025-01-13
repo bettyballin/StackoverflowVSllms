@@ -1,1 +1,0 @@
-SELECT Action,\n       MAX( CASE data WHEN 'View' THEN data ELSE '' END ) ViewCol, \n       MAX( CASE data WHEN 'Edit' THEN data ELSE '' END ) EditCol\n FROM t\n GROUP BY Actio

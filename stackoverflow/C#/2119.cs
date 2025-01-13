@@ -1,1 +1,0 @@
-string fullAppName = Assembly.GetCallingAssembly().GetName().CodeBase;\nstring fullAppPath = Path.GetDirectoryName(fullAppName);

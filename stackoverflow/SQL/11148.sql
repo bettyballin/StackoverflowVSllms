@@ -1,1 +1,0 @@
-INSERT IGNORE INTO `table1`\nSELECT DISTINCT `table2`.`col1`, `table1`.`col2`\nFROM `table1`\nJOIN `table2`

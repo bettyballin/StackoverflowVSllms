@@ -1,1 +1,0 @@
-<?php\n$xml = <<< XML\n<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">\n<html lang="en">\n    <head>\n        <title>...</title>\n    </head>\n    <body><pre>a\nb<b>\r\n</b>c</pre></body>\n</html>\nXML;<br>\n$content = new DOMDocument();\n$content->loadhtml($xml);\n$content = simplexml_import_dom($content);\necho $content->asxml();

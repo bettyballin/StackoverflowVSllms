@@ -1,0 +1,1 @@
+import importlib\nimport foo\n\n# Check if foo.py has changed (this part depends on your implementation)\n# For example, you might use a file timestamp or a version number\n\n# Reload the foo module\nimportlib.reload(foo)\n\n# Now you can use the reloaded module\nmyfoo = foo.Foo()

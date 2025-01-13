@@ -1,0 +1,1 @@
+# Disable 8.3 filename creation\n   fsutil behavior set disable8dot3 1

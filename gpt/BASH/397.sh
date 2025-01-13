@@ -1,0 +1,1 @@
+isql -S localhost:5000 -U sa -P

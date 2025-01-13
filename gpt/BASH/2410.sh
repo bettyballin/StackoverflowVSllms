@@ -1,0 +1,1 @@
+sudo chmod 440 /path/to/your/file

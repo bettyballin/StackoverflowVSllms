@@ -1,0 +1,1 @@
+Regex r = new Regex(@"^\\\\([^\\]+)", RegexOptions.IgnoreCase);\n\nMatch m = r.Match(@"\\servername\d$\directory");\n\nif (m.Success)\n{\n    Console.WriteLine(m.Groups[1].Value);\n}

@@ -1,0 +1,1 @@
+INSERT INTO Country (CountryName)\n   VALUES \n   ('Afghanistan'),\n   ('Albania'),\n   ('Algeria'),\n   -- Add all other country names here\n   ('Western Sahara'),\n   ('Yemen'),\n   ('Zambia'),\n   ('Zimbabwe');

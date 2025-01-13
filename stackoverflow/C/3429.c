@@ -1,1 +1,0 @@
-#include <boost/filesystem.hpp>\n\nif ( !boost::filesystem::exists( "myfile.txt" ) )\n{\n  std::cout << "Can't find my file!" << std::endl;\n}

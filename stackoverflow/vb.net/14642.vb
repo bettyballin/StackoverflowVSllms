@@ -1,1 +1,0 @@
-Dim s As String = "Michael O'Flatley"\nDim escapedString as String = s.Replace("'", "''")

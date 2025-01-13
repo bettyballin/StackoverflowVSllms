@@ -1,0 +1,1 @@
+from sqlobject import SQLObject, StringCol, connectionForURI\n\n   connection = connectionForURI('sqlite:///example.db')\n   sqlhub.processConnection = connection\n\n   class ExampleModel(SQLObject):\n       name = StringCol()

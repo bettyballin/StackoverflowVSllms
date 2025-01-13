@@ -1,0 +1,1 @@
+#define and cpu_mask_and   // Add this line before including cpumask.h\n\n#include <linux/cpumask.h>\n\n#undef and                 // Cleanup after including

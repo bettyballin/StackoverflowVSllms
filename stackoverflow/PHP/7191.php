@@ -1,1 +1,0 @@
-require 'coolapp/class/Model.php'\nrequire 'coolapp/display/Router.php'\nrequire 'spinoff/display/JsView.php'\n// etc

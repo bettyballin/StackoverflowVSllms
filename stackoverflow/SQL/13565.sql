@@ -1,1 +1,0 @@
-CREATE TABLE [dbo].[myTable](\n[intId] [int] IDENTITY(1,1) NOT NULL,\n[realGuidId] [uniqueidentifier] NOT NULL,\n[someData] [varchar](50) NULL,\n    CONSTRAINT [PK_myTable] UNIQUE NONCLUSTERED \n    (\n   [realGuidId] ASC\n    )\n)\n\nCREATE CLUSTERED INDEX [IX_myTable] ON [dbo].[myTable] \n(\n[intId] ASC\n)

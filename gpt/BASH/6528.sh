@@ -1,0 +1,1 @@
+rename_tab "My New Tab Title"

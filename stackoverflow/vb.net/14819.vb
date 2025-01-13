@@ -1,1 +1,0 @@
-Dim Key() As Byte = Convert.FromBase64String(My.Settings.PortalHASH)

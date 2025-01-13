@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    // Example: Hide the first row\n    myTable.Rows[0].Attributes.Add("class", "hidden-row");\n\n    // Example: Hide the third row\n    myTable.Rows[2].Attributes.Add("class", "hidden-row");\n}

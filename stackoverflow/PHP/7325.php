@@ -1,1 +1,0 @@
-$flat = array();\nforeach($multidim as $item)\n    $flat[$item['ClientID']] = $item['Name'];

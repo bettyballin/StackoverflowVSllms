@@ -1,0 +1,1 @@
+<style type="text/css">\n#toolbar {\n    background: url('/_assets/img/toolbar.gif') repeat-x;\n    height: 25px;\n    position: fixed;\n    bottom: 0;\n    width: 80%;\n    left: 50%;\n    transform: translateX(-50%);\n    border-left: 1px solid #000000;\n    border-right: 1px solid #000000;\n    z-index: 100;\n    font-size: 0.8em;\n}\n</style>

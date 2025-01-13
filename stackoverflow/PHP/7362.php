@@ -1,1 +1,0 @@
-$arr = array_combine(array_keys($arr), array_values($arr));

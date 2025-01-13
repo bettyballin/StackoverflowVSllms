@@ -1,0 +1,1 @@
+int* ptr = nullptr;\n\nif (ptr == nullptr) {\n    // Handle null pointer case\n}

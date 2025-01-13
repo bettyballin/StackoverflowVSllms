@@ -1,0 +1,1 @@
+using System.Runtime.InteropServices;\n\n[ComVisible(true)]\npublic interface IMyClass\n{\n    // interface members\n}

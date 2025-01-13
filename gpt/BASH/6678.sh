@@ -1,0 +1,1 @@
+# Create a new branch for Task A\n   git checkout -b task-A\n\n   # Work on Task A and commit changes\n   git add .\n   git commit -m "Work on Task A"\n\n   # Switch to a new branch for Task B\n   git checkout -b task-B\n\n   # Work on Task B and commit changes\n   git add .\n   git commit -m "Work on Task B"\n\n   # Switch back to Task A\n   git checkout task-A

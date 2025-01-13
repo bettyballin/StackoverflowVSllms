@@ -1,0 +1,1 @@
+using System;\nusing System.Reflection;\n\nclass Program\n{\n    static void Main()\n    {\n        string assemblyPath = Assembly.GetExecutingAssembly().Location;\n        Console.WriteLine($"The path of the current assembly is: {assemblyPath}");\n    }\n}

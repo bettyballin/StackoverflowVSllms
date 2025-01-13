@@ -1,1 +1,0 @@
-// checkbox click event handler\n$('input:checkbox.liChk').live('click', function () {\n    // access parent li, do whatever you want with it\n    console.log($(this).parent('li'));\n});    \n\n// append checkboxes to all li tags\n$('<input type="checkbox" class="liChk" />').appendTo('li');

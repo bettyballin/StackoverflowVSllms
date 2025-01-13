@@ -1,0 +1,1 @@
+SELECT * \nFROM table \nWHERE 'www.google.com' LIKE CONCAT('%', domain);

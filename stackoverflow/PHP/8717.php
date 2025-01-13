@@ -1,1 +1,0 @@
-while($row_title = mysql_fetch_array($result_title)){\n$row_body = mysql_fetch_array($result_body);\n\n    // code\n}

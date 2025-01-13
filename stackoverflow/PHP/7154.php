@@ -1,1 +1,0 @@
-<?php\n$beer = 'Heineken';\necho "$beer's taste is great"; // works; "'" is an invalid character for variable names\necho "He drank some $beers";   // won't work; 's' is a valid character for variable names but the variable is "$beer"\necho "He drank some ${beer}s"; // works\necho "He drank some {$beer}s"; // works\n?>

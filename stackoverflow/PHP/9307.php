@@ -1,1 +1,0 @@
-$cats = array();\nforeach($categories as $c) {\n    $cats[$c['Category']['id']] = $c['Category']['name'];\n}

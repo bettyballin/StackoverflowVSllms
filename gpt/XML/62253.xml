@@ -1,0 +1,1 @@
+<configuration>\n  <location path="app1">\n    <system.web>\n      <!-- app1 specific settings -->\n    </system.web>\n  </location>\n  <location path="app2">\n    <system.web>\n      <!-- app2 specific settings -->\n    </system.web>\n  </location>\n</configuration>

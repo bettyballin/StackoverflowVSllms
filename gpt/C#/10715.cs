@@ -1,0 +1,1 @@
+<#@ template language="C#" #>\n<#@ output extension=".cs" #>\n<#@ parameter name="ClassName" type="System.String" #>\nusing System;\n\nnamespace GeneratedNamespace\n{\n    public class <#= ClassName #>\n    {\n        public void Print()\n        {\n            Console.WriteLine("This is a generated class named <#= ClassName #>");\n        }\n    }\n}

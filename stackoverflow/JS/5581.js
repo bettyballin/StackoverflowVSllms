@@ -1,1 +1,0 @@
-$(function(){\n    $('tr:even').addClass('alternateClass');\n    $('tr:odd').addClass('mainClass');\n});

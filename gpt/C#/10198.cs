@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n   {\n       if (IsPostBack)\n       {\n           // Recreate dynamic controls here\n           foreach (var item in itemsList)\n           {\n               TableRow tRow = new TableRow();\n               AddImageButton(tRow, item.letterName, item.remove);\n               myTable.Rows.Add(tRow);\n           }\n       }\n   }

@@ -1,1 +1,0 @@
-import lxml.html\nt = lxml.html.parse(url)\nprint(t.find(".//title").text)

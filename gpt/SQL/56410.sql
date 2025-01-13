@@ -1,0 +1,1 @@
+CREATE TABLE users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    mobile_number VARCHAR(15) NOT NULL UNIQUE,\n    name VARCHAR(255),\n    email VARCHAR(255) NOT NULL UNIQUE\n);\n\nCREATE TABLE other_table (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    user_id INT,\n    FOREIGN KEY (user_id) REFERENCES users(id)\n);

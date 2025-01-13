@@ -1,1 +1,0 @@
-Dim myWorkSheet As Excel.Worksheet = myWorkbook.Worksheets(aSheetName)\nmyWorkSheet.Activate()\nDim myRange As Excel.Range\n\nmyRange = myWorkSheet.Range("A1", "L10")\nmyRange.Select()\n\n\nmyRange.Sort(Key1:=myRange.Range("D1"), _\n                        Order1:=Excel.XlSortOrder.xlAscending, _\n                        Orientation:=Excel.XlSortOrientation.xlSortColumns)

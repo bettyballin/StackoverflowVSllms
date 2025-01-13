@@ -1,1 +1,0 @@
-$trimmed = implode(".", array_slice(explode(".", $ip), 0, 3));

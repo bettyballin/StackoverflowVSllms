@@ -1,0 +1,1 @@
+import objc\nimport time\nfrom Cocoa import *\n\ndef get_idle_duration():\n    idle_time = Quartz.CGEventSourceSecondsSinceLastEventType(Quartz.kCGEventSourceStateHIDSystemState, Quartz.kCGAnyInputEventType)\n    return idle_time\n\nif __name__ == "__main__":\n    while True:\n        print("Idle time: {} seconds".format(get_idle_duration()))\n        time.sleep(1)

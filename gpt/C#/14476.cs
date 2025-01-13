@@ -1,0 +1,1 @@
+var user = dbContext.Users.SingleOrDefault(u => u.Id == userId);\n\nif (user.EmailAddress == null)\n{\n    // This means that the EmailAddress in the database was DBNull\n    // or the user itself was not found in the database (user is null).\n}\nelse\n{\n    // EmailAddress has a value\n}

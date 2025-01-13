@@ -1,0 +1,1 @@
+WcfClientHelper.Use(\n    () => new SomeWCFServiceClient(),\n    client =>\n    {\n        // Your logic with the WCF client\n        client.SomeMethod();\n    });

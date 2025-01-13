@@ -1,0 +1,1 @@
+Control focusedControl = this.ActiveControl;\nif (focusedControl != null)\n{\n    MessageBox.Show("The control with focus is: " + focusedControl.Name);\n}\nelse\n{\n    MessageBox.Show("No control currently has focus.");\n}

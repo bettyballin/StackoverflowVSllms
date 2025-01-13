@@ -1,0 +1,1 @@
+awk -F= '{print "export "$1"=\""$2"\""}' env.txt

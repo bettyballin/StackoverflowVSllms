@@ -1,0 +1,1 @@
+function generateUniqueFolderName($length = 10) {\n    return substr(bin2hex(random_bytes($length)), 0, $length);\n}\n\n// Example usage\n$folderName = generateUniqueFolderName();\necho $folderName; // e.g., "a3f5b9e2d1"

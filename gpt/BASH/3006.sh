@@ -1,0 +1,1 @@
+openssl req -new -x509 -key demoCA/private/cakey.pem -out demoCA/cacert.pem -days 365

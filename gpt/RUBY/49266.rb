@@ -1,0 +1,1 @@
+class Schedule < ApplicationRecord\n  belongs_to :assignment\n  belongs_to :employee\n  belongs_to :job_title\n  has_many :blocks\n\n  validates :assignment, :employee, :job_title, presence: true\nend

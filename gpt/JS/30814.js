@@ -1,0 +1,1 @@
+function show(jobNo) {\n    // Open a new window and pass the job number as a query parameter\n    var newWindow = window.open("show_details.php?jobNo=" + jobNo, "_blank", "width=800,height=600");\n}

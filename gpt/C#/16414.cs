@@ -1,0 +1,1 @@
+protected void grdHistory_OnFilter(object sender, GridFilterEventArgs e)\n    {\n        string filterExpression = e.FilterExpression;\n        // Apply the filter expression to your data source\n        DataSource.SelectParameters["FilterExpression"].DefaultValue = filterExpression;\n        grdHistory.DataBind();\n    }

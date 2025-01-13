@@ -1,1 +1,0 @@
-session.referer_check

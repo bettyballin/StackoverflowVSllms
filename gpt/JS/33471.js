@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('input[name="theme"]').click(function() {\n    var selectedValue = $('input[name="theme"]:checked').val();\n    alert("Selected value: " + selectedValue);\n  });\n});

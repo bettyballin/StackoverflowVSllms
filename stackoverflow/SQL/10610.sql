@@ -1,1 +1,0 @@
-select color, min(id)\nfrom   mytable\ngroup by color;

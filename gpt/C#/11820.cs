@@ -1,0 +1,1 @@
+SessionIDManager manager = new SessionIDManager();\n   string newSessionId = manager.CreateSessionID(Context);\n   bool isRedirected = false;\n   bool isAdded = false;\n   manager.SaveSessionID(Context, newSessionId, out isRedirected, out isAdded);

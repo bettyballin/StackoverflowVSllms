@@ -1,0 +1,1 @@
+// Example: Testing site on Mac Firefox using BrowserStack\n   const browserstack = require('browserstack-local');\n   \n   const bs_local = new browserstack.Local();\n   bs_local.start({\n       'key': 'YOUR_ACCESS_KEY'\n   }, function(error) {\n       if (error) console.log(error);\n       console.log('Connected. Now you can test your site on Mac Firefox.');\n   });

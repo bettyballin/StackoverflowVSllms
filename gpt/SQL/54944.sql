@@ -1,0 +1,1 @@
+INSERT INTO YourTableName\nSELECT *\nFROM YourTableName\nWHERE YourPrimaryKey = [Enter the primary key of the row to duplicate];

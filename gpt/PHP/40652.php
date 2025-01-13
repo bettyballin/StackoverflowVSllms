@@ -1,0 +1,1 @@
+// Generate a unique session name based on the script path\n$sessionName = 'SESS_' . md5(__DIR__);\nsession_name($sessionName);\n\n// Start the session\nsession_start();

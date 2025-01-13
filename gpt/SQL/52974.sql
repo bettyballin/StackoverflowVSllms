@@ -1,0 +1,1 @@
+DBCC USEROPTIONS -- To check current settings\n\n    -- To set a specific isolation level if required\n    SET TRANSACTION ISOLATION LEVEL READ COMMITTED

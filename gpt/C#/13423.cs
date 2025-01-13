@@ -1,0 +1,1 @@
+public void MyMethod()\n{\n    if (Environment.UserInteractive)\n    {\n        // The code is being called from an interactive application\n    }\n    else\n    {\n        // The code is being called from a Windows Service\n    }\n}

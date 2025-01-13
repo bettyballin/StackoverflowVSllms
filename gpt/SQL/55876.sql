@@ -1,0 +1,1 @@
+SELECT \n    CASE \n        WHEN @var = 'xyz' THEN col1 \n        WHEN @var = 'zyx' THEN col2 \n        ELSE col7 \n    END AS selected_col1,\n    CASE \n        WHEN @var = 'xyz' THEN col2 \n        WHEN @var = 'zyx' THEN col3 \n        ELSE col8 \n    END AS selected_col2\nFROM your_table_name;

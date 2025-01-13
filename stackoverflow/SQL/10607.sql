@@ -1,1 +1,0 @@
-CREATE TABLE `components` (\n    `id` int(10) unsigned NOT NULL auto_increment,\n    `typeId` int(10) unsigned NOT NULL,\n    `moreInfo` VARCHAR(32), \n    -- etc\n    PRIMARY KEY (`id`),\n    KEY `type` (`typeId`)\n    CONSTRAINT `myForeignKey` FOREIGN KEY (`typeId`)\n      REFERENCES `types` (`id`) ON DELETE CASCADE ON UPDATE CASCADE\n)

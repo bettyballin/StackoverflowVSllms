@@ -1,0 +1,1 @@
+cd /usr/ports/lang/openjdk11 && make install clea

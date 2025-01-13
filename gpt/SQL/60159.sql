@@ -1,0 +1,1 @@
+-- "Up" method to change column type\n   ALTER TABLE users ALTER COLUMN birthdate TYPE VARCHAR(10);\n\n   -- "Down" method to revert column type\n   ALTER TABLE users ALTER COLUMN birthdate TYPE DATE;

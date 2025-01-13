@@ -1,1 +1,0 @@
-else if (!document.form1.terms.checked){

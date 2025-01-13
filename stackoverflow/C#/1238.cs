@@ -1,1 +1,0 @@
-this.UltraCombo1.TextBox.SelectAll()

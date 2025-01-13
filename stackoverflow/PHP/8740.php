@@ -1,1 +1,0 @@
-$files = glob('/file/path/prefix*');

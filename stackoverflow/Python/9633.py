@@ -1,1 +1,0 @@
-d = dict(p1=1, p2=2)\ndef f2(p1,p2):\n    print(p1, p2)\nf2(**d)

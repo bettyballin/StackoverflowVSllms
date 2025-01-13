@@ -1,1 +1,0 @@
-<?php\nif ($something) {\n   echo 'one conditional line of code';\n   echo 'another conditional line of code';\n}\n\n\nif ($something) echo 'one conditional line of code';\n\nif ($something)\necho 'one conditional line of code';\necho 'a NON-conditional line of code'; // this line gets executed regardless of the value of $something\n?>

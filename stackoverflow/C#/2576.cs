@@ -1,1 +1,0 @@
-email.Substring(email.IndexOf("@"C))

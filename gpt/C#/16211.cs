@@ -1,0 +1,1 @@
+private void copy(DataRow trFrom, DataRow trTo)\n{\n    var columns = trFrom.Table.Columns.Cast<DataColumn>();\n    foreach (var column in columns)\n    {\n        trTo[column.ColumnName] = trFrom[column];\n    }\n}

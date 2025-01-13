@@ -1,1 +1,0 @@
-$referringSite = $_SERVER['HTTP_REFERER']; // is that spelt wrong in PHP ?

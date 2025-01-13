@@ -1,0 +1,1 @@
+WITH ranked_things AS (\n  SELECT\n    thing.id,\n    thing.price,\n    thing.location_id,\n    ROW_NUMBER() OVER (PARTITION BY thing.location_id ORDER BY thing.price ASC) AS rn\n  FROM\n    thing\n  INNER JOIN\n    location ON thing.location_id = location.id\n  WHERE\n    location.type = xxx\n)\nSELECT\n  id\nFROM\n  ranked_things\nWHERE\n  rn = 1;

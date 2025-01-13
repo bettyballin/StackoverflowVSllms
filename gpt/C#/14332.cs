@@ -1,0 +1,1 @@
+IHost host = new WebHost();\nvar businessLayer = new BusinessLayer(host);\nbusinessLayer.SomeBusinessMethod();

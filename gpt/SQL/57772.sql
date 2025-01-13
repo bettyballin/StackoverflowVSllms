@@ -1,0 +1,1 @@
+EXEC DBMS_STATS.SET_SYSTEM_STATS('MBRC', 8); -- Multiblock read count\n   EXEC DBMS_STATS.SET_SYSTEM_STATS('MREADTIM', 10); -- Multiblock read time\n   EXEC DBMS_STATS.SET_SYSTEM_STATS('SREADTIM', 5); -- Single block read time\n   EXEC DBMS_STATS.SET_SYSTEM_STATS('CPUSPEED', 2000); -- CPU speed

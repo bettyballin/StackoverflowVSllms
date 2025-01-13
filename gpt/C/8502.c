@@ -1,0 +1,1 @@
+typedef struct _GUID \n{  \n   DWORD Data1;  \n   WORD Data2;  \n   WORD Data3;  \n   WORD Data4;  \n   BYTE Data5[6]; \n} GUID;

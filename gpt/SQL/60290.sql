@@ -1,0 +1,1 @@
+WHERE DATEDIFF(day, dateadd(hh, tz.Offset + \n    CASE WHEN ds.LocalTimeZone IS NOT NULL THEN 1 ELSE 0 END, t.TheDateINeedToCheck), @ActivityDate) = 0

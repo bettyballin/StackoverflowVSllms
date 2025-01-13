@@ -1,0 +1,1 @@
+# Using open to read a file\nwith open('example.txt', 'r') as file:\n    contents = file.read()\n    print(contents)

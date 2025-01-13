@@ -1,0 +1,1 @@
+vnstati -s -i eth0 -o /var/www/html/vnstat.png

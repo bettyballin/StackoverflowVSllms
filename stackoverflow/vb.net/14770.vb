@@ -1,1 +1,0 @@
-Public Function Evaluate(ByVal s As String) As String\nEnd Functio

@@ -1,0 +1,1 @@
+# Example command to run JMeter with a test plan\n   jmeter -n -t test_plan.jmx -l results.jtl

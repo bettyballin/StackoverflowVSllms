@@ -1,0 +1,1 @@
+export PHP_INCLUDE_PATH=/path/to/vhost1/includes

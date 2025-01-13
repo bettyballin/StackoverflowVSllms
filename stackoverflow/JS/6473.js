@@ -1,1 +1,0 @@
-MAP_WIDTH = 1000;\nMAP_HEIGHT = 446;\n\nfunction convert(lat, lon){\n    var y = ((-1 * lat) + 90) * (MAP_HEIGHT / 180);\n    var x = (lon + 180) * (MAP_WIDTH / 360);\n    return {x:x,y:y};\n}

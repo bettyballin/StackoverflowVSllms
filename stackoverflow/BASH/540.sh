@@ -1,1 +1,0 @@
-mkdir -p ~/rpmbuild/{RPMS,SRPMS,BUILD,SOURCES,SPECS,tmp}\n\ncat <<EOF >~/.rpmmacros\n%_topdir   %(echo $HOME)/rpmbuild\n%_tmppath  %{_topdir}/tmp\nEOF\n\ncd ~/rpmbuild

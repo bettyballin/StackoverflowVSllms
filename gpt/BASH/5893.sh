@@ -1,0 +1,1 @@
+sudo -u nobody php /path/to/your/script.php

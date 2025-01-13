@@ -1,0 +1,1 @@
+// Assume you have a reference to a div element\nvar currentDiv = document.getElementById("yourDivId");\n\n// Get the next div element\nvar nextDiv = currentDiv.nextElementSibling;\n\n// Get the previous div element\nvar previousDiv = currentDiv.previousElementSibling;

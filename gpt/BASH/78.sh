@@ -1,0 +1,1 @@
+sed -i 's/Monday:/Monday:\n/' inputfile

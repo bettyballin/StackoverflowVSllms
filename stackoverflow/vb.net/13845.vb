@@ -1,1 +1,0 @@
-If DBNull.Value.Equals(objStatus) Then\n  Return False\nElse\n  Return objStatus\nEnd If

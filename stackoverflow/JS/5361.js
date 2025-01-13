@@ -1,1 +1,0 @@
-$("#listing")[0].submit();

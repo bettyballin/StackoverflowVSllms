@@ -1,0 +1,1 @@
+ALTER SYSTEM CHECKPOINT;\n   ALTER SYSTEM SET UNDO_RETENTION = 1; -- Temporarily reduce undo retention\n   ALTER SYSTEM SET UNDO_RETENTION = 900; -- Restore undo retentio

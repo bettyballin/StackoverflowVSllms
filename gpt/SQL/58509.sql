@@ -1,0 +1,1 @@
+-- Assuming you have a query that uses these parameters\nSELECT * FROM Logs WHERE ColumnA = %a% AND ColumnB = %b%;

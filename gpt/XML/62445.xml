@@ -1,0 +1,1 @@
+<class name="YourNamespace.YourEntity, YourAssembly" table="YourTable">\n    <id name="Id" type="Guid">\n        <generator class="guid.comb" />\n    </id>\n    <!-- other mappings -->\n</class>

@@ -1,1 +1,0 @@
-SELECT COUNT(DISTINCT productId) from  table_name WHERE keyword='$keyword'

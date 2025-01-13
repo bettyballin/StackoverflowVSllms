@@ -1,1 +1,0 @@
-$total = 0;\n$count = 0;\nforeach($ratings as $number=>$frequency) {\n  $total += $number * $frequency;\n  $count += $frequency;\n}\nreturn $total / $count;

@@ -1,0 +1,1 @@
+require_once 'vendor/autoload.php';\n\nuse Symfony\Component\Yaml\Yaml;\n\n$config = Yaml::parseFile('config.yaml');\n\nprint_r($config);

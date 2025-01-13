@@ -1,1 +1,0 @@
-my_list = ['a', 'b', 'c', 'd']\nmy_string = ','.join(my_list)

@@ -1,1 +1,0 @@
-public void Init(HttpApplication app)\n{\n   var ssm = app.Modules["Session"] as SessionStateModule;\n   ssm.Start += Foo;\n   ssm.End += Bar;\n}

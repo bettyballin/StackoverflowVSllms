@@ -1,0 +1,1 @@
+CREATE TABLE your_table (\n        string_id INT,\n        int_value INT,\n        PRIMARY KEY (string_id, int_value),\n        FOREIGN KEY (string_id) REFERENCES string_lookup(id)\n    );

@@ -1,1 +1,0 @@
-$result = $client->CwiRateDetails(array(\n    'PropertyCode'     => ...,\n    'DateFrom'         => ...,\n    'DateTo'           => ...,\n    'RatePlan'         => ...,\n    'RoomType'         => ...,\n    'PromotionalRates' => ...,\n));

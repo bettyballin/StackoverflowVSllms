@@ -1,1 +1,0 @@
-create unique index sandbox_idx on sandbox\n (case when a is null or b is null then null else a end,\n  case when a is null or b is null then null else b end);

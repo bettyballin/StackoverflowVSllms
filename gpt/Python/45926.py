@@ -1,0 +1,1 @@
+import ctypes\n    from comtypes.client import CreateObject\n\n    # Load the manifest (if it is an external file)\n    ctypes.windll.kernel32.ActivateActCtx(0, "YourManifestFile.manifest")\n\n    # Create the COM object\n    com_object = CreateObject("YourApp.YourComponent.1")

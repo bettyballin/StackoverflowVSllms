@@ -1,0 +1,1 @@
+.disabled {\n    color: grey;\n    pointer-events: none;\n    cursor: default;\n}

@@ -1,0 +1,1 @@
+@media print {\n    /* Ensure background images are visible in print */\n    .star-background {\n        background-image: url('path/to/your/stars.png');\n    }\n\n    /* Provide a fallback using content if background images are not printed */\n    .star-background::before {\n        content: '***'; /* Adjust the number of stars as needed */\n        display: block;\n    }\n}

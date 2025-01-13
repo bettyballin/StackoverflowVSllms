@@ -1,0 +1,1 @@
+Response.ContentType = "text/csv";\nResponse.AddHeader("Content-Disposition", "attachment;filename=yourfile.csv");

@@ -1,0 +1,1 @@
+xdg-mime query default audio/x-mpegurl

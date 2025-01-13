@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    var username = $('#username').val();\n    console.log(username); // Outputs: DOMAIN\hers\n});

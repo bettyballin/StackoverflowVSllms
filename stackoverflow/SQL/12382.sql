@@ -1,1 +1,0 @@
-select Status from Orders where OrderId = 42

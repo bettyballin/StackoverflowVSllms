@@ -1,1 +1,0 @@
-foreach ($array as $item) {\n    $userId = $item->user_id;\n    //do something with the userId for this item\n}

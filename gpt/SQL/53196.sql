@@ -1,0 +1,1 @@
+INSERT INTO new_table1\nSELECT * FROM table1_bu;

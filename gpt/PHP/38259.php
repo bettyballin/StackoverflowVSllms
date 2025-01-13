@@ -1,0 +1,1 @@
+<?php\n$number = 27;\n$formatter = new \NumberFormatter("en", \NumberFormatter::SPELLOUT);\n$word = $formatter->format($number);\necho $word; // Outputs: twenty-seven\n?>

@@ -1,1 +1,0 @@
-Me.Cursor = Cursors.AppStarting

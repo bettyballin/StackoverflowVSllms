@@ -1,0 +1,1 @@
+public class Employee\n{\n    public int Id { get; set; }\n    public string TotalSales { get; set; } // Initially named TotalSales\n}

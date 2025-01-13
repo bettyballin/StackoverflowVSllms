@@ -1,0 +1,1 @@
+diff env_output_machine1.txt env_output_machine2.txt

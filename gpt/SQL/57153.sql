@@ -1,0 +1,1 @@
+CREATE PROCEDURE TemplateSelector\n    @template NVARCHAR(40),\n    @code NVARCHAR(80)\nAS\nBEGIN\n    DECLARE @sql NVARCHAR(MAX);\n\n    SET @sql = N'SELECT * FROM ' + QUOTENAME(@template) + ' WHERE ProductionCode = @code';\n\n    EXEC sp_executesql @sql, N'@code NVARCHAR(80)', @code;\nEND;

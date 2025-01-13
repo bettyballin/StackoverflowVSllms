@@ -1,1 +1,0 @@
-setcookie("colorcode", $_SESSION['colorcode'], time()+3600*24*30, '/');

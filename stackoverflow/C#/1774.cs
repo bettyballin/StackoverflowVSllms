@@ -1,1 +1,0 @@
-Response.ContentType = "application/pdf";\n        byte[] bytes = YourBinaryContent;\n\n        using (BinaryWriter writer = new BinaryWriter(context.Response.OutputStream))\n        {\n            writer.Write(bytes, 0, bytes.Length);\n        }

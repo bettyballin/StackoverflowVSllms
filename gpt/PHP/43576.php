@@ -1,0 +1,1 @@
+$date = new DateTime();\n$date->add(new DateInterval('P7D')); // Adds 7 days to the current date\necho $date->format('Y-m-d');\n\n$date->sub(new DateInterval('P7D')); // Subtracts 7 days from the current date\necho $date->format('Y-m-d');

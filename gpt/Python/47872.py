@@ -1,0 +1,1 @@
+import os\n\n   # Example of using libimobiledevice to list connected devices\n   os.system('idevice_id -l')

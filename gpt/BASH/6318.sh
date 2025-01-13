@@ -1,0 +1,1 @@
+sudo rpm -ivh gcc-4.1.2-42.el5.x86_64.rpm\n   sudo rpm -ivh gcc-c++-4.1.2-42.el5.x86_64.rpm\n   sudo rpm -ivh kernel-devel-2.6.18-92.el5.x86_64.rpm

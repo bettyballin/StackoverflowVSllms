@@ -1,0 +1,1 @@
+# Example of setting up repository access control\n    git config --global user.name "Your Name"\n    git config --global user.email "you@example.com"\n    git init --bare /path/to/repo.git

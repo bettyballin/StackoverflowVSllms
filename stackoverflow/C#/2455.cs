@@ -1,1 +1,0 @@
-= System.Text.RegularExpressions.Regex.Replace(StringWithHTMLtoStrip, "<[^>]+>","")

@@ -1,0 +1,1 @@
+echo 'foo'; // no return value\n      $exists = isset($x); // returns a boolea

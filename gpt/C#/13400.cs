@@ -1,0 +1,1 @@
+public partial class DockableForm : DockContent\n   {\n       public DockableForm()\n       {\n           InitializeComponent();\n       }\n   }

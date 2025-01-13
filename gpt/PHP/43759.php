@@ -1,0 +1,1 @@
+ini_set('session.entropy_length', 256);\n   ini_set('session.hash_function', 'sha256');

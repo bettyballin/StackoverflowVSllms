@@ -1,1 +1,0 @@
-BOOL optVal = TRUE;\nint optLen = sizeof(BOOL);\n\nif (setsockopt(\n      socket,\n      IPPROTO_TCP,\n      TCP_WHATEVER,\n      optVal,\n      optLen) != SOCKET_ERROR) {\n    printf("Success\n");\n}

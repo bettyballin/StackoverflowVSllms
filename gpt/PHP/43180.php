@@ -1,0 +1,1 @@
+$pattern = '/^(webmaster|admin|webadmin|sysadmin)$/i';\n\nif (preg_match($pattern, 'admin')) {\n    echo "Nickname is forbidden.";\n} else {\n    echo "Nickname is allowed.";\n}

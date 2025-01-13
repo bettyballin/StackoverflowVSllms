@@ -1,0 +1,1 @@
+#!/bin/bash\n   /Applications/MAMP/Library/bin/mysql -u root -p < /path/to/Dropbox/db_backup.sql

@@ -1,0 +1,1 @@
+pg_dump -U [username] -h [source_host] [database_name] | gzip > database_dump.sql.gz

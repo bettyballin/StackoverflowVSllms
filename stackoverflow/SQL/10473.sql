@@ -1,1 +1,0 @@
-WITH Student_Grades AS\n(\n    SELECT\n        S.student_id,\n        G.grade,\n        RANK() OVER (PARTITION BY S.student_id, ORDER BY G.exam_date DESC) AS grade_rank\n    FROM\n        Students S\n    LEFT OUTER JOIN Grades G ON\n        G.student_id = S.student_id\n)\nSELECT\n    student_id,\n    grade\nFROM\n    Student_Grades\nWHERE\n    grade_rank <= 5

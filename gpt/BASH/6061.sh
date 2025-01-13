@@ -1,0 +1,1 @@
+zpaq add archive.zpaq folder/

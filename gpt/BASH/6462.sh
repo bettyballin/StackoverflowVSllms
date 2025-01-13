@@ -1,0 +1,1 @@
+sudo apt update\n     sudo apt install apache2\n     sudo apt install mysql-server\n     sudo apt install php libapache2-mod-php php-mysql

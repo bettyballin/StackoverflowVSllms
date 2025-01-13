@@ -1,0 +1,1 @@
+[HttpGet]\n[Route("api/data/gridview1")]\npublic IHttpActionResult GetGridView1Data()\n{\n    var data = // fetch your data\n    return Ok(data);\n}\n\n[HttpGet]\n[Route("api/data/gridview2")]\npublic IHttpActionResult GetGridView2Data()\n{\n    var data = // fetch your data\n    return Ok(data);\n}

@@ -1,0 +1,1 @@
+zend_module_entry my_module_entry = {\n    STANDARD_MODULE_HEADER,\n    "my_module",\n    my_functions,\n    NULL,\n    NULL,\n    NULL,\n    NULL,\n    NULL,\n    "0.1",\n    STANDARD_MODULE_PROPERTIES\n};\n\nZEND_GET_MODULE(my_module)

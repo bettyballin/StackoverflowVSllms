@@ -1,1 +1,0 @@
-ALTER TABLE packages\nADD CONSTRAINT constraintname CHECK (productCode in ('XJ', 'XD'))

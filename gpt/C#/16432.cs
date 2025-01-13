@@ -1,0 +1,1 @@
+public class BarClass\n{\n    private byte[] _data;\n    \n    public BarClass(byte[] data)\n    {\n        _data = data;\n    }\n\n    // Other members of BarClass\n}\n\n// Usage\nbyte[] foo = new byte[64];\nBarClass bar = new BarClass(foo);

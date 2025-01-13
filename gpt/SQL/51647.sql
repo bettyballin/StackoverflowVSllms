@@ -1,0 +1,1 @@
+CREATE OR REPLACE TRIGGER test_trigger  \nBEFORE INSERT  \nON myTable  \nREFERENCING NEW AS NEW  \nFOR EACH ROW  \nBEGIN  \n  SELECT test_sequence.nextval INTO :NEW.ID FROM dual;  \nEND;  \n/

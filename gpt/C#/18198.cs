@@ -1,0 +1,1 @@
+if (Request.IsAuthenticated)\n{\n    HttpCookie anonymousCookie = Request.Cookies[".ASPXANONYMOUS"];\n    if (anonymousCookie != null)\n    {\n        anonymousCookie.Expires = DateTime.Now.AddDays(-1);\n        Response.Cookies.Add(anonymousCookie);\n    }\n}

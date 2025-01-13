@@ -1,0 +1,1 @@
+ssh-copy-id -i ~/.ssh/guestuser_key.pub guestuser@somehost.com

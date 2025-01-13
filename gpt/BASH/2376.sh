@@ -1,0 +1,1 @@
+#!/bin/bash\nexport JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64\nexport PATH=$JAVA_HOME/bin:$PATH\necho "JAVA_HOME set to $JAVA_HOME"

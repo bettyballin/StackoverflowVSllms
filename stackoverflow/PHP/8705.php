@@ -1,1 +1,0 @@
-if (!($uploaded_type =="image/jpeg"))\n  {\n    echo "JPEG<br>";$ok=1;\n  }

@@ -1,0 +1,1 @@
+Private Sub TextBox1_HelpRequested(sender As Object, hlpevent As System.Windows.Forms.HelpEventArgs) Handles TextBox1.HelpRequested\n    ' Custom logic for help request\nEnd Sub

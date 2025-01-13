@@ -1,0 +1,1 @@
+CREATE TABLE `tbl` (\n  `hat` varchar(11) NOT NULL,\n  `mittens` varchar(11) NOT NULL,\n  `name` varchar(11) DEFAULT NULL,\n  `last_update` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,\n  UNIQUE KEY `clothes` (`hat`, `mittens`)\n) ENGINE=MyISAM DEFAULT CHARSET=latin1;

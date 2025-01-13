@@ -1,0 +1,1 @@
+<%= form_with(model: @user, local: true) do |form| %>\n  <!-- Other form fields for user registration -->\n\n  <div class="field">\n    <%= form.label :humanproof, "What is 2 + 2?" %>\n    <%= form.text_field :humanproof %>\n  </div>\n\n  <div class="actions">\n    <%= form.submit %>\n  </div>\n<% end %>

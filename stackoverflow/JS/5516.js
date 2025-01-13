@@ -1,1 +1,0 @@
-textArea.scrollTop = 99999;

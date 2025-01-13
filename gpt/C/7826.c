@@ -1,0 +1,1 @@
+// myLibrary.c\n#include <windows.h>\n\n__declspec(dllexport) int add(int a, int b) {\n    return a + b;\n}

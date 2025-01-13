@@ -1,1 +1,0 @@
-$Controllers = Configure::listObjects('controller')

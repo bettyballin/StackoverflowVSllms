@@ -1,0 +1,1 @@
+' Without Overloads keyword\nPublic Class ExampleClass\n    Public Sub Display(ByVal message As String)\n        Console.WriteLine("String: " & message)\n    End Sub\n\n    Public Sub Display(ByVal number As Integer)\n        Console.WriteLine("Integer: " & number)\n    End Sub\nEnd Class

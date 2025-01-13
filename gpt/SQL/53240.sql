@@ -1,0 +1,1 @@
+SET GLOBAL time_zone = 'Europe/London'; -- Replace with your desired timezone\n   SET time_zone = 'Europe/London'; -- Replace with your desired timezone

@@ -1,1 +1,0 @@
-using System;\nusing System.Globalization;\n\npublic class Test\n{\n    static void Main()\n    {\n        var provider = new CultureInfo("en-US");\n        // Doesn't throw\n        var d = DateTime.ParseExact("28/May/2009:17:43:04 +0000", \n                                    "dd/MMM/yyyy:HH:mm:ss zz00",\n                                    provider);\n    }    \n}

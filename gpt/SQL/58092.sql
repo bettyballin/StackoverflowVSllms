@@ -1,0 +1,1 @@
+WITH result AS\n(\n    SELECT \n        ROW_NUMBER() OVER (PARTITION BY SpouseID ORDER BY FromDate DESC) AS rowNumber, \n        PreviousAddressID,\n        AddressTypeID\n    FROM SpousePreviousAddresses\n    WHERE CountryID = 181\n)\nUPDATE result\nSET AddressTypeID = 1\nWHERE rowNumber = 1;

@@ -1,1 +1,0 @@
-FILE* stderr_redirect = freopen( "C:/stderr.log", "w", stderr );\n\n    // Code that writes to stderr\n\n    fclose( stderr_redirect );

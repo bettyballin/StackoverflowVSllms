@@ -1,1 +1,0 @@
-List<string> testList = new List<int>();\n\ntestList.Add(1);\ntestList.Add(2);\ntestList.Add(3);\n\nXmlSerializer xs = new XmlSerializer(typeof(List<int>));\nMemoryStream ms = new MemoryStream();\nxs.Serialize(ms, testList);\n\nstring resultXML = UTF8Encoding.UTF8.GetString(ms.ToArray());

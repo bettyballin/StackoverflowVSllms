@@ -1,0 +1,1 @@
+int main() {\n        int age = 16;\n        float height = 5.9;\n        char grade = 'A';\n        string name = "John";\n\n        cout << "Name: " << name << ", Age: " << age << ", Height: " << height << ", Grade: " << grade << endl;\n        return 0;\n    }

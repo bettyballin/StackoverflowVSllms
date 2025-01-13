@@ -1,0 +1,1 @@
+LogParser.exe "SELECT TO_LOCALTIME(TO_TIMESTAMP(date, time)) AS LogTime, UriStem, HttpStatus\n               FROM '[YourHTTPERRLogPath]\httperr*.log'\n               WHERE HttpStatus = 503\n               ORDER BY LogTime DESC" -rtp:-1

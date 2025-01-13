@@ -1,0 +1,1 @@
+#ifndef SPOOLER_H\n#define SPOOLER_H\n\nvoid spoolerFunction();\n\n#endif // SPOOLER_H

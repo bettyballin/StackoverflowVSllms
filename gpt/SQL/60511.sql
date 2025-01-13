@@ -1,0 +1,1 @@
+SELECT column1, column2\nFROM (\n      SELECT column1, column2\n      FROM your_table\n      WHERE some_condition\n) AS DRVTBL

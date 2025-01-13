@@ -1,0 +1,1 @@
+UPDATE Products\nSET TemplateID = (\n    SELECT t.TemplateID\n    FROM Templates t\n    WHERE t.TemplateName = Products.TemplateName\n)\nWHERE TemplateID IS NULL;

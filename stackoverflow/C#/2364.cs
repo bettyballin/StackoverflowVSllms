@@ -1,1 +1,0 @@
-IList<INote> notes = new List<INote>(table.Rows.Count);

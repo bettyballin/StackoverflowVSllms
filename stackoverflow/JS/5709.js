@@ -1,1 +1,0 @@
-if(xmlHttp.responseText == 'result=true') {\n                // Here you remove the appropriate element from the DOM rather than trying to update something within the DOM\n                var row = document.getElementById(layer);\n                row.parentNode.removeChild(row);\n        }\n        document.getElementById(layer).innerHTML=xmlHttp.responseText;

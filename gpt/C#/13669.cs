@@ -1,0 +1,1 @@
+public int SomeField {\n    get {\n        try {\n            return ((int)(this[this.tableName.SomeFieldColumn]));\n        }\n        catch (InvalidCastException e) {\n            throw new StrongTypingException("The value for column 'SomeField' in table 'TableName' is DBNull.", e);\n        }\n    }\n    set {\n        this[this.tableName.SomeFieldColumn] = value;\n    }\n}

@@ -1,0 +1,1 @@
+g++ -o linearalgebra linearalgebra.cpp -I /usr/include/atlas -L /usr/lib64/atlas/ -llapack -lblas

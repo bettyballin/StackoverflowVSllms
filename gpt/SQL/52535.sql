@@ -1,0 +1,1 @@
+DECLARE @cnt INT\nSET @cnt = 5\n\n;WITH Numbers AS (\n    SELECT 1 AS Number\n    UNION ALL\n    SELECT Number + 1\n    FROM Numbers\n    WHERE Number < @cnt\n)\nSELECT Number\nFROM Numbers\nOPTION (MAXRECURSION 0);

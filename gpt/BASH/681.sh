@@ -1,0 +1,1 @@
+sudo mkdir /mnt/oracle\n     sudo mount /dev/xvdf /mnt/oracle

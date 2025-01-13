@@ -1,0 +1,1 @@
+ISNULL([DateColumn]) || [DateColumn] == "" ? "Default Date" : [DateColumn]

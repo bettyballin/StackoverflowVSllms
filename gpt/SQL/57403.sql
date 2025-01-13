@@ -1,0 +1,1 @@
+CREATE PROCEDURE Customer.InsertNewOrder\n    WITH EXECUTE AS 'dbo'\n    AS\n    BEGIN\n        -- Insert logic here\n    END

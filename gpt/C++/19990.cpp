@@ -1,0 +1,1 @@
+#include <boost/algorithm/string.hpp>\n#include <string>\n\nstd::string xparam = "HELLO";\n\n// Convert to lower case\nboost::to_lower(xparam);\n\n// Now xparam is "hello"

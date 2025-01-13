@@ -1,1 +1,0 @@
-select CONCAT(INET_NTOA(ip_addr),'/',32-log2((4294967296-ip_mask))) net \nfrom subnets \norder by ip_addr

@@ -1,1 +1,0 @@
-:url => employee_url(@employee)

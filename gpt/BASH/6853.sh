@@ -1,0 +1,1 @@
+// Example of creating an Azure Virtual Machine using Azure CLI\n   az vm create --resource-group myResourceGroup --name myVM --image UbuntuLTS --size Standard_D2s_v3

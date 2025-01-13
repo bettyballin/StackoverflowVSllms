@@ -1,0 +1,1 @@
+cd /var/www/html\n    git clone https://github.com/candy-chat/candy.git

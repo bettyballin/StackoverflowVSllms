@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded", function() {\n    var form = document.getElementById('aspnetForm');\n    form.onsubmit = null; // Remove existing onsubmit handler\n\n    form.addEventListener('submit', function(event) {\n        event.preventDefault(); // Prevent form submission\n        alert('Custom Submit Handler');\n        // Your custom code here\n    });\n});

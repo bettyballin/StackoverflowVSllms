@@ -1,0 +1,1 @@
+// example.cpp\n#include "mylibrary.h"  // Include the header file from the DLL\n\nint main() {\n    // Call a function from the DLL\n    myFunction();\n    return 0;\n}

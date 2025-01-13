@@ -1,0 +1,1 @@
+<action path="/uploadAction"\n            type="com.example.UploadAction"\n            name="myForm"\n            scope="request"\n            input="/uploadPage.jsp">\n        <forward name="success" path="/success.jsp"/>\n    </action>

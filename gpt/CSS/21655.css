@@ -1,0 +1,1 @@
+body, html {\n    margin: 0;\n    padding: 0;\n    height: 100%;\n}\n\n.wrapper {\n    min-height: 100%;\n    position: relative;\n}\n\nfooter {\n    position: absolute;\n    bottom: 0;\n    width: 100%;\n    height: 60px; /* Adjust based on your footer height */\n    background-color: #f1f1f1;\n}

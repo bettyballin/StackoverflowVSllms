@@ -1,1 +1,0 @@
-$.ajax({\n     url: '/login.php',\n     dataType: 'json',\n     data: $('form').serialize(),\n     type: 'post',\n     success: function(data) {\n         if (data.Status) {\n            location.href = data.Url;\n         }\n         else {\n            alert( data.Message );\n         }\n     }\n });

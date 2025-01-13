@@ -1,0 +1,1 @@
+# app/controllers/application_controller.rb\n    class ApplicationController < ActionController::Base\n      before_action :set_current_user\n\n      private\n\n      def set_current_user\n        Current.user = current_user\n      end\n    end

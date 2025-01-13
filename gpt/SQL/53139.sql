@@ -1,0 +1,1 @@
+ALTER TABLE YourTable ADD IsDeleted BIT DEFAULT 0;\n\n-- Example query to retrieve non-deleted records\nSELECT * FROM YourTable WHERE IsDeleted = 0;\n\n-- Marking a record as deleted\nUPDATE YourTable SET IsDeleted = 1 WHERE Id = @RecordId;

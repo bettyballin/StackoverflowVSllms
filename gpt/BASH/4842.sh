@@ -1,0 +1,1 @@
+pdfsizeopt input.pdf

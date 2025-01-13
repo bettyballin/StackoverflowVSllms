@@ -1,1 +1,0 @@
-declare @baseDate datetime\nset @baseDate = '1 May 2005'\n\nSELECT\n    datediff(year, @baseDate, [date]) AS YearBucket \n    ,COUNT(*) AS cnt \nFROM logins\nGROUP BY datediff(year, @baseDate, [date])\nORDER BY datediff(year, @baseDate, [date])

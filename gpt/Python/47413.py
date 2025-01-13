@@ -1,0 +1,1 @@
+#!/usr/bin/env python\n    import os\n\n    original_command = os.environ.get('SSH_ORIGINAL_COMMAND')\n    if original_command:\n        print(f"SSH_ORIGINAL_COMMAND: {original_command}")\n    else:\n        print("No command provided.")

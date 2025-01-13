@@ -1,1 +1,0 @@
-SELECT COUNT(*) AS count, SUM(important_data) AS important_data, DATE_FORMAT('%Y-%m', date) AS month\n  FROM my_table \n  WHERE date BETWEEN ? AND ? -- This should be the min and max of the whole range\n  GROUP BY  DATE_FORMAT('%Y-%m', date)\n  ORDER BY date DESC;

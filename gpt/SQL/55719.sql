@@ -1,0 +1,1 @@
+select r.code, r.name\nfrom Region r\njoin LogTable l on (r.code = l.regionCode)\nwhere r.districtCode = :districtCode;

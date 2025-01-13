@@ -1,1 +1,0 @@
-if (!has_value && !in_range || !is_integer) show_error()

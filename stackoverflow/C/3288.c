@@ -1,1 +1,0 @@
-CMFCRibbonLabel* pLabel = new CMFCRibbonLabel(description);\npLabel->SetID(ID_MYLABEL); // ID is 0 by default\n\nm_wndStatusBar.AddDynamicElement(pLabel);\nm_wndStatusBar.RecalcLayout();\nm_wndStatusBar.RedrawWindow();

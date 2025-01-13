@@ -1,1 +1,0 @@
-$uploadedfile = $imgarray[$i];

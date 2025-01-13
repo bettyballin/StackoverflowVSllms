@@ -1,0 +1,1 @@
+int result = perform_operation();\n    if (result != SUCCESS) {\n        log_error("Operation failed", result);\n        // Take corrective action or fail gracefully\n    }

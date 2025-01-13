@@ -1,1 +1,0 @@
-select *\nfrom (select top [rows] * from\n(select top [rows * pagenumber] * from mytable order by id)\norder by id desc)\norder by id

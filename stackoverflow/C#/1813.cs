@@ -1,1 +1,0 @@
-cmd = actionDB.GetSqlStringCommand(lDBCommand)

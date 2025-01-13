@@ -1,1 +1,0 @@
-IIF(ISNULL(column)?"":column)

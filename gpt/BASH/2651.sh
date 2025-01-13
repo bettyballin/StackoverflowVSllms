@@ -1,0 +1,1 @@
+# Open Command Prompt with administrative privileges\n# Change Application Pool to 32-bit\nappcmd set apppool /apppool.name:YourAppPoolName /enable32BitAppOnWin64:true

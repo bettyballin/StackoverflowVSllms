@@ -1,0 +1,1 @@
+void CYourApp::OnHelp()\n   {\n       // Path to your CHM file\n       CString strHelpFilePath = _T("C:\\path_to_your_help_file\\your_help_file.chm");\n\n       // Open the CHM file\n       ::HtmlHelp(NULL, strHelpFilePath, HH_DISPLAY_TOC, 0);\n   }

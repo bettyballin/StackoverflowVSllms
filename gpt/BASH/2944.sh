@@ -1,0 +1,1 @@
+pg_basebackup -D /path_to_backup_directory -Ft -z -P -U postgres

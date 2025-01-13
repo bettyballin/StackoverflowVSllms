@@ -1,0 +1,1 @@
+// Example: Only call GC.Collect during a known idle period\nif (isIdlePeriod)\n{\n    GC.Collect();\n    GC.WaitForPendingFinalizers();\n    GC.Collect();\n}

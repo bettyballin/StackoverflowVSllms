@@ -1,0 +1,1 @@
+from django.db import transaction\n\n@transaction.atomic\ndef save_data_elements(input_list):\n    records = []\n    for (s, i1, i2) in input_list:\n        records.append(DataElement(string=s, number1=i1, number2=i2))\n\n    # Adjust the batch size if needed\n    DataElement.objects.bulk_create(records, batch_size=1000)

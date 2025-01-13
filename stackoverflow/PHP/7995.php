@@ -1,1 +1,0 @@
-$observer->expects($this->once())\n     ->method('method')\n     ->with($this->equalTo($arg1),$this->equalTo($arg2));

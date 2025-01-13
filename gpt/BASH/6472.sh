@@ -1,0 +1,1 @@
+# List all available diagnostic commands for a given JVM process\njcmd <pid> help\n\n# Example usage to get heap usage\njcmd <pid> GC.heap_info\n\n# Example usage to get thread count\njcmd <pid> Thread.print\n\n# Example usage to get CPU usage (requires specific JVM support)\njcmd <pid> VM.native_memory summary

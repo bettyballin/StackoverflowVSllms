@@ -1,1 +1,0 @@
-// Notice the consuming class needs only know what it does, not how it does it\npublic interface IInvoicePublisher {\n  pubic void Publish(Invoice anInvoice);\n}

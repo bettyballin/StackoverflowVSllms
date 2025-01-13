@@ -1,0 +1,1 @@
+# Step 1: Manually resolve the conflicts in the file(s)\n# Open and edit test.h to fix conflicts\n\n# Step 2: Mark the file as resolved\nhg resolved test.h\n\n# Step 3: Commit the changes\nhg commit -m "Resolved merge conflict in test.h"

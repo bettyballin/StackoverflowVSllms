@@ -1,1 +1,0 @@
-if ($('#input-name').length) {\n  // do something\n}

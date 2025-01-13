@@ -1,0 +1,1 @@
+grep "ERROR" /var/log/syslog

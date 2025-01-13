@@ -1,1 +1,0 @@
-select left(field1, len(field1) -1) from [table]

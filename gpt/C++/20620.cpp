@@ -1,0 +1,1 @@
+typedef int (__cdecl *_PIFV)(void);\n_CRTALLOC(".CRT$XIC1") static _PIFV pinit1 = __initstdio1;

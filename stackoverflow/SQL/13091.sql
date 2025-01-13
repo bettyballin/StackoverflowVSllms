@@ -1,1 +1,0 @@
-srcTable (\nc1 int not null (PK)\nc2 int null\nc3 datetime not null\nc4 datetime null\n...\n)

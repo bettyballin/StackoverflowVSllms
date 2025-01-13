@@ -1,0 +1,1 @@
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');\n\nclass MY_Model extends CI_Model {\n\n    public function __construct() {\n        parent::__construct();\n        // Load the default database\n        $this->load->database();\n\n        // Load the secondary database\n        $this->load->database('stats');\n    }\n}

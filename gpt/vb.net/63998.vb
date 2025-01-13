@@ -1,0 +1,1 @@
+Public Class ProductDetail\n    Inherits System.Web.UI.Page\n\n    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load\n        If Not IsPostBack Then\n            Dim master As MasterPage = CType(Me.Master, MasterPage)\n            master.SetPageMetaData("Product Title", "Product Description")\n        End If\n    End Sub\nEnd Class

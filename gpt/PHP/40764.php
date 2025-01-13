@@ -1,0 +1,1 @@
+$time = 10; // initial value\n$time += 5; // equivalent to $time = $time + 5;\necho $time; // Output will be 15

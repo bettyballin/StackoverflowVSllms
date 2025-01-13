@@ -1,0 +1,1 @@
+CREATE TABLE dbo.ConnectionTracker (\n    LoginName NVARCHAR(128),\n    SPID INT\n);

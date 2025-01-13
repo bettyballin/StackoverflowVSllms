@@ -1,0 +1,1 @@
+.error {\n    color: Red;\n    display: none; /* Hides the element */\n}\n\n.error.visible {\n    display: inline; /* Shows the element */\n}

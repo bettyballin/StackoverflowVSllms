@@ -1,0 +1,1 @@
+$num_args = func_num_args();

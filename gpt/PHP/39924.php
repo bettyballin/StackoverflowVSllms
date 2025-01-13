@@ -1,0 +1,1 @@
+public function isAuthorized($user) {\n    // Implement your logic to check user permissions\n    return true; // Allow access for troubleshooting purposes\n}

@@ -1,0 +1,1 @@
+pidstat -p <pid> 1

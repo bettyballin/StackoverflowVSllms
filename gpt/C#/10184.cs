@@ -1,0 +1,1 @@
+// In Global.asax\n   void Session_End(object sender, EventArgs e)\n   {\n       // Store the current URL before session ends\n       string currentUrl = HttpContext.Current.Request.Url.AbsoluteUri;\n       HttpContext.Current.Session["RedirectUrl"] = currentUrl;\n   }

@@ -1,1 +1,0 @@
---Might work\nUSE dbase\nEXEC ('CREATE TRIGGER [blah]\n')

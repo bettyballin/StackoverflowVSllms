@@ -1,0 +1,1 @@
+memset(ret + len - sizeof(Stringpool_char), 0, sizeof(Stringpool_char));

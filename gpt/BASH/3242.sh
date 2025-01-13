@@ -1,0 +1,1 @@
+cloc /path/to/your/source/directory

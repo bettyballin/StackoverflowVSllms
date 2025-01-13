@@ -1,1 +1,0 @@
-myNamespace.onSuccess = function(request) {    \n    $(request.responseText).filter('div.Workorder').each(function() {\n       $('span.Pn', $(this)).text();\n    });\n}

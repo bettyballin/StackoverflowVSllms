@@ -1,1 +1,0 @@
-[WebMethod()]\npublic static bool TempCanMakeCall(string reservationNum, string completedReservationNum )\n{\n\n        return true;\n}

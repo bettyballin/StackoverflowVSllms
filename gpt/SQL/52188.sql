@@ -1,0 +1,1 @@
+INSERT INTO blah (name, firstName, middleName, lastName, suffix)\nSELECT \n    e.name, \n    pn.firstName, \n    pn.middleName, \n    pn.lastName, \n    pn.suffix\nFROM \n    employees e\nCROSS JOIN \n    dbo.parseName(e.name) p

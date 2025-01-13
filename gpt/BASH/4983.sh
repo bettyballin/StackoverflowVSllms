@@ -1,0 +1,1 @@
+git add .\n   git commit -m "Initial commit"\n   git push -u origin master

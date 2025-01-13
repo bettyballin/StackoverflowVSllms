@@ -1,0 +1,1 @@
+/* Using Flexbox */\n    .container {\n        display: flex;\n        flex-wrap: wrap;\n    }\n\n    .sidebar {\n        flex: 1;\n        min-width: 200px; /* Adjust as needed */\n    }\n\n    .content {\n        flex: 3;\n        min-width: 600px; /* Adjust as needed */\n    }

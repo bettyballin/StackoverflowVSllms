@@ -1,0 +1,1 @@
+<?php\n$url = "http://www.example.com";\n$data = file_get_contents($url);\necho $data;\n?>

@@ -1,0 +1,1 @@
+<script type="text/javascript">\n       function enableControls() {\n           $("input, select, textarea").removeAttr("disabled");\n       }\n   </script>

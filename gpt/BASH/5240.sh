@@ -1,0 +1,1 @@
+grep -r --include="*.py" --include="*.html" --include="*.txt" --include="*.js" \\n  --exclude="*.pyc" --exclude="*combo_*.js" --exclude-dir=".svn" "pattern" .

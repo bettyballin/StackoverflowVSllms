@@ -1,0 +1,1 @@
+sed 's/old_text/<new_text>/g' inputfile > outputfile

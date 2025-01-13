@@ -1,1 +1,0 @@
-User: id, name, email, etc...\nFeed: id, feed_name, feed_url\nContent: id, feed_id, title, content\nUser Feed: id, user_id, feed_id, user_label, has_read

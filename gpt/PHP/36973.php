@@ -1,0 +1,1 @@
+/**\n    * Implements hook_theme().\n    */\n   function mymodule_theme() {\n     return array(\n       'mybio' => array(\n         'variables' => array('node' => NULL),\n         'template' => 'node-mybiotype',\n       ),\n     );\n   }

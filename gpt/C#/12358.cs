@@ -1,0 +1,1 @@
+public class MyService\n{\n    private readonly IRailsEngineContext _railsEngineContext;\n\n    public MyService(IRailsEngineContext railsEngineContext)\n    {\n        _railsEngineContext = railsEngineContext;\n    }\n\n    public void DoSomething()\n    {\n        // Use _railsEngineContext\n    }\n}

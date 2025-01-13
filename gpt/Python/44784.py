@@ -1,0 +1,1 @@
+import re\nimport sys\n\ntext = sys.stdin.read()\nquotes = re.findall(r'“(.*?)”', text)\nfor quote in quotes:\n    print(f'"{quote}"')

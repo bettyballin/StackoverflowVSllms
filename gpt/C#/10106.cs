@@ -1,0 +1,1 @@
+var sessionFactory = // your NHibernate session factory initialization\nvar columnEnumerator = new ColumnEnumerator(sessionFactory);\nvar columnNames = columnEnumerator.GetColumnNames<YourEntityClass>();\n\nforeach (var columnName in columnNames)\n{\n    Console.WriteLine(columnName);\n}

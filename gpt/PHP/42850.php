@@ -1,0 +1,1 @@
+$config['log_threshold'] = 2; // Change this to the appropriate level

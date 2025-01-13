@@ -1,0 +1,1 @@
+if (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest') {\n    echo "This is an AJAX request.";\n} else {\n    echo "This is not an AJAX request.";\n}

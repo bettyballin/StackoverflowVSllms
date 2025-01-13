@@ -1,0 +1,1 @@
+regsvr32 path\to\your\comobject.dll

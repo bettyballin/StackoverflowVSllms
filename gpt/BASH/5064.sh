@@ -1,0 +1,1 @@
+sudo apt-get update\nsudo apt-get install certbot python3-certbot-nginx\n\nsudo certbot --nginx -d yourdomain.com -d www.yourdomain.com

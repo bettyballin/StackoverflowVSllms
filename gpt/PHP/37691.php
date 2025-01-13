@@ -1,0 +1,1 @@
+<?php $_option = $this->getOption(); ?>\n<?php echo $_option->getTitle(); ?>

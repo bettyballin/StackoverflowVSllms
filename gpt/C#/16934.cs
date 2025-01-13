@@ -1,0 +1,1 @@
+[Authorize(Roles = "Admin, Manager")]\npublic class SomeController : Controller\n{\n    public ActionResult SecurePage()\n    {\n        return View();\n    }\n}

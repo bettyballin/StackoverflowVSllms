@@ -1,1 +1,0 @@
-$('.closeLink').click( function() {\n      ...do the close action...\n      return false;\n});

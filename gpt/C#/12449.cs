@@ -1,0 +1,1 @@
+List<string> anotherList = new List<string> { "six", "seven" };\n    text.AddRange(anotherList);

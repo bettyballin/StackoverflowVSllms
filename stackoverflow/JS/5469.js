@@ -1,1 +1,0 @@
-<script type="text/javascript"> \nvar map = new YMap(document.getElementById('map'));\nmap.drawZoomAndCenter("Algeria", 17);\n\nmap.geoCodeAddress("Cambridge, UK");\n\nYEvent.Capture(map, EventsList.onEndGeoCode, function(geoCode) {\n    if (geoCode.success)\n        map.addOverlay(new YMarker(geoCode.GeoPoint));\n});\n</script>

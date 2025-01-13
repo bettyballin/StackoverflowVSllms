@@ -1,1 +1,0 @@
-select count(*)\nfrom (<original select query>)

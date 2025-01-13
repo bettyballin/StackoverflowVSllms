@@ -1,0 +1,1 @@
+java -jar <eclipse-executable> -application <your.application.id> -consoleLog

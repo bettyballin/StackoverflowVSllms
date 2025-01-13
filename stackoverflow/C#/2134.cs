@@ -1,1 +1,0 @@
-string connectionString = @"Server=.\SQLEXPRESS2005;Database=DBName;Integrated Security=SSPI";

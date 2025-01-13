@@ -1,1 +1,0 @@
-SELECT questions.qid, question, date, SUM(comments.qid) \nFROM Questions \nLEFT OUTER JOIN Comments ON Questions.qid = Comments.qid\nGROUP BY Questions.qid, Question, Date\nORDER BY Questions.Date

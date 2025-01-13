@@ -1,1 +1,0 @@
-SELECT t1.id\nFROM t1\nWHERE (SELECT COUNT(t2.id)\n     FROM t2\n     WHERE t2.id = t1.id\n          ) = 5;

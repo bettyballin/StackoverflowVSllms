@@ -1,0 +1,1 @@
+public void longFunction() {\n    smallFunction1();\n    smallFunction2();\n    smallFunction3();\n}\n\nprivate void smallFunction1() {\n    // logic for small function 1\n}\n\nprivate void smallFunction2() {\n    // logic for small function 2\n}\n\nprivate void smallFunction3() {\n    // logic for small function 3\n}

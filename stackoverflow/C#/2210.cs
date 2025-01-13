@@ -1,1 +1,0 @@
-textLabel.Attributes.Add("data", textLabel.Text);  

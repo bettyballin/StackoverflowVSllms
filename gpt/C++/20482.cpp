@@ -1,0 +1,1 @@
+// main.cpp\n#include <iostream>\n#include "MyDll.h" // Include the DLL header\n\nint main() {\n    MyFunction(); // Call the function from the DLL\n    std::cout << "Function from DLL called successfully!" << std::endl;\n    return 0;\n}

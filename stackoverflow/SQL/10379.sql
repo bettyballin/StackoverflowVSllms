@@ -1,1 +1,0 @@
-SELECT sess.process, sess.status, sess.username, sess.schemaname, sql.sql_text\n  FROM v$session sess,\n       v$sql     sql\n WHERE sql.sql_id(+) = sess.sql_id\n   AND sess.type     = 'USER'

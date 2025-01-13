@@ -1,0 +1,1 @@
+www-data ALL=(ALL) NOPASSWD: /path/to/your/script.sh

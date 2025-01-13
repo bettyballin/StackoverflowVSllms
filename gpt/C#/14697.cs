@@ -1,0 +1,1 @@
+try\n{\n    // Critical code that might cause a severe issue\n}\ncatch (Exception ex)\n{\n    // Log the exception or perform other necessary actions\n    Environment.FailFast("Critical failure occurred.", ex);\n}

@@ -1,0 +1,1 @@
+.container {\n  width: 100px;\n  height: 100px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  float: left;\n  border: 1px solid #000; /* Optional: for visual reference */\n}\n\nimg {\n  max-width: 100%;\n  max-height: 100%;\n}

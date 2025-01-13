@@ -1,0 +1,1 @@
+CREATE PROCEDURE Proc1\nAS\nBEGIN\n    -- Your query or logic here\n    SELECT 'Result from Proc1';\nEND\nGO\n\nCREATE PROCEDURE Proc2\nAS\nBEGIN\n    -- Your query or logic here\n    SELECT 'Result from Proc2';\nEND\nGO

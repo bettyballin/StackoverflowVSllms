@@ -1,1 +1,0 @@
-class constants\n{\n   const EH_MAILER = 1;\n}\n\n$mailer = constants::EH_MAILER

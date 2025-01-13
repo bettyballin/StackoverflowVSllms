@@ -1,0 +1,1 @@
+CREATE TABLE `outputprofiles_binary` (\n  `id` int(11) NOT NULL AUTO_INCREMENT,\n  `output_profile` LONGBLOB NOT NULL,\n  PRIMARY KEY (`id`)\n);

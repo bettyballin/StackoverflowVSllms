@@ -1,1 +1,0 @@
-<script language=javascript">\n  function callOnsubmit(form) {\n    var code = form.getAttribute("onsubmit");\n    eval(code);\n</script>\n\n<s:textfield name="foo" onblur="callOnsubmit(this.form);"/>

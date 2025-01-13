@@ -1,1 +1,0 @@
-SELECT ROUND(\n  100.0 * (\n      SUM(IF(cust_id = 541, 1, 0)) / COUNT(order_id)\n  ), 1) AS percent_total\nFROM orders;

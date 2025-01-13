@@ -1,1 +1,0 @@
-if (ds.Tables.Count > 0) {\n  ds.Tables[ds.Tables.Count - 1].TableName = "name";\n}

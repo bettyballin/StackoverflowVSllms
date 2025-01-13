@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('#field-component').select2({\n    placeholder: 'Select an option',\n    allowClear: true\n  });\n});

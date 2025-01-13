@@ -1,0 +1,1 @@
+<?php\n$allPreviousVars = http_build_query($_GET);\necho "<a href='?".$allPreviousVars."&newVar=2'>Link</a>";\n?>

@@ -1,1 +1,0 @@
-<?php\n    $filepath= '/home/foobar/bar.gif'\n    header('Content-Type: image/gif');\n    header('Content-Length: ' . filesize($filepath));\n    readfile($file);\n   ?>

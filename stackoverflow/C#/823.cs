@@ -1,1 +1,0 @@
-public RegistryKey GetSoftwareRoot() {\n  var path = 8 == IntPtr.Size \n    ? @"Software\Wow6432Node"\n    : @"Software";\n  return Registry.CurrentUser.OpenSubKey(path);\n}

@@ -1,0 +1,1 @@
+public interface IDatabaseHelper\n{\n    DataSet GetDataSet(string query);\n    void UpdateDataSet(DataSet dataSet);\n}

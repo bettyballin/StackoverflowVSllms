@@ -1,1 +1,0 @@
-Dim Th = New Thread(Sub() DoStuff(param1, param2, AddressOf ReportStatus))

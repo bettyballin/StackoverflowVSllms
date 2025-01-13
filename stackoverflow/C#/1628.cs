@@ -1,1 +1,0 @@
-[DllImport("user32.dll")]\nstatic extern int SetWindowText(IntPtr hWnd, string text);\n\n\n\nprivate void StartMyNotepad()\n{\n    Process p = Process.Start("notepad.exe");\n    Thread.Sleep(100);  // <-- ugly hack\n    SetWindowText(p.MainWindowHandle, "My Notepad");\n}

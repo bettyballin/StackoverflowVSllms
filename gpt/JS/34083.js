@@ -1,0 +1,1 @@
+$.ajax({\n  url: 'http://yourserver.com/proxy',\n  type: 'POST',\n  data: {\n    url: 'https://example.com/secure-endpoint',\n    payload: yourPayload\n  },\n  success: function(response) {\n    // Handle the response\n  },\n  error: function(error) {\n    // Handle the error\n  }\n});

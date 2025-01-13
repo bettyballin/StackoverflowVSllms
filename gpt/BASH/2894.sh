@@ -1,0 +1,1 @@
+dumpbin /headers yourdll.dll | find "image base"

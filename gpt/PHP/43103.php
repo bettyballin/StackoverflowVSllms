@@ -1,0 +1,1 @@
+<?php\n// format timestamp into the following format: 2009, 6, 30 (subtracting 1 from the month)\n$date = date("Y, n-1, j", strtotime($row["date"]));\n?>

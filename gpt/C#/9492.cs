@@ -1,0 +1,1 @@
+[Authorize]\n    public class HomeController : Controller\n    {\n        public ActionResult Index()\n        {\n            string username = User.Identity.Name;\n            // Your code here\n            return View();\n        }\n    }

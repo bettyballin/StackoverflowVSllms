@@ -1,0 +1,1 @@
+# Generate PNG directly\npng("output.png", width=800, height=600, res=300)\nqqnorm(n, main=title)\nqqline(n)\ndev.off()

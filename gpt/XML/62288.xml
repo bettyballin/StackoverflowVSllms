@@ -1,0 +1,1 @@
+// Example: Rewrite rule in web.config for IIS\n<rewrite>\n  <rules>\n    <rule name="RewriteIDs" stopProcessing="true">\n      <match url="^Foo\.([0-9\-]+)\.aspx$" />\n      <action type="Rewrite" url="Foo.aspx?ids={R:1}" />\n    </rule>\n  </rules>\n</rewrite>

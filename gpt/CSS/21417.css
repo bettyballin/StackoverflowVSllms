@@ -1,0 +1,1 @@
+ul, li {\n  padding: 0px;\n  margin-left: 0px;\n  margin-bottom: 0px;\n}\n\nul {\n  display: flex;\n}\n\nli {\n  border: solid 1px #333333;\n  margin-right: 5px;\n  padding: 2px;\n  background-color: #222222;\n  color: #999999;\n}\n\nli:last-child {\n  flex-grow: 1;\n}

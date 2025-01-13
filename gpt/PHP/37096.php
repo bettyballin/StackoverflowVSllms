@@ -1,0 +1,1 @@
+// In any method of any controller\n$userId = $this->request->getSession()->read('User.UserId');\necho "User ID: " . $userId;

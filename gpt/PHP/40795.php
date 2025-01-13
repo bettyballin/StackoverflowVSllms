@@ -1,0 +1,1 @@
+$a = array(table => 'myTable');  // Not recommended\n$table = $a[table];  // Not recommended

@@ -1,0 +1,1 @@
+#!/bin/bash\n\noutput_dir="~/Desktop/floppy_images"\nmkdir -p $output_dir\n\nindex=1\nfor disk in /dev/fd0 ; do\n    image_name="$output_dir/floppy_$index.img"\n    dd if=$disk of=$image_name bs=512\n    echo "Floppy $index: $image_name" >> $output_dir/index.txt\n    index=$((index + 1))\ndone

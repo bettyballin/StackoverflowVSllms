@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.GetEmployeeDetails (@DepartmentId INT)\nRETURNS TABLE\nAS\nRETURN\n(\n    SELECT EmployeeId, FirstName, LastName, DepartmentId\n    FROM Employees\n    WHERE DepartmentId = @DepartmentId\n);

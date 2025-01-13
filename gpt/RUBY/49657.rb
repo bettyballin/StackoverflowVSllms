@@ -1,0 +1,1 @@
+def progress_monitor\n  Rails.logger.info "Progress monitor called"\n  progress = ... # your logic to fetch progress\n\n  render :json => { progress: progress }\nend

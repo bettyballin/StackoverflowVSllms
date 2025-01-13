@@ -1,0 +1,1 @@
+[DllImport(@"C:\Path\To\YourDllName.dll", CallingConvention = CallingConvention.Cdecl)]

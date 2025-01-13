@@ -1,0 +1,1 @@
+<configuration>\n    <configSections>\n        <section name="yourSection" type="YourNamespace.YourSectionHandler, YourAssembly" allowLocation="true" />\n    </configSections>\n    <yourSection>\n        <!-- Your section settings here -->\n    </yourSection>\n</configuration>

@@ -1,1 +1,0 @@
-CONVERT(int,[testdb].[dbo].[TestTable].[MyVal],0)>(6)\nAND isnumeric(CONVERT_IMPLICIT(varchar(510),\n    [testdb].[dbo].[TestTable].[MyVal],0))=(1)

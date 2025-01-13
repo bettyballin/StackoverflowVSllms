@@ -1,1 +1,0 @@
-select t1.* from(\nselect name,max(B) as MaxB\nfrom temp\ngroup by name) t2 \njoin temp t1 on t1.a = t2.MaxB\nand t1.name = t2.name

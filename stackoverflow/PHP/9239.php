@@ -1,1 +1,0 @@
-$string = implode(', ', $_POST['features']);

@@ -1,1 +1,0 @@
-using (TransactionScope scope = new TransactionScope())  \n{  \n    using (MessageQueue myQueue = new MessageQueue(QUEUE_NAME))  \n    {  \n    if (myQueue.Transactional)  \n        {  \n        myQueue.Send(TicketTextBox.Text, "Message", MessageQueueTransactionType.Automatic);  \n        }  \n    }  \nscope.Complete();  \n}

@@ -1,1 +1,0 @@
-struct Node {\n    int data;\n    Node * next;\n};

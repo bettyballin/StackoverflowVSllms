@@ -1,0 +1,1 @@
+CREATE INDEX IX_Example_Ascending ON TableName (Column1 ASC, Column2 ASC);\nCREATE INDEX IX_Example_Descending ON TableName (Column1 DESC, Column2 DESC);

@@ -1,0 +1,1 @@
+ffmpeg -i input.flv -c:v wmv2 -c:a wmav2 output.wmv

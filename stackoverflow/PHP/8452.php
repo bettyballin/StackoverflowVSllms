@@ -1,1 +1,0 @@
-function str_replace_first($search, $replace, $subject)\n{\n    $search = '/'.preg_quote($search, '/').'/';\n    return preg_replace($search, $replace, $subject, 1);\n}\n\necho str_replace_first('abc', '123', 'abcdef abcdef abcdef'); \n// outputs '123def abcdef abcdef'

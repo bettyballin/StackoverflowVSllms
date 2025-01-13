@@ -1,0 +1,1 @@
+<!-- For Maven -->\n   <dependency>\n       <groupId>org.easytesting</groupId>\n       <artifactId>fest-swing</artifactId>\n       <version>1.2</version>\n   </dependency>

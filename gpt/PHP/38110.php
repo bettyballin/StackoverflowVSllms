@@ -1,0 +1,1 @@
+// Example of a migration definition\n    $migration = new Migration(array(\n      'id' => 'example_migration',\n      'source' => array(\n        'plugin' => 'example_source',\n      ),\n      'process' => array(\n        'title' => 'title',\n      ),\n      'destination' => array(\n        'plugin' => 'entity:node',\n      ),\n    ));

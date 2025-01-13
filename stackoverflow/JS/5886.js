@@ -1,1 +1,0 @@
-$.getJSON("http://localhost:17245/Service.svc/?format=json", {}, function(data) {alert(data.id);});

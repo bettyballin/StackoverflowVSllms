@@ -1,0 +1,1 @@
+sc create MyWindowsService binPath= "C:\Path\To\Your\Executable.exe"

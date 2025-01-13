@@ -1,1 +1,0 @@
-function toggle_approved($position_id) {\n$query = "UPDATE positions SET approved = !approved WHERE posID = '$position_id'";\n// execute the query here with your mysql_query() call\n}

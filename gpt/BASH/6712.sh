@@ -1,0 +1,1 @@
+mysql -u root -p my_database < C:\path\to\your\dumpfile.sql

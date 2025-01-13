@@ -1,1 +1,0 @@
-ArrayList list = new ArrayList();\nMyStruct[] array = new MyStruct[list.Count];\nlist.CopyTo(array); 

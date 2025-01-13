@@ -1,0 +1,1 @@
+// src/Application.php\nuse App\Middleware\CorsMiddleware;\n\npublic function middleware(MiddlewareQueue $middlewareQueue): MiddlewareQueue\n{\n    $middlewareQueue\n        // Other middleware\n        ->add(CorsMiddleware::class);\n\n    return $middlewareQueue;\n}

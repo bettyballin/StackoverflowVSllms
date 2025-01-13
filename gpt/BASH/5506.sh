@@ -1,0 +1,1 @@
+for file in file*.c; do myprocess "$(gcc -E "$file")"; done

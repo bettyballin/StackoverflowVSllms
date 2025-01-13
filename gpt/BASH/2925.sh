@@ -1,0 +1,1 @@
+export ORACLE_HOME=/usr/local/oracle/instantclient_10_2\nexport PATH=$ORACLE_HOME/bin:$PATH

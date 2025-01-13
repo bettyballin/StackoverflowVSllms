@@ -1,1 +1,0 @@
-echo money_format('$%i', 3.4); // echos '$3.40'

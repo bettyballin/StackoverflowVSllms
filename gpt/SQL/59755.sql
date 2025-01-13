@@ -1,0 +1,1 @@
+IF EXISTS (SELECT * FROM inserted WHERE testcol = 7)\nBEGIN\n    -- Rollback the transaction to ensure the update does not happen\n    ROLLBACK TRANSACTION;\n\n    -- Raise an error with a severity level of 16\n    RAISERROR('My Custom Error', 16, 1);\n\n    -- Optionally, return immediately\n    RETURN;\nEND

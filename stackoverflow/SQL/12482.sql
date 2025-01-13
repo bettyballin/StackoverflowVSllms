@@ -1,1 +1,0 @@
-select *\nfrom (select count(*) as delivery_count, clientid \n      from deliveries group by clientid) AS view1\ninner join (select count(*) as action_count, clientid\n            from routeactions group by clientid) AS view2\n    on view1.clientid = view2.clientid

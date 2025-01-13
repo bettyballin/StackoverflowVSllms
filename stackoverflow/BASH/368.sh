@@ -1,1 +1,0 @@
-gcc ... -M  -MF <output_file>     # generate dependencies\ngcc ... -MD -MF <output_file>     # compile and generate dependencies

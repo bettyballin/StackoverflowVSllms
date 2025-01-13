@@ -1,0 +1,1 @@
+import json\n\nd = { "abc" : [1, 2, 3], "qwerty" : [4, 5, 6] }\n\n# Write to a file\nwith open('data.json', 'w') as file:\n    json.dump(d, file)

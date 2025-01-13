@@ -1,1 +1,0 @@
-RewriteCond %{HTTPS} off\nRewriteCond %{REQUEST_URI} /basket.php\nRewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L]

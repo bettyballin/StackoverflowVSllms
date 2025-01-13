@@ -1,0 +1,1 @@
+<!-- resources/views/components/news.blade.php -->\n<div>\n    <h2>Latest News</h2>\n    @foreach ($news as $article)\n        <p>{{ $article->title }}</p>\n        <p>{{ $article->summary }}</p>\n    @endforeach\n</div>

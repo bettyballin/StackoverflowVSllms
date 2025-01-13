@@ -1,1 +1,0 @@
-interface ICustomerRepository {\n    Customer GetById(int id); // perhaps an attribute to name the sproc\n}

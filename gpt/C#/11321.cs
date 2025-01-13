@@ -1,0 +1,1 @@
+var result = db.Records.ToList().Where(record => CustomMethod(record));\n   \n   // or using SQL functions\n   var result = db.Records\n                 .Where(record => SqlMethods.Like(record.Property, "%pattern%"))\n                 .Select(record => record);

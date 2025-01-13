@@ -1,1 +1,0 @@
-SELECT email, COUNT(*) AS occurs\nWHERE provider = x AND YEARMONTH(date) = y\nGROUP BY email\nHAVING occurs > 1

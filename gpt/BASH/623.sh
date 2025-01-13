@@ -1,0 +1,1 @@
+git clone https://github.com/drwetter/testssl.sh.git\n   cd testssl.sh\n   ./testssl.sh yourdomain.com

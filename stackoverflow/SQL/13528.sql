@@ -1,1 +1,0 @@
-declare @Data XML\nset @Data = '<Test foo="bar"><Otherstuff baz="belch" /></Test>'\n\nselect @Data.value('(/Test/@foo)[1]','varchar(20)') as Foo

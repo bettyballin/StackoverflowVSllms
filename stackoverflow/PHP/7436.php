@@ -1,1 +1,0 @@
-// Report all errors except E_NOTICE   \nerror_reporting(E_ALL ^ E_NOTICE);  

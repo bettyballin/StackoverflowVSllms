@@ -1,0 +1,1 @@
+xcopy /Y /I "$(SolutionDir)LibraryFolder\*.dll" "$(TargetDir)"

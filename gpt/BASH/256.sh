@@ -1,0 +1,1 @@
+#!/bin/bash\n   sudo /path/to/your/binary "$@"

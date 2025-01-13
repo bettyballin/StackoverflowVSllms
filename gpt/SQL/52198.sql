@@ -1,0 +1,1 @@
+SET @counter = 0;\n\nUPDATE wp_posts\nSET post_date = DATE_ADD(post_date, INTERVAL @counter SECOND),\n    @counter := @counter + 1\nWHERE post_type = 'post'\nORDER BY post_date ASC;

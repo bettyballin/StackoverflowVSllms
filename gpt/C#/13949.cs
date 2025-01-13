@@ -1,0 +1,1 @@
+double currentBalance = 1234567.89;\nstring formattedBalance = currentBalance.ToString("#,##0.00");\nConsole.WriteLine(formattedBalance);  // Output: 1,234,567.89

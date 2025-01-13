@@ -1,0 +1,1 @@
+CREATE TABLE audit_logs (\n       log_id NUMBER,\n       log_timestamp TIMESTAMP,\n       user_name VARCHAR2(30),\n       action VARCHAR2(200),\n       ...\n   )\n   PARTITION BY RANGE (log_timestamp) (\n       PARTITION p1 VALUES LESS THAN (TO_DATE('2024-01-01', 'YYYY-MM-DD')),\n       PARTITION p2 VALUES LESS THAN (TO_DATE('2025-01-01', 'YYYY-MM-DD')),\n       ...\n   );

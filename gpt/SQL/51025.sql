@@ -1,0 +1,1 @@
+ALTER TABLE YourTableName\n   ALTER COLUMN YourColumnName\n   VARCHAR(YourColumnLength) COLLATE NewCollation;

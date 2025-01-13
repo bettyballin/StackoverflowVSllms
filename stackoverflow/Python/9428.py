@@ -1,1 +1,0 @@
->>> FLAGS = ('User', 'Redo', 'Enqueue', 'Cache', 'OS',\n...          'Real Application Clusters', 'SQL', 'Debug')\n>>> def getFlags(value):\n...   flags = []\n...   for i, flag in enumerate(FLAGS):\n...     if value & (1 << i):\n...       flags.append(flag)\n...   return flags\n...\n>>> print getFlags(22)\n['Redo', 'Enqueue', 'OS']

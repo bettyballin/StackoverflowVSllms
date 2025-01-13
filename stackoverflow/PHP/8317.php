@@ -1,1 +1,0 @@
-function wrap($string) {\n  $wstring = explode("\n", wordwrap($string, 27, "\n") );\n  return $wstring[0];\n}

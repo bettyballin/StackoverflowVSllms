@@ -1,1 +1,0 @@
-SELECT * FROM sys.Types WHERE is_user_defined = 1

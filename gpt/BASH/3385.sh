@@ -1,0 +1,1 @@
+svnadmin upgrade /path/to/your/repository

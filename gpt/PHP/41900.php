@@ -1,0 +1,1 @@
+try {\n       $result = $client->UpdateApplicationProfile($params);\n   } catch (SoapFault $fault) {\n       echo "Request :\n" . $client->__getLastRequest() . "\n";\n       echo "Response:\n" . $client->__getLastResponse() . "\n";\n       echo "Fault: " . $fault->faultstring;\n   }

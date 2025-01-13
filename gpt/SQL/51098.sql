@@ -1,0 +1,1 @@
+DELIMITER //\n\n   CREATE PROCEDURE generate_custom_id()\n   BEGIN\n       DECLARE new_id BIGINT;\n       SET new_id = (UNIX_TIMESTAMP() << 22) | (machine_id << 12) | sequence;\n       INSERT INTO your_table (id, ...)\n       VALUES (new_id, ...);\n   END //\n\n   DELIMITER ;

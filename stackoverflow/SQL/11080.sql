@@ -1,1 +1,0 @@
-SELECT col\nFROM \n   (\n       SELECT a col, 0 ordinal FROM A LIMIT 1\n       UNION ALL\n       SELECT b, 1 FROM B LIMIT 1\n   ) t\nORDER BY ordinal

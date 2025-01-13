@@ -1,0 +1,1 @@
+SELECT t1.DataID, t2.DataID \nFROM TestTable t1, TestTable t2\nWHERE t1.DataID <> t2.DataID\nAND t1.Data = t2.Data;

@@ -1,0 +1,1 @@
+django-admin startproject dms\n    cd dms\n    django-admin startapp documents

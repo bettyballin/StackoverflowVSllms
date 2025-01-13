@@ -1,0 +1,1 @@
+#include <iostream>\n\nclass Foo {\npublic:\n    virtual void say_virtual_hi() {\n        std::cout << "Virtual Hi";\n    }\n\n    void say_hi() {\n        std::cout << "Hi";\n    }\n};\n\nint main(int argc, char** argv) {\n    Foo* foo = 0;\n    foo->say_hi(); // works well\n    foo->say_virtual_hi(); // will crash the app\n    return 0;\n}

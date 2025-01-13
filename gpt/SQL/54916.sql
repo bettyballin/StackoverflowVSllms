@@ -1,0 +1,1 @@
+SELECT DISTINCT clients.*\nFROM clients\nLEFT JOIN invoices ON clients.id = invoices.client_id AND invoices.date BETWEEN '2023-10-01' AND '2023-10-31'\nLEFT JOIN deliveries ON clients.id = deliveries.client_id AND deliveries.date BETWEEN '2023-10-01' AND '2023-10-31'\nWHERE invoices.id IS NOT NULL OR deliveries.id IS NOT NULL;

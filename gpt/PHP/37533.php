@@ -1,0 +1,1 @@
+$gridPoints = [];\n\nforeach ($xpointsArray as $xvalue) {\n    foreach ($ypointsArray as $yvalue) {\n        $gridPoints[] = ['x' => $xvalue, 'y' => $yvalue];\n        // Draw point at coordinates $xvalue, $yvalue\n    }\n}\n\n// Access the points later\nforeach ($gridPoints as $point) {\n    $x = $point['x'];\n    $y = $point['y'];\n    // Further processing with $x and $y\n}

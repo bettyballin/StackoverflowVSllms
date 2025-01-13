@@ -1,1 +1,0 @@
-Private m_bwMain As BackgroundWorker\n\nPublic Sub New(ByVal bwMain As BackgroundWorker)\n    m_bwMain = bwMain\n\n    'additional setup code here\nEnd Sub

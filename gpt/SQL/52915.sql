@@ -1,0 +1,1 @@
+SELECT * FROM myTbl\n    WHERE EXISTS (\n        SELECT 1 FROM SpecialValues\n        WHERE myTbl.myValue = SpecialValues.id\n    );

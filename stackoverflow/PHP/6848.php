@@ -1,1 +1,0 @@
-<?php     \n\nclass CustomForm extends Zend_Form\n{\n  public function init()\n  {\n    $this->setMethod('post');\n    $this->setAction('user/process');\n    $gender = new Zend_Form_Element_Radio('gender');\n    $gender->setLabel('Gender:')\n      ->addMultiOptions(array(\n        'male' => 'Male',\n        'female' => 'Female'\n      ))\n      ->setSeparator('');\n  }\n}

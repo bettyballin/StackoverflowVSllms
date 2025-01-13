@@ -1,0 +1,1 @@
+import sys\nsys.path.append('/path/to/code_compiled')

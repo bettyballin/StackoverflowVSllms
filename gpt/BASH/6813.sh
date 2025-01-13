@@ -1,0 +1,1 @@
+// Execute an XQuery using the REST API\n   curl -u admin:password -X GET "http://localhost:8080/exist/rest/db?_query=doc('mycollection/document.xml')//elementName"

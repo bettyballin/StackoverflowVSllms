@@ -1,1 +1,0 @@
-$sheet->writeRow(0, 0, $colNames, $colHeadingFormat);

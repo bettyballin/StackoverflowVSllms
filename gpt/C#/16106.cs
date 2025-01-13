@@ -1,0 +1,1 @@
+AttributedAssemblyPartCatalog catalog = new AttributedAssemblyPartCatalog(Assembly.GetExecutingAssembly());\nCompositionContainer container = new CompositionContainer(catalog.CreateResolver());

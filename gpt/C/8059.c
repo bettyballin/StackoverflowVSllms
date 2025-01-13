@@ -1,0 +1,1 @@
+#include <string.h>\n#include <stdlib.h>\n\nint compare(const void *a, const void *b)\n{\n    return strcmp(*(const char **)a, *(const char **)b);\n}\n\nint lookup(char *word, char *array[], size_t size)\n{\n    char **item = (char **)bsearch(&word, array, size, sizeof(char *), compare);\n\n    if (item != NULL)\n    {\n        return item - array;\n    }\n\n    return -1;\n}

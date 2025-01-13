@@ -1,1 +1,0 @@
-def newFunct(key,testDict['key']):

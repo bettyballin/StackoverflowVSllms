@@ -1,1 +1,0 @@
-Dim a() As Integer = New Integer() {1, 2, 3}

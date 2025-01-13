@@ -1,0 +1,1 @@
+// Retrieve the computed style of the element\nvar element = document.getElementById('tId');\nvar computedStyle = window.getComputedStyle(element);\n\n// Get the width property value\nvar width = computedStyle.getPropertyValue('width');\nconsole.log(width); // This will output the computed width, e.g., "50%"

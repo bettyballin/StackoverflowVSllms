@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?>\n<configuration>\n  <system.webServer>\n    <rewrite>\n      <rules>\n        <rule name="Rewrite Example" stopProcessing="true">\n          <match url="^oldpath/(.*)$" />\n          <action type="Rewrite" url="newpath/{R:1}" />\n        </rule>\n      </rules>\n    </rewrite>\n  </system.webServer>\n</configuration>

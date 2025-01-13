@@ -1,0 +1,1 @@
+sudo nano /usr/local/bin/restricted_shell.sh

@@ -1,1 +1,0 @@
-update \n   [databaseB].dbo.[tableb]\nset \n[databaseB].dbo.[tableb].value = [databaseA].dbo.[tablea].Value\nFrom\n[databaseA].dbo.[tablea]\nWHERE \n  [databaseA].dbo.[tablea].uniqueConst =   [databaseb].dbo.[tableb].uniqueConst 

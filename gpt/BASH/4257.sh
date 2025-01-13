@@ -1,0 +1,1 @@
+@echo off\n   winscp.com /command ^\n     "open ftp://username:password@ftp.yourserver.com" ^\n     "synchronize remote C:\path\to\website /path/to/website" ^\n     "exit"

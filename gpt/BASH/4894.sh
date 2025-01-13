@@ -1,0 +1,1 @@
+haxelib install ufront\nhaxelib install mcli\nhaxelib run ufront new myproject\ncd myproject

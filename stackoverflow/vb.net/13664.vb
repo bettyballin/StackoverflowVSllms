@@ -1,1 +1,0 @@
-If Button1.Tag = "Pause" Then\n        Button1.Image = Image.FromFile("iconPlay.png")\n        Button1.Tag = "Play"\n    Else\n        Button1.Image = Image.FromFile("iconPause.png")\n        Button1.Tag = "Pause"\n    End If

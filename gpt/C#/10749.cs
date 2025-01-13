@@ -1,0 +1,1 @@
+string preWin2000LoginName = HttpContext.Current.Request.ServerVariables["AUTH_USER"];

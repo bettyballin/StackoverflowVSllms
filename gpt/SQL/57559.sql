@@ -1,0 +1,1 @@
+SELECT \n    M.ID, \n    M.MDESC, \n    STUFF(\n        (SELECT ', ' + D.DID\n         FROM DETAIL D\n         WHERE D.MID = M.ID\n         FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)'), \n        1, 2, '') AS DetailList\nFROM \n    MASTER M

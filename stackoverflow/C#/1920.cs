@@ -1,1 +1,0 @@
-HttpCookie cookie = Request.Cookies["aLog"];\ncookie.Expires = DateTime.Now.AddYears(-10);\nResponse.AppendCookie(cookie);

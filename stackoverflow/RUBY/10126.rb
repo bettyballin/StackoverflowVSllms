@@ -1,1 +1,0 @@
-http.verify_mode = OpenSSL::SSL::VERIFY_NONE if http.use_ssl?

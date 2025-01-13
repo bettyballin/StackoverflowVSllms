@@ -1,0 +1,1 @@
+using System.IO;\n\nstring folderPath = @"C:\path\to\your\folder";\nFile.SetAttributes(folderPath, FileAttributes.NotContentIndexed);

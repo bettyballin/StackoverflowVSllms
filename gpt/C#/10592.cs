@@ -1,0 +1,1 @@
+public class HelloWorld\n{\n    public void SayHello()\n    {\n        Console.WriteLine("Hello, World!");\n    }\n}

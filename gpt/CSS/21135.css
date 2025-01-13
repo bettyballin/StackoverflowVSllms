@@ -1,0 +1,1 @@
+/* Correct way to set only the right border */\nelement {\n    border-right: 1px solid black;\n}

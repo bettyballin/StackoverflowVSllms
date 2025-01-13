@@ -1,0 +1,1 @@
+if (signedInUser.IsAdmin)\n{\n    string query = "SELECT * FROM Users WHERE IsAdmin = 1";\n    // Execute the query and bind the results to the grid view\n}\nelse\n{\n    // Handle the case where the user is not an admin\n}

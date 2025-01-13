@@ -1,0 +1,1 @@
+<?php\n// Start a background PHP script\nexec('php /path/to/your_script.php > /dev/null 2>&1 &');\n\n// Or start a background Python script\nexec('python /path/to/your_script.py > /dev/null 2>&1 &');\n?>

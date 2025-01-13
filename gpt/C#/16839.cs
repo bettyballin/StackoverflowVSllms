@@ -1,0 +1,1 @@
+RichTextBox richTextBox = new RichTextBox();\nrichTextBox.Text = "Visit Google";\nrichTextBox.DetectUrls = true;\nrichTextBox.LinkClicked += (sender, args) =>\n{\n    System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo\n    {\n        FileName = args.LinkText,\n        UseShellExecute = true\n    });\n};

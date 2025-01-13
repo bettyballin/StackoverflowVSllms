@@ -1,1 +1,0 @@
-require("autoloader.php"); \n$x = new Car();  \n$x = new Bike(); 

@@ -1,0 +1,1 @@
+declare @value decimal(18,4)\n\nset @value = 123.4567\n\n-- Truncate to 2 decimal places\nselect CAST(FLOOR(@value * 100) / 100.0 as decimal(18,2)) as TruncatedValue

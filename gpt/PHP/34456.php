@@ -1,0 +1,1 @@
+$str1 = 'Hello ';\n   $str2 = 'World!';\n   $output1 = $str1 . $str2;

@@ -1,0 +1,1 @@
+/*\nTemplate Name: Custom Blog Template\n*/\nget_header(); \n?>\n\n<div class="custom-blog-template">\n    <!-- Custom HTML and PHP for your blog entries -->\n</div>\n\n<?php get_footer(); ?>

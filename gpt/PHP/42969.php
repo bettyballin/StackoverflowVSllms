@@ -1,0 +1,1 @@
+$filters = array(\n    'month'   => 'Digits',\n    'account' => 'StringTrim',\n    'other'   => 'Core_Filter_MyFilter'\n);\n\n$validators = array(\n    'account' => 'Alpha',\n    'other'   => 'Core_Validator_MyValidator'\n);\n\n$inputFilter = new Zend_Filter_Input($filters, $validators);

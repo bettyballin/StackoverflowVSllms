@@ -1,1 +1,0 @@
-import codecs\nwith codecs.open('unicode.rst', encoding='utf-8') as f:\n    for line in f:\n        print repr(line)

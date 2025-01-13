@@ -1,0 +1,1 @@
+-- Using ANSI-99 join syntax\nSELECT a.*, b.*\nFROM table_a a\nINNER JOIN table_b b ON a.id = b.a_id\nWHERE b.some_column = 'value';\n\n-- Using WHERE clause for joins (older syntax)\nSELECT a.*, b.*\nFROM table_a a, table_b b\nWHERE a.id = b.a_id\nAND b.some_column = 'value';

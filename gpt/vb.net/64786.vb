@@ -1,0 +1,1 @@
+dim myNumericVariable as Integer = Convert.ToInt32(dr.Item(columnName))

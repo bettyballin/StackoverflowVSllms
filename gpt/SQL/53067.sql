@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_UpdateTimestamp\n    ON YourTableName\n    AFTER INSERT, UPDATE\n    AS\n    BEGIN\n        SET NOCOUNT ON;\n\n        UPDATE YourTableName\n        SET changed_at = GETDATE()\n        FROM YourTableName T\n        INNER JOIN inserted I ON T.YourPrimaryKey = I.YourPrimaryKey;\n    END;

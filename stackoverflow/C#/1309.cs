@@ -1,1 +1,0 @@
-.SetFetchMode("Prices", FetchMode.Join)

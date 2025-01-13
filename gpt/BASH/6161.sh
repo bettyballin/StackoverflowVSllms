@@ -1,0 +1,1 @@
+assoc .m3u\n    ftype | grep $(assoc .m3u | cut -d= -f2)

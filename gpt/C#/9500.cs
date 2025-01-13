@@ -1,0 +1,1 @@
+using Microsoft.Web.Administration;\n\nclass Program\n{\n    static void Main()\n    {\n        ServerManager serverManager = new ServerManager();\n        Site mySite = serverManager.Sites["MySite"];\n        mySite.Bindings.Add("*:80:", "http");\n        serverManager.CommitChanges();\n    }\n}

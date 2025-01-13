@@ -1,0 +1,1 @@
+SELECT \n  *\nFROM\n  table_a, table_b, table_c\nWHERE\n  table_a.id = table_b.id AND\n  table_a.id = table_c.id AND\n  table_a.create_date > DATE('1998-01-01');

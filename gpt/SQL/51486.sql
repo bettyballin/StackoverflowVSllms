@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.CalculateDiscount (@TotalAmount DECIMAL(10, 2))\nRETURNS DECIMAL(10, 2)\nAS\nBEGIN\n    DECLARE @Discount DECIMAL(10, 2);\n    SET @Discount = @TotalAmount * 0.1; -- 10% discount\n    RETURN @Discount;\nEND;

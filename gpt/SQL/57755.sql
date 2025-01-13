@@ -1,0 +1,1 @@
+UPDATE YourTableName\nSET YourFieldName = \n    IIf([YourFieldName] = "joe doe", 334, \n    IIf([YourFieldName] = "barry davis", 456, \n    IIf([YourFieldName] = "employee3", ID3, \n    IIf([YourFieldName] = "employee4", ID4, \n    ... \n    [YourFieldName]))))

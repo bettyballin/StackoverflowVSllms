@@ -1,1 +1,0 @@
-var someResult = proxy.SubmitOrder(...);

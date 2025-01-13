@@ -1,0 +1,1 @@
+python -m line_profiler my_view.py.lprof

@@ -1,0 +1,1 @@
+try\n{\n    // Code that may throw an exception\n    throw new Exception("Could not find foo%20bar");\n}\ncatch (Exception ex)\n{\n    // Escape % characters in the exception message\n    string escapedMessage = ex.Message.Replace("%", "%%");\n\n    // Log the escaped message\n    EventLog.WriteEntry("Application", escapedMessage, EventLogEntryType.Error);\n}

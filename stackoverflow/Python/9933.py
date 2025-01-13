@@ -1,1 +1,0 @@
-class clsmaker(object):\n    def __init__(self, N):\n        self.N = N\n    def __call__(self, X):\n        return X * self.N

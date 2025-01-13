@@ -1,0 +1,1 @@
+robocopy "C:\SourceFolder" "D:\DestinationFolder" /MIR /MT:8 /R:5 /W:5

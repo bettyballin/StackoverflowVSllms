@@ -1,0 +1,1 @@
+import html\nimport requests\n\n# Replace with the URL of the web page you want to scrape\nurl = 'http://example.com'\n\nresponse = requests.get(url)\nhtml_content = response.text\n\n# Unescape HTML entities\ndecoded_content = html.unescape(html_content)\n\nprint(decoded_content)

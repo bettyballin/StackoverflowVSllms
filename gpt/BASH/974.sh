@@ -1,0 +1,1 @@
+curl -c cookies.txt http://yourdomain.com/session.php

@@ -1,1 +1,0 @@
-dig www.mysite.domain.com @a.root-servers.net

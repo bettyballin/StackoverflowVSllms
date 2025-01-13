@@ -1,0 +1,1 @@
+import socket\n\ndef send_command(command):\n    client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n    client_socket.connect(('localhost', 9999))\n    client_socket.send(command.encode('utf-8'))\n    client_socket.close()\n\nif __name__ == "__main__":\n    send_command("YOUR_COMMAND_HERE")

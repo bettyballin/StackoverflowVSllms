@@ -1,1 +1,0 @@
-set_exception_handler

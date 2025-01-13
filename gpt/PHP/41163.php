@@ -1,0 +1,1 @@
+require("autoload.php");\n// Now you can instantiate classes without manually including them\n$class1 = new Class1();\n$class2 = new Class2();

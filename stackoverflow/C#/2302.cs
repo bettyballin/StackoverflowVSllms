@@ -1,1 +1,0 @@
-public static List<string> GetCities()\n{\n  List<string> cities = new List<string>();\n  cities.Add("Istanbul");\n  cities.Add("Athens");\n  cities.Add("Sofia");\n  return cities;\n}

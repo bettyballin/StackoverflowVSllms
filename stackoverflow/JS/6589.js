@@ -1,1 +1,0 @@
-$('#targetDiv').load('http://localhost/test.aspx #sourceDiv'); 

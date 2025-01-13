@@ -1,1 +1,0 @@
-foreach ($foo['Comment'] as $comment) {\n  echo $comment['title'];\n}

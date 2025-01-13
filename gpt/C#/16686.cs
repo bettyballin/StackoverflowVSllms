@@ -1,0 +1,1 @@
+var server = new Grpc.Core.Server {\n       Services = { MyService.BindService(new MyServiceImpl()) },\n       Ports = { new ServerPort("localhost", 50051, ServerCredentials.Insecure) }\n   };\n   server.Start();

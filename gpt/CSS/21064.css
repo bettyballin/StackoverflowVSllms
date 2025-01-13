@@ -1,0 +1,1 @@
+/* Underlined links */\na {\n  text-decoration: underline;\n}\n\n/* Non-underlined links with other visual indicators */\nnav a {\n  text-decoration: none;\n  color: blue; /* Ensure color contrast is sufficient for accessibility */\n}\n\nnav a:hover {\n  text-decoration: underline; /* Provide underline on hover */\n  background-color: lightgrey; /* Additional hover effect */\n}

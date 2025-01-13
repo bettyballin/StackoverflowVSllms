@@ -1,0 +1,1 @@
+public ActionResult GetAnswers()\n{\n    var answers = new List<object>\n    {\n        new { id = "93", value = "Ahstron" },\n        new { id = "94", value = "Sampers" }\n    };\n\n    var result = new\n    {\n        answers = answers\n    };\n\n    return Json(result, JsonRequestBehavior.AllowGet);\n}

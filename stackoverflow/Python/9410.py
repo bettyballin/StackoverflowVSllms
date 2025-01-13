@@ -1,1 +1,0 @@
-import csv\nr = csv.reader(...)\nlines = [line for line in r]\nprint len(lines) #number of lines\nfor odd in lines[1::2]: print odd # print odd lines

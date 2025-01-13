@@ -1,0 +1,1 @@
+function debug($variable) {\n    echo '<pre>';\n    var_dump($variable);\n    echo '</pre>';\n}

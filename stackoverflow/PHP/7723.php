@@ -1,1 +1,0 @@
-$dom = domxml_open_mem($str);\n$keywords = $dom->get_elements_by_tagname('keyword');\n\nforeach($keywords as $keyword) {\n    $text = $keyword->get_content();\n    // Whatever\n}

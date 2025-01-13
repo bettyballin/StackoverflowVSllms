@@ -1,1 +1,0 @@
-mysqldump -u <user> -p <database> > out.sql

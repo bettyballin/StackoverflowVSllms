@@ -1,0 +1,1 @@
+INSERT INTO dbo.Documents (Doc_Id, Doc_Value)\n   VALUES (1, 'aaa'),\n          (12, 'xxx'),\n          (2, 'bbb'),\n          (3, 'ccc');

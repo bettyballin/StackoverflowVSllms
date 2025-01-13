@@ -1,0 +1,1 @@
+cd ~/.emacs.d\n   git pull

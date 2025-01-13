@@ -1,1 +1,0 @@
-$data = array(\n   'logins' => new Zend_Db_Expr('logins + 1')\n);

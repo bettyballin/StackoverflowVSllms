@@ -1,0 +1,1 @@
+uint8_t *buffer = (uint8_t *)malloc(640 * 480 * 2);\n   // Process the buffer\n   free(buffer);

@@ -1,0 +1,1 @@
+function initValidation() {\n    try {\n        if (navigator.userAgent.indexOf("Opera") != -1) {\n            console.log("Opera detected, skipping validation initialization.");\n            return;\n        }\n        $("#post-text").rules("add", { required: true, minlength: 5 });\n    } catch (e) {\n        console.error("Validation initialization failed:", e);\n    }\n}

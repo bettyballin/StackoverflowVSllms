@@ -1,1 +1,0 @@
-private string getElement (tableRow tr, string element){\n    string val = "";\n    try\n    {\n        val = tr.GetType().GetProperty(element).GetValue(tr, null).ToString();\n    }\n    catch //NULL value\n    {\n        val = "";\n    }\n}

@@ -1,1 +1,0 @@
-List<int> list = new List<int> { 1, 2, 4, 8, 16 };\nlistBox1.DataSource = list;

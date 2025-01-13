@@ -1,1 +1,0 @@
-Protected Sub ClearDropDownValue(ByVal target As DropDownList, ByVal bindFirst As Boolean)\n    SetDropDownValue(target, CType(Nothing, Nullable(Of Integer)), bindFirst)\nEnd Sub

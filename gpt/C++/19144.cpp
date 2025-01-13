@@ -1,0 +1,1 @@
+#include <fstream>\n#include <cstdio>\n#include <unistd.h>\n\nFILE* getFilePointerFromFStream(std::fstream& fs) {\n    int fd = fileno(fs.rdbuf()->fd());\n    return fdopen(fd, "r+"); // or "w+" depending on the mode\n}

@@ -1,1 +1,0 @@
-SELECT\n    duplicates.NumOccurrences,\n    duplicates.userID,\n    users.firstname,\n    users.lastname\nFROM (\n    SELECT\n        userID,\n        COUNT(userID) AS NumOccurrences\n    FROM userDepartments\n    GROUP BY userID\n    HAVING COUNT(userID) > 1\n) duplicates\nINNER JOIN users ON duplicates.userID = users.userID

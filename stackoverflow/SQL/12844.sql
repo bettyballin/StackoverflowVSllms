@@ -1,1 +1,0 @@
-update <tablename>\n  set widget_id = widget_id + "somenumber/"\n  where row_id = X\n    and widget_id not like "%/somenumber/%"\n    and widget_id not like "somenumber/%";

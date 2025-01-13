@@ -1,0 +1,1 @@
+public class YourController\n{\n    private ViewCounterService viewCounterService = new ViewCounterService();\n\n    public void OnView(int objectId)\n    {\n        viewCounterService.IncrementView(objectId);\n    }\n}

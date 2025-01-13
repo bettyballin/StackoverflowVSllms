@@ -1,1 +1,0 @@
-// Wrong\neval("{ ... }");\n// Right\neval("({ ... })");

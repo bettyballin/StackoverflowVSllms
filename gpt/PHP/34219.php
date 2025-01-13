@@ -1,0 +1,1 @@
+$integer = 123;\n$string = strval($integer);

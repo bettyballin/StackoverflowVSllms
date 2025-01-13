@@ -1,0 +1,1 @@
+svn copy file:///path/to/your/local/repo/trunk file:///path/to/your/local/repo/branches/codeplex

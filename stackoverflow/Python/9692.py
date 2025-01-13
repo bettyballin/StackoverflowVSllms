@@ -1,1 +1,0 @@
-from pypdf import PdfReader\nreader = PdfReader("upload.pdf")

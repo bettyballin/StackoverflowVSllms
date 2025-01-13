@@ -1,0 +1,1 @@
+// Avoid this\n   var pipeClient = new NamedPipeClientStream("PipeName");

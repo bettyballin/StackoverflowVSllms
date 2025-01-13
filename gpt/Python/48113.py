@@ -1,0 +1,1 @@
+import ipaddress\n\nip = ipaddress.ip_address('192.168.0.1')\nnetwork = ipaddress.ip_network('192.168.0.0/24')\n\nif ip in network:\n    print(f"{ip} is in the network {network}")\nelse:\n    print(f"{ip} is not in the network {network}")

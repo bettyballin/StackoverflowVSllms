@@ -1,0 +1,1 @@
+mkdir build-binutils\n   cd build-binutils\n   ../binutils-x.x/configure --target=<target-triplet> --prefix=<install-prefix> --program-prefix=<prefix>\n   make\n   make install

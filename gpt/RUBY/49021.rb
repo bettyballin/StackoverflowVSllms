@@ -1,0 +1,1 @@
+<%= yourVariableHere %>\n    <% employee_info.each do |employee| %>\n    <%= employee.name %>\n    <% end %>

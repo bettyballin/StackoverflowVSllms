@@ -1,0 +1,1 @@
+$newString = implode("", $array); // Joins array into a string without a delimiter\n// OR\n$newString = implode(" ", $array); // Joins array into a string with space as a delimiter

@@ -1,0 +1,1 @@
+jdeps --print-module-deps --module-path mods --add-modules your.module.name

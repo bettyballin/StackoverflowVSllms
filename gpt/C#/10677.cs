@@ -1,0 +1,1 @@
+public class TableA\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n}\n\npublic class TableB\n{\n    public int Id { get; set; }\n    // Other properties\n}\n\npublic class TableC\n{\n    public int Id { get; set; }\n    // Other properties\n}

@@ -1,0 +1,1 @@
+resources :items do\n  get :autocomplete_item_name, on: :collection\nend

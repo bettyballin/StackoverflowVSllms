@@ -1,0 +1,1 @@
+INSERT INTO users (id, username, email) VALUES (0, 'Deleted User', 'deleted@example.com');

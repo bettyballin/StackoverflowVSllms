@@ -1,1 +1,0 @@
-function formatMyNumber($num)\n{\n    return sprintf('%03d/%03d/%03d',\n                   $num / 1000000,\n                  ($num / 1000) % 1000,\n                   $num % 1000);\n}

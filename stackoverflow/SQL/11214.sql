@@ -1,1 +1,0 @@
-SELECT *\nFROM Orders\nLEFT JOIN OrderLines ON OrderLines.OrderID=Orders.ID\nWHERE Orders.ID = 12345

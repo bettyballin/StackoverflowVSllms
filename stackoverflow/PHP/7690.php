@@ -1,1 +1,0 @@
-<?php\n$sxe = new SimpleXMLElement($someData, LIBXML_NOEMPTYTAG);\n\n// some processing here\n\n$out = $sxe->asXML();\n?>

@@ -1,1 +1,0 @@
-int len = match.Length;\nint numCommas = (len-1) / 3;\nStringBuilder sb = new StringBuilder(match.Value, len + numCommas)\nfor (int i = 1; i <= numCommas; i++) {\n    sb.Insert(len - i * 3, ',');\n}\nreturn sb.ToString()

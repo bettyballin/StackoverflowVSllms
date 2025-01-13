@@ -1,1 +1,0 @@
-SELECT o1.order_number, o1.order_date,\n    (SELECT COUNT(*) FROM orders AS o2\n        WHERE o2.order_date <= o1.order_date) AS RowNum\n    FROM\n        orders AS o1\n    ORDER BY o1.order_date 

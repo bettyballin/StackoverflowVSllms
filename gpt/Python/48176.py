@@ -1,0 +1,1 @@
+from flask import session\n\n# Storing data in session\nsession['cached_data'] = data\n\n# Retrieving data from session\ncached_data = session.get('cached_data')\nif cached_data is not None:\n    # Use cached data

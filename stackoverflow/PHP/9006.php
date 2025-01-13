@@ -1,1 +1,0 @@
-foreach ($array as $key => $value) {\n    if (strpos($value, $x) === false) {\n         print($value);\n    }\n}

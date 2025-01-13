@@ -1,0 +1,1 @@
+try {\n    $issue = new DM_Issue($core->db->escape_string($_GET['issue']));\n} catch (DM_Exception $e) {\n    error_log($e->getMessage());  // Log the exception message\n    $errorPage = new Error_Page($tpl, ERR_NOT_FOUND, $e->getMessage());\n    die($errorPage);\n}

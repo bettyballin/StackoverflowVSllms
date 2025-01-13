@@ -1,0 +1,1 @@
+sudo mkdir -p /etc/ssh/authorized_keys

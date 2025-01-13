@@ -1,0 +1,1 @@
+<configuration>\n      <system.web>\n        <httpRuntime maxConcurrentRequestsPerCPU="5000" maxConcurrentThreadsPerCPU="5000" />\n        <applicationPool maxConcurrentRequestsPerCPU="5000" maxConcurrentThreadsPerCPU="5000" />\n      </system.web>\n    </configuration>

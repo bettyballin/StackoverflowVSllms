@@ -1,0 +1,1 @@
+x = [2, 5, 8, 33, 58]\n\npairwise_distances = []\nx.each_with_index do |point1, i|\n  x.each_with_index do |point2, j|\n    next if i >= j\n    pairwise_distances << (point1 - point2).abs\n  end\nend\n\nputs pairwise_distances

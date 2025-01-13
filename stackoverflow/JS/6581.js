@@ -1,1 +1,0 @@
-document.myForm.formField.value=xmlHttp.responseText;

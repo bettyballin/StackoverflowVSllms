@@ -1,0 +1,1 @@
+double delta = sample - mean;\n   mean += delta / n;\n   double delta2 = sample - mean;\n   variance += delta * delta2;

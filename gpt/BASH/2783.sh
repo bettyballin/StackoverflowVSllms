@@ -1,0 +1,1 @@
+ls -l /etc/ec2onrails/ssl/cert/ec2onrails-default.crt\n   ls -l /etc/ec2onrails/ssl/private/ec2onrails-default.key\n   ls -l /etc/ec2onrails/ssl/cert/ec2onrails-chain.crt

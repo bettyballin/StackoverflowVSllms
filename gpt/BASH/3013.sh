@@ -1,0 +1,1 @@
+TfsConfig RemapDBs /DatabaseName:DBName /SQLInstances:SQLInstance

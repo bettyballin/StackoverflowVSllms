@@ -1,1 +1,0 @@
-document.getElementById("MyElement").classList.add('MyClass');\n\ndocument.getElementById("MyElement").classList.remove('MyClass');\n\nif ( document.getElementById("MyElement").classList.contains('MyClass') )\n\ndocument.getElementById("MyElement").classList.toggle('MyClass');

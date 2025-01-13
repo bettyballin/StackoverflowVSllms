@@ -1,0 +1,1 @@
+def is_palindrome_number(n):\n    original = n\n    reversed_num = 0\n\n    while n > 0:\n        remainder = n % 10\n        reversed_num = reversed_num * 10 + remainder\n        n //= 10\n\n    return original == reversed_num\n\n# Example usage:\nnumber = 12321\nprint(is_palindrome_number(number))  # Output: True

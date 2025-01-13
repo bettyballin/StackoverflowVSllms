@@ -1,0 +1,1 @@
+while true; do\n       sudo perf record -e 'probe_lib:glib*:function' -a -o /tmp/perf.data -- sleep 60\n       sudo perf report -i /tmp/perf.data > /tmp/perf_report_$(date +\%F_\%T).txt\n       sleep 60\n   done

@@ -1,0 +1,1 @@
+// dynamic-js.php\n   header("Content-Type: application/javascript");\n   // Your dynamic JavaScript code here\n   echo "console.log('Hello, this is dynamically generated!');";

@@ -1,0 +1,1 @@
+using System.Web.Mvc;\n\npublic class MyController : Controller\n{\n    public JsonResult GetJsonData()\n    {\n        var data = new\n        {\n            Name = "John Doe",\n            Age = 30,\n            Country = "USA"\n        };\n\n        return Json(data, JsonRequestBehavior.AllowGet);\n    }\n}

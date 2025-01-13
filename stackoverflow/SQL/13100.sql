@@ -1,1 +1,0 @@
-081016 16:51:28 2 Query       prepare s1 from 'select * from foo where i = ?'\n                2 Prepare     [2] select * from foo where i = ?\n081016 16:51:39 2 Query       set @a =1\n081016 16:51:47 2 Query       execute s1 using @a\n                2 Execute     [2] select * from foo where i = 1

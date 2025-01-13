@@ -1,0 +1,1 @@
+function remove_specific_urls_from_content($content) {\n    $patterns = array(\n        '/https?:\/\/(www\.)?myspace\.com\/[^\s]*/i'\n    );\n\n    $content = preg_replace($patterns, '', $content);\n\n    return $content;\n}\n\nadd_filter('the_content', 'remove_specific_urls_from_content');

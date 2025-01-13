@@ -1,0 +1,1 @@
+widget->updateGeometry();\nQApplication::processEvents();

@@ -1,0 +1,1 @@
+<?php\n   session_start();\n\n   if (isset($_SESSION['error_id'])) {\n       $error_id = $_SESSION['error_id'];\n       // Display your error based on the error_id\n       echo "<p>Error: " . htmlentities($error_id) . "</p>";\n\n       // Unset the session variable after displaying the error\n       unset($_SESSION['error_id']);\n   }\n   ?>

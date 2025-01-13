@@ -1,1 +1,0 @@
-lock(Cache)\n  {\n    // do something with cache that otherwise wouldn't be threadsafe\n  }

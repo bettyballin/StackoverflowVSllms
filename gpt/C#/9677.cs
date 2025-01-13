@@ -1,0 +1,1 @@
+private void submitButton_Click(object sender, EventArgs e)\n   {\n       // Validate all controls on the form\n       if (this.ValidateChildren())\n       {\n           // Proceed with form submission\n       }\n       else\n       {\n           // Handle validation failure\n       }\n   }

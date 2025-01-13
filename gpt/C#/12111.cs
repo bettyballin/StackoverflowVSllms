@@ -1,0 +1,1 @@
+[MemoryDiagnoser]\n   public class Benchmarks\n   {\n       private int GetValue() => 42;\n\n       [Benchmark]\n       public int InlineTest()\n       {\n           return GetValue();\n       }\n\n       [Benchmark]\n       public int NoInlineTest()\n       {\n           var value = GetValue();\n           return value;\n       }\n   }

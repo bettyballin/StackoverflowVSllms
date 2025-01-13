@@ -1,0 +1,1 @@
+stsadm -o addcontentdb -url http://testserver:101 -databasename WSS_Content_MySite -databaseserver SHAREPOINT01

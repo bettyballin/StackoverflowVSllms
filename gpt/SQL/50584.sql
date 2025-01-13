@@ -1,0 +1,1 @@
+CREATE TABLE TrackerItems (\n       TrackerItemID INT PRIMARY KEY,\n       TrackerID INT,\n       ID VARCHAR(50),\n       Title VARCHAR(255),\n       FOREIGN KEY (TrackerID) REFERENCES Tracker(TrackerID)\n   );

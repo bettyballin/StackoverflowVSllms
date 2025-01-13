@@ -1,0 +1,1 @@
+CREATE PROCEDURE sprocGetArticles\nAS\nBEGIN\n    SELECT \n        a.ArticleID,\n        a.Title,\n        a.Content,\n        COUNT(c.CommentID) AS CommentCount\n    FROM \n        Articles a\n    LEFT JOIN \n        Comments c ON a.ArticleID = c.ArticleID\n    GROUP BY \n        a.ArticleID, a.Title, a.Content\n    ORDER BY \n        a.ArticleID\nEND

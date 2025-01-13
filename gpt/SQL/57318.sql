@@ -1,0 +1,1 @@
+SELECT a.id, a.title, u.unread_count\nFROM articles a\nLEFT JOIN unread_comments_count u ON a.id = u.article_id;

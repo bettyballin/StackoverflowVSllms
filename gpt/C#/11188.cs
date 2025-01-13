@@ -1,0 +1,1 @@
+using System;\n   using System.Runtime.InteropServices;\n\n   class Program\n   {\n       [DllImport("libc")]\n       private static extern int getpid();\n\n       static void Main()\n       {\n           int pid = getpid();\n           Console.WriteLine($"Process ID: {pid}");\n       }\n   }

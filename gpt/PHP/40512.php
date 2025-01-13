@@ -1,0 +1,1 @@
+$this->Session->setFlash('Your message here', 'default', array(), 'flash');

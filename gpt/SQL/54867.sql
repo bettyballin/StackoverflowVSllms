@@ -1,0 +1,1 @@
+INSERT INTO events (event_name, event_date) VALUES ('Sample Event', FROM_UNIXTIME($timestamp));

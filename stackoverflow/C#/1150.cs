@@ -1,1 +1,0 @@
-System.Uri address = new System.Uri("http://tinyurl.com/api-create.php?url=" + YOUR ADDRESS GOES HERE);\nSystem.Net.WebClient client = new System.Net.WebClient();\nstring tinyUrl = client.DownloadString(address);\nConsole.WriteLine(tinyUrl);

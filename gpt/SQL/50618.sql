@@ -1,0 +1,1 @@
+SELECT comment_id\nFROM votes\nWHERE user_id = :user_id AND comment_id IN (:comment_ids);

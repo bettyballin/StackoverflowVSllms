@@ -1,0 +1,1 @@
+CComBSTR empty(L""); // Or SysAllocString(L"")\n  someObj->Foo(empty);

@@ -1,0 +1,1 @@
+$markup = "Your input string containing <% ... %> and &lt;% ... %&gt;";\n\n$matches = preg_split(\n    "/&lt;%[\s]*(.*?)%&gt;|<%[\s]*(.*?)%>/i",\n    $markup,\n    -1,\n    PREG_SPLIT_NO_EMPTY | PREG_SPLIT_DELIM_CAPTURE\n);\n\nprint_r($matches);

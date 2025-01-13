@@ -1,0 +1,1 @@
+SELECT *\nFROM auctions\nWHERE status = '0'\n  AND TIMESTAMP(start_date, start_time) > NOW()\n  AND TIMESTAMPDIFF(HOUR, NOW(), TIMESTAMP(start_date, start_time)) BETWEEN 1 AND 24\n  AND TIMESTAMPDIFF(HOUR, NOW(), TIMESTAMP(start_date, start_time)) = X;

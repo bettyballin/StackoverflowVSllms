@@ -1,0 +1,1 @@
+// Example of using dotTrace in code\n   using JetBrains.Profiler.Api;\n   ...\n   MeasureProfiler.StartCollectingData();\n   // Your code to profile\n   MeasureProfiler.StopCollectingData();

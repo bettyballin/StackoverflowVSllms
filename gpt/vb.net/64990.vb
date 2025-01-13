@@ -1,0 +1,1 @@
+Dim result As IEnumerable(Of Integer) = From number In numbers Where number Mod 2 = 0 Select number

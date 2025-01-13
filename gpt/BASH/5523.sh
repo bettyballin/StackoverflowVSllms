@@ -1,0 +1,1 @@
+dumpbin /headers <path_to_dll>

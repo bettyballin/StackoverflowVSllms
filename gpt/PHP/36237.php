@@ -1,0 +1,1 @@
+<?php\nsession_start();\nsession_write_close();\nsleep(120);\n?>

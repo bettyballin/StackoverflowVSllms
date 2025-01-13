@@ -1,0 +1,1 @@
+var sessionFactory = Fluently.Configure()\n       .Database(MsSqlConfiguration.MsSql2012.ConnectionString("your_connection_string"))\n       .Mappings(m => m.FluentMappings.AddFromAssemblyOf<CustomerMap>())\n       .BuildSessionFactory();

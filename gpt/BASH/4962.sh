@@ -1,0 +1,1 @@
+icacls "C:\path\to\upload\directory" /grant IIS_IUSRS:(OI)(CI)F /T

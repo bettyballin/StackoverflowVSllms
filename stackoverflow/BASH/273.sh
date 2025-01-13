@@ -1,1 +1,0 @@
-./test1 &\n./test2 &\n./test3 &\n./test4 &\nwait

@@ -1,1 +1,0 @@
-CREATE SEQUENCE seq;\n\nCREATE TABLE mycount\n(\n   line NUMBER(10,0)\n);

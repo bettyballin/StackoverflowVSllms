@@ -1,0 +1,1 @@
+Scaffold-DbContext "YourConnectionString" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Context YourDbContext -UseDatabaseNames

@@ -1,1 +1,0 @@
-Dim list as new List(of string)\n...some stuff to fill the list...\nDim observable as new ObservableCollection(of string)(list)

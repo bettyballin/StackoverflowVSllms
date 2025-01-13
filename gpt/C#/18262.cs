@@ -1,0 +1,1 @@
+var sortedPeople = people.OrderBy(p => p.LastName);

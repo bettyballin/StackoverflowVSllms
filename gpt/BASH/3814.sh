@@ -1,0 +1,1 @@
+xxd packet_1.txt > packet_1.hex\n   xxd packet_2.txt > packet_2.hex\n   diff packet_1.hex packet_2.hex

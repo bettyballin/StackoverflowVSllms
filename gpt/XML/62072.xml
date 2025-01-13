@@ -1,0 +1,1 @@
+<Window.Resources>\n    <local:XmlElementToPartnerIDConverter x:Key="XmlElementToPartnerIDConverter"/>\n</Window.Resources>

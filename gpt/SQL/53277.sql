@@ -1,0 +1,1 @@
+CREATE INDEX faqs_fulltext_idx ON faqs USING gin(to_tsvector('english', question || ' ' || answer));

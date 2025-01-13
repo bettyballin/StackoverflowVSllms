@@ -1,1 +1,0 @@
-$xml = simplexml_load_file('test.xml');\n$vote = $xml->addChild('vote', '5');\n$vote->addAttribute('id','1_0');\n$fp = fopen('test.xml', 'w');\nfwrite($fp, $xml->asXML());\nfclose($fp);

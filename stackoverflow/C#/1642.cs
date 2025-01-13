@@ -1,1 +1,0 @@
-var result = MyEntities.EntityIMapped.First(r => r.id = uberParameter).Name;

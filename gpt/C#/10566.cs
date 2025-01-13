@@ -1,0 +1,1 @@
+class Foo\n   {\n       private static readonly string bar = "O_o";\n\n       private bool TrySomething()\n       {\n           // No need for a lock here since 'bar' is readonly and thread-safe\n           string localBar = Foo.bar;\n\n           // Do something with localBar\n       }\n   }

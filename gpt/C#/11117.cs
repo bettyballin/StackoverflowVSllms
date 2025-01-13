@@ -1,0 +1,1 @@
+string progID = "YourCOMLibrary.ProgID";\nstring fileVersion = ComDllInfo.GetFileVersion(progID);\n\nif (!string.IsNullOrEmpty(fileVersion))\n{\n    Response.Write($"File Version: {fileVersion}");\n}\nelse\n{\n    Response.Write("File Version not found.");\n}

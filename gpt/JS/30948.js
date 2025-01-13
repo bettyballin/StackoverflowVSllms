@@ -1,0 +1,1 @@
+var newElement = document.createElement('div');\n   newElement.innerText = '...';\n   element.appendChild(newElement);

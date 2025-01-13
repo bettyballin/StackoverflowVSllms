@@ -1,0 +1,1 @@
+string myTextBoxClientID = myTextBox.ClientID;

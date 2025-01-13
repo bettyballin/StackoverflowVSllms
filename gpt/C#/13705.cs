@@ -1,0 +1,1 @@
+// Example BLL method to get person data\npublic static class Person\n{\n    public static DataSet GetPerson(int personID)\n    {\n        // Implementation to fetch person data from the database\n    }\n\n    public static void Update(DataSet personInfo)\n    {\n        // Implementation to update person data to the database\n    }\n}

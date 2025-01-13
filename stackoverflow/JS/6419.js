@@ -1,1 +1,0 @@
-$('li.add a').each(function() {\n    data.push($(this).text());\n  });

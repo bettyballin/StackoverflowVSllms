@@ -1,0 +1,1 @@
+del /s /q G:\Projects\TCA.NET\TcaNet\WebUI\obj\Debug\n    del /s /q G:\Projects\TCA.NET\TcaNet\WebUI\bin\Debug

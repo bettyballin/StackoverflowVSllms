@@ -1,0 +1,1 @@
+sudo chmod 755 /var/www/uploads

@@ -1,0 +1,1 @@
+mean = mean + (sample - mean) / n;

@@ -1,0 +1,1 @@
+gem 'activerecord', require: 'active_record'\n   gem 'sinatra-activerecord'

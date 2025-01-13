@@ -1,0 +1,1 @@
+// In the application source file (e.g., MyApp.cpp)\ntemplate class __declspec(dllimport) B<int>;

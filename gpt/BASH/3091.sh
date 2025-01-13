@@ -1,0 +1,1 @@
+rsync -av --exclude-from=.rsync-exclude /path/to/working/copy/ user@desktop:/path/to/working/copy/

@@ -1,0 +1,1 @@
+// Declaration\nvoid func();  // This is not recommended\n\n// Definition\nvoid func() {\n    // Function body\n}

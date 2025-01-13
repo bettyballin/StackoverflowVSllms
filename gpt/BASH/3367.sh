@@ -1,0 +1,1 @@
+curl -sI <URL> | grep -i "Last-Modified"

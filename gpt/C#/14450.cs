@@ -1,0 +1,1 @@
+private void Form1_FormClosing(object sender, FormClosingEventArgs e)\n{\n    if (e.CloseReason == CloseReason.UserClosing)\n    {\n        MessageBox.Show("Exit button was pressed.");\n    }\n}

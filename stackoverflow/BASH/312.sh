@@ -1,1 +1,0 @@
-chcp 65001 && start.bat

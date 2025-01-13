@@ -1,1 +1,0 @@
-for obj in Model1.objects.all():\n    if obj.model2_set().count() == 0:\n        # process (obj, None) -- no Model2 association\n    else:\n        for obj2 in obj.model2_set.all():\n            # process (obj, obj2) -- the "inner join" result

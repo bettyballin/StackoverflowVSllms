@@ -1,0 +1,1 @@
+tf workspaces /collection:https://your-tfs-server-url:8080/tfs/DefaultCollection /login:yourusername,PAT

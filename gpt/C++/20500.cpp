@@ -1,0 +1,1 @@
+#include <openssl/rand.h>\n   \n   uint16_t GetRandomValue(void) {\n       uint16_t rand_val;\n       if (RAND_bytes((unsigned char*)&rand_val, sizeof(rand_val)) != 1) {\n           // Handle error\n       }\n       return rand_val;\n   }

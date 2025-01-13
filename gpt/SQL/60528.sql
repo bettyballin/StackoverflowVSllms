@@ -1,0 +1,1 @@
+CREATE TABLE permalinks (\n       id INT AUTO_INCREMENT PRIMARY KEY,\n       slug VARCHAR(255) NOT NULL UNIQUE,\n       content_id INT NOT NULL\n   );

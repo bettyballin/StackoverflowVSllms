@@ -1,0 +1,1 @@
+export ENCRYPTION_KEY="your_secure_key_here"

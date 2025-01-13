@@ -1,1 +1,0 @@
-$.post("WeatherServlet", {cityName:$cityName}, function(xml) {

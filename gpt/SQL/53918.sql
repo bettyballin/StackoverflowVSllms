@@ -1,0 +1,1 @@
+SELECT DISTINCT(post.idPost), post.post\nFROM post\nINNER JOIN (\n    SELECT idPost\n    FROM comment\n    WHERE inputDate >= <today - time range>\n) AS filtered_comments ON post.idPost = filtered_comments.idPost\nINNER JOIN postCategory ON postCategory.idPost = post.idPost\nWHERE postCategory.idCategory = <myCategoryId>;

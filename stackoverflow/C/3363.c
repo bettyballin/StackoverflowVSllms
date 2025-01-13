@@ -1,1 +1,0 @@
-class A {\npublic:\n    virtual ~A() {\n        count --;\n        if (count == 0) { // this is the last one, do something }\n    }\nprotected:\n    static int count;\n};\n\nclass B : public A{\npublic:\nB();\n};

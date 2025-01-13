@@ -1,1 +1,0 @@
-$befal = mysql_query("SELECT * FROM users WHERE username = '$_GET[username]'");

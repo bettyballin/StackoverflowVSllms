@@ -1,1 +1,0 @@
-SELECT DISTINCT UserId\nFROM UserHistory uh1\nWHERE (\n       SELECT COUNT(*) \n       FROM UserHistory uh2 \n       WHERE uh2.CreationDate \n       BETWEEN uh1.CreationDate AND DATEADD(d, @days, uh1.CreationDate)\n      ) = @days OR UserId = 52551

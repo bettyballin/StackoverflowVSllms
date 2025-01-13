@@ -1,1 +1,0 @@
-answer = 42\nfraction = answer * 2 /\n           (answer + 1)\nConsole.WriteLine(\n    "Some funny number: {0}",\n    fraction\n)

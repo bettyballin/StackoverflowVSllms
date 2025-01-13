@@ -1,1 +1,0 @@
-import os\nif os.environ.has_key('REQUEST_METHOD'):\n    # You're being run as a CGI script.\nelse:\n    # You're being run from the command line.

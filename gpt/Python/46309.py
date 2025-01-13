@@ -1,0 +1,1 @@
+import requests\nfrom bs4 import BeautifulSoup\n\nurl = "http://domain-daily.com/"\nresponse = requests.get(url)\nsoup = BeautifulSoup(response.content, 'html.parser')\n\n# Example: Find and print all domain names listed on the page\ndomains = soup.find_all('a', href=True)\nfor domain in domains:\n    print(domain['href'])

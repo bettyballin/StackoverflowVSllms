@@ -1,1 +1,0 @@
-select c01 from table\nunion all\nselect c02 from table\nunion all\nselect c03 from table\nunion all\nselect c04 from table

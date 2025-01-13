@@ -1,0 +1,1 @@
+aws deploy create-deployment --application-name MyApplication --deployment-config-name CodeDeployDefault.OneAtATime --deployment-group-name MyDeploymentGroup --s3-location bucket=myBucket,key=myApp.zip,bundleType=zip

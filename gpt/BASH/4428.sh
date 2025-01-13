@@ -1,0 +1,1 @@
+git checkout staging\n   git merge feature/new-feature\n   git push origin staging

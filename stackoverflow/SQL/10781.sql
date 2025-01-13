@@ -1,1 +1,0 @@
-FROM (SELECT ...) AS alias_name

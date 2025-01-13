@@ -1,0 +1,1 @@
+if [ -z "$something_that_does_not_exist" ]; then\n  echo "Error: Destination is not specified."\n  exit 1\nfi\n\nmv folder "$something_that_does_not_exist"\nmv files* "$something_that_does_not_exist"

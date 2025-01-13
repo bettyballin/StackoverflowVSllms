@@ -1,1 +1,0 @@
-Type typeList = typeof(List<>);\nType actualType = typeList.MakeGenericType(myType);\nobject obj = Activator.CreateInstance(actualType);

@@ -1,0 +1,1 @@
+public class QuestionsController : ControllerBase\n{\n    private readonly IQuestionsRepository _repository;\n\n    public QuestionsController(IQuestionsRepository repository)\n    {\n        _repository = repository;\n    }\n\n    public IActionResult SomeAction()\n    {\n        // Implementation\n        return Ok();\n    }\n}

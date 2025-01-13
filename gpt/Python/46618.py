@@ -1,0 +1,1 @@
+import Pyro4\n\n@Pyro4.expose\nclass Peer:\n    def hello(self):\n        return "Hello, peer!"\n\ndaemon = Pyro4.Daemon()                \nuri = daemon.register(Peer)   \n\nprint("Ready. Object uri =", uri)\ndaemon.requestLoop()

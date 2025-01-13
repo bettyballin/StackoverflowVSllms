@@ -1,1 +1,0 @@
-template <class charT, class traits, class Alloc>\nbasic_string<charT, traits, Alloc>\noperator+(const basic_string<charT, traits, Alloc>& s1,\n          const basic_string<charT, traits, Alloc>& s2)

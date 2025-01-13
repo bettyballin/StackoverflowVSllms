@@ -1,0 +1,1 @@
+sudo a2enmod fastcgi\n   sudo systemctl restart apache2

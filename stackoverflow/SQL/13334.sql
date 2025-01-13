@@ -1,1 +1,0 @@
-DECLARE @NewLineChar AS CHAR(2) = CHAR(13) + CHAR(10)\nPRINT ('SELECT FirstLine AS FL ' + @NewLineChar + 'SELECT SecondLine AS SL')

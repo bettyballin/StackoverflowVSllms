@@ -1,0 +1,1 @@
+using (var context = new YourDataContext())\n{\n    var newRecord = new YourTable\n    {\n        // set other properties\n    };\n    \n    context.YourTables.InsertOnSubmit(newRecord);\n    context.SubmitChanges();\n\n    // newRecord.ID will have the generated ID after SubmitChanges\n}

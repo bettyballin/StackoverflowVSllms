@@ -1,0 +1,1 @@
+ini_set('session.save_path', '/var/lib/php/sessions');\nini_set('session.gc_maxlifetime', 1440);\nini_set('session.gc_probability', 1);\nini_set('session.gc_divisor', 100);

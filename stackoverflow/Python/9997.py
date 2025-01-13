@@ -1,1 +1,0 @@
-import re\nregex = re.compile("\x03(?:\d{1,2}(?:,\d{1,2})?)?", re.UNICODE)

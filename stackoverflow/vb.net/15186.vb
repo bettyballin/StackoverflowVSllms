@@ -1,1 +1,0 @@
-Imports <xmlns:g='http://earth.google.com/kml/2.0'>\nImports System.Xml.Linq\n\n ...\n\n    Dim Kml As XDocument = XDocument.Load(Server.MapPath("../kmlimport/ga.kml"))\n    For Each Placemark As XElement In Kml.<g:Document>.<g:Folder>.<g:Placemark>\n        Dim Name As String = Placemark.<g:name>.Value\n    Next

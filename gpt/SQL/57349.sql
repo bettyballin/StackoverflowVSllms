@@ -1,0 +1,1 @@
+CALL UpdateAndSelect();\nSELECT * FROM tbl2;

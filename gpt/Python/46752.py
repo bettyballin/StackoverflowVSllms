@@ -1,0 +1,1 @@
+import pkg_resources\n\n# Replace 'libxml2' and 'libxslt' with the actual package names if different\nlibxml2_version = pkg_resources.get_distribution("libxml2").version\nlibxslt_version = pkg_resources.get_distribution("libxslt").version\n\nprint("libxml2 version:", libxml2_version)\nprint("libxslt version:", libxslt_version)

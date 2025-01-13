@@ -1,0 +1,1 @@
+[OperationContract]\n[WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, UriTemplate = "/sales/start={start}&end={end}")]\nList<Sales> GetSalesByDate(string start, string end);

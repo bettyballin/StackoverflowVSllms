@@ -1,1 +1,0 @@
-char c;\nint ascii = (int) c;\ns2.data[j]=(char)count;

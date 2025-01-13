@@ -1,0 +1,1 @@
+SELECT name, schema_name(schema_id) AS schema_name, principal_id\n   FROM sys.objects\n   WHERE type = 'V';

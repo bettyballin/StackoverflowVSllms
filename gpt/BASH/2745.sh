@@ -1,0 +1,1 @@
+svn lock path/to/your/projectfile.vbproj\n   svn unlock path/to/your/projectfile.vbproj

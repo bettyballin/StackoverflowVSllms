@@ -1,0 +1,1 @@
+var selectStatement = "[3023.2#1]";\n   var encodedSelect = encodeURIComponent(selectStatement);\n   // Use encodedSelect in your form or URL

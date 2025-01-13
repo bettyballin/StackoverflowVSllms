@@ -1,0 +1,1 @@
+try\n{\n    // Your code that might cause stack overflow\n}\ncatch (Exception ex)\n{\n    // Log the exception details\n    System.Diagnostics.Trace.WriteLine($"Exception: {ex.Message}");\n    System.Diagnostics.Trace.WriteLine($"Stack Trace: {ex.StackTrace}");\n    throw; // Rethrow the exception if necessary\n}

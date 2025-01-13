@@ -1,1 +1,0 @@
-stats uri /haproxy/hastats

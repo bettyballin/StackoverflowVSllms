@@ -1,1 +1,0 @@
-people.Sort((x, y) => string.Compare(x.LastName, y.LastName));

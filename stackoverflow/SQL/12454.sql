@@ -1,1 +1,0 @@
-SELECT\n     DATEADD(ms, SUM(DATEDIFF(ms, '00:00:00.000', my_time)), '00:00:00.000')\nFROM\n     dbo.My_Table

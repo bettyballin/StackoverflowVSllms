@@ -1,0 +1,1 @@
+if (php_sapi_name() == 'cli') {\n    // Running in CLI mode\n    echo "Running in CLI mode";\n} else {\n    // Running inside a web server\n    echo "Running inside a web server";\n}

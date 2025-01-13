@@ -1,1 +1,0 @@
-SELECT\n  object_name, \n  object_type, \n  status, \n  timestamp\nFROM \n  user_objects\nWHERE \n  (object_name NOT LIKE 'SYS_%' AND \n   object_name NOT LIKE 'CREATE$%' AND \n   object_name NOT LIKE 'JAVA$%' AND \n   object_name NOT LIKE 'LOADLOB%') AND\n  object_type LIKE 'JAVA %'\nORDER BY\n  object_type, \n  object_name;

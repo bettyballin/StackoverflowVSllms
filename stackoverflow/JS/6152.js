@@ -1,1 +1,0 @@
-//some code\n $.get("http://internal-IP/userTracker.php?Name=UserName", function() {\n    //put something here if you want to verify the request worked.\n });\n //some more code

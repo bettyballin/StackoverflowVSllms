@@ -1,0 +1,1 @@
+def foo(x):\n       if foo.enabled:\n           print(x)\n\n   foo.enabled = True

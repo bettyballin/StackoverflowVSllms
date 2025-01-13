@@ -1,0 +1,1 @@
+// Example: Enabling PDB files in Release mode (C# Project)\n// Project Properties > Build > Advanced\n// Set 'Debug Info' to 'pdb-only' or 'full'

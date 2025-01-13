@@ -1,1 +1,0 @@
-implements Zend_Server_Interface

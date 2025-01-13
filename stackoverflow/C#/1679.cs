@@ -1,1 +1,0 @@
-MethodInfo[] baseMethods = obj.GetType().BaseType.GetMethods();\nobject retObj = baseMethods[0].Invoke(obj, new object[] {"paramVal1", 3, "paramVal3"});

@@ -1,1 +1,0 @@
-<applicationSettings>\n        <Exceptions.Properties.Settings>\n            <setting name="Exceptions_CentreService_CentreService" serializeAs="String">\n                <value>http://localhost/CentreServiceCompatibility/CentreService.asmx</value>\n            </setting>\n        </Exceptions.Properties.Settings>\n    </applicationSettings>

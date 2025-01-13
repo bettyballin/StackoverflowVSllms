@@ -1,0 +1,1 @@
+# RALUS log file on Linux\n   cat /var/VRTSralus/beremote.log

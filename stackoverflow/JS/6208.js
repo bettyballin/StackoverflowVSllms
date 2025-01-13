@@ -1,1 +1,0 @@
-function openPopup(popupID)\n{\n  var divs = getObjectsByTagAndClass('div','popupDiv');\n  if (divs != undefined && divs != null)\n  {\n    for (var i = 0; i < divs.length; i++)\n    {\n      if (divs[i].id == popupID)\n        divs[i].style.display = 'block';        \n    }\n  }\n}

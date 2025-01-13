@@ -1,1 +1,0 @@
-$functions = array(t1, t2);

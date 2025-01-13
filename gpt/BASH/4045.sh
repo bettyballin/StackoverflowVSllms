@@ -1,0 +1,1 @@
+sudo apt-get install php-imagick\nsudo service apache2 restart   # or restart your web server

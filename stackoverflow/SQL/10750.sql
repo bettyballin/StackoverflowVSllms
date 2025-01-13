@@ -1,1 +1,0 @@
-AND (select 0 from status_changes sc

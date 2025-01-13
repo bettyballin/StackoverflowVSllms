@@ -1,0 +1,1 @@
+public void Configuration(IAppBuilder app)\n   {\n       GlobalConfiguration.Configuration\n           .UseSqlServerStorage("YourConnectionString");\n\n       app.UseHangfireServer();\n       app.UseHangfireDashboard();\n   }

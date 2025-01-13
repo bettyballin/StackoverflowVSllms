@@ -1,0 +1,1 @@
+CREATE TABLE ItemTags (\n    item_id INT,\n    tag_id INT,\n    PRIMARY KEY (item_id, tag_id),\n    FOREIGN KEY (item_id) REFERENCES Items(item_id),\n    FOREIGN KEY (tag_id) REFERENCES Tags(tag_id)\n);

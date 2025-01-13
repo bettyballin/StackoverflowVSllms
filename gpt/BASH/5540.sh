@@ -1,0 +1,1 @@
+@echo off\n    setlocal\n    set CERT_PATH=\\YOUR_NETWORK_SHARE\path\to\your_certificate.cer\n    certutil -addstore "Root" "%CERT_PATH%"\n    endlocal

@@ -1,0 +1,1 @@
+slookup test.devdomain1.dev 192.168.10.2\nnslookup another.devdomain2.dev 192.168.10.2

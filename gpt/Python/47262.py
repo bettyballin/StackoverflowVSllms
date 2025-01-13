@@ -1,0 +1,1 @@
+# Second snippet\nitemlist = []\nfor item in myarray:\n    itemlist.append(item)

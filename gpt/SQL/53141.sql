@@ -1,0 +1,1 @@
+SELECT DISTINCT u.userid, u.username\nFROM User u\nLEFT JOIN Key k ON u.userid = k.userid\nLEFT JOIN Laptop l ON u.userid = l.userid\nLEFT JOIN TableX x ON u.userid = x.userid\nLEFT JOIN TableY y ON u.userid = y.userid\n-- Add more joins as required\nWHERE k.keyid IS NOT NULL OR l.laptopid IS NOT NULL\n   OR x.some_column IS NOT NULL OR y.some_column IS NOT NULL;

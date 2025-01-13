@@ -1,0 +1,1 @@
+sudo cp /bin/bash /opt/chroot/glibc-2.3.3/bin/\n   sudo cp /lib/ld-linux.so.2 /opt/chroot/glibc-2.3.3/lib/\n   sudo cp -r /lib/i686 /opt/chroot/glibc-2.3.3/lib/

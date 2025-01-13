@@ -1,1 +1,0 @@
-SELECT * FROM table WHERE YEARWEEK(purchased) = YEARWEEK(NOW());

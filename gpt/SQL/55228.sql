@@ -1,0 +1,1 @@
+SELECT * \nFROM people \nORDER BY age DESC \nLIMIT n;

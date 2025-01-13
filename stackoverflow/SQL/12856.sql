@@ -1,1 +1,0 @@
-CREATE TRIGGER ON yourtable FOR DELETE\nAS\n  UPDATE Task\n     SET TaskOrder    = TaskOrder - 1\n   WHERE ParentTaskId = deleted.ParentTaskId\n     AND TaskOrder    > deleted.TaskOrder

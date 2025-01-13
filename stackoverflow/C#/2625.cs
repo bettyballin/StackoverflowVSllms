@@ -1,1 +1,0 @@
-using (SqlConnection conn = new SqlConnection())\n{\n  // SqlCode here \n}

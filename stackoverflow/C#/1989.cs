@@ -1,1 +1,0 @@
-myStoredProc (new System.Nullable<int>())

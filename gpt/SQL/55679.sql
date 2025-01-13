@@ -1,0 +1,1 @@
+-- SQL for data retrieval and basic manipulation\nSELECT user_id, username, email \nFROM users \nWHERE active = 1;

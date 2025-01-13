@@ -1,0 +1,1 @@
+sudo svnserve -d -r /var/svn/repos

@@ -1,0 +1,1 @@
+int nonNullableInt = 5; // This cannot be null\nint? nullableInt = null; // This can be null or hold an integer value\n\nnullableInt = 10; // Now nullableInt holds the value 10

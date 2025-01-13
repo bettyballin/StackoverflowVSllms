@@ -1,0 +1,1 @@
+import setproctitle\n\n# Set a custom process title\nsetproctitle.setproctitle('my_custom_script_name')\n\n# Your script code here

@@ -1,1 +1,0 @@
-<?php\nprint "{$a->b()}"; // Works\n\n//Parse error: syntax error, unexpected '(' in Command line code on line 1\nprint "${time()}";\n\nprint "${$a=time()} $a"; // Also works: prints "1234380996"\n?>

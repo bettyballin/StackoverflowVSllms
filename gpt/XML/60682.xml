@@ -1,0 +1,1 @@
+<RSWebApplication>\n    <ReportServerUrl>http://yourservername:90/ReportServer</ReportServerUrl>\n    <!-- other configurations -->\n</RSWebApplication>

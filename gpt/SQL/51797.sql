@@ -1,0 +1,1 @@
+DECLARE @sql NVARCHAR(MAX);\nDECLARE @paramDefinition NVARCHAR(MAX);\nDECLARE @param1 INT;\n\nSET @sql = N'SELECT * FROM YourTable WHERE Column1 = @param1 OPTION (RECOMPILE)';\nSET @paramDefinition = N'@param1 INT';\n\nEXEC sp_executesql @sql, @paramDefinition, @param1 = @param1Value;

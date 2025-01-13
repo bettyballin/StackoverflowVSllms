@@ -1,0 +1,1 @@
+sudo apt-get install sysstat   # For Debian/Ubuntu\n   sudo yum install sysstat       # For RHEL/CentOS

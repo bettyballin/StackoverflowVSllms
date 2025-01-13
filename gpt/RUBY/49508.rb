@@ -1,0 +1,1 @@
+Given(/^an article with id (\d+) and title "([^"]*)" exists$/) do |id, title|\n  Article.create(id: id, name: title)\nend

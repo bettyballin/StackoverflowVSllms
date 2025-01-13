@@ -1,1 +1,0 @@
-function dbValue($value, $default=null)\n{\n    if ($default===null) {\n        $default='<span class="no-data">No data</span>';\n    }\n    if (!empty($value)) {\n        return $value;\n    } else {\n        return $default;\n    }\n}

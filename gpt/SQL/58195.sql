@@ -1,0 +1,1 @@
+CREATE TABLE quotes (\n       id INT AUTO_INCREMENT PRIMARY KEY,\n       quote_text TEXT NOT NULL\n   );

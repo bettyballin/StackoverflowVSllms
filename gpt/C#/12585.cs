@@ -1,0 +1,1 @@
+WSHttpBinding binding = new WSHttpBinding();\nbinding.Security.Mode = SecurityMode.Transport;\nbinding.Security.Transport.ClientCredentialType = HttpClientCredentialType.None;

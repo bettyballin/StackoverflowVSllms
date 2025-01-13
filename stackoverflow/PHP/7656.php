@@ -1,1 +1,0 @@
-$facebook = new Facebook(FBAPIKEY, FBSECRET);\n$facebook_id = $facebook->get_loggedin_user();

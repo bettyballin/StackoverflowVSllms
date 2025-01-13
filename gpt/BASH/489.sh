@@ -1,0 +1,1 @@
+gcc -O2 -S -o non_volatile.s non_volatile.c

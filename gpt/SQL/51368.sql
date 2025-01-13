@@ -1,0 +1,1 @@
+-- Change the collation of the database\nALTER DATABASE YourDatabaseName COLLATE Turkish_CI_AS;\n\n-- Verify the collation change\nSELECT DATABASEPROPERTYEX('YourDatabaseName', 'Collation') AS DatabaseCollation;

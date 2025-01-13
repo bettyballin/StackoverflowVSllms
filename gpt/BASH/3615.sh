@@ -1,0 +1,1 @@
+echo 'int main() { return 0; }' > test.c\n   gcc test.c -o test\n   ./test

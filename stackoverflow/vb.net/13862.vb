@@ -1,1 +1,0 @@
-If e.Row.RowState = DataControlRowState.Edit The

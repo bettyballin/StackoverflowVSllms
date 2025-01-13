@@ -1,0 +1,1 @@
+// Example of an impersonation function (pseudo-code)\n   function impersonateUser(adminId, userId) {\n       if (isAdmin(adminId)) {\n           logImpersonation(adminId, userId);\n           setCurrentUser(userId);\n           // proceed with user context\n       } else {\n           throw new UnauthorizedException("Only admins can impersonate users.");\n       }\n   }

@@ -1,1 +1,0 @@
-Dim arr As Integer()() = {New Integer() {1, 2, 3}, New Integer() {4, 5, 6, 7, 8, 9, 9, 9}, New Integer() {5, 4, 3, 2}}\n\n  For x = 0 To arr.GetUpperBound(0)\n      Console.WriteLine("Row " & x & " has " & arr(x).GetUpperBound(0) & " columns")\n      For y = 0 To arr(x).GetUpperBound(0)\n          Console.WriteLine("(" & x & "," & y & ") = " & arr(x)(y))\n      Next\n   Next

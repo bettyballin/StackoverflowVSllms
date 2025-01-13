@@ -1,0 +1,1 @@
+cd /etc/mail\n   sudo make\n   sudo systemctl restart sendmail

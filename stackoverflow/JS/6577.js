@@ -1,1 +1,0 @@
-$('input#mybutton').click(function() {\n    var text = $('textarea#mytextarea').val();\n    //send to server and process response\n});

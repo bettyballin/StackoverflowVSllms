@@ -1,0 +1,1 @@
+icacls e:\vc\git\myrepo.git /grant myuser:(F)

@@ -1,0 +1,1 @@
+Private Function Calculate(ByVal p_number_days As Integer, ByVal p_date As Date) As Date\n    Dim calculated_date As Date = p_date.AddDays(-p_number_days)\n    Return calculated_date\nEnd Functio

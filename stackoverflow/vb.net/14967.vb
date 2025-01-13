@@ -1,1 +1,0 @@
-Public Class qwqwqw\n  Public Property xyz() As String\n      Get\n          Return ""\n      End Get\n      Private Set(ByVal value As String)\n          '\n      End Set\n  End Property\nEnd Class

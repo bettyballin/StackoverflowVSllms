@@ -1,0 +1,1 @@
+$ crontab -l > mycron\n$ echo "0 5 * * * /path/to/your/script.sh" >> mycron\n$ crontab-lint mycro

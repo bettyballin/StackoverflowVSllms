@@ -1,0 +1,1 @@
+CREATE SEQUENCE my_seq START WITH 1 INCREMENT BY 1;\n\n   CREATE OR REPLACE TRIGGER my_trigger\n   BEFORE INSERT ON my_table\n   FOR EACH ROW\n   BEGIN\n     SELECT my_seq.NEXTVAL INTO :new.id FROM dual;\n   END;

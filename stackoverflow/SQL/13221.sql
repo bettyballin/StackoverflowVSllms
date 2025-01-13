@@ -1,1 +1,0 @@
-SELECT tb.*\n    FROM (\n        SELECT tb1.PEID,tb2.col1,tb2.col2,tb3.col3 --, and so on\n        FROM vCodesWithPEs as tb1 INNER JOIN vDeriveAvailabilityFromPE as tb2\n        ON tb1.PROD_PERM = tb2.PEID \n        INNER JOIN PE_PDP tb3 ON tb1.PROD_PERM = tb3.PEID\n    ) AS tb;

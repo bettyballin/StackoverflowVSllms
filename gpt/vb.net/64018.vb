@@ -1,0 +1,1 @@
+<Serializable>\nPublic Class FormSize\n    Public Property Width As Integer\n    Public Property Height As Integer\nEnd Class

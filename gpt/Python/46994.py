@@ -1,0 +1,1 @@
+try:\n       with open('file.txt', 'r') as file:\n           contents = file.read()\n   except Exception as e:\n       print(f"Error: {e}")  # Always handle exceptions

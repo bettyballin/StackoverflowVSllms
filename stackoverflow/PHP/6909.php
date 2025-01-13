@@ -1,1 +1,0 @@
-$table_list = array(); // <-- Initialize variable.\nwhile (list($table) = mysql_fetch_row($result)) {\n    /* ... */\n    $table_list[] = $table;\n    /* ... */\n}\n\nif (mysql_num_rows($resA) > 0) {\n    foreach ($table_list as $table) { \n        /* ... */\n    }\n}

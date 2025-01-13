@@ -1,1 +1,0 @@
-\nSELECT  Tag\nFROM    UserSpecifiedTags\n  LEFT OUTER JOIN AllTags ON UserSpecifiedTags.Tag = AllTags.Tag\nWHERE   AllTags.Tag IS NULL

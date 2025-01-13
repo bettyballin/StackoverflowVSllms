@@ -1,0 +1,1 @@
+pip install reportlab jinja2 matplotlib

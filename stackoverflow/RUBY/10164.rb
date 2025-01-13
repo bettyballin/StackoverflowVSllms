@@ -1,1 +1,0 @@
-[1,"a",Object.new,:hi].inject({}) do |hash, item|\n  hash[item.to_s] = item\n  hash\nend

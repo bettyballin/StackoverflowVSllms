@@ -1,1 +1,0 @@
-SELECT  rn, APPROVED, [Not Approved] as REJECT, NULL\nFROM    (\n        SELECT  MgtApproval, SchedID, ROW_NUMBER() OVER (PARTITION BY mgtapproval ORDER BY SchedID) AS rn\n        FROM    LeaveRequest\n        ) l\n        PIVOT \n        (\n        MIN(SchedId)\n        FOR     MgtApproval IN \n                ([APPROVED], [Not Approved], [NULL])\n        ) as pvt

@@ -1,0 +1,1 @@
+$testglobal = 1;\n\nfunction cmp($a, $b) {\n    global $testglobal;\n    echo 'hi' . $testglobal;\n    return 0;\n}\n\n$topics = [1, 2, 3];\nusort($topics, "cmp");

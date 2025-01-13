@@ -1,1 +1,0 @@
-<select id="editlevel" name="editlevel" onchange="\n   <%= remote_function(\n           :update => 'lques', \n           :url => {:action => :lques}, \n           :with => "'level=' + $('editlevel').value %>\n">\n\n</select>\n\n<select id="lques" name="lques">\n</select>

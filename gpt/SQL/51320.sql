@@ -1,0 +1,1 @@
+SELECT TOP 10\n    Name,\n    Age\nFROM\n    Employees\nWHERE\n    Age > 30\nORDER BY\n    Name ASC;

@@ -1,0 +1,1 @@
+for script in ~/bin/shells/apps/*; do\n  source "$script"\ndone

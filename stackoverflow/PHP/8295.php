@@ -1,1 +1,0 @@
-exec("mycommand.cmd", &$outputArray);

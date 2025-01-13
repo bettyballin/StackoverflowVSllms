@@ -1,1 +1,0 @@
-sys.stdout = codecs.EncodedFile(sys.stdout, 'utf8')

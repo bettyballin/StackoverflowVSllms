@@ -1,0 +1,1 @@
+$content = preg_replace("/<img[^>]*>/i", "(image) ", $content);\necho $content;

@@ -1,1 +1,0 @@
-function querySt(ji) {\n    hu = $(".clickme").attr("href");\n    gy = hu.split("&");\n    for (i=0;i<gy.length;i++) {\n        ft = gy[i].split("=");\n        if (ft[0] == ji) {\n            return ft[1];\n        }\n    }\n}

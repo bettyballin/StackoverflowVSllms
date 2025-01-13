@@ -1,0 +1,1 @@
+export DISPLAY=<VPN-assigned-IP>:0.0\nssh -X user@unix_server

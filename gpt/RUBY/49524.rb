@@ -1,0 +1,1 @@
+# config/routes.rb\nresources :your_models do\n  collection do\n    get :autocomplete\n  end\nend

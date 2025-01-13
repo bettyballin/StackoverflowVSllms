@@ -1,0 +1,1 @@
+gcc -pg -o output source.c\n   ./output\n   gprof ./output gmon.out > analysis.txt

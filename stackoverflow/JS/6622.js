@@ -1,1 +1,0 @@
-$("#subJobName").attr({ jval: { valid: function(val) { return validateSubJobName(val); }, message: "Nam", styleType: "cover"} });\n$.fn.jVal.init();

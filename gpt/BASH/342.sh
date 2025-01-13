@@ -1,0 +1,1 @@
+pkexec /path/to/your/binary

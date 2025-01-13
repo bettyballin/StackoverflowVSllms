@@ -1,0 +1,1 @@
+mysql -u username -p dbname < db/backup.sql

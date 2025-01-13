@@ -1,1 +1,0 @@
-WHERE YEAR( columnName ) = YEAR( getDate() )

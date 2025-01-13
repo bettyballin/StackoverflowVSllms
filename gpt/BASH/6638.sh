@@ -1,0 +1,1 @@
+convert original.jpg -strip -interlace none -quality 85 new.jpg

@@ -1,1 +1,0 @@
-<button onclick="callBackend();">Go</button>\n\n<a4j:jsFunction name="callBackend" action="#{myBean.someMethod}" data="#{myBean.someString}" oncomplete="handleResponse(data);"/>\n\n<script>\nfunction handleResponse(response) {\n   alert(response);\n}\n</script>

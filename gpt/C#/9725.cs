@@ -1,0 +1,1 @@
+// Retrieve data from session\nvar userId = HttpContext.Current.Session["UserId"];\nvar channelId = HttpContext.Current.Session["ChannelId"];

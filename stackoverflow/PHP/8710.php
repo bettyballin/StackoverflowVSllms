@@ -1,1 +1,0 @@
-list($imagewidth, $width) = getimagesize("$myupload"); 

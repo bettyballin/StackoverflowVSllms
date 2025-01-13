@@ -1,0 +1,1 @@
+SELECT a \nFROM table \nWHERE c = 1 \n  AND d = CASE WHEN c = 1 THEN d ELSE NULL END;

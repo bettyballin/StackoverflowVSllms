@@ -1,0 +1,1 @@
+public function deletepostAction() {\n    $postParams = $this->getRequest()->getPost();\n    $routeParams = $this->getRequest()->getParams();\n\n    // Combine both, with POST parameters taking precedence\n    $combinedParams = array_merge($routeParams, $postParams);\n\n    print_r($combinedParams);\n    die;\n}

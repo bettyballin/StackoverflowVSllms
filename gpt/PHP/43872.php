@@ -1,0 +1,1 @@
+// Check if a PECL module is available\nif (extension_loaded('some_pecl_module')) {\n    // Use the PECL module for enhanced functionality\n    some_pecl_module_function();\n} else {\n    // Fallback to custom implementation\n    custom_function();\n}

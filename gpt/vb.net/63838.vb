@@ -1,0 +1,1 @@
+<%@ Page Title="Product Detail" Language="vb" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeBehind="ProductDetail.aspx.vb" Inherits="YourNamespace.ProductDetail" %>\n<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">\n    <!-- Page content goes here -->\n</asp:Content>

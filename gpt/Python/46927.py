@@ -1,0 +1,1 @@
+from dendropy import Tree\n\n    tree = Tree.get(data="((A,B),C);", schema="newick")\n    for node in tree.preorder_node_iter():\n        print(node.label)

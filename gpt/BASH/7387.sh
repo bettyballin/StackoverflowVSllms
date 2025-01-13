@@ -1,0 +1,1 @@
+iptables -t nat -A PREROUTING -d xx.xx.xx.xx -j DNAT --to-destination zz.zz.zz.zz\niptables -t nat -A POSTROUTING -d zz.zz.zz.zz -j MASQUERADE

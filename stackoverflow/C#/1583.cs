@@ -1,1 +1,0 @@
-ChannelFactory<IHello> clientFactory = new ChannelFactory<IHello>("targetConfiguration");\nIHello client = clientFactory.CreateChannel();\nstring result = client.SayHello();

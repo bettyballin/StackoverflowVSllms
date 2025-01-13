@@ -1,0 +1,1 @@
+sudo chcon -R -t httpd_sys_script_exec_t /var/www/cgi-bin/script

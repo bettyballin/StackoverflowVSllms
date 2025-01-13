@@ -1,1 +1,0 @@
-insert into table values ('whatever 'this' is')

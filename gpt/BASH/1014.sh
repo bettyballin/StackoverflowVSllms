@@ -1,0 +1,1 @@
+export MAVEN_OPTS="-Djavax.net.ssl.trustStore=/path/to/custom/truststore -Djavax.net.ssl.trustStorePassword=yourpassword"

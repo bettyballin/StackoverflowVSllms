@@ -1,0 +1,1 @@
+mysqlbinlog -v /var/log/mysql/mysql-bin.000001

@@ -1,0 +1,1 @@
+SELECT t1.ID, t1.TIME, t1.DATA\nFROM your_table_name t1\nINNER JOIN (\n    SELECT ID, MAX(TIME) AS max_time\n    FROM your_table_name\n    GROUP BY ID\n) t2 ON t1.ID = t2.ID AND t1.TIME = t2.max_time;

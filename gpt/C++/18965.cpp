@@ -1,0 +1,1 @@
+#include <iostream>\n#include <thread>\n\nvoid threadFunction() {\n    std::thread::id this_id = std::this_thread::get_id();\n    std::cout << "Thread ID: " << this_id << std::endl;\n}\n\nint main() {\n    std::thread t(threadFunction);\n    t.join();\n    return 0;\n}

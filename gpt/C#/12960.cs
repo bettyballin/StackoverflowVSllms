@@ -1,0 +1,1 @@
+[Permission("ViewAdminPage")]\n   public ActionResult AdminPage()\n   {\n       return View();\n   }

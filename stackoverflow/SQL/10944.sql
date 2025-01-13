@@ -1,1 +1,0 @@
-EXEC sp_executesql @sql, N'@id int', @id

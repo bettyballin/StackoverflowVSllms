@@ -1,0 +1,1 @@
+appcmd set vdir /vdir.name:"<site name>/<virtual directory>" /physicalPath:"<new physical path>"

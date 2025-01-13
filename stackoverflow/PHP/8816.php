@@ -1,1 +1,0 @@
-sfContext::getInstance()->getUser()->getAttribute('...');

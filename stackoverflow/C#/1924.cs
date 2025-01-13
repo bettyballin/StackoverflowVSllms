@@ -1,1 +1,0 @@
-[DllImport("user32.dll", SetLastError =true, CharSet =CharSet.Auto)]\nstatic extern IntPtr SetWindowText(IntPtr hwnd, String lpString);\n\nProcess process = new Process();\nprocess.StartInfo.FileName = "sqlplusw";\nprocess.Start();\nprocess.WaitForInputIdle();\nSetWindowText(process.MainWindowHandle, "PRODUCTION - BE CAREFUL!!");

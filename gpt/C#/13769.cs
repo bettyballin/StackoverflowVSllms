@@ -1,0 +1,1 @@
+public class ApplicationDbContext : IdentityDbContext<ApplicationUser>\n   {\n       public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)\n           : base(options)\n       {\n       }\n   }

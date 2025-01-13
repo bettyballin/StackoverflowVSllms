@@ -1,1 +1,0 @@
-configure.js --enable-myextension=shared

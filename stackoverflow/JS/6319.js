@@ -1,1 +1,0 @@
-var filter = "ParentNote='"+tmpCNoteID+"'";

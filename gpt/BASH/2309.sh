@@ -1,0 +1,1 @@
+export ORACLE_SID=your_database_sid

@@ -1,1 +1,0 @@
-class CreatePosts < ActiveRecord::Migration  \n    def self.up  \n      create_table :posts do |t|  \n        t.string :type \n        t.string :author   \n        t.text :content  \n        t.integer :parent_id   \n        t.timestamps  \n      end  \n    end  \n\n\n    def self.down  \n      drop_table :posts  \n    end  \nend  

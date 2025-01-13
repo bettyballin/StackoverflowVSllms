@@ -1,0 +1,1 @@
+public static List<Setting> LoadSystemSettings()\n   {\n       // Example loading from a JSON file\n       var json = File.ReadAllText("systemsettings.json");\n       return JsonConvert.DeserializeObject<List<Setting>>(json);\n   }

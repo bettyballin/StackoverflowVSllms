@@ -1,1 +1,0 @@
-declare @startDate varchar(20)\ndeclare @endDate varchar(20)\nset @startDate = '01/01/2008'\nset @endDate = '04/01/2008'\n\n-- test what are the start and end dates\nselect min(date),max(date) from view_Inspections \nwhere date >= @startDate \nand   date < @endDate

@@ -1,0 +1,1 @@
+<cluster>\n  <cluster-settings>\n    <enabled>true</enabled>\n    <cluster-name>MyCluster</cluster-name>\n    <cluster-hosts>host1:5555,host2:5555</cluster-hosts>\n  </cluster-settings>\n</cluster>

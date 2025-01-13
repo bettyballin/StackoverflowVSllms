@@ -1,0 +1,1 @@
+ALTER TABLE page ADD INDEX idx_sourceid_pageid (sourceid, pageid);

@@ -1,1 +1,0 @@
-[XmlElement(IsNullable = true)]\npublic string DummyField { get; set; }

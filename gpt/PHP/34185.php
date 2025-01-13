@@ -1,0 +1,1 @@
+function GenerateKey($length = 16) {\n    $key = '';\n    for ($i = 0; $i < $length; $i++) {\n        $key .= chr(random_int(33, 126));\n    }\n    return $key;\n}

@@ -1,0 +1,1 @@
+tail -f /var/adm/messages | grep sshd

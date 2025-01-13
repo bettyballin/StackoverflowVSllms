@@ -1,0 +1,1 @@
+public interface IOrderService\n{\n    Order CalculateOrderTotal(Order order);\n}\n\npublic class OrderService : IOrderService\n{\n    public Order CalculateOrderTotal(Order order)\n    {\n        // Example business rule: apply tax\n        var taxRate = 0.07m; // 7% tax\n        order.TotalAmount += order.TotalAmount * taxRate;\n        return order;\n    }\n}

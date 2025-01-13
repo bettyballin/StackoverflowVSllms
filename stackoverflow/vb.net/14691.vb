@@ -1,1 +1,0 @@
-Sub Main()\n\n    Dim fs As New FileSystemObject ' Add Reference to Microsoft Scripting Runtime\n    MsgBox fs.FileExists("\\server\folder\file.ext")\n\nEnd Sub

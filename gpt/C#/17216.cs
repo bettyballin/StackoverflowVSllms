@@ -1,0 +1,1 @@
+using System;\n\nnamespace YourNamespace\n{\n    public partial class Default : System.Web.UI.Page\n    {\n        protected void Page_Load(object sender, EventArgs e)\n        {\n            if (!IsPostBack)\n            {\n                string welcomeMessage = "Hello, World!";\n                LiteralWelcomeMessage.Text = welcomeMessage;\n            }\n        }\n    }\n}

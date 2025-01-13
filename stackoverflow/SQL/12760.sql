@@ -1,1 +1,0 @@
-SELECT * FROM Customers WHERE \nLastName LIKE 'O%Brien' AND \nREPLACE(LastName,'''','') LIKE 'O''Brien'

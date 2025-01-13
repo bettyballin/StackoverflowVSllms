@@ -1,1 +1,0 @@
-mypicturebox.Image = ImageFactory.Image01;

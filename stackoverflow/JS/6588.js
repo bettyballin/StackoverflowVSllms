@@ -1,1 +1,0 @@
-onclick="loginFunction(); return false;"

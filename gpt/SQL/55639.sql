@@ -1,0 +1,1 @@
+SELECT\n    COUNT(*) AS cnt\nFROM\n    [table]\nWHERE\n    (LENGTH(RequestedReportParams) - LENGTH(REPLACE(RequestedReportParams, ',', ''))) > 1

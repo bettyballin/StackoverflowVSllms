@@ -1,1 +1,0 @@
-private string _extractUri(Widget wi) {\n    if (wi is Entry)\n        return ((wi as Entry).Text);\n    else if (wi is Container) {\n        foreach (Widget w in (wi as Container).Children) {\n            string x = _extractUri(w);\n            if (x!=null)\n                return x;\n        }\n    }\n    return null;\n}

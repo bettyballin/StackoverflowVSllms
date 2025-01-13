@@ -1,0 +1,1 @@
+// In your controller action\npublic function someAction()\n{\n    $this->_helper->layout->sidebar = 'This is the sidebar content';\n}\n\n// Alternatively, in your view script\n$this->layout()->sidebar = 'This is the sidebar content';

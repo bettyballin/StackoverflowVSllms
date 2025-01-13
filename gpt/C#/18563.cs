@@ -1,0 +1,1 @@
+// Set the MaskInput to include both date and time\nultraDateTimeEditor1.MaskInput = "mm/dd/yyyy hh:mm";\n\n// Set the FormatString to display both date and time\nultraDateTimeEditor1.FormatString = "MM/dd/yyyy HH:mm";

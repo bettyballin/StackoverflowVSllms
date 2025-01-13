@@ -1,0 +1,1 @@
+# Install GraalVM\n# Set GRAALVM_HOME to the installation directory\n\n# Compile Java application to native image\n$GRAALVM_HOME/bin/native-image -jar myapp.jar

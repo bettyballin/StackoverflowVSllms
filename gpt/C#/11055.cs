@@ -1,0 +1,1 @@
+[DataContract]\npublic class UserDTO\n{\n    [DataMember(Order = 1)]\n    public int Id { get; set; }\n\n    [DataMember(Order = 2)]\n    public string Name { get; set; }\n\n    [DataMember(Order = 3)]\n    public string Email { get; set; }\n}

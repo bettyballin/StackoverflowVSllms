@@ -1,0 +1,1 @@
+<?php\nif (function_exists('posix_getpid')) {\n    echo "POSIX functions are available.";\n} else {\n    echo "POSIX functions are not available.";\n}\n?>

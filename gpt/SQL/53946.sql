@@ -1,0 +1,1 @@
+CREATE PROCEDURE testEM( IN id CHAR(12) )\n   P1: BEGIN \n     -- Your procedure logic here\n   END P1

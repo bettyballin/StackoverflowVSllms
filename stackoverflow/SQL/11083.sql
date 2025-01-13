@@ -1,1 +1,0 @@
-SELECT Categories.Name,count(DISTINCT categories.name) FROM Categories\nJOIN Domains ON Categories.ID=Domains.CID\nJOIN Records ON Records.DID=Domains.ID\nGROUP BY Categories.Name

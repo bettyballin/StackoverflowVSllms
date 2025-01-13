@@ -1,1 +1,0 @@
-<script type="text/javascript">\n  function increase() {\n    alert(" the button was pressed");\n  }\n  increase();\n</script>

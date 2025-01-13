@@ -1,0 +1,1 @@
+// C#\n   try\n   {\n       // code\n   }\n   catch (Exception ex)\n   {\n       // handle exception\n   }\n   finally\n   {\n       // cleanup code\n   }

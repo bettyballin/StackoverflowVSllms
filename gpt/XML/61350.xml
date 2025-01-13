@@ -1,0 +1,1 @@
+<PropertyGroup>\n  <DebugSymbols>true</DebugSymbols>\n  <DebugType>full</DebugType>\n  <Optimize>false</Optimize>\n  <OutputPath>bin\Debug\</OutputPath>\n</PropertyGroup>

@@ -1,0 +1,1 @@
+class View {\n    public function show($file) {\n        $view = $this; // Make $view available in the included file\n        include($file . ".php");\n    }\n}

@@ -1,0 +1,1 @@
+public partial class YourForm : Form\n{\n    public YourForm()\n    {\n        InitializeComponent();\n        BindDataToGridView(yourDataGridView);\n    }\n}

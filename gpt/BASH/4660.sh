@@ -1,0 +1,1 @@
+sudo nft add table inet mytable\nsudo nft add chain inet mytable mychain { type filter hook output priority 0 \; }\nsudo nft add rule inet mytable mychain meta cgroup 0x00110011 tcp dport 80 counter reject

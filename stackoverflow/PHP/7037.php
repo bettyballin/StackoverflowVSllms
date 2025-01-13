@@ -1,1 +1,0 @@
-$result = array();\nforeach( $nodes as $node ) \n{\n    $type = 'value';\n    if( is_string( $node->nodeValue ) )\n    {\n        $type = 'string';\n    }\n\n    $result[][$type] = $node->nodeValue;\n}

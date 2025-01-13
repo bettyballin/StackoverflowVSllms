@@ -1,0 +1,1 @@
+class Singleton {\n    public:\n        static Singleton& getInstance() {\n            static Singleton instance;\n            return instance;\n        }\n    private:\n        Singleton() {}\n    };

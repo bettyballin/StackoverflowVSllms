@@ -1,0 +1,1 @@
+<?php\n// Start the session\nsession_start();\n\n// Set the session variable\n$_SESSION['login']['email'] = "ntohuh";\n\n// Print the session variable\nprint_r($_SESSION);\n?>

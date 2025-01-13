@@ -1,0 +1,1 @@
+ode --version > node_version.txt

@@ -1,0 +1,1 @@
+var employeeDepartments = employees.Join(departments,\n                                            e => e.DepartmentId,\n                                            d => d.Id,\n                                            (e, d) => new { e.Name, d.DepartmentName });

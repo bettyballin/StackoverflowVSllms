@@ -1,0 +1,1 @@
+public class ManageUsersController : Controller\n{\n    [AdminAuthorize]\n    public ActionResult Index()\n    {\n        // Your action logic here\n        return View();\n    }\n}

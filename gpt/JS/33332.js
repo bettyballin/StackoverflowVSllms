@@ -1,0 +1,1 @@
+/**\n * Retrieves the current root URL.\n *\n * @return {string} the root URL\n */\n$.fn.rootUrl = function() {\n    var url = location.protocol + "//" + location.host;\n    return url;\n};\n\n// Usage example\n$.post($.fn.rootUrl() + '/some/subdir/file.php', function(data) {\n    // Handle the response here\n    console.log(data);\n});

@@ -1,1 +1,0 @@
-[ValidateInput(false)]\npublic ActionResult Submit(string FormContent)\n{\n\n}

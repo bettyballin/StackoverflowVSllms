@@ -1,0 +1,1 @@
+class QueryBuilder {\npublic:\n    virtual ~QueryBuilder() = default;\n    virtual std::string select(const std::string& columns, const std::string& table) = 0;\n    // Add more methods as needed for other types of queries (insert, update, delete, etc.)\n};

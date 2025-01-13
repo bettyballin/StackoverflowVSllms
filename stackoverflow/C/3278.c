@@ -1,1 +1,0 @@
-#include "mex.h"\n\nmxArray *mexCallMATLABWithTrap(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[], const char *functionName);

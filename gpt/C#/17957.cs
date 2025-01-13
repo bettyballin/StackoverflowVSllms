@@ -1,0 +1,1 @@
+XmlSerializer serializer = new XmlSerializer(typeof(YourGeneratedClass));\n    using (FileStream fileStream = new FileStream("your-data.xml", FileMode.Open))\n    {\n        YourGeneratedClass obj = (YourGeneratedClass)serializer.Deserialize(fileStream);\n    }

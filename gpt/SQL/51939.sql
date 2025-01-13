@@ -1,0 +1,1 @@
+ALTER SYSTEM SET RESOURCE_MANAGER_PLAN = 'disconnect_idle_sessions';

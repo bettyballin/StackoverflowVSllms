@@ -1,1 +1,0 @@
-internal WebTestingApp(Result result, BrowserApp browserApp, IRemoteFile remoteFile, IWebServiceGateway webServiceGateway) : base(remoteFile, webServiceGateway)\n{\n    // Set readonly vars here\n}\n\npublic WebTestingApp(Result result, BrowserApp browserApp) : this(result, browserApp, S3File.Instance, WebServiceGateway.Instance)\n{\n}

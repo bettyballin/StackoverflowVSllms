@@ -1,0 +1,1 @@
+CREATE TABLE PasswordResetRequests (\n       RequestId UNIQUEIDENTIFIER PRIMARY KEY,\n       UserId INT,\n       ExpirationTime DATETIME\n   );

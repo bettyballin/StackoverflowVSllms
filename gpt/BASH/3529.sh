@@ -1,0 +1,1 @@
+gcc -o myapp myapp.c -L/usr/lib/oracle/19.8/client64/lib -Wl,-rpath,/usr/lib/oracle/19.8/client64/lib -lclntsh

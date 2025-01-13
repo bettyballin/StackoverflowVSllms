@@ -1,1 +1,0 @@
-print convert(varchar(10), getdate(), 101)\nprint convert(varchar(10), getdate(), 102)

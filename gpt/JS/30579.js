@@ -1,0 +1,1 @@
+$(document).ready(function() {\n        var $table = $('#rates-viewer table');\n        $table.hide();\n        $table.show();\n    });

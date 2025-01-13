@@ -1,1 +1,0 @@
-function become_daemon() \n{\n    $child = pcntl_fork();\n    if($child) {\n        exit; // kill parent\n    }\n    posix_setsid(); // become session leader\n}

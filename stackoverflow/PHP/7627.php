@@ -1,1 +1,0 @@
-<?php\n    $json = '{"result": ["lunch", "\"Show\""] }';\n    echo json_encode($json);\n?>\n\nOUTPUT: "{\"result\": [\"lunch\", \"\\\"Show\\\"\"] }"

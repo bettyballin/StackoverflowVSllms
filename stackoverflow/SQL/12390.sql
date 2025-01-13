@@ -1,1 +1,0 @@
-SELECT D.deptid, D.deptname, D.deptmgrid, ST.empid, ST.empname, ST.mgrid\nFROM Departments AS D\n    CROSS APPLY fn_getsubtree(D.deptmgrid) AS ST;

@@ -1,1 +1,0 @@
-for row in reader:\n    row[-1] = row[-1].replace('/?', '?')\n    writer.writerow(row)

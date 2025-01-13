@@ -1,0 +1,1 @@
+SELECT * FROM your_table\nORDER BY RANDOM()\nLIMIT N;

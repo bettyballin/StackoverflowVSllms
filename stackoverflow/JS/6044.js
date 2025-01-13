@@ -1,1 +1,0 @@
-__doPostBack('<%= hdnHidden.UniqueID  %>', ''); //This statement will fire the OnValueChanged event and the control will be moved to the server side where you can update the label and do your processing.

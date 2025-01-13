@@ -1,0 +1,1 @@
+[Table(Name = "Products")]\npublic class Product\n{\n    private decimal price;\n\n    [Column(Name = "Price", Storage = "price", DbType = "Money NOT NULL")]\n    public double Price\n    {\n        get { return Convert.ToDouble(price); }\n        set { price = Convert.ToDecimal(value); }\n    }\n}

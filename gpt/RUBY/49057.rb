@@ -1,0 +1,1 @@
+class AddBinaryDataToYourModel < ActiveRecord::Migration[6.0]\n  def change\n    add_column :your_models, :binary_data, :binary\n  end\nend

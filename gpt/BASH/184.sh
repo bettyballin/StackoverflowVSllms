@@ -1,0 +1,1 @@
+sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/java-1.4.2/bin/java 2\n   sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/java-1.4.2/bin/javac 2

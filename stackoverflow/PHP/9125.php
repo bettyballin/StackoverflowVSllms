@@ -1,1 +1,0 @@
-libxml_use_internal_errors()

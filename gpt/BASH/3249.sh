@@ -1,0 +1,1 @@
+svn lock file.txt

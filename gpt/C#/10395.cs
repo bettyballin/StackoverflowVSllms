@@ -1,0 +1,1 @@
+try\n{\n    var client = new MyServiceClient();\n    client.MyServiceMethod(null); // This will trigger the fault\n}\ncatch (FaultException<ValidationFault> ex)\n{\n    // Handle the validation fault\n    Console.WriteLine($"Validation error: {ex.Detail.Errors["input"]}");\n}

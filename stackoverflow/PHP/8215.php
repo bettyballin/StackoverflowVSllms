@@ -1,1 +1,0 @@
-$salt="secret";\n$hash=sha1($string1.$string2.$salt);\n$separator="_";\n$str=$string1.$separator.$string2.$separator.$hash;

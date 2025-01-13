@@ -1,0 +1,1 @@
+public class YourClass\n{\n    [CustomStringLengthValidator(100)]\n    public string FirstName { get; set; }\n\n    // Other properties with the same validator\n    [CustomStringLengthValidator(100)]\n    public string LastName { get; set; }\n}

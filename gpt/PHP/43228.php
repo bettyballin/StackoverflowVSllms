@@ -1,0 +1,1 @@
+function mymodule_important_calculation() {\n    $result = /* ... long and complex calculation ... */;\n    return $result; // Correct variable name\n}

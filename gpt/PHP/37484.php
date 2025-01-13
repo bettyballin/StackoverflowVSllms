@@ -1,0 +1,1 @@
+// Store data in cache\n    apc_store('key', $value, $ttl);\n\n    // Fetch data from cache\n    $value = apc_fetch('key');\n\n    // Delete data from cache\n    apc_delete('key');

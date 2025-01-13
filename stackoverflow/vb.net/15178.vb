@@ -1,1 +1,0 @@
-Dim dataArray()\ndataArray = Split(strText, ",")

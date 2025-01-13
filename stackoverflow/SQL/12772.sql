@@ -1,1 +1,0 @@
-select sid,serial# from v$session where username = '<your_schema>'

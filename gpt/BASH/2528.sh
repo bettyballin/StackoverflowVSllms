@@ -1,0 +1,1 @@
+smbutil view //username@hostname

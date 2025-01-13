@@ -1,1 +1,0 @@
-CREATE FUNCTION My_ISDATE(@maybeDate varchar(max))\n  returns bit\n  as return ISDATE(@maybeDate);

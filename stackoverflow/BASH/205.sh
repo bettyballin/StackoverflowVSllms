@@ -1,1 +1,0 @@
-dm "toolload bar <libname>.profile.<name_of_toolbar>";

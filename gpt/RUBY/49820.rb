@@ -1,0 +1,1 @@
+RSpec.configure do |config|\n       config.before(:suite) do\n         Rails.application.load_seed # Load the seeds\n       end\n     end

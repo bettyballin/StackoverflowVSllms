@@ -1,0 +1,1 @@
+const socket = new WebSocket('ws://localhost:8080');\n\nsocket.onmessage = function(event) {\n    const data = JSON.parse(event.data);\n    alert(data.newAnswers); // Display alert or update the UI\n};\n\nsocket.onopen = function() {\n    console.log('Connected to the server');\n};\n\nsocket.onclose = function() {\n    console.log('Disconnected from the server');\n};

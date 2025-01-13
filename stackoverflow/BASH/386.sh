@@ -1,1 +1,0 @@
-wget -rH -Dserver.com http://www.server.com/

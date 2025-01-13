@@ -1,0 +1,1 @@
+// Example of adding CSRF token to AJAX request\n    $.ajax({\n        url: "/your-endpoint",\n        type: "POST",\n        data: {\n            csrf_token: csrfTokenValue,\n            payload: yourPayload\n        }\n    });

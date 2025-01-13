@@ -1,0 +1,1 @@
+sed -n '/xxxx/{x;1!p;g;N;N;d};x;1!p;$!{g;p;h};${g;p}' inputfile

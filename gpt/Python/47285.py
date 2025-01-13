@@ -1,0 +1,1 @@
+from django.forms import modelformset_factory\n\nCustomerFormSet = modelformset_factory(Customer, form=CustomerForm, extra=0)

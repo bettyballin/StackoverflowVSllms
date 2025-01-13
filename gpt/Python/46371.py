@@ -1,0 +1,1 @@
+# Example transformation function\ndef transform(doc):\n    transformed_data = {\n        'id': doc['_id'],\n        'name': doc['name'],\n        'email': doc['email']\n    }\n    return transformed_data\n\ntransformed_docs = [transform(doc) for doc in docs]

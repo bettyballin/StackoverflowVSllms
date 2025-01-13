@@ -1,1 +1,0 @@
-Table "Product":\n----------------\nID                 : int\n<any other language-neutral fields>\n\n\nTable "ProductTranslations"\n---------------------------\nID                 : int      (foreign key referencing the Product)\nLanguage           : varchar  (e.g. "en-US", "de-CH")\nIsDefault          : bit\nProductDescription : nvarchar\n<any other localized data>

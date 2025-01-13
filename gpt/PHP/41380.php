@@ -1,0 +1,1 @@
+// Enhanced logging example\n    function logRequestAndResponse($request, $response) {\n        $logFile = '/path/to/your/logfile.log';\n        $logData = "Request: " . print_r($request, true) . "\nResponse: " . print_r($response, true) . "\n\n";\n        file_put_contents($logFile, $logData, FILE_APPEND);\n    }

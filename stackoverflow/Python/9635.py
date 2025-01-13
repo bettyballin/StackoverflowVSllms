@@ -1,1 +1,0 @@
-def lv1(d):\n  locals().update(d)\n  print zap

@@ -1,0 +1,1 @@
+icacls "C:\Program Files\Microsoft SQL Server" /grant DOMAIN\SQLServiceAccount:(OI)(CI)F\nicacls "C:\SQLData" /grant DOMAIN\SQLServiceAccount:(OI)(CI)F

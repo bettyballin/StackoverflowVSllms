@@ -1,0 +1,1 @@
+0 0 1 1 * /path/to/create_yearly_tables.sh

@@ -1,0 +1,1 @@
+INSERT INTO NextID (TableName, NextID) VALUES ('YourTableName', 1);

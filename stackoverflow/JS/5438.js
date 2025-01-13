@@ -1,1 +1,0 @@
-$$('a.delete').addEvent('click', function(event) {\n  var username = $(event.target).getNext().get('text'); //The username is in the next tag.\n  if (!confirm("Are you sure you want to remove " + username + "?")) {\n    event.stop();\n  }\n});

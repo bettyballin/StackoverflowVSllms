@@ -1,0 +1,1 @@
+SELECT first_name, last_name\nFROM employees\nWHERE hire_date > TO_DATE('2020-01-01', 'YYYY-MM-DD');

@@ -1,0 +1,1 @@
+echo "Enter PID to search: "\nread PID\n\n# Search for the PID in the process list\nsearch_result=$(ps -A | grep -w "$PID")\n\nif [ -n "$search_result" ]; then\n    echo "Process with PID $PID found:"\n    echo "$search_result"\nelse\n    echo "No process found with PID $PID."\nfi

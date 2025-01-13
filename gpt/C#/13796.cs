@@ -1,0 +1,1 @@
+// Scenario 1\nSomeClass someObject = null;\nsomeObject = new SomeClass(); // someObject is non-null only after the constructor completes\n\n// Scenario 2\nSomeClass someObject = new SomeClass(); // someObject is assigned after the constructor completes

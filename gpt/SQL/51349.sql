@@ -1,0 +1,1 @@
+ALTER TABLE your_table ADD COLUMN content TEXT;

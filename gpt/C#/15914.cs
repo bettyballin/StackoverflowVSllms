@@ -1,0 +1,1 @@
+var permissions = new WebAgentPermissions();\npermissions.AddPermission(WebAgentPermissionPart1.ViewRuleGroup);\npermissions.AddPermission(WebAgentPermissionPart2.AnotherPermission1);\n\nbool hasViewRuleGroup = permissions.HasPermission(WebAgentPermissionPart1.ViewRuleGroup);\nbool hasAnotherPermission = permissions.HasPermission(WebAgentPermissionPart2.AnotherPermission1);

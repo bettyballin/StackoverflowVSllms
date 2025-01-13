@@ -1,1 +1,0 @@
-column = 1 or @bit = 0

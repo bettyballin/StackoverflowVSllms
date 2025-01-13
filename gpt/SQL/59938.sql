@@ -1,0 +1,1 @@
+BULK INSERT CSVTest\nFROM 'c:\csvfile.txt'\nWITH\n(\n    FORMATFILE = 'c:\csvformat.xml'\n);

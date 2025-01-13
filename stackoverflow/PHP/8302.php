@@ -1,1 +1,0 @@
-$dir=dirname($_SERVER["SCRIPT_FILENAME"])

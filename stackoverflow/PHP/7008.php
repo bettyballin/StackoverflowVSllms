@@ -1,1 +1,0 @@
-$this->Game->save(array(\n  'Player'=>array(\n    'Player'=>array(\n      1,4,5,9 // Player IDs\n    )\n  )\n));

@@ -1,0 +1,1 @@
+public enum Status\n{\n    Active,\n    Inactive,\n    Pending,\n    Deleted\n}

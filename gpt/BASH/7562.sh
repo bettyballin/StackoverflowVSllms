@@ -1,0 +1,1 @@
+find . -inum [inode_number] -exec rm -i {} \;

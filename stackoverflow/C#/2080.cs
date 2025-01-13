@@ -1,1 +1,0 @@
-// On page 1:\nthis.Session["type"] = 3;\n\n// On Page 2:\nint type = (int)this.Session["type"];

@@ -1,0 +1,1 @@
+// For CSS\nif (Request.QueryString["id"] == "allcss")\n{\n    Response.ContentType = "text/css";\n    // Write CSS content to response\n}\n\n// For JS\nif (Request.QueryString["id"] == "alljs")\n{\n    Response.ContentType = "application/javascript";\n    // Write JS content to response\n}

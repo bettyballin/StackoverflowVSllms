@@ -1,0 +1,1 @@
+$User = new User();\nif ($User->loggedin == true) {\n    header('Location: MyAccountNEW.php');\n    exit(); // It's a good practice to call exit after a redirect\n}

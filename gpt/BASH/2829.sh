@@ -1,0 +1,1 @@
+vmrun -T ws start /path/to/your/vm.vmx nogui

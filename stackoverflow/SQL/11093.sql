@@ -1,1 +1,0 @@
-USERS (uid, name, ...)\nGAMES (gid, name, ...)\nVOTES (id, uid, gid, ...)

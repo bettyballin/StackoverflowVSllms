@@ -1,0 +1,1 @@
+[DataContract]\n    public class ResponseData\n    {\n        [DataMember]\n        public string Id { get; set; }\n\n        [DataMember]\n        public string Value { get; set; }\n    }

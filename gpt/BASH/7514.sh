@@ -1,0 +1,1 @@
+php symfony propel:build-model\nphp symfony propel:build-forms\nphp symfony propel:build-filters

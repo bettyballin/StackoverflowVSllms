@@ -1,1 +1,0 @@
-imagealphablending( $targetImage, false );\nimagesavealpha( $targetImage, true );

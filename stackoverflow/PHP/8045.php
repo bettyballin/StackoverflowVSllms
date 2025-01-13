@@ -1,1 +1,0 @@
-$contents=file_get_contents("Qfile.txt");\nforeach(/*bla bla*/)\n{\n  $pattern = "/Question \"".preg_quote($id, '/')."\"(\r?\n)Answer \"\"/";\n\n  $string = str_replace('"', '\"', $string);\n\n  $replacement = "Question \"$id\"$1Answer \"". $string . "\"";\n\n  $result = preg_replace($pattern, $replacement, $contents);\n}

@@ -1,1 +1,0 @@
-select people.name, sports.sport \nfrom people, sports \nwhere people.favsport = sports.ID

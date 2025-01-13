@@ -1,0 +1,1 @@
+amespace ProjectNamespace {\n        class ClassA {\n            // Class definition\n        };\n    }

@@ -1,0 +1,1 @@
+var users = (ViewData["Users"] as List<MembershipUser>);

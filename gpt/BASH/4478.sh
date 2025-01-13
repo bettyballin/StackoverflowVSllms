@@ -1,0 +1,1 @@
+chmod +x add_extension.sh\n./add_extension.sh /path/to/your/directory

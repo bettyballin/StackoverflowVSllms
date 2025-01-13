@@ -1,0 +1,1 @@
+# app/models/your_model.rb\nclass YourModel < ApplicationRecord\n  include DateHelper\n\n  def some_method\n    startd, endd = calculate_start_end_dates\n    self.class.where('created_at >= ? AND created_at <= ?', startd, endd)\n  end\nend

@@ -1,0 +1,1 @@
+svn import c:\www\project1 file:///c:/svnrepos/project1 -m "Initial import"

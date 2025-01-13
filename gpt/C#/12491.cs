@@ -1,0 +1,1 @@
+public ActionResult Register(UserViewModel model)\n{\n    if (ModelState.IsValid)\n    {\n        // Process the valid model\n    }\n    else\n    {\n        // Return the view with validation errors\n        return View(model);\n    }\n}

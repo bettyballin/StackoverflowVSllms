@@ -1,1 +1,0 @@
-$.get('getlatest.php',\n        { id: latestmessage }, \n        function(response) {\n            $(response).prependTo('#forum_entries').effect('highlight',{},1500);\n            latestmessage = $.cookie('last_post_id');\n        }, 'html' );

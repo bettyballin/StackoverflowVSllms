@@ -1,0 +1,1 @@
+public function __construct(..., $id = 0) {\n    if ($id) {\n        $this->load_basic_data_from_db($id); // Load essential attributes\n    }\n}\n\npublic function get_email_address() {\n    if (!$this->email_address) {\n        $this->read_from_database('email_address'); // Load on demand if not already loaded\n    }\n    return $this->email_address;\n}

@@ -1,0 +1,1 @@
+sudo update-grub\n   sudo reboot

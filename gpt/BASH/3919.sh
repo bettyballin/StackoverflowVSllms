@@ -1,0 +1,1 @@
+runtime: python37\n\nentrypoint: gunicorn -b :$PORT app:app

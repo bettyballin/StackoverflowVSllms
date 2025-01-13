@@ -1,1 +1,0 @@
-public override void ProcessRequest(HttpContext context)\n{\n  try\n  {\n    base.ProcessRequest(context);\n  }\n  catch(HttpRequestValidationException ex)\n  {\n      context.Response.Redirect("HandleValidationError.aspx");\n  }\n}

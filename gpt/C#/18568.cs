@@ -1,0 +1,1 @@
+public MyEntity GetDefaultValues(int id)\n{\n    using (var context = new MyDbContext())\n    {\n        return context.MyEntities.Find(id);\n    }\n}

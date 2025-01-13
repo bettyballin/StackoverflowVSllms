@@ -1,1 +1,0 @@
-SELECT  (SELECT COUNT (1) FROM field_company fc2\n         WHERE fc2.field_company_id <= fc.field_company_id) AS row_num,\n        fc.field_company_name\nFROM    field_company fc

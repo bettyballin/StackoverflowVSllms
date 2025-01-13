@@ -1,1 +1,0 @@
-interface IClock\n{\n    DateTime Now { get; } \n}

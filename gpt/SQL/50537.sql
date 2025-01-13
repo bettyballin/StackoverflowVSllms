@@ -1,0 +1,1 @@
+SELECT e.*\nFROM artist a\nJOIN events e ON a.id = e.artist_id\nWHERE a.name = 'artist_name';

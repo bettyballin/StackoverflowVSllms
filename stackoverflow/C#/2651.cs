@@ -1,1 +1,0 @@
-using System;\n\nnamespace ExtensionLibrary\n{\n  public static class Extensions\n  {\n    public static string CustomExtension(this string text)\n    {\n      char[] chars = text.ToCharArray();\n      Array.Reverse(chars);\n      return new string(chars);\n    }\n  }\n}

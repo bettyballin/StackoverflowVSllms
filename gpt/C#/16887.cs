@@ -1,0 +1,1 @@
+[ServiceContract(Namespace = "http://example.org")]\npublic interface IEquinoxWebservice\n{\n    [OperationContract]\n    Guid Init();\n\n    [OperationContract]\n    List<Message> Dequeue(Guid instanceId);\n\n    [OperationContract]\n    void Enqueue(Guid instanceId, Message message);\n\n    [OperationContract]\n    void Dispose(string instanceId);\n}

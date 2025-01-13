@@ -1,0 +1,1 @@
+$data = array(\n    'kanye' => array('Kanya', 'Janaye', 'Kayne', 'Kane', 'Kaye'),\n    'wst' => array('ST', 'St', 'st', 'EST', 'West')\n);\n\nforeach ($data as $name => $array) {\n    echo $name . "\n";\n    foreach ($array as $item) {\n        echo $item . "\n";\n    }\n    echo "\n"; // Add a newline for better readability between the arrays\n}

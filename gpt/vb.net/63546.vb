@@ -1,0 +1,1 @@
+Private Sub Form1_FormClosed(ByVal sender As Object, ByVal e As FormClosedEventArgs) Handles MyBase.FormClosed\n    RemoveHandler Application.ThreadException, AddressOf Application_ThreadException\nEnd Sub

@@ -1,0 +1,1 @@
+g++ -S your_source_file.cpp -o output_file.s

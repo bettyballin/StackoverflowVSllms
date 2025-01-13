@@ -1,0 +1,1 @@
+ALTER TABLE addresses ADD CONSTRAINT unique_address UNIQUE (street, postal_code, city, country);

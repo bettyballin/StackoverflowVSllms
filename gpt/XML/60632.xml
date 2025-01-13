@@ -1,0 +1,1 @@
+<dataset>\n       <table name="your_table">\n           <column name="name" type="string"/>\n           <column name="address" type="string"/>\n           <row>\n               <c>#{person.firstname} #{person.lastname}</c>\n               <c>#{address.street}, #{address.city}</c>\n           </row>\n       </table>\n   </dataset>

@@ -1,1 +1,0 @@
-var $html = $(tab1html); // parse string into DOM structure\nvar $title = $html.filter('#title'); // keep the title\nvar $image = $html.filter('#image'); // keep the image\n\n// add to whatever elements we want...\n$('#my_element').append($title); \n$('#my_other_element').append($image);

@@ -1,0 +1,1 @@
+$data = "Blah blah blah [[find]] and maybe [[this]]";\n\n$result = preg_replace_callback(\n    "/\[\[(.*?)\]\]/",\n    function ($matches) {\n        $url = 'http://example.com/' . urlencode($matches[1]);\n        return '<a href="' . $url . '">' . $matches[1] . '</a>';\n    },\n    $data\n);\n\necho $result;

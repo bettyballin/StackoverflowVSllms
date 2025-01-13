@@ -1,0 +1,1 @@
+$("#div_id").on("drag", function(event) {\n    let data = $(this).data("data");\n    let foo = data.foo;\n    let bar = data.bar;\n    // Perform operations with foo and bar\n});

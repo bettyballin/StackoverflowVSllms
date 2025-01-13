@@ -1,1 +1,0 @@
-php -dextension=vld.so -dvld.active=1 tests/temp/temp.php

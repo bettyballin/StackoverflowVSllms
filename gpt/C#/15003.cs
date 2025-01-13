@@ -1,0 +1,1 @@
+using (var session = sessionFactory.OpenSession())\n{\n    string audienceId = "your-audience-id-here";\n    bool isReferenced = IsAudienceReferenced(session, audienceId);\n    if (isReferenced)\n    {\n        // Handle the case where the audience is referenced\n    }\n    else\n    {\n        // Safe to delete the audience\n    }\n}

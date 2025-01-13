@@ -1,0 +1,1 @@
+// Convert Guid to byte array\nGuid guid = Guid.NewGuid();\nbyte[] guidBytes = guid.ToByteArray();\n\n// Convert byte array back to Guid\nGuid newGuid = new Guid(guidBytes);\n\n// Output for verification\nConsole.WriteLine($"Original Guid: {guid}");\nConsole.WriteLine($"New Guid from bytes: {newGuid}");

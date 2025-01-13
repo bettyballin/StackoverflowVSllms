@@ -1,0 +1,1 @@
+-- Example of dropping a table\n   DROP TABLE TableName;

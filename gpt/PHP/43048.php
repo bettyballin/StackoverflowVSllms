@@ -1,0 +1,1 @@
+$sql = "UPDATE skills SET level = level + 1 WHERE id = $id;";\n$result = $db->sql_query($sql);\n$db->sql_freeresult($result);

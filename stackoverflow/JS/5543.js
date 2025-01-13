@@ -1,1 +1,0 @@
-$('#something').slideUp('fast', function() {\n   ... stuff to do after the slide is complete...\n});

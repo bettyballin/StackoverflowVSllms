@@ -1,0 +1,1 @@
+tcdel --device eth0  # Clear existing traffic control rules\ntcset --device eth0 --delay 10ms --rate 1Mbps --rest-api-server

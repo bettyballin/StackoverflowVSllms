@@ -1,1 +1,0 @@
-PdfFilePrinter.AdobeReaderPath \n      = @"C:\\Documents and Settings\\mike.smith\\Desktop\\Adobe Reader 9.0.exe";

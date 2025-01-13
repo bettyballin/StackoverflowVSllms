@@ -1,1 +1,0 @@
-<?\nforeach ($arrFeeds as $i => $values)\n{\n    print "<a href='" . $values['url'] . "'>" . $values['artist'] . " - " . $values['name'] . "</a>";\n}\n?>

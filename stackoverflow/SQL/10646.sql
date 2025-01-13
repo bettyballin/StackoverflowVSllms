@@ -1,1 +1,0 @@
-declare @x xml\nset @x='<root><a>12</a></root>'\nselect ISNUMERIC(CAST(@x.query('/') AS nvarchar))

@@ -1,0 +1,1 @@
+mkdir -p ~/.vim/pack/plugins/start\n        cd ~/.vim/pack/plugins/start\n        git clone https://github.com/joonty/vdebug.git

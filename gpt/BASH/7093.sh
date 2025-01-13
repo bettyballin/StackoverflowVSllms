@@ -1,0 +1,1 @@
+./svn_update.sh username hostname /path/to/directory

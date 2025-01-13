@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER["REQUEST_METHOD"] == "POST") {\n    $title = $_POST['title'];\n    $content = $_POST['content'];\n    $action = $_POST['action'];\n\n    if ($action == '1') {\n        // Code to publish the news\n        echo "News published!";\n    } elseif ($action == '0') {\n        // Code to save the news as draft\n        echo "News saved as draft!";\n    }\n}\n?>

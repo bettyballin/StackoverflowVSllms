@@ -1,0 +1,1 @@
+employee = Employee.find(1)\nemployee.destroy

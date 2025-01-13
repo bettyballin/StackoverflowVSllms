@@ -1,0 +1,1 @@
+public class Program\n   {\n       public static void Main(string[] args)\n       {\n           var host = new WebHostBuilder()\n               .UseKestrel()\n               .UseContentRoot(Directory.GetCurrentDirectory())\n               .UseStartup<Startup>()\n               .Build();\n\n           host.Run();\n       }\n   }

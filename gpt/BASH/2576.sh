@@ -1,0 +1,1 @@
+windbg -pn [process_name.exe]

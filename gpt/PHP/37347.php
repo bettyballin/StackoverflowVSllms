@@ -1,0 +1,1 @@
+/* DEBUG */\necho "Hello at example.php at 15";

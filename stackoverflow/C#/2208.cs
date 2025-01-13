@@ -1,1 +1,0 @@
-private String _name;\n\n\n\n    public String Name\n\n    {\n\n        get { return _name; }\n\n        set { _name = value; }\n\n    }

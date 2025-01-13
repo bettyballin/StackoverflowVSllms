@@ -1,1 +1,0 @@
-$buffer = str_replace('\n', '\r\n', $buffer);

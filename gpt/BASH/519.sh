@@ -1,0 +1,1 @@
+# On your local server\nmd5sum -c sybase_dump_file.md5

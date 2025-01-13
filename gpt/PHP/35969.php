@@ -1,0 +1,1 @@
+$multiHandle = curl_multi_init();

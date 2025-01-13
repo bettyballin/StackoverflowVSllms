@@ -1,0 +1,1 @@
+public interface IService\n{\n    void Execute();\n}

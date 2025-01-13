@@ -1,0 +1,1 @@
+DECLARE @variableOne FLOAT;\nDECLARE @variableTwo FLOAT;\n\nSELECT\n    @variableOne = AVG(someColumn),\n    @variableTwo = AVG(otherColumn)\nFROM\n    tblTable;\n\n-- Optionally, you can print the variables to see the results\nPRINT @variableOne;\nPRINT @variableTwo;

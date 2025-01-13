@@ -1,0 +1,1 @@
+class Public_Bootstrap extends Zend_Application_Module_Bootstrap\n{\n    protected function _initAutoload()\n    {\n        $autoloader = new Zend_Application_Module_Autoloader(array(\n            'namespace' => 'Public_',\n            'basePath'  => dirname(__FILE__),\n        ));\n        return $autoloader;\n    }\n}

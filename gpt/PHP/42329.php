@@ -1,0 +1,1 @@
+// In your view script\necho $this->paginationControl($this->paginator, 'Sliding', 'partials/pagination.phtml');

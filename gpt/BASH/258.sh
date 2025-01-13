@@ -1,0 +1,1 @@
+loadjava -user username/password@database -resolve /path/to/your/thirdparty.jar

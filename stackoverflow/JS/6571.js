@@ -1,1 +1,0 @@
-jQuery("#select-list")[0].options[0].selected = true // assuming it's the first item

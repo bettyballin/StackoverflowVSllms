@@ -1,0 +1,1 @@
+// ViewModel.cs\nusing System.ComponentModel.Composition;\n\n[Export(typeof(IShapeViewModel))]\npublic class ShapeViewModel : IShapeViewModel\n{\n    // ViewModel implementation\n}

@@ -1,0 +1,1 @@
+g++ -fPIC -c shared.cpp -o shared.o\ng++ -dynamiclib -Wl,-dylib_install_name -Wl,libshared.dylib -o libshared.dylib shared.o\ng++ -c main.cpp\ng++ -o main main.o -L. -lshared

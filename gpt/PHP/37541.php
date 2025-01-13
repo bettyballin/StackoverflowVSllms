@@ -1,0 +1,1 @@
+$values = ['10', '100', '100.00', '100,00', '100.123', 'abc'];\n\nforeach ($values as $value) {\n    if (preg_match('/^\d+(\.\d{1,2})?$/', $value)) {\n        echo "$value is allowed\n";\n    } else {\n        echo "$value is not allowed\n";\n    }\n}

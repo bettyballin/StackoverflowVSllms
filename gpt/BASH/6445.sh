@@ -1,0 +1,1 @@
+#!/bin/bash\nfor i in {1..77}\ndo\n  filename="file$i"\n  echo $filename > $filename\ndone

@@ -1,0 +1,1 @@
+WITH Last50Users AS (\n  SELECT username, \n         ROW_NUMBER() OVER (ORDER BY userid DESC) AS row_num\n  FROM table\n)\nSELECT username\nFROM Last50Users\nWHERE row_num <= 50;

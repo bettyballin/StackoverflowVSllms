@@ -1,1 +1,0 @@
-$("div.style-box").live('click', function() {\n\n  //get index of div clicked\n  var index = $(this).prevAll().length;\n\n  //select the corresponding option in the hidden select\n  $('#style>option').eq(index).attr('selected', true);\n\n});

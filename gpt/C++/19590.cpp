@@ -1,0 +1,1 @@
+#include "SDL.h"\n\n    extern "C" int main(int argc, char* argv[]);\n\n    int main(int argc, char* argv[]) {\n        // Your actual main function implementation\n        return actual_main_function(argc, argv);\n    }\n\n    int actual_main_function(int argc, char* argv[]) {\n        // Your program's main code here\n    }

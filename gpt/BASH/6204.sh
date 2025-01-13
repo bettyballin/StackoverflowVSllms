@@ -1,0 +1,1 @@
+awk '{ print $3 }' in.txt | sort | uniq > out.txt

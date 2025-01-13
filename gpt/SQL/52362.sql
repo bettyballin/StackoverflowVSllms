@@ -1,0 +1,1 @@
+DECLARE @ConversationHandle UNIQUEIDENTIFIER;\nBEGIN DIALOG CONVERSATION @ConversationHandle\n    FROM SERVICE [YourInitiatorService]\n    TO SERVICE 'TargetService'\n    ON CONTRACT [Contract]\n    WITH ENCRYPTION = OFF;\n\nSEND ON CONVERSATION @ConversationHandle\n    MESSAGE TYPE [MessageType]\n    ('Your message text here');

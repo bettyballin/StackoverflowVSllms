@@ -1,0 +1,1 @@
+coverage run -m pytest\n   coverage report -m

@@ -1,1 +1,0 @@
-$arr = Array($a, $b, $c, $d);\n\nforeach ($arr as &$var)\n{\n   $var = count($var);\n}

@@ -1,1 +1,0 @@
-tvpParam.SqlDbType = SqlDbType.Structured

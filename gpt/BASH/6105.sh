@@ -1,0 +1,1 @@
+# Clone the BookStack repository\n   git clone https://github.com/BookStackApp/BookStack.git\n   cd BookStack\n   # Follow the installation instructions in the README file

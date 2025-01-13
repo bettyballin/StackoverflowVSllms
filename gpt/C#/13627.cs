@@ -1,0 +1,1 @@
+using IronPython.Hosting;\n   using Microsoft.Scripting.Hosting;\n\n   ScriptEngine engine = Python.CreateEngine();\n   ScriptScope scope = engine.CreateScope();\n   engine.Execute("print('Hello from IronPython!')", scope);

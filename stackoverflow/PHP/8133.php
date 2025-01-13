@@ -1,1 +1,0 @@
-array(1) {\n  [0]=>\n  object(stdClass)(1) {\n    ["name"]=>\n    string(8) "Apples"\n  }\n}

@@ -1,0 +1,1 @@
+public class PluginImplementation : IPlugin\n{\n    private readonly ICoreService _coreService;\n\n    public PluginImplementation(ICoreService coreService)\n    {\n        _coreService = coreService;\n    }\n\n    public void Run()\n    {\n        _coreService.Execute();\n        // Plugin-specific functionality\n    }\n}

@@ -1,0 +1,1 @@
+using System;\nusing System.Runtime.InteropServices;\n\nnamespace YourNamespace\n{\n    [ComVisible(true)]\n    [Guid("your-guid-here")]\n    [ProgId("YourNamespace.YourClass")]\n    public class YourClass\n    {\n        public YourClass() { }\n\n        public string YourMethod()\n        {\n            return "Hello from COM object!";\n        }\n    }\n}

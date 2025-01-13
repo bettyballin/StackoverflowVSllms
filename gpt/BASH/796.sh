@@ -1,0 +1,1 @@
+sudo perf stat -a sleep 10

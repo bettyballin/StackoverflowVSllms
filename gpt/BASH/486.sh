@@ -1,0 +1,1 @@
+# Create a shell script named `create_yearly_tables.sh`\n#!/bin/bash\nPGPASSWORD="your_password" psql -U your_username -d your_database -c "SELECT create_yearly_tables();"

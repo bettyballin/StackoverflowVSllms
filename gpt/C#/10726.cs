@@ -1,0 +1,1 @@
+public MyEntity GetEntityWithCollections(int id)\n{\n    var entity = _session.Query<MyEntity>()\n                         .FetchMany(e => e.RelatedEntities)\n                         .ThenFetch(re => re.AnotherRelatedEntity)\n                         .FirstOrDefault(e => e.Id == id);\n\n    return entity;\n}

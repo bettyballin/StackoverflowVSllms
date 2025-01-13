@@ -1,1 +1,0 @@
-$.get('prodInfo.aspx', { id: prod },\n  function (result) {\n    info = result.split(';;');     // name ;; status ;; description ;; price, etc.\n\n    $(this).ajaxSuccess(

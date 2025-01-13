@@ -1,1 +1,0 @@
-Using fc as new FancyClass()\n  With fc    \n    .Level = "SuperSpiffy"    \n    .Style = Slimming    \n    .Execute()\n  End With\nEnd Using

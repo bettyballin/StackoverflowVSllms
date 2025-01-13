@@ -1,1 +1,0 @@
-Sub FixNewlines()\n    For Each Cell In UsedRange\n        Cell.FormulaR1C1 = Replace(Cell.FormulaR1C1, Chr(13), "")\n    Next Cell\nEnd Sub

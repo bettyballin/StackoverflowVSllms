@@ -1,1 +1,0 @@
-from myapp.appstate import AppState

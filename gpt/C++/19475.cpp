@@ -1,0 +1,1 @@
+#include <list>\n#include <iostream>\n#include <iterator>\n\nint main() {\n    std::list<int> lst = {1, 2, 3, 4, 5};\n    std::list<int>::iterator it = std::next(lst.begin(), 2); // Advance iterator to third element\n    std::cout << "Element at index 2: " << *it << std::endl; // Outputs 3\n    return 0;\n}

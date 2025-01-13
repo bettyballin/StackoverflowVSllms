@@ -1,0 +1,1 @@
+ypcat passwd | grep luke

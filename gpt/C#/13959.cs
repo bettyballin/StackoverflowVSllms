@@ -1,0 +1,1 @@
+using System;\n\nclass Program\n{\n    static void Main()\n    {\n        if (IntPtr.Size == 8)\n        {\n            Console.WriteLine("The process is 64-bit.");\n        }\n        else if (IntPtr.Size == 4)\n        {\n            Console.WriteLine("The process is 32-bit.");\n        }\n    }\n}

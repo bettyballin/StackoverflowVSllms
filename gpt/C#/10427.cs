@@ -1,0 +1,1 @@
+using System;\n\n[Flags]\npublic enum E\n{\n    zero = 0,\n    one = 1\n}\n\npublic class Program\n{\n    public static void Main()\n    {\n        object o = 1;\n        E e = (E)Enum.ToObject(typeof(E), o);\n        Console.WriteLine(e); // Output: one\n    }\n}

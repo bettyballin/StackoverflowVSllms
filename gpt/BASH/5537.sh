@@ -1,0 +1,1 @@
+takeown /F "X:\*" /A /R /D Y

@@ -1,1 +1,0 @@
-EXEC mySchema.myPackage.myProcedure@myRemoteDB( 'someParameter' );

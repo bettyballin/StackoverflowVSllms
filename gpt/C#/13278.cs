@@ -1,0 +1,1 @@
+string sessionValue = Session["variable"] as string;\n\nif (string.IsNullOrEmpty(sessionValue))\n{\n    sessionValue = "set this";\n    Session["variable"] = sessionValue;\n}

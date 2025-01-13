@@ -1,0 +1,1 @@
+SELECT dateColumn \nFROM someTable \nWHERE CAST(dateColumn AS DATE) <= '2009-04-30';\n\nSELECT dateColumn \nFROM someTable \nWHERE CAST(dateColumn AS DATE) >= '2009-04-30';

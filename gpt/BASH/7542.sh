@@ -1,0 +1,1 @@
+ffprobe -v quiet -print_format json -show_format -show_streams path/to/your/video.mp4

@@ -1,1 +1,0 @@
-# movies.rb\nclass Movie < ActiveRecord::Base\n  has_many :roles\n  has_many :actors, :through => :roles\nend\n\n# actor.rb\nclass Actor < ActiveRecord::Base\n  has_many :roles\n  has_many :movies, :through => :roles\nend

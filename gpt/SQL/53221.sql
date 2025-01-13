@@ -1,0 +1,1 @@
+CREATE TABLE example_table (\n    id BIGINT AUTO_INCREMENT PRIMARY KEY,\n    other_column VARCHAR(255)\n) AUTO_INCREMENT = 100001;

@@ -1,0 +1,1 @@
+CREATE DATABASE your_app_db;\n   GRANT ALL PRIVILEGES ON your_app_db.* TO 'your_user'@'localhost' IDENTIFIED BY 'your_password';\n   FLUSH PRIVILEGES;

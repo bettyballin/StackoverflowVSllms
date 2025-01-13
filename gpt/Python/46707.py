@@ -1,0 +1,1 @@
+env = Environment(CC='i686-elf-gcc', CFLAGS='-std=gnu99 -march=i486 -fno-builtin -m32 -g0 -O3 -Wall -Wextra')\nenv.Program(target='main', source='src/user/applications/apptest/main.c')

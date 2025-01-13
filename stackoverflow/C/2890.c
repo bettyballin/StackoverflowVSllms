@@ -1,1 +1,0 @@
-char* whereAmI         = _getcwd(NULL,0);

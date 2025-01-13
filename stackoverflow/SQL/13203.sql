@@ -1,1 +1,0 @@
-create function INET_ATON (@addr varchar(15))\nreturns bigint\nwith schemabinding\nas\nbegin\n  return  \n    cast(parsename(@addr, 4) as bigint) * 16777216 +\n    cast(parsename(@addr, 3) as bigint) * 65536 +\n    cast(parsename(@addr, 2) as bigint) * 256 +\n    cast(parsename(@addr, 1) as bigint)\nend

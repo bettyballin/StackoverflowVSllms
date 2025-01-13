@@ -1,0 +1,1 @@
+UPDATE db1.table AS t1\nJOIN db2.table AS t2 ON t1.id = t2.id\nSET t1.name = t2.name,\n    t1.address = t2.address;

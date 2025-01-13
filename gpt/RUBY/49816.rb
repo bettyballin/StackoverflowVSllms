@@ -1,0 +1,1 @@
+def self.up\n  create_table(:notes, options: 'ENGINE=MyISAM') do |t|\n    t.string :title\n    t.text :body\n\n    t.timestamps\n  end\n\n  execute "ALTER TABLE notes ADD FULLTEXT(fulltext_index, title, body)"\nend

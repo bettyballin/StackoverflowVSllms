@@ -1,0 +1,1 @@
+dotnet add package System.Management --version 4.7.0

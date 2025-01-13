@@ -1,1 +1,0 @@
-def reload_module():\n       import file2\n       reload(file2)

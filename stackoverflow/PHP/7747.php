@@ -1,1 +1,0 @@
-$config['uri_protocol'] = "AUTO";

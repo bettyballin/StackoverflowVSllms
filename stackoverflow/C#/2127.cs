@@ -1,1 +1,0 @@
-Storyboard myStoryboard = (Storyboard)FindResource("StoryboardName");\nmyStoryboard.Begin();

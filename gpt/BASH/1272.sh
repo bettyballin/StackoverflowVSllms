@@ -1,0 +1,1 @@
+30 2 * * * /usr/bin/php /path/to/your/zend/app/public/cron_task.php >> /path/to/log/cron_task.log 2>&1

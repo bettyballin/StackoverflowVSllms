@@ -1,1 +1,0 @@
-$output = preg_replace("/}\s?\n\\\\page.*?\\\\par\s?\n/ms", "\\page\n", $input);

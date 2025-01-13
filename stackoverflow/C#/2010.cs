@@ -1,1 +1,0 @@
-foreach(HtmlNode link in doc.DocumentElement.SelectNodes("//a@href")) {\n    //...\n}

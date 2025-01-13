@@ -1,1 +1,0 @@
-function now(){\n    return Number(new Date);\n}

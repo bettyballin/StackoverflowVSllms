@@ -1,0 +1,1 @@
+function CallableObject() {\n    // Define properties and methods here\n}\n\n// Define the call behavior by adding it to the function prototype\nCallableObject.prototype = function(x, y) {\n    console.log(x, y);\n};\n\n// Create an instance of CallableObject\nconst inst = new CallableObject();\n\n// Call the instance as a function\ninst(1, 2);  // Output: 1 2

@@ -1,0 +1,1 @@
+# Stop the server\n/opt/IBM/WebSphere/AppServer/bin/stopServer.sh server1\n\n# Start the server\n/opt/IBM/WebSphere/AppServer/bin/startServer.sh server1

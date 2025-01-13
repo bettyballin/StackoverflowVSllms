@@ -1,0 +1,1 @@
+#!/bin/sh\n\noutput=$(gcc helloworld.c -o helloworld 2>&1)\ngcc_status=$?\n\nif [ $gcc_status -ne 0 ]; then\n    echo "Failure"\nelif echo "$output" | grep -q 'warning'; then\n    echo "Success with warnings"\nelse\n    echo "Success!"\nfi

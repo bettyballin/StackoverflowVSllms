@@ -1,0 +1,1 @@
+data = [\n    ('key1', 'value2'),\n    ('key2', 'value1'),\n    ('key1', 'value1'),\n    ('key2', 'value2')\n]\n\n# Sort by key first, and then by value if keys are equal\nsorted_data = sorted(data, key=lambda item: (item[0], item[1]))\n\nprint(sorted_data)

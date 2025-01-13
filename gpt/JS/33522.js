@@ -1,0 +1,1 @@
+// Bad practice\n   eval("console.log('This is risky!')");\n   // Better approach\n   console.log('This is safe!');

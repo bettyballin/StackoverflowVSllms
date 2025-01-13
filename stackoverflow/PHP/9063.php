@@ -1,1 +1,0 @@
-<?php if ($_SERVER['REQUEST_METHOD'] != 'POST'){ $self = $_SERVER['PHP_SELF']; ?> 

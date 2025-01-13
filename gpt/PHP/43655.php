@@ -1,0 +1,1 @@
+if (php_sapi_name() == "cli" || php_sapi_name() == "cli-server") {\n    // Running from command line\n    echo "Running from command line\n";\n} else {\n    // Running from HTTP\n    echo "Running from HTTP\n";\n}

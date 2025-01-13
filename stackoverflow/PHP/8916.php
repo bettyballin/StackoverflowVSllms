@@ -1,1 +1,0 @@
-$sql = "\n SELECT *,\n MATCH(title, content) AGAINST('" . $keyword . "') AS score\n FROM articles\n WHERE MATCH(title, content) AGAINST('" . $keyword . "')\n ORDER BY score DESC \n";

@@ -1,0 +1,1 @@
+# nginx.conf\nenv APPLICATION_ENV=development;

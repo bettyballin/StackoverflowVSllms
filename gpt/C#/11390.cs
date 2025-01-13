@@ -1,0 +1,1 @@
+// Save to session\n   HttpContext.Current.Session["UserModel"] = yourModelInstance;\n\n   // Retrieve from session\n   var model = (YourModelClass)HttpContext.Current.Session["UserModel"];

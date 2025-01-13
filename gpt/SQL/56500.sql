@@ -1,0 +1,1 @@
+-- Example of altering a foreign key to use ON DELETE CASCADE\nALTER TABLE ChildTable1\nDROP CONSTRAINT FK_ChildTable1_TBL;\n\nALTER TABLE ChildTable1\nADD CONSTRAINT FK_ChildTable1_TBL\nFOREIGN KEY (ParentID)\nREFERENCES TBL(ID)\nON DELETE CASCADE;\n\n-- Repeat for each child table

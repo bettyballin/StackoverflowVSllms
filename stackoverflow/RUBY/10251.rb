@@ -1,1 +1,0 @@
-def show_feedback_tab?\n  if params[:controller] == :user && params[:action] == :index\n    return true\n  end\n  ...\n  or put here any other logic\n  ...\n  false\nend

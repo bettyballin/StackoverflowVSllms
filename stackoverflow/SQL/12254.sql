@@ -1,1 +1,0 @@
-right('XXXXXXXXXXXX'+ rtrim(@str), @n)

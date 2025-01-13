@@ -1,1 +1,0 @@
-<img alt="logo" >\n     <xsl:attribute name="src">\n        /Content/Images/Logos/<xsl:value-of select="/customer/country"/>.png\n     </xsl:attribute>\n</img>

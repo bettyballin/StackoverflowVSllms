@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['exported_code'])) {\n    $exportedCode = $_POST['exported_code'];\n\n    $filename = "exported_code.txt";\n\n    header('Content-Type: text/plain');\n    header('Content-Disposition: attachment; filename="' . $filename . '"');\n    echo $exportedCode;\n    exit();\n} else {\n    echo "No data received.";\n}\n?>

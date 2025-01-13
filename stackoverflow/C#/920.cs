@@ -1,1 +1,0 @@
-public interface IServiceMessageCallback\n{\n\n    [OperationContract(IsOneWay = true)]\n    void OnReceivedServiceMessage(ServiceMessage serviceMessage);\n}

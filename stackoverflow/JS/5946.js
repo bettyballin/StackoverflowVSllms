@@ -1,1 +1,0 @@
-function openModal(btnId){\n    btn = document.getElementById(btnId);\n    btn.click(); // this should fire the click even of the button\n}

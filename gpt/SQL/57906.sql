@@ -1,0 +1,1 @@
+CREATE PROCEDURE dbo.GetDataFromB\nAS\nBEGIN\n    -- Assuming the other database is named DB_B and the table is named TableB\n    SELECT Column1, Column2, Column3\n    FROM DB_B.dbo.TableB\n    WHERE SomeCondition = 'SomeValue';\nEND;

@@ -1,1 +1,0 @@
-namespace System.IO\n{\n    // Summary:\n    //     Exposes static methods for creating, moving, and enumerating through directories\n    //     and subdirectories. This class cannot be inherited.\n    [ComVisible(true)]\n    public static class Directory

@@ -1,0 +1,1 @@
+var results = context.MyEntities\n                         .Where(e => e.NewColumnName == "some value")\n                         .ToList();

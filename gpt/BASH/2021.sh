@@ -1,0 +1,1 @@
+vtune -collect hotspots -result-dir /path/to/results -- /path/to/your/binary

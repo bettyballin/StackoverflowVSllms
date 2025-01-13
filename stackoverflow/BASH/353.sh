@@ -1,1 +1,0 @@
-mysqldump  --no-data mydb | mysql mydb

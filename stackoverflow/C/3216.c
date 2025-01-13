@@ -1,1 +1,0 @@
-HCERTSTORE hRootCertStore = CertOpenSystemStore(NULL,"ROOT");

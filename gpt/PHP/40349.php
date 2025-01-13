@@ -1,0 +1,1 @@
+<?php\n\n$i = 0;\n\nwhile(conditionals...) {\n\n    if($i == 0)\n        echo "<p>Show this once</p>";\n\n    echo "<p>display everytime</p>";\n    $i++;\n}\n\n?>

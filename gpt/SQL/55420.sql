@@ -1,0 +1,1 @@
+INSERT INTO table1 (col1, col2)\nSELECT t2.col1, t1.col2\nFROM (SELECT DISTINCT col2 FROM table1) AS t1\nCROSS JOIN table2 AS t2\nLEFT JOIN table1 AS t3\nON t2.col1 = t3.col1 AND t1.col2 = t3.col2\nWHERE t3.col1 IS NULL;

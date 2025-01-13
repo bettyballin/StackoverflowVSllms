@@ -1,1 +1,0 @@
-var div = '#aSpecificDivinThatPage';\n$('#somediv').load('somefile.html ' + div);

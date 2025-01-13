@@ -1,0 +1,1 @@
+// Example in C++ using Windows GDI\nLOGFONT logfont;\nZeroMemory(&logfont, sizeof(logfont));\nlogfont.lfHeight = 20;\nwcscpy_s(logfont.lfFaceName, L"Noto Sans");\n\nHFONT hFont = CreateFontIndirect(&logfont);\nSelectObject(hdc, hFont);\n\nTextOut(hdc, 10, 10, L"Your Unicode Text", wcslen(L"Your Unicode Text"));

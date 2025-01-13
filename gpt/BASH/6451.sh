@@ -1,0 +1,1 @@
+sudo apt update\n   sudo apt install wine

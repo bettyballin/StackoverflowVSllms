@@ -1,0 +1,1 @@
+// In a view script or bootstrap\n   $breadcrumbs = $this->view->navigation()->breadcrumbs();\n   $breadcrumbs->setSeparator(' &raquo; ')\n               ->setMinDepth(0)\n               ->setMaxDepth(10);

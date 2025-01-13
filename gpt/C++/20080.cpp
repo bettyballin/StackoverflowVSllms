@@ -1,0 +1,1 @@
+BOOL CMyUserControl::PreTranslateMessage(MSG* pMsg)\n   {\n       if (pMsg->message == WM_KEYDOWN || pMsg->message == WM_CHAR)\n       {\n           // Handle the keyboard messages here\n           // Prevent the beep sound by returning TRUE for handled messages\n           return TRUE;\n       }\n       return CWnd::PreTranslateMessage(pMsg);\n   }

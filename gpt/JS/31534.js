@@ -1,0 +1,1 @@
+self.puff({\n    duration: 0,\n    queue: 'end',\n    afterFinish: Element.remove.bind(self)\n});

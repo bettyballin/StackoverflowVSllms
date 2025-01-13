@@ -1,0 +1,1 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">\n  <PropertyGroup>\n    <!-- Disable parallel project builds to reduce disk I/O -->\n    <BuildInParallel>false</BuildInParallel>\n    \n    <!-- Reduce verbosity to minimize logging overhead -->\n    <Verbosity>minimal</Verbosity>\n  </PropertyGroup>\n</Project>

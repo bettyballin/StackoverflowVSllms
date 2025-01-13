@@ -1,0 +1,1 @@
+#!/bin/bash\n\n   HOST='ftp.example.com'\n   USER='yourusername'\n   PASS='yourpassword'\n   LOCAL_DIR='/path/to/local/website'\n   REMOTE_DIR='/path/to/remote/website'\n\n   lftp -f "\n   open $HOST\n   user $USER $PASS\n   mirror --reverse --delete --verbose $LOCAL_DIR $REMOTE_DIR\n   bye\n   "

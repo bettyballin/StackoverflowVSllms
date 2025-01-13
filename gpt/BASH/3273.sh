@@ -1,0 +1,1 @@
+perf record -o perf_example_sh.data ./example.sh\n   perf record -o perf_example_sh_bin.data ./example.sh.bi

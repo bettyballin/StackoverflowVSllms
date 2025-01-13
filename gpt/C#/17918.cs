@@ -1,0 +1,1 @@
+DataSet myDataSet = new DataSet();\ntry\n{\n    // Populate and use the DataSet\n}\nfinally\n{\n    if (myDataSet != null)\n    {\n        myDataSet.Dispose();\n    }\n}

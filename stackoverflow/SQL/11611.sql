@@ -1,1 +1,0 @@
-SELECT COUNT(grade) FROM table GROUP BY grade ORDER BY grade

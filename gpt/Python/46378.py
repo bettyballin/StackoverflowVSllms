@@ -1,0 +1,1 @@
+def add_url(url, description):\n        conn = sqlite3.connect('rss_reader.db')\n        cursor = conn.cursor()\n\n        cursor.execute('''\n        INSERT INTO urls (url, description)\n        VALUES (?, ?)\n        ''', (url, description))\n\n        conn.commit()\n        conn.close()

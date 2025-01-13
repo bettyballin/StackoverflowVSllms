@@ -1,1 +1,0 @@
-class DirtyMixin(object):\n    @property\n    def is_dirty(self):\n        db_obj = self.__class__.objects.get(self.pk)\n        for f in self._meta.local_fields:\n            if self.__getattribute__(f.name) != db_obj.__getattribute__(f.name):\n                return True\n        return False

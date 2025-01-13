@@ -1,0 +1,1 @@
+// MyLibrary.h\n#ifndef MYLIBRARY_H\n#define MYLIBRARY_H\n\n#ifdef MYLIBRARY_EXPORTS\n#define MYLIBRARY_API __declspec(dllexport)\n#else\n#define MYLIBRARY_API __declspec(dllimport)\n#endif\n\nextern "C" MYLIBRARY_API int calculateSquare(int num);\n\n#endif // MYLIBRARY_H

@@ -1,0 +1,1 @@
+protected void Session_End(object sender, EventArgs e)\n{\n    SessionManager.CleanupExpiredSessionData(TimeSpan.FromMinutes(30)); // Example expiration time\n}

@@ -1,1 +1,0 @@
-cmd.Parameters.AddWithValue("@baskethash", baskethash)

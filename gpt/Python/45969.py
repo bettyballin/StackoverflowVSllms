@@ -1,0 +1,1 @@
+on_time_delivery_rate = (on_time_releases / total_releases) * 100;

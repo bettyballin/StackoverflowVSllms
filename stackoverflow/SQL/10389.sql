@@ -1,1 +1,0 @@
-WITH A (Row, Price) AS\n(\n  SELECT Row_Number() OVER (PARTITION BY Item ORDER BY Effective DESC) AS [RN],\n         Price FROM Table2\n  WHERE Effective <= GETDATE()\n)\nSELECT * FROM A WHERE A.Row = 1

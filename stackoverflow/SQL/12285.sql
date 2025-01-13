@@ -1,1 +1,0 @@
-INSERT INTO @tbUsers\n  SELECT UserId\n  FROM   dbo.aspnet_Users ar, @tbNames t\n  WHERE  LOWER(t.Name) = ar.LoweredUserName AND ar.ApplicationId = @ApplicationId

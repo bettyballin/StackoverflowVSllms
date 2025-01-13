@@ -1,0 +1,1 @@
+public class Question {\n    public int QuestionNumber { get; set; }\n    public string Question { get; set; }\n    public string Answer { get; set; }\n}

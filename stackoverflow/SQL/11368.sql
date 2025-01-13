@@ -1,1 +1,0 @@
-(CREATE VIEW view_name AS\n(SELECT * FROM table1\nUNION\nSELECT * FROM table2\nUNION\nSELECT * FROM table3));

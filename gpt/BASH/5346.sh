@@ -1,0 +1,1 @@
+sudo yast2 repositories add http://download.opensuse.org/repositories/server:/php/SUSE_Linux_10.1

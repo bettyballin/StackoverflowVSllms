@@ -1,0 +1,1 @@
+<%\n   Dim obj\n   Set obj = Server.CreateObject("YourNamespace.YourClass")\n   Dim dataSet\n   Set dataSet = obj.YourMethod("yourParameter")\n   ' Process the returned DataSet object\n   %>

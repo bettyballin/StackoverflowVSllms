@@ -1,1 +1,0 @@
-public void DoubleLoop()\n{\n    for(int i = 0; i < width; i++)\n    {\n        for(int j = 0; j < height; j++)\n        {\n            if(whatever[i][j]) break; // let's make this a "double" break\n        }\n    }\n}

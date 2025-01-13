@@ -1,1 +1,0 @@
-fwrite ($fp, "<rss version='2.0' xmlns:atom=\"http://www.mexautos.com/mexautosrss.xml\"><channel>\n");

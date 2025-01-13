@@ -1,0 +1,1 @@
+using SelectPdf;\n   \n   HtmlToPdf converter = new HtmlToPdf();\n   PdfDocument doc = converter.ConvertUrl("http://www.example.com");\n   doc.Save("example.pdf");\n   doc.Close();

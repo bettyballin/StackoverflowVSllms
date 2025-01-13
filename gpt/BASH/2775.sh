@@ -1,0 +1,1 @@
+setspn -S K2HostServer/k2server.domain.com DOMAIN\K2ServiceAccount\nsetspn -S K2HostServer/k2server DOMAIN\K2ServiceAccount

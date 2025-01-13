@@ -1,0 +1,1 @@
+void displayMessage() {\n    std::cout << "Hello, World!" << std::endl;\n}

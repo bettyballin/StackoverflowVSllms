@@ -1,1 +1,0 @@
-for i in x[:]:\n    x.remove(i)

@@ -1,1 +1,0 @@
-UPDATE Table1\nSET \n    f2 = T2.f2, \n    f3 = convert(varchar, T2.f3, 101) \nFROM \n    Table1 T1\nINNER JOIN \n    Server.DB.dbo.Table2 T2\nON \n    T1.f1 = T2.f1\nWHERE \n    T2.f3 = (SELECT MAX(f3) FROM Server.DB.dbo.Table2 WHERE f1 = T1.f1)

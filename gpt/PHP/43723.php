@@ -1,0 +1,1 @@
+$sql = "\n    SELECT * \n    FROM your_table \n    WHERE dateField1 >= CURDATE() \n      AND dateField2 >= CURDATE()\n";

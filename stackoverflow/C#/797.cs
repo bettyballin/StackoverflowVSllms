@@ -1,1 +1,0 @@
-public class StringValue\n{\n    public String Name { get; set; }\n}\n\n<resultMap id="StringList" class="StringValue" >\n  <result property="Name" column="Value"/>\n</resultMap>

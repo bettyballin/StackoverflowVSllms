@@ -1,0 +1,1 @@
+int main() {\n        int arr[5] = {1, 2, 3, 4, 5};\n\n        for (int i = 0; i < 5; i++) {\n            cout << arr[i] << " ";\n        }\n        cout << endl;\n\n        string str = "Hello, World!";\n        cout << str << endl;\n\n        return 0;\n    }

@@ -1,0 +1,1 @@
+#!/bin/csh\n\n# Start a new group\nnewgrp name <<EOF\n\n# Source the required environment variables\nsource /stuff/morestuff/stuffiwant\n\n# Execute the razor command and wait for it to finish\nrazor -c thread -f Keil1403 -g lib . -o\nwait\n\n# Make all files executable\nchmod +x *\nwait\n\n# Execute the build script\n./rz_build*\nwait\n\nEOF

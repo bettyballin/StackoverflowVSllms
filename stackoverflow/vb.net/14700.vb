@@ -1,1 +1,0 @@
-Private Sub FontToolStripComboBox_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles FontToolStripComboBox.SelectedIndexChanged\n  Dim ComboFonts As System.Drawing.Font\n  ComboFonts = pad.SelectionFont\n  pad.SelectionFont = New System.Drawing.Font(FontToolStripComboBox.Text, pad.SelectionFont.Size, pad.SelectionFont.Style)\nEnd Sub

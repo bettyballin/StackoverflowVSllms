@@ -1,1 +1,0 @@
-select (...)\nfrom user u\nwhere not exists (select null from CONTACT_INFO c where u.user_id = c.user_id)

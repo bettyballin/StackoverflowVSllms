@@ -1,1 +1,0 @@
-and lower(pt.value) = "cats"\n  and lower(pt.value) = "kittens"

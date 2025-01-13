@@ -1,0 +1,1 @@
+import hashlib\n\ndef hash_name(name):\n    return hashlib.md5(name.encode()).hexdigest()\n\n# Example usage\nnames = ["Bill", "Elizabeth", "Bob", "Alice"]\nhashed_names = {name: hash_name(name) for name in names}\n\nprint(hashed_names)

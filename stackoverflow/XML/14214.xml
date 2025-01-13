@@ -1,1 +1,0 @@
-<trace enabled="true" \n    localOnly="false" \n    pageOutput="false" \n    requestLimit="500" \n    traceMode="SortByTime"\n/>

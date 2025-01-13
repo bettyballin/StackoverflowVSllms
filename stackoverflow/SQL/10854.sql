@@ -1,1 +1,0 @@
-SELECT\n   [current].rowInt,\n   [current].Value,\n   ISNULL([next].Value, 0) - [current].Value\nFROM\n   sourceTable       AS [current]\nLEFT JOIN\n   sourceTable       AS [next]\n      ON [next].rowInt = (SELECT MIN(rowInt) FROM sourceTable WHERE rowInt > [current].rowInt)

@@ -1,0 +1,1 @@
+from flask import Flask, request\n\napp = Flask(__name__)\n\n@app.route('/submit', methods=['POST'])\ndef submit():\n    # Print all POST values\n    for key, value in request.form.items():\n        print(f"{key}: {value}")\n    return "Form submitted!"\n\nif __name__ == '__main__':\n    app.run(debug=True)

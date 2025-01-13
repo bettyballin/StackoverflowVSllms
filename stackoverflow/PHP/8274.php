@@ -1,1 +1,0 @@
-<?php\n$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');\nif (!$link) {\n    die('Could not connect: ' . mysql_error());\n}\nmysql_select_db('mydb');\n\nmysql_query("INSERT INTO mytable (product) values ('kossu')");\nprintf("Last inserted record has id %d\n", mysql_insert_id());\n?>

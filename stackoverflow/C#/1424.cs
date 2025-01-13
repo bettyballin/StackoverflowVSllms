@@ -1,1 +1,0 @@
-[Guid(...some guid...)]\n[ComVisible(true)]

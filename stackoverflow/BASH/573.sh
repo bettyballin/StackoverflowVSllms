@@ -1,1 +1,0 @@
-svn switch --relocate svn+ssh://MYUSERNAME@server/ svn+ssh://server/

@@ -1,1 +1,0 @@
-SELECT [dbo].tableB.theColumnINeed\nFROM   [dbo].tableA \nLEFT OUTER JOIN [dbo].tableB\nON [dbo].tableA.myColumn = \n   CASE\n    WHEN [dbo].tableA.myDateColumn <= '1/1/2009' THEN FormatColumnOneWay([dbo].tableB.myColumn)\n    ELSE FormatColumnAnotherWay([dbo].tableB.myColumn)\n   END

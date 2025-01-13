@@ -1,0 +1,1 @@
+# Set the correct permissions for files and directories\nfind /path/to/your/site -type d -exec chmod 755 {} \;\nfind /path/to/your/site -type f -exec chmod 644 {} \;\n\n# Ensure that configuration files are not writable\nchmod 600 /path/to/your/site/config.php

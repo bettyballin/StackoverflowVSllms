@@ -1,0 +1,1 @@
+SELECT p FROM Person p WHERE p.name = 'Joe'\n   UNION\n   SELECT p FROM Person p WHERE p.name = 'Jane'\n   UNION\n   SELECT p FROM Person p WHERE p.name = 'Bob'\n   UNION\n   SELECT p FROM Person p WHERE p.name = 'Alice';

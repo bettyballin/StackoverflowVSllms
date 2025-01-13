@@ -1,0 +1,1 @@
+select new Action {\n    ParentContentType = action.ParentContentType.HasValue \n        ? (ContentType?)Enum.ToObject(typeof(ContentType), action.ParentContentType.Value) \n        : (ContentType?)null\n};

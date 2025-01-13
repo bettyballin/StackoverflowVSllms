@@ -1,0 +1,1 @@
+SELECT HtmlContentColumn\n   FROM YourTable

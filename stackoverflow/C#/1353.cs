@@ -1,1 +1,0 @@
-PrinterResolution pr = new PrinterResolution(300, 300, PrinterResolution.DPI);

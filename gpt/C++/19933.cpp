@@ -1,0 +1,1 @@
+void doIt(double arg) { }\n   void doIt(float arg) { }\n\n   int main() {\n       int i = 42;\n       doIt(i);  // Ambiguous call\n   }

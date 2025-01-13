@@ -1,0 +1,1 @@
+CREATE TABLE companies (\n       id SERIAL PRIMARY KEY,\n       name TEXT NOT NULL\n   );\n\n   -- Create a full-text index\n   CREATE INDEX idx_ft_name ON companies USING gin(to_tsvector('english', name));

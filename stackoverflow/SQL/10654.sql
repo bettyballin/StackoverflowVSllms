@@ -1,1 +1,0 @@
-Select A.ID,\n(SELECT B.ID FROM B\nWHERE A.EventTime BETWEEN B.start_time AND B.end_time LIMIT 1) AS B_ID\nFROM A

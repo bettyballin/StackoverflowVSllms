@@ -1,0 +1,1 @@
+#include <atomic>\n\nstd::atomic<int> sharedInt;\n\nvoid writer() {\n    sharedInt.store(42, std::memory_order_relaxed);\n}\n\nvoid reader() {\n    int value = sharedInt.load(std::memory_order_relaxed);\n}

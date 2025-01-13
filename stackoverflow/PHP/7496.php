@@ -1,1 +1,0 @@
-function getRandomStrength() \n{\n    $rand = mt_rand() / mt_getrandmax();\n    return round(pow(M_E, ($rand - 1.033) / -0.45), 1);\n}

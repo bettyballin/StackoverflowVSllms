@@ -1,0 +1,1 @@
+Public Class BarClass\n    Private _data As Byte()\n    \n    Public Sub New(data As Byte())\n        _data = data\n    End Sub\n\n    ' Other members of BarClass\nEnd Class\n\n' Usage\nDim foo(63) As Byte ' 64 bytes\nDim bar As New BarClass(foo)

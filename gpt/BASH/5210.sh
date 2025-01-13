@@ -1,0 +1,1 @@
+gcc -S -masm=intel -o output.asm source.c

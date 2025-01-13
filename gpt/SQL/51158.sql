@@ -1,0 +1,1 @@
+CREATE PROCEDURE MyProc\n    @MyDate DATETIME = NULL\nAS\nBEGIN\n    -- Local variable to avoid parameter sniffing\n    DECLARE @MyDate_Copy DATETIME\n\n    -- Set the local variable\n    SET @MyDate_Copy = ISNULL(@MyDate, CURRENT_TIMESTAMP)\n\n    -- Use the local variable in your queries\n    -- Do Something using @MyDate_Copy\nEND

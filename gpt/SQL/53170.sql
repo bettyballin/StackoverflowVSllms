@@ -1,0 +1,1 @@
+CREATE SYNONYM my_jobs_running FOR dba_jobs_running;\n   GRANT SELECT ON my_jobs_running TO <your_user>;

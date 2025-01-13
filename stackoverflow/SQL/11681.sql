@@ -1,1 +1,0 @@
-create or replace function int2interval (x integer) returns interval as $$ select $1*'1 sec'::interval $$ language sql;\ncreate cast (integer as interval) with function int2interval (integer) as implicit;

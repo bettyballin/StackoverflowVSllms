@@ -1,0 +1,1 @@
+$.ajax({\n    url: 'your-ajax-url?' + new Date().getTime(), // or use Math.random()\n    type: 'GET',\n    success: function(data) {\n        // handle the response data\n    },\n    error: function(xhr, status, error) {\n        // handle the error\n    }\n});

@@ -1,0 +1,1 @@
+using System.Data.Entity;\n\n   public class ProductContext : DbContext\n   {\n       public DbSet<Product> Products { get; set; }\n   }

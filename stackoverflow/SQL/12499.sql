@@ -1,1 +1,0 @@
-SELECT forums.*, forumcats.name AS category_name\nFROM forums\nINNER JOIN forumcats ON (forums.cat_id = forumcats.cat_id)

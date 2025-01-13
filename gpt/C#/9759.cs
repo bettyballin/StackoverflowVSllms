@@ -1,0 +1,1 @@
+DataSet dataSet = new DataSet();\n  // Fill the DataSet with data from a database\n  DataTable table1 = dataSet.Tables["Table1"];\n  DataTable table2 = dataSet.Tables["Table2"];

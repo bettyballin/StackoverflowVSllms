@@ -1,1 +1,0 @@
-SELECT  posts.* \nFROM  listen \nJOIN posts ON (posts.userid = listen.listenid) \nJOIN users ON (users.UserID = posts.userid)\nWHERE listen.userid = '$user_id' \nORDER BY DATE desc

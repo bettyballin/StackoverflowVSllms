@@ -1,0 +1,1 @@
+cpan install Image::Magick

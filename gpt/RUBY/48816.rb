@@ -1,0 +1,1 @@
+<h1>Dashboard</h1>\n\n<div id="chart1"></div>\n<div id="chart2"></div>\n<!-- Add more divs as needed -->\n\n<%= javascript_include_tag 'dashboard' %>

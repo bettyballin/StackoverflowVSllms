@@ -1,1 +1,0 @@
-SELECT TimeStamp,\n       minmax,\n       CASE WHEN minmax = 0 THEN SpeedMax ELSE SpeedMin END AS Speed\n       CASE WHEN minmax = 0 THEN HeightMax ELSE HeightMin END AS Height\nFROM Table,\n(\n    SELECT 0 AS minmax\n    UNION ALL\n    SELECT 1\n) mm

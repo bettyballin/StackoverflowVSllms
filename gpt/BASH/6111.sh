@@ -1,0 +1,1 @@
+sqlite3 your_database.db\n   .mode csv\n   .import your_file.csv your_table

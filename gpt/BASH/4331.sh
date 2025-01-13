@@ -1,0 +1,1 @@
+# Using readarray (or mapfile)\nIFS=$'\0' readarray -d '' files < <(find . -print0)\n\n# Now you can use the array "files"\necho "Number of files: ${#files[@]}"\nfor file in "${files[@]}"; do\n    echo "$file"\ndone

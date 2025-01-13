@@ -1,1 +1,0 @@
-ServiceSecurityContext.Current.PrimaryIdentity

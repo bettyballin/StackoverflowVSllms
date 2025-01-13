@@ -1,1 +1,0 @@
-select dateadd( s, -1, dateadd( mm, datediff( m, 0, getdate() ) + 1, 0 ) );

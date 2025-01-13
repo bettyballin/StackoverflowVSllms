@@ -1,1 +1,0 @@
-select [date], min([expiration]-[date])\nfrom rawdata\nwhere delta > 0.5\nand callput = 'C' \nand [expiration]-[date] between 15 and 50\ngroup by [date]

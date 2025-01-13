@@ -1,1 +1,0 @@
-try {\n  $row->insert();\n  $inserted = true;\n} catch (Exception $e) {\n  echo "There was an error inserting the row - ".$e->getMessage();\n  $inserted = false;\n}\n\necho "Some more stuff";

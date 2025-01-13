@@ -1,0 +1,1 @@
+from django.core.cache import cache\n\n   # Set cache\n   cache.set('my_key', 'my_value', timeout=60*15)  # Cache for 15 minutes\n\n   # Get cache\n   value = cache.get('my_key')

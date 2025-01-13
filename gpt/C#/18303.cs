@@ -1,0 +1,1 @@
+public interface IPerson\n{\n    string Name { get; set; }\n    void Greet();\n}\n\npublic class Person : IPerson\n{\n    public string Name { get; set; }\n\n    public void Greet()\n    {\n        Console.WriteLine($"Hello, my name is {Name}");\n    }\n}

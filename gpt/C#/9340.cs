@@ -1,0 +1,1 @@
+public void Dispose() {\n    if (_image != null) {\n        Marshal.FinalReleaseComObject(_image);\n        _image = null;\n    }\n    if (_bufferPtr != IntPtr.Zero) {\n        Marshal.FreeHGlobal(_bufferPtr);\n        _bufferPtr = IntPtr.Zero;\n    }\n    GC.SuppressFinalize(this);\n}

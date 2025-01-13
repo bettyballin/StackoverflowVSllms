@@ -1,1 +1,0 @@
-$ldap_user->SetPassword('mySw337NewPassword');

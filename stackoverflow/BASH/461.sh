@@ -1,1 +1,0 @@
-* * * * * /usr/bin/lynx http://yourhost.com/cron.php -dump > /dev/null

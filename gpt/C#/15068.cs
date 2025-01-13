@@ -1,0 +1,1 @@
+if (startdate != null)\n{\n    DateTime actualDate = (DateTime)startdate;\n    // Do something with actualDate\n}\nelse\n{\n    // Handle the case where startdate is null\n}

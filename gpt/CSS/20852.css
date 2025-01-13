@@ -1,0 +1,1 @@
+ul {\n    list-style-type: none; /* Ensures no bullets are displayed */\n    padding-left: 0;       /* Removes default padding */\n    margin: 0;             /* Removes any default margin */\n}\n\nli {\n    list-style-type: none; /* Ensures no bullets are displayed */\n}

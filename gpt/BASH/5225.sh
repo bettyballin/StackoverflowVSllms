@@ -1,0 +1,1 @@
+git clone https://github.com/validator/validator.git\n   cd validator\n   ./build/build.py all\n   ./run-validator.sh

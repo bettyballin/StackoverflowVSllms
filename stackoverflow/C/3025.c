@@ -1,1 +1,0 @@
-<pre>\ngtk_signal_connect (GTK_OBJECT (plugin()->workbook()->gtk_workbook), "switch-page",\n (GtkSignalFunc)this->signals[NOTEBOOK_SWITCHPAGE], plugin->workbook());\n</pre>

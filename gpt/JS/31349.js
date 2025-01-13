@@ -1,0 +1,1 @@
+var child = window.open("", "child");\nchild.document.write(htmlPage);

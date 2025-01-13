@@ -1,1 +1,0 @@
-SELECT *\nFROM table1 \nWHERE Alternative != c\n\nUNION\n\nSELECT Alternative, Sum(Total) as Total, Sum(Male) as Male, Sum(Female) as Female\nFROM table1 \nWHERE Alternative = c\nGROUP BY Alternative

@@ -1,0 +1,1 @@
+#include "Resources.h"\n#include "User.h"\n\nvoid initialize() {\n    User::getInstance().initialize();\n    // Any other initialization code\n}\n\nvoid cleanup() {\n    User::getInstance().cleanup();\n    // Any other cleanup code\n}\n\nint main() {\n    initialize();\n    // Application code here\n    cleanup();\n    return 0;\n}

@@ -1,0 +1,1 @@
+Install-Package System.Linq.Dynamic.Core

@@ -1,0 +1,1 @@
+// In your ASP.NET page code-behind or controller\nusing CommonValidation;\n\nprotected void SubmitButton_Click(object sender, EventArgs e)\n{\n    string email = EmailTextBox.Text;\n    if (!Validator.IsValidEmail(email))\n    {\n        // Show validation error to user\n    }\n    else\n    {\n        // Proceed with further processing\n    }\n}

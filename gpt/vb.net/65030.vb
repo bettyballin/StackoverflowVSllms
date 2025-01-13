@@ -1,0 +1,1 @@
+Dim myList As New List(Of Integer) From {1, 2, 3, 4, 5}\nDim myObservableCollection As New ObservableCollection(Of Integer)(myList)

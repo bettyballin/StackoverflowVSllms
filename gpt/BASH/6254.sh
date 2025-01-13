@@ -1,0 +1,1 @@
+0 0 */7 * * /path/to/archive_data.sh

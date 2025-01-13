@@ -1,0 +1,1 @@
+sudo apt-get install redis-server\n   sudo apt-get install php-redis

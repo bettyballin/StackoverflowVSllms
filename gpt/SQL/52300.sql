@@ -1,0 +1,1 @@
+SELECT Families.* \nFROM Families\nLEFT JOIN \n  (SELECT * FROM Children WHERE Gender="m") AS AliasChildren\nON Families.FamilyID = AliasChildren.FamilyID\nWHERE AliasChildren.FamilyID IS NULL;

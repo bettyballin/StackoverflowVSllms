@@ -1,1 +1,0 @@
-// can be cached by browser, and also by intermediate caches (i.e. by everybody)\nheader('Cache-Control: public');\n\n// is fresh (doesn't have to be re-checked) until that date\nheader('Expires: Fri, 17 Apr 2009 23:50:00 GMT'); 

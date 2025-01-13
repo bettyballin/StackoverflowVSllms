@@ -1,0 +1,1 @@
+# Install GNOME Tweaks if not already installed\nsudo apt install gnome-tweaks\n\n# Open GNOME Tweaks\ngnome-tweaks

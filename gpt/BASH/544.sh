@@ -1,0 +1,1 @@
+openssl pkcs12 -in yourfile.pfx -clcerts -nokeys -out yourfile.cer

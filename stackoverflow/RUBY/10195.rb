@@ -1,1 +1,0 @@
-class Rating\n    has_many :items\n    has_one :user, :through=>:items

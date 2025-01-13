@@ -1,1 +1,0 @@
-function sterilize(&$val,$key)\n{\n    //do whatever security you need here\n    $val = trim($val);\n    $val = strip_tags($val);\n    //etc\n    return htmlspecialchars($val);\n}\n$bad_values = explode(',',$_GET['tags']);\narray_walk($bad_values,'sterilize');

@@ -1,0 +1,1 @@
+CREATE DATABASE [YourDatabaseName]\nON (FILENAME = 'C:\Path\To\Your\file.mdf')\nFOR ATTACH;

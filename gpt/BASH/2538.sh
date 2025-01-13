@@ -1,0 +1,1 @@
+setspn -L DOMAIN\ServiceAccount

@@ -1,1 +1,0 @@
-SELECT COALESCE(dateField, '') FROM Some_Table

@@ -1,0 +1,1 @@
+JAVA_OPTS='-Xmx512m -XX:MaxMetaspaceSize=256m -server -Djava.awt.headless=true'

@@ -1,1 +1,0 @@
-String.Join(",", CType(TargetArrayList.ToArray(Type.GetType("System.String")), String()))

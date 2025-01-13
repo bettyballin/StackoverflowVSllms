@@ -1,0 +1,1 @@
+SELECT STUFF(\n    (SELECT ',' + CAST(X AS VARCHAR(10)) + ',' + CAST(Y AS VARCHAR(10))\n     FROM POINTS\n     FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)'), \n    1, 1, '') AS XYLIST

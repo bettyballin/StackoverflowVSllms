@@ -1,0 +1,1 @@
+#!/bin/bash\n\nREPO_DIR=~/path/to/your/repo\n\ncd $REPO_DIR || exit\nBRANCH=$(git rev-parse --abbrev-ref HEAD)\nCHANGES=$(git status -s)\n\necho "Repository: ${REPO_DIR##*/}"\necho "Branch: $BRANCH"\nif [ -z "$CHANGES" ]; then\n    echo "No changes"\nelse\n    echo "Changes:"\n    echo "$CHANGES"\nfi

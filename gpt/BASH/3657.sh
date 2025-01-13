@@ -1,0 +1,1 @@
+uncompyle6 -o . C:\Python25\lib\site-packages\stompservice_extracted\stompservice\__init__.pyc

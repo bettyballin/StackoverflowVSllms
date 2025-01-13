@@ -1,1 +1,0 @@
-$pages=array('myAccount'=>'My Account', ...);

@@ -1,0 +1,1 @@
+public enum HRESULT : uint\n{\n    S_OK = 0x00000000,\n    E_FAIL = 0x80004005\n}\n\npublic class ComInterfaceImplementation\n{\n    public int SomeMethod()\n    {\n        // Some logic here...\n\n        // Return S_OK on success\n        return (int)HRESULT.S_OK;\n        \n        // Or return E_FAIL on failure\n        // return (int)HRESULT.E_FAIL;\n    }\n}

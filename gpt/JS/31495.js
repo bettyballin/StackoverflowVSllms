@@ -1,0 +1,1 @@
+// Example using DOMPurify\n    let cleanInput = DOMPurify.sanitize(userInput);

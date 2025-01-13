@@ -1,0 +1,1 @@
+.container {\n    display: flex;\n    justify-content: space-between;\n}\n\n#ContentCol {\n    flex: 1;\n    margin-right: 130px;\n    padding: 3px;\n}\n\n#RightSideCol {\n    background-color: #fff;\n    width: 126px;\n    padding: 0px;\n}

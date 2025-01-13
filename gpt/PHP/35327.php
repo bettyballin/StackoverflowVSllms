@@ -1,0 +1,1 @@
+$normal_array       = array();\n$array_of_arrayrefs = array( &$normal_array );\n\n$last_array_ref = &$array_of_arrayrefs[count($array_of_arrayrefs) - 1];\n$last_array_ref["one"] = 1;\n\nprint_r($normal_array); // This should now output Array ( [one] => 1 )

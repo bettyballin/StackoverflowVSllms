@@ -1,0 +1,1 @@
+[ServiceContract]\n   public interface IReportingManagement\n   {\n       [OperationContract]\n       [WebGet(UriTemplate = "/getAddtionsByCategory", ResponseFormat = WebMessageFormat.Json)]\n       List<YourDataModel> GetAddtionsByCategory();\n   }

@@ -1,0 +1,1 @@
+public class NHibernateMetadataProvider : IMetadataProvider\n{\n    public TableMetadata GetTableMetadata(MetaTable table)\n    {\n        // Implement logic to retrieve metadata from NHibernate mappings\n    }\n\n    public ColumnMetadata GetColumnMetadata(MetaColumn column)\n    {\n        // Implement logic to retrieve column metadata from NHibernate mappings\n    }\n}

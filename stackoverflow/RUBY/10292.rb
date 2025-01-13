@@ -1,1 +1,0 @@
-<%= submit_tag 'Enter', \n  :onclick => render(:update) { |page| \n      page[:enter].disable\n    }, \n  :id => 'enter' %>

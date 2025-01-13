@@ -1,0 +1,1 @@
+// Initialize the Qt application\n   int argc = 0;\n   char *argv[] = {nullptr};\n   QApplication app(argc, argv);

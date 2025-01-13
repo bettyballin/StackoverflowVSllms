@@ -1,0 +1,1 @@
+$.ajax({\n  type: "GET",\n  url: "http://www.boobar.com/script.php",\n  dataType: 'jsonp',\n  success: function(result) {\n    alert(result.message);\n  },\n  error: function() {\n    alert('Error occurred');\n  }\n});

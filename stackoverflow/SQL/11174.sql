@@ -1,1 +1,0 @@
-visitor_id | count \n--------------------\n         1 | 3\n         1 | 2 <- extra result starting at visit 2\n         1 | 1 <- extra result starting at visit 3\n         1 | 2\n         1 | 1 <- extra result starting at visit 5

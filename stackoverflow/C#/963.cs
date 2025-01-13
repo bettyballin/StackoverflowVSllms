@@ -1,1 +1,0 @@
-RasDialer dialer = new RasDialer();\nReadOnlyCollection<RasConnection> connections = dialer.GetActiveConnections();\n\nforeach (RasConnection connection in connections)\n{\n    // Do what you want to with the connections.\n}

@@ -1,0 +1,1 @@
+before(:all) do\n      srand(1234)  # Seed the random number generator\n    end

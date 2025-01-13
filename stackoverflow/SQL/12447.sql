@@ -1,1 +1,0 @@
-select \n    datepart(dayofyear,datecolumn)\n,   max(value)\nfrom yourtable\nwhere '2008-01-01' <= datecolumn and datecolumn < '2009-01-01'\ngroup by datepart(dayofyear,datecolumn)

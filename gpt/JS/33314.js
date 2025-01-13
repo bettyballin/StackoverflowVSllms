@@ -1,0 +1,1 @@
+function logout() {\n    // Clear session storage\n    sessionStorage.clear();\n\n    // Perform other logout operations like redirecting to login page\n    window.location.href = '/login';\n}

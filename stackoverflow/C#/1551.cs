@@ -1,1 +1,0 @@
-class Account\n{\n\n  private int pin = 1090;\n  public int Pin\n  {\n     get { return pin; }\n  }\n}

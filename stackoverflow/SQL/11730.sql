@@ -1,1 +1,0 @@
-UPDATE notes SET status = 0

@@ -1,0 +1,1 @@
+Dim oMapping As New Dictionary(Of Integer, String)\noMapping.Add(1, "First")\noMapping.Add(2, "Second")

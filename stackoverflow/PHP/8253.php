@@ -1,1 +1,0 @@
-\n$query = "DELETE FROM members WHERE member_id IN (" . implode(", ", $chan) . ");";

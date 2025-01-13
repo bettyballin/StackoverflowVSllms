@@ -1,0 +1,1 @@
+public class MyEntity\n    {\n        [Key]\n        public int Id { get; set; }\n\n        [Column("OldColumnName")]\n        public string NewColumnName { get; set; }\n    }

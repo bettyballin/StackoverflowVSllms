@@ -1,1 +1,0 @@
-create table #tmp(xmlReply varchar(2048))\nwhile not_done\n  begin\n    select top 1 record from updateTable where processed = 0\n    insert into #tmp exec insertSomeData @param=record\n  end\ndrop table #tmp

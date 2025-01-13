@@ -1,1 +1,0 @@
-$("a").click(function () { \n      $("a").css("color", "blue");\n      $(this).css("color", "yellow");\n    });

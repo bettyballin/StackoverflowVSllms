@@ -1,1 +1,0 @@
-java -cp workspace\p1\bin;workspace\p2\bin foo.Mai

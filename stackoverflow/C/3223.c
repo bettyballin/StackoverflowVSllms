@@ -1,1 +1,0 @@
-to_rcv = (len - currentlen < TCP_BlockSize) ? len - currentlen : TCP_BlockSize;\nresult = recv( sock, buf + currentLen, to_rcv);

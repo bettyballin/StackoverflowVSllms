@@ -1,0 +1,1 @@
+# Run this command to install it\nbundle install\n\n# Add select2 via Yarn\nyarn add select2

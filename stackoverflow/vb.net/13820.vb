@@ -1,1 +1,0 @@
-Private Shared Sub AddText(ByVal fs As FileStream, ByVal value As String)\n    Dim info As Byte() = New UTF8Encoding(True).GetBytes(value)\n    fs.Write(info, 0, info.Length)\nEnd Sub

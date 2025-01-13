@@ -1,1 +1,0 @@
-public int MyMethod(int param1, \n                   [Optional, DefaultParameterValue(0)] int param2, \n                   [Optional, DefaultParameterValue(1)] int param3)\n{\n    return ((param1 + param2) + param3);\n}

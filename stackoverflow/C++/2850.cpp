@@ -1,1 +1,0 @@
-public IDispEventImpl<2, CHelloWorldBHO, &DIID_HTMLTextContainerEvents2, &LIBID_MSHTML, 4, 0>

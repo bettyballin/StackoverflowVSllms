@@ -1,0 +1,1 @@
+document.getElementById('yourElementId').addEventListener('click', function() {\n    window.location.href = 'https://example.com';\n});

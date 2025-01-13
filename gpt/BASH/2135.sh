@@ -1,0 +1,1 @@
+rm -rf vm_image_directory/

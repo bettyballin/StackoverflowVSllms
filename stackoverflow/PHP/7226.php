@@ -1,1 +1,0 @@
-$newArray = preg_replace('/mailto:([\w-]+@([\w-]+\.)+[\w-]+)/i', '$1', $oldArray);

@@ -1,0 +1,1 @@
+tcp_client = TCPSocket.new(ipaddr, port)\ntcp_client.write("Z\n")  # Add newline character\n# or\ntcp_client.send("Z\n", 0)  # Add newline character

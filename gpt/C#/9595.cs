@@ -1,0 +1,1 @@
+// Eager load the entire Employees table\nvar employees = (from employee in db.Employees select employee).ToList();\n\n// Now, you can iterate through the employees list without generating additional queries\nforeach (Employee e in employees)\n{\n    // Your logic here\n}

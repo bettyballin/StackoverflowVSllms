@@ -1,1 +1,0 @@
-dd if=/dev/sda of=/dev/sdb bs=1M

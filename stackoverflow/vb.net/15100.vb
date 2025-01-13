@@ -1,1 +1,0 @@
-Public Function isValid() As Boolean   \n    If (String.IsNullOrEmpty(city) or String.IsNullOrEmpty(state)) And _\n        String.IsNullOrEmpty(zip) Then\n\n        Return False\n    Else\n        Return True\n    End If\nEnd Functio

@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\nxhr.open("POST", "destination_page_url", true);\nxhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");\nxhr.onreadystatechange = function () {\n    if (xhr.readyState === 4 && xhr.status === 200) {\n        console.log(xhr.responseText);\n    }\n};\nxhr.send(JSON.stringify({ token: "your_secure_token" }));

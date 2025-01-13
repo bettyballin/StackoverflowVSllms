@@ -1,1 +1,0 @@
-DataContext ctx = new ...;\nctx.Log = Console.Out;\n//Now execute the linq query, and the query will be output to the console.

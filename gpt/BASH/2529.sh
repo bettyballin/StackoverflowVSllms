@@ -1,0 +1,1 @@
+setspn -A MyService/Server1:135 DOMAIN\ServiceAccount

@@ -1,0 +1,1 @@
+sudo stap -o /tmp/glib_profile.log glib_profile.stp

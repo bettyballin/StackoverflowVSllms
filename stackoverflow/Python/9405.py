@@ -1,1 +1,0 @@
-\nformatter = HtmlFormatter(style=MyStyle)\nformatter.noclasses = True\nprint highlight(content,PythonLexer(),formatter)

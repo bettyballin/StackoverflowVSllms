@@ -1,0 +1,1 @@
+ReportViewer1.AsyncRendering = false;

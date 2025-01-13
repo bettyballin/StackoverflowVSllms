@@ -1,0 +1,1 @@
+string found = text.Find(item => item.Contains("four"));

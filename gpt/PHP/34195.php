@@ -1,0 +1,1 @@
+$pattern = "/world/i";\n$subject = "Hello World";\n\nif (preg_match($pattern, $subject)) {\n    echo "Match found!";\n} else {\n    echo "No match found.";\n}

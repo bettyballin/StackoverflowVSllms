@@ -1,0 +1,1 @@
+Post.find_each do |post|\n  Post.reset_counters(post.id, :comments)\nend

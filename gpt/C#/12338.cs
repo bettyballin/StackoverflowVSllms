@@ -1,0 +1,1 @@
+[WebService(Namespace = "http://tempuri.org/")]\npublic class MyWebService : System.Web.Services.WebService\n{\n    [WebMethod]\n    [SOAPTraceExtension]\n    public int MyWebMethod(int itemCount)\n    {\n        // Your method implementation\n    }\n}

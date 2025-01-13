@@ -1,0 +1,1 @@
+using NLua;\n\n   Lua lua = new Lua();\n   lua.DoString("print('Hello from Lua')");

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?>\n    <mx:Canvas xmlns:mx="http://www.adobe.com/2006/mxml">\n        <mx:Script>\n            <![CDATA[\n                [Bindable]\n                public var dataModel:DataModel;\n            ]]>\n        </mx:Script>\n        \n        <mx:Label id="firstnameLabelInCustomComponent" text="{dataModel.firstname}"/>\n    </mx:Canvas>

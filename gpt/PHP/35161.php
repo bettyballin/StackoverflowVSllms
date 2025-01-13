@@ -1,0 +1,1 @@
+// Example using cURL in PHP\n$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, "http://yourapiurl/api/example/getdata");\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);\n$response = curl_exec($ch);\ncurl_close($ch);\n\n$data = json_decode($response, true);\nprint_r($data);

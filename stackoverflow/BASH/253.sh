@@ -1,1 +1,0 @@
-phpunit --skeleton-test MyClass  MyClass.class.php

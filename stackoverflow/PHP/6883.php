@@ -1,1 +1,0 @@
-$area = array();\n\n$section = array();

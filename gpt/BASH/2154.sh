@@ -1,0 +1,1 @@
+sudo systemctl enable productivity.service\nsudo systemctl start productivity.service

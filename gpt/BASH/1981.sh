@@ -1,0 +1,1 @@
+# Example commands to clone the repository\ngit clone https://github.com/yourorganization/sql-scripts.git

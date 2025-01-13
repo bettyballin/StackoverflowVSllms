@@ -1,0 +1,1 @@
+a = malloc(16);\n    b = malloc(16);\n    printf("\n   block size (for a): %p-%p : %li", b, a, b-a);

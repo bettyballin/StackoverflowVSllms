@@ -1,0 +1,1 @@
+SELECT Table2.A2, Table2.B2, Table2.C2\nFROM Table2, Table1\nWHERE Table1.ID = 1  -- Assuming the selected row from Table1 has ID = 1\n  AND ((Table1.A1 = True AND Table2.A2 = True) OR Table1.A1 = False)\n  AND ((Table1.B1 = True AND Table2.B2 = True) OR Table1.B1 = False)\n  AND ((Table1.C1 = True AND Table2.C2 = True) OR Table1.C1 = False);

@@ -1,0 +1,1 @@
+# Download and install ASP2PHP\ngit clone https://github.com/iljau/asp2php\ncd asp2php\nphp asp2php.php /path/to/your/asp/file.asp

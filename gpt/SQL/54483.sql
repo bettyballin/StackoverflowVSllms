@@ -1,0 +1,1 @@
+-- Granting CREATE VIEW permission at the master database level (not necessary for this case)\nuse [master]\nGO\nGRANT CREATE VIEW TO [myUser]\nGO\n\n-- Granting CREATE VIEW permission at the prodDb database level\nuse [prodDb]\nGO\nGRANT CREATE VIEW TO [myUser]\nGO

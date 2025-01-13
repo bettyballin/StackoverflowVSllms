@@ -1,0 +1,1 @@
+ipconfig /release\nipconfig /renew

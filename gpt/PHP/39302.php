@@ -1,0 +1,1 @@
+$username = mysql_real_escape_string($username);\n   $email = mysql_real_escape_string($email);\n   $query = sprintf("INSERT INTO users (username, email) VALUES ('%s', '%s')", $username, $email);\n   mysql_query($query);

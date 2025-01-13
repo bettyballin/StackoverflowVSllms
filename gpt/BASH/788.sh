@@ -1,0 +1,1 @@
+g++ -O3 -march=native your_program.cpp -o your_program

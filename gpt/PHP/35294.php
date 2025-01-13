@@ -1,0 +1,1 @@
+require 'vendor/autoload.php';\n\nuse YourNamespace\SubNamespace\YourClass;\n\n$instance = new YourClass();

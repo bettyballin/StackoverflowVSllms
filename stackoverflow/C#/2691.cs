@@ -1,1 +1,0 @@
-int bytes_read = 0;\nwhile (bytes_read < buffer.Length)\n   bytes_read += stream.Read(buffer, bytes_read, buffer.length - bytes_read);

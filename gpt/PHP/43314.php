@@ -1,0 +1,1 @@
+$logMessage = "User logged in at " . date('Y-m-d H:i:s');\nfile_put_contents('app.log', $logMessage.PHP_EOL, FILE_APPEND);

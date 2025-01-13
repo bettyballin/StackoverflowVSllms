@@ -1,1 +1,0 @@
-SELECT p.*, r.*\nFROM products AS p\n  JOIN revisions AS r USING (product_id)\n  LEFT OUTER JOIN revisions AS r2 \n    ON (r.product_id = r2.product_id AND r.modified < r2.modified)\nWHERE r2.revision_id IS NULL;

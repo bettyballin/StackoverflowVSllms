@@ -1,1 +1,0 @@
-struct HeapBlockHeader\n{\n    HeapBlockHeader* next;\n    HeapBlockHeader* prev;\n    int size;\n\n    // Actual heap buffer follows this structure.\n};

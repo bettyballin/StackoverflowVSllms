@@ -1,0 +1,1 @@
+EnhSimOutput& operator<<(const setw& p);

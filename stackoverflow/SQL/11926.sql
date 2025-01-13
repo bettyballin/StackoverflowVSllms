@@ -1,1 +1,0 @@
-SELECT column FROM table where LENGTH(column) - LENGTH(REPLACE(column, ' ', ''))+1 < 4

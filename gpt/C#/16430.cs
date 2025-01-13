@@ -1,0 +1,1 @@
+// Example of using Entity Framework with MySQL\npublic class MyDbContext : DbContext\n{\n    public MyDbContext() : base("name=MyDbContext")\n    {\n    }\n\n    public DbSet<MyEntity> MyEntities { get; set; }\n}\n\npublic class MyEntity\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n}

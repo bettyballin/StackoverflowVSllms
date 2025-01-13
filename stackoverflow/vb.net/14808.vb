@@ -1,1 +1,0 @@
-Dim x = <xml><p>hello</p><p>world</p></xml>

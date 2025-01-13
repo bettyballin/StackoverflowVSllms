@@ -1,1 +1,0 @@
-if (($_SERVER['PHP_SELF'] != '/webmaster/index.php') && \n    ($_SESSION['loggedin'] != '1234')) { // I don't like this!\n    header("Location: ".$domain."index.php?l=no");\n    exit();\n}

@@ -1,1 +1,0 @@
-If Not IsPostBack Then\n   MyXMLDataSource.Data = "...some xml..."\nEnd If

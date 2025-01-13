@@ -1,0 +1,1 @@
+public class HomeController : BaseController\n{\n    public HomeController(IFooService fooService) : base(fooService)\n    {\n    }\n\n    public ActionResult Index()\n    {\n        return View();\n    }\n}

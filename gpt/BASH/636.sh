@@ -1,0 +1,1 @@
+cp /path/to/developer-working-copy/changed-file /path/to/new/working-copy/\n    cd /path/to/new/working-copy\n    svn add changed-file (if it is a new file)\n    svn commit -m "Merge changes from developer X"

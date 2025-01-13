@@ -1,0 +1,1 @@
+.container {\n  display: flex;\n}\n.item {\n  flex: 1; /* Adjust width accordingly */\n}

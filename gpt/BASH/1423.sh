@@ -1,0 +1,1 @@
+# PowerShell commands to stop and start COM+ application\n    Stop-Process -Name "dllhost" -Force\n    gacutil /i "C:\path\to\your\assembly.dll"

@@ -1,0 +1,1 @@
+# Create user group\nsudo groupadd webusers\n\n# Add users to the group\nsudo usermod -a -G webusers apache\nsudo usermod -a -G webusers your_ftp_user\n\n# Change group ownership\nsudo chown -R apache:webusers uploads/\n\n# Set permissions and setgid\nsudo chmod -R 2775 uploads/

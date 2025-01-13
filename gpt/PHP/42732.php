@@ -1,0 +1,1 @@
+$array1 = ['key1', 'key2', 'key3'];\n$array2 = ['value1', 'value2', 'value3'];\n\nif(count($array1) == count($array2)) {\n    $assArray = array_combine($array1, $array2);\n    print_r($assArray);\n} else {\n    echo "The arrays do not have the same length.";\n}

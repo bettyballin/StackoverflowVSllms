@@ -1,0 +1,1 @@
+<?php\n$i = 0;\n$i++;\n$cfg['Servers'][$i]['auth_type'] = 'http';\n$cfg['Servers'][$i]['user'] = 'USERNAME';\n$cfg['Servers'][$i]['password'] = 'PASSWORD';\n$cfg['Servers'][$i]['host'] = 'localhost';\n$cfg['Servers'][$i]['connect_type'] = 'tcp';\n$cfg['Servers'][$i]['compress'] = false;\n$cfg['Servers'][$i]['AllowNoPassword'] = false;\n\n// Other configurations can go here\n?>

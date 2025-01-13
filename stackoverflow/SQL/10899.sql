@@ -1,1 +1,0 @@
-RAISE_APPLICATION_ERROR (-20001, 'your message');

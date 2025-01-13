@@ -1,0 +1,1 @@
+regasm /codebase /tlb YourAssembly.dll

@@ -1,1 +1,0 @@
-INSERT INTO atable (x,y,z) VALUES ( NULL,NULL,NULL)

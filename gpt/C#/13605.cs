@@ -1,0 +1,1 @@
+if (!Regex.IsMatch(candidateToEdit.availability.StartDate.ToShortDateString(), @"giantregex"))\n{\n    ModelState.AddModelError("availability.StartDate", "Start date must be in the mm/dd/yyyy format.");\n}

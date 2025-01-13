@@ -1,1 +1,0 @@
-$i = 1;\n\nwhile($row = mysql_fetch_array($result))\n{\n    $output .="<keyword>".$_POST['keyword']."</keyword><name>".$row['url']."</name><occur>".$row['occurrences']."</occur><queryTime>".(substr($end_time-$start_time,0,5))."</queryTime>";\n\n    $i++;\n}\n\nif ($i == 1)\n    $output .= "no";

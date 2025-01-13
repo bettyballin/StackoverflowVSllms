@@ -1,0 +1,1 @@
+CREATE TABLE TypeA (\n    Id INT PRIMARY KEY,\n    ParentId NVARCHAR(255),  -- Adjust the size based on your needs\n    ParentType NVARCHAR(255)  -- Store the name of the parent type\n);

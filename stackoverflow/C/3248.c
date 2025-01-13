@@ -1,1 +1,0 @@
-int findCommon(std::initializer_list<int> nums)\n{\n    std::initializer_list<int>::iterator it;\n    for (it = nums.begin() ; it != nums.end() ; ++it)\n    {\n        std::cout << *it << std::endl;  \n    }\n    return 1;\n}

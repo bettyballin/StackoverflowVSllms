@@ -1,0 +1,1 @@
+result = 4 // 100\nprint(result)  # Output: 0

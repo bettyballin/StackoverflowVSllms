@@ -1,0 +1,1 @@
+// text_file.txt\n    blablablah....\n\n    // main_script.php\n    <?php\n    $file = fopen("text_file.txt", "r");\n    $var1 = fgets($file);\n    fclose($file);\n    echo $var1;\n    ?>

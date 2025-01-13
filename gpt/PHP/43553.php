@@ -1,0 +1,1 @@
+{!! Form::open(['url' => 'foo/bar']) !!}\n       {!! Form::label('name', 'Name') !!}\n       {!! Form::text('name') !!}\n       {!! Form::submit('Submit') !!}\n   {!! Form::close() !!}

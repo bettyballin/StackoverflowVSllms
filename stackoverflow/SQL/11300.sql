@@ -1,1 +1,0 @@
-update T1 set WorkerName = T2.WorkerId\nfrom T1, T2\nwhere T1.WorkerName like T2.WokerName + ',%'

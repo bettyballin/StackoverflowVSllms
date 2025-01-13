@@ -1,0 +1,1 @@
+using System.Security.Principal;\nusing (WindowsIdentity identity = WindowsIdentity.GetCurrent(TokenAccessLevels.Impersonation))\n{\n    using (WindowsImpersonationContext context = identity.Impersonate())\n    {\n        // Your code here\n        // Run the LINQ to SQL query\n    }\n}

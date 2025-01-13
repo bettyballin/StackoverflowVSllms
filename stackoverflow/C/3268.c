@@ -1,1 +1,0 @@
-petvar = (petvar^rnd)<<16 | rnd;

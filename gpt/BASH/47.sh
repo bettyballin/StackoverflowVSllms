@@ -1,0 +1,1 @@
+g++ -o cross_platform_example.exe cross_platform_example.cpp\ncross_platform_example.exe

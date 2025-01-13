@@ -1,0 +1,1 @@
+// Global variable\nint globalVar;\n\nvoid exampleFunction() {\n    // Local variable\n    int localVar;\n\n    // gcc will warn about 'localVar' being unused\n    // but will not warn about 'globalVar'\n}

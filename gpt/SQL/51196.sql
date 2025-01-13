@@ -1,0 +1,1 @@
+SELECT * FROM your_table USE INDEX (your_index) WHERE your_conditions;

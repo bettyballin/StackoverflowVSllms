@@ -1,0 +1,1 @@
+tlbimp YourDirectShowComponent.tlb /out:YourDirectShowComponent.Interop.dll

@@ -1,1 +1,0 @@
-ALTER DATABASE database-name SET OFFLINE

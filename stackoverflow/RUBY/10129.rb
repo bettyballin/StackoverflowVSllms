@@ -1,1 +1,0 @@
-require 'yaml'\nrequire 'yaml/encoding'\n\ntext = "Ça va bien?"\n\nputs text.to_yaml(:Encoding => :Utf8) # => --- "\xC3\x87a va bien?"\nputs YAML.unescape(YAML.dump(text)) # => --- "Ça va bien?"

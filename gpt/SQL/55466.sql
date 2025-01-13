@@ -1,0 +1,1 @@
+SELECT TOP 1 *\nFROM Questions\nORDER BY ID DESC;

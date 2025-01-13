@@ -1,1 +1,0 @@
-ones = relation('O1', order_by=lambda:[O1.value])

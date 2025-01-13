@@ -1,0 +1,1 @@
+-- Combined table with denormalized data\nCREATE TABLE Employees (\n    EmployeeID INT PRIMARY KEY,\n    Name VARCHAR(100),\n    DepartmentName VARCHAR(100)\n);

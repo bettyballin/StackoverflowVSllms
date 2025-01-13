@@ -1,0 +1,1 @@
+# On Linux/Unix systems\n    sudo systemctl restart apache2\n    # or\n    sudo service apache2 restart\n\n    # On Windows (using XAMPP Control Panel)\n    # Stop and start the Apache service

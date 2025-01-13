@@ -1,0 +1,1 @@
+ssh username@mac_ip_address osascript -e 'tell application "Finder" to activate'

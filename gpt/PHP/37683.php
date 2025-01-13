@@ -1,0 +1,1 @@
+<?php\n$userId = 1; // Replace with the actual user ID\n$result = $conn->query("SELECT portlet_order FROM users WHERE id = $userId");\n$row = $result->fetch_assoc();\necho $row['portlet_order'];\n?>

@@ -1,0 +1,1 @@
+function get_numbers($number) {\n    if ($number == 0) {\n        return [];\n    }\n    \n    $found_number = pow(2, floor(log($number, 2)));\n    return array_merge([$found_number], get_numbers($number - $found_number));\n}\n\n$number = rand(0, 128);\n$number_array_recursive = get_numbers($number);\n\n// Output the result\nprint_r($number_array_recursive);

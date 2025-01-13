@@ -1,0 +1,1 @@
+# settings.py\n    DATABASES = {\n        'default': {\n            'ENGINE': 'django.db.backends.sqlite3',\n            'NAME': 'mydatabase',\n        }\n    }\n    \n    INSTALLED_APPS = [\n        'myapp',  # Your app name\n    ]\n\n    SECRET_KEY = 'your-secret-key'

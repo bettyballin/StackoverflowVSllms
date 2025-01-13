@@ -1,1 +1,0 @@
-doc = Hpricot(URI.parse("http://example.com/").read)\n(doc/'/html/head/meta')\n  #=> Elements[...]

@@ -1,0 +1,1 @@
+ssm install YourServiceName powershell.exe\nnssm set YourServiceName AppParameters -File "C:\Path\To\YourScript.ps1"

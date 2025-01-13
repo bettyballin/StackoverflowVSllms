@@ -1,1 +1,0 @@
-Specifies the name of a file that is automatically parsed before the main file. The file is included as if it was called with the require() function, so include_path is used.\n\nThe special value none disables auto-prepending.

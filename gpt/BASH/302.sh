@@ -1,0 +1,1 @@
+mkdir build-newlib\n   cd build-newlib\n   ../newlib-x.x.x/configure --target=<target-triplet> --prefix=<install-prefix>\n   make\n   make install

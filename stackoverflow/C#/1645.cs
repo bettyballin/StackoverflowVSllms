@@ -1,1 +1,0 @@
-[RequireSsl(Redirect=true)]\npublic ActionResult LogOn()\n{\n  return View();\n}

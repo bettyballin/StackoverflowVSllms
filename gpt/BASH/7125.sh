@@ -1,0 +1,1 @@
+# Assuming your development server is running at http://localhost:8000\nwget --mirror --convert-links --adjust-extension --page-requisites --no-parent http://localhost:8000

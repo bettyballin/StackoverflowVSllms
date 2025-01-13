@@ -1,0 +1,1 @@
+function updateElementStyle(element, property, value) {\n    element.style[property] = value;\n}\n\nconst curriedUpdateStyle = curry(updateElementStyle);\n\n// Updating the color of an element\nconst updateColor = curriedUpdateStyle(document.getElementById('myElement'))('color');\n\nupdateColor('blue'); // Sets color to blue\nupdateColor('red'); // Sets color to red

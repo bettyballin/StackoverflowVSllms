@@ -1,0 +1,1 @@
+SELECT n.*\nFROM notifications n\nLEFT JOIN alerts a ON n.id = a.notification_id AND a.user_id = ? AND a.read_at IS NOT NULL\nWHERE a.id IS NULL;

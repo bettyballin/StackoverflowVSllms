@@ -1,1 +1,0 @@
-(SELECT 'comment', title, comment_id AS id, created FROM comment)\nUNION\n(SELECT 'update', title, update_id as id, created FROM update)\nUNION\n(SELECT 'subscription', title, subscription_id as id, created \n  FROM subscription)\nORDER BY created desc

@@ -1,1 +1,0 @@
-table#event_calendar {\n    border-collapse: collapse;\n    border-right: 1px solid red;\n    border-left: 1px solid red;\n}\n\ntable#event_calendar td, table#event_calendar th {\n    border-top: 1px solid red;\n    border-bottom: 1px solid red;\n}

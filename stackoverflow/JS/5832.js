@@ -1,1 +1,0 @@
-function loadFileToElement(filename, elementId)\n{\n    var xmlHTTP = new XMLHttpRequest();\n    try\n    {\n    xmlHTTP.open("GET", filename, false);\n    xmlHTTP.send(null);\n    }\n    catch (e) {\n        window.alert("Unable to load the requested file.");\n        return;\n    }\n\n    document.getElementById(elementId).innerHTML=xmlHTTP.responseText;\n}

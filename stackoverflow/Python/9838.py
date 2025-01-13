@@ -1,1 +1,0 @@
-ds.select(DBDate = '15 Sep 2008')

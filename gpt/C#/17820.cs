@@ -1,0 +1,1 @@
+httpResponse.Clear();\n   httpResponse.ContentType = "application/vnd.ms-excel";\n   httpResponse.AddHeader("Content-Disposition", "attachment; filename=report.xls");\n   httpResponse.BinaryWrite(reportBytes);\n   httpResponse.End();

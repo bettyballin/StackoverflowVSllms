@@ -1,0 +1,1 @@
+SELECT q.id, q.title, q.body, COUNT(*) AS relevance\nFROM questions q\nJOIN question_tags qt ON q.id = qt.question_id\nJOIN tags t ON qt.tag_id = t.id\nWHERE MATCH(q.title, q.body) AGAINST ('search terms' IN NATURAL LANGUAGE MODE)\nOR t.name IN ('tag1', 'tag2', 'tag3')\nGROUP BY q.id\nORDER BY relevance DESC, q.votes DESC\nLIMIT 10;

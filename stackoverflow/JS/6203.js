@@ -1,1 +1,0 @@
-<script type="text/javascript>\nvar uSelect = document.getElementById('user_select');\nuSelect.onSelect = function() {\n    alert(this.id);\n}\n\nfunction selectUser(anchor) {\n    //remove all 'selected' classes from $user_selector child divs\n    //add 'selected' class to parent div.user of anchor\n    uSelect.onSelect();\n}\n</script>

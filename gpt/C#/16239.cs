@@ -1,0 +1,1 @@
+public class LookupItem\n{\n    public int ID { get; set; }\n    public string Category { get; set; }\n    public int Weight { get; set; }\n}

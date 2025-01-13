@@ -1,0 +1,1 @@
+UPDATE your_table_name\nSET target_column = source_column;

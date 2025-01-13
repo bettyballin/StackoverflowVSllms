@@ -1,1 +1,0 @@
-T = [L[i] for i in Idx]

@@ -1,0 +1,1 @@
+svn checkout http://example.com/svn/repository/project

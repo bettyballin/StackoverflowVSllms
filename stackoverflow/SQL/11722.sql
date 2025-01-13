@@ -1,1 +1,0 @@
-SELECT CONVERT(nvarchar(10), getdate(), 103)

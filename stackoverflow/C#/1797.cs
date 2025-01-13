@@ -1,1 +1,0 @@
-[ToolboxData("<{0}:AlertControl runat=server></{0}:AlertControl>")]\npublic class AlertControl : Control{\n    protected override void OnInit(EventArgs e){\n        base.OnInit(e);\n        string script = "alert(\"Hello!\");";\n        ScriptManager.RegisterStartupScript(this, GetType(), \n                      "ServerControlScript", script, true);\n    }\n}

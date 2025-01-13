@@ -1,0 +1,1 @@
+CREATE TRIGGER trgAfterInsert\nON YourTableName\nFOR INSERT\nAS\nBEGIN\n    UPDATE YourTableName\n    SET CreatedAt = GETDATE()\n    FROM inserted\n    WHERE YourTableName.PrimaryKeyColumn = inserted.PrimaryKeyColumn;\nEND;

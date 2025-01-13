@@ -1,1 +1,0 @@
-define('IMAGE_PATH', '/path/to/images');\n\nforeach ($urlArray as $url) {\n    file_put_contents(IMAGE_PATH . "/" . basename($url), file_get_contents($url));\n}

@@ -1,1 +1,0 @@
-select distinct\n       a.id,\n       first_value(t.type_id)\n       over (partition by a.id order by t.create_date desc)\n       as max_create_date_type_id,\n       first_value(a.assign_id)\n       over (partition by a.id order by t.create_date desc)\n       as assign_id\nfrom assignment a, type t\nwhere a.type_id = t.type_id

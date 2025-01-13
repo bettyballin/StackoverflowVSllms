@@ -1,1 +1,0 @@
-84: if (!($sql_id=mysql_connect($server, $user, $pwd,$new))){\n85:     trigger_error("[Error connecting to database server]: {$sql_id}", E_USER_ERROR);\n86: }

@@ -1,1 +1,0 @@
-function ncd($x, $y) { \n  $cx = strlen(gzcompress($x));\n  $cy = strlen(gzcompress($y));\n  return (strlen(gzcompress($x . $y)) - min($cx, $cy)) / max($cx, $cy);\n}   \n \nprint(ncd('this is a test', 'this was a test'));\nprint(ncd('this is a test', 'this text is completely different'));

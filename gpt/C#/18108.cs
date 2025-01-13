@@ -1,0 +1,1 @@
+public class MyPage : Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        string baseUrl = UrlHelper.GetBaseUrl(Request);\n        Response.Write(baseUrl); // Output: http://www.mywebsite.com:80\n    }\n}

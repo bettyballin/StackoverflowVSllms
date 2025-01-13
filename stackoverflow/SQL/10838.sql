@@ -1,1 +1,0 @@
-select top 10 percent * from MyTable order by NEWID()

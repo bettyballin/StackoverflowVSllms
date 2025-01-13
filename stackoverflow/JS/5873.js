@@ -1,1 +1,0 @@
-$("[id$=" + endOfIdToMatch + "]").each(function () {\n    alert(this.tagName);\n});

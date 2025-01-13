@@ -1,0 +1,1 @@
+-- Restore the database from a backup\nRESTORE DATABASE YourDatabaseName\nFROM DISK = 'C:\path\to\your\backupfile.bak'\nWITH REPLACE

@@ -1,0 +1,1 @@
+[WebMethod]\npublic static string MyMethod(string userToken) {\n    // Validate and map token to user ID securely\n    int userId = TokenService.GetUserIdFromToken(userToken);\n    if (userId == -1) {\n        throw new UnauthorizedAccessException("Invalid token");\n    }\n    \n    // Proceed with the logic using userId\n    return "Success";\n}

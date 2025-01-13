@@ -1,0 +1,1 @@
+// Example of removing an event listener\n    element.removeEventListener('event', handler);

@@ -1,0 +1,1 @@
+gcc -o create_zip create_zip.c -lzip

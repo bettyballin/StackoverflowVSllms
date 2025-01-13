@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\n// Your session handling logic\nif (!isset($_SESSION['logged_in'])) {\n    // Handle not logged in state\n} else {\n    // Handle logged in state\n}\n?>

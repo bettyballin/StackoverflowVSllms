@@ -1,0 +1,1 @@
+// Storing data in session\nSession["UserProfile"] = userProfile;\n\n// Retrieving data from session\nvar userProfile = Session["UserProfile"] as UserProfile;

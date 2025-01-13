@@ -1,0 +1,1 @@
+int foo(int) __attribute__ ((const));

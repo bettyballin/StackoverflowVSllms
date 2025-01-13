@@ -1,1 +1,0 @@
-Visit(Node node)\n{\n    foreach (Node childNode in node.Children)\n    {\n        Visit(childNode);\n    }\n\n    DoStuff(node);\n}

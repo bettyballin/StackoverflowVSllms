@@ -1,1 +1,0 @@
-string mailTo = Request.Form["emailTo"];\nstring mailFrom = Request.Form["emailFrom"];\nstring subject = Request.Form["subject"];\nstring message = Request.Form["message"];\n\n// Send mail here using variables above\n// You'll need an SMTP server and some mail \n// sending code which I'm drawing a blank as\n//  to what the name of the classes are at the moment

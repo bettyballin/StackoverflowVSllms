@@ -1,1 +1,0 @@
-foreach($submission_info as $elem) {\n    $newarray[$elem["field_name"]] = $elem["content"];\n}

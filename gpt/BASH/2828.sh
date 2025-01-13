@@ -1,0 +1,1 @@
+gacutil -i "c:\program files\microsoft.net\primary interop assemblies\adodb.dll"

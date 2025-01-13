@@ -1,0 +1,1 @@
+char *str = new char[100];\n    char *str2 = "Hi all";

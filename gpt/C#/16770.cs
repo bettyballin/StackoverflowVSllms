@@ -1,0 +1,1 @@
+using System;\n\nnamespace YourNamespace\n{\n    public partial class YourPage : System.Web.UI.Page\n    {\n        protected void Page_Load(object sender, EventArgs e)\n        {\n#if DEBUG\n            lblBuildMode.Text = "Debug Build";\n#else\n            lblBuildMode.Text = "Release Build";\n#endif\n        }\n    }\n}

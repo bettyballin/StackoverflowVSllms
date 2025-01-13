@@ -1,0 +1,1 @@
+use Libraries\Archive\Zip;\n\n$zipArchive = new Zip();\n$zipArchive->extract('path/to/zipfile.zip');

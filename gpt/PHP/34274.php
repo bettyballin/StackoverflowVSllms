@@ -1,0 +1,1 @@
+error_reporting(E_ALL);\n     ini_set('display_errors', 1);

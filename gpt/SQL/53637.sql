@@ -1,0 +1,1 @@
+SELECT DISTINCT news.*\nFROM news\nJOIN article_tags ON news.id = article_tags.article_id\nJOIN user_favored_tags ON article_tags.tag_id = user_favored_tags.tag_id\nWHERE user_favored_tags.user_id = ?\nORDER BY news.date_published DESC;

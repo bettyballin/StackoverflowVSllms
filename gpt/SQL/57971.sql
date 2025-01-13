@@ -1,0 +1,1 @@
+ALTER TABLE child_table ADD CONSTRAINT fk_new_guid FOREIGN KEY (new_guid) REFERENCES master_table(new_guid);

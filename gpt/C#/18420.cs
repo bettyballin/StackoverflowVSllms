@@ -1,0 +1,1 @@
+// Accessing a shared resource\nstring loginButtonText = Localization.Resources.Labels.LoginButtonText;\n\n// Accessing a project-specific resource\nstring projectAWelcomeMessage = ProjectA.Resources.Messages.WelcomeMessage;

@@ -1,0 +1,1 @@
+gcc -o myguiapp myguiapp.c -mwindows

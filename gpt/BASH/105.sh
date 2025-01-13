@@ -1,0 +1,1 @@
+# Define the variable\nMYSQL_CONN="-u user -p -h hostname"\n\n# Use the variable in your mysql command\nmysql $MYSQL_CONN dbname

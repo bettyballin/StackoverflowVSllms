@@ -1,0 +1,1 @@
+sshfs user@remote_host:/path/to/remote/directory ~/remote_directory

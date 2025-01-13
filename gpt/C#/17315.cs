@@ -1,0 +1,1 @@
+// Store dataset in session\nDataSet myDataSet = GetDataFromDatabase();\nSession["MyDataSet"] = myDataSet;

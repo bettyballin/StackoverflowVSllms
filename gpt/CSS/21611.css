@@ -1,0 +1,1 @@
+.content {\n    position: relative;\n}\n\n#image_container {\n    position: relative;\n    width: 405px;\n    float: left;\n    height: 600px;\n}\n\n#taggable {\n    position: relative;\n    top: 0;\n    left: 0;\n}\n\n#taggable img {\n    display: block; /* Ensures the image is treated as a block element */\n}

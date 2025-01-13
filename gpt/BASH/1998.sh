@@ -1,0 +1,1 @@
+# Load the configuration in your script\n   . /path/to/db_config.conf\n   \n   sqlplus $DB_USER/$DB_PASSWORD@your_database

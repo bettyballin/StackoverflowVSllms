@@ -1,1 +1,0 @@
-SELECT page.ID, page.content, count(*) AS uniquetags\nFROM\n   (  SELECT DISTINCT page.content, page.ID, page-tag.tag-id \n      FROM page INNER JOIN page-tag ON page.ID=page-tag.page-ID \n      WHERE page-tag.tag-id IN (1, 3, 8) \n   )\n    GROUP BY page.ID

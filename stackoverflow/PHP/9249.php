@@ -1,1 +1,0 @@
-<?php\n$x = new StdClass();\n$x->{'todo-list'} = 'fred';\nvar_dump($x);

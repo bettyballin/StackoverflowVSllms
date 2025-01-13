@@ -1,0 +1,1 @@
+pbpaste | your_command_here

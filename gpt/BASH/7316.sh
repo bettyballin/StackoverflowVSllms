@@ -1,0 +1,1 @@
+# Install Certbot\nsudo apt-get update\nsudo apt-get install certbot python3-certbot-nginx\n\n# Obtain a certificate\nsudo certbot --nginx -d yourdomain.com -d www.yourdomain.com\n\n# Automatically renew certificates\nsudo systemctl enable certbot.timer\nsudo systemctl start certbot.timer

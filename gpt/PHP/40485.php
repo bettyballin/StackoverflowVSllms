@@ -1,0 +1,1 @@
+// Start output buffering\nob_start();\nprint_r($_SESSION['your_array']);\n$output = ob_get_clean();\necho $output;

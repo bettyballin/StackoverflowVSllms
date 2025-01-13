@@ -1,1 +1,0 @@
-void main(void){\n    int c = 2;\n}

@@ -1,0 +1,1 @@
+USE [YourDatabaseName];\nGO\n\n-- Truncate the transaction log\nBACKUP LOG [YourDatabaseName] WITH TRUNCATE_ONLY;\nGO\n\n-- Shrink the log file\nDBCC SHRINKFILE (N'YourLogFileName_Log', 1);\nGO

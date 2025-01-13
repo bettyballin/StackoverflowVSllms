@@ -1,0 +1,1 @@
+<?php\nclass MyThread extends Thread {\n    public function run() {\n        echo "Hello from thread " . $this->getThreadId() . "\n";\n    }\n}\n\n$thread = new MyThread();\n$thread->start();\n$thread->join();\n?>

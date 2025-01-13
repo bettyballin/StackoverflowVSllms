@@ -1,0 +1,1 @@
+-- Example of linking a custom profile table with Membership user table\nCREATE TABLE CustomUserProfile (\n    CustomUserId INT PRIMARY KEY IDENTITY,\n    UserId UNIQUEIDENTIFIER FOREIGN KEY REFERENCES aspnet_Users(UserId),\n    FullName NVARCHAR(100),\n    Address NVARCHAR(255)\n);

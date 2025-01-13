@@ -1,0 +1,1 @@
+double GetNiceMin(double min, double interval)\n     {\n         return Math.Floor(min / interval) * interval;\n     }\n\n     double GetNiceMax(double max, double interval)\n     {\n         return Math.Ceiling(max / interval) * interval;\n     }

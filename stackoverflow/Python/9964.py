@@ -1,1 +1,0 @@
-[sum(a) for a in zip(*array)]

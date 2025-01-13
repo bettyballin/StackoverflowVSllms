@@ -1,0 +1,1 @@
+/* stop_watch.h */\nstruct data_struct\n{\n    int seconds;\n    void (*func_ptr)(void);\n};\nvoid start_stopwatch(struct data_struct *g_data_struct, pthread_t *thread_id);

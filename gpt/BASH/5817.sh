@@ -1,0 +1,1 @@
+mysql_install_db --user=mysql --datadir=/database/mysql

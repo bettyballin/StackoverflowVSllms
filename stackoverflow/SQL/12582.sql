@@ -1,1 +1,0 @@
-with IDS as (\n    select 1234 from dual\n    union all\n    select 1235 from dual\n)\n\nselect * from TABLE where TABLE.ID in (select * from IDS)

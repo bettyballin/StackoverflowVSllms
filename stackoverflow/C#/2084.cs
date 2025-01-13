@@ -1,1 +1,0 @@
-HttpUtility.HtmlDecode(c.category)

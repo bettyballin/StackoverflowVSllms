@@ -1,0 +1,1 @@
+GRANT EXECUTE ON UTL_SMTP TO your_user;\n   GRANT EXECUTE ON UTL_FILE TO your_user;

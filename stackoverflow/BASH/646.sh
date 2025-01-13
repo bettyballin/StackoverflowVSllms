@@ -1,1 +1,0 @@
-svn export svn://path/to/repository/tags/RELEASE_VERSION /usr/local/application/releases/TIMESTAMP

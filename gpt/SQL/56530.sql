@@ -1,0 +1,1 @@
+SELECT \n    event_name,\n    DATE_FORMAT(event_time, '%l:%i %p') AS formatted_time\nFROM \n    events;

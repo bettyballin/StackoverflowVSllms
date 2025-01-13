@@ -1,0 +1,1 @@
+// index.php\nrequire 'Database.php';\nrequire 'UserModel.php';\n\n$db = new Database();\n$userModel = new UserModel($db);\n\n$user = $userModel->getUserById(1);\nprint_r($user);

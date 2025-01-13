@@ -1,1 +1,0 @@
-grep -L foo *.txt | xargs rm\ngrep -L bar *.txt | xargs rm

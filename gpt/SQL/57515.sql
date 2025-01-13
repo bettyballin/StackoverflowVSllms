@@ -1,0 +1,1 @@
+EXEC msdb.dbo.sp_configure 'show advanced options', 1;\n   RECONFIGURE;\n   EXEC msdb.dbo.sp_configure 'Database Mail XPs', 1;\n   RECONFIGURE;

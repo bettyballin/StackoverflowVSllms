@@ -1,0 +1,1 @@
+// In your business logic class\nusing CommonValidation;\n\npublic class UserService\n{\n    public void CreateUser(string email)\n    {\n        if (!Validator.IsValidEmail(email))\n        {\n            throw new ArgumentException("Invalid email address");\n        }\n        \n        // Proceed with creating the user\n    }\n}

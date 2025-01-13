@@ -1,1 +1,0 @@
-create table spool (key integer, txt varchar(2048), seq integer);\ncreate sequence s_key;\ncreate sequence s_seq;\ncreate schema tox;\ncreate temp table globals (name varchar(10), value varchar(100), primary key(name));

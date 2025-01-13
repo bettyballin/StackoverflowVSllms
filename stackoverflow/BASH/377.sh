@@ -1,1 +1,0 @@
-"NETSH WINS SERVER \\WinsServerName SHOW NAME UserName  03"

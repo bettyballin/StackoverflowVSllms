@@ -1,0 +1,1 @@
+<?php\n$hostname = gethostname();\necho $hostname;\n?>

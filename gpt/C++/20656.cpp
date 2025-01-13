@@ -1,0 +1,1 @@
+#include <jni.h>\n#include <windows.h>\n#include "ConsoleApp.h"\n\nJNIEXPORT void JNICALL Java_ConsoleApp_allocConsole(JNIEnv *env, jobject obj) {\n    AllocConsole();\n    freopen("CONOUT$", "w", stdout);\n    freopen("CONOUT$", "w", stderr);\n    freopen("CONIN$", "r", stdin);\n}

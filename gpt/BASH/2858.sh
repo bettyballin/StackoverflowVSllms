@@ -1,0 +1,1 @@
+aspnet_regiis -pi "MyKeyContainer" "c:\keys\MyKeyContainer.xml"

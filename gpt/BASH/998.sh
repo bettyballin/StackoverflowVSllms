@@ -1,0 +1,1 @@
+# Set stack size limit to 16 MB\nulimit -s 16384\n\n# Compile your program\ng++ -o my_program my_program.cpp

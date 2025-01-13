@@ -1,0 +1,1 @@
+class Program\n{\n    static void Main(string[] args)\n    {\n        IDatabase database = DatabaseFactory.CreateDatabase("sqlserver");\n        database.OpenConnection();\n\n        DataTable result = database.ExecuteQuery("SELECT * FROM YourTable");\n        // Handle the result\n\n        database.CloseConnection();\n    }\n}

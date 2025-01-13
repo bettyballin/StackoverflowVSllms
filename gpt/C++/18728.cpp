@@ -1,0 +1,1 @@
+int x = 5;\n\n// Using x = x + 1\nx = x + 1; // x is now 6\n\n// Using x += 1\nx += 1; // x is now 7

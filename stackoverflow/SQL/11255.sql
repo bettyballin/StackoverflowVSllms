@@ -1,1 +1,0 @@
-select * from table where client_id in \n(select distinct client_id from table order by client_id limit 5)

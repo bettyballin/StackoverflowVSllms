@@ -1,0 +1,1 @@
+use App\Http\Controllers\SubscriptionController;\n\nRoute::get('/subscribe', [SubscriptionController::class, 'showSubscribeForm'])->middleware(['auth']);\nRoute::post('/subscribe', [SubscriptionController::class, 'subscribe'])->middleware(['auth']);

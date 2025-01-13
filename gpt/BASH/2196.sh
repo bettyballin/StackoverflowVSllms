@@ -1,0 +1,1 @@
+# /etc/sysconfig/httpd-envvars\n   export FOO=/bar/baz

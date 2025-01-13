@@ -1,0 +1,1 @@
+curl --data "language=en-US&text=This+is+an+example+text+with+a+error." http://localhost:8010/v2/check

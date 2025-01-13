@@ -1,0 +1,1 @@
+trait NoDynamicProperties {\n    public function __set($name, $value) {\n        throw new Exception("Cannot dynamically add members to a class");\n    }\n}\n\nclass Foo {\n    use NoDynamicProperties;\n    public $bar = 5;\n}\n\n// Usage\n$A = new Foo;\n$A->temp = 10; // This will throw an exceptio

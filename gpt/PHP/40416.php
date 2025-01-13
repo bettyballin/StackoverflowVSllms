@@ -1,0 +1,1 @@
+<?php\n   class YourController extends CI_Controller {\n\n       public function __construct() {\n           parent::__construct();\n           $this->load->helper('loops');\n       }\n\n       public function index() {\n           $array = array('first', 'second', 'third');\n           your_custom_loop_function($array);\n           another_loop_function($array);\n       }\n   }

@@ -1,1 +1,0 @@
-table1.Merge(TempTable, True, MissingSchemaAction.Ignore)

@@ -1,0 +1,1 @@
+// Original\n    public class MyClass\n    {\n        public int MyField;\n    }\n\n    // Changed - This will break the interface.\n    public class MyClass\n    {\n        private int MyField;\n    }

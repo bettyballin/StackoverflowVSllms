@@ -1,0 +1,1 @@
+<?php\n// index.php\n\n// Include the functions file\ninclude 'functions.php';\n\n// Use the functions defined in the functions file\necho greet('World');  // Output: Hello, World!\necho add(5, 3);       // Output: 8\n?>

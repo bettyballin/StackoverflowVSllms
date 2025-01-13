@@ -1,0 +1,1 @@
+SELECT id, date_time \nFROM table \nORDER BY date_time DESC \nLIMIT 1000;

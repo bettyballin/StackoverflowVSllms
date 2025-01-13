@@ -1,1 +1,0 @@
-mysql -u <user> -p < db_backup.dump

@@ -1,0 +1,1 @@
+CREATE TABLE TableNode1\n   (\n       UniqueID int IDENTITY(1,2),\n       ...\n   );\n\n   CREATE TABLE TableNode2\n   (\n       UniqueID int IDENTITY(2,2),\n       ...\n   );

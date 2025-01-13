@@ -1,0 +1,1 @@
+public class ProductsController : Controller\n   {\n       private ApplicationDbContext db = new ApplicationDbContext();\n\n       public ActionResult Index()\n       {\n           var products = db.Products.ToList();\n           return View(products);\n       }\n\n       // Other CRUD actions (Create, Edit, Delete)\n   }

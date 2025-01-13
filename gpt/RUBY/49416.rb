@@ -1,0 +1,1 @@
+require 'open_flash_chart'\n\nmodule MyModule\n  class MyClass\n    def some_method\n      # Now you can use OpenFlashChart functions\n      chart = OpenFlashChart.new\n      # Your code here\n    end\n  end\nend

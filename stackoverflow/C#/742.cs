@@ -1,1 +1,0 @@
-var curs = xmlDoc.SelectNodes("/frbny:DataSet/frbny:Series/frbny:Key/frbny:CURR", manager); 

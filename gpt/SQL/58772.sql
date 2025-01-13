@@ -1,0 +1,1 @@
+CREATE TABLE your_table_name (\n    id INT NOT NULL AUTO_INCREMENT,\n    column1 VARCHAR(255),\n    column2 VARCHAR(255),\n    PRIMARY KEY (id)\n);

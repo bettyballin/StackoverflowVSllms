@@ -1,1 +1,0 @@
-call swapTblNamesInQueryDefs("tblFoo", "tblBar")

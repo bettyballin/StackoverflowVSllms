@@ -1,1 +1,0 @@
-SELECT TOP (@count) * FROM SomeTable

@@ -1,0 +1,1 @@
+string enteredPassword = "userEnteredPassword";\n   string storedHashedPassword = /* Retrieve from database */;\n   bool isPasswordValid = PasswordHelper.VerifyPassword(enteredPassword, storedHashedPassword);

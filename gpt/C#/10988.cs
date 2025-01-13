@@ -1,0 +1,1 @@
+public class Posting\n{\n    [SubSonicPrimaryKey]\n    public Guid InternalId { get; set; }\n    \n    public string Title { get; set; }\n    \n    public string Body { get; set; }\n    \n    public DateTime? PostingDate { get; set; }\n    \n    [SubSonicLazyLoad]\n    public List<Comment> Comments { get; set; }\n}

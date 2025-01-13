@@ -1,1 +1,0 @@
-SELECT OBJECT_NAME(OBJECT_ID) AS NameofConstraint,\nSCHEMA_NAME(schema_id) AS SchemaName,\nOBJECT_NAME(parent_object_id) AS TableName,\ntype_desc AS ConstraintType\nFROM sys.objects\nWHERE type_desc LIKE '%CONSTRAINT'\nAND  OBJECT_NAME(OBJECT_ID) LIKE 'FK_%'

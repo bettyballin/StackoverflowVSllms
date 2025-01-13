@@ -1,0 +1,1 @@
+template <class T>\nclass A {\nprotected:\n    T i;\n};\n\ntemplate <class T>\nclass B : public A<T> {\n    T geti() { return A<T>::i; }\n};

@@ -1,0 +1,1 @@
+editbin /delayload:dwmapi.dll yourdll.dll

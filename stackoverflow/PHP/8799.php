@@ -1,1 +1,0 @@
-echo $var1,$var2,$var3 // comma (echo with multiple arguments)

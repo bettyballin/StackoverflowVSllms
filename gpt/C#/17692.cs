@@ -1,0 +1,1 @@
+[Serializable]\npublic class MyClass\n{\n    public string SerializableProperty { get; set; }\n\n    [NonSerialized]\n    private ReflectPropertyDescriptor nonSerializableProperty;\n\n    // Other properties and methods\n}

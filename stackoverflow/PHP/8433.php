@@ -1,1 +1,0 @@
-$fileName = $_FILES['userfile']['name'];

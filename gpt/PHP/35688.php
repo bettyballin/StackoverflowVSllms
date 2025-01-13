@@ -1,0 +1,1 @@
+$config = include 'config.php';\necho $config['app']['version'];

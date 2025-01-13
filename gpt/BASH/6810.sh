@@ -1,0 +1,1 @@
+// Open BaseX database\n   basex -c "CREATE DB mydb /path/to/your/document.xml"

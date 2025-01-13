@@ -1,0 +1,1 @@
+for (contact in contacts) {\n    if (!existsInDatabase(contact.uniqueIdentifier)) {\n        addToDatabase(contact);\n    } else {\n        existingContact = getFromDatabase(contact.uniqueIdentifier);\n        mergeContacts(existingContact, contact);\n    }\n}

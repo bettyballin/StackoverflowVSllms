@@ -1,1 +1,0 @@
-"CAST(order_number, INT) = 123456"

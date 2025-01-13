@@ -1,1 +1,0 @@
-find . -iname '*.dmg' -exec stat -f '%z' '{}' \; |\n     awk 'BEGIN { s = 0 } {s += $1 } END { print s }'

@@ -1,1 +1,0 @@
-$file = '/tmp/test12345';\nfile_put_contents($file, 'hello');\necho filesize($file), "\n";\nfile_put_contents($file, 'hello world, this is a test');\necho filesize($file), "\n";\nclearstatcache();\necho filesize($file), "\n";

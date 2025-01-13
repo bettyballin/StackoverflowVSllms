@@ -1,0 +1,1 @@
+void IOLog() {\n    return; // Immediately return, effectively disabling logging\n}

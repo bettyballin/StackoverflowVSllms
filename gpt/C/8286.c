@@ -1,0 +1,1 @@
+void function(float *arr);\n\nint main() {\n    function((float[]){1, 2, 3, 4});\n    return 0;\n}\n\nvoid function(float *arr) {\n    // Use the array\n}

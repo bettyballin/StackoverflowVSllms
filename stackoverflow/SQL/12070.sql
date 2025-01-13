@@ -1,1 +1,0 @@
-SELECT\n    Col1,\n    Col2,\n    col3,\n    dbo.fn2(col3) AS Col4\nFROM\n    (\n    SELECT\n        Col1,\n        Col2,\n        dbo.fn1(col2) as Col3\n    FROM\n        TestTable\n    ) foo

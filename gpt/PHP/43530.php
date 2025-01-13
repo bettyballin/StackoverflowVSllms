@@ -1,0 +1,1 @@
+<?php\n    defined('BASEPATH') OR exit('No direct script access allowed');\n\n    class Product {\n        public function __construct() {\n            // Your initialization code here\n        }\n\n        public function get_products($limit = 20) {\n            // Code to fetch and return products\n        }\n    }

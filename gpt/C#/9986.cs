@@ -1,0 +1,1 @@
+using Microsoft.AspNet.SignalR;\n\n    public class PriceUpdateHub : Hub\n    {\n        public void UpdatePrice(string productId, string vendorId, decimal newPrice)\n        {\n            Clients.All.updatePrice(productId, vendorId, newPrice);\n        }\n    }

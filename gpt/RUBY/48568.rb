@@ -1,0 +1,1 @@
+describe "access control" do\n  it "should have proper access controls" do\n    expect(lambda { get :index }).to have_access_control(allowed: [:super_admin], disallowed: [:admin, :editor, :user])\n  end\nend

@@ -1,1 +1,0 @@
-try {\n    yourstring = Regex.Replace(yourstring, "(<[be]pt[^>]+>.+?</[be]pt>)", "");\n} catch (ArgumentException ex) {\n    // Syntax error in the regular expression\n}

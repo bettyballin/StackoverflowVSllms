@@ -1,0 +1,1 @@
+Dim i As Integer\nDim n As Integer = 10\nDim s As Integer = 1\n\nFor i = 0 To n Step s\n    Console.WriteLine(i)\nNext

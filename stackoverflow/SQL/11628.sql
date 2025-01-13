@@ -1,1 +1,0 @@
-SELECT 'attribute', value FROM table WHERE username ='$u'

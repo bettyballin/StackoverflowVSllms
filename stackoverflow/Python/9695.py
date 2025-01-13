@@ -1,1 +1,0 @@
-dict((myTuple[1], index) for index, myTuple in enumerate(l))\n\n>>> l = [(1, 2, 3), (4, 5, 6), (1, 4, 6)]\n>>> dict((myTuple[1], index) for index, myTuple in enumerate(l))\n{2: 0, 4: 2, 5: 1}

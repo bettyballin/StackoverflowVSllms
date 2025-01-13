@@ -1,0 +1,1 @@
+sort_params = params[:sort].split(',').map { |s| s.split(':') }\n# sort_params will be [['author', 'asc'], ['datepublished', 'desc']]

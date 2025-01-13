@@ -1,0 +1,1 @@
+# /etc/apache2/envvars.d/foo.conf\n   export FOO=/bar/baz

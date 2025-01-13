@@ -1,0 +1,1 @@
+<web-app>\n        <servlet>\n            <servlet-name>ssi</servlet-name>\n            <servlet-class>org.apache.catalina.ssi.SSIServlet</servlet-class>\n        </servlet>\n        <servlet-mapping>\n            <servlet-name>ssi</servlet-name>\n            <url-pattern>*.shtml</url-pattern>\n        </servlet-mapping>\n    </web-app>

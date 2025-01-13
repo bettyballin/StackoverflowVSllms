@@ -1,1 +1,0 @@
-incoming = 'arbit'\nresult = '{0} hello world {0} hello world {0}'.format(incoming)

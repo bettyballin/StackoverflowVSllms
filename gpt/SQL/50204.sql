@@ -1,0 +1,1 @@
+INSERT INTO new_table_index (date, index_id)\n   SELECT old_table.date, new_table.index_id\n   FROM old_table\n   JOIN new_table ON old_table.record_id = new_table.record_id \n                  AND old_table.data_field = new_table.data_field;

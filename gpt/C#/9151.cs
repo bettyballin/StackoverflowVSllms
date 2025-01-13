@@ -1,0 +1,1 @@
+using System.ComponentModel;\nusing System.Windows.Forms;\n\nclass NewCombo : ComboBox\n{\n    public NewCombo()\n    {\n        DropDownItems = 50;\n    }\n\n    [DefaultValue(50)]\n    public new int DropDownItems\n    {\n        get { return base.MaxDropDownItems; }\n        set { base.MaxDropDownItems = value; }\n    }\n}

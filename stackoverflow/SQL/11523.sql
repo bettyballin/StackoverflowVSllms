@@ -1,1 +1,0 @@
-Select DateAdd(day, -1, dateadd(qq, DateDiff(qq, 0, @Date), 0)) 

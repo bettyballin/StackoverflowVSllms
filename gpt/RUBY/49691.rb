@@ -1,0 +1,1 @@
+class PagesController < ApplicationController\n  def show\n    # Your logic here\n    @scroll_to_section = params[:section] if params[:section]\n  end\nend

@@ -1,0 +1,1 @@
+public class HomeController : Controller\n   {\n       [HttpPost]\n       public JsonResult GetData()\n       {\n           var data = new { Name = "John", Age = 30 };\n           return Json(data);\n       }\n   }

@@ -1,1 +1,0 @@
-IntPtr handle = Process.GetCurrentProcess().MainWindowHandle;

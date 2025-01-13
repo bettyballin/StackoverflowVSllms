@@ -1,0 +1,1 @@
+<?php\n$columns = ['column1', 'column2', 'column3'];\n$key = implode('_', $columns); // e.g., "column1_column2_column3"\n\n$array = [\n    $key => 'some value'\n];\n\necho $array[$key]; // Outputs: some value\n?>

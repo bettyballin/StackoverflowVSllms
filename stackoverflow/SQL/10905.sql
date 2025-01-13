@@ -1,1 +1,0 @@
-WHERE\n    t.existsNode( '/*//*' ) = 0

@@ -1,0 +1,1 @@
+proc sql;\n    create table Server003.CustomerList_Empty like Server003.CustomerList;\n    delete from Server003.CustomerList_Empty; /* Ensure it's empty */\nquit;\n\ndata Server003.CustomerList;\n    set Server003.CustomerList_Empty;\nrun;

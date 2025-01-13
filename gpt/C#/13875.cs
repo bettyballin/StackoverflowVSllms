@@ -1,0 +1,1 @@
+// Pseudo-code representation\nAdminLanguagesPage adminLanguages = new AdminLanguagesPage();\nadminLanguages.navigateTo();\nadminLanguages.addLanguage("es-ES");\nadminLanguages.addLanguage("zh-CN");

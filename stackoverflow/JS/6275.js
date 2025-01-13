@@ -1,1 +1,0 @@
-$get("isAgeSelected ").checked == true

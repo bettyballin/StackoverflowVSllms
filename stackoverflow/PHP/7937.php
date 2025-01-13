@@ -1,1 +1,0 @@
-function get_posts_by_ids( $postarray = null ) {\n    if( is_array( $postarray ) )\n        foreach( $postarray as $post ) {\n            $post_details = get_post( $post[0] );\n\n            // Title\n            echo $post_details->post_title;\n            //Body\n            echo $post_details->post_content ;\n        }\n}

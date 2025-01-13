@@ -1,1 +1,0 @@
-#include <iostream>\nint main() {\n    char c = 123;\n    std::cout << std::hex << int(c) << std::endl;\n}

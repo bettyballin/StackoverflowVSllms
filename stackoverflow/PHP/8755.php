@@ -1,1 +1,0 @@
-$safe_string_to_store = base64_encode(serialize($data));

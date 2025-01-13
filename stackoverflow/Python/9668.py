@@ -1,1 +1,0 @@
-re = "[1-9][0-9]{"\nre += str(log10(a)-1)\nre += "-"\nre += str(log10(b)-1)\nre += "}"

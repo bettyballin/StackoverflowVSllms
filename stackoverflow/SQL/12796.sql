@@ -1,1 +1,0 @@
-CASE WHEN title LIKE 'The %' THEN stuff(title,1,4,'') + ', The' ELSE title END

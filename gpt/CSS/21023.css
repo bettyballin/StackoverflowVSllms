@@ -1,0 +1,1 @@
+ul.menu {\n       list-style-type: none;\n       margin: 0;\n       padding: 0;\n       overflow: hidden; /* to contain the floats */\n   }\n\n   ul.menu li {\n       float: left;\n       /* width: auto; */ /* Optional, depending on your needs */\n       margin: 0 10px;\n       padding: 10px;\n   }\n\n   ul.menu li.right {\n       float: right;\n   }

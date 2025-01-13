@@ -1,0 +1,1 @@
+.PHONY: all clean\n    all: myproject\n\n    myproject: main.o utils.o\n        $(CC) -o myproject main.o utils.o\n\n    main.o: main.cpp\n        $(CC) -c main.cpp\n\n    utils.o: utils.cpp\n        $(CC) -c utils.cpp\n\n    clean:\n        rm -f myproject *.o

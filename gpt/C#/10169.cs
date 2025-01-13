@@ -1,0 +1,1 @@
+<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="YourNamespace.Default" %>\n<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">\n    <!-- Your page content goes here -->\n</asp:Content>

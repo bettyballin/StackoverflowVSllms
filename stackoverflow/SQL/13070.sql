@@ -1,1 +1,0 @@
-DATEADD(second, 1, @SEAL_DATE)

@@ -1,0 +1,1 @@
+// Enable mbstring in your PHP configuration\nextension=mbstring\n\n// Example usage\n$length = mb_strlen($yourString, 'UTF-8');

@@ -1,1 +1,0 @@
-getEvents: function() \n{\n    if (this._events == null) \n    {\n        this._events = new Sys.EventHandlerList();\n    }\n\n    return this._events;\n},

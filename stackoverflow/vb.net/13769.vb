@@ -1,1 +1,0 @@
-Logging.DebugEvent.Raise(Me.GetType.Namespace, Reflection.MethodBase.GetCurrentMethod().Name, _\n                                 "Report data recieved from database")

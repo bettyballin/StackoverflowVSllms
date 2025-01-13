@@ -1,0 +1,1 @@
+/* General styles for all browsers */\n.sidebar {\n  background: linear-gradient(orange, tan);\n}\n\n/* Opera-specific styles */\n@supports (-o-object-fit: fill) {\n  .sidebar {\n    background: -o-linear-gradient(orange, tan);\n  }\n}

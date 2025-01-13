@@ -1,0 +1,1 @@
+@echo off\nyour_executable.exe\npause

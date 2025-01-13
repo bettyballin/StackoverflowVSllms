@@ -1,0 +1,1 @@
+using System.Diagnostics;\n    using System.Security.Permissions;\n\n    [PerformanceCounterPermission(SecurityAction.RequestMinimum, PermissionAccess = PerformanceCounterPermissionAccess.Instrument)]

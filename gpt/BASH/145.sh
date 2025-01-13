@@ -1,0 +1,1 @@
+eval "$(ssh-agent -s)"\n     ssh-add ~/.ssh/id_rsa

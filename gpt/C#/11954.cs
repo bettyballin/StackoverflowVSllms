@@ -1,0 +1,1 @@
+using System.Linq;\nusing System.Collections.Generic;\n\nIList<int> unsortedList = new List<int> { 9, 1, 5, 7, 3, 11 };\nIList<int> sortedList = unsortedList.OrderBy(x => x).ToList();\nint index = sortedList.BinarySearch(5);\nConsole.WriteLine(index); // Output: 2

@@ -1,1 +1,0 @@
-Public Class MySettingsChanger\n    Public Shared Sub SetConnectionString(ByVal cnnString As String)\n        My.Settings.RunTimeConnectionString = cnnString\n    End Sub\nEnd Class

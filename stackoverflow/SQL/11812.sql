@@ -1,1 +1,0 @@
-update table1 set thedate=\n( select max(thedate) from\n  ( select id, thedate,\n           sum(amount1) over (partition by id  order by thedate desc) cumsum\n    from table2\n  ) v\n  where v.cumsum >= 100\n  and v.id = table1.id\n)

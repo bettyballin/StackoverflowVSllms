@@ -1,0 +1,1 @@
+SELECT ?tag (COUNT(?tag) AS ?count)\nWHERE {\n  ?r ns9:taggedWithTag ?tagresource.\n  ?tagresource ns9:name ?tag\n}\nGROUP BY ?tag\nORDER BY DESC(?count)\nLIMIT 5000

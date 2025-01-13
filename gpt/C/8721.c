@@ -1,0 +1,1 @@
+#include <stdio.h>\nextern int testlib(void);

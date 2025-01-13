@@ -1,0 +1,1 @@
+int main()\n    {\n        double calcIn[] = { 1.0, 2.0, 3.0 };\n        int numIn = sizeof(calcIn) / sizeof(calcIn[0]);\n        double calcOut[numIn];\n\n        doCalc(calcIn, numIn, calcOut);\n\n        for (int i = 0; i < numIn; i++)\n        {\n            std::cout << "calcOut[" << i << "] = " << calcOut[i] << std::endl;\n        }\n\n        return 0;\n    }

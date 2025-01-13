@@ -1,0 +1,1 @@
+string val = MyService1.HelloWorld2();\nConsole.WriteLine(val);

@@ -1,1 +1,0 @@
-SELECT\n     T1.id,\n     T1.business_key,\n     T1.result\nFROM\n     dbo.My_Table T1\nLEFT OUTER JOIN dbo.My_Table T2 ON\n     T2.business_key = T1.business_key AND\n     T2.id > T1.id\nWHERE\n     T2.id IS NULL

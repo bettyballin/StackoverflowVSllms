@@ -1,0 +1,1 @@
+SELECT id, poly \n   FROM tbl_test \n   WHERE ST_Contains(poly, ST_GeomFromText('POINT(9 2)', 4326));

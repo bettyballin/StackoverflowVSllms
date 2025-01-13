@@ -1,0 +1,1 @@
+WITH TimereportsOnDate AS (\n    SELECT  *\n    FROM    timereports\n    WHERE   date = '2009-05-04'\n)\nSELECT  *\nFROM    employees e\nLEFT JOIN TimereportsOnDate t\nON      e.id = t.employee_id

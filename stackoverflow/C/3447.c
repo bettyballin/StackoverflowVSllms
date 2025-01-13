@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint n;\nscanf ("%d",&n);

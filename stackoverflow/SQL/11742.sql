@@ -1,1 +1,0 @@
-insert into tab2 (field1, field2, field3, field4) \nselect field1, field2, field3, 'New Value' from tab1

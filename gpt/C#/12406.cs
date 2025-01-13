@@ -1,0 +1,1 @@
+public void SomeMethod()\n{\n    var context = HttpContext.Current;\n    if (context.Items["RequestSpecificData"] == null)\n    {\n        context.Items["RequestSpecificData"] = new SomeData();\n    }\n\n    var requestData = (SomeData)context.Items["RequestSpecificData"];\n    // Your logic here\n}

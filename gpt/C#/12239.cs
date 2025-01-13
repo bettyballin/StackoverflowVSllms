@@ -1,0 +1,1 @@
+formFields.SetField("checkboxFieldName", "Yes"); // or "On" depending on the PDF form definitio

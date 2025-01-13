@@ -1,0 +1,1 @@
+SELECT \n    DATEPART(YEAR, DateTime) AS Year, \n    DATEPART(WEEK, DateTime) AS Week, \n    ApplicationName, \n    MethodName, \n    AVG(TimeInMs) AS AvgTimeInMs\nFROM \n    YourTableName\nWHERE \n    DateTime >= DATEADD(WEEK, -10, GETDATE())\nGROUP BY \n    DATEPART(YEAR, DateTime), \n    DATEPART(WEEK, DateTime), \n    ApplicationName, \n    MethodName;

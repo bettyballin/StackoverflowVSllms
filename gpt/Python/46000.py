@@ -1,0 +1,1 @@
+from django.db import models\n\nclass Resume(models.Model):\n    file = models.FileField(upload_to='resumes/')  # Save files to 'resumes/' directory\n    uploaded_at = models.DateTimeField(auto_now_add=True)

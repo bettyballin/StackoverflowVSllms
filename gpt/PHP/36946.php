@@ -1,0 +1,1 @@
+// Password hashing during registration\n$passwordHash = password_hash($password, PASSWORD_BCRYPT);\n\n// Password verification during login\nif (password_verify($password, $storedHash)) {\n    // Password is correct\n}

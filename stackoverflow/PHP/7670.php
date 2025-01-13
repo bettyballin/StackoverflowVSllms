@@ -1,1 +1,0 @@
-$_POST['name'];\n$_POST['password'];

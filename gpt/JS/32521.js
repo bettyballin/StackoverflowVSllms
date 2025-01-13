@@ -1,0 +1,1 @@
+$("#Main").load("login.html", function(response, status, xhr) {\n    if (status == "error") {\n        // File does not exist, redirect to error page\n        window.location.href = "error.html";\n    } else {\n        // File exists, proceed with other logic if needed\n        console.log("File loaded successfully");\n    }\n});

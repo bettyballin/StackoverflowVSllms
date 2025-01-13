@@ -1,0 +1,1 @@
+# config/initializers/oauth.rb in App-B\n   client = OAuth2::Client.new('APP_A_CLIENT_ID', 'APP_A_CLIENT_SECRET', site: 'https://app-a.com')

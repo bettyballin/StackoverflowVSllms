@@ -1,0 +1,1 @@
+using System.ServiceProcess;\n\npublic class MyService : ServiceBase\n{\n    protected override void OnStart(string[] args)\n    {\n        // Initialization code\n    }\n\n    protected override void OnStop()\n    {\n        // Cleanup code\n    }\n\n    public static void Main()\n    {\n        ServiceBase.Run(new MyService());\n    }\n}

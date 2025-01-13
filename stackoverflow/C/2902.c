@@ -1,1 +1,0 @@
-int EVP_CIPHER_set_asn1_iv(EVP_CIPHER_CTX *c, ASN1_TYPE *type)\n{\nint i=0,j;\n\nif (type != NULL)\n    {\n    j=EVP_CIPHER_CTX_iv_length(c);\n    OPENSSL_assert(j <= sizeof c->iv);\n    i=ASN1_TYPE_set_octetstring(type,c->oiv,j);\n    }\nreturn(i);\n}

@@ -1,1 +1,0 @@
-class EthercatDatagram(Structure):\n    pass\nEthercatDatagram._fields_ = [\n    ("header", EthercatDatagramHeader),\n    ("packet_data_length", c_int),\n    ("packet_data", c_char_p),\n    ("work_count", c_ushort),\n    ("next_command", POINTER(EthercatDatagram))]

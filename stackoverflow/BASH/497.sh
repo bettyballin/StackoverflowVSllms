@@ -1,1 +1,0 @@
-ssh -L 8022:myinsideserver:22 paul@myoutsideserver

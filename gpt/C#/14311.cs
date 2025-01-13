@@ -1,0 +1,1 @@
+public class Ticket\n   {\n       public int Id { get; set; }\n       public string Content { get; set; }\n       public bool IsLocked { get; set; }\n       public string LockedBy { get; set; }\n       public DateTime? LockTime { get; set; }\n   }

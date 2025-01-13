@@ -1,0 +1,1 @@
+-- Example using standard SQL functions\n    SELECT name, COALESCE(phone, 'N/A') AS phone\n    FROM contacts;

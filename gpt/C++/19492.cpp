@@ -1,0 +1,1 @@
+#include "CppCliWrapper.h"\n#include "NativeClass.h"\n\nnamespace CppCliWrapper {\n\n    ManagedClass::ManagedClass() {\n        m_nativeClass = new NativeClass();\n    }\n\n    ManagedClass::~ManagedClass() {\n        delete m_nativeClass;\n    }\n\n    void ManagedClass::DoSomething() {\n        m_nativeClass->DoSomething();\n    }\n}

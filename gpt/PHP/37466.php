@@ -1,0 +1,1 @@
+$request = new Zend_Controller_Request_Http();\n$fullUrl = $request->getScheme() . '://' . $request->getHttpHost() . $request->getRequestUri();\n\necho $fullUrl;

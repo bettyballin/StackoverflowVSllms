@@ -1,0 +1,1 @@
+CREATE INDEX idx_comments_article_id ON comments (article_id);\nCREATE INDEX idx_comments_parent_comment_id ON comments (parent_comment_id);\nCREATE INDEX idx_comments_timestamp ON comments (timestamp);

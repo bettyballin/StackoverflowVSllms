@@ -1,1 +1,0 @@
-this.masker.mouseEnabled = false; //set on this.masker

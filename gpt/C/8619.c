@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint main() {\n    unsigned char myArray[] = { 0x00, 0x11, 0x22 };\n\n    for (int i = 0; i < sizeof(myArray); i++) {\n        printf("myArray[%d] = 0x%02x\n", i, myArray[i]);\n    }\n\n    return 0;\n}

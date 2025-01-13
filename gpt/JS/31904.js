@@ -1,0 +1,1 @@
+$('#right').load('textes.html #nicolas', function() {\n    $('#right').append('<hr>'); // Append rule after nicolas content\n    $('#right').load('textes.html #antoine', function() {\n        $('#right').append('<hr>'); // Append rule after antoine content, if needed\n    });\n});

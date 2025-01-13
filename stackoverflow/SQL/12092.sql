@@ -1,1 +1,0 @@
-DELETE FROM tRealtyTrac\nWHERE creation in( select top 103000 creation from tRealtyTrac order by creation)

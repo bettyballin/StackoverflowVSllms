@@ -1,1 +1,0 @@
-JSON.parse('[{"some":"json"}]');\nJSON.stringify([{some:'json'}]);

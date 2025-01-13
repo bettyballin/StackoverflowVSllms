@@ -1,0 +1,1 @@
+svn copy http://svn.example.com/repos/project/trunk \\n   http://svn.example.com/repos/project/branches/release-1.0 \\n   -m "Creating branch for release 1.0"

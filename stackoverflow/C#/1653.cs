@@ -1,1 +1,0 @@
-List<string> fields = values.Select(i => i.ToString()).ToList();

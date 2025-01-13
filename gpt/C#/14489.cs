@@ -1,0 +1,1 @@
+// Example code to increment a ViewState value and ensure it's being updated correctly\nif (ViewState["Counter"] == null)\n{\n    ViewState["Counter"] = 1;\n}\nelse\n{\n    ViewState["Counter"] = (int)ViewState["Counter"] + 1;\n}\n\n// Output the ViewState value to debug\nResponse.Write("ViewState Counter: " + ViewState["Counter"]);

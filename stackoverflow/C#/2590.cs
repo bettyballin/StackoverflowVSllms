@@ -1,1 +1,0 @@
-/// <summary>\n/// returns "safe" URL, stripping anything outside normal charsets for URL\n/// </summary>\npublic static string SanitizeUrl(string url)\n{\n    return Regex.Replace(url, @"[^-A-Za-z0-9+&@#/%?=~_|!:,.;\(\)]", "");\n}

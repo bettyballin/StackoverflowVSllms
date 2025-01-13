@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        ScriptManager.GetCurrent(this.Page).RegisterAsyncPostBackControl(DropDown1);\n    }\n}\n\nprotected void DropDown1_SelectedIndexChanged(object sender, EventArgs e)\n{\n    // Your logic to handle the selected index change\n    UpdatePanel1.Update();\n}

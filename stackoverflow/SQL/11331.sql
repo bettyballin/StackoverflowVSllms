@@ -1,1 +1,0 @@
-INSERT INTO NewMember(A, B, C, D)\nSELECT A, B, C, D\nFROM tbl_member

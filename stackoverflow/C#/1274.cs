@@ -1,1 +1,0 @@
-try\n{\n    // parse & compare dates\n    string randomDt = "01/01/2000 ";\n    args.IsValid = DateTime.Parse(randomDt + txtClose.Text) > DateTime.Parse(randomDt + txtReady.Text);\n}\ncatch(Exception /*ex*/)\n{\n    // exception is assumed to be invalid times entered\n    args.IsValid = false;\n}

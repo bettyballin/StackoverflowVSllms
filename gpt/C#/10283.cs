@@ -1,0 +1,1 @@
+// Using nHibernate to create a safe query\nvar session = sessionFactory.OpenSession();\nvar criteria = session.CreateCriteria(typeof(MyEntity))\n                      .Add(Restrictions.Like("PropertyName", searchTerm, MatchMode.Anywhere));\nvar results = criteria.List<MyEntity>();

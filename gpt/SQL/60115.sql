@@ -1,0 +1,1 @@
+CREATE TABLE Authors (\n    AuthorID INT PRIMARY KEY,\n    Name NVARCHAR(255),\n    Bio TEXT\n);

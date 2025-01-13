@@ -1,0 +1,1 @@
+CREATE TABLESPACE my_tablespace\n   DATAFILE 'X:\oracle\oradata\mydb\mydatafile.dbf' SIZE 100M\n   AUTOEXTEND ON NEXT 10M MAXSIZE UNLIMITED;

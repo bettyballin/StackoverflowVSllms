@@ -1,0 +1,1 @@
+CREATE TABLE Users (\n       UserID INT PRIMARY KEY,\n       FirstName VARCHAR(50),\n       LastName VARCHAR(50)\n   );\n\n   -- Example data\n   INSERT INTO Users (UserID, FirstName, LastName)\n   VALUES\n   (1, 'Bill', 'Smith'),\n   (2, 'William', 'Smith'),\n   (3, 'Billy', 'Smith'),\n   (4, 'Willy', 'Smith'),\n   (5, 'Joe', 'Doe'),\n   (6, 'Joseph', 'Doe');

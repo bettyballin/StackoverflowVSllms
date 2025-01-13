@@ -1,0 +1,1 @@
+// main.cpp\n   #include <iostream>\n\n   // Function declaration\n   extern "C" void hello();\n\n   int main() {\n       hello();\n       return 0;\n   }

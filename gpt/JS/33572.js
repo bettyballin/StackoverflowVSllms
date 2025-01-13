@@ -1,0 +1,1 @@
+function getList(data) {\n    alert(data.length);\n    for (var i = 0; i < data.length; i++) {\n        var val = data[i];\n        console.log(val); // Process each item as needed\n    }\n}

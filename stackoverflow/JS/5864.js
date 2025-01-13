@@ -1,1 +1,0 @@
-$("#droptarget:has(div.widget)")

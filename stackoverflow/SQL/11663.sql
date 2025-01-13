@@ -1,1 +1,0 @@
-if len(@l_author) > 0\nset @sql =  @sql + ' and author like ''%''+@author+''%'''\n\nEXECUTE sp_executesql  @sql, N'@author varchar(100)', @L_author

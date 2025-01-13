@@ -1,0 +1,1 @@
+class Parent\n{\n    public string val = "Parent";\n\n    public void getValue()\n    {\n        Console.WriteLine(this.val);\n    }\n}\n\nclass Child : Parent\n{\n    public string val = "Child";\n}\n\nChild child = new Child();\nchild.getValue(); // Output: Parent

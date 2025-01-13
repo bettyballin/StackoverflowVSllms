@@ -1,0 +1,1 @@
+using Serilog;\n\n    var log = new LoggerConfiguration()\n        .WriteTo.Console()\n        .WriteTo.File("logs/metrics.txt", rollingInterval: RollingInterval.Day)\n        .CreateLogger();\n\n    log.Information("ItemsProcessed: {ItemsProcessed}", itemsProcessed);\n    log.Information("LastItemProcessedTime: {LastItemProcessedTime}", DateTime.Now);

@@ -1,0 +1,1 @@
+$servername = "localhost";\n    $username = "root";\n    $password = "your_password";\n    $dbname = "your_database";\n    $port = 3309;\n\n    $conn = new mysqli($servername, $username, $password, $dbname, $port);\n\n    if ($conn->connect_error) {\n        die("Connection failed: " . $conn->connect_error);\n    }

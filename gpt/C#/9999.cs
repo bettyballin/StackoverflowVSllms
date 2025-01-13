@@ -1,0 +1,1 @@
+using (var context = new YourDataContext())\n{\n    var query = from f in context.Foos\n                where (from fb in context.FooBars\n                       where fb.BarId == 1000\n                       select fb.FooId).Contains(f.FooId)\n                select f;\n\n    var result = query.ToList();\n}

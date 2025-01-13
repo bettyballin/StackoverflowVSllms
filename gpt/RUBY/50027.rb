@@ -1,0 +1,1 @@
+config.action_controller.session_store = :file_store

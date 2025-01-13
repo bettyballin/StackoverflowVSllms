@@ -1,1 +1,0 @@
-Dim x as String\nx = "Hello world!"\n\nMsgbox x\n// shows "Hello world!"\n\nMsgbox "x"\n// shows "x"

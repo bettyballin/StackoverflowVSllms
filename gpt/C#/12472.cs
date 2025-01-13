@@ -1,0 +1,1 @@
+using (var context = new DataContext("YourConnectionString"))\n   {\n       var users = context.GetTable<User>().ToList();\n       foreach (var user in users)\n       {\n           Console.WriteLine(user.Name);\n       }\n   }

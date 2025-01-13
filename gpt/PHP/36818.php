@@ -1,0 +1,1 @@
+<?php\n// Change the directory to DIR\nchdir(__DIR__ . '/DIR');\n\n// Now include main.php\ninclude 'main.php';\n?>

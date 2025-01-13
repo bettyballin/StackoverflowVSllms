@@ -1,0 +1,1 @@
+string xsdFilePath = "path_to_your_xsd_file.xsd";\n   string connectionString = "your_sql_server_connection_string";\n\n   SqlSchemaGenerator.GenerateSqlTablesFromDataSet(xsdFilePath, connectionString);

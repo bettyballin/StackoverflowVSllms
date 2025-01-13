@@ -1,0 +1,1 @@
+[Test]\npublic void CreateProduct_ShouldReturnNewProductId()\n{\n    // Arrange\n    var productDal = new ProductDAL();\n    var newProduct = new Product { Name = "Test Product" };\n\n    // Act\n    int newProductId = productDal.Create(newProduct);\n\n    // Assert\n    Assert.Greater(newProductId, 0);\n\n    // Cleanup\n    productDal.Delete(newProductId);\n}

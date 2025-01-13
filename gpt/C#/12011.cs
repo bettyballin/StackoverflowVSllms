@@ -1,0 +1,1 @@
+// Set the current culture\n   Thread.CurrentThread.CurrentUICulture = new CultureInfo("fr-FR");\n\n   // Accessing a localized string resource\n   string welcomeMessage = Properties.Resources.WelcomeMessage;

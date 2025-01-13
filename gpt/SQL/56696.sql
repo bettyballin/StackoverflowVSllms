@@ -1,0 +1,1 @@
+CREATE TABLE temp1 AS\nSELECT t1.cust_id, t1.invoice_amt, t2.payment_date\nFROM table_1 t1\nJOIN table_2 t2 ON t1.cust_id = t2.cust_id;

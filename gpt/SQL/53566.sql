@@ -1,0 +1,1 @@
+SELECT * FROM your_table\nWHERE YEAR(your_datetime_column) = 2023\nAND MONTH(your_datetime_column) = 10;

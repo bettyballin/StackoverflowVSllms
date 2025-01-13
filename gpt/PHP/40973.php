@@ -1,0 +1,1 @@
+class User {\n       public function getAllUsers() {\n           $db = new Database();\n           $result = $db->query("SELECT * FROM users");\n           $users = [];\n\n           while ($row = $result->fetch_assoc()) {\n               $users[] = $row;\n           }\n\n           return $users;\n       }\n   }

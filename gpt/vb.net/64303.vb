@@ -1,0 +1,1 @@
+' Navigate to another page with query string\n   Response.Redirect("NextPage.aspx?UserName=JohnDoe")\n\n   ' Retrieve value from query string\n   Dim userName As String = Request.QueryString("UserName")

@@ -1,0 +1,1 @@
+CREATE TABLE PasswordResetTokens (\n    Id INT PRIMARY KEY IDENTITY,\n    UserId INT NOT NULL,\n    Token NVARCHAR(64) NOT NULL,\n    ExpirationTime DATETIME NOT NULL,\n    CONSTRAINT FK_User FOREIGN KEY (UserId) REFERENCES Users(Id)\n);

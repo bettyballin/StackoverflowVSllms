@@ -1,1 +1,0 @@
-SELECT\n     my_column\nFROM\n     My_Table\nWHERE\n     @my_string LIKE '%|' + my_column + '|%'

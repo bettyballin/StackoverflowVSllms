@@ -1,0 +1,1 @@
+SELECT s.sample_id, o.full_name\nFROM (\n    SELECT sample_id, authorised_by\n    FROM lims.sample\n    WHERE sample_template_id = 200\n) s\nLEFT JOIN (\n    SELECT operator_id AS authorised_by, full_name\n    FROM lims.operator\n) o\nON s.authorised_by = o.authorised_by;

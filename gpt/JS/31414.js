@@ -1,0 +1,1 @@
+// Save data\n   localStorage.setItem('article_4', htmlContent);\n\n   // Retrieve data\n   var cachedContent = localStorage.getItem('article_4');

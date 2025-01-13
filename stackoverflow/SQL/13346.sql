@@ -1,1 +1,0 @@
-CREATE TRIGGER tigger ON myTable FOR DELETE\nAS \nupdate myTable \nset id = id - (select count(*) from deleted d where d.id < t.id)  \nfrom myTable t

@@ -1,0 +1,1 @@
+<configuration>\n  <system.serviceModel>\n    <serviceHostingEnvironment aspNetCompatibilityEnabled="true" />\n  </system.serviceModel>\n</configuration>

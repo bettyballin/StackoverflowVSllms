@@ -1,0 +1,1 @@
+/* Ensure the container div does not collapse */\n.container {\n    overflow: hidden; /* or use clearfix method if needed */\n}\n\n/* Floated divs */\n.floated {\n    float: left;\n    /* Optional: Add a specific width or ensure dynamic sizing */\n    width: auto; /* Allow width to adjust based on content */\n    display: inline; /* Inline display to prevent block rendering */\n}

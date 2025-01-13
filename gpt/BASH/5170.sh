@@ -1,0 +1,1 @@
+sudo apt-get update\n   sudo apt-get install sqlite3\n   sudo apt-get install php-sqlite3

@@ -1,1 +1,0 @@
-var dataString = 'message=' + message;

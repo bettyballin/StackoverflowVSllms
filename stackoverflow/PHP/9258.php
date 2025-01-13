@@ -1,1 +1,0 @@
-$this->db->select('comments.created_at, comments.section_id, comments.submittedby_id, users.username, comments.text, sections.name');\n$this->db->from('comments');\n$this->db->join('users', 'comments.submittedby_id=users.user_id'); \n$this->db->join('sections', 'comments.section_id=sections.id'); \n$this->db->order_by('comments.created_at', 'desc');\n$query = $this->db->get();

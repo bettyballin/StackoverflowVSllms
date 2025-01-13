@@ -1,0 +1,1 @@
+chmod 600 ~/.ec2/id_rsa-gsg-keypair

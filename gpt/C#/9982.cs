@@ -1,0 +1,1 @@
+var context = GlobalHost.ConnectionManager.GetHubContext<PriceUpdateHub>();\n    context.Clients.All.updatePrice(productId, vendorId, newPrice);

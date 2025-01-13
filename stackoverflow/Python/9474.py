@@ -1,1 +1,0 @@
-h1 = h*h / (w*sin(phi) + h*cos(phi))

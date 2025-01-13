@@ -1,1 +1,0 @@
-const char *simFile = new char[1024];\nstrcpy(simFile, "path");

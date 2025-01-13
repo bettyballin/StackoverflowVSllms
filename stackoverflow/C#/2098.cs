@@ -1,1 +1,0 @@
-public string Tenant\n{\n    get { return HttpContext.Current.Items["tenant"]; }\n}

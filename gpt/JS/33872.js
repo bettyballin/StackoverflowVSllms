@@ -1,0 +1,1 @@
+<script>\n   window.addEventListener('message', (event) => {\n     if (event.origin === 'https://parent.example.com') {\n       console.log('Message from parent:', event.data);\n       event.source.postMessage('Hello from remote', event.origin);\n     }\n   });\n   </script>

@@ -1,0 +1,1 @@
+SqlCommand command = new SqlCommand("YourStoredProcedure", connection);\n   command.CommandType = CommandType.StoredProcedure;\n   command.CommandTimeout = 120; // Timeout in seconds\n   command.ExecuteNonQuery();

@@ -1,0 +1,1 @@
+@echo off\n   net use X: \\server\share /persistent:no /user:username password\n   exit

@@ -1,0 +1,1 @@
+public function logout() {\n    $this->Session->destroy();\n    return $this->redirect($this->Auth->logout());\n}

@@ -1,1 +1,0 @@
-SELECT * FROM table_name ORDER BY auto_incremented_id DESC LIMIT 

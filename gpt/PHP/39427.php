@@ -1,0 +1,1 @@
+if (!$this->_acl->isAllowed($role, $resource, $privilege)) {\n    $request->setModuleName('authentication');\n    $request->setControllerName('auth');\n    $request->setActionName('login');\n    $request->setDispatched(false);\n}

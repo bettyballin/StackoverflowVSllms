@@ -1,1 +1,0 @@
-<script>\nsetTimeout('document.location=document.location',10000)\n</script>

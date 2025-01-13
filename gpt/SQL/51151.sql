@@ -1,0 +1,1 @@
+-- Repeat this until the EmployeesToDelete table is empty\nDELETE FROM Employees\nUSING EmployeesToDelete\nWHERE Employees.id = EmployeesToDelete.employee_id\nAND EmployeesToDelete.employee_id IN (\n    SELECT employee_id\n    FROM EmployeesToDelete\n    LIMIT 1000\n);

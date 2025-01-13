@@ -1,0 +1,1 @@
+-- Open the symmetric key\n   OPEN SYMMETRIC KEY MySymmetricKey\n       DECRYPTION BY CERTIFICATE MyCertificate;\n\n   -- Encrypt data\n   UPDATE MyTable\n   SET EncryptedColumn = EncryptByKey(Key_GUID('MySymmetricKey'), PlainTextColumn);\n\n   -- Close the symmetric key\n   CLOSE SYMMETRIC KEY MySymmetricKey;

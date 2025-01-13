@@ -1,0 +1,1 @@
+<?php\necho $arrayvar['parameter'] ?? '';

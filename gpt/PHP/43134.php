@@ -1,0 +1,1 @@
+<?php\n   // Sample URL\n   $url = 'http://www.google.com';\n   // Run the script\n   shell_exec('sudo /path/to/your/script.sh ' . escapeshellarg($url));\n   // Output HTML to display image\n   echo '<img src="test.png" />';\n   ?>

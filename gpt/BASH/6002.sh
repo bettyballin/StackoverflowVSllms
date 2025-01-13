@@ -1,0 +1,1 @@
+mt.exe -manifest patch.exe.manifest -outputresource:patch.exe;1

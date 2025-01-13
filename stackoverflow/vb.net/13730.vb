@@ -1,1 +1,0 @@
-<Flags()> _\nEnum CombinationEnums As Integer\n  HasButton = 1\n  TitleBar = 2\n  [ReadOnly] = 4\n  ETC = 8\nEnd Enum

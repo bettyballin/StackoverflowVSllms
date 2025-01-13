@@ -1,1 +1,0 @@
-$("a.editcontent").click(function(){\n    $(this).parents("h2").next(".content").trigger("edit");\n});

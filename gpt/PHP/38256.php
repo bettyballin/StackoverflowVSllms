@@ -1,0 +1,1 @@
+$pattern = '/(\w+):\/\/([^\/]+)\/([^\/]+)\/([^\/]+)/';\n$url = 'http://www.foo.com/bar/baz';\n\nif (preg_match_all($pattern, $url, $matches)) {\n    print_r($matches);\n}

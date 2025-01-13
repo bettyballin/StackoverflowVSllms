@@ -1,0 +1,1 @@
+sudo yum install glibc-devel.i686 libgcc.i686

@@ -1,0 +1,1 @@
+byte[] buffer = new byte[1024];\n    GCHandle handle = GCHandle.Alloc(buffer, GCHandleType.Pinned);\n    try\n    {\n        // Call the function\n        FuncX();\n    }\n    finally\n    {\n        handle.Free();\n    }

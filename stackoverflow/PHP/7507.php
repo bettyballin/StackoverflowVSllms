@@ -1,1 +1,0 @@
-$days_ahead = $page - 1;\n$query = "... WHERE date = DATE(NOW()) + INTERVAL $days_ahead DAY ...";

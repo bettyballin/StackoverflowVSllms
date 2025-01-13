@@ -1,1 +1,0 @@
->>> import csv\n>>> reader = csv.reader(open('C:/www/stackoverflow.txt'), delimiter='\t')\n>>> for row in reader:\n...     print row\n...\n['1', 'John Smith', 'Developer', 'http://twiiter.com/johns', 'Chicago, IL']\n['2', 'John Doe', 'Developer', 'http://whatever.com', 'Tallahassee, FL']

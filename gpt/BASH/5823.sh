@@ -1,0 +1,1 @@
+composer require phpmailer/phpmailer php-amqplib/php-amqplib

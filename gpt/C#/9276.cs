@@ -1,0 +1,1 @@
+// Example of setting CSP headers in ASP.NET\nResponse.Headers.Add("Content-Security-Policy", "default-src 'self'; script-src 'self' 'unsafe-inline'; object-src 'none';");

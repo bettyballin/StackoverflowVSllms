@@ -1,0 +1,1 @@
+<?php\n$salt = 'your_random_salt';\n$password = 'your_plain_password';\n$hashed_password = hash('sha256', $salt . $password);\n\n// Output the hashed password to use in the SQL statement\necho $hashed_password;\n?>

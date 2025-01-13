@@ -1,1 +1,0 @@
-SELECT \n     Name, \n    'Users' AS Type \nFROM users \nWHERE name LIKE '%alex%'\nUNION\nSELECT \n     Name, \n     'Admins' AS Type \nFROM admins \nWHERE name LIKE'%alex%'

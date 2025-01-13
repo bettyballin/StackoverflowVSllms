@@ -1,1 +1,0 @@
-Class MyClass : Inherits MyBaseClass : Implements IMyInterface1, IMyInterface2

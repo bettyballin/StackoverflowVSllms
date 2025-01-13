@@ -1,0 +1,1 @@
+INSERT INTO UserFunctions (FunctionName, FunctionDefinition)\nVALUES ('SampleFunction', 'when (value1 between 20 and 40) then value2 = value2 * 37.8');\n\nINSERT INTO FunctionParameters (FunctionId, ParameterName, ParameterType)\nVALUES (SCOPE_IDENTITY(), 'value1', 'int'),\n       (SCOPE_IDENTITY(), 'value2', 'float');

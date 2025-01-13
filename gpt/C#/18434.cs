@@ -1,0 +1,1 @@
+bulkCopy.BatchSize = 5000; // Number of rows to process per batch\nbulkCopy.BulkCopyTimeout = 600; // Timeout in seconds

@@ -1,0 +1,1 @@
+public partial class App : Application\n   {\n       [STAThread]\n       public static void Main()\n       {\n           var app = new App();\n           app.InitializeComponent();\n           app.Run(new MainWindow());\n       }\n   }

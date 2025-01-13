@@ -1,1 +1,0 @@
-Zend_Http_Client_Adapter_Socket

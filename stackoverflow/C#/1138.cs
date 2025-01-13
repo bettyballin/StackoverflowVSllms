@@ -1,1 +1,0 @@
-private void ThreadStartingPoint()  \n {  \n     var dummyDispatcherObject = new Style();  \n     Dispatcher.CurrentDispatcher.BeginInvoke(DispatcherPriority.Normal, new Action(CreatePresenterInternal));  \n     Dispatcher.Run();  \n}  

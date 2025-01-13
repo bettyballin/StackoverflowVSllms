@@ -1,0 +1,1 @@
+<?php\nrequire 'vendor/autoload.php';\nuse \Firebase\JWT\JWT;\n\n$key = "your_secret_key";\n$payload = array(\n    "iss" => "http://site1.com",\n    "aud" => "http://site2.com",\n    "iat" => time(),\n    "exp" => time() + 3600, // Token expires in 1 hour\n    "user_id" => $user_id // User identifier\n);\n\n$jwt = JWT::encode($payload, $key, 'HS256');\necho $jwt;\n?>

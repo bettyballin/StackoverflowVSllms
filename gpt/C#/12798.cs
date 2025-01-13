@@ -1,0 +1,1 @@
+if (string.IsNullOrEmpty(myString))\n{\n    // Handle null or empty string\n}

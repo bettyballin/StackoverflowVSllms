@@ -1,0 +1,1 @@
+public class Customer\n{\n    public int Id { get; set; }\n    public string FirstName { get; set; }\n    public string LastName { get; set; }\n    public string Email { get; set; }\n}

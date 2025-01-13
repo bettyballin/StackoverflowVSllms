@@ -1,0 +1,1 @@
+top -H -p <pid>

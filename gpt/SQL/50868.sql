@@ -1,0 +1,1 @@
+SELECT \n    a.NAME_LAST, \n    a.NAME_FIRST, \n    ca.status, \n    AVG(r.score) AS average_score, \n    COUNT(r.score) AS review_count\nFROM \n    application a\nJOIN \n    committee_applications ca\n    ON a.application_id = ca.application_id\nLEFT JOIN \n    reviews r\n    ON a.application_id = r.application_id\nGROUP BY \n    a.NAME_LAST, \n    a.NAME_FIRST, \n    ca.status;

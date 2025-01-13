@@ -1,1 +1,0 @@
-worksheet.PageSetup.LeftFooter = "&B Bold text &B"

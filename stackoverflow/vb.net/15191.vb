@@ -1,1 +1,0 @@
-Dim FileName as string\nFileName="c:\text.jpg"\nSet NewPic = ActiveSheet.Pictures.Insert(FileName)\nNewPic.top=100\nNewPic.left=100

@@ -1,0 +1,1 @@
+#!/bin/bash\nlamppdir=/opt/lampp/\nphpexecpath=/opt/lampp/bin/php\nphpredirectorpath=/opt/lampp/htdocs/bin/redir.php\nforcedexit=false\n\nwhile [ "${forcedexit}" != "true" ]\ndo\n    if read squidinput; then\n        phpout=$("${phpexecpath}" "${phpredirectorpath}" "${squidinput}")\n        echo "${phpout}"\n    else\n        forcedexit=true\n    fi\ndone\n\nexit 0

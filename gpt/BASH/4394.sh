@@ -1,0 +1,1 @@
+etsh advfirewall firewall add rule name="SQL Server Port 1433" protocol=TCP dir=in localport=1433 action=allow

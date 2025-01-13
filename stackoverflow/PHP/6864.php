@@ -1,1 +1,0 @@
-function ajaxFunction() {\n    //do stuff\n    $this->layout= 'ajax';\n}

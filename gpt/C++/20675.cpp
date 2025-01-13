@@ -1,0 +1,1 @@
+/* No need to redefine .size here since it is handled inline */

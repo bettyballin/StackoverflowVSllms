@@ -1,1 +1,0 @@
-import re\nrx = re.compile("((?:@\w+ +)+)(.*)")\nt='@abc   @def  @xyz Hello this part is text and my email is foo@ba.r'\na,s = rx.match(t).groups()\nl = re.split('[@ ]+',a)[1:-1]\nprint l\nprint s

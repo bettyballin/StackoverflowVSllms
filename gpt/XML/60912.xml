@@ -1,0 +1,1 @@
+<system.webServer>\n       <caching>\n           <profiles>\n               <add extension=".aspx" policy="CacheUntilChange" kernelCachePolicy="CacheUntilChange" duration="00:01:00" />\n           </profiles>\n       </caching>\n   </system.webServer>

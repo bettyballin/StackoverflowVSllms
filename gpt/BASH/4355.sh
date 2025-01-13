@@ -1,0 +1,1 @@
+sc create ServiceName binPath= "PathToExecutable"

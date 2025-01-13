@@ -1,0 +1,1 @@
+./configure --prefix=$HOME/libs/library-name/$(uname -m)-$(uname -r)\n     make\n     make install

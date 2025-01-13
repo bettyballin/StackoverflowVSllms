@@ -1,1 +1,0 @@
-public static DropDownList MySize;

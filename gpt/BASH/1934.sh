@@ -1,0 +1,1 @@
+RegAsm.exe /tlb:MyDotNetLibrary.tlb MyDotNetLibrary.dll

@@ -1,0 +1,1 @@
+sudo apt-get install iptables-persistent\n    sudo netfilter-persistent save

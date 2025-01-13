@@ -1,1 +1,0 @@
-php.exe -f phpfile.php

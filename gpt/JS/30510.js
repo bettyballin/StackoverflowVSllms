@@ -1,0 +1,1 @@
+document.getElementById('topics').innerHTML += '<div id="mysection">Your content here</div>';

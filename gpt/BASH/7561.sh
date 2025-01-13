@@ -1,0 +1,1 @@
+make\n   sudo make install

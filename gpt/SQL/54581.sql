@@ -1,0 +1,1 @@
+EXEC sp_addlinkedserver \n    @server='YourLinkedServerName', \n    @srvproduct='', \n    @provider='SQLNCLI10', \n    @datasrc='YourSQL2008ServerName';\n\nEXEC sp_addlinkedsrvlogin \n    @rmtsrvname='YourLinkedServerName', \n    @useself='false', \n    @rmtuser='YourRemoteUsername', \n    @rmtpassword='YourRemotePassword';

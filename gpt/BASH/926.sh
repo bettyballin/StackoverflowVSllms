@@ -1,0 +1,1 @@
+./extract_pdf_text /path/to/your/file.pdf

@@ -1,0 +1,1 @@
+import library1\nimport library2\n\ndef function_from_lib1():\n    return library1.function_name()\n\ndef function_from_lib2():\n    return library2.function_name()\n\nresult1 = function_from_lib1()\nresult2 = function_from_lib2()

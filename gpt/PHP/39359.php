@@ -1,0 +1,1 @@
+// Development environment\nif (defined('ENV') && ENV === 'development') {\n    error_reporting(E_ALL);\n    ini_set('display_errors', 1);\n} else {\n    // Production environment\n    error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_DEPRECATED);\n    ini_set('display_errors', 0);\n    ini_set('log_errors', 1);\n    ini_set('error_log', '/path/to/error.log');\n}

@@ -1,0 +1,1 @@
+ALTER TABLE YourTableName\nALTER COLUMN YourColumnName VARCHAR(100) COLLATE Turkish_CI_AS;

@@ -1,0 +1,1 @@
+// First query\n$stmt = $pdo->prepare("SELECT * FROM table WHERE my_field = :field_value");\n$stmt->execute([':field_value' => $value1]);\n\n// Second query, keeping the parameter name the same\n$stmt = $pdo->prepare("SELECT * FROM table WHERE my_field = :field_value");\n$stmt->execute([':field_value' => $value2]);

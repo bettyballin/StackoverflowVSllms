@@ -1,0 +1,1 @@
+function generateStageInput() {\n    global $stage;\n    echo '<input type="hidden" name="stage" value="';\n    echo $stage + 1;\n    echo '" />';\n}

@@ -1,0 +1,1 @@
+<?php\n     class UserFactory {\n         public static function create($type) {\n             switch ($type) {\n                 case 'admin':\n                     return new AdminUser();\n                 case 'guest':\n                     return new GuestUser();\n                 default:\n                     return new User();\n             }\n         }\n     }

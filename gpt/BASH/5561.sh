@@ -1,0 +1,1 @@
+sudo apt-get install libapache2-mod-auth-kerb krb5-user

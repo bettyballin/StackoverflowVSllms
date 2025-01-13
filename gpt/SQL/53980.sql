@@ -1,0 +1,1 @@
+INSERT INTO mykeyvalues ("Key", "Value") VALUES ('FooKey', 'FooValue');

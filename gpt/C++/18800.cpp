@@ -1,0 +1,1 @@
+#include <mutex>\n\nvoid InitFoo()\n{\n    static std::once_flag initFlag;\n    std::call_once(initFlag, []() {\n        // Actual code goes here.\n    });\n}

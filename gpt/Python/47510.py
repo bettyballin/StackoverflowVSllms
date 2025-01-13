@@ -1,0 +1,1 @@
+from django.urls import reverse\n\n   def create_confirmation_link(user):\n       token = generate_confirmation_token(user)\n       uid = urlsafe_base64_encode(force_bytes(user.pk))\n       return f"{settings.SITE_URL}{reverse('confirm_email', kwargs={'uidb64': uid, 'token': token})}"

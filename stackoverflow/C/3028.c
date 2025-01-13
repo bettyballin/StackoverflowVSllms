@@ -1,1 +1,0 @@
-A a;\nA& ar = a;  // both a and ar refer to the same object\n\nnew A;  // the object created doesn't have a name\n\nA* ap = new A[100];  // either all 100 objects share the same name, or need to \n                     // know that they are part of an array.

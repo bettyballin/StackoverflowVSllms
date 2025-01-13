@@ -1,0 +1,1 @@
+class FacilitiesController extends AppController {\n    public function index() {\n        set_time_limit(60);  // Increase to 60 seconds or more\n        \n        // Your existing code here\n    }\n}

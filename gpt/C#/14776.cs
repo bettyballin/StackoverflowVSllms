@@ -1,0 +1,1 @@
+var stopwatch = new System.Diagnostics.Stopwatch();\n   stopwatch.Start();\n   \n   // Your singleton initialization or code block\n   MySingleton.Instance.Initialize();\n   \n   stopwatch.Stop();\n   Console.WriteLine($"Initialization Time: {stopwatch.ElapsedMilliseconds} ms");

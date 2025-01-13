@@ -1,0 +1,1 @@
+// Example of reading configuration from the executable's configuration file\n\npublic class MyDLLClass {\n    private readonly string _configValue;\n\n    public MyDLLClass() {\n        _configValue = ConfigurationManager.AppSettings["ConfigKey"];\n    }\n\n    public void DoSomething() {\n        // Use _configValue\n    }\n}

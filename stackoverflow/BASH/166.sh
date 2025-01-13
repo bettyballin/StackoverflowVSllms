@@ -1,1 +1,0 @@
-keytool -keystore %JAVA_HOME%\jre\lib\security\jssecacerts -import -file cacert.pem

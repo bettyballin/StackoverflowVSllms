@@ -1,0 +1,1 @@
+#ifdef USE_OBJECTARX\n     // ObjectARX specific code\n     #include "arxHeaders.h"\n     #else\n     // ADS specific code\n     #include "adsHeaders.h"\n     #endif

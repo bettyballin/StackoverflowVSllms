@@ -1,1 +1,0 @@
-PdfWriter writer = PdfWriter.GetInstance(doc, memoryStream);\n\n// Build pdf code...\n\nwriter.CloseStream = false;\ndoc.Close();\n\n// Build email\n\nmemoryStream.Position = 0;\nmm.Attachments.Add(new Attachment(memoryStream, "test.pdf"));

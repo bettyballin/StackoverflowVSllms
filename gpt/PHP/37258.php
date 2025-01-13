@@ -1,0 +1,1 @@
+<?php\n     $output = shell_exec('/path/to/your/binary');\n     echo $output;\n     ?>

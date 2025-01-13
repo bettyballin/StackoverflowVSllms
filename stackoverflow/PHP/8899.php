@@ -1,1 +1,0 @@
-$xml = simplexml_load_string($res, NULL, NULL, "http://schemas.xmlsoap.org/soap/envelope/");\n$xml->registerXPathNamespace('soap-env', 'http://schemas.xmlsoap.org/soap/envelope/');\n$xml->registerXPathNamespace('eb', 'http://www.ebxml.org/namespaces/messageHeader');\n$xml->registerXPathNamespace('wsse', 'http://schemas.xmlsoap.org/ws/2002/12/secext');

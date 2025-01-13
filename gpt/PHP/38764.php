@@ -1,0 +1,1 @@
+<?php\n\n/**\n * Adds two numbers and returns the sum.\n *\n * @param int $a\n * @param int $b\n * @return int\n */\nfunction add($a, $b) {\n    return $a + $b;\n}\n\n?>

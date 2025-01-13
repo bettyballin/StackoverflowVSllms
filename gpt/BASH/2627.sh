@@ -1,0 +1,1 @@
+%preun\nif [ $1 -eq 0 ]; then\n    # Package is being removed, not upgraded\n    echo "Old package is being obsoleted by a new package"\nelif [ $1 -eq 1 ]; then\n    # Package is being upgraded\n    echo "Old package is being upgraded"\nfi

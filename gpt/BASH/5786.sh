@@ -1,0 +1,1 @@
+# Install Elasticsearch\n# (Assuming Elasticsearch is installed and running)\ncurl -X PUT "localhost:9200/webpages"

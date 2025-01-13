@@ -1,0 +1,1 @@
+WITH RECURSIVE category_path (id, name, parent_id) AS (\n    SELECT id, name, parent_id\n    FROM categories\n    WHERE id = 4 -- Start with Fuji (id 4)\n    UNION ALL\n    SELECT c.id, c.name, c.parent_id\n    FROM categories c\n    INNER JOIN category_path cp ON c.id = cp.parent_id\n)\nSELECT * FROM category_path;

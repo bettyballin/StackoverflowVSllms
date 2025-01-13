@@ -1,0 +1,1 @@
+<?php\nfunction ensureHttp($url) {\n    // Check if the string starts with 'http://'\n    if (strpos($url, 'http://') !== 0 && strpos($url, 'https://') !== 0) {\n        $url = 'http://' . $url;\n    }\n    return $url;\n}\n\n// Example usage:\n$userInput = "example.com";\n$correctedUrl = ensureHttp($userInput);\necho $correctedUrl; // Outputs: http://example.com\n?>

@@ -1,0 +1,1 @@
+convert screenshot.xwd screenshot.jpeg

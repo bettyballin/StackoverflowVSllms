@@ -1,0 +1,1 @@
+sudo smem -P <PID>

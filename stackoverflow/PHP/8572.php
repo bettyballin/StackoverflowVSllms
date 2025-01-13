@@ -1,1 +1,0 @@
-$str = $post->post_content;

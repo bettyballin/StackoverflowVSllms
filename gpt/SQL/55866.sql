@@ -1,0 +1,1 @@
+-- Create a temporary table\nCREATE TABLE #TempTable (\n    ID INT,\n    Name NVARCHAR(50)\n);\n\n-- Insert data into the temporary table\nINSERT INTO #TempTable (ID, Name)\nVALUES (1, 'Alice'), (2, 'Bob');\n\n-- Use the temporary table in a query\nSELECT * FROM #TempTable\nWHERE ID = 1;\n\n-- Drop the temporary table\nDROP TABLE #TempTable;

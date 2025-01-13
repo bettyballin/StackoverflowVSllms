@@ -1,0 +1,1 @@
+SELECT pid, application_name, query, state, query_start\nFROM pg_stat_activity;

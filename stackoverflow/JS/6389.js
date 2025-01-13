@@ -1,1 +1,0 @@
-empName1.validateNow();

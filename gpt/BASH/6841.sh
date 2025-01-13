@@ -1,0 +1,1 @@
+path\to\vb6\vb6 ProjectFile.vbg /make > build_log.txt 2>&1

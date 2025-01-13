@@ -1,1 +1,0 @@
-SELECT\n  AbsenceDate,\n  CASE WHEN MONTH(AbsenceDate) <= 7 \n    THEN \n      CONVERT(VARCHAR(4), YEAR(AbsenceDate) - 1) + '/' + \n      CONVERT(VARCHAR(4), YEAR(AbsenceDate))\n    ELSE \n      CONVERT(VARCHAR(4), YEAR(AbsenceDate)) + '/' + \n      CONVERT(VARCHAR(4), YEAR(AbsenceDate) + 1)\n  END AcademicYear\nFROM\n  AbsenceTable

@@ -1,1 +1,0 @@
-select *\nfrom tblTagGlass ttg\ninner join tblTagGlass ttgC ON\nttg.JobID = ttgC.JobID\nAND ttg.PartCode = ttgC.PartCode\nwhere (ttg.TagHeight != ttgC.TagHeight OR ttg.TagWidth != ttgC.TagWidth)\nAND ((ttg.TagHeight >= ttgC.TagHeight AND ttg.TagWidth >= ttgC.TagWidth) \n    OR (ttg.TagHeight > ttgC.TagHeight AND ttg.TagWidth < ttgC.TagWidth))\norder by ttg.PartCode

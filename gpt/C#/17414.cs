@@ -1,0 +1,1 @@
+UpdateModel<ContestModel>(model);

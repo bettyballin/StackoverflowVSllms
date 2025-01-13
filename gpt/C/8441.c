@@ -1,0 +1,1 @@
+__builtin_expect(expression, expected_value)

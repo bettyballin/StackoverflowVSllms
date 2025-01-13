@@ -1,0 +1,1 @@
+svn checkout file:///path/to/new/repo/trunk /path/to/new/working-copy

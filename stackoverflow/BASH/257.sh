@@ -1,1 +1,0 @@
-svn co svn+ssh://alabaster@URL

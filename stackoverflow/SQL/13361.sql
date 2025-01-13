@@ -1,1 +1,0 @@
-SET LANGUAGE Deutsch\nSELECT 'true' WHERE 1 <> 123,45\n\n--gives\nMsg 102, Level 15, State 1, Line 2\nFalsche Syntax in der Nähe von ','.\nThere is far too much ambiguity in number formats\n\nSET LANGUAGE Deutsch\nSELECT 'true' WHERE 1 <> 123.45\n--gives true

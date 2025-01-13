@@ -1,1 +1,0 @@
-SELECT *\nFROM posts p\nWHERE NOT EXISTS(\n    SELECT 1\n    FROM comments c\n    WHERE c.comment_date >= 'deadline'\n    AND p.post_id = c.post_id\n)

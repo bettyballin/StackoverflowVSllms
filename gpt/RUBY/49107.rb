@@ -1,0 +1,1 @@
+class EventsController < ApplicationController\n     def index\n       @events = Event.where(start_time: params[:start_date]..params[:end_date])\n     end\n   end

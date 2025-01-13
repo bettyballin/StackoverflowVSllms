@@ -1,0 +1,1 @@
+<Component Id="RegistryEntryContextMenuOdt" Guid="4BA5BA24-4F65-4BDF-99EB-CB4B947F31A9" DiskId="1" KeyPath="yes">\n    <RegistryKey Id="RegKeyOdt" Root="HKCR" Action="create" Key=".odt">\n        <RegistryValue Id="RegValueOdt" Type="string" Value="openDocument.WriterDocument.1" Permanent="yes" />\n    </RegistryKey>\n</Component>

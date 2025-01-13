@@ -1,1 +1,0 @@
-telemachus ~ $ irb\nirb(main):001:0> a = 1\n=> 1\nirb(main):002:0> b = '1'\n=> "1"\nirb(main):003:0> a == b\n=> false

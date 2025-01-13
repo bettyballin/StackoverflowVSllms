@@ -1,0 +1,1 @@
+user = FactoryGirl.create(:user)\n   user.activate! # Ensure this method triggers the necessary setup in your model\n   login_as(user)

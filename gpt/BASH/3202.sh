@@ -1,0 +1,1 @@
+gunzip -c /file/address/file.tar.gz

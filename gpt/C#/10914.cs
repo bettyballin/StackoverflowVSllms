@@ -1,0 +1,1 @@
+public class SomeSubclassOfUniqueNamedEntityMap : SubclassMap<SomeSubclassOfUniqueNamedEntity>\n{\n    public SomeSubclassOfUniqueNamedEntityMap()\n    {\n        KeyColumn("UniqueNamedEntityId");\n        // Additional subclass-specific mappings\n    }\n}

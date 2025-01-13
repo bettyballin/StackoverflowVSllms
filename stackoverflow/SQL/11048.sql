@@ -1,1 +1,0 @@
-declare @locationType varchar(50);\ndeclare @locationID int;\n\nSELECT column1, column2\nFROM viewWhatever\nWHERE\n@locationID = \n  CASE @locationType\n      WHEN 'location' THEN account_location\n      WHEN 'area' THEN xxx_location_area \n      WHEN 'division' THEN xxx_location_division \n  END

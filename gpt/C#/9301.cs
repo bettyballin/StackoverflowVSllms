@@ -1,0 +1,1 @@
+[WebMethod]\npublic void HelloWorld2(out string strVal)\n{\n    strVal = "Hello World";\n}

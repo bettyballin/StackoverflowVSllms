@@ -1,0 +1,1 @@
+import requests\n    response = requests.get('https://api.reputation.com/check', params={'ip': user_ip})

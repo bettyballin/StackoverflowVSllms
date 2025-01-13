@@ -1,1 +1,0 @@
-sqlcmd -S <COMPUTERNAME>\SQLExpress

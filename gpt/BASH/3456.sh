@@ -1,0 +1,1 @@
+sudo yum install make gcc cpp gcc-c++ glibc glibc-headers php-pear php-devel geoip geoip-devel

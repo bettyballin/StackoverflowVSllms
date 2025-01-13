@@ -1,0 +1,1 @@
+mount -t nfs -o rsize=32768,wsize=32768,noatime,async nfs_server:/exported/directory /mnt/nfs

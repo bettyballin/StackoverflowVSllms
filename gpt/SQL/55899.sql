@@ -1,0 +1,1 @@
+CREATE OR REPLACE VIEW your_view AS\nSELECT UTL_RAW.CAST_TO_VARCHAR2(long_raw_column) AS converted_string\nFROM your_table;

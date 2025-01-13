@@ -1,0 +1,1 @@
+<?php\n// Your existing sign-up process code here\n\n// Asynchronously call the nusoap script\nexec('php -f /path/to/nusoap_call.php > /dev/null 2>&1 &');\n\n// Continue with the rest of your sign-up process\n?>

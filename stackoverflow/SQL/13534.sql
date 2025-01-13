@@ -1,1 +1,0 @@
-select avg(total), customer \nfrom orders o1 \nwhere orderdate in \n  ( select top 2 date \n    from orders o2 \n    where o2.customer = o1.customer \n    order by date desc )\ngroup by customer

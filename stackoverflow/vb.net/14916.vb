@@ -1,1 +1,0 @@
-Me.myDatagridview.Rows(0).Cells(0).Style.ForeColor = Color.Aqua

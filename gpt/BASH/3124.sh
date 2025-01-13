@@ -1,0 +1,1 @@
+# Example of installing a package using Composer\ncomposer require vendor/package-name

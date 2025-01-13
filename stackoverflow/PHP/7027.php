@@ -1,1 +1,0 @@
-$this->partial('your-partial-dir/your-partial.phtml', array('var'=>$myVar));

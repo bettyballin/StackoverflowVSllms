@@ -1,0 +1,1 @@
+SELECT \n    q.Id as QuestionId, \n    q.Text as QuestionText, \n    a.Id as AnswerId, \n    a.Text as AnswerText\nFROM \n    Questions q\nLEFT JOIN \n    Answers a ON q.Id = a.QuestionId\nWHERE \n    /* Add your selection criteria for Questions here */\n    q.SomeColumn = 'SomeValue'\nORDER BY \n    q.Id, a.Id;

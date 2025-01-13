@@ -1,0 +1,1 @@
+$(document).ready(function(){\n        $('.thumbnail').off('click').on('click', function(){\n            // Your Ajax call here\n        });\n    });

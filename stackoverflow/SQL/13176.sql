@@ -1,1 +1,0 @@
-select 'true' where 3 = 1 or 3 = 2 or 3 = 3 or 3 = null

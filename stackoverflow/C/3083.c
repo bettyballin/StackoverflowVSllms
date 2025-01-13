@@ -1,1 +1,0 @@
-struct f1 {\n  f1(Foo& foo) : foo(foo) {} // pre-function, if you need it\n  void operator()(){} // main function\n  ~f1() {} // post-function\n\nprivate:\n  Foo& foo;\n}

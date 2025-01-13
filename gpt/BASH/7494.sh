@@ -1,0 +1,1 @@
+g++ -g -o my_program my_program.cpp\n   gdb ./my_program

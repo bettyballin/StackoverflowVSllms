@@ -1,0 +1,1 @@
+LogParser "SELECT TOP 10 cs-uri-stem AS URL, COUNT(*) AS Hits FROM <path_to_iis_logs> GROUP BY URL ORDER BY Hits DESC" -i:IISW3C

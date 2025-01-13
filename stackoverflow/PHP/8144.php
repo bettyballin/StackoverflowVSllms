@@ -1,1 +1,0 @@
-$body = preg_replace("/\n\n+/", "\n\n", $body);

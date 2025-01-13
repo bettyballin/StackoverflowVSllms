@@ -1,0 +1,1 @@
+label.error {\n    color: white;\n    font-weight: bold;\n}\n\ninput.error {\n    background-color: pink;\n    border: 1px dashed red;\n    color: white;\n}

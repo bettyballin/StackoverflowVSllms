@@ -1,0 +1,1 @@
+string computerName = System.Windows.Forms.SystemInformation.ComputerName;

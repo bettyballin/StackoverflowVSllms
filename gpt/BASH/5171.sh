@@ -1,0 +1,1 @@
+# Make your changes\nvim kernel/somefile.c\n\n# Commit your changes\ngit add kernel/somefile.c\ngit commit -s\n\n# Format your patch\ngit format-patch -1\n\n# Send your patch via email\ngit send-email --to maintainer@example.com --cc linux-kernel@vger.kernel.org 0001-Your-patch-subject.patch

@@ -1,1 +1,0 @@
-select * from sys.types\nwhere is_user_defined = 1

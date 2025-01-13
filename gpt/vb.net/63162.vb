@@ -1,0 +1,1 @@
+ole_control.Object.BackColor = RGB(192, 192, 192) // Example for grey color

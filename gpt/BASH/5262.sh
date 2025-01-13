@@ -1,0 +1,1 @@
+gcc -c -g -fPIC source_file1.c -o source_file1.o\n   gcc -c -g -fPIC source_file2.c -o source_file2.o

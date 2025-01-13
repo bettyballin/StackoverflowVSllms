@@ -1,0 +1,1 @@
+SELECT DATEADD(DAY, DATEDIFF(DAY, 0, your_column), 0) AS DateOnly\nFROM your_table;

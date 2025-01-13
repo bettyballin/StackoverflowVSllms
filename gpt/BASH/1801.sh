@@ -1,0 +1,1 @@
+svn copy /repo/Projects/ProjectA /repo/tags/ProjectA-Release-1.0 -m "Tagging ProjectA release 1.0"

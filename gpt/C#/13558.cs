@@ -1,0 +1,1 @@
+private void HighlightErrors()\n    {\n        if (string.IsNullOrEmpty(textBoxName.Text))\n        {\n            textBoxName.BackColor = Color.LightPink;\n        }\n        else\n        {\n            textBoxName.BackColor = Color.White;\n        }\n        // Repeat for other controls\n    }

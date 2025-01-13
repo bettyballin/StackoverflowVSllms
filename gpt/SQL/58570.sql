@@ -1,0 +1,1 @@
+ALTER TABLE YourTable\nADD recordversion ROWVERSION;

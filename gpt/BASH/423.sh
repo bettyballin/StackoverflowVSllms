@@ -1,0 +1,1 @@
+mysqlslap --concurrency=50 --iterations=200 --number-int-cols=2 --number-char-cols=2 --auto-generate-sql --engine=innodb

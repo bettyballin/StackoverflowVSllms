@@ -1,0 +1,1 @@
+$user_input = mysql_real_escape_string($_POST['user_input']);\n    $query = "INSERT INTO table_name (column_name) VALUES ('$user_input')";\n    mysql_query($query);

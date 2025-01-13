@@ -1,0 +1,1 @@
+Private Sub Form_Load()\n  Dim c1 As IClass1\n  Dim c2() As IClass2\n  Dim x As IClass2\n\n  Set c1 = New Class1\n\n  c2 = c1.getList\n\n  For Each x In c2\n    Debug.Print x.Value\n  Next\n\nEnd Sub

@@ -1,0 +1,1 @@
+$ git commit -m "Resolved submodule merge conflict"

@@ -1,0 +1,1 @@
+<ItemGroup>\n  <None Include="SomeFilename.htm">\n    <SubType>None</SubType>\n  </None>\n</ItemGroup>

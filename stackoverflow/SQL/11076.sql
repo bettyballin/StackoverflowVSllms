@@ -1,1 +1,0 @@
-CREATE OR REPLACE TRIGGER trigname \n  AFTER INSERT ON Comments\n  FOR EACH ROW \n  IF (:new.ID % 13 = 12) THEN\n    -- increase the sequence\n    SELECT comment_ID_sequence.NEXTVAL FROM dual;\n  END IF;   \nEND;

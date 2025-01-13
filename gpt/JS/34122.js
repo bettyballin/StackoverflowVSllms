@@ -1,0 +1,1 @@
+var gradientColors = gradient(50, ['#ffffff', '#ffff00', '#00ff00']);\nconsole.log(gradientColors);

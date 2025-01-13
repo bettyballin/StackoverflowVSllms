@@ -1,1 +1,0 @@
-counterVariable.RawValue++;\ncounterVariable.RawValue += 2;

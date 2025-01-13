@@ -1,1 +1,0 @@
-UPDATE t1\nSET t1.SortOrder = t2.SortOrder \nFROM @t t1\nINNER JOIN\n(SELECT Item1ID, Item2ID, ROW_NUMBER() OVER\n    (PARTITION BY Item1ID ORDER BY Item1ID, Item2ID) AS SortOrder\nfrom @t) t2\nON t1.Item1ID = t2.Item1ID \nAND t1.Item2ID = t2.Item2ID

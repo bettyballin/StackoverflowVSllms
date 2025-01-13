@@ -1,0 +1,1 @@
+char c = 65; // 'A' in ASCII

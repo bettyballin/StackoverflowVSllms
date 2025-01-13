@@ -1,0 +1,1 @@
+$('#interceptMe').click(function(event) {\n  event.preventDefault(); // Prevent the default action of the link\n  $.get('/Ajax/Call', function(comesOut) {\n    $('#changeMe').html(comesOut);\n  }, "html");\n});

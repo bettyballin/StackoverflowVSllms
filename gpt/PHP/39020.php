@@ -1,0 +1,1 @@
+class CustomException extends Exception {}\n\nfunction doSomethingRisky($error) {\n    if ($error) {\n        throw new CustomException('Sorry, error has occurred');\n    }\n}\n\ntry {\n    doSomethingRisky(true);\n} catch (CustomException $e) {\n    echo 'Caught exception: ',  $e->getMessage(), "\n";\n}

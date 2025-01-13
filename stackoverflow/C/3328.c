@@ -1,1 +1,0 @@
-bool operator<(const Foo& foo1) const;

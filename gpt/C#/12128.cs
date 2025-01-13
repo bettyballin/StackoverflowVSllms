@@ -1,0 +1,1 @@
+var tabControl = new TabControl();\nAction<TabControl> setup = tc =>\n{\n    tc.Property1 = value1;\n    tc.Property2 = value2;\n    tc.Property3 = value3;\n};\nsetup(tabControl);

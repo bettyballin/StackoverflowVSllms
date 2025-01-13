@@ -1,0 +1,1 @@
+<configuration>\n  <system.serviceModel>\n    <client>\n      <endpoint address="net.tcp://localhost:8080/YourService"\n                binding="netTcpBinding"\n                contract="YourServiceNamespace.IYourService"\n                name="tcpEndpoint" />\n    </client>\n  </system.serviceModel>\n</configuration>

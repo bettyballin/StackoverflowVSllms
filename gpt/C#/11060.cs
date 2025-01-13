@@ -1,0 +1,1 @@
+public static T FindOrCreate<T>(this Table<T> table, Func<T, bool> find, Func<T> replacement) \n    where T : new()\n{\n    T val = table.FirstOrDefault(find);\n    if (val == null)\n    {\n        val = replacement();\n        table.InsertOnSubmit(val);\n    }\n    return val;\n}

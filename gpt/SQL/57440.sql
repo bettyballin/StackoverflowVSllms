@@ -1,0 +1,1 @@
+ALTER SYSTEM CANCEL SQL 'sid,serial#';

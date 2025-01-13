@@ -1,0 +1,1 @@
+#include <glib.h>\n\nint main(int argc, char **argv) {\n    g_print("Hello, World!\n");\n    return 0;\n}

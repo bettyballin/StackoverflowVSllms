@@ -1,1 +1,0 @@
-select\n    bar1.instrument\n    ,bar2.*\nfrom (\n    select distinct instrument from bar) as bar1\ncross apply (\n    select top 5\n        bar2.instrument\n        ,bar2.bar_dttm\n        ,bar2.bar_open\n        ,bar2.bar_close \n    from bar as bar2 where bar2.instrument = bar1.instrument) as bar2

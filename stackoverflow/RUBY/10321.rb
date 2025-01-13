@@ -1,1 +1,0 @@
-def thenumber=(value)\n  # normalise stuff here, call write_attribute\nend

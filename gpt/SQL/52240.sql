@@ -1,0 +1,1 @@
+SELECT OfficeID, \n       CurrentActivityCount, \n       PreviousActivityCount, \n       Variance\nFROM (\n    EXEC CalculateMonthlyVariance\n) AS VarianceData\nWHERE OfficeID = @OfficeID;

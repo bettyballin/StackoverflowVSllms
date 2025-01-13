@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX unq_idx\nON MyTable (Column1)\nWHERE Column1 IS NOT NULL;

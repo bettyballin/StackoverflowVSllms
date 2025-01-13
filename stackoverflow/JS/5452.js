@@ -1,1 +1,0 @@
-$('#mySelect').css({margin: '0'}).append('<option value="0">(none available)</option>');

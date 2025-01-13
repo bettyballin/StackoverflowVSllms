@@ -1,1 +1,0 @@
-from cust in ds.Customers\nfrom order in cust.GetChildRows("CustomersOrders").Cast<Order>()

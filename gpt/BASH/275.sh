@@ -1,0 +1,1 @@
+openssl x509 -in yourfile.cer -out yourfile.crt

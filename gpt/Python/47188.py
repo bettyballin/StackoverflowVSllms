@@ -1,0 +1,1 @@
+def rotate_left(lst, n):\n    n = n % len(lst)  # To handle cases where n > len(lst)\n    return lst[n:] + lst[:n]\n\na = [1, 2, 3, 4, 5]\na = rotate_left(a, 1)  # Rotate left by 1 position\nprint(a)  # Output: [2, 3, 4, 5, 1]\n\na = rotate_left(a, 1)  # Rotate left by 1 more position\nprint(a)  # Output: [3, 4, 5, 1, 2]

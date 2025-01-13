@@ -1,1 +1,0 @@
-RewriteCond %{HTTPS} !=on\nRewriteRule ^/(.*) https://%{SERVER_NAME}/$1 [R,L]

@@ -1,0 +1,1 @@
+[hi, lo] = surrogatePair(c);

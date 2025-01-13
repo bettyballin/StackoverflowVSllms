@@ -1,0 +1,1 @@
+-- Enabling SQL Intellisense in Visual Studio 2008\n-- Go to Tools > Options > Text Editor > Transact-SQL > IntelliSense\n\n-- Ensure that "Enable IntelliSense" is checked

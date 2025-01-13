@@ -1,0 +1,1 @@
+void *somePtr = NULL;\n\nif (!somePtr) {\n  /* This will always be executed */\n}

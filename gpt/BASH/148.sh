@@ -1,0 +1,1 @@
+open -na "Terminal" --args bash -c 'your_command_here'

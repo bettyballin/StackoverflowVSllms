@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack || !ScriptManager.GetCurrent(this).IsInAsyncPostBack)\n    {\n        CustomLogger.Log("Done setting employeeId.");\n    }\n}

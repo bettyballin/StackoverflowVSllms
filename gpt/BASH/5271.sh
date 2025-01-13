@@ -1,0 +1,1 @@
+sudo chmod 775 /path/to/Ads\nsudo chown www-data:www-data /path/to/Ads

@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT year, month, day) AS days_with_sales\nFROM orders\nWHERE CONCAT(year, '-', LPAD(month, 2, '0'), '-', LPAD(day, 2, '0')) BETWEEN '2009-01-01' AND '2009-01-16';

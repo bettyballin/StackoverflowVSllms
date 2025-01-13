@@ -1,0 +1,1 @@
+class UserDTO {\n    public $id;\n    public $name;\n    public $email;\n    \n    public function __construct($id, $name, $email) {\n        $this->id = $id;\n        $this->name = $name;\n        $this->email = $email;\n    }\n}\n\n// Usage\n$userDTO = new UserDTO(1, 'John Doe', 'john.doe@example.com');

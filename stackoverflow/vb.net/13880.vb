@@ -1,1 +1,0 @@
-formatDisplayDate(Eval("Date").ToString()) & "-" & Eval("OtherField").ToString()

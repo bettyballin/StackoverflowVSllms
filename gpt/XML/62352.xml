@@ -1,0 +1,1 @@
+<Product Id="*" Name="YourProduct" Language="1033" Version="1.0.0.0" Manufacturer="YourCompany" UpgradeCode="YOUR-UPGRADE-CODE">\n     <!-- Other configurations -->\n   </Product>

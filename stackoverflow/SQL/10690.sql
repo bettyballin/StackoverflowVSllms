@@ -1,1 +1,0 @@
-SELECT * FROM posts\nWHERE post_content = 'thread'\nGROUP BY post_contentID\nORDER BY MAX(post_date) DESC\nLIMIT 65

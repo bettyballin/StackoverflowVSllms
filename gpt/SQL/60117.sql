@@ -1,0 +1,1 @@
+DECLARE @prefix NVARCHAR(50) = 'your_prefix_'\nDECLARE @sql NVARCHAR(MAX) = ''\n\n-- Build the dynamic SQL to drop tables\nSELECT @sql = STRING_AGG('DROP TABLE ' + QUOTENAME(TABLE_SCHEMA) + '.' + QUOTENAME(TABLE_NAME) + ';', ' ')\nFROM INFORMATION_SCHEMA.TABLES\nWHERE TABLE_NAME LIKE @prefix + '%'\n\n-- Execute the dynamic SQL\nEXEC sp_executesql @sql

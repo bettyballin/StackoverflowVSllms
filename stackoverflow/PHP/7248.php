@@ -1,1 +1,0 @@
-$outer_arr = array('kanye' => array('Kanya', 'Janaye', 'Kayne', 'Kane'));\nforeach($outer_arr as $key => $val) {\n    print($key); // "kanye"\n    print_r($val); // Array ( [0] => Kanya [1] => Janaye [2] => Kayne [3] => Kane )\n}

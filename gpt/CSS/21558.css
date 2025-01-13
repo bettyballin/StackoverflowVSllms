@@ -1,0 +1,1 @@
+html, body, form {\n  padding: 0;\n  margin: 0;\n  width: 100%;\n  height: 100%;\n}\n\nbody {\n  display: flex;\n  flex-direction: column;\n}\n\n#header {\n  background: #295984;\n  width: 100%;\n  height: 65px;\n  flex-shrink: 0;\n}\n\n#content {\n  width: 100%;\n  flex-grow: 1;\n  overflow: auto;\n}

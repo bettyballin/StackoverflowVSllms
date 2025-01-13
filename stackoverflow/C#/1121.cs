@@ -1,1 +1,0 @@
-try {\n    var domain = Domain.GetCurrentDomain();\n    /* Whatever i need from the domain */\n} catch(ActiveDirectoryOperationException ex) {\n    MessageBox.Show("Cannot contact AD Server");\n}

@@ -1,0 +1,1 @@
+<?php\n\nfunction sinus($x) {\n    if ($x <= 0.1) {\n        return $x;\n    } else {\n        $lambda = function($x) {\n            return 3 * $x - 4 * $x * $x * $x;\n        };\n        return $lambda(sinus($x / 3));\n    }\n}\n\necho sinus(172.0);\n\n?>

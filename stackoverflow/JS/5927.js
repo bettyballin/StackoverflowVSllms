@@ -1,1 +1,0 @@
-<script type="text/javascript">\n\n    alert( self.window.name );\n\n    self.window.name = "blah";\n\n</script>

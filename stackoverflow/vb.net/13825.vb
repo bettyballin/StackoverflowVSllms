@@ -1,1 +1,0 @@
-Declare Function TmSendByLen Lib "tmctl.dll" Alias "TmSendByLength" (ByVal id As Integer, ByRef msg As Any, ByVal blen As Integer) As Integer)\n\nFunction InternalVersion(ByVal id As Integer, ByVal msg As String, ByVal blen As Integer) As Integer\n    InternalVersion = TmSendByLen(id, msg, blen)\nEnd Functio

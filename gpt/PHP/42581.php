@@ -1,0 +1,1 @@
+<?php\n   $db->beginTransaction();\n   // Your insert/update code here\n   $db->commit();\n   ?>

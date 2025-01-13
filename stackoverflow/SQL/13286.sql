@@ -1,1 +1,0 @@
-select * from table1 inner join table2 on src=concat('node/',nid)

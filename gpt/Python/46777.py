@@ -1,0 +1,1 @@
+class DiskAnalyzer:\n    def __init__(self, disk_info_provider: DiskInfoProvider):\n        self.disk_info_provider = disk_info_provider\n\n    def analyze(self):\n        disks = self.disk_info_provider.get_logical_disk_info()\n        # Perform analysis\n        return disks

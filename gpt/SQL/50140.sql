@@ -1,0 +1,1 @@
+CREATE TABLE Comments (\n    CommentID INT NOT NULL,\n    AnswerID INT NOT NULL,\n    CommentText VARCHAR(255),\n    PRIMARY KEY (CommentID),\n    INDEX idx_answer_id (AnswerID),\n    -- Composite clustered index\n    UNIQUE CLUSTERED (AnswerID, CommentID)\n);

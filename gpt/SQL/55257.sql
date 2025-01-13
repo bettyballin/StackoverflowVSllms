@@ -1,0 +1,1 @@
+SELECT * \nFROM a, b, c, d \nWHERE b.aid = a.id AND c.id = a.cid AND a.did = d.id AND a.did = 'XXX'\nORDER BY a.status;

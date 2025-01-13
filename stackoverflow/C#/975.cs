@@ -1,1 +1,0 @@
-emailMessage.To.Add(sendTo);

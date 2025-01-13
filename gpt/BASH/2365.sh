@@ -1,0 +1,1 @@
+sudo journalctl -u your_service_name

@@ -1,1 +1,0 @@
-regsvr32 %windir%\system32\inetsrv\inetmgr.dll

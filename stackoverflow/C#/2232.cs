@@ -1,1 +1,0 @@
-static IEnumerable<T[]> Permute<T>(this T[] xs, params T[] pre) {\n    if (xs.Length == 0) yield return pre;\n    for (int i = 0; i < xs.Length; i++) {\n        foreach (T[] y in Permute(xs.Take(i).Union(xs.Skip(i+1)).ToArray(), pre.Union(new[] { xs[i] }).ToArray())) {\n            yield return y;\n        }\n    }\n}

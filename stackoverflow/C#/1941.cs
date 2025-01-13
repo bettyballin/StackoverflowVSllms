@@ -1,1 +1,0 @@
-\nif (Context.Session != null)\n{\n  if (Session.IsNewSession)\n  {\n    // delete temporary files<br>\n  } \n}\n</pre>

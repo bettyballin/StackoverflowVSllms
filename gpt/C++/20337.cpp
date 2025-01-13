@@ -1,0 +1,1 @@
+#pragma warning(disable : 4006)\n\n#include "A.h"\n#include "B.h"\n\n// Your code for X

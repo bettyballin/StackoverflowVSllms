@@ -1,0 +1,1 @@
+./count_packets your_pcap_file.pcap

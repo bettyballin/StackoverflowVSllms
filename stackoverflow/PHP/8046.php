@@ -1,1 +1,0 @@
-echo ($obj->myvar);\n\n####\n\n$k = "myvar";\necho ($obj->$k);

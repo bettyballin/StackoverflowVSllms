@@ -1,0 +1,1 @@
+java -Djava.net.useSystemProxies=true -cp . Stacklet

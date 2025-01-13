@@ -1,0 +1,1 @@
+SELECT \n    r.session_id,\n    r.start_time,\n    t.text AS [Most_Recent_SQL_Command]\nFROM \n    sys.dm_exec_requests r\nCROSS APPLY \n    sys.dm_exec_sql_text(r.sql_handle) t\nORDER BY \n    r.start_time DESC;

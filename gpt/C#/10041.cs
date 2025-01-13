@@ -1,0 +1,1 @@
+using (var context = new YourDbContext())\n   {\n       var result = context.YourEntities.ToList();\n   }

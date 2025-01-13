@@ -1,0 +1,1 @@
+latex your-document.tex\ndvips your-document.dvi\nps2pdf your-document.ps

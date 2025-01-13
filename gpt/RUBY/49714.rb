@@ -1,0 +1,1 @@
+def some_method\n  Rails.logger.debug "Debug message: #{some_variable}"\n  # Your code here\nend

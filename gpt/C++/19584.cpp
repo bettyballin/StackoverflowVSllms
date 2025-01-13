@@ -1,0 +1,1 @@
+BEGIN_MESSAGE_MAP(CMyDialog, CDialog)\n    ON_EN_KILLFOCUS(IDC_EDIT1, &CMyDialog::OnEnKillFocusEdit1)\nEND_MESSAGE_MAP()

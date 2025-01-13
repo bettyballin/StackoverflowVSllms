@@ -1,1 +1,0 @@
-impdp ... Content=data_only exclude=TABLE:"IN ('table1', 'table2')"

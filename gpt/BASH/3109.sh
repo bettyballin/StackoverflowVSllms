@@ -1,0 +1,1 @@
+arm-linux-gcc -o test_runner test_mycode.c mycode.c unity.c\n./test_runner

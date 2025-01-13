@@ -1,0 +1,1 @@
+Public Class MyClass\n    <MyCustomAttribute("This is the ID property")>\n    Public Property ID As Integer\n\n    <MyCustomAttribute("This is the Name property")>\n    Public Property Name As String\nEnd Class

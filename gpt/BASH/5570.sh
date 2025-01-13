@@ -1,0 +1,1 @@
+gs -dBATCH -dNOPAUSE -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -sOutputFile=cleaned.pdf -f library.pdf

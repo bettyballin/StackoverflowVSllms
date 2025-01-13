@@ -1,0 +1,1 @@
+void MyFunc(int number, FILEINFO*(BigClass::*GetFiles)(FILEINFO*), BigClass* obj, FILEINFO* args, int type) {\n    // You can call the member function pointer like this:\n    FILEINFO* result = (obj->*GetFiles)(args);\n    // Do something with the result\n}

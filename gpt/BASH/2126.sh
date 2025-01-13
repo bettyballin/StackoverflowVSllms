@@ -1,0 +1,1 @@
+# Allow outbound HTTP traffic to a trusted IP\niptables -A OUTPUT -p tcp -d 192.0.2.1 --dport 80 -j ACCEPT\n\n# Block all other outbound HTTP traffic\niptables -A OUTPUT -p tcp --dport 80 -j DROP

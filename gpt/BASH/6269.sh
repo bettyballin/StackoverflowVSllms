@@ -1,0 +1,1 @@
+cc -Wall -O3 -v -fPIC -fomit-frame-pointer -I vm -D_GNU_SOURCE -arch i386 -L/usr/local/lib -L/opt/local/lib -I/opt/local/include  -o vm/threads.o -c vm/threads.c

@@ -1,0 +1,1 @@
+SELECT id, \n       client,\n       project,\n       task,\n       REPLACE(REPLACE(REPLACE(ifnull(ts.description,''), '\n', ' '), '\r', ' '), '"', '""') AS description, \n       time,\n       date  \nINTO OUTFILE '/path/to/file.csv'\nFIELDS TERMINATED BY ',' ENCLOSED BY '"'\nLINES TERMINATED BY '\n'\nFROM timesheets_table;

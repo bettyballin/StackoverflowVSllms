@@ -1,0 +1,1 @@
+import pstats\n\np = pstats.Stats('cprofile_stats')\np.sort_stats('cumulative').print_stats(10)

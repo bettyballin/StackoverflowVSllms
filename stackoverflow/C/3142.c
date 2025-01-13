@@ -1,1 +1,0 @@
-* create sorted container (std::multiset) of first 1000 numbers\n* in loop (j=1, j<(3600000-1000); ++j)\n   - calculate range\n   - remove from the set number which is now irrelevant (i.e. in index *j - 1* of the array)\n   - add to set new relevant number  (i.e. in index *j+1000-1* of the array)

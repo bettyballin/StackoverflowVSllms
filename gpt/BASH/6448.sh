@@ -1,0 +1,1 @@
+gcc -pg -o myprogram myprogram.c -lpthread

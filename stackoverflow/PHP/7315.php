@@ -1,1 +1,0 @@
-$title_words = split($title);\n\n$rel_title = 'select * from tbl_content where status = \'t\' and (1=0';\n\nforeach($title as $word)\n{\n    $word = str_replace(',', '', $word);\n    $word = mysql_real_escape_string($word);\n    $rel_title .= ' or article_title like \'%' . $word . '%\'';\n}\n\n$rel_title .= ')';\n\necho $rel_title;

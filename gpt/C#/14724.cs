@@ -1,0 +1,1 @@
+[WebMethod]\n[ScriptMethod(ResponseFormat = ResponseFormat.Json)]\npublic void PingService(string x, string y, string z)\n{\n    HttpContext.Current.Response.AppendHeader("Access-Control-Allow-Origin", "*");\n    // Your service code here\n}

@@ -1,1 +1,0 @@
-SELECT col1, col2 FROM table1 WHERE colDate = CONVERT(DATETIME, @date, 120)

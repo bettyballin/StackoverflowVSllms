@@ -1,1 +1,0 @@
-protected MailMessage CreateMailMessage()\n            {\n              .....\n\n                message.IsBodyHtml = true;\n              .....\n\n                return message;\n            }

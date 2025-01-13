@@ -1,0 +1,1 @@
+%windir%\Microsoft.NET\Framework64\v2.0.50727\aspnet_regiis.exe -i

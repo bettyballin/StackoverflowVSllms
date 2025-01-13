@@ -1,1 +1,0 @@
-<?php\n\n$string = 'realpage.php#' . $_SERVER['QUERY_STRING'];\n\nheader('location: ' . $string);\n\n?>

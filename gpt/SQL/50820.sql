@@ -1,0 +1,1 @@
+DELIMITER //\n     CREATE PROCEDURE myProcedure()\n     BEGIN\n         DECLARE myVar INT DEFAULT 5;\n         SELECT myVar; -- Returns 5\n     END //\n     DELIMITER ;

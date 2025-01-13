@@ -1,0 +1,1 @@
+using System.ServiceModel;\nusing System.ServiceModel.Web;\n\n[ServiceContract]\npublic interface IMyService\n{\n    [WebGet(UriTemplate = "MyMethod?MyParam={MyParam}")]\n    [OperationContract]\n    string MyMethod(string MyParam);\n}\n\npublic class MyService : IMyService\n{\n    public string MyMethod(string MyParam)\n    {\n        return "Hello " + MyParam;\n    }\n}

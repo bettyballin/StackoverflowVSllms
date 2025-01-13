@@ -1,0 +1,1 @@
+-- V2__add_user_table.sql\n   CREATE TABLE user (\n       id INT PRIMARY KEY,\n       name VARCHAR(255)\n   );\n\n   -- V2__add_user_table_rollback.sql\n   DROP TABLE user;

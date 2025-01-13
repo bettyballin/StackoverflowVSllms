@@ -1,1 +1,0 @@
-var query = db.Customers;\nif (selectID.HasValue)\n{\n   query = query.Where( c => c.ID > selectID.Value );\n}\nif (!string.IsNullOrEmpty( nameFilter ))\n{\n   query = query.Where( c => c.Name.Contains( nameFilter ) );\n}\n\nforeach (var customer in query) // now the query is performed\n{\n ...\n}

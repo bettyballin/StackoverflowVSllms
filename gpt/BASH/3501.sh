@@ -1,0 +1,1 @@
+export LD_AUDIT=/path/to/your/audit.so\n   ./target_applicatio

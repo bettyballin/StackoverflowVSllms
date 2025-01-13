@@ -1,1 +1,0 @@
-HttpResponse response = HttpContext.Current.Response;\nresponse.Clear();\nresponse.ContentType = "application/octet-stream";\nresponse.Charset = "";\nresponse.AddHeader("Content-Disposition", String.Format("attachment; filename=\"{0}\"", filename));\nresponse.Flush();\nresponse.Write(text);\nresponse.End();

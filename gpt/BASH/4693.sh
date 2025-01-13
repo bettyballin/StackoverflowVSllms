@@ -1,0 +1,1 @@
+ohup ./long_running_script.sh > /dev/null 2>&1 &

@@ -1,1 +1,0 @@
-foreach($_REQUEST as $key=>$value){\n  //doStuff\n}

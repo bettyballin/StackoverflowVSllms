@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS c\nFROM BANS\nWHERE typeid=4\n  AND (\n    INET_ATON('192.168.1.1') & (0xFFFFFFFF << (32 - cidr))\n    = \n    INET_ATON(ipaddr) & (0xFFFFFFFF << (32 - cidr))\n  );

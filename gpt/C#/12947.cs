@@ -1,0 +1,1 @@
+string ldapPath = "LDAP://your-ldap-server";\nstring username = "your-username";\nstring password = "your-password";\n\nbool isConnected = LdapConnectionChecker.IsConnected(ldapPath, username, password);\n\nConsole.WriteLine(isConnected ? "Connected successfully!" : "Failed to connect.");

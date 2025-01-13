@@ -1,0 +1,1 @@
+# db/migrate/xxxx_create_links.rb\nclass CreateLinks < ActiveRecord::Migration[6.1]\n  def change\n    create_table :links do |t|\n      t.integer :word1_id, null: false\n      t.integer :word2_id, null: false\n\n      t.timestamps\n    end\n\n    add_index :links, :word1_id\n    add_index :links, :word2_id\n    add_index :links, [:word1_id, :word2_id], unique: true\n  end\nend

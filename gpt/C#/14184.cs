@@ -1,0 +1,1 @@
+DirectoryEntry user = new DirectoryEntry("LDAP://cn=myuser,ou=users,dc=example,dc=com");

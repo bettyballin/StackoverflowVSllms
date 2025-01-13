@@ -1,1 +1,0 @@
-if (!current_user_can('edit_posts')){\n\n//redirect, error, etc as you like\n\n}

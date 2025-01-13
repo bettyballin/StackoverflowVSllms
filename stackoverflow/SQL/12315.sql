@@ -1,1 +1,0 @@
-SELECT user_id, MAX(score)\nFROM user_scores \nGROUP BY user_id \nORDER BY MAX(score) DESC \nLIMIT 5

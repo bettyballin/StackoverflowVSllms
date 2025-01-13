@@ -1,0 +1,1 @@
+var request = (HttpWebRequest)WebRequest.Create("https://example.com");\n    using (var response = (HttpWebResponse)request.GetResponse())\n    {\n        using (var stream = response.GetResponseStream())\n        {\n            // Process the response stream\n        }\n    }

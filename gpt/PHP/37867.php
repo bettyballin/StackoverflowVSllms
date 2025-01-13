@@ -1,0 +1,1 @@
+// process.php\nsession_start();\n\nfunction updateProgress($progress) {\n    $_SESSION['progress'] = $progress;\n    session_write_close();\n    sleep(1); // Simulate time-consuming task\n}\n\n// Simulate a long-running task\nfor ($i = 1; $i <= 100; $i++) {\n    updateProgress($i);\n}\n\necho json_encode(['status' => 'complete']);

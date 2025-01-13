@@ -1,0 +1,1 @@
+CREATE OR REPLACE PACKAGE test_set_shift_times_to_null IS\n   --%suite\n   --%suitepath(SomePath)\n\n   --%test\n   PROCEDURE test_set_shift_times_to_null_basic;\n\nEND test_set_shift_times_to_null;\n/

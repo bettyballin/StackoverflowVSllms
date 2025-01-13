@@ -1,0 +1,1 @@
+Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));\nRouter::connect('/users/login', array('controller' => 'users', 'action' => 'login'));

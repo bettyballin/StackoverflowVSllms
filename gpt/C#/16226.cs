@@ -1,0 +1,1 @@
+var config = new MapperConfiguration(cfg => {\n    cfg.AddProfile<MappingProfile>();\n});\n\nIMapper mapper = config.CreateMapper();

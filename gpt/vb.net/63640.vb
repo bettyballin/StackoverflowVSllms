@@ -1,0 +1,1 @@
+Dim myDictionary As New Dictionary(Of String, String)\nmyDictionary.Add("key1", "value1")\nmyDictionary.Add("key2", "value2")\nmyDictionary.Add("key3", "value3")

@@ -1,0 +1,1 @@
+// Adding an event listener\n     myObject.addEventListener(EventType, eventHandler);\n\n     // Make sure to remove the event listener when it's no longer needed\n     myObject.removeEventListener(EventType, eventHandler);

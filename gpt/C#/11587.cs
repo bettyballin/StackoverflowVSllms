@@ -1,0 +1,1 @@
+static async Task Main(string[] args)\n{\n    Client client = new Client();\n    await client.StartAsync();\n}

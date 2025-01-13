@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION storeopeninghours_tostring(numeric)\n RETURNS SETOF RECORD AS $$\nDECLARE\n open_id ALIAS FOR $1;\n result RECORD;\nBEGIN\n RETURN QUERY SELECT '1', '2', '3';\n RETURN QUERY SELECT '3', '4', '5';\n RETURN QUERY SELECT '3', '4', '5';\nEND\n$$;

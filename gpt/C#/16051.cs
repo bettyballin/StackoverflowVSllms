@@ -1,0 +1,1 @@
+IQueryable<Event> test3 = this.GetSortedEvents().Where(e => e.FinishDateTime.AddHours(3).Date >= DateTime.UtcNow.AddHours(3).Date);

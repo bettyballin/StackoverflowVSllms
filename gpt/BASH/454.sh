@@ -1,0 +1,1 @@
+dumpbin /SYMBOLS MyClass.obj

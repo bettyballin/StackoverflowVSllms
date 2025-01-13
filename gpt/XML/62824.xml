@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?>\n<root>\n  <child>This is a child element</child>\n  <anotherChild attribute="value">This is another child element</anotherChild>\n</root>

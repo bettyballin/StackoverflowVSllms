@@ -1,1 +1,0 @@
-$res = mysql_query("SELECT title FROM pageContent WHERE pageID=" . $escapedpage);\n $title = mysql_fetch_assoc($res);\n $title = $title['title']\n $res2 = mysql_query("SELECT content FROM pageContent WHERE pageID=" . $escapedpage);\n $content = mysql_fetch_assoc($res2);\n $content = $content['content'];

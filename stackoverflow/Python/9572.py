@@ -1,1 +1,0 @@
-menuitem = gtk.MenuItem('This is the label')

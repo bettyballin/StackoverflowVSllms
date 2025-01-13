@@ -1,0 +1,1 @@
+<?php\n\nrequire_once(__DIR__ . "/utils/Result.php");\n\nprint_r(Result::ok());\n?>

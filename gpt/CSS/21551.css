@@ -1,0 +1,1 @@
+.container {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 5%; /* Adjust for spacing */\n}\n\n.item {\n  flex: 1 1 45%; /* Adjust as needed */\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  border: 1px solid #ddd; /* Optional: for better visual separation */\n  padding: 5px; /* Optional: for better readability */\n  box-sizing: border-box;\n}

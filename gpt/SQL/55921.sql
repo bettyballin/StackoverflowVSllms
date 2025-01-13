@@ -1,0 +1,1 @@
+CREATE MATERIALIZED VIEW mv_currency_rates\n   REFRESH FAST ON DEMAND\n   AS SELECT * FROM remote_db.currency_rates@dblink_name;

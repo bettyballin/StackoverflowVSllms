@@ -1,1 +1,0 @@
-class Submission\n  has_many :ratings\n  validates_uniqueness_of :rating, :scope => :user_id\nend

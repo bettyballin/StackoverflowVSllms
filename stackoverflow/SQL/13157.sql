@@ -1,1 +1,0 @@
-select max(col1) \n     , f_col2\n  from (\n         select col1\n              , f(? ,col2) as f_col2 \n           from t\n       )\n group\n    by f_col2

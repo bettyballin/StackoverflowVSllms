@@ -1,0 +1,1 @@
+SELECT *\nFROM my_schema.my_table\nWHERE column_name = 'value';

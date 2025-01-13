@@ -1,1 +1,0 @@
-$query = "SELECT\n    s.id         AS s_id\n    s.name       AS s_name\n    a.id         AS a_id\n    a.student_id AS a_student_id\n    a.address    AS a_address\n    ... ";

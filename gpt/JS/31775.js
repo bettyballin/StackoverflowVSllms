@@ -1,0 +1,1 @@
+$.get("url", function(data) {\n       // data needs to be parsed if it's JSON\n       console.log(data);\n   }, "json");

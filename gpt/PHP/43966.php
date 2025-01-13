@@ -1,0 +1,1 @@
+<?php\n// Path to the .cmd file\n$cmdFile = 'C:\\path\\to\\your\\file.cmd';\n\n// Execute the .cmd file and capture the output\n$output = shell_exec($cmdFile);\n\n// Display the output\necho "<pre>$output</pre>";\n?>

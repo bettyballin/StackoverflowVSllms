@@ -1,0 +1,1 @@
+<browsers>\n  <browser id="Default" parentID="Default">\n    <controlAdapters>\n      <adapter controlType="System.Web.UI.WebControls.TreeView" adapterType="Namespace.CustomTreeViewAdapter" />\n    </controlAdapters>\n  </browser>\n</browsers>

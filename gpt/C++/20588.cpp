@@ -1,0 +1,1 @@
+// ccc.cpp\n#include "shared.h"\n\nextern SharedState sharedState;\n\nbool getState() {\n    return sharedState.isSet;\n}

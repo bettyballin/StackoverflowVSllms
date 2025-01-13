@@ -1,0 +1,1 @@
+cabwiz.exe yourapp.inf

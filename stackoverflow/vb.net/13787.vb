@@ -1,1 +1,0 @@
-oObject.Name = IF(oReader.Item("Name").Equals(DBNull.Value),string.Empty,DirectCast(oReader.Item("Name"), String))

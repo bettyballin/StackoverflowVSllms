@@ -1,0 +1,1 @@
+use Zend\Escaper\Escaper;\n\n$escaper = new Escaper('utf-8');\n\n$userInput = "<script>alert('XSS');</script>";\n\n// Escape for HTML context\n$escapedOutput = $escaper->escapeHtml($userInput);\n\necho $escapedOutput;  // &lt;script&gt;alert(&#039;XSS&#039;);&lt;/script&gt;

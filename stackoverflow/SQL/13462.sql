@@ -1,1 +1,0 @@
-SELECT c.id, c.title,\n    SUM(ts1.section_id = 1) AS doc1,\n    SUM(ts1.section_id = 2) AS doc2,\n    SUM(ts1.section_id = 3) AS doc3,\n    SUM(ts1.section_id = 4) AS doc4\nFROM category AS c\n  LEFT JOIN category_link_section AS ts1\n    ON (c.id = ts1.category_id)\nGROUP BY c.id;

@@ -1,0 +1,1 @@
+SELECT * FROM sample_table WHERE age IS NOT NULL;

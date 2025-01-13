@@ -1,0 +1,1 @@
+<class name="D" table="D">\n    <id name="id" column="ID">\n        <generator class="foreign">\n            <param name="property">b</param>\n        </generator>\n    </id>\n    <one-to-one name="b" class="B" constrained="true" />\n    <property name="dProperty" column="D_PROPERTY" />\n</class>

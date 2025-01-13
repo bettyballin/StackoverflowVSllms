@@ -1,0 +1,1 @@
+// Atomic flag using Test-and-Set\n   int flag = 0;\n\n   void set_flag() {\n       __sync_lock_test_and_set(&flag, 1);\n   }\n\n   void clear_flag() {\n       __sync_lock_release(&flag);\n   }\n\n   int check_flag() {\n       return __sync_lock_test_and_set(&flag, 0);\n   }

@@ -1,1 +1,0 @@
-ssh -L 9000:10.5.128.5:3690 root@<mypublicallyexposedaddress>

@@ -1,0 +1,1 @@
+<?php\n    // Define the command\n    $cmd = '"C:\\Program Files\\Java\\jdk1.6.0_14\\bin\\java" Importer 1 2 updated.txt 7';\n\n    // Execute the command\n    $output = shell_exec($cmd);\n\n    // Output the result\n    echo "okay";\n?>

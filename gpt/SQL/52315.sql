@@ -1,0 +1,1 @@
+SELECT * FROM your_table\nWHERE brand = (SELECT brand FROM your_table WHERE id = 300);

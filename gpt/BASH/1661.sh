@@ -1,0 +1,1 @@
+pkg install SUNWgcc SUNWbinutils SUNWgmake SUNWflex

@@ -1,1 +1,0 @@
-low_prio_isr(void)\n{\n    LOW_PRIO_ISR=1;\n    if (1 == HIGH_PRIO_ISR)\n    { this may never happen. dummy statement to allow breakpoint in debugger }\n\n}\n\nhigh_prio_isr(void)\n{\n    HIGH_PRIO_ISR=1\n} 

@@ -1,0 +1,1 @@
+g++ -o my_app my_app.cpp -lboost_log -lboost_system -lpthread\n   ./my_app

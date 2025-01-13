@@ -1,0 +1,1 @@
+import lorem\n\n   # Generate a paragraph\n   print(lorem.paragraph())\n\n   # Generate multiple paragraphs\n   print(lorem.paragraphs(2))

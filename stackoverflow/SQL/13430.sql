@@ -1,1 +1,0 @@
-CLUSTERED INDEX (a, b)\nINDEX (b)

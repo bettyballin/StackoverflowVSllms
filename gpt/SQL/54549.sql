@@ -1,0 +1,1 @@
+SELECT \n    WEEK(dateField) - WEEK(DATE_SUB(dateField, INTERVAL DAYOFMONTH(dateField) - 1 DAY)) + 1 AS week_of_month\nFROM \n    your_table_name;

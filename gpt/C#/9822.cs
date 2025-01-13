@@ -1,0 +1,1 @@
+[EventSource(Name = "MyCompany-MyApp")]\n   public sealed class MyEventSource : EventSource\n   {\n       public static MyEventSource Log = new MyEventSource();\n\n       [Event(1, Message = "Starting up.", Level = EventLevel.Informational)]\n       public void Startup() => WriteEvent(1);\n   }

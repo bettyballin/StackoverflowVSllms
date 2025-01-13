@@ -1,1 +1,0 @@
-var isDirty = false;\n\nfunction SomethingChanged(){\n     if( !isDirty ) isDirty = true;\n     btnSubmit.disabled = !isDirty;\n}

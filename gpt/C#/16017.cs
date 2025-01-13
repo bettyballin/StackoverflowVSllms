@@ -1,0 +1,1 @@
+void SetFocusControl(ref object ctl)\n{\n    if (ctl is System.Windows.Forms.Control control)\n    {\n        control.Focus();\n    }\n}

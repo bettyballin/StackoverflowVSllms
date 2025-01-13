@@ -1,0 +1,1 @@
+/* Set explicit widths for table columns */\ntable th, table td {\n    width: 100px; /* Adjust the width as necessary */\n    word-wrap: break-word; /* Prevent text overflow */\n}\n\n/* Adjust the tablesorter CSS */\n.tablesorter {\n    table-layout: fixed;\n    width: 100%;\n}\n\n.tablesorter th {\n    overflow: hidden;\n    white-space: nowrap;\n}

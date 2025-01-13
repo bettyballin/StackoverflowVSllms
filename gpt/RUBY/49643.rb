@@ -1,0 +1,1 @@
+library(e1071)\n\n# Create a data frame\ndata <- data.frame(\n  day_of_week = c(0,1,2,3,4,5,6),\n  holiday = factor(c(T, F, F, F, F, F, T))\n)\n\n# Train the SVM model\nmodel <- svm(holiday ~ day_of_week, data = data)\n\n# Plot the SVM classification\nplot(model, data)

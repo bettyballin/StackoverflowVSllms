@@ -1,0 +1,1 @@
+require_once DEFPATH . 'config.inc.php';

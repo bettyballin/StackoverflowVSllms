@@ -1,0 +1,1 @@
+<dependencies>\n       <!-- Other dependencies -->\n\n       <!-- ScalaTest dependency -->\n       <dependency>\n           <groupId>org.scalatest</groupId>\n           <artifactId>scalatest_2.12</artifactId>\n           <version>3.2.9</version>\n           <scope>test</scope>\n       </dependency>\n   </dependencies>

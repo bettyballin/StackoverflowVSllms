@@ -1,1 +1,0 @@
-update (select * from mytable order by old_id) set new_id = mysequence.nextval;

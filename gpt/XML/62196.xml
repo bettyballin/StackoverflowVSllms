@@ -1,0 +1,1 @@
+<enunciate>\n  <!-- Other configurations -->\n  \n  <api-classes>\n    <include pattern="com.yourpackage.**"/>\n  </api-classes>\n\n  <deployment>\n    <artifact id="spring.war.file" name="Your WAR Name">\n      <webapp>\n        <dependency>\n          <include pattern="**/*.jar"/>\n        </dependency>\n      </webapp>\n    </artifact>\n  </deployment>\n</enunciate>

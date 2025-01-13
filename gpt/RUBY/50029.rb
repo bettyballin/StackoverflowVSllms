@@ -1,0 +1,1 @@
+class User < ApplicationRecord\n  # Assuming you have some validations for the login attribute\n  validates :login, presence: true, uniqueness: true\n\n  def self.valid_attribute?(attr, value)\n    instance = self.new(attr => value)\n    instance.valid?\n    !instance.errors[attr].any?\n  end\nend

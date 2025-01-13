@@ -1,0 +1,1 @@
+/* {{{ proto string hello_world()\n    *    Returns a greeting string\n    */\n   PHP_FUNCTION(hello_world)\n   {\n       RETURN_STRING("Hello, World!", 1);\n   }\n   /* }}} */

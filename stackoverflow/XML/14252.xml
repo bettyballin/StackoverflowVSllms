@@ -1,1 +1,0 @@
-<fragment type="link_img_caption">\n  <link href="%PANELLINK%" />\n  <img src="%PANELIMAGE%" style="%IMAGESTYLE%" />\n  <caption text="%CAPTIONTEXT%" />\n</fragment>

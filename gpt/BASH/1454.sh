@@ -1,0 +1,1 @@
+# List current event subscribers\n   Get-EventSubscriber\n   \n   # Unregister an event\n   Unregister-Event -SourceIdentifier "MSMQQueueMonitor"\n   Unregister-Event -SourceIdentifier "MSMQQueueMonitorRemove"

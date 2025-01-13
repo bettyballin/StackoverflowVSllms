@@ -1,0 +1,1 @@
+composer create-project zendframework/skeleton-application path/to/install

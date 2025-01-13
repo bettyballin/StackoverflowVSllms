@@ -1,1 +1,0 @@
-static int addTwo(int x)\n{\n  return x + 2;\n}

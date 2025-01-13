@@ -1,0 +1,1 @@
+export EMAIL_USER="your_email@example.com"\n    export EMAIL_PASS="your_password"

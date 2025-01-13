@@ -1,1 +1,0 @@
-int sofar = 0;\nint selected = -1;\nfor (i = 0; i < 52; ++i) {\n    if (used[i]) continue;\n    ++sofar;\n    if ((rand() % sofar) == 0) selected = i;\n}\nif (selected == -1) panic; // there were no usable cards \nelse used[selected] = 1;   // we have selected a card

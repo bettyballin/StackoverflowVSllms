@@ -1,0 +1,1 @@
+CREATE TABLE MappingTable (\n    ColumnA INT NOT NULL,\n    ColumnB INT NOT NULL,\n    CONSTRAINT PK_MappingTable PRIMARY KEY (ColumnA, ColumnB),\n    CONSTRAINT UQ_ColumnA UNIQUE (ColumnA),\n    CONSTRAINT UQ_ColumnB UNIQUE (ColumnB)\n);

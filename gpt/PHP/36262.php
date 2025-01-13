@@ -1,0 +1,1 @@
+'Upload' => [\n    'tmpPath' => WWW_ROOT . 'files' . DS . 'tmp' . DS,\n    'finalPath' => WWW_ROOT . 'files' . DS . 'images' . DS\n]

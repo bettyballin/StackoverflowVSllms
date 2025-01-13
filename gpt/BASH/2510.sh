@@ -1,0 +1,1 @@
+sc config <ServiceName> type= own type= interact

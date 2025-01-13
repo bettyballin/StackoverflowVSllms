@@ -1,1 +1,0 @@
-$db->query("SET @curr = 0.0;");

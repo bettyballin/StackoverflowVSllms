@@ -1,1 +1,0 @@
-select \n    size,\n    color\nfrom\n    sizes CROSS JOIN colors

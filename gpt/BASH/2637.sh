@@ -1,0 +1,1 @@
+svn checkout file:///path/to/mirror-repo

@@ -1,0 +1,1 @@
+<?php\nsession_start();\nif (empty($_SESSION['csrf_token'])) {\n    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));\n}\n?>

@@ -1,0 +1,1 @@
+phpenv install 5.0.0\n   phpenv install 5.2.8

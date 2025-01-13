@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "YourWebMethodUrl",\n    data: JSON.stringify({ number: "01502", numberTypeId: 2, companyId: 531 }),\n    contentType: "application/json; charset=utf-8",\n    dataType: "json",\n    success: function(response) {\n        console.log(response);\n    },\n    error: function(error) {\n        console.log(error);\n    }\n});

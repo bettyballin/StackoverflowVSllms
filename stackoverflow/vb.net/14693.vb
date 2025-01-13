@@ -1,1 +1,0 @@
-If Not System.IO.Directory.Exists(YourPath) Then\n    System.IO.Directory.CreateDirectory(YourPath)\nEnd If

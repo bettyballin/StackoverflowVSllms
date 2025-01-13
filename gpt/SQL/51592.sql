@@ -1,0 +1,1 @@
+-- Using int\nCREATE TABLE BitMaskInt (\n    ID INT PRIMARY KEY,\n    BitMask INT\n);\n\n-- Using varbinary\nCREATE TABLE BitMaskVarbinary (\n    ID INT PRIMARY KEY,\n    BitMask VARBINARY(16)  -- Adjust size based on your bit mask needs\n);

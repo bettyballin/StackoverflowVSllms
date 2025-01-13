@@ -1,0 +1,1 @@
+lead_time_for_changes = production_date - commit_date;

@@ -1,1 +1,0 @@
-function MyCC::CardInserted () { }

@@ -1,0 +1,1 @@
+gcc -o my_app main.c `pkg-config --cflags --libs gtk+-3.0`

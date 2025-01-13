@@ -1,1 +1,0 @@
-ProductID    ArrivalDate\n   1          10\n   2          11\n   3          11\n   4          11\n   5          12\n   6          12

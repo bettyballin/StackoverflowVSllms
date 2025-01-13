@@ -1,0 +1,1 @@
+mklink /D D:\ShortPath D:\TeamBuild\main-production\Company-Test DEV\Sources\root\main-production\customer-projects\Company

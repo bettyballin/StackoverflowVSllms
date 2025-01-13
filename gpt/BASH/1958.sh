@@ -1,0 +1,1 @@
+// Example of using WinImage in a script\n   winimage.exe /BATCHCREATE "A:\" "C:\images\floppy.img"

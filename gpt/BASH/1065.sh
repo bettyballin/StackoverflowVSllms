@@ -1,0 +1,1 @@
+jpeg2ps -h -b -r image.jpg > image.eps

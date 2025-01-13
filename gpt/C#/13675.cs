@@ -1,0 +1,1 @@
+public class ValidationResult\n{\n    public bool IsValid { get; set; }\n    public List<string> Errors { get; set; } = new List<string>();\n\n    public ValidationResult() { }\n\n    public ValidationResult(bool isValid, List<string> errors)\n    {\n        IsValid = isValid;\n        Errors = errors;\n    }\n}

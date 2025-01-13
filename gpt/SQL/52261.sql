@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n    SELECT *\n    FROM your_table\n    ORDER BY your_column\n)\nWHERE ROWNUM <= N;

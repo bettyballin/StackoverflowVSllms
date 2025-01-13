@@ -1,0 +1,1 @@
+' Suspend the layout logic for the form\nMe.SuspendLayout()\n\n' Perform your control updates here\n' Example:\nTextBox1.Text = "New Text"\nComboBox1.SelectedIndex = 1\nButton1.Enabled = False\n\n' Resume the layout logic for the form\nMe.ResumeLayout()\nMe.PerformLayout()

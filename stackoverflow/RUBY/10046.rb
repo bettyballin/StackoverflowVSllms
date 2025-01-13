@@ -1,1 +1,0 @@
-require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')\n\ndescribe ScoringMethods do\n\n  describe "should have scorePublicContest method" do\n    it "should have a scorePublicContest method" do\n      methods = ScoringMethods.instance_methods\n      methods[0].should match(/scorePublicContest/)\n    end\n  end\nend

@@ -1,0 +1,1 @@
+function makewindows(content) {\n    var newWindow = window.open("", "popupWindow", "width=600,height=400,scrollbars=yes");\n    newWindow.document.write(content);\n    newWindow.document.close();\n}

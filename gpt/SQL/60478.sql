@@ -1,0 +1,1 @@
+CREATE INDEX IDX_MetricsArchive_MetricDate ON MetricsArchive (MetricDate);\n    CREATE INDEX IDX_MetricsSummary_SummaryDate ON MetricsSummary (SummaryDate);

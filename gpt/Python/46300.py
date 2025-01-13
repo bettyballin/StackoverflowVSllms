@@ -1,0 +1,1 @@
+import pyodbc\n\n   database_path = 'path_to_your_access_database.accdb'\n   conn_str = (\n       r'DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};'\n       r'DBQ=' + database_path + ';'\n   )\n   conn = pyodbc.connect(conn_str)

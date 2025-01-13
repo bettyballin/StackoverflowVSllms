@@ -1,0 +1,1 @@
+ActionMailer::Base.smtp_settings = MY_SMTP_SETTINGS\n   ActionMailer::Base.delivery_method = :smtp\n   ActionMailer::Base.perform_deliveries = true\n   ActionMailer::Base.raise_delivery_errors = true\n   ActionMailer::Base.default_timeout = 60 # Increase this value

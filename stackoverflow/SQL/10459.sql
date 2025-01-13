@@ -1,1 +1,0 @@
-CASE WHEN Condition THEN Result\n     WHEN Condition2 THEN Result2\nELSE Default\nEND

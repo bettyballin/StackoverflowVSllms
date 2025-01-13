@@ -1,1 +1,0 @@
-var inprogress = true;\najaxRequest = ...\najaxRequest.onreadystatechange = function(){\n    if(ajaxRequest.readyState == 4){\n        inprogress = false;\n    }\n}

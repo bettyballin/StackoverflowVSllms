@@ -1,0 +1,1 @@
+<?xml version="1.0"?>\n   <!DOCTYPE cross-domain-policy SYSTEM "http://www.macromedia.com/xml/dtds/cross-domain-policy.dtd">\n   <cross-domain-policy>\n       <allow-access-from domain="www.domainA.com" />\n   </cross-domain-policy>

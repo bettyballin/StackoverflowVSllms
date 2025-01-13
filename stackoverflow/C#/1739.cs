@@ -1,1 +1,0 @@
-string xpath = "//location[name = //person[name='Jim']/name]";\nXmlNode locationNode = doc.SelectSingleNode(xpath);

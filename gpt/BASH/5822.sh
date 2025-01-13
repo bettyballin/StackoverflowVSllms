@@ -1,0 +1,1 @@
+sudo mkdir -p /u01/app/oracle/product/19.0.0/dbhome_1\n   sudo chown -R oracle:oinstall /u01

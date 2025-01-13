@@ -1,1 +1,0 @@
-HtmlDocument doc = new HtmlDocument();\n    doc.LoadHtml(html);\n    string s = doc.DocumentNode.SelectSingleNode("//body").InnerText;

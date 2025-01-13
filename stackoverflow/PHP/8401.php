@@ -1,1 +1,0 @@
-$query = 'INSERT INTO "test" ("id", "name") VALUES ';\n$data = array();\nfor ($i = 1; $i <= 10000; $i++) {\n  for ($j = 1; $j <= 100; $j++) {\n    $query .= '(?,?),';\n    $data[] = $i;\n    $data[] = 'Testing '.$j;\n  }\n}\n\n$query = substr($query, 0, -1);\nDB($query, $data);

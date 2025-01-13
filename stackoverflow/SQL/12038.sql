@@ -1,1 +1,0 @@
-SET @val = -99999  -- or some other value that will never occur in the table\nSELECT @val = measurement FROM tbl_data WHERE persid = @curpersid AND yr = @curyear

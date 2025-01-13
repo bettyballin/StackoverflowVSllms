@@ -1,1 +1,0 @@
-declare\n  l_deleting_ind varchar2(1) := case when DELETING then 'Y' end;\nbegin\n  insert into audit_table (col1, col2)\n  values\n   ( CASE WHEN l_deleting_ind = 'Y' THEN :OLD.col1 ELSE :NEW.col1 END\n   , CASE WHEN l_deleting_ind = 'Y' THEN :OLD.col2 ELSE :NEW.col2 END\n   );\nend;

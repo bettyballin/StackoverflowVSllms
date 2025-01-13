@@ -1,0 +1,1 @@
+ioncube_encoder --encode PHP_FILE.php

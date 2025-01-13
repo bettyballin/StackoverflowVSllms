@@ -1,1 +1,0 @@
-$(function() {\n  $('#SemesterSelect').change( function() {\n      $.get( '<%= Url.Action('ListEmployees') %>/' + $(this).val(), function(data) {\n         $('#EmployeeList').html(data);\n      },\n      'html');\n  });\n});\n\n\n<%= Html.DropDownList("SemesterSelect",\n                        (IEnumerable<SelectListItem>)ViewData["Semesters"]) %>\n\n<div id="EmployeeList"></div>

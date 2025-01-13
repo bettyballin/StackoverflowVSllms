@@ -1,0 +1,1 @@
+#header_a {\n    width: 181px;\n    height: 127px;\n    color: #FFFFFF;\n    float: left;\n    overflow: hidden; /* Prevents overflow */\n    word-wrap: break-word; /* Allows text to wrap within the container */\n}

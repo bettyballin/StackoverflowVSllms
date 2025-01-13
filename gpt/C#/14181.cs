@@ -1,0 +1,1 @@
+static string ExtractCommonName(string distinguishedName)\n    {\n        Regex regex = new Regex(@"CN=([^,]+)", RegexOptions.IgnoreCase);\n        Match match = regex.Match(distinguishedName);\n\n        if (match.Success)\n        {\n            return match.Groups[1].Value;\n        }\n\n        return string.Empty;\n    }

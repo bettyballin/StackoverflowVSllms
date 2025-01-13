@@ -1,1 +1,0 @@
-$text = str_replace("\0", "", $text);

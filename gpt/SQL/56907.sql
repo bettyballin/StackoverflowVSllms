@@ -1,0 +1,1 @@
+ALTER TABLE your_table\nADD coalesced_column AS COALESCE(your_column, '');\n\nCREATE INDEX idx_coalesced_column ON your_table(coalesced_column);

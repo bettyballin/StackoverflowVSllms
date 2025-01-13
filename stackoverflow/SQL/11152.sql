@@ -1,1 +1,0 @@
-SELECT q.text, a.text\nFROM questions q\nLEFT JOIN answers a ON \n    q.quiestionid = q.id\nGROUP BY q.id, a.id\nORDER BY q.id

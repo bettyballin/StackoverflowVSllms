@@ -1,0 +1,1 @@
+<?php\n     $output = file_get_contents('http://yourdomain.com/path/to/visitors.cgi');\n     echo $output;\n     ?>

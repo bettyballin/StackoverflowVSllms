@@ -1,0 +1,1 @@
+public class YourEntity\n{\n    public virtual int Id { get; set; }\n    public virtual DateTime YourDateProperty { get; set; }\n}

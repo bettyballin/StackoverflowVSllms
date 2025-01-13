@@ -1,1 +1,0 @@
-DECLARE @StartDate DATETIME\nDECLARE @EndDate DATETIME\nSET @StartDate = '2008/10/01'\nSET @EndDate = '2008/10/31'\n\n\nSELECT\n   (DATEDIFF(dd, @StartDate, @EndDate) + 1)\n  -(DATEDIFF(wk, @StartDate, @EndDate) * 2)\n  -(CASE WHEN DATENAME(dw, @StartDate) = 'Sunday' THEN 1 ELSE 0 END)\n  -(CASE WHEN DATENAME(dw, @EndDate) = 'Saturday' THEN 1 ELSE 0 END)

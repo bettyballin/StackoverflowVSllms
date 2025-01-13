@@ -1,0 +1,1 @@
+import requests\n\ntoken_url = "https://oauth-provider.com/token"\nclient_id = "your-client-id"\nclient_secret = "your-client-secret"\n\nresponse = requests.post(token_url, data={\n    'grant_type': 'client_credentials',\n    'client_id': client_id,\n    'client_secret': client_secret\n})\n\naccess_token = response.json().get('access_token')

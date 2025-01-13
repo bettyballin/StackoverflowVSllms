@@ -1,0 +1,1 @@
+from django.db import models\n\nclass ValidationKey(models.Model):\n    key = models.CharField(max_length=32, unique=True)\n    is_used = models.BooleanField(default=False)\n    created_at = models.DateTimeField(auto_now_add=True)\n\n    def __str__(self):\n        return self.key

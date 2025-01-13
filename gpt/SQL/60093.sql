@@ -1,0 +1,1 @@
+CREATE TABLE AuthorBookVersions (\n    VersionID INT PRIMARY KEY,\n    AuthorID INT,\n    BookID INT,\n    Timestamp DATETIME,\n    FOREIGN KEY (AuthorID) REFERENCES Authors(AuthorID),\n    FOREIGN KEY (BookID) REFERENCES Books(BookID)\n);

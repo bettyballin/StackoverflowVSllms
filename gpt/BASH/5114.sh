@@ -1,0 +1,1 @@
+ld --gc-sections -o libmylib.so mylib.o

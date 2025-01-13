@@ -1,1 +1,0 @@
-SELECT count(*)\nFROM master..sysobjects as A\nJOIN tempdb..sysobjects as B\non A.name = B.name\n\nSELECT count(*)\nFROM master..sysobjects as A\nJOIN tempdb..sysobjects as B\non A.name LIKE B.name

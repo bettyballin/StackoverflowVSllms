@@ -1,0 +1,1 @@
+public MdiParentForm()\n{\n    InitializeComponent();\n    this.IsMdiContainer = true;\n    this.MdiChildActivate += new EventHandler(MdiParentForm_MdiChildActivate);\n}

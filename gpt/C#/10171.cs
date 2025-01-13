@@ -1,0 +1,1 @@
+public class TreeNode\n{\n    public string Name { get; set; }\n    public int Id { get; set; }\n    public List<TreeNode> Children { get; set; } = new List<TreeNode>();\n}

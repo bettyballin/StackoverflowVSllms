@@ -1,1 +1,0 @@
-$(document).bind("ajaxStart.mine", function() {\n    $('#ajaxProgress').show();\n});\n\n$(document).bind("ajaxStop.mine", function() {\n    $('#ajaxProgress').hide();\n});

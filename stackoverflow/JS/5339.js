@@ -1,1 +1,0 @@
-bytes = 'Content-Disposition: form-data; name="' + $fieldName + '"; filename="';

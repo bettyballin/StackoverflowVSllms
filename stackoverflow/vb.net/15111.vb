@@ -1,1 +1,0 @@
-Dim lstOfStrings() As String = Textbox1.Text.Split(","c)

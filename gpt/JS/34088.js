@@ -1,0 +1,1 @@
+$.ajax({\n    url: '/api/YourController/YourMethod',\n    type: 'GET', // or 'POST', etc.\n    data: { ... }, // your data\n    success: function(response) {\n        console.log(response);\n    },\n    error: function(error) {\n        console.error(error);\n    }\n});

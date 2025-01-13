@@ -1,0 +1,1 @@
+public Form1()\n{\n    InitializeComponent();\n    this.Load += new System.EventHandler(this.Form1_Load);\n}

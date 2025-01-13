@@ -1,0 +1,1 @@
+# Navigate to your project directory\ncd path\to\your\project\n\n# Delete temporary build files (adjust paths as necessary)\ndel /s /q Debug\ndel /s /q Release\n\n# Remove hidden .suo files\ndel /s /q *.suo\n\n# Clean and rebuild the solution in Visual Studio\n# Alternatively, you can use Visual Studio commands:\ndevenv /Clean Solution\ndevenv /Rebuild Solutio

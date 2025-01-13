@@ -1,0 +1,1 @@
+* * * * * www-data /usr/bin/php /path/to/your/test.php

@@ -1,0 +1,1 @@
+# Disable new sessions on the instance\nlbadmin disable-server --server-id=instance1\n\n# Wait for sessions to migrate\nsleep 300  # Adjust the wait time as necessary\n\n# Gracefully shutdown the instance\nopmnctl stopall

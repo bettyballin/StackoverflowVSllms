@@ -1,0 +1,1 @@
+$array1 = array(\n    2005 => 0,\n    2006 => 0,\n    2007 => 0,\n    2008 => 0,\n    2009 => 0\n);\n\n$array2 = array(\n    2007 => 5,\n    2008 => 6.05,\n    2009 => 7\n);\n\n$mergedArray = array_replace($array1, $array2);\n\nprint_r($mergedArray);

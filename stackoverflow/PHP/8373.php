@@ -1,1 +1,0 @@
-mysql_query("SELECT id FROM entries WHERE entries.date BETWEEN 'Y-M-D h:m:s' AND 'Y-M-D h:m:s'");

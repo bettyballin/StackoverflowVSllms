@@ -1,1 +1,0 @@
-Loading Data (Part 4): sqlldr (direct, skip_index_maintainance)

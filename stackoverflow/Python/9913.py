@@ -1,1 +1,0 @@
-# Follow a link\nbrowser.follow_link(link_node)\n\n# Submit a form\nbrowser.select_form(name="search")\nbrowser["authors"] = ["author #1", "author #2"]\nbrowser["volume"] = "any"\nsearch_response = br.submit()

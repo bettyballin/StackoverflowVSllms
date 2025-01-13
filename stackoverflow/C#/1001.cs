@@ -1,1 +1,0 @@
-using (ZipFile zip = new ZipFile())\n  {\n    zip.AddFile("ReadMe.txt"); // no password for this entry\n\n    // use a password for subsequent entries\n    zip.Password= "This.Encryption.is.FIPS.197.Compliant!";\n    zip.Encryption= EncryptionAlgorithm.WinZipAes256;\n    zip.AddFile("Rawdata-2008-12-18.csv");\n    zip.Save("Backup-AES-Encrypted.zip");\n  }

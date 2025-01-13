@@ -1,0 +1,1 @@
+// Remove the existing reference to the old office.dll\n    // Add a reference to the new office.dll from Office 2007

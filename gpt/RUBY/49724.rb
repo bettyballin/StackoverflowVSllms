@@ -1,0 +1,1 @@
+# Running SVN update\nsvn_output = `svn update`\nif $?.success?\n  puts "SVN update was successful."\nelse\n  puts "SVN update failed."\nend\n\n# Running cp command\ncp_output = `cp /source/directory /destination/directory`\nif $?.success?\n  puts "Copy command was successful."\nelse\n  puts "Copy command failed."\nend

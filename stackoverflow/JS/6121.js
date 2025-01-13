@@ -1,1 +1,0 @@
-node.parentNode.childNodes[]

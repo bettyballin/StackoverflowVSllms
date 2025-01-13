@@ -1,1 +1,0 @@
-if ( $final_price < 1 ) {\n    do_epic_fail(); // Show an error, whatever.\n}

@@ -1,0 +1,1 @@
+SELECT * FROM plprofiler_report_last_run();

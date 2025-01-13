@@ -1,0 +1,1 @@
+SELECT ProductID, [2019], [2020], [2021]\nFROM (SELECT ProductID, Year, SalesAmount FROM Sales) AS SourceTable\nPIVOT (SUM(SalesAmount) FOR Year IN ([2019], [2020], [2021])) AS PivotTable;

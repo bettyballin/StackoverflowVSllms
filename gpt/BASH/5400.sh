@@ -1,0 +1,1 @@
+icacls "C:\Path\To\ProfileDirectory" /grant UserName:F

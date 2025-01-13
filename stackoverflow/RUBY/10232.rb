@@ -1,1 +1,0 @@
-class FooBar < ActiveRecord::Base\n  validates_uniqueness_of :foo, :bar, :unless => :force_submit\n  attr_accessor :force_submit\nend

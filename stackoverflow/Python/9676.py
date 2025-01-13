@@ -1,1 +1,0 @@
-mylist = [1, 2, 3, 4, 5]\nbackwards = lambda l: (backwards (l[1:]) + l[:1] if l else []) \nprint backwards (mylist)

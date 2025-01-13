@@ -1,0 +1,1 @@
+inline void small_function() {\n       // Function body\n   }\n\n   // Or using a macro\n   #define SMALL_FUNCTION_MACRO() do { \\n       // Macro body \\n   } while (0)

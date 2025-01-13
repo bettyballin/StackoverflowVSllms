@@ -1,0 +1,1 @@
+[WebMethod]\npublic string getName(int userId) {\n    // Your logic to retrieve the name from the database\n    return name;\n}

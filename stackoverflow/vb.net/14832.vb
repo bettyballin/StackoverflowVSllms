@@ -1,1 +1,0 @@
-'dynamic array w/o pre-set length'\nDim Doubles() As Double\n\n'array of length 11'\nDim Doubles(10) As Double\n\n'array of Strings initialized with three items'\nDim Strings() As New String() {"String1", "String2", "String3"}

@@ -1,0 +1,1 @@
+require 'rtex'\n\ntex = File.read('example.tex')\npdf = RTex::Document.new(tex).to_pdf\n\nFile.open('example.pdf', 'wb') do |file|\n  file.write(pdf)\nend

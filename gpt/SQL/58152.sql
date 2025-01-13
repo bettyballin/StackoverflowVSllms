@@ -1,0 +1,1 @@
+CREATE TABLE Bookings (\n      BookingID INTEGER PRIMARY KEY AUTOINCREMENT,\n      CustomerID INTEGER NOT NULL,\n      BookingDateTime DATETIME NOT NULL,\n      UNIQUE (BookingDateTime)\n  );

@@ -1,1 +1,0 @@
-EntityID int\n,AttributeID int\n,Value varchar(255)

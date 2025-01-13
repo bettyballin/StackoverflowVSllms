@@ -1,0 +1,1 @@
+<!-- application/views/layouts/master.php -->\n<!DOCTYPE html>\n<html>\n<head>\n    <title><?php echo $title; ?></title>\n</head>\n<body>\n    <?php include('navbar.php'); ?>\n    <div>\n        <?php echo $content; ?>\n    </div>\n</body>\n</html>

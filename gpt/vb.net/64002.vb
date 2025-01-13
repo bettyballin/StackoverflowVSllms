@@ -1,0 +1,1 @@
+Dim myNullableInt As Integer? = Nothing\n   If Not myNullableInt.HasValue Then\n       ' Handle null value type\n   End If

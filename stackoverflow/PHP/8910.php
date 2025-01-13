@@ -1,1 +1,0 @@
-$config['Main_Database'] = '';\n$config['db_user'] = '';\n$config['db_pass'] = '';\n$config['db_host'] = '';

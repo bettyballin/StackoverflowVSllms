@@ -1,0 +1,1 @@
+Function EscapeSingleQuote(inputStr As String) As String\n    EscapeSingleQuote = Replace(inputStr, "'", "''")\nEnd Functio

@@ -1,0 +1,1 @@
+git clone https://git.eclipse.org/r/pde/eclipse.pde.ui.git\ncd eclipse.pde.ui

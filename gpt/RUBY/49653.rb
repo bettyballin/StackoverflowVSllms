@@ -1,0 +1,1 @@
+# test/models/parent_test.rb\nrequire 'test_helper'\n\nclass ParentTest < ActiveSupport::TestCase\n  setup do\n    @parent = FactoryBot.create(:parent)\n    FactoryBot.create_list(:child, 18, parent: @parent)\n  end\n\n  def test_children_association\n    assert_equal 18, @parent.children.count, "Parent.children isn't providing the right records"\n  end\nend

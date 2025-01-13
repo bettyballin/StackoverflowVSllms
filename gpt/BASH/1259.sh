@@ -1,0 +1,1 @@
+Host your-svn-server.com\n        ProxyCommand corkscrew http-proxy-server.com 8080 %h %p

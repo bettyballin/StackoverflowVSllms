@@ -1,0 +1,1 @@
+public class AppDbContext : DbContext\n{\n    public DbSet<Employee> Employees { get; set; }\n}

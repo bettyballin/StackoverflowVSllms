@@ -1,0 +1,1 @@
+using (var session = sessionFactory.OpenSession())\n{\n    session.EnableFilter("rootNodesOnly");\n    var componentGroup = session.Get<ComponentGroup>(groupId);\n    // Now componentGroup.Components will only include root nodes\n}

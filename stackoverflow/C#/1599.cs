@@ -1,1 +1,0 @@
-wsdl /out:myProxyClass.cs https://<server>/webservices/myservice.asmx?wsdl

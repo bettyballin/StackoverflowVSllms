@@ -1,1 +1,0 @@
-for (int i = 0; i < 4; ++i) {\n    a[i] = b[i] + c[i];\n}

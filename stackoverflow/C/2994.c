@@ -1,1 +1,0 @@
-std::transform(secondVec.begin(),\n               secondVec.end(),\n               std::back_inserter(firstVec),\n               std::tr1::bind(&Second::s1, _1));

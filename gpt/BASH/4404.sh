@@ -1,0 +1,1 @@
+tail -f /mnt/c/path/to/your/file.txt

@@ -1,1 +1,0 @@
-SELECT (select value from v$osstat where stat_name = 'BUSY_TICKS') /\n(\n   NVL((select value from v$osstat where stat_name = 'IDLE_TICKS'),0) +\n   NVL((select value from v$osstat where stat_name = 'BUSY_TICKS'),0) +\n   NVL((select value from v$osstat where stat_name = 'IOWAIT_TICKS'),0)\n)\nFROM DUAL;

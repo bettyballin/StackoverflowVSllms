@@ -1,1 +1,0 @@
-INSERT theTempTable (Code)\nSELECT t.Code\nFROM   theTable t\n       LEFT OUTER JOIN theTable subT ON (t.Code = subT.Code AND subT.status <> 'A')\nWHERE  subT.Code IS NULL\nGROUP BY t.Code

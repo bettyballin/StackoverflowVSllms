@@ -1,1 +1,0 @@
-string[] statuses = new string[] { "Parts Arr", "NA", "New Call", "Parts Ord", "Parts Req", "F Work" };\n    var x = (from ro in db.tbl_repair_order\n             where ro.contract == "con"\n                && statuses.Contains(ro.status)\n             group 0 by ro.status into grouping\n             select new { Status = grouping.Key, Count = grouping.Count() });

@@ -1,0 +1,1 @@
+public class Order\n{\n    public int Id { get; set; }\n    public DateTime OrderDate { get; set; }\n    public decimal TotalAmount { get; set; }\n    // Other properties\n}

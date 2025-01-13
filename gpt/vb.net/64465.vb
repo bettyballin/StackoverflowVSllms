@@ -1,0 +1,1 @@
+Dim hwnd As IntPtr = CanvasMap.Handle

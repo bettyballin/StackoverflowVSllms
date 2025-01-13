@@ -1,0 +1,1 @@
+CREATE TABLE ExampleTable (\n    ID INT PRIMARY KEY,\n    SomeBitField BIT,\n    AnotherBitField BIT\n);

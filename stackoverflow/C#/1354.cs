@@ -1,1 +1,0 @@
-Table.Columns.Remove("UnwantedColumnName")

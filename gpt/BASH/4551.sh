@@ -1,0 +1,1 @@
+gdb /path/to/executable /path/to/core

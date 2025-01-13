@@ -1,1 +1,0 @@
-if (Page_ClientValidate('Group Name'))\n{\n //Valid\n}

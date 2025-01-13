@@ -1,1 +1,0 @@
-Dim psiNewProcess As New ProcessStartInfo("Notepad.exe")\n\npsiNewProcess.UserName = "MyUserName"\npsiNewProcess.Password = "MyPassword"\n\nProcess.Start(psiNewProcess)

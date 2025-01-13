@@ -1,1 +1,0 @@
-exec mystoredproc @in_param_1, @in_param2_, @param1 OUTPUT, null

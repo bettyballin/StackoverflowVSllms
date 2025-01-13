@@ -1,1 +1,0 @@
-function utf8_urldecode($str) {\n\n  $str = str_replace("\\00", "%u00", $str);\n\n  $str = preg_replace("/%u([0-9a-f]{3,4})/i","&#x\\1;",urldecode($str));\n\n  return html_entity_decode($str,null,'UTF-8');\n\n}

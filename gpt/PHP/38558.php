@@ -1,0 +1,1 @@
+$config = HTMLPurifier_Config::createDefault();\n   $config->set('HTML.Allowed', 'p,b,a[href],i,em,strong,ul,ol,li'); // Example whitelist\n   $purifier = new HTMLPurifier($config);\n\n   $clean_html = $purifier->purify($user_input_html);

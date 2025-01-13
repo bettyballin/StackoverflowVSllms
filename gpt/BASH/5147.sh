@@ -1,0 +1,1 @@
+#!/bin/bash\n\nfor file in *.txt; do\n  # Extract the current release number using awk\n  current_release=$(awk '/Release:/ {print $2}' "$file")\n  \n  # Increment the release number\n  new_release=$((current_release + 1))\n  \n  # Update the release number in the file using sed\n  sed -i "s/Release: $current_release/Release: $new_release/" "$file"\ndone

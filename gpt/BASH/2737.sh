@@ -1,0 +1,1 @@
+svnadmin load C:\Repositories\YourNewRepoName < C:\Path\To\mydumpfile

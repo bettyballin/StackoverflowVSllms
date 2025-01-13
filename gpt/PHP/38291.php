@@ -1,0 +1,1 @@
+$row['date'] = '2009-07-13 04:16:31'; // Example timestamp from DB\n$unixTimestamp = strtotime($row['date']);\necho $date = date("l F j", $unixTimestamp);

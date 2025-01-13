@@ -1,0 +1,1 @@
+float number = 123.45f;\nstring query = $"select foo from bar where baz = {number.ToString(CultureInfo.InvariantCulture)}";

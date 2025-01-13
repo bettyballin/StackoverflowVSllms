@@ -1,0 +1,1 @@
+BEGIN\n   DBMS_UTILITY.compile_schema(schema => 'YOUR_SCHEMA_NAME');\nEND;\n/

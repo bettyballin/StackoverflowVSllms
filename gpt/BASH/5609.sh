@@ -1,0 +1,1 @@
+echo 'BASE_DIR="$HOME/code"' >> ~/.bashrc\necho 'SUBDIRS=$(find "$BASE_DIR" -type d)' >> ~/.bashrc\necho 'for DIR in $SUBDIRS; do PATH="$PATH:$DIR"; done' >> ~/.bashrc\necho 'export PATH' >> ~/.bashrc

@@ -1,1 +1,0 @@
-$cacheID = 'some_unique_value_for_this_page';\n$smarty->assign('page_center', 'product.tpl');\n$smarty->display('index.tpl', $cacheID);

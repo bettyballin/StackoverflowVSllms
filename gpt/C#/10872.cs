@@ -1,0 +1,1 @@
+using (var resource = new SomeDisposableResource())\n   {\n       // Use the resource\n   } // Dispose is called automatically here

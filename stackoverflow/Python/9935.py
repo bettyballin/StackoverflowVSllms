@@ -1,1 +1,0 @@
-work_instance.variants = [<some iterable of variants>]

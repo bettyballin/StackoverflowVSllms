@@ -1,0 +1,1 @@
+class C {\n    public:\n    void foo() {\n        std::cout << "foo called" << std::endl;\n    }\n};\n\nint main() {\n    C c{};  // Uniform initialization avoids the function declaration ambiguity\n    c.foo();\n    \n    return 0;\n}

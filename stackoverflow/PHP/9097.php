@@ -1,1 +1,0 @@
-$stripped=str_replace('www.', '', $domain);

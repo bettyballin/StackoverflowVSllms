@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\nProcess process = new Process();\nprocess.StartInfo.FileName = batchFilePath;\nprocess.StartInfo.CreateNoWindow = true;\nprocess.StartInfo.UseShellExecute = false;\nprocess.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;\nprocess.Start();

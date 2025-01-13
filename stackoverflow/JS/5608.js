@@ -1,1 +1,0 @@
-dojo.addOnLoad(function(){\n    var $bodyRow = dojo.query('#body tr')[0];\n    var $headRow = dojo.query('#head tr')[0];\n    dojo.forEach($bodyRow.cells, function(item, index){\n            var w = dojo.style($bodyRow.cells[index], 'width');\n            dojo.style($headRow.cells[index], 'width', w + "px");\n    });\n});

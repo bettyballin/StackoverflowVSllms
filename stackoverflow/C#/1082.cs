@@ -1,1 +1,0 @@
-listBox1.Items.Clear();

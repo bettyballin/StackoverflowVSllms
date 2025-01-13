@@ -1,0 +1,1 @@
+CREATE VIEW ActiveUsers AS\n   SELECT id, name, email\n   FROM Users\n   WHERE status = 'active';\n\n   -- Usage\n   SELECT * FROM ActiveUsers;

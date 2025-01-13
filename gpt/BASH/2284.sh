@@ -1,0 +1,1 @@
+setfacl -d -m u::rwx,g::rwx,o::r /path/to/shared/directory\n   setfacl -d -m mask::rwx /path/to/shared/directory

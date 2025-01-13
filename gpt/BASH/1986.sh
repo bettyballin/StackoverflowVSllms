@@ -1,0 +1,1 @@
+expdp username/password@database schemas=your_schema directory=your_directory dumpfile=your_dumpfile.dmp logfile=your_logfile.log

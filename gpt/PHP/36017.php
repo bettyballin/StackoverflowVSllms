@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\necho "<p>The userid session variable is: " . $_SESSION['userid'] . "</p>";\necho "<p>The other session variable is: " . $_SESSION['textvar'] . "</p>";\n?>\n<p>Go to the <a href="sess1.php">last page</a>.</p>

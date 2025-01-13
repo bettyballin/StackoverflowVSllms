@@ -1,0 +1,1 @@
+using System;\nusing System.Web.Services.Protocols;\n\n[AttributeUsage(AttributeTargets.Method)]\npublic class SoapLoggerAttribute : SoapExtensionAttribute\n{\n    public override Type ExtensionType\n    {\n        get { return typeof(SoapLogger); }\n    }\n\n    public override int Priority { get; set; }\n}

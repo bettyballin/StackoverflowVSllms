@@ -1,1 +1,0 @@
-WITH    q AS\n        (\n        SELECT  CAST('<root><node>1</node></root>' AS XML) AS doc\n        )\nSELECT  doc.value('(/root/node)[1]', 'INT'),\n        doc.value(N'(/root/node)[1]', 'INT')\nFROM    q

@@ -1,0 +1,1 @@
+from django.contrib import admin\n   from .models import *\n\n   admin.site.register(YourModelName)

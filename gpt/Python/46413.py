@@ -1,0 +1,1 @@
+from django.core.exceptions import ValidationError\n\n    def validate_score(score):\n        if score < 0 or score > MAX_SCORE:\n            raise ValidationError('Invalid score')\n        return score

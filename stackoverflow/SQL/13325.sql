@@ -1,1 +1,0 @@
-exec('select * from ' + @ServerName + '.ClientDatabase.dbo.Client')

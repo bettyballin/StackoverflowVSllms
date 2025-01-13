@@ -1,1 +1,0 @@
-select Name, XX\n  from yourTable t1\n where Date = (select MAX(Date)\n                 from yourTable t2\n                where t1.Name = t2.Name)

@@ -1,0 +1,1 @@
+Dim List1 = (From i In db.Sites _\n             Where i.StatusID = published _\n             Select i).ToList()\n\nDim List2 = (From i In db.Sites _\n             Where i.StatusID = pending _\n             Select i).ToList().Except(List1, New insCompare()).ToList()

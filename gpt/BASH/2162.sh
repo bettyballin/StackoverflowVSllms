@@ -1,0 +1,1 @@
+pear install VersionControl_SVN

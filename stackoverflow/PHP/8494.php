@@ -1,1 +1,0 @@
-<?php\n\necho PHP_INT_SIZE, "\n", PHP_INT_MAX;\n\n?>

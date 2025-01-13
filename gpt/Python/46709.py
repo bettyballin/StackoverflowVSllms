@@ -1,0 +1,1 @@
+DATABASE_URL = "postgresql+psycopg2://user:password@localhost/mydatabase"\n\nengine = create_engine(DATABASE_URL)\nSession = sessionmaker(bind=engine)\nsession = Session()

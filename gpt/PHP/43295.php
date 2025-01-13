@@ -1,0 +1,1 @@
+<?php\nob_start();\ninclude('first_pass.php');\n$content = ob_get_clean();\n\n// Insert dynamic content\n$user_name = $_SESSION['user_name'] ?? 'Guest';\n$dynamic_content = str_replace('<!--USER_NAME-->', $user_name, $content);\n\necho $dynamic_content;\n?>

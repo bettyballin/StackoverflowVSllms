@@ -1,1 +1,0 @@
-import os, random\nrandom.choice(os.listdir("C:\\")) #change dir name to whatever

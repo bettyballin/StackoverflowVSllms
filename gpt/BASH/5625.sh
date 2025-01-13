@@ -1,0 +1,1 @@
+# Initialize a new Git repository\ngit init\n\n# Add files to the repository\ngit add .\n\n# Commit the changes\ngit commit -m "Initial commit"\n\n# Add a remote repository (GitHub example)\ngit remote add origin https://github.com/yourusername/yourrepository.git\n\n# Push the changes to the remote repository\ngit push -u origin master

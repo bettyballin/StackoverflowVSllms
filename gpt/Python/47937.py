@@ -1,0 +1,1 @@
+def make_multiplier(x):\n    def multiplier(y):\n        return x * y\n    return multiplier\n\nmul_by_3 = make_multiplier(3)\nprint(mul_by_3(5))  # Output: 15

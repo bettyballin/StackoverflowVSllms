@@ -1,1 +1,0 @@
-#include <SystemConfiguration/SystemConfiguration.h>\n/* .... */\nCFStringRef result = SCDynamicStoreCopyConsoleUser(NULL, NULL, NULL);\n/* .... */

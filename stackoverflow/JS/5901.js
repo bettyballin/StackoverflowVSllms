@@ -1,1 +1,0 @@
-try {\n  var ioServ = Components.classes["@mozilla.org/network/io-service;1"]\n                         .getService(Components.interfaces.nsIIOService);\n  var uriObj = ioServ.newURI(uriString, uriCharset, baseURI);\n} catch (e) {\n\n  // catch the error here\n\n}

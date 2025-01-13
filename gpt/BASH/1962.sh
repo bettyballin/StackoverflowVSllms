@@ -1,0 +1,1 @@
+#!/bin/bash\n# Build Full Version\nmsbuild /p:Configuration=FullBuild\n\n# Build Partial Version\nmsbuild /p:Configuration=PartialBuild

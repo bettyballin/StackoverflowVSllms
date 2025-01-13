@@ -1,0 +1,1 @@
+CREATE OR REPLACE PACKAGE JUMPTO IS\n  TYPE t_locations IS REF CURSOR;\n\n  PROCEDURE procGetLocations(locations OUT t_locations);\nEND JUMPTO;\n/

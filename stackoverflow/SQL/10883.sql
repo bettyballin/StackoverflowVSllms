@@ -1,1 +1,0 @@
-Select *\nfrom site_info\nOrder by Rand()\nLIMIT N

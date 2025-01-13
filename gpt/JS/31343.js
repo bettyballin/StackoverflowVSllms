@@ -1,0 +1,1 @@
+function FindProxyForURL(url, host) {\n    // Your PAC script logic here\n\n    // Debugging statement\n    throw "Debugging message: URL is " + url + ", Host is " + host;\n\n    // Return proxy configuration\n    return "DIRECT";\n}

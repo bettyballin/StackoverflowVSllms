@@ -1,1 +1,0 @@
-function samObsfucated()\n{\n    return("s" + "a" + "m" + "@" + "s" + "." + "com");\n}

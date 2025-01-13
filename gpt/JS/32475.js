@@ -1,0 +1,1 @@
+$.getJSON('your-api-endpoint', function(data) {\n    // Process the JSON data\n    console.log(data);\n});

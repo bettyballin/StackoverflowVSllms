@@ -1,0 +1,1 @@
+from docx import Document\n\n# Reading Word File\ndoc = Document('example.docx')\nfor paragraph in doc.paragraphs:\n    print(paragraph.text)\n\n# Writing Word File\nnew_doc = Document()\nnew_doc.add_paragraph('Hello World!')\nnew_doc.save('new_example.docx')

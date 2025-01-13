@@ -1,0 +1,1 @@
+public static string EscapeSqlString(string input)\n{\n    if (input == null)\n    {\n        return "NULL";\n    }\n    return "'" + input.Replace("'", "''") + "'";\n}\n\n// Example usage\nstring userInput = "O'Reilly";\nstring escapedInput = EscapeSqlString(userInput);\nConsole.WriteLine(escapedInput); // Output: 'O''Reilly'

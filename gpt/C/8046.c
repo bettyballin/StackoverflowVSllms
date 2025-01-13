@@ -1,0 +1,1 @@
+do_stuff_with(items[i]);\n   sem_post(sem);  // Increment semaphore

@@ -1,1 +1,0 @@
-CDacl oDacl;\nAtlGetDacl(strFolder, SE_FILE_OBJECT, &oDacl);\noDacl.RemoveAces(Sids::Users()); // Remove existing "Users" access\noDacl.AddAllowedAce(Sids::Users(), FILE_ALL_ACCESS, CONTAINER_INHERIT_ACE | OBJECT_INHERIT_ACE);\nAtlSetDacl(strFolder, SE_FILE_OBJECT, oDacl);

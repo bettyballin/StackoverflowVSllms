@@ -1,0 +1,1 @@
+chmod +x backup_script.sh

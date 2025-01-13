@@ -1,1 +1,0 @@
-$string = "xyz(25)";\npreg_match("/.*\((\d*)\)/", $string, $matches);\nprint_r($matches);

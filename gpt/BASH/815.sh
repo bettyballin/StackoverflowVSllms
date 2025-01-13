@@ -1,0 +1,1 @@
+valgrind --leak-check=full ./your_test_executable

@@ -1,0 +1,1 @@
+var queryStringParams = HttpUtility.ParseQueryString(Request.QueryString.ToString());\nstring providedHmac = queryStringParams["hmac"];\nqueryStringParams.Remove("hmac");\n\nif (QueryStringValidator.ValidateHmac(queryStringParams, providedHmac))\n{\n    // Proceed with processing\n}\nelse\n{\n    // Handle invalid HMAC\n}

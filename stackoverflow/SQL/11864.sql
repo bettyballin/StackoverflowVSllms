@@ -1,1 +1,0 @@
-UPDATE Products\nSET Products.TemplateID = Templates.TemplateID\nFROM Templates\nWHERE Templates.TemplateName = Products.TemplateName

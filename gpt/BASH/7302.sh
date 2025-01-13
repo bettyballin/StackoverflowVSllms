@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Directory containing JPEG files\nJPEG_DIR="path/to/your/jpeg/files"\n\n# Optimize all JPEG files in the directory\nfor img in "$JPEG_DIR"/*.jpg; do\n    jpegoptim --strip-all "$img"\n    jpegtran -optimize -copy none -outfile "$img" "$img"\ndone

@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\n-- Acquiring an exclusive table-level lock\nSELECT TOP 1 1\nFROM YourTable WITH (TABLOCKX, HOLDLOCK);\n\n-- Your insert/update/delete query here\nINSERT INTO YourTable (Column1, Column2)\nVALUES ('Value1', 'Value2');\n\nCOMMIT TRANSACTION;

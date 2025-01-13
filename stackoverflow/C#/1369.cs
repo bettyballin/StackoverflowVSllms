@@ -1,1 +1,0 @@
-public enum States\n{\n    California,\n    [Description("New Mexico")]\n    NewMexico,\n    [Description("New York")]\n    NewYork,\n    [Description("South Carolina")]\n    SouthCarolina,\n    Tennessee,\n    Washington\n}

@@ -1,1 +1,0 @@
-echo date("M", strtotime("-3 month", strtotime(date("F") . "1")) ) . "\n";\necho date("M", strtotime("-2 month", strtotime(date("F") . "1")) ) . "\n";\necho date("M", strtotime("-1 month", strtotime(date("F") . "1")) ) . "\n";\necho date("M", time()) . "\n";

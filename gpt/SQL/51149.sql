@@ -1,0 +1,1 @@
+-- Events\nRPC:Completed\nSQL:BatchCompleted\n\n-- Columns\nDuration\nTextData\nCPU\nReads\nWrites\nSPID\nStartTime\n\n-- Filters\nDuration >= 10000000  -- 10 seconds in microseconds

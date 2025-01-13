@@ -1,1 +1,0 @@
-Call to a member function result() on a non-object in /var/www/js/chat_data.php on line 1

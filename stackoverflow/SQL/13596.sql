@@ -1,1 +1,0 @@
-SELECT\n     P.start_date,\n     P.end_date,\n     AB1.account_id,\n     AB1.balance\nFROM\n     Periods P\nLEFT OUTER JOIN Account_Balances AB1 ON\n     AB1.date <= P.end_date\nLEFT OUTER JOIN Account_Balances AB2 ON\n     AB2.aid = AB1.aid AND\n     AB2.date > AB1.date AND\n     AB2.date <= P.end_date\nWHERE\n     AB2.aid IS NULL

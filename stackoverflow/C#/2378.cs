@@ -1,1 +1,0 @@
-var bubbleVideos = from item in criteriaList\n                   orderby (item.ItemType == "video" ? 0 : 1)\n                   select item;\nrepeater.DataSource = bubbleVideos.ToList();

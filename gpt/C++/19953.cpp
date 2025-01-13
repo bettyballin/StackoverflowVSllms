@@ -1,0 +1,1 @@
+#include <iostream>\n#include <cstdarg>\n#include <cstdio>\n\n// Define the VERBOSE flag for test mode\n// #define VERBOSE\n\nvoid dprintf(const char* format, ...) {\n#ifdef VERBOSE\n    va_list args;\n    va_start(args, format);\n    vprintf(format, args);\n    va_end(args);\n#endif\n}\n\nint main() {\n    int i = 42;\n    dprintf("The value is: %d\n", i);\n    return 0;\n}

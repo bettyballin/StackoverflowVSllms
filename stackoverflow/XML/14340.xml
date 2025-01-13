@@ -1,1 +1,0 @@
-<system.web>\n    <httpHandlers>\n        <add verb="*" path="*.html" type="System.Web.UI.PageHandlerFactory"/>\n    </httpHandlers>\n</system.web>

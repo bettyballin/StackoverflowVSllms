@@ -1,0 +1,1 @@
+echo scan > /sys/kernel/debug/kmemleak\n    cat /sys/kernel/debug/kmemleak

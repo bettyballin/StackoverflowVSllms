@@ -1,0 +1,1 @@
+editbin /REBASE:BASE=0x50000000 example.dll

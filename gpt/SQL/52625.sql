@@ -1,0 +1,1 @@
+CREATE TABLE Staging.Transformed_Sales (\n       TransactionID INT,\n       ProductID INT,\n       Quantity INT,\n       SaleDate DATE,\n       SaleAmount DECIMAL(10, 2),\n       DiscountAmount DECIMAL(10, 2),\n       ...\n   );

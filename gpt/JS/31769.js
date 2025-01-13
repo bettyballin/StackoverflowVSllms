@@ -1,0 +1,1 @@
+function isSecure() {\n    return window.location.protocol === "https:";\n}\n\nif (isSecure()) {\n    console.log("The page is secure (HTTPS).");\n} else {\n    console.log("The page is not secure (HTTP).");\n}

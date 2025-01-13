@@ -1,0 +1,1 @@
+if (isset($_SERVER['HTTP_REFERER'])) {\n    $referer = $_SERVER['HTTP_REFERER'];\n    echo "The referer URL is: " . htmlspecialchars($referer, ENT_QUOTES, 'UTF-8');\n} else {\n    echo "No referer URL found.";\n}

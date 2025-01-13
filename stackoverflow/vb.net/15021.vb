@@ -1,1 +1,0 @@
-Public Class Pair\n  ' Actual property implementation omited for brevity\n  Public Property Student As Student\n  Public Property Name As String\nEnd Class

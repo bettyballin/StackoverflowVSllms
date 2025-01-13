@@ -1,0 +1,1 @@
+SELECT t.id, t.name\nFROM topics t\nJOIN tags_topics tt ON t.id = tt.topic_id\nWHERE tt.tag_id IN (1, 2, 3)\nGROUP BY t.id, t.name\nHAVING COUNT(DISTINCT tt.tag_id) = 3;

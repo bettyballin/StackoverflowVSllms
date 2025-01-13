@@ -1,1 +1,0 @@
-$c = curl_init($url);\ncurl_setopt($c, CURLOPT_RETURNTRANSFER, true);\n$xmlstr = curl_exec($c);

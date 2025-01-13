@@ -1,0 +1,1 @@
+sudo rsync -av /u01/app/oracle/oradata /mnt/oracle/

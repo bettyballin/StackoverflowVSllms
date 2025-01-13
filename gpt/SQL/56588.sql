@@ -1,0 +1,1 @@
+UPDATE n\n   SET n.accountID = m.NewAccountID\n   FROM notes n\n   JOIN AccountIDMapping m ON n.accountID = m.OldAccountID;\n\n   UPDATE e\n   SET e.accountID = m.NewAccountID\n   FROM equipment e\n   JOIN AccountIDMapping m ON e.accountID = m.OldAccountID;

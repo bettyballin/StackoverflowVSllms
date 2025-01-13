@@ -1,1 +1,0 @@
-DECLARE @TestTable TABLE (test NVARCHAR(10))\n\nINSERT INTO @TestTable (\n    test\n) VALUES ( \n    N'I?' ) \n\n\nSELECT * \nFROM  @TestTable

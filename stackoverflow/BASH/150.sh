@@ -1,1 +1,0 @@
-$ cat config/gcc-serial.bldconf\n#!/bin/bash\n#\n# gcc-serial.bldconf - file containing global information necessary to build\n#                      the serial versions of the PARSEC programs with gcc\n#\n# Copyright (C) 2006, 2007 Christian Bienia\n\n# Global configuration is identical to multi-threaded version\nsource ${PARSECDIR}/config/gcc.bldconf

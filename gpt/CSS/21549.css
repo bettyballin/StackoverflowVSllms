@@ -1,0 +1,1 @@
+hr {\n    border: 0; /* Remove the border */\n    height: 1px; /* Set the height of the hr */\n    background: url('path_to_your_image.png') no-repeat center; /* Set the background image */\n    background-size: contain; /* Ensure the image fits inside the hr */\n}

@@ -1,0 +1,1 @@
+<Test()> _\nSub testLineNoExceedsMaxLength()\n    Dim ex As ArgumentOutOfRangeException = Assert.Throws(Of ArgumentOutOfRangeException)(Sub() New X("aaaaa", "Test"))\n    StringAssert.Contains("Line No exceeds 4 characters", ex.Message)\nEnd Sub

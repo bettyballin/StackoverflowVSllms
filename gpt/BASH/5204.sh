@@ -1,0 +1,1 @@
+sudo bash -c 'echo /usr/lib > /etc/ld.so.conf.d/usr_lib.conf'\n   sudo ldconfig

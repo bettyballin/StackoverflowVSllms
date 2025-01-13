@@ -1,0 +1,1 @@
+StorageDevice device = // Get the storage device asynchronously\n     if (device != null && device.IsConnected)\n     {\n         StorageContainer container = device.OpenContainer("YourGameName");\n         string userLevelPath = Path.Combine(container.Path, "UserLevels");\n         // Proceed as usual with creating directories and files\n     }

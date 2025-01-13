@@ -1,0 +1,1 @@
+RawPrinterHelper.SendStringToPrinter("YourPrinterName", "Hello, World!\n");

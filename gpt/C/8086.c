@@ -1,0 +1,1 @@
+#include <mysql.h>\n\n   int main() {\n       MYSQL *conn;\n       conn = mysql_init(NULL);\n       if (conn == NULL) {\n           fprintf(stderr, "mysql_init() failed\n");\n           return 1;\n       }\n       // Additional MySQL code here\n       mysql_close(conn);\n       return 0;\n   }

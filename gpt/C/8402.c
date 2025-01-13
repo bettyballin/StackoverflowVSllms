@@ -1,0 +1,1 @@
+strncpy(buffer, input, sizeof(buffer) - 1);\nbuffer[sizeof(buffer) - 1] = '\0'; // Ensure null-terminatio

@@ -1,0 +1,1 @@
+sudo chmod 600 /etc/postfix/sasl_passwd\n     sudo postmap /etc/postfix/sasl_passwd

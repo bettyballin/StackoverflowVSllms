@@ -1,1 +1,0 @@
-RD /s "%userprofile%\start menu\programs\ASGATech"

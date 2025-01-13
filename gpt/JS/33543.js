@@ -1,0 +1,1 @@
+// Unsafe code using eval\nlet jsonString = '{"name": "John", "age": 30}';\nlet obj = eval('(' + jsonString + ')');\n\n// Safer alternative using JSON.parse\nlet jsonString = '{"name": "John", "age": 30}';\nlet obj = JSON.parse(jsonString);

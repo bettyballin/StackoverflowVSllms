@@ -1,1 +1,0 @@
-p = subprocess.Popen([sys.executable, '/path/to/script.py'], \n                                    stdout=subprocess.PIPE, \n                                    stderr=subprocess.STDOUT)

@@ -1,0 +1,1 @@
+sed -f script.sed inputfile.txt > outputfile.csv

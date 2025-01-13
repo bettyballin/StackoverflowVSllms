@@ -1,0 +1,1 @@
+class Template {\n    // Existing code here\n    function foo() {\n        // Function implementation\n    }\n}\n\nclass ExtendedTemplate extends Template {\n    // Additional functionality here\n    function bar() {\n        // New function implementation\n    }\n}

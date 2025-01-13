@@ -1,0 +1,1 @@
+<?php\n$output = shell_exec('/path/to/visitors -args');\necho $output;\n?>

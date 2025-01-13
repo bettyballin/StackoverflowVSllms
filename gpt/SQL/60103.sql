@@ -1,0 +1,1 @@
+INSERT INTO your_table (column1, column2, column3)\nVALUES\n(NULLIF('value1', ''), NULLIF('value2', ''), NULLIF('value3', ''));

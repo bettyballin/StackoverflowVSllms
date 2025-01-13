@@ -1,0 +1,1 @@
+document.addEventListener("mousewheel", function(event) {\n  if (event.target && event.target.nodeName === "OBJECT" && event.target.type === "application/x-shockwave-flash") {\n    event.preventDefault();\n  }\n}, { passive: false });

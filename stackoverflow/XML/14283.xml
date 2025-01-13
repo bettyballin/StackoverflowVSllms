@@ -1,1 +1,0 @@
-<system.web>\n  <urlMappings enabled="true">\n    <add url="~/test/" mappedUrl="~/test.aspx"/>\n  </urlMappings>

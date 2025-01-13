@@ -1,1 +1,0 @@
-System.Collections.Specialized.NameValueCollection k = \n        new System.Collections.Specialized.NameValueCollection();\n\n    k.Add("B", "Brown");\n    k.Add("G", "Green");\n\n    Console.WriteLine(k[0]);    // Writes Brown\n    Console.WriteLine(k["G"]);  // Writes Gree

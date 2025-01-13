@@ -1,1 +1,0 @@
-CultureInfo.CurrentCulture

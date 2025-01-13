@@ -1,0 +1,1 @@
+diskutil info /dev/diskX

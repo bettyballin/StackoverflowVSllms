@@ -1,0 +1,1 @@
+CREATE DATABASE calendar_db;\n\nUSE calendar_db;\n\nCREATE TABLE appointments (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    title VARCHAR(255) NOT NULL,\n    start DATETIME NOT NULL,\n    end DATETIME NOT NULL,\n    type VARCHAR(50),\n    description TEXT\n);

@@ -1,1 +1,0 @@
-SOLE_AUTHENTICATION_SERVICE sas;\nsas.dwAuthnSvc = RPC_C_AUTHN_GSS_KERBEROS;\nsas.dwAuthzSvc = RPC_C_AUTHZ_NONE;\nsas.pPrincipalName = L"myservice/mymachine";\nsas.hr = S_OK;\nCoInitializeSecurity( 0, 1, &sas, 0, RPC_C_AUTHN_LEVEL_DEFAULT,\n    RPC_C_IMP_LEVEL_DEFAULT, 0, EOAC_NONE, 0 );

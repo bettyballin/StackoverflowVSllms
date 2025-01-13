@@ -1,0 +1,1 @@
+{php}\n    echo "This is PHP code inside a Smarty template.";\n{/php}

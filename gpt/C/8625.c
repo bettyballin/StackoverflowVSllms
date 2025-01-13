@@ -1,0 +1,1 @@
+#include <stdio.h>\n    #include <inttypes.h>\n\n    uint32_t i;\n\n    int main(void)\n    {\n        if (i == 64738)\n            return 0;\n        else\n            return 1;\n    }

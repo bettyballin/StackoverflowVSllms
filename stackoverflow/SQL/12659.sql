@@ -1,1 +1,0 @@
-DECLARE @cmd varchar(4000)\nDECLARE cmds CURSOR FOR\nSELECT 'drop table [' + Table_Name + ']'\nFROM INFORMATION_SCHEMA.TABLES\nWHERE Table_Name LIKE 'prefix%'\n\nOPEN cmds\nWHILE 1 = 1\nBEGIN\n    FETCH cmds INTO @cmd\n    IF @@fetch_status != 0 BREAK\n    EXEC(@cmd)\nEND\nCLOSE cmds;\nDEALLOCATE cmds

@@ -1,1 +1,0 @@
-$("#Products").append(result).selectedIndex = 0;

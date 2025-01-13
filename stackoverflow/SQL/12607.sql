@@ -1,1 +1,0 @@
-UPDATE table\n   SET count = count + 1\n   OUTPUT inserted.count\n   WHERE id=@id;

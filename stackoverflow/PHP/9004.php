@@ -1,1 +1,0 @@
-echo "<textarea class=\"text\">"\necho html_encode( html_stream )\necho "</textarea>"

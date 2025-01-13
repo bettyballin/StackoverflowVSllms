@@ -1,0 +1,1 @@
+# For example, to merge revision 1234 from trunk to your release branch\n    svn merge -c 1234 https://your-repo-url/trunk\n    svn commit -m "Merging revision 1234 for release"

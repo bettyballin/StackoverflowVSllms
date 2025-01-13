@@ -1,0 +1,1 @@
+R::setup('mysql:host=localhost;dbname=mydatabase', 'user', 'password');\n   $book = R::dispense('book');\n   $book->title = 'Learn PHP';\n   R::store($book);

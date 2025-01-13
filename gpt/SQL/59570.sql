@@ -1,0 +1,1 @@
+SELECT * FROM foo WHERE to_be_deleted = FALSE;

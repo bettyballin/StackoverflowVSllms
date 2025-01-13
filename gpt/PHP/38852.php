@@ -1,0 +1,1 @@
+<?php\nclass My_View_Helper_MyTranslate extends Zend_View_Helper_Abstract\n{\n    public function myTranslate($string)\n    {\n        return Zend_Registry::get('Zend_Translate')->_($string);\n    }\n}

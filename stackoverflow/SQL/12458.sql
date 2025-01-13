@@ -1,1 +1,0 @@
-INSERT INTO new_table1(Id, Field1)\n      SELECT Id, Field1\n        FROM table1_bu

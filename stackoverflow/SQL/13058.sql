@@ -1,1 +1,0 @@
-select distinct(hardware_name) \nfrom hardware,incidents \nwhere hardware.id = incidents.hardware_id and incidents.resolved=0;

@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Ensure the correct paths are used and the grep command is properly formatted\n# Redirecting output of each grep command to yesno.txt\n\nfor i in ~/mail/home/user/mail/domain.com/josh/cur/*; do\n    grep -i "Value" "$i" >> ~/public_html/yesno.txt 2>&1\ndone

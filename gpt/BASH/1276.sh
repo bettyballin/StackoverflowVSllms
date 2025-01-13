@@ -1,0 +1,1 @@
+open sftp://username:password@hostname\nget /remote/path/* C:\local\path\\nrm /remote/path/*\nclose\nexit

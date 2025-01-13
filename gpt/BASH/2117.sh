@@ -1,0 +1,1 @@
+etsh http show sslcert

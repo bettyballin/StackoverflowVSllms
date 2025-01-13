@@ -1,0 +1,1 @@
+// Assuming $input_text contains the submitted text\n$input_text = $_POST['textarea_name'];\n\n// Sanitize the input to prevent XSS\n$input_text = htmlspecialchars($input_text, ENT_QUOTES, 'UTF-8');\n\n// Convert new lines to HTML line breaks\n$input_text_with_br = nl2br($input_text);\n\n// Now you can safely use $input_text_with_br in your output\necho $input_text_with_br;

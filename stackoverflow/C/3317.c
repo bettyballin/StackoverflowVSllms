@@ -1,1 +1,0 @@
-if (tree_column->show_sort_indicator ||\n       (GTK_IS_TREE_SORTABLE (model) && tree_column->sort_column_id >= 0))\n    gtk_widget_show (arrow);\n  else\n    gtk_widget_hide (arrow);

@@ -1,0 +1,1 @@
+<class name="YourNamespace.YourEntityClass" table="YourTableName">\n    <id name="Id" column="YourColumnName">\n        <generator class="assigned"/>\n    </id>\n    <!-- other property mappings -->\n</class>

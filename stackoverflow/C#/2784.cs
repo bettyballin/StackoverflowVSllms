@@ -1,1 +1,0 @@
-HttpContext.Current.Response.ContentEncoding = l_Enc;

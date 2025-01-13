@@ -1,1 +1,0 @@
-_objectToMapTo.GetType().InvokeMember(sender.tag,BindingFlags.Instance Or BindingFlags.Public,Nothing, _objectToMapTo, New Object() {sender.text})

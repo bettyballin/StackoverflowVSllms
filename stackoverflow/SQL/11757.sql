@@ -1,1 +1,0 @@
-where reg_num >= @userValueFrom \nand left(reg_num,char_length(@userValueTo) <= @userValueTo

@@ -1,0 +1,1 @@
+c -l <someport> 0<backpipe | tee backpipe | nc <isp-smtp> 26

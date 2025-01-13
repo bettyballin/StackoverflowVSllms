@@ -1,1 +1,0 @@
-PATH=${PATH}:$(find ~/code -type d | tr '\n' ':' | sed 's/:$//')

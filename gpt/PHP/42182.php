@@ -1,0 +1,1 @@
+$value = strval($simpleXmlDoc->SomeNode->InnerNode);

@@ -1,0 +1,1 @@
+echo 'sched:sched_switch' > /sys/kernel/debug/tracing/set_event

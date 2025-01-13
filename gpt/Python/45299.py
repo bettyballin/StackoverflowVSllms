@@ -1,0 +1,1 @@
+import mitmproxy.http\n\ndef request(flow: mitmproxy.http.HTTPFlow) -> None:\n    print(flow.request.pretty_url)\n    print(flow.request.headers)\n\ndef response(flow: mitmproxy.http.HTTPFlow) -> None:\n    print(flow.response.status_code)\n    print(flow.response.headers)\n\naddons = [\n    request,\n    response\n]

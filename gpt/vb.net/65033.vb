@@ -1,0 +1,1 @@
+Imports System.Runtime.InteropServices\n\nPublic Class Form1\n\n    <DllImport("user32.dll")>\n    Private Shared Function ShowWindow(hWnd As IntPtr, nCmdShow As Integer) As Boolean\n    End Function\n\n    Private Const SW_SHOWNOACTIVATE As Integer = 4\n\n    ' Rest of your form code here\nEnd Class

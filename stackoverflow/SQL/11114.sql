@@ -1,1 +1,0 @@
-insert into <target-table>\n( <column-list> )\nselect <columns>\n  from <source-table>

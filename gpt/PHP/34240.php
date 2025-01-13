@@ -1,0 +1,1 @@
+function getUserById(int $id): array {\n         // Function implementation\n     }

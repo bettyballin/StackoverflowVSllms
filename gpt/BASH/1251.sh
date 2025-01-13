@@ -1,0 +1,1 @@
+<?php\n   // Download and unzip DokuWiki\n   wget https://download.dokuwiki.org/src/dokuwiki/dokuwiki-stable.tgz\n   tar -xvzf dokuwiki-stable.tgz

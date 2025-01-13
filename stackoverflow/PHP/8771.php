@@ -1,1 +1,0 @@
-$string = $dom->saveXml($element);

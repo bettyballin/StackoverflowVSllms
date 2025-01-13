@@ -1,0 +1,1 @@
+while (list($task_id, $parent_id, $task) = mysqli_fetch_array($r, MYSQLI_NUM)) {\n    // Code to process each row goes here\n}

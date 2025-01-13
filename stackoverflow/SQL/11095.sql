@@ -1,1 +1,0 @@
-from Contest Ct, Country Cr\nwhere Cr.CountryCode = :CountryCode \n    and Cr.Country in elements(Ct.RequiredCountries) 

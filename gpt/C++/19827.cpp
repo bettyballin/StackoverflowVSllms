@@ -1,0 +1,1 @@
+// Assume 'dc' is your CDC object\nCDC dc;\n\n// Initialize your CDC object here (e.g., by attaching it to a window)\n\nHDC hdc = dc.GetSafeHdc();\n\nif (hdc != NULL) {\n    // Successfully obtained HDC, you can now use the HDC as needed\n} else {\n    // Handle the error if HDC is NULL\n}

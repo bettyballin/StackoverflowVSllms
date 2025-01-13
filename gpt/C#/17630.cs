@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        string pageKey = Guid.NewGuid().ToString();\n        HiddenFieldPageKey.Value = pageKey;\n        SessionManager.StoreSessionData(pageKey, pageSpecificData);\n    }\n}

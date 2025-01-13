@@ -1,0 +1,1 @@
+FunctionProcessor processor = new FunctionProcessor();\nstring functionDefinition = processor.GetFunctionDefinition(1);\nvar function = processor.CompileFunction(functionDefinition);\n\nDataTable dataset = new DataTable();\n// Assume dataset is filled with data\nprocessor.ApplyFunctionToDataset(dataset, function);

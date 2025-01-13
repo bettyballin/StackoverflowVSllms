@@ -1,0 +1,1 @@
+SELECT * FROM companies\n   WHERE to_tsvector('english', name) @@ plainto_tsquery('english', 'search_term');

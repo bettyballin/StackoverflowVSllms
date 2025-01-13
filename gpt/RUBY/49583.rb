@@ -1,0 +1,1 @@
+require 'socket'\n\n# Create a new TCP socket\nsocket = TCPSocket.new('hostname', port)\n\n# Your XML message\nxml_message = "<message>Your XML content here</message>"\n\n# Append the NULL character to the message\nmessage_with_null = "#{xml_message}\0"\n\n# Send the message\nsocket.write(message_with_null)\n\n# Close the socket\nsocket.close

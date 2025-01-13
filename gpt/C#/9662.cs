@@ -1,0 +1,1 @@
+using Tesseract;\n\n   var ocrEngine = new TesseractEngine(@"./tessdata", "eng", EngineMode.Default);\n   using (var img = Pix.LoadFromFile("image.png"))\n   {\n       var result = ocrEngine.Process(img);\n       Console.WriteLine(result.Text);\n   }

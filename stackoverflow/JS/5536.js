@@ -1,1 +1,0 @@
-var iisPath = "IIS://localhost/W3SVC/" + siteID;\nvar site = GetObject(iisPath);

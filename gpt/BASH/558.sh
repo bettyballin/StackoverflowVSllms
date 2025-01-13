@@ -1,0 +1,1 @@
+sudo /usr/local/mysql/bin/mysql_secure_installatio

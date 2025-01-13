@@ -1,0 +1,1 @@
+<action path="/listCourses" type="com.example.CourseAction" name="courseForm" scope="request" validate="false">\n    <forward name="success" path="/WEB-INF/jsp/courseList.jsp"/>\n</action>

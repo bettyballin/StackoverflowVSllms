@@ -1,0 +1,1 @@
+// index.php - Front Controller\nrequire_once '../app/init.php';\n\n$app = new App();

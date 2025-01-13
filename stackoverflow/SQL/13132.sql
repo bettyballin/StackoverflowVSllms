@@ -1,1 +1,0 @@
-SELECT p.id, p.name, GROUP_CONCAT(s.name) AS site_list\nFROM sites s\nINNER JOIN publications p ON(s.id = p.site_id)\nGROUP BY p.id, p.name;

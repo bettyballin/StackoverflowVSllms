@@ -1,0 +1,1 @@
+CREATE VIEW People.vwContactInformation\nWITH SCHEMABINDING\nAS\n-- Use "WITH EXECUTE AS OWNER" to run the view with the owner's permissions\nWITH EXECUTE AS OWNER\nSELECT p.*, pn.*\nFROM People.vtPersons p\nJOIN People.vtPhoneNumbers pn ON p.PersonID = pn.PersonID;

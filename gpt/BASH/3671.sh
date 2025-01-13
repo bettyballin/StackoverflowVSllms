@@ -1,0 +1,1 @@
+sed '/[A-Z][0-9][A-Z][0-9][A-Z][0-9]/{x;N;N;G;}' inputfile

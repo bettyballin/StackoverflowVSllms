@@ -1,0 +1,1 @@
+jpegtran -rotate 90 -outfile output.jpg input.jpg

@@ -1,0 +1,1 @@
+[WebMethod]\n   public static string GetUpdatedGrid()\n   {\n       // Rebind your GridView here and return the HTML\n       GridView gridView = new GridView();\n       // Bind your GridView with data\n       \n       using (StringWriter sw = new StringWriter())\n       {\n           gridView.RenderControl(new HtmlTextWriter(sw));\n           return sw.ToString();\n       }\n   }

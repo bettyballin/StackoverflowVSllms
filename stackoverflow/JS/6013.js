@@ -1,1 +1,0 @@
-function populateForm(queryString) {\n    var params = queryString.toQueryParams();\n    Object.keys(params).each(function(key) {\n        Form.Element.setValue($("someform")[key], params[key]);\n    });\n}

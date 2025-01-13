@@ -1,1 +1,0 @@
-SELECT * \nFROM movies m\n LEFT OUTER JOIN seen s\n ON (m.id = s.movie_id AND s.user_id = 123)\nWHERE s.movie_id IS NULL;

@@ -1,1 +1,0 @@
-PgpSignatureGenerator pgpSignatureGenerator = new PgpSignatureGenerator(m_encryptionKeys.SecretKey.PublicKey.Algorithm, HashAlgorithmTag.Sha1);

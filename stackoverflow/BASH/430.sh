@@ -1,1 +1,0 @@
-cd app/code \nsvn commit -m ".." local

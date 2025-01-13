@@ -1,0 +1,1 @@
+echo __('Welcome to our application');

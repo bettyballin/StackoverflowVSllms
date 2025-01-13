@@ -1,0 +1,1 @@
+icacls "C:\Documents and Settings\computername\aspnet\local settings\temp" /grant "IIS APPPOOL\YourAppPoolName":(OI)(CI)M

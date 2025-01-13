@@ -1,1 +1,0 @@
-if( condition )\n{\n}\nelse\n{\n}

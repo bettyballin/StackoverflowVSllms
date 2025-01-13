@@ -1,0 +1,1 @@
+protected void Application_Start()\n{\n    HostingEnvironment.RegisterVirtualPathProvider(new EmbeddedResourceVirtualPathProvider());\n}

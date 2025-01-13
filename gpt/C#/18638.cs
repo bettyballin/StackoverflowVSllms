@@ -1,0 +1,1 @@
+class Program\n{\n    static void Main()\n    {\n        string certificatePath = "path/to/your/certificate.pfx";\n        string certificatePassword = "your_certificate_password";\n        string fileToSign = "path/to/your/file.ext";\n\n        FileSigner.SignFile(certificatePath, certificatePassword, fileToSign);\n    }\n}

@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=mydll.jar -DgroupId=com.mycompany -DartifactId=mydll -Dversion=1.0 -Dpackaging=jar

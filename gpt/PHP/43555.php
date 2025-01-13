@@ -1,0 +1,1 @@
+<?php\n$url = 'http://localhost:5000/process?data=HelloFromPHP';\n$response = file_get_contents($url);\necho "Response from C#: " . $response;\n?>

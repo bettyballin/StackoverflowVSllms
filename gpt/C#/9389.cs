@@ -1,0 +1,1 @@
+public void IncrementViewCount(int threadId)\n{\n    using (var context = new YourDataContext())\n    {\n        context.ExecuteCommand("UPDATE Threads SET Views = Views + 1 WHERE ThreadId = {0}", threadId);\n    }\n}

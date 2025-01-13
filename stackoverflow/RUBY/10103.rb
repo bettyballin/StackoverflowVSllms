@@ -1,1 +1,0 @@
-module B \n  def self.included(klass)\n    klass.class_eval <<-ruby_eval\n      CONST = find\n    ruby_eval\n\n    # note that the block form of class_eval won't work\n    # because you can't assign a constant inside a method\n  end\nend\n\nclass A\n  def self.find\n    "AAA"\n  end\n  include B \nend\n\nputs A::CONST

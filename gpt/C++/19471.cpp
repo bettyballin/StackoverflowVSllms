@@ -1,0 +1,1 @@
+float a[8] __attribute__((aligned(16)));\n   float b[8] __attribute__((aligned(16)));\n   float result[8] __attribute__((aligned(16)));

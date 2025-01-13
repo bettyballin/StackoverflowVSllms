@@ -1,0 +1,1 @@
+CREATE EXTENSION IF NOT EXISTS pg_cron;\n\n    SELECT cron.schedule('delete_old_content', '0 0 * * *', $$\n        DELETE FROM content WHERE date < NOW() - INTERVAL '30 days';\n    $$);

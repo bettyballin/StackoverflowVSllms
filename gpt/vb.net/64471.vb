@@ -1,0 +1,1 @@
+Dim amount As Decimal = 10.25D\nDim total As Decimal = amount * 1.15D ' Example calculation\nConsole.WriteLine(total.ToString("F2")) ' Ensures the result is formatted to two decimal places

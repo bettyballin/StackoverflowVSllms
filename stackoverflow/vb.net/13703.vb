@@ -1,1 +1,0 @@
-' Instantiate a WinHttpRequest object. '\nDim HttpReq as new ActiveXObject("WinHttp.WinHttpRequest.5.1")\n\n' Open an HTTP connection. '\nHttpReq.Open("GET", "https://www.test.com/", false)\n\n' Select a client certificate. '\nHttpReq.SetClientCertificate("LOCAL_MACHINE\Personal\My Certificate")\n\n' Send the HTTP Request. '\nHttpReq.Send()

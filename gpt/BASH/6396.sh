@@ -1,0 +1,1 @@
+sudo auditctl -a always,exit -F arch=b64 -S all\n   sudo ausearch -i --checkpoint

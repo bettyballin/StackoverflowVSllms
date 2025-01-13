@@ -1,0 +1,1 @@
+using (RSACryptoServiceProvider rsa = new RSACryptoServiceProvider())\n    {\n        rsa.ImportParameters(receiverPublicKey);\n        byte[] encryptedData = rsa.Encrypt(dataToEncrypt, false);\n        // Save or transmit the encryptedData\n    }

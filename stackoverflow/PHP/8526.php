@@ -1,1 +1,0 @@
-\n$_GET['p'] = (isset($_GET['p']) ? $_GET['p'] : 'default');

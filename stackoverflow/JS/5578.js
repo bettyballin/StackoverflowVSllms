@@ -1,1 +1,0 @@
-if (condition) {\n  // code\n} else {\n  // code\n}\n\n// ... or ...\n\nif (condition)\n{\n  // code\n}\nelse\n{\n  // code\n}\n\n// ... or ...\n\nif (condition) { /* short code */ } else { /* short code */ }\n\n// ... or ...\n\ncondition ? /* short code */ : /* short code */;

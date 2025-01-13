@@ -1,0 +1,1 @@
+# Install perf if it's not already installed\nsudo apt-get install linux-tools-common linux-tools-generic linux-tools-$(uname -r)\n\n# Record performance data\nperf record -F 99 -p <pid_of_your_application> -g -- sleep 60\n\n# Analyze the recorded data\nperf report

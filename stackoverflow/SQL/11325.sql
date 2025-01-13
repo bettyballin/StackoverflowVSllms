@@ -1,1 +1,0 @@
-select *\n  from table1 \n  where id="a"\nunion all\nselect * \n  from table1\n  where id="b"\n  and no exists (\n    select * \n      from table1\n      where id="a");

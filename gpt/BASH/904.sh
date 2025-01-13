@@ -1,0 +1,1 @@
+objdump -s --section .comment binary_file

@@ -1,1 +1,0 @@
-$row = mysql_fetch_assoc($result)

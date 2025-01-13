@@ -1,0 +1,1 @@
+SELECT [Referral ID], COUNT(DISTINCT [Assessment Date]) AS [Number of Assessments]\nFROM [YourTable]\nGROUP BY [Referral ID];

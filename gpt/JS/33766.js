@@ -1,0 +1,1 @@
+// Example initialization\n   ClassicEditor\n       .create(document.querySelector('#editor'), {\n           // Configuration options\n       })\n       .catch(error => {\n           console.error(error);\n       });

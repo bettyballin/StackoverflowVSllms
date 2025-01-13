@@ -1,1 +1,0 @@
-SELECT * \n FROM widsys.train trn \n WHERE to_char(trn.WID_DATE, 'YYYY-IW') ='2008-13'\n ORDER BY trn.wid_date;

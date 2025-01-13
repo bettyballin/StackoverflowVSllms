@@ -1,1 +1,0 @@
-$offerwithsavings = $monthlybill - $offercalcsavings

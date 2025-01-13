@@ -1,0 +1,1 @@
+typedef void (*handler)(void);\n     static handler dispatch_table[] = { handle_load_const, handle_add /*, ... */ };\n     \n     void handle_load_const(void) {\n         // Handle LOAD_CONST\n     }\n     \n     void handle_add(void) {\n         // Handle ADD\n     }\n     \n     while (running) {\n         dispatch_table[opcode]();\n         // Fetch next opcode...\n     }

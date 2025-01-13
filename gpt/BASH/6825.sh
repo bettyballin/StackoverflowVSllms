@@ -1,0 +1,1 @@
+et stop w3svc\nnet start w3svc

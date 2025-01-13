@@ -1,0 +1,1 @@
+sudo apt update\nsudo apt install -y docker.io\nsudo systemctl start docker\nsudo systemctl enable docker

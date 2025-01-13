@@ -1,1 +1,0 @@
-SELECT TOP 1\n     UserID\nFROM\n     UserTable\nWHERE\n     Name IN (@UserName, 'John Skeet')\nORDER BY\n     CASE WHEN Name = 'John Skeet' THEN 2 ELSE 1 END

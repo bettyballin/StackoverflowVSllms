@@ -1,0 +1,1 @@
+CREATE TABLE AppDb.dbo.Records (\n    RecordId INT PRIMARY KEY,\n    RecordName NVARCHAR(100),\n    FileId INT -- Foreign Key reference to FileDb\n);

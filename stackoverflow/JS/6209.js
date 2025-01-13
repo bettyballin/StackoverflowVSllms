@@ -1,1 +1,0 @@
-<script type="text/javascript">\n  function gotop() {\n    scroll(0,0);\n  } \n</script>

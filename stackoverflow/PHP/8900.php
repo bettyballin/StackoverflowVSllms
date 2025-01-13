@@ -1,1 +1,0 @@
-$appSettingsSection = $fooConfig.configuration.appSettings;\n$goo = $appSettingsSection.SelectSingleNode("add[@key='Goo']");\n$goo.Value

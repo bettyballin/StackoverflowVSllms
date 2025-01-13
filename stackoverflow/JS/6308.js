@@ -1,1 +1,0 @@
-var a = {cat: "meow", dog: "woof"};\nvar aname = {cat: "Garfield", dog: "Odie"};\nvar b = {\n  counter: 0,\n  pow: function(x) { return x+1; },\n  zap: function(y) { return (counter += y); }\n};\nvar c = {\n  all: [a,aname],\n  animals: a,\n  names: aname,\n};

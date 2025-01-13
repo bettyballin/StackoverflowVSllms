@@ -1,0 +1,1 @@
+CREATE TABLE email_open_logs (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    email_id INT NOT NULL,\n    opened_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);

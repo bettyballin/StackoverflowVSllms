@@ -1,0 +1,1 @@
+// Avoid this\n   [DllImport("user32.dll")]\n   public static extern int MessageBox(IntPtr hWnd, String text, String caption, uint type);

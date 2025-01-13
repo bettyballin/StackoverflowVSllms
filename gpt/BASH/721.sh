@@ -1,0 +1,1 @@
+* * * * * /usr/bin/php /path/to/your/script/send_scheduled_emails.php

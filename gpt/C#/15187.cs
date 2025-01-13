@@ -1,0 +1,1 @@
+protected void Application_AuthenticateRequest(Object sender, EventArgs e)\n   {\n       // Custom authentication logic\n   }

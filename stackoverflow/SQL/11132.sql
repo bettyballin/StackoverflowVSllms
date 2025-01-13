@@ -1,1 +1,0 @@
-`entry_comments`.`publish` = 'Y'\n`entry_comments`.`deleted_at` IS NULL

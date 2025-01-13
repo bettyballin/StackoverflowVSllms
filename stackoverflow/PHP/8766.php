@@ -1,1 +1,0 @@
-$parts = $mail->getParts();\nprint_r($parts);  // or\nprint_r($parts[0]->body);  // (untested)

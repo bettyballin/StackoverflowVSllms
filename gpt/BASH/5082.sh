@@ -1,0 +1,1 @@
+# Example command to apply a sepia tone effect\n   convert input.jpg -sepia-tone 80% output.jpg

@@ -1,0 +1,1 @@
+SELECT relname FROM pg_class WHERE relkind = 'S' AND relname = 'users_userid_seq';

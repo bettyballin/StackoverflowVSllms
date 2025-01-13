@@ -1,0 +1,1 @@
+using System;\nusing System.Reactive.Linq;\n\nvar observable = Observable.Interval(TimeSpan.FromSeconds(1));\nvar subscription = observable.Subscribe(\n    x => Console.WriteLine($"Received {x}"),\n    ex => Console.WriteLine($"Error: {ex}"),\n    () => Console.WriteLine("Completed")\n);\n\n// Data is pushed to the subscriber as it becomes available

@@ -1,0 +1,1 @@
+require 'action_view'\n\nclass Post < ActiveRecord::Base\n  include ActionView::Helpers::SanitizeHelper\n\n  before_validation :clean_input\n\n  protected\n\n  def clean_input\n    self.input = sanitize(self.input, tags: %w(b i u))\n  end\nend

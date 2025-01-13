@@ -1,1 +1,0 @@
-List<MyClass> extract = list.FindAll(obj => obj.Number == exampleint);

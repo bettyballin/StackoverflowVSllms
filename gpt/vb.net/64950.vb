@@ -1,0 +1,1 @@
+Private Sub foo()\n    Try\n        ' Do something\n    Catch ex As Exception\n        ' Optionally log or handle the exception\n        Throw\n    End Try\nEnd Sub

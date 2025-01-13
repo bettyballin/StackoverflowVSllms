@@ -1,0 +1,1 @@
+swfdump -D myanimation.swf

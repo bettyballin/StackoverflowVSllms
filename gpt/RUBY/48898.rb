@@ -1,0 +1,1 @@
+<%= Ajax.ActionLink(\n    "Delete", \n    "Delete", \n    "Milestone", \n    new RouteValueDictionary { { "id", Model.Id } }, \n    new AjaxOptions { HttpMethod = "GET", UpdateTargetId = "ModalDeleteContainer", OnSuccess = "modalDelete" }, \n    null) %>

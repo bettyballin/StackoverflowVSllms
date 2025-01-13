@@ -1,1 +1,0 @@
-SELECT product, sum(quantity) FROM receipts \nGROUP BY product

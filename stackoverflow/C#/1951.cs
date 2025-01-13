@@ -1,1 +1,0 @@
-bool isDebugMode = false;\n#if DEBUG\nisDebugMode = true;\n#endif

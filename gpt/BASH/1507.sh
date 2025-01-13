@@ -1,0 +1,1 @@
+# On Windows\nhttpd.exe -k restart\n\n# On Linux\nsudo systemctl restart apache2

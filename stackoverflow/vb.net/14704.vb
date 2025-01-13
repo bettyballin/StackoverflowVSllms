@@ -1,1 +1,0 @@
-Dim returnXDoc As New XmlDocument(xDoc.NameTable)\nreturnXDoc = xDoc.Clone()

@@ -1,0 +1,1 @@
+int myArray[10];\n    myArray[10] = 42;  // Out-of-bounds write, leads to undefined behavior

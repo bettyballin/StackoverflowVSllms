@@ -1,0 +1,1 @@
+.smallpins {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  white-space: nowrap;\n}\n\n.pin-row {\n  display: flex;\n  justify-content: center;\n}\n\n.pin-row img {\n  width: 1em;\n  height: 1em;\n}

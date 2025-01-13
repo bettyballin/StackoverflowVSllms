@@ -1,0 +1,1 @@
+<project name="CopyConfigExample" default="copy-config" basedir=".">\n    \n    <target name="copy-config">\n        <copy file="path/to/original/web.config" tofile="path/to/destination/newweb.config" />\n    </target>\n\n</project>

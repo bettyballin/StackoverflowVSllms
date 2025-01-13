@@ -1,0 +1,1 @@
+# For branch1\n   cd eggs_branch1\n   export PYTHONPATH=$(pwd):$PYTHONPATH\n   python -m eggs.bar.a\n\n   # For branch2\n   cd ../eggs_branch2\n   export PYTHONPATH=$(pwd):$PYTHONPATH\n   python -m eggs.bar.a

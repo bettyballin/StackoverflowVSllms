@@ -1,1 +1,0 @@
-Dim W As New Net.WebClient\n    Dim NC As New System.Collections.Specialized.NameValueCollection\n    NC.Add("test", "TEEEEEST")\n\n    Dim RESP As Byte()\n    Dim R As String\n    RESP = W.UploadValues("http://localhost/test/p.php", NC)\n    R = System.Text.Encoding.ASCII.GetString(RESP)\n\n    MsgBox(R)

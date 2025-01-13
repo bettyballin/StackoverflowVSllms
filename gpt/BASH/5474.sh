@@ -1,0 +1,1 @@
+FAKETIME="@60x" java -jar yourapp.jar

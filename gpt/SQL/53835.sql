@@ -1,0 +1,1 @@
+CREATE DIRECTORY YOUR_DIRECTORY AS '/path/to/your/directory';

@@ -1,1 +1,0 @@
-$split_point = ' - ';\n$string = 'this is my - string - and more';\n\n$result = array_map('strrev', explode($split_point, strrev($string)));

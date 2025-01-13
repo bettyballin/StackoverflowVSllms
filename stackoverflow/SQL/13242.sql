@@ -1,1 +1,0 @@
-SELECT id, GROUP_CONCAT(name SEPARATOR ' ') FROM table GROUP BY id;

@@ -1,0 +1,1 @@
+wsimport -keep -s src -d bin http://localhost:9704/analytics/saw.dll?WSDL

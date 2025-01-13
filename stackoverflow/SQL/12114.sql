@@ -1,1 +1,0 @@
-UPDATE tb_Contact\nSET ContactAssociate = 'Peter'\nwhere PK_Of_tb_Contact\nIN\n(\nSELECT TOP 14 PK_Of_tb_Contact\nFROM tb_Contact \nWHERE tb_Contact.ContactAssociate = 'David' \nORDER BY NEWID()\n)

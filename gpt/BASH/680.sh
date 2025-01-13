@@ -1,0 +1,1 @@
+thin start --ssl --ssl-key-file config/ssl/server.key --ssl-cert-file config/ssl/server.crt -p 3000

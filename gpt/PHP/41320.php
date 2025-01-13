@@ -1,0 +1,1 @@
+<h1><a href="<?php bloginfo('url'); ?>/"><?php bloginfo('name'); ?></a></h1>\n<div id="bubble">\n    <p><a href="http://www.ojaivalleynews.com/" target="_blank"><?php bloginfo('description'); ?></a></p>\n</div>

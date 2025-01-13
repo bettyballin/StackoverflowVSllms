@@ -1,0 +1,1 @@
+class barClass {\n    public function __construct($param) {\n        echo "Constructor called with parameter: $param\n";\n    }\n}\n\n$var = 'bar';\n$className = $var . 'Class';\n$bar = new $className('var for __construct()');

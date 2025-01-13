@@ -1,0 +1,1 @@
+# Edit the crontab\ncrontab -e\n\n# Add the following line to run the script every hour\n0 * * * * /path/to/sync_script.sh

@@ -1,1 +1,0 @@
-SELECT oildatasetid FROM oildatasetstatus\nINNER JOIN oildataset\n    ON oildataset.oildatasetid = oildatasetstatus.oildatasetid\nINNER JOIN samplepoint\n    ON oildatasetstatus.samplepoinid = samplepoint.samplepointid\nINNER JOIN customersite\n    ON samplepoint.customersiteid = customersite.customersiteid\nWHERE customerid = 2;

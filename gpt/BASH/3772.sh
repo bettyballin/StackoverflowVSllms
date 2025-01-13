@@ -1,0 +1,1 @@
+# Extract the WAR file\n   mkdir extracted_war\n   cd extracted_war\n   jar -xvf ../proprietary.war\n\n   # Add your JSP and Java files\n   cp /path/to/your/files/*.jsp ./path/to/target/directory/\n   cp /path/to/your/files/*.java ./path/to/target/directory/\n\n   # Repackage the WAR file\n   jar -cvf ../modified_proprietary.war .

@@ -1,0 +1,1 @@
+public class Foo\n{\n    public Guid Id { get; set; }\n\n    public override bool Equals(object obj)\n    {\n        Foo otherObj = obj as Foo;\n        if (otherObj == null)\n        {\n            return false;\n        }\n\n        return otherObj.Id == this.Id;\n    }\n\n    public override int GetHashCode()\n    {\n        return this.Id.GetHashCode();\n    }\n}

@@ -1,0 +1,1 @@
+class MyClass {\nprivate:\n    int value;\npublic:\n    void setValue(int v) { value = v; }  // Member function accessing private member\n    int getValue() const { return value; }\n};

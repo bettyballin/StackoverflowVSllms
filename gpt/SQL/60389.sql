@@ -1,0 +1,1 @@
+UPDATE ud\nSET ud.assid = sale.assid\nFROM ud\nJOIN sale ON ud.id = sale.udid;

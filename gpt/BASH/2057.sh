@@ -1,0 +1,1 @@
+chmod 0600 cache_file

@@ -1,1 +1,0 @@
-var container = ((IContainerAccessor)MvcApplication).Container;

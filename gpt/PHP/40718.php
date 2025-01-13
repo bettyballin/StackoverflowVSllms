@@ -1,0 +1,1 @@
+class SomeThing {\n    private $cat;\n    private $dog;\n    private $mouse;\n    private $hamster;\n    private $zebra;\n    private $lion;\n\n    // getters, setters, and other methods\n}

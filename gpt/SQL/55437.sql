@@ -1,0 +1,1 @@
+DECLARE @tasktype INT;\n\n-- Retrieve the tasktype value\nSELECT @tasktype = tasktype\nFROM YourTable\nWHERE id = @id;\n\n-- Now call the stored procedure with the retrieved tasktype\nEXEC getrecords @tasktype, @otherParam1, @otherParam2;

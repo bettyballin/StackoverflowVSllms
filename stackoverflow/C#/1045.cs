@@ -1,1 +1,0 @@
-public delegate bool EqualityComparer<T>(T x, T y);\n\npublic class Collection\n{\n    public static Equals<T, U>(Collection<T> first,\n                               Collection<T> second,\n                               EqualityComparer<U> comparer) where T : U\n    {\n\n    }\n}

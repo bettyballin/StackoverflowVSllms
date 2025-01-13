@@ -1,0 +1,1 @@
+tail -f /path/to/was/profiles/profile_name/logs/server_name/SystemOut.log\n   tail -f /path/to/was/profiles/profile_name/logs/server_name/SystemErr.log

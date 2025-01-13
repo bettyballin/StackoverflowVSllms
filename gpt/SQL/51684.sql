@@ -1,0 +1,1 @@
+SELECT * FROM your_table WHERE last_modified > last_indexed_time;

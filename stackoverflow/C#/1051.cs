@@ -1,1 +1,0 @@
-private Image CaptureScreen()\n    {\n        Rectangle screenSize = Screen.PrimaryScreen.Bounds;\n        Bitmap target = new Bitmap(screenSize.Width, screenSize.Height);\n        using(Graphics g = Graphics.FromImage(target))\n        {\n            g.CopyFromScreen(0, 0, 0, 0, new Size(screenSize.Width, screenSize.Height));\n        }\n        return target;\n    }

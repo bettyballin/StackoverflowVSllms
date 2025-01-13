@@ -1,0 +1,1 @@
+SELECT * \nFROM your_table_name\nORDER BY \n  CASE \n    WHEN Code = 'Health' THEN 1\n    WHEN Code = 'Phone' THEN 2\n    WHEN Code = 'Freeze' THEN 3\n    WHEN Code = 'Hot' THEN 4\n    ELSE 5\n  END;

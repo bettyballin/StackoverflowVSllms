@@ -1,0 +1,1 @@
+ssh user@IP 'bash -l -c "<command>"'

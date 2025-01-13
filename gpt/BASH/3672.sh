@@ -1,0 +1,1 @@
+# sed command to replace 'foo' with 'bar' in a file\n  sed -i 's/foo/bar/g' filename.txt

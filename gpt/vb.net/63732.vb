@@ -1,0 +1,1 @@
+Private Sub AboutBox_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load\n    Dim version As Version = My.Application.Info.Version\n    Me.LabelVersion.Text = String.Format("Version {0}", version.ToString())\nEnd Sub

@@ -1,1 +1,0 @@
-template <typename U = T> struct Nested

@@ -1,1 +1,0 @@
-List<int> a = new List<int>() { 1, 2, 3, 4, 5 };\nList<int> b = new List<int>() { 0, 4, 8, 12 };\n\nList<int> common = a.Intersect(b).ToList();

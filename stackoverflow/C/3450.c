@@ -1,1 +1,0 @@
-void update_database(in_stream, out_stream) {\n  Get_Index_Of_Other_Machines_Items(in_stream);\n  Send_Index_Of_Items_You_Need(out_stream);\n  Get_Items_You_Need(in_stream);\n}

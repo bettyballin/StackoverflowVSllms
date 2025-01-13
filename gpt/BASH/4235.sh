@@ -1,0 +1,1 @@
+@echo off\nset PROXY_URL=http://%proxyString%\nwget --proxy=on --proxy-user=%USERNAME% --proxy-password=%PASSWORD% -e use_proxy=yes -e http_proxy=%PROXY_URL% -O C:\path\to\output\file.txt http://example.com/file.txt

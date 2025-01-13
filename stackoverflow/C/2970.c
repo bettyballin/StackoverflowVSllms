@@ -1,1 +1,0 @@
-rNew = (grayVal.R / 2) + (colorize.R / 2)

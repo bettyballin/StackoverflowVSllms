@@ -1,0 +1,1 @@
+UPDATE YourTable\nSET YourColumn = REPLACE(YourColumn, '-', '')\nWHERE YourColumn LIKE '%-%';

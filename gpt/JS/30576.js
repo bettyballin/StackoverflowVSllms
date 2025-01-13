@@ -1,0 +1,1 @@
+const htmlString = '<IMG src="image.jpg">';\nconst updatedHtmlString = htmlString.replace(/<IMG(?![^>]*\bname\b)([^>]*)>/i, '<IMG name="myImg1"$1>')\n                                    .replace(/<IMG([^>]*)\bname\s*=\s*['"][^'"]*['"]/i, '<IMG name="myImg1"$1>');\nconsole.log(updatedHtmlString);

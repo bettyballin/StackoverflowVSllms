@@ -1,0 +1,1 @@
+// preload.js\nconst { contextBridge, ipcRenderer } = require('electron');\nconst { openFolder } = require('./main');\n\ncontextBridge.exposeInMainWorld('api', {\n  openFolder: (folderPath) => openFolder(folderPath)\n});

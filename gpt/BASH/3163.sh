@@ -1,0 +1,1 @@
+svn checkout http://your-svn-repo-url/trunk /path/to/your/local/checkout

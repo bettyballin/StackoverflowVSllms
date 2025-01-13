@@ -1,0 +1,1 @@
+svnadmin create /path/to/new/repo\n    svn mkdir file:///path/to/new/repo/trunk -m "Create trunk"

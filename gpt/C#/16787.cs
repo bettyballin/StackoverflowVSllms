@@ -1,0 +1,1 @@
+using (SqlConnection connection = new SqlConnection(connectionString))\n     {\n         connection.Open();\n         SqlCommand command = new SqlCommand("SELECT COUNT(*) FROM Users", connection);\n         int userCount = (int)command.ExecuteScalar();\n     }

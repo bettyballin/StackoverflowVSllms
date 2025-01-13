@@ -1,1 +1,0 @@
-[Import("NodeTypes", typeof(INodeType))]\npublic IEnumerable<INodeType> extensionNodeTypes { get; set; }

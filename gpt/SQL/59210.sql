@@ -1,0 +1,1 @@
+SELECT x \nFROM (\n    SELECT (mytable.field1 + 10) AS x \n    FROM `mytable`\n) AS subquery\nWHERE x < 50;

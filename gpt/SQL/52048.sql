@@ -1,0 +1,1 @@
+WITH RankedItems AS (\n    SELECT \n        id,\n        user_id,\n        item,\n        created_at,\n        ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY created_at DESC) as rn\n    FROM \n        items\n)\nSELECT \n    id,\n    user_id,\n    item,\n    created_at\nFROM \n    RankedItems\nWHERE \n    rn <= 3\nORDER BY \n    created_at DESC\nLIMIT 10;

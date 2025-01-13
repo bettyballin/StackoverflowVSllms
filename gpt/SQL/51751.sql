@@ -1,0 +1,1 @@
+CREATE PROCEDURE SearchEmployees\n    @FirstName NVARCHAR(50) = NULL,\n    @Department NVARCHAR(50) = NULL\nAS\nBEGIN\n    SET NOCOUNT ON;\n\n    SELECT *\n    FROM Employees\n    WHERE (@FirstName IS NULL OR FirstName = @FirstName)\n      AND (@Department IS NULL OR Department = @Department);\nEND

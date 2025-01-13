@@ -1,0 +1,1 @@
+class MyController < ApplicationController\n  def some_action\n    @instance_variable = 0\n    @instance_variable += 1\n  end\nend

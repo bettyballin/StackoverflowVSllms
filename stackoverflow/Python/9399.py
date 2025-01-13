@@ -1,1 +1,0 @@
->>> tree.getroot().xpath(\n...     "//xhtml:img", \n...     namespaces={'xhtml':'http://www.w3.org/1999/xhtml'}\n...     )\n[<Element {http://www.w3.org/1999/xhtml}img at 11a29e0>]

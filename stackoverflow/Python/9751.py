@@ -1,1 +1,0 @@
-l.set_option(ldap.OPT_REFERRALS, 0)

@@ -1,0 +1,1 @@
+clamdscan /path/to/uploaded/file

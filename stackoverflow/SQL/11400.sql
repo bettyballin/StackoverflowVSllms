@@ -1,1 +1,0 @@
-SELECT DATA.Period, P.Profit\nFROM (\nSELECT 1 AS Period\nUNION SELECT 2\n...\nUNION SELECT 24) AS DATA \nLEFT JOIN Projections P ON DATA.Period = P.Period

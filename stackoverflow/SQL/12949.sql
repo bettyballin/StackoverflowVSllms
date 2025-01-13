@@ -1,1 +1,0 @@
-UPDATE SerialNo2 SET SerialNo2.Degree = IIf([Mark]>90,"A","B")

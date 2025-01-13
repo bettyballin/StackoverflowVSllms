@@ -1,0 +1,1 @@
+create_table :items do |t|\n  t.string :name\nend\n\ncreate_table :tran_items do |t|\n  t.belongs_to :item, null: false, foreign_key: true\n  t.belongs_to :transaction, null: false, foreign_key: true\n  t.integer :quantity\nend\n\ncreate_table :transactions do |t|\n  t.decimal :profit\nend

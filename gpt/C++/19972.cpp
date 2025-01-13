@@ -1,0 +1,1 @@
+[\n        object,\n        uuid(12345678-1234-1234-1234-123456789ABC),   // Replace with your own GUID\n        dual,\n        helpstring("IMyInterface Interface"),\n        pointer_default(unique)\n    ]\n    interface IMyInterface : IDispatch {\n        [id(1), helpstring("method MyMethod")] HRESULT MyMethod([in] BSTR input, [out, retval] BSTR* output);\n    };

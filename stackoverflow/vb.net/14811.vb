@@ -1,1 +1,0 @@
-Protected Sub GridView1_DataBound(ByVal sender As Object, ByVal e As System.EventArgs) Handles GridView1.DataBound\n    Dim row As New GridViewRow(-1, -1, DataControlRowType.Header,DataControlRowState.Normal)\n\n    GridView1.Rows(2).Parent.Controls.AddAt(0, row)\n\n\n\nend sub

@@ -1,0 +1,1 @@
+*cpp:\n   -isystem /home/yourusername/include %(cpp_options)

@@ -1,1 +1,0 @@
-var divs = document.getElementsByTagName("div");\nfor(var i = 0; i < divs.length; i++){\n   //do something to each div like\n   divs[i].innerHTML = "something new...";\n}

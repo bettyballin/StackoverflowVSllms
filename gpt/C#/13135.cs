@@ -1,0 +1,1 @@
+WindowsIdentity identity = ServiceSecurityContext.Current.WindowsIdentity;\n   string userName = identity.Name;

@@ -1,0 +1,1 @@
+using System.ComponentModel.DataAnnotations;\n\npublic class UserMetadata\n{\n    [DataType(DataType.EmailAddress, ErrorMessage = "Please enter a valid email address")]\n    public string Email { get; set; }\n\n    // Define other properties as needed with annotations\n}

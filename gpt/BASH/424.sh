@@ -1,0 +1,1 @@
+sqlplus sys/YourStrong!Passw0rd@localhost:1521/YOUR_SID as sysdba

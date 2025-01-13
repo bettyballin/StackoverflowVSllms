@@ -1,0 +1,1 @@
+// Example using Cypress for an E2E test\n    describe('My First Test', () => {\n      it('Visits the app and checks the title', () => {\n        cy.visit('https://example.com');\n        cy.title().should('include', 'Example Domain');\n      });\n    });

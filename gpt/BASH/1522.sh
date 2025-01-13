@@ -1,0 +1,1 @@
+export CROSS_COMPILE=arm-none-eabi-\nexport CC=${CROSS_COMPILE}gcc\nexport CXX=${CROSS_COMPILE}g++

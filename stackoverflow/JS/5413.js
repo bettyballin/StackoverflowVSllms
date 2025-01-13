@@ -1,1 +1,0 @@
-selenium.WaitForCondition("var ddl = selenium.browserbot.getCurrentWindow().document.getElementById('insert-id-of-dropdownlist-here'); ddl.options[ddl.selectedIndex].text == 'insert-text-value-to-search-for-in-dropdown-here';", "10000");

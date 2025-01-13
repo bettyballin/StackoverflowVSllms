@@ -1,0 +1,1 @@
+<?php\n$startDate = new DateTime('2007-03-24');\n$endDate = new DateTime('2009-06-26');\n\n$interval = $startDate->diff($endDate);\n\necho $interval->y . " years, " . $interval->m . " months and " . $interval->d . " days\n";\n?>

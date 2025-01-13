@@ -1,1 +1,0 @@
-products:\nproductId | imgId | productName\n1           1       rock\n2           null    roll\n\nproductcolors:\nproductId | colorId\n1           1\n1           2\n\ncolors:\ncolorId   | colorName\n1           copper\n2           slate\n\nimages:\nimgId | imgSrc\n1       img1_0.png

@@ -1,1 +1,0 @@
-<?php\n\n$file = $_GET['file'];\n\nif (file_exists($file)) {\n   header('Content-Type: application/octet-stream');\n   echo file_get_contents($file);\n}\n\n?>

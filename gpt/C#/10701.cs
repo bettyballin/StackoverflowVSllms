@@ -1,0 +1,1 @@
+// In Projects.Client project\n   using Library;\n\n   public class YourClass\n   {\n       public void DoSomething()\n       {\n           SomeDllFacade.DoSomething();\n       }\n   }

@@ -1,1 +1,0 @@
-$array = array('name' => 'aalaap','age' => 29, 'location' => 'mumbai');\n$answer = array();\n\narray_walk($array, create_function('$val,$key', 'global $answer; $answer[]=$key; $answer[]=$val;'));\n\nvar_dump($answer);

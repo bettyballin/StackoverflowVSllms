@@ -1,0 +1,1 @@
+<action name="MyAction" class="com.example.MyActionClass">\n    <result name="success">/success.jsp</result>\n    <result name="input">/inputForm.jsp</result>\n</action>

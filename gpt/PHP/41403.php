@@ -1,0 +1,1 @@
+<?php\n$string1 = "Company";\n$string2 = "Kompony";\n\n$metaphone1 = metaphone($string1);\n$metaphone2 = metaphone($string2);\n\nif ($metaphone1 === $metaphone2) {\n    echo "The company names sound similar.";\n} else {\n    echo "The company names do not sound similar.";\n}\n?>

@@ -1,1 +1,0 @@
-Dim tempStream as New MemoryStream\noBitmap.Save(tempStream, ImageFormat.Png, oEncoderParams)\nResponse.OutputStream.Write(tempStream.ToArray(), 0, tempStream.Length)

@@ -1,0 +1,1 @@
+Public Sub Greet(Optional ByVal name As String = "Guest")\n    Console.WriteLine("Hello, " & name)\nEnd Sub\n\n' Calling the method\nGreet()         ' Output: Hello, Guest\nGreet("John")   ' Output: Hello, Joh

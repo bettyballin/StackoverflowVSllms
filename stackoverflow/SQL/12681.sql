@@ -1,1 +1,0 @@
-insert into parent (parent_id, ...) values (mysequence.NEXTVAL, ...);\n\ninsert into child (parent_id, ...) values (mysequence.CURRVAL, ...);

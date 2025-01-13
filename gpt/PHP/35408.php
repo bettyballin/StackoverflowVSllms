@@ -1,0 +1,1 @@
+<?php\n\nclass Test \n{\n    function saveProperty($db)\n    {\n        $sql = "<<query goes here>>";\n        \n        if ($db->query($sql) === TRUE) {\n            echo "<h3>Data was saved</h3>";\n        } else {\n            echo "<h3>Error saving data: " . $db->error . "</h3>";\n        }\n    }\n}\n?>

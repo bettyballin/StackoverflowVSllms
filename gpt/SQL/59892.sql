@@ -1,0 +1,1 @@
+SELECT item.title, \n       CAST(GROUP_CONCAT(CONCAT_WS(',', attachments.id, attachments.type, attachments.name)) AS CHAR) as attachments\nFROM story AS item\nLEFT OUTER JOIN story_attachment AS attachments ON item.id = attachments.item_id\nGROUP BY item.id;

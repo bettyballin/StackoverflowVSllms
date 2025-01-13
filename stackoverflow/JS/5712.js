@@ -1,1 +1,0 @@
-function display(id){\n  $.ajax({\n    type:'POST',\n    url: 'ajax.php',\n    data:'id='+id  ,\n    success: anotherFunction; //Ajax response\n  });\n}

@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\n-- Insert rows into the inactive table\nINSERT INTO inactive (column1, column2, column3, ...)\nSELECT column1, column2, column3, ...\nFROM active\nWHERE ...;\n\n-- Delete rows from the active table\nDELETE FROM active\nWHERE ...;\n\nCOMMIT;

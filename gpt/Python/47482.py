@@ -1,0 +1,1 @@
+import threading\n\nlock = threading.Lock()\n\n# Critical section minimized\ndef thread_safe_function():\n    lock.acquire()\n    try:\n        # Only the critical section here\n        perform_critical_operation()\n    finally:\n        lock.release()

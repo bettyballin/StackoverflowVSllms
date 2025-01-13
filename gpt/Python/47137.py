@@ -1,0 +1,1 @@
+def generate_html_report(report_data, file_path='weekly_report.html'):\n    html_content = f"""\n    <html>\n    <head><title>Weekly Report</title></head>\n    <body>\n        <h1>Weekly Report</h1>\n        <p>{report_data}</p>\n    </body>\n    </html>\n    """\n    with open(file_path, 'w') as file:\n        file.write(html_content)

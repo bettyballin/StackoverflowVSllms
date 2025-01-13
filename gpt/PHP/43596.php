@@ -1,0 +1,1 @@
+<?php\n$plain_password = 'my_password';\n$hashed_password = password_hash($plain_password, PASSWORD_BCRYPT);\nexec("useradd -p '$hashed_password' newusername");\n?>

@@ -1,0 +1,1 @@
+// Create a new Class Library project and name it ProxyLibrary\n\nnamespace ProxyLibrary\n{\n    public class MyProxy\n    {\n        public void PlaceCall(string phoneNumber)\n        {\n            // Call the actual method in your application\n            ActualApplication.Instance.PlaceCall(phoneNumber);\n        }\n    }\n}

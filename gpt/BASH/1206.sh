@@ -1,0 +1,1 @@
+regsvrce YourCOMComponent.dll

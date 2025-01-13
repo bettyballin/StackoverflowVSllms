@@ -1,0 +1,1 @@
+SELECT t1\nFROM Table1 t1\nWHERE t1.id = 1\nAND EXISTS (\n    SELECT 1\n    FROM Table2 t2\n    WHERE t2.id = t1.id\n)\nAND EXISTS (\n    SELECT 1\n    FROM Table3 t3\n    WHERE t3.id2 = t1.id2\n    AND t3.id3 = t1.id3\n)

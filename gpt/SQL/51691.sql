@@ -1,0 +1,1 @@
+SELECT Column1, Column2, Column3\nFROM YourTableName;

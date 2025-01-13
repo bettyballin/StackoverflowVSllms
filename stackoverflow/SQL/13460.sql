@@ -1,1 +1,0 @@
-SELECT T1.day, T1.id\nFROM   test T1\nINNER JOIN test T2\nON T1.id <> T2.id AND T1.day = T2.day

@@ -1,0 +1,1 @@
+HOST expdp your_user/your_password@your_db schemas=your_schema directory=backup_dir dumpfile=backup.dmp logfile=backup.log

@@ -1,0 +1,1 @@
+CHECK TABLE your_table;\n   REPAIR TABLE your_table;

@@ -1,1 +1,0 @@
-var inputs = document.getElementsByTagName('input');\nvar selects = document.getElementsByTagName('select');\n\ninputs = Array.prototype.slice.call(inputs);\nselects = Array.prototype.slice.call(selects);\n\nvar res = inputs.concat(selects);\n\nalert(res.length);

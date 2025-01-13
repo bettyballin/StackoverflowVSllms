@@ -1,0 +1,1 @@
+BACKUP DATABASE [YourDatabaseName] \n    TO DISK = 'C:\Backup\YourDatabaseName_Diff.bak' \n    WITH DIFFERENTIAL;

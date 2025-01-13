@@ -1,0 +1,1 @@
+CREATE TABLE new_table1 AS\nSELECT * FROM table1_bu WHERE 1=0;

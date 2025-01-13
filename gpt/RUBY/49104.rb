@@ -1,0 +1,1 @@
+class OrdersController < ApplicationController\n  def create\n    @order = Order.new(order_params)\n    if @order.save\n      # Handle successful save\n    else\n      # Handle validation errors\n    end\n  end\n\n  private\n\n  def order_params\n    params.require(:order).permit(:field1, :field2, :field3) # Only permit the fields you want to allow\n  end\nend

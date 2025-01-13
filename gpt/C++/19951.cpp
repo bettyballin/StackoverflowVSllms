@@ -1,0 +1,1 @@
+#include <iostream>\n\nvoid modifyByReference(int &ref) {\n    ref = 10;\n}\n\nint main() {\n    int value = 5;\n    modifyByReference(value);\n    std::cout << "Value after modifyByReference: " << value << std::endl; // Output: 10\n    return 0;\n}

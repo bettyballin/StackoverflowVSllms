@@ -1,0 +1,1 @@
+int fileId = 1; // Replace with the actual file ID you want to retrieve\nstring destinationPath = @"c:\try\retrievedFile.dat"; // Replace with the desired file path and name\nRetrieveFile(fileId, destinationPath);

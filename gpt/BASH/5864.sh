@@ -1,0 +1,1 @@
+wget -r -l inf -A "*.htm,*.html" ftp://myuser:mypass@ftp.myserver.com/public_html/ -P ./local_folder

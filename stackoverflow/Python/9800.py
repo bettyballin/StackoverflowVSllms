@@ -1,1 +1,0 @@
-dr_area.realize()\nself.gc = dr_area.get_style().fg_gc[gtk.STATE_NORMAL]\nimg = gtk.gdk.pixbuf_new_from_file("image.png")\nself.image = gtk.gdk.Pixmap(dr_area.window, img.get_width(), img.get_height())\nself.image.draw_pixbuf(self.gc, img, 0, 0, 0, 0)

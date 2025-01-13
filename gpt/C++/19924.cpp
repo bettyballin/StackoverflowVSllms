@@ -1,0 +1,1 @@
+// module.cxx\n#include "file1.cpp"\n#include "file2.cpp"\n#include "file3.cpp"\n// Add more .cpp files as needed

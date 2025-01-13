@@ -1,1 +1,0 @@
-LocalReport myReport = new LocalReport();\nmyReport.ReportPath = Server.MapPath("~/Path/To/Report.rdlc");\n\nReportParameter myParam = new ReportParameter("ParamName", "ParamValue");\nmyReport.SetParameters(new ReportParameter[] { myParam });\n\n// more code here to render report

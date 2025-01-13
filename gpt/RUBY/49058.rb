@@ -1,0 +1,1 @@
+class YourModelsController < ApplicationController\n  def create\n    @your_model = YourModel.new(your_model_params)\n    if @your_model.save\n      # Handle success\n    else\n      # Handle failure\n    end\n  end\n\n  private\n\n  def your_model_params\n    params.require(:your_model).permit(:binary_data)\n  end\nend

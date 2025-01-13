@@ -1,0 +1,1 @@
+DB_PASSWORD=$(secret-tool lookup service myapp db_password)

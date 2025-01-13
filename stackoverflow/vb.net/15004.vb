@@ -1,1 +1,0 @@
-Public Function Test() As String Implements IDiaryPartsProvider.Test\n    Return "this is a test"\nEnd Functio

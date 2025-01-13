@@ -1,1 +1,0 @@
-onPageLoad: function(e){\n    var inputNodes = top.window.content.document.getElementsByTagName("input");       \n    for(var i=0; i<inputNodes.length; i++){\n    if(inputNodes[i].type=="file")\n         inputNodes[i].setAttribute("id",i.toString());\n    } \n}

@@ -1,0 +1,1 @@
+CREATE TABLE Images (\n       Id INT PRIMARY KEY,\n       ImageData IMAGE\n   );

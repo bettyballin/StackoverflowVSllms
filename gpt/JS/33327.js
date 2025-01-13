@@ -1,0 +1,1 @@
+const express = require('express');\nconst app = express();\n\n// Version 1 route\napp.get('/v1/resource', (req, res) => {\n    res.send('This is version 1 of the resource');\n});\n\n// Version 2 route\napp.get('/v2/resource', (req, res) => {\n    res.send('This is version 2 of the resource');\n});\n\napp.listen(3000, () => {\n    console.log('Server running on port 3000');\n});

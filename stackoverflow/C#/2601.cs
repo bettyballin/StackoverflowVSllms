@@ -1,1 +1,0 @@
-public class BasePage : Page {\n  public virtual string Content;\n}

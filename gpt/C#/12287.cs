@@ -1,0 +1,1 @@
+using System.Web.Services;\n\npublic partial class ArpWorkItem : System.Web.UI.Page\n{\n    [WebMethod]\n    public static void CancelPlan(int activePlanId, string ntLogin)\n    {\n        StrategyRetrievalPresenter presenter = new StrategyRetrievalPresenter();\n        presenter.CancelExistingPlan(activePlanId, ntLogin);            \n    }\n}

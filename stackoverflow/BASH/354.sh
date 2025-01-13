@@ -1,1 +1,0 @@
-mysqldump -u[username] -p[password] databasename > database.sql

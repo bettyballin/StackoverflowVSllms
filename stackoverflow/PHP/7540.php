@@ -1,1 +1,0 @@
-echo $row['active'] == 1 ?  '<a href="prof?id=$id">'.htmlspecialchars($row['username']).'</a>' : htmlspecialchars($row['username']);

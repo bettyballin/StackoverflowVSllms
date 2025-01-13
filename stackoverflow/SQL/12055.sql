@@ -1,1 +1,0 @@
-Select DateAdd(Month, DateDiff(Month, 0, GetDate()), 0)

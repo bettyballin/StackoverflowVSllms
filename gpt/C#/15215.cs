@@ -1,0 +1,1 @@
+DataSet ds = new DataSet();\n// Assume that ds is already filled with the data from the SQL query\n\nforeach (DataRow row in ds.Tables[0].Rows)\n{\n    var table1Column1 = row["table1_column1"];\n    var table1Column2 = row["table1_column2"];\n    var table2Column1 = row["table2_column1"];\n    var table2Column2 = row["table2_column2"];\n    // Process your data accordingly\n}

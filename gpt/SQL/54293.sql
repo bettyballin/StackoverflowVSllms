@@ -1,0 +1,1 @@
+DELIMITER $$\n\nCREATE PROCEDURE example_procedure()\nBEGIN\n    DECLARE ID INT;\n    -- Your code here\nEND$$\n\nDELIMITER ;

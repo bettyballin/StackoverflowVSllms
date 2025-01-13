@@ -1,0 +1,1 @@
+amespace MyNamespace\n{\n    using System.Collections.Generic;\n    using IntPair = System.Collections.Generic.KeyValuePair<int, int>; // works\n}

@@ -1,0 +1,1 @@
+dlltool -d yourlib.def -l libyourlib.a -D yourlib.dll

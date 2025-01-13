@@ -1,0 +1,1 @@
+0 * * * * /usr/bin/mysql -u your_username -p'your_password' your_database_name -e "INSERT INTO real_table (Item1, Item2, cnt) SELECT Item1, Item2, cnt FROM memory_table ON DUPLICATE KEY UPDATE cnt = cnt + VALUES(cnt); TRUNCATE TABLE memory_table;"

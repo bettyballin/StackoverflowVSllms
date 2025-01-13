@@ -1,0 +1,1 @@
+using System.Security.Permissions;\n\n    [assembly: SecurityPermission(SecurityAction.RequestMinimum, Execution = true)]\n    [assembly: UIPermission(SecurityAction.RequestMinimum, Unrestricted = true)]\n    [assembly: FileIOPermission(SecurityAction.RequestMinimum, Unrestricted = true)]\n    [assembly: SocketPermission(SecurityAction.RequestMinimum, Unrestricted = true)]

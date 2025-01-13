@@ -1,0 +1,1 @@
+ar -x mylib.a <object-file-name>\nfile <object-file-name>

@@ -1,0 +1,1 @@
+public static class Utility\n   {\n       public static string FormatDate(DateTime date)\n       {\n           return date.ToString("yyyy-MM-dd");\n       }\n\n       public static int CalculateSum(int a, int b)\n       {\n           return a + b;\n       }\n   }

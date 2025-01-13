@@ -1,0 +1,1 @@
+SELECT \n    COUNT(User.Id) AS UserCount, \n    Company.* \nFROM \n    Company\nLEFT JOIN \n    User ON User.CompanyId = Company.Id \n          AND (User.CanAccessSystem IS NULL OR User.CanAccessSystem = true)\nWHERE \n    Company.CanAccessSystem = true\nGROUP BY \n    Company.Id;

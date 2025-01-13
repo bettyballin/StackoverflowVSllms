@@ -1,1 +1,0 @@
-lnkShowHide.NavigateUrl = "String.Format(...)";

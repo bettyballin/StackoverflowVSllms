@@ -1,0 +1,1 @@
+# For Python\npython -m venv myenv\nsource myenv/bin/activate\npip install -r requirements.txt\n\n# For .NET\ndotnet new console -n MyApiClient\ncd MyApiClient\ndotnet add package System.Net.Http

@@ -1,1 +1,0 @@
-SELECT COUNT(*)\nFROM Table\nWHERE CreateDate >= DATEADD(hour, -12, GETDATE())

@@ -1,0 +1,1 @@
+CREATE UNIQUE CLUSTERED INDEX IX_MyIndexedView\n    ON dbo.MyIndexedView (Column1, Column2);

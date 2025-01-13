@@ -1,0 +1,1 @@
+Option Infer On\n\nPublic Sub ExampleMethod()\n    Dim prop = RegisterProperty(Of Guid)(...)\n    ' prop will be inferred as Guid if RegisterProperty(Of Guid) returns a Guid\nEnd Sub

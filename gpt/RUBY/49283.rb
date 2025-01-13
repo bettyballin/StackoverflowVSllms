@@ -1,0 +1,1 @@
+# Open the file in read mode to read its contents\nfile_path = "imcs2.xml"\nlines = File.readlines(file_path)\n\n# Remove the last line from the array\nlines.pop\n\n# Open the file in write mode to overwrite it with the modified content\nFile.open(file_path, "w") do |file|\n  file.puts(lines)\nend

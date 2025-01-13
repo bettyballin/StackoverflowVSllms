@@ -1,1 +1,0 @@
-//Add watermark to the image\nif (!(imagecopy($image, $watermark, $watermark_x, $watermark_y, 0, 0, $watermark_w,\n    $watermark_h)))

@@ -1,0 +1,1 @@
+<?php\nrequire 'MyProject.php'; // Assuming the above code is saved in MyProject.php\n\nuse MyProject\MyClass;\nuse function MyProject\myFunction;\nuse const MyProject\MYCONST;\n\n$instance = new MyClass();\n$instance->myFunction(); // Outputs: Hello from MyClass\n\nmyFunction(); // Outputs: Hello from MyFunction\n\necho MYCONST; // Outputs: Hello from MyConst\n\n?>

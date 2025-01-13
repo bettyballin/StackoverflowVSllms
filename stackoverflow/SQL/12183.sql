@@ -1,1 +1,0 @@
-SELECT shipment_id\n    , (SELECT TOP 1 time \n        FROM test AS [b] \n        WHERE b.shipment_id = a.shipment_id \n        AND b.stop_seq = MIN(a.stop_seq)) AS [start]\n    , (SELECT TOP 1 time \n        FROM test AS [b] \n        WHERE b.shipment_id = a.shipment_id \n        AND b.stop_seq = MAX(a.stop_seq)) AS [end]\nFROM test AS [a]\nGROUP BY shipment_id

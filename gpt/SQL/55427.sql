@@ -1,0 +1,1 @@
+UPDATE STATISTICS SIGN;\n   UPDATE STATISTICS NED;\n   -- Repeat for other tables as needed

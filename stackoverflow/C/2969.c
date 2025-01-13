@@ -1,1 +1,0 @@
-translatedArray=malloc(4*sizeof(short int));

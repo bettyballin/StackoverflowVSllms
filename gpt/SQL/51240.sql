@@ -1,0 +1,1 @@
+DECLARE @AdditionalXml XML;\nSET @AdditionalXml = '<AdditionalInfo><ProcessingDetail>Details</ProcessingDetail></AdditionalInfo>';\n\n-- Update the XML column by appending new XML data\nUPDATE MyTable\nSET MyXmlColumn.modify('insert sql:variable("@AdditionalXml") as last into (/Root)[1]')\nWHERE <your_condition>;

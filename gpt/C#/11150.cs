@@ -1,0 +1,1 @@
+// Example of a simple load test using Visual Studio\n    [TestMethod]\n    [TestCategory("LoadTest")]\n    public void LoadTestMethod()\n    {\n        for (int i = 0; i < 100; i++)\n        {\n            // Simulate user requests to the application\n        }\n    }

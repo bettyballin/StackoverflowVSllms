@@ -1,1 +1,0 @@
-With MyCommand.Parameters\n    .Count = 1\n    .Item(0).ParameterName = "@baz"\n    .Item(0).Value = fuz\nEnd With

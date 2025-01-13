@@ -1,0 +1,1 @@
+public class Ticket\n   {\n       public int Id { get; set; }\n       public string Content { get; set; }\n       public int Version { get; set; }\n   }

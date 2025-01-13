@@ -1,0 +1,1 @@
+# Command to restart Apache on XAMPP\nc:\xampp\apache\bin\httpd.exe -k restart

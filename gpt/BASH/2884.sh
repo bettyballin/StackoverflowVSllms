@@ -1,0 +1,1 @@
+regsvr32 "C:\Program Files\Common Files\System\ado\msado15.dll"\n   regsvr32 "C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll"

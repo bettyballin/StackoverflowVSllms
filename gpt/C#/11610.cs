@@ -1,0 +1,1 @@
+// Example of using the referenced assembly in your code\nusing SharePoint.EPlugin;\n\npublic class Example\n{\n    public void UsePlugin()\n    {\n        var plugin = new SharePointPlugin();\n        plugin.Execute();\n    }\n}

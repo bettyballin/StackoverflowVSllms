@@ -1,0 +1,1 @@
+cd /path/to/working/copy\n   svn switch --relocate <old-repo-URL> <new-repo-URL>

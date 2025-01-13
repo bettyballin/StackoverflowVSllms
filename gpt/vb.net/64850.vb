@@ -1,0 +1,1 @@
+' Assuming this code is inside a method within a web page or handler\nDim currentPage As String = Request.RawUrl\n\n' This will give you the complete URL path including the query string\n' Example: "ContractChange.aspx?d=1&b=2"\nso.Cpage = currentPage

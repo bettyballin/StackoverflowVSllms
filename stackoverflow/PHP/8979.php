@@ -1,1 +1,0 @@
-<? $this->load->view( "header" ); ?>\n//Page content...\n<? $this->load->view( "footer" ); ?>

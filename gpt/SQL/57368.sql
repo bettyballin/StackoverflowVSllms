@@ -1,0 +1,1 @@
+SELECT \n    A.id AS aid,\n    STRING_AGG(DISTINCT B.id::text, ',' ORDER BY B.id) AS bid,\n    STRING_AGG(DISTINCT C.id::text, ',' ORDER BY C.id) AS cid\nFROM \n    A\nLEFT JOIN \n    B ON B.aid = A.id\nLEFT JOIN \n    C ON C.aid = A.id\nWHERE \n    A.id = 1\nGROUP BY \n    A.id;

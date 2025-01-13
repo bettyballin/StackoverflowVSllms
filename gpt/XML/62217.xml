@@ -1,0 +1,1 @@
+<system.webServer>\n        <handlers>\n            <add name="DownloadHandler" path="DownloadHandler.ashx" verb="*" type="Namespace.DownloadHandler, AssemblyName" resourceType="Unspecified" />\n        </handlers>\n    </system.webServer>

@@ -1,0 +1,1 @@
+CREATE INDEX IX_YourIndexName\nON YourTable (YourColumn)\nWITH (FILLFACTOR = 70);

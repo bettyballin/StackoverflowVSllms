@@ -1,1 +1,0 @@
-if(strtolower($_SERVER['QUERY_STRING'])=='display=teen') {\n    $top_nav_item_id = 'teen';\n} else {\n    $top_nav_item_id = 'programs';\n}

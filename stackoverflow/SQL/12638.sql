@@ -1,1 +1,0 @@
-SELECT Parent.Id, Parent.Name FROM Parent \nLEFT OUTER JOIN\nSELECT Child.Id AS ChildId, Child.Name AS ChildName FROM Child\nON\nChild.ParentId = Parent.Id\nORDER BY Parent.Name

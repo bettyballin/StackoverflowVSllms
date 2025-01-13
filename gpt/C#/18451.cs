@@ -1,0 +1,1 @@
+protected void SqlDataSource_Selecting(object sender, SqlDataSourceSelectingEventArgs e)\n{\n    if (e.Command is OracleCommand oracleCommand)\n    {\n        oracleCommand.BindByName = true;\n    }\n}

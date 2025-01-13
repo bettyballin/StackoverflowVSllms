@@ -1,0 +1,1 @@
+<?php\necho htmlentities("LISBOA-VIENA DESDE 99€ TAXAS INCLUÍDAS, RESERVE JÁ", ENT_COMPAT, 'UTF-8');\n?>

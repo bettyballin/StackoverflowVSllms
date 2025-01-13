@@ -1,0 +1,1 @@
+sqlplus -s username/password@database @spool_data.sql

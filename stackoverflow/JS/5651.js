@@ -1,1 +1,0 @@
-tinyMCE.init({\n    relative_urls : false,\n    document_base_url : "http://www.site.com/path1/"\n});

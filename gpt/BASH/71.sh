@@ -1,0 +1,1 @@
+chmod 600 /path/to/id_rsa

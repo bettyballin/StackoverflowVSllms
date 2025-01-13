@@ -1,1 +1,0 @@
-im = ... # get image into PIL image instance\ndpi = im.info["dpi"] # retrive the DPI\nprint dpi # (x-res, y-res)\nim.info["dpi"] = new dpi # (x-res, y-res)\nim.save("PNG") # uses the new DPI

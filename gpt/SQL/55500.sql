@@ -1,0 +1,1 @@
+INSERT INTO MyTable (MyCol) VALUES ('ABC');\nINSERT INTO MyTable (MyCol) VALUES ('abc'); -- This will not cause a violatio

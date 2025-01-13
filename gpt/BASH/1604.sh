@@ -1,0 +1,1 @@
+mkdir build && cd build\n   ../configure --prefix=/usr/local/gcc-4.4.0 --enable-languages=c,c++\n   make

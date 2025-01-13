@@ -1,1 +1,0 @@
-document.body.style.cursor = "progress";\n\nsetTimeout(function()\n{\n    SortTable(cell.cellIndex, dir, sortType);\n    document.body.style.cursor = "auto";\n}, 10);

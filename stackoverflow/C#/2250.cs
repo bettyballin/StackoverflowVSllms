@@ -1,1 +1,0 @@
-WebConfigurationManager.OpenWebConfiguration()

@@ -1,0 +1,1 @@
+<?php\n\nnamespace App\Controllers;\n\nclass HomeController\n{\n    public function index()\n    {\n        require '../views/home.php';\n    }\n}

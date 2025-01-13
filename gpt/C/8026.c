@@ -1,0 +1,1 @@
+#include <pthread.h>\n\npthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;\n\nvoid lock() {\n    pthread_mutex_lock(&mutex);\n}\n\nvoid unlock() {\n    pthread_mutex_unlock(&mutex);\n}

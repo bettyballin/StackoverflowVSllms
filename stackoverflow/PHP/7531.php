@@ -1,1 +1,0 @@
-array_map('stripslashes', $_POST)

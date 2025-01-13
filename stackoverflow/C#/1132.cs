@@ -1,1 +1,0 @@
-public void addToList(myOtherClass tmp)\n  {\n    anewList.Add(tmp);\n  }

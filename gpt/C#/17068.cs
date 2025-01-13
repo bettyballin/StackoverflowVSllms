@@ -1,0 +1,1 @@
+using System;\n\n[AttributeUsage(AttributeTargets.Property, AllowMultiple = false)]\npublic class MaxLengthAttribute : Attribute\n{\n    public int Length { get; }\n\n    public MaxLengthAttribute(int length)\n    {\n        Length = length;\n    }\n}

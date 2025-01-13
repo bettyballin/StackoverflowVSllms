@@ -1,0 +1,1 @@
+-- Deleting a record\nDELETE FROM YourTable WHERE Id = @RecordId;

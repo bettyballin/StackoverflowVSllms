@@ -1,0 +1,1 @@
+CREATE ASSEMBLY WebServiceCaller FROM 'C:\path\to\WebServiceCaller.dll'\nWITH PERMISSION_SET = EXTERNAL_ACCESS;

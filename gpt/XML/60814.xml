@@ -1,0 +1,1 @@
+<Context>\n    <Resources>\n        <PreResources className="org.apache.catalina.webresources.DirResourceSet"\n                      base="/path/to/external/member/data"\n                      webAppMount="/memberdata"\n                      internalPath="/" />\n    </Resources>\n</Context>

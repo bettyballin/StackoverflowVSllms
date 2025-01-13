@@ -1,0 +1,1 @@
+# Edit your crontab file and add the following line\n0 * * * * /usr/bin/env ruby /path/to/your/app/cron/my_cron_script.rb

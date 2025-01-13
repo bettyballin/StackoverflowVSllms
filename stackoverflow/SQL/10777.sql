@@ -1,1 +1,0 @@
-select venues.venue_name, count(*) as volunteer_count\nfrom venues\nleft outer join volunteers\n   on venues.id = volunteers.venue_id\ngroup by venues.venue_name

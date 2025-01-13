@@ -1,0 +1,1 @@
+from xmldiff import main, formatting\n\nxml_a = '''<w:p>\n  <w:pPr>\n    <w:spacing w:after="1"/>\n  </w:pPr>\n  <w:r>\n    <w:t>World</w:t>\n  </w:r>\n</w:p>'''\n\nxml_b = '''<w:p>\n  <w:pPr>\n    <w:spacing w:after="1"/>\n  </w:pPr>\n  <w:r>\n    <w:t>ASDF</w:t>\n  </w:r>\n</w:p>'''\n\ndiff = main.diff_texts(xml_a, xml_b, formatter=formatting.XMLFormatter())\nprint(diff)

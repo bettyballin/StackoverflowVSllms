@@ -1,0 +1,1 @@
+// Example of a basic MVC pattern in Laravel\n   Route::get('/', 'HomeController@index');\n   \n   class HomeController extends Controller {\n       public function index() {\n           return view('home');\n       }\n   }

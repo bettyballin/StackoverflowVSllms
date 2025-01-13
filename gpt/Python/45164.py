@@ -1,0 +1,1 @@
+import base64\n\n# Example plain text\nplain_text = 'some text'\n\n# Encoding the plain text to Base64\nname_enc = base64.b64encode(plain_text.encode('utf-8'))\n\n# Inserting into the database\ncursor.execute("INSERT INTO BOB (name_enc) VALUES (:1)", [name_enc])

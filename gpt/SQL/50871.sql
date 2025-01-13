@@ -1,0 +1,1 @@
+DECLARE @EmployeeName NVARCHAR(50);\n     SELECT @EmployeeName = name\n     FROM employees\n     WHERE employee_id = 100;\n     PRINT 'Employee Name: ' + @EmployeeName;

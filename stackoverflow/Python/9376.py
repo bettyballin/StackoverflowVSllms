@@ -1,1 +1,0 @@
-speed = x*weight + y*wind + z*climb + constant

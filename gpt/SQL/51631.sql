@@ -1,0 +1,1 @@
+-- Compare user privileges\n   SELECT * FROM dba_sys_privs WHERE grantee = 'YOUR_USER';\n   SELECT * FROM dba_tab_privs WHERE grantee = 'YOUR_USER';

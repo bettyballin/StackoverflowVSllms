@@ -1,0 +1,1 @@
+<?php\n// Assume $data is the variable to be output\necho htmlspecialchars($data, ENT_QUOTES, 'UTF-8');\n?>

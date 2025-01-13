@@ -1,0 +1,1 @@
+CREATE TABLE FOO (\n       id INT PRIMARY KEY,\n       integer1 INT,\n       integer2 INT,\n       integer3 INT\n   );

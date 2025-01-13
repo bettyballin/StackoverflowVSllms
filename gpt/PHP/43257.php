@@ -1,0 +1,1 @@
+$shm_id = shmop_open(ftok(__FILE__, 't'), "c", 0644, 1024);\n     $data = serialize(['example' => 'data']);\n     shmop_write($shm_id, $data, 0);\n     $cachedData = unserialize(shmop_read($shm_id, 0, shmop_size($shm_id)));\n     shmop_close($shm_id);

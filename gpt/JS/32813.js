@@ -1,0 +1,1 @@
+<script>\nvar message = 'WHATEVER I TYPE IN THE TEXTAREA'; // replace this with the actual value from your textarea\nvar dataString = { message: message };\n\n// send message to PHP for processing!\n$.ajax({\n    type: "POST",\n    url: "process.php",\n    data: dataString,\n    dataType: "json",\n    success: function (data) {\n        // do stuff here\n    }\n});\n</script>

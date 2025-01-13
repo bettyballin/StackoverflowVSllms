@@ -1,1 +1,0 @@
-update B\nset Sector=A.sector \nfrom tbFoo A INNER JOIN tbFoo B\nON A.SectorKey=B.SectorKey \nand A.Sector is not null \nand B.Sector is null

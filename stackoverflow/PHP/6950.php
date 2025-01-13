@@ -1,1 +1,0 @@
-$variable = array('a','b','c');\necho $variable[$key];\nunset($variable);

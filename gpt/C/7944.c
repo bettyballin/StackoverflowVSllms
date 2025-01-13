@@ -1,0 +1,1 @@
+#include <stdint.h>\n\nint16_t floatToInt16(float value) {\n    int result;\n    __asm__ volatile (\n        "ftosi %0, %1"\n        : "=r" (result)\n        : "t" (value)\n    );\n    return (int16_t)result;\n}\n\nint main() {\n    float nextFloat = 0.5f;\n    int16_t nextInt = floatToInt16(nextFloat * 32768.0f + 0.5f);\n    return 0;\n}

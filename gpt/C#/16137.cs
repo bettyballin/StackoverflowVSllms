@@ -1,0 +1,1 @@
+async Task<int> GetDataAsync()\n   {\n       // Simulate asynchronous work\n       await Task.Delay(1000);\n       return 42;\n   }

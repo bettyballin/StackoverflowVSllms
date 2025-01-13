@@ -1,1 +1,0 @@
-// assuming to loop over all Members.\n$j = 0;\n\n$sql = 'SELECT MemberId'\n     . '  FROM qotwVote1a'\n     . ' WHERE QuestionId=' . $questionId . '\n     . '   AND MemberId=' . $id . '\n     . ' LIMIT 1;';    // returns max. 1 row if found else FALSE.\n\n$result2 = mysql_query($sql);\nif (FALSE !== ($row2 = mysql_fetch_array($result2))) {\n    $j = 1;\n}

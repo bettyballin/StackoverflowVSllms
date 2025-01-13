@@ -1,0 +1,1 @@
+// Original\n    public class MyClass { }\n\n    // Changed - This will not break the interface.\n    public class MyClass { }\n    public class NewClass { }

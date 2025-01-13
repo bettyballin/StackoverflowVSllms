@@ -1,1 +1,0 @@
-Sub Update(Of T)(ByVal someObject As T)\n     Dim session As ISession = NHibernateHelper.OpenSession\n     Dim transaction As ITransaction = session.BeginTransaction\n     session.Update(someObject)\n     transaction.Commit()\n End Sub

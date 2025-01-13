@@ -1,0 +1,1 @@
+$ddl = array(\n    'CREATE TABLE tableOne ...',\n    'CREATE TABLE tableTwo ...',\n    'CREATE TABLE tableThree ...'\n);\n\nforeach($ddl as $tableDef) {\n    if (preg_match('/CREATE TABLE\s+([a-zA-Z0-9_]+)/i', $tableDef, $matches)) {\n        $tableName = $matches[1];\n        echo $tableName . PHP_EOL;\n    }\n}

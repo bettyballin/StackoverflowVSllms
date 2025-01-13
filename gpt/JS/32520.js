@@ -1,0 +1,1 @@
+// Example of centralized error handling middleware in Node.js\n    app.use((err, req, res, next) => {\n        console.error(err.stack);\n        res.status(500).json({ message: 'Something went wrong!' });\n    });

@@ -1,0 +1,1 @@
+select ename from emp where hiredate = to_date('01/05/81','dd/mm/rr');

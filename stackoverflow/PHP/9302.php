@@ -1,1 +1,0 @@
-// setup the info column into the placeholder\n$this->placeholder('rightcol')\n     ->set($this->render('index/view_infoCol.phtml'));\n\n// later in the layout template\necho $this->placeholder('rightcol');

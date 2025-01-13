@@ -1,1 +1,0 @@
-delete from sp\nfrom subprotocols sp\ninner join protocols p on\n    sp.protocolid = p.protocolid\n    and p.workspaceid = @workspaceid

@@ -1,1 +1,0 @@
-cmd> telnet <some well known email provider IP> 25

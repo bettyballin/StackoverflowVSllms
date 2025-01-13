@@ -1,1 +1,0 @@
-Declare Function GetCurrentProcessId Lib "kernel32" () As Long

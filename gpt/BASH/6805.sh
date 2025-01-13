@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Source the file containing the function\nsource /path/to/my_functions.sh\n\n# Now you can use the function\nmy_functio

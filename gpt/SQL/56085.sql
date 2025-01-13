@@ -1,0 +1,1 @@
+SELECT column1, column2 FROM table1\n  UNION ALL\n  SELECT column1, column2 FROM table2;

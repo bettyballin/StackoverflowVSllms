@@ -1,0 +1,1 @@
+call close(<fd>)\n   detach\n   quit

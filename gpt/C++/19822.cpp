@@ -1,0 +1,1 @@
+class testMenu : public MenuScreen {\npublic:\n    bool draw;\n\n    MenuButton<testMenu> x;\n\n    testMenu() : MenuScreen("testMenu") {\n        x.SetButton(100, 100, TEXT("buttonNormal.png"), TEXT("buttonHover.png"), TEXT("buttonPressed.png"), 100, 40, &testMenu::test2, this);\n        draw = false;\n    }\n\n    void test2() {\n        draw = true;\n    }\n};

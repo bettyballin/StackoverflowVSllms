@@ -1,0 +1,1 @@
+SELECT Field1, Field2, 'Value' AS Field3\nFROM Table;

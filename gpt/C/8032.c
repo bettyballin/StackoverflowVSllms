@@ -1,0 +1,1 @@
+// MyLibrary.c\n   __declspec(dllexport) void Function1() {\n       // Implementation\n   }\n\n   __declspec(dllexport) void Function2() {\n       // Implementation\n   }\n\n   __declspec(dllexport) int Variable1 = 42;

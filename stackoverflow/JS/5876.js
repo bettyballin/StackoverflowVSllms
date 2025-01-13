@@ -1,1 +1,0 @@
-$('html').height( $(document).height() + numerical_height_of_your_widget );

@@ -1,0 +1,1 @@
+php maintenance/importDump.php --prefix "imported_" /path/to/your/exported.xml

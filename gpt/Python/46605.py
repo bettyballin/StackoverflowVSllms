@@ -1,0 +1,1 @@
+class BookDB:\n    def get_book(self, book_id: int) -> 'Book':\n        pass\n\n    def new_book(self) -> 'Book':\n        pass\n\nclass Book:\n    def __init__(self, title: str = ""):\n        self.title = title\n\n    def save(self):\n        pass

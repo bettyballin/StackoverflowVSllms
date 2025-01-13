@@ -1,0 +1,1 @@
+public interface IFooService\n{\n    string GetFoo();\n}\n\npublic class FooService : IFooService\n{\n    public string GetFoo()\n    {\n        // Fetch data from the database or any other data source\n        return "Foo Data";\n    }\n}

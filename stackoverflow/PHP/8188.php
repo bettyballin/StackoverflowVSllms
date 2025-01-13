@@ -1,1 +1,0 @@
-$element = new Zend_Form_Element_File('fileElement');

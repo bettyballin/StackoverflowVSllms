@@ -1,0 +1,1 @@
+Public Class Foo\n    Inherits BaseClass\nEnd Class

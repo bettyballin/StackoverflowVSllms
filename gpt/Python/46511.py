@@ -1,0 +1,1 @@
+# Using the module\nimport mod_call\n\n# This will raise a TypeError because modules are not callable\nmod_call()\n\n# This works because we are explicitly calling the __call__ method\nmod_call.__call__()

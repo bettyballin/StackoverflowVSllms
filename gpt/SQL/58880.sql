@@ -1,0 +1,1 @@
+-- Rebuild full-text catalogs\nALTER FULLTEXT CATALOG [YourFullTextCatalog] REBUILD

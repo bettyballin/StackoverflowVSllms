@@ -1,0 +1,1 @@
+#ifndef DEBUG\n   // Ensure touch event methods are not excluded in release build\n   #endif

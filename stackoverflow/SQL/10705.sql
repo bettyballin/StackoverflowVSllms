@@ -1,1 +1,0 @@
-UPDATE Users \nSET \n    UserName = REPLACE(UserName, '\\ProductionDomain\', '\\DevDomain\')

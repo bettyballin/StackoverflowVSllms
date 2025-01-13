@@ -1,0 +1,1 @@
+caspol -machine -addgroup 1 -url file://<NetworkSharePath>/* FullTrust -name "NetworkShareFullTrust"

@@ -1,0 +1,1 @@
+<CLSCompliant(False)>\nPublic Class YourClassName\n    ' Your class implementation\nEnd Class

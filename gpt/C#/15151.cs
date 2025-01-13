@@ -1,0 +1,1 @@
+[AllowCrossSiteJson]\n    public JsonResult List(int count)\n    {\n        // Your code here\n    }

@@ -1,0 +1,1 @@
+Array\n(\n    [0] => stdClass Object\n        (\n            [ID] => 8\n            [user_login] => user8\n        )\n    [1] => stdClass Object\n        (\n            [ID] => 1\n            [user_login] => user1\n        )\n    [2] => stdClass Object\n        (\n            [ID] => 6\n            [user_login] => user6\n        )\n)

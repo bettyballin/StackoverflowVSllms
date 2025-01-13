@@ -1,1 +1,0 @@
-if (typeof optionalArg === 'undefined') { optionalArg = 'default'; }

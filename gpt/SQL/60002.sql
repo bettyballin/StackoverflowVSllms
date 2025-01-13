@@ -1,0 +1,1 @@
+SELECT MainTable.ID, \n       IIf(AttachmentField.FileData IS NULL, 'No Attachments', 'Has Attachments') AS AttachmentStatus\nFROM MainTable \nLEFT JOIN AttachmentTable AS AttachmentField \nON MainTable.ID = AttachmentField.ParentID;

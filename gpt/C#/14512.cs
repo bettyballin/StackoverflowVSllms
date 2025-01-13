@@ -1,0 +1,1 @@
+// Set no-cache headers to prevent Facebook from caching your application pages\nResponse.Cache.SetCacheability(HttpCacheability.NoCache);\nResponse.Cache.SetNoStore();\nResponse.Cache.SetExpires(DateTime.UtcNow.AddMinutes(-1));

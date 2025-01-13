@@ -1,0 +1,1 @@
+# Get all users in the 'accountexec' group\nusers = User.objects.filter(groups__name='accountexec')\n\n# Get all logs where the user is in the list of users\nlogs = Log.objects.filter(user__in=users)

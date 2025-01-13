@@ -1,1 +1,0 @@
-post :create, :user => { :email => 'foo@bar.com' }

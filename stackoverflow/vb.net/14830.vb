@@ -1,1 +1,0 @@
-FUNCTION Long CreateFile(ref string lpszName, long fdwAccess, long fdwShareMode, long lpsa, &\nlong fdwCreate, long fdwAttrsAndFlags, long hTemplateFile) LIBRARY "Kernel32.dll" &\nALIAS FOR "CreateFileA;Ansi"\nFUNCTION boolean CloseHandle (long file_hand) LIBRARY "KERNEL32.DLL"

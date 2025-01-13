@@ -1,1 +1,0 @@
-select owner,constraint_name,constraint_type,table_name,r_owner,r_constraint_name\nfrom all_constraints \nwhere constraint_type='R'\nand r_constraint_name in (select constraint_name from all_constraints \nwhere constraint_type in ('P','U') and table_name='TABLE_NAME');

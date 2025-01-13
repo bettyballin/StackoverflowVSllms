@@ -1,0 +1,1 @@
+function access($role_auth, $array) {\n    if (!in_array($role_auth, $array)) {\n        header("Location: ../index.html");\n        exit(); // Always exit after a header redirect in PHP\n    }\n}

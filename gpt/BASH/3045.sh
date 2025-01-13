@@ -1,0 +1,1 @@
+# Using Cython to compile to .so/.pyd file\ncythonize -i myscript.py

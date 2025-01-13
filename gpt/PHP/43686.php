@@ -1,0 +1,1 @@
+$rawfile = "largefile.csv";\n\nif ($file = fopen($rawfile, "r")) {\n    while (($line = fgets($file)) !== false) {\n        // Process the line read.\n        echo $line;\n    }\n    fclose($file);\n} else {\n    echo "fail!";\n}

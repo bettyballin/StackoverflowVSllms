@@ -1,1 +1,0 @@
-mysql_query("INSERT INTO users (username, password)\n             VALUES ('$username', '$passwd')");

@@ -1,0 +1,1 @@
+import glob\n\ndef get_files(pattern):\n    return glob.glob(pattern, recursive=True)\n\n# Example usage\nfiles = get_files("**/CVS/*")\nfor file in files:\n    print(file)

@@ -1,1 +1,0 @@
-typedef struct list_item list_item;\n\nstruct list_item\n{\n    list_item *next;\n    ...data for node...\n};

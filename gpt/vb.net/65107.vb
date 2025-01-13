@@ -1,0 +1,1 @@
+Dim bytes() As Byte = {0, 0, 0, 25}\nDim result As Integer = BitConverter.ToInt32(bytes, 0)\nConsole.WriteLine(result)

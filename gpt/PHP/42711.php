@@ -1,0 +1,1 @@
+<?php\n   echo 'Include path: ' . get_include_path();\n   ?>

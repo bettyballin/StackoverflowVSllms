@@ -1,0 +1,1 @@
+ClassA* pa = NULL;\nClassA* pb = NULL;\n\nvoid assignObject(ClassA** ppa, ClassB** ppb) \n{\n  *ppa = new ClassA;\n  *ppb = new ClassB;\n}\n\nint main() {\n  assignObject(&pa, &pb);\n  // Now pa and pb will point to new instances of ClassA and ClassB respectively\n}

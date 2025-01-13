@@ -1,1 +1,0 @@
-UPDATE @table \nSET [column] = (\n    SELECT p.i.value('.','int') AS c\n    FROM [column].nodes('//i') AS p(i)\n    OUTER APPLY (\n        SELECT x.i.value('.','bigint') AS i\n        FROM @parameter.nodes('//i') AS x(i)\n        WHERE p.i.value('.','bigint') = x.i.value('.','int')\n    ) a\n    WHERE a.i IS NULL\n    FOR XML PATH(''), TYPE\n)

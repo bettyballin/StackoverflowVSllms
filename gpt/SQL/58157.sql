@@ -1,0 +1,1 @@
+SELECT * \nFROM OracleLinkedServer..SchemaName.TableName;

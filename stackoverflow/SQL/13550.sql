@@ -1,1 +1,0 @@
-"SELECT * FROM tablename WHERE field1 = 'value' && field2 = 'value2'";

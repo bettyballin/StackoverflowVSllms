@@ -1,1 +1,0 @@
-$doc =& JFactory::getDocument();\n$doc->setMimeEncoding('application/pdf');

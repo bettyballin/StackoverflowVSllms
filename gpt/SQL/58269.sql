@@ -1,0 +1,1 @@
+SELECT u.email, p.code, p.expires\nFROM users u\nLEFT JOIN password_resets p ON u.id = p.user_id\nWHERE u.username = :username;

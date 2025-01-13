@@ -1,0 +1,1 @@
+$object = new MyClass();\n$method = 'myMethod';\n$result = call_user_func([$object, $method], $arg1, $arg2);

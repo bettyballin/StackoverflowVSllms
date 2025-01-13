@@ -1,1 +1,0 @@
-If Not pictureBox.Image is Nothing Then\n    //do stuff here\nElse\n    //do other stuff\nEnd If

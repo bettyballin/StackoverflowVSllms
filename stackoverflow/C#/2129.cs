@@ -1,1 +1,0 @@
-[DllImport("ole32.dll")]\nstatic extern int CreateBindCtx(uint reserved, out IBindCtx ppbc);

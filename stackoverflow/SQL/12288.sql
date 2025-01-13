@@ -1,1 +1,0 @@
-select case when Date < '15:30' then '15:00 - 15:30'\n            when Date < '16:00' then '15:30 - 16:00'\n            else 'After 16:00' end as category\ninto #temp1\nfrom Table1\n\nselect count(*) as VistingCount, category as Date\nfrom #temp1\ngroup by category

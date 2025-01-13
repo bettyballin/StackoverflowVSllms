@@ -1,1 +1,0 @@
-$.validator.addMethod("textboxC_validation", function(value) {\n    return confirm('Are you sure you dont want to enter something in textboxC?');\n}, 'Please enter something in textboxC!');

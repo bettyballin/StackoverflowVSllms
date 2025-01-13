@@ -1,0 +1,1 @@
+def foo(x):\n       pass\n\n   def bar(y):\n       pass\n\n   registry = {}\n   foo.dispatch_name = "handler_foo"\n   bar.dispatch_name = "handler_bar"\n\n   registry[foo.dispatch_name] = foo\n   registry[bar.dispatch_name] = bar

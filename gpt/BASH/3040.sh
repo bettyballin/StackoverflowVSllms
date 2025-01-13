@@ -1,0 +1,1 @@
+phpunit --bootstrap TestBootstrap.php path/to/tests

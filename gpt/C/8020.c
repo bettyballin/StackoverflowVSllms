@@ -1,0 +1,1 @@
+#pragma GCC diagnostic push\n#pragma GCC diagnostic ignored "-Wdeprecated-declarations"\n#include <stdio.h>\n#pragma GCC diagnostic pop\n\nint main() {\n    char buffer[100];\n    // Using gets() despite the warning\n    gets(buffer);\n    printf("%s\n", buffer);\n    return 0;\n}

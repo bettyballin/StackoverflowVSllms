@@ -1,1 +1,0 @@
-declare @data xml\n\nset @data = \n        '<DOD   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" \n                        xsi:nil="true" />'\n\nselect\n    Value1 = CAST(NULLIF(@data.value('/DOD[1]', 'varchar(30)'), '') AS datetime)

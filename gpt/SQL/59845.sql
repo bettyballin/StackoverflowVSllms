@@ -1,0 +1,1 @@
+UPDATE myTable\nSET column1 = @value1, \n    column2 = @value2\nWHERE actualPrimaryKey = @primaryKey

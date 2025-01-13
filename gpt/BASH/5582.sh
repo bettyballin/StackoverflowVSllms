@@ -1,0 +1,1 @@
+px i18n-checker http://www.example.com

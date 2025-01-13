@@ -1,0 +1,1 @@
+DBCC CHECKDB('YourDatabaseName') WITH PHYSICAL_ONLY;

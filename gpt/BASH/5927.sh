@@ -1,0 +1,1 @@
+strace -p <pid> -o /tmp/strace_output.log -v -s 1024

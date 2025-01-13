@@ -1,1 +1,0 @@
-sed \\n    -e 's!^--- !&a/!' \\n    -e 's!^+++ !&b/!' \\n    < p0.patch \\n    > p1.patch

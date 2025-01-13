@@ -1,1 +1,0 @@
-LPCTSTR sk = TEXT("SOFTWARE\\TestSoftware");

@@ -1,0 +1,1 @@
+const string myConstStr = @"very long string\nanother long string";

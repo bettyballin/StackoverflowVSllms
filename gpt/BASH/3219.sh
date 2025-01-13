@@ -1,0 +1,1 @@
+#!/bin/sh\n# .git/hooks/post-commit\n\n# Get the latest commit hash\nCOMMIT_HASH=$(git rev-parse HEAD)\n\n# Get the diff of the latest commit\ngit diff-tree --no-commit-id --name-only -r $COMMIT_HASH | grep '\.php$' | while read file; do\n    # Call the PHP script to analyze the diff\n    php analyze_diff.php $file $COMMIT_HASH\ndone

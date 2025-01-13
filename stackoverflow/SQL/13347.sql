@@ -1,1 +1,0 @@
-SQL> CREATE TABLE test_sqlldr (\n  2     ID NUMBER,\n  3     comments VARCHAR2(20),\n  4     id2 NUMBER\n  5  );\n\nTable created

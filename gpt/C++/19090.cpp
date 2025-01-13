@@ -1,0 +1,1 @@
+// MyWrapper.h\n#pragma once\n\nusing namespace System;\nusing namespace MyNamespace;\n\npublic ref class MyWrapper\n{\npublic:\n    String^ SayHello(String^ name)\n    {\n        MyClass^ myClass = gcnew MyClass();\n        return myClass->SayHello(name);\n    }\n};

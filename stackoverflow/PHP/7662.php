@@ -1,1 +1,0 @@
-$username = $_SERVER['PHP_AUTH_USER'];\n$password = $_SERVER['PHP_AUTH_PW'];

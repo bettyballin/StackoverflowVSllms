@@ -1,1 +1,0 @@
-$ php -r 'echo trim("0string0", "0") . "\n";'\nstring

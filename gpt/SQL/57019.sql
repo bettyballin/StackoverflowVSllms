@@ -1,0 +1,1 @@
+imp b/*** file=oracledump.DMP log=import.log fromuser=a touser=b remap_tablespace=A_TBLSPACE:B_TBLSPACE

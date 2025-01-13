@@ -1,1 +1,0 @@
-SELECT MAX( col )\n  FROM table\n WHERE col < ( SELECT MAX( col )\n                 FROM table )

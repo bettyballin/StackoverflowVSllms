@@ -1,0 +1,1 @@
+class AuthController extends Zend_Controller_Action\n{\n    public function loginAction()\n    {\n        // Handle the login form submission and authentication here\n    }\n\n    // Optionally, add a logout action\n    public function logoutAction()\n    {\n        Zend_Auth::getInstance()->clearIdentity();\n        $this->_redirect('/auth/login');\n    }\n}

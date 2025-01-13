@@ -1,0 +1,1 @@
+// Reading a file\n   string content = File.ReadAllText("example.txt");\n\n   // Writing to a file\n   File.WriteAllText("example.txt", "Hello, World!");

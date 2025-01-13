@@ -1,1 +1,0 @@
-datediff(day, @date, dateadd(month, 1, @date))

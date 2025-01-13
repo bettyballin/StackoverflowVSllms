@@ -1,0 +1,1 @@
+Debug.Assert(!this.InvokeRequired, "UI updates should be done on the UI thread.");

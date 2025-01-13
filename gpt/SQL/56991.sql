@@ -1,0 +1,1 @@
+LOAD DATA\n    INFILE 'data.csv'\n    INTO TABLE tablea\n    FIELDS TERMINATED BY ';'\n    (id "tablea_seq.NEXTVAL", b, c)

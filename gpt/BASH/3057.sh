@@ -1,0 +1,1 @@
+ssh -i ~/.ec2/id_rsa-gsg-keypair ec2-user@your-ec2-instance-public-dns

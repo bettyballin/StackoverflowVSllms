@@ -1,1 +1,0 @@
-CASE\n     WHEN sysdate IN\n       (SELECT h.holidaydate FROM holiday h)

@@ -1,0 +1,1 @@
+exiftool -Copyright="Copyright Initrode" -Artist="Initrode" image.jpg

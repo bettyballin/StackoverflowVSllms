@@ -1,0 +1,1 @@
+// Example of passing configuration to a DLL through a constructor\n\npublic class MyDLLClass {\n    private readonly string _configValue;\n\n    public MyDLLClass(string configValue) {\n        _configValue = configValue;\n    }\n\n    public void DoSomething() {\n        // Use _configValue\n    }\n}

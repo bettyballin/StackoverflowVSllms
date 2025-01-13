@@ -1,1 +1,0 @@
-<script>\n  var myvar = <?= json_encode($myVarValue, JSON_UNESCAPED_UNICODE); ?>;\n</script>

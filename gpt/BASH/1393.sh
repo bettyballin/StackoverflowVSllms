@@ -1,0 +1,1 @@
+$ou = "OU=Users,DC=yourdomain,DC=com"\n$user = "CN=minimalPermsUser,OU=Users,DC=yourdomain,DC=com"\n\n# Grant read permissions\ndsacls $ou /G $user:RP

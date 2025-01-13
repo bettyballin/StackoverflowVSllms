@@ -1,0 +1,1 @@
+using System.ServiceModel;\n\nnamespace QS.DialogManager.Communication.IISHost\n{\n    [ServiceContract]\n    public interface IRecipientService\n    {\n        [OperationContract]\n        string GetData(int value);\n    }\n}

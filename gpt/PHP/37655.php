@@ -1,0 +1,1 @@
+<?php\ninclude("domain.class.php");\n\n// Initializing class\n$domain = new domain($message);\n\n// Checking if domain is available\nif ($domain->is_available()) {\n    $status = "$message is available";\n} else {\n    $status = "$message is unavailable";\n}\n\necho $status;\n?>

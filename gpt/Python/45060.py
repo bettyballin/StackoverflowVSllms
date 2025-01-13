@@ -1,0 +1,1 @@
+# Generate random values from the KDE\nrandom_values = kde.resample(size=1000).T[0]

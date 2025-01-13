@@ -1,0 +1,1 @@
+// composer require "twig/twig:^3.0"\n\n// Setup Twig environment\nrequire_once '/path/to/vendor/autoload.php';\n\n$loader = new \Twig\Loader\FilesystemLoader('/path/to/templates');\n$twig = new \Twig\Environment($loader);\n\n// Render a template\necho $twig->render('index.html', ['name' => 'John Doe']);

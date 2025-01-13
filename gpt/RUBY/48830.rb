@@ -1,0 +1,1 @@
+# Protect the master branch\ngitlab-rails console\nproject = Project.find_by_full_path('group/project')\nproject.protected_branches.create(name: 'master', push_access_levels_attributes: [{access_level: Gitlab::Access::MAINTAINER}], merge_access_levels_attributes: [{access_level: Gitlab::Access::DEVELOPER}])

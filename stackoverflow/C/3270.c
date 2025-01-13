@@ -1,1 +1,0 @@
-int arr[] = {3, 2, 5, 2, 1, 5, 3};\n\nint num = 0, i;\n\nfor (i=0; i < 7; i++)\n    num ^= arr[i];\n\nprintf("%i\n", num);

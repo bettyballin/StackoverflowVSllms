@@ -1,0 +1,1 @@
+public void SetUserSession(string userName)\n{\n    HttpContext.Current.Session["UserName"] = userName;\n}

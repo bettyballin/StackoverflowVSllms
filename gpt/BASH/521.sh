@@ -1,0 +1,1 @@
+sed -E 's|C:\\good\\|C:/good/|g' inputfile > outputfile

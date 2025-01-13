@@ -1,1 +1,0 @@
-object myDependency;\n#if DEBUG\nmyDependency = new Stub();\n#else\nmyDependency = new Actual();\n#endif

@@ -1,0 +1,1 @@
+ulimit -a  # Check current limits\n    ulimit -n 2048  # Example to increase file descriptors limit

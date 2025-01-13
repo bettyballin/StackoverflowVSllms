@@ -1,0 +1,1 @@
+char* myStr = createString();\n   // Use myStr\n   free(myStr);

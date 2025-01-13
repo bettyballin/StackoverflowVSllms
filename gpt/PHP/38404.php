@@ -1,0 +1,1 @@
+$age = filter_input(INPUT_POST, 'age', FILTER_VALIDATE_INT);\nif ($age === false) {\n    echo "Invalid age";\n} else {\n    echo "Age is valid";\n}

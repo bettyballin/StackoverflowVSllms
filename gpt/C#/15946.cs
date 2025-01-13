@@ -1,0 +1,1 @@
+// Using casting for Asc() equivalent\nchar character = 'A';\nint asciiValue = (int)character;\n\n// Using casting for Chr() equivalent\nint asciiValue = 65;\nchar character = (char)asciiValue;

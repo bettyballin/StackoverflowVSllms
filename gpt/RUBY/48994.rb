@@ -1,0 +1,1 @@
+rails generate model Widget name:string description:text author:string code:text\n    rails generate controller Widgets

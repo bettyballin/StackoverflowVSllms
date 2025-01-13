@@ -1,0 +1,1 @@
+cwebp -lossless input.png -o output.webp

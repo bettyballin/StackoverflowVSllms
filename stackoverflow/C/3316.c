@@ -1,1 +1,0 @@
-</p>\n\n<pre>\n  catch (const std::exception &ex) {\n    ... log exception ...\n  }\n  catch (...) {\n    ... log exception ..\n  }\n</pre>\n\n<p>

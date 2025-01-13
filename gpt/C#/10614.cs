@@ -1,0 +1,1 @@
+var differenceQuery = \n    (from cust in db.Customers\n     select cust.Country)\n    .Except\n    (from emp in db.Employees\n     select emp.Country);

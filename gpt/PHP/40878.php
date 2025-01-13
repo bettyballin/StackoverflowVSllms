@@ -1,0 +1,1 @@
+foreach ($_REQUEST["ORDER_VALUE"] as $order_value) {\n    // Do something with $order_value\n    echo $order_value . "<br>";\n}

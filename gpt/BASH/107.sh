@@ -1,0 +1,1 @@
+ssh user@remote_host 'head -n 10 /path/to/remote/file'

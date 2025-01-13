@@ -1,0 +1,1 @@
+// Example of POCO threading\n  class MyRunnable : public Poco::Runnable {\n  public:\n      void run() override {\n          // Thread logic here\n      }\n  };\n\n  MyRunnable runnable;\n  Poco::Thread thread;\n  thread.start(runnable);\n  thread.join();

@@ -1,1 +1,0 @@
-SELECT func_id, min(tax_code) as MinOfTax_Code\nFROM Functions\nINNER JOIN Tax \nON (Functions.Func_Year = Tax.Tax_Year) \nAND (Functions.Func_Pure <= Tax.Tax_ToPrice) \nGROUP BY Func_Id

@@ -1,1 +1,0 @@
-declare @t datetime\nset @t = '2009-05-06 12:29.997'\n--truncate anything smaller than minute\nset @t = cast (@t as smalldatetime)\nselect @t\nselect \n    case\n        when datepart(minute, @t) >= 30\n            then dateadd(minute, 60-(datepart(minute, @t)), @t)\n        else dateadd(minute, -(datepart(minute, @t)), @t)\n    end

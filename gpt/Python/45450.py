@@ -1,0 +1,1 @@
+from django.http import JsonResponse\n\n    def user_details_view(request, user_id):\n        user_details = get_user_details(user_id)\n        return JsonResponse(user_details, safe=False)

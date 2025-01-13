@@ -1,0 +1,1 @@
+# Consul installation on Ubuntu\n   sudo apt-get install -y consul

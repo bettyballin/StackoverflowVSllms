@@ -1,1 +1,0 @@
-gcc -std=c99 -pedantic foo.c

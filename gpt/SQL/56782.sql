@@ -1,0 +1,1 @@
+SET TRANSACTION ISOLATION LEVEL READ COMMITTED;\nSTART TRANSACTION;\nSELECT amount FROM CALLS WHERE callId=1213;\n-- Perform any necessary checks or operations here\nCOMMIT;

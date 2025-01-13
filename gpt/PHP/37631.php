@@ -1,0 +1,1 @@
+class ClassPeer {\n    public static function doSomething() {\n        echo "Doing something!";\n    }\n}\n\n$class_name = 'ClassPeer';\n$class_name::doSomething();  // Output: Doing something!

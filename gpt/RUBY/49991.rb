@@ -1,0 +1,1 @@
+# app/models/contact_form.rb\nclass ContactForm\n  include ActiveModel::Model\n\n  attr_accessor :subject, :message\n\n  validates :subject, presence: true\n  validates :message, presence: true\nend

@@ -1,1 +1,0 @@
-List<string> myList = new List<string>();\nIEnumerable<string> myEnumerable = myList;\nList<string> listAgain = myEnumerable.ToList();

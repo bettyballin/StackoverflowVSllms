@@ -1,0 +1,1 @@
+using (var context = new MyDbContext())\n{\n    var events = context.Events.Select(c => new EventData \n    { \n        EventID = c.EventID, \n        Title = c.Title \n    }).ToList();\n}

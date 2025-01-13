@@ -1,0 +1,1 @@
+// In OtherDll.cpp\n   ULONG g_cObjRef = 0;\n\n   extern "C" HRESULT __stdcall DllCanUnloadNow() {\n       return (g_cObjRef == 0) ? S_OK : S_FALSE;\n   }\n\n   void DllAddRef() {\n       InterlockedIncrement(&g_cObjRef);\n   }\n\n   void DllRelease() {\n       InterlockedDecrement(&g_cObjRef);\n   }

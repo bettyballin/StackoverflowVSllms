@@ -1,0 +1,1 @@
+$(document).ready(function() {\n       $('#loadContentButton').click(function() {\n           $('#mainContentDiv').load('/myPhpPage.php');\n       });\n   });

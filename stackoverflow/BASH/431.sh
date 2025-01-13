@@ -1,1 +1,0 @@
-RewriteCond %{REQUEST_METHOD} !=POST\nRewriteCond %{SERVER_PORT}s ^443(s)|.*\nRewriteRule ^foo/bar$ http%1://www.example.com%{REQUEST_URI} [L,R=301]

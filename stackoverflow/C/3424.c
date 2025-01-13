@@ -1,1 +1,0 @@
-class Foo {\npublic:\n  int Bar();\n};\nextern "C" Foo* Foo_Create() { return new Foo(); }\nextern "C" int Foo_Bar(Foo* pFoo) { return pFoo->Bar(); }\nextern "C" void Foo_Delete(Foo* pFoo) { delete pFoo; }

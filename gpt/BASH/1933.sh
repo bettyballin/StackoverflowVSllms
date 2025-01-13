@@ -1,0 +1,1 @@
+# Enable GPIO pin (replace '18' with your actual GPIO pin number)\necho "18" > /sys/class/gpio/export\n\n# Set the GPIO pin as input\necho "in" > /sys/class/gpio/gpio18/direction\n\n# Read the value of the GPIO pin (0 or 1)\ncat /sys/class/gpio/gpio18/value

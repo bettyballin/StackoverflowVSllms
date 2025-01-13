@@ -1,1 +1,0 @@
-UPDATE\n  MyTable\nSET\n  MyColumn = UPPER(MyColumn)

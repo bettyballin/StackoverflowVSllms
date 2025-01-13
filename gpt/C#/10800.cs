@@ -1,0 +1,1 @@
+public abstract class FileResult : ActionResult\n{\n    public string ContentType { get; }\n    // Other members\n}

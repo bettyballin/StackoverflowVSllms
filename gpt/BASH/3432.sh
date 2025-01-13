@@ -1,0 +1,1 @@
+echo "extension=geoip.so" | sudo tee -a /etc/php.ini

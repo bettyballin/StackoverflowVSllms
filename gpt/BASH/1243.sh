@@ -1,0 +1,1 @@
+composer global require friendsofphp/php-cs-fixer\n     php-cs-fixer fix /path/to/your/php/files

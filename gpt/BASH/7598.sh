@@ -1,0 +1,1 @@
+cp csu/crti.o /path/to/your/cross-compiler/lib/\n   cp csu/crtn.o /path/to/your/cross-compiler/lib/

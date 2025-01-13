@@ -1,0 +1,1 @@
+var projectWithCompany = context.Projects\n                                .Include(p => p.Company)\n                                .FirstOrDefault(p => p.ProjectId == projectId);

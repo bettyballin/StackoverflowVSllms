@@ -1,0 +1,1 @@
+<%@ Page Language="C#" %>\n<!DOCTYPE html>\n<html>\n<head>\n    <title>Hello World</title>\n</head>\n<body>\n    <%\n        Response.Write("Hello, World!");\n    %>\n</body>\n</html>

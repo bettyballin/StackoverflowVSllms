@@ -1,0 +1,1 @@
+openssl pkcs12 -in your-keystore.p12 -nocerts -out your-key.pem -nodes -passin pass:your-password\n    openssl pkcs12 -in your-keystore.p12 -clcerts -nokeys -out your-cert.pem -passin pass:your-password

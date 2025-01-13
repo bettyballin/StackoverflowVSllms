@@ -1,1 +1,0 @@
-Zend_Search_Lucene_Search_Query_Fuzzy::setDefaultPrefixLength(1);

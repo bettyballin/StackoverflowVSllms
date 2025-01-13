@@ -1,0 +1,1 @@
+int? b;\nif (b != null)\n{\n    // ...\n}

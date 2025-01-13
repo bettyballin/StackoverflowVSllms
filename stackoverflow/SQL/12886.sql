@@ -1,1 +1,0 @@
-CREATE TABLE sizes (\n  name VARCHAR2(10) CHECK( name IN ('small','medium','large') )\n);

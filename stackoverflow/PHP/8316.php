@@ -1,1 +1,0 @@
-\n?php\n$str="result: %d"\n....dostuff.....define $count.....\nprintf($str,$count)\n?

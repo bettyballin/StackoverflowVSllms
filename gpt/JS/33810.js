@@ -1,0 +1,1 @@
+$.post("/url/", { wtf: 2 }, function(response) {\n    console.log(response);\n});

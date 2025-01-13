@@ -1,0 +1,1 @@
+$(document).ready(function() {\n     var token = $('meta[name="csrf-token"]').attr('content');\n\n     $.ajaxSetup({\n       headers: {\n         'X-CSRF-Token': token\n       }\n     });\n   });

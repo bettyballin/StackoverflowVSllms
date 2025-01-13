@@ -1,0 +1,1 @@
+:: On Windows server\n   ping <Linux_Server_IP>\n   telnet <Linux_Server_IP> 10000

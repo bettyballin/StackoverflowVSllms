@@ -1,0 +1,1 @@
+$dir = '/path/to/new/directory';\n    mkdir($dir, 0755);\n    chown($dir, 'user1');  // Change ownership to 'user1'\n    chmod($dir, 0755);     // Set proper permissions

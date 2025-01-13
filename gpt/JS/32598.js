@@ -1,0 +1,1 @@
+function showUser(str) {\n    // Do the display\n    console.log("Displaying user: " + str);\n}

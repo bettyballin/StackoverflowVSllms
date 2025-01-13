@@ -1,0 +1,1 @@
+INSERT INTO ratings (user_id, game_id, rating) VALUES (?, ?, ?);

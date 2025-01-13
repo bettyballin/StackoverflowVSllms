@@ -1,1 +1,0 @@
-field is null or dbo.fn_count_maximum_of_field(field) < 2

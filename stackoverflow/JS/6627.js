@@ -1,1 +1,0 @@
-false <> true // operator will evaluate expression as true\nfalse != true // operator will evaluate expression as true

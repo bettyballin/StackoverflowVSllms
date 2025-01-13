@@ -1,1 +1,0 @@
-SELECT *\nFROM oildatasetstatus\nJOIN oildataset ON oildataset.oildatasetid=oildatasetstatus.oildatasetid

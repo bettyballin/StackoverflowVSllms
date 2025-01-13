@@ -1,1 +1,0 @@
-SELECT MAX(ID), UserName\nFROM table\nGROUP BY UserName

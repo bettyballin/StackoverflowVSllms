@@ -1,0 +1,1 @@
+explicit auto_ptr(element_type* __p = 0) throw() : _M_ptr(__p) { }

@@ -1,0 +1,1 @@
+using (var context = new MyDbContext())\n   {\n       var users = context.Users.ToList();\n       foreach (var user in users)\n       {\n           Console.WriteLine(user.Name);\n       }\n   }

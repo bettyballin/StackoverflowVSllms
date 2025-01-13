@@ -1,1 +1,0 @@
-function index($username){ \n$data['username'] =  $username; 

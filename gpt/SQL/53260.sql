@@ -1,0 +1,1 @@
+CREATE TABLE files (\n        id INT PRIMARY KEY AUTO_INCREMENT,\n        title VARCHAR(255) NOT NULL,\n        abstract TEXT,\n        reference VARCHAR(255),\n        owner_user_id INT,\n        group_id INT,\n        FOREIGN KEY (owner_user_id) REFERENCES users(id),\n        FOREIGN KEY (group_id) REFERENCES groups(id)\n    );

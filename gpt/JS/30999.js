@@ -1,0 +1,1 @@
+function getHTMLWithDoctype() {\n    const doctype = new XMLSerializer().serializeToString(document.doctype);\n    const html = document.documentElement.outerHTML;\n    return doctype + html;\n}

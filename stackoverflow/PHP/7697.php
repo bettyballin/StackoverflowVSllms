@@ -1,1 +1,0 @@
-preg_match_all('/<img\s+[^<>]*src=["\']?([^"\'<>\s]+)["\']?/i', $content, $result, PREG_PATTERN_ORDER);\n$result = $result[1];

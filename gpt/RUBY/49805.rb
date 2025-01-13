@@ -1,0 +1,1 @@
+a = ["x", "y", "z"]\nprint "output:" + a.joi

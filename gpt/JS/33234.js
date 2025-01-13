@@ -1,0 +1,1 @@
+// Example arrays\nlet array1 = [1, 2, 3, 4, 5];\nlet valueToCheck = 3;\n\n// Checking if valueToCheck is in array1\nif (array1.includes(valueToCheck)) {\n    console.log(valueToCheck + " is in the array.");\n} else {\n    console.log(valueToCheck + " is not in the array.");\n}

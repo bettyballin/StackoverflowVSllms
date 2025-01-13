@@ -1,1 +1,0 @@
-<script>document.method = function() {}</script>

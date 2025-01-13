@@ -1,0 +1,1 @@
+ALTER TABLE Orders\nADD CONSTRAINT FK_Orders_UserMapping\nFOREIGN KEY (UserID) REFERENCES UserMapping(UserID);

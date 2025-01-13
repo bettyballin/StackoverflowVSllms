@@ -1,1 +1,0 @@
-"SELECT * FROM data WHERE id = " + a_variable + ";"

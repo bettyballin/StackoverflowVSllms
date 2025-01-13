@@ -1,0 +1,1 @@
+$jsonData = '{"key1":"value1","key2":"value2"}';\n$array = json_decode($jsonData, true);\n\nprint_r($array);

@@ -1,1 +1,0 @@
-label1.Left = 50;\nlabel1.Top = 70;

@@ -1,0 +1,1 @@
+module B\n  def self.included(base)\n    base.extend ClassMethods\n  end\n\n  module ClassMethods\n    def define_const\n      const_set(:CONST, find)\n    end\n  end\nend\n\nclass A\n  def self.find\n    "AAA"\n  end\n\n  include B\n  define_const\nend\n\nputs A::CONST

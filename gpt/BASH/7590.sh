@@ -1,0 +1,1 @@
+composer require phpstan/phpstan\n  vendor/bin/phpstan analyse /path/to/your/php4/code --level max

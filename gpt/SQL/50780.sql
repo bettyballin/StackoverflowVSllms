@@ -1,0 +1,1 @@
+CREATE TABLE your_table_name (\n       id INT AUTO_INCREMENT PRIMARY KEY,\n       japanese_text VARCHAR(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci\n   );

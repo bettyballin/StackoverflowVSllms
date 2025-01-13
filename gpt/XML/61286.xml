@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <httpProtocol>\n      <customHeaders>\n        <add name="Access-Control-Allow-Origin" value="http://intranet"/>\n        <add name="Access-Control-Allow-Credentials" value="true"/>\n      </customHeaders>\n    </httpProtocol>\n  </system.webServer>\n</configuration>

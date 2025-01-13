@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX IDX_EventDate_EventTypeCode ON EventTable(EventDate, EventTypeCode);

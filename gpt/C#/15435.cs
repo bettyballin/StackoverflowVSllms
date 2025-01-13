@@ -1,0 +1,1 @@
+using System.Web.Script.Serialization;\n\npublic class ShoppingCart\n{\n    public int ProductID { get; set; }\n    public int Quantity { get; set; }\n    // Add other properties as needed\n}\n\npublic string SerializeShoppingCart(ShoppingCart cart)\n{\n    JavaScriptSerializer serializer = new JavaScriptSerializer();\n    return serializer.Serialize(cart);\n}

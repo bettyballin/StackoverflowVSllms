@@ -1,0 +1,1 @@
+// ClassLib.cs\nnamespace MyClassLibrary\n{\n    public class ClassLib\n    {\n        public int Id { get; set; }\n        public string Name { get; set; }\n\n        public ClassLib(int id, string name)\n        {\n            Id = id;\n            Name = name;\n        }\n    }\n}

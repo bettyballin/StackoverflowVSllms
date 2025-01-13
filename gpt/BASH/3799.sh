@@ -1,0 +1,1 @@
+java -javaagent:RandomAgent.jar -cp yourAppClasspath YourMainClass

@@ -1,1 +1,0 @@
-public IEnumerable<string[]> CreateEnumerable(StreamReader input)\n{\n    string line;\n    while ((line = input.ReadLine()) != null)\n    {\n        yield return line.Split('þ');\n    }\n}

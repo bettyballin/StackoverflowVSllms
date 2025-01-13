@@ -1,0 +1,1 @@
+<%@ Application Language="C#" %>\n<script runat="server">\n    void Application_Start(Object sender, EventArgs e) \n    {\n        System.IO.File.AppendAllText(Server.MapPath("~/App_Data/log.txt"), "Application_Start called at " + DateTime.Now.ToString() + "\n");\n    }\n</script>

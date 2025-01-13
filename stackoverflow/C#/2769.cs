@@ -1,1 +1,0 @@
-File.Copy(path, destination)

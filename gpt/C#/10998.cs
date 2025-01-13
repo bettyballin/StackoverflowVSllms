@@ -1,0 +1,1 @@
+using Microsoft.VisualStudio.TestTools.UnitTesting;\n\nnamespace YourNamespace\n{\n    [TestClass]\n    public class YourTestClass\n    {\n        [TestMethod]\n        public void YourTestMethod()\n        {\n            // Your test code here\n        }\n    }\n}

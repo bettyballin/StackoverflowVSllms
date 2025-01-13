@@ -1,0 +1,1 @@
+VACUUM ANALYZE your_table_name;

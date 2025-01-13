@@ -1,1 +1,0 @@
-Public Module MyModule\n    <Runtime.CompilerServices.Extension()> _\n    Public Function HasID(ByVal query As IQueryable(Of Type), ByVal id As Long?) As IQueryable(Of Type)\n        Return If(id.HasValue, query.Where(Function(o) o.ID.Equals(id.Value)), query)\n    End Function\nEnd Module

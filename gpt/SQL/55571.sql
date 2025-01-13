@@ -1,0 +1,1 @@
+SELECT t1.col1, t1.col2\nFROM table1 t1\nLEFT OUTER JOIN (\n    SELECT person_uid, period\n    FROM table2\n    WHERE table2.period = t1.period\n) t2\nON t1.person_uid = t2.person_uid

@@ -1,0 +1,1 @@
+var query = db.Customers\n              .SelectMany(c => db.Orders\n                                 .Where(o => o.CustomerID == c.CustomerID)\n                                 .Select(o => new { c.CustomerName, o.OrderID }));

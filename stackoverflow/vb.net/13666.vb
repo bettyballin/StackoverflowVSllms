@@ -1,1 +1,0 @@
-<XmlRoot(Namespace:="http://www.w3.org/1999/xml", ElementName:="messages")> _\nPublic Class cResponseMessage\n\n    <XmlElement> _\n    Public Property [error] As String\n        Get\n        Set(ByVal value As String)\n    End Property\n\n    <XmlElement> _\n    Public Property message As String\n        Get\n        Set(ByVal value As String)\n    End Property\nEnd Class

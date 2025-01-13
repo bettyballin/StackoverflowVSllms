@@ -1,0 +1,1 @@
+'providers' => [\n         // Other service providers...\n         Laravel\Horizon\HorizonServiceProvider::class,\n     ],

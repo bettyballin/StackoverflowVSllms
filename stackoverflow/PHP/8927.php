@@ -1,1 +1,0 @@
-// displays 3.14 as 3 and 4.00 as 4    \nprint number_format($price, 0); \n// display 4 as 4.00 and 1234.56 as 1,234.56 aka money style\nprint number_format($int, 2, ".", ","); 

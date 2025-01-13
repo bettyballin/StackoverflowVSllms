@@ -1,0 +1,1 @@
+7z a -tzip -pYourStrongPassword -mem=AES256 encrypted.zip /path/to/files

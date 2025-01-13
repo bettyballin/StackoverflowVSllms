@@ -1,1 +1,0 @@
-select * from people where lastname like '%' + firstname + '%'

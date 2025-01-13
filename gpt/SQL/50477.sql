@@ -1,0 +1,1 @@
+GRANT SELECT ON myTable123 TO new_user;

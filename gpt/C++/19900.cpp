@@ -1,0 +1,1 @@
+auto objArray = allocate<obj[]>(10); // Automatically handles constructor and destructor calls\n\n// Usage\nfor (int i = 0; i < 10; ++i) {\n    objArray[i].doSomething();\n}\n\n// Automatic deallocation and destructor calls when objArray goes out of scope

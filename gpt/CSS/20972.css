@@ -1,0 +1,1 @@
+html, body {\n    height: 100%;\n    margin: 0;\n    padding: 0;\n}\n\n#container {\n    height: 100%;\n    width: 100%;\n    border-collapse: collapse; /* Optional: If you want border collapse */\n}\n\n#container td {\n    height: 100%;\n}

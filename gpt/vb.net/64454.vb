@@ -1,0 +1,1 @@
+Public Class ObjectViewData\n    Public Property SomeString As String\n    Public Property SomeNumber As Integer\nEnd Class

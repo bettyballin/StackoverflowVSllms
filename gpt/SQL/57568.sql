@@ -1,0 +1,1 @@
+SELECT TZ_OFFSET('Pacific/Marquesas') FROM dual;

@@ -1,0 +1,1 @@
+public class YourEntity\n{\n    [Key]\n    public Guid Id { get; set; }\n\n    // Other properties\n}

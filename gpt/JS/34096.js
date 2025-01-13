@@ -1,0 +1,1 @@
+var pair = surrogatePair(c);\nhi = pair[0];\nlo = pair[1];

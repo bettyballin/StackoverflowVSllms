@@ -1,0 +1,1 @@
+gcc -Wall -Wextra -g -o your_program your_program.c

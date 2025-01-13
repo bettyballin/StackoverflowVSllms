@@ -1,0 +1,1 @@
+/* Make all labels bold by default */\nlabel {\n    font-weight: bold;\n}\n\n/* Exclude labels that are associated with radio buttons and checkboxes */\nlabel input[type="radio"] + *,\nlabel input[type="checkbox"] + * {\n    font-weight: normal;\n}

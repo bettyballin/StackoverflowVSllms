@@ -1,0 +1,1 @@
+// Original code\npublic void MyMethod() {\n    Console.WriteLine("Hello, World!");\n}\n\n// Edited code\npublic void MyMethod() {\n    Console.WriteLine("Hello, dnSpy!");\n}

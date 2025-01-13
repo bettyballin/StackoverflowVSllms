@@ -1,1 +1,0 @@
-utf8_encode($row[$key])

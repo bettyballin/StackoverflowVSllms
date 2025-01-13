@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE GetEmployeeDetails (\n    p_employee_id IN NUMBER,\n    p_employee_name OUT VARCHAR2,\n    p_employee_salary OUT NUMBER\n) AS\nBEGIN\n    SELECT name, salary\n    INTO p_employee_name, p_employee_salary\n    FROM employees\n    WHERE employee_id = p_employee_id;\nEND;\n/

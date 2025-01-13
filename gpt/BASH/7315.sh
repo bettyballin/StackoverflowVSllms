@@ -1,0 +1,1 @@
+./configure --enable-maintainer-zts\nmake\nsudo make install

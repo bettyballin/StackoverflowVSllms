@@ -1,1 +1,0 @@
-objHTTP.Open "GET", URL, False

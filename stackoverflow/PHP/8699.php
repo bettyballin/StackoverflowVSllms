@@ -1,1 +1,0 @@
-header('Content-type: application/postscript');\nreadfile('appendix.ps');

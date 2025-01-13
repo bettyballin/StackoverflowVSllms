@@ -1,1 +1,0 @@
-<% Dim t = ViewData.Model %>

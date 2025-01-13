@@ -1,1 +1,0 @@
-Select Key, SortOrder, Group

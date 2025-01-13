@@ -1,0 +1,1 @@
+aws s3 cp C:\Backups\YourDatabaseName_Diff.bak s3://your-bucket-name/YourDatabaseName_Diff.bak

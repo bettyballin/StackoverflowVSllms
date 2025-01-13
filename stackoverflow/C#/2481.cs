@@ -1,1 +1,0 @@
-protected override bool LoadDiagramData\n{\n    get\n    {\n        return true;\n    }\n}

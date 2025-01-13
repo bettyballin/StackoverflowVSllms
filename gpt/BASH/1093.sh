@@ -1,0 +1,1 @@
+java -XX:ErrorFile=/path/to/logs/hs_err_pid%p.log -jar YourApp.jar

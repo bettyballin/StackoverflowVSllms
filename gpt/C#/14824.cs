@@ -1,0 +1,1 @@
+List<string> myList1;\nList<string> myList2;\n\nmyList1 = getMeAList(); // myList1 contains 4 strings\nmyList2 = getMeAnotherList(); // myList2 contains 6 strings\n\nmyList1 = myList1.Concat(myList2).ToList(); // myList1 now contains 10 strings

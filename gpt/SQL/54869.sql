@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n    BEGIN TRY\n        -- Perform some operations\n        COMMIT TRANSACTION;\n    END TRY\n    BEGIN CATCH\n        ROLLBACK TRANSACTION;\n        -- Handle the error\n    END CATCH;

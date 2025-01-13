@@ -1,0 +1,1 @@
+public string ReturnAsCSV(ContactList contactList)\n{\n    return string.Join(",", contactList.Select(c => c.Name));\n}

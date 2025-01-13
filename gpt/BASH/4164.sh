@@ -1,0 +1,1 @@
+RichCopy.exe "source_path" "destination_path" /S /E /V /R:5 /W:5

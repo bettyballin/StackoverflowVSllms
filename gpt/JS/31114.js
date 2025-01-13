@@ -1,0 +1,1 @@
+function checkAccess(userId, resource) {\n       const userRole = getUserRole(userId);\n       const accessRights = getAccessRights(userRole);\n       if (!accessRights.includes(resource)) {\n           throw new AccessDeniedException("User does not have access to this resource.");\n       }\n   }

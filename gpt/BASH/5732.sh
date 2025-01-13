@@ -1,0 +1,1 @@
+regsvr32 "C:\path\to\your\dll\foo.dll"

@@ -1,1 +1,0 @@
-create unique clustered index pk_comment(post_id, comment_id)  

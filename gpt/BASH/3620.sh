@@ -1,0 +1,1 @@
+sudo pecl config-set php_ini /etc/php.ini\n   sudo pecl config-set ext_dir /usr/lib64/php/modules

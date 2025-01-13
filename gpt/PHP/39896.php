@@ -1,0 +1,1 @@
+if (isset($_POST['var'])) {\n    // The 'var' field is set and not null\n}

@@ -1,0 +1,1 @@
+# Using perf\nperf record -g ./my_program\nperf report\n\n# Using valgrind with callgrind\nvalgrind --tool=callgrind ./my_program\ncallgrind_annotate callgrind.out.<pid>

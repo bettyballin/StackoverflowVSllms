@@ -1,1 +1,0 @@
-CREATE VIEW EmployeeHistory\nAS\n, FirstName, , DepartmentId\n\nSELECT EmployeeId, RevisionXML.value('(/employee/FirstName)[1]', 'varchar(50)') AS FirstName,\n\n  RevisionXML.value('(/employee/LastName)[1]', 'varchar(100)') AS LastName,\n\n  RevisionXML.value('(/employee/DepartmentId)[1]', 'integer') AS DepartmentId,\n\nFROM EmployeeHistories 

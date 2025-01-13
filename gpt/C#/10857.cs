@@ -1,0 +1,1 @@
+protected void Button_Click(object sender, EventArgs e)\n   {\n       var jobId = Hangfire.BackgroundJob.Enqueue<LongRunningTask>(x => x.Execute());\n       Session["JobId"] = jobId;\n       Response.Redirect("PleaseWait.aspx");\n   }

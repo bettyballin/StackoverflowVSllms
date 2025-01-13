@@ -1,0 +1,1 @@
+# config/application.rb\nconfig.autoload_paths << Rails.root.join('lib')

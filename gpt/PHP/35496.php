@@ -1,0 +1,1 @@
+class Application_Model_DbTable_B extends Zend_Db_Table_Abstract\n{\n    protected $_name = 'table_b';\n}

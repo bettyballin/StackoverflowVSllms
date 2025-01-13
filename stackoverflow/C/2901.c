@@ -1,1 +1,0 @@
-// Piece::returnPiece is a function taking no arguments and returning a pointer to a\n// 4x4 array of integers\nint (*Piece::returnPiece(void))[4][4]\n{\n    // return pointer to the array\n    return &pieceArray;\n}

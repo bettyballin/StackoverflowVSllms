@@ -1,1 +1,0 @@
-from parent in parents \nwhere parent.Children.Any (c => c.CategoryNumber==1)\nselect parent into p\nfrom child in p.Children\nwhere child.CategoryNumber == 2\nselect child

@@ -1,1 +1,0 @@
-SELECT @row := 0; \nSELECT MAX( position ) \n  FROM ( SELECT @row := @row + 1 AS position\n           FROM photos\n          WHERE photo_gallery_id = 43\n            AND date_created_on <= 'the-date-time-your-photo-was' \n          ORDER BY date_created_on ) positions;

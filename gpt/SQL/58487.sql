@@ -1,0 +1,1 @@
+SELECT InstanceId, State, Status\nFROM InstanceTable\nWHERE Status = 'Active';

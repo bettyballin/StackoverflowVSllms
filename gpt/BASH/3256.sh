@@ -1,0 +1,1 @@
+git fetch origin\n   git reset --hard origin/master\n   git am 0001blah.patch\n   git am 0002blah.patch

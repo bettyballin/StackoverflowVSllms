@@ -1,0 +1,1 @@
+RESTORE DATABASE [YourDatabaseName]\nFROM DISK = 'C:\path\to\your\backupfile.bak'\nWITH MOVE 'YourLogicalDataFileName' TO 'C:\path\to\your\newdatafile.mdf',\n     MOVE 'YourLogicalLogFileName' TO 'C:\path\to\your\newlogfile.ldf';

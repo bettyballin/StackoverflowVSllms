@@ -1,1 +1,0 @@
-if(ini_get('zlib.output_compression')) {\n    ini_set('zlib.output_compression', 'Off');\n}

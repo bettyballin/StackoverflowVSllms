@@ -1,0 +1,1 @@
+public class InProcFavoriteMovieService : IFavoriteMovie\n   {\n       private readonly FavoriteMovieService _service = new FavoriteMovieService();\n\n       public MyFavoriteMovie GetItem()\n       {\n           return _service.GetItem();\n       }\n   }

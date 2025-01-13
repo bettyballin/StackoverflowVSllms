@@ -1,1 +1,0 @@
-app/views/projects/_form.html.erb

@@ -1,1 +1,0 @@
-int WINAPI IsolatedFunction(const char *title, const char *test);

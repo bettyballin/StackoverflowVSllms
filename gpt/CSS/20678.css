@@ -1,0 +1,1 @@
+#Treeview {\n    padding-right: 5px;\n    width: 250px;\n    height: 100%;\n    float: left;\n    border-right: solid 1px black;\n    overflow-x: hidden; /* Hide horizontal scrollbar */\n    word-wrap: break-word; /* Enable word-wrapping */\n}

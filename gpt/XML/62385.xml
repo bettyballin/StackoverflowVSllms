@@ -1,0 +1,1 @@
+<?xml version="1.0"?>\n<configuration>\n  <system.net>\n    <mailSettings>\n      <smtp from="you@example.com">\n        <network host="smtp.example.com" port="587" userName="yourUsername" password="yourPassword" enableSsl="true" />\n      </smtp>\n    </mailSettings>\n  </system.net>\n</configuration>

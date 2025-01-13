@@ -1,0 +1,1 @@
+IStream* pStream = ...;  // This is the stream obtained from the worker thread\nCComPtr<IHTMLDocument2> spDocument;\n\n// Unmarshal the interface pointer from the stream\nHRESULT hr = CoGetInterfaceAndReleaseStream(pStream, IID_IHTMLDocument2, (void**)&spDocument);\nif (FAILED(hr)) {\n    // Handle the error\n}\n\n// Now you can safely use spDocument on the main thread

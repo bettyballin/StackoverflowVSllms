@@ -1,0 +1,1 @@
+SELECT student_id, student_name FROM students_2022\nUNION ALL\nSELECT student_id, student_name FROM students_2023;

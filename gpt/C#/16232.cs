@@ -1,0 +1,1 @@
+// Delete a row\n    var rowToDelete = ds.Tables["SampleTable"].AsEnumerable()\n                        .FirstOrDefault(row => row.Field<int>("Id") == 2);\n    if (rowToDelete != null)\n    {\n        ds.Tables["SampleTable"].Rows.Remove(rowToDelete);\n    }

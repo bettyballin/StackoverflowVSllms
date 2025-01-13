@@ -1,1 +1,0 @@
-$ tar --exclude='./folder' --exclude='./upload/folder2' -zcvf /backup/filename.tgz .

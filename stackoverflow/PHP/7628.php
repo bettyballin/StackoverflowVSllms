@@ -1,1 +1,0 @@
-//  Non static call\ncall_user_func( array( $obj, 'method' ) );\n\n//  Static calls\ncall_user_func( array( 'ClassName', 'method' ) );\ncall_user_func( 'ClassName::method' ); // (As of PHP 5.2.3)

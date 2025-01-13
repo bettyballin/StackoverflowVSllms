@@ -1,0 +1,1 @@
+file_path = '/path/to/your/myfile.txt'\ntry:\n    with open(file_path, 'r') as file:\n        content = file.read()\n        # Process your content here\nexcept IOError:\n    # Handle error

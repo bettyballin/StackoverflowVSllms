@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() {\n  document.querySelectorAll('select[id^="membership_permissions_"]').forEach(function(select) {\n    select.addEventListener('change', function() {\n      this.form.requestSubmit(); // Use requestSubmit to trigger form submission\n    });\n  });\n});

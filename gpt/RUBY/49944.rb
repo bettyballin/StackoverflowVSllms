@@ -1,0 +1,1 @@
+# Gemfile\n   gem 'rack-attack'\n\n   # Configure Rack Attack in an initializer (config/initializers/rack_attack.rb)\n   class Rack::Attack\n     throttle('req/ip', limit: 5, period: 1.minute) do |req|\n       req.ip unless req.path.start_with?('/assets')\n     end\n   end

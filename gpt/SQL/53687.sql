@@ -1,0 +1,1 @@
+SELECT Id, ParentId, Comment\nFROM comments\nORDER BY \n    CASE \n        WHEN ParentId = 0 THEN Id \n        ELSE ParentId \n    END, \n    CASE \n        WHEN ParentId = 0 THEN 0 \n        ELSE Id \n    END;

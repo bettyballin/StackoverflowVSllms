@@ -1,0 +1,1 @@
+.clearfix:after {\n  content: "";\n  display: table;\n  clear: both;\n}\n\n.clearfix {\n  zoom: 1; /* For IE 6/7 (haslayout) */\n}

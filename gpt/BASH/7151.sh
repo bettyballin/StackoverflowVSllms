@@ -1,0 +1,1 @@
+# Connect to VPN at 2 AM\n    0 2 * * * /usr/bin/sudo /usr/bin/pon <connection_name>\n    # Disconnect from VPN at 3 AM\n    0 3 * * * /usr/bin/sudo /usr/bin/poff <connection_name>

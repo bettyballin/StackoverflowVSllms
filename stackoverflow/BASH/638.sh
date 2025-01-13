@@ -1,1 +1,0 @@
-Substitution of batch parameters (%n) has been enhanced.  You can\n now use the following optional syntax:\n\n %~1         - expands %1 removing any surrounding quotes (")

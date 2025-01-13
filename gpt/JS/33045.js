@@ -1,0 +1,1 @@
+<script type="text/javascript">\n   var flashvars = {};\n   flashvars.session_id = "<?php echo session_id(); ?>";\n   \n   var params = {};\n   var attributes = {};\n   \n   swfobject.embedSWF("upload.swf", "flashContent", "300", "120", "9.0.0", false, flashvars, params, attributes);\n   </script>

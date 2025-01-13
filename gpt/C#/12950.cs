@@ -1,0 +1,1 @@
+using (FileStream fs = new FileStream("path/to/your/file.pdf", FileMode.OpenOrCreate))\n   {\n       // Your file operation logic here\n   }

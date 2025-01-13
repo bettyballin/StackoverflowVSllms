@@ -1,1 +1,0 @@
-function doSomething(url, elem) {\n  $.ajax({\n     type: "GET",\n     url: url,\n     dataType: "xml",\n     success: function(xml) {\n       rssToTarget(xml, elem);\n     }\n  });\n}

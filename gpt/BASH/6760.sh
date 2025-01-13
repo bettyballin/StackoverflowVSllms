@@ -1,0 +1,1 @@
+sudo sysctl -w net.ipv4.tcp_retries2=8\n   sudo sysctl -w net.ipv4.tcp_retries1=3

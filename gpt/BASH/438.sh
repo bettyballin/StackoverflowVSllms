@@ -1,0 +1,1 @@
+find . -iname "*.dmg" -exec du -ch {} + | grep total$

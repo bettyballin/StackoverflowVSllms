@@ -1,1 +1,0 @@
-WHERE username = '$username' AND  email     = '$email'"

@@ -1,1 +1,0 @@
-SELECT * FROM dog WHERE dog.name LIKE ?

@@ -1,0 +1,1 @@
+php -c /etc/php.ini /path/to/script.php

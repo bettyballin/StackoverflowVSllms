@@ -1,0 +1,1 @@
+die('Error occurred in ' . __FILE__ . ' on line ' . __LINE__);

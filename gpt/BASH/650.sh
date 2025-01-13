@@ -1,0 +1,1 @@
+g++ -static -o myapp myapp.cpp

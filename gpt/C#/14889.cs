@@ -1,0 +1,1 @@
+using NHibernate.Validator.Constraints;\n\n   public class Person\n   {\n       [NotNullNotEmpty(Message = "Name is required.")]\n       public string Name { get; set; }\n\n       [Range(Min = 18, Max = 60, Message = "Age must be between 18 and 60.")]\n       public int Age { get; set; }\n   }

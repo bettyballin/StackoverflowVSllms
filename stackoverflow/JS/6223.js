@@ -1,1 +1,0 @@
-<script type="text/javascript">\nif (window.top.location != window.location) {\n  window.top.location = window.location;\n}\n</script>

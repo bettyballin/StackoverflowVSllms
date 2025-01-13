@@ -1,0 +1,1 @@
+#include "header.h"\n\nvoid functionInFile2() {\n    myStaticFunction(); // This will call the static function defined in file2's translation unit\n}

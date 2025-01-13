@@ -1,0 +1,1 @@
+Dim obj As Object = New SomeClass()\nIf GetType(SomeClass).IsInstanceOfType(obj) Then\n    ' obj is an instance of SomeClass\nEnd If

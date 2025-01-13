@@ -1,0 +1,1 @@
+ul.navMenu {\n    list-style-type: none;\n    padding: 0;\n    margin: 0;\n}\n\nul.navMenu li {\n    display: inline;\n}\n\nul.navMenu li + li::before {\n    content: "|";\n    margin: 0 0.4em;\n    color: #333333;\n}\n\nul.navMenu a {\n    text-decoration: none;\n    color: inherit;\n    padding: 0.4em;\n}

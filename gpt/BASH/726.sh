@@ -1,0 +1,1 @@
+/usr/bin/colorgcc -std=c99 -D_XOPEN_SOURCE=500 -fgnu89-inline -g -Wall -I/usr/include -I./ -I../ -I../../ -I../../../ -I../../../../ -O3 -o f8 f8.c

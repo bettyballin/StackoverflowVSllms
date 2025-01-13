@@ -1,0 +1,1 @@
+svn checkout svn+ssh://your-svn-server.com/repo

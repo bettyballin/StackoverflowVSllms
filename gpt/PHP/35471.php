@@ -1,0 +1,1 @@
+// Example usage of isset()\nif (isset($_POST['username'])) {\n    // The 'username' field is present in the form submission\n}\n\n// Example usage of !empty()\nif (!empty($_POST['username'])) {\n    // The 'username' field is present in the form submission and not empty\n}

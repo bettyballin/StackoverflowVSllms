@@ -1,0 +1,1 @@
+using System;\n\npublic class GuidToInt\n{\n    public static int GetIntFromGuid(Guid sampleGuid)\n    {\n        return BitConverter.ToInt32(sampleGuid.ToByteArray(), 0);\n    }\n}

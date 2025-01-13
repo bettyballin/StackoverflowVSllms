@@ -1,1 +1,0 @@
-SELECT * FROM tbl_news WHERE news_id\n IN (select news_id from\n tbl_tag_relations WHERE tag_id = 20)

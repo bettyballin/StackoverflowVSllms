@@ -1,0 +1,1 @@
+const int myConst = 10; // internal linkage\n  extern const int myExternConst = 20; // external linkage

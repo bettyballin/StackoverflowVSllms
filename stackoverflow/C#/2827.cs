@@ -1,1 +1,0 @@
-[AttributeUsage (Inherited = True)]\nMyUberAttribute : Attribute\n{\n   string _SpecialName;\n   public string SpecialName\n   { \n     get { return _SpecialName; }\n     set { _SpecialName = value; }\n   }\n}

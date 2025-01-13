@@ -1,1 +1,0 @@
-if (true && $a = ( new foo() && $a->bar() ) )

@@ -1,0 +1,1 @@
+jmeter -n -t test-plan.jmx -l result.jtl -e -o /path/to/output/folder

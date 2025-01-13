@@ -1,0 +1,1 @@
+windbg -y "SRV*c:\symbols*http://msdl.microsoft.com/download/symbols" -i "C:\Projects\C++\fl lib\bin;C:\Projects\C++\fl lib\samples\bin"

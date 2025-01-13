@@ -1,0 +1,1 @@
+Rect captureArea = new Rect(50, 50, 200, 200); // Example capture area\nCaptureCanvasArea(myCanvas, captureArea, "capturedImage.bmp", "bmp");

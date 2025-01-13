@@ -1,0 +1,1 @@
+foo = *zap || bar  # Works but is of limited value and not common.

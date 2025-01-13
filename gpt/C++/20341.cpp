@@ -1,0 +1,1 @@
+#pragma once\n#pragma comment(lib, "C.lib")\n#pragma comment(lib, "D.lib")\n\n// Your code for B

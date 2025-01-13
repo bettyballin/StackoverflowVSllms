@@ -1,1 +1,0 @@
-SELECT <non-pivoted column>,\n\n            [first pivoted column] AS <column name>,\n\n            [second pivoted column] AS <column name>, ...\n    From Table \n    PIVOT (\n...\nFOR \n...\n)

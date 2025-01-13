@@ -1,1 +1,0 @@
-public DateTime? BirthDay { get; set; }

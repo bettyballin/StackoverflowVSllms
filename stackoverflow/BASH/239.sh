@@ -1,1 +1,0 @@
-perl build-project-master.pl core.js class1.js etc.js /path/to/live/js/file.js

@@ -1,1 +1,0 @@
-$row = mysql_fetch_assoc($result);\necho '<a href="'.$row["link"].'">'.$row["display"].'</a>';

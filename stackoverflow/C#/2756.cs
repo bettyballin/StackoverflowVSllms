@@ -1,1 +1,0 @@
-var query = dataSource.Where("CategoryID == 2 && UnitPrice > 3")\n                      .OrderBy("SupplierID");

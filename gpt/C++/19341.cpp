@@ -1,0 +1,1 @@
+// Avoid using double underscores or leading underscores with capital letters\nint __myVariable;  // Not recommended\nint _MyVariable;   // Not recommended\n\n// Use a different naming convention\nint my_variable;   // Recommended\nint myVariable;    // Recommended

@@ -1,0 +1,1 @@
+CREATE TABLE linkgroups (\n    id SERIAL PRIMARY KEY,\n    media_id INTEGER,\n    FOREIGN KEY (media_id) REFERENCES media (id)\n);\n\n-- Example INSERT\nINSERT INTO linkgroups (media_id) VALUES (1); -- Linking to Breaking Bad\nINSERT INTO linkgroups (media_id) VALUES (2); -- Linking to Inceptio

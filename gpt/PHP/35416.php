@@ -1,0 +1,1 @@
+// Start the session\nsession_start();\n\n// Generate a CSRF token\nif (empty($_SESSION['csrf_token'])) {\n    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));\n}\n\n// Include the CSRF token in your form or AJAX request\necho '<input type="hidden" name="csrf_token" value="' . $_SESSION['csrf_token'] . '">';

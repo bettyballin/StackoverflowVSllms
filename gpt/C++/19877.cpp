@@ -1,0 +1,1 @@
+extern CComModule _Module;\n\nSTDAPI DllRegisterServer(void)\n{\n    // Registers object, typelib and all interfaces in typelib\n    HRESULT hr = _Module.RegisterServer(TRUE);\n    return hr;\n}

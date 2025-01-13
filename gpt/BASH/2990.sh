@@ -1,0 +1,1 @@
+map -sP 192.168.1.0/24 -oX output.xml

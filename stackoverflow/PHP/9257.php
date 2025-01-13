@@ -1,1 +1,0 @@
-$foo = 'bar';\n$baz = &$foo;\n\necho $foo //bar\necho $baz //bar\n\n$foo = 'foobazbar';\necho $foo //foobazbar\necho $baz //foobazbar

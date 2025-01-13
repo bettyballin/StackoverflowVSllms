@@ -1,0 +1,1 @@
+#!/bin/bash\n\nSOURCE_DIR="/path/to/source/directory"\nDEST_DIR="/path/to/destination/directory"\n\nmkdir -p "$DEST_DIR"\n\nfor file in "$SOURCE_DIR"/*; do\n    if [ -f "$file" ]; then\n        encoding=$(uchardet "$file" | awk '{print $1}')\n        if [ "$encoding" != "ISO-8859-1" ]; then\n            mv "$file" "$DEST_DIR"\n        fi\n    fi\ndone

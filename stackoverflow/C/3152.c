@@ -1,1 +1,0 @@
-IMyInterface *l;\nSafeArrayGetElement(array,&i, &l);

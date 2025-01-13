@@ -1,1 +1,0 @@
-sed 's/Monday:/&\n/g'

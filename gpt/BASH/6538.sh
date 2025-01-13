@@ -1,0 +1,1 @@
+# Change ownership to your user\nsudo chown -R $USER:$USER /opt/lampp/htdocs\n\n# Revert ownership to root after development\nsudo chown -R root:root /opt/lampp/htdocs

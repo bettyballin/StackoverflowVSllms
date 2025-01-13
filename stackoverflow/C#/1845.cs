@@ -1,1 +1,0 @@
-private void Form_KeyPress(object sender, KeyPressEventArgs e)\n{\n    if (e.KeyChar == (char)Keys.Enter && this.ActiveControl != theRichTextBox)\n    {\n        this.DialogResult = DialogResult.OK;\n    }\n}

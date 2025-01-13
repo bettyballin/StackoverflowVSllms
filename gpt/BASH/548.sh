@@ -1,0 +1,1 @@
+cd /path/to/mysql-c-api\n./configure\nmake\nsudo make install

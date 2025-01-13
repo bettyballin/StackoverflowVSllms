@@ -1,0 +1,1 @@
+# Unix/Linux example\nexport ORACLE_HOME=/path/to/oracle/home\nexport PATH=$ORACLE_HOME/bin:$PATH\nexport LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH

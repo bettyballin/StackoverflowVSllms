@@ -1,0 +1,1 @@
+while (inCheckOrCapture()) {\n        alphaBeta(newDepth, -beta, -alpha);\n    }

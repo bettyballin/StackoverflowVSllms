@@ -1,1 +1,0 @@
-...\nsq.Where(TableTwo.NameColumn).Like("A%");

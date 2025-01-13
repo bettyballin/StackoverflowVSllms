@@ -1,0 +1,1 @@
+public void Greet(string name = "Guest")\n{\n    Console.WriteLine("Hello, " + name);\n}\n\n// Calling the method\nGreet();       // Output: Hello, Guest\nGreet("John"); // Output: Hello, Joh

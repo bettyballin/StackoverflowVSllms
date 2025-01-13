@@ -1,0 +1,1 @@
+using (YourDataContext db = new YourDataContext())\n{\n    IMultipleResults results = db.YourStoredProc("BNa");\n\n    var resultSet1 = results.GetResult<ResultType1>().ToList();\n    var resultSet2 = results.GetResult<ResultType2>().ToList();\n}

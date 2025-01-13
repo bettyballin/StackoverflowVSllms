@@ -1,1 +1,0 @@
-select\n   st.key,\n   lt.value\n--update st set value = lt.value\nfrom\n   second_table st\n   inner join lookup_table lt on\n       st.key = lt.key

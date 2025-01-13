@@ -1,0 +1,1 @@
+-- Check if the 3rd flag (bit 2) is set\n   SELECT (flags & (1 << 2)) != 0 AS is_set\n   FROM users\n   WHERE user_id = ?;

@@ -1,0 +1,1 @@
+const express = require('express');\nconst app = express();\n\napp.use((req, res, next) => {\n    if (req.headers['x-forwarded-proto'] !== 'https') {\n        return res.redirect(['https://', req.get('Host'), req.url].join(''));\n    }\n    next();\n});\n\n// Other routes and middleware

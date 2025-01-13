@@ -1,0 +1,1 @@
+CREATE TABLE schema_version (\n    version_number INT PRIMARY KEY,\n    applied_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);

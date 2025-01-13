@@ -1,0 +1,1 @@
+strace -c -o strace_example_sh.txt ./example.sh\n   strace -c -o strace_example_sh_bin.txt ./example.sh.bi

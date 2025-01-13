@@ -1,0 +1,1 @@
+USE [YourDatabase]\n   GO\n   CREATE LOGIN [MyAppServiceAccount] FROM WINDOWS;\n   CREATE USER [MyAppServiceAccount] FOR LOGIN [MyAppServiceAccount];\n   ALTER ROLE [db_owner] ADD MEMBER [MyAppServiceAccount];

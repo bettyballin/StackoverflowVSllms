@@ -1,0 +1,1 @@
+pip install pyyaml ua-parser user-agents

@@ -1,0 +1,1 @@
+PyMODINIT_FUNC initmodulename(void) {\n       // Initialization code\n   }

@@ -1,0 +1,1 @@
+<?php\nsession_start();\n// Your code here\n?>

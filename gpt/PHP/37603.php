@@ -1,0 +1,1 @@
+$emailTime = 'Sun, 21 Jun 2009 20:21:13 +0200';\n$dateTime = new DateTime($emailTime);\n$dateTime->setTimezone(new DateTimeZone('UTC'));\n$utcTime = $dateTime->format('Y-m-d H:i:s');\n\necho $utcTime;  // Outputs: 2009-06-21 18:21:13

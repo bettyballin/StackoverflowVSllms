@@ -1,0 +1,1 @@
+sudo mount /dev/sdX1 /mnt\nsudo mkdir /mnt/home /mnt/var /mnt/tmp /mnt/boot\nsudo mount /dev/sdX2 /mnt/home\nsudo mount /dev/sdX3 /mnt/var\nsudo mount /dev/sdX4 /mnt/tmp\nsudo mount /dev/sdX5 /mnt/boot\nsudo swapon /dev/sdX6

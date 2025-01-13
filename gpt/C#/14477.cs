@@ -1,0 +1,1 @@
+using System.Web.Mvc;\n\npublic class HomeController : Controller\n{\n    [HttpPost]\n    public ActionResult SubmitData(string myData)\n    {\n        TempData["MyData"] = myData;\n        return RedirectToAction("PageB");\n    }\n\n    public ActionResult PageB()\n    {\n        ViewBag.MyData = TempData["MyData"];\n        return View();\n    }\n}

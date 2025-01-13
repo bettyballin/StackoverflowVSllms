@@ -1,1 +1,0 @@
-void CMyClass::ConnectEvents(IHTMLElement* pElem)\n{\n    typedef IDispEventImpl<2, CMyClass, DIID_HTMLElementEvents2, LIBID_MSHTML, 4, 0> IMyClassHTMLElementEvents2Sink;\n    IMyClassHTMLElementEvents2Sink::DispEventAdvise(pElem);\n}

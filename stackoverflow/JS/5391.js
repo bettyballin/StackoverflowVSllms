@@ -1,1 +1,0 @@
-function setContentHeight(height) {\n    var content = document.getElementById("Content");\n    if (content != null) {\n        content.style.height = height;\n    }\n}

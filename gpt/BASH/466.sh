@@ -1,0 +1,1 @@
+cat email1.txt email2.txt email3.txt > combined_emails.txt

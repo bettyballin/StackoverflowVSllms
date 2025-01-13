@@ -1,1 +1,0 @@
-create table ProductTasks\n ( ProductID ...\n , TaskId ...\n , TaskOrder ...\n , primary key (ProductId, TaskId)\n , unique (ProductId, TaskOrder)\n );

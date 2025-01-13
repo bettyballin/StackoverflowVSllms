@@ -1,0 +1,1 @@
+import setproctitle\n\nsetproctitle.setproctitle("othername")

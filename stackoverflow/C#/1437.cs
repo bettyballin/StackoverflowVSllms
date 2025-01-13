@@ -1,1 +1,0 @@
-currentX = currentY = 0;\nheading = 0; // radians\nwhile (true)\n{\n    deltas = SampleMouseDeltas();\n    heading += deltas.Heading;\n    currentX += Math.Cos(heading) * deltas.Distance;\n    currentY += Math.Sin(heading) * deltas.Distance;\n}

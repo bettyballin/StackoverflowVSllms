@@ -1,1 +1,0 @@
-If TypeOf myComboBox.SelectedItem Is GetType(ObjectClass) Then\n\nElse\n\nEnd If

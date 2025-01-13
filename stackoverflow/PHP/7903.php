@@ -1,1 +1,0 @@
-<?php\nif($loggedin) {\n    header("Content-Type: image/jpeg");\n    echo file_get_contents("../images/".$_GET["path"]);\n}\n?>

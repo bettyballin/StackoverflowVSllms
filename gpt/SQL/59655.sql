@@ -1,0 +1,1 @@
+select t.TaskId,\n       (select count(n.TaskNoteId) from TaskNote n where n.TaskId = t.TaskId) as 'Notes'\nfrom Task t;

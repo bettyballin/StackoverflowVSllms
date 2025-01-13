@@ -1,0 +1,1 @@
+$query = 'Ed Hardy'; // Example query value\necho '<a href="#" onclick="updateByQuery(\'Layer3\', \'' . addslashes($query) . '\');">Link 1</a>';

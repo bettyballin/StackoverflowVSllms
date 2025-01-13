@@ -1,0 +1,1 @@
+.a {\n  background-image: url(a.png), url(b.png);\n  background-position: left top, right bottom; /* optional */\n  background-repeat: no-repeat, no-repeat; /* optional */\n}

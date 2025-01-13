@@ -1,1 +1,0 @@
-FasterCSV.foreach(some_file, :converters => [:date_time]) do |row|\n    #blah\nend

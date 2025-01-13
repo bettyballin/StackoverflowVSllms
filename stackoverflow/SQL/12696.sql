@@ -1,1 +1,0 @@
-create table #user (username varchar(25))\n\ninsert into #user (username) values ('Paul')\ninsert into #user (username) values ('John')\ninsert into #user (username) values ('Mary')\n\ndeclare @tmp varchar(250)\nSET @tmp = ''\nselect @tmp = @tmp + username + ', ' from #user\n\nselect SUBSTRING(@tmp, 0, LEN(@tmp))

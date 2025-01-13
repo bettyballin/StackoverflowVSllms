@@ -1,0 +1,1 @@
+geli init /dev/ada0

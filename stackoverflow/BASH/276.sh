@@ -1,1 +1,0 @@
-awk '{sum[$2]+= $1;}END{for (date in sum){print sum[date], date;}}'

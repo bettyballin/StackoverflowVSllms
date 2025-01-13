@@ -1,0 +1,1 @@
+ALTER INDEX idx_employee_lastname MONITORING USAGE;

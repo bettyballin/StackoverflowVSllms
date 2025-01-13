@@ -1,0 +1,1 @@
+php obfuscator.php /path/to/your/php/files

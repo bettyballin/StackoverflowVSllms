@@ -1,0 +1,1 @@
+scp export.dmp user@linux_server:/path/to/destinatio

@@ -1,0 +1,1 @@
+UPDATE your_foreign_key_table fk\nJOIN pk_mapping pm ON fk.old_fk = pm.old_pk AND fk.region_id = pm.region_id\nSET fk.new_fk = pm.new_pk;

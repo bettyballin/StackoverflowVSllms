@@ -1,0 +1,1 @@
+# Check file permissions\n   ls -l file.txt

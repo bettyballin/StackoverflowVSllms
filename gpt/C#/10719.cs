@@ -1,0 +1,1 @@
+MyBaseClass.Method1()\nMyBaseClass.Method2()\nMyBaseClass.Method3()

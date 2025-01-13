@@ -1,1 +1,0 @@
-if(!is_numeric($quantity == 0)){\n                //redirect($data['referurl']."/badinput");\n                echo "is not numeric";

@@ -1,1 +1,0 @@
-template<typename T>\nclass Functor {\n  T f;\npublic:\n  Functor(T t){\n      f = t;\n  }\n  T& operator()(){\n    return f;\n  }\n};\n\n\nint add(int a, int b)\n{\n  return a+b;\n}\n\nvoid testing()\n{\n  Functor<int (*)(int, int)> f(add);\n  cout << f()(2,3);\n}

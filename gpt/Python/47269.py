@@ -1,0 +1,1 @@
+with open('yourfile.txt', 'r') as f:\n    while True:\n        line = f.readline()\n        if line == "":\n            break\n        line = line.strip()\n        print(f"\"{line}\"")

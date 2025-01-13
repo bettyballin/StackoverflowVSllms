@@ -1,0 +1,1 @@
+import secrets\nimport string\n\ndef generate_secure_password(length=32):\n    characters = string.ascii_letters + string.digits + string.punctuation\n    secure_password = ''.join(secrets.choice(characters) for i in range(length))\n    return secure_password\n\nprint(generate_secure_password())

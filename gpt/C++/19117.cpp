@@ -1,0 +1,1 @@
+void Printer::Queue(const PrintJob& job)\n{\n    // Validate the state in both release and debug builds.\n    // Never proceed with the queuing in a bad state.\n    if(!IsValidState())\n    {\n        throw InvalidOperationException();\n    }\n\n    // Continue with queuing, parameter checking, etc.\n    // Internal state is guaranteed to be good.\n}

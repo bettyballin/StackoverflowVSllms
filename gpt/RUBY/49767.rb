@@ -1,0 +1,1 @@
+Rails.application.routes.draw do\n  resources :images, only: [:show]\n  # other routes...\nend

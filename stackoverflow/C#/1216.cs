@@ -1,1 +1,0 @@
-get\n  {\n return \n     (int)CompanyReference.EntityKey.EntityKeyValues.First(c => c.Key == "Id").Value; \n  }

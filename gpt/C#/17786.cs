@@ -1,0 +1,1 @@
+public class SendEmailsJob : IJob\n{\n    public Task Execute(IJobExecutionContext context)\n    {\n        // Your code to send emails\n    }\n}

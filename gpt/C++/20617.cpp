@@ -1,0 +1,1 @@
+// dllheader.h\n#ifdef DLL_EXPORTS\n#define DLL_API __declspec(dllexport)\n#else\n#define DLL_API __declspec(dllimport)\n#endif\n\ntypedef void (*UserMainFunc)();\n\nextern "C" DLL_API void SetUserMain(UserMainFunc mainFunc);\nextern "C" DLL_API int StartMessageLoop();

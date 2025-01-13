@@ -1,1 +1,0 @@
-<?php\n// index.php\ninclude("config.php");\ninclude("session.php");\n?>

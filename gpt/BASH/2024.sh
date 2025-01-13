@@ -1,0 +1,1 @@
+sudo yum install httpd\n     sudo yum install php\n     sudo yum install subversion\n     cd /var/www/html\n     svn co https://svn.code.sf.net/p/websvn/code/trunk websvn\n     cd websvn\n     cp include/distconfig.php include/config.php

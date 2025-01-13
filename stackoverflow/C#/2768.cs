@@ -1,1 +1,0 @@
-Process compiler = new Process();\ncompiler.StartInfo.FileName = "csc.exe";\ncompiler.StartInfo.Arguments = "/r:System.dll /out:sample.exe stdstr.cs";\ncompiler.StartInfo.UseShellExecute = false;\ncompiler.StartInfo.RedirectStandardOutput = true;\ncompiler.Start();    \n\nConsole.WriteLine(compiler.StandardOutput.ReadToEnd());\n\ncompiler.WaitForExit();

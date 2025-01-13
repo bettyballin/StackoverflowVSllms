@@ -1,1 +1,0 @@
-var app = Application.Launch(@"c:\ApplicationPath.exe");\n        var window = app.GetWindow("Window1");\n        var helloButton = window.Get<Button>("Hello");\n        Assert.IsNotNull(helloButton);\n        helloButton.Click();\n        var messageBox = window.MessageBox("Howdy");\n        Assert.IsNotNull(messageBox);

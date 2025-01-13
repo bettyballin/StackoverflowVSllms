@@ -1,0 +1,1 @@
+internal class MyInternalClass\n    {\n        internal void MyInternalMethod() { }\n    }

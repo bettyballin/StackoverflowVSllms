@@ -1,0 +1,1 @@
+require 'csv'\n\nfile_path = 'path_to_your_file.csv'\ncounter_hash = Hash.new(0)\n\nCSV.foreach(file_path, headers: true) do |row|\n  counter_hash[row['ID']] += 1\nend\n\nputs counter_hash

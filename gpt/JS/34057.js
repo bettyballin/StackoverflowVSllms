@@ -1,0 +1,1 @@
+$.getJSON("load.php", function(json){\n    // Access object\n    var a = json;\n    pass(a);\n});

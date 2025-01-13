@@ -1,1 +1,0 @@
-SELECT DISTINCT product_field FROM (SELECT * FROM table1 JOIN ... WHERE ...) oq

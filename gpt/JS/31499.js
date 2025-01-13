@@ -1,0 +1,1 @@
+$.getJSON("url", function(data) {\n       // data is already parsed as JSON\n       console.log(data);\n   });

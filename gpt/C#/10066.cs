@@ -1,0 +1,1 @@
+using System;\nusing System.Windows.Forms;\n\nnamespace MyWindowsApp\n{\n    public partial class MainForm : Form\n    {\n        public MainForm()\n        {\n            InitializeComponent();\n        }\n\n        private void button1_Click(object sender, EventArgs e)\n        {\n            MessageBox.Show("Hello, World!");\n        }\n    }\n}

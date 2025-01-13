@@ -1,0 +1,1 @@
+crontab -l | sed -e "s/^\([0-9]*\) \([0-9]*\) \(.*#change-enabled\)/$(/home/user/slow-hour) \2 \3/" | crontab -

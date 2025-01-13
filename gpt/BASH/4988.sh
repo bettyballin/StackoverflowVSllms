@@ -1,0 +1,1 @@
+regsvr32 FilePath\FileName.ocx

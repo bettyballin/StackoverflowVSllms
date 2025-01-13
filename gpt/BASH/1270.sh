@@ -1,0 +1,1 @@
+*     *     *     *     *  command to be executed\n    -     -     -     -     -\n    |     |     |     |     |\n    |     |     |     |     +----- day of week (0 - 7) (Sunday=0 or 7)\n    |     |     |     +------- month (1 - 12)\n    |     |     +--------- day of month (1 - 31)\n    |     +----------- hour (0 - 23)\n    +------------- min (0 - 59)

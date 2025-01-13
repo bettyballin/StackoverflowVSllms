@@ -1,0 +1,1 @@
+mysqld --defaults-file=/etc/mysql/my.cnf --port=3307 --datadir=/var/lib/mysql1 --socket=/var/run/mysqld/mysqld1.sock --pid-file=/var/run/mysqld/mysqld1.pid &

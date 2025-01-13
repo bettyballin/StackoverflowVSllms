@@ -1,0 +1,1 @@
+mt.exe -manifest app.manifest -outputresource:YourApp.exe;#1

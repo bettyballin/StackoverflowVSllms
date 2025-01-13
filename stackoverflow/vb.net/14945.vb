@@ -1,1 +1,0 @@
-Dim foo As String = "a,b,c,d,e"\nDim boo As New List(Of String)(foo.Split(","c))

@@ -1,0 +1,1 @@
+.truncate {\n    width: 200px; /* Set to your desired width */\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;\n}

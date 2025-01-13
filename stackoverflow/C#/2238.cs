@@ -1,1 +1,0 @@
-var feeds = (\n   from f in myContext.tblFeeds\n   order by f.Subscribers.Count() descending\n   select f\n   ).Take(5);

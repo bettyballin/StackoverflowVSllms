@@ -1,0 +1,1 @@
+CREATE TABLE products (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(100) NOT NULL,\n    price DECIMAL(10, 2) NOT NULL\n);

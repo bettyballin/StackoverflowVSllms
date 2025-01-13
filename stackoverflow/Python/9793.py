@@ -1,1 +1,0 @@
->>> from BeautifulSoup import BeautifulSoup    \n>>> html = "<html>&#196;&#196;RITALO!</html>"\n>>> soup = BeautifulSoup(html, convertEntities=BeautifulSoup.HTML_ENTITIES)\n>>> print soup.contents[0].string\nÄÄRITALO!

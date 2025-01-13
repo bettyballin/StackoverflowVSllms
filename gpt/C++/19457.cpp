@@ -1,0 +1,1 @@
+#include <gmock/gmock.h>\n   #include <string>\n\n   class MockFileSystem {\n   public:\n       MOCK_METHOD(int, openfile, (const std::string&), (const));\n       MOCK_METHOD(int, get_file_size, (), (const));\n       MOCK_METHOD(int, read_entire_file_to_buffer, (), (const));\n   };

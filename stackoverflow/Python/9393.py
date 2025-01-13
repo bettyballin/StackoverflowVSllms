@@ -1,1 +1,0 @@
-import sys\nimport win32com.client \n\nshell = win32com.client.Dispatch("WScript.Shell")\nshortcut = shell.CreateShortCut("t:\\test.lnk")\nshortcut.Targetpath = "t:\\ftemp"\nshortcut.save()

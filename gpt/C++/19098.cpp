@@ -1,0 +1,1 @@
+#include <cassert>\n\nvoid someFunction(char* ptr) {\n    assert(ptr != nullptr);\n    // Further processing\n}

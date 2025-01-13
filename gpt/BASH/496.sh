@@ -1,0 +1,1 @@
+# Example Azure CLI command to create an NSG rule\n   az network nsg rule create --resource-group YourResourceGroup --nsg-name YourNSG --name AllowWebServer --priority 1000 --direction Inbound --access Allow --protocol Tcp --source-address-prefixes 203.0.113.0 --source-port-ranges '*' --destination-address-prefixes '*' --destination-port-ranges 1433

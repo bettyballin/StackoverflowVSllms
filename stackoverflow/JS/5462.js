@@ -1,1 +1,0 @@
-commandBar.AddControl(control, position)

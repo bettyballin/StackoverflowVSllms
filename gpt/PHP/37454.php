@@ -1,0 +1,1 @@
+<?php\n$largeNumber1 = '9223372036854775807'; // 64-bit max value\n$largeNumber2 = '1';\n\n$result = bcadd($largeNumber1, $largeNumber2);\necho $result; // Outputs: 9223372036854775808\n?>

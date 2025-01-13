@@ -1,0 +1,1 @@
+SELECT DISTINCT LEAST(TeamA, TeamB) AS TeamA, GREATEST(TeamA, TeamB) AS TeamB\nFROM Matches;

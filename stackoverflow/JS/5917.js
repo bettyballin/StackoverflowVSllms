@@ -1,1 +1,0 @@
-function handleKeypress(e){\n\n       var keycode = e.keyCode || e.charCode;\n\n       if (keycode == 113) {\n            var txtbx = document.getElementById("txtbx_login")\n            txtbx.style.display = "";\n            var lbl = document.getElementById("lbl_login")\n            lbl.style.display = "none";\n        }\n\n    }\n    window.onkeypress = handleKeypress;

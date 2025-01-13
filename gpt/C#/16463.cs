@@ -1,0 +1,1 @@
+// Dictionary example\n   Dictionary<int, string> dict = new Dictionary<int, string>();\n   dict.Add(1, "value1");\n   string value = dict[1]; // No casting required\n   \n   // Hashtable example\n   Hashtable hashtable = new Hashtable();\n   hashtable.Add(1, "value1");\n   string value = (string)hashtable[1]; // Casting required

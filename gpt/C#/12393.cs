@@ -1,0 +1,1 @@
+decimal value = 123.456789m;\nstring formattedValue = value.ToString("F2");\nConsole.WriteLine(formattedValue); // Output: 123.46

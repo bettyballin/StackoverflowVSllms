@@ -1,0 +1,1 @@
+<?php\n$input = "HelloFromPHP";\n$command = "mono /path/to/your/csharp_program.exe " . escapeshellarg($input);\n$output = shell_exec($command);\necho "Output from C#: " . $output;\n?>

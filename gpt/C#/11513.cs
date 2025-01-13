@@ -1,0 +1,1 @@
+[DynamicUpdate(true)]\npublic class Meeting\n{\n    // property mappings\n}

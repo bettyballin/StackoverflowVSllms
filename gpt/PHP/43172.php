@@ -1,0 +1,1 @@
+class MyClass {\n    public $existingMember;\n\n    public function __construct() {\n        $this->existingMember = "I'm already here!";\n    }\n}\n\n$obj = new MyClass();\n$obj->newMember = "I was added dynamically!";\n\necho $obj->existingMember; // Outputs: I'm already here!\necho $obj->newMember;      // Outputs: I was added dynamically!

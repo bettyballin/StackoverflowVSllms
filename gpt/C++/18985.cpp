@@ -1,0 +1,1 @@
+// Using PutValue method to set a property\ncomObjectPtr->PutValue(value);\n\n// Using GetValue method to get a property\nTYPE value;\ncomObjectPtr->GetValue(&value);

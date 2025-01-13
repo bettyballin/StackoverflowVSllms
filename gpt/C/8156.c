@@ -1,0 +1,1 @@
+// Point.h\n#define WIDTH 8\n#define HEIGHT 8\n\ntypedef struct Point {\n  signed char x;\n  signed char y;\n} Point;\n\n// Board.c\n#include <stdbool.h>\n\n// Some other functions that we don't care about... \n\nbool inBounds(Point * p) {\n  return p->x >= 0\n    && p->x <= WIDTH\n    && p->y >= 0\n    && p->y <= HEIGHT;\n}

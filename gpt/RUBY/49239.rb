@@ -1,0 +1,1 @@
+def process_running?(pid)\n  begin\n    Process.kill(0, pid)\n    true\n  rescue Errno::ESRCH\n    false\n  rescue Errno::EPERM\n    # The process exists, but you don't have permission to send signals to it.\n    true\n  end\nend

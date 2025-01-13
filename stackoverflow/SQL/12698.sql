@@ -1,1 +1,0 @@
-SELECT * FROM ROUTERS \nWHERE coalesce(ROUTER_ADDRESS, '') = coalesce( ?, '');

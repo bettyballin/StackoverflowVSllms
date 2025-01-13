@@ -1,0 +1,1 @@
+if(fork() == 0) { \n    /* child */\n} else { \n    /* parent/pray */\n}

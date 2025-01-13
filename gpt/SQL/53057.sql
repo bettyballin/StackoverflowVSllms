@@ -1,0 +1,1 @@
+-- Creating the first table with a named primary key\nCREATE TABLE Table1 (\n    ID INT CONSTRAINT PK_Table1 PRIMARY KEY,\n    Name NVARCHAR(50)\n);\n\n-- Trying to create a second table with the same named primary key will result in an error\nCREATE TABLE Table2 (\n    ID INT CONSTRAINT PK_Table1 PRIMARY KEY,\n    Description NVARCHAR(255)\n);

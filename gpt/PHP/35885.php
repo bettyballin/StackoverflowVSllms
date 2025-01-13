@@ -1,0 +1,1 @@
+$pattern = "/DEFINE\(\s*'([^']+)'\s*,\s*'((?:\\\\'|[^'])*)'\s*\);/";\n$input = "DEFINE('TEXT', 'J\\'ai');";\n\nif (preg_match($pattern, $input, $matches)) {\n    $constant_name = $matches[1];\n    $constant_value = $matches[2];\n    echo "Constant Name: " . $constant_name . "\n";\n    echo "Constant Value: " . $constant_value . "\n";\n} else {\n    echo "No match found.\n";\n}

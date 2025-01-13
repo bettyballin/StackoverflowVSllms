@@ -1,1 +1,0 @@
-SELECT COUNT(*) vs COUNT(1)

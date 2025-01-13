@@ -1,0 +1,1 @@
+WebService1SoapClient client = new WebService1SoapClient();\nbyte[] fileBytes = client.GetExcelFile();\n\nstring filePath = @"C:\Path\To\Save\Report.xlsx";\nFile.WriteAllBytes(filePath, fileBytes);

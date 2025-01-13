@@ -1,0 +1,1 @@
+// Client-side code\n$.ajax({\n    type: 'GET',\n    url: "/proxy?url=https://www.remote-url.com",\n    dataType: 'html',\n    success: function(data) {\n        $('#put_here').empty().append(data);\n    },\n    error: function(xhr, status, error) {\n        console.error("An error occurred: " + status + " " + error);\n    }\n});

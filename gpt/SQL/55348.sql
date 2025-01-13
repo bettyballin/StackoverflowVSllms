@@ -1,0 +1,1 @@
+SELECT \n    ROW_NUMBER() OVER() AS RowNumber,\n    Name\nFROM \n    Beatles;

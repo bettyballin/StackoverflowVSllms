@@ -1,1 +1,0 @@
-Dim isMatch As Boolean = _\n  System.Text.RegularExpressions.RegEx.IsMatch("My test string", _\n     "((\d+.\d+)|(\?\?\?\?\?\?))")

@@ -1,0 +1,1 @@
+use Illuminate\Database\Eloquent\Model;\n\n   class User extends Model {\n       // Your model code here\n   }

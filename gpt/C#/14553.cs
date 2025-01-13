@@ -1,0 +1,1 @@
+DateTime fromDate = new DateTime(2000, 1, 1);\nDateTime toDate = new DateTime(2012, 1, 1);\n\n// Assuming your TableAdapter is named 'membersTableAdapter' and the new query is named 'FillByDateRange'\nthis.membersTableAdapter.FillByDateRange(this.yourDataSet.Members, fromDate, toDate);

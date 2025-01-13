@@ -1,0 +1,1 @@
+DECLARE @ProductVersion INT;\nSET @ProductVersion = CAST(SERVERPROPERTY('ProductMajorVersion') AS INT);\n\nIF @ProductVersion = 8\nBEGIN\n    PRINT 'SQL 2000';\n    -- Actual SQL 2000 code here\nEND\nELSE IF @ProductVersion = 9\nBEGIN\n    PRINT 'SQL 2005';\n    -- Actual SQL 2005 code here\nEND

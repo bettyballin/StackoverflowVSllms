@@ -1,1 +1,0 @@
-if (!inFile)\n{\n    cout << "\n**File failed to open**\n\n";\n    inFile.clear();\n}\nelse break;

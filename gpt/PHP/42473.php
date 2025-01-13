@@ -1,0 +1,1 @@
+// templates/Entries/popular.php\n<h1>Popular Entries</h1>\n<ul>\n    <?php foreach ($popularEntries as $entry): ?>\n        <li>\n            <h2><?= h($entry->title) ?></h2>\n            <p>Comments: <?= $entry->comment_count ?></p>\n        </li>\n    <?php endforeach; ?>\n</ul>

@@ -1,1 +1,0 @@
-SELECT LTRIM(RTRIM(Names)) AS Names FROM Customer

@@ -1,0 +1,1 @@
+SELECT \n    TaskID,\n    STRING_AGG(Name, ', ') WITHIN GROUP (ORDER BY Name) AS PeopleAssigned\nFROM \n    your_table_name\nGROUP BY \n    TaskID;

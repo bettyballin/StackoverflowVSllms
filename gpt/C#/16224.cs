@@ -1,0 +1,1 @@
+using AutoMapper;\n\npublic class MappingProfile : Profile\n{\n    public MappingProfile()\n    {\n        // Example: CreateMap<Source, Destination>();\n        CreateMap<LinqToSqlObject, PocoObject>();\n    }\n}

@@ -1,0 +1,1 @@
+git clone https://github.com/yourusername/yourproject.git

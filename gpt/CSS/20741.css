@@ -1,0 +1,1 @@
+.element {\n  width: 200px;\n  height: 100px;\n  background-color: #fff;\n  box-shadow: -5px 0 5px -5px rgba(0,0,0,0.5), /* left */\n              0 5px 5px -5px rgba(0,0,0,0.5), /* bottom */\n              5px 0 5px -5px rgba(0,0,0,0.5); /* right */\n}

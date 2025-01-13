@@ -1,1 +1,0 @@
-EXEC xp_cmdshell  'sqlcmd -S ' + @DBServerName + ' -d  ' + @DBName + ' -i ' + @FilePathName

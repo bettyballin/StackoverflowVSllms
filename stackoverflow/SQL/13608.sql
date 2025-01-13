@@ -1,1 +1,0 @@
-(cast(col1 is not null, int) +\n cast(col2 is not null, int) +\n cast(col3 is not null, int)) = 1

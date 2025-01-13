@@ -1,1 +1,0 @@
-$.ajax({\n  type: "GET",\n  url: "yourPage.htm",\n  dataType: "html"\n});

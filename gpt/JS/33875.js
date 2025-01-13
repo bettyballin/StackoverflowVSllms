@@ -1,0 +1,1 @@
+<script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script>\n     <script>\n       Cookies.set('name', 'value', { expires: 7 });\n       console.log(Cookies.get('name'));\n     </script>

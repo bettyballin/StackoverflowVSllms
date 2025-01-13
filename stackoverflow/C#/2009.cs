@@ -1,1 +1,0 @@
-var matches = ((from f in foo \n                select f)\n              .Intersect(\n                  from b in bar \n                  select b, StringComparer.InvariantCultureIgnoreCase))

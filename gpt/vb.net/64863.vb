@@ -1,0 +1,1 @@
+Dim customColorDialog As New CustomColorDialog()\ncustomColorDialog.ShowDialog()

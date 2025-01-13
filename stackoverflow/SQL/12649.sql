@@ -1,1 +1,0 @@
-SELECT * FROM\n  (select * from table where id<7868 order by id desc limit 2) AS foo\nORDER BY ID ASC

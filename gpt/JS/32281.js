@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('#myList-toggle').click(function() {\n        $('#moreItems').slideToggle(400);\n        return false;\n    });\n});

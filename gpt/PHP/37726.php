@@ -1,0 +1,1 @@
+function padKey($key, $length) {\n    return str_pad($key, $length, $key);\n}\n\n$key = padKey('mysecretkey', strlen($data));\n$encrypted = xorEncrypt($data, $key);\necho "Encrypted: " . bin2hex($encrypted) . "\n";\n\n$decrypted = xorDecrypt($encrypted, $key);\necho "Decrypted: " . $decrypted . "\n";

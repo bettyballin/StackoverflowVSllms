@@ -1,1 +1,0 @@
-map.resources :events, :collection => { :search => :get }

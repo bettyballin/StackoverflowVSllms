@@ -1,0 +1,1 @@
+foreach (string item in TempFilesList)\n{\n    string relativePath = "/temp/" + item;\n    string physicalPath = System.Web.HttpContext.Current.Server.MapPath(relativePath);\n\n    if (File.Exists(physicalPath))\n    {\n        File.Delete(physicalPath);\n    }\n}

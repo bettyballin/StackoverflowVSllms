@@ -1,0 +1,1 @@
+MERGE your_table AS target\nUSING (VALUES (value1, value2, ...)) AS source (column1, column2, ...)\nON target.primary_key_column = source.primary_key_column\nWHEN MATCHED THEN\n    UPDATE SET column1 = source.column1, column2 = source.column2, ...\nWHEN NOT MATCHED THEN\n    INSERT (column1, column2, ...)\n    VALUES (source.column1, source.column2, ...);

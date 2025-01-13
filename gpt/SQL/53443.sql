@@ -1,0 +1,1 @@
+BEGIN\n  DBMS_SCHEDULER.create_job (\n    job_name        => 'my_scheduled_job',\n    job_type        => 'PLSQL_BLOCK',\n    job_action      => 'BEGIN my_procedure; END;',\n    start_date      => SYSTIMESTAMP + INTERVAL '10' MINUTE, -- Change the interval as needed\n    enabled         => TRUE\n  );\nEND;\n/

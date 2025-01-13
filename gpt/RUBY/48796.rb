@@ -1,0 +1,1 @@
+<%= form_for @task do |f| %>\n  <%= error_messages_for :task %>\n\n  <%= f.label :your_task_attribute %>\n  <%= f.text_field :your_task_attribute %>\n\n  <%= f.fields_for :notes, @task.notes.build do |note_fields| %>\n    <%= note_fields.label :body %>\n    <%= note_fields.text_area :body %>\n  <% end %>\n\n  <%= f.submit 'Create Task' %>\n<% end %>

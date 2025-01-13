@@ -1,0 +1,1 @@
+import aiofiles\nimport asyncio\n\nasync def read_file(file_path):\n    async with aiofiles.open(file_path, 'r') as f:\n        contents = await f.read()\n    return contents\n\nasync def main():\n    file_paths = ['file1.txt', 'file2.txt', 'file3.txt']\n    tasks = [read_file(fp) for fp in file_paths]\n    results = await asyncio.gather(*tasks)\n\nasyncio.run(main())

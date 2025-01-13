@@ -1,0 +1,1 @@
+function random_float($min, $max) {\n    return ($min + lcg_value() * (abs($max - $min)));\n}\n\n$floats = [];\nfor ($i = 0; $i < 10; $i++) {\n    $random_float = random_float(6, 8);\n    $rounded_float = round($random_float, 1);\n    $floats[] = (string)$rounded_float; // Convert to string\n}\n\necho serialize($floats);

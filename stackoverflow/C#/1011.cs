@@ -1,1 +1,0 @@
-try\n{\n   //do something that fails\n}\ncatch(Exception ex when ArgumentException, \n      ArgumentNullException, FormatException)\n{\n  //Only handle these three types\n}

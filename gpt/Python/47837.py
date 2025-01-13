@@ -1,0 +1,1 @@
+cat = Category.objects.get(pk=1)\nproducts_with_ranks = Product.objects.filter(categories=cat).select_related('productrank')

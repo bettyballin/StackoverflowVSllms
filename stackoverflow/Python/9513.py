@@ -1,1 +1,0 @@
-my_location = (42, 11)  # page number, line number

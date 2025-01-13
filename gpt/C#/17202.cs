@@ -1,0 +1,1 @@
+partial class MyFunkyRow\n{\n    public string ESTIMATION_ALLOWED\n    {\n        get\n        {\n            return (DO_NOT_EST_FLAG == "T") ? "No" : "Yes";\n        }\n    }\n\n    public override void EndInit()\n    {\n        base.EndInit();\n        // Set the value of the new column\n        this["ESTIMATION_ALLOWED"] = ESTIMATION_ALLOWED;\n    }\n}

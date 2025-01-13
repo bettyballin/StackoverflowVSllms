@@ -1,0 +1,1 @@
+my_list = [1, 2, 3, 4, 5]\n\n# Popping the last element (O(1) complexity)\nlast_element = my_list.pop()\n# my_list is now [1, 2, 3, 4]\n\n# Popping an element from the middle (O(N) complexity)\nmiddle_element = my_list.pop(1)\n# my_list is now [1, 3, 4]

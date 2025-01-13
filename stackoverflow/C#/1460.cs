@@ -1,1 +1,0 @@
-System.Reflection.Assembly.GetExecutingAssembly.GetManifestResourceStream(fileName)

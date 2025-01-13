@@ -1,1 +1,0 @@
-$("<input style='width:"+fieldWidth+";' ... >")

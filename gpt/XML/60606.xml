@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <handlers>\n      <add name="MyAjaxHandler" path="myajaxhandler.ashx" verb="*" type="MyNamespace.MyAjaxHandler, MyAssembly" resourceType="Unspecified" />\n    </handlers>\n  </system.webServer>\n</configuration>

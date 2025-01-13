@@ -1,0 +1,1 @@
+// Example usage:\n   // Register a COM object\n   regsvr32 YourComObject.dll\n\n   // Unregister a COM object\n   regsvr32 /u YourComObject.dll

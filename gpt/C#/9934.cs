@@ -1,0 +1,1 @@
+using System.Collections;\nusing System.Collections.Generic;\nusing System.Linq;\n\nArrayList arrayList = GetArrayListOfInts();\nList<int> intList = arrayList.Cast<int>().ToList();\nreturn intList;

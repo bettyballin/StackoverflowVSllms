@@ -1,1 +1,0 @@
-var myajax = $.ajax(...); \n$(window).unload( function () { myajax.abort(); } );

@@ -1,1 +1,0 @@
-IEnumerable<int> ids = list.Select(x=>x.ID).Distinct();

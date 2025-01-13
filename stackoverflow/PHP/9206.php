@@ -1,1 +1,0 @@
-$time = mktime(0, 0, 0, (int)$_POST['month'], (int)$_POST['day'], (int)$_POST['year']);\n\n// in this example, valid values are between jan 1 2000 (server time) and now\n// modify as required\nif ($time < mktime(0, 0, 0, 1, 1, 2000) || $time > time())\n  return 'Invalid!';\n\n$mysqltime = date('Y-m-d', $time);\n\n// now insert $mysqltime into database

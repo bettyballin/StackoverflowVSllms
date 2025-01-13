@@ -1,0 +1,1 @@
+CREATE TABLE Company (\n    CompanyID BIGINT IDENTITY(1,1) PRIMARY KEY,\n    Name NVARCHAR(100) NOT NULL\n    -- Other columns\n);

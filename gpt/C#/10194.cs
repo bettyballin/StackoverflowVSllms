@@ -1,0 +1,1 @@
+using System;\nusing System.Runtime.InteropServices;\n\npublic class UnmanagedLibrary\n{\n    [DllImport("XYZ.dll", EntryPoint = "FunctionName", CallingConvention = CallingConvention.Cdecl)]\n    public static extern int FunctionName();\n}

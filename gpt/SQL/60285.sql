@@ -1,0 +1,1 @@
+SELECT * FROM table_name WHERE DATE(column) = '2023-10-01'; -- Not optimized\n   SELECT * FROM table_name WHERE column = '2023-10-01'; -- Optimized if column is indexed

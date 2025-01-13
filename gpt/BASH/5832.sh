@@ -1,0 +1,1 @@
+g++ -pedantic -Wno-pedantic -Wno-variadic-macros -Wno-long-long your_file.cpp

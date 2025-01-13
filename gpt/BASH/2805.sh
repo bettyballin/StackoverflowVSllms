@@ -1,0 +1,1 @@
+./cfusion/bin/coldfusion stop\n   ./cfusion/bin/coldfusion start

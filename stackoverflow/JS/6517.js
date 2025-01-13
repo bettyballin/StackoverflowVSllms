@@ -1,1 +1,0 @@
-for (i = 0; i < document.checks.user.length; i++) //for all check boxes\n{\n    if (document.checks.user[i].name == "user" && document.checks.user[i].checked == true ) //otherwise elements also looks at radio buttons \n    {\n            document.checks.submit();\n            return 0;\n    }\n}

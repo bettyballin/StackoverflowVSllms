@@ -1,0 +1,1 @@
+// Open the console in browser developer tools\nconsole.log("Check for mixed content warnings here.");\n\n// You might see warnings like this:\nMixed Content: The page at 'https://example.com' was loaded over HTTPS, but requested an insecure resource 'http://example.com/resource'. This request has been blocked; the content must be served over HTTPS.

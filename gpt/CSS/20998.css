@@ -1,0 +1,1 @@
+.blue-div {\n    /* Your blue div styles */\n}\n\n.orange-div {\n    /* Your orange div styles */\n}\n\n.orange-div img {\n    vertical-align: top; /* or middle, or bottom */\n    /* Or you can use display: block instead */\n    /* display: block; */\n}

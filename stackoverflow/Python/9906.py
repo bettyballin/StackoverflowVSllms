@@ -1,1 +1,0 @@
-def r1 = context.testCase.testSteps["Request #1"].properties["Response"]\ndef response1 = r1["value"]\ndef r2 = context.testCase.testSteps["Request #2"].properties["Response"]\ndef response2 = r2["value"]\n\nlog.info "Request #1 response: $response1"\nlog.info "Request #2 response: $response2"\n\nassert response1 == response2

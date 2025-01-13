@@ -1,1 +1,0 @@
-bool pass = d != null && (bool)(d["k"] ?? false);

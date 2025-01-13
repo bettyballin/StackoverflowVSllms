@@ -1,0 +1,1 @@
+CREATE DATABASE your_database_name CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;\n   USE your_database_name;\n   \n   CREATE TABLE your_table_name (\n       id INT AUTO_INCREMENT PRIMARY KEY,\n       content TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci\n   );

@@ -1,0 +1,1 @@
+<%= f.collection_select(:category_id, @categories, :id, :name, { prompt: 'Please select a category' }) %>\n<%= options_for_select([['..or create a new one', 'new']]) %>

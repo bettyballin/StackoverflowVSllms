@@ -1,0 +1,1 @@
+#include <windows.h>\n\nint CALLBACK WinMain(\n    _In_ HINSTANCE hInstance,\n    _In_ HINSTANCE hPrevInstance,\n    _In_ LPSTR     lpCmdLine,\n    _In_ int       nCmdShow\n)\n{\n    HWND hwnd = FindWindow(NULL, "TargetWindowTitle");\n    if (hwnd)\n    {\n        PostMessage(HWND_BROADCAST, WM_USER + 1, 0, 0);\n    }\n    return 0;\n}

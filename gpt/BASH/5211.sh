@@ -1,0 +1,1 @@
+for i in {2..21}; do\n  docker rm -f test_container_$i\ndone\n\ndocker network rm test_network

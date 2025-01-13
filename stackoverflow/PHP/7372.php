@@ -1,1 +1,0 @@
-<?php\necho "<html><body><table>\n\n";\n$f = fopen("so-csv.csv", "r");\nwhile (($line = fgetcsv($f)) !== false) {\n        echo "<tr>";\n        foreach ($line as $cell) {\n                echo "<td>" . htmlspecialchars($cell) . "</td>";\n        }\n        echo "</tr>\n";\n}\nfclose($f);\necho "\n</table></body></html>";

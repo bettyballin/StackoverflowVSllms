@@ -1,0 +1,1 @@
+foreach (DataGridViewColumn column in dataGridView1.Columns)\n{\n    Console.WriteLine($"Column: {column.Name}, DisplayIndex: {column.DisplayIndex}");\n}

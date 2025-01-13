@@ -1,1 +1,0 @@
-adsutil.vbs get /MimeMap/mimemap

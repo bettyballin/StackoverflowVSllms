@@ -1,0 +1,1 @@
+// Simplified example of a Spectre attack in C\nunsigned char array[256 * 4096];\nchar secret = 'S';\nvoid victim_function(size_t x) {\n    if (x < array1_size) {\n        temp &= array2[array1[x] * 4096];\n    }\n}

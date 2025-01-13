@@ -1,0 +1,1 @@
+using System.Runtime.Serialization;\n\n   [DataContract]\n   public class Task\n   {\n       [DataMember]\n       public int Id { get; set; }\n\n       [DataMember]\n       public string Description { get; set; }\n\n       [DataMember]\n       public bool IsCompleted { get; set; }\n\n       [DataMember]\n       public DateTime EnteredDate { get; set; }\n   }

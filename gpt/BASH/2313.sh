@@ -1,0 +1,1 @@
+grep -i 'killed process' /var/log/syslog\ngrep -i 'killed process' /var/log/messages\ndmesg | grep -i 'killed process'

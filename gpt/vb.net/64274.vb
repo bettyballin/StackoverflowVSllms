@@ -1,0 +1,1 @@
+Public MustInherit Class ENTBaseDATA(Of T As IENTBaseEntity)\n\n    Public MustOverride Function Select() As List(Of T)\n    Public MustOverride Function Select(id As Integer) As T\n\n    ' Other abstract methods can be defined here\n\nEnd Class

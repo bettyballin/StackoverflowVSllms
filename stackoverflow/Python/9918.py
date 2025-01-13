@@ -1,1 +1,0 @@
-import urllib\nhtml = urllib.urlopen('http://www.coopamerica.org/programs/responsibleshopper/company.cfm?id=271').read()\nh = html.decode('iso-8859-1')\nsoup = BeautifulSoup(h)

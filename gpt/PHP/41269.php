@@ -1,0 +1,1 @@
+<!-- In your HTML or PHP template files -->\n<link rel="stylesheet" type="text/css" href="<?php echo asset_url('assets/css/styles.css'); ?>">\n<img src="<?php echo asset_url('assets/css/images/img1.gif'); ?>" alt="Image">\n<script src="<?php echo asset_url('assets/js/scripts.js'); ?>"></script>

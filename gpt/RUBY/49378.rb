@@ -1,0 +1,1 @@
+# Gemfile for App-B\n   gem 'oauth2'

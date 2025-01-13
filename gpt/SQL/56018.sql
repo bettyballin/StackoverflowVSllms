@@ -1,0 +1,1 @@
+SELECT c.id AS category_id, c.name AS category_name, i.id AS item_id, i.itemname\nFROM Categories c\nJOIN (\n    SELECT id, categoryid, itemname\n    FROM Items\n    WHERE (categoryid, id) IN (\n        SELECT categoryid, MIN(id)\n        FROM Items\n        GROUP BY categoryid\n    )\n) i ON c.id = i.categoryid;

@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <siteMap>\n      <providers>\n        <add name="CustomSiteMapProvider" type="Namespace.CustomSiteMapProvider, AssemblyName" />\n      </providers>\n    </siteMap>\n  </system.web>\n</configuration>

@@ -1,0 +1,1 @@
+<?php\n// Include some libraries (example)\ninclude 'library1.php';\ninclude 'library2.php';\ninclude 'library3.php';\n\n// Initialize some variables\n$var1 = "Hello";\n$var2 = "World";\n\n// Generate a small amount of HTML\necho "<p>$var1 $var2</p>";\n\n// Check memory usage\necho "<p>Memory usage: " . memory_get_usage() . " bytes</p>";\n?>

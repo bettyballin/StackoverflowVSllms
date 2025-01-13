@@ -1,1 +1,0 @@
-/Give (\d+) Cars @(\w+)|GA (\d+) Cars @(\w+)/i

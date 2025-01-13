@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    string reportContent = "Your report content goes here";\n    string fileName = "report.txt";\n\n    DownloadReport(Response, reportContent, fileName);\n}

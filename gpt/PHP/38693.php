@@ -1,0 +1,1 @@
+class Model_User extends ORM {\n    // Define user-specific data operations\n    public function login($username, $password) {\n        // Handle login logic\n    }\n\n    public function get_profile($user_id) {\n        // Retrieve user profile data\n    }\n}

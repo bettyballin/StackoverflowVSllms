@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <httpModules>\n      <add name="YourModuleName" type="YourNamespace.YourModule, YourAssemblyName, Version=NewVersion, Culture=neutral, PublicKeyToken=YourPublicKeyToken"/>\n    </httpModules>\n  </system.web>\n</configuration>

@@ -1,0 +1,1 @@
+<?php\nheader('Content-Type: text/html; charset=ISO-8859-15');\n// Output your content here\n?>

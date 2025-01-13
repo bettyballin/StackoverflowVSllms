@@ -1,1 +1,0 @@
-interface iBar\n{\n    function foobar();\n}\n\n\nclass cBar implements iBar\n{\n    function foobar()\n    {\n        //Code\n    }\n}

@@ -1,1 +1,0 @@
-a whole bunch of text with no numbers Entry #: 2439. a whole bunch of text Click here to blah blah blah\n\n(.*)    // "a whole bunch of text with no numbers Entry #: 2439. a whole bunch of text "\n(\d*)   // "" (0 or more numbers)\n(.*)    // "" (0 or more characters)

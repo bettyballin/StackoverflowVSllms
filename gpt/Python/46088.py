@@ -1,0 +1,1 @@
+import cx_Oracle\n\n   connection = cx_Oracle.connect("user/password@dsn")\n   cursor = connection.cursor()\n   cursor.execute("SELECT * FROM your_table")\n\n   while True:\n       rows = cursor.fetchmany(50)  # Fetch 50 rows at a time\n       if not rows:\n           break\n       for row in rows:\n           print(row)\n\n   cursor.close()\n   connection.close()

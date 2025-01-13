@@ -1,0 +1,1 @@
+[System.Web.Services.WebMethod]\n   public static string GetTotalAmount()\n   {\n       // Your logic to get the total amount\n       string total = "100"; // Example total amount\n       return total;\n   }

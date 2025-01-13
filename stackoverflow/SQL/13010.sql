@@ -1,1 +1,0 @@
-set @output = @output + RTRIM(CAST(@Stamp AS varchar(30))) + ': ' + @NewStatusID + ' by ' + @UserName +  CHAR(13) + CHAR(10)

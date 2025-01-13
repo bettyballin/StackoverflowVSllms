@@ -1,1 +1,0 @@
-var randomNum = Math.random();\nvar html = "<iframe src=\"bar.html?rand="+randomNum+"\" />";

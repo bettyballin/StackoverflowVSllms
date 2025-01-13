@@ -1,0 +1,1 @@
+<class name="com.agetor.commons.fields.FieldData" table="ac_userdef_data">\n    <id name="uid" column="uid" type="long">\n        <!--<generator class="native"/>-->\n    </id>\n    <property name="fieldname" column="fieldname" />\n    <property name="value" column="value" />\n</class>

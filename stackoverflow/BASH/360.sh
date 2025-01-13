@@ -1,1 +1,0 @@
-svn propset svn:mime-type text/plain build.xml\nsvn commit build.xml

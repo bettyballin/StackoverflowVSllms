@@ -1,0 +1,1 @@
+CallbackListRecord nextRecord = CallbackSearch.LoadOpenListToProcess(p).FirstOrDefault();

@@ -1,0 +1,1 @@
+#pragma GCC push_options\n#pragma GCC optimize ("O0")\n// Code that causes issues with optimization\n#pragma GCC pop_options

@@ -1,0 +1,1 @@
+[Table(Name = "YourTableName")]\npublic class YourEntity\n{\n    [Column(IsPrimaryKey = true, IsDbGenerated = true, AutoSync = AutoSync.OnInsert)]\n    public int ID { get; set; }\n    \n    [Column]\n    public int Version { get; set; }\n\n    [Column]\n    public string SomeProperty { get; set; }\n\n    // Other properties\n}

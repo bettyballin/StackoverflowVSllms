@@ -1,1 +1,0 @@
-IEnumerable<string> productNames = from p in db.Products select p.ProductName;

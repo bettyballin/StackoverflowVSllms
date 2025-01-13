@@ -1,1 +1,0 @@
-SELECT\n    CASE WHEN Product IN ('Banana', 'Apple', 'Orange') Then 'Fruit'\n    ELSE Product END \nFROM [Table]

@@ -1,0 +1,1 @@
+// Add P3P header\nResponse.AddHeader("P3P", "CP=\"CAO PSA OUR\"");\n\n// Set secure and HttpOnly flags on session cookie\nif (Response.Cookies["ASP.NET_SessionId"] != null)\n{\n    Response.Cookies["ASP.NET_SessionId"].Secure = true;\n    Response.Cookies["ASP.NET_SessionId"].HttpOnly = true;\n}\n\n// Redirect to Dashboard\nResponse.Redirect("Dashboard.aspx", false);

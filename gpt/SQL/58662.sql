@@ -1,0 +1,1 @@
+CREATE TABLE MyTable (\n    ID INT PRIMARY KEY,\n    FieldName1 VARCHAR(100),\n    FieldName2 INT\n);

@@ -1,1 +1,0 @@
-select column_name, data_type from all_tab_columns where table_name = 'TABLE_NAME';

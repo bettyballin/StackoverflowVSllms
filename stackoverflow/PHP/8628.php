@@ -1,1 +1,0 @@
-<?php\n         $cdate = mktime(0, 0, 0, 12, 31, 2009);\n         $today = time();\n         $difference = $cdate - $today;\n         if ($difference < 0) { $difference = 0; }\n         echo floor($difference/60/60/24)." days remaining";\n       ?>

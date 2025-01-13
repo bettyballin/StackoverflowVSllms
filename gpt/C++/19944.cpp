@@ -1,0 +1,1 @@
+BEGIN_MESSAGE_MAP(CYourApp, CWinApp)\n       // ... other mappings ...\n       ON_COMMAND(ID_HELP, &CYourApp::OnHelp)\n   END_MESSAGE_MAP()

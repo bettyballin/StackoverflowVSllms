@@ -1,0 +1,1 @@
+// Traditional loop for a complex or performance-critical operation\nvar evenNumbers = new List<int>();\nforeach (var number in numbers)\n{\n    if (number % 2 == 0)\n    {\n        evenNumbers.Add(number);\n    }\n}

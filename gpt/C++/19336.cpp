@@ -1,0 +1,1 @@
+void foo() noexcept; // guaranteed not to throw an exception\nvoid bar() noexcept(false); // may throw an exceptio

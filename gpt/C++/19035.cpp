@@ -1,0 +1,1 @@
+BSTR myBstr = ...; // Some BSTR value\nif (myBstr == NULL) {\n    // Treat as an empty string\n    // Handle accordingly\n} else {\n    // Normal processing of non-null BSTR\n}

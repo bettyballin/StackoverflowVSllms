@@ -1,0 +1,1 @@
+# Add this line to your .bashrc or .zshrc\nsource ~/.ssh/load-ssh-agent.sh

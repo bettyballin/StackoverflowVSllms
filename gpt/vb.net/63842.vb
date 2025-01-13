@@ -1,0 +1,1 @@
+<%@ Control Language="vb" AutoEventWireup="false" Codebehind="ProductRender.ascx.vb" Inherits="MyApp.ProductRender" %>\n<div>\n  <h3><%= myProd.Title %></h3>\n  <img src="<%= myProd.Thumbnail %>" />\n  <p><%= myProd.Description %></p>\n</div>

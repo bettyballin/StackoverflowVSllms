@@ -1,1 +1,0 @@
-string fixedCountry = country.ToLower(CultureInfo.InvariantCulture)\n                             .Replace(" ", "-");\nstring fixedHotel = hotel.ToLower(CultureInfo.InvariantCulture)\n                    .Replace(" ", "-");\n\nstring url = "http://www.travel.com/" + fixedCountry + "/" + fixedHotel;

@@ -1,0 +1,1 @@
+var surrogatePair = function(c) {\n    // Your implementation of surrogatePair here\n    // This function should return an array [hi, lo]\n};\n\nvar pair = surrogatePair(c);\nhi = pair[0];\nlo = pair[1];

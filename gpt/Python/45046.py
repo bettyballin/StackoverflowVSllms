@@ -1,0 +1,1 @@
+# Example in Python Flask\nfrom flask import request\n\n@app.route('/post/dispatch', methods=['POST'])\ndef dispatch():\n    action = request.form.get('action')\n    post_id = request.form.get('post_id')\n    \n    if action == 'Save':\n        # Handle save logic\n    elif action == 'Delete':\n        # Handle delete logic\n    else:\n        # Handle default case

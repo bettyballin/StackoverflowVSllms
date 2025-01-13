@@ -1,0 +1,1 @@
+def jaccard_similarity(s1, s2):\n       set1 = set(s1.split())\n       set2 = set(s2.split())\n       intersection = len(set1.intersection(set2))\n       union = len(set1.union(set2))\n       return intersection / unio

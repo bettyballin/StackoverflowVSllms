@@ -1,0 +1,1 @@
+#include <opencv2/opencv.hpp>\n\n     int main() {\n         cv::Mat img = cv::imread("input.jpg", cv::IMREAD_COLOR);\n         if (img.empty()) {\n             // Handle error\n         }\n         // Use the image data in img\n         cv::imwrite("output.bmp", img);\n         return 0;\n     }

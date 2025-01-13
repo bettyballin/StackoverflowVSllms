@@ -1,1 +1,0 @@
-txtCode.Text = "<a href=""http://www.erate.co.za/CompanyProfile.aspx?ID=" & reader.Item("ID").ToString() & ">"\ntxtCode.Text &= "<img src=""http://www.erate.co.za/CompanyAdd.bmp"" alt=""Go rate us on www.eRate.co.za"" border=""0"" style=""width: 136px; height: 88px"" /></a>"

@@ -1,1 +1,0 @@
-<roleManager enabled="true" defaultProvider="RemoteRoleProvider">\n   <providers>\n      <add name="RemoteRoleProvider" type="MyCorp.RemoteRoleProvider, MyCorp" serviceUrl="http://some_internal_url/RoleProviderService.svc" />\n   </providers>\n</roleManager>

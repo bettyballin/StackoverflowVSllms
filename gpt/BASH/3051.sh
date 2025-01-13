@@ -1,0 +1,1 @@
+find . -type f -exec sed -i 's/\${\([A-Z_]*\)}/\L${\1}\E/g' {} +

@@ -1,1 +1,0 @@
-this.$OuterDiv = $('<div></div>')\n    .hide()\n    .append($('<table></table>')\n        .attr({ cellSpacing : 0 })\n        .addClass("text")\n    )\n;

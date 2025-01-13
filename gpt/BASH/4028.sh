@@ -1,0 +1,1 @@
+/usr/bin/time -v ld [your linking command]

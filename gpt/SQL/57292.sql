@@ -1,0 +1,1 @@
+impdp user/password@database directory=DPUMP_DIR dumpfile=EXPORT.DMP schemas=SOURCE_SCHEMA remap_schema=SOURCE_SCHEMA:MY_SCHEMA logfile=IMPORT.LOG

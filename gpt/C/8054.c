@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <string.h>\n\nint main() {\n    char dest[10];\n    const char *source = "Hello";\n\n    // Using strcpy_s to safely copy the string\n    errno_t err = strcpy_s(dest, sizeof(dest), source);\n    if (err == 0) {\n        printf("Copied string: %s\n", dest);\n    } else {\n        printf("Error copying string\n");\n    }\n\n    return 0;\n}

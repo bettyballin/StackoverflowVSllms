@@ -1,1 +1,0 @@
-SELECT * FROM Books ORDER BY (year = 1990) DESC, name

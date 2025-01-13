@@ -1,1 +1,0 @@
-O Accept(IObjectVisitorEx<O> visitor);

@@ -1,0 +1,1 @@
+#!/usr/bin/ksh\n# coolScript.sh\n# This is my cool script that is being launched by cron every 10 minutes.\n\nif [ -e /path/to/your/application/scriptStatus.off ]\nthen\n    # monitor disabled\n    echo "Monitor is disabled."\nelse\n    # monitor enabled\n    echo "Monitor is enabled."\n    # Place your script's operational code here\nfi

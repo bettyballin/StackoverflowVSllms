@@ -1,0 +1,1 @@
+WebDev.WebServer.EXE /port:8080 /path:"C:\Path\To\Your\WebApp" /vpath:"/"

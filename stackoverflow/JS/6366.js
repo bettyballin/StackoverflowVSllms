@@ -1,1 +1,0 @@
-$(".container img").each(function() {\n    $(this).after("<span>"+$(this).attr('alt')+"</span>");\n});

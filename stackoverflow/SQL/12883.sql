@@ -1,1 +1,0 @@
-DECLARE @tblRows TABLE (pos int identity(0,1), num int) \nDECLARE @numRows int,@i int\n\n\nSET @numRows = DATEDIFF(dd,@start,@end) + 1\nSET @i=1\n\nWHILE @i<@numRows\nbegin\n    INSERT @tblRows SELECT TOP 1 1 FROM sysobjects a\n\n    SET @i=@i+1\nend

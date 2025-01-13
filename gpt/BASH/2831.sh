@@ -1,0 +1,1 @@
+vmrun -T ws -gu <username> -gp <password> runScriptInGuest /path/to/your/vm.vmx /bin/bash <path_to_your_test_script>.sh

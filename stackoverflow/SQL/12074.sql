@@ -1,1 +1,0 @@
-declare @floatmyboat float\nset @floatmyboat = 1.51\nselect floor(@floatmyboat+0.5)

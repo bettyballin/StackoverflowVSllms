@@ -1,0 +1,1 @@
+let array = [1, 2, 3, 4];\n\n// Remove element from the end\narray.pop(); // [1, 2, 3]\n\n// Remove element from the beginning\narray.shift(); // [2, 3]

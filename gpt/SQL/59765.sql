@@ -1,0 +1,1 @@
+SELECT * FROM date_range\n   WHERE start_date <= SYSTIMESTAMP AND SYSTIMESTAMP < end_date;

@@ -1,0 +1,1 @@
+using System;\nusing System.Web.SessionState;\n\npublic class SessionIDGenerator\n{\n    public static string GenerateSessionID()\n    {\n        SessionIDManager manager = new SessionIDManager();\n        string newSessionId = manager.CreateSessionID(System.Web.HttpContext.Current);\n        return newSessionId;\n    }\n}

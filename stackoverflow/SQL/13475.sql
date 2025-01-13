@@ -1,1 +1,0 @@
-SELECT OBJECT_NAME(OBJECT_ID) AS DatabaseName, last_user_update,*\nFROM sys.dm_db_index_usage_stats\nWHERE database_id = DB_ID( 'AdventureWorks')\nAND OBJECT_ID=OBJECT_ID('test')

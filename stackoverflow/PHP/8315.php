@@ -1,1 +1,0 @@
-$q = "select username from news, users where news.user_id=users.id and news.id=".$_GET['id'].");";\n$query = mysql_query($q) or die(mysql_error());

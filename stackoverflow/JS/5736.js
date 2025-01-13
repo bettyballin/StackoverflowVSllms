@@ -1,1 +1,0 @@
-jQuery(".insert").click(function(e){\n            e.preventDefault();\n\n            ...your code...    \n\n            return false;\n    });

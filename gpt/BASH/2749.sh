@@ -1,0 +1,1 @@
+regasm YourCSharpDll.dll /codebase

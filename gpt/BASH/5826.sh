@@ -1,0 +1,1 @@
+chmod 755 /path/to/your/django/project/media\n   chown -R www-data:www-data /path/to/your/django/project/media

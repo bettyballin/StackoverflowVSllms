@@ -1,0 +1,1 @@
+public async Task<ActionResult> GetPageHtml(string url)\n{\n    string htmlContent = await GetHtmlFromUrlAsync(url);\n    // You can now use the htmlContent, for example, send it via email\n    return Content(htmlContent, "text/html");\n}

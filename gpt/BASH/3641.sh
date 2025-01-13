@@ -1,0 +1,1 @@
+php -d disable_functions=soap_server,soapclient your_script.php

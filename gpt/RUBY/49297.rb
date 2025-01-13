@@ -1,0 +1,1 @@
+class AddUniqueIndexToSchools < ActiveRecord::Migration[6.0]\n  def change\n    remove_index :schools, :name if index_exists?(:schools, :name)\n    add_index :schools, "lower(name)", unique: true\n  end\nend

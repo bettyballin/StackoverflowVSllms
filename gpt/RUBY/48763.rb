@@ -1,0 +1,1 @@
+<!-- classes/edit.html.erb -->\n   <%= form_with(model: @class, local: true) do |form| %>\n     <!-- Other Class fields -->\n     <div class="field">\n       <%= form.label :student_ids, "Students" %><br>\n       <%= form.collection_check_boxes :student_ids, Student.all, :id, :name %>\n     </div>\n     <div class="actions">\n       <%= form.submit %>\n     </div>\n   <% end %>

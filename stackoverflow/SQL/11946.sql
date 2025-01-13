@@ -1,1 +1,0 @@
-select * \nfrom Customers \n    inner join Orders \n        on Customers.CustomerID = Orders.CustomerID\n        and OrderID = (\n            SELECT TOP 1 subOrders.OrderID \n            FROM Orders subOrders \n            WHERE subOrders.CustomerID = Orders.CustomerID \n            ORDER BY subOrders.OrderDate DESC\n        )

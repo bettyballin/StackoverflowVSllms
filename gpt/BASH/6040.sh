@@ -1,0 +1,1 @@
+composer require symfony/maker-bundle --dev\n   php bin/console make:entity\n   php bin/console make:controller

@@ -1,0 +1,1 @@
+#if defined(__GNUC__) && (defined(__i386__) || defined(__amd64__))\ndouble fldpi()\n{\n    double pi;\n    asm("fldpi" : "=t" (pi));\n    return pi;\n}\n#endif

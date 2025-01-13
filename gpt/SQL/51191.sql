@@ -1,0 +1,1 @@
+SELECT Id, Forename, Surname\n    FROM Person\n    WHERE PersonName LIKE '%frank%'

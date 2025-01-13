@@ -1,0 +1,1 @@
+#!/bin/bash\n\nLOGFILE="/var/log/cpu_load.log"\n\n# Record the current load average\necho "$(date +"%Y-%m-%d %H:%M:%S") $(cat /proc/loadavg | awk '{print $1,$2,$3}')" >> $LOGFILE

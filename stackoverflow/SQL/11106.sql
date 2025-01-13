@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE create_role( role_name IN VARCHAR2 ) IS\nPRAGMA AUTONOMOUS_TRANSACTION;\nBEGIN\n  EXECUTE IMMEDIATE 'CREATE ROLE '||role_name;\nEXCEPTION\n  WHEN OTHERS THEN\n    -- ORA-01921: If The role name exists, ignore the error.\n    IF SQLCODE <> -01921 THEN\n      RAISE;\n    END IF;\nEND create_role;

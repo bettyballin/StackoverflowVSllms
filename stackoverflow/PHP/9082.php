@@ -1,1 +1,0 @@
-function convert_dashes_to_underscores_in_url()\n{\n    Router::$current_uri = str_replace('-', '_', Router::$current_uri);\n}\n\nEvent::add_before(\n    'system.routing',\n    array('Router', 'setup'),\n    'convert_dashes_to_underscores_in_url');

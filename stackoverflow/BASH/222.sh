@@ -1,1 +1,0 @@
-$ echo "bar embarassment" | sed "s/\bbar\b/no bar/g"\nno bar embarassment

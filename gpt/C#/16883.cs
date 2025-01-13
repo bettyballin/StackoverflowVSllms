@@ -1,0 +1,1 @@
+CIDR subnet = CIDR.Parse("192.168.0.0/16");\nConsole.WriteLine(subnet); // Output: 192.168.0.0/16

@@ -1,0 +1,1 @@
+sudo rm -rf /usr/local/postgresql-8.3.6

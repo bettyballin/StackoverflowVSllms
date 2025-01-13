@@ -1,1 +1,0 @@
-select * from <table> where create_date = to_date('20090506', 'YYYYMMDD')

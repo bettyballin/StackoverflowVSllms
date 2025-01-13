@@ -1,0 +1,1 @@
+Private Async Sub btnUpload_Click(sender As Object, e As EventArgs) Handles btnUpload.Click\n    Await StartUploadProcess()\nEnd Sub

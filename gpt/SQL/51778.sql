@@ -1,0 +1,1 @@
+ALTER SYSTEM SET processes=<new_value> SCOPE=SPFILE;

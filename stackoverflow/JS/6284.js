@@ -1,1 +1,0 @@
-this.style.color='gray';

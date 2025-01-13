@@ -1,0 +1,1 @@
+string scriptUrl = Page.ClientScript.GetWebResourceUrl(typeof(ControlType), "Namespace.FolderName.FileName.js");

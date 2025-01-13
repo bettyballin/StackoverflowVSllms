@@ -1,0 +1,1 @@
+SELECT get_next_counter_value('my_counter') FROM dual;

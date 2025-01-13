@@ -1,0 +1,1 @@
+SELECT table1.firstname, table2.lastname\nFROM table1\nFULL OUTER JOIN table2 ON table1.id = table2.id;

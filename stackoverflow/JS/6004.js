@@ -1,1 +1,0 @@
-$('a.button:has(img)')\n\n$('a.button:not(:has(img))')

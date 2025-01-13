@@ -1,1 +1,0 @@
-TransparencyKey = Color.Red\nButton1.BackColor = Color.Red

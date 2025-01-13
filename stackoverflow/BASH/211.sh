@@ -1,1 +1,0 @@
-LOCKFILE=/tmp/lock.txt\nif [ -e ${LOCKFILE} ] && kill -0 `cat ${LOCKFILE}`; then\n    echo "already running"\n    exit\nfi\n\n# make sure the lockfile is removed when we exit and then claim it\ntrap "rm -f ${LOCKFILE}; exit" INT TERM EXIT\necho $$ > ${LOCKFILE}\n\n# do stuff\nsleep 1000\n\nrm -f ${LOCKFILE}

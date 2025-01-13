@@ -1,0 +1,1 @@
+INSERT INTO YourTableName (ID, ContactName, Designation)\nVALUES\n    (1, @ContactName1, @Designation1),\n    (1, @ContactName2, @Designation2);

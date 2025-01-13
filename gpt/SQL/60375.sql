@@ -1,0 +1,1 @@
+INSERT INTO YourTable (Column1) VALUES ('Value1');\nSELECT IDENT_CURRENT('YourTable') AS LastIdentity;

@@ -1,0 +1,1 @@
+<?php\nclass MyClass {\n    public function doSomething() {\n        // Your code here\n        sleep(1); // Example delay\n    }\n}\n\n$object = new MyClass();\n$start_time = microtime(true);\n$object->doSomething();\n$end_time = microtime(true);\n$execution_time = $end_time - $start_time;\n\necho "Execution Time: " . $execution_time . " seconds\n";\n?>

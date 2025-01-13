@@ -1,0 +1,1 @@
+public class MyService : IInternalService\n{\n    public string Get()\n    {\n        // Implementation for Get method\n    }\n\n    public void Save(string data)\n    {\n        // Implementation for Save method\n    }\n}

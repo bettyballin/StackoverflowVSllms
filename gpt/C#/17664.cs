@@ -1,0 +1,1 @@
+// Presenter (e.g., DataPresenter.cs)\npublic class DataPresenter\n{\n    private readonly IDataModel _model;\n\n    public DataPresenter(IDataModel model)\n    {\n        _model = model;\n    }\n\n    public string ProcessData(string inputData)\n    {\n        // Business logic and interaction with Model\n        return _model.TransformData(inputData);\n    }\n}

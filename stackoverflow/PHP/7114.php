@@ -1,1 +1,0 @@
-$_SESSION['var1'] = null;\n$var1 = 'something';

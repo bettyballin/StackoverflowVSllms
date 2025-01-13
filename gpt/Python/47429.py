@@ -1,0 +1,1 @@
+from flask import Flask\napp = Flask(__name__)\n\n@app.route('/')\ndef dynamic_content():\n    return "Hello, this is dynamic content!"\n\nif __name__ == '__main__':\n    app.run(host='0.0.0.0', port=8080)

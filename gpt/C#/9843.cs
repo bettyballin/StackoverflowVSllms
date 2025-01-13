@@ -1,0 +1,1 @@
+protected void CustomValidator_ServerValidate(object source, ServerValidateEventArgs args)\n{\n    Regex r = new Regex("^[0-9A-Z-[IOQ]]{17}$");\n    args.IsValid = r.IsMatch(TextBox1.Text);\n}

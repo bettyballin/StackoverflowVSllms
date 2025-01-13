@@ -1,0 +1,1 @@
+// mathFunctions.js\nfunction add(a, b) {\n  return a + b;\n}\n\nmodule.exports = add;\n\n// mathFunctions.test.js\nconst add = require('./mathFunctions');\n\ntest('adds 1 + 2 to equal 3', () => {\n  expect(add(1, 2)).toBe(3);\n});

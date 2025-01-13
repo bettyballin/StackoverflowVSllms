@@ -1,0 +1,1 @@
+results = ActiveRecord::Base.connection.execute("YOUR_SQL_QUERY").to_a\nordered_columns = %w[column1 column2 column3] # specify your columns in the desired order\n\nformatted_results = results.map do |row|\n  ordered_columns.map { |col| row[col] }\nend\n\nformatted_results.each do |row|\n  puts row.join(", ")\nend

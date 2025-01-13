@@ -1,1 +1,0 @@
-alter session set NLS_COMP=LINGUISTIC;\nalter session set NLS_SORT=BINARY_CI;

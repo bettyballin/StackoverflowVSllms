@@ -1,1 +1,0 @@
-select\n    u.users_name,\n    i.itemid\nfrom\n    users u\n    inner join items i on\n        u.user_id = i.user_id\nwhere\n    u.user_id = 1234

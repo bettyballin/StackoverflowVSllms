@@ -1,1 +1,0 @@
-import os\nfilename = "/etc/fstab"\nstatbuf = os.stat(filename)\nprint("Modification time: {}".format(statbuf.st_mtime))

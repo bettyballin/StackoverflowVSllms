@@ -1,0 +1,1 @@
+// MyCppDll.cpp\n#include <iostream>\n\nextern "C" __declspec(dllexport) void HelloWorld()\n{\n    std::cout << "Hello from C++ DLL!" << std::endl;\n}

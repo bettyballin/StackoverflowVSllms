@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        GridView1.RowDataBound += new GridViewRowEventHandler(GridView1_RowDataBound);\n        // Bind your GridView to the DataTable here\n    }\n}

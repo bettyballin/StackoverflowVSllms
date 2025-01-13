@@ -1,0 +1,1 @@
+# For a debug build\nmake BUILD_TYPE=debug\n\n# For a release build\nmake BUILD_TYPE=release

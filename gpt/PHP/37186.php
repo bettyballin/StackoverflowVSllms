@@ -1,0 +1,1 @@
+<?php\n$filename = 'your_large_file.txt';\n\n// Get the total number of rows using wc -l command\n$totalRows = intval(shell_exec("wc -l < " . escapeshellarg($filename)));\n\necho "Total number of rows: " . $totalRows;\n?>

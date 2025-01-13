@@ -1,1 +1,0 @@
-try\n{\n    foo();\n}\ncatch (IOException)\n{\n    throw new ArgumentException(); // Bubbles up to caller\n}\ncatch (ArgumentException)\n{\n    Console.WriteLine("Caught");\n}

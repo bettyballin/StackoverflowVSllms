@@ -1,0 +1,1 @@
+HttpCookie cookie = new HttpCookie("ASP.NET_SessionId", Session.SessionID);\ncookie.HttpOnly = true; // Ensure the cookie is HTTP only\ncookie.Path = "/"; // Set the path to the root\nResponse.Cookies.Add(cookie);

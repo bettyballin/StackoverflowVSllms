@@ -1,1 +1,0 @@
-SELECT t1.*\nFROM table t1\n  JOIN (SELECT MAX(Date), LocationID\n        FROM table\n        GROUP BY Date, LocationID) t2 on t1.Date = t2.Date and t1.LocationID = t2.LocationID

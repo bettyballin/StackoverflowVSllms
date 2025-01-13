@@ -1,0 +1,1 @@
+schtasks /create /tn "UpdateCasPol" /xml CasPolTask.xml /ru SYSTEM

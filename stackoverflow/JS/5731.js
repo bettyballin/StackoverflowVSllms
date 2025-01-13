@@ -1,1 +1,0 @@
-var resizeTimer = 0;\nfunction doResize()\n{\n    if (resizeTimer)\n        clearTimeout(resizeTimer);\n\n    resizeTimer = setTimeout(doResizeEnd, 500);\n}

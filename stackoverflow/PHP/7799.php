@@ -1,1 +1,0 @@
-<?php\nclass MyClass {\n   public function __construct() {\n      echo "This code is executed when class in instanciated.";\n   }\n}\n?>

@@ -1,1 +1,0 @@
-struct InitFoo\n{\n     InitFoo()\n     {\n         // one-time code goes here\n     }\n};\n\nvoid Foo()\n{\n    static InitFoo i;\n}

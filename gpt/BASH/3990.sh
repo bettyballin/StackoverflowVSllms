@@ -1,0 +1,1 @@
+export PATH=/usr/local/cegcc/bin:$PATH\n   export TARGETMACH=arm-mingw32ce\n   export BUILDMACH=i686-linux\n   export CROSS=arm-mingw32ce

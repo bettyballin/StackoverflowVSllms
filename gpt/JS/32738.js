@@ -1,0 +1,1 @@
+$.ajax({\n    url: 'your-url-here',\n    headers: {\n        'X-Requested-With': 'XMLHttpRequest'\n    }\n});

@@ -1,1 +1,0 @@
-for(var ix = 0; ix < document.myList.elements.count; ix++)\n    if(document.myList.elements[ix].type == 'checkbox')\n        document.myList.elements[ix].checked = true;

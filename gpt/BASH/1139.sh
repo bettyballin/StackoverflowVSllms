@@ -1,0 +1,1 @@
+gcc -o count_files count_files.c\n./count_files /path/to/directory

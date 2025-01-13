@@ -1,0 +1,1 @@
+@using (Ajax.BeginForm("ActionName", "ControllerName", new AjaxOptions { HttpMethod = "POST", InsertionMode = InsertionMode.Replace, UpdateTargetId = "result" }, new { @id = "ajaxForm" }))\n    {\n        @* Your form fields go here *@\n        <input type="submit" value="Submit" />\n    }

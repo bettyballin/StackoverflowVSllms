@@ -1,1 +1,0 @@
-oAC.doBeforeExpandContainer = function() {\n    var Dom = YAHOO.util.Dom;\n    Dom.setXY("myContainer", [Dom.getX("myInput"), Dom.getY("myInput") + Dom.get("myInput").offsetHeight] );\n    return true;\n}

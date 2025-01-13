@@ -1,0 +1,1 @@
+import networkx as nx\nimport matplotlib.pyplot as plt\n\n# Create a graph\nG = nx.erdos_renyi_graph(30, 0.05)\n\n# Compute the positions of the nodes using the Fruchterman-Reingold algorithm\npos = nx.spring_layout(G)\n\n# Draw the graph\nnx.draw(G, pos, with_labels=True, node_size=500, node_color='skyblue', font_size=10, font_color='black')\n\n# Show the plot\nplt.show()

@@ -1,0 +1,1 @@
+-Xclang -analyzer-disable-checker -Xclang path/to/external/library

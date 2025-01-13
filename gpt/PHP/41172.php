@@ -1,0 +1,1 @@
+// Convert UTF-8 to ISO-8859-1\n$utf8String = "Your UTF-8 encoded string here";\n$isoString = mb_convert_encoding($utf8String, "ISO-8859-1", "UTF-8");\n\n// Convert ISO-8859-1 back to UTF-8\n$convertedBackToUtf8String = mb_convert_encoding($isoString, "UTF-8", "ISO-8859-1");\n\necho $convertedBackToUtf8String;

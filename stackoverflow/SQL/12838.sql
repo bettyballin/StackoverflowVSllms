@@ -1,1 +1,0 @@
-SELECT  UserID, Service, COUNT(UserID) TimesAccessed\nFROM    Table\nGROUP BY UserID, Service

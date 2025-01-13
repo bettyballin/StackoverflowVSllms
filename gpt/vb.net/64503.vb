@@ -1,0 +1,1 @@
+Sub ExecuteSQL()\n    Dim db As DAO.Database\n    Dim sql As String\n\n    Set db = CurrentDb()\n\n    sql = "YOUR_SQL_CODE_HERE"  ' Replace with your actual SQL code\n\n    db.Execute sql, dbFailOnError\n    Set db = Nothing\n\n    MsgBox "SQL executed successfully!"\nEnd Sub

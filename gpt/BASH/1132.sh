@@ -1,0 +1,1 @@
+pear install MDB2\n   pear install MDB2_Driver_mysql

@@ -1,1 +1,0 @@
-/cygdrive/c/Program\ Files/My\ Program/myprog.exe

@@ -1,0 +1,1 @@
+short foo = (short) 12;

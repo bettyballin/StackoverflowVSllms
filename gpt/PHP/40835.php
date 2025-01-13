@@ -1,0 +1,1 @@
+$directory = 'your_directory_path';\n$dir_array = array_filter(scandir($directory), function($item) use ($directory) {\n    return $item !== '.' && $item !== '..' && is_dir("$directory/$item");\n});\n\nprint_r($dir_array);

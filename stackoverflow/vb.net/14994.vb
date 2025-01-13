@@ -1,1 +1,0 @@
-Class Department\n   Public Id As Integer\n   Public Employees As List(Of Employee)\nEnd Class\n\nClass Employee\n   Public Id As Integer\n   Public Name As String\nEnd Class

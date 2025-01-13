@@ -1,0 +1,1 @@
+@echo off\n:: Ensure the script is run with administrative privileges\nnet session >nul 2>&1\nif %errorLevel% neq 0 (\n    echo This script requires administrative privileges.\n    pause\n    exit /b\n)\n\n:: Example: Delete a specific file from C:\Windows directory\ndel /F /Q "C:\Windows\examplefile.txt"\n\necho File deleted (if it existed and permissions allowed).\npause

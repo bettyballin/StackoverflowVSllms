@@ -1,0 +1,1 @@
+<?php\n$array = array("apple", "banana", "apple", "orange", "banana");\n$uniqueArray = array_unique($array);\n\nprint_r($uniqueArray);\n?>

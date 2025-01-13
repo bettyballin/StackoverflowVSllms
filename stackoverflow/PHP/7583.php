@@ -1,1 +1,0 @@
-// second column of http://unicode.org/Public/MAPPINGS/ETSI/GSM0338.TXT\n$gsm338_codepoints = array(0x0040, 0x0000, ..., 0x00fc, 0x00e0)\n$can_use_gsm338 = true;\nforeach(codepoints($mystring) as $codepoint){\n    if(!in_array($codepoint, $gsm338_codepoints)){\n      $can_use_gsm338 = false;\n      break;\n    }\n}

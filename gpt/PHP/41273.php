@@ -1,0 +1,1 @@
+<?php\n$existing_include_path = get_include_path();\n$new_include_path = $existing_include_path . PATH_SEPARATOR . '/path/to/your/directory';\nset_include_path($new_include_path);\n\n// Now you can include files from the new path\ninclude 'head.php';\n?>

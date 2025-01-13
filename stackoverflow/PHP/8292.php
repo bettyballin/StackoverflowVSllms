@@ -1,1 +1,0 @@
-$dir = new DirectoryIterator('/path/to/dir');\nforeach($dir as $file ){\n  $x += (isImage($file)) ? 1 : 0;\n}

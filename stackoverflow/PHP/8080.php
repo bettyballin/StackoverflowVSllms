@@ -1,1 +1,0 @@
-<?php\n//start output buffering, anything outputted should be stored in a buffer rather than being sent to the browser\nob_start();\n?>\n\n<h1>blah blah</h1>\n<p> blah blah blah blah blah blah blah <?php include("file.php"); ?> blah blah</p>\n\n<?php\n//get contents of buffer and stop buffering\n$content = ob_get_clean();\necho $content;\n?>

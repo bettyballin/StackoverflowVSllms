@@ -1,0 +1,1 @@
+Route::get('/dashboard', function () {\n    // Only authenticated users may enter...\n})->middleware('auth.check');

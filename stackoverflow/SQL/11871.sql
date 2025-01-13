@@ -1,1 +1,0 @@
-SELECT RTrim(CAST([MynCharColumn] As nVarChar))

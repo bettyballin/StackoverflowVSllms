@@ -1,0 +1,1 @@
+void addRecord(const std::string &filename, const InventoryItem &item) {\n    std::ofstream file(filename, std::ios::app);\n    if (file.is_open()) {\n        file << item.toCSV() << std::endl;\n        file.close();\n    } else {\n        std::cerr << "Unable to open file for writing." << std::endl;\n    }\n}

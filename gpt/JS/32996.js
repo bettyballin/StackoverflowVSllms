@@ -1,0 +1,1 @@
+xhr.addEventListener("load", function() {\n       if (xhr.status == 200) {\n           // Handle successful response\n       }\n   });

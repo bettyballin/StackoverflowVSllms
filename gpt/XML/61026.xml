@@ -1,0 +1,1 @@
+<filter>\n    <filter-name>interfaceFilter</filter-name>\n    <filter-class>com.example.InterfaceFilter</filter-class>\n</filter>\n<filter-mapping>\n    <filter-name>interfaceFilter</filter-name>\n    <url-pattern>/*</url-pattern>\n</filter-mapping>

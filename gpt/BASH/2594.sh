@@ -1,0 +1,1 @@
+subst F: C:\mnt\fdrive

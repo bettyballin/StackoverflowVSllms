@@ -1,1 +1,0 @@
-$.jmsajax({\n    ...\n    data: { uname: $uname },\n    ...\n});

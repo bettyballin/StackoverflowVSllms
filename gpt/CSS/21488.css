@@ -1,0 +1,1 @@
+.outer-container {\n  overflow: hidden;\n  width: 100%; /* Ensure this matches your design */\n}\n\n.inner-container {\n  overflow-x: hidden;\n}\n\ntable {\n  width: 100%; /* Or set a specific width */\n}\n\n.img-container {\n  width: 100%; /* Or a specific width */\n  overflow: hidden;\n}\n\n.img-container img {\n  max-width: 100%;\n  height: auto;\n  display: block;\n}

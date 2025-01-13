@@ -1,1 +1,0 @@
-[your rails app directory]/vendor/plugins/paperclip

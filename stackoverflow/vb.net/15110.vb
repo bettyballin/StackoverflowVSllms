@@ -1,1 +1,0 @@
-Dim ms As New System.IO.MemoryStream(My.Resources.Cursor1)\nButton1.Cursor = New Cursor(ms)

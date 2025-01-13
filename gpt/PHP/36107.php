@@ -1,0 +1,1 @@
+$title = "The Example Title 123";\n$sortValue = generateSortValue($title);\n\n// Insert into your table\n$query = "INSERT INTO your_table (title, sort_value) VALUES (?, ?)";\n$stmt = $pdo->prepare($query);\n$stmt->execute([$title, $sortValue]);

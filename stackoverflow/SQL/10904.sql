@@ -1,1 +1,0 @@
-create trigger Patrol_NoOverlap_AIU on Patrol for insert, update as\n    begin\n    if exists (select *\n        from inserted i\n        inner join Patrol p\n            on i.GuardId = p.GuardId\n            and i.PatrolId <> p.PatrolId\n        where (i.Starts between p.starts and p.Ends)\n        or (i.Ends between p.Starts and p.Ends))\n\n        rollback transaction\n    end

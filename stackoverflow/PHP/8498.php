@@ -1,1 +1,0 @@
-$o= new Console_Getopt;\n$opts = $o->getopt($argv, "a:b:c");\nprint_r(getHashOfOpts($opts));\n\nfunction getHashOfOpts($opts) {\n    $opts = $opts[0];\n    $return_opts = $opts;\n    $return_opts = Array();\n    foreach($opts as $pair){\n        $return_opts[$pair[0]] = $pair[1];\n    }\n    return $return_opts;\n}

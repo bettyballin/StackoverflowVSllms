@@ -1,0 +1,1 @@
+BACKUP DATABASE [YourDatabaseName]\n   FILEGROUP = 'PRIMARY' \n   TO DISK = 'C:\Backup\YourDatabaseName.bak';

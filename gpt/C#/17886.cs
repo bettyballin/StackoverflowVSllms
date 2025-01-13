@@ -1,0 +1,1 @@
+protected void Application_Start()\n{\n    FormsAuthentication.LoginUrl = "/MVCapp/Account/Login";\n    // Other startup code...\n}

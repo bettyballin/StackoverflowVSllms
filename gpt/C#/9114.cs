@@ -1,0 +1,1 @@
+public class MyClass\n{\n    // Destructor\n    ~MyClass()\n    {\n        // Cleanup code here\n        // For example, releasing unmanaged resources\n    }\n}

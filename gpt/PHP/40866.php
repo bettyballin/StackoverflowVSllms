@@ -1,0 +1,1 @@
+// Example rate-limiting implementation (simplified)\n   function rateLimit($username) {\n       $failedAttempts = getFailedAttempts($username);\n       if ($failedAttempts > 0) {\n           $delay = min(pow(2, $failedAttempts), 3600); // Exponential backoff up to 1 hour\n           sleep($delay);\n       }\n       // Proceed with login attempt...\n   }

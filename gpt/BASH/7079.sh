@@ -1,0 +1,1 @@
+time python your_script.py

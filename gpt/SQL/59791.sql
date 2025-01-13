@@ -1,0 +1,1 @@
+-- Example to enable SSL encryption in SQL Server\n   EXEC sp_configure 'show advanced options', 1;\n   RECONFIGURE;\n   EXEC sp_configure 'force encryption', 1;\n   RECONFIGURE;

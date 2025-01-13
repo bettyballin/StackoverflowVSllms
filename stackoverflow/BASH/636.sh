@@ -1,1 +1,0 @@
-echo "create user IUSR_MACHINENAME\g" | sql iidbdb

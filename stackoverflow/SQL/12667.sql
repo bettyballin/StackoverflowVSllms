@@ -1,1 +1,0 @@
-table categories: id, title, parent_category_id\n\n\n id | title | parent_category_id\n----+-------+-------------------\n  1 |  food |              NULL\n  2 | pizza |                 1\n  3 | wines |              NULL\n  4 |   red |                 3\n  5 | white |                 3\n  6 | bread |                 1

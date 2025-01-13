@@ -1,0 +1,1 @@
+SELECT p.*\nFROM Project p\nJOIN Workplan wp ON p.WorkplanId = wp.WorkplanId\nJOIN (\n    SELECT UserId, MAX(WorkplanDate) AS MaxDate\n    FROM Workplan\n    WHERE UserId IN (@userIds)\n    GROUP BY UserId\n) grouped_wp\nON wp.UserId = grouped_wp.UserId AND wp.WorkplanDate = grouped_wp.MaxDate

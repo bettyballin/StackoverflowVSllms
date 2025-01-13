@@ -1,0 +1,1 @@
+public class Comment\n{\n    public int Id { get; set; }\n    public string Content { get; set; }\n    public DateTime CreatedAt { get; set; }\n}

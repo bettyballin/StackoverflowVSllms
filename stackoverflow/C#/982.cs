@@ -1,1 +1,0 @@
-var parent = new TreeViewItem();\nvar child = new TreeViewItem();\nparent.Header = "Hey";\nchild.Header = "There!";\nparent.Items.Add(child);\ntreeView1.Items.Add(parent);

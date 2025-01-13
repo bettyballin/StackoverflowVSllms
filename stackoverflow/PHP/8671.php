@@ -1,1 +1,0 @@
-if (stripos($website, "http://") === 0) \n    $website = substr($website, 7);

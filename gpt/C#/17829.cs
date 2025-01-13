@@ -1,0 +1,1 @@
+using System;\nusing System.Reflection;\n\nclass Program\n{\n    static void Main()\n    {\n        Assembly assembly = Assembly.GetExecutingAssembly();\n        AssemblyName assemblyName = assembly.GetName();\n        Version version = assemblyName.Version;\n\n        Console.WriteLine("{0} ({1})", assemblyName.Name, version);\n    }\n}

@@ -1,0 +1,1 @@
+indexes = [2, 4, 5]\nmain_list = [0, 1, 9, 3, 2, 6, 1, 9, 8]\n\nselected_elements = [main_list[i] for i in indexes]\nprint(selected_elements)  # Output: [9, 2, 6]

@@ -1,0 +1,1 @@
+[HandleHttpRequestValidationException]\npublic class YourController : Controller\n{\n    public ActionResult YourAction()\n    {\n        // Your action logic here\n    }\n\n    // Other actions...\n}

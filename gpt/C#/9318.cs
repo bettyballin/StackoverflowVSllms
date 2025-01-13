@@ -1,0 +1,1 @@
+myClass tmpClass = new myClass();\n\nfor (int i = 0; i < 100; i++)\n{\n    tmpClass.addToList($"Item {i}");\n}\n\n// Verify the list contents\nforeach(myOtherClass tmpC in tmpClass.anewList)\n{\n    Console.WriteLine(tmpC.theStringInMyClass);\n}

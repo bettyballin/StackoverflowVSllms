@@ -1,0 +1,1 @@
+wget http://ftp.gnu.org/gnu/libc/glibc-2.3.3.tar.gz\n     tar -xzf glibc-2.3.3.tar.gz\n     cd glibc-2.3.3

@@ -1,0 +1,1 @@
+$mainframe =& JFactory::getApplication();\n$template = $mainframe->getTemplate();\n$templatePath = JPATH_SITE . DS . 'templates' . DS . $template;\n\n// Use $templatePath for your images\necho $templatePath;

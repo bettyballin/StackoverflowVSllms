@@ -1,0 +1,1 @@
+javac Circle.java\njavac CircleDemo.java\njava CircleDemo

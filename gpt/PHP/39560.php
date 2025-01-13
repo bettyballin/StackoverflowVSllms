@@ -1,0 +1,1 @@
+$string = "asfasdfasdfasdfasdf[[sometextomatch]]asfkjasdfjaskldfj";

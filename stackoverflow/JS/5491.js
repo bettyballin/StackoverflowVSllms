@@ -1,1 +1,0 @@
-$("#div2").dialog({\n    closeOnEscape: false,\n    open: function(event, ui) {\n        $(".ui-dialog-titlebar-close", ui.dialog || ui).hide();\n    }\n});

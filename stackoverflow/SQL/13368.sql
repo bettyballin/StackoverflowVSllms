@@ -1,1 +1,0 @@
-SELECT 'CREATE SEQUENCE transaction_sequence MINVALUE 0 START WITH '||MAX(trans_seq_no)+1||' INCREMENT BY 1 CACHE 20'\n  INTO v_sql\n  FROM transaction_log;\n\nEXECUTE IMMEDIATE v_sql;

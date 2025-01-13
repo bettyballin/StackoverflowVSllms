@@ -1,1 +1,0 @@
-$rows = getRowsByArticleSearch($searchString, $table);

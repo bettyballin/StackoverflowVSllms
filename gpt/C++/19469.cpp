@@ -1,0 +1,1 @@
+#include <comdef.h>\n#include <iostream>\n\nint main() {\n    // Allocating a BSTR string\n    BSTR bstr = SysAllocString(L"Hello, World!");\n\n    // Using the BSTR string\n    wprintf(L"%s\n", bstr);\n\n    // Freeing the BSTR string\n    SysFreeString(bstr);\n\n    return 0;\n}

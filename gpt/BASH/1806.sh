@@ -1,0 +1,1 @@
+sudo cryptsetup luksFormat /dev/sdX

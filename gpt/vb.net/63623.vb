@@ -1,0 +1,1 @@
+' WebApp2 - Retrieving Session Variable\n   Dim value As String = String.Empty\n   If Not (Session("value") Is Nothing) Then\n       value = Session("value").ToString()\n   End If

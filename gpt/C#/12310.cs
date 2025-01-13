@@ -1,0 +1,1 @@
+var parameters = new Dictionary<string, string>\n{\n    { "@Param1", "Value1" },\n    { "@Param2", "Value2" }\n};\n\nvar dataSet = new MyStronglyTypedDataSet();\nDataAccess.FillDataSet(dataSet, "myStoredProcedure", parameters);

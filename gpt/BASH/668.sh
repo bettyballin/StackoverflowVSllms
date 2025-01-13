@@ -1,0 +1,1 @@
+ls -l /var/run/mysqld/mysqld.sock

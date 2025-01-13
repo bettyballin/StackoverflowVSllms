@@ -1,1 +1,0 @@
-$files = scandir('photos');\nif ($files !== false) \n{\n    foreach($files as $f) {\n        if ($f == '..' || $f == '.') continue;      \n        echo '<li><img src="photos/'.$f.'" alt="'.$f.'" title=""></li>'."\n";\n    }\n}

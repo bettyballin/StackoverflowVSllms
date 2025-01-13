@@ -1,0 +1,1 @@
+CREATE INDEX idx_person_id ON users_tb(person_id);

@@ -1,0 +1,1 @@
+$fname = "проба.xml";\n    $content = file_get_contents($fname);\n    if ($content === false) {\n        echo "Error: Unable to open file.";\n    } else {\n        echo "File content: " . $content;\n    }

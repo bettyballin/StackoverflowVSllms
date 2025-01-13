@@ -1,0 +1,1 @@
+jstack -l <pid> > thread_dump.txt\n   jmap -dump:live,format=b,file=heap_dump.hprof <pid>

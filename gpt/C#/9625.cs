@@ -1,0 +1,1 @@
+public class ResultType1\n{\n    public int Column1 { get; set; }\n    public string Column2 { get; set; }\n}\n\npublic class ResultType2\n{\n    public int Column3 { get; set; }\n    public DateTime Column4 { get; set; }\n}

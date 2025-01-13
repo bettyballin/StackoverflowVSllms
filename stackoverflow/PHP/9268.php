@@ -1,1 +1,0 @@
-$last = strrpos($haystack, $needle);\nif ($last === false) {\n  return false;\n}

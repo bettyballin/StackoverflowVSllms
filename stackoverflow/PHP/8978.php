@@ -1,1 +1,0 @@
-$person = new Person();\n$person->setName('andrew taylor');

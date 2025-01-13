@@ -1,0 +1,1 @@
+import csv\n\n# Open the CSV file\nwith open('yourfile.csv', newline='') as csvfile:\n    reader = csv.reader(csvfile)\n\n    # Read through the file\n    for row in reader:\n        print(row)\n    \n    # Return to the top of the file\n    csvfile.seek(0)\n    \n    # Read through the file again from the top\n    for row in reader:\n        print(row)

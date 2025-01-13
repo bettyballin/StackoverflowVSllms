@@ -1,0 +1,1 @@
+// Producer: Add email tasks to the queue\n   $queue->sendMessage(json_encode(['user_id' => $userId, 'search_criteria' => $criteria]));\n\n   // Consumer: Process email tasks from the queue\n   while ($message = $queue->receiveMessage()) {\n       $data = json_decode($message->body, true);\n       sendEmailNotification($data['user_id'], $data['search_criteria']);\n   }

@@ -1,0 +1,1 @@
+ALTER PROCEDURE [dbo].[ProcessFile]\n(\n    @x XML\n)\nAS\nBEGIN\n    -- 'DO STUFF HERE' with the XML data\nEND

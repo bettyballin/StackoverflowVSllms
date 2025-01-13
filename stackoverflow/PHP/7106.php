@@ -1,1 +1,0 @@
-function fixObject (&$object)\n{\n  if (!is_object ($object) && gettype ($object) == 'object')\n    return ($object = unserialize (serialize ($object)));\n  return $object;\n}

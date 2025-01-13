@@ -1,1 +1,0 @@
-def gs(a,b):\n    class SameEvent(Exception):\n        pass\n    def ry():\n        if a==b:\n            raise SameEvent(a)\n    try:\n        # Do stuff here, and call ry whenever you want to return if they are the same.\n        ry()\n\n        # It will now return 3.\n        a = b = 3\n        ry()\n\n    except SameEvent as e:\n        return e.args[0]

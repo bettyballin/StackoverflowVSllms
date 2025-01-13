@@ -1,0 +1,1 @@
+sudo defaults write /Library/Preferences/com.apple.networkConnect -dict-add ActiveProfile "com.apple.NetworkLinkConditioner.Profiles.3G"\nsudo defaults write /Library/Preferences/com.apple.networkConnect -bool true

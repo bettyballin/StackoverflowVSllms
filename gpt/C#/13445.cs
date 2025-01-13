@@ -1,0 +1,1 @@
+using System;\nusing System.Runtime.InteropServices;\n\nclass Program\n{\n    [DllImport("user32.dll")]\n    private static extern bool SetProcessDPIAware();\n\n    static void Main()\n    {\n        if (Environment.OSVersion.Version.Major >= 6)\n        {\n            SetProcessDPIAware();\n        }\n\n        // Your application code here\n    }\n}

@@ -1,0 +1,1 @@
+SELECT firstName, lastName, address FROM table1 WHERE firstName = :p1;

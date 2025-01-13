@@ -1,1 +1,0 @@
-SELECT foo.name\nFROM foo\nWHERE NOT EXISTS (SELECT 'x'\n                  FROM bar\n                  WHERE bar.fooid = foo.id\n                    AND bar.value > 0)

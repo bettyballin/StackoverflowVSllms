@@ -1,0 +1,1 @@
+flyway -url=jdbc:mysql://database.example.com/dbname -user=user -password=pass migrate

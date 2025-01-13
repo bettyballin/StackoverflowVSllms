@@ -1,1 +1,0 @@
-dom_import_simplexml()

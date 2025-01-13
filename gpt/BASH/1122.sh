@@ -1,0 +1,1 @@
+for file in /path/to/directory/*; do\n  sed -i '2i Your specific text' "$file"\ndone

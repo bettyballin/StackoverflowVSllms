@@ -1,1 +1,0 @@
-if((document.form1.upload.value.lastIndexOf(".jpg")==-1) {\n   alert("Please upload only .jpg extention file");\n   return false;\n}

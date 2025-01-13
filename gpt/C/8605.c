@@ -1,0 +1,1 @@
+typedef struct {\n    volatile int lock;\n} spinlock_t;\n\nvoid spin_lock(spinlock_t *lock) {\n    while (__sync_lock_test_and_set(&lock->lock, 1)) {\n        // Busy-wait (spin)\n    }\n}\n\nvoid spin_unlock(spinlock_t *lock) {\n    __sync_lock_release(&lock->lock);\n}

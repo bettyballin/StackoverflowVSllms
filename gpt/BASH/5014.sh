@@ -1,0 +1,1 @@
+chmod 644 /path/to/file\n   chmod 755 /path/to/directory

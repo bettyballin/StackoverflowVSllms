@@ -1,0 +1,1 @@
+<IIsWebService Location ="/LM/W3SVC">\n        ...\n        AspScriptFileCacheSize="500"  <!-- Number of files to cache -->\n        AspScriptEngineCacheMax="250" <!-- Number of script engines to cache -->\n        AspScriptErrorSentToBrowser="TRUE"\n        AspScriptTimeout="90"\n        ...\n     </IIsWebService>

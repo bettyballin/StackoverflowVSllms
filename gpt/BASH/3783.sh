@@ -1,0 +1,1 @@
+gcc -shared -o libNativeExample.so -fPIC NativeExample.c -I${JAVA_HOME}/include -I${JAVA_HOME}/include/linux

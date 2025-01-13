@@ -1,0 +1,1 @@
+# Example of starting a Docker container\nsudo docker run -d --name secure_app my_secure_image

@@ -1,0 +1,1 @@
+' Inside Utility assembly\n    Namespace UtilityNamespace\n        Public Module UtilityModule\n            Public Sub SampleMethod()\n                ' Method implementation\n            End Sub\n        End Module\n    End Namespace

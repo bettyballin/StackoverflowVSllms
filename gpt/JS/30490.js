@@ -1,0 +1,1 @@
+let content = "<textarea>This is a test</textarea>";\nlet escapedContent = escapeHtml(content);\nconsole.log(escapedContent); // Output: &lt;textarea&gt;This is a test&lt;/textarea&gt;

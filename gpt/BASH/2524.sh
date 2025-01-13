@@ -1,0 +1,1 @@
+setspn -S MSSQLSvc/databaseserver.domain.com:1433 domain\databaseserver$

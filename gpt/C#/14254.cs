@@ -1,0 +1,1 @@
+using NUnit.Framework;\n\n[TestFixture]\npublic class MyClassTests {\n\n    [Test]\n    public void TestMyMethod() {\n        MyClass myClass = new MyClass();\n        int result = myClass.MyMethod(5);\n        Assert.AreEqual(10, result, "Method should return the input value multiplied by 2");\n    }\n}

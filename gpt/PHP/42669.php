@@ -1,0 +1,1 @@
+<?php\n$file = 'example.txt'; // Replace with your file path\n$perms = fileperms($file);\n\nif ($perms !== false) {\n    echo substr(sprintf('%o', $perms), -4);\n} else {\n    echo "Unable to read file permissions.";\n}\n?>

@@ -1,0 +1,1 @@
+# Using PyInstaller to create an executable\npyinstaller --onefile myscript.py

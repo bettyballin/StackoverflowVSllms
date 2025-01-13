@@ -1,0 +1,1 @@
+function _0x1f6f(){console['log']('Hello, World!');}_0x1f6f();

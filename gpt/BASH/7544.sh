@@ -1,0 +1,1 @@
+# Install AIDE\nsudo apt-get install aide\n# Initialize AIDE database\nsudo aideinit\n# Check integrity\nsudo aide --check

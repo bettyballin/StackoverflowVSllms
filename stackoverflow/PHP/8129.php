@@ -1,1 +1,0 @@
-$id = $_SERVER['SERVER_ADDR'] . $_SERVER['DOCUMENT_ROOT'];

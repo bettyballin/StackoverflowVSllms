@@ -1,0 +1,1 @@
+// Example of installing New Relic\n   sudo bash -c "$(curl -sL https://download.newrelic.com/install/newrelic-cli/scripts/install.sh)"\n   newrelic install

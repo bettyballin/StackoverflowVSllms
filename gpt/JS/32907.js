@@ -1,0 +1,1 @@
+function downloadFile(content, filename) {\n  const blob = new Blob([content], { type: 'text/plain' });\n  \n  const a = document.createElement('a');\n  a.href = URL.createObjectURL(blob);\n  a.download = filename;\n  a.click();\n  \n  // Cleanup\n  URL.revokeObjectURL(a.href);\n}\n\n// Usage\ndownloadFile('Hello, World!', 'example.txt');

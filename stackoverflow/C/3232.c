@@ -1,1 +1,0 @@
-node *find_index(node *root, int i) {\n  while (node) {\n    if (i == root->left_count)\n      return root;\n    else if (i < root->left_count)\n      root = root->left;\n    else {\n      i -= root->left_count + 1;\n      root = root->right;\n    }\n  }\n  return NULL; // i > number of nodes\n}

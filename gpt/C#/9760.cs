@@ -1,0 +1,1 @@
+DataTable dataTable = new DataTable();\n  // Fill the DataTable with data from a database

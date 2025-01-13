@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        DataSet myDataSet = GetDataFromDatabase();\n        // Bind dataset to a control or process it accordingly\n    }\n}

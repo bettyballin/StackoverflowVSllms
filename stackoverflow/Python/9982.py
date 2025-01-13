@@ -1,1 +1,0 @@
-class MyGObjectClass(gobject.GObject):\n    __gsignals__ = {\n      "some-signal": (gobject.SIGNAL_RUN_FIRST, gobject.TYPE_NONE, (object, )),\n    }

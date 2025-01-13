@@ -1,0 +1,1 @@
+disable_functions = system, exec, shell_exec, passthru, popen, proc_ope

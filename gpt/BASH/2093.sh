@@ -1,0 +1,1 @@
+makecert.exe -r -pe -n "CN=YourCertName" -b 01/01/2023 -e 01/01/2033 -sky exchange -len 2048 -ss MyCertStore

@@ -1,0 +1,1 @@
+Public Class EyeColor\n    Public Property Id As Integer\n    Public Property Value As String\n    Public Property Description As String\n    Public Property Order As Integer\nEnd Class\n\nPublic Class HairColor\n    Public Property Id As Integer\n    Public Property Value As String\n    Public Property Description As String\n    Public Property Order As Integer\nEnd Class

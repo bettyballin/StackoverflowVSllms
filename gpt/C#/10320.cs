@@ -1,0 +1,1 @@
+HtmlElement myElement = getElementByID(id);\nIHTMLElement3 h3 = (IHTMLElement3) myElement.DomElement;

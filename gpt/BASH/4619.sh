@@ -1,0 +1,1 @@
+gcc -O2 -g -o factorial-tail factorial-tail.c

@@ -1,0 +1,1 @@
+public class MyDbContext : DbContext\n   {\n       public DbSet<Person> People { get; set; }\n   }\n\n   public class Person\n   {\n       public int Id { get; set; }\n       public string FirstName { get; set; }\n       public string LastName { get; set; }\n   }

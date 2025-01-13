@@ -1,0 +1,1 @@
+public class EditNotificationHub : Hub\n   {\n       public async Task NotifyEditStart(string ticketId, string userId)\n       {\n           await Clients.All.SendAsync("ReceiveEditNotification", ticketId, userId);\n       }\n   }

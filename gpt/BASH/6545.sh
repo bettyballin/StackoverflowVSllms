@@ -1,0 +1,1 @@
+split -b 10M largefile.txt chunk_\n    for file in chunk_*; do\n        bzip2 "$file"\n    done

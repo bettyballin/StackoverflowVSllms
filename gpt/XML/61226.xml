@@ -1,0 +1,1 @@
+<system.applicationHost>\n      <applicationPools>\n         <add name="YourAppPool">\n            <recycling logEventOnRecycle="Time, Requests, Schedule, Memory, IsapiUnhealthy, OnDemand, ConfigChange, PrivateMemory" />\n         </add>\n      </applicationPools>\n   </system.applicationHost>

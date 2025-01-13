@@ -1,0 +1,1 @@
+DECLARE @myParam nvarchar; -- @myParam will have a length of 1

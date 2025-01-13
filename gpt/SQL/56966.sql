@@ -1,0 +1,1 @@
+SELECT company.name, addresses.*\nFROM company\nJOIN addresses ON company.address_id = addresses.address_id\nWHERE company.company_id = 1;

@@ -1,0 +1,1 @@
+wget https://raw.githubusercontent.com/jrfonseca/gprof2dot/master/gprof2dot.py\n   python gprof2dot.py -f callgrind cachegrind.out.<timestamp>.<pid> | dot -Tpng -o callgraph.png

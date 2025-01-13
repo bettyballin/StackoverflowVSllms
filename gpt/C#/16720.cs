@@ -1,0 +1,1 @@
+// Assuming A.positionX and A.positionY are the new coordinates you want to set\nint newX = (int)A.positionX;\nint newY = (int)A.positionY;\n\n// Create a new Point object with the new coordinates\nPoint newLocation = new Point(newX, newY);\n\n// Set the new location to the label\nobjectA.Location = newLocation;\n\n// Refresh the label to update its position\nobjectA.Refresh();

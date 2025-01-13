@@ -1,1 +1,0 @@
-def func( *files ):\n    for f in files:\n         doSomethingWithFile( f )\n\nfunc( *['file1','file2','file3'] ) #Is treated like func('file1','file2','file3')\nfunc( 'file1' )

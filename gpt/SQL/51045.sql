@@ -1,0 +1,1 @@
+CREATE SCHEMA Security;\nGO\n\nCREATE FUNCTION Security.fn_securitypredicate(@Recipient sysname)\nRETURNS TABLE\nWITH SCHEMABINDING\nAS\nRETURN SELECT 1 AS fn_securitypredicate_result\nWHERE @Recipient = ORIGINAL_LOGIN();\nGO\n\nCREATE SECURITY POLICY Security.FilterMessages\nADD FILTER PREDICATE Security.fn_securitypredicate(Recipient)\nON users.MESSAGES\nWITH (STATE = ON);\nGO

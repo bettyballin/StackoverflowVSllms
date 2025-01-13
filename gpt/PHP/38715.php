@@ -1,0 +1,1 @@
+define('CONSTANT_NAME', 'value');

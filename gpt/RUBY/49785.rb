@@ -1,0 +1,1 @@
+class SomeController < ApplicationController\n     before_action :authorize_user\n\n     private\n\n     def authorize_user\n       unless @current_user&.is_anonymous == false\n         redirect_to root_path, alert: "You must be logged in to access this section."\n       end\n     end\n   end

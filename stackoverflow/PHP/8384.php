@@ -1,1 +1,0 @@
-$line = fgets($handle, 4096); // Get a line from the input handle\n$line = preg_replace("/s+/", " ", $line); // replace the double spaces with one\n$fields = explode(" ", $line); // split the input on spaces into fields array\nfwrite($fh, $fields[0]); // write a part of the fields array to the output file

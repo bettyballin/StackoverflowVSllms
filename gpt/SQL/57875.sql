@@ -1,0 +1,1 @@
+SELECT orderid, group_concat(itemName) AS items, SUM(price) AS total_price\nFROM order_details\nGROUP BY orderid;

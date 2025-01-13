@@ -1,0 +1,1 @@
+IEnumerator<string> strings(IEnumerable<string> args)\n{\n    IEnumerator<string> enumerator2 = getAnotherEnumerator();\n    foreach (var arg in args)\n    {\n        enumerator2.MoveNext();\n        yield return arg + enumerator2.Current;\n    }\n}

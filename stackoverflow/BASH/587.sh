@@ -1,1 +1,0 @@
-sed -e '/=sec1=/,/=sec2=/ { /=sec1=/b; /=sec2=/b; s/^/#/ }' < input

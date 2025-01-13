@@ -1,0 +1,1 @@
+[Test]\n   public void TestWithHypothesisNet()\n   {\n       Hypothesis.ForAll<int>(x => x + 1 > x).Check();\n   }

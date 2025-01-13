@@ -1,0 +1,1 @@
+var customers = data.Customers.Where(c => SqlMethods.Like(c.EmailDomain, term + "%"));

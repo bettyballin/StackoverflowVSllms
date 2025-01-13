@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Define your start and end timestamps\nstart_time="May  3 13:21:12"\nend_time="May  3 15:00:00"\n\n# Combine and process log files\nzcat -f mail.log* | awk -v start="$start_time" -v end="$end_time" '\n{\n    log_time = $1 " " $2 " " $3\n    if (log_time >= start && log_time <= end) {\n        print $0\n    }\n}\n'

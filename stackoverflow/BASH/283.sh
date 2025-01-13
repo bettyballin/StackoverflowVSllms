@@ -1,1 +1,0 @@
-g++ -o build/bin/myapp -l:_mylib.so other_source_files

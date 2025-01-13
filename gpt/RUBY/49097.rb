@@ -1,0 +1,1 @@
+Gem::Specification.new do |spec|\n     # other gemspec details\n     spec.test_files = Dir.glob('test/**/*_test.rb') + Dir.glob('test/**/*_tc.rb')\n   end

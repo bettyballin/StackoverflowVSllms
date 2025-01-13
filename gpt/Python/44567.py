@@ -1,0 +1,1 @@
+from xml.etree import ElementTree\n\n# Load and parse the XML file\ntree = ElementTree.parse('path_to_your_file.xml')\nroot = tree.getroot()\n\n# Search for child element with text "Two"\nresult = root.find(".//child[.='Two']")\n\n# Check if the element was found and return True/False\nif result is not None:\n    print(True)\nelse:\n    print(False)

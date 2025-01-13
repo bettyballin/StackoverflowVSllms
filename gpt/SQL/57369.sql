@@ -1,0 +1,1 @@
+SELECT \n    A.id AS aid,\n    STRING_AGG(B.id::text, ',' ORDER BY B.id) AS bid\nFROM \n    A\nLEFT JOIN \n    B ON B.aid = A.id\nWHERE \n    A.id = 1\nGROUP BY \n    A.id;

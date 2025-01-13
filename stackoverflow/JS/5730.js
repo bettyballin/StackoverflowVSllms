@@ -1,1 +1,0 @@
-function showContent() \n{\n    setTimeout("delayedShow()", 1);\n}\n\nfunction delayedShow() \n{\n    if (Page_IsValid != null && Page_IsValid == true) \n    {\n       document.getElementById('divUploading').style.display = "block";\n    }\n}

@@ -1,0 +1,1 @@
+<?php\n$data = "Hello, world!";\n\n// Compress the data\n$compressed = gzcompress($data);\necho "Compressed data: " . bin2hex($compressed) . "\n";\n\n// Decompress the data\n$decompressed = gzuncompress($compressed);\necho "Decompressed data: " . $decompressed . "\n";\n?>

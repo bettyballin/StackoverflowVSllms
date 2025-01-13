@@ -1,0 +1,1 @@
+public class MyTrackedClass {\n    public MyTrackedClass() {\n        InstanceTracker.addInstance(this);\n    }\n}

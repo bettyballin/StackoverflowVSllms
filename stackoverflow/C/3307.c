@@ -1,1 +1,0 @@
-bool isEven = ((number & 0x01) == 0)

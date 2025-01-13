@@ -1,0 +1,1 @@
+IDirect3DTexture9* texture = nullptr;\n// Assume texture is initialized and AddRef() has been called appropriately.\n\n// When done with the texture\nif (texture) {\n    texture->Release();\n    texture = nullptr;\n}

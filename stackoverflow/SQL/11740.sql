@@ -1,1 +1,0 @@
-...where [First]  = @ChangedField

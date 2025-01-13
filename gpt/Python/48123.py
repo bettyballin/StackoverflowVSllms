@@ -1,0 +1,1 @@
+import pywinauto\nfrom pywinauto import Desktop\n\ndef get_text_under_mouse():\n    desktop = Desktop(backend="uia")\n    element = desktop.element_info_from_point(pywinauto.mouse.get_position())\n    return element.name\n\nif __name__ == "__main__":\n    print("Text under mouse pointer:", get_text_under_mouse())

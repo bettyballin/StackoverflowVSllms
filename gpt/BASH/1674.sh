@@ -1,0 +1,1 @@
+installutil /username="YourUsername" /password="YourPassword" YourService.exe

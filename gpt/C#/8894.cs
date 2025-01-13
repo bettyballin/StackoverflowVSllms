@@ -1,0 +1,1 @@
+using System;\nusing System.Web.UI;\n\npublic partial class _Default : Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n    }\n\n    protected void DeleteButton_Click(object sender, EventArgs e)\n    {\n        // Your long-running delete logic here\n\n        System.Threading.Thread.Sleep(5000); // Simulate long running operation\n    }\n}

@@ -1,0 +1,1 @@
+# Export the configuration from the source server\nmsdeploy -verb:sync -source:appHostConfig="Default Web Site" -dest:package=C:\backup\site.zip\n\n# Import the configuration to the target server\nmsdeploy -verb:sync -source:package=C:\backup\site.zip -dest:appHostConfig="Default Web Site"

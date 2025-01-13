@@ -1,0 +1,1 @@
+// Original\n    public class MyClass\n    {\n        public void MyMethod(int param) { }\n    }\n\n    // Changed - This will not break the interface.\n    public class MyClass\n    {\n        public void MyMethod(int param) { }\n        public void MyMethod(string param) { }\n    }

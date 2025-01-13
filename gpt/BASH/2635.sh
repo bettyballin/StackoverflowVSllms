@@ -1,0 +1,1 @@
+sudo insmod driverA.ko\nsudo insmod driverB.ko

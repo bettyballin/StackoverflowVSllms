@@ -1,0 +1,1 @@
+protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)\n{\n    // Your logic for dropdown selection change\n}\n\nprotected void Button1_Click(object sender, EventArgs e)\n{\n    // Your logic for button click\n}

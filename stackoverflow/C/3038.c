@@ -1,1 +1,0 @@
-setPixel(x0 + x, y0 + y);\nsetPixel(x0 - x, y0 + y);

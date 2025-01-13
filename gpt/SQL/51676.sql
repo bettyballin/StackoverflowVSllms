@@ -1,0 +1,1 @@
+SELECT your_column\nFROM your_table\nORDER BY \n    TO_NUMBER(REGEXP_SUBSTR(your_column, '\d+')),\n    REGEXP_SUBSTR(your_column, '\D+');

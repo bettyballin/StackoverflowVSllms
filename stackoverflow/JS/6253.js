@@ -1,1 +1,0 @@
-function popup(){\n    ajaxFunction();\n    alert(MyVariable);\n}

@@ -1,1 +1,0 @@
-SELECT DISTINCT sc.StoreID, dbo.GetPhoneNumber10(sc.Phone)

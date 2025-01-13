@@ -1,1 +1,0 @@
-EXEC [dbo].[sp_help_revlogin]

@@ -1,0 +1,1 @@
+dumpbin /summary your_executable.exe

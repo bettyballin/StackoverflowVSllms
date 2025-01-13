@@ -1,1 +1,0 @@
-select id, url, xml\nfrom table1\nwhere id in (\n    select min(id)\n    from table1\n    group by url)

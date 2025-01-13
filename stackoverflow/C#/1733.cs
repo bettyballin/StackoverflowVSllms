@@ -1,1 +1,0 @@
-.KeyColumnNames.Add("CustomerName") 

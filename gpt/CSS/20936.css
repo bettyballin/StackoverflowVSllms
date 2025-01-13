@@ -1,0 +1,1 @@
+@media print {\n  thead {\n    display: table-header-group; /* Ensures the header is repeated on each page */\n  }\n  tfoot {\n    display: table-footer-group; /* Optional: Ensures the footer is repeated on each page */\n  }\n  #table-header {\n    display: none; /* Hide the header initially */\n  }\n}

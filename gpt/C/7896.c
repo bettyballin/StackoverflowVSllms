@@ -1,0 +1,1 @@
+#include <Python.h>\n\nvoid init_python() {\n    Py_Initialize();\n    PyEval_InitThreads();\n    // Other initialization code\n}\n\nint main() {\n    init_python();\n    // Your application code\n    Py_Finalize();\n    return 0;\n}

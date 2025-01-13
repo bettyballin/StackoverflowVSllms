@@ -1,1 +1,0 @@
-CREATE TABLE foo (\n  id int auto_increment,\n  ts TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,\n  primary key(id),\n  key(ts)\n)

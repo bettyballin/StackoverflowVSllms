@@ -1,0 +1,1 @@
+composer require laminas/laminas-mail laminas/laminas-mime

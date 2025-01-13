@@ -1,1 +1,0 @@
-\nselect\n   location\n  ,Sum(case when type = 'X' then 1 else 0 end) as xCount\n  ,Sum(case when type = 'Y' then 1 else 0 end) as YCount\n  ,Sum(case when type = 'X' then duration else 0 end) as xCountDuration\n  ,Sum(case when type = 'Y' then duration else 0 end) as YCountDuration\nfrom my.table\nwhere \nlocation = @location\n  and date(some_tstamp) = @date\ngroup by locatio

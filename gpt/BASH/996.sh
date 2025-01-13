@@ -1,0 +1,1 @@
+echo "    13) Check for orphaned Path entries" | sed "s/ *13) \(.*\)/ \\\\033[32m*\\\\033[0m \1/"

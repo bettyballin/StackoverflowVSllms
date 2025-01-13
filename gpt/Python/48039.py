@@ -1,0 +1,1 @@
+from django.shortcuts import render\n   from django.http import JsonResponse\n   from .models import YourGeoModel  # Replace with your GeoDjango model\n\n   def get_geo_data(request):\n       data = list(YourGeoModel.objects.values('id', 'name', 'location'))  # Customize as needed\n       return JsonResponse(data, safe=False)

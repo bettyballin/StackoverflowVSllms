@@ -1,0 +1,1 @@
+string loginSuccessMessage = Resources.Messages.LOGINSUCCESS;\n     string errorMessage = Resources.Messages.ERROROCCURRED;\n     string noAuthorityMessage = Resources.Messages.NOAUTHORITY;

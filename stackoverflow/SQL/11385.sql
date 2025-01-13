@@ -1,1 +1,0 @@
-CREATE TABLE [dbo].[Foo](\n    [FooId] [int] IDENTITY(1,1) NOT NULL,\n    [BarId] [int] IDENTITY(1,1) NOT NULL\n)

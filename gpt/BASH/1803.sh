@@ -1,0 +1,1 @@
+sudo chown -R www-data:www-data /Users/TAmoyal/Sites\n    sudo chmod -R 755 /Users/TAmoyal/Sites

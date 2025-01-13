@@ -1,1 +1,0 @@
-object productName = productAdapter.GetProductName(product_id);\nif ( productName != null )\n{\n    s_product = productName.ToString();\n}\nelse\n{\n    s_product = String.Empty;\n}

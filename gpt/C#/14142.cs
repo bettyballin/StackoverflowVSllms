@@ -1,0 +1,1 @@
+// To retrieve the parameters from hidden fields\n   string param1 = Request.Form["param1"];\n   string param2 = Request.Form["param2"];

@@ -1,1 +1,0 @@
-WITH    t1 AS\n        (\n        SELECT  a.*, ROW_NUMBER() OVER (ORDER BY id) AS rn\n        FROM    table1 a\n        ),\n        t2 AS\n        (\n        SELECT  a.*, ROW_NUMBER() OVER (ORDER BY id) AS rn\n        FROM    table2 a\n        )\nSELECT  t1.name, t2.name\nFROM    t1\nJOIN    t2\nON      t1.rn = t2.r

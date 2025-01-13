@@ -1,0 +1,1 @@
+sudo ./set-time.sh

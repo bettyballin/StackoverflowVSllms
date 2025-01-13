@@ -1,0 +1,1 @@
+// Convert input data to UTF-8\n$area_utf8 = mb_convert_encoding($item['area'], 'UTF-8', 'ISO-8859-1');\n\n// Add field using UTF-8 encoding\n$doc->addField(Zend_Search_Lucene_Field::keyword('_area', mb_strtolower($area_utf8, 'UTF-8'), 'UTF-8'));

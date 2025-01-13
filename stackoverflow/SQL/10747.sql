@@ -1,1 +1,0 @@
-DECLARE\n    i INTEGER;\nBEGIN\n    SELECT COUNT(*) INTO i FROM user_indexes WHERE index_name = 'MYINDEX';\n    IF i = 0 THEN\n        EXECUTE IMMEDIATE 'CREATE INDEX myIndex ...';\n    END IF;\nEND;\n/

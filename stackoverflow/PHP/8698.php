@@ -1,1 +1,0 @@
-$input = whatever(); # gets something like "item[456]"

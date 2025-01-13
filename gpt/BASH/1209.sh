@@ -1,0 +1,1 @@
+./c4.5 -f your_data_file

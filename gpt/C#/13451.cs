@@ -1,0 +1,1 @@
+// Original Dataset Code\npublic DataSet GetCustomerById(int customerId) {\n    var dataset = new DataSet();\n    // SQL and dataset logic here\n    return dataset;\n}\n\n// Refactored ORM Code\npublic Customer GetCustomerById(int customerId) {\n    using (var context = new MyDbContext()) {\n        return context.Customers.Find(customerId);\n    }\n}

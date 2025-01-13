@@ -1,1 +1,0 @@
-public class StorageObject {\n  public string Name { get; set; }\n  public string Birthday { get; set; }\n  public List<string> OtherInfo { get; set; }  \n}

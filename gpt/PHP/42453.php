@@ -1,0 +1,1 @@
+if ($_SERVER["REQUEST_METHOD"] == "POST") {\n    $username = $_POST['login']['username'];\n    $email = $_POST['login']['email'];\n    $password = $_POST['login']['password'];\n    \n    // Your code to handle the form data\n}

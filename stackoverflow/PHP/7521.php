@@ -1,1 +1,0 @@
-$t->removeDecorator('Errors');\n$t->removeDecorator('HtmlTag');\n$t->removeDecorator('Label');

@@ -1,1 +1,0 @@
-\nvar event = new Object();\nfunction refreshInformation(){\ndocument.forms['MyForm'].onsubmit({preventDefault: function(){} });\n}

@@ -1,0 +1,1 @@
+const express = require('express');\nconst app = express();\napp.use(express.json());\n\napp.post('/sync', (req, res) => {\n    const changes = req.body;\n    // Process changes and update central database\n    // Implement conflict resolution logic here\n    res.send('Sync Successful');\n});\n\napp.listen(3000, () => {\n    console.log('Server is running on port 3000');\n});

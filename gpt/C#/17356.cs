@@ -1,0 +1,1 @@
+private void Form1_Load(object sender, EventArgs e)\n{\n    DllLoader.LoadMyDll();\n}

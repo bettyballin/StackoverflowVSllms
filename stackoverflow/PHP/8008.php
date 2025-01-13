@@ -1,1 +1,0 @@
-# Example Url: http://www.example.com/index.php/article/paris/hilton/\necho $this->uri->segment(3); // Returns 'hilton'

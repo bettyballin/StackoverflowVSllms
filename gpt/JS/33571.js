@@ -1,0 +1,1 @@
+if ($('td').data('is-dirty') === true) {\n    // Do something if the row is marked as dirty\n}

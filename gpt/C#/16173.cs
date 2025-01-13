@@ -1,0 +1,1 @@
+private void ValidateParam(object param)\n{\n    if (param == null)\n    {\n        throw new ArgumentNullException(nameof(param), "Parameter cannot be null");\n    }\n}\n\npublic void FunctionA(object param)\n{\n    ValidateParam(param);\n    DoA(param);\n    DoB(param);\n    DoC(param);\n}

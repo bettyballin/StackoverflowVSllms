@@ -1,1 +1,0 @@
-// process something\nif($success) {\n    flash_message('success','Did whatever successfully.');\n} else {\n    flash_message('error','Oops, something went wrong.');\n}\nheader('Location: whatever.php');

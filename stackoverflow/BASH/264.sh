@@ -1,1 +1,0 @@
-cscript adsutil.vbs set w3svc/1/root/NTAuthenticationProviders "NTLM,Negotiate"

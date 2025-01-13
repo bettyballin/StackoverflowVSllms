@@ -1,0 +1,1 @@
+-- Synchronize procedure 'usp_MyProcedure'\nIF EXISTS (SELECT * FROM sys.objects WHERE type = 'P' AND name = 'usp_MyProcedure')\nBEGIN\n    DROP PROCEDURE usp_MyProcedure;\nEND\nGO\n\nCREATE PROCEDURE usp_MyProcedure\nAS\nBEGIN\n    -- Procedure logic here\n    SELECT 'Hello, World!';\nEND\nGO

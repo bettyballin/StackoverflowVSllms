@@ -1,0 +1,1 @@
+public enum FeatureFlag {\n    FEATURE_A,\n    FEATURE_B,\n    FEATURE_C,\n    // Add more features as needed\n}

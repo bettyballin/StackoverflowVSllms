@@ -1,0 +1,1 @@
+-- On Server A\nDBCC CHECKIDENT (your_table_name, RESEED, 1)  -- Start at 1\n-- Insert data on Server A\n\n-- On Server B\nDBCC CHECKIDENT (your_table_name, RESEED, 1001)  -- Start at 1001\n-- Insert data on Server B

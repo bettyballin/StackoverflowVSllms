@@ -1,1 +1,0 @@
-$folders = explode('/', $_SERVER['SCRIPT_FILENAME']);\nfor ($i = 2; $i < count($folders); $i++) $dir .= '../';\n$dir = substr($dir,0,-1);\n$dir = $dir.$_FILES['upfile']['tmp_name'];

@@ -1,0 +1,1 @@
+COPY your_table FROM '/path/to/cleaned_data.csv' WITH (FORMAT csv, HEADER, NULL '', DELIMITER ',')\nLOG ERRORS INTO error_log;

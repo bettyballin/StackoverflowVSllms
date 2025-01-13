@@ -1,1 +1,0 @@
-Dim results As String = sOut.ReadToEnd()\nsIn.WriteLine("exit")\nsIn.Close()\nsOut.Close()

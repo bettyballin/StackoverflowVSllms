@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<Message version="1.0">\n    <ClientID>11111</ClientID>\n    <PassPhrase>shjfkh</PassPhrase>\n    <Request Type="sms" Refno="10" ToAddress="27732687745332">\n        <Content>\n            hello world\n        </Content>\n    </Request>\n</Message>

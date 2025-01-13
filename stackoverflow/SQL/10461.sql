@@ -1,1 +1,0 @@
-SELECT DATE_FORMAT(m.`when`, '%e/%c/%Y')date\n     , COUNT(`ip`) AddressCount\n     , o.`userID`\n  FROM `metrics` m\n  LEFT JOIN `other_table` o\n    ON m.`userID` = o.`userID` -- you'll likely need to change this bit\n WHERE `projID` = '$projID'\n   AND o.`userID` = [Value] -- optional\n GROUP BY DATE(`when`)

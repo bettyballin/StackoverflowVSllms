@@ -1,0 +1,1 @@
+<trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">\n  <security>\n    <requestedPrivileges>\n      <requestedExecutionLevel level="asInvoker" uiAccess="false" />\n    </requestedPrivileges>\n  </security>\n</trustInfo>

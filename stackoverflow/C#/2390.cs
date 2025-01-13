@@ -1,1 +1,0 @@
-public static DataTable GetHistory(DateTime from, DateTime to, List<string> types)\n{\n ..\n}

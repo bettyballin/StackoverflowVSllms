@@ -1,0 +1,1 @@
+CREATE TABLE employees (\n    id INT,\n    name VARCHAR(100),\n    position VARCHAR(100),\n    salary DECIMAL(10, 2)\n);\n\nLOAD DATA INFILE '/var/lib/mysql-files/employees.csv'\nINTO TABLE employees\nFIELDS TERMINATED BY ','\nENCLOSED BY '"'\nLINES TERMINATED BY '\n'\nIGNORE 1 LINES;

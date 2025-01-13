@@ -1,1 +1,0 @@
-LOAD DATA LOCAL INFILE '/importfile.csv'\nINTO TABLE test_table\nFIELDS TERMINATED BY ','\nLINES TERMINATED BY '\n'\n(field1, filed2, field3); 

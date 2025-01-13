@@ -1,1 +1,0 @@
-UPDATE target_table \nSET special_id = st.source_special_id\nFROM \n    target_table tt\n    INNER JOIN\n    source_table st\n        WHERE tt.another_id = st.another_id 

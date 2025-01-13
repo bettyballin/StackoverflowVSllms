@@ -1,0 +1,1 @@
+DECLARE @ORDERBY INT\nSET @ORDERBY = 1\n\nDECLARE @SQL NVARCHAR(MAX)\n\nSET @SQL = N'SELECT TOP 10 * FROM TBL_LMS_USERS_RECORDs_LAST_ATTEMPT ORDER BY ' + \n           CASE \n               WHEN @OrderBy = 1 THEN 's10_record_dow'\n               WHEN @OrderBy = 2 THEN 'pk_big_record_id'\n               ELSE 's10_record_dow'\n           END\n\nEXEC sp_executesql @SQL

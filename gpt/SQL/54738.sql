@@ -1,0 +1,1 @@
+USE master;\n    EXEC sp_replicationdboption @dbname = 'YourDatabase', @optname = 'publish', @value = 'true';\n    EXEC sp_addpublication @publication = 'YourPublication', @status = 'active';\n    EXEC sp_addarticle @publication = 'YourPublication', @article = 'YourTable', @source_object = 'YourTable';

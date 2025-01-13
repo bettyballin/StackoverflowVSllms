@@ -1,1 +1,0 @@
-SELECT \n    MONTH(`date`), \n    YEAR(`date`),\n    SUM(case when `answer` = 1 then 1 else 0 end) as yes,\n    SUM(case when `answer` = 2 then 1 else 0 end) as nope,\n    COUNT(*) as total\nFROM results\nGROUP BY YEAR(`date`), MONTH(`date`)

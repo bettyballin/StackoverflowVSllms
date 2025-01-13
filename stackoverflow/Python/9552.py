@@ -1,1 +1,0 @@
-hands = {} # Create a new dictionary to hold the hands.\nhands["flush"] = make_hand(deck) # Generate some hands using your function.\nhands["straight"] = make_hand(deck) # Generate another hand with a different name.\nprint hands["flush"] # Access the hand later.

@@ -1,0 +1,1 @@
+if (instance is IMyInterface) {\n    // The instance implements IMyInterface\n}

@@ -1,1 +1,0 @@
-int **multi;\nmulti = calloc(10, sizeof(int*));\nmulti[5] = calloc(20, sizeof(int));\n//\nmulti[5][11] = 66;\n//\nfor( int i = 0; i < 10; i++ ) {\n  if( multi[i] ) {\n    free(multi[i]);\n    multi[i] = NULL;\n  }\n}\n//\nfree(multi);

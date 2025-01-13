@@ -1,0 +1,1 @@
+cd /path/to/source/\n    tar cf - . | (cd /path/to/destination/ && tar xf -)

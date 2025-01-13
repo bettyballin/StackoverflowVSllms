@@ -1,0 +1,1 @@
+CREATE TABLE transactions (\n       id INT AUTO_INCREMENT PRIMARY KEY,\n       amount DECIMAL(10, 2) NOT NULL,\n       description VARCHAR(255)\n   );

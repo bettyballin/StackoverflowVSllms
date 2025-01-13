@@ -1,0 +1,1 @@
+ul {\n    list-style-type: none !important; /* Forces no bullets */\n    padding-left: 0 !important;       /* Forces removal of default padding */\n    margin: 0 !important;             /* Forces removal of default margin */\n}\n\nli {\n    list-style-type: none !important; /* Forces no bullets */\n}

@@ -1,0 +1,1 @@
+gcc ctr1.o -o my_executable

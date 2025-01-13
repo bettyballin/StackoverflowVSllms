@@ -1,0 +1,1 @@
+<sessionState mode="SQLServer"\n              sqlConnectionString="Data Source=MySqlServer;Initial Catalog=SessionStateDB;Integrated Security=True;"\n              cookieless="false"\n              timeout="20" />

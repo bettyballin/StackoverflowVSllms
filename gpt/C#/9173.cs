@@ -1,0 +1,1 @@
+using (var uow = new UnitOfWork())\n{\n    var employees = uow.Query<Employee>()\n                       .Select(e => new { e.Id, e.FirstName, e.LastName })\n                       .ToList();\n}

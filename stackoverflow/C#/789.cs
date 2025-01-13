@@ -1,1 +1,0 @@
-public static void WriteAllText(string path, string contents, Encoding encoding)\n{\n    using (StreamWriter writer = new StreamWriter(path, false, encoding))\n    {\n        writer.Write(contents);\n    }\n}

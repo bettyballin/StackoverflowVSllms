@@ -1,0 +1,1 @@
+$thread_id = 1; // Example thread ID\n$conn = new mysqli($servername, $username, $password, $dbname);\n\n// Update the post count\n$sql = "UPDATE threads SET post_count = post_count + 1 WHERE id = ?";\n$stmt = $conn->prepare($sql);\n$stmt->bind_param('i', $thread_id);\n$stmt->execute();\n$stmt->close();\n$conn->close();

@@ -1,0 +1,1 @@
+sed -n '/^ Wed Nov 12.*cat/{:a;N;/\n Wed Nov 12/!ba;p}' logfile

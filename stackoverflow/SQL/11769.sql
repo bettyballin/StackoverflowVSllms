@@ -1,1 +1,0 @@
-update tablename set datetimefield='19980223 14:23:05'\nupdate tablename set datetimefield='02/23/1998 14:23:05'\nupdate tablename set datetimefield='1998-12-23 14:23:05'\nupdate tablename set datetimefield='23 February 1998 14:23:05'\nupdate tablename set datetimefield='1998-02-23T14:23:05'

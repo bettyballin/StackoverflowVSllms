@@ -1,1 +1,0 @@
-ALTER TABLE footable DROP FOREIGN KEY fooconstraint;

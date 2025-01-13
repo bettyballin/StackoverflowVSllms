@@ -1,0 +1,1 @@
+// WrapperFunctions.cpp\n#include "old.h" // Include the header for old.dll\n\nextern "C" __declspec(dllexport) void NewFunction()\n{\n    OldFunction(); // Call a function from old.dll\n}

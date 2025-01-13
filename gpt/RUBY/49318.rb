@@ -1,0 +1,1 @@
+@photos = Photo.page(params[:page]).per(10)

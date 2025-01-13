@@ -1,1 +1,0 @@
-string str = System.Text.Encoding.Unicode.GetString(array);

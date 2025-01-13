@@ -1,1 +1,0 @@
-<asp:ImageButton runat="server" id="ibtn1" ... RowIndex='<%# Container.DisplayIndex %>' \nOnClick="button_click"/>\n\n...\n\nprotected void button_click(object sender, EventArgs e){\n    ImageButton ibtn1 = sender as ImageButton;\n    int rowIndex = Convert.ToInt32(ibtn1.Attributes["RowIndex"]);\n\n    //Use this rowIndex in your code\n}

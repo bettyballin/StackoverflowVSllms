@@ -1,0 +1,1 @@
+# Install Citus\n   sudo apt-get install postgresql-12-citus-9.5\n\n   # Configure Citus for sharding your tables\n   # Follow the Citus documentation to set up distributed tables

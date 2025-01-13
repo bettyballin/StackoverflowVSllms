@@ -1,0 +1,1 @@
+gcc -gsplit-dwarf -o output.o source.c

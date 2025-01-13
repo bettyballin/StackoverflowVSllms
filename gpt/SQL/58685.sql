@@ -1,0 +1,1 @@
+BEGIN\n        log_control.enable_logging; -- Enable logging\n\n        log_message_wrapper('INFO', 'Starting procedure X');\n        -- Your procedure code here\n        log_message_wrapper('INFO', 'Ending procedure X');\n\n        log_control.disable_logging; -- Disable logging\n    END;

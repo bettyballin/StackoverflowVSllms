@@ -1,1 +1,0 @@
-ssh -L localport:svnserver:svnport username@proxyserver

@@ -1,1 +1,0 @@
-function loadBG(){\n    document.getElementById("big-menu").style.backgroundImage="url(../images/big-menu.jpg)";\n}\nwindow.onload=loadBG();

@@ -1,0 +1,1 @@
+USE [master]\n   GO\n   CREATE LOGIN [IIS APPPOOL\DefaultAppPool] FROM WINDOWS;\n   GO

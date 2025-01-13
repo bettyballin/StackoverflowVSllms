@@ -1,0 +1,1 @@
+#include <fstream>\n#include <string>\n#include <iostream>\n\nint main() {\n    std::ifstream file("path/to/file.txt");\n    std::string line;\n    while (std::getline(file, line)) {\n        std::cout << line << std::endl;\n    }\n    return 0;\n}

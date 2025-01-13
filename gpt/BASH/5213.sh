@@ -1,0 +1,1 @@
+sudo apt-get update\n     sudo apt-get install memcached -y\n     sudo systemctl start memcached

@@ -1,1 +1,0 @@
-// Enable navigation prompt\nwindow.onbeforeunload = function() {\n    return true;\n};\n// Remove navigation prompt\nwindow.onbeforeunload = null;

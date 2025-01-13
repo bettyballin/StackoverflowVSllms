@@ -1,0 +1,1 @@
+pg_basebackup -h primary_server_ip -D /var/lib/postgresql/12/main -U replicator -P -v -R

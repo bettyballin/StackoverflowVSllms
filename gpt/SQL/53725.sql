@@ -1,0 +1,1 @@
+CREATE PROCEDURE InsertXMLData\n    @xmlData XML\nAS\nBEGIN\n    INSERT INTO MyTable (Id, Name, Age)\n    SELECT\n        Tbl.col.value('(Id)[1]', 'INT'),\n        Tbl.col.value('(Name)[1]', 'NVARCHAR(50)'),\n        Tbl.col.value('(Age)[1]', 'INT')\n    FROM @xmlData.nodes('/Rows/Row') AS Tbl(col);\nEND

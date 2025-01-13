@@ -1,0 +1,1 @@
+<?php\n    $config = HTMLPurifier_Config::createDefault();\n    $config->set('HTML.Allowed', 'p,b,a[href],i');  // Example of allowed tags and attributes\n    $purifier = new HTMLPurifier($config);\n\n    $dirty_html = $_POST['wysiwyg_input'];\n    $clean_html = $purifier->purify($dirty_html);\n\n    echo $clean_html;\n    ?>

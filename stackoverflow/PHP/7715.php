@@ -1,1 +1,0 @@
-//open your db connection\n$conn1 = mysql_connect();\nmysql_query($sql, $conn1);\nmysql_close($conn1);\n\n//open legacy code's db connection\n$conn = mysql_connect();\n//run legacy code

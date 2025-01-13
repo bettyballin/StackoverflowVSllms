@@ -1,0 +1,1 @@
+<?php foreach ($posts as $index => $post): ?>\n    <div class="<?= $index % 2 == 0 ? 'even' : 'odd' ?>">\n        <?= htmlspecialchars($post, ENT_QUOTES, 'UTF-8') ?>\n    </div>\n<?php endforeach; ?>\n\n<style>\n    .even {\n        background-color: white;\n    }\n    .odd {\n        background-color: red;\n    }\n</style>

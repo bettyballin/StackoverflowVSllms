@@ -1,1 +1,0 @@
-MyObject subjectUnderTest = new MyObject();\nEventMonitor monitor = new Monitor();\nsubjectUnderTest.Event += monitor.EventCatcher;\n\n// testcode;\n\nAssert.Equal( 1, monitor.EventsFired );

@@ -1,1 +1,0 @@
-DECLARE @OutputChar CHAR(255)

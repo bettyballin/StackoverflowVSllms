@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() {\n    var cleave = new Cleave('#date', {\n        date: true,\n        delimiter: '/',\n        datePattern: ['m', 'd', 'Y']\n    });\n});

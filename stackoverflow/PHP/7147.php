@@ -1,1 +1,0 @@
-<?php include ('file_with_function.php'); ?>

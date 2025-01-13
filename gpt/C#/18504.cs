@@ -1,0 +1,1 @@
+[DataContract]\npublic class Tweet\n{\n    [DataMember]\n    public string Text { get; set; }\n\n    [DataMember]\n    public string User { get; set; }\n\n    // Add other properties as needed\n}

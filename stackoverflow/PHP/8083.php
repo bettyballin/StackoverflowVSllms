@@ -1,1 +1,0 @@
-$string = 'tag1 tag-2 tag#3';\n$tags = explode(' ', $string); //Tags will be an array

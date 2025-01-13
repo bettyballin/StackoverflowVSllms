@@ -1,0 +1,1 @@
+/* Reset default margin and padding for all elements */\n* {\n    margin: 0;\n    padding: 0;\n}\n\n/* Optional: specifically adjust margin for <p> and <h2> */\np {\n    margin: 0;\n    padding: 0;\n}\n\nh2 {\n    margin: 0;\n    padding: 0;\n}

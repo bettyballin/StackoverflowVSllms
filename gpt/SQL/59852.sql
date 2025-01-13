@@ -1,0 +1,1 @@
+SELECT prefix\nFROM prefixes\nWHERE 12345999 LIKE prefix || '%'\nORDER BY LENGTH(prefix) DESC\nLIMIT 1;

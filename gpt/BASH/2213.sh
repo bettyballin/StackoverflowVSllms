@@ -1,0 +1,1 @@
+rsync -av --delete C:\repositories\ W:\repository_incremental_backup

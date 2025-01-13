@@ -1,1 +1,0 @@
-script/generate scaffold post title:string body:text published:boolea

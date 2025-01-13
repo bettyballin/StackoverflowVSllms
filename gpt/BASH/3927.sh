@@ -1,0 +1,1 @@
+@echo off\nset iexplorePath=%ProgramFiles%\Internet Explorer\iexplore.exe\nrunas /user:Administrator "%iexplorePath% path\to\your\local\page.html"

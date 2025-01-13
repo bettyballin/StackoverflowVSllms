@@ -1,0 +1,1 @@
+SELECT event, total_waits, time_waited\n    FROM V$SYSTEM_EVENT\n    WHERE event NOT LIKE 'SQL*Net%'\n    ORDER BY time_waited DESC;

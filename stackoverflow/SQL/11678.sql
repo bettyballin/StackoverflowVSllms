@@ -1,1 +1,0 @@
-CREATE TABLE tbl_1 (\n    pk_1 int,\n    field_1 varchar(25),\n    field_2 varchar(25)\n);\n\nCREATE TABLE tbl_2 (\n    pk_2 int,\n    fk_1 int,\n    field_3 varchar(25),\n    field_4 varchar(25)\n);

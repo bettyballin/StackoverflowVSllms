@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <sessionState cookieless="true"\n      regenerateExpiredSessionId="true" />\n  </system.web>\n</configuration>

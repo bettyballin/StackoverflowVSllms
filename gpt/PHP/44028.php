@@ -1,0 +1,1 @@
+function Button1Click($sender, $params)\n{\n    global $ListBox1;\n    $ListBox1->Items->Add("New Item");\n}

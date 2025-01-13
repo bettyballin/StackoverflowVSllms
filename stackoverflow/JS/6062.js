@@ -1,1 +1,0 @@
-/* Auto Generated 01/01/2009 01:01:01 */\nvar Servers = new Array();\n    Servers[0] = "42.81.240.101";\n    Servers[1] = "42.81.240.120";\n    Servers[2] = "42.81.240.199";\n\nfunction LoadBalancer_GetIP()\n{\n    return Servers[Math.floor(Math.random() * Servers.length)];\n}

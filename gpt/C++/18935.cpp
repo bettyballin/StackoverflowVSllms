@@ -1,0 +1,1 @@
+void* operator new(size_t size) {\n        return my_malloc(size);\n    }\n\n    void operator delete(void* ptr) noexcept {\n        my_free(ptr);\n    }

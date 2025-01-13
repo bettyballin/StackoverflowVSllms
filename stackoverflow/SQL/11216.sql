@@ -1,1 +1,0 @@
-select value from nls_database_parameters \nwhere parameter='NLS_CHARACTERSET'

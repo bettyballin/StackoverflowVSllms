@@ -1,0 +1,1 @@
+aws s3api put-object-acl --bucket your-bucket-name --key path/to/your/file --acl public-read

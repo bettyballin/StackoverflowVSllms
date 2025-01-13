@@ -1,0 +1,1 @@
+SELECT * \nFROM people \nWHERE age = (SELECT MAX(age) FROM people)\nORDER BY age DESC\nLIMIT n;

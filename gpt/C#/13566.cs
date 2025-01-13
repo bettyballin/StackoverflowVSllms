@@ -1,0 +1,1 @@
+<!-- Views/YourController/YourView.cshtml -->\n@await Component.InvokeAsync("News")

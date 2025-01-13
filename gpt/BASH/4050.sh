@@ -1,0 +1,1 @@
+sudo adduser --disabled-password --gecos "" git

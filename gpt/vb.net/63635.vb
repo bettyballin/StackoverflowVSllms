@@ -1,0 +1,1 @@
+' Get POST data\nDim type As String = Request.Form("type")

@@ -1,0 +1,1 @@
+SELECT ZipCode\n   FROM Location\n   WHERE City = 'New York' AND State = 'NY';

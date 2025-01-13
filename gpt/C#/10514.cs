@@ -1,0 +1,1 @@
+[Test]\n   public void TestMethod()\n   {\n       using (var scope = new TransactionScope())\n       {\n           // Perform database operations\n           \n           // Rollback transaction at the end of the test\n           scope.Dispose();\n       }\n   }

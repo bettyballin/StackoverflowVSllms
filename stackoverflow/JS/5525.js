@@ -1,1 +1,0 @@
-function updateData (url, target)\n{\n  var target = $(target);\n  target.empty().addClass('ajax-loading');\n  target.innerHTML = "Loading...";\n  new Request({\n    url: url, \n    method: 'get',\n    onComplete: function(responseText) {\n      target.removeClass('ajax-loading');\n      target.innerHTML = responseText;\n    }\n  }).send();\n}

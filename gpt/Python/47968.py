@@ -1,0 +1,1 @@
+def rot47(text):\n        result = ''\n        for char in text:\n            if 33 <= ord(char) <= 126:\n                result += chr(33 + ((ord(char) - 33 + 47) % 94))\n            else:\n                result += char\n        return result

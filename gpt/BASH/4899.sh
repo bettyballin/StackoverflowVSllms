@@ -1,0 +1,1 @@
+pg_restore -U [username] -h [host] -p [port] -d new_database_name /path/to/backup/file.dump

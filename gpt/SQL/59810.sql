@@ -1,0 +1,1 @@
+-- To check the current setting of JOB_QUEUE_PROCESSES\nSHOW PARAMETER JOB_QUEUE_PROCESSES;\n\n-- To alter the JOB_QUEUE_PROCESSES parameter to 0\nALTER SYSTEM SET JOB_QUEUE_PROCESSES = 0;\n\n-- To revert the setting back to enable job queue processes, for example, setting it to 10\nALTER SYSTEM SET JOB_QUEUE_PROCESSES = 10;

@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    animateRight ();\n    animateLeft ();\n});\n\nfunction animateRight ()\n{\n    $('#lightright').css ("left", "100%");\n    $('#lightright').animate({left:'0%'},1500, "", animateRight);\n}\n\nfunction animateLeft ()\n{\n    $('#lightleft').css ("right", "100%");\n    $('#lightleft').animate({right:'0%'},1600, animateLeft);\n}

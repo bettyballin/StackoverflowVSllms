@@ -1,0 +1,1 @@
+import requests\n\nurl = 'http://example.com'\nresponse = requests.get(url)\n\ncontent_type = response.headers.get('Content-Type')\nprint(f'Content-Type: {content_type}')

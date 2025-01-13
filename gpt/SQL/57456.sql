@@ -1,0 +1,1 @@
+SELECT \n    s.id,\n    splitResult.pn,\n    splitResult.s\nFROM \n    Stuff s\nCROSS APPLY \n    dbo.Split(',', s.myColumn) AS splitResult\nWHERE \n    ISNULL(splitResult.s, '') <> ''

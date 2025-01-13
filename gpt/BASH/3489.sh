@@ -1,0 +1,1 @@
+gs -sDEVICE=pngalpha -o output.png -sDEVICE=pdfwrite input.pdf

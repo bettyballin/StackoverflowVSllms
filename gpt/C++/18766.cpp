@@ -1,0 +1,1 @@
+// example.cpp\n#include "example.h"\n\nvoid MyClass::myFunction() {\n    // implementation of myFunction\n}

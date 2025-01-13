@@ -1,0 +1,1 @@
+# config/routes.rb\nget 'your_controller/update_lques', to: 'your_controller#update_lques'

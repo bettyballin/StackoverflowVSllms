@@ -1,0 +1,1 @@
+SELECT position\nFROM (\n    SELECT id, ROW_NUMBER() OVER (ORDER BY created_at) AS position\n    FROM photos\n) AS ordered_photos\nWHERE id = your_photo_id;

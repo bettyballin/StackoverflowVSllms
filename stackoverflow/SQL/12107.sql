@@ -1,1 +1,0 @@
-... "SELECT ItemID, Name, RelDate, Price, Status FROM item_k WHERE itemID IN (" + itemIDs + ")"

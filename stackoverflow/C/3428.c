@@ -1,1 +1,0 @@
-class MyClass\n{\n    void foo(int);\n    int bar(int);\n    double bar(double);\n    void baz(MyClass);\n};

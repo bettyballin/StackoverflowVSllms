@@ -1,1 +1,0 @@
-$fh = fopen("test.php","r");\nwhile ($line = fgets($fh)){\necho $line;\n}

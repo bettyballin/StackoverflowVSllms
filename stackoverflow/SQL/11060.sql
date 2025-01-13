@@ -1,1 +1,0 @@
-SELECT * FROM [Customer]\nWHERE [LastName] = 'Torres'\nAND ( @MiddleName IS NULL OR [MiddleName] = @MiddleName )

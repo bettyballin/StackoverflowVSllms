@@ -1,0 +1,1 @@
+#define _XOPEN_SOURCE 500\n#include <stdlib.h>\n#include <stdio.h>\n\nint main() {\n    srandom(42);\n    long int rand_num = random();\n    printf("Random number: %ld\n", rand_num);\n    return 0;\n}

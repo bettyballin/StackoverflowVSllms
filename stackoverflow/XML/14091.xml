@@ -1,1 +1,0 @@
-<httpModules>\n    <add name="FixIIS5xWildcardMapping" type="Elmah.FixIIS5xWildcardMappingModule, Elmah"/>\n</httpModules>

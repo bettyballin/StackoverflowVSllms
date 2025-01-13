@@ -1,0 +1,1 @@
+def nil_or_zero?(val)\n  val.nil? || val == 0\nend\n\nif nil_or_zero?(val)\n  # Is nil or zero\nend

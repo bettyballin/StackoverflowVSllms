@@ -1,0 +1,1 @@
+public class MyController : Controller\n{\n    public ActionResult GetList()\n    {\n        var model = new YourModel(); // Initialize your model\n        return PartialView("_CategoryList", model);\n    }\n}

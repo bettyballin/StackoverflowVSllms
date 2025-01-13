@@ -1,0 +1,1 @@
+import xxhash\n\ndef hash_addresses(address_list):\n    h = xxhash.xxh64()\n    for address in address_list:\n        h.update(address.to_bytes(8, byteorder='little'))\n    return h.intdigest()\n\n# Example usage\naddresses = [0x12345678abcdef00, 0xabcdef1234567890, 0xdeadbeefdeadbeef]\nhash_value = hash_addresses(addresses)\nprint(f"Hash: {hash_value:x}")

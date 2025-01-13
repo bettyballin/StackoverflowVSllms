@@ -1,0 +1,1 @@
+./configure --enable-monolithic --with-mac

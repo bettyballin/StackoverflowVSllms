@@ -1,1 +1,0 @@
-INSERT INTO emp (empno, ename) VALUES (emp_seq.NEXTVAL, 'ANDREWS')\nRETURNING empno INTO :variable;

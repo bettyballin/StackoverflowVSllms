@@ -1,0 +1,1 @@
+<%= swf_tag private_asset_path('your_file.swf') %>

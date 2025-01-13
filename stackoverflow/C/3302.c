@@ -1,1 +1,0 @@
--D<Multiple -Dvalues> \n<command-line>: error: macro names must be identifiers\n<command-line>: error: ISO C99 requires whitespace after the macro name

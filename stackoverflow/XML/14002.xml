@@ -1,1 +1,0 @@
-<endpoint address ="basicHttpEP" binding="basicHttpBinding" contract="WCFTest.ICalculatorService" bindingConfiguration="basicHttpBindingConfig"/>

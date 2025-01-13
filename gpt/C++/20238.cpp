@@ -1,0 +1,1 @@
+CMyWnd myWnd;\nCAnotherWnd anotherWnd;\n\nmyWnd.SetForwardToWnd(&anotherWnd);

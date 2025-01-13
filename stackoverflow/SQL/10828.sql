@@ -1,1 +1,0 @@
-SELECT \n'ALTER TABLE ' + object_name(parent_obj) + ' DROP CONSTRAINT ' + object_name(id),* FROM sysobjects WHERE xtype IN ('F', 'PK')

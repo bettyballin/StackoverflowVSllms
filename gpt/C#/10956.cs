@@ -1,0 +1,1 @@
+// Example of WPF in C#\n   using System.Windows;\n\n   namespace HelloWorldApp {\n       public partial class MainWindow : Window {\n           public MainWindow() {\n               InitializeComponent();\n           }\n       }\n   }

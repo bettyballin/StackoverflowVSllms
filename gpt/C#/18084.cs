@@ -1,0 +1,1 @@
+public class Entry\n{\n    public List<string> NM { get; set; }\n    public string IE { get; set; }\n    public List<SubEntry> SubEntries { get; set; }\n}\n\npublic class SubEntry\n{\n    public List<string> NM { get; set; }\n    public string IE { get; set; }\n}

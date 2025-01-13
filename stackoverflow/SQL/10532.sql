@@ -1,1 +1,0 @@
-@SearchText nvarchar(100)

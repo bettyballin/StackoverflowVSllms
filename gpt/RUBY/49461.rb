@@ -1,0 +1,1 @@
+# Raw SQL example\nresult = ActiveRecord::Base.connection.execute("\n  SELECT customer_id, SUM(amount) as total_revenue\n  FROM orders\n  GROUP BY customer_id\n")\n\n# Parsing the result\nresult.each do |row|\n  puts "Customer ID: #{row['customer_id']}, Total Revenue: #{row['total_revenue']}"\nend

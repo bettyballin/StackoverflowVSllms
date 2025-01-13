@@ -1,0 +1,1 @@
+class AppController extends Zend_Controller_Action {\n    public function memberFunction() {\n        // A reusable function\n    }\n}

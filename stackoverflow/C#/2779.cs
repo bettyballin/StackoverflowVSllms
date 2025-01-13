@@ -1,1 +1,0 @@
-private void context_BeginRequest(object sender, EventArgs e)\n{\n    HttpApplication application = (HttpApplication)sender;\n    HttpContext context = application.Context;\n\n    string ext = System.IO.Path.GetExtension(context.Request.Path);\n    // ext will always start with dot\n\n}

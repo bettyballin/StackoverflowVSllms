@@ -1,0 +1,1 @@
+INSERT INTO holiday (holidaydate)\nSELECT TRUNC(sysdate) FROM dual;\n\nSELECT TRUNC(sysdate) AS day,\n  (\n  CASE\n    WHEN TRUNC(sysdate) IN (SELECT TRUNC(h.holidaydate) FROM holiday h)\n    THEN 'holiday'\n    ELSE TO_CHAR(sysdate, 'day')\n  END) AS dayofweek\nFROM dual;

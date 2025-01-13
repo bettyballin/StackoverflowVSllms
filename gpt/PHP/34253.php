@@ -1,0 +1,1 @@
+/**\n      * Capitalizes the first letter of a string.\n      *\n      * @param string $string The string to capitalize.\n      * @return string The capitalized string.\n      */\n     public static function capitalize($string) {\n         return ucfirst($string);\n     }

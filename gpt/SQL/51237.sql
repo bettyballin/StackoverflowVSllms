@@ -1,0 +1,1 @@
+INSERT INTO timecrunch.dbo.intervals (IntervalID, Duration)\nSELECT ixInterval, DATEDIFF(minute, dtStart, dtEnd) / 60.0\nFROM fogbugz.dbo.TimeInterval\nWHERE dtEnd IS NOT NULL;

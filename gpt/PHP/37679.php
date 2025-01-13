@@ -1,0 +1,1 @@
+function add(int $x, int $y): int {\n      return $x + $y;\n  }\n\n  echo add(1, 2);  // Output: 3

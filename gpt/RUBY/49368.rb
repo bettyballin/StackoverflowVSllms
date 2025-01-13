@@ -1,0 +1,1 @@
+require 'openssl'\n\n# Read the encrypted RSA private key from a file\nprivate_key_data = File.read('private_key')\n\n# Pass the passphrase as a parameter to the OpenSSL::PKey::RSA.new method\npassphrase = 'your_passphrase'\nprivate_key = OpenSSL::PKey::RSA.new(private_key_data, passphrase)

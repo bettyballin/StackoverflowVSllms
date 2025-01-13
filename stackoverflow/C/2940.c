@@ -1,1 +1,0 @@
-BLOBHEADER blobheader;\nALG_ID algid;\nBYTE encryptedkey[rsapubkey.bitlen/8];

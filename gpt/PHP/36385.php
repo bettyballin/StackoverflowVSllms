@@ -1,0 +1,1 @@
+<?php\n$brand = trim($brand);\n?>\n\n<p><a href='#' onclick="makewindows('<?php echo $html; ?>'); return false;">Click for full description </a></p><?php echo $brand; ?>\n<p><a href="#" onclick="deleteRec('<?php echo $ARTICLE_NO; ?>', '<?php echo $brand; ?>', '<?php echo $pg; ?>', '<?php echo $nextArticleNo; ?>')">DELETE</a></p>

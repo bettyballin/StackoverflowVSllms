@@ -1,1 +1,0 @@
-REPLACE INTO my_table (pk_id, col1) VALUES (5, '123');

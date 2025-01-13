@@ -1,0 +1,1 @@
+SELECT it.item_id\nFROM item_tags it\nJOIN tags t ON it.tag_id = t.tag_id\nWHERE t.tag_name IN ('n1', 'n2', ..., 'nk')\nGROUP BY it.item_id

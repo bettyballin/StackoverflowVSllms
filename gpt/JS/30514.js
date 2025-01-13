@@ -1,0 +1,1 @@
+app.get('/resource', (req, res) => {\n      const resource = { /* your resource object */ };\n      res.format({\n          'application/json': () => res.json(resource),\n          'application/xml': () => res.send(js2xmlparser.parse("resource", resource)),\n          'default': () => res.status(406).send('Not Acceptable')\n      });\n  });

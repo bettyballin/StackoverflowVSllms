@@ -1,0 +1,1 @@
+cat input.txt | tr ',' '\n' | sort | uniq | paste -sd, - > output.txt

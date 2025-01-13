@@ -1,0 +1,1 @@
+pm install --save-dev gulp gulp-handlebars gulp-compile-handlebars gulp-rename

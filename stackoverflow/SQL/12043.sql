@@ -1,1 +1,0 @@
-SELECT\n  *\nFROM\n  dbo.Contacts\nORDER BY\n    CASE @Sort\n      WHEN 1 THEN Surname\n      WHEN 2 THEN Forename\n      WHEN 3 THEN Telephone_Number\n      ELSE        ''\n    END ASC\n  , \n    CASE @Sort\n      WHEN 4 THEN Personnel_Ref\n      WHEN 5 THEN timesheet_number\n      WHEN 6 THEN Telephone_Number\n      ELSE        ''\n    END DESC

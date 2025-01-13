@@ -1,1 +1,0 @@
-<script type="text/javascript">\n$(document).ready(function(){\n\n    $('.MyDiv').hide();\n\n    $('input[name="myRadio"]').change(function(){\n        var selected = $(this).val();\n        $('.MyDiv').slideUp();\n        $('#'+selected).slideDown();\n    });\n\n});\n</script>

@@ -1,0 +1,1 @@
+sed 's/[!$%]//g' input.txt > output.txt

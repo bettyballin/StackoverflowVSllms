@@ -1,1 +1,0 @@
-obj.method();\nobj['method']();

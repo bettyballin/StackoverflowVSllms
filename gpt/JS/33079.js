@@ -1,0 +1,1 @@
+<pre><code>\n&lt;script&gt;\n  alert(&#39;Hello, World!&#39;);\n&lt;/script&gt;\n</code></pre>

@@ -1,0 +1,1 @@
+<?php\n// Include the input validation script\ninclude 'verification.php';\n\n/* process/do task */\ntry {\n    // Your main task code here\n} catch (Exception $e) {\n    // Include the exception handling script\n    include 'exception_handling.php';\n    // Handle the exception\n}\n?>

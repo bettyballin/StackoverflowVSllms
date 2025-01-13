@@ -1,0 +1,1 @@
+db_mgm -e "shutdown"\nndb_mgmd\nndbd

@@ -1,1 +1,0 @@
-document.write("<script id='__ie_onload' defer='defer' src='javascript:void(0)'><\/script>");

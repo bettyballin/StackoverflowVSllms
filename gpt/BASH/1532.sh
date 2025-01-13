@@ -1,0 +1,1 @@
+vendor/bin/xsd2php convert config.yml path/to/your-schema.xsd

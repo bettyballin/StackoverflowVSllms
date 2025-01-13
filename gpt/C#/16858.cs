@@ -1,0 +1,1 @@
+using System;\nusing System.Runtime.InteropServices;\n\npublic struct MyStruct\n{\n    public int Field1;\n    public double Field2;\n}\n\npublic class Program\n{\n    public static void Main()\n    {\n        MyStruct myStruct = new MyStruct();\n        int size = Marshal.SizeOf(myStruct);\n        Console.WriteLine($"Size of MyStruct: {size} bytes");\n    }\n}

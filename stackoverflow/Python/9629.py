@@ -1,1 +1,0 @@
-select_data = {"d": """strftime('%%m/%%d/%%Y', time_stamp)"""}\n\ndata = My_Model.objects.extra(select=select_data).values('d').annotate(Sum("numbers_data")).order_by()

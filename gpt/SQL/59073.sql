@@ -1,0 +1,1 @@
+SELECT id, site_id, start, "end", duration\nFROM (\n    SELECT id, site_id, start, "end", duration,\n           ROW_NUMBER() OVER (PARTITION BY site_id ORDER BY start DESC) AS rn\n    FROM generator_logs\n) subquery\nWHERE rn = 1\nORDER BY start DESC;

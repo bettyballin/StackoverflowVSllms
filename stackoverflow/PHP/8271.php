@@ -1,1 +1,0 @@
-$out_array = array();\nforeach($res as $key=>$val) {\n    if(is_int($key)) {continue;}\n    $out_array[$key] = $val;\n}

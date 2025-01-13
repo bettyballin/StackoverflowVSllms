@@ -1,0 +1,1 @@
+@echo off\n    REM Export the project without .svn directories\n    svn export C:\Projects\test C:\Projects\test_export\n\n    REM Remove the docs directory\n    rmdir /S /Q "C:\Projects\test_export\docs"\n\n    REM Remove the test.php file\n    del /Q "C:\Projects\test_export\test.php"\n\n    echo Production build is ready in C:\Projects\test_export

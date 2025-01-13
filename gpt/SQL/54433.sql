@@ -1,0 +1,1 @@
+-- Create Dimension Table\nCREATE TABLE DimCustomer (\n    CustomerID INT PRIMARY KEY,\n    CustomerName NVARCHAR(100),\n    CustomerCategory NVARCHAR(50)\n);\n\n-- Create Fact Table\nCREATE TABLE FactSales (\n    SalesID INT PRIMARY KEY,\n    SaleDate DATE,\n    CustomerID INT,\n    Amount DECIMAL(18, 2),\n    FOREIGN KEY (CustomerID) REFERENCES DimCustomer(CustomerID)\n);

@@ -1,1 +1,0 @@
-Dim strings = New String() {"a", "b", "c"}

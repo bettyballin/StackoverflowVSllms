@@ -1,1 +1,0 @@
-$(domChunk).click(function(){

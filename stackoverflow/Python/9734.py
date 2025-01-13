@@ -1,1 +1,0 @@
-for row in db>2\n    entryorderno += 1

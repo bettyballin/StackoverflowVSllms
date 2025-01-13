@@ -1,0 +1,1 @@
+using SubSonic;\n\npublic class Program\n{\n    public static void Main(string[] args)\n    {\n        // Set up your provider\n        var provider = ProviderFactory.GetProvider("YourConnectionString");\n\n        // Generate your DAL\n        var generator = new SubSonic.SchemaGenerator(provider);\n        generator.GenerateTo(@"C:\YourProject\DAL");\n    }\n}

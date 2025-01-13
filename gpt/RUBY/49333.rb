@@ -1,0 +1,1 @@
+# lib/tasks/my_service_task.rake\nnamespace :my_service do\n  desc "Run my Ruby service"\n  task run: :environment do\n    # Your script logic here\n    puts "Service is running..."\n    # Example: User.all.each { |user| puts user.name }\n  end\nend

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?>\n<webappext:WebAppExtension xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:webappext="webappext.xmiBinding">\n    ...\n    <jspAttributes xmi:id="JSPAttribute_2" name="disableJspRuntimeCompilation" value="true"/>\n    ...\n</webappext:WebAppExtension>

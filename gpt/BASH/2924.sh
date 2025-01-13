@@ -1,0 +1,1 @@
+pngquant --quality=65-80 --ext .png --force input.png

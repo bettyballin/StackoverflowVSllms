@@ -1,0 +1,1 @@
+gcc -c library_file1.c -o library_file1.o\n   gcc -c library_file2.c -o library_file2.o

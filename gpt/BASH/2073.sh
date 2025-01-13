@@ -1,0 +1,1 @@
+# For Apache\n   sudo systemctl restart apache2\n\n   # For MySQL\n   sudo systemctl restart mysql

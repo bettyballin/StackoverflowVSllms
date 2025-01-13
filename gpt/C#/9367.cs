@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        isPostBack.Value = "false";\n    }\n    else\n    {\n        isPostBack.Value = "true";\n    }\n}

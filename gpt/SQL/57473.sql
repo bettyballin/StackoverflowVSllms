@@ -1,0 +1,1 @@
+CREATE INDEX idx_wikilinks_frompage ON wikilinks (frompage);\n   CREATE INDEX idx_wikilinks_topage ON wikilinks (topage);\n   CREATE INDEX idx_wikilinks_frompage_topage ON wikilinks (frompage, topage);

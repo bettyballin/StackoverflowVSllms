@@ -1,0 +1,1 @@
+midl /oldnames yourfile.idl

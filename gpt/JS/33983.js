@@ -1,0 +1,1 @@
+<pre><code class="language-javascript">\n    // Your JavaScript code here\n    const hello = 'Hello, World!';\n    console.log(hello);\n</code></pre>

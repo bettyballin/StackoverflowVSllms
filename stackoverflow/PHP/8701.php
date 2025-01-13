@@ -1,1 +1,0 @@
-$Name = "John doe"; //senders name \n$email = "email@adress.com"; //senders e-mail adress \n$recipient = "recipient@emailadress.com"; //recipient \n$mail_body = "The text for the mail..."; //mail body \n$subject = "Subject for receiver"; //subject \n$header = "From: ". $Name . " <" . $email . ">\r\n"; //optional headerfields\n\nmail($recipient, $subject, $mail_body, $header);

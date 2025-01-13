@@ -1,0 +1,1 @@
+sudo service httpd restart   # For Apache web server\n   # or\n   sudo service php-fpm restart # For PHP-FPM

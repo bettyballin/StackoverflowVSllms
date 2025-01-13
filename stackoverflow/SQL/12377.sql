@@ -1,1 +1,0 @@
-select firstOfMonth = dateadd( month, n - 1, '1/1/2008')\nfrom Numbers\nwhere n <= 12;

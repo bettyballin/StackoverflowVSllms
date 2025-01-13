@@ -1,1 +1,0 @@
-Select Case aa\n        Case 1 To 1.49\n            MsgBox(1)\n        Case 1.5 To 2\n            MsgBox(2)\n        Case Else\n            MsgBox("was lower than 1 or higher than 2 or between 1.49 and 1.5")\n    End Select

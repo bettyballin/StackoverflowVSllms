@@ -1,1 +1,0 @@
-CREATE VIEW AS <br/>      SELECT * FROM tblData

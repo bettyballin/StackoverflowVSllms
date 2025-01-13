@@ -1,0 +1,1 @@
+[HttpPost]\n   public async Task<IActionResult> ApproveForms(List<int> approvedForms)\n   {\n       await _formService.ApproveFormsAsync(approvedForms);\n       return RedirectToAction("PendingForms");\n   }

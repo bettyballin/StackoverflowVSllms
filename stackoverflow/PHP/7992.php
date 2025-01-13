@@ -1,1 +1,0 @@
-<?php\nreturn array(\n  'option1' =&gt; 'foobar',\n  'option2' =&gt; 123,\n  //and so on...\n  );\n?>

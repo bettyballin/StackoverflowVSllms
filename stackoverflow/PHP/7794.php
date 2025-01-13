@@ -1,1 +1,0 @@
-<?php\n\nfunction getPost($name, $default = null) {\n    return isset($_POST[$name]) ? $_POST[$name] : $default;\n}

@@ -1,1 +1,0 @@
-$destName = str_replace(' ', '-', $sourceName);

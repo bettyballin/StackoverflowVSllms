@@ -1,0 +1,1 @@
+public class MainApplication\n   {\n       private PluginManager _pluginManager;\n\n       public MainApplication()\n       {\n           _pluginManager = new PluginManager();\n           _pluginManager.LoadPlugins();\n       }\n\n       // Other application logic\n   }

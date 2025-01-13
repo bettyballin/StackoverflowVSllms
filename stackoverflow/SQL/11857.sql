@@ -1,1 +1,0 @@
-EXECUTE master.sys.sp_MSforeachdb \n'select table_catalog from \ninformation_schema.tables where table_name like ''MyTable%'''

@@ -1,1 +1,0 @@
-public class IndexViewModel   \n{\n    public bool labelIsVisible { get; set; }\n    public String labelText { get; set; }\n\n    public IndexViewModel(bool labelIsVisible, String labelText)\n    {\n        this.labelIsVisible = labelIsVisible;\n        this.labelText = labelText;\n    }\n}

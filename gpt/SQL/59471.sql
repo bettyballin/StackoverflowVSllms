@@ -1,0 +1,1 @@
+-- Example: Creating a table in Cassandra\n     CREATE TABLE users (\n       user_id UUID PRIMARY KEY,\n       name text,\n       email text,\n       age int\n     );

@@ -1,1 +1,0 @@
-if (error) {\n    return NULL;\n}

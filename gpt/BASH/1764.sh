@@ -1,0 +1,1 @@
+curl -X PUT -H "Content-Type: application/json" -d '{"title": "1984", "author": "George Orwell (Updated)"}' http://127.0.0.1:5000/api/books/1

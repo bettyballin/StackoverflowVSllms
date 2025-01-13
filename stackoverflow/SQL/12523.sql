@@ -1,1 +1,0 @@
-SELECT  CASE WHEN @r = year THEN NULL ELSE year END AS year,\n        quarter,\n        total,\n        @r := year\nFROM    (\n        SELECT  @r := 0\n        ) vars,\n        mytable\nORDER BY\n        year

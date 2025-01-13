@@ -1,0 +1,1 @@
+# For JavaScript\n     eslint yourfile.js\n\n     # For Python\n     pylint yourfile.py

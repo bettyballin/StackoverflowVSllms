@@ -1,1 +1,0 @@
-TO\_DATE(sql\_server\_value,'YYYY.MM.DD HH24:MI:SS')

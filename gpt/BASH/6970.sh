@@ -1,0 +1,1 @@
+sudo criu dump -t <pid> -D /path/to/checkpoint -j

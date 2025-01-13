@@ -1,0 +1,1 @@
+cleartool mklabel -recurse LABEL_NAME /path/to/recursive_directory1\n   cleartool mklabel -recurse LABEL_NAME /path/to/recursive_directory2\n   # Continue for each directory to be labeled recursively

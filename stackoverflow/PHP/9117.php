@@ -1,1 +1,0 @@
-class ExampleForm extends Core_Form\n    {\n        public function init()\n        {\n            //Example Field\n            $example = new Zend_Form_Element_Hidden('example');\n            $this->addElement($example);\n        }\n\n        public function loadDefaultDecorators()\n        {\n            $this->example->setDecorators(array('ViewHelper'));\n        }\n    }

@@ -1,0 +1,1 @@
+#include <d3d10.h>\n#include <d3dx10.h>\n\n// Initialize the device\nID3D10Device* pD3DDevice = nullptr;\nHRESULT hr = D3D10CreateDevice(\n    nullptr,\n    D3D10_DRIVER_TYPE_HARDWARE,\n    nullptr,\n    0,\n    D3D10_SDK_VERSION,\n    &pD3DDevice\n);\n\nif (SUCCEEDED(hr)) {\n    // Use the device\n    // ...\n\n    // Release the device\n    pD3DDevice->Release();\n}

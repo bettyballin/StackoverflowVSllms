@@ -1,0 +1,1 @@
+PRINT RIGHT(@sHex, LEN(@sHex) - 2)

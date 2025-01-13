@@ -1,1 +1,0 @@
-SELECT  `username`, `card_id`, MIN(`timeStamp`)\nFROM    `usercardinfo` \nWHERE   `timeStamp` between '2009-04-01' and '2009-06-01'\nGROUP BY\n        `username`, `card_id`

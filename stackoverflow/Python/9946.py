@@ -1,1 +1,0 @@
-print "Status:301\nLocation: http://www.google.com"

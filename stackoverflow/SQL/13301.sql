@@ -1,1 +1,0 @@
-(FirstName, LastName, address1, city, state, zip)

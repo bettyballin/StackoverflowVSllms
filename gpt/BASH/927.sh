@@ -1,0 +1,1 @@
+gcc -o extract_pdf_text extract_pdf_text.c $(pkg-config --cflags --libs poppler-glib)

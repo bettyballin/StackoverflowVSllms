@@ -1,1 +1,0 @@
-Dim myTemp As String\nmyTemp = System.DateTime.Now().ToString("MMMddyyyy_HHmmss") & ".pdf"\n\nSystem.IO.File.Copy(myFile, "c:\\" & myTemp)\nOpenFile("c:\\" & myTemp)

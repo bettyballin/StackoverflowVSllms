@@ -1,0 +1,1 @@
+my_array[0]       # Accesses the first element in the array\n     my_hash[:key1]    # Accesses the value associated with :key1 in the hash

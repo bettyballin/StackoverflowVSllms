@@ -1,0 +1,1 @@
+// Store a value in the session\n   session(['key' => 'value']);\n\n   // Retrieve a value from the session\n   $value = session('key');\n\n   // Flash a message\n   session()->flash('status', 'Task was successful!');

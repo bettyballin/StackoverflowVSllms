@@ -1,1 +1,0 @@
-def archive\n  #this will return a hash in which the month names are the keys, \n  #and the values are arrays of the posts belonging to such months\n  #something like: \n  #{ "February" => [#<Post 0xb5c836a0>,#<Post 0xb5443a0>],\n  # 'March' => [#<Post 0x43443a0>] }\n  @posts_by_month = Posts.find(:all).group_by { |post| post.created_at.strftime("%B") }\nend

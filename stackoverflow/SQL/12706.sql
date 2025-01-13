@@ -1,1 +1,0 @@
-Alter Table Table1 Add Foreign Key (authorid) References Table2 (authorid); 

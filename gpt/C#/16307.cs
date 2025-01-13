@@ -1,0 +1,1 @@
+var hashedPassword = BCrypt.Net.BCrypt.HashPassword(plainPassword);

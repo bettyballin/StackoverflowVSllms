@@ -1,0 +1,1 @@
+svn co svn+ssh://john@example.com/repo

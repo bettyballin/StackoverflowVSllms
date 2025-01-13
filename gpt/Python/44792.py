@@ -1,0 +1,1 @@
+project = Project.objects.get(id=project_id)\ntodo_items = project.todo_items.all()  # Items will be ordered by the `order` field

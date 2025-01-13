@@ -1,1 +1,0 @@
-UPDATE table_name \nSET column1 = value, column2 = value2 \nWHERE some_column = some_value

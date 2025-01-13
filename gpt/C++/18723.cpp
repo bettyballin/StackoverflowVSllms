@@ -1,0 +1,1 @@
+// Assuming pRend->cp is of type ID2D1HwndRenderTarget*\nif (pRend->cp) {\n    pRend->cp->Release();\n}\npRend->cp = cpRT;\nif (pRend->cp) {\n    pRend->cp->AddRef();\n}\n\nID2D1SolidColorBrush *scBrush;\nHRESULT hr = cpRT->CreateSolidColorBrush(D2D1::ColorF(D2D1::ColorF::CornflowerBlue), &scBrush);\nif (FAILED(hr)) {\n    // Handle the error\n}

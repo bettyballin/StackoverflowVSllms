@@ -1,0 +1,1 @@
+head -n 200 largefile.csv > smallfile.csv

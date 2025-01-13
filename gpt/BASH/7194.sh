@@ -1,0 +1,1 @@
+composer require jeremykendall/php-domain-parser

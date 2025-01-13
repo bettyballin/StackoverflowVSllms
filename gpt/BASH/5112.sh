@@ -1,0 +1,1 @@
+sudo systemctl status apache2\n     sudo systemctl status mysql\n     php -v

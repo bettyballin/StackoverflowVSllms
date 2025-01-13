@@ -1,0 +1,1 @@
+#include <iostream>\n\nint main() {\n    // Using a lambda to capture and bind\n    auto boundFunction = [](int a) {\n        int b = 2;\n        std::cout << "a: " << a << ", b: " << b << std::endl;\n    };\n\n    // Calling the lambda with one argument\n    boundFunction(1);\n\n    return 0;\n}

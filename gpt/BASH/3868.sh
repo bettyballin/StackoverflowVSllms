@@ -1,0 +1,1 @@
+sudo apt-get update\nsudo apt-get install apache2 subversion libapache2-svn openssh-server

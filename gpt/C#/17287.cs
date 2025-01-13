@@ -1,0 +1,1 @@
+[ValidateInput(true)]\n     public ActionResult Create([Bind(Include = "Name,Email")] User user)\n     {\n         // Your code\n     }

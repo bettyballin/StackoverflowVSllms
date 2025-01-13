@@ -1,1 +1,0 @@
-Microsoft.SqlServer.Management.Smo.Server(ServerName).Settings.DefaultFile

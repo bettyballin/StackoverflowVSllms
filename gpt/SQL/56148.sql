@@ -1,0 +1,1 @@
+ALTER TABLE your_table_name DISABLE KEYS;\n  -- Load your data\n  ALTER TABLE your_table_name ENABLE KEYS;

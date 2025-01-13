@@ -1,0 +1,1 @@
+public class MvcApplication : System.Web.HttpApplication\n    {\n        protected void Application_Error()\n        {\n            Exception exception = Server.GetLastError();\n            // Log the exception\n            Server.ClearError();\n            Response.Redirect("~/Error");\n        }\n    }

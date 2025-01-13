@@ -1,0 +1,1 @@
+$url = 'http://example.com';\n$options = [\n    'http' => [\n        'method' => 'GET',\n        'header' => 'User-Agent: PHP'\n    ]\n];\n$context = stream_context_create($options);\n$content = file_get_contents($url, false, $context);\n\n// To get headers\n$headers = $http_response_header;\n\necho $content;\nprint_r($headers);

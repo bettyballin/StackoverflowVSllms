@@ -1,0 +1,1 @@
+regedit /s associate_xml_openoffice.reg

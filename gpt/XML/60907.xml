@@ -1,0 +1,1 @@
+<description xmlns="http://www.example.com/schema" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n    <xhtml:p>this is a test</xhtml:p>\n    <xhtml:p>this is a <xhtml:b>bold</xhtml:b> test</xhtml:p>\n    <xhtml:h1>Those were the tests</xhtml:h1>\n</description>

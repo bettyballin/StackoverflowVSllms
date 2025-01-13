@@ -1,1 +1,0 @@
-new SoapParam($client, "client")

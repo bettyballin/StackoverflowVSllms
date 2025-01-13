@@ -1,1 +1,0 @@
-gcc -c -I/home/me/development/skia sample.c

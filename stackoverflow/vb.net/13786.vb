@@ -1,1 +1,0 @@
-Dim customerEntitiy As New commerce_shopper\ncustomerEntitiy.shopper_id = CustomerData.CustomerID 'this is the primary key'\ncontext.AttachTo("commerce_shopper", customerEntitiy)\ncustomerEntitiy.market_code = CustomerData.MarketSector\ncustomerEntitiy.email = CustomerData.Email\ncustomerEntitiy.modified = DateTime.Now\ncontext.SaveChanges()

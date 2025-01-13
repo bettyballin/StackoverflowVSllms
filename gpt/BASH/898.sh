@@ -1,0 +1,1 @@
+sudo nano /etc/init/usb-backup.conf

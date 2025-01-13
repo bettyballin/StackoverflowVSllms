@@ -1,1 +1,0 @@
-SELECT DATABASEPROPERTYEX('{database name}', 'Collation') SQLCollation;

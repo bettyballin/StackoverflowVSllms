@@ -1,0 +1,1 @@
+using (var context = new YourDbContext())\n{\n    var entities = new List<YourEntity>\n    {\n        new YourEntity { Column1 = 1, Column2 = "Data1" },\n        new YourEntity { Column1 = 2, Column2 = "Data2" },\n        // Add more entities as needed\n    };\n\n    context.YourEntities.AddRange(entities);\n    context.SaveChanges();\n}

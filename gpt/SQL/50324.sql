@@ -1,0 +1,1 @@
+SELECT dbo.ConvertUnixTimeToLocalTime(unix_time) AS LocalTime\nFROM YourTable;

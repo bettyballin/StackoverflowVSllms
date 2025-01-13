@@ -1,1 +1,0 @@
-$fields = array(\n  'f1' => array('test'),\n  'f2' => array('other' => 'values'),\n);\n$keys = array_keys($fields);

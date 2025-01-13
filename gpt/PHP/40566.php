@@ -1,0 +1,1 @@
+// Disable output buffering if it is enabled\nif (ob_get_level() > 0) {\n    ob_end_flush();\n}\n\nforeach ($data as $item) {\n    echo $item;\n    ob_flush(); // Flush the PHP buffer\n    flush();    // Flush the web server buffer\n}

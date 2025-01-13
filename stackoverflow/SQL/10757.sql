@@ -1,1 +1,0 @@
-with x as (\n select \n  MAX(ab.id) as maxId, MIN(ab.id) as minId\n from Balance ab\n group by ab.account_id, dbo.Get_PeriodDateFromDatetime(ab.StatementDate)\n)\nselect \n  ab.Amount as openingBalance, ab2.Amount as closingBalance\nfrom Balance ab, Balance ab2, x\nwhere ab.id = x.maxId and ab2.id = x.minId

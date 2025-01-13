@@ -1,0 +1,1 @@
+letterRange.ForEach(range => Console.Write(range + ","));\nConsole.Write("\n");

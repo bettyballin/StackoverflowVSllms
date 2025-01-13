@@ -1,0 +1,1 @@
+#include <memory>\n\nclass MyClass {\npublic:\n    std::shared_ptr<MyObject> getObject();\n\nprivate:\n    std::shared_ptr<MyObject> obj;\n};

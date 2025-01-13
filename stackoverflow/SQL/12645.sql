@@ -1,1 +1,0 @@
-UPDATE emp\nSET ManagerID = boss.EmployeeID\nFROM Employee emp\nINNER JOIN Employee boss\n    ON boss.Name = emp.ManagerName

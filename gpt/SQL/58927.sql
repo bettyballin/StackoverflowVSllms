@@ -1,0 +1,1 @@
+SELECT column FROM table GROUP BY column;

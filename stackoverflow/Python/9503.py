@@ -1,1 +1,0 @@
-[instance.ticker for instance in Ticker.query.all()]

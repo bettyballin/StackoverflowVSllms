@@ -1,0 +1,1 @@
+<configuration>\n  <database>\n    <server>localhost</server>\n    <port>3306</port>\n    <username>user</username>\n    <password>pass</password>\n  </database>\n  <settings>\n    <cache>true</cache>\n    <debugMode>false</debugMode>\n  </settings>\n</configuration>

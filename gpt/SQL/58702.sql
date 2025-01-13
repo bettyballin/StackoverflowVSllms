@@ -1,0 +1,1 @@
+SELECT NVL(columna, columnb) FROM your_table;

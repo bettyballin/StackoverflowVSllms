@@ -1,1 +1,0 @@
-ActiveSupport::CoreExtensions::Numeric::Time

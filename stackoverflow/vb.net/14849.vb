@@ -1,1 +1,0 @@
-Dim dataRow As DataRow = ds.Tables.Item("MyTable").Rows().Item(0)

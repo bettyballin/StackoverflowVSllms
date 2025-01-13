@@ -1,0 +1,1 @@
+class DB {\n  static $conn = 'Connection';\n}\n\nclass User {\n  function __construct() {\n    echo DB::$conn; // Correctly accessing the static variable\n  }\n}\n\n$user = new User(); // This will output 'Connection'

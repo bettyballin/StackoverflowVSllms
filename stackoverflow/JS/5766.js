@@ -1,1 +1,0 @@
-// Edit according to request in the comment: \n// in order to select more than one element,\n// you need to specify comma separated ids.\n// Also, maybe you need to consider to use a CSS class for the selected elements,\n// then it could be just $(".className")\n$("#element1, #element2, ....").bind("keyup", CalculateTotalOnKeyUpEvent);

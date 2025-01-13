@@ -1,0 +1,1 @@
+$.ajax({\n    url: '/MyController/GetJsonData',\n    type: 'GET',\n    dataType: 'json',\n    success: function(response) {\n        console.log(response);\n        // Handle the JSON response here\n    },\n    error: function(xhr, status, error) {\n        console.error("An error occurred: " + error);\n    }\n});

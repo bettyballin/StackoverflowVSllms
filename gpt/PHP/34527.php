@@ -1,0 +1,1 @@
+$pdo = new PDO('mysql:host=your_host;dbname=your_db', 'username', 'password');\n$formattedDateString = '2009-02-15 08:47:45'; // Replace this with your date\n$stmt = $pdo->prepare("SELECT id FROM entries WHERE entries.date >= :formattedDateString");\n$stmt->execute(['formattedDateString' => $formattedDateString]);\n$results = $stmt->fetchAll(PDO::FETCH_ASSOC);

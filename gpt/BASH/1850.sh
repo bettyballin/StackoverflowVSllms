@@ -1,0 +1,1 @@
+svnadmin verify /path/to/repository

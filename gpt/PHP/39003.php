@@ -1,0 +1,1 @@
+// Procedural function to get user data\nfunction getUser($userId) {\n    // Database query to get user data\n    $query = "SELECT * FROM users WHERE id = $userId";\n    $result = mysqli_query($connection, $query);\n    return mysqli_fetch_assoc($result);\n}

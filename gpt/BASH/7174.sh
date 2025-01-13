@@ -1,0 +1,1 @@
+# Basic Git commands\n    git init\n    git clone <repository>\n    git add .\n    git commit -m "commit message"\n    git push origin mai

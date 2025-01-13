@@ -1,0 +1,1 @@
+string base64Hash = Convert.ToBase64String(hashBytes);

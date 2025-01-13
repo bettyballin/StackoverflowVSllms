@@ -1,0 +1,1 @@
+// Get the system proxy\nSystem.Net.WebProxy systemProxy = (System.Net.WebProxy)System.Net.WebRequest.GetSystemWebProxy();\n\n// Use the system proxy credentials\nsystemProxy.Credentials = System.Net.CredentialCache.DefaultCredentials;\n\n// Set the default proxy to the system proxy\nSystem.Net.WebRequest.DefaultWebProxy = systemProxy;

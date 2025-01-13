@@ -1,0 +1,1 @@
+-- Filter down to a smaller subset first, then order by NEWID()\nWITH FilteredRows AS (\n    SELECT *\n    FROM YourTable\n    WHERE YourConstraints\n    TABLESAMPLE (10000 ROWS) -- Adjust this number based on your table size to get an efficient subset\n)\nSELECT TOP 5000 *\nFROM FilteredRows\nORDER BY NEWID();

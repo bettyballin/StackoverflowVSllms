@@ -1,0 +1,1 @@
+somelist = [1, 2, 3, 4, 5]\nindices_to_delete = [0, 2]\n\nfor index in sorted(indices_to_delete, reverse=True):\n    del somelist[index]\n\nprint(somelist)  # Output: [2, 4, 5]

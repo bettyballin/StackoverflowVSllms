@@ -1,1 +1,0 @@
-SELECT\n    SUM (Amount)\nFROM\n    (SELECT TOP 15 amount FROM Sales ORDER BY [Date] DESC) foo

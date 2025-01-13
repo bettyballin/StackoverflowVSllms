@@ -1,1 +1,0 @@
-<?php\n\n$time = 0;\n$i = 1;\n$array = array();\n\ndo {\n  $sleep{$i} = rand(2,18);\n  $array[] = $sleep{$i};\n  $time += $sleep{$i};\n  $i++;\n} while ($time <= 60);\n\nprint_r($array);\n\necho $time;\n\n?>

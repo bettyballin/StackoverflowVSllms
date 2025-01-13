@@ -1,0 +1,1 @@
+(gdb) b factorial\n(gdb) ru

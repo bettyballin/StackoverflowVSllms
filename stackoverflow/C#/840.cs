@@ -1,1 +1,0 @@
-public DropDownList DropDownToValidate\n    {\n        get\n        {\n            return ddlTest;\n        }\n    }

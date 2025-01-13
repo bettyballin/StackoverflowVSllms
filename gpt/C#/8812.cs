@@ -1,0 +1,1 @@
+// Example: Using in-memory caching\nvar cache = MemoryCache.Default;\nstring cacheKey = "yourCacheKey";\nvar cachedData = cache.Get(cacheKey) as YourDataType;\nif (cachedData == null)\n{\n    cachedData = GetDataFromDatabase();\n    cache.Set(cacheKey, cachedData, new CacheItemPolicy { AbsoluteExpiration = DateTimeOffset.Now.AddMinutes(10) });\n}

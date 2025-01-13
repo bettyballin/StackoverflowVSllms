@@ -1,0 +1,1 @@
+<?php\n// bootstrap.php\nrequire 'vendor/autoload.php';\n\n$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);\n$dotenv->load();

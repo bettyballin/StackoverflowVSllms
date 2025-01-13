@@ -1,0 +1,1 @@
+// Example URL\n$baseURL = "https://example.com/recover-password?token=";\n$secureToken = generateSecureURL(128);\n$secureURL = $baseURL . $secureToken;\n\necho "Password Recovery URL: " . $secureURL;

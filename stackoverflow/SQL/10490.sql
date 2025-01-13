@@ -1,1 +1,0 @@
-CREATE PROCEDURE Find_Text_In_SP\n@StringToSearch varchar(100) \nAS \n   SET @StringToSearch = '%' +@StringToSearch + '%'\n   SELECT Distinct SO.Name\n   FROM sysobjects SO (NOLOCK)\n   INNER JOIN syscomments SC (NOLOCK) on SO.Id = SC.ID\n   AND SO.Type = 'P'\n   AND SC.Text LIKE @stringtosearch\n   ORDER BY SO.Name\nGO

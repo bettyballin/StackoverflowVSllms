@@ -1,0 +1,1 @@
+USE msdb;\nGO\n\nCREATE ROLE [JobCreator];\nGO

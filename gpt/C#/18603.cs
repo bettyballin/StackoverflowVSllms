@@ -1,0 +1,1 @@
+[Guid("EB46E31F-0961-4179-8A56-3895DDF2884E")]\n[ProgId("ScriptGeneratorExample.ScriptGenerator")]\n[ClassInterface(ClassInterfaceType.None)]\npublic class ScriptGenerator : IScriptGenerator\n{\n    public void Init()\n    {\n        // Implementation\n    }\n\n    public void GetLastError(out string Error)\n    {\n        Error = "No error";\n    }\n}

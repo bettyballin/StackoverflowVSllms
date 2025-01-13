@@ -1,0 +1,1 @@
+SELECT FORMAT(GETDATE(), 'yyyy-MMMM') AS FormattedDate\n-- Replace GETDATE() with your datetime column, e.g., your_column_name

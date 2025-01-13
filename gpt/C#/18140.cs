@@ -1,0 +1,1 @@
+DataGridViewComboBoxColumn location = new DataGridViewComboBoxColumn()\n    {\n        Name = "Location",\n        DataSource = new BindingSource(GetMyLocations(), null),\n        DisplayMember = "Name",\n        ValueMember = "" // Set to empty string to use the entire object\n    };

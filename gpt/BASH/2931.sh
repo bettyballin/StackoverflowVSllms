@@ -1,0 +1,1 @@
+0 */4 * * * /usr/local/sbin/process-mail-queue.sh

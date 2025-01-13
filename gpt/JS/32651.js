@@ -1,0 +1,1 @@
+function processKey(e) {\n    if (e.keyCode == 13) { // Enter key\n        e.preventDefault(); // Prevent the default form submission\n        document.getElementById("foobar").click(); // Trigger the desired submit button\n        return false;\n    }\n}

@@ -1,0 +1,1 @@
+// Original function (example)\nfunction addOrderAttribute(element, order) {\n    element.setAttribute('order', order);\n}\n\n// Modified function\nfunction addDataOrderAttribute(element, order) {\n    element.setAttribute('data-order', order);\n}

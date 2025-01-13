@@ -1,1 +1,0 @@
-// blob is a byte[] retrieved from DB\nBitmap bmp = new Bitmap(new MemoryStream(blob)); 

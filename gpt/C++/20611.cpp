@@ -1,0 +1,1 @@
+// mylibrary.cpp\n   extern "C" __declspec(dllexport) int AddNumbers(int a, int b) {\n       return a + b;\n   }

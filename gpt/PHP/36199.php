@@ -1,0 +1,1 @@
+// src/Core/Controller.php\nnamespace App\Core;\n\nabstract class Controller {\n    public function render($view, $data = []) {\n        extract($data);\n        require_once "../src/Views/$view.php";\n    }\n}

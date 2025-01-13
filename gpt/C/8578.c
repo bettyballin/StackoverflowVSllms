@@ -1,0 +1,1 @@
+// Priority Inheritance Protocol pseudocode example\n   if (low_priority_task.holds(resource) && high_priority_task.needs(resource)) {\n       low_priority_task.priority = high_priority_task.priority;\n   }

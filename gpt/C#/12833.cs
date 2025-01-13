@@ -1,0 +1,1 @@
+protected void SubmitButton_Click(object sender, EventArgs e)\n{\n    if (Page.IsValid)\n    {\n        // Proceed with the next page or operations\n        Response.Redirect("NextPage.aspx");\n    }\n    else\n    {\n        ErrorMessageLabel.Text = "There are validation errors on the page.";\n    }\n}

@@ -1,0 +1,1 @@
+amespace MyNamespace.Interfaces\n{\n    [ComVisible(true)]\n    public delegate void DistributeMessage([In] ref OLDMESSAGE Message);\n}

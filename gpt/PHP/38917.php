@@ -1,0 +1,1 @@
+$backupFile = 'path/to/backup_file.sql';\n$dbName = 'your_database_name';\n$dbUser = 'your_username';\n$dbPass = 'your_password';\n\n$command = "mysql -u $dbUser -p$dbPass $dbName < $backupFile";\nexec($command);

@@ -1,1 +1,0 @@
-function siftDown(<b>&</b>$a, $start, $end) {

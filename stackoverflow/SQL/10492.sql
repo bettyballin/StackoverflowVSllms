@@ -1,1 +1,0 @@
-@childname NVARCHAR(255), @parentname NVARCHAR(255)\nSELECT * FROM [child_records] \nWHERE [parent_name] = @parentname \nAND [child_name] = @childname

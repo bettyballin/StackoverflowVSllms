@@ -1,1 +1,0 @@
-$(document).ready( function() {\n    $('#ip0,#ip1,#ip2').keydown( function(event) {\n       var key = event.charCode || event.keyCode || 0;\n       if (key == 190) {\n           event.preventDefault();\n           var i = Number(this.id.replace(/ip/,'')) +1;\n           $('#ip'+i).focus();\n       }\n    });\n});

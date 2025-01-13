@@ -1,0 +1,1 @@
+g++ -W -Wall -c replace_all.cc\n   g++ -W -Wall -c test.cc\n   g++ test.o replace_all.o -o test

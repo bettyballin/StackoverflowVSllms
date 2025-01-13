@@ -1,1 +1,0 @@
-thelist[:] = [d for d in thelist if d.get('id') != 2]

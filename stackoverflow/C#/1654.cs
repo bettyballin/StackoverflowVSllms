@@ -1,1 +1,0 @@
-string result = System.Convert.ToBase64String(yourByteArray);

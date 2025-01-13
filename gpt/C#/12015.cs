@@ -1,0 +1,1 @@
+public partial class SLO : System.Web.UI.Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        if (!IsPostBack)\n        {\n            string partnerIdP = "http://idp-domain.com";\n            SAMLServiceProvider.InitiateSLO(Response, null, null, partnerIdP);\n        }\n    }\n}

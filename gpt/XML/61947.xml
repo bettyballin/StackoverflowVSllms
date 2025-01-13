@@ -1,0 +1,1 @@
+<add name="SiteDBConn" connectionString="Server=IPOfServer;Database=DBname;Integrated Security=True;"/>

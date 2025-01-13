@@ -1,0 +1,1 @@
+i = 1\npayment = 1234.56\ninterest = 78.90\nmonthPayment = 123.45\n\nprint "%2d. %8.2f %8.2f %8.2f" % (i, payment, interest, monthPayment)

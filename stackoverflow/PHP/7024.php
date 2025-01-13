@@ -1,1 +1,0 @@
-<?php\n  $text = iconv('UTF-8', 'US-ASCII//TRANSLIT', $text);\n?>

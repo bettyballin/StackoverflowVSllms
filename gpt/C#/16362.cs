@@ -1,0 +1,1 @@
+// PublicService.svc.cs\n   using SharedLibrary;\n\n   [ServiceContract(Namespace = "")]\n   public class PublicService\n   {\n       [OperationContract]\n       public Person GetPerson()\n       {\n           return new Person { FirstName = "John", LastName = "Doe", PrivateData = "*****" };\n       }\n   }

@@ -1,0 +1,1 @@
+string clientName = ConfigHelper.GetAppSetting("ClientName");\n   string logoPath = ConfigHelper.GetAppSetting("LogoPath");

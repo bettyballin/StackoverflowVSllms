@@ -1,1 +1,0 @@
-function log_error($no, $msg, $file, $line)\n{\n    $errorMessage = "Error no $no: $msg in $file at line number $line";\n\n    file_put_contents("errors_paypal.txt",$errorMessage."\n\n",FILE_APPEND);\n}\n\nset_error_handler('log_error');

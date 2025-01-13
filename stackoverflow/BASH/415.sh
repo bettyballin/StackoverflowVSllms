@@ -1,1 +1,0 @@
-ps auxwww|grep ^postgres

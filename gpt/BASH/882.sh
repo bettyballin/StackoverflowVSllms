@@ -1,0 +1,1 @@
+jarsigner -verify -verbose -certs path/to/hibernate3.jar\n    jarsigner -verify -verbose -certs path/to/other.jar

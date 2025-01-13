@@ -1,1 +1,0 @@
-$fp = fopen("/tmp/lock.txt", "r+");\n\nif (flock($fp, LOCK_EX)) {  // acquire an exclusive lock\n    ftruncate($fp, 0);      // truncate file\n    fwrite($fp, "Write something here\n");\n    fflush($fp);            // flush output before releasing the lock\n    flock($fp, LOCK_UN);    // release the lock\n} else {\n    echo "Couldn't get the lock!";\n}\n\nfclose($fp);

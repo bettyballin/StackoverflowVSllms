@@ -1,1 +1,0 @@
-SELECT 'SELECT * FROM [' + tables.TABLE_NAME + '] WHERE ['\n       + Columns.Column_Name + '] = ' + CONVERT(varchar(50),@COLUMNVALUE)\nFROM INFORMATION_SCHEMA.Columns as Columns\nINNER JOIN INFORMATION_SCHEMA.TABLES as tables \n    On Columns.TABLE_NAME = tables.TABLE_NAME\nWHERE Columns.DATA_TYPE = @COLUMNTYPE

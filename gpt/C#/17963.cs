@@ -1,0 +1,1 @@
+Type someType = ... ; // Your dynamic type\nvar export = _container.GetExportedValue(someType);

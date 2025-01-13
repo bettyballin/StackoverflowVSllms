@@ -1,1 +1,0 @@
-Event::add('system.post_routing' ,'call_fallback_page');\n\n\n\nfunction call_fallback_page() {\n        Router::$controller = 'Articles';\n        Router::$method = 'index';\n        Router::$controller_path = APPPATH.'controllers/articles.php';\n}

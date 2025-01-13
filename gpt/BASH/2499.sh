@@ -1,0 +1,1 @@
+etsh winhttp set proxy 127.0.0.1:8888

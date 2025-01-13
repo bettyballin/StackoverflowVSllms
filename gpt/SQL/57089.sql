@@ -1,0 +1,1 @@
+PROC SQL;\n    SELECT DISTINCT UPCASE(country) AS country\n    FROM companies;\nQUIT;

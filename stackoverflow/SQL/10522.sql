@@ -1,1 +1,0 @@
-with [CTE] as (\n    select * from [TheTable] c where c.[ParentId] = 1\n    union all\n    select * from [CTE] p, [TheTable] c where c.[ParentId] = p.[NodeId]\n)\nselect * from [CTE]

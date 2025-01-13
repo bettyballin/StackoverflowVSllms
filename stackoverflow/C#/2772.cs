@@ -1,1 +1,0 @@
-try \n{\nif (iTunes.CurrentTrack.Artist != artist | iTunes.CurrentTrack.Album != album | iTunes.CurrentTrack.Name != title)\n{\n //Code to update UI here\n}\n}\ncatch\n{\n//Nothing Here! this is just so your the app doesn't blow up if iTunes is busy. instead it will just try again in 1 second\n}

@@ -1,0 +1,1 @@
+sudo a2enmod php5\n     sudo systemctl restart apache2

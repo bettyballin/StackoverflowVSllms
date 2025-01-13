@@ -1,0 +1,1 @@
+using System.Data.Entity;\n\n   public class MyDbContext : DbContext\n   {\n       public MyDbContext() : base("name=MyConnectionString")\n       {\n       }\n\n       public DbSet<MyEntity> MyEntities { get; set; }\n       // Add DbSet properties for your other entities here\n   }

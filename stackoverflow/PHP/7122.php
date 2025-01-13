@@ -1,1 +1,0 @@
-$TempSQL = "SELECT field1, field2, field3 FROM table WHERE ";\n$args=array();\n\nif ($numberParams == 1) {\n    $TempSQL = $TempSQL . " field1 = :val1"\n    $args[':val1']=$val1;\n} else {\n    $TempSQL = $TempSQL . " field2 = :val2 and field3 = :val3";\n    $args[':val2']=$val2;\n    $args[':val3']=$val3;\n}\n\n$stmt=$db->prepare($TempSQL);\n$stmt->execute($args);

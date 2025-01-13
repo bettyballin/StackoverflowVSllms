@@ -1,0 +1,1 @@
+public class MyService : IMyService\n{\n    public void MyOperation()\n    {\n        var windowsIdentity = (WindowsIdentity)OperationContext.Current.ServiceSecurityContext.AuthorizationContext.Properties["Principal"].Identity;\n        string windowsUserName = windowsIdentity.Name;\n        \n        // Use the windowsUserName for your authorization logic\n    }\n}

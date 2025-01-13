@@ -1,0 +1,1 @@
+CREATE TABLE orders (\n    order_date DATE NOT NULL,\n    customer_id INT NOT NULL,\n    product_id INT NOT NULL,\n    PRIMARY KEY (order_date, customer_id, product_id)\n);

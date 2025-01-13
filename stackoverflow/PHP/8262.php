@@ -1,1 +1,0 @@
-function CreateFileLink(DateProvider dateProvider)\n{\n        global $Username;\n\n        return dateProvider.date("d-m-y-g-i");\n}

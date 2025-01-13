@@ -1,0 +1,1 @@
+import requests\nfrom bs4 import BeautifulSoup\n\nurl = 'http://example.com'\nresponse = requests.get(url)\nsoup = BeautifulSoup(response.text, 'html.parser')\n\n# Now you can extract data from the soup object

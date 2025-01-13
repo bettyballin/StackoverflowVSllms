@@ -1,0 +1,1 @@
+CREATE VIEW CombinedView AS\n   SELECT * FROM MappingQuery1\n   UNION ALL\n   SELECT * FROM MappingQuery2;

@@ -1,1 +1,0 @@
-factory.Endpoint.Behaviors.Add(new WebHttpBehavior());\nIMyContract proxy = factory.CreateChannel();\nusing (OperationContextScope scope = new OperationContextScope((IContextChannel)proxy)) {\n    proxy.MyMethod("Some data"));\n    var responseCode = WebOperationContext.Current.IncomingResponse.StatusCode;\n}\n((IClientChannel)proxy).Close();\nfactory.Close();

@@ -1,0 +1,1 @@
+string connectionString = "User Id=myUsername;Password=myPassword;Data Source=mydbhost.example.com:1521/mydbname;";

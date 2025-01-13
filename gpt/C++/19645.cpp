@@ -1,0 +1,1 @@
+#include <iostream>\n#include <uuid/uuid.h>\n\nint main() {\n    uuid_t uuid;\n    char uuid_str[37];\n\n    // Generate a UUID\n    uuid_generate(uuid);\n\n    // Convert the UUID to a string\n    uuid_unparse(uuid, uuid_str);\n\n    std::cout << "Generated UUID: " << uuid_str << std::endl;\n\n    return 0;\n}

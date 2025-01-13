@@ -1,0 +1,1 @@
+CREATE TYPE dbo.IntList AS TABLE\n    (\n        Value INT\n    );

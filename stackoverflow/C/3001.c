@@ -1,1 +1,0 @@
-typedef vector<vector<string> > Rows;\nRows rows;\nifstream input("filename.csv");\nchar const row_delim = '\n';\nchar const field_delim = '\t';\nfor (string row; getline(input, row, row_delim); ) {\n  rows.push_back(Rows::value_type());\n  istringstream ss(row);\n  for (string field; getline(ss, field, field_delim); ) {\n    rows.back().push_back(field);\n  }\n}

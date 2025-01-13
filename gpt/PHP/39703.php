@@ -1,0 +1,1 @@
+// Prepare the SQL query with a placeholder\n$q2 = "SELECT COUNT(*) FROM fruits WHERE name = :name";\n\n// Prepare the statement\n$s = $db->prepare($q2);\n\n// Execute the statement with the parameter\n$s->execute([':name' => 'apple']);\n\n// Fetch and output the result\necho $s->fetchColumn();

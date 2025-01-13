@@ -1,1 +1,0 @@
-WHERE (@Param IS NULL OR EXISTS (SELECT .... ))

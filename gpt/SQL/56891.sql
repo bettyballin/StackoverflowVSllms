@@ -1,0 +1,1 @@
+CREATE TABLE example_table (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    long_text_column LONGTEXT\n);

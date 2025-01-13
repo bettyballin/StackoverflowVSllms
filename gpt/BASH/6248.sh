@@ -1,0 +1,1 @@
+sudo iptables -t nat -A PREROUTING -p tcp --dport 1008 -j DNAT --to-destination 192.168.1.2:1008\nsudo iptables -t nat -A POSTROUTING -p tcp -d 192.168.1.2 --dport 1008 -j MASQUERADE

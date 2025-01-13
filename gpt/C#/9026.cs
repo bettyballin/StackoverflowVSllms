@@ -1,0 +1,1 @@
+public class MyObject\n    {\n        public string Name { get; set; }\n        public string Description { get; set; }\n    }

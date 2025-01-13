@@ -1,0 +1,1 @@
+public static class HtmlHelpers\n{\n    public static string IsSelected(this HtmlHelper html, string tabName, string currentTab)\n    {\n        return string.Equals(tabName, currentTab, StringComparison.OrdinalIgnoreCase) ? "selected" : string.Empty;\n    }\n}

@@ -1,0 +1,1 @@
+var person = from p in DataContextObject.Persons\n             where p.PersonsID == 1\n             select p;

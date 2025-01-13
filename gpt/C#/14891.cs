@@ -1,0 +1,1 @@
+var person = new Person { Name = "", Age = 65 };\nvar validationErrors = person.Validate();\n\nif (validationErrors.Any())\n{\n    foreach (var error in validationErrors)\n    {\n        Console.WriteLine(error);\n    }\n}

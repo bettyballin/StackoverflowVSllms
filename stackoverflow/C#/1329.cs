@@ -1,1 +1,0 @@
-var most = list.GroupBy(i=>i).OrderByDescending(grp=>grp.Count())\n      .Select(grp=>grp.Key).First();

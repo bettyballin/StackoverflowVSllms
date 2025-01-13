@@ -1,1 +1,0 @@
-$word_for_the_day = mysql_real_escape_string($word_for_the_day);

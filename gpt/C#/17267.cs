@@ -1,0 +1,1 @@
+// Assembly 2\n   using CommonAssembly;\n   using System.ComponentModel.Composition;\n   using System.ComponentModel.Composition.Hosting;\n\n   var catalog = new AssemblyCatalog(typeof(Ninja.Sword).Assembly);\n   var container = new CompositionContainer(catalog);\n   var sword = container.GetExportedValue<IWeapon>("sword");

@@ -1,1 +1,0 @@
-dataSet.Tables[0].AsEnumerable().Where(c => c.Field<int>("ageColumn") > 3 ||\n     c.Field<int>("ageColumn") < 5).Count();

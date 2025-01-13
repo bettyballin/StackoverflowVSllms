@@ -1,0 +1,1 @@
+ALTER TABLE YourTable NOCHECK CONSTRAINT ALL;\n   -- Perform delete\n   DELETE FROM YourTable WHERE <condition>;\n   ALTER TABLE YourTable WITH CHECK CHECK CONSTRAINT ALL;

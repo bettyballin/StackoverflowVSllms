@@ -1,0 +1,1 @@
+public static class WebApiConfig\n{\n    public static void Register(HttpConfiguration config)\n    {\n        config.EnableCors();\n        // Other configuration code...\n    }\n}

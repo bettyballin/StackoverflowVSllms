@@ -1,1 +1,0 @@
-CREATE UNIQUE INDEX index_name ON table(col1, col2);

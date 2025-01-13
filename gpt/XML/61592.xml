@@ -1,0 +1,1 @@
+<behaviors>\n     <serviceBehaviors>\n       <behavior name="myServiceBehavior">\n         <serviceMetadata httpGetEnabled="true"/>\n         <serviceDebug includeExceptionDetailInFaults="false"/>\n       </behavior>\n     </serviceBehaviors>\n   </behaviors>

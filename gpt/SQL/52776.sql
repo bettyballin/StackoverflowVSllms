@@ -1,0 +1,1 @@
+-- Allow reverse scans\nCREATE INDEX I_0005 ON TABLENAME (a, b, c, d) ALLOW REVERSE SCANS;\n\n-- This is not equivalent to creating indexes on all possible combinations of the columns\n-- It only allows the index to be scanned in both forward and reverse order

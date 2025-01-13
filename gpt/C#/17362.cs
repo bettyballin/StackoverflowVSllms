@@ -1,0 +1,1 @@
+try\n{\n    // Your code that uses the VB tab control\n}\ncatch (COMException comEx)\n{\n    MessageBox.Show("COM Exception: " + comEx.Message);\n}\ncatch (Exception ex)\n{\n    MessageBox.Show("General Exception: " + ex.Message);\n}

@@ -1,0 +1,1 @@
+<p>Rendered from action: <%= @origin_action %></p>

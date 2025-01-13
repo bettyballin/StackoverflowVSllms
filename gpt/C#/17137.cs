@@ -1,0 +1,1 @@
+var sale = db.Sales.Single(s => s.ID == 1);\n   if (sale.User == null)\n   {\n       throw new InvalidOperationException("User reference is null");\n   }\n   string username = sale.User.Name;

@@ -1,0 +1,1 @@
+[ComVisible(true)]\n    [InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]\n    public interface IYourInterface\n    {\n        void YourMethod();\n    }\n\n    [ComVisible(true)]\n    public class YourClass : IYourInterface\n    {\n        public void YourMethod()\n        {\n            // Implementation\n        }\n    }

@@ -1,1 +1,0 @@
-priceMask.MaskType = MaskedEditType.Number;

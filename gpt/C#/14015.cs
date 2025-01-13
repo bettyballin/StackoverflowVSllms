@@ -1,0 +1,1 @@
+public class MyEntity\n{\n    public virtual int Id { get; set; }\n    public virtual byte[] MyData { get; set; }\n}

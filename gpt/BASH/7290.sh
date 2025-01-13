@@ -1,0 +1,1 @@
+keytool -importkeystore -srckeystore your-keystore.jks -destkeystore your-keystore.p12 -deststoretype PKCS12 -srcalias your-alias -deststorepass your-password -srcstorepass your-password

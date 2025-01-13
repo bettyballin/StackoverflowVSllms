@@ -1,1 +1,0 @@
-select * \nfrom myTable\norder by field(myID, 8, 7, 6) desc;

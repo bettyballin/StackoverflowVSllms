@@ -1,0 +1,1 @@
+$sessionId = 'foo'; // the sessionId is successfully retrieved from the XML response\nsession_id($sessionId);\nsession_start();\n\nerror_log("Session ID: " . session_id());\nerror_log("Session Data: " . print_r($_SESSION, true));

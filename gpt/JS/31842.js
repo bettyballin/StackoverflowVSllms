@@ -1,0 +1,1 @@
+ew Ajax.Request(root + 'test.testFunction', {\n  method: 'post',\n  parameters: { param1: paramval },\n  onSuccess: function(response) {\n    alert(response.responseText);\n    var myresult = response.responseText; // should be '1'\n  }\n});

@@ -1,1 +1,0 @@
-Type generic = typeof(List<>);    \nType specific = generic.MakeGenericType(typeof(int));    \nConstructorInfo ci = specific.GetConstructor(Type.EmptyTypes);    \nobject o = ci.Invoke(new object[] { });

@@ -1,1 +1,0 @@
-@models = all.reject do |m|\n   # This block is used to remove entries that do not qualify\n   # by having this evaluate to true.\n   !m.current\nend

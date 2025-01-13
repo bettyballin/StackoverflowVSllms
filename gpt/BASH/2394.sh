@@ -1,0 +1,1 @@
+tidy -m -i -wrap 0 example.html

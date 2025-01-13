@@ -1,0 +1,1 @@
+sudo ufw allow from any to new.ip.address port 1099 proto tcp

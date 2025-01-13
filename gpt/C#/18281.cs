@@ -1,0 +1,1 @@
+Environment.Exit(0); // Success\n// or\nEnvironment.Exit(1); // Failure

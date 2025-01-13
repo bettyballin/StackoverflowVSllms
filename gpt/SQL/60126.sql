@@ -1,0 +1,1 @@
+SELECT * FROM questions\n   ORDER BY created_at DESC\n   LIMIT 10;

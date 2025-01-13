@@ -1,1 +1,0 @@
-if (!headers_sent()) {\n    if ($_COOKIE["PHPSESSID"] != "") {\n        setcookie("PHPSESSID", $_COOKIE["PHPSESSID"], time()+43200, "/", ".mydomain.com");\n    }\n}

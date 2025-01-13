@@ -1,1 +1,0 @@
-SELECT  posts.*\nFROM    listen\nJOIN    posts\nON      posts.userid = listen.listenid\nWHERE   listen.userid = @current_user

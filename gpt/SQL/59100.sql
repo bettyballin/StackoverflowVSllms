@@ -1,0 +1,1 @@
+INSERT OR IGNORE INTO destination (A, B, C)\nSELECT a1, b1, c1 \nFROM source\nWHERE (selectconditions);

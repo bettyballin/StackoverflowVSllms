@@ -1,0 +1,1 @@
+using (var dc = new DataContext())\n{\n    string sql = "UPDATE Products SET Count = 0 WHERE Type = 1";\n    dc.ExecuteCommand(sql);\n}

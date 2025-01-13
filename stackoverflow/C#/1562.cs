@@ -1,1 +1,0 @@
-if(!String.IsNullOrEmpty(Request.Form["myButtonName"])) {\n    //myButtonName has been pressed.\n}

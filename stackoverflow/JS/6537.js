@@ -1,1 +1,0 @@
-parent.f1.document.myapplet.mymethod("a");

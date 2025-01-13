@@ -1,0 +1,1 @@
+DECLARE @result XML;\n\nSELECT @result = (SELECT * \n                  FROM YourTable \n                  FOR XML AUTO, TYPE);\n\n-- To check the result\nSELECT @result;

@@ -1,0 +1,1 @@
+// Modify a field\n    var rowToModify = ds.Tables["SampleTable"].AsEnumerable()\n                        .FirstOrDefault(row => row.Field<int>("Id") == 1);\n    if (rowToModify != null)\n    {\n        rowToModify.SetField("Name", "John Doe");\n    }

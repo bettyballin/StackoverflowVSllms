@@ -1,0 +1,1 @@
+CXXFLAGS += -Wno-write-strings

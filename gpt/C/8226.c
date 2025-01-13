@@ -1,0 +1,1 @@
+int sign(int i) {\n    if (i > 0) return 1;\n    if (i == 0) return 0;\n    if (i < 0) return -1;\n    return 0; // This line will never be reached, but it satisfies the compiler.\n}

@@ -1,0 +1,1 @@
+<hibernate-mapping default-lazy="true">\n    ...\n</hibernate-mapping>

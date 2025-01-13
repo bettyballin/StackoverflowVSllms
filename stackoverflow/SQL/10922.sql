@@ -1,1 +1,0 @@
-declare @sql varchar(max)\nif exists (select name from sysobjects where name = @TableName)\nBEGIN\n   set @sql = 'drop table ' + @TableName\n   exec(@sql)\nEND

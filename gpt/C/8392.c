@@ -1,0 +1,1 @@
+#include <jni.h>\n#include <stdio.h>\n#include "HelloWorld.h"\n\n// Implementation of the native method\nJNIEXPORT void JNICALL Java_HelloWorld_printHelloWorld(JNIEnv *env, jobject obj) {\n    printf("Hello, World!\n");\n}

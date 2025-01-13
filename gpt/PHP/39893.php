@@ -1,0 +1,1 @@
+if (isset($_POST['var'])) {\n    // Safe to use $_POST['var'] here\n}

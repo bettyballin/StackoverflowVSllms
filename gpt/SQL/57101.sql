@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION get_schema_name\nRETURN VARCHAR2\nIS\n  schema_name VARCHAR2(30);\nBEGIN\n  SELECT USER INTO schema_name FROM dual;\n  RETURN schema_name;\nEND;\n/

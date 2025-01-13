@@ -1,0 +1,1 @@
+using MbUnit.Framework;\n\n   [TestFixture]\n   public class MyTests\n   {\n       [Test]\n       public void TestMethod()\n       {\n           // Test code here\n       }\n   }

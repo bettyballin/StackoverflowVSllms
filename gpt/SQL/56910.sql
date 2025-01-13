@@ -1,0 +1,1 @@
+UPDATE YourTable\nSET CurCode = WhatCodeShouldBe;

@@ -1,0 +1,1 @@
+#define FETCH_SIZE 1000\n   int intArray[FETCH_SIZE];\n   sb2 indicators[FETCH_SIZE];\n   ub2 rlen[FETCH_SIZE];\n   ub2 rcode[FETCH_SIZE];\n   \n   OCIDefine *defnp;\n   OCIDefineByPos(stmthp, &defnp, errhp, 1, (dvoid *)intArray, sizeof(int), SQLT_INT, (dvoid *)indicators, (ub2 *)rlen, (ub2 *)rcode, OCI_DEFAULT);

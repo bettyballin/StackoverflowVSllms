@@ -1,0 +1,1 @@
+SELECT * FROM item\nWHERE MATCH(title, description) AGAINST('this key' IN NATURAL LANGUAGE MODE);

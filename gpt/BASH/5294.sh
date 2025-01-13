@@ -1,0 +1,1 @@
+# Unix/Linux example\nfind /path/to/deployment -name "*.pdb" -type f -delete\n\n# Windows example (PowerShell)\nGet-ChildItem -Path "C:\path\to\deployment" -Filter *.pdb -Recurse | Remove-Item

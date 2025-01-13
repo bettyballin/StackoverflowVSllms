@@ -1,1 +1,0 @@
-alignas(64) float a[4];

@@ -1,0 +1,1 @@
+aspnet_regiis -pef "appSettings" "C:\inetpub\wwwroot\yourapp"

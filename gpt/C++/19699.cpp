@@ -1,0 +1,1 @@
+#include <list>\n#include <iostream>\n\nint main() {\n    std::list<int> the_list = {3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5};\n\n    // Use std::list::sort() which is stable\n    the_list.sort();\n\n    for (int n : the_list) {\n        std::cout << n << " ";\n    }\n\n    return 0;\n}

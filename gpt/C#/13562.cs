@@ -1,0 +1,1 @@
+@using (Html.BeginForm("ActionName", "ControllerName", FormMethod.Post, new { id = "myForm" }))\n{\n    @Html.AntiForgeryToken()\n    <label for="name">Name:</label>\n    <input type="text" id="name" name="name" />\n    <input type="submit" value="Submit" />\n}\n<div id="result"></div>

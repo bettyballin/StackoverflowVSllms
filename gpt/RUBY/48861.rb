@@ -1,0 +1,1 @@
+<%= image_tag @upload.file.thumb.url if @upload.file? %>

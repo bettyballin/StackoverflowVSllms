@@ -1,0 +1,1 @@
+[HttpPost]\npublic JsonResult Submit(Party party)\n{\n    return Json(party);\n}

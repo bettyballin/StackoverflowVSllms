@@ -1,0 +1,1 @@
+[OperationContract]\n[WebGet(UriTemplate = "/{domain}/{username}", ResponseFormat = WebMessageFormat.Xml)]\nIRestResponse GetProfile(String domain, String username);

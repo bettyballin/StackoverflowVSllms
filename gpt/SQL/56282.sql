@@ -1,0 +1,1 @@
+ALTER TABLE your_table DROP COLUMN map;

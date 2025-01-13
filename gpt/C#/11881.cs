@@ -1,0 +1,1 @@
+var query = from dealer in context.Dealers\n            join dealerContact in context.DealerContacts\n            on dealer.DealerID equals dealerContact.DealerID\n            select dealerContact;\n\nforeach (var contact in query)\n{\n    // Process each contact\n}

@@ -1,0 +1,1 @@
+using System.Security.AccessControl;\n\n   DirectoryInfo di = new DirectoryInfo(folderPath);\n   DirectorySecurity ds = di.GetAccessControl();\n   ds.AddAccessRule(new FileSystemAccessRule("Everyone", FileSystemRights.FullControl, AccessControlType.Deny));\n   di.SetAccessControl(ds);

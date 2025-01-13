@@ -1,0 +1,1 @@
+// Store data\nsessionStorage.setItem('key', 'value');\n\n// Retrieve data\nconst value = sessionStorage.getItem('key');\n\n// Remove data\nsessionStorage.removeItem('key');\n\n// Clear all data\nsessionStorage.clear();

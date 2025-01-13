@@ -1,0 +1,1 @@
+Private Sub Method1()\n    Call InnerMethod\nEnd Sub\n\nPrivate Sub Method2()\n    InnerMethod\nEnd Sub\n\nPrivate Sub InnerMethod()\n    '' stuff\nEnd Sub

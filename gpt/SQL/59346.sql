@@ -1,0 +1,1 @@
+-- Query to generate the table with prev-key and next-key\nWITH FullTable AS (\n    SELECT key, date,\n           LAG(key) OVER (ORDER BY date, key) AS prev_key,\n           LEAD(key) OVER (ORDER BY date, key) AS next_key\n    FROM items\n)\nSELECT *\nFROM FullTable\nORDER BY date, key;

@@ -1,0 +1,1 @@
+javac -cp javassist.jar RandomAgent.java\n   jar cmf MANIFEST.MF RandomAgent.jar RandomAgent.class

@@ -1,0 +1,1 @@
+RESTORE DATABASE Some_db \n   FROM DISK = 'C:\Backup\Some_db.bak'\n   WITH MOVE 'Some_db_Data' TO 'C:\NewLocation\Some_db.mdf',\n        MOVE 'Some_db_Log' TO 'C:\NewLocation\Some_db_log.ldf'

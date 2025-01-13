@@ -1,0 +1,1 @@
+git diff --cached > my_change.patch

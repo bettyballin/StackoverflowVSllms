@@ -1,0 +1,1 @@
+// Example to restrict FLIR requests to your domain\nif ($_SERVER['HTTP_REFERER'] != 'http://yourdomain.com') {\n    header('HTTP/1.0 403 Forbidden');\n    exit;\n}

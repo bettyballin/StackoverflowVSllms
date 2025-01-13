@@ -1,1 +1,0 @@
-# ~/.pythonrc\n# enable syntax completion\ntry:\n    import readline\nexcept ImportError:\n    print("Module readline not available.")\nelse:\n    import rlcompleter\n    readline.parse_and_bind("tab: complete")

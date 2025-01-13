@@ -1,0 +1,1 @@
+string result = String.Join(delimiter, list);

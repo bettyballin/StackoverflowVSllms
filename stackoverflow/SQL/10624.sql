@@ -1,1 +1,0 @@
-If ((condition1 OR (condition2 AND condition3))  OR condition4)

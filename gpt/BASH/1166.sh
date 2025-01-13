@@ -1,0 +1,1 @@
+sudo chmod -R 755 /path/to/ZendFramework\n   sudo chown -R www-data:www-data /path/to/ZendFramework

@@ -1,0 +1,1 @@
+[AcceptVerbs(HttpVerbs.Post)]\npublic ActionResult Create([Bind(Exclude="Id")]Contact contact)\n{\n    try\n    {\n        contact.Save();\n        return RedirectToAction("Index");\n    }\n    catch (Exception ex)\n    {\n        return View();\n    }\n}

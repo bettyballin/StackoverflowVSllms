@@ -1,0 +1,1 @@
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=output.pdf input1.ps input2.ps

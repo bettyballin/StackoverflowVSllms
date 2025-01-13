@@ -1,1 +1,0 @@
-def create_f_prime(f):\n    def f_prime(n):\n        f(n)\n        return 1\n    return f_prime

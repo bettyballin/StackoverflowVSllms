@@ -1,0 +1,1 @@
+// Avoid using Response.Write or similar methods in AJAX-enabled pages

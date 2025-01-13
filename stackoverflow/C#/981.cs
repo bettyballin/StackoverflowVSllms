@@ -1,1 +1,0 @@
-public interface IWidgetSelector\n{\n  void SetAvailableWidgets(string[] widgets);\n\n  string SelectedWidget { get; set; }\n}

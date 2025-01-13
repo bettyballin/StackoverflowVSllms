@@ -1,1 +1,0 @@
-ddl.Items.Add(new ListItem(nameList[name].ToString()));

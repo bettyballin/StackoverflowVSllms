@@ -1,0 +1,1 @@
+CREATE TEMPORARY TABLE edges AS\n   SELECT a.set_id AS set1, b.set_id AS set2\n   FROM your_table a\n   JOIN your_table b\n   ON a.element = b.element AND a.set_id != b.set_id;

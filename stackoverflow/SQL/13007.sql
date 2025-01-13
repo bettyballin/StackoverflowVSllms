@@ -1,1 +1,0 @@
-BEGIN TRAN\n\nCREATE TABLE TempTable (c1 INT NULL)\n\nINSERT INTO TempTable (c1) SELECT 1\nIF @@ERROR <> 0\n    GOTO errhandler\n\nINSERT INTO TempTable (c1) SELECT 'ABS'\nIF @@ERROR <> 0\n    GOTO errhandler\n\nPRINT 'no error'\nCOMMIT TRAN\nGOTO exitpoint\n\nerrhandler:\nPRINT 'error' -- Why does it never get here???????\nROLLBACK TRAN\n\nexitpoint:

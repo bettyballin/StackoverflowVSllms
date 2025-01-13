@@ -1,0 +1,1 @@
+$plaintext_password = 'your_password_here';\n$options = [\n    'cost' => 12,\n];\n$hashed_password = password_hash($plaintext_password, PASSWORD_BCRYPT, $options);

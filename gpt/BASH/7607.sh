@@ -1,0 +1,1 @@
+# Example script to copy projects to an external drive\n   cp -r /path/to/projects /path/to/external/drive

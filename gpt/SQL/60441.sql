@@ -1,0 +1,1 @@
+CREATE VIEW EmployeeView AS\nSELECT EmployeeID, FirstName, LastName, DepartmentName\nFROM Employees\nJOIN Departments ON Employees.DepartmentID = Departments.DepartmentID\nWHERE Employees.Status = 'Active';

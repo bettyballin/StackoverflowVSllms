@@ -1,1 +1,0 @@
-Public MustInherit Class ENTBaseDATA(Of T As IENTBaseEntity)\n    Public MustOverride Function [Select]() As List(Of T)\n    Public MustOverride Function [Select](ByVal id As Integer) As T\n    ' and then the other code '\nEnd Class

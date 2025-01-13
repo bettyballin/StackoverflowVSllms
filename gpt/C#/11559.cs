@@ -1,0 +1,1 @@
+// Assuming dataGridView1 is your DataGridView instance\n// Change the style of the cell at row 0, column 1\n\ndataGridView1.Rows[0].Cells[1].Style.BackColor = Color.Yellow;\ndataGridView1.Rows[0].Cells[1].Style.ForeColor = Color.Red;\ndataGridView1.Rows[0].Cells[1].Style.Font = new Font("Arial", 12, FontStyle.Bold);

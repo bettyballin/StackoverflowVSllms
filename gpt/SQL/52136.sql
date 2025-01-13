@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_SetDateFormat\nON ALL SERVER\nFOR LOGON\nAS\nBEGIN\n    DECLARE @LoginName NVARCHAR(100);\n    SET @LoginName = ORIGINAL_LOGIN();\n\n    -- Replace 'YourAppLogin' with the actual login used by your application\n    IF @LoginName = 'YourAppLogin'\n    BEGIN\n        EXEC SetDateFormat;\n    END;\nEND;

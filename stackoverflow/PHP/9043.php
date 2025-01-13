@@ -1,1 +1,0 @@
-$w = Mage::getSingleton('core/resource')->getConnection('core_write');\n$result = $w->query('select entity_id from catalog_product_entity');\n\nif (!$result) {\n    return false;\n}\n\n$row = $result->fetch(PDO::FETCH_ASSOC);\nif (!$row) {\n    return false;\n}

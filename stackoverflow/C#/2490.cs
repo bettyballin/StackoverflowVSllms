@@ -1,1 +1,0 @@
-Response.ContentType = "application/octet-stream";\nResponse.AppendHeader("Content-Disposition","attachment; filename=logfile.txt");\nResponse.TransmitFile( Server.MapPath("~/logfile.txt") );\nResponse.End();

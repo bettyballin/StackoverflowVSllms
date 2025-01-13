@@ -1,0 +1,1 @@
+#include <vector>\n#include <iostream>\n\nint main() {\n    std::vector<int> vec = {1, 2, 3, 4, 5};\n    std::cout << "Element at index 2: " << vec[2] << std::endl; // Outputs 3\n    return 0;\n}

@@ -1,0 +1,1 @@
+curl -I https://yourwebsite.com/path/to/mediafile.swf

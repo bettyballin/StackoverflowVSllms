@@ -1,0 +1,1 @@
+/* Add this CSS */\n.shrink {\n  transition: height 0.28s ease-out;\n  overflow: hidden;\n  height: 0;\n}

@@ -1,1 +1,0 @@
-<connectionStrings>\n   <add name="db" connectionString="Provider=Microsoft.SQLSERVER.OLEDB.CE.2.0; data source=c:SomePathToSDFfile" />\n</connectionStrings>

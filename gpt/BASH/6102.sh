@@ -1,0 +1,1 @@
+regsvr32 path\to\32-bit\component.dll

@@ -1,1 +1,0 @@
-HttpCookie cookie = new HttpCookie("name", "value");\ncookie.Domain = "cookies.com";

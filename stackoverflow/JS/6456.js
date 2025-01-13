@@ -1,1 +1,0 @@
-if (strValue) {\n    // strValue was non-empty string, true, 42, Infinity, [], ...\n}

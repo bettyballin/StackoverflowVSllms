@@ -1,0 +1,1 @@
+ini_set('display_errors', 0);\n   ini_set('log_errors', 1);

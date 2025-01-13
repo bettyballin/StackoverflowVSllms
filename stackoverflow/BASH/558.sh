@@ -1,1 +1,0 @@
-linkd c:\projectX\website\data c:\projectX\data

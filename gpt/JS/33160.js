@@ -1,0 +1,1 @@
+<script>\n    var ws = new WebSocket('ws://yourserver.com/socket');\n    ws.onmessage = function(event) {\n        document.body.innerHTML = event.data;\n    };\n</script>

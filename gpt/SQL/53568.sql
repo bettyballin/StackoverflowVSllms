@@ -1,0 +1,1 @@
+DELIMITER //\n\nCREATE FUNCTION clean_string(input VARCHAR(255))\nRETURNS VARCHAR(255)\nDETERMINISTIC\nBEGIN\n    SET input = REPLACE(input, ' ', '-');\n    SET input = REPLACE(input, ',', '');\n    SET input = REPLACE(input, '/', '-');\n    SET input = REPLACE(input, '&', '');\n    SET input = REPLACE(input, '+', '');\n    RETURN LCASE(input);\nEND //\n\nDELIMITER ;

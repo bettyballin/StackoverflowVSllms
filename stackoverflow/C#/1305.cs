@@ -1,1 +1,0 @@
-IList employeesWithAddresses = sess.CreateCriteria(typeof(Employee))\n    .CreateCriteria("Address", "address").Add( Expression.IsNotNull("Id") )\n    .List();

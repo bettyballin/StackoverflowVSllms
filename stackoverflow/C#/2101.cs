@@ -1,1 +1,0 @@
-var plainBytes = Encoding.UTF8.GetBytes(plaintext);

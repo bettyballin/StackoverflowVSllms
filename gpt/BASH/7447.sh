@@ -1,0 +1,1 @@
+sudo chown www-data:www-data /var/log/file\n    sudo chmod 664 /var/log/file

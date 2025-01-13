@@ -1,1 +1,0 @@
-$body = $("#div-to-fill");\n$.get ("/testfile.xhtml", function (data)\n{\n    $body.html($(data).children());\n}, 'xml');

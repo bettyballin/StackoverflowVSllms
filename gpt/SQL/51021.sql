@@ -1,0 +1,1 @@
+EXEC sp_addlinkedsrvlogin \n        @rmtsrvname = 'SiminnSrv', \n        @useself = 'false', \n        @rmtuser = 'my_user_name', \n        @rmtpassword = 'my_pass_word';

@@ -1,0 +1,1 @@
+public interface IOfficeWrapper\n{\n    void OpenDocument(string filePath);\n    void SaveDocument(string filePath);\n    // Add more methods as required\n}

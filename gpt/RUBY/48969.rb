@@ -1,0 +1,1 @@
+<%= form_tag whatever_path, method: :get do %>\n  <div><%= submit_tag 'Save' %></div>\n<% end %>

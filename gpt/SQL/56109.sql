@@ -1,0 +1,1 @@
+SELECT *\nFROM YourTable AS T1\nWHERE T1.YourPrimaryKeyField IN (\n    SELECT TOP 2 T2.YourPrimaryKeyField\n    FROM YourTable AS T2\n    WHERE T2.LinkField = T1.LinkField\n    ORDER BY T2.SortField\n)\nORDER BY T1.SortField;

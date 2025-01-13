@@ -1,0 +1,1 @@
+sed -i '1i Column1,Column2,Column3' yourfile.csv

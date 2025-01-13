@@ -1,0 +1,1 @@
+pm install stylelint stylelint-config-standard --save-dev

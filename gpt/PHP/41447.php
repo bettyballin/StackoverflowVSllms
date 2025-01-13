@@ -1,0 +1,1 @@
+class MyCustomException extends Exception {\n    // Custom functionality\n}\n\ntry {\n    // Code that may throw a custom exception\n    if (somethingWentWrong()) {\n        throw new MyCustomException('Something went wrong!');\n    }\n} catch (MyCustomException $e) {\n    // Handle custom exception\n    echo 'Caught custom exception: ',  $e->getMessage(), "\n";\n}

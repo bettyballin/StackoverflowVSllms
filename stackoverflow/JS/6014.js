@@ -1,1 +1,0 @@
-<script>$H.fbconnect.logout();</script>

@@ -1,0 +1,1 @@
+INSERT INTO StoreItems (StoreID, ItemID, IsActive)\nVALUES (1, 2, TRUE);

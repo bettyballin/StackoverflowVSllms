@@ -1,1 +1,0 @@
-svnadmin dump repositorypath | gzip > backupname.svn.gz

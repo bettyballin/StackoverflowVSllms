@@ -1,0 +1,1 @@
+SELECT /*+ INDEX(i dcf_vol_prospect_ids_idx) LEADING(i vol) ALL_ROWS */\n       i.id_number,\n       ...\n  FROM i_table i\n  JOIN vol_table vol on vol.id_number = i.id_number\n  JOIN to_a_bunch_of_other_tables ...\n WHERE i.solicitor_id = '123'\n   AND vol.solicitable_ind = 1;

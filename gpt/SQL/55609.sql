@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_after_insert AFTER INSERT ON main_table\n     FOR EACH ROW\n     BEGIN\n       INSERT INTO intermediate_table (computed_column) VALUES (NEW.some_value);\n     END;

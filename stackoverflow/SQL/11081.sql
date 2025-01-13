@@ -1,1 +1,0 @@
-exec MyStoredProcedure\nselect @@rowcount

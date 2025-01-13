@@ -1,0 +1,1 @@
+#include <windows.h>\n\nvoid AttachDebugger()\n{\n    if (IsDebuggerPresent())\n        return;\n\n    DebugBreak();\n}

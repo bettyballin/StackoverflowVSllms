@@ -1,0 +1,1 @@
+using System;\nusing System.Web;\n\npublic class URLSanitizer\n{\n    public static void Main()\n    {\n        string queryString = "id=4;req=4";\n        string encodedQueryString = HttpUtility.UrlEncode(queryString);\n        Console.WriteLine(encodedQueryString);\n    }\n}

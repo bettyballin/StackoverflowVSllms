@@ -1,0 +1,1 @@
+# Sort by column 1\nsort -k1,1 yourfile.txt -o yourfile.txt\n\n# Sort by column 2\nsort -k2,2 yourfile.txt -o yourfile.txt\n\n# Sort by column 3\nsort -k3,3 yourfile.txt -o yourfile.txt

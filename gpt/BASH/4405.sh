@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Check if Postfix is running\nif systemctl is-active --quiet postfix; then\n  echo "Postfix is running"\nelse\n  echo "Postfix is down" | mail -s "Alert: Postfix down" you@example.com\nfi

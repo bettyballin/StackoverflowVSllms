@@ -1,0 +1,1 @@
+sqlplus your_user/your_password@your_db @backup.sql

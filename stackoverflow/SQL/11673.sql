@@ -1,1 +1,0 @@
-UPDATE tablename SET Amount = (\n    SELECT Amount FROM tablename WHERE ID = 2 )\nWHERE AccNo = 1200

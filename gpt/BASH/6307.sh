@@ -1,0 +1,1 @@
+svn --config-option servers:global:ssh="ssh -vvv" ls svn+ssh://myusername@myhost.com/path/to/svn_repository

@@ -1,0 +1,1 @@
+// ExampleClass.h\nclass CScalar {\npublic:\n    CScalar();\n    CScalar(double value);\n    CScalar(const CScalar &other);\n    ~CScalar();\n};\n\n// ExampleClass.cpp\n#include "ExampleClass.h"\n\nCScalar::CScalar() {}\nCScalar::CScalar(double value) {}\nCScalar::CScalar(const CScalar &other) {}\nCScalar::~CScalar() {}

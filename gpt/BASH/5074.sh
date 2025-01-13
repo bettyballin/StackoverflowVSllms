@@ -1,0 +1,1 @@
+liquibase --url=jdbc:mysql://database.example.com/dbname --username=user --password=pass update

@@ -1,0 +1,1 @@
+public interface ISelectableItem\n{\n    bool IsSelected { get; set; }\n}

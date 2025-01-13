@@ -1,1 +1,0 @@
-<?php\n$p = get_cfg_var('extension_dir');\n$modpath = $p.DIRECTORY_SEPARATOR.'imagick.so';\necho $modpath, is_readable($modpath) ? ' readable':' not readable', "<br />\n";\necho '<pre>';\npassthru('ldd '.$modpath.' 2>&1'); // in case of spaces et al in the path-argument use escapeshellcmd()\necho '</pre>';

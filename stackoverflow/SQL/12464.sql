@@ -1,1 +1,0 @@
-DECLARE @ID     int\n\n\nINSERT ......\nSELECT @ID=scope_identity()

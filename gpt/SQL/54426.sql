@@ -1,0 +1,1 @@
+ANALYZE TABLE page;\n    OPTIMIZE TABLE page;

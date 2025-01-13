@@ -1,0 +1,1 @@
+using System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        Stream resourceStream = ResourceHelper.GetEmbeddedResourceStream("yourfile.xml");\n\n        using (StreamReader reader = new StreamReader(resourceStream))\n        {\n            string content = reader.ReadToEnd();\n            Console.WriteLine(content);\n        }\n    }\n}

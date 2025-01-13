@@ -1,0 +1,1 @@
+try {\n        // Some SharePoint operation\n    } catch (SPException ex) {\n        Console.WriteLine("Error: " + ex.Message); // More specific error messages would be useful\n    }

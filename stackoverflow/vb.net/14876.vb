@@ -1,1 +1,0 @@
-If Not doc.SelectSingleNode("//store[@test='test.doc']") Is Nothing Then\n    Exit Sub\nEnd If

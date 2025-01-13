@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE MONTH(CONVERT(datetime, DTSTAMP)) = 10;

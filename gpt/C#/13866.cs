@@ -1,0 +1,1 @@
+StringBuilder sb = new StringBuilder();\nboolean first = true;\nforeach (string v in values) {\n    if (!first) {\n        sb.append(",");\n    }\n    sb.append(v);\n    first = false;\n}\nString query = String.Concat("INSERT INTO [foo] ([bar]) VALUES(", sb.toString(), ")");

@@ -1,0 +1,1 @@
+#include <windows.h>\n\n// Function to invalidate parent window without affecting child window\nvoid InvalidateParent(HWND hWndParent)\n{\n    // Use RDW_NOCHILDREN to avoid sending WM_PAINT to child windows\n    RedrawWindow(hWndParent, NULL, NULL, RDW_INVALIDATE | RDW_ERASE | RDW_NOCHILDREN);\n}

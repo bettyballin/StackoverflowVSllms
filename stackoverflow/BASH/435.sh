@@ -1,1 +1,0 @@
-sudo chmod -R 755 \xampp\tmp //or should it be 775

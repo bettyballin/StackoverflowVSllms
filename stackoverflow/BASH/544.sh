@@ -1,1 +1,0 @@
-perl -pi -e '$old = $_; s/find/replace/g and warn "${ARGV}[$.]: $old $_"; close ARGV if eof' $1/*.html

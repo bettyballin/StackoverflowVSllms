@@ -1,1 +1,0 @@
-// Define your function ahead of time so that you can reuse it easily.\nvar myMagicFunction = function() { // magic happens here };\n\n// This occurs when your page loads\n$(document).ready(myMagicFunction());\n\n// Assuming that you pass a url and your magic function as the callback\nmyMagicAJAXCall(url, myMagicFunction);

@@ -1,0 +1,1 @@
+// Example using ETag in PHP\n    $etag = md5(serialize($result));\n    header('ETag: ' . $etag);\n\n    if (trim($_SERVER['HTTP_IF_NONE_MATCH']) === $etag) {\n        header('HTTP/1.1 304 Not Modified');\n        exit;\n    }\n\n    // Send the actual response\n    echo json_encode($result);

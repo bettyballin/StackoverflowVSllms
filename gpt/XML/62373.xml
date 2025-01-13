@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <staticContent>\n      <mimeMap fileExtension=".png" mimeType="application/octet-stream" />\n    </staticContent>\n  </system.webServer>\n</configuration>

@@ -1,0 +1,1 @@
+Dim str As String = "123"\n  Dim number As Integer = Integer.Parse(str)

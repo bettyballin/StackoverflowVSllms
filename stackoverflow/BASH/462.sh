@@ -1,1 +1,0 @@
-cleartool find /some/dir -version 'lbtype(LBL_A)' -print | xargs cleartool describe -fmt "%n: %l"

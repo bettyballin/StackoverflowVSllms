@@ -1,0 +1,1 @@
+from scapy.all import *\n\n# Create an Ethernet frame\neth_frame = Ether(dst="ff:ff:ff:ff:ff:ff") / ARP(pdst="192.168.1.1")\n\n# Send the frame\nsendp(eth_frame)

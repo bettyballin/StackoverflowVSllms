@@ -1,0 +1,1 @@
+#include "gtest/gtest.h"\n\n// Function to be tested\nint add(int a, int b) {\n    return a + b;\n}\n\n// Test case\nTEST(AdditionTest, HandlesPositiveInput) {\n    EXPECT_EQ(add(1, 2), 3);\n    EXPECT_EQ(add(2, 3), 5);\n}\n\nint main(int argc, char **argv) {\n    ::testing::InitGoogleTest(&argc, argv);\n    return RUN_ALL_TESTS();\n}

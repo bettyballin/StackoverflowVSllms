@@ -1,1 +1,0 @@
-sprintf("%02d:%02d:%02d", floor($time/3600), floor($time/60)%60, $time%60);

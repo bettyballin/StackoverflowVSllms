@@ -1,0 +1,1 @@
+ActionController::Base.session_store = :active_record_store\n   ActionController::Base.session_options[:session_class] = Sessio

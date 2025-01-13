@@ -1,0 +1,1 @@
+# Install Siege\n   brew install siege\n\n   # Run a basic test\n   siege -c 10 -t 1m http://yourwebapp.com

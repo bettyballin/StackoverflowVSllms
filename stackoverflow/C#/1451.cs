@@ -1,1 +1,0 @@
-Response.Cache.SetNoServerCaching();\nResponse.Cache.SetCacheability(HttpCacheability.NoCache);\nResponse.Cache.SetNoStore();\nResponse.Cache.SetExpires(new DateTime(1900, 01, 01, 00, 00, 00, 00));

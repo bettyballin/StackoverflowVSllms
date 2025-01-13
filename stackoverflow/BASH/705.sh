@@ -1,1 +1,0 @@
-cd ~\nmkdir setups\ncd setups\nwget http://pecl.php.net/get/APC-3.1.2.tgz\ntar -xvf APC-3.1.2.tgz\ncd APC-3.1.2\nphpize && ./configure --with-apxs && make

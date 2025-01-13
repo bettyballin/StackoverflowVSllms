@@ -1,0 +1,1 @@
+function a(given_id) {\n    var id = given_id;\n\n    // Define the method inside the function to access the private variable\n    this.myMethod = function() {\n        alert(id);\n    };\n}\n\n// Create an instance of the object\nvar my_obj = new a('some_id');\n\n// Call the method\nmy_obj.myMethod();  // This will alert 'some_id'

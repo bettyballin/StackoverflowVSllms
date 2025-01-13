@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('.threeimages').each(function(){\n    $(this).DupeHref();\n    });\n});\n\njQuery.fn.DupeHref =  function(){       \n    var target = $(this).find(".text h2 a").attr("href");\n    $(this).find("a").attr("href", target);\n}

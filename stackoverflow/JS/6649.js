@@ -1,1 +1,0 @@
-// setup the form, and handle the success\n$('#myFormId').ajaxForm({\n  success: function() {\n     // do what you are looking to do on \n     // success HERE\n  }\n});\n\n// setup submission on some random button\n$('#someButton').click(function() { \n    // submit the form from a button\n    $('#myFormId').ajaxSubmit(); \n});

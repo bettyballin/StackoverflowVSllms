@@ -1,0 +1,1 @@
+string hostnamePattern = @"^(?!-)[A-Za-z0-9-]{1,63}(?<!-)$";\nRegex hostnameRegex = new Regex(hostnamePattern);

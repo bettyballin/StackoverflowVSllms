@@ -1,1 +1,0 @@
-SELECT owner, table_name\n  FROM dba_tables

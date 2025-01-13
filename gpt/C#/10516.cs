@@ -1,0 +1,1 @@
+public void InsertRecord(YourSubSonicClass record)\n   {\n       // Ensure the GUID property is null before saving\n       record.YourGuidColumn = null;\n       record.Save();\n   }

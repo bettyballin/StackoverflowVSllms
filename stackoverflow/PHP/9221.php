@@ -1,1 +1,0 @@
-$alphas = range('A', 'Z');

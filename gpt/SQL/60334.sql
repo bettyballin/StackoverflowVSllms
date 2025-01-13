@@ -1,0 +1,1 @@
+EXPLAIN SELECT a.id, a.name\n   FROM table1 a\n   JOIN table2 b ON a.id = b.id\n   WHERE b.status = 'active';\n\n   EXPLAIN SELECT a.id, a.name\n   FROM table1 a, table2 b\n   WHERE a.id = b.id\n   AND b.status = 'active';

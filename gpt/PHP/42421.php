@@ -1,0 +1,1 @@
+require_once 'vendor/autoload.php';\n\n    $loader = new \Twig\Loader\FilesystemLoader('path/to/templates');\n    $twig = new \Twig\Environment($loader);\n\n    echo $twig->render('template.html.twig', [\n        'title' => 'My Page Title',\n        'heading' => 'Welcome to My Page',\n        'content' => 'This is the content of the page.'\n    ]);

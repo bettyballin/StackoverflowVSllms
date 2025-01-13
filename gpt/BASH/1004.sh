@@ -1,0 +1,1 @@
+gcc -shared -o myextension.so myextension.o -lphobos2 -ldruntime -I/path/to/python/include -L/path/to/python/libs -lpython3.8

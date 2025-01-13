@@ -1,1 +1,0 @@
-bmFile.Write("\0\0\0\0", (4-(actualWidth%4)));

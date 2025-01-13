@@ -1,0 +1,1 @@
+mysqldiff --server1=root:password@localhost --server2=root:password@localhost db1:db2

@@ -1,0 +1,1 @@
+Dim value As Object = "123"\nDim number As Integer = value ' Implicit conversion, allowed in VB6

@@ -1,1 +1,0 @@
-$result = mysql_query( "select count(id) as num_rows from table" );\n$row = mysql_fetch_object( $result );\n$total = $row->num_rows;

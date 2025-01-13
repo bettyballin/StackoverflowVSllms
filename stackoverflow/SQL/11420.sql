@@ -1,1 +1,0 @@
-update table TBL set FLD = 10 where FLD is null;

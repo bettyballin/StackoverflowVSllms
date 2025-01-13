@@ -1,0 +1,1 @@
+SELECT your_columns\nFROM your_table\nORDER BY some_column\nFETCH FIRST 2 ROWS ONLY;

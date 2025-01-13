@@ -1,0 +1,1 @@
+INSERT INTO table_name (column1, column2, column3)\nVALUES (value1, value2, value3)\nON DUPLICATE KEY UPDATE\n    column1 = VALUES(column1),\n    column2 = VALUES(column2),\n    column3 = VALUES(column3);

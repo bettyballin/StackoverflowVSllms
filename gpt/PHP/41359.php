@@ -1,0 +1,1 @@
+<?php\n// Define the file to be printed\n$file = '/path/to/your/file.txt';\n\n// Use the lp command to print the file\nexec("lp " . escapeshellarg($file), $output, $return_var);\n\n// Check if the print command was successful\nif ($return_var == 0) {\n    echo "Print job sent successfully.";\n} else {\n    echo "Failed to send print job.";\n    print_r($output);\n}\n?>

@@ -1,0 +1,1 @@
+string cat = "cat";\nstring s = String.Format("The {0} in the hat", cat);

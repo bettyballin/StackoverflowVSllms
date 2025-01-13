@@ -1,0 +1,1 @@
+setx PATH "%PATH%;C:\oracle\instantclient_19_8"

@@ -1,0 +1,1 @@
+sudo htpasswd -cm /etc/apache2/dav_svn.passwd <username>

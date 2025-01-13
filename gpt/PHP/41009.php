@@ -1,0 +1,1 @@
+<?php\n   /**\n    * @template example_template\n    * @content_area header: Header Content\n    * @content_area main: Main Content\n    * @content_area footer: Footer Content\n    */\n\n   // Template code here

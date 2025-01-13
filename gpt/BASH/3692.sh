@@ -1,0 +1,1 @@
+# Example using Git\n   git init\n   git add .\n   git commit -m "Initial commit of stored procedures"

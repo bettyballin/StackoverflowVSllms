@@ -1,0 +1,1 @@
+using System;\nusing System.Text;\n\nclass Program\n{\n    static void Main()\n    {\n        char[] chars = { (char)149 };\n        byte[] bytes = Encoding.UTF8.GetBytes(chars);\n        Console.WriteLine(bytes[0]);  // Output depends on the UTF-8 encoding of the character\n    }\n}

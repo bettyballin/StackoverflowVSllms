@@ -1,0 +1,1 @@
+$EncryptedFile = "C:\path\to\your\file.tar.gz.gpg"\n     $DecryptedFile = "C:\path\to\your\file.tar.gz"\n\n     gpg --output $DecryptedFile --decrypt $EncryptedFile

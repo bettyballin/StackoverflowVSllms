@@ -1,1 +1,0 @@
-XNamespace ns0 = "http://dev1/MyWebService1.wsdl";\n\nString result = doc.Descendants(ns0 + "result").First().Value;

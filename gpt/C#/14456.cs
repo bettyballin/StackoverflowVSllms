@@ -1,0 +1,1 @@
+public int[] Params\n{\n    get\n    {\n        // Implement your getter logic here\n        return _Params;\n    }\n    set\n    {\n        // Implement your setter logic here\n        _Params = value;\n    }\n}\n\nprivate int[] _Params;

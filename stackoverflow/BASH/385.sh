@@ -1,1 +1,0 @@
-sudo lsof | grep (your device name here)

@@ -1,1 +1,0 @@
-portalReq.Text = "<input type=""hidden"" name=""portalReq"" value='" & HTMLENCODE(RequestXML) & "' />"

@@ -1,1 +1,0 @@
-class C<T> {\n    void Method(SomeClass<T> obj) {\n        list.Add(obj);\n    }\n    List<SomeClass<T>> list = new List<SomeClass<T>>();\n}

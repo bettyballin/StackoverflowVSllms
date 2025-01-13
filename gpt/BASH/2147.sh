@@ -1,0 +1,1 @@
+flatpak-builder --repo=myapp-repo build-dir myapp.json\n   flatpak build-bundle myapp-repo myapp.flatpak com.example.MyApp

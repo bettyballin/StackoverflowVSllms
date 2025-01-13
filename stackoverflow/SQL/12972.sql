@@ -1,1 +1,0 @@
-SELECT COALESCE(c.price, r.price) AS price\nFROM regPrice r LEFT OUTER JOIN custPrice c\n ON (r.itemID = c.itemID AND c.acct = ?)\nWHERE r.itemID = ?;

@@ -1,1 +1,0 @@
-CREATE TABLE people\n             (id      int, \n              name    string, \n              score   int)

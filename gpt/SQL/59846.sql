@@ -1,0 +1,1 @@
+CREATE PROCEDURE UpdateMyTable\n    @PrimaryKey INT,\n    @Value1 NVARCHAR(50),\n    @Value2 NVARCHAR(50)\nAS\nBEGIN\n    UPDATE myTable\n    SET column1 = @Value1, \n        column2 = @Value2\n    WHERE actualPrimaryKey = @PrimaryKey;\nEND;

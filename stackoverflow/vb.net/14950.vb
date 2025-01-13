@@ -1,1 +1,0 @@
-UltraPictureBox1.Image = _\n    My.Resources.ResourceManager.GetObject(object_name_as_string)

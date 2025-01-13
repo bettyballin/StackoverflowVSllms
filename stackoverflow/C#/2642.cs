@@ -1,1 +1,0 @@
-var sorted = table.Rows.Cast<DataRow>().OrderBy(row => your code);\nint sequence = 0;\nforeach(var row in sorted)\n{\n    row["sequence"] = sequence++;\n}

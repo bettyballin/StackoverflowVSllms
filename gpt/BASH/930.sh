@@ -1,0 +1,1 @@
+sudo apt-get install libpoppler-glib-dev

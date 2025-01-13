@@ -1,1 +1,0 @@
-// New line is required to split non-blank lines\npreg_replace("/(^[\r\n]*|[\r\n]+)[\s\t]*[\r\n]+/", "\n", $string);

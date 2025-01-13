@@ -1,1 +1,0 @@
-Public Sub DoSomething()\n  MsgBox "Foo"\nEnd Sub

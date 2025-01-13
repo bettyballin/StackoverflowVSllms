@@ -1,1 +1,0 @@
-SELECT id.owner-name, b1.name "book1-name", b2.name "book2-name"\nFROM id\nLEFT JOIN book-name "b1" ON b1.id = id.book-id1\nLEFT JOIN book-name "b2" ON b2.id = id.book-id2

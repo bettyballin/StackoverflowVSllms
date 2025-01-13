@@ -1,1 +1,0 @@
-function removeClassForIE() {\n\n    // Look at userAgent to test for IE\n    if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) {\n\n        var divs = document.getElementsByTagName("div");\n        for (var i = 0; i < divs.length; i++) {\n\n             if (divs[i].className == "myClassName") {\n                 divs[i].className = "";\n            }\n        }\n    }\n}

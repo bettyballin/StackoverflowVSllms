@@ -1,0 +1,1 @@
+var params = {\n    wmode: "opaque"\n};

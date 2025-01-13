@@ -1,0 +1,1 @@
+* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nhtml, body {\n  height: 100%;\n}\n\n.container {\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n}\n\n.content {\n  flex: 1;\n}\n\nfooter {\n  background: #333;\n  color: white;\n  text-align: center;\n  padding: 1em;\n}

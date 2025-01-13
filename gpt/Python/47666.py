@@ -1,0 +1,1 @@
+def strip_leading_digit(number):\n    import math\n    num_digits = math.floor(math.log10(number)) + 1\n    divisor = 10 ** (num_digits - 1)\n    leading_digit = number // divisor\n    return number - (leading_digit * divisor)\n\n# Example usage:\nnumber = 12345\nresult = strip_leading_digit(number)\nprint(result)  # Output: 2345

@@ -1,0 +1,1 @@
+if (typeof myFunc === 'function') {\n    // myFunc is a function\n}

@@ -1,1 +1,0 @@
-var that = this;\nPeopleServices.getFirstName(id, function (x) { \n                                    that.initializeStep3(x);\n                                } \n);

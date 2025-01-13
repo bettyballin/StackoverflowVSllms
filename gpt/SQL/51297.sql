@@ -1,0 +1,1 @@
+SELECT *\nFROM YourTableName\nWHERE YourColumnName IN (1, 2, 3, ..., 400);

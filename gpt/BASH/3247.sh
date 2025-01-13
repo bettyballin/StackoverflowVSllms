@@ -1,0 +1,1 @@
+#!/bin/bash\nsqlplus username/password@database <<EOF\ndefine ORACLE_HOME='$ORACLE_HOME'\n@your_sql_script.sql\nEOF

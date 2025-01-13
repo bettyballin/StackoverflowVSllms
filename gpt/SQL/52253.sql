@@ -1,0 +1,1 @@
+-- Creating a User Defined Data Type\nCREATE TYPE PhoneNumber FROM VARCHAR(15) NOT NULL;\n\n-- Using the UDT in a table\nCREATE TABLE Contacts (\n    ContactID INT PRIMARY KEY,\n    Name NVARCHAR(100),\n    PhoneNumber PhoneNumber\n);

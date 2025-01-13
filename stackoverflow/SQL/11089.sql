@@ -1,1 +1,0 @@
-SELECT forums.*, max(comments.date) as last_comment\nFROM forums \nLEFT OUTER JOIN threads ON forums.forum_id = threads.forum_id\nLEFT OUTER JOIN comments ON threads.thread_id = comments.comment_thread_id\nGROUP BY forums.forum_id\nORDER BY forum_order ASC

@@ -1,1 +1,0 @@
-using System.Data.EntityClient;\n...\nEntityConnection conn = new EntityConnection(myContext.Connection.ConnectionString);\nconn.Open();\nEntityCommand cmd = conn.CreateCommand();\ncmd.CommandText = @"Select t.MyValue From MyEntities.MyTable As t";\nvar queryExpression = cmd.Expression;\n....\nconn.Close();

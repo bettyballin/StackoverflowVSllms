@@ -1,1 +1,0 @@
-$result = mysql_query("SELECT COUNT(*) FROM News");\n$row = mysql_fetch_assoc($result);\n$size = $row['COUNT(*)'];

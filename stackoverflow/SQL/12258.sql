@@ -1,1 +1,0 @@
-IF <some condition>\nBEGIN\n   RAISERROR ('condition doesn't satisfy something', 16, 1)\n   ROLLBACK TRANSACTION\nEND

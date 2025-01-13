@@ -1,0 +1,1 @@
+original_list = ["apple", "banana", "cherry", "date", "elderberry"]\n# Copy portion of the list from index 1 to 3 (inclusive of start, exclusive of end)\nnew_list = original_list[1:4]\nprint(new_list)  # Output: ['banana', 'cherry', 'date']

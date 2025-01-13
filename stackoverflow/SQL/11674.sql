@@ -1,1 +1,0 @@
-select main_cat_id , count(*) as total\nfrom category\nwhere ( main_cat_id in (select categoryid from products) \n                       OR \n       sub_cat_id in (select categoryid from products)\n       )\ngroup by main_cat_id \norder by total desc

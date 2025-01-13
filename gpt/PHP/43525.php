@@ -1,0 +1,1 @@
+function func(...$args) {\n    foreach ($args as $arg) {\n        echo $arg . "\n";\n    }\n}\n\nfunc("hello", "ya", "hi", "blah", "test", "go");

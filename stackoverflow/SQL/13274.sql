@@ -1,1 +1,0 @@
-select 'INSERT INTO TABLE1 (f1, f2, f3, f4 ...) values ('\n       ||t.f1||','\n       ||CASE\n             WHEN t.f2 > 0 THEN '1'\n             ELSE '0'\n         END||','||t.f2\n  from table2 t , table3 t3

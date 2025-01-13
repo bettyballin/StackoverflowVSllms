@@ -1,0 +1,1 @@
+<ItemGroup>\n     <None Update="FILES\**\*">\n       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>\n     </None>\n   </ItemGroup>

@@ -1,0 +1,1 @@
+svn diff -rA:B > changes.diff

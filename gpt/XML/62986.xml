@@ -1,0 +1,1 @@
+<beans default-lazy-init="false">\n    <bean id="myBean" class="com.example.MyBean" depends-on="beanA,beanB"/>\n    <bean id="beanA" class="com.example.BeanA"/>\n    <bean id="beanB" class="com.example.BeanB"/>\n</beans>

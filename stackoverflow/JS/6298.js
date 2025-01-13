@@ -1,1 +1,0 @@
-$("<div>Hello</div>").hide().appendTo("somePlace").fadeIn("fast");

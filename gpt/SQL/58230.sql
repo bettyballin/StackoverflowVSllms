@@ -1,0 +1,1 @@
+UPDATE Milestones SET MilestoneID = NEWID() WHERE MilestoneID IS NULL;\nUPDATE Categories SET CategoryID = NEWID() WHERE CategoryID IS NULL;\nUPDATE Skills SET SkillID = NEWID() WHERE SkillID IS NULL;\nUPDATE PayRates SET RateID = NEWID() WHERE RateID IS NULL;\nUPDATE Tasks SET TaskID = NEWID() WHERE TaskID IS NULL;

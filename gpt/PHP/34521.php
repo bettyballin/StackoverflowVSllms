@@ -1,0 +1,1 @@
+$config['encryption_key'] = 'YOUR_ENCRYPTION_KEY';

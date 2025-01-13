@@ -1,0 +1,1 @@
+string connectionString = "Data Source=ORCL;User Id=myUsername;Password=myPassword;";

@@ -1,0 +1,1 @@
+public MainForm()\n{\n    InitializeComponent();\n    // Ensure the labels are initialized, example:\n    myGameCountLbl = new Label();\n    myGameCountLbl.Text = "Initial Text";\n    this.Controls.Add(myGameCountLbl);\n\n    compGameCountLbl = new Label();\n    compGameCountLbl.Text = "Initial Text";\n    this.Controls.Add(compGameCountLbl);\n}

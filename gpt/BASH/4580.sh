@@ -1,0 +1,1 @@
+strace /path/to/application  # Linux\n     sudo dtruss /path/to/application  # OS X

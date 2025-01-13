@@ -1,0 +1,1 @@
+using (var context = new YourDbContext())\n   {\n       var results = from item in context.YourTable\n                     where item.SomeColumn == someValue\n                     select item;\n\n       foreach (var result in results)\n       {\n           Console.WriteLine(result.SomeColumn);\n       }\n   }

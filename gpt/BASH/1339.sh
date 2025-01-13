@@ -1,0 +1,1 @@
+CFLAGS = -O2 -Wall -Wextra\n\nall: myprogram\n\nmyprogram: myprogram.o\n    gcc $(CFLAGS) -o myprogram myprogram.o\n\nmyprogram.o: myprogram.c\n    gcc $(CFLAGS) -c myprogram.c

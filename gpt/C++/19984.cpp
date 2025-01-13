@@ -1,0 +1,1 @@
+STDMETHODIMP CMyClass::MyMethod(BSTR input, BSTR* output)\n    {\n        // Example implementation\n        CComBSTR result(L"Hello, ");\n        result.AppendBSTR(input);\n        *output = result.Detach();\n        return S_OK;\n    }

@@ -1,1 +1,0 @@
-second.data.find('.info').append(data);

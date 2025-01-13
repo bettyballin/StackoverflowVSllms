@@ -1,1 +1,0 @@
-<util:element elementName="button" name="btn1" disabled="$(isDisabled ? 'disabled' : '')"/>

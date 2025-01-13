@@ -1,0 +1,1 @@
+chmod 600 /path/to/jmxremote.password\n   chmod 600 /path/to/jmxremote.access

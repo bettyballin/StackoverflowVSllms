@@ -1,1 +1,0 @@
-def self.default_region\n  @@default_region ||= Region.find_by_uri("whistler")\nend

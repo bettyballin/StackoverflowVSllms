@@ -1,0 +1,1 @@
+cd /usr/local/src\n   wget https://www.php.net/distributions/php-5.x.x.tar.gz  # Replace with the correct version\n   tar -xzvf php-5.x.x.tar.gz\n   cd php-5.x.x

@@ -1,0 +1,1 @@
+sudo cp -r /var/lib/mysql /var/lib/mysql1\nsudo chown -R mysql:mysql /var/lib/mysql1

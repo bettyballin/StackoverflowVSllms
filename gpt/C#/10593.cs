@@ -1,0 +1,1 @@
+protected override void OnPreRender(EventArgs e)\n{\n    base.OnPreRender(e);\n\n    if (this.Visible)\n    {\n        // Your custom logic when the control is visible\n    }\n}

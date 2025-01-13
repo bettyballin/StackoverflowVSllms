@@ -1,1 +1,0 @@
-var i;\nvar state = "1";\nfor(i = 0; i < list.options.length; i++){\n    state += "|" + list.options[i].text + "|" + list.options[i].value;\n}\neval("document.forms[0]." + list.id + "_State.value = state");

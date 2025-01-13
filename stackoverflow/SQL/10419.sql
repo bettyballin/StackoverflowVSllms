@@ -1,1 +1,0 @@
-CREATE TABLE test (tst_test VARCHAR2(200));\n\nCREATE INDEX ix_re_1 ON test(REGEXP_REPLACE(REGEXP_SUBSTR(tst_test, 'KEY1=[^,]*'), 'KEY1=([^,]*)', '\1'))\n\nSELECT  *\nFROM    TEST\nWHERE   REGEXP_REPLACE(REGEXP_SUBSTR(TST_TEST, 'KEY1=[^,]*'), 'KEY1=([^,]*)', '\1') = 'TEST'

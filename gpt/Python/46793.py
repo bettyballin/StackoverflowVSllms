@@ -1,0 +1,1 @@
+import requests\n\nservice_url = "https://your_wcf_service_endpoint"\nheaders = {\n    'Authorization': f'Bearer {token}'\n}\n\nresponse = requests.get(service_url, headers=headers)\nprint(response.json())

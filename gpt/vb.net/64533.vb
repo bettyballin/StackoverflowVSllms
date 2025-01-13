@@ -1,0 +1,1 @@
+Sub RemoveDefaultConstraint()\n    Dim db As DAO.Database\n    Dim tdf As DAO.TableDef\n    Dim fld As DAO.Field\n    \n    Set db = CurrentDb()\n    Set tdf = db.TableDefs("YourTableName")\n    Set fld = tdf.Fields("YourColumnName")\n    \n    ' Remove the default value\n    fld.DefaultValue = ""\n    \n    Set fld = Nothing\n    Set tdf = Nothing\n    Set db = Nothing\nEnd Sub

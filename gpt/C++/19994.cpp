@@ -1,0 +1,1 @@
+extern "C" __declspec(dllexport) void __stdcall MyFunction(double param);

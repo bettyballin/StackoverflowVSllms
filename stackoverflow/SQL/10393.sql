@@ -1,1 +1,0 @@
-SELECT Ville\nFROM tblLstManufacturiers\nWHERE province = N'Québec' COLLATE Latin1_General_CS_AI

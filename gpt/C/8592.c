@@ -1,0 +1,1 @@
+#pragma clang optimize off\n// Code that causes issues with optimization\n#pragma clang optimize o

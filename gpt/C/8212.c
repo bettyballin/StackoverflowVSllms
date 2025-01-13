@@ -1,0 +1,1 @@
+#include <sal.h>   // Include SAL header first\n#include <sitelock.h>  // Then include sitelock header

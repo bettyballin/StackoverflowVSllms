@@ -1,0 +1,1 @@
+EXPLAIN SELECT \n    routes.*, \n    a1.name AS origin_name, \n    a2.name AS destination_name \nFROM \n    routes \nLEFT JOIN \n    airports a1 ON a1.IATA = routes.origin \nLEFT JOIN \n    airports a2 ON a2.IATA = routes.destination \nWHERE \n    routes.carrier = 'Carrier Name';

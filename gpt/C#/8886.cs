@@ -1,0 +1,1 @@
+using System;\nusing System.Threading;\n\nclass Program\n{\n    static void Main()\n    {\n        Console.WriteLine("Sleeping for 50 milliseconds...");\n        Thread.Sleep(50);\n        Console.WriteLine("Awake now!");\n    }\n}

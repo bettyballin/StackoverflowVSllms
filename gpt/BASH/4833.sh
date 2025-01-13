@@ -1,0 +1,1 @@
+jpegtran -copy none -optimize -perfect -trim -outfile output.jpg -crop WxH+X+Y input1.jpg input2.jpg

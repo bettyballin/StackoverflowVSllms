@@ -1,0 +1,1 @@
+-- Increment vote count when a new vote is inserted\nCREATE TRIGGER after_vote_insert\nAFTER INSERT ON Votes\nFOR EACH ROW\nBEGIN\n  UPDATE Question\n  SET votes = votes + 1\n  WHERE id = NEW.question_id;\nEND;

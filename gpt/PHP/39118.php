@@ -1,0 +1,1 @@
+// File1.php\nrequire_once 'File2.php';\n\n// File2.php\nrequire_once 'File3.php';\n\n// File3.php\nrequire_once 'File4.php';

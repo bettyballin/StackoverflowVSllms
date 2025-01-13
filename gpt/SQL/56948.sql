@@ -1,0 +1,1 @@
+SELECT FileId, Value\n   FROM FileMetrics fm1\n   WHERE Revision <= 7\n   AND NOT EXISTS (\n       SELECT 1\n       FROM FileMetrics fm2\n       WHERE fm2.FileId = fm1.FileId\n       AND fm2.Revision > fm1.Revision\n       AND fm2.Revision <= 7\n   );

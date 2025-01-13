@@ -1,1 +1,0 @@
-{"data-file": encodeURIComponent("/mydata?q=" + encodeURIComponent(x) + "&p=" + encodeURIComponent(y))}

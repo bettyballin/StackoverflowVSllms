@@ -1,0 +1,1 @@
+[DataContract]\npublic class MyMethodParams\n{\n    [DataMember]\n    public int Foo { get; set; }\n\n    [DataMember]\n    public string Bar { get; set; }\n}

@@ -1,0 +1,1 @@
+from django.urls import re_path\nfrom your_app.consumers import SessionConsumer\n\nwebsocket_urlpatterns = [\n    re_path(r'ws/session/$', SessionConsumer.as_asgi()),\n]

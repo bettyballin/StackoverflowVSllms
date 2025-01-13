@@ -1,0 +1,1 @@
+Dim mainString As String = "Hello, welcome to the world of VB.NET"\nDim subString As String = "welcome"\nDim position As Integer\n\nposition = mainString.IndexOf(subString)\n\nIf position <> -1 Then\n    Console.WriteLine("Substring found at position: " & position)\nElse\n    Console.WriteLine("Substring not found.")\nEnd If

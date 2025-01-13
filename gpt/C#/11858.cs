@@ -1,0 +1,1 @@
+using System.ServiceModel;\n\n[ServiceContract]\npublic interface IMyService\n{\n    [OperationContract]\n    string DoWork();\n}\n\npublic class MyService : IMyService\n{\n    public string DoWork()\n    {\n        return "Work done";\n    }\n}

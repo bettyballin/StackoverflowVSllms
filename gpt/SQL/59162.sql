@@ -1,0 +1,1 @@
+SELECT \n    ROW_NUMBER() OVER (ORDER BY some_column) AS row_num,\n    name\nFROM \n    friends;

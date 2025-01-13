@@ -1,1 +1,0 @@
-<fo:block>\n    <fo:block>\n        BLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLA \n    </fo:block>\n    <fo:block-container position="absolute" \n                        top="30pt" left="30pt" height="16pt" width="100%">\n        <fo:block font="48pt Arial" color="red">absolute</fo:block>\n    </fo:block-container>\n</fo:block>

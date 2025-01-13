@@ -1,0 +1,1 @@
+stsadm -o backup -url http://your-site-collection-url -filename backupfile.bak

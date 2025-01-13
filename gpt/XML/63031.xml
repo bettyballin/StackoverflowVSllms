@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>net.bytebuddy</groupId>\n    <artifactId>byte-buddy</artifactId>\n    <version>1.11.22</version>\n</dependency>

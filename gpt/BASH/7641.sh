@@ -1,0 +1,1 @@
+{\n    echo "CREATE TABLE keyterms_frq ("\n    echo "    filename VARCHAR(20),"\n    cat fields.sql\n    echo "    PRIMARY KEY (filename)"\n    echo ");"\n} > create_table.sql

@@ -1,1 +1,0 @@
-select shop_id, count(1) from TABLE_NAME\n  group by shop_id

@@ -1,1 +1,0 @@
-class Abstract {\npublic:\n   virtual void pure_virtual(int x) = 0;\n};\n\nvoid Abstract::pure_virtual(int x) {\n   // do something\n}\n\n\nclass Child : public Abstract {\n    virtual void pure_virtual(int x);\n};\n\nvoid Child::pure_virtual(int x) {\n    // do something with x\n    Abstract::pure_virtual();\n}

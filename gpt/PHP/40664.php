@@ -1,0 +1,1 @@
+$bigArr = array(\n    'level' => array(\n        array(\n            'lvlName' => 'name',\n            'lvlEnt' => 'ent'\n        )\n    ),\n    'title' => array(\n        array(\n            'title' => 'a title',\n            'titleDesc' => 'desc here'\n        )\n    ),\n    'navBar' => 'Products',\n    'pageContent' => 'About'\n);\n\necho $bigArr['pageContent'];

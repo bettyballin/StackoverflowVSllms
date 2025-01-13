@@ -1,0 +1,1 @@
+(function() {\n    if (!localStorage.getItem('windowToken')) {\n        localStorage.setItem('windowToken', 'token-' + Date.now() + '-' + Math.random());\n    }\n})();

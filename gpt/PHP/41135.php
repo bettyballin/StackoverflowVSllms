@@ -1,0 +1,1 @@
+// main.php\nrequire_once 'ProductWidget.php';\n\n// Load the widget with specific parameters\n$params = ['category' => 'electronics'];\nloadProductWidget($params);

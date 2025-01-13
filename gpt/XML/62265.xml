@@ -1,0 +1,1 @@
+<mx:ViewStack id="viewStack" creationPolicy="all" show="checkAllValidDeferred()">\n        <!-- Your views here -->\n    </mx:ViewStack>

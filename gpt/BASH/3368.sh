@@ -1,0 +1,1 @@
+php worker_script.php &

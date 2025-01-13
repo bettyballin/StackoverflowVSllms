@@ -1,1 +1,0 @@
-$_SESSION['valid_username']

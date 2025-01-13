@@ -1,0 +1,1 @@
+string needle = "example";\nFooObj result = _list.Find(delegate(FooObj foo) {\n    return foo.Name == needle;\n});

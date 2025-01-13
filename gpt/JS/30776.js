@@ -1,0 +1,1 @@
+var order = $('ul').sortable('serialize');\n\n$.post('ajax.php', {\n    action: 'updateOrder',\n    order: order\n}, function(response) {\n    // handle the response here\n});

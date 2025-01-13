@@ -1,0 +1,1 @@
+$old = array(\n    "FirstKey" => "value1",\n    "secondkey" => "value2",\n    "ThirdKey" => "value3"\n);\n\n$new = array_change_key_case($old, CASE_LOWER);\n\nprint_r($new);

@@ -1,0 +1,1 @@
+m myobject.o\n   objdump -t myobject.o

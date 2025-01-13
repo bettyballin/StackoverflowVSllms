@@ -1,0 +1,1 @@
+import numpy as np\nfrom scipy.stats import kendalltau\n\nlist1 = [1, 2, 3, 4]\nlist2 = [1, 3, 2, 4]\n\ntau, p_value = kendalltau(list1, list2)\n\nprint(f"Kendall's tau: {tau}")\nprint(f"P-value: {p_value}")

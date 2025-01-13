@@ -1,0 +1,1 @@
+/* Apply style to preformatted code blocks */\npre {\n    overflow: auto;\n}\n\n/* Target IE7 specifically to adjust the padding */\n*+html pre {\n    overflow: auto;\n    padding-bottom: 14px; /* Adjust the padding to fit the scrollbar height */\n}

@@ -1,0 +1,1 @@
+STDAPI DllGetClassObject(REFCLSID rclsid, REFIID riid, LPVOID* ppv) {\n        // Code to return a class factory\n        return S_OK;\n    }

@@ -1,1 +1,0 @@
-return HttpResponse('\n'.join(results), mimetype='text/plain')

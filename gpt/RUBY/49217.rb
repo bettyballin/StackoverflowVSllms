@@ -1,0 +1,1 @@
+require 'open-uri'\nrequire 'csv'  # FasterCSV is now part of the standard library as CSV\n\nurl = 'http://www.testing.com/test.csv'\ncsv_content = URI.open(url).read\n\nrecords = CSV.parse(csv_content, headers: true, header_converters: :symbol)\n\n# Now you can work with the 'records' variable\nrecords.each do |row|\n  puts row.inspect\nend

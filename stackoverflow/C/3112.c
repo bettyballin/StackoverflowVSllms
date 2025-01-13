@@ -1,1 +1,0 @@
-wprintf(L"%s", "test");

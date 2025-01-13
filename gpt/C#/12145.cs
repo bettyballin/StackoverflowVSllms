@@ -1,0 +1,1 @@
+if (myGuid == Guid.Empty)\n{\n    // Handle the case where the GUID is uninitialized or invalid\n}

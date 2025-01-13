@@ -1,0 +1,1 @@
+#!/bin/bash\n\n   while true; do\n       sleep 0.5\n       CURRENT_WINDOW=$(xdotool getwindowfocus getwindowname)\n       if [[ "$CURRENT_WINDOW" == *"Emacs"* ]]; then\n           ~/switch_to_emacs.sh\n       else\n           ~/switch_from_emacs.sh\n       fi\n   done

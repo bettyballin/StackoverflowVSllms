@@ -1,0 +1,1 @@
+GRANT ALTER ON <table> TO <username>;

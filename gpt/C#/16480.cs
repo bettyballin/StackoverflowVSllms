@@ -1,0 +1,1 @@
+[assembly: AssemblyKeyFile(@"..\..\myKey.snk")]\n\npublic class Program\n{\n    public static void Main()\n    {\n        Console.WriteLine("Hello, world!");\n    }\n}

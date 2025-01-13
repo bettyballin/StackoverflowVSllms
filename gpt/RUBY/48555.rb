@@ -1,0 +1,1 @@
+# Assuming @news_writers is an array of Role objects\nnews_writer_ids = @news_writers.map(&:id)\n\n# Find all news items written by these news writers\n@news = News.where(role_id: news_writer_ids)

@@ -1,0 +1,1 @@
+ALTER TABLE ReferencedTable\n   ADD NewGuidColumn UNIQUEIDENTIFIER;\n   \n   UPDATE ReferencedTable\n   SET NewGuidColumn = (SELECT NewGuidColumn FROM YourTable WHERE YourTable.OldIntPK = ReferencedTable.YourTableFK);

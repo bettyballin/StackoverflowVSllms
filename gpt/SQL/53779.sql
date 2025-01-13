@@ -1,0 +1,1 @@
+SELECT DISTINCT `payer_email` AS `email`\nFROM `database1`.`paypal_table` pt\nWHERE NOT EXISTS (\n    SELECT 1\n    FROM `database2`.`Unsubscribers` u\n    WHERE u.`email` = pt.`payer_email`\n)

@@ -1,0 +1,1 @@
+const puppeteer = require('puppeteer');\n\nasync function generatePDF() {\n  const browser = await puppeteer.launch();\n  const page = await browser.newPage();\n  \n  await page.goto('http://example.com', { waitUntil: 'networkidle2' });\n  await page.pdf({ path: 'example.pdf', format: 'A4' });\n\n  await browser.close();\n}\n\ngeneratePDF();

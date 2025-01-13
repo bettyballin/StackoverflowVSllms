@@ -1,1 +1,0 @@
-if (preg_match('/<img src="([^"]+)"/i', $string, $matches)) {\n    $imageUrl = $matches[1];   \n}

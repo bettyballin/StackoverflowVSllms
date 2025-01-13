@@ -1,0 +1,1 @@
+DateTime date = DateTime.Now;\nstring query = $"select foo from bar where dateColumn = '{date.ToString("yyyyMMdd")}'";

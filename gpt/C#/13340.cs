@@ -1,0 +1,1 @@
+public class StateInfo\n   {\n       public string StateName { get; set; }\n       public int StateValue { get; set; }\n   }

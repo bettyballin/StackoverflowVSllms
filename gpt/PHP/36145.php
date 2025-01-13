@@ -1,0 +1,1 @@
+// PHP example\n   header("Cache-Control: max-age=3600, must-revalidate");\n   header("Pragma: cache");

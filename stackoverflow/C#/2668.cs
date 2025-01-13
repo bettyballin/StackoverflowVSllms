@@ -1,1 +1,0 @@
-myNewRow.myGuidColumn = myGuid == null ? (object)DBNull.Value : myGuid.Value

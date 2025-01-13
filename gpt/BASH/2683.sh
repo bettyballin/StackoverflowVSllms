@@ -1,0 +1,1 @@
+# Download the DBeaver Community Edition\nwget https://dbeaver.io/files/dbeaver-ce-latest-macos.dmg\n\n# Open the DMG file and drag DBeaver to your Applications folder\nopen dbeaver-ce-latest-macos.dmg

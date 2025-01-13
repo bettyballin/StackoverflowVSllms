@@ -1,0 +1,1 @@
+-- Example for setting up a firewall rule\n   EXEC sp_set_firewall_rule 'AllowWebServer', '203.0.113.0', '203.0.113.0';\n   GO

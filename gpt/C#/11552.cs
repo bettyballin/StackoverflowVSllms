@@ -1,0 +1,1 @@
+// Using ActiveRecord to create a safe query\nvar results = ActiveRecordBase<MyEntity>.FindAllByProperty("PropertyName", searchTerm);

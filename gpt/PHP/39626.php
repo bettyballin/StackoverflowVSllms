@@ -1,0 +1,1 @@
+// File: /path/to/your/zend/app/public/cron_task.php\n    <?php\n    // Initialize the Zend Framework application\n    require_once 'path/to/your/zend/app/public/index.php';\n    \n    // Your task logic here\n    echo "Cron job executed successfully!";\n    // Add your actual task logic here\n    ?>

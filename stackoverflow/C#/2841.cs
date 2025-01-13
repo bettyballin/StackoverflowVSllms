@@ -1,1 +1,0 @@
-Request.ServerVariables["LOGON_USER"]  

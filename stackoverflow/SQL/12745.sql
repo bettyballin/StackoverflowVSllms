@@ -1,1 +1,0 @@
-SELECT affiliates.loginid affiliates_loginid, referrers.loginid referrers_loginid \n FROM affiliates \n WHERE affiliates.id NOT IN (Select Distinct referrers.affiliates_id From affiliates)

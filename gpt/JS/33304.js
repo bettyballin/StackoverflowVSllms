@@ -1,0 +1,1 @@
+var $div = $("div");\nvar $p = $div.find("p");\n\n$p.css("color", "red");\n$div.css("background", "yellow");

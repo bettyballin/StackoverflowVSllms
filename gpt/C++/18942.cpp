@@ -1,0 +1,1 @@
+d3dpp.PresentationInterval = D3DPRESENT_INTERVAL_IMMEDIATE;

@@ -1,0 +1,1 @@
+string server = Environment.GetEnvironmentVariable("DB_SERVER");\nstring database = Environment.GetEnvironmentVariable("DB_DATABASE");\nstring userID = Environment.GetEnvironmentVariable("DB_USERID");\nstring password = Environment.GetEnvironmentVariable("DB_PASSWORD");\n\n// Use the variables securely

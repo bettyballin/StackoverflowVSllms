@@ -1,0 +1,1 @@
+<?php\nif (php_sapi_name() === 'cli') {\n    // Code for command-line invocation\n    echo "Invoked from the command line.";\n} else {\n    // Code for web-server invocation\n    echo "Invoked from a web server.";\n}\n?>

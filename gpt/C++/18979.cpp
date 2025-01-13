@@ -1,0 +1,1 @@
+#include <iostream>\n#include <boost/uuid/uuid.hpp>\n#include <boost/uuid/uuid_generators.hpp>\n#include <boost/uuid/uuid_io.hpp>\n\nint main() {\n    // Create a UUID generator\n    boost::uuids::random_generator generator;\n\n    // Generate a UUID\n    boost::uuids::uuid uuid = generator();\n\n    // Print the UUID\n    std::cout << uuid << std::endl;\n\n    return 0;\n}

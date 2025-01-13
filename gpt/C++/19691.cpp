@@ -1,0 +1,1 @@
+m_pDC = new CDC();\nVERIFY(m_pDC->CreateCompatibleDC(sampleDC));\nCBitmap bitmap;\nif (bitmap.CreateCompatibleBitmap(sampleDC, rect.Width(), rect.Height())) {\n    m_pOldBitmap = m_pDC->SelectObject(&bitmap);\n}

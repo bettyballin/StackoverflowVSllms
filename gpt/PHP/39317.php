@@ -1,0 +1,1 @@
+<?php\n$pattern = '/(is|a)/';\n$string = "This is a test";\n\npreg_match_all($pattern, $string, $matches);\n\n$result = implode(' ', $matches[0]);\necho $result; // Output: is is a\n?>

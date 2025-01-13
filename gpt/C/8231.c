@@ -1,0 +1,1 @@
+#ifdef MYAPP_CORE_DATA_BUILD\n// New CoreData related code\n#else\n// Old SQLitePersistentObject related code\n#endif

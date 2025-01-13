@@ -1,0 +1,1 @@
+sed -n '/-- Table structure for table `my_table`/,/-- Table structure for table `/p' full_dump.sql > my_table_dump.sql

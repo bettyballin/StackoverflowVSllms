@@ -1,0 +1,1 @@
+$(document).on('focus', '#birthdate', function() {\n    $(this).datepicker({\n        showOn: 'focus'\n    }).focus();\n});

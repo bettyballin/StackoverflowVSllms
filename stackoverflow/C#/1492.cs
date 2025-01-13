@@ -1,1 +1,0 @@
-[DllImport("yourdllName.dll")]\npublic static extern void init(IntPtr initData, IntPtr key);\n\n[DllImport("yourdllName.dll")]\npublic static extern IntPtr encrpyt(IntPtr inout, unsigned inuputSize, IntPtr key, unsigned secretKeySize);

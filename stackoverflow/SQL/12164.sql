@@ -1,1 +1,0 @@
-declare @backupname nvarchar(100)\nset @backupname = 'northwind_' + getdate() + '.bak'

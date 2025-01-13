@@ -1,0 +1,1 @@
+// IE Margin fix\n$(document).ready(function() {\n  if ($.browser.msie && $.browser.version == 7.0) {\n    $(":input").wrap("<div></div>");\n  }\n});

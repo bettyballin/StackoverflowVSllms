@@ -1,1 +1,0 @@
-delete o1\nfrom   @O as o1\nwhere  ACount = 0 \n       and exists ( select  Month \n                    from    @O o2 \n                    where   o1.Month = o2.Month \n                            and o2.ACount > 0)

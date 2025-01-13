@@ -1,0 +1,1 @@
+Guid emptyGuid = new Guid(); // Generates an empty GUID (00000000-0000-0000-0000-000000000000)\nGuid generatedGuid = Guid.NewGuid(); // Generates a new, unique GUID

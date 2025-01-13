@@ -1,1 +1,0 @@
-Where t.Id <> Guid.Empty

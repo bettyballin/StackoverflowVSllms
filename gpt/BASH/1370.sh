@@ -1,0 +1,1 @@
+WMIC USERACCOUNT WHERE Name='Administrator' RENAME 'NewAdminName'

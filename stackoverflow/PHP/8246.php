@@ -1,1 +1,0 @@
-$s = "15.7T";\n\n$factors = Array('T' => 1000, 'M' => 1000000, 'B' => 1000000000.);\n\n$matches = Array();\nif (0 < preg_match('/([0-9]+(?:\.[0-9]*)?)([TMB])/', $s, $matches)) {\n    print("$s -> " . $matches[1] * $factors[$matches[2]]);\n}

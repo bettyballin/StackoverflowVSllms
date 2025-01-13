@@ -1,0 +1,1 @@
+<ItemGroup>\n  <Reference Include="YourWeakNamedAssembly">\n    <HintPath>path\to\your\weak-named\assembly.dll</HintPath>\n  </Reference>\n</ItemGroup>

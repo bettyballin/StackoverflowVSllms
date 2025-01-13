@@ -1,1 +1,0 @@
-AppDomain.CurrentDomain.SetData("DataDirectory", newpath)

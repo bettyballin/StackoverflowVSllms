@@ -1,0 +1,1 @@
+// Looks for foo.ini in the current working directory\n$ini_array = parse_ini_file("foo.ini");\n\n// Provide a relative path\n$ini_array = parse_ini_file("../config/foo.ini");\n\n// Provide an absolute path\n$ini_array = parse_ini_file("/etc/php/foo.ini");

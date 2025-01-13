@@ -1,1 +1,0 @@
-CREATE TABLE Name (NameID int IDENTITY(1, 1), [Name] varchar(50))\n\nINSERT INTO Name ([Name])\nSELECT DISTINCT [Name]\nFROM Contact\n\nALTER TABLE Contact\n    ADD COLUMN NameID int\n\nUPDATE Contact\nSET NameID = [Name].NameID\nFROM Contact\nINNER JOIN [Name]\n    ON Contact.[Name] = [Name].[Name]\n\nALTER TABLE Contact\n    DROP COLUMN [Name]

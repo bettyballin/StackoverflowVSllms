@@ -1,0 +1,1 @@
+<%\n' Storing a value in session\nSession("UserName") = "George"\n\n' Retrieving a value from session\nDim userName\nuserName = Session("UserName")\n\n' Removing a value from session\nSession.Contents.Remove("UserName")\n%>

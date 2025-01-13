@@ -1,0 +1,1 @@
+sudo mkdir -p /var/svn/repo\n   sudo svnadmin create /var/svn/repo

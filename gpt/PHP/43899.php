@@ -1,0 +1,1 @@
+<?php\n// db_config.php\n$dbconn = pg_connect("host=localhost port=5432 dbname=masi user=masi password=123");\n\nif (!$dbconn) {\n    echo "An error occurred while connecting to the database.\n";\n    exit;\n}\n?>

@@ -1,1 +1,0 @@
-requestContext.HttpContext.Response.Redirect("login.aspx");

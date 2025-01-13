@@ -1,0 +1,1 @@
+<?php\n// Sample PHP code to return a link\necho '<a href="Link.php?action=Delete">Delete</a>';\n?>

@@ -1,0 +1,1 @@
+sudo docker run -d --name my-apache-server -p 80:80 -v /path/to/your/web/files:/usr/local/apache2/htdocs/ httpd

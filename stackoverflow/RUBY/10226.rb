@@ -1,1 +1,0 @@
-def your_instance_variable\n    return "default" unless @your_instance_variable\n    @your_instance_variable\nend

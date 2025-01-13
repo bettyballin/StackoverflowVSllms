@@ -1,0 +1,1 @@
+CREATE OR REPLACE TRIGGER trg_replace_empty_string\n   BEFORE INSERT OR UPDATE ON your_table\n   FOR EACH ROW\n   BEGIN\n     IF :NEW.your_column IS NULL THEN\n       :NEW.your_column := ' ';\n     END IF;\n   END;\n   /

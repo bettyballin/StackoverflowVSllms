@@ -1,0 +1,1 @@
+ALTER TABLE YourTable\n    ALTER COLUMN YourTextColumn VARCHAR(MAX);

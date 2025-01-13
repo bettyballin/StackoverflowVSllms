@@ -1,0 +1,1 @@
+#header {\n    height: 1%;\n    overflow: hidden;\n    white-space: nowrap; /* Prevents wrapping of list items */\n}\n\n#header li {\n    float: left;\n}\n\n#header li a {\n    display: block;\n    height: 28px;\n    width: auto; /* Ensure flexible width */\n    float: left; /* Float the anchor elements */\n}\n\n#header li a span {\n    display: block;\n    height: 28px;\n}

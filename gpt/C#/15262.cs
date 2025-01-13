@@ -1,0 +1,1 @@
+public class MyService : IMyService\n{\n    private readonly HttpServerUtilityBase _server;\n\n    public MyService(HttpServerUtilityBase server)\n    {\n        _server = server ?? throw new ArgumentNullException(nameof(server));\n    }\n\n    // Implement your service methods here\n}

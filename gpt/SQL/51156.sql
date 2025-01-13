@@ -1,0 +1,1 @@
+-- Parent table\nCREATE TABLE Customer (\n    CustomerID INT PRIMARY KEY,\n    Name VARCHAR(100),\n    Email VARCHAR(100)\n);\n\n-- Child table\nCREATE TABLE Order (\n    OrderID INT PRIMARY KEY,\n    OrderDate DATE,\n    CustomerID INT,\n    FOREIGN KEY (CustomerID) REFERENCES Customer(CustomerID)\n);

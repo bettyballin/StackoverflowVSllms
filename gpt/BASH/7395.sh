@@ -1,0 +1,1 @@
+sudo deluser olduser\n   sudo delgroup oldgroup

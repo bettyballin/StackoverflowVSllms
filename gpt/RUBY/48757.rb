@@ -1,0 +1,1 @@
+<%= link_to "FOUR", { action: "testing01_four_log_info", fourth_name: "LA1", testing01_num: "123" }, remote: true, method: :get %>

@@ -1,1 +1,0 @@
-try {\n    document.execCommand("BackgroundImageCache", false, true);\ncatch(e) {}

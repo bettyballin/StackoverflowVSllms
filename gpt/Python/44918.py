@@ -1,0 +1,1 @@
+with open("/sys/power/state", "r") as file:\n    capabilities = file.read().strip()\n    print("Supported power states:", capabilities)

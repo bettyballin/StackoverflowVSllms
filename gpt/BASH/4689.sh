@@ -1,0 +1,1 @@
+mysqldump --quick --single-transaction --skip-lock-tables -u username -p database > dump.sql

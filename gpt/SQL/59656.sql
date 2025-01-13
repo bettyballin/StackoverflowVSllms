@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetRecordsGreaterThan\n    @Threshold INT\nAS\nBEGIN\n    SELECT * \n    FROM mytable \n    WHERE id > @Threshold;\nEND;

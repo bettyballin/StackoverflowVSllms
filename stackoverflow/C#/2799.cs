@@ -1,1 +1,0 @@
-// IntPtr myHandle = ...\nProcess myProcess = Process.GetProcesses().Single(\n    p => p.Id != 0 && p.Handle == myHandle);

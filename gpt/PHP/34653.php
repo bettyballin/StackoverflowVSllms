@@ -1,0 +1,1 @@
+<?php\nclass Helper {\n    public function load($fileName) {\n        include_once $fileName . '.php';\n    }\n}\n?>

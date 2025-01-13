@@ -1,1 +1,0 @@
-int numTransitions(int a)\n{\n  int b = a >> 1; // sign-extending shift properly counts bits at the ends\n  int c = a ^ b;  // xor marks bits that are not the same as their neighbors on the left\n  return CountBits(c); // count number of set bits in c\n}

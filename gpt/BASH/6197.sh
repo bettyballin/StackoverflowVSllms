@@ -1,0 +1,1 @@
+# Read the list of files to keep into a variable\nkeep_files=$(cat list_files)\n\n# Find all hidden files, exclude those in the keep_files list, and delete them\nfind . -type f -iname ".*" | grep -vxFf <(echo "$keep_files") | xargs rm -f

@@ -1,0 +1,1 @@
+<script>\n       $(document).ready(function() {\n           // Event delegation for dynamically added elements\n           $('#tag-list').on('click', '.remove-tag', function() {\n               $(this).closest('.tag-item').remove();\n           });\n       });\n   </script>

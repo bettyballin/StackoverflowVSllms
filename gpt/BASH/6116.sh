@@ -1,0 +1,1 @@
+dd if=/dev/disk1 of=~/Desktop/floppy.img bs=512

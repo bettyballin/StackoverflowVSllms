@@ -1,0 +1,1 @@
+CREATE PROCEDURE SetDateFormat\nAS\nBEGIN\n    SET DATEFORMAT dmy;\nEND;

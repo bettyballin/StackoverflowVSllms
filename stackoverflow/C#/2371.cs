@@ -1,1 +1,0 @@
-public class Book : IBook\n{\n   public string ISBN {get; private set;}\n}

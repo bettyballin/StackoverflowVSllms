@@ -1,0 +1,1 @@
+<?php\n// Indexed array\n$indexedArray = array(1, 2, 3, 4);\n\n// Associative array\n$associativeArray = array("key1" => "value1", "key2" => "value2");\n\n// Mixed array\n$mixedArray = array(1, "key" => "value", 3, "anotherKey" => "anotherValue");\n\nprint_r($indexedArray);\nprint_r($associativeArray);\nprint_r($mixedArray);\n?>

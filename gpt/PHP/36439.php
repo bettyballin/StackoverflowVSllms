@@ -1,0 +1,1 @@
+// PaginationTrait.php\n<?php\ntrait PaginationTrait {\n    public function paginate() {\n        // Pagination logic here\n    }\n\n    public function sort() {\n        // Sorting logic here\n    }\n}\n?>

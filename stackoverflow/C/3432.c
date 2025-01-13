@@ -1,1 +1,0 @@
-unary_function<SomeType, bool>

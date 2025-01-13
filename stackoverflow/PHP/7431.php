@@ -1,1 +1,0 @@
-define('APP_ROOT', dirname(__FILE__));\ndefine('INCLUDE_ROOT', APP_ROOT . "/includes");

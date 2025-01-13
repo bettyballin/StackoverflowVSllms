@@ -1,1 +1,0 @@
-SELECT p1.id, p1.name, COUNT( p2.name ) AS Rank\n    FROM people p1\n    JOIN people p2 \n    ON p1.name < p2.name\n    OR (\n         p1.name = p2.name\n         AND p1.id = p2.id\n    )\nGROUP BY p1.id, p1.name\nORDER BY p1.name DESC , p1.id DESC\nLIMIT 4,1

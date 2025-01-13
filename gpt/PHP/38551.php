@@ -1,0 +1,1 @@
+function sanitizeInput($str) {\n    return preg_replace('/[^0-9\+\-\*\/\(\)\.\s]/', '', $str);\n}

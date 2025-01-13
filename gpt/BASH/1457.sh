@@ -1,0 +1,1 @@
+sc.exe failure YourServiceName reset= 0 actions= restart/60000

@@ -1,1 +1,0 @@
-//onclick for button calls this function\n function Updatelist() {\n var sel = document.getElementbyId("list1");\n var listLength = sel.options.length;\n for(var i=0;i<listLength;i++){\n    if(sel.options[i].selected)\n    document.getElementById("list2").add(new Option(sel.options[i].value));\n  }                  

@@ -1,0 +1,1 @@
+if (Peoples.Any(someone => someone.Name == "foo"))\n{\n    // Found "foo", perform your action here\n}

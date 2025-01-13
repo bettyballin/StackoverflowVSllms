@@ -1,1 +1,0 @@
-listener.Prefixes.Add("http://myip1:8080/app/");

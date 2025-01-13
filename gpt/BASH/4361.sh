@@ -1,0 +1,1 @@
+vswhere.exe -latest -format text > vs_version.txt

@@ -1,1 +1,0 @@
-//set up dataloadoptions\n\nDataLoadOptions options = new DataLoadOptions();\n\noptions.LoadWith<Parent>(item => item.Child);\n\ncontext.LoadOptions = options;\n\nvar children = context.Parent.First().Child;

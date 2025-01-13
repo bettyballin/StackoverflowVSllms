@@ -1,0 +1,1 @@
+<?php\n   $result = $statement->fetchAll(PDO::FETCH_ASSOC);\n\n   foreach ($result as $row) {\n       echo 'User ID: ' . $row['id'] . '<br>';\n       echo 'User Email: ' . $row['email'] . '<br>';\n   }\n   ?>

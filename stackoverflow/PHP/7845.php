@@ -1,1 +1,0 @@
-if ( /* error condition */ )\n{\n  $_SESSION['last_error_id'] = 5;\n  header( 'Location: http://www.example.com/view_category.php?product_category_id=4' );\n}

@@ -1,0 +1,1 @@
+sudo yum update -y\n     sudo yum install memcached -y\n     sudo service memcached start

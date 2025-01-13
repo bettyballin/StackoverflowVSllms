@@ -1,0 +1,1 @@
+// Set the new text for the label\nm_pLabel->SetText(description);\n\n// Redraw the label\nm_pLabel->Redraw();\n\n// Recalculate the layout of the status bar to ensure the label resizes correctly\nm_wndStatusBar.RecalcLayout();

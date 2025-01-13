@@ -1,1 +1,0 @@
-var results = from rs in db.ratesSchedule\n              join ud in db.userdetails on \n                  new { rs.sid, rs.tabletype } equals \n                  new { ud.sid, tabletype = "d" }

@@ -1,0 +1,1 @@
+# Automatically start and reattach to a screen session\n   if [ -z "$STY" ]; then\n       SCREEN_SESSION="my_default_session"\n       screen -S $SCREEN_SESSION -D -R\n   fi

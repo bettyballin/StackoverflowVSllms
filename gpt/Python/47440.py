@@ -1,0 +1,1 @@
+import xml.etree.ElementTree as ET\n\ndef get_inner_xml(element):\n    return ''.join(ET.tostring(e, encoding='unicode') for e in element)\n\n# Example usage\nxml_string = '<p>blah <b>bleh</b> blih</p>'\nroot = ET.fromstring(xml_string)\ninner_xml = get_inner_xml(root)\nprint(inner_xml)

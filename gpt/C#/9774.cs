@@ -1,0 +1,1 @@
+public class AcquiredCertificate\n{\n    public virtual Person Acquirer { get; set; }\n    public virtual Certificate Certificate { get; set; }\n    public virtual DateTime DateAcquired { get; set; }\n}

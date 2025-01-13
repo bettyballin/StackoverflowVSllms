@@ -1,1 +1,0 @@
-PropertyInfo[] propertyInfo = myobject.GetType().GetProperties();

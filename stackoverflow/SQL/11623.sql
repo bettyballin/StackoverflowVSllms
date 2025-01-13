@@ -1,1 +1,0 @@
-SELECT CASE WHEN ROWNUMBER < 4\n           THEN CHAR(65 + ROWNUMBER - 1)\n           ELSE ''\n       AS <WHATEVER>\n       ,X.id\n       ,X.descr\nFROM (\n    SELECT ROW_NUMBER() OVER (ORDER BY <WHATEVER>) AS ROWNUMBER\n        ,id\n        ,descr\n    FROM mytable\n) AS X

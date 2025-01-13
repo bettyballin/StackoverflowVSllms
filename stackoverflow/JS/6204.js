@@ -1,1 +1,0 @@
-// Only ONE ajax call and very simply parsing... \n$.get('textes.html', {}, function(data) {\n    var $response = $('<div />').html(data);\n    var $nicolas = $response.find('#nicolas')\n    var $antoine = $response.find('#antoine');\n    $('#right').append($nicolas).append($antoine);\n},'html');

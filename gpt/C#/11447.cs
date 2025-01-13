@@ -1,0 +1,1 @@
+using System.Web.Mvc;\nusing System.IO;\n\npublic class FormController : Controller\n{\n    public ActionResult RenderForm()\n    {\n        string path = Server.MapPath("~/App_Data/form.json");\n        string formData = System.IO.File.ReadAllText(path);\n        \n        ViewBag.FormData = formData;\n        return View();\n    }\n}

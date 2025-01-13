@@ -1,1 +1,0 @@
-<?php\nfunction add_some_extra(&$string)\n{\n    $string .= 'and something extra.';\n}\n\n$str = 'This is a string, ';\nadd_some_extra($str);\necho $str;    // outputs 'This is a string, and something extra.'\n?>

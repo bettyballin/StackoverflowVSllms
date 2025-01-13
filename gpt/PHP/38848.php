@@ -1,0 +1,1 @@
+// index.php\ninclude 'inc/footer.php';

@@ -1,1 +1,0 @@
-SELECT  products.id, \n    products.long_name AS name, \n    count(oi.order_id) AS sold\nFROM    products\nLEFT OUTER JOIN\n    orderitems AS oi\n        INNER JOIN \n            orders \n            ON oi.order_id = orders.id AND orders.paid = 1\n    ON oi.product_id = products.id\nGROUP BY products.id

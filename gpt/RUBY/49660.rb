@@ -1,0 +1,1 @@
+# test/test_helper.rb\nrequire 'support/dynamic_tests'

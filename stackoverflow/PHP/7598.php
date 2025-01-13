@@ -1,1 +1,0 @@
-$expiry = 3600*24*7; // A week\nheader('Expires: ' . gmdate('D, d M Y H:i:s' time() + $expiry) . ' GMT');\nheader('Cache-control: private, max-age=' . $expiry);

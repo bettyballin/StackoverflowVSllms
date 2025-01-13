@@ -1,0 +1,1 @@
+try\n{\n    AxisRangeData data = new AxisRangeData(range);\n}\ncatch (Exception ex)\n{\n    // Log or handle the exception\n    Console.WriteLine(ex.Message);\n}

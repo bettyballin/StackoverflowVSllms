@@ -1,0 +1,1 @@
+<?php\ndefine('MY_CONSTANT_NUMBER', 42);\n?>

@@ -1,0 +1,1 @@
+function a(b){alert(b)}a("Hello, World!");

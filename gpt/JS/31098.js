@@ -1,0 +1,1 @@
+document.getElementById("username_div").style.display = "none";

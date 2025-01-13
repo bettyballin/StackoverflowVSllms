@@ -1,1 +1,0 @@
-$b = new Bar;\necho $b->getFoo(5)->value;\n$b->test();\necho $b->getFoo(5)->value;

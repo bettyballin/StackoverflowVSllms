@@ -1,0 +1,1 @@
+# Set directories to 755\nfind /path/to/your/web/root -type d -exec chmod 755 {} \;\n\n# Set files to 644\nfind /path/to/your/web/root -type f -exec chmod 644 {} \;

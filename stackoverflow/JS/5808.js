@@ -1,1 +1,0 @@
-var qtMovie=document.getElementById('yourMovieEmbedID');\nqtMovie.src='your new source';

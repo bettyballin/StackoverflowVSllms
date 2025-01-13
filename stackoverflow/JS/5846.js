@@ -1,1 +1,0 @@
-$('#tableId td:nth-child(3), #tableId th:nth-child(3)').hide();

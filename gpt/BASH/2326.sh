@@ -1,0 +1,1 @@
+# Start ssh-agent and save the environment variables\neval `ssh-agent -s` > ~/.ssh-agent-info\nssh-add

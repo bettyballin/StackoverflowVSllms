@@ -1,0 +1,1 @@
+del old_list[:]

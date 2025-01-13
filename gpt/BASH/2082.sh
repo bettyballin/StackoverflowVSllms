@@ -1,0 +1,1 @@
+xxd spybotsd160.exe > spybot.hex\nxxd TestuffSetup.exe > testuff.hex\ndiff spybot.hex testuff.hex

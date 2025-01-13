@@ -1,0 +1,1 @@
+SELECT \n    WEEK(date) as week,\n    SUM(hits) as total_hits\nFROM \n    your_table\nWHERE \n    date >= DATE_SUB(CURDATE(), INTERVAL 2 WEEK)\nGROUP BY \n    WEEK(date);

@@ -1,1 +1,0 @@
-$phone = preg_replace('![^\d]+!', '', $phone);

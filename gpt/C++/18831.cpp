@@ -1,0 +1,1 @@
+#include <vector>\n#include <iostream>\n\nint main() {\n    std::vector<int> v = {1, 2, 3};\n    std::vector<int>::iterator it = v.begin();\n    \n    v.push_back(4);  // This invalidates the iterator if using debug mode\n    \n    std::cout << *it << std::endl;  // Potentially unsafe access\n\n    return 0;\n}

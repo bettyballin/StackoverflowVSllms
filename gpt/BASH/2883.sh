@@ -1,0 +1,1 @@
+etsh http add sslcert ipport=0.0.0.0:636 certhash=YOUR_CERT_HASH appid={YOUR_APP_ID}

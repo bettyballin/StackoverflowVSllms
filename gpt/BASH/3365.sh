@@ -1,0 +1,1 @@
+gdb -p <pid_of_z>\n   (gdb) call (void) close(0)  // close the standard input to pause the process\n   (gdb) detach\n   valgrind --trace-children=yes --pid=<pid_of_z>

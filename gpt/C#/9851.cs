@@ -1,0 +1,1 @@
+// Store data in session\nHttpContext.Current.Session["UserId"] = userId;\nHttpContext.Current.Session["ChannelId"] = channelId;

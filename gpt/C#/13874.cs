@@ -1,0 +1,1 @@
+@{\n    ViewBag.Title = "Home Page";\n}\n\n<!DOCTYPE html>\n<html>\n<head>\n    <title>@ViewBag.Title</title>\n</head>\n<body>\n    <h1>@ViewBag.Message</h1>\n    <form method="post" action="/">\n        <input type="submit" name="button" value="Click Me" />\n    </form>\n</body>\n</html>

@@ -1,1 +1,0 @@
-SELECT\n  CONCAT(\n    FORMAT(\n      IF(@prev AND SUM(orders) <> @prev,\n          -1 * 100 * (1 - SUM(orders) / @prev),\n          0\n        )\n      , 2)\n  , '%') AS variation,\n    @prev := SUM(orders) AS orders\nFROM\n    (SELECT @prev := NULL) init,\n    product\nGROUP BY\n  id_product\nORDER BY\n  month

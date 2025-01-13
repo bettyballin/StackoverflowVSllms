@@ -1,0 +1,1 @@
+' Assuming mockedRepository is your mock object and AddUser is the method you want to set expectation on\nmockedRepository.Expect(Sub() mockedRepository.AddUser(someUser)).DoOtherStuff()

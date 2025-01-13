@@ -1,0 +1,1 @@
+using Ganss.XSS;\n\n   var sanitizer = new HtmlSanitizer();\n   string sanitizedInput = sanitizer.Sanitize(input);

@@ -1,1 +1,0 @@
-SELECT `item`.itemID, `item`.title, `item`.itemTypeID, `item`.\n       submitDate, `item`.deleted, `item`.ItemCat,\n       `item`.counter, `item`.userID, `users`.name,\n       TIMESTAMPDIFF(minute,`submitDate`,NOW()) AS 'timeMin' \n  FROM    (item `item` INNER JOIN users `users`\n       ON (`users`.userID = `item`.userID)

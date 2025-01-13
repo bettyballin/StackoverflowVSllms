@@ -1,0 +1,1 @@
+// interrupt_handler.c\n#include <stdio.h>\n\nvoid interrupt_handler() {\n    printf("Interrupt handled.\n");\n}

@@ -1,1 +1,0 @@
-send_email "my@email.com", "test", "blah blah blah"

@@ -1,0 +1,1 @@
+-- Load the pg_trgm extension\n    CREATE EXTENSION pg_trgm;\n\n    -- Create a trigram index on the column\n    CREATE INDEX trgm_idx ON your_table USING gin (your_column gin_trgm_ops);

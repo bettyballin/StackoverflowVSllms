@@ -1,0 +1,1 @@
+Dim xmlDoc\nSet xmlDoc = CreateObject("Msxml2.FreeThreadedDOMDocument.6.0")\n\n' Load an XML document\nxmlDoc.async = False\nxmlDoc.load("example.xml")\n\n' Check for errors\nIf xmlDoc.parseError.errorCode <> 0 Then\n    MsgBox "Error loading XML: " & xmlDoc.parseError.reason\nElse\n    MsgBox "XML loaded successfully!"\nEnd If

@@ -1,0 +1,1 @@
+require_once DRUPAL_ROOT . '/sites/all/modules/amfphp/amfphp/globals.php';

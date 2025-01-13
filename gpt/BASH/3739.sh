@@ -1,0 +1,1 @@
+ln -s /path/to/external/folder /path/to/workspace/project/link_name

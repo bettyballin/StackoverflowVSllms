@@ -1,0 +1,1 @@
+#pragma message("Defining macro foo")\n    #define foo 42\n    \n    // Or to log the expansion\n    #ifdef foo\n    #pragma message("Macro foo is defined as " STRINGIFY(foo))\n    #endif

@@ -1,1 +1,0 @@
-SELECT author, code, COUNT(*)\nFROM   table\nWHERE  country = @country\nGROUP BY\n       author, code

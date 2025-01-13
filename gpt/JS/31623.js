@@ -1,0 +1,1 @@
+function onClientItemSelected(sender, eventArgs) {\n    var selectedItem = eventArgs.get_value();\n    var displayText = selectedItem.toString(); // Ensure the value is treated as a string\n    // Now you can safely display the displayText\n}

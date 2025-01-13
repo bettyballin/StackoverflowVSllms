@@ -1,0 +1,1 @@
+$allViews = [];\n\nwhile ($resultV = mysqli_fetch_assoc($metQueryViews)) {\n    if ($resultV['date'] !== null) {\n        $allViews[$resultV['date']] = $resultV['Count'];\n    }\n}\n\n// Output the array to check the result\nprint_r($allViews);

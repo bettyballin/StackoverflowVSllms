@@ -1,0 +1,1 @@
+@media print {\n       .container {\n           height: 100vh; /* Adjust as needed */\n           overflow: hidden;\n       }\n   }

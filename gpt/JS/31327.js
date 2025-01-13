@@ -1,0 +1,1 @@
+document.addEventListener('change', function(event) {\n    if (event.target.tagName === 'SELECT') {\n        // Handle the change event for the select element\n        console.log('Select box changed:', event.target.value);\n    }\n});

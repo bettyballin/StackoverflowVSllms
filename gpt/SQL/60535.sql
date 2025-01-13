@@ -1,0 +1,1 @@
+-- Create the view\nCREATE VIEW CardPropertiesView AS\nSELECT \n    c.ID,\n    c.Name,\n    GROUP_CONCAT(p.Value ORDER BY p.Value SEPARATOR '/') AS SpecialType\nFROM \n    Card c\nJOIN \n    CardProperty cp ON c.ID = cp.CardID\nJOIN \n    Property p ON cp.PropertyID = p.ID\nWHERE \n    p.Keyword = 'SpecialType'\nGROUP BY \n    c.ID, c.Name;

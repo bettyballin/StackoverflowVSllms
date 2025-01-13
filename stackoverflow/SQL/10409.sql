@@ -1,1 +1,0 @@
-INSERT [table 1]\nSELECT 'a','a','a','a','a', fk \nFROM [table 2]

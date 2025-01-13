@@ -1,0 +1,1 @@
+ADD SIGNATURE TO [dbo].[bsp_GetBlockedProcessCount]\n    BY CERTIFICATE LimitedAccessCert;

@@ -1,0 +1,1 @@
+CREATE TABLE users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    username VARCHAR(50) NOT NULL,\n    email VARCHAR(100) NOT NULL\n);\n\nCREATE TABLE orders (\n    order_id INT AUTO_INCREMENT PRIMARY KEY,\n    user_id INT NOT NULL,\n    order_date DATE NOT NULL,\n    FOREIGN KEY (user_id) REFERENCES users(id)\n);

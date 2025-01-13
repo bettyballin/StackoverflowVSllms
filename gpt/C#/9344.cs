@@ -1,0 +1,1 @@
+public class CustomData\n    {\n        public string Title { get; set; }\n        public string Content { get; set; }\n    }

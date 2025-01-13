@@ -1,1 +1,0 @@
-SELECT TITLE\nFROM MOVIES\nWHERE CONTAINS(TITLE,'"hollywood*" AND "square*"')

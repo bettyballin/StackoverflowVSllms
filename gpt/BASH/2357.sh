@@ -1,0 +1,1 @@
+sn -Tp YourExecutable.exe

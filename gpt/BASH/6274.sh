@@ -1,0 +1,1 @@
+sudo service sysstat start     # For Debian/Ubuntu\n   sudo systemctl start sysstat   # For RHEL/CentOS

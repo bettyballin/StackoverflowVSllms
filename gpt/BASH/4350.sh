@@ -1,0 +1,1 @@
+et stop smtpsvc\n   net start smtpsvc

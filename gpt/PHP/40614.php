@@ -1,0 +1,1 @@
+// Read the content of the file\n$fileContent = file_get_contents('output.txt');\n\n// Use eval to convert the string back to a PHP variable\neval('$myVariable = ' . $fileContent . ';');\n\n// Now $myVariable contains the array\nprint_r($myVariable);

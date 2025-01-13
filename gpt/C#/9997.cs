@@ -1,0 +1,1 @@
+using System.IO;\n\npublic class WriteToFile\n{\n    public static void Main()\n    {\n        string path = "path/to/your/file.txt";\n        string content = "Your string content here";\n\n        File.WriteAllText(path, content);\n    }\n}

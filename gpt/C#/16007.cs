@@ -1,0 +1,1 @@
+using NUnit.Framework;\n\n[TestFixture]\npublic class MyTests\n{\n    [Test, Category("Critical")]\n    public void CriticalTest()\n    {\n        // Critical test code\n    }\n\n    [Test, Category("NonCritical")]\n    public void NonCriticalTest()\n    {\n        // Non-critical test code\n    }\n}

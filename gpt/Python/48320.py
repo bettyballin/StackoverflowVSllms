@@ -1,0 +1,1 @@
+import cProfile\nimport pstats\n\ndef my_function():\n    # Your code here\n    pass\n\ncProfile.run('my_function()', 'profile_data')\np = pstats.Stats('profile_data')\np.sort_stats('cumulative').print_stats(10)

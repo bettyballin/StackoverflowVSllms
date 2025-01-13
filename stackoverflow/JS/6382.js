@@ -1,1 +1,0 @@
-document.images[ii].style.left = myLeft[ii]

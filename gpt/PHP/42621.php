@@ -1,0 +1,1 @@
+$randomBytes = random_bytes(4); // 4 bytes = 32 bits\n$randomInt = unpack('L', $randomBytes)[1]; // Convert to an unsigned long integer

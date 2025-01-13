@@ -1,0 +1,1 @@
+$imageinfo = getimagesize($imageurl);\n$image_type = $imageinfo[2];\n\nswitch ($image_type) {\n    case 1:\n        echo "GIF";\n        break;\n    case 2:\n        echo "JPEG";\n        break;\n    case 3:\n        echo "PNG";\n        break;\n    // Add other cases as needed\n    default:\n        echo "Unknown image type";\n}

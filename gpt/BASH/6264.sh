@@ -1,0 +1,1 @@
+rclone sync /local/folder remote:/remote/folder --transfers 4 --progress

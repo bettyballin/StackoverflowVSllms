@@ -1,1 +1,0 @@
-Function RoundToIncrement(ByVal orignialNumber As Decimal, ByVal increment As Decimal) As Decimal\n    Return Math.Ceiling( orignialNumber / increment ) * increment\nEnd Functio

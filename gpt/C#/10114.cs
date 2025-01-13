@@ -1,0 +1,1 @@
+var result = db.GetEmployees(); // Call your stored procedure\n    var filteredEmployees = result.Where(e => e.EmployeeName.StartsWith("A")).ToList();

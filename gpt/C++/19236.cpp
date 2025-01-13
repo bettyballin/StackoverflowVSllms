@@ -1,0 +1,1 @@
+#include <list>\n\nusing namespace std;\n\nclass Point {\npublic:\n    // Define Point class members and methods here\n};\n\nclass Line {\npublic:\n    Point p1;\n    Point p2;\n    Line(Point P1, Point P2)\n    {\n        p1 = P1;\n        p2 = P2;\n    }\n};\n\n// Line List\nlist<Line> lineList;

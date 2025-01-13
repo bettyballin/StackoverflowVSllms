@@ -1,1 +1,0 @@
-SELECT WidgetCategory, count(*)\nFROM Widgets\nGROUP BY WidgetCategory\nHAVING count(*) > 5

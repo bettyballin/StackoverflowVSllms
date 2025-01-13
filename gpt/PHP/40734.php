@@ -1,0 +1,1 @@
+class User {\n    private string $name;\n    \n    public function __construct(string $name) {\n        $this->name = $name;\n    }\n    \n    public function getName(): string {\n        return $this->name;\n    }\n}\n\nfunction greet(User $user): string {\n    return "Hello, " . $user->getName();\n}\n\n$user = new User("Alice");\necho greet($user); // Output: Hello, Alice

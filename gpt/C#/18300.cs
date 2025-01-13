@@ -1,0 +1,1 @@
+tmrMain.Elapsed += new ElapsedEventHandler(tmrMain_Tick);

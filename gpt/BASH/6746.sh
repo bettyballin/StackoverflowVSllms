@@ -1,0 +1,1 @@
+et stop ReportServer\n   net start ReportServer

@@ -1,0 +1,1 @@
+textBlock.Visibility = Visibility.Hidden; // The TextBlock is hidden but still takes up space\ntextBlock.Visibility = Visibility.Collapsed; // The TextBlock is hidden and does not take up space

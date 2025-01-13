@@ -1,1 +1,0 @@
-Warning: mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean give

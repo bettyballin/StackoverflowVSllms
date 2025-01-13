@@ -1,0 +1,1 @@
+<!-- standalone.xml -->\n   <connector name="https" protocol="HTTP/1.1" scheme="https" socket-binding="https" secure="true">\n       <ssl name="ssl" key-alias="server" password="password" certificate-key-file="${jboss.server.config.dir}/server.keystore" protocol="TLS"/>\n   </connector>

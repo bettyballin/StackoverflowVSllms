@@ -1,0 +1,1 @@
+<?php\n    ini_set('include_path', '.;C:\Program Files\Apache Software Foundation\Apache2.2\pdc_forecasting\classes');\n    phpinfo();\n    ?>

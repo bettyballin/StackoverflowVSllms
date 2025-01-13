@@ -1,0 +1,1 @@
+INSERT INTO tableC\nSELECT tableA.*\nFROM tableA\nLEFT JOIN tableB ON tableA.field = tableB.field\nWHERE tableB.field IS NULL;

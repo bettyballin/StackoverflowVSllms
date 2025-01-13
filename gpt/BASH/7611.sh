@@ -1,0 +1,1 @@
+# Example in a CI/CD pipeline script\n   export ConnectionStrings__DefaultConnection="YourTestDatabaseConnectionString"

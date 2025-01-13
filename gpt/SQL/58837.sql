@@ -1,0 +1,1 @@
+CREATE TABLE blog_posts (\n       id INT PRIMARY KEY AUTO_INCREMENT,\n       title VARCHAR(255),\n       content TEXT,\n       slug VARCHAR(255) UNIQUE\n   );

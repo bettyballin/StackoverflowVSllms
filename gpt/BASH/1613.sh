@@ -1,0 +1,1 @@
+sudo chown root:root change_permissions.sh\nsudo chmod 4750 change_permissions.sh

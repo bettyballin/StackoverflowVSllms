@@ -1,1 +1,0 @@
-dtResult.Rows(i)("Foo") = strVerse

@@ -1,1 +1,0 @@
-select\n  so.name,\n  sc.text\nfrom\n  sysobjects so inner join syscomments sc on so.id = sc.id\nwhere\n  sc.text like '%INSERT INTO xyz%'\n  or sc.text like '%UPDATE xyz%'

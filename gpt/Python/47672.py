@@ -1,0 +1,1 @@
+xs = [8, 23, 45]\n\nfor index, x in enumerate(xs, start=1):\n    print("item #{} = {}".format(index, x))

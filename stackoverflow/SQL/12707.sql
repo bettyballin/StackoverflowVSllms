@@ -1,1 +1,0 @@
-SELECT A.Name AS A, B.Name AS B, NULL AS C \nFROM A\nleft JOIN lA_B ON (A.pID=lA_B.pInstanceA) \nleft JOIN B ON (lA_B.pInstanceB=B.pID) \nUNION\nSELECT A.Name AS A, NULL AS B, C.Name AS C \nFROM A\nleft JOIN lA_C ON (A.pID=lA_C.pInstanceA) \nleft JOIN C ON (lA_C.pInstanceB=C.pID)

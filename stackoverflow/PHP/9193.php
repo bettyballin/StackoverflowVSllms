@@ -1,1 +1,0 @@
-$str = implode("\n", array_slice(explode("\n", $str), 4));

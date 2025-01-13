@@ -1,0 +1,1 @@
+} else {\n        die('You must specify at least two arguments');\n    }

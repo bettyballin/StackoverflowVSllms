@@ -1,0 +1,1 @@
+// mydll.h\n#ifdef MYDLL_EXPORTS\n#define MYDLL_API __declspec(dllexport)\n#else\n#define MYDLL_API __declspec(dllimport)\n#endif\n\nextern "C" MYDLL_API void MyFunction();

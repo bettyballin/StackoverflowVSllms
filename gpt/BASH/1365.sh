@@ -1,0 +1,1 @@
+# Open Event Viewer\neventvwr\n\n# Navigate to Windows Logs > Application\n# Look for errors related to IIS (Source: "IIS-W3SVC-WP" for worker process errors)

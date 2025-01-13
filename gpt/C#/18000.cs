@@ -1,0 +1,1 @@
+MyPc.Utils.DisplayControl.SwitchOnDisplay();\nMyPc.Utils.DisplayControl.SwitchOffDisplay();

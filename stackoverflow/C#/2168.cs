@@ -1,1 +1,0 @@
-class ProviderList : List<IMetadataProvider { }

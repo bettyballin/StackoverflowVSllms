@@ -1,1 +1,0 @@
-SELECT MAX(id)\nFROM tblquoteproposal\nGROUP BY requestid

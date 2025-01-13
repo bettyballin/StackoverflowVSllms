@@ -1,1 +1,0 @@
-MagickWriteImage( $resource, 'new_image.jpg' ); 

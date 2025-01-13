@@ -1,0 +1,1 @@
+CREATE INDEX idx_votes_itemID ON votes(itemID);\n   CREATE INDEX idx_item_userID ON item(userID);\n   CREATE INDEX idx_item_deleted ON item(deleted);\n   CREATE INDEX idx_item_itemID ON item(itemID);\n   CREATE INDEX idx_myItems_itemID ON myItems(itemID);\n   CREATE INDEX idx_users_userID ON users(userID);

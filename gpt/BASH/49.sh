@@ -1,0 +1,1 @@
+mkdir build\ncd build\ncmake ..\n# Open the generated .sln file with Visual Studio and build from there

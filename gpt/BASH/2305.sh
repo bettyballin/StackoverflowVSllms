@@ -1,0 +1,1 @@
+wget https://ftp.gnu.org/gnu/binutils/binutils-2.36.tar.gz\n    wget https://ftp.gnu.org/gnu/gcc/gcc-10.2.0/gcc-10.2.0.tar.gz\n    wget ftp://sourceware.org/pub/newlib/newlib-4.1.0.tar.gz

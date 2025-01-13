@@ -1,0 +1,1 @@
+keytool -genkeypair -alias myserver -keyalg RSA -keystore keystore.jks -storepass password -validity 365

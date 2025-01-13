@@ -1,1 +1,0 @@
-eps = 1e-10  // pick any small number\nif (Math.Abs(r-last) < eps) break;

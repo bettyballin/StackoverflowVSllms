@@ -1,0 +1,1 @@
+aws s3api put-bucket-acl --bucket your-bucket-name --acl file://acl.jso

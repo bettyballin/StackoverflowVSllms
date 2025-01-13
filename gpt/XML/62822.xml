@@ -1,0 +1,1 @@
+<Window x:Class="YourNamespace.MainWindow"\n        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"\n        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"\n        xmlns:local="clr-namespace:YourNamespace">\n    <!-- Your XAML content -->\n</Window>

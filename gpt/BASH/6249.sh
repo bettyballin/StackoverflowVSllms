@@ -1,0 +1,1 @@
+unison /local/folder ssh://user@remote_host//remote/folder

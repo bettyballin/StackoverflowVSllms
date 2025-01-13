@@ -1,0 +1,1 @@
+CREATE DATABASE YourDatabaseName_Snapshot ON\n(\n    NAME = YourDatabaseName_Data,\n    FILENAME = 'C:\SQLData\YourDatabaseName_Snapshot.ss'\n)\nAS SNAPSHOT OF YourDatabaseName;

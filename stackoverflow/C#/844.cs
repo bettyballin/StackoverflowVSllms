@@ -1,1 +1,0 @@
-return File(myImage.ImageBinary, "image/gif");

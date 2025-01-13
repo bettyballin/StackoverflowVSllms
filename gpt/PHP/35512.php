@@ -1,0 +1,1 @@
+ob_start();\necho '<ul>';\nfor ($k = 1; $k <= 1000; $k++) {\n    echo '<li> This is list item #', $k, '</li>';\n}\necho '</ul>';\nob_end_flush();

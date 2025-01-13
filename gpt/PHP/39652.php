@@ -1,0 +1,1 @@
+<?php\n// Start a session with a custom name\nsession_name('MY_APP_SESSION');\nsession_start();\n\n// Now you can safely use the $_SESSION superglobal\n$_SESSION['username'] = 'your_username';\n?>

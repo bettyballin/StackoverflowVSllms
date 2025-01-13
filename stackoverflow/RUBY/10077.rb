@@ -1,1 +1,0 @@
-class ApplicationController > ActionController::Base\n\n  # ...\n\n  def default_url_options(options)\n    { :company => current_company.id }\n  end\n\nend

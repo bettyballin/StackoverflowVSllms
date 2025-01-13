@@ -1,1 +1,0 @@
-window.open('url to open','window name','toolbar=no');

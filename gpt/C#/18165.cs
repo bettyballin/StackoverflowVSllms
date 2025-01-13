@@ -1,0 +1,1 @@
+editBox.KeyDown += new KeyEventHandler(this.field_KeyDown);\n\nprivate void field_KeyDown(object sender, KeyEventArgs e)\n{\n    if (e.KeyCode == Keys.Tab)\n    {\n        // Custom behavior here\n        e.Handled = true;  // Prevents the control from processing the Tab key\n    }\n}

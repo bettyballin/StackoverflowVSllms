@@ -1,0 +1,1 @@
+<?php\nfunction convertUrlsToAnchors($string) {\n    $pattern = '/(https?:\/\/[^\s]+)/';\n    $replacement = '<a href="$1">$1</a>';\n    return preg_replace($pattern, $replacement, $string);\n}\n\n$string = "Check out this website: https://example.com. Also visit http://another-example.com.";\necho convertUrlsToAnchors($string);\n?>

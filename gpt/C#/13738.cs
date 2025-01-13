@@ -1,0 +1,1 @@
+using System.Security.Cryptography.X509Certificates;\n\npublic class CertificateLoader\n{\n    public static X509Certificate2 LoadCertificate(string certPath, string password)\n    {\n        return new X509Certificate2(certPath, password);\n    }\n}

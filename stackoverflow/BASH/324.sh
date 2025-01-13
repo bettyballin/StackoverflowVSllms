@@ -1,1 +1,0 @@
-$ g++ file.cpp other.cpp

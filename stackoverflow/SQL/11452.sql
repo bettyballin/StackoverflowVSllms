@@ -1,1 +1,0 @@
-drop table daa_test;\ncreate table daa_test as select sysdate dt from dual;\nalter session set nls_date_format = 'YYYY-MM-DD';\nselect vsize(dt)  from daa_test;\nselect length(dt) from daa_test;\nalter session set nls_date_format = 'YYYY-MM-DD HH24:mi:ss';\nselect vsize(dt)  from daa_test;\nselect length(dt) from daa_test;

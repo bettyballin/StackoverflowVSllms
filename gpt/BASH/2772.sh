@@ -1,0 +1,1 @@
+# Open Command Prompt as Administrator\n# Change ownership to your user account\ntakeown /F "C:\path\to\postgresql\data\directory" /R /D Y\n\n# Grant full control to your user account\nicacls "C:\path\to\postgresql\data\directory" /grant YourUsername:F /T\n\n# Delete the directory\nrmdir /S /Q "C:\path\to\postgresql\data\directory"

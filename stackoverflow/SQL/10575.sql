@@ -1,1 +1,0 @@
-items table would be: item_id, item_name\nPrimary key is item_id\n\nusers table would be: user_id, username\nPrimary key is user_id\n\nuser_items table would be: user_id, item_id\nPrimary key is the combination of user_id and item_id\nIndex on item_id

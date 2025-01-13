@@ -1,1 +1,0 @@
-ModelState.AddModelError ("textbox1", "You must specify a valid string.");\nModelState.AddModelError ("combobox1", "You must specify a valid date.");

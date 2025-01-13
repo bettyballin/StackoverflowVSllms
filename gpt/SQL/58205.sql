@@ -1,0 +1,1 @@
+CREATE PROCEDURE InsertBlah\n    @blah1 NVARCHAR(50)\nAS\nBEGIN\n    IF @blah1 IS NULL\n    BEGIN\n        SET @blah1 = ''  -- Use an empty string for NVARCHAR columns\n    END\n    \n    INSERT INTO blah (blah1) VALUES (@blah1)\nEND

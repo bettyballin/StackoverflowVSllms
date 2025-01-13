@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>nz.ac.waikato.cms.weka</groupId>\n    <artifactId>weka-stable</artifactId>\n    <version>3.8.5</version>\n</dependency>

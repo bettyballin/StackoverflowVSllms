@@ -1,0 +1,1 @@
+public bool IsValidInput(string input)\n   {\n       // Implement validation logic\n       return Regex.IsMatch(input, @"^[a-zA-Z0-9]*$");\n   }

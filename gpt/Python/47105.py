@@ -1,0 +1,1 @@
+import markdown\nfrom bleach import clean\n\nuser_input = "Some **bold** text with <script>alert('XSS')</script>"\n\n# Convert Markdown to HTML\nhtml_output = markdown.markdown(user_input)\n\n# Sanitize the HTML to remove any potentially harmful tags or attributes\nsafe_html = clean(html_output)\n\nprint(safe_html)

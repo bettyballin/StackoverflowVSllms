@@ -1,1 +1,0 @@
-void func ( void (*f)(int) );

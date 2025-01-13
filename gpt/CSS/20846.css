@@ -1,0 +1,1 @@
+/* Example of using hasLayout fix */\n#main {\n    zoom: 1; /* Triggers hasLayout in IE */\n}

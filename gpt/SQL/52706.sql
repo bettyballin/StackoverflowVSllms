@@ -1,0 +1,1 @@
+SELECT * FROM classifications WHERE species = 'some_species' AND family = 'some_family' AND trivial_names = 'some_trivial_name';

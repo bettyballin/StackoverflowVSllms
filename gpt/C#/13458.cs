@@ -1,0 +1,1 @@
+private static int CalculateHeight(string text, Font font, int width, bool hasLinks)\n{\n    Size size = TextRenderer.MeasureText(text, font, new Size(width, Int32.MaxValue), TextFormatFlags.NoClipping | TextFormatFlags.WordBreak);\n\n    // Adding a buffer height if the text contains links\n    int bufferHeight = hasLinks ? 5 : 0;\n    return size.Height + bufferHeight;\n}

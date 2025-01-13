@@ -1,0 +1,1 @@
+std_dev = Math.sqrt(variance / (n - 1));

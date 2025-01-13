@@ -1,0 +1,1 @@
+import sys\n\ndef get_interpreter_info():\n    interpreter_info = {\n        "executable": sys.executable,\n        "version": sys.version,\n        "version_info": sys.version_info\n    }\n    return interpreter_info

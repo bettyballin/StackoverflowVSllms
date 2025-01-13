@@ -1,0 +1,1 @@
+function loadContent() {\n    fetch('content.html')\n        .then(response => response.text())\n        .then(data => {\n            document.getElementById('content').innerHTML += data;\n        })\n        .catch(error => console.error('Error loading content:', error));\n}

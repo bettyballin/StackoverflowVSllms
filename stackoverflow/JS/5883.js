@@ -1,1 +1,0 @@
-Array.prototype.shuffle = function() {\n   var i = this.length;\n   while (--i) {\n      var j = Math.floor(Math.random() * (i + 1))\n      var temp = this[i];\n      this[i] = this[j];\n      this[j] = temp;\n   }\n\n   return this; // for convenience, in case we want a reference to the array\n};

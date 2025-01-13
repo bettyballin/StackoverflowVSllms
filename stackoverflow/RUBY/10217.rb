@@ -1,1 +1,0 @@
-User.find(:all, :joins => :events, :select => 'DISTINCT `users`.*')

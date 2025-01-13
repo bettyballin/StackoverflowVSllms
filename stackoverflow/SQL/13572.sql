@@ -1,1 +1,0 @@
-SELECT\n     WP1.*\nFROM\n     Workplans WP1\nLEFT OUTER JOIN dbo.Workplans WP2 ON\n     WP2.UserID = WP1.UserID AND\n     WP2.Date > WP1.Date\nWHERE\n     WP2.WorkplanID IS NULL

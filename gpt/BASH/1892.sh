@@ -1,0 +1,1 @@
+../configure --enable-languages=c,c++ --prefix=/usr/local/gcc-4.4

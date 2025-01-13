@@ -1,0 +1,1 @@
+import RPi.GPIO as GPIO\n   import time\n\n   GPIO.setmode(GPIO.BCM)\n   GPIO.setup(18, GPIO.OUT)\n\n   while True:\n       GPIO.output(18, GPIO.HIGH)\n       time.sleep(1)\n       GPIO.output(18, GPIO.LOW)\n       time.sleep(1)

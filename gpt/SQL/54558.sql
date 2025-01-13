@@ -1,0 +1,1 @@
+-- Verify the current synonym\nSELECT * FROM all_synonyms WHERE synonym_name = '<synonym_name>';\n\n-- Drop the existing synonym if it points to the wrong object\nDROP SYNONYM <synonym_name>;\n\n-- Create the synonym pointing to the correct stored procedure\nCREATE SYNONYM <synonym_name> FOR <schema_name>.<procedure_name>;

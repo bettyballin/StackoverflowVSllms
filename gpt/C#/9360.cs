@@ -1,0 +1,1 @@
+[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]\n    public interface IYourInterface\n    {\n        // Method signatures\n    }

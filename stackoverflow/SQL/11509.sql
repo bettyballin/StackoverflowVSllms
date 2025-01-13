@@ -1,1 +1,0 @@
-SELECT * FROM blog WHERE blog_title LIKE '%barry%' OR blog_content LIKE '%barry%' OR blog_title LIKE '%child%' OR blog_content LIKE '%child%' OR blog_title LIKE '%help%' OR blog_content LIKE '%help%' ORDER BY blog_title

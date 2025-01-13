@@ -1,0 +1,1 @@
+function getUserCulture() {\n    return navigator.language || navigator.userLanguage;\n}

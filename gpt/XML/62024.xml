@@ -1,0 +1,1 @@
+<!-- Messages.resx -->\n     <data name="Error.InvalidEmail" xml:space="preserve">\n       <value>Invalid email address.</value>\n     </data>\n     <data name="Info.AccountCreated" xml:space="preserve">\n       <value>Your account has been created successfully.</value>\n     </data>

@@ -1,0 +1,1 @@
+// Access Gii via web interface at http://your-app-url/index.php?r=gii

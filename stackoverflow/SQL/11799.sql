@@ -1,1 +1,0 @@
-INSERT INTO SequenceTable (dummy) VALUES ('X');\nSELECT @ID = SCOPE_IDENTITY();\nINSERT INTO RealTable (ID, datacolumns) VALUES (@ID, @data1, @data2, ...)

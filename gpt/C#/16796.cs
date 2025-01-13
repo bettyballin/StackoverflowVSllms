@@ -1,0 +1,1 @@
+[ServiceContract]\npublic interface IMyService\n{\n    [OperationContract]\n    [WebInvoke(Method = "GET", UriTemplate = "/data", ResponseFormat = WebMessageFormat.Json)]\n    string GetData();\n}

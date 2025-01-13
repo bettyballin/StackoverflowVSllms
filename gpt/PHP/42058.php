@@ -1,0 +1,1 @@
+function array_unique2($a)\n{\n    $n = array();\n    foreach ($a as $k => $v)\n        if (!in_array($v, $n))\n            $n[$k] = $v;\n    return $n;\n}

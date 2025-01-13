@@ -1,1 +1,0 @@
--- return the first 100 rows\nSELECT * FROM table LIMIT 0, 100\n\n-- return the next 100 rows\nSELECT * FROM table LIMIT 100, 100\n\n-- and the next\nSELECT * FROM table LIMIT 200, 100

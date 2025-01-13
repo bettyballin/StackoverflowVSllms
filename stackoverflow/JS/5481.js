@@ -1,1 +1,0 @@
-document.getElementById('divId').className.split(/\s+/);

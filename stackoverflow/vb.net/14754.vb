@@ -1,1 +1,0 @@
-sFilename = Dir(sFoldername)\n\nDo While sFilename > ""\n\n  debug.print sFilename \n  sFilename = Dir()\n\nLoop

@@ -1,1 +1,0 @@
-success: function(result){\n             debugger;\n             $('#contents').after( "<div>" +result +"</div>" );\n           }

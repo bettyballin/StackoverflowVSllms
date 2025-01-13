@@ -1,0 +1,1 @@
+blahs.each_with_index do |blah, i|\n  puts "#{i} #{blah}"\nend

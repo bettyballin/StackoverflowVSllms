@@ -1,1 +1,0 @@
-select table_name\n  from all_constraints\n where r_constraint_name = [your pk/uk constraint on PROJECTS(id)]

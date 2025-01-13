@@ -1,0 +1,1 @@
+class SqlServerQueryBuilder : public QueryBuilder {\npublic:\n    std::string select(const std::string& columns, const std::string& table) override {\n        return "SELECT " + columns + " FROM " + table;\n    }\n    // Implement other methods as needed\n};

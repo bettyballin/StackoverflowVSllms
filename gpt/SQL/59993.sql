@@ -1,0 +1,1 @@
+CREATE TRIGGER trgProfilesLastUpdate\nON dbo.Profiles\nAFTER UPDATE\nAS\nBEGIN\n    SET NOCOUNT ON;\n\n    UPDATE dbo.Profiles\n    SET LastUpdate = GETDATE()\n    FROM Inserted i\n    WHERE dbo.Profiles.UserName = i.UserName;\nEND

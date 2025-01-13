@@ -1,0 +1,1 @@
+# Example dataset\ndata <- data.frame(\n  X = rnorm(100),\n  M = rnorm(100),\n  Y = rnorm(100)\n)

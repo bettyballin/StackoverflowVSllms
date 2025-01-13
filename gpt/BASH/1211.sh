@@ -1,0 +1,1 @@
+pandoc your-document.docx -o your-document.pdf

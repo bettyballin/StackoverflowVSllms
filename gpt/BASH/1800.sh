@@ -1,0 +1,1 @@
+sudo cryptsetup luksOpen /dev/sdX encrypted_drive

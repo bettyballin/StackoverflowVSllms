@@ -1,0 +1,1 @@
+var fileUpload = browser.FileUpload(Find.ById("fileUploadId"));\n   fileUpload.Set("path_to_pdf");\n   browser.Button(Find.ById("submitButtonId")).Click();\n   browser.WaitUntil(() => browser.ContainsText("Upload Complete"), 60000); // Wait for up to 1 minute

@@ -1,0 +1,1 @@
+USE master;\n   EXEC sp_detach_db @dbname = 'YourDevDatabase';\n\n   EXEC sp_attach_db @dbname = 'YourDevDatabase',\n       @filename1 = 'C:\Data\YourDevDatabase.mdf',\n       @filename2 = 'C:\Data\YourDevDatabase.ldf';

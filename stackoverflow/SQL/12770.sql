@@ -1,1 +1,0 @@
-SELECT v.*\n  FROM ( SELECT * \n              , (SELECT Table1.Column \n                   FROM Table1 \n                   JOIN Table2 ON Table1.Table2Id = Table2.Id\n                  WHERE Table1.Column = 1\n                ) as tmp \n           FROM Table2\n       ) v   \n WHERE v.tmp = 1

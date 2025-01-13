@@ -1,1 +1,0 @@
-select concat(c.fname, ' ', c.sname) as name, e.address as email\nfrom contacts c\nleft join emails e\non (c.contactID = e.contactID)

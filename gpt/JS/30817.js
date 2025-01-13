@@ -1,0 +1,1 @@
+var a = 20;\nvar b = "20";\nif (a === b) {\n    alert("They are equal");\n} else {\n    alert("They are not equal");\n}

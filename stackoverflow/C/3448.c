@@ -1,1 +1,0 @@
-for (i in originalString) {\nnewString[i] = originalString[i] ^ CRYPT_BYTE;\n}

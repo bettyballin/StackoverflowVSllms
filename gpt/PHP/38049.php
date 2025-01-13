@@ -1,0 +1,1 @@
+$smarty->compile_id = md5(dirname($template_file));

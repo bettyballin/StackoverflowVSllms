@@ -1,1 +1,0 @@
-IPAddress address = new IPAddress(_ClientIPAddress.Address.Skip(2).Take(4).ToArray());

@@ -1,0 +1,1 @@
+-- Disable indexes\nALTER INDEX [IndexName] ON [TableName] DISABLE;\n-- Enable indexes\nALTER INDEX [IndexName] ON [TableName] REBUILD;

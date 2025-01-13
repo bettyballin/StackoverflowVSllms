@@ -1,1 +1,0 @@
-SELECT MAX(no_hits) \nFROM (SELECT count(hits) AS 'no_hits' ) FROM stats \n  WHERE 'date' >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH \n    AND zones_code IN('011242077793513596890', '011242077783866125432')\n);

@@ -1,1 +1,0 @@
-USE [dbname]\nGO \nSET ANSI_NULLS ON\nGO\nSET QUOTED_IDENTIFIER ON\nGO\nCREATE PROCEDURE [dbo].[spInsert]\n(\n   @Nn varchar(30)\n)\nAS\nBEGIN TRANSACTION InsertRecord \n   INSERT INTO A (Nn) \n   VALUES (@Nn) \n   SELECT NewID = SCOPE_IDENTITY()   -- returns the new record ID of this transaction\n   COMMIT TRANSACTION InsertRecord

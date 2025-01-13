@@ -1,0 +1,1 @@
+@font-face {\n    font-family: 'CustomFont';\n    src: url('fonts/customfont.woff2') format('woff2'),\n         url('fonts/customfont.woff') format('woff'),\n         url('fonts/customfont.ttf') format('truetype');\n    font-weight: normal;\n    font-style: normal;\n}\n\nbody {\n    font-family: 'CustomFont', sans-serif;\n}

@@ -1,1 +1,0 @@
-Select Cast(notes as nvarchar(4000)) + 'SomeText'\nFrom NotesTable a

@@ -1,0 +1,1 @@
+FoxitReader.exe /quiet /norestart

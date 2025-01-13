@@ -1,0 +1,1 @@
+CREATE VIEW TopLevel AS\nSELECT ID, Data\nFROM ReportingHierarchy\nWHERE LevelID = 1;\n\nCREATE VIEW SecondLevel AS\nSELECT ID, ParentID, Data\nFROM ReportingHierarchy\nWHERE LevelID = 2;\n\n-- Continue for other levels

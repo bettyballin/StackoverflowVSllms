@@ -1,0 +1,1 @@
+$result = mysql_query("SELECT *, DATE_FORMAT(timestamp, '%W %D %M %Y') as formatted_date FROM articleDB WHERE userID='" . $_SESSION["**"] . "' ORDER BY timestamp DESC LIMIT 8");\n\nwhile ($row = mysql_fetch_assoc($result)) {\n    echo 'Posted: ' . $row['formatted_date'] . '<br>';\n}

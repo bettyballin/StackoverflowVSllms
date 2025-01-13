@@ -1,1 +1,0 @@
-DEFINE dummy INT;\nLET dummy = NULL;\n\nSELECT group_ser, item_ser, dummy\nFROM sometable

@@ -1,0 +1,1 @@
+SELECT pid, state, query, state_change\n   FROM pg_stat_activity\n   WHERE query LIKE 'UPDATE pagelinks%';

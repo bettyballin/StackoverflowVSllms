@@ -1,1 +1,0 @@
-var TimeStamp = <?php echo time()*1000;?>

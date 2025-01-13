@@ -1,0 +1,1 @@
+class ApplicationController < ActionController::Base\n  before_action :authenticate_with_client_certificate\n\n  private\n\n  def authenticate_with_client_certificate\n    client_cn = request.env['SSL_CLIENT_S_DN_CN']\n    unless client_cn == "client.example.com"\n      render plain: "Unauthorized", status: :unauthorized\n    end\n  end\nend

@@ -1,0 +1,1 @@
+[OperationContract]\n[WebGet(UriTemplate = "/foo/{id}")]\npublic string GetFoo(string id)\n{\n    if (int.TryParse(id, out int intId))\n    {\n        // Proceed with your logic using intId\n        return $"Received ID: {intId}";\n    }\n    else\n    {\n        throw new ArgumentException("Invalid integer value");\n    }\n}

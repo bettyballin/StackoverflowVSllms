@@ -1,0 +1,1 @@
+// a.c\n#include <stdio.h>\n\nstatic void print_matrix() {\n    // Function implementation\n    printf("Matrix printed\n");\n}\n\nvoid public_function() {\n    print_matrix(); // This is allowed because print_matrix is within the same file\n}

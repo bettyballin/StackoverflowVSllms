@@ -1,0 +1,1 @@
+Dim Parts As SubSonic.PartCollection\n' ... Initialize the Parts collection\n\nFor Each p As SubSonic.Part In Parts\n    TestMethod(p)\nNext

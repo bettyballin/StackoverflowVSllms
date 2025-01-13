@@ -1,1 +1,0 @@
-SELECT * FROM news ORDER BY time DESC LIMIT 10

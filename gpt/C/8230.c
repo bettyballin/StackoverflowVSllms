@@ -1,0 +1,1 @@
+GetWindowText(hWnd, buffer, bufferSize);

@@ -1,0 +1,1 @@
+delimiter = "-"\n    result = delimiter.join(["Hello", "world"])

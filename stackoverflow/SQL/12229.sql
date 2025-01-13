@@ -1,1 +1,0 @@
-SELECT  sf.filename\nFROM    sys.fulltext_catalogs ftc\nJOIN    sys.sysfiles sf ON ftc.[file_id] = sf.fileid

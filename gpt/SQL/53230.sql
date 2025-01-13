@@ -1,0 +1,1 @@
+SELECT p.id AS person_id, p.name, \n       n.nickname, \n       a.street, a.city, a.state, a.zip, \n       ph.type, ph.number \nFROM Person p\nLEFT JOIN Nickname n ON p.id = n.person_id\nLEFT JOIN Address a ON p.id = a.person_id\nLEFT JOIN PhoneNumber ph ON p.id = ph.person_id\nWHERE p.id IN (:personIds);

@@ -1,0 +1,1 @@
+// 'int' is a keyword and a reserved word\nint number = 10;\n\n// 'concept' would be a new keyword and reserved word if the proposal is accepted\nconcept MyConcept = requires (T t) {\n    { t.method() } -> std::convertible_to<void>;\n};\n\n// The following would be invalid if 'concept' becomes a reserved word\n// int concept = 5; // This would cause a compilation error

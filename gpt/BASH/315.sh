@@ -1,0 +1,1 @@
+java -XX:MaxInlineSize=35 -XX:FreqInlineSize=325 -XX:InlineSmallCode=100 YourProgram

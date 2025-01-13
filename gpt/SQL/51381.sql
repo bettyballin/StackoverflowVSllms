@@ -1,0 +1,1 @@
+ANALYZE TABLE sentence_word;\nOPTIMIZE TABLE sentence_word;

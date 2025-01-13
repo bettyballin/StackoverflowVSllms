@@ -1,1 +1,0 @@
-$(".project").each(function(){\n    var url = $(this).children('.project-link').attr('href');\n    $(this).css('cursor', 'pointer');\n    $(this).click(function(){\n        window.location = url;\n    });\n});

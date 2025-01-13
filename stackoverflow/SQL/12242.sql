@@ -1,1 +1,0 @@
-SELECT \n  COUNT(j.jobseeker_id) as new_registrations, \n  i.description as industry_name,\n  MONTHNAME(j.created_at)\nFROM\n  tb_jobseeker as j, tb_industry as i\nWHERE \n  j.created_at BETWEEN '2009-05-01' AND '2009-05-31'\nAND \n  i.industry_id = j.industry_id \nGROUP BY \n  i.description, MONTH(j.created_at)

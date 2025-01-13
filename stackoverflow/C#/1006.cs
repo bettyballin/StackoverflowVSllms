@@ -1,1 +1,0 @@
-mycmd.CommandText = "SELECT FirstName, LastName, MiddleName, Email, Age FROM web WHERE IsActive=1 AND LoginName='" + userid + "' " + "AND Password='" + pass + "'"; 

@@ -1,0 +1,1 @@
+ALTER TABLE YourTable\nADD NewBooleanField BIT;\n\nUPDATE YourTable\nSET NewBooleanField = CASE WHEN OldCharField = 'Y' THEN 1 ELSE 0 END;\n\nALTER TABLE YourTable\nDROP COLUMN OldCharField;

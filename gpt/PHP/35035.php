@@ -1,0 +1,1 @@
+require_once('../system/Sentry.php');\n\nclass SentryWrapper extends Sentry {\n    public function checkLoginWrapper($group) {\n        return $this->checkLogin('', '', $group);\n    }\n}\n\n$theSentry = new SentryWrapper();\nif (!$theSentry->checkLoginWrapper(2)) {\n    header("Location: login.php");\n    die();\n}

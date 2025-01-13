@@ -1,0 +1,1 @@
+# Adding tags to a question\nquestion = Question.find(1)\nquestion.tag_list.add("halloween", "movie", "christmas")\nquestion.save\n\n# Finding questions by tag\nQuestion.tagged_with("halloween")

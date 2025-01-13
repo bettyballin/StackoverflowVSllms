@@ -1,0 +1,1 @@
+using System.IO;\n\n   string folderPath = @"C:\path\to\your\folder";\n   File.SetAttributes(folderPath, FileAttributes.Hidden | FileAttributes.System);

@@ -1,1 +1,0 @@
-CREATE PROCEDURE RecentRecordSum AS\n\nDECLARE @adate DATETIME\n\nSELECT @adate = DATEADD(d, -7, GETDATE())\n\nSELECT      t.ID,   \n            SUM(t.SomeValue) AS ValueSum  \nFROM        SomeTable t  \nWHERE       t.RecordDate >= @adate  \nGROUP BY    t.ID  

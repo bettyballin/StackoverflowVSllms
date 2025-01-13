@@ -1,0 +1,1 @@
+0 0 * * * /usr/bin/python3 /path_to_your_script/script.py

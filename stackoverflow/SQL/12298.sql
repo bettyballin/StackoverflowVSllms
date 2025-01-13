@@ -1,1 +1,0 @@
-select a,count(distinct isnull(b,-1))-sum(distinct case when b is null then 1 else 0 end),sum(a) from \n    (select 1 a,1 b union all\n    select 2,2 union all\n    select 2,null union all\n    select 3,3 union all\n    select 3,null union all\n    select 3,null) a\n    group by a

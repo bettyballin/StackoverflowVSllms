@@ -1,0 +1,1 @@
+Dim id As Integer = 1\nDim nullId As Integer? = Nothing\nDim areEqual As Boolean\nareEqual = nullId = id

@@ -1,0 +1,1 @@
+CREATE POLICY limited_update_policy\n   ON your_table\n   FOR UPDATE\n   USING (current_user IN (SELECT user_name FROM allowed_users));

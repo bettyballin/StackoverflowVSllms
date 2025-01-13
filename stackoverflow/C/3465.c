@@ -1,1 +1,0 @@
-BOOL IsProcessRunning(HANDLE process)\n{\n    return WaitForSingleObject(process, 0) != WAIT_OBJECT_0;\n}\n\nvoid WaitForProcessToExit(HANDLE process)\n{\n    WaitForSingleObject(process, INFINITE);\n}

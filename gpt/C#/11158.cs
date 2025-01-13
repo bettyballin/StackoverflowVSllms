@@ -1,0 +1,1 @@
+<% foreach (var post in Post.Posts) { %>\n    <h2><a href="<%= post.RelativeLink %>"><%= post.Title %></a></h2>\n    <div><%= post.Content %></div>\n<% } %>

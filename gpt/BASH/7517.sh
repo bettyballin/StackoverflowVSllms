@@ -1,0 +1,1 @@
+sudo opcontrol --stop\nsudo opreport

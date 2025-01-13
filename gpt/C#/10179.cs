@@ -1,0 +1,1 @@
+string connectionString = "Provider=MSOLAP; Data Source=YourServer; Initial Catalog=YourDatabase; Integrated Security=SSPI;";

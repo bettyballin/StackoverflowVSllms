@@ -1,1 +1,0 @@
-$('.item input').click(function() {\n    var tmp = this;\n    $.post('complete.php', {item: this.id}, function() {\n        $(tmp).parent().fadeOut('slow');\n    });\n});

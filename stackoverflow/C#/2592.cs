@@ -1,1 +1,0 @@
-public static bool ContainsXHTML(this string input)\n{\n    try\n    {\n        XElement x = XElement.Parse("<wrapper>" + input + "</wrapper>");\n        return !(x.DescendantNodes().Count() == 1 && x.DescendantNodes().First().NodeType == XmlNodeType.Text);\n    }\n    catch (XmlException ex)\n    {\n        return true;\n    }\n}

@@ -1,0 +1,1 @@
+using Oracle.ManagedDataAccess.Client;\n\nstring connectionString = "User Id=<username>;Password=<password>;Data Source=<datasource>";\n\nusing (OracleConnection connection = new OracleConnection(connectionString))\n{\n    connection.Open();\n    // Perform database operations\n}

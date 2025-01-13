@@ -1,0 +1,1 @@
+class SomeThing {\n    private $data = array();\n\n    public function __get($key) {\n        return isset($this->data[$key]) ? $this->data[$key] : null;\n    }\n\n    public function __set($key, $value) {\n        $this->data[$key] = $value;\n    }\n\n    // other methods\n}

@@ -1,0 +1,1 @@
+[assembly: SecurityPermission(SecurityAction.RequestMinimum, SkipVerification = true)]

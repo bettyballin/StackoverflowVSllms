@@ -1,0 +1,1 @@
+UPDATE table\nSET status = 1\nWHERE status = 2\nORDER BY some_column\nLIMIT 400;

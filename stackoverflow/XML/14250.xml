@@ -1,1 +1,0 @@
-<webServices>\n    <soapExtensionTypes>\n        <add type="DebugTools.SOAP.SOAPTrace.SoapTraceExtension, DebugTools.SOAP" \n               priority="0" group="High"/>\n    </soapExtensionTypes>\n</webServices>

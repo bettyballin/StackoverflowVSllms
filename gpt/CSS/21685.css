@@ -1,0 +1,1 @@
+html, body {\n    height: 100%;\n    margin: 0;\n}\n\n#container {\n    display: flex;\n    flex-direction: column;\n    height: 100%;\n}\n\n#header {\n    height: 24px;\n    flex-shrink: 0;\n}\n\n#body {\n    flex: 1;\n    overflow: auto;\n}\n\n#footer {\n    min-height: 80px;\n    height: 17.2%;\n    flex-shrink: 0;\n    overflow: auto;\n}

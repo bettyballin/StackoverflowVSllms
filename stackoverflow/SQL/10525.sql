@@ -1,1 +1,0 @@
-usage: tosql( mydate, 'DATE' )

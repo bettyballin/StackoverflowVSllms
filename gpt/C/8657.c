@@ -1,0 +1,1 @@
+#include <windows.h>\n\nint main() {\n    // Attach to the parent process's console\n    AttachConsole(ATTACH_PARENT_PROCESS);\n    // Now you can use standard I/O functions like printf, scanf, etc.\n    printf("This is the parent console window.\n");\n    return 0;\n}

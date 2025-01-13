@@ -1,0 +1,1 @@
+g++ -o jpeg_dimensions jpeg_dimensions.cpp

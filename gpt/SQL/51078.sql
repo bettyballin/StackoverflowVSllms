@@ -1,0 +1,1 @@
+SELECT CAST(BigMacs AS INT) AS BigMacsInt\nFROM McTable\nWHERE dbo.IsNumeric(BigMacs) = 1\nAND CAST(BigMacs AS INT) > 6

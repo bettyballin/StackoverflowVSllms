@@ -1,0 +1,1 @@
+<?php\n$to = "recipient@example.com";\n$subject = "Test Email";\n$message = "This is a test email.";\n$headers = "From: sender@example.com\r\n";\n$headers .= "Disposition-Notification-To: sender@example.com\r\n";\n$headers .= "Return-Receipt-To: sender@example.com\r\n";\n\nmail($to, $subject, $message, $headers);\n?>

@@ -1,1 +1,0 @@
-public void Window_Loaded(object sender, RoutedEventArgs e)\n{\n    // we manually fire the bindings so we get the validation initially\n    txtName.GetBindingExpression(TextBox.TextProperty).UpdateSource();\n    txtCode.GetBindingExpression(TextBox.TextProperty).UpdateSource();\n}

@@ -1,1 +1,0 @@
-SendMessage(SHFindMenuBar(window_hwnd), \n            SHCMBM_OVERRIDEKEY, \n            VK_TTALK, \n            MAKELPARAM((SHMBOF_NODEFAULT|SHMBOF_NOTIFY), (SHMBOF_NODEFAULT|SHMBOF_NOTIFY));

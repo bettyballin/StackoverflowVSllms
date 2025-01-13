@@ -1,0 +1,1 @@
+<?php\nsession_start();\n$_SESSION['user_id'] = 'daniel';\necho "Session variable 'user_id' is set to: " . $_SESSION['user_id'];\n?>

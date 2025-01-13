@@ -1,0 +1,1 @@
+perl extract_text.pl

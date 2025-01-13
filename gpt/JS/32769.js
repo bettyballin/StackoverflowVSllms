@@ -1,0 +1,1 @@
+let elements = $(jQuerySelector);\nlet correctElement = elements.filter((index, elem) => {\n    // Add custom logic to identify the correct element\n    return $(elem).text().includes('desired text') || $(elem).hasClass('specific-class');\n});\n\nconsole.log(correctElement); // The filtered jQuery object with the correct element

@@ -1,0 +1,1 @@
+def update_url(url_id, new_url, new_description):\n        conn = sqlite3.connect('rss_reader.db')\n        cursor = conn.cursor()\n\n        cursor.execute('''\n        UPDATE urls\n        SET url = ?, description = ?\n        WHERE id = ?\n        ''', (new_url, new_description, url_id))\n\n        conn.commit()\n        conn.close()

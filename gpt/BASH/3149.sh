@@ -1,0 +1,1 @@
+g++ -msse -msse2 -msse3 -O3 -o my_program my_program.cpp

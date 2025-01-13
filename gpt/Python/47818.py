@@ -1,0 +1,1 @@
+import requests\n\ndef get_latest_php_version():\n    url = "https://www.php.net/releases/index.php?json&version=7"\n    response = requests.get(url)\n    data = response.json()\n    latest_version = data["version"]\n    return latest_version\n\nphp_version = get_latest_php_version()\nprint(f"The latest PHP version is: {php_version}")

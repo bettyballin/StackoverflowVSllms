@@ -1,0 +1,1 @@
+tlbimp YourTypeLibrary.tlb /out:YourAssembly.dll

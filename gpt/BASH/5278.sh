@@ -1,0 +1,1 @@
+composer global require "squizlabs/php_codesniffer=*"\n   phpcbf /path/to/your/php/file.php

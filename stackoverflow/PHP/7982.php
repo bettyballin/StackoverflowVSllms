@@ -1,1 +1,0 @@
-class Test_TttController extends Zend_Controller_Action\n{\n\n}

@@ -1,0 +1,1 @@
+// common_header.h\n    #ifndef COMMON_HEADER_H\n    #define COMMON_HEADER_H\n\n    // Your macro definitions\n    #define MY_MACRO 42\n\n    // Other common definitions\n\n    #endif // COMMON_HEADER_H

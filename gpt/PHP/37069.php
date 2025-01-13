@@ -1,0 +1,1 @@
+// Hidden store_id element for form submission\n$storeIdHidden = new Zend_Form_Element_Hidden('store_id_hidden');\n$storeIdHidden->setValue($storeIdValue); // Set the value of store_id\n\n// Add the hidden store_id element to the form\n$this->addElement($storeIdHidden);

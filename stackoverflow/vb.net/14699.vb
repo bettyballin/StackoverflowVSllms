@@ -1,1 +1,0 @@
-Public Function HasChanges(ByVal obj As Object) As Boolean\n    Dim cs = GetChangeSet()\n    If cs.Updates.Contains(obj) Or cs.Inserts.Contains(obj) Or cs.Deletes.Contains(obj) Then Return True\n    Return False\nEnd Functio

@@ -1,0 +1,1 @@
+$(document).ready(function () {\n        $("#tabs").tabs({\n            beforeLoad: function (event, ui) {\n                ui.jqXHR.fail(function () {\n                    ui.panel.html("Couldn't load this tab. We'll try to fix this as soon as possible. Please try again later.");\n                });\n            }\n        });\n    });

@@ -1,1 +1,0 @@
-def this_method_takes_a_block\n  yield(5)\nend\n\nthis_method_takes_a_block do |num|\n  puts num\nend

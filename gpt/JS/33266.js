@@ -1,0 +1,1 @@
+function loadData() {\n    var xhr = new XMLHttpRequest();\n    xhr.onreadystatechange = function() {\n        if (this.readyState == 4 && this.status == 200) {\n            document.getElementById("content").innerHTML = this.responseText;\n        }\n    };\n    xhr.open("GET", "data.txt", true);\n    xhr.send();\n}

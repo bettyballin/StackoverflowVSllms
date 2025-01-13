@@ -1,1 +1,0 @@
-object o = e.NewValues["StartDate"];\n   if (o.ToString() == "")\n       e.NewValues["StartDate"] = null;

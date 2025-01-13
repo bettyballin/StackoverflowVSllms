@@ -1,1 +1,0 @@
-SELECT TOP 1\ndbo_Parents.ParentName, \ndbo_ChildEntry.CountPropertys, \ndbo_ChildEntry.DateTimeStamp \nFROM dbo_Parents \nINNER JOIN dbo_ChildEntry ON dbo_Parents.ParentID = dbo_ChildEntry.ParentID \nORDER BY dbo_ChildEntry.DateTimeStamp desc

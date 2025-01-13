@@ -1,0 +1,1 @@
+public class A : Player\n{\n    private int desiredPower = 100;\n\n    public override int GetPower\n    {\n        get { return desiredPower; }\n    }\n\n    public A()\n    {\n        InitializePower();\n    }\n}

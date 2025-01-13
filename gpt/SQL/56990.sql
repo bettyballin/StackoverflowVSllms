@@ -1,0 +1,1 @@
++-----------+      +----------+      +-----------+\n|   Users   |----->|  Orders  |<-----| Products  |\n+-----------+      +----------+      +-----------+\n| user_id   |      | order_id |      | product_id|\n| user_name |      | user_id  |      | name      |\n| email     |      | product_id|     | price     |\n+-----------+      +----------+      +-----------+

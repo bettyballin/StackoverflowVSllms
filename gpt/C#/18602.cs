@@ -1,0 +1,1 @@
+public partial class PrintPreviewForm : Form\n   {\n       public PrintPreviewForm()\n       {\n           InitializeComponent();\n       }\n\n       public void LoadDocument(PrintDocument document)\n       {\n           printPreviewControl.Document = document;\n       }\n   }

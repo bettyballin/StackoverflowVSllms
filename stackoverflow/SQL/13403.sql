@@ -1,1 +1,0 @@
-HAVING COUNT(DISTINCT Sentence_ID) > 100

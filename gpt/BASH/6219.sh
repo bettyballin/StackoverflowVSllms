@@ -1,0 +1,1 @@
+git init playground-project\n   cd playground-project

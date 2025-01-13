@@ -1,1 +1,0 @@
-select NAME, sum(isnull(REF)) as is_null, sum(not isnull(REF)) as is_not_null from TABLE group by NAME;

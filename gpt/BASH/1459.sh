@@ -1,0 +1,1 @@
+$TemplatePath = "C:\template.xls"\n$NewFilePath = "C:\newfile.xls"\n\n# Copy the template file\nCopy-Item -Path $TemplatePath -Destination $NewFilePath\n\n# Exit PowerShell script and continue with SQL Server job

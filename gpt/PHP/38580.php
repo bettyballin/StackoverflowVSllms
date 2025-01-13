@@ -1,0 +1,1 @@
+<?php\nfunction renderContentBasedOnCondition($condition) {\n    if ($condition == 'case1') {\n        // logic for case 1\n    } elseif ($condition == 'case2') {\n        // logic for case 2\n    } else {\n        // default logic\n    }\n}\n?>

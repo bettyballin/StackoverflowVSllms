@@ -1,0 +1,1 @@
+-- This table stores user information\nCREATE TABLE users (\n    user_id INT PRIMARY KEY, -- Primary key for the users table\n    username VARCHAR(50) NOT NULL, -- Unique username for login\n    email VARCHAR(100) NOT NULL, -- User's email address\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP -- Record creation timestamp\n);

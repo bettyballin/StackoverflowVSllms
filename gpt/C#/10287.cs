@@ -1,0 +1,1 @@
+// Function to calculate the factorial of a number\npublic int factorial(int n) {\n    // Base case: factorial of 0 is 1\n    if (n == 0) {\n        return 1;\n    }\n    // Recursive case: n * factorial of (n-1)\n    return n * factorial(n - 1);\n}

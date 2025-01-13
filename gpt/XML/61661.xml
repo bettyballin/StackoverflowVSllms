@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?>\n<classpath>\n    <classpathentry kind="src" path="src">\n        <attributes>\n            <attribute name="optional" value="true"/>\n        </attributes>\n        <excluding>third-party/</excluding>\n    </classpathentry>\n    <classpathentry kind="output" path="bin"/>\n</classpath>

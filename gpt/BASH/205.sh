@@ -1,0 +1,1 @@
+make -j$(nproc)\n   sudo make install

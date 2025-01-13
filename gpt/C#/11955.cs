@@ -1,0 +1,1 @@
+public Form1()\n{\n    InitializeComponent();\n    this.KeyPreview = true;\n    this.KeyUp += new KeyEventHandler(Form1_KeyUp);\n}

@@ -1,0 +1,1 @@
+find . -name '*.php' > all_php_files.txt\n\nwhile read -r file; do\n    if ! grep -q "$(basename "$file")" . -r; then\n        echo "$file is potentially an orphan page"\n    fi\ndone < all_php_files.txt

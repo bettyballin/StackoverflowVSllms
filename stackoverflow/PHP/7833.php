@@ -1,1 +1,0 @@
-$dummy = new MyClassName;\ncall_user_func_array(array('MyClassName', 'method'), array($id));\nunset($dummy);

@@ -1,0 +1,1 @@
+composer require drupal/simple_sitemap

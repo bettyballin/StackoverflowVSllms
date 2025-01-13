@@ -1,1 +1,0 @@
-$cleanUsername = basename($input);\n$filename      = '/path/to/password/files/' . $cleanUsername . '.txt';\n\nif (file_exists($filename)) {\n    [...]\n}

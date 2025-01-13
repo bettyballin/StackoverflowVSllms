@@ -1,1 +1,0 @@
-error_reporting(E_ALL | E_WARNING | E_NOTICE);\nini_set('display_errors', TRUE);\n\n\nflush();\nheader("Location: http://www.website.com/");\ndie('should have redirected by now');

@@ -1,1 +1,0 @@
-DECLARE @jobId binary(16)\n\nSELECT @jobId = job_id FROM msdb.dbo.sysjobs WHERE (name = N'Name of Your Job')\nIF (@jobId IS NOT NULL)\nBEGIN\n    EXEC msdb.dbo.sp_delete_job @jobId\nEND\n\nDECLARE @ReturnCode int\nEXEC @ReturnCode =  msdb.dbo.sp_add_job @job_name=N'Name of Your Job'

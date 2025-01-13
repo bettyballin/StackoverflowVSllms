@@ -1,0 +1,1 @@
+def IsBitTrue(number, bit_position):\n    # Shift 1 to the left by (bit_position - 1) and perform bitwise AND with the number\n    return (number & (1 << (bit_position - 1))) != 0\n\n# Examples\nprint(IsBitTrue(30, 1)) # Output: False\nprint(IsBitTrue(30, 2)) # Output: True\nprint(IsBitTrue(30, 3)) # Output: True

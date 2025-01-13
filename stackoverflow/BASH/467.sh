@@ -1,1 +1,0 @@
-while true ; do\n    run_proc &\n    PID=$!\n    sleep 3600\n    kill $PID\n    sleep 30\ndone

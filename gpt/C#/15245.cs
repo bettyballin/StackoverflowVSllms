@@ -1,0 +1,1 @@
+using (var context = new YourDataContext())\n{\n    // Example of calling a stored procedure with LINQ to SQL\n    var result = context.YourStoredProcedureName(parameter1, parameter2);\n\n    foreach (var item in result)\n    {\n        Console.WriteLine(item.SomeProperty);\n    }\n}

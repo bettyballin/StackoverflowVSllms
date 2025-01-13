@@ -1,1 +1,0 @@
-<?php\n\n$foo = 'Bob Williams';\n$bar = 'SamSpade';\n$baz = "Bob\t\t\tWilliams";\n\nvar_dump(preg_match('/\s/',$foo));\nvar_dump(preg_match('/\s/',$bar));\nvar_dump(preg_match('/\s/',$baz));

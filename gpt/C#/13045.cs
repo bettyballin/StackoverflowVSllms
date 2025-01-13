@@ -1,0 +1,1 @@
+using System.Web.Mvc;\n\npublic class HomeController : Controller\n{\n    public ActionResult Index()\n    {\n        ViewBag.Message = "Hello, MVC!";\n        return View();\n    }\n\n    [HttpPost]\n    public ActionResult Index(string button)\n    {\n        ViewBag.Message = "Button Clicked!";\n        return View();\n    }\n}

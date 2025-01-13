@@ -1,1 +1,0 @@
-$soapHeader = new SoapHeader(\n                     'http://schemas.microsoft.com/exchange/services/2006/types',\n                     'RequestServerVersion Version="Exchange2007_SP1"'\n                     );

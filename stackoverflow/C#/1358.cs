@@ -1,1 +1,0 @@
-System.Net.CredentialCache.DefaultCredentials  \nSystem.Security.Principal.WindowsIdentity.GetCurrent().Name  \nEnvironment.UserName  

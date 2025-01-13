@@ -1,1 +1,0 @@
-<?php\n$str = '08-24-1989'; // can be in any recognizable date format.    \n$new_str = date('Ymd', strtotime($str)); // produces "20090824".\n?>

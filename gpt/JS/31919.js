@@ -1,0 +1,1 @@
+fetch("http://example.com/data")\n    .then(response => response.json())\n    .then(data => {\n        console.log(data);\n    })\n    .catch(error => {\n        console.error('Error fetching data:', error);\n    });

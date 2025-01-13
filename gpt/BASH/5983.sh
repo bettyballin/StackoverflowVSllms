@@ -1,0 +1,1 @@
+sudo emerge --ask www-servers/apache dev-lang/php

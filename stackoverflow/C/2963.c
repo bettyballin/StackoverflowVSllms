@@ -1,1 +1,0 @@
-bool lowestPositive( int a, int b, int& result )\n{\n   if (a > 0 && a <= b) // a is positive and smaller than or equal to b\n      result = a;\n   else if (b > 0) // b is positive and either smaller than a or a is negative\n      result = b;\n   else\n      result = a; // at least b is negative, we might not have an answer\n\n   return result > 0;  // zero is not positive\n}

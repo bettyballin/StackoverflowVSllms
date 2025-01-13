@@ -1,0 +1,1 @@
+rdiff delta file1.sig file2.txt file1_to_file2.delta

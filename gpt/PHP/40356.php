@@ -1,0 +1,1 @@
+$config = [\n       'site_name' => 'My Website',\n       'admin_email' => 'admin@example.com'\n   ];\n\n   foreach ($config as $key => $value) {\n       $$key = $value;\n   }\n\n   echo $site_name;    // Outputs 'My Website'\n   echo $admin_email;  // Outputs 'admin@example.com'

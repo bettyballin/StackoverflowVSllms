@@ -1,0 +1,1 @@
+signtool sign /a /t http://timestamp.digicert.com /f path\to\your\certificate.pfx /p YourPFXPassword path\to\your\installer.msi

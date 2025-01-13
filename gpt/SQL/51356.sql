@@ -1,0 +1,1 @@
+CREATE TABLE temp_table (id INT);\nINSERT INTO temp_table (id) VALUES (123), (456), (789), ...;\n\nSELECT table.*\nFROM table\nJOIN temp_table ON table.Col = temp_table.id;\n\nDROP TABLE temp_table;

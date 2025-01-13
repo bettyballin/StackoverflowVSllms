@@ -1,1 +1,0 @@
-Public Function ConvertString(Of T As Structure)(ByVal value As String) As System.Nullable(Of T)\n    Try\n        Return DirectCast(Convert.ChangeType(value, GetType(T)), T)\n    Catch\n        Return Nothing\n    End Try\nEnd Functio

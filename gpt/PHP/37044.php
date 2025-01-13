@@ -1,0 +1,1 @@
+session_save_path('/var/lib/php/sessions');\nsession_start();

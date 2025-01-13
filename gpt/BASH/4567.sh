@@ -1,0 +1,1 @@
+etsh int ipv4 set dynamicport tcp start=10000 num=55535

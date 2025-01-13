@@ -1,0 +1,1 @@
+function GetInputErrorCallback(error)\n{\n    var errorMessage = decodeURIComponent(escape(error.get_message()));\n    $get('input_error_msg_div').innerHTML = errorMessage;\n}

@@ -1,0 +1,1 @@
+sudo /Applications/XAMPP/xamppfiles/bin/mysqld_safe --skip-grant-tables &

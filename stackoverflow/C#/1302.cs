@@ -1,1 +1,0 @@
-protected override ServiceHost CreateServiceHost(Type serviceType, Uri[] baseAddresses)\n        {\n            return new WebServiceHost2(serviceType, true, baseAddresses) {EnableAutomaticHelpPage = false};\n        }

@@ -1,0 +1,1 @@
+Partial Public Class MyUserControl\n    Public Sub New()\n        InitializeComponent()\n        HeaderDockPanel = PART_HeaderDockPanel\n        RootDockPanel = PART_RootDockPanel\n    End Sub\nEnd Class

@@ -1,1 +1,0 @@
-$("#appendTD").find("#gridFormInformation").children(0).children().each(\n            function() {\n                if ($("#appendTD").find('tr').filter(function() { return $(this).attr('class') == 'ui-widget-content ui-subtblcell'; }).children("td:eq(0)").addClass("leftbord"));\n            }\n        );

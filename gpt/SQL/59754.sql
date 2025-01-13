@@ -1,0 +1,1 @@
+CREATE PROCEDURE GenerateNightlyReport\nAS\nBEGIN\n    -- Your long-running SQL queries here\n    SELECT * FROM Reports WHERE ReportDate = GETDATE();\n    -- Additional processing logic\nEND

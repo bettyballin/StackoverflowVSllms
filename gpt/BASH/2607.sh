@@ -1,0 +1,1 @@
+:'<,'>w !mysql -uuser -ppass mydb > /tmp/sql_output && cat /tmp/sql_output\n:r !cat /tmp/sql_output

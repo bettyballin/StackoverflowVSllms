@@ -1,0 +1,1 @@
+// Add columns to the ListView\nlistView1.Columns.Add("Key");\nlistView1.Columns.Add("Value");\n\n// Create a new ListViewItem\nListViewItem item = new ListViewItem("Key Item");\n\n// Add subitems to the ListViewItem\nitem.SubItems.Add("Value Item");\n\n// Add the ListViewItem to the ListView\nlistView1.Items.Add(item);

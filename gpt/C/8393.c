@@ -1,0 +1,1 @@
+void MyPrintf(char const* format, va_list args) __attribute__((format(printf, 1, 0)));

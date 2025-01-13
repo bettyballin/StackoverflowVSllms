@@ -1,0 +1,1 @@
+BACKUP SYMMETRIC KEY YourSymmetricKeyName\n      TO FILE = 'path_to_symmetric_key_file'\n      ENCRYPTION BY PASSWORD = 'your_strong_password';

@@ -1,1 +1,0 @@
-result = (foo == bar)  ? result1 :\n           (foo == baz)  ? result2 :\n           (foo == qux)  ? result3 :\n           (foo == quux) ? result4 : \n                           fail_result;

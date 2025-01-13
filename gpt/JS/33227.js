@@ -1,0 +1,1 @@
+xhr.onreadystatechange = function() {\n       if (xhr.readyState == 4 && xhr.status == 200) {\n           // Process the response\n           var response = JSON.parse(xhr.responseText);\n           // Update the web page with the response data\n       }\n   };

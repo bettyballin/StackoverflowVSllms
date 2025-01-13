@@ -1,1 +1,0 @@
-public T this[string key] {\n    get { return m_Dictionary[key]; }\n    set { m_Dictionary[key] = value; }\n}

@@ -1,1 +1,0 @@
-function userDD()\n{\n   $query = ** MySQL Select * From Database Query **\n   $html = '<select name="usernames">';\n\n   while($row == mysql_fetch_array($query))\n   {\n        $html .= '<option>' . $row['username'] . '</option>';\n   }\n\n   $html .= '</select>';\n\n   return $html;\n}

@@ -1,1 +1,0 @@
-$_SEVER["HTTP_REFERER"]

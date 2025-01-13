@@ -1,0 +1,1 @@
+sudo chown -R root:root /etc/ssh/authorized_keys\n   sudo chmod 700 /etc/ssh/authorized_keys

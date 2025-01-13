@@ -1,0 +1,1 @@
+public interface IShape\n{\n    void Draw();\n    void Resize(double width, double height);\n}\n\npublic class ShapeClass : IShape\n{\n    public void Draw()\n    {\n        // Implementation of drawing the shape\n    }\n\n    public void Resize(double width, double height)\n    {\n        // Implementation of resizing the shape\n    }\n}

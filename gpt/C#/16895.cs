@@ -1,0 +1,1 @@
+[HttpPost]\npublic IActionResult TestMVC([FromBody] MyObject obj, [FromBody] string TheWeirdQueryString)\n{\n    // obj should contain the form data\n    // TheWeirdQueryString should contain the additional data\n    // Process the data here\n\n    return Ok();\n}

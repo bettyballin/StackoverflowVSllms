@@ -1,0 +1,1 @@
+chmod +x collect_data.sh

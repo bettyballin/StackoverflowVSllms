@@ -1,1 +1,0 @@
-$hrefs = $xpath->query('//a:Books', $dom);\n\nfor ($i = 0; $i < $hrefs->length; $i++) {\n    $arrBookTitle[$i] = $hrefs->item($i)->nodeValue;\n    $arrBookDewey[$i] = $hrefs->item($i)->getAttribute('DeweyDecimal');\n}

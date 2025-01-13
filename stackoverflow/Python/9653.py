@@ -1,1 +1,0 @@
-Comment.objects.all().annotate(image_path=F('user__profile__image_path'))

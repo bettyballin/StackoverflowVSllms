@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_Dimension_Delete\nON DimensionTable\nFOR DELETE\nAS\nBEGIN\n    DELETE FROM FactTable\n    WHERE source_id IN (SELECT id FROM deleted) OR target_id IN (SELECT id FROM deleted);\nEND;

@@ -1,1 +1,0 @@
-WHERE upper(DECODE(upper(Table.Column), 'SOMETHING', '---', TABLE2.COLUMN2)) like 'SOMETHING'

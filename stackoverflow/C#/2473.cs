@@ -1,1 +1,0 @@
-foreach (Object obj in list) {\n    Type type = obj.GetType();\n\n    foreach (var f in type.GetFields().Where(f => f.IsPublic)) {\n        Console.WriteLine(\n            String.Format("Name: {0} Value: {1}", f.Name, f.GetValue(obj));\n    }                           \n}

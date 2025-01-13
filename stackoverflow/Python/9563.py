@@ -1,1 +1,0 @@
-import urllib\ncontent = urllib.urlopen('http://www.google.com/').read()

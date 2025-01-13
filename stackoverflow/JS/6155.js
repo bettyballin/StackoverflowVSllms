@@ -1,1 +1,0 @@
-$.post("/Home/Create", data, function(json,textStatus) {\n    $("#longTxt").val( json.data );\n},"json");

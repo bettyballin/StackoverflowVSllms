@@ -1,1 +1,0 @@
-$p = new Simple_dom_parser();\n$p->load("www.page.com");\n$p->find("body")->plaintext;

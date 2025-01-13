@@ -1,1 +1,0 @@
-<script type="javascript/text">\n    if (document.referrer.indexOf('google.com') > -1){\n        $("#my-dialog").dialog("open");\n    }\n\n    // this is the jquery code to set up the dialog box\n    $(function() {\n            // options would go inside the dialog() function\n    $("#dialog").dialog();\n});\n\n</script>

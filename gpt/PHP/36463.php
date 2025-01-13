@@ -1,0 +1,1 @@
+require_once 'path/to/janrain-openid-php/openid.php';\n\n$openid = new LightOpenID('your-domain.com');\n$openid->identity = 'https://www.google.com/accounts/o8/id';\n$openid->required = array(\n    'namePerson/first',\n    'namePerson/last',\n    'contact/email'\n);\n$openid->returnUrl = 'https://your-domain.com/return.php';\n\nheader('Location: ' . $openid->authUrl());

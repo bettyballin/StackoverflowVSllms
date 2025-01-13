@@ -1,0 +1,1 @@
+using (SqlConnection conn = new SqlConnection(connectionString))\n{\n    conn.Open();\n    using (SqlCommand cmd = new SqlCommand("EXEC sp_set_session_context @key=N'AppUserID', @value=@AppUserID", conn))\n    {\n        cmd.Parameters.AddWithValue("@AppUserID", appUserID);\n        cmd.ExecuteNonQuery();\n    }\n}

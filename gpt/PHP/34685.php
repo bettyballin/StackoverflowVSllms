@@ -1,0 +1,1 @@
+$remote_url = 'http://remote-server.com/file.zip';\n    $local_path = '/path/to/your_server/your_desired_name.zip';\n\n    // Download the file from the remote server\n    file_put_contents($local_path, fopen($remote_url, 'r'));

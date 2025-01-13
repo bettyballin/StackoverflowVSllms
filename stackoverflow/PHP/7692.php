@@ -1,1 +1,0 @@
-$ids   = "1, 3, 5, 7, 9";  \n$query = "UPDATE tablename SET seen_before = 1 WHERE id IN ($ids)";

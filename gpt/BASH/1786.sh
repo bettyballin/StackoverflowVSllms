@@ -1,0 +1,1 @@
+cd /path/to/working/copy\n   svn commit -m "Committing changes to the remote repository"

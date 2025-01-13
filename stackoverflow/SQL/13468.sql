@@ -1,1 +1,0 @@
-UPDATE table\nSET datecol = DATEADD(m, @newmonth, DATEADD(m, -MONTH(datecol), datecol))\nWHERE id = @id

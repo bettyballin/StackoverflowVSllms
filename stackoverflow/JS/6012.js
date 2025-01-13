@@ -1,1 +1,0 @@
-var fn = window[settings.functionName];\nif(typeof fn === 'function') {\n    fn(t.parentNode.id);\n}

@@ -1,1 +1,0 @@
-program arg1 arg2 >/tmp/log.file 2>&1

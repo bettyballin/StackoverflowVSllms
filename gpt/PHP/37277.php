@@ -1,0 +1,1 @@
+// file: plugins/modifier.capitalize.php\nfunction smarty_modifier_capitalize($string)\n{\n    return ucwords($string);\n}

@@ -1,0 +1,1 @@
+SELECT bookmarkid \n    FROM Bookmarks \n    WHERE DBMS_CRYPTO.HASH(UTL_RAW.CAST_TO_RAW(URL), 1) = DBMS_CRYPTO.HASH(UTL_RAW.CAST_TO_RAW('<some url>'), 1);

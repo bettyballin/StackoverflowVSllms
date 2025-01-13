@@ -1,0 +1,1 @@
+mkdir build\n     cd build\n     ../configure --prefix=/opt/chroot/glibc-2.3.3\n     make\n     sudo make install

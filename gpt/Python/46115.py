@@ -1,0 +1,1 @@
+# settings.py\n# Add the following settings if not already present\nMEDIA_URL = '/media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n\n# Make sure to add media URL handling in your main urls.py\nfrom django.conf import settings\nfrom django.conf.urls.static import static\n\nurlpatterns = [\n    # ... other URL patterns ...\n] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

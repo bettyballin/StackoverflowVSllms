@@ -1,0 +1,1 @@
+tortoise-cli inspect --db-url postgres://user:password@localhost/dbname > models.py

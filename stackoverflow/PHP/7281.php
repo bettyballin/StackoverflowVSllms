@@ -1,1 +1,0 @@
-class A {\n    public function b() {\n        ...\n        return $this;\n    }\n\n    public function c($param) {\n        ...\n        return $this;\n    }       \n}\n\n\n$foo = new A();\n$foo->b()->c('one');\n// chaining is equivilant to\n// $foo = $foo->b();\n// $foo = $foo->c();

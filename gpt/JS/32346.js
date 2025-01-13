@@ -1,0 +1,1 @@
+const cheerio = require('cheerio');\n\nconst html = "<html><body><p>Example without closing tags";\nconst $ = cheerio.load(html);\n\n// Extract data, for example, text inside <p> tag\nconst text = $('p').text();\nconsole.log(text);

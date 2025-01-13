@@ -1,0 +1,1 @@
+public class Example {\n    private readonly object lockObject = new object();\n\n    public void Method() {\n        lock(lockObject) {\n            // critical section\n        }\n    }\n}

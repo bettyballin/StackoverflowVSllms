@@ -1,1 +1,0 @@
---PostgreSQL\ninsert into table (id, ... ) values (nextval(sequence_name_for_group_xx), ... )\n\n--Oracle\ninsert into table (id, ... ) values (sequence_name_for_group_xx.nextval, ... )

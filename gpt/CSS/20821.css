@@ -1,0 +1,1 @@
+.variant2 .form-item {\n    display: flex;\n    justify-content: space-between;\n    margin-bottom: 10px;\n}\n\n.variant2 label {\n    flex: 1;\n    text-align: left;\n}\n\n.variant2 input {\n    flex: 1;\n}

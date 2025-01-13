@@ -1,1 +1,0 @@
-from django.http import HttpResponseRedirect\n\ndef myview(request):\n    ...\n    return HttpResponseRedirect("/path/")

@@ -1,1 +1,0 @@
-USE AdventureWorks;\nGO\nWITH OrderedOrders AS\n(\n    SELECT SalesOrderID, OrderDate,\n    ROW_NUMBER() OVER (ORDER BY OrderDate) AS 'RowNumber'\n    FROM Sales.SalesOrderHeader \n)  \n\nSELECT * \nFROM OrderedOrders \nWHERE RowNumber = 5;

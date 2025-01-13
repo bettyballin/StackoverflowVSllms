@@ -1,0 +1,1 @@
+If kind is PDF\n     Then move to folder ~/Documents/References/PDFs

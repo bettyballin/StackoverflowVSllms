@@ -1,0 +1,1 @@
+#include <dlfcn.h>\n\nvoid* handle = dlopen("/path/to/library.dylib", RTLD_LAZY);\nif (!handle) {\n    fprintf(stderr, "%s\n", dlerror());\n    exit(EXIT_FAILURE);\n}\n\nvoid (*func)() = dlsym(handle, "function_name");\nif (!func) {\n    fprintf(stderr, "%s\n", dlerror());\n    exit(EXIT_FAILURE);\n}\n\nfunc();\n\ndlclose(handle);

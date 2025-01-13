@@ -1,0 +1,1 @@
+ANALYZE TABLE userdata;\n   ANALYZE TABLE page;\n   ANALYZE TABLE pagegroup;\n   \n   OPTIMIZE TABLE userdata;\n   OPTIMIZE TABLE page;\n   OPTIMIZE TABLE pagegroup;

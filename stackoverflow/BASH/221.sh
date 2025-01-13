@@ -1,1 +1,0 @@
-gs -q -sDEVICE=jpeg -dBATCH -dNOPAUSE -dFirstPage=1 -dLastPage=1 -r<OUTPUT RESOLUTION> -sOutputFile=<OUTPUT>.jpg <INPUT>.pdf 2>&1

@@ -1,0 +1,1 @@
+Public Shared Function IsInRange(ByVal number As Integer, ByVal Minimum As Integer, ByVal Maximum As Integer) As Boolean\n    Return number >= Minimum AndAlso number <= Maximum\nEnd Functio

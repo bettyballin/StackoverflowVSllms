@@ -1,0 +1,1 @@
+sudo chown phpuser:phpgroup /path/to/your/file

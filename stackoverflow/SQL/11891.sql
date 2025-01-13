@@ -1,1 +1,0 @@
-select distinct CollectId, url, userid, pubtime\nfrom Collect\nwhere pubtime >= (select max(pubtime) from collect d where d.url = collect.url)\norder by Collect.pubtime desc

@@ -1,0 +1,1 @@
+# Example of increasing the heap size in the OMS configuration file:\n   emctl stop oms\n   emctl set property -name s_jvm_options -value "-Xms512m -Xmx2048m"\n   emctl start oms

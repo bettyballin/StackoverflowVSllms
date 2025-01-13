@@ -1,0 +1,1 @@
+CREATE TABLE OrderItem (\n    OrderID INT,\n    ProductID INT,\n    Quantity INT,\n    PRIMARY KEY (OrderID, ProductID),\n    FOREIGN KEY (OrderID) REFERENCES Orders(OrderID),\n    FOREIGN KEY (ProductID) REFERENCES Products(ProductID)\n);

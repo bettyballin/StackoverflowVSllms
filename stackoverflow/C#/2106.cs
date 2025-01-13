@@ -1,1 +1,0 @@
-Thread AnalisisThread{get{return this.analisisThread;}}

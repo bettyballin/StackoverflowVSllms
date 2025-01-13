@@ -1,0 +1,1 @@
+ALTER TABLE tbl_name ADD COLUMN column4 [data_type] AFTER column1;

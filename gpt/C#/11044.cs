@@ -1,0 +1,1 @@
+Page.ClientScript.RegisterStartupScript(this.GetType(), "key", "alert('Hello from ClientScript');", true);

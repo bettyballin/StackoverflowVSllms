@@ -1,1 +1,0 @@
-Dim average as Double

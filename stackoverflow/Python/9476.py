@@ -1,1 +1,0 @@
-def spanningsets(items):\n    if not items: return\n    if len(items) == 1:\n        yield [[items[-1]]]\n    else:\n        for cc in spanningsets(items[:-1]):\n            yield cc + [[items[-1]]]\n            for i in range(len(cc)):\n                yield cc[:i] + [cc[i] + [items[-1]]] + cc[i+1:]\n\nfor sset in spanningsets([1, 2, 3, 4]):\n    print ' '.join(map(str, sset))

@@ -1,1 +1,0 @@
-FileStream sourceFile;\nGZipStream compStream;\n\nbyte[] buffer = new byte[65536];\nint bytesRead = 0;\nwhile (bytesRead = sourceFile.Read(buffer, 0, 65536) > 0)\n{\n     compStream.Write(buffer, 0, bytesRead);\n}

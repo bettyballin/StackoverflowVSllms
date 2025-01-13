@@ -1,1 +1,0 @@
-req = new XMLHttpRequest();

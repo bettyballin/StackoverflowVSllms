@@ -1,1 +1,0 @@
-xSum = 0\nySum = 0\npoints = 0\n\nfor point in matrix\n    if point is marked\n        xSum += pointX\n        ySum += pointY\n        points++\n\nreturn (xSum/points, ySum/points)

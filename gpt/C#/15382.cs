@@ -1,0 +1,1 @@
+if (myGuid.HasValue)\n{\n    myNewRow.myGuidColumn = myGuid.Value;\n}\nelse\n{\n    throw new InvalidOperationException("GUID cannot be null.");\n}

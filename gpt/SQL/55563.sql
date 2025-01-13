@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION update_user_address(user_id INT, new_address TEXT) RETURNS VOID AS $$\nBEGIN\n    UPDATE addresses SET address = new_address WHERE user_id = user_id;\nEND;\n$$ LANGUAGE plpgsql;

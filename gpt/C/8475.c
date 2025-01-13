@@ -1,0 +1,1 @@
+if (primary_sensor_fails()) {\n        switch_to_backup_sensor();\n    }

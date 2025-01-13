@@ -1,1 +1,0 @@
-date('0001-01-01') + year(current date) years - 1 year

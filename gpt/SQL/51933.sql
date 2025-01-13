@@ -1,0 +1,1 @@
+EXEC sp_addlinkedserver \n    @server = 'LinkedServerName',\n    @srvproduct = '',\n    @provider = 'SQLNCLI',\n    @datasrc = 'RemoteServerName';

@@ -1,0 +1,1 @@
+// Controller\n$this->template->title = 'My Title';\n$this->template->content = 'This is the content.';\n$this->template->innerView = new View('article', array(\n    'title' => $this->template->title,\n    'content' => $this->template->content\n));

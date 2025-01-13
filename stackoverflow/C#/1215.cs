@@ -1,1 +1,0 @@
-public ActionResult Profile(string userName)\n{\n    // Do What you want with the userName\n    throw new System.NotImplementedException();\n}

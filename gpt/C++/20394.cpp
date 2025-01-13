@@ -1,0 +1,1 @@
+#include <iostream>\n#include <bitset>\n#include <string>\n\nvoid print(const std::string &s) {\n    for (unsigned char c : s) {\n        std::bitset<8> bits(c);\n        std::cout << bits << ' ';\n    }\n    std::cout << std::endl;\n}\n\nint main() {\n    std::string str = "\x80";\n    print(str);\n    return 0;\n}

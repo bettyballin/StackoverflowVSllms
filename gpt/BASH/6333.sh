@@ -1,0 +1,1 @@
+alias sudorsync='sudo rsync -avz -e "ssh -F /Users/jbloggs/.ssh/config"'

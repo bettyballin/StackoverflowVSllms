@@ -1,0 +1,1 @@
+php bin/laminas module:create Blog\nphp bin/laminas controller:create Post --module=Blog

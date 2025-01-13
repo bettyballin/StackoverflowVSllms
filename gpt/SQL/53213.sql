@@ -1,0 +1,1 @@
+RESTORE DATABASE [YourDatabaseName] FROM DISK = 'C:\Path\To\Backup\YourDatabaseName.bak'

@@ -1,0 +1,1 @@
+@echo off\nsetlocal enabledelayedexpansion\n\nset "lastLine="\nfor /f "delims=" %%a in (log.txt) do (\n    set "lastLine=%%a"\n)\n\necho Last recorded date/time is: !lastLine!\npause

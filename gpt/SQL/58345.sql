@@ -1,0 +1,1 @@
+-- Create a temporary table\nCREATE TEMPORARY TABLE temp_ids (id INT PRIMARY KEY);\n\n-- Insert the IDs into the temporary table\nINSERT INTO temp_ids (id) VALUES (1), (2), (3), ..., (n);\n\n-- Use a join with the temporary table\nSELECT tab1.*\nFROM tab1\nJOIN temp_ids ON tab1.id = temp_ids.id;

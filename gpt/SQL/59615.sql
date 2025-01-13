@@ -1,0 +1,1 @@
+SELECT host_name, instance_name, version \nFROM v$instance;\n\nSELECT name, db_unique_name \nFROM v$database;

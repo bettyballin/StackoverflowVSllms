@@ -1,1 +1,0 @@
-GEvent.addListener(directions, "error", handleErrors);

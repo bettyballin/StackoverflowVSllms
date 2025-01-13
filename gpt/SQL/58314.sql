@@ -1,0 +1,1 @@
+SELECT a1.element\nFROM A a1\nWHERE NOT EXISTS (\n    SELECT b.element\n    FROM B b\n    WHERE NOT EXISTS (\n        SELECT a2.element\n        FROM A a2\n        WHERE a2.element = a1.element\n        AND a2.related_element = b.element\n    )\n);

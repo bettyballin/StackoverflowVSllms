@@ -1,0 +1,1 @@
+using Castle.ActiveRecord;\nusing NHibernate;\nusing NHibernate.Criterion;\n\npublic class Product : ActiveRecordBase<Product>\n{\n    // Your Product properties and methods\n}\n\npublic int GetProductCount(DateTime date)\n{\n    ICriterion criterion = Restrictions.Gt("Date", date);\n    return (int)ActiveRecordMediator<Product>.Count(criterion);\n}

@@ -1,0 +1,1 @@
+WITH Date_Range AS (\n  SELECT id,\n         start_date + LEVEL - 1 AS event_date\n    FROM Event\n  CONNECT BY LEVEL <= (end_date - start_date + 1)\n    AND PRIOR id = id\n    AND PRIOR dbms_random.value IS NOT NULL\n)\nSELECT id, event_date\n  FROM Date_Range\n WHERE TO_CHAR(event_date, 'DY', 'NLS_DATE_LANGUAGE=ENGLISH') = 'MON';

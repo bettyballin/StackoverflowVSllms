@@ -1,0 +1,1 @@
+ssh -L 1434:localhost:1433 user@subscriber-server

@@ -1,0 +1,1 @@
+public class Test\n{\n    public int A;\n    public int a; // Change this to a different name, e.g., a_lower\n}

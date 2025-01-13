@@ -1,1 +1,0 @@
-BEGIN\n  UPDATE NIGHT_SHIFT\n   Set SOME_DUMB_FIELD = evening_shift_employees.employee;\n  v_rows_processed := SQL%ROWCOUNT;\n  dbms_output.put_line('There were '||v_rows_processed||' rows updated');\nEND;

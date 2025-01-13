@@ -1,1 +1,0 @@
-OnClientClick="return FadeOut();"

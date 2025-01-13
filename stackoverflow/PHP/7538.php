@@ -1,1 +1,0 @@
-$out=array_map(function($x) {return $x*$x;}, range(0, 9))

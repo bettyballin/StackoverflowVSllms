@@ -1,0 +1,1 @@
+-- Creating the first table with a primary key\nCREATE TABLE Table1 (\n    ID INT PRIMARY KEY,\n    Name NVARCHAR(50)\n);\n\n-- Trying to create a second table with the same primary key name will result in an error\nCREATE TABLE Table2 (\n    ID INT PRIMARY KEY,\n    Description NVARCHAR(255)\n);

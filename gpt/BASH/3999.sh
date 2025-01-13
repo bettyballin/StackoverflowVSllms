@@ -1,0 +1,1 @@
+etsh firewall set portopening protocol=UDP port=3544 name=Teredo

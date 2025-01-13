@@ -1,0 +1,1 @@
+curl http://your-server-address/cgi-bin/hung_service.cgi

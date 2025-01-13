@@ -1,0 +1,1 @@
+function generateLookupTable() {\n    $lookupTable = array();\n    for ($i = 0; $i < 64; $i++) {\n        $lookupTable[$i] = array((int)($i / 8), $i % 8);\n    }\n    return $lookupTable;\n}\n\n$lookupTable = generateLookupTable();

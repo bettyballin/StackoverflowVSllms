@@ -1,0 +1,1 @@
+INSERT INTO MyXmlTable (Id, MyXmlColumn)\n   VALUES \n   (1, '<root><dateElement>2023-10-01</dateElement><intElement>123</intElement><decimalElement>123.45</decimalElement></root>');

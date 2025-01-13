@@ -1,0 +1,1 @@
+public void EnqueueMeasurement(string measurement)\n{\n    var body = Encoding.UTF8.GetBytes(measurement);\n\n    channel.BasicPublish(exchange: "",\n                         routingKey: "measurementsQueue",\n                         basicProperties: null,\n                         body: body);\n}

@@ -1,1 +1,0 @@
-var hiddenTags = $('input[name=tags]');

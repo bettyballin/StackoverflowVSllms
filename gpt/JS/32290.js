@@ -1,0 +1,1 @@
+$('#foo span').identify('prefix');

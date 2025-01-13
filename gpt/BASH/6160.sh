@@ -1,0 +1,1 @@
+caspol -user -addgroup All_Code -url "file://\\YourNetworkShare\*" FullTrust -name "IntranetExe"

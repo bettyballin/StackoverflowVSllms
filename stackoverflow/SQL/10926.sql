@@ -1,1 +1,0 @@
-SELECT COUNT(*)\nFROM votes v1\nINNER JOIN votes v2 ON (v1.item_id = v2.item_id)\nWHERE v1.userID = 'userA'\nAND v2.userUD = 'userB'

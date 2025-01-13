@@ -1,0 +1,1 @@
+' Visual Basic\nPublic WriteOnly Property MyProperty As String\n    Set(ByVal value as String)\n        m_myField = value\n    End Set\nEnd Property

@@ -1,1 +1,0 @@
-for record in queryset:

@@ -1,0 +1,1 @@
+mono EncryptConfigSection.exe <sectionName> <configFilePath>

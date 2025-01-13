@@ -1,0 +1,1 @@
+void watchdog_handler() {\n        // Reset the system if the watchdog timer expires\n        reset_system();\n    }

@@ -1,0 +1,1 @@
+# Install IIS and required features (example with Server Manager UI)\n# Register ASP.NET with IIS\n%windir%\Microsoft.NET\Framework\v2.0.50727\aspnet_regiis.exe -i\n\n# Ensure proper permissions\n# This can be done via Windows Explorer Security tab

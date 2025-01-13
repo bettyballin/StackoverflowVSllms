@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <modules>\n      <add name="ContentLengthModule" type="Namespace.ContentLengthModule, AssemblyName"/>\n    </modules>\n  </system.webServer>\n</configuration>

@@ -1,1 +1,0 @@
-public string StripHTMLTags(string text)\n{\n    return Regex.Replace(text, @"<(.|\n)*?>", string.Empty);\n}

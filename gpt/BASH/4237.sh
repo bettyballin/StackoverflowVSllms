@@ -1,0 +1,1 @@
+@echo off\nset a=1\nset b=2\n\necho SELECT * FROM Logs WHERE ColumnA = %a% AND ColumnB = %b%; > query_generated.sql\n\nlogparser file:query_generated.sql -o:Sql -server:databaseserver -database:database -createtable:ON -i:IISW3C -iCheckPoint:somewhere\query.lpc -transactionRowCount:200

@@ -1,0 +1,1 @@
+$to_address = "recipient@example.com";\n$subject = "Subject";\n$message = "Message body";\n$headers = "From: sender@example.com";\n$return_path = "bounce@example.com";\n\nmail($to_address, $subject, $message, $headers, "-f".$return_path);

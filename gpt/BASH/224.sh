@@ -1,0 +1,1 @@
+echo "Some sample text [with some extra text].foo" | sed -n 's/.*\[\(.*\)\].*/\1/p'

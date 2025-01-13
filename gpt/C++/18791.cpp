@@ -1,0 +1,1 @@
+#include <windows.h>\n#include <comdef.h>

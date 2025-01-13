@@ -1,1 +1,0 @@
-<?php\n$dom = new DOMDocument;\n$dom->Load('book.xml');\nif ($dom->validate()) {\n    echo "This document is valid!\n";\n}\n?>

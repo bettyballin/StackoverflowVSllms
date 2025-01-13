@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    function validateCheckbox(sender, args) {\n        var checkBox = document.getElementById('<%= chkTerms.ClientID %>');\n        args.IsValid = checkBox.checked;\n    }\n</script>

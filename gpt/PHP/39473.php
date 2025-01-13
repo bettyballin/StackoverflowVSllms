@@ -1,0 +1,1 @@
+// token_generator.php\n\nsession_start();\n\n// Generate a unique token for the session\n$_SESSION['audio_token'] = bin2hex(random_bytes(16));\n$token = $_SESSION['audio_token'];\n\necho '<audio controls>';\necho '<source src="stream_audio.php?token=' . $token . '" type="audio/mpeg">';\necho 'Your browser does not support the audio element.';\necho '</audio>';

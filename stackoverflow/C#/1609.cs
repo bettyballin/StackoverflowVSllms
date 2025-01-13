@@ -1,1 +1,0 @@
-oHttpWebRequest.Headers.Add(HttpRequestHeader.Pragma, "no-cache")\noHttpWebRequest.Headers.Add(HttpRequestHeader.AcceptLanguage, "en-us")

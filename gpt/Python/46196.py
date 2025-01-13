@@ -1,0 +1,1 @@
+def column_index(i, M):\n    r = row_index(i, M)\n    return i - (r * (r + 1)) // 2

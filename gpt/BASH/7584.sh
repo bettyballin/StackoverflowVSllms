@@ -1,0 +1,1 @@
+ln -s /opt/eclipse/eclipse /usr/local/bin/eclipse

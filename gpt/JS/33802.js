@@ -1,0 +1,1 @@
+$("input[name^=myboxes]").click(function() {\n    var id = $(this).attr('id'); // Get the id attribute of the clicked element\n    var match = id.match(/\d+/); // Extract the number using a regular expression\n    if (match) {\n        var element_id = match[0]; // The extracted number\n        alert(element_id); // Will alert 3, 8, or 10\n    }\n});

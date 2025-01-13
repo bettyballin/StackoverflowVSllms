@@ -1,0 +1,1 @@
+# Copy the file manually\ncp original_file new_file\n\n# Add both files to the staging area\ngit add original_file new_file\n\n# Commit the changes\ngit commit -m "Copy original_file to new_file"

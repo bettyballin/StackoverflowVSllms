@@ -1,0 +1,1 @@
+public void ValidateReport(Report report)\n    {\n        if (report.WordCount > 100000)\n        {\n            report.AddWarning("Word count seems unusually high, please verify.");\n        }\n        if (report.ImageCount < 0)\n        {\n            report.AddWarning("Image count is negative, which is incorrect.");\n        }\n    }

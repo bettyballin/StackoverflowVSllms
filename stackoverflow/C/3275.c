@@ -1,1 +1,0 @@
-// prevent the damned "Server Busy" dialog.\nAfxOleGetMessageFilter()->EnableBusyDialog(0);\nAfxOleGetMessageFilter()->EnableNotRespondingDialog(0); 

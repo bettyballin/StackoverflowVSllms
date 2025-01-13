@@ -1,0 +1,1 @@
+httrack "http://www.yourwebsite.com" -O "C:/path_to_your_local_directory" "+*.yourwebsite.com/*" -v

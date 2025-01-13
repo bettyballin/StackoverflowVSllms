@@ -1,1 +1,0 @@
-jQuery(".add_answer").livequery('click',function()\n{\n    var add_answer = $(this);\n\n    $.get(...)\n    {\n        add_answer.parents('div:first')...\n    }\n}

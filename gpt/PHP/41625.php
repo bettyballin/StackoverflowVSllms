@@ -1,0 +1,1 @@
+class TestClass {\n    private $data = [];\n\n    public function __set($name, $value) {\n        $this->data[$name] = $value;\n    }\n\n    public function __get($name) {\n        return isset($this->data[$name]) ? $this->data[$name] : null;\n    }\n}\n\n$x = new TestClass();\n$x->varA = "test"; // This will trigger __set()\necho $x->varB; // This will trigger __get()

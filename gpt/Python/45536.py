@@ -1,0 +1,1 @@
+import os\n\ndef is_process_alive(pid):\n    try:\n        os.kill(pid, 0)\n    except OSError:\n        return False\n    else:\n        return True\n\n# Example usage:\npid = 12345  # Replace with your process id\nif is_process_alive(pid):\n    print(f"Process {pid} is alive.")\nelse:\n    print(f"Process {pid} is not alive.")

@@ -1,0 +1,1 @@
+; MyClass.def\nLIBRARY MyClassDLL\nEXPORTS\n    ?MyClass@@QEAA@XZ        ; MyClass::MyClass (constructor)\n    ?~MyClass@@QEAA@XZ       ; MyClass::~MyClass (destructor)\n    ?MyMethod@MyClass@@QEAAXXZ ; MyClass::MyMethod

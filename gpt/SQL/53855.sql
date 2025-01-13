@@ -1,0 +1,1 @@
+SELECT p.*\nFROM posts p\nWHERE p.userid IN (\n    SELECT l.listenid\n    FROM listen l\n    WHERE l.userid = 'active_user_id'\n);

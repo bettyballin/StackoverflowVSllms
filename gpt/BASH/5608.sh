@@ -1,0 +1,1 @@
+a2enmod proxy\na2enmod proxy_http

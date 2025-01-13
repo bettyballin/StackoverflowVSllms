@@ -1,0 +1,1 @@
+$(document).ready(function(){\n    var tTip = "Hello world";\n    $('td').hover(function(){\n        $(this).attr('title', tTip);\n    });\n});

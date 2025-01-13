@@ -1,1 +1,0 @@
-#include <unistd.h>\n#include <fcntl.h>\nint main(int argc, char *argv[]) {\n  int fd;\n  fd = open(argv[1], O_RDONLY);\n  fdatasync(fd);\n  posix_fadvise(fd, 0,0,POSIX_FADV_DONTNEED);\n  close(fd);\n  return 0;\n}

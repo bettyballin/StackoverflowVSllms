@@ -1,0 +1,1 @@
+// Assume 'dateFromDatabase' is the DateTime you retrieved from the database\nDateTime dateFromDatabase = DateTime.UtcNow; // Example date in UTC\n\n// Convert UTC to local time\nDateTime localDate = dateFromDatabase.ToLocalTime();\n\nConsole.WriteLine("UTC Date: " + dateFromDatabase.ToString("yyyy-MM-dd"));\nConsole.WriteLine("Local Date: " + localDate.ToString("yyyy-MM-dd"));

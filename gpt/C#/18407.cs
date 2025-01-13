@@ -1,0 +1,1 @@
+SortedList<string, int> sortedList = new SortedList<string, int>();\n   sortedList.Add("Alice", 30);

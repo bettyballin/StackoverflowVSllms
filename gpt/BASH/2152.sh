@@ -1,0 +1,1 @@
+flatpak-builder build-dir myapp.json --force-clea

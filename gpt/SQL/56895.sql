@@ -1,0 +1,1 @@
+CREATE INDEX idx_coalesced_column ON your_table(COALESCE(your_column, ''));

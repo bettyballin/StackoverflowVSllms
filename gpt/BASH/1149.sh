@@ -1,0 +1,1 @@
+sudo chown -R kovshenin:apache /path/to/wordpress\n   sudo find /path/to/wordpress -type d -exec chmod 775 {} \;\n   sudo find /path/to/wordpress -type f -exec chmod 664 {} \;

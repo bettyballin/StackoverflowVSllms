@@ -1,1 +1,0 @@
-$string = htmlspecialchars_decode($string);

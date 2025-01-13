@@ -1,0 +1,1 @@
+class A {\n         int state;\n     public:\n         A(int s): state(s) {}\n         int inc() { return state++; }\n     };\n\n     class B {\n         A t; // B holds an A object\n         // Other members and methods...\n     public:\n         B(int s): t(s) {} // B initializes its A object\n     };

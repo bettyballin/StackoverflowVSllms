@@ -1,0 +1,1 @@
+CREATE SYNONYM YourTableName FOR YourSchema.YourTableName;

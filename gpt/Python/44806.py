@@ -1,0 +1,1 @@
+class MyClass:\n    def __init__(self, attribute1, attribute2):\n        self.attribute1 = attribute1\n        self.attribute2 = attribute2\n\nobj = MyClass("value1", [1, 2, 3])\nprint(vars(obj))

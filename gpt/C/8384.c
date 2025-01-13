@@ -1,0 +1,1 @@
+// C header file\n   typedef struct {\n       int someValue;\n       char *buffer;\n   } BIG_INPUT_STRC;\n\n   typedef struct {\n       int resultCode;\n       char *outputBuffer;\n   } BIG_OUTPUT_STRC;

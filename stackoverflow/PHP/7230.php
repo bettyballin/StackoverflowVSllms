@@ -1,1 +1,0 @@
-// generate a random number for user to guess\n$number = rand(1,100);

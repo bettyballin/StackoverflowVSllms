@@ -1,0 +1,1 @@
+tidy -config tidy-config.txt -o output.html input.html

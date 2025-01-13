@@ -1,0 +1,1 @@
+public int FindSpecificRowValue(DataTable table, string searchValue)\n{\n    for (int i = 0; i < table.Rows.Count; i++)\n    {\n        if (table.Rows[i]["YourColumnName"].ToString() == searchValue)\n        {\n            return i; // Return the row number if found\n        }\n    }\n    return -1; // Return -1 if not found\n}

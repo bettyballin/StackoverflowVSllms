@@ -1,0 +1,1 @@
+aws s3api put-bucket-versioning --bucket your-bucket-name --versioning-configuration Status=Enabled

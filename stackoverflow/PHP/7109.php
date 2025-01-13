@@ -1,1 +1,0 @@
-$list = explode(',', $string);\nvar_dump($list);

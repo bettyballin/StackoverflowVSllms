@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_UpdateUpdateIsComplete\n   ON YourTable\n   AFTER UPDATE\n   AS\n   BEGIN\n       UPDATE YourTable\n       SET IsComplete = dbo.YourFunction(YourColumn)\n       FROM Inserted\n       WHERE YourTable.PrimaryKey = Inserted.PrimaryKey;\n   END;

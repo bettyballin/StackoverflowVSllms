@@ -1,0 +1,1 @@
+<script>\nasync function loadAndRunPython() {\n    let pyodide = await loadPyodide();\n    let pythonCode = `print("Hello from Pyodide!")`;\n    pyodide.runPython(pythonCode);\n}\n\nloadAndRunPython();\n</script>

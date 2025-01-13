@@ -1,0 +1,1 @@
+public string SanitizeInput(string input)\n{\n    return HttpUtility.HtmlEncode(input);\n}

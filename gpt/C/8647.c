@@ -1,0 +1,1 @@
+char dest[256] = "Hello, ";\n   strncat(dest, src, sizeof(dest) - strlen(dest) - 1);

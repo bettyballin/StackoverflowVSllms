@@ -1,0 +1,1 @@
+<?php\n// Using echo\necho "Hello, World!";\n\n// Using print\nprint "Hello, World!";\n?>

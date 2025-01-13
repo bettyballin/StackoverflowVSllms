@@ -1,0 +1,1 @@
+resources :images do\n  member do\n    post 'change'\n  end\nend

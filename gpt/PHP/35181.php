@@ -1,0 +1,1 @@
+$formatted = sprintf("Padded String: %'#10s", "Hi");\n    // Output: Padded String: ########Hi

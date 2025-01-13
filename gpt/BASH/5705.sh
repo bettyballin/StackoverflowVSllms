@@ -1,0 +1,1 @@
+phpenv global 5.0.0   # To use PHP 5.0.0 globally\n   phpenv global 5.2.8   # To use PHP 5.2.8 globally

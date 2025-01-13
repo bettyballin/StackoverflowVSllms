@@ -1,0 +1,1 @@
+select \n    RPAD(assigner_staff_id, 10) as staff_id, \n    RPAD(active_flag, 10) as active_flag, \n    RPAD(to_char(assign_date, 'DD-MON-YY'), 15) as assign_date,\n    RPAD(to_char(complete_date, 'DD-MON-YY'), 15) as complete_date,\n    RPAD(to_char(mod_date, 'DD-MON-YY HH24:MI:SS'), 25) as mod_date\nfrom work \nwhere assigner_staff_id = '2096';

@@ -1,1 +1,0 @@
-define("ABS_PATH", $_SERVER['DOCUMENT_ROOT']);\n\nor\n\ndefine("ABS_PATH", dirname(__FILE__));\n// This defines the path as the directory the file is in.

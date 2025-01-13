@@ -1,0 +1,1 @@
+CComPtr<IFoo> other;\nHRESULT hr = foo->GetOtherFoo(&other);\nif (SUCCEEDED(hr) && other) \n    other->Bar();

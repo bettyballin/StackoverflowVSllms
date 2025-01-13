@@ -1,0 +1,1 @@
+foreach($clientFact as $line) {\n    $cliTemp1[] = $line["idcliente"];\n    echo "qwerty\n";\n}\n\n// Debugging output\necho "Finished foreach loop\n";\necho "Memory usage: " . memory_get_usage() . " bytes\n";\n\n// Continue with the rest of your script\necho "123\n";

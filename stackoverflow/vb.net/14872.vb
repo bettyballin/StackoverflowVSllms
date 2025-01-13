@@ -1,1 +1,0 @@
-Dim enumerable = _dt.AsEnumerable\n\n Dim groupedResults = enumerable.GroupBy( _\n               Function(x) _\n                    New With { _\n                              Key .A = x.Item("A").ToString, _\n                              Key .B = x.Item("B").ToString _\n                             } _\n                    )

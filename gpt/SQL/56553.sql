@@ -1,0 +1,1 @@
+SELECT name, COUNT(*)\n   FROM users\n   GROUP BY name;

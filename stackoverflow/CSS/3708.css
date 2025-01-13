@@ -1,1 +1,0 @@
-selector {\n  word-wrap: break-word; /* IE>=5.5 */\n  white-space: pre; /* IE>=6 */\n  white-space: -moz-pre-wrap; /* For Fx<=2 */\n  white-space: pre-wrap; /* Fx>3, Opera>8, Safari>3*/\n}

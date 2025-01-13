@@ -1,0 +1,1 @@
+public class Person\n{\n    private Address _address;\n\n    public virtual Address Address\n    {\n        get { return _address ?? (_address = new Address()); }\n        set { _address = value; }\n    }\n    \n    // Other properties and methods\n}

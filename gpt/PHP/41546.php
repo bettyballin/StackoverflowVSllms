@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $textinput = htmlspecialchars($_POST['textinput']);\n    echo "You submitted: " . $textinput;\n} else {\n    echo "Invalid request.";\n}\n?>

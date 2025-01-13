@@ -1,0 +1,1 @@
+SELECT get_info('some parameter') FROM dual;

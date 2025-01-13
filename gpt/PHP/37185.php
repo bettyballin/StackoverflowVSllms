@@ -1,0 +1,1 @@
+$route['default_controller'] = 'welcome';\n$route['login'] = 'login';\n$route['scaffolding_trigger'] = '';

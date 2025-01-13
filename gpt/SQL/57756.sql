@@ -1,0 +1,1 @@
+CREATE TABLE EmployeeMapping (\n        EmployeeName TEXT,\n        EmployeeID NUMBER\n    )

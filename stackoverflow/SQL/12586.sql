@@ -1,1 +1,0 @@
-SELECT TOP 10\n    Items.*,\n    Recommended.*,\n    Stock.*\nFROM Items \nINNER JOIN Recommended \n    ON Items.ProductCode = Recommended.ProductCode\n    AND Recommended.Type = 'TOPICAL'\nINNER JOIN Stock \n    ON Recomended.ProductCode = Stock.ProductCode\n    AND Stock.StatusCode = 1\nORDER BY CHECKSUM(NEWID())

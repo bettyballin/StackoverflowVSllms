@@ -1,0 +1,1 @@
+int[] numbers = { 1, 2, 3, 4, 5 };\nforeach (int number in numbers)\n{\n    Console.WriteLine(number);\n}

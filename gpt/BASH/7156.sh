@@ -1,0 +1,1 @@
+sudo a2enmod actions\n   sudo systemctl restart apache2

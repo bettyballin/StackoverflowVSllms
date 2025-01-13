@@ -1,1 +1,0 @@
-$last = null;\nwhile ( /* … */ ) {\n    if ($row['item_id'] != $last) {\n        echo '<hx>'.$row['item_name'].'</hx>';\n        $last = $row['item_id'];\n    }\n    echo $row['subitem_name'];\n}

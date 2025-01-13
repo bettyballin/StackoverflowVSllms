@@ -1,1 +1,0 @@
-GRANT SELECT ON SYS.DBA_JOBS_RUNNING TO <user-that-owns-proc>;

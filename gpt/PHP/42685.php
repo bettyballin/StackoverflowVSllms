@@ -1,0 +1,1 @@
+$data = "Blah blah blah [[find]] and maybe [[this]]";\n\n// Corrected regex pattern\npreg_match_all("/\[\[(.*?)\]\]/", $data, $matches, PREG_OFFSET_CAPTURE);\n\n// Print matches\nprint_r($matches);

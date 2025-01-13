@@ -1,0 +1,1 @@
+sudo dhclient -r\nsudo dhclient

@@ -1,0 +1,1 @@
+#header {\n    background: transparent url(img/banners/rotate.php) no-repeat 0px 0px;\n    position: relative;\n    z-index: 1;\n}\n\n/* IE6 specific styles */\n* html #header {\n    background: none;\n    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/banners/rotate.php', sizingMethod='scale');\n}

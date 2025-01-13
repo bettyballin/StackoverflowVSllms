@@ -1,0 +1,1 @@
+// plugin_interface.h\n   #ifndef PLUGIN_INTERFACE_H\n   #define PLUGIN_INTERFACE_H\n\n   #include <QWidget>\n\n   typedef struct {\n       QWidget* (*getMainWindow)();\n       void (*logMessage)(const char *message);\n       // Add other function pointers and data pointers as needed\n   } PluginInterface;\n\n   #endif // PLUGIN_INTERFACE_H

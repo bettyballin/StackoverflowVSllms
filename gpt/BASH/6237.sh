@@ -1,0 +1,1 @@
+keytool -import -alias rootCA -file rootCA.crt -keystore truststore.jks

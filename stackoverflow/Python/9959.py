@@ -1,1 +1,0 @@
-dx = x1-x2\ndy = y1-y2\ndist = sqrt(dx*dx + dy*dy)\ndx /= dist\ndy /= dist\nx3 = x1 + (N/2)*dy\ny3 = y1 - (N/2)*dx\nx4 = x1 - (N/2)*dy\ny4 = y1 + (N/2)*dx

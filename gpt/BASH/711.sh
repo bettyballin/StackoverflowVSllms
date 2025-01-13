@@ -1,0 +1,1 @@
+export CFLAGS="-m32"\n   export LDFLAGS="-m32"

@@ -1,0 +1,1 @@
+<configuration>\n     <system.web>\n       <compilation debug="true" targetFramework="4.0" />\n     </system.web>\n   </configuration>

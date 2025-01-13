@@ -1,0 +1,1 @@
+aspnet_regiis.exe -s /LM/W3SVC/n/ROOT

@@ -1,0 +1,1 @@
+public void ExampleUsage()\n{\n    string sqlQuery = "SELECT * FROM myTable";\n    var result = ExecuteSqlQuery(sqlQuery);\n\n    foreach (var item in result)\n    {\n        Console.WriteLine($"Id: {item.Id}, TypeOfSelect: {item.TypeOfSelect}");\n    }\n}

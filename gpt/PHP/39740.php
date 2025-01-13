@@ -1,0 +1,1 @@
+$userTimezone = 'America/New_York'; // This would be fetched from the user's profile\ndate_default_timezone_set($userTimezone);\n\n$date = '2009-01-01 10:30:00';\n$date = new Zend_Date($date, Zend_Date::ISO_8601);\necho $date->get(Zend_Date::TIME_MEDIUM); // Output will be adjusted to user's timezone

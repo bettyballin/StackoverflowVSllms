@@ -1,0 +1,1 @@
+<!-- base.html -->\n\n   {% if user.is_authenticated %}\n       <p>Welcome, {{ user.email }}!</p>\n       <a href="{% url 'logout' %}">Logout</a>\n   {% else %}\n       <a href="{% url 'login' %}">Login</a>\n   {% endif %}

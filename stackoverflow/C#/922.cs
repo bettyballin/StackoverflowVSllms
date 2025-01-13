@@ -1,1 +1,0 @@
-from parent in MyEntities.Parents\nselect new\n{\n    ParentName = ParentName,\n    Children = from child in parent.Children\n               select new\n               {\n                   ChildName = child.Name\n               }\n}

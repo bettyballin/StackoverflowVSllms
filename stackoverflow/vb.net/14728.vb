@@ -1,1 +1,0 @@
-Class C1\n    Public WithEvents ev As New EventThrower()\n    Public Sub catcher() Handles ev.event\n        Debug.print("Event")\n    End Sub\nEnd Class

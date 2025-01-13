@@ -1,0 +1,1 @@
+// Example of Qt in C++\n   #include <QApplication>\n   #include <QLabel>\n\n   int main(int argc, char *argv[]) {\n       QApplication app(argc, argv);\n       QLabel label("Hello, World!");\n       label.show();\n       return app.exec();\n   }

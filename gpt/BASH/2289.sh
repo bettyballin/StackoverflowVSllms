@@ -1,0 +1,1 @@
+getfacl /path/to/shared/directory

@@ -1,0 +1,1 @@
+using System;\n\nclass Program\n{\n    static void Main()\n    {\n        int number = 10;\n        Console.WriteLine("Before: " + number);\n        ModifyNumber(ref number);\n        Console.WriteLine("After: " + number);\n    }\n\n    static void ModifyNumber(ref int num)\n    {\n        num = 20;\n    }\n}

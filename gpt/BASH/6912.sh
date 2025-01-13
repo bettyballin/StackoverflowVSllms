@@ -1,0 +1,1 @@
+pbpaste | mysql -u your_username -p your_database

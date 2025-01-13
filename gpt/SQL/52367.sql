@@ -1,0 +1,1 @@
+INSERT INTO messages (id, title, body, `to`) \nVALUES ('1', 'Test Message', 'This is a test message. This is a test message. This is a test message. This is a test message.', 'an email');

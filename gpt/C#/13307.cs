@@ -1,0 +1,1 @@
+WindowHandler.HideSkypeWindow("Incoming Call");

@@ -1,0 +1,1 @@
+@echo off\nsqlplus username/password@database @your_sql_script.sql

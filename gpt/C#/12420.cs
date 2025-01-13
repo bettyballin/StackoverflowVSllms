@@ -1,0 +1,1 @@
+int nonNullableInt = 5; // 4 bytes\n   int? nullableInt = 5; // 8 bytes (4 bytes for the value, 4 bytes for the null state)

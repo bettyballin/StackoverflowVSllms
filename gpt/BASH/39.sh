@@ -1,0 +1,1 @@
+mkdir build\n   cd build\n   CFLAGS="-O3 -march=native -mtune=native" ../configure --prefix=/opt/glibc

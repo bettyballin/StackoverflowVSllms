@@ -1,1 +1,0 @@
-select Registration from vehicles where RadioId is null\nselect Registration from vehicles where RadioId = 0

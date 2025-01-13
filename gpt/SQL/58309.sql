@@ -1,0 +1,1 @@
+SELECT * FROM YourTable\nWHERE YourColumn COLLATE SQL_Latin1_General_CP1_CI_AS LIKE '%your search term%';

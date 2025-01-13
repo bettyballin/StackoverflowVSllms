@@ -1,0 +1,1 @@
+public IQueryable<MyEntity> GetActiveEntities()\n{\n    return MyDbContext.MyEntities.Where(e => !e.IsDeleted);\n}

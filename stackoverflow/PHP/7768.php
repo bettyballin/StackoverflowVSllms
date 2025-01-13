@@ -1,1 +1,0 @@
-<?php\n\n$mask = "abc";\n\n$string = "log dog hat bat";\n\n$result = substr($string,0,strcspn($string,$mask));\n\nvar_dump($result);\n\n?>

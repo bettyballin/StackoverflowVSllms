@@ -1,0 +1,1 @@
+#include <dlfcn.h>\n  void *handle = dlopen("plugin.so", RTLD_LAZY);\n  void (*plugin_function)() = dlsym(handle, "plugin_function");\n  plugin_function();\n  dlclose(handle);

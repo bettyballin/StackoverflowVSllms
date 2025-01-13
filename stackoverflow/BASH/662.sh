@@ -1,1 +1,0 @@
-set running=0\nfor /f "usebackq" %%T in (`tasklist /nh /fi "imagename eq firefox.exe"`) do set running=1

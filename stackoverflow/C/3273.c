@@ -1,1 +1,0 @@
-IniFile if ( "myinifile.ini" );\n\nif.SetString( "mykey", "myvalue" );\n\n\n// Nothing gets actually written to disk until you call Flush(), Close() or the object is deleted\nif.Flush();\nif.Close();

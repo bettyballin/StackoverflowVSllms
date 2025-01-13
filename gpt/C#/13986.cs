@@ -1,0 +1,1 @@
+Assert.AreNotSame(expected, actual, "The objects should not be the same instance.");

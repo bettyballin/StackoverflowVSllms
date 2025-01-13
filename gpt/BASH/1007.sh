@@ -1,0 +1,1 @@
+perl -0777 -pe "s/ style='.*?'//gs" fileA > fileB

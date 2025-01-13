@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.GetDaysInMonth (@GivenDate DATE)\nRETURNS INT\nAS\nBEGIN\n    RETURN DAY(EOMONTH(@GivenDate));\nEND;\nGO

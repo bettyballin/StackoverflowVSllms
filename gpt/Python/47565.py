@@ -1,0 +1,1 @@
+import os\n\nremote_user = os.environ.get('REMOTE_USER')\nauth_user = os.environ.get('AUTH_USER')\n\nprint(f"REMOTE_USER: {remote_user}")\nprint(f"AUTH_USER: {auth_user}")

@@ -1,1 +1,0 @@
-<td><%= Html.Encode((string)segnalazione.Element("DT_ACCADIMENTO") ?? "")%></td>

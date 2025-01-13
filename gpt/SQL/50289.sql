@@ -1,0 +1,1 @@
+CREATE INDEX idx_string ON your_table(string);

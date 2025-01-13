@@ -1,1 +1,0 @@
-sed -e '/^C:\\good/ s/\\/\//g' input_file.txt

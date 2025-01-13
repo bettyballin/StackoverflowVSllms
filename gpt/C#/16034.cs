@@ -1,0 +1,1 @@
+public void ConfigureServices(IServiceCollection services)\n   {\n       services.AddApplicationInsightsTelemetry(Configuration["ApplicationInsights:InstrumentationKey"]);\n       // Other service configurations\n   }

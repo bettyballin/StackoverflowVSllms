@@ -1,0 +1,1 @@
+using System;\nusing System.Text;\n\nclass Program\n{\n    static void Main()\n    {\n        char[] chars = { (char)149 };\n        byte[] bytes = Encoding.Default.GetBytes(chars);\n        Console.WriteLine(bytes[0]);  // Output: 63\n    }\n}

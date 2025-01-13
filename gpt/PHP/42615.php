@@ -1,0 +1,1 @@
+while ($condition) {\n         // code...\n     }

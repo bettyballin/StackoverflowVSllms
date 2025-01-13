@@ -1,0 +1,1 @@
+Private Activities As ObservableCollection(Of ActivityRecord)\n\nPrivate Sub AddMode()\n    Dim _ActivityRecord As New ActivityRecord(0, DateTime.Now, Nothing, "", gWorkerID, "")\n    Activities.Add(_ActivityRecord)\n    \n    ' Move to the newly created record\n    MyDataGrid.SelectedItem = _ActivityRecord\n    MyDataGrid.ScrollIntoView(_ActivityRecord)\nEnd Sub

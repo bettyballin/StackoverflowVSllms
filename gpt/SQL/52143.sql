@@ -1,0 +1,1 @@
+SELECT a.* \nFROM a \nJOIN b ON a.id = b.id;

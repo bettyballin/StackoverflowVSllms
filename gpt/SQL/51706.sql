@@ -1,0 +1,1 @@
+CREATE OR REPLACE TYPE message_type UNDER queuable_object_type (\n    message_payload VARCHAR2(100)\n);\n/

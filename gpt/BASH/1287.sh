@@ -1,0 +1,1 @@
+# Example Makefile rule\n\n%.o: %.cpp\n    $(CXX) $(CXXFLAGS) -include common_header.h -c $< -o $@

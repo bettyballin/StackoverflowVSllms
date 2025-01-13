@@ -1,1 +1,0 @@
-$filepath = $path . DIRECTORY_SEPARATOR . $file;

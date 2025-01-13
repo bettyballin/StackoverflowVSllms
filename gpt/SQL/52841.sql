@@ -1,0 +1,1 @@
+rman target /\n   CATALOG START WITH '/path_to_archive_logs/';

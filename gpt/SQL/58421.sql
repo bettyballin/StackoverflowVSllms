@@ -1,0 +1,1 @@
+ALTER TABLE YourTable ADD IsComplete BIT;

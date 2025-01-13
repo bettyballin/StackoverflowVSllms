@@ -1,0 +1,1 @@
+// When storing to the database, encode special characters\n$input = htmlspecialchars($user_input, ENT_QUOTES, 'UTF-8');\n// Store $input in the database\n\n// When retrieving from the database, decode the special characters\n$output = htmlspecialchars_decode($retrieved_data, ENT_QUOTES);\necho $output;

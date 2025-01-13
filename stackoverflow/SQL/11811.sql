@@ -1,1 +1,0 @@
-select to_char(sysdate, 'YYYY') from dual;

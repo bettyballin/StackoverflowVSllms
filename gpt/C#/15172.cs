@@ -1,0 +1,1 @@
+List<string> list = new List<string>(stringArray);

@@ -1,0 +1,1 @@
+CREATE PROCEDURE YourStoredProcedure\n    @MyTableType dbo.MyTableType READONLY\nAS\nBEGIN\n    INSERT INTO YourTable (Column1, Column2)\n    SELECT Column1, Column2 FROM @MyTableType;\nEND

@@ -1,1 +1,0 @@
-SET autocommit = 0\n\nSTART TRANSACTION\n\nINSERT INTO Groups ...\nINSERT INTO Users ...\n\nCOMMIT

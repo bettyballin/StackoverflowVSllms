@@ -1,1 +1,0 @@
-SELECT c.name, o.product  \nFROM customer c, order o  \nWHERE o.value = 150  

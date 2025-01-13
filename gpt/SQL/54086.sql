@@ -1,0 +1,1 @@
+CREATE TABLE tbl_test\n   (\n     id serial NOT NULL,\n     poly geometry(Polygon, 4326) NOT NULL\n   );

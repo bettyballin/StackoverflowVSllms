@@ -1,1 +1,0 @@
--Djavax.net.ssl.keyStoreType=pkcs12\n-Djavax.net.ssl.trustStoreType=jks\n-Djavax.net.ssl.keyStore=clientcertificate.p12\n-Djavax.net.ssl.trustStore=gridserver.keystore\n-Djavax.net.debug=ssl # very verbose debug\n-Djavax.net.ssl.keyStorePassword=$PASS\n-Djavax.net.ssl.trustStorePassword=$PASS

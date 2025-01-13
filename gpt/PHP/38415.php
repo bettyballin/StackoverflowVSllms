@@ -1,0 +1,1 @@
+<?php\nfunction doSomething($con) {\n  // Do stuff with MySQL\n  $con->tralalala();\n}\n\n$con = connectToDatabase(); // This would actually be a line or two.\ndoSomething($con);\n?>

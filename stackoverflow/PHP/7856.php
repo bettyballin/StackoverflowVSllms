@@ -1,1 +1,0 @@
-class topclass {\n    function mode() {\n        $mode = 'functionx';\n\n        $class = new extendclass;\n        $class->$mode();\n    }\n}

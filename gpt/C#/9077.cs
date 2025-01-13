@@ -1,0 +1,1 @@
+SqlQuery q = new Select().From<VwInstitutes>();\n\nif (!string.IsNullOrEmpty(username)) {\n    q.Where(VwInstitutes.Columns.AssignedUser).IsEqualTo(username);\n}\n\nif (!string.IsNullOrEmpty(stage)) {\n    q.Where(VwInstitutes.Columns.Stage).IsEqualTo(stage);\n}

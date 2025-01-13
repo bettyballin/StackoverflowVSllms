@@ -1,0 +1,1 @@
+<%= image_tag 'recycled.jpg' if product.recycled? %>

@@ -1,1 +1,0 @@
-if count > 15\n   cols = count / ITEMS-PER-COL\nif cols > 8\n   cols = 8

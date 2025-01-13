@@ -1,1 +1,0 @@
-ChangeSet changes = dataContext.GetChangeSet();\n\n// An IList<Object>\nchanges.Deletes;\nchanges.Inserts;\nchanges.Updates;

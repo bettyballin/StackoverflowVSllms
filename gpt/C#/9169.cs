@@ -1,0 +1,1 @@
+using System.Data;\nusing DotNetNuke.Data;\n\npublic void GetUserData(int userId)\n{\n    using (IDataContext ctx = DataContext.Instance())\n    {\n        var rep = ctx.GetRepository<User>();\n        var user = rep.GetById(userId);\n        // Process the user data\n    }\n}

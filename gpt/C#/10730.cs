@@ -1,0 +1,1 @@
+myValueList.DisplayStyle = Infragistics.Win.ValueListDisplayStyle.DisplayText

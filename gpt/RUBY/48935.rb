@@ -1,0 +1,1 @@
+gem 'redcloth'\n    gem 'sanitize'

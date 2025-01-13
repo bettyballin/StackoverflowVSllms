@@ -1,1 +1,0 @@
-<?php\n\nclass Bootstrap extends Zend_Application_Bootstrap_Bootstrap\n{\n    public function _initSessionAfterDb()\n    {\n        $this->bootstrap('db');\n        $this->bootstrap('session');\n    }\n\n}

@@ -1,0 +1,1 @@
+CREATE PROCEDURE dbo.CallWebServiceFromSQL\n    @url NVARCHAR(MAX),\n    @response NVARCHAR(MAX) OUTPUT\nAS EXTERNAL NAME WebServiceCaller.[Namespace.ClassName].CallWebService;

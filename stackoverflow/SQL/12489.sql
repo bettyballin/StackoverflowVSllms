@@ -1,1 +1,0 @@
--- Put something like this into a user function:\nDECLARE @cString    VARCHAR(32)\nDECLARE @nPos    INTEGER\nSELECT  @cString = '90$%45623 *6%}~:@'\nSELECT  @nPos = PATINDEX('%[^0-9]%', @cString)\n\nWHILE @nPos > 0\nBEGIN\nSELECT @cString = STUFF(@cString, @nPos, 1, '')\nSELECT  @nPos = PATINDEX('%[^0-9]%', @cString)\nEND\n\nSELECT @cString 

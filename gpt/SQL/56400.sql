@@ -1,0 +1,1 @@
+CREATE TABLE YourTableName (\n    Column1 INT,\n    Column2 CHAR(1),\n    Column3 INT\n);\n\nALTER TABLE YourTableName\nADD CONSTRAINT UQ_Column2_Column3 UNIQUE (Column2, Column3);

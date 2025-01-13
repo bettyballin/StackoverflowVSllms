@@ -1,1 +1,0 @@
-SELECT YEAR(Time15), MONTH(Time15), DAY(Time15), MAX(UserCount)\nFROM Table\nGROUP BY YEAR(Time15), MONTH(Time15), DAY(Time15)

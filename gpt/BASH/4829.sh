@@ -1,0 +1,1 @@
+# Add this to your crontab to scrub your ZFS pool weekly\n0 3 * * 0 /sbin/zpool scrub yourpoolname

@@ -1,0 +1,1 @@
+# Add to your profile script\nexport MYSQL_CONN="-u user -p -h hostname"

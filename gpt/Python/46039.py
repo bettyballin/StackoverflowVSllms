@@ -1,0 +1,1 @@
+# forms.py\nfrom django import forms\n\nclass DocumentForm(forms.Form):\n    file = forms.FileField()

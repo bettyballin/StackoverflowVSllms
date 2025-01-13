@@ -1,0 +1,1 @@
+double[][] matrix = {\n    new double[] { 10, 20, 30 },\n    new double[] { 15, 25, 35 },\n    new double[] { 5, 15, 25 }\n};\n\nMatrixGreatestValues mgv = new MatrixGreatestValues();\ndouble[] topElements = mgv.GreatestValues(matrix, 4);\n\nConsole.WriteLine(string.Join(", ", topElements));

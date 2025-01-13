@@ -1,1 +1,0 @@
-DECLARE\n type result_set is ref cursor; \nBEGIN\n APP_DB1.GET_JOB(1, :result_set);\nEND;

@@ -1,0 +1,1 @@
+user = User.new(name: "Example Name")\nuser.dynamic = 10\nif user.save\n  puts "User saved successfully."\nelse\n  puts "User could not be saved: #{user.errors.full_messages.join(", ")}"\nend

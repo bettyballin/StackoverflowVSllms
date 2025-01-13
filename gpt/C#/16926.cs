@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\nclass Program\n{\n    static void Main()\n    {\n        Process p = new Process();\n        p.StartInfo.FileName = "Sample.xls";\n        p.StartInfo.Arguments = "/r";  // open in read-only mode\n        p.StartInfo.UseShellExecute = true;\n        p.Start();\n    }\n}

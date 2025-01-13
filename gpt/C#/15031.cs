@@ -1,0 +1,1 @@
+MyObject obj = new MyObject();\n   obj.MyProperty = myValue;\n   obj.MyPropertySpecified = true; // Ensure to set this to true

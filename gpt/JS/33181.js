@@ -1,0 +1,1 @@
+var pattern = /abc/i;

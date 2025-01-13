@@ -1,0 +1,1 @@
+sqlldr userid=your_user/your_password control=badges.ctl

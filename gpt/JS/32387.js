@@ -1,0 +1,1 @@
+var iframe = document.getElementById("ifrm");\niframe.onload = function() {\n    var iframeContent = iframe.contentWindow.document.body.innerHTML;\n    console.log(iframeContent);\n    // You can now store iframeContent in your database\n};

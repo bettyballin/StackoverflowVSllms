@@ -1,0 +1,1 @@
+_container.Register(\n  AllTypes.Pick().FromAssembly(Assembly.GetExecutingAssembly())\n    .WithService.FirstInterface());

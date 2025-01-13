@@ -1,0 +1,1 @@
+SELECT * FROM users WHERE username = 0x61646d696e --

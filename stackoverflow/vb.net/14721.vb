@@ -1,1 +1,0 @@
-' Start a new workbook in Excel '\n\nDim oExcel As Excel.Application\nDim oBook As Excel.Workbook\n\n' Launch an instance of Microsoft Excel '\nSet oExcel = new Excel.Application\nSet oBook = oExcel.Workbooks.Add

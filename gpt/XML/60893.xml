@@ -1,0 +1,1 @@
+<Product Id="*" Name="YourProductName" Language="1033" Version="1.0.0.0" Manufacturer="YourCompanyName" UpgradeCode="PUT-GUID-HERE">\n       <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />\n       <!-- Other configurations -->\n   </Product>

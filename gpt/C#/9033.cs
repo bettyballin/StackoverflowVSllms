@@ -1,0 +1,1 @@
+public (DateTime RefreshStartTime, DateTime RefreshEndTime) PerformDataRefresh()\n{\n    DateTime startTime = DateTime.Now;\n    // Perform refresh\n    DateTime endTime = DateTime.Now;\n\n    return (startTime, endTime);\n}

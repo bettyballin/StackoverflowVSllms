@@ -1,0 +1,1 @@
+certreq -new request.inf request.req

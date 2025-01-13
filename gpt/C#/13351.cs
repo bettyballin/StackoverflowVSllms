@@ -1,0 +1,1 @@
+public class Booking\n{\n    public virtual int BookingRef { get; set; }\n    public virtual DateTime BookingStart { get; set; }\n    public virtual DateTime BookingEnd { get; set; }\n    public virtual int Version { get; set; }\n}

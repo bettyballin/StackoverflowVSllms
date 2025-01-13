@@ -1,0 +1,1 @@
+public class LongRunningTask\n   {\n       public void Execute()\n       {\n           // Your long-running code here\n       }\n   }

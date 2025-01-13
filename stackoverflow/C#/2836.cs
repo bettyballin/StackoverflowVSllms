@@ -1,1 +1,0 @@
-public class SomeDisposableType : IDisposable\n{\n   ...implmentation details...\n}

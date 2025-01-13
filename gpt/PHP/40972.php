@@ -1,0 +1,1 @@
+class UserController {\n       public function showUsers() {\n           $userModel = new User();\n           $users = $userModel->getAllUsers();\n           include 'views/users.php';\n       }\n   }

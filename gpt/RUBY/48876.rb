@@ -1,0 +1,1 @@
+53: <% for activity in @activities %>\n54: \n55: <% if activity.activity_context == 'ItemComment' %>\n56: <%= render :partial => 'item_comments/comment', :object => ItemComment.find(activity.context_id) %>\n57: <% elsif activity.activity_context == 'Review' %>\n58: <%= render :partial => 'reviews/review', :object => Review.find(activity.context_id) %>

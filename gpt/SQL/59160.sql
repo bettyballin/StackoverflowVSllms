@@ -1,0 +1,1 @@
+DECLARE @csv NVARCHAR(MAX);\n\nSELECT @csv = STUFF((\n    SELECT ',' + carModels\n    FROM dbo.Models\n    FOR XML PATH(''), TYPE).value('.', 'NVARCHAR(MAX)'), 1, 1, '');\n\nSELECT @csv AS CarModelsCSV;

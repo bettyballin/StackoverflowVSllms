@@ -1,0 +1,1 @@
+CREATE TABLE ExampleTable (\n    Id int,\n    Value int CHECK (Value >= 0 AND Value <= 4294967295)\n);

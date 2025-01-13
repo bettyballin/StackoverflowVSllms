@@ -1,0 +1,1 @@
+// In the controller\n[HttpPost]\npublic ActionResult Create([Bind(Exclude = "ID,CreatedOn")] Comment comment)\n{\n    // The ID and CreatedOn properties will not be bound by the model binder\n    // Your logic here\n}

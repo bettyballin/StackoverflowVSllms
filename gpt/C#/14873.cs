@@ -1,0 +1,1 @@
+using NUnit.Framework;\n\nnamespace Some.TestNamespace\n{\n    [TestFixture]\n    public class FirFilterTest\n    {\n        [Test]\n        public void Test01_ConstructorTest()\n        {\n            // Your test code here...\n            Assert.Pass();\n        }\n    }\n}

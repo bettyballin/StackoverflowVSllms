@@ -1,0 +1,1 @@
+// Using int[]\nint[] intArray = new int[5];\nintArray[0] = 1;\nintArray[1] = 2;\n// Manual resizing needed if more elements are added\n\n// Using List<int>\nList<int> intList = new List<int>();\nintList.Add(1);\nintList.Add(2);\n// List<int> can dynamically grow as needed

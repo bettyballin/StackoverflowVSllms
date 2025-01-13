@@ -1,0 +1,1 @@
+# Check the WAL directory\ndu -sh /var/lib/postgresql/*/pg_wal/

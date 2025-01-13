@@ -1,0 +1,1 @@
+svn copy https://svn.example.com/repo/tags/release-1.0.0 https://svn.example.com/repo/branches/bugfix-1.0.1 -m "Creating bug fix branch for release 1.0.0"

@@ -1,0 +1,1 @@
+var One = function(num) {\n    this.oldnum = num;\n\n    this.add = function() {\n        this.oldnum++;\n        return this;\n    }\n\n    if (!(this instanceof One)) {\n        return new One(num);\n    }\n};\n\nvar test = One(1).add().add();\nconsole.log(test.oldnum); // Outputs: 3

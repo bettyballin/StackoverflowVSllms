@@ -1,0 +1,1 @@
+function require_case_sensitive($file) {\n       if (file_exists($file) && is_file($file)) {\n           require_once($file);\n       } else {\n           throw new Exception("File not found: $file");\n       }\n   }\n\n   // Usage:\n   require_case_sensitive('Mail.php');

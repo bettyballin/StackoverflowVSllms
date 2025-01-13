@@ -1,0 +1,1 @@
+string decryptedSalary = EncryptionHelper.Decrypt(encryptedSalary);

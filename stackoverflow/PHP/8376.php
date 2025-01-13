@@ -1,1 +1,0 @@
-<?php\n$handle = fopen('text.txt', 'r');\n$lastpos = 0;\nwhile(true){\n   if (!feof($handle)){\n       echo fread($handle,8192);\n       flush();\n       $lastpos = ftell($handle);\n   }else{\n       fseek($handle,$lastpos);\n   }\n}\n?>

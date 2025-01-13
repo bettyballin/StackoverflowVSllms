@@ -1,1 +1,0 @@
-import csv\nsource= csv.reader( open("some file","rb") )\ndest= csv.writer( open("another file","wb") )\nfor row in source:\n    result= row[:6] + [ row[6]+row[7]+row[8] ] + row[9:]\n    dest.writerow( result )

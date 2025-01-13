@@ -1,1 +1,0 @@
-myisam_ftdump -c yourtablename 1 >wordfreq.dump

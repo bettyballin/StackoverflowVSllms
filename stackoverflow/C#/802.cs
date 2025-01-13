@@ -1,1 +1,0 @@
-foreach (int i in Enumerable.Range(32,128-32))\n{\n    char c = (char)i;\n    string addr = String.Format("par.t1{0}pa.r{0}t2@example.com", c);\n    try\n    {\n        var mailAddr = new MailAddress(addr);\n    }\n    catch\n    {\n        Console.WriteLine("MailAddress failed '{0}' ({1}): {2}", c, i, addr);\n    }\n}

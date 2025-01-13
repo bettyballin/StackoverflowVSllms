@@ -1,1 +1,0 @@
-Food\n    (\n    food_id,\n    foodName,\n    foodType\n    )\n\nfavoriteFoods\n    (\n    favoritefood_id,\n    fkfood_id\n    )

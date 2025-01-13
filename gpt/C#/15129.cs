@@ -1,0 +1,1 @@
+string username = Environment.GetEnvironmentVariable("DB_USERNAME");\n    string password = Environment.GetEnvironmentVariable("DB_PASSWORD");

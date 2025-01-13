@@ -1,0 +1,1 @@
+g++ -o send_email send_email.cpp -lcurl

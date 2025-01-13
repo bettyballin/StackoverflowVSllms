@@ -1,1 +1,0 @@
-select A.* from Table1 A where A.UserId NOT IN\n   (select B.UserId from Table1 B where B.EntityId NOT IN \n       (select C.EntityId from Table1 C where C.UserId=1));

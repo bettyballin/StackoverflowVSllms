@@ -1,0 +1,1 @@
+SqlDataSource dataSource = new SqlDataSource();\ndataSource.ConnectionString = "your_connection_string";\ndataSource.SelectCommand = "SELECT * FROM MyTable WHERE column = @parameter";\ndataSource.SelectParameters.Add("parameter", DbType.String, userInput);

@@ -1,0 +1,1 @@
+ALTER TABLE assignment DROP FOREIGN KEY locationIDX;

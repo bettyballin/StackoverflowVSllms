@@ -1,0 +1,1 @@
+propel-gen -verbose convert-conf

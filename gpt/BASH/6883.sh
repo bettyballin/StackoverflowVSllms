@@ -1,0 +1,1 @@
+sudo lsof | grep "REG" | grep "w"

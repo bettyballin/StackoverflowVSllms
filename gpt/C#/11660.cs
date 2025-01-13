@@ -1,0 +1,1 @@
+// Assuming you have a TableAdapter named `ordersTableAdapter`\nordersTableAdapter.FillBySearchParameters(dataSet.Orders, id_order, word1, word2);

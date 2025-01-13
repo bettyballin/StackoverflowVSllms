@@ -1,0 +1,1 @@
+import math\n\ndef count_divisors(n):\n    count = 0\n    for i in range(1, int(math.sqrt(n)) + 1):\n        if n % i == 0:\n            if i * i == n:\n                count += 1\n            else:\n                count += 2\n    return count\n\n# Example usage:\nn = 36\nprint("Number of divisors of", n, "is", count_divisors(n))

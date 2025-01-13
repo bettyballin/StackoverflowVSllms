@@ -1,0 +1,1 @@
+public class MyEntity\n   {\n       public int Id { get; set; }\n       public string PropertyName { get; set; }\n\n       public static MyEntity GetById(int id)\n       {\n           using (var context = new MyDbContext())\n           {\n               return context.MyEntities.Find(id);\n           }\n       }\n\n       // Add other methods as needed\n   }

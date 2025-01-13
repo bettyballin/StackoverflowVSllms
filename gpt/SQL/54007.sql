@@ -1,0 +1,1 @@
+ALTER TABLE ForeignKeyTable ADD NewSequentialGUID UNIQUEIDENTIFIER;

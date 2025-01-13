@@ -1,0 +1,1 @@
+// Example in ASP.NET\n   [HttpPost]\n   [ValidateAntiForgeryToken]\n   public ActionResult YourActionMethod()\n   {\n       // Your action logic\n   }

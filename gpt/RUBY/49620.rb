@@ -1,0 +1,1 @@
+# Sample data frame\ndf <- data.frame(\n  id = 1:5,\n  name = c("Alice", "Bob", "Charlie", "David", "Eve"),\n  score = c(85, 92, 88, 70, 95)\n)\n\n# Using SQL query to select data\nresult <- sqldf("SELECT * FROM df WHERE score > 80")\n\nprint(result)

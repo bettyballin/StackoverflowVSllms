@@ -1,1 +1,0 @@
-CREATE TYPE t_aa AS VARRAY(10) OF VARCHAR2(10);\n\nCREATE OR REPLACE TYPE t_ua AS OBJECT (ID NUMBER(15)\n                                     , MEMBER PROCEDURE initialize(p_aa t_aa)\n                                     , MEMBER PROCEDURE initialize(p_aa_i t_aa))\n                               NOT INSTANTIABLE NOT FINAL;

@@ -1,0 +1,1 @@
+private void OnMouseClick(object sender, MouseEventArgs e)\n{\n    Log.Information("Mouse click event fired at position {X}, {Y}", e.X, e.Y);\n    // Your event handling code here\n}

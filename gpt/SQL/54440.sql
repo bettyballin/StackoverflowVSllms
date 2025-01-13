@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX idx_unique_folder_name_per_parent\nON Folder (name, parent_id);

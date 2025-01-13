@@ -1,0 +1,1 @@
+check process myapp with pidfile /var/run/myapp.pid\n  start program = "/etc/init.d/myapp start"\n  stop program = "/etc/init.d/myapp stop"\n  if cpu > 60% for 2 cycles then alert\n  if memory usage > 75% for 2 cycles then restart\n  if 5 restarts within 5 cycles then timeout

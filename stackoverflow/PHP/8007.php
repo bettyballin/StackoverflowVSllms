@@ -1,1 +1,0 @@
-class base {\n    public function __construct() {\n        print "Class:" . get_class($this) . "\n";\n    }\n}\n\nclass child extends base{\n    public function __construct() {\n        parent::__construct();\n    }\n}\n$c = new child();

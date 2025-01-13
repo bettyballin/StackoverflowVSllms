@@ -1,0 +1,1 @@
+public class MyDbContext : DbContext, IMyDbContext\n{\n    public DbSet<MyEntity> MyEntities { get; set; }\n\n    public Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)\n    {\n        return base.SaveChangesAsync(cancellationToken);\n    }\n}

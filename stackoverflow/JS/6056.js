@@ -1,1 +1,0 @@
-this._handles = $('.ui-resizable-handle', this.element)\n    .disableSelection();

@@ -1,0 +1,1 @@
+// Assuming 'dc' is your DataContext instance\ndc.Log = Console.Out;

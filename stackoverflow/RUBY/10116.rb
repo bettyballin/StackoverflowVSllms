@@ -1,1 +1,0 @@
-class Note < ActiveRecord::Base\n   belongs_to :notable, :polymorphic => true\nend\n\nclass Customer < ActiveRecord::Base\n   has_many :notes, :as => :notable\nend\n\nclass Job < ActiveRecord::Base\n   has_many :notes, :as => :notable\nend

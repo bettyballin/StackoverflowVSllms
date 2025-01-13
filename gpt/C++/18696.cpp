@@ -1,0 +1,1 @@
+T m 0  // This is equivalent to T.m(0)

@@ -1,0 +1,1 @@
+import MySQLdb\n\ndef safe_query(user_input):\n    connection = MySQLdb.connect(user='user', passwd='passwd', db='database')\n    cursor = connection.cursor()\n    \n    query = "SELECT a FROM b WHERE c = %s"\n    cursor.execute(query, (user_input,))\n    \n    results = cursor.fetchall()\n    connection.close()\n    \n    return results

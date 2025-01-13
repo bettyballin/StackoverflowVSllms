@@ -1,0 +1,1 @@
+OCIAttrSet(stmthp, OCI_HTYPE_STMT, (void *)&FETCH_SIZE, 0, OCI_ATTR_PREFETCH_ROWS, errhp);

@@ -1,1 +1,0 @@
-function log(obj) {\n    if (window.console && console.log) console.log(obj);\n}

@@ -1,1 +1,0 @@
-Response.ContentType = "application/json";

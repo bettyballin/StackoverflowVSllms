@@ -1,0 +1,1 @@
+IF @table_name = 'volunteers' THEN\n    UPDATE volunteers\n    SET \n        column1 = @new_value_for_column1,\n        column2 = @new_value_for_column2\n    WHERE id = @id;\nELSEIF @table_name = 'mailing_list' THEN\n    UPDATE mailing_list\n    SET \n        column3 = @new_value_for_column3,\n        column4 = @new_value_for_column4\n    WHERE id = @id;\nEND IF;

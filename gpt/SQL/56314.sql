@@ -1,0 +1,1 @@
+CREATE TABLE blog_posts (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    title VARCHAR(255),\n    content TEXT\n);

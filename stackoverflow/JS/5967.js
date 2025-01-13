@@ -1,1 +1,0 @@
-<script type="text/javascript">\n  window.name = "MyWindow";\n</script>

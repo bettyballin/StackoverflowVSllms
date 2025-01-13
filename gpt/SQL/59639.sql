@@ -1,0 +1,1 @@
+UPDATE your_table\nSET your_column = REPLACE(your_column COLLATE Latin1_General_BIN, 'Θ', 'é')\nWHERE your_column LIKE '%Θ%';

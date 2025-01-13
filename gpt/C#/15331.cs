@@ -1,0 +1,1 @@
+class C\n{\n    void Method<T>(SomeClass<T> obj)\n    {\n        list.Add(obj);\n    }\n    \n    List<ISomeClass> list = new List<ISomeClass>();\n}

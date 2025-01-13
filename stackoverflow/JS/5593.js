@@ -1,1 +1,0 @@
-document.getElementById("ctl00_ContentPlaceHolder1_fuFile").value

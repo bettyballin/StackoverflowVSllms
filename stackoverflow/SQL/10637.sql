@@ -1,1 +1,0 @@
-SELECT lt.Host, lt.Last_Run, lt.Results\n from LogTable lt\n  inner join (select Host, max(Last_Run) Last_Run\n               from LogTable\n               group by Host) MostRecent\n   on MostRecent.Host = lt.Host\n    and MostRecent.Last_run = lt.Last_Ru

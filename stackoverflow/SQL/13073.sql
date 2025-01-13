@@ -1,1 +1,0 @@
-INSERT INTO blog_articles (`title`, `tags`, `category`, `blog`, `author`, `date`)\nVALUES ('$title', '$tags', '$category', '$blog', '$author', '$date')

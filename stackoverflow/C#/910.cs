@@ -1,1 +1,0 @@
-// C# - DON'T DO THIS!\nString regionName = assignedSomewhereElse();\nSQLCommand sqlCmd = DatabaseConnection.CreateCommand();\nSQLCommand sqlCmd.CommandText =\n    String.Format("EXECUTE sp_InsertNewRegion '{0}'", regionName);\n\nsqlCmd.ExecuteNonQuery();

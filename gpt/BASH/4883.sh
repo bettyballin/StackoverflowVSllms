@@ -1,0 +1,1 @@
+scp -i /path/to/your/private/key username@host:/path/to/remote/file /path/to/local/destinatio

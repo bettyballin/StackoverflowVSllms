@@ -1,0 +1,1 @@
+#!/bin/bash\npg_dump -U [username] -h [hostname] [database_name] > backup_$(date +\%F_\%T).sql

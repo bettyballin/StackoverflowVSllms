@@ -1,0 +1,1 @@
+void my_strcpy(char *restrict dest, const char *restrict src) {\n       while ((*dest++ = *src++) != '\0');\n   }

@@ -1,0 +1,1 @@
+<configuration>\n      <system.web>\n        <authorization>\n          <deny users="?"/> <!-- Deny anonymous users -->\n          <allow roles="Admin"/> <!-- Allow Admin role -->\n          <allow roles="User"/> <!-- Allow User role -->\n          <deny users="*"/> <!-- Deny all other users -->\n        </authorization>\n      </system.web>\n    </configuration>

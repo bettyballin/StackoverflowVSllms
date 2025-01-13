@@ -1,1 +1,0 @@
-Page.User.Identity.Username

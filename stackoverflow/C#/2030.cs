@@ -1,1 +1,0 @@
-sizer.FromImage(i)\n .ReduceByPercent(x)\n .Pixalize()\n .ReduceByPercent(x)\n .OutputImageFormat(ImageFormat.Jpeg)\n .ToLocation(o)\n .Save();

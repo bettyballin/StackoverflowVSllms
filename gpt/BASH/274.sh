@@ -1,0 +1,1 @@
+mv yourfile.cer yourfile.crt

@@ -1,0 +1,1 @@
+-- Delete the parent records, the child records will be automatically deleted\nDELETE FROM TBL\nWHERE Condition;

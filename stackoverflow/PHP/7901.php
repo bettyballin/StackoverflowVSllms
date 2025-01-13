@@ -1,1 +1,0 @@
-$query = $database->prepare('SELECT * FROM table WHERE column LIKE ?');\n$query->execute(array('value%'));\n\nwhile ($results = $query->fetch())\n{\n    echo $results['column'];\n}

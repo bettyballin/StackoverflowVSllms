@@ -1,1 +1,0 @@
-Dim result as boolean\nresult = integer.tryparse(QueryString("propID"), myintegervariable)

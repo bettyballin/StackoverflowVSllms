@@ -1,0 +1,1 @@
+ClassicEditor\n    .create(document.querySelector('#editor'))\n    .catch(error => {\n        console.error(error);\n    });

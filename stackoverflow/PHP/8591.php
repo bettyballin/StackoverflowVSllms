@@ -1,1 +1,0 @@
-$u = new User();\n$s = $u->login()->get_db_data()->get_session_data();

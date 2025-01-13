@@ -1,1 +1,0 @@
-exec sp_executesql N'SELECT * FROM IdentMap WHERE MapCode+Ident1= @P1',N'@P1 nvarchar(17)',N'<MapCode><Ident2>'

@@ -1,1 +1,0 @@
-$('input').click(function(ev){ alert('func 1'); }).click(function(ev){ alert('func 2'); });

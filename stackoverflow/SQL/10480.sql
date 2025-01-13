@@ -1,1 +1,0 @@
-UPDATE messages SET process_id=$id, process_time=now() where process_id is null LIMIT 20

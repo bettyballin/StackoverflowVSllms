@@ -1,1 +1,0 @@
-Dim req As WebRequest = HttpWebRequest.Create("url here")\nUsing stream As Stream = req.GetResponse().GetResponseStream()\n\nEnd Using

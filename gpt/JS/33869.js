@@ -1,0 +1,1 @@
+<code>functionName(arg1, arg2, ...)</code>

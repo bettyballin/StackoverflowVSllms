@@ -1,0 +1,1 @@
+# Check RALUS service status\n   /etc/init.d/VRTSralus.init status

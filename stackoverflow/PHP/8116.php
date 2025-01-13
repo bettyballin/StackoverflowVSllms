@@ -1,1 +1,0 @@
-$str = preg_replace('/<youtube=([^>]*)>/e', 'processYouTubeVideos("$1")', $str);

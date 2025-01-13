@@ -1,1 +1,0 @@
-CREATE INDEX index_name ON table_name (function_name(column_name));

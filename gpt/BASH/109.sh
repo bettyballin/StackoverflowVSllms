@@ -1,0 +1,1 @@
+clang -emit-llvm -c your_code.c -o your_code.bc

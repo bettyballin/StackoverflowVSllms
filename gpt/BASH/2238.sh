@@ -1,0 +1,1 @@
+chmod +x /path/to/your/repository/hooks/pre-commit

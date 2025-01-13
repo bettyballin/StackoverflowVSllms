@@ -1,0 +1,1 @@
+rails new widget_platform\n    cd widget_platform

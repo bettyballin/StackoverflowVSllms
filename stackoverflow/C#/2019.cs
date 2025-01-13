@@ -1,1 +1,0 @@
-using (SqlConncetion conn = new SqlConnection(connstring))\nusing (SqlCommand cmd = conn.CreateCommand())\n{\n\n  cmd.CommandText = "INSERT INTO table(tag) values (@tag)";\n  cmd.Parameters.Add("@tag", SqlDbType.VarChar);\n\n  conn.Open();\n\n  foreach(string tag in tags)\n  {\n    cmd.Parameters["@tag"].Value = Server.HtmlEncode(tag);\n    cmd.ExecuteNonQuery();\n  }\n}

@@ -1,0 +1,1 @@
+-- Example when employee shows up\nINSERT INTO Attendance (employee_id, shift_id, time_arrived, time_left, status)\nVALUES (1, 101, '08:30:00', '17:00:00', 'present');\n\n-- Example when employee does not show up\nINSERT INTO Attendance (employee_id, shift_id, status)\nVALUES (2, 102, 'no-show');

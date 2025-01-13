@@ -1,1 +1,0 @@
-SELECT user.id, user.name, COUNT(post.*) AS posts \nFROM user \n  LEFT OUTER JOIN post ON post.owner_id=user.id \nGROUP BY user.id

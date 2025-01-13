@@ -1,1 +1,0 @@
-<script type="text/javascript">\n$(function() {\n    var foundin = $('*:contains("I am a simple string")');\n});\n</script>

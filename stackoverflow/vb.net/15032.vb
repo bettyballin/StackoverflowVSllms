@@ -1,1 +1,0 @@
-Private Function isEditMode() As Boolean\n    isEditMode = False\n    Try\n        oExcel.GoTo("###")\n    Catch Ex As Exception\n       ' Either returns "Reference is not valid." \n       ' or "Exception from HRESULT: 0x800A03EC"\n       If ex.Message.StartsWith("Exception") then isEditMode  = True\n    End Try     \nEnd Functio

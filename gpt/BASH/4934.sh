@@ -1,0 +1,1 @@
+sudo yum update\nsudo yum install epel-release\nsudo yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm\nsudo yum install yum-utils\nsudo yum-config-manager --enable remi-php56\nsudo yum install php

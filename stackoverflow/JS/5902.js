@@ -1,1 +1,0 @@
-$.get($(this).attr("href"), $(this).serialize(), function(data){\n   var script = $(data).text();\n   eval(script);\n});

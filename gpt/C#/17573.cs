@@ -1,0 +1,1 @@
+var criteriaDictionary = new Dictionary<string, (string value, string op)>\n{\n    {"Name", ("John", "and")},\n    {"Age", ("30", "or")},\n    {"JoinDate", ("2022-01-01", "and")}\n};\n\nvar result = SelectQuery(criteriaDictionary);

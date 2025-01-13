@@ -1,1 +1,0 @@
-HttpModuleCollection modules = HttpContext.Current.ApplicationInstance.Modules;\nforeach (string moduleKey in modules.Keys)\n{\n    IHttpModule module = modules[moduleKey];\n    // Do your check here\n}

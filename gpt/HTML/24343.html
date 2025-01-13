@@ -1,0 +1,1 @@
+<!-- by_location.html -->\n{% for item in items %}\n    <h2>{{ item.title }}</h2>\n    <p>{{ item.description }}</p>\n    <p>Price: {{ item.price }}</p>\n    <p>Location: {{ item.location.city }}, {{ item.location.state }}, {{ item.location.country }}</p>\n{% endfor %}

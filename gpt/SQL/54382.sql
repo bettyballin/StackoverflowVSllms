@@ -1,0 +1,1 @@
+CREATE FUNCTION my_function RETURNS STRING SONAME 'my_function.so';

@@ -1,0 +1,1 @@
+CREATE PROCEDURE dbo.MyStoredProcedure\n    @MyParams dbo.MyTableType READONLY\nAS\nBEGIN\n    -- Access the parameters from the TVP\n    SELECT * FROM @MyParams;\n    \n    -- Add your logic here\n\nEND;

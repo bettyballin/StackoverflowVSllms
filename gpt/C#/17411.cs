@@ -1,0 +1,1 @@
+WebService1SoapClient client = new WebService1SoapClient();\nstring xmlContent = client.GetExcelFileAsXml();\n\nstring filePath = @"C:\Path\To\Save\Report.xml";\nFile.WriteAllText(filePath, xmlContent);

@@ -1,0 +1,1 @@
+# Create checksums\nmd5sum yourfile > yourfile.md5\n\n# Verify checksums\nmd5sum -c yourfile.md5

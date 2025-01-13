@@ -1,0 +1,1 @@
+public class PartialViewModel\n{\n    public string Html { get; set; }\n    public string JsonData { get; set; }\n}

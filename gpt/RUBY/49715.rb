@@ -1,0 +1,1 @@
+require 'test_helper'\n\nclass GameTest < ActiveSupport::TestCase\n  setup do\n    @game = games(:four)\n    @game.start\n\n    @player = players(:player_one)\n    @player.cards << cards(:card_b)\n    @player.cards << cards(:card_c)\n  end\n\n  test "player one has cards B and C" do\n    assert_equal ['B', 'C'], @player.cards.map(&:name).sort\n  end\nend

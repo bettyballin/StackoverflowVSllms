@@ -1,0 +1,1 @@
+SELECT T1.column1, T2.column2\nFROM table_1 T1\nJOIN table_2 T2 ON T1.id = T2.foreign_id\nWHERE T1.status = 'active';

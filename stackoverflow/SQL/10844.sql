@@ -1,1 +1,0 @@
-Table (\n  id char(36) primary key,\n  fieldA varChar(12) not null,\n  fieldB varChar(36) not null,\n  UNIQUE fieldA_fieldB (fieldA, fieldB)\n)

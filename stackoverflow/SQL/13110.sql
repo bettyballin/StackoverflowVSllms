@@ -1,1 +1,0 @@
-SELECT * FROM tblusers WHERE usrID='$receiverID' or usrID='$sender_id'

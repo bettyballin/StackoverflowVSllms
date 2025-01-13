@@ -1,1 +1,0 @@
-yourString.Split(new string[] {";"}, StringSplitOptions.RemoveEmptyEntries);

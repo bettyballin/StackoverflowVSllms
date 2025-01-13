@@ -1,0 +1,1 @@
+ini_set('session.cookie_lifetime', 0);\nini_set('session.gc_maxlifetime', 1440);

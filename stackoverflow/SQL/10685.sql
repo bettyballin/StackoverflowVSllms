@@ -1,1 +1,0 @@
-SELECT id, name\n    , (SELECT COUNT(*) FROM people p2 WHERE name='Spiewak' AND p2.id <= p1.id) AS RowNumber\nFROM people p1\nWHERE name = 'Spiewak'\nORDER BY id

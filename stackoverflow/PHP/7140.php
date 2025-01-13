@@ -1,1 +1,0 @@
-// A dummy query-string is added to filenames, to gain control over\n// browser-caching. The string changes on every update or full cache\n// flush, forcing browsers to load a new copy of the files, as the\n// URL changed.\n$query_string = '?'. substr(variable_get('css_js_query_string', '0'), 0, 1);

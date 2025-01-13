@@ -1,0 +1,1 @@
+using System;\nusing System.Collections.Generic;\nusing System.Linq;\n\npublic class StringChecker\n{\n    public bool ContainsAny(string myString, List<string> listOfStrings)\n    {\n        var stringSet = new HashSet<string>(listOfStrings);\n        return stringSet.Any(myString.Contains);\n    }\n}

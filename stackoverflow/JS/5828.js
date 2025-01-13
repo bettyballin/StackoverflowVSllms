@@ -1,1 +1,0 @@
-<script src="jquery-1.2.6.pack.js"></script>\n<script>\n$(document).ready(function() {\n    var variable = "something.html";\n    $('form').attr("action", variable);\n});\n</script>

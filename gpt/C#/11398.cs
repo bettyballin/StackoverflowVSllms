@@ -1,0 +1,1 @@
+[OperationBehavior(Impersonation = ImpersonationOption.Required)]\n   public void YourServiceMethod()\n   {\n       // Your code here\n   }

@@ -1,1 +1,0 @@
-for(i = 2; i <= 6; i = i + 2) {\n    printf("%d\t", i + 1);\n}

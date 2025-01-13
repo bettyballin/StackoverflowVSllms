@@ -1,1 +1,0 @@
-shadowForm.StartPosition = FormStartPosition.Manual;\nshadowForm.Size = Size; // this always works\nshadowForm.Location = Location; // this fails first time, but works second time!\nshadowForm.Show();

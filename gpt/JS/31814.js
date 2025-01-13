@@ -1,0 +1,1 @@
+$.ajax({\n    url: '/static/sample.html',\n    method: 'GET',\n    success: function(data) {\n        $('#yourDiv').html(data);\n    },\n    error: function() {\n        alert('Error loading file');\n    }\n});

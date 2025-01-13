@@ -1,1 +1,0 @@
-#!/bin/bash\n\ncat /myspecialdir/foo > /httpd/foo.html\n\nprintf "Location: /foo.html\n\n";

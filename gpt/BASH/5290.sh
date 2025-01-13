@@ -1,0 +1,1 @@
+#!/bin/bash\n\nDOMAIN_CONFIG=$1\n\n# Create the domain\nxm create $DOMAIN_CONFIG\n\n# Get the domain ID\nDOMAIN_ID=$(xm domid <domain-name>)\n\n# Start logging the console output in the background\nscreen -L -Logfile /path/to/logs/domU-${DOMAIN_ID}-console.log -dmS domU-${DOMAIN_ID} xm console ${DOMAIN_ID}

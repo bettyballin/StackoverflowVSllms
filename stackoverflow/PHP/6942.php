@@ -1,1 +1,0 @@
-foreach ($results as $result)\n  if (in_array($result->id, $other_results)\n     $found++;

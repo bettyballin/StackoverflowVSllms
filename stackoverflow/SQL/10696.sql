@@ -1,1 +1,0 @@
-SELECT object_name, dbms_java.longname(object_name), status\n  FROM user_objects\n  WHERE object_type='JAVA CLASS'\n  ORDER BY 1

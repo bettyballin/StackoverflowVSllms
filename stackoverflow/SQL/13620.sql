@@ -1,1 +1,0 @@
-select * from tempdb.sys.columns where object_id =\nobject_id('tempdb..#mytemptable');

@@ -1,1 +1,0 @@
-... JOIN table2 t2 on t2.Col1 IN (t1.Col1, t1.Col2)

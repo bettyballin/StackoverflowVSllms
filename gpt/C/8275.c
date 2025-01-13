@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nvoid print2DArray(int rows, int cols, int arr[rows][cols]) {\n    for (int i = 0; i < rows; i++) {\n        for (int j = 0; j < cols; j++) {\n            printf("%d ", arr[i][j]);\n        }\n        printf("\n");\n    }\n}\n\nint main() {\n    int arr[2][3] = { {1, 2, 3}, {4, 5, 6} };\n    print2DArray(2, 3, arr);\n    return 0;\n}

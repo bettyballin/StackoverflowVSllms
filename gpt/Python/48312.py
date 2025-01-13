@@ -1,0 +1,1 @@
+import itertools\n\nsomelists = [\n   [1, 2, 3],\n   ['a', 'b'],\n   [4, 5]\n]\n\ncartesian_product = list(itertools.product(*somelists))\nprint(cartesian_product)

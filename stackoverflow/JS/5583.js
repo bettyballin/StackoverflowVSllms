@@ -1,1 +1,0 @@
-document.getElementById("contentarea").object.location.href = url;

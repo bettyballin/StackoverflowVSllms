@@ -1,0 +1,1 @@
+# Check the current hostname\n   hostname\n\n   # Set the hostname\n   sudo hostnamectl set-hostname yourhostname

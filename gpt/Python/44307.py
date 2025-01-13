@@ -1,0 +1,1 @@
+import redis\n\nr = redis.Redis()\n\n# Set a key\nr.set('foo', 'bar')\n\n# Get a key\nvalue = r.get('foo')\nprint(value)  # Output: b'bar'

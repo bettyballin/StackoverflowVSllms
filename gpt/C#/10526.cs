@@ -1,0 +1,1 @@
+MyNamespace.MyAPIClass\nAnotherNamespace.AnotherAPIClass

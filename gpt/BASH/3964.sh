@@ -1,0 +1,1 @@
+@echo off\nsetlocal enabledelayedexpansion\n\nset DIRECTORY=X:\Windows\System32\nset FILELIST=filenames.txt\n\nfor /f "delims=" %%f in (%FILELIST%) do (\n    if exist "%DIRECTORY%\%%f" (\n        echo %%f exists\n    ) else (\n        echo %%f does not exist\n    )\n)\nendlocal

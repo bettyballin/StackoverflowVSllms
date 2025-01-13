@@ -1,1 +1,0 @@
-mysql> SET GLOBAL time_zone = timezone;

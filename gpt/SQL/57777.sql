@@ -1,0 +1,1 @@
+ALTER TABLE your_table_name\nADD CONSTRAINT chk_your_field_name_range\nCHECK (your_field_name BETWEEN 0 AND 100);

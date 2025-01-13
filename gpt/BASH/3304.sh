@@ -1,0 +1,1 @@
+xjc -d src -p com.example.myschema path/to/your/schema.xsd

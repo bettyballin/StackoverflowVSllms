@@ -1,0 +1,1 @@
+sudo yum groupinstall "Development Tools"\n   sudo yum install php-devel

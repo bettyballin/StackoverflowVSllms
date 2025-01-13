@@ -1,0 +1,1 @@
+[ApiController]\n[Route("[controller]")]\npublic class SecureController : ControllerBase\n{\n    [HttpGet]\n    [Authorize]\n    public IActionResult Get()\n    {\n        return Ok("Secure Data");\n    }\n}

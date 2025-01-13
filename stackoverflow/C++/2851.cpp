@@ -1,1 +1,0 @@
-void subarray(const double a, const double b, vector <double> &sub, vector <int> pn) {\n    vector <int>::const_iterator begin, end;\n    begin = lower_bound(pn.begin(), pn.end(), a);\n    end = upper_bound(pn.begin(), pn.end(), b);\n    sub.insert(sub.begin(), begin, end);\n}

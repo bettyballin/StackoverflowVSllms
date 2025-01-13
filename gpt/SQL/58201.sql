@@ -1,0 +1,1 @@
+SELECT \n    (SELECT COUNT(*) FROM comments) +\n    (SELECT COUNT(*) FROM tags) +\n    (SELECT COUNT(*) FROM search) AS total_count;

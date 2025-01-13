@@ -1,0 +1,1 @@
+// Assuming $user is the instance of the User object\n$fbc_uid = $user->fbc_uid;\n\n// Output the fbc_uid\necho $fbc_uid;

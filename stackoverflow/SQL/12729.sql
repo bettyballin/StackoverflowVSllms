@@ -1,1 +1,0 @@
--- //return those students that have correctly answered not less then 3 questions among A,B,C\nselect      studentName, COUNT(DISTINCT question) AS CNT\nfrom        quizAnswers\nwhere       question in ('A', 'B', 'C')\nGROUP BY    studentName\nHAVING COUNT(DISTINCT question) >= 3

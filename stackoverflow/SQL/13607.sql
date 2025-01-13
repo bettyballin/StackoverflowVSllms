@@ -1,1 +1,0 @@
-KeyWords\n----------\nKeyWordId Int Identity(1,1)\nKeyWord VarChar(200)\n\nKeyFieldKeyWords\n----------------\nKeyfield Int\nKeyWordId Int

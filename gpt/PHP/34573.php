@@ -1,0 +1,1 @@
+public function autocompleteAction()\n{\n    $request = $this->getRequest();\n    \n    $filter = $request->getParam('q');\n    $country = $request->getParam('country');\n    \n    $clublist = getClubListBySubstring($country, $filter);\n    \n    $this->_helper->autoComplete($clublist);\n}

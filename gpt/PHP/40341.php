@@ -1,0 +1,1 @@
+$dir = "C:\\Documents and Settings\\test\\My Documents\\Image Directory\\Me Dog\\";\n\nif (is_dir($dir)) {\n    echo 'Directory exists';\n} else {\n    echo 'Directory does not exist';\n}

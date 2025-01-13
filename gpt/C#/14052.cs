@@ -1,0 +1,1 @@
+public List<ResultSet> GetObject(string objectType, bool itemState, bool isPublished)\n   {\n       using (MyDataContext context = new MyDataContext())\n       {\n           ISingleResult<ResultSet> result = context.p_GetObject(objectType, itemState, isPublished);\n           return result.ToList();\n       }\n   }

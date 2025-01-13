@@ -1,0 +1,1 @@
+public class YourClass\n   {\n       public void ButtonClickHandler(object sender, EventArgs e)\n       {\n           BackgroundJob.Enqueue(() => LongRunningMethod());\n       }\n\n       public void LongRunningMethod()\n       {\n           // Your long-running task here\n       }\n   }

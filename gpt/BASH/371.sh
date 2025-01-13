@@ -1,0 +1,1 @@
+antlr4 -Dlanguage=CSharp TSqlLexer.g4\nantlr4 -Dlanguage=CSharp TSqlParser.g4

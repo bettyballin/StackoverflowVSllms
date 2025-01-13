@@ -1,0 +1,1 @@
+#include <list>\n#include <iostream>\n\nint main() {\n    std::list<int> m_Objs = {1, 2, 3, 4, 5};\n\n    // Using reverse iterators to traverse backwards\n    for (std::list<int>::reverse_iterator iter = m_Objs.rbegin(); iter != m_Objs.rend(); ++iter) {\n        std::cout << *iter << " ";\n    }\n\n    return 0;\n}

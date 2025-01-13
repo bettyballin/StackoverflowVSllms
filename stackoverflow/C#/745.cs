@@ -1,1 +1,0 @@
-myPictureBox.Image.RotateFlip(RotateFlipType.Rotate180FlipNone);

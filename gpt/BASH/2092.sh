@@ -1,0 +1,1 @@
+gacutil /i "C:\windows\assembly\GAC_MSIL\sharepoint.eplugin\1.0.0.0__publickeytoken\sharepoint.eplugin.dll"

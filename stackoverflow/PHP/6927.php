@@ -1,1 +1,0 @@
-<?php return; rest of the code ?>

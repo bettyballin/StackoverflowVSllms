@@ -1,1 +1,0 @@
-import subprocess\nret = subprocess.call(["ssh", "user@host", "program"]);\n\n# or, with stderr:\nprog = subprocess.Popen(["ssh", "user@host", "program"], stderr=subprocess.PIPE)\nerrdata = prog.communicate()[1]

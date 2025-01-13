@@ -1,0 +1,1 @@
+if ('caches' in window) {\n     caches.keys().then(function(names) {\n       for (let name of names) caches.delete(name);\n     });\n   }

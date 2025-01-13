@@ -1,0 +1,1 @@
+WITH RankedBars AS (\n    SELECT \n        instrument, \n        bar_dttm, \n        bar_open, \n        bar_close,\n        ROW_NUMBER() OVER (PARTITION BY instrument ORDER BY bar_dttm DESC) AS rn\n    FROM \n        bar\n)\nSELECT \n    instrument, \n    bar_dttm, \n    bar_open, \n    bar_close\nFROM \n    RankedBars\nWHERE \n    rn <= 5;

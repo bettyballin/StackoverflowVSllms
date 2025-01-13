@@ -1,1 +1,0 @@
-UPDATE  [table]\nSET     [image] = [image] + '.jpg'\nWHERE   ISNULL([image], '') <> ''

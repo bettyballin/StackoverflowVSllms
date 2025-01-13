@@ -1,0 +1,1 @@
+interface DatabaseInterface {\n    public function query($q);\n    public function escape($s);\n    // more methods\n}\n\nclass Database extends mysqli implements DatabaseInterface {\n    public function query($q) {\n        // implementation of query method\n    }\n\n    public function escape($s) {\n        // implementation of escape method\n    }\n\n    // other methods\n}

@@ -1,1 +1,0 @@
-select Acct_id,Name \nfrom MasterList \nwhere Acct_id not in (select distinct Acct_id from NewMasterList) \n\nunion \n\nselect Acct_id,Name \nfrom NewMasterList \nwhere Acct_id not in (select distinct Acct_id from MasterList)

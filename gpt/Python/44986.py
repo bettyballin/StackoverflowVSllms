@@ -1,0 +1,1 @@
+from Crypto.Cipher import DES\nfrom Crypto.Util.Padding import pad\nimport base64\n\nkey = b'abcdefgh'\ncipher = DES.new(key, DES.MODE_ECB)\n\nplain = b"Guido van Rossum is a space alien."\npadded_plain = pad(plain, DES.block_size)\nencrypted = cipher.encrypt(padded_plain)\nenc = base64.b64encode(encrypted)\nprint(enc.decode())

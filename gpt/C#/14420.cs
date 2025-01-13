@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        // Assuming GetData() returns a DataTable or similar data source\n        tableRepeater.DataSource = GetData();\n        tableRepeater.DataBind();\n    }\n}\n\nprivate DataTable GetData()\n{\n    // Fetch your data here.\n}

@@ -1,0 +1,1 @@
+unsigned __stdcall ThreadFunc(void* pArguments);

@@ -1,1 +1,0 @@
-$("a").each(function() {\n    var link = $(this);\n    var top = link.offset().top;\n    var left = link.offset().left;\n    var width = link.offset.width();\n    var height = link.offset.height();\n});

@@ -1,1 +1,0 @@
-<system.web>\n  <!-- ASP.NET runs as the authenticated user -->\n  <identity impersonate="true" />\n</system.web>\n\n<system.web>\n  <!-- ASP.NET runs as the specified user -->\n  <identity impersonate="true"\n            username="DOMAIN\user"\n            password="password" />\n</system.web>

@@ -1,0 +1,1 @@
+<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $id = $_POST['id'];\n    $prod = new C_Product();\n    $result = $prod->deleteCategoryById($id); // Assuming you have a method to delete category\n\n    if ($result) {\n        echo json_encode(['success' => true]);\n    } else {\n        echo json_encode(['success' => false]);\n    }\n}

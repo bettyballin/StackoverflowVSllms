@@ -1,1 +1,0 @@
-$(function() {\n   $('.menuItem').hover( function(){\n      $(this).css('background-color', '#F00');\n   },\n   function(){\n      $(this).css('background-color', '#000');\n   });\n});

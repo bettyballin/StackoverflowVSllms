@@ -1,1 +1,0 @@
-xitem = ClientForm.Item(browser.form.find_control(name="field1"), \n        {'contents':'E', 'value':'E', 'label':'E'})

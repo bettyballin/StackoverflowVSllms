@@ -1,1 +1,0 @@
-[PersistenceMode(PersistenceMode.InnerProperty)]\n[TemplateInstance(TemplateInstance.Single)]\npublic ITemplate Template { \n  get { return template; }\n  set { template = value; }\n}

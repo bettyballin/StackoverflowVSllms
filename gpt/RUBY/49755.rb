@@ -1,0 +1,1 @@
+require 'fileutils'\n\nsource = 'path/to/source/file'\ndestination = 'path/to/destination/file'\n\n# Remove the destination file if it exists\nFileUtils.rm_f(destination)\n\n# Perform the copy\nFileUtils.cp_r(source, destination)

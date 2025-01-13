@@ -1,0 +1,1 @@
+// Example to show how to change the runtime library setting\n#include <iostream>\n\nvoid HelloWorld() {\n    std::cout << "Hello, World!" << std::endl;\n}\n\nextern "C" __declspec(dllexport) void HelloWorld();

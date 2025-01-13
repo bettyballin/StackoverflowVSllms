@@ -1,0 +1,1 @@
+.dynamicList {\n    list-style: none;\n}\n\n.dynamicList li {\n    display: block;\n    width: 400px;\n    height: 55px;\n    padding: 10px 10px 10px 10px;\n    border: 1px solid #000;\n    background-color: #ff0000;\n}\n\n.dynamicList li.selectedItem {\n    background-color: #0000ff;\n}

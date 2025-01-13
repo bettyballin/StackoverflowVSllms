@@ -1,0 +1,1 @@
+export GIT_SSH=/c/Windows/System32/OpenSSH/ssh.exe

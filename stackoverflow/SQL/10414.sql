@@ -1,1 +1,0 @@
-sum(case when charge_code = CH then costval else 0 end) \n- sum(case when charge_code = 'CR' then costval else 0 end)

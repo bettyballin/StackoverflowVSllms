@@ -1,0 +1,1 @@
+public class ReviewMap : ClassMap<Review>\n{\n    public ReviewMap()\n    {\n        Table("Reviews");\n        Id(x => x.ReviewId).Column("ReviewId").GeneratedBy.Identity();\n        References(x => x.Business).Column("BusinessId").Not.Nullable().Not.LazyLoad();\n        Map(x => x.ReviewText);\n    }\n}

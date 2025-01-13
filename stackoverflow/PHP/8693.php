@@ -1,1 +1,0 @@
-$string = 'last,first';\n   list($last,$first) = explode( ",", $string );\n   echo $first . ' ' . $last;

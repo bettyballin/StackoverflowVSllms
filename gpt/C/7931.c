@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint main() {\n    int number;\n\n    printf("Enter an integer: ");\n    if (scanf("%d", &number) != 1) {\n        // Handle error if input is not an integer\n        printf("Invalid input. Please enter a valid integer.\n");\n        return 1;\n    }\n\n    printf("You entered: %d\n", number);\n\n    return 0;\n}

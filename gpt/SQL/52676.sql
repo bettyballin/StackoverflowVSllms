@@ -1,0 +1,1 @@
+INSERT INTO directory_country_region (country_id, code, default_name) VALUES \n('GB', 'ENG', 'England'),\n('GB', 'SCT', 'Scotland'),\n('GB', 'WLS', 'Wales'),\n('GB', 'NIR', 'Northern Ireland');

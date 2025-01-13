@@ -1,0 +1,1 @@
+// Using FileStream constructor\nFileStream fs1 = new FileStream(path, FileMode.Open, FileAccess.Read);\n\n// Using File.Open method\nFileStream fs2 = File.Open(path, FileMode.Open, FileAccess.Read);

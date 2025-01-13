@@ -1,1 +1,0 @@
-SELECT distinct idCustomer FROM reservations\nWHERE DATEPART ( hour, insertDate) < 2\n  and idCustomer is not null

@@ -1,0 +1,1 @@
+<servlet>\n    <servlet-name>dispatcher</servlet-name>\n    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>\n    <load-on-startup>1</load-on-startup>\n</servlet>\n\n<servlet-mapping>\n    <servlet-name>dispatcher</servlet-name>\n    <url-pattern>/</url-pattern>\n</servlet-mapping>

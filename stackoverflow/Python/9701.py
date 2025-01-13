@@ -1,1 +1,0 @@
->>> from BeautifulSoup import BeautifulSoup\n>>> doc = """\n... <html>\n... <body>\n... <img src="test.jpg">\n... &lt;img src="yay.jpg"&gt;\n... <!-- <img src="ohnoes.jpg"> -->\n... <img src="hurrah.jpg">\n... </body>\n... </html>\n... """\n>>> soup = BeautifulSoup(doc)\n>>> soup.findAll('img')\n[<img src="test.jpg" />, <img src="hurrah.jpg" />]

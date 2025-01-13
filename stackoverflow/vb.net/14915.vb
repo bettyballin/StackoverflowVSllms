@@ -1,1 +1,0 @@
-Private Sub ButtonUpload_Click(...)\n    ...\n    Dim FileExtension As String = "." + FileBox.FileName.Split(".").Last.ToLower\n    z.ContentType = ContentType(FileExtension)\n    ...\nEnd Sub

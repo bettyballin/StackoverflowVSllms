@@ -1,1 +1,0 @@
-$results = mysqli_query($db, "SELECT * from tbl_bugresponse WHERE bugid = $id ORDER BY time");\nwhile ($posts = mysqli_fetch_assoc($results)) {\n    // table construction code goes here\n}

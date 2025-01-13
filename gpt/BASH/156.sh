@@ -1,0 +1,1 @@
+chmod +x /var/www/cgi-bin/tabular.py\nchmod 666 /var/www/html/output.txt

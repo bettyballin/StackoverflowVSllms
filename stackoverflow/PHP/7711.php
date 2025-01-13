@@ -1,1 +1,0 @@
-if ($counter % 3 == 0) {\n   echo 'image file';\n}

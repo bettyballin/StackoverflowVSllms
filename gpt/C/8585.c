@@ -1,0 +1,1 @@
+Node leftRightRotate(Node z) {\n       z.left = leftRotate(z.left);\n       return rightRotate(z);\n   }

@@ -1,0 +1,1 @@
+protected void Application_BeginRequest(object sender, EventArgs e)\n{\n    HttpContext.Current.Items["CurrentRailsEngineContext"] = new RailsEngineContext();\n}

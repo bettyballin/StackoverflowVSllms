@@ -1,0 +1,1 @@
+// Storing a value in the session\nSession["UserName"] = "JohnDoe";\n\n// Retrieving the value from the session\nstring userName = Session["UserName"] as string;

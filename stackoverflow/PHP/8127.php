@@ -1,1 +1,0 @@
-<pre>file_put_contents($tmpfile, str_replace("\t", ";",  iconv('UTF-16', 'UTF-8', file_get_contents($tmpfile))));

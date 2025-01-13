@@ -1,1 +1,0 @@
-public interface IRepository<TYPE, KEY>{\n  IList<TYPE> GetAll(KEY key);\n  TYPE GetById(KEY key);\n  void Save(TYPE obj);\n  void Update(TYPE obj);\n  void Delete(Key key);\n}

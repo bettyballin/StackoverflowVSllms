@@ -1,0 +1,1 @@
+for ( ; *p == *q; p++, q++) {\n    // loop body\n}

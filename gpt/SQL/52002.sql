@@ -1,0 +1,1 @@
+CREATE TABLE CourseRegistration (\n    StudentID INT,\n    CourseID INT,\n    RegistrationDate DATE,\n    PRIMARY KEY (StudentID, CourseID)\n);

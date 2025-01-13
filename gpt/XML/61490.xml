@@ -1,0 +1,1 @@
+<system.serviceModel>\n  <services>\n    <service name="YourServiceName">\n      <host>\n        <baseAddresses>\n          <add baseAddress="http://www.domain.com/YourService.svc"/>\n        </baseAddresses>\n      </host>\n    </service>\n  </services>\n</system.serviceModel>

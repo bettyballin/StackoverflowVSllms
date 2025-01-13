@@ -1,0 +1,1 @@
+php bin/console doctrine:migrations:diff\nphp bin/console doctrine:migrations:migrate

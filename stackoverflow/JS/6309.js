@@ -1,1 +1,0 @@
-setTimeout('document.getElementById("<id>").clicked = false;' , 10000);

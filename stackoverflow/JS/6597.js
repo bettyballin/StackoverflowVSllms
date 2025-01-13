@@ -1,1 +1,0 @@
-jQuery.getJSON("url", parameters, function (jsonData){\n  // Assuming jsonData is an array:\n  for(var i = 0; i < jsonData.length; i++){\n    // Do something with jsonData[i]\n  }\n});

@@ -1,1 +1,0 @@
-$output .= $this->pi_RTEcssText( $contentFromDb );

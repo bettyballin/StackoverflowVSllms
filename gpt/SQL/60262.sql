@@ -1,0 +1,1 @@
+-- Define the asynchronous stored procedure call\nCALL my_stored_procedure (param1, param2, ...) ASYNC;\n\n-- Continue with other operations\n-- You can use the ASYNC_ID to manage the asynchronous call later

@@ -1,0 +1,1 @@
+<script>\n    $(document).ready( function () {\n        $('table').DataTable();\n    });\n</script>

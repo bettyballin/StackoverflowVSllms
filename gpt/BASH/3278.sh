@@ -1,0 +1,1 @@
+uitka --standalone --onefile your_script.py

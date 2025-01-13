@@ -1,0 +1,1 @@
+-- Migration script to upgrade the database schema\nALTER TABLE users ADD COLUMN phone_number VARCHAR(15);\n\n-- Apply the migration script separately from feature releases

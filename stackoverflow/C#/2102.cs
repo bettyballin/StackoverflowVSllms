@@ -1,1 +1,0 @@
-var qry = from row in ctx.SomeProc(12345)\n          select new Foo {ID = row.ID, Name = row.Name };

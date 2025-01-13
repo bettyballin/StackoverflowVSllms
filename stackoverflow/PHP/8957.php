@@ -1,1 +1,0 @@
-if ($last_day != $day_before_this_one AND $last_day)

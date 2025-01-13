@@ -1,0 +1,1 @@
+-- Step 1: Find col2 values with more than one distinct col1 value\nWITH col2_multiple_col1 AS (\n    SELECT col2\n    FROM your_table\n    GROUP BY col2\n    HAVING COUNT(DISTINCT col1) > 1\n)\n\n-- Step 2: Select rows with these col2 values\nSELECT *\nFROM your_table\nWHERE col2 IN (SELECT col2 FROM col2_multiple_col1);

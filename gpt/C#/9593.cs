@@ -1,0 +1,1 @@
+private void Form1_KeyUp(object sender, KeyEventArgs e)\n{\n    if (e.KeyCode == Keys.D8 && e.Shift)\n    {\n        // Asterisk (*) detected\n        MessageBox.Show("Asterisk (*) key pressed.");\n    }\n}

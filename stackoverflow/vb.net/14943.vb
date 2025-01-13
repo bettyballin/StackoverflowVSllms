@@ -1,1 +1,0 @@
-Dim SortedFields = From field In feedXML.Descendants("fields")\n                            Dim sFieldList = From field In SortedFields.Descendants("field") Order By (int?)field.@positio

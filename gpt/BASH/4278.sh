@@ -1,0 +1,1 @@
+@echo off\n\n:: Backup system state\nwbadmin start systemstatebackup -backuptarget:D: -quiet\n\n:: Execute Robocopy to perform the file backup\nset SOURCE_DIR=C:\path\to\source\nset DEST_DIR=D:\path\to\destination\nrobocopy %SOURCE_DIR% %DEST_DIR% /MIR /R:3 /W:5 /Z /V /NP /LOG:C:\path\to\logfile.log

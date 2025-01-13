@@ -1,0 +1,1 @@
+#!/bin/sh\n# Change to the script directory\ncd "$(dirname "$0")"\n\n# Example sed command\n./sed -i "s/oldtext/newtext/g" inputfile.txt\n\n# Additional sed commands can go here

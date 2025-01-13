@@ -1,0 +1,1 @@
+<system.web>\n       <pages enableEventValidation="false" />\n   </system.web>

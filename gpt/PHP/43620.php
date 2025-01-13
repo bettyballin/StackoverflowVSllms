@@ -1,0 +1,1 @@
+$array_with_keys = ['key1', 'key2', 'key3'];\n$array_with_values = ['value1', 'value2', 'value3'];\n\n$mapped_array = array_combine($array_with_keys, $array_with_values);\n\nprint_r($mapped_array);

@@ -1,0 +1,1 @@
+# Example of using Jupyter Notebook for Python 3\n   def hello_world():\n       print("Hello, World!")\n\n   hello_world()

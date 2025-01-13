@@ -1,1 +1,0 @@
-Dim s As String = blockRenderer.Capture(Function() RenderPartialExtensions.RenderPartial (h, userControl, viewData))

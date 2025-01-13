@@ -1,0 +1,1 @@
+extern "C" {\n    __declspec(dllexport) int __stdcall foo(long bar);\n}

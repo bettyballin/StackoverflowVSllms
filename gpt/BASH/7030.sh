@@ -1,0 +1,1 @@
+export ARCH=$(uname -m)\n     export KERNEL=$(uname -r)\n     export LIB_DIR=$HOME/libs/library-name/$ARCH-$KERNEL\n     \n     export LD_LIBRARY_PATH=$LIB_DIR/lib:$LD_LIBRARY_PATH\n     export C_INCLUDE_PATH=$LIB_DIR/include:$C_INCLUDE_PATH

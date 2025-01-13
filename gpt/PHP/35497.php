@@ -1,0 +1,1 @@
+<?php\n$url = 'https://api.example.com/data'; // Replace with the target URL\n$response = file_get_contents($url);\nheader('Content-Type: application/json');\necho $response;\n?>

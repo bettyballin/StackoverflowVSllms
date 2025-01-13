@@ -1,0 +1,1 @@
+using (var context = new MyDbContext())\n   {\n       var users = context.Users\n                          .Where(u => u.Username == username)\n                          .ToList();\n   }

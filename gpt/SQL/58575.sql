@@ -1,0 +1,1 @@
+-- Example SQL to view contents of TrustStore.sqlite3 (for educational purposes only)\nSELECT * FROM tsettings WHERE data IS NOT NULL;

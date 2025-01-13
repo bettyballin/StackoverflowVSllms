@@ -1,1 +1,0 @@
-<filter-mapping>\n    <filter-name>sitemesh</filter-name>\n    <servlet-name>MyServlet</servlet-name>\n    <dispatcher>FORWARD</dispatcher>\n</filter-mapping>

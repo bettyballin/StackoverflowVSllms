@@ -1,0 +1,1 @@
+<?php\n// Set the maximum execution time to 5 seconds\nset_time_limit(5);\n\ninclude('siteclass.class.php');\n?>

@@ -1,0 +1,1 @@
+// Example of a software fault\npublic int divide(int a, int b) {\n    return a / b; // Fault: No check for division by zero\n}

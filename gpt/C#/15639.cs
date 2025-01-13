@@ -1,0 +1,1 @@
+using (SPSite site = new SPSite("http://yoursiteurl"))\n{\n    using (SPWeb web = site.OpenWeb())\n    {\n        SPList list = web.Lists["YourListName"];\n        \n        // Get the custom property\n        string myValue = list.Properties["MyKey"];\n    }\n}

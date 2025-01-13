@@ -1,0 +1,1 @@
+composer create-project -sdev laminas/laminas-mvc-skeleton path/to/install\ncd path/to/install\nphp -S 0.0.0.0:8080 -t public

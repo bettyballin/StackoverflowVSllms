@@ -1,0 +1,1 @@
+chmod +x copy_configs.sh

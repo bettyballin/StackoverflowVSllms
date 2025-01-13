@@ -1,0 +1,1 @@
+mcs -r:System.Configuration.dll -r:System.Web.dll EncryptConfigSection.cs

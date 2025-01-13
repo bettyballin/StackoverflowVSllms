@@ -1,0 +1,1 @@
+Gauss eulerIntegrate(double dt, Gauss iv, Gauss[] values) {\n    Gauss r = iv;\n    foreach (Gauss v in values) {\n        r += v * dt;\n    }\n    return r;\n}

@@ -1,0 +1,1 @@
+SELECT DISTINCT t1.eid\nFROM t t1\nWHERE t1.fid = 'B'\n  AND NOT EXISTS (\n      SELECT 1\n      FROM t t2\n      WHERE t1.eid = t2.eid\n        AND t2.fid = 'A'\n  );

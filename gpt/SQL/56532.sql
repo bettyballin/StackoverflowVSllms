@@ -1,0 +1,1 @@
+SELECT *\nFROM YourTable\nWHERE Address3 LIKE 'Street%'

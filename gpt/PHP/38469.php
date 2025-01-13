@@ -1,0 +1,1 @@
+private $radioDecorators = array(\n    'ViewHelper',\n    array('Label', array('placement' => 'APPEND')),\n    array(array('data' => 'HtmlTag'), array('tag' => 'span', 'class' => 'radio-inline')),\n    array(array('row' => 'HtmlTag'), array('tag' => 'li')),\n);

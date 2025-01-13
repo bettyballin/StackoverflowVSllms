@@ -1,0 +1,1 @@
+# settings.py\nMIDDLEWARE = [\n    # ... other middleware ...\n    'path.to.middleware.ThreadLocalMiddleware',\n    # ... other middleware ...\n]

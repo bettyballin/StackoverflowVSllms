@@ -1,1 +1,0 @@
-if not a:\n    print("List is empty")

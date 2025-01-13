@@ -1,0 +1,1 @@
+// Generate a unique token and store it in the session\n   string uniqueToken = Guid.NewGuid().ToString();\n   Session["LastCommentToken"] = uniqueToken;\n\n   // Include the token in the form data\n   ViewState["CommentToken"] = uniqueToken;

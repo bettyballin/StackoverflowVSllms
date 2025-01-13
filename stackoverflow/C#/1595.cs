@@ -1,1 +1,0 @@
-BinaryWriter.Write(string)

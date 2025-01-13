@@ -1,0 +1,1 @@
+./check_process_status.sh <pid>

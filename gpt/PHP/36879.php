@@ -1,0 +1,1 @@
+<?php\n   $content = "<p>Some French text with accents: é, è, à, etc.</p>";\n\n   // Prepare an SQL statement\n   $stmt = $mysqli->prepare("INSERT INTO your_table_name (content) VALUES (?)");\n   $stmt->bind_param("s", $content);\n\n   // Execute the statement\n   $stmt->execute();\n   $stmt->close();\n   ?>

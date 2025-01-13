@@ -1,0 +1,1 @@
+sudo systemctl restart httpd  # For Apache\nsudo systemctl restart nginx  # For Nginx

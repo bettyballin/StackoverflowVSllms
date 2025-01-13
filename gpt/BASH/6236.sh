@@ -1,0 +1,1 @@
+fold -w 80 inputfile.txt > outputfile.txt

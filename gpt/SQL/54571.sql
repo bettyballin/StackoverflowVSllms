@@ -1,0 +1,1 @@
+ALTER TABLE archive_table ADD INDEX (id);

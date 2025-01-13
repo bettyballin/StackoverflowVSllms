@@ -1,0 +1,1 @@
+[ValidateAntiForgeryToken]\n    public ActionResult SubmitForm(FormCollection form) {\n        // Handle form submission\n    }

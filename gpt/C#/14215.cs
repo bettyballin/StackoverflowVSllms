@@ -1,0 +1,1 @@
+amespace YourNamespace.Controls\n    {\n        public class JobEditControl : UserControl\n        {\n            // Your control code here\n        }\n    }

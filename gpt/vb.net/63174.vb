@@ -1,0 +1,1 @@
+' Assume the class library namespace is "MyClassLibrary"\n   ' and the settings class is "My.MySettings"\n   MyClassLibrary.My.MySettings.Default.RunTimeConnectionString = My.Settings.ProductionConnectionString

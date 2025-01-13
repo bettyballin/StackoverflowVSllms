@@ -1,0 +1,1 @@
+// Update profile information in the database\n$stmt = $pdo->prepare("UPDATE users SET status = :status WHERE id = :id");\n$stmt->execute(['status' => $status, 'id' => $userId]);

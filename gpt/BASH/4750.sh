@@ -1,0 +1,1 @@
+wget https://archive.apache.org/dist/subversion/subversion-1.6.23.tar.gz\n    tar -xzf subversion-1.6.23.tar.gz\n    cd subversion-1.6.23

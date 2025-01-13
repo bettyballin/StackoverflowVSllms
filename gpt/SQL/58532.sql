@@ -1,0 +1,1 @@
+DELETE FROM my_table WHERE uuid = ?;\nINSERT INTO changelog (uuid, change_type) VALUES (?, 'delete');

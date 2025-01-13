@@ -1,1 +1,0 @@
-CREATE INDEX [IX_ClientDefinitionEntry_Id_ProcessPath] ON [dbo].[ClientDefinitionEntry] ( [keywordGroupId] ASC ) INCLUDE ( [processPath]) ON [PRIMARY]\nCREATE INDEX [IX_KeywordValueGroups_Id] ON [dbo].[KeywordValueGroups] ( [keywordValueGrpId] ASC )\nCREATE INDEX [IX_KeywordValueGroups_Name] ON [dbo].[KeywordValueGroups] ( [name] ASC )

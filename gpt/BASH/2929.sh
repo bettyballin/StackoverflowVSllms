@@ -1,0 +1,1 @@
+chmod +x /usr/local/sbin/process-mail-queue.sh

@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <httpModules>\n      <add name="CustomLoggingModule" type="YourNamespace.CustomLoggingModule, YourAssembly" />\n    </httpModules>\n  </system.web>\n</configuration>

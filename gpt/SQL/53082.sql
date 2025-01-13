@@ -1,0 +1,1 @@
+SELECT name \nFROM tempdb.sys.tables \nWHERE name LIKE '#Return_Records%';

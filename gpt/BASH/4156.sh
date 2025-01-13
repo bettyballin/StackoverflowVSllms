@@ -1,0 +1,1 @@
+#!/bin/bash\n     /path/to/visitors -args > /path/to/output.html

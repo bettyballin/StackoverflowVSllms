@@ -1,1 +1,0 @@
-template <typename T, int N>\nvoid func(T (&a) [N]) {\n    for (int i = 0; i < N; ++i) a[i] = T(); // reset all elements\n}

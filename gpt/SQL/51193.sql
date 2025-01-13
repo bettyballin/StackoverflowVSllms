@@ -1,0 +1,1 @@
+CREATE USER newuser IDENTIFIED BY password;\n   GRANT CONNECT, RESOURCE TO newuser;

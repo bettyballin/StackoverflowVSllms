@@ -1,0 +1,1 @@
+CREATE TABLE `so_test`.`salesperson_hourly_performance` (\n    `id` int(10) unsigned NOT NULL auto_increment,\n    `salespersonId` int(10) unsigned NOT NULL,\n    `performance_time` datetime NOT NULL,\n    `performance_metric` int(10) unsigned NOT NULL,\n    PRIMARY KEY (`id`)\n) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;

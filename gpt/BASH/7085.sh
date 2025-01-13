@@ -1,0 +1,1 @@
+/usr/local/bin/pip2.6 install <module_name>

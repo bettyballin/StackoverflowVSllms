@@ -1,0 +1,1 @@
+try {\n       // Your migration and calculation code here\n   } catch (Exception $e) {\n       error_log($e->getMessage());\n   }

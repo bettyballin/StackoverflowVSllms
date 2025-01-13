@@ -1,0 +1,1 @@
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\<ServiceName>" /v Type /t REG_DWORD /d 272 /f

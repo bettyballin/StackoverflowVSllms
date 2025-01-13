@@ -1,0 +1,1 @@
+git clone git@your.remote.server.com:username/repo.git

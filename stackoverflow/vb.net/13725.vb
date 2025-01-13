@@ -1,1 +1,0 @@
-objDom.SetProperty "SelectionNamespaces", "xmlns:cf=""http://schemas.microsoft.com/SystemsManagementServer/2005/03/ConsoleFramework"""

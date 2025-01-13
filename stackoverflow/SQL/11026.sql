@@ -1,1 +1,0 @@
-SELECT projectid, clientname, salesperson, prospect FROM project

@@ -1,0 +1,1 @@
+-- On the primary server\n   BACKUP DATABASE YourDatabase TO DISK = 'C:\Backup\YourDatabase.bak'\n   BACKUP LOG YourDatabase TO DISK = 'C:\Backup\YourDatabase_Log.trn'

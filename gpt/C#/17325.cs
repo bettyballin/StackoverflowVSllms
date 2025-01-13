@@ -1,0 +1,1 @@
+[ComVisible(true)]\n    [InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]\n    public interface IPropertyBag\n    {\n        void Add(string key, object value);\n        object Get(string key);\n    }

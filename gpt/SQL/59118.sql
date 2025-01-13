@@ -1,0 +1,1 @@
+ALTER DATABASE your_database_name CHARACTER SET utf8 COLLATE utf8_general_ci;\n   ALTER TABLE fraud_report CONVERT TO CHARACTER SET utf8 COLLATE utf8_general_ci;

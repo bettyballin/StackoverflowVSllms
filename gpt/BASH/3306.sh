@@ -1,0 +1,1 @@
+hugo new site myblog\n   cd myblog\n   hugo server

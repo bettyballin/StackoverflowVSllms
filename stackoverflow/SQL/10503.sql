@@ -1,1 +1,0 @@
-create table xyz_new as select * from xyz where 1=0;

@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Add.aspx.cs" Inherits="YourNamespace.Add" %>\n<!DOCTYPE html>\n<html>\n<head runat="server">\n    <title>Add New Item</title>\n</head>\n<body>\n    <form id="form1" runat="server">\n        <div>\n            <asp:PlaceHolder ID="phControls" runat="server"></asp:PlaceHolder>\n        </div>\n    </form>\n</body>\n</html>

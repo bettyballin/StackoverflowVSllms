@@ -1,0 +1,1 @@
+// Zero out the memory\n   SecureZeroMemory((PVOID)pBuf, BUF_SIZE);\n\n   // Unmap and close the handle\n   UnmapViewOfFile(pBuf);\n   CloseHandle(hMapFile);

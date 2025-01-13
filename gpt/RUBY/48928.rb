@@ -1,0 +1,1 @@
+def tag_names\n  @tag_names || tags.map(&:name).join(' ')\nend

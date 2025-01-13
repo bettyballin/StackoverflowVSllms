@@ -1,1 +1,0 @@
-PrincipalContext adContext = new PrincipalContext(ContextType.Domain);\n\nusing (adContext)\n{\n     return adContext.ValidateCredentials(UserName, Password);\n}

@@ -1,0 +1,1 @@
+SELECT email, clear, SUBSTRING_INDEX(email, '@', -1) AS domain\nINTO OUTFILE '/path/to/your/exported_file.csv'\nFIELDS TERMINATED BY ',' \nENCLOSED BY '"'\nLINES TERMINATED BY '\n'\nFROM postfix_users;

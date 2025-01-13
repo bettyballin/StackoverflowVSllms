@@ -1,1 +1,0 @@
-cfgmaker --output=mrtg_myrouter.cfg public@1.2.3.4

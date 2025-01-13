@@ -1,1 +1,0 @@
-insert into aTable select max(a)^2, 'name' from aTable;

@@ -1,0 +1,1 @@
+LDFLAGS="$LDFLAGS -Wl,--version-script=$(srcdir)/hide_symbols.map"\nAC_SUBST(LDFLAGS)

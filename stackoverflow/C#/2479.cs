@@ -1,1 +1,0 @@
-static int FreeTcpPort()\n{\n  TcpListener l = new TcpListener(IPAddress.Loopback, 0);\n  l.Start();\n  int port = ((IPEndPoint)l.LocalEndpoint).Port;\n  l.Stop();\n  return port;\n}

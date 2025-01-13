@@ -1,0 +1,1 @@
+<style>\n        /* Styles for modern browsers */\n        .container {\n            overflow: visible;\n        }\n    </style>\n\n    <!--[if IE]>\n    <style>\n        /* Styles specifically for IE */\n        .container {\n            overflow: auto; /* or overflow: hidden; */\n        }\n    </style>\n    <![endif]-->

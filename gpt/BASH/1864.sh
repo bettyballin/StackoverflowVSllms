@@ -1,0 +1,1 @@
+gcc -o com_example com_example.c -lole32 -loleaut32

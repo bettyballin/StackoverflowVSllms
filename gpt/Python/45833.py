@@ -1,0 +1,1 @@
+from unittest.mock import patch\n   import my_module\n\n   @patch('my_module.external_service_call')\n   def test_my_function(mock_service):\n       mock_service.return_value = 'mocked response'\n       result = my_module.my_function()\n       assert result == 'expected result'

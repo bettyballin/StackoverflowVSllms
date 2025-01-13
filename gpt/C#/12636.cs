@@ -1,0 +1,1 @@
+bool moduleLoaded = ModuleChecker.IsModulePresent(typeof(MyModule).FullName);

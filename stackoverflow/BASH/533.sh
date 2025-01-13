@@ -1,1 +1,0 @@
-telnet gmail-smtp-in.l.google.com 25

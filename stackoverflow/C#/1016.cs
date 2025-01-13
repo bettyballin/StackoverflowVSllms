@@ -1,1 +1,0 @@
-Type generic = typeof(Wrapper<>);\nType specific = generic.MakeGenericType(o.GetType());\nConstructorInfo ci = specific.GetConstructor(new Type[] { o.GetType() });\nobject o1 = ci.Invoke(new object[] { o });\npropertyGrid1.SelectedObject = o1;

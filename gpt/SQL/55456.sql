@@ -1,0 +1,1 @@
+CREATE TABLE ProductAttributes (\n    AttributeId INT PRIMARY KEY IDENTITY(1, 1),\n    ProductId INT,\n    AttributeName NVARCHAR(50),\n    AttributeValue NVARCHAR(MAX),\n    FOREIGN KEY (ProductId) REFERENCES Products(ProductId)\n);

@@ -1,0 +1,1 @@
+INSERT INTO table1 (column1, column2, column3, column4, column5, fk_column)\nSELECT 'a', 'a', 'a', 'a', 'a', id\nFROM table2;

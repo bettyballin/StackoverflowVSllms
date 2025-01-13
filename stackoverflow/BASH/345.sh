@@ -1,1 +1,0 @@
-newest=""\nfor f in $filelist ; do\n  if [ "$f" -nt "$newest" ] ; then\n    newest="$f"\n  fi\ndone

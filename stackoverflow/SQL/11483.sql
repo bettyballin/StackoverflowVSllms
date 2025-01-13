@@ -1,1 +1,0 @@
-ALTER PROCEDURE [usp_debug_mightwork]\n    @DATA_DT_ID AS int = 20081130\nAS\nBEGIN\n    DECLARE @IDATA_DT_ID AS int\n    SET @IDATA_DT_ID = @DATA_DT_ID\n    -- Stuff here that depends on IDATA_DT_ID\nEND

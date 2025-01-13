@@ -1,0 +1,1 @@
+class BadInputException(Exception):\n    pass\n\ndef factorial(num):\n    if not isinstance(num, int) or num < 0:\n        raise BadInputException("Input must be a non-negative integer.")\n    # Function implementatio

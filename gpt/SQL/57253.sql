@@ -1,0 +1,1 @@
+SELECT TOP 10 name, address FROM people WHERE RECNO() > 5 INTO CURSOR tempCursor

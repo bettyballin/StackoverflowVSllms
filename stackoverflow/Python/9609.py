@@ -1,1 +1,0 @@
-depth = 0\nfor character in some_string:\n    depth += character == '('\n    depth -= character == ')'\n    if depth < 0:\n       break\n\nif depth != 0:\n   print "unmatched parentheses"

@@ -1,0 +1,1 @@
+make\n    make install

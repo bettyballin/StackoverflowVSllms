@@ -1,0 +1,1 @@
+CREATE TABLE MyPartitionedTable (\n        UserID BIGINT,\n        Key1 BIGINT,\n        Key2 BIGINT,\n        Key3 BIGINT,\n        Key4 BIGINT,\n        PRIMARY KEY (UserID)\n    )\n    ON MyPartitionScheme(UserID);

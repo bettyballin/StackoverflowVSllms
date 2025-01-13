@@ -1,1 +1,0 @@
-beginPosit = tempans.index('007 A000000 Y')\nendPosit = min([i for i, item in enumerate(tempans) if '008 ' in item])

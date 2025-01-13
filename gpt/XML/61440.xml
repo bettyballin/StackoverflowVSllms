@@ -1,0 +1,1 @@
+<web-app>\n    <session-config>\n        <cookie-config>\n            <http-only>true</http-only>\n            <secure>true</secure>\n        </cookie-config>\n        <tracking-mode>URL</tracking-mode>\n    </session-config>\n    \n    <!-- Other configurations -->\n</web-app>

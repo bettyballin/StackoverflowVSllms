@@ -1,0 +1,1 @@
+<?php\nprint("<pre>");\nprint_r($_POST);\nprint("</pre>");\n?>

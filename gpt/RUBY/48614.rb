@@ -1,0 +1,1 @@
+# GET /feedback_messages\n# GET /feedback_messages.xml\ndef index\n  page = params[:page]\n  page ||= 1\n  @feedback_messages = FeedbackMessage.paginate(\n    :all,\n    :page => page,\n    :per_page => 20,\n    :order => 'updated_at'\n  )\n\n  respond_to do |format|\n    format.html # index.html.haml\n    format.xml  { render :xml => @feedback_messages }\n  end\nend

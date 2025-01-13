@@ -1,1 +1,0 @@
-private IEnumerable<string> ReadAllStrings(DataReader reader)\n{\n    while(reader.Read())\n        yield return reader[0];\n}\n\n\nString.Join("<br />", ReadAllStrings(reader).ToArray());

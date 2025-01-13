@@ -1,0 +1,1 @@
+public partial class ExamplePage : BasePage\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        // Page-specific logic here\n    }\n}

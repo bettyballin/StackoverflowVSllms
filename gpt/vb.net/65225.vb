@@ -1,0 +1,1 @@
+' Example of logging memory usage\n   Dim currentProcess As Process = Process.GetCurrentProcess()\n   Debug.WriteLine("Memory Usage: " & currentProcess.PrivateMemorySize64)

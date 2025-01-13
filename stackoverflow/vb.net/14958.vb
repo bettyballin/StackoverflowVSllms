@@ -1,1 +1,0 @@
-Dim lastAutonumber As Long\n  lastAutonumber = DMax("Autonumber", "tblAutonumber")

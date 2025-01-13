@@ -1,0 +1,1 @@
+SELECT * \nFROM table1 \nORDER BY some_column \nOFFSET 10 ROWS \nFETCH NEXT 20 ROWS ONLY;

@@ -1,1 +1,0 @@
-"openvpn.exe --config PathToMyConfig.ovpn --service MyEventName 0"

@@ -1,1 +1,0 @@
-<system.web>\n    <httpHandlers>\n      <add path="*.gif" verb="GET,HEAD" type="System.Web.StaticFileHandler" validate="true"/>\n    </httpHandlers>\n  </system.web>

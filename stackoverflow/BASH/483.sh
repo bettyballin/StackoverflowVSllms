@@ -1,1 +1,0 @@
-git clone ssh://username@url.com/~username/workfolder/

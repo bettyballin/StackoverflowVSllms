@@ -1,0 +1,1 @@
+winhttpcertcfg -g -c LOCAL_MACHINE\My -s "MY COMPANY DEBUG" -a "NetworkService"

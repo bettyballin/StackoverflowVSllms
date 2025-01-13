@@ -1,0 +1,1 @@
+myenv\Scripts\activate\n   python manage.py runserver

@@ -1,0 +1,1 @@
+if (this.InvokeRequired)\n{\n    this.Invoke(new MethodInvoker(delegate {\n        // Update UI elements here\n    }));\n}\nelse\n{\n    // Update UI elements here\n}

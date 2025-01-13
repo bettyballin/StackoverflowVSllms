@@ -1,0 +1,1 @@
+valgrind --tool=callgrind ./your_application\n   callgrind_annotate callgrind.out.<pid>

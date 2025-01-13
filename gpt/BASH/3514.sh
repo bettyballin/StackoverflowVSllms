@@ -1,0 +1,1 @@
+# Start PerfView and collect data\nPerfView collect -MaxCollectSec:30 -NoGui\n\n# Run your application and reproduce the issue\n\n# Stop PerfView collection\nPerfView stop\n\n# Open the generated .etl file in PerfView for analysis

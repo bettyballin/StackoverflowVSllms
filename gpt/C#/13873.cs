@@ -1,0 +1,1 @@
+@using (Html.BeginForm())\n    {\n        @Html.AntiForgeryToken()\n        <!-- form fields here -->\n    }

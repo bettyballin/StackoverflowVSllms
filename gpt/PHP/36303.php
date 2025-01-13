@@ -1,0 +1,1 @@
+echo sprintf(gettext('Hello, %s!'), $username);

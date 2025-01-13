@@ -1,0 +1,1 @@
+class Program\n{\n    static void Main(string[] args)\n    {\n        var facade = new RemoteCommandServiceFacade();\n        string result = facade.ExecuteCommand("SampleCommand");\n        Console.WriteLine(result);\n    }\n}

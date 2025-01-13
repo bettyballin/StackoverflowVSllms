@@ -1,1 +1,0 @@
-var Vehicle = jQuery.Class.create({ \n   init: function(name) { this.name = name; } \n});\n\nvar Car = Vehicle.extend({ \n   fillGas: function(){ \n      this.gas = 100; \n   } \n});

@@ -1,0 +1,1 @@
+SELECT b.* \nFROM friend_bulletin b\nJOIN friend_friend f ON b.user_id = f.friendid\nWHERE f.userid = ? AND f.status = '1' \nORDER BY b.submit_date DESC \nLIMIT ?, ?;

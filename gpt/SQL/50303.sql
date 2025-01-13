@@ -1,0 +1,1 @@
+CREATE VIEW dbo.vHelpfulPostCounts\nWITH SCHEMABINDING\nAS\nSELECT\n    PostId,\n    COUNT_BIG(CASE WHEN IsHelpful = 1 THEN 1 ELSE NULL END) AS IsHelpfulCount,\n    COUNT_BIG(CASE WHEN IsHelpful = 0 THEN 1 ELSE NULL END) AS IsNotHelpfulCount\nFROM\n    dbo.HelpfulPosts\nGROUP BY\n    PostId;\nGO

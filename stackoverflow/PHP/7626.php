@@ -1,1 +1,0 @@
-$file = escapeshellarg('/usr/local/my test file.txt');\n\nexec('ls ' . $file);

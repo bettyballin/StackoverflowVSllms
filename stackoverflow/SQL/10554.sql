@@ -1,1 +1,0 @@
-select sum(CASE WHEN package = 3 THEN 5 ELSE 0 END)\n       + sum(CASE WHEN package = 4 THEN 10 ELSE 0 END)\n       + sum(CASE WHEN package = 1 THEN 1 ELSE 0 END) AS total\nfrom table_name

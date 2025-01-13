@@ -1,0 +1,1 @@
+// Example code that might cause issues\n   if (!IsPostBack)\n   {\n       Response.Redirect("Page1.aspx");\n   }

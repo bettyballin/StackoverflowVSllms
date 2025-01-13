@@ -1,0 +1,1 @@
+using (var context = new MyDbContext())\n   {\n       var person = context.People.Find(id);\n       person.FirstName = "John";\n       context.SaveChanges();\n   }

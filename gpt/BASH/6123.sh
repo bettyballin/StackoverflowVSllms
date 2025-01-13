@@ -1,0 +1,1 @@
+doxygen -g # Generate a configuration file\n   doxygen Doxyfile # Run Doxygen with the configuration file

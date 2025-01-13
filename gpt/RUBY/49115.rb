@@ -1,0 +1,1 @@
+def foo(c)\n  return a, b\nend\n\na, b = foo(c)

@@ -1,1 +1,0 @@
-CREATE PROCEDURE sp_NewClaim\n (\n    @ClaimNumber nvarchar(50),\n    @blah............\n    .................\n)\nAS\nBEGIN\n    SET NOCOUNT ON;\n\n    INSERT INTO Accidente (ClaimNumber,........., RecordNumber)\n        VALUES (@ClaimNumber,....., @RecordNumber)\n\n    SELECT SCOPE_IDENTITY()\nEND

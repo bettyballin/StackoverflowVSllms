@@ -1,0 +1,1 @@
+SELECT p_errorMessage\nFROM DUAL\nWHERE (SELECT ValidateParameters(:dateStart, :dateEnd, :FooParm, :CodeStart, :CodeEnd, :errorMessage) FROM DUAL) IS NOT NULL;

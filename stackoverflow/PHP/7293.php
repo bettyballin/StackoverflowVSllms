@@ -1,1 +1,0 @@
-$week_number = 40;\n$year = 2008;\nfor($day=1; $day<=7; $day++)\n{\n    echo date('m/d/Y', strtotime($year."W".$week_number.$day))."\n";\n}

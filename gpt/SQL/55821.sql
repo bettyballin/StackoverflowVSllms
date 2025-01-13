@@ -1,0 +1,1 @@
+SELECT a, b, c, MAX(n) as max_n\nFROM your_table\nGROUP BY a, b, c;

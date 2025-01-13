@@ -1,0 +1,1 @@
+oracle2pg -c /etc/oracle2pg/oracle2pg.conf -s YOUR_ORACLE_SCHEMA -t YOUR_POSTGRESQL_SCHEMA

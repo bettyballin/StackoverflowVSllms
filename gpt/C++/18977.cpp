@@ -1,0 +1,1 @@
+STDAPI DllCanUnloadNow(void) {\n        // Code to check if the DLL can be unloaded\n        return S_OK;\n    }

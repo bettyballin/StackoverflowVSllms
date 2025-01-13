@@ -1,0 +1,1 @@
+#include <iostream>\n\nint main(int argc, char *argv[])\n{\n    std::cout << "hello world" << std::endl;\n    std::cout << "and goodbye" << std::endl;\n    throw "test";\n}

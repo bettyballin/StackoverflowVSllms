@@ -1,1 +1,0 @@
-Link1.Visible = Panel1.Visible

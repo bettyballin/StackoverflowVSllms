@@ -1,0 +1,1 @@
+winegcc -o myapp myapp.c -lole32 -luuid

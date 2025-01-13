@@ -1,1 +1,0 @@
-def some_function(&block)\n  b = block.binding\n  p [b.eval("t"), b.eval("x")]\nend\n\nt = 1\n1.upto(10) {|x|\n  some_function {\n    t + x\n  }\n}

@@ -1,0 +1,1 @@
+Membership.MaxInvalidPasswordAttempts = 5;\n    Membership.PasswordAttemptWindow = 10; // in minutes

@@ -1,0 +1,1 @@
+INSERT INTO wikiscore (topage, score)\n   SELECT w1.topage, COUNT(*)\n   FROM wikilinks AS w1\n   JOIN wikilinks AS w2 ON w2.topage = w1.frompage\n   GROUP BY w1.topage;

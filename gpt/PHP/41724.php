@@ -1,0 +1,1 @@
+<?php\n$mboxFile = '/path/to/your/mbox/file';\nif (file_exists($mboxFile)) {\n    $mbox = fopen($mboxFile, 'r');\n    while ($line = fgets($mbox)) {\n        echo $line . "<br>";\n    }\n    fclose($mbox);\n} else {\n    echo "Mbox file does not exist.";\n}\n?>

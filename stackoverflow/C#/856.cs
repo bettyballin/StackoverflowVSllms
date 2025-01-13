@@ -1,1 +1,0 @@
-void form_Load(object sender,EventArgs e)\n{\n   //We are subscribing to the event here. In VB this is done differently\n   pdfExporter.FileExists+=new FileExistsEventHandler(pdfExporter_fileExists)\n}\n\nvoid pdfExporter_fileExists(object sender, FileExistsEventArgs e)\n{\n   //prompUser takes the file and asks the user\n   if (promptUser(e.FileName)) \n   {\n   }\n}

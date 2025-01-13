@@ -1,1 +1,0 @@
-$(myDiv).offset().left\n$(myDiv).offset().top\nmyDiv.offsetWidth\nmyDiv.offsetHeight

@@ -1,1 +1,0 @@
-int index = 0;\nwhile (index < theDataTable.Rows.Count) {\n   // start of table row\n   for (int column = 0; column < numberOfColumns; i++) {\n      if (index < theDataTable.Rows.Count) {\n         // table cell with data from theDataTable.Rows[index]\n      } else {\n         // empty cell\n      }\n      index++;\n   }\n   // end of table row\n}

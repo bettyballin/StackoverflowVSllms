@@ -1,0 +1,1 @@
+Rails.application.routes.draw do\n  resources :resources do\n    member do\n      post 'restore' # Using POST for restore action\n    end\n  end\nend

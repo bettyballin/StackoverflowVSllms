@@ -1,0 +1,1 @@
+<?php\nfunction my_function() {\n    // Your custom function code here\n}\n?>

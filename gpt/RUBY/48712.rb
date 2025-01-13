@@ -1,0 +1,1 @@
+# Find the user by their ID\n   user = User.find(1)\n   \n   # Update the user's password\n   user.update(password: 'newpassword')\n\n   # Save the changes\n   user.save

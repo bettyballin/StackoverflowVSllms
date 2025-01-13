@@ -1,0 +1,1 @@
+TWriteFileCommand writeFile = (TWriteFileCommand)CommunicationLink.CreateCommand(TOPKernel.TCommand.CommandType.WriteFile);

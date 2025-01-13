@@ -1,1 +1,0 @@
-For Days = 0 To 23        \n   ListHours(Hours) = Hours\nNext

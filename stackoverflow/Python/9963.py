@@ -1,1 +1,0 @@
-(r'^edit/(?P<person_id>\w+)/$', 'mysite.myapp.views.edit_person'),

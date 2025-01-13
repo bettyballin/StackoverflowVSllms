@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint factorial(int n) {\n    static int factorials[] = {1, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880, 3628800};\n    return factorials[n];\n}\n\nint main() {\n    int number = 5; // Change this value to compute factorial of a different number (1-10)\n    printf("Factorial of %d is %d\n", number, factorial(number));\n    return 0;\n}

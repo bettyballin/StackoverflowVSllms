@@ -1,1 +1,0 @@
-v.erase(remove_if(v.begin(), v.end(), \n                 mem_fun_ref(&MyClass::isTiredOfLife)), \n        v.end());

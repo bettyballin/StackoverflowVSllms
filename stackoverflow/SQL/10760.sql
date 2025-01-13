@@ -1,1 +1,0 @@
-IF NOT EXISTS (SELECT * FROM dbo.sysobjects WHERE \nid = OBJECT_ID(N'[dbo].[SomeStoredProcedure]') AND \nOBJECTPROPERTY(id,N'IsProcedure') = 1)\n\nEXEC sp_executesql N'CREATE PROCEDURE [dbo].[SomeStoredProcedure] AS\n\nSELECT ''SPROC Template'''\n\nGO\n\nSET ANSI_NULLS ON\n\nGO\n\nSET QUOTED_IDENTIFIER ON\n\nGO\n\n ALTER PROCEDURE SomeStoredProcedure

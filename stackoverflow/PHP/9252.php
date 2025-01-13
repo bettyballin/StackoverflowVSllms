@@ -1,1 +1,0 @@
-$testData = array( 7, 8, 9 );\n\ndo {\n  $rand = array_rand( $testData );\n} while ( $testData[$rand] % 9 == 0 );\n\necho $testData[$rand];

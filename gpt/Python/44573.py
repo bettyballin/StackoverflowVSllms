@@ -1,0 +1,1 @@
+import bleach\n\n   safe_html = bleach.clean(user_input, tags=['b', 'i', 'u', 'a'], attributes={'a': ['href', 'title']})

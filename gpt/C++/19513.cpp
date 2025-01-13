@@ -1,0 +1,1 @@
+void CYourClass::Serialize(CDatabaseArchive& ar) {\n       if (ar.IsStoring()) {\n           ar << m_member1 << m_member2;\n           // Write to database\n       } else {\n           ar >> m_member1 >> m_member2;\n           // Read from database\n       }\n   }

@@ -1,0 +1,1 @@
+import sqlite3\n\n# Connect to your SQLite database\nconn = sqlite3.connect('your_database.db')\ncursor = conn.cursor()\n\n# Retrieve all table names\ncursor.execute("SELECT name FROM sqlite_master WHERE type='table';")\ntables = cursor.fetchall()\n\n# Drop all tables\nfor table in tables:\n    cursor.execute(f"DROP TABLE IF EXISTS {table[0]};")\n\nconn.commit()\nconn.close()

@@ -1,1 +1,0 @@
-this.dataGridView1.Sort(this.dataGridView1.Columns["Name"], ListSortDirection.Ascending);

@@ -1,0 +1,1 @@
+public ActionResult SomeAction()\n    {\n        try\n        {\n            // Perform action\n            return Json(new { success = true, data = result });\n        }\n        catch (Exception ex)\n        {\n            // Log the exception\n            return Json(new { success = false, message = ex.Message });\n        }\n    }

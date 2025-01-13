@@ -1,0 +1,1 @@
+public partial class YourTable\n{\n    public YourTable()\n    {\n        // Set default values to match the database default values\n        this.BitField = 1; // Assuming 1 is the default\n        this.SmallDateTimeField = DateTime.Now; // Assuming gettime() is the default\n    }\n}

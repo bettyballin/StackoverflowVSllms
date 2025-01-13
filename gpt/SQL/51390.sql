@@ -1,0 +1,1 @@
+MERGE INTO TableName AS target\nUSING (SELECT 27 AS ID, 'John Brown' AS Name, 102 AS ItemID) AS source (ID, Name, ItemID)\nON (target.ID = source.ID)\nWHEN MATCHED THEN\n    UPDATE SET Name = source.Name, ItemID = source.ItemID\nWHEN NOT MATCHED THEN\n    INSERT (ID, Name, ItemID)\n    VALUES (source.ID, source.Name, source.ItemID);

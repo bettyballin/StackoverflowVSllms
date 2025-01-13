@@ -1,1 +1,0 @@
-<location path="MyService.asmx">\n    <system.web>\n      <authorization>\n        <deny users="?" />\n      </authorization>\n    </system.web>\n  </location>

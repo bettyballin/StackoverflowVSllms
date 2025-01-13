@@ -1,0 +1,1 @@
+private DataContext db = new DataContext("connection string");\nvar data = from t in db.sometable\n           select new MyData\n           {\n               Field1 = t.Name,\n               Field2 = t.Email,\n               Field3 = t.City\n           };\n\ngridControl.DataSource = data.ToList();

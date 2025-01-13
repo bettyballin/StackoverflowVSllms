@@ -1,0 +1,1 @@
+# config/routes.rb\nresources :questions do\n  patch :update_position, on: :member\nend

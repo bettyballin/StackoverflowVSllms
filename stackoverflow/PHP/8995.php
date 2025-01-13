@@ -1,1 +1,0 @@
-function hasnonzero($array)\n{\n    foreach ($array as $value)\n    {\n        if (is_array($value))\n        {\n            if (hasnonzero($value))\n                return true;\n        }\n        else if ($value != 0)\n            return true;\n    }\n\n    return false;\n}

@@ -1,1 +1,0 @@
-if (dt.Rows[0]["IsActive"].ToString() == "True")\n{\n     chkAvtive.Checked = true;\n}

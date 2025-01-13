@@ -1,0 +1,1 @@
+CREATE PROCEDURE YourStoredProcedureName\n   @Parameter1 INT\n   AS\n   BEGIN\n       DECLARE @LocalParameter1 INT = @Parameter1;\n       -- Your query using @LocalParameter1\n   END

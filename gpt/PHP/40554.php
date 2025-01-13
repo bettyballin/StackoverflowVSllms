@@ -1,0 +1,1 @@
+$array = [\n    "pg_response_type=D",\n    "pg_response_code=U51",\n    "pg_response_description=MERCHANT STATUS",\n    "pg_trace_number=477DD76B-B608-4318-882A-67C051A636A6"\n];\n\n$result = array_reduce($array, function ($carry, $item) {\n    list($key, $value) = explode('=', $item, 2);\n    $carry[$key] = $value;\n    return $carry;\n}, []);\n\nprint_r($result);

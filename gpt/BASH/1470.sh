@@ -1,0 +1,1 @@
+svn log --depth=infinity /repo/Projects/ProjectA

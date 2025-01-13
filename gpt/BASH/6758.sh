@@ -1,0 +1,1 @@
+del /f /q "C:\path\to\your\file.mpg"

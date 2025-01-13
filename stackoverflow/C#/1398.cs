@@ -1,1 +1,0 @@
-MemoryStream stream = new MemoryStream();\nvar writer = XmlWriter.Create(stream);\nwriter.WriteStartDocument(true);\ndSet.WriteXML(stream);

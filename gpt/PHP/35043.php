@@ -1,0 +1,1 @@
+interface LoggerInterface {\n    public function log($message);\n}\n\ninterface DBInterface {\n    public function query($sql);\n}

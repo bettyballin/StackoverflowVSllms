@@ -1,0 +1,1 @@
+<%\nResponse.ContentType = "application/json"\nDim data\ndata = "{""message"":""Hello, this is real-time data!""}"\nResponse.Write(data)\n%>

@@ -1,0 +1,1 @@
+[Route("api/[controller]")]\npublic class DataController : ControllerBase\n{\n    [HttpGet("{id}")]\n    public ActionResult<string> GetData(int id)\n    {\n        // Logic to retrieve data\n        return "data";\n    }\n}

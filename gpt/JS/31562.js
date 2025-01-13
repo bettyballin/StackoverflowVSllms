@@ -1,0 +1,1 @@
+<script type='text/javascript'>\n  if (typeof window['jQuery'] == 'undefined') {\n    document.write('<scr' + 'ipt type="text/javascript" src="http://z-ecx.images-amazon.com/images/G/01/javascripts/lib/jquery/jquery-1.2.6.pack._V265113567_.js"></sc' + 'ript>');\n  }\n</script>

@@ -1,1 +1,0 @@
-echo date("m/d/Y h:m", $orderDate);\necho date("m/d/Y h:m", strtotime($orderDate)); // or this

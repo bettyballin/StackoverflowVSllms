@@ -1,0 +1,1 @@
+from django.db import models\n\n    class Message(models.Model):\n        content = models.TextField()\n        source = models.CharField(max_length=255)\n        timestamp = models.DateTimeField(auto_now_add=True)

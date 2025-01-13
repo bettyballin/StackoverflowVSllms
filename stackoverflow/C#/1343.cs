@@ -1,1 +1,0 @@
-get {\n    if (_valueProvider == null && ControllerContext != null) {\n         _valueProvider = new DefaultValueProvider(ControllerContext);\n    }\n    return _valueProvider;\n}

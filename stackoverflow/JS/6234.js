@@ -1,1 +1,0 @@
-function popUp() \n{\n   var c = document.getElementById("countrylist");\n   var countryName = c.options[c.selectedIndex].text;\n   var dest = "countries/" + countryName + ".html";\n   window.open(dest, 0, "toolbar=0, scrollbars=0, statusbar=0, menubar=0,resizable=0,width=400,height=400,left=440,top=312");\n}

@@ -1,0 +1,1 @@
+function get_mysqlDate($date, $delimiter = '/') {\n    if (empty($date)) {\n        return 'NULL';\n    }\n    list($d, $m, $y) = explode($delimiter, $date);\n    return "'" . date('Y-m-d', mktime(0, 0, 0, $m, $d, $y)) . "'";\n}\n\n// Usage example:\n$sql = "INSERT INTO your_table (payment_due_on) VALUES (" . get_mysqlDate($_POST['mydate']) . ")";

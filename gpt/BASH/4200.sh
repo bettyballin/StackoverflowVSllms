@@ -1,0 +1,1 @@
+set ORACLE_HOME=C:\path\to\oracle\nset PATH=%ORACLE_HOME%\bin;%PATH%

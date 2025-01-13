@@ -1,0 +1,1 @@
+if ($_POST['submit'] == "Next") {\n    // Remove the first element from the array\n    array_shift($_POST['info']);\n    \n    // Loop through the remaining elements\n    foreach ($_POST['info'] as $key => $value) {\n        echo $value;\n    }\n}

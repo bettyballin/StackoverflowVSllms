@@ -1,1 +1,0 @@
-class Product(models.Model):\n    name = models.CharField(max_length=50)\n    product_rank = models.OneToOneField('ProductRank')\n\nclass ProductRank(models.Model):\n    rank = models.IntegerField(default=0)

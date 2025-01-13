@@ -1,0 +1,1 @@
+public class Foo<T>\n{\n    // Properties and methods for Foo<T>\n}\n\npublic class Example\n{\n    public void ExampleMethod()\n    {\n        Foo<object> x = new Foo<object>();\n        // Use x as needed\n    }\n}

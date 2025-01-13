@@ -1,1 +1,0 @@
-DirectoryEntry entry = new DirectoryEntry("LDAP://server-name/DC=domainContext,DC=com");\nentry.Username = @"DOMAIN\account";\nentry.Password = "...";\nDirectorySearcher searcher = new DirectorySearcher(entry);\nsearcher.Filter = "(&(objectClass=user)(sn=Jones))";\nSearchResultCollection results = searcher.FindAll();

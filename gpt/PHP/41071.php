@@ -1,0 +1,1 @@
+<?php\n    $config->parentPath('/path/to/your/svn/repositories/');\n    ?>

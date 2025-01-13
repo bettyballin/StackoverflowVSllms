@@ -1,0 +1,1 @@
+function generateUniqueKey($length = 16) {\n    return bin2hex(random_bytes($length / 2));\n}\n\n// Example usage\n$key = generateUniqueKey();\necho $key;

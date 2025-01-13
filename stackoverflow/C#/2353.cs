@@ -1,1 +1,0 @@
-[WebMethod]\npublic bool IsAlive()\n{\n     string callingAddress = HttpContext.Current.Request.UserHostAddress;\n     return (callingAddress == allowedAddress);\n}

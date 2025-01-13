@@ -1,0 +1,1 @@
+class ApplicationController < ActionController::Base\n  include MyModule\nend

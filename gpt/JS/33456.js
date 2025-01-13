@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    // Make the groups sortable\n    $('#groupsList').sortable();\n\n    // Make the items sortable and connect them\n    $('.itemsList').sortable({\n        connectWith: '.itemsList'\n    });\n});

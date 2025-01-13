@@ -1,0 +1,1 @@
+int a = 1;\nint *b = &a; // b is a pointer to 'a'\nint c = *b;  // c is assigned the value of 'a' via dereferencing the pointer 'b'

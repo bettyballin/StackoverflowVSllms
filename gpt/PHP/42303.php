@@ -1,0 +1,1 @@
+<?php\n  // SOMETHING DONE THAT SETS $url\n  $url = 'http://example.com/thankyou.php';\n  \n  // Perform the redirection\n  header('Location: ' . $url);\n  \n  // Ensure the script stops executing after the redirect\n  exit();\n?>

@@ -1,1 +1,0 @@
-command.Parameters.AddWithValue("@Foo", Foo);\n\ncommand.Parameters.Add("@Foo").Value = Foo;

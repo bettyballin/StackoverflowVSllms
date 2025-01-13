@@ -1,0 +1,1 @@
+iisreset /stop\niisreset /start

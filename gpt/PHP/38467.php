@@ -1,0 +1,1 @@
+$newsList = getNewNews($userId, $pdo);\n\nforeach ($newsList as $news) {\n    echo "<div class='news-item'>";\n    echo "<h2>" . htmlspecialchars($news['title']) . " <span class='new'>New</span></h2>";\n    echo "<p>" . htmlspecialchars($news['content']) . "</p>";\n    echo "<small>Posted on: " . htmlspecialchars($news['posted_at']) . "</small>";\n    echo "</div>";\n}

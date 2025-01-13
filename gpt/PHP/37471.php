@@ -1,0 +1,1 @@
+$this->scans = array_filter($this->scans, array($this, "scan_cleanup"));

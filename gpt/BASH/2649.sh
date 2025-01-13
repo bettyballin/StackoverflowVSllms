@@ -1,0 +1,1 @@
+sqlldr your_oracle_username/your_oracle_password@your_oracle_database control=your_control_file.ctl

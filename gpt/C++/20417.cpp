@@ -1,0 +1,1 @@
+class ClassTest {\n    public:\n        __declspec(noinline) ClassTest() {\n            int dummy = 0;\n            dummy++;\n        }\n        void DoIt() {\n            // Implementation of DoIt\n        }\n    };

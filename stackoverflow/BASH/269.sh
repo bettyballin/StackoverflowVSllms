@@ -1,1 +1,0 @@
-htmldoc --book -f output.html file1.html file2.html

@@ -1,0 +1,1 @@
+const { v4: uuidv4 } = require('uuid');\n\n// Generate a random UUID (version 4)\nconst fileId = uuidv4();\nconsole.log(fileId);

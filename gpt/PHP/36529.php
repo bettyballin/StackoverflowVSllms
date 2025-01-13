@@ -1,0 +1,1 @@
+// Example:\n$str = "bla bla here is my string";\n$utf8_string_from_database = "这是从数据库中提取的UTF-8字符串"; // This is a UTF-8 string from the database\n\n// Ensure $str is in UTF-8\n$str = mb_convert_encoding($str, 'UTF-8', 'auto');\n\n// Concatenate the strings\n$concatenated_string = $str . $utf8_string_from_database;\n\necho $concatenated_string;

@@ -1,1 +1,0 @@
-Control c = new TextBox();\nSystem.Drawing.Bitmap bmp = new System.Drawing.Bitmap(c.Width, c.Height);\nc.DrawToBitmap(bmp, c.ClientRectangle);

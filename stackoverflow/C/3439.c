@@ -1,1 +1,0 @@
-CustomApi.dll|void NameOfFunction(long param1, double& param2);

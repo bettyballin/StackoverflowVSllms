@@ -1,0 +1,1 @@
+public interface IVisibilityStrategy\n{\n    void ApplyVisibility(Control a, Control b, Control c, Control d, Control e);\n}

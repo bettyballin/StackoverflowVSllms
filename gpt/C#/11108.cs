@@ -1,0 +1,1 @@
+XmlNode xmlNode = xmlDocument.SelectSingleNode("//artist | //author");

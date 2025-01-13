@@ -1,1 +1,0 @@
-using (SqlConnection cn = new SqlConnection(connectionString))\n{   \n    SqlCommand cm = new SqlCommand(commandString, cn)\n    cn.Open();\n    cm.ExecuteNonQuery();       \n}

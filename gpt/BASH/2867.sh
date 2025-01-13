@@ -1,0 +1,1 @@
+InstallUtil.exe /i YourServiceExecutable.exe

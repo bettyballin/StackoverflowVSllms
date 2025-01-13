@@ -1,0 +1,1 @@
+$logfile = 'sql_log.txt';\n   file_put_contents($logfile, $sql . "\n", FILE_APPEND);

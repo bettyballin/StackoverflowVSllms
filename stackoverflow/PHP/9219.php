@@ -1,1 +1,0 @@
-function today($day) 

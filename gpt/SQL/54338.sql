@@ -1,0 +1,1 @@
+SELECT \n    menu_id,\n    menu_name,\n    CONNECT_BY_ISLEAF AS is_leaf,\n    LEVEL,\n    CASE \n        WHEN CONNECT_BY_ISLEAF = 0 THEN '>'\n        ELSE ''\n    END AS display_symbol\nFROM \n    menu_table\nWHERE \n    active = 1\nSTART WITH \n    parent_id IS NULL\nCONNECT BY \n    PRIOR menu_id = parent_id\nORDER SIBLINGS BY \n    menu_name;

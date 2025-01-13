@@ -1,1 +1,0 @@
-joined = '\x01'.join(data) 

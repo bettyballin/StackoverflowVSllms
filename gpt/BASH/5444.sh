@@ -1,0 +1,1 @@
+cruise add project_name

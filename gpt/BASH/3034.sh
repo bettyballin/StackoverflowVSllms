@@ -1,0 +1,1 @@
+pg_ctl start -D /path_to_data_directory

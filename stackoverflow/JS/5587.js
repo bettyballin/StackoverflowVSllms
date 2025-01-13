@@ -1,1 +1,0 @@
-var interval = setInterval(function() {\n    // update whatever you want\n}, 1000);\n$('#id').load('mypage.php', function() {\n   clearInterval(interval);\n});

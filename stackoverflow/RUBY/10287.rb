@@ -1,1 +1,0 @@
-<%= link_to 'log out', session_path, :method => :delete %>

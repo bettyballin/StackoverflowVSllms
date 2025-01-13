@@ -1,0 +1,1 @@
+sc create MyAppService binPath= "C:\srvany\srvany.exe"

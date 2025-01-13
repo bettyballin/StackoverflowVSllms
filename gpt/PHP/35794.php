@@ -1,0 +1,1 @@
+$collator = collator_create('fr_FR');\n     $array = ['éclair', 'apple', 'banana'];\n     collator_sort($collator, $array);

@@ -1,1 +1,0 @@
-return level4 != null ? GetResources().Where(r => (r.Level2 == (int)level2) && (r.Level3 == (int)level3) && (r.Level4 == (int)level4)).ToList() : level3 != null ? GetResources().Where(r => (r.Level2 == (int)level2) && (r.Level3 == (int)level3)).ToList() : level2 != null ? GetResources().Where(r => (r.Level2 == (int)level2)).ToList() : GetAllResourceList();

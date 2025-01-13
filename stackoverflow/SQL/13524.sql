@@ -1,1 +1,0 @@
-WITH q AS (\n          SELECT Company.*,\n                 ROW_NUMBER() OVER (PARTITION BY CompanyState, CompanyCity, CompanyName ORDER BY CompanyID) AS rnName,\n                 ROW_NUMBER() OVER (PARTITION BY CompanyState, CompanyCity, CompanyAddress ORDER BY CompanyID) AS rnAddress\n          FROM Company\n          )\nSELECT    *\nWHERE     rnName > 1 OR rnAddress > 1

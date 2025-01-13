@@ -1,0 +1,1 @@
+<?php\n// In your include file\n$currentFileName = basename(__FILE__);\necho "The name of the current include file is: " . $currentFileName;\n?>

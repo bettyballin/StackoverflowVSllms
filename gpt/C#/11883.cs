@@ -1,0 +1,1 @@
+RuleEngine engine = new RuleEngine();\n   engine.LoadRules("path/to/rules.xml");\n   IList<RuleResult> results = engine.Evaluate(myObject);

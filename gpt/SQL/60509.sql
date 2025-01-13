@@ -1,0 +1,1 @@
+-- Low-priority query example\nSELECT * FROM YourTable\nOPTION (MAXDOP 1);\n\n-- High-priority query example\nSELECT * FROM YourTable\nOPTION (MAXDOP 8);

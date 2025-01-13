@@ -1,0 +1,1 @@
+using System;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        MyServiceClient client = new MyServiceClient();\n        // Call the web service method and get the feedback\n        string feedback = client.MyServiceMethod();\n        // Display the feedback in the client console\n        Console.WriteLine(feedback);\n    }\n}

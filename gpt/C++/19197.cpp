@@ -1,0 +1,1 @@
+boost::asio::ip::tcp::no_delay option(true);\n     socket.set_option(option);

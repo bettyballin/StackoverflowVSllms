@@ -1,1 +1,0 @@
-var qry = from product in dc.Products where Product.Name=='Foobar' select product;\nvar item = qry.Single();\nitem.Count = 0;\ndc.SubmitChanges();

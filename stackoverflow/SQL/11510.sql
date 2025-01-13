@@ -1,1 +1,0 @@
-create table mytable_copy as select * from mytable;\nupdate mytable_copy set id=new_id;\ninsert into mytable select * from mytable_copy;\ndrop table mytable_copy;

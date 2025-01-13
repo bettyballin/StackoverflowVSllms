@@ -1,1 +1,0 @@
-switch ($_SERVER['HTTP_HOST']) {\n    case 'developement.domain.com':\n        $api_key = "dev environment api key";\n        break;\n    default:\n        $api_key = "live environment api key";\n}

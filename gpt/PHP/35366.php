@@ -1,0 +1,1 @@
+class Person {\n       private $name;\n\n       public function __construct($name) {\n           $this->name = $name;\n       }\n\n       public function getName() {\n           return $this->name;\n       }\n   }\n\n   $person = new Person("John");\n   echo $person->getName(); // Outputs: Joh

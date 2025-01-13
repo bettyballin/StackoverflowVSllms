@@ -1,0 +1,1 @@
+$this->form_validation->set_rules('email', 'Email', 'required|valid_email|callback_email_check');

@@ -1,0 +1,1 @@
+// Example of a single call to mail_queue->put\n$mail_queue = new Mail_Queue($db_options, $mail_options);\n$mail_result = $mail_queue->put(\n    $from,\n    $recipient,\n    $headers,\n    $body\n);

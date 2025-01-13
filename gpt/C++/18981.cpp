@@ -1,0 +1,1 @@
+STDAPI DllRegisterServer(void) {\n        // Code to register the OCX\n        return S_OK;\n    }

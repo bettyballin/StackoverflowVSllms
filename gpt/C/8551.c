@@ -1,0 +1,1 @@
+__asm__ __volatile__ (\n    "mov %0, %%ebx\n"    // Restore the correct GOT base address\n    :\n    : "r"(correct_ebx_value)\n    : "%ebx"\n);

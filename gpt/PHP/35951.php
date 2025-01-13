@@ -1,0 +1,1 @@
+function hex_dump($string) {\n    $hex = bin2hex($string);\n    $result = '';\n    for ($i = 0; $i < strlen($hex); $i += 2) {\n        $result .= substr($hex, $i, 2) . ' ';\n    }\n    return strtoupper($result);\n}\n\n$string = "Your string here";\necho hex_dump($string);

@@ -1,0 +1,1 @@
+SELECT u.*, i.*, e.* \nFROM users u\nINNER JOIN images i ON i.imageid = u.imageid\nINNER JOIN events e ON e.userid = u.userid;

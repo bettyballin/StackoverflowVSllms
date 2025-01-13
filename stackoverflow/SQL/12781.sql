@@ -1,1 +1,0 @@
-SELECT  uo.*, \n        (\n        SELECT  COUNT(*)\n        FROM    users ui\n        WHERE   (ui.points, ui.id) >= (uo.points, uo.id)\n        ) AS rank\nFROM    users uo\nWHERE   id = @id

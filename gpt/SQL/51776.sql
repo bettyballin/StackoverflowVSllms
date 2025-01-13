@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM v$process;\n     SELECT COUNT(*) FROM v$session;

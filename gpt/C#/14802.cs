@@ -1,0 +1,1 @@
+ultraCombo.DropDownStyle = Infragistics.Win.UltraWinGrid.UltraComboStyle.DropDownList;

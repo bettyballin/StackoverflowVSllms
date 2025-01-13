@@ -1,0 +1,1 @@
+const element = document.querySelector('div');\nconst rect = element.getBoundingClientRect();\nconst width = rect.width;\nconst height = rect.height;\n\nconsole.log(`Width: ${width}, Height: ${height}`);

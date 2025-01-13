@@ -1,0 +1,1 @@
+<!-- app/views/your_models/_form.html.erb -->\n<%= form_with(model: @your_model, url: your_model_path(@your_model), local: true) do |form| %>\n  <%= form.hidden_field :step, value: 'step1' %>\n\n  <!-- Step 1 fields -->\n  <%= form.text_field :field1 %>\n  \n  <%= form.submit "Next" %>\n<% end %>

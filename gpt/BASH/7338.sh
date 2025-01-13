@@ -1,0 +1,1 @@
+del C:\path\to\your\file.zip

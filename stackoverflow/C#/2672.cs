@@ -1,1 +1,0 @@
-string[] files = directory.GetFiles(@"c:\windows\system32", "*.dll", SearchOption.AllDirectories);\n\nreturn files.Length;

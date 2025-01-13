@@ -1,1 +1,0 @@
-public static bool validateIsMoreThanOneWord(string input, int numberWords)\n{\n    if (string.IsNullOrEmpty(input)) return false;\n\n    return ( input.Split(new char[] {' '}, StringSplitOptions.RemoveEmptyEntries).Length >= numberWords);    \n}

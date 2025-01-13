@@ -1,0 +1,1 @@
+import glob\nimport os\n\n# Use glob to get the list of files\nfiles = glob.glob("path/to/your/files/*")\n\n# Sort files by last modified time\nsorted_files = sorted(files, key=os.path.getmtime, reverse=True)\n\n# Print sorted files\nfor file in sorted_files:\n    print(file)

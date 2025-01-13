@@ -1,0 +1,1 @@
+all:\n    gcc -o myprogram main.c

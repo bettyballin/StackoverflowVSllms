@@ -1,0 +1,1 @@
+CREATE TEMP TABLE _results (group_ser INT, item_ser INT, restype CHAR(4));\n\nINSERT INTO _results (group_ser, item_ser, restype)\nSELECT \n      group_ser, item_ser, NULL\nFROM\n      sometable;

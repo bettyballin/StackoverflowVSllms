@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE get_employees (emp_cursor OUT SYS_REFCURSOR) AS\n   BEGIN\n       OPEN emp_cursor FOR SELECT * FROM employees;\n   END;

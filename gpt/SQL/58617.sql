@@ -1,0 +1,1 @@
+DELIMITER //\n    CREATE PROCEDURE GetUserById(IN user_id INT)\n    BEGIN\n        SELECT * FROM users WHERE id = user_id;\n    END //\n    DELIMITER ;

@@ -1,0 +1,1 @@
+WITH CommonColumns AS (\n    SELECT columnA, columnB, columnC\n    FROM Data\n)\nSELECT columnA, columnB, columnC\nFROM CommonColumns;\n\nWITH CommonColumns AS (\n    SELECT columnA, columnB, columnC\n    FROM DataArchive\n)\nSELECT columnA, columnB, columnC\nFROM CommonColumns;

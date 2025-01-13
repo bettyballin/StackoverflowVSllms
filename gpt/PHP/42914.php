@@ -1,0 +1,1 @@
+class MyForm extends Zend_Form {\n    public function init() {\n        // Your form elements setup goes here\n\n        // Apply the stripslashes filter to all elements\n        $this->setElementFilters(array(new Lib_Filters_Stripslashes()));\n    }\n}

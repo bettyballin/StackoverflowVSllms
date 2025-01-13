@@ -1,0 +1,1 @@
+CREATE PROCEDURE YourStoredProcedure\n       @param1 NVARCHAR(50),\n       @param2 DATETIME,\n       @param3 DATETIME,\n       @param4 INT,\n       @param5 INT = NULL,\n       @param6 INT = NULL,\n       @param7 NVARCHAR(50) = NULL,\n       @param8 INT = NULL,\n       @param9 NVARCHAR(50) = NULL\n   AS\n   BEGIN\n       SET NOCOUNT ON;\n       -- Your query logic here\n   END

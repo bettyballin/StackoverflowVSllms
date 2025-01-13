@@ -1,0 +1,1 @@
+SELECT u.*, ua.value AS custom_value, a.name AS attribute_name\nFROM users u\nLEFT JOIN user_attributes ua ON u.id = ua.user_id\nLEFT JOIN attributes a ON ua.attribute_id = a.id\nWHERE u.id = 1;

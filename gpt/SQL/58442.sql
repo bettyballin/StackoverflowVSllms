@@ -1,0 +1,1 @@
+INSERT INTO my_table (uuid, column1, column2, last_synced)\nSELECT ?, ?, ?, CURRENT_TIMESTAMP\nWHERE NOT EXISTS (SELECT 1 FROM my_table WHERE uuid = ?);

@@ -1,1 +1,0 @@
-MyDerivedClass mdc = new MyDerivedClass();\nMyClass mc = new MyClass();\nObject omdc = mdc;\nObject omc = mc;\n\n// mc.Equals(mdc) - true\n// mdc.Equals(mc) - true by calling the right overload\n// omc.Equals(omdc) - true\n// omdc.Equals(omc) - false, the "as" in MyDerivedClass will result in null

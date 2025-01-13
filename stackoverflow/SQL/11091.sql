@@ -1,1 +1,0 @@
-select owner, sum(num_dogs), sum(num_cats) from\n  (select owner, 1 as num_dogs, 0 as num_cats from dogs\n   union all\n   select owner, 0 as num_dogs, 1 as num_cats from cats) as g\n group by owner

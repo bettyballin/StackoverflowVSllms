@@ -1,1 +1,0 @@
-Dim myTxt as TextBox = CType(Page.PreviousPage.FindControl("previousPageTextBox"), TextBox)\ncurrentPageTextBox.text = myTxt.Text

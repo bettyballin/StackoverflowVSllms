@@ -1,0 +1,1 @@
+public ActionResult AddRecord(MyModel newRecord)\n{\n    // Add the new record to the database\n    _context.MyModels.Add(newRecord);\n    _context.SaveChanges();\n\n    // Return the new record to update the grid\n    return PartialView("_GridRow", newRecord);\n}

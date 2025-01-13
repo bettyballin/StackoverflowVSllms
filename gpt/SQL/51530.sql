@@ -1,0 +1,1 @@
+create type mytable$t as table of number;\n/\n\ndeclare \n    mytmou  mytable$t := myTable$T();\n    cnt pls_integer;\nbegin\n    mytmou := myTable$T(1,2,3,4,5,6);\n\n    SELECT count(COLUMN_VALUE) into cnt FROM TABLE(mytmou);\n\n    dbms_output.put_line(cnt);\nend;\n/

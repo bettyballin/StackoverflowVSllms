@@ -1,0 +1,1 @@
+IQuery query = session.CreateQuery("from YourEntity");\nquery.SetMaxResults(15);\nIList<YourEntity> result = query.List<YourEntity>();

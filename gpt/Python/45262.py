@@ -1,0 +1,1 @@
+import random\n\ndef generate_pins(num_users):\n    pin_set = set()\n    while len(pin_set) < num_users:\n        pin = '{:06d}'.format(random.randint(0, 999999))\n        pin_set.add(pin)\n    return list(pin_set)\n\n# Example usage\nmax_users = 100000\npins = generate_pins(max_users)\n\n# Print first 10 pins to verify\nprint(pins[:10])

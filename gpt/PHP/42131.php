@@ -1,0 +1,1 @@
+<?php\n    /*\n    Template Name: Front Page\n    */\n    ?>

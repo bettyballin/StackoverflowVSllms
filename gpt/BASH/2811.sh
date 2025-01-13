@@ -1,0 +1,1 @@
+svn checkout http://your-svn-server/repository/ProjectName C:\WorkingCopy\ProjectName

@@ -1,1 +1,0 @@
-<?\n    $f = 'f:/www/docs';\n    $obj = new COM ( 'scripting.filesystemobject' );\n    if ( is_object ( $obj ) )\n    {\n        $ref = $obj->getfolder ( $f );\n        echo 'Directory: ' . $f . ' => Size: ' . $ref->size;\n        $obj = null;\n    }\n    else\n    {\n        echo 'can not create object';\n    }\n?>

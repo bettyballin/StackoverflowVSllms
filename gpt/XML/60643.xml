@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>org.reflections</groupId>\n    <artifactId>reflections</artifactId>\n    <version>0.9.12</version>\n</dependency>

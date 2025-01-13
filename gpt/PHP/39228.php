@@ -1,0 +1,1 @@
+$word = 'Goooogle';\n$word2 = preg_replace('/(\w)\1+/', '$1', $word);\necho $word2; // Outputs: Gogle

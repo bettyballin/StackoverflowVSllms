@@ -1,1 +1,0 @@
-CREATE VIEW PetsView AS\nSELECT * FROM Pets\nUNION\nSELECT * FROM PetOtherNames

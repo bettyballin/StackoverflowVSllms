@@ -1,0 +1,1 @@
+#!/bin/sh\n\n# Define placeholder values\nPLACEHOLDER_1='string 1'\nPLACEHOLDER_2='multiline\nstring\n2'\n\n# Export the variables so that envsubst can use them\nexport PLACEHOLDER_1 PLACEHOLDER_2\n\n# Use envsubst to replace placeholders in the template file and write to output.txt\nenvsubst < output.template > output.txt

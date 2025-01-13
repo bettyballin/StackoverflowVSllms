@@ -1,0 +1,1 @@
+SELECT deptno,\n       Clob_Concat_Connect_By(deptno) AS comma_list\nFROM wd_dept;

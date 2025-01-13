@@ -1,0 +1,1 @@
+cp new_version.war /path/to/wildfly/standalone/deployments/yourapp.war

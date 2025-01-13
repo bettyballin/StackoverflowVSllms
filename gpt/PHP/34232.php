@@ -1,0 +1,1 @@
+if (isset($_GET['name'])) {\n       $magazineName = urldecode($_GET['name']);\n       echo htmlspecialchars($magazineName);\n   }

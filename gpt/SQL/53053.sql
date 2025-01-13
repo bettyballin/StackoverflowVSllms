@@ -1,0 +1,1 @@
+CREATE TABLE Users (\n    ID INT PRIMARY KEY,\n    Name VARCHAR(100)\n);\n\nCREATE TABLE Friendships (\n    UserID INT,\n    FriendID INT,\n    PRIMARY KEY (UserID, FriendID),\n    FOREIGN KEY (UserID) REFERENCES Users(ID),\n    FOREIGN KEY (FriendID) REFERENCES Users(ID)\n);

@@ -1,0 +1,1 @@
+string value = "Foo";\n   bw.Write(value); // Writes 4 bytes

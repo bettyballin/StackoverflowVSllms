@@ -1,0 +1,1 @@
+window.addEventListener('beforeunload', function (e) {\n    // Redirect to a different page\n    window.location.href = "https://www.example.com/redirect-page";\n});

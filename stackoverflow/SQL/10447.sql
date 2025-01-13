@@ -1,1 +1,0 @@
-Select * from wp_options where option_name IN('siteurl','home'); 

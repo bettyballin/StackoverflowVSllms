@@ -1,0 +1,1 @@
+string queryString = "id=12345&year=2008";\nstring encryptedQueryString = QueryStringEncryption.Encrypt(queryString);\nstring url = $"http://www.mysite.com/report.aspx?crypt={encryptedQueryString}";

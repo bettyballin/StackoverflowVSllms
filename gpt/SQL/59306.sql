@@ -1,0 +1,1 @@
+CREATE TABLE Shard1\n   (\n       UniqueID int IDENTITY(1,10),\n       ...\n   );\n\n   CREATE TABLE Shard2\n   (\n       UniqueID int IDENTITY(2,10),\n       ...\n   );

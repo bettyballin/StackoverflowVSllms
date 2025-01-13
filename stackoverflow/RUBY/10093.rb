@@ -1,1 +1,0 @@
-'/%(?:(?<swap_position>[0-9]+)\$)?(?<sign>-|\+)?(?<padding>\'.|0|[[:space:]])?(?<alignment>-?)(?<width>[0-9]+)?(?:\.(?<precision>[0-9]+))?(?<type>[%bcdeufFosxX])?/m';

@@ -1,0 +1,1 @@
+<?php\nheader('Content-Type: application/json');\n\n// Example: Reading events from a JSON file\n$events = file_get_contents('events.json');\n\n// Output the events\necho $events;\n?>

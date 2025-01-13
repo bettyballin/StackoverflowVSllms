@@ -1,1 +1,0 @@
-SELECT headline FROM headlines WHERE category_id IN (1, 2, 3, ...);

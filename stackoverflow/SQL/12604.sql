@@ -1,1 +1,0 @@
-update places set address1 = places2.address1 \nfrom places inner join places places2 ON places.placename = places2.placename \nwhere (places2.address1 <> '' AND places2.address1 is not null)

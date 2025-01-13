@@ -1,0 +1,1 @@
+if (isset($_GET['variableNameX'])) {\n    $var_to_use_in_app = htmlspecialchars(trim($_GET['variableNameX']), ENT_QUOTES, 'UTF-8');\n}

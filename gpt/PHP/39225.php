@@ -1,0 +1,1 @@
+<?php\n$text = "hello world";\necho strtoupper($text);\n?>

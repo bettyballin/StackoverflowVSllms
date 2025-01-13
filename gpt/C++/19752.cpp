@@ -1,0 +1,1 @@
+void MyFunc(int, FILEINFO*(BigClass::*)(FILEINFO*), BigClass*, FILEINFO*, int);

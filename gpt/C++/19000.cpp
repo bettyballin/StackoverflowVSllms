@@ -1,0 +1,1 @@
+// BaseClass.h\nclass BaseClass {\npublic:\n    virtual void doSomething() = 0;\n    virtual ~BaseClass() = default;\n};\n\n// DerivedClass.h\n#include "BaseClass.h"\n\nextern "C" __declspec(dllexport) BaseClass* createDerivedClass();

@@ -1,0 +1,1 @@
+-- Using SELECT *\nSELECT * FROM MyTable;\n\n-- Specifying each column explicitly\nSELECT ColA, ColB, ColC FROM MyTable;

@@ -1,0 +1,1 @@
+msinfo32 /report system_info.txt

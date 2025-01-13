@@ -1,1 +1,0 @@
-function myFunc(array $args) {\n    echo "Hi, " . $args['name'];\n    // etc\n}

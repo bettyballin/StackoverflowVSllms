@@ -1,1 +1,0 @@
-return Json(new {html_value = retVal});

@@ -1,0 +1,1 @@
+<?php\n$input = "Is this thing on??? or what???";\n$output = preg_replace('/\?+/', '?', $input);\necho $output; // Output: Is this thing on? or what?\n?>

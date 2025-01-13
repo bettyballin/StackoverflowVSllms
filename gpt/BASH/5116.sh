@@ -1,0 +1,1 @@
+gcc -fno-toplevel-reorder -shared -o libmylib.so mylib.o

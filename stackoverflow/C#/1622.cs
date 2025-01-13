@@ -1,1 +1,0 @@
-class Product\n{\n  string LocalizedName \n  { \n    get { return AllProductNames[Thread.CurrentThread.CurrentCulture.LCID]; }\n  }\n\n  IDictionary<int, string> AllProductNames { get; private set; }\n}

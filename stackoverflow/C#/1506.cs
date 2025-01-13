@@ -1,1 +1,0 @@
-namespace MyProgram //same as the rest of your project\n{\n\n    public class ProblemReport\n    {\n    }\n\n}

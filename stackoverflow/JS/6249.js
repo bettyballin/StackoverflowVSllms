@@ -1,1 +1,0 @@
-$(document).ready(function () {\n  // Function is called when the DOM is loaded.\n});

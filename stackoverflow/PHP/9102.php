@@ -1,1 +1,0 @@
-$result = mysql_query('SELECT views FROM post WHERE ID=30')

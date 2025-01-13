@@ -1,0 +1,1 @@
+.headerTable tr.even {\n    font-weight: bold;\n    font-size: 9pt;\n    font-family: Arial, Helvetica, sans-serif, Verdana, Geneva;\n    background-color: #FFFFFF;\n    height: 20px;\n    color: #000000;\n}\n\n.headerTable tr.odd {\n    background-color: #F0F0F0; /* Example style for odd rows */\n    /* Add other styles for odd rows if needed */\n}

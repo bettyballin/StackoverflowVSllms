@@ -1,1 +1,0 @@
-var count=30;\n\nvar counter=setInterval(timer, 1000); //1000 will  run it every 1 second\n\nfunction timer()\n{\n  count=count-1;\n  if (count <= 0)\n  {\n     clearInterval(counter);\n     //counter ended, do something here\n     return;\n  }\n\n  //Do code for showing the number of seconds here\n}

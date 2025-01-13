@@ -1,0 +1,1 @@
+-- Original query\nSELECT * FROM users WHERE id = 1;\n\n-- Injected query without single quotes\nSELECT * FROM users WHERE id = 1 OR 1=1;

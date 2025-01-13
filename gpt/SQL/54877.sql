@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n    -- Perform some operations\n    IF (@SomeErrorCondition)\n    BEGIN\n        ROLLBACK TRANSACTION;\n        RETURN;\n    END\n    -- Continue with other operations\n    COMMIT TRANSACTION;

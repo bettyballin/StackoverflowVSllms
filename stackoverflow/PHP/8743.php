@@ -1,1 +1,0 @@
-$message->setTextEncoding(new EightBitEncoding());\n$message->setHTMLEncoding(new EightBitEncoding());

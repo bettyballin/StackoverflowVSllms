@@ -1,1 +1,0 @@
-$t = new Domling('<p class="hello"></p>'); \n$t->capture('hello')->bind("Hello World"); \necho $t->render();

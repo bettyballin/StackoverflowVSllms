@@ -1,1 +1,0 @@
-UPDATE table SET field = REPLACE(field,'/files/','/sites/default/files/');

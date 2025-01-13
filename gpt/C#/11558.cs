@@ -1,0 +1,1 @@
+public class Category\n    {\n        public int Id { get; set; }\n        public string Name { get; set; }\n        public int? ParentId { get; set; }\n        public virtual Category Parent { get; set; }\n        public virtual ICollection<Category> Children { get; set; }\n    }

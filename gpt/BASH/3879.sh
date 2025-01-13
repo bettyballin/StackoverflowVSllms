@@ -1,0 +1,1 @@
+sudo mkdir -p /tmpUpload\nsudo chmod 777 /tmpUpload

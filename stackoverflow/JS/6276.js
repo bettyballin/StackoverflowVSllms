@@ -1,1 +1,0 @@
-var space = document.createElement('div');\nspace.style.height = "150px";\nspace.style.clear = "both";\ndocument.getElementsByTagName("body")[0].appendChild(space);

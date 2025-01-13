@@ -1,0 +1,1 @@
+def add(x, y):\n    return x + y\n\nprint(add(2, 3))  # Output: 5

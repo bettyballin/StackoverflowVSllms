@@ -1,0 +1,1 @@
+$cipher = "aes-256-cbc";\n   $key = openssl_random_pseudo_bytes(32);\n   $iv = openssl_random_pseudo_bytes(openssl_cipher_iv_length($cipher));\n   $encryptedData = openssl_encrypt($data, $cipher, $key, 0, $iv);

@@ -1,0 +1,1 @@
+// Example of adding a contact\n$user = $this->Users->get($userId);\n$contact = $this->Users->get($contactId);\n$user->contacts = [$contact];\n$this->Users->save($user);

@@ -1,0 +1,1 @@
+sudo apt-get install php-gd\nsudo service apache2 restart   # or restart your web server

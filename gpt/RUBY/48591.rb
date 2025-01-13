@@ -1,0 +1,1 @@
+class QuestionsController < ApplicationController\n  def update_position\n    @question = Question.find(params[:id])\n    @question.section_id = params[:section_id] if params[:section_id]\n    @question.position = params[:position]\n    \n    if @question.save\n      head :ok\n    else\n      head :unprocessable_entity\n    end\n  end\nend

@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <staticContent>\n      <clientCache cacheControlMode="UseMaxAge" cacheControlMaxAge="0.00:00:30" />\n    </staticContent>\n  </system.webServer>\n</configuration>

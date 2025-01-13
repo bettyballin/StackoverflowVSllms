@@ -1,0 +1,1 @@
+#include <vector>\n#include <algorithm>\n\ntemplate <typename T>\nbool is_sorted(const std::vector<T>& v) {\n    return std::is_sorted(v.begin(), v.end());\n}

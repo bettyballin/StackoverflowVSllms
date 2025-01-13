@@ -1,0 +1,1 @@
+Public Class IoCContainerHelper\n       Public Shared ReadOnly Property Container() As IWindsorContainer\n           Get\n               Return DirectCast(System.Web.HttpContext.Current.Application("Container"), IWindsorContainer)\n           End Get\n       End Property\n   End Class

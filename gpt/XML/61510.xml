@@ -1,0 +1,1 @@
+<!-- Example of encrypting connection strings in web.config -->\n<configuration>\n  <connectionStrings configProtectionProvider="DataProtectionConfigurationProvider">\n    <EncryptedData>\n      <CipherData>\n        <CipherValue>...</CipherValue>\n      </CipherData>\n    </EncryptedData>\n  </connectionStrings>\n</configuration>

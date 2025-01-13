@@ -1,0 +1,1 @@
+HttpCookie sessionCookie = new HttpCookie("ASP.NET_SessionId", sessionId)\n{\n    Secure = true, // Ensures the cookie is sent over HTTPS\n    HttpOnly = true // Prevents JavaScript access to the cookie\n};\nResponse.Cookies.Add(sessionCookie);

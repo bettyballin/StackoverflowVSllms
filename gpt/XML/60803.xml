@@ -1,0 +1,1 @@
+<employee id="emp1">\n         <name>John Doe</name>\n     </employee>\n     <department id="dept1">\n         <name>HR</name>\n         <manager refid="emp1"/>\n     </department>

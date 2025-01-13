@@ -1,0 +1,1 @@
+queryset = Portfolio.nonempty.all()

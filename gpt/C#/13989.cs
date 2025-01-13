@@ -1,0 +1,1 @@
+public class MyViewEntity\n{\n    public virtual int Id { get; set; }\n    public virtual string SomeColumn { get; set; }\n    // Add other properties that correspond to the columns in your view\n}

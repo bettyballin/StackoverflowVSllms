@@ -1,1 +1,0 @@
-ActionController::Base.session_options_for(request,params[:action])[:secret]

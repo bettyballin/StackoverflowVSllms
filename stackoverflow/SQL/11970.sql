@@ -1,1 +1,0 @@
-/* If the user performing the action did not create the Item in question, \n    return a code other than 0. */\nIF NOT EXISTS\n    (\n    SELECT 1\n    FROM Items\n    WHERE IdNmb = @ItemIdNmb\n        AND LoginIdNmb = @UpdateLoginIdNmb\n    )\n    RETURN 1

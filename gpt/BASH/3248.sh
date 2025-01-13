@@ -1,0 +1,1 @@
+svn checkout <repository_url> <local_working_copy_directory>

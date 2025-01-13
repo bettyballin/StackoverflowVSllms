@@ -1,0 +1,1 @@
+rc-service mariadb start

@@ -1,1 +1,0 @@
-sed 's/.*\(searchstring\).*/___\1___/'

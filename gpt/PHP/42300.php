@@ -1,0 +1,1 @@
+class Some_controller extends CI_Controller {\n\n    public function some_method() {\n        // Load the model\n        $this->load->model('model_name');\n\n        // Set the parameter\n        $this->model_name->set_param('some_value');\n\n        // Now you can use $this->model_name with the parameter set\n    }\n}

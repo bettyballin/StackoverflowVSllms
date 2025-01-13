@@ -1,0 +1,1 @@
+UPDATE YourTable\nSET YourRandomField = LEFT(NEWID(), 10)

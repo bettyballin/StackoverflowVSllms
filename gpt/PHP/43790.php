@@ -1,0 +1,1 @@
+<?php\n   $statement = $pdo->prepare("SELECT * FROM users WHERE email = :email");\n   ?>

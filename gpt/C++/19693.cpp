@@ -1,0 +1,1 @@
+void do_something() noexcept {\n    // Implementation that guarantees no exceptions\n}\n\nvoid potentially_throwing_function() {\n    // Implementation that might throw exceptions\n}\n\nvoid caller_function() noexcept {\n    do_something(); // Safe to call here as it is noexcept\n    potentially_throwing_function(); // This should be avoided or handled separately\n}

@@ -1,0 +1,1 @@
+// Page1.php\n    $var = 'Hello, World!';

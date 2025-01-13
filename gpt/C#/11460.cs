@@ -1,0 +1,1 @@
+var customers = connection.Query<Customer>("SELECT * FROM Customers WHERE City = @City", new { City = "London" });\n\n   foreach (var cust in customers)\n   {\n       Console.WriteLine("id = {0}, City = {1}", cust.CustomerID, cust.City);\n   }

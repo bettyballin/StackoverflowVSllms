@@ -1,1 +1,0 @@
-field.InitExpression = new CodePrimitiveExpression(HugeString);

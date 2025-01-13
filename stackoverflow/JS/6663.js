@@ -1,1 +1,0 @@
-Date.format = 'dd mmm yyyy';\nalert(Date.fromString("26 Jun 2009"));\n\nDate.format = 'mmm dd yyyy';\nalert(Date.fromString("Jun 26 2009"));\n\nDate.format = 'dd/mm/yy';\nalert(Date.fromString("26/06/09"));\n\nDate.format = 'mm/dd/yy';\nalert(Date.fromString("06/26/09"));\n\nDate.format = 'yyyy-mm-dd';\nalert(Date.fromString("2009-06-26"));

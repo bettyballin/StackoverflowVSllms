@@ -1,0 +1,1 @@
+sudo apt-get install libperl5.10\n   sudo apt-get install libcompress-raw-zlib-perl

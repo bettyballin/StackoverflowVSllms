@@ -1,1 +1,0 @@
-SELECT column FROM table\nORDER BY RAND()\nLIMIT 1

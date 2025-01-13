@@ -1,0 +1,1 @@
+./manage_process.sh

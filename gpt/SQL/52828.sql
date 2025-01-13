@@ -1,0 +1,1 @@
+-- Check compatibility level\n    SELECT compatibility_level\n    FROM sys.databases\n    WHERE name = 'YourDatabaseName';\n\n    -- Set compatibility level to SQL Server 2005 (90)\n    ALTER DATABASE YourDatabaseName\n    SET COMPATIBILITY_LEVEL = 90;

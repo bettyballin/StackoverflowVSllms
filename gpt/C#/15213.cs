@@ -1,0 +1,1 @@
+using System;\n\nclass Program\n{\n    static void Main()\n    {\n        string tempPath = System.IO.Path.GetTempPath();\n        Console.WriteLine("Temporary Files Directory: " + tempPath);\n    }\n}

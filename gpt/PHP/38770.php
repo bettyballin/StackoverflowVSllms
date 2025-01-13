@@ -1,0 +1,1 @@
+<?php\n// Simulating a database query and processing\n$result = "This is the content from the database.";\n\n// Output the result\necho $result;\n?>

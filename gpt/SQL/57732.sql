@@ -1,0 +1,1 @@
+SHOW STATUS LIKE 'Threads_connected';\n   SHOW FULL PROCESSLIST;

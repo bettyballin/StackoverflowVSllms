@@ -1,0 +1,1 @@
+# Register 32-bit component\n    C:\Windows\SysWOW64\regsvr32.exe path\to\32bit.dll\n\n    # Register 64-bit component\n    C:\Windows\System32\regsvr32.exe path\to\64bit.dll

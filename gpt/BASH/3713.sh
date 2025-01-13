@@ -1,0 +1,1 @@
+export CFLAGS="-I/opt/gnu/include"\n    export LDFLAGS="-L/opt/gnu/lib"\n    make

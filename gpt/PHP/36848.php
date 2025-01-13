@@ -1,0 +1,1 @@
+if ($deletion_successful) {\n    echo 'result=true';\n} else {\n    echo 'result=false';\n}

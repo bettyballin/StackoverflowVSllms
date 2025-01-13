@@ -1,1 +1,0 @@
-foreach ($columns->getChildren() as $label) echo $label->Name;

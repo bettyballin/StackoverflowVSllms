@@ -1,0 +1,1 @@
+private void Form1_Load(object sender, EventArgs e)\n{\n    // Assuming the first column is your DataGridViewImageColumn\n    dataGridView1.Columns[0].DefaultCellStyle.NullValue = null;\n    \n    // Add a new row to the DataGridView\n    dataGridView1.Rows.Add();\n}

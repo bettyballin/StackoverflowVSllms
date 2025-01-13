@@ -1,1 +1,0 @@
-INSERT INTO TableNew\nSELECT * FROM TableOld\nWHERE [Conditions]

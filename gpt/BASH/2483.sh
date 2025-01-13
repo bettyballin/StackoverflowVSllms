@@ -1,0 +1,1 @@
+svnsync init file:///path/to/mirror-repo https://url/to/master-repo

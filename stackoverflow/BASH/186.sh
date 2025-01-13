@@ -1,1 +1,0 @@
->$ echo "select count(predicate),subject from TableA group by subject"  | mysql -u yourusername -p yourdatabasename > ~/XYZ/outputfile.txt

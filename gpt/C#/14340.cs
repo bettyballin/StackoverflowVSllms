@@ -1,0 +1,1 @@
+using System.Xml;\n\n   // Load XML from file\n   XmlDocument xmlDoc = new XmlDocument();\n   xmlDoc.Load("path_to_your_file.xml");\n\n   // Parse XML\n   XmlNode root = xmlDoc.DocumentElement;\n   foreach (XmlNode node in root.ChildNodes) {\n       // Do something with node\n   }

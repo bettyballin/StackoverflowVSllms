@@ -1,0 +1,1 @@
+chmod +x /path/to/repo/hooks/post-commit

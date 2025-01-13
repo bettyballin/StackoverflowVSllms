@@ -1,0 +1,1 @@
+openssl genpkey -algorithm RSA -out ca-key.pem\n    openssl req -x509 -new -nodes -key ca-key.pem -sha256 -days 3650 -out ca-cert.pem -subj "/C=US/ST=State/L=City/O=Organization/OU=OrgUnit/CN=example.com"

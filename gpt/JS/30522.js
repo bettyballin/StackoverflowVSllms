@@ -1,0 +1,1 @@
+(function() {\n  let headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');\n  let result = '';\n  headings.forEach(function(heading) {\n    result += heading.textContent + '\n';\n  });\n  alert(result);\n})();

@@ -1,0 +1,1 @@
+LEFT JOIN weblog_data AS pwd\n  ON (pwd.field_id_41 != '' \n  AND (\n       pwd.field_id_41 = ewd.field_id_32 \n       OR (NOT EXISTS (\n           SELECT 1 FROM weblog_data AS inner_pwd \n           WHERE inner_pwd.field_id_41 != '' \n           AND inner_pwd.field_id_41 = ewd.field_id_32\n       ) AND pwd.field_id_41 LIKE CONCAT('%', ewd.field_id_32, '%'))\n  ))

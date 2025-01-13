@@ -1,0 +1,1 @@
+// Listen for the message from the iframe\nwindow.addEventListener('message', function(event) {\n    // Ensure the message comes from the expected domain\n    // if (event.origin !== 'https://expected-domain.com') return;\n\n    var iframe = document.getElementById('myIframe');\n    iframe.style.height = event.data + 'px';\n}, false);

@@ -1,0 +1,1 @@
+import random\n\ndef generate_passphrase(num_words=4):\n    with open('wordlist.txt') as f:\n        words = f.read().splitlines()\n    passphrase = ' '.join(random.choice(words) for i in range(num_words))\n    return passphrase\n\n# Ensure you have a good wordlist.txt file\nprint(generate_passphrase())

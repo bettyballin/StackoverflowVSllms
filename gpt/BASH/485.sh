@@ -1,0 +1,1 @@
+# Example of running a process with seccomp\ndocker run --security-opt seccomp=/path/to/seccomp-profile.json your-container-image

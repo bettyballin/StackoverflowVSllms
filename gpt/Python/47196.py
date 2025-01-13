@@ -1,0 +1,1 @@
+import gtk.glade\n\nclass MyApp:\n    def __init__(self):\n        self.load_window("login")\n\n    def load_window(self, window_name):\n        glade_file_path = f"glade_files/window_{window_name}.glade"\n        self.wTree = gtk.glade.XML(glade_file_path)\n        # Additional setup for the loaded window/dialog\n\n# Instantiate the application\napp = MyApp()\ngtk.main()

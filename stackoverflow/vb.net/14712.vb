@@ -1,1 +1,0 @@
-For i As Integer = 0 To GridView1.Rows.Count - 1\n\n        Dim ddl As DropDownList = GridView1.Rows(i).FindControl("ddlmgr")\n        Dim deptvalue As String = GridView1.Rows(i).Cells(0).Text\n\n        ddl.Attributes.Add("onchange", "setDepart('" & deptvalue & "')")\n    Next

@@ -1,1 +1,0 @@
-ssh -t xxx.xxx.xxx.xxx "cd /directory_wanted ; bash --login"

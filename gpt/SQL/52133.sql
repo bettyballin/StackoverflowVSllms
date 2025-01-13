@@ -1,0 +1,1 @@
+CREATE VIEW dbo.aspnet_Users AS\nSELECT \n    UserID AS UserId, \n    UserName AS UserName, \n    -- Map other columns as necessary\nFROM \n    dbo.Users;

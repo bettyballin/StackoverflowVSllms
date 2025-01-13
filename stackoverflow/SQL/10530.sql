@@ -1,1 +1,0 @@
-declare @d datetime\nselect @d =  '2008-12-1 14:30:12'\n\nwhere tstamp >= dateadd(dd, datediff(dd, 0, @d)+0, 0)\nand tstamp < dateadd(dd, datediff(dd, 0, @d)+1, 0)

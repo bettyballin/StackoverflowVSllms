@@ -1,0 +1,1 @@
+# Checkout a repository\nsvn checkout http://your.svn.server/repo/path\n\n# Revert changes in a specific file\nsvn revert /path/to/your/file\n\n# Update your working copy\nsvn update /path/to/working/copy

@@ -1,0 +1,1 @@
+CREATE TABLE DimRoleType (\n        RoleTypeID INT PRIMARY KEY,\n        RoleTypeName NVARCHAR(50)\n    );

@@ -1,0 +1,1 @@
+@Html.ActionButton("Button Text", "ActionName", "ControllerName", null, new { @class = "btn btn-primary" })

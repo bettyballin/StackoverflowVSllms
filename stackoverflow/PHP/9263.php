@@ -1,1 +1,0 @@
-if (!mysql_pconnect("server","tator_w","password")) {\n    call_a_function();\n    //some other stuff\n    die(); //if you still want to die\n}

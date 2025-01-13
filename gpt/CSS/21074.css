@@ -1,0 +1,1 @@
+#upbg {\n  background: #FFFFFF url(images/bg-dark.jpg) repeat-x scroll 0 0;\n  height: 275px;\n  left: 0;\n  position: absolute;\n  top: 0;\n  width: 100vw; /* Use viewport width */\n  background-size: cover; /* Ensure the background image covers the entire area */\n}

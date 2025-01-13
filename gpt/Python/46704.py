@@ -1,0 +1,1 @@
+Counter({'apple': 2, 'banana': 2, 'strawberry': 1, 'lemon': 1})

@@ -1,1 +1,0 @@
-<img src="myImage.jpg?<?php echo time();?>" />

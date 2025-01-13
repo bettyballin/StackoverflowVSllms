@@ -1,1 +1,0 @@
-mshtml.IHTMLDocument2 doc = webBrowser.Document as mshtml.IHTMLDocument2;\n    doc.execCommand("Print", true, null);

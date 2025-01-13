@@ -1,0 +1,1 @@
+string longUrl = "http://myurl.com";\ntry\n{\n    string tinyUrl = await TinyUrlHelper.CreateTinyUrlAsync(longUrl);\n    Console.WriteLine($"TinyURL: {tinyUrl}");\n}\ncatch (Exception ex)\n{\n    Console.WriteLine($"Error: {ex.Message}");\n}

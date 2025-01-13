@@ -1,1 +1,0 @@
-setup do\n  @request.env['HTTP_REFERER'] = 'http://test.com/sessions/new'\n  post :create, { :user => { :email => 'invalid@abc' } }\nend

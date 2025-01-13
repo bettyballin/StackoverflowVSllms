@@ -1,0 +1,1 @@
+public class MyService {\n    public MyObject[] getObjects() {\n        // Return an array of MyObject instances\n        return new MyObject[] { new MyObject("example1"), new MyObject("example2") };\n    }\n}

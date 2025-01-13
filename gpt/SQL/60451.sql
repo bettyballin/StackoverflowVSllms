@@ -1,0 +1,1 @@
+-- SQL Server\n   SELECT 'Hello' + ' World' FROM MyTable;\n\n   -- Oracle\n   SELECT 'Hello' || ' World' FROM MyTable;

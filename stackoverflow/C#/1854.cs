@@ -1,1 +1,0 @@
-MyButton.OnClientClick = string.Format("{0}.style.display=''", ControlIWantToHide.ClientID);

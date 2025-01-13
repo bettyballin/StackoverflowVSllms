@@ -1,1 +1,0 @@
-(from p in DataContext.Hits\nwhere (p.Date >= minDate) && (p.Date < maxDate)\ngroup p by p.Page into g\nselect new { Page = g.Key, Number = g.Count() }).OrderByDescending(x => x.Number).Take(10);

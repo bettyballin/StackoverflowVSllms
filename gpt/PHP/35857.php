@@ -1,0 +1,1 @@
+// Traditional functions\n$pos = strpos($haystack, $needle);\n$length = strlen($string);\n$match = preg_match('/pattern/', $string);\n\n// Multibyte functions\n$pos = mb_strpos($haystack, $needle, 0, 'UTF-8');\n$length = mb_strlen($string, 'UTF-8');\n$match = mb_ereg('pattern', $string);

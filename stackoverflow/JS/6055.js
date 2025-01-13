@@ -1,1 +1,0 @@
-$(".meuble-tab").parent("li").addClass("active");

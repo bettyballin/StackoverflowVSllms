@@ -1,0 +1,1 @@
+dsacls "CN=User Name,OU=Users,DC=domain,DC=com"

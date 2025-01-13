@@ -1,0 +1,1 @@
+sqlplus / as sysdba <<EOF\n   DROP USER username CASCADE;\n   -- Repeat for all users you want to remove\n   EOF

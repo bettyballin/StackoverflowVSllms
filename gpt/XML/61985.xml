@@ -1,0 +1,1 @@
+<property name="DateRange" type="Namespace.DateTimeRangeType, AssemblyName">\n  <column name="DateRangeColumn" />\n</property>

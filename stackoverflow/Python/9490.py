@@ -1,1 +1,0 @@
-dict((x[0], x) for x in L).values()

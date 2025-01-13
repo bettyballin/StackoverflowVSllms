@@ -1,0 +1,1 @@
+// Assuming ultraCombo is your UltraCombo control\nultraCombo.Focus();\nultraCombo.EditorControl.SelectAll();

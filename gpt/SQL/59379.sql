@@ -1,0 +1,1 @@
+UPDATE your_table\nSET widget_ids = CASE\n    WHEN widget_ids LIKE '%somenumber/%' THEN widget_ids\n    ELSE widget_ids || 'somenumber/'\nEND\nWHERE id = X;

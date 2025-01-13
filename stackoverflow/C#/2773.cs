@@ -1,1 +1,0 @@
-Item item;\nif (needNewOne)\n{\n     item = new Item();\n     db.InsertOnSubmit(item);\n}\nelse\n{\n     item = list[i];\n}\n///  build new or modify existing item\n///   :\ndb.SubmitChanges();

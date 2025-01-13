@@ -1,1 +1,0 @@
-<?php foreach($data as $key => $row): $row2 = $data2[$key]; ?>\n//html goes here\n<?php endforeach;?>

@@ -1,0 +1,1 @@
+SubSonic.SqlQuery select = new SubSonic.Select()\n    .From<Product>()\n    .Where(Product.Columns.OurPrice)\n    .IsNotEqualTo(new SubSonic.SqlQuery.SubSonic.SqlQueryColumn(Product.Columns.RetailPrice));

@@ -1,0 +1,1 @@
+#include <iostream>\n#include <cmath>\n\nint main() {\n    double base = 2.0;\n    double exponent = 3.0;\n    double result = pow(base, exponent);\n\n    std::cout << base << "^" << exponent << " = " << result << std::endl;\n\n    return 0;\n}

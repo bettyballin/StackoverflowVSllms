@@ -1,1 +1,0 @@
-MWATSON@:> create table date_test ( x date );\n\nTable created.\n\nMWATSON@:> insert into date_test values ( to_date('03JUN2008','DDMONYYYY') );\n\n1 row created.\n\nMWATSON@:> select * from date_test;\n\nX\n-----------\n03-Jun-2008\n\n1 row selected.\n\nMWATSON@DEV2:>

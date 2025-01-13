@@ -1,0 +1,1 @@
+ICriteria criteria = session.CreateCriteria(typeof(SomeEntity))\n                            .Add(Restrictions.InG<int>("propertyName", new List<int> { value1, value2, value3 }));

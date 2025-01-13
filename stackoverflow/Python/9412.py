@@ -1,1 +1,0 @@
->>> import HTMLParser\n>>> h= HTMLParser.HTMLParser()\n>>> h.unescape('alpha &lt; &beta;')\nu'alpha < \u03b2'

@@ -1,1 +1,0 @@
-SELECT ID, Value\nFROM tbl2\nWHERE tbl2.ID NOT IN (\n   SELECT Tbl2-ID\n   FROM Table3\n   WHERE (User = <this user>) AND (Tbl1-ID = <selected tbl1 ID>)\n   )

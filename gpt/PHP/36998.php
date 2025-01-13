@@ -1,0 +1,1 @@
+<?php\nheader('Content-Type: text/html; charset=utf-8');\n\n$fname = "проба.xml";\n$content = file_get_contents($fname);\n\nif ($content === false) {\n    echo "Error: Unable to open file.";\n} else {\n    echo "File content: " . htmlspecialchars($content, ENT_QUOTES, 'UTF-8');\n}\n?>

@@ -1,1 +1,0 @@
-select dates \n  from table t \n group by dates having count(dates) < k ;

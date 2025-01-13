@@ -1,1 +1,0 @@
-success: function(data) {\n        // Loop through each IP address and add it to the listbox\n        var list = $("<select />");\n        $.each(data.d, function(){\n            var ip = this.toString();\n            list.append($('<option />').val(ip).text(ip));\n        });\n        $('#ipAddress').empty().append(list.find('option'));\n      },

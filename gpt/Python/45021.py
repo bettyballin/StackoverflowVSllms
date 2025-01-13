@@ -1,0 +1,1 @@
+import OpenOPC\n\n# Create an OPC client\nopc = OpenOPC.client()\n\n# Connect to the OPC server\nopc.connect('Matrikon.OPC.Simulation.1')\n\n# Read a value from the OPC server\nvalue = opc.read('Random.Real8')\n\nprint(f'The value is: {value}')\n\n# Disconnect from the OPC server\nopc.close()

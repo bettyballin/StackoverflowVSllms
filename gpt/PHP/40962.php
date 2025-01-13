@@ -1,0 +1,1 @@
+class ErrorController extends Zend_Controller_Action\n{\n    public function notFoundAction()\n    {\n        // Set 404 response code\n        $this->getResponse()->setHttpResponseCode(404);\n\n        // Optionally set a custom view script for 404 errors\n        // $this->render('404');\n    }\n}

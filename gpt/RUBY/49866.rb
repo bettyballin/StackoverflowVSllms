@@ -1,0 +1,1 @@
+def create\n  item = current_user.items.create(item_params)\n  item.ratings.create(rating_params.merge(user_id: current_user.id))\n  redirect_to items_path\nend\n\nprivate\n\ndef item_params\n  params.require(:item).permit(:attribute1, :attribute2, :attribute3)\nend\n\ndef rating_params\n  params.require(:rating).permit(:attribute1, :attribute2, :attribute3)\nend

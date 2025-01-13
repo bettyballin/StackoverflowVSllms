@@ -1,0 +1,1 @@
+export ORACLE_HOME=/path/to/oracle_home\nexport TNS_ADMIN=$ORACLE_HOME/network/admi

@@ -1,0 +1,1 @@
+./copy_configs.sh && ssh user@remote_host

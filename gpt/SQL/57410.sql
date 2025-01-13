@@ -1,0 +1,1 @@
+UPDATE your_table SET payment_due_on = NULL WHERE some_column = some_value;

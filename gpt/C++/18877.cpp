@@ -1,0 +1,1 @@
+#include <tbb/tbb.h>\n#include <iostream>\n\nvoid ParallelTask(int i) {\n    std::cout << "Task " << i << " is running..." << std::endl;\n}\n\nint main() {\n    tbb::parallel_for(0, 10, 1, ParallelTask);\n    return 0;\n}

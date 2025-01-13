@@ -1,1 +1,0 @@
-db.Users.Where(u => u.User_x_Territories.Count == 0)

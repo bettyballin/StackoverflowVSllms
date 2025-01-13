@@ -1,0 +1,1 @@
+#pragma once\n\nusing namespace System;\n\nnamespace CppCliWrapper {\n\n    public ref class ManagedClass {\n    public:\n        ManagedClass();\n        ~ManagedClass();\n        void DoSomething();\n    private:\n        // Pointer to the native class\n        NativeClass* m_nativeClass;\n    };\n}

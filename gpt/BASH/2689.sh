@@ -1,0 +1,1 @@
+setspn -A MSSQLSvc/<FQDN>:1433 <Domain\ServiceAccount>\n   setspn -A MSSQLSvc/<FQDN>:<InstancePort> <Domain\ServiceAccount>

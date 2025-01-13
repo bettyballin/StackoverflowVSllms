@@ -1,1 +1,0 @@
-$dropdown = str_replace("value='".$rid."'","value='".$rid."' selected=\"selected\"",$dropdown);

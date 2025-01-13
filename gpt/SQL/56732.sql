@@ -1,0 +1,1 @@
+SELECT *\nFROM documents\nWHERE (@param1 IS NULL OR column1 = @param1)\n  AND (@param2 IS NULL OR column2 = @param2)\n  AND (@param3 IS NULL OR column3 = @param3)\n  AND (@param4 IS NULL OR column4 = @param4)\n  AND (@param5 IS NULL OR column5 = @param5);

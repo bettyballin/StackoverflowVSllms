@@ -1,0 +1,1 @@
+#include <iostream>\n#include <sstream>\n#include <string>\n\nint main() {\n    std::stringstream ss;\n    ss << "Hello, ";\n    ss << "world!";\n    std::string result = ss.str();\n    std::cout << result << std::endl;\n    return 0;\n}

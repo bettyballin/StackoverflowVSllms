@@ -1,0 +1,1 @@
+CREATE TABLE bins_videos (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    bin_id INT NOT NULL,\n    video_id INT NOT NULL,\n    `order` INT NOT NULL,\n    FOREIGN KEY (bin_id) REFERENCES bins(id),\n    FOREIGN KEY (video_id) REFERENCES videos(id),\n    UNIQUE KEY (bin_id, video_id)\n);

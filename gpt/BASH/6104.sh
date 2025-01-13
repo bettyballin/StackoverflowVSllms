@@ -1,0 +1,1 @@
+dd if=\\.\A: of=C:\images\floppy.img bs=512

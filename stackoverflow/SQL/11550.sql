@@ -1,1 +1,0 @@
---This will provide counts for all threads\nSELECT COUNT(threadID)\nFROM Posts\nGROUP BY threadID;\n\n\n--This will provide count for one thread\nSELECT COUNT(threadID)\nFROM Posts\nWHERE threadID=123\nGROUP BY threadID;

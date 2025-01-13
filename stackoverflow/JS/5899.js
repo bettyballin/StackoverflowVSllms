@@ -1,1 +1,0 @@
-$("#Result").click(function() {\n    $.ajax({\n      type: "POST",\n      url: "Default.aspx/GetDate",\n      data: "{}",\n      contentType: "application/json; charset=utf-8",\n      dataType: "json",\n      success: function(msg) {\n        $("#Result").text(msg.d);\n      }\n    });\n});

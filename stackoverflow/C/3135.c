@@ -1,1 +1,0 @@
-int sqlite3_blob_write(sqlite3_blob *, const void *z, int n, int iOffset)

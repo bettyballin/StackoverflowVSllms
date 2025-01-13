@@ -1,0 +1,1 @@
+sudo iptables -A INPUT -m statistic --mode random --probability 0.1 -j REJECT --reject-with tcp-reset

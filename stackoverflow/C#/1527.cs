@@ -1,1 +1,0 @@
-public static bool IsSortedNoRepeats(string text)\n{\n    if (text.Length == 0)\n    {\n        return true;\n    }\n    char current = text[0];\n    for (int i=1; i < text.Length; i++)\n    {\n        char next = text[i];\n        if (next <= current)\n        {\n            return false;\n        }\n        current = next;\n    }\n    return true;\n}

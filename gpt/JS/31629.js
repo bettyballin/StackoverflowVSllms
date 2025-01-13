@@ -1,0 +1,1 @@
+if (typeof console === 'undefined') {\n       console = {\n           log: function (message) {\n               alert(message);\n           }\n       };\n   }

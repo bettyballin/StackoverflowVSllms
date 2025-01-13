@@ -1,0 +1,1 @@
+var binding = new NetTcpBinding(SecurityMode.None);\nvar endpoint = new EndpointAddress("net.tcp://your-server-ip:your-port/YourService");\nvar client = new YourServiceClient(binding, endpoint);\n\n// Now you can call methods on the client\nclient.YourServiceMethod();

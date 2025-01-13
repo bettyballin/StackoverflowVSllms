@@ -1,0 +1,1 @@
+CREATE TABLE #TempTable (\n       ID INT,\n       Name NVARCHAR(50)\n   );

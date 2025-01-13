@@ -1,0 +1,1 @@
+UPDATE your_table_name\nSET date_column = TO_DATE('YYYY-MM-DD', 'YYYY-MM-DD')\nWHERE date_column IS NULL;

@@ -1,0 +1,1 @@
+MERGE INTO data d\nUSING (\n    SELECT ? AS id, ? AS key, ? AS value FROM dual\n) src\nON (d.id = src.id AND d.key = src.key)\nWHEN MATCHED THEN\n    UPDATE SET d.value = src.value\nWHEN NOT MATCHED THEN\n    INSERT (id, key, value) VALUES (src.id, src.key, src.value);

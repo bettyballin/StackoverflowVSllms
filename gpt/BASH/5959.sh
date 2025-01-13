@@ -1,0 +1,1 @@
+dotnet new webapp -o MyAspNetApp\n    cd MyAspNetApp

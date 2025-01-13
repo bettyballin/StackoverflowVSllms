@@ -1,1 +1,0 @@
-SELECT TOP 1 COUNT(*), myField\nFROM myTable\nGROUP BY (myField)\nORDER BY COUNT(*) ASC

@@ -1,0 +1,1 @@
+<ItemGroup>\n       <EmbeddedResource Include="WebForm1.aspx" />\n       <EmbeddedResource Include="styles\style.css" />\n       <EmbeddedResource Include="images\logo.png" />\n     </ItemGroup>

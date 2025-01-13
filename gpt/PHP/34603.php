@@ -1,0 +1,1 @@
+$some_json_value = file_get_contents("some_html_doc.html");\n$some_json_value = str_replace(array("\r", "\n"), '', $some_json_value);\n\necho "{";\necho "\"foo\":\"$some_json_value\"";\necho "}";

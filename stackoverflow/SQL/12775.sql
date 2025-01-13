@@ -1,1 +1,0 @@
-select table_name\nfrom all_constraints\nwhere constraint_type='R'\nand r_constraint_name in \n  (select constraint_name\n  from all_constraints\n  where constraint_type in ('P','U')\n  and table_name='<your table here>'); 

@@ -1,0 +1,1 @@
+this.regionViewRegistry.RegisterViewWithRegion(RegionNames.SelectionRegion\n    , () => this.container.Resolve<EmployeesListPresenter>().View);

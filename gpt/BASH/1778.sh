@@ -1,0 +1,1 @@
+ssh user@host "source ~/.bashrc; echo \$PATH"

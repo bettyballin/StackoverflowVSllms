@@ -1,1 +1,0 @@
-$sql = mysql_query("\n        SELECT  cg.cat_group_name, c.title, COUNT(n.category_id) AS NumNews\n        FROM `CategoryGroups` cg \n        JOIN `Categories` c USING (cat_group_id)\n        JOIN `News` n USING (category_id)\n        GROUP BY cg.cat_group_name, c.title");

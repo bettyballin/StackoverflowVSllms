@@ -1,0 +1,1 @@
+// sfUtilsPlugin/lib/sfLucene.class.php\nclass sfLucene {\n    // class implementation\n}

@@ -1,1 +1,0 @@
-while ($row = $result->fetch(PDO::FETCH_ASSOC)) {\n    $posts[] = $row;\n}\n\n// total number of posts\n$nrPosts = count($post);

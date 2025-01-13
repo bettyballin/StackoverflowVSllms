@@ -1,1 +1,0 @@
-SELECT owner, \n       object_name AS package_name, \n       procedure_name AS method_name\n  FROM dba_procedures\n WHERE object_type = 'PACKAGE'

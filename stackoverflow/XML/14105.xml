@@ -1,1 +1,0 @@
-<bean id="authenticationManager" class="org.acegisecurity.providers.ProviderManager">\n    <property name="providers">\n        <list>\n            <ref local="ldapAuthenticationProvider"/>\n        </list>\n    </property> \n</bean>

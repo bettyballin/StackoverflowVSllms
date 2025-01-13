@@ -1,0 +1,1 @@
+// Example of connection string for an OLE DB connection\nstring connectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=yourdatabase.mdb;User Id=admin;Password=;";

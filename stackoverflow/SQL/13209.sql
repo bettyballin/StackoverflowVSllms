@@ -1,1 +1,0 @@
-SELECT Model, Make, MIN(datepart(year,[Registration])) AS YearRegistered, MIN(SalePrice)\nFROM [VehicleSales]\nGROUP BY Model, Make

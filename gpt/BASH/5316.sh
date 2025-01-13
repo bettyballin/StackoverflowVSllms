@@ -1,0 +1,1 @@
+sudo stap -x <PID> -c 'sleep 10' -v

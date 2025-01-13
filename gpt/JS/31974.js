@@ -1,0 +1,1 @@
+function getViewportSize() {\n    var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;\n    var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;\n    return { width: width, height: height };\n}\n\nvar viewportSize = getViewportSize();

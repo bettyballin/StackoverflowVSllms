@@ -1,1 +1,0 @@
->>> imap.authenticate('bobdole@gmail.com', 'Bob Dole likes your style!')

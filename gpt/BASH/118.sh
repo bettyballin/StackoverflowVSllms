@@ -1,0 +1,1 @@
+# For systemd (common in newer distributions)\nsudo systemctl status mysql\n\n# For older systems with init.d\nsudo service mysql status

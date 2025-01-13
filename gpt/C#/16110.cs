@@ -1,0 +1,1 @@
+[AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]\npublic class GreeterService : IGreeter\n{\n    [WebGet(UriTemplate = "")]\n    public string Greet()\n    {\n        return "Hello, world!";\n    }\n}

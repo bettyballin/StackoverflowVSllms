@@ -1,0 +1,1 @@
+java -jar /path/to/antlr-4.9.2-complete.jar -Dlanguage=Java Java.g4

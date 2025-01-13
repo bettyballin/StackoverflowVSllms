@@ -1,1 +1,0 @@
-Response.Cookies.Add(new HttpCookie("name", "value"));

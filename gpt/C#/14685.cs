@@ -1,0 +1,1 @@
+using System;\nusing System.Windows.Forms;\n\nnamespace InitFormSettings\n{\n    static class Program\n    {\n        [STAThread]\n        static void Main()\n        {\n            Application.SetCompatibleTextRenderingDefault(false);\n            // You can optionally show a dummy form or perform other initializations here\n            Application.Exit();\n        }\n    }\n}

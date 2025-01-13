@@ -1,0 +1,1 @@
+.fixed-bottom-left {\n    position: fixed;\n    bottom: 0;\n    left: 0;\n    width: 200px; /* Adjust width as needed */\n    height: 100px; /* Adjust height as needed */\n    background-color: lightgray; /* Optional: for visibility */\n}

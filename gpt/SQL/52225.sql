@@ -1,0 +1,1 @@
+EXEC sp_dropdevice 'ByBoxData', 'delfile';\nEXEC sp_dropdevice 'ByBoxLog', 'delfile';

@@ -1,0 +1,1 @@
+class Project < ApplicationRecord\n  has_many :tasks\n  accepts_nested_attributes_for :tasks\n\n  validate :unique_tasks\n\n  private\n\n  def unique_tasks\n    task_names = tasks.map(&:name)\n    if task_names.uniq.length != task_names.length\n      errors.add(:base, "Tasks should be unique within a project")\n    end\n  end\nend

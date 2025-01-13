@@ -1,1 +1,0 @@
-SELECT `country`, COUNT(`ip`) AS `cViews`,\n  YEAR(`when`) AS `year`, MONTH(`when`) AS `month`\nFROM `metrics`\nWHERE `projID` = 'projID'\n  AND `country` != 'XX'\n  AND `when` BETWEEN '$dateFrom' AND '$dateTo'\nGROUP BY country, YEAR(`when`), MONTH(`when`)

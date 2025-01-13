@@ -1,0 +1,1 @@
+<WebTest ...>\n  <Items>\n    <Request Method="GET" Url="http://example.com/image.jpg">\n      <Headers>\n        <Header Name="Cache-Control" Value="no-cache"/>\n        <Header Name="Pragma" Value="no-cache"/>\n      </Headers>\n    </Request>\n    ...\n  </Items>\n</WebTest>

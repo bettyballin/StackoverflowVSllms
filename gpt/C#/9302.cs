@@ -1,0 +1,1 @@
+[WebMethod]\npublic string HelloWorld2()\n{\n    return "Hello World";\n}

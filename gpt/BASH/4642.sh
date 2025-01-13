@@ -1,0 +1,1 @@
+tcc -mt program.c

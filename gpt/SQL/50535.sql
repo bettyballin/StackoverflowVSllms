@@ -1,0 +1,1 @@
+DECLARE\n  result VARCHAR2(4000);\nBEGIN\n  result := ht_encode('Hello, World!', 'mask');\n  DBMS_OUTPUT.PUT_LINE(result);\nEND;\n/

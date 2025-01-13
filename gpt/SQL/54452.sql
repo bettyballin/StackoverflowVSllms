@@ -1,0 +1,1 @@
+CREATE TABLE Animals (\n    AnimalId INT PRIMARY KEY IDENTITY,\n    AnimalType TINYINT NOT NULL, -- 1: Mammal, 2: Reptile, etc.\n    Name NVARCHAR(100) NOT NULL\n);\n\nCREATE TABLE Mammals (\n    AnimalId INT PRIMARY KEY,\n    NumberOfMammaryGlads TINYINT NOT NULL,\n    CONSTRAINT FK_Mammals_Animals FOREIGN KEY (AnimalId) REFERENCES Animals (AnimalId)\n);

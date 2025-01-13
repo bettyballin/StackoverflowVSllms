@@ -1,1 +1,0 @@
-SqlBulkCopy copier = new SqlBulkCopy(connectionString, SqlBulkCopyOptions.Default);\ncopier.BatchSize = 500; //# of rows to insert at a time\ncopier.DestinationTableName = "dbo.MyTable";\ncopier.WriteToServer(myDataTable);

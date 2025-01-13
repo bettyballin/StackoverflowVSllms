@@ -1,0 +1,1 @@
+#include <iostream>\n\nint main() {\n    unsigned int foo = 10;\n    if (foo == ~0) { // ~0 is a bitwise NOT of 0, which results in -1 in signed int\n        std::cout << "Equal\n";\n    } else {\n        std::cout << "Not equal\n";\n    }\n    return 0;\n}

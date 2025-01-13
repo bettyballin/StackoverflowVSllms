@@ -1,0 +1,1 @@
+sudo service httpd restart\n   # or\n   sudo service apache2 restart

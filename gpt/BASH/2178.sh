@@ -1,0 +1,1 @@
+sudo ipfw add divert 12345 ip from any to any 21

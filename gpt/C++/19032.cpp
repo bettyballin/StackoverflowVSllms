@@ -1,0 +1,1 @@
+#include <iostream>\n\nunion UnionExample {\n    int intValue;\n    float floatValue;\n};\n\nint main() {\n    UnionExample ue;\n    ue.intValue = 42;\n    std::cout << ue.floatValue << std::endl; // This might not produce meaningful output\n    return 0;\n}

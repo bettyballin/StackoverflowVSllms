@@ -1,0 +1,1 @@
+vim -o file1 file2 -c 'set shortmess+=I'

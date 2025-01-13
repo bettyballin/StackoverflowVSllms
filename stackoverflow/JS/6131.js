@@ -1,1 +1,0 @@
-String.prototype.csv = String.prototype.split.partial(/,\s*/);\nvar results = "John, Resig, Boston".csv();\nalert( (results[1] == "Resig") + " The text values were split properly" );

@@ -1,0 +1,1 @@
+# Example command to scan a .NET project with SonarQube\n    dotnet sonarscanner begin /k:"project-key" /d:sonar.login="your_token"\n    dotnet build\n    dotnet sonarscanner end /d:sonar.login="your_token"

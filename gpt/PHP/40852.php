@@ -1,0 +1,1 @@
+// Example function to generate a device fingerprint\n   function generateDeviceFingerprint() {\n       return md5($_SERVER['HTTP_USER_AGENT'] . $_SERVER['HTTP_ACCEPT']);\n   }

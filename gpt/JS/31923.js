@@ -1,0 +1,1 @@
+$(document).ajaxError(function(event, xhr, settings, thrownError) {\n        if (xhr.status === 403) {\n            // Session has timed out, redirect to login page\n            window.location.href = '/login/';\n        }\n    });

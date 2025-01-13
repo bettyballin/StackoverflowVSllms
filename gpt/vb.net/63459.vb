@@ -1,0 +1,1 @@
+Public Function getProjects() As List(Of portfolio_project)\n    Using myPortfolio As New PortfolioDataContext\n        Try\n            Dim projects = (From p In myPortfolio.portfolio_projects Select p).Take(5).ToList()\n            Return projects\n        Catch ex As Exception\n            Return Nothing\n        End Try\n    End Using\nEnd Functio

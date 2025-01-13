@@ -1,1 +1,0 @@
-TRANSFORM First([Text]) AS LangText\nSELECT ID, First([Text])\nFROM Table \nGROUP BY ID\nPIVOT lang

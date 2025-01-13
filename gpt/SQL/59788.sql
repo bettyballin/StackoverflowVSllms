@@ -1,0 +1,1 @@
+SELECT UserID, PostCount FROM UserPostCounts WHERE UserID = @UserID;

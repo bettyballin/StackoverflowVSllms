@@ -1,0 +1,1 @@
+ldapdelete -x -D "cn=admin,dc=example,dc=com" -W -r "ou=OrganizationalUnitDN,dc=example,dc=com"

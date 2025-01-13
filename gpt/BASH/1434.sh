@@ -1,0 +1,1 @@
+# Backup the database\nInvoke-Sqlcmd -Query "BACKUP DATABASE [YourDatabaseName] TO DISK = 'C:\Backup\YourDatabaseName.bak'" -ServerInstance "YourServerInstance"\n\n# Compress the backup file using Windows compression\nCompress-Archive -Path "C:\Backup\YourDatabaseName.bak" -DestinationPath "C:\Backup\YourDatabaseName.zip"

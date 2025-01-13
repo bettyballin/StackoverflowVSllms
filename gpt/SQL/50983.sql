@@ -1,0 +1,1 @@
+WITH Numbers AS (\n    SELECT 1 AS Number\n    UNION ALL\n    SELECT Number + 1\n    FROM Numbers\n    WHERE Number < 10\n)\nSELECT Number\nFROM Numbers\nOPTION (MAXRECURSION 10);

@@ -1,1 +1,0 @@
-find `pwd` -iname ".*" -type f > all-hidden-files.txt

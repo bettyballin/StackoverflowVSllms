@@ -1,1 +1,0 @@
-AND c.category_id = ?

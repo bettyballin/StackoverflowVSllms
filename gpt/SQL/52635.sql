@@ -1,0 +1,1 @@
+SELECT non_indexed_column FROM table;

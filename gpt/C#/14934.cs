@@ -1,0 +1,1 @@
+string logFilePath = HttpContext.Current.Server.MapPath("~/Logs/logfile.txt");\n\nusing (StreamWriter writer = new StreamWriter(logFilePath, true))\n{\n    writer.WriteLine("Log entry text");\n}

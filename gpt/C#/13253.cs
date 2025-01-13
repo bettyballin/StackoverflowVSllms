@@ -1,0 +1,1 @@
+using System;\n\npublic partial class _Default : System.Web.UI.Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n    }\n\n    protected void Button1_Click(object sender, EventArgs e)\n    {\n        Label1.Text = "Button Clicked!";\n    }\n}

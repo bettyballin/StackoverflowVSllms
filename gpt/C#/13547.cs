@@ -1,0 +1,1 @@
+import gtk.MainWindow;\nimport gtk.Main;\nimport gtk.Label;\nimport gdk.EventKey;

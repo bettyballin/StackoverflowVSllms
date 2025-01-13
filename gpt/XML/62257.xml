@@ -1,0 +1,1 @@
+<dotfuscator>\n       <input assembly="MyApp.dll" />\n       <output directory="ObfuscatedOutput" />\n       <rename enable="true" />\n       <controlFlow obfuscate="true" />\n       <stringEncryption enable="true" />\n     </dotfuscator>

@@ -1,1 +1,0 @@
-<?php echo url::file("images/foo.gif") ?>

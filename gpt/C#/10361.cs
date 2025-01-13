@@ -1,0 +1,1 @@
+public class SqlServerRepository<T> : IRepository<T>\n    {\n        // Implement methods using SQL Server specific code\n    }

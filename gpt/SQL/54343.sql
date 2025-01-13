@@ -1,0 +1,1 @@
+CREATE ROLE [SelectRole];\n    GRANT SELECT ON [MyView] TO [SelectRole];\n    GRANT SELECT ON [UnderlyingTable] TO [SelectRole];

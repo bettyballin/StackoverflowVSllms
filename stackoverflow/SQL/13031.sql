@@ -1,1 +1,0 @@
-select \n    f.* \nfrom \n    resultsTable rt\n    cross apply dbo.subs(rt.ID) f

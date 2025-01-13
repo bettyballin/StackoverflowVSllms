@@ -1,0 +1,1 @@
+<Target Name="AfterBuild">\n  <Copy SourceFiles="$(OutputPath)$(AssemblyName).dll" DestinationFolder="$(SolutionDir)Binaries\$(Configuration)\" />\n</Target>

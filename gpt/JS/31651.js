@@ -1,0 +1,1 @@
+function isAjaxRequest(req) {\n  return req.get('X-Requested-With') === 'XMLHttpRequest';\n}

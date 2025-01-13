@@ -1,1 +1,0 @@
-WITH visall(id, parentid, visible) AS\n   (SELECT  id, parentid, visible\n    FROM    mytree\n    WHERE   parentid IS NULL\n        UNION ALL\n    SELECT  m.id, m.parentid, m.visible & visall.visible AS visible\n    FROM    visall\n    JOIN    mytree m\n      ON    m.parentid = visall.id\n   )\nSELECT  *\nFROM    visall\nWHERE   visall.visible = 1

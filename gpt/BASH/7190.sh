@@ -1,0 +1,1 @@
+gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=output.pdf input.ps\n   pdf2svg input.pdf output.svg

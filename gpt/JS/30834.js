@@ -1,0 +1,1 @@
+<script>\n  var editor = CodeMirror.fromTextArea(document.getElementById("code"), {\n    mode: "htmlmixed",\n    lineNumbers: true,\n    theme: "default", // You can choose other themes as well\n  });\n</script>

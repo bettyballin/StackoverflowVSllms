@@ -1,1 +1,0 @@
-if(Request.IsAjaxRequest())\n{\n    return Json(new { Notification = "You were retired from the ladder."});\n}

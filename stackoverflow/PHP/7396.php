@@ -1,1 +1,0 @@
-$str = "asdfasdf |123123 asdf iakds |302 asdf |11";\n$str = preg_replace("/([|]\d*)/", "\\1;", $str);\necho $str; // prints "asdfasdf |123123; asdf iakds |302; asdf |11;"

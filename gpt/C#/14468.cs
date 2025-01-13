@@ -1,0 +1,1 @@
+public IEnumerable<User> GetAllUsers()\n{\n    return _users.AsEnumerable();\n}

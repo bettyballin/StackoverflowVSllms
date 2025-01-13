@@ -1,1 +1,0 @@
-$text = preg_replace(\n  '#((https?|ftp)://(\S*?\.\S*?))([\s)\[\]{},;"\':<]|\.\s|$)#i',\n  "'<a href=\"$1\" target=\"_blank\">$3</a>$4'",\n  $text\n);

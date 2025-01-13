@@ -1,0 +1,1 @@
+$string = "This is string sample - $2565";\n\nif (preg_match('/\$(\d+)/', $string, $matches)) {\n    $number = $matches[1];\n    echo $number; // Output: 2565\n} else {\n    echo "No match found.";\n}

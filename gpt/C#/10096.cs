@@ -1,0 +1,1 @@
+var adapter = new YourTableAdapter();\n   var result = adapter.getData("0000-rtg", new DateTime(2007, 1, 1), new DateTime(2008, 3, 12), 0, DBNull.Value, DBNull.Value, DBNull.Value, DBNull.Value, DBNull.Value);

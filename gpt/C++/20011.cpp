@@ -1,0 +1,1 @@
+#include <iostream>\n\nint main() {\n    int a = 1;\n    int *p = &a; // p is a pointer to 'a'\n    int &r = a;  // r is a reference to 'a'\n\n    std::cout << "Value of a: " << a << std::endl;\n    std::cout << "Value via pointer p: " << *p << std::endl;\n    std::cout << "Value via reference r: " << r << std::endl;\n\n    return 0;\n}

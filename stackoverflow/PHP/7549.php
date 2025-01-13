@@ -1,1 +1,0 @@
-foreach ($ValueA as $ValueB) {

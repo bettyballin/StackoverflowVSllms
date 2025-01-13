@@ -1,1 +1,0 @@
-string ucfirst  ( string $str  );

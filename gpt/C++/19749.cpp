@@ -1,0 +1,1 @@
+// math_utils.h\n   #ifndef MATH_UTILS_H\n   #define MATH_UTILS_H\n\n   template <typename T>\n   T add(T a, T b) {\n       return a + b;\n   }\n\n   #endif // MATH_UTILS_H

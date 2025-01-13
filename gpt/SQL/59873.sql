@@ -1,0 +1,1 @@
+CREATE TABLE employee_history (\n       employee_id INT,\n       name VARCHAR(50),\n       dept VARCHAR(50),\n       PERIOD FOR SYSTEM_TIME\n   ) WITH SYSTEM VERSIONING;

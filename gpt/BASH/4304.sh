@@ -1,0 +1,1 @@
+RunAsDate.exe 12/25/2023 10:30:00 "C:\Path\To\YourProgram.exe"

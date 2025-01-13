@@ -1,0 +1,1 @@
+# Create a virtual environment\npython3 -m venv myenv\n\n# Activate the virtual environment\nsource myenv/bin/activate\n\n# Install dependencies\npip install -r requirements.txt

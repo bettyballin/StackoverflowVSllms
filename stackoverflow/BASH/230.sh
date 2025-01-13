@@ -1,1 +1,0 @@
-for file in */*/*.mov; do \n  newname=`basename $file1\n  ln -s $file $newname;\ndone

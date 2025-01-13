@@ -1,0 +1,1 @@
+var bar = { baz: "qqqq" };\n\nfunction barFunction() {\n    return 1;\n}\n\nObject.assign(barFunction, bar);\n\nbar = barFunction;\n\nconsole.log(bar.baz); // "qqqq"\nconsole.log(bar()); // 1

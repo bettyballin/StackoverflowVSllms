@@ -1,0 +1,1 @@
+# RabbitMQ installation on Ubuntu\n   sudo apt-get update\n   sudo apt-get install rabbitmq-server\n   sudo systemctl enable rabbitmq-server\n   sudo systemctl start rabbitmq-server

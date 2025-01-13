@@ -1,0 +1,1 @@
+$.ajax({\n    url: 'YourController/MyAction',\n    type: 'POST',\n    data: yourData,\n    success: function(response) {\n        if (response.redirectToUrl) {\n            window.location.href = response.redirectToUrl;\n        } else {\n            // Handle the partial view update\n            $('#UpdateTargetId').html(response);\n        }\n    }\n});

@@ -1,1 +1,0 @@
-from google.appengine.api import datastore\n\nq = datastore.Query('EntityType')\nif q.get(1):\n  print "EntityType exists!"

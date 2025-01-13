@@ -1,0 +1,1 @@
+find A -type f > listA.txt\nfind B -type f >> listA.txt\nsort listA.txt | uniq

@@ -1,1 +1,0 @@
-LoadLibrary()/GetProcAddress()

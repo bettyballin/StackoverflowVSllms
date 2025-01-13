@@ -1,1 +1,0 @@
-// $columns = string array of column names\n// $columns = array('PAYPAL_ACCEPT' ... );\nforeach($columns as $column) {\n  $$column = $row[$column] ? 'YES' : 'NO';\n}

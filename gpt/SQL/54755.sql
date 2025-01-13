@@ -1,0 +1,1 @@
+USE master;\n    EXEC sp_addmergesubscription @publication = 'YourPublication', @publisher = 'IntranetServer', @publisher_db = 'YourDatabase', @subscriber_db = 'YourDatabase';

@@ -1,0 +1,1 @@
+@using (Ajax.BeginForm("ActionName", new AjaxOptions { UpdateTargetId = "result" }))\n{\n    <input type="submit" value="Submit" />\n}\n\n@Ajax.ActionLink("Link Text", "ActionName", new AjaxOptions { UpdateTargetId = "result" })

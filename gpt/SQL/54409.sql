@@ -1,0 +1,1 @@
+CREATE TABLE hierarchy (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    parent_id INT,\n    child_id INT,\n    start_date DATE,\n    end_date DATE,\n    FOREIGN KEY (parent_id) REFERENCES employees(id),\n    FOREIGN KEY (child_id) REFERENCES employees(id)\n);

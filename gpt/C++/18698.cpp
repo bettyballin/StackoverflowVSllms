@@ -1,0 +1,1 @@
+// MyLibrary.def\n   LIBRARY MyLibrary\n   EXPORTS\n       Function1\n       Function2\n       Variable1

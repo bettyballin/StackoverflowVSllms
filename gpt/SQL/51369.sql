@@ -1,0 +1,1 @@
+WITH WordCounts AS (\n    SELECT word_id, COUNT(sentence_id) AS sentence_count\n    FROM sentence_word\n    GROUP BY word_id\n)\nSELECT word_id\nFROM WordCounts\nWHERE sentence_count > 100;

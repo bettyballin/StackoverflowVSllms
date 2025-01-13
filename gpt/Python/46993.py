@@ -1,0 +1,1 @@
+import os\n\n   file_size = os.path.getsize('file.txt')\n   if file_size < MAX_SIZE:\n       with open('file.txt', 'r') as file:\n           contents = file.read()

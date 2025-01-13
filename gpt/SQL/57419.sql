@@ -1,0 +1,1 @@
+-- Adjust the column types if necessary\nALTER TABLE Users\nALTER COLUMN Email NVARCHAR(255) NOT NULL;\n\nALTER TABLE Users\nALTER COLUMN UserName NVARCHAR(255) NOT NULL;\n\n-- Add unique constraints\nALTER TABLE Users\nADD CONSTRAINT UQ_Email UNIQUE (Email);\n\nALTER TABLE Users\nADD CONSTRAINT UQ_UserName UNIQUE (UserName);

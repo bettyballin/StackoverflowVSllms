@@ -1,1 +1,0 @@
-require 'name_of_file_with_class'

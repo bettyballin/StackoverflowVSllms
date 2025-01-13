@@ -1,1 +1,0 @@
-<!-- SetNames.xml --->\n<names>\n  <Superset name="Classic_Authors">\n    <Set name="Dante_Alighieri" />\n    <Set name="Miguel_de_Cervantes_Saavedra" />\n  </Superset>\n  <Superset name="Contemporary_Authors">\n    <Set name="Stephen_King" />\n  </Superset>\n</names>

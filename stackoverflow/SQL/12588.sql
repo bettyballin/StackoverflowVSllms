@@ -1,1 +1,0 @@
-select person.FirstName\n      ,person.LastName\n      ,addr.StreetAddress\n      ,addr.City\n      ,addr.State\n      ,addr.Zip\n      ,phone.PhoneNumber\n      ,company.CompanyName\nfrom tblPeople person\nleft outer join tblAffiliations affl on affl.personID = person.personID\nleft outer join tblCompany company on company.companyID = affl.companyID

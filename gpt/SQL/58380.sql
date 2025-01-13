@@ -1,0 +1,1 @@
+INSERT INTO your_table (column1, column2)\n    VALUES \n    (value1_1, value1_2),\n    (value2_1, value2_2),\n    ...\n    (valueN_1, valueN_2);

@@ -1,0 +1,1 @@
+USE PseudoTempDB;\nGO\n\nIF OBJECT_ID('PersistentTempTable', 'U') IS NOT NULL\n    DROP TABLE PersistentTempTable;\nGO

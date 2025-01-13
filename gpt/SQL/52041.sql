@@ -1,0 +1,1 @@
+ALTER TABLE YourTableName\nADD CONSTRAINT CK_PositiveValues CHECK (YourColumnName > 0);

@@ -1,0 +1,1 @@
+ar x libpng.a\n   ar x libz.a\n   ar x libjpeg.a

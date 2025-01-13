@@ -1,0 +1,1 @@
+from myapp.models import Entry\n\ndef bulk_insert_entries(items):\n    entries = [Entry(a1=item.a1, a2=item.a2) for item in items]\n    Entry.objects.bulk_create(entries)\n\n# Assuming `items` is your list of items to insert\nbulk_insert_entries(items)

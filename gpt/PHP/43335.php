@@ -1,0 +1,1 @@
+// libs/db_functions.php\nfunction db_connect() {\n    // ...\n}\n\nfunction db_query($query) {\n    // ...\n}

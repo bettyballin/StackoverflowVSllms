@@ -1,0 +1,1 @@
+sudo mkdir /sys/fs/cgroup/net_cls/mygroup\necho 0x00110011 > /sys/fs/cgroup/net_cls/mygroup/net_cls.classid

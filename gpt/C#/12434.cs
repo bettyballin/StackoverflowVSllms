@@ -1,0 +1,1 @@
+protected void SubmitButton_Click(object sender, EventArgs e)\n{\n    string email = EmailTextBox.Text;\n    \n    if (EmailValidator.IsValidEmail(email))\n    {\n        // Proceed with the valid email\n    }\n    else\n    {\n        // Handle invalid email\n    }\n}

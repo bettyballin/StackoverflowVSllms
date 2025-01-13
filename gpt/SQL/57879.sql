@@ -1,0 +1,1 @@
+CREATE TABLE votes (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    item_id INT NOT NULL,\n    user_id INT NOT NULL,\n    vote TINYINT NOT NULL,\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);

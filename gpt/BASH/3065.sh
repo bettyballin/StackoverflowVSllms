@@ -1,0 +1,1 @@
+xmlstarlet tr filter.xslt input.xml

@@ -1,0 +1,1 @@
+List<T> list = Enumerable.Repeat(element, n).ToList();

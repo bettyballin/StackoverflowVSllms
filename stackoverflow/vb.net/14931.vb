@@ -1,1 +1,0 @@
-Public Class MyCommonLogic\n    Public Shared Function ReturnSomethingCommon(context As HttpContext) As String\n        Return "Hello World!"\n    End Function\nEnd Class

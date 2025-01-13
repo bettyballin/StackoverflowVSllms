@@ -1,0 +1,1 @@
+#!/bin/bash\n# Pull latest changes\ngit pull origin main\n\n# Copy files to live site\nrsync -avz --exclude '.git' /path/to/repo/ /path/to/live/site/

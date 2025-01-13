@@ -1,0 +1,1 @@
+SELECT * \nFROM dba_policies \nWHERE object_name = 'CS_INCIDENTS_B_SEC';

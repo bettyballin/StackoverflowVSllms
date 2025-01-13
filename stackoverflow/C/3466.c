@@ -1,1 +1,0 @@
-errno_t e = memcpy_s (&dstbuff, sizeof(dstbuff), &srcbuff, sizeof(srcbuff));

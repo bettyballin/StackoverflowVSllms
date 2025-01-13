@@ -1,1 +1,0 @@
-/Library/Ruby/Gems/1.8/doc/rails-2.3.3/rdoc/

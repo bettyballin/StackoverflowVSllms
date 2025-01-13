@@ -1,1 +1,0 @@
-protected void WindowsAuthentication_OnAuthenticate(object sender, WindowsAuthenticationEventArgs e)\n{\n    if (!Roles.IsUserInRole(e.Identity.Name, "Users"))\n    {\n        Roles.AddUsersToRole(new string[] { e.Identity.Name }, "Users");\n    }\n}

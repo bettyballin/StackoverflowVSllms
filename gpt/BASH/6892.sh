@@ -1,0 +1,1 @@
+# Full backup using mysqldump\n   mysqldump -u [username] -p[password] --all-databases > alldatabases_backup.sql\n\n   # Incremental backup using binary logs\n   mysqlbinlog --read-from-remote-server --host=[hostname] --user=[username] --password=[password] --raw --to-last-log [log_file] > incremental_backup.sql

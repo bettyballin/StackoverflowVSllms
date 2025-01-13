@@ -1,1 +1,0 @@
-SELECT a.BankName, a.AcctNumber, a.Balance, ag.GroupName\nFROM (Accounts a \n      LEFT JOIN JoinAccountsGroups jag \n      ON a.ID = jag.AID) \n      LEFT JOIN AccountGroups ag\n      ON jag.GID = ag.GroupName;

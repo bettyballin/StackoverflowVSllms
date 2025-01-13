@@ -1,1 +1,0 @@
-$step1 = "INSERT INTO tblHurray(ID, first) VALUES ('','$_POST[first]')";

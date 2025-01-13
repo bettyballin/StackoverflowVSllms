@@ -1,1 +1,0 @@
-def encode(s):\n    l = [ord(i) for i in s]\n    return ''.join([chr(i + 2) for i in l])

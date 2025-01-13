@@ -1,0 +1,1 @@
+using System;\n   using System.Runtime.InteropServices;\n\n   [Guid("YOUR-CLASS-GUID-HERE")]\n   [ClassInterface(ClassInterfaceType.None)]\n   [ComVisible(true)]\n   public class MyComClass : IMyComInterface\n   {\n       public void MyMethod()\n       {\n           // Your implementation\n       }\n   }

@@ -1,0 +1,1 @@
+RuleSet ruleSet = new RuleSet("MyRuleSet", rules);\n   RuleEngine ruleEngine = new RuleEngine(ruleSet);\n   ruleEngine.Execute(myObject);

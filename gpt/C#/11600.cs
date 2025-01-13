@@ -1,0 +1,1 @@
+static async Task Main(string[] args)\n{\n    Server server = new Server();\n    await server.StartAsync();\n}

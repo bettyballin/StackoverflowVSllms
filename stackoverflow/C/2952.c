@@ -1,1 +1,0 @@
-if(bytes <= tbf->tokens) {\n    tbf->tokens -= bytes;\n  } else {\n    return -1;\n  }

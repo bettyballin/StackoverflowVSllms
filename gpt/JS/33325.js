@@ -1,0 +1,1 @@
+// List all keys in LocalStorage\nfor (let i = 0; i < localStorage.length; i++) {\n  let key = localStorage.key(i);\n  console.log(key, localStorage.getItem(key));\n}\n\n// List all keys in SessionStorage\nfor (let i = 0; i < sessionStorage.length; i++) {\n  let key = sessionStorage.key(i);\n  console.log(key, sessionStorage.getItem(key));\n}

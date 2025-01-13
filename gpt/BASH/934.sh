@@ -1,0 +1,1 @@
+emacs --batch -f package-refresh-contents\n   emacs --batch -f package-install --eval '(setq package-selected-packages (quote (slime)))'

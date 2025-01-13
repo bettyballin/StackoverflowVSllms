@@ -1,0 +1,1 @@
+-- Create a new database role\n   CREATE ROLE SensitiveDataRole;\n\n   -- Grant SELECT permission on sensitive columns only to the role\n   GRANT SELECT ON YourTable(EncryptedColumn) TO SensitiveDataRole;\n   \n   -- Add specific users to the role\n   EXEC sp_addrolemember 'SensitiveDataRole', 'YourApplicationUser';

@@ -1,0 +1,1 @@
+# Example to set a memory limit for an IIS app pool using PowerShell\nImport-Module WebAdministration\n\nSet-ItemProperty "IIS:\AppPools\YourAppPoolName" -name recycling.periodicRestart.privateMemory -value 1024

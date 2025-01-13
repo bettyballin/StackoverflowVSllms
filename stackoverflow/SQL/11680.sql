@@ -1,1 +1,0 @@
-CREATE PROCEDURE <owner>.<procedure name>\n\n     <Param> <datatype>\n\nAS\n\n     <Body>

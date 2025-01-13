@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>com.thoughtworks.xstream</groupId>\n    <artifactId>xstream</artifactId>\n    <version>1.4.18</version> <!-- Use the latest version available -->\n</dependency>\n<dependency>\n    <groupId>org.yaml</groupId>\n    <artifactId>snakeyaml</artifactId>\n    <version>1.29</version> <!-- Use the latest version available -->\n</dependency>

@@ -1,0 +1,1 @@
+function AP_GetActionsResponse() {\n    WScript.Echo("AP_GetActionsResponse event");\n}\n\n// This should now work\nvar obj = WScript.CreateObject("Promotions.Promotion", "AP_");

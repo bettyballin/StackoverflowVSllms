@@ -1,0 +1,1 @@
+-- Open the generated script file in a text editor or SSMS\n-- Make necessary edits to ensure it works with your target database\n-- For example, you might need to change database names or adjust paths for file storage

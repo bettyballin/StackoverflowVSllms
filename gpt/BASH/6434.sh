@@ -1,0 +1,1 @@
+sudo /Applications/MAMP/bin/apache2/bin/apachectl restart

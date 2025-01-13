@@ -1,0 +1,1 @@
+from flask import Flask, request\n\napp = Flask(__name__)\n\n@app.route('/store_value', methods=['POST'])\ndef store_value():\n    selected_value = request.form.get('selected_value')\n    # Store the value in a variable or process it as needed\n    print(f"Selected Value: {selected_value}")\n    return "Value received"\n\nif __name__ == "__main__":\n    app.run(debug=True)

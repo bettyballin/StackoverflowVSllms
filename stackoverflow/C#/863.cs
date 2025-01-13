@@ -1,1 +1,0 @@
-protected void Reload_Click(object sender, EventArgs e)\n{\n    HttpRuntime.UnloadAppDomain();\n}\n\nprotected void Restart_Click(object sender, EventArgs e)\n{\n    using (var sc = new System.ServiceProcess.ServiceController("IISAdmin"))\n    {\n        sc.Stop();\n        sc.Start();\n    }\n}

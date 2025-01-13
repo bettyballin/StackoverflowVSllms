@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\nEXEC sp_getapplock @Resource = 'CounterLock', @LockMode = 'Exclusive';\n\nUPDATE mytable\nSET counter = counter + 1;\n\nEXEC sp_releaseapplock @Resource = 'CounterLock';\n\nCOMMIT TRANSACTION;

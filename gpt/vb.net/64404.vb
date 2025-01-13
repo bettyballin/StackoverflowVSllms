@@ -1,0 +1,1 @@
+' Old way using DefInstance (not recommended)\nForm1.DefInstance.Show()\n\n' New way (recommended)\nDim myForm As New Form1()\nmyForm.Show()

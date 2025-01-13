@@ -1,1 +1,0 @@
-$image = new Imagick('image.jpg');\n$image->thumbnailImage(100,0); // 100px wide, 0 = preserve aspect ratio

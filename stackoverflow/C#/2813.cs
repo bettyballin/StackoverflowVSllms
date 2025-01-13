@@ -1,1 +1,0 @@
-public static void Invoke(this Control control, MethodInvoker methodInvoker)\n{\n    if (control.InvokeRequired)\n        control.Invoke(methodInvoker);\n    else\n        methodInvoker();\n}

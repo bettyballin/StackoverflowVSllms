@@ -1,1 +1,0 @@
-select table1.a, table1.b\nfrom table1\nwhere table1.a not in (select a from table2)\nunion all\nselect table1.a, table1.b+table2.b as b\nfrom table1\ninner join table2 on table1.a = table2.a

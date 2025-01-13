@@ -1,1 +1,0 @@
-@echo off\nsetlocal EnableDelayedExpansion\n\nREM  loop over all files in the cwd\nfor /f %%a in ('dir /a-d /b') do (\n   REM  store this filename in a variable so we can do substringing\n   set ThisFileName=%%a\n   REM  now take a substring\n   set ThisShortFileName=!ThisFileName:~0,255!\n   REM  finally, the rename:\n   echo ren %%a !ThisShortFileName!\n)\n\n\n:EOF\nendlocal

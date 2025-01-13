@@ -1,0 +1,1 @@
+<?php\n// Assuming $post[3] contains the datetime string from MySQL\n$dateString = $post[3];\n\n// Create a DateTime object from the MySQL datetime string\n$dateTime = new DateTime($dateString);\n\n// Format the DateTime object as an ISO 8601 string\n$iso8601String = $dateTime->format(DateTime::ATOM);\n\necho $iso8601String;\n?>

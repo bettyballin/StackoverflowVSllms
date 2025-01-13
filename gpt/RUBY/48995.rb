@@ -1,0 +1,1 @@
+$ irb\nirb(main):001:0> require 'date'\n=> true\nirb(main):002:0> Date.today\n=> #<Date: 2023-10-05 ((2459500j,0s,0n),+0s,2299161j)>\nirb(main):003:0> def greet(name)\nirb(main):004:1>   "Hello, #{name}!"\nirb(main):005:1> end\n=> :greet\nirb(main):006:0> greet("Bob")\n=> "Hello, Bob!"

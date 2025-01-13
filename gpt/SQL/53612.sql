@@ -1,0 +1,1 @@
+<select id="selectThreeFields" resultType="map">\n  SELECT field1, field2, field3\n  FROM your_table\n  WHERE some_condition = #{condition}\n</select>

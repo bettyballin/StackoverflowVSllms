@@ -1,0 +1,1 @@
+class Foo\n{\n    private static readonly object objectToLockOn = new object();\n    private static string joke = "yo momma";\n\n    private string GetJoke()\n    {\n        string localJoke;\n        \n        lock (objectToLockOn)\n        {\n            localJoke = joke;\n        }\n\n        return localJoke;\n    }\n}

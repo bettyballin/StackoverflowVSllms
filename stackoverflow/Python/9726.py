@@ -1,1 +1,0 @@
-from django.db.models import Sum\n\nv_list = votes.objects.filter(object__id=1)\n\nfor v in v_list:\n    v.previous_score = votes.objects.filter(object__id=1, created_on__lte=v.created_on).aggregate(Sum('vote'))["vote__sum"]

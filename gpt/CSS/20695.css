@@ -1,0 +1,1 @@
+.example {\n    -webkit-transition: all 0.3s ease; /* Safari */\n    -moz-transition: all 0.3s ease;    /* Firefox */\n    -o-transition: all 0.3s ease;      /* Opera */\n    transition: all 0.3s ease;         /* Standard syntax */\n}

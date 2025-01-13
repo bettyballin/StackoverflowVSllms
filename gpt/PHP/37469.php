@@ -1,0 +1,1 @@
+$query = "\n    SELECT *, \n           MATCH(translation) AGAINST('word' IN NATURAL LANGUAGE MODE) AS relevance \n    FROM `vocabulary` \n    WHERE MATCH(translation) AGAINST('word' IN NATURAL LANGUAGE MODE) \n    OR translation LIKE '%word%' \n    ORDER BY relevance DESC, translation ASC;\n";

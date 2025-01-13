@@ -1,1 +1,0 @@
-Assembly.GetExecutingAssembly().GetName().Versio

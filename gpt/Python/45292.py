@@ -1,0 +1,1 @@
+import boto3\n\ns3_client = boto3.client('s3')\n\nbucket_name = 'my-bucket'\nprefix = 'images/2023/01/'\n\n# Example function to upload an image\ndef upload_image(image_path, image_name):\n    s3_client.upload_file(image_path, bucket_name, f'{prefix}{image_name}')\n\n# Uploading an image\nupload_image('local/path/to/image.jpg', 'image1.jpg')

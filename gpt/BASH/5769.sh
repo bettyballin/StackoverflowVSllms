@@ -1,0 +1,1 @@
+@echo off\n   set USER_SNIPPETS_PATH="C:\Users\<YourUsername>\AppData\Roaming\SQL Developer\UserSnippets\snippets.xml"\n   set BACKUP_PATH="D:\Backup\snippets.xml"\n\n   copy %USER_SNIPPETS_PATH% %BACKUP_PATH%\n   echo Backup completed successfully.

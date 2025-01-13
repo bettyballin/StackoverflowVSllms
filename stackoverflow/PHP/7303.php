@@ -1,1 +1,0 @@
-$fields = get_class_vars('DATABASE_CONFIG')\n\necho $fields['db1']['login'];

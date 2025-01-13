@@ -1,1 +1,0 @@
-header("Content-type: text/csv");\nheader("Content-Disposition: attachment; filename=file.csv");\nheader("Pragma: no-cache");\nheader("Expires: 0");\n\necho "record1,record2,record3\n";\ndie;

@@ -1,1 +1,0 @@
-public JsonResult GetList(int parentId)\n{\n  var results = dataRepository.GetById(parentId);\n\n  return new JsonResult()\n  {\n    Data = results.ToArray();\n  };\n}

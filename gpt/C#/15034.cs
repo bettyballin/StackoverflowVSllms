@@ -1,0 +1,1 @@
+protected void Session_End(object sender, EventArgs e)\n   {\n       Tracker tracker = new Tracker(this.Session);\n       tracker.Log();\n   }

@@ -1,0 +1,1 @@
+CustomLocation selectedLocation = row.Cells["Location"].Value as CustomLocation;

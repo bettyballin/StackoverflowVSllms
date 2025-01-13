@@ -1,0 +1,1 @@
+# Generate a keystore\nkeytool -genkey -alias myalias -keystore mykeystore.jks -keyalg RSA -keysize 2048 -validity 365\n\n# Sign the JAR file\njarsigner -keystore mykeystore.jks -storepass mypassword myapplet.jar myalias

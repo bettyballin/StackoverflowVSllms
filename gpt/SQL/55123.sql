@@ -1,0 +1,1 @@
+ALTER TABLE Product_Attribute ADD COLUMN is_deleted BOOLEAN DEFAULT FALSE;

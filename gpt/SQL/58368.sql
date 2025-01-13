@@ -1,0 +1,1 @@
+SELECT \n    HOUR(start_time) AS hour,\n    MINUTE(start_time) DIV 15 AS quarter,\n    SUM(TIMESTAMPDIFF(MINUTE, start_time, end_time) / 60) AS man_hours\nFROM timesheet\nGROUP BY hour, quarter\nORDER BY hour, quarter;

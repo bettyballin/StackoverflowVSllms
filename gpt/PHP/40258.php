@@ -1,0 +1,1 @@
+$sql = "INSERT INTO your_table (column1, column2) VALUES ('value1', 'value2')";\n   if ($conn->query($sql) === FALSE) {\n       echo "Error: " . $sql . "<br>" . $conn->error;\n   }

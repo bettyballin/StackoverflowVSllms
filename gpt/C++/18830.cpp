@@ -1,0 +1,1 @@
+#pragma once\n\ntemplate<typename T>\nclass B {\npublic:\n    void doSomething();\n};\n\n// Add this if you need to export the non-templated class\n// __declspec(dllexport) template class B<int>;

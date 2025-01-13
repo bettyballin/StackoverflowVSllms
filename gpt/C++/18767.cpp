@@ -1,0 +1,1 @@
+#include <list>\n#include <algorithm> // For std::remove_if\n\nvoid foo(std::list<CMyClass> &myList, const CMyClass &Bad) {\n    myList.remove_if([&Bad](const CMyClass &item) {\n        return item == Bad;\n    });\n}

@@ -1,1 +1,0 @@
-<?php\n$xml = '<a>\n  <b>xyz</b>\n  <c>\n</a>';\n\nlibxml_use_internal_errors(true);\n$doc = new DOMDocument;\nif ( !$doc->loadxml($xml) ) {\n  $errors = libxml_get_errors();\n  var_dump($errors);\n}

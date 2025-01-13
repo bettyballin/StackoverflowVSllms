@@ -1,0 +1,1 @@
+CREATE TABLE CreationInfo (\n    Id INTEGER PRIMARY KEY,\n    CreationDate DATE,\n    ReportingPeriodLength INTEGER\n);\n\nCREATE TABLE ReportingPeriods (\n    Id INTEGER PRIMARY KEY,\n    StartDate DATE,\n    EndDate DATE,\n    CreationInfoId INTEGER,\n    FOREIGN KEY (CreationInfoId) REFERENCES CreationInfo(Id)\n);

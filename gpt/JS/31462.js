@@ -1,0 +1,1 @@
+popup.document.body.innerHTML = "<div style='width:100%;height:100%;overflow:auto'>Simplified Content</div>";

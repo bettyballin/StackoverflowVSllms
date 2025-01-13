@@ -1,0 +1,1 @@
+SELECT \n    CAST(LEFT(CONVERT(VARCHAR, LeftDate, 120), 10) AS DATETIME) AS DateOnly, \n    LeftDate \nFROM Table\nWHERE LeftDate > '2008-12-31'

@@ -1,0 +1,1 @@
+USE [YourDatabaseName];\n   EXEC sp_fulltext_database 'enable';

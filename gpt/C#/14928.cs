@@ -1,0 +1,1 @@
+List<Person> people = this.GetPeople();\nif (people.Any(p => p.PersonID == newPerson.PersonID && p.PersonName == newPerson.PersonName))\n{\n    MessageBox.Show("This person is already in the party!");\n    return;\n}

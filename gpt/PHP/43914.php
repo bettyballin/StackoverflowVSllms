@@ -1,0 +1,1 @@
+$_SESSION['sess_msg'] = 'Please Enter the Correct Security Code';\n$_GET["friendid"] = $friendid;\n$_GET["p"] = 'mail.captcha';\n$_GET["f"] = 'friend';\ninclude ($_SERVER['DOCUMENT_ROOT'] . "/index.php");\nexit;

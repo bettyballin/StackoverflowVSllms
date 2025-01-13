@@ -1,0 +1,1 @@
+<h1>Articles</h1>\n<ul>\n    <?php foreach ($articles as $article): ?>\n        <li>\n            <a href="<?= $this->Url->build(['action' => 'view', $article->id]) ?>">\n                <?= h($article->title) ?>\n            </a>\n        </li>\n    <?php endforeach; ?>\n</ul>

@@ -1,1 +1,0 @@
-select ac.owner, ac.constraint_name, ac.table_name, ac.r_owner, ac.r_constraint_name,\n       acc.column_name, acc.position\nfrom all_constraints ac join all_cons_columns acc on\n (ac.owner = acc.owner and ac.constraint_name = acc.constraint_name)\nwhere ac.table_name = 'ARTIST'\nand ac.constraint_type = 'R'

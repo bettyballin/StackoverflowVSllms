@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n    const char *hexString = "0xfffffff";\n    long int number = strtol(hexString, NULL, 16);\n    \n    printf("The integer value is: %ld\n", number);\n\n    return 0;\n}

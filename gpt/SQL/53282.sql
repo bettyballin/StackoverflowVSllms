@@ -1,0 +1,1 @@
+SELECT DISTINCT \n    o.name,\n    s.name AS schema_name\nFROM \n    sysobjects o\nJOIN \n    sys.schemas s ON o.uid = s.schema_id

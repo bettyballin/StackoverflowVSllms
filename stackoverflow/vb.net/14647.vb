@@ -1,1 +1,0 @@
-Dim value As Long = token.ToInt64()

@@ -1,1 +1,0 @@
-control.Attributes["style"] = "visibility: visible";

@@ -1,0 +1,1 @@
+SELECT \n    name,\n    points,\n    (SELECT COUNT(*) + 1 \n     FROM users AS u2 \n     WHERE u2.points > u1.points) AS rank\nFROM \n    users AS u1\nWHERE \n    id = 3;

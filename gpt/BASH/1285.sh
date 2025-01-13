@@ -1,0 +1,1 @@
+perl -v\n   perl -MTemplate -e 'print $Template::VERSION'

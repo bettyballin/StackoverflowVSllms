@@ -1,0 +1,1 @@
+rails generate model Note content:text notable:references{polymorphic}

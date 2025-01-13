@@ -1,0 +1,1 @@
+<?php\n// Get the 'rowid' parameter from the URL\n$rowid = $_GET['rowid'];\n\n// Split the 'rowid' parameter by the comma\n$data = explode(",", $rowid);\n\n// Store each part in separate variables\n$part1 = $data[0]; // BL09.00001\n$part2 = $data[1]; // 0\n\n// Output the variables to verify\necho "Part 1: " . $part1 . "<br>";\necho "Part 2: " . $part2;\n?>

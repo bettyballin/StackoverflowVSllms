@@ -1,0 +1,1 @@
+struct iwreq request;\n    // set up request details\n    ioctl(sockfd, SIOCSIWSCAN, &request);

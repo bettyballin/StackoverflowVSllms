@@ -1,1 +1,0 @@
-screen -S test\nssh user@hostname command1\nssh user@hostname2 command2

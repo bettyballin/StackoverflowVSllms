@@ -1,0 +1,1 @@
+DECLARE @ProfitValue DECIMAL(10, 2)\nSET @ProfitValue = 150.00  -- Replace with the profit value you're evaluating\n\nSELECT CommPercentage \nFROM CommissionTable\nWHERE @ProfitValue BETWEEN ProfitStartRange AND ProfitEndRange

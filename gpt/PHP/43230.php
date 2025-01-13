@@ -1,0 +1,1 @@
+declare(strict_types=1);\n\nfunction mymodule_important_calculation(): int {\n    $result = /* ... long and complex calculation ... */;\n    return $result; // Ensure $result is of type int\n}

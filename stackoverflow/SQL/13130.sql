@@ -1,1 +1,0 @@
-select count(*) from dual where 1=2

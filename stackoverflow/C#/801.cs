@@ -1,1 +1,0 @@
-HtmlPage.RegisterScriptableObject("Page", this);  

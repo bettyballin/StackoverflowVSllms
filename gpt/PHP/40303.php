@@ -1,0 +1,1 @@
+function yourtheme_preprocess_user_profile(&$variables) {\n  // Load the full user object\n  $account = user_load($variables['account']->uid);\n  \n  // Add the email to the profile variables\n  $variables['user_email'] = $account->mail;\n}

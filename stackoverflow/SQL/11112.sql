@@ -1,1 +1,0 @@
-SELECT\n  tag_id,\n  COUNT(blog_post_id) + COUNT(blog_comment_id) tag_count\nFROM\n  Taggings\nGROUP BY\n  tag_id\nORDER BY\n  COUNT(blog_post_id) + COUNT(blog_comment_id) DESC

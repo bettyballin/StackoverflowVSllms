@@ -1,1 +1,0 @@
-source_file = open("myfile", "r")\nfile_data = list(source_file.read())\nsource_file.close()\nfile_data.insert(position, data)\nopen("myfile", "wb").write(file_data)

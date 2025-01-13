@@ -1,0 +1,1 @@
+CREATE TABLE news_audit (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    news_id INT,\n    title VARCHAR(255),\n    content TEXT,\n    operation VARCHAR(10),\n    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);

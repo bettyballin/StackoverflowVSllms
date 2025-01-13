@@ -1,1 +1,0 @@
-$str = '152.15 x 12.34 x 11mm';\npreg_match_all('!\d+(?:\.\d+)?!', $str, $matches);\n$floats = array_map('floatval', $matches[0]);\nprint_r($floats);

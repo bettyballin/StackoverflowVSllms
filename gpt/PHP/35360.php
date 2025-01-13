@@ -1,0 +1,1 @@
+// Example for PHP application\n   $mysqli = new mysqli("hostname", "username", "password", "database");\n\n   /* Set the desired charset after establishing connection */\n   $mysqli->set_charset("utf8");

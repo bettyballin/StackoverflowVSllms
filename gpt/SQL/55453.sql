@@ -1,0 +1,1 @@
+SET @running_total = 0;\n\nSELECT id\nFROM (\n    SELECT id, quantity, @running_total := @running_total + quantity AS cumulative_sum\n    FROM your_table\n    ORDER BY id\n) AS subquery\nWHERE cumulative_sum >= 40\nORDER BY cumulative_sum ASC\nLIMIT 1;

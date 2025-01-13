@@ -1,1 +1,0 @@
-long n = RegOpenKeyEx(HKEY_LOCAL_MACHINE,TEXT("SOFTWARE"),\n                      0,KEY_QUERY_VALUE, &hk );
