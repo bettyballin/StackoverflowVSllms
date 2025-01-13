@@ -1,0 +1,1 @@
+type web.config | findstr connectionString

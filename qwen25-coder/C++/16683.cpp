@@ -1,0 +1,1 @@
+#include <omp.h>\n   \n   int main() {\n       #pragma omp parallel for\n       for (int i = 0; i < some_large_number; ++i) {\n           // Your computationally intensive loop code here\n       }\n       return 0;\n   }

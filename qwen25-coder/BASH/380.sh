@@ -1,0 +1,1 @@
+export TMPDIR=/path/to/another/directory\n   pecl install your_extensio

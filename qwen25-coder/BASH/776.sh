@@ -1,0 +1,1 @@
+# Sample bash commands, convert to PowerShell or another language as needed\nfind . -name "*.csproj" | xargs grep "Release\|x86"

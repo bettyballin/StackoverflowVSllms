@@ -1,0 +1,1 @@
+// Setup SubSonic for use with SimpleRepo (assuming PostgreSQL here)\nvar repo = new PostgresRepository();\n\n// Inserting a simple record\nrepo.Add(new User { Name = "John Doe", Email = "john@example.com" });\n\n// Querying records\nList<User> users = repo.All<User>();\n\nforeach(var user in users)\n{\n    Console.WriteLine(user.Name);\n}

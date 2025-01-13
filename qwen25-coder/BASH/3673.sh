@@ -1,0 +1,1 @@
+echo 'export PATH=$PATH:/usr/local/bin' >> ~/.bash_profile\nsource ~/.bash_profile

@@ -1,0 +1,1 @@
+using (OracleDataReader reader = command.ExecuteReader())\n{\n    while (reader.Read())\n    {\n        int integerValue = reader.GetInt32(reader.GetOrdinal("integer_value"));\n        // Now you can use integerValue as the integer value from your database.\n    }\n}

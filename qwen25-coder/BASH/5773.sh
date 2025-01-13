@@ -1,0 +1,1 @@
+# Shell command example to convert Odt to Pdf using LibreOffice\nsoffice --headless --convert-to pdf:writer_pdf_Export /path/to/document.odt --outdir /output/path/

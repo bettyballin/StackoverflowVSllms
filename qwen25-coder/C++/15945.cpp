@@ -1,0 +1,1 @@
+[\n    uuid("YOUR-GUID-HERE"),\n    version(1.0),\n    helpstring("IErrorInfo Interface")\n]\ninterface IErrorInfo : IDispatch{\n    [id(DISPID_ERROR_MESSAGE)] HRESULT GetErrorMessage([out, retval] BSTR* pMessage);\n    [id(DISPID_ERROR_CODE)] HRESULT GetErrorCode([out, retval] LONG* pCode);\n};

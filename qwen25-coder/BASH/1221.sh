@@ -1,0 +1,1 @@
+hdiutil attach ~/Documents/EncryptedVolume.sparsebundle

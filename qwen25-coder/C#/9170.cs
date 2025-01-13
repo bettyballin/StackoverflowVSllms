@@ -1,0 +1,1 @@
+void Application_EndRequest(object sender, EventArgs e)\n{\n    var context = ((HttpApplication)sender).Context;\n    if (context.Response.Filter is ByteCountingStream byteCountingStream)\n    {\n        long bytesSent = byteCountingStream.BytesWritten;\n        // Do something with bytesSent\n    }\n}

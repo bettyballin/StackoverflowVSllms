@@ -1,0 +1,1 @@
+export LD_PRELOAD=./libmalloc_hook.so\njava -jar YourApplication.jar

@@ -1,0 +1,1 @@
+copy C:\Windows\System32\inetsrv\MetaBase.xml.meta C:\Windows\System32\inetsrv\MetaBase.xml.bak

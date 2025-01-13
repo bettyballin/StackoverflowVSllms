@@ -1,0 +1,1 @@
+Subsystem sftp internal-sftp\n\n   Match User yourusername\n       ForceCommand internal-sftp -d /path/to/allowed/directory\n       AllowTcpForwarding no\n       X11Forwarding no

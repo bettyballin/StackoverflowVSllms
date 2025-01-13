@@ -1,0 +1,1 @@
+# For dump\n  mysqldump --tab=/path/to/dir --single-transaction database_name\n \n  # For import\n  mysqlimport --ignore-lines=1 -u user -p --local database_name /path/to/dir/*.txt

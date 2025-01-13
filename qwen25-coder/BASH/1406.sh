@@ -1,0 +1,1 @@
+// Compile your classes with source and target compatibility set to Java 5\njavac -source 1.5 -target 1.5 YourRmiClass.java

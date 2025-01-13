@@ -1,0 +1,1 @@
+public class ViewModel\n{\n    public int CountryId { get; set; }\n    public IEnumerable<SelectListItem> Countries { get; set; }\n\n    public int RegionId { get; set; }\n    // You might not need to include Region list here as it's populated via AJAX\n}

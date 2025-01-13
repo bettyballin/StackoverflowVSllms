@@ -1,0 +1,1 @@
+# Configure for dynamic linking and include iconv library\n   ./configure --enable-monolithic --with-macosx-version-min=10.9 --disable-shared --extra-link-flags="-liconv"\n   make\n   sudo make install

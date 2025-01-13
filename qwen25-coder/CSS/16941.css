@@ -1,0 +1,1 @@
+.header_banner {\n    float: left;\n    width: 531px;\n    font-size: 0; /* Removes space between inline elements */\n}\n\n.header_banner img {\n    display: block; /* Ensures the image doesn't inherit any line-height */\n}\n\n/* Rest of your CSS remains the same */

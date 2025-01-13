@@ -1,0 +1,1 @@
+try\n{\n    // Your code here\n}\ncatch (Exception ex)\n{\n    Debug.WriteLine(ex.ToString()); // Useful for debugging in debug mode\n    Trace.WriteLine(ex.ToString()); // Will be available in release mode as well, unless configured otherwise\n}

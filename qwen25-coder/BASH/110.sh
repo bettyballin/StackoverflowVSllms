@@ -1,0 +1,1 @@
+echo queue/nr_requests = 2048 | sudo tee /sys/block/sda/queue/nr_requests

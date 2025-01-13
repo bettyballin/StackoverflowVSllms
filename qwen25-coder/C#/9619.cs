@@ -1,0 +1,1 @@
+public void BindGrid()\n   {\n       int pageIndex = GridView1.PageIndex;\n       GridView1.DataSource = GetData(pageIndex, GridView1.PageSize);\n       GridView1.DataBind();\n   }

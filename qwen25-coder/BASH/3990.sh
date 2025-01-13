@@ -1,0 +1,1 @@
+curl -X PUT -H "Content-Type: application/json" --data-binary @test/data.json http://localhost:5000/resource/33?format=jso

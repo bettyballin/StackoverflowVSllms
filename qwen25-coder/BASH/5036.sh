@@ -1,0 +1,1 @@
+x86_64-w64-mingw32-gcc your_c_file.o your_nasm_file.o -o your_program.exe

@@ -1,0 +1,1 @@
+# Disable device\nDisable-PnpDevice -InstanceId "YOUR_DEVICE_ID" -Confirm:$false\n\n# Enable device\nEnable-PnpDevice -InstanceId "YOUR_DEVICE_ID" -Confirm:$false

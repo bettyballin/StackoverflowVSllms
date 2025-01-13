@@ -1,0 +1,1 @@
+sleep 3600\n   kill $MY_PID

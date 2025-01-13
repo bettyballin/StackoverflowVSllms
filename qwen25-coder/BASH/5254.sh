@@ -1,0 +1,1 @@
+@echo off\nsetlocal\n\n:: Prompt user for password\nset /p password=Enter Password: \n\n:: Check the entered password (case-sensitive)\nif "%password%"=="yourPassword123" (\n    echo Correct password. Running SAS code...\n    "C:\Program Files\SASHome\SASFoundation\9.4\sas.exe" -sysin "P:\path_to_your_code\your_script.sas"\n) else (\n    echo Incorrect password.\n)\n\nendlocal

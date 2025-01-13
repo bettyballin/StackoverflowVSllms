@@ -1,0 +1,1 @@
+public class EmployeeViewModel\n{\n    public int EmployeeId { get; set; }\n    public string Name { get; set; }\n    public string Position { get; set; }\n}

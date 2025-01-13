@@ -1,0 +1,1 @@
+// Original class\npublic class MyLibraryClass {\n    public void DoWork() {\n        // Important logic\n    }\n}\n\n// Obfuscated version\npublic class _8fj293jf {\n    public void _87sdf8sd() {\n        // Important logic\n    }\n}

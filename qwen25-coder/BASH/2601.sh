@@ -1,0 +1,1 @@
+wget -i urls.txt -P downloaded_htmls/

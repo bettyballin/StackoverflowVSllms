@@ -1,0 +1,1 @@
+// Example for setting preprocessor definitions in Visual Studio 2008:\n    // Right-click on project -> Properties -> Configuration Properties -> C/C++ -> Preprocessor

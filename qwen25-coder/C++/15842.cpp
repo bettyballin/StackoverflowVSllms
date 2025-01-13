@@ -1,0 +1,1 @@
+#include <iostream>\nusing namespace std;\n\n// Global function definitions\nvoid world() {\n    cout << "world." << endl;\n}\n\nint main()\n{\n    // Local declaration of the global function\n    void world(); \n    cout << "Hello ";\n    world();  // Calls the globally defined world function\n    return 0;\n}

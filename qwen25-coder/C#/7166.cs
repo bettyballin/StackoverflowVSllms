@@ -1,0 +1,1 @@
+// Example of using Entity Framework Core to query a database in an object-oriented way\nusing (var context = new BloggingContext())\n{\n    var blogs = context.Blogs\n        .Where(b => b.Url.Contains("dotnet"))\n        .OrderBy(b => b.Name)\n        .ToList();\n}

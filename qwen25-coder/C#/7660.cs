@@ -1,0 +1,1 @@
+public class MyRpcService : IMyRpcService\n{\n    public string MyOperation(string value)\n    {\n        return "You said: " + value;\n    }\n}

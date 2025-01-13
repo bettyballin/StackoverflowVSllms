@@ -1,0 +1,1 @@
+using System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        string header = File.ReadAllText("header.txt");\n        string content = File.ReadAllText("content.txt");\n        string footer = File.ReadAllText("footer.txt");\n\n        string result = header + content + footer;\n        File.WriteAllText("output.txt", result);\n    }\n}

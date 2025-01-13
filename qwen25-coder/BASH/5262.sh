@@ -1,0 +1,1 @@
+del /F /Q "%_ProjectPath%\bin\FastImage.dll"\n     if exist "%_ProjectPath%\bin\FastImage.dll" (\n         echo File still exists after deletion. Taking manual action...\n         REM Add commands here to restart IIS, etc.\n     ) else (\n         echo File deleted successfully.\n     )

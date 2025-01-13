@@ -1,0 +1,1 @@
+protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)\n{\n    // Example of enabling or disabling validators based on dropdown selection\n    Validator1.Enabled = (DropDownList1.SelectedValue == "someValue");\n    Page.Validate(); // Optionally force validation recheck if necessary\n}

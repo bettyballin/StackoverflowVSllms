@@ -1,0 +1,1 @@
+app.Use(async (context, next) =>\n   {\n       context.Response.Headers.Add("X-Content-Type-Options", "nosniff");\n       context.Response.Headers.Add("X-XSS-Protection", "1; mode=block");\n       context.Response.Headers.Add("Content-Security-Policy", "default-src 'self'; script-src 'self' https://trusted.cdn.com;");\n       await next();\n   });

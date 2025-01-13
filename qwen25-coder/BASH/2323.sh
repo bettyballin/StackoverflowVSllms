@@ -1,0 +1,1 @@
+#!/bin/bash\n   cp $1 tempfile\n   iconv -f UTF-8 -t UTF-8 -c tempfile > $2\n   rm tempfile

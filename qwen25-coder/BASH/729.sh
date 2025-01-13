@@ -1,0 +1,1 @@
+# First, dump the source database\npg_dump -U username sourcedb > sourcedb.sql\n\n# Create the target database (if it does not already exist)\ncreatedb -U username targetdb\n\n# Restore the dumped data into the new database\npsql -U username -d targetdb -f sourcedb.sql

@@ -1,0 +1,1 @@
+# Enable rewrite module\n   sudo a2enmod rewrite

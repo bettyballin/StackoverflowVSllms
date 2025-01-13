@@ -1,0 +1,1 @@
+./add-user.sh -u admin_username -p secure_password -r ManagementRealm -g admin,monitor

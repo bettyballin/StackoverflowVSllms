@@ -1,0 +1,1 @@
+# Example of using Ghostscript to convert a PCL file (PostScript Level) to PDF\ngs -dBATCH -dNOPAUSE \\n   -sDEVICE=pdfwrite \\n   -sOutputFile=output.pdf \\n   input.pcl

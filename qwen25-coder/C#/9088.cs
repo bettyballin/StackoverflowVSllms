@@ -1,0 +1,1 @@
+using System.Web.Mvc;\n\n   public class YourController : Controller\n   {\n       [HttpPost]\n       public ActionResult Move()\n       {\n           // Implement the logic for moving here\n           return Json(new { success = true, message = "Move successful" });\n       }\n   }

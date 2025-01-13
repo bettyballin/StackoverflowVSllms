@@ -1,0 +1,1 @@
+# Apache configuration\nHeader always append X-Frame-Options DENY\n\n# Or for SAMEORIGIN\n# Header always append X-Frame-Options SAMEORIGIN

@@ -1,0 +1,1 @@
+using System.Web.Security;\n   \n   // Use SHA256 or better hashing algorithms\n   string hashedPassword = FormsAuthentication.HashPasswordForStoringInConfigFile(password, "SHA256");

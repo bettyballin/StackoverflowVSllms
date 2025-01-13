@@ -1,0 +1,1 @@
+/* Using CSS to display spans side by side */\nspan + span {\n    margin-left: -4px; /* Adjust as necessary */\n}

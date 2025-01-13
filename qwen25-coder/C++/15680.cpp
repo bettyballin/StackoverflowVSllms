@@ -1,0 +1,1 @@
+#include <iostream>\n\nclass A {\npublic: \n    explicit A(int x) {}\n};\n\nclass B : public A {\npublic:\n    // Explicitly defining a constructor that takes an int and passes it to A's constructor\n    explicit B(int x) : A(x) {}\n};\n\nint main(void) {\n    B *b = new B(5);\n    delete b;\n}

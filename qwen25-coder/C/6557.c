@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <string.h>\n\nint main() {\n    char str1[50] = "Hello"; // Ensure this buffer is large enough to hold both strings and the null terminator.\n    const char str2[] = "World";\n\n    // Concatenate str2 to str1\n    strcat(str1, str2);\n\n    printf("Concatenated String: %s\n", str1);\n    return 0;\n}

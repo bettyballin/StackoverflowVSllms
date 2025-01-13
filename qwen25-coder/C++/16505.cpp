@@ -1,0 +1,1 @@
+IConnectionPoint* pConnection; // assume this is already obtained as in your code snippet above\nCEventHandler* pHandler = new CEventHandler();\nDWORD dwCookie;\n\nhresult = pConnection->Advise(pHandler, &dwCookie);\n// result handling omitted

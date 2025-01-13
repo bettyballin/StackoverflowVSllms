@@ -1,0 +1,1 @@
+ci -u -m "Your commit message" file.txt  # Check in changes and unlock

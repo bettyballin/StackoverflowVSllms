@@ -1,0 +1,1 @@
+# Backup database before deployment\n   docker exec db_container_name mysqldump my_database > backup.sql\n   \n   # Restore database after deployment if needed\n   cat backup.sql | docker exec -i db_container_name mysql -u root -proot_password my_database

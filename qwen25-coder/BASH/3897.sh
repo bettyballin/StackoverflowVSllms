@@ -1,0 +1,1 @@
+git clone /path/to/new-remote-repo PPP-repo

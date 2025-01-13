@@ -1,0 +1,1 @@
+// Server-side: PageMethod example in C#\n[System.Web.Services.WebMethod]\npublic static string GetUserData(string tokenId)\n{\n    int userId = MapTokenToUserId(tokenId); // Function to resolve token to user ID\n    if (userId == 0) return "Invalid token";\n\n    var data = FetchDataForUser(userId);\n    return JsonConvert.SerializeObject(data);\n}

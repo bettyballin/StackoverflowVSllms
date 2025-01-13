@@ -1,0 +1,1 @@
+#!/bin/bash\n\n   # Knock Sequence for Apache Restart, adjust IP and ports as needed\n   PORTS="7000 8000 9000"\n\n   for port in $PORTS; do\n       /usr/bin/nc -w1 -puvz <target_ip> $port > /dev/null 2>&1\n       sleep 0.5\n   done

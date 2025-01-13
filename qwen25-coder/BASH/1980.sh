@@ -1,0 +1,1 @@
+Example using Rsync with compression:\n   rsync -avz --compress-level=9 /path/to/backup user@remotehost:/path/to/destination/

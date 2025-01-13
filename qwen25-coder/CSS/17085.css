@@ -1,0 +1,1 @@
+.img::after {\n    content: '';\n    display: block;\n    width: 100%;\n    height: 100%;\n    position: absolute;\n    top: 0;\n    left: 0;\n}\n\n.img_holder {\n    border: 1px solid #c8c8c8;\n    display: inline-block; /* Changed to inline-block for better control */\n    background: #fff;\n    height: 100px;\n    position: relative;\n}

@@ -1,0 +1,1 @@
+openssl s_client -connect smtpserver:25 -starttls smtp\nopenssl s_client -connect smtpserver:587 -starttls smtp

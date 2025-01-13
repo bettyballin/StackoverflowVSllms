@@ -1,0 +1,1 @@
+gcc -Werror=non-pod-varargs your_source_file.c -o your_program

@@ -1,0 +1,1 @@
+[Serializable]\n[ComVisible(true)]\n[StructLayout(LayoutKind.Sequential, CharSet = CharSet.Auto)]\npublic struct Statistics\n{\n    public double Mean;\n    public double StdDev;\n}\n\n[ComVisible(true)]\npublic interface IStatisticsHandler\n{\n    void ProcessStats(Statistics[] stats);\n}

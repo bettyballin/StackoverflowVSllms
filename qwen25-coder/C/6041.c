@@ -1,0 +1,1 @@
+// Example of initializing AACPlus encoder\n   #include "aacplus.h"

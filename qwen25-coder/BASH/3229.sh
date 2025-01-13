@@ -1,0 +1,1 @@
+wsdl /language:C# https://srs204.mywebsite.ca:7776/SomeDirectory/MyWebService?WSDL

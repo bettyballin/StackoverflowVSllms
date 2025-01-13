@@ -1,0 +1,1 @@
+// Example of a simple ASP.NET Core controller in C#\npublic class HomeController : Controller\n{\n    public IActionResult Index()\n    {\n        return View();\n    }\n}

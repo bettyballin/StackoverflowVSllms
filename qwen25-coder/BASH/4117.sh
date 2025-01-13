@@ -1,0 +1,1 @@
+g++ -Wall -Wextra -pedantic -std=c++17 your_code.cpp -o your_program

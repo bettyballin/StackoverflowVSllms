@@ -1,0 +1,1 @@
+for (i = 1; i < length; i++) {\n    Particle temp = particles[i]; // Store the whole particle\n    int value = particles[i].position.x;    \n    j = i - 1;\n    while (j >= 0 && particles[j].position.x > value) {\n        particles[j + 1] = particles[j];\n        j = j - 1;\n    }\n    particles[j + 1] = temp; // Place the stored particle in the correct position\n}

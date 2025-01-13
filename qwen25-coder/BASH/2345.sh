@@ -1,0 +1,1 @@
+# Example of a commit message including task/bug number\ngit commit -m "Fixes #829: Resolved issue with login timeout"

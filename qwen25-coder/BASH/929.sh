@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Source environment variables\nsource /etc/default/thin\n\n# Run the thin command\nexec /usr/local/bin/thin $THIN_OPTIONS start

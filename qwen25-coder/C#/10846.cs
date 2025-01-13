@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        string someVariableValue = Request.QueryString["somevariable"];\n        // Use someVariableValue as needed\n        if (someVariableValue != null)\n        {\n            Response.Write("The value of somevariable is: " + HttpUtility.HtmlEncode(someVariableValue));\n        }\n    }\n}

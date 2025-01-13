@@ -1,0 +1,1 @@
+var connectionString = "your_connection_string_here";\nvar dbVersion = DatabaseInfoChecker.GetDbVersion(connectionString);\nbool isExpress = DatabaseInfoChecker.IsSqlExpress(dbVersion);\n\nif (isExpress)\n{\n    Console.WriteLine("Running on SQL Server Express.");\n}\nelse\n{\n    Console.WriteLine("Not running on SQL Server Express.");\n}

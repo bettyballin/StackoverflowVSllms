@@ -1,0 +1,1 @@
+# Example of setting the Base SDK in an Xcode project file using PlistBuddy\n/usr/libexec/PlistBuddy -c "Set:BuildSettings.SDKROOT iphoneos16.0" YourProjectName.xcodeproj/project.pbxproj

@@ -1,0 +1,1 @@
+if declare -f __git_ps1 > /dev/null; then\n    PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '\nelse\n    PS1='[\u@\h \W]\$ '\nfi

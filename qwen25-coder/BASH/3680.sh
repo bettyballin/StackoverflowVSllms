@@ -1,0 +1,1 @@
+sed -i '3s/$/, extra information/' filename.txt

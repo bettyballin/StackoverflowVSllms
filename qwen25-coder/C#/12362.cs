@@ -1,0 +1,1 @@
+// Example of DbContext in Entity Framework\n   using System.Data.Entity;\n\n   public class MyDbContext : DbContext\n   {\n       public DbSet<User> Users { get; set; }\n   }

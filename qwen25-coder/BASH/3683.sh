@@ -1,0 +1,1 @@
+sudo apt-get install fs-uae-launcher

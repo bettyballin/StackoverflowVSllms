@@ -1,0 +1,1 @@
+tail -f /path/to/php-error.log

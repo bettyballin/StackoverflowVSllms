@@ -1,0 +1,1 @@
+ul {\n  list-style-type: none; /* Remove default bullets */\n}\n\nli {\n  list-style-image: url('your-bullet-image.png'); /* Replace with your bullet image URL */\n  line-height: 1.5; /* Adjust the line height to align the text vertically with the bullet */\n}

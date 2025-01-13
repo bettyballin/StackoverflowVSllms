@@ -1,0 +1,1 @@
+# Example of PGP encryption/decryption commands\n   gpg --encrypt --recipient user@example.com secrets.txt\n   gpg --decrypt secrets.txt.gpg

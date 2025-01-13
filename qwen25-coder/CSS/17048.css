@@ -1,0 +1,1 @@
+input:focus,\ntextarea:focus,\nselect:focus {\n    outline: none;\n}

@@ -1,0 +1,1 @@
+sudo grep -E "^${USER}\s+ALL=\(ALL:ALL\)\s+NOPASSWD:" /etc/sudoers || echo "NOPASSWD not set for ${USER}"

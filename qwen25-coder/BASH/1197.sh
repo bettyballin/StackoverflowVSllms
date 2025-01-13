@@ -1,0 +1,1 @@
+*/5 * * * * /path/to/check_service.sh

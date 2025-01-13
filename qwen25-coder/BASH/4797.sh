@@ -1,0 +1,1 @@
+# Navigate to PHP source directory\ncd C:\php-src\n\n# Copy the pecl_http extension source files into this directory or subdirectory as necessary\n\n# Configure the build process\nphpsdk_sezero.bat\nconfigure --disable-all --enable-cli --with-ts-win32 --prefix=C:\php-compiled --enable-your-extension=shared\n\n# Compile the extension\nnmake /f Makefile.nmake

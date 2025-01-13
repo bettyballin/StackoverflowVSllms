@@ -1,0 +1,1 @@
+class ISettingsManager {\npublic:\n    virtual ~ISettingsManager() {}\n    virtual void LoadSetting(const CString& key, CString& value) = 0;\n    virtual void SaveSetting(const CString& key, const CString& value) = 0;\n};

@@ -1,0 +1,1 @@
+keytool -genkey -keystore mykeystore.jks -alias myalias\n   jarsigner -keystore mykeystore.jks yourapplet.jar myalias

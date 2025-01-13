@@ -1,0 +1,1 @@
+#include <iostream>\n#include <filesystem>\n\nnamespace fs = std::filesystem;\n\nint main() {\n    if (fs::exists("path/to/your/file")) {\n        std::cout << "File exists." << std::endl;\n    } else {\n        std::cout << "File does not exist." << std::endl;\n    }\n    return 0;\n}

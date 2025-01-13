@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\npublic void OpenInFirefox(string url)\n{\n    Process.Start("firefox.exe", url);\n}

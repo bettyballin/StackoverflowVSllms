@@ -1,0 +1,1 @@
+// Example of a simple C program to demonstrate speed for CPU-bound tasks\n#include <stdio.h>\n\nlong factorial(int n) {\n    if (n == 0) return 1;\n    else return n * factorial(n - 1);\n}\n\nint main() {\n    int num = 20;\n    printf("Factorial of %d is %ld\n", num, factorial(num));\n    return 0;\n}

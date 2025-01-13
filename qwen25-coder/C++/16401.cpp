@@ -1,0 +1,1 @@
+#include <list>\n#include <algorithm>\n\nint main() {\n    std::list<int> the_list = {3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5};\n\n    // Use the list's member sort function for stable sorting\n    the_list.sort();\n\n    // If you need a custom comparator, you can pass it as an argument:\n    // the_list.sort(custom_comparator);\n\n    return 0;\n}

@@ -1,0 +1,1 @@
+catch (_com_error& e)

@@ -1,0 +1,1 @@
+public class MyController : Controller\n{\n    private int mVar;\n\n    public ActionResult Index()\n    {\n        if (Session["value"] != null)\n        {\n            mVar = (int)Session["value"];\n            // Use mVar as needed\n        }\n        \n        return View();\n    }\n}

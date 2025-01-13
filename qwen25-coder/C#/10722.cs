@@ -1,0 +1,1 @@
+int index = text.IndexOf("element4"); // Returns the zero-based index of "element4"

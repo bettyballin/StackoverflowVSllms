@@ -1,0 +1,1 @@
+# On Linux/Unix, from the $ORACLE_HOME/dbs directory:\norapwd file=$ORACLE_HOME/dbs/orapw$ORACLE_SID password=123456 entries=10

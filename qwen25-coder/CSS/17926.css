@@ -1,0 +1,1 @@
+.thumbnail-gallery {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n    gap: 10px;\n}\n\n.thumbnail-item {\n    background-color: #f0f0f0;\n    border: 1px solid #ccc;\n    text-align: center;\n    padding: 8px;\n}\n\n.thumbnail-item img {\n    max-width: 100%;\n    height: auto;\n}

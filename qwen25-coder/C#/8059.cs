@@ -1,0 +1,1 @@
+string redirectUrl = "https://myserver/Login.aspx";\nResponse.Redirect(redirectUrl);

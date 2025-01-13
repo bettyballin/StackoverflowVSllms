@@ -1,0 +1,1 @@
+// CAUTION: Use with caution and test\n   type.GetField("fieldName", BindingFlags.NonPublic | BindingFlags.Instance);

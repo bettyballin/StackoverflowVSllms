@@ -1,0 +1,1 @@
+class RegistrySettingsManager : public ISettingsManager {\npublic:\n    void LoadSetting(const CString& key, CString& value) override {\n        // Implementation to load setting from the registry\n    }\n\n    void SaveSetting(const CString& key, const CString& value) override {\n        // Implementation to save setting to the registry\n    }\n};

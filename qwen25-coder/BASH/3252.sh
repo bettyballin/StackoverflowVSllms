@@ -1,0 +1,1 @@
+certmgr -add -c "path_to_your_certificate.cer" -s -r localMachine root

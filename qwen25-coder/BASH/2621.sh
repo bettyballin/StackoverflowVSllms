@@ -1,0 +1,1 @@
+ab -n 1000 -c 10 http://localhost/direct_php.php\n   /usr/bin/time -v php direct_php.php

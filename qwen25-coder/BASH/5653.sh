@@ -1,0 +1,1 @@
+# Check Java version\njava -version\n\n# Check Maven version (if using)\nmvn -v

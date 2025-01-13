@@ -1,0 +1,1 @@
+// Using constraints for better error reporting and readability\nAssert.That(product.IsValid(), Is.False, "A product without a valid price should not be considered valid.");\n\n// The alternative might not provide as clear an understanding of the failure context\nAssert.AreEqual(false, product.IsValid(), "A product without a valid price should not be considered valid.");

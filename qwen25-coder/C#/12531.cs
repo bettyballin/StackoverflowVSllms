@@ -1,0 +1,1 @@
+// In Default.aspx.cs (C# WebService)\n[WebMethod]\npublic static List<string> GetData()\n{\n    return new List<string> { "Item 1", "Item 2", "Item 3" };\n}

@@ -1,0 +1,1 @@
+sudo -u www-data ./srch.sh

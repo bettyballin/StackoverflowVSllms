@@ -1,0 +1,1 @@
+List<string> values = new List<string>();\nforeach (string v in reader) // Adjust this as per actual reader usage\n{\n    values.Add(v);\n}\nstring query = $"INSERT INTO [foo] ([bar]) VALUES({String.Join(",", values)})";

@@ -1,0 +1,1 @@
+/* Ensure consistent box model */\n.bdydiv, .coldiv {\n    box-sizing: border-box;\n}\n\n/* Add reset styles (or use Normalize.css) */\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n}

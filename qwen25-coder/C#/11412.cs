@@ -1,0 +1,1 @@
+[AdminOnly]\npublic class UsersController : Controller\n{\n    public ActionResult ManageUsers()\n    {\n        // Your action logic here\n        return View();\n    }\n    \n    // Other actions requiring admin rights\n}

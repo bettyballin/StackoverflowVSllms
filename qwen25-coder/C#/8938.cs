@@ -1,0 +1,1 @@
+DateTime dt = new DateTime(2009, 3, 24, 1, 0, 0, DateTimeKind.Local);\nDateTime utcDt = TimeZoneInfo.ConvertTimeToUtc(dt);\nConsole.WriteLine(utcDt.ToString()); // Outputs "23/03/2009 23:00:00" if run in a BST environment

@@ -1,0 +1,1 @@
+using BenchmarkDotNet.Running;\n   \n   class Program {\n       static void Main(string[] args) => BenchmarkRunner.Run<MyBenchmarks>();\n   }

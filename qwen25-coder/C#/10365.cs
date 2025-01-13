@@ -1,0 +1,1 @@
+public interface IHttpContextWrapper\n{\n    string GetRequestUri();\n}\n\npublic class HttpContextWrapper : IHttpContextWrapper\n{\n    public string GetRequestUri()\n    {\n        return HttpContext.Current.Request.Url.AbsoluteUri;\n    }\n}

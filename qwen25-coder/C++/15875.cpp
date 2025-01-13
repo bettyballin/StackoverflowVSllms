@@ -1,0 +1,1 @@
+// ConcreteAlgorithm.h\n#ifndef CONCRETEALGORITHM_H\n#define CONCRETEALGORITHM_H\n\n#include "AlgorithmInterface.h"\n\nclass ConcreteAlgorithm : public AlgorithmInterface {\npublic:\n    std::vector<double> process(const std::vector<double>& data) const override;\n};\n\n#endif // CONCRETEALGORITHM_H

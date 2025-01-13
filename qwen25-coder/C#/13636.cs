@@ -1,0 +1,1 @@
+using FluentNHibernate.Mapping;\n\npublic class ClientMap : ClassMap<Client>\n{\n    public ClientMap()\n    {\n        Table("clients");\n        Id(x => x.Id);\n\n        // Assuming you have a Language property in your Client entity\n        Map(x => x.Language).CustomType<LanguageUserType>();\n    }\n}

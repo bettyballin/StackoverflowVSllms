@@ -1,0 +1,1 @@
+private void OpenForm2Button_Click(object sender, EventArgs e)\n{\n    int customerId = 1; // Example customer ID\n    var form2 = new Form2(customerId);\n    form2.Show();\n}

@@ -1,0 +1,1 @@
+appcmd add site /name:"MySite" /physicalPath:"C:\inetpub\wwwroot\MySite" /bindings:http/*:8080:

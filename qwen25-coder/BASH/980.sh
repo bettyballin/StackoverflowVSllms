@@ -1,0 +1,1 @@
+# Push your JavaScript file to any folder in your GitHub repo\n   cd path/to/your/repo\n   echo "console.log('Hello World!');" > js/example.js\n   git add js/example.js\n   git commit -m "Add example.js"\n   git push origin mai

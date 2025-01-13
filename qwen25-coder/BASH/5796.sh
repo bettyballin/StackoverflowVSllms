@@ -1,0 +1,1 @@
+cp /path/to/source/* ~/rpmbuild/SOURCES/

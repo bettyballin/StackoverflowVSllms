@@ -1,0 +1,1 @@
+svn merge -c -1234 https://svn.example.com/repo/trunk \\n        https://svn.example.com/repo/branches/release-1.0

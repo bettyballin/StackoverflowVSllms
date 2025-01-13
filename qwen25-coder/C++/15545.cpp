@@ -1,0 +1,1 @@
+template <typename X, typename Y=Base<X>, typename Z=void>\nstruct Foo;\n\ntemplate <typename X>\nstruct Foo<X, Base<X>, void> { enum { value = 0 }; };\n\ntemplate <typename X, typename Y>\nstruct Foo<X, Y, typename enable_if<Y>::type > { enum { value = 1 }; };

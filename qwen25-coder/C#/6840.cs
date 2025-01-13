@@ -1,0 +1,1 @@
+// Example of using multiplication with inverse in C#\ndouble MMSquared = 1000; // example value\ndouble SquareInches = MMSquared * 0.0015500031000062000124000248000496;

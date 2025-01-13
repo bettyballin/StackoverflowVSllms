@@ -1,0 +1,1 @@
+private int _componentCounter = 0;\n\nprotected void AddComponent()\n{\n    string newId = "componentid_" + (_componentCounter++);\n    ReorderListItem newItem = new ReorderListItem { ID = newId };\n    // Configure newItem and add to your ReorderList control\n    MyReorderList.Items.Add(newItem);\n}

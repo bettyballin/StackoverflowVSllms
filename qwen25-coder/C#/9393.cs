@@ -1,0 +1,1 @@
+using System;\nusing System.Reflection;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        var setup = new AppDomainSetup();\n        setup.PrivateBinPath = "path/to/private/bin";\n\n        var domain = AppDomain.CreateDomain("NewDomain", null, setup);\n\n        // Execute code in the new appdomain...\n    }\n}

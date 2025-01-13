@@ -1,0 +1,1 @@
+result = result.Replace("~", "%7E");

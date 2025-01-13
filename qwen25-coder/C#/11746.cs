@@ -1,0 +1,1 @@
+<#@ output extension=".txt" #>\nThis is a simple T4 template.\n\n<# \n    // Example C# code block\n    string message = "Hello from T4!";\n#>\n\nMessage: <#= message #>

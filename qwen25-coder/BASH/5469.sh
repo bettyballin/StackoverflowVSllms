@@ -1,0 +1,1 @@
+echo -n | openssl s_client -connect my.funny.url:443 2>/dev/null | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > certFile.pem

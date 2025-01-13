@@ -1,0 +1,1 @@
+std::transform(m.begin(),\n               m.end(),\n               std::back_inserter(v),\n               std::tr1::bind(&MyMap::value_type::first, _1));

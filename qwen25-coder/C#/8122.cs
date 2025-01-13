@@ -1,0 +1,1 @@
+public class SomeServiceTests\n{\n    [Fact]\n    public void TestDoSomething()\n    {\n        var mockConfig = new Mock<IConfigurationManager>();\n        mockConfig.SetupGet(m => m.DBConnectionString).Returns("test_connection_string");\n\n        var service = new SomeService(mockConfig.Object);\n        // Assert expected behavior\n    }\n}

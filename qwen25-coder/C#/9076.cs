@@ -1,0 +1,1 @@
+if (iBufferCount > 0)\n{\n    iBuffer = (iBuffer << (8 - iBufferCount)) & ((1 << iBufferCount) - 1);\n    msEncodedOutput.WriteByte((byte)iBuffer);\n}

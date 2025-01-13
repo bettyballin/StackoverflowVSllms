@@ -1,0 +1,1 @@
+int a = ({\n    int i;\n    int t = 1;\n    for (i = 2; i<5; i++) {\n        t*=i;\n    }\n    t;\n});

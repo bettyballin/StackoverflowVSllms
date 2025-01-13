@@ -1,0 +1,1 @@
+.menu,\n   .menu ul,\n   .menu li {\n       zoom: 1; /* Triggers hasLayout */\n   }

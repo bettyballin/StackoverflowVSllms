@@ -1,0 +1,1 @@
+public interface IPlugin {\n        void Execute();\n    }

@@ -1,0 +1,1 @@
+for file in /usr/lib/oracle/instantclient_X_Y/*.so*; do\n       if [ ! -d "$file" ]; then\n           echo "Patching $file"\n           sudo patchelf --set-rpath '/usr/lib/oracle/instantclient_X_Y/' "$file"\n       fi\n   done

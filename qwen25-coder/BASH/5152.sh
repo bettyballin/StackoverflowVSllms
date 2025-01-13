@@ -1,0 +1,1 @@
+sudo apt-get install certbot python3-certbot-apache # Example installation on Ubuntu with Apache

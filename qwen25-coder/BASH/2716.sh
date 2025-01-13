@@ -1,0 +1,1 @@
+# To install TestLink on Debian/Ubuntu:\n   sudo apt-get update\n   sudo apt-get install testlink

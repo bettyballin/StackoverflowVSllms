@@ -1,0 +1,1 @@
+using System;\nusing System.Collections.Generic;\nusing System.Linq;\n\nclass Program\n{\n    static void Main()\n    {\n        List<int> numbers = new List<int> { 3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5 };\n\n        int min = numbers.Min();\n        int max = numbers.Max();\n\n        Console.WriteLine("Min: " + min);\n        Console.WriteLine("Max: " + max);\n    }\n}

@@ -1,0 +1,1 @@
+#include "ptl.h"\n\nvoid setup_memory_allocator() {\n    void *base = malloc(1024 * 1024); // Allocate a large contiguous block for arena\n    ptl_create_arena(base, 1024 * 1024); // Initialize the arena\n}\n\nvoid* allocate_block(size_t size) {\n    return ptl_alloc(size);\n}\n\nvoid free_block(void* ptr) {\n    ptl_free(ptr);\n}

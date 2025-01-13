@@ -1,0 +1,1 @@
+#pageContainer {\n    width: 300px;\n    margin: 0 auto;\n    text-align: center;\n    display: block; /* Ensure it's treated as a block-element */\n}

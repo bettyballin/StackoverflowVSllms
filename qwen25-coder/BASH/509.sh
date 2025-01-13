@@ -1,0 +1,1 @@
+ohup php myScript.php &

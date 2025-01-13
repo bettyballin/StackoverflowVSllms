@@ -1,0 +1,1 @@
+svn propset svn:externals "LibraryName http://svn.example.com/repo/path/to/class/library" .

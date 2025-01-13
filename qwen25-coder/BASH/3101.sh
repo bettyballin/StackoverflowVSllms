@@ -1,0 +1,1 @@
+# Example command to update Red Hat and Apache\nsudo yum update httpd -y

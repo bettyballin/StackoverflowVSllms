@@ -1,0 +1,1 @@
+int minY = Int32.MaxValue;\nint maxY = Int32.MinValue;\n\nfor (int sample = firstSample + 1; sample <= lastSample; sample++)\n{\n    int Y = _average[sample];\n    if (Y < minY) minY = Y;\n    if (Y > maxY) maxY = Y;\n}

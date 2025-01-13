@@ -1,0 +1,1 @@
+private void flowLayoutPanel_Resize(object sender, EventArgs e)\n{\n    // Resize your controls here...\n\n    // Refresh the FlowLayoutPanel to ensure layout is updated\n    flowLayoutPanel.Refresh();\n    \n    // Force the scrollbars to be recalculated based on the content size\n    flowLayoutPanel.AdjustFormScrollbars(true);\n}

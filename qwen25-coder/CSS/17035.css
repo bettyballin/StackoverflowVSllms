@@ -1,0 +1,1 @@
+.no-select {\n    -webkit-user-select: none;  /* Safari */\n    -moz-user-select: none;     /* Firefox */\n    -ms-user-select: none;      /* Internet Explorer/Edge */\n    user-select: none;          /* Non-prefixed version, currently supported by Chrome and Opera */\n}

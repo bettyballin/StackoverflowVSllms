@@ -1,0 +1,1 @@
+protected void ListBox1_SelectedIndexChanged(object sender, EventArgs e)\n{\n    Label1.Text = "You selected: " + ListBox1.SelectedItem.Text;\n}

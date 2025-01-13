@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        // Setting session variable\n        Session["User"] = "JohnDoe";\n        \n        // Redirecting to another page within the same application\n        Response.Redirect("AnotherPage.aspx");\n    }\n}

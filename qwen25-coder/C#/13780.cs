@@ -1,0 +1,1 @@
+using System;\n   using System.ComponentModel;\n\n   [TypeConverter(typeof(LocalizedEnumConverter))]\n   public enum MyEnum\n   {\n       ItemA,\n       ItemB\n   }

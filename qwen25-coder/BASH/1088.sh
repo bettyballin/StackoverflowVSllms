@@ -1,0 +1,1 @@
+# Command to open Xcode simulators\n   xcrun simctl list devices

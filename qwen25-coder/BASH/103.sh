@@ -1,0 +1,1 @@
+# Start XAMPP services\n/Applications/XAMPP/xamppfiles/xampp start\n\n# Stop XAMPP services\n/Applications/XAMPP/xampp stop

@@ -1,0 +1,1 @@
+// Example ASP.NET code snippet for understanding purposes - NOT recommended method for production use\nstring ipAddress = Request.UserHostAddress;\nif (!ipAddress.StartsWith("192.168") && !ipAddress.StartsWith("10.") && !ipAddress.StartsWith("172.")) // Add your internal IP starting ranges here\n{\n    Response.Write("Access Denied");\n    Response.End();\n}

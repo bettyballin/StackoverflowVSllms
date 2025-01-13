@@ -1,0 +1,1 @@
+try {\n        int parsedValue = int.Parse("12345");\n        // Use parsedValue\n    } catch (FormatException) {\n        // Handle exception\n    }

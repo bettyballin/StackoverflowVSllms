@@ -1,0 +1,1 @@
+# Set this in your JBoss startup script or configuration file\nJAVA_OPTS="$JAVA_OPTS -Djava.rmi.server.hostname=sqlserver.dev.net"

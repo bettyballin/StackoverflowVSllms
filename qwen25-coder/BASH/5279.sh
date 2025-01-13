@@ -1,0 +1,1 @@
+sudo usermod -aG devgrp username\nnewgrp devgrp  # Apply changes without logging out

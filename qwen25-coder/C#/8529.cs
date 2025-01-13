@@ -1,0 +1,1 @@
+// Example of creating an EWS service instance\n   ExchangeService service = new ExchangeService(ExchangeVersion.Exchange2010_SP2);\n   service.Credentials = new WebCredentials("username", "password");\n   service.Url = new Uri("https://yourserver.com/EWS/Exchange.asmx");

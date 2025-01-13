@@ -1,0 +1,1 @@
+SessionIDManager.RegenerateSessionID(HttpContext.Current);

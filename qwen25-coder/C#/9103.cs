@@ -1,0 +1,1 @@
+public ActionResult YourAction()\n{\n    var htmlContentFromDb = "<pre>This is some sample text</pre>";\n    \n    // Sanitize the HTML content before passing it to the view.\n    var sanitizedContent = new HtmlSanitizerService().Sanitize(htmlContentFromDb);\n    \n    ViewData["Content"] = sanitizedContent;\n    return View();\n}

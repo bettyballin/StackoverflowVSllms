@@ -1,0 +1,1 @@
+AppDomain.CurrentDomain.SetData("XmlSerialization.CompilationThreshold", int.MaxValue);

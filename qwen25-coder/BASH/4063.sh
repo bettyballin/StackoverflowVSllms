@@ -1,0 +1,1 @@
+# Example command to create a symbolic link\nln -s /path/to/sensitive/files /Users/yourusername/MAMP/htdocs/workspace/project/config

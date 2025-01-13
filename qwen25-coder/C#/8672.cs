@@ -1,0 +1,1 @@
+string originalConfigText = "YourSensitiveDataHere";\nbyte[] encryptionKey = ConfigEncryptor.GetSecureKey();\nstring encryptedConfigText = ConfigEncryptor.Encrypt(originalConfigText, encryptionKey);\n// Place this encrypted string into your app.config file.

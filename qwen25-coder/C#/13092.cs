@@ -1,0 +1,1 @@
+using (SqlCommand searchResult = new SqlCommand())\n{\n    string[] itemsArray = itemIDs.Split(',');\n    string inClause = string.Join(",", Array.ConvertAll(itemsArray, s => $"'{s}'"));\n    \n    searchResult.CommandText = $"SELECT ItemID, Name, RelDate, Price, Status FROM item_k WHERE ItemID IN ({inClause})";\n    searchResult.Connection = searchCon;\n}

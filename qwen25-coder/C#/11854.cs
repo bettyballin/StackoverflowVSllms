@@ -1,0 +1,1 @@
+using System.Web;\n\npublic static string GetAbsoluteUrl(string virtualPath)\n{\n    return VirtualPathUtility.ToAbsolute(virtualPath);\n}

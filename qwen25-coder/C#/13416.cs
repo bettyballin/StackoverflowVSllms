@@ -1,0 +1,1 @@
+var inspector = new NhMappingInspector(sessionFactory);\nvar columnNames = inspector.GetColumnNames<YourClassType>();\n\nforeach (var columnName in columnNames)\n{\n    Console.WriteLine(columnName);\n}

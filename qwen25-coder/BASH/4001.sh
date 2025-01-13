@@ -1,0 +1,1 @@
+git clone /path/to/PPP/ABC abc\n    git clone /path/to/PPP/DEF def

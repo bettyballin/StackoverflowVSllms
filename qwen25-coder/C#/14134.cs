@@ -1,0 +1,1 @@
+public interface IProcessStarter\n{\n    Process Start(ProcessStartInfo startInfo);\n}

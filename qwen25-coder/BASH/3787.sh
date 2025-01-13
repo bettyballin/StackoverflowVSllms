@@ -1,0 +1,1 @@
+sudo apt-get install xmlstarlet  # On Debian/Ubuntu\n   sudo yum install xmlstarlet      # On CentOS/RHEL

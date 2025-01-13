@@ -1,0 +1,1 @@
+mt.exe -manifest dbgrid32.ocx.manifest -outputresource:dbgrid32.ocx

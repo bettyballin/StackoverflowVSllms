@@ -1,0 +1,1 @@
+rpm -ivh gcc-*.rpm gcc-c++-*.rpm

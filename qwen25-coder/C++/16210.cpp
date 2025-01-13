@@ -1,0 +1,1 @@
+struct Visitor \n{\n    // Template operator() for any type T\n    template <typename T>\n    void operator()(T t)\n    {\n        // General case implementation\n    }\n\n    // Overloaded operator() specifically for bool\n    void operator()(bool b)\n    {\n        // Special behavior for bools\n    }\n};

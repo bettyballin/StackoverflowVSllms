@@ -1,0 +1,1 @@
+# Set default ACL on the shared directory to ensure newly created files and directories have the correct permissions.\nsetfacl -m d:u::rwx,d:g::rwx,d:o::r /path/to/shared/directory\n\n# Verify that the ACL was set correctly\ngetfacl /path/to/shared/directory

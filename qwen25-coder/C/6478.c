@@ -1,0 +1,1 @@
+#include "utils.h"\n\ndouble calculate(double x, double y) {\n    return (x + y) / 2.0;\n}

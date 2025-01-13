@@ -1,0 +1,1 @@
+const string query = "SELECT HotFixID, InstalledOn, Description FROM Win32_QuickFixEngineering";

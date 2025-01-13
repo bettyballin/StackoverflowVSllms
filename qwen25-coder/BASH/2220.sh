@@ -1,0 +1,1 @@
+wkhtmltoimage path/to/your/file.html output.png

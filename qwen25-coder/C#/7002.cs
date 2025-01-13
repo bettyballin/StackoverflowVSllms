@@ -1,0 +1,1 @@
+using System.Windows.Controls;\n\nnamespace Module.Update\n{\n    public class UpdateModule : ModuleBase\n    {\n        public override string Name => "Update Module";\n\n        private UpdateView _updateView = new UpdateView(); // Assuming you have a UserControl named UpdateView\n\n        public override UserControl UIContent => _updateView;\n    }\n}

@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Java\jdk-1.8.0_XXX\bin\java.exe" -jar your-application.jar

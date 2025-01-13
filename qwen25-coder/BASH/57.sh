@@ -1,0 +1,1 @@
+sudo nano /path/to/php.ini

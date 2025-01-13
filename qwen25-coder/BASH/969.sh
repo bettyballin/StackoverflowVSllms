@@ -1,0 +1,1 @@
+telnet smtpserver 25\n   EHLO yourdomain.com\n   STARTTLS

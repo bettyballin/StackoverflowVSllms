@@ -1,0 +1,1 @@
+[\n    object,\n    uuid("YOUR-GUID-HERE"),\n    dual,       // Allows both late and early binding\n    nonextensible,\n    pointer_default(unique)\n]\n__interface IMyEvents {\n    [id(1)] HRESULT OnReceive([in] SAFEARRAY(BYTE) bytes);\n};

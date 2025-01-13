@@ -1,0 +1,1 @@
+if (!PerformanceCounterCategory.Exists(categoryName))\n   {\n       // Handle appropriately without requiring elevated privileges\n   }

@@ -1,0 +1,1 @@
+#include <comdef.h>\n#include <windows.h>\n\nvoid example_bstr_t() {\n    _bstr_t bstr = L"Hello, World!";\n    // Use the _bstr_t...\n    wprintf(L"%s\n", bstr);\n    // No need to manually free memory.\n}

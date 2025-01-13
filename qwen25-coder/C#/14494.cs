@@ -1,0 +1,1 @@
+let twoDaysLater = System.Data.Linq.SqlClient.SqlMethods.DateAdd(System.Data.Linq.SqlClient.SqlFunctions.TimeUnit.Day, 2, System.Data.Linq.SqlClient.SqlMethods.GetDate())\nfrom subscription in dbContext.Subscriptions\nwhere subscription.Expires > twoDaysLater\nselect subscriptio

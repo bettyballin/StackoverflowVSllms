@@ -1,0 +1,1 @@
+WebProxy proxy = new WebProxy();\nproxy.Address = new Uri("http://your-proxy-server:port");\nproxy.Credentials = new NetworkCredential("username", "password", "domain"); \nclient.Proxy = proxy;

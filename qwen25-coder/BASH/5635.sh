@@ -1,0 +1,1 @@
+# Using ILSpy from command line to compare two DLLs (requires ILSpy installed)\nilspy HelloWorld.dll HelloWorldV2.dll /compare

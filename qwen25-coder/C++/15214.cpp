@@ -1,0 +1,1 @@
+#include <windows.h>\n#include <iostream>\n\nint main() {\n    HMODULE hModule = LoadLibrary(TEXT("ieshims.dll"));\n    if (hModule == NULL) {\n        std::cerr << "Failed to load ieshims.dll: Error " << GetLastError() << std::endl;\n        return 1;\n    }\n    // Proceed with your application logic\n    FreeLibrary(hModule);\n    return 0;\n}

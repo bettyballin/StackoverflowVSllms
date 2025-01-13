@@ -1,0 +1,1 @@
+# Command Format\nrsync -avz --exclude='path/to/exclude' /local/path/ username@remote_host:/remote/path/\n\n# Example Command\nrsync -avz --exclude='.git/' --exclude='.idea/' ~/projects/mywebsite/ user@example.com:/var/www/mywebsite/

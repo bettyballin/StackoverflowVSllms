@@ -1,0 +1,1 @@
+// Example of including LAME encoder header\n   #include "lame/lame.h"

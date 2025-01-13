@@ -1,0 +1,1 @@
+alias cvsupdateconflicts='cvs update | tee /dev/tty | grep "^C"'

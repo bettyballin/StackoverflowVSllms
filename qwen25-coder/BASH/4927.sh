@@ -1,0 +1,1 @@
+cp -r /path/to/local-working-copy/* codeplex-working-copy/\n     cd codeplex-working-copy\n     svn add * --force  # Ensure new files are added\n     svn commit -m "Added local modifications"

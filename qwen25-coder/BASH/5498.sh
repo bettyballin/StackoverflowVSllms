@@ -1,0 +1,1 @@
+#!/bin/sh\n   cd /var/www/html/snippets  # Path to website\n   /usr/local/bin/update_site.sh

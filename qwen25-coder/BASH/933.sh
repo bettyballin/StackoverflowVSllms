@@ -1,0 +1,1 @@
+sudo tail -n 50 /var/log/apache2/error.log

@@ -1,0 +1,1 @@
+# Example command to check firewall status on Windows\n   netsh advfirewall show allprofiles

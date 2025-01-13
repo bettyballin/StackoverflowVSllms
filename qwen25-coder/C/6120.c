@@ -1,0 +1,1 @@
+#include <chicken.h>\nextern "C" {\n    void chicken_main(int argc, char *argv[]);\n}\n\nint main(int argc, char *argv[]) {\n    // Initialize the Scheme interpreter\n    chicken_initialize(0, NULL);\n    \n    chicken_main(argc, argv);\n    \n    // Uninitialize the Scheme interpreter (optional)\n    chicken_shutdown();\n}

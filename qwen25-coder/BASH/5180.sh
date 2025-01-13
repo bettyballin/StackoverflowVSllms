@@ -1,0 +1,1 @@
+cmd.exe /k "your-winscp-command-here"

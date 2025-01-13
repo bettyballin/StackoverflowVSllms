@@ -1,0 +1,1 @@
+// Assuming you have an ISession instance named session\nstring hql = "FROM YourEntity WHERE SomeProperty = :someValue";\nvar query = session.CreateQuery(hql);\nquery.SetParameter("someValue", yourDynamicValue);\n\nvar results = query.List<YourEntity>();

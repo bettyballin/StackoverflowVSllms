@@ -1,0 +1,1 @@
+template<unsigned int A, unsigned int B>\nint foo() {\n  int v = 1;\n  const int x = A - B;\n  if (x > 0 && static_cast<unsigned int>(x) < sizeof(int) * 8) { // Ensure shift is within bounds\n    v <<= x;\n  }\n  bar(v);\n}

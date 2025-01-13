@@ -1,0 +1,1 @@
+using System;\n   using System.Web.UI;\n\n   namespace YourNamespace\n   {\n       public partial class YourPage : Page\n       {\n           protected void SubmitButton_Click(object sender, EventArgs e)\n           {\n               if (Page.IsValid)\n               {\n                   // Proceed with registration logic\n               }\n           }\n       }\n   }

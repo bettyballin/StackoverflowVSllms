@@ -1,0 +1,1 @@
+awk 'NF == 6' input.txt > output.txt

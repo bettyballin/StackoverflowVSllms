@@ -1,0 +1,1 @@
+sc config "YourServiceName" obj= "LocalSystem"

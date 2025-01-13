@@ -1,0 +1,1 @@
+/opt/timesys/at91sam9263_ek/toolchain/bin/armv5l-timesys-linux-gnueabi-gcc \\n  -DBOOST_USE_ASM_ATOMIC_OPS=0 exists.cpp -o exists.exe -I ../boost_1_35_0/ \\n  -lboost_filesystem -lboost_system -lstdc++ -L .

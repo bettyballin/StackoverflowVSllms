@@ -1,0 +1,1 @@
+@page {\n    @top-right {\n        content: "Page " counter(page) " of " counter(pages);\n    }\n}\n\nbody {\n    counter-reset: page 1; /* Start counting pages from 1 */\n}\n\n/* Increment the page counter by 1 on the first page to make it start as page 2 */\n@page :first {\n    counter-increment: page;\n}

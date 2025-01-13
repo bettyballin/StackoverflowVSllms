@@ -1,0 +1,1 @@
+sfxge params.php /home/user/public_html/domain_com/includes_encoded/params.php

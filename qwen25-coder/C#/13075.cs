@@ -1,0 +1,1 @@
+using System;\nusing System.Globalization;\n\npublic DateTime ConvertToOracleDate(string textValue)\n{\n    DateTime parsedDate = DateTime.ParseExact(textValue, "dd-MMM-yyyy", CultureInfo.InvariantCulture);\n    return parsedDate; // NHibernate will typically convert this to the appropriate Oracle date format implicitly.\n}

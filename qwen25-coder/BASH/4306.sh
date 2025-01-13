@@ -1,0 +1,1 @@
+sudo systemctl daemon-reload\nsudo systemctl start gitea\nsudo systemctl enable gitea

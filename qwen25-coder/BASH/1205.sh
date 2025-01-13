@@ -1,0 +1,1 @@
+# On Debian/Ubuntu:\n   sudo apt-get update\n   sudo apt-get install curl-loader\n\n   # From source:\n   wget http://sourceforge.net/projects/curl-loader/files/latest/download -O curl-loader.tar.gz\n   tar xzf curl-loader.tar.gz\n   cd curl-loader-*\n   ./configure && make\n   sudo make install

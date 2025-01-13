@@ -1,0 +1,1 @@
+#include <zlib.h>\n\n  unsigned long crc = crc32(0L, Z_NULL, 0);\n  crc = crc32(crc, (const unsigned char *)"Hello World!", strlen("Hello World!"));

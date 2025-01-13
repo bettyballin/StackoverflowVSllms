@@ -1,0 +1,1 @@
+[HttpPost]\n   public ActionResult MyForm()\n   {\n       string selectedValue = Request.Form["selectedOption"];\n\n       // Process the selected value as needed\n\n       return View();\n   }

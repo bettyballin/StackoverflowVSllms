@@ -1,0 +1,1 @@
+tar -czvf bind-backup.tar.gz /etc/named.conf /var/named/

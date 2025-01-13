@@ -1,0 +1,1 @@
+awk 'BEGIN { RS = ""; FS = ORS; OFS = FS } /^block1/ || lineNR != 2 { print $0 RT; next } { ++lineNR; sub(/\n(\n|$)/, "\nTEST\n") }1' inputfile

@@ -1,0 +1,1 @@
+using MySql.Data.MySqlClient;\n\nvar connectionString = new MySqlConnectionStringBuilder\n{\n    Server = "your_server",\n    UserID = "your_user_id",\n    Password = "your_password",\n    Database = "your_database",\n    ConnectionLifetime = 0  // Setting connection lifetime to 0\n}.ToString();

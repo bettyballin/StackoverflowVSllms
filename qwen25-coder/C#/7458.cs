@@ -1,0 +1,1 @@
+[System.Web.Services.WebMethod]\npublic static List<Town> LoadTowns(int countryId)\n{\n    return CountryRepository.Instance.GetTownsByCountryIdAsync(countryId).Result;\n}

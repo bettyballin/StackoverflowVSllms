@@ -1,0 +1,1 @@
+label {\n    min-width: 5em;\n    display: inline-block; /* Ensure labels are block-level to apply width */\n}

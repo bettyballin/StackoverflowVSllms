@@ -1,0 +1,1 @@
+@echo off\npowershell -Command "Get-Content 'yourbinaryfile.bin' -Encoding Byte | Format-Hex"

@@ -1,0 +1,1 @@
+// Accessing from C#\nstring adminEmail = ConfigurationManager.AppSettings["AdminEmail"];\nstring supportEmail = ConfigurationManager.AppSettings["SupportEmail"];

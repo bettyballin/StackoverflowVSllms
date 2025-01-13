@@ -1,0 +1,1 @@
+public bool AllTeams\n{\n    get { return _allTeams; }\n    set\n    {\n        if (_allTeams != value)\n        {\n            _allTeams = value;\n            OnPropertyChanged(nameof(AllTeams));\n            \n            // Assuming you have a reference to your view or can call this method from the view.\n            UpdateColumnsVisibility(_allTeams);\n        }\n    }\n}

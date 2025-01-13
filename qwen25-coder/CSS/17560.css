@@ -1,0 +1,1 @@
+a {\n    text-decoration: underline;\n    color: blue; /* A common default link color */\n}\n\nfooter a {\n    text-decoration: none;\n    color: inherit; /* Inherits the color of the surrounding text */\n}

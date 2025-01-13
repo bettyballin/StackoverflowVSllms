@@ -1,0 +1,1 @@
+public class Global : HttpApplication\n{\n    void Application_Start(object sender, EventArgs e)\n    {\n        // Code that runs on application startup\n        // This runs separately in each worker process.\n        LogInformation("Application started");\n    }\n\n    protected void LogInformation(string message)\n    {\n        // Implement logging logic here\n    }\n}

@@ -1,0 +1,1 @@
+java -jar benchmark.jar -prof gc

@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n    int n = 10; // Example value for n\n    int i;\n    char b[12]; // Buffer to hold the string representation of an integer\n\n    for(i = 0; i < n; i++) {\n        sprintf(b, "%d", i);\n        printf("%s\n", b); // To see the output in each iteration\n    }\n\n    return 0;\n}

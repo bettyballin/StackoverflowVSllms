@@ -1,0 +1,1 @@
+#!/bin/sh\nset -e\n\nif debconf-show newvalues | grep '^software/accepted false' > /dev/null || [ ! -f /var/lib/dpkg/info/software-license.sh ]; then\n  cat /usr/share/doc/software/copyright | less\n  dialog --title "EULA" --yesno "Do you accept the above license?" 0 0\n  if [ $? != 0 ]; then\n    echo "EULA not accepted. Exiting installation."\n    exit 1\n  fi\nfi\n\nexit 0

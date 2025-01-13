@@ -1,0 +1,1 @@
+# Install PHP, adjust version as necessary\n   brew install php@8.2\n\n   # Install PEAR and PECL for your PHP version\n   pecl install sqlsrv\n   pecl install pdo_sqlsrv

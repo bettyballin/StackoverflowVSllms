@@ -1,0 +1,1 @@
+# Install Airflow using pip\npip install apache-airflow\n\n# Initialize the database\nairflow db init

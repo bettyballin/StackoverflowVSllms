@@ -1,0 +1,1 @@
+#ifdef BUILD_DLL\n#define EXPORT __declspec(dllexport)\n#else\n#define EXPORT __declspec(dllimport)\n#endif\n\nEXPORT int __stdcall add2(int num) {\n    return num + 2;\n}\n\nEXPORT int __stdcall mul(int num1, int num2) {\n    return num1 * num2;\n}

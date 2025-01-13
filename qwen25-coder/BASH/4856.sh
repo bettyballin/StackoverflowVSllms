@@ -1,0 +1,1 @@
+chmod +x /path/to/backup_script.sh\nsudo chown jenkins:jenkins /path/to/backup_script.sh

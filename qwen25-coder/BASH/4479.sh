@@ -1,0 +1,1 @@
+perl -MExtUtils::Installed -e 'my $inst = ExtUtils::Installed->new(); print join "\n", $inst->modules()'

@@ -1,0 +1,1 @@
+using System;\nusing System.Reflection;\n\npublic class DebugHelper {\n    public static void LogLoadedAssemblies() {\n        foreach (var asm in AppDomain.CurrentDomain.GetAssemblies()) {\n            Console.WriteLine(asm.FullName);\n        }\n    }\n}

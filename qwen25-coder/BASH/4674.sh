@@ -1,0 +1,1 @@
+# Example using UFW (Uncomplicated Firewall)\n   sudo ufw allow 22/tcp  # SSH\n   sudo ufw allow 80/tcp  # HTTP\n   sudo ufw allow 443/tcp # HTTPS\n   sudo ufw enable

@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    // Set the expires header to 1 minute ahead from the current server time\n    Response.Expires = DateTime.Now.AddSeconds(60);\n}

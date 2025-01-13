@@ -1,0 +1,1 @@
+brew services restart httpd  # or apache2

@@ -1,0 +1,1 @@
+runas /user:yourdomain\administrator "path_to_profiler.exe"

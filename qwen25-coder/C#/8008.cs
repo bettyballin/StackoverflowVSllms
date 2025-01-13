@@ -1,0 +1,1 @@
+public class YourClass\n{\n    [CustomStringLengthValidator(100)]\n    public string FirstName { get; set; }\n\n    // You can reuse this attribute for any other string property\n    [CustomStringLengthValidator(50)]\n    public string LastName { get; set; }\n}

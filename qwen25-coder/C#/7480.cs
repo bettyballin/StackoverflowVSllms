@@ -1,0 +1,1 @@
+// Instead of storing large objects, store only necessary identifiers\nSession["UserId"] = userId;\nSession["AuthToken"] = userToken;\n\n// Retrieve user-specific data from the database using UserId when needed\nvar userData = GetUserProfileData(userId);

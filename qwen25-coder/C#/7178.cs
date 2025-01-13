@@ -1,0 +1,1 @@
+// Example of creating a simple Coded UI test\n   [TestMethod]\n   public void CodedUITestMethod1()\n   {\n       this.UIMap.ActionRecorded();\n   }

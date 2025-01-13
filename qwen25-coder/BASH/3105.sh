@@ -1,0 +1,1 @@
+#!/bin/sh\n\nif [ -x /usr/bin/passenger-memory-stats ]; then\n  for pid in $(/path/to/get_passenger_pids.sh); do\n    monit check process passenger_app_$pid with pidfile /proc/$pid/stat\n  done\nfi

@@ -1,0 +1,1 @@
+set COMPlus_JITDisableOptimizations=1

@@ -1,0 +1,1 @@
+exec("(wget -O http://domain/file.zip && mysql database -e \"UPDATE \\\`table\\\` SET \\\`status\\\` = 'live' WHERE \\\`id\\\` = '1234'\") &");

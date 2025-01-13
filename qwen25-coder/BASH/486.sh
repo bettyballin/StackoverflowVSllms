@@ -1,0 +1,1 @@
+ffmpeg -i input.adp -c:a pcm_s16le output.wav

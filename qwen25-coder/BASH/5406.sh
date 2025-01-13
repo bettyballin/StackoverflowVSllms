@@ -1,0 +1,1 @@
+sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/j2sdk1.4.2_XX/bin/java" 150\n     sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/java-6-sun/bin/java" 200

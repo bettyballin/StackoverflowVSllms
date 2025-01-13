@@ -1,0 +1,1 @@
+protected void submitButton_Click(object sender, EventArgs e)\n{\n    string htmlContent = Request.Form["myTextArea"];\n    \n    // Now you can save this HTML content to a file or database\n    System.IO.File.WriteAllText(Server.MapPath("~/output.html"), htmlContent);\n}

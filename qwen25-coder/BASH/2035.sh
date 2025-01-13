@@ -1,0 +1,1 @@
+apk add nginx      # For Nginx\n     rc-update add nginx default  # Add Nginx to the default runlevel\n     service nginx start         # Start Nginx

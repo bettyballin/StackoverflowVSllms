@@ -1,0 +1,1 @@
+cd /path/to/your/project\ngit clone https://github.com/google/googletest.git

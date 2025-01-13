@@ -1,0 +1,1 @@
+string url = "http://your-rails-app.com/api/endpoint.json";\nRestClient client = new RestClient();\nstring result = client.GetRestResponse(url);\nConsole.WriteLine(result);

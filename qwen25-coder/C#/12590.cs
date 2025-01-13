@@ -1,0 +1,1 @@
+lblWelcome.Text = "Welcome:<span class='white-text'>" + txtSurname.Text + "</span>";

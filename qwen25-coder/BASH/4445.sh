@@ -1,0 +1,1 @@
+signtool sign /tr http://timestamp.digicert.com /td sha256 /fd sha256 /a /f YourCertFile.pfx "path_to_your_msi_file.msi"

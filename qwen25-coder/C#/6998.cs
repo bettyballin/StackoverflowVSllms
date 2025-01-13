@@ -1,0 +1,1 @@
+var query = session.CreateQuery("FROM YourClassName");\nquery.SetMaxResults(15);\nvar results = query.List<YourClassType>();

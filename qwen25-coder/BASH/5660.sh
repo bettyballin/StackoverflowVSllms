@@ -1,0 +1,1 @@
+composer require symfony/webpack-encore-bundle --dev\n   npm install --save-dev @symfony/webpack-encore sass-loader node-sass webpack-notifier

@@ -1,0 +1,1 @@
+public class DatabaseMigrator\n{\n    private readonly AppDbContext _dbContext;\n\n    public DatabaseMigrator(AppDbContext dbContext)\n    {\n        _dbContext = dbContext;\n    }\n\n    public void MigrateDatabase()\n    {\n        if (_dbContext.Database.GetPendingMigrations().Any())\n        {\n            _dbContext.Database.Migrate();\n        }\n    }\n}

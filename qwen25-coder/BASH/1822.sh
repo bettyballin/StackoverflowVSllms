@@ -1,0 +1,1 @@
+# Example using netsh (replace $port$, $appid$ and $cert_hash$ with actual values)\nnetsh http add sslcert ipport=0.0.0.0:$port$ certhash=$cert_hash$ appid={$appid$}

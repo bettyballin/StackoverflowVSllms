@@ -1,0 +1,1 @@
+java -Djava.security.manager -Djava.security.policy=path/to/your/java.policy YourMainClass

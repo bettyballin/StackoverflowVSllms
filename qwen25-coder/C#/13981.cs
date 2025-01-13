@@ -1,0 +1,1 @@
+public class MainApp \n{\n    public void Run()\n    {\n        using (SomeClass _class = new SomeClass())\n        {\n            _class.SomeMethod();\n            // Resources are disposed at the end of this block\n        }\n    }\n}

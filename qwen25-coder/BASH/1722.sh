@@ -1,0 +1,1 @@
+# On your master SVN server, create a script for initial sync and future updates\ncat <<EOF > /path/to/update_mirror.sh\n#!/bin/sh\n/path/to/svn/bin/svnsync sync file:///path/to/local/mirror/repository\nEOF\n\nchmod +x /path/to/update_mirror.sh\n\n# Add a cron job on the master servers to run this script every hour\ncrontab -e\n0 * * * * /path/to/update_mirror.sh

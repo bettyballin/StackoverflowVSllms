@@ -1,0 +1,1 @@
+# Stop IIS Service\nStop-Service -Name w3svc\n\n# Perform MSI Upgrade Logic Here (e.g., uninstall old, install new)\n# This part should be handled in your deployment script or through other means as per your setup.\n\n# Start IIS Service\nStart-Service -Name w3svc

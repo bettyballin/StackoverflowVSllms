@@ -1,0 +1,1 @@
+.nav-left h1 a {\n  color: #055830;\n}\n\n.nav-left h1 a:hover {\n  color: #055830; /* Optional: Keep the same color on hover for consistency */\n}\n\n.nav-left h1 a:visited {\n  color: #055830;\n}

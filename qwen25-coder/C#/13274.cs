@@ -1,0 +1,1 @@
+dataSet.Tables[0].RowChanged += new DataRowChangeEventHandler(Table_RowChanged);\n\n   private void Table_RowChanged(object sender, DataRowChangeEventArgs e) {\n       if (e.Row.HasErrors) {\n           Console.WriteLine("Error: " + e.Row.RowError);\n           // Handle error, correct data, or accept changes\n           e.Row.AcceptChanges();\n       }\n   }

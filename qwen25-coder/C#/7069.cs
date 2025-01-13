@@ -1,0 +1,1 @@
+// Fluent interface useful for constructing complex queries, configurations, etc.\nIQuery query = QueryBuilder.Create()\n    .From("Employees")\n    .Where("Age > 30")\n    .OrderByDescending("Salary")\n    .Select(new[] { "Name", "Department" })\n    .Build();

@@ -1,0 +1,1 @@
+// Parent page.aspx.cs\n\nprotected void SearchCtrl_SearchResultsUpdated(object sender, SearchCompleteEventArgs e)\n{\n    ProductCtrl.UpdateProducts(e.Products);\n    ProductCtrl.Refresh();\n}

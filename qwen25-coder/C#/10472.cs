@@ -1,0 +1,1 @@
+using (YourDataContext db = new YourDataContext())\n{\n    // List of order IDs you want to filter by\n    int[] orderIds = { 1, 4, 5 };\n\n    var orders = from o in db.Orders\n                 where orderIds.Contains(o.OrderId)\n                 select o;\n\n    foreach (var order in orders)\n    {\n        Console.WriteLine(order);\n    }\n}

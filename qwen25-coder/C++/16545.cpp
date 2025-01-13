@@ -1,0 +1,1 @@
+// C++ code in your DLL\nextern "C" {\n    __declspec(dllexport) void UpdateCppObject(int id, double newValue) {\n        // Logic to update the object with ID `id` with `newValue`\n    }\n\n    __declspec(dllexport) double GetCppObjectValue(int id) {\n        // Logic to get value of object with ID `id`\n        return 0.0;\n    }\n}

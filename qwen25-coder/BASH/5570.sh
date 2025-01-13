@@ -1,0 +1,1 @@
+/usr/local/php/bin/php-cgi -b /var/run/lighttpd/php-fastcgi.socket

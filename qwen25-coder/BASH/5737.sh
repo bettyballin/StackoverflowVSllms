@@ -1,0 +1,1 @@
+@echo off\n:: Set the window title\ntitle MyDatabaseConnectionName\n\n:: Start SQL*Plus with your connection details\nsqlplus username/password@database

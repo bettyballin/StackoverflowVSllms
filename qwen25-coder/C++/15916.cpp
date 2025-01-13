@@ -1,0 +1,1 @@
+void f1() {\n    auto f1_private = [](){\n        // Function logic here\n    };\n    f1_private(); // Only accessible inside f1\n}\n\nvoid f2() {\n    // Lambda and its logic are confined to f1, cannot access from here.\n}

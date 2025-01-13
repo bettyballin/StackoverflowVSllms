@@ -1,0 +1,1 @@
+reg export HKEY_CLASSES_ROOT\msgfile msgfile_backup.reg

@@ -1,0 +1,1 @@
+// Create a ProgressBar\nProgressBar progressBar = new ProgressBar();\n\n// Set the style to Marquee for indeterminate progress\nprogressBar.Style = ProgressBarStyle.Marquee;\n\n// Optionally, set the speed of the marquee (smaller value means faster animation)\nprogressBar.MarqueeAnimationSpeed = 25;

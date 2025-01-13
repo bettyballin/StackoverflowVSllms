@@ -1,0 +1,1 @@
+/* Example of using @supports for modern, standard-based feature detection */\n@supports (display: grid) {\n    .container {\n        display: grid;\n    }\n}\n\n/* Use Autoprefixer to automatically handle vendor prefixes */\n/* This is safer than manually including non-standard hacks like * /deep/ or _expression */\n\n.container {\n    padding: 10px; /* Standard CSS */\n}

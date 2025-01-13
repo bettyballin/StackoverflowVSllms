@@ -1,0 +1,1 @@
+.parent {\n  display: grid;\n  place-items: center;    /* Centers both horizontal and vertical */\n  height: 100vh;          /* Full viewport height for demonstration */\n}\n\n.child {\n  width: 300px;           /* Example fixed width */\n  height: 200px;          /* Example fixed height */\n}

@@ -1,0 +1,1 @@
+.menu {\n    display: grid;\n    grid-auto-flow: column; /* This will make the items stack horizontally */\n    gap: 10px; /* Optional: Adds space between items */\n}\n\n.menu a {\n    padding: 10px; /* Optional: Add some padding for aesthetics */\n}

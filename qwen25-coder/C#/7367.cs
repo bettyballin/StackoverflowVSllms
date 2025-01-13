@@ -1,0 +1,1 @@
+public static class RoundingExtensions\n{\n    public static double RoundFractional(this double number, int denominator)\n    {\n        if (denominator <= 0) throw new ArgumentException("Denominator must be greater than zero.");\n        \n        double multiplier = 1.0 / denominator;\n        return Math.Round(number / multiplier) * multiplier;\n    }\n}

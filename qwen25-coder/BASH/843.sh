@@ -1,0 +1,1 @@
+phpcs --standard=PHPCompatibility --runtime-set testVersion 5.6 /path/to/your/code

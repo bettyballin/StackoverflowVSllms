@@ -1,0 +1,1 @@
+body {\n    font-family: "Verdana", Arial, Helvetica, sans-serif;\n}\n\n/* Explicitly set font-family for select elements */\nselect {\n    font-family: inherit; /* Inherit from the body or any parent */\n}

@@ -1,0 +1,1 @@
+ul.category-list {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(min-content, 1fr));\n    gap: 10px; /* Optional: Adds space between items */\n    padding: 0;\n    list-style-type: none;\n}\n\nli.category-item {\n    border: 1px solid #ccc;\n    box-sizing: border-box;\n    padding: 10px; /* Adjust as needed */\n}

@@ -1,0 +1,1 @@
+var hmac = QueryStringSecurity.GenerateHmacSha256(("param1", "value1"), ("param2", "value2"));\n  var url = $"http://example.com/page?param1=value1&param2=value2&hmac={hmac}";

@@ -1,0 +1,1 @@
+g++ -shared -o dtd_wrapper.dll dtd_wrapper.cpp

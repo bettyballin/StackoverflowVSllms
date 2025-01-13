@@ -1,0 +1,1 @@
+csc yourCodeFile.cs /reference:YourStrongNamedAssemblyName.dll

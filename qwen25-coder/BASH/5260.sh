@@ -1,0 +1,1 @@
+# At the end of your WinSCP script\n   option batch abort\n   option confirm off\n   # Your commands here...\n   exit\n\n   @echo off\n   pause

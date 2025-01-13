@@ -1,0 +1,1 @@
+find . -name 'OneThing-*.extension' | xargs -n 1 -I {} sh -c 'cp "{}" "${0//OneThing/AnotherThing}"' {}

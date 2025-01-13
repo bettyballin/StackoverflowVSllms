@@ -1,0 +1,1 @@
+public EmployeeMap()\n{\n    Id(x => x.EmployeeID);\n    Map(x => x.FirstName);\n    Map(x => x.LastName);\n    Map(x => x.City);\n    Map(x => x.HireDate);\n    Map(x => x.Title);\n\n    HasMany(x => x.Orders)\n        .KeyColumns.Add("EmployeeID") // Specify the foreign key column name here\n        .Inverse()\n        .Cascade.All();\n}

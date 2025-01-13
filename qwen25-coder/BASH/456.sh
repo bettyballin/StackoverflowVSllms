@@ -1,0 +1,1 @@
+ssh user@hostname 'command' 2>&1

@@ -1,0 +1,1 @@
+SQLBindParameter(hstmt, 1, SQL_PARAM_INPUT, SQL_C_WCHAR, \n                    SQL_WVARCHAR, 32, 0, L"_default", SQL_NTS, NULL);

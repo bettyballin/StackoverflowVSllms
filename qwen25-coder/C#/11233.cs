@@ -1,0 +1,1 @@
+[HttpPost]\npublic JsonResult IsInIframe(bool inIframe)\n{\n    // You can log this or use it as needed in your application\n    if (inIframe)\n    {\n        // Logic for when the page is in an iframe\n    }\n    else\n    {\n        // Logic for when the page is not in an iframe\n    }\n\n    return Json(new { success = true });\n}

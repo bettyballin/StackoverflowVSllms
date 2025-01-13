@@ -1,0 +1,1 @@
+try {\n    Assembly.Load("YourAssemblyName");\n} catch (Exception ex) {\n    Response.Write("Could not load assembly: " + ex.Message);\n}

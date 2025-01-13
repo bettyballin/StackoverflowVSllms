@@ -1,0 +1,1 @@
+// Point.h\n#include <stdint.h>\n\n#define WIDTH 8\n#define HEIGHT 8\n\ntypedef struct Point\n{\n  int8_t x;\n  int8_t y;\n} Point;

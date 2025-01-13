@@ -1,0 +1,1 @@
+0 0 * * * mysql -u username -p'yourpassword' your_database_name -e "CALL UpdateReportingPeriods();"

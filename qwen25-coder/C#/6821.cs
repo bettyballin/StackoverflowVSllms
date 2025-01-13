@@ -1,0 +1,1 @@
+public static void RegisterGlobalFilters(GlobalFilterCollection filters)\n{\n    filters.Add(new AddLoggedInUserAttribute());\n}

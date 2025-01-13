@@ -1,0 +1,1 @@
+# Running a basic test in JMeter via command line\n  jmeter -n -t myTestPlan.jmx -l results.csv

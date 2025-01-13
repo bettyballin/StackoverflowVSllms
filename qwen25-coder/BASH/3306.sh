@@ -1,0 +1,1 @@
+brew install unixodbc\n   brew install iodbc

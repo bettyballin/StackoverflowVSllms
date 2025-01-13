@@ -1,0 +1,1 @@
+hdiutil create -size 50g -type SPARSEBUNDLE -fs APFS -encryption AES-256 -volname "EncryptedVolume" ~/Documents/EncryptedVolume.sparsebundle

@@ -1,0 +1,1 @@
+interface IValue1 : IUnknown {\n    HRESULT GetType([out] TypeEnum* pType);\n    HRESULT GetValue([out, retval] VARIANT* pVar);\n};

@@ -1,0 +1,1 @@
+find . -type f -wholename \*.mbox -print0 | xargs -0 bash -c 'for file; do mv "$file" "${file%.mbox}"; done'

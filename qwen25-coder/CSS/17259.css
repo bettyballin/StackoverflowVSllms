@@ -1,0 +1,1 @@
+/* Add this to your CSS */\n\n/* Clearfix */\n.cf::after {\n    content: "";\n    display: table;\n    clear: both;\n}\n\n/* Ensure box-sizing is set for consistency */\n* {\n    box-sizing: border-box;\n}

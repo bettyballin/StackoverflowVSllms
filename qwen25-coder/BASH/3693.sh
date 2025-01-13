@@ -1,0 +1,1 @@
+procdump -ma w3wp.exe C:\IISDumps\iis_w3wp_crash.dmp\n\n   # You can also specify the PID if needed:\n   # procdump -ma <PID> C:\IISDumps\iis_w3wp_crash.dmp

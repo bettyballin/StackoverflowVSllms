@@ -1,0 +1,1 @@
+// Pseudo-code for Xorshift\n   unsigned int xor128(void) {\n       static unsigned int x = 123456789, y = 362436069, z = 521288629, w = 88675123;\n       unsigned int t = x ^ (x << 11);\n       x = y; y = z; z = w;\n       return w = w ^ (w >> 19) ^ (t ^ (t >> 8));\n   }

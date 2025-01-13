@@ -1,0 +1,1 @@
+:: Example of setting an SPN (Service Principal Name)\nsetspn -S HTTP/yourapp.yourdomain.com YourDomain\YourAppUser

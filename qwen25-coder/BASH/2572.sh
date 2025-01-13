@@ -1,0 +1,1 @@
+# Using tcpdump to capture packets on port 80 (HTTP) for example:\nsudo tcpdump -i eth0 -w output.pcap port 80

@@ -1,0 +1,1 @@
+// Example of a suitable use for a struct in C#\npublic struct Point {\n    public int X;\n    public int Y;\n\n    public Point(int x, int y) {\n        X = x;\n        Y = y;\n    }\n}\n\npublic class Circle {\n    private Point center;\n\n    public Circle(Point centerPoint) {\n        center = centerPoint;\n    }\n\n    // Other circle methods...\n}

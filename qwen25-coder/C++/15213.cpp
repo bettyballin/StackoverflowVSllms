@@ -1,0 +1,1 @@
+// Managed ref class declaration\npublic ref class BaseClass {\nprotected:\n    virtual void VirtualMethod() {\n        // Base implementation\n    }\n};\n\npublic ref class DerivedClass : public BaseClass {\nprotected:\n    virtual void VirtualMethod() override {\n        // Overriding the base method in a derived class\n    }\n};

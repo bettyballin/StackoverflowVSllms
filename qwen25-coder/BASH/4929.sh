@@ -1,0 +1,1 @@
+# Download pages\nwget -O dev_page.html http://dev.example.com/\nwget -O stage_page.html http://stage.example.com/\n\n# Compare using wdiff\nwdiff dev_page.html stage_page.html

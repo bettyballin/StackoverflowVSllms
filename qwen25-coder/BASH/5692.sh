@@ -1,0 +1,1 @@
+openssl s_client -connect 192.168.1.100:443 -showcerts

@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <string.h>\n\nvoid player1Function() {\n    printf("Player 1 is playing.\n");\n}\n\nvoid player2Function() {\n    printf("Player 2 is playing.\n");\n}

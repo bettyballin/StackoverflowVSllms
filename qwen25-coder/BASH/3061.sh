@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Make the script executable once created by running: chmod +x /path/to/run_zend.sh\n\n# Launch Zend Studio with sudo, preserving the current user's environment\nsudo -E -i /usr/bin/zenstudio "$@"

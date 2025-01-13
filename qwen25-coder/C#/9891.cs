@@ -1,0 +1,1 @@
+// Storing UserID in Session\nSession["UserID"] = "yourUserId";\n\n// Retrieving UserID from Session\nstring userId = Session["UserID"] as string;

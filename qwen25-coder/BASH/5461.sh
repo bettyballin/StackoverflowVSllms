@@ -1,0 +1,1 @@
+# Navigate to the Network Link Conditioner path\ncd /Developer/Applications/Network\ Link\ Conditioner.app/Contents/Resources/\n\n# Set to 3G\nsudo ./network_link_conditioner -s 3G\n\n# To disable it, use\n./network_link_conditioner -s off

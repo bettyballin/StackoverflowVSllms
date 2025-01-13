@@ -1,0 +1,1 @@
+perl -pi -e 's/\A.*?\nFoo bar.*?\nFoo bar//sim' *.txt

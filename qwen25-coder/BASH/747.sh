@@ -1,0 +1,1 @@
+# Example of checking TLS version using OpenSSL for a website:\nopenssl s_client -tls1_3 -connect example.com:443 > /dev/null 2>&1 && echo "TLS 1.3 supported" || echo "No TLS 1.3 support or connection failed."

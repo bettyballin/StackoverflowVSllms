@@ -1,0 +1,1 @@
+public ActionResult Index()\n{\n    var viewModel = new UserViewModel \n                    { \n                        User = new RemoteValidation.Models.User() \n                    };\n    return View(viewModel);\n}

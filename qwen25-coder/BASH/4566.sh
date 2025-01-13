@@ -1,0 +1,1 @@
+cd /path/to/secure/location\n   sudo git init svn-access-repo\n   sudo cp -p /etc/svn-access-file .\n   sudo git add svn-access-file\n   sudo git commit -m "Initial setup of SVN access file"

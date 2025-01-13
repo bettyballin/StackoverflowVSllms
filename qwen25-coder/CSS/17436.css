@@ -1,0 +1,1 @@
+div.entry {\n    clear: both;\n    display: block;\n    font-size: 12px;\n    margin-bottom: 10px;\n    position: relative;\n    text-align: left;\n    width: 350px;\n    display: flex; /* add this line */\n    align-items: flex-start; /* add this line if you want the content to start at the top */\n}\n\n.entry-content {\n    margin-left: 20px; /* adjust spacing as needed */\n}

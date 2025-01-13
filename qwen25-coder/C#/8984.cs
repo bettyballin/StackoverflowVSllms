@@ -1,0 +1,1 @@
+var groupedItems = items.GroupBy(i => i.Category);

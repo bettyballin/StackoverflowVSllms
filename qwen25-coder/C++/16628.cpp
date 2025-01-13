@@ -1,0 +1,1 @@
+// my_utils.h\n#ifndef MY_UTILS_H\n#define MY_UTILS_H\n\n// Inline function example\ninline int add(int a, int b) {\n    return a + b;\n}\n\n// Template function example\ntemplate<typename T>\nT multiply(T a, T b) {\n    return a * b;\n}\n\n#endif // MY_UTILS_H

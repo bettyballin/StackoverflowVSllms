@@ -1,0 +1,1 @@
+REM Example Command to List Assembly Details from GAC using gacutil\ngacutil /l Microsoft.Office.Interop.Excel

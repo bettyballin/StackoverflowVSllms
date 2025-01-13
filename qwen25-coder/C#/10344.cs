@@ -1,0 +1,1 @@
+using SHDocVw;\n\npublic void UseInternetExplorer()\n{\n    InternetExplorer explorer = new InternetExplorer();\n    explorer.Visible = true;\n    explorer.Navigate("http://www.example.com");\n}

@@ -1,0 +1,1 @@
+public void ProcessRequest(HttpContext context)\n{\n    string sessionId = HttpContext.Current.Session.SessionID;\n    context.Response.Write($"Session ID: {sessionId}\n");\n\n    // Check User ID from Token\n    int userId = Token.Instance.User.UserId;\n    context.Response.Write($"User ID from Token: {userId}\n");\n}

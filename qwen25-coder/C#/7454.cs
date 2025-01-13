@@ -1,0 +1,1 @@
+public class HomeModel : LayoutModel\n{\n    public new string Greeting => "Welcome to the Home Page!";\n    // additional properties specific to HomeModel\n}

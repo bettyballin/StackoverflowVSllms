@@ -1,0 +1,1 @@
+sudo chmod +x /usr/local/bin/vpn_connect.sh\n   sudo chmod +x /usr/local/bin/vpn_disconnect.sh

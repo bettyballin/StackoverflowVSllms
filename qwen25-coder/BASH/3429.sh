@@ -1,0 +1,1 @@
+# Start MinIO server in distributed setup using Docker Compose\ndocker-compose up -d

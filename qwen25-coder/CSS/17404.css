@@ -1,0 +1,1 @@
+select {\n    width: 150px; /* Set your desired width */\n    overflow: hidden;\n    white-space: nowrap;\n    text-overflow: ellipsis;\n}

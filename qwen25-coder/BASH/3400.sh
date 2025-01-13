@@ -1,0 +1,1 @@
+# Allow 100 requests from an IP in the last hour (3600 seconds)\niptables -A INPUT -p tcp --dport 80 -m recent --name WEB --rcheck --seconds 3600 --hitcount 101 -j DROP\niptables -A INPUT -p tcp --dport 80 -m recent --name WEB --update --seconds 3600 --hitcount 101 -j DROP\niptables -A INPUT -p tcp --dport 80 -m recent --name WEB --set -j ACCEPT

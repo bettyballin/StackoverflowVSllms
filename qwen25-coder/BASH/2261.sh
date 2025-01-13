@@ -1,0 +1,1 @@
+echo 'alias scheme="scheme --version=7.5.1 -large -band 6001.com"' >> ~/.bashrc\n   source ~/.bashrc

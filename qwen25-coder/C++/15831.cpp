@@ -1,0 +1,1 @@
+#include <algorithm> // for std::is_sorted\n\ntemplate<typename T>\nbool vectorIsSorted(const std::vector<T>& vec) {\n    return std::is_sorted(vec.begin(), vec.end());\n}\n\n// Usage example:\nstd::vector<int> myVector = {1, 2, 3, 4, 5};\nif (vectorIsSorted(myVector)) {\n    // The vector is sorted\n} else {\n    // The vector is not sorted\n}

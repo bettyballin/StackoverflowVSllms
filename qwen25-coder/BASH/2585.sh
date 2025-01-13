@@ -1,0 +1,1 @@
+* * * * * env > /home/yourusername/cron-env.txt

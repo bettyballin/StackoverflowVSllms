@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Trap the SIGINT signal and kill the ssh process and its children\ntrap 'kill -- -$$' SIGINT \n\nssh -n -x root@db-host 'mysqldump db | gzip > /tmp/file.sql'

@@ -1,0 +1,1 @@
+// a.h\n#ifndef A_H\n#define A_H\n\nvoid print_matrix(int* matrix, int rows, int cols);\n\n#endif // A_H

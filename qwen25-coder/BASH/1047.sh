@@ -1,0 +1,1 @@
+sudo apt-get install ansi2html # For Debian-based systems

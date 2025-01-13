@@ -1,0 +1,1 @@
+tail -f /var/log/apache2/error.log\n   tail -f /var/log/apache2/ssl_error.log  # This log might not exist by default, ensure it's configured if necessary.

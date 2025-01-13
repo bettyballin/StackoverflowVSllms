@@ -1,0 +1,1 @@
+# Install smtp4dev via NuGet for integration in .NET projects\n     dotnet add package Smtp4dev

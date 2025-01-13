@@ -1,0 +1,1 @@
+[ServiceBehavior(InstanceContextMode = InstanceContextMode.PerSession)]\npublic class MyWcfService : IMyWcfService\n{\n    private string _text;\n\n    [OperationContract]\n    public string ReturnText()\n    {\n        return _text;\n    }\n\n    [OperationContract]\n    public void SetText(string s)\n    {\n        _text = s;\n    }\n}

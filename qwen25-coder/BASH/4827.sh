@@ -1,0 +1,1 @@
+# Download and run the TDM-GCC setup script\n@powershell -Command "[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12; Invoke-WebRequest -Uri 'http://tdm-gcc.tdragon.net/download/tdm64-gcc-10.3.0-2.exe' -OutFile 'tdm-gcc-installer.exe'\n.\tdm-gcc-installer.exe /s

@@ -1,0 +1,1 @@
+protected override void CreateChildControls()\n{\n    base.CreateChildControls();\n\n    // Example of adding a label dynamically\n    Label myLabel = new Label();\n    myLabel.ID = "MyDynamicLabel";\n    myLabel.Text = "This is a dynamic label.";\n    \n    Controls.Add(myLabel);\n}

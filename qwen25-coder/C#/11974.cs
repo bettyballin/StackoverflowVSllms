@@ -1,0 +1,1 @@
+private void myDataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)\n{\n    // Example: Update UI based on selection without sorting\n    if (myDataGrid.SelectedItem != null)\n    {\n        var selectedItem = (YourDataType)myDataGrid.SelectedItem;\n        // Perform actions with the selected item here\n    }\n}

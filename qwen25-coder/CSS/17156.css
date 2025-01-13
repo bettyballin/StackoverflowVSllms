@@ -1,0 +1,1 @@
+.container {\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    gap: 10px; /* Space between columns */\n}\n\n.item {\n    width: 400px; /* Set your desired width */\n    border: 1px solid black;\n}

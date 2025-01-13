@@ -1,0 +1,1 @@
+sudo apt-get install libapache2-mod-auth-gssapi # For Debian/Ubuntu\nsudo yum install mod_auth_gssapi                # For CentOS/RHEL

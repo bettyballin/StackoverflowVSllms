@@ -1,0 +1,1 @@
+// Inside BaseWeb/YourPage.aspx.cs\n\nprotected void YourPage_Load(object sender, EventArgs e)\n{\n    DataOperations.MyMethod();\n}

@@ -1,0 +1,1 @@
+void example(int a = 10, int b) { // Incorrect order\n    // Function body\n}\n\nvoid correctExample(int a, int b = 20) { // Correct order\n    // Function body\n}

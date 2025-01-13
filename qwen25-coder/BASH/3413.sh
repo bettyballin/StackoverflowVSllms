@@ -1,0 +1,1 @@
+# Install Web Farm Framework via PowerShell Gallery or download from official site\n   Install-Module -Name WebFarmFrameworkInstaller

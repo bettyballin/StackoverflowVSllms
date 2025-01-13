@@ -1,0 +1,1 @@
+cat /var/log/monit.log\n   cat /var/log/apache2/error.log

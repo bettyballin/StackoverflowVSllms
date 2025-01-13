@@ -1,0 +1,1 @@
+[HttpPost]\n   [ValidateAntiForgeryToken]\n   public IActionResult Delete(int id)\n   {\n       if (!this.ModelState.IsValid)\n           return BadRequest();\n       \n       // ... delete operation here ...\n       return RedirectToAction("Index");\n   }

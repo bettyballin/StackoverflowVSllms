@@ -1,0 +1,1 @@
+# Update your working copy\nsvn update\n\n# After resolving conflicts manually, mark them as resolved\nsvn resolve --accept=working <file>

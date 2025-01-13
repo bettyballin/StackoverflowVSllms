@@ -1,0 +1,1 @@
+// Example of setting CAS permission set attributes (this will only compile on full framework)\n[assembly: System.Security.AllowPartiallyTrustedCallers]\n\nusing System;\nusing System.Security.Permissions;\n\npublic class Sample \n{\n    [PermissionSet(SecurityAction.Demand, Name="Nothing")]\n    public void DoWork() {}\n}

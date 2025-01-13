@@ -1,0 +1,1 @@
+// Usage from managed code\nusing System.Runtime.InteropServices;\n\nclass Program {\n    static void Main(string[] args) {\n        ManagedDirectShowManager manager = new ManagedDirectShowManager();\n        manager.StartCapture();\n        // Simulate processing...\n        manager.StopCapture();\n    }\n}

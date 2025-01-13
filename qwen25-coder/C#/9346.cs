@@ -1,0 +1,1 @@
+string name = (string)Session["name"];\n   int age = (int)Session["age"];

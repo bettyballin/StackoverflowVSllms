@@ -1,0 +1,1 @@
+# To install WSL, open PowerShell as Administrator and run:\n   wsl --install

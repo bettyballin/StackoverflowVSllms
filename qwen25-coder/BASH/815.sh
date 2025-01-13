@@ -1,0 +1,1 @@
+ps -o pid,state,cmd -p <PID>

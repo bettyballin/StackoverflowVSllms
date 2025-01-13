@@ -1,0 +1,1 @@
+using System;\nusing System.Collections.Generic;\nusing System.Linq;\n\nclass Program\n{\n    static void Main()\n    {\n        IEnumerable<int> enumerable = new List<int> { 1, 2, 3, 4, 5 };\n        List<int> list = enumerable.ToList();\n\n        // Now you can use 'list' as a List<int>\n    }\n}

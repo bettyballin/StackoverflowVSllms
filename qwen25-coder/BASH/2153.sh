@@ -1,0 +1,1 @@
+Get-ChildItem -Path "C:\YourDirectory" -Filter *.php -Recurse | Select-Object -ExpandProperty FullName | Out-File -FilePath "C:\list-of-php-files.txt"

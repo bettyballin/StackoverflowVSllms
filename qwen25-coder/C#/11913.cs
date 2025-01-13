@@ -1,0 +1,1 @@
+string GetUserSessionID(int userID) {\n       string session = GetSessionFromStore(userID);\n       if (string.IsNullOrEmpty(session)) throw new SessionNotFoundException();\n       return session;\n   }

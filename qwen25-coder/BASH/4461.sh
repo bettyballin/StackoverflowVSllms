@@ -1,0 +1,1 @@
+wget https://archive.apache.org/dist/subversion/subversion-1.5.x.tar.gz\ntar -xzf subversion-1.5.x.tar.gz\ncd subversion-1.5.x\n./configure --prefix=/usr/local\nmake\nsudo make install

@@ -1,0 +1,1 @@
+// MEF Example: Importing parts using attributes\n[Import]\npublic ILogger Logger { get; set; }\n\n// OSGi Equivalent: Bundles and services are typically defined in metadata files or through programmatic service registry\nBundleContext bundleContext = Framework.GetBundle(typeof(MyService).Assembly).BundleContext;\nbundleContext.RegisterService<ILogger>(new MyLogger(), null);

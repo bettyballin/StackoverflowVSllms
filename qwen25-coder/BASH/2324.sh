@@ -1,0 +1,1 @@
+g++ -fno-exceptions -fno-rtti your_source_files.cpp -o your_program -Bsymbolic -nostartfiles -ffreestanding -lcxxabi -lsupc++

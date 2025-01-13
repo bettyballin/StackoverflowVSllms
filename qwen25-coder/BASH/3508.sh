@@ -1,0 +1,1 @@
+mysqldump -u <db-user> -p<password> <database-name> > db-backup.sql\ntar -czf myproject-files.tar.gz /path/to/myproject-public-dir

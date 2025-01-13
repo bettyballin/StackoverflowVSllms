@@ -1,0 +1,1 @@
+[HttpPost]\npublic ActionResult Edit(UserViewModel model)\n{\n    if (ModelState.IsValid)\n    {\n        // Process the form data, save to database, etc.\n        return RedirectToAction("Success");\n    }\n\n    // If we got this far, something failed, redisplay form\n    return View(model);\n}

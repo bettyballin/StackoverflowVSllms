@@ -1,0 +1,1 @@
+public JsonResult GetNewRecords()\n{\n    var lastChecked = DateTime.Now.AddMinutes(-15);\n    // Retrieve new records from your database after lastCheck time\n    var newRecords = db.YourTable.Where(x => x.Timestamp > lastChecked).ToList();\n    \n    return Json(new { Records = newRecords }, JsonRequestBehavior.AllowGet);\n}

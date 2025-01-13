@@ -1,0 +1,1 @@
+database: "| /usr/bin/php -q /path/to/your/script/email_processor.php"

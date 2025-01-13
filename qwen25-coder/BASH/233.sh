@@ -1,0 +1,1 @@
+# Open Developer Command Prompt for VS and run:\n   dotnet new analyzer -o MyAnalyzer\n   cd MyAnalyzer

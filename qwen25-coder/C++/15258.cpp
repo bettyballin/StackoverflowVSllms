@@ -1,0 +1,1 @@
+#include <windows.h>\n\nint main() {\n    // Hide the console window\n    HWND hwnd = GetConsoleWindow();\n    if (hwnd) {\n        ShowWindow(hwnd, SW_HIDE);\n    }\n\n    // Your application logic here\n\n    return 0;\n}

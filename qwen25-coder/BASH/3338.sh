@@ -1,0 +1,1 @@
+* * * * * MY_SECRET_TOKEN=mysecretvalue /usr/bin/php /path/to/your/script.php

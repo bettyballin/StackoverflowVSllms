@@ -1,0 +1,1 @@
+// Example command to add these counters to Windows Performance Monitor (Perfmon)\nlogman create counter -n "SQLServerCounters" -o C:\SQLServerCounters.csv --add CounterName1,\SQLServer:Buffer\Buffer cache hit ratio -f CSV -cf SQLServerCounters.xml -rf SQLServerCountersReport.xml\n// Repeat for each of the counters listed

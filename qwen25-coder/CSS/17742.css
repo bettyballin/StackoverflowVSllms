@@ -1,0 +1,1 @@
+#leftcolumn {\n    float: left;\n    width: 230px; /* New width */\n    margin-right: 15px; /* Adding gap between columns */\n}\n\n#middlecolumn {\n    margin-left: 265px; /* Adjusted to start after the new left column and margin */\n}

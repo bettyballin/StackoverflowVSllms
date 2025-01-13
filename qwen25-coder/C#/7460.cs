@@ -1,0 +1,1 @@
+using (FileStream fileStream = new FileStream("path_to_large_file.xml", FileMode.Open, FileAccess.Read))\n{\n    using (XmlReader reader = XmlReader.Create(fileStream))\n    {\n        // Process the XML data here\n    }\n}

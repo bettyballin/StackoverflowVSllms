@@ -1,0 +1,1 @@
+cat /dev/urandom | head -c 1024 | nc localhost 8080

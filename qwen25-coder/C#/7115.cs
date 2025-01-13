@@ -1,0 +1,1 @@
+using (var command = new SqlCommand(query, connection))\n{\n    using (var reader = command.ExecuteReader())\n    {\n        while (reader.Read())\n        {\n            var something = reader.GetString(reader.GetOrdinal("something"));\n            var somethingElse = reader.GetInt32(reader.GetOrdinal("somethingelse"));\n        }\n    }\n}

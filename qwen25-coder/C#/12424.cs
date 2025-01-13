@@ -1,0 +1,1 @@
+// Example of try-finally block to ensure cleanup happens in case of exception\n   IntPtr resourceHandle = OpenNativeResource();\n   try {\n       UseNativeResource(resourceHandle);\n   } catch (Exception ex) {\n       LogError(ex.Message);\n   } finally {\n       CloseNativeResource(resourceHandle);\n   }

@@ -1,0 +1,1 @@
+public class MyViewModel : INotifyPropertyChanged {\n    private string _text = "   Sample Text with spaces   ";\n    public string Text => _text;\n\n    public string TrimmedText => _text.Trim();\n\n    // Implement the INotifyPropertyChanged interface\n}

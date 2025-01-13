@@ -1,0 +1,1 @@
+#define _BSD_SOURCE\n#include <stdlib.h>\n\n// Rest of your code

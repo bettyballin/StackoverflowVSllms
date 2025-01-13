@@ -1,0 +1,1 @@
+var query =\n    from o in orders\n    from i in items\n    where o.ID == i.OrderA || o.ID == i.OrderB\n    select new { Order = o, Item = i };

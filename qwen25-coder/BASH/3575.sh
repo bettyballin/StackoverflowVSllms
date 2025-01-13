@@ -1,0 +1,1 @@
+java -Djava.library.path=/path/to/jdk/bin/ -cp /path/to/comm.jar:. BlackBox

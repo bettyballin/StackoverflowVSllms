@@ -1,0 +1,1 @@
+var pagedProducts = \n    (from c in db.Categories\n     where c.ID == 1\n     from p in c.Products\n     where p.ID == 1 // Assuming this is intended; remove if unnecessary\n     orderby p.ID // Important for ROW_NUMBER to work properly\n     select new { ID = p.ID, Name = p.Name })\n    .Skip(1)\n    .Take(1)\n    .ToList();

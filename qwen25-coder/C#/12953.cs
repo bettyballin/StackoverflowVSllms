@@ -1,0 +1,1 @@
+var bananas = fruits.OfType<Banana>();\nforeach (Banana banana in bananas)\n    Console.WriteLine(banana.IsYellow);

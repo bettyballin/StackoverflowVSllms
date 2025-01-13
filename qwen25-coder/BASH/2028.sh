@@ -1,0 +1,1 @@
+gcc -o myprogram myprogram.c -Wl,--stack,8388608

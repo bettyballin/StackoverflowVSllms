@@ -1,0 +1,1 @@
+gcc -o myprogram myprogram.c -lXaw7 -v

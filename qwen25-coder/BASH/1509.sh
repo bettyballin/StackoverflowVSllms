@@ -1,0 +1,1 @@
+regasm /tlb:YourInterop.tlb path\to\compiled.dll

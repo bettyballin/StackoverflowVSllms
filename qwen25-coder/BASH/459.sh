@@ -1,0 +1,1 @@
+# Command to import data dump to a schema of user 'SCHEMA_NAME'\nimpdp SCHEMA_NAME/password DIRECTORY=DATA_PUMP_DIR DUMPFILE=schema_name.dmp LOGFILE=import_schema_name.log

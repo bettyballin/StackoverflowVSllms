@@ -1,0 +1,1 @@
+# Open Git Bash and configure git with your user information\ngit config --global user.name "Your Name"\ngit config --global user.email "your.email@example.com"

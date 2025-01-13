@@ -1,0 +1,1 @@
+[ServiceContract]\npublic interface IServiceRegistry\n{\n    [OperationContract(IsOneWay = true)]\n    void RegisterService(string serviceName, string endpointAddress);\n\n    [OperationContract]\n    string ResolveService(string serviceName);\n}

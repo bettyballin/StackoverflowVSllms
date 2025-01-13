@@ -1,0 +1,1 @@
+// In your DLL project (e.g., MyDll.h)\n   #ifdef MYDLL_EXPORTS\n   #define MYDLL_API __declspec(dllexport)\n   #else\n   #define MYDLL_API __declspec(dllimport)\n   #endif\n\n   extern "C" MYDLL_API int IsolatedFunction(int someParam);

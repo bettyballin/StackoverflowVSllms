@@ -1,0 +1,1 @@
+#include <wtypes.h>\n\nVARIANT_BOOL variantBool = VARIANT_TRUE; // Example value\n\n// Convert to bool\nbool cppBool = (variantBool != VARIANT_FALSE);\n\n// Alternatively, using explicit true/false check\n// bool cppBool = (variantBool == VARIANT_TRUE);

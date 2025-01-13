@@ -1,0 +1,1 @@
+var tempPath = Path.Combine(Path.GetTempPath(), "MyApp.exe");\n     File.Copy("\\network\share\MyApp.exe", tempPath, true);\n     Process.Start(tempPath);

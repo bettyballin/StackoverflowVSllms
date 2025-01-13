@@ -1,0 +1,1 @@
+// Accessing the client's windows identity name\n   string username = ServiceSecurityContext.Current.PrimaryIdentity.Name;

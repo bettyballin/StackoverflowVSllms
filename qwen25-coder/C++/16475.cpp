@@ -1,0 +1,1 @@
+#include <iostream>\n  #include <string>\n\n  int main() {\n      std::wcout.imbue(std::locale("en_US.UTF-8")); // Set locale as needed\n      std::wstring wideString = L"Привет мир";\n      std::wcout << wideString << std::endl;\n      return 0;\n  }

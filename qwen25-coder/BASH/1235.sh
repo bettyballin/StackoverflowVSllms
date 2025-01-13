@@ -1,0 +1,1 @@
+httrack "http://example.com/" -O "/path/to/download/directory/"

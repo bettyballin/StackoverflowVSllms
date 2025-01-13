@@ -1,0 +1,1 @@
+jar -cvf proprietary_modified.war *

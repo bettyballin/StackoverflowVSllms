@@ -1,0 +1,1 @@
+// Save the setting\nProperties.Settings.Default.RightColumnWidth = RightColumnWidth;\nProperties.Settings.Default.Save();\n\n// Load the setting\nRightColumnWidth = Properties.Settings.Default.RightColumnWidth;

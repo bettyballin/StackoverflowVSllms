@@ -1,0 +1,1 @@
+# Navigate to the directory containing your project file\ncd path-to-your-project\n\n# Use dotnet build command\ndotnet build YourProject.csproj --configuration Release

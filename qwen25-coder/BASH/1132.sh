@@ -1,0 +1,1 @@
+# Initialize a Barman server\n   barman init /path/to/barman/config

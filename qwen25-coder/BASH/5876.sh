@@ -1,0 +1,1 @@
+@echo off\n\nset /p version=<version.txt\n\nfor /f %%i in (schemas.txt) do (\n    sqlplus -S schemaUsername/%schemaPassword%@%tns% @DATABASE_%version%\%%i\install.sql\n)\n\npause

@@ -1,0 +1,1 @@
+public int notTailRecursiveSum(int n) {\n    if (n == 0) return 0;\n    else return notTailRecursiveSum(n - 1) + n; // 'n' is added after returning from recursion\n}

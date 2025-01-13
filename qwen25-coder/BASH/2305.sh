@@ -1,0 +1,1 @@
+sudo chown -R richard:developers /server/staging

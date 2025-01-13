@@ -1,0 +1,1 @@
+public bool AutentificacionUsuario(string userID, string passID)\n{\n    var user = _db.USER.FirstOrDefault(u => u.siglas == userID && u.codigousuario == passID);\n    return user != null;\n}

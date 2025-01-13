@@ -1,0 +1,1 @@
+# Configure shared configuration using PowerShell\n   Set-ItemProperty -Path "IIS:\Sites\Default Web Site" -Name bindings -Value @{protocol="http";bindingInformation="*:80:*"}\n   Import-IisConfigurationSnapshot -FilePath C:\SharedConfig.zip -ComputerName Server1,Server2

@@ -1,0 +1,1 @@
+sudo a2ensite <your-site-config-name>.conf\n   sudo systemctl restart apache2

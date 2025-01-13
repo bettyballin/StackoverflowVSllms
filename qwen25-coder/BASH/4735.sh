@@ -1,0 +1,1 @@
+keytool -import -alias ca-cert -file C:/Cacert.der -keystore mytruststore.jks -storetype JKS -storepass changeit

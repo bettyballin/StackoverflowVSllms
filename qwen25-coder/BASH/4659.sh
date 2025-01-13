@@ -1,0 +1,1 @@
+bcp "SELECT * FROM MyDatabase.dbo.June2009" queryout "D:\Archive\June2009.csv" -c -T

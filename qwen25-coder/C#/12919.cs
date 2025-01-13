@@ -1,0 +1,1 @@
+// Disable ViewState for a control:\n   this.SomeControl.EnableViewState = false;

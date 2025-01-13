@@ -1,0 +1,1 @@
+split -b 10M yourfile yourfile_part_\n   for part in yourfile_part_*; do\n       nice bzip2 "$part"\n   done

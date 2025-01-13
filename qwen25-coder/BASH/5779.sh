@@ -1,0 +1,1 @@
+# Example: Command in Host Shell (on the developer's machine)\n$ gcc -o myApplication mySource.c -mvxworks\n$ vmTools -r myTargetSystem ./myApplicatio

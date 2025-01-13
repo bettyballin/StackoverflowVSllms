@@ -1,0 +1,1 @@
+#include <stdio.h>\n\n__global__ void helloWorld()\n{\n    printf("Hello from GPU!\n");\n}\n\nint main(void)\n{\n    cudaSetDevice(0);\n    helloWorld<<<1, 1>>>();\n    cudaDeviceSynchronize();\n    return 0;\n}

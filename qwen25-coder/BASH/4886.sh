@@ -1,0 +1,1 @@
+sudo apt-get install auditd audispd-plugins\nsudo systemctl start auditd\nsudo systemctl enable auditd

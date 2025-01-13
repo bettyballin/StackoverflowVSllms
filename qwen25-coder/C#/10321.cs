@@ -1,0 +1,1 @@
+public static class SqlQueries\n{\n    public const string GetUserInfo = @"SELECT id, name, email FROM users WHERE id = @userId;";\n    // Add more queries as needed\n}

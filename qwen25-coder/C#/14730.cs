@@ -1,0 +1,1 @@
+public enum Type {\n    ADMIN,\n    NORMAL\n}

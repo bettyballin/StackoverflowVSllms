@@ -1,0 +1,1 @@
+decimal amount = 1234.56789m;\n\n// For currency format\nstring currencyFormat = amount.ToString("C2");\nConsole.WriteLine(currencyFormat); // Output will be $1,234.57 (depending on your locale)\n\n// For numeric format with two decimal places\nstring numericFormat = amount.ToString(".2f");\nConsole.WriteLine(numericFormat); // Output will be 1234.57

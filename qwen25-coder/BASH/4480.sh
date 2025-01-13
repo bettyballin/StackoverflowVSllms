@@ -1,0 +1,1 @@
+# Use something like `dd` for a basic test\n  dd if=/dev/zero of=testfile bs=1M count=1024 oflag=direct conv=fdatasync

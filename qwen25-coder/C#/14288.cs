@@ -1,0 +1,1 @@
+using System.IO;\n\nList<FileInfo> files = new List<FileInfo>(Directory.GetFiles(@"C:\Your\Path").Select(f => new FileInfo(f)));\nfiles.Sort(new FileInfoComparer());

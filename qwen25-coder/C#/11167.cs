@@ -1,0 +1,1 @@
+dataContext.Refresh(RefreshMode.StoreWins, listOfEntitiesToRefresh);

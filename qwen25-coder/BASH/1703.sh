@@ -1,0 +1,1 @@
+# PHPCPD (PHP Copy/Paste Detector) identifies code duplication in PHP files.\n   composer require --dev sebastian/phpcpd\n   ./vendor/bin/phpcpd src/

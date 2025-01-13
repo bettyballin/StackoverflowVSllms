@@ -1,0 +1,1 @@
+# Install MySQL Router\nsudo apt install mysql-router\n\n# Start MySQL Router with metadata cache mode for dynamic scaling\nmysqlrouter --bootstrap user:password@host:port --directory /etc/mysqlrouter --conf-name=my.ini\n\n# Configure the router to use a specific directory and configuration file\n# Adjust the settings in my.ini (like the bind address, ports, etc.)

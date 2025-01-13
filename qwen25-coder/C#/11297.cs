@@ -1,0 +1,1 @@
+protected void GridView1_RowUpdating(object sender, GridViewUpdateEventArgs e)\n   {\n       // Log or debug parameter values here before they are sent to SQL\n   }

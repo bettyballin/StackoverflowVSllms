@@ -1,0 +1,1 @@
+#include <stdlib.h>\n\nint main(int argc, char* argv[]) {\n    int *sieve = (int *)calloc(2000000, sizeof(int));\n    if (sieve == NULL) {\n        // Handle memory allocation failure\n        return 1;\n    }\n\n    // Use the sieve array here\n\n    // Don't forget to free the allocated memory\n    free(sieve);\n    return 0;\n}

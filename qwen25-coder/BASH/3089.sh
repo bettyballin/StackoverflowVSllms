@@ -1,0 +1,1 @@
+route delete 0.0.0.0\nroute add 0.0.0.0 mask 0.0.0.0 if 6

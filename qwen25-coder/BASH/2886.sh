@@ -1,0 +1,1 @@
+curl -X PUT --data-binary @/path/to/testfile.jpg http://yourserver.com/your-endpoint

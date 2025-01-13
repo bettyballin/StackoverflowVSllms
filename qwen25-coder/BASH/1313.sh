@@ -1,0 +1,1 @@
+# Using Homebrew for MacOS\nbrew install mailhog\n\n# Or via binary download for Linux\nwget https://github.com/mailhog/MailHog/releases/latest/download/MailHog_linux_amd64 -O /usr/local/bin/mailhog\nchmod +x /usr/local/bin/mailhog

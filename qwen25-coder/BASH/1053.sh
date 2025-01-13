@@ -1,0 +1,1 @@
+export PATH=$PATH:$HOME/new_path

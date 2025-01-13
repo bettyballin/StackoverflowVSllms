@@ -1,0 +1,1 @@
+using System.Data.SqlClient;\n\n// Assume 'reader' is an SqlDataReader that has been properly initialized and read.\nint id = (int)reader[0]; // Direct casting\n\n// Using GetInt32 method\nint saferId = reader.GetInt32(0);

@@ -1,0 +1,1 @@
+query = from p in context.PROJECTS\n        join n in context.PROJECT_NOTES on p.PROJECT_ID equals n.PROJECT_ID into projectNotes\n        where (from note in projectNotes\n               where note.NOTES.Contains(cwForm.search1Form)\n               select note).Any()\n        select p;

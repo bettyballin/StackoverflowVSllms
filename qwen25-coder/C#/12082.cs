@@ -1,0 +1,1 @@
+dynamic instance = Activator.CreateInstance(Type.GetType("System.Text.StringBuilder"));\ninstance.AppendLine("Hello World");\nConsole.WriteLine(instance.ToString());

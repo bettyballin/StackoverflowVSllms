@@ -1,0 +1,1 @@
+# Backup command example\n   pgbackrest backup --db=path_to_pg_database

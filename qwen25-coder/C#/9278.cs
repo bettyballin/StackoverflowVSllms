@@ -1,0 +1,1 @@
+using System.Windows.Forms;\nusing System.Drawing;\n\npublic partial class MainForm : Form\n{\n    public MainForm()\n    {\n        InitializeComponent();\n        \n        Color captionColor = SystemColors.ActiveCaption;\n        // Now you can use the captionColor variable as needed, for example:\n        MessageBox.Show($"Active Caption Color: {captionColor}");\n    }\n}

@@ -1,0 +1,1 @@
+// In your header file (e.g., MyObject.h)\n    class MYPLUGIN_API MyClass : public Object {\n        // class implementation goes here\n    };

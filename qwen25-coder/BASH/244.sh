@@ -1,0 +1,1 @@
+java -Dorg.w3c.css.sac.parser=org.apache.batik.css.parser.Parser -jar YourApplication.jar

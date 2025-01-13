@@ -1,0 +1,1 @@
+# Changing user password for example\n   sudo passwd username

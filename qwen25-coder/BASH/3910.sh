@@ -1,0 +1,1 @@
+mdb <corefile>\n::findproc -a <pid>  # Replace <pid> with your process ID\n::<tid>::regs       # Replace <tid> with the thread id from ::findproc output

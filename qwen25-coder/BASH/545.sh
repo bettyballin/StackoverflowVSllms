@@ -1,0 +1,1 @@
+#!/bin/bash\n\nread -p "Enter TNS: " tns\nread -s -p "Enter schema password: " schemaPassword\necho -e "\n"\n\nversion=$(<version.txt)\n\nwhile read -r schema; do\n    sqlplus -S schemaUsername/${schemaPassword}@${tns} @DATABASE_${version}/${schema}/install.sql\ndone < schemas.txt

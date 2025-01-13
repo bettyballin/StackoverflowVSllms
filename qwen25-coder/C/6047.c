@@ -1,0 +1,1 @@
+__try {\n      // Dereferencing potentially invalid pointer\n      char c = *ptr;\n  }\n  __except(EXCEPTION_EXECUTE_HANDLER) {\n      // Handle the error here\n      printf("Access violation caught\n");\n  }

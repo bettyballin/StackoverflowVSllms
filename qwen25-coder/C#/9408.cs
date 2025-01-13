@@ -1,0 +1,1 @@
+using System.IO;\n   using Newtonsoft.Json;\n\n   public class ConfigManager\n   {\n       private const string ConfigPath = "appsettings.json";\n\n       public static ApplicationSettings LoadConfig()\n       {\n           var configJson = File.ReadAllText(ConfigPath);\n           return JsonConvert.DeserializeObject<ApplicationSettings>(configJson);\n       }\n   }

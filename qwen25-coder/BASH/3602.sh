@@ -1,0 +1,1 @@
+# Using Kubernetes for orchestration in a cloud environment\nkubectl apply -f my-web-app-deployment.yaml

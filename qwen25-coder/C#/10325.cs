@@ -1,0 +1,1 @@
+private void TextBox_PreviewTextInput(object sender, TextCompositionEventArgs e)\n{\n    // Allows uppercase letters only\n    e.Handled = !new Regex("[A-Z]").IsMatch(e.Text);\n}

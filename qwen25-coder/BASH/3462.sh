@@ -1,0 +1,1 @@
+# Install Certbot and the Apache plugin\nsudo apt install certbot python3-certbot-apache\n\n# Obtain and install your certificate\nsudo certbot --apache\n\n# Redirect all HTTP traffic to HTTPS in your Apache configuration\n<VirtualHost *:80>\n    RewriteEngine On\n    RewriteRule ^(.*)$ https://%{HTTP_HOST}$1 [R=301,L]\n</VirtualHost>

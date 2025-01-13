@@ -1,0 +1,1 @@
+int i = ReadAllDigital();\ncbi[0].Checked = (i & 1) != 0; // Check first bit\ncbi[1].Checked = (i & 2) != 0; // Check second bit\ncbi[2].Checked = (i & 4) != 0; // Check third bit\ncbi[3].Checked = (i & 8) != 0; // Check fourth bit\ncbi[4].Checked = (i & 16) != 0; // Check fifth bit

@@ -1,0 +1,1 @@
+protected void Button_Click(object sender, EventArgs e)\n{\n    TransformHTML = RawHTML.Text;\n    BEHtml.TextMode = System.Web.UI.WebControls.TextBoxMode.MultiLine; // Ensure Multiline mode is set\n    BEHtml.Text = TransformHTML.Replace("\r\n", "\n").Replace("\n", Environment.NewLine);\n}

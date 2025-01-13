@@ -1,0 +1,1 @@
+openfiles /disconnect /id <PID>

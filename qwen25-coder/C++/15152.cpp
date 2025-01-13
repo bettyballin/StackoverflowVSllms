@@ -1,0 +1,1 @@
+__global__ void aes_kernel(unsigned char *input, unsigned char *output, int len) {\n        int idx = threadIdx.x + blockIdx.x * blockDim.x;\n        if (idx < len) {\n            output[idx] = input[idx] ^ 0xFF; // Example operation\n        }\n    }

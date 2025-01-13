@@ -1,0 +1,1 @@
+DateTime start = DateTime.Now;\n// do some stuff...\nvar sourcesToIgnore = new List<string> { "IgnoredSource1", "IgnoredSource2" };\nforeach (EventLogEntry entry in "Application".EventLogEntriesSince(start, sourcesToIgnore))\n{\n    // Now I can do stuff with entry\n}

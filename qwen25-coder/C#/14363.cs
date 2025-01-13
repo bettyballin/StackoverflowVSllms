@@ -1,0 +1,1 @@
+public partial class YourEntity\n{\n    private string _yourProperty;\n\n    public string YourProperty\n    {\n        get { return _yourProperty; }\n        set { _yourProperty = string.IsNullOrEmpty(value) ? null : value; }\n    }\n}

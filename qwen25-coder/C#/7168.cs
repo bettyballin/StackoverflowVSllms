@@ -1,0 +1,1 @@
+string connectionString = "Data Source=yourDataSource;User ID=yourUserId;Password=yourPassword;TraceFileName=C:\\oracle_client_trace.log;TraceLevel=63;TraceOption=4;";

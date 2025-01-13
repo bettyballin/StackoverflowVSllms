@@ -1,0 +1,1 @@
+rmiregistry -J-Djava.security.manager -J-Djava.security.policy=path_to_your_policy_file/rmi_policy.all

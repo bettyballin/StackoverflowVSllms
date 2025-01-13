@@ -1,0 +1,1 @@
+// Assuming GetQuestions() and GetTags() fetch data from the database.\nList<Question> questions = GetQuestions();\nList<Tag> tags = GetTags();\n\nforeach (var question in questions) {\n    var questionTags = tags.Where(t => t.QuestionID == question.ID).Select(t => t.Name);\n    question.Tags.AddRange(questionTags);\n}

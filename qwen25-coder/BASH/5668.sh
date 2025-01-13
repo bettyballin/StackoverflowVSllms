@@ -1,0 +1,1 @@
+echo 'LC_ALL=en_US.UTF-8' | sudo tee /etc/default/locale\n   echo 'LANG=en_US.UTF-8' | sudo tee -a /etc/default/locale

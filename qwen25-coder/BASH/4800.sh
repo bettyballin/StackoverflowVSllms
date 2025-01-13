@@ -1,0 +1,1 @@
+openssl req -new -x509 -key localhost.key -out localhost.crt -days 365 \\n     -subj "/C=US/ST=State/L=City/O=Organization/CN=localhost"

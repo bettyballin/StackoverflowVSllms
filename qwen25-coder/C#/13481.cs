@@ -1,0 +1,1 @@
+// AVOID: This is unsafe in Medium Trust\n   Microsoft.Win32.Registry.CurrentUser.OpenSubKey("SomeKey");

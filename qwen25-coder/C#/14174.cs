@@ -1,0 +1,1 @@
+using System;\n\npublic class GuidExample {\n    public static void Main() {\n        Guid newGuid = Guid.NewGuid();\n        Console.WriteLine(newGuid);\n    }\n}

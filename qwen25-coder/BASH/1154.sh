@@ -1,0 +1,1 @@
+2. **Use Directives to Deny Access**:\n   - Use `.htaccess` (or server config) to deny access to source code.\n   - Example:

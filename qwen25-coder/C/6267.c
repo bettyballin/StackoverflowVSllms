@@ -1,0 +1,1 @@
+// Correct usage of fopen and fclose\nFILE* f = fopen("blah", "w");\nif (f != NULL) {\n    // Use the file...\n    fclose(f);  // Closes the file stream; no need to free(f)\n}

@@ -1,0 +1,1 @@
+echo "something" | sudo tee -a /etc/privilegedFile

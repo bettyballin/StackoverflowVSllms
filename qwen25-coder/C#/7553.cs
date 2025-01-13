@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        // Perform a 301 permanent redirect to another page\n        Response.RedirectPermanent("/new-page", true);\n    }\n}

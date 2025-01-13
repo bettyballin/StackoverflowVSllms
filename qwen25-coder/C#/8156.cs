@@ -1,0 +1,1 @@
+services.AddAuthorization(options =>\n {\n     options.AddPolicy("AuthenticatedUser", policy => policy.RequireAuthenticatedUser());\n });\n\n// In Controller\n[Authorize(Policy = "AuthenticatedUser")]\npublic IActionResult SecureEndpoint()\n{\n    return View();\n}

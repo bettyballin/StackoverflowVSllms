@@ -1,0 +1,1 @@
+using System;\n\npublic class Program {\n    public static string Greet(string name) {\n        return $"Hello, {name}!";\n    }\n\n    public static void Main() {\n        Console.WriteLine(Greet("World"));\n    }\n}

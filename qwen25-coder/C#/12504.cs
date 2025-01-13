@@ -1,0 +1,1 @@
+// In another project\n\nusing ProjectName.Interfaces;\nusing System.ComponentModel.Composition;\n\n[Export(typeof(IMyProvider))]\npublic class MyProvider : IMyProvider\n{\n    public void Execute()\n    {\n        Console.WriteLine("Executing...");\n    }\n\n    public string GetName()\n    {\n        return "My Provider";\n    }\n}

@@ -1,0 +1,1 @@
+#include <cstdint>\n\nstruct SMyDataWord {\n    uint64_t Name : 40;\n    uint64_t Colour : 24;\n};

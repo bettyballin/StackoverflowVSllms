@@ -1,0 +1,1 @@
+sed -i '1s/^\xEF\xBB\xBF//' MyProgram.cpp  # Removes BOM at the beginning of the file

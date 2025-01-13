@@ -1,0 +1,1 @@
+# Open command prompt and navigate to where depends.exe is located\ndepends.exe "path_to_your_dll_here.dll"

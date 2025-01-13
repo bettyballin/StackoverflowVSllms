@@ -1,0 +1,1 @@
+# From your command line interface, try connecting using OS authentication\nsqlplus / as sysdba

@@ -1,0 +1,1 @@
+sudo -u <username> chroot /chroot_env /path/to/execute/code.sh

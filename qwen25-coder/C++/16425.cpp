@@ -1,0 +1,1 @@
+#include <soci/soci.h>\n   #include <iostream>\n\n   int main() {\n       soci::session sql(soci::postgresql, "dbname=mydatabase user=test password=secret");\n       int id = 7;\n       std::string name;\n\n       sql << "select name from person where id = " << id, soci::into(name);\n       std::cout << "The name is: " << name << std::endl;\n\n       return 0;\n   }

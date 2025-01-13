@@ -1,0 +1,1 @@
+tar -czf file.tar.gz /path/to/your/file\n   gpg --encrypt -r [Recipient Email or User ID] -o encrypted-file.tar.gz.gpg file.tar.gz

@@ -1,0 +1,1 @@
+#!/bin/bash\n\nsource_dir="/local/mountpoint"\noutput_dir="/path/to/output"\n\nmkdir -p "$output_dir"\n\nfor file in "$source_dir"/*; do\n    base_name=$(basename "$file")\n    iconv -f EBCDIC-US -t UTF-8 "$file" > "${output_dir}/${base_name}"\ndone

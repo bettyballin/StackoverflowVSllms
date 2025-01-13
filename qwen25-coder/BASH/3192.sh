@@ -1,0 +1,1 @@
+chcon -t httpd_sys_script_exec_t /path/to/processName\n    chcon -t httpd_sys_script_exec_t /var/www/cgi-bin/ControlProgram

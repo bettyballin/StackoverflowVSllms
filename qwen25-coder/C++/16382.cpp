@@ -1,0 +1,1 @@
+#pragma db object\n   class person {\n   public:\n       #pragma db id auto\n       long id_;\n\n       friend class odb::access;\n\n   private:\n       std::string first_;\n       std::string last_;\n   };\n\n   // ODB will generate code for persistence operations

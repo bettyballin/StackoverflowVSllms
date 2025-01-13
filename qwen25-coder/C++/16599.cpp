@@ -1,0 +1,1 @@
+// For LineSegment::contains(Point)\nbool LineSegment::contains(const Point& point) const;\n\n// For Rect::fully_contains(Circle)\nbool Rect::fully_contains(const Circle& circle) const;

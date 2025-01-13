@@ -1,0 +1,1 @@
+certmgr /add YourCertificate.cer /s /r localMachine root

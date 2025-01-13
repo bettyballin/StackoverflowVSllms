@@ -1,0 +1,1 @@
+sudo collectl -sDpzf /var/log/collectl/`date +%Y%m%d`/collectl-`hostname` 60 -P forever

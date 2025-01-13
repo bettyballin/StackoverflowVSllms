@@ -1,0 +1,1 @@
+depends.exe "path\to\your\dll"

@@ -1,0 +1,1 @@
+.three-columns {\n      height: auto !important; /* Ensures no fixed height */\n      min-height: 300px; /* Adjust based on your design needs */\n   }

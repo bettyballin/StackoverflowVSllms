@@ -1,0 +1,1 @@
+# Set an extended attribute\nsetfattr -n user.myattribute -v "myvalue" /path/to/file\n\n# Get the value of an extended attribute\ngetfattr -n user.myattribute /path/to/file

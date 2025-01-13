@@ -1,0 +1,1 @@
+// Example of getting connection string based on type from config file\npublic static class ConnectionStrings {\n    public static string GetConnectionString(string type) {\n        return ConfigurationManager.ConnectionStrings[$"{type}Connection"].ConnectionString;\n    }\n}

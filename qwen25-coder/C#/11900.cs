@@ -1,0 +1,1 @@
+public ActionResult SomeAction()\n{\n    if (!User.Identity.IsAuthenticated)\n    {\n        var loginUrl = Url.Action("Login", "Account", null, Request.Url.Scheme);\n        return Redirect(loginUrl);\n    }\n    // ...\n}

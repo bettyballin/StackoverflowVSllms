@@ -1,0 +1,1 @@
+# Checkout the desired version in the submodule directory\n   cd path/to/subby\n   git checkout v1.1  # or whichever tag/commit hash makes sense for your merge\n\n   # Go back to superproject and add the resolved submodule\n   cd ../..\n   git add path/to/subby

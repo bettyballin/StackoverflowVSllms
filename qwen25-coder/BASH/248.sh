@@ -1,0 +1,1 @@
+# For JPEG Compression:\nconvert input.tiff -compress jpeg output.pdf\n\n# For CCITT Fax Group 4 Compression (useful for binary images):\nconvert input.tiff -monochrome -compress group4 output.pdf

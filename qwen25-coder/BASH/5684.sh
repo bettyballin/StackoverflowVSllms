@@ -1,0 +1,1 @@
+systemctl --user enable synergy-client.service\nsystemctl --user start synergy-client.service

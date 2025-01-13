@@ -1,0 +1,1 @@
+# Example SSH command to create a tunnel\n   ssh -L local_port:sql_server_ip:1433 user@ssh_server_ip

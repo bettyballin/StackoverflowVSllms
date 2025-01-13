@@ -1,0 +1,1 @@
+// Assuming you have a Label named label1\nlabel1.AutoSize = false;\nlabel1.AutoEllipsis = true;\nlabel1.WordWrap = true;\n\n// Optionally, specify the size of your label to ensure text wraps within those dimensions\nlabel1.Size = new Size(200, 50); // example width and height

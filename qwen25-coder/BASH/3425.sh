@@ -1,0 +1,1 @@
+dig +trace www.subdomain.site.com.br

@@ -1,0 +1,1 @@
+gcloud datastore export gs://your-bucket-export-name --kinds="YourKind1,YourKind2"

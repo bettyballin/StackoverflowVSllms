@@ -1,0 +1,1 @@
+set SVN_SSH=C:\Program Files\PuTTY\plink.exe -ssh -i "C:\path\to\your\private_key.ppk"

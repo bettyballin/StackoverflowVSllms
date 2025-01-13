@@ -1,0 +1,1 @@
+typedef struct {\n    [size_is(40)] char buffer[41]; // +1 for the null terminator if needed\n} somestring;

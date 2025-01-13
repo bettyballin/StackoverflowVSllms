@@ -1,0 +1,1 @@
+// Efficient: Directly executes COUNT(*) SQL command on the database\nint count = context.YourTable.Count();\n\n// Inefficient: Loads all records from the database into memory and then counts them\nList<YourType> list = context.YourTable.ToList();\nint inefficientCount = list.Count;

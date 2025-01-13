@@ -1,0 +1,1 @@
+ohup your-command > output.log 2>&1 &

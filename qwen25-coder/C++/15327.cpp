@@ -1,0 +1,1 @@
+#include <atlhost.h>\n#include <comdef.h>

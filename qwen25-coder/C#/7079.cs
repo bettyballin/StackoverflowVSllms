@@ -1,0 +1,1 @@
+myComboBox.SelectedIndex = -1;

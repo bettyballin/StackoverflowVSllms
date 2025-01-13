@@ -1,0 +1,1 @@
+cd ..\nrm -rf <current-directory-name>

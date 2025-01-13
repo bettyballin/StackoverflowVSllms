@@ -1,0 +1,1 @@
+uglifyjs your-plugin.js -c -m -o your-plugin.min.js

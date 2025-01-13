@@ -1,0 +1,1 @@
+if (string.IsNullOrEmpty(postOld.URL))\n{\n    throw new ArgumentException("URL cannot be null or empty", nameof(postOld.URL));\n}\n\ncmd.Parameters.Add("@post_url", MySqlDbType.VarChar, 255).Value = postOld.URL;

@@ -1,0 +1,1 @@
+#!/bin/bash\n\nSOURCE_DIR="$1"\nDEST_DIR="$2"\n\n# Ensure destination directory exists\nmkdir -p "$DEST_DIR"\n\n# Create symbolic links for all files and directories recursively\nfind "$SOURCE_DIR" -type d -exec mkdir -p {} \;\nfind "$SOURCE_DIR" -type f -exec ln -s {} "$DEST_DIR"{} \;\n\necho "Symbolic link hierarchy created from $SOURCE_DIR to $DEST_DIR"

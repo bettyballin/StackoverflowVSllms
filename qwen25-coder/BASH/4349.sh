@@ -1,0 +1,1 @@
+"E:\oracle_10_2\BIN\imp" atlantis/atlantis@orcl file="E:\path_to_your_dump\ABCD1_EXCLUDE_CLOB_TABS_BAK.dmp" indexfile=index.sql full=y log=imp.log

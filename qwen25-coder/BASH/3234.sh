@@ -1,0 +1,1 @@
+# As root or using sudo, echo your library path into a new .conf file\necho "/path/to/library/" | sudo tee /etc/ld.so.conf.d/mylibs.conf\n\n# Update the linker cache\nsudo ldconfig

@@ -1,0 +1,1 @@
+<style>\n    .container {\n        display: flex;\n    }\n    .column {\n        width: 50%;\n        padding: 1em;\n        box-sizing: border-box;\n    }\n    .row-equivalent {\n        display: table-row;\n    }\n    .cell-equivalent {\n        display: table-cell;\n        vertical-align: top;\n    }\n</style>

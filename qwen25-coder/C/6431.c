@@ -1,0 +1,1 @@
+GtkLabel *label = gtk_label_new("initial text");\ngtk_label_set_text(GTK_LABEL(label), "new text");

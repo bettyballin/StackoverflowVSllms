@@ -1,0 +1,1 @@
+# Example of how to run a similar command in terminal (if not using PuTTY)\nssh -L 3690:svn-server-ip:3690 user@work-proxy-server

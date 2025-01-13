@@ -1,0 +1,1 @@
+string pattern = @"SELECT\s+\w+(\s*,\s*\w+)*\s+FROM\s+\w+(?:\s+WHERE\s+\w+\s*=\s*(\w+|'[^\']*'|""[^""]*""))?(?:\s+ORDER\s+BY\s+\w+)?";

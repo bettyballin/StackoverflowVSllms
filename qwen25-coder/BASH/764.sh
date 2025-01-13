@@ -1,0 +1,1 @@
+# Add the remote repository\ngit remote add origin https://github.com/yourusername/yourrepository.git\n\n# Push the initial commit to the main branch\ngit branch -M main\ngit push -u origin mai

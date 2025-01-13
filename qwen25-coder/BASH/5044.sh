@@ -1,0 +1,1 @@
+# Edit the sshd_config file, typically located at /etc/ssh/sshd_config\nsudo nano /etc/ssh/sshd_config\n\n# Add or modify the line for listening ports to include 443\nPort 22\nPort 443

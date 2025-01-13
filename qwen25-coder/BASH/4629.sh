@@ -1,0 +1,1 @@
+sudo chown _www:_www test.db\n     sudo chmod 644 test.db

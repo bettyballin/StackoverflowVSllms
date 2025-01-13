@@ -1,0 +1,1 @@
+sudo mkdir -p /var/log/apache2/\nsudo touch /var/log/apache2/mp3-access.log\nsudo chown www-data:www-data /var/log/apache2/mp3-access.log

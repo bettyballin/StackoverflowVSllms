@@ -1,0 +1,1 @@
+/* Using the star selector for IE7 */\n   *html .your-table-class td {\n       width: 150px !important; /* Adjust as needed */\n   }

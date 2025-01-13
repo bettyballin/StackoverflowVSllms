@@ -1,0 +1,1 @@
+g++ -pthread -o my_app source_file.cpp static_lib.a

@@ -1,0 +1,1 @@
+export PATH="/Developer/Platforms/MacOSX.platform/Developer/usr/bin:$PATH"

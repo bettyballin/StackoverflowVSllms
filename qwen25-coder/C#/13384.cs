@@ -1,0 +1,1 @@
+using (var client = new ServiceClient())\n{\n    try\n    {\n        var result = client.SomeOperation();\n        // Process result\n    }\n    catch (Exception ex)\n    {\n        // Handle exceptions\n    }\n}\n// The proxy is closed and disposed of here.

@@ -1,0 +1,1 @@
+sudo apt update\n   sudo apt install postfix mailutils libsasl2-2 ca-certificates libsasl2-modules

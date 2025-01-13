@@ -1,0 +1,1 @@
+yum install ImageMagick ImageMagick-devel  # For CentOS/RHEL-based systems\n   apt-get install imagemagick libmagickwand-dev  # For Debian/Ubuntu-based systems

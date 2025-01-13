@@ -1,0 +1,1 @@
+public class PerformanceTest\n{\n    public static void Main()\n    {\n        int intValue = int.MaxValue - 10; // Using Int32\n        long longValue = long.MaxValue - 10L; // Using Int64\n\n        Console.WriteLine("Int32 value: " + (intValue + 2)); // Stay within bounds\n        Console.WriteLine("Int64 value: " + (longValue + 2)); // Stay within bounds\n    }\n}

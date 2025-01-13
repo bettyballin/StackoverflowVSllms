@@ -1,0 +1,1 @@
+// Example: Run Fortify SCA on your project\n   sourceanalyzer -b MyBuildID -source 1.8 -jdk 1.8 ./src/main/java

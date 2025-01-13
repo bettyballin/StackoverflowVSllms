@@ -1,0 +1,1 @@
+// hWndParent is the handle to your main application window.\nHWND hDlg = CreateDialogParam(hInst, MAKEINTRESOURCE(IDD_DIALOG1), \n                               hWndParent, DialogFunc, NULL);\nShowWindow(hDlg, SW_SHOW);\nEnableWindow(hWndParent, FALSE); // Disable the parent while dialog is modal.

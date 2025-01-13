@@ -1,0 +1,1 @@
+string someString = null;\n\nif(someString == null)\n{\n    Console.WriteLine("someString is not pointing to any object.");\n}\nelse\n{\n    Console.WriteLine("someString is pointing to an object.");\n}

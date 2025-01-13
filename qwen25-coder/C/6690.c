@@ -1,0 +1,1 @@
+// Choose a default port number from the dynamic/private port range (49152-65535)\n// to avoid conflicts with well-known and registered ports.\nint DEFAULT_PORT = 50000;

@@ -1,0 +1,1 @@
+public class CustomSessionObject : IDisposable\n{\n    public void Dispose()\n    {\n        // Cleanup code here, e.g., closing files or releasing resources\n    }\n}

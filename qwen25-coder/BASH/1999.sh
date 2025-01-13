@@ -1,0 +1,1 @@
+Open Command Prompt as Administrator and run:\n   dism /online /cleanup-image /restorehealth

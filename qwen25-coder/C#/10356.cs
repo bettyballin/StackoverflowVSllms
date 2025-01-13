@@ -1,0 +1,1 @@
+public ActionResult Create(PersonDTO personDto) {\n    var personToCreate = new Person {\n        firstName = personDto.FirstName,\n        lastName = personDto.LastName,\n        myPet = GetPetById(personDto.MyPetId) // Assume you have this method to fetch Pet by ID\n    };\n    \n    // Save or process the person object here\n}

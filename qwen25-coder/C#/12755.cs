@@ -1,0 +1,1 @@
+// Example of using Get method\nDataTable freshTable = tableAdapter.GetData();\n\n// Example of using Fill method to refresh an existing DataTable\ntableAdapter.Fill(existingDataTable);

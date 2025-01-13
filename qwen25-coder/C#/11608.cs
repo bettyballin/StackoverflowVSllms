@@ -1,0 +1,1 @@
+// Example of specifying size explicitly\nSqlCommand cmd = new SqlCommand("YourQuery", yourConnection);\ncmd.Parameters.Add("@ParamName", SqlDbType.NVarChar, 50).Value = "yourValue";

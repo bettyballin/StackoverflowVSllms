@@ -1,0 +1,1 @@
+chmod +x extract_images.sh

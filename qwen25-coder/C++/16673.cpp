@@ -1,0 +1,1 @@
+if (pSomeObject != NULL) {\n    delete pSomeObject;\n    pSomeObject = nullptr; // Using nullptr is preferred in C++11 and later\n}

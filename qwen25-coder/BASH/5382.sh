@@ -1,0 +1,1 @@
+sudo port unload php74-fpm  # Adjust the version number as necessary\nsudo port load php74-fpm    # Adjust the version number as necessary

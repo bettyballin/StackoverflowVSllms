@@ -1,0 +1,1 @@
+var pagedResults = yourDbContext.YourTable\n    .OrderBy(x => x.YourColumn)\n    .Skip((pageNumber - 1) * pageSize)\n    .Take(pageSize);

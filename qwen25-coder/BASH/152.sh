@@ -1,0 +1,1 @@
+gcc -fprofile-arcs -ftest-coverage -o my_program my_program.c\n./my_program\ngcov my_program.c

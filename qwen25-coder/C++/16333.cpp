@@ -1,0 +1,1 @@
+amespace Utilities\n{\n   template <typename T> \n   inline GLfloat NormalizeHorizontally(T x)\n   {\n      GLfloat scaledUp = x * 2.0;\n      GLfloat result = scaledUp / Global::Geometry::ExpectedResolutionX;\n      return result;\n   }\n}

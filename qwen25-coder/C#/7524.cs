@@ -1,0 +1,1 @@
+<label id="UsernameLabel" runat="server">Username:</label>\n<input type="text" id="Username" runat="server" />\n\n<script runat="server">\nprotected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        UsernameLabel.Attributes["for"] = Username.ClientID;\n    }\n}\n</script>

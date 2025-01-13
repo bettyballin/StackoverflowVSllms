@@ -1,0 +1,1 @@
+# Navigate to your Eclipse installation directory\ncd /path/to/eclipse\n\n# Create directories if they do not exist\nmkdir -p dropins/plugins\n\n# Copy the downloaded plugin files into the plugins directory\ncp -r /path/to/downloaded/smarty/pdt/files/* dropins/plugins/

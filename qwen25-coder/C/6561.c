@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <unistd.h>\n\nint main() {\n    if (unlink("/var/tmp/my file.pdf") != 0) {\n        perror("Error deleting file");\n    }\n    return 0;\n}

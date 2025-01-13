@@ -1,0 +1,1 @@
+sudo mysql -h hostname -P port_number -u username -p personal < /users/cs/SO_db/posts.sql

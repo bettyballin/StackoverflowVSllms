@@ -1,0 +1,1 @@
+try {\n    // your risky code here\n} catch (Exception ex) {\n    if (!ExceptionFilterHelper.HandleException(ex, MyPolicy)) throw;\n    // Handle exception properly\n}

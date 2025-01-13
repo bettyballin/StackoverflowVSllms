@@ -1,0 +1,1 @@
+// Example of Intel TBB usage: Parallel For Loop\n#include <tbb/parallel_for.h>\n#include <iostream>\n\nvoid example_task(int i) {\n    std::cout << "Task " << i << std::endl;\n}\n\nint main() {\n    tbb::parallel_for(0, 100, [=](int i){ example_task(i); });\n}

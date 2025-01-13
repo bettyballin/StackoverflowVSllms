@@ -1,0 +1,1 @@
+catch (Exception e) \n{\n    return ReturnClientError(e, "someerror");\n}

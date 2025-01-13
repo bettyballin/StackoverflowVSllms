@@ -1,0 +1,1 @@
+.image-container {\n    display: inline-block; /* Makes the container as wide as its contents (the image). */\n}\n\n.caption {\n    max-width: 100%; /* Ensures the caption does not overflow beyond the parent container's width. */\n    word-wrap: break-word; /* Forces text to wrap when necessary, even if it means breaking words. */\n}

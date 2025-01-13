@@ -1,0 +1,1 @@
+# Using qemu-img for conversion, available in many Linux distributions or via Homebrew on macOS\nqemu-img convert -f vpc input_image.vhd -O vmdk output_image.vmdk\n\n# In VMware Workstation Player/Pro, once you import the VMDK file, it may still require further configuration.

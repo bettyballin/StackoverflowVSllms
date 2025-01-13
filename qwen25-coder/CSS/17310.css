@@ -1,0 +1,1 @@
+.nav-link {\n    color: blue;\n    text-decoration: none;\n    margin-right: 10px;\n}\n\n.active-nav-link {\n    color: red; /* Change to your desired highlight color */\n}

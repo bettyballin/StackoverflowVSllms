@@ -1,0 +1,1 @@
+# Example command to move DLL for a 32-bit plugin/environment\nmove your_plugin.dll "C:\Windows\SysWOW64"

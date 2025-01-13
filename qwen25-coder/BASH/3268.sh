@@ -1,0 +1,1 @@
+#!/bin/bash\n\n   for i in ~/mail/home/user/mail/domain.com/josh/cur/*; do\n     grep -i "Value" "$i" >> ~/public_html/yesno.txt 2>> ~/public_html/errors.txt;\n   done

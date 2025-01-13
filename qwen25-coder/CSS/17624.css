@@ -1,0 +1,1 @@
+/* Simple reset for textareas and inputs */\ntextarea, input[type="text"] {\n    margin: 0;\n    padding: 5px; /* Adjust as needed */\n    border: 1px solid #ccc;\n    box-sizing: border-box;\n    -ms-box-sizing: border-box; /* For IE8 */\n}

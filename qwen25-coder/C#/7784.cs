@@ -1,0 +1,1 @@
+string pattern = @"(?<![\w>])_mystring_(?![\w<])";

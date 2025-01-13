@@ -1,0 +1,1 @@
+# Example of using Cython to compile a .pyx file to C and then to .so\n   cythonize myscript.pyx --build-lib .\n   python setup.py build_ext --inplace

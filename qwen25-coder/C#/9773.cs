@@ -1,0 +1,1 @@
+// Check which control has focus on the active form\nControl focusedControl = this.ActiveControl;\n\nif (focusedControl != null)\n{\n    Console.WriteLine("The currently focused control is: " + focusedControl.Name);\n}\nelse\n{\n    Console.WriteLine("No control has focus.");\n}

@@ -1,0 +1,1 @@
+jstat -gcutil <pid> 1000 > memory_usage.txt

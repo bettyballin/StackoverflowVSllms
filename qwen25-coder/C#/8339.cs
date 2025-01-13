@@ -1,0 +1,1 @@
+// Assuming 'Context' is your data context class name\nvar db = new Context();\n\ndb.ExecuteCommand("UPDATE Files SET File_ID = 1");\n\ndb.SaveChanges();

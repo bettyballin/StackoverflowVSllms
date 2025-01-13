@@ -1,0 +1,1 @@
+# Optimize for a Skylake architecture which might be used in some Xeon CPUs:\ngcc -O3 -march=skylake-avx512 -o my_program my_program.c\n\n# Generic x86-64 with AVX2 and other advanced features, suitable for many Xeons:\ngcc -O3 -march=x86-64-v2 -o my_program my_program.c

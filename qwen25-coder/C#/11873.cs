@@ -1,0 +1,1 @@
+string safeOutput = Server.HtmlEncode(userInput);\nResponse.Write(safeOutput);

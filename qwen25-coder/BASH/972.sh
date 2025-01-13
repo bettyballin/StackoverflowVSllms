@@ -1,0 +1,1 @@
+sudo yum groupinstall -y "Development Tools"\n    sudo yum install -y zlib-devel openssl-devel readline-devel sqlite-devel bzip2-devel

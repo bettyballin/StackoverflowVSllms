@@ -1,0 +1,1 @@
+rpm --addsign /path/to/your/rpm-file.rpm

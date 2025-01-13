@@ -1,0 +1,1 @@
+# Check for any proxy-related environment variables\nenv | grep -i proxy

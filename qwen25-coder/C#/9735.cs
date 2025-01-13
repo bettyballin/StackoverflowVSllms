@@ -1,0 +1,1 @@
+dataGridView1.RowPostPaint += dataGridView1_RowPostPaint;

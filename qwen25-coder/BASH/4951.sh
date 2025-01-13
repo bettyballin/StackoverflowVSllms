@@ -1,0 +1,1 @@
+mysqldump -u username -p database_name table_name > output.sql

@@ -1,0 +1,1 @@
+@echo off\n   echo Increasing memory usage to simulate high pressure...\n   MemoryPress.exe -a 2048 -c 5  # Allocates 2048MB in chunks of 5MB

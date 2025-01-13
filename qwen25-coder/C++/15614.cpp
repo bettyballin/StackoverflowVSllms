@@ -1,0 +1,1 @@
+#include <boost/algorithm/string.hpp>\n\nstd::string xparam;\n\n// ...\nboost::to_lower(xparam);

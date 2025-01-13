@@ -1,0 +1,1 @@
+svn checkout --depth=empty <repository_url>\n   cd <checked_out_dir>\n   svn update --set-depth=infinity path/to/folder

@@ -1,0 +1,1 @@
+for (int i = 0; i < n; i++) {\n    for (int j = 0; j < n; j++) {\n        // Do something with i and j\n    }\n}

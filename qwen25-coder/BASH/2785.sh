@@ -1,0 +1,1 @@
+# Example command for using sftp in a script to upload a file securely:\nsftp user@hostname <<EOF\nput /path/to/local/file /path/to/remote/directory/\nbye\nEOF

@@ -1,0 +1,1 @@
+<!-- Example of using vendor prefixes -->\n<style>\n.element {\n  display: -webkit-box; /* For Safari */\n  display: -ms-flexbox;  /* For IE 10/11 */\n  display: flex;         /* Standard syntax */\n}\n</style>

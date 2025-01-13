@@ -1,0 +1,1 @@
+sqlcmd -S datawitness,someservername,7024 -U username -P password -Q "SELECT @@VERSION"

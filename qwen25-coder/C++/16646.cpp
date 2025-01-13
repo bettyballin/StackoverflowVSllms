@@ -1,0 +1,1 @@
+// Example C++ directive for static linking (MSVC specific)\n  #pragma comment(linker, "/NODEFAULTLIB:msvcrt.lib")\n  #pragma comment(lib, "libcmt.lib")

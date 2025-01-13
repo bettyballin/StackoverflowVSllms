@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nunsigned int fsize(char* file) {\n    FILE *fp = fopen(file, "rb");\n    if (fp == NULL) {\n        perror("Failed to open file");\n        return 0;\n    }\n\n    fseek(fp, 0L, SEEK_END);\n    unsigned int size = ftell(fp);\n\n    fclose(fp);\n    return size;\n}

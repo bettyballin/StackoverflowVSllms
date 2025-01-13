@@ -1,0 +1,1 @@
+/opt/ibm/db2/V9.5/bin/db2start

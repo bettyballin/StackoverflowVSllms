@@ -1,0 +1,1 @@
+@echo off\nset "app_path=C:\path\to\your_program.exe"\n"C:\Path\To\ProcessMonitor.exe" /AcceptEula -f "ProcessName eq '%app_path%' and (Operation is CreateFile or Operation is WriteFile)"

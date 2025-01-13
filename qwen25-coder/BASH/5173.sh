@@ -1,0 +1,1 @@
+@echo off\nRegAsm.exe /codebase "%SystemDrive%\Path\To\YourAssembly.dll"

@@ -1,0 +1,1 @@
+# Edit crontab to add a daily backup at 2AM\ncrontab -e\n0 2 * * * /usr/bin/rsync -avz /path/to/live/website user@backupserver:/path/to/backups/$(date +\%Y\%m\%d)

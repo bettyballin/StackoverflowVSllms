@@ -1,0 +1,1 @@
+# Using curl to test for XSS\n   curl -X POST --data "param=<script>alert('xss')</script>" http://example.com/test

@@ -1,0 +1,1 @@
+// Example of a bad loop\nwhile(true) { // This will run indefinitely\n    // Do something\n}

@@ -1,0 +1,1 @@
+// Using OrderByDescending instead of Last()\n     var lastElement = db.Elements.OrderByDescending(e => e.Date).FirstOrDefault();

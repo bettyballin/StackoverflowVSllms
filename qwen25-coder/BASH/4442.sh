@@ -1,0 +1,1 @@
+# Example command for sqliosim - a tool that simulates IO operations\n   sqliosim.exe -f C:\path\to\db_data.mdf -r 50% -d C: -i 0x1 -k RNDSTRM -t 24 -b 8192 -o 5 -numasync 16 -duration 300

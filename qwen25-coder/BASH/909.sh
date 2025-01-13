@@ -1,0 +1,1 @@
+echo 'http://www.suepearson.co.uk/product/174/71/3816/' | sed -E 's_^(https?://[^/]*/).*_\1_'

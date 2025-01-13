@@ -1,0 +1,1 @@
+git clone https://github.com/Whissi/bugzilla-chart.git

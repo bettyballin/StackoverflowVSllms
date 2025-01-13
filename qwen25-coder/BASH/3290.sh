@@ -1,0 +1,1 @@
+# Install PeachPie via dotnet CLI:\ndotnet add package Peachpie.App.Launcher\n\n# Compile your PHP code:\npeachpie src/ -o bin/\n\n# Run the compiled application:\ndotnet run --project bin/

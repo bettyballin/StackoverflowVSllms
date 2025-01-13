@@ -1,0 +1,1 @@
+/* Add a clearfix */\n.content-body::after {\n    content: "";\n    display: table;\n    clear: both;\n}\n\n/* IE6 specific fix using conditional comment */\n* html .video-tour {\n    margin-bottom: 12px; /* Increase the bottom margin specifically for IE6 */\n}

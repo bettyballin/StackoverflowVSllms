@@ -1,0 +1,1 @@
+# First, ensure Composer is installed Globally or locally.\n# Then run the following command in your project directory:\n\ncomposer require monolog/monolog\n\n# This will add Monolog as a dependency of your project and download it via Composer.

@@ -1,0 +1,1 @@
+// Example: Merging multiple PDFs with Aspose.Pdf\n   using Aspose.Pdf;\n   \n   Document pdf1 = new Document("document1.pdf");\n   Document pdf2 = new Document("document2.pdf");\n\n   pdf1.Pages.Add(pdf2.Pages);\n   pdf1.Save("merged.pdf");

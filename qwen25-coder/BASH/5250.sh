@@ -1,0 +1,1 @@
+@echo off\n\nREM Detect ORACLE_HOME\nif "%ORACLE_HOME%"=="" (\n    echo ORACLE_HOME is not set\n    exit /b 1\n)\n\nREM Run SQL script with OS-specific path\nsqlplus username/password@database @"%ORACLE_HOME%\rdbms\admin\utlrp.sql"

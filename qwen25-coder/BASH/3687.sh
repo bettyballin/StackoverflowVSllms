@@ -1,0 +1,1 @@
+xmlstarlet sel -t -m //myel -v @name -n input.xml | sed 's/$/,/'

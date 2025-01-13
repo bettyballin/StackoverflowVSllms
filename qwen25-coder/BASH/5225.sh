@@ -1,0 +1,1 @@
+@echo off\nsetlocal enabledelayedexpansion\n\nrem Read the value from the file into a variable\nfor /f "delims=" %%x in (AppServer.pid) do set VALUE_FROM_FILE=%%x\n\nrem Use the variable to kill the process\ntaskkill /pid %VALUE_FROM_FILE% /f\n\nendlocal

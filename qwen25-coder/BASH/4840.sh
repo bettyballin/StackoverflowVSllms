@@ -1,0 +1,1 @@
+framework.bat create:controller UserController\nframework.bat create:module AdminModule

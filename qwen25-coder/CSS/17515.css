@@ -1,0 +1,1 @@
+.container {\n  display: grid;\n  grid-template-rows: 1fr auto;\n  height: 300px; /* Set a fixed or min-height to ensure there's enough space */\n}\n\n.float-bottom-right {\n  align-self: end; /* Aligns the div to the bottom right within its container */\n}

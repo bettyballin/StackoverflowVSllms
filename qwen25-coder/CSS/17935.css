@@ -1,0 +1,1 @@
+/* Before */\n   .logo {\n       background-image: url('images/logo.png');\n   }\n   /* After */\n   .logo {\n       background-image: url('images/logo_v2.png');\n   }

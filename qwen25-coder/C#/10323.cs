@@ -1,0 +1,1 @@
+private void TextBox_PreviewTextInput(object sender, TextCompositionEventArgs e)\n{\n    // Allows digits only\n    e.Handled = !new Regex("[0-9]").IsMatch(e.Text);\n}

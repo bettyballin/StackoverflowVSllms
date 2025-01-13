@@ -1,0 +1,1 @@
+#include <stdlib.h>\n#include <stdio.h>\n\nvoid* allocate_memory(size_t size) {\n    void* ptr = malloc(size);\n    if (!ptr) {\n        fprintf(stderr, "Memory allocation failed\n");\n        exit(1);\n    }\n    return ptr;\n}\n\nvoid free_memory(void* ptr) {\n    free(ptr);\n}

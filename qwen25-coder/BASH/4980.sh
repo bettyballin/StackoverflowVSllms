@@ -1,0 +1,1 @@
+lnav /path/to/file1 /path/to/file2 /path/to/file3

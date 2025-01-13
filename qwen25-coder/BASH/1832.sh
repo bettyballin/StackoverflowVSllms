@@ -1,0 +1,1 @@
+tlbimp path\to\yourlib.tlb /out:path\to\generatedinterop.dll

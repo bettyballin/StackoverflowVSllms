@@ -1,0 +1,1 @@
+svn checkout http://yourreposurl/trunk/src C:\Localsource\Projects\ProjectName

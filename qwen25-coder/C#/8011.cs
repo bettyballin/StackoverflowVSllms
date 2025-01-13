@@ -1,0 +1,1 @@
+using (var stream = new FileStream("file.txt", FileMode.Open))\n{\n    // Use the stream...\n}\n\n// No need to set 'stream' to null, as it's out of scope after this point.

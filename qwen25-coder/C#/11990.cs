@@ -1,0 +1,1 @@
+using System;\nusing System.Web.Services;\n\npublic partial class YourPage : System.Web.UI.Page\n{\n    [WebMethod]\n    public static string YourMethodName(string parameter)\n    {\n        // Perform your logic here\n        return "Result from server";\n    }\n}

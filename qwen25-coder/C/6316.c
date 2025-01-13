@@ -1,0 +1,1 @@
+/* build sql statement calling function */\nstrcpy(sql_stmt, "BEGIN :out := get_seq_number(:in1, :in2); END;");\nrc = OCIStmtPrepare(p_sql, p_err, (OraText *)sql_stmt,\n    (ub4) strlen(sql_stmt), OCI_NTV_SYNTAX, OCI_DEFAULT);

@@ -1,0 +1,1 @@
+string logPath = Path.Combine(Path.GetTempPath(), "YourAppName", "ErrorLog.txt");\n     Directory.CreateDirectory(Path.GetDirectoryName(logPath)); // Ensure directory exists

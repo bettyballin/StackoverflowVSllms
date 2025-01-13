@@ -1,0 +1,1 @@
+# Install Asterisk on Ubuntu (minimal commands)\n   sudo apt-get update\n   sudo apt-get install asterisk -y

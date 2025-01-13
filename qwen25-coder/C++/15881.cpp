@@ -1,0 +1,1 @@
+#include <Aspose.Pdf.h>\nusing namespace Aspose::Pdf;\n\nint main() {\n    // Create an instance of the Document class\n    auto doc = MakeObject<Document>();\n    \n    // Add a page to pages collection of Document object\n    doc->get_Pages()->Add();\n    \n    // Save PDF document\n    doc->Save(u"output.pdf");\n    \n    return 0;\n}

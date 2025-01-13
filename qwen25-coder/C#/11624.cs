@@ -1,0 +1,1 @@
+class Program\n{\n    static void Main()\n    {\n        string inputFile = @"path\to\your\image.jpg";\n        string outputFile = @"path\to\cropped\image.jpg";\n\n        ImageCropper.CropWhiteSpace(inputFile, outputFile);\n\n        Console.WriteLine("Image cropped successfully.");\n    }\n}

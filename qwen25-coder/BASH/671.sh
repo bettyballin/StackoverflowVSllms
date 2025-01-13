@@ -1,0 +1,1 @@
+svnadmin create "C:\Program Files\VisualSVN Server\Repositories\<NewRepoName>"\nsvnadmin load "C:\Program Files\VisualSVN Server\Repositories\<NewRepoName>" < C:\path\to\mydumpfile

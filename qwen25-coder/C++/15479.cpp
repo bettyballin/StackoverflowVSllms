@@ -1,0 +1,1 @@
+// DLLFunction.h\n#ifdef __cplusplus\nextern "C" {\n#endif\n\n__declspec(dllexport) void __stdcall MyFloatFunction(double value);\n\n#ifdef __cplusplus\n}\n#endif

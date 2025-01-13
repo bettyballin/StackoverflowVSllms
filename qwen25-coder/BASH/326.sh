@@ -1,0 +1,1 @@
+px prettier --write filename.html

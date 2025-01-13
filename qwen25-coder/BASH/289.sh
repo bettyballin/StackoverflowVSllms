@@ -1,0 +1,1 @@
+# Device policy example with dm-crypt\n   sudo cryptsetup luksFormat /dev/sdb1\n   sudo cryptsetup luksOpen /dev/sdb1 usbdrive_crypted

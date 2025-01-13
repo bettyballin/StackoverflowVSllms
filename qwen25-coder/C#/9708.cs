@@ -1,0 +1,1 @@
+var selectedChildren = (from p in parents\n                        where p.Children.Any(c => c.CategoryNumber == 1)\n                        from c in p.Children\n                        where c.CategoryNumber == 2\n                        select c).ToList();

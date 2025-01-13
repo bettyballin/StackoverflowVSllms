@@ -1,0 +1,1 @@
+// C-style syntax\nint main() {\n    int i = 0;\n    while (i < 5) {\n        printf("%d\n", i);\n        i++;\n    }\n    return 0;\n}

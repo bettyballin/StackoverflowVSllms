@@ -1,0 +1,1 @@
+$ORACLE_BASE/admin/$ORACLE_SID/bdump/alert_$ORACLE_SID.log

@@ -1,0 +1,1 @@
+sed '/yyyy/{N; /xxxx\nzzzz/{D; N; D}}' filename

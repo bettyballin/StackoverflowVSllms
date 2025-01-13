@@ -1,0 +1,1 @@
+public interface IDoMaths<T>\n{\n    T Add(T other);\n    T Subtract(T other);\n}

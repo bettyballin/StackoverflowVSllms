@@ -1,0 +1,1 @@
+// Less clear method with ref\nvoid ModifyValue(ref int value) {\n    value = 10;\n}\n\n// More clear alternative returning a new value\nint GetValue() {\n    return 10;\n}

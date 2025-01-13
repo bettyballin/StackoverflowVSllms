@@ -1,0 +1,1 @@
+for (int i = 1; i <= 30; i++)\n{\n    string propertyName = "Text" + i.ToString();\n    // Use the LateSetValue method to set the property value\n    LateSetValue(interopObject, propertyName, someValue);\n}

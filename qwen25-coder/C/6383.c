@@ -1,0 +1,1 @@
+/* {{{ proto int my_extension_add(int x, int y)\n   Adds two integers.\n*/\nPHP_FUNCTION(my_extension_add) {\n    // Your implementation here\n}\n/* }}} */

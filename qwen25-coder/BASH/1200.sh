@@ -1,0 +1,1 @@
+# Assuming the SMB share is mounted at /mnt/smb\ndd if=/dev/zero of=/mnt/smb/testfile bs=1M count=1024 conv=fdatasync\n\n# For reading from the same file\ndd if=/mnt/smb/testfile of=/dev/null bs=1M count=1024

@@ -1,0 +1,1 @@
+# Example address of GUID, replace with actual address\ndd 0x<address_of_guid> l4\n\n# Display as nt!_GUID\ndt nt!_GUID 0x<address_of_guid>

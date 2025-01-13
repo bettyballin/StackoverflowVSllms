@@ -1,0 +1,1 @@
+php callgraph.php /path/to/your/project > output.dot

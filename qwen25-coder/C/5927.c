@@ -1,0 +1,1 @@
+static int privateVar = 0; // Can only be accessed within this .c file\n\n   static void helperFunction() {\n       // Function can only be called from within this .c file\n   }

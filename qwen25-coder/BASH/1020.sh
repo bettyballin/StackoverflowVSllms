@@ -1,0 +1,1 @@
+sudo lsof /path/to/mountpoint

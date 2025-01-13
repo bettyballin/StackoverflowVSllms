@@ -1,0 +1,1 @@
+# Deployment script snippet with conditional inclusion for .pdb files\nif [ "$DEPLOY_ENV" == "Development" ]; then\n    # Deploy with .pdb files\n    cp -r /path/to/bin/* /path/to/deploy/\nelse\n    # Deploy without .pdb files\n    find /path/to/bin/ ! -name "*.dll" ! -name "*.config" -exec rm -rf {} +\n    cp -r /path/to/bin/*.dll /path/to/bin/*.config /path/to/deploy/\nfi

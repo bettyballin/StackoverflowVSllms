@@ -1,0 +1,1 @@
+# Install diff2html if needed (available via npm)\nnpm install -g diff2html-cli\n\n# Generate a detailed diff and convert it to HTML\ngit diff --no-index --name-status directory1/ directory2/ | diff2html -i stdin > report.html

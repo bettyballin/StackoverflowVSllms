@@ -1,0 +1,1 @@
+// This should be placed at the end of replace_all.cc after the template definition\n\ntemplate std::string replace_all<std::string>(const std::string &, const std::string &, const std::string &);

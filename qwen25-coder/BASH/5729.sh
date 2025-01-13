@@ -1,0 +1,1 @@
+git checkout main  # or your original branch name\n   git pull origin main  # fetch and merge updates from remote repository

@@ -1,0 +1,1 @@
+textarea {\n  /* Hide scrollbar for Chrome, Safari and Opera */\n  -webkit-overflow-scrolling: touch;\n  overflow-y: scroll; /* Ensure scrolling is possible */\n  scrollbar-width: none; /* Firefox */\n\n  /* Hide scrollbar for IE, Edge and other browsers */\n  -ms-overflow-style: none; \n}\n\ntextarea::-webkit-scrollbar {\n  display: none; /* Chrome, Safari and Opera */\n}

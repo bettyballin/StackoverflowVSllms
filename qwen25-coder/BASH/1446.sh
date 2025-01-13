@@ -1,0 +1,1 @@
+pp -o myscript.exe -M Some::Module -a some_data_file.dat myscript.pl

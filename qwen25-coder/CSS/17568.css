@@ -1,0 +1,1 @@
+/* Ensure standard mode */\nhtml {\n    height: 100%;\n}\n\nbody {\n    background: #ddf;\n    position: relative; /* Added to ensure a containing block for floats */\n}\n\n#main {\n    background: white;\n    overflow: auto;\n    padding-left: 180px;\n    position: relative; /* Added to contain floated elements */\n}

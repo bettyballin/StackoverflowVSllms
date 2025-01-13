@@ -1,0 +1,1 @@
+// In some Controller or Service where you handle messages\npublic void SendMessageToUser(string userId, string message)\n{\n    var context = GlobalHost.ConnectionManager.GetHubContext<NotificationHub>();\n    context.Clients.User(userId).receiveNotification(message);\n}

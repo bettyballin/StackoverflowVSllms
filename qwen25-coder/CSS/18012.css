@@ -1,0 +1,1 @@
+.hammer-icon {\n    width: 32px; /* Width of the individual icon */\n    height: 32px; /* Height of the individual icon */\n    background-image: url('your-sprite-sheet.png'); /* Path to your sprite sheet */\n    background-position: -50px -50px; /* Position of the top-left corner of the icon in the sprite */\n}

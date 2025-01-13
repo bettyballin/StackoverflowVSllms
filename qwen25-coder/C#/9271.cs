@@ -1,0 +1,1 @@
+[OperationContract]\n[WebGet(UriTemplate = "/{username}", ResponseFormat = WebMessageFormat.Xml)]\nIRestResponse GetProfile(String username)\n{\n    // Transform the username back if using an alternative character\n    string transformedUsername = username.Replace('_', '\\'); // Example replacement\n\n    // Your logic here\n}

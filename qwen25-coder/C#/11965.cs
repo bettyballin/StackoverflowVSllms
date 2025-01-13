@@ -1,0 +1,1 @@
+class Program\n{\n    static void Main()\n    {\n        string urlPart = "Hello, World! This is a test.";\n        string cleanUrl = UrlCleaner.CleanUrlString(urlPart);\n        Console.WriteLine(cleanUrl); // Output: hello-world-this-is-a-test\n    }\n}

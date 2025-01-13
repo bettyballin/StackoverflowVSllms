@@ -1,0 +1,1 @@
+ls /usr/share/perl/VERSION/\n      ls /usr/lib/perl5/VERSION/

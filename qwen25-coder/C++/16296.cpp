@@ -1,0 +1,1 @@
+// MyCppClass.cpp (C++ source code to be wrapped)\n   void SomeCppFunction() {\n       // Implementation of C++ function\n   }

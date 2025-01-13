@@ -1,0 +1,1 @@
+# For Windows\n   ipconfig /flushdns\n\n   # For Linux/Mac\n   sudo killall -HUP mDNSResponder

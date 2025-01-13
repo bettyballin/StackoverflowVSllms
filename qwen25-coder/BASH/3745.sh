@@ -1,0 +1,1 @@
+svn info <file_path>

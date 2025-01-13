@@ -1,0 +1,1 @@
+strace <your_program>

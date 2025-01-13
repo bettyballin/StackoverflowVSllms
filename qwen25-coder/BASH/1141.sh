@@ -1,0 +1,1 @@
+-- Example command for TKPROF\ntkprof /path/to/tracefile.trc output.txt sys=no sort=fchela,exeela

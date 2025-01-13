@@ -1,0 +1,1 @@
+// Example of #import usage in MSVC for COM\n#import "somedll.dll"

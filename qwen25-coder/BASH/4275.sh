@@ -1,0 +1,1 @@
+sqlite3 new_database.db < export.sqlite3.sql

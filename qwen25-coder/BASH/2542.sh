@@ -1,0 +1,1 @@
+caspol -qg All_Code -ag 1.2 FullTrust -url "file:///C:\Path\To\Your\AddIn.dll" FullTrust

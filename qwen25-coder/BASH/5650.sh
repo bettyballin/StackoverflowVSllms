@@ -1,0 +1,1 @@
+ssh user@target "cd /some/directory; nohup program-to-execute > output.log 2>&1 &"

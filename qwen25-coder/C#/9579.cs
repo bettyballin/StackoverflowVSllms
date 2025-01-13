@@ -1,0 +1,1 @@
+public class SomeBusinessLogic\n{\n    private readonly IHost _host;\n\n    public SomeBusinessLogic(IHost host)\n    {\n        _host = host;\n    }\n\n    public void DoSomething()\n    {\n        var user = _host.UserInfo;\n        // Perform operations using the session data\n    }\n}

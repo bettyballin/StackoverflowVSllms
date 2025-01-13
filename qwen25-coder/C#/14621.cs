@@ -1,0 +1,1 @@
+// Example of a simple test in xUnit\nusing Xunit;\n\npublic class MyTests\n{\n    [Fact]\n    public void ShouldReturnTrueWhenPositiveIntegersAreAdded()\n    {\n        var result = Add(3, 5);\n        Assert.True(result == 8);\n    }\n\n    int Add(int a, int b) => a + b;\n}

@@ -1,0 +1,1 @@
+/* Targeting elements with background images */\n.your-top-image, .your-bottom-image {\n    display: block; /* Ensures no space is added below the image if it were inline */\n}\n\n.your-container-div, .your-content-div {\n    font-size: 0; /* Removes any space caused by inline-block display */\n    line-height: 0; /* Ensures no extra line spacing */\n}

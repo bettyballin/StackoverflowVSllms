@@ -1,0 +1,1 @@
+cd /usr/local/your-extracted-folder\n   ./configure\n   make\n   sudo make install

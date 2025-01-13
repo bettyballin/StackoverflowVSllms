@@ -1,0 +1,1 @@
+// Reading a setting\nstring themeColor = Properties.Settings.Default.ThemeColor;\n\n// Changing a setting and saving it\nProperties.Settings.Default.ThemeColor = "#FFF"; // Example hex color code for white\nProperties.Settings.Default.Save();

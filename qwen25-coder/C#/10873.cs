@@ -1,0 +1,1 @@
+public class MyTableObject\n{\n    public int Id { get; set; }\n    public byte[] RowVersion { get; set; }\n\n    public MyTableObject()\n    {\n        // Initialize the timestamp as an empty byte array or a default value\n        RowVersion = new byte[8]; // SQL Server's timestamp is 8 bytes long\n    }\n}

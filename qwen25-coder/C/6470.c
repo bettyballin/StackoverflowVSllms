@@ -1,0 +1,1 @@
+#include <sys/socket.h>\n#include <unistd.h>\n\nvoid disconnect_with_close(int sockfd) {\n    close(sockfd);\n}\n\nvoid disconnect_with_shutdown_then_close(int sockfd) {\n    shutdown(sockfd, SHUT_RDWR);\n    close(sockfd);\n}

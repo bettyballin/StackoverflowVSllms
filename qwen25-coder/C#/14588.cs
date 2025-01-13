@@ -1,0 +1,1 @@
+// DateValidator.cs\nusing System;\n\npublic class DateValidator {\n    public static bool IsValidDate(string dateString) {\n        DateTime parsedDate;\n        return DateTime.TryParseExact(dateString, "yyyy-MM-dd", null, System.Globalization.DateTimeStyles.None, out parsedDate);\n    }\n}

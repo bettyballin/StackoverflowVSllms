@@ -1,0 +1,1 @@
+var dataTable = GetDataTable(); // Method to get DataTable\ndataGridView1.DataSource = dataTable;\n\nint variable1 = (from DataRow row in dataTable.Rows\n                 where Convert.ToInt32(row["ColumnBoxAge"]) > 3 && \n                       Convert.ToInt32(row["ColumnBoxAge"]) < 5\n                 select row).Count();\n\nlabel1.Text = variable1.ToString();

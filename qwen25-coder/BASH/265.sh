@@ -1,0 +1,1 @@
+# Example command to check service status via Nagios\n     check_biztalk_service_status -H biztalk-server-host -C public

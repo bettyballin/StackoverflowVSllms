@@ -1,0 +1,1 @@
+SubSonic.SqlQuery select = new SubSonic.Select()\n    .From<Product>()\n    .Where("Product.OurPrice <> Product.RetailPrice");

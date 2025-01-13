@@ -1,0 +1,1 @@
+sudo apt install gnome-tweaks  # For GNOME desktop environments

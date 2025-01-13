@@ -1,0 +1,1 @@
+double piDouble = 3.14;

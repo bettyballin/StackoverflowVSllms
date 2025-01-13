@@ -1,0 +1,1 @@
+sqlplus sys as sysdba\n# Enter your password when prompted

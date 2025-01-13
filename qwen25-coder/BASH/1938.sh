@@ -1,0 +1,1 @@
+perl -0pe "s/style='\K.*?'\n*//sg" fileA > fileB

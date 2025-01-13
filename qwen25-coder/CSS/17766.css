@@ -1,0 +1,1 @@
+.multi-column {\n       column-count: 3; /* Creates 3 columns */\n       column-gap: 20px; /* Sets space between columns */\n       -webkit-column-count: 3; /* For Safari */\n       -moz-column-count: 3; /* For Firefox */\n   }

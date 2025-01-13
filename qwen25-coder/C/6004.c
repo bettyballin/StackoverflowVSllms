@@ -1,0 +1,1 @@
+#define ADD_INT(S, n) ((*S)[n/CHAR_SIZE] |= (unsigned char) pow(2, (CHAR_SIZE - 1) - (n % CHAR_SIZE)))

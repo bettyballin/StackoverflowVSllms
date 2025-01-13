@@ -1,0 +1,1 @@
+[System.Web.Services.WebMethod(EnableSession = true)]\npublic static string MyMethod()\n{\n    // Access session like this:\n    var someValue = HttpContext.Current.Session["SomeSessionKey"]?.ToString();\n    return "Success";\n}

@@ -1,0 +1,1 @@
+void main() {\n      vec3 rayleighScattering = atmosphereColor * (1.0 / pow(length(lightDirection - viewDirection), 2.0));\n      gl_FragColor = vec4(rayleighScattering, 1.0);\n  }

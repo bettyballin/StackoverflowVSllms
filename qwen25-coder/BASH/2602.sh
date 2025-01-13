@@ -1,0 +1,1 @@
+cat downloaded_htmls/*.html | pup 'body' text{}

@@ -1,0 +1,1 @@
+var filteredItems = items.Where(i => i.Value > 10).ToList();

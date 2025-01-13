@@ -1,0 +1,1 @@
+public abstract class Animal {\n       public abstract void Speak();\n   }\n\n   public class Dog : Animal {\n       public override void Speak() => Console.WriteLine("Woof");\n   }\n   \n   public class Cat : Animal {\n       public override void Speak() => Console.WriteLine("Meow");\n   }

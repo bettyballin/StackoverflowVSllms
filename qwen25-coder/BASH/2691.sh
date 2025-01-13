@@ -1,0 +1,1 @@
+awk 'BEGIN{srand()} {a[NR]=$0} END{for(i=1;i<=NR;i++) print a[int(rand()*i)+1]}' filename.txt

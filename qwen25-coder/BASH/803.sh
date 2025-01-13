@@ -1,0 +1,1 @@
+# Give write permission to the web server user only (unsafe)\n   sudo chmod 775 /home/taalhulp/domains/taalhulpmanager.nl/public_html/files/\n\n   # Or, better yet, change ownership if possible\n   sudo chown www-data:www-data /home/taalhulp/domains/taalhulpmanager.nl/public_html/files/

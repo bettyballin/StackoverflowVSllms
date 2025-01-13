@@ -1,0 +1,1 @@
+using namespace Interop;\n\nbool result = ManagedInterop::CallDisplayScan(true, true);

@@ -1,0 +1,1 @@
+public class RepositoryBase<T> where T : IIdentifiableEntity, class\n{\n    protected Table<T> _table;\n\n    public RepositoryBase(Table<T> t)\n    {\n        _table = t;\n    }\n\n    public virtual T Get(int id)\n    {\n        return _table.SingleOrDefault(n => n.Id == id);\n    }\n}

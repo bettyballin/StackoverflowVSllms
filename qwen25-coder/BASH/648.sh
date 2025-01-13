@@ -1,0 +1,1 @@
+man gcc 2>/dev/null | grep "\-L"

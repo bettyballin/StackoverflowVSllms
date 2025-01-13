@@ -1,0 +1,1 @@
+drush sql-sync @local @prod\n   drush config-import -y

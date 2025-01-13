@@ -1,0 +1,1 @@
+# Open registry location\n$regPath = "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug"\n\n# Set Auto value to 0\nSet-ItemProperty -Path $regPath -Name "Auto" -Value 0\n\n# Remove Debugger value if present\nRemove-ItemProperty -Path $regPath -Name "Debugger" -ErrorAction SilentlyContinue

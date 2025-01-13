@@ -1,0 +1,1 @@
+python enctest.py | openssl enc -base64 -d | openssl des-ecb -d -nopad -K $(echo -n 'abcdefgh' | xxd -p)

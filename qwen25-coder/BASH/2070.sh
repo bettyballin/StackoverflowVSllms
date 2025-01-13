@@ -1,0 +1,1 @@
+echo "getFoo_Bar" | sed -E 's/(get[A-Za-z0-9]*_)([A-Z])/\1\L\2/' | tr '[A-Z]' '[a-z]'

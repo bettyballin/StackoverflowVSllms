@@ -1,0 +1,1 @@
+mkdir webbook && cd webbook\nmkdocs new .

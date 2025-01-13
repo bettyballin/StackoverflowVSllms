@@ -1,0 +1,1 @@
+ssh -L 3307:localhost:3306 user@your_server_ip -p 30000

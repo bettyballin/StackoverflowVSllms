@@ -1,0 +1,1 @@
+htpasswd -c c:\auth\svnpasswd firstuser\n     rem Add additional users without the `-c` option.

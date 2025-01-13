@@ -1,0 +1,1 @@
+public class Person {\n    public int Id { get; set; }\n    public string FirstName { get; set; }\n    public string LastName { get; set; }\n\n    // Other properties, methods, and possibly navigation properties\n}\n\npublic void AddPerson(Person person) {\n    // ORM logic to add a person to the database\n}

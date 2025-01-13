@@ -1,0 +1,1 @@
+<select name='voter'>\n    {% for voter in allowed_voters %}\n        <option {% ifequal voter last_voter %}selected="selected" {% endifequal %} \n        value='{{ voter }}'>{{ voter }}</option>\n    {% endfor %}\n</select>

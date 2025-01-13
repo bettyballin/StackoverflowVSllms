@@ -1,0 +1,1 @@
+@model IEnumerable<Post>\n\n<ul>\n@foreach (var post in Model)\n{\n    <li>@post.Title</li>\n}\n</ul>

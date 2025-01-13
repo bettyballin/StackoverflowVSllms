@@ -1,0 +1,1 @@
+jarsigner -keystore mykeystore.jks myapplet.jar myapplet

@@ -1,0 +1,1 @@
+// Assuming Foo has a List<Bar> Bars and Bar has a List<Widget> Widgets\nvar q = source.SelectMany(foo => foo.Bars) // Flatten to Bars\n              .SelectMany(bar => bar.Widgets) // Then flatten to Widgets\n              .Select(widget => widget.WidgetId) // Select WidgetIds\n              .ToList();

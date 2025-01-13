@@ -1,0 +1,1 @@
+Action a = TestMethod;\nAction b = TestMethod;\nAction c = b; // c references the same target as b.\nb += a;       // This creates a new Action delegate object that includes both 'TestMethod' invocation targets.

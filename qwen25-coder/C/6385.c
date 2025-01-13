@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <unistd.h>\n\nint main() {\n    printf("Real UID: %d\n", getuid());\n    printf("Effective UID: %d\n", geteuid());\n    return 0;\n}

@@ -1,0 +1,1 @@
+gcc -o final_executable main.o A.so B.so libldap_r.so -L. -lclntsh -Wl,-T,hide_symbols.ld

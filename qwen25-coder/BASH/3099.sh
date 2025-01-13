@@ -1,0 +1,1 @@
+svn delete http://your-repo/tags/foo-1.0.2 -m "Removing failed release tag"

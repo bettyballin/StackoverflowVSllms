@@ -1,0 +1,1 @@
+az boards work-item list --project {projectName} --wiql "SELECT [System.Id] FROM WorkItems WHERE [Your Field] = 'Old Value'" --output tsv > workitemIds.txt

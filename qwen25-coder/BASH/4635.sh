@@ -1,0 +1,1 @@
+sudo mkdir /var/log/sa          # Ensure the directory exists\n   sudo touch /var/log/sa/sa01     # Create a dummy file for today's data\n   sudo sa1 60 360                 # Collect stats every 60 seconds, 360 times (e.g., one day)\n   sar -u >> cpu_sar_data.log      # CPU utilization report to log\n   sar -r >> mem_sar_data.log      # Memory utilisation report to log

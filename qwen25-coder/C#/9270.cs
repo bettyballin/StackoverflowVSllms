@@ -1,0 +1,1 @@
+public class Host : IHost\n{\n    private readonly Dictionary<string, object> _sessionStore = new Dictionary<string, object>();\n\n    public User UserInfo\n    {\n        get { return _sessionStore["UserSession"] as User; }\n        set { _sessionStore["UserSession"] = value; }\n    }\n    // Additional desktop-specific methods if necessary\n}

@@ -1,0 +1,1 @@
+git clone --branch <latest-version> https://github.com/<org>/<unmaintained-library>.git\n     cd <unmaintained-library>\n     # Make changes and push to your fork or create a patch

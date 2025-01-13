@@ -1,0 +1,1 @@
+// In mylib.c (part of your static library)\nint add(int a, int b) {\n    return a + b;\n}\n\n// In main.c (your application)\n#include <stdio.h>\n\n// Declaring the external function from the static library\nextern int add(int a, int b);\n\nint main() {\n    printf("The sum is: %d\n", add(3, 4));\n    return 0;\n}

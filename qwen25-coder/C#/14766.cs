@@ -1,0 +1,1 @@
+try {\n       dataSet.EnforceConstraints = false;\n       // Perform bulk update or insert\n   } finally {\n       dataSet.EnforceConstraints = true;\n   }

@@ -1,0 +1,1 @@
+inkscape -z input.eps --export-text-to-path --export-plain-svg output.svg

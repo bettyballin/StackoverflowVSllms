@@ -1,0 +1,1 @@
+using System.Linq;\n\nvar result = aTable.Where(at => bTable.Any(bt => bt.aTableId == at.aTableId \n    && cTable.Any(ct => ct.bTableId == bt.bTableId \n        && dTable.Any(dt => dt.cTableId == ct.cTableId \n            && dt.dField == "a guid"\n        )\n    )\n)).ToList();

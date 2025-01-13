@@ -1,0 +1,1 @@
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\VxD\VNETSUP\Providers\VWIFI" /v MaxBiosCommands /t REG_DWORD /d 1024 /f

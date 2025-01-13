@@ -1,0 +1,1 @@
+# Navigate to the directory containing your project file\ncd path-to-your-project\n\n# Run MSBuild with your .proj file\nmsbuild YourProject.vbproj /t:Build /p:Configuration=Release

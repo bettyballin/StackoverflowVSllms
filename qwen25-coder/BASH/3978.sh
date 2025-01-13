@@ -1,0 +1,1 @@
+reg add "HKLM\SOFTWARE\Wow6432Node\PHP\v5.2" /v PHPIniDir  /t REG_SZ /d C:\php /f

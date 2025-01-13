@@ -1,0 +1,1 @@
+a {\n    color: transparent; /* Hides the link */\n}\n\na:hover {\n    color: black; /* Makes the link visible on hover */\n}

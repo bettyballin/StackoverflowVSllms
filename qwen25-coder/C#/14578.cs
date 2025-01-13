@@ -1,0 +1,1 @@
+public class MyApiController : ApiController\n{\n    [HttpGet]\n    public IHttpActionResult GetData()\n    {\n        // Create instance of your DLL's class and use it here\n        var myDll = new YourDllNamespace.YourClass();\n        var result = myDll.GetResult();  // Example method call\n\n        return Ok(result);\n    }\n}

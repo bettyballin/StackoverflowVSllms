@@ -1,0 +1,1 @@
+go_to_dir() {\n    ssh user@somehost "cd /some/directory/somewhere/named/$1 && $SHELL"\n}

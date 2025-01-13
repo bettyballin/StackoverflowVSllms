@@ -1,0 +1,1 @@
+httpWebRequest.ProtocolVersion = HttpVersion.Version11; // or .Version10

@@ -1,0 +1,1 @@
+// Assuming 'client.key' is a valid CAPI RSA PRIVATE KEY BLOB in binary form\nbyte[] keyBlob = File.ReadAllBytes(@"C:\client.key");\nRSACryptoServiceProvider rsa = new RSACryptoServiceProvider(cspParams);\nrsa.ImportCspBlob(keyBlob);

@@ -1,0 +1,1 @@
+void incrementByReference(int &value) {\n    value += 1;\n}\n\nint main() {\n    int num = 5;\n    incrementByReference(num); // num is now 6\n    return 0;\n}

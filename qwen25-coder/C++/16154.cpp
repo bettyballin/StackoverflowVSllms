@@ -1,0 +1,1 @@
+// AssemblyInfo.cpp\n#pragma unmanaged\n#include "stdafx.h"\n\n#pragma managed\n\nusing namespace System;\n\n[assembly:ModuleInitializer(ModuleLoaded)];\n\nvoid ModuleLoaded() {\n    // Initialization code here\n    Console::WriteLine("Assembly loaded.");\n}

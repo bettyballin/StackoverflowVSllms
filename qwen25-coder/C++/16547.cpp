@@ -1,0 +1,1 @@
+#include <windows.h>\n#include <iostream>\n\nvoid WaitForDebugger() {\n    while (!IsDebuggerPresent()) {\n        Sleep(100); // Check every 100 milliseconds\n    }\n}\n\nextern "C" __declspec(dllexport) void MyDllFunction() {\n    WaitForDebugger(); // Call this function before any other code in your DLL\n\n    // Your existing DLL function logic goes here...\n}

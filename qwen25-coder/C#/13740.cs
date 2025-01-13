@@ -1,0 +1,1 @@
+public interface IClientFactory<T> where T : ClientBase\n{\n    T CreateInstance(string configName);\n}

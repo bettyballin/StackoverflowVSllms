@@ -1,0 +1,1 @@
+cd /private/tmp/pear/temp/PDO_MYSQL\n   phpize\n   ./configure --with-pdo-mysql=/path/to/your/mysql/installation\n   make && sudo make install

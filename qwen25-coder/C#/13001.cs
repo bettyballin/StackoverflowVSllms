@@ -1,0 +1,1 @@
+public class LawyerModel\n{\n    public List<string> SelectedStates { get; set; }\n\n    // Other properties...\n}

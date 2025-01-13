@@ -1,0 +1,1 @@
+using System.Security.Cryptography;\n\npublic byte[] GenerateRandomBytes(int length)\n{\n    using var rng = new RNGCryptoServiceProvider();\n    byte[] data = new byte[length];\n    rng.GetBytes(data);\n    return data;\n}

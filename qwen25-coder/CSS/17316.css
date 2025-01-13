@@ -1,0 +1,1 @@
+#main {\n  display: flex;\n}\n\n#navigation,\n#content {\n  padding: 15px; /* Optional: Add some padding */\n}\n\n#navigation {\n  background-color: #f4f4f4; /* Example styling */\n  width: 20%; /* Set your desired navigation width */\n}\n\n#content {\n  width: 80%; /* Fill the remaining space */\n}

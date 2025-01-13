@@ -1,0 +1,1 @@
+[AcceptVerbs(HttpVerbs.Post)]\npublic ActionResult Create(AppUser newUser)\n{\n    try\n    {\n        AppUserDAL.AddUser(newUser);\n        return RedirectToAction("Index");\n    }\n    catch (Exception ex)\n    {\n        ViewData["ReturnMessage"] = ex.Message;\n        ModelState.AddModelError("UserId", "*");\n        return View(newUser);\n    }\n}

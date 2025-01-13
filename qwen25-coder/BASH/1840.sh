@@ -1,0 +1,1 @@
+adplus -crash -pn <processname> -o d:\dumps

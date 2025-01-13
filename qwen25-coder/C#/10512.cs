@@ -1,0 +1,1 @@
+string url = "http://example.com";\nstring htmlContent = new WebPageDownloader().DownloadHtml(url);\nif (htmlContent != null)\n{\n    // Do something with the downloaded HTML content\n    Console.WriteLine(htmlContent);\n}

@@ -1,0 +1,1 @@
+java -jar xsd2xml.jar <path_to_xsd_file>

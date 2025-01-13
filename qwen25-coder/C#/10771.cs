@@ -1,0 +1,1 @@
+amespace RegistrationModule {\n    public class Registration : IModule {\n        public void Initialize() {\n            // Initialization code here\n        }\n\n        public string Name => "Registration";\n    }\n}

@@ -1,0 +1,1 @@
+#pragma GCC target("avx2")\nvoid vector_add(float* a, float* b, float* c, int n) {\n    #pragma omp simd\n    for (int i = 0; i < n; ++i) {\n        c[i] = a[i] + b[i];\n    }\n}

@@ -1,0 +1,1 @@
+// Example usage would come from including png.h and using their functions\n  #include <png.h>

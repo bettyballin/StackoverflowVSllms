@@ -1,0 +1,1 @@
+# Example using valgrind's callgrind for CPU performance counters analysis\n   valgrind --tool=callgrind ./my_program

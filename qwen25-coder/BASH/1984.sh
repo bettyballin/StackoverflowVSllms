@@ -1,0 +1,1 @@
+Example using AWS CLI for uploading:\n   aws s3 sync /path/to/backup s3://your-bucket-name/

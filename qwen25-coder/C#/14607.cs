@@ -1,0 +1,1 @@
+public void MyMethod(string a, int? b)\n{\n    if (a == null) throw new ArgumentNullException(nameof(a));\n    if (b == null) throw new ArgumentNullException(nameof(b));\n\n    // more stuff here\n}

@@ -1,0 +1,1 @@
+#include <ncurses.h> // Include curses library\n\nchar * decode_input(int ch) {\n    switch(ch) {\n        case 'g':\n            return "get";\n        case KEY_F(9):\n            return "quit";\n        default:\n            return "unknown";\n    }\n}

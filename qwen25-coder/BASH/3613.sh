@@ -1,0 +1,1 @@
+mkdir /mnt/shared_files\nmount -t nfs server_ip:/srv/shared_files /mnt/shared_files

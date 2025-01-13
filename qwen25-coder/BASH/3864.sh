@@ -1,0 +1,1 @@
+htop # or top in the terminal

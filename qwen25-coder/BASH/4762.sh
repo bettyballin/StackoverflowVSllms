@@ -1,0 +1,1 @@
+# Example of creating a migration\n    prisma migrate dev --name init\n    \n    # Example of applying migrations to the database\n    prisma migrate deploy

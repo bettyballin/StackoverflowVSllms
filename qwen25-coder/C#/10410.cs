@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\n   public void Startup()\n   {\n       Stopwatch stopwatch = new Stopwatch();\n       stopwatch.Start();\n\n       // Your startup code here\n\n       stopwatch.Stop();\n       Console.WriteLine("Startup took: " + stopwatch.ElapsedMilliseconds + " ms");\n   }

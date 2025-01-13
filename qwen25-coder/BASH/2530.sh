@@ -1,0 +1,1 @@
+openssl enc -d -aes-256-cbc -in encryptedfile.enc -out decryptedfile.bin -pass pass:yourpassword

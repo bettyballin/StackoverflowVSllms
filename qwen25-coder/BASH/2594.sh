@@ -1,0 +1,1 @@
+# Change the version of Ruby used by bundler and rails to jruby:\nrbenv local jruby-9.x.x  # Replace x.x with version number, if using rbenv\n\n# Install the bundle in JRuby environment\nbundle install --clea

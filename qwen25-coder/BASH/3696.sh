@@ -1,0 +1,1 @@
+export PATH=/usr/local/icu/bin:$PATH\nexport LD_LIBRARY_PATH=/usr/local/icu/lib:$LD_LIBRARY_PATH\nexport PKG_CONFIG_PATH=/usr/local/icu/lib/pkgconfig:$PKG_CONFIG_PATH

@@ -1,0 +1,1 @@
+// In your DLL project (e.g., MyDll.cpp)\n   #include "MyDll.h"\n\n   int IsolatedFunction(int someParam) {\n       return someParam * 2; // Example functionality\n   }

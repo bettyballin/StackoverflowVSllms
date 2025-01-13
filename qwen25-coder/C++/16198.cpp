@@ -1,0 +1,1 @@
+#include <iostream>\n#include <ctime>\n\nint main() {\n    // Using a local variable\n    time_t currentTime = time(nullptr); // Call once\n    for (int i = 0; i < 10; ++i) {\n        std::cout << "Current Time: " << ctime(&currentTime);\n    }\n    \n    return 0;\n}

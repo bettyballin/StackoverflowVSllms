@@ -1,0 +1,1 @@
+vim -c "set noshowcmd" -c "silent only | wincmd o"

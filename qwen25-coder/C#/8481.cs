@@ -1,0 +1,1 @@
+protected void RadioButton_SelectedIndexChanged(object sender, EventArgs e)\n   {\n       if (Session["YourSessionKey"] != null)\n       {\n           var data = Session["YourSessionKey"];\n           // Use your session data here\n       }\n   }

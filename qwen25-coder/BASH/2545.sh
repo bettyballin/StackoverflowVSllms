@@ -1,0 +1,1 @@
+# Initialize git repository\n   git init\n   git branch -m main  # Default to main instead of master

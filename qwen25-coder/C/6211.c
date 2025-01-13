@@ -1,0 +1,1 @@
+char dest[50];\n   strncpy(dest, source, sizeof(dest) - 1);\n   dest[sizeof(dest) - 1] = '\0'; // Ensure null-terminatio

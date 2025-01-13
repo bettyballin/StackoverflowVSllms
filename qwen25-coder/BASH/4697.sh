@@ -1,0 +1,1 @@
+tlbimp MYDLLLib.dll /asmversion:1.2.42.0 /out:MYDLLLib.Interop.dll

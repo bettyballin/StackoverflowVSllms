@@ -1,0 +1,1 @@
+brew install fswatch\nfswatch /path/to/directory

@@ -1,0 +1,1 @@
+aspnet_regiis -pdf -app "/" -section "connectionStrings" -prov RSAProtectedConfigurationProvider\naspnet_regiis -pxf "MyExportedKey.xml" RSAProtectedConfigurationKey -pri

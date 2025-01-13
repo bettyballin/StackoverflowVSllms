@@ -1,0 +1,1 @@
+>? {int}(object)12 = (int)(object)0;

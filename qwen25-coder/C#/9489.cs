@@ -1,0 +1,1 @@
+public class HomeController : Controller\n{\n    public ActionResult Index()\n    {\n        if (User.Identity.IsAuthenticated)\n        {\n            ViewBag.Message = "User is authenticated.";\n        }\n        else\n        {\n            ViewBag.Message = "User is not authenticated.";\n        }\n\n        return View();\n    }\n}

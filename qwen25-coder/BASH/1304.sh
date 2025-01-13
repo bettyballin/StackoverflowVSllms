@@ -1,0 +1,1 @@
+cd /path/to/your/original/working_copy\n\n# Switch to the new URL of the repository if necessary\nsvn switch --relocate file:///path/to/old/repo file:///path/to/temp-repo/\n\n# Update the working copy\nsvn update

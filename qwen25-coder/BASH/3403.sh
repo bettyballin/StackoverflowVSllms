@@ -1,0 +1,1 @@
+sudo pear channel-update pear.php.net\nsudo pear install --alldeps pear.phpunit.de/PHPUnit

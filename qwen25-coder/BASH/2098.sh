@@ -1,0 +1,1 @@
+auditpol /set /subcategory:"Logon" /success:enable /failure:enable

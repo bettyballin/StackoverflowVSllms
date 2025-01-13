@@ -1,0 +1,1 @@
+struct s { func_t method; int dummy_member; }; // Full declaration\ntypedef void (*func_t)(struct s _this);

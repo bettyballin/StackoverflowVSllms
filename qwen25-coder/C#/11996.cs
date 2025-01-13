@@ -1,0 +1,1 @@
+protected void Application_Start()\n   {\n       AreaRegistration.RegisterAllAreas();\n\n       RegisterRoutes(RouteTable.Routes);\n       \n       Bootstrapper.RegisterDependencies();\n   }

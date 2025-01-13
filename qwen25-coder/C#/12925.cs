@@ -1,0 +1,1 @@
+[Authorize]\n[ClientCertificateRequired]\npublic class SecureController : Controller\n{\n    public ActionResult Index()\n    {\n        return View();\n    }\n}

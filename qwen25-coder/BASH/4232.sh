@@ -1,0 +1,1 @@
+mkdir -p ~/remote_folder\n   sshfs user@server_ip:/path/to/share ~/remote_folder

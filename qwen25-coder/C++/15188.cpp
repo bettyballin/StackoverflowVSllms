@@ -1,0 +1,1 @@
+// DLLFunction.cpp\n#include <iostream>\n#include "DLLFunction.h"\n\nvoid __stdcall MyFloatFunction(double value) {\n    std::cout << "Received value: " << value << std::endl;\n}

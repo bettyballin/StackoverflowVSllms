@@ -1,0 +1,1 @@
+table {\n    table-layout: fixed;\n    width: 100%; /* or any specific pixel width */\n    border-collapse: collapse; /* to ensure no gaps between cells */\n}\n\nth, td {\n    width: auto; /* Adjust as necessary */\n    white-space: nowrap; /* Prevents content from wrapping to the next line */\n    word-wrap: break-word; /* Helps with long words or URLs */\n}

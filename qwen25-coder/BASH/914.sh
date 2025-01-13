@@ -1,0 +1,1 @@
+ulimit -n  # Check current limit for open files\nulimit -Sn 4096  # Set soft limit to 4096 (adjust according to your needs)\nulimit -Hn 8192  # Set hard limit to 8192 (adjust according to your needs)

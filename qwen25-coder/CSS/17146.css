@@ -1,0 +1,1 @@
+body {\n    font-size: 24px;\n}\n\n.tag {\n    padding: 3px;\n    background-color: lightblue;\n    position: relative;\n    display: inline-block; /* Ensures block-level formatting context */\n    zoom: 1; /* Enables hasLayout in IE7 */\n}\n\n.x {\n    position: absolute;\n    top: 0px;\n    right: 0px;\n    width: 10px;\n    height: 10px;\n    background-color: orange;\n}

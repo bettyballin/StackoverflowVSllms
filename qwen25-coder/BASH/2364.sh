@@ -1,0 +1,1 @@
+pvk2pfx.exe -pvk MySite.com Dev.pvk -spc MySite.com Dev.cer -pfx MySite.com Dev.pfx -po PASSWORD123

@@ -1,0 +1,1 @@
+chmod +x /path/to/processName\nchown apache:apache /path/to/processName  # Adjust 'apache' if needed\n\nchmod +x /var/www/cgi-bin/ControlProgram\nchown apache:apache /var/www/cgi-bin/ControlProgram

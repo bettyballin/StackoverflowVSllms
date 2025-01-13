@@ -1,0 +1,1 @@
+sudo lsof -Pn +p <pid> | grep cwd

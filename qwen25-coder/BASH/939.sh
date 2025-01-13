@@ -1,0 +1,1 @@
+sudo dnf check-update\n    sudo dnf groupinstall 'Web Server' PHP Support MySQL Database server\n    sudo systemctl start httpd\n    sudo systemctl enable httpd\n    sudo systemctl start mysqld\n    sudo systemctl enable mysqld

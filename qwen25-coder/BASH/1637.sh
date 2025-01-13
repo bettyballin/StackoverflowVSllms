@@ -1,0 +1,1 @@
+# WinDbg command to list all strings\n   !dumpheap -min 16 -mt <method_table_address_of_string>\n   \n   # Find method table address of String class\n   !name2ee System.Private.CoreLib.dll System.String

@@ -1,0 +1,1 @@
+# Example of using PHP Minifier command line tool\nphp-minified.php --input-dir=/path/to/input --output-dir=/path/to/output

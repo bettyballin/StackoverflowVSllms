@@ -1,0 +1,1 @@
+echo -e "---label1: 123456\n---label2: 654321\n---label3: 246810\n---label4: 135791\n---label5: 101010" | \\nsed -nr 's/^---(\S+): (\S+)$/\1,\2/p' | \\ntr '\n' ',' | sed 's/,$/\n/' | \\npaste -sd, -

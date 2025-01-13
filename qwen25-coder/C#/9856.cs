@@ -1,0 +1,1 @@
+string resourceName = "YourNamespace.com.company.package.filename.txt";\nResourceReader.ReadEmbeddedResource(resourceName);

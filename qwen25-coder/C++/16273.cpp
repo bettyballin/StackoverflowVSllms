@@ -1,0 +1,1 @@
+#include <boost/assert.hpp>\n\nint num = -5;\nBOOST_ASSERT_MSG(num > 0, "The number must be greater than zero!");

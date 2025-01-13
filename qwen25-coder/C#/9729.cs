@@ -1,0 +1,1 @@
+public class ProductController : Controller\n   {\n       private readonly MyDbContext _context = new MyDbContext();\n\n       // GET: Product\n       public ActionResult Index()\n       {\n           var products = _context.Products.ToList();\n           return View(products);\n       }\n   }

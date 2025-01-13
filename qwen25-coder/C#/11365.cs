@@ -1,0 +1,1 @@
+using System.Web.Mvc;\n\npublic class YourViewModel\n{\n    public List<SelectListItem> YourDropDownItems { get; set; }\n    // Other properties...\n}

@@ -1,0 +1,1 @@
+composer global require "phpcompatibility/php-compatibility"

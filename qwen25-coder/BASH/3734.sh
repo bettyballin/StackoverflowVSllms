@@ -1,0 +1,1 @@
+ldconfig -p | grep libc.so\n   ldconfig -p | grep libpthread.so

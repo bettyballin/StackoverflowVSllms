@@ -1,0 +1,1 @@
+string decodedString = Encoding.GetEncoding("ISO-8859-1").GetString(Encoding.Default.GetBytes(originalString));

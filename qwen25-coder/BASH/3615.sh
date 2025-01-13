@@ -1,0 +1,1 @@
+sudo pear config-set temp_dir /tmp

@@ -1,0 +1,1 @@
+protected void Application_Start(object sender, EventArgs e)\n{\n    // Code that runs on application startup\n    Application["StartTime"] = DateTime.Now;\n}\n\nprotected void Session_Start(object sender, EventArgs e)\n{\n    // Code that runs when a new session is started\n    Session["UserId"] = null;  // Example of initializing a session variable\n}

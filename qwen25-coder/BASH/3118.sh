@@ -1,0 +1,1 @@
+g++ main.cpp -o my_program -I /path/to/log4cplus/include -L /path/to/log4cplus/lib -llog4cplus

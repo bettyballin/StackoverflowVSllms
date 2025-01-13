@@ -1,0 +1,1 @@
+sudo chmod +t /path/to/directory

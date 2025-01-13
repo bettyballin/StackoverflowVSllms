@@ -1,0 +1,1 @@
+caspol -m on -ag 1.3 -url "X:\*" FullTrust

@@ -1,0 +1,1 @@
+OLDFILE="yourfile.txt"\nADDFILE="addfile.txt"\n\n# Get the content of ADDFILE\nADDLINE=$(<"$ADDFILE")\n\n# Insert the line before the last line in OLDFILE\nsed -i "\$i$ADDLINE" "$OLDFILE"

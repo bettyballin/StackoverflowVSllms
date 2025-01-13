@@ -1,0 +1,1 @@
+#include <openssl/ssl.h>\n#include <openssl/err.h>\n\nint load_server_certificate(SSL_CTX *ctx, const char *cert_path) {\n    if (SSL_CTX_use_certificate_file(ctx, cert_path, SSL_FILETYPE_PEM) <= 0) {\n        ERR_print_errors_fp(stderr);\n        return -1;\n    }\n    return 0;\n}

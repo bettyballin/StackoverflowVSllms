@@ -1,0 +1,1 @@
+.menu-bar {\n       display: grid;\n       grid-auto-flow: column;\n       gap: 0; /* No space between items */\n   }

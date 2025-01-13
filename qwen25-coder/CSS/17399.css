@@ -1,0 +1,1 @@
+td.day {\n    padding: 2px;\n    font-size: 12pt;\n    width: 14.3%;\n    line-height: 22px; /* Adjusted to your measured font height */\n    min-height: calc(4 * 22px); /* Minimum height is four times the font height in pixels */\n    box-sizing: border-box; /* Ensures padding and borders are included in element's total width and height */\n    vertical-align: top;\n}

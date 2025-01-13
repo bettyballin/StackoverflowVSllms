@@ -1,0 +1,1 @@
+sudo systemctl daemon-reload\n   sudo systemctl restart apache2

@@ -1,0 +1,1 @@
+find /path/to/public_html -type d -exec chmod 750 {} \;\n   find /path/to/public_html -type f -exec chmod 644 {} \;

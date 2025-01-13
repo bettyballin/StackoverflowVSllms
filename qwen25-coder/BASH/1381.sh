@@ -1,0 +1,1 @@
+makecert -n "CN=Your Company Name" -r -sv YourCertificate.pvk -a sha256 -len 2048 -cy authority YourCertificate.cer

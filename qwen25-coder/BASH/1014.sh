@@ -1,0 +1,1 @@
+ar t mylib.a | xargs -n1 objdump -f

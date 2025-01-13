@@ -1,0 +1,1 @@
+# Example of compiling with debug symbols in MSVC\ncl /Zi /MDd mysource.cpp /link /out:mysource.dll

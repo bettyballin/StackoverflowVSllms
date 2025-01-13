@@ -1,0 +1,1 @@
+0 3 * * * /usr/bin/php /path/to/your/script.php

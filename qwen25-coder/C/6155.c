@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <stdlib.h>\n\nint main(void)\n{\n    float *a;\n    int ret = posix_memalign((void **)&a, 0x1000, sizeof(float) * 4);\n    if (ret != 0) {\n        perror("posix_memalign");\n        return EXIT_FAILURE;\n    }\n    \n    a[0] = 1.0; a[1] = 2.0; a[2] = 3.0; a[3] = 4.0;\n    printf("%p %p %p %p\n", &a[0], &a[1], &a[2], &a[3]);\n    \n    free(a);\n}

@@ -1,0 +1,1 @@
+div {\n    font-size: 10px;\n}\n\ninput[type="button"] {\n    font-size: inherit; /* Ensures it inherits font size from parent */\n}

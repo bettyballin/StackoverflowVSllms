@@ -1,0 +1,1 @@
+case FOO:  // 'break' inside\n{\n    int i;\n    doStuff();\n    break;\n}\n\ncase BAR: // 'break' inside\n{\n    int i;\n    doStuff();\n    break;\n}

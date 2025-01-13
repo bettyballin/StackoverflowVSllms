@@ -1,0 +1,1 @@
+javac EncryptionJava.java -d classes\njar cvf EncryptionJava.jar -C classes .

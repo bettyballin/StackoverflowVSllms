@@ -1,0 +1,1 @@
+gcc -o get_registers get_registers.c

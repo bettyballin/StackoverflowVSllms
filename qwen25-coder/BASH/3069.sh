@@ -1,0 +1,1 @@
+msiexec /fvomus <path to installer>

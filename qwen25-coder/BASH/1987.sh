@@ -1,0 +1,1 @@
+# /etc/ppp/peers/demand-dial\nconnect '/usr/local/bin/get_available_modem'\ndebug\nnodetach\npersist\nnoauth\nmaxfail 0\nlcp-echo-interval 30\nlcp-echo-failure 4

@@ -1,0 +1,1 @@
+* * * * * /path/to/cleanup.sh\n    * * * * * sleep 10; /path/to/cleanup.sh\n    * * * * * sleep 20; /path/to/cleanup.sh\n    * * * * * sleep 30; /path/to/cleanup.sh\n    * * * * * sleep 40; /path/to/cleanup.sh\n    * * * * * sleep 50; /path/to/cleanup.sh

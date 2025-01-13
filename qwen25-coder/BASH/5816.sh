@@ -1,0 +1,1 @@
+git submodule add git@github.com:jscruggs/metric_fu.git vendor/plugins/metric_fu

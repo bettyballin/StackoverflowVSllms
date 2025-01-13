@@ -1,0 +1,1 @@
+pgbench -i mydatabase  # Initialize the database\npgbench -s 10 mydatabase -f script.sql -c 20 -n -T 60 # Run custom script with 10X scale, 20 clients, no transaction end stats, and a duration of 60 seconds.

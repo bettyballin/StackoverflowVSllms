@@ -1,0 +1,1 @@
+public static class ApplicationDictionaries\n{\n    public static readonly Dictionary<string, Func<int, int>> FunctionMap = new Dictionary<string, Func<int, int>>\n    {\n        { "Square", x => x * x },\n        { "Double", x => 2 * x }\n    };\n\n    // Add other dictionaries as needed\n}

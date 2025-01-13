@@ -1,0 +1,1 @@
+tar -xzvf OpenX-4.x-full.tar.gz\n   mv openx /var/www/html/

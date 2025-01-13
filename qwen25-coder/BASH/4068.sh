@@ -1,0 +1,1 @@
+jstack <pid> | grep -A 20 <decimal_tid>

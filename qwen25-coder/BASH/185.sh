@@ -1,0 +1,1 @@
+perf stat -e uops_executed.vector_integer -e branches your_program

@@ -1,0 +1,1 @@
+[Authorize]\npublic ActionResult YourPartialViewAction()\n{\n    // Some logic here\n    return PartialView("_YourPartialView");\n}

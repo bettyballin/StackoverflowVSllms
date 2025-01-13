@@ -1,0 +1,1 @@
+mcs LoadCell.cs -out:LoadCell.exe

@@ -1,0 +1,1 @@
+@echo off\nsetlocal enabledelayedexpansion\nset "directory=X:\Windows\System32\"\nset "filelist=filename_list.txt"\n\nfor /f %%i in (%filelist%) do (\n  if exist "%directory%%%i" (\n    echo File found: %directory%%%i\n  ) else (\n    echo File not found: %directory%%%i\n  )\n)

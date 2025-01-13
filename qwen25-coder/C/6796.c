@@ -1,0 +1,1 @@
+SECStatus nssRv = NSS_InitReadWrite(".");\nif (nssRv != SECSuccess) {\n    // Handle initialization failure\n}

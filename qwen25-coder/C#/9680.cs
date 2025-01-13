@@ -1,0 +1,1 @@
+public ActionResult Index()\n    {\n        var dinners = dinnerRepository.FindUpcomingDinners().ToList();\n        System.Diagnostics.Debug.WriteLine($"Number of upcoming dinners: {dinners.Count}");\n        return View("Index", dinners);            \n    }

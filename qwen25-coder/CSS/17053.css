@@ -1,0 +1,1 @@
+/* Example to reset list styles within RadEditor content */\n#topicBody div.RadEditor .reContentArea ul, #topicBody div.RadEditor .reContentArea ol {\n    margin: 0;\n    padding: 0;\n    list-style-type: none; /* Adjust as necessary */\n}\n\n#topicBody div.RadEditor .reContentArea li {\n    padding-left: 20px; /* Example indentation */\n}

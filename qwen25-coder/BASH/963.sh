@@ -1,0 +1,1 @@
+# Example of checking SHA1 sum on Linux/Mac\nsha1sum /path/to/WindowsISO.iso\n\n# Compare the output with the official checksum provided by Microsoft on their download page

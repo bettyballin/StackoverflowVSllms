@@ -1,0 +1,1 @@
+// NUnit\n     Assert.AreEqual(expected, actual);\n\n     // MSTest\n     Microsoft.VisualStudio.TestTools.UnitTesting.Assert.AreEqual(expected, actual);

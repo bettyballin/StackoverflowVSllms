@@ -1,0 +1,1 @@
+private void button1_Click(object sender, EventArgs e)\n{\n    // Assuming you have a method DoWork() in BusinessLogic class\n    var result = BusinessLogic.DoWork(textBoxInput.Text);\n    labelResult.Text = "Result: " + result;\n}

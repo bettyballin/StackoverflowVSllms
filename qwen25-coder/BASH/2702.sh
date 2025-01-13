@@ -1,0 +1,1 @@
+# To run OWASP ZAP with a specific URL\n   ./zap.sh -daemon -config api.key=12345 -host 0.0.0.0 -port 8080 -config connection.proxy.proxyhostname=your_proxy_server -config connection.proxy.proxyport=your_proxy_port

@@ -1,0 +1,1 @@
+using System.Xml.Serialization;\nusing System.IO;\n\npublic static string SerializeToXml(object obj)\n{\n    XmlSerializer serializer = new XmlSerializer(obj.GetType());\n    using (StringWriter writer = new StringWriter())\n    {\n        serializer.Serialize(writer, obj);\n        return writer.ToString();\n    }\n}

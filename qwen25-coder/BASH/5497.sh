@@ -1,0 +1,1 @@
+mkdir modules/custom/my_module\ntouch modules/custom/my_module/my_module.info.yml\ntouch modules/custom/my_module/src/Plugin/views/style/XmlStyle.php

@@ -1,0 +1,1 @@
+public Task AddTask(Task task)\n   {\n       using (var db = new TaskListLinqDataContext())\n       {\n           task.IsCompleted = false;\n           task.EntryDate = DateTime.Now;\n\n           db.Tasks.InsertOnSubmit(task);\n           db.SubmitChanges();\n\n           return task; // Return the created task with generated Id\n       }\n   }

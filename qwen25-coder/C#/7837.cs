@@ -1,0 +1,1 @@
+this.commands.Add(new Use("^use\\s+(.*)", "Try to use the selected item"));

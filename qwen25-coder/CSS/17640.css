@@ -1,0 +1,1 @@
+<style media="print">\n    table {\n        page-break-inside: auto;\n        width: 100%;\n    }\n    \n    /* Adjust the height value as needed */\n    tr {\n        page-break-inside: avoid;\n        page-break-after: auto;\n    }\n\n    .breakMe {\n        page-break-before: always;\n    }\n</style>

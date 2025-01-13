@@ -1,0 +1,1 @@
+#!/bin/bash\n\n   WEB_ROOT=/path/to/web/root\n   REPO_URL=https://your-repo-url.com/path/to/repo\n\n   cd $WEB_ROOT || exit\n   svn update > /dev/null 2>&1\n\n   if [ $? -eq 0 ]; then\n       echo "Update successful"\n   else\n       echo "Update failed"\n   fi

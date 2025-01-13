@@ -1,0 +1,1 @@
+using (var suppressor = new MessageBoxSuppressor())\n{\n    try\n    {\n        // Call your COM method here\n        comObject.SomeMethod();\n    }\n    catch (Exception ex)\n    {\n        // Handle the exception\n        Console.WriteLine(ex);\n    }\n}

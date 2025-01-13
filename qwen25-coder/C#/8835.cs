@@ -1,0 +1,1 @@
+using System;\n\nclass Program {\n    static void Main() {\n        Guid guid = Guid.NewGuid();\n        Console.WriteLine(guid); // Outputs something like: 741ecf77-9c92-4435-8e6b-85975bd13452\n    }\n}

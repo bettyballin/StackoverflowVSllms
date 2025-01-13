@@ -1,0 +1,1 @@
+string input = "value_name v1,v2,v3,v4";\nRegex pattern = new Regex(@"(?<=value_name\s+)[^,]+");\nMatchCollection matches = pattern.Matches(input);\n\nforeach (Match match in matches)\n{\n    Console.WriteLine(match.Value);\n}

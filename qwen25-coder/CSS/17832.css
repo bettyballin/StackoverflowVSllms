@@ -1,0 +1,1 @@
+.your-div-class {\n    word-wrap: break-word; /* This is the older property */\n    overflow-wrap: break-word; /* Standardized version of word-wrap */\n    word-break: break-all; /* Breaks words if they exceed the container width, but not recommended for readability */\n}

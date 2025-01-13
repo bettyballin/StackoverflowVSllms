@@ -1,0 +1,1 @@
+#!/bin/bash\n    export FOO=/bar/baz

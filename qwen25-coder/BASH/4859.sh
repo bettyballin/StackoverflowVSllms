@@ -1,0 +1,1 @@
+php -d include_path="/path/to/host/specific/includes" /path/to/propel-gen ./ creole

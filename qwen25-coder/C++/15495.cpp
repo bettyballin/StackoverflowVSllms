@@ -1,0 +1,1 @@
+// In your source file, define __declspec(dllexport) for functions you want to export\n#ifdef MYDLL_EXPORTS\n#define DLL_API __declspec(dllexport)\n#else\n#define DLL_API __declspec(dllimport)\n#endif\n\nextern "C" {\n    DLL_API int MyFunction(int param1, char* param2);\n}\n\n// Implementation of MyFunction goes here

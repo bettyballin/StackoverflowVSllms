@@ -1,0 +1,1 @@
+// Using Moq to mock dependencies in a test for WPF ViewModel\n[TestMethod]\npublic void TestViewModel()\n{\n    // Arrange\n    var mockService = new Mock<IMyService>();\n    var viewModel = new MyViewModel(mockService.Object);\n\n    // Act\n    viewModel.SomeCommand.Execute(null);\n\n    // Assert\n    mockService.Verify(service => service.DoSomething(), Times.Once);\n}

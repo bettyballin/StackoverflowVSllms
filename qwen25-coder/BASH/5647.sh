@@ -1,0 +1,1 @@
+echo "Enter PID to search: "\nread PID\n\n# Use ps to find the process with the given PID\nprocess=$(ps -p "$PID" -o pid=)\n\nif [ -n "$process" ]; then\n    echo "Process with PID $PID is running."\nelse\n    echo "No process found with PID $PID."\nfi

@@ -1,0 +1,1 @@
+hostCollection2.AddRange(hostCollection1)

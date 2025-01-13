@@ -1,0 +1,1 @@
+# SoapUI can be run from command line\n   testrunner.bat -s"YourSuiteName" -c"YourTestCaseName" "path/to/your/project.xml"

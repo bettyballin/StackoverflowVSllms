@@ -1,0 +1,1 @@
+using System.Security.Cryptography;\nusing System;\n\npublic bool ValidateHash(byte[] data, byte[] expectedHash)\n{\n    using (SHA1 sha1 = SHA1.Create())\n    {\n        byte[] computedHash = sha1.ComputeHash(data);\n        return StructuralComparisons.StructuralEqualityComparer.Equals(computedHash, expectedHash);\n    }\n}

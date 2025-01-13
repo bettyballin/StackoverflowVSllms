@@ -1,0 +1,1 @@
+#!/bin/bash\n# restart_service.sh\nSSH_USER='your_ssh_user'\nREMOTE_HOST='other_linux_box_ip_or_domain'\nSERVICE_NAME='service_name'\n\nssh -i /path/to/private_key ${SSH_USER}@${REMOTE_HOST} "sudo systemctl restart ${SERVICE_NAME}"

@@ -1,0 +1,1 @@
+#include <iostream>\n\nvoid function(float* arr) {\n    for (int i = 0; i < 4; ++i) {\n        std::cout << arr[i] << " ";\n    }\n    std::cout << std::endl;\n}\n\nint main() {\n    // Using a local array with compound literal style initialization\n    float arr[] = {1, 2, 3, 4};\n    function(arr);\n    return 0;\n}

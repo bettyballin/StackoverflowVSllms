@@ -1,0 +1,1 @@
+.parent {\n  display: grid;\n  width: 25%;\n  height: 100vh; /* Full viewport height */\n  position: relative;\n}\n\n.child {\n  grid-area: 1 / 1 / -1 / -1; /* Span the entire grid area */\n  margin: Npx; /* Replace N with your desired number of pixels */\n}

@@ -1,0 +1,1 @@
+gcc -fno-tree-parallelize-loops -fno-loop-interchange -fno-loop-block -o my_program my_program.c

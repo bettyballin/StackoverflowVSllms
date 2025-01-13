@@ -1,0 +1,1 @@
+public string GetItems()\n{\n    List<string> items = new List<string> { "Item1", "Ite|m2", "Item3" };\n    // Replace any occurrence of the delimiter within items with an escaped version\n    var encodedItems = items.Select(item => item.Replace("|", "~|"));\n    return String.Join("~~~", encodedItems);\n}

@@ -1,0 +1,1 @@
+using System.Text;\n\npublic string Reverse(string text)\n{\n    StringBuilder reversedString = new StringBuilder(text.Length);\n    for (int i = text.Length - 1; i >= 0; i--)\n    {\n        reversedString.Append(text[i]);\n    }\n    return reversedString.ToString();\n}

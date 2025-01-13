@@ -1,0 +1,1 @@
+# Use cat to concatenate all email files\ncat email1.eml email2.eml ... > combined_emails.txt\n\n# Use less with continuous display to view the concatenated emails\nless -SFX combined_emails.txt

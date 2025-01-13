@@ -1,0 +1,1 @@
+REM Navigate to ColdFusion logs directory\ncd "C:\ColdFusion8\logs"\n\nREM Display the last 20 lines from application.log\ntype application.log | find /v /c ""\nsetlocal EnableDelayedExpansion\nfor /f skip=1 %%L in ('type application.log') do (\n    set line=%%L\n    if !errorlevel! geq %~n0 (\n        echo !line!\n    )\n)\nendlocal

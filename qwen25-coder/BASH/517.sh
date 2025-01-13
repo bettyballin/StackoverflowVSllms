@@ -1,0 +1,1 @@
+sudo apt-get install wine  # For Debian-based distributions

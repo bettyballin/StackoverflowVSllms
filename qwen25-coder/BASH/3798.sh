@@ -1,0 +1,1 @@
+export CFLAGS="-I/opt/gnu/include"\nexport LDFLAGS="-L/opt/gnu/lib -R/opt/gnu/lib"

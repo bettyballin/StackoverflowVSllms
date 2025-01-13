@@ -1,0 +1,1 @@
+chmod +x knock_apache.sh

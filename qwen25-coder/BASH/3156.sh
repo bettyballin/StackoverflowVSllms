@@ -1,0 +1,1 @@
+g++ -o append_pdf_pages append_pdf_pages.cpp `pkg-config --cflags --libs podofo`

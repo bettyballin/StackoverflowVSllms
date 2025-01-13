@@ -1,0 +1,1 @@
+asadmin set server.config.http-service.system-property.SSL=true\n   asadmin create-ssl --type http-listener --http-listener http-listener-2 --keystorename keystore.jks --ws wss1.5 myAppSSL

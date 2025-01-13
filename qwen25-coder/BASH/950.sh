@@ -1,0 +1,1 @@
+#!/bin/sh\n   WEB_PATH="/var/www/html/your_site"\n   LOG=/tmp/deploy.log\n\n   echo "Updating $WEB_PATH" >> $LOG\n   svn checkout --quiet -r HEAD http://yourrepositoryurl/trunk /local/deploy/directory >> $LOG 2>&1\n   scp -r /local/deploy/directory/* user@your_web_server:$WEB_PATH/\n   echo "Updated successfully!" >> $LOG

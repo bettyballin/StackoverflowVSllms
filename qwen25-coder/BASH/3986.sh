@@ -1,0 +1,1 @@
+export PKG_CONFIG_PATH=/usr/local/icu/lib/pkgconfig:$PKG_CONFIG_PATH

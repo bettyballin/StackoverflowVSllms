@@ -1,0 +1,1 @@
+etsh advfirewall firewall add rule name="Open SMTP Server" dir=in action=allow protocol=tcp localport=25

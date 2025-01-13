@@ -1,0 +1,1 @@
+docker build -t my-app .\n   docker run --rm my-app

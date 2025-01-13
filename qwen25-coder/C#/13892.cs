@@ -1,0 +1,1 @@
+using System;\nusing System.Web.Services;\n\npublic partial class SetSession : System.Web.UI.Page\n{\n    [WebMethod]\n    public static void SetSessionVariable(string key, string value)\n    {\n        System.Web.HttpContext.Current.Session[key] = value;\n    }\n}

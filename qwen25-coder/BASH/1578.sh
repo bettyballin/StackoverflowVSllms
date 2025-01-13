@@ -1,0 +1,1 @@
+regsvr32 your-vb6-dll.dll

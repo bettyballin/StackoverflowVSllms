@@ -1,0 +1,1 @@
+chmod +x /usr/local/bin/start_thin.sh

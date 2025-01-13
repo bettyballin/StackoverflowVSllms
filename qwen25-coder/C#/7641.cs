@@ -1,0 +1,1 @@
+public class Counter\n{\n    private static int count = 0;\n    private static readonly object lockObject = new object();\n\n    public static void Increment()\n    {\n        lock (lockObject)\n        {\n            count++;\n        }\n    }\n\n    public static int GetCount()\n    {\n        lock (lockObject)\n        {\n            return count;\n        }\n    }\n}

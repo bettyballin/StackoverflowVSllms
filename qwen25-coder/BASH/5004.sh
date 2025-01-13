@@ -1,0 +1,1 @@
+php-cs-fixer fix /path/to/your/project --rules=@PSR12

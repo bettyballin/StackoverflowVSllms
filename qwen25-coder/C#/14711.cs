@@ -1,0 +1,1 @@
+int maxAttempts = 5; // Example threshold\n   if (recentAttemptsCount > maxAttempts) {\n       // Trigger throttling mechanism or CAPTCHA flow\n   }

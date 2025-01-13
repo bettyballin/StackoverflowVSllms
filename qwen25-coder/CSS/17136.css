@@ -1,0 +1,1 @@
+#content {\n    display: flex;\n    justify-content: center; /* Centers the child elements horizontally */\n    align-items: center; /* Centers the child elements vertically if needed */\n}

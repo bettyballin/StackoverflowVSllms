@@ -1,0 +1,1 @@
+export PYTHONSTARTUP=~/.python_start.py

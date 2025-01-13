@@ -1,0 +1,1 @@
+using System.Collections.ObjectModel;\n\npublic ReadOnlyCollection<int> GetImmutableNumbers()\n{\n    List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };\n    return new ReadOnlyCollection<int>(numbers);\n}

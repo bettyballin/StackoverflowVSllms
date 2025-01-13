@@ -1,0 +1,1 @@
+public class XhtmlService : IXhtmlService\n   {\n       public string GetXhtmlContent()\n       {\n           // Construct your XHTML content\n           return "<!DOCTYPE html><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><title>XHTML Content</title></head><body><p>This is an example of XHTML.</p></body></html>";\n       }\n   }

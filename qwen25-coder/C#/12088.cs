@@ -1,0 +1,1 @@
+var product = new Product();\nvar storageHistory = new StorageHistory { /* properties */ };\nproduct.StorageHistories.Add(storageHistory);\nsession.Save(product); // This will persist the product and its associated StorageHistory entries

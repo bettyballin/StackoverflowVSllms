@@ -1,0 +1,1 @@
+# Example command for coverage\n   coverage run -m unittest discover\n   coverage report -m

@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Detect ORACLE_HOME\nif [ -z "$ORACLE_HOME" ]; then\n  echo "ORACLE_HOME is not set"\n  exit 1\nfi\n\n# Run SQL script with OS-specific path\nsqlplus username/password@database <<EOF\n@$ORACLE_HOME/rdbms/admin/utlrp.sql\nEOF

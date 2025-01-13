@@ -1,0 +1,1 @@
+# Tunnel for Server A (1.2.3.4): Local port 3306 -> Remote port 3306\nssh -L 3307:localhost:3306 user@1.2.3.4\n\n# Tunnel for Server B (a.b.c.d): Local port 3308 -> Remote port 3306\nssh -L 3308:localhost:3306 user@a.b.c.d

@@ -1,0 +1,1 @@
+# Example command to add a trading partner using mapleMDM command-line interface (CLI) or REST API.\ncurl -X POST "https://your.maplemDM.server/trading-partners" \\n  -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \\n  -H "Content-Type: application/json" \\n  -d '{"Name": "Vendor Corp", "Identifier": "VENDOR123"}'

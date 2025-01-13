@@ -1,0 +1,1 @@
+openssl req -new -key wildcard.key -out wildcard.csr -subj "/CN=*.example.com"

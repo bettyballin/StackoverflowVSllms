@@ -1,0 +1,1 @@
+./configure --with-apxs2\nmake clean\nmake

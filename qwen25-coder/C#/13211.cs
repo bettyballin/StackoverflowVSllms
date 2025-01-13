@@ -1,0 +1,1 @@
+public static bool operator true (MyType mt)\n{\n    return mt.Value >= 0;\n}\n\npublic static bool operator false (MyType mt)\n{\n    return mt.Value <= 0;\n}

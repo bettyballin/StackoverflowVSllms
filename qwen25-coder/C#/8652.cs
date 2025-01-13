@@ -1,0 +1,1 @@
+// Before renaming, assume the dataset was named 'OldDataSetName'\nOldDataSetNamespace.OldDataSetName dataSet = new OldDataSetNamespace.OldDataSetName();\n\n// After renaming it to 'NewDataSetName' through the Dataset Designer:\nNewDataSetNamespace.NewDataSetName dataSet = new NewDataSetNamespace.NewDataSetName();

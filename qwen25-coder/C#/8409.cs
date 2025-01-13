@@ -1,0 +1,1 @@
+public void Reset()\n{\n    if (InvokeRequired)\n    {\n        // Log details about this invocation, such as call stack or relevant state.\n        Console.WriteLine("Reset() called on a non-UI thread.");\n        Invoke(new Action(Reset));\n        return;\n    }\n    \n    _form.Reset();\n}

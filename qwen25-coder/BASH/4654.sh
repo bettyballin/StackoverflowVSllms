@@ -1,0 +1,1 @@
+gcc -o send_email_example send_email_example.c -lcurl

@@ -1,0 +1,1 @@
+public class SomeService\n{\n    private readonly IDateTimeProvider _dateTimeProvider;\n\n    public SomeService(IDateTimeProvider dateTimeProvider)\n    {\n        _dateTimeProvider = dateTimeProvider;\n    }\n\n    public DateTime CalculateFutureDate(int daysToAdd)\n    {\n        return _dateTimeProvider.Now.AddDays(daysToAdd);\n    }\n}

@@ -1,0 +1,1 @@
+gcc -o regex_example regex_example.c -lpthread

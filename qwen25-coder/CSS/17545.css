@@ -1,0 +1,1 @@
+.container {\n    width: 80%;\n    margin: auto;\n}\n\n.column {\n    float: left;\n}\n\n.main-content {\n    width: 75%;\n}\n\n.sidebar {\n    width: 25%;\n}

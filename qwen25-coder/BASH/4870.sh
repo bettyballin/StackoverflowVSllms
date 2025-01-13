@@ -1,0 +1,1 @@
+setx DB_USERNAME "your_username"\nsetx DB_PASSWORD "your_password"

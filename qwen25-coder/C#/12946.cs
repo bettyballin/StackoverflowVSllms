@@ -1,0 +1,1 @@
+var bananas = fruits.Where(fruit => fruit is Banana).Select(fruit => (Banana)fruit);\nforeach (Banana banana in bananas)\n    Console.WriteLine(banana.IsYellow);

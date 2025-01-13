@@ -1,0 +1,1 @@
+var result = context.TableA\n    .Where(a => context.TableB\n        .Join(context.TableC, \n              b => b.SomeKey, \n              c => c.SomeKey, \n              (b, c) => new { b.xx })\n        .Select(x => x.xx)\n        .Contains(a.Id))\n    .Select(a => new { a.Id, a.Name });

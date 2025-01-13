@@ -1,0 +1,1 @@
+logparser "SELECT c-ip, avg(sc-bytes)/1024 as AvgKB FROM u_ex*.log GROUP BY c-ip ORDER BY AvgKB DESC"

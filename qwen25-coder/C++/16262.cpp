@@ -1,0 +1,1 @@
+class Ringbuffer {\n       // ...\n   public:\n       ~Ringbuffer() noexcept;\n   };

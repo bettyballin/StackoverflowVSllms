@@ -1,0 +1,1 @@
+#include <stdio.h>\n\n// Define your enum in a header file or at the top of your implementation file\nenum Foo {\n   BAR,\n   BAZ\n};\n\n// Function declaration and definition\nenum Foo testFunc() {\n    return BAR; // Access enum values directly by their names\n}\n\nint main() {\n    if (testFunc() == BAR) {\n        printf("BAR\n");\n    }\n    return 0;\n}

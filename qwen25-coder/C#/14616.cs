@@ -1,0 +1,1 @@
+using System.Data.SqlClient;\n\n   class DatabaseConnector {\n       private string connectionString = @"Server=(localdb)\mssqllocaldb;Database=YourDBName;Trusted_Connection=True;";\n\n       public SqlConnection GetConnection() {\n           return new SqlConnection(connectionString);\n       }\n   }

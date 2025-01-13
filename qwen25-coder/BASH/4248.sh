@@ -1,0 +1,1 @@
+# Example command to run System File Checker on Windows\nsfc /scannow

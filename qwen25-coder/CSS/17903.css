@@ -1,0 +1,1 @@
+#content .imagecenter {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    margin: 0 auto; /* Optional: To avoid any additional alignment issues */\n}

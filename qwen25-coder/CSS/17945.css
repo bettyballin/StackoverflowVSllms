@@ -1,0 +1,1 @@
+.contact {\n    overflow: auto; /* or overflow: hidden; */\n    clear: both;\n    zoom: 1; /* For older versions of IE */\n}

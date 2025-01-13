@@ -1,0 +1,1 @@
+#include <fstream>\n#include <cstdio>\n\nFILE* getFILE(std::fstream& fs) {\n    return fdopen(fs.rdbuf()->fileno(), fs.is_open() && fs.good() ? "r+" : "");\n}

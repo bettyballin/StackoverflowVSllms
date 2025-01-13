@@ -1,0 +1,1 @@
+compare -metric AE image1.jpg image2.jpg difference.png

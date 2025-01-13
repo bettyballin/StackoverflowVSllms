@@ -1,0 +1,1 @@
+public static ISessionFactory CreateSessionFactory() {\n    var configuration = new Configuration();\n    configuration.Configure(); // Assumes you have a hibernate.cfg.xml file\n\n    // Add assembly containing mapped classes\n    configuration.AddAssembly(typeof(CompanyProperty).Assembly);\n\n    return configuration.BuildSessionFactory();\n}

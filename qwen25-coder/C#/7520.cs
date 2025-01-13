@@ -1,0 +1,1 @@
+EnumWithSpaces foo = (EnumWithSpaces)Enum.Parse(typeof(EnumWithSpaces), "Constant With Spaces");

@@ -1,0 +1,1 @@
+DateTime utcTime = ... // retrieved from database\n    string userTimeZoneId = "America/New_York"; // Example, fetched from user profile\n    TimeZoneInfo userTimeZone = TimeZoneInfo.FindSystemTimeZoneById(userTimeZoneId);\n    DateTime localTime = TimeZoneInfo.ConvertTimeFromUtc(utcTime, userTimeZone);

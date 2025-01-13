@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Define variables\nHOST="ftp.example.com"\nUSER="your-username"\nPASS="your-password"\nREMOTE_DIR="/public_html"\n\n# Move to build directory\ncd build/\n\necho "Uploading files..."\n\nlftp -u $USER,$PASS $HOST <<EOF\nmirror -R --delete . $REMOTE_DIR\nbye\nEOF\n\necho "Upload complete."

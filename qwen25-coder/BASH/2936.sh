@@ -1,0 +1,1 @@
+dumpbin /headers yourapp.exe

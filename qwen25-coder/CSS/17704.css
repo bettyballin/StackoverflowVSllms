@@ -1,0 +1,1 @@
+/* Add this class to your wrapping container */\n.clearfix::after {\n    content: "";\n    display: table;\n    clear: both;\n}\n\n#column {\n    background-color: #f0f0f0; /* Example background color */\n    padding: 15px;           /* Optional padding for aesthetic purposes */\n}

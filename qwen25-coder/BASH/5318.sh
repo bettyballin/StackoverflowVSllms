@@ -1,0 +1,1 @@
+@echo off\nset PATH=%PATH%;C:\Program Files\Microsoft SDKs\Windows\v6.0A\bi

@@ -1,0 +1,1 @@
+public class MyObjectCollection : List<MyObject>\n{\n    public MyObjectCollection(IEnumerable<MyObject> collection) : base(collection)\n    {\n    }\n}

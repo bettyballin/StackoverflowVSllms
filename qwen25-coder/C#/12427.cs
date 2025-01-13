@@ -1,0 +1,1 @@
+using EnvDTE;\n\npublic class C : DteMacro\n{\n    public void Main()\n    {\n        ExecuteCommand("Edit.ToggleOutliningExpansion");\n    }\n}

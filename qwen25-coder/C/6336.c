@@ -1,0 +1,1 @@
+// Incorrect condition\n   else if(row == 0 && (col != 0 || col != last_col)){\n       while(Library[2][i] != -1){\n           active_search[i] = Library[2][i];\n           i++;\n       }\n   }

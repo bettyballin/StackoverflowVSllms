@@ -1,0 +1,1 @@
+strace -e open,read,write <program_name>

@@ -1,0 +1,1 @@
+# Install PyInstaller if not already installed\npip install pyinstaller\n\n# To create an executable from your script.py\npyinstaller --onefile script.py

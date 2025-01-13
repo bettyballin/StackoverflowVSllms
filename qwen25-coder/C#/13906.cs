@@ -1,0 +1,1 @@
+bool isParsed = int.TryParse("12345", out int parsedValue);\n    if (isParsed) {\n        // Use parsedValue\n    }

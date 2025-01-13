@@ -1,0 +1,1 @@
+REM Save as RunAccessMacro.bat\n"C:\Path\To\Microsoft Office\root\Office16\MSACCESS.EXE" "C:\Path\To\Database.mdb" /x ExportQueryToCSV

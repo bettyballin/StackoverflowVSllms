@@ -1,0 +1,1 @@
+using Microsoft.SharePoint.Client;\n\nvar targetSiteUrl = "https://your-sharepoint-site";\nvar ctx = new ClientContext(targetSiteUrl);\n\n// Get List Template Gallery\nList listTemplateGallery = ctx.Web.Lists.GetByTitle("List Template Gallery");\nctx.Load(listTemplateGallery);\nctx.ExecuteQuery();\n\nConsole.WriteLine("List Template Gallery ID: {0}", listTemplateGallery.Id);

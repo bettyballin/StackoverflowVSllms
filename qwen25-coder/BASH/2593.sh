@@ -1,0 +1,1 @@
+sudo iotop --only  # To show only processes actually doing I/O

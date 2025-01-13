@@ -1,0 +1,1 @@
+psexec \\RemoteServer regedit.exe /S "C:\Path\To\test.reg"

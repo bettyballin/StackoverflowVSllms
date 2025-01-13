@@ -1,0 +1,1 @@
+svnadmin dump C:\path\to\repository > C:\backup\repository_backup.svn_dump

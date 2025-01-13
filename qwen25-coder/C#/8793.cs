@@ -1,0 +1,1 @@
+protected void ddlOptionSelectionChange(object sender, EventArgs e)\n{\n    // Retrieve the value from DataValueField based on selection\n    string menuOption = ddlOption.SelectedValue;\n    \n    // You can now use menuOption as needed\n}

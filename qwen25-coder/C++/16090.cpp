@@ -1,0 +1,1 @@
+#include "crow.h"\n\nint main()\n{\n    crow::SimpleApp app;\n\n    CROW_ROUTE(app, "/hello")\n    ([](){\n        return "Hello, World!";\n    });\n\n    app.port(18080).run();\n}

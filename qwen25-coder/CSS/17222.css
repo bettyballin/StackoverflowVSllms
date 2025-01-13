@@ -1,0 +1,1 @@
+/* Reset box model */\n* {\n    -webkit-box-sizing: border-box;\n    -moz-box-sizing: border-box;\n    box-sizing: border-box;\n}\n\n.container {\n    width: 300px;\n    height: 200px;\n    overflow: visible;\n    border: 1px solid #000;\n}

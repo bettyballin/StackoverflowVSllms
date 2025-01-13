@@ -1,0 +1,1 @@
+using System.Security.Principal;\nIdentityReference currentPrincipal = WindowsIdentity.GetCurrent().Owner;\nConsole.WriteLine("Current process owner: " + currentPrincipal.Value);

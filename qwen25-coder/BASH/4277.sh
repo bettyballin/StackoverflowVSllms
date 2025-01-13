@@ -1,0 +1,1 @@
+# On Ubuntu/Debian\n   sudo apt-get install sqlcipher\n   # On macOS via Homebrew\n   brew install sqlcipher

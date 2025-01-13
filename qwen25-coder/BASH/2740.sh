@@ -1,0 +1,1 @@
+#!/bin/sh\nREPOS="$1"\nREV="$2"\n\n# Path where the checkout is done\nWEB_PATH="/var/www/staging"\n\n(cd "$WEB_PATH" && svn update)\n\necho "Updated web site at revision $REV" >> /tmp/svn_up.log

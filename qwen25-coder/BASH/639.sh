@@ -1,0 +1,1 @@
+zcat largefile.gz | tail -n 100

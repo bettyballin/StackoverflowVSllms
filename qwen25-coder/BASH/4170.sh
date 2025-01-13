@@ -1,0 +1,1 @@
+gswin32c.exe -q -dNOPAUSE -dBATCH -r300 -sDEVICE=tiff24nc -sOutputFile=a_%03d.tif a.pdf

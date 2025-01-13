@@ -1,0 +1,1 @@
+dir='some/directory'\nfile=$(find "$dir" -maxdepth 1 -type f | awk 'NR==1{s=$0} rand()<=1/NR{s=$0} END{print s}')\npath=$(realpath "$dir/$file")\necho "The randomly-selected file is: $path"

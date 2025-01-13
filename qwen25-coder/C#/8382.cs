@@ -1,0 +1,1 @@
+public class ExampleClass\n{\n    // Instance variable with underscore prefix\n    private string _instanceVariable;\n\n    public void SomeMethod()\n    {\n        // Local variable without underscore prefix\n        int localVar = 0;\n\n        // Using the instance variable\n        _instanceVariable = "Hello, World!";\n    }\n}

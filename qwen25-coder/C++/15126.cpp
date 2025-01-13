@@ -1,0 +1,1 @@
+std::map<std::string, Blorgus> mymap = ...;\nforeach_value(v, mymap) {\n  v.draw();\n}

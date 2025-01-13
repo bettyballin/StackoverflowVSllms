@@ -1,0 +1,1 @@
+using Lokad.Quality;\n\n    public class Example\n    {\n        [NotNull]\n        public void MyMethod([NotNull] string input)\n        {\n            // Method implementation\n        }\n\n        [CanBeNull]\n        public string GetNullableString()\n        {\n            return null;\n        }\n    }

@@ -1,0 +1,1 @@
+// Example pseudo-code for a simple centralized reference manager\n   interface ObjectManager {\n       Object getObject(UUID id);\n       void registerReference(UUID objectId, UUID referringObjectId);\n       void updateObjectLocation(UUID objectId, ServerLocation newServer);\n   }

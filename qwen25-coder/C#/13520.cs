@@ -1,0 +1,1 @@
+// Example method in a DLL being viewed/modified in dnSpy\npublic int Add(int a, int b)\n{\n    return a + b;\n}

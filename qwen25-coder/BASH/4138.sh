@@ -1,0 +1,1 @@
+svn add new-file-or-directory\n   svn commit -m "Your commit message"

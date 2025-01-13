@@ -1,0 +1,1 @@
+/* Apply to your td or specific class */\n.your-td-class {\n    word-wrap: break-word; /* Allows long words to be able to break and wrap onto the next line */\n    white-space: normal; /* Ensures that whitespace is handled normally */\n}

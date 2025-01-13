@@ -1,0 +1,1 @@
+// Example of a simple test in NUnit\nusing NUnit.Framework;\n\n[TestFixture]\npublic class MyTests\n{\n    [Test]\n    public void ShouldReturnTrueWhenPositiveIntegersAreAdded()\n    {\n        var result = Add(3, 5);\n        Assert.AreEqual(result, 8);\n    }\n\n    int Add(int a, int b) => a + b;\n}

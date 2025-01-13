@@ -1,0 +1,1 @@
+protected void ImageButton_Click(object sender, ImageClickEventArgs e)\n{\n    myDiv.Attributes["class"] = "your-new-class"; // Change class of myDiv\n    DivUpdatePanel.Update(); // Update DivUpdatePanel to reflect changes on the client side\n}

@@ -1,0 +1,1 @@
+#ifdef __cplusplus\nextern "C" {\n#endif\n\nvoid myFunction();\n\n#ifdef __cplusplus\n}\n#endif

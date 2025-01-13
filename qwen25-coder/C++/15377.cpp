@@ -1,0 +1,1 @@
+// Example of inline usage\ninline int multiply(int x, int y) {\n    return x * y;\n}\n\nint main() {\n    return multiply(5, 10); // Inline function call can reduce overhead\n}

@@ -1,0 +1,1 @@
+java -javaagent:agentA.jar -javaagent:agentB.jar MyJavaProgram

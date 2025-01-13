@@ -1,0 +1,1 @@
+[ServiceContract]\n     public interface IDataAccess {\n         [OperationContract]\n         DataSet GetData();\n         [OperationContract]\n         bool InsertData(DataTable data);\n     }\n     \n     // Implementation details and client consumption will follow.

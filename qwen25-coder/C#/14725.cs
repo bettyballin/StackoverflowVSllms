@@ -1,0 +1,1 @@
+public interface IMessage {\n    void accept(IMessageVisitor visitor);\n}

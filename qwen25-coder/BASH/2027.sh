@@ -1,0 +1,1 @@
+java -XX:+UseG1GC -Xmx2g -Xms512m YOUR_APP_CLASS_NAME

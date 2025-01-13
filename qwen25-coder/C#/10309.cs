@@ -1,0 +1,1 @@
+public BuilderInclusionsForm(Product p) : this()\n{\n    var table = db2.GetTable(p.GetType());\n    var queryable = ((IQueryable)table).Cast<Product>();\n    dynamic productQuery = queryable;\n    product = productQuery.SingleOrDefault(a => a.ProductID == p.ProductID);\n}

@@ -1,0 +1,1 @@
+dig NS site.com.br @<chosen_br_authoritative_server>

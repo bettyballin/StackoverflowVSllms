@@ -1,0 +1,1 @@
+gcc -L/path/to/library -lmylib -o myprogram myfile.c\n  g++ -L/path/to/library -lmylib -o myprogram myfile.cpp

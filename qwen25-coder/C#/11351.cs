@@ -1,0 +1,1 @@
+// Example WCF service reference in Silverlight\nMyServiceClient client = new MyServiceClient();\nclient.GetDataCompleted += (s, e) => {\n    string result = e.Result;\n};\nclient.GetDataAsync();

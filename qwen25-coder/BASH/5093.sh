@@ -1,0 +1,1 @@
+gcc -o sample_fcgi.exe sample_fcgi.c -lfcgi

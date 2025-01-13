@@ -1,0 +1,1 @@
+sudo perf record -g -a sleep 60  # Adjust the sleep duration as needed

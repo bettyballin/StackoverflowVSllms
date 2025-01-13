@@ -1,0 +1,1 @@
+/* For modern standards-compliant browsers */\n::selection {\n    background-color: #ffcc00; /* Background color of selection */\n    color: black; /* Text color when selected */\n}\n\n/* For Internet Explorer 9 and above */\n::-ms-selection {\n    background-color: #ffcc00; /* Background color of selection */\n    color: black; /* Text color when selected */\n}

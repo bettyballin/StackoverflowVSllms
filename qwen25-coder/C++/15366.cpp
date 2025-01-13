@@ -1,0 +1,1 @@
+// For dynamic linking (Multithreaded DLL):\n#pragma comment(lib, "msvcrtd.lib") // Debug version\n\n// For static linking:\n#pragma comment(lib, "libcmt.lib")    // Debug version of static C runtime

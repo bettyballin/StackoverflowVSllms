@@ -1,0 +1,1 @@
+string connectionString = "Data Source=YOUR_TNS_ALIAS;User Id=YOUR_USER;Password=YOUR_PASSWORD;";\nusing (OracleConnection conn = new OracleConnection(connectionString))\n{\n    try\n    {\n        conn.Open();\n        // Your database operations here\n    }\n    catch (Exception ex)\n    {\n        Console.WriteLine("Error connecting to the database: " + ex.Message);\n    }\n}

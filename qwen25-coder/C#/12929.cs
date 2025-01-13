@@ -1,0 +1,1 @@
+int currentPid = System.Diagnostics.Process.GetCurrentProcess().Id;\nforeach (HostInstance hostInstance in catalog.HostInstances)\n{\n    if (hostInstance.ProcessId == currentPid)\n    {\n        // Log using hostInstance.Name and other details\n        Console.WriteLine($"Executing under Host: {hostInstance.Name}");\n        break;\n    }\n}

@@ -1,0 +1,1 @@
+cl /EHsc /W2 /WX your_program.cpp

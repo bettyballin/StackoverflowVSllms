@@ -1,0 +1,1 @@
+object o = null;\n\nif (o == null)\n{\n    Console.WriteLine("o is null");\n}\n\nif (null == o)\n{\n    Console.WriteLine("o is also null");\n}

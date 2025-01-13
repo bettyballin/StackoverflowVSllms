@@ -1,0 +1,1 @@
+ci -u file.txt  # Check in with unlock so it can be locked later

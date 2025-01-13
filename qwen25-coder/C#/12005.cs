@@ -1,0 +1,1 @@
+// C#\npublic class BaseClass {\n    public virtual void DoWork() {\n        Console.WriteLine("Base class does work");\n    }\n}

@@ -1,0 +1,1 @@
+# Open Developer Command Prompt for VS\n   devenv /clea

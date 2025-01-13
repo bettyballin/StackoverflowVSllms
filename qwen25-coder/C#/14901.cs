@@ -1,0 +1,1 @@
+@using (Html.BeginForm("TestAction", "YourControllerName", new { }, FormMethod.Post, new { id = "ajax-form", data_ajax = "true", data_ajax_update = "#target" }))\n    {\n        @Html.TextBox("TextBox")\n        <input type="submit" value="Submit" />\n        <span id="target"></span>\n    }

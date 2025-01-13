@@ -1,0 +1,1 @@
+#include <tr1/memory>\n\nint main() {\n    std::tr1::shared_ptr<int> ptr(new int(10));\n    return 0;\n}

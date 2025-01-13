@@ -1,0 +1,1 @@
+sudo ausearch -m EXECVE | grep <your-service-name>

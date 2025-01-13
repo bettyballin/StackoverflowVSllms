@@ -1,0 +1,1 @@
+taskkill /F /PID <process_id>

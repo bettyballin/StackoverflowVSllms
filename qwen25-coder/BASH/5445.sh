@@ -1,0 +1,1 @@
+mkdir /chroot_env\n   debootstrap --arch=amd64 stable /chroot_env http://deb.debian.org/debia

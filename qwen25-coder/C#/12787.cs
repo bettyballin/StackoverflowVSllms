@@ -1,0 +1,1 @@
+protected void btnAddComment_Click(object sender, EventArgs e)\n{\n    // Add your comment logic here\n    SaveComment(txtComment.Text);\n\n    // Redirect after processing - PRG pattern\n    Response.Redirect(Request.Url.AbsolutePath);\n}

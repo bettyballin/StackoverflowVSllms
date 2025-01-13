@@ -1,0 +1,1 @@
+sudo apt-get install build-essential linux-headers-$(uname -r)\ncd /usr/lib/vmware/modules/source\ntar xf vmmon.tar tar xf vmnet.tar\ncd vmmon-only\nmake\ncd ../vmnet-only/\nmake\nsudo cp vmmon.o vmnet.o /lib/modules/$(uname -r)/misc/\nsudo depmod -a

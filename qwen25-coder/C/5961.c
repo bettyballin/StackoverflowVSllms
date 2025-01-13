@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <signal.h>\n#include <unistd.h>\n\nint main() {\n    pid_t process_id = 1234; // Example PID, replace with the actual target process ID\n\n    if (kill(process_id, SIGKILL) == 0) {\n        printf("SIGKILL signal sent successfully.\n");\n    } else {\n        perror("Failed to send SIGKILL");\n    }\n\n    return 0;\n}

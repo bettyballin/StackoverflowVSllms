@@ -1,0 +1,1 @@
+// Original DLL code.\n// File: MyDLL.cpp\n\n__declspec(dllexport) int Add(int a, int b) {\n    return a + b;\n}\n\n// New DLL code with added functionality.\n// File: MyDLL.cpp\n\n__declspec(dllexport) int Add(int a, int b) {\n    return a + b;\n}\n\n// Added function\n__declspec(dllexport) void PrintHello() {\n    printf("Hello from updated DLL!\n");\n}

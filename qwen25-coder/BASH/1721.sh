@@ -1,0 +1,1 @@
+rm -rf $JBOSS_HOME/server/default/work/*\n   rm -rf $JBOSS_HOME/server/default/tmp/*

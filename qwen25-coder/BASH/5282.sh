@@ -1,0 +1,1 @@
+find / -name 'part_of_filename*' 2>/dev/null

@@ -1,0 +1,1 @@
+double pi = 3.14159; // 3.14159 is a double

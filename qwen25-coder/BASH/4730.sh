@@ -1,0 +1,1 @@
+perl awstats.pl -config=yourwebsite -update

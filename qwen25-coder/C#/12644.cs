@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    // Optionally, handle the first load logic here\n    if (!IsPostBack)\n    {\n        // Initialization code for the first page load\n    }\n    else if (IsCrossPagePostBack && PreviousPage != null)\n    {\n        // Logic to handle postback from another page\n    }\n    // Do not redirect on every initial load\n}

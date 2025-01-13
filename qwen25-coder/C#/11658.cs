@@ -1,0 +1,1 @@
+public interface IReadOnlyConnection : IConnection {\n    new bool IsSecureConnection { get; }\n}\n\npublic class ReadOnlyConnection : IReadOnlyConnection {\n    private readonly bool _isSecureConnection;\n\n    public bool IsSecureConnection => _isSecureConnection;\n\n    public ReadOnlyConnection(bool isSecure) {\n        _isSecureConnection = isSecure;\n    }\n}

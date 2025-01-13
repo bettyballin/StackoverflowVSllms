@@ -1,0 +1,1 @@
+// Check if exceptions are logged\ntry {\n    // Your code here which might throw an exception\n} catch (Exception ex) {\n    System.Diagnostics.Debug.WriteLine("Error: " + ex.Message);\n    // Or consider logging it to a file/database\n}

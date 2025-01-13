@@ -1,0 +1,1 @@
+# Update the system\nsudo apt-get update && sudo apt-get upgrade -y\n\n# Install Docker\nsudo apt-get install docker.io -y\n\n# Enable and start Docker service\nsudo systemctl enable docker --now\n\n# Pull a sample .NET image or your specific image\nsudo docker pull mcr.microsoft.com/dotnet/sdk:6.0\n\n# Run your application\nsudo docker run -d -p 8080:80 <your-dot-net-image>

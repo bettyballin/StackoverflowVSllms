@@ -1,0 +1,1 @@
+# Check if JRuby is installed\njruby -v

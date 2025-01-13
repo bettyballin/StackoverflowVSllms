@@ -1,0 +1,1 @@
+Console.WriteLine("Press any key to continue...");\nConsoleKeyInfo keyPressed;\ndo\n{\n    keyPressed = Console.ReadKey(true); // Read without displaying on console\n} while (keyPressed.Key != ConsoleKey.Enter);

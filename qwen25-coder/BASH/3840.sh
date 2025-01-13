@@ -1,0 +1,1 @@
+0 2 * * * /path/to/your/script.sh\n0 3 * * * /path/to/your/script.sh\n0 4 * * * /path/to/your/script.sh

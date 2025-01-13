@@ -1,0 +1,1 @@
+clang -v -o myprogram main.c otherfiles.o -lFreeImage ... -L/path/to/libs

@@ -1,0 +1,1 @@
+var filteredItems = list.Where(x => x.Value > 10);\nvar orderedItems = filteredItems.OrderByDescending(x => x.Date);\nvar result = orderedItems.Select(x => new { x.Name, x.Date });

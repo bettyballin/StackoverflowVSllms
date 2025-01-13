@@ -1,0 +1,1 @@
+dotnetfx35setup.exe /q /norestart

@@ -1,0 +1,1 @@
+// Example of setting a value in an anonymous session in ASP.NET\n   Session["Cart"] = new List<string> { "Product1", "Product2" };

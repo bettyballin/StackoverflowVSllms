@@ -1,0 +1,1 @@
+mv /Library/InputManagers/Edit\ in\ ODBEditor.bundle ~/.Trash/

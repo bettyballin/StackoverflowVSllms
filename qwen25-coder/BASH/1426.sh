@@ -1,0 +1,1 @@
+LD_DEBUG=symbols /path/to/executable

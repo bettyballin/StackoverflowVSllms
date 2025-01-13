@@ -1,0 +1,1 @@
+openssl dgst -sha256 -verify certificate.pem -signature signature.bin your_binary_file.bi

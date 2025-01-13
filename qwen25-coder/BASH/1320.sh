@@ -1,0 +1,1 @@
+ldd /path/to/executable

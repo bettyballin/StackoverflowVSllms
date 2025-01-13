@@ -1,0 +1,1 @@
+svnadmin pack /path/to/repository

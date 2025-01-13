@@ -1,0 +1,1 @@
+class Header {\npublic:\n    int type;\n    int payloadLength;\n};\n\nclass Message {\nprivate:\n    Header header_;\n    std::vector<char> payload_;\n\npublic:\n    char* GetPayload() {\n        return &payload_[0]; // or use data() for C++11 and later\n    }\n\n    size_t GetPayloadLength() const {\n        return payload_.size();\n    }\n};

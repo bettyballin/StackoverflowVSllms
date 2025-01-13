@@ -1,0 +1,1 @@
+# Example using GPG to encrypt a file\n   gpg --recipient "<email>" --encrypt /path/to/directory/sensitivefile.txt

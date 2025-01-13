@@ -1,0 +1,1 @@
+using System;\nusing System.Collections.Generic;\n\nclass Program {\n    static void Main() {\n        List<string> stringList = new List<string>();\n        stringList.Add("Hello");\n        stringList.Add("World");\n\n        foreach (string str in stringList) {\n            Console.WriteLine(str);\n        }\n    }\n}

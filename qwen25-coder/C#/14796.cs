@@ -1,0 +1,1 @@
+// Example of a simple test in MSTest\nusing Microsoft.VisualStudio.TestTools.UnitTesting;\n\n[TestClass]\npublic class MyTests\n{\n    [TestMethod]\n    public void ShouldReturnTrueWhenPositiveIntegersAreAdded()\n    {\n        var result = Add(3, 5);\n        Assert.AreEqual(8, result);\n    }\n\n    int Add(int a, int b) => a + b;\n}

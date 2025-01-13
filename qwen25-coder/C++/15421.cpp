@@ -1,0 +1,1 @@
+// In Visual Studio project properties:\n   // Configuration Properties -> C/C++ -> Code Generation -> Runtime Library\n   // Change from /MD (Multithreaded DLL) to /MT (Multithreaded)

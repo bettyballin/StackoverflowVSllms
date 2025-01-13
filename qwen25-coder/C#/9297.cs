@@ -1,0 +1,1 @@
+public class YourDbContext : DbContext\n{\n    public DbSet<YourModel> Models { get; set; }\n}

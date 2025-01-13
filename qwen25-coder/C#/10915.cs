@@ -1,0 +1,1 @@
+string query = "SELECT * FROM YourTable WHERE CONTAINS((ColumnName), 'YourSearchTerm')";\n   using (SqlConnection conn = new SqlConnection(connectionString))\n   {\n       SqlCommand command = new SqlCommand(query, conn);\n       conn.Open();\n       using (SqlDataReader reader = command.ExecuteReader())\n       {\n           // Process your results here...\n       }\n   }

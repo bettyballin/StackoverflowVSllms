@@ -1,0 +1,1 @@
+sami update config.php

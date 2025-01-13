@@ -1,0 +1,1 @@
+# To stop the Apache service named 'ecapache'\nnet stop ecapache

@@ -1,0 +1,1 @@
+sed '$!H;$!d;g;s/a/b/g' yourfile.txt

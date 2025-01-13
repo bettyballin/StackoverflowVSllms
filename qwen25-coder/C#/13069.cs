@@ -1,0 +1,1 @@
+using System;\nusing System.EnterpriseServices;\n\n[AssemblyKeyFile("YourPublicKey.snk")]\npublic class MyStrongNamedAssembly { }

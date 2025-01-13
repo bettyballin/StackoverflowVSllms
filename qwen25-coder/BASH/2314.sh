@@ -1,0 +1,1 @@
+# Stop Tomcat\n$CATALINA_HOME/bin/shutdown.sh\n\n# Start Tomcat\n$CATALINA_HOME/bin/startup.sh

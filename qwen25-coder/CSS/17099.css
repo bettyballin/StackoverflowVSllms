@@ -1,0 +1,1 @@
+#Pictures > div {\n    display: inline-block;\n    vertical-align: middle; /* Align items vertically */\n    text-align: center;  /* Center text under each image */\n}

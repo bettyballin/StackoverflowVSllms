@@ -1,0 +1,1 @@
+# Step 1: Start the SSH agent\neval "$(ssh-agent -s)"\n\n# Step 2: Add your private key to the SSH agent\nssh-add /path/to/your/private_key_file\n\n# Now perform the SVN checkout\nsvn checkout svn+ssh://myuser@www.myclient.com/home/svn/project/trunk

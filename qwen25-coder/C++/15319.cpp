@@ -1,0 +1,1 @@
+template<typename T>\nclass Foo {\npublic:\n    template<typename U>  // Use a different name to avoid shadowing\n    void Bar(const U& bar) {\n        // Now the types are clearly distinguished\n    }\n};

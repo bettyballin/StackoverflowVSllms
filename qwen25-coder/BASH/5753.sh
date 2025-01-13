@@ -1,0 +1,1 @@
+@echo off\nstart /B perl.exe "C:\path\to\yourscript.pl" > "C:\path\logfile.txt" 2>&1

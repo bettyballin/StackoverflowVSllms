@@ -1,0 +1,1 @@
+basex -c "CREATE DB courses /path/to/course/xml/files"

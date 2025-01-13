@@ -1,0 +1,1 @@
+for (initialization; condition; increment) {\n    // code block to be executed repeatedly\n}

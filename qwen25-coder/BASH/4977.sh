@@ -1,0 +1,1 @@
+xxd -p /path/to/your/file.pdf > file_hex

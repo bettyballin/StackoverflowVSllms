@@ -1,0 +1,1 @@
+php_beautifier -h  # Should display help for PHP Beutifier

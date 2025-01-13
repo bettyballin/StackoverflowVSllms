@@ -1,0 +1,1 @@
+table { width: 100%; border-collapse: collapse; page-break-inside:auto }\nthead { display: table-header-group }\ntfoot { display: table-row-group }\ntd, th { padding: .5em }

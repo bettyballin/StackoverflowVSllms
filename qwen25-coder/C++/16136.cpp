@@ -1,0 +1,1 @@
+#include <atlbase.h>\nHRESULT hr = CoInitialize(NULL);\nif (FAILED(hr)) {\n    return -1; // Failed to initialize COM library.\n}

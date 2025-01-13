@@ -1,0 +1,1 @@
+pdftotext input.pdf output.txt\n   grep "search_term" output.txt

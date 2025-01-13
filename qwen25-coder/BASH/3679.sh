@@ -1,0 +1,1 @@
+git pull origin main  # Fetch and integrate changes from the remote repository (adjust branch name as necessary)\n   git rebase <commit-before-your-patch>\n   git push --force

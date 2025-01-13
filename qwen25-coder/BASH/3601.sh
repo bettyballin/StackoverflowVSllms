@@ -1,0 +1,1 @@
+gcc main.c -o myapp \\n-L/path/to/custom/library \\n-l:mylib.a \  # Static linking of custom library\n-lfontconfig    # Dynamic linking of fontconfig

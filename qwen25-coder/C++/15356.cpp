@@ -1,0 +1,1 @@
+EXPORTS\n    ??0MyClass@@QAE@XZ            ; Assuming this is the constructor\n    ??1MyClass@@QAE@XZ            ; Assuming this is the destructor\n    ?method1@MyClass@@QAEXXZ      ; Replace 'method1' with actual method name\n    ?method2@MyClass@@QAEXH@Z       ; Replace 'method2' and 'H' with actual method name and parameter type

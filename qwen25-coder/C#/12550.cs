@@ -1,0 +1,1 @@
+do {\n    len = ns.Read(buf, 0, client.ReceiveBufferSize);\n    fs.Write(buf, 0, len);\n    ns.Write(AOK, 0, AOK.Length);\n} while ((0 < len) && (ns.DataAvailable == true));

@@ -1,0 +1,1 @@
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=output.pdf -f fileA.pdf fileB.pdf

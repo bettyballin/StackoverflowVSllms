@@ -1,0 +1,1 @@
+#!/bin/sh\n   WEB_PATH="/var/www/html/your_site"  # Path where your site is on the server\n   LOG=/tmp/subversion_post-commit.log\n\n   echo "Updating $WEB_PATH" >> $LOG\n   svn checkout --quiet -r HEAD http://yourrepositoryurl/trunk $WEB_PATH >> $LOG 2>&1\n   echo "Updated successfully!" >> $LOG

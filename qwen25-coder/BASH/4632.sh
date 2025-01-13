@@ -1,0 +1,1 @@
+sudo apt-get install collectl  # For Debian/Ubuntu\n   sudo yum install collectl      # For RHEL/CentOS

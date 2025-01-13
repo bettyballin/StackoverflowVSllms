@@ -1,0 +1,1 @@
+.icon {\n    background-image: url('sprite.png');\n    width: 20px;\n    height: 20px;\n}\n\n.icon-home {\n    background-position: -0px -0px;\n}\n\n.icon-settings {\n    background-position: -20px -0px;\n}

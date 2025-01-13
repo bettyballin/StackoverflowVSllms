@@ -1,0 +1,1 @@
+migrationBuilder.CreateIndex(\n    name: "idx_unique_space_coordinate",\n    table: "SpaceLocations",\n    columns: new[] { "x", "y", "z" },\n    unique: true);

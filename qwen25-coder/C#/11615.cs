@@ -1,0 +1,1 @@
+string result = Regex.Replace(s, @"(?<!\/)\b\d{4,}\b", m => \n    Regex.Replace(m.Value, @"(?<=\d)(?=(\d{3})+$)", ","));

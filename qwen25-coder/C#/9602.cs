@@ -1,0 +1,1 @@
+var groupsWithoutPeople = context.Groups\n    .Where(g => !context.People.Any(p => p.GroupId == g.GroupId))\n    .ToList();

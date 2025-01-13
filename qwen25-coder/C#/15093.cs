@@ -1,0 +1,1 @@
+from o in orders\njoin i in items on new { key1 = (int?)o.ID, key2 = (int?)o.ID }\nequals new { key1 = (int?)i.OrderA, key2 = (int?)i.OrderB } into gj\nfrom g in gj.DefaultIfEmpty()\nwhere g != null && (g.OrderA == o.ID || g.OrderB == o.ID)\nselect new { Order = o, Item = g }

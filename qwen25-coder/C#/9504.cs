@@ -1,0 +1,1 @@
+// Premature Optimization Example:\nif (dataAccessLayer.GetData() == null)\n{\n    // Assume a complex serialization/deserialization logic here.\n    session["CachedData"] = dataAccessLayer.GetComplexData();\n}

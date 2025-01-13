@@ -1,0 +1,1 @@
+# To set your current Python environment as using Python for Windows Extensions (pywin32)\nc:\path\to\python27-32bit\Scripts\pywin32_postinstall.py -install\n\n# Then register the COM server in a 32-bit shell\nc:\path\to\python27-32bit\python.exe PythonCOMServer.py

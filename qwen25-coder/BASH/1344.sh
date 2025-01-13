@@ -1,0 +1,1 @@
+echo 'PATH=~/bin' > ~/.bashrc\n   source ~/.bashrc

@@ -1,0 +1,1 @@
+#include <windows.h>\n\n// Assuming foo is defined somewhere else\nvoid foo(unsigned long ulSize, unsigned char* pData);\n\nint main() {\n    // Allocate a small buffer if size is zero\n    unsigned long size = 0;\n    unsigned char dummyBuffer[1] = {0};\n\n    foo(size, (size == 0) ? dummyBuffer : nullptr);\n    \n    return 0;\n}

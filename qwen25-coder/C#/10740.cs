@@ -1,0 +1,1 @@
+using System.IO;\nusing System.Text.RegularExpressions;\n\npublic static string[] PreProcessLines(string filePath)\n{\n    var lines = File.ReadAllLines(filePath);\n    for (int i = 0; i < lines.Length; i++)\n    {\n        // Replace [ and ] with "\n        lines[i] = Regex.Replace(lines[i], @"[\[\]]", "\"");\n    }\n    return lines;\n}

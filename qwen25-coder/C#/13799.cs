@@ -1,0 +1,1 @@
+JSArrayString += "^" + (inv.RRP * oCountry.ExchangeRate).ToString("N2");

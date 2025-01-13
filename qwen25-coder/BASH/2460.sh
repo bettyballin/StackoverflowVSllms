@@ -1,0 +1,1 @@
+rmdir /s /q obj\n   rmdir /s /q bin\n   rmdir /s /q ..\Release\n   msbuild /t:rebuild /p:Configuration=Release

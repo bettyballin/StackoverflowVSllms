@@ -1,0 +1,1 @@
+// Statically linking a library (example in Makefile)\n# Use -l to link static libraries directly into the executable\ngcc -o my_program main.c -L./lib -lmystaticlibrary\n\n// Dynamically linking a DLL (example in command line for Windows)\n# Assume mydll.dll is placed in the system path or application directory\ng++ main.cpp -L./lib -lmydll -o my_program.exe

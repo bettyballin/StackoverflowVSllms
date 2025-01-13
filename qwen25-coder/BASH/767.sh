@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Redirect stdout and stderr to a file\noutput="$(cvs update 2>&1)"\n\n# Print the full output\necho "$output"\n\n# Extract only lines starting with 'C'\nconflicts=$(echo "$output" | grep "^C")\n\n# If there are conflicts, print the summary\nif [ -n "$conflicts" ]; then\n    echo -e "\nConflict Summary:"\n    echo "$conflicts"\nfi

@@ -1,0 +1,1 @@
+// Assuming you have a form with a Label named 'instructionLabel'\ninstructionLabel.Text = "Welcome to the Program!\r\n" +\n                        "Here are some instructions:\r\n" +\n                        "1. Do this first.\r\n" +\n                        "2. Then do that.\r\n" +\n                        "3. Finally, click OK.";

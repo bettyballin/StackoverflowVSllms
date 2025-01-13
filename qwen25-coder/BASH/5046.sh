@@ -1,0 +1,1 @@
+curl -X POST \\n  -F 'message=Hello, world!' \\n  -F 'access_token=<YOUR_PAGE_ACCESS_TOKEN>' \\n  https://graph.facebook.com/v12.0/<PAGE_ID>/feed

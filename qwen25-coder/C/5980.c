@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint main() {\n    char str[] = "Hello";\n    printf("The string is: %s\n", str);\n    return 0;\n}

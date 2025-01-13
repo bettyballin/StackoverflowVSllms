@@ -1,0 +1,1 @@
+[System.Web.Services.WebMethod]\npublic static string GetData()\n{\n    // Mock data retrieval logic here\n    var data = new[] {\n        new { Name = "John Doe", Age = 30 },\n        new { Name = "Jane Smith", Age = 25 }\n    };\n    return Newtonsoft.Json.JsonConvert.SerializeObject(data);\n}

@@ -1,0 +1,1 @@
+using System.Linq;\n\nList<string> selectedFields = chkDFMFieldList.CheckedItems.Cast<object>().Select(o => o.ToString()).ToList();

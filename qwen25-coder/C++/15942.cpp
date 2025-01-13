@@ -1,0 +1,1 @@
+#ifdef __cplusplus\nextern "C" {\n#endif\n\n__declspec(dllexport) int __stdcall foo(long bar);\n\n#ifdef __cplusplus\n}\n#endif

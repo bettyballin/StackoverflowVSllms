@@ -1,0 +1,1 @@
+#mainad {\n    visibility: visible; /* Should be visible */\n    display: block;      /* Ensure it's displayed */\n    opacity: 1;          /* Fully opaque */\n    z-index: auto;       /* Default or higher than others if positioned */\n    background-image: url('path/to/image.jpg'); /* Check the path and file */\n}

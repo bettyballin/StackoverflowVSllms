@@ -1,0 +1,1 @@
+using System.Web.Services;\n\npublic partial class YourPage : System.Web.UI.Page\n{\n    [WebMethod]\n    public static string YourMethodName()\n    {\n        // This is where you can place logic that previously was in the button click event.\n        return "Operation completed successfully!";\n    }\n}

@@ -1,0 +1,1 @@
+using MbUnit.Framework;\n\n[TestFixture]\npublic class SampleTests\n{\n    [Test]\n    public void ShouldPass()\n    {\n        Assert.IsTrue(true);\n    }\n}

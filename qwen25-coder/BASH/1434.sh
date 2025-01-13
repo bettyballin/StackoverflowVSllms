@@ -1,0 +1,1 @@
+* * * * * export CRON_JOB=true && /usr/bin/php /path/to/your/script.php

@@ -1,0 +1,1 @@
+composer require myclabs/php-enum

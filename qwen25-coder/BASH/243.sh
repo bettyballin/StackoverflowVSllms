@@ -1,0 +1,1 @@
+gcc -E -fdirectives-only your_source_file.cc > directives_output.txt

@@ -1,0 +1,1 @@
+openssl enc -aes-256-cbc -salt -in input.html -out encrypted.html.enc

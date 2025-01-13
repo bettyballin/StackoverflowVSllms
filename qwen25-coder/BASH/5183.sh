@@ -1,0 +1,1 @@
+@echo off\n   cd /D "C:\path\to\your\rails\app"\n   ruby script/server mongrel

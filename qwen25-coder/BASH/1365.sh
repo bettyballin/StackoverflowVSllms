@@ -1,0 +1,1 @@
+objcopy --only-keep-debug myprogram myprogram.dbg

@@ -1,0 +1,1 @@
+public void AddUserSafe(User user)\n{\n    bool userExists = _dbContext.Users.Any(u => u.Email == user.Email);\n    \n    if (userExists)\n    {\n        throw new CustomUniqueConstraintViolationException("This email is already registered.");\n    }\n\n    _dbContext.Users.Add(user);\n    _dbContext.SaveChanges();\n}

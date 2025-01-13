@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Change to the tmp directory\ncd /path/to/your/project/tmp || exit\n\n# Set permissions for all directories within tmp\nfind . -type d -exec chmod 755 {} \;\n\n# Optionally, set the group ownership if needed\n# chgrp your_group_name *\n\necho "Permissions updated."

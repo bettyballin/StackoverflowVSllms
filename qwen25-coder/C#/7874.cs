@@ -1,0 +1,1 @@
+// Assuming your web service is named MyWebService\nMyWebNamespace.MyWebService soapClient = new MyWebNamespace.MyWebService();\nsoapClient.Url = "http://yourserviceurl/YourService.asmx";\n\ntry {\n    string result = soapClient.YourMethodName("parameter");\n    Console.WriteLine(result);\n}\ncatch (Exception ex) {\n    Console.WriteLine("An error occurred: " + ex.Message);\n}

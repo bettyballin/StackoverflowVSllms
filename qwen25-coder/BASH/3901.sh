@@ -1,0 +1,1 @@
+-L/usr/local/lib -lwx_mac-2.8

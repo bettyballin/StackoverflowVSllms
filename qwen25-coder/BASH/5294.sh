@@ -1,0 +1,1 @@
+setx /M PATH "%JAVA_HOME%\bin;C:\Program Files\Java\<Your_JRE_Version>\bin;%PATH%"

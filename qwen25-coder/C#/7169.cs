@@ -1,0 +1,1 @@
+public class AccessManager\n{\n    public bool HasPermission(HttpSessionState session, string requiredPermission)\n    {\n        // Dummy check; in a real app, check roles against required permission.\n        var userPermissions = (session["UserPermissions"] as HashSet<string>) ?? new HashSet<string>();\n        return userPermissions.Contains(requiredPermission);\n    }\n}

@@ -1,0 +1,1 @@
+dotnet tool install --global Microsoft.dotnet-interactive\n   dotnet interactive jupyter install\n   jupyter lab

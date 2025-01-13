@@ -1,0 +1,1 @@
+iisreset /stop\n   net stop sptimerv4

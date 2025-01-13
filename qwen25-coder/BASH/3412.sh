@@ -1,0 +1,1 @@
+screen -S download_session\n   bash your_script.sh

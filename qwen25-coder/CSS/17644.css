@@ -1,0 +1,1 @@
+#outerBox {\n    display: flex; /* Use flexbox to manage the layout */\n    width: 100%;\n}\n\n.innerBoxLeft,\n.innerBoxRight {\n    flex: 1; /* Grow equally and fill available space */\n    width: 45%; /* Optional, but can be used for initial sizing in some cases */\n    box-sizing: border-box; /* Include padding/border in element's total width/height */\n}

@@ -1,0 +1,1 @@
+#include <memory>\n\nclass BaseFactory {\npublic:\n    virtual ~BaseFactory() = default;\n    virtual std::unique_ptr<Base> createInstance() const = 0;\n};

@@ -1,0 +1,1 @@
+int myInt = 42;\n   object obj = (object)myInt; // Explicit boxing

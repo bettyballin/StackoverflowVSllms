@@ -1,0 +1,1 @@
+#!/bin/bash\n\n   # Step 1: Checkout or update from CVS\n   cvs update -Pd\n\n   # Step 2: Highlight all files in the current directory\n   for file in $(find . -type f \( ! -iname "*.html" \) ); do\n       highlight -S ${file##*.} --out-format=html --style=kwrite "${file}" --output="${file}.html"\n   done\n\n   # Step 3: Generate index.html\n   python3 generate_index.py

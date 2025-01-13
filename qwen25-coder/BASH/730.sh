@@ -1,0 +1,1 @@
+ulimit -s 8192000  # Example: setting stack size to 8GB

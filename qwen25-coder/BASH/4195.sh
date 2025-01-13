@@ -1,0 +1,1 @@
+ls -l /dev/ttyUSB0\n   # Expected output would show group dialout and permissions crw-rw----

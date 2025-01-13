@@ -1,0 +1,1 @@
+string[] searchTerms = getsTheArray();\n\nvar query = dataContext.MyTable.AsQueryable();\nquery = QueryHelper.GetQuery(query, searchTerms, e => e.FieldName);

@@ -1,0 +1,1 @@
+#include <windows.h>\n#include <iostream>\n\nint main() {\n    std::cout << "Starting..." << std::endl;\n    Sleep(2000); // Pause for 2000 milliseconds (2 seconds)\n    std::cout << "Ended." << std::endl;\n    return 0;\n}

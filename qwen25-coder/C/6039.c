@@ -1,0 +1,1 @@
+// Usage example snippet:\n   #include <libssh/libssh.h>\n\n   ssh_session my_ssh_session;

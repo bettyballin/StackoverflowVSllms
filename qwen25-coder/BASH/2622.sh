@@ -1,0 +1,1 @@
+valgrind --tool=massif php your_script.php

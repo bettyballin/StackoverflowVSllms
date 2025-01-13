@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Check if the user provided the subdirectory as an argument\nif [ -z "$1" ]; then\n  echo "Usage: $0 <subdirectory>"\n  exit 1\nfi\n\nSUBDIRECTORY=$1\n\n# Execute commands via SSH\nssh user@yourserver.com "\n  cd /path/to/$SUBDIRECTORY &&\n  svn update\n"

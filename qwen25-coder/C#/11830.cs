@@ -1,0 +1,1 @@
+[MethodImpl(MethodImplOptions.AggressiveInlining)]\n   public void MyFastMethod() { }

@@ -1,0 +1,1 @@
+protected void Session_Start(object sender, EventArgs e)\n{\n    if (HttpContext.Current.Session != null && HttpContext.Current.Session["DatabaseInitialized"] == null)\n    {\n        InitializeDatabase();\n        HttpContext.Current.Session["DatabaseInitialized"] = true;\n    }\n}\n\nprivate void InitializeDatabase()\n{\n    // Your db4o initialization code here\n}

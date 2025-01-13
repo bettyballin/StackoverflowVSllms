@@ -1,0 +1,1 @@
+bool fn(HANDLE& h_result);

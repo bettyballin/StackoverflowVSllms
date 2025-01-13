@@ -1,0 +1,1 @@
+extern "C" {\n#include <cblas.h>\n#include <clapack.h>\n}\n\n// Rest of your code remains unchanged

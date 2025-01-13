@@ -1,0 +1,1 @@
+std::string my_string("a\0b", 3);

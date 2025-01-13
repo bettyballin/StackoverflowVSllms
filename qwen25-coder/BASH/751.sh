@@ -1,0 +1,1 @@
+rsync -av --progress /run/user/$(id -u)/gvfs/mtp:host=%5Busb%3A002%2C019%5D/iPod_Control/Music ~/iPod_Backup

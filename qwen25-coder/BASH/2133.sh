@@ -1,0 +1,1 @@
+# This example is for demonstration only and won't run on Windows Mobile.\nSet-ItemProperty -Path "HKLM:\Software\Microsoft\Security" -Name "AuthenticodeEnabled" -Value 0

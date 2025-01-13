@@ -1,0 +1,1 @@
+aws s3api put-bucket-acl --bucket your-bucket-name --grant-full-control uri="http://acs.amazonaws.com/groups/s3/LogDelivery" --grant-read uri="http://acs.amazonaws.com/groups/global/AllUsers"

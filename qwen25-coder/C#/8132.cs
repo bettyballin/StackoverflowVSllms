@@ -1,0 +1,1 @@
+int number;\n  if (!int.TryParse(Console.ReadLine(), out number))\n  {\n      Console.WriteLine("Invalid input. Please enter an integer.");\n  }

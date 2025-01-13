@@ -1,0 +1,1 @@
+gcc -o TestSetUIDAndExecuteTool TestSetUIDAndExecuteTool.m -framework Foundatio

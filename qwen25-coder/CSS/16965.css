@@ -1,0 +1,1 @@
+.column-1,\n.column-2 {\n    width: 45%;\n    float: left;\n    margin-right: 10%; /* adjust based on your design */\n}\n\n.column-1:last-child {\n    margin-right: 0; /* remove the margin from the last column */\n}

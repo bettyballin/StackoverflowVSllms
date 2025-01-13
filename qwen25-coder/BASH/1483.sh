@@ -1,0 +1,1 @@
+# Using netsh to bind the certificate\nnetsh http add sslcert ipport=0.0.0.0:443 certhash=<certificate_thumbprint> appid={your_application_GUID}

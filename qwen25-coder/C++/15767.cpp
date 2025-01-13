@@ -1,0 +1,1 @@
+// Example C++ usage snippet from Chilkat:\n   #include "CkSsh.h"\n   #include "CkSFtp.h"\n\n   CkSsh ssh;\n   bool success = ssh.Connect("sftp.example.com", 22);

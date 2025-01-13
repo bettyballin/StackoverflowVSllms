@@ -1,0 +1,1 @@
+#!/bin/csh\n\n# Start a new group and execute the following commands in that group\nnewgrp name -c "\n    source /stuff/morestuff/stuffiwant\n    razor -c thread -f Keil1403 -g lib . -o\n    chmod +x *\n    ./rz_build*\n"\n\n# The parent process will wait for the newgrp command to complete, which includes all commands executed within it.

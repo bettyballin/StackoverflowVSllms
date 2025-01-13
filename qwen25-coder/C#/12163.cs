@@ -1,0 +1,1 @@
+// Example: DbContext setup in Entity Framework (old version)\nusing (var context = new MyEntities())\n{\n    // Perform database operations\n}

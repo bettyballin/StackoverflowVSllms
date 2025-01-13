@@ -1,0 +1,1 @@
+#include <stdlib.h>\n\nint main() {\n    char command[] = "command1; command2; command3";\n    system(command);\n    return 0;\n}

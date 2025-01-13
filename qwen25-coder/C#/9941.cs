@@ -1,0 +1,1 @@
+using System.ComponentModel;\nusing System.ComponentModel.DataAnnotations;\n\npublic class YourEntityClass\n{\n    [Key]\n    [ScaffoldColumn(false)] // This will prevent the column from appearing in the UI.\n    public Guid Id { get; set; }\n\n    // Other properties of your entity...\n}

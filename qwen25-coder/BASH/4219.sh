@@ -1,0 +1,1 @@
+sudo su - oracle\n   ssh <target_host>

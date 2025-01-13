@@ -1,0 +1,1 @@
+if (csc /t:exe /out:a.exe SomeFile.cs) {\n    & .\a.exe\n}

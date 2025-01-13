@@ -1,0 +1,1 @@
+public ActionResult ExportToPdf()\n{\n    var model = GetData(); // Assume GetData() fetches your data\n\n    return new ViewAsPdf("ExportView", model) // "ExportView" is the name of your razor view file\n    {\n        FileName = "data.pdf",\n        PageMargins = { Left = 1, Right = 1 }\n    };\n}

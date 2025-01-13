@@ -1,0 +1,1 @@
+0 0 * * * /usr/bin/curl http://yourdomain.com/path-to-your-script.php > /dev/null 2>&1

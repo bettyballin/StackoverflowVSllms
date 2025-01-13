@@ -1,0 +1,1 @@
+gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite \\n   -dEmbedAllFonts=true -dAutoRotatePages=/None \\n   -sColorImageFilter=/FlateEncode -sMonoImageFilter=/CCITTFaxEncode \\n   -sGrayImageFilter=/LZWEncode input.eps output.pdf

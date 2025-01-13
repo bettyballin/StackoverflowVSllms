@@ -1,0 +1,1 @@
+clamscan /path/to/file.txt

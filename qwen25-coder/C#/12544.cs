@@ -1,0 +1,1 @@
+// Example NHibernate query that becomes parameterized SQL\nvar products = session.Query<Product>()\n                       .Where(p => p.Price > 100)\n                       .ToList();

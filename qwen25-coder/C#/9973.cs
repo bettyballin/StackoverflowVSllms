@@ -1,0 +1,1 @@
+public void BindListToTextBox(TextBox textBox, List<string> list)\n{\n    // Assuming you want each item on a new line in the TextBox\n    textBox.Text = string.Join(Environment.NewLine, list);\n}\n\n// Usage\nprivate void LoadData()\n{\n    List<string> agentDetails = GetAgentsDetails("yourFilePath.xml");\n    BindListToTextBox(yourTextBoxControl, agentDetails);\n}

@@ -1,0 +1,1 @@
+sudo docker run -dit --name my-apache \\n       -p 80:80 \\n       -v ~/docker/apache/conf.d:/usr/local/apache2/conf.d \\n       -v ~/docker/apache/html:/usr/local/apache2/htdocs \\n       httpd:latest

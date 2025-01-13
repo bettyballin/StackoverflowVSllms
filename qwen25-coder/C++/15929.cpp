@@ -1,0 +1,1 @@
+// Example of safe shutdown if possible\nint WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {\n    // Your application logic here\n\n    // If everything is fine and you want to exit gracefully\n    ExitProcess(0);\n\n    return 0;\n}

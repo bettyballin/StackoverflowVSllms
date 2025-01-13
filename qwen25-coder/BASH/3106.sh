@@ -1,0 +1,1 @@
+# Example commands to set up a new repository\ngit init\ngit add .\ngit commit -m "Initial commit"

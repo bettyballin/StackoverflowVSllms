@@ -1,0 +1,1 @@
+public class Service1 : IService1\n{\n    public string MethodName(string param1, string param2)\n    {\n        // Your implementation here\n        return $"Received {param1} and {param2}";\n    }\n}

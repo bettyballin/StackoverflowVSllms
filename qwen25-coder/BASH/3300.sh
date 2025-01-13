@@ -1,0 +1,1 @@
+# Validate HTML using W3C Markup Validation Service\ncurl -s --data-urlencode "fragment=$(cat your-file.html)" \\n     --data "output=soap12" https://validator.w3.org/nu/\n\n# Validate CSS using W3C CSS Validation Service\ncurl -s --form "text=@your-file.css" http://jigsaw.w3.org/css-validator/

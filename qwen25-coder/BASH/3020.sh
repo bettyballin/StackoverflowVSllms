@@ -1,0 +1,1 @@
+time strace -T -f -o php.trace php your_script.php

@@ -1,0 +1,1 @@
+# Example command to install Alfresco Community Edition:\n   wget -O- https://raw.githubusercontent.com/Alfresco/acs-community-deployment/master/package.sh | bash

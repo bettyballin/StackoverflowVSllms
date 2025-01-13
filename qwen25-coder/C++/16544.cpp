@@ -1,0 +1,1 @@
+// Example function: splay operation in cpp\nvoid splay(Node *root, int key) {\n    // Basic algorithm for splaying\n}

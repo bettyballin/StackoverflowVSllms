@@ -1,0 +1,1 @@
+// foo.h\n   #include <boost/bind.hpp>\n\n   class Foo {\n   public:\n       template <typename F>\n       void func(F f) {  // Definition moved to header\n           f(member_);\n       }\n\n   private:\n       int member_;\n   };

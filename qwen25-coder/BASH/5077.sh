@@ -1,0 +1,1 @@
+# Install PHPStan locally via Composer\ncomposer require --dev phpstan/phpstan\n\n# Run PHPStan level 0 (recommended starting point)\n./vendor/bin/phpstan analyse -l 0 /path/to/code

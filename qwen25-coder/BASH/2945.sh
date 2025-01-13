@@ -1,0 +1,1 @@
+./classify_dirs.sh localdir remotedir

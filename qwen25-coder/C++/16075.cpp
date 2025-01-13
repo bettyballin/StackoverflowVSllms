@@ -1,0 +1,1 @@
+class User {\npublic:\n    QString name;\n    QVariant email; // Can hold both NULL and QString\n\n    User(const QString &name, const QVariant &email)\n        : name(name), email(email) {}\n};\n\n// Usage example:\nUser user1("John Doe", "john@example.com");\nUser user2("Jane Smith", QVariant(QVariant::Null)); // Null email

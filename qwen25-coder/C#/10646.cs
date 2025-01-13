@@ -1,0 +1,1 @@
+using System.ComponentModel.DataAnnotations;\n\npublic class LoginViewModel {\n    [Required(ErrorMessage = "Username is required")]\n    public string Username { get; set; }\n\n    [Required(ErrorMessage = "Password is required")]\n    public string Password { get; set; }\n}

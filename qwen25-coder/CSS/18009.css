@@ -1,0 +1,1 @@
+header {\n    position: relative;\n    z-index: 9; /* Lower than the logo's z-index for proper stacking */\n}

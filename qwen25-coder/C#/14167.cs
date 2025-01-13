@@ -1,0 +1,1 @@
+using (var context = new YourDbContext())\n{\n    int pageNumber = 2; // Current Page Number\n    int pageSize = 10;  // Number of Records per Page\n\n    var results = await context.YourTableName\n        .OrderBy(x => x.YourColumnName)\n        .Skip((pageNumber - 1) * pageSize)\n        .Take(pageSize)\n        .ToListAsync();\n\n    return results;\n}

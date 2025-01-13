@@ -1,0 +1,1 @@
+// Simple node definition for a binary search tree\nstruct TreeNode {\n    std::string key;\n    void* value; // or any other type you are using for values in your symbol table\n    TreeNode* left;\n    TreeNode* right;\n\n    TreeNode(std::string k, void* v) : key(k), value(v), left(nullptr), right(nullptr) {}\n};

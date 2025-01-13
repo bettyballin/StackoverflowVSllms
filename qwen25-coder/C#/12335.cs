@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        // Generate some dynamic HTML\n        string htmlContent = "<p>Here is some dynamically generated text.</p><img src='image.jpg' alt='Dynamic Image'/>";\n\n        // Set the Literal's Text property to your dynamic HTML\n        dynamicContent.Text = htmlContent;\n    }\n}

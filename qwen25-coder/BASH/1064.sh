@@ -1,0 +1,1 @@
+jarsigner -keystore myKeystore.jks myfile.jar myalias

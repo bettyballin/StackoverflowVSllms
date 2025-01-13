@@ -1,0 +1,1 @@
+# Commands to add and commit your files\n   svn add *\n   svn commit -m "Initial Joomla setup with custom components"

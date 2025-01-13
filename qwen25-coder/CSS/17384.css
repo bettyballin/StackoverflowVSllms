@@ -1,0 +1,1 @@
+div.menu {\n    width: 550px;\n    display: flex;\n    flex-direction: row;\n}\n\ndiv.menu .right {\n    margin-left: auto; /* This pushes all elements with class "right" to the far right */\n}\n\ndiv.menu div:not(.right) {\n    max-width: 200px;\n    flex-grow: 1;   /* Ensures left side fills up space except where displaced by "right" items */\n}

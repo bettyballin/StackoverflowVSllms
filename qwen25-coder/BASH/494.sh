@@ -1,0 +1,1 @@
+sudo crontab -e\n  * * * * * root /etc/db_backup.cron >> /tmp/cron_test.log 2>&1

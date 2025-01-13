@@ -1,0 +1,1 @@
+upx --best path_to_your_executable.exe

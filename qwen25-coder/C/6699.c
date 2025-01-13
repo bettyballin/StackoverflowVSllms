@@ -1,0 +1,1 @@
+unsigned char toggleBits(unsigned char value) {\n    return value ^ (1 << 2 | 1 << 4);\n}

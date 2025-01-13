@@ -1,0 +1,1 @@
+protected void Button1_Click(object sender, EventArgs e)\n{\n    // Example server-side logic to update a label inside the UpdatePanel\n    Label1.Text = DateTime.Now.ToString();\n}

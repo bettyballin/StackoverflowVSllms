@@ -1,0 +1,1 @@
+sudo apt-get install patchelf  # On Debian/Ubuntu systems

@@ -1,0 +1,1 @@
+.button-div {\n    width: 200px; /* Example size */\n    height: 50px; /* Example size */\n    background-color: #4CAF50; /* Green background */\n    color: white; /* White text */\n    text-align: center; /* Centered text */\n    line-height: 50px; /* Vertically center text */\n    cursor: pointer; /* Pointer/hand icon on hover */\n}

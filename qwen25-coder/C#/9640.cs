@@ -1,0 +1,1 @@
+@Html.ActionLink("Click here", "ActionResultName", "ControllerName")

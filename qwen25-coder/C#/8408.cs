@@ -1,0 +1,1 @@
+contextMenuStrip1.SuspendLayout();\n\nforeach (ToolStripItem item in contextMenuStrip1.Items)\n{\n    // Set the width of each item to ensure the menu is wide enough\n    item.Width = 200; // Set your desired width here\n}\n\ncontextMenuStrip1.ResumeLayout();

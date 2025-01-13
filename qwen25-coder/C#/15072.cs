@@ -1,0 +1,1 @@
+// Log file path outside of web root\nstring logFilePath = @"C:\Logs\MyAppLogs\ApplicationLog.txt";\n\n// Ensure the directory exists\nDirectory.CreateDirectory(Path.GetDirectoryName(logFilePath));\n\n// Write to log file\nusing (StreamWriter writer = new StreamWriter(logFilePath, true))\n{\n    writer.WriteLine($"{DateTime.Now}: Some log message");\n}

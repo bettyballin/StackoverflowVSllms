@@ -1,0 +1,1 @@
+#include <dlfcn.h>\n  void* handle = dlopen("libmyplugin.so", RTLD_LAZY);

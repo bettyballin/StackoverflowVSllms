@@ -1,0 +1,1 @@
+public class ApplicationConsumer\n{\n    private readonly ApplicationWrapper _wrapper = new ApplicationWrapper();\n\n    public async Task CallSomeoneAsync(string phoneNumber)\n    {\n        var result = await _wrapper.PlaceCallAsync(phoneNumber);\n        Console.WriteLine(result);  // Output: Calling <phoneNumber>\n    }\n}

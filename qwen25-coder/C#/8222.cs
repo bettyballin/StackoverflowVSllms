@@ -1,0 +1,1 @@
+void Example() {\n    Delegate @delegate = new Action(() => Console.WriteLine("Hello, world!"));\n    // You can now use '@delegate' as a variable name.\n}

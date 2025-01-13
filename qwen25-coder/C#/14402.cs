@@ -1,0 +1,1 @@
+using BenchmarkDotNet.Attributes;\n\npublic class MathBenchmark\n{\n    [Benchmark]\n    public int DoMath()\n    {\n        // Simulate some mathematical computations\n        return 1 + 2 * 3;\n    }\n}\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        var summary = BenchmarkRunner.Run<MathBenchmark>();\n    }\n}

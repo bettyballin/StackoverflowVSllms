@@ -1,0 +1,1 @@
+# Install pwgen if not already installed (Linux)\nsudo apt-get install pwgen\n\n# Generate a pronounceable password\npwgen -y 10

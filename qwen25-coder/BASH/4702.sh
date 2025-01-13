@@ -1,0 +1,1 @@
+for file in $(find . -type f); do\n       highlight -S $file -f --output "$file.html"\n   done

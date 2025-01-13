@@ -1,0 +1,1 @@
+strace ls /home/user/

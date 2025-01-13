@@ -1,0 +1,1 @@
+var available = m_AvailableDict.FirstOrDefault(p => p.Value == 0);\nif (available.Equals(default(KeyValuePair<Guid, int>)))\n{\n    // No match found\n}\nelse\n{\n    // Match found\n}

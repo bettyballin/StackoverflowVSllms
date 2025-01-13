@@ -1,0 +1,1 @@
+public class MyEntityMap : ClassMapping<Entity>\n{\n    public MyEntityMap()\n    {\n        Table(NHibernate.Cfg.Configuration.Instance.Properties["TablePrefix"] + "Entities");\n        // Other mappings...\n    }\n}

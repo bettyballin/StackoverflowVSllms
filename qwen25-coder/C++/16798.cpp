@@ -1,0 +1,1 @@
+#include <catch2/catch_all.hpp>\n\n// Example function to test\nint add(int a, int b) {\n    return a + b;\n}\n\nTEST_CASE("Addition works") {\n    REQUIRE(add(1, 1) == 2);\n    REQUIRE(add(-1, -1) == -2);\n    REQUIRE(add(0, 0) == 0);\n}

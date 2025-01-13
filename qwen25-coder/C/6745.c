@@ -1,0 +1,1 @@
+// Correct way to declare a function with no arguments\nvoid func(void);\n\n// Function definition with no arguments\nvoid func(void) {\n    // function body\n}

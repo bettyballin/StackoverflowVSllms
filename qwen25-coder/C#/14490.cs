@@ -1,0 +1,1 @@
+public static void RegisterRoutes(RouteCollection routes)\n{\n    routes.IgnoreRoute("{resource}.axd/{*pathInfo}");\n\n    // Map all routes with a .mvc extension\n    routes.MapRoute(\n        name: "Default",\n        url: "{controller}/{action}.mvc/{id}",\n        defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }\n    );\n}

@@ -1,0 +1,1 @@
+rsync -av /source/dir/ "/backup/location/$(date +%Y%m%d%H%M%S)/"

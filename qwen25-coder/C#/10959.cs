@@ -1,0 +1,1 @@
+using System.Net;\n\nvar client = new HttpClient();\nstring username = "yourusername";\nstring password = "yourpassword";\nclient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(Encoding.ASCII.GetBytes($"{username}:{password}")));\n\n// Now, use the 'client' to send PUT and DELETE requests

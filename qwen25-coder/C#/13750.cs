@@ -1,0 +1,1 @@
+authorsList.RemoveAll(x => x.firstname == "Bob");

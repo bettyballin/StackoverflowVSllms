@@ -1,0 +1,1 @@
+// MyCppDll.cpp\n   #include "MyCppDll.h"\n   #include <iostream>\n\n   extern "C" {\n       __declspec(dllexport) void InvokeMyFunction() {\n           MyClass myObject;\n           myObject.MyFunction(42);\n       }\n   }\n\n   MyClass::MyClass() {}\n\n   void MyClass::MyFunction(int value) {\n       std::cout << "The value is: " << value << std::endl;\n   }

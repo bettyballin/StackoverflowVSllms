@@ -1,0 +1,1 @@
+./scripts/get_maintainers.pl --file path/to/file.c

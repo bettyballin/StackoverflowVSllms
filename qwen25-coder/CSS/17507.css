@@ -1,0 +1,1 @@
+/* Example of using CSS Grid for simple layout */\n     .display-container {\n         display: grid;\n         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n         gap: 16px;\n     }

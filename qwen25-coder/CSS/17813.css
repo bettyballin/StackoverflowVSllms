@@ -1,0 +1,1 @@
+#container {\n    width: 800px;\n    margin: 0 auto;\n    display: flex; /* Key line for creating flexible layouts */\n}\n\n#leftbar {\n    width: 200px;\n}\n\n#rightbar {\n    width: calc(100% - 200px); /* Ensures the right bar takes up the remaining space */\n}

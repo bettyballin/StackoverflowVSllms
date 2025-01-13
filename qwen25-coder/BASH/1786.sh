@@ -1,0 +1,1 @@
+# Binding HTTPS in IIS\n   appcmd set site /site.name:"Default Web Site" /[protocol='https',bindingInformation='*:443:*'].sslFlags:0

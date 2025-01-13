@@ -1,0 +1,1 @@
+#!/bin/bash\n   ssh user@computer_name

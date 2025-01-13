@@ -1,0 +1,1 @@
+// Example function: insertion in a RB tree in cpp\nNode* insert(Node* root, int key) {\n    // Basic algorithm for insertion\n}

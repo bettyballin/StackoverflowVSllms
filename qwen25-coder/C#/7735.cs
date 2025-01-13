@@ -1,0 +1,1 @@
+using System;\nusing SimpleDav;\n\nclass Program\n{\n    static void Main()\n    {\n        var server = new WebDavServer(new FileSystemStore("C:\\Your\\VirtualFolder"));\n        server.Start(8080);\n        Console.WriteLine("WebDAV Server started on http://localhost:8080/");\n        Console.ReadLine();\n        server.Stop();\n    }\n}

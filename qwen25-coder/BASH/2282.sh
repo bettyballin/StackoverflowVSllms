@@ -1,0 +1,1 @@
+find oldcode/ -type f -exec ls -ls {} + | grep -v ' 0 '

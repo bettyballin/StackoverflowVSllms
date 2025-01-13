@@ -1,0 +1,1 @@
+#include <stdint.h> // Use <cstdint> if you're in C++\n\nvoid function(MESSAGE_ID id, void* param)\n{\n    if(id == FOO) {\n        uintptr_t real_param = (uintptr_t)param;\n        // You can now use real_param as an integer representation of the pointer\n        // Example: int value = (int)(real_param & 0xFFFFFFFF); // If you need to convert it to a 32-bit integer\n    }\n}

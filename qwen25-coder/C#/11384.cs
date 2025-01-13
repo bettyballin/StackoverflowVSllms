@@ -1,0 +1,1 @@
+var list = new List<string>(); // size is unknown initially\nforeach (var item in someDataSource)\n{\n    list.Add(item.ToString());\n}

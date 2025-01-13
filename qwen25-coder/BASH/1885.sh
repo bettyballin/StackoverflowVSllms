@@ -1,0 +1,1 @@
+# Attach the VHD file\nMount-VHD -Path "<path_to_your_vhd_file>"\n\n# List available drives to find where it is mounted\nGet-PSDrive | Where-Object {$_.Provider -like "*FileSystem*"}\n\n# Once done, detach the VHD\nDismount-VHD -Path "<path_to_your_vhd_file>"

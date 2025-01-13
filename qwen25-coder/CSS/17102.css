@@ -1,0 +1,1 @@
+/* Example for rotating a div */\n.slanted-div {\n    width: 200px;\n    height: 100px;\n    background-color: lightblue;\n    transform: skew(20deg, 10deg); /* Skew on both axes */\n}\n\n/* For image */\n.slanted-image {\n    transform: rotate(-45deg); /* Rotate the image by -45 degrees */\n}

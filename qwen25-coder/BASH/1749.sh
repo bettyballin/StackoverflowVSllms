@@ -1,0 +1,1 @@
+svn propset svn:ignore "WebInfo" /path/to/your/project

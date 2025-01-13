@@ -1,0 +1,1 @@
+.div1 {\n  position: relative;\n}\n\n.div1 .div3 {\n  position: absolute;\n  top: 30px;\n  left: 0px;\n  width: 250px;\n  display: none;\n  zoom: 1; /* Trigger hasLayout */\n}\n\n.div1:hover .div3 {\n  display: block;\n}\n\n.div2 {\n  width: 200px;\n  height: 30px;\n  background: red;\n}\n\n.div4 {\n  background-color: green;\n  color: #000;  \n}\n\n.div5 {}

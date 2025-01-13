@@ -1,0 +1,1 @@
+SqlCommand command = new SqlCommand("SELECT * FROM table", connection); // Assume connection is properly defined and opened\nusing (SqlDataReader data = command.ExecuteReader())\n{\n    while (data.Read())\n    {\n        DateTime birthday = data.GetDateTime(data.GetOrdinal("Birth"));\n        list.Add(birthday);\n    }\n}

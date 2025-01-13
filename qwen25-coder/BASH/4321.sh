@@ -1,0 +1,1 @@
+# Example: Quick start in Docker (simplified)\ndocker pull apache/kylin-v4:latest\ndocker run -d --name kylin -p 7070:7070 \\n-e KYLIN_REST_SERVICE_HOST=`hostname` \\n-d apache/kylin-v4:latest

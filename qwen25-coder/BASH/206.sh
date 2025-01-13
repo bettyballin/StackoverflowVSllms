@@ -1,0 +1,1 @@
+find /path/to/shared/folder/.svn -name "*\\.lock" -exec rm {} \;

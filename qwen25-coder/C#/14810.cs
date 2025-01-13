@@ -1,0 +1,1 @@
+using System.Xml.Linq;\n\nXDocument xdoc = new XDocument(\n    new XElement("p", new XCData("Hello, I am text &alpha; &nbsp; &ndash; &mdash;"))\n);\nstring xmlContent = xdoc.ToString();

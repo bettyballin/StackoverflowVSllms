@@ -1,0 +1,1 @@
+sudo systemctl restart apache2  # or `httpd` depending on your system

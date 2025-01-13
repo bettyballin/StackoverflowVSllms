@@ -1,0 +1,1 @@
+# Storing data in a HDFS directory\n     hdfs dfs -put localfile.txt /user/hdfs/remotefile.txt

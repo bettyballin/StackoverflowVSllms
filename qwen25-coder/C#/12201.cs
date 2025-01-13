@@ -1,0 +1,1 @@
+// Basic example of LINQ to SQL usage\nDataContext db = new DataContext(connectionString);\nvar result = from u in db.Users where u.IsActive select u;\nList<User> activeUsers = result.ToList(); // Converting the query to a list

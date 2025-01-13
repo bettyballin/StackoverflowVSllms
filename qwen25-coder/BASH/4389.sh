@@ -1,0 +1,1 @@
+iptables -t nat -A PREROUTING -p tcp --dport 1008 -j DNAT --to-destination <secondary-server-ip>:<target-port>

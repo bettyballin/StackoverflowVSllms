@@ -1,0 +1,1 @@
+#!/bin/sh\n\n# Define the header line\nHEADER="Column1,Column2,Column3"\n\n# Prepend the header to the existing CSV file\nsed -i "1s/^/$HEADER\n/" /path/to/your/file.csv

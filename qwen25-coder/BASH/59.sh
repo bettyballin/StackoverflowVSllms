@@ -1,0 +1,1 @@
+brew remove php@<version>

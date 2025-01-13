@@ -1,0 +1,1 @@
+svn diff --binary > mypatch.patch

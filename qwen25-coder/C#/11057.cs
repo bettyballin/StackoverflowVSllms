@@ -1,0 +1,1 @@
+// Assuming you have already generated your DataSet class (let's call it MyDataSet)\nMyDataSet dataSet = new MyDataSet();\n// You can fill this dataset using DataAdapters, etc.\n// The XSD content is encapsulated within MyDataSet class.

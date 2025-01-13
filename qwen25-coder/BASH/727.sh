@@ -1,0 +1,1 @@
+# Extracting only the hash from .md5 file and verifying against the actual file using md5sum -c\nawk '{ print $1 }' /path/to/your/dumpfile.gz.md5 | xargs -I {} md5sum -c /dev/stdin --status </path/to/your/dumpfile.gz

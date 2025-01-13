@@ -1,0 +1,1 @@
+// Before (requires admin privileges)\nString oldKeyPath = "HKEY_LOCAL_MACHINE\\Software\\YourApp";\n\n// After (accessible with standard user account)\nString newKeyPath = "HKEY_CURRENT_USER\\Software\\YourApp";

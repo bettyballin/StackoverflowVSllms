@@ -1,0 +1,1 @@
+using System.DirectoryServices.AccountManagement;\n\n    public void GetADData()\n    {\n        PrincipalContext context = new PrincipalContext(ContextType.Domain);\n        UserPrincipal user = UserPrincipal.FindByIdentity(context, "username");\n\n        if (user != null)\n        {\n            // Access properties on the user object.\n        }\n    }

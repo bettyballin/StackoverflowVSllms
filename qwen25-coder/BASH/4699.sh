@@ -1,0 +1,1 @@
+python -i myscript.py  # Start your script then enter the interpreter where you can use inspect.

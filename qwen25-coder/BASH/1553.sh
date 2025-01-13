@@ -1,0 +1,1 @@
+%windir%\system32\inetsrv\appcmd list app > C:\iis_backups\apps.txt

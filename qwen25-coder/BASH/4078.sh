@@ -1,0 +1,1 @@
+ulimit -c unlimited         # Enable core dumps\n   gdb /path/to/executable core  # Load a core dump in gdb

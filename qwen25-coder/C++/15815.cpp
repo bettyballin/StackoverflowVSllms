@@ -1,0 +1,1 @@
+#include <sstream>\n#include <string>\n\ntemplate <typename... Args>\ninline std::string FORMAT(Args&&... args) {\n    std::ostringstream oss;\n    (oss << ... << args);\n    return oss.str();\n}

@@ -1,0 +1,1 @@
+mcli dev wifi connect SSID password password

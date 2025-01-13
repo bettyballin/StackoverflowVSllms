@@ -1,0 +1,1 @@
+imapsync --host1 imap.gmail.com --user1 your-email@gmail.com --pass1 your-pass \\n            --host2 localhost --user2 your-local-user --pass2 your-local-pass \\n            --folder all \\n            --exclude "[Gmail]/All Mail"

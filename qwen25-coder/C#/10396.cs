@@ -1,0 +1,1 @@
+string currentUrl = Request.Url.Scheme + "://" + Request.Url.Authority + Request.Url.AbsolutePath;

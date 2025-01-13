@@ -1,0 +1,1 @@
+# Example of removing user from git repository access\n    git config --system credential.helper cache --timeout=3600

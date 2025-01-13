@@ -1,0 +1,1 @@
+string encodedFileName = System.Web.HttpUtility.UrlEncode(filename);\nResponse.ContentType = "application/zip";\nResponse.AddHeader("content-disposition", $"attachment; filename=\"{encodedFileName}\"");\n\nusing (ZipFile zip = new ZipFile(Response.OutputStream))\n{\n    // Add files to the zip and save them\n    zip.Save();\n}

@@ -1,0 +1,1 @@
+using System.Security.Permissions;\nusing Microsoft.Win32;\n\n// Example of requesting permission for reading and writing to registry.\nnew RegistryPermission(RegistryPermissionAccess.AllKeys, "HKEY_LOCAL_MACHINE").Demand();\nnew RegistryPermission(RegistryPermissionAccess.AllKeys, "HKEY_CURRENT_USER").Demand();\n\n// Your code to read/write/delete from the registry

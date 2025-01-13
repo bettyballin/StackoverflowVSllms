@@ -1,0 +1,1 @@
+#include <gtest/gtest.h>\n\n   TEST(FooTest, ShouldNotDereferenceNull) {\n       Foo* ptr = nullptr;\n       // Assert behavior when ptr is null\n       ASSERT_EQ(ptr->someFunction(), expectedValue);\n   }

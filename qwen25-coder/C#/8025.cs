@@ -1,0 +1,1 @@
+protected override void RenderContents(HtmlTextWriter output)\n{\n    output.Write("<div>");\n    output.Write("This is dynamically rendered content.");\n    output.Write("</div>");\n}

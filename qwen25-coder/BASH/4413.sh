@@ -1,0 +1,1 @@
+m4 /etc/mail/sendmail.mc > /etc/mail/sendmail.cf

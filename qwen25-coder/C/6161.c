@@ -1,0 +1,1 @@
+#include <stdio.h>\n\n// Define your enum and create a typedef\ntypedef enum Foo {\n   BAR,\n   BAZ\n} Foo;\n\n// Function declaration and definition using typedef\nFoo testFunc() {\n    return BAR; // Access enum values directly by their names\n}\n\nint main() {\n    if (testFunc() == BAR) {\n        printf("BAR\n");\n    }\n    return 0;\n}

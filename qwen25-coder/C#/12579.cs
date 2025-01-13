@@ -1,0 +1,1 @@
+// Example of simple data access using Entity Framework (EF)\nusing (var context = new YourDbContext())\n{\n    var results = context.YourTable\n                         .Where(x => x.SomeProperty == someValue)\n                         .ToList();\n}

@@ -1,0 +1,1 @@
+curl -X POST http://your-openfire-server:9090/plugins/restapi/v1/users \\n     -H "Authorization: Basic YWRtaW46cGFzc3dvcmQ=" \\n     -H "Content-Type: application/json" \\n     -d '{"username":"newuser", "password":"securepassword", "name":"New User"}'

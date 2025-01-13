@@ -1,0 +1,1 @@
+using System.Runtime.Serialization;\n\n[DataContract]\npublic class Product\n{\n    [DataMember]\n    public int Id { get; set; }\n    \n    [DataMember]\n    public string Name { get; set; }\n}

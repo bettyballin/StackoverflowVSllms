@@ -1,0 +1,1 @@
+# Update package lists\nsudo apt update\n\n# Install any software, for example, Python\nsudo apt install python3

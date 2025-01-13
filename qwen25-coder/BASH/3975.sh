@@ -1,0 +1,1 @@
+mysql -u uid -ppwd -D dbname --batch --raw --skip-column-names \\n    -e "SELECT id, CONCAT('\"', REPLACE(name, '\"', '\"\"'), '\",') as name FROM students" | sed 's/\t/,/g' > list.csv

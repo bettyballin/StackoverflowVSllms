@@ -1,0 +1,1 @@
+#include "svn_revision.h"\n#include <iostream>\n\nint main() {\n    std::cout << "Current SVN Revision: " << SVN_REVISION << std::endl;\n    return 0;\n}

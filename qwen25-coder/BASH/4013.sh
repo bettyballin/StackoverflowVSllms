@@ -1,0 +1,1 @@
+curl https://packages.microsoft.com/config/rhel/4/prod.repo > /etc/yum.repos.d/mssql-release.repo\n    sudo yum update

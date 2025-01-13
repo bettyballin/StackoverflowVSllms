@@ -1,0 +1,1 @@
+public interface ICacheProvider {\n    T Get<T>(string key);\n    void Set(string key, object data, int cacheTimeInSeconds);\n    bool IsInCache(string key);\n    void Invalidate(string key);\n}

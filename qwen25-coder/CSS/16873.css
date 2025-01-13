@@ -1,0 +1,1 @@
+iframe {\n    width: 100%;\n    height: 600px; /* Adjust according to your needs */\n    border: none;\n    overflow-y: scroll; /* Ensures vertical scrollbar is always visible */\n}

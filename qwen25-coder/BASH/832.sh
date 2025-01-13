@@ -1,0 +1,1 @@
+cpan install CGI::Application HTML::Template

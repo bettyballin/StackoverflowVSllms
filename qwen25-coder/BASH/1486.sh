@@ -1,0 +1,1 @@
+wmic /namespace:\\root\cimv2\sms path sms_fullinstalledpackages where "name like 'Microsoft .NET Framework%%'" get name,versio

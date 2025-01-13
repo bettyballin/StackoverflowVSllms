@@ -1,0 +1,1 @@
+bDecodedOutput[iBytesWritten++] = current.Uncoded1;\nbDecodedOutput[iBytesWritten++] = current.Uncoded0;

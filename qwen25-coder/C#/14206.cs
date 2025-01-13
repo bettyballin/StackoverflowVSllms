@@ -1,0 +1,1 @@
+cpcDS.tbl_cpcRow tr = new cpcDSTableAdapters.tbl_cpcTableAdapter().GetDataByCpcID(cpcID)[0];

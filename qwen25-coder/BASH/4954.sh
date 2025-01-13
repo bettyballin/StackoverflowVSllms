@@ -1,0 +1,1 @@
+# Set escape sequence to Ctrl-a then z (or another combination unlikely to be used)\nescape ^az

@@ -1,0 +1,1 @@
+// Example of a Windows Service in .NET Framework 3.5\nusing System.ServiceProcess;\n\npublic class MyService : ServiceBase\n{\n    protected override void OnStart(string[] args)\n    {\n        // Start the service.\n    }\n\n    protected override void OnStop()\n    {\n        // Stop the service.\n    }\n}

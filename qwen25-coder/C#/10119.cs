@@ -1,0 +1,1 @@
+MethodInfo methodInfo = typeof(int).GetMethod("ToString");\n   int myInt = 1;\n   string strValue = (string)methodInfo.Invoke(myInt, null); // Boxing required for Invoke

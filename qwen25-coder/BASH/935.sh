@@ -1,0 +1,1 @@
+./watching foo.txt bar.txt do scp {} somewhere.com:. and echo moved {} to somewhere

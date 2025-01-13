@@ -1,0 +1,1 @@
+using System.Web.UI;\n\npublic class NoSessionPage : Page\n{\n    public NoSessionPage()\n    {\n        this.EnableSessionState = SessionStateBehavior.Disabled;\n    }\n}

@@ -1,0 +1,1 @@
+gcc -c ctr1.c -o ctr1.o

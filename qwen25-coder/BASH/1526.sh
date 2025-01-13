@@ -1,0 +1,1 @@
+mkdir my-pear-channel\n   cd my-pear-channel

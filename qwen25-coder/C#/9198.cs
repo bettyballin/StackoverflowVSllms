@@ -1,0 +1,1 @@
+using (WindowsIdentity.Impersonate(IntPtr.Zero))\n   {\n       // Attempt your database operations here.\n   }

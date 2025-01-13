@@ -1,0 +1,1 @@
+sshfs username@remote:/path/to/directory /local/mountpoint

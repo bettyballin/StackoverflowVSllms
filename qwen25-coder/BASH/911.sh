@@ -1,0 +1,1 @@
+/mnt/usbstick/lua5.4/lua /mnt/usbstick/scripts/myscript.lua

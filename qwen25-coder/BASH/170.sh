@@ -1,0 +1,1 @@
+curl -sS https://getcomposer.org/installer | php\n   sudo mv composer.phar /usr/local/bin/composer

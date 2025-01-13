@@ -1,0 +1,1 @@
+if (HttpContext.Current != null)\n{\n    string path = HttpContext.Current.Server.MapPath($"~/{recipient}{FileExtension}");\n    // Proceed with saving XML as before...\n}\nelse\n{\n    throw new InvalidOperationException("HttpContext is not available in the current context.");\n}

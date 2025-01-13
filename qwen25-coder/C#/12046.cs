@@ -1,0 +1,1 @@
+public ActionResult Add([FromBody] YourModel model)\n{\n    // Save the record to the database\n    db.YourModels.Add(model);\n    db.SaveChanges();\n\n    // Refresh grid data\n    var updatedData = db.YourModels.ToList();\n    \n    return PartialView("GridPartial", updatedData);\n}

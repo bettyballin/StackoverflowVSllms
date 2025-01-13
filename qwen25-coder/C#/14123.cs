@@ -1,0 +1,1 @@
+List<ReportParameter> myParams = new List<ReportParameter>();\n\nmyParams.Add(new ReportParameter("Start_Date", null));\nmyParams.Add(new ReportParameter("End_Date", EndDate));\n\nReportViewer1.ServerReport.SetParameters(myParams);

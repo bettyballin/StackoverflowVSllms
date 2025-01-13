@@ -1,0 +1,1 @@
+/* Basic setup for body */\nbody {\n  font-family: Arial, sans-serif;\n}\n\n/* Style adjustments for smaller screens (e.g., mobile devices) */\n@media screen and (max-width: 600px) {\n  body {\n    font-size: 14px;\n  }\n}\n\n/* Style adjustments for larger screens (e.g., desktops) */\n@media screen and (min-width: 601px) {\n  body {\n    font-size: 16px;\n  }\n}

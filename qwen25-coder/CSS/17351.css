@@ -1,0 +1,1 @@
+.arrow {\n    font-family: Arial, Verdana, sans-serif;\n}\n\n.arrow::before {\n    content: '→';\n}\n\n.arrow-fallback {\n    background-image: url('right-arrow.png');\n    width: 10px; /* Set your dimensions */\n    height: 10px;\n    display: inline-block;\n}

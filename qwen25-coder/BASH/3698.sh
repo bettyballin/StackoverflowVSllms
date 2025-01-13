@@ -1,0 +1,1 @@
+export LD_LIBRARY_PATH=/usr/lib/gcc/i386-redhat-linux/4.3.2:$LD_LIBRARY_PATH

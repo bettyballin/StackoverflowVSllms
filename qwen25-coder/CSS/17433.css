@@ -1,0 +1,1 @@
+#newdiv-header, #newdiv-bodycontainer {\n    all: unset; /* Removes/reverts all inherited CSS properties */\n    margin: 0;\n    padding: 0;\n    border: none;\n    background-color: transparent;\n    font-size: 16px; /* Default font size */\n    color: black; /* Default text color */\n    line-height: normal;\n    box-sizing: content-box; /* Resets box sizing if needed */\n}

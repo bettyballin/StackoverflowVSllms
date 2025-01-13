@@ -1,0 +1,1 @@
+div {\n    width: 200px; /* Set the width of the div */\n    word-wrap: break-word; /* Use word-wrap to allow long words to be broken and wrap onto the next line */\n    /* or use the modern equivalent */\n    overflow-wrap: break-word;\n}

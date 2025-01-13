@@ -1,0 +1,1 @@
+catch (Exception ex)\n    {\n       // Log the error message somewhere for debugging purposes\n       System.Diagnostics.Debug.WriteLine(ex.Message);\n       // Optionally include StackTrace or InnerException if needed\n       System.Diagnostics.Debug.WriteLine(ex.StackTrace);\n    }

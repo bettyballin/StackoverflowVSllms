@@ -1,0 +1,1 @@
+partial void OnNameChanging(string value) {\n       if (string.IsNullOrEmpty(value)) {\n           throw new ArgumentException("Name is required.");\n       }\n   }\n   \n   partial void OnAgeChanging(int value) {\n       if (value < 18 || value > 100) {\n           throw new ArgumentOutOfRangeException(nameof(value), "Age must be between 18 and 100.");\n       }\n   }

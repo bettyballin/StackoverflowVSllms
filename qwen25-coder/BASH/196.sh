@@ -1,0 +1,1 @@
+cl /EHsc main.cpp /link /OPT:REF /OPT:ICF

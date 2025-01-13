@@ -1,0 +1,1 @@
+public interface ISessionManager\n   {\n       object Get(string key);\n       void Set(string key, object value);\n       void Remove(string key);\n   }

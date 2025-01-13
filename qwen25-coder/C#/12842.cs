@@ -1,0 +1,1 @@
+[ApiController]\n       [Route("[controller]")]\n       public class SampleController : ControllerBase\n       {\n           [HttpGet]\n           public IActionResult Get()\n           {\n               return Ok("Hello from ASP.NET Core!");\n           }\n       }

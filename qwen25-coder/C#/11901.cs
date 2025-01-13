@@ -1,0 +1,1 @@
+bool TryGetUserSessionID(int userID, out string? sessionId) {\n       sessionId = GetSessionFromStore(userID);\n       return !string.IsNullOrEmpty(sessionId);\n   }

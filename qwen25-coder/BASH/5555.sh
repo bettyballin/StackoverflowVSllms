@@ -1,0 +1,1 @@
+cd path/to/benchmarksql\ncp run_manager.sh benchmark_run.sh\n# Edit benchmark_run.sh to point your DB and other settings like number of clients, duration etc.\n./benchmark_run.sh

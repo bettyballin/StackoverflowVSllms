@@ -1,0 +1,1 @@
+System.Xml.XmlDocument oXmlDoc = new System.Xml.XmlDocument();\noXmlDoc.Load(Server.MapPath("xml.xml")); //load XML file\n\nXmlNode root = oXmlDoc.DocumentElement;\n\n// Add each node's name-value pair to the Session\nfor (int x = 0; x < root.ChildNodes.Count; x++)\n{\n    Session[root.ChildNodes.Item(x).Name] = root.ChildNodes.Item(x).InnerText;\n}

@@ -1,0 +1,1 @@
+shred -n 1 -z -u filename

@@ -1,0 +1,1 @@
+Product p = DALProduct.GetByID(2);\nstring nameInCurrentLanguage = p.Name;

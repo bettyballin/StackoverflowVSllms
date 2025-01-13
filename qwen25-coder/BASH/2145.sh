@@ -1,0 +1,1 @@
+# Open PowerShell and run the following command to check the value of DXROOT\necho $env:DXROOT

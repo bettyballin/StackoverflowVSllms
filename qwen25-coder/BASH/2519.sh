@@ -1,0 +1,1 @@
+gcc -fPIC -shared -o customfd.so customfd.c -ldl

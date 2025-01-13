@@ -1,0 +1,1 @@
+using System.Collections.Generic;\n\n// Example usage of SortedSet<long>\nSortedSet<long> numberSet = new SortedSet<long>(yourNumbers);\nbool containsNumber = numberSet.Contains(numberToFind);

@@ -1,0 +1,1 @@
+// Inside CommonLib/Utilities/DataOperations.cs\n\npublic static class DataOperations\n{\n    public static void MyMethod()\n    {\n        // Your 35 lines of code here, calling methods from DataAccessLayer\n        // Example:\n        // var result = DataAccessLayer.SomeMethod();\n    }\n}

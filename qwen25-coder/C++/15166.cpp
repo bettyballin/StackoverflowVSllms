@@ -1,0 +1,1 @@
+#include <iostream>\nusing namespace std;\n\n// Function prototype\nvoid printMessage();\n\nint main() {\n    // Using the function after its prototype declaration\n    printMessage();\n    return 0;\n}\n\n// Function definition\nvoid printMessage() {\n    cout << "Hello from a globally defined function!" << endl;\n}

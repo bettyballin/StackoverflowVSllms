@@ -1,0 +1,1 @@
+convert page_1.png page_2.png ... page_n.png -append output_merged.png

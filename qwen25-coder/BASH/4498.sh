@@ -1,0 +1,1 @@
+ssh localhost echo "hello"

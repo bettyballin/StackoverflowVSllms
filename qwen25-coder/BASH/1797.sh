@@ -1,0 +1,1 @@
+# See commits grouped by author\ngit shortlog -sn --all\n\n# Show details of a specific commit\ngit show <commit-hash>

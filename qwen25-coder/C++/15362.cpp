@@ -1,0 +1,1 @@
+// In your .vcxproj file or project settings:\nAdditionalIncludeDirectories=$(DXSDK_DIR)Include;%(AdditionalIncludeDirectories)\nAdditionalLibraryDirectories=$(DXSDK_DIR)Lib\x86;%(AdditionalLibraryDirectories)\n\n// Linker settings for DirectX 9 libraries:\nd3d9.lib\nd3dx9.lib

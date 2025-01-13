@@ -1,0 +1,1 @@
+catch (WebException ex)\n    {\n        string message = $"HTTP Status Code: {((HttpWebResponse)ex.Response)?.StatusCode} - {ex.Message}";\n        // Log the detailed error here, not show it to users.\n    }

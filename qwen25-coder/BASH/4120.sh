@@ -1,0 +1,1 @@
+sudo apt-get update\nsudo apt-get install certbot python3-certbot-apache\nsudo certbot --apache -d example.com -d www.example.com

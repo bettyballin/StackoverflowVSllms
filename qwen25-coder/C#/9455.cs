@@ -1,0 +1,1 @@
+using Microsoft.AspNet.SignalR;\n\nnamespace WebSite1.Hubs\n{\n    public class MyHub : Hub\n    {\n        public void SendMessage(string message)\n        {\n            Clients.All.receiveMessage(message);\n        }\n    }\n}

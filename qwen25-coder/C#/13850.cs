@@ -1,0 +1,1 @@
+string hql = "SELECT e FROM EventItem e " +\n             "WHERE :audienceId IN elements(e.AudienceList)";\n\nvar results = SessionInstance.Session.CreateQuery(hql)\n               .SetParameter("audienceId", myAudience.ID)\n               .List<EventItem>();

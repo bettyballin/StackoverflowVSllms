@@ -1,0 +1,1 @@
+public string StripStyles(string htmlContent)\n{\n    // Remove style attributes\n    System.Text.RegularExpressions.Regex regex = new System.Text.RegularExpressions.Regex("style=\"[^\"']*\"");\n    htmlContent = regex.Replace(htmlContent, "");\n\n    // Additional processing might be necessary to handle other unsupported styles or tags\n\n    return htmlContent;\n}

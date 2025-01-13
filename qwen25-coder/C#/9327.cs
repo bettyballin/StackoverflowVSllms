@@ -1,0 +1,1 @@
+Guid Something = Guid.NewGuid();

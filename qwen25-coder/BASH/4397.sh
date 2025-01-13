@@ -1,0 +1,1 @@
+#!/bin/sh\n\n# Define the header and temp file name\nHEADER="Column1,Column2,Column3"\nTEMPFILE=$(mktemp)\n\n# Add header to a new temporary file and append CSV contents\necho "$HEADER" > $TEMPFILE && cat /path/to/your/file.csv >> $TEMPFILE\n\n# Replace original file with the modified one\nmv $TEMPFILE /path/to/your/file.csv

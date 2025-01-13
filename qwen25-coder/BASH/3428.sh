@@ -1,0 +1,1 @@
+rm *.o main\n   gcc -c -g -Wall main.c\n   gcc -c -g -Wall logoff.c\n   gcc -o main -g -Wall main.o logoff.o

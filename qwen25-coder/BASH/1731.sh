@@ -1,0 +1,1 @@
+scp username@commercial_server:/path/to/dump.sql /local/path/

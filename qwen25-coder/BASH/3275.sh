@@ -1,0 +1,1 @@
+# Check that GCC exists and runs to verify the environment\ngcc --version\n\n# Try compiling one file to see it compiles successfully\ngcc -Wall -O -fomit-frame-pointer -finline-functions -nostdinc -fno-builtin -I./include -c -o system.o system.c

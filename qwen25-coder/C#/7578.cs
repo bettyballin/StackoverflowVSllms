@@ -1,0 +1,1 @@
+// Example usage in Visual Studio:\n// Use Diagnostic Tools window or Performance Profiler to capture CPU samples.

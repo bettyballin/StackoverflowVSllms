@@ -1,0 +1,1 @@
+LD_PRELOAD=./customfd.so ./your_program

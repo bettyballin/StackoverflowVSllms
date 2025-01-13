@@ -1,0 +1,1 @@
+curl -L https://cpanmin.us | perl - --local-lib=~/perl5 App::cpanminus\n   ~/perl5/bin/cpanm Module::Name

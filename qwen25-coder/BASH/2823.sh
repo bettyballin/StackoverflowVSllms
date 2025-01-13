@@ -1,0 +1,1 @@
+# Example mysqldump with UTF-8 encoding:\n   mysqldump --default-character-set=utf8mb4 your_database > backup.sql

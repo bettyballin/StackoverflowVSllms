@@ -1,0 +1,1 @@
+sudo chown svnadmin:svngroup /etc/svn-access-file\n   sudo chmod 640 /etc/svn-access-file

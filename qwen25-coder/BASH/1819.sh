@@ -1,0 +1,1 @@
+etstat -an | find "LISTENING"

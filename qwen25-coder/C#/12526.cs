@@ -1,0 +1,1 @@
+using (var context = new MyDbContext())\n{\n    var results = context.MyStoredProcedure(param1, param2).ToList();\n}

@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        MultiRangeValidator1.Ranges = new List<Tuple<int, int>>\n        {\n            Tuple.Create(100, 200),\n            Tuple.Create(500, 600)\n        };\n    }\n}

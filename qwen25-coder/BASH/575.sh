@@ -1,0 +1,1 @@
+curl -r 0-1023 http://example.com/remotefile

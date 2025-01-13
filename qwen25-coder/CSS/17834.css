@@ -1,0 +1,1 @@
+/* For a) */\nli.lower-alpha {\n    list-style-type: lower-alpha;\n}\n\nli.lower-alpha:before {\n    content: attr(data-label) ") ";\n}\n\n/* For (a) */\nli.paren-lower-alpha:before {\n    content: "(" attr(data-label) ") ";\n}\n\n/* For a. */\nli.dot-after-lower-alpha:before {\n    content: attr(data-label) ". ";\n}

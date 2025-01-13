@@ -1,0 +1,1 @@
+pdftk searchable_output_pdf*.pdf cat output combined_searchable_output.pdf

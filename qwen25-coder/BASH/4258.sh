@@ -1,0 +1,1 @@
+sqlcipher mysecrets.db

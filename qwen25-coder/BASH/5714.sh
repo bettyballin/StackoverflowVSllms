@@ -1,0 +1,1 @@
+@echo off\nset JAVA_HOME=C:\Path\To\Java\nset JAVA_OPTS=-Xms512m -Xmx1024m\n\ncall "%EXECUTABLE%" start %CMD_LINE_ARGS%

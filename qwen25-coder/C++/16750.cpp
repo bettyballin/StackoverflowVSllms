@@ -1,0 +1,1 @@
+// Pseudo-code, example of conditional inclusion in setup project\nvoid SetupProject_Initialize()\n{\n    if (TargetOSVersion < WindowsVista)\n    {\n        IncludeMergeModule("TabletPC_SDK_1.7.msm");\n    }\n}\n\nvoid IncludeMergeModule(string moduleName)\n{\n    // Logic to include merge module in the setup project\n}

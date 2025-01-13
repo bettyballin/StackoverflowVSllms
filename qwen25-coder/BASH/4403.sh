@@ -1,0 +1,1 @@
+git remote add origin http://your-git-server/project.git

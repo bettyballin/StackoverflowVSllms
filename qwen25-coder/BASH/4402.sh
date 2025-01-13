@@ -1,0 +1,1 @@
+cd /path/to/apache/source\n   ./configure --with-included-apr\n   make\n   sudo make install

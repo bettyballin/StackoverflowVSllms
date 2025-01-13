@@ -1,0 +1,1 @@
+class Program\n{\n    static void Main()\n    {\n        var example = new ExampleClass();\n        example.MyProperty = "Hello, World!"; // Setter usage\n        Console.WriteLine(example.MyProperty);  // Getter usage\n    }\n}

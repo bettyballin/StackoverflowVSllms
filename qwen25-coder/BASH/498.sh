@@ -1,0 +1,1 @@
+echo 'MAVEN_OPTS=-XX:MaxPermSize=128m -Xms128m -Xmx768m' | awk -F= '{printf "export %s=\"%s\"\n", $1, $2}'

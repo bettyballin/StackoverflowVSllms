@@ -1,0 +1,1 @@
+// Assuming 'textBoxValue' is the TextBox control containing the number\nstring textFromTextBox = textBox1.Text;\nif (decimal.TryParse(textFromTextBox, out decimal number))\n{\n    string formattedPercent = $"{number:P}";\n    // Output: 50.5 as "50.50 %"\n    MessageBox.Show(formattedPercent);\n}\nelse\n{\n    MessageBox.Show("Please enter a valid number.");\n}

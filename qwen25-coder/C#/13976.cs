@@ -1,0 +1,1 @@
+string query = "SELECT * FROM Users WHERE Username=@Username";\n   using (var command = new SqlCommand(query))\n   {\n       command.Parameters.AddWithValue("@Username", userInput);\n       // ... execute command ...\n   }

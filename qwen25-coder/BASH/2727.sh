@@ -1,0 +1,1 @@
+# Example of finding this book\n   wget http://www.infoq.com/minibooks/queinnec-lisp-book -P ~/books/

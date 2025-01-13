@@ -1,0 +1,1 @@
+<% using (Html.BeginForm("Edit", "PurchaseOrder", FormMethod.Post)) { %>\n    <table>\n        <!-- form fields here -->\n    </table>\n    <input type="submit" value="Save" />\n<% } %>

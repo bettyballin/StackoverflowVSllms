@@ -1,0 +1,1 @@
+void foo(const char *str) {\n    char buffer[64];\n\n    // Use sizeof(buffer) - 1 to leave room for the null terminator\n    strncpy(buffer, str, sizeof(buffer) - 1);\n    buffer[sizeof(buffer) - 1] = '\0';  // Ensure the string is null-terminated\n\n    printf("whoa: %s", buffer);\n}

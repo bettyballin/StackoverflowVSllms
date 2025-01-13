@@ -1,0 +1,1 @@
+using (FileStream fs = new FileStream("output.txt", FileMode.Create, FileAccess.Write))\n{\n    using (StreamWriter writer = new StreamWriter(fs, Encoding.UTF8))\n    {\n        // Your code to write to the file\n        writer.WriteLine("Your text here");\n    }\n}

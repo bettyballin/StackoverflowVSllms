@@ -1,0 +1,1 @@
+# Encrypt the appSettings section in web.config\naspnet_regiis -pe "appSettings" -app "/" -section "/configuration/appSettings"\n\n# Encrypt the connectionStrings section in web.config\naspnet_regiis -pe "connectionStrings" -app "/" -section "/configuration/connectionStrings"

@@ -1,0 +1,1 @@
+using System.Windows.Controls;\n\nnamespace YourNamespace\n{\n    public partial class GridUserControl : UserControl\n    {\n        public GridUserControl()\n        {\n            InitializeComponent();\n            \n            // Setup your data binding or initialization logic here\n        }\n    }\n}

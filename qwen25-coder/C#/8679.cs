@@ -1,0 +1,1 @@
+public partial class MyContentPage : BasePage\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        // Use base.dbConnection here\n    }\n}

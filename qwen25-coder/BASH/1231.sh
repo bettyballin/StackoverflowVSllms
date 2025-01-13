@@ -1,0 +1,1 @@
+smem -p -c "pid rss pss uss command"

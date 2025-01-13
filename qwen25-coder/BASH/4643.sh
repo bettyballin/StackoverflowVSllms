@@ -1,0 +1,1 @@
+-I"C:\Program Files (x86)\python\2.6\include"

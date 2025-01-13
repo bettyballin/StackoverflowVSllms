@@ -1,0 +1,1 @@
+[DefaultMemberAttribute("Main")]\npublic class Program {\n\n    public static void Main() {\n        ...\n    }\n}

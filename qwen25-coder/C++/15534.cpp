@@ -1,0 +1,1 @@
+#pragma GCC diagnostic push\n#pragma GCC diagnostic ignored "-Wdeprecated-declarations"\n\nchar *name = tempnam("/tmp", nullptr);\n\n#pragma GCC diagnostic pop

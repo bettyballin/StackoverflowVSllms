@@ -1,0 +1,1 @@
+#pragma pack(push, 1) // Set alignment to 1 byte\nstruct SomeStruct {\n    // ... (your full struct definition)\n};\n#pragma pack(pop) // Restore previous alignment

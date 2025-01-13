@@ -1,0 +1,1 @@
+// Install Tideways via Composer\n   composer require tideways/xhprof

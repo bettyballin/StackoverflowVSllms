@@ -1,0 +1,1 @@
+using System.Web.Http;\nusing System.Collections.Generic;\n\nnamespace YourNamespace.Controllers\n{\n    public class DataController : ApiController\n    {\n        // GET api/data\n        public IEnumerable<string> Get()\n        {\n            return new string[] { "value1", "value2" };\n        }\n    }\n}

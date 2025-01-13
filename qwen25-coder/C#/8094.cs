@@ -1,0 +1,1 @@
+public class MyClass {\n    public object Method1(string arg) {\n        // Implementation\n        return null;\n    }\n\n    public object Method1WithTwoParams(string arg1, string arg2) {\n        // Implementation\n        return null;\n    }\n}

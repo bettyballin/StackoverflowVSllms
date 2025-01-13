@@ -1,0 +1,1 @@
+scp C:\path\to\output\*.csv user@linuxserver:/path/to/destination/

@@ -1,0 +1,1 @@
+# Example command line usage of 7z to encrypt a folder named 'sensitive_data'\n"C:\Program Files\7-Zip\7z.exe" a -tzip sensitive_data.7z sensitive_data/ -mhe=on -pYourStrongPassword -mem=AES256

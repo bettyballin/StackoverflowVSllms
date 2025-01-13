@@ -1,0 +1,1 @@
+# Example Unix cron job for daily backups (PostgreSQL)\n  0 2 * * * pg_dump -U username dbname > /path/to/backup/dbname_$(date +\%Y\%m\%d).sql

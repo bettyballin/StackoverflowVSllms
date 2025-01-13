@@ -1,0 +1,1 @@
+[WebGet(UriTemplate = "{category}/?numItems={numItems}")]\npublic Atom10FeedFormatter GetFeedByCategory(string category, int numItems)\n{\n    // Decode the category if necessary\n    string decodedCategory = Uri.UnescapeDataString(category);\n    // Process the request...\n}

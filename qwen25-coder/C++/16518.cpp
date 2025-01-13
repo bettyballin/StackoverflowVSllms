@@ -1,0 +1,1 @@
+#include <vector>\n#include <iostream>\n\nint main() {\n    std::vector<int> vec;\n    for (int i = 0; i < 10; ++i) {\n        vec.push_back(i); // Efficiently add to the end\n    }\n\n    // Sequential read is fast due to contiguous memory\n    for (const auto& element : vec) {\n        std::cout << element << " ";\n    }\n}

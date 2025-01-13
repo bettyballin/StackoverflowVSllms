@@ -1,0 +1,1 @@
+awk 'NR>=105 && /host=/ {match($0,/\(host=([^\)]+)\)/,arr); print "Host: " arr[1]} \n     NR>=105 && /port=/ {match($0,/\(port=([^\)]+)\)/,arr); print "Port: " arr[1]}' .tnsnames.ora

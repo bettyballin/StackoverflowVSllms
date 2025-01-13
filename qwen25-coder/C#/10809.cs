@@ -1,0 +1,1 @@
+using (var context = new YourDbContext())\n{\n    var clientsWithNamesAndAddresses = context.Clients\n        .Select(c => new \n        { \n            c.Name, \n            c.Address \n        })\n        .ToList();\n}

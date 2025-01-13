@@ -1,0 +1,1 @@
+gcc -Wno-unsafe-temp-file your_code.c -o your_program

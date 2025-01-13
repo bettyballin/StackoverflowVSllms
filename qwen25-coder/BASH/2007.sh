@@ -1,0 +1,1 @@
+etsh advfirewall firewall add rule name="Allow Firebird" dir=in action=allow protocol=TCP localport=3050

@@ -1,0 +1,1 @@
+#include <memory>\nusing std::shared_ptr;

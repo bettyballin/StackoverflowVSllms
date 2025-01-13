@@ -1,0 +1,1 @@
+vcpkg install my-dll-name:x64-windows

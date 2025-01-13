@@ -1,0 +1,1 @@
+table td {\n  border: 1px solid black;\n}\n\ntable td:last-child {\n  border: none; /* or set it to whatever style you want for the last td */\n}

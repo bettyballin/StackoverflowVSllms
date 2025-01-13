@@ -1,0 +1,1 @@
+public class MyModel\n{\n    [NotEmptyIfRequired(ErrorMessage = "A value is required")]\n    public string MyStringField { get; set; }\n}

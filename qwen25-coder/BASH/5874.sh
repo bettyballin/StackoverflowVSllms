@@ -1,0 +1,1 @@
+# Step 1: Generate a private key\nopenssl genrsa -out server.key 2048\n\n# Step 2: Create a self-signed certificate using the private key\nopenssl req -new -x509 -key server.key -out server.crt -days 365 -subj "/C=US/ST=State/L=City/O=OrganizationName/OU=DepartmentName/CN=localhost"\n\n# Optional Step 3: Verify the created certificate\nopenssl x509 -in server.crt -text -noout

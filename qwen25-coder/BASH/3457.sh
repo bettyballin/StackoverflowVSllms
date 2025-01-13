@@ -1,0 +1,1 @@
+#!/bin/bash\n\nwhile true; do\n    iostat -x 1 2 | awk 'NR>6 && $1!="Device" {printf "Read: %sKiB/s, Write: %sKiB/s, util: %s%%\n", $5,$6,$NF;}' | tail -n 1 >> /var/log/iostat.log\n    sleep 30\ndone

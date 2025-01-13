@@ -1,0 +1,1 @@
+#define STB_IMAGE_WRITE_IMPLEMENTATION\n#include "stb_image_write.h"\n\n// Example usage:\nint width = 640;\nint height = 480;\nunsigned char data[width * height * 3]; // pixel data in RGB format\n\nstbi_write_jpg("output.jpg", width, height, 3, data, 90); // quality is set to 90

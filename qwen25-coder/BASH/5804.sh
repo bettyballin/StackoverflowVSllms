@@ -1,0 +1,1 @@
+diskutil info /dev/diskXsY | grep "Volume UUID"

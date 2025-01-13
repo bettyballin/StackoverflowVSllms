@@ -1,0 +1,1 @@
+template <typename DataType>\n    BST<DataType>::~BST()\n    {\n        clear(myRoot); \n    }\n    \n    template <typename DataType>\n    void BST<DataType>::clear(BinNodePointer subtree)\n    {\n        if (subtree != 0){\n            clear(subtree->left);\n            clear(subtree->right);\n            delete subtree;\n        }       \n    }

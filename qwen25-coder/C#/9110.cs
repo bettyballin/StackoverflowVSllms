@@ -1,0 +1,1 @@
+[HttpPost]\npublic ActionResult Edit(PurchaseOrdersView model) {\n    if (!ModelState.IsValid) {\n        // Add global error if necessary\n        ModelState.AddModelError("", "There were some errors in the form.");\n        return View(model);\n    }\n\n    // Business logic to update the purchase order\n\n    return RedirectToAction("Success");\n}

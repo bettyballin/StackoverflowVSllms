@@ -1,0 +1,1 @@
+// Example: Using MS Validation Block attribute\n[NotNullValidator(MessageTemplate = "Name is required.")]\npublic string Name { get; set; }

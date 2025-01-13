@@ -1,0 +1,1 @@
+#!/bin/sh\nexec sudo -u target_user "$@"

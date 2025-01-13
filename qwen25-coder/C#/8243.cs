@@ -1,0 +1,1 @@
+public ContentResult GetString()\n{\n    string myString = "Hello, world!";\n    return Content(myString);\n}

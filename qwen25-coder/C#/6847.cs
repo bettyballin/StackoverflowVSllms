@@ -1,0 +1,1 @@
+public partial class Default : System.Web.UI.Page {\n    protected void Page_Load(object sender, EventArgs e) {\n        if (!IsPostBack)\n            Session["myVarImSetting"] = "Session Value";\n        \n        Response.Write("Session[\"myVarImSetting\"] Set: " + Server.HtmlEncode(Session["myVarImSetting"].ToString()));\n    }\n}

@@ -1,0 +1,1 @@
+public class HomeController : Controller\n   {\n       [HttpGet]\n       public JsonResult CheckUserRole()\n       {\n           var userRoles = Roles.GetRolesForUser(User.Identity.Name);\n           return Json(new { IsAdmin = userRoles.Contains("Admin"), IsEditor = userRoles.Contains("Editor") }, JsonRequestBehavior.AllowGet);\n       }\n   }

@@ -1,0 +1,1 @@
+sed -n '/CREATE TABLE `your_table_name`/,/^UNLOCK TABLES;/p' full_backup.sql > restore_table_script.sql

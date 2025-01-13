@@ -1,0 +1,1 @@
+int price = dr.Field<int>("Price");

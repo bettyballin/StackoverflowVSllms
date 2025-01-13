@@ -1,0 +1,1 @@
+0 * * * * /usr/bin/php /path/to/purge_images.php > /dev/null 2>&1

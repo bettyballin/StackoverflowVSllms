@@ -1,0 +1,1 @@
+cscript %SYSTEMDRIVE%\inetpub\adminscripts\adsutil.vbs SET W3SVC/1/ScriptMaps/.aspx "%windir%\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll" 1

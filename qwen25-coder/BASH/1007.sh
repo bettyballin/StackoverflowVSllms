@@ -1,0 +1,1 @@
+# Navigate to your project directory where index.html and products.xml are located.\ncd path/to/your/project\n\n# Start a local server on port 8000\npython -m http.server 8000

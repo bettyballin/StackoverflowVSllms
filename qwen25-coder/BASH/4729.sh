@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# toggle_htaccess.sh\nif [ "$1" = "prod" ]; then\n    echo -e "# Production Settings\nAddType x-mapp-php5 .php" >> .htaccess\nelse\n    sed -i '/# Production Settings/,+1d' .htaccess\nfi

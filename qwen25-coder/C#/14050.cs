@@ -1,0 +1,1 @@
+var catalog = new DirectoryCatalog(@".\Plugins");\nvar container = new CompositionContainer(catalog);\n\n[ImportMany]\nprivate readonly ICollection<IMyInterface> m_Concretes;\n\n// Ensure this is called during composition process\ncontainer.ComposeParts(this);

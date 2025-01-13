@@ -1,0 +1,1 @@
+gcc -g -O2 -fdump-ipa-inline your_program.c -o your_program

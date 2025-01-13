@@ -1,0 +1,1 @@
+[Test]\npublic void SalesSummary_ShouldReturnCorrectModel()\n{\n    var controller = new DashboardController();\n    var result = (PartialViewResult)controller.SalesSummary();\n\n    var model = (SalesSummaryModel)result.Model;\n    Assert.AreEqual(25000.00M, model.TotalSales);\n}

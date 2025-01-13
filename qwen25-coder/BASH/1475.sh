@@ -1,0 +1,1 @@
+gacutil /i C:\path\to\your\adodb.dll

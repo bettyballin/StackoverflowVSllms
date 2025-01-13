@@ -1,0 +1,1 @@
+[Theory]\n[InlineData(null)]\n[InlineData("")]\npublic void MyMethod_should_fail_if_param_is_null_or_empty(string param)\n{\n    Assert.Throws<ArgumentNullException>(() => myclass.MyMethod(param));\n}

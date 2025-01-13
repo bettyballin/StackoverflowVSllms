@@ -1,0 +1,1 @@
+sqlcmd -S YourServerName -d Master -E -i "YourScript.sql" -v Db1Name="db1-production"

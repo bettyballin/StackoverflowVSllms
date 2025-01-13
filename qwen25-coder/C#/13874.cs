@@ -1,0 +1,1 @@
+using static App_Code.TestClass;\n\nnamespace SomeNamespace\n{\n    public class MainClass\n    {\n        public void Main()\n        {\n            bool result = Somefunc();\n            Console.WriteLine(result);\n        }\n    }\n}

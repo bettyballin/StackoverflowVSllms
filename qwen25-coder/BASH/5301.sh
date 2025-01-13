@@ -1,0 +1,1 @@
+@echo off\ndotnet YourProgram.dll\npause

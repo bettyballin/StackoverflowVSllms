@@ -1,0 +1,1 @@
+.parent {\n  position: relative;\n  height: 100vh;          /* Full viewport height for demonstration */\n}\n\n.child {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}

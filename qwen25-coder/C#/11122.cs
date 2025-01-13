@@ -1,0 +1,1 @@
+// Example of using .NET Framework's functionality (e.g., creating a thread)\n  using System.Threading;\n  Thread newThread = new Thread(new ThreadStart(ThreadMethod));\n  newThread.Start();

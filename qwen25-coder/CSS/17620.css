@@ -1,0 +1,1 @@
+/* Responsive text based on viewport width */\nh1 {\n    font-size: 5vw; /* Font size changes with the width of the viewport */\n}\n\np {\n    font-size: 2vw; /* Smaller font size, also responsive */\n}

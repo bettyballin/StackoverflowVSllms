@@ -1,0 +1,1 @@
+using Markdig;\n\npublic string ConvertMarkdownToHtml(string markdown)\n{\n    var pipeline = new MarkdownPipelineBuilder()\n        .UseAdvancedExtensions()\n        .Build();\n\n    // Convert the markdown text to HTML\n    var html = Markdown.ToHtml(markdown, pipeline);\n    \n    return html;\n}

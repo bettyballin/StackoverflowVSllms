@@ -1,0 +1,1 @@
+/* CSS for multi-column layout */\n.multi-column-list {\n    column-count: 3; /* Number of columns */\n    column-gap: 1.5em; /* Gap between columns */\n    list-style-type: none; /* Optional: Remove default list styling */\n    padding: 0; /* Optional: Reset padding */\n}\n\n/* For cases where CSS properties are not supported, consider using a polyfill or fall-back styles */

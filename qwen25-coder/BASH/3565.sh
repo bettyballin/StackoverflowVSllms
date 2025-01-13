@@ -1,0 +1,1 @@
+cat key-unencrypted.pem cert.pem > combined-cert-key.pem

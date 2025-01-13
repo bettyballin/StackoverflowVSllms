@@ -1,0 +1,1 @@
+$regPath = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\Domains\mysite.no"\nNew-Item -Path $regPath -Force | Out-Null\nSet-ItemProperty -Path "$($regPath)\www" -Name http -Value 1

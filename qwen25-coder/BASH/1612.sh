@@ -1,0 +1,1 @@
+windbg -p <pid>

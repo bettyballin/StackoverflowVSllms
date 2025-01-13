@@ -1,0 +1,1 @@
+protected void Application_Start(object sender, EventArgs e)\n{\n    try\n    {\n        // Your initialization code here\n    }\n    catch (Exception ex)\n    {\n        // Log the exception or handle it as appropriate\n        System.Diagnostics.Debug.WriteLine("Application_Start failed: " + ex);\n    }\n}

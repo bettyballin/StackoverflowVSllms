@@ -1,0 +1,1 @@
+#textContent, #anotherText {\n    display: inline-block;\n    padding: 5px; /* Optional: add some padding for aesthetics */\n    background-color: lightblue; /* Optional: just to see the div boundaries */\n}

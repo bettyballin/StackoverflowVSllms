@@ -1,0 +1,1 @@
+# Open command prompt as administrator and run:\n   %windir%\Microsoft.NET\Framework\v3.0\Windows Communication Foundation\ServiceModelReg.exe -i

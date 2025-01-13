@@ -1,0 +1,1 @@
+DateTime? closedDate = srRow.IsClosed_DateNull() ? (DateTime?)null : srRow.Closed_Date;

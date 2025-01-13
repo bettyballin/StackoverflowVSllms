@@ -1,0 +1,1 @@
+chmod 600 /etc/mysql/encryption/keyfile\nchown mysql:mysql /etc/mysql/encryption/keyfile

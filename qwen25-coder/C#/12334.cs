@@ -1,0 +1,1 @@
+using System;\n\nclass Program\n{\n    static void Main()\n    {\n        Uri uri = new Uri("http://localhost:5000/path?name=value");\n        string dnsSafeHost = uri.DnsSafeHost;\n        Console.WriteLine(dnsSafeHost); // Outputs: localhost\n    }\n}

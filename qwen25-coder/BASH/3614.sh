@@ -1,0 +1,1 @@
+pdftotext input.pdf - | wc -w

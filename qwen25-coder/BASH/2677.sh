@@ -1,0 +1,1 @@
+pt-online-schema-change --alter="ADD COLUMN new_column_name INT" D=your_database,t=your_table_name

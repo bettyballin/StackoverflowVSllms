@@ -1,0 +1,1 @@
+g++ -fPIC -c mylib.cpp -o mylib.o

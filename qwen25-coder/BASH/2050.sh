@@ -1,0 +1,1 @@
+rc-update add mysql default  # Add MySQL to the default runlevel\n     service mysql start           # Start MySQL\n     mysql_secure_installation    # Run the security script to set up the database administrator password, etc.

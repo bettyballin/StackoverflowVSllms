@@ -1,0 +1,1 @@
+/* Hide unwanted elements */\n   .hidden-on-print {\n       display: none;\n   }\n\n   /* Ensure background colors are shown correctly */\n   div {\n       background-color: initial !important;\n       opacity: 1 !important; /* Force the opacity to be full */\n   }

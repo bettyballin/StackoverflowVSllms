@@ -1,0 +1,1 @@
+public void InvokeHandler(string name, object obj, TcpClient client)\n{\n    if (handlers.TryGetValue(name, out var handler))\n    {\n        ((HANDLER_FUNC)handler.Item1).DynamicInvoke(obj, client);\n    }\n}

@@ -1,0 +1,1 @@
+FILES=$(ls)\necho $FILES | awk '{for(i=1;i<=10&&i<=NF;i++) printf "%s ", $i}'

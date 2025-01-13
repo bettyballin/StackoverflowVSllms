@@ -1,0 +1,1 @@
+protected void ResetAppDomainButton_Click(object sender, EventArgs e)\n{\n    try\n    {\n        // Recycle the Application Pool using HttpResponse\n        System.Web.HttpRuntime.UnloadAppDomain();\n        Response.Write("Application Domain is being recycled...");\n    }\n    catch (Exception ex)\n    {\n        Response.Write($"Error: {ex.Message}");\n    }\n}

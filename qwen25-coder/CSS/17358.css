@@ -1,0 +1,1 @@
+#outer {\n  display: flex;\n  justify-content: center; /* Centers the #inner div horizontally */\n}\n\n#inner {\n  /* Your styles for the inner div */\n}

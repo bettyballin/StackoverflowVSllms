@@ -1,0 +1,1 @@
+crontab -e\n\n# Add the following line:\n*/10 * * * * /usr/bin/php /path/to/your/email_sender_script.php

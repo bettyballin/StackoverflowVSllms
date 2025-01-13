@@ -1,0 +1,1 @@
+using (var db = Db4oEmbedded.OpenFile("yourDatabaseFile.db4o"))\n{\n    int n = 5; // number of records to retrieve\n    var allObjects = new List<MyObject>(db.Query<MyObject>());\n    var topNObjects = allObjects.GetRange(0, Math.Min(n, allObjects.Count));\n\n    foreach (var obj in topNObjects)\n    {\n        Console.WriteLine(obj);\n    }\n}

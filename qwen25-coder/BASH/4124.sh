@@ -1,0 +1,1 @@
+zenity --info --text="Hello, this is your message!"

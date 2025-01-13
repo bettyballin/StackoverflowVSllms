@@ -1,0 +1,1 @@
+// C# example - Simple class-based program\npublic class Calculator {\n    public int Add(int a, int b) => a + b;\n}

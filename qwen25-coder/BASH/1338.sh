@@ -1,0 +1,1 @@
+sudo trinity -o /path/to/output_dir

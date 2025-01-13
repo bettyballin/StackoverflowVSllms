@@ -1,0 +1,1 @@
+#include <windows.h>\n#include <stdio.h>\n\nint main() {\n    void* hModule = LoadLibrary("user32.dll");\n    if (hModule) {\n        printf("Loaded user32.dll successfully.\n");\n        FreeLibrary(hModule);\n    } else {\n        printf("Failed to load user32.dll, error: %lu\n", GetLastError());\n    }\n    return 0;\n}

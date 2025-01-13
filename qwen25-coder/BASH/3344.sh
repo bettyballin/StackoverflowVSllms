@@ -1,0 +1,1 @@
+openssl x509 -in certFile.pem -text -noout

@@ -1,0 +1,1 @@
+# Disable the module using drush\n  drush dis <module_name>

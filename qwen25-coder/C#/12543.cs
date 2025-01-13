@@ -1,0 +1,1 @@
+if (any is System.DBNull)

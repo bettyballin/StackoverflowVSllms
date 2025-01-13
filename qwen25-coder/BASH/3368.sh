@@ -1,0 +1,1 @@
+sudo chmod +x /var/www/cgi-bin/tabular.py\n   sudo chown www-data:www-data /path/to/output/directory  # Adjust user/group as needed for your setup

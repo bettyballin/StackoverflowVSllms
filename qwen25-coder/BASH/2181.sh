@@ -1,0 +1,1 @@
+export LIBPATH=./:$LIBPATH\n./your_applicatio

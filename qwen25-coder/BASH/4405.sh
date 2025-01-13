@@ -1,0 +1,1 @@
+gfortran -o a.out memory_wrapper.c leaky.f90 -lgfortran\nexport MALLOC_TRACE=`pwd`/raw.txt; ./a.out\nmtrace a.out raw.txt

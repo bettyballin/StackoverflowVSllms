@@ -1,0 +1,1 @@
+gcc -fno-inline-functions -shared -o libmylib.so mysource.c

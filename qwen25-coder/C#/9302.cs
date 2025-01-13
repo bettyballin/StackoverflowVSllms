@@ -1,0 +1,1 @@
+[ComVisible(true)]\n[Guid("ebc25cf6-9120-4283-b972-0e5520d0003F")] // Ensure this is a unique guid\npublic enum MyEnumType\n{\n    None = 0,\n    FirstOption = 1,\n    SecondOption = 2\n}

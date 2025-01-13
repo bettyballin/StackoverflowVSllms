@@ -1,0 +1,1 @@
+public ActionResult Action(string submitButtonName)\n{\n    if (submitButtonName == "prev")\n    {\n        // Handle 'prev' button click\n    }\n    else if (submitButtonName == "next")\n    {\n        // Handle 'next' button click\n    }\n\n    // Your logic here...\n\n    return PartialView("MyControl");\n}

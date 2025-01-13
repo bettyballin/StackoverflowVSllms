@@ -1,0 +1,1 @@
+prlimit --nofile=10240:20480 -- mysqldump --host otherhost -A | mysql

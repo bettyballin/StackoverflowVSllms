@@ -1,0 +1,1 @@
+string dateString = Label1.Text.Replace(" TT", "").Trim();

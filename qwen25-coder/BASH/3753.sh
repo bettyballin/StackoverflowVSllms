@@ -1,0 +1,1 @@
+# /etc/udev/rules.d/99-backup-usb.rules\nACTION=="add", ATTRS{idVendor}=="abcd", ATTRS{idProduct}=="1234", RUN+="/sbin/initctl emit backup-usb-inserted"

@@ -1,0 +1,1 @@
+psexec -u <username> -i msiexec.exe /x {14D74337-01C2-4F8F-B44B-67FC613E5B1F} /q

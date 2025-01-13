@@ -1,0 +1,1 @@
+// In your ASP.NET page or user control\nprotected void Page_Load(object sender, EventArgs e)\n{\n    lblPetName.ClientIDMode = System.Web.UI.ClientIDMode.Static; // or Predictable\n}

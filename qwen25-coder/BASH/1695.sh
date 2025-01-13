@@ -1,0 +1,1 @@
+cscript.exe adsutil.vbs set w3svc/DefaultAppPool/AppPoolRecycling/PeriodicRestart/Time 60:00:00

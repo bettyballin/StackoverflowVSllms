@@ -1,0 +1,1 @@
+#include <iostream>\n#include "PhpSerializer.hpp"\n\nint main() {\n    PHP::Value userData;\n    userData["username"] = "john_doe";\n    userData["email"] = "john@example.com";\n\n    std::string serializedData = userData.serialize();\n\n    std::cout << "Serialized data: " << serializedData << std::endl;\n\n    return 0;\n}

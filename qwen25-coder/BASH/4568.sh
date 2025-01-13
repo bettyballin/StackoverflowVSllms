@@ -1,0 +1,1 @@
+# Check write permission for /tmp\nls -ld /tmp\n\n# Check write permission for the target directory\nls -ld /home/username/Websites/website/photos/o/\n\n# Change ownership or group to www-data (common web user) if needed\nsudo chown -R www-data:www-data /home/username/Websites/website/photos/o/

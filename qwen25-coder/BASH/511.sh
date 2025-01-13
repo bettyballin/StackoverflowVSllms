@@ -1,0 +1,1 @@
+# Install encfs in Cygwin if not already done\nsudo apt-cyg install encfs\n\n# Create an encrypted filesystem\nencfs ~/.encrypted ~/unlocked\n\n# This will prompt you to set up a security configuration and password.

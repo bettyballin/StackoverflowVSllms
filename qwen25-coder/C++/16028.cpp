@@ -1,0 +1,1 @@
+int add(int a, int b) {\n    return a + b;\n}\n\ndouble add(int a, int b) {  // Error: redefinition of 'add'\n    return static_cast<double>(a + b);\n}

@@ -1,0 +1,1 @@
+# To open OleView from command line if added to PATH\nOleView.exe

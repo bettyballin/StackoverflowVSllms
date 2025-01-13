@@ -1,0 +1,1 @@
+@media print {\n  .your-scrollable-div-class {\n    overflow-x: visible !important;\n    width: auto !important;\n  }\n}

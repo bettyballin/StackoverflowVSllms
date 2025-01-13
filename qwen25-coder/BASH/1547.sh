@@ -1,0 +1,1 @@
+listdlls.exe [-d] [pid]

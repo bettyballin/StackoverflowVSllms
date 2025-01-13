@@ -1,0 +1,1 @@
+# Allow traffic from internal network\nsudo iptables -A INPUT -s 192.168.0.0/16 -j ACCEPT\n\n# Block all other traffic to the application port\nsudo iptables -A INPUT -p tcp --dport <application_port> -j DROP

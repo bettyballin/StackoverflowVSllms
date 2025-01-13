@@ -1,0 +1,1 @@
+Fred &fred = gFred[0];\nsize_t z = 0;\ndo {\n    fred = gFred[z];\n\n    // do odd processing with fred\n\n    z++;\n} while (fred.lastElementInSet == 0);

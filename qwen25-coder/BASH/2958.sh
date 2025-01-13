@@ -1,0 +1,1 @@
+chmod +x sync_project.sh\n./sync_project.sh

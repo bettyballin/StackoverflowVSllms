@@ -1,0 +1,1 @@
+hg ci -m "Resolved conflict in test.h"

@@ -1,0 +1,1 @@
+// MyCppLibWrapper.cpp\n   #include "MyCppLibWrapper.h"\n\n   void MyClass::CallCppMethod() {\n       SomeCppFunction();\n   }

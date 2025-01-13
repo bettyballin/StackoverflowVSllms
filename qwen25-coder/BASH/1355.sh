@@ -1,0 +1,1 @@
+svn checkout --depth=empty http://your-svn-repo/trunk/bin\ncd bin\nsvn update reporting\nsvn checkout http://your-svn-repo/trunk/lib/perl/MathUtilities.pm

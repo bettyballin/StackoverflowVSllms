@@ -1,0 +1,1 @@
+using System.IO;\n\nstring htmlContent = "<html><body><h1>Hello, World!</h1></body></html>";\nFile.WriteAllText("output.html", htmlContent);

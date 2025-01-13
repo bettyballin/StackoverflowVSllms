@@ -1,0 +1,1 @@
+/* opacity: 0 makes the element transparent */\n.element-opacity {\n    opacity: 0;\n}\n\n/* visibility: hidden hides the element but still occupies space */\n.element-visibility {\n    visibility: hidden;\n}

@@ -1,0 +1,1 @@
+setspn -A HTTP/tfs.dev.example.com DEV\TFSService

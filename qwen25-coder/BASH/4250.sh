@@ -1,0 +1,1 @@
+tar -zxvf gtk-2.0.1.tgz\n   cd gtk-2.0.1\n   phpize\n   ./configure\n   make

@@ -1,0 +1,1 @@
+pm run prod # for production (optimized files without source maps)

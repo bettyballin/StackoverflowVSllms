@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint main() {\n    printf("Hello, world!\n");\n    // Wait for user input before exiting\n    printf("Press any key to continue...");\n    getchar();\n    return 0;\n}

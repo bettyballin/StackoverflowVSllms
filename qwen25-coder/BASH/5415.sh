@@ -1,0 +1,1 @@
+sudo perf record ./my_program

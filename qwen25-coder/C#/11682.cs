@@ -1,0 +1,1 @@
+using FluentMigrator;\n\n[Migration(1)]\npublic class InitialSchema : Migration\n{\n    public override void Up()\n    {\n        Create.Table("Products")\n            .WithColumn("Id").AsInt32().PrimaryKey().Identity()\n            .WithColumn("Name").AsString().NotNullable();\n    }\n\n    public override void Down()\n    {\n        Delete.Table("Products");\n    }\n}

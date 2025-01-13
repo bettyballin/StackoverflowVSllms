@@ -1,0 +1,1 @@
+ulimit -s unlimited  # Set stack size to unlimited\n   ./your_program      # Run your program

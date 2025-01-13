@@ -1,0 +1,1 @@
+# Checkpoint a running container\ndocker checkpoint create my_container my_checkpoint\n\n# Stop the container (optional, but recommended)\ndocker stop my_container\n\n# Start from checkpoint on another host or the same host after reboot\ndocker start --checkpoint my_checkpoint my_container

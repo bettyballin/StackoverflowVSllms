@@ -1,0 +1,1 @@
+/* Ensure multiline events are positioned correctly */\n.multiline-events {\n    position: relative;\n}\n\n/* For the 'More' link */\ntd .more li {\n    background-color: plum; /* Use valid color values */\n    position: relative;\n    z-index: 1; /* Make sure multiline-events have a lower z-index */\n}

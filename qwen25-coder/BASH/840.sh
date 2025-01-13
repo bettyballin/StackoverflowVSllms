@@ -1,0 +1,1 @@
+echo 'http://www.suepearson.co.uk/product/174/71/3816/' | grep -oP '^https?://[^/]*/'

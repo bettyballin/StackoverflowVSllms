@@ -1,0 +1,1 @@
+protected void OrdersDataSource_Selecting(object sender, LinqDataSourceSelectEventArgs e)\n{\n    var dataSource = (List<Order>)Session["DataSource"];\n    \n    if (dataSource != null)\n    {\n        int pageIndex = OrdersGridView.PageIndex;\n        int pageSize = OrdersGridView.PageSize;\n\n        e.Result = dataSource.Skip(pageIndex * pageSize).Take(pageSize);\n    }\n}

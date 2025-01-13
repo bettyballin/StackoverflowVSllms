@@ -1,0 +1,1 @@
+# Installation commands for Blackfire (requires system-specific steps)\n   curl -A "Docker" -s https://blackfire.io/gpg.key | sudo apt-key add -\n   echo "deb http://packages.blackfire.io/debian any main" | sudo tee /etc/apt/sources.list.d/blackfire.list\n   sudo apt-get update && sudo apt-get install blackfire-php blackfire-agent

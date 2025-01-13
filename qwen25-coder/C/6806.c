@@ -1,0 +1,1 @@
+#include <fcntl.h>\n#include <sys/stat.h>\n#include <unistd.h>\n\nint main() {\n    // Open or create a file with write-only permissions\n    int fd = open("yourfile.txt", O_WRONLY | O_CREAT, S_IRUSR | S_IWUSR);\n\n    if (fd == -1) {\n        perror("open");\n        return 1;\n    }\n\n    // Do your writing here...\n\n    close(fd);\n    return 0;\n}

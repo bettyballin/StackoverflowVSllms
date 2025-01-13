@@ -1,0 +1,1 @@
+sudo apt-get install graphviz  # On Debian/Ubuntu-based systems

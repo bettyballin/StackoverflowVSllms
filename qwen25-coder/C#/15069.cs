@@ -1,0 +1,1 @@
+[System.Web.Services.WebMethod]\npublic static void UpdateTags(int pictureId, string[] tags)\n{\n    // Logic to update tags for the given picture id in your database\n}

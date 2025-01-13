@@ -1,0 +1,1 @@
+public interface IDataService\n    {\n        void LoadData();\n        MyDataSet GetDataSet();\n    }\n\n    public class DataService : IDataService\n    {\n        // Implementation...\n    }

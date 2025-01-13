@@ -1,0 +1,1 @@
+wget https://www.python.org/ftp/python/2.6/Python-2.6.tgz\ntar xzf Python-2.6.tgz\ncd Python-2.6\n./configure --enable-shared\nmake && make altinstall

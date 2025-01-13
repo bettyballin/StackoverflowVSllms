@@ -1,0 +1,1 @@
+# Add MIME types via PowerShell or directly in IIS Manager\n   # Example for adding .xap MIME type - adjust paths as necessary\n   Add-WebConfigurationProperty -pspath 'MACHINE/WEBROOT/APPHOST'  -filter "system.webServer/staticContent" -name "." -value @{fileExtension='.xap';mimeType='application/x-silverlight-app'}

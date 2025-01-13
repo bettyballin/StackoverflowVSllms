@@ -1,0 +1,1 @@
+sudo mkdir -p /mnt/nfs_share\n   sudo mount server_ip:/path/to/share /mnt/nfs_share

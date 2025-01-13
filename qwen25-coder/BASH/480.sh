@@ -1,0 +1,1 @@
+# Note: CodeCharge is not typically installed via package managers but downloaded from their website\n   wget http://www.codecharge.com/download/current/CodeChargeSetup.zip

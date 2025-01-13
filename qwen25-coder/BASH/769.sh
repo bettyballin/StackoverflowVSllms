@@ -1,0 +1,1 @@
+sed -E 's/(.*)(XYZ)(.*)/\2/' inputfile

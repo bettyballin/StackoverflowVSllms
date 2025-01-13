@@ -1,0 +1,1 @@
+signtool sign /t http://timestamp.digicert.com /fd sha256 /a "YourAppPath\YourApp.exe"

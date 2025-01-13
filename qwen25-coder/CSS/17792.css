@@ -1,0 +1,1 @@
+html {\n    font-size: 16px; /* Base size */\n}\n\nbody {\n    font-size: 1rem; /* Inherits from html */\n}\n\nh1 {\n    font-size: 2.5rem; /* 40px based on the base font size */\n}\n\np {\n    font-size: 1rem; /* Default size */\n}\n\n/* Specific sizing where needed */\n.sidebar p {\n    font-size: 0.9rem; /* Slightly smaller than default */\n}

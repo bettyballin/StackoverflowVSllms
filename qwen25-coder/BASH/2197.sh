@@ -1,0 +1,1 @@
+# Check the created rules\n   Get-NetFirewallRule -DisplayName "BlockIISInbound", "BlockIISOutbound"

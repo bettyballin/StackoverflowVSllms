@@ -1,0 +1,1 @@
+var myControl = new Device.Draco { ZuneColour = Brushes.Red };\n     // Add to a container\n     MyGrid.Children.Add(myControl);

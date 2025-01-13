@@ -1,0 +1,1 @@
+icacls "%DLL_LOC%"

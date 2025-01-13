@@ -1,0 +1,1 @@
+m_pLabel->SetText(description);\nCMDIFrameWndEx* pFrame = DYNAMIC_DOWNCAST(CMDIFrameWndEx, GetParentFrame());\nif (pFrame != NULL)\n{\n    pFrame->RecalcLayout(TRUE);\n    pFrame->RepaintRibbon();\n}

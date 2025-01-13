@@ -1,0 +1,1 @@
+Environment.SetEnvironmentVariable("TNS_ADMIN", @"C:\path\to\oracle\network\admin", EnvironmentVariableTarget.Process);

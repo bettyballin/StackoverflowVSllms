@@ -1,0 +1,1 @@
+foreach (RuleViolation issue in person.GetRuleViolations())\n{\n    ModelState.AddModelError(issue.PropertyName, issue.ErrorMessage);\n}

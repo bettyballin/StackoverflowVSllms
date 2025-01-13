@@ -1,0 +1,1 @@
+var server = new MjpegStreamServer();\nserver.StartListening("http://localhost:8080/");

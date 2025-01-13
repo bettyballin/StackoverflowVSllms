@@ -1,0 +1,1 @@
+# Import the WebAdministration module\nImport-Module WebAdministration\n\n# Get website settings\nGet-WebConfiguration -pspath 'IIS:\Sites\Default Web Site'\n\n# Set a property, e.g., changing physical path\nSet-ItemProperty IIS:\Sites\DefaultWebSite -Name PhysicalPath -Value "C:\NewPath"

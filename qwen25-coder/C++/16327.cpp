@@ -1,0 +1,1 @@
+try {\n    // Code that might throw an exception\n} catch (const std::exception& e) {\n    std::cerr << "Exception caught: " << e.what() << '\n';\n    // Log error and decide if graceful shutdown possible\n} catch (...) {\n    std::cerr << "Unknown exception caught\n";\n    // Handle other types of exceptions\n}

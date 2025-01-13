@@ -1,0 +1,1 @@
+process = new Process();\nprocess.StartInfo.FileName = batchFilePath;\nprocess.StartInfo.CreateNoWindow = true; // Prevents the window from appearing\nprocess.StartInfo.WindowStyle = ProcessWindowStyle.Hidden; // Ensures the window is hidden\nprocess.Start();

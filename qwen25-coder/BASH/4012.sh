@@ -1,0 +1,1 @@
+sudo yum update\nsudo yum install php-pear php-devel gcc make

@@ -1,0 +1,1 @@
+select, input:not(.myradio), td a {\n    border: 1px solid green;\n    width: 25%;\n    height: 25px;\n    font-size: 20px;\n    margin-left: 0.1em;\n}\n\ninput.myradio {\n    /* Remove or adjust properties to ensure visibility */\n    border: none; /* Consider removing if not needed for layout */\n    margin: 0; /* Adjust as necessary */\n}

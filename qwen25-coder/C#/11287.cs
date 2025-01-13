@@ -1,0 +1,1 @@
+routes.MapPageRoute("MyPageFromPage1", "MyPageFromPage1", "~/MyPage.aspx");\nroutes.MapPageRoute("MyPageFromPage2", "MyPageFromPage2", "~/MyPage.aspx");\nroutes.MapPageRoute("MyPageFromPage3", "MyPageFromPage3", "~/MyPage.aspx");

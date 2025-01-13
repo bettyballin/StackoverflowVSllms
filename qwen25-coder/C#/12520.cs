@@ -1,0 +1,1 @@
+// Example of using System.Text.Encoding to convert a string to UTF-8 bytes\nstring unicodeString = "Hello, world! 🌍";\nbyte[] utf8Bytes = System.Text.Encoding.UTF8.GetBytes(unicodeString);\n\n// Convert back from UTF-8 bytes to string\nstring decodedString = System.Text.Encoding.UTF8.GetString(utf8Bytes);

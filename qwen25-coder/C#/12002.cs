@@ -1,0 +1,1 @@
+FileStream file = File.Open("text.txt", FileMode.Create);

@@ -1,0 +1,1 @@
+using Prism.Events;\n\npublic class ErrorNotificationEvent : PubSubEvent<IEnumerable>\n{\n}

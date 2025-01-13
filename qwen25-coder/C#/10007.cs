@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        // Initialization code here\n    }\n}\n\nprotected void btnSubmit_Click(object sender, EventArgs e)\n{\n    if (Page.IsValid)\n    {\n        // Code to execute when form is valid after submission\n    }\n}

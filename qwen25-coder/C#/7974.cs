@@ -1,0 +1,1 @@
+using (var session = sessionFactory.OpenSession())\n{\n    // Execute raw SQL command\n    var affectedRows = session.CreateSQLQuery("YOUR_RAW_SQL_HERE")\n                             .ExecuteUpdate();\n}

@@ -1,0 +1,1 @@
+static void Main(string[] args)\n{\n    ServiceBase.Run(new MyService());\n}

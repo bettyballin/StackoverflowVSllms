@@ -1,0 +1,1 @@
+alignas(16) float data[4] = {1.0f, 2.0f, 3.0f, 4.0f};

@@ -1,0 +1,1 @@
+/* Clearfix: */\n.clearfix::after {\n   content: "";\n   clear: both;\n   display: table;\n}\n\n#container {\n   width: 100%;\n   min-height: 100vh; /* Full viewport height */\n   box-sizing: border-box;\n   overflow: hidden; /* To contain the floats */\n}

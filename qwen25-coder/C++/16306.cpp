@@ -1,0 +1,1 @@
+#include <iostream>\n\nvoid myFunction() {\n    void* ra = _AddressOfReturnAddress();\n    std::cout << "Return address: " << ra << std::endl;\n}\n\nint main() {\n    myFunction();\n    return 0;\n}

@@ -1,0 +1,1 @@
+gcc -fsanitize=address -o myprogram myprogram.c\n./myprogram

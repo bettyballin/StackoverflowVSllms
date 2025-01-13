@@ -1,0 +1,1 @@
+// Inside your Logout action method or wherever appropriate\nHttpContext.Session.Clear();\nFormsAuthentication.SignOut();\n\n// Redirect to login page if necessary\nResponse.Redirect("~/Login.aspx");

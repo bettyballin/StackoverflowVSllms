@@ -1,0 +1,1 @@
+// Example usage of nullptr\n   void* ptr = nullptr;

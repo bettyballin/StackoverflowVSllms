@@ -1,0 +1,1 @@
+echo "DBSERVERNAME     xxx" | sed -e 's/\(DBSERVERNAME\)[[:blank:]]\+/\\1    yyy/'

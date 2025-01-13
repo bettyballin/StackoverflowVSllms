@@ -1,0 +1,1 @@
+# Create a new hosted repository for artifacts\ncurl -u admin:admin123 --request POST \\n  'http://localhost:8081/service/rest/v1/repositories/maven/hosted' \\n  -H "accept: application/json" \\n  -H "Content-Type: application/json" \\n  -d '{"name": "my-artifacts", "online": true, "storage": {"blobStoreName": "default", "strictContentTypeValidation": false}}'

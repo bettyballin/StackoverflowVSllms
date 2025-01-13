@@ -1,0 +1,1 @@
+#logo {\n    display: block;\n    width: 326px;\n    height: 69px;\n    background-image: url(images/logo.gif);\n    background-repeat: no-repeat;\n    text-indent: -9999px; /* Hides the text but keeps it accessible */\n}\n#logo:hover {\n    background-image: url(images/logo-hover.gif);\n}

@@ -1,0 +1,1 @@
+// To launch VisualVM from command line if not already installed via JDK:\n   jvisualvm

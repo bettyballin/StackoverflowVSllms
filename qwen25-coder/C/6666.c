@@ -1,0 +1,1 @@
+int x = 0;\nx = x + 1; // This compiles to loading x, adding 1, storing result back to x\nx += 1;    // This also generally compiles similarly, potentially using a more direct increment operatio

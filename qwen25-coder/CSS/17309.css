@@ -1,0 +1,1 @@
+.menu {\n    display: grid;\n    grid-auto-flow: column; /* This makes the grid fill items left-to-right */\n    gap: 0; /* Adjust spacing between items if needed */\n}\n\n.menu-item {\n    background-color: #yourColor; /* Replace with your desired color */\n    width: 125px;\n    height: 30px;\n    text-align: center;\n    line-height: 30px; /* Centers text vertically */\n}

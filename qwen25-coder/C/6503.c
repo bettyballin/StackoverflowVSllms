@@ -1,0 +1,1 @@
+#include <stdatomic.h>\n#include <stdio.h>\n\nint main() {\n    atomic_intptr_t ptr;\n    int value = 42;\n\n    // Initializing atomic pointer with the address of 'value'\n    atomic_store(&ptr, (intptr_t)&value);\n\n    // Retrieving the value safely in another thread context\n    printf("Value: %d\n", *(int*)atomic_load(&ptr));\n\n    return 0;\n}

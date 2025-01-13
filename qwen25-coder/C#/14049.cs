@@ -1,0 +1,1 @@
+using (var request = WebRequest.Create(url) as HttpWebRequest)\n   {\n       // configure your request here\n\n       using (var response = request.GetResponse() as HttpWebResponse)\n       {\n           // handle your response here\n       }\n   }

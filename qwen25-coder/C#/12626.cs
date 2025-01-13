@@ -1,0 +1,1 @@
+public DateTime GetServerTimeAsUtc()\n{\n    return DateTime.UtcNow;\n}

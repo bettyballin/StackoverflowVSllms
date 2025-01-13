@@ -1,0 +1,1 @@
+brew install pdftk-java  # or use `pdftk-server` if you prefer

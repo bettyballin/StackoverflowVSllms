@@ -1,0 +1,1 @@
+// Example of enabling versioning on an S3 bucket using AWS CLI\naws s3api put-bucket-versioning --bucket my-bucket --versioning-configuration Status=Enabled

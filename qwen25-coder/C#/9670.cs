@@ -1,0 +1,1 @@
+var filePath = "path/to/your/datafile.txt";\nvar data = DataCache.GetData(filePath, TimeSpan.FromMinutes(5));

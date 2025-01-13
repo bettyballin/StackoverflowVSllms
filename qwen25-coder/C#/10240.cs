@@ -1,0 +1,1 @@
+void ParseId(string id, string varName) {\n      Console.WriteLine($"The value of {varName} is {id}");\n  }\n\n  // Usage\n  string myId = "12345";\n  ParseId(myId, nameof(myId));

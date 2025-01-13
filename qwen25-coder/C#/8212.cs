@@ -1,0 +1,1 @@
+var query = from dealer in db.Dealers\n            join contact in db.DealerContacts on dealer.DealerID equals contact.DealerID\n            select contact;

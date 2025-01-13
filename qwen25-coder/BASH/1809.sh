@@ -1,0 +1,1 @@
+cpan install LWP::UserAgent Image::Info

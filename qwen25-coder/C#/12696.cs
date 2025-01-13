@@ -1,0 +1,1 @@
+using (var db = new YourDataContext())\n{\n    // Call the stored procedure and get the result as an IEnumerable<YourReturnType>\n    var data = db.GetOuterData()\n                .ToList();  // Or any other enumeration method to process the results\n\n    foreach (var item in data)\n    {\n        Console.WriteLine(item);\n    }\n}

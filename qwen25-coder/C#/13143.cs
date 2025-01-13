@@ -1,0 +1,1 @@
+var config = ConfigurationManager.GetSection("recipients") as RecipientsSection;\n   if (config != null)\n   {\n       foreach (RecipientElement recipient in config.Recipients)\n       {\n           // Example usage:\n           if (recipient.Name == "support")\n           {\n               SmtpMsg.To.Add(new MailAddress(recipient.Email));\n           }\n       }\n   }

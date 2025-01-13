@@ -1,0 +1,1 @@
+html, body {\n    background: url(images/INF_pageBg.gif) repeat-y #777777;\n    text-align: center;\n    margin: 0; /* Ensure no default margin is affecting layout */\n}\n\n#container {\n    background-color: #ffffff;\n    width: 960px;\n    text-align: left;\n    margin: 0 auto;\n    position: relative; /* Optional, for further positioning if needed */\n}

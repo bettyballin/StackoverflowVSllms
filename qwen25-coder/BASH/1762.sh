@@ -1,0 +1,1 @@
+# Example of setting NTFS permissions using PowerShell, replace `<folderPath>` and `<UserName>`\nicacls "<folderPath>" /grant <UserName>:(OI)(CI)M

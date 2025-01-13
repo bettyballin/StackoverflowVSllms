@@ -1,0 +1,1 @@
+telnet xxx.xxx.xxx.xxx 1521

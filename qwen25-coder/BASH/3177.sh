@@ -1,0 +1,1 @@
+sudo cp /etc/resolv.conf /etc/resolv.conf.bak

@@ -1,0 +1,1 @@
+cd \inetpub\adminscripts\ncscript adsutil.vbs set /W3SVC/WAMUserPass "PasswordHere"\ncscript adsutil.vbs set W3SVC/AspEnableParentPaths 1

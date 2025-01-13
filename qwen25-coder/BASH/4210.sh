@@ -1,0 +1,1 @@
+ionice -c3 nice bzip2 yourfile

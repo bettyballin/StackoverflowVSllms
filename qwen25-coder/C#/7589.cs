@@ -1,0 +1,1 @@
+// Example of caching in ASP.NET Core\npublic void CacheData()\n{\n    var cacheEntryOptions = new MemoryCacheEntryOptions().SetSlidingExpiration(TimeSpan.FromMinutes(20));\n    _cache.Set("uniqueKey", valueToCache, cacheEntryOptions);\n}\n\n// Accessing the cached data\nvar cachedValue = _cache.Get<ValueType>("uniqueKey");

@@ -1,0 +1,1 @@
+gcc -E -dD -dI -dM your_source_file.cc > preprocessed_output.txt

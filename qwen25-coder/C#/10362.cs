@@ -1,0 +1,1 @@
+using NativeWrapperNamespace;\n\n   class Program {\n       static void Main(string[] args) {\n           NativeWrapper nw = new NativeWrapper();\n           nw.DoSomethingNative();\n       }\n   }

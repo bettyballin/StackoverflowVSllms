@@ -1,0 +1,1 @@
+// In project properties -> Custom Build Step -> General -> Command Line:\n\nmingw32-gcc.exe $(InputPath) -o $(TargetDir)$(TargetName)\n\n// Ensure you handle dependencies and outputs properly.

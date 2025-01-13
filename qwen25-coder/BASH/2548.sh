@@ -1,0 +1,1 @@
+gcc -Wunused-variable your_file.c -o your_program

@@ -1,0 +1,1 @@
+apt-get install imgdupes  # For Debian/Ubuntu systems

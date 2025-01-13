@@ -1,0 +1,1 @@
+amespace MyNamespace {\n       class MyClass { /* ... */ };\n       \n       void operation(MyClass& obj); // Non-member function\n   }

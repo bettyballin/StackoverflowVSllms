@@ -1,0 +1,1 @@
+// Example of registering a service in Orchard Core module\n   public override void ConfigureServices(IServiceCollection services)\n   {\n       services.AddScoped<MyCustomService>();\n   }

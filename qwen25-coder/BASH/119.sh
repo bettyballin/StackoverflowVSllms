@@ -1,0 +1,1 @@
+pdftotext -layout your_resume.pdf your_resume.txt

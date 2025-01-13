@@ -1,0 +1,1 @@
+private static IEnumerable<Range<int>> GenerateRanges()\n{\n    var r = new Random();\n    var n = 10000;\n    while (--n >= 0)\n    {\n        var start = r.Next(10000);\n        var end = r.Next(start, start + 500); // Limiting the range to make overlapping more likely\n        yield return Range.Create(start, end);\n    }\n}

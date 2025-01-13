@@ -1,0 +1,1 @@
+aspnet_regsql -S <server_name> -U <username> -P <password> -ssadd -sstype p

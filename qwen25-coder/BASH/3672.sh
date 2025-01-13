@@ -1,0 +1,1 @@
+svn copy https://svn.example.com/repo/branches/release-1.0 \\n        https://svn.example.com/repo/tags/release-1.0 \\n        -m "Tagging the 1.0 release."

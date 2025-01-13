@@ -1,0 +1,1 @@
+export TRACE_LEVEL_CLIENT=0

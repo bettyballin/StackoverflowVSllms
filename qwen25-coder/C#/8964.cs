@@ -1,0 +1,1 @@
+Response.ClearContent();\nResponse.ClearHeaders();\nResponse.Buffer = true;\nResponse.ContentType = "application/pdf"; // Remove charset=utf-8 for binary content like PDFs\nstring header = GetContentDispostionHeader(fileName, format, type);\nResponse.AddHeader("Content-Disposition", header);\nResponse.BinaryWrite(pdfbytes);         \nResponse.End();

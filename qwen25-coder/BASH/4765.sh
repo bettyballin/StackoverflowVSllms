@@ -1,0 +1,1 @@
+find PATH2/project -type f -exec perl -pi -e 's/Masi/Bond/g' {} +

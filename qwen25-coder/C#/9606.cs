@@ -1,0 +1,1 @@
+<#@ template language="C#" hostspecific="true" #>\n    <#@ output extension=".html" #>\n\n    <#\n        var myHost = (MyCustomHost) this.Host;\n        foreach (var obj in myHost.SelectedObjects)\n        {\n            // Use the objects here for your template generation\n    #>\n    <p>Object: <%= obj.ToString() %></p>\n    <#\n        }\n    #>

@@ -1,0 +1,1 @@
+md5sum /path/to/your/dumpfile.gz > /path/to/your/dumpfile.gz.md5

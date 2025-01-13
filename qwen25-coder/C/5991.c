@@ -1,0 +1,1 @@
+#include <Python.h>\n   #include <stdio.h>\n\n   int main() {\n       // Override Python home path programmatically\n       Py_SetPythonHome((wchar_t*)L"/path/to/your/custom/directory");\n\n       // Initialize Python interpreter with the overridden path\n       Py_Initialize();\n\n       // Additional code here...\n\n       Py_Finalize();\n       return 0;\n   }

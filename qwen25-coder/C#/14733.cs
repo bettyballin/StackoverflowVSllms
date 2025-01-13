@@ -1,0 +1,1 @@
+// Example Java Interface for Reporting Services\npublic interface ReportService {\n    public byte[] generateReport(ReportRequest request);\n}\n\n// Example WCF Service Contract in C#\n[ServiceContract]\npublic interface IReportService\n{\n    [OperationContract]\n    byte[] GenerateReport(ReportRequest request);\n}

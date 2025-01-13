@@ -1,0 +1,1 @@
+grep -oP '(?<=\*\*)[^\s\*]+(?=\*\* attr \()' filename

@@ -1,0 +1,1 @@
+sudo ip addr del 127.0.0.2/8 dev lo label lo:0\n   sudo ip addr del 127.0.0.3/8 dev lo label lo:1\n   # Repeat for all IPs you added

@@ -1,0 +1,1 @@
+// Pseudo-code for a hypothetical migration utility\n   public void MigrateFromMCMS(string mcmsSourcePath, string mossDestinationUrl) {\n       // Logic to map MCMS content to MOSS structure\n   }

@@ -1,0 +1,1 @@
+sudo rpm -Uvh http://dl.fedoraproject.org/pub/epel/5/x86_64/epel-release-5-4.noarch.rpm\n   sudo rpm -Uvh http://rpms.remirepo.net/enterprise/remi-release-5.rpm

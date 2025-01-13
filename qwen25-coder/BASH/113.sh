@@ -1,0 +1,1 @@
+runmqakm -cert -export -label "new_cert_label" -target "newcert.arm" -db "yourfile.kdb" -stashed

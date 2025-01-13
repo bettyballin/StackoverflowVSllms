@@ -1,0 +1,1 @@
+var sb = new System.Text.StringBuilder();\nsb.Append(a ?? "").Append(b ?? "");\nstring result = sb.ToString();

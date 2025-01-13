@@ -1,0 +1,1 @@
+sudo chmod g+s /server/staging

@@ -1,0 +1,1 @@
+#include <gtest/gtest.h>\n\n   // Example function to add two integers\n   int add(int a, int b) {\n       return a + b;\n   }\n\n   // Test case using Google Test\n   TEST(AdditionTest, PositiveNumbers) {\n       EXPECT_EQ(add(1, 2), 3);\n   }\n\n   int main(int argc, char **argv) {\n       ::testing::InitGoogleTest(&argc, argv);\n       return RUN_ALL_TESTS();\n   }

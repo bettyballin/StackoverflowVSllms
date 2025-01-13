@@ -1,0 +1,1 @@
+[WebMethod]\n   public string YourWebServiceMethod()\n   {\n       if (HttpContext.Current.Session == null || HttpContext.Current.Session.IsNewSession)\n       {\n           throw new HttpResponseException(System.Net.HttpStatusCode.Unauthorized);\n       }\n       \n       // Proceed with the method logic if session is valid\n       return "Your Method Logic Here";\n   }

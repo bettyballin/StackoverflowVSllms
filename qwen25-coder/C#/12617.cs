@@ -1,0 +1,1 @@
+public class MyAttribute : System.Attribute\n   {\n       public string Message { get; }\n       public MyAttribute(string message)\n       {\n           Message = message;\n       }\n   }

@@ -1,0 +1,1 @@
+ReorderPdfPages("source.pdf", "destination.pdf", new int[] { 3, 2, 1 });

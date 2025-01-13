@@ -1,0 +1,1 @@
+// MyCppClass.h\n#pragma once\n\nclass MyCppClass {\npublic:\n    int Add(int a, int b);\n};\n\n// MyCppClass.cpp\n#include "MyCppClass.h"\n\nint MyCppClass::Add(int a, int b) {\n    return a + b;\n}

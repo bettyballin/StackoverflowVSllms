@@ -1,0 +1,1 @@
+ssh username@pc_name\n   telnet pc_name  # Not secure; use with cautio

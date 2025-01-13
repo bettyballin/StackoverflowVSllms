@@ -1,0 +1,1 @@
+// Using LINQ with ThenInclude\n   var entities = session.Query<Entity>()\n                         .Fetch(e => e.RelatedEntity)\n                         .ToList();

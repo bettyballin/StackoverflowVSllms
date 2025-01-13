@@ -1,0 +1,1 @@
+// Simple structure for singly linked list node\nstruct LinkedListNode {\n    std::string key;\n    void* value; // or any other type you are using for values\n    LinkedListNode* next;\n\n    LinkedListNode(std::string k, void* v) : key(k), value(v), next(nullptr) {}\n};

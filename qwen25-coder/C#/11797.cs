@@ -1,0 +1,1 @@
+void ExampleMethod(ref int refParam, out int outParam)\n{\n    refParam = 10; // Changes the original value of refParam\n    outParam = 20; // Must assign a value before use\n}\n\nint a = 5;\nint b;\nExampleMethod(ref a, out b);\n// After calling ExampleMethod, a is 10 (changed by ref), and b is 20 (assigned by out)

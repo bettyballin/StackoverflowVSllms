@@ -1,0 +1,1 @@
+#Pictures {\n    position: absolute;\n    width: 591px;\n    height: 214px;\n    z-index: 1;\n    left: 17%;\n    top: 30%;\n    text-align: center; /* Ensures inline-block children are centered */\n}\n\n#Pictures > div {\n    display: inline-block;\n    vertical-align: middle;\n    text-align: center;\n}

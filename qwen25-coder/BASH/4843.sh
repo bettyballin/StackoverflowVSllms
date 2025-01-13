@@ -1,0 +1,1 @@
+/usr/bin/php -d include_path=/home/domain.com/public_html/cron/script.php /home/domain.com/public_html/cron/script.php

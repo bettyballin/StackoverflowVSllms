@@ -1,0 +1,1 @@
+using System.Collections.Generic;\n\npublic void AddProfilesToUsers(List<Tuple<string, Guid, string, string, int>> userList)\n{\n    foreach (var user in userList)\n    {\n        SetUserProfile(user.Item1, user.Item2, user.Item3, user.Item4, user.Item5);\n    }\n}

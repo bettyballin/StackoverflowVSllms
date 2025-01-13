@@ -1,0 +1,1 @@
+# Open Command Prompt as Administrator and run:\n   certutil -setreg ca\webflags +WEB_FLAG_ENABLE_SSL\n   iisreset

@@ -1,0 +1,1 @@
+public static void Register(HttpConfiguration config)\n{\n    var cors = new EnableCorsAttribute("*", "*", "*");\n    config.EnableCors(cors);\n\n    // Other configurations...\n}

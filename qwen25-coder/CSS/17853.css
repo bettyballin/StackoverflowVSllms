@@ -1,0 +1,1 @@
+.container {\n    display: flex;\n}\n\n.rowA, .rowB {\n    width: 100%;\n}\n\n.rowA {\n    background-color: #f4f4f4; /* Example for differentiation */\n}\n\n.rowB {\n    background-color: #e2e2e2; /* Example for differentiation */\n}

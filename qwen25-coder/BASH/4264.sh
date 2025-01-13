@@ -1,0 +1,1 @@
+# Using rsync over SSH for encrypted transfer\nrsync -avze ssh user@destination_host:/source/folder/ /destination/folder/

@@ -1,0 +1,1 @@
+HRESULT GetFunctionIdFromIP(ICLRProfilerInfo* pProfilerInfo, ULONG_PTR ip, FunctionID& functionId)\n{\n    DWORD dwOffset = 0;\n    return pProfilerInfo->GetFunctionFromIP(ip, &functionId, &dwOffset);\n}

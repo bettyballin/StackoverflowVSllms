@@ -1,0 +1,1 @@
+cd /etc/parselog/ && php run_all.php >> output.log 2>&1

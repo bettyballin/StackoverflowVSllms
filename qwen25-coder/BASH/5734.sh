@@ -1,0 +1,1 @@
+# Mount with aggressive inode and dentry caches\nmount -t nfs4 -o noac,rdirplus,proto=tcp server:/export/path /mnt/mountpoint

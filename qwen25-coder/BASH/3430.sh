@@ -1,0 +1,1 @@
+#!/bin/sh\n\n   FILE="/etc/svn-access-file"\n   REPO="/path/to/secure/location/svn-access-repo"\n\n   cd $REPO || exit 1\n   git fetch -q origin && git diff --quiet HEAD "$FILE" \\n     || (echo "Access file modified without proper commit!" | mail -s "SVN Access File Alert" admin@example.com)

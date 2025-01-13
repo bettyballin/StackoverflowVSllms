@@ -1,0 +1,1 @@
+# Install and use Assimp to check its samples:\n   # Visit: http://www.assimp.org/

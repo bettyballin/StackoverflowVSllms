@@ -1,0 +1,1 @@
+// Assuming you have a DataContext named 'dbContext' with a Table<Customer> property\n\n// SQL Equivalent: SELECT * FROM Customers WHERE City = 'London'\nvar londonCustomers = dbContext.Customers.Where(c => c.City == "London");

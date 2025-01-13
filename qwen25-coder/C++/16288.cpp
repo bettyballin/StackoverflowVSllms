@@ -1,0 +1,1 @@
+#define DLLAPI __declspec(dllexport)\n\nclass DLLAPI Base\n{\n    public:\n    virtual void B();\n};\n\nclass Derived : public Base\n{\n    public:\n    virtual void B();\n    virtual void D();\n};

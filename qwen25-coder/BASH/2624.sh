@@ -1,0 +1,1 @@
+while read -r id; do\n       az boards work-item update --id $id --project {projectName} --fields "Your Field=New Value"\n   done < workitemIds.txt

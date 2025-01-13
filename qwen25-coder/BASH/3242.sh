@@ -1,0 +1,1 @@
+# Download and install Syncthing from https://syncthing.net/\n   syncthing start\n   # Configure through the web interface at http://localhost:8384/

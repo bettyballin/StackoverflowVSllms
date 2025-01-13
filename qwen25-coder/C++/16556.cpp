@@ -1,0 +1,1 @@
+#include <vector>\n\ntemplate <class T>\nvoid Class::setData(std::vector<T> data) {\n    std::vector<T>::iterator it;\n    // Example of using the iterator\n    for (it = data.begin(); it != data.end(); ++it) {\n        // Do something with *it\n    }\n}

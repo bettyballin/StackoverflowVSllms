@@ -1,0 +1,1 @@
+html {\n    overflow-y: scroll; /* Ensures the vertical scrollbar is always present */\n}\n\nbody {\n    margin-right: 17px; /* Adjust as necessary based on scrollbar width in your browser */\n}

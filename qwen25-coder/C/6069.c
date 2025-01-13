@@ -1,0 +1,1 @@
+int addNumbers(int a, int b, int c) {\n    return a + b + c;\n}

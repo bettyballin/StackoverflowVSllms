@@ -1,0 +1,1 @@
+#include <sys/time.h>\n\nvoid some_function() {\n    struct timeval start, end;\n    gettimeofday(&start, NULL);\n    // Your code here\n    gettimeofday(&end, NULL);\n\n    double elapsed = (end.tv_sec - start.tv_sec) + \n                     (end.tv_usec - start.tv_usec) * 1e-6;\n    printf("Time used: %f seconds\n", elapsed);\n}

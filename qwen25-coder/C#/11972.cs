@@ -1,0 +1,1 @@
+Type myType = Type.GetType("MyNamespace.MyClass, MyAssembly", false);\nif (myType != null)\n{\n    // Proceed with creating an instance or invoking functionality\n    object instance = Activator.CreateInstance(myType);\n}

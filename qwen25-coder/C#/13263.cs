@@ -1,0 +1,1 @@
+using System;\nusing System.Runtime.InteropServices;\n\n[ComVisible(true)]\n[Guid("YOUR-GUID-HERE")]\n[InterfaceType(ComInterfaceType.InterfaceIsDual)]\npublic interface IMyInterface\n{\n    [DispId(1)]\n    string PropertyA { get; set; }\n\n    [DispId(2)]\n    string PropertyB { get; set; }\n}

@@ -1,0 +1,1 @@
+[ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]\n   public class YourService : IYourService Contract {\n     // Service Implementation\n   }

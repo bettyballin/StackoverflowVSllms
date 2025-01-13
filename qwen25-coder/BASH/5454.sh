@@ -1,0 +1,1 @@
+# Install diffoscope if not already installed\npip install diffoscope\n\n# Compare the two binaries\ndiffoscope spybotsd160.exe TestuffSetup.exe > comparison_output.txt

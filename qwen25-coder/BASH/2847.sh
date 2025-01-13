@@ -1,0 +1,1 @@
+php -v\n   php -m | grep posix

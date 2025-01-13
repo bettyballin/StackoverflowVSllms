@@ -1,0 +1,1 @@
+ssh user@remotehost "head -c 1024 /path/to/remotefile"

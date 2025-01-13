@@ -1,0 +1,1 @@
+%systemroot%\system32\inetsrv\metaback /e W3SVC/1/ROOT/YourVirtualDir metabackup.xml /pef "mb"

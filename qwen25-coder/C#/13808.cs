@@ -1,0 +1,1 @@
+int parsedValue = int.Parse("12345"); // No error handling here;

@@ -1,0 +1,1 @@
+sqlldr userid=your_username/your_password@database control=loader.ctl

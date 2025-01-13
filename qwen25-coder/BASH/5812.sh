@@ -1,0 +1,1 @@
+telnet oz.some.server.edu 465\n   # or\n   nc -vz oz.some.server.edu 465

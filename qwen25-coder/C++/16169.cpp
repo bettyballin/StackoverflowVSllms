@@ -1,0 +1,1 @@
+#include <functional>\n\nauto boundFunc = std::bind(&BigClass::PassThis, &bigClassInstance, std::placeholders::_1);\nMyFuncClass->MyFunc(GetNumber(), boundFunc.target<FILEINFO*(*)(FILEINFO*)>(), GetArgs(), TheType);

@@ -1,0 +1,1 @@
+using (SqlConnection conn = new SqlConnection(connectionString))\n   {\n       string query = "INSERT INTO YourTable (EditorContent) VALUES (@content)";\n       SqlCommand cmd = new SqlCommand(query, conn);\n       cmd.Parameters.AddWithValue("@content", editorContent); // No need to escape if using parameters\n       conn.Open();\n       cmd.ExecuteNonQuery();\n   }

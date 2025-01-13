@@ -1,0 +1,1 @@
+public class Country\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n}\n\npublic class City\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n    public int CountryId { get; set; }\n}

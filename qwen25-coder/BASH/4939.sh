@@ -1,0 +1,1 @@
+sudo systemctl daemon-reload\nsudo systemctl start myscript.service\nsudo systemctl enable myscript.service

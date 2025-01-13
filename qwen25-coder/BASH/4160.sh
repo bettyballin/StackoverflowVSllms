@@ -1,0 +1,1 @@
+chmod g+s /path/to/directory

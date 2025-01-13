@@ -1,0 +1,1 @@
+string s = "abcdefghab";\nchar[] repeatedChars = s.GroupBy(c => c).Where(g => g.Count() > 1).Select(g => g.Key).ToArray();

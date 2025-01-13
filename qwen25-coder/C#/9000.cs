@@ -1,0 +1,1 @@
+public class AppUser\n{\n    [Required(ErrorMessage = "UserId is required.")]\n    public string UserId { get; set; }\n}

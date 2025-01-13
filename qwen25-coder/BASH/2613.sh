@@ -1,0 +1,1 @@
+symchk /r c:\path\to\your\symbols /s SRV*c:\localcache*http://msdl.microsoft.com/download/symbols

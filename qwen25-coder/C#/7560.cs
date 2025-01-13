@@ -1,0 +1,1 @@
+// MyClass.cs\npublic class MyClass {\n    public void DoSomething() {\n        // Implementation\n    }\n}

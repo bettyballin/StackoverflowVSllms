@@ -1,0 +1,1 @@
+@echo off\nREM Set the directory to search in\nset "directory=C:\path\to\your\directory"\n\nREM Iterate over each file in the directory\nfor %%f in ("%directory%\*") do (\n    echo File path: %%f\n)\n\nREM If you want just the filename:\nfor %%f in ("%directory%\*") do (\n    echo Filename: %%~nxf\n)

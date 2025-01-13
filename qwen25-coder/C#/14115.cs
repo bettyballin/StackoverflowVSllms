@@ -1,0 +1,1 @@
+[CustomAuthorize]\npublic class MySecureController : Controller\n{\n    public ActionResult SomeAction()\n    {\n        // Access to some action that requires authorization.\n        return View();\n    }\n}

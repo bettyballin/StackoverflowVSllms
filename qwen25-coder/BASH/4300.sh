@@ -1,0 +1,1 @@
+csvcut -c 2,5,6 filename.csv

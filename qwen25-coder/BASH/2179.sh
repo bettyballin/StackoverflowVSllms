@@ -1,0 +1,1 @@
+MSBuild YourProject.vbproj /t:Rebuild /p:Configuration=Debug

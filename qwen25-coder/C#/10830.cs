@@ -1,0 +1,1 @@
+// Function to calculate the maximum number of comparisons in worst case for Selection Sort\npublic int CalculateWorstCaseComparisons(int n)\n{\n    return (n * (n - 1)) / 2;\n}

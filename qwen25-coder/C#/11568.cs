@@ -1,0 +1,1 @@
+public static void DisplayInheritanceHierarchy(Type type)\n{\n    if (type == null) return;\n    \n    Console.WriteLine(type.FullName);\n    DisplayInheritanceHierarchy(type.BaseType);\n}\n\n// Usage\nDisplayInheritanceHierarchy(typeof(System.Windows.Forms.MenuItem));

@@ -1,0 +1,1 @@
+public partial class MainWindow : Window\n{\n    public double ScalingFactor { get; set; } = 3.77952755906; // mm to DIP conversion factor\n    public double InverseScalingFactor => 1 / ScalingFactor;\n\n    public MainWindow()\n    {\n        InitializeComponent();\n        this.DataContext = this;\n    }\n}

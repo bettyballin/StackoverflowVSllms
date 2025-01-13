@@ -1,0 +1,1 @@
+private void YourControl_KeyDown(object sender, KeyEventArgs e)\n{\n    if (e.KeyCode == Keys.Enter)\n    {\n        // Suppress the Enter key so it doesn't trigger a click event on the default button\n        e.SuppressKeyPress = true;\n        e.Handled = true;\n    }\n}

@@ -1,0 +1,1 @@
+CString sQuery1 = "CREATE TABLE [Table1] ([ID] INT PRIMARY KEY, ...);";\nCString sQuery2 = "CREATE TABLE [Table2] ([ID] INT PRIMARY KEY, ...);";\n\n// Execute the first query\noDatabase.m_pConnection->Execute((_bstr_t)sQuery1, NULL, adCmdText);\n\n// Execute the second query\noDatabase.m_pConnection->Execute((_bstr_t)sQuery2, NULL, adCmdText);

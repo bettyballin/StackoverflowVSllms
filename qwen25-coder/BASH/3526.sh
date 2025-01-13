@@ -1,0 +1,1 @@
+paste -sd '\0' filename | sed 's/.\{320\}/&\n/g'

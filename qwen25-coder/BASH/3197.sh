@@ -1,0 +1,1 @@
+rrdtool create monitor.rrd --step 300 DS:cpu_usage:GAUGE:600:U:U RRA:AVERAGE:0.5:1:12

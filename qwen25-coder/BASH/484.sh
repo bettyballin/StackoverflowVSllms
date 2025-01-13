@@ -1,0 +1,1 @@
+put localfile.txt /path/on/windows/remotefile.txt  # Upload file\n   get /path/on/windows/remote_file.txt localfile.txt # Download file

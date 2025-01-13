@@ -1,0 +1,1 @@
+dumpbin /headers yourfile.dll | findstr /R /C:"File Version"

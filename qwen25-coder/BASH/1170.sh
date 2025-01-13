@@ -1,0 +1,1 @@
+# Example .htaccess or httpd.conf configuration to add Cache-Control: public\n<FilesMatch "\.(js|css)$">\n    Header set Cache-Control "public"\n</FilesMatch>

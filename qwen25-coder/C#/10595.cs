@@ -1,0 +1,1 @@
+public class YourModel\n   {\n       public int ID { get; set; } = 0; // Or some default value\n       // Other properties\n   }

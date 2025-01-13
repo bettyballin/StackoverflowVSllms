@@ -1,0 +1,1 @@
+public void ManagedMethod(string productName, string version)\n{\n    // Use the passed product name and version here\n    Console.WriteLine($"Product Name: {productName}, Version: {version}");\n}

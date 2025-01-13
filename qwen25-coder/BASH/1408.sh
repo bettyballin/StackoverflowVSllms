@@ -1,0 +1,1 @@
+pip install fuzzywuzzy\npip install python-Levenshtein # For better performance

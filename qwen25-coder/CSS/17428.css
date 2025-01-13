@@ -1,0 +1,1 @@
+.clearfix:after {\n        content: ".";\n        display: block;\n        height: 0;\n        clear: both;\n        visibility: hidden;\n    }\n    .clearfix {display: inline-block;} /* for IE/Mac */\n    * html .clearfix {height: 1%;} /* hasLayout fix for IE6 */\n    .clearfix {display: block;} /* resets display for good measure */

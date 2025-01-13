@@ -1,0 +1,1 @@
+# Example command to convert GeoJSON to another format or perform transformations\n   ogr2ogr -f GeoJSON output.json input.shp

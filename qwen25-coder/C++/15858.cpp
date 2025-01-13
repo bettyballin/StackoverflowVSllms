@@ -1,0 +1,1 @@
+// In ClientApp.cpp\n#include "MyDll.h"\n#include <iostream>\n\nint main() {\n    MyClass myObject;\n    myObject.DoSomething();\n    return 0;\n}

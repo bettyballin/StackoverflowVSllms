@@ -1,0 +1,1 @@
+class PluginBase {\npublic:\n    void* operator new(size_t size) {\n        return ::operator new(size);\n    }\n\n    void operator delete(void* ptr) noexcept {\n        ::operator delete(ptr);\n    }\n};

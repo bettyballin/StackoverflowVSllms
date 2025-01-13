@@ -1,0 +1,1 @@
+%windir%\system32\inetsrv\appcmd set apppool /apppool.name:"YourAppPoolName" /enable32BitAppOnWin64:true

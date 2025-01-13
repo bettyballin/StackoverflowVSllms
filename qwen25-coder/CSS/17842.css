@@ -1,0 +1,1 @@
+#status.unreviewed {\n  float: right;\n  position: relative;\n  cursor: pointer;\n  color:#FFFFFF;\n  font-size: 1.8em;\n  top: 10px;\n  padding: 3px 4px; \n  background-color: #DA704B;\n}\n\n#status.unreviewed img {\n  float: right;\n}

@@ -1,0 +1,1 @@
+// Example of a simple GET request in ASP.NET Core MVC\n   [HttpGet("{id}")]\n   public IActionResult Get(int id)\n   {\n       var product = new { Id = 1, Name = "Sample Product", Price = 9.99 };\n       if (product == null)\n       {\n           return NotFound();\n       }\n       return Ok(product);\n   }

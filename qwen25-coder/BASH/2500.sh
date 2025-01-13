@@ -1,0 +1,1 @@
+awk -F, '{match($1, /voltage:\s*([0-9]*\.?[0-9]*)V/, arr); print (arr[1] ? arr[1] : "")}' input.csv > output.txt

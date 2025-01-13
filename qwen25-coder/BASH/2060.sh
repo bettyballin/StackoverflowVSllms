@@ -1,0 +1,1 @@
+#!/bin/sh\n\n# Find files in ./logs_dir that are older than 58 minutes\nfind ./logs_dir -type f -mmin +58 -print

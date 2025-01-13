@@ -1,0 +1,1 @@
+.my_link {\n    color: blue; /* Default link color */\n    text-decoration: none; /* Remove default underline */\n    cursor: pointer; /* Change cursor to a pointing hand */\n}\n\n.my_link:hover {\n    text-decoration: underline; /* Underline on hover */\n}\n\n.my_link:active {\n    color: red; /* Change color when active (clicked) */\n}

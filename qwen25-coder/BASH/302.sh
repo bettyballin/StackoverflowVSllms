@@ -1,0 +1,1 @@
+sudo apt update\n   sudo apt install nodejs npm -y  # For Debian/Ubuntu based systems\n   brew install node               # For macOS using Homebrew

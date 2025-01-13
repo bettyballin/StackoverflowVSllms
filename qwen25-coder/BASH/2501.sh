@@ -1,0 +1,1 @@
+mysql -u username -p dbname < path_to_your_script.sql

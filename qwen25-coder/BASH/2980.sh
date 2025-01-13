@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Ensure only scp writes are allowed\nif [[ "$SSH_ORIGINAL_COMMAND" =~ ^scp\ -t\ /allowed/path/ ]]; then\n    exec $SSH_ORIGINAL_COMMAND\nelse\n    echo "Access denied"\n    exit 1\nfi

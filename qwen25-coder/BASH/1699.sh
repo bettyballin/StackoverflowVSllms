@@ -1,0 +1,1 @@
+":put" | w !tee /path/to/your/outputfile

@@ -1,0 +1,1 @@
+ol {\n    list-style-position: inside;\n}\n\nli {\n    padding-left: 30px; /* Adjust this value based on your needs */\n    min-width: 250px;  /* Ensure the text does not wrap under the number */\n}

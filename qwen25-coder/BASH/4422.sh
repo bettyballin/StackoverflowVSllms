@@ -1,0 +1,1 @@
+# Review catalina.out or appropriate log files\n   cat <tomcat_logs_directory>/catalina.out

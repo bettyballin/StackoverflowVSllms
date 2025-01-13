@@ -1,0 +1,1 @@
+public class Service1 : ServiceBase {\n    public Service1() { ... }\n    protected override void OnStart(string[] args) { ... } // Your service start logic\n}\n\npublic partial class Form1 : Form {\n    public Form1() { InitializeComponent(); }\n    private void button_Click(object sender, EventArgs e) { ... } // GUI interaction methods\n}

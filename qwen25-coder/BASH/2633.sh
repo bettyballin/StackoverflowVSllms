@@ -1,0 +1,1 @@
+sudo pecl install memcached --with-libmemcached-dir=/opt/local

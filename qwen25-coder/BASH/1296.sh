@@ -1,0 +1,1 @@
+#!/bin/bash\nconvert "$1" -resize 200x200 - | base64

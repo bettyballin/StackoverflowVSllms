@@ -1,0 +1,1 @@
+// Example of setting up cross-region replication\naws s3api put-bucket-replication --bucket my-source-bucket --replication-configuration file://replication-config.jso

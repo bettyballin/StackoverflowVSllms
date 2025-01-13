@@ -1,0 +1,1 @@
+mysqldump -u username -p --no-data dbname > db_schema.sql

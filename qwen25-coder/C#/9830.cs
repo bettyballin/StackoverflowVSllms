@@ -1,0 +1,1 @@
+MyDatabaseDataContext db = new MyDatabaseDataContext("your_connection_string_here");

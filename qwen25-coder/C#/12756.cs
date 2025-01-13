@@ -1,0 +1,1 @@
+byte[] imageData = File.ReadAllBytes("image.jpg");

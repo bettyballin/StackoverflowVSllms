@@ -1,0 +1,1 @@
+var query = from c in db.Customers\n            join o in db.Orders on c.ID equals o.CustomerID\n            where c.City == "New York"\n            orderby o.OrderDate\n            select new { c.Name, o.OrderDate };

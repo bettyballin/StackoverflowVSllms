@@ -1,0 +1,1 @@
+/* Targeting input button specifically */\ninput[type="button"], input[type="submit"] {\n    -webkit-box-sizing: border-box; /* For Safari and Chrome */\n    -moz-box-sizing: border-box; /* Firefox */\n    box-sizing: border-box;\n    padding: 10px 20px; /* Your desired padding values here */\n    width: auto; /* Ensure width is not set to 100% or a fixed value */\n}

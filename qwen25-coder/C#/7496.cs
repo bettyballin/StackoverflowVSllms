@@ -1,0 +1,1 @@
+string saveHtml = "<p>Preserve this <strong>HTML</strong>.</p>";\n   SPListItem item = spList.AddItem();\n   item["MyField"] = SPSecurity.CodeToRunWithContext(new CodeToRunElevated(() => {\n       return SPHttpUtility.HtmlEncodeAllowSimpleText(saveHtml);\n   }));

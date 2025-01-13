@@ -1,0 +1,1 @@
+# Initialize Elastic Beanstalk Application & Environment\n$ eb init -p java my-java-app\n# After configuring your AWS resources and credentials\n$ eb create my-env\n# Deploy application from local directory\n$ eb deploy

@@ -1,0 +1,1 @@
+public Outlook.Folder GetSpecificFolder(string entryId, string storeId)\n{\n    Outlook.Application oApp = new Outlook.Application();\n    Outlook.NameSpace oNS = oApp.GetNamespace("mapi");\n    Outlook.MAPIFolder folder = oNS.GetFolderFromID(entryId, storeId);\n\n    return (Outlook.Folder)folder;\n}

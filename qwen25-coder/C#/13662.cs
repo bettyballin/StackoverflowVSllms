@@ -1,0 +1,1 @@
+theDoc.Rect.Height = -1; // Use -1 for the full height of the document\n   theDoc.AddImageHtml(callUrl);

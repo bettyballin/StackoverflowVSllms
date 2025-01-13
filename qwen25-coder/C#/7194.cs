@@ -1,0 +1,1 @@
+public class MockShell : IShell\n{\n    // Implement IShell interface with necessary members\n}\n\n[TestMethod]\npublic void TestApplicationBootstrappingWithModules()\n{\n    var bootstrapper = new MyBootstrapper();\n    bootstrapper.Run();\n\n    Assert.IsTrue(bootstrapper.Modules.Any(), "No modules were loaded.");\n}

@@ -1,0 +1,1 @@
+<td><%= Html.TextBox("Date") %></td>\n<td><%= Html.TextBox("City") %></td>\n<%:Html.Hidden("id", Model.Id) %> <!-- Assuming Model.Id is your integer value -->

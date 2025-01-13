@@ -1,0 +1,1 @@
+int[] indicesToRemove = {2, 1}; // Indices of the columns to be removed\n\nforeach (var index in indicesToRemove.OrderByDescending(i => i))\n{\n    rh.dsDetail.Tables[0].Columns.RemoveAt(index);\n}

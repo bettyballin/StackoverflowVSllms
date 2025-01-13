@@ -1,0 +1,1 @@
+( head -n 1 yourfile.txt | sed 's/ /_/g'; tail -n +2 yourfile.txt ) > newfile.txt

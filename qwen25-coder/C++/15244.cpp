@@ -1,0 +1,1 @@
+#include <iostream>\n\nint main() {\n    std::cout << "Size of int: " << sizeof(int) * 8 << " bits" << std::endl;\n    std::cout << "Size of long: " << sizeof(long) * 8 << " bits" << std::endl;\n    std::cout << "Size of float: " << sizeof(float) * 8 << " bits" << std::endl;\n    std::cout << "Size of double: " << sizeof(double) * 8 << " bits" << std::endl;\n    return 0;\n}

@@ -1,0 +1,1 @@
+pear install PEAR_PackageFileManager2 PEAR_ChannelServer Archive_Tar Console_GetoptPlus XML_Feed_Parser

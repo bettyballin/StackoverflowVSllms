@@ -1,0 +1,1 @@
+ssh -X -C -o ForwardX11Trusted=yes -o ForwardX11Timeout=600 user@hostname

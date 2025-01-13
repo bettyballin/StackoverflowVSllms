@@ -1,0 +1,1 @@
+using System;\n\nnamespace ConsoleAppTest\n{\n    class Program\n    {\n        static void Main(string[] args)\n        {\n            Console.WriteLine("Hello, World!");\n            Console.ReadLine(); // Prevents the console from closing immediately.\n        }\n    }\n}

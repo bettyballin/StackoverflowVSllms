@@ -1,0 +1,1 @@
+#!/bin/bash\n\n   export LOGFILE="logs/$(basename $0)-$(basename $1).$(date +%F--%R).log"

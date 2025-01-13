@@ -1,0 +1,1 @@
+# Blackfire.io offers a paid service and provides detailed profiling information\n   # Xdebug can be used locally for debugging and profiling PHP applications\n   pecl install xdebug

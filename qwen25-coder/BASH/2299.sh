@@ -1,0 +1,1 @@
+xtrabackup --backup --target-dir=/path/to/incremental_backup --incremental-basedir=/path/to/full_backup

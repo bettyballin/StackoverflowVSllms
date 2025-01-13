@@ -1,0 +1,1 @@
+private string GetAsCsv(Func<CheckBox, string> getValue)\n{\n    return string.Join(",", SelectedCheckBoxes.Select(getValue));\n}

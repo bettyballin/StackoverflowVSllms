@@ -1,0 +1,1 @@
+git checkout -b new-feature\n    git checkout -b fix-bug-x

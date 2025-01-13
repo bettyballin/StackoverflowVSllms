@@ -1,0 +1,1 @@
+using System.Collections.Generic;\n\npublic static bool IsProcessSupported(List<string> runningProcesses, HashSet<string> supportedProcesses)\n{\n    foreach (var process in runningProcesses)\n    {\n        if (supportedProcesses.Contains(process))\n        {\n            return true;\n        }\n    }\n    return false;\n}

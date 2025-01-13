@@ -1,0 +1,1 @@
+@echo off\n:: Prompt for the date\nset /P input_date=Enter the date (YYYY-MM-DD): \n\n:: Call bcp to export data using SQLCMD to provide parameters\nbcp "exec YourDatabaseName.dbo.ExportDataByDate '%input_date%'" queryout "C:\path\to\exported_data.csv" -w -T -c -t,

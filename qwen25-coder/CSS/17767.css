@@ -1,0 +1,1 @@
+/* Targeting IE7 with an additional style */\n* html textarea {\n    margin-left: -100px !important; /* Adjust this value if necessary */\n}

@@ -1,0 +1,1 @@
+git clone https://github.com/cr-marcstevens/sha1collisiondetection.git\ncd sha1collisiondetection/\nmake\nsudo make install

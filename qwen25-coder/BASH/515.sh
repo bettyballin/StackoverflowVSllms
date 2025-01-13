@@ -1,0 +1,1 @@
+gpg --output test.so.sig --sign test.so

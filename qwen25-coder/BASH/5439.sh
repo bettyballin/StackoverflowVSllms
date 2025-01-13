@@ -1,0 +1,1 @@
+# Install Datadog Agent on Linux\n   sudo sh -c 'DD_API_KEY=<YOUR_DATADOG_API_KEY> bash -s datadOG' 'https://get.datadoghq.com/linux/install.sh'

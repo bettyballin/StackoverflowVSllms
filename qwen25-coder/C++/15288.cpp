@@ -1,0 +1,1 @@
+// In your derived CWnd class:\nBOOL YourDerivedClass::PreTranslateMessage(MSG* pMsg)\n{\n    // Redirect all unhandled messages to another object\n    if (!HandleMyOwnMessages(pMsg)) {\n        return m_pOtherObject->PreTranslateMessage(pMsg);\n    }\n    return CWnd::PreTranslateMessage(pMsg);\n}

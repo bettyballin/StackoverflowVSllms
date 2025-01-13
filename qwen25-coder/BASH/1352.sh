@@ -1,0 +1,1 @@
+C:\Path\To\Your\Folder\regsvr32 C:\Path\To\Your\Folder\foo.dll

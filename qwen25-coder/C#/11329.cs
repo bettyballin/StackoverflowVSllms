@@ -1,0 +1,1 @@
+var list = parentTable.AsEnumerable()\n    .Where(pr => pr.Field<string>("Value") == "foo")\n    .SelectMany(pr => pr.GetChildRows(dataRelationName))\n    .AsEnumerable();

@@ -1,0 +1,1 @@
+composer require rafaelw90/php-console-table

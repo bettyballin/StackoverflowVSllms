@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint foo(char *c)  { \n    // Function implementation using c...\n    return 0;\n}\n\nint main() {\n     int (*thud)(void *);\n     \n     // Convert the function pointer of foo to match thud's expected type\n     thud = (int (*)(void *))foo;\n\n     // You could also write this as:\n     // thud = (int (*)(void *))(&foo);\n\n     return 0;\n}

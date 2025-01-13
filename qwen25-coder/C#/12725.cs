@@ -1,0 +1,1 @@
+protected void Page_Init(object sender, EventArgs e)\n{\n    Response.Cache.SetExpires(DateTime.UtcNow.AddMinutes(-1));\n    Response.Cache.SetCacheability(HttpCacheability.NoCache);\n    Response.Cache.SetNoStore();\n}

@@ -1,0 +1,1 @@
+using (var dbProvider = new DatabaseQueryProvider("YourConnectionStringKey"))\n{\n    using (var command = dbProvider.GetCommand("YourQueryKey"))\n    {\n        // Set parameters, execute, etc.\n    }\n}

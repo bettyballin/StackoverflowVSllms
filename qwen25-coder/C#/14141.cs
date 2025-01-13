@@ -1,0 +1,1 @@
+[System.Web.Services.WebMethod]\n    public static string UpdateControl(string newValue)\n    {\n        // Perform operations here with the sent data and return response\n        return "Updated Value is: " + newValue;\n    }

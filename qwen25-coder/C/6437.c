@@ -1,0 +1,1 @@
+#include <arm_neon.h>\n\nvoid invalidate_cache_range(unsigned long start, unsigned long end) {\n    for (unsigned long i = start & ~(0x3F); i < end; i += 64)\n        __asm volatile ("dc civac, %0" : : "r"(i));\n}

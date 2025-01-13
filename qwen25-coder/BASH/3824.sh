@@ -1,0 +1,1 @@
+sudo mv /u01/app/oracle/product/18.0.0/dbhomeXE /u01/app/oracle/product/18.0.0/dbhomeXE_backup

@@ -1,0 +1,1 @@
+.form-group {\n    margin-bottom: 15px;\n}\n\nlabel {\n    display: block;\n    margin-bottom: 5px;\n}\n\ninput[type="text"],\ninput[type="email"] {\n    width: 100%;\n    padding: 8px;\n    box-sizing: border-box;\n}

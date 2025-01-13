@@ -1,0 +1,1 @@
+#include <windows.h>\n\n// Example of HANDLE usage\nHANDLE handle = CreateFile(\n    "example.txt", GENERIC_READ, 0, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);\n\n// Example of HFILE usage (legacy)\nHFILE hfile = _lopen("example.txt", OF_READ);

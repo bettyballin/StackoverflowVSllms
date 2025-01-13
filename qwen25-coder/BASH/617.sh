@@ -1,0 +1,1 @@
+latex2txt -nocode your_resume.tex > your_resume.txt

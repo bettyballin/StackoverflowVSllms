@@ -1,0 +1,1 @@
+table#event_calendar td,\ntable#event_calendar th {\n    border: 1px solid red;\n}\n\n/* Optionally, if you want the header row to stand out or have different styling */\ntable#event_calendar tr.calendarHeader th {\n    /* You can specify additional styles here if needed */\n}

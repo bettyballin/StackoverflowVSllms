@@ -1,0 +1,1 @@
+[Table(Name = "UserProfile")]\n   public class UserProfile {\n       // ... properties here\n   }\n\n   public partial class YourDataContext : DataContext {\n       [Table(Name = "UserProfile")]\n       public Table<UserProfile> UserProfiles;\n   }

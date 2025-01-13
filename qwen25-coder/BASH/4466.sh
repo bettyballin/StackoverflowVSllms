@@ -1,0 +1,1 @@
+sudo apt-get install dos2unix  # For Debian-based systems\nsudo yum install dos2unix      # For Red Hat-based systems

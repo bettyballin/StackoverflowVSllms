@@ -1,0 +1,1 @@
+#### For a Database Server:\n- Use the respective command-line tool to dump the database. For PostgreSQL, it would be something like:

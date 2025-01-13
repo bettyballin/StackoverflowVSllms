@@ -1,0 +1,1 @@
+[AcceptVerbs(HttpVerbs.Post)]\npublic ActionResult GenericPostHandler(NewAccountInfo info, string previousView)\n{\n    try\n    {\n        // Use the previousView variable as needed.\n        Persist();\n        \n        return RedirectToAction(StepManager.GetNextStep(previousView));\n    }\n    catch\n    {\n        return View();\n    }\n}

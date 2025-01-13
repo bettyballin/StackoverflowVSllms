@@ -1,0 +1,1 @@
+string[] instances = PerformanceCounterCategory.GetInstanceNames(categoryName);\nforeach (var instance in instances)\n{\n    Console.WriteLine("Service Instance: {0}", instance);\n}

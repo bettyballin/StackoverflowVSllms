@@ -1,0 +1,1 @@
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)\n{\n    if (env.IsDevelopment())\n    {\n        app.UseDeveloperExceptionPage();\n    }\n\n    app.Use(async (context, next) =>\n    {\n        context.Response.Headers.Add("X-XRDS-Location", "http://example.com");\n        await next();\n    });\n\n    // Other middleware registrations...\n}

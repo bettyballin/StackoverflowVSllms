@@ -1,0 +1,1 @@
+# Install on Debian/Ubuntu: sudo apt-get install jpegoptim\n# Install on macOS via Homebrew: brew install jpegoptim\n\n# Example usage:\njpegoptim -s -m50 image.jpg  # Optimize image.jpg, skipping smaller images and setting minimum quality to 50%

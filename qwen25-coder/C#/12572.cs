@@ -1,0 +1,1 @@
+tmrMain.Elapsed += tmrMain_Tick;

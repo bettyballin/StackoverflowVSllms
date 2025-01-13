@@ -1,0 +1,1 @@
+result = RegOpenKeyEx(key, s, 0, KEY_READ | KEY_WOW64_64KEY, &key);

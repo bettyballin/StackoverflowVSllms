@@ -1,0 +1,1 @@
+sudo chmod -R 775 /server/staging

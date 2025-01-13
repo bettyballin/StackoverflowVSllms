@@ -1,0 +1,1 @@
+double volume;\nif (double.TryParse(uxVolume.Text, out volume))\n{\n    // Proceed with valid input; do something with 'volume'\n}\nelse\n{\n    // Handle the invalid input scenario\n    ModelState.AddModelError("Volume", "The volume must be a number.");\n}

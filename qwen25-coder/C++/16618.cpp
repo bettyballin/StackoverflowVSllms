@@ -1,0 +1,1 @@
+#include <set>\n#include <iostream>\n\nint main() {\n    std::set<int> mySet = {10, 20, 30, 40, 50};\n\n    // Using the member find method\n    auto it = mySet.find(30);\n    if (it != mySet.end()) {\n        std::cout << "Element found: " << *it << std::endl;\n    } else {\n        std::cout << "Element not found." << std::endl;\n    }\n\n    return 0;\n}

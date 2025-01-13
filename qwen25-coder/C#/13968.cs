@@ -1,0 +1,1 @@
+using System.Collections.Generic;\nusing System.Collections.Specialized;\n\npublic List<string> ConvertStringCollectionToList(StringCollection stringCollection)\n{\n    return new List<string>(stringCollection.Cast<string>());\n}

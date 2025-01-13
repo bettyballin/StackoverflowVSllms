@@ -1,0 +1,1 @@
+using System;\nusing System.Numerics;\n\nclass Program\n{\n    static void Main()\n    {\n        // Convert a string representation of a number to hexadecimal using BigInteger\n        BigInteger largeNumber = BigInteger.Parse("167119535743000000000000000000000000");\n        string hexadecimal = largeNumber.ToString("X");\n\n        Console.WriteLine(hexadecimal);\n    }\n}

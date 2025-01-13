@@ -1,0 +1,1 @@
+using (var session = NHibernateHelper.GetCurrentSession())\nusing (var tx = session.BeginTransaction())\n{\n    var query = session.CreateSQLQuery("DELETE FROM tb_category WHERE parentID = :parentID")\n                       .SetInt64("parentID", pID);\n    \n    int rowsAffected = query.ExecuteUpdate(); // Execute the SQL command\n    \n    tx.Commit();\n}

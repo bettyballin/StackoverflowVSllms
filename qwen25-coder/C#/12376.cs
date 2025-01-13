@@ -1,0 +1,1 @@
+using System;\n   using System.Web.Services;\n\n   [WebService(Namespace = "http://yourservice.com/")]\n   public class MyService : WebService\n   {\n       [WebMethod]\n       public string HelloFromNet()\n       {\n           return "Hello from .NET!";\n       }\n   }

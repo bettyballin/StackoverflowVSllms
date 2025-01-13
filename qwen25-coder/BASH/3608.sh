@@ -1,0 +1,1 @@
+ssh youruser@yourserver\nrm -f path/to/wp-content/symlinkfile

@@ -1,0 +1,1 @@
+// Assuming you have a data context class 'MyDataContext' and a table named 'Employees'\nusing (var db = new MyDataContext())\n{\n    var employees = from e in db.Employees\n                    where e.Department == "Sales"\n                    select e;\n\n    foreach (var employee in employees)\n    {\n        Console.WriteLine(employee.Name);\n    }\n}

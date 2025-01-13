@@ -1,0 +1,1 @@
+iconv -f UTF-8 -t EBCDIC-US inputfile.txt > /local/mountpoint/outputfile.txt

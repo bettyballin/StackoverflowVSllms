@@ -1,0 +1,1 @@
+sudo systemctl stop nexus  # Example command for systemd-based distributions

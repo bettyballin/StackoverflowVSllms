@@ -1,0 +1,1 @@
+Uri tfsUri = new Uri("http://yourTFSServer:8080/tfs/Collections");\n   VssConnection connection = new VssConnection(tfsUri, new VssClientCredentials());

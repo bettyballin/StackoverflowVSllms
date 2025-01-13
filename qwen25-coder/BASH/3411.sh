@@ -1,0 +1,1 @@
+git add .\n   git commit -m "Updated to new versions of chart classes and reapplied my customizations"

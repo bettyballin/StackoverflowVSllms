@@ -1,0 +1,1 @@
+// Simple decoding of Base64 EventValidation\n  string base64EventValidation = "Base64EncodedStringHere";\n  byte[] decodedBytes = Convert.FromBase64String(base64EventValidation);\n  string decodedString = System.Text.Encoding.UTF8.GetString(decodedBytes);

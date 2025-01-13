@@ -1,0 +1,1 @@
+// Example Entity Framework setup in C#\n  public class MyDbContext : DbContext\n  {\n      public DbSet<User> Users { get; set; }\n  }\n\n  public class User\n  {\n      public int Id { get; set; }\n      public string Name { get; set; }\n  }

@@ -1,0 +1,1 @@
+#include <comdef.h>\n#include <objbase.h>\n\nHMODULE hModule = nullptr;\nHRESULT hr = CoLoadLibrary(L"path_to_your_dll.dll", FALSE, &hModule);\n\nif (SUCCEEDED(hr)) {\n    // DLL loaded successfully\n    // Perform operations that require the dll to be loaded\n} else {\n    _com_error err(hr);\n    // Handle failure\n}

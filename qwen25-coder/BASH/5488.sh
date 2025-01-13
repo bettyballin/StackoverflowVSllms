@@ -1,0 +1,1 @@
+aspnet_regsql.exe -i "C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallCommon.sql"\naspnet_regsql.exe -i "C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallMembership.sql"\naspnet_regsql.exe -i "C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallProfile.sql"

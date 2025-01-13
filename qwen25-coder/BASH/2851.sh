@@ -1,0 +1,1 @@
+alias ssr='ssh -t server.com "screen -S $1 -dr || screen -S $1"'

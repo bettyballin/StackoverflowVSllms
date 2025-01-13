@@ -1,0 +1,1 @@
+SetElement temp = (SetElement)my_var;\n   function_that_needs_setelement_pointer(&temp);

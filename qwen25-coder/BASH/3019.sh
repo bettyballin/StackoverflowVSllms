@@ -1,0 +1,1 @@
+# Stage all files\ngit add .\n\n# Commit the staged files\ngit commit -m "Initial import of Oracle packages"\n\n# Push to remote repository (if needed)\ngit push origin mai

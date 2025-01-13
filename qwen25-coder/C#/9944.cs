@@ -1,0 +1,1 @@
+public class BaseController : Controller\n   {\n       private readonly IMasterPageRepository _masterPageRepository;\n\n       protected BaseController(IMasterPageRepository masterPageRepository)\n       {\n           _masterPageRepository = masterPageRepository;\n           ViewData["MasterData"] = _masterPageRepository.GetMasterPageData();\n       }\n   }

@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\npublic void ExecuteCommand(string fullCommand)\n{\n    var processInfo = new ProcessStartInfo("cmd.exe", "/C " + fullCommand)\n    {\n        UseShellExecute = false,\n        CreateNoWindow = true\n    };\n\n    using (Process process = Process.Start(processInfo))\n    {\n        process.WaitForExit();\n    }\n}

@@ -1,0 +1,1 @@
+string sql = $"SELECT * FROM {TABLE} WHERE {NAME} LIKE @searchTerm";\nusing (var cmd = new FbCommand(sql, connection))\n{\n    // Concatenate the wildcard characters to the parameter value\n    cmd.Parameters.AddWithValue("@searchTerm", "%" + "JOHN" + "%");\n\n    // Execute your query...\n}

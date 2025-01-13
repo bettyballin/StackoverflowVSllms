@@ -1,0 +1,1 @@
+public partial class Product : IMyCustomInterface\n   {\n       // Implement the interface methods here if necessary\n       public void MyMethod()\n       {\n           // Implementation goes here\n       }\n\n       // Define additional properties or methods here\n       public string AdditionalInfo { get; set; }\n   }

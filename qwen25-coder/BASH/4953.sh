@@ -1,0 +1,1 @@
+#!/bin/bash\n\n   ssh -f -N -L local_port:localhost:remote_port user@remote_host -i ~/.ssh/tunnel_key

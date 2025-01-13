@@ -1,0 +1,1 @@
+# Check Application Pool State\n   Get-ChildItem -Path IIS:\AppPools | Where-Object { $_.Name -eq "YourAppPoolName" } | Select-Object Name, State

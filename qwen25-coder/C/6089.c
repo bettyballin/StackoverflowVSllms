@@ -1,0 +1,1 @@
+#include <windows.h>\n#include <stdio.h>\n\n// This function attempts to attach a debugger to the process with pid 'pid'\nvoid AttachDebugger(DWORD pid) {\n    if (!DebugActiveProcess(pid)) {\n        printf("Failed to attach debugger: %lu\n", GetLastError());\n    }\n}

@@ -1,0 +1,1 @@
+public class MilesHub : Hub\n{\n    public async Task UpdateMiles(int newMiles)\n    {\n        await Clients.All.SendAsync("ReceiveMiles", newMiles);\n    }\n}

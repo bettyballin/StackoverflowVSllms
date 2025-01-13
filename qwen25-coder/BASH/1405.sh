@@ -1,0 +1,1 @@
+java -Xmx4g YourApplication // This sets the maximum heap size to 4GB

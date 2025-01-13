@@ -1,0 +1,1 @@
+# Example usage in curl\n   curl -s https://randomuser.me/api/?results=10 | jq '.results[].name.first + " " + .results[].name.last'

@@ -1,0 +1,1 @@
+Comparison<T> // Represents the method that compares two objects of the same type.\nConverter<TInput, TOutput> // Represents a method that converts an object from one type to another.

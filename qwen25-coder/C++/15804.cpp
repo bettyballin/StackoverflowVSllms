@@ -1,0 +1,1 @@
+std::list<int> createLargeList() {\n    return std::list<int>{/* initialize list */}; // Uses move constructor in C++11 and later\n}

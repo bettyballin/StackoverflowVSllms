@@ -1,0 +1,1 @@
+grep -i 'search_term' /path/to/file  # Case-insensitive search\n   grep -r 'search_term' /directory/*     # Recursive search in directory\n   grep -l 'search_term' /directory/*     # List files containing the patter

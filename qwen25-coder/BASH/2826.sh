@@ -1,0 +1,1 @@
+gcc -o md5_example md5_example.c -lssl -lcrypto

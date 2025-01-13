@@ -1,0 +1,1 @@
+convert input.jpg -profile /path/to/adobe_rgb.icc -profile /path/to/srgb.icc output.jpg

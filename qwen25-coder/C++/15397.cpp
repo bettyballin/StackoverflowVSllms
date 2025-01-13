@@ -1,0 +1,1 @@
+#include <list>\n\nstd::list<DVFGfxObj*>::reverse_iterator iter;\nfor (iter = m_Objs.rbegin(); iter != m_Objs.rend(); ++iter) {\n    // Your code here to use *iter\n}

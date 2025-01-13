@@ -1,0 +1,1 @@
+gdb ./your_program\n   (gdb) break main\n   (gdb) run\n   (gdb) next

@@ -1,0 +1,1 @@
+#include <openssl/ocsp.h>\n#include <stdio.h>\n\n// Example usage:\n// OCSP_REQUEST *req = OCSP_REQUEST_new();\n// Add certificate information to the request\n// Send the request and handle the response

@@ -1,0 +1,1 @@
+bash -n /path/to/your/script.sh

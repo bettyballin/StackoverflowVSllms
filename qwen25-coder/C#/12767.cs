@@ -1,0 +1,1 @@
+protected void btnDelete_Click(object sender, EventArgs e)\n{\n    // Logic to delete the item from your data source\n    // After deletion, rebind your DataList here\n    BindData();\n}\n\nprivate void BindData()\n{\n    // Code to bind your data to the DataList\n}

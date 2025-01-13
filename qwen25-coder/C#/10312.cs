@@ -1,0 +1,1 @@
+// C# (.NET)\npublic int Factorial(int n) {\n    return (n == 0) ? 1 : n * Factorial(n - 1);\n}

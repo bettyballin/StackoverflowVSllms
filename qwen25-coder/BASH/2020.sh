@@ -1,0 +1,1 @@
+# Example ldapsearch command using LDAPS\nldapsearch -H ldaps://<FQDN> -x -b "DC=<DOMAIN>,DC=COM" "(objectClass=user)" -D "<ADMIN>" -W

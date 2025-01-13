@@ -1,0 +1,1 @@
+paste -d '' - - - < filename > unfoldedfile

@@ -1,0 +1,1 @@
+#include <speex/speex.h>\n\nvoid initSpeexEncoder(SpeexBits *bits, void **state) {\n    int narrowband = 1; // Narrowband audio\n    *state = speex_encoder_init(&speex_nb_mode);\n    speex_encoder_ctl(*state, SPEEX_SET_QUALITY, &narrowband);\n    speex_bits_init(bits);\n}

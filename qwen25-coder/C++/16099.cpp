@@ -1,0 +1,1 @@
+#ifndef SHARED_H\n#define SHARED_H\n\ntemplate <class Type> class myclass {\n  Type x;\npublic:\n  myclass() { x = 0; }\n  void setx(Type y);\n  Type getx();\n};\n\ntemplate <class Type>\nvoid myclass<Type>::setx(Type y) { x = y; }\n\ntemplate <class Type>\nType myclass<Type>::getx() { return x; }\n\n#endif // SHARED_H

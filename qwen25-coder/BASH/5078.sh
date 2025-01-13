@@ -1,0 +1,1 @@
+python lorem.py 50

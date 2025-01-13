@@ -1,0 +1,1 @@
+# The 'frame-ancestors' directive specifies valid parents. 'self' allows the document to be embedded only in frames from the same origin as the document itself.\nHeader set Content-Security-Policy "frame-ancestors 'self';"

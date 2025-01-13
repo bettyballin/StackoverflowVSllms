@@ -1,0 +1,1 @@
+public ActionResult ProcessPeople(IList<Person> people)\n{\n    // Process the list of people here\n    return View();\n}

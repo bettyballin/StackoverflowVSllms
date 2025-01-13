@@ -1,0 +1,1 @@
+#include <windows.h>\n\nvoid secureEraseExample(char* buffer, size_t bufferSize) {\n    // Use the buffer for some purpose...\n    \n    // Once done, securely erase the memory\n    SecureZeroMemory(buffer, bufferSize);\n}

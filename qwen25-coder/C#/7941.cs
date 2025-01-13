@@ -1,0 +1,1 @@
+using System.Runtime.ConstrainedExecution;\n\n[ReliabilityContract(Consistency.MayCorruptInstance, Cer.MayFail)]\npublic static void ExampleMethod()\n{\n    // Method implementation\n}

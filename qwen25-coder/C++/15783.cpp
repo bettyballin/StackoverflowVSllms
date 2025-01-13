@@ -1,0 +1,1 @@
+// example.cpp\nextern "C" __declspec(dllexport) int MyExportedFunction(int a, int b) {\n    return a + b;\n}

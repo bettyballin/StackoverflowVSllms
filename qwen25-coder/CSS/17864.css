@@ -1,0 +1,1 @@
+ul {\n    list-style-type: none; /* Removes the default bullet points */\n    padding: 0;\n}\n\nli {\n    background-color: #f0f0f0; /* Light gray background color for the boxes */\n    margin: 10px 0;\n    padding: 15px;\n    border-radius: 8px; /* Rounded corners */\n    border: 1px solid #ddd; /* Optional: Adds a light gray border around each box */\n}

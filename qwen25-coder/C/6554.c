@@ -1,0 +1,1 @@
+unsigned char myArray[] = { 0x00, 0x11, 0x22 };

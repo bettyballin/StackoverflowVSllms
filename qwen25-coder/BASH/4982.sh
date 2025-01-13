@@ -1,0 +1,1 @@
+tail -qf <(while :; do echo "File1: $(date)"; sleep 1; done) <(while :; do echo "File2: $(date)"; sleep 2; done) | awk '{ sub(/$/, sprintf("\033[%dm", (NR%5)+31)); print }'

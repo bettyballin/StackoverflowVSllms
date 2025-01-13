@@ -1,0 +1,1 @@
+#ifdef __WIN32\n    // For Windows Console\n    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);\n    COORD coordScreen = { 0, 0 }; \n    SetConsoleCursorPosition(hConsole, coordScreen);\n#else\n    // For Unix/Linux terminals\n    printf("\033[H");\n#endif

@@ -1,0 +1,1 @@
+<!-- DynamicPageHandler.aspx -->\n<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DynamicPageHandler.aspx.cs" Inherits="YourNamespace.DynamicPageHandler" %>

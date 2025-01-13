@@ -1,0 +1,1 @@
+ioncube_encoder --with-license /path/to/license.txt /path/to/your/script.php -o /path/to/output/

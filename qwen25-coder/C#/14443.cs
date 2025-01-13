@@ -1,0 +1,1 @@
+string s = @"<input type=""hidden"">";\ns = s.Replace("\"", "");

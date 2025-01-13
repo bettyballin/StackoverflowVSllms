@@ -1,0 +1,1 @@
+var logger = NLog.LogManager.GetCurrentClassLogger();\n   logger.Debug("This is a debug message from NLog.");

@@ -1,0 +1,1 @@
+class Program\n{\n    static void Main()\n    {\n        DictionaryWrapper["exampleKey"] = "exampleValue";\n        Console.WriteLine(DictionaryWrapper["exampleKey"]); // Outputs: exampleValue\n\n        Console.WriteLine(DictionaryWrapper["nonExistentKey"]); // Outputs: (empty string)\n    }\n}

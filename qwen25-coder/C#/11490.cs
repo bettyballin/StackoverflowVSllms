@@ -1,0 +1,1 @@
+public class Metadata\n{\n    public string Name { get; set; }\n}\n\npublic class TestController : Controller\n{\n    [HttpPost] // Ensure this action is accessible via POST\n    public JsonResult GetTestJsonData([FromBody] Metadata data)\n    {\n        return Json(data); // Use the Json method for cleaner code\n    }\n}

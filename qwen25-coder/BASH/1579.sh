@@ -1,0 +1,1 @@
+mt.exe -manifest input.manifest -outputresource:your-vb6-dll.dll;#2

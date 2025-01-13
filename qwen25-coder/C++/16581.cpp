@@ -1,0 +1,1 @@
+#include <iostream>\n#include <fstream>\n\nstd::ofstream createStream() {\n    std::ofstream file("example.txt");\n    return file; // Move constructor is used here if available\n}\n\nint main() {\n    auto myStream = createStream(); // Move assignment can be used here\n    myStream << "Hello, world!";\n}

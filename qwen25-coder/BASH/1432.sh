@@ -1,0 +1,1 @@
+keytool -export -alias tomcat -file tomcat.crt -keystore tomcat.jks\nkeytool -import -v -trustcacerts -alias tomcat -file tomcat.crt -keystore client.truststore

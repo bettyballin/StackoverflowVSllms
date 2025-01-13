@@ -1,0 +1,1 @@
+[HttpPost]\n   public ActionResult SubmitForm(MyModel model)\n   {\n       TempData["MessageFromPageA"] = "Hello from Page A!";\n       return RedirectToAction("PageB");\n   }\n\n   public ActionResult PageB()\n   {\n       ViewBag.MessageFromPageA = TempData["MessageFromPageA"];\n       return View();\n   }

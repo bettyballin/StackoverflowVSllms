@@ -1,0 +1,1 @@
+string htmlContent = System.IO.File.ReadAllText("file.html");

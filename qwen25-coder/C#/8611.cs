@@ -1,0 +1,1 @@
+double currentBalance = 1234567890.12;\nstring formattedValue = currentBalance.ToString("###,###,##0.00");\ntextBox.Text = formattedValue;

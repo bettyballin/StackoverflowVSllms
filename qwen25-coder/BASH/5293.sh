@@ -1,0 +1,1 @@
+:: Check if the CLSID exists using regedit or similar tools to inspect HKEY_CLASSES_ROOT\CLSID\\nreg query HKCR\CLSID\{Your-CLSID-Guid}\n\n:: Register the updated VB6 DLL using regsvr32 after ensuring binary compatibility is maintained.\nregsvr32 path_to_your_vb6_dll.dll

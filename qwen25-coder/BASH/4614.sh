@@ -1,0 +1,1 @@
+# Generate a private key\n   openssl genrsa -out client.key 2048\n\n   # Create a certificate signing request (CSR)\n   openssl req -new -key client.key -out client.csr\n\n   # Sign the CSR with your own CA or self-sign it\n   openssl x509 -req -days 365 -in client.csr -signkey client.key -out client.crt

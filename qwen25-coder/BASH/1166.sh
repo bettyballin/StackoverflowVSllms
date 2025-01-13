@@ -1,0 +1,1 @@
+// Example: Run SpotBugs on compiled classes or JARs\n   java -jar spotbugs.jar -textui -buildDir ./target/classes -xml output.xml

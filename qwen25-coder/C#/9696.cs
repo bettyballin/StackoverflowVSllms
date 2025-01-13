@@ -1,0 +1,1 @@
+var person = new Person();\nperson.FirstName = "John";\nperson.LastName = "Doe";\nperson.Age = 30;

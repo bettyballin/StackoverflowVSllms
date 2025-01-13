@@ -1,0 +1,1 @@
+using System;\nusing System.Collections.Generic;\nusing System.ComponentModel.DataAnnotations;\n\npublic class ProductModel\n{\n    [Required(ErrorMessage = "Product Name is required")]\n    public string Name { get; set; }\n\n    [Range(1, int.MaxValue,\n        ErrorMessage = "Price must be greater than 0")]\n    public decimal Price { get; set; }\n}

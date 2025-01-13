@@ -1,0 +1,1 @@
+export SFTP_HOST=THEHOST.com\nexport SFTP_USER=THEUSERNAME\nexport SFTP_PASS=THEPASSWORD\nexport SFTP_TARGET_DIR=./THETARGETDIRECTORY/\npython your_script.py filename.txt

@@ -1,0 +1,1 @@
+ssh remotehost.example.com python3 /path/to/invokejob.py

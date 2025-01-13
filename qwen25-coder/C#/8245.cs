@@ -1,0 +1,1 @@
+// Example: Checking if running in debug or release mode\n#if DEBUG\n    Console.WriteLine("Debug Mode");\n#else\n    Console.WriteLine("Release Mode");\n#endif

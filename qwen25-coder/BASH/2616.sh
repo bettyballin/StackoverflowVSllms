@@ -1,0 +1,1 @@
+dumpbin /SYMBOLS your_object_file.obj

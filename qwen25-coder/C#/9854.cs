@@ -1,0 +1,1 @@
+string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\foo\;Extended Properties='text;HDR=YES;FMT=Delimited'";

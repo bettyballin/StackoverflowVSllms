@@ -1,0 +1,1 @@
+gcc -o your_program your_source.c -Wl,--stack,10485760  # Example: stack size of 10MB

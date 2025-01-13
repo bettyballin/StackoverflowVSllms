@@ -1,0 +1,1 @@
+/* Ensure the autocomplete dropdown has a higher z-index */\n.ac_ctrl {\n    z-index: 1000; /* Make sure this value is higher than other elements' z-index values */\n    position: absolute;\n}

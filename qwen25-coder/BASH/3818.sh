@@ -1,0 +1,1 @@
+sudo apt-get install apache2-utils  # Install htpasswd if not already installed\n   sudo htpasswd -c /etc/apache2/.htpasswd proxyuser

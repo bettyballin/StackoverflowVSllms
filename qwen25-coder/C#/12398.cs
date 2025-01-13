@@ -1,0 +1,1 @@
+public void UpdateCellRepresentation(int row, int col)\n     {\n         var (value, style) = model.GetCellValueAndStyle(row, col);\n         view.SetCellDataAndStyle(row, col, value, style);\n     }

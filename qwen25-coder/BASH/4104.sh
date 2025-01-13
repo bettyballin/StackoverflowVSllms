@@ -1,0 +1,1 @@
+screen -X -S [sessionname_or_number] quit

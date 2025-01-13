@@ -1,0 +1,1 @@
+echo "col1,col2,col3" > MyData.csv &&\nsqlcmd -S myServer -d myDB -E -Q "set nocount on; SELECT col1 + ',' + col2 + ',' + col3 FROM SomeTable" -o MyData.csv -h-1 -s, -W

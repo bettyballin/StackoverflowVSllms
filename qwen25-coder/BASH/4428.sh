@@ -1,0 +1,1 @@
+user@yourdomain.com /usr/local/bin/your-email-processing-script.sh

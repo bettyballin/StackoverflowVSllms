@@ -1,0 +1,1 @@
+var results = from x in db.Orders\n                 where (from y in db.Orders \n                        where y.totalOrder > x.totalOrder \n                        select y).Count() < 6\n                 select x;

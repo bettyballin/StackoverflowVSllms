@@ -1,0 +1,1 @@
+keytool -printcert -file your_certificate.crt

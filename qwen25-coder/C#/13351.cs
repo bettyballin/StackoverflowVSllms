@@ -1,0 +1,1 @@
+string version = "WCF_REST_Starter_Kit_Preview_2.msi";\nbool isPreviewVersion = version.Contains("Preview");\nConsole.WriteLine(isPreviewVersion ? "This is a preview version." : "This is a full release.");

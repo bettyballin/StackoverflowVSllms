@@ -1,0 +1,1 @@
+hr {\n    border: none; /* Remove default borders */\n    height: 2px; /* Set the thickness of the line */\n    background: linear-gradient(to right, transparent, #000, transparent); /* Custom gradient effect */\n    margin: 20px 0; /* Optional: Add some top and bottom margins for spacing */\n}

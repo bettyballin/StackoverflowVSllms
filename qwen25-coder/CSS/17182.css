@@ -1,0 +1,1 @@
+table {\n  border-spacing: 10px;\n  border-collapse: separate; /* This is necessary for border-spacing to work */\n}

@@ -1,0 +1,1 @@
+// Use the service contract interface here\nhost.AddServiceEndpoint(typeof(Inventory.IInventoryService), new NetTcpBinding(),\n    "net.tcp://localhost:9000/GetInventory");

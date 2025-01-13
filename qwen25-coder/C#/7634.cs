@@ -1,0 +1,1 @@
+string content = File.ReadAllText(Server.MapPath("~/Content/blogPost.xml"));\n   blogPlaceHolder.InnerHtml = content;

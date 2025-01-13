@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        // Assuming DropDownList1 is your drop down control's ID\n        DropDownList1.Items.Insert(0, new ListItem("-- Select One ---", string.Empty));\n        \n        // Bind your data to the dropdown list here\n        // Example: YourDataBindingMethod();\n    }\n}

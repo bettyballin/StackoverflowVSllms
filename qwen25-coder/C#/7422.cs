@@ -1,0 +1,1 @@
+var eventArgs = someCondition ? new ElapsedEventArgs(DateTime.Now) : (ElapsedEventArgs)null;\nAsyncInvoke(OnTimeMessageTimer, (object)null, eventArgs ?? new ElapsedEventArgs(DateTime.Now));

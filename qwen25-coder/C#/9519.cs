@@ -1,0 +1,1 @@
+[WebMethod]\npublic static User GetUserProfile(string username) {\n    return new UserProfileService().GetUserProfile(username);\n}\n\n[WebMethod]\npublic static void UpdateUserProfile(User profile) {\n    var service = new UserProfileService();\n    service.Update(profile);\n}

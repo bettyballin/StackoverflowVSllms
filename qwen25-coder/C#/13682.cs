@@ -1,0 +1,1 @@
+var messages = dc.MessageItems.Where(msg => \n    String.IsNullOrEmpty(fromname) || \n    (msg.FromName != null && msg.FromName.ToLower().Contains(fromname.ToLower()))).ToList();

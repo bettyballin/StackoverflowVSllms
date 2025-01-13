@@ -1,0 +1,1 @@
+gcc $(INCLUDES) -E -MM $(CFLAGS) -MT $(DEPDIR)/$(notdir $@) $(SRC) >> $(DEP)

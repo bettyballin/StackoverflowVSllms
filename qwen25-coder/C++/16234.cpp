@@ -1,0 +1,1 @@
+// hello.cpp\n#include <iostream>\n\nint main() {\n    std::cout << "Hello, Windows CE!" << std::endl;\n    return 0;\n}

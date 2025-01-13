@@ -1,0 +1,1 @@
+XmlNode node = xmlDocument.SelectSingleNode(String.Format("//ErrorTable/ProjectName[text()='{0}']", projectName));\n\nif (node != null)\n{\n    // Node exists with the specified text\n}\nelse\n{\n    // Node does not exist or no match found\n}

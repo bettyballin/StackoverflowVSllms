@@ -1,0 +1,1 @@
+# Using PyInstaller to bundle a Python application and its dependencies into a single executable\npyinstaller --onefile your_script.py

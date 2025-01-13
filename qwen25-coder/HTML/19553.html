@@ -1,0 +1,1 @@
+<!-- In your base template or specific template -->\n<nav>\n    <ul>\n        <li><a href="/dashboard/">Dashboard</a></li>\n        {% if has_permission %}\n            <li><a href="/special-feature/">Special Feature</a></li>\n        {% endif %}\n    </ul>\n</nav>

@@ -1,0 +1,1 @@
+using System.Net;\n\nstring url = "http://www.test.com/Page.aspx";\nstring filePath = @"C:\path\to\save\Page.html";\n\nusing (WebClient client = new WebClient())\n{\n    string htmlContent = client.DownloadString(url);\n    File.WriteAllText(filePath, htmlContent);\n}

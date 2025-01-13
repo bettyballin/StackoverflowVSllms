@@ -1,0 +1,1 @@
+# Example of using GPG for file encryption in bash\n   gpg --output myfile.gpg --encrypt --recipient user@example.com myfile.txt

@@ -1,0 +1,1 @@
+sealed class User\n{\n    private string _secret = "shazam";\n    public readonly decimal YourSalary;\n    public string YourOffice { get; }\n\n    private void DoPrivilegedAction()\n    {\n        // Privileged actions here\n    }\n}

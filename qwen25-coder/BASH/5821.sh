@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Attempt to update the working copy\nsvn update > /tmp/svn_update_output 2>&1\n\n# Check if there are any lines indicating conflicts in the output\nif grep -q '^C' /tmp/svn_update_output; then\n    echo "Conflicts detected during svn update. Update aborted."\n    exit 1\nelse\n    echo "SVN update completed successfully with no conflicts."\n    exit 0\nfi

@@ -1,0 +1,1 @@
+.your-div-class {\n    overflow-y: scroll;\n    min-height: 100vh; /* Full viewport height as an example */\n}\n\n.your-div-class::-webkit-scrollbar {\n    display: block !important; /* force the scrollbar to be displayed */\n}

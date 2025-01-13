@@ -1,0 +1,1 @@
+[Column(IsPrimaryKey = true, IsDbGenerated = true, AutoSync=AutoSync.OnInsert)]\npublic int ID { get; set; }

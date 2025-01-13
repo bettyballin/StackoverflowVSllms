@@ -1,0 +1,1 @@
+/* Adjusting margin, padding, and line-height */\n\np {\n    margin: 10px 0; /* top-bottom margins are 10px, left-right are 0 */\n    padding: 5px;   /* all sides have 5px padding */\n    line-height: 1.6; /* improves readability by adding space between lines */\n}\n\na {\n    text-decoration: none;\n    color: blue;\n}

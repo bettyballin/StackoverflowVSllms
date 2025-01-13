@@ -1,0 +1,1 @@
+# Enable Static Content Compression via PowerShell\n   Set-WebConfigurationProperty -pspath 'MACHINE/WEBROOT/APPHOST'  -filter "system.webServer/urlCompression" -name "doStaticCompression" -value "True"

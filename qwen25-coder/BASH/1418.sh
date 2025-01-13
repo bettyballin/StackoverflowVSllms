@@ -1,0 +1,1 @@
+pvk2pfx -pvk YourCertificate.pvk -spc YourCertificate.cer -pfx YourCertificate.pfx -po yourPasswordHere

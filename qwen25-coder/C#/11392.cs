@@ -1,0 +1,1 @@
+string personName = personNode.SelectSingleNode("name").InnerText;\nXmlNode locationNode = doc.SelectSingleNode($"//location[name='{personName}']");

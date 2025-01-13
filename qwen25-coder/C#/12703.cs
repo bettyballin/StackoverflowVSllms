@@ -1,0 +1,1 @@
+using (OracleCommand command = new OracleCommand("SELECT * FROM Users WHERE UserId = :id", connection))\n   {\n       command.Parameters.Add("id", OracleDbType.Int32).Value = userId;\n       // Execute the query\n   }

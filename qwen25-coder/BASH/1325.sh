@@ -1,0 +1,1 @@
+curl -L -O https://github.com/phpbrew/phpbrew/releases/latest/download/phpbrew.phar\n   chmod +x phpbrew.phar\n   sudo mv phpbrew.phar /usr/local/bin/phpbrew

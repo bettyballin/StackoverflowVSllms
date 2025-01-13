@@ -1,0 +1,1 @@
+ano $(brew --prefix php@<version>)etc/php/<version>/php.ini

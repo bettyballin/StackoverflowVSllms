@@ -1,0 +1,1 @@
+sed 's/a/b/' <(head -n -1 yourfile.txt)

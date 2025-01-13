@@ -1,0 +1,1 @@
+// Example of writing to a file in .NET\nusing (StreamWriter writer = new StreamWriter("status.txt", true))\n{\n    writer.WriteLine("Service is running");\n}

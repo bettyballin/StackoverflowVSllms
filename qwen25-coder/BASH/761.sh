@@ -1,0 +1,1 @@
+NYTPROF=1 plackup -Ilib myapp.psgi

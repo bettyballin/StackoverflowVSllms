@@ -1,0 +1,1 @@
+# Connect to your SharePoint Online site\nConnect-PnPOnline -Url "https://yourtenant.sharepoint.com/sites/yoursite" -UseWebLogin\n\n# Hide the list from the 'All Site Content' page\n$listTitle = "YourListName"\nSet-PnPList -Identity $listTitle -Hidden:$true

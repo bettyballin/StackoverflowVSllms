@@ -1,0 +1,1 @@
+public interface IMyCustomInterface\n   {\n       void MyMethod();\n       // Add other required methods/properties here\n   }

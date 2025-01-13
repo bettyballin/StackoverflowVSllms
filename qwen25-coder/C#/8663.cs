@@ -1,0 +1,1 @@
+var latestLogs = \n    (from p in db.Persons\n     join le in db.LogEntries on p.Key equals le.PersonKey into LogGroup\n     from log in LogGroup.OrderByDescending(lg => lg.EntryTime).Take(1)\n     select new { Person = p, LatestLog = log })\n    .ToList();

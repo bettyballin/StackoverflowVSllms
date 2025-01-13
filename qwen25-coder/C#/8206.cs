@@ -1,0 +1,1 @@
+public class Question {\n    public int ID { get; set; }\n    public string Title { get; set; }\n    public List<string> Tags { get; set; } = new List<string>();\n}\n\npublic class Tag {\n    public int QuestionID { get; set; }\n    public string Name { get; set; }\n}

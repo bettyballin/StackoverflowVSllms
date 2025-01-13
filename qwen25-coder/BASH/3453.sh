@@ -1,0 +1,1 @@
+sudo perf sched record -g sleep 60\n   sudo perf sched latency -s

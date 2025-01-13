@@ -1,0 +1,1 @@
+gflags /p /enable <YourApp> +hpc

@@ -1,0 +1,1 @@
+// Example: Command in Kernel/Target Shell (within the VxWorks system)\n-> taskSpawn("myTask", 100, VX_NO_INHERIT, 4096, myFunction, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);

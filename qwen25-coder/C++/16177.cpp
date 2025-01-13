@@ -1,0 +1,1 @@
+NSP::Admin admin(0);  // Assuming 0 is a sensible "default" value or there's an overload that matches.\n   NSP::Server server(0);

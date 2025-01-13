@@ -1,0 +1,1 @@
+using (MaxScore scoreForm = new MaxScore())\n{\n    scoreForm.MainForm = this;\n    scoreForm.ShowDialog(); // This will handle the OK button and call maxGameCountLblUpdate.\n}

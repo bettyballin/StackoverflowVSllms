@@ -1,0 +1,1 @@
+locale -a | grep UTF-8

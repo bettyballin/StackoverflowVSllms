@@ -1,0 +1,1 @@
+public ActionResult GetEmployeesBySemester(int semesterId)\n   {\n       var employees = _context.Employees.Where(e => e.SemesterStudents.Any(ss => ss.SemesterId == semesterId)).ToList();\n       return PartialView("_EmployeeList", employees);\n   }

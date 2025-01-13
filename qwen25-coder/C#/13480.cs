@@ -1,0 +1,1 @@
+var authTicket = new FormsAuthenticationTicket(\n    version: 2, // Version number\n    name: "username",\n    issueDate: DateTime.Now,\n    expiration: DateTime.Now.AddMinutes(30),\n    isPersistent: true,\n    userData: "user data"\n);

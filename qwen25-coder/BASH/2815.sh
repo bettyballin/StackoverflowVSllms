@@ -1,0 +1,1 @@
+./your_executable && mv gmon.out /desired/path/to/gmon.out

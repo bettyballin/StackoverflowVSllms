@@ -1,0 +1,1 @@
+public class RefreshResult\n{\n    public DateTime StartTime { get; }\n    public DateTime EndTime { get; }\n\n    // If you want to add more information later, just add new properties.\n    // public int RecordsRefreshed { get; }\n\n    public RefreshResult(DateTime startTime, DateTime endTime)\n    {\n        StartTime = startTime;\n        EndTime = endTime;\n    }\n}

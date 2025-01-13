@@ -1,0 +1,1 @@
+using (var context = new AppDbContext())\n   {\n       context.Database.EnsureCreated();\n\n       var product = new Product { Name = "Sample Product", Price = 9.99M };\n       context.Products.Add(product);\n       context.SaveChanges();\n   }

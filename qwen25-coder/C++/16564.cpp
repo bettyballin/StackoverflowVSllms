@@ -1,0 +1,1 @@
+// Example function: balancing an AVL tree after insertion in cpp\nvoid rightRotate(Node *y) { \n    // Basic right rotation mechanism    \n}

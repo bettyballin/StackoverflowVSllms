@@ -1,0 +1,1 @@
+using System.Data.Entity;\n\npublic class ApplicationDbContext : DbContext\n{\n    public ApplicationDbContext() : base("DefaultConnection")\n    {\n    }\n\n    public DbSet<User> Users { get; set; }\n}\n\npublic class User\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n}

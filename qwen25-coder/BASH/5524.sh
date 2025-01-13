@@ -1,0 +1,1 @@
+ano /path/to/repo/.git/hooks/post-checkout\n# Add this content:\n#!/bin/sh\nchgrp -R devgrp /media/myusbdisk/path/to/project\nchmod -R ug+rwX,o+rX /media/myusbdisk/path/to/project\n\nchmod +x /path/to/repo/.git/hooks/post-checkout

@@ -1,0 +1,1 @@
+sudo iptables -A POSTROUTING -t nat -o eth0 -j MASQUERADE

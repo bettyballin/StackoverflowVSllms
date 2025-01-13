@@ -1,0 +1,1 @@
+// Example of using Composer to install Laravel\n   composer create-project --prefer-dist laravel/laravel blog

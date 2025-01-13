@@ -1,0 +1,1 @@
+/* Use star hack or underscore hack for IE6 and IE7 */\n   .menu {\n       z-index: 10;\n       _z-index: 20; /* Underscore hack */\n       *z-index: 20; /* Star hack */\n   }

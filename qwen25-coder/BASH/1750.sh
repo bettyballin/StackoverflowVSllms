@@ -1,0 +1,1 @@
+# Run regedit as Administrator\n   # Navigate to HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\n   # Add a new DWORD (32-bit) Value named "DebugActiveX" with value 1

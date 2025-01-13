@@ -1,0 +1,1 @@
+using System.Security.Principal;\n\n// For getting the SID\nvar currentUserSid = WindowsIdentity.GetCurrent().User.Value;\n\n// For getting the Username\nstring currentUsername = WindowsIdentity.GetCurrent().Name;

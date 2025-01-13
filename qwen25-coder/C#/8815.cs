@@ -1,0 +1,1 @@
+using System.Net;\n\npublic string SanitizeHtml(string html)\n{\n    return WebUtility.HtmlEncode(html);\n}

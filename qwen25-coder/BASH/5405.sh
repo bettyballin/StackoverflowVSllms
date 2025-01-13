@@ -1,0 +1,1 @@
+sed '/[A-Z]\d[A-Z] \d[A-Z]\d/{x;1!{p;p};x;i\\n\n;:a;N;$!ba;s/\n\(.*\)\n\(.*\)$/\n\1\n\n\n\2/}' inputfile.txt

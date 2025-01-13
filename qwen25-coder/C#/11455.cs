@@ -1,0 +1,1 @@
+// Example using LINQ to Entities in C#\nvar user = context.Users.Where(u => u.Id == userId).FirstOrDefault();

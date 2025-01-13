@@ -1,0 +1,1 @@
+# Install CUPS\nsudo apt-get install cups\n\n# Create a new printer that outputs to file:\nlpadmin -p FilePrinter -E -v file:/path/to/save/print_jobs/ -m raw\n\n# Set it as the default printer (optional)\nlpadmin -d FilePrinter\n\n# Example command to print PDF to this "printer"\nlp /path/to/test.pdf

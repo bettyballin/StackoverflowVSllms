@@ -1,0 +1,1 @@
+sudo fuser -v /path/to/folder

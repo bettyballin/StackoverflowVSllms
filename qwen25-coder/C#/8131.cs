@@ -1,0 +1,1 @@
+string[] fileLines = File.ReadAllLines("path/to/your/file.txt");\n   foreach (string line in fileLines)\n   {\n       int[] numbersInLine = Array.ConvertAll(line.Split(' '), int.Parse);\n       // Use numbersInLine array as needed\n   }

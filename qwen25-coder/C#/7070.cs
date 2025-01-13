@@ -1,0 +1,1 @@
+try {\n    int id = reader.GetInt32(0);\n} catch (SqlNullValueException) {\n    // Handle the situation when the column value is NULL\n}

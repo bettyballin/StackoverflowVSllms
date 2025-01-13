@@ -1,0 +1,1 @@
+# Prepare the base\nxtrabackup --prepare --apply-log-only --target-dir=/path/to/full_backup\n\n# Apply the incremental backup on top of the prepared base\nxtrabackup --prepare --target-dir=/path/to/full_backup --incremental-dir=/path/to/incremental_backup

@@ -1,0 +1,1 @@
+public class HomeController : Controller\n   {\n       public IActionResult Index(string searchTerm)\n       {\n           ViewBag.SafeOutput = HtmlHelper.Encode(searchTerm);\n           return View();\n       }\n   }

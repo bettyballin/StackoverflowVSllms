@@ -1,0 +1,1 @@
+/* Style for vertical stacking */\n.containsVerticalElements {\n    display: flex;\n    flex-direction: column;\n}\n\n/* Style for containing horizontal elements */\n.containsHorizontalElements {\n    display: flex;\n}\n\n/* Optional - Adjust width if needed */\n.isHorizontal {\n    flex: 1; /* Allows both to take up equal space */\n}

@@ -1,0 +1,1 @@
+// Example function: inserting into a B-Tree in cpp\nvoid insert(int k) {\n    // Basic algorithm for insertion\n}

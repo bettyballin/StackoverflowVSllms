@@ -1,0 +1,1 @@
+# For client VM\njava -client MyApplication\n\n# For server VM\njava -server MyApplicatio

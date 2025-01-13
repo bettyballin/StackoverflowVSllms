@@ -1,0 +1,1 @@
+html {\n    font-size: 16px; /* Base font size */\n}\n\nbody {\n    font-size: 1rem; /* Inherits from html, typically 16px */\n}\n\nh1 {\n    font-size: 2.5rem; /* 40px based on root font size */\n}\n\np {\n    font-size: 1rem; /* Consistent text size across paragraphs */\n}

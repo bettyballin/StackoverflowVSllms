@@ -1,0 +1,1 @@
+./your_script_name.sh your_hostname

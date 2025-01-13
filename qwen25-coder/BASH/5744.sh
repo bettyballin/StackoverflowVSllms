@@ -1,0 +1,1 @@
+# Example of a wget command, but this won't include user comments\nwget --mirror --convert-links --adjust-extension --page-requisites --no-parent http://php.net/manual/en/\n\n# For user comments, you might need to parse each page or use an API if available.

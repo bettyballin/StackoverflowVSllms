@@ -1,0 +1,1 @@
+az devops login --organization=https://dev.azure.com/{yourOrganization}

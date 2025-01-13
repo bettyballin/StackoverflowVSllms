@@ -1,0 +1,1 @@
+ul {\n    list-style: disc; /* Applies to all <li> elements inside this <ul> */\n}\n\nul#custom-list li:first-child {\n    list-style: square; /* Overrides the default style for the first item only */\n}

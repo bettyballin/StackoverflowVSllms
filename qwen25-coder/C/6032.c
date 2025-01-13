@@ -1,0 +1,1 @@
+if (NULL = var) { // This will cause a compilation error, catching the mistake.\n    // ...\n}\n\nif (var = NULL) { // This compiles but may introduce a bug, as it assigns NULL to var.\n    // ...\n}

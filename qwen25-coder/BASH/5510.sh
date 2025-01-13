@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d '{"item":{"name":"myname"}}' http://localhost:3000/items.xml

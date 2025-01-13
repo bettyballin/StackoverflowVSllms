@@ -1,0 +1,1 @@
+dumpbin /headers YourApplication.exe | findstr "LARGEADDRESSAWARE"

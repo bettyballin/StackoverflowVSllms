@@ -1,0 +1,1 @@
+.container {\n    display: flex;\n}\n\n#leftcontent {\n    width: 170px; /* Fixed width for the left panel */\n    border: 1px solid #C0C0C0;\n    padding: 2px;\n    margin-right: 10px; /* Optional: space between columns */\n}\n\n#centercontent {\n    flex-grow: 1; /* This makes the center content take up remaining space */\n    border: 1px solid #C0C0C0;\n}

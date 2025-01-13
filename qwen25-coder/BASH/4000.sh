@@ -1,0 +1,1 @@
+m -g myprogram | grep mai

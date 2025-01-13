@@ -1,0 +1,1 @@
+./configure CFLAGS="-march=native"

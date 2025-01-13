@@ -1,0 +1,1 @@
+yum remove gcc\n   yum install gcc

@@ -1,0 +1,1 @@
+// Calculate the number of padding bytes needed\nint padding = (4 - (actualWidth % 4)) % 4;\n\n// If padding is needed, write the padding bytes\nif (padding > 0) {\n    // Create an array of zeros for padding\n    BYTE padBytes[3] = {0}; // Assuming a maximum padding of 3 bytes\n    \n    // Write only the necessary number of padding bytes\n    bmFile.Write(padBytes, padding);\n}

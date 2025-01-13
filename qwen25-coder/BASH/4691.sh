@@ -1,0 +1,1 @@
+svnadmin create /path/to/your/local/repo

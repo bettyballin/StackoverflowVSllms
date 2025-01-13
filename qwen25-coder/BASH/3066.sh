@@ -1,0 +1,1 @@
+sudo mkdir /mnt/encrypted_storage\n   sudo mount /dev/mapper/my_encrypted_volume /mnt/encrypted_storage/

@@ -1,0 +1,1 @@
+launchctl load ~/Library/LaunchAgents/com.example.monitormyprogram.plist

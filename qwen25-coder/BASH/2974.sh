@@ -1,0 +1,1 @@
+php bin/magento module:enable Vendor_Module\nphp bin/magento setup:upgrade\nphp bin/magento cache:flush

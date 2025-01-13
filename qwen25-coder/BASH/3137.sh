@@ -1,0 +1,1 @@
+route delete 0.0.0.0\n   route add 0.0.0.0 mask 0.0.0.0 if <index_of_mobile_connection>

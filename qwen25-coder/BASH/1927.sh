@@ -1,0 +1,1 @@
+# Create a new security group "BizTalkOperators"\nNew-LocalGroup -Name "BizTalkOperators"\n\n# Add a user to the group\nAdd-LocalGroupMember -Group "BizTalkOperators" -Member "DOMAIN\username"

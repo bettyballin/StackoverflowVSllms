@@ -1,0 +1,1 @@
+.app_setting:hover {\n  cursor: move;\n}\n\n.app_setting * {\n  pointer-events: none; /* Ensures child elements do not interfere with the hover */\n}

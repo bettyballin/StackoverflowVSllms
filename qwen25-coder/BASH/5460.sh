@@ -1,0 +1,1 @@
+docker run --rm -v /sandbox:/app -m 512m --cpus="0.5" <your_image> compile_and_run.sh

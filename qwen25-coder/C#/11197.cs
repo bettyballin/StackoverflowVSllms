@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    string scriptKey = "YourUniqueScriptKey"; // Ensure this key is unique across all usages\n\n    if (!Page.ClientScript.IsClientScriptIncludeRegistered(scriptKey))\n    {\n        Page.ClientScript.RegisterClientScriptInclude(scriptKey, ResolveUrl("~/path/to/file.js"));\n    }\n}

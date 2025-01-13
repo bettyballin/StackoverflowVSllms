@@ -1,0 +1,1 @@
+sudo apachectl configtest\n     sudo systemctl reload apache2

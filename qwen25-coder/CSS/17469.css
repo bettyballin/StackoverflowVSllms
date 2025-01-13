@@ -1,0 +1,1 @@
+.container {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr); /* Creates three equal columns */\n  gap: 1rem; /* Gap between grid items */\n}\n\n.item {\n  background-color: lightblue;\n}

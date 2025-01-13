@@ -1,0 +1,1 @@
+#include <iostream>\n\nint main() {\n    std::cout << "I'm a child that will crash\n";\n    char *foo = (char *) 0xffff;\n    std::cout << foo; // This will cause a segmentation fault\n    return 0;\n}

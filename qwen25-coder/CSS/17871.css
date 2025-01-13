@@ -1,0 +1,1 @@
+<style type="text/css">\n/* ... existing styles ... */\n.thumb .download, .thumb .hud {\n    opacity: 0;\n    transition: opacity 0.4s ease-in-out;\n}\n.thumb:hover .download, .thumb:hover .hud {\n    opacity: 1; /* or 0.7 for .hud */\n}\n</style>

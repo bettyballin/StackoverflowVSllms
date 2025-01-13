@@ -1,0 +1,1 @@
+// Simple initialization code snippet in Unity (C#)\nusing UnityEngine;\n\npublic class GameInitializer : MonoBehaviour\n{\n    void Start()\n    {\n        Debug.Log("Game Started!");\n    }\n}

@@ -1,0 +1,1 @@
+wget https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/7.15.0/flyway-commandline-7.15.0-linux-x64.tar.gz\n   tar -xvzf flyway-commandline-7.15.0-linux-x64.tar.gz\n   cd flyway-7.15.0

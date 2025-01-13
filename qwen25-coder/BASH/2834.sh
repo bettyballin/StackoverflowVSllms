@@ -1,0 +1,1 @@
+keytool -importkeystore -srckeystore /path/to/your/keystore.jks -deststoretype PKCS12 -destkeystore /path/to/exported.p12

@@ -1,0 +1,1 @@
+# Change ownership of a named semaphore file\nsudo chown newowner:newgroup /path/to/semaphore/file\n\n# Change permissions of a named semaphore file\nsudo chmod 644 /path/to/semaphore/file

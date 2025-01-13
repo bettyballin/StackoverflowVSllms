@@ -1,0 +1,1 @@
+using NLog;\n\n   Logger logger = LogManager.GetCurrentClassLogger();\n   string message = "Could not find foo%20bar";\n   logger.Error(message);

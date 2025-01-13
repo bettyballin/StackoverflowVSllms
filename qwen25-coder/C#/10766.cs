@@ -1,0 +1,1 @@
+try\n{\n    this.Validate();\n    this.studentsBindingSource.EndEdit();\n    this.studentsTableAdapter.Update(this.studentsDataSet.FirstClass);\n}\ncatch (Exception ex)\n{\n    MessageBox.Show("An error occurred while saving: " + ex.Message, \n                    "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);\n}

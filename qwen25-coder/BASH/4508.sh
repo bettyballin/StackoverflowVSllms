@@ -1,0 +1,1 @@
+pm run minify-css\nnpm run minify-js

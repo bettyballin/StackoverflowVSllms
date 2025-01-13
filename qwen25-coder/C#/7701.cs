@@ -1,0 +1,1 @@
+using (SqlConnection conn = new SqlConnection(connectionString))\n   {\n       conn.Open();\n       // Use the connection...\n   }

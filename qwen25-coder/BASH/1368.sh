@@ -1,0 +1,1 @@
+convert input.jpg -thumbnail 150x150^ -gravity center -background white -extent 160x160 output.jpg

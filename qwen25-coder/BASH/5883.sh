@@ -1,0 +1,1 @@
+web-ext sign --source-dir /path/to/extension/source --artifacts-dir /path/to/artifacts

@@ -1,0 +1,1 @@
+table {\n    width: 100%;\n    border-collapse: collapse;\n}\n\nth, td {\n    padding: 8px;\n    text-align: center;\n    border-bottom: 1px solid #ddd;\n}\n\ncaption {\n    font-size: 1.5em;\n    margin: 20px 0;\n}

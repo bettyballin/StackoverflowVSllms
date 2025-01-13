@@ -1,0 +1,1 @@
+<!DOCTYPE html>\n<html>\n<head>\n    <title>Welcome</title>\n</head>\n<body>\n    {% for user in users %}\n        <h1>Hello, {{ user.name|e('html') }}!</h1>\n    {% endfor %}\n</body>\n</html>

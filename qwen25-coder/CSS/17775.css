@@ -1,0 +1,1 @@
+/* General CSS Reset for margins and paddings */\nbody, div, form, fieldset, textarea {\n    margin: 0;\n    padding: 0;\n}

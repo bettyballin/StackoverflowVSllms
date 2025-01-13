@@ -1,0 +1,1 @@
+asm volatile (\n    ".byte 0x40\n\t" // Example: Inserting a byte with hexadecimal value 0x40\n);

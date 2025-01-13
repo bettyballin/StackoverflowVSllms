@@ -1,0 +1,1 @@
+ModelBinders.Binders.Add(typeof(string), new SafeStringModelBinder());

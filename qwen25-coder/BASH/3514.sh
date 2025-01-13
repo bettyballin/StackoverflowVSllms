@@ -1,0 +1,1 @@
+g++ your_program.cpp -lefence -o your_program_efence

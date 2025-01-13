@@ -1,0 +1,1 @@
+string connectionString = "Server=MyClusterName;Database=MyDatabase;Integrated Security=True;MultiSubnetFailover=True;";

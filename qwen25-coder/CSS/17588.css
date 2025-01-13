@@ -1,0 +1,1 @@
+/* Works on Chrome, Edge, Safari */\n.scroll-div::-webkit-scrollbar {\n    width: 12px;\n}\n\n.scroll-div::-webkit-scrollbar-track {\n    background: #f1f1f1; \n}\n\n.scroll-div::-webkit-scrollbar-thumb {\n    background: #888; \n    border-radius: 6px;\n}\n\n/* Add this for hover effects */\n.scroll-div::-webkit-scrollbar-thumb:hover {\n    background: #555; \n}

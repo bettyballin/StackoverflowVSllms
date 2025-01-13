@@ -1,0 +1,1 @@
+sed '/Monday:/ { N; s/\(Monday:\)\(.*\)/\1\n\2/ }' inputfile > outputfile

@@ -1,0 +1,1 @@
+public class OptimizedDataModel {\n    public float Value1;\n    public double Value2;\n\n    // Aligning data and reducing padding can help with memory efficiency on 64-bit systems.\n}\n\n// Use of struct for small objects can also reduce heap allocations.

@@ -1,0 +1,1 @@
+#if OFFICE_2003\nusing Excel = Microsoft.Office.Interop.Excel;\n\npublic class Office2003Wrapper : IOfficeWrapper\n{\n    public void CreateDocument()\n    {\n        var excelApp = new Excel.Application();\n        // Implement specific logic for Office 2003\n    }\n}\n#endif

@@ -1,0 +1,1 @@
+#include <nfc/nfc.h>\n   \n   int main(int argc, char *argv[]) {\n       nfc_device_desc_t devices[8]; // max 8 devices at a time\n       nfc_context_t context;\n       \n       nfc_init(&context);\n       nfc_list_devices(context, devices, 8);\n       \n       // Your NFC communication code here\n       \n       nfc_exit(context);\n       return 0;\n   }

@@ -1,0 +1,1 @@
+sudo umount /mnt\n   sudo vgchange -an\n   sudo kpartx -d /path/to/your/image.img

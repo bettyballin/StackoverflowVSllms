@@ -1,0 +1,1 @@
+# Union of both lists without duplicates\n   sort list_A.txt list_B.txt | uniq

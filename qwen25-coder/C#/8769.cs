@@ -1,0 +1,1 @@
+public class Customer\n{\n    private string _customerName;\n\n    public string CustomerName\n    {\n        get { return _customerName; }\n        set \n        { \n            // Add validation or logging here\n            _customerName = value;\n        }\n    }\n}

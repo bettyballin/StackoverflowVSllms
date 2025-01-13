@@ -1,0 +1,1 @@
+C:\php-sdk> .\bin\phpsdk.bat env

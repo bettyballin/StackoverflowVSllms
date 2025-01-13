@@ -1,0 +1,1 @@
+private void Example(ref int arg1, ref int arg2)\n{\n    if (&arg1 == null) // This line won't compile; don't attempt this.\n    {\n        // do something\n    }\n    if (&arg2 == null) // This line won't compile; don't attempt this.\n    {\n        // do something else\n    }\n\n    // Modify the values here\n    arg1 = 0;\n    arg2 = 1;\n}

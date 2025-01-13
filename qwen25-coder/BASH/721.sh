@@ -1,0 +1,1 @@
+# Check ownership and permissions\nls -ld public_html www\n\n# Example output should show similar ownership and permissions\n# drwxr-x--- 2 user group 4096 Jan 1 13:37 public_html\n# lrwxrwxrwx 1 user group 10 Jan 1 13:37 www -> public_html

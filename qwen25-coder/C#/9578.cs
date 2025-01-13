@@ -1,0 +1,1 @@
+private volatile bool _enabled;\n\npublic bool Enabled\n{\n    get { return Volatile.Read(ref _enabled); }\n    set { Volatile.Write(ref _enabled, value); }\n}

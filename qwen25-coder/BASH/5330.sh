@@ -1,0 +1,1 @@
+stsadm -o setsitelock -url "http://oldsite" -lock none

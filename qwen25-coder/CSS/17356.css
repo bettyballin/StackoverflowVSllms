@@ -1,0 +1,1 @@
+.fixed-width-span {\n    display: inline-block;\n    width: 4ch; /* 4 characters wide */\n    text-align: left; /* Aligns text to the left within the span */\n}

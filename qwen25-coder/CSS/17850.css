@@ -1,0 +1,1 @@
+div {\n    border:1px solid #000;\n    min-width: 50%;\n    max-width: 50%;\n    width: 50%; /* Explicitly set to 50% */\n}

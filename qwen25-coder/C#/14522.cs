@@ -1,0 +1,1 @@
+try\n    {\n        // Your TableAdapter call here\n    }\n    catch (Exception ex)\n    {\n        // Log exception details including stack trace and inner exceptions\n        Logger.Error("Failed to execute stored procedure", ex);\n    }

@@ -1,0 +1,1 @@
+string filePath = "path_to_your_file.txt";\nusing (StreamWriter writer = new StreamWriter(filePath))\n{\n    writer.Write(MyRichTextBox.Text);\n}

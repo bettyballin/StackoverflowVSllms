@@ -1,0 +1,1 @@
+phc --windows-exe your_script.php

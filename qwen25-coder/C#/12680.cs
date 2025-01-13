@@ -1,0 +1,1 @@
+// Example in C# with MassTransit\n   configureEndpoint.QueueName = "product_queue";

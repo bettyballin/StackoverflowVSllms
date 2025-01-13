@@ -1,0 +1,1 @@
+pm run build:css

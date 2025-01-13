@@ -1,0 +1,1 @@
+chmod +x ~/mysql_connect.sh

@@ -1,0 +1,1 @@
+ssh -X user@your-server-host 'screen -r my_session || screen -S my_session'

@@ -1,0 +1,1 @@
+[ApiController]\n[Route("api/[controller]")]\npublic class OperationsController : ControllerBase\n{\n    [HttpPost("placeCall")]\n    public IActionResult PlaceCall([FromBody] string phoneNumber)\n    {\n        // Your logic to place a call\n        return Ok($"Calling {phoneNumber}");\n    }\n}

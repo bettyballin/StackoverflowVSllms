@@ -1,0 +1,1 @@
+@echo off\nreg add "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main" /v Disable Add-ons /t REG_DWORD /d 1 /f\n echo All browser add-ons have been disabled. Please restart Internet Explorer.\npause

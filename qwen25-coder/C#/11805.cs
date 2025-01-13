@@ -1,0 +1,1 @@
+using (var context = new MyDataContext())\n{\n    var blobData = context.MyTable\n                          .Where(x => x.Id == someId)\n                          .Select(x => x.BlobColumn)\n                          .FirstOrDefault();\n    \n    // Use the byte array as needed, e.g., convert to image, file, etc.\n}

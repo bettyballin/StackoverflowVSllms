@@ -1,0 +1,1 @@
+curl -X POST http://www.foo.com/api/createUser -H "Content-Type: application/json" -d '{"name": "foo", "surname": "bar"}'

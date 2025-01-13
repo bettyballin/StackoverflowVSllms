@@ -1,0 +1,1 @@
+# Generate an 18-character long random alphanumeric password\n</dev/urandom tr -dc 'A-Za-z0-9' | head -c 18; echo

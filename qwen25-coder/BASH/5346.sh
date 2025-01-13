@@ -1,0 +1,1 @@
+sed -i 's/\r$//' your_script.sql

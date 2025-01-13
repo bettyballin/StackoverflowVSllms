@@ -1,0 +1,1 @@
+[Import]\npublic ExportFactory<ILedPanel> PanelFactory { get; set; }\n\n// Usage\nvar panelInstance1 = PanelFactory.CreateExport().Value;\nvar panelInstance2 = PanelFactory.CreateExport().Value;

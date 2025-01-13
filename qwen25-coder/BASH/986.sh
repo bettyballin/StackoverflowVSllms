@@ -1,0 +1,1 @@
+./sed_substitute.sh myfile.txt "search_text" "replacement_text"

@@ -1,0 +1,1 @@
+#ifdef DLL_A_EXPORTS\n#define DLL_API __declspec(dllexport)\n#else\n#define DLL_API __declspec(dllimport)\n#endif\n\nextern "C" {\n    DLL_API void fooAA();\n    DLL_API void fooA();\n\n    // Declare prototype for DLL B function used by DLL A\n    extern void fooB();  // External declaration needed for linking purposes\n}

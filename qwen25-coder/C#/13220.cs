@@ -1,0 +1,1 @@
+using System.Reflection;\nusing System.Runtime.InteropServices;\n\n[assembly: ComVisible(true)]\n[assembly: Guid("16052F5E-DE7A-4180-B45C-D0BCB37E7D46")]

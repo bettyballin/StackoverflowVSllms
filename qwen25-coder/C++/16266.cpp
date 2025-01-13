@@ -1,0 +1,1 @@
+[\n    uuid("YourUUID"),\n    object,\n    dual,\n    oleautomation\n]\ninterface IYourInterface : IDispatch {\n    [id(1), helpstring("Method that should be synchronized"), synchronize]\n    HRESULT YourMethod();\n};

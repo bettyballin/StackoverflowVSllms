@@ -1,0 +1,1 @@
+// Correct declaration of main with external linkage\nint main() {\n    // Program code here\n    return 0;\n}\n\n// Incorrect use of static for main - not allowed by standard\n// static int main() {   // This would be incorrect\n//     return 0;\n// }

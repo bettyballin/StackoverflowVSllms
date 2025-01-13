@@ -1,0 +1,1 @@
+using System;\n\nclass Program\n{\n    static void Main()\n    {\n        // Using Unicode escape sequence\n        Console.WriteLine("\u00A9 2023 Your Company Name");\n\n        // Alternatively, using string literal if your source file supports UTF-8\n        Console.WriteLine("© 2023 Your Company Name");\n    }\n}

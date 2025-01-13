@@ -1,0 +1,1 @@
+.background-tile {\n  background-image: url('your-image.jpg');\n  background-position: -50% -50%; /* Adjust this value to move crop area */\n  background-repeat: repeat;\n  background-size: 200% auto; /* Scale background relative to the element size */\n}

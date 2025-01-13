@@ -1,0 +1,1 @@
+.number-container {\n    width: 150px; /* Set your desired width */\n    overflow: hidden;\n    white-space: nowrap; /* Prevent text from wrapping to the next line */\n}\n\n#phone-number {\n    display: inline-block;\n}

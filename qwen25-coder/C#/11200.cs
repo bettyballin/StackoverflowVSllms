@@ -1,0 +1,1 @@
+public class ValuesController : System.Web.Http.ApiController\n{\n    public IHttpActionResult Get()\n    {\n        var data = new { Name = "John Doe", Age = 30 };\n        return Ok(data); // Automatically serializes to JSON\n    }\n}

@@ -1,0 +1,1 @@
+else {\n    char* ret = psd->data + psd->len;\n    memcpy(ret, s, len - sizeof(Stringpool_char));\n    memset(ret + len - sizeof(Stringpool_char), 0, sizeof(Stringpool_char));\n    psd->len += len;\n    return reinterpret_cast<const Stringpool_char*>(ret);\n}

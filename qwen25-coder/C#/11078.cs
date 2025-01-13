@@ -1,0 +1,1 @@
+public object GetDeserializedObject(object obj, Type targetType)\n{\n    var factoryIdExtension = OperationContext.Current.Extensions.Find<FactoryIdExtension>();\n    if (factoryIdExtension != null)\n    {\n        var factoryId = factoryIdExtension.FactoryId;\n        // Use the factory ID to access the target type\n    }\n\n    return yourConversionMethod(obj);\n}

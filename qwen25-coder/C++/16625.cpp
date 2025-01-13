@@ -1,0 +1,1 @@
+#include <fstream>\n#include <cstdio>\n#include <io.h>\n\nFILE* getFILE(std::fstream& fs) {\n    int fd = _fileno(fs.rdbuf()->_File_handle);\n    if (fd == -1) return nullptr;\n    _dup(fd);  // Duplicate the file descriptor to keep it open\n    return _fdopen(fd, fs.is_open() && fs.good() ? "r+" : "");\n}

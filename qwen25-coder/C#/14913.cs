@@ -1,0 +1,1 @@
+var configuration = new Configuration();\nconfiguration.SetProperty(NHibernate.Cfg.Environment.ProxyFactoryFactoryClass, "NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.Bytecode.Castle");\n\n// Other configurations...\n\nISessionFactory sessionFactory = configuration.BuildSessionFactory();

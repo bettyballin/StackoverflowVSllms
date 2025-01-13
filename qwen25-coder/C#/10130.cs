@@ -1,0 +1,1 @@
+FileStream fs1 = new FileStream(path, FileMode.Open, FileAccess.Read);\nFileStream fs2 = File.Open(path, FileMode.Open, FileAccess.Read);

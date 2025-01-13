@@ -1,0 +1,1 @@
+my_custom_send_sms_command -u your_username -p your_password -k your_api_key 447771234567 'Hello from CLI'

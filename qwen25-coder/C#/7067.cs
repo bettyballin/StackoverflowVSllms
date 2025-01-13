@@ -1,0 +1,1 @@
+var result = setA.Except(setB);

@@ -1,0 +1,1 @@
+echo Exit Code %ERRORLEVEL% >> D:\xxx\import.log

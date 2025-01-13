@@ -1,0 +1,1 @@
+[HttpPost]\npublic IHttpActionResult SendOrder([FromBody] OrderMessage order)\n{\n    if (order == null || order.Id == Guid.Empty)\n        return BadRequest("Invalid message.");\n\n    // Store the message in a repository with an initial status.\n    var stored = _repository.Store(order);\n    \n    if (!stored) \n        return InternalServerError();\n\n    return Ok();\n}

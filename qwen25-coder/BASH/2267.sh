@@ -1,0 +1,1 @@
+# Example using ImageMagick in a Bash script\n   convert input.jpg -resize 150x150 output_thumbnail.jpg

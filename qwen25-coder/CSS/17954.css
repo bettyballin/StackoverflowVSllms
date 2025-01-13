@@ -1,0 +1,1 @@
+.form-group {\n    display: flex;\n}\n\n.label {\n    width: 150px; /* Adjust the width as needed */\n    margin-right: 10px;\n    text-align: right;\n}

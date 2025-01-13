@@ -1,0 +1,1 @@
+public static IEnumerable<T> ForEach<T>(this IEnumerable<T> collection, Action<T> action)\n{\n    foreach (var item in collection)\n        action(item);\n    return collection;\n}

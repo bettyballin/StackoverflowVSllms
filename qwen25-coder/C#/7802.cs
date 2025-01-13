@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\nstring pdfPath = CreatePDF(); // method that creates your pdf and returns the full path\n\ntry\n{\n    Process p = new Process();\n    p.StartInfo.FileName = pdfPath;\n    if (!p.Start())\n        Controller.Error = "Opening PDF failed.";\n}\ncatch (Exception ex)\n{\n    Controller.Error = "Create PDF::" + ex.Message;\n}

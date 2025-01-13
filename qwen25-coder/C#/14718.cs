@@ -1,0 +1,1 @@
+btnSearch.Attributes["OnClick"] = "return prepareSave() && prepareSearch();";

@@ -1,0 +1,1 @@
+var doc = new HtmlDocument();\ndoc.OptionOutputAsXml = true; // Treat document as XML rather than HTML\ndoc.LoadHtml(@"<select id=""foo_Bar"" name=""foo.Bar""><option selected=""selected"" value=""1"">One</option><option value=""2"">Two</option></select>");\n\n// Now check the OuterHtml\nConsole.WriteLine(doc.DocumentNode.OuterHtml);

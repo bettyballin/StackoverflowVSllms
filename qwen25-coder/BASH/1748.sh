@@ -1,0 +1,1 @@
+cscript %windir%\system32\iisapp.vbs /a "DefaultAppPool" /r

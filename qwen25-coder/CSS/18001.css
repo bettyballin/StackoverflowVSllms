@@ -1,0 +1,1 @@
+.monospaced-div {\n    font-family: monospace;\n    white-space: pre; /* Ensures that spaces and newlines are respected */\n    width: 80ch;      /* Sets the width to fit exactly 80 characters */\n    height: 25em;     /* Adjusts height for 25 lines if each line is approximately 1em tall */\n}

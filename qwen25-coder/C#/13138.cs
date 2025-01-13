@@ -1,0 +1,1 @@
+// Example: Creating and setting the URL of a SOAP client dynamically\n   MyWebService.WebServiceSoapClient soapClient = new MyWebService.WebServiceSoapClient();\n   soapClient.Url = "http://someapp1.com/UpdateData";

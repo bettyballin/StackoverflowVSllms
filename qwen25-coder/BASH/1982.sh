@@ -1,0 +1,1 @@
+/dev/disk1s1  /Volumes/SATA160  ntfs-3g local,nosuid,allow_other,rw  0 0

@@ -1,0 +1,1 @@
+[HttpPost]\n   public ActionResult Create(Contact contact) {\n       if (ModelState.IsValid) {\n           // Process your logic here, like saving to a database\n           return RedirectToAction("Success");\n       }\n       // Return view with validation errors\n       return View(contact);\n   }

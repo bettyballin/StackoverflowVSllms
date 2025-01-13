@@ -1,0 +1,1 @@
+using System;\nusing System.Reflection;\n\nclass Program {\n    static void Main() {\n        MethodInfo methodInfo = typeof(AxisRangeData).GetMethod(".ctor", BindingFlags.Public | BindingFlags.Instance);\n        IntPtr methodPointer = (IntPtr)methodInfo.MethodHandle.GetFunctionPointer();\n        Console.WriteLine($"Method pointer: {methodPointer}");\n    }\n}

@@ -1,0 +1,1 @@
+sudo apt-get remove --purge imagemagick\n   sudo apt-get install imagemagick

@@ -1,0 +1,1 @@
+# Clean and rebuild using command line to ensure no stale binaries are causing issues.\n   dotnet clean && dotnet build

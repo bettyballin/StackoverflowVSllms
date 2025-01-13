@@ -1,0 +1,1 @@
+# Example of deploying Drupal using Docker (basic setup)\ndocker pull drupal\ndocker run --name some-drupal -p 80:80 drupal

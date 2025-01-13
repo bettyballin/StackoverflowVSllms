@@ -1,0 +1,1 @@
+// Example of accessing a session variable - this is standard for any ASP.NET app\nSession["whatever"] = "someValue";\nstring value = Session["whatever"].ToString();

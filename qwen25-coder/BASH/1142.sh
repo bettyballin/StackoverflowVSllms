@@ -1,0 +1,1 @@
+# Grant read permissions for others\nchmod 004 filename\n\n# Attempt to view the file as a non-owner and non-group member\ncat filename

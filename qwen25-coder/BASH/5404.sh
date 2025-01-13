@@ -1,0 +1,1 @@
+git -c http.verbose=true submodule add http://github.com/jscruggs/metric_fu.git vendor/plugins/metric_fu

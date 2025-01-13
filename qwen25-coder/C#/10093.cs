@@ -1,0 +1,1 @@
+string sql = "SELECT * FROM Users WHERE Username=@Username";\nusing (SqlCommand cmd = new SqlCommand(sql, connection))\n{\n    cmd.Parameters.AddWithValue("@Username", userInput);\n    SqlDataReader reader = cmd.ExecuteReader();\n}

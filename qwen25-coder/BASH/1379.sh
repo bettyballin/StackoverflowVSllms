@@ -1,0 +1,1 @@
+echo $'\u00F1' >> file

@@ -1,0 +1,1 @@
+// C# Explicit Layout Struct Example\nusing System.Runtime.InteropServices;\n\n[StructLayout(LayoutKind.Explicit)]\nstruct MyExplicitStruct {\n    [FieldOffset(0)]\n    public int i;\n    [FieldOffset(0)]\n    public float f;\n    // 'i' and 'f' share the same memory space, similar to a union.\n}

@@ -1,0 +1,1 @@
+using System;\nusing System.Collections.Generic;\nusing System.Linq;\n\nclass Program\n{\n    static void Main()\n    {\n        int x = 10; // Example user input\n        List<int> iList = Enumerable.Range(1, x).ToList();\n        \n        // Output the list to verify\n        Console.WriteLine(string.Join(", ", iList));\n    }\n}

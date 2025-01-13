@@ -1,0 +1,1 @@
+g++ -fsanitize=address,undefined your_code.cpp -o your_program\n   ./your_program

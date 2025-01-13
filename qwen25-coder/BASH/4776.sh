@@ -1,0 +1,1 @@
+# Example command to open BrowserStack in default browser for Internet Explorer testing\nopen "https://www.browserstack.com/live"

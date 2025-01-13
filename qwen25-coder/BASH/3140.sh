@@ -1,0 +1,1 @@
+emctl stop dbconsole\n   emctl start dbconsole

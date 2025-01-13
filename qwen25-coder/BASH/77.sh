@@ -1,0 +1,1 @@
+echo "This is a test." | mail -s "Test Email" your_email@example.com

@@ -1,0 +1,1 @@
+/usr/bin/time -v php your_script.php

@@ -1,0 +1,1 @@
+# Example script to sync database from staging to production\n   mysqldump -u user_staging -pDB_PASSWORD dbname_staging | mysql -u user_live -pDB_LIVE_PASSWORD dbname_live

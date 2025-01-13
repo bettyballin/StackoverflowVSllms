@@ -1,0 +1,1 @@
+form {\n    display: flex;\n    flex-direction: column;\n}\n\nlabel {\n    margin-bottom: 0.5em; /* Adds space between each label-input pair */\n}

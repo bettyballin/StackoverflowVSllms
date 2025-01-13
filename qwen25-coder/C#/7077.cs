@@ -1,0 +1,1 @@
+using (var db = new YourDataContext()) {\n       var userProfile = new UserProfile {\n           UserId = userId,\n           Address = address,\n           PhoneNumber = phoneNumber\n       };\n       db.UserProfiles.InsertOnSubmit(userProfile);\n       db.SubmitChanges();\n   }

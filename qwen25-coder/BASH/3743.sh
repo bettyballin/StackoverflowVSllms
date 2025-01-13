@@ -1,0 +1,1 @@
+# Example command to find and safely remove 'trashed' emails in a Maildir folder\nfind /path/to/maildir/cur -type f -name ",*T*" -exec rm {} \;

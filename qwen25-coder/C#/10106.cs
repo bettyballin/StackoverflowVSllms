@@ -1,0 +1,1 @@
+public class YourModel\n{\n    public int Id { get; set; }\n\n    [UniqueAcrossTables(ErrorMessage = "The value must be unique across all specified tables.")]\n    public string Field { get; set; }\n}

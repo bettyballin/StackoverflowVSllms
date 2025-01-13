@@ -1,0 +1,1 @@
+int foo(int bar) {\n    int result;\n    __asm__ volatile (\n        "movl %1, %%eax;\n\t"   // Assume some operation is done.\n        "pushl %%eax;\n\t"\n        "popl %0;\n\t"\n        : "=r"(result)          // Output operand\n        : "g"(bar)              // Input operand\n        : "%eax"                // Clobbered register\n    );\n    return result;\n}

@@ -1,0 +1,1 @@
+double roundedValue = 1.9.RoundFractional(8); // yields 1.875\nroundedValue = 1.95.RoundFractional(8); // yields 2.0

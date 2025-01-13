@@ -1,0 +1,1 @@
+public IQueryable<Restaurant> All()\n{\n    return _context.Restaurants.Select(r => new Restaurant\n    {\n        Id = r.Id,\n        Name = r.Name\n    });\n}

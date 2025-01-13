@@ -1,0 +1,1 @@
+git --version  # Check if Git is installed on your system

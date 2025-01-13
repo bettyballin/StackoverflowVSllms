@@ -1,0 +1,1 @@
+# Check current umask\numask\n\n# Set umask to 0 so that open() with mode 0777 creates files with full permissions\numask 0

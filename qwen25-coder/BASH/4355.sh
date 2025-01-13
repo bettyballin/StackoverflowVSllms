@@ -1,0 +1,1 @@
+wsadmin.sh -lang jython -c "AdminTask.modifyCipherSuite(['-name', 'IbmJSSE2', '-suite', 'SSL_RSA_WITH_RC4_128_SHA', '-add'])"

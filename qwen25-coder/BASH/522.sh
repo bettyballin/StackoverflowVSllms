@@ -1,0 +1,1 @@
+sqlcmd -S YourServerName\YourInstanceName -d msdb -i DeleteJobScript.sql

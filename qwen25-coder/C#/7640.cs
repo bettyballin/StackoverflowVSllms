@@ -1,0 +1,1 @@
+using (var destConn = new OleDbConnection(connectionstringA))\n   {\n       destConn.Open();\n       var testCmd = new OleDbCommand("SELECT COUNT(*) FROM [" + tableName + "]", destConn);\n       int count = Convert.ToInt32(testCmd.ExecuteScalar());\n       Console.WriteLine("Number of rows: " + count);\n   }

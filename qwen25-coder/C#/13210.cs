@@ -1,0 +1,1 @@
+using System;\nusing System.Data.OleDb;\n\nclass Program\n{\n    static void Main()\n    {\n        string connectionString = "Provider=Search.CollatorDSO; Extended Properties='Application=Windows'";\n        \n        using (OleDbConnection connection = new OleDbConnection(connectionString))\n        {\n            // Your code for querying goes here.\n        }\n    }\n}

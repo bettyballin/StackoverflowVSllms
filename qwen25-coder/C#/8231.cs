@@ -1,0 +1,1 @@
+using System;\nusing System.Management;\n\nclass Program\n{\n    static void Main()\n    {\n        ManagementObjectSearcher searcher = new ManagementObjectSearcher("SELECT * FROM Win32_Process");\n        foreach (ManagementObject obj in searcher.Get())\n        {\n            Console.WriteLine(obj["ProcessName"]);\n        }\n    }\n}

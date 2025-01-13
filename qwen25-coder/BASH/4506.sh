@@ -1,0 +1,1 @@
+# For C headers\ngcc -xc -E -v -\n\n# For C++ headers\ng++ -x c++ -E -v -

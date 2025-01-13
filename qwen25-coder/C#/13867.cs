@@ -1,0 +1,1 @@
+public static class StringExtensions\n{\n    public static string Left(this string str, int length)\n    {\n        if (str == null) return null;\n        return str.Substring(0, Math.Min(length, str.Length));\n    }\n}

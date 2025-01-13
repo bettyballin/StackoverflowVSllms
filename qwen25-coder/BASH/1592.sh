@@ -1,0 +1,1 @@
+# Example firewall rule configuration on a Linux-based system (iptables example)\nsudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT # Allow HTTP\nsudo iptables -A INPUT -p tcp --dport 443 -j ACCEPT # Allow HTTPS\nsudo iptables -P INPUT DROP # Drop all other traffic

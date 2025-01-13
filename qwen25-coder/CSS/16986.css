@@ -1,0 +1,1 @@
+.tooltip {\n    display: none; /* Hide tooltips by default */\n}\n\n/* Only applies if CSS is enabled and the specific selector works */\n@media (prefers-color-scheme) {\n    .tooltip-visible .tooltip {\n        display: inline-block;\n    }\n}

@@ -1,0 +1,1 @@
+// Shared variables\nint x = 0;\nint y = 0;\n\nvoid writer_thread() {\n    x = 1; // Write A\n    y = 2; // Write B\n}\n\nvoid reader_thread() {\n    int a = y; // Read C\n    int b = x; // Read D\n}

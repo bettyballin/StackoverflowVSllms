@@ -1,0 +1,1 @@
+rpmbuild -bb --dbpath ~/rpmdb --buildroot ~/rpmbuild/BUILDROOT \\n    ~/rpmbuild/SPECS/your-application.spec

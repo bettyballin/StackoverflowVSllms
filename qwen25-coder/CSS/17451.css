@@ -1,0 +1,1 @@
+/* Example CSS for limiting vertical scroll within a wrapper */\n.wrapper {\n    position: relative;\n    height: 600px; /* Set your desired height */\n    overflow-y: auto; /* Enable scrolling if content overflows */\n}

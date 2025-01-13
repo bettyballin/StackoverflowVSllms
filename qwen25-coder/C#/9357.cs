@@ -1,0 +1,1 @@
+// C# file example\nnamespace MyProject.CSharp\n{\n    public class SomeCSharpClass { }\n}

@@ -1,0 +1,1 @@
+public (List<MyType>, List<MyType>) ReturnTwoLists()\n{\n    var listOne = new List<MyType>();\n    var listTwo = new List<MyType>();\n\n    // Populate the lists as needed\n\n    return (listOne, listTwo);\n}

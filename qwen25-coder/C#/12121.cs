@@ -1,0 +1,1 @@
+int startYear = DateTime.Now.Year - 10; // Example: Show last 10 years\nint endYear = DateTime.Now.Year + 1;    // Example: Include next year\nvar years = Enumerable.Range(startYear, endYear - startYear + 1).ToArray();\n\n// Assuming you have a DropDownList control named "YearDropDown"\nYearDropDown.DataSource = years;\nYearDropDown.DataBind();

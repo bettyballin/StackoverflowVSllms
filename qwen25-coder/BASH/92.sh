@@ -1,0 +1,1 @@
+$ORACLE_BASE/diag/rdbms/<dbname>/<instance_name>/trace/alert_<instance_name>.log

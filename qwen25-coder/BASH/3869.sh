@@ -1,0 +1,1 @@
+chmod 600 /path/to/your/web/directory/App.yml

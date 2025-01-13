@@ -1,0 +1,1 @@
+Mailman.Port = 587;

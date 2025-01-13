@@ -1,0 +1,1 @@
+# Add your plugin directory to the PATH\nPATH=;C:\Program Files\Autodesk\Maya20XX\plug-ins\n\n# Set MAYA_PLUG_IN_PATH if necessary\nMAYA_PLUG_IN_PATH=C:\Program Files\Autodesk\Maya20XX\plug-ins

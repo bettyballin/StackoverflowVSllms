@@ -1,0 +1,1 @@
+List<MyCustomClass> listCustClass = new List<MyCustomClass>(); // This line would cause a compile-time error in Java as you cannot instantiate an interface.\nlistCustClass = GetList();

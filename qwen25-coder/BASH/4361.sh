@@ -1,0 +1,1 @@
+systemctl stop nfs-utils\n   systemctl start nfs-utils

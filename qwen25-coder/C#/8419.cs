@@ -1,0 +1,1 @@
+[Flags]\npublic enum E \n{ \n    zero = 0,\n    one = 1\n}\n\n// ...\n\nE e;\nobject o = 1;\ne = (E)Convert.ChangeType(o, typeof(E));

@@ -1,0 +1,1 @@
+<form method="post">\n      {% csrf_token %}\n      <select name="pathology_id">\n          {% for pathology in pathology_list %}\n              <option value="{{ pathology.id }}">{{ pathology.pathology }}</option>\n          {% endfor %}\n      </select>\n      <button type="submit">Search</button>\n  </form>

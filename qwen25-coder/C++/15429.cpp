@@ -1,0 +1,1 @@
+try {\n    MyClass^ myObject = gcnew MyClass();\n    // Use myObject here\n} catch (System::OutOfMemoryException^ ex) {\n    // Handle memory allocation failure\n    System::Console::WriteLine("Out of Memory: " + ex->Message);\n}

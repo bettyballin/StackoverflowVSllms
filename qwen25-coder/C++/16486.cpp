@@ -1,0 +1,1 @@
+// Pseudo-code for text color extraction using histograms:\n   Color textColor = detectTextColorFromHistogram(grayscaleImage);

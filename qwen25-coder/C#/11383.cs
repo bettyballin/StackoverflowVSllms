@@ -1,0 +1,1 @@
+System.Net.WebRequest.DefaultWebProxy = new System.Net.WebProxy();\nSystem.Net.WebRequest.DefaultWebProxy.Credentials = System.Net.CredentialCache.DefaultCredentials;\nSystem.Net.WebRequest.DefaultWebProxy.BypassProxyOnLocal = false; // Set to false as per your requirement

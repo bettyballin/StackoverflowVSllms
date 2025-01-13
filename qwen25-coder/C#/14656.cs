@@ -1,0 +1,1 @@
+public class Person\n{\n    public int Id { get; set; }\n    public string FirstName { get; set; }\n    public string LastName { get; set; }\n    public int? PetId { get; set; } // Nullable if the pet is optional\n    public virtual Pet Pet { get; set; }\n}

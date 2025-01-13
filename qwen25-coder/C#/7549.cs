@@ -1,0 +1,1 @@
+using System.Security.Cryptography;\n\n   public string HashPassword(string password)\n   {\n       byte[] bytes = SHA256.Create().ComputeHash(Encoding.UTF8.GetBytes(password));\n       return Convert.ToBase64String(bytes);\n   }

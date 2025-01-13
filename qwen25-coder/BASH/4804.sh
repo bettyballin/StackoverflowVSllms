@@ -1,0 +1,1 @@
+./symlink_copy.sh /path/to/source /path/to/destinatio

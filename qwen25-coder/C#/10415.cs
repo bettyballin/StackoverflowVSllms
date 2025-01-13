@@ -1,0 +1,1 @@
+<%@ Page Language="C#" %>\n\n<script type="text/C#" runat="server">\n    [System.Web.Services.WebMethod]\n    public static List<string> GetAutocompleteEntries(string input)\n    {\n        var control = new MyControl();\n        return control.LookupEntries(input);\n    }\n</script>

@@ -1,0 +1,1 @@
+string[] sa = {"one", "two", "three", "four"};\nstring ns = String.Join(" * ", sa);\n// Output:\n// one * two * three * four

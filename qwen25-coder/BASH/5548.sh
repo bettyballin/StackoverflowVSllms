@@ -1,0 +1,1 @@
+@echo off\nset GIT_PROJECT_ROOT=e:\vc\git\ngit.exe %*

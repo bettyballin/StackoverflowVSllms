@@ -1,0 +1,1 @@
+# Restart SQL Server Reporting Services\nRestart-Service -Name "ReportServer"

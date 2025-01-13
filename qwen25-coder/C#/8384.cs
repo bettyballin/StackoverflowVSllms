@@ -1,0 +1,1 @@
+mscorlib.dll!System.Delegate.DynamicInvokeImpl\nSystem.Windows.Forms.dll!System.Windows.Forms.Control.InvokeMarshaledCallbackDo\nSystem.Windows.Forms.dll!System.Windows.Forms.Control.InvokeMarshaledCallbackHelper

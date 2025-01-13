@@ -1,0 +1,1 @@
+#include "gtest/gtest.h"\n\n   // Example function to be tested\n   int Add(int a, int b) {\n       return a + b;\n   }\n\n   // Test case\n   TEST(AdditionTest, HandlesPositiveIntegers) {\n       EXPECT_EQ(Add(1, 2), 3);\n   }

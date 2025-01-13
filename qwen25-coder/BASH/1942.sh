@@ -1,0 +1,1 @@
+// Example of running PHPStan for static analysis\n   vendor/bin/phpstan analyze src/

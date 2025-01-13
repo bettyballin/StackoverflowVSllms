@@ -1,0 +1,1 @@
+et use \\serverB\sharedfolder /user:domain\webuser password

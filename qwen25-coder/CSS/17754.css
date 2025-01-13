@@ -1,0 +1,1 @@
+.box {\n    box-sizing: border-box; /* Includes padding and border in element's total width */\n    width: 150px;\n    padding: 0;\n    border: 1px solid black;\n    margin: 0;\n}

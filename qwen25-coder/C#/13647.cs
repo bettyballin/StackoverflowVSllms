@@ -1,0 +1,1 @@
+theDoc.PageSize = new XSize(842, 595); // A4 size\n   theDoc.PageOrientations.AddLast(PageSizes.A4);

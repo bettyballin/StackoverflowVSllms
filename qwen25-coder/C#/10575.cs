@@ -1,0 +1,1 @@
+[DllImport("shared.dll", CallingConvention = CallingConvention.StdCall, CharSet = CharSet.Auto)]\nstatic extern string f_get_hello_world();\n\n// If the function name is mangled\n[DllImport("shared.dll", CallingConvention = CallingConvention.StdCall, EntryPoint = "_getVtableInfo_f_get_hello_world@12")]\nstatic extern string f_get_hello_world_m();

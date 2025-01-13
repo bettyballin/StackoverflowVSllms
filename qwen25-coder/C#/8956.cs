@@ -1,0 +1,1 @@
+using (var context = new MyDataContext())\n{\n    var parentEntity = context.ParentEntities\n                              .FirstOrDefault(p => p.Id == someId);\n\n    if (parentEntity != null)\n    {\n        // Access the one-to-one related entity through navigation property\n        var childEntity = parentEntity.MyAssociation;\n\n        // Use childEntity here...\n    }\n}

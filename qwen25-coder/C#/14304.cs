@@ -1,0 +1,1 @@
+dataGridView.DataSource = new List<Baz> { /* your data */ };\nConfigureDataGridViewColumns(dataGridView);

@@ -1,0 +1,1 @@
+// Force a collection of all generations (0, 1, and 2)\nGC.Collect(GC.MaxGeneration);

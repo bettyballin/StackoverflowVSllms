@@ -1,0 +1,1 @@
+// Example of a basic IDL definition compliant with COM standards\n[\n    object,\n    uuid(12345678-9abc-def0-1234-56789abcdef0),\n    dual,\n    nonextensible,\n    pointer_default(unique)\n]\ninterface IMyInterface : IUnknown {\n    [id(1)] HRESULT MyMethod([in] intparam);\n};

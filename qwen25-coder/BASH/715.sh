@@ -1,0 +1,1 @@
+# Start your script or command in the background\n   ./your_script.sh &\n   MY_PID=$!

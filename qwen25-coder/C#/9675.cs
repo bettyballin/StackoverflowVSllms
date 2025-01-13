@@ -1,0 +1,1 @@
+from a in dbReqs\ngroup a by new { a.AssignmentID, a.StopID } into pr\nselect new\n{\n    AssignmentID = pr.Key.AssignmentID,\n    StopID = pr.Key.StopID,\n    PickQty = pr.Sum(p => p.PickQty),\n    ReqQty = pr.Sum(c => c.ReqQty)\n}

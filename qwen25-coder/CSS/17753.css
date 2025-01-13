@@ -1,0 +1,1 @@
+#items {\n  width: 400px;\n}\n\n.category {\n  padding: 7px 13px;\n  background: #f0f0f0;\n  color: #101010;\n  font-size: 20px;\n  border-bottom: 1px solid #d0d0d0;\n}\n\n.list-product {\n  border-bottom: 1px solid #ddd;\n  font-size: 12px;\n  padding: 10px;\n}\n\n.description {\n  color: #777;\n}

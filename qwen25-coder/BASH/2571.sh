@@ -1,0 +1,1 @@
+2 * * * * /usr/bin/curl --basic --user 'user:pass' http://localhost/cron/do_some_action > /var/www/app/cronlog.log 2>&1

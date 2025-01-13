@@ -1,0 +1,1 @@
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer\n    dotnet add package Oracle.EntityFrameworkCore

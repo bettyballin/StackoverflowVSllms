@@ -1,0 +1,1 @@
+sed -i '/^-- Dump completed on/,$d' restore_table_script.sql

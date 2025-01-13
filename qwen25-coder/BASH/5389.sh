@@ -1,0 +1,1 @@
+# Generate key pair (this is just an example, customize as needed)\ngpg --generate-key\n\n# Encrypt a sample file\necho "Hello, world!" > sample.txt\ngpg -e -r "YourGnuPGKeyID" sample.txt\n\n# Decrypt the sample file\ngpg -d sample.txt.gpg

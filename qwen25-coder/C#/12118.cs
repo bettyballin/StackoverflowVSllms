@@ -1,0 +1,1 @@
+using (var context = new MyAccessContext())\n{\n    var records = context.MyTables.Where(t => t.Id > 10).ToList();\n    // Process your records here.\n}

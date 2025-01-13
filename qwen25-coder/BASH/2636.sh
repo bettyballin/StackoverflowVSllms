@@ -1,0 +1,1 @@
+awk 'BEGIN {for(i=32; i<=NR; i+=15) marker[i] = 1} marker[NR] {print "#"$0; next} {print}' inputfile.txt > outputfile.txt

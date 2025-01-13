@@ -1,0 +1,1 @@
+# Example command to open a specific UDP port on a Linux server\n   sudo ufw allow 13456/udp

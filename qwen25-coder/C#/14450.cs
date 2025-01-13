@@ -1,0 +1,1 @@
+string originalQueryString = "id=12345&year=2008";\nstring encryptedQueryString = CryptoHelper.Encrypt(originalQueryString);\nstring urlWithEncryptedQuery = $"http://www.mysite.com/report.aspx?crypt={encryptedQueryString}";

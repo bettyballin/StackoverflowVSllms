@@ -1,0 +1,1 @@
+int a = 5;\nint b = 5;\n\nint x = a++; // x becomes 5, a becomes 6\nint y = ++b; // y becomes 6, b becomes 6\n\nConsole.WriteLine($"a: {a}, x: {x}"); // Outputs: a: 6, x: 5\nConsole.WriteLine($"b: {b}, y: {y}"); // Outputs: b: 6, y: 6

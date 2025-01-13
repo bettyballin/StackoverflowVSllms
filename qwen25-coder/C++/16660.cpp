@@ -1,0 +1,1 @@
+#include <iostream>\n\nint main() {\n    // Output standard ASCII characters (0-127)\n    for (int i = 32; i < 128; ++i) { // Starting from space to tilde\n        std::cout << static_cast<char>(i);\n    }\n    return 0;\n}

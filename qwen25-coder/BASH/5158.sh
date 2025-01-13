@@ -1,0 +1,1 @@
+@echo off\nmove "C:\Windows\System32\SDL.dll" "C:\Windows\SysWOW64"

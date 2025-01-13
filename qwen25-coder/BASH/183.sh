@@ -1,0 +1,1 @@
+pip install gunicorn\ngunicorn -w 4 your_application:app

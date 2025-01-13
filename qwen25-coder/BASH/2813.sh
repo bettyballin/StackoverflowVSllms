@@ -1,0 +1,1 @@
+0 0 * * * /usr/bin/php /path/to/your_script.php >> /var/log/file_transfer.log 2>&1

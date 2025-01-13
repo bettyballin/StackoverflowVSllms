@@ -1,0 +1,1 @@
+public void GetCustomer(int id, string optionalMessage = "(no message)")\n{\n    // Method implementation...\n}

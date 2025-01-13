@@ -1,0 +1,1 @@
+sudo yum install openssl-devel zlib-devel bzip2-devel readline-devel sqlite-devel

@@ -1,0 +1,1 @@
+chmod 600 /etc/apache2/.ssl_passphrase.txt

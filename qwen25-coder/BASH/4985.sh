@@ -1,0 +1,1 @@
+# Use bcp to output unquoted CSV\n   bcp "SELECT * FROM YourDatabaseName.dbo.YourTable" queryout UnquotedOutput.csv -T -c -t,\n\n   # Add quotes around each field using sed (for Windows, use a Unix-like tool)\n   sed 's/\(.*\)/"\1"/' < UnquotedOutput.csv > QuotedOutput.csv

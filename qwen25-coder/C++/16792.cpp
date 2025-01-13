@@ -1,0 +1,1 @@
+#include <iostream>\n\nclass MyClass {\npublic:\n    ~MyClass() {\n        std::cout << "MyClass destroyed" << std::endl;\n    }\n};\n\nMyClass& getMyClass() {\n    static MyClass instance; // Local static object, destroyed after main\n    return instance;\n}\n\nint main() {\n    MyClass& myObject = getMyClass();\n    // Use myObject here\n    return 0;\n}

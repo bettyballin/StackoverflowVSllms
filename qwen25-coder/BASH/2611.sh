@@ -1,0 +1,1 @@
+sudo chown -R cs:staff /Users/cs/cs_project/

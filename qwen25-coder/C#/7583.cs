@@ -1,0 +1,1 @@
+<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"\n    ValidateRequest="false" CodeBehind="YourPage.aspx.cs" Inherits="YourNamespace.YourPage" %>

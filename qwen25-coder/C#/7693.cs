@@ -1,0 +1,1 @@
+IEnumerable<int> uniqueIds = myClassList.Select(x => x.ID).Distinct();

@@ -1,0 +1,1 @@
+sudo chgrp -R devgrp /media/myusbdisk/path/to/project\nsudo chmod -R ug+rwX,o+rX /media/myusbdisk/path/to/project

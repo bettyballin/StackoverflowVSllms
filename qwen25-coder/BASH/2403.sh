@@ -1,0 +1,1 @@
+setspn -l <service_account_name>

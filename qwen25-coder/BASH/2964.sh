@@ -1,0 +1,1 @@
+perl -pi -e 's/pattern/replacement/g' filename

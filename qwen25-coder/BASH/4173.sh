@@ -1,0 +1,1 @@
+alias diffclean='diff -ruN -x "*~" -x "*.bak"'

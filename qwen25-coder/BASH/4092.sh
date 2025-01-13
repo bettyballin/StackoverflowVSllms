@@ -1,0 +1,1 @@
+# Basic git commands they might use\n   git clone https://repo.git  # Clone a repository\n   git checkout branch_name      # Switch to a different branch\n   git pull                      # Pull changes from remote repository

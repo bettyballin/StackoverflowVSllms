@@ -1,0 +1,1 @@
+pdfdetach -remove <file_id> input.pdf

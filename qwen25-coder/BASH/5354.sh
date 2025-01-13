@@ -1,0 +1,1 @@
+# Using drush to clear cache\ndrush cr

@@ -1,0 +1,1 @@
+mysql -u username -p --check -f database_name < /path/to/yourfile.sql

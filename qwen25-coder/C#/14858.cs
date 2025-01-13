@@ -1,0 +1,1 @@
+using System;\nusing System.Diagnostics;\n\nclass Program\n{\n    static void Main()\n    {\n        Process currentProcess = Process.GetCurrentProcess();\n        Console.WriteLine($"Working Set: {currentProcess.WorkingSet64} bytes");\n    }\n}

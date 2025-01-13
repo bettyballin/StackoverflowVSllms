@@ -1,0 +1,1 @@
+sudo launchctl unload /System/Library/LaunchDaemons/ssh.plist\n   sudo launchctl load /System/Library/LaunchDaemons/ssh.plist

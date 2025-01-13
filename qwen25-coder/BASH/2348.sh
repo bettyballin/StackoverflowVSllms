@@ -1,0 +1,1 @@
+gpg --import /path/to/private.key

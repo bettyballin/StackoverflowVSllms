@@ -1,0 +1,1 @@
+PYTHONPATH=. python -m eggs.bar.a

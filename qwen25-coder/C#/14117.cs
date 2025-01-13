@@ -1,0 +1,1 @@
+using System.Linq;\n\ninternal List<Obj> returnStuff()\n{\n    return getSomeStuff().OfType<Obj>().ToList();\n}

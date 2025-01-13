@@ -1,0 +1,1 @@
+[Authorize]\npublic class SensitiveDataController : Controller\n{\n    public ActionResult Index()\n    {\n        // Your logic here\n        return View();\n    }\n}

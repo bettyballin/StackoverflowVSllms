@@ -1,0 +1,1 @@
+#header {\n  height: 150px;\n  display: flex;          /* Enables flex context */\n  flex-direction: column; /* Stacks children vertically */\n  justify-content: flex-end; /* Aligns content to the bottom */\n}

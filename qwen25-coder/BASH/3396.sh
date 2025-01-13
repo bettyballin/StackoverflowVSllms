@@ -1,0 +1,1 @@
+./vendor/bin/propel config:convert --dir="." --output-dir="path/to/generated"

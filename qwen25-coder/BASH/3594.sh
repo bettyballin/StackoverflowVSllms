@@ -1,0 +1,1 @@
+mysqldump -u username -p database_name table1 table2 > selective_backup.sql

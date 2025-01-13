@@ -1,0 +1,1 @@
+LogParser "SELECT date, time, c-ip, cs-uri-stem, sc-status INTO results.csv FROM u_ex.log" -o:CSV

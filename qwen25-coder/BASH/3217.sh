@@ -1,0 +1,1 @@
+pgbadger -f stderr /path/to/postgresql/logfile.log -o output_report.html

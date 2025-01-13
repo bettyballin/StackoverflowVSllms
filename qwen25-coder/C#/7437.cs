@@ -1,0 +1,1 @@
+using System;\n\n   class Program {\n       static void Main(string[] args) {\n           var myClass = new MyCppLibWrapper.MyClass();\n           myClass.CallCppMethod();\n       }\n   }

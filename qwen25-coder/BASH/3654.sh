@@ -1,0 +1,1 @@
+# Example bash script for applying migrations using Flyway\nflyway clean # Clean the database before deployment (be cautious with this)\nflyway migrate

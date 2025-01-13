@@ -1,0 +1,1 @@
+public class YourViewModel\n{\n    public bool IsDivVisible { get; set; }\n}

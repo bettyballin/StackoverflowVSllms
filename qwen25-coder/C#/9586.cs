@@ -1,0 +1,1 @@
+string imageUrl = "Pics/Image123.jpg?" + DateTime.Now.Ticks;\n// Use imageUrl in your Image control or Repeater

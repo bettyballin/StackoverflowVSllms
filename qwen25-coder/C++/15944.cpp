@@ -1,0 +1,1 @@
+#pragma once\n#include "atlbase.h"\n#include "atlcom.h"\n#include "ATLHost.h"\n#include <olectl.h>\n#include "RTDSrv_i.c"\n\n#define MODNAME _T("RTD Server")

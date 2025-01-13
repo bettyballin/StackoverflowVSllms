@@ -1,0 +1,1 @@
+public class MyService : IInternalService\n{\n    public string Get(string data)\n    {\n        // Implementation for Get\n        return "Data Retrieved: " + data;\n    }\n\n    public void Save(string data)\n    {\n        // Implementation for Save\n        Console.WriteLine("Data Saved: " + data);\n    }\n}

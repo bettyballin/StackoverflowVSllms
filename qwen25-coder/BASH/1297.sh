@@ -1,0 +1,1 @@
+# Take baseline memory snapshot\numdh -p:<process_id> > umdh_baseline.txt\n\n# Take another snapshot after running the application\numdh -p:<process_id> > umdh_second_run.txt\n\n# Compare the snapshots\numdh umdh_second_run.txt umdh_baseline.txt > diff_output.txt

@@ -1,0 +1,1 @@
+using System.Data.Entity;\n\npublic class SalesContext : DbContext\n{\n    public DbSet<Order> Orders { get; set; }\n    // Other sales-related entities\n}\n\npublic class HRContext : DbContext\n{\n    public DbSet<Employee> Employees { get; set; }\n    // Other HR-related entities\n}

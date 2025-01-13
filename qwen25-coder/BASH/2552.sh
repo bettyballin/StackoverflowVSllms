@@ -1,0 +1,1 @@
+pm install @fullhuman/postcss-purgecss --save-dev

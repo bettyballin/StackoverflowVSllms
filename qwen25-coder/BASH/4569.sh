@@ -1,0 +1,1 @@
+# Example command to start MySQL in WSL\nwsl --distribution Ubuntu --user root --exec bash -c "service mysql start"

@@ -1,0 +1,1 @@
+public void ValidateUserInput(string userInput)\n   {\n       if (!Regex.IsMatch(userInput, "^[a-zA-Z0-9]*$"))\n           throw new ArgumentException("Invalid input!");\n   }

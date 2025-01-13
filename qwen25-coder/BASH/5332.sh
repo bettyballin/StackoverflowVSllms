@@ -1,0 +1,1 @@
+@echo off\n      "C:\Path\To\YourExecutable.exe" > "C:\Logs\output.log" 2>&1

@@ -1,0 +1,1 @@
+div.smallpins {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    text-align: center;\n    background: url(/img/lane.gif) repeat;\n    min-width: 4.5em;\n}\n\ndiv.smallpins img {\n    width: 1em;\n    height: 1em;\n    margin: 0.2em; /* Adjust as necessary */\n}

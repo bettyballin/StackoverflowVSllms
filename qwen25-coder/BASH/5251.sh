@@ -1,0 +1,1 @@
+cd C:\Inetpub\AdminScripts\ncscript adsutil.vbs set smtpsvc/1/access/ipgrant "your_internal_ip"

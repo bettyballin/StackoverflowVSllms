@@ -1,0 +1,1 @@
+#include "com_example_MyNativeLib.h"\n#include <stdio.h>\n\nJNIEXPORT void JNICALL Java_com_example_MyNativeLib_myNativeMethod(JNIEnv *env, jobject obj) {\n    printf("Hello from native code!\n");\n}

@@ -1,0 +1,1 @@
+public class ProductViewModel\n{\n    public string Name { get; set; }\n    public decimal Price { get; set; }\n}\n\n// In your Controller\npublic ActionResult Details(int id)\n{\n    var model = _productService.GetProductById(id);\n    var viewModel = new ProductViewModel\n    {\n        Name = model.Name,\n        Price = model.Price\n    };\n    return View(viewModel);\n}

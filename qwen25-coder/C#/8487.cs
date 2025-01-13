@@ -1,0 +1,1 @@
+ISession session = sessionFactory.OpenSession();\nIList<Message> mainMessages = session.CreateCriteria<Message>()\n    .Add(Restrictions.IsNull("ParentId")) // this retrieves only top-level messages\n    .List<Message>();

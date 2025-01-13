@@ -1,0 +1,1 @@
+using Devart.Data.Oracle;\n\nstring connectionString = "User Id=myUsername;Password=myPassword;Data Source=MyOracleDB;";\nusing (var connection = new OracleConnection(connectionString))\n{\n    connection.Open();\n    // Your database operations here\n}

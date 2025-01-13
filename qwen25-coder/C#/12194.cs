@@ -1,0 +1,1 @@
+public static bool IsEmpty<T>(this IEnumerable<T> list)\n{\n    if (list is ICollection<T> collection) return collection.Count == 0;\n    return !list.Any();\n}

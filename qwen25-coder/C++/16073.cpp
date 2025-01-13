@@ -1,0 +1,1 @@
+// MyLibrary.h\n   #if defined(MYLIBRARY_EXPORTS)\n   #define MYLIBRARY_API __declspec(dllexport)\n   #else\n   #define MYLIBRARY_API __declspec(dllimport)\n   #endif\n\n   extern "C" {\n       MYLIBRARY_API int add(int a, int b);\n       // more functions...\n   }

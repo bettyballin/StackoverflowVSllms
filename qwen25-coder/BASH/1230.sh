@@ -1,0 +1,1 @@
+cat /proc/1234/status  # Replace '1234' with the PID of your application.

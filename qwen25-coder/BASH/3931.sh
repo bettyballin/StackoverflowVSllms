@@ -1,0 +1,1 @@
+ls /usr/local/include/freetype2/\n   ls /usr/local/lib/

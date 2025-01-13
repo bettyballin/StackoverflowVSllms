@@ -1,0 +1,1 @@
+[Entity]\npublic class User : Entity<long>\n{\n    [Index(IsUnique = true)]\n    public string Name { get; set; }\n\n    [Required]\n    public string Email { get; set; }\n}

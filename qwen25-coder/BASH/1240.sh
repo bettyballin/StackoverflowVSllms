@@ -1,0 +1,1 @@
+# Suppose you want to set 1.6 as your default:\nsudo ln -sf /System/Library/Frameworks/JavaVM.framework/Versions/1.6/A A

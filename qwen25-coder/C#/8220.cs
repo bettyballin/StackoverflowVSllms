@@ -1,0 +1,1 @@
+string filePath = @"C:\path\to\your\file.txt";\n\nif (FileChecker.IsFileReady(filePath))\n{\n    // Process your file here.\n}\nelse\n{\n    Console.WriteLine("The file could not be accessed as it might still be being copied.");\n}

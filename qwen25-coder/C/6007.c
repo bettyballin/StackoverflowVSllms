@@ -1,0 +1,1 @@
+#include <math.h>\n#include <stdio.h>\n\nint main() {\n    double number = 4.0;\n    double squareRoot = sqrt(number);\n    printf("The square root of %.2f is %.2f\n", number, squareRoot);\n    return 0;\n}

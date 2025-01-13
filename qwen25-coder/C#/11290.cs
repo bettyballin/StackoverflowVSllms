@@ -1,0 +1,1 @@
+// In Projects.Client project\nusing Library;\n\npublic class xxx\n{\n    public void DoSomething()\n    {\n        // This method is exposed from the Library which internally uses SomeDll\n        SomeDllUser.DoSomething();\n    }\n}

@@ -1,0 +1,1 @@
+// ExposedCInterface.cpp\n#include "ExposedCInterface.h"\n\nvoid CallManagedCode() {\n    ManagedWrapper^ wrapper = gcnew ManagedWrapper();\n    wrapper->CallCSharpFunction();\n}

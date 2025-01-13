@@ -1,0 +1,1 @@
+sudo sh /media/cdrom/VBoxLinuxAdditions.ru

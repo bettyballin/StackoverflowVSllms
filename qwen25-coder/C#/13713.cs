@@ -1,0 +1,1 @@
+for (int i = 0; i < items.Count; i++)\n{\n    // Do something with items[i]\n}

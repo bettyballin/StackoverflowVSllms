@@ -1,0 +1,1 @@
+# Convert all newlines inside the file to spaces.\ntr '\n' ' ' < inputfile > temp1\n\n# Replace STX (ASCII 002) followed by a space with just a newline.\nsed -z 's/\x02 /\'$'\n/g' temp1 > outputfile

@@ -1,0 +1,1 @@
+# Example of accessing a remote testing platform API (hypothetical)\n   curl -X POST "https://api.testdroid.com/v2/devices" \\n   -H "Authorization: Bearer YOUR_API_KEY" \\n   -F "deviceGroup=windows-mobile-6.1" \\n   -F "testScript=myAppTestScript.zip"

@@ -1,0 +1,1 @@
+c -zvv smtp.yourisp.com 25

@@ -1,0 +1,1 @@
+# Run PerfView on the server with minimal impact\n   perfview.exe collect -zip D:\PerfResults.zip

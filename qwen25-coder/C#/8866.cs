@@ -1,0 +1,1 @@
+using Microsoft.VisualStudio.TestTools.WebTesting;\n\npublic class BaseWebTest : WebTest {\n    public override IEnumerator<WebTestRequest> GetPreAuthenticateRequests() {\n        // Configure authentication and other settings here\n\n        var request = new WebTestRequest("http://example.com");\n        yield return request;\n    }\n}

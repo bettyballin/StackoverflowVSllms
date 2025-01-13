@@ -1,0 +1,1 @@
+sshfs slave@theServerAddress:/pathToFile/ /mnt/remote/\n   cp importantFile.txt /mnt/remote/\n   umount /mnt/remote/

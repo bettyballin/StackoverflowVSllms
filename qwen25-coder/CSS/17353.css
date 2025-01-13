@@ -1,0 +1,1 @@
+.menu {\n    display: flex; /* This makes the children line up in a row */\n}\n\n.menu-item {\n    background-color: #yourColor; /* Replace with your desired color */\n    width: 125px;\n    height: 30px;\n    text-align: center;\n    line-height: 30px; /* Centers text vertically */\n}

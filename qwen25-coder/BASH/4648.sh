@@ -1,0 +1,1 @@
+# Example command to configure SQL Server mode for ASP.NET session state\n   aspnet_regsql.exe -W -C "Data Source=ServerName;Integrated Security=True;" -sstype p -d YourSessionStateDB

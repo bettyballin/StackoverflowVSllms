@@ -1,0 +1,1 @@
+bool isAuthenticated = BCrypt.Verify(password, storedHashedPassword);

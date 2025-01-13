@@ -1,0 +1,1 @@
+// Example C++ code\n#ifdef __cplusplus\nextern "C" {\n#endif\n\n__declspec(dllexport) int Add(int a, int b);\n\n#ifdef __cplusplus\n}\n#endif\n\nint Add(int a, int b) {\n    return a + b;\n}

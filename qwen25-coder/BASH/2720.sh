@@ -1,0 +1,1 @@
+gpg -a --export [Your User ID] > public.key

@@ -1,0 +1,1 @@
+icacls "C:\Path\To\Your\Dlls" /grant "DOMAIN\Username:(RX)"

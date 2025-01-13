@@ -1,0 +1,1 @@
+public IHttpActionResult GetData()\n{\n    var data = new List<YourType> { /* your data here */ };\n    return Json(data);\n}

@@ -1,0 +1,1 @@
+// Example: NDepend for .NET projects to visualize the dependency structure of assemblies, namespaces, types.\n   https://www.ndepend.com/

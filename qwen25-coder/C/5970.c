@@ -1,0 +1,1 @@
+condition ? exprIfTrue : exprIfFalse;

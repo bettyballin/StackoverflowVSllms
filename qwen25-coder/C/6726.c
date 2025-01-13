@@ -1,0 +1,1 @@
+sprintf_s(xPosition, 19, "%.2f", xPositionValue);

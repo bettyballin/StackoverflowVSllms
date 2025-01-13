@@ -1,0 +1,1 @@
+// Example of using ThreadLocal in a single-threaded environment\nThreadLocal<int> threadLocalData = new ThreadLocal<int>(() => 42);\n\npublic void SingleThreadExample()\n{\n    Console.WriteLine($"Value from thread local storage: {threadLocalData.Value}");\n}\n\n// This will print the same value because it's executed in the same thread

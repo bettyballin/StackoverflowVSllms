@@ -1,0 +1,1 @@
+#include <optional>\n   \n   std::optional<int> getValue() {\n       // some logic here\n       if (condition) {\n           return value;\n       } else {\n           return {};\n       }\n   }

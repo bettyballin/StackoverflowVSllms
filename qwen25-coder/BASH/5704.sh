@@ -1,0 +1,1 @@
+shuf -n 50000 your_large_file.txt > random_sample.txt

@@ -1,0 +1,1 @@
+bool CharIsHex(char c) {\n    return Uri.IsHexDigit(c);\n}

@@ -1,0 +1,1 @@
+wget -O - https://dbeaver.io/files/dbeaver.gpg.key | sudo apt-key add -\necho "deb [ arch=amd64 ] http://dbeaver.io/files/deb stable main" | sudo tee /etc/apt/sources.list.d/dbeaver.list\nsudo apt-get update && sudo apt-get install dbeaver-ce

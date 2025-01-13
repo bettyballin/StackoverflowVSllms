@@ -1,0 +1,1 @@
+brew install php@7.4 # or another version that suits your needs

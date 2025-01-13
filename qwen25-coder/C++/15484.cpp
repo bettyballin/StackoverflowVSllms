@@ -1,0 +1,1 @@
+__m128 a = _mm_set_ps(4.0f, 3.0f, 2.0f, 1.0f);\n   __m128 b = _mm_set_ps(8.0f, 7.0f, 6.0f, 5.0f);\n   __m128 c = _mm_add_ps(a, b); // SSE additio

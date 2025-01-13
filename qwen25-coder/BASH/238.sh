@@ -1,0 +1,1 @@
+# Export Database\n   mysqldump -u root -p your_database_name > /path/to/dropbox/your_database_name.sql\n   \n   # Import Database\n   mysql -u root -p your_database_name < /path/to/dropbox/your_database_name.sql

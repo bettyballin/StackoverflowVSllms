@@ -1,0 +1,1 @@
+// Clear the dictionary to remove all key-value entries.\nTxns.Clear();\n\n// Nullify the reference so the dictionary object itself can be collected.\nTxns = null;\n\n// Suggest garbage collection, though not mandatory and often unnecessary in production code.\nGC.Collect();

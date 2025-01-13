@@ -1,0 +1,1 @@
+// In host process code:\ndll = LoadDLL();\n\nvoid* allocatedBuffer;\ndll->do_task(&allocatedBuffer);\n\n// ... use the allocated buffer as needed ...\n\nif (allocatedBuffer != NULL) {\n    dll->free_buffer(allocatedBuffer);  // Free memory before unloading DLL.\n}\n\nUnloadDLL(dll);

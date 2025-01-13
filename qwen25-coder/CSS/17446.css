@@ -1,0 +1,1 @@
+/* Ensure proper width and box model handling */\n#sidebar {\n    width: 200px; /* Set your desired width */\n    overflow: hidden; /* Trigger HasLayout */\n    float: right;\n    margin-left: 15px; /* Adjust as necessary */\n}\n\n/* Clearfix for floated elements */\n.group:before,\n.group:after {\n    content: " ";\n    display: table;\n}\n\n.group:after {\n    clear: both;\n}

@@ -1,0 +1,1 @@
+#!/bin/bash\n\n   # Smalltalk script to load and run tests\n   echo "SmalltalkImage current assureStartupStamp.\n   TestRunner runPackage: 'BaseMatrixTests'.\n   Smalltalk quitPrimitive" | gst -f matrix.st -f matrix-test.st

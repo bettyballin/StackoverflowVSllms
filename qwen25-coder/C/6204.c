@@ -1,0 +1,1 @@
+void g_io_channel_win32_make_pollfd(GIOChannel *channel, GpollFD *pollfd, gpointer events);

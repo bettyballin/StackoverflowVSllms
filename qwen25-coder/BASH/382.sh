@@ -1,0 +1,1 @@
+csc -verbose -shared main.scm -output-file mylib.so  # Compile Scheme to a shared library\ng++ -o gamprog main.cpp -L `chicken-config --prefix`/lib -l:mylib.so `chicken-config --libs` # Link with C++

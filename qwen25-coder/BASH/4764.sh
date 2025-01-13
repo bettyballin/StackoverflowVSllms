@@ -1,0 +1,1 @@
+gcc -o rng_program main.c [other_source_files] -lm

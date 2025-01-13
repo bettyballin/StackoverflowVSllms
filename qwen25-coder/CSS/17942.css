@@ -1,0 +1,1 @@
+.parent {\n    display: flex;\n    flex-wrap: wrap; /* Enables the content to wrap onto multiple lines */\n}

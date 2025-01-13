@@ -1,0 +1,1 @@
+adplus -crash -quiet -pn w3wp.exe -o C:\Dumps

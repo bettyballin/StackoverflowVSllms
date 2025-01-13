@@ -1,0 +1,1 @@
+NSP::Admin admin();\nNSP::Server server();

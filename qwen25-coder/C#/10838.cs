@@ -1,0 +1,1 @@
+// Create a new HttpCookie without setting the Expires property\nHttpCookie sessionCookie = new HttpCookie("MySessionCookie");\nsessionCookie.Value = "SomeValue";\nsessionCookie.HttpOnly = true; // Important for security\nResponse.Cookies.Add(sessionCookie);

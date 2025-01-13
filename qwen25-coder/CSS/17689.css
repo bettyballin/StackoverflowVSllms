@@ -1,0 +1,1 @@
+#searchTabs a {\n    padding: 10px;\n    margin-right: 5px;\n    cursor: pointer;\n}\n\n#searchTabs a.active {\n    font-weight: bold;\n    color: blue;\n}\n\n#searchSections > div {\n    display: none;\n}\n#searchSections .active {\n    display: block;\n}

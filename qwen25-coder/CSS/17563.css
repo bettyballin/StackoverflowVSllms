@@ -1,0 +1,1 @@
+#A {\n    width: 700px;\n    border: 1px solid #000; /* just for visualization */\n}\n\n#B {\n    display: flex; /* This will make B wrap around its children */\n    border: 1px dashed #f00; /* just for visualization */\n}\n\n#C {\n    width: 100px;\n    background-color: lightblue; /* just for visualization */\n}

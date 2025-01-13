@@ -1,0 +1,1 @@
+#include <list>\nstruct Foo {\n    Foo(int i) {} \n};\n\nint main(void) {\n    std::list<Foo> l;\n    for (int i = 0; i < 10; ++i) {\n        l.push_back(Foo(i)); // Manually initializing with a value.\n    }\n}

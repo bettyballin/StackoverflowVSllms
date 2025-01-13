@@ -1,0 +1,1 @@
+// In your C++ header file\n   #ifdef MYDLL_EXPORTS\n   #define MYDLL_API __declspec(dllexport)\n   #else\n   #define MYDLL_API __declspec(dllimport)\n   #endif\n\n   class MYDLL_API MyUnmanagedClass {\n   public:\n       void DoSomething();\n   };\n   \n   // In your C++ implementation file\n   void MyUnmanagedClass::DoSomething() {\n       // Function implementation\n   }

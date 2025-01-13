@@ -1,0 +1,1 @@
+Button btn = new Button();\n// Set properties for the button here.\nthis.Controls.Add(btn);

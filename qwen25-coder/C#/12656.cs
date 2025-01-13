@@ -1,0 +1,1 @@
+[MyAttribute("This code sux and should be looked at")]\n   public void DoEverything()\n   {\n   }

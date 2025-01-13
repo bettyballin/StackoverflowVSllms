@@ -1,0 +1,1 @@
+regsvr32 "%ProgramFiles%\Windows Sidebar\Gadgets\mediaplayer.gadget\MediaPlayer.dll"

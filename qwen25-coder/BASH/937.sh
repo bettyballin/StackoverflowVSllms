@@ -1,0 +1,1 @@
+# For Oracle 11.1.0.6\nexport ORACLE_HOME=/app/oracle/product/11.1.0/db_1\nexport PATH=$ORACLE_HOME/bin:$PATH\n\n# For Oracle 11.1.0.7\nexport ORACLE_HOME=/app/oracle/product/11.1.0/db_2\nexport PATH=$ORACLE_HOME/bin:$PATH

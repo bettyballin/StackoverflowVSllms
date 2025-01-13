@@ -1,0 +1,1 @@
+:: Register 32-bit COM DLL\n"C:\Windows\SysWOW64\regsvr32.exe" "C:\Path\To\Your32BitComponent.dll"\n\n:: Register 64-bit COM DLL\n"C:\Windows\System32\regsvr32.exe" "C:\Path\To\Your64BitComponent.dll"

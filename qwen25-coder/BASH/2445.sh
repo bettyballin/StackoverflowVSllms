@@ -1,0 +1,1 @@
+setspn -S HTTP/<servername> <domain>\<server_account>

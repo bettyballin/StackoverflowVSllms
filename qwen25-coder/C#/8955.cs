@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        ClientScript.RegisterOnSubmitStatement(this.GetType(), "validate", "Page_ClientValidate('presentaciones');");\n    }\n}

@@ -1,0 +1,1 @@
+#include <string>\n   using namespace std;\n\n   void reverseString(string& s) {\n       int left = 0, right = s.size() - 1;\n       while(left < right)\n           swap(s[left++], s[right--]);\n   }\n\n   int main() {\n       string test = "Hello";\n       reverseString(test);\n       cout << test; // outputs: "olleH"\n       return 0;\n   }

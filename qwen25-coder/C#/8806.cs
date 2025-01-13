@@ -1,0 +1,1 @@
+protected void DropDown1_SelectedIndexChanged(object sender, EventArgs e)\n{\n    // Your logic here based on what selection was made.\n    \n    UpdatePanel1.Update();  // Explicitly update the UpdatePanel\n}

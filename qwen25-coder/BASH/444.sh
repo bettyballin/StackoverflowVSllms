@@ -1,0 +1,1 @@
+find /path/to/search -type f -perm 0777 -print | awk '{print $1}'

@@ -1,0 +1,1 @@
+# Run this from your local PowerShell session to check if IIS is running on a remote server\n$remoteComputer = "RemoteServerName"\nInvoke-Command -ComputerName $remoteComputer -ScriptBlock {\n    Get-Service W3SVC | Select-Object Name, Status\n}

@@ -1,0 +1,1 @@
+# On the local server, edit or create the post-commit hook\ncd /path/to/local/repo/hooks/\nnano post-commit\n\n# Add below lines to the post-commit and save it (make sure paths are correct)\n#!/bin/sh\n/path/to/svn/bin/svnsync sync file:///path/to/local/repo\n\n# Make the post-commit script executable\nchmod +x post-commit

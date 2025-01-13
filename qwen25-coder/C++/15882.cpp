@@ -1,0 +1,1 @@
+char *str = new char[100];

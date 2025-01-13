@@ -1,0 +1,1 @@
+using System;\nusing System.Collections.ObjectModel;\n\npublic class ClassA\n{\n    private Collection<string> strings;\n\n    public Collection<string> Strings { get { return strings; } }\n\n    public ClassA(IEnumerable<string> strings)\n    {\n        // Convert IEnumerable<string> to Collection<string>\n        this.strings = new Collection<string>(strings);\n    }\n}

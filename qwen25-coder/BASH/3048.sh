@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Get the current SVN revision number\nREVISION=$(svn info | grep 'Revision' | awk '{print $2}')\n\n# Write it to a header file\necho "#define SVN_REVISION \"$REVISION\"" > svn_revision.h

@@ -1,0 +1,1 @@
+HtmlToTextConverter converter = new HtmlToTextConverter();\nstring html = "<html><head><title>Test</title></head><body><h1>Hello, World!</h1></body></html>";\nstring plainText = converter.ConvertHtmlToText(html);\nConsole.WriteLine(plainText);

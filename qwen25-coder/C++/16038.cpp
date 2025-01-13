@@ -1,0 +1,1 @@
+struct B : A {\n    void call_f_int(int x) { f(x); } // Assuming you want 'int' specialization\n};

@@ -1,0 +1,1 @@
+// Returning IList<T>\npublic IList<int> GetNumbersAsIList()\n{\n    List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };\n    return numbers;\n}\n\n// Returning Array\npublic int[] GetNumbersArray()\n{\n    int[] numbers = { 1, 2, 3, 4, 5 };\n    return numbers;\n}

@@ -1,0 +1,1 @@
+protected void SetButtonText(object sender, EventArgs e)\n{\n    Button btn = sender as Button;\n    if (btn != null)\n    {\n        btn.Text = Resources.res.Button_Text;\n    }\n}

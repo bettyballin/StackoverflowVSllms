@@ -1,0 +1,1 @@
+devenv /build "Release|Any CPU" [your_solution.sln] /time

@@ -1,0 +1,1 @@
+@echo off\nsetlocal\n\nREM Specify the VM name and description for the checkpoint\nset VM_NAME="YourVMName"\nset CHECKPOINT_DESCRIPTION="Snapshot before update"\n\nREM Call PowerShell to create the checkpoint\npowershell -Command "Checkpoint-VM -Name %VM_NAME% -Description '%CHECKPOINT_DESCRIPTION%'"\n\nendlocal

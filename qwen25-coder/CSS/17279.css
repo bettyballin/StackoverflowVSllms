@@ -1,0 +1,1 @@
+.your-element {\n       opacity: 0.5; /* Standard syntax */\n       filter: alpha(opacity=50); /* For IE8 and below */\n   }

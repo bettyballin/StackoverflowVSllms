@@ -1,0 +1,1 @@
+#icons {\n  width: 200px;\n  height: 100px;\n  display: flex; /* Enables flexbox */\n  gap: 10px; /* Space between items */\n}\n\n.divicon {\n  margin: 0;\n  padding: 0;\n  border: 0;\n}

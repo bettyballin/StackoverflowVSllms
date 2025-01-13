@@ -1,0 +1,1 @@
+int *active_search;\n   active_search = (int *) malloc(SEARCH_DIRECTIONS * sizeof(int));\n   if(active_search == NULL) {\n       // Handle error: failed to allocate memory\n       exit(EXIT_FAILURE);\n   }

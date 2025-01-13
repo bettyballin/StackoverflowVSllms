@@ -1,0 +1,1 @@
+// Define a class to hold the result\npublic class HelloWorldResult\n{\n    public string StrVal1 { get; set; }\n    public string StrVal2 { get; set; }\n}\n\n[WebMethod]\npublic HelloWorldResult HelloWorld3()\n{\n    return new HelloWorldResult\n    {\n        StrVal1 = "Hello World",\n        StrVal2 = "Hello World Again!"\n    };\n}

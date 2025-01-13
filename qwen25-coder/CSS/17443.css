@@ -1,0 +1,1 @@
+img {\n    width: 100%; /* Image will take full width of its parent container */\n    height: auto; /* Height is automatically adjusted to maintain aspect ratio */\n}

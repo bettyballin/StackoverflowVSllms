@@ -1,0 +1,1 @@
+sc sdset Apache2.2 "D:(A;;RPWP;;;SY)(A;;RPWP;;;BA)(A;;RPWP;;;S-1-5-32-544)"

@@ -1,0 +1,1 @@
+sudo kpartx -a /path/to/your/image.img

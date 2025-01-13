@@ -1,0 +1,1 @@
+string version = someAssembly.GetName().Version.ToString();

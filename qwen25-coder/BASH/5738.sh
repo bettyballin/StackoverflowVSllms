@@ -1,0 +1,1 @@
+@echo off\nsetlocal\n\nREM Define your repository path and backup target\nset REPOS=C:\path\to\your\repository\nset BACKUP=C:\path\to\backup\location\svn_backup\n\nREM Perform the svnadmin hotcopy command\n"%ProgramFiles%\Subversion\bin\svnadmin.exe" hotcopy --clean-logs "%REPOS%" "%BACKUP%"\n\necho SVN Hot Copy completed.\nendlocal

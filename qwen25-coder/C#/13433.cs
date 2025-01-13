@@ -1,0 +1,1 @@
+// Assuming you have a DataSet named 'dataSet' and a SqlDataAdapter named 'dataAdapter'\nstring newConnectionString = "Server=new_server_address;Database=database_name;User Id=username;Password=password;";\ndataAdapter.SelectCommand.Connection.ConnectionString = newConnectionString;

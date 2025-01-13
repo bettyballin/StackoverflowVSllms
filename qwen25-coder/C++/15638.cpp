@@ -1,0 +1,1 @@
+static void _helperFunction() {\n    // This function has internal linkage\n}

@@ -1,0 +1,1 @@
+# Command to show the history of a file and try to track copies harder\ngit log --follow -C path/to/new-file-copy.txt

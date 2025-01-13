@@ -1,0 +1,1 @@
+var uniqueItems = firstList.Union(secondList);

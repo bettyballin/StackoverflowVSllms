@@ -1,0 +1,1 @@
+@echo off\ntakeown /F %WINDIR%\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files /r /d Y\nicacls %WINDIR%\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files /reset /T\nrd /s %WINDIR%\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files

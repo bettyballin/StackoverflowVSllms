@@ -1,0 +1,1 @@
+string html = "<table>";\nforeach (DataRow row in yourDataSet.Tables[0].Rows)\n{\n    html += "<tr><td>" + row["Column1"].ToString() + "</td>";\n    html += "<td><a href='YourURL.aspx?id=" + row["Id"].ToString() + "'>" + row["Column2"].ToString() + "</a></td>";\n    html += "</tr>";\n}\nhtml += "</table>";\nyourPlaceHolder.Controls.Add(new LiteralControl(html));

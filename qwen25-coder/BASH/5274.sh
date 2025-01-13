@@ -1,0 +1,1 @@
+linuxdeployqt-continuous-x86_64.AppImage /path/to/your_application.desktop -appimage

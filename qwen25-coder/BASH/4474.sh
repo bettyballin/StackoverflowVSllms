@@ -1,0 +1,1 @@
+# How to find your version of Google Chrome from command line (Linux/Mac)\ngoogle-chrome --version\n\n# Windows Command Prompt\nchrome --version\n\n# PowerShell on Windows\n(Get-ItemProperty 'HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Google Chrome').DisplayVersio

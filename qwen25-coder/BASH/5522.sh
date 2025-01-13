@@ -1,0 +1,1 @@
+a2enmod expires\nsudo service apache2 restart  # or use systemctl on some systems

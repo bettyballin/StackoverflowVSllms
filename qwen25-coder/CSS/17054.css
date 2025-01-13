@@ -1,0 +1,1 @@
+.form_container .col1che {\n    display: inline-block; /* Changed from float */\n    width: 4%;\n    text-align: left;\n}\n\n.form_container .col2che {\n    display: inline-block; /* Changed from float */\n    width: 80%;\n    text-align: left;\n}\n\n.form_container .col3che {\n    display: inline-block; /* Changed from float */\n    width: 13%;\n    text-align: right;\n}

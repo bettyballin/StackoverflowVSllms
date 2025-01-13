@@ -1,0 +1,1 @@
+// Assuming reportParameters is a collection of ReportParameter objects\nReportParameter isActiveParam = new ReportParameter("IsActive");\nif (conditionForUsingIsActive) // Your condition here\n{\n    isActiveParam.Values.Add(useActive.ToString()); // useActive is a boolean variable\n}\nreportViewer.LocalReport.SetParameters(isActiveParam);

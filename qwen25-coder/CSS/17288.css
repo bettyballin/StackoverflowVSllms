@@ -1,0 +1,1 @@
+table {\n    width: 100%;\n    table-layout: fixed; /* Ensures that all columns have the same width */\n}\n\ntd, th {\n    word-wrap: break-word;\n}

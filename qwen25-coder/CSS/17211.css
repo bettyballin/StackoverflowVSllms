@@ -1,0 +1,1 @@
+/* Add this clearfix class in your CSS */\n.clearfix::after {\n    content: "";\n    clear: both;\n    display: block;\n}\n\n/* Apply the clearfix class to your footer div */\n#footer {\n    border-top: 10px solid #d8d8d8;\n    background:#5b5b5b;\n}

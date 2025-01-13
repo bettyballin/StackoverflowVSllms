@@ -1,0 +1,1 @@
+# Replace <repository-url> with your SVN repo URL\nsvn diff -c 125 <repository-url>/path/to/your/project > patchfile.diff

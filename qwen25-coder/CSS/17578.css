@@ -1,0 +1,1 @@
+#mybox:hover {\n   background-color: red;\n   opacity: 0; /* This will make the content completely transparent and not interactable */\n}

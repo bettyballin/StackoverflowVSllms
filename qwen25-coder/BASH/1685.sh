@@ -1,0 +1,1 @@
+tlbimp "C:\Program Files (x86)\VMware\VMware Workstation\vixCOM.dll" /out:VixInterop.dll

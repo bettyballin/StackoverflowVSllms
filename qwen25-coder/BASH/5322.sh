@@ -1,0 +1,1 @@
+cd C:\Path\To\PatchTool\nwindiff.exe /ud /t1 "Original Files" /t2 "Patched Files" "C:\SourceFiles" "C:\SourceFiles\Patched"

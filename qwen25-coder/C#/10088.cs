@@ -1,0 +1,1 @@
+// Interfaces.cs\nusing System;\nusing System.Runtime.InteropServices;\n\nnamespace MyComServer\n{\n    [Guid("81A45B1D-3EAF-4C6B-A098-FD7EDF4ECEEB")]\n    public interface IMyComInterface\n    {\n        string GetData();\n        void SetData(string data);\n    }\n}

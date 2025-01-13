@@ -1,0 +1,1 @@
+[HttpPost]\n   [ValidateAntiForgeryToken]\n   public ActionResult CreateUser(CreateUserModel model)\n   {\n       // Your logic here\n   }

@@ -1,0 +1,1 @@
+table {\n    width: 100%;\n    box-sizing: border-box; /* Ensure padding/border is included in the element's total width */\n    margin: 0;\n    padding: 0;\n}

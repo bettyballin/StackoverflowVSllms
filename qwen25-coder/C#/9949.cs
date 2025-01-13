@@ -1,0 +1,1 @@
+using BCrypt.Net;\n   string hashedPassword = BCrypt.HashPassword(password, passwordSalt);

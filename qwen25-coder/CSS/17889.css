@@ -1,0 +1,1 @@
+.your-div-class {\n    overflow-y: scroll;\n    /* Optional: Add some content height or min-height */\n    min-height: 100vh; /* Full viewport height as an example */\n}

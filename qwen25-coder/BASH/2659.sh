@@ -1,0 +1,1 @@
+gzip -c example.html > example.html.gz

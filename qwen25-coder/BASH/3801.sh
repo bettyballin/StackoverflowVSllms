@@ -1,0 +1,1 @@
+# Install QODBC setup from qbodbc.com after downloading\n  msiexec.exe /i QBODBC_Setup.msi /qbsilent

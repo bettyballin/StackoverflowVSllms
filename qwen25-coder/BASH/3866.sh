@@ -1,0 +1,1 @@
+# Create and checkout a release branch from mainline\ngit checkout -b release/1.0.x main\n\n# Make stabilizing changes on the release branch\n# Commit changes to the release branch as necessary\ngit add .\ngit commit -m "Stabilize for 1.0 release"\n\n# Once approved, merge back into main after additional testing if needed\ngit checkout main\ngit merge --no-ff release/1.0.x

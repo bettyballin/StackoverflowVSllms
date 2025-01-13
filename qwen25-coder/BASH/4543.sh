@@ -1,0 +1,1 @@
+mysql -u username -p database_name -e "INSERT INTO table_name (pdf_column) VALUES (LOAD_FILE('/path/to/your/file.pdf'));"

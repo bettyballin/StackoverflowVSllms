@@ -1,0 +1,1 @@
+using System;\nusing System.Runtime.InteropServices;\n\npublic class IconExtractor\n{\n    [DllImport("user32.dll")]\n    public static extern IntPtr ExtractIcon(IntPtr hInst, string lpszExeFileName, uint nIconIndex);\n\n    [DllImport("user32.dll", CharSet = CharSet.Auto)]\n    private static extern bool DestroyIcon(IntPtr hIcon);\n}

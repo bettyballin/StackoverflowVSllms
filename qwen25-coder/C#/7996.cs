@@ -1,0 +1,1 @@
+using (var context = new YourDataContext())\n{\n    bool exists = context.Users.Any(u => u.Email.Contains(userEmail));\n\n    // Alternatively, if you specifically want to use Contains on the collection of emails\n    var userEmails = context.Users.Select(u => u.Email);\n    bool found = userEmails.Contains(userEmail);\n\n    // Use 'exists' or 'found' as needed\n}

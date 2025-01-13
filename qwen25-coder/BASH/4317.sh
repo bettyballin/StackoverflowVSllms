@@ -1,0 +1,1 @@
+mxmlc -target-player=11.1 your_application.mxml

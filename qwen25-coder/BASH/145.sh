@@ -1,0 +1,1 @@
+systemctl restart httpd\n# or depending on your system and configuration:\nservice apache2 restart

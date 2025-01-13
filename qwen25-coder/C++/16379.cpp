@@ -1,0 +1,1 @@
+// Nested try/catch\ntry {\n  try {\n    try {\n      foo();\n    } catch(ExceptionTypeA) { }\n  } catch(ExceptionTypeB) { }\n} catch(ExceptionTypeC) { }\n\n// Linear try/catch\ntry {\n  foo();\n} catch(ExceptionTypeA) { }\ncatch(ExceptionTypeB) { }\ncatch(ExceptionTypeC) { }

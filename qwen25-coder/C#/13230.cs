@@ -1,0 +1,1 @@
+<pre><code class="language-csharp">\npublic string MyString = "The Sample Text";\n</code></pre>

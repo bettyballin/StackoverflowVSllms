@@ -1,0 +1,1 @@
+# Installation via Docker:\n   docker run --name tcms KiwiTcms/tcms:latest

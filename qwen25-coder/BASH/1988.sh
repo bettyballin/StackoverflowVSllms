@@ -1,0 +1,1 @@
+# Deny all incoming rules then allow necessary ones\n   netsh advfirewall set allprofiles state o

@@ -1,0 +1,1 @@
+// Simply run this command to start VisualVM from your terminal\n// Make sure JDK is installed and JAVA_HOME is set\n\njvisualvm

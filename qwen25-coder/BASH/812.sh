@@ -1,0 +1,1 @@
+pecl install beanstalk\n   echo "extension=beanstalk.so" >> `php --ini | grep "Loaded Configuration File:" | sed -e "s/.*:\s*//"`

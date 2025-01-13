@@ -1,0 +1,1 @@
+echo $HOSTNAME | awk -F'-' '{print $2, $3}'

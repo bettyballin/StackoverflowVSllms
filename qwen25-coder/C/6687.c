@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <gsl/gsl_cdf.h>\n\nint main() {\n    double P = 0.95; // Probability\n    double a = 1.96; // Z-value for the given confidence interval\n\n    // Calculate standard deviation\n    double std_dev = a / gsl_cdf_gaussian_Pinv((P + 1) / 2, 1);\n\n    printf("Standard Deviation: %f\n", std_dev);\n    \n    return 0;\n}

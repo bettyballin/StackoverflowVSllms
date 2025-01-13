@@ -1,0 +1,1 @@
+/* Consistent font properties */\nhtml body {\n    font-family: Arial, sans-serif; /* Use web-safe fonts */\n    font-weight: normal;\n    text-rendering: optimizeLegibility;\n}

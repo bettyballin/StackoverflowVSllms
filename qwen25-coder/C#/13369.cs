@@ -1,0 +1,1 @@
+public static Target FromLinqSafe(this db_Target source)\n{\n    if (source?.db_TargetBase == null) return new Target(); // or handle as needed\n\n    return new Target\n    {\n        id = source.id,\n        LastModified = source.db_TargetBase.LastModified,\n        // other properties...\n    };\n}

@@ -1,0 +1,1 @@
+# Example rsync command for backup\nrsync -avz /path/to/live/website user@backupserver:/path/to/backups/$(date +%Y%m%d%H%M)

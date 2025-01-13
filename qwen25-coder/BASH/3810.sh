@@ -1,0 +1,1 @@
+sudo apt-get install python3-pip  # Ensure pip3 is installed\npip3 install csvkit

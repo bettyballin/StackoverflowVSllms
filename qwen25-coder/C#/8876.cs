@@ -1,0 +1,1 @@
+modelBuilder.Entity<LmpDemoRequest>()\n    .Property(e => e.VerCol)\n    .IsRowVersion()\n    .IsConcurrencyToken();

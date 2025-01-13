@@ -1,0 +1,1 @@
+telnet mysmtphost 465

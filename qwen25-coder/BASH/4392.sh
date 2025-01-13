@@ -1,0 +1,1 @@
+sed -z 's/\n*yyyy\nxxxx\nzzzz\n//g' filename

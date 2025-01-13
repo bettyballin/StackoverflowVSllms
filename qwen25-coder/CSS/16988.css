@@ -1,0 +1,1 @@
+#contact_4 {\n    display: flex;\n    align-items: center; /* Vertically centers items */\n}\n\n/* Optional: If you want space between items */\n#contact_4 > * {\n    margin-right: 10px;\n}

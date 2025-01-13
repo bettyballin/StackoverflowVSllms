@@ -1,0 +1,1 @@
+class A {\npublic:\n    OtherClass a_;\n    AnotherClass b_;\n\n    A(OtherClass o, std::string x, int y)\n        : a_(o), // Initialize a_ first\n          b_(a_, x, y) {} // Then use initialized a_ to construct b_\n};

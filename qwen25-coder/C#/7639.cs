@@ -1,0 +1,1 @@
+public abstract class ApplicationViewModel<T> where T : User\n{\n    public T LoggedInUser { get; set; }\n}

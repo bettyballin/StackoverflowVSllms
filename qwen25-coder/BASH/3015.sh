@@ -1,0 +1,1 @@
+sudo chown -R apache:apache /home/user/xxx\nsudo chmod 755 /home/user/xxx

@@ -1,0 +1,1 @@
+drush pml --status=disabled | grep -v 'Devel' | awk '{print $2}' | xargs drush pm-enable

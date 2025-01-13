@@ -1,0 +1,1 @@
+((DetailElement)element).DescEN = "Hello again";

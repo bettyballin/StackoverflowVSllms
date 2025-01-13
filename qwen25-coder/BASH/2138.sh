@@ -1,0 +1,1 @@
+# Create a new website\nNew-IISSite -Name "MyWebsite" -PhysicalPath "C:\inetpub\wwwroot\MyWebsite" -BindingInformation "*:8080:"\n\n# Create a virtual directory under the new website\nNew-WebVirtualDirectory -Site "MyWebsite" -Name "Reports" -PhysicalPath "C:\inetpub\wwwroot\Reports"

@@ -1,0 +1,1 @@
+grep '/specific/directory/' paths.txt

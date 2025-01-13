@@ -1,0 +1,1 @@
+# Scan for LDAP service (port 389) over a specific range of IPs\nnmap -p 389 192.168.0.*

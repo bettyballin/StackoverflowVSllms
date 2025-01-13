@@ -1,0 +1,1 @@
+# Using -g\ngcc -g -o my_program my_program.c\n\n# Using -ggdb\ngcc -ggdb -o my_program my_program.c

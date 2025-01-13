@@ -1,0 +1,1 @@
+sudo rpm -Uvh http://dl.fedoraproject.org/pub/epel/epel-release-latest-5.noarch.rpm

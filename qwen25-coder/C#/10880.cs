@@ -1,0 +1,1 @@
+public class YourTempTableEntity\n   {\n       public string AppointmentType { get; set; }\n       public DateTime BookedDate { get; set; }\n       public TimeSpan BookedFromTime { get; set; }\n       public TimeSpan BookedToTime { get; set; }\n       public int TotalDays { get; set; }\n       public int JobMins { get; set; }\n   }

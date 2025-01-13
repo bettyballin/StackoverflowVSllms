@@ -1,0 +1,1 @@
+.progress-bar-container {\n    width: 100%;\n    background-color: #f3f3f3;\n    margin-top: 20px;\n}\n\n.progress-bar {\n    height: 20px;\n    background-color: #4caf50;\n    width: 0%;\n}

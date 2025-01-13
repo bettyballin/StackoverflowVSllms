@@ -1,0 +1,1 @@
+bool pass = d?["a longer id"] is bool b && b;

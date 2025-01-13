@@ -1,0 +1,1 @@
+a {\n    text-decoration: none; /* Removes the underline */\n    color: blue; /* Default link color */\n}\n\na:hover {\n    color: red; /* Color on hover */\n}

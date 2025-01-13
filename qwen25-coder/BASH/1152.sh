@@ -1,0 +1,1 @@
+Timeout 120 # This should be higher if you want to test beyond 2 minutes

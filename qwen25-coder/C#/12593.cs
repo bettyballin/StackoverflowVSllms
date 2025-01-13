@@ -1,0 +1,1 @@
+public ActionResult Index()\n{\n    return View("~/Views/Manage/ListManager/Index.cshtml");\n}

@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        txtSelection1.Visible = true;\n        txtSelection2.Visible = true;\n        txtSelection3.Visible = true;\n        txtSelection4.Visible = true;\n        txtSelection5.Visible = true;\n    }\n}

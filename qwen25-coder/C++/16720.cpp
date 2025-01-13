@@ -1,0 +1,1 @@
+#include <iostream>\n\nvoid myFunction() {\n    std::cout << "This function is called directly." << std::endl;\n}\n\nint main() {\n    myFunction();  // Directly calling the function\n    return 0;\n}

@@ -1,0 +1,1 @@
+using log4net;\nusing log4net.Config;\n\npublic class Global : System.Web.HttpApplication\n{\n    protected void Application_Start(object sender, EventArgs e)\n    {\n        XmlConfigurator.Configure();\n        // Other startup code\n    }\n}

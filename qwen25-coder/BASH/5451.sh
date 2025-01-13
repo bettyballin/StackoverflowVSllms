@@ -1,0 +1,1 @@
+# Check client version\nsvn --version\n\n# Check server version (you might need access to the server machine for this)\nsvnadmin --versio

@@ -1,0 +1,1 @@
+composer require php-mime-mail-parser/php-mime-mail-parser

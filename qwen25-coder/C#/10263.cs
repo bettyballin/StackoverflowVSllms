@@ -1,0 +1,1 @@
+<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<UserViewModel>" %>\n\n<!-- Other HTML -->\n\n<% for (int i = 0; i < Model.Addresses.Count; i++) { %>\n    <% Html.RenderPartial("AddressEditor", new Tuple<int, Address>(i, Model.Addresses[i])); %>\n<% } %>

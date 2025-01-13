@@ -1,0 +1,1 @@
+// Example: row-major vs column-major access in a 2D array\n   void rowMajor(int arr[100][100]) {\n       for (int i = 0; i < 100; ++i)\n           for (int j = 0; j < 100; ++j)\n               sum += arr[i][j];\n   }\n\n   void colMajor(int arr[100][100]) {\n       for (int j = 0; j < 100; ++j)\n           for (int i = 0; i < 100; ++i)\n               sum += arr[i][j];\n   }

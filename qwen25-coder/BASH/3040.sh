@@ -1,0 +1,1 @@
+# Add the following line, replacing 'www-data' with your web server user and '/var/www/html/restart_tomcat.php' with the path to your PHP script.\n   www-data ALL=(ALL) NOPASSWD: /usr/sbin/service tomcat8 restart

@@ -1,0 +1,1 @@
+protected void cboPeople_SelectedIndexChanged(object sender, EventArgs e)\n{\n    string dataSource = ConfigurationSettings.AppSettings["contactsDB"];\n    string id = People[cboPeople.Text];\n    \n    using (var objConn = new OleDbConnection(dataSource))\n    {\n        UpdateLiteral(objConn, id);\n    }\n}

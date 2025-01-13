@@ -1,0 +1,1 @@
+defaults write com.apple.safari IncludeInternalDebugMenu 1

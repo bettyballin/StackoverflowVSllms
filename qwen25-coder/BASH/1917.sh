@@ -1,0 +1,1 @@
+# Create a 1GB file named testfile.dat\nfsutil file createnew C:\path\to\testfile.dat (1GB)

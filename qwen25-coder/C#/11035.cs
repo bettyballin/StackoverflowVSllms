@@ -1,0 +1,1 @@
+float毫米PerPoint = 0.352777778f;\n   float ConvertPointsToMillimeters(float pointValue) {\n       return pointValue * 毫米PerPoint;\n   }

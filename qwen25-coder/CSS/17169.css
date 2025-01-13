@@ -1,0 +1,1 @@
+.menu-item {\n    background-color: #006699;\n    transition: background-color 0.3s ease; /* Smooth transition */\n}\n\n.menu-item:hover {\n    background-color: #4796E9;\n}

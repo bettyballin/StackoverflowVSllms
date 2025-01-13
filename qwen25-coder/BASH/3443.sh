@@ -1,0 +1,1 @@
+sudo btrfs subvolume snapshot -r /path/to/source /path/to/snapshot\ntar czf archive.tar.gz /path/to/snapshot/\nsudo rm -r /path/to/snapshot

@@ -1,0 +1,1 @@
+// In a controller or wherever you need to test\npublic void TestHostName()\n{\n    string host = Request.Url.Host;\n    Debug.WriteLine(host); // Check output in debugging tools or logs\n}

@@ -1,0 +1,1 @@
+#include <cstddef>\n\n   // Now NULL can be used\n   void* ptr = NULL;

@@ -1,0 +1,1 @@
+sudo mkdir -p /var/svnrepos/project1\nsudo svnadmin create /var/svnrepos/project1\nsudo chown -R www-data:www-data /var/svnrepos/project1  # Adjust as needed for your user/group

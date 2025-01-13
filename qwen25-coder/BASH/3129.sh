@@ -1,0 +1,1 @@
+# Rename files ending with .php3 to .php\nfind . -type f -name "*.php3" -exec sh -c 'for f; do mv "$f" "${f%.php3}.php"; done' _ {} +

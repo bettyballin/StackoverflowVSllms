@@ -1,0 +1,1 @@
+Response.AddHeader("Content-Disposition", "attachment; filename=\"yourfile.ext\"");

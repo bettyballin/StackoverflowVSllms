@@ -1,0 +1,1 @@
+AM_CXXFLAGS = -WAll\n\nbin_PROGRAMS = test\ntest_SOURCES = main.cpp utility.cpp\n\n# Per-file C++ flags\ntest_utility.o: utility.cpp\n	$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(AM_CPPFLAGS) \\n        $(AM_CXXFLAGS) $(utilityCppObject_CXXFLAGS) \\n        -c -o $@ $<

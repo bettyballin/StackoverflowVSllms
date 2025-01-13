@@ -1,0 +1,1 @@
+# Example of setting up a new repository in Unfuddle (CLI)\n   svnadmin create /path/to/repository

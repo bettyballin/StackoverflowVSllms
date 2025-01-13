@@ -1,0 +1,1 @@
+// In C#, delegate types must be explicitly defined.\nFunc<string, string> greetDelegate = Greet;\n\n// Lambda expressions also require explicit parameter types.\nFunc<string, string> simpleGreetingFunc = (name) => $"Hi, {name}!";

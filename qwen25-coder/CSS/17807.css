@@ -1,0 +1,1 @@
+ul {\n    list-style-type: disc; /* Ensures bullet points are used */\n    padding-left: 20px; /* Indent all list items */\n}\n\nul li:nth-child(4) {\n    text-indent: -20px; /* Adjusts the indentation back to match others, as margin/padding might affect it */\n    margin-left: 20px; /* Ensures the wrapped text starts at the correct position */\n}

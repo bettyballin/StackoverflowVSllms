@@ -1,0 +1,1 @@
+# For Linux\ngcc -fPIC -shared -o libmylib.so com_example_MyNativeLib.c\n\n# For Windows\ncl /I"%JAVA_HOME%\include" /I"%JAVA_HOME%\include\win32" /LD com_example_MyNativeLib.c -Fe:mylib.dll

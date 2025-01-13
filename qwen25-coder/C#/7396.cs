@@ -1,0 +1,1 @@
+protected void Session_End(object sender, EventArgs e)\n{\n    // Check if the session object is not null and implements IDisposable\n    if (Session["CustomObject"] is CustomSessionObject disposableObj)\n    {\n        disposableObj.Dispose();\n    }\n}

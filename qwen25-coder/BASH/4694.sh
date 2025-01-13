@@ -1,0 +1,1 @@
+convert -density 300 input.eps -quality 85 output.png

@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Variables\nLOCAL_DIR="/home/user/projects/mywebsite/"\nREMOTE_USER="username"\nREMOTE_HOST="example.com"\nREMOTE_DIR="/var/www/mywebsite/"\nEXCLUDES=("--exclude='.git/'" "--exclude='.idea/'")\n\n# Execute rsync\nrsync -avz "${EXCLUDES[@]}" "$LOCAL_DIR" "$REMOTE_USER@$REMOTE_HOST:$REMOTE_DIR/"\n\necho "Sync completed!"

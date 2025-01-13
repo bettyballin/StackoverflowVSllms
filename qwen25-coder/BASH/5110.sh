@@ -1,0 +1,1 @@
+export PATH=/path/to/gc-patched-ruby/bin:$PATH

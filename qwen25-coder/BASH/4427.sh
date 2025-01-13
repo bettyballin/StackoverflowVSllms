@@ -1,0 +1,1 @@
+sed '1s/ /_/g' yourfile.txt > newfile.txt

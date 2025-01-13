@@ -1,0 +1,1 @@
+# my.sh\nPWD=bla\nsed "s/xxx/$PWD/"

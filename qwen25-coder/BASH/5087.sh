@@ -1,0 +1,1 @@
+createdb -U <username> -h <host> -p <port> <database_name>\n    pg_restore -d <database_name> -U <username> -h <host> -p <port> backup_file.dump

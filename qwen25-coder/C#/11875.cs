@@ -1,0 +1,1 @@
+using System;\nusing System.Web.Services;\n\npublic partial class YourPage : System.Web.UI.Page\n{\n    [WebMethod]\n    public static string GetDelayedData()\n    {\n        // Simulate delay and data retrieval\n        System.Threading.Thread.Sleep(1000); // Delay for 1 second\n        return "<div>Your dynamically loaded content here</div>";\n    }\n}

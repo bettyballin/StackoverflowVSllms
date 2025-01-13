@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Fetch latest changes from SVN\nsvn update /path/to/project\n\n# Run tests\nphpunit /path/to/tests\n\n# Apply database migrations\n/path/to/flyway/migrate.sh\n\n# Restart Apache to reload changes\nservice apache2 restart

@@ -1,0 +1,1 @@
+struct A {\n    template<class T> void f(T);\n};\n\nstruct B : A {\n    using A::f<int>; // This is not allowed by the C++ standard\n};

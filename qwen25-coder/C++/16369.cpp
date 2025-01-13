@@ -1,0 +1,1 @@
+#include <cppdb/frontend.h>\n   #include <iostream>\n\n   int main() {\n       cppdb::session sql("sqlite3:dbname=test.db");\n       std::string name;\n       int id = 7;\n\n       sql << "select name from person where id=?" << id >> name;\n       std::cout << "The name is: " << name << std::endl;\n\n       return 0;\n   }

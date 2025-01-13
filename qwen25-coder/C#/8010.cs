@@ -1,0 +1,1 @@
+using System.Text.RegularExpressions;\n\npublic class RegistryValidator {\n    private static readonly Regex InvalidCharsRegex = new Regex(@"[\*<>?\|\\]");\n\n    public bool IsValidRegistryName(string name) {\n        return !InvalidCharsRegex.IsMatch(name);\n    }\n}

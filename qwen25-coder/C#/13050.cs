@@ -1,0 +1,1 @@
+using System;\n\npublic class Example\n{\n    public static void Main()\n    {\n        DateTime now = DateTime.Now;\n        Console.WriteLine("Current Date and Time: " + now);\n    }\n}

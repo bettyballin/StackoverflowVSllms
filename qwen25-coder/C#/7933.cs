@@ -1,0 +1,1 @@
+using System.Text.RegularExpressions;\n   public static bool IsValidEmail(string email)\n   {\n       string pattern = @"^\S+@\S+$";\n       return Regex.IsMatch(email, pattern);\n   }

@@ -1,0 +1,1 @@
+# Example command to start OWASP ZAP via Docker:\n   docker run -p 8080:8080 -p 35729:35729 -i owasp/zap2docker-stable zap.sh -daemon -host 0.0.0.0

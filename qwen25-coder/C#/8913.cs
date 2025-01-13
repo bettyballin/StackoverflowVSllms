@@ -1,0 +1,1 @@
+public class MyClass\n   {\n       public bool MyProperty;\n   }

@@ -1,0 +1,1 @@
+# Install SVN (on Ubuntu)\nsudo apt-get install subversion\n\n# Create a repository\nsvnadmin create /path/to/myrepo\n\n# Checkout the newly created repository to your working directory\ncd /path/to/workingcopy\nsvn checkout file:///path/to/myrepo .\n\n# Add files and commit them to the repository\nsvn add *\nsvn commit -m "Initial commit"

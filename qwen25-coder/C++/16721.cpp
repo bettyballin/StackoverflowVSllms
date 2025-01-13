@@ -1,0 +1,1 @@
+// ccc.cpp\n#include "shared_state.h"\n#include <iostream>\n\nvoid CheckState() {\n    if (g_isSet) {\n        std::cout << "State is set" << std::endl;\n    } else {\n        std::cout << "State is not set" << std::endl;\n    }\n}

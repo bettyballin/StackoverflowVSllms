@@ -1,0 +1,1 @@
+#ifdef MYDAQDLL_EXPORTS\n#define MYDAQ_API __declspec(dllexport)\n#else\n#define MYDAQ_API __declspec(dllimport)\n#endif\n\nextern "C" {\n    MYDAQ_API int startAcquisition();\n    MYDAQ_API int stopAcquisition();\n    MYDAQ_API double getData();\n}

@@ -1,0 +1,1 @@
+public void CustomLogout()\n    {\n        // Sign out the user by removing the auth cookie\n        FormsAuthentication.SignOut();\n\n        // Abandon the current session\n        Session.Abandon();\n\n        // Redirect to login page or any other page\n        Response.Redirect(FormsAuthentication.LoginUrl);\n    }

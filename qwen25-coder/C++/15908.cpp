@@ -1,0 +1,1 @@
+#include <windows.h>\n\nvoid SetProcessToBelowNormalPriority() {\n    HANDLE hCurrentProc = GetCurrentProcess();\n    SetPriorityClass(hCurrentProc, BELOW_NORMAL_PRIORITY_CLASS);\n}

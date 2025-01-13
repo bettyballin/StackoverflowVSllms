@@ -1,0 +1,1 @@
+ld --whole-archive yourarchive.a --no-whole-archive other.o -o output.so

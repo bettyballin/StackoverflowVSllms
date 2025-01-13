@@ -1,0 +1,1 @@
+// Example pseudo-code for additional logging in a handler or module.\n   public void Init(HttpApplication context)\n   {\n       context.BeginRequest += new EventHandler((sender, e) =>\n       {\n           if (context.Request.RawUrl.Contains("ScriptResource.axd"))\n               System.Diagnostics.Debug.WriteLine("ScriptResource.axd requested");\n       });\n   }

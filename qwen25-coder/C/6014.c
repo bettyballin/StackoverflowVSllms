@@ -1,0 +1,1 @@
+#include <time.h>\n\nvoid some_function() {\n    clock_t start = clock();\n    // Your code here\n    clock_t end = clock();\n\n    double cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;\n    printf("Time used: %f seconds\n", cpu_time_used);\n}

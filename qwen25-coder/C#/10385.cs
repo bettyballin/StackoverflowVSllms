@@ -1,0 +1,1 @@
+[Serializable]\npublic class ComboBoxDataSource\n{\n    public BindingList<string> Items { get; set; } = new BindingList<string>();\n}

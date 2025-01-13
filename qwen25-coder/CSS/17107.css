@@ -1,0 +1,1 @@
+.menu {\n       position: relative;\n       z-index: 1000; /* Adjust as necessary */\n   }\n   .menu ul {\n       position: absolute;\n       top: 0;\n       left: 0;\n       z-index: 2000; /* Higher than the parent */\n   }

@@ -1,0 +1,1 @@
+return 1; // Non-success exit code

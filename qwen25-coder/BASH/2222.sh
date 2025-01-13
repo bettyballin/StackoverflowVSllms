@@ -1,0 +1,1 @@
+Xvfb :99 -screen 0 1x1x8 &

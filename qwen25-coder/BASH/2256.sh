@@ -1,0 +1,1 @@
+pdfimages input.pdf output_image_prefix

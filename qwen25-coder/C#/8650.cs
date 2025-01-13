@@ -1,0 +1,1 @@
+[DbFunction("MyModel.Store", "CalculateLog")]\n   public static double? CalculateLog(double value)\n   {\n       // This method will be mapped to the SQL function.\n       throw new NotSupportedException();\n   }\n   \n   var result = context.MyEntities.OrderBy(e => MyDbContext.CalculateLog(e.SomeField)).ToList();

@@ -1,0 +1,1 @@
+p4 delete [options] file1 [file2 ...]

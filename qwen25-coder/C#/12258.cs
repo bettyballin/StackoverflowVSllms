@@ -1,0 +1,1 @@
+public partial class YourEntity : IEntity\n   {\n       // Entity Framework generated code will be in another part of this partial class\n   }

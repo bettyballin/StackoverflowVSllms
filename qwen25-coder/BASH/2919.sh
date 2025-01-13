@@ -1,0 +1,1 @@
+mysql -u your_username -p northwind < /path/to/Northwind.mysql.sql

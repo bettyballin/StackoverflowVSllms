@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    PlaceHolder1.Visible = ShouldDisplayBlock();\n}\n\nprivate bool ShouldDisplayBlock()\n{\n    // Your condition logic here\n    return false; // or true, depending on your condition\n}

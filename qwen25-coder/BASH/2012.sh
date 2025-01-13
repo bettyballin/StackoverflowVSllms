@@ -1,0 +1,1 @@
+etstat -n | find /c "ESTABLISHED"

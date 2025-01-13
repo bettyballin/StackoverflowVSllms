@@ -1,0 +1,1 @@
+sc config "YourServiceName" obj= ".\Username" password= "YourPassword"

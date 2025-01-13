@@ -1,0 +1,1 @@
+using System;\nclass Program\n{\n    static void Main()\n    {\n        Console.WriteLine("Is 64 bit OS: " + Environment.Is64BitOperatingSystem);\n        Console.WriteLine("Is 64 bit process: " + Environment.Is64BitProcess);\n    }\n}

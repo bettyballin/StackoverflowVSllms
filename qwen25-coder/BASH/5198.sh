@@ -1,0 +1,1 @@
+@echo off\nsetlocal\n\nREM Set variables for database and backup path\nset DATABASE_NAME=YourDatabaseName\nset BACKUP_PATH=C:\Backups\YourDatabaseName.bak\n\nREM Execute the SQL Server backup command\nsqlcmd -S YourServerName -E -Q "BACKUP DATABASE [%DATABASE_NAME%] TO DISK='%BACKUP_PATH%' WITH INIT"\n\nendlocal

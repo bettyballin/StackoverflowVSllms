@@ -1,0 +1,1 @@
+regasm /codebase path\to\mycomlibrary.dll

@@ -1,0 +1,1 @@
+dumpbin /SYMBOLS /STATISTICS:IMAGE myprogram.exe > output.txt

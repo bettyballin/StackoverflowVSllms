@@ -1,0 +1,1 @@
+valgrind --tool=massif ./your_program\n   ms_print massif.out.*

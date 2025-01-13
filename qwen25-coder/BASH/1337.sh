@@ -1,0 +1,1 @@
+# Update packages\nsudo apt update && sudo apt upgrade -y\n\n# Install Certbot (for Let's Encrypt)\nsudo apt install certbot python3-certbot-apache -y\n\n# Obtain and install SSL certificate for your domain\nsudo certbot --apache -d example.com -d www.example.com

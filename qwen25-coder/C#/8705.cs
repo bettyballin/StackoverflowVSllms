@@ -1,0 +1,1 @@
+public class GameHub : Hub\n    {\n        public async Task SendMessage(string user, string message)\n        {\n            await Clients.All.SendAsync("ReceiveMessage", user, message);\n        }\n\n        // Other methods for game logic can go here\n    }

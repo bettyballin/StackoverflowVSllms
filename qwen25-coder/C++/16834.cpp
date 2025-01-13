@@ -1,0 +1,1 @@
+#include <iostream>\nusing namespace std;\n\nnamespace MyNamespace\n{\n    class MyClass\n    {\n        public:\n            static __declspec(dllexport) int ringBell(void);\n    };\n}\n\nextern "C" __declspec(dllexport) int ringBell()\n{\n    cout << "\a";\n    return 0;\n}

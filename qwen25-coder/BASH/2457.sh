@@ -1,0 +1,1 @@
+p4 delete //depot/path/to/your/files/*

@@ -1,0 +1,1 @@
+# Note: Ensure you have the necessary JDBC driver, Hibernate Tools JARs in your classpath.\njava -cp path/to/hibernate-tools.jar:path/to/mysql-connector-java.jar org.hibernate.tool.hbm2x.ReverseEngineeringTool reverse-engineering.properties hibernate.cfg.xml

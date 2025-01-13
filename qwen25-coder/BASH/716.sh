@@ -1,0 +1,1 @@
+gcc -o myprogram myprogram.c -L/usr/lib -lXaw7

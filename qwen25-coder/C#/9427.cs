@@ -1,0 +1,1 @@
+public static bool IsNumeric(string someValue)\n{\n    // Regex pattern to match negative numbers, positive numbers, and decimals\n    Regex isNumber = new Regex(@"^-?\d+(\.\d+)?$");\n    try\n    {\n        Match m = isNumber.Match(someValue);\n        return m.Success;\n    }\n    catch (Exception) // Catch all exceptions for robustness\n    {\n        return false;\n    }\n}

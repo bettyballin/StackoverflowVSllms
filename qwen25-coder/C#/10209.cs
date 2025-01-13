@@ -1,0 +1,1 @@
+<%@ Page Language="C#" Inherits="DisplayXMLPage" %>\n<!DOCTYPE html>\n<html>\n<head runat="server">\n    <title>Display XML</title>\n</head>\n<body>\n    <form id="form1" runat="server">\n        <div>\n            <h1>Formatted XML Output</h1>\n            <pre><asp:Literal ID="literalControl" runat="server"></asp:Literal></pre>\n        </div>\n    </form>\n</body>\n</html>

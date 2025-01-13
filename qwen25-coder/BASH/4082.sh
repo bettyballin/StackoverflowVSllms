@@ -1,0 +1,1 @@
+ping -t [PLC_IP_ADDRESS]

@@ -1,0 +1,1 @@
+# Use containers or virtual machines to open/process files\n   docker run -v /path/to/upload:/sandbox container_to_run_file_operations

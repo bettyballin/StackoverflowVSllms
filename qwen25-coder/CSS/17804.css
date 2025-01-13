@@ -1,0 +1,1 @@
+.responsive-element {\n    width: 50%; /* Element takes up 50% of its container's width */\n    min-width: 200px; /* Minimum width is set to 200 pixels */\n    height: 30vh; /* Element takes up 30% of the viewport's height */\n    min-height: 100px; /* Minimum height is set to 100 pixels */\n}

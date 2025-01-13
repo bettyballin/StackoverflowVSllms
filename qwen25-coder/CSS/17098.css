@@ -1,0 +1,1 @@
+#contentBody {\n  display: flex;\n}\n\n#contentLeft {\n  width: 205px;\n}\n\n#contentRight {\n  flex-grow: 1; /* This makes contentRight grow to fill the remaining space */\n}

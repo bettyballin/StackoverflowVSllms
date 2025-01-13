@@ -1,0 +1,1 @@
+// Using ArrayList\nArrayList arrayList = new ArrayList();\narrayList.Add("Hello"); // Can store any type, not type-safe\n\n// Using List<T>\nList<string> listT = new List<string>();\nlistT.Add("Hello"); // Type-safe, only strings can be added

@@ -1,0 +1,1 @@
+LSN = (Sequence_Number << 48) + (Block_Number << 16) + Slot_Number;

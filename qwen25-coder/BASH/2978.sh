@@ -1,0 +1,1 @@
+sudo -u nobody /path/to/your/executable

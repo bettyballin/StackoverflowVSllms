@@ -1,0 +1,1 @@
+// Assuming you have access to the HtmlTable and HtmlTableRow objects\nforeach (HtmlTableRow row in myTable.Rows)\n{\n    // Hide the row by setting its display style to none\n    row.Style.Add("display", "none");\n}

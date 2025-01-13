@@ -1,0 +1,1 @@
+strings $(gcc -print-file-name=libstdc++.so) | grep GLIBCXX

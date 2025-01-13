@@ -1,0 +1,1 @@
+[this_img].loading {\n    background-image: url('path/to/your/loading.gif');\n    min-height: 35px;\n    min-width: 40px;\n    background-repeat: no-repeat;\n}

@@ -1,0 +1,1 @@
+public ActionResult ViewPdf(int id)\n{\n    // Assuming GetPDF retrieves the PDF bytes from your data layer\n    byte[] pdfBytes = GetPDF(id);\n    \n    if (pdfBytes == null)\n    {\n        return HttpNotFound();\n    }\n\n    return new FileContentResult(pdfBytes, "application/pdf");\n}

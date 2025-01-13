@@ -1,0 +1,1 @@
+@echo off\necho Resetting IIS...\niisreset /noforce\necho IIS has been reset.

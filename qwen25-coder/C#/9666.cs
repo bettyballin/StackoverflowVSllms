@@ -1,0 +1,1 @@
+// Server-side code that does not render the control to the client if false\nprotected void Page_Load(object sender, EventArgs e)\n{\n    myControl.Visible = false; // Assuming myControl is a server-side control like Panel, Button, etc.\n}

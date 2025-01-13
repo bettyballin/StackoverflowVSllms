@@ -1,0 +1,1 @@
+wmctrl -l | awk '{print $4}'

@@ -1,0 +1,1 @@
+# Basic usage example: Adding 100ms delay to eth0\n   sudo tc qdisc add dev eth0 root netem delay 100ms

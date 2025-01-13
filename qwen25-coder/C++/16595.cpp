@@ -1,0 +1,1 @@
+void TestClass::TestFunction()\n{\n    FuncTracer tracer(_T(__func__));\n    /*\n     * Rest of the function code.\n     */\n}

@@ -1,0 +1,1 @@
+// Example of a simple 3D point structure in C#\n   public struct Point3D {\n       public double X { get; set; }\n       public double Y { get; set; }\n       public double Z { get; set; }\n\n       public Point3D(double x, double y, double z) \n           => (X, Y, Z) = (x, y, z);\n   }

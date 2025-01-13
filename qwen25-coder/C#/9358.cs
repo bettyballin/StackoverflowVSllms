@@ -1,0 +1,1 @@
+public class CatalogController : Controller\n{\n    public ActionResult GetProducts(int itemsPerPage)\n    {\n        // Logic to retrieve products based on itemsPerPage\n        var viewModel = new YourViewModel();  // Replace with your actual ViewModel\n\n        return PartialView("_ProductDisplay", viewModel);\n    }\n}

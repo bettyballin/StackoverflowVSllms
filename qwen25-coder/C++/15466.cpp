@@ -1,0 +1,1 @@
+int main() {\n    // Your code here\n    return 0;\n}

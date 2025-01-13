@@ -1,0 +1,1 @@
+sudo dd if=/dev/sda of=/dev/sdb bs=16M status=none | pv -s $(lsblk -b -no SIZE /dev/sda) > /dev/null

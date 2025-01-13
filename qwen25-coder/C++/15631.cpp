@@ -1,0 +1,1 @@
+// mylib.h\n#ifdef __cplusplus\nextern "C" {\n#endif\n\n#if defined(_MSC_VER)\n#define MYLIB_API __declspec(dllexport)\n#else\n#define MYLIB_API\n#endif\n\nMYLIB_API void MyFunction();\n\n#ifdef __cplusplus\n}\n#endif

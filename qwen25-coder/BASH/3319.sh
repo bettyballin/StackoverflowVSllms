@@ -1,0 +1,1 @@
+g++ -o pdf2txt pdf2txt.cpp `pkg-config --cflags --libs poppler-cpp`\n./pdf2txt example.pdf

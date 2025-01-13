@@ -1,0 +1,1 @@
+var orders = (\n    from o in dataContext.Orders\n    let orderDetails = (from od in dataContext.OrderDetails where od.Status == "A" select od)\n    from od in orderDetails.DefaultIfEmpty() // This is equivalent of LEFT OUTER JOIN\n    select new { o, od }\n).ToList();

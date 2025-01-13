@@ -1,0 +1,1 @@
+template<typename T>\nconcept Integral = std::is_integral_v<T>;

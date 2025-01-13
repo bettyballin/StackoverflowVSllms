@@ -1,0 +1,1 @@
+pip install pyOpenSSL==0.13.1  # An older version compatible with Python 2.6

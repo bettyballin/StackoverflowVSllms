@@ -1,0 +1,1 @@
+#include <iostream>\n\nusing namespace std;\n\nint calculateFactorial(int n) {\n    return (n <= 1) ? 1 : n * calculateFactorial(n - 1);\n}\n\nint main() {\n    int number;\n    cout << "Enter a number: ";\n    cin >> number;\n    cout << "Factorial of " << number << " is " << calculateFactorial(number) << endl;\n    return 0;\n}

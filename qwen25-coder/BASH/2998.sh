@@ -1,0 +1,1 @@
+sqlpackage /Action:Publish /SourceFile:"C:\MyDatabase.dacpac" /TargetServerName:"localhost\SQLEXPRESS" /TargetDatabaseName:"MyPublishedDB"

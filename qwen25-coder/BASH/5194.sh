@@ -1,0 +1,1 @@
+REM Example batch file to run a console application\nset PATH=C:\Path\To\Your\Executable;%PATH%\nC:\Path\To\Your\Executable\YourConsoleApp.exe "%1"\nif %errorlevel% == 0 (\n    echo Success > C:\Path\To\Log\Success.log\n) else (\n    echo Failure > C:\Path\To\Log\Failure.log\n)

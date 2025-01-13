@@ -1,0 +1,1 @@
+stsadm.exe -o osearch -status

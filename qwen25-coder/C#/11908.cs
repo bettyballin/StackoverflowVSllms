@@ -1,0 +1,1 @@
+// C#\npublic abstract class BaseClass {\n    public abstract void DoWork();\n}

@@ -1,0 +1,1 @@
+# On the NFS server, create a directory to be shared\nmkdir /srv/shared_files\n\n# Add the following line to /etc/exports (adjust IP range as necessary)\n/srv/shared_files 192.168.1.0/24(rw,sync,no_subtree_check)\n\n# Export the filesystem and restart nfs-kernel-server or nfsd\nexportfs -a\nsystemctl restart nfs-kernel-server

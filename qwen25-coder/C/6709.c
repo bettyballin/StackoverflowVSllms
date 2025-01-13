@@ -1,0 +1,1 @@
+#define ARRAY_LEN 4\nlong targetArray[ARRAY_LEN];\nssize_t bytesRead = read(socketFD, targetArray, sizeof(targetArray));\nif (bytesRead != sizeof(targetArray)) {\n    // Handle error or incomplete read\n}

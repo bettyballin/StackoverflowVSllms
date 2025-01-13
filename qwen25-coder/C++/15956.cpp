@@ -1,0 +1,1 @@
+#include <windows.h>\n#include <shellScalingApi.h>\n\nint main() {\n    SetProcessDpiAwareness(PROCESS_PER_MONITOR_DPI_AWARE);\n    // Your application code goes here\n}

@@ -1,0 +1,1 @@
+sudo htpasswd -c /etc/apache2/.htpasswd username\n# omit -c to add more users without overwriting

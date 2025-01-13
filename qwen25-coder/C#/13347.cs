@@ -1,0 +1,1 @@
+protected void Application_Start(object sender, EventArgs e)\n   {\n       RouteTable.Routes.MapHubs();\n   }

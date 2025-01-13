@@ -1,0 +1,1 @@
+sudo a2enmod proxy\nsudo a2enmod proxy_http\nsudo systemctl reload apache2

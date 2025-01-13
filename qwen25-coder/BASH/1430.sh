@@ -1,0 +1,1 @@
+# Assuming you are in the repository that needs to be patched\ngit apply path/to/fix-critical-bug.patch\n\n# Verify and test the changes

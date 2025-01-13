@@ -1,0 +1,1 @@
+ServiceHost host = new ServiceHost(typeof(YourServiceType));\nhost.Description.Behaviors.Add(new MessageSizeLogger());\nhost.Open();

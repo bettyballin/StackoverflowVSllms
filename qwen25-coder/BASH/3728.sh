@@ -1,0 +1,1 @@
+ar rcs combined_static_lib.a *\n   cd ..\n   rm -rf temp_obj

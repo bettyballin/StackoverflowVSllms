@@ -1,0 +1,1 @@
+-vm\n/Library/Java/JavaVirtualMachines/1.5.0.jdk/Contents/Home/bin/java

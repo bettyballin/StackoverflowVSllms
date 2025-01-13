@@ -1,0 +1,1 @@
+chmod 755 /Users/cs/Documents

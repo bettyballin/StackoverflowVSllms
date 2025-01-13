@@ -1,0 +1,1 @@
+#!/bin/bash\n\nif getent group admin | grep -q "\b$(id -un)\b"; then\n    echo "ROLE=admin" >> /tmp/${PAM_USER}_role.env\nelif getent group operator | grep -q "\b$(id -un)\b"; then\n    echo "ROLE=operator" >> /tmp/${PAM_USER}_role.env\nelse\n    exit 1 # deny login if neither role is found\nfi

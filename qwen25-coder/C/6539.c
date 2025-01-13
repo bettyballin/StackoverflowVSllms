@@ -1,0 +1,1 @@
+// Pseudo-code for LCG\n   state = (multiplier * state + increment) % modulus;\n   return state;

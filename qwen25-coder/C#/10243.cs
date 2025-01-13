@@ -1,0 +1,1 @@
+[RegularExpression(@"^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])/((\d{4}))$", ErrorMessage = "Start date must be in the mm/dd/yyyy format.")]\n   public DateTime StartDate { get; set; }

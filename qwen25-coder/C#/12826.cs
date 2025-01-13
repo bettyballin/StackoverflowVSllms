@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n   {\n       Response.Charset = "utf-8";\n       string langSpecificTitle = Resources.YourResourceFileName.TitleKey;\n       this.Page.Title = langSpecificTitle;\n   }

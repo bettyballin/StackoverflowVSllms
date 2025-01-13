@@ -1,0 +1,1 @@
+public ActionResult YourAction()\n   {\n       var model = new YourModel(); // Initialize with default properties if necessary\n       // Populate dropdown or other initial setup\n       return View(model);\n   }

@@ -1,0 +1,1 @@
+# Download and install Git from https://git-scm.com/\n   \n   # Initialize a new repository in your project folder\n   git init

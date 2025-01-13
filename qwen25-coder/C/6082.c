@@ -1,0 +1,1 @@
+#ifdef __CYGWIN__\n// Code specific to Cygwin environment\n#endif

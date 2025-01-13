@@ -1,0 +1,1 @@
+bool condition = true;\nuint foo = condition ? 1 : 2; // 1 and 2 are int, which doesn't match uint foo

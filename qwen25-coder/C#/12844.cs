@@ -1,0 +1,1 @@
+[HttpPost]\npublic IHttpActionResult AcknowledgeReceipt([FromBody] dynamic ack)\n{\n    var orderId = (Guid)ack.OrderId;\n    var success = (bool)ack.Success;\n\n    // Update local status based on acknowledgment.\n    _repository.UpdateStatus(orderId, success);\n\n    return Ok();\n}

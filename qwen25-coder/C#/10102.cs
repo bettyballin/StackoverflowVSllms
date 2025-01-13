@@ -1,0 +1,1 @@
+private void ultraComboBox1_GotFocus(object sender, EventArgs e)\n{\n    // Ensure the UltraComboBox has a valid text editor component\n    if (ultraComboBox1.DisplayLayout.Bands[0].Columns[0].EditorComponent is Infragistics.Win.Text.UEditText edit)\n    {\n        // Select all text in the editor when it gains focus\n        edit.SelectAll();\n    }\n}

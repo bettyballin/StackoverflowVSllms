@@ -1,0 +1,1 @@
+#include <vector>\n#include <algorithm>\n\nstruct point {\n    int x,y;\n};\n\nstruct pinfo {\n    point p;\n    unsigned long flags;\n};\n\nvoid p_map(point &p) {\n    p.x += 1;\n    p.y += 1;\n}\n\nvoid foreach(std::vector<pinfo> &pi_vec) {\n    for_each(pi_vec.begin(), pi_vec.end(), [](pinfo &pi){\n        p_map(pi.p);\n    });\n}

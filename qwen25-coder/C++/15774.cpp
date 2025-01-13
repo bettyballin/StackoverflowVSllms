@@ -1,0 +1,1 @@
+// Example of a simple function that would be in your DLL\nextern "C" __declspec(dllexport) int Add(int a, int b)\n{\n    return a + b;\n}

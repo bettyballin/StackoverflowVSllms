@@ -1,0 +1,1 @@
+InterlockedIncrement(&value1);\nInterlockedIncrement(&value2);\nInterlockedExchange(&oldValue, newValue);

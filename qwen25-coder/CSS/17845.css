@@ -1,0 +1,1 @@
+#wrapper {\n    display: flex;\n    justify-content: center; /* Center the content horizontally */\n    align-items: stretch;   /* Stretch children to full height of container */\n    margin: 0 auto;\n    padding-bottom: 17px;\n    max-width: 900px;       /* Optional: Set a maximum width for larger screens */\n    width: 100%;            /* Fill the available space */\n}

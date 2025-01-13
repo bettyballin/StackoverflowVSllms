@@ -1,0 +1,1 @@
+etsh winhttp set proxy <proxy-server> "<local>;192.168.*;10.0.*"

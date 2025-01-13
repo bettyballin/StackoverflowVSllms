@@ -1,0 +1,1 @@
+your_game_server_command_here > output.log 2>&1

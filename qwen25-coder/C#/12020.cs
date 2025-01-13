@@ -1,0 +1,1 @@
+int? userId = GetUserPreferredOption();\n   if (userId.HasValue) {\n       // Use userId.Value\n   }

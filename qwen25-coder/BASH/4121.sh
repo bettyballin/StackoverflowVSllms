@@ -1,0 +1,1 @@
+mkdir -p ~/rpmbuild/{BUILD,BUILDROOT,RPMS,SOURCES,SPECS,SRPMS}\n   cp foobar.spec ~/rpmbuild/SPECS/\n   cp {foobar,foobar.conf} ~/rpmbuild/BUILD/\n   rpmbuild -ba ~/rpmbuild/SPECS/foobar.spec

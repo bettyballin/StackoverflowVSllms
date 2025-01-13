@@ -1,0 +1,1 @@
+keytool -genkeypair -alias myapplet -keyalg RSA -keysize 2048 -keystore mykeystore.jks

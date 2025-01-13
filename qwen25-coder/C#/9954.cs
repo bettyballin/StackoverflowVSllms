@@ -1,0 +1,1 @@
+var m = new int[2, 2] { { 1, 2 }, { 3, 4 } };\nforeach (var e in m)\n{\n    Console.WriteLine(e);\n}

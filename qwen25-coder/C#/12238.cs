@@ -1,0 +1,1 @@
+public class AccountViewModel\n{\n    public string Username { get; set; }\n    public string Email { get; set; }\n    // Add other fields as necessary\n}\n\npublic class EventRegistrationViewModel\n{\n    public DateTime RegistrationDate { get; set; }\n    public string EventName { get; set; }\n    // Add other fields as necessary\n}

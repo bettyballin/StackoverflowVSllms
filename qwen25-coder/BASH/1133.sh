@@ -1,0 +1,1 @@
+gcc -o myprogram myprogram.c /path/to/libcurl.so.3

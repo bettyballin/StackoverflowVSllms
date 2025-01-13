@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Define variables\nREMOTE_USER="remoteuser"\nREMOTE_HOST="example.com"\nREMOTE_COMMAND="uname -a"\n\n# Execute a command on a remote server via ssh\nssh ${REMOTE_USER}@${REMOTE_HOST} "${REMOTE_COMMAND}"

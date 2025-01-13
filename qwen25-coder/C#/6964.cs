@@ -1,0 +1,1 @@
+var p = from c in mytable\n        where c.id == rowNumber // Ensure correct comparison operator\n        select new { voidedState = c.@void };  // Use '@' to escape the keyword

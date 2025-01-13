@@ -1,0 +1,1 @@
+var result = (from f in db.Foos\n              where (from fb in db.FooBars\n                     where fb.BarId == 1000\n                     select fb.FooId).Contains(f.FooId)\n              select f).ToList();

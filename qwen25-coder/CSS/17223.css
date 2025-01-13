@@ -1,0 +1,1 @@
+.deleted-node {\n    text-decoration: line-through;\n    color: red;\n}\n\n.inserted-node {\n    background-color: #d4edda; /* Light green for insertions */\n}

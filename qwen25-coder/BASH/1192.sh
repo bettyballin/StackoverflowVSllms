@@ -1,0 +1,1 @@
+RewriteEngine On\n\n# Check if the request is for /test\nRewriteCond %{REQUEST_URI} ^/test [NC]\n# Proxy pass to the ASP.NET box\nRewriteRule ^(.*)$ http://192.0.0.1/$1 [P,L]\n\n# Ensure you have mod_proxy enabled along with mod_rewrite and mod_proxy_http:\n# a2enmod proxy\n# a2enmod proxy_http

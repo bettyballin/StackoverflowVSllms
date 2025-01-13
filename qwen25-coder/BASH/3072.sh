@@ -1,0 +1,1 @@
+# Command to update a local working copy to the latest version from SVN\n   svn update

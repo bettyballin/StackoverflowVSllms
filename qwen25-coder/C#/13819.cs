@@ -1,0 +1,1 @@
+void Session_Start(object sender, EventArgs e)\n{\n    // Code that runs when a new session is started\n    HttpContext.Current.Session.Timeout = 30; // Timeout after 30 minutes of inactivity\n}

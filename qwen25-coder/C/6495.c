@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include "utils.h"\n\nint main() {\n    double result = calculate(10.0, 20.0);\n    printf("Result from file1: %f\n", result);\n    return 0;\n}

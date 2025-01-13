@@ -1,0 +1,1 @@
+sudo apt-get install xsane scummvm sdlpop frotz xquake openmsx vice

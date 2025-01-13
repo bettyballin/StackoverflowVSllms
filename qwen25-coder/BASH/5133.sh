@@ -1,0 +1,1 @@
+potrace CEEman.png --svg -o CEEmap.svg

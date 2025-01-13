@@ -1,0 +1,1 @@
+using System.Web.Services.Protocols;\n\npublic class TraceExtensionAttribute : SoapExtensionAttribute\n{\n    public override Type ExtensionType => typeof(TraceExtension);\n    \n    public override int Priority => 0;\n}

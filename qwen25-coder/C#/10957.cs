@@ -1,0 +1,1 @@
+using (var dbConn = new ManagedDatabaseConnection(new CDatabaseConnection()))\n{\n    // Use the database connection here.\n}\n// Database connection is automatically closed when exiting the 'using' block.

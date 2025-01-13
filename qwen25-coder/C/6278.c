@@ -1,0 +1,1 @@
+// In GCC/Clang, use __builtin_popcount for unsigned int types.\nint countSetBits(uint32_t n) {\n    return __builtin_popcount(n);\n}

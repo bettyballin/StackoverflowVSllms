@@ -1,0 +1,1 @@
+mv /opt/csw/lib/libsunmath.so.1 /opt/csw/lib/libsunmath.so.1.bak

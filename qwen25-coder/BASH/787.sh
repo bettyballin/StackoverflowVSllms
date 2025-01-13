@@ -1,0 +1,1 @@
+# Using /usr/share/dict/words for a simple passphrase\n</dev/urandom tr -dc 'A-Za-z' | fold -w 3 | head -n 5 | awk '{print tolower($1)}' | xargs

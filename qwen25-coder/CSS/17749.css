@@ -1,0 +1,1 @@
+.grid-layout {\n       display: grid;\n       grid-template-columns: repeat(3, 1fr);\n       gap: 20px; /* Gap between items */\n   }\n   \n   .grid-layout h3,\n   .grid-layout ul {\n       grid-column: span 1;\n   }

@@ -1,0 +1,1 @@
+# Install Certbot and the Apache plugin\nsudo apt-get update\nsudo apt-get install certbot python3-certbot-apache\n\n# Obtain and install an SSL certificate\nsudo certbot --apache -d yourdomain.com -d www.yourdomain.com\n\n# Automate renewal (optional but recommended)\nsudo systemctl enable certbot.timer

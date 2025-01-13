@@ -1,0 +1,1 @@
+protected void btnSubmit_Click(object sender, EventArgs e)\n{\n    if (Page.IsValid)\n    {\n        // Process valid input\n    }\n    else\n    {\n        // Handle invalid submission\n    }\n}

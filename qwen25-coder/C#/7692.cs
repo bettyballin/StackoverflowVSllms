@@ -1,0 +1,1 @@
+string connectionstringA = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=path_to_your_database.mdb;";

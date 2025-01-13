@@ -1,0 +1,1 @@
+# Generate a keystore and store the code signing key in it\nkeytool -genkeypair -alias myapplet -keyalg RSA -keysize 2048 -validity 3650 -keystore myapplet.jks\n\n# Replace "myapplet" with your alias, adjust RSA size and validity as needed.

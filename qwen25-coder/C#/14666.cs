@@ -1,0 +1,1 @@
+var values = new List<int> { 1, 2, 3 };\nvar criteria = session.CreateCriteria<YourEntity>()\n    .Add(Restrictions.In("YourProperty", values));

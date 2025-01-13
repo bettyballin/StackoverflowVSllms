@@ -1,0 +1,1 @@
+// Setting a session variable\nSession["UserName"] = "George";\n\n// Getting a session variable\nif (Session["UserName"] != null) {\n    string userName = Session["UserName"].ToString();\n}\n\n// Setting session timeout dynamically\nSession.Timeout = 60; // Timeout after 60 minutes of inactivity

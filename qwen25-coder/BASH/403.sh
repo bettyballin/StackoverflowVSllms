@@ -1,0 +1,1 @@
+openssl dsa -in private.key -pubin -inkey public.pub -noout &>/dev/null && echo "Keys match" || echo "Keys do not match"

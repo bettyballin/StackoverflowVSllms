@@ -1,0 +1,1 @@
+using System.Data;\nusing System.IO;\n\n// Assuming 'dataSet' is your DataSet object\nusing (StringWriter sw = new StringWriter())\n{\n    dataSet.WriteXml(sw);\n    string xmlString = sw.ToString();\n    // Now use the xmlString as needed\n}

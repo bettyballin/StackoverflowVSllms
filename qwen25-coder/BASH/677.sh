@@ -1,0 +1,1 @@
+cd /path/to/unzipped/oracle/files/database\n    ./runInstaller

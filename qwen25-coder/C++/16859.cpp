@@ -1,0 +1,1 @@
+#include <boost/function.hpp>\n#include <list>\n\ntemplate<class T>\nvoid example() {\n    std::list< boost::function<T ()> > myList;\n    typename std::list< boost::function<T ()> >::iterator it = myList.begin();\n}\n\nint main() {\n    example<void>();\n    return 0;\n}

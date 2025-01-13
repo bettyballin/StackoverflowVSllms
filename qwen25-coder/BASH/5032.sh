@@ -1,0 +1,1 @@
+# Use grep to exclude elements of list_B from list_A\n   grep -Fxf <(sort list_B.txt) <(sort list_A.txt) -v

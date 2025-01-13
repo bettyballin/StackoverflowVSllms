@@ -1,0 +1,1 @@
+gdbus call --session --dest org.gnome.Shell \\n          --object-path /org/gnome/Shell \\n          --method org.freedesktop.DBus.Introspectable.Introspect

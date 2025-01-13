@@ -1,0 +1,1 @@
+# Example command for scanning with ClamAV\n   clamscan path/to/your/setup.exe

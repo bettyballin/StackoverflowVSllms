@@ -1,0 +1,1 @@
+# Quick setup command for Codiad (requires Git, Node.js)\n   git clone --depth 1 https://github.com/Codiad/Codiad.git ~/codiad

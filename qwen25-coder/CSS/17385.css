@@ -1,0 +1,1 @@
+body {\n      font-size: 0;\n    }\n    #left, #right {\n      font-size: 16px; /* or whatever your normal font size is */\n      display: inline-block;\n      vertical-align: top; /* prevents gaps */\n    }

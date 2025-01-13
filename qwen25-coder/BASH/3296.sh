@@ -1,0 +1,1 @@
+export APP_ENV="production"\nphp your-script.php

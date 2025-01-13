@@ -1,0 +1,1 @@
+sudo perf report --call-graph --stdio  # For text output on the console

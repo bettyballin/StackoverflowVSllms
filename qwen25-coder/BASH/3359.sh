@@ -1,0 +1,1 @@
+g++ -fprofile-generate -O3 your_code.cpp -o prog.exe\n   ./prog.exe  # Collect profiling data\n   g++ -fprofile-use -O3 your_code.cpp -o prog-opt.exe

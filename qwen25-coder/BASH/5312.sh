@@ -1,0 +1,1 @@
+:: Create a registry entry to set IE security zone for local content\n@echo off\nreg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1" /v 1201 /t REG_DWORD /d 0 /f

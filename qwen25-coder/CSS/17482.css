@@ -1,0 +1,1 @@
+td {\n  border: solid green 1px;\n  width: 200px;\n  overflow: hidden; /* Hides content that overflows */\n  white-space: nowrap; /* Prevents text from wrapping to the next line */\n  word-break: break-all; /* Allows long words or URLs to be broken and wrap onto the next line */\n}

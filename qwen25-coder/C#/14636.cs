@@ -1,0 +1,1 @@
+struct Person {\n      public string name;\n  }\n\n  //Person someone = null; // This will cause a compile-time error\n  Person? someoneElse = null; // Valid: someoneElse is of type Nullable<Person>

@@ -1,0 +1,1 @@
+// Example snippet to configure IdentityServer4 services in ASP.NET Core\nservices.AddIdentityServer()\n    .AddDeveloperSigningCredential()\n    .AddInMemoryApiScopes(Config.ApiScopes)\n    .AddInMemoryClients(Config.Clients);

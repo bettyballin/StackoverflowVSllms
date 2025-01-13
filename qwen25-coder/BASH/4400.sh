@@ -1,0 +1,1 @@
+# Launch an EC2 instance with specific parameters suitable for scaling\naws ec2 run-instances --image-id ami-0123456789abcdef0 --count 1 --instance-type t2.micro \\n    --key-name MyKeyPair --security-group-ids sg-123abc45 --subnet-id subnet-6e7f829e

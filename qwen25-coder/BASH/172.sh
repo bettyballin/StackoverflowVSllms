@@ -1,0 +1,1 @@
+gswin64c -q -dNOPAUSE -dBATCH -sDEVICE=png16m -r300x300 -sOutputFile="output_%03d.png" GLOSS.pdf

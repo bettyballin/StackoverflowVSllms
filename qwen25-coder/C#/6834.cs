@@ -1,0 +1,1 @@
+// C# example\nusing System;\n\nclass Program {\n    static void Main() {\n        int number = 10;\n        string text = "Hello, World!";\n        Console.WriteLine(number);\n        Console.WriteLine(text);\n    }\n}

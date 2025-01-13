@@ -1,0 +1,1 @@
+# Create a new group named heavy_io\n   sudo cgcreate -g blkio:/heavy_io\n\n   # Set a limit on the amount of data that can be read from or written to a device\n   echo 8:0 50000 | sudo tee /sys/fs/cgroup/blkio/heavy_io/blkio.throttle.read_bps_device\n   sudo cgexec -g blkio:/heavy_io cp -r bigtree bigtree2

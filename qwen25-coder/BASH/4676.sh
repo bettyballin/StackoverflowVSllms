@@ -1,0 +1,1 @@
+sudo apt install apache2 libapache2-mod-php7.4 php-fpm php-mbstring php-gd php-json php-curl \\n       php-xml php-zip unzip -y

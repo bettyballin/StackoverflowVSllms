@@ -1,0 +1,1 @@
+#include <boost/process.hpp>\n#include <iostream>\n\nnamespace bp = boost::process;\n\nint main() {\n    try {\n        bp::child c("ls", "-l");\n        c.wait();\n        return c.exit_code();\n    } catch (std::exception &e) {\n        std::cerr << "Boost.Process Exception: " << e.what() << "\n";\n        return -1;\n    }\n}

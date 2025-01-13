@@ -1,0 +1,1 @@
+public static bool IsNullOrZero(int? value)\n{\n    return !value.HasValue || value.Value == 0;\n}

@@ -1,0 +1,1 @@
+# Install Trac on CentOS\n   sudo yum install trac -y

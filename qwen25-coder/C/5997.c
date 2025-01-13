@@ -1,0 +1,1 @@
+if (condition) {\n    // do something\n} else {\n    // do something\n}

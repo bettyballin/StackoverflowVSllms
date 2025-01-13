@@ -1,0 +1,1 @@
+# Install Apache Cordova globally\n   npm install -g cordova\n   \n   # Create a new Cordova project\n   cordova create MyApp com.example.myapp MyApp\n   \n   # Add platform(s)\n   cd MyApp\n   cordova platform add ios android

@@ -1,0 +1,1 @@
+keytool -import -trustcacerts -alias login.website.com -file server_certificate.pem -keystore $JAVA_HOME/jre/lib/security/cacerts

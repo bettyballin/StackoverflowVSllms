@@ -1,0 +1,1 @@
+#container {\n    width: 80%;\n    display: flex; /* Enables Flexbox */\n    margin: 0 auto; /* Centers the container */\n}\n\n#col1, #col2 {\n    flex: 1; /* Each child expands equally to fill available space */\n    margin: 5px; /* Adds separation between the divs */\n    box-sizing: border-box; /* Includes padding and border in the element's total width and height */\n}

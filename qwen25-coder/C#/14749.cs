@@ -1,0 +1,1 @@
+// Example of using SubSonic in C#\nPerson person = new PersonProvider().FetchByID(1);\nConsole.WriteLine(person.FullName);

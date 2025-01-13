@@ -1,0 +1,1 @@
+qemu-system-x86_64 -cdrom /path/to/image.iso -m 512M

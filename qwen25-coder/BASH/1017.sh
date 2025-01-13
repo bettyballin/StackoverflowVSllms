@@ -1,0 +1,1 @@
+# Example of creating a service account in a Unix-like system\n   sudo adduser support-service-account --disabled-password --shell /bin/bash

@@ -1,0 +1,1 @@
+using (var context = new MyDbContext())\n{\n    var results = context.MyTable.Where(t => t.Stuff == "StackOverflow").ToList();\n}

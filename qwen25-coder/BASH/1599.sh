@@ -1,0 +1,1 @@
+sqlcmd -S servername -d databasename -U username -P password -i "C:\path\to\script.sql"

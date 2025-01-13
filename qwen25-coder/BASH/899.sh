@@ -1,0 +1,1 @@
+svn checkout <repository_url>/<folder> <local_folder>

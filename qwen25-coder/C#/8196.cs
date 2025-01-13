@@ -1,0 +1,1 @@
+public ActionResult YourActionMethod()\n{\n    bool isDivVisible = SomeDatabaseService.GetIsDivVisibleCondition();\n    var viewModel = new YourViewModel { IsDivVisible = isDivVisible };\n    return View(viewModel);\n}

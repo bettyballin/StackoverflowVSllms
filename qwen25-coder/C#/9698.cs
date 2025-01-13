@@ -1,0 +1,1 @@
+return otherObj == null && otherObj.Id == this.Id;

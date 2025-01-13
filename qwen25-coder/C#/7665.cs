@@ -1,0 +1,1 @@
+// C# Code\nvar v = from a in AppDomain.CurrentDomain.GetAssemblies()\n        from b in a.GetExportedTypes()\n        select b;\n\nforeach (var type in v)\n{\n    Console.WriteLine(type.FullName);\n}\nConsole.WriteLine($"Total Count: {v.Count()}");

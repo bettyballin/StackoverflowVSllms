@@ -1,0 +1,1 @@
+#include <vector>\n#include <iostream>\n\nint main() {\n    std::vector<int> numbers = {1, 2, 3, 4, 5};\n    \n    // Instead of writing: for (std::vector<int>::iterator it = numbers.begin(); ...\n    for (auto it = numbers.begin(); it != numbers.end(); ++it) {\n        std::cout << *it << " ";\n    }\n    return 0;\n}

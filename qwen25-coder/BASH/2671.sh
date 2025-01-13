@@ -1,0 +1,1 @@
+sudo apt-get update\nsudo apt-get install php-mysql\nsudo service apache2 restart

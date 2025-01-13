@@ -1,0 +1,1 @@
+table {\n    width: 100%;\n    border-collapse: separate;\n}\n\ntd {\n    background-color: #fff; /* Assuming white is your table cell color */\n    padding: 0;\n    border-right: 10px solid #fff; /* Adjust horizontal spacing */\n    border-bottom: 20px solid #fff; /* Adjust vertical spacing */\n}

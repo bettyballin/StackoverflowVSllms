@@ -1,0 +1,1 @@
+public string GetTemplate(string templateName)\n{\n    // Logic to fetch template content from the database based on templateName\n    return "Sample HTML Template";\n}

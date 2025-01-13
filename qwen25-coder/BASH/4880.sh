@@ -1,0 +1,1 @@
+setx ORACLE_HOME "C:\oracle\product\11.2.0\client_1"\nsetx PATH "C:\oracle\product\11.2.0\client_1\bin;%PATH%"\nsetx TNS_ADMIN "C:\oracle\product\11.2.0\client_1\network\admin"

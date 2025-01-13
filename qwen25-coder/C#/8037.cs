@@ -1,0 +1,1 @@
+public ActionResult YourActionMethod()\n{\n    // Assuming you have some method to get your boolean value from the database\n    bool isDivVisible = SomeDatabaseService.GetIsDivVisibleCondition();\n\n    // Pass this condition to the view using ViewBag, ViewData, or a model\n    ViewBag.IsDivVisible = isDivVisible;\n\n    return View();\n}

@@ -1,0 +1,1 @@
+public ActionResult Index()\n{\n    var contactViews = new List<ContactView>\n    {\n        new ContactView { /* Properties here */ },\n        new ContactView { /* Properties here */ }\n    };\n\n    return View(contactViews);\n}

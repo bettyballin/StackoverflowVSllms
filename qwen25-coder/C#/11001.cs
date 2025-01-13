@@ -1,0 +1,1 @@
+XmlNode node = _xmlArticlesDocument.DocumentElement.SelectSingleNode(string.Format("//page[id='{0}']", id.ToString()));

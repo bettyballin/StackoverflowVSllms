@@ -1,0 +1,1 @@
+context.Response.ContentType = "text/plain";\nif (returnString != null)\n{\n    context.Response.Write(returnString);\n}\nelse\n{\n    // Optionally write a specific message or leave it empty\n    context.Response.Write("No content to return.");\n}

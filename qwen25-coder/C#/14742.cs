@@ -1,0 +1,1 @@
+public partial class User {\n    public void Promote() {\n        // Logic to promote user\n        this.Rank += 1;\n    }\n}

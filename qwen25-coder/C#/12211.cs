@@ -1,0 +1,1 @@
+[TestMethod]\n   public void TestGetErrorCodeMethod()\n   {\n       var errorCode = apiInstance.GetErrorCode();\n       Assert.IsNotNull(errorCode);\n       // Add assertions based on observed values.\n   }

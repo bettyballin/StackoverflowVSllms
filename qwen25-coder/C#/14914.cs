@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    bool isPostback = Request.HttpMethod == "POST";\n    \n    if (isPostback)\n    {\n        // Handle postback logic here.\n        string title = Request.Form["titleTB"];\n        string zip = Request.Form["zipTB"];\n        \n        // Process the input data\n    }\n}

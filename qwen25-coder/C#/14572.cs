@@ -1,0 +1,1 @@
+public enum Test\n{\n    @as = 1,\n    @is = 2\n}

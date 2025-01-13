@@ -1,0 +1,1 @@
+%windir%\system32\inetsrv\appcmd.exe set config /section:VirtualDirectoryDefaults /userName:"administrator" /password:<NewEncryptedPassword> /commit:apphost

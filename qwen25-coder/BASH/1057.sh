@@ -1,0 +1,1 @@
+sudo ln -s /path/to/your/custom/logdir /private/var/log/customlogdir

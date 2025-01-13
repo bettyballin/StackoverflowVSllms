@@ -1,0 +1,1 @@
+msgSrv* srv = new msgSrv();\n   boost::bind(&msgSrv::yourFunction, srv, _1, _2);

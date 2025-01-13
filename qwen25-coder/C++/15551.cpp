@@ -1,0 +1,1 @@
+#ifndef MYCLASS_H\n#define MYCLASS_H\n\nclass MyClass {\npublic:\n    MyClass();\n    ~MyClass();\n\n    void doSomething();\n\nprivate:\n    struct Impl; // Forward declaration of implementation details\n    Impl* pImpl;  // Pointer to implementation\n};\n\n#endif // MYCLASS_H

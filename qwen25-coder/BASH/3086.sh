@@ -1,0 +1,1 @@
+gcc -Wall -D_GNU_SOURCE blah.c -o blah -lm

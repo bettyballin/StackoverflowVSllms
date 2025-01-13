@@ -1,0 +1,1 @@
+c:\windows\system32\inetsrv\appcmd.exe set apppool "YourAppPoolName" /processModel.identityType:NetworkService

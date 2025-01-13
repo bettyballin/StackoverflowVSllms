@@ -1,0 +1,1 @@
+public class MyRestService : IMyRestService\n{\n    public string GetData()\n    {\n        return "{\"message\": \"Hello, world!\"}";\n    }\n}

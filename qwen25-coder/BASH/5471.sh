@@ -1,0 +1,1 @@
+glib-compile-resources --target resources.bin --sourcedir . your.gresource.xml

@@ -1,0 +1,1 @@
+#include "thread.h"\n#include <pthread.h>\n\nvoid* thread_function(void* arg) {\n    // Thread code here\n    return NULL;\n}\n\nint main(void) {\n    pthread_t my_thread;\n    if (pthread_create(&my_thread, NULL, thread_function, NULL)) {\n        perror("Could not create thread");\n        return 1;\n    }\n    pthread_join(my_thread, NULL);\n}

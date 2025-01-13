@@ -1,0 +1,1 @@
+gacutil -u YourAssemblyName\n   gacutil -i path\to\YourUpdatedAssembly.dll

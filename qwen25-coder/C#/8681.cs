@@ -1,0 +1,1 @@
+using (SqlConnection connection = new SqlConnection(yourConnectionString))\n{\n    connection.Open();\n    using (SqlCommand command = new SqlCommand("YourQuery", connection))\n    {\n        using (SqlDataAdapter adapter = new SqlDataAdapter(command))\n        {\n            adapter.Fill(dataTable);\n        }\n    }\n}

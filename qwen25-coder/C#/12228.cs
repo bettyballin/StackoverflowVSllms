@@ -1,0 +1,1 @@
+public SingleType getSingle(int id)\n{\n    var query = from s in context.Singles \n                where s.ID == id \n                select s;\n    var results = query.ToList(); // Fetch all matching records\n\n    if (results.Count > 1)\n    {\n        throw new InvalidOperationException("Multiple rows found for ID: " + id);\n    }\n\n    return results.SingleOrDefault();\n}

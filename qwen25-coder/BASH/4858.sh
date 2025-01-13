@@ -1,0 +1,1 @@
+crontab -l | \ngrep --invert-match '#user-modified' | \nsed -e "/#change-enabled/s/^\([^ ]*\) [0-9]* \(.*#change-enabled\)/\1 $(/home/user/slow-hour || echo "1") \2/" |\nawk '{print $0 "#user-modified"}' | \ncrontab -

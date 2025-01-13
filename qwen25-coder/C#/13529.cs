@@ -1,0 +1,1 @@
+// Define City Entity\npublic class City\n{\n    public virtual int Id { get; set; }\n    public virtual string Name { get; set; }\n}\n\n// Repository or Service method to retrieve cities\npublic IEnumerable<City> GetAllCities()\n{\n    using (var session = sessionFactory.OpenSession())\n    {\n        return session.Query<City>().ToList();\n    }\n}

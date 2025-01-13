@@ -1,0 +1,1 @@
+int? test;\ntry\n{\n    test = (int?)Int32.Parse("7");\n} catch {}

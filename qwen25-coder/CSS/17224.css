@@ -1,0 +1,1 @@
+/* Rule 35 of css/style.css */\n#main A:link,\n#main A:visited {\n    COLOR: #437fda;\n    BORDER-BOTTOM: #437fda 1px dashed;\n    TEXT-DECORATION: none;\n}

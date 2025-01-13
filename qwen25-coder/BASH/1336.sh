@@ -1,0 +1,1 @@
+sudo apt-get install imagemagick     # On Debian-based systems (Ubuntu)\nbrew install imagemagick              # On macOS using Homebrew

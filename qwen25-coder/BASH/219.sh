@@ -1,0 +1,1 @@
+gcc -o crackme -O3 cracking.c\n./crackme ABCDABCDAB

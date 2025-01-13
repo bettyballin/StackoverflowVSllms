@@ -1,0 +1,1 @@
+// Include the header file that declares the exported functions or classes\n   #include "YourDllHeader.h"

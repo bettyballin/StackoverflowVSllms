@@ -1,0 +1,1 @@
+htpasswd -c /path/to/.htpasswd admin\n# Follow prompts to set a password for 'admin'

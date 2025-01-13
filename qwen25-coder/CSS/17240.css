@@ -1,0 +1,1 @@
+div,\ninput {\n  border: 1px solid #000;\n  margin: 2px;\n  padding: 3px;\n  width: 100px;\n  box-sizing: border-box; /* This ensures that width includes border and padding */\n}

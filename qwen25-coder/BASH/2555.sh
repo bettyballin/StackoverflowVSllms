@@ -1,0 +1,1 @@
+sudo chmod 600 /etc/mail/authinfo*

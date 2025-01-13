@@ -1,0 +1,1 @@
+# Set the setgid bit on the 'pages' directory\nchmod g+s pages

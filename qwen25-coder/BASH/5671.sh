@@ -1,0 +1,1 @@
+# Example: Extracting email bodies and saving to a new file\ngrep -v '^From ' *.eml | awk RS='' '/^$/ {next} {print $0 "\n"}' > email_bodies.txt\n\n# View the result\nless email_bodies.txt

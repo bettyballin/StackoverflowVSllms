@@ -1,0 +1,1 @@
+curl -o trace_output.html http://yourwebsite.com/trace.axd

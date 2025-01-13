@@ -1,0 +1,1 @@
+// IMyComponent.h\n#ifndef IMYCOMPONENT_H\n#define IMYCOMPONENT_H\n\nstruct __declspec(uuid("A9CD42CA-FF67-43CC-A00D-C8C7E5E0F82E"))\nIMyComponent : public IDispatch {\npublic:\n    virtual HRESULT STDMETHODCALLTYPE Method1(float param) = 0;\n    // add more methods...\n};\n\n#endif

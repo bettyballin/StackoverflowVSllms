@@ -1,0 +1,1 @@
+#include <stdlib.h>\n#include <string.h>\n\nchar *getp() {\n    char *s = malloc(6); // allocate 6 bytes including null terminator\n    if (s == NULL) return NULL; // check for malloc failure\n    strcpy(s, "hello");\n    return s;\n}\n\n// Don't forget to free the memory when done using it

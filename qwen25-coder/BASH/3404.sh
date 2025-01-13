@@ -1,0 +1,1 @@
+# Export the certificate from the server if needed using openssl\n   # Then import it into your JVM's cacerts file\n   keytool -import -alias mycert -file /path/to/cert.crt -keystore /path/to/jdk/jre/lib/security/cacerts

@@ -1,0 +1,1 @@
+#!/bin/bash\n   /path/to/visitors -o /path/to/output.html /path/to/access.log

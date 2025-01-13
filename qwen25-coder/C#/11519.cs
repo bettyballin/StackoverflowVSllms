@@ -1,0 +1,1 @@
+// Using int array\nint[] intArray = new int[10]; // Fixed size\n\n// Using List<int>\nList<int> intList = new List<int>(); // Dynamic size

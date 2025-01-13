@@ -1,0 +1,1 @@
+using System.Web.Security;\n\n    public void ListRoles()\n    {\n        string[] roles = Roles.GetAllRoles();\n        foreach (string role in roles)\n        {\n            // Process each role, e.g., display on page or log.\n            Console.WriteLine(role);\n        }\n    }

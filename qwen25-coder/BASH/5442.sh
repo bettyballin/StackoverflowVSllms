@@ -1,0 +1,1 @@
+composer require --dev doctrine/doctrine-doctrine-bundle doctrine/doctrine-migrations-bundle symfony/maker-bundle h4cc/alumunius-acl-manager-bundle

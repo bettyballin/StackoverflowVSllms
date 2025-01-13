@@ -1,0 +1,1 @@
+ren yourcertificate.cer yourcertificate.crt

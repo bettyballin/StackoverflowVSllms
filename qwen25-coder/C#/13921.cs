@@ -1,0 +1,1 @@
+[assembly: InternalsVisibleTo("YourOtherAssembly, PublicKey=YourPublicKey")]

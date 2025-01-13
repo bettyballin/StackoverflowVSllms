@@ -1,0 +1,1 @@
+systemctl restart sendmail  # For systems using systemd\n     service sendmail restart    # For older init systems

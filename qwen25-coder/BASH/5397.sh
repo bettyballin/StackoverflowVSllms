@@ -1,0 +1,1 @@
+sudo apt-get install qcachegrind # For graphical analysis\n   kcachegrind callgrind.out.<pid>

@@ -1,0 +1,1 @@
+xperf -on PROC_THREAD+LOADER -stackwalk profile\n   xperf -start ktrace -etl c:\traces\kerneltarget.etl -f 0x603FFF -stackwalk Profile -a "CSwitch,Cswitch+ThreadSwitch"

@@ -1,0 +1,1 @@
+ps aux | grep mysql\n   top -u mysql

@@ -1,0 +1,1 @@
+using (SqlCommand RetrieveComm = new SqlCommand("SELECT TOP 1 ItemID FROM item_k ORDER BY NEWID()", searchCon))\n{\n    searchCon.Open();\n    int randomItemId = (int)RetrieveComm.ExecuteScalar();\n}

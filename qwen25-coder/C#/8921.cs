@@ -1,0 +1,1 @@
+[HttpPost]\npublic ActionResult SomeFormAction(FormCollection form)\n{\n    // Process your form data\n\n    if (Request.IsAjaxRequest())\n    {\n        return PartialView("_PartialViewName");\n    }\n    else\n    {\n        return View();\n    }\n}

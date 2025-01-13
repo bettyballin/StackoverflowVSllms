@@ -1,0 +1,1 @@
+# Find and terminate all TCP connections to a specific remote IP and port\nGet-NetTCPConnection -RemoteAddress "192.168.1.10" -RemotePort 80 | Stop-NetTCPConnectio

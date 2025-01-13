@@ -1,0 +1,1 @@
+encfs ~/private_encrypted ~/private_folder

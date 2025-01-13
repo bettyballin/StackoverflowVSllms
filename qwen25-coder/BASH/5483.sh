@@ -1,0 +1,1 @@
+sqlplus user/password@//SERVER_IP_ADDRESS:PORT/ORACLE_INSTANCE_SID

@@ -1,0 +1,1 @@
+# Add an old OpenJDK repository (not guaranteed to have Java 6)\nsudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu trusty main universe"\n\n# Update package list\nsudo apt-get update\n\n# Attempt to install openjdk-6-jdk\nsudo apt-get install openjdk-6-jdk

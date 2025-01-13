@@ -1,0 +1,1 @@
+# Build the project\nmvn clean package\n\n# Run tests\nmvn test\n\n# Run the app\njava -jar target/your-project-name-0.0.1-SNAPSHOT.jar

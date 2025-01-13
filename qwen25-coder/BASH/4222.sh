@@ -1,0 +1,1 @@
+export DB_URL="your_new_database_url.db"\ncabal ru

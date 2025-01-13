@@ -1,0 +1,1 @@
+public partial class BookEntity {\n    public void SomeDataLayerMethod() {\n        // Data-layer specific method implementation\n    }\n}

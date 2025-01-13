@@ -1,0 +1,1 @@
+xcopy "$(ProjectDir)dependencies\*.dll" "$(TargetDir)" /Y /C

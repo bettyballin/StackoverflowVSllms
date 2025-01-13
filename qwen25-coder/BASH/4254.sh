@@ -1,0 +1,1 @@
+# Establishes an SSH tunnel from local port 33306 to remote host port 3306\nssh -L 33306:127.0.0.1:3306 user@host

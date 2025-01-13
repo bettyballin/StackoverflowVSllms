@@ -1,0 +1,1 @@
+theDoc.HtmlOptions.UseScript = true;

@@ -1,0 +1,1 @@
+mkdir build-i386\n   cd build-i386

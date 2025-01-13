@@ -1,0 +1,1 @@
+using System;\nusing Newtonsoft.Json;\n\n[Serializable]\npublic class SessionWrapper\n{\n    private string _jsonSerializedData;\n\n    public T GetObject<T>()\n    {\n        return JsonConvert.DeserializeObject<T>(_jsonSerializedData);\n    }\n\n    public void SetObject(object data)\n    {\n        _jsonSerializedData = JsonConvert.SerializeObject(data);\n    }\n}

@@ -1,0 +1,1 @@
+wkhtmltopdf --header-html "" --footer-html "" input.html output.pdf

@@ -1,0 +1,1 @@
+using System.Globalization;\n\n// Set the culture to US (you can change it to your specific culture)\nCultureInfo usCulture = CultureInfo.CreateSpecificCulture("en-US");\n\n// Format the number with the specified culture\nstring formattedNumber = String.Format(usCulture, "{0:C2}", -1234);\n\nConsole.WriteLine(formattedNumber); // Should output: ($1,234.00)

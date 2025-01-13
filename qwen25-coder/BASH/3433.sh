@@ -1,0 +1,1 @@
+# Start MinIO server in detached mode with persistent volumes\ndocker run -d -p 9000:9000 -p 9001:9001 \\n  --name minio \\n  -v /mnt/data:/data \\n  quay.io/minio/minio server /data --console-address ":9001"

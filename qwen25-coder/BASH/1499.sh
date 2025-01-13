@@ -1,0 +1,1 @@
+kadmin.sh\n   addprinc -randkey HTTP/localhost\n   xst -k gssdemo.keytab HTTP/localhost

@@ -1,0 +1,1 @@
+ROBOCOPY C:\Path\To\Source D:\Path\To\Backup /MIR /LOG+:D:\backup.log

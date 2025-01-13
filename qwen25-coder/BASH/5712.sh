@@ -1,0 +1,1 @@
+@echo off\nREM This sets a new string value 'MyStringValue' with data 'HelloWorld' in the specified key.\nreg add "HKEY_CURRENT_USER\Software\MyCompany\MyApp" /v MyStringValue /t REG_SZ /d HelloWorld /f

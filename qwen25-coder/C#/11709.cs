@@ -1,0 +1,1 @@
+public class MainViewModel : INotifyPropertyChanged\n{\n    public IPrincipal CurrentPrincipal { get; }\n\n    public MainViewModel()\n    {\n        // Initialize CurrentPrincipal, for example using MyPrincipal.CurrentPrincipal\n    }\n    \n    // Implement INotifyPropertyChanged properly here\n}

@@ -1,0 +1,1 @@
+apk add php-fpm php-mysqli

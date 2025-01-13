@@ -1,0 +1,1 @@
+EXEC SQL DECLARE SECTION;\nint my_variable;\nshort ind_my_variable;\nEXEC SQL END DECLARE SECTION;\n\n/* ... */\n\nEXEC SQL FETCH cursor_name INTO :my_variable:ind_my_variable;\nif (ind_my_variable == -1)\n    // Handle NULL case for my_variable\n}\nelse {\n    // Handle non-NULL case for my_variable\n}

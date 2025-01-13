@@ -1,0 +1,1 @@
+# Example commands to set common permissions:\nfind . -type f -exec chmod 644 {} \; # Set all files to 644\nfind . -type d -exec chmod 755 {} \; # Set all directories to 755\n\n# For specific types of files, you might want more restrictive access:\nchmod 600 sensitive-config-file.conf

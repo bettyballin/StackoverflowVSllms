@@ -1,0 +1,1 @@
+# Check if Java is installed\njava -versio

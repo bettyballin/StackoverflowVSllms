@@ -1,0 +1,1 @@
+// In appsettings.Development.json\n{\n  "Features": {\n    "IgnoreValidation": true,\n    "IgnoreCreditCardValidation": false\n  }\n}\n\n// In code\nvar ignoreValidation = Configuration["Features:IgnoreValidation"] == bool.TrueString;

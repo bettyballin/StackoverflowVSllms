@@ -1,0 +1,1 @@
+public class BloggingContext : DbContext\n{\n    public DbSet<Blog> Blogs { get; set; }\n}\n\npublic class Blog\n{\n    public int BlogId { get; set; }\n    public string Url { get; set; }\n}\n\npublic void AddBlog(BloggingContext context, Blog blog)\n{\n    context.Blogs.Add(blog);\n    context.SaveChanges();\n}

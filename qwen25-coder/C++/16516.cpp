@@ -1,0 +1,1 @@
+// Example of adding file using minizip\n   #include "zip.h"\n\n   int main() {\n       zipFile zf = zipOpen64("filename.zip", APPEND_STATUS_CREATE);\n       if (zf) {\n           zipCloseFileInZip(zf);\n           zipAddFileInZip(zf, "file_to_add.txt", "path/to/file_to_add.txt", nullptr);\n           zipClose(zf, nullptr);\n       }\n   }

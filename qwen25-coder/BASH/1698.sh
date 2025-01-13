@@ -1,0 +1,1 @@
+" First, yank your BLOCK1 as you did.\n" Then execute this command in normal mode:\n:execute ':w !tee -a /path/to/your/outputfile'

@@ -1,0 +1,1 @@
+cmdText = String.Format("SELECT foo FROM bar WHERE baz = '{0}'", fuz)

@@ -1,0 +1,1 @@
+# Example of using rsync to sync a local directory with a remote server\nrsync -avz /path/to/local/dir user@remotehost:/path/to/remote/dir\n\n# Using mysqldump to backup MySQL database\nmysqldump -u username -p database_name > db_backup.sql

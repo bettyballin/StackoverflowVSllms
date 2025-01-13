@@ -1,0 +1,1 @@
+COleVariant empty;\nVARIANT* paramList[1] = { &empty };\nDISPPARAMS params = { paramList, NULL, 1, 0 };\n\nHRESULT hr = irange->Invoke(\n    DISPID_VALUE,\n    IID_NULL,\n    LOCALE_USER_DEFAULT,\n    DISPATCH_METHOD,\n    &params,\n    NULL,\n    NULL,\n    NULL\n);\n\nif (FAILED(hr)) {\n    // Handle error.\n}

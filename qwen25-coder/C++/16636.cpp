@@ -1,0 +1,1 @@
+#include <list>\nusing std::list;\n\nlist<Foo*> foo_list;\n// Assuming foo_list is filled with Foo* pointers...\n\nfor (Foo* ptr : foo_list) {\n    delete ptr;\n}\nfoo_list.clear();  // Clear the list so it no longer holds dangling pointers.

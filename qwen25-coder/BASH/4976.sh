@@ -1,0 +1,1 @@
+# Save outputs of find commands to files\n   find . | awk -F"/" '{ print $2 }' > list_A.txt\n   find ~/bin/FilesDvorak/.* -maxdepth 0 | awk -F"/" '{ print $6 }' > list_B.txt\n\n   # Sort and find intersection\n   sort list_A.txt list_B.txt | uniq -d

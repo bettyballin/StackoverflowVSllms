@@ -1,0 +1,1 @@
+#!/bin/bash\n\nfile="MyProgram.cpp"\n\n# Remove BOM\nsed -i '1s/^\xEF\xBB\xBF//' "$file"\n\n# Convert CRLF to LF\ndos2unix "$file"

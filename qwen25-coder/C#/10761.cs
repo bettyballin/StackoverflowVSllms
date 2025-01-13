@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        // Configure your controls here\n        someDropDownList.AutoPostBack = true; // or false depending on your needs\n    }\n}

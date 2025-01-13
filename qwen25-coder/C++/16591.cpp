@@ -1,0 +1,1 @@
+#include <sochie/Entity.h>\n#include <sochie/PersistenceManager.h>\n\nint main() {\n    sochie::PersistenceManager pm;\n    pm.init("user/pass@db");\n\n    std::shared_ptr<YourEntityClass> entity = pm.find<YourEntityClass>(1);\n    if (entity) {\n        // Access fields as usual\n        std::cout << "Name: " << entity->getName() << std::endl;\n    }\n\n    pm.disconnect();\n}

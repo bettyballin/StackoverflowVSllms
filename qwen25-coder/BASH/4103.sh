@@ -1,0 +1,1 @@
+mkbundle2 --deps MyApp.exe --cross mono-4.0-w32bin --static -o MyAppBundle.exe

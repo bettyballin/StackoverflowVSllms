@@ -1,0 +1,1 @@
+// In your_header.h\n#ifndef YOUR_HEADER_H\n#define YOUR_HEADER_H\n\ninline void myFunction() {\n    // Function implementation\n}\n\n#endif // YOUR_HEADER_H

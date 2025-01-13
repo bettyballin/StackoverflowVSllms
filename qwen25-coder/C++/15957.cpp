@@ -1,0 +1,1 @@
+private:\n   MyClass(const MyClass& ) = delete;

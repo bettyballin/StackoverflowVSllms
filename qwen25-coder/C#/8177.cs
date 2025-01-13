@@ -1,0 +1,1 @@
+SshTransferProtocolBase scp = new Scp(SSH_HOST, SSH_USER);\nscp.Password = SSH_PASSWORD;\nscp.Timeout = 60000; // Timeout in milliseconds (1 minute)\nscp.Connect();\nforeach (string file in files)\n{\n    string remotePath = "incoming/" + new FileInfo(file).Name;\n    scp.Put(file, remotePath);\n}\nscp.Close();

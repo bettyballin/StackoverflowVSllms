@@ -1,0 +1,1 @@
+// Example command-line to create and configure a service without requiring UAC prompt.\n   sc.exe create "MyService" binPath= "C:\path\to\myservice.exe" start= auto obj= LocalSystem password=

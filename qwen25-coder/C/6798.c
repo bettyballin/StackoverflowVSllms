@@ -1,0 +1,1 @@
+#define MAX_TEST_ID (sizeof(testStrings) / sizeof(testStrings[0]) - 1)\n\nif (testID < 0 || testID > MAX_TEST_ID) {\n    // Handle error: invalid testID\n} else {\n    snprintf(tempStr, size, testStrings[testID], A2DtoV(testResults[testID].value),\n             A2DtoV(testResults[testID].min), A2DtoV(testResults[testID].max));\n}

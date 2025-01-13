@@ -1,0 +1,1 @@
+// Command line example using regasm\nregasm /codebase MyComLibrary.dll

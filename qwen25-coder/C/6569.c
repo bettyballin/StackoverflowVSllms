@@ -1,0 +1,1 @@
+dc1394_format7_set_image_size(camera, DC1394_VIDEO_MODE_640x480_YUV422, 640, 480);

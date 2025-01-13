@@ -1,0 +1,1 @@
+__asm__(".att_syntax prefix");\n__asm__("movl $0x1234,0xdeadbeef");

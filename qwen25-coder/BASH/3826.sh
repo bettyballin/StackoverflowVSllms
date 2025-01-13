@@ -1,0 +1,1 @@
+cd $ORACLE_HOME/dbs\n   sqlplus sys AS SYSDBA @drop_gpl.sql

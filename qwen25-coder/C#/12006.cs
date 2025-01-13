@@ -1,0 +1,1 @@
+public ActionResult YourAction()\n{\n    var vehicle = repository.GetVehicleDetails(); // fetch your vehicle details\n    ViewBag.SellDealerList = new SelectList(repository.GetDealerList(), "id", "name", vehicle.SoldTo);\n    return View(vehicle); \n}

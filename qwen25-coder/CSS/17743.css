@@ -1,0 +1,1 @@
+.sidebar {\n     float: left;\n     width: 25%;\n     background-color: #f4f4f4;\n   }\n\n   .content {\n     float: right;\n     width: 75%;\n     background-color: #ffffff;\n   }\n\n   .clearfix::after {\n     content: "";\n     clear: both;\n     display: table;\n   }

@@ -1,0 +1,1 @@
+spMyObject->DoSomething();

@@ -1,0 +1,1 @@
+int? b;\nif (b != null)\n{\n    // Do something with b.Value\n}

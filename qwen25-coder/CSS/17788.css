@@ -1,0 +1,1 @@
+@media (max-width: 600px) {\n    #wrapper {\n        flex-direction: column;\n    }\n    \n    .sidebar,\n    .main-content {\n        width: 100%; /* Full width on smaller screens */\n    }\n}

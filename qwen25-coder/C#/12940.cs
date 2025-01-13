@@ -1,0 +1,1 @@
+public class TestRequestModel\n{\n    public string Keyword { get; set; }\n    public Guid ProjectGuid { get; set; }\n    public Guid UserGuid { get; set; }\n}

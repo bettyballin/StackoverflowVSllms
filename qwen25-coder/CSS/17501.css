@@ -1,0 +1,1 @@
+<style type="text/css">\n    .entry {\n        width: 400px;\n        border-style: solid;\n        border-width: 1px;\n        border-color: #000;\n        overflow: auto; /* This is the clearfix */\n    }\n    \n    .box1 {\n        width: 75px;\n        float: left;\n    }\n\n    .box2 {\n        width: 300px;\n        float: right;\n    }\n</style>

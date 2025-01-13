@@ -1,0 +1,1 @@
+public ActionResult Login(string username, string password)\n   {\n       // Validate credentials (this is just a placeholder for your validation logic)\n       if (username == "admin" && password == "password")\n       {\n           FormsAuthentication.SetAuthCookie(username, false);\n           return RedirectToAction("Index", "Home");\n       }\n       return View();\n   }

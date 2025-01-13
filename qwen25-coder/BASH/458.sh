@@ -1,0 +1,1 @@
+# Find the window id\n   WINDOW_ID=$(xdotool search --onlyvisible --name 'window_name' | head -n 1)\n\n   # Capture the screenshot\n   scrot -u -i $WINDOW_ID screenshot.jpg

@@ -1,0 +1,1 @@
+input[type="text"],\nselect {\n    vertical-align: middle;\n    display: inline-block; /* Ensures elements are treated as inline-level blocks */\n}

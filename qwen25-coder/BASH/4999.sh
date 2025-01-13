@@ -1,0 +1,1 @@
+# Create a new repository on GitLab\n   # Clone the repository to your local machine\n   git clone https://gitlab.com/yourusername/your-repo.git\n   cd your-repo\n   # Add your JavaScript file\n   echo "console.log('Hello World!');" > index.js\n   # Commit and push to GitLab\n   git add index.js\n   git commit -m "Add index.js"\n   git push origin mai

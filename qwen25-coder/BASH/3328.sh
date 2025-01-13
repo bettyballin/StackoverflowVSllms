@@ -1,0 +1,1 @@
+g++ -O3 -funroll-loops -march=native your_code.cpp -o your_program

@@ -1,0 +1,1 @@
+public partial class YourPage : NoSessionPage\n{\n    // Page code here...\n}

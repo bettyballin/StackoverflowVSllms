@@ -1,0 +1,1 @@
+fastcopy.exe /cmd=sync /rmdir=a:\source_folder \\network_share\destination_folder

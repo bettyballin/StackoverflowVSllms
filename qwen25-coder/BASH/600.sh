@@ -1,0 +1,1 @@
+brew tap InstantClienttap/instantclient\n   brew install instantclient-basic\n   brew link --force instantclient-basic

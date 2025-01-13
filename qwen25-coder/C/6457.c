@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nvoid myFunction() {\n    char buffer[10];\n    if (fgets(buffer, sizeof(buffer), stdin) != NULL) {\n        // Process input\n    }\n}\n\nint main() {\n    myFunction();\n    return 0;\n}

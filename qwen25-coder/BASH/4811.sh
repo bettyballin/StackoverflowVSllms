@@ -1,0 +1,1 @@
+java -Xloggc:gc.log MyApplicatio

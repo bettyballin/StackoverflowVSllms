@@ -1,0 +1,1 @@
+using System;\nusing System.Reflection;\n\nclass Program\n{\n    static void Main()\n    {\n        string applicationPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);\n        Console.WriteLine("Application path: " + applicationPath);\n    }\n}

@@ -1,0 +1,1 @@
+CspParameters cspParams = new CspParameters();\ncspParams.KeyContainerName = "YourKeyContainerName";\ncspParams.ProviderType = 1; // PROV_RSA_FULL (or equivalent)\ncspParams.ProviderName = "Microsoft Enhanced Cryptographic Provider v1.0";\ncspParams.Flags = CspProviderFlags.UseMachineKeyStore;

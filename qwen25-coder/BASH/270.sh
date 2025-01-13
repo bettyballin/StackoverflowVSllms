@@ -1,0 +1,1 @@
+# Example command to add an icon (assuming .icns format)\n   cp YourFile.icns /Applications/YourApp.app/Contents/Resources/

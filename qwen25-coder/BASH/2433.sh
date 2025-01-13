@@ -1,0 +1,1 @@
+sqlcmd -S localhost\yourInstanceName -d YourDatabaseName -U yourUsername -P yourPassword -i "C:\path\to\yourfile.sql"

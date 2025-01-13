@@ -1,0 +1,1 @@
+specman -c "your_test.e" -elg your_custom_log_name.elog

@@ -1,0 +1,1 @@
+vsp /start:trace /output:myapp.vsp "C:\Path\To\MyApp.exe"\n# Run your application\nvsp /stop

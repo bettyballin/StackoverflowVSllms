@@ -1,0 +1,1 @@
+sudo apt-get install testlink  # Example command to install on Ubuntu

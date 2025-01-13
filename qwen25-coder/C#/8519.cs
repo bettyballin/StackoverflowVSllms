@@ -1,0 +1,1 @@
+using Aspose.Email.Mapi;\n\n// Load the MSG file\nvar mapiMessage = MapiMessage.FromFile("input.msg");\n\n// Save the MAPI message to PDF format\nmapiMessage.Save("output.pdf", options);

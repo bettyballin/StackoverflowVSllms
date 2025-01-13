@@ -1,0 +1,1 @@
+template <typename S, typename T>\nstruct foo {\n   void bar();\n};\n\n// General implementation of bar\ntemplate <typename S, typename T>\nvoid foo<S, T>::bar() {\n    // General case\n}\n\n// Specialized implementation for bar when the first template parameter is int\ntemplate <typename T>\nvoid foo<int, T>::bar() {\n    // Specialized implementation\n}

@@ -1,0 +1,1 @@
+[Test]\n    public void TestWordCount()\n    {\n        var pdfProcessor = new PDFProcessor();\n        int expectedWordCount = 100;\n        int actualWordCount = pdfProcessor.CountWords("testfile.pdf");\n        Assert.AreEqual(expectedWordCount, actualWordCount);\n    }

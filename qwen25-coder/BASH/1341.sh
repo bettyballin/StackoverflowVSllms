@@ -1,0 +1,1 @@
+pidstat -r 10 | grep php-cgi >> php_memory_usage.log &

@@ -1,0 +1,1 @@
+appcmd add config /in < C:\iis_config.xml

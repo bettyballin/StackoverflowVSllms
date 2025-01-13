@@ -1,0 +1,1 @@
+teracopy64.exe /COPY "C:\source" "D:\destination"

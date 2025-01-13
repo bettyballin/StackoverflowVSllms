@@ -1,0 +1,1 @@
+#mybox:hover {\n   background-color: red;\n   visibility: hidden; /* This will hide the element but still takes up space */\n}

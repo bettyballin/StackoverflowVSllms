@@ -1,0 +1,1 @@
+protected override void Finalize()\n{\n    try\n    {\n        // Cleanup code here\n    }\n    catch (Exception ex)\n    {\n        // Log the exception to help diagnose issues\n        System.Diagnostics.Debug.WriteLine($"Finalizer Exception: {ex}");\n    }\n    finally\n    {\n        base.Finalize();\n    }\n}

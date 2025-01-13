@@ -1,0 +1,1 @@
+using (var context = new MyDbContext())\n{\n    var blobData = await context.MyEntities\n                                .Where(x => x.Id == someId)\n                                .Select(x => x.BlobColumn)\n                                .FirstOrDefaultAsync();\n    \n    // Process the byte array as required\n}

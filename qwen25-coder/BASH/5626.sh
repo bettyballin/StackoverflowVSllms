@@ -1,0 +1,1 @@
+svnsync sync file:///path/to/your/local/repo

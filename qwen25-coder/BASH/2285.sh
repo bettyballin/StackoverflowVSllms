@@ -1,0 +1,1 @@
+# On Ubuntu/Debian\nsudo apt-get update\nsudo apt-get install tesseract-ocr\n\n# For other OSes, visit the tesseract installation page: https://github.com/tesseract-ocr/tesseract/wiki

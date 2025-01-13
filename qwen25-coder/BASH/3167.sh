@@ -1,0 +1,1 @@
+mysqldump -u username -p --routines --events --triggers --single-transaction db1 > backup.sql

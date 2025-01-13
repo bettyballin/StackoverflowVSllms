@@ -1,0 +1,1 @@
+# To record performance data from a binary executable named 'my_binary'\nperf record -a -g ./my_binary\n\n# After the run, generate a report\nperf report

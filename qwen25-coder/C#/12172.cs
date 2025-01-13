@@ -1,0 +1,1 @@
+using BCryptNet = BCrypt.Net.BCrypt;\n\npublic class PasswordManager\n{\n    public string HashPassword(string plainText)\n    {\n        return BCryptNet.HashPassword(plainText);\n    }\n\n    public bool VerifyPassword(string plainText, string hashedPassword)\n    {\n        return BCryptNet.Verify(plainText, hashedPassword);\n    }\n}

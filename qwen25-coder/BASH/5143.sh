@@ -1,0 +1,1 @@
+composer require sendgrid/sendgrid:^7.9

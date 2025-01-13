@@ -1,0 +1,1 @@
+public void DoSomething(Guid id)\n{\n    if (id == Guid.Empty)\n    {\n        throw new ArgumentException("The provided ID cannot be Guid.Empty.", nameof(id));\n    }\n\n    // Method implementation\n}

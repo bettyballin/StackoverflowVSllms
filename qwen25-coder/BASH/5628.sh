@@ -1,0 +1,1 @@
+find . -inum 12345 -exec rm {} \;

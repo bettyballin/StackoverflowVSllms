@@ -1,0 +1,1 @@
+public class VehicleModel\n{\n    public int SoldTo { get; set; }\n    public IEnumerable<SelectListItem> SellDealerList { get; set; }\n}

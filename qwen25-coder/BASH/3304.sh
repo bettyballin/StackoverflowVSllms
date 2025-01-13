@@ -1,0 +1,1 @@
+# Example: Using pprof for Go applications\n    go test -run none -bench . -cpuprofile cpu.prof

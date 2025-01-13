@@ -1,0 +1,1 @@
+.container {\n  display: grid;\n  place-items: center; /* Centers content both horizontally and vertically */\n  height: 100vh;       /* Full viewport height for demonstration */\n}

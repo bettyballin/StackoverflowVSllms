@@ -1,0 +1,1 @@
+[ServiceContract(Namespace = "")]\npublic interface IImageUploadService\n{\n    [OperationContract]\n    [WebInvoke(\n        Method = "POST",\n        UriTemplate = "/images",\n        BodyStyle = WebMessageBodyStyle.Bare,\n        RequestFormat = WebMessageFormat.Raw)]\n    void UploadImage(Stream imageData);\n}

@@ -1,0 +1,1 @@
+public class CustomerGateway {\n       public List<Customer> GetAll() { /* SQL: SELECT * FROM Customer */ }\n       // Other methods for CRUD operations\n   }

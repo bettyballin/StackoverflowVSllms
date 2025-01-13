@@ -1,0 +1,1 @@
+var host = new ServiceHost(typeof(MyService));\nhost.Description.Endpoints[0].Behaviors.Add(new AuthenticationBehavior());\n\ntry\n{\n    host.Open();\n    Console.WriteLine("The service is ready.");\n    Console.ReadLine();\n}\nfinally\n{\n    host.Close();\n}

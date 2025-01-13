@@ -1,0 +1,1 @@
+# Using rsync to copy files locally across a SAN\nrsync -avz --progress /source/folder/ /destination/folder/

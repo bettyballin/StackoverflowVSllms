@@ -1,0 +1,1 @@
+g++ main.cpp -o my_program -llog4cplus

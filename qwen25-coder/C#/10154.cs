@@ -1,0 +1,1 @@
+<input type='<%# Eval("InputType") %>' \n       class="datacell" \n       id='<%# Eval("CellID") %>' \n       style='<%# Eval("InputAlign") %>' \n       value='1' \n       <% if (Convert.ToInt32(Eval("TestResult")) == 1) { %> checked='<%# Eval("TestResult") %>' <% } %> />

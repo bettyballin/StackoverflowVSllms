@@ -1,0 +1,1 @@
+public override bool Equals(object obj)\n{\n    Foo otherObj = obj as Foo;\n    \n    // Check if otherObj is not null and their Ids are equal\n    return otherObj != null && otherObj.Id == this.Id;\n}

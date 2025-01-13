@@ -1,0 +1,1 @@
+regasm /codebase YourProject.dll

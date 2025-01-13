@@ -1,0 +1,1 @@
+# Go to your working copy directory\ncd my-working-copy\n\n# Update to the latest revision from the remote trunk\nsvn update \n\n# Create a patch file of the last commit(s) if needed\nsvn diff -c -r PREV:HEAD > latest-changes.patch

@@ -1,0 +1,1 @@
+// Example of OpenMP usage: Parallel For Loop\n#include <iostream>\n#include <omp.h>\n\nint main() {\n    #pragma omp parallel for\n    for (int i = 0; i < 100; i++) {\n        std::cout << "Iteration " << i << ", Thread ID: " << omp_get_thread_num() << std::endl;\n    }\n}

@@ -1,0 +1,1 @@
+[HttpPost]\n   [ValidateAntiForgeryToken] // Validates the AntiForgeryToken attribute on form submit\n   public JsonResult FindWidgets()\n   {\n       var data = GetWidgetData(); \n       return Json(data);\n   }

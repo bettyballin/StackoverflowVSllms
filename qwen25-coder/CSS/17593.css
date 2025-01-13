@@ -1,0 +1,1 @@
+/* Apply box-sizing: border-box to all HTML elements */\n* {\n    box-sizing: border-box;\n}\n\n/* Example of styling a button */\n.button {\n    width: 100px; /* The total width will be 100px */\n    padding: 10px; /* Padding is included in the 100px */\n    margin: 5px;\n    border: 2px solid #000; /* Border is also included in the 100px */\n}

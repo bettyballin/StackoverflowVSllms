@@ -1,0 +1,1 @@
+public class Example\n{\n    // Auto-implemented property with minimal boilerplate\n    public int Counter { get; set; }\n}

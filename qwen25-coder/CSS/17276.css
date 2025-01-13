@@ -1,0 +1,1 @@
+#customerTable td {\n    padding: 10px;\n}\ntextarea, select {\n    display: none;\n}\n.active-edit textarea, .active-edit select {\n    display: inline;\n}\n.text-view {\n    cursor: pointer;\n}

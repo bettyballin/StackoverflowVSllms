@@ -1,0 +1,1 @@
+public int CalculateMaxEncryptedSize(int plainTextLength)\n{\n    const int blockSize = 16; // For Rijndael, block size is in bytes\n    return ((plainTextLength + (blockSize - 1)) / blockSize) * blockSize;\n}

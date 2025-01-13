@@ -1,0 +1,1 @@
+sudo vnstat -u -i eth0

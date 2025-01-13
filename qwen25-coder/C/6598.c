@@ -1,0 +1,1 @@
+// dll1.c\n#include <stdio.h>\n#include "dll1.h"\n\nFILE* openFileInDll1(const char* filename) {\n    return fopen(filename, "r");\n}\n\nvoid closeFileInDll1(FILE* file) {\n    if (file) fclose(file);\n}

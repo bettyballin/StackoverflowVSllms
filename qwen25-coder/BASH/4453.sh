@@ -1,0 +1,1 @@
+g++ -Weffc++ -Wno-non-virtual-dtor -Wno-unused-private-field your_code.cpp

@@ -1,0 +1,1 @@
+function_that_needs_setelement_pointer((SetElement*)&my_var);

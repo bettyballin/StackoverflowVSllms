@@ -1,0 +1,1 @@
+@echo off\n   REM Example batch file snippet to copy a template registry hive to all user profiles\n   for /d %%X in (C:\Users\*) do reg load HKLM\TempHive "%%X\NTUSER.DAT"\n   :loop\n   reg add HKLM\TempHive\Software\YourCompany\YourApp /v SettingName /t REG_SZ /d DefaultValue /f\n   reg unload HKLM\TempHive\n   goto loop

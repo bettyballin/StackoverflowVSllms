@@ -1,0 +1,1 @@
+Response.Cache.SetCacheability(HttpCacheability.Public);\nResponse.Cache.SetMaxAge(new TimeSpan(0, 1, 0)); // Cache for 1 hour\nResponse.Cache.SetExpires(DateTime.Now.AddHours(1));\nResponse.Cache.AppendCacheExtension("post-check=900,pre-check=3600");

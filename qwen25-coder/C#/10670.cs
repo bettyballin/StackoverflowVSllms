@@ -1,0 +1,1 @@
+List<String> text = new List<String>() { "element1", "element2", "element3", "element4", "element5" };\nList<String> subList = text.GetRange(2, text.Count - 2);

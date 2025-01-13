@@ -1,0 +1,1 @@
+# Mount using root SSH access but with specific permissions applied\nsshfs -o IdentityFile=/path/to/private/key \\n      -o User=<username> \\n      -o idmap=user \\n      -o umask=007 \\n      -o uid=$(id -u <local_user>) \\n      -o gid=$(id -g <local_user>) \\n      root@remote_host:/remote/path /local/mountpoint

@@ -1,0 +1,1 @@
+using System;\nusing System.Windows.Media;\n\nclass Program\n{\n    static void Main()\n    {\n        Int32Point point = new Int32Point(10, 20);\n        Console.WriteLine($"X: {point.X}, Y: {point.Y}");\n    }\n}

@@ -1,0 +1,1 @@
+chmod -N /path/to/specific/file

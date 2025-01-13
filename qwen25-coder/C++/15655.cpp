@@ -1,0 +1,1 @@
+void getData(List<String> *listPtr, String *msgPtr) {\n       List<String> lst = {"element1", "element2"};\n       String msg = "success";\n       *listPtr = lst;\n       *msgPtr = msg;\n   }

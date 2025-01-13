@@ -1,0 +1,1 @@
+// Inside ext/standard/functions.c\n\n#include "php.h"\n\nPHP_FUNCTION(my_custom_function) {\n    int num = 0;\n    if (zend_parse_parameters(ZEND_NUM_ARGS() TSRMLS_CC, "|i", &num) == FAILURE) return;\n\n    RETURN_LONG(num * num);\n}

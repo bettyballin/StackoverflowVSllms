@@ -1,0 +1,1 @@
+indexer --rotate <your_index_name>

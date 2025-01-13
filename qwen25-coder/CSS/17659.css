@@ -1,0 +1,1 @@
+.container {\n  display: grid;\n  place-items: center; /* Centers the child both horizontally and vertically */\n}\n\n.content {\n  display: block; /* Ensures .content behaves as a block without fixed width */\n}

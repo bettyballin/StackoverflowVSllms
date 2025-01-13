@@ -1,0 +1,1 @@
+sudo semodule -i httpd_custom_sudo_policy.pp

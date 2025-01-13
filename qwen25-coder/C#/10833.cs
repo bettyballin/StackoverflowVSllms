@@ -1,0 +1,1 @@
+public IEnumerable<Segment> GetChildren(System1ConfigDataContext dc)\n{\n    return from link in this.ChildLinks\n           join segment in dc.Segments on new { Site = link.ChildSite, ID = link.ChildSID } equals new { Site = segment.site, ID = segment.id }\n           select segment;\n}

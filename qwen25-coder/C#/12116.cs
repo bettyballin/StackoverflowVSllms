@@ -1,0 +1,1 @@
+// Example of a simple REST endpoint in ASP.NET MVC Core\n[HttpPost]\npublic IActionResult UpdateRecord([FromBody] DataModel data)\n{\n    // Process data and update database\n    return Ok();\n}

@@ -1,0 +1,1 @@
+#include <iostream>\n#include "sub.h"\n\nint main() {\n    int result = DoWork();  // Call exported function from DLL\n    std::cout << "Result: " << result << std::endl;\n    return 0;\n}

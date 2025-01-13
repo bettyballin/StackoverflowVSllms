@@ -1,0 +1,1 @@
+// Example of setting V-Sync off in DirectX 9\nD3DPRESENT_PARAMETERS d3dpp;\nZeroMemory(&d3dpp, sizeof(d3dpp));\nd3dpp.SwapEffect = D3DSWAPEFFECT_DISCARD; // or DISCARD if double buffering is desired\nd3dpp.PresentationInterval = D3DPRESENT_INTERVAL_IMMEDIATE; // V-Sync off

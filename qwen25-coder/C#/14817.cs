@@ -1,0 +1,1 @@
+private void ListenForClients()\n{\n    while (true) // Loop to continuously listen for new connections\n    {\n        TcpClient client = listener.AcceptTcpClient();\n        new Thread(new ParameterizedThreadStart(HandleClientCom)).Start(client);\n    }\n}

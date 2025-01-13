@@ -1,0 +1,1 @@
+ilmerge /out:MyApplication.exe MyApplication.exe DLLsToInclude.dll

@@ -1,0 +1,1 @@
+var criteria = session.CreateCriteria<MyEntity>()\n    .Add(Restrictions.Like("MyProperty", $"%{userInput}%", MatchMode.Anywhere));

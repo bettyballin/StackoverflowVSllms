@@ -1,0 +1,1 @@
+#!/bin/bash\n\n   DB_NAME=${1:-mydefaultdb}  # Use provided db name or default to mydefaultdb\n   MYSQL_OPTS="-u user -p -h hostname"\n\n   mysql $MYSQL_OPTS $DB_NAME

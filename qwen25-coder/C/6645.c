@@ -1,0 +1,1 @@
+int test(int x) {\n    int y;\n    // do a bit-rotate by 8 on the lower word. leave upper word intact.\n    asm("rorw $8, %0\n\t"\n        : "=r"(y)      // Output operand register with no subclass constraints\n        : "0"(x));     // Input and output operand constraint to use the same register\n    return y;\n}

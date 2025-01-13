@@ -1,0 +1,1 @@
+using Castle.MicroKernel.Registration;\n   using Castle.Windsor;

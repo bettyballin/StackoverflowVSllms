@@ -1,0 +1,1 @@
+public (DateTime StartTime, DateTime EndTime) PerformDataRefresh()\n{\n    DateTime startTime = DateTime.Now;\n    // Refresh logic here...\n    DateTime endTime = DateTime.Now;\n    \n    return (startTime, endTime);\n}\n\n// Usage:\nvar result = PerformDataRefresh();\nConsole.WriteLine($"Started at: {result.StartTime}, Ended at: {result.EndTime}");

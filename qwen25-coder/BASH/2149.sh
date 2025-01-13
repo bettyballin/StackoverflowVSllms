@@ -1,0 +1,1 @@
+# Save window positions - Example using a hypothetical function Get-WindowPositions()\n$windowPositions = Get-WindowPositions\n$windowPositions | Export-CliXml "C:\path\to\session.xml"\n\n# Restore window positions - Example using a hypothetical function Set-WindowPositions()\n$sessionData = Import-CliXml "C:\path\to\session.xml"\nSet-WindowPositions -Data $sessionData

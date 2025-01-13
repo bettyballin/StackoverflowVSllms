@@ -1,0 +1,1 @@
+git add B\n   git commit -m "Made necessary modifications in B"

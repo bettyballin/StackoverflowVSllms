@@ -1,0 +1,1 @@
+PowerShell -ExecutionPolicy Bypass -File "\\server\scripts\my.ps1"

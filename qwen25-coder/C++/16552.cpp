@@ -1,0 +1,1 @@
+// Example of importing a model with animations using Assimp\n   #include <assimp/Importer.hpp>\n   #include <assimp/postprocess.h>\n   Importer importer;\n   const aiScene* scene = importer.ReadFile("model.fbx", aiProcess_Triangulate | aiProcess_GenSmoothNormals);

@@ -1,0 +1,1 @@
+using (SqlCommand cmd = new SqlCommand("SELECT * FROM YourTable", connection))\n{\n    using (SqlDataReader reader = cmd.ExecuteReader())\n    {\n        while (reader.Read())\n        {\n            // Process each row here\n            Console.WriteLine(reader["ColumnName"].ToString());\n        }\n    }\n}

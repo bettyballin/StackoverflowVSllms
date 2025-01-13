@@ -1,0 +1,1 @@
+bcp YourDatabase.dbo.Person in C:\path\to\yourfile.csv -f C:\path\to\Person.fmt -T -S ServerName

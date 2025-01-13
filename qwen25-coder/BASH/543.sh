@@ -1,0 +1,1 @@
+# Change permission of the CGI script\n   chmod 755 /var/www/cgi-bin/searchresults.py

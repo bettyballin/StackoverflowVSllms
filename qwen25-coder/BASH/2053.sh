@@ -1,0 +1,1 @@
+protoc --java_out=./src/main/java ./path/to/your/file.proto

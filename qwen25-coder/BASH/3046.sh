@@ -1,0 +1,1 @@
+cscript %SYSTEMDRIVE%\inetpub\adminscripts\adsutil.vbs set w3svc/asp/EnableSessionState False

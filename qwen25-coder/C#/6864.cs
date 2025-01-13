@@ -1,0 +1,1 @@
+// No parameter\nFunc<int> getRandomNumber = () => 4; // Always returns 4\n\n// One parameter\nFunc<int, int> doubleIt = (x) => x * 2;\n\n// Two parameters\nAction<string, string> printBoth = (first, second) => Console.WriteLine($"{first} {second}");

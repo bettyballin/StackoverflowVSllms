@@ -1,0 +1,1 @@
+sqlldr userid=username/password control=control.ctl

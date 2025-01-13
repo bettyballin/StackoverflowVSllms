@@ -1,0 +1,1 @@
+.menu_main {\n    background-image: url('../menu_main.jpg');\n    background-repeat: repeat-y;\n    width: 173px;\n    padding-top: 50px; /* Pushes the text down by 50px */\n}

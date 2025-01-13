@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Define variables for easier adjustment\nLHOST="localhost"\nRHOST="ftp.example.com"\nUSER="your-username"\nPASSWORD="your-password"\nREMOTEDIR="/path/to/remote/directory"\nLOCALDIR="/path/to/local/directory"\n\nlftp -u "$USER","$PASSWORD" ftp://"$RHOST" << EOF\nmirror -Rnev --delete '$LOCALDIR' '$REMOTEDIR'\nbye\nEOF

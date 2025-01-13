@@ -1,0 +1,1 @@
+// Alternative if needed\n  bool Point::is_inside(const Rect& rect) const;

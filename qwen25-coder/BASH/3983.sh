@@ -1,0 +1,1 @@
+svn mkdir -m "Add trunk, branches, tags" file:///c:/svnrepos/project1/trunk file:///c:/svnrepos/project1/branches file:///c:/svnrepos/project1/tags

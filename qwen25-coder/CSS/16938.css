@@ -1,0 +1,1 @@
+h2 {\n    white-space: nowrap; /* Prevents text from wrapping into multiple lines */\n    overflow: hidden;     /* Hides any content that overflows the width */\n    text-overflow: ellipsis; /* Adds "..." when there's an overflow */\n}

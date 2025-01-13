@@ -1,0 +1,1 @@
+sudo rsync -ah --info=progress2 /mnt/source/ /mnt/target/

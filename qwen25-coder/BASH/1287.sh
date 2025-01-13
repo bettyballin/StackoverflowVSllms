@@ -1,0 +1,1 @@
+# .htaccess in root directory\nRewriteEngine On\nRewriteCond %{REQUEST_URI} !^/members/\nRewriteRule ^(.*)$ index.php/$1 [L]\n\n# .htaccess inside /members/ directory\n<IfModule mod_rewrite.c>\n    RewriteEngine On\n    RewriteBase /members/\n    RewriteCond %{REQUEST_FILENAME} !-f\n    RewriteCond %{REQUEST_FILENAME} !-d\n    RewriteRule ^(.*)$ index.php?/$1 [L,QSA]\n</IfModule>

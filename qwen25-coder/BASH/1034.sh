@@ -1,0 +1,1 @@
+grep -L "your_pattern" /path/to/search/*

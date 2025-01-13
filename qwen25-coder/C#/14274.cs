@@ -1,0 +1,1 @@
+string firstName = Request.QueryString["firstName"];\nstring lastName = Request.QueryString["lastName"];

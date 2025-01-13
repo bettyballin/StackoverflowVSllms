@@ -1,0 +1,1 @@
+ssh -L 2525:localhost:25 user@client-server-address -Nf

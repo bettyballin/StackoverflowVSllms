@@ -1,0 +1,1 @@
+public ActionResult GetList()\n    {\n        return Content("<div>Test Content</div>");\n    }

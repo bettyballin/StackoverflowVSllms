@@ -1,0 +1,1 @@
+sudo sh -c 'makemap hash /etc/mail/authinfo < /etc/mail/authinfo'

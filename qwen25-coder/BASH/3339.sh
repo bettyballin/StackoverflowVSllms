@@ -1,0 +1,1 @@
+./import_csv.sh yourfile.csv

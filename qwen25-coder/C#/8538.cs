@@ -1,0 +1,1 @@
+if (someObject is Control control && someObject is ISomething something)\n{\n    myVariable = control;\n}

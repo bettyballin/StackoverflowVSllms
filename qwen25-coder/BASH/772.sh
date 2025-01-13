@@ -1,0 +1,1 @@
+curl -X POST https://api.twilio.com/2010-04-01/Accounts/{YourAccountSID}/Messages.json \\n       --data-urlencode "Body=Hello, this is a test message." \\n       --data-urlencode "From={TwilioNumber}" \\n       --data-urlencode "To={RecipientNumber}" \\n       -u {YourAccountSID}:{YourAuthToken}

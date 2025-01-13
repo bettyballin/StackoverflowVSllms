@@ -1,0 +1,1 @@
+git add .\n     git commit -m "Initial Emacs configuration setup"

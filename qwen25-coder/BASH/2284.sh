@@ -1,0 +1,1 @@
+sudo apt-get install highlight  # Install if not already installed\nhighlight -O html yourfile.java -S java -o output.html

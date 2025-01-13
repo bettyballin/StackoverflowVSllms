@@ -1,0 +1,1 @@
+public class WebHost : IHost\n{\n    public User UserInfo\n    {\n        get { return HttpContext.Current.Session["UserSession"] as User; }\n        set { HttpContext.Current.Session["UserSession"] = value; }\n    }\n    // Additional web-specific methods if necessary\n}

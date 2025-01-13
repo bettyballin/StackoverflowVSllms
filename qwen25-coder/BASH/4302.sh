@@ -1,0 +1,1 @@
+# Attempt to create a lockfile\nif $(lockfile -r 0 -m "my_procmail_script.lock")\nthen\n    # Your secure procmail processing code here\n    echo "Processing emails..."\n\n    # Remove the lockfile when done\n    rm -f my_procmail_script.lock\nfi

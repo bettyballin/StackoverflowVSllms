@@ -1,0 +1,1 @@
+using Logger;\nusing Validator;\n\nclass Program\n{\n    static void Main()\n    {\n        var email = "example@example.com";\n        if (Validator.IsValidEmail(email))\n        {\n            Logger.Log("Valid email");\n        }\n        else\n        {\n            Logger.Log("Invalid email");\n        }\n    }\n}

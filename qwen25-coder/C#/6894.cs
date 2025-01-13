@@ -1,0 +1,1 @@
+// Using non-generic UpdateModel\nUpdateModel(model);\n\n// Using generic UpdateModel\nUpdateModel<ContestModel>(model);

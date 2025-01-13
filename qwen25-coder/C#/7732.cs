@@ -1,0 +1,1 @@
+Guid myGuid = new Guid();\nif (myGuid == Guid.Empty)\n{\n    Console.WriteLine("GUID is empty. Please assign a valid GUID.");\n}

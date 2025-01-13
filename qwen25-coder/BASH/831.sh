@@ -1,0 +1,1 @@
+ssh -fN -M -S ~/ssh_mux user@host

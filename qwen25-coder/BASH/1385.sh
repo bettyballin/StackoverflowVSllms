@@ -1,0 +1,1 @@
+// Example of setting up LAMP (Linux, Apache, MySQL, PHP) on Ubuntu:\nsudo apt update\nsudo apt install apache2 mysql-server php libapache2-mod-php php-mysql

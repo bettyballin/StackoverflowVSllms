@@ -1,0 +1,1 @@
+asadmin set server-config.network-config.protocols.protocol.http-listener-2.ssl=true\n   asadmin set server-config.network-config.protocols.protocol.http-listener-2.security-enabled=true

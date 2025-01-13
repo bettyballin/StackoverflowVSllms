@@ -1,0 +1,1 @@
+var criteria = session.CreateCriteria(typeof(MyEntity))\n    .Add(Restrictions.Like("MyProperty", "%" + NHibernate.Criterion.Expression.Sql("?", userInput) + "%"));

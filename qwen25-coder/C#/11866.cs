@@ -1,0 +1,1 @@
+XmlNodeList lotsOStuff = doc.SelectNodes("//stuff");\n\nforeach (XmlNode stuff in lotsOStuff) {\n   XmlNode stuffChild = stuff.SelectSingleNode("stuffChild"); // Use a relative path\n   // ... etc\n}

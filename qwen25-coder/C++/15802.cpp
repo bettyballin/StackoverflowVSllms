@@ -1,0 +1,1 @@
+#include <list>\n\nconst std::list<int>& getLargeList() {\n    static std::list<int> largeList = {/* initialize list */};\n    return largeList;\n}

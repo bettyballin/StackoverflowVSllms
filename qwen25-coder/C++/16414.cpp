@@ -1,0 +1,1 @@
+struct Person : public hibernate_me {\n       db_id pk;\n       int id;\n       string name;\n       void hibernate(hibernate_engine& he) { he & id; he & name; }\n   };\n\n   // Usage involves creating and using sessions to store/retrieve objects

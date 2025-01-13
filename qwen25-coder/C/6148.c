@@ -1,0 +1,1 @@
+GdkColormap *colormap;\nGdkColor color;\n\ncolormap = gdk_colormap_get_system();\ncolor.red = 65535;\ncolor.green = 0;\ncolor.blue = 0;\n\nif (gdk_colormap_alloc_color(colormap, &color, FALSE, TRUE)) {\n    // Color was allocated successfully\n} else {\n    // Failed to allocate color\n}

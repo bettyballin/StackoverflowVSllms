@@ -1,0 +1,1 @@
+Control myVariable;\n\nif (someObject is Control && someObject is ISomething)\n{\n    myVariable = (Control)someObject;\n}

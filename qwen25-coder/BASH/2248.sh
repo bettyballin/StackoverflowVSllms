@@ -1,0 +1,1 @@
+wkhtmltopdf http://example.com/page.html output.pdf

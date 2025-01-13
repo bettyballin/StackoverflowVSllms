@@ -1,0 +1,1 @@
+try {\n       using (FileStream fs = new FileStream(@"C:\path\to\your\file.txt", FileMode.OpenOrCreate))\n       {\n           // Do something with the file.\n       }\n   } catch (IOException ex) {\n       Console.WriteLine("IO Exception: " + ex.Message);\n   }

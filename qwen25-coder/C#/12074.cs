@@ -1,0 +1,1 @@
+// C# using UTF-8 encoding explicitly for consistent results\nbyte[] bytes = Encoding.UTF8.GetBytes(new char[] { (char)149 });\nConsole.Write(bytes[0]);

@@ -1,0 +1,1 @@
+struct node {\n    char data;  // Assuming 'item' is a char or similar\n    node* next;\n    node* back;\n\n    // Constructor to initialize the node\n    node(char c = '\0') : data(c), next(nullptr), back(nullptr) {}\n};

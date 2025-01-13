@@ -1,0 +1,1 @@
+// Example C# code to create an XML string from a list\nList<string> dataList = new List<string> { "Item1", "Item2", "Item3" };\nXDocument xmlDoc = new XDocument(\n    new XElement("Items",\n        dataList.Select(item => new XElement("Item", item))\n    )\n);\nstring xmlString = xmlDoc.ToString();

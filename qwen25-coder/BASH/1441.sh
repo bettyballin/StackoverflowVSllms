@@ -1,0 +1,1 @@
+your_application_here\necho %ERRORLEVEL%

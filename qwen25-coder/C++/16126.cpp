@@ -1,0 +1,1 @@
+#pragma message("This is your diagnostic message.")

@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        InventoryDB.SelectParameters["Owner"].DefaultValue = UserManager.getCurrentUser(Request);\n        InventoryDB.DataBind();\n    }\n}

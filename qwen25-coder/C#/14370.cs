@@ -1,0 +1,1 @@
+public static class SharedData\n{\n    public static int CustomerId { get; set; }\n}

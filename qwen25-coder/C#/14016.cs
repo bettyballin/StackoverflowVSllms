@@ -1,0 +1,1 @@
+using (var db = new YourDataContext())\n{\n    var record = new YourTable\n    {\n        EventDate = DateTime.Now // This includes hours, minutes, and seconds\n    };\n\n    db.YourTables.InsertOnSubmit(record);\n    db.SubmitChanges();\n}

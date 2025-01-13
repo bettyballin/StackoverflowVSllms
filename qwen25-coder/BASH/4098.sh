@@ -1,0 +1,1 @@
+# In /etc/sudoers, add a line like this:\napache ALL=(user_specific) NOPASSWD: /usr/bin/at

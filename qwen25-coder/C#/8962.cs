@@ -1,0 +1,1 @@
+using System.Web.Security;\nprotected void btnAddRole_Click(object sender, EventArgs e)\n{\n    if (!Roles.RoleExists(txtRoleName.Text))\n    {\n        Roles.CreateRole(txtRoleName.Text);\n        lblMessage.Text = "Role created successfully.";\n    }\n    else\n    {\n        lblMessage.Text = "This role already exists!";\n    }\n}

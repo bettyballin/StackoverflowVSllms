@@ -1,0 +1,1 @@
+rm *.suo\nrm -rf bin/\nrm -rf obj/

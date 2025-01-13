@@ -1,0 +1,1 @@
+class Program\n{\n    static void Main()\n    {\n        AssemblyLoader.LoadAssembly("Foo.dll");\n    }\n}

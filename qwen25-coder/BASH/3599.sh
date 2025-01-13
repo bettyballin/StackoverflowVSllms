@@ -1,0 +1,1 @@
+# Example of deploying AEM using a Docker container\ndocker run -d --name aem -p 4502:4502 -e AEM_RUNMODE=sling -v $PWD/license:/install cq5-author-p4502

@@ -1,0 +1,1 @@
+public interface IDateTimeProvider\n{\n    DateTime Now { get; }\n}\n\npublic class SystemDateTimeProvider : IDateTimeProvider\n{\n    public DateTime Now => DateTime.Now;\n}

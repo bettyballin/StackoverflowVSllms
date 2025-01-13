@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (IsPostBack)\n    {\n        string username = Request.Form["username"];\n        string password = Request.Form["password"];\n\n        // Now you can use the username and password variables in your code logic.\n    }\n}

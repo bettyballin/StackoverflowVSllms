@@ -1,0 +1,1 @@
+protected void ddlPDFs_SelectedIndexChanged(object sender, EventArgs e)\n{\n    string selectedPdf = ddlPDFs.SelectedValue;\n    pdfContainer.Attributes["src"] = selectedPdf;\n}

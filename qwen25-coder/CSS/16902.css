@@ -1,0 +1,1 @@
+.med-font {\n  font-size: 12px;\n}\n\n#message a {\n  @extend .med-font;\n  color: blue;\n  /* ... */\n}

@@ -1,0 +1,1 @@
+foreach (DataRow row in dtDataTable.Rows)\n{\n    string strDetail = row["Detail"].ToString();\n    // You can use strDetail as needed here\n}

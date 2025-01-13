@@ -1,0 +1,1 @@
+public ActionResult VersionedUpdate(VersionedModel data)\n{\n    if (TryUpdateModel(data))\n    {\n        // If needed, manually assign decoded version\n        data.Version = Convert.FromBase64String(Request.Form["Version"]);\n        // Proceed with your logic\n    }\n\n    return View();\n}

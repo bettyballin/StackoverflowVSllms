@@ -1,0 +1,1 @@
+php bin/magento module:enable YourCompany_HelloWorld\nphp bin/magento setup:upgrade\nphp bin/magento cache:clea

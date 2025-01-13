@@ -1,0 +1,1 @@
+convert CEE_2007_w524.jpg -threshold 95% -monochrome CEEmap.png

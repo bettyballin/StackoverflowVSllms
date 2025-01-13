@@ -1,0 +1,1 @@
+alias ssh_connect='ssh user@computer_name'

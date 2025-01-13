@@ -1,0 +1,1 @@
+sqlplus user/pass@ora11dev

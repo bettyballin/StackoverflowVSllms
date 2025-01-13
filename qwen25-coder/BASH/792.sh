@@ -1,0 +1,1 @@
+sudo apt install mariadb-server libphp-phpmailer -y\n   sudo mysql_secure_installatio

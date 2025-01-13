@@ -1,0 +1,1 @@
+curl -X PUT http://example.com/resource \\n    -H "Content-Type: application/json" \\n    -d '{"name": "John Doe", "email": "john.doe@example.com"}'

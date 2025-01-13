@@ -1,0 +1,1 @@
+mv /Volumes/1\&1\ Internet/website/.git/hooks/pre-commit /Volumes/1\&1\ Internet/website/.git/hooks/pre-commit.disabled

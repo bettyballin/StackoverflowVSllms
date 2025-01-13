@@ -1,0 +1,1 @@
+# Navigate to your project directory\ncd path/to/your/project\n\n# Publish your application with the runtime identifier for Windows (x64)\ndotnet publish -c Release -r win-x64 --self-contained true\n\n# Find your published files in the output directory, usually:\n# bin/Release/netX.X/win-x64/publish

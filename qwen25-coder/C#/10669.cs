@@ -1,0 +1,1 @@
+text.Add("newElement"); // Adds element at the end\n   text.Insert(0, "prependElement"); // Inserts element at index 0

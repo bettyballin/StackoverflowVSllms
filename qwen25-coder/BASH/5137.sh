@@ -1,0 +1,1 @@
+# Download and install OpenH264\ngit clone https://github.com/cisco/openh264.git\ncd openh264\nmake\nsudo make install\n\n# Download and compile FFmpeg with OpenH264 support\ngit clone https://ffmpeg.org/git/ffmpeg.git ffmpeg\ncd ffmpeg\n./configure --enable-libopenh264 # Add any other flags you might need\nmake -j$(nproc)\nsudo make install

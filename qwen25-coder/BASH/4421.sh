@@ -1,0 +1,1 @@
+apigen generate -s source/ -d docs/

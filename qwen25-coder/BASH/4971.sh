@@ -1,0 +1,1 @@
+sudo aa-disable /etc/apparmor.d/usr.sbin.apache2

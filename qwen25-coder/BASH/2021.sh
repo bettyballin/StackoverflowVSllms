@@ -1,0 +1,1 @@
+perfmon -f:"C:\PerfLogs\application_performance_monitor_template.xml" -o:"C:\PerfLogs\application_performance_log.csv"

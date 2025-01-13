@@ -1,0 +1,1 @@
+gs -sDEVICE=ps2write -o clean.ps -dBATCH -dNOPAUSE yourfile.ps

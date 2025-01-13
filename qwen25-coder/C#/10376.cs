@@ -1,0 +1,1 @@
+using (var scope = new TransactionScope())\n   {\n       SavePerson(person);\n       ChangeCompanyOfPerson(personId, newCompanyId);\n       scope.Complete();\n   }

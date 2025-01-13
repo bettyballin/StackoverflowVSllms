@@ -1,0 +1,1 @@
+public void AddAccount(string accountName)\n   {\n     if (!User.IsInRole("Managers"))\n     {\n       throw new UnauthorizedAccessException("Only managers can add accounts.");\n     }\n     // Proceed to add the account\n   }

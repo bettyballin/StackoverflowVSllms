@@ -1,0 +1,1 @@
+51:23:respawn:/usr/local/bin/start_thin.sh

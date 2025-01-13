@@ -1,0 +1,1 @@
+public class Movie {\n    public int ID { get; set; }\n    public string Title { get; set; }\n    public DateTime ReleaseDate { get; set; }\n    public string Genre { get; set; }\n    public decimal Price { get; set; }\n}

@@ -1,0 +1,1 @@
+// In Library project\nnamespace Library\n{\n    public class SomeDllUser\n    {\n        public static void DoSomething()\n        {\n            // Assuming SomeDll.SomeMethod() is the method you need from SomeDll\n            SomeDll.SomeMethod();\n        }\n    }\n}

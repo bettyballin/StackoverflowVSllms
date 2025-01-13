@@ -1,0 +1,1 @@
+/* Example for menu */\n#menu {\n    position: relative; /* or absolute/fixed if needed */\n    z-index: 10;\n}\n\n/* Example for modal */\n.modalPopup {\n    position: fixed; /* important for positioning */\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    z-index: 1000; /* ensure this is higher than the menu's z-index */\n}

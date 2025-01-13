@@ -1,0 +1,1 @@
+# Example for setting environment variable in Linux\n   export DATABASE_URL=mysql://user:password@host/dbname

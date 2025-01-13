@@ -1,0 +1,1 @@
+using FluentValidation;\n\n   public class UserViewModelValidator : AbstractValidator<UserViewModel>\n   {\n       public UserViewModelValidator()\n       {\n           RuleFor(x => x.Email).NotEmpty().EmailAddress();\n           RuleFor(x => x.Password).NotEmpty().Length(6, 25);\n       }\n   }

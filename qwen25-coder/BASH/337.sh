@@ -1,0 +1,1 @@
+/share/tools/gcc-4.2.2/bin/g++ -m32 test.cc -latomic

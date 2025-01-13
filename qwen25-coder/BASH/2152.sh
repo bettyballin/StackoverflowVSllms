@@ -1,0 +1,1 @@
+# Example of running sqlparse in Python (python-sqlparse package needed)\n$storedProcedureText = Get-Content -Path 'path\to\your\storedprocedure.sql' -Raw\n$formattedProcedure = python -c "import sqlparse; print(sqlparse.format('$storedProcedureText', reindent=True, keyword_case='upper'))"\n$formattedProcedure | Set-Content -Path 'path\to\formatted_storedprocedure.sql'

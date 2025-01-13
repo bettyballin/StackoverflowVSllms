@@ -1,0 +1,1 @@
+public class MyClass\n   {\n       [Log]\n       public void MyMethod(int a, string b)\n       {\n           // Method implementation\n       }\n   }

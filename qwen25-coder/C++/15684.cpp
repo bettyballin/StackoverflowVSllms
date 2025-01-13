@@ -1,0 +1,1 @@
+#ifndef CLASS_B_H\n#define CLASS_B_H\n\n#include "ClassA.h" // Include ClassA header because we don't just use a pointer or reference here\n\nclass ClassB {\npublic:\n    void doSomethingWithA(ClassA& a);\n};\n\n#endif // CLASS_B_H

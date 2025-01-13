@@ -1,0 +1,1 @@
+using System;\nusing System.Text.Encodings.Web;\n\npublic class SecurityExample {\n    public static void Main() {\n        string userInput = "<script>alert('XSS');</script>";\n        string safeOutput = HtmlEncoder.Default.Encode(userInput);\n        Console.WriteLine(safeOutput); // Outputs: &lt;script&gt;alert(&#x27;XSS&#x27;)&lt;/script&gt;\n    }\n}

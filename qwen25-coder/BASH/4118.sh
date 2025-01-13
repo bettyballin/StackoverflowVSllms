@@ -1,0 +1,1 @@
+# Using a for loop (each URL is processed in a separate wget process)\nfor url in $(cat url-list.txt); do\n  wget -c "$url"\ndone\n\n# Using xargs (urls are grouped and sent to fewer wget processes)\nxargs -n 5 wget -c < url-list.txt

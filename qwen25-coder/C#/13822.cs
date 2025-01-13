@@ -1,0 +1,1 @@
+using System;\n   using System.Web.Services;\n\n   namespace WebApplication1\n   {\n       public partial class Default : System.Web.UI.Page\n       {\n           [WebMethod]\n           public static string GetCurrentTime()\n           {\n               return DateTime.Now.ToString();\n           }\n       }\n   }

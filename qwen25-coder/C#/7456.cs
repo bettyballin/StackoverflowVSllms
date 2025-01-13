@@ -1,0 +1,1 @@
+protected void ValidateDates_Server(object source, ServerValidateEventArgs args)\n{\n    string date1 = txtDate1.Text.Trim();\n    string date2 = txtDate2.Text.Trim();\n\n    if ((date1 != "" && date2 == "") || (date1 == "" && date2 != ""))\n    {\n        args.IsValid = false;\n    }\n    else\n    {\n        args.IsValid = true;\n    }\n}

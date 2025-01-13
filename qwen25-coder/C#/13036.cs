@@ -1,0 +1,1 @@
+public class YourEntityClass\n   {\n       [Key]\n       [DatabaseGenerated(DatabaseGeneratedOption.Identity)]\n       public long Id { get; set; }\n\n       // other properties...\n   }

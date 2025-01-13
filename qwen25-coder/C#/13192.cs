@@ -1,0 +1,1 @@
+MyUserControl Cntrl = new MyUserControl(/* Construction Params */);\nBindingOperations.SetBinding(Cntrl, MyUserControl.TitleWidthProperty,\n    new Binding\n    {\n        ElementName = "TitleSectionPlaceholder",\n        Path = new PropertyPath("ActualWidth"),\n        Mode = BindingMode.OneWay\n    });

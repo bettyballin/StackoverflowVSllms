@@ -1,0 +1,1 @@
+[BasicAuthentication]\npublic class ValuesController : ApiController\n{\n    // GET api/values\n    public IEnumerable<string> Get()\n    {\n        return new string[] { "value1", "value2" };\n    }\n}

@@ -1,0 +1,1 @@
+g++ -o myscript myscript.cpp

@@ -1,0 +1,1 @@
+& .\YourProgram.exe\nRead-Host -Prompt "Press any key to continue..."

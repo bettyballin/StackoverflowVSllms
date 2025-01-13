@@ -1,0 +1,1 @@
+[HttpPost]\npublic ActionResult Submit(User user) {\n    // user.FirstName and user.LastName are populated with form data\n    return View();\n}

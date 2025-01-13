@@ -1,0 +1,1 @@
+pecl uninstall memcache\n   pecl install memcache

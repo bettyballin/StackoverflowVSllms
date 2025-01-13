@@ -1,0 +1,1 @@
+using (var context = new YourDbContext())\n{\n    var result = context.Database.SqlQuery<YourModelType>("EXEC dbo.YourStoredProcedure @param1, @param2",\n        new SqlParameter("@param1", value1),\n        new SqlParameter("@param2", value2)).ToList();\n}

@@ -1,0 +1,1 @@
+using (YourDataContext db = new YourDataContext())\n{\n    // Perform data operations here\n}

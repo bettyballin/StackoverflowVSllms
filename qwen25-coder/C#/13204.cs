@@ -1,0 +1,1 @@
+byte[] encbuff = System.Text.Encoding.UTF8.GetBytes("the string");\nstring enc = Convert.ToBase64String(encbuff)\n    .Replace('+', '-')\n    .Replace('/', '_')\n    .Replace("=", ""); // Optionally remove padding as well if your PHP side can handle it.

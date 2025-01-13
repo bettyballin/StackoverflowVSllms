@@ -1,0 +1,1 @@
+# On the target machine:\npg_restore -U username -d dbname /path/to/backup/dbname.tar.gz\n\n# Explanation:\n# pg_restore: Used to restore databases which were saved via pg_dump in custom format.\n# -d dbname: Specifies the name of the database to connect to and restore into.

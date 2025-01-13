@@ -1,0 +1,1 @@
+List<Rectangle> rects = new List<Rectangle>();\n\nfor (int i = 0; i < 5; i++)\n{\n    rects.Add(new Rectangle(1, 1, 1, 1));\n}\n\nforeach (Rectangle item in rects)\n{\n    Console.WriteLine(item);\n}\n\nRectangle r = rects[1];\nr.Inflate(100, 100);\nrects[1] = r;\n\nforeach (Rectangle item in rects)\n{\n    Console.WriteLine(item);\n}

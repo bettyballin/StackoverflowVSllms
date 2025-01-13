@@ -1,0 +1,1 @@
+#if PAID_VERSION\n     // Code for paid version\n     #else\n     // Code for lite version\n     #endif

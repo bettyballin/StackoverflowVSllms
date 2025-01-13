@@ -1,0 +1,1 @@
+while (list.Count < lim) list.Add(null);

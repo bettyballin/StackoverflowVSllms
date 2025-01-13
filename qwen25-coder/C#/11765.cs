@@ -1,0 +1,1 @@
+public string ReturnAsCSV(ContactList contactList)\n{\n    List<string> names = new List<string>();\n    foreach (Contact c in contactList)\n    {\n        names.Add(c.Name);\n    }\n\n    return string.Join(",", names);\n}

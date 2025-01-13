@@ -1,0 +1,1 @@
+div, input {\n    border: 1px solid red;\n    height: auto; /* Changed from fixed height */\n    padding: 5px;\n    box-sizing: border-box; /* Key change here */\n}\n\ninput, form {\n    display: block;\n    width: 100%;\n}

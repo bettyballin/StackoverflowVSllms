@@ -1,0 +1,1 @@
+sudo supervisorctl reread\n    sudo supervisorctl update

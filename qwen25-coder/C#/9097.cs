@@ -1,0 +1,1 @@
+[OperationContract]\n[WebGet(UriTemplate = "/foo/{id}")]\nstring GetFoo(int id);

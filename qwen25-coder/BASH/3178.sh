@@ -1,0 +1,1 @@
+#!/bin/sh\n\n   if [ -e /var/run/vpn_active ]; then\n     make_resolv_conf() {\n       :\n     }\n   fi

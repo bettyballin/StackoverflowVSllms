@@ -1,0 +1,1 @@
+java -Xms512m -Xmx1g MyApplicatio

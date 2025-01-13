@@ -1,0 +1,1 @@
+IHTMLElementCollection inputElements = (IHTMLElementCollection)doc.all.tags("input");\nforeach (IHTMLElement el in inputElements)\n{\n    HTMLInputElement chkTOS = el as HTMLInputElement;\n    if (chkTOS != null && chkTOS.id == "chkUTOS_ver2")\n    {\n        chkTOS.@checked = true;  // Set the checkbox to checked\n    }\n}

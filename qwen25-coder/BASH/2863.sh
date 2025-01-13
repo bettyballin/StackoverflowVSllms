@@ -1,0 +1,1 @@
+g++ main.cpp -L. -lmylib -o mai

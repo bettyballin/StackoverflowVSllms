@@ -1,0 +1,1 @@
+// bbb.cpp\n#include "shared_state.h"\n\nvoid SetState(bool value) {\n    g_isSet = value;\n}

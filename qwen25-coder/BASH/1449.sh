@@ -1,0 +1,1 @@
+:: Capture initial snapshot (before significant activity starts)\nump.exe -p <pid> -f c:\initial.txt\n\n:: Capture final snapshot after activity is done\nump.exe -p <pid> -f c:\final.txt\n\n:: Compare diffs of the snapshots to find allocations\ndumpdiff c:\initial.txt c:\final.txt > diff.txt

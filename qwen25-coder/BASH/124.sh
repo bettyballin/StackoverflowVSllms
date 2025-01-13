@@ -1,0 +1,1 @@
+sed '/=sec1=/,/=[a-z]*=/{\n  /=sec1=/!{      # If line does not match the start pattern\n    /=[a-z]*=/!{  # And line does not match the end pattern\n      s/^/#/      # Then comment the line\n    }\n  }\n}' input

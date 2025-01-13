@@ -1,0 +1,1 @@
+[\n    object,\n    uuid(12345678-1234-1234-1234-123456789012),\n    helpstring("ICalculator Interface"),\n    pointer_default(unique)\n]\ninterface ICalculator : IUnknown\n{\n    HRESULT Add([in] int nParam1, [in] int nParam2, [out, retval] int *pnResult);\n};

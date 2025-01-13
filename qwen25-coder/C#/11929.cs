@@ -1,0 +1,1 @@
+using System;\nusing System.Diagnostics;\n\nclass Program\n{\n    static void Main()\n    {\n        if (!Debugger.IsAttached)\n        {\n            DoSomething();\n        }\n    }\n\n    private static void DoSomething()\n    {\n        Console.WriteLine("Not in debug mode, doing something...");\n    }\n}

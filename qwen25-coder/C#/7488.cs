@@ -1,0 +1,1 @@
+public class YourServiceName : IYourServiceName\n{\n    public void SomeMethod()\n    {\n        try\n        {\n            // Service logic here\n        }\n        catch (Exception ex)\n        {\n            // Log the exception details\n            throw new FaultException("An error occurred while processing your request.", ex);\n        }\n    }\n}

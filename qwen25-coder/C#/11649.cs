@@ -1,0 +1,1 @@
+// Example of building a Release configuration using MSBuild from command line\nmsbuild YourProject.csproj /p:Configuration=Release

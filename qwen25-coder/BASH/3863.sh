@@ -1,0 +1,1 @@
+jar tf myapplication.jar | grep com/example/ClassName

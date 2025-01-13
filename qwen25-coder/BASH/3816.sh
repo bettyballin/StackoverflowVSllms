@@ -1,0 +1,1 @@
+sudo a2enmod proxy_http\n   sudo a2enmod auth_basic\n   sudo a2enmod authn_file

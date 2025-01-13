@@ -1,0 +1,1 @@
+var contacts = dbContext.Contacts\n    .Include(c => c.PhoneNumbers)\n    .Where(c => c.FirstName == "John" && c.LastName == "Doe")\n    .ToList();

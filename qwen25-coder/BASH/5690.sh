@@ -1,0 +1,1 @@
+# Example of starting fcsh via fcshctl (assuming it's a shell script or command)\n/usr/local/bin/fcshctl start

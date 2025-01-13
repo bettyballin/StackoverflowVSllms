@@ -1,0 +1,1 @@
+<!-- part of templates/blog/post_list.html -->\n<ul>\n    {% for post in posts %}\n        <li>\n            {{ post.title }}\n            <a href="{% url 'post_edit' pk=post.pk %}">Edit</a>\n            <a href="{% url 'post_delete' pk=post.pk %}">Delete</a>\n        </li>\n    {% endfor %}\n</ul>\n<a href="{% url 'post_create' %}">Create New Post</a>

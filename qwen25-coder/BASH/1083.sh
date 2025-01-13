@@ -1,0 +1,1 @@
+# Create a git repository\n    git init\n    git add .\n    git commit -m "Initial commit"

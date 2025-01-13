@@ -1,0 +1,1 @@
+public class Example\n{\n    // Using a property instead of a public field\n    private int _counter;\n    public int Counter\n    {\n        get => _counter;\n        set => _counter = value;\n    }\n}

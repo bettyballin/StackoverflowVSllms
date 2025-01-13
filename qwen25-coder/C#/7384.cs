@@ -1,0 +1,1 @@
+var readOnlyList = new System.Collections.ObjectModel.ReadOnlyCollection<string>(\n    new List<string> { "type", "currency", "date", "amount" }\n);

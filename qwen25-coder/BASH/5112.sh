@@ -1,0 +1,1 @@
+REM Assuming Visual Studio 2008's command prompt environment is set up\ncl /c my_c_code.c\nifort my_fortran_routines.f90 /interface:cref\nlib my_c_code.obj my_fortran_routines.obj /OUT:vs2008if9.lib

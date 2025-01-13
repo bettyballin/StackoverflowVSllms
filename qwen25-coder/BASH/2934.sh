@@ -1,0 +1,1 @@
+javac ExpressionParserTest.java\njava -cp .:antlr-runtime-4.9.jar ExpressionParserTest

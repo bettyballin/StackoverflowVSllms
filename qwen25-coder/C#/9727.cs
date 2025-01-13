@@ -1,0 +1,1 @@
+// Assuming 'items' is your list of items from the database\nvar items = db.YourTable.Select(x => new SelectListItem \n{ \n    Value = x.Id.ToString(), \n    Text = x.Name \n}).ToList();\n\n// Add an empty option at the top\nitems.Insert(0, new SelectListItem { Value = "", Text = "--Select--" });\n\n// Create the SelectList\nViewBag.Items = new SelectList(items, "Value", "Text");

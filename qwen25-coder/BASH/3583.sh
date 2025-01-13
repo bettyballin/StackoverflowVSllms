@@ -1,0 +1,1 @@
+# Test Sequential Read Performance\nfio --name=seqread --ioengine=libaio --direct=1 --rw=read --bs=1M --size=1G --numjobs=4 --runtime=60 --group_reporting\n\n# Test Random Write Performance\nfio --name=randwrite --ioengine=libaio --direct=1 --rw=randwrite --bs=4k --size=1G --numjobs=4 --runtime=60 --group_reporting

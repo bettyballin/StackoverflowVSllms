@@ -1,0 +1,1 @@
+sigcheck.exe -e -u C:\Program Files\Microsoft Visual Studio 9.0\VB\Snippets

@@ -1,0 +1,1 @@
+try\n{\n    // Your logic here\n}\ncatch (Exception ex)\n{\n    Response.StatusCode = 500; // Internal server error\n    return Json(new { success = false, message = ex.Message }, JsonRequestBehavior.AllowGet);\n}

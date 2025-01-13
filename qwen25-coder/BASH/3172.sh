@@ -1,0 +1,1 @@
+sudo chmod 755 /usr/local/bin/phpunit

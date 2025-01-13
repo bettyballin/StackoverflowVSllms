@@ -1,0 +1,1 @@
+ssh -L 14330:remote_sql_server_ip:1433 user@your_internal_network_ssh_server &

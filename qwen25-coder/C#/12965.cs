@@ -1,0 +1,1 @@
+public class HomeController : Controller\n{\n    public JsonResult GetData()\n    {\n        var data = new { Name = "John Doe", Age = 30 };\n        return Json(data, JsonRequestBehavior.AllowGet);\n    }\n}

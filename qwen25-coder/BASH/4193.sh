@@ -1,0 +1,1 @@
+keytool -importkeystore -deststorepass changeit -destkeypass changeit -destkeystore broker.ks -srckeystore keystore.p12 -srcstoretype PKCS12 -srcstorepass changeit -alias alias_name

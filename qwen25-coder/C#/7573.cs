@@ -1,0 +1,1 @@
+try {\n    // Your application logic here\n} \ncatch (Exception ex) {\n    // Log the exception message and stack trace\n    string logMessage = $"Error: {ex.Message}\nStack Trace: {ex.StackTrace}";\n    System.IO.File.AppendAllText("error.log", logMessage);\n}

@@ -1,0 +1,1 @@
+void outputreceived(object sender, DataReceivedEventArgs e)\n{\n    if (!String.IsNullOrEmpty(e.Data))\n    {\n        richTextBox1.Invoke(new UpdateOutputCallback(this.updateoutput), new object[] { e.Data });\n    }\n}\n\n// Ensure that the process uses a callback for data received instead of reading directly from the stream.

@@ -1,0 +1,1 @@
+# Example command to install Nextcloud on Ubuntu:\n   sudo snap install nextcloud

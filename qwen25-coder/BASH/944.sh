@@ -1,0 +1,1 @@
+# Install PHP-FPM (assuming Ubuntu)\nsudo apt-get install php-fpm

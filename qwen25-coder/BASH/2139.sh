@@ -1,0 +1,1 @@
+# Set a scheduled recycle time for an Application Pool in IIS using PowerShell\nImport-Module WebAdministration\n\nSet-ItemProperty IIS:\AppPools\YourAppPoolName -Name recycling.periodicRestart.time -Value 04:00:00 # Recycles every day at 4 AM

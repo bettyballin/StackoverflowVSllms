@@ -1,0 +1,1 @@
+public bool ValidatePDFResults(PDFResult result)\n    {\n        return !(result.WordCount < 10 || result.ImageCount > 50); // Example heuristic validation\n    }

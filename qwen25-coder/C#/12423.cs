@@ -1,0 +1,1 @@
+class MySafeHandle : SafeHandle {\n       public MySafeHandle() \n           : base(IntPtr.Zero, true) {}\n   \n       protected override bool ReleaseHandle() {\n           CloseNativeResource(handle);\n           return true;\n       }\n       \n       public override bool IsInvalid => handle == IntPtr.Zero;\n   }

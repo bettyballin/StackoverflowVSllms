@@ -1,0 +1,1 @@
+float simplex(int hash, float x, float y) {\n       int h = hash & 0xf;\n       float u = h<8 ? x : y;\n       float v = h<4 ? y : h==12||h==14 ? x : 0;\n       // ... (simplex noise generation logic)\n   }

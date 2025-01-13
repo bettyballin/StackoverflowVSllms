@@ -1,0 +1,1 @@
+for file in /path/to/directory/*; do\n    if [ -f "$file" ]; then  # Check if it is a file and not a directory\n        sed -i '2i\\nYour specific text here' "$file"\n    fi\ndone

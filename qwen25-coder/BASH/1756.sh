@@ -1,0 +1,1 @@
+db2look -d YOUR_DATABASE_NAME -e -z YOUR_SCHEMA_NAME -o schema.sql

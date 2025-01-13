@@ -1,0 +1,1 @@
+using HtmlAgilityPack;\n\npublic static class HtmlStripper\n{\n    public static string StripHtmlTags(string html)\n    {\n        var doc = new HtmlDocument();\n        doc.LoadHtml(html);\n        return doc.DocumentNode.InnerText;\n    }\n}

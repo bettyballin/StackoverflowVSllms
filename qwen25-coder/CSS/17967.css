@@ -1,0 +1,1 @@
+#slideshow {\n    position: relative;\n    width: 100%; /* Ensure full width */\n    overflow: hidden; /* Clearfix */\n}\n\n#slideshow::after {\n    content: "";\n    display: table;\n    clear: both;\n}\n\n#slideshow img {\n    position: absolute;\n    top: 0;\n    left: 0;\n    z-index: 8;\n    width: 50%;\n    height: auto; /* Maintain aspect ratio */\n}

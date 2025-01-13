@@ -1,0 +1,1 @@
+public ActionResult List(int count)\n{\n    var announcements = GetAnnouncements(count); // Assume this method fetches the announcements\n    return Json(announcements, JsonRequestBehavior.AllowGet);\n}

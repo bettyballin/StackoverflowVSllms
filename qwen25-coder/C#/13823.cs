@@ -1,0 +1,1 @@
+modelBuilder.Entity<YourEntityType>()\n       .HasKey(c => new { c.FirstKeyProperty, c.SecondKeyProperty });

@@ -1,0 +1,1 @@
+#include <stdio.h>\n\n#pragma GCC diagnostic push\n#pragma GCC diagnostic ignored "-Wdeprecated-declarations"\nvoid myFunction() {\n    char buffer[10];\n    gets(buffer);  // This is unsafe and should be avoided in production code.\n}\n#pragma GCC diagnostic pop\n\nint main() {\n    myFunction();\n    return 0;\n}

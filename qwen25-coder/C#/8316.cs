@@ -1,0 +1,1 @@
+if (!User.Identity.IsAuthenticated)\n{\n    Response.Headers.Remove("WWW-Authenticate");\n    return Request.CreateResponse(HttpStatusCode.Forbidden, new { message = "Session expired" });\n}

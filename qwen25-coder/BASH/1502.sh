@@ -1,0 +1,1 @@
+aspnet_regiis.exe -pe "appSettings" -app "/"

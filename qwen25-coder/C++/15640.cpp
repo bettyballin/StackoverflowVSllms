@@ -1,0 +1,1 @@
+void someFunction() {\n    // Function body with assumptions about 16-byte stack alignment\n}

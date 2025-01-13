@@ -1,0 +1,1 @@
+sudo chown root:root /usr/local/bin/myscript.sh\n    sudo chmod 755 /usr/local/bin/myscript.sh

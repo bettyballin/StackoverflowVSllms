@@ -1,0 +1,1 @@
+// Example of setting a session variable in ASP.NET under Plumtree\nSession["MyVariable"] = "Value";

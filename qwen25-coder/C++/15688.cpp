@@ -1,0 +1,1 @@
+#include "foo.h"\n\n// Mark the function with __attribute__((used))\nvoid neverCalled() __attribute__((used));\n\nvoid neverCalled() {\n  Foo<int> f(1);\n}\n\n// If needed, explicitly instantiate the template class (optional in this case)\n// template class Foo<int>;

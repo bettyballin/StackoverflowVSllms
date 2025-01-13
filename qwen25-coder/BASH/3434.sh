@@ -1,0 +1,1 @@
+awk '{date[$2] = $2; size[$2] += $1} END {for (d in date) print size[d], d}' files.txt | sort -k2

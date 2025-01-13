@@ -1,0 +1,1 @@
+# Scan a downloaded file with clamscan\nclamscan path/to/downloaded/file.exe

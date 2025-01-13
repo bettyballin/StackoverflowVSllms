@@ -1,0 +1,1 @@
+foreach(HistoryRow row in historyDataTable.Rows)\n{\n    int? currReading = historyDataTable.GetCurrReadingNullSafe(row);\n    // Further processing...\n}

@@ -1,0 +1,1 @@
+var result = context.ChapterMeeting\n    .GroupBy(chapterMeeting => chapterMeeting.ChapterID)\n    .Select(group => new \n    { \n        ChapterID = group.Key, \n        MinMeetingDate = group.Min(meeting => meeting.MeetingDate) \n    })\n    .ToList();

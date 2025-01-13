@@ -1,0 +1,1 @@
+mount -t cifs //serverB/sharedfolder /mnt/localshare -o username=webuser,password=password,domain=yourdomain.com

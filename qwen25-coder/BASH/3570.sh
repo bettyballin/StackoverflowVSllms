@@ -1,0 +1,1 @@
+keytool -importkeystore \\n-srckeystore your-keystore.jks \\n-srcstoretype JKS \\n-dstkeystore keystore.p12 \\n-dststoretype PKCS12

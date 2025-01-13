@@ -1,0 +1,1 @@
+.parent {\n  position: relative;\n  height: 100vh;          /* Full viewport height for demonstration */\n}\n\n.child {\n  width: 300px;           /* Example fixed width */\n  margin: 0 auto;         /* Centers horizontal */\n}

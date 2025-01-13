@@ -1,0 +1,1 @@
+#!/bin/bash\n   while true; do \n       idle=$(cat /proc/stat | grep 'cpu ' | awk '{print $5}')\n       total=0\n       for num in $(cat /proc/stat | grep 'cpu ' | awk '{$1="";print$0}'); do\n           let "total += $num"\n       done\n       percent_idle=$((idle*100/total))\n       echo "$(date): Idle CPU: $percent_idle%"\n       sleep 5\n   done

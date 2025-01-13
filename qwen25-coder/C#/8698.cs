@@ -1,0 +1,1 @@
+using NUnit.Framework;\n\n[TestFixture]\npublic class MyTests\n{\n    [Test]\n    public void CheckEquality()\n    {\n        Assert.AreEqual(2 + 2, 4);\n    }\n}

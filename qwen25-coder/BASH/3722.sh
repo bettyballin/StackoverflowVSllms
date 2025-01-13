@@ -1,0 +1,1 @@
+appcmd list config /config /xml > C:\iis_config.xml

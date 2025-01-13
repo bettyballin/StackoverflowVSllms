@@ -1,0 +1,1 @@
+// Using concatenation - less clear about the intention of handling null\nstring foo = "" + str;\n\n// Using coalesce operator - more explicit and readable\nstring foo = str ?? "";

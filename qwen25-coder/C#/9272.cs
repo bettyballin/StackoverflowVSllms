@@ -1,0 +1,1 @@
+// Assuming you have two DataTables: originalTable, additionalTable\nDataTable originalTable = new DataTable();\n// Populate or initialize originalTable as needed\n\nDataTable additionalTable = new DataTable();\n// Populate or initialize additionalTable as needed\n\n// Merge additionalTable into originalTable\noriginalTable.Merge(additionalTable);

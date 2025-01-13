@@ -1,0 +1,1 @@
+ssm install MyRubyScriptService "C:\Path\To\Your\App\bin\rails" runner -e production lib/tasks/my_script.rake my_script:ru

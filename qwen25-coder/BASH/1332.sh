@@ -1,0 +1,1 @@
+java -Dcom.sun.management.jmxremote \\n        -Dcom.sun.management.jmxremote.port=9010 \\n        -Dcom.sun.management.jmxremote.authenticate=true \\n        -Dcom.sun.management.jmxremote.ssl=false \\n        -Djmx.remote.x.notification.filter.enabled=true \\n        YourMainApplicatio

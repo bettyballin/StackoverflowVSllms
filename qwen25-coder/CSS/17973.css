@@ -1,0 +1,1 @@
+.progressPanel {\n  position: relative;\n  height: 100%;\n  width: 100%;\n  display: flex; /* Use flexbox */\n  justify-content: center; /* Center horizontally */\n  align-items: center; /* Center vertically */\n  text-align: center;\n}\n\n.progressImage {\n  /* No need for positioning */\n}

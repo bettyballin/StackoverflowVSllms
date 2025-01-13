@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\n// Create an instance of the Stopwatch.\nStopwatch stopwatch = new Stopwatch();\n\n// Start the timer.\nstopwatch.Start();\n{\n    // Do some work\n}\n// Stop the timer.\nstopwatch.Stop();\n\n// Get the elapsed time as a TimeSpan value.\nTimeSpan ts = stopwatch.Elapsed;

@@ -1,0 +1,1 @@
+gcc -o mp3_to_pcm mp3_to_pcm.c -lmpg123

@@ -1,0 +1,1 @@
+#!/bin/sh\n# ...\nJAVA_HOME="/path/to/java"\nJAVA_OPTS="-Xms512m -Xmx1024m"\n\nexec "$PRGDIR"/"$EXECUTABLE" start "$@"

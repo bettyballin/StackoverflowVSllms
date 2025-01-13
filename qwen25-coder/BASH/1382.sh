@@ -1,0 +1,1 @@
+xjc -version your-schema.xsd

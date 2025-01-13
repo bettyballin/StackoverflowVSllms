@@ -1,0 +1,1 @@
+gcc -Wall -Wno-missing-newline-at-eof yourfile.c -o yourprogram

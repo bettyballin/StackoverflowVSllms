@@ -1,0 +1,1 @@
+// AVOID: This requires Full Trust\n   SecurityManager.SetPolicy(new PolicyLevel());

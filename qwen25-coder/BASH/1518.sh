@@ -1,0 +1,1 @@
+# Step 1: Create a self-signed certificate using makecert (ensure you have build utilities installed)\nmakecert -n "CN=YourCompanyName" -r -pe -sv YourCompany.pvk -sky exchange YourCompany.cer\n\n# Step 2: Convert the .cer file to a .pfx file\npvk2pfx.exe -pvk YourCompany.pvk -spc YourCompany.cer -pfx YourCompany.pfx

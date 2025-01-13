@@ -1,0 +1,1 @@
+protected void Session_Start(object sender, EventArgs e)\n{\n    // Dummy permissions for example purposes\n    var permissions = new HashSet<string> { "EditCustomer", "ViewCustomer" };\n    Session["UserPermissions"] = permissions;\n}

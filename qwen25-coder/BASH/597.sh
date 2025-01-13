@@ -1,0 +1,1 @@
+sudo apt install xfce4  # Example for XFCE

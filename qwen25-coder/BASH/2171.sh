@@ -1,0 +1,1 @@
+cmake -DBUILD_TESTS=OFF /path/to/source

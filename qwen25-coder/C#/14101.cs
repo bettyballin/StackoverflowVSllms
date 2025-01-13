@@ -1,0 +1,1 @@
+[DllImport("YourCppDll.dll", CallingConvention = CallingConvention.Cdecl)]\n  public static extern int YourCppMethod(int param);

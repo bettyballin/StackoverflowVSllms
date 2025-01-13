@@ -1,0 +1,1 @@
+void LogMessage(const char* message) {\n    // Logging implementation, possibly using OutputDebugStringA in service context\n}\n\nextern "C" __declspec(dllexport) void DoWork() {\n    LogMessage("Hello world");\n    try {\n        throw new int;\n    } catch (int* e) {\n        LogMessage("Caught exception");\n        delete e;\n    }\n    LogMessage("Done");\n}

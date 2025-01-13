@@ -1,0 +1,1 @@
+iisreset /stop\n   del %windir%\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\*\n   iisreset /start

@@ -1,0 +1,1 @@
+ul {\n    list-style-type: none; /* Remove bullets */\n    padding: 0;\n    margin: 0;\n}\n\n.layout {\n    display: flex; /* Make direct children of this class (li elements) sit in a row */\n    flex-direction: row; /* Ensures they go side by side */\n    gap: 10px; /* Optional: adds space between the columns */\n}

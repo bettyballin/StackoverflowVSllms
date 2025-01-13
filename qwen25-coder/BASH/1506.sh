@@ -1,0 +1,1 @@
+# Example command to grant modify permission to IIS_IUSRS on the directory via PowerShell\n   icacls "C:\path\to\Ads" /grant IIS_IUSRS:(OI)(CI)F

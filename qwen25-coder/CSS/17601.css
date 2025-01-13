@@ -1,0 +1,1 @@
+/* For IE 9 and below */\n@media screen\0 {\n    ul {\n        display: -ms-inline-grid; /* Workaround for very old IEs */\n        text-align: center;\n    }\n    \n    li {\n        display: inline-block;\n        *display: inline; /* Hack for IE7 mode */\n        zoom: 1; /* Trigger hasLayout in IE7 */\n    }\n}

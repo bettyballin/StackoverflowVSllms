@@ -1,0 +1,1 @@
+cd "$(ProjectDir)"\nperl path\to\yourscript.pl\ncd "$(TargetDir)"

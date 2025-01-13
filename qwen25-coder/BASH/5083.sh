@@ -1,0 +1,1 @@
+cd /path/to/rubygems-x.x.x  # Replace with actual directory\n   /path/to/gc-patched-ruby/bin/ruby setup.rb --prefix=/path/to/gc-patched-ruby

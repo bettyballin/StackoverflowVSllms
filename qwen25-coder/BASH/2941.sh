@@ -1,0 +1,1 @@
+sqlite3 path/to/your/database.sqlite "SELECT * FROM your_table;"

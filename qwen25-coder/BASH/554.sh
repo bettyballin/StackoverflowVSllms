@@ -1,0 +1,1 @@
+ls -le /path/to/your/Sites/directory

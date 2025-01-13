@@ -1,0 +1,1 @@
+.container {\n    width: 90%; /* Uses percentage instead of pixels */\n    margin: 0 auto;\n}\n\n.sidebar {\n    float: left;\n    width: 25%;\n    background-color: #f4f4f4;\n}\n\n.content {\n    float: left;\n    width: 75%;\n    background-color: #fff;\n}

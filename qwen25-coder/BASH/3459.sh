@@ -1,0 +1,1 @@
+gcc -O3 -march=native -o output_file source_file.c

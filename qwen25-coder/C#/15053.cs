@@ -1,0 +1,1 @@
+public class SuperClass\n{\n    protected void ProtectedMethod()\n    {\n        // Method implementation\n    }\n}\n\npublic class SubClass : SuperClass\n{\n    public void PublicMethodThatUsesProtected()\n    {\n        ProtectedMethod();  // Accessible here because SubClass inherits from SuperClass\n    }\n}

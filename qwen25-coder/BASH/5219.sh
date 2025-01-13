@@ -1,0 +1,1 @@
+cscript adsutil.vbs DELETE W3SVC/1/Root/ScriptMaps/IndexNumber

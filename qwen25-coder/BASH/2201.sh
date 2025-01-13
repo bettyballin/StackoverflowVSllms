@@ -1,0 +1,1 @@
+# Set the memory limit to 2048 MB (2 GB)\nSet-ItemProperty IIS:\AppPools\<YourAppPoolName> -name recycling.periodicRestart.memory -value 2097152

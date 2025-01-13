@@ -1,0 +1,1 @@
+#include "C:\Path\To\Your\VistaSDK\Include\sal.h"

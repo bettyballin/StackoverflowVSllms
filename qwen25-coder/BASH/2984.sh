@@ -1,0 +1,1 @@
+sudo apt-get install oracle-database-xe-18c\n   sudo /etc/init.d/oracle-xe configure

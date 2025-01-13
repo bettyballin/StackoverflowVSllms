@@ -1,0 +1,1 @@
+using System.ServiceModel.Activation;\n\nnamespace WcfRestService\n{\n    [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]\n    public class Service1 : IService1\n    {\n        public string GetData(string value)\n        {\n            return string.Format("You entered: {0}", value);\n        }\n    }\n}

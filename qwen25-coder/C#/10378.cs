@@ -1,0 +1,1 @@
+[ApiController]\n[Route("api/[controller]")]\npublic class DataController : ControllerBase\n{\n    [HttpGet]\n    public IActionResult GetData()\n    {\n        var data = new { Message = "Hello from Web API!" };\n        return Ok(data);\n    }\n}

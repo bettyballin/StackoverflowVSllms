@@ -1,0 +1,1 @@
+# Run cygwin setup and specify packages directly\nsetup-x86.exe -q --packages=gcc4-4,g++4-4,w32api

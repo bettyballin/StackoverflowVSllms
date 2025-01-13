@@ -1,0 +1,1 @@
+using System.Web;\n   \n   string sanitizedOutput = HttpUtility.HtmlEncode(userInput);

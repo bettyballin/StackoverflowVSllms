@@ -1,0 +1,1 @@
+g++ -o ocr_example main.cpp `pkg-config --cflags --libs tesseract`

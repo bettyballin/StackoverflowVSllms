@@ -1,0 +1,1 @@
+bundle config settings.vendor.cache true\nbundle install --deployment

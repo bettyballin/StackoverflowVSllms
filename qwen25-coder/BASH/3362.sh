@@ -1,0 +1,1 @@
+mysql -u root -p targetdbname < mrdb_compatible.sql

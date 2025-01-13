@@ -1,0 +1,1 @@
+// Example of posting a message\nBOOL postResult = PostMessage(hWnd, WM_USER + 123, (WPARAM)data1, (LPARAM)data2);\n\n// Example of sending a message\nLRESULT sendResult = SendMessage(hWnd, WM_USER + 123, (WPARAM)data1, (LPARAM)data2);

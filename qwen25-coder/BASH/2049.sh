@@ -1,0 +1,1 @@
+sudo apt-get install dos2unix  # On Debian/Ubuntu\nsudo yum install dos2unix      # On CentOS/RHEL\nbrew install dos2unix          # On macOS with Homebrew

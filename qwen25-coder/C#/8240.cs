@@ -1,0 +1,1 @@
+// Mapping file (XML) or Fluent configuration\npublic class PersonMap : ClassMap<Person>\n{\n    public PersonMap()\n    {\n        Table("People");\n        Id(x => x.Id);\n        Map(x => x.Name);\n    }\n}\n\n// Entity class\npublic class Person\n{\n    public virtual int Id { get; set; }\n    public virtual string Name { get; set; }\n}

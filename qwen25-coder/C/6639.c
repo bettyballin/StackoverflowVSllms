@@ -1,0 +1,1 @@
+int i = 0;\n   while(i < 10) ;\n   // After this loop, i will be 10

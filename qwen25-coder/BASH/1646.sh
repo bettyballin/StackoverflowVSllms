@@ -1,0 +1,1 @@
+midl /app_config /out generated_files your_idl_file.idl

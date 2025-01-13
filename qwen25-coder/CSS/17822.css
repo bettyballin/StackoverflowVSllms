@@ -1,0 +1,1 @@
+/* Add this clearfix class */\n.clearfix::after {\n  content: "";\n  clear: both;\n  display: table;\n}\n\n/* Apply the clearfix to the container that houses floated elements */\n#individual {\n  background-color: #000000;\n  clear: both;\n  overflow: hidden; /* Alternative to using ::after pseudo-element */\n}

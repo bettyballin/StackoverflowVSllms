@@ -1,0 +1,1 @@
+# Start a capture on all interfaces for ICQ-like TCP/UDP ports (e.g., 5190)\nsudo wireshark -i any port 5190 or udp portrange 4000-4200

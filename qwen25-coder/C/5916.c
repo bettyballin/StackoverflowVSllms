@@ -1,0 +1,1 @@
+// ExampleDLL.c\n#include windows.h\n\n__declspec(dllexport) int Add(int a, int b) {\n    return a + b;\n}

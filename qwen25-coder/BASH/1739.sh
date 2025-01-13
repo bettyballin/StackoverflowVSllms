@@ -1,0 +1,1 @@
+xelatex foo.tex  # or\n   lualatex foo.tex

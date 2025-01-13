@@ -1,0 +1,1 @@
+public async Task<ActionResult> MyAction()\n   {\n       var data = await someService.GetDataAsync();\n       return View(data);\n   }

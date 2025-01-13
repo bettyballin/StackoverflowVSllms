@@ -1,0 +1,1 @@
+0 3 * * * /path/to/backup_script.sh

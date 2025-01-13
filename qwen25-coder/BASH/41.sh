@@ -1,0 +1,1 @@
+sudo nano /usr/local/bin/vpn_connect.sh

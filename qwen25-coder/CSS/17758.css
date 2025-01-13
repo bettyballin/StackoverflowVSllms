@@ -1,0 +1,1 @@
+body {\n    margin: 0; /* Remove default margin */\n}\n\n#yyy {\n    min-width: 100%; /* Ensures parent container takes full width */\n}\n\n#footer {\n    position: fixed;\n    left: 0; /* Explicitly set left to 0 */\n    bottom: 0;\n    width: 100%;\n    height: 5em;\n    z-index: 10;\n    text-align: center;\n    background-color: #ddd;\n}

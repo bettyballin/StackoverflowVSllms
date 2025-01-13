@@ -1,0 +1,1 @@
+# List SSL bindings for ports\nGet-ChildItem -Path Cert:\LocalMachine\My | Where-Object { $_.FriendlyName -eq "YourCertificateFriendlyName" } |\n  ForEach-Object {\n    $certThumbprint = $_.Thumbprint\n    netsh http show sslcert ipport=0.0.0.0:443 thumbprint=$certThumbprint | Select-String -Pattern "Application ID"\n  }

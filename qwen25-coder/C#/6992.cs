@@ -1,0 +1,1 @@
+public void Can_generate_schema()\n{\n    var cfg = new Configuration();\n    cfg.Configure();\n    cfg.AddAssembly(typeof(Product).Assembly);\n\n    new SchemaExport(cfg).Execute(false, true, false);\n}

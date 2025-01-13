@@ -1,0 +1,1 @@
+openssl req -new -x509 -key private_key.pem -out certificate.pem -days 365

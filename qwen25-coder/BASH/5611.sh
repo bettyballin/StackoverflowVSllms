@@ -1,0 +1,1 @@
+ls -l /path/to/kilkin/images/dukkah.jpg

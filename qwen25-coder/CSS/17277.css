@@ -1,0 +1,1 @@
+/* In your CSS */\n.policy_page_tabs {\n    list-style-type: none;\n}\n\n.policy_page_tabs li {\n    list-style-type: none; /* Just to ensure no bullets on list items */\n}

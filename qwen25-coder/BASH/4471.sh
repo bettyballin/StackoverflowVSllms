@@ -1,0 +1,1 @@
+# Install snakeviz if you haven't already\npip install snakeviz\n\n# To visualize the profiling data\nsnakeviz output.prof

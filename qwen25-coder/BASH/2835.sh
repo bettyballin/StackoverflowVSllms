@@ -1,0 +1,1 @@
+pkgutil --forcereconfigure CSWcurl

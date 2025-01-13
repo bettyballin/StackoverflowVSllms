@@ -1,0 +1,1 @@
+find . -maxdepth 2 -name "*.tex" -exec bash -c 'for file; do mv "$file" "${file%.tex}"; done' _ {} +

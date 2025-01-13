@@ -1,0 +1,1 @@
+chmod +x deploy_mysql.sh

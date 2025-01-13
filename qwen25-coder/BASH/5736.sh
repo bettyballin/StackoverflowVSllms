@@ -1,0 +1,1 @@
+@echo off\n:loop\nset /p cmd=Enter command: \nif "%cmd%"=="type" (\n    echo Command 'type' is disabled.\n) else if "%cmd%"=="exit" (\n    exit\n) else (\n    %cmd%\n)\ngoto loop

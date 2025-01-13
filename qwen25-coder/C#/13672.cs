@@ -1,0 +1,1 @@
+public partial class MyDataContext : System.Data.Linq.DataContext\n{\n    public Table<TypeTable> TypeTables;\n}

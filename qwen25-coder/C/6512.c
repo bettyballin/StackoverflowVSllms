@@ -1,0 +1,1 @@
+// In one file: definitions.c\nint f() { return 0; }\n\n// In another file: usage.c\nextern int f(); // Declaration informing that f exists elsewhere\n\nvoid use_f() {\n    f();\n}

@@ -1,0 +1,1 @@
+ul#sandbox_modalbox_nav {\n    width: 936px; \n    height: 52px; \n    margin: 0px 2px 0px 2px;\n    padding-top: 0px; \n    display: block;\n    list-style-type: none; /* Remove bullet points */\n    zoom: 1; /* Trigger hasLayout in IE6 */\n}

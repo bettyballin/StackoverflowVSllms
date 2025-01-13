@@ -1,0 +1,1 @@
+if (User.IsInRole("validRole"))\n{\n    Response.Redirect("http://yourapp.com/mainpage.aspx");\n}

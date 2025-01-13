@@ -1,0 +1,1 @@
+public class Foo\n{\n    public Guid UniqueIdentifier;\n\n    public Foo()\n    {\n        UniqueIdentifier = Guid.NewGuid();\n    } \n}

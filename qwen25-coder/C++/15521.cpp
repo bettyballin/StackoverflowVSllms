@@ -1,0 +1,1 @@
+// Example of a function that might correspond to _FooBar@16\nvoid __stdcall FooBar(int param1, int param2) {\n    // Function implementation\n}

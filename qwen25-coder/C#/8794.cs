@@ -1,0 +1,1 @@
+private DataTable dtDevice;\n\n// Retrieve data using your existing method\ndtDevice = taDevice.GetDataByDeviceSN_ForRestage(txtDeviceSerial.Text);\n\n// Disable constraints before filling the table with partial data\ndtDevice.EnforceConstraints = false;

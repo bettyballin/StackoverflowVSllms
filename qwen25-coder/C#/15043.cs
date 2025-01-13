@@ -1,0 +1,1 @@
+// Using Session.Clear()\npublic void ClearCurrentSessionData()\n{\n    Session.Clear();\n}\n\n// Using Session.Abandon()\npublic void EndUserSession()\n{\n    Session.Abandon();\n}

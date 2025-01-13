@@ -1,0 +1,1 @@
+char buffer[100];\n   if (fgets(buffer, sizeof(buffer), stdin) != NULL) {\n       // process input\n   }

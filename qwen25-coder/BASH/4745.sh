@@ -1,0 +1,1 @@
+sqlcmd -S <SERVER NAME> -U <USERNAME> -P "<PASSWORD>" -Q "BACKUP DATABASE [YourDatabaseName] TO DISK = N'<Path>\YourDatabaseName.bak' WITH NOFORMAT, INIT, NAME = 'YourDatabaseName-Full Database Backup', SKIP, NOREWIND, NOUNLOAD, STATS = 10"

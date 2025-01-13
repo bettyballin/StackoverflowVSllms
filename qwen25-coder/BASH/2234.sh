@@ -1,0 +1,1 @@
+sudo localedef -c -f UTF-8 -i en_US en_US.UTF-8

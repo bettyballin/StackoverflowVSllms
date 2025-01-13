@@ -1,0 +1,1 @@
+// A.hpp\nclass A {\npublic:\n    static int count; // Declaration of static member\n\n    virtual ~A() {\n        count--;\n        if (count == 0) { /* this is the last one, do something */ }\n    }\n\nprotected: // Assuming B and other derived classes will access it\n    A() {} // Constructor to initialize base class if needed\n};\n\nclass B : public A {\npublic:\n    B();\n};

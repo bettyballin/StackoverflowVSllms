@@ -1,0 +1,1 @@
+public class Blog\n{\n    public int BlogId { get; }\n    public string Url { get; }\n\n    public Blog(int blogId, string url)\n    {\n        BlogId = blogId;\n        Url = url;\n    }\n}

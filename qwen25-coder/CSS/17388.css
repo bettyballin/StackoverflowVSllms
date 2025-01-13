@@ -1,0 +1,1 @@
+.outer {\n  background-color: red;\n  border-top: 1px solid transparent; /* Prevent margin collapse */\n}

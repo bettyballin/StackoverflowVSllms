@@ -1,0 +1,1 @@
+// Include the header file for function declarations.\n#include "your_module.h"\n\nint main() {\n    // Assuming someFunction1 and someFunction2 are declared in your_module.h\n    someFunction1();\n    int result = someFunction2(42);\n    \n    return 0;\n}

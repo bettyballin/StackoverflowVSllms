@@ -1,0 +1,1 @@
+int factorial(int n) {\n    int i;\n    int t = 1;\n    for (i = 2; i <= n; i++) {\n        t *= i;\n    }\n    return t;\n}\n\n// Usage:\nint a = factorial(4);

@@ -1,0 +1,1 @@
+TargetType variable = (TargetType) expression;

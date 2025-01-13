@@ -1,0 +1,1 @@
+REM Example command to run Disk Cleanup, which can help with general system performance\ncleanmgr /d C:

@@ -1,0 +1,1 @@
+sudo systemctl stop xfs\n   sudo systemctl disable xfs

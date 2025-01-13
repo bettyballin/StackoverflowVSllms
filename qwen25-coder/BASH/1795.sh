@@ -1,0 +1,1 @@
+lsnrctl stop\n   lsnrctl start

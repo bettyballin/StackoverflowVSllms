@@ -1,0 +1,1 @@
+var s = from row in context.Table\n        where row.Name.ToUpper() == "TEST"\n        select row;

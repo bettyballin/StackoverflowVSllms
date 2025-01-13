@@ -1,0 +1,1 @@
+.flex-container {\n    display: flex;\n}\n\n.flex-container > button,\n.flex-container > a.linkButton {\n    flex: 1; /* This makes both elements grow equally and take up the same width */\n}

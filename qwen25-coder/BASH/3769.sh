@@ -1,0 +1,1 @@
+g++ -E your_code.cpp > output.txt

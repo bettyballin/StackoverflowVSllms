@@ -1,0 +1,1 @@
+if (OpenFileDialog.ShowDialog() == DialogResult.OK)\n{\n    string filePath = OpenFileDialog.FileName;\n    string fileNameOnly = System.IO.Path.GetFileName(filePath);\n    PictureNameTextEdit.Text = fileNameOnly;\n}

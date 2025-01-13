@@ -1,0 +1,1 @@
+[\n    uuid(12345678-9abc-def0-1a2b-3c4d5e6f7a8b),\n    version(1.0)\n]\ninterface IProgressReporter : IUnknown {\n    HRESULT SendProgress(long progress);\n};

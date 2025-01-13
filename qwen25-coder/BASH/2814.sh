@@ -1,0 +1,1 @@
+java -jar schemaspy.jar -t oracle -db ORCL -s your_schema_name -u username -p password -host localhost -port 1521 -dp /path/to/ojdbc6.jar

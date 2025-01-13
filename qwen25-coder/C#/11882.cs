@@ -1,0 +1,1 @@
+static void Do()\n    {\n        S.DoFirst(new T());             // this call is OK\n        \n        List<A> list = new List<A>();\n        list.Add(new T());\n        \n        S.DoSecond(list);                // now it compiles\n    }

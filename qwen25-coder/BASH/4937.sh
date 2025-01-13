@@ -1,0 +1,1 @@
+# Load command via pipe with compression\nmysqldump --single-transaction --quick -u username -p database_name | mysql --compress -h remote_host -u username -p remote_database_name

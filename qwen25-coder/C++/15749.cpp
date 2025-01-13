@@ -1,0 +1,1 @@
+#include "sub.h"\n\n// Exported Function Example\n__declspec(dllexport) int DoWork() {\n    return 42;\n}

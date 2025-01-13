@@ -1,0 +1,1 @@
+# Assuming there's a tool similar to tlbimp, command might look like this:\ntools\ImportTLB.exe yourlibrary.tlb /out:YourLibraryInterop.dll

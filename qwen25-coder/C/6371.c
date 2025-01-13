@@ -1,0 +1,1 @@
+// Pseudo-code for very simplified version of k-means\nvoid simpleKMeans(int *features, int numFeatures) {\n    // Initialize centroids randomly\n    // Assign each feature point to the nearest centroid\n    // Recalculate centroids based on cluster membership\n    // Repeat until convergence\n}

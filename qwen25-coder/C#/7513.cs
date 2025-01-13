@@ -1,0 +1,1 @@
+<%= Html.RouteLink(Html.Encode(Model.NAME), new { /* route values */ }, \n    new { href = Url.Encode(Model.NAME) }) %>

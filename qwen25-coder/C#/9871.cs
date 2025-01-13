@@ -1,0 +1,1 @@
+// Equivalent of VB's Asc() - char to ASCII value\nchar myChar = 'A';\nint asciiValue = (int)myChar;\n\n// Equivalent of VB's Chr() - ASCII value to char\nint asciiCode = 65;\nchar character = (char)asciiCode;

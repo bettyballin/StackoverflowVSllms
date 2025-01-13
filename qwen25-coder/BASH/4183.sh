@@ -1,0 +1,1 @@
+sudo scp /etc/named.conf user@new-server-ip:/etc/named.conf

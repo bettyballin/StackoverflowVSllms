@@ -1,0 +1,1 @@
+stap -e 'probe process("/path/to/your_program").function("function_name") { printk("%s\n", execname()) }'

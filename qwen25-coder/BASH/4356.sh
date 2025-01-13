@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Show an info dialog with a message\nzenity --info --text="Your task has been completed successfully."\n\n# Exit the script\nexit 0

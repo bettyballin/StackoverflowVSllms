@@ -1,0 +1,1 @@
+# Install via VS Code Marketplace\n     ext install htmlhint.vscode-htmlhint\n     \n     # Configure settings.json for custom rules if needed

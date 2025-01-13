@@ -1,0 +1,1 @@
+public Customer()\n   {\n       CustomerPreferences = new HashSet<CustomerPreferences>();\n   }

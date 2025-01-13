@@ -1,0 +1,1 @@
+runmqakm -cert -list -db "yourfile.kdb" -stashed -pw <password>

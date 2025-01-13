@@ -1,0 +1,1 @@
+javac JMXMetricsFetcher.java\n   java JMXMetricsFetcher service:jmx:rmi:///jndi/rmi://localhost:9010/jmxrmi

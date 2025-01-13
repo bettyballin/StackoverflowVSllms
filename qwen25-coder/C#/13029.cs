@@ -1,0 +1,1 @@
+using System;\nusing System.Net;\nusing System.IO;\n\nclass Program {\n    static void Main() {\n        string ip = new WebClient().DownloadString("http://api.ipify.org");\n        Console.WriteLine("Your public IP is: " + ip);\n    }\n}

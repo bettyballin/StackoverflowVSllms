@@ -1,0 +1,1 @@
+protected void Button1_Click(object sender, EventArgs e)\n{\n    TextBox1.Text = "1";\n    TextBox2.Text = "1";\n\n    // Trigger the update of the UpdatePanel to refresh the content without a full postback\n    UpdatePanel1.Update();\n}

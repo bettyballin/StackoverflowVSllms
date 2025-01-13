@@ -1,0 +1,1 @@
+# Assume 'CN=Users,DC=testdomain,DC=com' is the path to your users and groups container\n\n# Grant read on user objects\ndsacls "CN=Users,DC=testdomain,DC=com" /I:T /G "DOMAIN\ADMembershipAccount":RP;\n\n# Grant read on group membership\ndsacls "CN=Users,DC=testdomain,DC=com" /I:T /G "DOMAIN\ADMembershipAccount":LC;

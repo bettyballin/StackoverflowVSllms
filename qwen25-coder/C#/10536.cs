@@ -1,0 +1,1 @@
+var result = from v in db.Visits\n             group v by v.PatientID into g\n             select new\n             {\n                 PatientID = g.Key,\n                 FirstVisitDate = g.OrderBy(v => v.VisitDate).First().VisitDate,\n                 FirstVisitHeartRate = g.OrderBy(v => v.VisitDate).First().HeartRate\n             };

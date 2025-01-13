@@ -1,0 +1,1 @@
+openssl genrsa -out localhost.key 2048

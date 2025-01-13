@@ -1,0 +1,1 @@
+sudo apt-get install m4 sendmail-bin sendmail-cf libc-client2007b-dev libssl-dev cyrus-sasl2-plain mailutils

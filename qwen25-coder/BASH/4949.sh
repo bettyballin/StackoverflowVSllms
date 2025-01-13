@@ -1,0 +1,1 @@
+export ORACLE_HOME=/usr/local/oracle

@@ -1,0 +1,1 @@
+for file in "${array[@]}"; do\n    # Do something with "$file"\n    echo "$file"\ndone

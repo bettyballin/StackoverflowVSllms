@@ -1,0 +1,1 @@
+#!/usr/sbin/dtrace -s\n\n# Script: trace.rb.d\n# Description: A simple DTrace script to watch Ruby method calls.\n# Note: Make sure the PID is correct and replace it with your Ruby process's PID.\n\npid$target::ruby_method_entry:start {}

@@ -1,0 +1,1 @@
+ktpass -princ HTTP/srvnfssol1.dev.local@DEV.LOCAL -mapuser <domain>\\<apache_account> -out c:\temp\http.keytab -pass +rndPass -ptype KRB5_NT_PRINCIPAL

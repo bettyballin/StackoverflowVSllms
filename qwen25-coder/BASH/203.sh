@@ -1,0 +1,1 @@
+logparser -i:TXT "SELECT * FROM 'C:\path\to\biztalklog.txt'"

@@ -1,0 +1,1 @@
+ul {\n  padding: 0;\n  margin: 0;\n  display: flex;\n}\n\nli {\n  border: solid 1px #333333;\n  margin-right: 5px;\n  padding: 2px;\n  background-color: #222222;\n  color: #999999;\n}\n\n/* Last list item should fill the remaining space */\nli:last-child {\n  flex-grow: 1;\n}

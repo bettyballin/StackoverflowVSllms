@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold "YourConnectionString" Microsoft.EntityFrameworkCore.SqlServer -o Models --context-dir Context

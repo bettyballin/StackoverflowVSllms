@@ -1,0 +1,1 @@
+var host = new ServiceHost(typeof(YourInternalService));\nhost.Description.Endpoints[0].Behaviors.Add(new IpFilterBehavior(new List<string> { "192.168.1.1", "10.0.0.1" }));\nhost.Open();

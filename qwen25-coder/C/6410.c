@@ -1,0 +1,1 @@
+char* my_function ( char *p_in_string, int *status )

@@ -1,0 +1,1 @@
+protected override void OnInit(EventArgs e)\n{\n    placeholder.Controls.Add(Factory.CreateControl());\n    base.OnInit(e);\n}\n\nprotected override void OnPreRender(EventArgs e)\n{\n    base.OnPreRender(e);\n\n    string script = "YourJavaScriptCodeHere();";\n    ScriptManager.RegisterStartupScript(this, GetType(), Guid.NewGuid().ToString(), script, true);\n}

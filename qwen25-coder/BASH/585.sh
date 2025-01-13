@@ -1,0 +1,1 @@
+# Command to check listener configuration\nlsnrctl status

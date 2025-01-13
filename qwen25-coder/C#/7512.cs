@@ -1,0 +1,1 @@
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="YourUserControl.ascx.cs" Inherits="Namespace.YourUserControl" %>\n\n<div>\n    <!-- User Control content -->\n</div>

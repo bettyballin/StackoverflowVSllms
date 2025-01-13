@@ -1,0 +1,1 @@
+/* For background images, especially in IE which can be picky about display */\n.your-background-div {\n    background-image: url('your-image-url.png');\n    background-repeat: no-repeat;\n    display: block; /* Ensure it behaves like a block element */\n    width: 100%; /* or specify the exact width needed */\n    height: auto; /* Adjust as necessary to fit your design */\n}

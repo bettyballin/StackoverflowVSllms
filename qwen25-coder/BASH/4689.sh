@@ -1,0 +1,1 @@
+sudo find /path/to/your/httpdocs -type d -exec chmod g+rx {} \;

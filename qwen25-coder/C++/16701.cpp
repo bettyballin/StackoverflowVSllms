@@ -1,0 +1,1 @@
+class A {\n    int state;\npublic:\n    A(int s) : state(s) {}\n    int inc() { return ++state; }\n};\n\nclass B {\n    A t; // Aggregating object of class A as part of its state.\npublic:\n    B(int aVal) : t(aVal) {} \n    void someFunctionUsingA() {\n        std::cout << "Incremented value from A: " << t.inc() << std::endl;\n    }\n};

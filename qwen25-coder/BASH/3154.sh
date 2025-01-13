@@ -1,0 +1,1 @@
+%windir%\system32\inetsrv\appcmd set config "Default Web Site" /section:staticContent /+"[fileExtension='.application',mimeType='application/x-ms-application']"\n%windir%\system32\inetsrv\appcmd set config "Default Web Site" /section:staticContent /+"[fileExtension='.manifest',mimeType='application/manifest']"

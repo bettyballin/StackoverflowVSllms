@@ -1,0 +1,1 @@
+ssm install YourServiceName "C:\Path\To\php.exe" "C:\path\to\your\script.php"

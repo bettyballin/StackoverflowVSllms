@@ -1,0 +1,1 @@
+string receivedCipherText = Request.QueryString["crypt"];\nstring decryptedQueryString = CryptoHelper.Decrypt(receivedCipherText ?? "");

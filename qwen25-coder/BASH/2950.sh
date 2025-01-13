@@ -1,0 +1,1 @@
+# Example simple API call using curl:\n   curl -u username:password https://yourbugzilla/xmlrpc.cgi?method=Bug.search&params=%7B"product"%3A+%22Your+Product%22%7D

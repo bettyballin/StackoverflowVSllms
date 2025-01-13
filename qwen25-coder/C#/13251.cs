@@ -1,0 +1,1 @@
+@using (Html.BeginForm())\n{\n    <div>\n        @Html.CheckBoxFor(model => model.TermsAccepted)\n        @Html.Label("Terms Accepted")\n        @Html.ValidationMessageFor(model => model.TermsAccepted)\n    </div>\n    <button type="submit">Submit</button>\n}

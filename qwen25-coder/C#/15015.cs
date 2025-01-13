@@ -1,0 +1,1 @@
+// Example for converting float to string using InvariantCulture\nfloat number = 123.45f;\nstring formattedNumber = number.ToString(CultureInfo.InvariantCulture);

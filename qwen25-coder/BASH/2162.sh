@@ -1,0 +1,1 @@
+# Check folder permissions on the TFS installation directory\n$account = "DOMAIN\YourNewUser"\n$path = "C:\Path\To\TFS\Portal"\n\n$acl = Get-Acl -Path $path\n\nforeach ($access in $acl.Access) {\n    if ($access.IdentityReference.Value -eq $account) {\n        Write-Host "Access Rule for $account: $($access.FileSystemRights)"\n    }\n}

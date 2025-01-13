@@ -1,0 +1,1 @@
+// VehicleParts.cs\n\nnamespace Vehicles\n{\n    public class Car\n    {\n        public void Drive()\n        {\n            // Driving logic\n        }\n    }\n\n    public class Door\n    {\n        public void Open()\n        {\n            // Opening logic\n        }\n    }\n}

@@ -1,0 +1,1 @@
+#!/bin/bash\n   read -sp "Enter your SSL private key passphrase: " keypass\n   echo $keypass > /etc/apache2/.ssl_passphrase.txt\n   unset keypass

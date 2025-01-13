@@ -1,0 +1,1 @@
+try\n    {\n        // Database operation code here\n    }\n    catch (Exception ex)\n    {\n        // Log exception details\n    }

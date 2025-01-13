@@ -1,0 +1,1 @@
+using System.Security.Cryptography;\n\n// Example of creating an AES instance\nusing (Aes aesAlg = Aes.Create())\n{\n    // Configure properties and use it for encryption/decryption\n}

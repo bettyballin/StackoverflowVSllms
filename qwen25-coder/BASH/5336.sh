@@ -1,0 +1,1 @@
+cd C:\Inetpub\AdminScripts\ncscript.exe adsutil.vbs enum w3svc/ForEach /W3SVC/IISWebVirtualDir get name,ServerBindings

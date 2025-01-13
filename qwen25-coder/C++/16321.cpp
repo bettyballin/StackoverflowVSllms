@@ -1,0 +1,1 @@
+#ifdef _DEBUGGING\n   #include <iostream>\n   int main() {\n       // Your existing code here...\n       \n       std::cout << "Press Enter to exit...\n";\n       std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');\n       return 0;\n   }\n   #endif

@@ -1,0 +1,1 @@
+//假設這是DLL_A中的代碼，它加載然後卸載DLL_B\nHMODULE hModuleB = LoadLibrary(TEXT("DLL_B.dll")); // 增加DLL_B的引用計數\nif (hModuleB) {\n    // 使用DLL_B的功能...\n    FreeLibrary(hModuleB); // 減少DLL_B的引用計數\n}\n// 如果沒有其他地方加載DLL_B，它現在應該被卸載了。

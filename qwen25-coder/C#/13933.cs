@@ -1,0 +1,1 @@
+decimal startAngle = Convert.ToDecimal(159.9);\ndecimal stopAngle = Convert.ToDecimal(355.87);\n\nstartAngle = startAngle + stopAngle;\nstopAngle = startAngle - stopAngle;\nstartAngle = startAngle - stopAngle;\n\n// Now, startAngle is 355.87 and stopAngle is 159.9

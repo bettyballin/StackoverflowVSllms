@@ -1,0 +1,1 @@
+public interface ICloneable<out T> where T : class\n{\n    T Clone();\n}

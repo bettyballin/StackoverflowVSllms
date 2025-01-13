@@ -1,0 +1,1 @@
+sftp username@windows_server_ip

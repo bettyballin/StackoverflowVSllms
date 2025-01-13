@@ -1,0 +1,1 @@
+# Assuming $string is your input string\n$string =~ s/\n$//;

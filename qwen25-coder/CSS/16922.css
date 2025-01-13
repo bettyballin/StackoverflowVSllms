@@ -1,0 +1,1 @@
+a {\n    display: block; /* Ensures the link can be hovered over like a block element */\n    cursor: pointer; /* Explicitly sets the hand cursor on hover */\n}

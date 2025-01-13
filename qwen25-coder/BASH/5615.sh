@@ -1,0 +1,1 @@
+tail -f C:/path/to/your/file.txt

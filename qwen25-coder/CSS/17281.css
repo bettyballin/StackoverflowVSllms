@@ -1,0 +1,1 @@
+.grid-container {\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    gap: 10px;\n}\n\n/* Example styling for child divs */\n.grid-container > div {\n    background-color: #ddd;\n    padding: 20px;\n}

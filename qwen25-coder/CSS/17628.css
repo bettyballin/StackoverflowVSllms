@@ -1,0 +1,1 @@
+.navigation {\n  display: flex;\n  justify-content: center; /* Center items horizontally */\n  list-style: none;\n  padding: 0;\n  margin: 0;\n}\n\n.navigation li {\n  margin: 0 1.15em;\n}

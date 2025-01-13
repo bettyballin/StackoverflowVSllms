@@ -1,0 +1,1 @@
+del /F /Q "%_ProjectPath%\bin\FastImage.dll"

@@ -1,0 +1,1 @@
+#include <tr1/memory>\nusing std::tr1::shared_ptr;

@@ -1,0 +1,1 @@
+#ifndef CLASS_A_H\n#define CLASS_A_H\n\nclass ClassB; // Forward declaration of ClassB\n\nclass ClassA {\npublic:\n    void doSomethingWithB(ClassB* b);\n};\n\n#endif // CLASS_A_H

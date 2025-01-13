@@ -1,0 +1,1 @@
+sudo sysctl -w net.ipv4.tcp_tw_reuse=1\n   sudo sysctl -w net.ipv4.tcp_tw_recycle=1  # For IPv4 only and deprecated in newer kernels\n   sudo sysctl -w net.core.somaxconn=65535

@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n   {\n       if (!IsPostBack)\n       {\n           if (User.IsInRole("Admin"))\n           {\n               adminButton.Visible = true;\n           }\n           else\n           {\n               adminButton.Visible = false;\n           }\n       }\n   }

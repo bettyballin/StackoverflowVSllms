@@ -1,0 +1,1 @@
+public class CalendarController : Controller\n{\n    public ActionResult GetEvents()\n    {\n        // Assume Events is a model or list containing your event data.\n        var events = EventService.GetUpcomingEvents();\n        return Json(events, JsonRequestBehavior.AllowGet);\n    }\n}

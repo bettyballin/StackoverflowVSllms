@@ -1,0 +1,1 @@
+sudo perf report -g graph,0.5 | FlameGraph/stackcollapse-perf.pl | FlameGraph/flamegraph.pl > out.svg

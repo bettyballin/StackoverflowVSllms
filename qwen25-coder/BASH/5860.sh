@@ -1,0 +1,1 @@
+# Check current service status\n   sudo systemctl status <service_name>\n\n   # Enable a service to start on boot\n   sudo systemctl enable <service_name>\n\n   # Disable a service from starting on boot\n   sudo systemctl disable <service_name>

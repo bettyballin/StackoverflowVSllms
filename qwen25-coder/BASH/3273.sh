@@ -1,0 +1,1 @@
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite \\n   -sPAPERSIZE=a3 -sOutputFile=output.pdf \\n   <(gs -sDEVICE=png16m -r300x420 -g595x842 -o - file1.pdf) \\n   <(gs -sDEVICE=png16m -r300x420 -g595x842 -o - file2.pdf)

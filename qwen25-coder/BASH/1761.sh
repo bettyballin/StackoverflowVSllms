@@ -1,0 +1,1 @@
+%windir%\system32\inetsrv\appcmd add app /site.name:"YourSiteName" /path:/YourAppPath /physicalPath:D:\YourPhysicalPath

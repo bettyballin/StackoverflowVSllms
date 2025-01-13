@@ -1,0 +1,1 @@
+private static readonly MyObjectType s_instance = new MyObjectType();\npublic static MyObjectType Instance \n{ \n    get \n    {                               \n        return s_instance; \n    } \n}

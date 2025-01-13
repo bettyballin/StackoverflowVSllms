@@ -1,0 +1,1 @@
+# On macOS server, create a folder to share\nsudo mkdir /Users/Shared/PublicFolder\n\n# Add sharing permissions\nsudo chmod 755 /Users/Shared/PublicFolder\n\n# Enable AFP sharing for the specific folder if it's not already enabled\n# This can be done via System Preferences -> Sharing -> File Sharing -> Options (AFP)

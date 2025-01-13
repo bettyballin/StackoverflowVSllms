@@ -1,0 +1,1 @@
+# Example command for iptables, adjust according to your router's capabilities and command-line access\nsudo iptables -t nat -D POSTROUTING --match conntrack --ctstate NEW -j MASQUERADE  # Disable NAT rules temporarily

@@ -1,0 +1,1 @@
+public class HomeController : Controller\n  {\n      [HttpGet]\n      public ActionResult Index()\n      {\n          ViewBag.Message = "Hello, ASP.NET MVC!";\n          return View();\n      }\n\n      [HttpPost]\n      public ActionResult Index(string submitButton)\n      {\n          ViewBag.Message = "You clicked the button!";\n          return View();\n      }\n  }

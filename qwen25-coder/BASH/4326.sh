@@ -1,0 +1,1 @@
+svn checkout http://your-svn-repo/project /path/to/htdocs

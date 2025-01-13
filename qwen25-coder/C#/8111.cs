@@ -1,0 +1,1 @@
+// Logical OR example\nbool a = true;\nbool b = false;\nbool resultLogicalOr = a || b; // resultLogicalOr is true\n\n// Bitwise OR example\nint x = 5; // binary: 0101\nint y = 3; // binary: 0011\nint resultBitwiseOr = x | y;   // resultBitwiseOr is 7, binary: 0111

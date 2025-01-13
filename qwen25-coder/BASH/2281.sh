@@ -1,0 +1,1 @@
+patchelf --set-rpath /path/to/glibc4.1/lib myapp

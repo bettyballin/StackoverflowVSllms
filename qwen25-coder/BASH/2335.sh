@@ -1,0 +1,1 @@
+gcc `pkg-config --cflags gtk+-3.0` -o simple_example simple_example.c `pkg-config --libs gtk+-3.0`\n./simple_example

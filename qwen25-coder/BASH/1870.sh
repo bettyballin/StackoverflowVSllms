@@ -1,0 +1,1 @@
+# PowerShell script to get SVN revision\n$revision = (svn info | Select-String 'Revision').ToString().Split(' ')[1]\n"define SVN_REVISION `$'$revision`"" | Out-File svn_revision.h

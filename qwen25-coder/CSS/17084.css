@@ -1,0 +1,1 @@
+hr {\n  width: 100%; /* Ensures the line spans the full width */\n  border: none; /* Removes default border style */\n  height: 1px; /* Sets the thickness of the line */\n  background-color: black; /* Sets the color of the line */\n  margin-left: 20px; /* Adds a left margin */\n  margin-right: 20px; /* Adds a right margin */\n}

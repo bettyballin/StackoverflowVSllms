@@ -1,0 +1,1 @@
+xmlstarlet fo yourfile.xsl > formatted.xml

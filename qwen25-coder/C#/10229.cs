@@ -1,0 +1,1 @@
+// Example using Moq for EF Core DbContext\n  var mockContext = new Mock<MyDbContext>();\n  mockContext.Setup(m => m.MyEntities).Returns(new DbSetMock<MyEntity>());

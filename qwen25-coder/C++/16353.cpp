@@ -1,0 +1,1 @@
+if (db != nullptr) {\n    sqlite3_close(db);\n}

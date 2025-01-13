@@ -1,0 +1,1 @@
+stsadm.exe -o provisionsspservice -url "http://yoursharepointsite/"

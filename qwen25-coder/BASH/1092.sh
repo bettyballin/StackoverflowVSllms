@@ -1,0 +1,1 @@
+tr ',' '\n' < inputfile.txt | sed 's/^ *//;s/ *$//' | sort | uniq | paste -sd, -

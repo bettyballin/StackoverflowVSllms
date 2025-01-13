@@ -1,0 +1,1 @@
+MyClass[] myArray = list.ToArray();

@@ -1,0 +1,1 @@
+# Create a new cgroup\nsudo cgcreate -g cpu,memory:/my_group\n\n# Run your application inside this cgroup\nsudo cgexec -g cpu,memory:/my_group <your_command_here>\n\n# List all processes in the group\nps -eo pid,ppid,cgrpgroup | grep my_group

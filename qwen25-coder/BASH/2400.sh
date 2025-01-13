@@ -1,0 +1,1 @@
+pip3 install virtualenv\nvirtualenv venv\nsource venv/bin/activate

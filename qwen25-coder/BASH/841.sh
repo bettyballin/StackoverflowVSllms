@@ -1,0 +1,1 @@
+brew uninstall php@5.6 # or whichever version you have

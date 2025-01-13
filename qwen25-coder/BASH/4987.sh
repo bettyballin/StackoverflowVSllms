@@ -1,0 +1,1 @@
+# Running PHP Unit test with code coverage\n$ phpunit --coverage-html ./reports tests/

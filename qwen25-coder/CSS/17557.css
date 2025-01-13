@@ -1,0 +1,1 @@
+input.a::after { \n    content: '\A';\n    white-space: pre;\n}

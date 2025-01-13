@@ -1,0 +1,1 @@
+D:\usbstick\lua5.4\lua.exe D:\usbstick\scripts\myscript.lua

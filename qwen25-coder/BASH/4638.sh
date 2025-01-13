@@ -1,0 +1,1 @@
+mpstat -P ALL 1 5             # Monitor all CPUs every second, 5 times\n   mpstat -P ALL >> cpu_usage.log  # Append to a file for later analysis

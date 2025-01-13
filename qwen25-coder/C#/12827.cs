@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n   {\n       Response.Charset = "utf-8";\n       // Your other code...\n   }

@@ -1,0 +1,1 @@
+export PYTHONPYCACHEPREFIX=/code_compiled\npython /code/your_script.py

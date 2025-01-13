@@ -1,0 +1,1 @@
+# Steps in IIS (using command-line):\n     appcmd.exe set site /site.name:"YourSiteName" /[bindings.[protocol='https',bindingInformation='*:443:*']].certificateHash:YOUR_CERT_HASH /[bindings.[protocol='https',bindingInformation='*:443:*']].certificateStoreName:MY

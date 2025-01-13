@@ -1,0 +1,1 @@
+yum install php-xml\nyum install php-xmlrpc

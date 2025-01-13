@@ -1,0 +1,1 @@
+dumpbin /EXPORTS your_dll.dll

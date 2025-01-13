@@ -1,0 +1,1 @@
+mkdir -p /chroot/python_env/{bin,lib64,dev}\n  cp $(which python3) /chroot/python_env/bin/\n  cp --parents $(ldd $(which python3) | grep "=> /" | awk '{print $3}') /chroot/python_env/\n  mount --bind /dev /chroot/python_env/dev

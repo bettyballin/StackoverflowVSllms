@@ -1,0 +1,1 @@
+shmfd = shm_open("/my_sh_mem", O_CREAT | O_RDWR, 0640);\n     fchmod(shmfd, 0640); // Ensure it has the correct permissions

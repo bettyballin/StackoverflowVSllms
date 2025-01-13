@@ -1,0 +1,1 @@
+// File1.cpp\n#include <iostream>\nclass Init {\npublic:\n    Init(int v) { std::cout << "Init: " << v << "\n"; }\n};\n\nstatic Init init1(1);\n\n// File2.cpp\n#include <iostream>\nextern "C" void __cdecl InitializeCritical() {\n    static Init init2(2);\n}

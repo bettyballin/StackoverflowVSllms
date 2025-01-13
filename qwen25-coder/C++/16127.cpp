@@ -1,0 +1,1 @@
+amespace helpers {\n  template<class T>\n  struct DataStruct {\n    typedef std::vector< std::vector< std::map<T, std::set<T> > > > type;\n  };\n\n  template<class T>\n  void h1(const typename DataStruct<T>::type& bar){\n    // ...\n  }\n}\n\ntemplate<class T>\nvoid fct(const typename helpers::DataStruct<T>::type& bar){\n  helpers::h1(bar);\n}

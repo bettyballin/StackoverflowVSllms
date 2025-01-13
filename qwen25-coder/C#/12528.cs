@@ -1,0 +1,1 @@
+using System;\nusing MyCppLibrary;  // Assuming your namespace in C++/CLI is MyCppLibrary\n\nclass Program {\n    static void Main(string[] args) {\n        MyCppClass myObject = new MyCppClass();\n        myObject.SayHello();\n    }\n}

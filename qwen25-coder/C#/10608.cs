@@ -1,0 +1,1 @@
+public ActionResult SomeAction()\n{\n    // Set a message that will be passed to the view\n    ViewBag.Message = "This is your alert message!";\n    return View();\n}

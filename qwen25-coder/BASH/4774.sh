@@ -1,0 +1,1 @@
+# sed to replace all occurrences of "foo" with "bar" in a text file\nsed -i 's/foo/bar/g' filename.txt

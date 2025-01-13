@@ -1,0 +1,1 @@
+public class AdminViewModel\n   {\n       public IEnumerable<Product> Products { get; set; }\n       public IEnumerable<Category> Categories { get; set; }\n   }

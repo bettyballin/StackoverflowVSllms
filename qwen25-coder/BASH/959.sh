@@ -1,0 +1,1 @@
+convert image.jpg -units PixelsPerInch -density 300 image.eps

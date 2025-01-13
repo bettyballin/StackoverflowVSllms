@@ -1,0 +1,1 @@
+.truncate {\n    white-space: nowrap; /* Prevents the text from wrapping onto multiple lines */\n    overflow: hidden;    /* Clips any part of the element's content that overflows its box */\n    text-overflow: ellipsis; /* Indicating clipped overflow with an ellipsis ('…') */\n    width: 200px;        /* Adjust to fit your layout needs */\n}

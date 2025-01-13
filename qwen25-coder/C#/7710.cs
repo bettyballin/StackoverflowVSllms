@@ -1,0 +1,1 @@
+// This is a simple class definition that could be part of a .NET Assembly\npublic class Calculator\n{\n    public int Add(int a, int b)\n    {\n        return a + b;\n    }\n}

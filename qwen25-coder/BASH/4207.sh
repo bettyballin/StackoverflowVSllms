@@ -1,0 +1,1 @@
+pear config-get php_dir

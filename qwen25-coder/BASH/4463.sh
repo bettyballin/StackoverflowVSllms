@@ -1,0 +1,1 @@
+# Open a command prompt and run:\n   depends.exe YourApp.exe

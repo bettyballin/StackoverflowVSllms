@@ -1,0 +1,1 @@
+// client.cpp (assuming you have exported function declarations in example.h)\n#include "example.h"\n\nint main() {\n    int result = MyExportedFunction(5, 3);\n    return result; // Should output 8\n}

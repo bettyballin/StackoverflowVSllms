@@ -1,0 +1,1 @@
+# Install Certbot (Ubuntu/Debian)\nsudo apt-get install certbot\n\n# Obtain a certificate for a domain\nsudo certbot certonly --standalone -d example.com\n\n# Automate renewal in crontab (daily at midnight)\necho "0 0,12 * * * root test -x /usr/bin/certbot && /usr/bin/certbot renew --quiet" | sudo tee /etc/cron.d/renew_certs

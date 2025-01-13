@@ -1,0 +1,1 @@
+string path = @"C:\example\file.txt";\n\nif (path.PathIsFile())\n{\n    Console.WriteLine("Path is a file.");\n}\nelse if (path.PathIsDirectory())\n{\n    Console.WriteLine("Path is a directory.");\n}\nelse\n{\n    Console.WriteLine("Path does not exist or cannot be determined.");\n}

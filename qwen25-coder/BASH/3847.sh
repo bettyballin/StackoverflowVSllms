@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Assuming you have db2cli installed and configured\ndb2 connect to your_db_name user your_user using your_password\ndb2 "CALL your_stored_procedure()"

@@ -1,0 +1,1 @@
+sudo pkill mysqld\n   sudo service mysqld start

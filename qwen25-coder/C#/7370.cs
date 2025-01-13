@@ -1,0 +1,1 @@
+public ActionResult YourAction()\n{\n    var userName = HttpContext.User.Identity.Name;\n    // or to check if the user is authenticated:\n    bool isAuthenticated = HttpContext.User.Identity.IsAuthenticated;\n\n    // Use userName and isAuthenticated as needed in your logic\n\n    return View();\n}

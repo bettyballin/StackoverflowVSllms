@@ -1,0 +1,1 @@
+#include <jni.h>\n#include <unistd.h>\n#include <sys/types.h>\n\nJNIEXPORT jint JNICALL Java_Native_setUser(JNIEnv *env, jobject obj, jint newUid) {\n    return setuid(newUid);\n}

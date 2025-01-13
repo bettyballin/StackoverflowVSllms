@@ -1,0 +1,1 @@
+#show_morecats {\n    background-color: blue; /* Default color */\n}\n\n#show_morecats.active {\n    background-color: red; /* Active/toggled color */\n}

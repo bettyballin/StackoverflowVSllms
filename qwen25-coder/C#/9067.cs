@@ -1,0 +1,1 @@
+using System;\npublic class DelayLogger {\n    public static void LogExecutionTime(Action action) {\n        DateTime start = DateTime.Now;\n        action();\n        DateTime finish = DateTime.Now;\n        TimeSpan duration = finish - start;\n        Console.WriteLine($"Action took: {duration.TotalSeconds} seconds");\n    }\n}

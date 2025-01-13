@@ -1,0 +1,1 @@
+table.event {\n    border-collapse: collapse;\n    border: 1px solid #000;\n    width: 33%;\n    height: 300px;\n}\n\ntable.event td {\n    border: 1px solid #000;\n    padding: 2px;\n}\n\ntable.event tr {\n    height: calc(33.3% - 6px); /* Ensuring each row takes up about one-third of the table's height */\n}

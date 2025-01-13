@@ -1,0 +1,1 @@
+/* Ensure all elements get a basic selection styling */\n*::selection {\n    background: blue;\n    color: white;\n}

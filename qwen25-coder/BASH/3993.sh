@@ -1,0 +1,1 @@
+* * * * * /usr/bin/php /path/to/process_temp_data.php

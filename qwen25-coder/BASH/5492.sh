@@ -1,0 +1,1 @@
+# List all disks and their partitions\ndiskutil list\n\n# Get detailed info about each disk using diskutil info command\ndiskutil info /dev/disk0  # replace disk0 with the appropriate device name from previous command\n\n# Get detailed information including USB port connection details\nioreg -l | grep -i "IOUSB"

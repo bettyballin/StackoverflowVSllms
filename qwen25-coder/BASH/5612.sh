@@ -1,0 +1,1 @@
+sudo apt install mariadb-server -y\n   sudo systemctl enable --now mariadb

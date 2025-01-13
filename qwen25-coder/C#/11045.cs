@@ -1,0 +1,1 @@
+public bool ValidateEmail(string email)\n{\n    try {\n        var addr = new System.Net.Mail.MailAddress(email);\n        return addr.Address == email;\n    }\n    catch {\n        return false;\n    }\n}

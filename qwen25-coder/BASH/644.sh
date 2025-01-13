@@ -1,0 +1,1 @@
+# For ARP scan in a local network (fast discovery)\nsudo nmap -sn 192.168.1.0/24\n\n# For more detailed scan including OS detection\nsudo nmap -sV -O 192.168.1.0/24\n\n# Combine with --traceroute for network path discovery\nsudo nmap -sn -traceroute 192.168.1.0/24

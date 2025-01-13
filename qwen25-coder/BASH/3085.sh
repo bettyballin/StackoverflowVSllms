@@ -1,0 +1,1 @@
+# Compile your program normally, with -g for debugging symbols\ngcc trivial.c -o trivial -g\n\n# Run the program under callgrind\nvalgrind --tool=callgrind ./trivial\n\n# This will generate a file named callgrind.out.PID\n# You can then analyze it using kcachegrind or command line tools like callgrind_annotate\nkcachegrind callgrind.out.*

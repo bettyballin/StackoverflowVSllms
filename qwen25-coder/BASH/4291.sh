@@ -1,0 +1,1 @@
+objdump -T /path/to/your/library.so | grep NEEDED  # To see which libraries are needed\nobjdump -x /path/to/your/library.so              # For a complete dump of the file's info

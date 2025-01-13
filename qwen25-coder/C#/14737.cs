@@ -1,0 +1,1 @@
+// Example of encrypting/decrypting with a simple XOR (not recommended for sensitive data)\n   private static byte[] xorWithKey(byte[] a, byte[] key) {\n       int len = Math.min(a.length, key.length);\n       byte[] out = new byte[len];\n       for (int i = 0; i < len; i++) {\n           out[i] = (byte)(a[i] ^ key[i % key.length]);\n       }\n       return out;\n   }

@@ -1,0 +1,1 @@
+// In YourProject_i.h\n[id(1)] HRESULT HelloWorld([out, retval] BSTR* pVal);\n\n// In YourProject.cpp\nHRESULT CYourObject::HelloWorld(BSTR* pVal)\n{\n    if (!pVal) return E_POINTER;\n    *pVal = SysAllocString(L"Hello World!");\n    return S_OK;\n}

@@ -1,0 +1,1 @@
+.rounded-box {\n  background-color: #3498db; /* Normal state color */\n  border-radius: 10px; /* Rounded corners */\n  padding: 20px;\n  transition: background-color 0.3s ease; /* Smooth transition for hover effect */\n}\n\n.rounded-box:hover {\n  background-color: #2ecc71; /* Lighter color on hover */\n}

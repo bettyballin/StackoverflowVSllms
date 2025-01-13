@@ -1,0 +1,1 @@
+// factory.cpp\n   #include "MyDll.h"\n\n   extern "C" MYDLL_API MyClass* CreateMyClass() {\n       return new MyClass();\n   }\n\n   extern "C" MYDLL_API void DestroyMyClass(MyClass* obj) {\n       delete obj;\n   }

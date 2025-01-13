@@ -1,0 +1,1 @@
+// Example: Query using SubSonic\nvar users = User.All();

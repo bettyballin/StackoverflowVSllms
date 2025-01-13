@@ -1,0 +1,1 @@
+# Example command for generating a PDF using HTMLDOC with specific options\nhtmldoc --webpage -f output.pdf \\n         --header "" --footer "" \\n         --bodyfont-size 12 \\n         input.html

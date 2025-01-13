@@ -1,0 +1,1 @@
+#auto eth1\n   #iface eth1 inet dhcp

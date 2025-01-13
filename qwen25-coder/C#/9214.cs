@@ -1,0 +1,1 @@
+using System.Web.Mvc;\n\nnamespace MyMvcProject.Controllers\n{\n    public class HomeController : Controller\n    {\n        public ActionResult Index()\n        {\n            return View();\n        }\n    }\n}

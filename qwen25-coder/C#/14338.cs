@@ -1,0 +1,1 @@
+// In your HTTP Handler (ASHX)\npublic void ProcessRequest(HttpContext context)\n{\n    string username = context.Request.Form["username"];\n    \n    // Now you can use the username as needed\n    if (!string.IsNullOrEmpty(username))\n    {\n        // Perform actions with the username\n    }\n}

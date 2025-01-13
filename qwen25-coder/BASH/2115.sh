@@ -1,0 +1,1 @@
+function ChildF {\n  # Directly defining the function in the script's scope\n  function Script:DynF {\n    "Hello DynF"\n  }\n\n  # Calling in ChildF scope Works\n  DynF \n}\n\nChildF\n\n# Now calling in parent scope works as well\nDynF

@@ -1,0 +1,1 @@
+# Create the directories - one for plain view and one for encrypted files\n   mkdir private_folder\n   mkdir private_encrypted\n\n   # Set up EncFS encryption between these two folders\n   encfs ~/private_encrypted ~/private_folder

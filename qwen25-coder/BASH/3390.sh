@@ -1,0 +1,1 @@
+# Example using ImageMagick to convert PDF to JPEG with compression\n   convert -density 150 input.pdf -quality 85 output.jpg

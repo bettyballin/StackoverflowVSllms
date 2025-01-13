@@ -1,0 +1,1 @@
+IQuery query = session.CreateSQLQuery("YOUR_QUERY")\n                          .AddScalar("column1", NHibernate.NHibernateUtil.Int32);

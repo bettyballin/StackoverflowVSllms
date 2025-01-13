@@ -1,0 +1,1 @@
+// Simple example of adding vector indices (pseudo-code)\nvoid addIndexToStructure(struct IndexStruct *index, int *vector, int id) {\n    // Add the feature vector and id to your index structure\n}

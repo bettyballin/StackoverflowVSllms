@@ -1,0 +1,1 @@
+getenforce\n     cat /var/log/audit/audit.log | grep avc

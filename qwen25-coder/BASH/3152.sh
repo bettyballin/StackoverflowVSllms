@@ -1,0 +1,1 @@
+sudo pear uninstall phpunit/PHPUnit\nsudo pear clear-cache\nsudo pear install phpunit/PHPUnit

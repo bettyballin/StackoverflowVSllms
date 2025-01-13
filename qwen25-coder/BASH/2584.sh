@@ -1,0 +1,1 @@
+sudo mkdir -p /Users/cs/cs_project

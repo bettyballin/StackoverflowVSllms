@@ -1,0 +1,1 @@
+using (var context = new YourDataContext())\n    {\n        var results = context.SearchArticlesByXMLData("YourSearchString");\n        foreach (var result in results)\n        {\n            // Process results here\n        }\n    }

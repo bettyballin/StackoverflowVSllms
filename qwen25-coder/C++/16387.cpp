@@ -1,0 +1,1 @@
+const double sqrt_val = std::sqrt(some_value); // calculate once

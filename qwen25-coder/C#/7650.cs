@@ -1,0 +1,1 @@
+using System;\nusing System.Web.Services;\n\npublic partial class _Default : System.Web.UI.Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        // This is the page load event handler.\n    }\n\n    [WebMethod]\n    public static string TestMethod()\n    {\n        return "This is a test from server!";\n    }\n}

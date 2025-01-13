@@ -1,0 +1,1 @@
+private string getElement(DataRow tr, string elementName)\n{\n    if (tr.Table.Columns.Contains(elementName))\n    {\n        return tr[elementName].ToString();\n    }\n    throw new ArgumentException("Column name does not exist in the DataRow.");\n}

@@ -1,0 +1,1 @@
+@echo off\nscala -cp {workspace}/myProject/bin %*

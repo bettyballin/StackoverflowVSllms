@@ -1,0 +1,1 @@
+#!/bin/bash\n    # Change permissions of all files inside the folder to read/write/execute for everyone:\n    chmod -R 755 "$@"

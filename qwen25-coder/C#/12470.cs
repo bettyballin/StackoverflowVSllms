@@ -1,0 +1,1 @@
+using net.sf.mpxj;\n     using System;\n\n     class Program\n     {\n         static void Main()\n         {\n             ProjectFile project = new UniversalProjectReader().read("path/to/project.mpp");\n             foreach (Task task in project.Tasks)\n             {\n                 Console.WriteLine($"{task.getID()} - {task.getName()}");\n             }\n         }\n     }

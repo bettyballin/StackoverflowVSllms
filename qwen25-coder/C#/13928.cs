@@ -1,0 +1,1 @@
+public class Resume {\n        public virtual int ResumeId { get; set; }\n        public virtual string FileName { get; set; }\n        public virtual byte[] FileContent { get; set; } // Store the file as a binary array\n    }

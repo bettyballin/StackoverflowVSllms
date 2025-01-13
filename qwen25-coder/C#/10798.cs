@@ -1,0 +1,1 @@
+using System.IO;\nusing System.Web;\n\nstring rawData;\nusing (StreamReader reader = new StreamReader(HttpContext.Current.Request.InputStream))\n{\n    rawData = reader.ReadToEnd();\n}

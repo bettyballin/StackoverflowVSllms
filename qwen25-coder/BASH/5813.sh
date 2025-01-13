@@ -1,0 +1,1 @@
+start_time=$(date +%s%N)\ncurl -o /dev/null http://localhost/script.php\nend_time=$(date +%s%N)\nelapsed=$(echo "scale=9; ($end_time - $start_time) / 1000000" | bc)\necho "Elapsed time: $elapsed ms"

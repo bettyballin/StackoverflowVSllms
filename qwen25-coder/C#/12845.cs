@@ -1,0 +1,1 @@
+using HtmlAgilityPack;\n\nclass Program\n{\n    static void Main()\n    {\n        var web = new HtmlWeb();\n        var doc = web.Load("http://example.com/");\n\n        foreach (HtmlNode link in doc.DocumentNode.SelectNodes("//a[@href]"))\n        {\n            HtmlAttribute attr = link.Attributes["href"];\n            Console.WriteLine(attr.Value);\n        }\n    }\n}

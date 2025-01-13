@@ -1,0 +1,1 @@
+php-minify input-dir/ -o output-file.php

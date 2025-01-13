@@ -1,0 +1,1 @@
+cat ~/.bashrc | grep -v '^#'  # Look for non-comment lines\n   cat ~/.profile | grep -v '^#'

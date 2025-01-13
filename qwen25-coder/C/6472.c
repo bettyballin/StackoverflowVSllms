@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <time.h>\n\nint main() {\n    struct timespec ts;\n    clock_gettime(CLOCK_REALTIME, &ts);\n    printf("Current time: %ld.%09ld seconds since the Epoch\n", \n           (long)ts.tv_sec, ts.tv_nsec);\n    return 0;\n}

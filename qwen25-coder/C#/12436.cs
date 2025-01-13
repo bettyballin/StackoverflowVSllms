@@ -1,0 +1,1 @@
+public static void RegisterGlobalFilters(GlobalFilterCollection filters)\n{\n    filters.Add(new HandleErrorAttribute());\n    filters.Add(new WhiteSpaceFilter()); // Add whitespace filter here\n}

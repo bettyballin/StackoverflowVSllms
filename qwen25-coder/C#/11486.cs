@@ -1,0 +1,1 @@
+CaseNote caseNote = new CaseNote\n{\n    TimeSpentUnits = Convert.ToDecimal(tbxTimeSpentUnits.Text),\n    IsCaseLog = chkIsCaseLog.Checked,\n    ContactDate = Convert.ToDateTime(datContactDate.Text),\n    ContactDetails = memContactDetails.Text\n};\ncaseNotesDB.CaseNotes.InsertOnSubmit(caseNote);\n\ncaseNotesDB.SubmitChanges();

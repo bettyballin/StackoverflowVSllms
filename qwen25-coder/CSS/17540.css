@@ -1,0 +1,1 @@
+/* Example of Vendor Prefix usage */\n   .example {\n       display: -webkit-box;  /* Safari */\n       display: -moz-box;     /* Firefox (old) */\n       display: box;          /* Android browser */\n       display: -ms-flexbox;  /* Internet Explorer 10 */\n       display: flex;\n   }

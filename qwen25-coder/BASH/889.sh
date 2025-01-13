@@ -1,0 +1,1 @@
+# If you decide to upgrade GCC, ensure the new version is compatible with your system.\n# Note: This is a generic command and actual installation steps may vary.\n./configure --prefix=/usr/local/gcc-4.x --enable-languages=c,c++ --with-gnu-as --with-as=/usr/bin/as --with-gnu-ld --with-ld=/usr/bin/ld\nmake\nmake install

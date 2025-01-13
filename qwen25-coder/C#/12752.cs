@@ -1,0 +1,1 @@
+// Define the namespace used in the HTML document.\nXNamespace ns = "http://www.w3.org/1999/xhtml";\n\n// Query descendants using the defined namespace.\nvar x = xDoc.Descendants(ns + "div");

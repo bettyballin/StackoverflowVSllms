@@ -1,0 +1,1 @@
+cp -r <INSTALL_DIR>/system/snippets/User /path/to/your/backup/location/

@@ -1,0 +1,1 @@
+# Start capturing\n  renderdoccmd.exe [options] <your executable> <your arguments>

@@ -1,0 +1,1 @@
+#pragma GCC push_options\n#pragma GCC optimize ("O0")\n\nvoid my_function() {\n    // Function body\n}\n\n#pragma GCC pop_options

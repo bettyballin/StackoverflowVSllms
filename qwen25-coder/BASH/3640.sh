@@ -1,0 +1,1 @@
+sed -i 's/\(DBSERVERNAME\)[[:blank:]]\+/\\1    yyy/' yourfile.conf

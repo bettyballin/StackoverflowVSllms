@@ -1,0 +1,1 @@
+class Base {\npublic:\n    virtual ~Base() = default;\n    virtual void doSomething() const = 0;\n};

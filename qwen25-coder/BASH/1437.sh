@@ -1,0 +1,1 @@
+readelf -Sw /path/to/binary | grep DWARF

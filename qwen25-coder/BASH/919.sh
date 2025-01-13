@@ -1,0 +1,1 @@
+ls -l@e /path/to/directory

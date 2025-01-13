@@ -1,0 +1,1 @@
+echo test | ./cryptTest encrypt deadbeefdeadbeefdeadbeefdeadbeef deadbeef Blowfish CBC > test

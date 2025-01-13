@@ -1,0 +1,1 @@
+./configure --with-php-config=path/to/php-config

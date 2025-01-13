@@ -1,0 +1,1 @@
+public static bool TryStrToGuid(string s, out Guid value)\n{\n    return Guid.TryParse(s, out value);\n}

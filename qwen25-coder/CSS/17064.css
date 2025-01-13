@@ -1,0 +1,1 @@
+td {\n    width: 100px;\n    height: 100px;\n    background: #000000;\n    padding: 0px;\n    border: 6px solid #FF0000;\n    -moz-box-sizing: border-box; /* Firefox */\n    -webkit-box-sizing: border-box; /* Safari, Chrome, Opera */\n    box-sizing: border-box; /* Other browsers */\n}

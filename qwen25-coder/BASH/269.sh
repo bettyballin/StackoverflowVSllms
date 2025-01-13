@@ -1,0 +1,1 @@
+mage -sign ApplicationManifest.manifest -Certfile "C:\Path\To\Your\Certificate.pfx" -Password YourCertificatePassword\nmage -update DeploymentManifest.application -appmanifest ApplicationManifest.manifest\nmage -sign DeploymentManifest.application -Certfile "C:\Path\To\Your\Certificate.pfx" -Password YourCertificatePassword

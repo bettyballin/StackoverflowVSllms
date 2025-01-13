@@ -1,0 +1,1 @@
+// Original function, now non-static and exported.\nvoid tcp_internal_function(void) {\n    // do something interesting\n}\n\nEXPORT_SYMBOL(tcp_internal_function);\n\nstatic void (*custom_tcp_func)(void) = &tcp_internal_function;\n\nEXPORT_SYMBOL(custom_tcp_func);

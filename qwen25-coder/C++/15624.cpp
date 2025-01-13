@@ -1,0 +1,1 @@
+// Assuming hBitmap is your HBITMAP and szFilePath is your full path for the JPEG file\nHRESULT hr = SaveHBITMAPToJPEG(hBitmap, L"C:\\path\\to\\output.jpeg");\nif (FAILED(hr)) {\n    // Handle error\n}

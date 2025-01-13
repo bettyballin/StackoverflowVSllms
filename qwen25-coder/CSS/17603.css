@@ -1,0 +1,1 @@
+ul {\n    display: -ms-flexbox; /* ForIE 10 */\n    display: flex;\n    justify-content: center;\n    list-style-type: none;\n    padding: 0;\n    margin: 0;\n}

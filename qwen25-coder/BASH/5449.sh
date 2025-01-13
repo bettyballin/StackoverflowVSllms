@@ -1,0 +1,1 @@
+# Installation via apt on Debian-based systems\n   sudo apt-get install phpldapadmi

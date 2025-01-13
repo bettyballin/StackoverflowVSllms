@@ -1,0 +1,1 @@
+cat <<EOF | sudo tee /usr/local/bin/unlock_encrypted.sh\n     #!/bin/sh\n     echo "$(cat /etc/cryptsetup-keys/my_encrypted_volume.key)"\n     EOF\n     sudo chmod u+x /usr/local/bin/unlock_encrypted.sh

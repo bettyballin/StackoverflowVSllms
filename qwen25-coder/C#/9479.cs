@@ -1,0 +1,1 @@
+// Replacing vbLf with \n for line feed\nstring unixNewLine = "\n";\n\n// Example usage\nstring contentForUnix = "First line" + unixNewLine + "Second line";\n\n// Replacing Chr() to get a character from an ASCII value\nchar newlineChar = (char)10; // This is equivalent to vbLf\n\n// Example usage\nstring anotherExample = "Line 1" + newlineChar.ToString() + "Line 2";

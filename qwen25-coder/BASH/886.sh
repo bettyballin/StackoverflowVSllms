@@ -1,0 +1,1 @@
+uncss http://example.com > output.css\n# Or for multiple URLs and stylesheets:\nuncss example1.html example2.html > output.css

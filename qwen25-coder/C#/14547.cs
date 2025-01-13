@@ -1,0 +1,1 @@
+public class Product\n{\n    public virtual ISet<StorageHistory> StorageHistories { get; private set; }\n\n    public Product()\n    {\n        // Initialize your collection in the constructor\n        StorageHistories = new HashedSet<StorageHistory>();\n    }\n}

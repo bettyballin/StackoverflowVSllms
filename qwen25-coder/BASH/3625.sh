@@ -1,0 +1,1 @@
+gcc -I/path/to/headers -o myprogram myfile.c\n  g++ -I/path/to/headers -o myprogram myfile.cpp

@@ -1,0 +1,1 @@
+#include <atlhost.h>\n#include "stdafx.h"\n#import "C:\Path\To\Your\Binaries\RTDSrv.tlb" no_namespace named_guids raw_interfaces_only\n// ...\nclass CMainFrame : public CFrameWnd, public IRtdServer\n{\n// ...\nprivate:\n    ULONG m_lObjectCount;\n    ULONG m_lLockCount;\n};

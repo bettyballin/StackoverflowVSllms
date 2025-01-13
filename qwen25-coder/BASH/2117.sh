@@ -1,0 +1,1 @@
+gcc -shared -o my_time.so my_time.c

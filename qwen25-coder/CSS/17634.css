@@ -1,0 +1,1 @@
+@media print {\n  body {\n    margin: 0px;\n    padding: 0px;\n  }\n  .content {\n    width: 100%;\n    max-width: 8.5in; /* width for A4 page */\n    margin-left: auto;\n    margin-right: auto;\n  }\n  @page {\n    size: A4;\n    margin: 0mm;\n  }\n  h1, p, div, table, ul, ol {\n    page-break-inside: avoid;\n  }\n}

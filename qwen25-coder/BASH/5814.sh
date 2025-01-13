@@ -1,0 +1,1 @@
+# Example with Git\n    git checkout -b taskA  # Create and switch to a new branch for Task A

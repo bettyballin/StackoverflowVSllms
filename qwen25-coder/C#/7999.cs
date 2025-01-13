@@ -1,0 +1,1 @@
+public partial class App : Application\n   {\n       protected override void OnStartup(StartupEventArgs e)\n       {\n           base.OnStartup(e);\n           MainWindow mainWin = new MainWindow();\n           mainWin.Show(); // or ShowDialog() if it's modal and intended to be\n           this.MainWindow = mainWin; // Explicitly set theMainWindow\n       }\n   }

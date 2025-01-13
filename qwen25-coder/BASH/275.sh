@@ -1,0 +1,1 @@
+docker run --rm my-python-sandbox-container

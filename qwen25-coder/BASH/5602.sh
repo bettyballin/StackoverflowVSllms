@@ -1,0 +1,1 @@
+cloc "path_to_your_project"

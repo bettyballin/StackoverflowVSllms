@@ -1,0 +1,1 @@
+gcc -o test_python test_python.c -I"C:\Program Files (x86)\python\2.6\include" -LC:\Windows\system32 -L"C:\Program Files (x86)\python\2.6\libs" -lpython26 -g

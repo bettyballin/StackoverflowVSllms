@@ -1,0 +1,1 @@
+# First, find the connection details you want to reset:\nGet-NetTCPConnection | Select LocalAddress, LocalPort, RemoteAddress, RemotePort, State\n\n# Then, reset the connection using the found details:\nReset-NetTCPConnection -LocalAddress <LocalIPAddress> -LocalPort <LocalPort> -RemoteAddress <RemoteIPAddress> -RemotePort <RemotePort>

@@ -1,0 +1,1 @@
+@echo off\nsetlocal enableextensions\n\nrem Set the source and destination directories\nset "src=C:\path\to\source"\nset "dest=C:\path\to\destination"\n\nrem Use for loop to find the first .rar file\nfor /f "delims=" %%a in ('dir /b /o-d "%src%\*.rar"') do (\n    copy "%%a" "%dest%"\n    goto :done\n)\n\n:done\necho First .rar file copied.

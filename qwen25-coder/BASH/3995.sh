@@ -1,0 +1,1 @@
+# Creating a tag in Git as an alternative to label (Vault's labeling is conceptually similar)\ngit tag -a v1.0 -m "Release version 1.0"

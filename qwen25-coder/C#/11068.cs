@@ -1,0 +1,1 @@
+using (ClientEntities clientContext = new ClientEntities())\n{\n    var count = clientContext.Client.Count(c => c.email == "xxx@hotmail.com" && c.password == "xAdxar12s");\n    Console.WriteLine(count);\n}

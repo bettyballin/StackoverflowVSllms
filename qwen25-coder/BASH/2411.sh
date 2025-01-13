@@ -1,0 +1,1 @@
+mysql -u your_username -p --database=your_database_name -e "SELECT email,clear,SUBSTRING(email, LOCATE('@', email) + 1) AS domain FROM postfix_users;" | sed 's/\t/,/g' > output.csv

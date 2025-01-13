@@ -1,0 +1,1 @@
+# Using curl\ncurl -b 172.17.32.10 http://example.com\n\n# Using ping (note: not all systems support this)\nping -I 172.17.32.10 example.com

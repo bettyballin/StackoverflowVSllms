@@ -1,0 +1,1 @@
+Dictionary<string, Tuple<Delegate, object>> handlers = new Dictionary<string, Tuple<Delegate, object>>();

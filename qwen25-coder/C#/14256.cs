@@ -1,0 +1,1 @@
+var connectionString = "Data Source=your_tns_name;Integrated Security=SSPI;";

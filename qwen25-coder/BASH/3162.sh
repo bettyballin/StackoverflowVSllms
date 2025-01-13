@@ -1,0 +1,1 @@
+# Assuming 'com/example/package' structure and 'bin' is output dir for compiled classes\ncd path/to/your/project/bin\njar cf mypackage.jar com/example/*

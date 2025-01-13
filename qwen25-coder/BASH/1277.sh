@@ -1,0 +1,1 @@
+sudo yum-config-manager --enable remi-php52

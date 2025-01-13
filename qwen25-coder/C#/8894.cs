@@ -1,0 +1,1 @@
+for (int i = list.Count; i < lim; i++)\n{\n    list.Add(null);\n}

@@ -1,0 +1,1 @@
+for (int cnt3 = 0; cnt3 < integerList.Count; cnt3++)\n{\n    Console.WriteLine("{0}\t{1}\t{2}\t{3}\t{4}",\n        integerList[cnt3].m_MessageID,\n        integerList[cnt3].m_MessageType,\n        integerList[cnt3].m_ClassID,\n        integerList[cnt3].m_CategoryID, \n        integerList[cnt3].m_MessageText);\n}

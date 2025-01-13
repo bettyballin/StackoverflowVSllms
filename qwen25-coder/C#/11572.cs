@@ -1,0 +1,1 @@
+string connectionString = "Provider=OraOLEDB.Oracle;Data Source=MyOracleDB;User Id=myUsername;Password=myPassword;";

@@ -1,0 +1,1 @@
+chroot /chroot/python_env/ /bin/python3 /path/to/script.py

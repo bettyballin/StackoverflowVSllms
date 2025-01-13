@@ -1,0 +1,1 @@
+// Encrypting the connectionStrings section\naspnet_regiis -pef "connectionStrings" "C:\path\to\webapp"\n\n// Decrypting the connectionStrings section\naspnet_regiis -pdf "connectionStrings" "C:\path\to\webapp"

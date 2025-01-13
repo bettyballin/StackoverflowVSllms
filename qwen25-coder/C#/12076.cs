@@ -1,0 +1,1 @@
+string delimiter = "|~|";\n\n// Example usage when combining fields\nstring combinedString = string.Join(delimiter, new[] { field1, field2, field3 });\n\n// Example usage when separating fields\nstring[] fields = combinedString.Split(new[] { delimiter }, StringSplitOptions.None);

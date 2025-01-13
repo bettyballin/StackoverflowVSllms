@@ -1,0 +1,1 @@
+# Assuming you have your intermediate cert as intermediate.crt\n   cat conf/ssl/server.crt conf/ssl/intermediate.crt > conf/ssl/server-bundle.crt

@@ -1,0 +1,1 @@
+using System;\nusing System.Collections.Generic;\nusing System.Linq;\n\nclass Program\n{\n    static void Main()\n    {\n        List<double> t1 = new List<double> { 1, 3, 5 };\n        List<double> t2 = new List<double> { 1, 5 };\n\n        bool isSubset = t2.All(element => t1.Contains(element));\n\n        Console.WriteLine("Is t2 a subset of t1? " + isSubset);\n    }\n}

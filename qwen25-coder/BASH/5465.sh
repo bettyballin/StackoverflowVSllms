@@ -1,0 +1,1 @@
+# Step 1: Compile .cpp files into .o files\ng++ -c file1.cpp -o file1.o\ng++ -c file2.cpp -o file2.o\n\n# Step 2: Create a .a file from .o files\nar rcs libmylib.a file1.o file2.o

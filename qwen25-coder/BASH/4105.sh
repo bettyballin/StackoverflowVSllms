@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Log file to save the CPU load readings\nLOGFILE="/var/log/cpu_load.log"\n\nwhile true; do\n    # Read the current system load from /proc/loadavg and echo with timestamp\n    echo "$(date +'%Y-%m-%d %H:%M:%S') $(cat /proc/loadavg)" >> "$LOGFILE"\n    \n    # Sleep for 15 minutes (900 seconds)\n    sleep 900\ndone

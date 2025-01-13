@@ -1,0 +1,1 @@
+#define FUNC_TRACER FuncTracer tracer(_T(__func__))\n\nvoid TestClass::TestFunction()\n{\n    FUNC_TRACER;\n    /*\n     * Rest of the function code.\n     */\n}

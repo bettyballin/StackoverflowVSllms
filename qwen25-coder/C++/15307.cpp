@@ -1,0 +1,1 @@
+__interface __declspec(uuid("{YOUR-GUID-HERE}")) IS8SimulationEvents : IDispatch {\n    STDMETHOD(S8SimulationEndRun)();\n};

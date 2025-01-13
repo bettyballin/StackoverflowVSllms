@@ -1,0 +1,1 @@
+string[] array = "example,string,array".Split(',');\nList<string> list = new List<string>(array);

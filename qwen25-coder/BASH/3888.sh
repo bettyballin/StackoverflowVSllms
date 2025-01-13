@@ -1,0 +1,1 @@
+for file in *.csv; do\n    awk -f transform.awk "$file" > "modified_$file"\ndone

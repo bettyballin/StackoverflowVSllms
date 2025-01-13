@@ -1,0 +1,1 @@
+sed -i 's/.\{40\}/&\n/g' inputfile.txt

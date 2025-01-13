@@ -1,0 +1,1 @@
+dotnet publish -c Release -r <RID> --self-contained /p:PublishSingleFile=true

@@ -1,0 +1,1 @@
+AttachConsole(ATTACH_PARENT_PROCESS); // or AttachConsole(-1);

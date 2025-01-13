@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        requiredDude.EnableClientScript = true;\n        requiredDude.ErrorMessage = "<b style='color:red;'>This field is required.</b>";\n        requiredDude.ValidateRequestMode = ValidateRequestMode.Disabled; // Use with caution\n    }\n}

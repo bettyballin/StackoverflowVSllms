@@ -1,0 +1,1 @@
+g++ --help=warnings\n   g++ --help=errors

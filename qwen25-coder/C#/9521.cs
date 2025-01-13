@@ -1,0 +1,1 @@
+public class User {\n    public string Username { get; set; }\n\n    // Other properties, methods\n}\n\npublic class UserProfileService {\n    public User GetUserProfile(string username) {\n        // Get user profile from data source\n    }\n\n    public void Update(User profile) {\n        // Save updated user profile to data source\n    }\n}

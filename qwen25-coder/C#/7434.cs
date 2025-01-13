@@ -1,0 +1,1 @@
+// Example of logging in Umbraco\n   var currentUser = Membership.GetUser();

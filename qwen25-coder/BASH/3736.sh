@@ -1,0 +1,1 @@
+sudo apt-get install swftools-pdf2swf pdf2swf swfsave

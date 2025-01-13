@@ -1,0 +1,1 @@
+gcc -Wno-write-strings your_source_file.c -o your_program

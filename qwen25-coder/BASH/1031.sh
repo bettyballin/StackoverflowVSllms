@@ -1,0 +1,1 @@
+gdb ./your_program\n(gdb) source /path/to/exception_breakpoints.py

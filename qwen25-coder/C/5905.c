@@ -1,0 +1,1 @@
+TEST t;\nt.cbSize = sizeof(TEST);\n// Further initialization or passing 't' to an API functio

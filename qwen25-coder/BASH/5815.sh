@@ -1,0 +1,1 @@
+# Check current service status across all runlevels\n   sudo chkconfig --list <service_name>\n\n   # Enable a service to start on boot\n   sudo chkconfig <service_name> on\n\n   # Disable a service from starting on boot\n   sudo chkconfig <service_name> off\n\n   # Set service to start/stop in a specific runlevel\n   sudo chkconfig --level 35 <service_name> o

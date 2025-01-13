@@ -1,0 +1,1 @@
+# Example of using CodeClimate for code review\n   codeclimate init\n   codeclimate analyze

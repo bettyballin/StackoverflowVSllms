@@ -1,0 +1,1 @@
+protected void SearchButton_Click(object sender, EventArgs e)\n{\n    IsSearchButtonClicked.Value = "true";\n    // Logic to populate GridView based on search criteria\n}\n\nprotected void AnotherButton_Click(object sender, EventArgs e)\n{\n    // Other operations that do not require animation\n}

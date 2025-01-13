@@ -1,0 +1,1 @@
+sed 's/<html>/<html><link rel="stylesheet" type="text\/css" href="LivingInStyle.css">/' input.html > output.html

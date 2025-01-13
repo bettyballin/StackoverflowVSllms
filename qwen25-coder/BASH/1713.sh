@@ -1,0 +1,1 @@
+ssh user@your_server "cp /directory/subfolder/* /directory/"

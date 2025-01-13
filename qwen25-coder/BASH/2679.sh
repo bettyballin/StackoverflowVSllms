@@ -1,0 +1,1 @@
+# To check commits in the last year for both projects on GitHub\ncurl https://api.github.com/repos/fluxbb/fluxbb/commits?page=1&per_page=5\ncurl https://api.github.com/repos/punbb/punbb/commits?page=1&per_page=5

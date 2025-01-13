@@ -1,0 +1,1 @@
+svn --config-dir %APPDATA%\Subversion/ config set servers http-proxy-username <your-proxy-username>\nsvn --config-dir %APPDATA%\Subversion/ config set servers http-proxy-password <your-proxy-password>

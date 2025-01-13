@@ -1,0 +1,1 @@
+public static class SessionParams\n   {\n       public const string SESSION_PAREMETER_NAME = "HAVE_TO_TYPE_EVERY_TIME";\n   }

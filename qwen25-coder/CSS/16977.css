@@ -1,0 +1,1 @@
+html, body {\n  height: 100%;\n  margin: 0;\n}\n\ntable {\n  width: 100%;\n  height: 100%;\n  border-collapse: collapse;\n}\n\ntr:first-child td {\n  height: 100px; /* Fixed height for the first row */\n  border: solid 1px black;\n}\n\ntr:last-child td {\n  border: solid 1px black;\n}

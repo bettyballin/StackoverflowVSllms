@@ -1,0 +1,1 @@
+public static readonly MyClass foo = new MyClass("foo");

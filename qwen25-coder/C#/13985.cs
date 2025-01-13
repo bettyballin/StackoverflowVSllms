@@ -1,0 +1,1 @@
+try\n{\n    SPSecurity.RunWithElevatedPrivileges(delegate()\n    {\n        // Your code here will run with the same privileges as the console app was executed under.\n    });\n}\ncatch (Exception ex)\n{\n    Console.WriteLine("An error occurred: " + ex.Message);\n}

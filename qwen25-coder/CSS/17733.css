@@ -1,0 +1,1 @@
+.image-container {\n    width: 50px;\n    height: 50px;\n    overflow: hidden;\n    position: relative;\n}\n\n/image-container img {\n    position: absolute;\n    top: -100px; /* Adjusted to center the image vertically */\n    left: -100px; /* Adjusted to center the image horizontally */\n}

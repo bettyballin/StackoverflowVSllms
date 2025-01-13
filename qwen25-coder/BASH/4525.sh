@@ -1,0 +1,1 @@
+brew update\nbrew install graphviz

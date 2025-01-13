@@ -1,0 +1,1 @@
+using System;\nusing System.Text.Json;\n\nclass MyClass\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n}\n\nvar obj = new MyClass { Id = 1, Name = "Example" };\nstring serializedObject = JsonSerializer.Serialize(obj, new JsonSerializerOptions { WriteIndented = true });\nConsole.WriteLine(serializedObject);

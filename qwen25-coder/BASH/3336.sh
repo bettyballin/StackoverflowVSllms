@@ -1,0 +1,1 @@
+export LD_LIBRARY_PATH=/path/to/oracle/client/instantclient/version:$LD_LIBRARY_PATH

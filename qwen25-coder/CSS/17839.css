@@ -1,0 +1,1 @@
+div {\n    border:1px solid #000;\n    min-width: 50%;\n    width: auto; /* Allows the div to grow as needed beyond 50% */\n}

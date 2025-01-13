@@ -1,0 +1,1 @@
+div#thing {\n  position: absolute;\n  top: 0px;\n  left: 50%;\n  transform: translateX(-50%);\n  z-index: 2;\n}

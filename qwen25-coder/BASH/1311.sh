@@ -1,0 +1,1 @@
+make clean\n   make

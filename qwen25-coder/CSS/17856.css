@@ -1,0 +1,1 @@
+.break {\n    position: relative;\n    height: 1px;\n    background-color: #555555;\n    margin: 5px 10px 10px 10px;\n    font-size: 0; /* Prevents IE6 from adding extra space */\n    line-height: 0; /* Ensures the element height is adhered to */\n}

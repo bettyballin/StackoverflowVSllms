@@ -1,0 +1,1 @@
+if (!EventLog.SourceExists(APPLICATIONNAME))\n{\n    EventLog.CreateEventSource(APPLICATIONNAME, EVENTLOGNAME);\n}

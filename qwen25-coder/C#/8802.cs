@@ -1,0 +1,1 @@
+using (var context = new YourDbContext())\n{\n    bool userExists = context.Users.Any(u => u.UserName == "michael");\n\n    if (!userExists)\n    {\n        var newUser = new User { UserName = "michael" };\n        context.Users.Add(newUser);\n        context.SaveChanges();\n    }\n}

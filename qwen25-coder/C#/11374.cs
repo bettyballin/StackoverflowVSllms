@@ -1,0 +1,1 @@
+public partial class Form2 : Form\n{\n    public Form2()\n    {\n        InitializeComponent();\n        int customerId = SharedData.CustomerId;\n        // Use customerId as needed\n    }\n}

@@ -1,0 +1,1 @@
+env CPUPROFILE=./jags.prof DYLD_LIBRARY_PATH=/path/to/libs /usr/local/bin/jags regression.cmd

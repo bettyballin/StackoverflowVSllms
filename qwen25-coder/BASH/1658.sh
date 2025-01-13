@@ -1,0 +1,1 @@
+" Create or edit ~/.vim/after/ftplugin/php.vim with this line inside:\nsetlocal iskeyword-=$

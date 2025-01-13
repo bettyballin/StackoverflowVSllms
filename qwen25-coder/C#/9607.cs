@@ -1,0 +1,1 @@
+toolboxpanel.CssClass = "toolbox"

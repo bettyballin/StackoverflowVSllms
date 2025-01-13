@@ -1,0 +1,1 @@
+# Enable Network DTC Access via PowerShell (must run as Administrator)\nSet-DtcNetworkSetting -DtcName Local -AllowInbound 1 -AllowOutbound 1 -XATransactions 1 -AuthLevel None\n\n# Restart MS DTC service to apply changes\nRestart-Service msdtc

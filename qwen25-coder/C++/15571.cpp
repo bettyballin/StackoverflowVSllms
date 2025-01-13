@@ -1,0 +1,1 @@
+int main()\n{\n    name varName; // Corrected line\n    name * pName = new name();\n    add(pName);\n    add(&varName); // This will work now\n}

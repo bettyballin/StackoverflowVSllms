@@ -1,0 +1,1 @@
+# Install on Debian/Ubuntu: sudo apt-get install exiv2\n# Install on macOS via Homebrew: brew install exiv2\n\n# Example usage:\nexiv2 rm image.jpg  # Remove all metadata from the JPEG file

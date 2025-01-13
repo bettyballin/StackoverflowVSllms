@@ -1,0 +1,1 @@
+#include <iostream>\nusing namespace std;\n\nint main() {\n    string input;\n    cin >> input;  // Read from standard input\n\n    // Process the input (for demonstration, we'll just reverse the string)\n    string output = string(input.rbegin(), input.rend());\n\n    cout << output << endl;  // Write to standard output\n    return 0;\n}

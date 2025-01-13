@@ -1,0 +1,1 @@
+int hr = SomeFunction();\n\nif (!System.Runtime.InteropServices.Marshal.Succeeded(hr)) {\n    // Handle the error\n}\nelse {\n    // Proceed if successful\n}

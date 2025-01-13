@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (HttpContext.Current.Session == null)\n    {\n        // Handle or log this as an error.\n        Response.StatusCode = 401; // Unauthorized access\n        return;\n    }\n\n    // Your logic to serve the image here\n}

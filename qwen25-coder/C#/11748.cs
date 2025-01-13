@@ -1,0 +1,1 @@
+// Assuming Label1 is the ID of your label on the aspx page\nLabel label = (Label)Page.FindControl("Label1");\n\nif (label != null)\n{\n    // You can now manipulate the label\n    label.Text = "This label text was set from ASCX.";\n}\nelse\n{\n    throw new Exception("Label not found.");\n}

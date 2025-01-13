@@ -1,0 +1,1 @@
+echo en_US.UTF-8 UTF-8 | sudo tee -a /etc/locale.gen \nsudo locale-gen\nexport LANG=en_US.UTF-8

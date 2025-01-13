@@ -1,0 +1,1 @@
+curl -X GET 'https://api.example.com/v1/data' -H "Authorization: Bearer YOUR_ACCESS_TOKEN"

@@ -1,0 +1,1 @@
+[HttpPut]\npublic IHttpActionResult UpdateResource(int id, [FromBody] Resource resource)\n{\n    if (!ModelState.IsValid)\n        return BadRequest(ModelState);\n    \n    // Logic to update the resource\n    \n    return Ok();\n}

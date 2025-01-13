@@ -1,0 +1,1 @@
+sqlcmd -S myServer -d myDB -E -Q "set nocount on; select 'col1,col2,col3' union all select cast(col1 as varchar(50)) + ',' + cast(col2 as varchar(50)) + ',' + quoteName(col3, '"') from SomeTable" -o MyData.csv -h-1

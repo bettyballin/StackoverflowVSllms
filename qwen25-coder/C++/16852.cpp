@@ -1,0 +1,1 @@
+#include <boost/asio.hpp>\nusing namespace boost::asio;\nint main() {\n    io_service service;\n    ip::tcp::acceptor acceptor(service, ip::tcp::endpoint(ip::tcp::v4(), 8001));\n    for (;;) {\n        ip::tcp::socket socket(service);\n        acceptor.accept(socket);\n        // Handle the incoming connection...\n    }\n}

@@ -1,0 +1,1 @@
+@echo off\ncomp "file1.txt" "file2.txt" /n /l\n\nif %errorlevel% equ 0 (\n    echo The files are identical.\n) else (\n    echo The files differ.\n)

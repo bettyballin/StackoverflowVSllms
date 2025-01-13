@@ -1,0 +1,1 @@
+-vm\n/path/to/jdk/1.5/bin/java

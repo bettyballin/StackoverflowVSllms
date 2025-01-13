@@ -1,0 +1,1 @@
+protected void RefreshButton_Click(object sender, EventArgs e)\n{\n    // Simulate delay\n    System.Threading.Thread.Sleep(5000); // 5 seconds\n\n    // Update your content here if necessary\n}

@@ -1,0 +1,1 @@
+# Assuming you have a converted .sql file named `converted_script.sql`\nmysql -u your_username -p --database=your_database_name < converted_script.sql

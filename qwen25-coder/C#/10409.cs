@@ -1,0 +1,1 @@
+// This snippet is just for demonstration and won't solve the issue directly,\n// but it shows how you might identify the worker processes in IIS.\nusing System.Diagnostics;\n\nProcess[] processes = Process.GetProcessesByName("w3wp");\nforeach (Process p in processes)\n{\n    Console.WriteLine($"Found {p.ProcessName} with ID: {p.Id}");\n}

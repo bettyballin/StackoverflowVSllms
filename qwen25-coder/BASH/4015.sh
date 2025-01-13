@@ -1,0 +1,1 @@
+# In Visual Studio Development Command Prompt\n     MSBuild /t:Clean MyProject.csproj

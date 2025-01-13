@@ -1,0 +1,1 @@
+setspn -S <ServiceClass>/<HostName>:<Port> <Account>

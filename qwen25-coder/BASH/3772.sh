@@ -1,0 +1,1 @@
+# Example of setting up a synchronization tool like rsync over SSH for regular updates\n   rsync -e "ssh" /path/to/database.zip user@remote_host:/destination/path

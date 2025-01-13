@@ -1,0 +1,1 @@
+svn diff WP2.6_modified_WP > my_changes.patch

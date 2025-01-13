@@ -1,0 +1,1 @@
+# Check for differences between the master and slave\npt-table-checksum h=master_host,u=username,p=password\n\n# Resolve any detected differences on the slave\npt-table-sync --execute h=master_host,u=username,p=password h=slave_host,u=username,p=password
