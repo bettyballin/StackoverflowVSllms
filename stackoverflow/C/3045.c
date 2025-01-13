@@ -1,0 +1,1 @@
+void Hello(CFun &fun)\n{\n    cout << "hello" << endl;\n}

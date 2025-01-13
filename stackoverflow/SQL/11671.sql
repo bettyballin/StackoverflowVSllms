@@ -1,0 +1,1 @@
+-- convert UTC to local time\ncreate FUNCTION [dbo].[udfUtcToLocalTime]\n(\n    @gmt datetime\n)\nRETURNS datetime\nAS\nBEGIN\n    DECLARE @dt datetime\n    SELECT \n        @dt = dateadd(millisecond,datediff(millisecond,getutcdate(), getdate()),@gmt)\n    RETURN @dt\nEND

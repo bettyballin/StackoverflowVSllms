@@ -1,0 +1,1 @@
+<? foreach($array as $key => $val): ?>\n    <?= $val ?>\n<? endforeach; ?>

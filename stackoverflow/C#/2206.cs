@@ -1,0 +1,1 @@
+dataRow.IsNull("Amount")

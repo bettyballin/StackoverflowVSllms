@@ -1,0 +1,1 @@
+SELECT  *\nFROM    mytable\nWHERE   col1 > @value1 OR col2 < @value2

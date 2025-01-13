@@ -1,0 +1,1 @@
+var nodesIWantReturned = from m in doc.Elements("topNode").Elements("middleNode")\n              from p in m.Elements("penultimateNode")\n              from n in p.Elements("nodesIWantReturned")\n              where m.Attribute("filteringAttribute").Value == "filterValue"\n              where p.Attribute("anotherFilterAttribute").Value == "somethingElse"\n              select n;

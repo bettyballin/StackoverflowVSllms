@@ -1,0 +1,1 @@
+List<string> l = new List<string>();\n        l.Add("smtp:a");\n        l.Add("smtp:c");\n        l.Add("SMTP:b");\n\n        l.Sort(StringComparer.Ordinal);

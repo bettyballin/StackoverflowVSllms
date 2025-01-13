@@ -1,0 +1,1 @@
+$ PROJECT_DIR=`pwd`\n$ which cucumber\n/usr/local/bin/cucumber\n$ ln -s `which cucumber` cukes #required for profiler to have local file in next step\n$ ruby-prof cukes -- features/manager_overview.feature:36

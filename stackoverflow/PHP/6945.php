@@ -1,0 +1,1 @@
+$this->ModelName = ClassRegistry::init('ModelName');

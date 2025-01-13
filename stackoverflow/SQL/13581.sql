@@ -1,0 +1,1 @@
+select CORR_ID from TABLE1 where CORR_ID not in \n(select CAST( CAST(id AS CHAR(50)) AS VARCHAR(50) ) from TABLE2)

@@ -1,0 +1,1 @@
+#/usr/bin/env python\n\nimport os\nimport sys\n\npid = str(os.getpid())\npidfile = "/tmp/mydaemon.pid"\n\nif os.path.isfile(pidfile):\n    print "%s already exists, exiting" % pidfile\n    sys.exit()\nfile(pidfile, 'w').write(pid)\ntry:\n    # Do some actual work here\nfinally:\n    os.unlink(pidfile)

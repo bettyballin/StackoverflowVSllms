@@ -1,0 +1,1 @@
+IF EXISTS (SELECT * \n           FROM sys.foreign_keys \n           WHERE object_id = OBJECT_ID(N'[dbo].[FK_NAME]') \n             AND parent_object_id = OBJECT_ID(N'[dbo].[MyTable]'))\nBEGIN\n    -- do stuff\nEND

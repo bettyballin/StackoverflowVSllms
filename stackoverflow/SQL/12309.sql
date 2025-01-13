@@ -1,0 +1,1 @@
+SELECT a, b, c\nFROM table1\nWHERE (a,b,c) not in (\n    select a,b,c from table2\n)

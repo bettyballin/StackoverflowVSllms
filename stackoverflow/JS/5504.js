@@ -1,0 +1,1 @@
+function is_valid(){ //because this always returns false\n    return true;

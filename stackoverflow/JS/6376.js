@@ -1,0 +1,1 @@
+$.ajax({\n   url: "data.xml",\n   dataType: ($.browser.msie) ? "text" : "xml",\n   success: function(data){\n     var xml;\n     if (typeof data == "string") {\n       xml = new ActiveXObject("Microsoft.XMLDOM");\n       xml.async = false;\n       xml.loadXML(data);\n     } else {\n       xml = data;\n     }\n     // Returned data available in object "xml"\n   }\n }); 

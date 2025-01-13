@@ -1,0 +1,1 @@
+def area(p):\n    return 0.5 * abs(sum(x0*y1 - x1*y0\n                         for ((x0, y0), (x1, y1)) in segments(p)))\n\ndef segments(p):\n    return zip(p, p[1:] + [p[0]])

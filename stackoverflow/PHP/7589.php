@@ -1,0 +1,1 @@
+set_include_path('../library/ZendFramework-1.5.2/library/:../application/classes/:../application/classes/excpetions/:../application/forms/'); 

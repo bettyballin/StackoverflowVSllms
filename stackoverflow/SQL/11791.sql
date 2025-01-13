@@ -1,0 +1,1 @@
+select c1, c2, c3, null as c4 from table;

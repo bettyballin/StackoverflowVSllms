@@ -1,0 +1,1 @@
+var container = document.getElementById("myContainerDiv");\nvar html;\nfor(var i = 0; i < selectedRooms; i++)\n{\n    html = html + "<input type=text ... /><br />";\n}\ncontainer.innerHtml = html;

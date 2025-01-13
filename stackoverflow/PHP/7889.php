@@ -1,0 +1,1 @@
+imagedestroy($img);\nimagedestroy($tmp_img);

@@ -1,0 +1,1 @@
+string wmiQuery = string.Format("select CommandLine from Win32_Process where Name='{0}'", processName);\nManagementObjectSearcher searcher = new ManagementObjectSearcher(wmiQuery);\nManagementObjectCollection retObjectCollection = searcher.Get();\nforeach (ManagementObject retObject in retObjectCollection)\n    Console.WriteLine("[{0}]", retObject["CommandLine"]);

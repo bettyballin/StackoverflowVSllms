@@ -1,0 +1,1 @@
+SELECT sprv.value AS [Value],\n       sprv.boundary_id AS [ID]\nFROM sys.partition_functions AS spf\n     INNER JOIN sys.partition_range_values sprv \n        ON sprv.function_id=spf.function_id\nWHERE (spf.name=N'fnPartitionLast30Days')\nORDER BY [ID] ASC

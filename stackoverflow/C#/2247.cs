@@ -1,0 +1,1 @@
+<div id="divYourDiv" runat="server">\n    your stuff goes here...\n</div>\n\n//Server side code...\npublic void ShowYourDiv(bool visible)\n{\n    this.divYourDiv.Visible = visible;\n}

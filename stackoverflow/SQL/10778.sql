@@ -1,0 +1,1 @@
+SELECT Statistics.Month, Sum(([SentTo])) AS [Sum Sent], fMedian("Statistics","Month",[Month],"SentTo") AS [Median Sent]\nFROM Statistics\nGROUP BY Statistics.Month;

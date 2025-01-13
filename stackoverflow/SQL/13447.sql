@@ -1,0 +1,1 @@
+SELECT userid, count(*) as numgames\nfrom weblGames g\nwhere g.dateplayed >= now() - y\ngroup by userid\nhaving count(*) > x\n;

@@ -1,0 +1,1 @@
+$tuesday = strtotime('last Tuesday');\n// check if we need to go back in time one more week\n$tuesday = date('W', $tuesday)==date('W') ? $tuesday-7*86400 : $tuesday;

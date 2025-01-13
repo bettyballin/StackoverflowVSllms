@@ -1,0 +1,1 @@
+SELECT TOP 1 * FROM [myTable] \nWHERE Name = 'Test' and Size = 2 and PType = 'p'\nORDER BY ABS( Area - @input ) 

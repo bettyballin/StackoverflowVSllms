@@ -1,0 +1,1 @@
+<table>\n    <tr>\n        <td colspan="<?php echo $numCols; ?>">\n            <?php echo $a; ?>, <?php echo $b; ?>, and <?php echo $c?>\n        </td>\n    </tr>\n</table>

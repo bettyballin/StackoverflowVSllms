@@ -1,0 +1,1 @@
+<controls>\n  <add tagPrefix="asp" namespace="Microsoft.Web.UI" assembly="Microsoft.Web.Extensions" />\n  <add tagPrefix="asp" namespace="Microsoft.Web.UI.Controls" assembly="Microsoft.Web.Extensions" />\n      </controls>

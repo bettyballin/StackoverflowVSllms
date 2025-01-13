@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    var embedCode = '<object data="http://blip.tv/play/gYMo_vAmAA" type="application/x-shockwave-flash" height="500" width="600"><param name="src" value="http://blip.tv/play/gYMo_vAmAA"><param name="allowfullscreen" value="true"></object>'\n</script>

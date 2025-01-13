@@ -1,0 +1,1 @@
+setFunction(true)<code>) :</p>\n\n<pre>{ ? = call get_ldap_properties(?) }

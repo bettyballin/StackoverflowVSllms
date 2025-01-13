@@ -1,0 +1,1 @@
+insert into tablea (id,b,c)\n ( select tablea_seq.nextval,1,2 from dual union all\n   select tablea_seq.nextval,3,4 from dual union all\n   select tablea_seq.nextval,3,4 from dual union all\n   select tablea_seq.nextval,3,4 from dual union all\n   ...\n )

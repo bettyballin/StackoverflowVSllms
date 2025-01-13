@@ -1,0 +1,1 @@
+if (preg_match('/[^A-Z\d.]/i', $var))\n  print $var;

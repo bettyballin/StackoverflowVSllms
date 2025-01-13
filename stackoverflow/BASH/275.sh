@@ -1,0 +1,1 @@
+CasPol.exe -polchgprompt off\n\n--all the individual service calls--\nCasPol.exe -addgroup 1 -strong -file D:\deployment_location\WcfServiceHost.exe -noname -noversion FullTrust\n...\n\nCasPol.exe -polchgprompt o

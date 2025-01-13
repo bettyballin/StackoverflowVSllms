@@ -1,0 +1,1 @@
+awk '{ printf $0 } (NR % 4 == 0) { print }' filename

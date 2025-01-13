@@ -1,0 +1,1 @@
+SELECT days = datediff(dd,datefrom,dateto)\nFROM table

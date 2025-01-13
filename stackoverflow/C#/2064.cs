@@ -1,0 +1,1 @@
+var query = db.Project\n  .Where(p => p.Notes.Any(n => n.NoteField.Contains(searchString)));

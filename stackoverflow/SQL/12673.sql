@@ -1,0 +1,1 @@
+select top 10 percent * from [yourtable] order by newid()

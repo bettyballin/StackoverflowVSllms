@@ -1,0 +1,1 @@
+public enum FootScent : int\n{\nUnknown = 0,\nMild = 1,\nSweaty =2,\nSteppedInSomething = 3\n}

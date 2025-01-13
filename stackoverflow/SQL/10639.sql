@@ -1,0 +1,1 @@
+DECLARE @UserName VARCHAR(MAX)\n\nSELECT @UserName = 'John Smit'\n\nDECLARE @User TABLE(\n        UserName VARCHAR(MAX)\n)\n\nINSERT INTO @User (UserName) SELECT 'John Smit'\nINSERT INTO @User (UserName) SELECT 'John Q. Smit'\n\nSELECT  *\nFROM    @User\nWHERE   UserName LIKE REPLACE(@UserName, ' ', '%')

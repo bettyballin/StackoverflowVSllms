@@ -1,0 +1,1 @@
+var url = String.Format("https://{0}{1}", \n      Request.ServerVariables["HTTP_HOST"] ,\n      ResolveUrl("~/Login.aspx"));\n\n      Response.Redirect(url);

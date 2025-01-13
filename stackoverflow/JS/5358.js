@@ -1,0 +1,1 @@
+$($('#iframe1').contents()).scroll(function(){\n    $($('#iframe2').contents()).scrollTop($(this).scrollTop());\n}); 

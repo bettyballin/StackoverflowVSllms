@@ -1,0 +1,1 @@
+<?="ghdfdgdfg ". $rsArr[0][1];}." ----";?>\n    <? echo $rsArr[0][0]; ?>\n    <table>\n    <tr><td>Item</td><td>Amount</td></tr>\n    <?for ($x=0;$x <= $i; $x++)\n    {?>\n    <tr><td><?=$rsArr[$x][3];?></td><td><?=$rsArr[$x][2];?></td></tr>\n    <?}?>\n    </table>

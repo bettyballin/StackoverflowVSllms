@@ -1,0 +1,1 @@
+setTimeout(checkChat,2000);

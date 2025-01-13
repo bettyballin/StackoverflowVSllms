@@ -1,0 +1,1 @@
+int newAutorun = (autorun - CD_AUTORUN_DISABLED);\n                cout << "New value: " << newAutorun  << endl;\n                errorCode = RegSetValueEx(hkey, TEXT("NoDriveTypeAutoRun"), 0, dwType, (PBYTE) **&autorun**, dwSize);

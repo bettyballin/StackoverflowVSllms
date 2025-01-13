@@ -1,0 +1,1 @@
+if($statement->prepare($query))\n{\n    $statement->execute();\n    $statement->store_result();\n    echo $statement->num_rows();\n    $statement->bind_result($name);\n    $statement->fetch();\n    echo $name; \n}

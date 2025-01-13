@@ -1,0 +1,1 @@
+ALTER TABLE `mytable`\nCHANGE `mydatefield` `mydatefield`\nTIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP

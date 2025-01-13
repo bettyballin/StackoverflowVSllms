@@ -1,0 +1,1 @@
+class Users extends Zend_Db_Table_Abstract {\n  protected $_name = 'users';\n\n  // Code here\n}

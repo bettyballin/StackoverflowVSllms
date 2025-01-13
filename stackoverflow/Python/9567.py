@@ -1,0 +1,1 @@
+if any(row[key] in (None, "") for key in row):\n    # raise error

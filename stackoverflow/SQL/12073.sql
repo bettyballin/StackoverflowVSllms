@@ -1,0 +1,1 @@
+SELECT id, message\nFROM messages\nLEFT JOIN messages_read\n    ON messages_read.message_id = messages.id\n    AND messages_read.[user_id] = @user_id\nWHERE\n    messages_read.message_id IS NULL

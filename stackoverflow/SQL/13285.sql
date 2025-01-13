@@ -1,0 +1,1 @@
+SELECT bandId, COUNT(*) as fans FROM bandfriends\nORDER BY fans DESC\nGROUP BY bandId\nLIMIT 5;

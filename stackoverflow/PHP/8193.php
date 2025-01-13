@@ -1,0 +1,1 @@
+<?php\n  $_SESSION['template'] = serialize($template);\n?>

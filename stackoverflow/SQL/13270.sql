@@ -1,0 +1,1 @@
+SELECT  *\nFROM    Table\nWHERE   name ~ '^[^a-zA-Z]'

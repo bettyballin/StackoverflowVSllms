@@ -1,0 +1,1 @@
+SELECT * FROM some_table, tmp_parm_rang\n  WHERE some_table.date_column BETWEEN tmp_parm_rang.start_date AND tmp_parm_rang.end_date;

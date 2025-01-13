@@ -1,0 +1,1 @@
+#if __GNUC__ != 4\n#error\n#endif\nint main() { return 0; }

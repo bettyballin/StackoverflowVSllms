@@ -1,0 +1,1 @@
+// Customer.class.php\nfunction getByName($name) {\n    // SELECT * FROM `customer` WHERE `name` = $name\n}\n\n// ** this could instead be written as: **\n// ORM.class.php\nfunction getByField($field, $value) {\n    // SELECT * FROM `$this->table` WHERE `$field` = $value\n}

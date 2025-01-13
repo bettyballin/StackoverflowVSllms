@@ -1,0 +1,1 @@
+SELECT * FROM MyTable\nWHERE parentId = '001'\nAND childId = (SELECT MAX(childId) FROM MyTable WHERE parentId = '001')

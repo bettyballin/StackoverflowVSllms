@@ -1,0 +1,1 @@
+Dim serializer as New JavaScriptSerializer()\nDim arrayJson as String = serializer.Serialize(myArray)

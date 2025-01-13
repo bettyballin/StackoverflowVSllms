@@ -1,0 +1,1 @@
+select \n    * \nfrom \n    A \nwhere\n    (select count(*) from B where B.parent_id = A.id and B.status in (1,6)) > 0\nand (select count(*) from B where B.parent_id = A.id and B.status not in (1,6)) = 0

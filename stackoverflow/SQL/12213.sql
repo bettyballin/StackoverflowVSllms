@@ -1,0 +1,1 @@
+CREATE TABLE MyTable\n(\n    MyPK INT IDENTITY(1,1) NOT NULL,\n    MyColumn NVARCHAR(1000)\n)\n\nDECLARE @myNewPKTable TABLE (myNewPK INT)\n\nINSERT INTO \n    MyTable\n(\n    MyColumn\n)\nOUTPUT INSERTED.MyPK INTO @myNewPKTable\nSELECT\n    sysobjects.name\nFROM\n    sysobjects\n\nSELECT * FROM @myNewPKTable

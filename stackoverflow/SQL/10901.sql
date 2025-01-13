@@ -1,0 +1,1 @@
+UPDATE new_users SET First=SUBSTRING_INDEX(Name, ",", 1), Last=SUBSTRING_INDEX(Name, ",", -1)

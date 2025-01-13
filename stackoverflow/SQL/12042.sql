@@ -1,0 +1,1 @@
+SELECT\n  SalesPersonId,\n  SUM(\n    CASE CurrencyID\n      WHEN 1 THEN SaleAmount\n      ELSE 0\n    END\n  ) AS TotalCAD,\n  SUM(\n    CASE CurrencyID\n      WHEN 2 THEN SaleAmount\n      ELSE 0\n    END\n  ) AS TotalUSD\nFROM Orders\nGROUP BY SalesPersonId

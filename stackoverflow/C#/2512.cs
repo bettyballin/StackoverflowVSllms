@@ -1,0 +1,1 @@
+from o in orders\njoin iA in items on o.ID equals iA.OrderA \njoin iB in items on o.ID equals iB.OrderB\nset i = (iA == null ? iB : iA)\nselect new { Order = o, Item = i }

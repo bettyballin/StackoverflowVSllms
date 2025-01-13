@@ -1,0 +1,1 @@
+[f.group(0) for f in current_f]

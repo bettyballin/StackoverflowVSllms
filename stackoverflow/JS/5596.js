@@ -1,0 +1,1 @@
+398: imageArray.push(new Array(anchor.getAttribute('href'), anchor.getAttribute('paypalForm')));

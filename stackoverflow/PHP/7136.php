@@ -1,0 +1,1 @@
+function get_distinct_size_for_bracelets($myvalue) {\n    $sql = "SELECT DISTINCT size FROM mytable WHERE id = 27 AND type='".$myvalue."' ORDER BY size";\n}

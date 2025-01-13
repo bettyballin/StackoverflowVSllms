@@ -1,0 +1,1 @@
+SELECT username, (SUM(rating)/COUNT(*)) as TheAverage, Count(*) as TheCount\n    FROM rating\n    WHERE month='Aug'\n    GROUP BY username\n    HAVING TheCount > 1\n    ORDER BY TheAverage DESC, TheCount DESC

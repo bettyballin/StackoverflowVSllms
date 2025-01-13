@@ -1,0 +1,1 @@
+select links.linkname, groups.groupname, subgroup.subgroupname\nfrom links\n  inner join groups on (links.groupid = groups.groupid)\n  left outer join subgroup on (links.subgroupid = subgroup.subgroupid)

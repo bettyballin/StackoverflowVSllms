@@ -1,0 +1,1 @@
+ProjectNamespace.Properties.Resources.MyFile

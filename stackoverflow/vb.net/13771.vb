@@ -1,0 +1,1 @@
+Sub Test\n    Dim ds as new DataSet ("Testds")\n    Dim dt as New DataTable("Testdt")\n    'Fill Datatable code omitted\n\nDim ta as new dsTest.TestTableAdapter\n    'TableAdapter returns a datatable to ensure that the stored procedure worked\n    ta.AddDataToDB(dt,ds.GetXML)\n\n    Me.DataGridView1.DataSource=dt\n    End Sub

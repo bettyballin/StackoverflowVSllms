@@ -1,0 +1,1 @@
+path\INSTSRV.EXE your_service_name path\SRVANY.EXE

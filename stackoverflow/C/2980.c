@@ -1,0 +1,1 @@
+class Object \n{\n    virtual int compare(const Object& ) = 0;\n    float volume;\n};\n\nclass Animal : Object \n{\n    virtual int compare(const Object& );\n    float age;\n};\n\nclass Zebra  : Animal \n{\n    int compare(const Object& );\n};

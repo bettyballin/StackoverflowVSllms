@@ -1,0 +1,1 @@
+validates_uniqueness_of :task_name, :scope => :project_id

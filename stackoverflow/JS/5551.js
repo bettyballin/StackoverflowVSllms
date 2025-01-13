@@ -1,0 +1,1 @@
+onunload=parent.form.submit()? 

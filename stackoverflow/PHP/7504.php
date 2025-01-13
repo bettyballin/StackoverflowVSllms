@@ -1,0 +1,1 @@
+function exceptions_error_handler($severity, $message, $filename, $lineno) {\n  if (error_reporting() == 0) {\n    return;\n  }\n  if (error_reporting() & $severity) {\n    throw new ErrorException($message, 0, $severity, $filename, $lineno);\n  }\n}\nset_error_handler('exceptions_error_handler');

@@ -1,0 +1,1 @@
+if (LastPostDateTime > LastReadDateTime) you got an unread post.

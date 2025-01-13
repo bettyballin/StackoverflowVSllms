@@ -1,0 +1,1 @@
+Hashtable table = GetHashTable();\nvar keys = table.Keys.Cast<String>().OrderBy(x => x);

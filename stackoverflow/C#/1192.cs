@@ -1,0 +1,1 @@
+if(queue.Count > 0)\n    queue.Dequeue();

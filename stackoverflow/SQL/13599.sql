@@ -1,0 +1,1 @@
+SELECT Dept, Code, SUM(Value) sum_value FROM datatable GROUP BY Dept, Code

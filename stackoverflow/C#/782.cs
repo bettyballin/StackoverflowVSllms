@@ -1,0 +1,1 @@
+text = text.Replace("%%LINK%%", confirmUrl);\ntext = text.Replace("%%NAME%%", person.fname);\n\nhtml = html.Replace("%%LINK%%", confirmUrl);\nhtml = html.Replace("%%NAME%%", person.fname);

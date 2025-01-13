@@ -1,0 +1,1 @@
+<?php\n\n// number of arguments passed to the script\nvar_dump($argc);\n\n// the arguments as an array. first argument is always the script name\nvar_dump($argv);

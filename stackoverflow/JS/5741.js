@@ -1,0 +1,1 @@
+$("#tabs").tabs(\n        {\n            load: function(ui)\n            {\n                $("#manageallusers").hide();\n            }\n        });

@@ -1,0 +1,1 @@
+SELECT * FROM tblProducts WHERE ProductId ='$SCId' \n                                  OR (Cat ='$CatType' AND Type ='$TypeType')

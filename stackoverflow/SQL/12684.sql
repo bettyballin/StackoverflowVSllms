@@ -1,0 +1,1 @@
+SELECT distinct e0.effdate,e0.ID\n  FROM  dbo.datatable e0    LEFT OUTER JOIN dbo.datatable PREV ON       \n       PREV.ID = e0.ID \n AND  PREV.termdate = DATEADD(dy, -1, e0.Effdate)        \n  WHERE PREV.ID IS NULL   

@@ -1,0 +1,1 @@
+preg_match_all('/(\$|\£)[0-9]+(\.[0-9]{2})/', $contents, $matches);

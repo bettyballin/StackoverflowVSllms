@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="US-ASCII" ?>\n<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"\n    xmlns:char="java.lang.Character" version="1.0">\n    <xsl:output method="text" encoding="US-ASCII" />\n    <xsl:template match="/">\n        <xsl:value-of select="char:toString(1)"></xsl:value-of>\n    </xsl:template>\n</xsl:stylesheet>

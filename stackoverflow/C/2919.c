@@ -1,0 +1,1 @@
+class Line {\n    ...\n};    // put a semicolon here.

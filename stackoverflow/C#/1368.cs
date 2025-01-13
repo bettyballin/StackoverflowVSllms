@@ -1,0 +1,1 @@
+Program prog = new Program();\ntypeof(Program).InvokeMember("", null, null, prog, null);

@@ -1,0 +1,1 @@
+SELECT * FROM products \n   INNER JOIN categories ON categories.id = products.category_id \nWHERE categories.lft > 2 and categories.rgt < 11

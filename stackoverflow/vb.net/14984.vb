@@ -1,0 +1,1 @@
+Dim someNames() as string = New String(){"Han", "Luke", "Leia"}

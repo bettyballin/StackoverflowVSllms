@@ -1,0 +1,1 @@
+if (!ClientScript.IsClientScriptIncludeRegistered("externalResuorce"))\n{\n    ClientScript.RegisterClientScriptInclude("externalResuorce", \n    "scripts/myscripts.js");\n}

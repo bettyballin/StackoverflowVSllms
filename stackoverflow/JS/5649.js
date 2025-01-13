@@ -1,0 +1,1 @@
+$("input[name^=myboxes]").click(function() {\n    var element_id = $(this).attr('id');\n    //the initial starting point of the substring is based on "myboxes["\n    var ix = element_id.substring(8,element_id.length - 1)\n    alert(ix);\n});

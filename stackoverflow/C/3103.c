@@ -1,0 +1,1 @@
+Gl.glRotatef(angulo,0,1,0);

@@ -1,0 +1,1 @@
+if (!($fp = @fopen($file))) echo "Unable to retrieve file";

@@ -1,0 +1,1 @@
+select spid\n    from master..sysprocesses\n    where dbid = db_id('Works') and spid <> @@spid

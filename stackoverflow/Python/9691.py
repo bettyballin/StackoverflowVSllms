@@ -1,0 +1,1 @@
+mydll = ctypes.CDLL('...')\ndel mydll\nmydll = ctypes.CDLL('...')

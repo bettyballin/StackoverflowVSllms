@@ -1,0 +1,1 @@
+SELECT TOP 10 * FROM TBL_LMS_USERS_RECORDs_LAST_ATTEMPT\nORDER BY \n    CASE WHEN @OrderBy = 1 THEN s10_record_dow ELSE NUll END,  \n    CASE WHEN @OrderBy = 2 THEN pk_big_record_id ELSE NULL END,\n    CASE WHEN @OrderBy <> 1 AND  @OrderBy <> 2 THEN s10_record_dow \n         ELSE NULL \n    END

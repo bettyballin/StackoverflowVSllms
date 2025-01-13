@@ -1,0 +1,1 @@
+string basePath = @"c:\temp";\nstring filePath = "test.txt";\nstring combinedPath = Path.Combine(basePath, filePath); \n// produces c:\temp\test.txt

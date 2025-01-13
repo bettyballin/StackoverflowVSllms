@@ -1,0 +1,1 @@
+Container.Register(\n    Component.For<IRailsEngineContext>()\n             .UsingFactoryMethod(()=>MonoRailHttpHandler.CurrentContext)\n             .LifeStyle.Transient\n);

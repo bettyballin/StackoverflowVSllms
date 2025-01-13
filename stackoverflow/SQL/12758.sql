@@ -1,0 +1,1 @@
+DECLARE @idoc int\nDECLARE @doc varchar(max)\nSET @doc = '\n<myxml>\n<node nodeid="1" nodevalue="value 1">\n\n</node>\n\n</myxml>'\nEXEC sp_xml_preparedocument @idoc OUTPUT, @doc\nSELECT\n    *\nFROM\n    OPENXML (@idoc, '/myxml/node',1) WITH ( nodeid varchar(10), nodevalue varchar(20) )

@@ -1,0 +1,1 @@
+>>> get_session('Mmusc20090126', False, True) #doctest: +ELLIPSIS\n<sqlalchemy.orm.session.Session object at 0x...>

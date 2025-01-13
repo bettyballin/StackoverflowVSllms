@@ -1,0 +1,1 @@
+public class PackageViewModel()\n{\n    public PackageDetail{get;set;}\n    public int PackageID{get;set;}\n    public List<Package>Packages{get;set;}\n    public string SomeFilterCriteria{get;set;}\n\n    publlic void FillPackageList(IPackageService packageService)\n    {       \n        Packages = packageService.GetPackages(SomeFilterCriteria);      \n    }\n}

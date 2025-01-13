@@ -1,0 +1,1 @@
+sed -i 's/PLACEHOLDER_1/string 1/g;s/PLACEHOLDER_2/string 2/g' <file>

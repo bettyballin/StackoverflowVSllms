@@ -1,0 +1,1 @@
+def sum(*args):\n    result = 0\n    for a in args:\n        result += a\n    return result\n\nsum(1,2)\nsum(9,5,7,8)\nsum(1.7,2.3,8.9,3.4)

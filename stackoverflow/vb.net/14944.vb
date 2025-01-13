@@ -1,0 +1,1 @@
+(From _row As DataGridViewRow In dgvChanges.Rows() 

@@ -1,0 +1,1 @@
+RegisterHotKey(IntPtr hwnd, int id, int fsModifiers, int vk);

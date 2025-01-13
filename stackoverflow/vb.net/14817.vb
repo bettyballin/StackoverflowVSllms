@@ -1,0 +1,1 @@
+Private Sub LabUsersList_SelectionChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles uxLabUsersList.SelectionChanged    \n    Dim selectedComputer = Me.uxLabUsersList.SelectedRows(0).DataBoundItem\nEnd Sub

@@ -1,0 +1,1 @@
+position_update.php?var1=val1&var2=val2

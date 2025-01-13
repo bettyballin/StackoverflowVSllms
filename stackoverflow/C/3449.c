@@ -1,0 +1,1 @@
+m_font.CreatePointFont(90,"Courier New");\nm_listCtrl.SetFont(&m_font);

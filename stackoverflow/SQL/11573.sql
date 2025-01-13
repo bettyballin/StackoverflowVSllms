@@ -1,0 +1,1 @@
+SELECT u.`name`, u.`signature`, u.`rank`, COUNT(*) as numPosts\nFROM `users` u INNER JOIN `posts` p ON (u.`id` = p.`userId`)\nWHERE u.`id` IN (\n    SELECT `userId` FROM `posts` WHERE `threadId` = 5\n)\nGROUP BY u.`name`, u.`signature`, u.`rank`

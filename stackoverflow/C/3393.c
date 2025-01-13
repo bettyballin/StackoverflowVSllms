@@ -1,0 +1,1 @@
+#include <stdlib.h>\n\nstruct foo {\n    int a;\n    int b;\n} ;\n\nint func(struct foo *x, struct foo *y)\n{\n    return memcmp(x, y, sizeof (struct foo));\n}

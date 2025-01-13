@@ -1,0 +1,1 @@
+$(".leftpanel_anchor").html(); //Returns everything, including <span> tags\n$(".leftpanel_anchor").text(); //Returns only the text, minus any tags

@@ -1,0 +1,1 @@
+_root.onPress=function(){getURL("http://yes.no/");};

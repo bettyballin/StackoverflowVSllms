@@ -1,0 +1,1 @@
+"select rownum from Dog as dog where ..."

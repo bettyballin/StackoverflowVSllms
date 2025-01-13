@@ -1,0 +1,1 @@
+rpm -e --nopreun <old-package> && rpm -i <new-package>

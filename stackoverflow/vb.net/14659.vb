@@ -1,0 +1,1 @@
+travelQuery.CommandText = "SELECT [StartLoc], [EndLoc],[TravelTime], [AvgSpeed], [Distance]  FROM [TravelTimes] WHERE [TripNum] = @trip"\n    ' Assuming trip as integer\n    travelQuery.CommandParameters.Add(@trip, Convert.ToInt32(lblTrip.Text))

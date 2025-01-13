@@ -1,0 +1,1 @@
+cs2cs +proj=latlong +datum=NAD83 +to +proj=utm +zone=10  +datum=NAD27 -r <<EOF\ncs2cs -f %.16f +proj=utm +zone=20N +to +proj=latlon - | awk '{print $1 " " $2}

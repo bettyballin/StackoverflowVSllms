@@ -1,0 +1,1 @@
+update voterfile_household h, voterfile_precienct p\n   set h.PrecID = p.ID\n where p.PREC_ID = h.Precnum

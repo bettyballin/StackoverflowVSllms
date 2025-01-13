@@ -1,0 +1,1 @@
+forms.Width = Application1.Properties.Settings.Default.Width;

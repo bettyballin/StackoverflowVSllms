@@ -1,0 +1,1 @@
+count = 0;\nwhile (fgets(line, length, stream) != NULL)\n{\n    count++;\n    if ((rand() * count) / RAND_MAX == 0)\n        strcpy(keptline, line);\n}

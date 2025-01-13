@@ -1,0 +1,1 @@
+<appSettings>\n  <add key="EmailSupport" value="support@somedomain.com" />\n  <add key="EmailSales" value="sales@somedomain.com" />\n</appSettings>

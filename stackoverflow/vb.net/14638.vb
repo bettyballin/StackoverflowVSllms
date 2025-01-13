@@ -1,0 +1,1 @@
+<%  Html.BeginForm("Create", "Model", \n    FormMethod.Post, New With {.id = "CreateForm"})%>    

@@ -1,0 +1,1 @@
+Assembly fooAssembly = Assembly.Load("Foo");

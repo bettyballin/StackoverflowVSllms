@@ -1,0 +1,1 @@
+var myList = DataContext.ExecuteQuery<MyRow>(\n    "select * from myview");

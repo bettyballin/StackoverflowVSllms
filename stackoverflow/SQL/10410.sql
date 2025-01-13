@@ -1,0 +1,1 @@
+mysql> SELECT id, body, MATCH (title,body) AGAINST\n    -> ('Security implications of running MySQL as root'\n    -> IN NATURAL LANGUAGE MODE) AS score\n    -> FROM articles WHERE MATCH (title,body) AGAINST\n    -> ('Security implications of running MySQL as root'\n    -> IN NATURAL LANGUAGE MODE);

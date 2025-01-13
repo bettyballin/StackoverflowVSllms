@@ -1,0 +1,1 @@
+Debug.Print Format$(Now, "dd-mmm-yyyy")

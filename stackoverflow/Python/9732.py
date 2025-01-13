@@ -1,0 +1,1 @@
+my_book = Book.objects.get(pk=1)\nall_ingredients = Ingredient.objects.filter(recipe__book=my_book)

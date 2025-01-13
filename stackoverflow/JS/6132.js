@@ -1,0 +1,1 @@
+jQuery.post('dropdownValues.php', {parameterSentToServer1:'value', param2:'value2'}, function(data){jQuery('#mydropdown option').remove(); //Remove current options\nfor (var option in data.results){\n    jQuery('#mydropdown').append('<option value="'+option.value+'">'+option.name+'</option>');\n}}, 'json');

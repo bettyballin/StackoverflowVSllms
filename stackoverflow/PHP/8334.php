@@ -1,0 +1,1 @@
+Configure::write('App.base', '/appname/');

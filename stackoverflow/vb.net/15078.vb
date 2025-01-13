@@ -1,0 +1,1 @@
+For Each def As Type in ClassDefs\n  Dim inst = Activator.CreateInstance(def)\n  PluginsData.Add(new LoadedPluginsInfo(inst.Plugin(), False))\nNext

@@ -1,0 +1,1 @@
+Table "Role"\nRoleId, TenantId, Role\n\nTable "PagePermissions"\nPageId, RoleId\n\nTable "UserRoles"\nUserId, RoleId

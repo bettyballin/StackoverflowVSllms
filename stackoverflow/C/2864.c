@@ -1,0 +1,1 @@
+struct sockaddr_un me;\nme.sun_family = AF_UNIX;\nint result = bind(fd, (void*)&me, sizeof(short));

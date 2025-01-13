@@ -1,0 +1,1 @@
+// Instantiate myclass for the supported template type parameters\ntemplate class myclass<int>;\ntemplate class myclass<long>;

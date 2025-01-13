@@ -1,0 +1,1 @@
+Dim dt as Datatable\ndt.load(reader)

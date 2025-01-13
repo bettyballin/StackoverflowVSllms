@@ -1,0 +1,1 @@
+ALTER TABLE YourSchema.YourTable ADD CONSTRAINT CHK_YourTable_YourColumn_ValidLimits\nCHECK(YourColumn BETWEEN 1 AND 5)

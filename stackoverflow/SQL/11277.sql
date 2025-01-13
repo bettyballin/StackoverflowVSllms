@@ -1,0 +1,1 @@
+Students(\n  STU_PKEY Int Identity(1,1) Constraint PK_Students_StuPKey Primary Key,\n  STU_NAME nvarchar(64)\n)\n\nCourses(\n  CRS_PKEY Int Identity(1, 1) Constraint PK_Courses_CrsPKey Primary Key,\n  STU_KEY Int Constraint FK_Students_StuPKey Foreign Key References Students(STU_PKEY),\n  CRS_NAME nvarchar(64)\n)

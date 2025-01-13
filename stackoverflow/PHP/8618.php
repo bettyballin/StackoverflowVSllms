@@ -1,0 +1,1 @@
+$client = array_shift($CLIENT->find($options));

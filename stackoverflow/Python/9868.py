@@ -1,0 +1,1 @@
+>>> a = [3,4,5,6]\n>>> for i, val in enumerate(a):\n...     print i, val\n...\n0 3\n1 4\n2 5\n3 6\n>>>

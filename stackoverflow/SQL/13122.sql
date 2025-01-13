@@ -1,0 +1,1 @@
+select count(*)\nfrom (...slightly transformed query...) t

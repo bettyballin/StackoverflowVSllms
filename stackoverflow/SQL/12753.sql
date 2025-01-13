@@ -1,0 +1,1 @@
+SELECT CAST(DateOfBirth AS DATE), ...other columns...\n    FROM TheMysteryTable         -- Why do people hate giving tables names?\n    WHERE CAST(DateOfBirth AS DATE) =\n          CAST(TIMESTAMP '1950-01-01 10.22.06.010101120' AS DATE)

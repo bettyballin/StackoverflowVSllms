@@ -1,0 +1,1 @@
+INSERT INTO CarList ( CarColour, CarName, CarCompany)\n SELECT DISTINCT *\n FROM    NewCars n\nwhere not exists (select 1 from CarList c where c.CarColour =n.CarColour\nand c.CarName = n.CarName\nand c.CarCompany = n.CarCompany)

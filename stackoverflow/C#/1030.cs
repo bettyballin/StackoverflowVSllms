@@ -1,0 +1,1 @@
+s.ToLower().StartsWith("<div>")

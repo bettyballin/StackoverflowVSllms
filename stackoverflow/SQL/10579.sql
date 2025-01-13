@@ -1,0 +1,1 @@
+PROCEDURE select_from_schema( the_schema VARCHAR2)\nIS\n  TYPE my_cursor_type IS REF CURSOR;\n  my_cursor  my_cursor_type;\nBEGIN\n  OPEN my_cursor FOR 'SELECT my_field FROM '||the_schema||'.my_table';\n\n  -- Do your FETCHes just as with a normal cursor\n\n  CLOSE my_cursor;\nEND;

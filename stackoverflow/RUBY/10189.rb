@@ -1,0 +1,1 @@
+Nokogiri::XML.parse(string_or_io, nil, nil, Nokogiri::XML::PARSE_DTDVALID)

@@ -1,0 +1,1 @@
+filename = Environment.ExpandEnvironmentVariables(filename);

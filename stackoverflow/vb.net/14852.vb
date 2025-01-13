@@ -1,0 +1,1 @@
+' parse to pairs\n                Dim resultarray As Array = allresultdata.Split("&")\n                Dim result1 As String\n                Dim keyvals2 As Array\n                For Each result1 In resultarray\n                    keyvals2 = result1.Split()\n                    keyvals.Set(keyvals2(0), keyvals2(1))\n                Next

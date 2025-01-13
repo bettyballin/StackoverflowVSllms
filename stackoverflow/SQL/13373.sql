@@ -1,0 +1,1 @@
+--\n-- Create test case\n--\nDECLARE @myDateTime DATETIME\nSET @myDateTime = '2008-05-03'\n\n--\n-- Convert string\n--\nSELECT LEFT(CONVERT(VARCHAR, @myDateTime, 120), 10)

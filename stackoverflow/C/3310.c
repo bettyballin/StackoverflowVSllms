@@ -1,0 +1,1 @@
+fd = smbc_open(path, O_RDONLY, 0);\nsmbc_fstat(fd, &st);\n\nfor (offset = st.st_size - BUFLEN; offset > 0; offset -= BUFLEN) {\n    smbc_lseek(fd, offset, SEEK_SET);\n    smbc_read(fd, buffer, BUFLEN);\n}

@@ -1,0 +1,1 @@
+CASE case-expression\n    WHEN when-expression-1 THEN value-1\n  [ WHEN when-expression-n THEN value-n ... ]\n  [ ELSE else-value ]\nEND

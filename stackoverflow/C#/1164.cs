@@ -1,0 +1,1 @@
+System.IO.DirectoryInfo di = new System.IO.DirectoryInfo("c:\\");\nSystem.IO.FileSystemInfo[] files = di.GetFileSystemInfos();\ncheckedListBox1.Items.AddRange(files);

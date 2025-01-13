@@ -1,0 +1,1 @@
+DECLARE @test INT\nSET @test = 1\nPRINT 'test2'\nSET @test = COALESCE(@test, (SELECT COUNT(*) FROM sysobjects))\nSELECT 'test2', @test\n-- OUCH, a scan through sysobjects

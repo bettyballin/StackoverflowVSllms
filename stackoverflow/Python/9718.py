@@ -1,0 +1,1 @@
+returnValue =  ((intervalTop-intervalBottom) * (val-min) / (max-min)) + intervalBottom

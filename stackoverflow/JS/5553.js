@@ -1,0 +1,1 @@
+functioName.myVar = value

@@ -1,0 +1,1 @@
+select -1 * datediff(minute, 0, mydate) % 15\nfrom mytable

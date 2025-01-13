@@ -1,0 +1,1 @@
+foreach ($ddl as $tableDef) {\n    if (preg_match("/^CREATE\s+(?:TEMPORARY\s+)?TABLE\s+(?:IF NOT EXISTS\s+)?([^\s]+)/i", $tableDef, $matches)) {\n        $tableName = $matches[1];\n    }\n}

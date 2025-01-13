@@ -1,0 +1,1 @@
+<project name="moveproject" basedir="." default="moveDirs">\n<target name="moveDirs">\n    <move todir="${basedir}" includeEmptyDirs="yes" verbose="true">\n        <fileset dir="parentdir" >\n            <include name="**/*" />\n        </fileset>\n    </move>\n</target>\n</project>

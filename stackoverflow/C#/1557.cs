@@ -1,0 +1,1 @@
+Contract.RequiresAlways( x != null );

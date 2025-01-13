@@ -1,0 +1,1 @@
+// In the front end, returns an array of the logged in user's attributes.\n$userInfo = $modx->db->getRow(\n    $modx->db->select(\n        "*", \n        $modx->db->getFullTableName('web_user_attributes'), \n        "`internalKey`=".$modx->getLoginUserID()\n    )\n);    

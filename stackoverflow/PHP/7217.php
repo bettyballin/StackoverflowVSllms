@@ -1,0 +1,1 @@
+echo '<title><![CDATA[$title]]></title>';

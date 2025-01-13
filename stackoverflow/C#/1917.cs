@@ -1,0 +1,1 @@
+DateTime epochStart = new DateTime(1970, 1, 1);\n\n        int cdrTimestamp = 1236772829;\n\n        DateTime result = epochStart.AddSeconds(cdrTimestamp);\n\n        // Now result is 2009 March 11 12:00:29

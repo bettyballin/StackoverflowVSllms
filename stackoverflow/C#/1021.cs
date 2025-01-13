@@ -1,0 +1,1 @@
+public interface IParentNodeT<TChild, TSelf>\n    where TChild : IChildNodeT<TSelf, TChild>, INodeT<TChild>\n    where TSelf : IParentNodeT<TChild, TSelf>\n{\n    TChild childRoot { get; set; }\n}

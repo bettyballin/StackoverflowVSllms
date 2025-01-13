@@ -1,0 +1,1 @@
+<?php\n\n  // Ignore User-Requests to Abort\n  ignore_user_abort(true);\n  // Maximum Execution Time In Seconds\n  set_time_limit(30);\n\n  header("Content-Length: 0");\n  flush();\n\n  /*\n\n    Loooooooong process\n\n  */\n\n?>

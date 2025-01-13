@@ -1,0 +1,1 @@
+SELECT\n  movie.title,\n  a2.name\nFROM\n  actor AS a1\n  JOIN casting AS c1 ON (a1.id = c1.actorid)\n  JOIN movie ON (c1.movieid = movie.id)\n  JOIN casting AS c2 ON (movie.id = c2.movieid)\n  JOIN actor AS a2 ON (c2.actorid = a2.id)\nWHERE \n  a1.name = 'Julie Andrews'\n  AND c2.ord = 1

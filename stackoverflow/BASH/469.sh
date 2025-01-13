@@ -1,0 +1,1 @@
+Repository -> All Tasks -> Open Command Prompt\n\nsvnadmin create repository-name\nsvnadmin load repository-name < repository-name.dmp

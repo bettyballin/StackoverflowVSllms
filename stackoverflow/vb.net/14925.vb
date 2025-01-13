@@ -1,0 +1,1 @@
+PipeServerThread = New Thread(numberOfThreads - 1) { }

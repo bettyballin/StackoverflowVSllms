@@ -1,0 +1,1 @@
+private string parameters;\n    public new string Params\n    {\n        set { this.parameters = value; }\n        get { return this.parameters; }\n    }

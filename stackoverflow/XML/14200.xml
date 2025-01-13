@@ -1,0 +1,1 @@
+<sessionState\n       allowCustomSqlDatabase="true"\n       cookieName="yourcookiname"\n       mode="SQLServer"\n       cookieless="false"\n       sqlConnectionString="connnstringname"\n       sqlCommandTimeout="10" \n       timeout="30"/>

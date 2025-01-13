@@ -1,0 +1,1 @@
+$image = $_GET['image'];\n$number = file_get_contents('tracker_for_{$image}.txt');\nif ($number != ''){\n    $number = (int) $number + 1\n}\n$file = fopen('tracker_for_{$image}.txt', 'w');\nfwrite($file, $number);\nfclose($file);

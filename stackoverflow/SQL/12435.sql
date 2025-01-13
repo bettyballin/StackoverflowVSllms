@@ -1,0 +1,1 @@
+UPDATE table\nSET Street_Name = substring(Street_Address_1 FROM '^[0-9]+ ([a-zAZ]+) ')

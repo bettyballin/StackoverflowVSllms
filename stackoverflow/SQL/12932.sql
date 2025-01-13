@@ -1,0 +1,1 @@
+CREATE VIEW UNIFIED_CT_STAFF\nAS\nSELECT year = 2008, month = 9, unique_name, name FROM celcat200809.dbo.CT_STAFF\nUNION SELECT year = 2008, month = 10, unique_name, name FROM celcat200810.dbo.CT_STAFF

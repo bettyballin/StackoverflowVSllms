@@ -1,0 +1,1 @@
+' Location for application\nPublic Class Location\n  ...\n  Public Shared Operator Widening CType(p1 as Namespace.Of.WebService.Location) As Location\n    Dim loc = ConvertWebServiceLocationToApplicationLocation\n    return loc\n  End Operator\nEnd Class

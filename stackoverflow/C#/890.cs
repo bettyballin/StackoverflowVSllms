@@ -1,0 +1,1 @@
+ServerContext serverCtx = ServerContext.Default;\nSearchContext searchCtx = SearchContext.GetContext(serverCtx);\nContent content = new Content(searchCtx);\nConsole.WriteLine(content.DefaultGatheringAccount);

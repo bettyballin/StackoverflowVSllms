@@ -1,0 +1,1 @@
+create procedure updateColumn (pkey int, columnName varchar2, value int) as\nbegin\nexecute immediate 'update YOUR_TABLE set ' ||\n    columnName || ' = ' || TO_CHAR(value) ||\n    ' where KEY = ' || TO_CHAR(pkey);\nend;

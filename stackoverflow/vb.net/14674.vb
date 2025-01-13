@@ -1,0 +1,1 @@
+On Error Resume Next\nWScript.Echo objExcel.ComAddIns.Count\nIf Err And Err.Number = 1004 Then\n    WScript.Echo "No add-ins"\nEnd If\nOn Error GoTo 0

@@ -1,0 +1,1 @@
+create index videotags_tag_id on videotags(tag_id);

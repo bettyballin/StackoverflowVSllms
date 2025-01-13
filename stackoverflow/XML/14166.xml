@@ -1,0 +1,1 @@
+<configuration>\n  <system.net>\n    <mailSettings>\n      <smtp from="example@domain.example" deliveryMethod="Network">\n          <network host="smtp.gmail.com" port="587"\n              userName="example@domain.example" password="password"/>\n      </smtp>\n    </mailSettings>\n  </system.net>\n</configuration>

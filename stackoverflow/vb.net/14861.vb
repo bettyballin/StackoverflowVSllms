@@ -1,0 +1,1 @@
+Scripting.Dictionary d = new Scripting.DictionaryClass();\nd.Add( ref myKey, ref myValue );\nMyComType.Method( d );

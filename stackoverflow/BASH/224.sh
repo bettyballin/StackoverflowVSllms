@@ -1,0 +1,1 @@
+safe_mysqld --user=mysql --skip-grant-tables --skip-networking

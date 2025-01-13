@@ -1,0 +1,1 @@
+$db = mysql_query("UPDATE `tbl_intmsg` SET `time` = '".$dt."', `by` = '".$by."', `content` = '".$content."'");  

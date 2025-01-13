@@ -1,0 +1,1 @@
+select modeldescription, count(modeldescription) \nfrom products \ngroup by modeldescription\norder by 2 desc

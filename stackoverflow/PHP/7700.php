@@ -1,0 +1,1 @@
+<?php \n$people = array('derek','joel','jeff');\n$people[0] = 'martin'; // all your logic goes here\ninclude 'templates/people.php';\n?>

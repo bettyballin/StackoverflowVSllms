@@ -1,0 +1,1 @@
+select cur.id, cur.signal, cur.station, cur.ownerid\nfrom yourtable cur\nwhere not exists (\n    select * \n    from yourtable high \n    where high.id = cur.id \n    and high.signal > cur.signal\n)

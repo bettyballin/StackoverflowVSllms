@@ -1,0 +1,1 @@
+$characters = 'abcdefghijklmnopqrstuvwxyz0123456789';

@@ -1,0 +1,1 @@
+function pageLoad(sender, args){\n  Type.registerNamespace("Awesome");\n\n  Awesome.Widget = function() {\n     var _this = this;\n\n     this.myProperty = 'This is awesome';\n  }\n}

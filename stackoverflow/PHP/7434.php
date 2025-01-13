@@ -1,0 +1,1 @@
+try {\n    $rs = $db->prepare('SELECT * FROM foo');\n    $rs->execute();\n    $foo = $rs->fetchAll();\n} catch (Exception $e) {\n    die("Oh noes! There's an error in the query!");\n}

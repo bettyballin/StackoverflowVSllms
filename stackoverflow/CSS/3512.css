@@ -1,0 +1,1 @@
+#header {\n  position: relative;\n  min-height: 150px;\n}\n\n#header-content {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n}\n\n#header, #header * {\n  background: rgba(40, 40, 100, 0.25);\n}

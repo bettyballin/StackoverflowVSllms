@@ -1,0 +1,1 @@
+<?php ob_start(); ?>\n<xml/>\n<?php $xml = ob_get_clean(); ?>\n<input value="<?php echo $xml ?>" />͏͏͏͏͏͏

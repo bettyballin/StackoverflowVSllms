@@ -1,0 +1,1 @@
+String output = String.Join(" ", myStrings);

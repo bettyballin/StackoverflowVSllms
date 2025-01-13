@@ -1,0 +1,1 @@
+$rows = getRowsByProductSearch($query, $table, $max);\n$numRows = mysql_num_rows($rows);

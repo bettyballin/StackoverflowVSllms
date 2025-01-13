@@ -1,0 +1,1 @@
+<?php\n\n// assumes *nix style newlines\necho str_replace( "\n", "\\n", $jsCode );

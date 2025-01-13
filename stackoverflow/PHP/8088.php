@@ -1,0 +1,1 @@
+<?php\nheader ("Content-type: image/png");\n$im = @imagecreatetruecolor(120, 20)\n      or die("Cannot Initialize new GD image stream");\n$text_color = imagecolorallocate($im, 233, 14, 91);\nimagestring($im, 1, 5, 5,  "A Simple Text String", $text_color);\nimagepng($im);\nimagedestroy($im);\n?>

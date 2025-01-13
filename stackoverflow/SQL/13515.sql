@@ -1,0 +1,1 @@
+select * from some_user.the_table;

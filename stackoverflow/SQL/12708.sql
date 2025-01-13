@@ -1,0 +1,1 @@
+select 'TableName:X' from sysibm.sysdummy1;

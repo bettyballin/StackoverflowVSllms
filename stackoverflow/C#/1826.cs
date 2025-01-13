@@ -1,0 +1,1 @@
+private static void findMyString(string str)\n{\n    List<string> list = new List<string> {"Box", "Gate", "Car"};\n    int boxId = list.FindIndex(s => s == str);\n}

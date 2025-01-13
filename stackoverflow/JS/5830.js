@@ -1,0 +1,1 @@
+function disableButton(){\n     $('#the-button').attr('disabled', 'disabled');\n     whatToDoWhenDisabled();\n}\n\nfunction whatToDoWhenDisabled(){\n     Do whatever it is you do;\n}

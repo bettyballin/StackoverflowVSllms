@@ -1,0 +1,1 @@
+create or replace function my_func (p_pxobjclass in varchar2)\nreturn my_obj_table pipelined\nis \nbegin\n  for r_curl in (select pyid,pxinsname,pzinskey \n                 from   pc_work\n                 where  pxobjclass = p_pxobjclass) loop\n    pipe row (my_object(r_curl.pyid,r_curl.pxinsname,r_curl.pzinskey));          \n  end loop;\n  return; \nend; 

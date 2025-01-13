@@ -1,0 +1,1 @@
+$this->db->select('movies.id, \n                   movies.title, \n                   movies.year, \n                   movies.runtime as totaltime,  \n                   posters.poster_url');\n$this->db->from('movies');\n$this->db->join('posters', 'movies.id= posters.id');\n$this->db->where('movies.id', $id);\n$q = $this->db->get();

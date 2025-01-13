@@ -1,0 +1,1 @@
+SELECT StatisticID, COUNT(*) AS CountVotes\nFROM `Votes`\nGROUP BY Statistics.StatisticsID

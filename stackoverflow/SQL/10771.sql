@@ -1,0 +1,1 @@
+SELECT gp_id\nFROM gp.keywords\nWHERE keyword_id = 15\n    AND (SELECT practice_link FROM gp.practices WHERE practice_link IS NOT NULL AND id = gp_id)

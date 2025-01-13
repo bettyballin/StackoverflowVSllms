@@ -1,0 +1,1 @@
+$('#input-field-id').val($('#input-field-id').val() + 'more text');

@@ -1,0 +1,1 @@
+virtual System::Collections::IEnumerator^ GetEnumerator2() = System::Collections::IEnumerable::GetEnumerator\n{ throw gcnew NotImplementedException(); }\n\nvirtual IEnumerator<CustomItem>^ GetEnumerator()\n{ throw gcnew NotImplementedException(); }

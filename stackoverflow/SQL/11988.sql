@@ -1,0 +1,1 @@
+DECLARE @Names varchar(1000)\nSELECT @Names = COALESCE(@Names + ', ', '') + Name\nFROM Employees

@@ -1,0 +1,1 @@
+SELECT * FROM table \nWHERE ((@status_id is null) or (status_id = @status_id))\nand ((@date is null) or ([date] = @date))\nand ((@other_parameter is null) or (other_parameter = @other_parameter))

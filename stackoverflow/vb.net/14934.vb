@@ -1,0 +1,1 @@
+ClientScript.RegisterStartupScript(Page.GetType(), "ModalPopup", "Sys.Application.add_load(function() {ShowAddModalPopup(""" & Me.imgAdd.ID & """)});", True)\n                btnCancel.OnClientClick = "resetDefaultValue();__doPostBack('" & btnCancel.ID & "','onclick')"

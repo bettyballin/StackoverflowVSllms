@@ -1,0 +1,1 @@
+SELECT id, \n   client,\n   project,\n   task,\n   description, \n   time,\n   date  \n  INTO OUTFILE '/path/to/file.csv'\n  FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'\n  LINES TERMINATED BY '\n'\n  FROM ts

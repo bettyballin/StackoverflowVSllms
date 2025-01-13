@@ -1,0 +1,1 @@
+select 'truncate table ' || table_name || ';' from user_tables

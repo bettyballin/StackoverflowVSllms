@@ -1,0 +1,1 @@
+public function testglobalAction()\n{\n    global $a;\n    $a = 1;\n    function b()\n    {\n        global $a;\n        echo $a*2;\n    }\n\n    b();\n}

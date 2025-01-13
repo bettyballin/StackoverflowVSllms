@@ -1,0 +1,1 @@
+select\n    t.*\nfrom\n    team t\n    inner join schedule s on t.schedule_id = s.schedule_id\n    inner join event e on s.event_id = e.event_id\n    left outer join signup sp on t.team_id = sp.team_id\nwhere\n    e.event_id = 183\n    and sp.team_id is null

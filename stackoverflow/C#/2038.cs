@@ -1,0 +1,1 @@
+OracleGlobalization info = conn.GetSessionInfo();\ninfo.TimeZone = "Pacific/Auckland";\ninfo.TimeStampFormat = "DD-MON-YYYY HH:MI:SS.FF AM";\ninfo.TimeStampTZFormat = "DD-MON-YYYY HH:MI:SS.FF AM TZR";\nconn.SetSessionInfo(info);

@@ -1,0 +1,1 @@
+class myGlobals {\n\n   static $myVariable;\n\n}\n\nfunction a() {\n\n  print myGlobals::$myVariable;\n\n}

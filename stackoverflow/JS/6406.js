@@ -1,0 +1,1 @@
+document.getElementById("in1").setAttribute("name", "submit_content");

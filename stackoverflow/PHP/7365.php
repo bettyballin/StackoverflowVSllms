@@ -1,0 +1,1 @@
+<body <?php if (!include_slot('body_id')): ?>id="default"<?php endif; ?>>

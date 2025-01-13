@@ -1,0 +1,1 @@
+function AddToBasket(){\n    if(is_numeric($_GET["ID"])){\n        $ProductID=(int)$_GET["ID"];\n        $_SESSION["Basket"][]=$ProductID;\n        $sOut.=ShowBasketDetail();\n        return $sOut; \n    }\n}

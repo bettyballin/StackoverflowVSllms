@@ -1,0 +1,1 @@
+if (isset($_REQUEST['FromAjax']) ) {\n    echo $content;\n} else {\n    include_once 'about-header.php';\n    echo $content;  \n    include_once 'about-footer.php';\n}

@@ -1,0 +1,1 @@
+// Initialize the variable, so we always get an array in this variable without worrying about other code.\n$var = array();\n\nif(some_weird_condition){\n  $var = array(1, 2, 3);\n}\n\n// Will work every time.\nforeach($var as $key => $value){\n}

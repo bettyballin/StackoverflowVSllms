@@ -1,0 +1,1 @@
+Response.Cookies["TemplateName"].Value = "";\n\nResponse.Cookies["TemplateName"].Expires = DateTime.Now;

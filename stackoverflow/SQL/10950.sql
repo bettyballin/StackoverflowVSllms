@@ -1,0 +1,1 @@
+ALTER TABLE <table name> ALTER COLUMN <column name> RESTART WITH <new value>;

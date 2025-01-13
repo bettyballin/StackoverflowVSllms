@@ -1,0 +1,1 @@
+INSERT INTO @ids (id)\nSELECT id FROM (\n    SELECT id, RANK() OVER (PARTITION BY clientid ORDER BY id) AS Rank FROM tRealtyTrac\n) t\nWHERE t.Rank <= 1000

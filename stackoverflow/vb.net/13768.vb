@@ -1,0 +1,1 @@
+parts.ForEach(AddressOf TestMethod)

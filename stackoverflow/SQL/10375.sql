@@ -1,0 +1,1 @@
+Team_Id\nPosition_Code\nMember_Id\nStart_Date\nEnd_Date NULLABLE

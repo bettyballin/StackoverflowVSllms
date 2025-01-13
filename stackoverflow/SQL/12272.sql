@@ -1,0 +1,1 @@
+select firstname.uid, fistname.value, lastname.value\nfrom \n  profile_values firstname\n  inner join profile_values lastname \n    on firstname.uid = lastname.uid\nWHERE\n  firstname.fid = 1\n  AND lastname.fid = 11\n  AND fistname.value like 'S%'\n  AND lastname.value like 'D%'

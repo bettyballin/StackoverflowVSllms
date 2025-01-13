@@ -1,0 +1,1 @@
+if( ini_get('safe_mode') ){\n    print "safe mode on\n";\n}else{\n    print "safe mode off\n";\n}

@@ -1,0 +1,1 @@
+residual[i] =   (computed_x[i] - actual_x[i])^2\n              + (computed_y[i] - actual_y[i])^2

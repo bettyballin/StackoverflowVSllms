@@ -1,0 +1,1 @@
+SELECT COUNT(someField) FROM table1 WHERE someField = theField

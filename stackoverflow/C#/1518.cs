@@ -1,0 +1,1 @@
+public class LongUploadTask\n{\n  private bool isRunning;\n\n\n  public void Execute()\n  {\n    if(!isRunning)\n    {\n       //etc...\n    }\n  }\n}

@@ -1,0 +1,1 @@
+foreach($countA as $id => $count)\n{\n    $newArray[$nameA[$id]] = $count;\n}

@@ -1,0 +1,1 @@
+sys.database_permissions

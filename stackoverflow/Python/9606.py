@@ -1,0 +1,1 @@
+import lxml.html\nt = lxml.html.fromstring("...")\nt.text_content()

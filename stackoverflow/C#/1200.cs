@@ -1,0 +1,1 @@
+DateTime dt = something; //Get from db\n\nTimeSpan ts = dt - new DateTime(1,1,1970); // off the top of my head, check order of params\n\nlong ticks = ts.TotalTicks; // again off the top of my head, check property name

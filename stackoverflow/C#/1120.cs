@@ -1,0 +1,1 @@
+var authentication = _mocks.DynamicMock<IAuthentication>();\nExpect.Call(() => authentication.SetAuthCookie(null, null)).IgnoreArguments();

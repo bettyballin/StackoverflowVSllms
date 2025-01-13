@@ -1,0 +1,1 @@
+define("CLI", !isset($_SERVER['HTTP_USER_AGENT']));

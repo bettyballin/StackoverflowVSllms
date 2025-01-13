@@ -1,0 +1,1 @@
+class Helper {\n    /* ... */\n    function load($file) {\n      include_once($file);\n    }\n    function __call($functionName, $args) {\n       if(function_exists($functionName))  \n         return call_user_func_array($functionName, $args);\n    }\n\n}

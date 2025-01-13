@@ -1,0 +1,1 @@
+WITH \n    cte1 as (SELECT * from cdr.Location),\n    cte2 as (SELECT * from cdr.Location)\nselect * from cte1 union select * from cte2

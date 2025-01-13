@@ -1,0 +1,1 @@
+set define on\nset escape on\n\ndefine myvar=/forth\n\nselect 'back\\ \& &myvar' as swing from dual;

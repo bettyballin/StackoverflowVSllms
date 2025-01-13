@@ -1,0 +1,1 @@
+class TestController < ApplicationController\n  def index\n    render :text => lambda { |resp, out|\n      out.puts 'start'\n      out.flush\n      10.times do\n        out.puts '.'\n        out.flush\n        sleep 1\n      end\n      out.puts 'done'\n    }\n  end\nend

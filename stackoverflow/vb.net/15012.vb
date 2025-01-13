@@ -1,0 +1,1 @@
+Private Sub btnPlus_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click\n\n    Dim i as Integer\n    If Integer.TryParse(txtAdd.Text, i) Then\n        i += 1\n        txtAdd.Text = i.ToString()\n    End If\n\nEnd Sub

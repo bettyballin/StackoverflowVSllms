@@ -1,0 +1,1 @@
+SELECT o2.name\nFROM sysobjects o\nINNER JOIN sysforeignkeys fk on o.id = fk.rkeyid\nINNER JOIN sysobjects o2 on fk.fkeyid = o2.id\nWHERE o.name = 'foo'

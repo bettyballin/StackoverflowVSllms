@@ -1,0 +1,1 @@
+join("/", array_slice(explode("/", $path), 5));

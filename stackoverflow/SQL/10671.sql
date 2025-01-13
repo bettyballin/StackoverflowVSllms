@@ -1,0 +1,1 @@
+alter table student_info rename to student_name

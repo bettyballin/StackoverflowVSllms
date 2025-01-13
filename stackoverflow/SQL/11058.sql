@@ -1,0 +1,1 @@
+-- SQL Server Syntax  \nDROP DATABASE [ IF EXISTS ] { database_name | database_snapshot_name } [ ,...n ] [;]

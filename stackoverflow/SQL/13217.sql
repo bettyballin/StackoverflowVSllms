@@ -1,0 +1,1 @@
+SUBSTRING(str_col, PATINDEX('%[^0]%', str_col+'.'), LEN(str_col))

@@ -1,0 +1,1 @@
+public function name($val = null)\n{\n  if (is_null($val))\n  {\n    return $this->name;\n  }\n  else\n  {\n    $this->name = $val;\n  }\n}

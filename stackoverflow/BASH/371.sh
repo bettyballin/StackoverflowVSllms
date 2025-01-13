@@ -1,0 +1,1 @@
+ldapsearch -H ldap://ldap.mydomain.com -x -s base -b "" +\n# note the + returns operational attributes

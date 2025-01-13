@@ -1,0 +1,1 @@
+Job.objects.filter(location__big_city__city='San-Fran', location__big_city__state='Calif', location__big_city__country='USA')

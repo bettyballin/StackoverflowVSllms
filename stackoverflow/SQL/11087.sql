@@ -1,0 +1,1 @@
+set now = select max(dtg) from table;\nset then = select max(dtg) from table where dtg < now;\n\nselect locID, old.temp-new.temp from \n      table as old join\n      table as new \n      on old.locId = new.locID\nwhere\n      old.dtg = then and\n      new.dtg = now;

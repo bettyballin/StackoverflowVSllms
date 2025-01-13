@@ -1,0 +1,1 @@
+Select field1, field2 from mytable mt\nleft join mytable2 mt2 on mt.id = m2.id\nwhere mt1.field1 = 'hello' and mt2.field2 = 'test'

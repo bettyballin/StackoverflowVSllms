@@ -1,0 +1,1 @@
+[DllImport EntryPoint="func" CharSet=CharSet.Auto, SetLastError=true]\npublic extern static void Func(byte[]);\n\nbyte[] ar = new byte[1000];\nFunc(ar);

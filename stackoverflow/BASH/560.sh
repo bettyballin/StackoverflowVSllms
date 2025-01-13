@@ -1,0 +1,1 @@
+msiexec /i MyProxy.msi /l*v ProxySetup.log

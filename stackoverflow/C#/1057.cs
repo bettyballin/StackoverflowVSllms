@@ -1,0 +1,1 @@
+public B() : this(null) { }

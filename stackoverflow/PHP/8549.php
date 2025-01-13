@@ -1,0 +1,1 @@
+$file = "/path/to/file";\n$data = file($file);\n$line = $data[count($data)-1];

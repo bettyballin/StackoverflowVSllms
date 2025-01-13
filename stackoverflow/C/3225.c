@@ -1,0 +1,1 @@
+//Untested, but something like...\nTRegistry *reg = new TRegistry;\nreg->RootKey = HKEY_CURRENT_USER; // Or whatever root you want to use\nreg->OpenKey("theKey",true);\nreg->ReadString("theParam",defaultValue);\nreg->CloseKey();

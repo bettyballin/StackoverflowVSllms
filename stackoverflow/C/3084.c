@@ -1,0 +1,1 @@
+int *sieve = malloc(2000000 * sizeof(*sieve));

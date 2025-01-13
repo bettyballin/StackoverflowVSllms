@@ -1,0 +1,1 @@
+\nSELECT inv_t.product_id, inventory_total-nvl(sales_total,0)\nFROM \n  (SELECT product_id, sum(quantity) as inventory_total\n   FROM inventory\n   GROUP BY product_id) inv_t LEFT OUTER JOIN\n  (SELECT product_id, count(*) AS sales_total \n   FROM sales \n   GROUP BY product_id) sale_t\n  ON (inv_t.product_id = sale_t.product_id)

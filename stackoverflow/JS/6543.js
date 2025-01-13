@@ -1,0 +1,1 @@
+$.ajax({\n    url: 'document.xml',\n    type: 'GET',\n    dataType: 'xml',\n    timeout: 1000,\n    error: function(){\n        alert('Error loading XML document');\n    },\n    success: function(xml){\n        // do something with xml\n    }\n});

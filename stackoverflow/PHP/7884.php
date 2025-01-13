@@ -1,0 +1,1 @@
+<?php\n\nprintHeader(); // outputs the html header\ntry\n{\n    if (some condition)\n    {\n        throw new Exception("It Died...");\n    }\n    // More processing here that should not execute if the above condition is true\n    // ...\n}\ncatch (Exception e)\n{\n    echo $e->getMessage();\n}\nprintFooter(); // outputs the html footer\n\n?>

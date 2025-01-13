@@ -1,0 +1,1 @@
+$st = $db->prepare("SELECT * FROM table WHERE name LIKE ?");\n$st->execute(array('%'.$test_string.'%'));

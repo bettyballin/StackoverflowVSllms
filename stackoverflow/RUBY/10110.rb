@@ -1,0 +1,1 @@
+app = MyApp.new\n   if not defined?(Ocra)\n     app.main_loop\n   end

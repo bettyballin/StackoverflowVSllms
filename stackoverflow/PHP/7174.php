@@ -1,0 +1,1 @@
+<?php\n\n$data = fopen('data://mime/type;encoding,' . $binaryData);\n\nfseek($data, 128);\n?>

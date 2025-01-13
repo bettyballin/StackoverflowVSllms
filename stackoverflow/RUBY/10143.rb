@@ -1,0 +1,1 @@
+class Album << ActiveRecord::Base\n  has_many :albums_features\n  has_many :features, :through => :albums_features\nend\n\nclass AlbumsFeature << ActiveRecord::Base\n  belongs_to :album\n  belongs_to :feature\nend\n\nclass Feature << ActiveRecord::Base\n  has_many :albums_features\n  has_many :albums, :through => :albums_features\nend

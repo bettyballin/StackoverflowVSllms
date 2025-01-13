@@ -1,0 +1,1 @@
+cfg.AddInputStream(assembly.GetManifestResourceStream("MyNamespace.MyEmbeddedresource.hbm.xml"));

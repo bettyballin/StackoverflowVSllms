@@ -1,0 +1,1 @@
+for (int i = 0; i < lbSrc.Items.Count; i++)\n{\n    if (lbSrc.Items[i].Selected == true)\n    {\n        lbSrc.Items.RemoveAt(lbSrc.SelectedIndex);\n    }\n}

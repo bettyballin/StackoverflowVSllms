@@ -1,0 +1,1 @@
+sqry = "SELECT emp_no, emp_fname+' '+emp_lname as emp_fullname FROM employee"\nsqcom = New SqlCommand(sqry, sqcon)\nda.SelectCommand = sqcom\n\nds.Clear()\nda.Fill(ds)\nddl_adv.DataSource = ds\nddl_adv.DataTextField = "emp_fullname"\nddl_adv.DataValueField = "emp_no"\n\nddl_adv.DataBind()\nsqcon.Close()

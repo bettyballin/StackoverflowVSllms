@@ -1,0 +1,1 @@
+ISNULL(FirstName, '<BlankValue>') -- In SQL Server\nIFNULL(Firstname, '<BlankValue>') -- In MySQL

@@ -1,0 +1,1 @@
+$name = new Zend_Form_Element_Text('name');\n$name->setLabel('Full Name: ')\n     ->setRequired(true)\n     ->addFilter('StripTags')\n     ->addFilter('StringTrim')\n     ->addValidator($MyNotEmpty);

@@ -1,0 +1,1 @@
+Dim result As String = DateTime.ParseExact("24/5/2009 3:40:00 AM",\n                                    "d/M/yyyy h:mm:ss tt",\n                                     CultureInfo.InvariantCulture)\n                               .ToString("M/d/yyyy h:mm:ss tt")

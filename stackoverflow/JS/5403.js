@@ -1,0 +1,1 @@
+document.elementFromPoint(x, y)\ndocument.elementsFromPoint(x, y)

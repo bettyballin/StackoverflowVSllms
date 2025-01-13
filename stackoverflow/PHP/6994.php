@@ -1,0 +1,1 @@
+function MinSecToSeconds($minsec)\n{\n    if (preg_match('/^(\d+):(\d+)$/', $minsec, $matches))\n    {\n        return $matches[1]*60 + $matches[2];\n    }\n    else\n    {\n        trigger_error("MinSecToSeconds: Bad time format $minsec", E_USER_ERROR);\n        return 0;\n    }\n}

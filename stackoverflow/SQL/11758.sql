@@ -1,0 +1,1 @@
+select synonym from table where word in (select distinct word from table)

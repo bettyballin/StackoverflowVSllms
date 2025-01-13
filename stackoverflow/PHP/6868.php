@@ -1,0 +1,1 @@
+$str = strtolower( \n  preg_replace( array('/[^a-z0-9\- ]/i', '/[ \-]+/'), array('', '-'), \n  $urlPart ) );

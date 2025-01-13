@@ -1,0 +1,1 @@
+WITH    q AS (\n        SELECT  m.*, ROW_NUMBER() OVER (ORDER BY column) AS rn\n        FROM    mytable m\n        )\nUPDATE  q\nSET     mycol = 'newvalue'\nWHERE   rn = @Y

@@ -1,0 +1,1 @@
+$filetype = mime_content_type($filename);\nheader('Content-type: '.$filetype);\nheader('Content-Disposition: attachment; filename="'.$filename.'"');

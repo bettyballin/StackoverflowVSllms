@@ -1,0 +1,1 @@
+dim productID as string\nfor each productID  in Page.Request.QueryString.GetValues("ProductID")\n  ' do something with productID\nnext productID  

@@ -1,0 +1,1 @@
+Dim factory As System.Data.Common.DbProviderFactory\nfactory = System.Data.Common.DbProviderFactories.GetFactory("System.Data.SqlClient")\n\nDim conn As System.Data.Common.DbConnection = factory.CreateConnection()\nconn.ConnectionString = "connectionString"\nconn.Open()

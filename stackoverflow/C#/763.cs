@@ -1,0 +1,1 @@
+\nNetworkStream ns;\nSystem.Net.Sockets.TcpClient client = new TcpClient();\n\nbyte[] receiveBytes = new byte[client.ReceiveBufferSize];\nint bytesRead = ns.Read(receiveBytes, 0, receiveBytes.Length);\nString returndata = Encoding.UTF8.GetString(receiveBytes,0,bytesRead);\nreturndata = returndata.Trim(new char[] {'\0'});

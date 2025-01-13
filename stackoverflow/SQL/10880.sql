@@ -1,0 +1,1 @@
+SELECT tbl.A, Concatenate("SELECT B  FROM tbl\n        WHERE A = " & [A]) AS ConcA\nFROM tbl\nGROUP BY tbl.A

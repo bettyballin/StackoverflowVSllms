@@ -1,0 +1,1 @@
+Dim DBConn as New OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\MyDBFile.mdb;")

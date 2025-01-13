@@ -1,0 +1,1 @@
+$user = AdvertiserProxy->CreateAdvertiser ( \n   array (\n      'advertiser' => array (\n         'Name' => 'Advertiser Name',\n         'IndustryCodeList' => array (\n            'Agency',\n            'Fortune 500'\n         )\n      )\n   )\n);

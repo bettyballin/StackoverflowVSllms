@@ -1,0 +1,1 @@
+Dim input As String = "##RES00012## Some value ##RES00034## Another value"\nDim parts As String() = input.Split(New String() {"##RES"}, StringSplitOptions.RemoveEmptyEntries)

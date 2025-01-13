@@ -1,0 +1,1 @@
+SELECT *\nFROM report_1 r1 \nFULL OUTER JOIN report_2 r2 \n    ON r1.SAMAccountName = r2.SAMAccountName\n    OR r1.NetbiosName = r2.NetbiosName\n    OR r1.DisplayName = r2.DisplayName\nWHERE r2.NetbiosName IS NULL OR r1.NetbiosName IS NULL

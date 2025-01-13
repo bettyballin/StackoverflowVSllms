@@ -1,0 +1,1 @@
+ini_set('include_path', 'yourdir');

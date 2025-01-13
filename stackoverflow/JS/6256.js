@@ -1,0 +1,1 @@
+$.getJSON('http://'+location.host+'/'+slug+'.json', function(data) {\n    $('#main').fadeOut('slow',function(){\n    title.html(data.name);\n    content.html(data.content);\n    $('#main').fadeIn('slow');\n    });\n  });

@@ -1,0 +1,1 @@
+having sum(order.value) <> 0

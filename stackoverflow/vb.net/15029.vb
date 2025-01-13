@@ -1,0 +1,1 @@
+If MyNullableDateObject.HasValue Then\n   TextValue = FormatDateTime(MyNullableDateObject.Value)\nElse\n   TextValue = "nada"\nEnd If

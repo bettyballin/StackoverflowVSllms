@@ -1,0 +1,1 @@
+select  *\nfrom    Table1\n        inner join\n        Table2\n        on Table1.ColumnName = Table2.ColumnName

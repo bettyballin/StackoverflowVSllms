@@ -1,0 +1,1 @@
+class myclass : boost::noncopyable {\n ...\n};

@@ -1,0 +1,1 @@
+SELECT \n  Student_ID\n, MAX(Grade) AS maxGrade\nFROM table_name\nGROUP BY Student_ID\nHAVING maxGrade > MINIMUM_GRADE_NEEDED

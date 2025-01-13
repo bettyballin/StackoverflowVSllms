@@ -1,0 +1,1 @@
+map.connect 'identity/:id', :controller => "identity", \n                            :action => "foo", \n                            :requirements => {:id => /(\w+\.?)+/}

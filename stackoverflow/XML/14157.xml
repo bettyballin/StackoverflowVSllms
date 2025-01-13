@@ -1,0 +1,1 @@
+<endpointBehaviors>\n  <behavior name="jsonBehavior">\n    <enableWebScript/>\n  </behavior>\n</endpointBehaviors>

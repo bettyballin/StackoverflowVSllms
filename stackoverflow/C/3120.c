@@ -1,0 +1,1 @@
+outfile << putchar(33 + rand() % 94);

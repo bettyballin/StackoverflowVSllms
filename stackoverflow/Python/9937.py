@@ -1,0 +1,1 @@
+for a, b, c in data:\n    print(repr(a)+' '+repr(b)+' '+repr(c))

@@ -1,0 +1,1 @@
+UPDATE message\nSET    user_id = ...\nWHERE  user_id = 0   -- Ensures no two users gets the same message\nLIMIT 1

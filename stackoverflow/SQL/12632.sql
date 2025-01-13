@@ -1,0 +1,1 @@
+select string_agg(value, ', ')\nfrom simpleTable

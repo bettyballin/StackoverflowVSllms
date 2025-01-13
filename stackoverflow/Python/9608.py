@@ -1,0 +1,1 @@
+if abs(check.r - search.r) < threshold and\n   abs(check.g - search.g) < threshold and\n   abs(check.b - search.b) < threshold 

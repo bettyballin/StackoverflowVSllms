@@ -1,0 +1,1 @@
+public JsonResult CheckUserName(string username)\n{\n    return Json(CheckValidUsername(username));\n}

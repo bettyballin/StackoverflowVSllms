@@ -1,0 +1,1 @@
+TcpClient _tcpClient = new TcpClient("host", 110);\n\nStreamReader reader = \n   new StreamReader(new System.Net.Security.SslStream(_tcpClient.GetStream(), true));\n\nConsole.WriteLine(reader.ReadToEnd());

@@ -1,0 +1,1 @@
+using (SqlConnection conn = new SqlConnection("Connection String Goes Here"))\n{\n    conn.Open();\n    using (SqlCommand comm = new SqlCommand("SELECT * FROM TABLE", conn))\n    {\n        return command.ExecuteScalar() as string;\n    }\n}

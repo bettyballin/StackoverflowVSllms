@@ -1,0 +1,1 @@
+Code Description                Acts On Level\n---------------------------------------------\nC    Check on a table           Column\nO    Read Only on a view        Object\nP    Primary Key                Object\nR    Referential (Foreign Key)  Column\nU    Unique Key                 Column\nV    Check Option on a view     Object

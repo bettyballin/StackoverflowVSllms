@@ -1,0 +1,1 @@
+select concat(YEAR(date), '-', MONTH(date)) as month, count(*) as num \nfrom ab_post \nwhere user_id = 1 \ngroup by YEAR(date), MONTH(date) \norder by YEAR(date) desc, MONTH(date) desc;

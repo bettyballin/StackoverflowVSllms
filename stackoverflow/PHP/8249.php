@@ -1,0 +1,1 @@
+if(count($userID) > 0) {\n  $query = 'DELETE FROM members WHERE member_id IN ('. implode(',', $userID) .')';\n}

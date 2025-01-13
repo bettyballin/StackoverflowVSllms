@@ -1,0 +1,1 @@
+coalesce(address.app_id, 'NULLSTRING') = coalesce(dbo.fnGetAppID(addresses.user_id), 'NULLSTRING')

@@ -1,0 +1,1 @@
+echo (intval($v) == $v) ? intval($v) : $v;

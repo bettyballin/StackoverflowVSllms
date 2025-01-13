@@ -1,0 +1,1 @@
+<?php\n$obj = (object)array('foo' => 'bar');\necho $obj->foo; // yields "bar"

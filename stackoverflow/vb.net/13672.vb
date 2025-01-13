@@ -1,0 +1,1 @@
+Dim theNumber as Double\ntheNumber = 2.556\nDim theRounded = Math.Sign(theNumber) * Math.Floor(Math.Abs(theNumber) * 100) / 100.0

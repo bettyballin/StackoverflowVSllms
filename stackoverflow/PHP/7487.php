@@ -1,0 +1,1 @@
+//initial parsing\n$val = preg_replace(\n    '/(\d*?)(\d{1,2}?)(\d{1,3}?)(\d{1,4})$/', \n    '${1}-${2}-$[3}-${4}', \n    $inputString\n);\n\n//nuke leading dashes\n$val - preg_replace('^\-+', '', $val);

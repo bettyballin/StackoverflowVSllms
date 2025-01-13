@@ -1,0 +1,1 @@
+SELECT  id\nFROM    foo a\nGROUP   BY id\nHAVING  COUNT(*) = (\n                SELECT  COUNT(*)\n                FROM    foo b\n                WHERE   a.id = b.id\n                AND     (b.stat LIKE 'FN%' OR b.stat LIKE 'W%')\n        );

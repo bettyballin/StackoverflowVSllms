@@ -1,0 +1,1 @@
+Dim x = Left("here", 1)

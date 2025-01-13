@@ -1,0 +1,1 @@
+foreach ($array as $key => $value) {\n    if ($key == 'ignore_me') continue;\n    if ($key == 'ignore_me_2') continue;

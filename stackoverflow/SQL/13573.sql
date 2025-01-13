@@ -1,0 +1,1 @@
+update mytable set number = id

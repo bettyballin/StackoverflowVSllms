@@ -1,0 +1,1 @@
+select *\nfrom mytable\nwhere lastupdatedDate > sysdate - interval '10' minute

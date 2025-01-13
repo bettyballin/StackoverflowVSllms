@@ -1,0 +1,1 @@
+SELECT sessions_highwater FROM v$license;

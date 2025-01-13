@@ -1,0 +1,1 @@
+Smarty.class.php\n\nfunction not_found() {\nheader('HTTP/1.1 404 Not Found');\n\nif (!$this->get_template_vars('page_title')) {\n    $this->assign('page_title', 'Page not found');\n    }\n\n    $this->display('not-found.tpl');\n    exit;\n}

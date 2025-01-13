@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM unread WHERE user = foo

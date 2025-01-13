@@ -1,0 +1,1 @@
+SELECT *\nFROM Vehicles\nWHERE (DKID IN (69954))\nORDER BY case when ImageName1 = ''na'' then 0 else 1 end, Make , Model, Year DESC

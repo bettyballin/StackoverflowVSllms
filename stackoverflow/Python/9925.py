@@ -1,0 +1,1 @@
+for i in range(0,150,6):\n     print i

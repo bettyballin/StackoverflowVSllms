@@ -1,0 +1,1 @@
+UserResources\n-------------\nUserId FK->Users\nResourceId FK->Resources

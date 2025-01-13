@@ -1,0 +1,1 @@
+function float getJulianFromUnix( int unixSecs )\n{\n   return ( unixSecs / 86400.0 ) + 2440587.5;\n}

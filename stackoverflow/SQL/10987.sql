@@ -1,0 +1,1 @@
+INSERT INTO tbl (hat, mittens, name) \nVALUES ('yellow','purple','jimmy')\nON DUPLICATE KEY UPDATE name = CASE WHEN name <> VALUES(name) \n                                    THEN VALUES(name) ELSE name END;

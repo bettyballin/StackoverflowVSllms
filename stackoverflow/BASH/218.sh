@@ -1,0 +1,1 @@
+which httpd\nwhich php

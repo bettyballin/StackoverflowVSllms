@@ -1,0 +1,1 @@
+...\nvar show_var = default_var;\n ...\n\n$("a[rel=more]").live("click", function(){\n     ...\n    // declares and initializes entirely new variable named show_var \n    // that will never be used again...\n    var show_var = end_var+1;\n     ...\n});

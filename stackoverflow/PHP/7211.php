@@ -1,0 +1,1 @@
+echo 'php.ini: ', get_cfg_var('cfg_file_path');

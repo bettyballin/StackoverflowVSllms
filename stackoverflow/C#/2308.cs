@@ -1,0 +1,1 @@
+System.Configuration.Configuration config =\n     ConfigurationManager.OpenExeConfiguration(@"pathToFile\Config.dll");

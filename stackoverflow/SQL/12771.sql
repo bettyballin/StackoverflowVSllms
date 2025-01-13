@@ -1,0 +1,1 @@
+SELECT A,B,C, "query 1" as origin FROM table WHERE field LIKE 'query%'\nUNION\nSELECT A,B,C, "query 2" as origin FROM table WHERE field LIKE '%query'\nUNION\nSELECT A,B,C, "query 3" as origin FROM table WHERE field LIKE '%query%'\nGROUP BY origin, B ORDER BY origin, B ASC LIMIT 5

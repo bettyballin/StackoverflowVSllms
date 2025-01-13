@@ -1,0 +1,1 @@
+string imageFilename = System.IO.Directory.GetFiles( imageDirectory, name + ".*" ).First();

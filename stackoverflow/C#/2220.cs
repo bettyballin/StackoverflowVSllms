@@ -1,0 +1,1 @@
+void label1_Paint(object sender, PaintEventArgs e)\n{\n    ControlPaint.DrawBorder(e.Graphics, label1.DisplayRectangle, Color.Blue, ButtonBorderStyle.Solid);\n}

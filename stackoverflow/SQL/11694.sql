@@ -1,0 +1,1 @@
+(bookid != 30 AND item like '%item1%') OR (item like '%item2%' AND visible = 1 AND level= 2)

@@ -1,0 +1,1 @@
+Encoding.Unicode.GetString

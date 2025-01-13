@@ -1,0 +1,1 @@
+declare stmt varchar2(4000);\nbegin\n  stmt := 'update org.security_training_question a set a.actv_indr = ''N'' where a.qstn_id in ('||v_qstns_to_delete||')';\n  execute immediate stmt;\nend;

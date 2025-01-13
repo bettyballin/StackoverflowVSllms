@@ -1,0 +1,1 @@
+Select u.[username]\n      ,u.[ip]\n      ,q.[time_stamp]\nFrom [users] As u\nInner Join (\n    Select [username]\n          ,max(time_stamp) as [time_stamp]\n    From [users]\n    Group By [username]) As [q]\nOn u.username = q.username\nAnd u.time_stamp = q.time_stamp

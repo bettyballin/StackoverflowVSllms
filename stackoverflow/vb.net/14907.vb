@@ -1,0 +1,1 @@
+If NOT IsDbNull(myItem("sID")) AndAlso myItem("sID") = sId Then\n   'Do success\nELSE\n   'Failure\nEnd If

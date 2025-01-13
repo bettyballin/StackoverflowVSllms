@@ -1,0 +1,1 @@
+from random import sample\nprint sample(xrange(N), K)

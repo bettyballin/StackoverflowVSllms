@@ -1,0 +1,1 @@
+this.approved_by = IsNullOrEmpty(planRec.approved_by) ? string.Empty : planRec.approved_by.toString();

@@ -1,0 +1,1 @@
+listBox1.Parent = tabControl1.TabPages[1];

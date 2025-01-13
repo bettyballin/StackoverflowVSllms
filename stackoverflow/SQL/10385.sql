@@ -1,0 +1,1 @@
+* Subqueries and scalar subquery expressions\n* Calls to the functions that are not deterministic (CURRENT_DATE,

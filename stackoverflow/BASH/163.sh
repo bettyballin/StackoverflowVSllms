@@ -1,0 +1,1 @@
+mv config.conf config.conf.theirs && mv config.conf.mine config.conf

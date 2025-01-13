@@ -1,0 +1,1 @@
+SQL> create directory d as '/tmp';\n\nDirectory created

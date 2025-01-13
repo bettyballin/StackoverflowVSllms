@@ -1,0 +1,1 @@
+<membership defaultProvider="OlaMembershipProvider">  \n  <providers>  \n    <add name="OlaMembershipProvider" type="OpenAccess.Web.OlaMembershipProvider, OpenAccess.ClientSide" />  \n  </providers>\n</membership>

@@ -1,0 +1,1 @@
+ALTER TABLE table1 ADD field2 text;\nUPDATE table1 SET field2='value';

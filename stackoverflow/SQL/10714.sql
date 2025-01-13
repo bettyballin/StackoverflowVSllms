@@ -1,0 +1,1 @@
+SELECT Id, Color, COUNT(*)\nFROM YourTable\nGROUP By Id, Color

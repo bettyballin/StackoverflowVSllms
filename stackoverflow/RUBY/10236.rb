@@ -1,0 +1,1 @@
+<%  unless @plant.images.blank?\n                for image in @plant.images\n%>\n                     <%= render :partial => 'show_image', :object => image %>\n                <% end\n           else %>\n                This plant has no images to display.\n           <% end %>

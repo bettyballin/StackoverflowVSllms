@@ -1,0 +1,1 @@
+sed -i 's/$env=\"development\"/$env=\"production\"/' config.php

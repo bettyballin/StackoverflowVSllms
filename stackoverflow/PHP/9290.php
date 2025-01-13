@@ -1,0 +1,1 @@
+echo $_POST['login']['username']; //echos username\necho $_POST['login']['password']; //echos password

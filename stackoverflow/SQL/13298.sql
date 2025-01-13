@@ -1,0 +1,1 @@
+INSERT INTO MyTable ( Column2, Column3, Column4) VALUES ( 1, 2, 3 )

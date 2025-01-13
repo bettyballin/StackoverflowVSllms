@@ -1,0 +1,1 @@
+const Int32 minimumPrefixLength = 3;\n\nvar groupedPefixes = prefixes\n    .GroupBy(p => p.Substring(0, minimumPrefixLength))\n    .ToDictionary(g => g.Key, g => g);\n\nvar numberPrefixes = numbers\n    .Select(n => groupedPefixes[n.Substring(0, minimumPrefixLength)]\n        .First(n.StartsWith))\n    .ToList();

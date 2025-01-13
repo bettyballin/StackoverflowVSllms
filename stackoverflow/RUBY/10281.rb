@@ -1,0 +1,1 @@
+result = system("cp -r dir1 dir2")\nif(result)\n#do the next thing\nelse\n# handle the error

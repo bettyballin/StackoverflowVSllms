@@ -1,0 +1,1 @@
+<sectionGroup name="system.net" type="System.Net.Configuration.NetSectionGroup, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">\n      <section requirePermission="false" name="defaultProxy" type="System.Net.Configuration.DefaultProxySection, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>\n    </sectionGroup>

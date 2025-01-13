@@ -1,0 +1,1 @@
+<?php\nmkdir( "foo" )\n?>

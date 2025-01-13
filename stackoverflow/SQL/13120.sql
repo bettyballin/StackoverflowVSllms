@@ -1,0 +1,1 @@
+SELECT\n     ROW_NUMBER() OVER(ORDER BY object_id, column_id) as RowNum\n    , COUNT(*) OVER(PARTITION BY 1) as TotalRows\n    , * \n    FROM master.sys.columns

@@ -1,0 +1,1 @@
+def func(): return h\ndef anotherfunc(h):\n   return func()

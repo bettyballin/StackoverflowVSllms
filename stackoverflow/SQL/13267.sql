@@ -1,0 +1,1 @@
+SELECT accountid, MAX(score) \nFROM scores \nGROUP BY accountid;

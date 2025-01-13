@@ -1,0 +1,1 @@
+$(window).bind("resize", function(){ \n    ResizeWindow( 'nicholas-1' )\n});

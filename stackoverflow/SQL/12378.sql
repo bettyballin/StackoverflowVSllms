@@ -1,0 +1,1 @@
+SELECT MAX(ID) MaxCommentID, PostID\nFROM Comments\nGROUP BY PostID

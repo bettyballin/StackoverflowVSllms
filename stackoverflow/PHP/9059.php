@@ -1,0 +1,1 @@
+string mysql_real_escape_string ( string $unescaped_string [, resource $link_identifier ] )

@@ -1,0 +1,1 @@
+SELECT *\nFROM Persons\nWHERE id IN (SELECT parent FROM Persons)\nORDER BY (age, id)

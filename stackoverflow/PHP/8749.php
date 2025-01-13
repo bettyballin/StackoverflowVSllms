@@ -1,0 +1,1 @@
+<?php $my_get = "?hl=foo"; ?>\n\n<a href="http://mysite.com<?=$my_get?>"> Yadda </a>

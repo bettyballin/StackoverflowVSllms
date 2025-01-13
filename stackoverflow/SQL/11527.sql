@@ -1,0 +1,1 @@
+CREATE TABLE ColorLookup (\n  color VARCHAR(20) PRIMARY KEY\n);\n\nCREATE TABLE ItemsWithColors (\n  ...other columns...,\n  color VARCHAR(20),\n  FOREIGN KEY (color) REFERENCES ColorLookup(color)\n    ON UPDATE CASCADE ON DELETE SET NULL\n);

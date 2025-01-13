@@ -1,0 +1,1 @@
+<?php\nheader('Location: http://www.otherserver.com/image.php');

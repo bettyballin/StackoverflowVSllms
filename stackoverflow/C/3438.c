@@ -1,0 +1,1 @@
+template class DLL_EXPORT std::allocator<tCharGlyphProviderRef>;

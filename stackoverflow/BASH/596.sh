@@ -1,0 +1,1 @@
+sed -e "s/.\{20\}/&\n/g" < temp.txt

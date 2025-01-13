@@ -1,0 +1,1 @@
+// To Encrypt\nencrypt.IV = new byte[] { 1, 2, 3, 4, 5, 6, 7, 8 };\n\n// Use same IV to decrypt\ndecrypt.IV = new byte[] { 1, 2, 3, 4, 5, 6, 7, 8 };

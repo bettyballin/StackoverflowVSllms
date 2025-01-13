@@ -1,0 +1,1 @@
+function steps(){\n\n    stepOne(stepTwo); \n\n}\n\nfunction stepOne(callback){\n\n    var AsyncDone = function() { \n      //any Synchronus Things here\n      callback(); \n    }\n    someAsyncFunction( params, AsyncDone );\n\n}

@@ -1,0 +1,1 @@
+$ cvs -d :pserver:cvs.php.net:/repository co pecl/perl

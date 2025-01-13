@@ -1,0 +1,1 @@
+doc.SelectSingleNode("s:Requestor", nsmgr)

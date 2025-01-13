@@ -1,0 +1,1 @@
+INSERT IGNORE\n  INTO table_1 \nSELECT *\n  FROM table_2\n     ;

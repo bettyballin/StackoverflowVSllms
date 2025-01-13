@@ -1,0 +1,1 @@
+$menu = mysql_query("SELECT * FROM menu ORDER BY parent_id, level, name");

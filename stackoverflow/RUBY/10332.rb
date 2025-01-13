@@ -1,0 +1,1 @@
+describe Item, "#most_expensive" do\n  it 'should return the most expensive item' do\n    items = [\n      Item.create!(:price => 100),\n      Item.create!(:price => 50)\n    ]\n\n    Item.most_expensive.price.should == 100\n  end\nend

@@ -1,0 +1,1 @@
+c:\handle > output.txt

@@ -1,0 +1,1 @@
+struct foo { };\nstruct bar { bar(foo f); };\n\nint main() {\n  // does *not* create a bar object initialized by a default constructed \n  // foo object.\n  bar b(foo());\n}

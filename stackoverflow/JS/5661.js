@@ -1,0 +1,1 @@
+var isValid = jQuery('#kiloMetresTravelled').valid() || jQuery('#kiloMetresTravelled').val() == "";

@@ -1,0 +1,1 @@
+PictureBox2.Image = Nothing

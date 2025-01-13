@@ -1,0 +1,1 @@
+public override void Uninstall(IDictionary savedState)\n{\n    base.Uninstall(savedState);\n\n    // Delete folder here.\n}

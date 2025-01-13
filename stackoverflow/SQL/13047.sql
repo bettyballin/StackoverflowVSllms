@@ -1,0 +1,1 @@
+USE myDB\nGO\nBACKUP MASTER KEY TO FILE = 'path_to_file'\n    ENCRYPTION BY PASSWORD = 'password'\nGO

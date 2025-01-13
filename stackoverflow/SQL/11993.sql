@@ -1,0 +1,1 @@
+declare @intvalue int\nset @intvalue=5\n\ndeclare @vsresult varchar(64)\ndeclare @inti int\nselect @inti = 64, @vsresult = ''\nwhile @inti>0\n  begin\n    select @vsresult=convert(char(1), @intvalue % 2)+@vsresult\n    select @intvalue = convert(int, (@intvalue / 2)), @inti=@inti-1\n  end\nselect @vsresult

@@ -1,0 +1,1 @@
+def r(a):\n  i = a.find('0')\n  ~i or exit(a)\n  [m in[(i-j)%9*(i/9^j/9)*(i/27^j/27|i%9/3^j%9/3)or a[j]for j in range(81)] or r(a[:i]+m+a[i+1:])for m in'%d'%5**18]\nfrom sys import *\nr(argv[1])

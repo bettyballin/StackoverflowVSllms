@@ -1,0 +1,1 @@
+SELECT org, ROUND(time/604800) - week_offset, COUNT(*)\nFROM table\nGROUP BY org, ROUND(time/604800) - week_offset

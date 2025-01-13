@@ -1,0 +1,1 @@
+SELECT keyword FROM words JOIN blacklist \n               WHERE keyword LIKE CONCAT(CONCAT('%', word), '%')

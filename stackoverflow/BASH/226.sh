@@ -1,0 +1,1 @@
+dump_database\n# select and hit Cmd+C\ncreate_database\n# hit Cmd+V at prompt

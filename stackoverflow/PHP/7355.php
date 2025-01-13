@@ -1,0 +1,1 @@
+function function_that_shortens_text_but_doesnt_cutoff_words($text, $length)\n{\n    if(strlen($text) > $length) {\n        $text = substr($text, 0, strpos($text, ' ', $length));\n    }\n\n    return $text;\n}

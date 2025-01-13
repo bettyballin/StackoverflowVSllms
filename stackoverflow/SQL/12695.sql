@@ -1,0 +1,1 @@
+SQL> startup mount\n\nORACLE Instance started\n\nSQL> recover database \n\nMedia recovery complete\n\nSQL> alter database open;\n\nDatabase altered

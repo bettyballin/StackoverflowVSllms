@@ -1,0 +1,1 @@
+s.append("[");\nfor (i = 0; i < 5; ++i) {\n  if (i) s.append(","); // add the comma only if this isn't the first entry\n  s.appendF("\"%d\"", i);\n}\ns.append("]");

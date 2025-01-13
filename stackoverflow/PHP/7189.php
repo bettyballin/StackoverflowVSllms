@@ -1,0 +1,1 @@
+$imageObject = imagecreatefromjpeg($imageFile);\nimagegif($imageObject, $imageFile . '.gif');\nimagepng($imageObject, $imageFile . '.png');\nimagewbmp($imageObject, $imageFile . '.bmp');

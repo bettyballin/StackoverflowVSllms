@@ -1,0 +1,1 @@
+public class Point\n{\n    int x, y;\n    public int X { get { return x; } set { x = value; } }\n    public int Y { get { return y; } set { y = value; } }\n}

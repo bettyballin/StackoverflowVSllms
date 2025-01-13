@@ -1,0 +1,1 @@
+CInt(Math.Ceiling(Rnd() * n)) + 1

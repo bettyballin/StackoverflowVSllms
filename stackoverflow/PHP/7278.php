@@ -1,0 +1,1 @@
+<?php\nrequire_once "HTTP/Request.php";\n\n$req =& new HTTP_Request("http://www.yahoo.com/");\nif (!PEAR::isError($req->sendRequest())) {\n    echo $req->getResponseBody();\n}\n?> 

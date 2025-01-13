@@ -1,0 +1,1 @@
+function validate() {\n    if ('checkbox is not checked')\n        return;\n    if ('checkbox2 is not checked')\n        return;\n    if ('checkbox3 is not checked')\n        return;  \n    submit.disabled = false;\n}

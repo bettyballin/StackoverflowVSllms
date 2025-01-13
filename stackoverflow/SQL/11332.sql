@@ -1,0 +1,1 @@
+SELECT ?husband ?color \nWHERE {\n    ?husband <spouse> ?wife .\n    ?husband <likes> ?color .\n    OPTIONAL {\n        ?wife <likes> ?wifecolor\n        FILTER (?wifecolor = ?color)\n    }\n    FILTER (!BOUND(?wifecolor))\n}

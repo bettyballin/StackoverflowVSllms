@@ -1,0 +1,1 @@
+char[] alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();

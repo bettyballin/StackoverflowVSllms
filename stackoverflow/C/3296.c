@@ -1,0 +1,1 @@
+#define DllExport __declspec(dllexport)\n\nint DllExport  Foo( int a ) {\n  // implementation\n}\nint DllExport Foo( int a, int b ) {\n  // implementation\n}

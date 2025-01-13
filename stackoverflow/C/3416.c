@@ -1,0 +1,1 @@
+template <class T> struct A {\n    void f(int);\n    template <class T2> void f(T2);\n};\n\ntemplate <> void A<int>::f(int) { } // non-template member\ntemplate <> template <> void A<int>::f<>(int) { } // template member\n\nint main()\n{\n    A<char> ac;\n    ac.f(1); //non-template\n    ac.f(’c’); //template\n    ac.f<>(1); //template\n}

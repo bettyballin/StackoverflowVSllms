@@ -1,0 +1,1 @@
+Service<IOrderService>.Use(orderService=>\n{\n  orderService.PlaceOrder(request);\n}); 

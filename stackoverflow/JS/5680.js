@@ -1,0 +1,1 @@
+$("buttonID").click(function() {\n    //add new inputs here, something like:\n    $("formID").append('<input type="text" id="newInput" name="newInput" />');\n});

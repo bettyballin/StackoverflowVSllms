@@ -1,0 +1,1 @@
+SELECT  TO_DATE('31.12.9999 23:59:59', 'dd.mm.yyyy hh24:mi:ss')\nFROM    dual

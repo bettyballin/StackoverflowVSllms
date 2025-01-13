@@ -1,0 +1,1 @@
+$mysql = new MySQL('localhost', 'user', 'password', 'somedb');\n$mysql->open();\n$result = $mysql->query("SELECT field FROM table WHERE field = '%s';", 'Some Value');\n\nwhile($row = $mysql->fetch($result)) { echo $row['field']; }

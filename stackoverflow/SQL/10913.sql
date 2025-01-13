@@ -1,0 +1,1 @@
+SELECT ads.*, location.county \nFROM ads\nLEFT JOIN location ON location.county = ads.county_id\nWHERE ads.published = 1 \nAND ads.type = 13\nAND\n(\n    ads.county_id = 2\n    OR ads.county_id = 5\n    OR ads.county_id = 7\n    OR ads.county_id = 9\n)

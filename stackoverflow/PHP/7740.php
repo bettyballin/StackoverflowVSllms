@@ -1,0 +1,1 @@
+if ($result) {\n    $row = mysql_fetch_array($result);\n} else {\n    echo "MySQL error: " . mysql_error();\n}

@@ -1,0 +1,1 @@
+select COALESCE(Name, '') from table_name;

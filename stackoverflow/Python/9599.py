@@ -1,0 +1,1 @@
+a = amount of rotation\nb = size of effect\n\nangle = a*exp(-(x*x+y*y)/(b*b))\nu = cos(angle)*x + sin(angle)*y\nv = -sin(angle)*x + cos(angle)*y

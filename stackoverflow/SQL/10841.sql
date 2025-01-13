@@ -1,0 +1,1 @@
+SELECT id, table_name, ts_rank_cd(body, query) AS rank\n    FROM search_view, to_tsquery('search&words') query\n    WHERE query @@ body\n    ORDER BY rank DESC\n    LIMIT 10;

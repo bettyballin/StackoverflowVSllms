@@ -1,0 +1,1 @@
+SELECT id\n  FROM transaction_table a\n WHERE EXISTS( SELECT *\n                 FROM archive_table b\n                WHERE a.id = b.id )

@@ -1,0 +1,1 @@
+Select (payment1_paid && payment2_paid) as paid_in_full \nfrom denormalized_payments \nwhere payment1_type = 'check';

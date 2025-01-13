@@ -1,0 +1,1 @@
+<script>\n$("td").click(function(){\n  //how do i get the position of the td?\n  alert("column " + $(this).parent().children().index(this) + " is clicked")\n});\n</script>

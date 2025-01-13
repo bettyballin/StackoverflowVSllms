@@ -1,0 +1,1 @@
+var s = window.getSelection()\nvar r = document.createRange();\nr.selectNode(document.images[0]);\ns.addRange(r)

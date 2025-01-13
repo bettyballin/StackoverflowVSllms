@@ -1,0 +1,1 @@
+\nredirect(login.php?returnUrl=original_page.php);

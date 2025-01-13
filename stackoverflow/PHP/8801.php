@@ -1,0 +1,1 @@
+$creds = array( \n               array( 'username' => 'john123',\n                      'password' => 'hello'),\n               array( 'username' => 'lucyliu',\n                      'password' => 'dieblackmamba')\n                   //more sub arrays like above here\n         );

@@ -1,0 +1,1 @@
+INSERT INTO account_type_standard \n  (account_type_Standard_id, tax_status_id, recipient_id) \nVALUES( \n  (SELECT account_type_standard_seq.nextval FROM DUAL),\n  (SELECT tax_status_id FROM tax_status WHERE tax_status_code = ?), \n  (SELECT recipient_id FROM recipient WHERE recipient_code = ?)\n)

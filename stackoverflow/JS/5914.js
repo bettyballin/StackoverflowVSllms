@@ -1,0 +1,1 @@
+$('#el').livequery(function() {\n  $(this).css('background', 'green');\n});

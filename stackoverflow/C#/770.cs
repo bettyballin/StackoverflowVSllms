@@ -1,0 +1,1 @@
+public class CategoryProduct\n{\n    public IEnumerable<Product> Products { get; set; }\n    public IEnumerable<Category> Categories {get; set; }\n}\n\n....\n\nreturn View( new CategoryProduct { Products = products,\n                                   Categories = categories } );

@@ -1,0 +1,1 @@
+<Grid x:Name="grid" Background="Blue" \n      Width="100" Height="100" \n      MouseDown="Grid_MouseDown" MouseMove="Grid_MouseMove" MouseUp="Grid_MouseUp">\n    <Grid.RenderTransform>\n        <TranslateTransform x:Name="tt"/>\n    </Grid.RenderTransform>\n</Grid>

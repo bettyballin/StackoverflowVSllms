@@ -1,0 +1,1 @@
+class Your_Form_Decorator_Date extends Zend_Form_Decorator_Abstract {\n    public function render($content) {\n       $element = $this->getElement();\n\n       $name = $element->getFullyQualifiedName();\n       return '<label for="'.$name.'">'. $element->getLabel() . ' '.$content.'</label>';\n\n    }\n}

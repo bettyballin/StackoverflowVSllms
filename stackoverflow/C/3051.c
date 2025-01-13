@@ -1,0 +1,1 @@
+void load_buffer(char * buffer, size_t bufSize)\n{    \n    ...\n}

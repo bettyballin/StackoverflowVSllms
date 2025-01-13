@@ -1,0 +1,1 @@
+xmlHttpRequest.setRequestHeader('X-Requested-With', 'XMLHttpRequest');

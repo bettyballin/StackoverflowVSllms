@@ -1,0 +1,1 @@
+SqlDataAdapter da = new SqlDataAdapter();\nvar cmd1 = ((IDbDataAdapter)da).DeleteCommand;\nvar cmd2 = ((IDbDataAdapter)da).UpdateCommand;\nvar cmd3 = ((IDbDataAdapter)da).SelectCommand;\nvar cmd4 = ((IDbDataAdapter)da).InsertCommand;

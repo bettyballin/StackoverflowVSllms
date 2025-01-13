@@ -1,0 +1,1 @@
+<servlet-mapping>\n        <servlet-name>name</servlet-name>\n        <url-pattern>*.jsp</url-pattern>\n</servlet-mapping>

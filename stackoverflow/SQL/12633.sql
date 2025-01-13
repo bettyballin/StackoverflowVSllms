@@ -1,0 +1,1 @@
+SELECT YourQuery.* \nINTO TempTable1\nFROM YourQuery

@@ -1,0 +1,1 @@
+ALTER TABLE dbo.MyTable WITH CHECK ADD\n    CONSTRAINT UQ_MyTable_BookTitle UNIQUE (BookID, Title)

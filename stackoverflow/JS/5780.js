@@ -1,0 +1,1 @@
+$.ajax(\n    {\n    type: "POST",\n    async: false,              // <- note addition\n    url: "/Account/EmailExist",\n    data: { 'email': emailval },\n    success: function(result) {\n\n        if (result.indb) {\n            isvalid = true;\n\n        }\n    },\n    error: function(error) {\n        alert(error);\n    }\n});

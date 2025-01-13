@@ -1,0 +1,1 @@
+function PostForm() {\n    $.ajax({\n        url: "/Home/TestMVC",\n        type: "POST",\n        dataType: "application/JSON",\n        data: $('#form').serialize() + "&" + $('.additionalParams').serialize()\n    });\n};

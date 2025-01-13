@@ -1,0 +1,1 @@
+call_user_func(array($class_name, 'doSomething'));\ncall_user_func($class_name .'::doSomething'); // >5.2.3

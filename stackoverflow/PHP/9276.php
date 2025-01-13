@@ -1,0 +1,1 @@
+$remainder=$num % $divideby;\n$number=explode('.',($num / $divideby));\n$answer=$number[0];\necho $answer.' remainder '.$remainder;

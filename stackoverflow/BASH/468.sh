@@ -1,0 +1,1 @@
+atsutil server -shutdow

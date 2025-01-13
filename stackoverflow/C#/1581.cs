@@ -1,0 +1,1 @@
+string result = null;\n\nusing (TextWriter sw = new StringWriter())\n{\n    dataSet.WriteXml(sw);\n    result = sw.ToString();\n}

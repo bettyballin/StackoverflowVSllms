@@ -1,0 +1,1 @@
+class Foo < ActiveRecord::Base\n  def self.define_date_setters(*fields)\n    fields.each do |field|\n      define_method("#{ field }=") do |value|\n        Date.parse(value) rescue @dates_bad = true\n        self.write_attribute(field, value)\n      end\n    end\n  end\n\n  define_date_setters :check_sent, :other_field, :yet_another_field\nend

@@ -1,0 +1,1 @@
+if (!srRow.IsClosed_DateNull())\n{\n  myDate = srRow.Closed_Date;\n}

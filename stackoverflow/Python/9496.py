@@ -1,0 +1,1 @@
+>>> from ctypes import *\n>>> windll.user32.MessageBoxA(None, "Hello world", "ctypes", 0);

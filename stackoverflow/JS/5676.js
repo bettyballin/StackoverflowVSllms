@@ -1,0 +1,1 @@
+var allElements = $("*");\nvar index = allElements.index(someElement);\n\nif(allEmenets[index] == someElement){\n  alert("Found it!");\n}

@@ -1,0 +1,1 @@
+INSERT INTO [Table] ([Column List])\nVALUES ([Value List 1])\n     , ([Value List 2])\n       [...]\n     , ([Value List N])

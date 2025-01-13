@@ -1,0 +1,1 @@
+$store = new-object -com "CAPICOM.Store"\n$store.Open(2, "CA", 1)\n$store | fl *\n$store.Certificates\n$store.Certificates | %{ $_.display() }\n$store.Certificates | %{ $_.extendedproperties() }

@@ -1,0 +1,1 @@
+User 1\n------------\nbegin transaction\ninsert into A ...\ninsert into B ...\nupdate C ...\ninsert into D ...\ncommit\n\n\nUser 2\n-----------\nbegin transaction\ninsert into A ...\ninsert into B ...\ncommit

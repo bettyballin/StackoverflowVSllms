@@ -1,0 +1,1 @@
+SQL> select to_char(systimestamp, 'YYYY-MM-DD HH24:MI:SS.FF TZD') as d from dual;\n\nD\n----------------------------------\n2008-10-21 17:00:43.501591

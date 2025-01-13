@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('a[rel*=external]').click(function(){\n    window.open($(this).attr('href'));\n    return false; \n  });\n});

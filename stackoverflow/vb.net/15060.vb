@@ -1,0 +1,1 @@
+Dim b As Bitmap = New Bitmap(HttpContext.Current.Server.MapPath("~/img.bmp"))

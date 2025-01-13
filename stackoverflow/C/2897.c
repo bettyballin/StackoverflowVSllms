@@ -1,0 +1,1 @@
+void setAlpha(unsigned char *rgba, int width, int height, int alpha)\n{\n  int x, y;\n\n  for(y = 0; y < height; y++)\n  {\n    for(x = 0; x < width; x++, rgba += 4)\n    {\n      rgba[3] = (unsigned char) alpha;\n    }\n  }\n}

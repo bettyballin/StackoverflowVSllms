@@ -1,0 +1,1 @@
+replace the pattern ==([^=]*)== with <h2>\1</h2>

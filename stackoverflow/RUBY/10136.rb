@@ -1,0 +1,1 @@
+def with_format(format, &block)\n  old_format = @template_format\n  @template_format = format\n  result = block.call\n  @template_format = old_format\n  return result\nend

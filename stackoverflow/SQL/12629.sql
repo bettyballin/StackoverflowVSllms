@@ -1,0 +1,1 @@
+select DbRole = g.name, MemberName = u.name\n  from @NAME.sys.database_principals u, @NAME.sys.database_principals g, @NAME.sys.database_role_members m\n  where   g.principal_id = m.role_principal_id\n    and u.principal_id = m.member_principal_id\n    and g.name in (''db_ddladmin'', ''db_owner'', ''db_securityadmin'') \n    and u.name not in (''dbo'')\n  order by 1, 2

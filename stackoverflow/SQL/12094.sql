@@ -1,0 +1,1 @@
+SELECT testColumn FROM testTable  \n    WHERE testColumn COLLATE Latin1_General_CS_AS = 'example' \n\nSELECT testColumn FROM testTable\n    WHERE testColumn COLLATE Latin1_General_CS_AS = 'EXAMPLE' \n\nSELECT testColumn FROM testTable \n    WHERE testColumn COLLATE Latin1_General_CS_AS = 'eXaMpLe' 

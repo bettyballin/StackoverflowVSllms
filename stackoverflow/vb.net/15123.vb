@@ -1,0 +1,1 @@
+Public Function IsNullOrBlank(ByVal str as String) As Boolean\n  if String.IsNullOrEmpty(str) Then\n    Return True\n  End IF\n  For Each c In str\n    IF Not Char.IsWhiteSpace(c) Then\n      Return False\n    End If\n  Next\n  Return True\nEnd Functio

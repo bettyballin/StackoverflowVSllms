@@ -1,0 +1,1 @@
+using Foo = System.Collections.Generic.KeyValuePair<int, string>;\n\nclass C { Foo x; }

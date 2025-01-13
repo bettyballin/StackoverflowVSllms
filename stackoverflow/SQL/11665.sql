@@ -1,0 +1,1 @@
+GROUP BY YEAR(record_date), MONTH(record_date)

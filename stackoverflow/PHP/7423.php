@@ -1,0 +1,1 @@
+$row->text = preg_replace( "#{dropcap}".preg_quote($_temp,'#')."{/dropcap}#s", $SimpleDropCapPlugin->html , $row->text );

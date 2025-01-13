@@ -1,0 +1,1 @@
+select a.values\nfrom my_table a\nwhere not exists (\nselect * from my_table b where b.values = a.values and b.ID = 2)\nand a.ID = 1

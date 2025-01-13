@@ -1,0 +1,1 @@
+$(document).animate({scrollTop: AMOUNT}, 1000);

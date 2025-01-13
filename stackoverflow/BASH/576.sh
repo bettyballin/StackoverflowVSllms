@@ -1,0 +1,1 @@
+# shows preprocessed source with cpp internals removed\ng++ -E -P file.cc\n# shows preprocessed source kept with macros and include directives \ng++ -E -dD -dI -P file.cc  

@@ -1,0 +1,1 @@
+U,Sigma,V = singular_value_decomposition(M)\n\nU:  w x w\nSigma:  min(w,d) length vector, or w * d matrix with diagonal filled in the first min(w,d) spots with the singular values\nV:  d x d matrix\n\nThus U * Sigma * V = M  \n#  you might have to do some transposes depending on how your SVD code \n#  returns U and V.  verify this so that you don't go crazy :)

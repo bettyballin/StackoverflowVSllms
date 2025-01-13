@@ -1,0 +1,1 @@
+SELECT r.ID AS ShippingRateID, r.Name, e.*, r.*\n FROM shipping r \n    LEFT JOIN  shippingexceptions e \n        ON r.ID = e.ShippingRateID\n             And e.ProductID = 48

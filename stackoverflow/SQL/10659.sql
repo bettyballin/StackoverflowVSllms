@@ -1,0 +1,1 @@
+SELECT dbo.properCase(fullname) FROM [user]

@@ -1,0 +1,1 @@
+RewriteCond %{HTTP_REFERER} !^http://(www.)?example.(com|org) [NC]\nRewriteCond %{QUERY_STRING} ^.+$\nRewriteRule ^(script1|script2)\.cgi - [F]

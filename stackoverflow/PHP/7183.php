@@ -1,0 +1,1 @@
+$tmp = explode(";", $string);\n$i=0;\n$j=0;\n\nforeach($tmp as $piece) {\n   if(! ($i++ %3)) $j++;   //increment every 3 \n   $result[$j] .= $piece;\n}

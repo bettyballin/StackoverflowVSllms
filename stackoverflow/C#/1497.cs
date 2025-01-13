@@ -1,0 +1,1 @@
+authorsList = authorsList.Where(x => x.FirstName != "Bob").ToList();

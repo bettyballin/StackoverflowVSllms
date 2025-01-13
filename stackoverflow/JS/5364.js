@@ -1,0 +1,1 @@
+var innerTable = $(this).parent().parent().next().find("table");\nif ($(this).data("visible")) {\n  innerTable.fadeOut();\n  innerTable.parent().hide();\n  $(this)\n    .data("visible", false)\n    .text("+");\n} else {\n  innerTable.parent().show();\n  innerTable.fadeIn();\n  $(this)\n    .data("visible", true)\n    .text("-");\n}

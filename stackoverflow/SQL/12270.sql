@@ -1,0 +1,1 @@
+DATEADD(day, (ABS(CHECKSUM(NEWID())) % 65530), 0)

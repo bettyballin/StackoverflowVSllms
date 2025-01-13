@@ -1,0 +1,1 @@
+59 *    * * *   USER    curl localhost/script.php > /dev/null 2>&1

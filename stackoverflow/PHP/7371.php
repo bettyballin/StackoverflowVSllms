@@ -1,0 +1,1 @@
+<input type="hidden" name="pk" value="<?php echo $pk; ?>">

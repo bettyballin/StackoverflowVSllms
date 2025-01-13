@@ -1,0 +1,1 @@
+<?php\nrequire_once('fpdf.php');\nrequire_once('fpdi.php');\n\n$pdf =& new FPDI();\n$pdf->addPage('L');\n$pagecount = $pdf->setSourceFile('template.pdf');\n$tplIdx = $pdf->importPage(1); \n$pdf->useTemplate($tplIdx); \n$pdf->SetFont('Arial'); \n$pdf->SetTextColor(255,0,0); \n$pdf->SetXY(25, 25); \n$pdf->Write(0, "This is just a test"); \n$pdf->Output('newpdf.pdf', 'F');\n\n?>

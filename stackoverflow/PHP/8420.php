@@ -1,0 +1,1 @@
+function contains_invalid_characters($text) {\n    return (bool) preg_match('/[a-zA-Z0-9äöüß "!§$%&\/()=[\]\?.:,;\-_]/u', $text);\n}

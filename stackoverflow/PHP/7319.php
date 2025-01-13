@@ -1,0 +1,1 @@
+htmlentities($var, ENT_QUOTES, 'UTF-8');

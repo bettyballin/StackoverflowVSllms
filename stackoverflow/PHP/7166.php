@@ -1,0 +1,1 @@
+<?php\n$w = new XMLWriter;\n$w->openMemory();\n$w->setIndent(true);\n$w->startElementNS('foo', 'bar', '<a href="http://whatever/foo" rel="noreferrer">http://whatever/foo</a>');\n$w->startElementNS('foo', 'baz', null);\n$w->endElement();\n$w->endElement();\necho $w->outputMemory();

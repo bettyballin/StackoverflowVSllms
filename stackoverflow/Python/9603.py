@@ -1,0 +1,1 @@
+y = ["{0:0>2}".format(v) for v in x]

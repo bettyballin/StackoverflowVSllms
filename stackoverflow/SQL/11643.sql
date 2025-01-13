@@ -1,0 +1,1 @@
+ALTER PROCEDURE [dbo].[ALLOCATE_BUDGET] \n    @budget_scenario_id uniqueidentifier\nAS\nBEGIN\n   ...\n\n    RETURN True\nEND

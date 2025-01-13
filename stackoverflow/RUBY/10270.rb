@@ -1,0 +1,1 @@
+assert_equal html_string.gsub(/\s+/, ' '), '<a href="foo">'

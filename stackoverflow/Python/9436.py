@@ -1,0 +1,1 @@
+def spiral(X, Y):\n    x = y = 0\n    dx = 0\n    dy = -1\n    for i in range(max(X, Y)**2):\n        if (-X/2 < x <= X/2) and (-Y/2 < y <= Y/2):\n            print (x, y)\n            # DO STUFF...\n        if x == y or (x < 0 and x == -y) or (x > 0 and x == 1-y):\n            dx, dy = -dy, dx\n        x, y = x+dx, y+dy

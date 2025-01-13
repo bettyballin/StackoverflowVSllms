@@ -1,0 +1,1 @@
+declare @Borg table (\n    ID int,\n    Foo int,\n    Bar int,\n    Blagh int\n)\ninsert into @Borg values (1,10,20,30)\ninsert into @Borg values (2,10,5,1)\ninsert into @Borg values (3,20,50,70)\ninsert into @Borg values (4,20,75,12)

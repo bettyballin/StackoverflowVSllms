@@ -1,0 +1,1 @@
+ALTER TABLE [Table]\nADD WavIsNull AS (CASE WHEN [Wav] IS NULL Then (1) ELSE (0) END)

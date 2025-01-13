@@ -1,0 +1,1 @@
+function MyObject(options) { this.x = options.x; }\nMyObject.prototype.someFunction = function() { return this.x + 1; }\nMyObject.create(id, options) {\n    if (!this._instances) this._instances = {};\n    return this._instances[id] = new MyObject(options);\n}\nMyObject.getInstance(id) { return this._instances[id]; }

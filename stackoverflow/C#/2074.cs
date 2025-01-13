@@ -1,0 +1,1 @@
+this.ChannelFactory.Endpoint.Behaviors.Remove<ClientCredentials>();\nthis.ChannelFactory.Endpoint.Behaviors.Add(new CentralAuthClientCredentials());

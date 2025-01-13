@@ -1,0 +1,1 @@
+from lxml import etree\nfrom StringIO import StringIO\netree.parse(StringIO(html), etree.HTMLParser(recover=False))

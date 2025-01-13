@@ -1,0 +1,1 @@
+takeScriptsWithMarker(&$lines, $marker);

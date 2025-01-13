@@ -1,0 +1,1 @@
+$print = preg_replace('/^([^,]*).*$/', '$1', $print);

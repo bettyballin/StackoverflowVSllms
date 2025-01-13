@@ -1,0 +1,1 @@
+preg_match_all( "/(\[PT#\s+.*?;\s+.*?\])/", $input, $matches );\n\nprint_r( $matches );

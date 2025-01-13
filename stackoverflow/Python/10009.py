@@ -1,0 +1,1 @@
+scale = max(maxwidth/oldwidth, maxheight/oldheight)\nscaledwidth = oldwidth * scale\nscaledheight = oldheight * scale\nif scaledheight > maxheight:\n    croptop = (scaledheight - maxheight) / 2\n    cropbottom = (scaledheight - maxheight) - croptop\nif scaledwidth > maxwidth:\n    cropleft = (scaledwidth - maxwidth) / 2\n    cropright = (scaledwidth - maxwidth) - cropleft

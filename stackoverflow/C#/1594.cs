@@ -1,0 +1,1 @@
+[STAThread]\nstatic void Main() \n{\n   using(Mutex mutex = new Mutex(false, "Global\\" + appGuid))\n   {\n      if(!mutex.WaitOne(0, false))\n      {\n         MessageBox.Show("Instance already running");\n         return;\n      }\n\nApplication.Run(new Form1());\n   }\n}

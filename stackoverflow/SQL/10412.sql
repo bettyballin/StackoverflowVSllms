@@ -1,0 +1,1 @@
+merge into data\nusing (\n    select\n        'someid' id,\n        'testKey' key,\n        'someValue' value\n    from\n        dual\n) val on (\n    data.id=val.id\n    and data.key=val.key\n)\nwhen matched then \n    update set data.value = val.value \nwhen not matched then \n    insert (id, key, value) values (val.id, val.key, val.value);

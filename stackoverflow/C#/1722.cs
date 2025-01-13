@@ -1,0 +1,1 @@
+Type propertyType = info.PropertyType;\nif (thisPropertyValue != null)\n{\n    Type underlyingType = Nullable.GetUnderlyingType(propertyType);\n    thisPropertyValue = Convert.ChangeType(\n        thisPropertyValue, underlyingType ?? propertyType);\n}\ninfo.SetValue(this, thisPropertyValue, null);

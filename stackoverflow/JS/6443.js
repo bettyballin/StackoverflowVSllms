@@ -1,0 +1,1 @@
+\n$('#form').submit(formValidated);

@@ -1,0 +1,1 @@
+top.document.getElementById('content').innerHTML = request.responseText;

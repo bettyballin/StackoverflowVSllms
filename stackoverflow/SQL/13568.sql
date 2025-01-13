@@ -1,0 +1,1 @@
+where COALESCE((A = B) or (A is null and B is null), false)

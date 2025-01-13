@@ -1,0 +1,1 @@
+dbms_lob.compare(  \nlob_1    IN BLOB,  \nlob_2    IN BLOB,  \namount   IN INTEGER := 18446744073709551615,  \noffset_1 IN INTEGER := 1,  \noffset_2 IN INTEGER := 1)  \nRETURN INTEGER; 

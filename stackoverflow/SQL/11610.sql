@@ -1,0 +1,1 @@
+CREATE TABLE FOO ( \n  id int primary key not null,\n  int1 int, \n  int2 int, \n  int3 int\n)\n\nCREATE TABLE Fruits (\n  id int primary key not null,\n  name varchar(30)\n)\n\nCREATE TABLE FOOFruits (\n  FruitID int references Fruits (ID),\n  FooID int references FOO(id),\n  constraint pk_FooFruits primary key (FruitID, FooID)\n)

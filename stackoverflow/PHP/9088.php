@@ -1,0 +1,1 @@
+$mail->SMTPDebug = true;

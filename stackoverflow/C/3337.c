@@ -1,0 +1,1 @@
+int offset = 0;\nint size = 10*1024;\n\nchar range[256];\ncurl_slist_s *pHeaders = NULL;\nsnprintf(range, 256, "Range: bytes=%d-%d", offset, offset+size-1);\n\npHeaders = curl_slist_append(pHeaders, range);\ncurl_easy_setopt(pCurlHandle, CURLOPT_HTTPHEADER, pHeaders);\n\ncurl_slist_free_all(pHeaders);\npHeaders = NULL;

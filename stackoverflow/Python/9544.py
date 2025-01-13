@@ -1,0 +1,1 @@
+toDelete.value = toDelete.next.value\ntoDelete.next = toDelete.next.next

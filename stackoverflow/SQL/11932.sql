@@ -1,0 +1,1 @@
+select table_name, constraint_name, status, owner\nfrom all_constraints\nwhere r_owner = :r_owner\nand constraint_type = 'R'\nand r_constraint_name in\n (\n   select constraint_name from all_constraints\n   where constraint_type in ('P', 'U')\n   and table_name = :r_table_name\n   and owner = :r_owner\n )\norder by table_name, constraint_name

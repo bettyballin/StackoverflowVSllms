@@ -1,0 +1,1 @@
+// hiding without jQuery\n  document.getElementById('myInput').style.display = 'none'\n  // showing without jQuery\n  document.getElementById('myInput').style.display = 'block'\n\n  // hiding with jQuery\n  $('#myInput').hide()\n  // showing with jQuery\n  $('#myInput').show()

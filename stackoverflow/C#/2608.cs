@@ -1,0 +1,1 @@
+colorDialog1.Color.ToArgb()

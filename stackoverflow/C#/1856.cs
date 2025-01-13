@@ -1,0 +1,1 @@
+Encoding.GetEncoding(28591)\nEncoding.GetEncoding("Latin1")\nEncoding.GetEncoding("ISO-8859-1")

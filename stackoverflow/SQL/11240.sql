@@ -1,0 +1,1 @@
+SELECT O.ID, V.ID\nFROM Originating AS O, ValueSet AS V\nWHERE O.ID = V.OriginatingID\nAND\n(V.OriginatingID, V.DateStamp) IN\n(\n    SELECT OriginatingID, Max(DateStamp)\n    FROM ValueSet\n    GROUP BY OriginatingID\n)

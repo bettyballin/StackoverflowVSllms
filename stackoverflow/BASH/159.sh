@@ -1,0 +1,1 @@
+cat oracledump.sql |  sed "s/'[0-9][0-9]-\(JAN\|FEB\|MAR\|APR\|MAY\|JUN\|JUL\|AUG\|SEP\|OCT\|NOV\|DEC\)-[1-2][0-9][0-9][0-9]'/str_to_date(&, '%d-%b-%Y')/g" | mysql newdb

@@ -1,0 +1,1 @@
+SELECT  *\nFROM    (\n        SELECT  EXTRACT(WEEK FROM j.updated_at) as "week",  count(j.id)  \n        FROM    jobs    \n        WHERE   EXTRACT(YEAR FROM j.updated_at)=2009   \n        GROUP BY\n                EXTRACT(WEEK FROM j.updated_at)  \n        ORDER BY week DESC\n        LIMIT 12\n        ) q\nORDER BY\n        week ASC

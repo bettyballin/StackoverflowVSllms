@@ -1,0 +1,1 @@
+SELECT * INTO tmpFerdeen FROM (\n  SELECT top 100 * \n  FROM Customers\n  UNION All\n  SELECT top 100 * \n  FROM CustomerEurope\n  UNION All\n  SELECT top 100 * \n  FROM CustomerAsia\n  UNION All\n  SELECT top 100 * \n  FROM CustomerAmericas\n) as tmp

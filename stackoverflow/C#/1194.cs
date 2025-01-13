@@ -1,0 +1,1 @@
+Regex.Replace(strCookies, "(.)sessionid=(.)(,|;)(.*)", "$2")

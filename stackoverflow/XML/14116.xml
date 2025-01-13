@@ -1,0 +1,1 @@
+<mx:Canvas id="boardContainer" width="800" height="600">\n  <mx:Canvas id="board" width="800" height="1200" />\n</mx:Canvas>

@@ -1,0 +1,1 @@
+xmlAPDP = new XmlDocument()\n...\nxmlReader = new XmlNodeReader(xmlAPDP)\ndataSet = new DataSet()\n...\ndataSet.ReadXml(xmlReader)

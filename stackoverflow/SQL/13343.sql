@@ -1,0 +1,1 @@
+select\n    a.*\nfrom\n    event as a\ninner join\n    (select groupid\n     from event\n     group by groupid\n     having count(*) <> 5) as b\n  on a.groupid = b.groupid

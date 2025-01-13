@@ -1,0 +1,1 @@
+validates_each :middle_name do |record, attr, value|\n   if record.company == 201\n     record.errors.add attr, 'cannot be more than 1 character' if value.length > 1\n   elsif record.company == 200\n     record.errors.add attr, 'must be less than 20 characters' if value.length > 1\n   end\n end

@@ -1,0 +1,1 @@
+public static void ExpectException<T>(Action action) where T : Exception\n{\n    try\n    {\n        action();\n        Assert.Fail("Expected exception " + typeof(T).Name);\n    }\n    catch (T exception)\n    {\n        // Expected\n    }\n}

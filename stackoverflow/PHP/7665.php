@@ -1,0 +1,1 @@
+preg_match("/\n    test\n/x", $foo, $bar);

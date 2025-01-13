@@ -1,0 +1,1 @@
+from itertools import groupby\ngroup = groupby([1, 2, 2, 2, 2, 1, 1, 1, 2, 2, 1, 1])\nprint max(group, key=lambda k: len(list(k[1])))

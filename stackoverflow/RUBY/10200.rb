@@ -1,0 +1,1 @@
+create_table(:student, :options => 'AUTO_INCREMENT = 500') do |t|\n  t.column :name, :string, :limit => 50\n  # Other fields here   \nend

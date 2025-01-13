@@ -1,0 +1,1 @@
+create function xcurr return varchar2 is\n  v_curr varchar2(32);\nbegin\n  SELECT SYS_CONTEXT ('USERENV', 'CURRENT_USER') into v_curr from dual;\n  return v_curr;\nend;

@@ -1,0 +1,1 @@
+$route['your_controller/categories/(.*)'] = 'your_controller/$1';

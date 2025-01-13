@@ -1,0 +1,1 @@
+if cut -d' ' -f2 /proc/mounts | grep '^/mnt/remote1$' >/dev/null; then\n    rsync -avz ...\nfi

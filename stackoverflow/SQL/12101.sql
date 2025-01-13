@@ -1,0 +1,1 @@
+SELECT RIGHT(MyColumn, LEN(MyColumn) - 4) AS MyTrimmedColum

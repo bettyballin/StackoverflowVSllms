@@ -1,0 +1,1 @@
+SELECT  MAX(userid),\n        email\nFROM    users AS u1\nWHERE   activated = 'False'\nAND NOT EXISTS (\n        SELECT 1\n        FROM   users AS u2\n        WHERE  u2.email = u1.email\n        AND    u2.activated = 'True'\n        )\n\nGROUP BY email

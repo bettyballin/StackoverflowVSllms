@@ -1,0 +1,1 @@
+$.post({\n      url: "http://yourserver/ajax" ,\n      data: {param1: 'val1', param2:'val2'}\n });

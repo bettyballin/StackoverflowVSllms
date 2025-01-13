@@ -1,0 +1,1 @@
+CREATE VIEW my_sys_functions_equivalent\nAS\nSELECT *\nFROM sys.objects\nWHERE type IN ('FN', 'IF', 'TF')  -- scalar, inline table-valued, table-valued

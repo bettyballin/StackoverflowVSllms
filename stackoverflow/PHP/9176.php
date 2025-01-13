@@ -1,0 +1,1 @@
+$values = array();\n\n$values = split(":", 'DAB:CD:EF:GH');\n\n$int_values = array();\nforeach($values as $v) {\n$int_values[] = intval($v, 10);\n}\n\n// values in base 10\n\nprint_r($int_values);

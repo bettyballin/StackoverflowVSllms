@@ -1,0 +1,1 @@
+RewriteEngine On\nRewriteCond %{REQUEST_FILENAME} !rewriter.php$\nRewriteRule ^([^\.]*)\.php$ rewriter.php?page=$1 [L]

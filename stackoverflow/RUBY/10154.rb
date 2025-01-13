@@ -1,0 +1,1 @@
+Autotest.add_hook :initialize do |at|\n  %w{.git vendor index .DS_Store ._}.each {|exception| at.add_exception(exception)}\nend

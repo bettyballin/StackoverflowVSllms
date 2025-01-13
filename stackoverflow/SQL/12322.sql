@@ -1,0 +1,1 @@
+SELECT \n    `vehicle`.`id`, \n    `vehicle`.`stock`, \n    `vehicle`.`year`, \n    `vehicle`.`make`, \n    `vehicle`.`model`, \n    `images`.`name`,\n    (\n        SELECT COUNT(*) \n        FROM `images` \n        WHERE `vehicle_id` = `vehicle`.`id`\n    ) AS `image_count`\nFROM `vehicle`\nLEFT JOIN `images`\nON `images`.`vehicle_id` = `vehicle`.`id`\nWHERE `images`.`default`

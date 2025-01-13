@@ -1,0 +1,1 @@
+Dim ent As New DirectoryServices.DirectoryEntry("WinNT://<Domain>/<Username>")\nDim props As DirectoryServices.PropertyCollection = ent.Properties\nDebug.Print(props.Item("FullName").Value)

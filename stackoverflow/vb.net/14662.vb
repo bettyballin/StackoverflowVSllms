@@ -1,0 +1,1 @@
+Public Function isLeapYear(Yr As Integer) As Boolean  \n\n    ' returns FALSE if not Leap Year, TRUE if Leap Year  \n\n    isLeapYear = (Month(DateSerial(Yr, 2, 29)) = 2)  \n\nEnd Function  

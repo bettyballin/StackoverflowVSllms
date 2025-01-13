@@ -1,0 +1,1 @@
+<?php \n  $a=1; \n  function test($foo) { \n    echo 'number ' . $foo; \n  }; \n\n  test($a);\n  // -> "number 1". \n ?>

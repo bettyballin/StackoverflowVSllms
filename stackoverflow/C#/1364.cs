@@ -1,0 +1,1 @@
+[ContentProperty("Children")]\npublic partial class ElementType : Grid\n{\n    // your code here...\n}

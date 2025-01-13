@@ -1,0 +1,1 @@
+insert into <table>(userid, contentid)\nselect userid, [content b id] from <table> where contentid = [content a id]))

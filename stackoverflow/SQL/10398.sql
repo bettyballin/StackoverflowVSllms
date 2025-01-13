@@ -1,0 +1,1 @@
+DEFINE ID = "NUMBER(7)"\n\nCREATE table Person (\n    PersonID &ID.,\n    Name VARCHAR2(31)\n);

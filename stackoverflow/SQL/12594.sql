@@ -1,0 +1,1 @@
+SELECT SUM(qty) AS qty, SUM(qty * price) AS total\nFROM cartcontents\nGROUP BY cart_id

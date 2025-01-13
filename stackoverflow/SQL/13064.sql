@@ -1,0 +1,1 @@
+CREATE TRIGGER updateDisplayName_trigger ON Users\nFOR INSERT, UPDATE  \nAS\nIF UPDATE(UserName)\nUPDATE Users SET DisplayUserName = Lower(UserName)

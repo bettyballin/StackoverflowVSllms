@@ -1,0 +1,1 @@
+sed -i 's%<iframe[^>]+style="visibility: hidden"></iframe>%%g' file

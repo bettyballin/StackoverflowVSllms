@@ -1,0 +1,1 @@
+select  Student_Name,\n        Student_Email,\n        (select count(*) \n         from Enrollment e \n         where e.student_id = s.student_id\n        ) Number_Of_Enrollments \n from Student e

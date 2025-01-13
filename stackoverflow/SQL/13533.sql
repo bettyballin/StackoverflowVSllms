@@ -1,0 +1,1 @@
+declare\n  l_nullable user_tab_columns.nullable%type;\nbegin\n  select nullable into l_nullable\n  from user_tab_columns\n  where table_name = 'MYTABLE'\n  and   column_name = 'MYCOLUMN';\n\n  if l_nullable = 'N' then\n    execute immediate 'alter table mytable modify (mycolumn null)';\n  end if;\nend;

@@ -1,0 +1,1 @@
+// change\nold_name = settings.DATABASE_NAME\nfrom django.db import connection\nconnection.creation.create_test_db(verbosity, autoclobber=not interactive)\nresult = unittest.TextTestRunner(verbosity=verbosity).run(suite)\nconnection.creation.destroy_test_db(old_name, verbosity)\n\n// to:\nresult = unittest.TextTestRunner(verbosity=verbosity).run(suite)

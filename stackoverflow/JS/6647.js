@@ -1,0 +1,1 @@
+$("a").click(function(event){\n  if (this.disabled) {\n    event.preventDefault();\n  } else {\n    // make your AJAX call or whatever else you want\n  }\n});

@@ -1,0 +1,1 @@
+list<vertex*>::iterator it = r_list->begin();

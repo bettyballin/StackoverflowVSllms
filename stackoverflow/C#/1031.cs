@@ -1,0 +1,1 @@
+[DataContract]\npublic class SomeClass\n{ \n    public SomeClass()\n    {\n        _propertyB = "Hi there";\n    }\n\n    [DataMember(Name="PropertyB")]\n    private readonly string _propertyB;\n\n    public string PropertyB\n    {\n        get { return _propertyB; }\n    }\n}

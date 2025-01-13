@@ -1,0 +1,1 @@
+SELECT top 10 CustomerName\nFROM Customer\nWHERE CustomerID > 200 --start of page\nORDER BY CustomerID

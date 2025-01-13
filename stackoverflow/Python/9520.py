@@ -1,0 +1,1 @@
+data = irc.recv ( 4096 )\ntry: data = str(data,"UTF-8")\nexcept UnicodeDecodeError: data = str(data,"CP1252")

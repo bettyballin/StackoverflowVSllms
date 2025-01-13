@@ -1,0 +1,1 @@
+Dim deletecshr As New ImageButton\ndeletecshr.ImageUrl = "\images\bttnDeletemini.gif"\ndeletecshr.ToolTip = "This Will Delete All Cashiers"\ndeletecshr.ID = "deletecshr"\nAddHandler deletecshr.Command AddressOf deletecshrCommandEventHandler

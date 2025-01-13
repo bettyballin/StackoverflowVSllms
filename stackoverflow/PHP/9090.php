@@ -1,0 +1,1 @@
+function single_use_of_words($str) {  \n   $words = explode(' ', trim($str));  //Trim to prevent any extra blank\n   if (count(array_unique($words)) == count($words)) {\n      return true; //Same amount of words\n   }   \n   return false;\n}

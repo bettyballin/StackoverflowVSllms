@@ -1,0 +1,1 @@
+CREATE TRIGGER mytabletriggerexample\nBEFORE INSERT\nFOR EACH ROW BEGIN\nIF(NEW.important_value) < (fancy * dancy * calculation) THEN\n    DECLARE dummy INT;\n\n    SELECT Your meaningful error message goes here INTO dummy \n        FROM mytable\n      WHERE mytable.id=new.id\nEND IF; END;

@@ -1,0 +1,1 @@
+gtk.accelerator_parse()

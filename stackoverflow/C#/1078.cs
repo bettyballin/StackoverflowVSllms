@@ -1,0 +1,1 @@
+public void RenameRoleAndUsers(string OldRoleName, string NewRoleName)\n{\n    string[] users = Roles.GetUsersInRole(OldRoleName);\n    Roles.CreateRole(NewRoleName);\n    Roles.AddUsersToRole(users, NewRoleName);\n    Roles.RemoveUsersFromRole(users, OldRoleName);\n    Roles.DeleteRole(OldRoleName);\n}

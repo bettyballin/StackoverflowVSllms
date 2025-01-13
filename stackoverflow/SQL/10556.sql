@@ -1,0 +1,1 @@
+SELECT s.* \nFROM section s INNER JOIN archive_to_section ats ON s.id = ats.section_id \nWHERE ats.archive_id = 1

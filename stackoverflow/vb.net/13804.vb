@@ -1,0 +1,1 @@
+Dim srcBmp As New Bitmap(pnl.Width, pnl.Height)\nDim clip As New Rectangle(New Point(0, 0), pnl.Size)\npnl.DrawToBitmap(srcBmp, clip)

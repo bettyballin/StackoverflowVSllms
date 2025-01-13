@@ -1,0 +1,1 @@
+<script type='text/javascript'>\n    $(document).ready( function()\n    {\n       var input = $('.input-validation-error:first');\n\n       if(input)\n       {\n           input.focus();\n       }\n    });\n</script>

@@ -1,0 +1,1 @@
+"WHERE '" & str_a & "' '" & str_b & "' '" & str_c & "' ;"

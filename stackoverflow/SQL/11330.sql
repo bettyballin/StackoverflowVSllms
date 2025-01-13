@@ -1,0 +1,1 @@
+SELECT * FROM myTbl WHERE c_id IN (SELECT c_id FROM yourTable WHERE ...);

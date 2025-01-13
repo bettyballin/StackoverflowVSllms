@@ -1,0 +1,1 @@
+*/1 * * * * * php /path/to/convert.php & >> /var/log/convert.log

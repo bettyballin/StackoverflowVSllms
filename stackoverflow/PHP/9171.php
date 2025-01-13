@@ -1,0 +1,1 @@
+$input = array("red", "green", "blue", "yellow");\narray_splice($input, 3, 0, "purple");\n// $input is now array("red", "green", "blue", "purple", "yellow");

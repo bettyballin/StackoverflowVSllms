@@ -1,0 +1,1 @@
+INSERT INTO session(phpsessid, data) VALUES('{$id}', '{$data}')\n     ON DUPLICATE KEY UPDATE data='{$data}'

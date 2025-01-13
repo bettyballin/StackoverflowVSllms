@@ -1,0 +1,1 @@
+<?php\n\nfunction foo1($a,$b) { return $a/$b; }\n\nclass Bar\n{\n    public static function foo2($a,$b) { return $a/$b; }\n\n    public function UseReferences()\n    {\n        $fn = 'foo1';\n        echo $fn(6,3);\n\n        $fn = array( 'self', 'foo2' );\n        print call_user_func( $fn, 6, 2 );\n     }\n}\n\n$b = new Bar;\n$b->UseReferences();

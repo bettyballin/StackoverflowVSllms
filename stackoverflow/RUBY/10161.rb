@@ -1,0 +1,1 @@
+require 'fastercsv'\nFasterCSV.foreach(csv_file, {:headers => true, :return_headers => false, :header_converters => :symbol, :converters => :all} ) do |row|\n    puts row[:some_column_header] # Would be "Some Column Header" in the csv file.\nend 

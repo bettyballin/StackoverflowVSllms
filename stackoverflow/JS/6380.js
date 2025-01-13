@@ -1,0 +1,1 @@
+var inputCount = document.getElementById('divId').getElementsByTagName('input').length;

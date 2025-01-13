@@ -1,0 +1,1 @@
+"Content-Type: multipart/alternative; boundary=--$boundary". "\r\n".

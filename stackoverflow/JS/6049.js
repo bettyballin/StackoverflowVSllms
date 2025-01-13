@@ -1,0 +1,1 @@
+var topicsDiv = document.getElementById("topics");\ntopicsDiv.innerHTML = '<div id="mysection"> </div>';

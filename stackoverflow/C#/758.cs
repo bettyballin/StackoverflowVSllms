@@ -1,0 +1,1 @@
+DirectoryEntry w3svc = new DirectoryEntry(string.Format("IIS://{0}/w3svc", serverName));\nforeach (DirectoryEntry site in w3svc.Children)\n{\n     //these are the web sites, lookup their properties to see how to extract url\n}

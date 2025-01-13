@@ -1,0 +1,1 @@
+window.onbeforeunload = function() {\n  var prm = Sys.WebForms.PageRequestManager.getInstance();\n  if (!prm._processingRequest){ \n    return "Are you sure you want to leave?";\n  }\n};

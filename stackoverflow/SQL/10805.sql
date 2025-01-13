@@ -1,0 +1,1 @@
+SELECT * FROM Foo\nWHERE DateDiff(d,field1,now()) < 1

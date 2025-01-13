@@ -1,0 +1,1 @@
+List<List<int>> l = new List<List<int>>();\n\nl.Add(new List<int> { 1, 2, 3, 4, 5, 6});\nl.Add(new List<int> { 4, 5, 6, 7, 8, 9 });\nl.Add(new List<int> { 8, 9, 10, 11, 12, 13 });\n\nvar result = (from e in l\n              from e2 in e\n              select e2).Distinct();

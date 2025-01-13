@@ -1,0 +1,1 @@
+Select Count(Message) As Status\nFrom   Process_monitor\nWhere  TimeStamp >= '20080923'\n       And TimeStamp < '20080924'\n       And (Message = 'Started' or Message = 'Finished')

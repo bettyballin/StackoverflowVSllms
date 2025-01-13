@@ -1,0 +1,1 @@
+System.Random rnd = new System.Random();\nIEnumerable<int> numbers = Enumerable.Range(1, 100).OrderBy(r => rnd.Next());

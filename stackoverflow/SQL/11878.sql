@@ -1,0 +1,1 @@
+SELECT table1.id, column2, column3, ... FROM table1, table2 \nWHERE table1.id = table2.id

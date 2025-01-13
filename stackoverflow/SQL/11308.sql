@@ -1,0 +1,1 @@
+SELECT\n     my_id,\n     my_date\nFROM\n     My_Table\nWHERE\n     my_date >= '2008-01-01'

@@ -1,0 +1,1 @@
+$cfg['Servers'][$i]['auth_type'] = 'config';

@@ -1,0 +1,1 @@
+Dim jsonSerialiser As New System.Web.Script.Serialization.JavaScriptSerializer\nDim jsonString as String = jsonSerialiser.Serialize(yourObject)

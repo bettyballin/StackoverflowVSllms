@@ -1,0 +1,1 @@
+SELECT country FROM companies\nWHERE id =\n(\n    SELECT Min(id) FROM companies\n    GROUP BY Upper(country)\n)

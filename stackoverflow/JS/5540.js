@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    $(function() {\n        $('form').submit(function() {\n            $("#hidden_element").clone().appendTo(this);\n        });\n    });\n</script>

@@ -1,0 +1,1 @@
+ActiveXCount = 0\nFor Each ctl In Screen.ActiveForm\n    If ctl.ControlType = 119 Then 'Custom control'\n        'Debug.Print ctl.Class'\n        ActiveXCount = ActiveXCount + 1\n    End If\nNext

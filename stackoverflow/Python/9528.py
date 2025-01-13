@@ -1,0 +1,1 @@
+urls.sort(lambda a, b: cmp(len(a), len(b)))

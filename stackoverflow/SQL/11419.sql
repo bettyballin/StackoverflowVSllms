@@ -1,0 +1,1 @@
+Select @Type = \n(select case \nWHEN len(@code) IN (12,14,17) THEN 1\nWHEN len(@code) IN (13,15,18) THEN 2\nWHEN len(@code) IN (8,10) THEN 3\nELSE  0\nEND)

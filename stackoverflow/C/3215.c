@@ -1,0 +1,1 @@
+pStm->Write(&(img.color), (ULONG)sizeof(float), &cb);

@@ -1,0 +1,1 @@
+int imageLength;\nchar *imageData;\n\n// set imageLength and imageData\n\nsend(&imageLength, sizeof(int));\nsend(imageData, imageLength);

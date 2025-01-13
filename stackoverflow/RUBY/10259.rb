@@ -1,0 +1,1 @@
+require 'rubygems' # may not be needed, depending on platform\nrequire 'sinatra'\nrequire 'active_record'\n\nclass Article < ActiveRecord::Base\nend\n\nget '/' do\n  Article.establish_connection(\n    :adapter => "sqlite3",\n    :database => "hw.db"\n  )\n  Article.first.title\nend

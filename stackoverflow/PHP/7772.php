@@ -1,0 +1,1 @@
+$hostName = $this->getRequest()->getHttpHost();

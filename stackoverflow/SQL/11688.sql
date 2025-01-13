@@ -1,0 +1,1 @@
+select strings.*, translations.text\nfrom strings left outer join translations\n     on translations.string_id = strings.id\n           and translations.language_id = (select id\n                                           from language\n                                           where language.handle = 'english')

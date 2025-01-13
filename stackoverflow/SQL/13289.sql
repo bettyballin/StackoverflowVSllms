@@ -1,0 +1,1 @@
+SELECT id\nFROM y\nWHERE field1 = 2\nAND field2 = 3\nAND field3 = 4\nAND field4 = 5\nAND field5 = 6\nAND NOT EXISTS(\nSELECT x.id\nFROM x\nWHERE x.id = y.id\nAND x.exclude = 1\n)

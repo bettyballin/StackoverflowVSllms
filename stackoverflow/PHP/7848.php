@@ -1,0 +1,1 @@
+function possibilities ($input) {\n  $output=array();\n  $current = array_shift($input);\n  foreach ($current as #key=>$value) {\n    if empty($input) {\n      $output[] = $key.'-'.$value;\n    } else {\n      $output[$key.'-'.$value] = possibilities($input);\n    }\n  }\n  return $output;\n}

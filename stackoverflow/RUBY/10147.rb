@@ -1,0 +1,1 @@
+ascii_str = yourUTF8text.unpack("U*").map{|c|c.chr}.joi

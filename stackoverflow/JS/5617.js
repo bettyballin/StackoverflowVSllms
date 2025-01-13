@@ -1,0 +1,1 @@
+80         // add predefined functions to pac\n81         this._sandBox.importFunction(myIpAddress);\n82         this._sandBox.importFunction(dnsResolve);\n83         this._sandBox.importFunction(proxyAlert, "alert");

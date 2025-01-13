@@ -1,0 +1,1 @@
+var something = document.getElementById('something');\n\nsomething.style.cursor = 'pointer';\nsomething.onclick = function() {\n    // do something...\n};

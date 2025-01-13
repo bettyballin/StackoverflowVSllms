@@ -1,0 +1,1 @@
+SELECT\n        score,\n        count(*) students,\n        count(finished) finished,\n        count(finished) / count(*) AS something_other_than_students,   \n        round((count(finished) / count(*)),2) AS rounded_value\n    FROM now_calc \n    GROUP BY score\n    ORDER BY score;

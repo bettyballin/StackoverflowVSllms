@@ -1,0 +1,1 @@
+SELECT T1.*\n  FROM Table1 T1\n  JOIN Table2 T2 ON T2.ThresholdID = T1.ThresholdID\n WHERE T2.Threshold > T1.Value

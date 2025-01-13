@@ -1,0 +1,1 @@
+select * from notes\nwhere note_id in\n( select note_id from labels where label = 'One'\n  intersect\n  select note_id from labels where label = 'Two'\n)

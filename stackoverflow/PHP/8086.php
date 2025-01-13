@@ -1,0 +1,1 @@
+$link = mysqli_connect('127.0.0.1', 'my_user', 'my_pass', 'my_db');\nmysqli_query($link, "INSERT INTO mytable (1, 2, 3, 'blah')");\n$id = mysqli_insert_id($link);

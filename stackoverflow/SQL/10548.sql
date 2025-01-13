@@ -1,0 +1,1 @@
+SELECT SUBSTRING(colDate,0,8) as 'date' \nFROM someTable

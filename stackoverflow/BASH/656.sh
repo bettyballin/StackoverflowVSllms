@@ -1,0 +1,1 @@
+sed -rne 's/(dbservername)\s+\w+/\1 yyy/gip'

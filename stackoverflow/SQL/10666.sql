@@ -1,0 +1,1 @@
+create table #bla (col1 varbinary(400))\n\ninsert #bla values(convert(varbinary(400),'abcdefg'))\n\nselect col1,convert(varchar(max),col1)\nfrom #bla

@@ -1,0 +1,1 @@
+strace -e trace=open -o results.log

@@ -1,0 +1,1 @@
+new Ajax.PeriodicalUpdater(container, url, {\n    onComplete: function() {\n        (function() {\n            container.scrollTop = container.scrollHeight;\n        }).defer();\n    }\n});

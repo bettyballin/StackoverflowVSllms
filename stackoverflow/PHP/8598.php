@@ -1,0 +1,1 @@
+<fieldset>\n    <legend>Filter users</legend>\n    <?php\n        echo $form->create('User', array('action' => 'index'));\n        echo $form->input('surname', array('div' => false));\n        echo $form->submit('Filter', array('div' => false));\n        echo $form->end();\n    ?>\n</fieldset>

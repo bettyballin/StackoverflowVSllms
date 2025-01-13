@@ -1,0 +1,1 @@
+INSERT INTO dbo.MyTestData (testdata ) VALUES (@ptestdata)\nWHERE NOT EXISTS(SELECT 1 FROM dbo.MyTestData WHERE testdata=@ptestdata)

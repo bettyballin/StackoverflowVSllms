@@ -1,0 +1,1 @@
+MessageTable\n    :id\n    :message\n    :lang_code

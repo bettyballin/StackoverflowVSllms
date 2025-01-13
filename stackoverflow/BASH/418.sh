@@ -1,0 +1,1 @@
+locate libXi.so | xargs rpm -qf | sort -u

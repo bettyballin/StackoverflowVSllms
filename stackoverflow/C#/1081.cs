@@ -1,0 +1,1 @@
+void AddItemToListBox(string item)\n{\n    lstMyList.Items.Add(item);\n}

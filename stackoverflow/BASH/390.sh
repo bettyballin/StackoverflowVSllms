@@ -1,0 +1,1 @@
+openssl s_client -connect server.y.com:443 -msg

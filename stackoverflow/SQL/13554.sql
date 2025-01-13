@@ -1,0 +1,1 @@
+SELECT  item.id,\n        COALESCE(\n        (\n        SELECT  lang.data\n        FROM    language l\n        WHERE   l.item = i.id\n                AND l.language = 'fr'\n        ),\n        (\n        SELECT  lang.data\n        FROM    language l\n        WHERE   l.item = i.id\n                AND l.language = 'en'\n        )\n        ) AS description\nFROM    item i

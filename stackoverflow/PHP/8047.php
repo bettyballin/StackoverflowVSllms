@@ -1,0 +1,1 @@
+if (in_array('field', $checkboxes)) $checkfield = 'checked';

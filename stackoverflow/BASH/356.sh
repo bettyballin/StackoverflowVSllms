@@ -1,0 +1,1 @@
+#!/bin/bash\nwhile [ "true" ]; do\n        /path/to/script.php\n        sleep 15\ndone

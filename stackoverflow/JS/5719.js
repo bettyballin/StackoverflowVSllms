@@ -1,0 +1,1 @@
+function onActionCompleted() {\n    DoSomethingLocal();\n    if (typeof DoSomethingInParentPage == 'function') {\n        DoSomethingInParentPage();\n    }\n} 

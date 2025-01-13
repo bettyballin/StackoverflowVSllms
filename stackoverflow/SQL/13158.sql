@@ -1,0 +1,1 @@
+EXEC sp_xp_cmdshell 'trendsgen.exe [param1], [param2]'

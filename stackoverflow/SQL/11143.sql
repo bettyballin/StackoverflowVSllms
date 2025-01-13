@@ -1,0 +1,1 @@
+select name,age from members where name is not null and name <> ''

@@ -1,0 +1,1 @@
+ServicePointManager.ServerCertificateValidationCallback += delegate\n{\n    return true; // you might want to check some of the certificate detials...\n};

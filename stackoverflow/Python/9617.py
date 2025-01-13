@@ -1,0 +1,1 @@
+import os.path, shutil\n\ndef remove_ext(arg, dirname, fnames):\n    argfiles = (os.path.join(dirname, f) for f in fnames if f.endswith(arg))\n    for f in argfiles:\n        shutil.move(f, f[:-len(arg)])\n\nos.path.walk('/some/path', remove_ext, '.tex')

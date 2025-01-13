@@ -1,0 +1,1 @@
+session.CreateQuery("select new AudienceListDTO(e.AudienceList) from EventItems e").List();

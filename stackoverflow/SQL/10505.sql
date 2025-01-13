@@ -1,0 +1,1 @@
+create table #tmp (c1 int, c2 int, dt datetime default(getdate()) )\n\ninsert into #tmp\n(c1, c2)\nexec mysproc

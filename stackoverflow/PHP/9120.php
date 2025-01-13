@@ -1,0 +1,1 @@
+foreach($form->getWidgetSchema()->getPositions() as $widgetName)\n{\n  echo $form[$widgetName]->renderError();\n}

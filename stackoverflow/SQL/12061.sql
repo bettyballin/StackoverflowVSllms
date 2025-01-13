@@ -1,0 +1,1 @@
+exec msdb.dbo.sp_help_jobactivity  @job_id = (your job_id here)

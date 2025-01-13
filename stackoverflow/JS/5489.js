@@ -1,0 +1,1 @@
+divTag.src="image1.gif";

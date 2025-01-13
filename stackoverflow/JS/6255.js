@@ -1,0 +1,1 @@
+// change the action and submit the form...\nfunction submitSigImg(){\n var mainForm = document.forms.creator;\n mainForm.action= "', $scripturl, '?action=sigimages;sa=upload";\n mainForm.submit();\n}

@@ -1,0 +1,1 @@
+<class name="CompleteOrder" table="CompleteOrders">\n    <id name="Id">\n        <generator class="identity"/>\n    </id>\n    <property name="Status"/>\n</class>\n\n<class name="IncompleteOrder" table="IncompleteOrders">\n    <id name="Id">\n        <generator class="identity"/>\n    </id>\n</class>

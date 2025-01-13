@@ -1,0 +1,1 @@
+If Exists ( Select * From OtherTable\n            Where OtherTableFKColumn = MainTablePrimaryKey) \n   Begin\n       Rollback Transaction\n       RaisError('Violating FK Constraint in Table [OtherTable]', 16, 1)\n   End

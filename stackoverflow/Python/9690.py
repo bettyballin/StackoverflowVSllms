@@ -1,0 +1,1 @@
+def number_of_ones(n):\n    sum = 0\n    while n != 0:\n        sum += lookup_table[n & 0xff]\n        n >>= 8\n    return sum

@@ -1,0 +1,1 @@
+system("mysql -uroot -p db_name > `tty`");

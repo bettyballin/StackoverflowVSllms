@@ -1,0 +1,1 @@
+from myapp.models import SomeFact\nfrom collections import defaultdict\n\nfacts = SomeFact.objects.filter( dimension1__attribute=this, dimension2__attribute=that )\nmyAggregates = defaultdict( int )\nfor row in facts:\n    myAggregates[row.dimension3__attribute] += row.someMeasure

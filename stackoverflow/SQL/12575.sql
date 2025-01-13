@@ -1,0 +1,1 @@
+SELECT *\nFROM comments\nORDER BY IF(ParentId = 0, Id, ParentId), Id

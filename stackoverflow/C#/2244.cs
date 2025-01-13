@@ -1,0 +1,1 @@
+public class ScriptManagerExtension : System.Web.UI.ScriptManager\n{\n    protected override void OnInit(EventArgs e)\n    {\n        base.OnInit(e);\n        Page.ClientScript.RegisterClientScriptResource(this, typeof(ScriptManagerExtension), "Mri.Controls.Resources.Scripts.Libraries.jQuery.js");\n    }\n}

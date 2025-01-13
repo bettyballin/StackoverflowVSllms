@@ -1,0 +1,1 @@
+$keys = array_keys($array);\necho $array[$keys[0]];

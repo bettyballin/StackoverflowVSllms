@@ -1,0 +1,1 @@
+<?php\necho finfo_file(finfo_open(FILEINFO_MIME), "foo.png");\n?>

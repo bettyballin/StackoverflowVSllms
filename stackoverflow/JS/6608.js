@@ -1,0 +1,1 @@
+\n$(".container img").wrap("<div class=\"some_class\"></div>");

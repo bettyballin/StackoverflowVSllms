@@ -1,0 +1,1 @@
+main() unless caller;

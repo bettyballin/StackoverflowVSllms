@@ -1,0 +1,1 @@
+tmp=${TMPDIR:-/tmp}/cvsupd.$$\ntrap "rm -f $tmp; exit 1" 0 1 2 3 13 15\ncvs update "$@" | tee $tmp\nif grep -s '^C' $tmp\nthen\n    echo\n    echo Conflict Summary:\n    grep '^C' $tmp\nfi\nrm -f $tmp\ntrap 0\nexit 0

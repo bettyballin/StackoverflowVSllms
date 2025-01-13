@@ -1,0 +1,1 @@
+Public Overrides Property AutoSize() As Boolean\n        Get\n           Return MyBase.AutoSize\n        End Get\n        Set(ByVal value As Boolean)\n           'Do nothing here\n        End Set\n     End Property

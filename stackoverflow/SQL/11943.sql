@@ -1,0 +1,1 @@
+SELECT *, SUM(... some SQL removed for brevity ...) AS Occurrences\nFROM\n    some_table AS q\nWHERE\n    criterion = 'value'\nGROUP BY\n    q.P_id\nHAVING\n    SUM(... some SQL removed for brevity ...) > 0\nORDER BY\n    Occurrences DESC\nLIMIT 10;

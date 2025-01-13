@@ -1,0 +1,1 @@
+Boolean hasDuplicatePrefixes = list\n    .GroupBy(i => i.Substring(0, i.LastIndexOf('-')))\n    .Any(g => g.Count() > 1)

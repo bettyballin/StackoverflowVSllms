@@ -1,0 +1,1 @@
+FormattedText text = new FormattedText("Text to display",\n        CultureInfo.CurrentCulture,\n        FlowDirection.LeftToRight,\n        new Typeface("Tahoma"),\n        16,\n        Brushes.Black);\n    Geometry geometry = text.BuildGeometry(new Point(5, 5));

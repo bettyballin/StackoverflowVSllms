@@ -1,0 +1,1 @@
+setTimeout('JS Cleanup Code', number_of_miliseconds);

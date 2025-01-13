@@ -1,0 +1,1 @@
+Player.objects.values('player_type').order_by().annotate(Count('player_type'))

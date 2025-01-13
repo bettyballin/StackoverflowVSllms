@@ -1,0 +1,1 @@
+<System.Runtime.CompilerServices.Extension()> _\nPublic Function Left(ByVal str As String, ByVal length As Integer) As String\n    Return str.Substring(0, Math.Min(str.Length, length))\nEnd Functio

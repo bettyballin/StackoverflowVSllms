@@ -1,0 +1,1 @@
+struct Question\n{\n    public string QuestionText; // Actual question text.\n    public string[] Choices;    // Array of answers from which user can choose.\n    public int Answer;          // Index of correct answer within Choices.\n}

@@ -1,0 +1,1 @@
+if(!$this->getUser()->hasParameter('referer'))\n{\n  $this->getUser()->setParameter('referer',$this->getRequest()->getReferer());\n}

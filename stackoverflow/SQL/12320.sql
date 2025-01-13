@@ -1,0 +1,1 @@
+SELECT * FROM user INNER JOIN perm ON user.uid = perm.uid

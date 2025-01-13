@@ -1,0 +1,1 @@
+SELECT DISTINCT *\n  FROM ARTICLES t\n  JOIN PEOPLE p ON p.spubid = t.spudid AND p.slast ILIKE 'chow'\n WHERE t.skeywords_auto ILIKE'%pm2%'\n LIMIT 1;

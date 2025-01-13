@@ -1,0 +1,1 @@
+$.validator.addMethod("mustBeFoo", function(value, element) {\n    return (value.toLowerCase && (value.toLowerCase() === "foo"));\n},\n    "Must be foo!"\n);

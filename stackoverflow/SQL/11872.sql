@@ -1,0 +1,1 @@
+SELECT m.UserID, m.MovieID, r.Rating\n    FROM (SELECT a.userid, b.movieid\n              FROM (SELECT DISTINCT UserID FROM Ratings) AS a,\n                   (SELECT DISTINCT MovieID FROM Ratings) AS b\n         ) AS m LEFT OUTER JOIN Ratings AS r\n         ON (m.MovieID = r.MovieID AND m.UserID = r.UserID)\n    ORDER BY m.UserID, m.MovieID;

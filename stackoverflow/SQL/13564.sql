@@ -1,0 +1,1 @@
+select top 1 * from table\nwhere ApplyDate <= '4/15/2008'\nand (startdate is null or startdate<= '4/15/2008')\nand (enddate is null or enddate >= '4/15/2008')\nand extid = '101'\norder by  ApplyDate desc

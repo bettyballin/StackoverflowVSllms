@@ -1,0 +1,1 @@
+scrollView.IsTabStop = false;\n\ninvisibleTextBox.Foreground = new SolidColorBrush(Colors.Transparent);\ninvisibleTextBox.Background = new SolidColorBrush(Colors.Transparent);\nCanvas.SetZIndex(invisibleTextBox, -1000);\ninvisibleTextBox.KeyDown += new KeyEventHandler(HandleKeyDown);\ninvisibleTextBox.KeyUp += new KeyEventHandler(HandleKeyUp);

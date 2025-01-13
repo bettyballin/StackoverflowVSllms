@@ -1,0 +1,1 @@
+itertools.groupby(biglist, operator.itemgetter(2))

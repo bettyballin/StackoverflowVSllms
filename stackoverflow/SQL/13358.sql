@@ -1,0 +1,1 @@
+select T.Name, C.Name \nfrom sys.tables T\njoin sys.columns C\non T.object_id = C.object_id\nand C.system_type_id = 61 -- I would do a little researcht o make sure 61 is all you need to return here

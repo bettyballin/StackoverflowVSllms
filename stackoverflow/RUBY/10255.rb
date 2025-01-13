@@ -1,0 +1,1 @@
+config.action_mailer.smtp_settings = { \n  :tls => true,\n  :address => "smtp.gmail.com",\n  :port => "587",\n  :domain => "mydomain.com", \n  :user_name => "user@mydomain.com", \n  :password => "mypassword", \n  :authentication => :login\n}

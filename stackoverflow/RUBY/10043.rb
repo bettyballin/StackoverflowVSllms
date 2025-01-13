@@ -1,0 +1,1 @@
+class User\n  def next_birthday\n    year = Date.today.year\n    mmdd = date_of_birth.strftime('%m%d')\n    year += 1 if mmdd < Date.today.strftime('%m%d')\n    mmdd = '0301' if mmdd == '0229' && !Date.parse("#{year}0101").leap?\n    return Date.parse("#{year}#{mmdd}")\n  end\nend\n\nusers = User.find(:all, :select => 'id, date_of_birth').sort_by(&:next_birthday).first(5)

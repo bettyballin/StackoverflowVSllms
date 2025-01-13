@@ -1,0 +1,1 @@
+window.addEvent('domready',this.domReady.bind(this));

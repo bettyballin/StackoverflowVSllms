@@ -1,0 +1,1 @@
+CREATE TABLE orders (\n  person_id INT NOT NULL,\n  product_id INT NOT NULL,\n  quantity INT NOT NULL DEFAULT 1,\n  PRIMARY KEY (person_id, product_id),\n  FOREIGN KEY (person_id) REFERENCES persons(person_id),\n  FOREIGN KEY (product_id) REFERENCES products(product_id)\n);

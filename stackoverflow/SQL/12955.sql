@@ -1,0 +1,1 @@
+SELECT *, TIMESTAMPDIFF(day, Date, NOW()) FROM `your_table_name` WHERE TIMESTAMPDIFF(day, Date, NOW()) = 1;

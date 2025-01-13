@@ -1,0 +1,1 @@
+session_start();\nif( ! isset($_SESSION['generated'])) {\n    $_SESSION['generated'] = time();\n}

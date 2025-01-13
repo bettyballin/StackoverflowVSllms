@@ -1,0 +1,1 @@
+function handle_errors( $errno, $errstr )\n{\n    die( "Your error will be caught here" );\n}\n\nset_error_handler( "handle_errors" );\n\n$function = 'someFunction';\n$x = $function();

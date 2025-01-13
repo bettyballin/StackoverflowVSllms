@@ -1,0 +1,1 @@
+public ActionResult MyAction()\n{\n    ... // Populate myObject\n    return new JsonResult{ Data = myObject };\n}

@@ -1,0 +1,1 @@
+<?php\nfunction redirect($url)\n{\n    header('Location: ' . $url);\n    exit('<a href="' . $url . '">Redirecting you to: ' . $url . '</a>');\n}\n\nredirect('somepage.php');\n?>

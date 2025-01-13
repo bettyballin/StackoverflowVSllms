@@ -1,0 +1,1 @@
+<appSettings>\n  <add key="ADIImageRoot" value="C:\DataTemp\ADI\Original\" />\n  <add key="ADIImageVariantsRoot" value="C:\DataTemp\ADI\Variants\" />\n</appSettings>

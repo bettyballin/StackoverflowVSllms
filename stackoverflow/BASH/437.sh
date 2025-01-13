@@ -1,0 +1,1 @@
+shell> mysqldump [options] db_name [tables]\nshell> mysqldump [options] --databases db_name1 [db_name2 db_name3...]\nshell> mysqldump [options] --all-databases

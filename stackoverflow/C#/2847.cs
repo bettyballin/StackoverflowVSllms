@@ -1,0 +1,1 @@
+long value = 0;\nfor (int i = 0; i < by.length; i++)\n{\n   value += ((long) by[i] & 0xffL) << (8 * i);\n}

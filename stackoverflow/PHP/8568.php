@@ -1,0 +1,1 @@
+function getTimestamp()\n{\n        return date("Y-m-d\TH:i:s") . substr((string)microtime(), 1, 8);\n}

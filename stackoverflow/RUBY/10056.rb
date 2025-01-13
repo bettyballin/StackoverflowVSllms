@@ -1,0 +1,1 @@
+<% form_remote_for (:job, @job, :url => {:action => :create}, :loading =>"$('loading').show()") do |f| %>\n# ...\n<% end %>

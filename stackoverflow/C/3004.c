@@ -1,0 +1,1 @@
+std::ifstream fifo;\nstd::string   line;\nbool          done = false;\n\n/* code to open your FIFO */\n\nwhile (!done)\n{\n    while (std::getline(fifo, line))\n    {\n        /* do stuff with line */\n    }\n    if (fifo.eof())\n    {\n        fifo.clear();  // Clear the EOF bit to enable further reading\n    }\n    else\n    {\n        done = true;\n    }\n}

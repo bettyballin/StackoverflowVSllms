@@ -1,0 +1,1 @@
+Dim year As New DateTime(DateTime.Now.Year, 1, 1)

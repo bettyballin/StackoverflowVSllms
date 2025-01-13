@@ -1,0 +1,1 @@
+SELECT *\nFROM myTable\nWHERE ( YEAR(myfield) = '2009')\n  AND ( MONTH(myfield) = '1')

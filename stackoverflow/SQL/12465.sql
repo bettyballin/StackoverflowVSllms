@@ -1,0 +1,1 @@
+select distinct country, city\nfrom <Table>\norder by country, city;

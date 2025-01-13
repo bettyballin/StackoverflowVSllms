@@ -1,0 +1,1 @@
+User.find :all, :conditions => [ 'roles.id is ? or roles.id != ?', nil, Role[:admin].id ], :include => :roles

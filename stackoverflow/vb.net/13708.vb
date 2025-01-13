@@ -1,0 +1,1 @@
+If Not Debugger.IsAttached Then\n  DoSomething()\nEnd If

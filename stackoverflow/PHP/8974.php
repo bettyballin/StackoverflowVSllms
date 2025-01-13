@@ -1,0 +1,1 @@
+function checkArray($array) {\n    ...\n    if (is_array($node)) {  // or whatever other criterium\n        checkArray($node);  // same function\n    }\n}

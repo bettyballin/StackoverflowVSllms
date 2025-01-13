@@ -1,0 +1,1 @@
+SELECT TOP 5 Id, Name FROM customerNames\nORDER BY NEWID()

@@ -1,0 +1,1 @@
+UPDATE forum SET replys = reply - 1 WHERE fid = '$id'

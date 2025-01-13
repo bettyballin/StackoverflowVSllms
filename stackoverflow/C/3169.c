@@ -1,0 +1,1 @@
+char a[30][10];  // declares a char array of 30 rows and 10 columns.\n\n// declare an array with 3 rows and 3 columns, and provide initial values\nchar ticTacToeBoard[3][3] = {{'x', 'x', 'o'},\n                             {'o', 'o', 'x'},\n                             {'x', 'o', ' '}\n                            };

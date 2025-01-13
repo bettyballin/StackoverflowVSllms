@@ -1,0 +1,1 @@
+object.Equals(value, default(T))

@@ -1,0 +1,1 @@
+LEFT JOIN weblog_data AS pwd1 ON (pwd.field_id_41 != '' AND pwd.field_id_41 = ewd.field_id_32)\nLEFT JOIN weblog_data AS pwd2 ON (pwd.field_id_41 != '' AND pwd.field_id_41 LIKE CONCAT('%', ewd.field_id_32, '%'))

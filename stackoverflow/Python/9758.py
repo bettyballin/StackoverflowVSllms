@@ -1,0 +1,1 @@
+def burninate(b):\n    c = []\n    b = list(b)\n    for i in range(3):\n        c.append(b.pop())\n    return c

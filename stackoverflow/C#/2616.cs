@@ -1,0 +1,1 @@
+using System.IO;\n\nFile.SetAttributes(filePath, FileAttributes.Normal);\nFile.Delete(filePath);

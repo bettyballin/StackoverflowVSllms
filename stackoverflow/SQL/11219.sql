@@ -1,0 +1,1 @@
+select wathever from user where loggging=1 and user="aUser" and passwd="password"

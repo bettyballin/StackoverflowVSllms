@@ -1,0 +1,1 @@
+select @var1 = avg(someColumn), @var2 = avg(otherColumn) \nfrom theTable

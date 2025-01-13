@@ -1,0 +1,1 @@
+DECLARE @customerid int;\nINSERT INTO customers(name) VALUES('Spencer');\nSET @customerid = @@IDENTITY;

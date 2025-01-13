@@ -1,0 +1,1 @@
+BEGIN TRANSACTION\nIF EXISTS (SELECT * FROM the_table WHERE pk = 'whatever')\n    UPDATE the_table SET data = 'stuff' WHERE pk = 'whatever'\nELSE\n    INSERT INTO the_table (pk, data) VALUES ('whatever', 'stuff')\nCOMMIT

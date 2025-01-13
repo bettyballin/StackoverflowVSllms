@@ -1,0 +1,1 @@
+raiserror('Oh no a fatal error', 20, -1) with log

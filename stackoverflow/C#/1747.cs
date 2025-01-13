@@ -1,0 +1,1 @@
+public ActionResult Contacts(){\n    ViewData["contacts"] = arrayOfContacts[];\n    ...\n    return View();\n}

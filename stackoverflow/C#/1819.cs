@@ -1,0 +1,1 @@
+from row in table.AsEnumerable()\nwhere row.Foo.Split(new char[] {' ', '\t'}, StringSplitOptions.None)\n    .Contains("abc")\nselect row

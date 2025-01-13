@@ -1,0 +1,1 @@
+foreach(ObjectType objectItem in objectTypeList)\n{\n    // ...do some stuff\n}

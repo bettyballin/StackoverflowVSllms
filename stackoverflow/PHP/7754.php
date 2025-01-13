@@ -1,0 +1,1 @@
+<span>\n<?php\n  echo $myMessage;\n?>\n</span>

@@ -1,0 +1,1 @@
+DATA_BLOB blobIn, blobOut;\nblobIn.pbData=(BYTE*)data;\nblobIn.cbData=wcslen(data)*sizeof(WCHAR);\n\nCryptProtectData(&blobIn, description, NULL, NULL, NULL, CRYPTPROTECT_LOCAL_MACHINE | CRYPTPROTECT_UI_FORBIDDEN, &blobOut);\n_encrypted=blobOut.pbData;\n_length=blobOut.cbData;

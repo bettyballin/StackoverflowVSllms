@@ -1,0 +1,1 @@
+$form = new Zend_Form();\n\n$subForm = new Zend_Form_SubForm();\n$subForm->addElement('Text', '1')\n        ->addElement('Text', '2');\n\n$form->addSubForm($subForm, 'element');

@@ -1,0 +1,1 @@
+if ( true || false )\n{\n    /* the first expression is evaluated, it is true, we enter the 'if' block */\n}\n\nint i = 1 | 0;  /* i == 1 */

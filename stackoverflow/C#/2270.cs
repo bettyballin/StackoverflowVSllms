@@ -1,0 +1,1 @@
+public class Foo\n{\n  public int id {get;set;}\n  public string name {get;set;}\n  public string colour {get;set;}\n}\n\npublic class Bar\n{\n  public int id {get;set;}\n  public List<Foo> Foos {get;set;}\n}

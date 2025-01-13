@@ -1,0 +1,1 @@
+public struct Guid\n{\n  public ulong Data1;\n  public ushort Data2;\n  public ushort Data3;\n  public fixed byte Data4[8];\n}

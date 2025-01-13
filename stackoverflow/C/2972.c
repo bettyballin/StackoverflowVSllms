@@ -1,0 +1,1 @@
+boost::gil::jpeg_read_dimensions (const char *filename)

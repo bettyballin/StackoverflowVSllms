@@ -1,0 +1,1 @@
+SaveOrderCommand = new DelegateCommand<object>(this.Save, this.CanSave);\n\nprivate bool CanSave(object arg)\n{\n     return this.errors.Count == 0 && this.Quantity > 0;\n}

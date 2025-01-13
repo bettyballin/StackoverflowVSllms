@@ -1,0 +1,1 @@
+<Column Name="[IDENTITY]" Member="IDENTITY" Type="System.Guid" \n            DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" \n            CanBeNull="false" IsDbGenerated="true"/>

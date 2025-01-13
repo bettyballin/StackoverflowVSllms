@@ -1,0 +1,1 @@
+Dim variable As T\n' or '\nDim variable As T = Nothing\n' or '\nDim variable As New T()

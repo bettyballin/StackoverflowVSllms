@@ -1,0 +1,1 @@
+$('city').update("<option value='test'>This is a test</option>");

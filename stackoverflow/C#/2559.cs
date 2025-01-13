@@ -1,0 +1,1 @@
+var orderNumbers = ... your list ...\n\n using (var dataContext = new OrdersDataContext()) // designer-generated context\n {\n     var orderTitles = dataContext.Orders\n                                  .Where( o => orderNumbers.Contains( o.OrderNumber ) )\n                                  .Select( o => o.OrderTitle );\n\n     ... now do something with the collection...\n }

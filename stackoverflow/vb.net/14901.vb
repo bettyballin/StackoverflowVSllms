@@ -1,0 +1,1 @@
+public Property Id() as Integer Implements IEntity.Id

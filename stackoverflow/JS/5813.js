@@ -1,0 +1,1 @@
+var studentId = null;\nj.getJSON(url, data, function(result)\n{\n    studentId = result.Something;\n});\n\n// studentId is still null right here, because this line \n// executes before the line that sets its value to result.Something

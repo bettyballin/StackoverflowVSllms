@@ -1,0 +1,1 @@
+public interface IOrderView\n{\n    Int32 ID{get; set;}\n    String Name{get; set;}\n    List<Item> Items {set;}\n}

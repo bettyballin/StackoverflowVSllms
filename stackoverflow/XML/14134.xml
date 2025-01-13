@@ -1,0 +1,1 @@
+<DrawingBrush Viewport="0,0,10,10" \n              ViewportUnits="Absolute"\n              TileMode="Tile">\n  <DrawingBrush.Drawing>\n    <DrawingGroup>\n      <GeometryDrawing Geometry="M0,0 L1,0 1,0.1, 0,0.1Z" Brush="Green" />\n      <GeometryDrawing Geometry="M0,0 L0,1 0.1,1, 0.1,0Z" Brush="Green" />\n    </DrawingGroup>\n  </DrawingBrush.Drawing>\n</DrawingBrush>

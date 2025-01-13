@@ -1,0 +1,1 @@
+public void Add(Address address) { m_Address.Add(address); }\npublic void Add(Email email) { m_Email.Add(email); }\npublic void Add(Phone phone) { m_Phone.Add(phone); }

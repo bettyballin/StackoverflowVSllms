@@ -1,0 +1,1 @@
+select ...., to_lob(long_raw) from old_table

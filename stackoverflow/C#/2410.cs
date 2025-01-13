@@ -1,0 +1,1 @@
+[AcceptVerbs(HttpVerbs.Post)]\npublic ActionResult Index(FormCollection form)\n{\n  // logic here to \n}

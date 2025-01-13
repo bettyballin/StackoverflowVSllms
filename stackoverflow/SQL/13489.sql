@@ -1,0 +1,1 @@
+Select Grade, (Count(Grade)* 100 / (Select Count(*) From MyTable)) as Score\nFrom MyTable\nGroup By Grade

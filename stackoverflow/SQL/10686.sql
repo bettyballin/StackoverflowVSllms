@@ -1,0 +1,1 @@
+declare @localVariable int\nexec @localVariable =GetMyValue\nselect @localVariable 

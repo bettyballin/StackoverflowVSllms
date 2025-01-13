@@ -1,0 +1,1 @@
+list1 = From t In list1 Where Not list2.Any(l => t.column1 = l.column1 AndAlso t.column2 = l.column2)

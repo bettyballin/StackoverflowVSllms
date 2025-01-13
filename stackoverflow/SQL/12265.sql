@@ -1,0 +1,1 @@
+EXEC sp_addlinkedserver 'MyOtherServer', N'SQL Server'\n\n\nEXEC sp_addlinkedsrvlogin \n   'MyOtherServer', \n   'false', \n   'OtherServerDomain\DomainUser', \n   'DomainUserName', \n   'DomainPassword'

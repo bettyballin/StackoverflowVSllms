@@ -1,0 +1,1 @@
+DECLARE @id [type]\nSELECT @id = MIN([id]) FROM [table]\nWHILE @id IS NOT NULL\nBEGIN\n    EXEC [sproc] @id\n    SELECT @id = MIN([id]) FROM [table] WHERE [id] > @id\nEND

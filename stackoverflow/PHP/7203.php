@@ -1,0 +1,1 @@
+child1.document.write("<?php echo htmlspecialchars(json_encode($row2['ARTICLE_DESC']), ENT_QUOTES); ?>");

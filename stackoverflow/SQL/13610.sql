@@ -1,0 +1,1 @@
+SQL_Latin1_General_Cp437_BIN

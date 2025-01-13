@@ -1,0 +1,1 @@
+<%= check_box_tag "todo_ids[#{todo.id}]", todo.id %>

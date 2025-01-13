@@ -1,0 +1,1 @@
+var d = (function() {\n    var funcs = [];\n\n    function fire() {\n        for (var i=0; i<funcs.length; ++i) {\n          funcs[i].call();\n        }\n    }\n\n    function register(newfunc) {\n        funcs.push(newfunc);\n    }    \n\n    return {\n        fire: fire,\n        register: register\n    };\n})();

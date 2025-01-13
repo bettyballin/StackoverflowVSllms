@@ -1,0 +1,1 @@
+sed -n '\n/^xxxx/{n\n        n\n        x\n        d\n       }\nx\n1d\np\n${x\n  p\n }\n' <input file>

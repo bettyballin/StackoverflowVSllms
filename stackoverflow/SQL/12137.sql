@@ -1,0 +1,1 @@
+UPDATE\n    dbo.SomeTable\nSET\n    LastModifiedOn = GETDATE()\nWHERE\n    EXIST (SELECT * FROM INSERTED I WHERE I.[ID] = dbo.SomeTable.[ID]

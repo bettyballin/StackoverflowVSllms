@@ -1,0 +1,1 @@
+<script language="JavaScript">\n<!-- \n    var d= new Date();\n    document.write('<input type="hidden" name="timeZoneOffset" ');\n    if (d) {\n        document.write('value="' + d.getTimezoneOffset()/60 + '">');\n    } else {\n        document.write('value="n/a">');\n    }\n// -->\n</script>\n<noscript>\n    <input type="hidden" name="timeZoneOffset" value="n/a">\n</noscript>

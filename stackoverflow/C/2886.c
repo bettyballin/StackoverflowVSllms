@@ -1,0 +1,1 @@
+s = socket(PF_INET, SOCK_STREAM, proto);

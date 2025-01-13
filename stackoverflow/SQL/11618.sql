@@ -1,0 +1,1 @@
+SELECT top 100 *\nFROM news\nORDER BY date desc

@@ -1,0 +1,1 @@
+cmd.CommandType = CommandType.Text;\n    cmd.Parameters.AddWithValue("@id", ...); // your id arg\n    cmd.Parameters.AddWithValue(... , ...); // your other args...\n    cmd.CommandText = @"\nDECLARE @TaskType int -- or whatever\n\nSELECT @TaskType = // some existing query based on @id\n\nEXEC getrecords @TaskType, ...\n";

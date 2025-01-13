@@ -1,0 +1,1 @@
+public function action1Action(){\n     $this->_helper->viewRenderer->setNoRender();\n     // the rest of your code\n }

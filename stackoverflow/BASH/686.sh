@@ -1,0 +1,1 @@
+$ #DON'T DO THIS UNLESS YOU CAN AFFORD TO LOSE ALL YOUR DATA!\n$ python PROJECT_DIR/manage.py syncdb

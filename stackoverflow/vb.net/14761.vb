@@ -1,0 +1,1 @@
+public const ADate as Date = #12/31/04#

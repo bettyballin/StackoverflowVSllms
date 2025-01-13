@@ -1,0 +1,1 @@
+currentReport.Element("recomendations").ReplaceNodes(XElement.Parse(myCallreports.Comments));

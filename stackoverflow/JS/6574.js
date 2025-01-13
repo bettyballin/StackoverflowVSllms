@@ -1,0 +1,1 @@
+jQuery.fn.identify = function(prefix) {\n    var i = 0;\n    return this.each(function() {\n        if(this.id) return;\n        do { \n            i++;\n            var id = prefix + '_' + i;\n        } while($('#' + id).length > 0);            \n        $(this).attr('id', id);            \n    });\n};\n\n$('span').identify('test');

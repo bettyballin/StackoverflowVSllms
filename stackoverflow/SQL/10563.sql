@@ -1,0 +1,1 @@
+Select A.* from Users A JOIN dbo.Fn_Split(@ValueArrayString, '|') B on A.FirstName = B.value 

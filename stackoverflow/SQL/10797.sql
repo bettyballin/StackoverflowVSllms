@@ -1,0 +1,1 @@
+select case\n    when amount = 100 and date is not null then 'something'\n    else 'something else'\n    end

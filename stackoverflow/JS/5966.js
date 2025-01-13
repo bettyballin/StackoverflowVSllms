@@ -1,0 +1,1 @@
+var labels = document.getElementsByTagName('LABEL');\nfor (var i = 0; i < labels.length; i++) {\n    if (labels[i].htmlFor != '') {\n         var elem = document.getElementById(labels[i].htmlFor);\n         if (elem)\n            elem.label = labels[i];         \n    }\n}

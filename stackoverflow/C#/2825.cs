@@ -1,0 +1,1 @@
+var encodedHtml = HttpContext.Current.Server.HtmlEncode(...);

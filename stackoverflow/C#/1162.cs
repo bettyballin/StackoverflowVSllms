@@ -1,0 +1,1 @@
+@"(?is)<SPAN\b[^>]*>\s*(<SPAN\b[^>]*>.*?</SPAN>)\s*</SPAN>"

@@ -1,0 +1,1 @@
+if (osl_keys->held.up)    \n {\n   if (bushcol == 0)\n   {\n     sprite->y -= 4;\n     sprite_position = UP;\n     SpriteAnimate();\n   }\n   else\n   { \n     sprite->y = bush->y + 2;\n     bushcol = 0;\n   }\n }

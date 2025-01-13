@@ -1,0 +1,1 @@
+SomeClass::function1(...)\n{\n/* ... */\n    throw std::runtime_error("The foo blortched the baz!");\n/* ... */\n}

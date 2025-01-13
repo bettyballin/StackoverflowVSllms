@@ -1,0 +1,1 @@
+select cur.*\nfrom orders cur\nleft join orders prev \n    on cur.webordernumber = prev.webordernumber + 1\n    and cur.webstoreid = prev.webstoreid\nwhere cur.webordernumber <> 1\nand prev.webordernumer is null

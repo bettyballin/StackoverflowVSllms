@@ -1,0 +1,1 @@
+function custom_mysql_query($sql)\n{\n    $GLOBAL['query_count'] ++;\n    return mysql_query($sql);\n}

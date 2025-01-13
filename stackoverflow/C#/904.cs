@@ -1,0 +1,1 @@
+var items = from row in dtData.AsEnumerable()\n            select row.Field<Guid>("SomeField");\nvar validValues = new HashSet<Guid>(items);

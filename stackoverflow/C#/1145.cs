@@ -1,0 +1,1 @@
+resultLabel.Attributes.Add("style", "align=center");

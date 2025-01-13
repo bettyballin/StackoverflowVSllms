@@ -1,0 +1,1 @@
+SELECT NVL(dateCol, to_date('31/01/2009','dd/MM/yyyy')) FROM dataTable

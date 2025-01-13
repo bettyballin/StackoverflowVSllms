@@ -1,0 +1,1 @@
+foo = Version.find(:all, :joins=>"JOIN editions ON versions.edition_id=editions.id JOIN products ON editions.product_id=products.id", :select=>"products.name, versions.name AS what")\nputs foo.inspect 

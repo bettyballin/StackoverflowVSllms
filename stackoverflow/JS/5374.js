@@ -1,0 +1,1 @@
+// Checks CSS content for display:[none|block], ignores visibility:[true|false]\n$(element).is(":visible");\n\n// The same works with hidden\n$(element).is(":hidden");

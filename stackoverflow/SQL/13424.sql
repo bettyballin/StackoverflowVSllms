@@ -1,0 +1,1 @@
+\nselect (CONVERT(VARCHAR(10), YourField, 103) + ' ' + CONVERT(VARCHAR(15), YourField, 108)) as DateTime

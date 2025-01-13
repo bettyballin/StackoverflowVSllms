@@ -1,0 +1,1 @@
+<%= Ajax.ActionLink("Delete", "Delete", "Milestone", new { id = Model.Id }, \nnew AjaxOptions { HttpMethod = "GET", UpdateTargetId = "ModalDeleteContainer", \nOnSuccess = "modalDelete" }, new { })%>

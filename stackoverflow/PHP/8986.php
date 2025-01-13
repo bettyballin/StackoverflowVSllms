@@ -1,0 +1,1 @@
+$sth = mysqli_query($conn, "SELECT ...");\n$rows = array();\nwhile($r = mysqli_fetch_assoc($sth)) {\n    $rows[] = $r;\n}\nprint json_encode($rows);

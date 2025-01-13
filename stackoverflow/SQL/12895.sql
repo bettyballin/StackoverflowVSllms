@@ -1,0 +1,1 @@
+SELECT dbms_metadata.get_ddl('PROCEDURE','PROC1') FROM dual;

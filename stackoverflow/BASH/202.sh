@@ -1,0 +1,1 @@
+#!/usr/local/bin/expect\nspawn  sftp  -b cmdFile user@yourserver.com\nexpect "password:"\nsend "shhh!\n";\ninteract

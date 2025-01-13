@@ -1,0 +1,1 @@
+$url = 'http://my.url.com/';\n$data = file_get_contents( $url );\n\nif ( strpos( 'maybe baby love you', $data ) === false )\n{\n\n    // do something\n\n}

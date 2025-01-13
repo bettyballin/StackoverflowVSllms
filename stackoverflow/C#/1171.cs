@@ -1,0 +1,1 @@
+int expirationMinutes = Session.Timeout;\nif (System.Web.HttpContext.Current.Response.Cookies["monster"]!=null)\n{\n    System.Web.HttpContext.Current.Response.Cookies["monster"].Expires =\n                                 DateTime.Now.AddMinutes(expirationMinutes);\n}

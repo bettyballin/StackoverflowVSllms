@@ -1,0 +1,1 @@
+$pos = strpos($url,"megaupload");\n\nif($pos === false)\n{\n //skip checking\n}\nelse\n{\n  //go ahead and do the checking\n}

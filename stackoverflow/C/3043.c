@@ -1,0 +1,1 @@
+#ifdef SOME_CONDITION\n#define MYIMPORTEXPORT __declspec( dllexport )\n#else\n#define MYIMPORTEXPORT __declspec( dllimport )\n#endif

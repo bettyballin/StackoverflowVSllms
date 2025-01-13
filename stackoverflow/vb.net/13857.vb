@@ -1,0 +1,1 @@
+If Not Request.IsSecure\n    Response.Redirect(Request.Url.AbsoluteUri.Replace("http://", "https://"))\nEnd If

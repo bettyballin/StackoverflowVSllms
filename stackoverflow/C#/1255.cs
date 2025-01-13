@@ -1,0 +1,1 @@
+string programFiles = System.Environment.GetFolderPath(\n     System.Environment.SpecialFolder.ProgramFiles);

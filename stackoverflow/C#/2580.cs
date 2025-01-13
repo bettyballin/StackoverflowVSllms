@@ -1,0 +1,1 @@
+string [] strings = contactList.Select(c => c.Name).ToArray();\nstring csv = string.Join(",", strings);

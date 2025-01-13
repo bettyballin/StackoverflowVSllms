@@ -1,0 +1,1 @@
+SQL> EXEC DBMS_SESSION.SET_CONTEXT('CLIENTCONTEXT', 'myvar', 'myvalue');\n\nPL/SQL procedure successfully completed\n\nSQL> SELECT SYS_CONTEXT('CLIENTCONTEXT', 'myvar') FROM dual;\n\nSYS_CONTEXT('CLIENTCONTEXT','M\n--------------------------------------------------------------------------------\nmyvalue

@@ -1,0 +1,1 @@
+$(function() {\n  $("tr:nth-child(odd)").addClass("odd");\n});

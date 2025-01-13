@@ -1,0 +1,1 @@
+dcop $KONSOLE_DCOP_SESSION renameSession "I am renamed!"

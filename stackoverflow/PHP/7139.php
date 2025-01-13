@@ -1,0 +1,1 @@
+<?php\necho nl2br("foo isn't\n bar");\n//output: foo isn't<br /> bar\n?>

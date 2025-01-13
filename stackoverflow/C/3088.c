@@ -1,0 +1,1 @@
+std::vector<const char*> files;\nfiles.erase(remove_if(files.begin(), files.end(), RemovePredicate()), files.end());

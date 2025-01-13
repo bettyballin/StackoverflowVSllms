@@ -1,0 +1,1 @@
+SELECT \n    c.name as ColumneName, \n    c.colid As ColumnOrder, \n    st.name as UserType,\n    bt.name as BaseType\nFROM dbo.syscolumns c\nINNER JOIN dbo.systypes st ON st.xusertype = c.xusertype\nINNER JOIN dbo.systypes bt ON bt.xusertype = c.xtype\nWHERE c.id = OBJECT_ID('TableName')\nORDER BY c.colid

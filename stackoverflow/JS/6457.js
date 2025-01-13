@@ -1,0 +1,1 @@
+oCell = document.createElement("TD");\noSub = document.createElement("sub");\noSub.innerHTML = data;\noCell.appendChild(oSub);\noRow.appendChild(oCell);

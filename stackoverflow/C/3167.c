@@ -1,0 +1,1 @@
+class print_some : public basic_thread {\n    private:\n       int i;\n    public:     \n       print_some (int i) : i(i) {};\n       action_callback () {\n          std::cout << i << std::endl;\n       }\n    }\n    int main () {\n       print_some printer (155);\n    }

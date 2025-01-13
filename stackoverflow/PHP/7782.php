@@ -1,0 +1,1 @@
+foreach (glob("classes/*.php") as $filename)\n{\n    include $filename;\n}

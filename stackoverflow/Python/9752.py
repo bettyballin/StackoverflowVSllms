@@ -1,0 +1,1 @@
+>>> class TestGetitem(object):\n...   def __getitem__(self, item):\n...     print type(item), item\n... \n>>> t = TestGetitem()

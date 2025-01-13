@@ -1,0 +1,1 @@
+makecert -r -pe -n "CN=My CA" -ss CA -sr CurrentUser ^\n         -a sha256 -cy authority -sky signature -sv MyCA.pvk MyCA.cer

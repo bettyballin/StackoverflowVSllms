@@ -1,0 +1,1 @@
+$('#radiodj').click(function()  {        \n  $('#radiodj').hide('slow');        \n  $('div.radiodj').unblock();         \n});

@@ -1,0 +1,1 @@
+select count(*) from \n(select idCover from x90..dimCover group by idCover having count(*) > 1) a

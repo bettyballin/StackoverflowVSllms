@@ -1,0 +1,1 @@
+$controller->setControllerDirectory('./application/controllers')\n       ->setRouter($router)\n       ->setBaseUrl('/quickstart');

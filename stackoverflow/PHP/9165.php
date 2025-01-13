@@ -1,0 +1,1 @@
+\n     function doSomething()\n     {\n         global $con;\n         $con->tralalala();\n     }

@@ -1,0 +1,1 @@
+select * from queue_manager where priority_number = \n(select min(priority_number) from queue_manager) and  \ntimestamp = (select min(timestamp) \nfrom queue_manager qm2 \nwhere qm2.priority_number = queue_manager.priority_number)

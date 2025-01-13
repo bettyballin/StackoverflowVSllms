@@ -1,0 +1,1 @@
+int id = ... // the primary key we want to look for\nusing(var ctx = new MydataContext()) {\n   SomeType record = ctx.SomeTable.Single(x => x.SomeColumn == id);\n   //... etc\n\n   // ctx.SubmitChanges(); // to commit any updates\n}

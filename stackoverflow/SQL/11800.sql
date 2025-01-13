@@ -1,0 +1,1 @@
+SELECT ROW_NUMBER() OVER (ORDER BY beatle_name ASC) AS ROWID, * FROM beatles

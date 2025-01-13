@@ -1,0 +1,1 @@
+select distinct c1, c2 from t

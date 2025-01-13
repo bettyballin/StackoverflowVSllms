@@ -1,0 +1,1 @@
+private Boolean _itemValidatorDisplayed;\npublic Boolean ItemValidatorDisplayed\n{\n    get { return _itemValidatorDisplayed; }\n    set\n    {\n        _itemValidatorDisplayed= value;\n        _OnPropertyChanged("ItemValidatorDisplayed");\n    }\n}

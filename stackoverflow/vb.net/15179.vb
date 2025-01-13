@@ -1,0 +1,1 @@
+Dim g = CType(obj, System.Guid)

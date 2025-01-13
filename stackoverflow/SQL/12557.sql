@@ -1,0 +1,1 @@
+SELECT COUNT(*), SUM(SUBQUERY.AGE) from\n(\n  SELECT availables.bookdate AS Date, DATEDIFF(now(),availables.updated_at) as Age\n  FROM availables\n  INNER JOIN rooms\n  ON availables.room_id=rooms.id\n  WHERE availables.bookdate BETWEEN '2009-06-25' AND date_add('2009-06-25', INTERVAL 4 DAY) AND rooms.hostel_id = 5094\n  GROUP BY availables.bookdate\n) AS SUBQUERY

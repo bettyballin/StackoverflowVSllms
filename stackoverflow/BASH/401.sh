@@ -1,0 +1,1 @@
+apt-get install postgresql-8.3 postgresql-contrib-8.3

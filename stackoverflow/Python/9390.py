@@ -1,0 +1,1 @@
+inches_per_meter = 39.3700787\ninches_total = round(meters * inches_per_meter)  /* round to integer */\nfeet = inches_total / 12  /* assumes division truncates result; if not use floor() */\ninches = inches_total % 12 /* modulus */

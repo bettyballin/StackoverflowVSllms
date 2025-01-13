@@ -1,0 +1,1 @@
+foreach(RepeaterItem item in rptQuestions.Items)\n{\n   //pull out question\n   var question = (Question)item.DataItem;\n   question.Answer = ((TextBox)item.FindControl("txtAnswer")).Text;\n\n   question.Save() ?  <--- not sure what you want to do with it\n}

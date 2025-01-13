@@ -1,0 +1,1 @@
+IsNull(rs.Fields("MiddleInitial").Value)

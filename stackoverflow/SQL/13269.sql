@@ -1,0 +1,1 @@
+sp_configure 'show advanced options', 1\nreconfigure\ngo\nsp_configure 'max degree of parallelism', 1\nreconfigure

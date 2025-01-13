@@ -1,0 +1,1 @@
+$('#myForm').submit(function(){\n  // get the value of your UI\n  var calendarValue = calendarWidget.getValue()\n\n  // #calendarData is the hidden field\n  $('#calendarData').val(calendarValue)\n})

@@ -1,0 +1,1 @@
+select table_name, max(num_rows) from all_tables where table_name in ('A', 'B', 'C');

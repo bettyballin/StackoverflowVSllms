@@ -1,0 +1,1 @@
+alter procedure p_myproc (@p1 int) as\ndeclare @p1_copy int;\nset @p1_copy = @p1;

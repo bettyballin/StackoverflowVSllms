@@ -1,0 +1,1 @@
+int val = (int) target;\nstring valString = val.ToString();

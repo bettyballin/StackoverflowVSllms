@@ -1,0 +1,1 @@
+SELECT TOP 10 AccountId, Score\nFROM Scores s1\nWHERE AccountId NOT IN \n    (SELECT AccountId s2 FROM Scores \n     WHERE s1.AccountId = s2.AccountId and s1.Score > s2.Score)\nORDER BY Score DESC

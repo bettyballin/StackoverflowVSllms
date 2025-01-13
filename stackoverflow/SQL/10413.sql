@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION isnumeric(p_string in varchar2)\nRETURN BOOLEAN\nAS\n    l_number number;\nBEGIN\n    l_number := p_string;\n    RETURN TRUE;\nEXCEPTION\n    WHEN OTHERS THEN\n        RETURN FALSE;\nEND;\n/

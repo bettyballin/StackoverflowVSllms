@@ -1,0 +1,1 @@
+JHTML::_('behavior.mootools');\n\n$doc = JFactory::getDocument()\n$doc->addScript($scriptURL);

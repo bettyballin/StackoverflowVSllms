@@ -1,0 +1,1 @@
+public interface IX { }\npublic interface IY { }\npublic class Test : IX { }

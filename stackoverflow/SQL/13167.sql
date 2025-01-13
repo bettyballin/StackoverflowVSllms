@@ -1,0 +1,1 @@
+SELECT MAX(e.name) AS name, MAX(e.occupation) AS occupation \nFROM emp e \n  LEFT OUTER JOIN emp e2 \n    ON (e.occupation = e2.occupation AND e.emp_id <= e2.emp_id) \nGROUP BY e.emp_id \nHAVING COUNT(*) <= 3 \nORDER BY occupation;

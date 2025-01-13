@@ -1,0 +1,1 @@
+>>> import uuid\n>>> u = uuid.uuid4()\n>>> u\nUUID('d94303e7-1be4-49ef-92f2-472bc4b4286d')\n>>> u.bytes\n'\xd9C\x03\xe7\x1b\xe4I\xef\x92\xf2G+\xc4\xb4(m'\n>>> len(u.bytes)\n16\n>>> 

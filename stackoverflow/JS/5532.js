@@ -1,0 +1,1 @@
+$("#myform").validate({\n   ignore: ".ignore"\n})

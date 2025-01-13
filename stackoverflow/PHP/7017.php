@@ -1,0 +1,1 @@
+<?php\nclass X\n{\n    function __destruct()\n    {\n        $fp = fopen("/var/www/htdocs/dtor.txt", "w+");\n        fputs($fp, "Destroyed\n");\n        fclose($fp);\n    }\n};\n\n$obj = new X();\nwhile (true) {\n    // do nothing\n}\n?>

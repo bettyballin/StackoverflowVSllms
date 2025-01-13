@@ -1,0 +1,1 @@
+ctx.translate(85, 85);\nctx.rotate(5 * Math.PI / 180);

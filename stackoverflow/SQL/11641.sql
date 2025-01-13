@@ -1,0 +1,1 @@
+select top 5 * \nfrom (select * from news_table order by news_date) 

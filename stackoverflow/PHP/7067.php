@@ -1,0 +1,1 @@
+$linkToXmlFile = "compress.zlib:///path/to/xml/file.gz";\n$xml = new XMLReader();\n$xml->open($linkToXmlFile);

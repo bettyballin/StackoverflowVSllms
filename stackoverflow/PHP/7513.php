@@ -1,0 +1,1 @@
+function myFunction(array $argument){\n    echo var_export($argument,true);\n}\n$a = new ArrayObject();\n$a[] = 'hello';\n$a[] = 'and goodbye';\n\nmyFunction((array)$a);  

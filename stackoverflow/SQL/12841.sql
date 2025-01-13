@@ -1,0 +1,1 @@
+\ncreate table #refTrack \n(\n    tbl sysname,\n    id int, \n    refId int\n)\n\ninsert InvoiceDetail (refId, invoiceNum, sequence, description, price)\noutput 'InvoiceDetail', inserted.id, inserted.refId into #refTrack \nselect invoiceNum, invoiceNum, sequence, description, price from InvoiceDetail \nwhere custID = 808 -- denormalized original Bob^s custID

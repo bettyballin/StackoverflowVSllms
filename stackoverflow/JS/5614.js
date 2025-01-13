@@ -1,0 +1,1 @@
+var options = $$('select#mySelect option');\nvar len = options.length;\nfor (var i = 0; i < len; i++) {\n    console.log('Option text = ' + options[i].text);\n    console.log('Option value = ' + options[i].value);\n}

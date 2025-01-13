@@ -1,0 +1,1 @@
+SELECT t.Id, t.Name AS Topic, \n       MAX(r.Date) AS LastModified, \n       COUNT(*) AS NumReplies\nFROM Forum_Topic t\nLEFT OUTER JOIN Forum_Reply r ON t.id = r.topic_id\nGROUP BY t.Id, t.Name

@@ -1,0 +1,1 @@
+from pprint import pprint\n\npprint(globals())\npprint(locals())

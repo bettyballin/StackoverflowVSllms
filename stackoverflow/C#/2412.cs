@@ -1,0 +1,1 @@
+string text;\nusing (var stream = typeof(SomeTypeInYourAssembly).Assembly.GetManifestResourceStream (resourceId))\n    using (var sr = new StreamReader (stream))\n        text = sr.ReadToEnd ();

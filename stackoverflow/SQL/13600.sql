@@ -1,0 +1,1 @@
+SELECT\n     TheXML.TheCookie.value('(id[1])', 'varchar(20)') AS CookieName\n   , TheXML.TheCookie.query('.') AS CookieData\n   , Sub.SubCookie.value('local-name(.)', 'varchar(20)') AS SubCookieName\nFROM\n   @xmlcon.nodes('//Cookie') AS TheXML(TheCookie)\nCROSS APPLY\n    TheXML.TheCookie.nodes('./*') as Sub(SubCookie)

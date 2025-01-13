@@ -1,0 +1,1 @@
+replace(replace(@input,'search1','replace1'),'search2','replace2')

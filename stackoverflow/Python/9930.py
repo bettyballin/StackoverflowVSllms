@@ -1,0 +1,1 @@
+{'date_field__range': (datetime.datetime.combine(date, datetime.time.min),\n                       datetime.datetime.combine(date, datetime.time.max))} 

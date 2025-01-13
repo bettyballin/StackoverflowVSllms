@@ -1,0 +1,1 @@
+select * from (select * from categories order by rand() limit 3) c order by name

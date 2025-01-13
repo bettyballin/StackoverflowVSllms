@@ -1,0 +1,1 @@
+[TestMethod]\n public void ConstructorTest()\n {\n      IntPtr handle = new IntPtr(100);\n      MapinfoWindowHandle winHandle = new MapinfoWindowHandle(handle);\n      Assert.AreEqual( handle, ((IWin32Window)winHandle).Handle );\n }

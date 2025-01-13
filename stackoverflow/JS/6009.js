@@ -1,0 +1,1 @@
+jQuery.fn.extend({\n    textOnly: function() {\n        // make a clone of this object so we are not changing the actual DOM\n        var obj = $(this).clone();\n\n        // remove all the children, i.e. any DOM objects\n        obj.children().remove();\n\n        // get the text value after all DOM elements are removed\n        return obj.text();\n    }\n});

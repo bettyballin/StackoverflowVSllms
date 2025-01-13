@@ -1,0 +1,1 @@
+<a href="http://localhost/cake_1.2.1.8004/index.php/forms/delete/<?php echo $r['Form']['id'];?>">\n    <img border="0" alt="Delete" src="/cake_1.2.1.8004/app/webroot/img/delete.png"/>\n</a>

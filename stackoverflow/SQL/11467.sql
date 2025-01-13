@@ -1,0 +1,1 @@
+SELECT * FROM MyRemoteServer.MyDB.dbo.MyTable

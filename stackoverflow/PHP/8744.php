@@ -1,0 +1,1 @@
+switch($_GET['page']) {\n  case "one";\n      print "page one!";\n      break;\n  default:\n      print "default page";\n      break;\n}

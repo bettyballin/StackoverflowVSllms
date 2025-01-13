@@ -1,0 +1,1 @@
+pageSizeDropdown.AutoPostBack = true

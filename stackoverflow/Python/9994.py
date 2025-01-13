@@ -1,0 +1,1 @@
+min(points, key=lambda x: dist(pointToCompare2, x))

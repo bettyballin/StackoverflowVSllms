@@ -1,0 +1,1 @@
+// myinclude.php\n$value = 'foo';\n$otherValue = 'bar';\nreturn $value . $otherValue;\n\n\n// index.php\n$output = include './myinclude.php';\necho $output;\n// Will echo foobar

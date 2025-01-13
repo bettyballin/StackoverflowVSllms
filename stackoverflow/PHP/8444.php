@@ -1,0 +1,1 @@
+class Test {\n\npublic function a() {\n    echo "a";\n    return $this;\n}\n\npublic function b() {\n    echo "b";\n    return $this;\n}\n\npublic function c() {\n    echo "c";\n    return $this;\n}\n\n}\n\n$test = new Test();\n\n$test->a()->b()->c();

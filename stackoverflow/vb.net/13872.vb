@@ -1,0 +1,1 @@
+Dim tenItem = From t In _InvalidFeeList _\n              From i In ItemCount _\n              Where t.FeeCode <> i.FeeCode _\n              Order By t.Description _\n              Ascending Take (10) _\n              Select t  ' This is the new line '\n\nDim feeList As List(Of AccessorialFee) = tenItem.ToList()

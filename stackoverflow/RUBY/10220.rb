@@ -1,0 +1,1 @@
+[ cpm juno ~/apps/feedback ] cat lib/my_library.rb\nclass MyLib\n  def look_at_me\n    puts "I DO WEIRD STUFF"\n  end\nend

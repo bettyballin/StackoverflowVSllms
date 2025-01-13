@@ -1,0 +1,1 @@
+$output=`myapp $myinputparams`;

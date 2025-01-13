@@ -1,0 +1,1 @@
+[DllImport("dwmapi.dll", PreserveSig = false)]\npublic static extern bool DwmIsCompositionEnabled();

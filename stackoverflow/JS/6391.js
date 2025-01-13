@@ -1,0 +1,1 @@
+var result = prompt("Question", "Default text");\ndocument.getElementById("HiddenInputBox").value = result;\ndocument.HiddenForm.submit();

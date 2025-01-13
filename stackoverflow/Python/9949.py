@@ -1,0 +1,1 @@
+while gtk.events_pending():\n  gtk.main_iteration()

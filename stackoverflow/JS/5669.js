@@ -1,0 +1,1 @@
+$("someContainerDiv").insert(new Element("div", { id: "product_"+prodId, 'class':'prod' }))

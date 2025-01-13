@@ -1,0 +1,1 @@
+SELECT t1.*\nFROM yourtable t1\n LEFT OUTER JOIN yourtable t2 \n ON (t1.name = t2.name AND t1.seqnum > t2.seqnum)\nWHERE t2.seqnum IS NULL;

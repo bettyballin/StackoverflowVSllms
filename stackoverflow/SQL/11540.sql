@@ -1,0 +1,1 @@
+UPDATE Cells SET Cell = LEFT(Cell, 1) + '08' + SUBSTRING(Cell, 1, LEN(Cell)-1)

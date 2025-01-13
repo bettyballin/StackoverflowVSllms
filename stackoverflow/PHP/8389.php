@@ -1,0 +1,1 @@
+$xml = file_get_contents($xmlfile);\n$xml = preg_replace('/<Name>(.*)<\/Name>/e', "'<Name>' . strtolower('\\1') . '</Name>'",$xml); \nfwrite(fopen($xmlfile, 'wb'), $xml);

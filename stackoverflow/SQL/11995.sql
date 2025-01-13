@@ -1,0 +1,1 @@
+original code-->           Cast([Time]*@countgap/60 as nvarchar(50))    +':'+           Cast( [Time]*@countgap%60 as nvarchar(50))\nchanged code--->RIGHT('00'+Cast([Time]*@countgap/60 as varchar(2)  ),2) +':'+RIGHT('00'+Cast( [Time]*@countgap%60 as varchar(2)  ),2)

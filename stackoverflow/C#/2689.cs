@@ -1,0 +1,1 @@
+using System.ServiceProcess;  \n\nclass ServInstaller : ServiceInstaller\n{\n    protected override void OnCommitted(System.Collections.IDictionary savedState)\n    {\n        ServiceController sc = new ServiceController("YourServiceNameGoesHere");\n        sc.Start();\n    }\n}

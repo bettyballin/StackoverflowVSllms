@@ -1,0 +1,1 @@
+Time::DATE_FORMATS[:article] = "%a, %d %B %Y"

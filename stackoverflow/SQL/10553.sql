@@ -1,0 +1,1 @@
+SELECT donor_id, country_id FROM table WHERE ...;

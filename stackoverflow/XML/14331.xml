@@ -1,0 +1,1 @@
+<msbuild project="SimpleEcho.v35.proj">\n   <!-- this property enables MSBuild 3.5 -->\n   <property name="teamcity_dotnet_use_msbuild_v35" value="true"/>\n   ...\n </msbuild>

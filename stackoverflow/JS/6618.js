@@ -1,0 +1,1 @@
+$(function() {\n   Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler);\n\n   function EndRequestHandler(sender, args) {\n      $("div.scrollable").scrollable({\n         size: 3\n       });\n   }\n});

@@ -1,0 +1,1 @@
+$mysqldate = date( 'Y-m-d H:i:s', $phpdate );\n$phpdate = strtotime( $mysqldate );

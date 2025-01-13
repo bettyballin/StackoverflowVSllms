@@ -1,0 +1,1 @@
+PRIMARY KEY(table1ID, table2ID)

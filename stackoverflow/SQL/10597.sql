@@ -1,0 +1,1 @@
+SELECT AVG(covered)\nFROM (\n  SELECT CASE WHEN COUNT(*) >= 2 THEN 1 ELSE 0 END AS covered\n  FROM app a\n  LEFT JOIN skill s ON (s.id_app = a.id AND s.lvl >= 2)\n  GROUP BY a.id\n)

@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare('insert into foo (dt) values (?)');\n$dt = '2009-04-30 10:09:00';\n$stmt->bind_param('s', $dt);\n$stmt->execute();

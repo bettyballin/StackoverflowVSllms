@@ -1,0 +1,1 @@
+SELECT ROW_NUMBER() OVER (ORDER BY SomeField) AS Row, *\nFROM SomeTable

@@ -1,0 +1,1 @@
+#include <types.h>\nint BTRCALL(int op_code, char pos_block[], char data_buf[], int data_buf_len, char key_buf[], int key_buf_len, int16_t key_num)

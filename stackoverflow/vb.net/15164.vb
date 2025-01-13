@@ -1,0 +1,1 @@
+Imports System.Collections.Generic  'at top of file\n\n    Dim col As New Dictionary(Of String, Of Object) 'or whatever type\n    col.Add("key1", value1)\n    col.Add("key2", value2)    \n\n    For Each item as KeyValuePair(of String, Object) in col\n           Console.WriteLine(item.key & ": " & item.value)\n    Next

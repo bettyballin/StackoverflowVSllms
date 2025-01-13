@@ -1,0 +1,1 @@
+Private Sub Form_Error(DataErr As Integer, Response As Integer)\n   If DataErr=2107 Then\n      MsgBox "Validation error! "  & ActiveControl.Name\n   End If\nEnd Sub

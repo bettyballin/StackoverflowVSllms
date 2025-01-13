@@ -1,0 +1,1 @@
+function curtime()\n{\n        $tm = explode(' ', microtime());\n        return $tm[1] + $tm[0];\n}

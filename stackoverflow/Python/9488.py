@@ -1,0 +1,1 @@
+def children(self):\n    stack = [self.entities]\n    push = stack.append\n    pop = stack.pop\n    while stack: \n        for e in pop():\n            yield e\n            if e.entities:\n                push(e.entities)

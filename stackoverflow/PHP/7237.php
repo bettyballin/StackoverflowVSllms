@@ -1,0 +1,1 @@
+function getAge($then) {\n    $then_ts = strtotime($then);\n    $then_year = date('Y', $then_ts);\n    $age = date('Y') - $then_year;\n    if(strtotime('+' . $age . ' years', $then_ts) > time()) $age--;\n    return $age;\n}\nprint getAge('1990-04-04'); // 19\nprint getAge('1990-08-04'); // 18, birthday hasn't happened yet

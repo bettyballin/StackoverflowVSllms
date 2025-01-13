@@ -1,0 +1,1 @@
+string s = DateTime.Today.ToString("yyyyMMdd");

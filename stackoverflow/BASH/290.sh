@@ -1,0 +1,1 @@
+/usr/local/bin/php -f <path_to_your_php_script>

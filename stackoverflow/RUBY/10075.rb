@@ -1,0 +1,1 @@
+# Skip frameworks you're not going to use. To use Rails without a database,\n # you must remove the Active Record framework.\n config.frameworks -= [ :active_record, :active_resource, :action_mailer ]

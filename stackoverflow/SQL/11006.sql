@@ -1,0 +1,1 @@
+SELECT  *\nFROM    (   select          last_value(col1 ignore nulls) over () col1,\n                            last_value(col2 ignore nulls) over () col2,\n                            last_value(col3 ignore nulls) over () col3\n            from (select * from THE_TABLE ORDER BY ROW_PRIORITY)\n        )\nWHERE   ROWNUM = 1

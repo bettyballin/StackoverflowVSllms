@@ -1,0 +1,1 @@
+update \n  tablename\nset\n  fieldname = convert(nvarchar(max),fieldname) + 'appended string'

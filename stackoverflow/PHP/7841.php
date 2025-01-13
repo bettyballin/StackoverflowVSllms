@@ -1,0 +1,1 @@
+<?php\n  $tstart = microtime(true);\n\n  php_uname('a');\n\n  print 'it took '. sprintf("%f",microtime(true) - $tstart) ." seconds\n";\n?>

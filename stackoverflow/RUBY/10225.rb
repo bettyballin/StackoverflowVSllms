@@ -1,0 +1,1 @@
+class DefaultController < ApplicationController\n\n  def index\n    raise "FAIL"\n  end\n\n  def rescue_action(exception)\n    respond_to do |format|\n      format.html { render :text => "Rescued HTML" }\n      format.js { render :action => "errors" }\n    end\n  end\nend

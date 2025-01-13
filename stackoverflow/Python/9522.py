@@ -1,0 +1,1 @@
+shiftArray( theArray, M ):\n    size = len( theArray )\n    assert( size > M )\n    reverseArray( theArray, 0, size - 1 )\n    reverseArray( theArray, 0, M - 1 )\n    reverseArray( theArray, M, size - 1 )

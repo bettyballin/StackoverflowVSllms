@@ -1,0 +1,1 @@
+import math\n\ndef next_multiple(x, y):\n    return math.ceil(x/y)*y\n\ndef try_it(x, y):\n    print x, y, next_multiple(x, y)\n\nfor x, y in [\n    (1.002, 0.1),\n    (0.348, 0.1),\n    (0.50, 1),\n    (0.32, 0.05)\n    ]:\n    try_it(x, y)

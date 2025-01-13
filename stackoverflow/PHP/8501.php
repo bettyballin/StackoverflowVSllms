@@ -1,0 +1,1 @@
+<pre>\nclass dododo{\n   public $poop;\n   public function __construct(){\n        $this->poop = new arraytest();\n    }\n    public function foo()\n    {echo 'bar';}\n}\n</pre>

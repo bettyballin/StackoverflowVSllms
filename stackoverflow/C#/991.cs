@@ -1,0 +1,1 @@
+DataSet1 ds = new DataSet1();\n\n//load data\nDataSet1.ChildTable.SortExpression = "Order";\n\nDataSet1.ParentTableRow parentRow = ds.ParentTable.FindByID(1);\nDataSet1.ChildTableRow[] childRows = parentRow.GetChildTableRows();\nArray.Sort<DataSet1.ChildTableRow>(childRows, new ChildTableCoparer());\n//Enumerate fields is right order    

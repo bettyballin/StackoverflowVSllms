@@ -1,0 +1,1 @@
+'"' . implode('","', array_map('mysql_real_escape_string', $data)) . '"'

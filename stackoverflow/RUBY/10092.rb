@@ -1,0 +1,1 @@
+ruby -ne 'BEGIN{@head=[];@data=[]}; @head << $1 && @data << $2 if $_.match(/^---(\S+): (\S+)$/); END{puts @head.join(",");puts @data.join(",")}' $FILE

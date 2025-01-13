@@ -1,0 +1,1 @@
+Select * From Users\nLeft Join Photos On (Photos.user_id = Users.id)\nLeft Join Comments On (Comments.user_id = Users.id)\nGroup By UserId\nOrder By (Count(Photos.id) + Count(Comments.id))

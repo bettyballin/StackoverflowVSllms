@@ -1,0 +1,1 @@
+include_once "markdown.php";\n$my_html = Markdown($my_text);

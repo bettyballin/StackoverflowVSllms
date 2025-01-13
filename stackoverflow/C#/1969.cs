@@ -1,0 +1,1 @@
+string input = "\\\\server\\d$\\x\\y\\z\\AAA";

@@ -1,0 +1,1 @@
+c:> cd directory\nc:> dir > files.txt

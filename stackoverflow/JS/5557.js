@@ -1,0 +1,1 @@
+Ajax.Responders.register({\n  onCreate: function() {\n    $('loader').show();\n    Ajax.activeRequestCount++;\n  },\n  onComplete: function() {\n    Ajax.activeRequestCount--;\n    if (Ajax.activeRequestCount < 1) $('loader').hide();\n  }\n});

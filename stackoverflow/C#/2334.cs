@@ -1,0 +1,1 @@
+MyCommand.Parameters.AddWithValue(\n    "@UserGuid", new Guid("e7bf9773-8231-44af-8d53-e624f0433943"));

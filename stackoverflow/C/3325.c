@@ -1,0 +1,1 @@
+LONG err = RegOpenKeyEx(....,KEY_READ|KEY_WRITE);\nif(err) {\n  // Test err to see if its a permission error. if so, the user does not have permission.

@@ -1,0 +1,1 @@
+$tests = array('A', 'MX', 'NS', 'SOA', 'PTR', 'CNAME', 'AAAA', 'A6', 'SRV', 'NAPTR', 'TXT', 'ANY');\nforeach ($tests as $type) {\n  echo "  Type = $type : ";\n  var_dump(checkdnsrr("test.com", $type));\n}

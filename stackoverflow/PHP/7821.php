@@ -1,0 +1,1 @@
+$dom = new DOMDocument();\n$dom->loadXML(file_get_contents('php://input'));\n\n$data = $dom->getElementsByTagName('data');\n$data = $data[0]->asXML();

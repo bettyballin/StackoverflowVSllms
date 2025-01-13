@@ -1,0 +1,1 @@
+<?php\n// here is where\n// you want your\n// user authentication\n\nif ($isAuthenticated)\n{\n  header("Content-type: video/flv");\n  echo file_get_contents($pathToFLV);\n}\n?>

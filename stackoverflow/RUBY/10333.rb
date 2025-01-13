@@ -1,0 +1,1 @@
+sum = 0\nfor i from 1 to 100\n  sum = sum + i\nend

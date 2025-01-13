@@ -1,0 +1,1 @@
+class Order < ActiveRecord::Base\n  def update_attributes_as_user(values, user)\n    values.each do |attribute, value|\n      # Update the attribute if the user is allowed to\n      @order.send("#{attribute}=", value) if user.can_modify?(attribute)\n    end\n    save\n  end\nend

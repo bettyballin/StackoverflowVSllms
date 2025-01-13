@@ -1,0 +1,1 @@
+var intvalue = Math.floor( floatvalue );\nvar intvalue = Math.ceil( floatvalue ); \nvar intvalue = Math.round( floatvalue );\n\n// `Math.trunc` was added in ECMAScript 6\nvar intvalue = Math.trunc( floatvalue );

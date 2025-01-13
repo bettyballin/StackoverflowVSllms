@@ -1,0 +1,1 @@
+htmldoc --webpage -t pdf --size letter --fontsize 10pt index.html > index.pdf

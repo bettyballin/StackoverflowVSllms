@@ -1,0 +1,1 @@
+SELECT p.name, avg(r.rating) as average\nFROM products p\nINNER JOIN reviews r ON p.id = r.product_id\nGROUP BY p.name\nHAVING avg(r.rating) > 3

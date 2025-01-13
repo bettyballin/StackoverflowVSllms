@@ -1,0 +1,1 @@
+map(multilambda x:\n      y=x+1\n      return y\n   , [1,2,3])

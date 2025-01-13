@@ -1,0 +1,1 @@
+return new MyActionResult(format_and_view_agnostic_model_object);

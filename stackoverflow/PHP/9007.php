@@ -1,0 +1,1 @@
+header("Location: /path/to/image.jpg\r\n");

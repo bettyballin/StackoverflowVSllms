@@ -1,0 +1,1 @@
+struct Base {};\nstruct C1 : Base { int i; }\nstruct C2 : Base { C1 c; int i; }

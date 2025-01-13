@@ -1,0 +1,1 @@
+sed --in-place=.BACKUP 's/\(BUILD_TESTING[A-Z_]*\) ON/\1 OFF/' CMakeLists.txt

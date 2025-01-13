@@ -1,0 +1,1 @@
+>>> import base64\n>>>  print(base64.b64encode("password".encode("utf-8")))\ncGFzc3dvcmQ=\n>>> print(base64.b64decode("cGFzc3dvcmQ=").decode("utf-8"))\npassword

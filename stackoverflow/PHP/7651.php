@@ -1,0 +1,1 @@
+add_filter('the_content', 'myspace_url_filter', 999);\n\nfunction myspace_url_filter($content) {\n  return preg_replace('/(<a[^>]href=["'])[^"']+myspace.com[^"']+["']/', '\1#"', $content);\n}

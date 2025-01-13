@@ -1,0 +1,1 @@
+<?php\n    function PrintHtml($id) {\n      switch($id) {\n          case [...]:\n?>\n      <h1>Tut page 1</h1>\n      <p>this is html content.</p>\n<?php\n      break;\n      [...]\n    }\n  }\n?>

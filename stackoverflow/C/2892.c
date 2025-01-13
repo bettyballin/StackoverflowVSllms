@@ -1,0 +1,1 @@
+asm __volatile__ (".byte 0x12");

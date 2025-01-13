@@ -1,0 +1,1 @@
+INSERT\nINTO    tbl_vaucher (vaucher_name, created_date)\nSELECT  TOP 1\n        con_full_name, GETDATE()\nFROM    tbl_contact

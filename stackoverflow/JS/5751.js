@@ -1,0 +1,1 @@
+setTimeout((function() \n           { /* test if the page is loaded, \n                if so, call another function \n                or set a flag to get out*/\n           }),2000); //set for 2 seconds

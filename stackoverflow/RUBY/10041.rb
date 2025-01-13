@@ -1,0 +1,1 @@
+def set(&block)\n    extend(Setter)\n    instance_eval(&block)\n    Setter.instance_methods.each do |m| \n      instance_eval "undef #{m}"\n    end\n  end

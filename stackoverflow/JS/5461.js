@@ -1,0 +1,1 @@
+var htmlSource = document.getElementsByTagName('html')[0].innerHTML;

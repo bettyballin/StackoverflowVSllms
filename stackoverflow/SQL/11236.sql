@@ -1,0 +1,1 @@
+select sql.pidm,sql.field2 from sqltable as sql\ninner join\n(select pidm,field2 from oracledb..schema.table) as orcl\non \nsql.pidm = orcl.pidm

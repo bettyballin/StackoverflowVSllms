@@ -1,0 +1,1 @@
+$fbUserId = self::$facebook->get_loggedin_user();\nif ($fbUserId)\n{\n     self::$facebook->promote_session();\n     return $fbUserId;\n}

@@ -1,0 +1,1 @@
+foreach($array1['results'] as $currentResult) {\n\n     if($currentResult['from_user'] == $whoever) {\n\n         $strippedTexts = explode(" ", $currentResult['text']);\n\n         $strText .= $strippedTexts[0];\n\n     }\n\n}\n\necho $strText;

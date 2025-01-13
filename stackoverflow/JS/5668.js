@@ -1,0 +1,1 @@
+$('.ajax').click(function () { \n    // Your code here. You should be able to get the href variable and\n    // do your ajax request based on it. Something like:\n    var url = $(this).attr('href');\n    $.ajax({\n        type: "GET",\n        url: url\n    });\n    return false; // You need to return false so the link\n                  // doesn't actually fire.\n});

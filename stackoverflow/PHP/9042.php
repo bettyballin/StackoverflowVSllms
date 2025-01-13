@@ -1,0 +1,1 @@
+$node = node_load($n);\n$html = node_view($node,TRUE);

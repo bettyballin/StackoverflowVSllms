@@ -1,0 +1,1 @@
+SELECT * FROM messages WHERE DATE_SUB(CURDATE(),INTERVAL 1 DAY) <= messageTime

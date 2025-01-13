@@ -1,0 +1,1 @@
+// Sample data in $texts\n$texts      = "orange orange apple apple apple banana";\n$withCounts = array_count_values( explode( ' ', $texts ) );\n\nasort( $withCounts );\n$topTen = array_keys( array_reverse( array_slice( $withCounts, -10 ) ) );\n\nprint_r( $topTen );

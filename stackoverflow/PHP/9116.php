@@ -1,0 +1,1 @@
+$str=ucfirst(strtolower($str));

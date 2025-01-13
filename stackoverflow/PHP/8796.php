@@ -1,0 +1,1 @@
+$x = simplexml_load_string($xml);\n$nodes = $x->xpath('set[@uniquename="value2"]/items/item/units/url');\n\n$url = (string)$nodes[0];

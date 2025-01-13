@@ -1,0 +1,1 @@
+public class Foo {\n    public int Bar {get;set;}\n}

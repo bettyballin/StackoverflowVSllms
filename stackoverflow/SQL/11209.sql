@@ -1,0 +1,1 @@
+dev> create or replace function f( a number, b number ) return number deterministic as\n  2  begin\n  3    if a is null then return 0-b; else return a; end if;\n  4  end;

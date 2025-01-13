@@ -1,0 +1,1 @@
+protected void Application_Start()\n{\n    ModelBinders.Binders.Add(typeof(Binary), new LinqBinaryModelBinder());\n}

@@ -1,0 +1,1 @@
+$file = $_FILES[input_name]["tmp_name"];\n$data = $scribd->upload($file, $doc_type, $access, $rev_id);

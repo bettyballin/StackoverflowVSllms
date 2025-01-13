@@ -1,0 +1,1 @@
+function compare_weights($a, $b) { \n    if($a->weight == $b->weight) {\n        return 0;\n    } \n    return ($a->weight < $b->weight) ? -1 : 1;\n} \n\nusort($unsortedObjectArray, 'compare_weights');

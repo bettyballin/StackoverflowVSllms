@@ -1,0 +1,1 @@
+$query = 'SELECT * FROM `table` ORDER BY `date` DESC LIMIT 1';

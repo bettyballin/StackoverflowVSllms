@@ -1,0 +1,1 @@
+SELECT * FROM mytable WHERE brand = (SELECT brand FROM mytable WHERE id = 300 );

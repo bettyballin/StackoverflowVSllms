@@ -1,0 +1,1 @@
+while(gtk_events_pending())\n  gtk_main_iteration();

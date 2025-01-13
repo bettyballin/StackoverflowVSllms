@@ -1,0 +1,1 @@
+this.Page.ClientScript.RegisterClientScriptInclude("GlobalUnqiueKey", UrlOfJavascriptFile);

@@ -1,0 +1,1 @@
+?>\n<input type="text" size="10" value="<?php\necho(date("Y-m-d", strtotime($rowupd['upcoming_event_featured_date'])));\n?>"name="upcoming_event_featured_date" id="keys"/><?php

@@ -1,0 +1,1 @@
+foreach(DOMDocument::loadHTML($source)->getElementsByTagName('a') as $a)\n{\n  $a->getAttribute('href');\n}

@@ -1,0 +1,1 @@
+dfs(node, nodelist):\n   if node not in nodelist\n      insert node in nodelist\n   for each child node n\n      dfs(n, nodelist)

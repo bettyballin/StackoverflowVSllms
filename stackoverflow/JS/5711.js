@@ -1,0 +1,1 @@
+document.getElementById(layer).innerHTML=xmlHttp.responseText;

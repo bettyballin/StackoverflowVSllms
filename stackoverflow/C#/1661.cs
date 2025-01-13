@@ -1,0 +1,1 @@
+using (var db = new YourDataContext())\n{\n   var results = from n in db.News \n                 let v = db.News\n                 where n.NewsId == v.Where(c=>c.CategoryId == n.CategoryId)\n                    .OrderByDescending(o=>o.CreatedOn).First()\n                 select n;\n}

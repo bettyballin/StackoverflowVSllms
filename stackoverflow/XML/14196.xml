@@ -1,0 +1,1 @@
+<dependency>\n  <groupId>com.myco.app</groupId>\n  <artifactId>foo</artifactId>\n  <version>1.0-SNAPSHOT</version>\n  <type>test-jar</type>\n  <scope>test</scope>\n</dependency>

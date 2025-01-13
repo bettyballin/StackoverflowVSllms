@@ -1,0 +1,1 @@
+select extract(epoch from date_uploaded) from files where id = 1;

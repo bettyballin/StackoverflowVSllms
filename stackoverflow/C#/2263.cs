@@ -1,0 +1,1 @@
+string appPoolPath = "IIS://Localhost/W3SVC/AppPools/MyAppPool";\nusing(DirectoryEntry appPool = new DirectoryEntry(appPoolPath))\n{\n    using(DirectoryEntry appPools = \n               new DirectoryEntry(@"IIS://Localhost/W3SVC/AppPools"))\n    {\n        appPools.Children.Remove(appPool);\n        appPools.CommitChanges();\n    }\n}

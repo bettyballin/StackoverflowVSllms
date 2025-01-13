@@ -1,0 +1,1 @@
+CREATE table test (testguid RAW(16) default SYS_GUID() ) 

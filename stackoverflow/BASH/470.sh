@@ -1,0 +1,1 @@
+ar rvs mylib.a foo.o bar.o

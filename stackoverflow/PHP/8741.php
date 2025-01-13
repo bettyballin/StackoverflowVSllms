@@ -1,0 +1,1 @@
+class Foo {\n  static $bar;\n}\nFoo::$bar = array(…);

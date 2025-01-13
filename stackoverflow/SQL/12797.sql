@@ -1,0 +1,1 @@
+insert into destination_table( a, c, f, m, n, p)\nselect a, b, c, d + e, f * c + .1 * b, g || h \nfrom source_table\nwhere some_predicate;

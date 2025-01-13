@@ -1,0 +1,1 @@
+void Foo<T>(T control) where T : Control, ISomething\n{\n    // use "control"\n    // (you have access to all the Control and ISomething members)\n}

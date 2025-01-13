@@ -1,0 +1,1 @@
+USE [master]\nGO\nCREATE LOGIN [LimitedUser] WITH PASSWORD=N'testPass', \n           DEFAULT_DATABASE=[master], \n           CHECK_EXPIRATION=OFF, CHECK_POLICY=OFF\nGO\nUSE [TestDB]\nGO\nCREATE USER [LimitedUser] FOR LOGIN [LimitedUser]\nGO\nuse [TestDB]\nGO\nGRANT SELECT ON [dbo].[myView] TO [LimitedUser]\nGO

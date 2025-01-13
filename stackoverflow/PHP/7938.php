@@ -1,0 +1,1 @@
+$result = substr($original, strpos($original, '-') + 1);

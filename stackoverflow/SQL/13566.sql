@@ -1,0 +1,1 @@
+select carid, ownerid from CarOwner where end_date is null

@@ -1,0 +1,1 @@
+var fileKey = Guid.NewGuid();\n    var fileStream = new Byte[Request.Files[0].ContentLength];\n    Request.Files[0].InputStream.Read(fileStream, 0, Request.Files[0].ContentLength);\n    Cache[fileKey.ToString()] = fileStream;

@@ -1,0 +1,1 @@
+<?php\n// open the file in a binary mode\n$name = './img/ok.png';\n$fp = fopen($name, 'rb');\n\n// send the right headers\nheader("Content-Type: image/png");\nheader("Content-Length: " . filesize($name));\n\n// dump the picture and stop the script\nfpassthru($fp);\nexit;\n?>

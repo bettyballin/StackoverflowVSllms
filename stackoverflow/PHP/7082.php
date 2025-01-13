@@ -1,0 +1,1 @@
+function curl_get_file_contents($URL)\n{\n    $c = curl_init();\n    curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);\n    curl_setopt($c, CURLOPT_URL, $URL);\n    $contents = curl_exec($c);\n    curl_close($c);\n\n    if ($contents) return $contents;\n        else return FALSE;\n}

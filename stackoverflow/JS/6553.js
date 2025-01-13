@@ -1,0 +1,1 @@
+function isUsernameAvailable(username) {\n    var available;\n    $.ajax({\n        url: "checkusername.php",\n        data: {name: username},\n        async: false, // this makes the ajax-call blocking\n        dataType: 'json',\n        success: function (response) {\n            available = response.available;\n        }\n     });\n     return available;\n}

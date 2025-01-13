@@ -1,0 +1,1 @@
+GrandParent = Node.Ancestors.Skip(1).Single()\nGreatGrandParent = Node.Ancestors.Skip(2).Single()

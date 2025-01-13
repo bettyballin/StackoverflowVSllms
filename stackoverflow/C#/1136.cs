@@ -1,0 +1,1 @@
+protected override void OnLoad(EventArgs e)\n    {\n        EnsureChildControls();\n        base.OnLoad(e);\n    }

@@ -1,0 +1,1 @@
+/usr/bin/perl -pi -e 's|<%@ page|<%@ page buffer="new" |g' `find . -type f -name '*.jsp'`

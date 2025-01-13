@@ -1,0 +1,1 @@
+public function GetRuleViolations() as IEnumerable(of RuleViolation)\n    dim ret = new List(of RuleViolation)();\n\n    'replace the ... with the appopriate logic from above.\n    if ... then\n        ret.Add(...)\n    end if\n\n    return ret\nend functio

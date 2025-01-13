@@ -1,0 +1,1 @@
+insert into TABLE_NAME (COL1,COL2)\nselect my_seq.nextval, a\nfrom\n(SELECT 'SOME VALUE' as a FROM DUAL\n UNION ALL\n SELECT 'ANOTHER VALUE' FROM DUAL)

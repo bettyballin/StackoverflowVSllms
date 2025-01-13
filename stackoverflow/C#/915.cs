@@ -1,0 +1,1 @@
+string pattern = @"\band\b";\nRegex re = new Regex(pattern);\n\nstring input = "a band loves and its fans";\n\nstring output = re.Replace(input, "");  // a band loves  its fans

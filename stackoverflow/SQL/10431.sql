@@ -1,0 +1,1 @@
+WHERE\n  site='xyz'\n  AND hit_datetime > Now()-Interval 24 hour

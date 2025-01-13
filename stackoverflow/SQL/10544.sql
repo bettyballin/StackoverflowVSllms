@@ -1,0 +1,1 @@
+Table 1 \n\nFuncID         OrderID         OperatorID\n1              1               1 (for *)\n1              2               2 (for +)\n\nTable 2\n\nOperatorID       Operands\n1                a\n1                b\n2                c

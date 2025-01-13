@@ -1,0 +1,1 @@
+SELECT  theID AS ID\n       ,[2] AS CHOICE\n       ,[3] AS COUNT\n       ,[4] AS SORT\nFROM    so_666934 PIVOT ( MAX(theValue) FOR theGroup IN ([2], [3], [4]) ) AS pvt

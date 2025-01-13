@@ -1,0 +1,1 @@
+homeGoals = oXML.SelectNodes("/SoccerMatch/Goals/Goal[@teamId="&homeId&"]").length

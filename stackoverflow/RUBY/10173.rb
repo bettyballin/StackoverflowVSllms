@@ -1,0 +1,1 @@
+models/legacy_model.rb

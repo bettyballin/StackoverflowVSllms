@@ -1,0 +1,1 @@
+Dim OutFile As System.IO.StreamWriter\nOutFile = Nothing\nTry\n    OutFile = New System.IO.StreamWriter(Filename)\n   // Do stuff with OutFile\nCatch Ex As Exception\n   // Handle Exception\nFinally\n   If OutFile IsNot Nothing Then OutFile.Close()\nEnd Try

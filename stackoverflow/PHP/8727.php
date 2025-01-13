@@ -1,0 +1,1 @@
+<?php\n$first = 3;\n$second = 4;\n$operation = "*";\n\n$answer = eval('return '.$first.$operation.$second.';');\n\necho $answer;\n?>

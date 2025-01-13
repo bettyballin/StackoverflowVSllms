@@ -1,0 +1,1 @@
+Declare @Temp Table(Data nvarchar(100))\n\nInsert Into @Temp Values(N'izla')\nInsert Into @Temp Values(N'İZLA')\nInsert Into @Temp Values(N'IZLA')\nInsert Into @Temp Values(N'Izla')\n\nSelect  Data, \n        Count(*) \nFrom    @Temp \nGroup By Data\n\nSelect  Data Collate Latin1_General_CI_AI, \n        Count(*) \nFrom    @Temp \nGroup By Data Collate Latin1_General_CI_AI

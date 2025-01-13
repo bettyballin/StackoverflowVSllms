@@ -1,0 +1,1 @@
+<pre>GROUP_CONCAT( provision_id ) as pids\n...\necho $content->pids</pre>

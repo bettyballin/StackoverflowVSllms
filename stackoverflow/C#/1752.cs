@@ -1,0 +1,1 @@
+System.Diagnostics.Process proc = new System.Diagnostics.Process();\n proc.StartInfo.FileName = "DEVCON";\n proc.StartInfo.Arguments = "Remove *usb"*MI_01";\n proc.StartInfo.RedirectStandardError = true;\n proc.StartInfo.RedirectStandardOutput = true;\n proc.StartInfo.UseShellExecute = false;\n proc.Start();

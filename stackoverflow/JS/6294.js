@@ -1,0 +1,1 @@
+document.body.style.display = 'none';\ndocument.body.style.display = 'block';

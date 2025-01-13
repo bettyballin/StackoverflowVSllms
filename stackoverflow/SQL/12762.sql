@@ -1,0 +1,1 @@
+SELECT colour, AVG(apples+bananas+oranges+pears+peaches) AS fruit\nFROM baskets\nGROUP by colour;

@@ -1,0 +1,1 @@
+var q = source.SelectMany(foo => foo.Bar)\n              .SelectMany(bar => bar.Widget)\n              .ToList();

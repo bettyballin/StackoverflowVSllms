@@ -1,0 +1,1 @@
+SELECT CONCAT(u.firstname, ' ', u.lastname ) name, u.id, \n  s.description, s.shiftstart, s.shiftend, \n  SUM( TIME_TO_SEC( TIMEDIFF( shiftend, shiftstart ) ) ) /3600 total\nFROM shifts s INNER JOIN users u ON ( s.id = u.id )\nWHERE s.id = ? AND DATE( shiftstart ) BETWEEN ? AND ?\nGROUP BY u.id, s.shiftstart WITH ROLLUP\nORDER BY shiftstart;

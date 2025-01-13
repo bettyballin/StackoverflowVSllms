@@ -1,0 +1,1 @@
+var engine = new ValidatorEngine();\nInvalidValue[] errors = engine.Validate(someModelObjectWithAttributes);\n\nforeach(var error in errors)\n{\n    Console.WriteLine(error.Message);\n}

@@ -1,0 +1,1 @@
+parent = document.getElementById("parent").value;

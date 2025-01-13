@@ -1,0 +1,1 @@
+class Foo\n{\n    public function __construct($param)\n    {}\n\n    public function bar()\n    {}\n}\n\n/**\n * @return Foo\n */\nfunction Foo($param)\n{\n    return new Foo($param);\n}\n\nFoo()->bar();

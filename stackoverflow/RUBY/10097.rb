@@ -1,0 +1,1 @@
+require 'sanitize'\nop = Sanitize.clean("<html><body>wow!</body></hhhh>") # Notice the incorrect HTML. It still outputs "wow!"

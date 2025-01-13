@@ -1,0 +1,1 @@
+Dim client As New System.Net.WebClient()\nDim stream As New System.IO.MemoryStream()\nDim data As Byte() = client.DownloadData("http://somewebsite/someimage.jpg")\nclient.Dispose()\nstream.Write(data, 0, data.Length)\npictureBox.Image = Image.FromStream(stream)

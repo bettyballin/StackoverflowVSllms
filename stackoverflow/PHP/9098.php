@@ -1,0 +1,1 @@
+$new_content = preg_replace_callback(\n    '|(href=[\'"]?)(https?://)?([^\'"\s]+[\'"]?)|i',\n    'prepend_proxy',\n    preg_replace_callback(\n        '|(src=[\'"]?)(https?://)?([^\'"\s]+[\'"]?)|i',\n        'imgprepend_proxy',\n        $content\n    )\n);

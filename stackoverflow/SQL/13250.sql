@@ -1,0 +1,1 @@
+UPDATE  messages \nSET status=10 \nWHERE ID in (SELECT TOP (10) Id \n             FROM Table \n             WHERE status=0 \n             ORDER BY priority DESC);

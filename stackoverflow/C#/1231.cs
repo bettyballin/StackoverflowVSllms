@@ -1,0 +1,1 @@
+printNode(Node node)\n{\n  printTitle(node.title)\n  foreach (Node child in node.children)\n  {\n    printNode(child); //<-- recursive\n  }\n}

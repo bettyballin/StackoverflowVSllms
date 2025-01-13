@@ -1,0 +1,1 @@
+// Macros\n$mes = "mysql_escape_string";\n$ss = "stripslashes";\n\n// Using your macros\n$x = $mes($ss($_GET['x']));

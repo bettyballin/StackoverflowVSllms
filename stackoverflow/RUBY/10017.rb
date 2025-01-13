@@ -1,0 +1,1 @@
+Shoes.app do\n  para "Text", :stroke => rgb(1.0,0.0,0.0,0.5), :fill => rgb(0, 1.0, 0, 0.5), :size => 100\n  stroke rgb(0,0,1.0,0.5)\n  strokewidth 4\n  nofill\n  oval 10, 10, 50\nend

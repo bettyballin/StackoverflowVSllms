@@ -1,0 +1,1 @@
+HttpContext.Current.Response.Write("some string value")

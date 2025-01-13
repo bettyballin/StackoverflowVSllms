@@ -1,0 +1,1 @@
+-- content cut --\n</html>\n<?php\nsession_regenerate_id(true);               // Session code ends here!\nsession_write_close();\n?>

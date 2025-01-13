@@ -1,0 +1,1 @@
+using (X509Store store = new X509Store(StoreName.TrustedPeople, StoreLocation.LocalMachine)) \n{\n   store.Open(OpenFlags.ReadWrite);\n   store.Add(cert); //where cert is an X509Certificate object\n}

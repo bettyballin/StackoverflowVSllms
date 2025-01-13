@@ -1,0 +1,1 @@
+map.namespace :calendar do |calendar|\n  calendar.resources :first_controller\n  calendar.resources :second_controller\nend

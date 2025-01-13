@@ -1,0 +1,1 @@
+$str = preg_replace('/John Doe(?![^<>]*+>)/i', $new_name, $str);

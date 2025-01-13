@@ -1,0 +1,1 @@
+select count(*) as counted, name, address\nfrom contact

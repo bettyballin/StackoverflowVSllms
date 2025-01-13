@@ -1,0 +1,1 @@
+<b>Notice</b>: Undefined variable: row2 in <b>C:\Programme\EasyPHP 2.0b1\www\records4\fetchlayers.js</b> on line <b>57</b><br />\n    null");

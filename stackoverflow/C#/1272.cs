@@ -1,0 +1,1 @@
+var datasource = from employee in employees \n                 select new\n                 { \n                     Name = employee.lastName + ", " + employee.firstName, \n                     Id = employee.ID \n                 };\n\nmyListBox.DataSource = datasource;\nmyListBox.DataTextField = "Name";\nmyListBox.DataValueField = "Id";\nmyListBox.DataBind();

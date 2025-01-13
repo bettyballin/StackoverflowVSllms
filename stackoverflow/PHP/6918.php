@@ -1,0 +1,1 @@
+$tags = "battleship, stragety, ,";\n\n$exp = explode(",", $tags);\n\n$valid_tags = array();\n\nforeach($exp as $tag)\n{\n if( ($tag = trim($tag)) != "")\n {\n   $valid_tags[] = $tag;\n }\n}

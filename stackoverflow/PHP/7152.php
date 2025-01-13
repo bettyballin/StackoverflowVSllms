@@ -1,0 +1,1 @@
+<?php\n  $result = mysql_query('SELECT rows, columns, data from table_name where id=1');\n  $record = mysql_fetch_assoc($result);\n\n  $rows = $record['rows'];\n  $columns = $record['columns'];\n\n  $data = explode(',' , $record['data']);\n\n  if (sizeof($data) != $rows * $columns) die('invalid data');\n?>

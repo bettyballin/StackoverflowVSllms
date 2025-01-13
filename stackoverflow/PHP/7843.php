@@ -1,0 +1,1 @@
+function array_longest_value( $array, &$val = null )\n{\n    $val = null;\n    $result = null;\n\n    foreach( array_keys( $array ) as $i )\n    {\n        $l = strlen( $array[ $i ] );\n        if ( $l > $result )\n        {\n            $result = $i;\n            $val = $array[ $i ];\n        }\n    }\n\n    return $result;\n}     

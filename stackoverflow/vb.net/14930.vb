@@ -1,0 +1,1 @@
+\nlink1.NavigateUrl = "Equipamentos.aspx?ID_Cliente=" & Request.QueryString("ID_Cliente").Trim().ToString()

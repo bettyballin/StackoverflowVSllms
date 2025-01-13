@@ -1,0 +1,1 @@
+vector<string> words;\nifstream in("words.txt");\nwhile(in) {\n  string word;\n  in >> word;\n  words.push_back(word);\n}\n\nstring r=words[rand()%words.size()];

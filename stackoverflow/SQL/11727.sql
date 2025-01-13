@@ -1,0 +1,1 @@
+SELECT '[' + name + ']' \nFROM sys.databases\nWHERE database_id > 4

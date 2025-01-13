@@ -1,0 +1,1 @@
+function UploadFileCheck(source, arguments)\n{\n    var sFile = arguments.Value;\n    arguments.IsValid = \n       ((sFile.endsWith('.jpg')) ||\n        (sFile.endsWith('.jpeg')) ||\n        (sFile.endsWith('.gif')) ||\n        (sFile.endsWith('.png')));\n}

@@ -1,0 +1,1 @@
+<endpoint address="" listenUri="http://[LOAD_BALANCER_ADDRESS]" ... />

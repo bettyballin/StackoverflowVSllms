@@ -1,0 +1,1 @@
+SELECT\n  *\nFROM assignment_tasks\nORDER BY\n  Assignment_ID ASC,\n  Task_ID ASC;

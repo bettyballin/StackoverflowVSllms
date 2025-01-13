@@ -1,0 +1,1 @@
+select cast('<name>Spolsky &amp; Atwood</name>' as xml)

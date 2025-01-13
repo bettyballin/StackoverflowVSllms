@@ -1,0 +1,1 @@
+maximum = (var1 > var2 ? var1 : var2) > (var3 > var 4 ? var3 : var 4) ? \n             (var1 > var2 ? var1 : var2) : \n             (var3 > var 4 ? var3 : var 4);

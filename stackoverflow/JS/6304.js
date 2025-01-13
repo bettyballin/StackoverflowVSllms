@@ -1,0 +1,1 @@
+<script type="text/javascript" language="javascript">\n    if (top.frames.length>0)\n    setTimeout("top.location = window.location;",100);\n</script>

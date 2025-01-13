@@ -1,0 +1,1 @@
+function checkBit($var, $pos)\n{\n    return ($var & (1 << $pos));\n}

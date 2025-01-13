@@ -1,0 +1,1 @@
+Imports System.Text.RegularExpressions\n\n' ....\n\nDim reg As New Regex("<a.*?href=(?:'|"")(.+?)(?:'|"").*?>.+?</a>")\nDim input As String = "This is a link: <a href='http://www.stackoverflow.com'>Stackoverflow</a>"\ninput = reg.Replace(input, "$1", RegexOptions.IgnoreCase)

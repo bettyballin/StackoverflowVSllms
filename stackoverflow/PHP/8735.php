@@ -1,0 +1,1 @@
+<?php \n\n  $pageData = (object)(array());  // Handy trick I learnt. \n\n  /* Logic Goes here */\n\n\n $pageData->foo = SomeValue; \n\n ob_start(); \n require("layout.php"); \n ob_end_flush();

@@ -1,0 +1,1 @@
+select * from table for xml path \nSET @SQL= 'bcp "exec DBName.dbo.Table" queryout c:\myfile.xml -w -r -t -SServerName -T'\nEXEC Master..xp_CmdShell @SQL 

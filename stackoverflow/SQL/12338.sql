@@ -1,0 +1,1 @@
+SELECT  *\nFROM    event\nWHERE   EXISTS\n        (\n        SELECT  1\n        FROM    dual\n        WHERE   MOD(start_date - TO_DATE(1, 'J') + level - 1, 7) = 6\n        CONNECT BY\n                level <= end_date - start_date + 1\n        )

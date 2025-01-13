@@ -1,0 +1,1 @@
+/* Browser hack! This is for everyone: */\nbutton {\n    display: inline;\n    cursor: pointer;\n    padding: 6px 6px;\n    width: 50px;\n    overflow: visible;\n}\n/* and this is for non-IE browsers: */\nhtml>body button {\n    min-width: 50px;\n    width: auto;\n}

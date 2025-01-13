@@ -1,0 +1,1 @@
+var profile = ProfileBase.Create(username);\nprofile.SetPropertyValue("MyGuid", aGuid);\nprofile.SetPropertyValue("MyString", aString);\n// etc\nprofile.Save()

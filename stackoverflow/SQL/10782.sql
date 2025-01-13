@@ -1,0 +1,1 @@
+"... where type='U' or type='V'"

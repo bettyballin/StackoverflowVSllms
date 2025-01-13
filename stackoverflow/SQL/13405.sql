@@ -1,0 +1,1 @@
+begin\n    myproc (my_array_type(1,4,7,9));\nend;

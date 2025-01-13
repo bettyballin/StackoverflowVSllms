@@ -1,0 +1,1 @@
+$sql1=array();\n$sql1[]="insert into....";\n$sql1[]="insert into....";\n\ndbDelta($sql1);

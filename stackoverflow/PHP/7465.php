@@ -1,0 +1,1 @@
+//On page 1\n$_SESSION['varname'] = $var_value;\n\n//On page 2\n$var_value = $_SESSION['varname'];

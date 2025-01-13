@@ -1,0 +1,1 @@
+SELECT u.userid, u.username, max(lt.lastlogin) FROM\nuser u, logintrack lt\nWHERE u.userid = lt.userid\nGROUP BY u.userid, u.username

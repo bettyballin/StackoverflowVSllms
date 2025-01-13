@@ -1,0 +1,1 @@
+var wrap = function(fn){\n    return function(){ \n        console.log("before :");\n        fn.apply(this, arguments);\n        console.log("after :");\n    }\n};

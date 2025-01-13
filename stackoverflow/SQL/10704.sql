@@ -1,0 +1,1 @@
+select session_id, timestamp, file \nfrom table t1\njoin (select session_id, max(timestamp) as timestamp) \n        from table group by session_id) as t2\n   on t1.session_id = t2.session_id\n     and t1.timestamp = t2.timestamp

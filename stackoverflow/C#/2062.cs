@@ -1,0 +1,1 @@
+var aggregatedAddresses = from DataRow row in dt.Rows\ngroup row by row["AddressA"] into g\nselect new {\n    Address = g.Key,\n    Byte = g.Sum(row => (uint)row["Bytes"])\n};\n\nint i = 1;\nforeach(var row in aggregatedAddresses)\n{\n    result.Rows.Add(i++, row.Address, row.Byte);\n}

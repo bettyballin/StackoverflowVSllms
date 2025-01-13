@@ -1,0 +1,1 @@
+$(document).ready(function() { \n    setTimeout(function() { $('#alert-box').fadeIn('slow', \n                 function() { $('#alert-box').animate(\n                                 {backgroundColor: "rgb(255,00,00)"},1500); \n                 })}, \n     5000)});

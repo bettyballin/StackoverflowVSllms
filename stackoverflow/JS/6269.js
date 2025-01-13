@@ -1,0 +1,1 @@
+var code = e.keyCode || e.which;\n if(code == 13) { //Enter keycode\n   //Do something\n }

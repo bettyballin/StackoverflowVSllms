@@ -1,0 +1,1 @@
+import base64\n# Encode password (must be bytes type)\nencoded_pw = base64.b64encode(raw_pw)\n\n# Decode password (must be bytes type)\ndecoded_pw = base64.b64decode(encoded_pw)

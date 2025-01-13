@@ -1,0 +1,1 @@
+Product.average(:sales_price, :group => "DATE(created_at)", :conditions => ["merchant_id=?", 1])

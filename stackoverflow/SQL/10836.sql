@@ -1,0 +1,1 @@
+SELECT C.guid, ..., COUNT(distinct D.id) as numprogs\nFROM Computers AS C\nLEFT JOIN ComputerData as D ON D.computer_id = C.id

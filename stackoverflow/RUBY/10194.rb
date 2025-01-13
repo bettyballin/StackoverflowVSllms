@@ -1,0 +1,1 @@
+str1.gsub(/(AAAA|CCCC)/) { $1 == 'AAAA' ? 'CCCC' : 'AAAA' }

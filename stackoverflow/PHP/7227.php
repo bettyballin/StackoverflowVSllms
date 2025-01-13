@@ -1,0 +1,1 @@
+function my_rtrim($str, $count) {\n  return substr($str, 0, -$count);\n}\n\nfunction my_ltrim($str, $count) {\n  return substr($str, $count);\n}

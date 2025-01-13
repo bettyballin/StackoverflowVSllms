@@ -1,0 +1,1 @@
+$.ajax({    \n  'url': 'http://twitter.com/action/',\n  'otherSettings': 'othervalues',\n  'beforeSend': function(xhr) {\n    xhr.setRequestHeader("Authorization", "Basic  " + \n                          encodeBase64(username + ":" + password));\n  },\n  sucess: function(result) {\n   alert('done');\n  }\n});

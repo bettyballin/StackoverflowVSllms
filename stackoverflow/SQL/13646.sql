@@ -1,0 +1,1 @@
+GRANT VIEW DEFINITION ON schema::dbo TO [UserName]

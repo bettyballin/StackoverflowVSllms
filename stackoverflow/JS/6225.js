@@ -1,0 +1,1 @@
+var elem = document.getElementById("MonitorInformation");\nelem.innerHTML = "Setting different HTML content";\nelem.style.color = "Red";\nelem.style.fontSize = "large";

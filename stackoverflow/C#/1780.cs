@@ -1,0 +1,1 @@
+String.Equals(row.Name, "test", StringComparison.OrdinalIgnoreCase)

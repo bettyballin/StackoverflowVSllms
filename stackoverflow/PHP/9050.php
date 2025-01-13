@@ -1,0 +1,1 @@
+mysql_query('INSERT INTO table (picture) VALUES ("'\n    . mysql_real_escape_string($image) . '")');

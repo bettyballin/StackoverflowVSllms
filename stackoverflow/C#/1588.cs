@@ -1,0 +1,1 @@
+string type = (string)result.GetType().InvokeMember("getType",\nBindingFlags.InvokeMethod, null, result, null);

@@ -1,0 +1,1 @@
+$text_including_tax = '$tax <a href="...">...</a>';\n\n...\n\n$tax = 10;\n\n...\n\neval ("\$text_including_tax = \"$text_including_tax\";");

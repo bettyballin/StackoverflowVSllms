@@ -1,0 +1,1 @@
+$html=preg_replace('/class=".*?"/', '', $html);

@@ -1,0 +1,1 @@
+Select\n    AVG(Cast(variable as Float)),\n    SUM(variable)\nFrom\n    Table

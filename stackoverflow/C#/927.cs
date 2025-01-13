@@ -1,0 +1,1 @@
+// suppose I want to push children[] onto the stack\n\nfor (int i = children.Length - 1; i >= 0; i--)\n{\n   stack.Push(children[i]);\n}

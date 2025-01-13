@@ -1,0 +1,1 @@
+/* handler begin code */\nvar el = document.getElementById('myElement');\nif (el) {\n    //do work\n}\n/* handler end code */

@@ -1,0 +1,1 @@
+Public Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click\n    Dim i as Integer = int.Parse(TextBox1.Text)\n    i += 1\n    TextBox1.Text = i.ToString()\nEnd Sub

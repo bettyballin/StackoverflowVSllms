@@ -1,0 +1,1 @@
+double log_subtract(double x, double y) {\n  if(x <= y)\n    // error!! computing the log of a negative number\n  if(y == neginf)\n    return x;\n  return x + log1p(-exp(y-x));\n}

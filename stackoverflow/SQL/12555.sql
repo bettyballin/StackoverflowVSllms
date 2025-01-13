@@ -1,0 +1,1 @@
+SELECT readings_miu_id, AVG(RSSI)\nFROM analyzedCopy2 \nGROUP BY readings_miu_id

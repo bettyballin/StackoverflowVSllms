@@ -1,0 +1,1 @@
+Canvas.SetZIndex(control, zIndex);

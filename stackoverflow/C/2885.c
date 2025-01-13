@@ -1,0 +1,1 @@
+if(fork) {\n    // Inside process 0\n    if(fork) {\n        // still in process 0\n    } else {\n        // in process 2\n        if(fork) {\n          // still in process 2\n        } else {\n          // in prcess 3\n        }\n        // and so on\n    }\n} else {\n    // Inside process 1\n}

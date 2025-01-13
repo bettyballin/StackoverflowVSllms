@@ -1,0 +1,1 @@
+var form = document.getElementById('Form2');\nvar inputs = form.getElementsByTagName('input');\nvar is_checked = false;\nfor(var x = 0; x < inputs.length; x++) {\n    if(inputs[x].type == 'checkbox' && inputs[x].name == 'us') {\n        is_checked = inputs[x].checked;\n        if(is_checked) break;\n    }\n}\n// is_checked will be boolean 'true' if any are checked at this point.

@@ -1,0 +1,1 @@
+public void eatStackThenExecute(int depth, Runnable action)\n{\n    // Maybe put some locals here (and use them) to eat more stack per iteration?\n    if (depth == 0)\n    {\n        action();\n    }\n    else\n    {\n        eatStackThenExecute(depth - 1, action);\n    }\n}

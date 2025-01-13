@@ -1,0 +1,1 @@
+SELECT \n  CASE WHEN \n    /* res1 */ Power(IsNull(val1X, 0), 2) + Power(IsNull(val1Y, 0), 2) \n    > /* res2 */ Power(IsNull(val2X, 0), 2) + Power(IsNull(val2Y, 0), 2)\n  THEN\n    /* res1 */ Power(IsNull(val1X, 0), 2) + Power(IsNull(val1Y, 0), 2)\n  ELSE\n    /* res2 */ Power(IsNull(val2X, 0), 2) + Power(IsNull(val2Y, 0), 2)\n  END\nFROM\n  myTable

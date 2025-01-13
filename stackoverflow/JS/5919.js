@@ -1,0 +1,1 @@
+$("#yourdate").datepicker()

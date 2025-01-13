@@ -1,0 +1,1 @@
+SELECT * FROM mytable AS m\nWHERE <input-url> = m.urlpattern\n OR <input-url> REGEXP REPLACE(m.urlpattern, '*', '.*');

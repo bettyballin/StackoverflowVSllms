@@ -1,0 +1,1 @@
+Public Function CreateListFromSingle(Of T)(ByVal p1 As T) As List(Of T)\n  Dim list As New List(Of T)\n  list.Add(p1)\n  return List\nEnd Functio

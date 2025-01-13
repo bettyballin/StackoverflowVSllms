@@ -1,0 +1,1 @@
+Dim AnItemObj As New ItemInfo

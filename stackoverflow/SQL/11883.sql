@@ -1,0 +1,1 @@
+UPDATE `ejl_registration` SET `end_date`= CONCAT(YEAR(`start_date`),'-12-31')\nWHERE `end_date` IS NULL OR `end_date` = '0000-00-00';

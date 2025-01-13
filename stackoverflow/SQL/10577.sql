@@ -1,0 +1,1 @@
+SELECT `t1`.`id` , COUNT(`t2`.`id`) AS `count`\nFROM `t1` LEFT JOIN `t2` ON `t1`.`id` = `t2`.`id`\nGROUP BY `t1`.`id`

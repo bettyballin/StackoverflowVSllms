@@ -1,0 +1,1 @@
+if (window.confirm("Are you sure?")) {\n  // call php code here, either through going to a new page,\n  // or by doing an ajax request\n}

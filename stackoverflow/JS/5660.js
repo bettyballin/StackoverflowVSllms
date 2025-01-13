@@ -1,0 +1,1 @@
+$('#select').change(function() {\n   $('#form1, #form2, #form3').hide();\n   $('#form' + $(this).find('option:selected').attr('id')).show();\n});

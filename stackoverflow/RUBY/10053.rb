@@ -1,0 +1,1 @@
+<% room.attributes.each do |key, value| %>\n  <% if key.to_s.include?("day") %>\n    <td class="<%=current_cycle%>"><%=h value.to_s %></td>\n  <% end %>\n<% end %>

@@ -1,0 +1,1 @@
+echo "<img src='images/$curimg' /><br />$curimg<br />\n";

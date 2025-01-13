@@ -1,0 +1,1 @@
+SELECT DISTINCT TOP 5 tblThread.Title, MAX(tblPost.Date)\nFROM tblPost INNER JOIN tblThread ON tblPost.ThreadID = tblThread.ThreadID \nGROUP BY tblThread.Title\nORDER BY MAX(tblPost.Date) DESC

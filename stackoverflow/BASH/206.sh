@@ -1,0 +1,1 @@
+cd "into mysql directory"\nmysqldump -u USERNAME -p -h YOUR_HOST_IP DATABASE_TO_MIRROR >c:\backup\database.sql

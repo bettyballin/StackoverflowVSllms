@@ -1,0 +1,1 @@
+bool isProcessRunning(HANDLE process)\n{\n   return WaitForSingleObject( process, 0 ) == WAIT_TIMEOUT;\n}

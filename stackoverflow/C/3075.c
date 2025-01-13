@@ -1,0 +1,1 @@
+extern "C" __declspec(dllexport) BOOL Install();\nextern "C" __declspec(dllexport) BOOL PPPConnect();

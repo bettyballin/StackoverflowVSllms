@@ -1,0 +1,1 @@
+sudo apt-get install php5-cli php5-dev make\n sudo apt-get install libsqlite3-0 libsqlite3-dev\n sudo apt-get install php5-sqlite3\n sudo apt-get remove php5-sqlite3\n cd ~\n wget http://pecl.php.net/get/sqlite3-0.6.tgz\n tar -zxf sqlite3-0.6.tgz\n cd sqlite3-0.6/\n sudo phpize\n sudo ./configure\n sudo make\n sudo make install\n sudo apache2ctl restart

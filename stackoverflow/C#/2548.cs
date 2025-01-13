@@ -1,0 +1,1 @@
+Type t1 = Type.GetType("MyCustomGenericCollection");\nType t2 = Type.GetType("MyCustomObjectClass");\nType t3 = t1.MakeGenericType(new Type[] { t2 });\nConstructorInfo ci = t3.GetConstructor(Type.EmptyTypes);\nobject obj = ci.Invoke(null);

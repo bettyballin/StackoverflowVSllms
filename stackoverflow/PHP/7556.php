@@ -1,0 +1,1 @@
+<?php\n      echo $ajax->link('Publish',\n     array('controller'=>'forms','action'=>'publish', $formid),\n      array('update'=>'view','complete'=>'alert("Your form has been published")')\n      'Are you sure?',false);\n?>

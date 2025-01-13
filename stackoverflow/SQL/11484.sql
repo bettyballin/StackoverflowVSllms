@@ -1,0 +1,1 @@
+--outputs: 12345678901234567890.098765432 \nselect cast (12345678901234567890.098765432 as nvarchar)\n\n--throws "Arithmetic overflow error converting expression to data type nvarchar."\nselect cast (12345678901234567890.0987654321 as nvarchar) \n\n--outputs: 12345678901234567890.0987654321 \nselect cast (12345678901234567890.0987654321 as nvarchar(31))

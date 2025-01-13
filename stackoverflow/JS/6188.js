@@ -1,0 +1,1 @@
+document.getElementById("aspnetForm").onsubmit = null;

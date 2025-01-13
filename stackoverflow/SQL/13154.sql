@@ -1,0 +1,1 @@
+BEGIN;\n  SET CONSTRAINTS ALL DEFERRED;\nINSERT INTO questions (questionid, answerid, question)\n  VALUES (1, 100, 'How long are Abraham Lincoln\'s legs?');\nINSERT INTO answers (answerid, questionid, answer)\n  VALUES (100, 1, 'Long enough to reach the ground.');\nCOMMIT;

@@ -1,0 +1,1 @@
+$db = new PDO("...");\n$statement = $db->prepare("select id from some_table where name = :name");\n$statement->execute(array(':name' => "Jimbo"));\n$row = $statement->fetch(); // Use fetchAll() if you want all results, or just iterate over the statement, since it implements Iterator

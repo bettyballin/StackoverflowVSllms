@@ -1,0 +1,1 @@
+SELECT b.*\nFROM boxes b JOIN thingsinboxes t ON (b.id = t.box_id)\nGROUP BY b.id\nHAVING COUNT(DISTINCT t.thing) = 1 AND SUM(t.thing = 'orange') > 0;

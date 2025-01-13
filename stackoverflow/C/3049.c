@@ -1,0 +1,1 @@
+#include <windows.h>\n#include <process.h>\nint WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)\n{\n    execl("c:\\winnt\\system32\\notepad.exe", 0);\n    // or: execlp("notepad.exe", 0);\n}

@@ -1,0 +1,1 @@
+$str = preg_replace('{^(<br(\s*/)?>|&nbsp;)+}i', '', $str); //from start\n$str = preg_replace('{(<br(\s*/)?>|&nbsp;)+$}i', '', $str); //from end

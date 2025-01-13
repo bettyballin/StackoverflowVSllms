@@ -1,0 +1,1 @@
+Function Chr(Byval CharCode As Integer) as Char\n    Return Convert.ToChar(CharCode)\nEnd Functio

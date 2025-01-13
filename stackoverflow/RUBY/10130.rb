@@ -1,0 +1,1 @@
+config.action_controller.session = { :key => "_myapp_session", :secret => "..." }

@@ -1,0 +1,1 @@
+gtk.combo_box_new_text()

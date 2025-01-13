@@ -1,0 +1,1 @@
+$.ajax({\n   type: "POST",\n   url: "some.php",\n   data: "name=John&location=Boston",\n   timeout: 5000, /* ms or 5s */\n   success: function(msg){\n     alert( "Data Saved: " + msg );\n   }\n });

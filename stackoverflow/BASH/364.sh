@@ -1,0 +1,1 @@
+@echo off\n:main\nfc c:\filename r:\filemame > nul\nif errorlevel 1 goto error\n\n:next\necho insert next CD\npause\ngoto main\n\n:error\necho failed check

@@ -1,0 +1,1 @@
+DECLARE @XYList varchar(MAX)\nSET @XYList = ''\n\nSELECT @XYList = @XYList + CONVERT(varchar, X) + ',' + CONVERT(varchar, Y) + ','\nFROM POINTS\n\n-- Remove last comma\nSELECT LEFT(@XYList, LEN(@XYList) - 1)

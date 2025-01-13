@@ -1,0 +1,1 @@
+SELECT node1, node2\nFROM nodes n\nWHERE EXISTS (SELECT 1 FROM nodes WHERE node1 = n.node2 AND node2 = n.node1)

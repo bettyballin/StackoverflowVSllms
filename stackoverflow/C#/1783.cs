@@ -1,0 +1,1 @@
+Pick(IEnumerable<Type>)

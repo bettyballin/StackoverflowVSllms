@@ -1,0 +1,1 @@
+$newstring = preg_replace("/(6a00d834.*?)(\")/", "\\1.jpg\\2", $oldstring)

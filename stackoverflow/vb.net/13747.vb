@@ -1,0 +1,1 @@
+Dim o : Set o = CreateObject("Lib.Class")\n o.YourMethod "someParam"

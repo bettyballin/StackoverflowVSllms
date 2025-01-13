@@ -1,0 +1,1 @@
+using System.Windows.Forms.VisualStyles;\n...\n\n    public Form1()\n    {\n      InitializeComponent();\n      if (Application.RenderWithVisualStyles)\n      {\n        VisualStyleRenderer rndr = new VisualStyleRenderer(VisualStyleElement.Button.GroupBox.Normal);\n        Color c = rndr.GetColor(ColorProperty.TextColor);\n        label1.ForeColor = c;\n      }\n    }

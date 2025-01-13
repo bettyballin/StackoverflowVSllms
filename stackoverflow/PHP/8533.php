@@ -1,0 +1,1 @@
+mysqli_report(MYSQLI_REPORT_ALL)

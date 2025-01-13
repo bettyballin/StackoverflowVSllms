@@ -1,0 +1,1 @@
+$("#divId").append("<table>").append("<tr>").append("<b>").text("some text");

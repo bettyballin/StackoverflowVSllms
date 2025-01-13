@@ -1,0 +1,1 @@
+Public Class Form2\n    Implements IDoSomething\n    Public Event AddFilter() Implements IDoSomething.AddFilter\n\n    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click\n        RaiseEvent AddFilter()\n    End Sub\nEnd Class\n\nPublic Interface IDoSomething\n    Event AddFilter()\nEnd Interface

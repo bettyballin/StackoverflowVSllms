@@ -1,0 +1,1 @@
+$split_string = explode($split_point, $string);

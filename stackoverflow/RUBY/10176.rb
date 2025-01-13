@@ -1,0 +1,1 @@
+sql = "select count(*) as rank from (select * from math_scores where score > (select score from high_scores where test_id = 33 AND first_name = 'John' AND last_name = 'Doe') order by score desc) as s"\nrank = MathScore.find_by_sql(sql)[0].rank

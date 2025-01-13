@@ -1,0 +1,1 @@
+function isStraight($hand) {\n    $straights = array(range(1, 4), range(2, 5), range(3, 6));\n    foreach($straights as $solution) {\n        if(array_intersect($solution, $hand) == $solution) {\n            return $solution;\n        }\n    }\n    return false;\n}\n\n$hand = array(1,5,2,4,3);\n\nvar_dump(isStraight($hand));

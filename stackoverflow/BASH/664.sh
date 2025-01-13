@@ -1,0 +1,1 @@
+cd /usr/bin\n  rm cc gcc c++ g++\n  ln -s gcc-4.2 cc\n  ln -s gcc-4.2 gcc\n  ln -s c++-4.2 c++\n  ln -s g++-4.2 g++

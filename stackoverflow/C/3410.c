@@ -1,0 +1,1 @@
+int init (void)\n{\n    return 1;\n}

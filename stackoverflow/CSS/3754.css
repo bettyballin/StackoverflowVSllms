@@ -1,0 +1,1 @@
+.work .nav li a {\n    float: left;\n    display: block;\n    width: 10px;\n    height: 10px;\n    border: 1px solid #ccc;\n    color:#fff;\n    overflow: hidden;\n}\n\n.work .nav li a:hover {\n    background: #bbb;\n    color:#bbb;\n}\n.work .nav li a.on {\n    background: #ccc;\n    color:#ccc;\n}

@@ -1,0 +1,1 @@
+gcc -O2 -ftree-vectorize -msse2 -mfpmath=sse -ftree-vectorizer-verbose=5

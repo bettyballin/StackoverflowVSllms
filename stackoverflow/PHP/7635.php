@@ -1,0 +1,1 @@
+str_replace("></FONT>", ">$myinserttext</FONT>", $myhtml);

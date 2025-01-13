@@ -1,0 +1,1 @@
+.method public specialname rtspecialname \n        instance void  .ctor() cil managed\n{\n  // Code size       15 (0xf)\n  .maxstack  8\n  IL_0000:  ldarg.0\n  IL_0001:  call       instance void [base]Player::.ctor()\n  IL_0006:  ldarg.0\n  IL_0007:  ldc.i4.s   100\n  IL_0009:  stfld      int32 B::desiredPower\n  IL_000e:  ret\n} // end of method B::.ctor

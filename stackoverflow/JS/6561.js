@@ -1,0 +1,1 @@
+$("ul.tabs").tabs("div.tabs_panes > div", {\n    // enable the history feature\n    history: true,\n});

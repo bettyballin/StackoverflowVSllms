@@ -1,0 +1,1 @@
+$elements = $dom->getElementsByTagName('foo');\n$data = array();\nforeach($elements as $node){\n    foreach($node->childNodes as $child) {\n        $data[] = array($child->nodeName => $child->nodeValue);\n    }\n}

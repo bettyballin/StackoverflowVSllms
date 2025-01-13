@@ -1,0 +1,1 @@
+WITH\ndata AS\n(\n    SELECT interesting-data\n    FROM   interesting-table\n    WHERE  some-condition\n)\nSELECT COUNT(*), data.*\nfrom data

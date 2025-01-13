@@ -1,0 +1,1 @@
+mysql_connect("localhost", "user", "password") or die(mysql_error());

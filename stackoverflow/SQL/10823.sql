@@ -1,0 +1,1 @@
+EXEC msdb.dbo.sp_send_dbmail\n   @recipients = 'myemail@someemail.com',\n   @subject = 'test',\n   @file_attachments = 'C:\MyFolder\Test\Google.gif;C:\MyFolder\Test\Yahoo.gif',\n   @body=N'<p>Image Test</p><img src="Google.gif" /><p>See image there?</p>\n        <img src="Yaoo.gif" /><p>Yahoo!</p>', \n   @body_format = 'HTML';

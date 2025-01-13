@@ -1,0 +1,1 @@
+<?php\nob_start();\nvar_dump($someVar);\n$result = ob_get_clean();\n?>

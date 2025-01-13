@@ -1,0 +1,1 @@
+echo preg_replace('?', $username, $result->queryString);

@@ -1,0 +1,1 @@
+$time = time() + 3 * 24 * 60 * 60; // 3 days\nheader('expires: ' . gmdate('D, d M Y H:i:s \G\M\T', $time);

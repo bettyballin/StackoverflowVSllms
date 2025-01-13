@@ -1,0 +1,1 @@
+var query = myDC.Orders\n    .GroupBy(x => x.OrderDate.Hour)\n    .Select(g => new {\n        Hour = g.Key,\n        Amount = g.Sum(x => x.OrderAmount)\n    });

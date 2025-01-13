@@ -1,0 +1,1 @@
+unless @file.content_type =~ /^application\/pdf$/

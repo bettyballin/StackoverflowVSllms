@@ -1,0 +1,1 @@
+inv_map = {v: k for k, v in my_map.items()}

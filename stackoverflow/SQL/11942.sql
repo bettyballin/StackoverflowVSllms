@@ -1,0 +1,1 @@
+SELECT COUNT(e.EventID), T.Customer, T.Year, T.Month\nFROM [Event] e\nINNER JOIN #T T ON (\n  T.CustomerID = e.CustomerID and \n  T.Year = year(e.DateOpened) and \n  T.Month = month(e.DateOpened) \n  ) \nWHERE T.Year = 2008 \n  and T.Month = 12 \nGROUP BY T.Customer, T.Year, T.Month\nORDER BY T.Year, T.Month

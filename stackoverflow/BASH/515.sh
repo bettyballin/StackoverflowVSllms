@@ -1,0 +1,1 @@
+makecert -n "CN=MY COMPANY DEBUG" -pe -sky exchange Debug.cer -sv Debug.pvk\npvk2pfx -pvk Debug.pvk -spc Debug.cer -pfx Debug.pfx

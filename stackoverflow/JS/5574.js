@@ -1,0 +1,1 @@
+$.getJSON(url, params, function (jsonData){\n  // populate array\n  // call 2nd function.\n});

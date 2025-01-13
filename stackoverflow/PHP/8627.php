@@ -1,0 +1,1 @@
+while (($currentByte = socket_read($socket, 1)) != "") {\n    // Do whatever you wish with the current byte\n}

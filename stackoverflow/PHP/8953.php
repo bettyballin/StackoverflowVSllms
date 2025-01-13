@@ -1,0 +1,1 @@
+$message->addAttachment($file);

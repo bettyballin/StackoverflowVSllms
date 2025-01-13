@@ -1,0 +1,1 @@
+if (App::import($type, $plugin . $class)) {\n    ${$class} =& new $class($options);\n} elseif ($type === 'Model') {\n    /* Print out whatever debug info we have then exit */\n    pr($objects);\n    die("unable to find class $type, $plugin$class");\n    /* We don't want to base this on the app model */\n    ${$class} =& new AppModel($options);\n}

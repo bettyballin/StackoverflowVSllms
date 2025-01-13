@@ -1,0 +1,1 @@
+target.AddRange( source.OrderBy(GetRandomNumber).Take(3) );

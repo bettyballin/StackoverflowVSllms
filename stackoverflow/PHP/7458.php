@@ -1,0 +1,1 @@
+$xml = new SimpleXMLElement($string);\n$nodes = $xml->xpath("//*[@class='myclass']");\n\nforeach ($nodes as $node) {\n    // ...\n}

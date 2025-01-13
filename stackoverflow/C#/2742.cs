@@ -1,0 +1,1 @@
+command.Parameters.Add (":UnicodeString",\n                        OracleType.NVarChar).Value = stringToSave;

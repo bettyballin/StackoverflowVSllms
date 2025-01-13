@@ -1,0 +1,1 @@
+SELECT *\nFROM\n    [dbo].[TestTable]\nWHERE\n    [Col1] = COALESCE(@Col1, Col1) AND\n    [Col2] = COALESCE(@Col2, Col2) AND\n    [Col3] >= COALESCE(@Col3 + "00:00:00", Col3) AND\n    [Col4] <= COALESCE(@Col4 + "23:59:59", Col4) AND (\n    @ID1 IS NULL \n        OR [Col5] IN (SELECT [ID2] FROM [dbo].[TestTable2] WHERE [ID1] =  @ID1))

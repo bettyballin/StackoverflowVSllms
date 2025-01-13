@@ -1,0 +1,1 @@
+//do stuff to get location of repository from MySQL into variable $x\n//run shell script\n$res = `python hgweb.py $x`;

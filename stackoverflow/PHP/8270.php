@@ -1,0 +1,1 @@
+echo '<script type="text/javascript">',\n     'jsfunction();',\n     '</script>'\n;

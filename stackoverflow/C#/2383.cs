@@ -1,0 +1,1 @@
+System.Web.HttpUtility.HtmlEncode(string)

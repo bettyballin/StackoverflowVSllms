@@ -1,0 +1,1 @@
+Page.ClientScript.RegisterStartupScript(Me.GetType, "TimeoutScript", \n"setTimeout(""top.location.href = '~/Login.aspx'""," &\n ConfigurationManager.AppSettings("SessionTimeoutMilliseconds") & ");", True)

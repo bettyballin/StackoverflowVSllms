@@ -1,0 +1,1 @@
+$node = $this;\nwhile ($node->parent != 0) {\n  $node = $this->retrieve("id = '$node->parent'");\n}

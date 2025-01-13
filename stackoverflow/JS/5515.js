@@ -1,0 +1,1 @@
+mytestbutton.style.right = x + "px";\nmytestbutton.style.top = y + "px";

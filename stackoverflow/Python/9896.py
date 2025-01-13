@@ -1,0 +1,1 @@
+break; #breaks out of a loop\ncontinue; #skips rest of current iteratio

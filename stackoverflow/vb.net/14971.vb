@@ -1,0 +1,1 @@
+Dim readFile As FileInfo = New FileInfo(logHourlyName)\nIf readFile.Exists() Then\n   Dim textStream As StreamReader = readFile.OpenText()\n   Dim strLine As String\n   Do\n       curLine = textStream.ReadLine()\n   Loop Until curLine Is Nothing\n   textStream.Close()\nEnd If

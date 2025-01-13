@@ -1,0 +1,1 @@
+echo method_exists( bob, 'yippie' ) ? 'yes' : 'no';

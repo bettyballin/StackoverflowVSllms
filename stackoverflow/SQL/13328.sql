@@ -1,0 +1,1 @@
+INSERT INTO tableC \nSELECT * \nFROM tableA \nWHERE tableA.field NOT IN (SELECT tableB.field FROM tableB)

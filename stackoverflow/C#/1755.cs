@@ -1,0 +1,1 @@
+[WebMethod]\npublic string AuthenticateUser(string username, string password)\n{\n    string result = "Invalid Username or Password";\n    if(Membership.ValidateUser(userName, password))\n    {\n        FormsAuthentication.SetAuthCookie(u.UserName, false);\n        result = "successful";\n    }\n    return result;\n}

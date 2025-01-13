@@ -1,0 +1,1 @@
+#define FILE_GENERIC_WRITE        (STANDARD_RIGHTS_WRITE    |\\n                                   FILE_WRITE_DATA          |\\n                                   FILE_WRITE_ATTRIBUTES    |\\n                                   FILE_WRITE_EA            |\\n                                   FILE_APPEND_DATA         |\\n                                   SYNCHRONIZE)

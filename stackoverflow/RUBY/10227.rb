@@ -1,0 +1,1 @@
+test "it should show the profile page" do\n  user = Factory(:user)\n  login_as(user)\n  get :show, :id => user\n  assert_response :success\nend\n\ntest "it should not show the profile page cos I'm not logged in" do\n  user = Factory(:user)\n  get :show, :id => user\n  assert_response :redirect\nend

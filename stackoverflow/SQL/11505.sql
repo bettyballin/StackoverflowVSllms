@@ -1,0 +1,1 @@
+delete t \nfrom TestTable t\nleft join \n(\n    select id, InsertedDate = max(InsertedDate) from TestTable\n    group by id\n) as sub on sub.id = t.id and sub.InsertedDate = t.InsertedDate\nwhere sub.id is null

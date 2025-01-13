@@ -1,0 +1,1 @@
+(\nSELECT  `name` \nFROM  `table` \nWHERE  `name` <  "Dunn"\nORDER BY  `name` DESC \nLIMIT 3\n)\nUNION ALL (\n\nSELECT  `name` \nFROM  `table`\nWHERE  `name` =  "Dunn"\nLIMIT 1\n)\nUNION ALL (\n\nSELECT  `name` \nFROM  `table` \nWHERE  `name` >  "Dunn"\nORDER BY  `name` ASC\nLIMIT 3\n)

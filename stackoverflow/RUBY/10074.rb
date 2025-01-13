@@ -1,0 +1,1 @@
+irb> Nokogiri.instance_methods\n#=>  []

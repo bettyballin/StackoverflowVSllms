@@ -1,0 +1,1 @@
+<?php\n$xml_text = file_get_contents("php://input");\nfile_put_contents('test.log.txt', $xml_text);

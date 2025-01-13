@@ -1,0 +1,1 @@
+[WebInvoke(RequestFormat = WebMessageFormat.Xml, \n           ResponseFormat = WebMessageFormat.Xml,\n           Method = "POST", UriTemplate = "tasks/{description}", \n           BodyStyle = WebMessageBodyStyle.Bare)]\n[OperationContract]\nvoid AddTask(string description);

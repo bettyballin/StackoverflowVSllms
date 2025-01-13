@@ -1,0 +1,1 @@
+select * from users where points in\n(select distinct top 3 points from users order by points desc)

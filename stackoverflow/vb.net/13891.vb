@@ -1,0 +1,1 @@
+cmd.CommandType = 200 ' adVarChar

@@ -1,0 +1,1 @@
+CREATE TABLE [dbo].[deterministicTest](\n    [intDate] [int] NULL,\n    [dateDateTime] [datetime] NULL,\n    [castIntToDateTime]  AS (CONVERT([datetime],[intDate],0)),\n    [castDateTimeToInt]  AS (CONVERT([int],[dateDateTime],0)),\n    [castIntToVarchar]  AS (CONVERT([varchar],[intDate],0))\n) ON [PRIMARY]

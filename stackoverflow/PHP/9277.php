@@ -1,0 +1,1 @@
+<?php\n$ip = $_SERVER['REMOTE_ADDR']; \n$date = date("j. F Y"); \n$time = date("H:i:s"); \n$text="<tr><td>{$ip}</td><td>{$date}</td><td>{$time}</td></tr> \n"; \n\n$originalfile = file_get_contents ('./iplogg.html');\n$newFile = str_replace('</table>',$text.'</table>',$originalfile);\nfile_put_contents('./iplogg.html', $newFile);\n?>    

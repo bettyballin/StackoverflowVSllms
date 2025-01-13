@@ -1,0 +1,1 @@
+yourDataTable.Rows[ndx][column]

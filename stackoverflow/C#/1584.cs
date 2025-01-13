@@ -1,0 +1,1 @@
+List<I> list = new List<I>();\nforeach (T[] arrayOfA in arrays)\n{\n    list.AddRange(Array.ConvertAll<T, I>(arrayOfA, t => (I)t));\n}\nreturn list.ToArray();

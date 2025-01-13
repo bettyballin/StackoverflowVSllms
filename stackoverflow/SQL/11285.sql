@@ -1,0 +1,1 @@
+SELECT\nusers_usr.firstname_usr,\nusers_usr.lastname_usr,\ncredit_acc.given_credit_acc,\nusers_usr.created_usr,\nusers_usr.sitenum_usr,\nusers_usr.original_aff_usr,\nusers_usr.id_usr\nFROM\ncredit_acc\nright Outer Join users_usr ON credit_acc.uid_usr = users_usr.id_usr\nWHERE credit_acc.type_acc = 'init' OR credit_acc.type_acc is NULL

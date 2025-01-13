@@ -1,0 +1,1 @@
+public DataType MyProperty { get; set; }

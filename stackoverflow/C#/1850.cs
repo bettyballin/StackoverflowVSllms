@@ -1,0 +1,1 @@
+string[] items = new string[] {"Uno","Dos","Tres"};\n\nstring toEncrypt = String.Join("|", items);\n\nitems = toEncrypt.Split(new char[] {'|'}, StringSplitOptions.RemoveEmptyEntries);\n\nforeach(string s in items)\n  Console.WriteLine(s);

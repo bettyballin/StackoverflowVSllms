@@ -1,0 +1,1 @@
+DECLARE @count int\nSET @count = 10000\n\n    DELETE  FROM table1 \n    WHERE table1id IN (\n        SELECT TOP (@count) tableid\n        FROM table1\n        WHERE x='y'\n    )

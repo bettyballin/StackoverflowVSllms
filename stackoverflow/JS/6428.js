@@ -1,0 +1,1 @@
+var SqlString = "SELECT * FROM Customers; SELECT * FROM Products; SELECT * FROM ORDERS;");\nvar ds = GetDataSet(SqlString);\nvar DataTable1 = ds.Tables(0);\nvar DataTable2 = ds.Tables(1);\nvar DataTable3 = ds.Tables(2);

@@ -1,0 +1,1 @@
+public JsonResult GetResults()\n{\nreturn Json(new { message = "SUCCESS" });\n}

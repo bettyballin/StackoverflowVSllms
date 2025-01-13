@@ -1,0 +1,1 @@
+[Guid("3838ADC1-E901-4003-BD0C-A889A7CF25A1")]\npublic interface IMyCOMClass  {\n    void MyMethod(); \n}\n\n[Guid("476BDEB6-B933-4ed5-8B86-7D9330A59356"),\nClassInterface(ClassInterfaceType.None)]\npublic class MyCOMClass : IMyCOMClass {\n    public void MyMethod() { \n        //implementation here\n    }\n}

@@ -1,0 +1,1 @@
+[AcceptVerbs(HttpVerbs.Post)]\npublic ActionResult GenericPostHandler(NewAccountInfo info, string fromViewName)\n{\n    ...\n}

@@ -1,0 +1,1 @@
+SELECT CASE WHEN columnName IS NULL THEN 'false' ELSE 'true' END FROM tableName;

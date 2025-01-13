@@ -1,0 +1,1 @@
+def factorial( *args ):\n    def fact( n ):\n        if n == 0: return 1\n        return n*fact(n-1)\n    return [ fact(a) for a in args ]

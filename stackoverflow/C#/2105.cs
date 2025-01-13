@@ -1,0 +1,1 @@
+if( i < 0 )\n   throw new ArgumentOutOfRangeException("i", "parameter i must be greater than 0");\n\nif( string.IsNullOrEmpty(s) )\n   throw new ArgumentNullException("s","the paramater s needs to be set ...");

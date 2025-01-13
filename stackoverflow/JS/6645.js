@@ -1,0 +1,1 @@
+var done = 4; // number of total requests\nvar sum = 0;\n\n/* Normal loops don't create a new scope */\n$([1,2,3,4,5]).each(function() {\n  var number = this;\n  $.getJSON("/values/" + number, function(data) {\n    sum += data.value;\n    done -= 1;\n    if(done == 0) $("#mynode").html(sum);\n  });\n});

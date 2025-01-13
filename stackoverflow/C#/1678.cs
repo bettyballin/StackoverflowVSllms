@@ -1,0 +1,1 @@
+Ajax.ActionLink("LinkText", "Action", Args, AjaxArgs,new{style="display:none;"})

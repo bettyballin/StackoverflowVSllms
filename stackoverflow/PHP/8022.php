@@ -1,0 +1,1 @@
+<?php\n    echo $form->input($r['Attribute']['label'], array('type'=>'text','style' => 'width:' . $r['Attribute']['size'] . 'px'));\n?>

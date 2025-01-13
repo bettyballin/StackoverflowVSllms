@@ -1,0 +1,1 @@
+echo <<<DOC\n<input type="text" name="myname" value="myvalue">\nDOC;

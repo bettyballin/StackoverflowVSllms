@@ -1,0 +1,1 @@
+HtmlElement button = (HtmlElement)htmlDoc.GetElementById("searchsubmit");\n button.InvokeMember("click");

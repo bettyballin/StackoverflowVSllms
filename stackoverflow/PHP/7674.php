@@ -1,0 +1,1 @@
+header("Expires: " . date("r", time() + ( 60 * 60 * 24 * 7 * 1 ) ) ); // Expires in 1 week\nheader("Content-Type: application/x-javascript");

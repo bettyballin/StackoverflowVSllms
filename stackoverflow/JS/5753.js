@@ -1,0 +1,1 @@
+$.ajax({ \n  type:"POST",\n  url: "ajax/delete.php",\n  data:"id="+id,\n  beforeSend: function() {\n    $('#delete_post').show('slow');\n  },\n  success: function(html) {\n    $("#delete_post").html(html);\n  }\n});

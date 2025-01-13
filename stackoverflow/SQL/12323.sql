@@ -1,0 +1,1 @@
+SELECT DISTINCT t1.id\nFROM table t1, table t2\nWHERE t1.id = t2.id\n  AND t1.value = 2\n  AND t2.value = 5

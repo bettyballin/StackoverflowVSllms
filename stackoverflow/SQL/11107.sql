@@ -1,0 +1,1 @@
+INSERT INTO bar..tblFoobar( *fieldlist* )\nSELECT *fieldlist* FROM foo..tblFoobar

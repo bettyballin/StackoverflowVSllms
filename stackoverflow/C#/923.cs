@@ -1,0 +1,1 @@
+using System.Security.Principal;\nWindowsImpersonationContext ctx = \n      WindowsIdentity.Impersonate(System.IntPtr.Zero);\n//do stuff in app pool's security context\nctx.Undo();

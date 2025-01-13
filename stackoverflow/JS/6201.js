@@ -1,0 +1,1 @@
+<script type="text/javascript">\n/* <![CDATA[ */\n$(document).ready(function(){   \n    $("#slider").easySlider({\n            prevText:'<div id="backarrow">Back</div>',\n            nextText:'<div id="nextarrow">View Other Projects</div>',\n            orientation:'horizontal'\n    });\n});\n/* ]]> */\n</script>

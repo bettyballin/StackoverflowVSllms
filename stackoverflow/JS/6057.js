@@ -1,0 +1,1 @@
+if("45" === 45) //false\n if(45 === 45) //true\n if(0 === false)//false

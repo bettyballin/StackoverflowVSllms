@@ -1,0 +1,1 @@
+foreach($data as $key => $value){\n    $repstr = str_replace($key, $value, $line);               \n}

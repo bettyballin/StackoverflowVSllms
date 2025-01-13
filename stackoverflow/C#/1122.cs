@@ -1,0 +1,1 @@
+viewname="foo";\nviewwhere="* from bar";\n\nSqlCommand cmd = new SqlCommand("CREATE VIEW "+viewname+" AS SELECT "+viewwhere);

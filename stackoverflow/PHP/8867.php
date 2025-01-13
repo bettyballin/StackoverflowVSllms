@@ -1,0 +1,1 @@
+$db->quote($username);

@@ -1,0 +1,1 @@
+var table = $('#' + tableId);\nvar rowHash = {};\ntable.find('[fname]').each( function() {\n    rowHash[$(this).attr('fname')] = $(this).closest('tr');\n});\nvar rows = [];\nfor (var i = 0; i < arrCSV.length; ++i)\n{\n    var row = rowHash[arrCSV[i]];\n    if (row) {\n       rows.push(row);\n    }\n}\n$(rows).appendTo(table);

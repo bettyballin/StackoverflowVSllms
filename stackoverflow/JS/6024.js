@@ -1,0 +1,1 @@
+var makeSafe = function(fn){\n  return function(){\n    try{\n      return fn.apply(this, arguments);\n    }catch(ex){\n      ErrorHandler.Exception(ex);\n    }\n  };\n};

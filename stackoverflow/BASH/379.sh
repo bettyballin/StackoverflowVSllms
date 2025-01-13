@@ -1,0 +1,1 @@
+@echo off\nrem first arg is the file containing filenames\nrem second arg is the target directory\n\nFOR /F %%f IN (%1) DO IF EXIST %2\%%f ECHO %%f exists in %2

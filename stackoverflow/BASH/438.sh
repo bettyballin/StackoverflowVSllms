@@ -1,0 +1,1 @@
+$ xsltproc --version\nUsing libxml 20628, libxslt 10120 and libexslt 813\nxsltproc was compiled against libxml 20628, libxslt 10120 and libexslt 813\nlibxslt 10120 was compiled against libxml 20628\nlibexslt 813 was compiled against libxml 20628

@@ -1,0 +1,1 @@
+SELECT v2.video_id\nFROM VideoTags AS v1\n  JOIN VideoTags AS v2\n  USING (tag_id)\nWHERE v1.video_id = ?\n  AND v1.video_id <> v2.video_id\nGROUP BY v2.video_id \nORDER BY COUNT(*) DESC;

@@ -1,0 +1,1 @@
+$('#foo').click(function() { alert('foo'); });

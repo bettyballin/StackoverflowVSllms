@@ -1,0 +1,1 @@
+$this->Upload->set($this->data);\n$this->Upload->validates();

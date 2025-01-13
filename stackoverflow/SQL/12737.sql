@@ -1,0 +1,1 @@
+SELECT SUM(VoteValue)\nFROM Votes\nWHERE CommentID = ?

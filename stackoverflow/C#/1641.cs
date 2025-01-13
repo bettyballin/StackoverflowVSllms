@@ -1,0 +1,1 @@
+return db.Employees\n   .Select(e => new { e.EmployeeID, e.FirstName, e.LastName })\n   .ToList();

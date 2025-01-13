@@ -1,0 +1,1 @@
+INSERT INTO table (email) VALUES (email_address) ON DUPLICATE KEY UPDATE\nemail=email_address

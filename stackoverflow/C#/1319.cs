@@ -1,0 +1,1 @@
+MyOtherInstantiatedForm.CustomerID = CurrentCustomerID;

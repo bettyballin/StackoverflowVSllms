@@ -1,0 +1,1 @@
+SELECT NULL, NULL, NULL, NULL, MySingleField, NULL, NULL, NULL... FROM #temp\nUNION ALL\nSELECT Col1, Col2, Col3, Col4, Col5, Col6,... FROM OtherTable

@@ -1,0 +1,1 @@
+private void vehicleTypeGridView_CellClick(object sender, DataGridViewCellEventArgs e)\n{\n    if ( e.RowIndex == - 1 ) return; //Header Cell clicked -> ignore it.\n    vehicleTypeGridView.BeginEdit ( true );\n    var control = vehicleTypeGridView.EditingControl as DataGridViewComboBoxEditingControl;\n    if ( control != null ) control.DroppedDown = true;\n}

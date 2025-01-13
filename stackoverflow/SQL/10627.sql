@@ -1,0 +1,1 @@
+declare @sql varchar(5000)

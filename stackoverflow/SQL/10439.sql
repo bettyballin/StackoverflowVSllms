@@ -1,0 +1,1 @@
+SELECT t.ID,\n       NVL((SELECT MAX(t2.ID)\n              FROM Table t2\n             WHERE t.GROUP = t2.GROUP\n               AND t2.ID < t.ID), 0)      AS Parent_ID ,\n       t.Value\n  FROM TABLE t

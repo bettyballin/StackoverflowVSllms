@@ -1,0 +1,1 @@
+class Word < ActiveRecord::Base\n  has_many :links, :dependent => :destroy\n  has_many :synonyms, :through => :links\nend

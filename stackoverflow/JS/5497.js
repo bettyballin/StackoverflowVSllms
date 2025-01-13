@@ -1,0 +1,1 @@
+$('.header').each(function() {\n  var head = $(this);\n\n  if(!head.parent().hasClass('wrap')) {\n    head.before('div class="wrap"></div>');\n\n    var wrap = head.prev();\n    var curr = head;\n\n    do {\n      var currEl = curr;\n      curr = curr.next();\n\n      currEl.appendTo(wrap);\n    } while(curr.length > 0 && !curr.hasClass('header'));\n  }\n});

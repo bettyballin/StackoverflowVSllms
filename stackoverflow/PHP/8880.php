@@ -1,0 +1,1 @@
+<?php\n$sock = fopen('http://domain.tld/path/to/file', 'r');\n$data = null;\nwhile(($data = fgets($sock)) == TRUE)\n{\n    echo $data;\n}\nfclose($sock);

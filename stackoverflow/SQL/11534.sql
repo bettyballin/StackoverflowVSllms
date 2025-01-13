@@ -1,0 +1,1 @@
+\nSELECT T2.*\nFROM T1, T2\nWHERE T1.ColumnB LIKE T2.ColumnA + '%'

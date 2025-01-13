@@ -1,0 +1,1 @@
+"C:\Program Files\KDiff3\kdiff3.exe" %base %mine %theirs -o %merged --L1 Base --L2 Mine --L3 Theirs

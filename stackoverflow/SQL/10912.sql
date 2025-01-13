@@ -1,0 +1,1 @@
+select dbms_metadata.get_ddl('TABLE', 'TABLE_NAME', 'SCHEMA_NAME') from dual

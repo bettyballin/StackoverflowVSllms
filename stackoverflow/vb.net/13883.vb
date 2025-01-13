@@ -1,0 +1,1 @@
+u.SignupTime >= new DateTime(2009,5,5,0,0,0) AndAlso _\nu.SignupTime < new DateTime(2009,5,6,0,0,0)

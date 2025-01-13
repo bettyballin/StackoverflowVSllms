@@ -1,0 +1,1 @@
+COUNT ( { [ [ ALL | DISTINCT ] expression ] | * } )

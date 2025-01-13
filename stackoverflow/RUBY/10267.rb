@@ -1,0 +1,1 @@
+require 'win32/registry.rb'\n\nWin32::Registry::HKEY_CURRENT_USER.open('Environment', Win32::Registry::KEY_WRITE) do |reg|\n  reg['ABC'] = '123'\nend

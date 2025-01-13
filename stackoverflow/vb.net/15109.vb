@@ -1,0 +1,1 @@
+Dim ThViewr As Bright.WebControls.ThumbViewer = DirectCast(e.Item.FindControl("Th1"), Bright.WebControls.ThumbViewer)\nDim dtUser As DataTable = GetDetails()\nDim strUserName As String = dtUser.Rows(0)("Name")\nDim ImagePath As String = "../SiteImages/" & strUserName & "/" & Session("RegID") & "/" + DirectCast(e.Item.DataItem, FileInfo).Name\nThViewr.ImageUrl = ImagePath    

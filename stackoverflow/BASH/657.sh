@@ -1,0 +1,1 @@
+c:\Downloads>more <npp.5.4.5.installer.exe:Zone.Identifier

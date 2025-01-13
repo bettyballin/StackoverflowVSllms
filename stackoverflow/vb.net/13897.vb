@@ -1,0 +1,1 @@
+CurrentDb.Execute "ALTER TABLE myTable ALTER Column myIntegerColumn Long"

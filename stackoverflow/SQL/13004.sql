@@ -1,0 +1,1 @@
+CREATE TABLE `incr` (\n  `Id` int(11) NOT NULL auto_increment,\n  PRIMARY KEY  (`Id`)\n) ENGINE=MyISAM  DEFAULT CHARSET=utf8;

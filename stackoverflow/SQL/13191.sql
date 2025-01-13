@@ -1,0 +1,1 @@
+...\n WHERE \n    CreatedBy = @p\n...\n\nEXECUTE sp_executesql @sql, N'@p UNIQUEIDENTIFIER', @p = @p_CreatedBY

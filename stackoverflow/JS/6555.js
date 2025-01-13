@@ -1,0 +1,1 @@
+function validateSomething() {\n    var valid;\n    $.ajax({\n        url: "something.php",\n        data: {x: y},\n        type: "GET",\n        async: false, // this makes the ajax-call blocking\n        dataType: 'json',\n        success: function (response) {\n            valid= response.valid;\n        }\n     });\n     return valid;\n}

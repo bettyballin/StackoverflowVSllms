@@ -1,0 +1,1 @@
+before_filter :benchmark_log\n\n  def benchmark_log\n   File.open("request_log.txt","a") do |f|\n      f.puts request.method.to_s + " '" + request.request_uri + "', " + params.except(:action).except(:controller).inspect.gsub(/(^\{|\}$)/,"")\n    end\n  end

@@ -1,0 +1,1 @@
+select t.range as [score range], count(*) as [number of occurences]\nfrom (\n  select case  \n    when score between 0 and 9 then ' 0- 9'\n    when score between 10 and 19 then '10-19'\n    else '20-99' end as range\n  from scores) t\ngroup by t.range

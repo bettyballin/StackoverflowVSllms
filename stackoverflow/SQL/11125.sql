@@ -1,0 +1,1 @@
+SELECT cardevent.ID, cardevent.Value, \n  (SELECT TOP 1 F1.Value\n   FROM cardevent as F1\n   WHERE F1.ID < cardevent.ID\n   ORDER BY F1.ID DESC\n   ) AS Prev_Value\nFROM cardevent

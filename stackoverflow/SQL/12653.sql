@@ -1,0 +1,1 @@
+SELECT * FROM people WHERE email NOT LIKE '%_@__%.__%'

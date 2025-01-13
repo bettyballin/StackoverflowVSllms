@@ -1,0 +1,1 @@
+SET @SomeVariable = @AnotherVariable / COALESCE(\n        CASE \n             WHEN @VariableEqualToZero = 0 THEN 1\n             ELSE @VariableEqualToZero\n        END, 1) - 1

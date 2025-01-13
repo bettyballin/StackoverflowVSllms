@@ -1,0 +1,1 @@
+RewriteCond %{THE_REQUEST} \.php[\ /?].*HTTP/\nRewriteRule ^.*$ - [R=404,L]

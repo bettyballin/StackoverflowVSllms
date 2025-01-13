@@ -1,0 +1,1 @@
+$(".imageClass > a > img").click(on_image_click);\n\nfunction on_image_click() {\n    var image = this, strong = image.parent().next();\n    $.getJSON("/blah/123", {test: 'a'}, function (data) {\n        strong.text(data.Message);\n    });\n}

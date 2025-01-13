@@ -1,0 +1,1 @@
+UPDATE\n  MyTable\nSET\n  MyTimeStamp = UNIX_TIMESTAMP(MyDateTime);

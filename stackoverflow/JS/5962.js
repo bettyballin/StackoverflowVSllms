@@ -1,0 +1,1 @@
+$select = $('<select id="mySelect"></select>');\n$select.append('<option value="1">Jason</option>') //Key = 1\n   .append('<option value="32">John</option>') //Key = 32\n   .append('<option value="423">Paul</option>') //Key = 423

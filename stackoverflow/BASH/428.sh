@@ -1,0 +1,1 @@
+$line = `sed 's|\\r|\\n|g' "$logfile"| tail -n 1`;

@@ -1,0 +1,1 @@
+Public Property Foo() As Foo\n    Get\n        ...\n    End Get\n    Private Set(ByVal value As Foo)\n        ...\n    End Set\nEnd Property

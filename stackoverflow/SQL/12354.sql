@@ -1,0 +1,1 @@
+ALTER TABLE <tablename> ADD CONSTRAINT\n            <constraintname> UNIQUE NONCLUSTERED\n    (\n                <columnname>\n    )

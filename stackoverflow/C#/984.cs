@@ -1,0 +1,1 @@
+_MyEvent = [Delegate].Combine(_MyEvent, value)

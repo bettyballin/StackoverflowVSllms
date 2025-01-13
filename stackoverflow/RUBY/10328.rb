@@ -1,0 +1,1 @@
+h = Hash.new(0)\nFasterCSV.read("file.csv")[1..-1].each {|row| h[row[0]] += 1}

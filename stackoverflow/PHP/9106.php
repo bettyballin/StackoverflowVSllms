@@ -1,0 +1,1 @@
+<?php\n\nclass Template {\n function __construct($c) {\n   $this->conn = $c;\n   $this->foo = "bar";\n }\n function get_data() {\n  $result = mysql_query("select 1234 as test", $this->conn);\n  $data = mysql_fetch_array($result);\n  return $data;\n }\n \n function attach_db($c) {\n   $this->conn = $c;\n }\n}\n\n?>

@@ -1,0 +1,1 @@
+create trigger log_date before insert on log \nfor each row begin\n   set new.date = current_date()\nend;

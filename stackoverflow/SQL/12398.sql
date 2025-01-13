@@ -1,0 +1,1 @@
+select * from (\n    (select 1 a,2 b,3 c) t1 left join (select null a,2 b,5 c) t2 on (t1.b=t2.b)\n);

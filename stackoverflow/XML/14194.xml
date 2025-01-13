@@ -1,0 +1,1 @@
+<block type="directory/currency" name="currency" before="catalog.leftnav" template="directory/currency.phtml"/>

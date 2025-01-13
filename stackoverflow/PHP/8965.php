@@ -1,0 +1,1 @@
+public stdclass newInstance(mixed args)\npublic stdclass newInstanceArgs(array args)

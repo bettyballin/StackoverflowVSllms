@@ -1,0 +1,1 @@
+ss dir -v"LABEL" $\PROJECT -R

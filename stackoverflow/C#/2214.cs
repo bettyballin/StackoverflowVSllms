@@ -1,0 +1,1 @@
+List<string> items = new List<string>(dtbl.Rows.Count);\n\n    for (int RowCount = 0; RowCount < dtbl.Rows.Count; RowCount++)\n    {\n        items.Add(dtbl.Rows[RowCount]["ID"].ToString());\n    }\n\n    items.ToArray();

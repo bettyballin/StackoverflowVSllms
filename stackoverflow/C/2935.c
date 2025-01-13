@@ -1,0 +1,1 @@
+BITMAPINFOHEADER bmi = { sizeof(bmi) };\nbmi.biWidth = 20000;\nbmi.biHeight = 20000;\nbmi.biPlanes = 1;\nbmi.biBitCount = 16;\nHDC hdc = CreateCompatibleDC(NULL);\nBYTE* pbData = 0;\nHBITMAP hbm = CreateDIBSection(hdc, (BITMAPINFO*)&bmi, DIB_RGB_COLORS, (void**)&pbData, NULL, 0);\nDeleteObject(SelectObject(hdc, hbm));

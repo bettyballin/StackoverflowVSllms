@@ -1,0 +1,1 @@
+mysql_db_query() selects a database, and executes a query on it. 

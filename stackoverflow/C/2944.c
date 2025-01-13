@@ -1,0 +1,1 @@
+foo([in] unsigned long ulSize, [in] BSTR pData)\n\n...\n\nfoo(1, _bstr_t(""));

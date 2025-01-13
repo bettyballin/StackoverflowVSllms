@@ -1,0 +1,1 @@
+$(document).ready(function(){\n    $('#show_morecats').bind('click', function(){\n        $('#morecats').slideToggle('slow', function() { \n            $('#show_morecats').toggleClass("opened");\n        });\n    });\n});

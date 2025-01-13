@@ -1,0 +1,1 @@
+class Test {\n  private $systime;\n  function __construct() {\n    $this->systime = time();\n  }\n\n  public function get_systime(){\n    echo $this->systime;\n  }\n}\n\n\n$t = new Test();\n$t->get_systime();

@@ -1,0 +1,1 @@
+preg_replace('/(?:A)+(.+?)(?:C)+/', 'foo$1bar', $text)

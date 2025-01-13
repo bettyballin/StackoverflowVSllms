@@ -1,0 +1,1 @@
+var voting = false; // not initially voting

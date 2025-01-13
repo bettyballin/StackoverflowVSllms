@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $(window).keydown(function(event){\n    if(event.keyCode == 13) {\n      event.preventDefault();\n      return false;\n    }\n  });\n});

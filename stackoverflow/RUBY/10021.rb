@@ -1,0 +1,1 @@
+class Foo\n  attr_accessor :bar\nend\n\nclass Bar\nend\n\nfoo = Foo.new\nfoo.bar = Bar.new\nput_in_session(foo)

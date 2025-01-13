@@ -1,0 +1,1 @@
+INSERT INTO table2 SELECT x FROM table1 WHERE x > 5 LIMIT 4

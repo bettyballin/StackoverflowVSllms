@@ -1,0 +1,1 @@
+dbms_utility.get_time

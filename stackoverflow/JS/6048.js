@@ -1,0 +1,1 @@
+function test() {\n    PageMethods.MyMethod("name", OnMyMethodComplete);\n}\n\nfunction OnMyMethodComplete(result, userContext, methodName) {\n    alert(result);\n}

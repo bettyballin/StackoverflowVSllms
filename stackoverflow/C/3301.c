@@ -1,0 +1,1 @@
+#ifdef TEST_EXPORTS\n#define TEST_API __declspec(dllexport)\n#else\n#define TEST_API __declspec(dllimport)\n#endif

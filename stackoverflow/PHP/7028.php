@@ -1,0 +1,1 @@
+$text = 'string_input';\npreg_match('/<image_link>([^<]+)<\/image_link>/gi', $text, $regs);\n$result = $regs[0];

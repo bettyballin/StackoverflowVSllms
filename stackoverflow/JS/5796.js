@@ -1,0 +1,1 @@
+onclick="document.getElementById('foo').value='bar';"

@@ -1,0 +1,1 @@
+for ($i = 1, $j = count($array); $i < $j; $i += 2) {\n    // code\n}

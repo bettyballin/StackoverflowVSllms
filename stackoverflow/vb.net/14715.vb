@@ -1,0 +1,1 @@
+Dim children = _\n    From n In SiteMap.CurrentNode.ChildNodes.Cast(Of SiteMapNode)() _\n    Where n.Url <> "/Registration.aspx" _\n    Select 

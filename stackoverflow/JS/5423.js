@@ -1,0 +1,1 @@
+var urls:Array = new Array();\nurls.push("http://link1");\n...\nurls.push("http://link12");\n\nfunction SetMouseAction(buttonMC, arrowMC, dynamicTF, linkURL):Void {\n...\n}\n\nfor (var i:Number = 1; i<=12; i++) {\n    SetMouseAction(this["link"+i],this["arrow"+i],this["text"+i],urls[i]);\n}

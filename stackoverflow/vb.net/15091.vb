@@ -1,0 +1,1 @@
+Partial Public Class Customer\n\n    Public ReadOnly Property OrderCount As Integer\n        Get\n            Return Me.Orders.Count\n        End Get\n    End Property\n\nEnd Class

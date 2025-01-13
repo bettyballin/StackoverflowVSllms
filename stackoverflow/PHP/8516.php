@@ -1,0 +1,1 @@
+$User->ValidReg();\n$valid = $User->ValidReg();

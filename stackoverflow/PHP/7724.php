@@ -1,0 +1,1 @@
+$Router=$this->_front->getRouter();\n\n$CategoryRoute = new Zend_Controller_Router_Route('category/:category/:controller/:action/*',\n    array(\n        'controller' => 'index',\n        'action'     => 'index',\n        'category'   => null\n    )\n);\n$Router->addRoute('category', $CategoryRoute);

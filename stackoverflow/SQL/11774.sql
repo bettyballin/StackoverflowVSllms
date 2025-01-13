@@ -1,0 +1,1 @@
+SELECT\nq.TechQuestionID,\nq.SubjectLine,\nq.QuestionBody\nFROM\nTag t INNER JOIN TechQuestionTag qt\nON t.TagID = qt.TagID AND qt.Active = 1\nINNER JOIN TechQuestion q\nON qt.TechQuestionID = q.TechQuestionID\nWHERE\nt.TagText = @tagText

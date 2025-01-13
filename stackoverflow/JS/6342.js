@@ -1,0 +1,1 @@
+$("#someSelector span").live("click", function(){\n  # do stuff to spans currently existing\n  # and those that will exist in the future\n});

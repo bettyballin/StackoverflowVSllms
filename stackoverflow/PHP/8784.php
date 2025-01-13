@@ -1,0 +1,1 @@
+<?php\n$registry = Zend_Registry::getInstance();\n$config = $registry->get('config');\nunset($config->domain);\n$registry->offsetUnset('config');\n$registry->set('config', $config);\n?>

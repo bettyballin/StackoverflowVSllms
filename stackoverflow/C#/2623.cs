@@ -1,0 +1,1 @@
+Factory="System.ServiceModel.Activation.WebServiceHostFactory"

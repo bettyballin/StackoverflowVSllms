@@ -1,0 +1,1 @@
+$header = "POST /someendpoint HTTP/1.1\r\n".\n        "Host:example.com\n".\n        "Content-Type: application/x-www-form-urlencoded\r\n".\n        "User-Agent: PHP-Code\r\n".\n        "Content-Length: " . strlen($req) . "\r\n".\n        "Authorization: Basic ".base64_encode($username.':'.$password)."\r\n".\n        "Connection: close\r\n\r\n";

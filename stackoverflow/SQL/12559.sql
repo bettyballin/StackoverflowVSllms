@@ -1,0 +1,1 @@
+create type order_typ as object\n( id    integer\n, ...\n);\n\ncreate table order_obj_table of order_type;\n\ncreate table line_item\n( order_ref ref order_typ scope is order_obj_table\n, ...\n);

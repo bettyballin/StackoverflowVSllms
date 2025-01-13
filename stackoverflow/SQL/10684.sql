@@ -1,0 +1,1 @@
+SUBSTRING(CONVERT(varchar, dt, 13), 1, 2)\n    + UPPER(SUBSTRING(CONVERT(varchar, dt, 13), 4, 3))

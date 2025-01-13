@@ -1,0 +1,1 @@
+tup = (2009, 3, 23, 13, 6, 34, 0, 82, 0)\nimport datetime \nd = datetime.datetime(*(tup[0:6]))\n#two equivalent ways to format it:\ndStr = d.isoformat(' ')\n#or\ndStr = d.strftime('%Y-%m-%d %H:%M:%S')

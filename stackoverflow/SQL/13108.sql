@@ -1,0 +1,1 @@
+EXEC sp_depends @objname = [table name of the column you are interested in]

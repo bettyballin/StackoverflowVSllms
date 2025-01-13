@@ -1,0 +1,1 @@
+$('myFormControl').observe('click', myClickFunction)

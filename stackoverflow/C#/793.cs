@@ -1,0 +1,1 @@
+\nusing System;\nusing System.Net;\n\nnamespace Downloader\n{\n    class Program\n    {\n        public static void Main(string[] args)\n        {\n            using (WebClient wc = new WebClient())\n            {\n                wc.DownloadFile("http://www.mydomain.com/resource.img", "c:\\savedImage.img");\n            }\n        }\n    }\n}

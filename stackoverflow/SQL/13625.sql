@@ -1,0 +1,1 @@
+cast (\n  case\n    when FC.CourseId is not null then 1 else 0\n  end\nas bit)

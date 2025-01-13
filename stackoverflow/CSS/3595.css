@@ -1,0 +1,1 @@
+div#container {\n    text-align: center;\n}\n\ndiv#container>span {\n    display: -moz-inline-box; /* FireFox 2 */\n    display: inline-block; /* the rest */\n    width: 300px;\n    height: 100px;\n    border: solid 1px;\n    margin: 20px;\n}

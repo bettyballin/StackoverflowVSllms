@@ -1,0 +1,1 @@
+var dataStore = (function(){\n    var xml;\n\n    $.ajax({\n      type: "GET",\n      url: "test.xml",\n      dataType: "xml",\n      success : function(data) {\n                    xml = data;\n                }\n    });\n\n    return {getXml : function()\n    {\n        if (xml) return xml;\n        // else show some error that it isn't loaded yet;\n    }};\n})();

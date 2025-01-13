@@ -1,0 +1,1 @@
+[GLib.ConnectBefore]\nvoid OnTreeViewButtonPressEvent(object sender, ButtonPressEventArgs e)\n{\n    if (e.Type == Gdk.EventType.TwoButtonPress)\n    {\n        // double click\n    }\n}    

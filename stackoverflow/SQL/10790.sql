@@ -1,0 +1,1 @@
+Alter Table Tablename Add newColumnname int\n\nUpdate Table set newColumnname =IdentityColumn\n\nAlter Table TableName Drop IdentityColumnName

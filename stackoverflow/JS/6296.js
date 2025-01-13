@@ -1,0 +1,1 @@
+$("iframe").find("#form").remove();

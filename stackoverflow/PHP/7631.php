@@ -1,0 +1,1 @@
+foreach ($rss->items as &$item) {

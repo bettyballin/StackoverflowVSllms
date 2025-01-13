@@ -1,0 +1,1 @@
+CREATE OR REPLACE TRIGGER JOSH.TEST#UPD BEFORE \nUPDATE ON JOSH.TEST_TRIGGER_TABLE\nbegin    \n   my_package.do_something_with (:old.col1, :new.col1);\n   my_package.do_something_with (:old.col2, :new.col2);\n   my_package.do_something_with (:old.col3, :new.col3);\n   -- etc.\nend;

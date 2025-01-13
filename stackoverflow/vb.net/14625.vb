@@ -1,0 +1,1 @@
+Dim quarter As Integer = (someDate.Month - 1) \ 3 + 1

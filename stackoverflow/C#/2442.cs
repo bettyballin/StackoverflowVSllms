@@ -1,0 +1,1 @@
+XmlDataProvider provider = new XmlDataProvider();\n\nif (provider != null)\n{\n  System.Xml.XmlDocument doc = new System.Xml.XmlDocument();\n  doc.Load(fileName);\n  provider.Document = doc;\n  provider.XPath = "/opml/body/outline";\n  FeedListTreeView.DataContext = provider;\n}

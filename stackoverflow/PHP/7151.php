@@ -1,0 +1,1 @@
+$string = str_replace("&#39;", "<replacement>", $string);

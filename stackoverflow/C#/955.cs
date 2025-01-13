@@ -1,0 +1,1 @@
+private static AesCryptoServiceProvider GetProvider(byte[] key)\n{\n    //Set up the encryption objects\n    AesCryptoServiceProvider result = new AesCryptoServiceProvider();\n    byte[] RealKey = Encryptor.GetKey(key, result);\n    result.Key = RealKey;\n    result.IV = RealKey;\n    return result;\n}

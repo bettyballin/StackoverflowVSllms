@@ -1,0 +1,1 @@
+$path = GalleryDataCache::getCachePath(\n    array('type' => 'fast-download', 'itemId' => $itemId));

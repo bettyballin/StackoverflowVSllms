@@ -1,0 +1,1 @@
+svn rm /dir2/file.txt\nsvn mv /dir1/file.txt /dir2/file.txt

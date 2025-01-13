@@ -1,0 +1,1 @@
+>>> from StringIO import StringIO\n>>> from csv import DictReader\n>>> fh = StringIO("""\n... id,case1,case2,case3\n... \n... 123,null,X,Y\n... \n... 342,X,X,Y\n... \n... 456,null,null,null\n... \n... 789,null,null,X\n... """.strip())\n>>> dr = DictReader(fh)\n>>> dr.next()\n{'case1': 'null', 'case3': 'Y', 'case2': 'X', 'id': '123'}

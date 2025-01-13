@@ -1,0 +1,1 @@
+<servlet>\n    <servlet-name>My File Servlet</servlet-name>\n    <servlet-class>my.package.FileServlet</servlet-class>\n    <load-on-startup>0</load-on-startup>\n</servlet>\n\n<servlet-mapping>\n    <servlet-name>My File Servlet</servlet-name>\n    <url-pattern>/upload/*</url-pattern>\n</servlet-mapping>

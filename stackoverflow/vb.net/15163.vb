@@ -1,0 +1,1 @@
+Dim menu As New ContextMenuStrip()\nmenu.AutoSize = False\nmenu.Width = 100

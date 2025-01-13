@@ -1,0 +1,1 @@
+declare @Path varchar(100)\nset @Path = 'c:\CreatedFromSQL'\nEXEC master.dbo.xp_create_subdir @Path

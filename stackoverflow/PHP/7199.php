@@ -1,0 +1,1 @@
+/**\n * Set the application mode. Valid options are "development" and "production"\n */\ndefine('APP_MODE', 'development');\n\n// Database Host\ndefine('DB_HOST', 'localhost');

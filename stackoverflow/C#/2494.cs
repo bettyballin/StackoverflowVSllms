@@ -1,0 +1,1 @@
+sb.Append(xmlElement.OuterXml)

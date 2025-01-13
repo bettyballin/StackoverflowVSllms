@@ -1,0 +1,1 @@
+if (in_array("admin.php", $securePages)) {\n    header("location:index.php");\n    exit();\n}

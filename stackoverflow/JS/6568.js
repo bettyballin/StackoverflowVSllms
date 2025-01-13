@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    var largest = 0;\n    $('table.inner').each(function() {\n        var width = $(this)[0].offsetWidth;\n        if(width > largest) {\n            largest = width;\n        }\n    }).width(largest);\n});

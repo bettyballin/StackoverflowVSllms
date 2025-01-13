@@ -1,0 +1,1 @@
+$numresults=mysql_query($query);\n$numrows=mysql_num_rows(numresults);

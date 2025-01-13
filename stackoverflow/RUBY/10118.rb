@@ -1,0 +1,1 @@
+class Set < ActiveRecord::Base # You are attempting to define a constant 'Set'\n                               # here, but you can't because it already exists

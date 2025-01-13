@@ -1,0 +1,1 @@
+Sub1Collection subs = DB.Select().From<Sub1>()  \n  .InnerJoin(Master1Sub1_Map)  \n  .InnerJoin(Master1)  \n  .Where(Master1.Columns.Id).IsEqualTo(1)  \n  .ExecuteAsCollection<Sub1Collection>();  

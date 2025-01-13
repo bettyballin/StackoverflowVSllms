@@ -1,0 +1,1 @@
+select top 5 * \nfrom    (\n            select ROW_NUMBER() over(partition by team order by team) as RN, *\n            from @t \n        ) t\nwhere RN = 1\norder by NEWID()

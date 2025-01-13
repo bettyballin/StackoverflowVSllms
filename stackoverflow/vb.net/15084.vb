@@ -1,0 +1,1 @@
+Dim variable As T\nDim variable As T = Nothing\nDim variable As New T()\nDim variable As T = CType(Nothing, T) 'this is suggested by reflector

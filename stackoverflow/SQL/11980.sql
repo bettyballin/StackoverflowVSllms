@@ -1,0 +1,1 @@
+\nSELECT user1, name, type, TRUNC(date) date\nFROM Table1\nGROUP BY user1, name, type, TRUNC(date)\nORDER BY user1

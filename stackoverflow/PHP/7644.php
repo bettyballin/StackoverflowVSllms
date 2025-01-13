@@ -1,0 +1,1 @@
+<?php\nfor ($i = 0; $i < 9; $i++) {\n    if (true) {\n        break blah;\n    }\n    echo "not shown";\n    blah:\n    echo "iteration $i\n";\n}\n?>

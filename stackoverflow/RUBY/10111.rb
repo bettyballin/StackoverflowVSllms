@@ -1,0 +1,1 @@
+module Electric\n  class Car < ::Car\n  end\nend

@@ -1,0 +1,1 @@
+class Message\n{\n    const HOT  = 0;\n    const WARM = 1;\n    const COLD = 2;\n}

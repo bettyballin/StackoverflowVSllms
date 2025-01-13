@@ -1,0 +1,1 @@
+ServiceModelSectionGroup serviceModelGroup =\n      cfg.GetSectionGroup("system.serviceModel") \n            as ServiceModelSectionGroup;

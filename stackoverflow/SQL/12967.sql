@@ -1,0 +1,1 @@
+declare @str varchar(128)\nset @str = 'foo=abc;bar=def;baz=ghi'\n\n-- Make sure @str starts and ends with a ;\nset @str = ';' + @str + ';'\n\nselect substring(@str, \n    charindex(';baz=',@str) + len(';baz='),\n    charindex('=',@str,charindex(';baz=',@str)) - charindex(';baz=',@str) - 1)

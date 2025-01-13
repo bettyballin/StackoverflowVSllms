@@ -1,0 +1,1 @@
+Sub SplitDecimal(ByVal number As Decimal, ByRef wholePart As Decimal, _\n                 ByRef fractionalPart As Decimal)\n    wholePart = Math.Truncate(number)\n    fractionalPart = number - wholePart\nEnd Sub

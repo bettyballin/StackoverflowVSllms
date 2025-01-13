@@ -1,0 +1,1 @@
+var images =pdf.GetPreview(1,8); //All of the individual images read in one per file\n\nusing (Bitmap b = new Bitmap(images[0].Width, images.Sum(img=>img.Height))) {\n    using (var g = Graphics.FromImage(b)) {\n        for (int i = 0; i < images.Count; i++) {\n            g.DrawImageUnscaled(images[i], 0, images.Take(i).Sum(img=>img.Height));\n        }\n    }\n    //Do Stuff\n}

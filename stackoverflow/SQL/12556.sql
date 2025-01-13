@@ -1,0 +1,1 @@
+create view sas_cast_db.some_table as \nselect col1, col2, cast(bigint_var as decimal(18)), col3\nfrom real_db.some_table;

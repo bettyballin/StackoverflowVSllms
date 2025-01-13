@@ -1,0 +1,1 @@
+for(var x = 0; x < myjson.length; x++) {\n    alert(myjson[x].name);\n    // myjson[x].distance, myjson[x].code also available\n}

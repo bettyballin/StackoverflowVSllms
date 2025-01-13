@@ -1,0 +1,1 @@
+appendpdf.pl file1.pdf file2.pdf outfile.pdf

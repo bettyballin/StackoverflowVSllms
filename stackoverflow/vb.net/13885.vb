@@ -1,0 +1,1 @@
+If GetApplicationSetting("connectionString") Is Nothing Then\n    Throw New Exception("Could not retrieve connection string from .config file")\nElse\n    Return ConfigurationManager.AppSettings.Item("connectionString")\nEnd If

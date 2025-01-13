@@ -1,0 +1,1 @@
+<?php\nif (IsUserLoggedIn())\n    readfile('/secret/path/to/file/mypdf.pdf');\n?>

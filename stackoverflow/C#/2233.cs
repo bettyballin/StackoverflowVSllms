@@ -1,0 +1,1 @@
+public IEnumerable<RuleViolation> GetRuleViolations( ChangeAction action )\n{\n    if (action == ChangeAction.Delete) {\n       ...\n    }\n    else {\n       ...\n    }\n}\n\npublic IEnumerable<RuleViolation> GetRuleViolations()\n{\n    return GetRuleViolations( ChangeAction.None );\n}

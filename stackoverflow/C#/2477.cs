@@ -1,0 +1,1 @@
+protected void Application_Error(object sender, EventArgs e)\n{\n    Exception exc = Server.GetLastError().GetBaseException();\n    if (exc is Microsoft.Reporting.WebForms.AspNetSessionExpiredException)\n    {\n        Server.ClearError();\n        Response.Redirect(FormsAuthentication.LoginUrl + "?ReturnUrl=" + HttpUtility.UrlEncode(Request.Url.PathAndQuery), true);\n    }\n}

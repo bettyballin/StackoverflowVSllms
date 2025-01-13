@@ -1,0 +1,1 @@
+if (navigator.plugins["Adobe Acrobat"]) {\n// do some stuff if it is installed\n} else {\n// do some other stuff if its not installed\n}

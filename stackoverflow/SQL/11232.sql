@@ -1,0 +1,1 @@
+Select table_name from information_schema.tables

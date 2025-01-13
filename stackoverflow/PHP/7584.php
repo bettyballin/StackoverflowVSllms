@@ -1,0 +1,1 @@
+$select = $this->_db->select()\n             ->from('OSLANG')\n             ->join('OS',"OSLANG.OSLANG_ID = OS.OSLANG_ID")\n             ->where("OSSUBVERSION_ID = ?", $subVersionId);\n        $results = $select->query()->fetchAll();

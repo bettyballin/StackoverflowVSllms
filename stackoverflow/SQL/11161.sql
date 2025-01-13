@@ -1,0 +1,1 @@
+SELECT E.EntityID, E.ShortName, S.ScheduleID\nFROM  tblEntities E \n     Left Join tblScheduling S \n        ON S.EntityID = E.EntityID\n           And S.SchedulingYearID = @SchedulingYearID \nWHERE E.Active = 1\nORDER BY E.EntityID

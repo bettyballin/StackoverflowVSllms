@@ -1,0 +1,1 @@
+</div>';\n  } else {\n      echo '<div> do not show</div>';\n  } ; \n//  ^ remove this semi-colo

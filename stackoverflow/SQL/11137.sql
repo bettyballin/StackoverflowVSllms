@@ -1,0 +1,1 @@
+select *\nfrom table\nwhere date >= '[start date]' and date <= '[end date]';

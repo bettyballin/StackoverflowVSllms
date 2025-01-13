@@ -1,0 +1,1 @@
+delta = maximum - minimum\nfactor = 10**math.ceil(math.log(delta,10))  # smallest power of 10 greater than delta\nnormalised_delta = delta / factor           # 0.1 <= normalised_delta < 1\nif normalised_delta/5 >= 0.1:\n  step_size = 0.1\nelif normalised_delta/5 >= 0.05:\n  step_size = 0.05\nelif normalised_delta/20 <= 0.01:\n  step_size = 0.01\nstep_size = step_size * factor

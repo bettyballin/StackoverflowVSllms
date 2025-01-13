@@ -1,0 +1,1 @@
+header("content-type:application/xml-xhtml;charset=utf-8");

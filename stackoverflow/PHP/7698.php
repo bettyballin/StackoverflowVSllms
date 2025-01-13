@@ -1,0 +1,1 @@
+<?php\n    system('pdftotext file.pdf 2>&1');\n?>

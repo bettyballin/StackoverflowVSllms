@@ -1,0 +1,1 @@
+<?php\n\n$s = new SimpleXMLElement('<root/>');\n$t = new DOMElement('child');\n\n$dom = dom_import_simplexml($s);\n$dom->appendChild($t);\n\necho $s->asXML();\n// <root><child/></root>

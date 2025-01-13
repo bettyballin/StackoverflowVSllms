@@ -1,0 +1,1 @@
+if ( $("div.test:visible").length === 0)\n      $("#wrap1").hide( );

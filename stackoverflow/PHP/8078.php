@@ -1,0 +1,1 @@
+if (!isset($myArray)) {\n    $myArray = array();\n}\n\narray_push($myArray, 'my message');

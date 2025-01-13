@@ -1,0 +1,1 @@
+SELECT * FROM tbl WHERE year(mydate_field) = 2009;

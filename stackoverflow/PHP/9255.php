@@ -1,0 +1,1 @@
+$var = "My String";\necho $var[1]; // Will print "y".

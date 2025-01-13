@@ -1,0 +1,1 @@
+$sql .= "posts p, images im, postimages pi WHERE\n    i.active = 1 \n    AND pi.post_id = p.id\n    AND pi.image_id = im.image_id \n    ORDER BY created_at \n    LIMIT ". ($page - 1) * $pagesize .", ". $pagesize;

@@ -1,0 +1,1 @@
+dim list = new List(of string)\nlist.Add("foo")\nlist.Add("bar")\nlist.ToArray()

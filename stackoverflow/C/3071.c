@@ -1,0 +1,1 @@
+register int test_integer asm ("EBX");

@@ -1,0 +1,1 @@
+deffilePath = "\\" & ipaddress & "\c$\" & deffileName

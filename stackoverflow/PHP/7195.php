@@ -1,0 +1,1 @@
+$dom = new DOMDocument('1.0', 'utf-8');\n$dom->loadXML(file_get_contents($request));\n\necho $dom->saveXML(); // or saveHTML()

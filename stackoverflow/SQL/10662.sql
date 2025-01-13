@@ -1,0 +1,1 @@
+SELECT [t0].[Id], [t0].[DateCreated], [t0].[Name] ...\nFROM [dbo].[Companies] AS [t0]\nWHERE ([t0].[Name] LIKE @p0) OR ([t0].[Name] LIKE @p1)

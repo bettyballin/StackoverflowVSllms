@@ -1,0 +1,1 @@
+$cb1 = 'someGlobalFunction';\n$cb2 = ['ClassName', 'someStaticMethod'];\n$cb3 = [$object, 'somePublicMethod'];\n\n// this syntax is callable since PHP 5.2.3 but a string containing it\n// cannot be called directly\n$cb2 = 'ClassName::someStaticMethod';\n$cb2(); // fatal error\n\n// legacy syntax for PHP 4\n$cb3 = array(&$object, 'somePublicMethod');

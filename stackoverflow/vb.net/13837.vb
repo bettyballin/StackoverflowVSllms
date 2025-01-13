@@ -1,0 +1,1 @@
+Public Sub SomeMethod(Optional ByVal map as Dictionary(Of Key,Value) = Nothing)\n  if map Is Nothing Then\n    map = new Dictionary(Of Key,Value)\n  ENd If \n  ...\nEnd Sub

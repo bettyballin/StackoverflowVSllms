@@ -1,0 +1,1 @@
+create table users (\n id int primary key auto_increment,\n name varchar(64),\n ...\n)

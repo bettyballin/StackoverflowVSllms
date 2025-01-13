@@ -1,0 +1,1 @@
+$pattern = "/[^<>]*$term[^<>]*/i";\n$replace = "<span style=\"background: #f00\">$0</span>";

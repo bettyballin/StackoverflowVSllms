@@ -1,0 +1,1 @@
+relationships.Add(LookupTable2Entity.Relations.LookupTable1EntityUsingTable1ID, JoinHint.Left).CustomFilter = new FieldCompareValuePredicate(LookupTable2Fields.Col5, ComparisonOperator.Equal, "test");

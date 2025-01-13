@@ -1,0 +1,1 @@
+<script type="text/javascript">\n//<![CDATA[\n        $('blockquote.message').append('<span class="arrow" />');       \n//]]>\n</script>

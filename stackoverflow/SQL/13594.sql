@@ -1,0 +1,1 @@
+SELECT pollQuestion, pollAnswerID, pollAnswerText\nFROM   poll_answers pa, poll p\nWHERE  p.pollID='$tmp'\n       AND pa.pollId = p.pollID

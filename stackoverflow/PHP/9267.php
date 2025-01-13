@@ -1,0 +1,1 @@
+$arr = array('one', 'two', 'three', 'four', 'stop', 'five');\nwhile (list(, $val) = each($arr)) {\n    if ($val == 'stop') {\n        break;    /* You could also write 'break 1;' here. */\n    }\n    echo "$val<br />\n";\n}

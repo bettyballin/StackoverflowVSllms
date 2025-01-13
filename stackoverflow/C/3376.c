@@ -1,0 +1,1 @@
+DatabasePtr pDB = pInstaller->OpenDatabase(\n                            "c:\\foo\\bar.msi", \n                            (long)msiOpenDatabaseModeTransact);

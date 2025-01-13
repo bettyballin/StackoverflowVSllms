@@ -1,0 +1,1 @@
+while (usec >= 1000)\n    usec /= 10;

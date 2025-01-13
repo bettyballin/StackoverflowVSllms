@@ -1,0 +1,1 @@
+private static XmlNamespaceManager _nsMgr;\npublic static XmlNamespaceManager NsMgr\n{\n  get\n  {\n    if (_nsMgr == null)\n    {\n      _nsMgr = new XmlNamespaceManager(new NameTable());\n      _nsMgr.AddNamespace("msb", "http://schemas.microsoft.com/developer/msbuild/2003");\n    }\n    return _nsMgr;\n  }\n}

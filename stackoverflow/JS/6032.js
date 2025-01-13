@@ -1,0 +1,1 @@
+$('.block:has(div)').each(function() {\n  $(this).children('div').each(function() {\n    // do something with each item element, before the block loop has finished\n  });\n});

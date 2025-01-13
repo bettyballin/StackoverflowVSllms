@@ -1,0 +1,1 @@
+foreach (array_merge($Forms, $FormsShared) as $r)\n    // do stuff

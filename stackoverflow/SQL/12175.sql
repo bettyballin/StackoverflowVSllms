@@ -1,0 +1,1 @@
+alter table Example\nadd NewColumn int identity(1,1)

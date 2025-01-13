@@ -1,0 +1,1 @@
+<% var user = ViewContext.HttpContext.User; %>

@@ -1,0 +1,1 @@
+class Program\n{\n    static void Main(string[] args)\n    {\n        if (args.Length == 1) //The OS wants me to open a file\n            openSomeFileJustBecauseTheOSWantsIt(args[0]);\n    }\n}

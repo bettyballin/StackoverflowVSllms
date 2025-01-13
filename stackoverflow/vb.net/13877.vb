@@ -1,0 +1,1 @@
+Dim groupIds as List(of Integer) = (From g In cmdbGroups Select g.ID).ToList\nDim haveGroup = (From item In items _\n             Where Not item.Relationships.Any(Function(r) groupIds.Contains(r.TargetID)) _\n             Select item).ToList

@@ -1,0 +1,1 @@
+System.IO.FileStream s = System.IO.File.Open("c:\\temp\\dxf.ole",System.IO.FileMode.Open);\n\n        Clipboard.SetData("Embed Source", s);\n\n        s.Close();

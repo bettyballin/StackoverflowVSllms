@@ -1,0 +1,1 @@
+WHERE Type IN (2, 3, 4, 5, 6, 8, 13, 14, 16, 22) OR Type IS NULL

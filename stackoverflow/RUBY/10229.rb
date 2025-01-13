@@ -1,0 +1,1 @@
+<script>\n  function authToken() {\n    return '<%= form_authenticity_token if protect_against_forgery? -%>';\n  }\n</script>

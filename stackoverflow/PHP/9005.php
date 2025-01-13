@@ -1,0 +1,1 @@
+$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, "http://www.example.com/page.html");\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);\n$page_contents = curl_exec($ch);\nif ( $page_contents ===false ) {\n    // Do something fancier than this\n    echo curl_errno($ch).' '.curl_error($ch);\n}\ncurl_close($ch);

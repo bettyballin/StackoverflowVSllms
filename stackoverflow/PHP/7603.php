@@ -1,0 +1,1 @@
+$assoc = array(\n  'a' => 'one',\n  'b' => 'two',\n);\n$array = array('b', 'c', 'd');\n$match = array_intersect_key($assoc, array_flip($array));\nprint_r($match);

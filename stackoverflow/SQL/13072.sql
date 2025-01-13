@@ -1,0 +1,1 @@
+CREATE LOGIN [user] WITH PASSWORD='password', \n       DEFAULT_DATABASE=[your_db], CHECK_POLICY=OFF\nGO\n\nCREATE USER [user] FOR LOGIN [user]\nEXEC sp_addrolemember N'db_datareader', N'your_db'\nEXEC sp_addrolemember N'db_datawriter', N'your_db'\nGO

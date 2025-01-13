@@ -1,0 +1,1 @@
+class YourController < ApplicationController\n  ssl_required :update unless Rails.env.development?\nend

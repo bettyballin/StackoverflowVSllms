@@ -1,0 +1,1 @@
+--Disable Index\nALTER INDEX [IXYourIndex] ON YourTable DISABLE\nGO\n\n--Enable Index\nALTER INDEX [IXYourIndex] ON YourTable REBUILD\nGO

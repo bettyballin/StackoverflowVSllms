@@ -1,0 +1,1 @@
+USE msdb;\n\nGO\n\nEXEC sp_delete_job\n    @job_name = N'NightlyBackups' ;\n\nGO

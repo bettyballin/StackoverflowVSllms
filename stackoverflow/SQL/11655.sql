@@ -1,0 +1,1 @@
+CREATE TRIGGER NEW_REVIEW\n AFTER INSERT ON REVIEW\n  REFERENCING NEW AS N_ROW\n   FOR EACH ROW\n    UPDATE PRODUCT SET Rating = (\n      Select AVG(Rating) \n      from Review \n      where ProductName = N_ROW.ProductName\n      )

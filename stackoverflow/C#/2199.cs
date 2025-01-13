@@ -1,0 +1,1 @@
+Enumerable.Join(\n   listA, listB,\n   a => a.Id, b => b.Id,\n   (a, b) => CompareTwoClass_ReturnDifferences(a, b))

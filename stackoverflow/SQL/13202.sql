@@ -1,0 +1,1 @@
+ALTER TABLE mytable MODIFY mycolumn VARCHAR(255);

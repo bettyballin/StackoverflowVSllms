@@ -1,0 +1,1 @@
+--Generic example:\nSELECT *\nFROM MY_TABLE\nWHERE SOME_FIELD IS NULL;\n\n--Instead of    \n\nSELECT *\nFROM MY_TABLE\nWHERE SOME_FIELD = NULL;

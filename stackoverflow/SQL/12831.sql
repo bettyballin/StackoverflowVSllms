@@ -1,0 +1,1 @@
+select /*+ no_merge(v) */ a, b, expensive_procedure(c)\nfrom \n( select a, b, c\n  from example\n  where <the_where_clause>\n  order by d\n) v;

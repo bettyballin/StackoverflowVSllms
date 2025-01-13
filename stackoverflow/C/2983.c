@@ -1,0 +1,1 @@
+Warning 65  warning C4192: automatically excluding 'IServiceProvider' while importing type library 'ServiceLibrary.dll'

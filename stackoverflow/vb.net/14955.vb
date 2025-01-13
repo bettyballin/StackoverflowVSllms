@@ -1,0 +1,1 @@
+Dim left As Integer = str.IndexOf('(')\nDim right As Integer= str.IndexOf(')')\nDim content As String = str.Substring(left + 1, right - left - 1)

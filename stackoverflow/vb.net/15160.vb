@@ -1,0 +1,1 @@
+Dim de As New DirectoryEntry("LDAP://" & stringDN.Replace( "/", "\/" ))\nReturn CType(de.Properties("samaccountname")(0), String)

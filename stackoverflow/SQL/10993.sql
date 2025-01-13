@@ -1,0 +1,1 @@
+table Space {\n    SpaceCoordinate,\n    Quadrant Foreign Key SpaceQuadrant(ID),\n    SpaceObject -- whatever the object is (by ID)\n    Primary Key(SpaceCoordinate, Quadrant)\n}

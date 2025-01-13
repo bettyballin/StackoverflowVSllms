@@ -1,0 +1,1 @@
+<?php\n$filename = "http://history.nasa.gov/monograph15b.pdf";\n$outputfilename = "NASA.pdf";\n\nheader("Content-Type:  application/pdf");\nheader("Content-Disposition:  attachment; filename=\"" . basename($outputfilename) . "\";" );\nheader("Content-Transfer-Encoding:  binary");\nreadfile("$filename");\n?>

@@ -1,0 +1,1 @@
+HOST = raw_input('Enter Host: ')\nPORT = int(raw_input('Enter Port: '))

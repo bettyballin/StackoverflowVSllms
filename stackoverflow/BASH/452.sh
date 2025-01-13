@@ -1,0 +1,1 @@
+wget -S <url-to-server>\ncurl -I <url-to-server>

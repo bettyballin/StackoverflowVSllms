@@ -1,0 +1,1 @@
+Response.Cache.SetExpires(DateTime.Now.AddSeconds(60));

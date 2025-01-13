@@ -1,0 +1,1 @@
+$("#myGridView input[type='text']").each(function(){\n  this.change(function(){\n    updateTotal(this.value);\n  });\n});

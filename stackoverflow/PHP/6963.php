@@ -1,0 +1,1 @@
+$results = mysql_query("SELECT * FROM andyasks ORDER BY date");\n\nwhile($row = mysql_fetch_array($results))\n{\n    print($row["questions"]);\n}

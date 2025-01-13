@@ -1,0 +1,1 @@
+cd /d "[base-directory]" && dir /s /b *.php > [list file]

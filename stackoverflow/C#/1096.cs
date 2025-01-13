@@ -1,0 +1,1 @@
+byte[] encbuff = System.Text.Encoding.UTF8.GetBytes("the string");\nstring enc = Convert.ToBase64String(encbuff);\nstring urlenc = Server.UrlEncode(enc);

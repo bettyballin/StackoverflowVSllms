@@ -1,0 +1,1 @@
+List<List<int>> table = new List<List<int>>();\n        List<int> row = new List<int>();\n        row.Add(21);\n        row.Add(22);\n        row.Add(23);\n        row.Add(33); // and so on\n        table.Add(row);\n\n        row = new List<int>();\n        row.Add(1001);\n        row.Add(1002);\n        table.Add(row);\n\n        MessageBox.Show(table[0][3].ToString());

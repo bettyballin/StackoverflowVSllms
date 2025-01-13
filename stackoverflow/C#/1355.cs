@@ -1,0 +1,1 @@
+var resultingList = \n    listOfOriginalItems.Except(listOfItemsToLeaveOut, equalityComparer)

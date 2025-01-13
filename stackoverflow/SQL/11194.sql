@@ -1,0 +1,1 @@
+SELECT UPPER(firstname) FROM Person\n\nSELECT LOWER(firstname) FROM Perso

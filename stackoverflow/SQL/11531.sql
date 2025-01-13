@@ -1,0 +1,1 @@
+EXPLAIN SELECT v.`date`, v.volume_amt, p1.item_id, p1.price\nFROM Volume v JOIN Price p1\n  ON (v.`date` >= p1.`date` AND v.item_id = p1.item_id)\nLEFT OUTER JOIN Price p2\n  ON (v.`date` >= p2.`date` AND v.item_id = p2.item_id\n    AND p1.`date` < p2.`date`)\nWHERE p2.item_id IS NULL;

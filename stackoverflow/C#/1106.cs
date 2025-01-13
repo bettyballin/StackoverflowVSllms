@@ -1,0 +1,1 @@
+xml.Elements.Select(function(element) new XElement(element.Name,element.Attributes))

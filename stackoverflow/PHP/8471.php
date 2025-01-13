@@ -1,0 +1,1 @@
+$obscurity = base_convert($recipientId * 42, 10, 36) . ':' . base_convert($senderId * 42, 10, 36)

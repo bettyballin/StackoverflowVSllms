@@ -1,0 +1,1 @@
+ALTER TABLE FriendRequests\nADD CONSTRAINT pk_FriendRequests PRIMARY KEY (UserID, FriendUserID)

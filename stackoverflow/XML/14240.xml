@@ -1,0 +1,1 @@
+<servlet-mapping>\n  <servlet-name>name_does_not_matter_here</servlet-name>\n  <url-pattern>/articles/main.jsp</url-pattern>\n</servlet-mapping>

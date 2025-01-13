@@ -1,0 +1,1 @@
+Select DatePart(Month, '1/2/2000')

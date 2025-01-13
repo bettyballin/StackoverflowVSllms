@@ -1,0 +1,1 @@
+$("div.myElement").animate({width: "toggle"});

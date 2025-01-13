@@ -1,0 +1,1 @@
+setcookie("cookies","yes",time() +"3600");

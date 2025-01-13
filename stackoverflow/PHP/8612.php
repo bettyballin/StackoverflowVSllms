@@ -1,0 +1,1 @@
+substr_count($text, ' ');

@@ -1,0 +1,1 @@
+System.Guid  guid = System.Guid.NewGuid();\nString id = guid.ToString();

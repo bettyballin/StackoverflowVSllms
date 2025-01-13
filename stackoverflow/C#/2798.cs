@@ -1,0 +1,1 @@
+var dict = myList.Cast<Foo>().ToDictionary(o => o.Description, o => o.Id);

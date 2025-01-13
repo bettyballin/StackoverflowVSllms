@@ -1,0 +1,1 @@
+class Player(models.Model):\n    name = models.CharField(max_length=100)\n\nclass Play(models.Model):\n    title = models.CharField(max_length=100)\n\nclass PlayParticipant(models.Model):\n    player = models.ForeignKey('Player')\n    play = models.ForeignKey('Play')\n    note = models.CharField(max_length=100, blank=True)

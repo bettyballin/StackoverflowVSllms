@@ -1,0 +1,1 @@
+List<MyClass> list = new List();\n//add whatever you need to add\n\nMyClass min = list.Min();\nMyClass max = list.Max();

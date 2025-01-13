@@ -1,0 +1,1 @@
+select * from test T1\nLEFT OUTER JOIN test T2 on T1.siteid = T2.siteid and T1.id < T2.id

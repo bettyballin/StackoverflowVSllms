@@ -1,0 +1,1 @@
+Protected Sub Page_Load(ByVal sender As Object, _\n                         ByVal e As System.EventArgs)\n\n   Dim cssLink As New HtmlLink()\n   cssLink.Href = "~/styles.css"\n   cssLink.Attributes.Add("rel", "stylesheet")\n   cssLink.Attributes.Add("type", "text/css")\n   Header.Controls.Add(cssLink)\n\nEnd Sub

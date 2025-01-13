@@ -1,0 +1,1 @@
+class MyClass {\n  public function __construct($options) { ... }\n...\n}\n\n$o = new MyClass(array(\n  'uCode' => 'some value',\n  'uText' => 'another value',\n));

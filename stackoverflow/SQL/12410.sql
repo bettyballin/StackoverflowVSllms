@@ -1,0 +1,1 @@
+CHECK (month BETWEEN 1 AND 12)

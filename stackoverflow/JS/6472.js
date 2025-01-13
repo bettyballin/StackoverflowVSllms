@@ -1,0 +1,1 @@
+var iframe = document.getElementById('iframeId');\nvar innerDoc = (iframe.contentDocument) ? iframe.contentDocument : iframe.contentWindow.document;

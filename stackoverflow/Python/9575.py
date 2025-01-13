@@ -1,0 +1,1 @@
+for sublist in thelist:\n  sublist.insert(0, 9)

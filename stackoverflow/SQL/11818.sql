@@ -1,0 +1,1 @@
+SELECT date(order_placed_date)\n     , COUNT(id) AS num_orders\n     , SUM(order_total) AS daily_total\n  FROM [Table]\n GROUP BY date(order_placed_date)

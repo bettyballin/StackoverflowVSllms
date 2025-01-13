@@ -1,0 +1,1 @@
+Private Function oneargImplementation(ByVal image As Bitmap) As Bitmap\n\nEnd Function\n\nPublic Sub Test()\n\nPrivate ArgOne as onearg = _\n    new onearg(AddressOf oneargImplementation)\nDispatcher.Invoke(ArgOne, Windows.Threading.DispatcherPriority.Loaded, New Object() {sender, e})\nEnd Sub

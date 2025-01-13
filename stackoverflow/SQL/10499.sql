@@ -1,0 +1,1 @@
+UPDATE consumer_items ci\nSET    new_item_code = (SELECT 'string' || item.upc_code\n                        FROM   item\n                        WHERE  item.item_code = ci.item_code\n                       )\nWHERE  ci.item_code IN ('a','b','c');

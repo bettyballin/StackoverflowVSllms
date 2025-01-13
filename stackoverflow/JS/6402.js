@@ -1,0 +1,1 @@
+$('#myDropDown').prepend($('<option></option>').html('Loading...'));

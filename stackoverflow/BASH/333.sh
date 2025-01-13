@@ -1,0 +1,1 @@
+xcopy /K /R /E /I /S /C /H /G /X /Y s:\*.* t:

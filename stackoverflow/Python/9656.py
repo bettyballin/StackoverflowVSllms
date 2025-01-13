@@ -1,0 +1,1 @@
+def adjustAppend( v, n ):\n    weight= -n/sum(v)\n    return [ i+i*weight for i in v ] + [n]

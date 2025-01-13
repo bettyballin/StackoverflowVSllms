@@ -1,0 +1,1 @@
+SELECT c.comment_post_ID, COUNT(c.comment_ID)\nFROM wp_comments c\nGROUP BY c.comment_post_ID\nORDER BY COUNT(c.comment_ID) -- ASC or DESC

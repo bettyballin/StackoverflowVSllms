@@ -1,0 +1,1 @@
+SELECT colx INTO #temp1 FROM @tbl WHERE (@checkvar IS NULL) OR (colx = @checkVar)

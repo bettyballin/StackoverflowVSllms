@@ -1,0 +1,1 @@
+$('input:radio:checked').each(function() {\n    var value = $(this).val();\n    // do something with radio or value\n});

@@ -1,0 +1,1 @@
+# . /etc/profile.d/foo.sh

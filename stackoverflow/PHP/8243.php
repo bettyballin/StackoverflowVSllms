@@ -1,0 +1,1 @@
+$map = array(\n    1521 => array('Home', 'b-value.gif', 'Best for Value'),\n    1595 => array('Home', 'b-dload.gif', 'Best for Downloads'),\n    1522 => array('Business', 'b-value.gif', 'Best for Value'),\n    // and so on\n);\nif (array_key_exists($idd, $map)) {\n    $item = $map[$idd];\n    echo "{$item[0]} <br/> <img src=\"{$item[1]}\"/> <br/> {$item[2]}";\n}

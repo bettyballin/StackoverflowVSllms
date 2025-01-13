@@ -1,0 +1,1 @@
+iframe.onload = function() {\n    doc.designMode = "on";\n};

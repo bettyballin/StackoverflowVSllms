@@ -1,0 +1,1 @@
+let searchParams/*: URLSearchParams*/ = new URL(\n    myUrl,\n    // Supply a base URL whose scheme allows\n    // query parameters in case `myUrl` is scheme or\n    // path relative.\n    'http://example.com/'\n).searchParams;\nconsole.log(searchParams.get('paramName')); // One value\nconsole.log(searchParams.getAll('paramName'));

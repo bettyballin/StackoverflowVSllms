@@ -1,0 +1,1 @@
+<errors xmlns='http://schemas.google.com/g/2005'>\n<error>\n<domain>GData</domain>\n<code>InvalidRequestUriException</code>\n<internalReason>Parameter racy not available in version 2</internalReason>  \n</error>\n</errors>

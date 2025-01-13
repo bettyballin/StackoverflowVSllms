@@ -1,0 +1,1 @@
+$tplContent = "{foreach from=\$tabMethodTest item=entry}\nHello\n{/foreach}";\n$pattern = '/\{foreach from=\$tabMethodTest item=entry\}[\r\n]{1,2}(.*)[\r\n]{1,2}\{\/foreach\}/im';\npreg_match_all($pattern,$tplContent,$regsTplResult);\nprint_r($regsTplResult);

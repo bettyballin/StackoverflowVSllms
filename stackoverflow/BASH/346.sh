@@ -1,0 +1,1 @@
+perl -MCAM::PDF -le'print "@{[CAM::PDF->new(shift)->getPageDimensions(1)]}"' orig.pdf \n0 0 612 792\nperl -MCAM::PDF -le'print "@{[CAM::PDF->new(shift)->getPageDimensions(1)]}"' rotated.pdf \n0 0 792 612

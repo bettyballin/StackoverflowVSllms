@@ -1,0 +1,1 @@
+for ($i = 0; $row = mysql_fetch_array($query); $i++)\n{\n    $forums[$i]['name'] = $row['forum_name'];\n    $forums[$i]['date'] = $row['forum_name'];\n    $forums[$i]['desc'] = $row['forum_description'];\n    $forums[$i]['lastpost'] = $row['forum_lastpost'];\n}

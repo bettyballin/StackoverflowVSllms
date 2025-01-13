@@ -1,0 +1,1 @@
+params[:upload].each do | uploaded_image |\n    unless uploaded_image.blank?\n      # do something with uploaded_image[1];\n    end\n  end

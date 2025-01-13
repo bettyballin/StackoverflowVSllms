@@ -1,0 +1,1 @@
+function GetEmailId()   \n { \n alert("Entered GetEmailId()"); \n xmlhttpTwo=GetXmlHttpObject();\n var url="http://server.com/GetPostEmail.php";\n url=url+"&sid="+Math.random();\n xmlhttpTwo.onreadystatechange=statechangedLogin2;\n xmlhttpTwo.open("GET", url, true);\n xmlhttpTwo.send(null);\n }

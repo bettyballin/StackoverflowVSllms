@@ -1,0 +1,1 @@
+Public Sub New()\n    InitializeComponent()\nEnd Sub\n\nPublic Sub New(ByVal userSize As Size)\n    InitializeComponent()\n    Me.Size = userSize\nEnd Sub\n\nProtected Overrides Sub OnClosing(ByVal e As System.ComponentModel.CancelEventArgs)\n    MyBase.OnClosing(e)\n    My.Settings.DialogSize = Me.Size\n    My.Settings.Save()\nEnd Sub

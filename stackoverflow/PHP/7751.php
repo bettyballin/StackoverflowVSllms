@@ -1,0 +1,1 @@
+// Some checking for recent votes from this user is appropriate here\nif (isset($_POST['voteType'], $_POST['postId']) && $user->loggedIn) {\n    // insert vote into database if not already inserted\n    echo json_encode(array('error' => false));\n} else {\n    // bad request/hack attempt\n    echo json_encode(array('error' => true, 'message' => 'Bad parameters sent'));\n}

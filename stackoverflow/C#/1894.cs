@@ -1,0 +1,1 @@
+Process.GetProcessesByName("app.exe", "Machine1").Length > 0

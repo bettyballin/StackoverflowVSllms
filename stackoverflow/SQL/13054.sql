@@ -1,0 +1,1 @@
+create view missing_letter as \nSELECT *  from TABLE1 t1 \nLEFT OUTER JOIN TABLE2 t2 \n  ON t1.id = t2.id \n  AND t1.date = t2.date\n  and mod( ascii(t1.letter) - ascii('A'), ascii('Z') + 1 ) \n  <> mod( ascii(t2.letter) - ascii('A'), ascii('Z') + 1 ) - 1 \n  and t1.id < (select max(t3.id) from table t3 where t3.date = t1.date)\n;

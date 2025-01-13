@@ -1,0 +1,1 @@
+var data=\n  from details in h_details.Descendants("ROW")\n  join inst in instance.XPathSelectElements("//Row")\n  on new {\n    x = details.Element("ID").Value,\n    y = details.Element("LANGUAGE").Value\n  } equals new {\n    x = inst.XPathSelectElement("Field[@Name=\'h_id\']").Value,\n    y = inst.XPathSelectElement("Field[@Name=\'h_lang\']").Value\n  }\n  select ... ;

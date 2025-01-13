@@ -1,0 +1,1 @@
+public enum PermissionCode\n    {\n        //site permissions 1-99\n        [StringValue("View Users")]\n        ViewUser = 1,\n\n        [StringValue("Add User")]\n        AddUser = 2,\n\n        [StringValue("Edit User")]\n        EditUser = 3,\n\n        [StringValue("Delete User")]\n        DeleteUser = 4,\n    }

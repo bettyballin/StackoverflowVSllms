@@ -1,0 +1,1 @@
+Base* b = getTheDerived(); b->B();

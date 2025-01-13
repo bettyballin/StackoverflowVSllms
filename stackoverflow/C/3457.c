@@ -1,0 +1,1 @@
+const int tile_width = 32; // or something\n\n// and then\nsprite->x += tile_width;

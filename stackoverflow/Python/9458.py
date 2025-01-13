@@ -1,0 +1,1 @@
+import random\n\ndef weighted_choice(items):\n    """items is a list of tuples in the form (item, weight)"""\n    weight_total = sum((item[1] for item in items))\n    n = random.uniform(0, weight_total)\n    for item, weight in items:\n        if n < weight:\n            return item\n        n = n - weight\n    return item

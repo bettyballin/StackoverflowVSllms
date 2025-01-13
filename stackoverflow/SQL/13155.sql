@@ -1,0 +1,1 @@
+select t1.value - t2.value from table t1, table t2 \nwhere t1.primaryKey = t2.primaryKey - 1

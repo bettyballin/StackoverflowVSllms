@@ -1,0 +1,1 @@
+Process process = new Process();\n            process.StartInfo.FileName = "c:\test.exe";\n            process.StartInfo.Arguments = "/e /s";\n            process.Start();

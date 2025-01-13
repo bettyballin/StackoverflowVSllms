@@ -1,0 +1,1 @@
+SELECT CONCAT(i.WordID, "|", j.WordID) as bigram, count(*) as freq\nFROM index as i, index as j\nWHERE j.Location = i.Location+1 AND \n      j.DocID = i.DocID\nGROUP BY bigram\nORDER BY freq DESC

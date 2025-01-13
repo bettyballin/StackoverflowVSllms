@@ -1,0 +1,1 @@
+$words = explode(' ', $string);\n$words = array_map('strrev', $words);\necho implode(' ', $words);

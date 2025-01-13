@@ -1,0 +1,1 @@
+DECLARE @InsertedIDs TABLE (ID bigint)\nINSERT into DestTable (col1, col2, col3, col4)\nOUTPUT INSERTED.ID INTO @InsertedIDs\nSELECT col1, col2, col3, col4 FROM SourceTable

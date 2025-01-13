@@ -1,0 +1,1 @@
+select *\nfrom sys.objects\nwhere name = 'THE_NAME_YOU_WANT'

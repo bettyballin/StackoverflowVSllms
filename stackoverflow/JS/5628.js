@@ -1,0 +1,1 @@
+var component = myFrame.contentWindow.$find("myComponentId");

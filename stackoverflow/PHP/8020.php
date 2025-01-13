@@ -1,0 +1,1 @@
+$v = '[@name="' . $field . '"]';\n$input = $xpath->query('//input' . $v. ' | //select' . $v);\n\nif (empty($input) === true)\n{\n     // ...    \n}

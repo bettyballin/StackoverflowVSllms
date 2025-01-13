@@ -1,0 +1,1 @@
+// bind click handler to all <a> tags inside #rate_box\n$('#rate_box a').click(function() {\n\n});

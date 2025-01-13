@@ -1,0 +1,1 @@
+div#container {\n    height: 275px;\n    width: 1000px;\n    overflow: auto;\n    white-space: nowrap;\n}\n\ndiv#container span.block {\n    width: 300px;\n    display: inline-block;\n}

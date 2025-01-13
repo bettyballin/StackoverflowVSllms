@@ -1,0 +1,1 @@
+// pseudocode:\nforeach (var username in \n   exec(@"SELECT username FROM hypothetical.fn_get_users_with_weak_passwords()"))\n    PerformDictionaryAttack(username);

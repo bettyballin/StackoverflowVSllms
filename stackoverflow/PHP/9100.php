@@ -1,0 +1,1 @@
+if (! function_exists('symlink')) {\n    function symlink($target, $link) {\n        if (! substr($link, -4, '.lnk'))\n            $link .= '.lnk';\n\n        $shell = new COM('WScript.Shell');\n        $shortcut = $shell->createshortcut($link);\n        $shortcut->targetpath = $target;\n        $shortcut->save();\n    }\n}

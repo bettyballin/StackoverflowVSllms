@@ -1,0 +1,1 @@
+lable1.text= System.IO.File.ReadAllText( path );

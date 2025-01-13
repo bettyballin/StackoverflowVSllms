@@ -1,0 +1,1 @@
+export MITSCHEME_6001_DIRECTORY=${your_problems_path}

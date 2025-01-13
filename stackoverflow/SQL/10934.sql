@@ -1,0 +1,1 @@
+SELECT DBMS_XMLGEN.getxmltype ('select * from &table_name where rowid = ''&rowid''' )\n  FROM DUAL

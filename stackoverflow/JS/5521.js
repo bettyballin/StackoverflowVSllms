@@ -1,0 +1,1 @@
+$("#MainConfig").clone(false).find("*").removeAttr("id").appendTo($("#smallConfig"));

@@ -1,0 +1,1 @@
+select t1.id\n       , t1.rank\n       , t1.type\n       , t1.status\n       , t1.amount\n\nfrom   my_table t1 \n\n       left outer join my_table as t2 \n       on t1.id = t2.id \n    and \n       t2.rank < t1.rank \n\nwhere  t2.id is null

@@ -1,0 +1,1 @@
+var img = new Image();\nimg.src = "http://example.com/new/image.jpg";

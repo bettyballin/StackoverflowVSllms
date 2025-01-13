@@ -1,0 +1,1 @@
+update a set c1 = c1_new\nfrom (\n  select \n    c1, c2\n  , c1_new = row_number() over (order by nullif(c1,c1))\n  from dbo.t1\n  ) a

@@ -1,0 +1,1 @@
+<ListBox x:Name="list">\n    <ListBox.SelectedItem>\n        <Binding ElementName="list" Path="Tag">\n            <Binding.ValidationRules>\n                <local:SelectedValidationRule />\n            </Binding.ValidationRules>\n        </Binding>\n    </ListBox.SelectedItem> \n</ListBox>

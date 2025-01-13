@@ -1,0 +1,1 @@
+declare @Roles nvarchar(max)\n\nselect @Roles = case when @Roles is null then '' else @Roles + ', ' end + Role.Name\nfrom  Role\ninner join ContactRole on Role.ID = ContactRole.RoleID\nwhere ContactRole.ContactID = @ContactID\n\nselect @Roles 

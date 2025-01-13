@@ -1,0 +1,1 @@
+<script language="javascript" type="text/javascript">\nfunction positionUpdate(var1, var2){\n    var word = document.getElementById('test').value;\n    var queryString = "?word=" + word + "&var1=" + var1 + "&var2=" + var2;\n    ajaxRequest.open("GET", "new_position.php" + queryString, true);\n    ajaxRequest.send(null);\n    alert(queryString);\n}\n</script>

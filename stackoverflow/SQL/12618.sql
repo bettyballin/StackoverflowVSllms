@@ -1,0 +1,1 @@
+INSERT INTO `customreports`\n(`study`, `type`, `mode`, `select`, `description`)\nVALUES\n('1', '2', '3', '4', '5');

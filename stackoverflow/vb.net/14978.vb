@@ -1,0 +1,1 @@
+Dim strTemp As String = dtResult.Rows(i).ToString

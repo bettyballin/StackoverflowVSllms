@@ -1,0 +1,1 @@
+define('COOKIE_SALT', 'secretblahblahlkdsfklj');\n$cookie_value = sha1($username.$password.COOKIE_SALT);

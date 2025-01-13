@@ -1,0 +1,1 @@
+UPDATE PayrollTotals SET PTAmount = PTAmount + \n  (SELECT SUM(pts.PTAmount) FROM PayrollTotals pts WHERE \n    pts.PTACID = 38 \n    AND pts.PTAmount > 0\n    AND pts.PTEmpID = ptm.PTEmpID)\nFROM\n    PayrollTotals AS ptm\nWHERE\n    PTACID = 42

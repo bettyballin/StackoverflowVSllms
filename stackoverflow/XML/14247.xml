@@ -1,0 +1,1 @@
+<YourCustomConfigSection>\n   <Customers>\n     <Customer Name="Customer1" SomeSetting="A" Another="1" />\n     <Customer Name="Customer2" SomeSetting="B" Another="2" />\n     <Customer Name="Customer3" SomeSetting="C" Another="3" />\n   </Customers>\n</YourCustomConfigSection>

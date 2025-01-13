@@ -1,0 +1,1 @@
+select distinct\n    case when Person1 > Person2 then Person2 else Person1 end as Person1,\n    case when Person1 > Person2 then Person1 else Person2 end as Person2\nfrom\n    couples\nwhere\n    relationshiptype = 'Married'

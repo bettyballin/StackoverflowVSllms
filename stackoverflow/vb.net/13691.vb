@@ -1,0 +1,1 @@
+Trim(), Replace(), Len(), UCase()

@@ -1,0 +1,1 @@
+struct DayInfo\n{\n    int ID;\n    int[] Slots;\n}

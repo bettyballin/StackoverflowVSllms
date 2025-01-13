@@ -1,0 +1,1 @@
+<p><a href='#' onclick=\"makewindows(" . $html . "); return false;\">Click for full description </a></p>

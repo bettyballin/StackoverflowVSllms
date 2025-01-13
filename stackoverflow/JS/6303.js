@@ -1,0 +1,1 @@
+$('<strong>First Element</strong>').add($('<i>Second Element</i>')).appendTo($('body'))

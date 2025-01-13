@@ -1,0 +1,1 @@
+$text = iconv("Windows-1252","UTF-8",$text);

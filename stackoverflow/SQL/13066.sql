@@ -1,0 +1,1 @@
+Select Date, User, Status, Notes \n    from [SOMETABLE]\n    inner join \n    (\n        Select max(Date) as LatestDate, [User]\n        from [SOMETABLE]\n        Group by User\n    ) SubMax \n    on [SOMETABLE].Date = SubMax.LatestDate\n    and [SOMETABLE].User = SubMax.User 

@@ -1,0 +1,1 @@
+SELECT Customers.ID\nFROM Customers \n    LEFT JOIN orders AS o1 ON o1.CustomerID=Customers.ID AND YEAR(o1.DATE) = 1995\n    LEFT JOIN products AS p1 ON p1.id = o1.productID\n    LEFT JOIN orders AS o2 ON o2.CustomerID=Customers.ID AND YEAR(o2.DATE) = 1996\n    LEFT JOIN products AS p2 ON p2.id = o2.productID\nHAVING SUM(o1.quantity* p1.price) < SUM(o2.quantity*p2.price)

@@ -1,0 +1,1 @@
+SELECT      T1.id,\n            T1.[name],\n            (SELECT COUNT(*) \n             FROM table T2 \n             WHERE T2.[name] < T1.[name]) + 1 AS rowpos\nFROM        table T1\nORDER BY    T1.[name]

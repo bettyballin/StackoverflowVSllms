@@ -1,0 +1,1 @@
+exec Data_extractor.MakeInserts ('MYTABLE', 'COL1, COL2', '99, 105')

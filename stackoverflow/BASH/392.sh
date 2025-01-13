@@ -1,0 +1,1 @@
+function grabfrom() { ssh -R 2202:127.0.0.1:22 ${@}; };\nfunction grab() { scp -P 2202 $@ localuser@127.0.0.1:~; };

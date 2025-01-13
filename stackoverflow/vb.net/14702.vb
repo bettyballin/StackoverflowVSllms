@@ -1,0 +1,1 @@
+Public Function DoThing(Of T)(ByVal value As T)

@@ -1,0 +1,1 @@
+mysql> show variables like "datadir";\n+---------------+-----------------+\n| Variable_name | Value           |\n+---------------+-----------------+\n| datadir       | /var/lib/mysql/ |\n+---------------+-----------------+

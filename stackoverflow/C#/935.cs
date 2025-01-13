@@ -1,0 +1,1 @@
+string id = Request.QueryString["id"].ToString();

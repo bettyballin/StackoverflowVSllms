@@ -1,0 +1,1 @@
+SELECT * FROM `bb_topics` \n      WHERE `topic_id` = \n      (select min(`topic_id`) FROM `bb_topics` where `topic_id` > 123\n         and `topic_poster` = 5)

@@ -1,0 +1,1 @@
+$file = file_get_contents('http://example.com/');\n$widgets = explode('<!-- widget -->', $file);

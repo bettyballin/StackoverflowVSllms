@@ -1,0 +1,1 @@
+if(Marshal.IsComObject(oGE)==true)\n{\n  Marshal.ReleaseComObject(oGE);\n}

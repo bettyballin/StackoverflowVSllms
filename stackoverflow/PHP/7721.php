@@ -1,0 +1,1 @@
+<?php\n  (...)\n  $var = array("{#OK#}", "{#CANCEL#}");\n  $smarty->assign('var', $var);\n  $smarty->display('example.tpl');\n?>

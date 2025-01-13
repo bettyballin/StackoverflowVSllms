@@ -1,0 +1,1 @@
+m_NextButton.Enabled =  CurrentPos < (TotalCount - 1) ;\nm_PreviousButton.Enabled = CurrentPos > 0;

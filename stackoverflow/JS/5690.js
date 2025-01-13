@@ -1,0 +1,1 @@
+<script type="text/javascript">\nAjax.Responders.register({\n   onCreate: function() {\n      if($('ajax-area'))\n         $('ajax-area').update('<img src="${createLinkTo(dir:'images',file:'spinner.gif')}" border="0" alt="Loading..." title="Loading..." width="16" height="16" />');\n   }\n});\n</script>

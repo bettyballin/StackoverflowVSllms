@@ -1,0 +1,1 @@
+<script type='text/javascript'\n         src='<%= Url.Content( "~/Scripts/jquery-1.3.1.min.js" ) %>'>\n </script>

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM\n    (SELECT DISTINCT(SomeColumn)\n       FROM MyTable\n      WHERE Something BETWEEN 100 AND 500\n      GROUP BY SomeColumn) MyTable

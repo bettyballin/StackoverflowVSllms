@@ -1,0 +1,1 @@
+ALTER TABLE dbo.city DELETE FOREIGN KEY [enternameoftheforeignkeyhere]

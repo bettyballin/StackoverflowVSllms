@@ -1,0 +1,1 @@
+$result = mysql_fetch_array(mysql_query($query));

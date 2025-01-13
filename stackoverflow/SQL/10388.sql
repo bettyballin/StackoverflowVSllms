@@ -1,0 +1,1 @@
+SELECT percent_premium \nFROM ratings \nWHERE goods='PRECIOUST' and :PREC_VALUE BETWEEN suminsured_min AND suminsured_max

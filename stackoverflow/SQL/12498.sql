@@ -1,0 +1,1 @@
+TABLE responses\nid         (Unique id)\nbug_id     ("Pointer" to which bug this response "belongs to")\nbody       (Contents of response)

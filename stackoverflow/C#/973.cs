@@ -1,0 +1,1 @@
+[AcceptVerbs(HttpVerbs.Post)]\n public ActionResult Create([Bind(Exclude="Id")]Contact contact)\n {\n     if(!ModelState.IsValid)\n         return View();\n\n     contact.Save();\n     return RedirectToAction("Index");\n }

@@ -1,0 +1,1 @@
+select id, 'Value' || n as name,\n       case n when 1 then value1 when 2 then value2 when 3 then value3 end as value\nfrom (select rownum n\n      from (select 1 from dual connect by level <= 3)) ofs, t

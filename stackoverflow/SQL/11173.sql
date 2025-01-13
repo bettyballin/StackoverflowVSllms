@@ -1,0 +1,1 @@
+BEGIN TRY\n    -- Your Code Goes Here --\nEND TRY\nBEGIN CATCH\n    SELECT \n        ERROR_NUMBER() AS ErrorNumber,\n        ERROR_SEVERITY() AS ErrorSeverity,\n        ERROR_STATE() AS ErrorState,\n        ERROR_PROCEDURE() AS ErrorProcedure,\n        ERROR_LINE() AS ErrorLine,\n        ERROR_MESSAGE() AS ErrorMessage\nEND CATCH

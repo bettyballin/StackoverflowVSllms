@@ -1,0 +1,1 @@
+Private Function outputRegionAsLinks() As String\n    Dim sb As New StringBuilder\n    Dim regionsTable As GKP.tblRegionsDataTable = Regions.GetRegions()\n\n    For Each region In regionsTable\n        sb.Append("<a href=''>")\n        sb.Append(region.RegionName)\n        sb.Append("</a>")\n        sb.Append("<br />")\n    Next\n\n\n\n    Return sb.ToString\n\nEnd Functio

@@ -1,0 +1,1 @@
+select part_name, product_line, option \nfrom products \nwhere product_line <> 10 or option = "option1" or option = "option2";

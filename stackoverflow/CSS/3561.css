@@ -1,0 +1,1 @@
+.image_block    {\n    width: 175px;\n    height: 175px;\n    position: relative;\n}\n\n.image_block a  {\n    width: 100%;\n    text-align: center;\n    position: absolute;\n    bottom: 0px;\n}\n\n.image_block img    {\n/*  nothing specific  */\n}

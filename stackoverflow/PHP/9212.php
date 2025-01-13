@@ -1,0 +1,1 @@
+$cFormatter = new NumberFormatter('en_US', NumberFormatter::CURRENCY);\n$sPattern = $cFormatter->getPattern(); // returns "¤#,##0.00;(¤#,##0.00)";\n\n$sMyPattern = "¤#,##0.00;-¤#,##0.00";\n$cFormatter->setPattern($sMyPattern);\n$cFormatter->formatCurrency(-456, 'USD');  // returns -$456.00

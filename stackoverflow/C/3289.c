@@ -1,0 +1,1 @@
+int cvSaveImage( const char* filename, const CvArr* image );

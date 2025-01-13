@@ -1,0 +1,1 @@
+<TabContainer>\n  <tabPanel1>\n    <contentTemplate>\n      <uc1:MyControl id="myControl" runat="server" />\n    </contentTemplate>\n  </tablPanel1>\n\n  <tabPanel2>\n    <contentTemplate>\n      <uc1:MyControl id="myControl2" runat="server" />\n    </contentTemplate>\n  </tablPanel2>\n</TabContainer>\n\n<uc1:MyControl id="myControl3" runat="server" />

@@ -1,0 +1,1 @@
+irb(main):001:0> x = "x %s"\n=> "x %s"\nirb(main):002:0> y = "y %s"\n=> "y %s"\nirb(main):003:0> z = "z"\n=> "z"\nirb(main):004:0> print x % y % z\nx y z=> nil

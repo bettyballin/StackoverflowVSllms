@@ -1,0 +1,1 @@
+<input type='hidden' name='what_ever' value='<?php echo $my_var?>' />

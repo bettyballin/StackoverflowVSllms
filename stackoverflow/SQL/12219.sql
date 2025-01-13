@@ -1,0 +1,1 @@
+SELECT emp_id FROM employees WHERE months_of_service = 6;

@@ -1,0 +1,1 @@
+open up each file for read-only and read them into a list.\nclose the files\nforeach element in the list\n#do the desired text replacement\n`s/$oldtext/$newtext/g`;\nopen each file once more now for writing\nwrite out the new text.

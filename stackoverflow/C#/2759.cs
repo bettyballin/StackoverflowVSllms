@@ -1,0 +1,1 @@
+// Both of these types mean the same thing, the ? is just C# shorthand.\nprivate void Example(int? arg1, Nullable<int> arg2)\n{\n    if (arg1.HasValue)\n        DoSomething();\n\n    arg1 = null; // Valid.\n    arg1 = 123;  // Also valid.\n\n    DoSomethingWithInt(arg1); // NOT valid!\n    DoSomethingWithInt(arg1.Value); // Valid.\n}

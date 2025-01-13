@@ -1,0 +1,1 @@
+public partial class Invoice : System.Web.UI.Page\n{\n    DependentObject SomeObject = new DependentObject();\n    private void Page_Load(object sender, System.EventArgs e)\n    {\n        // Put user code to initialize the page here\n\n    }\n}

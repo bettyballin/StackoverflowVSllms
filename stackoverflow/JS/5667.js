@@ -1,0 +1,1 @@
+function _pr_isIE7() {\n  var isIE7 = navigator && navigator.userAgent &&\n       /\bMSIE 7\./.test(navigator.userAgent);\n  _pr_isIE7 = function () { return isIE7; };\n  return isIE7;\n}

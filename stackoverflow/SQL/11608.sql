@@ -1,0 +1,1 @@
+INSERT INTO games SET yr = 2012, city = 'London';

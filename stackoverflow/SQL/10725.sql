@@ -1,0 +1,1 @@
+execute immediate 'truncate table schema.tablename';

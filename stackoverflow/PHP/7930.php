@@ -1,0 +1,1 @@
+$this->List->find('all', array(\n    'contain' => array(\n        'Openhouse.conditions' => array(\n            'Openhouse.date >' => $openhouse_start->format('Y-m-d H:i:s'),\n            'Openhouse.date <' => $openhouse_end->format('Y-m-d H:i:s'))\n        )\n    )\n)

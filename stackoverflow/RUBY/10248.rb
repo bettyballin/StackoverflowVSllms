@@ -1,0 +1,1 @@
+my_hash.each { |k, v| my_hash[k] = v.upcase } 

@@ -1,0 +1,1 @@
+template<class T>\nvoid f( T k )\n{\n     T x( k );\n     x.x();\n}

@@ -1,0 +1,1 @@
+DECLARE @SalesTbl TABLE (DayCount smallint, Sales money, RunningTotal money)\n \nDECLARE @RunningTotal money\n \nSET @RunningTotal = 0\n \nINSERT INTO @SalesTbl \nSELECT DayCount, Sales, null\nFROM Sales\nORDER BY DayCount\n \nUPDATE @SalesTbl\nSET @RunningTotal = RunningTotal = @RunningTotal + Sales\nFROM @SalesTbl\n \nSELECT * FROM @SalesTbl

@@ -1,0 +1,1 @@
+pen = new Pen { Brush = Brushes.Gray, Thickness = 2 };

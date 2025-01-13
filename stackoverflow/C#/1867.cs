@@ -1,0 +1,1 @@
+DataTable dtMyData = ... retrieve records from WebService\nusing (SqlBulkCopy bulkCopy = new SqlBulkCopy(connectionString)) {\n    bulkCopy.BulkCopyTimeout = 120; // timeout in seconds, default is 30\n    bulkCopy.DestinationTableName = "MyTable"; \n    bulkCopy.WriteToServer(dtMyData);\n}

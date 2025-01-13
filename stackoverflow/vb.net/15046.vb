@@ -1,0 +1,1 @@
+Dim backColor as Color = Color.Yellow\nrow.DefaultCellStyle.BackColor = backColor\nrow.DefaultCellStyle.SelectionBackColor = Color.FromArgb(backColor.R * 3 / 4, backColor.G * 3 / 4, backColor.B * 3 / 4)

@@ -1,0 +1,1 @@
+CharSet = CharSet.Unicode

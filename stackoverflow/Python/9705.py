@@ -1,0 +1,1 @@
+def streamInYAML(stream):\n    y = stream.readline()\n    cont = 1\n    while cont:\n        l = stream.readline()\n        if len(l) == 0:\n            cont = 0\n        else:\n            if l.startswith(' '):\n                y = y + l\n            else:\n                yield yaml.load(y)\n                y = l

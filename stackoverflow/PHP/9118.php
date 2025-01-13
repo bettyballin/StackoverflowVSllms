@@ -1,0 +1,1 @@
+function GetURL($URL)\n    {\n            $ch = curl_init($URL);\n\n            curl_setopt($ch,CURLOPT_FOLLOWLOCATION,true);\n\n\n            curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);\n\n            curl_exec($ch);\n\n            $code = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);\n\n            curl_close($ch);\n\n            return $code;\n    }

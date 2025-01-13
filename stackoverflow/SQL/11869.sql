@@ -1,0 +1,1 @@
+declare @d int\n\nselect @d = 500\n\nif cast(sql_variant_property(@d,'BaseType') as varchar(20))  = 'int'\nprint 'yes'\nelse\nprint 'no'

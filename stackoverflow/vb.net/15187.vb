@@ -1,0 +1,1 @@
+Imports System.Runtime.InteropServices\n\nDim my_integer as Integer = 0\nDim ptr as IntPtr = Marshal.AllocHGlobal(4)\n\nMarshal.WriteInt32(my_integer)\n\nAPICall(ptr)\n\nmy_integer = Marshal.ReadInt32(ptr)\n\nMarshal.FreeHGlobal(ptr)

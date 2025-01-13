@@ -1,0 +1,1 @@
+foreach (DataRow row in yourDataTable)\n{\n    DateTime dt = DateTime.Parse(row["Date"].ToString());\n    row["Date"] = dt.ToShortDateString();\n}

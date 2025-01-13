@@ -1,0 +1,1 @@
+myRows = query(SELECT * FROM A)\nmoreRows = query(SELECT * FROM B WHERE a_id IN myRows[id])

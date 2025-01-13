@@ -1,0 +1,1 @@
+routes.MapRoute(\n    "Index",\n    "/{controller}/{id}",\n    new { controller = "Home", action = "Index" }\n);

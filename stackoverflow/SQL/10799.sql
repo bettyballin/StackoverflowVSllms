@@ -1,0 +1,1 @@
+select customers_id, count(*)\nfrom reviews\nwhere customers_id in \n(select customers_id from reviews where products_id = '170')\ngroup by customers_id;

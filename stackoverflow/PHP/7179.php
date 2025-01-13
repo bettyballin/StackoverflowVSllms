@@ -1,0 +1,1 @@
+('abc.php') or die("oops")

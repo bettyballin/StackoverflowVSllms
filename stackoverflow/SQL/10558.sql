@@ -1,0 +1,1 @@
+declare @rc int, @dir nvarchar(4000) \n\nexec @rc = master.dbo.xp_instance_regread\n      N'HKEY_LOCAL_MACHINE',\n      N'Software\Microsoft\MSSQLServer\Setup',\n      N'SQLPath', \n      @dir output, 'no_output'\nselect @dir AS InstallationDirectory

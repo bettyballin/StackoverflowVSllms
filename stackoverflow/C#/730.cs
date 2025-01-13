@@ -1,0 +1,1 @@
+var outputBuffer = new StringBuilder();\nusing (var writer = new HtmlTextWriter(new StringWriter(outputBuffer)))\n{\n    yourDataGrid.RenderControl(writer);\n}\noutputBuffer.ToString();

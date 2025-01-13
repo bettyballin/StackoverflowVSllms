@@ -1,0 +1,1 @@
+$doc = Zend_Search_Lucene_Document_Html::loadHTMLFile('http://my.host.domain/path2file');\n$index->addDocument($doc);

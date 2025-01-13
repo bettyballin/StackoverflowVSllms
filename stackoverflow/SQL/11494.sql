@@ -1,0 +1,1 @@
+with t1 as (\n    select A, max(B) as B, C \n        from YourTable\n        group by A, C\n)\nselect count(A) as CountA, B, C\n    from t1\n    group by B, C

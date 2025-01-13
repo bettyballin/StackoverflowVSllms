@@ -1,0 +1,1 @@
+SELECT TOP 1 ID FROM foo where foo.name=?

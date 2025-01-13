@@ -1,0 +1,1 @@
+CREATE TRIGGER [dbo].[TR_Product_Update] ON [Product]\n   WITH EXECUTE AS OWNER\n   AFTER UPDATE\nAS\nSELECT ProductId\nFROM INSERTED

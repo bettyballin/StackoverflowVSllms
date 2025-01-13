@@ -1,0 +1,1 @@
+Products\n----------\nid\nprice\n\nProducts_Translations\n----------------------\nproduct_id\nlocale\nname\ndescriptio

@@ -1,0 +1,1 @@
+SELECT * FROM\n(\n    SELECT a.*, rownum r__\n    FROM\n    (\n        SELECT * FROM ORDERS WHERE CustomerID LIKE 'A%'\n        ORDER BY OrderDate DESC, ShippingDate DESC\n    ) a\n    WHERE rownum < ((pageNumber * pageSize) + 1 )\n)\nWHERE r__ >= (((pageNumber-1) * pageSize) + 1)

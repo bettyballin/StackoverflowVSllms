@@ -1,0 +1,1 @@
+DTP_deltek.CustomFormat = "MMM-dd-yyyy";\n    DTP_deltek.Format = DateTimePickerFormat.Custom;

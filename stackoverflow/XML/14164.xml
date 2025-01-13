@@ -1,0 +1,1 @@
+<!DOCTYPE x [ <!ENTITY y "a]>b"> ]>\n<x>\n    <a b="&y;>" />\n    <![CDATA[[a>b <a>b <a]]>\n    <?x <a> <!-- <b> ?> c --> d\n</x>

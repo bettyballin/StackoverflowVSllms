@@ -1,0 +1,1 @@
+Function ReadFromRegistry(strRegistryKey, strDefault)\n    Dim WSHShell, value\n\n    On Error Resume Next\n    Set WSHShell = CreateObject("WScript.Shell")\n    value = WSHShell.RegRead( strRegistryKey )\n\n    If err.number <> 0 Then\n        readFromRegistry = strDefault\n    Else\n        readFromRegistry = value\n    End If\n\n    Set WSHShell = Nothing\nEnd Functio

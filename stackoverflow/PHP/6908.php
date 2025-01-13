@@ -1,0 +1,1 @@
+class html\n{\n    function redirect($url)\n    {\n         // Do stuff\n    }\n    function foo()\n    {\n       echo "bar";\n    }\n}\n$html = new html;\n$html->redirect("URL");

@@ -1,0 +1,1 @@
+$qry = "select *       \n         from   school\n         where  display='Y'\n         and (announcement != '' AND announcement IS NOT null)\n         order by name, announcement, last_update";

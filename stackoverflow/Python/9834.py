@@ -1,0 +1,1 @@
+>>> import time\n>>> def test():\n...     before = time.time()\n...     print factor(2**32-1, 256)\n...     print time.time()-before\n...\n>>> test()\n[254, 232, 215, 113, 3, 15]\n1.68499994278\n>>> 254*232*215*113*3+15\n4294967295L

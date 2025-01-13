@@ -1,0 +1,1 @@
+INSERT INTO B (supplier_id, supplier_name)\nSELECT supplier_id, supplier_name FROM A\nWHERE abc > 10;

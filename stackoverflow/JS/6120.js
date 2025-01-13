@@ -1,0 +1,1 @@
+try {\n   // your code\n} catch(e) {\n   alert(e);\n}

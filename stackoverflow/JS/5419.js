@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    function UpdateViewData(videoId, time)\n    {\n        //for a video with id 12345, sets a cookie called:\n        //hulu12345 with a value of the position\n        var cookieData = 'hulu' + videoId + '=' + time + '; expires=' + getDate() + ';path=/';\n        document.cookie = cookieData;\n    }\n</script>

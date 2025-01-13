@@ -1,0 +1,1 @@
+create assembly [YOUR_ASSEMBLY]\nfrom '(PATH_TO_DLL)'

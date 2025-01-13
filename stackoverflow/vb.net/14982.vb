@@ -1,0 +1,1 @@
+Dim pub = _Data.publications.Where(Function(s) s.name = e.<source>.Value).SingleOrDefault\nDim newPub As publication\nIf Not IsNothing(pub) AndAlso pub.name <> "" Then\n   .publication = pub\nElse\n   newPub = New publication With {.name = e.<source>.Value}\n   .publication = newPub\nEnd If

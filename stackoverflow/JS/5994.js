@@ -1,0 +1,1 @@
+$("element#id").hover(\n function() {\n  $(this).attr("title","");\n  $("div#popout").show();\n },\n function() {\n  $("div#popout").hide();\n  $(this).attr("title",originalTitle);\n }\n);

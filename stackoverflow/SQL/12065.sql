@@ -1,0 +1,1 @@
+SELECT Column1, Column2, IIF(ISNULL(Column3),0,Column3) + IIF(ISNULL(Column4),0,Column4) AS [Added Values]\nFROM Table

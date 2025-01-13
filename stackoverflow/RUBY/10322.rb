@@ -1,0 +1,1 @@
+def foo(x)\n  (0..x).select { |i| bar(i) }\nend

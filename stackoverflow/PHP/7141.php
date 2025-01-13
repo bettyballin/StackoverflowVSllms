@@ -1,0 +1,1 @@
+$sql = sprintf('INSERT IGNORE INTO my_table VALUES(%d, %d, 1, NOW())', $_SESSION['client']['id'], $_POST['id']);

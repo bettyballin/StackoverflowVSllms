@@ -1,0 +1,1 @@
+SELECT Q1.IssueID, Q1.IssueKey, D1.DocKey, D1.DocID\nFROM Issues AS Q1, Documents AS D1\nWHERE Q1.IssueID in \n  (SELECT  Q2.IssueID FROM Issues AS Q2 WHERE Q2.References LIKE ("*" & D1.DocID & "*"));

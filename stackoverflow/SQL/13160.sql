@@ -1,0 +1,1 @@
+CREATE TABLE tblSource (\nId int not null\ncolData int not null\ncolTimestamp timestamp null)\n\nCREATE TABLE tblTarget (\nId int not null\ncolData int not null\ncolTimestampVarBinary varbinary(8) null)

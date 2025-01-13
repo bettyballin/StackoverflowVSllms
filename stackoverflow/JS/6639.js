@@ -1,0 +1,1 @@
+$url = 'path/to/phpFile.php';\n\n$.get($url, {name: get_name(), job: get_job()});

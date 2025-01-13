@@ -1,0 +1,1 @@
+$query = "SELECT * FROM `produto`, `pt` WHERE\n        produto.refPT = pt.ref AND\n        produto.refPT IN (SELECT `idProduto` FROM `amb_prod` WHERE idAmbiente='".$ambId.");";

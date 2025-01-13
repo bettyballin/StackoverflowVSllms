@@ -1,0 +1,1 @@
+SELECT Id, Name\n    FROM Table1\n    JOIN Table2 \n        ON Table2.FK1 = Table2.FK1

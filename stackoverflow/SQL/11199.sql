@@ -1,0 +1,1 @@
+Addresses\n---------\nAddressId (PK)\nStreet1\n... (etc)

@@ -1,0 +1,1 @@
+double stuff(double a, double b)\n{\n  struct parameters\n  {\n    double a, b;\n  };\n\n  double f(double x, void * params)\n  {\n    struct parameters p = (struct parameters *) params;\n    double a = p->a, b = b->b;\n    return some_expression_involving(a,b,x);\n  }\n  struct parameters par = {a,b};\n\n  return integrate(&f, &par);     // return added!\n}

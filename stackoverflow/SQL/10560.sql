@@ -1,0 +1,1 @@
+SELECT Id, ParentId, SomeData\nFROM (\n  SELECT ll.*, level AS lvl\n  FROM LinkedList ll\n  START WITH\n    ParentID IS NULL\n  CONNECT BY\n    ParentId = PRIOR Id\n)\nORDER BY\n  lvl

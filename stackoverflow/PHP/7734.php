@@ -1,0 +1,1 @@
+// replace time() with the time stamp you want to add one day to\n$startDate = time();\ndate('Y-m-d H:i:s', strtotime('+1 day', $startDate));

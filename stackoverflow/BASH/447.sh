@@ -1,0 +1,1 @@
+cd /usr/ports/*/bash\nmake install

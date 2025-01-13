@@ -1,0 +1,1 @@
+CREATE PROCEDURE MyInsertSP\n    @FirstName varchar(255),\n    @LastName  varchar(255)\nAS\nBEGIN\n    INSERT INTO Table VALUES('Some Value')\n\n    EXECUTE LandData_Update @FirstName, @LastName\nEND

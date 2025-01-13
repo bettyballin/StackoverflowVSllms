@@ -1,0 +1,1 @@
+def embed_element(external_video)\n  content_tag(:embed, '', :src => external_video.video_source)\nend

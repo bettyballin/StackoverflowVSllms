@@ -1,0 +1,1 @@
+myframe.document.getElementById("searchForm").searchTerm.value = 'hello';\nmyframe.document.getElementById("searchForm").submit();

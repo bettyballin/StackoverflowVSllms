@@ -1,0 +1,1 @@
+Private Sub SetObjectValue(ByVal SelectedObject As SAPbobsCOM.BoObjectTypes, ByVal ClassName As String, ByVal FieldName As String, ByVal SetValue As String, ByVal KeyValue As String)\n    Dim oObject As Object\n   oObject = oCompany.GetBusinessObject(SelectedObject)\n\n    oObject.GetByKey(KeyValue)\n\n    CallByName(oObject, FieldName, vbSet, CDbl(SetValue))\nEnd Sub

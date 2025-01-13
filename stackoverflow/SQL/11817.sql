@@ -1,0 +1,1 @@
+LOAD '$libdir/plugins/plugin_profiler.dll';\nSET plpgsql.profiler_tablename = 'bazzybar';

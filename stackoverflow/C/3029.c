@@ -1,0 +1,1 @@
+ifstream file ("file.txt", ios::in|ios::binary|ios::ate);\nif (file.is_open())\n{\n    file.seekg(0, ios::end);\n    size = file.tellg();\n    char *contents = new char [size];\n    file.seekg (0, ios::beg);\n    file.read (contents, size);\n    file.close();\n    //... do something with it\n    delete [] contents;\n}

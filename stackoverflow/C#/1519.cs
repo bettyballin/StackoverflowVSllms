@@ -1,0 +1,1 @@
+ServiceSecurityContext current = ServiceSecurityContext.Current;\n\nif (!current.IsAnonymous && current.WindowsIdentity != null)\n{\n    string userName = current.WindowsIdentity.Name;\n}

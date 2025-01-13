@@ -1,0 +1,1 @@
+HGLOBAL gGlobal = GlobalAlloc(GMEM_MOVEABLE, 0);

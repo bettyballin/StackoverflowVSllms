@@ -1,0 +1,1 @@
+<location path="Secret" allowOverride="false">\n  <system.web>\n    <authorization>\n      <deny users="*" />\n    </authorization>\n    <httpHandlers>\n      <remove path="*.*" verb="*"/>\n    </httpHandlers>\n  </system.web>\n</location>

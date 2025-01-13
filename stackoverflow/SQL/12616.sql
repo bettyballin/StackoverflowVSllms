@@ -1,0 +1,1 @@
+update table_2\nset priority = 6-priority;

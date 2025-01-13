@@ -1,0 +1,1 @@
+$("textarea").change( function() {\n    // convert any opening and closing braces to their HTML encoded equivalent.\n    var strClean = $(this).val().replace(/</gi, '&lt;').replace(/>/gi, '&gt;');\n\n    // Remove any double and single quotation marks.\n    strClean = strClean.replace(/"/gi, '').replace(/'/gi, '');\n\n    // put the data back in.\n    $(this).val(strClean);\n});

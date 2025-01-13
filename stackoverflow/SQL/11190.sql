@@ -1,0 +1,1 @@
+SELECT \n    s1.Id, s1.Name, s1.Parent, s2.Id as Child, MAX(s2.Mark) as Mark, m.Ranking \n\nFROM \n    Students s1\n    INNER JOIN Students s2 ON (s1.id = s2.parent AND s2.Mark >= 20) \n    LEFT JOIN Marks m ON (s1.name = m.name) \n\nGROUP BY \n    s1.Id, s1.Name, s1.Parent, Child, Ranking;

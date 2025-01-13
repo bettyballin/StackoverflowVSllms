@@ -1,0 +1,1 @@
+public class DataObject\n{\n     public string CustomerName { get; set; }\n}\n\npublic class DataObjectVersion2 : DataObject\n{\n    public DataTimeOrderDate { get; set; }\n}

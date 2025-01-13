@@ -1,0 +1,1 @@
+public static bool IsSubsetOf(byte[] set, byte[] subset) {\n    for(int i = 0; i < set.Length && i + subset.Length <= set.Length; ++i)\n        if (set.Skip(i).Take(subset.Length).SequenceEqual(subset))\n            return true;\n    return false;\n}

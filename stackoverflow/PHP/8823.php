@@ -1,0 +1,1 @@
+get_events()\nadd_event($Event)\nremove_event($Event)

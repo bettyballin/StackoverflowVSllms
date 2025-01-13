@@ -1,0 +1,1 @@
+WITH ordered_table AS\n        (\n        SELECT  *\n        FROM    table\n        ORDER BY\n                column1\n        )\nSELECT  FIRST_VALUE(column2 IGNORE NULLS) OVER (PARTITION BY column3)\nFROM    ordered_table

@@ -1,0 +1,1 @@
+query_posts(array('showposts' => <number_of_pages_to_show>, 'post_parent' => <ID of the parent page>, 'post_type' => 'page'));\n\nwhile (have_posts()) { the_post();\n    /* Do whatever you want to do for every page... */\n}\n\nwp_reset_query();  // Restore global post data

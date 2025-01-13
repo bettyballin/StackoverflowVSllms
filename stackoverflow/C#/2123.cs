@@ -1,0 +1,1 @@
+bool IsPowerOfTwo(ulong x)\n{\n    return (x & (x - 1)) == 0;\n}

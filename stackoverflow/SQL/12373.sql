@@ -1,0 +1,1 @@
+select categoryid, count(orders.id)\nfrom category c\nleft join product_group pg on pg.category_id = c.id\nleft join products on p on p.product_group_id = pg.id\nleft join orders o on o.product_id = p.id

@@ -1,0 +1,1 @@
+public int GetSqlCount<T>(Session session, string table)\n{\n    var sql = String.Format("SELECT Count(*) FROM {0}", table);\n    var query = session.CreateSQLQuery(sql);\n    var result = query.UniqueResult();\n    // Could also use this if only updating values:\n    //query.ExecuteUpdate();\n\n    return Convert.ToInt32(result);\n}

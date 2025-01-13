@@ -1,0 +1,1 @@
+$("#selectBox option[value='option1']").remove();

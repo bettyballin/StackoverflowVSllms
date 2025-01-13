@@ -1,0 +1,1 @@
+cursor.execute("INSERT INTO releases (date, cat, name) VALUES ('%s', '%s', '%s')" % (timestring, y[4], y[7]))

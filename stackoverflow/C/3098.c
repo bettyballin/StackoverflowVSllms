@@ -1,0 +1,1 @@
+fseek(fp, 0L, SEEK_END);\nsz = ftell(fp);

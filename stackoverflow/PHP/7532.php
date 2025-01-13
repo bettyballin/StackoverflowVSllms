@@ -1,0 +1,1 @@
+function x_week_range(&$start_date, &$end_date, $date) {\n    $ts = strtotime($date);\n    $start = (date('w', $ts) == 0) ? $ts : strtotime('last sunday', $ts);\n    $start_date = date('Y-m-d', $start);\n    $end_date = date('Y-m-d', strtotime('next saturday', $start));\n}

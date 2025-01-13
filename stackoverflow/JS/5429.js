@@ -1,0 +1,1 @@
+document.getElementsByName("textbox1"); // returns a list of elements with name="textbox1"\ndocument.getElementsByName("textbox1")[0] // returns the first element in DOM with name="textbox1"

@@ -1,0 +1,1 @@
+$("#tableid tr:odd").addClass("odd");

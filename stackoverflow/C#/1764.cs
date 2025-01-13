@@ -1,0 +1,1 @@
+Enum.GetNames(typeof(DiaryMode))

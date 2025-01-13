@@ -1,0 +1,1 @@
+<script type='text/javascript'>\n$(function() {\n    $.load('<%= Url.Action( "ReportOne", "Home", new { id = "reportFormOne" } ) %>', null, function(response,status,xhr) {\n        $('#partialView').html(reponse);\n    });\n});\n</script>\n\n...\n\n<div id='partialView'>\n</div>

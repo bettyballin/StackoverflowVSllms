@@ -1,0 +1,1 @@
+SELECT n.NavDisplayName\nFROM tblNavPC AS pc\n    LEFT JOIN tblNav AS n ON n.NavID = pc.cid\nWHERE pc.pid = $nid;

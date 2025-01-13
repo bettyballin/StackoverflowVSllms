@@ -1,0 +1,1 @@
+If Row.IsNull("url") Then\n    //' do something here....\nEnd If

@@ -1,0 +1,1 @@
+for j in 1...num.length

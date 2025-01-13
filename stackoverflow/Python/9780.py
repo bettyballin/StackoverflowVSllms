@@ -1,0 +1,1 @@
+import os.path\nfor dir, file in zip(directories, files):\n    print(os.path.join(dir, file))                      # for directories, files

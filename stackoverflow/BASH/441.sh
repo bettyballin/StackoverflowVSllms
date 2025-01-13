@@ -1,0 +1,1 @@
+[1]+  Stopped                 myprogram\n$ disown -h %1\n$ bg 1\n[1]+ myprogram &\n$ logout

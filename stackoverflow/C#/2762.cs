@@ -1,0 +1,1 @@
+ServiceController controller  = new ServiceController();\ncontroller.MachineName = "."; // or the remote machine name\ncontroller.ServiceName = "IISADMIN"; // or "w3svc"\nstring status  = controller.Status.ToString();\n\n// Stop the service\ncontroller.Stop();\n\n// Start the service\ncontroller.Start();

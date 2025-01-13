@@ -1,0 +1,1 @@
+SELECT id FROM ids WHERE groups IN(1,2) ORDER BY id

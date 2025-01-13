@@ -1,0 +1,1 @@
+select\n    Category\n    ,month\n    ,SUM(CASE WHEN YEAR = 2008 THEN Revenue ELSE 0 END) this_year\n    ,SUM(CASE WHEN YEAR = 2007 THEN Revenue ELSE 0 END) last_year\n\nfrom\n    sales\n\nwhere\n    year in (2008,2007)\n\ngroup by\n    Category\n    ,month

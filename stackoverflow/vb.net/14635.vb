@@ -1,0 +1,1 @@
+DLLHandle = LoadLibrary("Mydll.dll")\nmyimage = LoadBitmap(DLLHandle, "#101")  ' note the "#"

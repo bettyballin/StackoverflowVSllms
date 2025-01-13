@@ -1,0 +1,1 @@
+SELECT * \nFROM pmmessages \nWHERE sentto = '$username' \n    OR sentto = 'everyone'

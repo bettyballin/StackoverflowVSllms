@@ -1,0 +1,1 @@
+var query = from c in contacts\n                group c by c.FullName[0] into cg\n                select new { FirstChar = cg.Key, Count = cg.Count() };

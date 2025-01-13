@@ -1,0 +1,1 @@
+SELECT e.*, s1.score, s1.date_added \nFROM entities e\n  INNER JOIN scores s1\n    ON (e.id = s1.entity_id)\n  LEFT OUTER JOIN scores s2\n    ON (e.id = s2.entity_id AND s1.id < s2.id)\nWHERE s2.id IS NULL;

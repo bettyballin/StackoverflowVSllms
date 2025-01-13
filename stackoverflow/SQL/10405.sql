@@ -1,0 +1,1 @@
+SET @query = CONCAT("SELECT t1.field1 FROM table1 t1 LIMIT 1 INTO OUTFILE /my_path/", myvar, ".txt" );\nPREPARE statement FROM @query;\nEXECUTE statement;

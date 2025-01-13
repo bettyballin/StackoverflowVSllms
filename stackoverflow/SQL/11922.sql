@@ -1,0 +1,1 @@
+Dictionary table\nID (pk)\nDICTIONARY_TYPE_ID (fk to dictionaryType) \nITEM\n\nDictionaryType table\nID (pk)\nDESCRIPTION

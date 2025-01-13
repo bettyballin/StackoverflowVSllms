@@ -1,0 +1,1 @@
+1. print( (abs(Number)+Number) / 2 )

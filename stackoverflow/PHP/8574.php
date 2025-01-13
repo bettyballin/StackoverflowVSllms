@@ -1,0 +1,1 @@
+define('DEBUG', true);\n...\nif (DEBUG):\n  $debug->writeLine("stuff");\nendif;

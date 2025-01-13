@@ -1,0 +1,1 @@
+var tmp = this;\n$.get("/get_items",{q:this.quaryparam},function(data,status){\n    tmp.data = data;\n});

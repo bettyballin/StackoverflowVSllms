@@ -1,0 +1,1 @@
+<%= Ajax.ActionLink(..., new AjaxOptions { ..., \n    UpdateTargetId = 'blabla', \n    OnBegin = "msg_activate", \n    OnComplete = "msg_hide", \n    OnSuccess = "funcOnSuccess", \n    OnFailure = "funcOnFailure" })\n%>

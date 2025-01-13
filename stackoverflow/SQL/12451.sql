@@ -1,0 +1,1 @@
+CREATE FUNCTION stamp_updated() RETURNS TRIGGER LANGUAGE 'plpgsql' AS $$\nBEGIN\n  NEW.last_updated := now();\n  RETURN NEW;\nEND\n$$;\n-- repeat for each table you need to track:\nALTER TABLE sometable ADD COLUMN last_updated TIMESTAMP;\nCREATE TRIGGER sometable_stamp_updated\n  BEFORE INSERT OR UPDATE ON sometable\n  FOR EACH ROW EXECUTE PROCEDURE stamp_updated();

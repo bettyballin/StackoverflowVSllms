@@ -1,0 +1,1 @@
+rename a.out your-executable-name

@@ -1,0 +1,1 @@
+Me.LabelVersion.Text = String.Format("Version {0}", My.Application.Deployment.CurrentVersion.ToString)

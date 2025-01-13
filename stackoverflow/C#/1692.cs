@@ -1,0 +1,1 @@
+public class MyDatabaseConnection {\n    public MyDatabaseConnection(string connectionString) {\n        this.connectionString = connectionString;\n        // create a database connection perhaps\n    }\n    // some methods for querying a database\n    public void execute(string query) { }\n}

@@ -1,0 +1,1 @@
+<xs:element name="colname" type="xs:decimal" minOccurs="0"\n  msdata:Caption="Friendly Caption" />

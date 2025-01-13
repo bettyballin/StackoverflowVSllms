@@ -1,0 +1,1 @@
+Public Sub OnAverageClick(ByVal sender as Object, ByVal e As EventArgs) Handles AverageButton.Click\n\n    Dim input1 as Integer = CInt(textBox1.Text)\n    Dim input2 as Integer = CInt(textBox2.Text)\n    Dim input3 as Integer = CInt(textBox3.Text)\n    Dim average = (input1 + input2 + input3) / 3\n\nEnd Sub

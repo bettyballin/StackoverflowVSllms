@@ -1,0 +1,1 @@
+$.validator.addMethod('positiveNumber',\n    function (value) { \n        return Number(value) > 0;\n    }, 'Enter a positive number.');

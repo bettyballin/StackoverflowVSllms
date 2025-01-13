@@ -1,0 +1,1 @@
+select Title, SUM(CategoryID=1) as Cat1, SUM(categoryID=2) as Cat2,\nSUM(categoryID IS NULL) as UnknownCategory\nFROM entries\nWHERE Date BETWEEN @StartDate AND @EndDate\nGROUP BY Title

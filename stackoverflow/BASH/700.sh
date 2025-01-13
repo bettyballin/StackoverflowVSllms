@@ -1,0 +1,1 @@
+sed .tnsnames.ora  '105,115p'|grep -e 'host=' -e 'port='

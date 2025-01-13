@@ -1,0 +1,1 @@
+mysql_query($query) or die('q fail');

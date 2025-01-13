@@ -1,0 +1,1 @@
+<%= link_to_remote "question-", :update =>"questions-1", :url => {:action => :destroy, :controller => "questions", :id => @question.id}, :method => :delete %>

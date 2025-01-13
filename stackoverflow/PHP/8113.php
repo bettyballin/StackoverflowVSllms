@@ -1,0 +1,1 @@
+$file = 'test.csv';\n$fp = fopen($file, 'r');\nwhile ($line = fgetcsv($fp, 1024, ':')) {\n    $$line[0] = $line[1];\n}

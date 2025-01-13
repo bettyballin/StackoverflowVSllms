@@ -1,0 +1,1 @@
+SELECT  invoice_id, price\nFROM    invoices i\nJOIN    users u\nON      u.user_id = i.user_id\nJOIN    rates r\nON      r.rate_id = CASE WHEN i.invoice_type = package THEN u.rate_package_id ELSE u.rate_document_id END\nJOIN    rate_prices p\nON      p.rate_id = r.rate_id

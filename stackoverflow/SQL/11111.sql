@@ -1,0 +1,1 @@
+set serveroutput on format wrapped;\nbegin\n    DBMS_OUTPUT.put_line('simple comment');\nend;\n/\n\n-- do something\n\nbegin\n    DBMS_OUTPUT.put_line('second simple comment');\nend;\n/

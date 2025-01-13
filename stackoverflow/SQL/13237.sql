@@ -1,0 +1,1 @@
+UPDATE 'recursive' SET 'parent_id' = NULL WHERE 'parent_id' IS NOT NULL;\nDELETE FROM 'recursive';

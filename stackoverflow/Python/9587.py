@@ -1,0 +1,1 @@
+def create_querytable2():\n    constring = "OLEDB;Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\path\to\db.mdb;"\n    SQL = "Select * from tblName;"\n    excel = client.CreateObject("Excel.Application", dynamic=True)\n    excel.Visible = True\n    ws = excel.Workbooks.Add().Worksheets(1)\n    ws.QueryTables.Add(constring, ws.Range["A1"], SQL).Refresh()

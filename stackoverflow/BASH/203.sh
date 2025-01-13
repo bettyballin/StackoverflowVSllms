@@ -1,0 +1,1 @@
+rsync -av remote_host:'$(find logs -type f -ctime -1)' local_dir

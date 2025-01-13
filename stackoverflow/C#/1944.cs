@@ -1,0 +1,1 @@
+private MyService service;\npublic MyService Service\n{\n    get\n    {\n         if (this.service == null)\n         {\n             this.service = new MyService(this.Server);\n         }\n         return this.service;\n    }\n}

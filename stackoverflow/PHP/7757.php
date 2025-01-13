@@ -1,0 +1,1 @@
+class ORM extends ORM_Core {} 

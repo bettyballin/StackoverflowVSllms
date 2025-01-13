@@ -1,0 +1,1 @@
+$input = "abcd";\n$len = strlen($input);\n$output = array();\n\nfor ($i = 0; $i < $len - 1; ++$i) {\n    $output[] = substr($input, 0, $i)\n              . substr($input, $i + 1, 1)\n              . substr($input, $i, 1)\n              . substr($input, $i + 2);\n}\nprint_r($output);

@@ -1,0 +1,1 @@
+BULK \nINSERT YourDestinationTable\n        FROM 'D:\YourFile.csv'\n            WITH\n    (\n                FIELDTERMINATOR = ',',\n                ROWTERMINATOR = '\n'\n    )\nGO

@@ -1,0 +1,1 @@
+// these do the same thing\nvar foo = new Object();\nvar bar = {};\n\nconsole.log(foo instanceof Object); // true\nconsole.log(bar instanceof Object); // true

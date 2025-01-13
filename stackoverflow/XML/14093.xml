@@ -1,0 +1,1 @@
+<build>\n  <pluginManagement>\n    <plugins>\n      <plugin>\n        <artifactId>maven-release-plugin</artifactId>\n        <version>2.0-beta-9</version>\n      </plugin>\n    </plugins>\n  </pluginManagement>\n</build>

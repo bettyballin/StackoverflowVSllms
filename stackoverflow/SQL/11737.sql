@@ -1,0 +1,1 @@
+SELECT table_name, column_name, data_type, data_length\nFROM USER_TAB_COLUMNS\nWHERE table_name = 'MYTABLE'

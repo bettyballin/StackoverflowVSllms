@@ -1,0 +1,1 @@
+// Initialize this once, and store it in the ASP.NET Cache.\nDictionary<String,String> errorCodes = new Dictionary<String,String>();\n\nerrorCodes.Add("A01", "Whatever Error");\nerrorCodes.Add("U01", "Another Error");\n\n\n// And to get your error code:\n\nstring ErrCode = errorCodes[ErrorCodeFromWS];

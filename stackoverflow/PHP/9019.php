@@ -1,0 +1,1 @@
+$mySessionVar = $_session["sessionVar"]; 

@@ -1,0 +1,1 @@
+assert('$bur === NULL || $bur instanceof Bur');

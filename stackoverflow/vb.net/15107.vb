@@ -1,0 +1,1 @@
+Dim customerAge As age\ncustomerAge = age.Over18\n\nSelect Case customerAge\n    Case age.Over18\n        ...\n    Case age.Under18\n        ...\nEnd Select

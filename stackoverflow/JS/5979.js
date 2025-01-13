@@ -1,0 +1,1 @@
+$("button").click(bclick("Button","Clicked"))

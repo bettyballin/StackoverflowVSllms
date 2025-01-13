@@ -1,0 +1,1 @@
+<?php\n$varname.ext;  /* invalid variable name */\n?>

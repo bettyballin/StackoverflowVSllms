@@ -1,0 +1,1 @@
+namespace test {\n  class test {\n    public static void Main() {\n      System.Console.WriteLine("©");\n    }\n  }\n}

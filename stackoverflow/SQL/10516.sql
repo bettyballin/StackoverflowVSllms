@@ -1,0 +1,1 @@
+(SELECT `user_id`, `date_added`, 'photo' AS `type` FROM `photos` WHERE `user_id` = uid) UNION\n (SELECT `user_id`, `date_added`, 'video' AS `type` FROM `videos` WHERE `user_id` = uid) UNION\n (SELECT `user_id`, `date_added`, 'comment' AS `type` FROM `comments` WHERE `user_id` = uid)\n ORDER BY `date_added` DESC;

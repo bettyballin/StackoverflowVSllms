@@ -1,0 +1,1 @@
+WITH  q AS\n        (\n        SELECT TOP 1 *\n        FROM    mytable\n        /* You may want to add ORDER BY here */\n        )\nDELETE\nFROM    q

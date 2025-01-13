@@ -1,0 +1,1 @@
+diff file1.csv file2.csv --old-line-format="< %L" --new-line-format="> %L" --unchanged-line-format="= %L"

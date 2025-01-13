@@ -1,0 +1,1 @@
+ALTER INDEX commerce_contractor_pkey RENAME TO whatever_new_name

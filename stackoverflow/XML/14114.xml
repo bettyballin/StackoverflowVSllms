@@ -1,0 +1,1 @@
+<configuration>\n   <runtime>\n      <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">\n         <probing privatePath="bin;bin2\subbin;bin3"/>\n      </assemblyBinding>\n   </runtime>\n</configuration>

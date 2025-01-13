@@ -1,0 +1,1 @@
+[uuid(XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX), v1_enum, helpstring("Enum")]\nenum MyEnum {\n    value_a,\n    value_b,\n    value_c\n} ;

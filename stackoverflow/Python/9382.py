@@ -1,0 +1,1 @@
+import glob, os\nfor filename in glob.glob(os.path.join(yourPath, "*&*")):\n   os.rename(filename, filename.replace('&','+'))

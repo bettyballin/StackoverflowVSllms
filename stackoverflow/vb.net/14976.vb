@@ -1,0 +1,1 @@
+xlApp.ScreenUpdating = False

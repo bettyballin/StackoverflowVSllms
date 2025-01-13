@@ -1,0 +1,1 @@
+require 'nokogiri'\n\nhtml_text = "<html><body><h1>Foo</h1><p>The quick brown fox.</p><h1>Bar</h1><p>Jumps over the lazy dog.</p></body></html>"\n\nfrag = Nokogiri::HTML(html_text)\nfrag.xpath("//h1").each { |div|  div.name= "p"; div.set_attribute("class" , "title") }

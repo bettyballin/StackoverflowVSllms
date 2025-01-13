@@ -1,0 +1,1 @@
+>>> sorted(myDict.items(), key=lambda e: e[1][2])\n[('item2', [8, 2, 3]), ('item1', [7, 1, 9]), ('item3', [9, 3, 11])]

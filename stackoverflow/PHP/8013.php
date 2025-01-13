@@ -1,0 +1,1 @@
+$id = array_pop($i->getContents())

@@ -1,0 +1,1 @@
+$this->getElement('elementId')->addDecorator('Label', array('placement' => 'APPEND'))

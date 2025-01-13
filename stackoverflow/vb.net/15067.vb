@@ -1,0 +1,1 @@
+Dim lines() As String = IO.File.ReadAllLines(filename)\nFor Each line As String In lines\n    Dim words() As String = _\n     line.Split(New Char() {vbTab}, StringSplitOptions.RemoveEmptyEntries)\nNext

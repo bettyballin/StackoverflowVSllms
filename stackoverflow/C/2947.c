@@ -1,0 +1,1 @@
+unsigned short\ncrc16_update(unsigned short crc, unsigned char nextByte)\n{\n    crc ^= nextByte;\n\n    for (int i = 0; i < 8; ++i) {\n        if (crc & 1)\n            crc = (crc >> 1) ^ 0xA001;\n        else\n            crc = (crc >> 1);\n    }\n\n    return crc;\n}

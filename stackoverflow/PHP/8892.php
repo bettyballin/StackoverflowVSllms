@@ -1,0 +1,1 @@
+if ( @fsockopen($db_ip,$db_port ) ) {\n    //connect to database\n} else {\n    // didn't work\n}

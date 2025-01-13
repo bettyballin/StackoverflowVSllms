@@ -1,0 +1,1 @@
+[System.Runtime.InteropServices.CoClass(typeof(Test))]\npublic interface Dummy { }

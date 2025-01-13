@@ -1,0 +1,1 @@
+Public void ShowChildRecord(int RecordId)\n{\n// databinding logic here using the recordID to retrieve the child's data.\n\n}

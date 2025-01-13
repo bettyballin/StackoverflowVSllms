@@ -1,0 +1,1 @@
+'Form1.vb\nPublic Delegate Sub delPassData(ByVal text As TextBox)\n\nPrivate Sub btnSend_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSend.Click\n  Dim frm As Form2 = New Form2\n  Dim del As delPassData = New delPassData(AddressOf frm.funData)\n  del(Me.textBox1)\n  frm.Show()\nEnd Sub

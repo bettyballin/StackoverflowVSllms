@@ -1,0 +1,1 @@
+$.ajax({\n     type: "PUT",\n     dataType: "json",\n     url: "http://localhost:1045/Service.svc/?format=json",\n     data: { Value: "testvalue" }\n});

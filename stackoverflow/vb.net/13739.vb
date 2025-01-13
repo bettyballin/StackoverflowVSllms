@@ -1,0 +1,1 @@
+Dim query = From p in ctx.SomeTable() _\n  Select ProductName = p.product_name, ExpirationData = p.expiration_date

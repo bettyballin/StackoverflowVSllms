@@ -1,0 +1,1 @@
+For Each row As DataRow In dtDataTable.Rows\n    strDetail = row.Item("Detail")\nNext row

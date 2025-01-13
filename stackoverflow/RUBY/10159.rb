@@ -1,0 +1,1 @@
+entry.content "<b>foo</b>", :type => "html"

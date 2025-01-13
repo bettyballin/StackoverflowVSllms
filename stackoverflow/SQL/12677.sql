@@ -1,0 +1,1 @@
+SELECT DISTINCT number, ..., special FROM clients WHERE special & 2048 = 2048;

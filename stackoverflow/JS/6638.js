@@ -1,0 +1,1 @@
+$(document).ready(function() {\n   $('#someLinkId').click();\n});

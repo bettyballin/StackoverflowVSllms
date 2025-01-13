@@ -1,0 +1,1 @@
+if(window.prompt('Do you wish to visit the following website?','http://www.google.ca'))\n  location.href='http://www.google.ca/';

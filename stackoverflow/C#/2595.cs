@@ -1,0 +1,1 @@
+var data = Cache["Record_999"] as DataTable;\nif (data == null) {\n    // get from db\n    // insert into cache\n}\nSetDataSource(data);

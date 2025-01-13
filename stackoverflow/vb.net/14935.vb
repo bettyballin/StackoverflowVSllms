@@ -1,0 +1,1 @@
+Public Function Html2Text(ByVal Data _\n   As String) As String\n      Dim obj As Object\n      On Error Resume Next\n      Set obj = _\n         CreateObject("htmlfile")\n      obj.Open\n      obj.Write Data\n      Html2Text = obj.Body.InnerText\nEnd Functio

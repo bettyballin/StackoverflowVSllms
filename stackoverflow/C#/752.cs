@@ -1,0 +1,1 @@
+int number = 1;\nstring paddedNumber = number.ToString("00");

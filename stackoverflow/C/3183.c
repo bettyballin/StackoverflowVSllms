@@ -1,0 +1,1 @@
+enum { VOID_INT, VOID_INT_DOUBLE, VOID_DOUBLE_INT, ... } Signature;\n\nvoid do_call(const void *userfunction, const void *args, Signature sig)\n{\n  switch(signature)\n  {\n    case VOID_INT:\n    {\n      int x = *(int *) args;\n      void (*f)(int) = userfunction;\n      f(x);\n      break;\n    }\n    case VOID_INT_DOUBLE:\n    ...\n  }\n}

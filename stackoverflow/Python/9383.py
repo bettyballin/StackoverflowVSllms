@@ -1,0 +1,1 @@
+def myKeyFunc( aString ):\n    stuff, x, label = aString.partition(' x ')\n    return label\n\naList.sort( key= myKeyFunc )

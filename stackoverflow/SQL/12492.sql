@@ -1,0 +1,1 @@
+SELECT\n    1 AS Tag,\n    0 AS Parent,\n    AccountNumber AS [Root!1!AccountNumber!element]\nFROM\n    Location.LocationMDAccount\nWHERE\n    LocationID = 'long-guid-here'\nFOR XML EXPLICIT

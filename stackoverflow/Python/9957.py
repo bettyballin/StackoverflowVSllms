@@ -1,0 +1,1 @@
+def foo(self, blah=None):\n    if blah is None: # faster than blah == None - thanks to kcwu\n        blah = self.instance_var

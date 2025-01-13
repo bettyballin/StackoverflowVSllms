@@ -1,0 +1,1 @@
+var foo = new Foo();\n  foo.Children = new List<FooChildBase>();\n  var special = new FooChildSpecial();\n  special.SpecialChildInfo = "special";\n  foo.Children.Add(special);\n  var two = new FooChildTwo();\n  two.ExtraInfo = "two";\n  foo.Children.Add(two);

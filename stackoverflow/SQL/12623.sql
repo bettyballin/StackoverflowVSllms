@@ -1,0 +1,1 @@
+videos_categories: video_id, category_id

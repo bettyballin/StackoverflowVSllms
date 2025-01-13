@@ -1,0 +1,1 @@
+Match m = Regex.Match(htmlSourceString, "href=[\\\"\\\'](http:\\/\\/|\\.\\/|\\/)?\\w+(\\.\\w+)*(\\/\\w+(\\.\\w+)?)*(\\/|\\?\\w*=\\w*(&\\w*=\\w*)*)?[\\\"\\\']");\n    Console.Write("values = ");\n    while (m.Success) \n    { \n        Console.Write(m.Value);\n        Console.Write(", "); // Delimiter\n        m = m.NextMatch();\n    }\n    Console.WriteLine();

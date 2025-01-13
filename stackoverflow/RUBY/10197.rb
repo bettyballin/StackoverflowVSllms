@@ -1,0 +1,1 @@
+map.connect ':controller/:action/:id'\n    map.connect ':controller/:action/:id.:format'

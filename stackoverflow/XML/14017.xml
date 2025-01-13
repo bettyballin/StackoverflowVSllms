@@ -1,0 +1,1 @@
+<comInterfaceExternalProxyStub \n  name="ISCUploader" \n  iid="{C677308A-AC0F-427D-889A-47E5DC990138}"\n  proxyStubClsid32="{00020424-0000-0000-C000-000000000046}"\n  baseInterface="{00000000-0000-0000-C000-000000000046}"\n  tlbid = "{PUT-YOUR-TLB-GUID-HERE}" />

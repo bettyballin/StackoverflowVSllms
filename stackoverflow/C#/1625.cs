@@ -1,0 +1,1 @@
+X509Certificate2 x2 = new X509Certificate2(certificatEnCours);\nbool verif = x2.Verify();

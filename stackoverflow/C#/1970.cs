@@ -1,0 +1,1 @@
+property.GetCustomAttributes(true /*inherit*/);

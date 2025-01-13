@@ -1,0 +1,1 @@
+echo "12345-BA-PreSchool-LT.local" | cut -d'-' -f2,3 | sed -e 's/-/ /g'

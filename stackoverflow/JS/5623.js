@@ -1,0 +1,1 @@
+function getB(my1, my2) {\n  return function() {\n    a(my1, my2);\n  }\n}

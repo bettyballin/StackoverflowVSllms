@@ -1,0 +1,1 @@
+Example.DataSet.fooDataTable table = new DataSet.fooDataTable();\n\ntry\n{\n    tableAdapter.Fill(table);\n}\ncatch (ConstraintException ex)\n{\n    // pass the DataTable to DetailedConstraintException to get a more detailed Message property\n    throw new DetailedConstraintException("error filling table", table, ex);\n}

@@ -1,0 +1,1 @@
+import data\nimport someOtherModule\n\nprint data.formations['Arrowhead']\nsomeOtherModule.function()

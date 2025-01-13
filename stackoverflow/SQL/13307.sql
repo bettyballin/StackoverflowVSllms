@@ -1,0 +1,1 @@
+SELECT a.State, count(c.CustomerID)\nFROM Product p\nINNER JOIN Customer c ON c.CustomerID = p.CustomerID\nLEFT JOIN Address a ON a.CustomerID = c.CustomerID \n      AND a.AddressID = \n        (\n           SELECT MAX(AddressID) \n           FROM Address z \n           WHERE z.CustomerID = a.CustomerID\n        )\nWHERE p.ProductID = 101\nGROUP BY a.State

@@ -1,0 +1,1 @@
+SELECT DISTINCT date\nFROM table

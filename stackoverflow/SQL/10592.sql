@@ -1,0 +1,1 @@
+SELECT id_student, id_class, grade,\n   @student:=CASE WHEN @class <> id_class THEN 0 ELSE @student+1 END AS rn,\n   @class:=id_class AS clset\nFROM\n  (SELECT @student:= -1) s,\n  (SELECT @class:= -1) c,\n  (SELECT *\n   FROM mytable\n   ORDER BY id_class, id_student\n  ) t

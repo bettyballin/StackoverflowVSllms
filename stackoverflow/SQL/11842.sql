@@ -1,0 +1,1 @@
+sp_executesql 'select blah from table where column = @p1', '@p1 varchar(10)', @p1 = 'drop database xxx;---'

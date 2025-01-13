@@ -1,0 +1,1 @@
+$inbound = "{ 1, 3, 1, 2, }, { 2, 3, 2, 1, }, { 3, 3, 2, 2, }, { 1, 2, 3, 1, }";\n$inbound = trim(preg_replace("/,\\s*}/i", "}", $inbound), " ,");\n$inbound = str_replace("{", "[", $inbound);\n$inbound = str_replace("}", "]", $inbound);\n\n$array_of_arrays = json_decode('[' . $inbound . ']');

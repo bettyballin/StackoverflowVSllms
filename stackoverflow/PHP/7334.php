@@ -1,0 +1,1 @@
+$url="http://wwww.somewhere.com";\n$data=file_get_contents($url);\n$data = strip_tags($data,"<a>");\n$d = preg_split("/<\/a>/",$data);\nforeach ( $d as $k=>$u ){\n    if( strpos($u, "<a href=") !== FALSE ){\n        $u = preg_replace("/.*<a\s+href=\"/sm","",$u);\n        $u = preg_replace("/\".*/","",$u);\n        print $u."\n";\n    }\n}

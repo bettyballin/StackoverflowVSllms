@@ -1,0 +1,1 @@
+SELECT  emp_no,\n        ROW_NUMBER() OVER (PARTITION BY emp_no ORDER BY book_id) AS book_no,\n        book_id\nFROM    books

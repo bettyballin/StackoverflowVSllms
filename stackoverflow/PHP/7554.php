@@ -1,0 +1,1 @@
+$element = new Zend_Form_Element_Text('something');\n$element->class = 'rich';\n$form->addElement($element);

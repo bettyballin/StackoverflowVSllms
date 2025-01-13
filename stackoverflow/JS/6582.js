@@ -1,0 +1,1 @@
+// DOM manipulation... slow\nvar items = ['list item 1', 'list item 2', 'list item 3'];\nvar UL = $('<ul/>');\n$.each(items, function(){\n    UL.append('<li>' + this + '</li>');\n});\n\n// String manipulation...fast\nvar items = ['list item 1', 'list item 2', 'list item 3'];\nvar UL = $('<ul/>').append( '<li>' + items.join('</li><li>') + '</li>' );

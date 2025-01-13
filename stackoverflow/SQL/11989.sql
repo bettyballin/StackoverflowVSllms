@@ -1,0 +1,1 @@
+select column_name  \nfrom   user_tab_columns \nwhere  table_name='YOUR_TABLE_NAME' \nand    column_id=1

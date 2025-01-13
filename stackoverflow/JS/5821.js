@@ -1,0 +1,1 @@
+function test()\n{\n    int i = 5;\n\n\n    return \n    {\n        output : i\n    };  \n}

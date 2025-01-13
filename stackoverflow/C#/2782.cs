@@ -1,0 +1,1 @@
+IQueryable<Log> matches = m_Locator.Logs;\n\n// Users filter\nif (usersFilter)\n    matches = matches.Where(l => l.UserName == comboBoxUsers.Text);\n\n // Severity filter\n if (severityFilter)\n     matches = matches.Where(l => l.Severity == comboBoxSeverity.Text);\n\n Logs = (from log in matches\n         orderby log.EventTime descending\n         select log).ToList();

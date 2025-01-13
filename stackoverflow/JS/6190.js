@@ -1,0 +1,1 @@
+function validator(op, options, pass, fail) {\n    if (op(options)) {\n        pass(options);\n    } else {\n        fail(options);\n    }\n}

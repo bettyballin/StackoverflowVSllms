@@ -1,0 +1,1 @@
+select  *\n  from  (SELECT  *\n           FROM  foo\n          where  foo_id=[number]\n       order by  foo_id desc)\n where  rownum <= 3   

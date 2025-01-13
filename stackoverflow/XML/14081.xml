@@ -1,0 +1,1 @@
+<ListBox>\n    <ListBox.ItemContainerStyle>\n        <Setter Property="Background" Value="White"/>\n    </ListBox.ItemContainerStyle>\n</ListBox>

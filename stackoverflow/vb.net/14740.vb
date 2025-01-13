@@ -1,0 +1,1 @@
+Public Class KeyMatcher\n    Public Sub New(ByVal KeyToMatch As String)\n       Me.KeyToMatch = KeyToMatch\n    End Sub\n\n    Private KeyToMatch As String\n\n    Public Function Predicate(ByVal Instance As MyClass) As Boolean\n       Return Instance.Key = KeyToMatch\n    End Function\nEnd Class

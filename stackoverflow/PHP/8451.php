@@ -1,0 +1,1 @@
+$self = $_SERVER['PHP_SELF'];

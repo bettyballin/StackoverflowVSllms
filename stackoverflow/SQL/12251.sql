@@ -1,0 +1,1 @@
+with testdata (CommaColumn, ValueColumn1, ValueColumn2) as (\n  select 'ABC,123', 1, 2 union all\n  select 'XYZ, 789', 2, 3\n  ) \nselect \n  b.items as SplitValue\n, a.ValueColumn1\n, a.ValueColumn2\nfrom testdata a\ncross apply dbo.Split(a.CommaColumn,',') b

@@ -1,0 +1,1 @@
+while (there exists a pair of linestrings x and y that share an endpoint) {\n    delete(x)\n    delete(y)\n    insert(x . y)\n}

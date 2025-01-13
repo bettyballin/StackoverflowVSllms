@@ -1,0 +1,1 @@
+$_POST, $_GET, $_COOKIE

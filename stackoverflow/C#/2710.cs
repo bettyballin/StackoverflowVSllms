@@ -1,0 +1,1 @@
+String txt = MyRichTextBox.Text\nFile.WriteAllText(filepath, txt);

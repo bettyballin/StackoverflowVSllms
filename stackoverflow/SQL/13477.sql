@@ -1,0 +1,1 @@
+DBCC CHECKIDENT ( table_name, RESEED, new_reseed_value )

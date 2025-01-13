@@ -1,0 +1,1 @@
+import shutil\n\nshutil.rmtree('/folder_name')

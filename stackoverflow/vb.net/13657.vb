@@ -1,0 +1,1 @@
+dim objApp as object = CreateObject("AcroExch.App")\ndim objDoc as Object = CreateObject("AcroExch.document")\n\n...\nobjApp.CloseAllDocuments()\n\nSystem.Runtime.InteropServices.Marshal.ReleaseComObject(objApp)\nSystem.Runtime.InteropServices.Marshal.ReleaseComObject(objDoc)

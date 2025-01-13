@@ -1,0 +1,1 @@
+AjaxHelper.BeginForm("Post", "Entries", new {id=ViewData.Model.MemberDetermination.DeterminationMemberID}, new AjaxOptions(){/*some options*/}, new {enctype="multipart/form-data"})

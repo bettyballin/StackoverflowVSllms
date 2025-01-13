@@ -1,0 +1,1 @@
+<?php\n\n$currentParams = session_get_cookie_params();\n\nsession_set_cookie_params($currentParams['lifetime'], '/apppath/', 'www.example.com', $currentParams['secure'], $currentParams['httponly']);\n\nsession_start();

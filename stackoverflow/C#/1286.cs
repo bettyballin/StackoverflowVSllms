@@ -1,0 +1,1 @@
+var l1 = new List<int>() { 1,2,3,4,5,2,2,2,4,4,4,1 };\n\nvar g = l1.GroupBy( i => i );\n\nforeach( var grp in g )\n{\n  Console.WriteLine( "{0} {1}", grp.Key, grp.Count() );\n}

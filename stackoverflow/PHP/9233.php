@@ -1,0 +1,1 @@
+foreach(array_slice($_POST['info'],1) as $key=>$value)\n{\n    echo $value;\n}

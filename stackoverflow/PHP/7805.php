@@ -1,0 +1,1 @@
+$result = mysql_query("SELECT QNO FROM TABLE ORDER BY RAND() LIMIT 10");\n$rows = array();\nwhile ($row = mysql_fetch_row($result)) {\n    $rows[] = $row[0];\n}

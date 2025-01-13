@@ -1,0 +1,1 @@
+def element_to_string(element):\n    s = element.text or ""\n    for sub_element in element:\n        s += etree.tostring(sub_element)\n    s += element.tail\n    return s

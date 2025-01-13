@@ -1,0 +1,1 @@
+SELECT MONTH(eventDate), DAYOFWEEK(eventDate), \nCOUNT(*) \nFROM eventcal as e \nLEFT JOIN users as u ON e.primary = u.username \nGROUP BY MONTH(eventDate), DAYOFWEEK(eventDate);

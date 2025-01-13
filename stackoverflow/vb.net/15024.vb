@@ -1,0 +1,1 @@
+Public Class TempClass\n  Private strItem As New StringDictionary()\n\n  Public Property Item(ByVal s As String) As String\n    Get\n      Return strItem(s)\n    End Get\n    Set(ByVal value As String)\n      strItem(s) = value\n    End Set\n  End Property\nEnd Class

@@ -1,0 +1,1 @@
+<?php\n    $array = array("a"=>"Caucho", "b"=>"Resin", "c"=>"Quercus");\n\n    echo json_encode($array);\n?>

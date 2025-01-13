@@ -1,0 +1,1 @@
+db2 describe table user1.department

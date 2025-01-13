@@ -1,0 +1,1 @@
+tempPanelInputBox = form1.FindControl("txt_" + panelUsed + "_input" + counter.ToString())

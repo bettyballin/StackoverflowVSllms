@@ -1,0 +1,1 @@
+typedef enum somestruct_type {\n    somestruct_type_NODE, somestruct_type_REAL\n} somestruct_type;\ntypedef struct somestruct {\n   ...snip...\n   somestruct_type type;\n} somestruct;

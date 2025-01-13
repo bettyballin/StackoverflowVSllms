@@ -1,0 +1,1 @@
+class mul\n{\npublic:\n    mul(int p1, int p2)\n    {\n        param1 = p1;\n        param2 = p2;\n    }\n    operator int ()\n    {\n        return param1 * param2;\n    }\n\n    operator std::string ()\n    {\n        return std::string(param2, param1 + '0');\n    }\n\nprivate:\n    int param1;\n    int param2;\n};

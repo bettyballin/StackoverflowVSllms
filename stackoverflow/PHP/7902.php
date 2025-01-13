@@ -1,0 +1,1 @@
+<?\nfunction checkIEFail() {\n    $ua = $_SERVER['HTTP_USER_AGENT'];\n    if(strpos($ua, 'Mozilla/4.0 (compatible; MSIE ') !== 0 || strpos($ua, 'Opera') !== false)\n        return false;\n    $version = floatval(substr($ua, 30));\n    return $version < 6 || ($version == 6 && strpos($ua, 'SV1') === false);\n}\n\nif(!checkIEFail())\n    ob_start('ob_gzhandler');\n?>

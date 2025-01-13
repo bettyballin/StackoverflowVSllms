@@ -1,0 +1,1 @@
+unsafeWindow.foo = function() {\n  window.setTimeout(GM_xmlhttpRequest, 0, {\n    // ...\n  });\n};

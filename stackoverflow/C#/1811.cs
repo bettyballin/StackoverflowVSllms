@@ -1,0 +1,1 @@
+DoWork();\nworkDone = 1;

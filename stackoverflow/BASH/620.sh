@@ -1,0 +1,1 @@
+CXXFLAGS=-I$(HOME)/app/$(HOST)/include

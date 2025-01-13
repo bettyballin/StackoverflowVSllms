@@ -1,0 +1,1 @@
+select * from Business b \nleft outer join campaigns c on c.business_id = b.id\nleft join promotions  p on p.campaign_id = c.id\nwhere b.id=:id

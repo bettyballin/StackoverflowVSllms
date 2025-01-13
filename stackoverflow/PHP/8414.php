@@ -1,0 +1,1 @@
+\n<?php\nif some_condition\n{\n?>\n    <p> I am inside the true condition due : <?php echo "true on condition" ?> </p>\n<?\n}\nelse\n{\n?>\n    <p> I am inside the false condition due : <?php echo "false on condition" ?> </p>\n<?\n}\n?>

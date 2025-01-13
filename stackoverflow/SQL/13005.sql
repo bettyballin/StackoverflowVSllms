@@ -1,0 +1,1 @@
+select afield1,count(afield1) from atable \ngroup by afield1 having count(afield1) > 1

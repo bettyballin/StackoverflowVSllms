@@ -1,0 +1,1 @@
+row.Field<int?>("foo");  // returns a nullable int set to null\nrow.Field<int>("foo");   // throws an InvalidCastExceptio

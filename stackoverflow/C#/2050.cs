@@ -1,0 +1,1 @@
+_collection.RemoveAll(user => !user.IsApproved());

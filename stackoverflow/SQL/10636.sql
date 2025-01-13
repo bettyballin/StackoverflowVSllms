@@ -1,0 +1,1 @@
+str_to_date(concat(expiredate, ' ', year(now())), '%b %d %Y')

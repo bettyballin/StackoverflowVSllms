@@ -1,0 +1,1 @@
+$stored_exc = null;\ntry {\n    // Do stuff\n} catch (Exception $exc) {\n    $stored_exc = $exc;\n    // Handle an error\n}\n// "Finally" here, clean up after yourself\nif ($stored_exc) {\n    throw($stored_exc);\n}

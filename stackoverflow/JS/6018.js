@@ -1,0 +1,1 @@
+$doc = $("<div id='myid'><div id='subid'>Text</div></div>");\nvar data = $("#subid", $doc).text();

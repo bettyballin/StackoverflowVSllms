@@ -1,0 +1,1 @@
+SELECT pl_namespace, COUNT(*)\nFROM pagelinks\nWHERE pl_namespace between 1 and 50000000\nGROUP BY (pl_namespace);

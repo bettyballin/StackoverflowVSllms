@@ -1,0 +1,1 @@
+update QuestionTrackings q\ninner join QuestionAnswers a\non q.AnswerID = a.AnswerID\nset q.QuestionID = a.QuestionID\nwhere q.QuestionID is null -- and other conditions you might want

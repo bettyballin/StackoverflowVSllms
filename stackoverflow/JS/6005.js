@@ -1,0 +1,1 @@
+function go() {\n  var url = '<%= ApplicationPathUtils.getApplicationPath(pageContext) + "/Weather" %>';\n  $('#forcasts').load(url, go);\n}

@@ -1,0 +1,1 @@
+SELECT  AddressState, DATEPART(mm, OpenedDate), SUM(Amount)\nFROM    Customer c\nINNER JOIN Account a  ON a.CustomerID = c.CustomerID\nINNER JOIN Payments p ON p.AccountID = a.AccountID\nGROUP BY   AddressState, DATEPART(mm, OpenedDate)

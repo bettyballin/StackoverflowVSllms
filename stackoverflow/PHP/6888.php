@@ -1,0 +1,1 @@
+\n$idlist = array();\nforeach ( $sphinx_result["matches"] as $id => $idinfo ) {\n    $idlist[] = "$id";\n}\n$ids = implode(", ", $idlist);\n\nSELECT * FROM table WHERE id IN ($ids) ORDER BY FIELD(id, $ids)

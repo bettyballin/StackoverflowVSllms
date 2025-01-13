@@ -1,0 +1,1 @@
+if($content === FALSE) { // handle error here... }

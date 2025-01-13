@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    var myWindow = window.open('','','width=200,height=100')\n    myWindow.document.write("This is 'myWindow'")\n    myWindow.print();\n</script>

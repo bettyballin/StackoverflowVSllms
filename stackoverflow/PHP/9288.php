@@ -1,0 +1,1 @@
+echo substr($body, 0, strrpos($body, "\n--"));

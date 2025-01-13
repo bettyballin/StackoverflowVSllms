@@ -1,0 +1,1 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">\n  <xs:element name="test">\n    <xs:complexType>\n      <xs:sequence>\n        <xs:choice maxOccurs="unbounded">\n          <xs:element name="a"/>\n          <xs:element name="b"/>\n        </xs:choice>\n      </xs:sequence>\n    </xs:complexType>\n  </xs:element>\n</xs:schema>

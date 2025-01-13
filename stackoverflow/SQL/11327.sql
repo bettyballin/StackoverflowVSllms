@@ -1,0 +1,1 @@
+CREATE TABLE `badges` (\n  `Id` int(11) NOT NULL default '0',\n  `UserId` int(11) not NULL,\n  `Date` datetime not  NULL,\n  `Name` varchar(32) not NULL,\n  PRIMARY KEY  (`Id`),\n  KEY `Date` (`Date`),\n  KEY `UserId` (`UserId`)\n) ;

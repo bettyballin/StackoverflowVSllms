@@ -1,0 +1,1 @@
+#pragma data_seg(".shared")\nHHOOK hhk = NULL;\n#pragma data_seg()\n#pragma comment(linker, "/SECTION:.shared,RWS")

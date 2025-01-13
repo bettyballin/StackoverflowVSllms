@@ -1,0 +1,1 @@
+body = imap.fetch(message_id,'BODY[TEXT]')[0].attr['BODY[TEXT]']

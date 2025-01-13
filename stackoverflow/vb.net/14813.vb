@@ -1,0 +1,1 @@
+Microsoft.Security.Application.AntiXss.JavaScriptEncode("My 'Quotes' and ""more"".", False)

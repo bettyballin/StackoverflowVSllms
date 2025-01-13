@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM Table1 a \nWHERE a.Table1id NOT IN (\n  SELECT b.Table1Id FROM Table2 b WHERE b.id_user = a.id_user\n);

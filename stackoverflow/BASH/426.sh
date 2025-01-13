@@ -1,0 +1,1 @@
+findstr /V "\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b"  input_emails.txt > bad_emails.txt

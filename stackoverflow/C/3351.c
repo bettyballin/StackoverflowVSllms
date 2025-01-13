@@ -1,0 +1,1 @@
+PY_SSIZE_T_MAX/sizeof(PyObject*)

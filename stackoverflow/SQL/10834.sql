@@ -1,0 +1,1 @@
+SELECT Abs(Sum(lunch)) AS SumofLunch, Abs(Sum(snacks)) AS SumofSnacks, Abs(Sum(Tea)) AS SumofTea\nFROM YourTable\nWHERE eventDate >= #2009/08/01# And eventDate < #2009/09/01#;

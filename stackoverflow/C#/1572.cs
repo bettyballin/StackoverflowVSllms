@@ -1,0 +1,1 @@
+Microsoft.WindowsMobile.Status

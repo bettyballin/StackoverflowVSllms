@@ -1,0 +1,1 @@
+t_identity (id INT NOT NULL PRIMARY KEY CHECK (id = 1), value INT NOT NULL)

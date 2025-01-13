@@ -1,0 +1,1 @@
+$result = array();\nforeach($array as $v) {\n    $result[$v['year']] = $v['max'];\n}

@@ -1,0 +1,1 @@
+next(s for s in list_of_string if s)

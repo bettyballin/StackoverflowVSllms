@@ -1,0 +1,1 @@
+$wordfrequency = array_count_values( str_word_count( $string, 1) );

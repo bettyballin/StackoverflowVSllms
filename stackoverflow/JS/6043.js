@@ -1,0 +1,1 @@
+var myOtherUrl = \n       "http://example.com/index.html?url=" + encodeURIComponent(myUrl);

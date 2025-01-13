@@ -1,0 +1,1 @@
+var req = new XMLHttpRequest();  \nreq.open('GET', 'http://www.mydomain.com/', false);   \nreq.send(null);  \nif(req.status == 200)  \n   dump(req.responseText);

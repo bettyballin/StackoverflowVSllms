@@ -1,0 +1,1 @@
+gettype($FakeArray) == 'array' \nis_array($FakeArray)

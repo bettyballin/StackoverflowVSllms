@@ -1,0 +1,1 @@
+outgoing_text := DBMS_XMLGEN.CONVERT(incoming_text)

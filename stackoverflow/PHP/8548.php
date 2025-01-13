@@ -1,0 +1,1 @@
+$doc = new DOMDocument();\n$doc->loadXML($xmlString);\n\nforeach ($doc->documentElement->childNodes as $node) {\n    if ($node->nodeType === XML_TEXT_NODE) {\n        echo $node->nodeValue . "\n";\n    }\n}

@@ -1,0 +1,1 @@
+SELECT [Phone]\nFROM [Table]\nWHERE\n(\n    [Phone] LIKE '%[A-Z]%'\n    OR [Phone] LIKE '%[a-z]%'\n    OR [Phone] = 'N/A'\n    OR [Phone] LIKE '0'\n)

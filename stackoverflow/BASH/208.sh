@@ -1,0 +1,1 @@
+cd /path/to/svn/repo\nsvn diff -r 125 > /tmp/patch.diff\ncd /path/to/git/repo\npatch -p0 < /tmp/patch.diff

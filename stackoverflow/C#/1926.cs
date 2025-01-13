@@ -1,0 +1,1 @@
+routes.IgnoreRoute("path/to/static/content");

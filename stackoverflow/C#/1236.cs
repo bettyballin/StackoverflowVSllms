@@ -1,0 +1,1 @@
+[DllImport("coredll.dll", EntryPoint = "RegSetValueExW")]\npublic static extern int RegSetValueExW(uint hKey, string lpValueName,\n        uint lpReserved,\n        uint lpType,\n        ref int lpData,\n        uint lpcbData);

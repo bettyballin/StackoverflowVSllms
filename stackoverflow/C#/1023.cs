@@ -1,0 +1,1 @@
+bool mSeenCtrlM;\n\nprotected override bool ProcessCmdKey(ref Message msg, Keys keyData) {\n  if (keyData == (Keys.Control | Keys.M)) {\n    mSeenCtrlM = !mSeenCtrlM;\n    if (!mSeenCtrlM) {\n      MessageBox.Show("yada");\n    }\n    return true;\n  }\n  mSeenCtrlM = false;\n  return base.ProcessCmdKey(ref msg, keyData);\n}

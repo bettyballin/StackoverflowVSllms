@@ -1,0 +1,1 @@
+// query for all images\n// $_GET['limit'] will have the limit of images\n// since we passed it from the Javascript\n// put them all in an array like this:\n$images = array('images/20.11.A1B9.jpg','images/20.11.A1B9.jpg',...);\nprint json_encode($images); // return them to the client in JSON format.\nexit;

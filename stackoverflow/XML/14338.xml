@@ -1,0 +1,1 @@
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:a="tempuri.org">\n\n<xsl:template match="/">\n     <xsl:value-of select="a:root/item/info"/>\n</xsl:template>

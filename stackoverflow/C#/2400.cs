@@ -1,0 +1,1 @@
+System.IO.FileInfo fileInfo = new System.IO.FileInfo(filePath);\nfileInfo.IsReadOnly = true/false;

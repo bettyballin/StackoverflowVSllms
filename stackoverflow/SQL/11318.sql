@@ -1,0 +1,1 @@
+SELECT\nDMExQryStats.last_execution_time AS [Executed At],\nDMExSQLTxt.text AS [Query]\nFROM\nsys.dm_exec_query_stats AS DMExQryStats\nCROSS APPLY\nsys.dm_exec_sql_text(DMExQryStats.sql_handle) AS DMExSQLTxt\nORDER BY\nDMExQryStats.last_execution_time DESC

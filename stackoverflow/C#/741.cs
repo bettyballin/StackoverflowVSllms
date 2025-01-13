@@ -1,0 +1,1 @@
+int i = 0;\nstring toTest = "not number";\nif(int.TryParse(toTest, out i))\n{\n   // it worked\n\n}

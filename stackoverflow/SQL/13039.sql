@@ -1,0 +1,1 @@
+CONVERT(varchar(8), @ParamDate, 112)    -- Supported way\n\nCAST(FLOOR(CAST(@ParamDate AS float)) AS DATETIME)   -- Unsupported way

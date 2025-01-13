@@ -1,0 +1,1 @@
+$output = renderChartHTML("../../FusionCharts/FCF_Column3D.swf", "", $strXML, "myNext", 600, 300);\n$smarty->assign('chartdata', $output);

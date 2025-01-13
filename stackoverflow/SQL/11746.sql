@@ -1,0 +1,1 @@
+SELECT \n   [key] \nFROM tableName \n   LEFT JOIN CONTAINSTABLE ( tableName ,columnName, '' ) AS ct ON tableName.[key] = ct.[key]\nWHERE tc.[key] IS NULL

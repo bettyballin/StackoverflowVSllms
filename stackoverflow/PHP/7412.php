@@ -1,0 +1,1 @@
+function limit_text($text, $limit) {\n      if (strlen($text) > $limit) {\n          $words = str_word_count($text, 2);\n          $pos = array_keys($words);\n          $text = substr($text, 0, $pos[$limit]) . '...';\n      }\n      return $text;\n    }

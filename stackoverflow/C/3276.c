@@ -1,0 +1,1 @@
+#define BUFFER_SIZE 100\nchar buff[BUFFER_SIZE];\ngets( buff);   // unsafe!\nfgets( buff, sizeof(buff), stdin );   // safe

@@ -1,0 +1,1 @@
+DataRow[] myRows = ds.Tables[0].Select("intCol=0 OR stringCol='yourSearch'");

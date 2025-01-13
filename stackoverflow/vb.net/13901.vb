@@ -1,0 +1,1 @@
+\nobjImage = New MemoryStream(objwebClient.DownloadData(sURL))\nobjwebClient.Dispose() ' add call to dispose

@@ -1,0 +1,1 @@
+var i = allwords.length-1, prev='';\n do {\n     if (allwords[i].join('/') === prev) {\n        allwords.splice(i,1);\n     }\n     prev = allwords[i].join('/');\n } while (i-- && i>-1);

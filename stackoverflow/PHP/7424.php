@@ -1,0 +1,1 @@
+//In the user model\nvar $hasAndBelongsToMany = array(\n  'Site' => array(\n    'className' => 'Site',\n    'unique' => false\n  )\n);

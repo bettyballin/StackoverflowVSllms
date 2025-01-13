@@ -1,0 +1,1 @@
+CREATE VIEW dbo.Example\nWITH SCHEMABINDING\nAS\nSELECT\n    PostId,\n    SUM(CAST(IsHelpful AS bigint)) AS IsHelpfulCount,\n    SUM(CAST(1-IsHelpful AS bigint)) AS IsNotHelpfulCount,\n    COUNT_BIG(*) AS Dummy   --Used to satisfy requirement\nFROM\n    dbo.bob\nGROUP BY\n    PostId\nGO\nCREATE UNIQUE CLUSTERED INDEX IXC_Test ON dbo.Example (PostId)\nGO

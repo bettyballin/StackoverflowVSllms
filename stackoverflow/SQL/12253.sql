@@ -1,0 +1,1 @@
+SELECT c.name\nFROM cust c\nWHERE (\n    MONTH(c.birthdate) = MONTH(@suppliedDate)\n    AND DAY(c.birthdate) = DAY(@suppliedDate)\n) OR (\n    MONTH(c.birthdate) = 2 AND DAY(c.birthdate) = 29\n    AND MONTH(@suppliedDate) = 3 AND DAY(@suppliedDate) = 1\n    AND (YEAR(@suppliedDate) % 4 = 0) AND ((YEAR(@suppliedDate) % 100 != 0) OR (YEAR(@suppliedDate) % 400 = 0))\n)

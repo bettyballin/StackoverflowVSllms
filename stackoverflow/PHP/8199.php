@@ -1,0 +1,1 @@
+// Id for retrieval\n    $doc->addField(Zend_Search_Lucene_Field::UnIndexed('item_id', $market->id));

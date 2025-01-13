@@ -1,0 +1,1 @@
+if (RectA.Left < RectB.Right && RectA.Right > RectB.Left &&\n     RectA.Top > RectB.Bottom && RectA.Bottom < RectB.Top ) 

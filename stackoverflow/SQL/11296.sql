@@ -1,0 +1,1 @@
+select category.category_name, SUM((equipment.total_stock-equipment.stock_out)) AS Current_Stock, SUM(equipment.stock_out) as stock_out\nfrom EQUIPMENT, CATEGORY \nWHERE EQUIPMENT.CATEGORY_ID = CATEGORY.CATEGORY_ID and category.category_name = 'Power Tools'\nGROUP BY Category.Category_Name

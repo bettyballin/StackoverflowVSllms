@@ -1,0 +1,1 @@
+CREATE TABLE mytable (myfield BIT(8));

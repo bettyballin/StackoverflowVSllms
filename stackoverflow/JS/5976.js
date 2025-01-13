@@ -1,0 +1,1 @@
+E.g.\nthisTable = document.getElementByID('mytable');//get the table\noneRow = thisTable.rows[0].cells; //for instance the first row\nfor (var colCount = 0; colCount <totalCols; colCount ++)\n{\n   oneCell =oneRow[colCount];\n   oneCell.childNodes[0].value = 'test';//if your cell contains an input element\n   oneCell.innerHTML = 'test'; // simply write on the cell directly\n}

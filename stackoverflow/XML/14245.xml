@@ -1,0 +1,1 @@
+<Forms>\n  <Form Type="DisplayForm" Url="DispForm.aspx" WebPartZoneID="Main" />\n  <Form Type="EditForm" Url="EditForm.aspx" WebPartZoneID="Main" />\n  <Form Type="NewForm" Url="NewForm.aspx" WebPartZoneID="Main" />\n  ...... your form here\n</Forms>

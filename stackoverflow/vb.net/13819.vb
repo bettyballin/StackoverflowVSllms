@@ -1,0 +1,1 @@
+Class MockHelper\n  Dim m_list as new List(Of Object)\n\n  Public Sub New() \n    Expect(AddressOf CallHelper).IgnoreArguments().Do(AddressOf Do Hepler)\n  End Sub\n\n  Private Sub CallHelper() \n    m_list.Add(0)\n  End Sub\n\n  Private Sub DoHelper(ByVal item as Integer)\n    if item < 0 Then\n      Throw New ArgumentOutOfRangeException\n    End If\n  End Sub\nEnd Class

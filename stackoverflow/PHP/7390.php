@@ -1,0 +1,1 @@
+// $result = parent::getAllCountries();  // Like this\n$result = this->getAllCountries();       // Or like this?

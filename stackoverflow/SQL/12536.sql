@@ -1,0 +1,1 @@
+SELECT * \nFROM table \nWHERE (id < currentID) \nORDER BY id DESC \nLIMIT 1

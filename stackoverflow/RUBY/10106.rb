@@ -1,0 +1,1 @@
+def self.included(base)\n  base.validates :name\n  base.validates :date\nend

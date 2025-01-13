@@ -1,0 +1,1 @@
+public Type inferType(ITypeEnvironment typeEnvironment)\n{\n    return typeEnvironment.getType(name);\n}

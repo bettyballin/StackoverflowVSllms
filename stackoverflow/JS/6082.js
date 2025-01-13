@@ -1,0 +1,1 @@
+jQuery('a[href^=#]').click(function(){\n    var id = this.hash.replace('#','');\n    $('#' + id).addClass('isNowHighlighted');\n});

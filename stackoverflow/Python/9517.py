@@ -1,0 +1,1 @@
+somere.sub(lambda m: replacements[m.group()], text)

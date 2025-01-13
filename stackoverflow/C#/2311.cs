@@ -1,0 +1,1 @@
+from o in orders\njoin od from orderdetails on o.id = od.orderid\n  into details\nwhere details.status == 'A'\nselect new { Order = o, Details = details}

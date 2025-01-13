@@ -1,0 +1,1 @@
+var typewatch = function(){\n    var timer = 0;\n    return function(callback, ms){\n        clearTimeout (timer);\n        timer = setTimeout(callback, ms);\n    }  \n}();    

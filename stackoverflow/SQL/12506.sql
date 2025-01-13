@@ -1,0 +1,1 @@
+SELECT name\nFROM locations\nORDER BY\n    CASE\n        WHEN name = 'Montreal' \n        THEN 0\n        ELSE 1\n    END, name

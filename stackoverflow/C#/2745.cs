@@ -1,0 +1,1 @@
+MvcApplication.RegisterRoutes(RouteTable.Routes);

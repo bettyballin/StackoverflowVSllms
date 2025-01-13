@@ -1,0 +1,1 @@
+if (!empty($aka)) {\n        foreach ($aka as $ak) {\n                if(isset($ak["lang"]) && ($ak["lang"]=="es")) {\n                        $sptitle=$ak["title"];\n                }\n        }\n}

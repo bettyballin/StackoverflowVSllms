@@ -1,0 +1,1 @@
+$conn = "host=$dbHost port=$dbPort dbname=$dbName user=$dbUser password=$dbPassword";\n\n$dbconn = pg_connect($conn);

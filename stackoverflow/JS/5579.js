@@ -1,0 +1,1 @@
+var request = new XMLHttpRequest();\nrequest.open("GET", "http://www.google.com", true);\nrequest.onreadystatechange = function() {\n  var done = 4, ok = 200;\n  if (request.readyState == done && request.status == ok) {\n    if (request.responseText) {\n      alert(request.responseText);\n    }\n  }\n};\nrequest.send(null);

@@ -1,0 +1,1 @@
+Delete from messages where messageid = '1';\nDelete from usersmessages where messageid = '1'

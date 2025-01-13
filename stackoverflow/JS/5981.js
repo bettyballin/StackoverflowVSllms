@@ -1,0 +1,1 @@
+$("#myTable tbody tr:visible:even",this).addClass("even"); \n   $("#myTable tbody tr:visible:odd",this).addClass("odd");

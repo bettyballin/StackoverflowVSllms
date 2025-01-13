@@ -1,0 +1,1 @@
+INNER JOIN attribute_values av\n    ON av.attribute_definition_id = #statusCode# \nLEFT JOIN attribute_values av2\n    ON pe.prodtree_element_id = av.prodtree_element_id

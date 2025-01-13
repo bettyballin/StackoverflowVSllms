@@ -1,0 +1,1 @@
+var baseURL = location.href.slice(0, location.href.indexOf('#'));

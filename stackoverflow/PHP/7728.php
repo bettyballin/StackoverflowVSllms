@@ -1,0 +1,1 @@
+<?php\nfunction queryCall($id)\n{\n    $query = mysql_query("SELECT * FROM table WHERE id = $id");\n    $ret = "";\n    while ($row = mysql_fetch_array($query)) {\n        $column1 = $row['column1'];\n        $column2 = $row['column2'];\n        $column3 = $row['column3'];\n\n        $ret .= $column1.......\n    }\n    return $ret;\n}\n?>

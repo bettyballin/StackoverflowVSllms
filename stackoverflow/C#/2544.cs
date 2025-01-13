@@ -1,0 +1,1 @@
+if (!(foo is bar)) {\n}

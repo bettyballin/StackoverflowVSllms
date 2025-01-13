@@ -1,0 +1,1 @@
+extern "C" {\n#include "my_library.h"\n}

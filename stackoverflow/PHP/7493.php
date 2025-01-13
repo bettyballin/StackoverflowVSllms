@@ -1,0 +1,1 @@
+$x = 'x';\n$y = 'y';\n$arr = array(&$x,&$y);\nprint_r($arr);\n\necho "<br/>";\n$arr2 = $arr;\n$arr2[0] = 'zzz';\nprint_r($arr);\nprint_r($arr2);\n\necho "<br/>";\n$arr2 = array_flip(array_flip($arr));\n$arr2[0] = '123';\nprint_r($arr);\nprint_r($arr2);

@@ -1,0 +1,1 @@
+select translate\n      ( mystring\n      , '0'||translate (mystring, 'x0123456789', 'x')\n      , '0'\n      )\nfrom mytable;

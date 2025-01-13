@@ -1,0 +1,1 @@
+select row_number() over (partition by name_id, val order by name_id, val), name_id, val \nfrom check_minus\nwhere val > 0\n  minus\nselect row_number() over (partition by name_id, val order by name_id, val), name_id, abs(val) \nfrom check_minus\nwhere val < 0

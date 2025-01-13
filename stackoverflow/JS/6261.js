@@ -1,0 +1,1 @@
+<script>\n  function getLastFormElem(){\n    var fID = document.forms.length -1;\n    var f = document.forms[fID];\n    var eID = f.elements.length -1;\n    return f.elements[eID];\n  }\n</script>\n\n\n<input name="whatever" id="maybesetmaybenot" type="text"/>\n<!-- any other code except more form tags -->\n\n<script>getLastFormElem().focus();</script>

@@ -1,0 +1,1 @@
+if (sm1.IsInAsyncPostBack)\n{\n    //code here\n}

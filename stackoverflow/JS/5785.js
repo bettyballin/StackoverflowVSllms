@@ -1,0 +1,1 @@
+type fieldName javascript{Math.floor(Math.random()*11)}

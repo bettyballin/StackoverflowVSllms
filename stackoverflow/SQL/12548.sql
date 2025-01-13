@@ -1,0 +1,1 @@
+where \n  datediff(day, date1, date2) = 0

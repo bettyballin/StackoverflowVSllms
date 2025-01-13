@@ -1,0 +1,1 @@
+struct Person {\n    char* name;\n    int age;\n    int heightInInches;\n    // ... other fields ...\n};

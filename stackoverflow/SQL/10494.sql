@@ -1,0 +1,1 @@
+SELECT * FROM mytable WHERE id NOT IN (SELECT id FROM mytable WHERE code = 'BADCODE')

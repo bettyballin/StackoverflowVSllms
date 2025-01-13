@@ -1,0 +1,1 @@
+SELECT  *\nFROM    information_schema.statistics\nWHERE   UPPER(table_name) = UPPER('temperatures')\n        AND UPPER(column_name) = UPPER('ref')

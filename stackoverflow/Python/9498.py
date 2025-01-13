@@ -1,0 +1,1 @@
+def RangeLCM(first, last):\n    factors = range(first, last+1)\n    for i in range(0, len(factors)):\n        if factors[i] != 1:\n            n = first + i\n            for j in range(2*n, last+1, n):\n                factors[j-first] = factors[j-first] / factors[i]\n    return reduce(lambda a,b: a*b, factors, 1)

@@ -1,0 +1,1 @@
+DECLARE @movieId int\nDECLARE @state varchar(2)\n\nSET @movieId = 12345\nSET @state = 'NY'\n\nSELECT\n    COUNT(DISTINCT C.CustomerID) as numCustomers\nFROM\n    CUSTOMER C\nINNER JOIN\n    RENTS R\nON\n    C.CustomerID = R.CustomerId\nWHERE\n    C.ST = @state\nAND\n    R.mid = @movieId

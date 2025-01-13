@@ -1,0 +1,1 @@
+Public Class GridData\n    Public Zone as (type here)\n    ...all your other columns from the query\n    Public PackageRate as (type here)\n    ...all your other columns you add programatically\nEnd Class

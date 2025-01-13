@@ -1,0 +1,1 @@
+UPDATE  wp_posts\n SET     createdDate = DATE_ADD(now(), INTERVAL wp_posts.wp_id SECOND);

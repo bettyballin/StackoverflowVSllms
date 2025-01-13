@@ -1,0 +1,1 @@
+Dim value as Double = Nothing\nIf Double.TryParse(InputBox("Enter numbers..."), value) Then\n    values = values + value\nEnd If

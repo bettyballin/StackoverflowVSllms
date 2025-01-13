@@ -1,0 +1,1 @@
+SELECT\n    *\nFROM\n    Table2 T2\nWHERE\n    NOT EXISTS (SELECT *\n        FROM\n           Table1 T1\n        WHERE\n           T1.State = T2.State AND\n           T1.Product = T2.Product AND\n           T1.Distributor = 'X')

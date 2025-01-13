@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION addNumber(firstParam  IN NUMBER,\n                                     secondParam IN NUMBER)\nRETURN NUMBER\nIS \nBEGIN\n   RETURN firstParam + secondParam;\nEND;\n/

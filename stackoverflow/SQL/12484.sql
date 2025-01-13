@@ -1,0 +1,1 @@
+SELECT ListsId\nFROM ListHasNames a\nWHERE NamesId in (1, 2, 3)\nAND NOT EXISTS\n(SELECT * from ListHasNames b \nWHERE b.ListsId = a.ListsId \nAND b.NamesId not in (1, 2, 3))\nGROUP BY ListsId\nHAVING COUNT(*) = 3;

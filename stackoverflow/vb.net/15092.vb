@@ -1,0 +1,1 @@
+Dim item as New ListViewItem(new String(){"One","Two","Three"})\nListView1.Items.Add(item)

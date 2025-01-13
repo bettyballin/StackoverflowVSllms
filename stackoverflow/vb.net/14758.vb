@@ -1,0 +1,1 @@
+Dim condition As Func(Of OrderItem, Boolean)\nSelect Case whichForm\n    Case ItemsFor.MfrCredit\n        condition = Function(oi As OrderItem) oi.ManufacturerCreditID = formID\n    Case ItemsFor.CustomerCredit\n        condition = Function(oi as OrderItem) oi.CustomerCreditID = formID\n    ...\nEnd Select\nReturn items.Where(condition).ToList()

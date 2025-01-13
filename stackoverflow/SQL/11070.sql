@@ -1,0 +1,1 @@
+select count(*) from mytable where date(myfield)=date(date_sub(now(),interval 1 day));

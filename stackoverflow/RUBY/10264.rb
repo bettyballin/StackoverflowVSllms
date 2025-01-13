@@ -1,0 +1,1 @@
+<div id="placeholder">\n<%= update_page {|page| page['placeholder'].replace with some partial call here } %>

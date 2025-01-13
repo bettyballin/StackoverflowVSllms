@@ -1,0 +1,1 @@
+<?php\nfunction hmstotime($hms)\n{\n    list($hours, $minutes, $seconds) = explode(":",$hms);\n    return $hours * 60 * 60 + $minutes * 60 + $seconds;\n}\n?>

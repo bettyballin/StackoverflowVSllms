@@ -1,0 +1,1 @@
+public abstract class Base{}\npublic interface IBase{}\npublic Something: Base, IBase{} \n// the interface needs to go after the base class

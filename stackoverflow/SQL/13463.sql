@@ -1,0 +1,1 @@
+ALTER TABLE documents ADD COLUMN membersOnly NUMBER DEFAULT 0

@@ -1,0 +1,1 @@
+Response.Write(HttpUtility.HtmlEncode(Request.Form["name"]));

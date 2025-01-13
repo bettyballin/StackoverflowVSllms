@@ -1,0 +1,1 @@
+import operator\nreduced_q = reduce(operator.or_, q_list)\nModel.objects.filter(reduced_q)

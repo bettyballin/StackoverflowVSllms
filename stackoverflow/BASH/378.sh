@@ -1,0 +1,1 @@
+#!/bin/bash\n\nwget                        \\n    -O -                    \\n    --ftp-user=username     \\n    --ftp-password=password \\n    "ftp://wherever/whatever.tar.gz" | tar xzOf - | mysql --user=whoever --password=secret dbname

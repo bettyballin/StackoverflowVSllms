@@ -1,0 +1,1 @@
+mystring = "hello"\nyourstring = "bad & string"\n\nvalidRegEx = /^[^\\\/&]*$/\n\nalert(mystring.match(validRegEx))\nalert(yourstring.match(validRegEx))

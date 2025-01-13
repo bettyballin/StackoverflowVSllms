@@ -1,0 +1,1 @@
+SELECT CASE @Flag WHEN 1 THEN t.field1 WHEN 2 THEN t.field2 WHEN 3 \n   THEN t.field3 END as field,\n   [A bunch of other fields],\n   @Flag as flag\nFROM table t

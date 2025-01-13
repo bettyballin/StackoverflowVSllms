@@ -1,0 +1,1 @@
+from  sqlalchemy.sql.expression import func, select\n\nselect.order_by(func.random()) # for PostgreSQL, SQLite\n\nselect.order_by(func.rand()) # for MySQL\n\nselect.order_by('dbms_random.value') # For Oracle

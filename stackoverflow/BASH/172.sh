@@ -1,0 +1,1 @@
+#!/bin/bash\ncat /etc/crontab | sed '$!N;s/\n/ /'

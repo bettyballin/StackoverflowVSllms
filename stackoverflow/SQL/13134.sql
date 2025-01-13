@@ -1,0 +1,1 @@
+select     \n    id, eid, benchid, paccode, start_time, end_time\nfrom  \n    tbl_benchbook\nwhere start_time >= dateadd(dd, datediff(dd, 0, @event_date), 0)\nand start_time < dateadd(dd, datediff(dd, 0, @event_date)+1, 0)

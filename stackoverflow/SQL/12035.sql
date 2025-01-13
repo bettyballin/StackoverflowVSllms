@@ -1,0 +1,1 @@
+SELECT UserID, TeamID, \n       (SELECT count(*) FROM TeamTable t2 WHERE t2.TeamID <= TeamTable.TeamID and t2.UserID=TeamTable.UserID) AS position \nFROM TeamTable \nORDER BY TeamID

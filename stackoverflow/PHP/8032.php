@@ -1,0 +1,1 @@
+while($row = mysql_fetch_assoc($rs))\n{\n    // some code...\n\n    $checked = '';\n    if($row['setting_1'] === TRUE)\n    {\n          $checked = 'checked="checked"';\n    }\n\n    echo '<input type="checkbox" name="setting_1" value="value_1" '.$checked.' />';\n\n    // some code...\n\n}

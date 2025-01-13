@@ -1,0 +1,1 @@
+on EventTable(EventDate)\non EventTable(EventTypeCode)\non EventTable(EventStatusCode)

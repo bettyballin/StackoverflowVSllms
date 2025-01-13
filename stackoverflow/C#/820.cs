@@ -1,0 +1,1 @@
+PagesSection pageSection = new PagesSection();\npageSection.ValidateRequest = false;

@@ -1,0 +1,1 @@
+var googleAds = document.getElementById('googleAds'); \ngoogleAds.style.paddingTop= '1px';\ngoogleAds.style.paddingTop= '0';

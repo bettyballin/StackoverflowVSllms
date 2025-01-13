@@ -1,0 +1,1 @@
+user.get_and_delete_messages()

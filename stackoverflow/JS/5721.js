@@ -1,0 +1,1 @@
+src = '{ "menu": "Reallocate:"}';\nfname = fname.replace(/&#034;/g,'"');   \ndocument.getElementById("testout").value = fname;

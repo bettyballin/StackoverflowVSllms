@@ -1,0 +1,1 @@
+SELECT blah FROM (widsys subquery) w, (tpps subquery) t WHERE w.mine_code = t.mine_code and w.train_id = t.train_tpps_id

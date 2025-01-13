@@ -1,0 +1,1 @@
+p.codeLine\n{\n    font-size: 12px;\n    line-height: 12px;\n    font-family: Monospace;\n    background: transparent url(lineGlyph) no-repeat 0 12px; /* move the background down so it starts on line 2 */\n    padding-left: 6px; /* move the text over so we can see the newline glyph*/\n}

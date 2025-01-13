@@ -1,0 +1,1 @@
+SELECT  *\nFROM    (\n    SELECT  a_id, (\n        SELECT b_id\n        FROM mytable mib\n        WHERE mib.a_id = ma.a_id\n        ORDER BY\n            dist DESC\n        LIMIT 1 OFFSET s\n        ) AS b_id\n    FROM    (\n        SELECT DISTINCT a_id\n        FROM mytable mia\n        ) ma, generate_series (1, 10) s\n    ) ab\nWHERE   b_id IS NOT NULL

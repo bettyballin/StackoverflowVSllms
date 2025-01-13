@@ -1,0 +1,1 @@
+$alttitle = "35:title1,36:title2, 59:title5"\n$tmptitles = explode(",",$alttitle);\n\n$replacetitle = array();\nforeach($tmptitles as $tmptitle) {\n   $tmparr = explode(":", trim($tmptitle));\n   $replacetitle[intval($tmparr[0])] = trim($tmparr[1]);\n}

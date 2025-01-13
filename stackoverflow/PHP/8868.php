@@ -1,0 +1,1 @@
+for ($i = 0; $i < $fields_cnt; $i++) {\n    $l = $csv_enclosed . str_replace($csv_enclosed, $csv_escaped . $csv_enclosed,\n            stripslashes(mysql_field_name($result, $i))) . $csv_enclosed;\n    $schema_insert .= $l;\n    $schema_insert .= $csv_separator;\n} // end for\n\n$out = trim(substr($schema_insert, 0, -1));\n$out .= $csv_terminated;

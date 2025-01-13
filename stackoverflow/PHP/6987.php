@@ -1,0 +1,1 @@
+require(realpath(dirname(__FILE__)) . '/classes/' . $className);

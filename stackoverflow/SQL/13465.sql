@@ -1,0 +1,1 @@
+select column1, column2, \n  ABS(CAST(CAST(NEWID() AS VARBINARY) AS int)) % 10000 as column3 \nfrom table1

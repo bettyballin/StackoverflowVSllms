@@ -1,0 +1,1 @@
+set @check_digit = convert(varchar, (10 - (@total_value % 10)) % 10)

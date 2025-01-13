@@ -1,0 +1,1 @@
+SELECT s1.*\nFROM score s1 LEFT OUTER JOIN score s2 \n ON (s1.game_id = s2.game_id AND s1.thescore < s2.thescore)\nGROUP BY s1.score_id\nHAVING COUNT(*) < 3;

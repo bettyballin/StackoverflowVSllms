@@ -1,0 +1,1 @@
+<Extension()>\nPublic Function GetOneBased(Of T)(ByVal list As IList(Of T), ByVal index As Integer) As T\n   Return list(index-1)\nEnd Function\n\n<Extension()>\nPublic Sub SetOneBased(Of T)(ByVal list As IList(Of T), ByVal index As Integer, ByVal value As T)\n   list(index-1) = value\nEnd Sub

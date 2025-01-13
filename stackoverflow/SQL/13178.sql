@@ -1,0 +1,1 @@
+select filename from master..sysaltfiles\nwhere name = 'MyDB_2009May11'

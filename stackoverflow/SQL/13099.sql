@@ -1,0 +1,1 @@
+SELECT posts.id, posts.url, posts.created_at, posts.name, posts.value \n  FROM posts, post_attributes \n WHERE posts.id = post_attributes.post_id\n AND post_attributes.name IN ('title', 'body')\n ORDER BY id;

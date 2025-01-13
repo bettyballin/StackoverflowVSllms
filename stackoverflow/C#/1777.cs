@@ -1,0 +1,1 @@
+foreach (var item in bunchOfItems)\n    foreach (var slot in someCollection)\n        slot.Value = item.Value;

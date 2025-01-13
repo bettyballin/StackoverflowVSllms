@@ -1,0 +1,1 @@
+Function GetNamesFromIDs(MAPIProp As Unknown, PropTag As Long) As NamedProperty

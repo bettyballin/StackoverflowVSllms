@@ -1,0 +1,1 @@
+List<Color> allow = new List<Color> { Color.Red, Color.Green, Color.Yellow };\nif (!allow.Contains(color))\n{\n    throw new ArguementException("Invalid Color");\n}

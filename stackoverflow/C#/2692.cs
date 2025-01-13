@@ -1,0 +1,1 @@
+bool HasPermission(User user, Permission permission) {\n    return (user.Permission & permission) != 0;\n}\n\nvoid SetPermission(User user, Permission permission) {\n    user.Permission |= permission;\n}\n\nvoid ClearPermission(User user, Permission permission) {\n    user.Permission &= ~permission;\n}

@@ -1,0 +1,1 @@
+SELECT t.Name, t.Street, t.City, t.State\nFROM table t \nINNER JOIN (\n     SELECT m.Name, MIN(m.Street + ';' + m.City  + ';' + m.State) AS comb\n     FROM table m\n     GROUP BY m.Name\n) x\n   ON  x.Name = t.Name\n   AND x.comb = t.Street + ';' + t.City  + ';' + t.State

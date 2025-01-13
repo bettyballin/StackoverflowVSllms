@@ -1,0 +1,1 @@
+\nSELECT items.extract('/l/text()').getStringVal() item\nFROM TABLE(xmlSequence(\n        EXTRACT(XMLType(''||\n        REPLACE('aa,bb,cc',',','')||'')\n          ,'/all/l'))) items;

@@ -1,0 +1,1 @@
+var entry = "[...]"; //Whatever your data entry is\nvar regex = /email: (\b\w+\b)/g\nvar emails = []\nwhile ((match = regex.exec(entry))) {\n    emails[emails.length] = match[1];\n}

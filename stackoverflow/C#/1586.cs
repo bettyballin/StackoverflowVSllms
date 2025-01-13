@@ -1,0 +1,1 @@
+var columns = typeof(TheClass).GetProperties()\n    .Where(property => property.GetCustomAttributes(typeof(ColumnNameAttribute), false).Count > 0)\n    .Select(property => property.Name);

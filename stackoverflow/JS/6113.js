@@ -1,0 +1,1 @@
+$('#anotherContainer').load('/Home/RegularAjaxResource');

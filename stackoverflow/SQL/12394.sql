@@ -1,0 +1,1 @@
+CURRENT_TIME       Time of day at moment of evaluation\nCURRENT_DATE       Date at moment of evaluation\nCURRENT_TIMESTAMP  Date & Time at moment of evaluatio

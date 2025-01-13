@@ -1,0 +1,1 @@
+document.createStyleSheet().addRule('#myDiv:hover', 'background:#000000;');

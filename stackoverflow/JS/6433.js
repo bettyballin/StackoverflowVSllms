@@ -1,0 +1,1 @@
+document.getElementById('musicFlashPlayer10').stopTrack();

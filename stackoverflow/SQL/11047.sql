@@ -1,0 +1,1 @@
+SELECT ?tag (count(distinct ?tag) as ?count)\nWHERE {\n    ?r ns9:taggedWithTag ?tagresource.\n    ?tagresource ns9:name ?tag\n}\nLIMIT 5000

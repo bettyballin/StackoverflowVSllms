@@ -1,0 +1,1 @@
+"... WHERE '" . Database::escape($var) . "'"

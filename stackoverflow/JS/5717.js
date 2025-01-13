@@ -1,0 +1,1 @@
+var opt = document.createElement('option');\nopt.value = "someValue";\nopt.appendChild(document.createTextNode("someText"));\n$('#mySelect').append(opt);

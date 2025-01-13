@@ -1,0 +1,1 @@
+path/to/some/directory/\n    acls/\n         Site.php\n    forms/\n        Login.php\n    models/\n        User.php\n\n\n$resourceLoader = new Zend_Loader_Autoloader_Resource(array(\n'basePath'  => 'path/to/some/directory',\n'namespace' => 'My',

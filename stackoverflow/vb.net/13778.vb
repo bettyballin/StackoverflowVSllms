@@ -1,0 +1,1 @@
+Sub DoIt(Of T As IBar)(ByVal l As List(Of T))\nEnd Sub

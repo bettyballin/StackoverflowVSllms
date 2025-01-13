@@ -1,0 +1,1 @@
+WebServiceProxy proxy = new WebServiceProxy(); // Derived from SoapHttpClientProtocol\n\nproxy.Credentials = CredentialCache.DefaultCredentials;

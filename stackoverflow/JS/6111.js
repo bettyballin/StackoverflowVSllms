@@ -1,0 +1,1 @@
+var fn = function() {\n    if(swfobject.hasFlashPlayerVersion("9.0.115"))\n    {\n        var att = { data:"flash.swf", width:"y", height:"x" };\n        var par = { menu: "false", flashvars: "" };\n        signUp = swfobject.createSWF(att, par);\n    }\n}\nswfobject.addDomLoadEvent(fn);

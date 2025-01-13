@@ -1,0 +1,1 @@
+declare @string varchar(100)\nselect @string = 'sfdasadhfasjfdlsajflsadsadsdadsa'\nSELECT LEN(@string) - LEN(REPLACE(@string, 'd', '')) AS D_Count

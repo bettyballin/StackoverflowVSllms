@@ -1,0 +1,1 @@
+GetData Buttons = new GetData();//create a reference to the class\nButtonTable = Buttons.BuildTable();\nthis.Controls.Add(ButtonTable);\nOutPut.Text = ButtonTable.Rows.Count.ToString();

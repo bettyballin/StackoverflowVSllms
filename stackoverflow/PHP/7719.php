@@ -1,0 +1,1 @@
+abstract class AbstractAction {\n  public abstract function do();\n}\n\nclass FooAction extends AbstractAction {\n  public function do() {\n    echo "Do Foo Action";\n  }\n}\n\nclass BarAction extends AbstractAction {\n  public function do() {\n    echo "Do Bar Action";\n  }\n}

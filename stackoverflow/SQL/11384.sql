@@ -1,0 +1,1 @@
+update sometable set timecol = add_months(timecol,4);

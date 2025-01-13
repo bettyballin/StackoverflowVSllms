@@ -1,0 +1,1 @@
+utils.ParamHash = new utils.ParamHash("a", 1, "b", 2);

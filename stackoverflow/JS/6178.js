@@ -1,0 +1,1 @@
+$.ajax({\n    url:"/url/file/",\n    dataType:"json"\n    data:{ 'id' : object.id }\n    error:function(request){alert(request.statusText)}\n    success:successFunction\n})

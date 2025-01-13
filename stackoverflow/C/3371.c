@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <string.h>\n\nint main() {\n  char str1[50] = "Hello ";\n  char str2[] = "World";\n\n  strcat(str1, str2);\n\n  printf("str1: %s\n", str1);\n\n  return 0;\n}

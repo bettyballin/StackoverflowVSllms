@@ -1,0 +1,1 @@
+BitmapImage thumb;\nusing (MemoryStream stream = new MemoryStream(imgArray))\n{\n    thumb = new BitmapImage();\n    thumb.SetSource(stream);\n}

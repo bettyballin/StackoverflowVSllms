@@ -1,0 +1,1 @@
+and b.id_tp_cd = 10000\nand c.id_tp_cd = 20000

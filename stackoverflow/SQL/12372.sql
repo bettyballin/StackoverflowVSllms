@@ -1,0 +1,1 @@
+select * from professions where name like '%plu%'

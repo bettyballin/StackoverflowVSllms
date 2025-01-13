@@ -1,0 +1,1 @@
+ICorProfilerInfo2::DoStackSnapshot

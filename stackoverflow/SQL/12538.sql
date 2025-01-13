@@ -1,0 +1,1 @@
+SELECT Field1, Field2, 'Value' Field3 FROM Table

@@ -1,0 +1,1 @@
+SELECT 'CREATE SEQUENCE '||sequence_name||' START WITH '||last_number||';'\nFROM   ALL_SEQUENCES\nWHERE  OWNER = your_schema

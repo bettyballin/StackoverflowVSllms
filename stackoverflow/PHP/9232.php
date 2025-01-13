@@ -1,0 +1,1 @@
+class database extends mysqli implements databaseInterface { ...}

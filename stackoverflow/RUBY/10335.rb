@@ -1,0 +1,1 @@
+Net::SSH::KeyFactory.load_private_key 'keyfile', 'passphrase'

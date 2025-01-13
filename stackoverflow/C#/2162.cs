@@ -1,0 +1,1 @@
+Console.WriteLine("Top")\nConsole.SetCursorPosition(Console.WindowWidth - 1, Console.WindowHeight - 1)\nConsole.Write("x")\nConsole.MoveBufferArea(0, 0, 80, 25, 0, 1)\nConsole.ReadLine()

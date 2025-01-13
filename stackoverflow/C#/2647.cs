@@ -1,0 +1,1 @@
+SshTransferProtocolBase scp = new Sftp(SSH_HOST, SSH_USER);

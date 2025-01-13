@@ -1,0 +1,1 @@
+SELECT SalesPerson, [Oranges] AS Oranges, [Pickles] AS Pickles\nFROM\n(SELECT SalesPerson, Product, SalesAmount\nFROM ProductSales ) ps\nPIVOT\n(\nSUM (SalesAmount)\nFOR Product IN\n( [Oranges], [Pickles])\n) AS pvt

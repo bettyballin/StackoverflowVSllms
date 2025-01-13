@@ -1,0 +1,1 @@
+# This sets the encoding to multipart/form-data\ncurl_setopt($curlHandle, CURLOPT_POSTFIELDS, array('XML'=>$request));

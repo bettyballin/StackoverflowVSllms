@@ -1,0 +1,1 @@
+try\n{\n  _cmd.ExecuteNonQuery();\n}\ncatch(SqlException sqlExc)\n{\n   foreach (SqlError error in sqlExc.Errors)\n   {\n      string msg = string.Format("{0}: {1}", error.Number, error.Message);\n   }\n}

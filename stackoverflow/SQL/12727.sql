@@ -1,0 +1,1 @@
+DECLARE i INT DEFAULT 1;\nDECLARE count DEFAULT ExtractValue(xml, 'count(//child)');\n\nWHILE i <= count DO\n    SELECT ExtractValue(xml, '//child[$i]');\n    SET i = i+1;\nEND WHILE

@@ -1,0 +1,1 @@
+public class NotForAnyoneElse {\n  public NotForAnyoneElse() {\n    if (typeof(NotForAnyoneElse).Assembly.GetName().GetPublicKeyToken() != Assembly.GetEntryAssembly().GetName().GetPublicKeyToken()) {\n      throw new SomeException(...);\n    }\n  }\n}

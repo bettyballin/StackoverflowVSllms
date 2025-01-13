@@ -1,0 +1,1 @@
+$("#div2").insertAfter("#div3");\n$("#div1").prependTo("#div2");

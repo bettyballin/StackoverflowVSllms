@@ -1,0 +1,1 @@
+unsigned int hash(int x) {\n   return (((x ^ 0xf7f7f7f7) * 0x8364abf7) ^ 0xf00bf00b) * 0xf81bc437;\n}

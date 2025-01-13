@@ -1,0 +1,1 @@
+//get passed params\n//(you might do some sanitizing at this point)\n$params=$_GET;\n\n//morph the params with new values\n$params['bar']='xyz';\n\n//build new query string\n$query='';\n$sep='?';\nforeach($params as $name=>$value)\n{\n    $query.=$sep.$name.'='.urlencode($value);\n    $sep='&';\n}

@@ -1,0 +1,1 @@
+div#element2{\n  width:100px;\n  margin:0 auto;\n}\ndiv#element1{\n  width:50px;\n  float:left;\n}\ndiv#element1 + div#element2{\n  width:50px;\n  float:left;\n  margin:0;\n}

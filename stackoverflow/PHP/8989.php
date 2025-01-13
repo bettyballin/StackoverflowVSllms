@@ -1,0 +1,1 @@
+$start = microtime(true);\n$end = microtime(true);\n\nprintf("Page was generated in %f seconds", $end - $start);

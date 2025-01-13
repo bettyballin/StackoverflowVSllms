@@ -1,0 +1,1 @@
+<script type="text/javascript">\n   if (number &lt; 0) {

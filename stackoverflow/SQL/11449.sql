@@ -1,0 +1,1 @@
+select distinct b.profname from committee b\nwhere not exists (\n    select commname from committee a\n    where a.profname = 'piper' and not exists  (\n        select commname from committee c\n        where c.profname=b.profname and c.commname=a.commname\n    )\n);

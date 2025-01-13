@@ -1,0 +1,1 @@
+class Bla\n{\n    public function blaBla($var = false)\n    {\n        if(!$var && isset($_GET))\n            $var = $_GET;\n        // ...\n    }\n}\n\n$bla = new Bla();\n$bla->blaBla();\n$bla->blaBla($_GET);

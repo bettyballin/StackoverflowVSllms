@@ -1,0 +1,1 @@
+var combinations = from a in A\n                   from b in B\n                   from c in C\n                   orderby a, b, c\n                   select new List<int> { a, b, c };\n\nvar x = combinations.ToList();

@@ -1,0 +1,1 @@
+class myClass\n   {\n    static $class = false;\n    static function get_connection()\n    {\n        if(self::$class == false)\n        {\n            self::$class = new myClass;\n        }\n        else\n        {\n            return self::$class;\n        }\n    }\n    // Then create regular class functions.\n   }

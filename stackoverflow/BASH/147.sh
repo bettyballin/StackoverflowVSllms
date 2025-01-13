@@ -1,0 +1,1 @@
+/Applications/Q.app/Contents/MacOS/qemu-img convert -O raw -f vpc "input.vhd" temp.bin\nVBoxManage convertdd temp.bin "output.vdi"\nrm temp.bin\nmv "output.vdi" ~/Library/VirtualBox/VDI/\nVBoxManage modifyvdi "output.vdi" compact

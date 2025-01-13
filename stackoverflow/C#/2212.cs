@@ -1,0 +1,1 @@
+item["Editor"] = SPContext.Current.Web.CurrentUser;\nitem["Author"] = SPContext.Current.Web.CurrentUser;\nitem.SystemUpdate();

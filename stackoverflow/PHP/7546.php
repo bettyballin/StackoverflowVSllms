@@ -1,0 +1,1 @@
+$monthlyBill = $_GET['monthlybill'];

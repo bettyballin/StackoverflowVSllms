@@ -1,0 +1,1 @@
+function selectElement(id, valueToSelect) {    \n    let element = document.getElementById(id);\n    element.value = valueToSelect;\n}\n\nselectElement('leaveCode', '11');

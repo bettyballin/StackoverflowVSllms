@@ -1,0 +1,1 @@
+<?php\n\necho "<pre><code>";\n$filename = "./test.cpp";\n$handle = fopen($filename, "r");\n\nif ($handle) {\n    while (!feof($handle)) {\n        $buffer = fgets($handle, 4096); // assuming max line len is 4096.\n        echo htmlspecialchars($buffer);\n    }\n    fclose($handle);\n}\necho "</code></pre>";\n\n?>

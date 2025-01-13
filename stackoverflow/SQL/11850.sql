@@ -1,0 +1,1 @@
+UPDATE table1\nSET field1 = replace(field1, 'oldstring', 'newstring'),\n    field2 = replace(field2, 'oldstring2', 'newstring2')

@@ -1,0 +1,1 @@
+SELECT grantee\n  FROM all_tab_privs\n WHERE table_name = '<your object name>'\n  AND privilege = 'EXECUTE'\n  AND grantor = '<object owner>';

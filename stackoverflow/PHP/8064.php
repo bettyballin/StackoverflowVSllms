@@ -1,0 +1,1 @@
+curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);

@@ -1,0 +1,1 @@
+UPDATE S1\nSET S1.StatusCode = 1\nFROM Stock S1\nLEFT JOIN Stock S2\n  ON (S1.ProductCode = S2.ProductCode\n      AND S2.StatusCode = 1)\nJOIN Listed L1\n  ON (S1.SKU = L1.SKU)\nWHERE S2.StatusCode IS NULL\n AND L1.ListDate =\n ( SELECT MIN(L2.ListDate)\n     FROM Listed L2\n    WHERE L1.SKU = L2.SKU )

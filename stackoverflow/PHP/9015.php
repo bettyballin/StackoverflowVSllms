@@ -1,0 +1,1 @@
+// Create DOM from URL or file\n$html = file_get_html('http://www.google.com/');\n\n// Find all images\nforeach($html->find('img') as $element)\n       echo $element->src . '<br>';\n\n// Find all links with class=x\nforeach($html->find('a[class=x]') as $element)\n       echo $element->href . '<br>'; 

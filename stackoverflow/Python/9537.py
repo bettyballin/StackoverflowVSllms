@@ -1,0 +1,1 @@
+from django.core.files import File\n\nf = File(open(os.path.join(IMPORT_DIR, 'fotos', photo), 'rb'))\np = Photo(name=f.name, image=f, parent=supply.supply_ptr)\nname = str(uuid1()) + os.path.splitext(f.name)[1]\np.image.save(name, f)\np.save()

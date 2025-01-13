@@ -1,0 +1,1 @@
+uint64 u = 20090520145024798;\nunsigned long w = u % 1000000000;\nunsigned millisec = w % 1000;\nw /= 1000;\nunsigned sec = w % 100;\nw /= 100;\nunsigned min = w % 100;\nunsigned hour = w / 100;\nunsigned long v = w / 1000000000;\nunsigned day = v % 100;\nv /= 100;\nunsigned month = v % 100;\nunsigned year = v / 100;

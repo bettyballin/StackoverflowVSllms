@@ -1,0 +1,1 @@
+SELECT DISTINCT \n  old.STYLE_NBR, old.COLOR_NBR \nFROM \n  LEGACY_PRODUCT_TABLE old\n  LEFT OUTER JOIN MARKETING_PRODUCT_TABLE new\n    ON (old.STYLE_NBR + old.COLOR_NBR) = (new.style_number + new.Colour_number)\nWHERE (new.style_number + new.Colour_number) IS NULL

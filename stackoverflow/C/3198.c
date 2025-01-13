@@ -1,0 +1,1 @@
+switch (pid = fork()) {\ncase -1:       /* Failure */\n  /* ... */\ncase 0:        /* Child */\n  /* ... */\ndefault:       /* Parent */\n  /* ... */\n}

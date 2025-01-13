@@ -1,0 +1,1 @@
+(float) entropy = 0\nfor i in the array[256]:Counts do \n  (float)p = Counts[i] / filesize\n  if (p > 0) entropy = entropy - p*lg(p) // lgN is the logarithm with base 2

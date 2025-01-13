@@ -1,0 +1,1 @@
+s1 = "Z Y X si eman yM"

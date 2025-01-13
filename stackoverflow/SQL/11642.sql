@@ -1,0 +1,1 @@
+CREATE PROCEDURE Blah(foo int, bar text)\n\nEND;

@@ -1,0 +1,1 @@
+SELECT SUBSTRING(Column1, 1, 4) + SUBSTRING(Column1, 4, 3)  AS Col1\nFROM MyTable\nWHERE SUBSTRING(Column1, 1, 4) + SUBSTRING(Column1, 4, 3) = 'MySearch'

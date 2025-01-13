@@ -1,0 +1,1 @@
+$hash = hash_hmac( "sha256", utf8_encode("Filename"), utf8_encode("Password"));\necho $hash;\n// 5fe2ae06ff9828b33fe304545289a3f590bfd948ca9ab731c980379992ef41f1

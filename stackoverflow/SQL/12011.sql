@@ -1,0 +1,1 @@
+CREATE DATABASE newdb WITH TEMPLATE olddb;

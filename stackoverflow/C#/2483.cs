@@ -1,0 +1,1 @@
+public interface IValidatableControl\n{\n    bool IsValidControl();    \n}

@@ -1,0 +1,1 @@
+class PersonPresentation\n{\n    public int ID { get; set; }\n    public string Name { get; set; }\n    public string NumberOfCatsNamedEnder { get; set; }\n\n    public void FromPerson(Person person){ /*Load data from person*/ }\n}

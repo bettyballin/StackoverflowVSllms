@@ -1,0 +1,1 @@
+function phptemplate_preprocess_page(&$vars) {\n\n  if ( isset($_GET['ajax']) && $_GET['ajax'] == 1 ) {\n        $vars['template_file'] = 'page-ajax';\n  }\n\n}

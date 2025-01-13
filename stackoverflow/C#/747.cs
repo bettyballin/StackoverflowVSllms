@@ -1,0 +1,1 @@
+string incomingVerb = controllerContext.HttpContext.Request.Headers["X-HTTP-Method-Override"] ?? controllerContext.HttpContext.Request.Method;\nreturn Verbs.Contains(incomingVerb, StringComparer.OrdinalIgnoreCase);

@@ -1,0 +1,1 @@
+from t1 in db.Table1\njoin t2 in db.Table2 on t1.field equals t2.field\nselect new { t1.field2, t2.field3}

@@ -1,0 +1,1 @@
+for file in bar baz bam; do\n    newfile=$(mktemp)\n    (sed '5q' $file; sed -n '6,15p' foo; sed '1,15d' $file) > $newfile\n    mv -f $newfile $file\ndone

@@ -1,0 +1,1 @@
+# Or you can compute the running CRC:\n  $crc = 0;\n  $crc = Archive::Zip::computeCRC32( 'abcdef', $crc );\n  $crc = Archive::Zip::computeCRC32( 'ghijkl', $crc );

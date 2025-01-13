@@ -1,0 +1,1 @@
+if(document.addEventListener)\n{\n    frames['writer'].document.addEventListener('keyup', updateStatus, false);\n    frames['writer'].document.addEventListener('mouseup', updateStatus, false);\n}

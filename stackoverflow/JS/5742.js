@@ -1,0 +1,1 @@
+>>> $ = document.getElementById\ngetElementById()\n>>> $('bn_home')\n[Exception... "Cannot modify properties of a WrappedNative" ... anonymous :: line 72 data: no]\n>>> $.call(document, 'bn_home')\n<body id="bn_home" onload="init();">

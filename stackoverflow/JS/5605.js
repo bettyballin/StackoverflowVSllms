@@ -1,0 +1,1 @@
+$("update").innerHTML = $("update").innerHTML + "2.Content_2";

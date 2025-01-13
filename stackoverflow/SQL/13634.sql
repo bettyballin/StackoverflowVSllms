@@ -1,0 +1,1 @@
+CREATE VIEW riders AS \n    SELECT \n        ridelog.uid AS rid,\n        SUM(ridelog.distance) AS distance,\n        SUM(IF(YEAR(ridelog.<<date_time_column>>) = YEAR(NOW()), ridelog.distance, 0) AS distanceThisYear \n    FROM ridelog \n    GROUP BY ridelog.uid

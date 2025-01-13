@@ -1,0 +1,1 @@
+SELECT * FROM foo JOIN bar USING (foo_id);

@@ -1,0 +1,1 @@
+Response.Clear();\nResponse.Status = "301 Moved Permanently";\nResponse.AddHeader("Location", "/newfolder/newfilelocation");

@@ -1,0 +1,1 @@
+<?php\n    require_once('./includes/construct.php');\n    //snip\n?>

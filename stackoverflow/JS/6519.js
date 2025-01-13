@@ -1,0 +1,1 @@
+<script type="text/javascript">\n\nvar flashvars = {\n  iscookie: "true"\n};\nvar params = {\n  menu: "false"\n};\nvar attributes = { };\n\nswfobject.embedSWF("myContent.swf", "myContent", "300", "120", "9.0.0","expressInstall.swf", flashvars, params, attributes);\n\n</script>

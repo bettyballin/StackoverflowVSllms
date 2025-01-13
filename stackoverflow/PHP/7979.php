@@ -1,0 +1,1 @@
+>> $format_str = "My name is %name.";\nMy name is %name.\n>> strtr($format_str, array('%name' => 'Joe', '%age' => 150))\nMy name is Joe.

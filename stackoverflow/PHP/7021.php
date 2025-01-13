@@ -1,0 +1,1 @@
+<?php\n\n$prop = 'Name';\n\necho $obj->$prop;

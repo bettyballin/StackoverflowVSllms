@@ -1,0 +1,1 @@
+SELECT my_first_column, my_second_column,\n    ROW_NUMBER() OVER (ORDER BY my_order_column) AS Row_Counter\nFROM my_table

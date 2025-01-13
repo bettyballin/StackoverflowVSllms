@@ -1,0 +1,1 @@
+SELECT *\nFROM ReceivedSMS\nWHERE TimeRecieved < dateadd(second, -180, getdatE()) AND\n      PostProcessed = 0\n\nFOREACH Record - Execute SPROC & Update PostProcessed = 1.

@@ -1,0 +1,1 @@
+# 1 query\nDog.find(:all).each do |dog|\n   # N queries\n   dog.owner.siblings.each do |sibling|\n      # N queries per above N query!\n      sibling.pets.each do |pet|\n         # Do something here\n      end\n   end\nend

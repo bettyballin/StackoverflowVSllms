@@ -1,0 +1,1 @@
+ORDER BY COALESCE(PremiumUsers.IsActive, 0) DESC

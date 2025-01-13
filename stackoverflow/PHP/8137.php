@@ -1,0 +1,1 @@
+function my_sort($a, $b)\n{\n    if ($a->sort < $b->sort) {\n        return -1;\n    } else if ($a->sort > $b->sort) {\n        return 1;\n    } else {\n        return 0;\n    }\n}\n\nusort($value->row, 'my_sort');

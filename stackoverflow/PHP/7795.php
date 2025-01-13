@@ -1,0 +1,1 @@
+<?php\n\n// Used to be "class IndexController"\nclass Blog_IndexController extends Zend_Controller_Action {\n\n}

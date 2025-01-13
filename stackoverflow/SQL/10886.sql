@@ -1,0 +1,1 @@
+WITH RECURSIVE MyTree AS (\n    SELECT * FROM MyTable WHERE ParentId IS NULL\n    UNION ALL\n    SELECT m.* FROM MyTABLE AS m JOIN MyTree AS t ON m.ParentId = t.Id\n)\nSELECT * FROM MyTree;

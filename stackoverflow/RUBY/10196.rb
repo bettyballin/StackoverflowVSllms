@@ -1,0 +1,1 @@
+<% for row in @report.rows %>\n    <tr>\n    <% for col in [:a, :b, :c] %>\n        <td><%= row[col] %></td>\n    <% end %>\n    </tr>\n<% end %>

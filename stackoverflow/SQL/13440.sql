@@ -1,0 +1,1 @@
+SELECT  \nsubstr(file_spec,1,instr(file_spec,'\',1,3)) \nFROM dba_libraries \nWHERE library_name='DBMS_SUMADV_LIB'

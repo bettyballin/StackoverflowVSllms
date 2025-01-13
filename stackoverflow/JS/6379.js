@@ -1,0 +1,1 @@
+<form action="".... onsubmit="return somefunction(this);">\n\nfunction somefunction(f) {\n    var user1 = f.user1;\n    var user2 = f.user2;\n    // etc..\n    if(user2.checked) {\n        alert("you are not user1");\n        return false;\n    } \n    return true;\n}

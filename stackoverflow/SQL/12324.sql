@@ -1,0 +1,1 @@
+Update t2\nset fkfield = newkey\nfrom table2 t2\njoin table1 t1 on t1.oldkey = t2.fkfield

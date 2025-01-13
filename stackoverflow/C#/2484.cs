@@ -1,0 +1,1 @@
+System.IO.FileNotFoundException : The site http://server/sites/bah could not be found in the Web application SPWebApplication \nName=SharePoint - 80 Parent=SPWebService.\nat Microsoft.SharePoint.SPSite..ctor(SPFarm farm, Uri requestUri, Boolean contextSite, SPUserToken userToken)\nat Microsoft.SharePoint.SPSite..ctor(String requestUrl)

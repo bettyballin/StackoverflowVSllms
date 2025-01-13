@@ -1,0 +1,1 @@
+chmod og-w /Users/cs/Documents

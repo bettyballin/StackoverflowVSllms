@@ -1,0 +1,1 @@
+$memVal = @$memcache->get(MD5($getList));\n#Notice: Undefined variable: memcache in /home/topbit/736160.php on line 9

@@ -1,0 +1,1 @@
+select id, count(1) over () n from junk;

@@ -1,0 +1,1 @@
+AND (@Zip = '' OR a.Zip = @Zip OR a.Zip LIKE @Zip + '%')

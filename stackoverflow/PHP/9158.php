@@ -1,0 +1,1 @@
+<?php\n$ts = strtotime('Sun, 21 Jun 2009 20:21:13 +0200');\necho gmdate('D, d M y H:i:s'); // DATE_RFC822 without O

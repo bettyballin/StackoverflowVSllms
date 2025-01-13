@@ -1,0 +1,1 @@
+$date="2009-01-27 14:30:22";\necho strftime("%d %m %Y", strtotime($date));

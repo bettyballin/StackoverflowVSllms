@@ -1,0 +1,1 @@
+$params = $this->_request->getParams(); //_request is equivalent to getRequest()

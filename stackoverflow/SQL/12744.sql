@@ -1,0 +1,1 @@
+select * from TableA \nleft join TableB \n  on TableA.fld1 = TableB.fld2 \n and TableB.fld4 = False\nwhere TableA.fld3 = True

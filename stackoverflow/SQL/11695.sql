@@ -1,0 +1,1 @@
+BACKUP LOG DBNAME\nTO disk = 'D:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Backup\DBNAME.log'\nDBCC SHRINKFILE('DBNAME_Log', 1)

@@ -1,0 +1,1 @@
+SELECT *\nFROM artist\n    LEFT JOIN events\n        ON artist.id = events.artist_id\nWHERE artist.name = 'your search text'

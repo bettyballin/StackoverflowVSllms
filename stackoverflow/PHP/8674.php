@@ -1,0 +1,1 @@
+<?php\n    $perl = Perl::getInstance();\n    $fh = $perl->new("IO::File", "<$file");\n    while($fh->getline()) {\n      # ...\n    }\n  ?>

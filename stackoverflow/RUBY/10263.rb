@@ -1,0 +1,1 @@
+Child hasAndBelongsToMany Club

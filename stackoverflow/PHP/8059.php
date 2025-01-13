@@ -1,0 +1,1 @@
+<?php\napd_set_pprof_trace();\n\n//rest of the script\n?>

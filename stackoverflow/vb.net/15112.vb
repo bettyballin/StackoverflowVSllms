@@ -1,0 +1,1 @@
+Dim dc As New DataContext\n\nDim query = From i In dc.Items _\n            Let tags = (From t In dc.ItemTags _\n                        Where t.ItemID = i.ID _\n                        Select t.Tag.Name).ToArray _\n            Select i.ItemName, Tags = String.Join(" | ", tags)

@@ -1,0 +1,1 @@
+-- DataTable is the big table that holds all of the data\n-- SearchTable is the narrow table that holds the bits of searchable data\n\nSELECT \n  MainTable.ID, \n  MainTable.Name, \n  MainTable.Whatever \nFROM \n  MainTable, SearchTable \nWHERE \n  MainTable.ID = SearchTable.ID \n  AND SearchTable.State IN ('PA', 'DE')\n  AND SearchTable.Age < 40\n  AND SearchTable.Status = 3

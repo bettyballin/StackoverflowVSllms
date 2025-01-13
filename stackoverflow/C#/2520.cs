@@ -1,0 +1,1 @@
+string verification_url = @"http://site.com/posttest.php?";

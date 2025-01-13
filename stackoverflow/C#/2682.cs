@@ -1,0 +1,1 @@
+public class Foo\n{\n     public bool DoSomething() { return false; }\n}\n\npublic class Bar : Foo\n{\n     public new bool DoSomething() { return true; }\n}\n\npublic class Test\n{\n    public static void Main ()\n    {\n        Foo test = new Bar ();\n        Console.WriteLine (test.DoSomething ());\n    }\n}

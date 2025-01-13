@@ -1,0 +1,1 @@
+$sql = "SET time_zone = timezone;"

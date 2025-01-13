@@ -1,0 +1,1 @@
+def nest(d):\n    rv = {}\n    for key, value in d.iteritems():\n        node = rv\n        for part in key.split('/'):\n            node = node.setdefault(part, {})\n        node.update(value)\n    return rv

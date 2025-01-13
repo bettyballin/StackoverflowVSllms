@@ -1,0 +1,1 @@
+SELECT c.CategoryName, s.ID_Super \nFROM Categories c \nLEFT OUTER JOIN SuperCategories s ON c.ID_Category = s.SuperCategoryID

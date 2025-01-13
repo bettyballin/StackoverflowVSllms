@@ -1,0 +1,1 @@
+var elements = document.getElementsByTagName("input");\nfor (var ii=0; ii < elements.length; ii++) {\n  if (elements[ii].type == "text") {\n    elements[ii].value = "";\n  }\n}

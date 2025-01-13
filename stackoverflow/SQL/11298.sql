@@ -1,0 +1,1 @@
+select c.id, count(o.order_id),sum(if(o.discount,1,0))\nfrom customer c \nleft join order as o using c.customer_id = o.customer_id\ngroup by c.id

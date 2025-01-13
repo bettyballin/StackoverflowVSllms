@@ -1,0 +1,1 @@
+string initialValue = "010";\nint tempValue = Int.Parse(initialValue) + 1;\nstring newValue = tempValue.ToString("000");

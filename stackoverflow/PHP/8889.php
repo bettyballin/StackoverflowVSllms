@@ -1,0 +1,1 @@
+enum DaysOfWeek: int\n{\n    case Sunday = 0;\n    case Monday = 1;\n    // etc.\n}\n$today = DaysOfWeek::Sunday;\nvar_dump($today->value); // 0\nvar_dump($today->name); // "Sunday"

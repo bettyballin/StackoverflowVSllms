@@ -1,0 +1,1 @@
+SELECT * FROM `users` u\nWHERE (select sum(size) from `users` where size <= u.size order by size) < 150\nORDER BY userid

@@ -1,0 +1,1 @@
+sed -i -e '2iYour line here' /dir/*

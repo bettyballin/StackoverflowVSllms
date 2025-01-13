@@ -1,0 +1,1 @@
+var Names = (from Row in YourDataSet.YourTable\n             select Row.InsuranceCompanyName).Distinct();

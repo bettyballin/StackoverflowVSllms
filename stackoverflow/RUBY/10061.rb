@@ -1,0 +1,1 @@
+<%= content_tag :td, "Flow Number" if approved %>

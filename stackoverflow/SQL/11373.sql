@@ -1,0 +1,1 @@
+INSERT\nINTO Person2(ContactID, eFirstName, eMiddleName, eLastName)\nValues (1, EncryptByCert(Cert_ID('TestCertificate'), N'FirstName'),\n    EncryptByCert(Cert_ID('TestCertificate'), N'Middle Name'),\n    EncryptByCert(Cert_ID('TestCertificate'), N'Last Name'))

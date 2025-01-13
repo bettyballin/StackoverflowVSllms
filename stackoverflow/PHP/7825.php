@@ -1,0 +1,1 @@
+<?php\n\nob_start("ob_gzhandler");\n\n?>\n<html>\n<body>\n<p>This should be a compressed page.</p>\n</html>\n<body>

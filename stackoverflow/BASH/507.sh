@@ -1,0 +1,1 @@
+for /f "usebackq delims==" %i in (`dir /b *.rar`) do unrar x "%i"

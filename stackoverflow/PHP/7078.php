@@ -1,0 +1,1 @@
+preg_match("#((?:<|&lt;)%)([\s]*(?:[^ø]*)[\s]*?)(%(?:>|&gt;))#i",$markup, $out);\nprint_r($out);\n\nArray\n(\n    [0] => <% your stuff %>\n    [1] => <%\n    [2] => your stuff\n    [3] => %>\n)

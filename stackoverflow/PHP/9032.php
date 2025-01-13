@@ -1,0 +1,1 @@
+<?php\n$x = range('a', 'f');\n\n$x = array_map('array_shift', \n       array_chunk($x, 2)\n     );\n\nvar_dump($x);

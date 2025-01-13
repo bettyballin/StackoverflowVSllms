@@ -1,0 +1,1 @@
+phpQuery::newDocument("externalPage.html");\npq("a")->href("");

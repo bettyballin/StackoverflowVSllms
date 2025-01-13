@@ -1,0 +1,1 @@
+#define RETURN_ON_FAIL( expression ) \\nresult = ( expression );    \\nif ( FAILED( result ) )     \\n    return false;           \\nelse // To prevent danging else conditio

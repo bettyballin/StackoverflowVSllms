@@ -1,0 +1,1 @@
+function getHead( url, targetDiv ){\n    // generate the HTTPREQUESTOBJECT ... let's call it 'req'\n    req.open( "HEAD", url, true );\n    // some more magic happens with the response\n}

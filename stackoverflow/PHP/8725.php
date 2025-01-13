@@ -1,0 +1,1 @@
+$arr[$newkey] = $arr[$oldkey];\nunset($arr[$oldkey]);

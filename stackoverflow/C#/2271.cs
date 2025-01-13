@@ -1,0 +1,1 @@
+app.Quit(Access.AcQuitOption.acQuitSaveAll);\nif (!accessProcess.HasExited)\n{\n    Console.WriteLine("Access did not exit after being asked nicely, killing process manually");\n    accessProcess.Kill();\n}

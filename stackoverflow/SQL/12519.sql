@@ -1,0 +1,1 @@
+set heading off;\nset echo off;\nSet pages 999;\nset long 90000;\n\nspool ddl_list.sql\n\nselect dbms_metadata.get_ddl('TABLE','DEPT','SCOTT') from dual;\n\nselect dbms_metadata.get_ddl('INDEX','DEPT_IDX','SCOTT') from dual;\n\nspool off;

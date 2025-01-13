@@ -1,0 +1,1 @@
+<?php\n\nheader('Content-Type: text/html; charset=utf-8'); \n\n$char = utf8_encode(html_entity_decode('&sigma;'));\n\necho $char;

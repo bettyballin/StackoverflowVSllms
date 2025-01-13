@@ -1,0 +1,1 @@
+CREATE TABLE posts (\n    id INT PRIMARY KEY,\n    subject VARCHAR(100),\n    body TEXT\n)\n\nCREATE TABLE tags (\n    id INT PRIMARY KEY,\n    name VARCHAR(50)\n)\n\nCREATE TABLE post_tags (\n    post_id INT,\n    tag_id INT,\n    FOREIGN KEY (post_id) REFERENCES posts (id),\n    FOREIGN KEY (tag_id) REFERENCES posts (id)\n)

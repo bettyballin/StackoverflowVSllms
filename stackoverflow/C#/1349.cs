@@ -1,0 +1,1 @@
+var sums = Orders.GroupBy(x => new { x.CustomerID, x.ProductID })\n                 .Select(group => group.Sum(x => x.ProductCount));

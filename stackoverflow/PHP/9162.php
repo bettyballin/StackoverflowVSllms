@@ -1,0 +1,1 @@
+public function execute() {\n    $lsQuery = $this->msLastQuery;\n    $lrResource = mysql_query($lsQuery);\n\n    if(!$lrResource) {\n         ErrorHandler::handleErrorMessage("Unable to execute query: ".$lsQuery);\n         return false;\n    }\n    $this->mrQueryResource = $lrResource;\n    return true;\n}

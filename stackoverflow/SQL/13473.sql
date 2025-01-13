@@ -1,0 +1,1 @@
+CREATE VIEW vRandNumber\nAS\nSELECT RAND() as RandNumber\nGO

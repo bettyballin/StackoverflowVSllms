@@ -1,0 +1,1 @@
+SELECT * FROM saved_search_tbl WHERE ssid IN CALCRANGE(searchid, node_id)

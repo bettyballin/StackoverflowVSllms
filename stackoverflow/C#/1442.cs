@@ -1,0 +1,1 @@
+// Via 'dynamic'    \ndynamic dx = GetSomeCLRObject();\ndx.DoSomething();\ndx.SomeMember = 2;\n\n// Via Reflection\nobject x = GetSomeCLRObject();\nType xt = x.GetType();\nMemberInfo DoSomethingMethod = xt.GetMethod("DoSomething");\nDoSomethingMethod.Invoke(x, null);\nPropertyInfo SomeMemberProperty = xt.GetProperty("SomeMember");\nSomeMemberProperty.SetValue(x, 2);

@@ -1,0 +1,1 @@
+$member = '$t';\n$obj->$member

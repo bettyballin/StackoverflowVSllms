@@ -1,0 +1,1 @@
+select * from posts order by timestamp desc limit 100

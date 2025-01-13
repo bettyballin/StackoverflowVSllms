@@ -1,0 +1,1 @@
+select a.username, string_agg(c.name) from admins a, adminrooms b, groups c\nwhere a.code=b.admincode\nand b.groupcode=c.code\ngroup by a.username

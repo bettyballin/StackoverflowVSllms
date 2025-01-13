@@ -1,0 +1,1 @@
+>>> import sys,types,xml\n>>> xml.config = sys.modules['xml.config'] = types.ModuleType('xml.config')\n>>> import xml.config\n>>> from xml import config\n>>> from xml import config as x\n>>> x\n<module 'xml.config' (built-in)>

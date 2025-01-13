@@ -1,0 +1,1 @@
+function foo() {\n    static $called = false;\n    if ($called == false) {\n        $called = true;\n        expensive_stuff();\n    }\n}

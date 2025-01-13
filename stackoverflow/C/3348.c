@@ -1,0 +1,1 @@
+char From6Bit( char c6 ) {\n    // array of all 64 characters that appear in your 6-bit set\n    static SixBitSet[] = { 'A', 'B', ... }; \n    return SixBitSet[ c6 ];\n}   

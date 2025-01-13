@@ -1,0 +1,1 @@
+ComboBox1.DataSource = myDataTable.tables(0)\nComboBox1.DisplayMember = "Field Name" 'the field you want to show in combo box.

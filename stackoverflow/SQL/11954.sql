@@ -1,0 +1,1 @@
+create table backup_table as select * from primary_table;

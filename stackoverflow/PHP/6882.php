@@ -1,0 +1,1 @@
+$targetFile = str_replace(".", "_" . mt_rand(10000000,99999999) . ".", $targetFile);

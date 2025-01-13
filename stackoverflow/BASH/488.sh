@@ -1,0 +1,1 @@
+runas /user:domain\account iexplore.exe

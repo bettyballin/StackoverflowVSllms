@@ -1,0 +1,1 @@
+$handle = fopen($filename , "wb")

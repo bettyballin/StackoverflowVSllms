@@ -1,0 +1,1 @@
+[DllImport("cemapi.dll")]\ninternal static extern int MailDisplayMessage(byte[] lpEntryID, int cbEntryID);

@@ -1,0 +1,1 @@
+$query = "insert into customer (name, address, city, state, zip) values (?, ?, ?, ?, ?)";\n$statement = $dbh->prepare($query);\n$statement->execute(array($name, $address, $city, $state, $zip));

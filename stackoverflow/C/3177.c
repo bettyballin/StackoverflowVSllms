@@ -1,0 +1,1 @@
+IXMLDOMDocument::selectSingleNode(\n     L"/HIVE[@Name='HKEY_CUREENT_USER']/Key[@Name='Network']/...")

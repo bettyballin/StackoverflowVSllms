@@ -1,0 +1,1 @@
+foreach ($mdarray as $key => $row) {\n    // replace 0 with the field's index/key\n    $dates[$key]  = $row[0];\n}\n\narray_multisort($dates, SORT_DESC, $mdarray);

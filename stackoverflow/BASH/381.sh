@@ -1,0 +1,1 @@
+#!/bin/sh\nexec sudo -u less_privileged_user /usr/lib/openssh/sftp-server

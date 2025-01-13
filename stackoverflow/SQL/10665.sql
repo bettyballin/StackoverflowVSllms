@@ -1,0 +1,1 @@
+select distinct a.objectID, a.time, a.x, a.y\n  from Info a,\n       (select objectID, max(time) time from Info group by objectID) b\n  where a.objectID = b.objectID and a.time = b.time

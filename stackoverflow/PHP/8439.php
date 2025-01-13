@@ -1,0 +1,1 @@
+$test = "<option value=\"abc\" >Test - 123</option>\n" .\n    "<option value=\"abc\" >Test - 456</option>\n" .\n    "<option value=\"abc\" >Test - 789</option>\n"; \n\nfor ($offset=0; preg_match("/<option[^>]*>([^<]+)/",$test, $matches, \n                        PREG_OFFSET_CAPTURE, $offset); $offset=$matches[1][1])\n   print($matches[1][0] . "\n");'

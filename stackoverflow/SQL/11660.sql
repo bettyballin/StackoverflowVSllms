@@ -1,0 +1,1 @@
+SELECT volunteers_2009.id, volunteers_2009.comments, \n    volunteers_2009.choice1, volunteers_2009.choice2, volunteers_2009.choice3, \n    volunteers_2009.lname, volunteers_2009.fname, volunteers_2009.venue_id, \n    venues.venue_name \nFROM volunteers_2009 \nLEFT JOIN venues ON venue_id = venues.id\nWHERE venues.id IS NULL\nORDER BY $order $sort

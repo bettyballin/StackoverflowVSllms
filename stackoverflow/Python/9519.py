@@ -1,0 +1,1 @@
+from django.http import HttpResponseRedirect\n\nclass WWWRedirectMiddleware(object):\n    def process_request(self, request):\n        if not request.META['HTTP_HOST'].startswith('www.'):\n            return HttpResponseRedirect('http://www.example.com')

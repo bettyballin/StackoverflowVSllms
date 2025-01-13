@@ -1,0 +1,1 @@
+SELECT isnull(has_perms_by_name('MyDb.dbo.MyTable', 'OBJECT', 'INSERT'), 0)

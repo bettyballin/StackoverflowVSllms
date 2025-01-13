@@ -1,0 +1,1 @@
+static T ElementAtOrDefault<T>(this IList<T> list, int index, T @default)\n{\n    return index >= 0 && index < list.Count ? list[index] : @default;\n}

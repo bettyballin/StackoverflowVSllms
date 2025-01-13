@@ -1,0 +1,1 @@
+newdiv.setAttribute("class", "warningDiv"); 

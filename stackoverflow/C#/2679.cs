@@ -1,0 +1,1 @@
+string s = ...\nnew List<string>(s.Split(....));

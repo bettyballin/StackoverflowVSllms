@@ -1,0 +1,1 @@
+struct Foo {    \n  A a;\n  B b;\n  C c;\nprivate:\n  D d;\n  E e;\n  F f;\n};

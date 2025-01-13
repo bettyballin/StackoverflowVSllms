@@ -1,0 +1,1 @@
+public function row2Partner($row){ echo $row[0]->PartnerID; }

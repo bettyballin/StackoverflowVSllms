@@ -1,0 +1,1 @@
+int hash = 23;\nhash = hash * 31 + item1Hash;\nhash = hash * 31 + item2Hash;\nhash = hash * 31 + item3Hash;\nhash = hash * 31 + item4Hash;\nhash = hash * 31 + item5Hash;\n// etc

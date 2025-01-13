@@ -1,0 +1,1 @@
+Projectfundingdetail.objects.annotate(latest=Max('project__projectfundingdetail__end_date')).filter(end_date=F('latest')).filter(budget__lte==1000).select_related()

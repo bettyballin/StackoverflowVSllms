@@ -1,0 +1,1 @@
+update      L\nset         L.status = 1\nwhere       L.status = 5 \nand         L.city = "cityname" \nand         EXISTS (\n  select * from LA \n  where Date(LA.SomeDatetime) < Date_Sub(Now(), INTERVAL 6 MONTH)\n  and LA.leadid = L.ID\n)

@@ -1,0 +1,1 @@
+runcall(main, self.argv)

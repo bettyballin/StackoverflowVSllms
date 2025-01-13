@@ -1,0 +1,1 @@
+aspnet_regiis -pa "NetFrameworkConfigurationKey" "{domain}\{user}"

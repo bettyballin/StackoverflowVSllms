@@ -1,0 +1,1 @@
+CREATE TABLE pivot (count integer);\nINSERT INTO pivot VALUES (1);\nINSERT INTO pivot VALUES (2);

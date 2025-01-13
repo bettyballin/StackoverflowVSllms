@@ -1,0 +1,1 @@
+Order.find(\n  :all,\n  :joins => :shipments, \n  :select => 'distinct orders.*', \n  :conditions => ['shipments.created_at > ?', Time.now - 1.hour])

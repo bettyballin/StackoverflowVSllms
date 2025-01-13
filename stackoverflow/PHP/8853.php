@@ -1,0 +1,1 @@
+$filename = '/home/username/public_html/file.flv';\nif(file_exists($filename))\n{ \n //true branch \n}\nelse\n{\n //false brach\n}

@@ -1,0 +1,1 @@
+select\n    sum(case when score = 1 then 1 else 0 end) 'positive'\n,   sum(case when score = -1 then 1 else 0 end) 'negative'\n,   objectId\nfrom\n    ratings\nwhere\n    objectId = @objectId ...\ngroup by\n    objectId

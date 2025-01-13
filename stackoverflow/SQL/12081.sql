@@ -1,0 +1,1 @@
+SELECT b.Book_Title, COUNT(s.Book_ID) \nFROM Book b left outer join Sold s on b.Book_ID = s.Book_ID \nGROUP BY b.Book_Title;

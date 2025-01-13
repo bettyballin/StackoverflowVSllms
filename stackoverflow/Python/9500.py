@@ -1,0 +1,1 @@
+for line in proc.stdout:\n    print(">>> " + str(line.rstrip()))

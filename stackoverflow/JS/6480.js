@@ -1,0 +1,1 @@
+$(this).next('ul').find('li').length

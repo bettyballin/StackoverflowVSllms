@@ -1,0 +1,1 @@
+<?php\n$i = '123456789';\necho 'result: ', wordwrap($i, 3, '-', true);

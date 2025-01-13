@@ -1,0 +1,1 @@
+SELECT r1.*\nFROM Relationships r1\nLEFT OUTER JOIN Relationships r2\n  ON (r1.person_1 = r2.person_2 AND r1.person_2 = r2.person_1)\nWHERE r1.person_1 < r1.person_2\n  OR  r2.person_1 IS NULL;

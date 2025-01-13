@@ -1,0 +1,1 @@
+Dim Book as BookEntity\nBook = BookEntity.FeaturedBook()

@@ -1,0 +1,1 @@
+function () {\n    $(".download", this).fadeTo("fast", 1);\n    $(".hud", this).fadeTo("fast", 0.7);\n  }, \n  function () {\n    $(".download, .hud", this).fadeTo("fast", 0);\n  }

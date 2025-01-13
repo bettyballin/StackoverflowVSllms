@@ -1,0 +1,1 @@
+function doSomething($matches) {\n   return base64_encode($matches[1]);\n}\n\npreg_replace_callback('/href="somepage.php?x=([^"]+)"/', 'doSomething', $webdoc);

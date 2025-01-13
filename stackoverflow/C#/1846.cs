@@ -1,0 +1,1 @@
+ASPTypeLibrary.ScriptingContext context;\n public void OnStartPage(ASPTypeLibrary.ScriptingContext sc)\n {\n     context = sc;\n }

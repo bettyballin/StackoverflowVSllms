@@ -1,0 +1,1 @@
+l = [\n('a', 1),\n('a', 2),\n('a', 3),\n('b', 1),\n('b', 2),\n('c', 1),\n]\n\nd = {}\nfor x, y in l:\n    d.setdefault(x, []).append(y)\nprint d

@@ -1,0 +1,1 @@
+// Reference System.Management\nvar mos = new ManagementObjectSearcher("SELECT * FROM Win32_NetworkAdapter");\nvar nics = mos.Get();\n\nforeach (var n in nics)\n{\n  Console.WriteLine("{0} {1}", n["Name"], n["Speed"]);\n}

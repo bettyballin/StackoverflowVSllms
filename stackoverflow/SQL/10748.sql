@@ -1,0 +1,1 @@
+SELECT 'GRANT SELECT ON "' || TRIM(owner) || '".' || TRIM(tabname) ||\n        ' TO someuser AS dba;'\n     FROM "informix".systables\n     WHERE tabid >= 100;

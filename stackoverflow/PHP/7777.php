@@ -1,0 +1,1 @@
+$data = mysql_query("\nSELECT tblpm.* FROM tblpm \nWHERE date_sent \nIN(\n   SELECT MAX(date_sent)\n   FROM tblpm \n   WHERE receiver_id ='$usrID' \n   GROUP BY message_id\n  )\nAND receiver_id ='$usrID' \nORDER BY id DESC") or die(mysql_error());

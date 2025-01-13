@@ -1,0 +1,1 @@
+IF ISNULL(@param) THEN\n    raise error ....\nEND IF

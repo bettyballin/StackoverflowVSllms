@@ -1,0 +1,1 @@
+select r.* from rankings r\n    inner join\n    (\n        select alternative_id, indicator_id\n        from rankings\n        group by alternative_id, indicator_id\n        having count(distinct rank) > 1\n    ) differ on r.alternative_id = differ.alternative_id\n    and r.indicator_id = differ.indicator_id\n    order by r.alternative_id, r.indicator_id, r.analysis_id, r.rank

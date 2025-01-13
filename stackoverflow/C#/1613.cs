@@ -1,0 +1,1 @@
+int StatusID = 4; // Some ID\nFruit.FruidIDReference.EntityKey = \n    New EntityKey("MyEntities.Statuses", "StatusID", StatusID)

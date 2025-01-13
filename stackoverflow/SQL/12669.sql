@@ -1,0 +1,1 @@
+PROCEDURE do_something(foo VARCHAR2) IS\nBEGIN\n    /* Do something */\nEND;\n\nPROCEDURE do_something IS\nBEGIN\n    /* here you know: no argument. Then call do_something(null) */\nEND;

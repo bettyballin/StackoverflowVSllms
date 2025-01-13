@@ -1,0 +1,1 @@
+describe ItemsController, "bidding on an item" do\n  fixtures :users\n\n  it "should create a new Bid" do\n    login_as :quentin\n    lambda do\n      post 'bid', :bid => { :auction_id => 1, :user_id => @user.id, :point => 1 }\n    end.should change(Bid, :count).by(1)\n  end\n\nend

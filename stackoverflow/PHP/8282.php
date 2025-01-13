@@ -1,0 +1,1 @@
+$ldap = ldap_connect("ldap.example.com");\nif ($bind = ldap_bind($ldap, $_POST['username'], $_POST['password'])) {\n  // log them in!\n} else {\n  // error message\n}

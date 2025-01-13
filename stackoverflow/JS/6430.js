@@ -1,0 +1,1 @@
+$("#generated_rows > td.row_class").each(function() { \n    var $this = $(this);\n    var splitText = $this.text().split(' ');\n    splitText[1] = Number(splitText[1]).toFixed(2);\n    $this.text(splitText.join(' '));\n});

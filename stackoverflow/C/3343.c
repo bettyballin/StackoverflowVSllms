@@ -1,0 +1,1 @@
+struct my_data {\n    int x;\n};\n\ntypedef struct {\n    struct my_data data[5];\n    int head;\n    int tail;\n} my_queue_t;\n\nvolatile my_queue_t queue;\n\nint main() {\n    while (queue.head == queue.tail);\n}

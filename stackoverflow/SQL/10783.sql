@@ -1,0 +1,1 @@
+CAST(REPLACE(column, ',', '.') AS FLOAT)

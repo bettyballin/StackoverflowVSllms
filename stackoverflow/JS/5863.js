@@ -1,0 +1,1 @@
+$("form").submit(function () {\n  if (/* form_is_valid */) {\n    $(".actionMessage").show();\n    $(".actionError").hide();\n    return true; // Send the request to the server.\n  } else {\n    $(".actionError").show();\n    $(".actionMessage").hide();\n    return false;  // Do not send the request.\n  }\n});

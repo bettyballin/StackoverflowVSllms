@@ -1,0 +1,1 @@
+map.user_events '/users/:user_id/events/:month.html',\n                :controller => :users, :action => :events,\n                :requirements => {:month => /[0-9]{4}-[0-9]{2}/}

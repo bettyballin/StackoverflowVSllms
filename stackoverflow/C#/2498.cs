@@ -1,0 +1,1 @@
+Services.MyService service = new Services.MyService();\nservice.UseDefaultCredentials = true;\nservice.Proxy = new System.Net.WebProxy();\nservice.Proxy.Credentials = service.Credentials;

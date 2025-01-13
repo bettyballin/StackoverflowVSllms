@@ -1,0 +1,1 @@
+OPEN cur_t;\nLOOP\n  FETCH cur_t INTO v_texttoadd;\n  EXIT WHEN cur_t%notfound;\n  v_string := v_string || v_texttoadd;\nEND LOOP;

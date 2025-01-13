@@ -1,0 +1,1 @@
+SELECT TOP (100) PERCENT id, CAST(CASE WHEN IsNumeric(MyCol) = 1 THEN MyCol ELSE NULL END AS bigint) AS MyCol\nFROM         dbo.MyTable\nWHERE     (MyCol NOT LIKE '%[^0-9]%')

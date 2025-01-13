@@ -1,0 +1,1 @@
+class staticmethod:\n    def __init__(self, thefunc): self.f = thefunc\n    def __call__(self, *a, **k): return self.f(*a, **k)

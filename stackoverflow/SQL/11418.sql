@@ -1,0 +1,1 @@
+create or replace\nFUNCTION testFunction\n(\n  varNumber IN NUMBER DEFAULT 0\n)\nRETURN NUMBER\nAS\n  vFix number := nvl(varNumber,0);\nBEGIN\n  dbms_output.put_line(vFix);\n  RETURN vFix;\nEND;

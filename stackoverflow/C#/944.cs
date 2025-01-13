@@ -1,0 +1,1 @@
+HasMany<ModuleVariable>(x => x.Variables)\n            .Inverse()\n            .Cascade.SaveUpdate();

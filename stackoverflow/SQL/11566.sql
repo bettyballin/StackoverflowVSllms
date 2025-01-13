@@ -1,0 +1,1 @@
+\n select t.tabschema, t.tabname, c.colname \n from sysstat.tables t, sysstat.columns c \n where ((t.tabschema = 'MYSCHEMA1' and t.tabname='MYTABLE1') or \n        (t.tabschema = 'MYSCHEMA2' and t.tabname='MYTABLE2') or \n        (...)) and \n      t.tabschema = c.tabschema and t.tabname = c.tabname and\n      t.card = c.numnulls

@@ -1,0 +1,1 @@
+typedef struct data_buffer {\n    char flags;\n    char[128] data;\n}

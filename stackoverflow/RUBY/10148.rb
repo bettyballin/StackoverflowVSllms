@@ -1,0 +1,1 @@
+bundle exec rspec path/to/spec/file.rb

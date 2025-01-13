@@ -1,0 +1,1 @@
+select UserName, max(DateAdded) as LastDate\nfrom UserData\nwhere State IN ('Connected', 'LostConnection')\nGroup by UserName

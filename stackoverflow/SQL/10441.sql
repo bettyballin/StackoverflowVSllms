@@ -1,0 +1,1 @@
+WHERE w2.topage=w1.frompage

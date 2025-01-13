@@ -1,0 +1,1 @@
+CREATE TABLE session (\n  id CHAR(32) NOT NULL,\n  data BLOB NOT NULL,\n  t_created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,\n  t_updated TIMESTAMP,\n  PRIMARY KEY (session_id),\n  INDEX t_created(t_created),\n  INDEX t_updated(t_updated)\n)\nENGINE = MEMORY\nCHARACTER SET utf8;

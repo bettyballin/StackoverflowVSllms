@@ -1,0 +1,1 @@
+setup\nwhile true\n    select/poll/kqueue\n    with fd needing action do\n        read/write fd\n        if fd was read and well formed request in buffer\n            service request\n        other stuff

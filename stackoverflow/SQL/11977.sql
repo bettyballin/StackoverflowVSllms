@@ -1,0 +1,1 @@
+CREATE TABLE people\n(\n   id       NUMBER(10),\n   name     VARCHAR2(100),\n   active   NUMBER(1)\n)\nPARTITION BY LIST(active)\n(\n   PARTITION active_records VALUES (0)\n   PARTITION inactive_records VALUES (1)\n);

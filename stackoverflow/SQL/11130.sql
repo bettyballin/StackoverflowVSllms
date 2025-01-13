@@ -1,0 +1,1 @@
+SELECT players.player_id,\n(SELECT COUNT(*) FROM tries WHERE player_id = players.player_id) tries,\n(SELECT COUNT(*) FROM penalties WHERE player_id = players.player_id) penalties\nFROM players;

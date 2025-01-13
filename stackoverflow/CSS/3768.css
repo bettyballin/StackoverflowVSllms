@@ -1,0 +1,11 @@
+.clear-block:after {
+\n    content: ".";
+\n    display: block;
+\n    height: 0;
+\n    clear: both;
+\n    visibility: hidden;
+\n}
+\n
+\n.clear-block {
+\n    display: inline-block;
+\n}

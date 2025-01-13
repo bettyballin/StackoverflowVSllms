@@ -1,0 +1,1 @@
+function Move() {\n    var href = 'http://blah/Search/Hippopotamus/2';\n    var slashPos = href.lastIndexOf('/');\n    var page = parseInt(href.substring(slashPos + 1, href.length));\n    href = href.substring(0, slashPos + 1);\n\n    window.location = href + (++page);\n}

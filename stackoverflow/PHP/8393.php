@@ -1,0 +1,1 @@
+if (($filecontents = file_get_contents($pic_url)) !== false) \n{\n    file_put_contents($imageDir . $pk . '.jpg', $filecontents);\n    return $imageDir . $pk . '.jpg'; \n} \nelse \n{\n    return 'removed.jpg';\n}

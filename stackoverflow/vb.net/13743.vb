@@ -1,0 +1,1 @@
+Private Function Calculate(ByVal p_Number_Days As Integer, ByVal p_Date As DateTime) As DateTime\n    Return p_Date.AddDays(p_Number_Days * -1)\nEnd Functio

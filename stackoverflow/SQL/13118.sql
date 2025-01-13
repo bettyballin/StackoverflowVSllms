@@ -1,0 +1,1 @@
+ADD CONSTRAINT `link_item_store_ibfk_2` FOREIGN KEY (`fk_itemID`) REFERENCES `link_item_store` (`fk_itemID`) ON DELETE CASCADE

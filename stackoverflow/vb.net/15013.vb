@@ -1,0 +1,1 @@
+Dim reader As SqlClient.SqlDataReader\nint valueOrdinal = reader.GetOrdinal("value");\nwhile ( ... )\n{\n    var value = reader.GetString(valueOrdinal);\n}

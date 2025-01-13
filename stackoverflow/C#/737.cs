@@ -1,0 +1,1 @@
+System.IO.File.GetAttributes(string path)

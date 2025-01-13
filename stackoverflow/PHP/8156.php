@@ -1,0 +1,1 @@
+$res = FALSE; # should contain the mysql result but does not, due to error.\n$cfg = htmlspecialchars(mysql_result($res,0)); # the attempt to call mysql_result on invalid argument errors out.

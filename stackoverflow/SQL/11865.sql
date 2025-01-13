@@ -1,0 +1,1 @@
+INSERT INTO table2 (`number`)\nSELECT id FROM table1 WHERE some_column='something' LIMIT 1

@@ -1,0 +1,1 @@
+<script type="text/javascript">\n  //other javascript here\n  <% if (Sesssion.Contents["has_location"] == null) { %>\n    $(document).ready(function_to_submit_location)\n  <% } %>\n</script>

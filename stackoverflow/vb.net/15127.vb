@@ -1,0 +1,1 @@
+Dim exceptionCaught As Boolean\nTry\n   output = CType(f.ReadObject(ms), T)\nCatch ex As SerializationException\n   exceptionCaught = True\nEnd Try\n\nIf Not exceptionCaught Then\n   Exit Sub\nEnd If\n\n'here we put the code that we want to handle the exceptio

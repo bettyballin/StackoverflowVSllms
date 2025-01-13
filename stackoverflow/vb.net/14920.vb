@@ -1,0 +1,1 @@
+Public Overrides Sub Install(ByVal stateSaver As System.Collections.IDictionary)  \n    MyBase.Install(stateSaver) \n    Dim myInput As String = Me.Context.Parameters.Item("Message") \n    If myInput Is Nothing Then \n        myInput = "There was no message specified"  \n    End If \n    MsgBox(myInput) \nEnd Sub

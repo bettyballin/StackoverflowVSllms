@@ -1,0 +1,1 @@
+bool IsForegroundProcess(DWORD pid)\n{\n   HWND hwnd = GetForegroundWindow();\n   if (hwnd == NULL) return false;\n\n   DWORD foregroundPid;\n   if (GetWindowThreadProcessId(hwnd, &foregroundPid) == 0) return false;\n\n   return (foregroundPid == pid);\n}

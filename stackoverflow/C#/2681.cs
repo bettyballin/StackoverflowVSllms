@@ -1,0 +1,1 @@
+SomeType result = default(SomeType); // for "definite assignment"\ntry {\n   // ...\n   return result;\n}\nfinally {\n    // inspect "result"\n}

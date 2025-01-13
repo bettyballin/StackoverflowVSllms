@@ -1,0 +1,1 @@
+IF EXISTS (SELECT NULL FROM MyTable WHERE ScorerID = @Blah AND CONVERT(VARCHAR, DateCreated, 101) = CONVERT(VARCHAR, GETDATE(), 101))\n    UPDATE MyTable SET blah blah blah\nELSE\n    INSERT INTO MyTable blah blah blah

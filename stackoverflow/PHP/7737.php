@@ -1,0 +1,1 @@
+function abc($a, $b, $c = 'foo', $d = 'bar') {\n    if ($c === null)\n        $c = 'foo';\n    // Do something...\n}

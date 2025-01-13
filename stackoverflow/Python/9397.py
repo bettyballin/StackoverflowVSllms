@@ -1,0 +1,1 @@
+#!/usr/bin/python                   #on windows change to your path to the python exe\n\nprint "Content-Type: text/html"     # HTML is following\nprint                               # blank line, end of headers\nprint "<TITLE>CGI script output</TITLE>"\nprint "<H1>This is my first CGI script</H1>"\nprint "Hello, world!"

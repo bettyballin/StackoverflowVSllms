@@ -1,0 +1,1 @@
+UPDATE TOP (20)\n    foo\nSET\n    ProcessorID = @PROCID\nFROM\n    OrderTable foo WITH (ROWLOCK, READPAST, UPDLOCK)\nWHERE\n    ProcessorID = 0

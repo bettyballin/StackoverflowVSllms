@@ -1,0 +1,1 @@
+select * from a where id not in (select a_id from b)

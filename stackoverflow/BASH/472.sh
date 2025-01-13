@@ -1,0 +1,1 @@
+#!/bin/bash\n\necho example.sh\n/usr/bin/time sh -c 'for i in $(seq 1 1000); do ./example.sh; done'\n\necho example.sh.bin\n/usr/bin/time sh -c 'for i in $(seq 1 1000); do ./example.sh.bin; done'

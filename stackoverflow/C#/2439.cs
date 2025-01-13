@@ -1,0 +1,1 @@
+decimalVar.ToString("#.##"); // returns ".5" when decimalVar == 0.5m

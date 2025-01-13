@@ -1,0 +1,1 @@
+#include <utility.h>\n#include <extcode.h>\n#include "EventDLL.h"\n//Generate a LabVIEW event\nint GenerateLVEvent(LVUserEventRef *msg, int param)\n{\nPostLVUserEvent( *msg, (void *)&param);\nreturn 0;\n}

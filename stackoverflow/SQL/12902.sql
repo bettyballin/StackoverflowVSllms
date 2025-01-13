@@ -1,0 +1,1 @@
+SELECT * \nFROM main_table m LEFT OUTER JOIN sub_table s \nON s.main_table_id = m.id\nWHERE s.id IS NULL OR s.id IN ( \n  SELECT MAX(id) FROM sub_table GROUP BY main_table_id\n)

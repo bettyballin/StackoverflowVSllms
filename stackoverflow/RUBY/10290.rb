@@ -1,0 +1,1 @@
+should_respond_with :success

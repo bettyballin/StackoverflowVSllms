@@ -1,0 +1,1 @@
+// f is a static array of at least 4 floats\nvoid foo(float f[static 4])\n{\n   ...\n}\n\nint main(void)\n{\n    foo((float[4]){1.0f, 2.0f, 3.0f, 4.0f});  // OK\n    foo((float[5]){1.0f, 2.0f, 3.0f, 4.0f, 5.0f});  // also OK, fifth element is ignored\n    foo((float[3]){1.0f, 2.0f, 3.0f});  // error, although the GCC doesn't complain\n    return 0;\n}

@@ -1,0 +1,1 @@
+DATEADD(dd, -(DATEPART(dw, WeddingDate)-1), WeddingDate) [WeekStart]\n\nDATEADD(dd, 7-(DATEPART(dw, WeddingDate)), WeddingDate) [WeekEnd]

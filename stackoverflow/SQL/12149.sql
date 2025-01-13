@@ -1,0 +1,1 @@
+CASE\nWHEN\n    DATEPART(dw, [Date]) IN (2,3,4,5)\nTHEN\n    DATEADD(d, 1, [Date])\nWHEN\n    DATEPART(dw, [Date]) = 6\nTHEN\n    DATEADD(d, 3, [Date])\nELSE\n    [Date]\nEND AS [ConvertedDate]

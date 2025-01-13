@@ -1,0 +1,1 @@
+void f( struct S { int a; } arg ) {} // valid C, invalid C++\nenum E { A, B, C } f() {} // valid C, invalid C++

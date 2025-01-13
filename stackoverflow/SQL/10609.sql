@@ -1,0 +1,1 @@
+SELECT\n  a.aid    album_id,\n  a.name   album_name,\n  s.sid    song_id,\n  s.name   song_name,\n  s.length song_length\nFROM\n  albums a\n  INNER JOIN songs s ON a.aid = s.aid\nWHERE\n  a.aid IN (1, 2, 3)

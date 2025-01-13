@@ -1,0 +1,1 @@
+document.title = "This is the new\n  page title.";

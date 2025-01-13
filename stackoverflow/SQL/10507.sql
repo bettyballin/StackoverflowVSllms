@@ -1,0 +1,1 @@
+id - PRI INT\ndate - DATETIME\ntable - VARCHAR\ntable_id - INT\ntype - ENUM('UNPUBLISHED','ARCHIVED','DELETED');\ndata - TEXT/BLOB

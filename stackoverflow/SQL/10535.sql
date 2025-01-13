@@ -1,0 +1,1 @@
+ALTER Procedure [dbo].[my_sp]\n@currentDate datetime = null\nAS\nIF @currentDate is null\nSET @currentDate = getdate()

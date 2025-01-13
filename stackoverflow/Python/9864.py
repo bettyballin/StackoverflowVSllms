@@ -1,0 +1,1 @@
+curs.execute('select * from people')\nfor row in curs:\n    print row

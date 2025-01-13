@@ -1,0 +1,1 @@
+$date = preg_replace('/ /', '<br>', $date, 1);

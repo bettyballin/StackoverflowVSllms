@@ -1,0 +1,1 @@
+SELECT * FROM `articles` WHERE `body` REGEXP '[[:<:]][acgj]'

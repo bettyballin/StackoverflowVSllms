@@ -1,0 +1,1 @@
+UpdateCustomer:\nUPDATE CUSTOMER SET NAME=@Name WHERE ID=@ID\n\nFindCustomer:\nSELECT NAME, ADDRESS FROM CUSTOMER\nWHERE ID=@Id\n\netc

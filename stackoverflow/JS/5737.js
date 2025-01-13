@@ -1,0 +1,1 @@
+setInterval(function(){$('#myDiv').toggle();}, 60000);

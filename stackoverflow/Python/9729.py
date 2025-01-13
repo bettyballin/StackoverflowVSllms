@@ -1,0 +1,1 @@
+global backgroundr;\nglobal backgroundg;\nglobal backgroundb;\nbackgroundr = int(random.random()*255)+1\nbackgroundg = int(random.random()*255)+1\nbackgroundb = int(random.random()*255)+1

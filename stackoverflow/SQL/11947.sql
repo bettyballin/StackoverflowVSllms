@@ -1,0 +1,1 @@
+SELECT\n    Sale_ID,\n    Product_ID,\n    Sale_Date,\n    Price\nFROM Sales\nJOIN Prices on Sale_date > StartDate and Sale_Date <= EndDate  \n-- careful not to use between it includes both ends 

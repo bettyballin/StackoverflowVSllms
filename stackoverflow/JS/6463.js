@@ -1,0 +1,1 @@
+jQuery('div.class0 input').focus(function() {\n\n    var $el= $(this);\n    $el.closest('div.class1').addClass("special_class");\n    $el.closest('div.class3').addClass("special_class_1");\n    $el.closest('div.class5').addClass("special_class_2");\n\n});

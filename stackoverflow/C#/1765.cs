@@ -1,0 +1,1 @@
+using (ServiceHost serviceHost = new ServiceHost(typeof(CoolService.CoooolEndpoint)))\n{

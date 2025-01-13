@@ -1,0 +1,1 @@
+Select date, associate_id, count(*) as per_date\nFrom tracking\nGroup By assoicate_id, date\nOrder by date

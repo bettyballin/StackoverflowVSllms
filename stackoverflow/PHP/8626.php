@@ -1,0 +1,1 @@
+$imagedirectory = "\"/media/New Volume/Programming/kai product/media/photography/".$filecategory."/images/\"";\n$galleryfile    = "\"/media/New Volume/Programming/kai product/pages/".$filenumber."_".$filecategory."_gallery.html\"";

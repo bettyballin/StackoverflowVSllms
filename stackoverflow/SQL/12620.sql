@@ -1,0 +1,1 @@
+SELECT AttemptDate \nFROM dbo.ChangeAttempt\nWHERE AttemptDate >= cast(floor(cast(getdate() as float)) as datetime)

@@ -1,0 +1,1 @@
+SELECT *, LENGTH(Ingredients) - LENGTH(REPLACE(Ingredients, '\n', '')) as Count\nFROM Recipes\nORDER BY Count DESC

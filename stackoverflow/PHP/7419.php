@@ -1,0 +1,1 @@
+$data = array('name' => 'Ross', 'php_master' => true);\n\n// You can POST a file by prefixing with an @ (for <input type="file"> fields)\n$data['file'] = '@/home/user/world.jpg';\n\n$handle = curl_init($url);\ncurl_setopt($handle, CURLOPT_POST, true);\ncurl_setopt($handle, CURLOPT_POSTFIELDS, $data);\ncurl_exec($handle);\ncurl_close($handle)

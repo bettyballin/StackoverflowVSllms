@@ -1,0 +1,1 @@
+Public Sub AddItems(ByVal items as List(Of Item))\n  Dim oldCount = _IdList.Count\n  _IdList.AddRange(items.Select(Function(x) x.ID).Except(_IdList))\n  _HasNewItems = oldCount < _IdList.Count\nEnd Sub

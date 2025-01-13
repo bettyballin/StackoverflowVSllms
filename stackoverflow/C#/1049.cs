@@ -1,0 +1,1 @@
+<% MyUserControlModel model = ViewData["MyUserControlModel"]\n         as MyUserControlModel; %>\n\n<div id="myUserControl_dashboard" class="dashboard">\n   Name: <%= model.Name %><br />\n   Count: <%$ model.Count %>\n</div>

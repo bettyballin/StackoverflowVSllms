@@ -1,0 +1,1 @@
+SELECT * from fiberbox where field REGEXP '1740|1938|1940'; 

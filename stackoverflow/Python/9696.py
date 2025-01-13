@@ -1,0 +1,1 @@
+class SuperForm(forms.Form):\n  def is_valid(self):\n    return forms.Form.is_valid(self) and all(form.is_valid() for form in self.sub_forms)

@@ -1,0 +1,1 @@
+declare @sql as nvarchar(max)\n\nset @sql = 'select * from table where col' + \n           replace(@list, ',', '=1 or col') + '=1'\nsp_executesql @sql

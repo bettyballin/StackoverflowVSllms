@@ -1,0 +1,1 @@
+$query  = explode('&', $_SERVER['QUERY_STRING']);\n$params = array();\n\nforeach( $query as $param )\n{\n  // prevent notice on explode() if $param has no '='\n  if (strpos($param, '=') === false) $param += '=';\n\n  list($name, $value) = explode('=', $param, 2);\n  $params[urldecode($name)][] = urldecode($value);\n}

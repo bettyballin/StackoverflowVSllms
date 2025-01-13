@@ -1,0 +1,1 @@
+setcookie($someString, ...);\n$_COOKIE[$someString];

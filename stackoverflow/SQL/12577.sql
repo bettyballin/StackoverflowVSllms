@@ -1,0 +1,1 @@
+select v.text_value as volume_value, i.text_value as issue_value\n      from ( select item_id, text_value\n               from metadatavalue\n              where metadata_field_id = 90) v\n           full join\n           ( select item_id, text_value\n               from metadatavalue\n              where metadata_field_id = 91) i\n           using (item_id)

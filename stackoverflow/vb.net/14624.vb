@@ -1,0 +1,1 @@
+Dim b As Char() = {ChrW(149)}\nConsole.WriteLine(Encoding.Default.GetBytes(b)(0))

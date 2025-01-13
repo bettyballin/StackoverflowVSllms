@@ -1,0 +1,1 @@
+using System.Collections;\n\nif(value is IList && value.GetType().IsGenericType) {\n\n}

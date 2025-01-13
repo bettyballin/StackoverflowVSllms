@@ -1,0 +1,1 @@
+WITH    calendar(mon) AS\n        (\n        SELECT  1\n        UNION ALL\n        SELECT  mon + 1\n        FROM    calendar\n        WHERE   mon < 12\n        )\nSELECT  itemID, mon, SUM(value)\nFROM    calendar c, t_item i\nLEFT OUTER JOIN\n        t_value v\nON      v.itemID = i.itemID\n        AND MONTH(date) = mon\nGROUP BY\n        i.itemID, mo

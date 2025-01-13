@@ -1,0 +1,1 @@
+SELECT\n    T1.col1,\n    T1.col2,\n    T2.col3\nFROM\n    table1 T1\n    INNER JOIN ON Table2 T2 ON T1.ID = T2.ID\nWHERE\n    T1.col1 = 'xxx'\n    AND T2.Col3 = 'yyy'

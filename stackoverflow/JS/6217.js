@@ -1,0 +1,1 @@
+<li key="myKey">\n\n//oData is a object (eg. var oData = {};) that has been populated with properties\n//whose value is the desired data (eg. oData["myKey"] = 123;)\n\nalert(oData[event.srcElement.key]); // alerts 123

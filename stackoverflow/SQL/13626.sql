@@ -1,0 +1,1 @@
+SELECT ISNULL(cast(someDatetime as varchar(20)), 'No') FROM someTable

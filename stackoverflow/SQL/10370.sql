@@ -1,0 +1,1 @@
+SELECT date1 - date2\n  FROM some_table

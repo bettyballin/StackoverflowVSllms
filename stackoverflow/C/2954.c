@@ -1,0 +1,1 @@
+int sqlite3_bind_blob(sqlite3_stmt*, int, const void*, int n, void(*)(void*));

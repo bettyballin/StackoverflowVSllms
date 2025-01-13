@@ -1,0 +1,1 @@
+WebRequest request = [...];\n// Do stuff with the request stream here (and dispose it)\nusing (WebResponse response = request.GetResponse())\n{\n    // Stuff with the response\n}

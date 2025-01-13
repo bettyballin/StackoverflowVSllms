@@ -1,0 +1,1 @@
+for (x - n TO x + n):\n    for (y - n TO x + n):\n        if (abs(x - x2) + abs(y - y2) <= n):\n            mark as okay.

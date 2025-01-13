@@ -1,0 +1,1 @@
+static class Extensions\n{\n    public static IList<T> Clone<T>(this IList<T> listToClone) where T: ICloneable\n    {\n        return listToClone.Select(item => (T)item.Clone()).ToList();\n    }\n}

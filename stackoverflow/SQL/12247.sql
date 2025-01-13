@@ -1,0 +1,1 @@
+POST\n----\nID\nText ...\n...\n\nCATEGORY\n--------\nID\nName\n\nTOPIC\n-----\nID\nName\n\nPOST_CATEGORY\n-------------\nPOST_ID (FK)\nCATEGORY_ID (FK)\n\nPOST_TOPIC\n----------\nPOST_ID (FK)\nTOPIC_ID (FK)

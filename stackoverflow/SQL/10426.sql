@@ -1,0 +1,1 @@
+to_char(date_updated, 'YYYY-MM-DD"T"HH:mm:ss')

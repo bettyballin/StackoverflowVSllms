@@ -1,0 +1,1 @@
+Dim imgPictures(8) As Image\nimgPictures(0) = My.Resources.ResourceManager.GetString("myResourceName")

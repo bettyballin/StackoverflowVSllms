@@ -1,0 +1,1 @@
+Update Table1\nSet Table1.Name = Table2.Name\nFrom\nTable1 INNER JOIN Table2 on Table1.ID = Table2.ID

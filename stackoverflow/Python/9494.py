@@ -1,0 +1,1 @@
+while work_left:\n    ...do something...\n    progressbar.set_fraction(...)

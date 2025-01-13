@@ -1,0 +1,1 @@
+$('#myForm1').ajaxForm({\n    target: '#someid'\n}); 

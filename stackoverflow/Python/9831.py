@@ -1,0 +1,1 @@
+def my_timer(*args):\n    return True# do ur work here, but not for long\n\ngtk.timeout_add(60*1000, my_timer) # call every mi

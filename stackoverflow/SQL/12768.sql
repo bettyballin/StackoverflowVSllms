@@ -1,0 +1,1 @@
+select page.name, count(page-attachment.id) as attachmentsnumber \nfrom page \n    left outer join page-attachment on page.id=page-id \ngroup by page.name

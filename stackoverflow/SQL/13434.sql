@@ -1,0 +1,1 @@
+SELECT DISTINCT t.id, t.title\n  FROM threads t LEFT JOIN comments c ON t.id = c.thread_id\n ORDER BY c.date DESC

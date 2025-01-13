@@ -1,0 +1,1 @@
+SELECT username  \nFROM \n  (SELECT username  \n   FROM table  \n   ORDER BY userid DESC)\nWHERE rownum <= 50

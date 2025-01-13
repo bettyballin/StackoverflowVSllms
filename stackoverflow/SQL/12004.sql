@@ -1,0 +1,1 @@
+SELECT REPLACE([SomeColumn],'somestring','') AS [SomeColumn]  FROM [SomeTable]

@@ -1,0 +1,1 @@
+function MyClass( somevalue ) {\n   this.somevalue = somevalue;\n   this.somefunction = function() {\n     alert(somevalue);\n   }\n}\n\nvar instance1 = new MyClass(1);\nvar instance2 = new MyClass(2);\nvar instance3 = new MyClass(3);

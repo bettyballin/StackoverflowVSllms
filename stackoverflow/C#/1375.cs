@@ -1,0 +1,1 @@
+public class MyWebServiceWrapper\n{\n  private MyWebService _service = null;\n\n  public MyWebServiceWrapper()\n  {\n    _service = new MyWebService();\n  }\n\n  ///<summary>\n  /// doc goes here\n  ///<summary>\n  public int MethodOne()\n  {\n    return _service.MethodOne();\n  }\n}

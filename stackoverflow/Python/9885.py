@@ -1,0 +1,1 @@
+import markdown\nmode = "remove" # or "replace" or "escape"\nmd = markdown.Markdown(safe_mode=mode)\nhtml = md.convert(text)

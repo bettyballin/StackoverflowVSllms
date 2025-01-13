@@ -1,0 +1,1 @@
+declare @foo int;\nset @foo = (select kp.id from kp where blahblahblah);\nselect * from MM.test_1(dbo.test_2(@foo))

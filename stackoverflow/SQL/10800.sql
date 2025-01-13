@@ -1,0 +1,1 @@
+SELECT TOP 10 Field1, Field2 FROM tblTable ORDER BY Field1

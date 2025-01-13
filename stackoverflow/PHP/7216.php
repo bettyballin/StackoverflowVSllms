@@ -1,0 +1,1 @@
+var_dump($_POST);\nvar_dump($_COOKIE);\nvar_dump($_SESSION);

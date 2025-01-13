@@ -1,0 +1,1 @@
+./phpdoc -t /path/to/write/documentation -o HTML:default:default -d /path/to/facebook-platform/php/

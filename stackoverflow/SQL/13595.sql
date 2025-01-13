@@ -1,0 +1,1 @@
+CREATE TABLE dbo.Numbers(n INT NOT NULL PRIMARY KEY)\nGO\nDECLARE @i INT;\nSET @i = 1;\nINSERT INTO dbo.Numbers(n) SELECT 1;\nWHILE @i<128000 BEGIN\n  INSERT INTO dbo.Numbers(n)\n    SELECT n + @i FROM dbo.Numbers;\n  SET @i = @i * 2;\nEND;\nGO

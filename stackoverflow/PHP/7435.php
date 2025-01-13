@@ -1,0 +1,1 @@
+$first = true;    \nwhile ($row = mysql_fetch_assoc($result)) {\n  $cssClass = '';\n  if ($first) {\n    $cssClass = 'highlight';\n  }\n  echo '<p class="' . $cssClass . '">' . $row['text'] . '</p>';\n  $first = false;\n}

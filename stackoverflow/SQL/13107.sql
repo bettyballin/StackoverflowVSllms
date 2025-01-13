@@ -1,0 +1,1 @@
+--out with the bad\nDELETE\nFROM MailingListSubscription\nWHERE PersonId = @SourcePerson\n  and ListID in (SELECT ListID FROM MailingListSubscription WHERE PersonID = @DestPerson)\n\n--update the rest (good)\nUPDATE MailingListSubscription\nSET PersonId = @DestPerson\nWHERE PersonId = @SourcePerso

@@ -1,0 +1,1 @@
+var refreshId = setInterval(function() {\n     $.getJSON("http://server.com/form?question=" + questionId + "?time=" + datetimeStamp",\n        function(data){\n          $.each(data.items, function(i,item){\n            $("#comments").append( // new div with content)\n          });\n        });\n\n}, 3000);

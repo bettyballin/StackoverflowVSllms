@@ -1,0 +1,1 @@
+function renderBackground() {\n    foreach (Plugin p in getRegisteredPlugins()) {\n        if (p.rendersBackground) p.renderBackground();\n    }\n    //Standard background code if nothing got executed (or it still runs, \n    //according to needs)\n}

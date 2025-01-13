@@ -1,0 +1,1 @@
+CREATE TABLE order_items (\n product_no integer REFERENCES products ON DELETE RESTRICT,\n order_id integer REFERENCES orders ON DELETE CASCADE,\n quantity integer,\n PRIMARY KEY (product_no, order_id)\n);

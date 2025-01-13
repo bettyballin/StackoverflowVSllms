@@ -1,0 +1,1 @@
+from stack s where exists elements(s.category)

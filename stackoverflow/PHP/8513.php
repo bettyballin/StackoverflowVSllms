@@ -1,0 +1,1 @@
+if(eregi("<linkto>(.*?)</linkto>", $string, $link_match)) {\n    $outdata = $link_match[1];\n}\nif(!$outdata && eregi("<title>(.*?)</title>", $string, $title_match)) {\n    $outdata = $title_match[1];\n}

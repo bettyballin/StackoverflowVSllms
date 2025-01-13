@@ -1,0 +1,1 @@
+<authentication mode="Windows" />\n <identity impersonate="true" />

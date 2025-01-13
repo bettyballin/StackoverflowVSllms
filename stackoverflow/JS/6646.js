@@ -1,0 +1,1 @@
+$("#range123").click(function() {\n  var from = $("#frm_range").val();\n  var to = $("#to_range").val();\n  var expr = ":checkbox.range_opts:lt(" + to + ")";\n  if (from > 1) {\n    expr += ":gt(" + (from-1) + ")";\n  }\n  $(expr).attr("checked", true);\n});

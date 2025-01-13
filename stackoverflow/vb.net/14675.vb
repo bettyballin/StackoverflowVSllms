@@ -1,0 +1,1 @@
+Private Sub Form_Delete(Cancel As Integer)\n\n  'this cancels all normal deletes'\n  Cancel = True\n\nEnd Sub

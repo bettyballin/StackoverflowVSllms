@@ -1,0 +1,1 @@
+class Converter  {\n    private $_table;\n\n    function __construct() \n    {\n        $this->_table = array();\n        for ($i=0; $i<64; $i++) {\n            $this->_table[$i] = array( (int)($i/8), (int)($i%8) ); \n        }\n    }\n\n    function int2coord( $i )\n    {\n        return $this->_table[$i];\n    }\n}\n\n$conv = new Converter(); \n$coord = $conv->int2coord( 42 );

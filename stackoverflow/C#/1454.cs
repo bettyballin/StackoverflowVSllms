@@ -1,0 +1,1 @@
+<%    \n        TextBox tb = new TextBox();\n        tb.Attributes.Add("data-validateme","true");\n        Page.Controls.Add(tb);\n%>

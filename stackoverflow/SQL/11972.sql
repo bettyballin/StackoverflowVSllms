@@ -1,0 +1,1 @@
+SELECT t1.category, t1.timestamp, t1.value, COUNT(*) as latest\nFROM foo t1\nJOIN foo t2 ON t1.id = t2.id AND t1.timestamp <= t2.timestamp\nGROUP BY t1.category, t1.timestamp\nHAVING latest <= 5;

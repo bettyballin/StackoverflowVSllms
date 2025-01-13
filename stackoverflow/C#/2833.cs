@@ -1,0 +1,1 @@
+foreach (IDataParameter param in cmd.Parameters)\n    {\n        if (param.Value == null) param.Value = DBNull.Value;\n    }

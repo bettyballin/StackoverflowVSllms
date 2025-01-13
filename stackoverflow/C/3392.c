@@ -1,0 +1,1 @@
+int getNextDay(int days_mask, int today) {\n   if (!days_mask) return -1; // no days set\n   days_mask |= days_mask << 7; // duplicate days into next week\n   mask = 1 << (today % 7); // keep track of the day\n   while (!(mask & days_mask)) {\n      mask <<= 1;\n      ++today;\n   }\n   return today % 7;\n}

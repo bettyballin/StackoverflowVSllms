@@ -1,0 +1,1 @@
+SELECT \n    class_desc \n  , CASE WHEN class = 0 THEN DB_NAME()\n         WHEN class = 1 THEN OBJECT_NAME(major_id)\n         WHEN class = 3 THEN SCHEMA_NAME(major_id) END [Securable]\n  , USER_NAME(grantee_principal_id) [User]\n  , permission_name\n  , state_desc\nFROM sys.database_permissions

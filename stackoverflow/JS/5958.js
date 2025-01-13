@@ -1,0 +1,1 @@
+if(document.getElementById("uploadBox").value != "") {\n   // you have a file\n}

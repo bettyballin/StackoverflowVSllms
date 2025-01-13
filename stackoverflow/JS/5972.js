@@ -1,0 +1,1 @@
+function showMe(e) {\n// i am spammy!\n  alert(e.value);\n}\n....\n<input type="text" id="foo" value="bar" onkeyup="showMe(this)" />

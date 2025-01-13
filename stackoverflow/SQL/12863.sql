@@ -1,0 +1,1 @@
+UPDATE X SET X_Value = 'O'\nFROM Y\nWHERE Y.Y_ID = X.Y_ID_F\n  AND Y.Y_Value = 'A'

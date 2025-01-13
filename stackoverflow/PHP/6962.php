@@ -1,0 +1,1 @@
+function autocomplete () {\n    $this->set('people',\n    $this->Person->findAll("name LIKE '%{$this->data['Person']['name']}%'")\n    );\n    $this->layout = "ajax";\n}

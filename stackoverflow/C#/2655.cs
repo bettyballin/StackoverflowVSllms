@@ -1,0 +1,1 @@
+System.CodeDom.Compiler.CodeGenerator.IsValidLanguageIndependentIdentifier(string value)

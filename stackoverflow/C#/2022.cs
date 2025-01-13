@@ -1,0 +1,1 @@
+[ServiceContract]\n    public interface IAuthenticationService\n    {\n        [OperationContract()]\n        string Login(string username, string password, bool isPersistent);\n        [OperationContract()]\n        bool Logout();\n        [OperationContract()]\n        string IsLoggedIn();     \n    }

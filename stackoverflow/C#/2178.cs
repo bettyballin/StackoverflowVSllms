@@ -1,0 +1,1 @@
+IManSession s = dms.Sessions.Add(serverName);

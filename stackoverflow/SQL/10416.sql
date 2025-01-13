@@ -1,0 +1,1 @@
+ALTER TABLE WorkItem\nADD CONSTRAINT FK_Customer_Employee FOREIGN KEY (CustomerId, EmployeeId)\n    REFERENCES Employee (CustomerId, EmployeeId);

@@ -1,0 +1,1 @@
+$dirToCreate = "..".$_SESSION['s_USER_URL']; 

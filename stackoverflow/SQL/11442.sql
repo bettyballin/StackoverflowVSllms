@@ -1,0 +1,1 @@
+declare\n   s2 number;\n begin\n   insert into seqtest2(x) values ('aaa') returning seq into s2;\n   dbms_output.put_line(s2);\n end;

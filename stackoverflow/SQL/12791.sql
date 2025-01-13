@@ -1,0 +1,1 @@
+select cast(datepart(year, mydatecolumn)  as char(4)) + '-' \n   + datename(month, mydatecolumn)\nfrom mytable

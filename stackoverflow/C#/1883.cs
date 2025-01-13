@@ -1,0 +1,1 @@
+\ncalendarStoryboard.Begin(txtMessage, HandoffBehavior.Compose, true);

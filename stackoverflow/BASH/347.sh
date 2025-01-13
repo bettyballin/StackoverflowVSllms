@@ -1,0 +1,1 @@
+convert input.jpg rgb:input.raw

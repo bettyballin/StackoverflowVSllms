@@ -1,0 +1,1 @@
+$rosh=mysql_query("select distinct term from search_terms")\n  or die("Error with query: " . mysql_error());

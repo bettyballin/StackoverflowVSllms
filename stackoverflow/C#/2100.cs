@@ -1,0 +1,1 @@
+Type type = obj.GetType();\nPropertyInfo[] properties = type.GetProperties();\n\nforeach (PropertyInfo property in properties)\n{\n    Console.WriteLine("Name: " + property.Name + ", Value: " + property.GetValue(obj, null));\n}

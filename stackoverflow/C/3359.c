@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nvolatile unsigned int stop_now = 0;\nextern void bar_function(void);\n\nint main(void)\n{\n  while (1) {\n     bar_function();\n     stop_now = 1;\n  }\n  return 0;\n}

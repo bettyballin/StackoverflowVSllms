@@ -1,0 +1,1 @@
+CASE WHEN ISDATE(orderDate) = 1 THEN CONVERT(DateTime, orderDate) ELSE GETDATE() END

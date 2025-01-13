@@ -1,0 +1,1 @@
+HttpApplication app = sender as HttpApplication;\n    if (app != null && app.Request.RawUrl.Contains(".aspx"))\n    {\n        app.Response.Filter = new WhitespaceFilter(app.Response.Filter);\n    }

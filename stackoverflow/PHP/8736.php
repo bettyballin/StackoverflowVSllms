@@ -1,0 +1,1 @@
+echo "<li><strong>{$categories['category_name']}</strong>";

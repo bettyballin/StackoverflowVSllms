@@ -1,0 +1,1 @@
+$ for f in *.txt; do touch -t `echo $f | cut -f1 -d _` "$f"; done

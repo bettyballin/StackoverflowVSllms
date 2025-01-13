@@ -1,0 +1,1 @@
+public void AddMapping<TObj,TValue>(Control myControl, TObj myObject,\n       Expression<Func<TObj, TValue>> mapping) {...}

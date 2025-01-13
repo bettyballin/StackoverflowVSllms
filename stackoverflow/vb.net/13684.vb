@@ -1,0 +1,1 @@
+Public Function OnQueryOrders() As Expression(Of Func(Of Orders, Boolean))

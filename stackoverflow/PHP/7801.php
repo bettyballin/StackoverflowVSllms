@@ -1,0 +1,1 @@
+$sql = "SELECT count(*) FROM `table` WHERE foo = ?"; \n$result = $con->prepare($sql); \n$result->execute([$bar]); \n$number_of_rows = $result->fetchColumn(); 

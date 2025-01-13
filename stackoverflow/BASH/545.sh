@@ -1,0 +1,1 @@
+RewriteRule ^([A-Za-z0-9]+)/?$ /index.php?folder=$1 [L]

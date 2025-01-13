@@ -1,0 +1,1 @@
+select p.projectName, t.ThingName\nfrom projects p\njoin projectThingLink l on l.projectId = p.projectId\njoin thing t on t.thingId = l.thingId\nwhere l.createdDate =\n( select max(l2.createdDate)\n  from projectThingLink l2\n  where l2.thingId = l.thingId\n);

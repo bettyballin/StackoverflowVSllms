@@ -1,0 +1,1 @@
+Public Class Session\n    Private Items As SessionItemCollection\n\n    Default Public ReadOnly Property SessionItem(ByVal id As String) As Object\n        Get\n            Return Me.Items.Find(id)\n        End Get\n    End Property\nEnd Class

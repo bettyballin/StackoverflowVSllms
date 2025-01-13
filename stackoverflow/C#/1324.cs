@@ -1,0 +1,1 @@
+[ImportMany(AllowRecomposition=true)]        \nIEnumerable<IProbe> ProberSet { get; set; }

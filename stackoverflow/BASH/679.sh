@@ -1,0 +1,1 @@
+python -m cProfile --sort cumulative myScript.py

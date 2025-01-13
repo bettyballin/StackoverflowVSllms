@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE my_proc\n   (p_name IN VARCHAR2 := 'John') as begin ... end\n\nCREATE OR REPLACE FUNCTION my_func\n   (p_name IN VARCHAR2 := 'John') return varchar2 as begin ... end

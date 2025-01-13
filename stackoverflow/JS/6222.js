@@ -1,0 +1,1 @@
+<script language="javascript" type="text/javascript">\nfunction changeValue() {\n    var txtControlClient = document.getElementById('<%= txtControl.ClientID %>');\n    txtControlClient.value = "modified text";\n}\n</script>

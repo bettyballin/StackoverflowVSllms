@@ -1,0 +1,1 @@
+SELECT * FROM periods p\nWHERE p.range_start >= @min_start\nAND   p.range_start <= @max_start\nAND   DATE_ADD(p.range_start, INTERVAL @duration DAY) <= p.range_end

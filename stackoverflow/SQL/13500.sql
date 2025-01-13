@@ -1,0 +1,1 @@
+CREATE TYPE [dbo].[parseInputFile] AS TABLE\n    ([strRow] [varchar](500) NOT NULL)

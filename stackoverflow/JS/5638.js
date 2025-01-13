@@ -1,0 +1,1 @@
+var link = document.querySelector("link[rel~='icon']");\nif (!link) {\n    link = document.createElement('link');\n    link.rel = 'icon';\n    document.head.appendChild(link);\n}\nlink.href = 'https://stackoverflow.com/favicon.ico';

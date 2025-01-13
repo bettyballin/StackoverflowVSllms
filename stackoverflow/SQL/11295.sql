@@ -1,0 +1,1 @@
+TRANSLATE (col_name, 'x'||CHR(10)||CHR(13), 'x')

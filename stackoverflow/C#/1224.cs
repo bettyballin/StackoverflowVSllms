@@ -1,0 +1,1 @@
+partial class one : base {}\npartial class one {}

@@ -1,0 +1,1 @@
+if (this.isPostBack && ScriptManager.IsInAsyncPostback)

@@ -1,0 +1,1 @@
+CREATE INDEX [index name] ON [table name] ( [column name] )

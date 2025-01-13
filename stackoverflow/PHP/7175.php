@@ -1,0 +1,1 @@
+foreach ($profile_node->childNodes as $node) {\n    // do something with this node\n}

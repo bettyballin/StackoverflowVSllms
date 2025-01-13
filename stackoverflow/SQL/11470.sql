@@ -1,0 +1,1 @@
+INSERT INTO B (Col1, Col2) SELECT Col1, Col2 FROM A

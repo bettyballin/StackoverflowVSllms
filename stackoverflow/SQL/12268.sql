@@ -1,0 +1,1 @@
+select * from books \nwhere title like '%text%' or description like '%text%'\norder by case when title like '%text%' then 1 else 2 end, date

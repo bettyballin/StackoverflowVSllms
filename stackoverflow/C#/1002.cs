@@ -1,0 +1,1 @@
+public bool FileIsDone(string path)\n{\n  try\n  {\n    using (File.Open(path, FileMode.Open, FileAccess.Read, FileShare.None))\n    {\n    }\n  }\n  catch(UnauthorizedAccessException)\n  {\n    return false;\n  }\n\n  return true;\n}

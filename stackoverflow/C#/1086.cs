@@ -1,0 +1,1 @@
+SPSite site;\nSPWeb web;\nSPListItem item;

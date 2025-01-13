@@ -1,0 +1,1 @@
+q = "INSERT INTO Students VALUES ('" + FNMName.Text + "', '" + LName.Text + "')";

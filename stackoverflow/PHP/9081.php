@@ -1,0 +1,1 @@
+// query...\n$records = array();\nwhile($r = mysql_fetch_array($result)) {\n    $records[] = $r;\n}\nreturn $records;

@@ -1,0 +1,1 @@
+<container>\n        [...]\n      <systemProperties>\n        <MAVEN_OPTS>-Dfoo=bar</MAVEN_OPTS>\n      </systemProperties>\n    </container>

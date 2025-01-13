@@ -1,0 +1,1 @@
+geo = new GClientGeocoder ();\ngeo.getLatLng("2337, Australia", function (point) {\n        GLog.write(point.lat() + "," point.lng());\n    });

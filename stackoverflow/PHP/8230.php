@@ -1,0 +1,1 @@
+$time=mktime($x->time->attributes()->hour,$x->time->attributes()->minute,0,0,0,0)

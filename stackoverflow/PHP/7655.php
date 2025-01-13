@@ -1,0 +1,1 @@
+<?php\n\n$pwObj = new Com('ScriptPW.Password');\n\nprint "Password: ";\n$passwd = $pwObj->getPassword();\n\necho "Your password is $passwd\n";\n\n?>

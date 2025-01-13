@@ -1,0 +1,1 @@
+SELECT ItemID FROM Table\nEXCEPT\nSELECT ItemID FROM Table\nWHERE\nCategoryID <> 12

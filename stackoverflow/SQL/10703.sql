@@ -1,0 +1,1 @@
+UPDATE thetable SET version = version + 1 WHERE id = :id\nINSERT INTO thetable (id, version, title, ...) VALUES (:id, 0, :title, ...)

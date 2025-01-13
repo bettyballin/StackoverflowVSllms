@@ -1,0 +1,1 @@
+public IPrincipal User {\n            get {\n                return HttpContext == null ? null : HttpContext.User;\n            }\n        }

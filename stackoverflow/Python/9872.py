@@ -1,0 +1,1 @@
+dict_a = dict(list_a)\ndict_x = dict(list_x)\n\nshared_keys = set(dict_a).intersection(set(dict_x))\n\nresult = dict((k, (dict_a[k], dict_x[k])) for k in shared_keys)

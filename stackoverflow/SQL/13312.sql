@@ -1,0 +1,1 @@
+select sum(distance) from route\n join event on route.name = event.destination \n where drivers like '%jill%' AND executed = 1

@@ -1,0 +1,1 @@
+declare @myid int\nINSERT INTO table (field) VALUES ('value')\nSELECT @myid = SCOPE_IDENTITY()

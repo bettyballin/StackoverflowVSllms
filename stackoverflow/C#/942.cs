@@ -1,0 +1,1 @@
+[DllImport("user32.dll")]\nstatic extern short VkKeyScan(char ch);\n\nstatic public Key ResolveKey(char charToResolve)\n{\n    return KeyInterop.KeyFromVirtualKey(VkKeyScan(charToResolve));\n}

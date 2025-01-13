@@ -1,0 +1,1 @@
+select substr(date, 0,7) "Month",\n       total(case when a > 0 then a else 0 end) "Income",\n       total(case when a < 0 then a else 0 end) "Expenses"\nfrom posts\ngroup by month 

@@ -1,0 +1,1 @@
+exec (your stored proc name) (and possibly add parameters)

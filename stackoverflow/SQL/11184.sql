@@ -1,0 +1,1 @@
+SELECT s.query, u.username\nFROM search s\nINNER JOIN users u\nON s.userid = u.userid

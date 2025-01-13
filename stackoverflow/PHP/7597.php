@@ -1,0 +1,1 @@
+$arrayOne = array('example', 'listing of', 'stuff');\n\nforeach ($arrayOne as $key => &$value) {\n    $value .= ' alteration';\n\n    if ($value == 'listing of alteration') {\n        unset($arrayOne[ $key ]);\n    }\n\n}

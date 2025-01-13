@@ -1,0 +1,1 @@
+#include <stdio.h>\n\n// function is defined in main program\nvoid callb(void);\n\nvoid test(void) {\n    printf("here, in lib\n");\n    callb();\n}

@@ -1,0 +1,1 @@
+if(preg_match_all('/<img[^>]+src="(.*?)"[^>]*>/i', $content, $results)){\n    foreach($results[1] as $src)\n    {\n       echo "src is $src<br>";\n    }        \n}

@@ -1,0 +1,1 @@
+SELECT tasks.Task, tasks.Priority, tasks.Done, tasks.Hours\nFROM projects, tasks\nWHERE tasks.Username='" + uname + "' AND tasks.Project='" + Label1.Text + "'

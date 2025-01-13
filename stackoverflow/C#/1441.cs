@@ -1,0 +1,1 @@
+void Foo()\n{\n   var eventSource = ...;\n   var waitHandle = new ManualResetEvent(false);\n   eventSource.SomeEvent += (sender, e) => waitHandle.Set();\n\n   ...\n\n   // Wait for the event to be fired.\n   waitHandle.WaitOne();\n}

@@ -1,0 +1,1 @@
+DECLARE @bla VARCHAR(50)\nSET @bla = 'blablablabla(XYZ)asdsdsad'\n\nSELECT SUBSTRING(\n         @bla, \n         CHARINDEX('(', @bla) + 1, \n         CHARINDEX(')', @bla) - CHARINDEX('(', @bla) - 1\n       )

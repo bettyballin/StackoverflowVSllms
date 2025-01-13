@@ -1,0 +1,1 @@
+<DllImport("AlertMan.dll")> _\n   Public Shared Function AlertManC(ByVal CallbackAddr As AlertManCallbackDel) As Long\n   End Function\n\n   Public Delegate Sub AlertManCallbackDel(ByVal data As IntPtr)\n\n\n   Public Sub AlertManCallback(ByVal data As IntPtr)       \n   End Sub

@@ -1,0 +1,1 @@
+function test { 1..3 | % { echo "args inside pipeline: $input" } ; echo "args outside pipeline: $args" }

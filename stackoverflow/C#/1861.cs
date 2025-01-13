@@ -1,0 +1,1 @@
+byte[] octets = System.Text.Encoding.ASCII.GetBytes("abcd"); 

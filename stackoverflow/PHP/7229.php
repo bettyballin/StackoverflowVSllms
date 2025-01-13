@@ -1,0 +1,1 @@
+$data["color"] = "red";\n$this->load->view('header',$data); //pass the parameters

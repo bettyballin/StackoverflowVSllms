@@ -1,0 +1,1 @@
+UPDATE photos LEFT JOIN photographers \n  ON photos.photographer_id = photographers.photographer_id \nSET photos.photo_title = ?, photographers.photographer_name = ? \nWHERE photos.photo_id = ?

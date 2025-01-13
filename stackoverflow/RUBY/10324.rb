@@ -1,0 +1,1 @@
+class User < ActiveRecord::Base\n  def self.valid_attribute?(attr, value)\n    mock = self.new(attr => value)\n    unless mock.valid?\n      return mock.errors.has_key?(attr)\n    end\n    true\n  end\nend

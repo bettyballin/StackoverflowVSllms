@@ -1,0 +1,1 @@
+Private Partial Sub OnValidate(action As System.Data.Linq.ChangeAction)\n    If action = System.Data.Linq.ChangeAction.Delete\n        Throw New Exception("TEST")\n    End If\nEnd Sub

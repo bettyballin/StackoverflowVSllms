@@ -1,0 +1,1 @@
+$(document).ready(function(){\n        $('.cats_showall').click(function(){\n                $('.cats_dropdown li:not(:first)').slideToggle(function() {\n                    if($(this).is(':visible')) {\n                        $(this).css('display','list-item');\n                    }\n                });\n        });\n});

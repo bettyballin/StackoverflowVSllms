@@ -1,0 +1,1 @@
+class Foobar\n{\n    function Foobar()\n    {\n        echo "Hello World!\n";\n    }\n}\n\nnew Foobar()

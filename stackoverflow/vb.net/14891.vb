@@ -1,0 +1,1 @@
+Public Sub CopyIconFromStartup(iconName as String, target As String) \n  Dim path as String = Environment.GetSpecialFolder(SpecialFolder.Startup)\n  path = IO.Path.Combine(path, iconName)\n  File.Copy(path, target)\nEnd Sub

@@ -1,0 +1,1 @@
+If AdInsured.ContainsKey(dbread.Item("FullName")) Then\n    ' The dictionary already has an item with this key '\nElse\n    ' You can safely add the new item to the list '\n    AdInsured.Add(dbread.Item("FullName"), New Person(dbread.Item("FullName"), GetAge(dbread.Item("DateOfBirth"))))\nEnd If

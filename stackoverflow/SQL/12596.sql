@@ -1,0 +1,1 @@
+CREATE TABLE t_uuid (charid VARCHAR(50) NOT NULL, uuid AS CAST(charid AS UNIQUEIDENTIFIER))\n\nCREATE INDEX IX_uuid_uuid ON t_uuid (uuid)\n\nINSERT\nINTO    t_uuid (charid)\nVALUES  (NEWID())\n\nSELECT  *\nFROM    t_uuid

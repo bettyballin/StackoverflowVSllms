@@ -1,0 +1,1 @@
+INSERT INTO newtable (id,name)\nSELECT IsNull(leftid,rightid), name\nFROM oldtable

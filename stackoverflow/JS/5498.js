@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('body').click(function(event) {\n    if ($(event.target).is('.foo')) { // <- this is the magic\n      alert('Something of class foo was clicked.');\n      return false;\n    }\n  });\n});

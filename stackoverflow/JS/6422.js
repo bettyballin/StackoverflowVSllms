@@ -1,0 +1,1 @@
+document.getElementsByName("remove")[0].checked = false;

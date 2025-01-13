@@ -1,0 +1,1 @@
+foreach (var obj in CPE.Components.ToList())\n{\n    obj.Context.Load();\n    foreach (var child in obj.Context.ToList()) { obj.Context.Remove(child); }\n    CPE.DeleteObject(obj);\n}

@@ -1,0 +1,1 @@
+String.replace("${NOUN1}", noun1)

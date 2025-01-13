@@ -1,0 +1,1 @@
+select * from Temp2\nUNION ALL\nselect * from Temp1\nwhere not exists (select * from Temp2)

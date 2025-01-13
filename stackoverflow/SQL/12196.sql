@@ -1,0 +1,1 @@
+select MyColumn\nfrom MyTable\norder by \n    case IsNumeric(MyColumn) \n        when 1 then Replicate('0', 100 - Len(MyColumn)) + MyColumn\n        else MyColumn\n    end

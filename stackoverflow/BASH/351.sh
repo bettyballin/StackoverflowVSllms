@@ -1,0 +1,1 @@
+a=()\nwhile IFS= read -r -d '' file; do\n    a+=("$file")        # or however you want to process each file\ndone < <(find /tmp -type f -print0)

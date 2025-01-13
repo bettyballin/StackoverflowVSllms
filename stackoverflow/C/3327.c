@@ -1,0 +1,1 @@
+myInt = (*pbyte) | (*(pbyte + 1) << 8)  | (*(pbyte + 2) << 16) | (*(pbyte + 3) << 24);

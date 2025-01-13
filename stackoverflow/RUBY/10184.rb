@@ -1,0 +1,1 @@
+require 'open-uri'\nurl = 'http://www.testing.com/test.csv'\nopen(url) do |f|\n  f.each_line do |line|\n    FasterCSV.parse(line) do |row|\n      # Your code here\n    end\n  end\nend

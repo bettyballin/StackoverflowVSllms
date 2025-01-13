@@ -1,0 +1,1 @@
+iconv("utf-8","ascii//TRANSLIT",$input);

@@ -1,0 +1,1 @@
+select top 20 *\nfrom (\n     [...load query here...]\n) qry\norder by LoadPerSecond desc

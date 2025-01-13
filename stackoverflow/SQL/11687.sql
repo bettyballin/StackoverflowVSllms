@@ -1,0 +1,1 @@
+SELECT c.id, c.name, SUM(ABS(v.vote)) AS score\nFROM categories c,items i, votes v\n  WHERE c.id = i.category_id\n  AND i.id = v.voteable_id\n  AND v.created_at > '#{1.week.ago}'\nGROUP BY c.id, c.name\nORDER BY score DESC LIMIT 8;

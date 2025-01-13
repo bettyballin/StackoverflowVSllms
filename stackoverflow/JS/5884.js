@@ -1,0 +1,1 @@
+new Ajax.PeriodicalUpdater('container', '/someurl', {\n  method: 'get', \n  frequency: 3, \n  decay: 2;\n  onsuccess: function(response){\n     myCustomFunction(response.responseText);\n  }\n});\n\nfunction myCustomFunction(data){\n  /* do something */\n}

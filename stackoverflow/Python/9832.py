@@ -1,0 +1,1 @@
+Framebuffer, XOrigin, YOrigin = display.getFrameBuffer(ScreenId)

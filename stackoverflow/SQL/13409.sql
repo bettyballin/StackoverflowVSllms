@@ -1,0 +1,1 @@
+select *\nfrom \n(\n    select day, ticker, ratio, null as amount\n    from splits\n\n    union\n\n    select day, ticker, null as ratio, amount\n    from dividends\n) as q\norder by day, ticker

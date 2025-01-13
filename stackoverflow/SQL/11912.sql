@@ -1,0 +1,1 @@
+select title, publisherid from books\nunion all\nselect name, publisherid from articles

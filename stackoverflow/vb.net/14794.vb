@@ -1,0 +1,1 @@
+Dim cust = New Person() With {.Id = 2, .Name = "Jesse B"}

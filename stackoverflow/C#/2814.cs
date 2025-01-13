@@ -1,0 +1,1 @@
+for (int page = 0; page < n; page++){ \n    int the_page = page;\n    NotebookPage p = new NotebookPage ();\n    ...\n    Button b = new Button ("Close page {0}", the_page);\n    b.Clicked += delegate { \n        Console.WriteLine ("Page={0}", the_page); \n    };\n}

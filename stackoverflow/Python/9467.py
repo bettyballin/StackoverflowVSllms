@@ -1,0 +1,1 @@
+t=Table(data) \nt.setStyle(TableStyle([('VALIGN',(-1,-1),(-1,-1),'MIDDLE')])) 

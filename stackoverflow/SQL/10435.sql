@@ -1,0 +1,1 @@
+SELECT Item.Id\nFROM Item\nJOIN Event     \nON Event.Id = Item.EventId    \nJOIN Seat \nON Seat.Section = Item.Section   \nWHERE Event.Configuration = Seat.Configuration\nAND Event.Venue = Seat.Venue  \nAND Event.Home_team IN (1,2,3,4,5)

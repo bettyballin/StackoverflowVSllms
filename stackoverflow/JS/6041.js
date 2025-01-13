@@ -1,0 +1,1 @@
+var form = $('form#YourFormId');\n$(':submit', form).click(function (event) {\n    event.preventDefault();\n    $.post(form.attr('action'), form.serialize(),\n        function(data, status) {\n            if(status == 'success') {\n                // your code here\n            }\n        }\n    );\n});

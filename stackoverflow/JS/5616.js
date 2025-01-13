@@ -1,0 +1,1 @@
+<script type="text/javascript">\nfunction toconv(string){\n    var gogo = {"a":"b", "cd":"e"}, reg;\n    for(x in gogo) {\n        reg = new RegExp(x, "g");\n        string.replace(x, gogo[x]);\n    }\n    return string;\n}\n</script>

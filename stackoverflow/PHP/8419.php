@@ -1,0 +1,1 @@
+if ($User->loggedIn == 'true') {\n    header('location: somewhereelse.php');\n    die(); // <-- important!!\n}

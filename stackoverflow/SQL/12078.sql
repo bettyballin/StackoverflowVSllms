@@ -1,0 +1,1 @@
+SELECT a.`id` , a.`title` , a.`date` , \n(\n    SELECT MAX( grade )\n    FROM tests\n    WHERE userid = 41\n    AND presid = a.`id`\n) AS grade\nFROM `presentations` a\nWHERE a.`visible` = 1\nHAVING `grade` >= 5\nORDER BY `grade` DESC

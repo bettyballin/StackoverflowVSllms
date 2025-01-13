@@ -1,0 +1,1 @@
+select\n   sum(case when CaseStartDate between '2009-01-01' and '2009-03-31' then 1 else 0 end) as [New Cases],\n   sum(case when CaseClosedDate between '2009-01-01' and '2009-03-31' then 1 else 0 end) as [Closed Cases],\n   sum(case when CaseStartDate <= '2009-03-31' then 1 else 0 end) as [Existing Cases]\nfrom\n   dbo.ClientCase

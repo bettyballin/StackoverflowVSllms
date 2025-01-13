@@ -1,0 +1,1 @@
+document.body.onclick = function(e){\n    var target = e ? e.target : window.event.srcElement;\n    if (target.nodeName.toLowerCase() !== 'a') {\n        // Do something here...\n    }\n};

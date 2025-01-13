@@ -1,0 +1,1 @@
+CREATE TABLE `products_variations`(\n  `product_id` int NOT NULL,\n  `variation_id` int NOT NULL,\n  PRIMARY KEY  (`product_id`, `variation_id`)\n);

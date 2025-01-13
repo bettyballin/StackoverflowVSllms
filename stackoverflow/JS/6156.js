@@ -1,0 +1,1 @@
+var tab = getElementById("<%= myTable.ClientId %>");

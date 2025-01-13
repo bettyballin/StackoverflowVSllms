@@ -1,0 +1,1 @@
+<script type="text/javascript">\n//<![CDATA[\n$(document).ready(function(){\n    $("#bla span").contents().each(function(i) {\n        if(this.nodeName == "#text") alert(this.textContent);\n    });\n});\n\n//]]>\n</script>

@@ -1,0 +1,1 @@
+$(this).parents('div.inputBoxImage').css(...)

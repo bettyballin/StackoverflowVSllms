@@ -1,0 +1,1 @@
+SELECT distinct o.*\n  from object o join objecttags ot on o.Id = ot.objectid\n                join tags t on ot.tagid = t.id\n where t.Name = 'fruit' or t.name = 'food';

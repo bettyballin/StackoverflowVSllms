@@ -1,0 +1,1 @@
+IPrincipal p = this.User;\nWindowsIdentity id = (WindowsIdentity)p.Identity;\nWindowsImpersonationContext wic = id.Impersonate();\ntry {\n    // do stuff as that user\n}\nfinally {\n     wic.Undo();\n}

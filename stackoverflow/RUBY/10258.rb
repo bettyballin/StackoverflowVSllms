@@ -1,0 +1,1 @@
+#I go in application.rb\nself.allow_forgery_protection = false

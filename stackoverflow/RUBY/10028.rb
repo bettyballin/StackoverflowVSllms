@@ -1,0 +1,1 @@
+def some_action\n  session[:name] = "wycats"\nend

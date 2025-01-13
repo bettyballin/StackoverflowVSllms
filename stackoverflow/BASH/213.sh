@@ -1,0 +1,1 @@
+dpkg -l libgtk* | grep -e '^i' | grep -e 'libgtk-*[0-9]'

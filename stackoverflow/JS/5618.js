@@ -1,0 +1,1 @@
+var card:Object = {name:"Tom"};\n\ntrace("age" in card);  //  return false \ntrace("name" in card);  //  return true

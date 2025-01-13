@@ -1,0 +1,1 @@
+preg_match("/^#[01-9A-F]{6}$/", $sColor)<code></pre>In this case you only need to add the two delimiters.</p>\n\n<p>In perl you can write something like<pre>if ( s =~ /x.+y/ )\n{ print "match"; }

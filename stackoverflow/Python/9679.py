@@ -1,0 +1,1 @@
+import pyPdf\npdf = pyPdf.PdfFileReader(open("pdffile.pdf"))\nlist(pdf.pages) # Process all the objects.\nprint pdf.resolvedObjects

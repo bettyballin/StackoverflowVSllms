@@ -1,0 +1,1 @@
+map<ID*, Foo*> myMap;

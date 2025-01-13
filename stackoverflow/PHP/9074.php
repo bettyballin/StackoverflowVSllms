@@ -1,0 +1,1 @@
+if ($error_condition)\n{\n    $_GET['n']=11;\n    include "/path/to/error.php";\n    exit;\n}

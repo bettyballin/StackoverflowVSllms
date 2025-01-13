@@ -1,0 +1,1 @@
+$php_start = strtotime("Some valid date expression");\n$php_end = strtotime("Some other valid date expression");\n\n$result = my_sql_query("\n          Select * FROM someDB \n          WHERE DATE(FROM_UNIXTIME(date_column)) \n          BETWEEN FROM_UNIXTIME($php_start) AND FROM_UNIXTIME($php_end)");

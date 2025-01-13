@@ -1,0 +1,1 @@
+Select * from TableName where Name Like 'Spa%'\nORDER BY case when soundex(name) = soundex('Spa') then '1' else soundex(name) end

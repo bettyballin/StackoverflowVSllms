@@ -1,0 +1,1 @@
+MyTable\n.Where(m => m.Res < 4)\n.OrderBy(m => m.Res)\n.Select(m => new {Id, Res = m.Distance - 4});

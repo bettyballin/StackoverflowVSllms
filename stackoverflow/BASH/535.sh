@@ -1,0 +1,1 @@
+$ wget -SO- -T 1 -t 1 http://myurl.com:15000/myhtml.html 2>&1 | egrep -i "302" 

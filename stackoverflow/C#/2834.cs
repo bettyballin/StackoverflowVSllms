@@ -1,0 +1,1 @@
+args.IsValid = Regex.IsMatch(txtInput.Text, @"^\d+$")

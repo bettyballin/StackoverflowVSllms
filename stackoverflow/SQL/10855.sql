@@ -1,0 +1,1 @@
+SELECT  `User_Setting`.`user_id`,\n        `User_Setting`.`value`,\n        `Setting`.`setting_id`,\n        `Setting`.`default_value`,\n        `Setting`.`value_type`,\nFROM    user\nCROSS JOIN\n        setting\nLEFT JOIN\n        user_setting\nON      user_setting.user_id = user_id\n        AND user_setting.setting_id = setting.setting_id\nWHERE   user_id = 1

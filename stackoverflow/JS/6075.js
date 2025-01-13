@@ -1,0 +1,1 @@
+document.getElementById('option').innerHTML="<label  onclick=\"updateInfo('edit','qualification','"+2+"','"+test+"')\">"+data+"</label>";

@@ -1,0 +1,1 @@
+SELECT CONCAT(IF(has_avatar, id, 'default'), '.png') AS avatar FROM users

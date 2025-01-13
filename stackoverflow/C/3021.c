@@ -1,0 +1,1 @@
+int factorial(int x)\n{\n  return precomputedArray[x];\n}

@@ -1,0 +1,1 @@
+SELECT Message.*\nFROM Message\nWHERE Message.MessageID IN\n(SELECT MAX(MessageID) FROM Message \n    GROUP BY \n        CASE WHEN ReceivingUserID > SendingUserID \n            THEN ReceivingUserID ELSE SendingUserID END,\n        CASE WHEN ReceivingUserID > SendingUserID\n            THEN SendingUserID ELSE ReceivingUserID END\n)

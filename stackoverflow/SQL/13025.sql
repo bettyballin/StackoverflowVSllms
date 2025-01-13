@@ -1,0 +1,1 @@
+SET @db = 'db1';\nSET @q = CONCAT('SELECT * FROM ', @db, '.mycol');\nPREPARE stmt FROM @q;\nEXECUTE stmt;\nDEALLOCATE PREPARE stmt;

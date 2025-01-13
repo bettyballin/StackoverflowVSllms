@@ -1,0 +1,1 @@
+try:\n   cursor.execute("select 1 / 0 from dual")\nexcept cx_Oracle.DatabaseError, e:\n   error, = e\n   print "Code:", error.code\n   print "Message:", error.message

@@ -1,0 +1,1 @@
+update table2 set pubVisited = NULL \nfrom \n    table1 t1 \n        inner join \n    table2 t2 \n    on (t1.playerID = t2.playerID and t1.nationalities = 'England')

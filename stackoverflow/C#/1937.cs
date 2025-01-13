@@ -1,0 +1,1 @@
+X509KeyStorageFlags flags = X509KeyStorageFlags.PersistKeySet | X509KeyStorageFlags.MachineKeySet;\n\nX509Certificate2 cert = new X509Certificate2(pkcs12_buf, password, flags);

@@ -1,0 +1,1 @@
+def count(obj):\n    total = 0\n    for o in obj[1:]:\n        # Add the node itself.\n        total += 1\n\n        if isinstance(o, list):\n            total += count(o)\n    return total

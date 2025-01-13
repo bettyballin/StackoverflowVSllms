@@ -1,0 +1,1 @@
+select max(n), a, b, c\nfrom mytable\ngroup by a, b, c

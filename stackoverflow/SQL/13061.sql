@@ -1,0 +1,1 @@
+SELECT\nrecords.id,\nCASE contacts.organization\n    WHEN '' THEN contacts.name\n    ELSE contacts.name + ' (' + contacts.organization + ')'\nEND as Contact\nFROM records\nLEFT JOIN contacts ON records.contact = contacts.contactid

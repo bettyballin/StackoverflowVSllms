@@ -1,0 +1,1 @@
+Dim result = sXMLResponse.Substring(0, sXMLResponse.IndexOf("<start>")) & sXMLResponse.Substring(sXMLResponse.IndexOf("<end>") + 5)

@@ -1,0 +1,1 @@
+<script type="text/javascript">\n  $(document).ready( function(){\n    $('.rounded').corner();\n  });\n</script>

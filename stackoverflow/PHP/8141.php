@@ -1,0 +1,1 @@
+$car42 = $car_gateway->fetch(42);\n$wheels = $wheel_gateway->selectByCar($car42);

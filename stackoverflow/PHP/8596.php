@@ -1,0 +1,1 @@
+$currentOrg = '';\nwhile ($row = mysql_fetch_object($query)) {\n   if ($row->org != $currentOrg) {\n      echo "$row->org".\n   }\n   $currentorg = $row->org;\n}

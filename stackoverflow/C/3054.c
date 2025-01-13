@@ -1,0 +1,1 @@
+typedef void (*SDLEventFunction)(SDL_Event *);\nstd::vector<SDLEventFunction> functions;

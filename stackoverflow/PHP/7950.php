@@ -1,0 +1,1 @@
+$files = array ( 0 => array ( 'FILENAME' => 'x.txt' ) );

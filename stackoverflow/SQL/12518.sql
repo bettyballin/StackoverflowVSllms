@@ -1,0 +1,1 @@
+SELECT A.name, B.marks FROM A, B WHERE A.num = 0 OR A.num = B.num

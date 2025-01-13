@@ -1,0 +1,1 @@
+// In your controller\n$this->layout = 'ajax';

@@ -1,0 +1,1 @@
+List<string> states = new List<string> { "CA", "IN", "MD" };\n    var q = from a in authors\n            where !states.Contains(a.state)\n            select new { a.au_lname, a.state };

@@ -1,0 +1,1 @@
+SELECT ID, MIN(DateStamp), MAX(DateStamp)\nFROM TableName\nGROUP BY ID

@@ -1,0 +1,1 @@
+class Base\n{\n   ...\n};\n\ntemplate <typename T>\nclass Foo : public Base\n{\n    ...\n};\n\nBase *newBase()\n{\n    if(some condition)\n        return new Foo<float>();\n    else\n        return new Foo<double>();\n}

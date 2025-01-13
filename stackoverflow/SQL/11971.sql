@@ -1,0 +1,1 @@
+INSERT @TableVariable\nEXEC spYourProcedure

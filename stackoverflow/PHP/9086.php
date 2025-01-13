@@ -1,0 +1,1 @@
+$s = 'Hello everybody in stackoverflow';\necho implode(' ', array_reverse(explode(' ', $s)));

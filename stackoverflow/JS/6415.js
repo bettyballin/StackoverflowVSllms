@@ -1,0 +1,1 @@
+$.post("widget.php", { module: "myInfoModule", container: 'leftBar', ...},\n  function(data){\n    // maybe update UI telling them it's saved? probably not\n  }, "json");

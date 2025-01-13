@@ -1,0 +1,1 @@
+def is_ascii(s):\n    return all(ord(c) < 128 for c in s)

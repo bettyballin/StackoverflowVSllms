@@ -1,0 +1,1 @@
+$url = 'http://www.trynt.com/symbol-lookup-api/v2/?s=IBM&fo=json&f=0';\n$json = file_get_contents($url);\n$data = json_decode($json);

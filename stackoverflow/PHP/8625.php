@@ -1,0 +1,1 @@
+curl_setopt($process, CURLOPT_FOLLOWLOCATION, 1);

@@ -1,0 +1,1 @@
+IEnumerable<object> q = m.Cast<object>().Select<object, object>(o => o);

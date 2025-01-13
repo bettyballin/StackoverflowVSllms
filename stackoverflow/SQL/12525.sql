@@ -1,0 +1,1 @@
+WHERE [mycolumn] LIKE '%' + @MyValue + '%'\n\nWHERE CONTAINS([mycolumn], @MyValue)

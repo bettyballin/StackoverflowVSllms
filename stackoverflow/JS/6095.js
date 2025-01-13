@@ -1,0 +1,1 @@
+$("#colorSwatchContent span")

@@ -1,0 +1,1 @@
+select(\nSELECT col1\n FROM table1\n WHERE col2 = 'x'\n ORDER by col3\n FOR XML path('')\n) as myName

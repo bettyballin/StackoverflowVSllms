@@ -1,0 +1,1 @@
+$exploded = preg_split('@/@', '1/2//3/', -1, PREG_SPLIT_NO_EMPTY);

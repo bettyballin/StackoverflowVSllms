@@ -1,0 +1,1 @@
+// [OPTIONAL] Set the max cached item number, for example 20\n$.jCache.maxSize = 20; \n// Start playing around with it:\n// Put an item into cache:\n$.jCache.setItem(theKey, theValue);\n// Retrieve an item from cache:\nvar theValue = $.jCache.getItem(theKey);\n// Clear the cache (well, I think most of us don't need this case):\n$.jCache.clear();

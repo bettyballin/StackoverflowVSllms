@@ -1,0 +1,1 @@
+<?php\n\n$f = fopen("php://stdin", "r");\n$s = fread($f, 100000); // should be big enough\nfclose($f);\necho "\"" . $s . "\"";\n\n?>

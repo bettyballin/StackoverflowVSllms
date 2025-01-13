@@ -1,0 +1,1 @@
+List<int> list = new List<int>()\nint c = list.Count;

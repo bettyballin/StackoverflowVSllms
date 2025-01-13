@@ -1,0 +1,1 @@
+game_four = games(:four).find

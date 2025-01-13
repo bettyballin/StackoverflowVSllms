@@ -1,0 +1,1 @@
+def miniature_count(miniature_id)\n  if @counts.nil?\n    @counts = Hash.new\n    ownerships.collect{|o| @counts[o.miniature_id] = o.have_count }\n  end\n  count = @counts[miniature_id] || 0\nend

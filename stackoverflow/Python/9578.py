@@ -1,0 +1,1 @@
+radians = degrees * (pi/180)\n\ndegrees = radians * (180/pi)

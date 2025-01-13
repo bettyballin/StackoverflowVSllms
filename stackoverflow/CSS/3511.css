@@ -1,0 +1,5 @@
+#window-one, #window-two {
+\n    width: 100%;
+\n    height: 50%;
+\n    overflow: scroll;
+\n}

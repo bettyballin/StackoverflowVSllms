@@ -1,0 +1,1 @@
+<?php\n $stack = new DOTNET("mscorlib", "System.Collections.Stack");\n $stack->Push(".Net");\n $stack->Push("Hello ");\n echo $stack->Pop() . $stack->Pop();\n?>

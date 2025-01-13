@@ -1,0 +1,1 @@
+div .button {\n   display: block;\n   -moz-border-radius: 25px;\n   -webkit-border-radius: 25px;\n   border: 3px double #F1A631;\n   background-color: #FCFF68;\n   float: left;\n   width: 150px;\n   height: 30px;\n}

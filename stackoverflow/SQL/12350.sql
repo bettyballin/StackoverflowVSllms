@@ -1,0 +1,1 @@
+SELECT  *\nFROM    animal\nSTART WITH\n        animal_id IN\n        (\n        SELECT  parent_male_id\n        FROM    animal\n        WHERE   animal_id = 123\n        UNION ALL \n        SELECT  parent_female_id\n        FROM    animal\n        WHERE   animal_id = 123\n        )\nCONNECT BY\n        PRIOR animal_id IN (parent_male_id, parent_female_id)

@@ -1,0 +1,1 @@
+#!/bin/bash\nclear\ndate\n\nphp -f doChecksAndAct.php\nsleep 100\n# rerun myself\nexec $0

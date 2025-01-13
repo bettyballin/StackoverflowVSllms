@@ -1,0 +1,1 @@
+INNER JOIN Campaign AS T2 ON T1.CampaignId = T2.Id

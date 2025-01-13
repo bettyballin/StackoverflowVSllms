@@ -1,0 +1,1 @@
+SELECT p.id, s1.state_name AS sender, s2.state_name AS receiver\n  FROM \n       package_details p\n  JOIN states s1 ON (p.sender_state = s1.state_id)\n  JOIN states s2 ON (p.receiver_state = s2.state_id)

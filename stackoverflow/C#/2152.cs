@@ -1,0 +1,1 @@
+// Lambda expression has to specify parameter types\nEventHandler x = (sender, args) => Console.WriteLine("Hi");\n\n// Anonymous method can ignore them\nEventHandler x = delegate { Console.WriteLine("Hi"); };

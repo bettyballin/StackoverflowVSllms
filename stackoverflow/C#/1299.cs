@@ -1,0 +1,1 @@
+var items = from i in db.Items.Include("Tags")\n                    where i.Tags.Any(t => t.Text == text)\n                    orderby i.CreatedDate descending\n                    select i;

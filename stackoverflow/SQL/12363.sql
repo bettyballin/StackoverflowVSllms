@@ -1,0 +1,1 @@
+select * from table \norder by FIELD(Code, 'Health', 'Phone', 'Freeze', 'Hot')

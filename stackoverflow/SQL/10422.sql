@@ -1,0 +1,1 @@
+SELECT t2.A2\n       , t2.B2\n       , t3.C2\n    FROM t1\n       , t2\n   WHERE (t2.A2 OR NOT T1.A1)\n     AND (t2.B2 OR NOT T1.B1)\n     AND (t2.C2 OR NOT T1.C1)\n;

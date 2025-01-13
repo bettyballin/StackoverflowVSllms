@@ -1,0 +1,1 @@
+import urllib2\nfrom BeautifulSoup import BeautifulSoup\n\nhtml = urllib2.urlopen("http://www.google.com").read()\nsoup = BeautifulSoup(html)\nall_links = soup.findAll("a")

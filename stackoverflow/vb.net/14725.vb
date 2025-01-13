@@ -1,0 +1,1 @@
+Dim m As Type = Type.GetType("mainARGQ.docCreator")\n    For Each TypeObj As Type In [Assembly].GetExecutingAssembly().GetTypes()\n        If TypeObj.BaseType Is m And TypeObj IsNot m Then\n            addTemplateToList(Activator.CreateInstance(TypeObj))\n        End If\n    Next

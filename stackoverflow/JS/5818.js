@@ -1,0 +1,1 @@
+$("#pass").blur(function() {\n            alert('#pass blur triggered');\n    });

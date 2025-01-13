@@ -1,0 +1,1 @@
+int count;\nif (isHere)\n    count = getHereCount(index);\nelse\n    count = getAwayCount(index);

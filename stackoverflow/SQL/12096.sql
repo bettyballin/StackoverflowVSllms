@@ -1,0 +1,1 @@
+SELECT TABLE_ROWS\nFROM information_schema.tables \nWHERE table_name='the_table_you_want' -- Can end here if only 1 DB \n  AND table_schema = DATABASE();      -- See comment below if > 1 DB

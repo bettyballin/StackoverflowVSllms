@@ -1,0 +1,1 @@
+XDocument loaded = XDocument.Load("myfile.xml");\n\nvar songs = from x in loaded.Descendants( "Song" )\nselect new\n{\n    Name = x.Descendants( "name" ).First().Value,\n    Category = x.Descendants( "artist" ).First().Value,\n    Genre = x.Descendants( "genre" ).First().Value,\n}; //Returns an anonymous custom type\n\nMyListView.DataSource = songs;  MyListView.DataBind();

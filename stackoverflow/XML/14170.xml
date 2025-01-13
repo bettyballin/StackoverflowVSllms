@@ -1,0 +1,1 @@
+<resultMap id="ResultMap1"  class="Hashtable"> \n      <result column="FirstName" property="FirstName" type="string" /> \n          <!-- shows up as "FirstName"  in the Hashtable --> \n      <result column="LastName" property="LastName" type="string" /> \n          <!-- shows up as "LastName"  in the Hashtable --> \n</resultMap> 

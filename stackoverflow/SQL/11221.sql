@@ -1,0 +1,1 @@
+Select A.Color, B.Color\nFrom Colors A\nCross Join Colors B\nWhere A.Color > B.Color

@@ -1,0 +1,1 @@
+window.open('url.htm','mywindow','width=400,height=200,left=0,top=100,screenX=0,screenY=100');

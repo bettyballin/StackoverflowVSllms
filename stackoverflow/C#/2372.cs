@@ -1,0 +1,1 @@
+<% using (Html.BeginForm( "PhotoAdd", "Photos", FormMethod.Post, new { enctype = "multipart/form-data" }))   { %>\n\n<input type="file" id="file" name="file" class="field" style="width:300px;"/>\n\n<%} %>

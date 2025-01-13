@@ -1,0 +1,1 @@
+var binaryData = File.ReadAllBytes(strFileName);

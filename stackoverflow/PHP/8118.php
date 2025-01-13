@@ -1,0 +1,1 @@
+$result = $sql->query($query);\n\n$prev_group = "";\n\nwhile($data = $result->fetch_assoc()){\n   $curr_group = $data['group'];\n   if ($curr_group !== $prev_group) {\n      echo "<h1>$curr_group</h1>";\n      $prev_group = $curr_group;\n    }\n    else {\n        echo $data;\n        .....\n     }

@@ -1,0 +1,1 @@
+class Element {\n/* ... */\n  std::list<boost::shared_ptr<Element> > children;\n/* ... */\n};

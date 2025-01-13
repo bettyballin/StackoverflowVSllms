@@ -1,0 +1,1 @@
+create tmp_table as select * from prod_schema.table@prod_db

@@ -1,0 +1,1 @@
+import hashlib\nm = hashlib.md5()\nfor line in open('data.txt', 'rb'):\n    m.update(line)\nprint m.hexdigest()\n##ouput\n1ab8ad413648c44aa9b90ce5abe50eea

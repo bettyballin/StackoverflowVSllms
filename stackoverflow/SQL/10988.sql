@@ -1,0 +1,1 @@
+USE AdventureWorks;\nGO\nWITH OrderedOrders AS\n(\n    SELECT SalesOrderID, OrderDate,\n    ROW_NUMBER() OVER (ORDER BY OrderDate) AS 'RowNumber'\n    FROM Sales.SalesOrderHeader \n) \nSELECT * \nFROM OrderedOrders \nWHERE RowNumber BETWEEN 10 AND 20;

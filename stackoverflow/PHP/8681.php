@@ -1,0 +1,1 @@
+$result = preg_match('/\n  ^ ([^(]+?)\n  (\s* \( ([^)]++) \))?\n  (\s* \[ ([^\]]++) \])?\n  \s*\n  $/x', $mystring, $matches);\n\nprint_r($matches);

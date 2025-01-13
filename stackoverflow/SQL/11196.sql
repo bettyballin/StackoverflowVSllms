@@ -1,0 +1,1 @@
+$query = "SELECT (Sqrt(min. Economy) x ( 1 + Sqrt(Distance)/75 + Sqrt(Players)/10 )    Sqrt(88) x ( 1 + Sqrt(23)/75 + Sqrt(23)/10 ) = 15 cred./h) as `Distance`, * FROM routes ORDER BY id DESC LIMIT 8;";

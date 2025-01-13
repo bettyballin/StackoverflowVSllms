@@ -1,0 +1,1 @@
+$dates[] = bcmul("1000", strtotime($strippedTexts));

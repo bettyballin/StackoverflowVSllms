@@ -1,0 +1,1 @@
+$db_connection = new mysqli("localhost", "user", "pass", "db");\n$statement = $db_connection->prepare("SELECT thing FROM stuff WHERE id = ?");\n$statement->bind_param("i", $user_id); //$user_id is an integer which goes \n                                       //in place of ?\n$statement->execute();

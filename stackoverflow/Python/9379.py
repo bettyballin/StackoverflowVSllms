@@ -1,0 +1,1 @@
+>>> names['f'] = open('foo', 'w+')\n>>> safe_eval.safe_eval("baz = type(f)('baz', 'w+')", names)\n>>> names['baz']\n<open file 'baz', mode 'w+' at 0x413da0>

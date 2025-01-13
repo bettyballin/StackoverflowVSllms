@@ -1,0 +1,1 @@
+sorted(list_of_dicts, key=lambda d: (d['Name'] == 'TOTAL', d['Name'].lower()))

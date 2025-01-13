@@ -1,0 +1,1 @@
+CustomAudioNotification\n  *customNotification = new CustomAudioNotification(); \n  SESSION->RegisterSessionNotification(customNotification);

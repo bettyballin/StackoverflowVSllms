@@ -1,0 +1,1 @@
+SELECT p.surname, r.start_date, r.end_date, COUNT(DISTINCT c.id) AS counter\nFROM ejl_players p\n JOIN ejl_registration r ON (r.player_id = p.id)\n JOIN ejl_teams t ON (r.team_id = t.id)\n JOIN ejl_clubs c ON (t.club_id = c.id)\nWHERE r.season = '2008'\nGROUP BY p.id\nHAVING counter > 1;

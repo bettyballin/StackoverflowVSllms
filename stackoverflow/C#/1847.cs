@@ -1,0 +1,1 @@
+var xml = "<item attr=\"some attribute\"><description>anything</description></item>";\nvar ds = new DataSet();\n\nds.ReadXml( new StringReader( xml ), XmlReadMode.Auto );\n\nvar ia = ds.Tables[0].Rows[0].ItemArray;\nvar att = ia[1]; // att == "some attribute"

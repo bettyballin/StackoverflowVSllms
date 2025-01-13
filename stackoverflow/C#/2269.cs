@@ -1,0 +1,1 @@
+//this is from memory, you might need to check it\noverride void Render(HtmlTextWriter writer) {\n\nStringWriter html = new StringWriter();\nHtmlTextWriter render = new HtmlTextWriter(html);\nbase.Render(render);\nstring output = html.ToString()\n\n//make your changes to output\n//output = ???\n\nwriter.Write(output);\n\n}

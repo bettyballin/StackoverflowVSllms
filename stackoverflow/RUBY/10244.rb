@@ -1,0 +1,1 @@
+#the command is: rake:db:load\nnamespace :db do\n  desc 'Initialize data from YAML.'\n  task :load => :environment do\n    require 'active_record/fixtures'\n    Dir.glob(RAILS_ROOT + '/db/seeds/*.yml').each do |file|\n      Fixtures.create_fixtures('db/seeds', File.basename(file, '.*'))\n    end\n  end\nend

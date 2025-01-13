@@ -1,0 +1,1 @@
+Item.objects.filter(...).select_related("location")

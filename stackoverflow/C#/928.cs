@@ -1,0 +1,1 @@
+var xml = new XmlDocument();\nxml.LoadXml( "your xml" );\nvar names = new XmlNamespaceManager( xml.NameTable );\nnames.AddNamespace( "xsi", "http://www.w3.org/2001/XMLSchema-instance" );\nnames.AddNamespace( "a", "http://tempuri.org/" );\nvar nodes = xml.SelectNodes( "//a:anyType[@xsi:type='Document']", names );

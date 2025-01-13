@@ -1,0 +1,1 @@
+select customer, order from Customer customer, Order order \n    where order.CustomerID = customer.Id\n    and customer.Id = 42

@@ -1,0 +1,1 @@
+Dim uniqueItems As New ListItemCollection()\nFor Each myItem As ListItem In listitems\n    If Not unique.Contains(myItem) Then\n        unique.Add(myItem)\n    End If\nNext

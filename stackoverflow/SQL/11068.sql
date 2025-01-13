@@ -1,0 +1,1 @@
+ALTER TABLE dbo.Entries\n   ADD DateOnly as CAST(CompositionDate AS DATE) PERSISTED\n\nCREATE UNIQUE INDEX UX_Entries ON Entries(DateOnly, Slug)

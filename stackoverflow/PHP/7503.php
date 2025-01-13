@@ -1,0 +1,1 @@
+copy('http://somedomain.com/file.jpeg', '/tmp/file.jpeg');

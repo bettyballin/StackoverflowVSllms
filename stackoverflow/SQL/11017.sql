@@ -1,0 +1,1 @@
+SELECT  COALESCE(sub1.id, sub2.id), COALESCE(sub1.date, sub2.date)\nFROM    sub1\nFULL OUTER JOIN\n        sub2\nON      sub1.id = sub2.id

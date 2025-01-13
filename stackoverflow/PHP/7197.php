@@ -1,0 +1,1 @@
+header('Content-type: application/vnd.ms-excel; charset=yourcharset');\nheader('Content-Disposition: attachment; filename=yourfilename.xls");

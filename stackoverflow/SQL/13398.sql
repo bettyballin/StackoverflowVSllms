@@ -1,0 +1,1 @@
+DATEDIFF(second, dtStart, dtEnd) / (3600.0)

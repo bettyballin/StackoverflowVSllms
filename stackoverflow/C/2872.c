@@ -1,0 +1,1 @@
+vector <int> v( 100 );\nint * p = &v[0];\np[3] = 42;

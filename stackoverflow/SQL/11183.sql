@@ -1,0 +1,1 @@
+CREATE PROCEDURE TemplateSelector \n(   \n    @template varchar(40),\n    @code varchar(80)\n)\n\nAS\nEXEC('SELECT * FROM ' + @template + ' WHERE ProductionCode = ' + @code)

@@ -1,0 +1,1 @@
+class Base { \npublic:\n  virtual ~Base(){}\n  virtual void DoSomething() = 0;\n}\n\ntemplate <class T> class MyClass : public Base {\npublic:\n    void DoSomething(){}\n};\n\nstd::vector<Base *> objects;\nobjects.push_back(new MyClass<int>);\nobjects.push_back(new MyClass<char>);

@@ -1,0 +1,1 @@
+SELECT\n  Value,\n  ValueDate\nFROM\n  Data\nWHERE\n  ValueDate >= \n  (\n    SELECT \n      CONVERT(DATETIME, MIN(TruncatedDate))\n    FROM \n      (\n         SELECT DISTINCT TOP 5 \n           CONVERT(VARCHAR, ValueDate, 102) TruncatedDate\n         FROM \n           Event\n         ORDER BY \n           TruncatedDate DESC\n      ) d\n  )\nORDER BY\n  ValueDate DESC

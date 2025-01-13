@@ -1,0 +1,1 @@
+where (grp1 >= grp2 and grp2 >= grp3 ...)

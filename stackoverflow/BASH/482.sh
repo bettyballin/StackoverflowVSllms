@@ -1,0 +1,1 @@
+./generate_classes_from_db <host> <database> [tables] [output dir]

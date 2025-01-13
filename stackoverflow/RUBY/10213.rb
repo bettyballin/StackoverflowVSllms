@@ -1,0 +1,1 @@
+:after_update_element => "trimSelectedItem"

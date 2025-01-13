@@ -1,0 +1,1 @@
+<pre>\n// Flex doesn't know how to generate an HTTP DELETE.\n// Fortunately, sMash/Zero will interpret an HTTP POST with\n// an X-Method-Override: DELETE header as a DELETE.\ndeleteTodoHS.headers['X-Method-Override'] = 'DELETE';</pre>

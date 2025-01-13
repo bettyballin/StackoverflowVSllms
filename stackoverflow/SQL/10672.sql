@@ -1,0 +1,1 @@
+SELECT answers.id, answers.answer FROM answers, a_lookup, questions WHERE\n answers.id=a_lookup.a_id AND '$i'=a_lookup.q_id AND '$i' = questions.id;

@@ -1,0 +1,1 @@
+<?php\nclass Profile {\n    const LABEL_FIRST_NAME = "First Name";\n    const LABEL_LAST_NAME = "Last Name";\n    const LABEL_COMPANY_NAME = "Company";\n}\n\n\n$refl = new ReflectionClass('Profile');\nprint_r($refl->getConstants());

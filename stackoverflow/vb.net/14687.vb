@@ -1,0 +1,1 @@
+Public Overrides Function ToString() As String\n   Return string.Format("{0}{1}", _Name, IIF(_Optional, " (Optional)", ""))\nEnd Functio

@@ -1,0 +1,1 @@
+def create\n  @post = current_user.posts.build(params[:post])\n  if @post.save\n    ...\n  else\n    ...\n  end\nend

@@ -1,0 +1,1 @@
+navigator.userAgent.indexOf("WOW64") > -1

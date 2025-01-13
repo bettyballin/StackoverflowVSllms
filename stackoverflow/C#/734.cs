@@ -1,0 +1,1 @@
+string myResult = "<?xml blahblahblah>";\nXDocument doc = XDocument.Parse(myResult);

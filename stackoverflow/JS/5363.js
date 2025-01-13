@@ -1,0 +1,1 @@
+// ==UserScript==\n// @name           Google Clk\n// @namespace      googleclk\n// @description    Disable Google click tracking\n// @include        http://*google.com/*\n// ==/UserScript==\n// Override google's clk() function, which reports all clicks back to google\nunsafeWindow.clk = function(url) {} // { alert(url); } // I use this to test.

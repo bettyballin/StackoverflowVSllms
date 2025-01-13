@@ -1,0 +1,1 @@
+Imports System.ComponentModel\n\nPublic Class UserControl1\n\n    Private mAardvark As Integer\n\n    <DefaultValue(0)> _\n    Public Property Aardvark() As Integer\n        Get\n            Return mAardvark\n        End Get\n        Set(ByVal value As Integer)\n            mAardvark = value\n        End Set\n    End Property\nEnd Class

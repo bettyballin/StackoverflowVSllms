@@ -1,0 +1,1 @@
+expdp system/password@XE DUMPFILE=expfull.dmp FULL=y<br />\nimpdp system/password@XE DUMPFILE=expfull.dmp FULL=y

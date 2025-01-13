@@ -1,0 +1,1 @@
+$userdata = $session->read('Auth.User');\n$username = $session->read('Auth.User.username');

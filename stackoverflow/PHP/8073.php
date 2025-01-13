@@ -1,0 +1,1 @@
+// almost everything can be a chain\n$li = null;\n$doc['ul > li']\n        ->addClass('my-new-class')\n        ->filter(':last')\n                ->addClass('last-li');

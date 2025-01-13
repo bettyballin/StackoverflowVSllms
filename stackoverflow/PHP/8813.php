@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\nif (isset($_POST['username'], $_POST['password']) {\n    $_SESSION['username'] = $_POST['username'];\n    $_SESSION['password'] = $_POST['password'];\n    echo '<a href="nextpage.php">Click to continue.</a>';\n} else {\n    // form\n}\n?>

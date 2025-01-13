@@ -1,0 +1,1 @@
+$data = 'ffmpeg output';\n$matches = array();\n\nif (!preg_match('/Stream #(?:[0-9\.]+)(?:.*)\: Video: (?P<videocodec>.*) (?P<width>[0-9]*)x(?P<height>[0-9]*)/',$data,$matches)\n   preg_match('/Could not find codec parameters \(Video: (?P<videocodec>.*) (?P<width>[0-9]*)x(?P<height>[0-9]*)\)/',$data,$matches)

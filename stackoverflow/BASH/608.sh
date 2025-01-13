@@ -1,0 +1,1 @@
+RewriteCond %{HTTP_HOST} ^www.prettyurl.com$\nRewriteRule ^reservations$ https://uglyURL.com/istay/istay.jsp?%2 [QSA,L]

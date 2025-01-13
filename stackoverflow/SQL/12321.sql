@@ -1,0 +1,1 @@
+SELECT DISTINCT\n     t.SchedID\n    ,level as PaymentNum\n    ,add_months(T.StartDate,level - 1) as DueDate\n    ,(level * t.PaymentAmt) as RunningTotal\nFROM SchedTest t\nCONNECT BY level <= (t.Term / t.Frequency)\nORDER BY t.SchedID, level

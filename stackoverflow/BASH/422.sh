@@ -1,0 +1,1 @@
+compare first.jpg second.png difference.gif

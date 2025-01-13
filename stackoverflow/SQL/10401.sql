@@ -1,0 +1,1 @@
+DATALENGTH(<fieldname>)

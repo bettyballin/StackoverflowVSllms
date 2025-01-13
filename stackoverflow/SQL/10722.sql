@@ -1,0 +1,1 @@
+alter table events engine = MyISAM;

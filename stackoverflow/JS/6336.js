@@ -1,0 +1,1 @@
+var obj = {}; // this object will hold key-value pairs of elem attributes\nvar attribs = $('#elem')[0].attributes;\nfor (var i = 0; i < attribs.length; i++) {\n    obj[attribs[i].name] = attribs[i].value;\n}

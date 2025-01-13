@@ -1,0 +1,1 @@
+onload="resize_image(self.id);return true"

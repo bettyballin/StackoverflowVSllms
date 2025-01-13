@@ -1,0 +1,1 @@
+SELECT * FROM (\n    SELECT @rownum:=@rownum+1 AS rownum, e.*\n    FROM (SELECT @rownum := 0) r, entries e) AS e2\nWHERE uid = ? AND rownum % 150 = 0;

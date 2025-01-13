@@ -1,0 +1,1 @@
+function getScrollSizes() { // call after document is finished loading\n    var el= document.createElement('div');\n    el.style.visibility= 'hidden';\n    el.style.overflow= 'scroll';\n    document.body.appendChild(el);\n    var w= el.offsetWidth-el.clientWidth;\n    var h= el.offsetHeight-el.clientHeight;\n    document.body.removeChild(el);\n    return new Array(w, h);\n}

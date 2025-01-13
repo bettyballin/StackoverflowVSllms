@@ -1,0 +1,1 @@
+SELECT SUM(qty) GROUP BY order_number

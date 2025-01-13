@@ -1,0 +1,1 @@
+CompileAssemblyFromDom\nCompileAssemblyFromFile\nCompileAssemblyFromSource

@@ -1,0 +1,1 @@
+using (var db = new MyDataContext())\n{\n    var row = db.MyTable.Single(x => x.Id == tableId);  // Getting the row\n\n    row.Column = columnNewValue;  // Assign the new value\n\n    try\n    {\n        db.SubmitChanges();\n    }\n    catch (ChangeConflictException)\n    {\n        db.ChangeConflicts.ResolveAll(RefreshMode.KeepChanges);\n        db.SubmitChanges();\n    }\n}

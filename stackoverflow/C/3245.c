@@ -1,0 +1,1 @@
+IGetTestPtr p = null; \nHRESULT hRes = p.CreateInstance( __uuidof(tester) );\nbool bSuccess = SUCCEEDED(hRes);

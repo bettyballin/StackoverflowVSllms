@@ -1,0 +1,1 @@
+WebRequest webRequest = WebRequest.Create("http://stackoverflow.com/");\nwebRequest.Proxy = new WebProxy("http://proxyserver:80/",true);

@@ -1,0 +1,1 @@
+// DON'T do this! Code is just representative on how things were done\n<script language="javascript">\n<!--\n   // code here\n//-->\n</script>

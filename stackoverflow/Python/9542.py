@@ -1,0 +1,1 @@
+from django.db.models import Max\nPeople.objects.annotate(max_weight=Max('roles__weight')).order_by('-max_weight')

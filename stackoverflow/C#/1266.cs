@@ -1,0 +1,1 @@
+public class Name\n{\n  public string FirstName;\n  public string LastName;\n}\n\n[WebMethod]\npublic Name GetName()\n{\n  Name name = new Name();\n\n  name.FirstName = "Dave";\n  name.LastName = "Ward";\n\n  return name;\n}

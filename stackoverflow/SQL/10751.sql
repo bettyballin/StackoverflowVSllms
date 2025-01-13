@@ -1,0 +1,1 @@
+SELECT p.id, r.status, r.title\nFROM page AS p\n    INNER JOIN page_revision as r ON r.pageId = p.id AND \n        r.id = (SELECT r2.id \n                FROM page_revision as r2 \n                WHERE r2.pageId = r.pageId \n                ORDER BY r2.status, r2.id DESC\n                LIMIT 1)

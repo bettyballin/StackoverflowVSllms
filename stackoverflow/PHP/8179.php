@@ -1,0 +1,1 @@
+$name = 'mybigfile.zip';\n$fp = fopen($name, 'rb');\n\n// send the right headers\nheader("Content-Type: application/zip");\nheader("Content-Length: " . filesize($name));\n\n// dump the file and stop the script\nfpassthru($fp);\nexit;

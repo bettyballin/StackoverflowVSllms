@@ -1,0 +1,1 @@
+map => map.HasOne(x => x.Person)\n     .PropertyRef(x => x.FileData)\n     .Constrained();

@@ -1,0 +1,1 @@
+url: "/GetPlans/" + rid + "/" + year

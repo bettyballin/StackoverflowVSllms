@@ -1,0 +1,1 @@
+perl -e {`ssh user@server "command"`}

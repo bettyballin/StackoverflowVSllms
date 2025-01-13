@@ -1,0 +1,1 @@
+YourTextbox.Text = temp.ToString("0%")

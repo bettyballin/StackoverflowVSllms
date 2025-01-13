@@ -1,0 +1,1 @@
+find . | awk '!/((\.jpeg)|(\.jpg)|(\.png))$/ {print $0;}' | xargs grep "B206"

@@ -1,0 +1,1 @@
+t.column :admin, :boolean, :default => false, :null => false

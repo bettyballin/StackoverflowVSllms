@@ -1,0 +1,1 @@
+$mysqli = new mysqli("localhost", "my_user", "my_password", "world");\n\n$stmt = $mysqli->prepare("call tv_check_email(?)");\n$stmt->bind_param('s', "shyju@techies.com");\n$stmt->execute();\n\n$stmt->bind_result($userid);\n\nwhile ($stmt->fetch()) {\n  printf("User ID: %d\n", $userid);\n}\n\n$stmt->close();\n$mysqli->close();

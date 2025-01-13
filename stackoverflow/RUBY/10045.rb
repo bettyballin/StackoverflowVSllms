@@ -1,0 +1,1 @@
+library(RODBC)\nMDB <- odbcConnectAccess("database.mdb")\nsqlSave(channel = MDB, dat = sims, tablename = "tblSimulation", append = TRUE, rownames = FALSE)\nodbcClose(MDB)

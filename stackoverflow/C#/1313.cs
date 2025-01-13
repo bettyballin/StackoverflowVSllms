@@ -1,0 +1,1 @@
+TcpClient tcpc = new TcpClient();\ntry\n{\n    tcpc.Connect("10.250.50.30", 1433);\n    return true;\n}\ncatch\n{\n    return false;\n}

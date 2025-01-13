@@ -1,0 +1,1 @@
+var allItems = (new [] {"Table", "Chair", "TV", "Fireplace", "Bed"});\nvar hasItems = (new [] {"Table", "Chair"});\n\nvar hasList = hasItems.ToList();\nvar needsList = allItems.Except(hasItems).ToList();

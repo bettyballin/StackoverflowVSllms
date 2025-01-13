@@ -1,0 +1,1 @@
+Dim i as Integer = 0\nDo While i < intLine\n    lblAsterisks.Text = lblAsterisks.Text + "*"\n    i = i + 1\nLoop

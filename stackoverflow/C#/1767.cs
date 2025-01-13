@@ -1,0 +1,1 @@
+private static bool IsValidDomainName(string name)\n{\n    return Uri.CheckHostName(name) != UriHostNameType.Unknown;\n}

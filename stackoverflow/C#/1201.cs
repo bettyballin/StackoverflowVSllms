@@ -1,0 +1,1 @@
+Assembly commandAssembly = Assembly.Load("some/path")\n var commands = new List<ICommand>();\n\n foreach (Type type in commandAssembly.GetTypes())\n {\n    if (type.GetInterface(typeof(ICommand).FullName) != null)\n    {\n       commands.Add((ICommand)Activator.CreateInstance(type));\n    }\n }

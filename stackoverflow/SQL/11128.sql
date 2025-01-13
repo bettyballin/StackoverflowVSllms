@@ -1,0 +1,1 @@
+select id, first, last from mytable\nwhere first != upper(first) or last != upper(last);

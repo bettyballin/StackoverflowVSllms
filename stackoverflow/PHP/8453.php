@@ -1,0 +1,1 @@
+$allViews[] = array($resultV["date"] => $resultV["count"]);

@@ -1,0 +1,1 @@
+CREATE TABLE session (\n    ID int unsigned NOT NULL PRIMARY KEY AUTO_INCREMENT,\n    Hash binary(16) NOT NULL,\n    User int unsigned NOT NULL,\n    Created timestamp \n);

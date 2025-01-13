@@ -1,0 +1,1 @@
+UPDATE Foo\n    SET (a, b, c, d)\n      = (w, x, y, z);

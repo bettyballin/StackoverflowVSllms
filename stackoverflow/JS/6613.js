@@ -1,0 +1,1 @@
+$("input#title").get(0).setAttribute("max_length", 25);\n$("input#title").get(0).setAttribute(\n                        "onkeypress", \n                        "return limitMe(event, this)");\nfunction limitMe(evt, txt) {\n    if (evt.which && evt.which == 8) return true;\n    else return (txt.value.length < txt.getAttribute("max_length");\n}

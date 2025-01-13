@@ -1,0 +1,1 @@
+grant execute on dbms_flashback to public;\ngrant flashback any table to public;

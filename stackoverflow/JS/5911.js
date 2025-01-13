@@ -1,0 +1,1 @@
+$('div.blueBoxMid ul li').each(function () {\n    var tooltip = $(this).children('em').remove().text();\n    $(this).attr('title', tooltip).css('cursor', 'help');\n});

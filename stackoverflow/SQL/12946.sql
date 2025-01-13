@@ -1,0 +1,1 @@
+select [Order qty] from [Client sales]

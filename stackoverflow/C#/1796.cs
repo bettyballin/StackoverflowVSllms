@@ -1,0 +1,1 @@
+xmlReaderSettings.ValidationFlags =\n    XmlSchemaValidationFlags.ReportValidationWarnings |\n    XmlSchemaValidationFlags.ProcessIdentityConstraints |\n    XmlSchemaValidationFlags.ProcessInlineSchema |\n    XmlSchemaValidationFlags.ProcessSchemaLocation;

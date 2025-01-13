@@ -1,0 +1,1 @@
+reader = sqlcmd.ExecuteReader()    \nresult = reader.GetString(0)

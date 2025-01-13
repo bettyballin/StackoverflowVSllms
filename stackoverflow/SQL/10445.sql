@@ -1,0 +1,1 @@
+WITH Result AS\n(\n  SELECT Row_Number() OVER (PARTITION BY ItemId, Year\nORDER BY ItemversionId DESC) AS RowNumber\n      ,ItemId\n      ,ItemversionId\n      ,Year\n      ,Value\n  FROM table\n)\nSELECT ItemId\n  ,ItemversionId\n  ,Year\n  ,Value\nFROM Result\nWHERE RowNumber = 1\nORDER BY ItemId, Year

@@ -1,0 +1,1 @@
+<title><?php echo $offer22name ?>is a magazine</title>

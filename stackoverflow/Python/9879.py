@@ -1,0 +1,1 @@
+source = open("PALTemplateData.csv","rb")\nreader = csv.reader(source , dialect)\n\ntarget = open("AnotherFile.csv","wb")\nwriter = csv.writer(target , dialect)

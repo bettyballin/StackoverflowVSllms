@@ -1,0 +1,1 @@
+file_put_contents("./nin.txt",var_export($_FILES,true));

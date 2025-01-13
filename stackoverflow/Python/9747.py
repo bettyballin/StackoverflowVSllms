@@ -1,0 +1,1 @@
+from tendo import singleton\nme = singleton.SingleInstance() # will sys.exit(-1) if other instance is running

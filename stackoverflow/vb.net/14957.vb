@@ -1,0 +1,1 @@
+Dim dtp as DateTimePicker = TryCast(ctrl, DateTimePicker)\nIf dtp IsNot Nothing then dtp.Value = Now()

@@ -1,0 +1,1 @@
+preg_replace_callback ('...', array($this, 'callback_function'), $textToReplace);

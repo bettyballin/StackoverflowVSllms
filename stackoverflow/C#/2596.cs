@@ -1,0 +1,1 @@
+protected virtual void DataCollectionWizard_PreviousButtonClick(object sender, WizardNavigationEventArgs e)\n    {\n        //manually validate the page, as the automatic validation seems to ignore CustomValidators\n        Page.Validate("wizardGroup");\n\n        if (!Page.IsValid)\n        {\n            e.Cancel = true;\n        }\n    }

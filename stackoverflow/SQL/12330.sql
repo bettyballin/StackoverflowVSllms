@@ -1,0 +1,1 @@
+CREATE TABLE table1 (\n  id INT,\n  name VARCHAR(20)\n);\n\nCREATE TABLE table2 (\n  id INT,\n  name VARCHAR(20)\n);

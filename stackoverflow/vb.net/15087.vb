@@ -1,0 +1,1 @@
+Public Property AssetId() As Int32 Implements IAsset.AssetId\n    Get\n        Return Id1\n    End Get\n    Set(ByVal value As Int32)\n        Id1 = value\n    End Set\nEnd Property

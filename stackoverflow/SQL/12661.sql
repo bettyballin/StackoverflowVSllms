@@ -1,0 +1,1 @@
+insert into MY_DATA.table_name select * from CORE_DATA.table_name;

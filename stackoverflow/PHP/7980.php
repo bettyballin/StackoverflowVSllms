@@ -1,0 +1,1 @@
+<?php\nfunction getValue($cn, $comando) {\n    $resul = $cn->query($comando);\n    if (!$resul) return null;\n    foreach ($resul->fetchAll() as $res) {\n            $retorno = $res[0];\n            break;\n    }\n    return $retorno;\n}\n?>

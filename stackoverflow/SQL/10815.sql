@@ -1,0 +1,1 @@
+CREATE PROCEDURE dbo.MyProcedure \n   @Param BIT = NULL\nAS\n   SELECT *\n   FROM dbo.SomeTable T\n   WHERE T.SomeColumn = @Param OR @Param IS NULL

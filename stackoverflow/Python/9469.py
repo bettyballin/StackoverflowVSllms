@@ -1,0 +1,1 @@
+from mod_python import apache\napache.log_error("INTERPRETER %s" % apache._interpreter)

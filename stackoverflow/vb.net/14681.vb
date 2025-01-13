@@ -1,0 +1,1 @@
+Dim repeatTimes() As Integer = New Integer(){1, 2, 3}\nmyRepeater.DataSource = repeatTimes\nmyRepeater.DataBind()

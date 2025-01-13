@@ -1,0 +1,1 @@
+$last = null;\nwhile ($current = getnext()) {\n    if ($last == $current) {\n        push($toDelete, $current);\n    }\n    $last = $current;\n}

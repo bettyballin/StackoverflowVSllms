@@ -1,0 +1,1 @@
+echo "<img src=\"".$row['PIC_URL']."\">";

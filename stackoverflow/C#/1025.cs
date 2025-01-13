@@ -1,0 +1,1 @@
+HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://news.bbc.co.uk");\n //request.Proxy = null; // uncomment this to bypass the default (IE) proxy settings\n HttpWebResponse response = (HttpWebResponse)request.GetResponse();\n\n Console.WriteLine("Done - press return");\n Console.ReadLine();

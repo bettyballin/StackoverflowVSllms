@@ -1,0 +1,1 @@
+using (SqlConnection conn = new SqlConnection (...))\n{\n    // Whatever happens in here, the connection is \n    // disposed of (closed) at the end.\n}

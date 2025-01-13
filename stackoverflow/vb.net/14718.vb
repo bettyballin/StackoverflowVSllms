@@ -1,0 +1,1 @@
+Dim Temp As String\n\nIf Not IsNull([Conference]) Then\n  Temp = Temp & [Conference] & " - "\nEnd If\n\nIf Not IsNull([Speaker]) Then\n  Temp = Temp & [Speaker] & " - "\nEnd If\n\nIf Not IsNull(partstr) Then\n  Temp = Temp & partstr & " - "\nEnd If\n\nIf Temp > "" then\n  Me.Title.Value = Left(Temp, Len(Temp) - 3)\nElse\n  Me.Title.Value = Null\nEnd If

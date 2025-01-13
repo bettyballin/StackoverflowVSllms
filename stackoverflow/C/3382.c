@@ -1,0 +1,1 @@
+int sum() {\n   return 5 + 6;\n}

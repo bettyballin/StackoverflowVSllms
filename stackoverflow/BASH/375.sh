@@ -1,0 +1,1 @@
+gci HKLM:\Software\Classes -ea 0| ? {$_.PSChildName -match '^\w+\.\w+$' -and\n(gp "$($_.PSPath)\CLSID" -ea 0)} | ft PSChildName

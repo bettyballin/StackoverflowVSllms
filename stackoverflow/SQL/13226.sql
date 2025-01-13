@@ -1,0 +1,1 @@
+SELECT\n    *\nFROM\n    source\nWHERE\n    (\n        SELECT COUNT(DISTINCT value)\n        FROM params\n        WHERE params.source = source.id\n          AND params.value IN (1, 2, 3)\n    ) = 3

@@ -1,0 +1,1 @@
+Class Deck\n    Public cards(51) As Card\n\n    Public Sub New()\n        For i As Integer = 0 To cards.Length-1\n            cards(i) = New Card()\n        Next\n    End Sub\nEnd Class

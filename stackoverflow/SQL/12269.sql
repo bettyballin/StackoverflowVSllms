@@ -1,0 +1,1 @@
+DECLARE @id int\nBEGIN TRAN\n\n    SELECT @id = MAX(id) + 1 FROM Table1 WITH (UPDLOCK, HOLDLOCK)\n    INSERT INTO Table1(id, data_field)\n    VALUES (@id ,'[blob of data]')\nCOMMIT TRAN

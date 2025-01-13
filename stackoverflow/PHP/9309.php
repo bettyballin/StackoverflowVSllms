@@ -1,0 +1,1 @@
+sendmail_path = /usr/sbin/sendmail -i -t    \nor\nsendmail_path = /usr/lib/sendmail -i -t   

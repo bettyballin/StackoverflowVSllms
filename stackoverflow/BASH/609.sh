@@ -1,0 +1,1 @@
+%windir%\microsoft.net\framework\v1.1.4322\aspnet_regiis -s W3SVC/[iisnumber]/ROOT

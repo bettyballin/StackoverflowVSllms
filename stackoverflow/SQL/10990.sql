@@ -1,0 +1,1 @@
+select T.ColA, T.ColB, T.ColC \nfrom T\ninner join\n   (select ColA, max(TopColumn) MaxTopColumn\n   from T\n   group by ColA) OrderedTable\n   on T.ColA = OrderedTable.ColA and T.TopColumn = OrderedTable.MaxTopColum

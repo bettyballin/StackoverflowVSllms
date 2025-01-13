@@ -1,0 +1,1 @@
+#include <unistd.h>\n\n   pid_t setsid(void);

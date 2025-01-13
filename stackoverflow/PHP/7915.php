@@ -1,0 +1,1 @@
+set_time_limit(0);\nignore_user_abort(1);

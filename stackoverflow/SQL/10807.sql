@@ -1,0 +1,1 @@
+CREATE VIEW IpToCountry\nAS\nSELECT * FROM IpToCountry20090303

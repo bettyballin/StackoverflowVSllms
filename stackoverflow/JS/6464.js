@@ -1,0 +1,1 @@
+var myData = [ { id: 4, setting: 2 }, [ id:3, setting:1 ] };\n\n$("#myitem").data("mydata", myData);

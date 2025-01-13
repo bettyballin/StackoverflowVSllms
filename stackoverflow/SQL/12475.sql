@@ -1,0 +1,1 @@
+`payer_email` NOT IN (SELECT `email` FROM `database2`.`Unsubscribers`)

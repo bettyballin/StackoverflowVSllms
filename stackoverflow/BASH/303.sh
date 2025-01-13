@@ -1,0 +1,1 @@
+ssh me@other.net 'svn co http://repository/svn/project /var/www/project'

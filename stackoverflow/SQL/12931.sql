@@ -1,0 +1,1 @@
+select user_id from users where md5(concat(username, password)) = 'TOKEN_HERE'

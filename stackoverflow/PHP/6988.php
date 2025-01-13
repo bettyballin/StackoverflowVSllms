@@ -1,0 +1,1 @@
+json_decode('{["foo", "bar", "baz"]}');\njson_decode('["foo", "bar", "baz"]'); //I think this would work

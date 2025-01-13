@@ -1,0 +1,1 @@
+PRINT PWDEncrypt('abc')\n<br>PRINT PWDEncrypt('abc')\n<br>PRINT PWDEncrypt('aaa')\n<br>PRINT PWDEncrypt('bbb')

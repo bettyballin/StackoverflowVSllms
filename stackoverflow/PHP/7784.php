@@ -1,0 +1,1 @@
+$fp = fopen($strresume, "rb"); \n$file = fread($fp, $strresume_size); 

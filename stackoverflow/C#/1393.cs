@@ -1,0 +1,1 @@
+public class Contact {\n    [Required]\n    string Name { get; set; }\n}\n\npublic class ContactView {\n    public Contact Contact { get; set; }\n    public string SomeOtherViewProperty { get; set; }\n}

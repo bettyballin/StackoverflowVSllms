@@ -1,0 +1,1 @@
+objcopy --only-keep-debug "${tostripfile}" "${debugdir}/${debugfile}"\nstrip --strip-debug --strip-unneeded "${tostripfile}"\nobjcopy --add-gnu-debuglink="${debugdir}/${debugfile}" "${tostripfile}"

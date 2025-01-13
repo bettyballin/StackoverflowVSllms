@@ -1,0 +1,1 @@
+function runFunction(name, arguments)\n{\n    var fn = window[name];\n    if(typeof fn !== 'function')\n        return;\n\n    fn.apply(window, arguments);\n}\n\n//If you have following function\n\nfunction foo(msg)\n{\n    alert(msg);\n}\n\n//You can call it like\n\nrunFunction('foo', ['test']); //alerts test.

@@ -1,0 +1,1 @@
+Public Class Class1\n\n\n    Dim s As String = "test " + "this " + "function"\n\n    Public Function test() As String\n        Return s\n    End Function\n\nEnd Class

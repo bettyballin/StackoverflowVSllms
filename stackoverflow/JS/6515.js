@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('#job_id').change(function() {\n        $.post('/surveys/jobdetails', {id: $(this).attr('id')},\n        function(result) {\n            $('#job_id').html(result);\n        });\n    })\n    .change();\n});

@@ -1,0 +1,1 @@
+[CompanyName].[SolutionName].[ProjectName]

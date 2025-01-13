@@ -1,0 +1,1 @@
+function createArticle($title, ...) {\n  $article->setTitle($title);\n  ...\n  $article->save();\n  createRSS();\n}

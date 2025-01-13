@@ -1,0 +1,1 @@
+named_scope :tagged_with, lambda { |tags| YourModel.find_options_for_find_tagged_with(tags) }

@@ -1,0 +1,1 @@
+from BeautifulSoup import BeautifulSoup\nhtml = "<p><ul><li>Foo"\nsoup = BeautifulSoup(html)\nprint soup.prettify()

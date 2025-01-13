@@ -1,0 +1,1 @@
+sql = ""\nsource = File.new("./sql/procedures.sql", "r")\nwhile (line = source.gets)\n  sql << line\nend\nsource.close\nexecute sql

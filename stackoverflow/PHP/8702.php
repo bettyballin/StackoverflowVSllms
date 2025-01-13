@@ -1,0 +1,1 @@
+<?php\n/*\nTemplate Name: Discusses Template\n*/\n?>

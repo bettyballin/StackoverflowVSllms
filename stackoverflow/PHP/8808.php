@@ -1,0 +1,1 @@
+string uniqid ([ string $prefix [, bool $more_entropy ]] )

@@ -1,0 +1,1 @@
+CREATE TABLE test.foo (id SERIAL PRIMARY KEY) TYPE=InnoDB;\n\nCREATE DATABASE test2;\nCREATE TABLE test2.bar (foo_id BIGINT UNSIGNED, \n    FOREIGN KEY (foo_id) REFERENCES test.foo(id)) TYPE=InnoDB;\n\nSELECT * FROM test.foo f JOIN test2.bar b ON (f.id = b.foo_id);

@@ -1,0 +1,1 @@
+scala -cp /path/to/classfiles

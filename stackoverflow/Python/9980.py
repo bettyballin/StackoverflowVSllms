@@ -1,0 +1,1 @@
+try:\n   from skynet import SkyNet\n   inherit_from = SkyNet\nexcept ImportError:\n   inherit_from = object\n\nclass SelfAwareSkyeNet(inherit_from):\n    pass

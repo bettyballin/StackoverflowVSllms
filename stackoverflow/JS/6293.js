@@ -1,0 +1,1 @@
+$.post(postFile, { v2: _v2 , v: _v}, function(data){\n    $(wrapperId).slideUp('2000',function(){\n        $(this).html(data).slideDown();\n    }).html();\n});

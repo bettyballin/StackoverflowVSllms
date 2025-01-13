@@ -1,0 +1,1 @@
+SELECT B.Description, Total = COUNT(*) / CONVERT(money, (SELECT COUNT(*) FROM Target T2))\nFROM Target T\nJOIN (\n    SELECT  Description = '0 to 10', LBound = 0, UBound = 10 \n    UNION ALL \n    SELECT Description = '10 to 20', LBound = 10, UBound = 20\n) B ON T.Value >= LBound AND T.Value < B.UBound\nGROUP BY B.Descriptio

@@ -1,0 +1,1 @@
+mysql -e "select * from myTable" -u myuser -pxxxxxxxxx mydatabase

@@ -1,0 +1,1 @@
+$ time script.php\nHI!\n\nreal    0m3.218s\nuser    0m0.080s\nsys     0m0.064s

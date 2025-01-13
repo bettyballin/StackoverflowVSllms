@@ -1,0 +1,1 @@
+'check for empty return\nDim r = (From s In myEntity.employee Where employeeID = myEmployeeIDVariable)\n\n'If there is a record, then process\nIf r.Count() > 0 Then\n  . . . do stuff . . .\nEnd If

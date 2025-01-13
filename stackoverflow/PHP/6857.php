@@ -1,0 +1,1 @@
+//usage\n$xml = new XMLReader();\n$xml->XML($xmlString);\nwhile($xml->read)\n{\nif($xml->localName == 'Something') // check if tag name equals something\n{\n//do something\n}\n}

@@ -1,0 +1,1 @@
+public class QuestionsController : ControllerBase\n{\n    private IQuestionsRepository _repository = new SqlQuestionsRepository();\n\n    // Really only called during unit testing...\n    public QuestionsController(IQuestionsRepository repository)\n    {\n        _repository = repository;\n    }\n}

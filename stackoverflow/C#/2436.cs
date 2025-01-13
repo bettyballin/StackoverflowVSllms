@@ -1,0 +1,1 @@
+string s = "<?xml version=\"1.0\"?><tag1><tag2>Some text.</taagg2></tag1>";\nSystem.Xml.XmlDocument doc = new System.Xml.XmlDocument();\n\ntry\n{\n    doc.LoadXml(s);\n}\ncatch(System.Xml.XmlException ex)\n{\n    MessageBox.Show(ex.LineNumber.ToString());\n    MessageBox.Show(ex.LinePosition.ToString());\n}

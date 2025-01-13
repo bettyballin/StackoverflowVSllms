@@ -1,0 +1,1 @@
+new Element("script", {src: "myBigCodeLibrary.js", type: "text/javascript"});

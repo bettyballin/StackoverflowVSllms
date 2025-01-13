@@ -1,0 +1,1 @@
+div.menu div {\n    float: left;\n    clear: left;\n}\ndiv.menu div.right {\n    float: right;\n    clear: right;\n}

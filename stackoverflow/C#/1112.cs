@@ -1,0 +1,1 @@
+XAttribute attrib = new XAttribute("Foo", "12345");\n    int i = (int)attrib;\n    string s = (string)attrib;

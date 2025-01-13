@@ -1,0 +1,1 @@
+SQL> select add_months(date '2008-01-31',1) from dual;\n\nADD_MONTHS(\n-----------\n29-FEB-2008\n\nSQL> select add_months(date '2008-02-29',1) from dual;\n\nADD_MONTHS(\n-----------\n31-MAR-2008

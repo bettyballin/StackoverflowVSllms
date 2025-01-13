@@ -1,0 +1,1 @@
+Sub MakeSelectionBold()\n    DTE.ActiveDocument.Selection.Text = "<b>" + DTE.ActiveDocument.Selection.Text + "</b>"\nEnd Sub

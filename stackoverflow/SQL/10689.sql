@@ -1,0 +1,1 @@
+select count(*)+1 as rank from leaderboard  \nwhere score > (select score from leaderboard where userid = ?)

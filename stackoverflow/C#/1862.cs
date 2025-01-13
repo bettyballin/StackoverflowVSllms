@@ -1,0 +1,1 @@
+struct MyStruct\n{\n    public List<string> MyList;\n    public int MyInt;\n\n    public MyStruct(int myInt)\n    {\n        MyInt = myInt;\n        MyList = new List<string>();\n    }\n}

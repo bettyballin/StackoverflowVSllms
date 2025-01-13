@@ -1,0 +1,1 @@
+\nif (HttpContext.Current == null)

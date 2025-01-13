@@ -1,0 +1,1 @@
+module Mods\n  def self.foo\n     puts "Mods.foo(self)"\n  end\nend

@@ -1,0 +1,1 @@
+XmlNamespaceManager nsmgr = new XmlNamespaceManager(_xmlArticlesDocument.NameTable);\n nsmgr.AddNamespace("a", "the-namespace-in-them-xmlns-attribute");\n XmlNode page = _xmlArticlesDocument.SelectSingleNode(String.Format("//a:page[id={0}]", id), nsmgr);

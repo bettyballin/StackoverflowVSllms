@@ -1,0 +1,1 @@
+$code = "Hello! <?php include(\"template.html\"); ?>";

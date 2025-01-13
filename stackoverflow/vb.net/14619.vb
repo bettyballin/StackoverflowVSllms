@@ -1,0 +1,1 @@
+For i = 0 To DataGridView1.ColumnCount - 1\n        If DataGridView1.Rows(0).Cells(i).Value = "" Then\n            DataGridView1.Columns(i).Visible = False\n        End If\n    Next

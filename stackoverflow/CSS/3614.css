@@ -1,0 +1,1 @@
+.horz_list li{\n    display: block; /* block level */\n    float: left;  /* float them inline to the left */\n    overflow: hidden; /* this will force the div to stretch to it's contained element */\n    background-color: #CEE3F8;  \n    border-right-style:thin; \n    padding-right: 4px; \n    padding-left: 4px;  \n}

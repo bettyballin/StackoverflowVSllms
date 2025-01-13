@@ -1,0 +1,1 @@
+ImageButton1.Enabled = Not Session("UserName") Is Nothing AndAlso Session("UserName").ToString.ToLower.Trim.Equals("username")

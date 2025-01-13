@@ -1,0 +1,1 @@
+$replaced = preg_replace('/\bme\b/i', 'xxx', $subject);

@@ -1,0 +1,1 @@
+<head>\n  <title><?php getTitle(); ?></title>\n</head>

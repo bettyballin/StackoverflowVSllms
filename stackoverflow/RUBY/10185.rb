@@ -1,0 +1,1 @@
+class Employee < ActiveResource::Base\n  self.site = "http://example.com"\n\n  def collection_path(options = nil)\n    "/companies/#{prefix_options[:company_id]}/#{self.class.collection_name}"\n  end\nend

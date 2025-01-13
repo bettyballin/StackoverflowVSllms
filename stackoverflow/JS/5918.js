@@ -1,0 +1,1 @@
+onclick="setTimeout(function() { updateLayer('text', 'ff', 'ok'); } ),1250);"

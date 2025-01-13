@@ -1,0 +1,1 @@
+for word in article.text\n    article.histogram[indexLookup[word]]++

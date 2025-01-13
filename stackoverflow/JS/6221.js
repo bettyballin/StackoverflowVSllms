@@ -1,0 +1,1 @@
+assignStopButtonListener = function(){\n    var stopButton = document.getElementById(""timerStop"");\n    stopButton.style.display = "inline";\n    stopButton.onclick = function () {alert("test");};\n}

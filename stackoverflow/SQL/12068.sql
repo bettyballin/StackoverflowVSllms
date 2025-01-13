@@ -1,0 +1,1 @@
+SELECT * FROM Orders WHERE OrderDate >= '1980-01-01' ORDER BY OrderDate

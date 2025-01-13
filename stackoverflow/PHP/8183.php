@@ -1,0 +1,1 @@
+$before = microtime(true);\n\nfor ($i=0 ; $i<100000 ; $i++) {\n    serialize($list);\n}\n\n$after = microtime(true);\necho ($after-$before)/$i . " sec/serialize\n";

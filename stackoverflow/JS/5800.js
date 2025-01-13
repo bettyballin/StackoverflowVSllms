@@ -1,0 +1,1 @@
+var rects = elementList[i].getClientRects();\nvar p = document.createElement('p');\np.appendChild(document.createTextNode('\'' + elementList[i].tagName + '\' element has ' + rects.length + ' line(s).'));

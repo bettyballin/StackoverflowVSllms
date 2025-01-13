@@ -1,0 +1,1 @@
+UPDATE inventoryDetails \nINNER JOIN BOM_TEMPLATES ON inventoryDetails.modelNumber = BOM_TEMPLATES.bomModelNumber \nSET inventoryDetails.itemDesc = [bomItemDesc];

@@ -1,0 +1,1 @@
+imagecolortransparent($img, imagecolorallocate($img, 0, 0, 0));\nimagealphablending($img, false);\nimagesavealpha($img, true);

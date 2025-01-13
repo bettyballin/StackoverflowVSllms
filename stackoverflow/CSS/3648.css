@@ -1,0 +1,1 @@
+<div class="star">*</div>\n\n/* media:screen */\n.star {\n    background: ...;\n    overflow: hidden;\n    text-indent: 9999em;\n}\n\n/* media:print */\n.star {\n    text-indent: 0;\n}

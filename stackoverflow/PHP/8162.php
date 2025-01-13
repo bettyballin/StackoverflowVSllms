@@ -1,0 +1,1 @@
+count(array_intersect($array_A, $array_B));

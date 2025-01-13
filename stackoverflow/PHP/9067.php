@@ -1,0 +1,1 @@
+$cat_rs = mysql_query("select id, name from categories");\nwhile($cat_row = mysql_fetch_array($cat_rs)){\n     // print category name from $cat_row[1]\n     $forum_rs = mysql_query("select name... from forums where cat_id = '" . $cat_row[0] ."'");\n     while($forum_row = mysql_fetch_array($forum_rs)){\n        //print forum stuff\n     }\n}

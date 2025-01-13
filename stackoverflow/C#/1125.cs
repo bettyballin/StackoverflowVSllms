@@ -1,0 +1,1 @@
+SqlConnection conn = null;\nconn = new SqlConnection("yourConnectionString");\nconn.Open();\nstring strSQLCommand = "CREATE VIEW vw_YourView AS SELECT YOurColumn FROM YourTable";\nSqlCommand command = new SqlCommand(strSQLCommand, conn); \nstring returnvalue = (string)command.ExecuteScalar(); \nconn.Close();

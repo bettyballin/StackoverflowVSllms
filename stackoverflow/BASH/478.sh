@@ -1,0 +1,1 @@
+0 0-2 * * * /usr/local/bin/mail-script.php

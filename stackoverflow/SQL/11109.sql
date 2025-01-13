@@ -1,0 +1,1 @@
+SELECT avg(vote) FROM votes WHERE gid = $gid;

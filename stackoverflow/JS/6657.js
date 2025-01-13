@@ -1,0 +1,1 @@
+gBrowser.addTab("http://www.google.com/");

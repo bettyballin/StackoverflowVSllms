@@ -1,0 +1,1 @@
+<configuration>\n   <system.net>\n      <settings>\n         <performanceCounters enabled="false" />\n      </settings>\n   </system.net>\n</configuration>

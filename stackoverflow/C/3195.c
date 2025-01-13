@@ -1,0 +1,1 @@
+// if (CoInitialize(0) == S_OK)\n{\n    CComPtr<INWLaserX> pMyPtr = NULL;\n\n    CLSID clsid = IID_NULL;\n    CLSIDFromProgID("NWLaserXControl.NWLaserX");\n\n    if (pMyPtr.CoCreateInstance(clsid) == S_OK)\n    {\n         pMyPtr->put_RepRate(10);\n         pMyPtr->put_LaserEnabled(TRUE);\n    }\n\n   // CoUnInitialize();\n}

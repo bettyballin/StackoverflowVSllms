@@ -1,0 +1,1 @@
+var cat = db.Categories.Where(c => c.ID == 1).SingleOrDefault();\nvar prods = db.Products.Where(c => c.ID == 1).ToList();\nvar r = prods.Where(p.CategoryID == cat.ID).Skip(1).Take(1);

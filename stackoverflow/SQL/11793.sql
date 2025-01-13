@@ -1,0 +1,1 @@
+select distinct t1.*\nfrom Table1 t1\ninner join Table1 t2 \n    on abs(cast(t1.Date_Created - t2.Date_Created as float)) between 1 and 2

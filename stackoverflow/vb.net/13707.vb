@@ -1,0 +1,1 @@
+Dim i = From Numbers In ints _\n            Group Numbers By Numbers Into Group _\n            Aggregate feq In Group Into Count() _\n            Select New With {.Number = Numbers, .Count = Count}

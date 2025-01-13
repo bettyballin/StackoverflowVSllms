@@ -1,0 +1,1 @@
+SELECT TOP 1000 x, y, z, COUNT(*) OVER () AS TotalCount\nFROM dbo.table

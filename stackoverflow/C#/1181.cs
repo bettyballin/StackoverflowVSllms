@@ -1,0 +1,1 @@
+rpt.Credentials = new System.Net.NetworkCredential(UserName, Password, Domain);

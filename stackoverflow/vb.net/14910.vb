@@ -1,0 +1,1 @@
+Dim p As Product = CType(dataGridView1.SelectedRows(0).DataBoundItem, Product)\nMessageBox.Show(p.Name & " " & p.Price)

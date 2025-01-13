@@ -1,0 +1,1 @@
+[Property(Insert=false, Update=false)]\npublic virtual string Name { get; set; }

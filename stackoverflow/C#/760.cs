@@ -1,0 +1,1 @@
+destCmdB.QuotePrefix = "["; // quote reserved column names\ndestCmdB.QuotePrefix = "]";

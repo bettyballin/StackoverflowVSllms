@@ -1,0 +1,1 @@
+SELECT * \nFROM #stock_data sd\nLEFT JOIN #exclude_ranges er\n    ON sd.symbol=er.symbol and sd.asof BETWEEN er.asof_start AND er.asof_end\nWHERE er.symbol IS NULL

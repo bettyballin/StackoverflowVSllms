@@ -1,0 +1,1 @@
+#include <boost/function_types/function_arity.hpp>\n#include <boost/function_types/is_member_pointer.hpp>\n\ntemplate<typename T, class Enable = void> class Wrapper;\n\n/* other specializations... */\n\n// For member functions:\ntemplate <class T>\nclass Wrapper<T, typename enable_if<is_member_pointer<T> >::type>\n{ /* function_arity<T>::value has the number of arguments */ };

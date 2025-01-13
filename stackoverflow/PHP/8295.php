@@ -1,0 +1,1 @@
+exec("mycommand.cmd", &$outputArray);

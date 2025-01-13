@@ -1,0 +1,1 @@
+$("#id_of_some_outer_div").load("somepage.php #id_of_replacement_div", jsonData, callbackFunction);\n\nfunction callbackFunction(responseText, textStatus, XMLHttpRequest)\n{\n  // if you need more functionality than just replacing the contents, do it here\n}

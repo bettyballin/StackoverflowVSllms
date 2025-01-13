@@ -1,0 +1,1 @@
+INSERT INTO myTable (ID) values (5);

@@ -1,0 +1,1 @@
+$ php -r 'echo PHP_INT_MAX;'

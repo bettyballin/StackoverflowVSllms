@@ -1,0 +1,1 @@
+SELECT  *\nFROM    (\n        SELECT  field_a, field_b, my_function(field_c) fc\n        FROM    mytable\n        ) q\nWHERE   field_b = fc

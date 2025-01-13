@@ -1,0 +1,1 @@
+class Dicty(models.Model):\n    name      = models.CharField(max_length=50)\n\nclass KeyVal(models.Model):\n    container = models.ForeignKey(Dicty, db_index=True)\n    key       = models.CharField(max_length=240, db_index=True)\n    value     = models.CharField(max_length=240, db_index=True)

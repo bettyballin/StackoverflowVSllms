@@ -1,0 +1,1 @@
+SELECT approved_flag, COUNT(*)\nFROM \n  Table t\n  INNER JOIN (\n    SELECT user_id, submitted_date = MAX(submitted_date)\n    FROM Table\n    GROUP BY user_id\n  ) latest ON latest.user_id = t.user_id\n              AND latest.submitted_date = t.submitted_date\nGROUP BY approved_flag

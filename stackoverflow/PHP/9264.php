@@ -1,0 +1,1 @@
+<?php\n\n    function index() {\n\n        $data['some_variable'] = 'some data';\n\n        $this->template->write_view('content', 'page/home', $data);\n        $this->template->render();\n\n    }\n\n?>

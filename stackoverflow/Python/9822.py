@@ -1,0 +1,1 @@
+import pickle\nd = { "abc" : [1, 2, 3], "qwerty" : [4,5,6] }\nafile = open(r'C:\d.pkl', 'wb')\npickle.dump(d, afile)\nafile.close()\n\n#reload object from file\nfile2 = open(r'C:\d.pkl', 'rb')\nnew_d = pickle.load(file2)\nfile2.close()\n\n#print dictionary object loaded from file\nprint new_d

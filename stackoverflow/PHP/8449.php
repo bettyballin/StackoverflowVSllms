@@ -1,0 +1,1 @@
+header("Location: /uri/here.php");

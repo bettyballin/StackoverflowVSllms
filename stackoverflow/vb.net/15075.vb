@@ -1,0 +1,1 @@
+dim row as DataRow \nrow = ds.tables(0).NewRow \n' Add Values to Row here \nds.tables(0).rows.add(row)

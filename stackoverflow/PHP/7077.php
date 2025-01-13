@@ -1,0 +1,1 @@
+$curl = curl_init();\ncurl_setopt($curl, CURLOPT_URL, 'http://example.com/');\ncurl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);\n$result = curl_exec($curl);\ncurl_close($curl);

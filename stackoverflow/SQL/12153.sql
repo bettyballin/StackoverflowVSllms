@@ -1,0 +1,1 @@
+SELECT COUNT(*) from _users WHERE post_count>=1 AND post_count<10;\nUNION\nSELECT COUNT(*) from _users WHERE post_count>=10 AND post_count<25;

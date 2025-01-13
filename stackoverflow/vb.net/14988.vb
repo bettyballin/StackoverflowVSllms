@@ -1,0 +1,1 @@
+mySFTPCall = "sftp <insert your options here!>"\nCall Shell(mySFTPCall, 1)

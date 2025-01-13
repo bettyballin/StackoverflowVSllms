@@ -1,0 +1,1 @@
+document.replace(e.getStartOffset(), e.getEndOffset()-e.getStartOffset(), "John", null)

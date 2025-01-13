@@ -1,0 +1,1 @@
+select * from openquery(MyLinkedServer,'SELECT SERVERPROPERTY(''productversion'')')

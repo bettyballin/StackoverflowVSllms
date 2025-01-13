@@ -1,0 +1,1 @@
+select TABLE_NAME from tempdb.information_schema.tables 

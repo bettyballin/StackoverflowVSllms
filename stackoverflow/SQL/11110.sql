@@ -1,0 +1,1 @@
+where (@IDCriteria is null or ID=@IDCriteria)\n  and (@MaxDateCriteria is null or Date<@MaxDateCriteria)

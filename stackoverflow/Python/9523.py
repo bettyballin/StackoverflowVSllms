@@ -1,0 +1,1 @@
+from PIL import Image\nimg1 = Image.open('image1.jpg')\nimg2 = Image.open('image2.jpg')

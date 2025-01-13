@@ -1,0 +1,1 @@
+ListViewItem lvi = new ListViewItem();\nlvi.SubItems.Add("SubItem");\nlistView1.Items.Add(lvi);

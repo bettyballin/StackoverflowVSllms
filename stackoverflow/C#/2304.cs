@@ -1,0 +1,1 @@
+[ServiceContract(Namespace="http://mycompany.com/LoginService")]\npublic interface ILoginService\n{\n    [OperationContract]\n    string Login(string username, string password);\n}

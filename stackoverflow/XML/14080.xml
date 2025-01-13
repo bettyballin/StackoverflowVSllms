@@ -1,0 +1,1 @@
+<Path x:Name="ribbonItem" Fill="Green">\n  <Path.Data>\n    <GeometryGroup>\n      <RectangleGeometry x:Name="ribbonItemBackground" />\n    </GeometryGroup>\n  </Path.Data>\n</Path>

@@ -1,0 +1,1 @@
+$param = isset($_GET['param']) ? $_GET['param'] : 'default';

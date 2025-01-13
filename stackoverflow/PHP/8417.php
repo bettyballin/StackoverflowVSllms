@@ -1,0 +1,1 @@
+$service = new SoapClient("http://localhost:16840/CTI.ConfigStack.WS/ATeamService.asmx?WSDL");\n//                        Namespace               Header Name          value   must-understand\n$header = new SoapHeader('http://tempuri.org/', 'AuthorisationHeader', $value, false);\n$service->__setSoapHeaders(array($header));   \n\n$service->AddPendingUsers($users, 3); // Example

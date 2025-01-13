@@ -1,0 +1,1 @@
+Dim manager As New TerminalServicesManager()\nUsing server As ITerminalServer = manager.GetRemoteServer("your-server-name")\n    server.Open()\n    For Each session As ITerminalServicesSession In server.GetSessions()\n        If Not string.IsNullOrEmpty(session.UserName) Then Console.WriteLine(session.UserName)\n    Next\nEnd Using

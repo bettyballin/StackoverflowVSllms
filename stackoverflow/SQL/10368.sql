@@ -1,0 +1,1 @@
+ORDER BY CASE \nWHEN @WebName LIKE '%EB%' THEN [Longitude] \nWHEN @WebName LIKE '%WB%' THEN [Longitude] \nWHEN @WebName LIKE '%NB%' THEN [Latitude] \nWHEN @WebName LIKE '%SB%' THEN [Latitude] \nEND

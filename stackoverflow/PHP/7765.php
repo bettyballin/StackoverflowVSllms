@@ -1,0 +1,1 @@
+require('rss_fetch.inc');\n$rss = fetch_rss($url);

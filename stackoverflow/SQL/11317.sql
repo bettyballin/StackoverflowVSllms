@@ -1,0 +1,1 @@
+UPDATE ( SELECT ev.station_type\n                , t.st_type\n                , ev.adt ev_adt\n                , t.adt t_adt\n             FROM  source ev\n                   JOIN dataTbl t\n                     ON ev.counterID = t.counterID\n         )\n     SET station_type = st_type\n       , ev_adt = t_adt\n  ;

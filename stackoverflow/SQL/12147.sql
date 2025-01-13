@@ -1,0 +1,1 @@
+SELECT * \nFROM HistoryTable\nJOIN (\n   SELECT \n       MAX(Id) as Id.\n       BatchRef,\n       ItemCount\n   FROM HsitoryTable\n   WHERE\n       BacthRef = @batchRef\n   GROUP BY\n       BatchRef,\n       ItemCount\n ) as Latest ON\n   HistoryTable.Id = Latest.Id

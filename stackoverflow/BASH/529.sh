@@ -1,0 +1,1 @@
+tr " " "\n" < testdata | LC_ALL=C sort | uniq

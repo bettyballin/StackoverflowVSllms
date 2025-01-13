@@ -1,0 +1,1 @@
+SELECT [Radio],\n    SUM(CASE WHEN [Time] < 12 THEN 1 ELSE 0 END) AS Window1,\n    SUM(CASE WHEN [Time] >= 12 AND [TIME] < 15 THEN 1 ELSE 0 END) AS Window2,\n    SUM(CASE WHEN [Time] >= 16 THEN 1 ELSE 0 END) AS Window3\nFROM [Table]\nGROUP BY [Radio]

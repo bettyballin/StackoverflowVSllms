@@ -1,0 +1,1 @@
+... WHERE fruit_rating.fruit_id=fruit.id \n      and fruit.id not in \n          (select fruit_rating.fruit_id \n             from fruit_rating \n            where fruit_rating.user_id = 10)

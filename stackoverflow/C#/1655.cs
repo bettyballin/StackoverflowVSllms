@@ -1,0 +1,1 @@
+string file = (new System.Uri(Assembly.GetExecutingAssembly().CodeBase)).LocalPath;

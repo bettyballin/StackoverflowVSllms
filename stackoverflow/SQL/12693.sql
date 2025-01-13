@@ -1,0 +1,1 @@
+SELECT DISTINCT column-one + ":" + column-two As Expr1000 FROM datatable

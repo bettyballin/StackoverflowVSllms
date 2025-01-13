@@ -1,0 +1,1 @@
+create table foo (\n    [...]\n   ,Foobar int not null check (Foobar > 0)\n    [...]\n)

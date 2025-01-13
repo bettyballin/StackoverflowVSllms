@@ -1,0 +1,1 @@
+parent::closeConnection($db);

@@ -1,0 +1,1 @@
+<?php\n// in your controller\n$model1 = new Model1();\n$model2 = new Model2();\n$model2->setWhatever($model1);\n?>

@@ -1,0 +1,1 @@
+string qs = getSession().getNamedQuery(queryName);

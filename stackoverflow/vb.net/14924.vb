@@ -1,0 +1,1 @@
+Using context As New MyEfContext\n  Dim order As New Order\n  order.Customer = context.Customers.FirstOrDefault(Function(cust) cust.Id = custId)\n  Dim item As Item\n  item = context.Items.FirstOrDefault(Function(item) item.Id = itemId)\n  If (Not(item Is Nothing)) Then _\n    order.Items.Add(item)\n  context.AddToOrders(order)\n  context.SaveChanges()\nEnd Using

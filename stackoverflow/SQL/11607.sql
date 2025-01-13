@@ -1,0 +1,1 @@
+Update tbl_dest\nSet tbl_dest.Title = tbl_source.Title\nFrom tbl_dest inner join tbl_source on tbl_dest.ID = tbl_source.ID\nWhere tbl_source.Title is not null and tbl_source.Title <> ''

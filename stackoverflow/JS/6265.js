@@ -1,0 +1,1 @@
+Cook("lobster", \n     "water", \n     function(x) { alert("pot " + x); });

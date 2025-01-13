@@ -1,0 +1,1 @@
+$text = trim($text);\n    while ($text != stripslashes($text)) { $text = stripslashes($text); }    \n    $text = strip_tags($text,"<b><i><u>");\n    $text = preg_replace("/(?<!http:\/\/)www\./","http://www.",$text);\n    $text = preg_replace( "/((http|ftp)+(s)?:\/\/[^<>\s]+)/i", "<a href=\"\\0\" target=\"_blank\">\\0</a>",$text);

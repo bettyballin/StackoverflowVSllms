@@ -1,0 +1,1 @@
+$('url).value = jQuery.url.param('url');

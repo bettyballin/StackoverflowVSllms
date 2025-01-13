@@ -1,0 +1,1 @@
+NTAccount f = new NTAccount("username");\nSecurityIdentifier s = (SecurityIdentifier) f.Translate(typeof(SecurityIdentifier));\nString sidString = s.ToString();

@@ -1,0 +1,1 @@
+fDstDataSet.EnforceConstraints = false;\nforeach (DataTable fSrcTable in fSrcDataSet.Tables)\n{\n    DataTable fDstTable = fOpenOrders.Tables[fSrcTable.TableName];\n    foreach (DataRow fSrcRow in fSrcTable.Rows)\n    {\n        fDstTable.ImportRow(fSrcRow);\n    }\n}\nfDstDataSet.EnforceConstraints = true;

@@ -1,0 +1,1 @@
+Select dateadd(wk, datediff(wk, 0, getdate()) - 1, 0) as LastWeekStart\nSelect dateadd(wk, datediff(wk, 0, getdate()), 0) as ThisWeekStart\nSelect dateadd(wk, datediff(wk, 0, getdate()) + 1, 0) as NextWeekStart

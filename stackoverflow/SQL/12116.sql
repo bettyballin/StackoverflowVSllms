@@ -1,0 +1,1 @@
+SELECT DISTINCT LEFT(name, 1) FROM table;

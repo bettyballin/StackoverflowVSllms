@@ -1,0 +1,1 @@
+if (function_exists('sys_getloadavg')) {\n    $load = sys_getloadavg();\n    if ($load[0] > 80) {\n       header('HTTP/1.1 503 Too busy, try again later');\n       die('Server too busy. Please try again later.');\n    }\n}

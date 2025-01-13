@@ -1,0 +1,1 @@
+DECLARE @MyVariable INT\nSET @MyVariable = 8

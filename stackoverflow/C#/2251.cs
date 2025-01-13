@@ -1,0 +1,1 @@
+StackFrame frame = new StackFrame(1);\n MethodBase method = frame.GetMethod();\n Console.WriteLine(method.Name);

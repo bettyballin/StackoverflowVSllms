@@ -1,0 +1,1 @@
+function mulsort(&$a)\n{\n ksort($a);\n foreach($a as &$value)\n    if (is_array($value))\n        mulsort($value);\n}

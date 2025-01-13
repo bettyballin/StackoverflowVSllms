@@ -1,0 +1,1 @@
+$offset = 60 * 60 * 24;\nheader('Content-type: text/css');\nheader('Cache-Control: max-age=' . $offset);\nheader('Expires: ' . gmdate ("D, d M Y H:i:s", time() + $offset) . ' GMT');\nheader('Last-Modified: ' . gmdate ("D, d M Y H:i:s", time()) . ' GMT');

@@ -1,0 +1,1 @@
+public function __call($function, $args)\n{\n    // Expects findBy to be the first part of the function\n    $criteria = substr($function, 6);\n    $criteria = strtolower($criteria);\n\n    $select = $this->select()\n                ->from($this->_name)\n                ->where($criteria . ' = ?', $args);\n}

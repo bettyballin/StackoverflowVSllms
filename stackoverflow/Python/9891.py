@@ -1,0 +1,1 @@
+obj = Edition.objects.latest('pub_date')

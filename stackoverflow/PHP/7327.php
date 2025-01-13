@@ -1,0 +1,1 @@
+session_start();\n// resets the session data for the rest of the runtime\n$_SESSION = array();\n// sends as Set-Cookie to invalidate the session cookie\nif (isset($_COOKIE[session_name()])) { \n    $params = session_get_cookie_params();\n    setcookie(session_name(), '', 1, $params['path'], $params['domain'], $params['secure'], isset($params['httponly']));\n}\nsession_destroy();

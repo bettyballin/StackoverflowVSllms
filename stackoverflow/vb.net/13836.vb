@@ -1,0 +1,1 @@
+Protected Sub GridView1_SelectedIndexChanged(ByVal sender As Object, _\n            ByVal e As EventArgs) _\n            Handles GridView1.SelectedIndexChanged\n    Dim key As Object = GridView1.SelectedDataKey.Value\nEnd Sub

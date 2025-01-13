@@ -1,0 +1,1 @@
+static string SanitizeHtml(string html)\n{\n    string acceptable = "script|link|title";\n    string stringPattern = @"</?(?(?=" + acceptable + @")notag|[a-zA-Z0-9]+)(?:\s[a-zA-Z0-9\-]+=?(?:(["",']?).*?\1?)?)*\s*/?>";\n    return Regex.Replace(html, stringPattern, "sausage");\n}

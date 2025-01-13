@@ -1,0 +1,1 @@
+Things = New List(Of Thing)(Things)

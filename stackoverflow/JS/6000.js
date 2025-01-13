@@ -1,0 +1,1 @@
+$.ajax({ type: "POST",\n    url: '<%= Url.Action("AddCustomer", "Customer") %>',\n    data: $('form').serialize(),\n    success: function(data, textStatus) {\n    }\n});

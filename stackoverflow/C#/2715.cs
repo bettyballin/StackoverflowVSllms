@@ -1,0 +1,1 @@
+foreach (int number in list1)\n{\n    foreach (int number2 in list2)\n    {\n        if (number2 == number)\n        {\n            returnList.add(number2);\n        }\n    }\n}

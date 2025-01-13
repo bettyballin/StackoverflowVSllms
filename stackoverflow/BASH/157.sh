@@ -1,0 +1,1 @@
+for /d /r . %d in (_svn) do @if exist "%d" rd /s/q "%d"

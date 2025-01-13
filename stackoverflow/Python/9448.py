@@ -1,0 +1,1 @@
+>>> a = ['google.com', 'livejournal.com', 'livejournal.com', 'google.com', 'stackoverflow.com']\n>>> b = set(a)\n>>> b\nset(['livejournal.com', 'google.com', 'stackoverflow.com'])\n>>> 

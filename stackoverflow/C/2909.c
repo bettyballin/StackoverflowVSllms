@@ -1,0 +1,1 @@
+printf ("float: %.1f\n", number);

@@ -1,0 +1,1 @@
+If Not ediTransactionRow.Ispay_id1Null Then\n    'Do processing here\nEnd If

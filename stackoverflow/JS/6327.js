@@ -1,0 +1,1 @@
+jQuery.ajax({\n    type: "POST",\n    ...\n    error: function(xhr, desc, e) {\n       alert(xhr.responseText);\n    }\n});

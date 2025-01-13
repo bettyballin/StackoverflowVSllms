@@ -1,0 +1,1 @@
+cherrypy.config.update({'tools.sessions.name': "special_session_name"})

@@ -1,0 +1,1 @@
+Public ReadOnly Property TotalLogins() As System.Nullable(Of Integer)\n    Get\n        Return Me.InternalTotalLogins\n    End Get\nEnd Property

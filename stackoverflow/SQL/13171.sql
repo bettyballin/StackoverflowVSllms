@@ -1,0 +1,1 @@
+ALTER TABLE questions ALTER COLUMN moderator_removal SET DEFAULT FALSE

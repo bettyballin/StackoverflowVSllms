@@ -1,0 +1,1 @@
+from pyPdf import PdfFileWriter, PdfFileReader\n\ndef get_pdf_title(pdf_file_path):\n    with open(pdf_file_path) as f:\n        pdf_reader = PdfFileReader(f) \n        return pdf_reader.getDocumentInfo().title\n\ntitle = get_pdf_title('/home/user/Desktop/my.pdf')

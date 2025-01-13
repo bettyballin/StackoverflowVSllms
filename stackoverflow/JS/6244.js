@@ -1,0 +1,1 @@
+$.post( "do-insertion.php",\n{"name":"John", "location":"SF"},\nfunction(data){alert("got response="+data);} );

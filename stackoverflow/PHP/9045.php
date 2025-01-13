@@ -1,0 +1,1 @@
+foreach (glob("*.jpg") as $filename) {\n    echo "$filename size " . filesize($filename) . "<br>";\n    echo '<img src="'.$filename.'" height=150px><br>';\n    break;\n}

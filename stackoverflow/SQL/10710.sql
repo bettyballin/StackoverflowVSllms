@@ -1,0 +1,1 @@
+Posts, PostsToTags(post_id,tag_id), Tags

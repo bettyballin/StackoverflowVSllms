@@ -1,0 +1,1 @@
+SELECT TOP 1 ID, COUNT(*) AS CountOfRows\nFROM UnknownTable\nGROUP BY ID\nORDER BY CountOfRows DESC

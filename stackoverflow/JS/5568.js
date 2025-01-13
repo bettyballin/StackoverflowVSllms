@@ -1,0 +1,1 @@
+POST comment input to script with AJAX {    \n    if commentID is returned{\n        Insert comment DIV into page, userID and userPicture are in a user session variable and commentID is returned from ajax post\n    }ELSE IF error is returned{\n        Insert an error message DIV into page\n    }\n}

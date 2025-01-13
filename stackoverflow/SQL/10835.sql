@@ -1,0 +1,1 @@
+DELETE FROM `table`\nWHERE id NOT IN (\n  SELECT id\n  FROM (\n    SELECT id\n    FROM `table`\n    ORDER BY id DESC\n    LIMIT 42 -- keep this many records\n  ) foo\n);

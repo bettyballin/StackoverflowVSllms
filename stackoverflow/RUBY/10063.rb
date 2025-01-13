@@ -1,0 +1,1 @@
+class Person\n  include Validatable\n  validates_presence_of :name\n  attr_accessor :name\nend

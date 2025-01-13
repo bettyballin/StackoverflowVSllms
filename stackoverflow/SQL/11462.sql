@@ -1,0 +1,1 @@
+REGEXP_LIKE(PROD_NUM, '^[[:digit:]]{9}$')

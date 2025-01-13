@@ -1,0 +1,1 @@
+<?php\n$firstElement = reset(functionThatReturnsAnArray());

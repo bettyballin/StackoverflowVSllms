@@ -1,0 +1,1 @@
+Table1 (id INT, foo INT, fk INT)\n\nTable2 (id1 INT, id2 INT, bar VARCHAR(100))

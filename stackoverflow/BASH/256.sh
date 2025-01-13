@@ -1,0 +1,1 @@
+rsync --delete -r -u /home/user/music/flac/* /media/MUSIC/flac

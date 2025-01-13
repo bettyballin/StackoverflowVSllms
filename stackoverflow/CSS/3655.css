@@ -1,0 +1,1 @@
+#actions\n{\n    background: blue; overflow: auto;\n}\n\n#buttons\n{\n    float: left;\n    overflow: hidden;\n}\n\n#text \n{\n    float: right;\n    overflow: hidden;\n}

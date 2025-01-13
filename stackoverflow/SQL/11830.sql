@@ -1,0 +1,1 @@
+Select\n Col1 || Col2 as MyCol1\nWhere CONCAT(RTRIM(Col1),(RTRIM(Col2)) = 'searchvalue'

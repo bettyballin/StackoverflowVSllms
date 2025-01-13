@@ -1,0 +1,1 @@
+<script type="text/javascript">\n//<![CDATA[\n$(document).ready(ImportantFunction);   \n$(document).ready(Otherstuff);\n$(document).ready(MoreStuff);\n//]]>\n</script>

@@ -1,0 +1,1 @@
+Public Function MyAction(ByVal id as String) as ActionResult

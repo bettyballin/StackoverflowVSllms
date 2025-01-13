@@ -1,0 +1,1 @@
+public class SpiffyBase : UserControl\n{\n    public void DoIt()\n    {\n        Response.Write("DoIt");\n    }\n}

@@ -1,0 +1,1 @@
+<?php\nif(!isset($row['...']) || empty($row['...']))\n{\n    $row['firstname'] = 'No Info';\n}\n?>

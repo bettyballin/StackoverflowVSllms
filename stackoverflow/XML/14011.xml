@@ -1,0 +1,1 @@
+<list name="charityTransferItemList" inverse="true" cascade="all-delete-orphan" lazy="false" >\n        <key column="TSF_NO" />\n        <list-index column="TSF_SEQ_NO"/>\n        <one-to-many class="CharityTransferItem" />\n    </list>

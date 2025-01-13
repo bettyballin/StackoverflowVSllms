@@ -1,0 +1,1 @@
+EXEC msdb.dbo.sp_help_job @Job_name = 'Your Job Name'

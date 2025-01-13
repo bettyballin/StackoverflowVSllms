@@ -1,0 +1,1 @@
+$(function() {\n  $("#Box1").focus();\n});

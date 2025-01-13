@@ -1,0 +1,1 @@
+$result = preg_replace('/^R \\d+ /', '', $string, 1);

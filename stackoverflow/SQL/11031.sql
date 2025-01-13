@@ -1,0 +1,1 @@
+select count(*)\nfrom ItemTag\nwhere TagId = X

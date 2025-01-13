@@ -1,0 +1,1 @@
+<xsl:template match="mylink">\n    <a><xsl:copy-of select="@*[name()!='type']"/></a>\n</xsl:template>

@@ -1,0 +1,1 @@
+DENY EXECUTE ON sp_add_schedule to <USER>

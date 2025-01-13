@@ -1,0 +1,1 @@
+Size size = TextRenderer.MeasureString(this.Text, this.Font);

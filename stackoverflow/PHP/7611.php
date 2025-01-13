@@ -1,0 +1,1 @@
+$this->getResponse()->setSlot('title', 'insert your title here');

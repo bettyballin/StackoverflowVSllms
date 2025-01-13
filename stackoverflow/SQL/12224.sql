@@ -1,0 +1,1 @@
+select <yourcalculation>\nfrom holdings h\nleft join transactions t on h.holdingid = t.holdingid

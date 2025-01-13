@@ -1,0 +1,1 @@
+ul.menu li:hover ul.submenu {\nbackground:white none repeat scroll 0 0;\nborder:1px solid #A6A6A6;\ndisplay:block;\nmargin-left:-25px;\nmargin-top:23px;\npadding:2px 0;\nposition:absolute;\n}

@@ -1,0 +1,1 @@
+public Int32 CompareTo(SuperHero right)\n{\n    if (this.ID == right.ID)\n        return 0;\n\n    return this.ParentID.CompareTo(right.ID);\n}

@@ -1,0 +1,1 @@
+[DllImport("kernel32", SetLastError=true, ExactSpelling=true)]\npublic static extern Int32 WaitForSingleObject(SafeWaitHandle handle, Int32 milliseconds);

@@ -1,0 +1,1 @@
+select 1 from (\n    select distance(z1.latitude, z1.longitude, z2.latitude, z2.longitude) d\n    from zip_coords z2\n    where z2.zip in (\n      select zip from available_zips\n    )\n  ) where d <= 50

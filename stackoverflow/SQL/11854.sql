@@ -1,0 +1,1 @@
+LENGTH('abc') + LENGTH('') IS NULL\n\nLENGTH('abc' || '') = 3

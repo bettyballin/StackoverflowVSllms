@@ -1,0 +1,1 @@
+SELECT \n  SUM(lastOnline <= 60) AS one_minute,\n  SUM(lastOnline <= 300) AS five_minutes,\n  ...\n  SUM(lastOnline <= 30240000) AS one_month\nFROM usersonline

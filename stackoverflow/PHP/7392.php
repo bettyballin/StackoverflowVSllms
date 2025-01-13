@@ -1,0 +1,1 @@
+<?php\n\nexec('php -q script1.php');\nexec('php -q script2.php');\n\n?>

@@ -1,0 +1,1 @@
+UPDATE  v\nSET     val = 2.124\nFROM    ValTable v\n        INNER JOIN\n                StringTable s\n                ON v.str_key = s.str_key\nWHERE   s.String = 'a'\nAND     v.other_key = 1\n\nIF @@ROWCOUNT = 0\nBEGIN\n\n        INSERT\n        INTO    ValTable\n        SELECT  str_key, 1, 2.124\n        FROM    StringTable\n        WHERE   String = 'a'\n\nEND

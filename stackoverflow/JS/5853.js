@@ -1,0 +1,1 @@
+function CouponManager()\n{\n}

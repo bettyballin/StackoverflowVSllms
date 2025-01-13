@@ -1,0 +1,1 @@
+perl -n -e 'if ( /<tag/ .. /<\/tag/)' -e '{ print "$.:$_"; }' file.xml | less

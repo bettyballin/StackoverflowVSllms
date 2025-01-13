@@ -1,0 +1,1 @@
+Application.SetUnhandledExceptionMode(UnhandledExceptionMode.CatchException);

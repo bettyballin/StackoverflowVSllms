@@ -1,0 +1,1 @@
+$_SESSION['$s_firstvar'] = 3;

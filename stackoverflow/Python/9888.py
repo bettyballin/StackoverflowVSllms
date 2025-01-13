@@ -1,0 +1,1 @@
+import re, sys\n\n# your convert function goes here\n\nregex = re.compile(r'(\d+)')\nfor line in sys.stdin:\n  sys.stdout.write(regex.sub(lambda m:\n  convert(int(m.group(1))), line))

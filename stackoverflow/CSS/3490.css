@@ -1,0 +1,1 @@
+div.figure img,\ndiv.figure div.caption {\n    width: 100%;\n}\ndiv.figure div {\n    overflow: hidden;\n    white-space: nowrap;\n}

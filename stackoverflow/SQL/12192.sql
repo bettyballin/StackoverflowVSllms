@@ -1,0 +1,1 @@
+select a.value, s.username, s.sid, s.serial#\nfrom v$sesstat a, v$statname b, v$session s\nwhere a.statistic# = b.statistic#  and s.sid=a.sid\nand b.name = 'opened cursors current';

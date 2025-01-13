@@ -1,0 +1,1 @@
+// or $('input')..depends what you want to focus on\nvar nodes = $('.focusable'), idx = -1;\n$().keypress( function(e) {\n   if (e.keyCode === 37) {\n     nodes.get(++idx).focus();\n    }\n    else if (e.keyCode === 39) {\n       nodes.get(--idx).focus();\n    }\n });

@@ -1,0 +1,1 @@
+require 'rubygems'\nrequire 'htmlentities'\n\ncoder = HTMLEntities.new\n\ncoder.decode('&#8230;') # => "…"\ncoder.decode('&hellip;') # => "…"\ncoder.decode('&#162;') # => "¢"\ncoder.decode('&cent;') # => "¢"\ncoder.encode("…", :named) # => "&hellip;"\ncoder.encode("…", :decimal) # => "&#8230;"

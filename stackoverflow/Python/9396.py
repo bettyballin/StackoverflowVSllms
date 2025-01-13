@@ -1,0 +1,1 @@
+from bs4 import BeautifulSoup\n\nVALID_TAGS = ['strong', 'em', 'p', 'ul', 'li', 'br']\n\ndef sanitize_html(value):\n\n    soup = BeautifulSoup(value)\n\n    for tag in soup.findAll(True):\n        if tag.name not in VALID_TAGS:\n            tag.hidden = True\n\n    return soup.renderContents()

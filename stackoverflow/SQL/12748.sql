@@ -1,0 +1,1 @@
+select * \nfrom dbo.FooBars\nwhere contains(Name, 'FORMSOF(Thesaurus, yellow) AND FORMSOF(Thesaurus, bird)')

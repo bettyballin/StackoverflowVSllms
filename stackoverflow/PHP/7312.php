@@ -1,0 +1,1 @@
+<?php\n\nfunction thisFuncTakesACallback($callbackFunc)\n{\n    echo "I'm going to call $callbackFunc!<br />";\n    $callbackFunc();\n}\n\nfunction thisFuncGetsCalled()\n{\n    echo "I'm a callback function!<br />";\n}\n\nthisFuncTakesACallback( 'thisFuncGetsCalled' );\n?>

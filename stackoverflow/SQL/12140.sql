@@ -1,0 +1,1 @@
+select count(id) from messages where favs like 'userid,%' or favs like '%,userid,%' or favs like '%,userid'

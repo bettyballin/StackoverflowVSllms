@@ -1,0 +1,1 @@
+FILE * tmpfile ( void );

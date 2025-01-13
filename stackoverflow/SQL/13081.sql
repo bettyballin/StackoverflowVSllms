@@ -1,0 +1,1 @@
+SELECT UNIX_TIMESTAMP(datetime_field) FROM table

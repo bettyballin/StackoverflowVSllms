@@ -1,0 +1,1 @@
+$r = array( 'afdsasdfasdf<>', '<test ="">' );\n\nfunction map_entities( $str ) {\n    return htmlentities( $str, ENT_QUOTES );\n}\n\n$array = array_map ( 'map_entities', $r );

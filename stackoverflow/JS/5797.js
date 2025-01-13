@@ -1,0 +1,1 @@
+$.post("test.php", { 'choices[]': ["Jon", "Susan"] });

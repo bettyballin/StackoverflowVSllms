@@ -1,0 +1,1 @@
+function buttonfix(){\nvar buttons = document.getElementsByTagName('button');\nfor (var i=0; i<buttons.length; i++) {\nbuttons[i].onclick = function () {\nfor(j=0; j<this.form.elements.length; j++)\nif( this.form.elements[j].tagName == 'BUTTON' )\nthis.form.elements[j].disabled = true;\nthis.disabled=false;\n}\n}\n}\nwindow.attachEvent("onload", buttonfix);

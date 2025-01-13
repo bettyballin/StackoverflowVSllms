@@ -1,0 +1,1 @@
+System.Net.CredentialCache aCredentialCache = new System.Net.CredentialCache();\naCredentialCache.Add(new Uri("www.yoursite.com"), "Basic", new System.Net.NetworkCredential("User", "Password"));\n\nSystem.Net.WebRequest aRequest = System.Net.WebRequest.Create("www.yoursite.com");\naRequest.Credentials = aCredentialCache;

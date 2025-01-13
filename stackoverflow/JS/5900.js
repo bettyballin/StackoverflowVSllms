@@ -1,0 +1,1 @@
+var tables = document.getElementsByTagName("TABLE");\nfor (var i=tables.length-1; i>=0;i-=1)\n   if (tables[i]) tables[i].parentNode.removeChild(tables[i]);

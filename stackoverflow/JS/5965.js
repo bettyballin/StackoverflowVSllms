@@ -1,0 +1,1 @@
+$(".TextFieldSettings #fieldTitle").unbind('change') 

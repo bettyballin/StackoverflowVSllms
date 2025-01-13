@@ -1,0 +1,1 @@
+Select e.EmpID, e.FirstName, e.LastName, e.Email, e.Phone, o.OtherName\nFrom Employee e\nLeft Outer Join OtherName o on e.FirstName = o.Name

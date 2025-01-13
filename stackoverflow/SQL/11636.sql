@@ -1,0 +1,1 @@
+DECLARE @Sort /* the type of the sorting column */\nSET ROWCOUNT @StartRow\nSELECT @Sort = SortColumn FROM Table ORDER BY SortColumn\nSET ROWCOUNT @PageSize\nSELECT ... FROM Table WHERE SortColumn >= @Sort ORDER BY SortColum

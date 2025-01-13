@@ -1,0 +1,1 @@
+routes.MapRoute(\n  "Bookmarks",\n  "bookmarks",\n  new { controller = "Bookmarks", action = "Bookmarks"}\n);\n\nroutes.MapRoute(\n  "Bookmark",\n  "bookmark/{bookmarkid}",\n  new { controller = "Bookmarks", action = "Bookmark" }\n);

@@ -1,0 +1,1 @@
+class Example {\n    private $__readOnly = 'hello world';\n    function __get($name) {\n        if($name === 'readOnly')\n            return $this->__readOnly;\n        user_error("Invalid property: " . __CLASS__ . "->$name");\n    }\n    function __set($name, $value) {\n        user_error("Can't set property: " . __CLASS__ . "->$name");\n    }\n}

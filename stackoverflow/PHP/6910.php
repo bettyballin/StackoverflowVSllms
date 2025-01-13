@@ -1,0 +1,1 @@
+$sql= "INSERT INTO customer(first_name,last_name,email,password,gender,city,dob,pin) VALUES('$first_name',".\n($last_name?"'".$last_name."'":"NULL").\n", '$email_add','$password','$gender','$city','$DOB','$pin')";

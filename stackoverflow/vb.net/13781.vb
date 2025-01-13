@@ -1,0 +1,1 @@
+FormatCurrency(-1234.56, 2, UseParensForNegativeNumbers:=TriState.False)

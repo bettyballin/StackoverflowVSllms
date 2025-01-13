@@ -1,0 +1,1 @@
+foreach($key as $string)\n{\n    foreach($urls as $address)\n    {\n        echo $address . $string . "<br/>";\n    }\n}

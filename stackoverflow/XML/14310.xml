@@ -1,0 +1,1 @@
+<behaviors>\n    <endpointBehaviors>\n      <behavior name="webHttp">\n        <webHttp/>\n      </behavior>\n    </endpointBehaviors>\n  </behaviors>

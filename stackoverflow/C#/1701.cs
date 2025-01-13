@@ -1,0 +1,1 @@
+[DataContract]\npublic CreateAccount\n{\n    [DataMember]\n    public string LastName { get; set; }\n\n    ...\n}

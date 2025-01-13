@@ -1,0 +1,1 @@
+Project.find(:all, :conditions => ["name = ?", params[:name]])\n# or\nProject.find(:all, :conditions => {:name => params[:name]})

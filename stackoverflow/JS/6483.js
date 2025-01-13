@@ -1,0 +1,1 @@
+$("label:not(:has(radio))").addClass("boldmenow");\n...\n.boldmenow {\n  font-weight: bold;\n}

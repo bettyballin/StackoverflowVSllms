@@ -1,0 +1,1 @@
+INSERT INTO $storehistory SELECT * FROM $storetbl WHERE $time - datecreated >= 432000"

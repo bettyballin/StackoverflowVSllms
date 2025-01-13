@@ -1,0 +1,1 @@
+new Date(parseInt(value.replace("/Date(", "").replace(")/",""), 10))

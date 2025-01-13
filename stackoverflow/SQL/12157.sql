@@ -1,0 +1,1 @@
+create function add_days_to_timestamp(t timestamptz, d int) \nreturns timestamptz\nas\n$$\nbegin\n    return t + interval '1' day * d;\nend; \n$$ language 'plpgsql';\n\n\ncreate operator + (leftarg = timestamptz, rightarg = int, \n         procedure = add_days_to_timestamp);

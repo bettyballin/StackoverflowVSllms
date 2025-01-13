@@ -1,0 +1,1 @@
+class YourCollectionType : DependencyObject {\n\n    [PROPERTY DEPENDENCY OF ObservableCollection<YourType> NAMED: BoundList]\n\n}

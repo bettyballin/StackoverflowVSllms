@@ -1,0 +1,1 @@
+#!/bin/sh\necho Content-type: text/html\necho\necho\necho "<HTML>"\necho "<HEAD>"\necho "</HEAD>"\necho "<BODY>"\necho "<H2>Users logged in are:</H2>"\necho "<PRE>"\nwho\necho "</PRE>"\necho "</BODY>"\necho "</HTML>"

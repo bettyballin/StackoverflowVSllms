@@ -1,0 +1,1 @@
+Dim g = From item In _\n      XElement.Load("XMLFile.xml", LoadOptions.None)...<Group> _\n             Select New Group(id:=item.@id, _\n                   Children:=(From c In item...<Child>  Select c.@id).ToList)

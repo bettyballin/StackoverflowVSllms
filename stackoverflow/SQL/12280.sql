@@ -1,0 +1,1 @@
+SELECT * FROM YourTable y WHERE NOT EXISTS \n     (SELECT * FROM OtherTable o WHERE y.Ref = o.Ref)\n\nSELECT * FROM YourTable WHERE Ref NOT IN \n     (SELECT Ref FROM OtherTable WHERE Ref IS NOT NULL)\n\nSELECT y.* FROM YourTable y \nLEFT OUTER JOIN  OtherTable o ON y.Ref = o.Ref\nWHERE o.Ref IS NULL

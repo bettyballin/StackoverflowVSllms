@@ -1,0 +1,1 @@
+SELECT  \n  MyName + " ->"\n  + case OPTION1 when 1 then ' OPTION1' else '' end\n  + case OPTION2 when 1 then ' OPTION2' else '' end\n  + ...\nFROM\n Table

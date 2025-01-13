@@ -1,0 +1,1 @@
+var ObjectCreator = function () {\n};

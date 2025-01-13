@@ -1,0 +1,1 @@
+<%= Html.Hidden(fieldPrefix + ".ID", Model.ID) %>\n<%= Html.TextBox(fieldPrefix + ".Description", Model.Description) %>\n<%= Html.TextBox(fieldPrefix + ".Order", Model.Order) %>

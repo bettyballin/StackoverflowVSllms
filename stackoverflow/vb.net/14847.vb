@@ -1,0 +1,1 @@
+Dim lblModuleTitle As Label = CType(listviewModules.Items(listviewModules.SelectedIndex).FindControl("lblModuleTitle"), Label)

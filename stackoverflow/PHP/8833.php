@@ -1,0 +1,1 @@
+//split string on space or period:\n$split=preg_split('/[ \.]/', $string);

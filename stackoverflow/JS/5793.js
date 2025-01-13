@@ -1,0 +1,1 @@
+$('#accordion').append('<h3><a href="#">New Paragraph</a></h3><div><p>New data</p></div>')\n    .accordion('destroy').accordion();

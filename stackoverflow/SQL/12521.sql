@@ -1,0 +1,1 @@
+SELECT\n    t.Desc, s1.Desc, s1.AAAAA, s2.Desc, s2.AAAAA, s3.Desc, s3.AAAA\n    FROM Table2                t\n        LEFT OUTER JOIN Source s1 ON t.ID1 = s1.ID\n        LEFT OUTER JOIN Source s2 ON t.ID2 = s2.ID\n        LEFT OUTER JOIN Source s3 ON t.ID3 = s2.ID\n    WHERE t.ID=@YourIDHere

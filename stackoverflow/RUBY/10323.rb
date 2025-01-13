@@ -1,0 +1,1 @@
+class Person < ActiveRecord::Base\n  belongs_to :father, :class_name => 'Person'\n  belongs_to :mother, :class_name => 'Person'\n  has_many :children_of_father, :class_name => 'Person', :foreign_key => 'father_id'\n  has_many :children_of_mother, :class_name => 'Person', :foreign_key => 'mother_id'\n  def children\n     children_of_mother + children_of_father\n  end\nend

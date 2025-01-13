@@ -1,0 +1,1 @@
+define('IMAGE_PATH', 'http://www.mysitename.com/assets/css/images/');

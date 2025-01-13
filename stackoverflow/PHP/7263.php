@@ -1,0 +1,1 @@
+setdefault($_GET['id'], 0);\n\nfunction setdefault(&$var, $default="") \n{\n   if (!isset($var)) \n   {\n      $var = $default;\n   }\n}

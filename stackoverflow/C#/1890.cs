@@ -1,0 +1,1 @@
+string phone = <.. get phone number ...>;\nmyLabel.Text = phone;\nViewState["currentPhone"] = phone;

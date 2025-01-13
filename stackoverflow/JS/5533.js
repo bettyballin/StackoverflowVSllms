@@ -1,0 +1,1 @@
+var $liWrapper = $("<li class='li_group'><ul></ul></li>");\n$("li").slice(0,2).wrapAll($liWrapper)\n       .end()\n       .slice(2,4).wrapAll($liWrapper);

@@ -1,0 +1,1 @@
+private void Button_Click(object sender, RoutedEventArgs e)\n    {\n        uiLabel.FontWeight = FontWeights.Bold;\n        uiLabel.FontStyle = FontStyles.Italic;\n    }

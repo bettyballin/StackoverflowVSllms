@@ -1,0 +1,1 @@
+awk -F '|'  'NF != 35 {print NR, $0} ' your_filefile

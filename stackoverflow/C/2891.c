@@ -1,0 +1,1 @@
+template <typename T>\nstruct foo\n{\n  explicit foo(T const *)\n  {\n  }\n};\n\n\ntemplate <typename T>\nstruct bar\n{\n  bar(T const *)\n  {\n  }\n};\n\n\nint main(int argc, char **argv)\n{\n  int a;\n  foo<int> f = &a; // doesn't work\n  bar<int> b = &a; // works\n}

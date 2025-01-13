@@ -1,0 +1,1 @@
+class EncryptionFunction\n{\npublic:\n    virtual Foo Run(Bar input) = 0;\n    virtual ~MyFunction() {}\n};\n\nclass SomeSpecificEncryptionFunction : public EncryptionFunction\n{\n    // override the Run function\n};\n\n// ...\n\nstd::vector<EncryptionFunction*> functions;\n\n// ...\n\nfunctions[2]->Run(data);

@@ -1,0 +1,1 @@
+$('#cyclelist li').length

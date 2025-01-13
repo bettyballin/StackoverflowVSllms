@@ -1,0 +1,1 @@
+SELECT TOP 0 * FROM Table\nand\nSELECT * FROM Table WHERE 1=0

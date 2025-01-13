@@ -1,0 +1,1 @@
+<parent>\n      <groupId>FOO</groupId>\n      <artifactId>runtime-common</artifactId>\n      <version>1.0.0</version>\n  </parent>

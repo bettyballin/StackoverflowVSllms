@@ -1,0 +1,1 @@
+SELECT *\nFROM v$tempseg_usage

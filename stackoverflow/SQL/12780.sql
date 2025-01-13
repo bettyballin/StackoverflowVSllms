@@ -1,0 +1,1 @@
+update my_table\nset path = replace(path, 'oldstring', 'newstring')

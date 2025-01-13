@@ -1,0 +1,1 @@
+SELECT\n  at.author_id,\n  at.author_name,\n  'article' AS source_table,\n  aat.id\nFROM\n  author_table at\n  JOIN article_author_table aat\n    ON at.author_id = aat.author_id\n\nUNION ALL\n\nSELECT\n  at.author_id,\n  at.author_name,\n  'event' AS source_table,\n  eat.id\nFROM\n  author_table at\n  JOIN event_author_table eat\n    ON at.author_id = eat.author_id

@@ -1,0 +1,1 @@
+$(function()\n   {\n        $('.instruct').hide(); //hide \n        $('#message').focus(function(){  \n            $('.instruct').show(); //show\n        }).blur(function(){  \n            $('.instruct').hide(); //hide again\n        });\n\n  });   

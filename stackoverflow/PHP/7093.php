@@ -1,0 +1,1 @@
+$dompdf = new DOMPDF();\n$dompdf->load_html(ob_get_clean());\n$dompdf->render();\n$dompdf->stream("sample.pdf", array('Attachment'=>'0'));

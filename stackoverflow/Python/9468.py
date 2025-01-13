@@ -1,0 +1,1 @@
+res = dict((v,k) for k,v in a.iteritems())

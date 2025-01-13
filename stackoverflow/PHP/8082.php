@@ -1,0 +1,1 @@
+$val = intval($total_results->getText());

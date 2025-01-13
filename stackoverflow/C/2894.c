@@ -1,0 +1,1 @@
+(DWORD *)(pInput + 4)

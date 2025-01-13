@@ -1,0 +1,1 @@
+for(x = p.x -1; x <= p.x + 1; x++) {\n    for(y = p.y -1; y <= p.y + 1; y++) {\n        // Do some stuff with each p\n    }\n}

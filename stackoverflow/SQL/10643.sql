@@ -1,0 +1,1 @@
+CREATE FUNCTION fn_max_date\nRETURNS datetime\nAS\nreturn cast('12/31/9999 23:59:59.9999' as datetime)

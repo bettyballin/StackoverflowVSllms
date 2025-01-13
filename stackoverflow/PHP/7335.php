@@ -1,0 +1,1 @@
+$tags = new Tags();\n$cloud = $tags -> getWithObjectOccurrences();

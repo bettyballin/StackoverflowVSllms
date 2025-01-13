@@ -1,0 +1,1 @@
+$("img.delete").click(function() {\n      var row = $(this).parents('tr:first');\n\n      ...\n\n      success: function(){\n           $(row).remove(); //Remove the row containing the image element\n           ...\n      }\n\n      ...\n  });

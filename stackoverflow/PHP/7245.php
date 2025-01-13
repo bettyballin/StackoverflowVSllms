@@ -1,0 +1,1 @@
+$result = substr($text_all, strpos($text_all, "<".$field.">")+strlen("<".$field.">"), strpos($text_all, "</".$field.">")-strlen("<".$field.">")-strpos($text_all, "<".$field.">"));

@@ -1,0 +1,1 @@
+SELECT col1, col2\nFROM table1, table2\nWHERE table1.person_uid = table2.person_uid (+)\nAND table1.period = table2.period (+)

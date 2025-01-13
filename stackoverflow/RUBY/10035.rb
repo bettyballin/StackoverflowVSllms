@@ -1,0 +1,1 @@
+controller.instance_variable_get(:var)

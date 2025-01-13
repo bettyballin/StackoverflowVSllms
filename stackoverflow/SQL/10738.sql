@@ -1,0 +1,1 @@
+SQL> alter table t add ("ACOLUMN" CLOB(2048));\n\nalter table t add ("ACOLUMN" CLOB(2048))\n\nORA-00907: missing right parenthesis\n\nSQL> alter table t add ("ACOLUMN" CLOB);\n\nTable altered

@@ -1,0 +1,1 @@
+\nIDbDataParameter prm = comm.CreateParameter();

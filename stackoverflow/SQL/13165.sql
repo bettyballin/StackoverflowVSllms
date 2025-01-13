@@ -1,0 +1,1 @@
+SELECT count(post_id) FROM posts\n  WHERE thread_id = '{$thread_id}' AND date_posted <= '{$date_posted}'

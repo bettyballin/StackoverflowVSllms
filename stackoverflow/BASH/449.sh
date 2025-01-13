@@ -1,0 +1,1 @@
+nohup php myscript.php >myscript.output 2>&1 &

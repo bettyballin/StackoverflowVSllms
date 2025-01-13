@@ -1,0 +1,1 @@
+return $thisXml;\n}\necho $thisXML;

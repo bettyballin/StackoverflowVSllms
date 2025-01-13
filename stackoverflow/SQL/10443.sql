@@ -1,0 +1,1 @@
+SELECT a.*, b.priority \nFROM tableA as a\nJOIN tableB as b\nON b.sourceId = a.sourceId and b.priority = (select max(priority) from tableB where b.sourceId = a.sourceId)

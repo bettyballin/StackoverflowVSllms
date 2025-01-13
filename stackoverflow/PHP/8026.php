@@ -1,0 +1,1 @@
+if(in_array($row['name'], array('1', '2', '3')) && $Cond2) {\n  doThis();\n}

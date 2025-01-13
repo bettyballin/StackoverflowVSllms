@@ -1,0 +1,1 @@
+SELECT SUM( CASE WHEN Month(a.evdtApplication) = MONTH(GEtDate() THEN 1 END) as monthTotal,\n        count(*)\nFROM tblEventDates a\nWHERE a.evdtApplication BETWEEN '2008-01-01' AND '2008-12-31'

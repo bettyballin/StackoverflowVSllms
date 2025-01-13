@@ -1,0 +1,1 @@
+$myPdo->setAttribute(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, true);

@@ -1,0 +1,1 @@
+$groups = array();\nforeach ($data as $item) {\n    $key = $item['key_to_group'];\n    if (!isset($groups[$key])) {\n        $groups[$key] = array(\n            'items' => array($item),\n            'count' => 1,\n        );\n    } else {\n        $groups[$key]['items'][] = $item;\n        $groups[$key]['count'] += 1;\n    }\n}

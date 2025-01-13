@@ -1,0 +1,1 @@
+Dim ds as DataSet\n\n'populate your DataSet'\n\nFor each dr as DataRow in ds.Tables(<tableIndex>).Rows\n  'Do something with the row'\n\nNext

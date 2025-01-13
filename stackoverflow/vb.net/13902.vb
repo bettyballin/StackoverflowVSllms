@@ -1,0 +1,1 @@
+CallByName Me, Me.Controls(varV).Name & "_BeforeUpdate", VbMethod, intCancel

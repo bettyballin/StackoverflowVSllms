@@ -1,0 +1,1 @@
+>>> list("Word to Split")\n['W', 'o', 'r', 'd', ' ', 't', 'o', ' ', 'S', 'p', 'l', 'i', 't']

@@ -1,0 +1,1 @@
+Dim value As String = My.Computer.FileSystem.ReadAllText(file)

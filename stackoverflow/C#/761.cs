@@ -1,0 +1,1 @@
+XmlElement el = ...; //TODO\nXmlNamespaceManager nsmgr = new XmlNamespaceManager(\n    el.OwnerDocument.NameTable);\nnsmgr.AddNamespace("x", el.OwnerDocument.DocumentElement.NamespaceURI);\nvar nodes = el.SelectNodes(@"/x:outerelement/x:innerelement", nsmgr);

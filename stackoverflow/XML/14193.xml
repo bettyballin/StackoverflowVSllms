@@ -1,0 +1,1 @@
+<system.web.extensions>\n  <scripting>\n    <scriptResourceHandler enableCompression=“true” enableCaching=“true”/>\n  </scripting>\n</system.web.extensions>

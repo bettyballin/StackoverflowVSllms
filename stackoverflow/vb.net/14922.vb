@@ -1,0 +1,1 @@
+Dim r As Rectangle = e.ClipRectangle

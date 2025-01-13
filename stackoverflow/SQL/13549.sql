@@ -1,0 +1,1 @@
+SELECT\n     COUNT(*)\nFROM\n     table\nWHERE\n     datasets = '{}'

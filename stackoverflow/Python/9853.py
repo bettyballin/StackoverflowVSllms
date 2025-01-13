@@ -1,0 +1,1 @@
+def mergesort(list):\n    if len(list) < 2:\n        return list\n    middle = len(list) / 2\n    left = mergesort(list[:middle])\n    right = mergesort(list[middle:])\n    return merge(left, right)

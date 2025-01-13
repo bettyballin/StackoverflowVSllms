@@ -1,0 +1,1 @@
+byte[] contents = Convert.FromBase64String(file);\nSystem.IO.File.WriteAllBytes(Server.MapPath(fileName), contents);

@@ -1,0 +1,1 @@
+for (int i = 0; i < pidCount; ++i) {\n    int status;\n    while (-1 == waitpid(pids[i], &status, 0));\n    if (!WIFEXITED(status) || WEXITSTATUS(status) != 0) {\n        cerr << "Process " << i << " (pid " << pids[i] << ") failed" << endl;\n        exit(1);\n    }\n}\n\ngettimeofday (&second, &tzp); //stop time

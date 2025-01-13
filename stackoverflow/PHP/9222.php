@@ -1,0 +1,1 @@
+$file = file_get_contents('http://example.com/rss');\necho $file;

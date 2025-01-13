@@ -1,0 +1,1 @@
+with cte as (\n  select row_number() over (partition by dupcol1, dupcol2 order by ID) as rn\n     from table)\ndelete from cte\n   where rn > 2; -- or >3 etc

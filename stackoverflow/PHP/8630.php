@@ -1,0 +1,1 @@
+<?php\n$newsXML = new SimpleXMLElement("<news></news>");\n$newsXML->addAttribute('newsPagePrefix', 'value goes here');\n$newsIntro = $newsXML->addChild('content');\n$newsIntro->addAttribute('type', 'latest');\nHeader('Content-type: text/xml');\necho $newsXML->asXML();\n?>

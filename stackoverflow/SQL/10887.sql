@@ -1,0 +1,1 @@
+SELECT E.EmployeeName, COUNT(T.TaskID) AS [Number of Tasks], SUM(T.Duration) as [Time Spent]\nFROM Employee E, EmployeeTasks ET, Tasks T\nWHERE ET.EmployeeID = E.EmployeeID AND ET.TaskID = T.TaskID\nGROUP BY E.EmployeeName

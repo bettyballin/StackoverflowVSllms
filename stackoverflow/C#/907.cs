@@ -1,0 +1,1 @@
+if (int.TryParse(string, out result))\n{\n    // use result here\n}

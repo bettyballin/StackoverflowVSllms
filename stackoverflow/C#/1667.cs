@@ -1,0 +1,1 @@
+private void Page_Load(object sender, EventArgs e)\n{\n    // Check whether the current request has been\n    // authenticated. If it has not, redirect the \n    // user to the Login.aspx page.\n    if (!Request.IsAuthenticated)\n    {\n        Response.Redirect("Login.aspx", true);\n    }\n}

@@ -1,0 +1,1 @@
+INSERT INTO YourTable(val1, val2, val3 ...) \nVALUES(@val1, @val2, @val3...);\nSELECT SCOPE_IDENTITY();

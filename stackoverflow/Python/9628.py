@@ -1,0 +1,1 @@
+cProfile.runctx("self.profileCommand(100)", globals(),locals())

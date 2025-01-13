@@ -1,0 +1,1 @@
+$(function() {\n  $("table.definitions th").each(function() {\n    var term = $(this).text();\n    var definition = $(this).nextSibling().text(); // assuming it's in a <td> in the same row\n    // find all occurrences of 'term' in relevant text block\n    // and wrap in <span class="term" title="definition">...</span>\n  });\n});

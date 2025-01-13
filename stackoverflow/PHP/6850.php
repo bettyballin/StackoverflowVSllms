@@ -1,0 +1,1 @@
+$price_int = intval(floor($price_corrected + 0.5));

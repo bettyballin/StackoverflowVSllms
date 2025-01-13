@@ -1,0 +1,1 @@
+$template = <<<TEMPLATE\n<html>\n<head>\n<title>{TITLE}</title>\n</head>\n<body>\n<div id='nav'>{NAV}</div>\n<div id='content'>{CONTENT}</div>\n</body>\nTEMPLATE;\n\n$data = array (\n"{TITLE}" => "Page title example",\n"{NAV}" => buildNav(),\n"{CONTENT}" => buildContent());\n\nstr_replace(array_keys($data),array_values($data), $template);

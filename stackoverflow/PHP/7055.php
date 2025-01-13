@@ -1,0 +1,1 @@
+$var = 'offer' . $_GET['id'] . 'name';\n$offername = $$var;

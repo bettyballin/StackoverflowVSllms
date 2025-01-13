@@ -1,0 +1,1 @@
+HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create("url");\nrequest.Method = "HEAD";\n\nbool exists;\ntry\n{\n    request.GetResponse();\n    exists = true;\n}\ncatch\n{\n   exists = false;\n}

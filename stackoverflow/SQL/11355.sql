@@ -1,0 +1,1 @@
+DECLARE @value INT\nSET @value = 1\n\nSELECT --??? DISTINCT \n    t1.[id] AS ID, --- missed comma\n    table2a.name,\n    table2b.name\nFROM \n   Table1 t1\n     JOIN Table2 table2a ON t1.column1 = table2a.id\n     JOIN Table2 table2b ON t1.column2 = table2b.id -- you have t1.column1 oops\nWHERE   \n    t1.[id] = @value

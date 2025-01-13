@@ -1,0 +1,1 @@
+<system.web>\n  <httpModules>\n    <add type="WebMonitor.UnhandledExceptionModule, <strong name>"\n       name="UnhandledExceptionModule"/>\n  </httpModules>\n      …\n</system.web>   

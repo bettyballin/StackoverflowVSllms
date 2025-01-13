@@ -1,0 +1,1 @@
+wget http://superb-east.dl.sourceforge.net/sourceforge/mcrypt/libmcrypt-2.5.8.tar.gz\ntar -xzvf libmcrypt-2.5.8.tar.gz\ncd libmcrypt-2.5.8\n./configure\nmake\nsudo make install

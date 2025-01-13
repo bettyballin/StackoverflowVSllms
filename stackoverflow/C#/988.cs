@@ -1,0 +1,1 @@
+IPrinciple _currentUser = HttpContext.Current.User;

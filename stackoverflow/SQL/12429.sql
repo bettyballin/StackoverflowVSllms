@@ -1,0 +1,1 @@
+SELECT HEX(CAST('product name here in utf-8 encoding, can be various languages' AS BINARY))

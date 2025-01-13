@@ -1,0 +1,1 @@
+select Id,Hospital,Doctor,Patient\n  from table\n  where Id in (select max(t.Id) from table t group by t.Hospital,t.Doctor)\n  order by Hospital,Doctor;

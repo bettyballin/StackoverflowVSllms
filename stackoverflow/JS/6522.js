@@ -1,0 +1,1 @@
+if ($("#foo_ " + id).is(':hidden'))\n{\n    //stuff\n    $("#foo_ " + id).html(html).slideDown('fast');\n}

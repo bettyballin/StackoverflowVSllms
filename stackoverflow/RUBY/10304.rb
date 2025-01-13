@@ -1,0 +1,1 @@
+Dir["scripts/**/*.rb"].each{|s| load s }

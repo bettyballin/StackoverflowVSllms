@@ -1,0 +1,1 @@
+WHERE DATEDIFF(mydata,'2008-11-20') >=0;

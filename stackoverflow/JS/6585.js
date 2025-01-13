@@ -1,0 +1,1 @@
+$('input#search').example('Search');

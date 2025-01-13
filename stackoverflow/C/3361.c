@@ -1,0 +1,1 @@
+__declspec( dllexport ) int add2(int num){\n   return num + 2;\n}

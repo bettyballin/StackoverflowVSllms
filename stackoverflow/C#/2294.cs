@@ -1,0 +1,1 @@
+/// <summary>\n/// Gets all active documents for the specified customer.\n/// </summary>\n/// <param name="customerId">The Id of the customer.</param>\n/// <returns>A list of documents for this customer.</returns>\npublic static List<Document> GetDocuments(int customerId)\n{\n    //... do something ...\n}

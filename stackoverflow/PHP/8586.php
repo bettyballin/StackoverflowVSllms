@@ -1,0 +1,1 @@
+define('EXAMPLE1', "test1"); // scenario 1\n$example2 = "test2"; // scenario 2\n\nfunction DealWithUserInput($input)\n{\n   return eval($input);\n}

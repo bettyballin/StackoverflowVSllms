@@ -1,0 +1,1 @@
+open ModuleName\n...\nThing  // rather than ModuleName.Thing

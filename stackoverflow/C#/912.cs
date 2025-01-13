@@ -1,0 +1,1 @@
+string connectionString = String.Format("Provider=Microsoft.Jet.OLEDB.4.0;Data Source={0};Extended Properties=\"text;HDR=YES;Format=Delimited(|)\";", Path.GetDirectoryName(path));

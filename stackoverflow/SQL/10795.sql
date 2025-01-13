@@ -1,0 +1,1 @@
+SELECT 'GRANT ALL ON '||table_name||' TO BOB;'\nFROM   ALL_TABLES\nWHERE  OWNER = 'ALICE';

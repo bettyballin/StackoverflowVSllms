@@ -1,0 +1,1 @@
+$myObject = (object) $myarray;

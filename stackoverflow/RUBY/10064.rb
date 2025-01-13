@@ -1,0 +1,1 @@
+def split(arr, index = 0, sum = 0)\n  return -1, arr[index] if index == arr.length - 1\n  sum = sum + arr[index]\n  i, tail = split(arr, index + 1, sum)\n\n  if i > -1\n    return i, tail\n  elsif sum == tail\n    return index, sum \n  end\n  return -1, arr[index] + tail\nend

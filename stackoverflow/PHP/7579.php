@@ -1,0 +1,1 @@
+$current = $root;\nforeach($row as $fieldname => $fieldvalue) {\n    $next = $current->append(new xmlElement($fieldname));\n    $current->write($fieldvalue);\n    $current = $next;\n}

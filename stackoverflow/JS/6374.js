@@ -1,0 +1,1 @@
+function tabMethod() {\n    processRequest('command', 'item', 'properties',\n        function (id) {\n            if (id == null) {\n                alert('There is a problem!');\n                return;\n            }\n            $('#tabs').tabs('add', '#tab-' + id, 'New tab');\n        });\n};

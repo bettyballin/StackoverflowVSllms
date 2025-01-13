@@ -1,0 +1,1 @@
+good = [x for x in mylist if x in goodvals]\nbad  = [x for x in mylist if x not in goodvals]

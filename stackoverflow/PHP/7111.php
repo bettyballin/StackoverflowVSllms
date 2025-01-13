@@ -1,0 +1,1 @@
+<?php\n// Replace XXXXXX_XXXX with the name of the header you need in UPPERCASE (and with '-' replaced by '_')\n$headerStringValue = $_SERVER['HTTP_XXXXXX_XXXX'];

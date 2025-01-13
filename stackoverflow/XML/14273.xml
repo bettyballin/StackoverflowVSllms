@@ -1,0 +1,1 @@
+<fo:block text-align-last="justify">\n  LEFT TEXT\n  <fo:leader leader-pattern="space" />\n  RIGHT TEXT\n</fo:block>

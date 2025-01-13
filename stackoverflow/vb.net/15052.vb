@@ -1,0 +1,1 @@
+Dim tempSurface As Direct3D.Surface\ntempSurface = device.GetBackBuffer(0, 0, Direct3D.BackBufferType.Mono)\nDirect3D.SurfaceLoader.Save(tempFilename, Direct3D.ImageFileFormat.Png, tempSurface)

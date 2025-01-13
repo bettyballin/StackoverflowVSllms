@@ -1,0 +1,1 @@
+const decimal LITERS_PER_HOGSHEAD = 238.480942392;

@@ -1,0 +1,1 @@
+Response.Write "<td class=""alt""><input type=""button"" onclick=""deleteRecordAtt(AttID) value=""remove"" /></td>"

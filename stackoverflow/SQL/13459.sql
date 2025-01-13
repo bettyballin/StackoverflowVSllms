@@ -1,0 +1,1 @@
+and ((@DateValue = '1/1/1900' and field3 <= getdate()) or \n     (@DateValue <> '1/1/1900' and field3=@DateValue))

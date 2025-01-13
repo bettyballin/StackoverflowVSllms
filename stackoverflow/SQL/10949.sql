@@ -1,0 +1,1 @@
+order by decode(?, 'colA', colA, 'colB', colB)

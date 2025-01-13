@@ -1,0 +1,1 @@
+CREATE TABLE Videos (VideoID INT PRIMARY KEY,\n                     VideoTitle VARCHAR(80));\n\nCREATE TABLE Tags (TagID INT PRIMARY KEY,\n                   TagText VARCHAR(20));\n\nCREATE TABLE VideosTags (VideoID FOREIGN KEY REFERENCES Videos,\n                         TagID FOREIGN KEY REFERENCES Tags,\n                         PRIMARY KEY (VideoId, TagId));

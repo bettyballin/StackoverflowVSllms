@@ -1,0 +1,1 @@
+import subprocess\np=subprocess.Popen(args, stdout=subprocess.PIPE)\nprint p.communicate()[0]

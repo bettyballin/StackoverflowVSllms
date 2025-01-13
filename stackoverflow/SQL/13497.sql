@@ -1,0 +1,1 @@
+SELECT A * 2 AS A\n    ,A * 3 AS B -- This is the original A, not the new A\nFROM whatever

@@ -1,0 +1,1 @@
+for (int index=0; index<=lastIndex; index++)\n{\n  if (strcmp(registeredNames[index], name) == 0)\n  {\n    return; // Already registered\n  }\n}

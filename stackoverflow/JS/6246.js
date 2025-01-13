@@ -1,0 +1,1 @@
+var re = new RegExp("a|b", "i");\n// same as\nvar re = /a|b/i;

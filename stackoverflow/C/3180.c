@@ -1,0 +1,1 @@
+int ipow(int base, int exp)\n{\n    int result = 1;\n    for (;;)\n    {\n        if (exp & 1)\n            result *= base;\n        exp >>= 1;\n        if (!exp)\n            break;\n        base *= base;\n    }\n\n    return result;\n}

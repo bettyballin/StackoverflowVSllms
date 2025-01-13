@@ -1,0 +1,1 @@
+$('.dp-highlighter').each(function(){\n  var container = $(this);\n  if(this.scrollWidth !== $(this).width()) {\n    container.children().each(function(){\n      var child = $(this);\n      var childPaddingLeft = parseInt(child.css('paddingLeft').slice(0, -2));\n      child.width(container.get(0).scrollWidth - childPaddingLeft);\n    });\n  }\n});

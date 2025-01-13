@@ -1,0 +1,1 @@
+SELECT DISTINCT a.value, a.attribute_definition_id, \n  (SELECT TOP 1 value_rk FROM attribute_values WHERE value = a.value) as value_rk\nFROM attribute_values as a\nORDER BY attribute_definition_id

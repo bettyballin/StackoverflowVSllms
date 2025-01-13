@@ -1,0 +1,1 @@
+HAVING (Sum(s.quantity*s.price)) > @X

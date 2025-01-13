@@ -1,0 +1,1 @@
+int sign(int i) {\n    if(i > 0) return 1;\n    if(i == 0) return 0;    \n    return -1; // i<0\n}

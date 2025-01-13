@@ -1,0 +1,1 @@
+if (resultSet.Rows[0].IsNull("fk_id"))

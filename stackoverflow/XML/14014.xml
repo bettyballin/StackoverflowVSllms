@@ -1,0 +1,1 @@
+<xsl:output method="xml" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"\n          media-type="application/html+xml" encoding="utf-8" omit-xml-declaration="yes" indent="no"/>

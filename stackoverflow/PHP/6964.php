@@ -1,0 +1,1 @@
+<?php if ($show_login): ?>\n    <!-- login box code here -->\n<?php endif; ?>

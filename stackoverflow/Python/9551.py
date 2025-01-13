@@ -1,0 +1,1 @@
+active = [r for r in self.updatePageRadio.get_group() if r.get_active()][0]

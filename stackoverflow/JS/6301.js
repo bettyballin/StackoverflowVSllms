@@ -1,0 +1,1 @@
+$("div:has(p)").addClass("has-paragraph");

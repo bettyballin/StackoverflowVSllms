@@ -1,0 +1,1 @@
+var source = document.getElementById('tableA');\nvar destination = document.getElementById('tableB');\nvar copy = source.cloneNode(true);\ncopy.setAttribute('id', 'tableB');\ndestination.parentNode.replaceChild(copy, destination);

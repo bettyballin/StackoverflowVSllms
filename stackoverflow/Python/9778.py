@@ -1,0 +1,1 @@
+fread = open('input.csv', 'rb').read()\nmytext = fread.decode('utf-16')

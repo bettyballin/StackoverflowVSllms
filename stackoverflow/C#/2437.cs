@@ -1,0 +1,1 @@
+Process[] pname = Process.GetProcessesByName("notepad");\nif (pname.Length == 0)\n  MessageBox.Show("nothing");\nelse\n  MessageBox.Show("run");

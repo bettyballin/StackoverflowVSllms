@@ -1,0 +1,1 @@
+SetWindowLongPtr(win32window, GWLP_HWNDPARENT, formhandle)

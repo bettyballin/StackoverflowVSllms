@@ -1,0 +1,1 @@
+if(!is_single() && !is_page() && !is_home() && !is_archive())\n{\n/* This will not display for any post, page, the home page, or an archive.\n You can remove each is statement according to your needs */\n}

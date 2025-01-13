@@ -1,0 +1,1 @@
+sourceFile = Compress("*.*");\ndestFile = "X:\files.zip";\n\nint copyFlags = COPYFILEFAILIFEXISTS | COPYFILERESTARTABLE;\nwhile (CopyFileEx(sourceFile, destFile, null, null, false, copyFlags) == 0) {\n   do {\n     // optionally, increment a failed counter to break out at some point\n     Sleep(1000);\n   while (!IsNetworkAlive(NETWORKALIVELAN));\n}

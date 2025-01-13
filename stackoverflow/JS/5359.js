@@ -1,0 +1,1 @@
+$("#throbber").show();\n/* Your AJAX calls */\n$("#throbber").hide();

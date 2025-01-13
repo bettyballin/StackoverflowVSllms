@@ -1,0 +1,1 @@
+var inputs = document.getElementsByTagName('input');\nvar names = [];\nfor(var i = 0; i < inputs.length; i++){\n    if(inputs[i].type == 'checkbox') names.push(inputs[i].name);\n}

@@ -1,0 +1,1 @@
+cd \inetpub\adminscripts    \nCscript.exe adsutil.vbs START_SERVER W3SVC/1

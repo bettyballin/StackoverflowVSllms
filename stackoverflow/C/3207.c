@@ -1,0 +1,1 @@
+struct Functor\n{\n  bool operator()( char * a, char * b )\n    { return strcmp(a,b) < 0; }\n};

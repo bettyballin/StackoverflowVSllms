@@ -1,0 +1,1 @@
+Contact { PK ContactId, ... }\nContactType { PK ContactTypeId, ContactType }\nContactMethod {PK FK ContactId, PK FK ContactTypeId, PK Key, Value, Comments }

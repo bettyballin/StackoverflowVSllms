@@ -1,0 +1,1 @@
+SELECT MemberId, MemberName, GROUP_CONCAT(FruitName) FROM a LEFT JOIN b ON a.MemberName = b.MemberName GROUP BY a.MemberName;

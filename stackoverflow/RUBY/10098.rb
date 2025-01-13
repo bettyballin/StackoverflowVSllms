@@ -1,0 +1,1 @@
+Client.all(:include => [:deliveries, :invoices], :conditions => ['(deliveries.date > :start_date) OR (invoices.date > :start_date)', :start_date => 1.month.ago])

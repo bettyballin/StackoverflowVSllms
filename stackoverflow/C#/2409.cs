@@ -1,0 +1,1 @@
+public static string GenerateSessionKeyFromPage(Page page)\n    {\n        return "__" + page.Request.Path;\n    }

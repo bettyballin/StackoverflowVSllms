@@ -1,0 +1,1 @@
+select bool_and(someBool)\n  from myTable\n  where someKey = $1\n  group by someKey;

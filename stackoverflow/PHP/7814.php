@@ -1,0 +1,1 @@
+Event::run('system.404');

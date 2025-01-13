@@ -1,0 +1,1 @@
+WHERE event_time BETWEEN '2009.02.03 18:32:41' AND '2009.03.01 18:32:41'\n     AND event_time_bucketed BETWEEN '2009.02.03' AND '2009.03.01'

@@ -1,0 +1,1 @@
+SELECT RIGHT(REPLICATE('0', 9) + '123456789', 9)    -- Result: 123456789\nSELECT RIGHT(REPLICATE('0', 9) + '255', 9)          -- Result: 000000255\nSELECT RIGHT(REPLICATE('0', 9) + '12', 9)           -- Result: 000000012\nSELECT RIGHT(REPLICATE('0', 9) + '1', 9)            -- Result: 000000001

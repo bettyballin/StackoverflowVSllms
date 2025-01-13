@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    document.write([\n        "\<script src='",\n        ("https:" == document.location.protocol) ? "https://" : "http://",\n        "ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js' type='text/javascript'>\<\/script>" \n    ].join(''));\n</script>

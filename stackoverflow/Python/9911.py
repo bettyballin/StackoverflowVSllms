@@ -1,0 +1,1 @@
+d = {}\n\nfor row in rows:\n  c = list_of_categories.index(row["id"])\n  print c\n  d[c] = row["name"]

@@ -1,0 +1,1 @@
+static TCHAR frmdata[] = "-----------------------------7d82751e2bc0858\nContent-Disposition: form-data; name=\"uploadedfile\"; filename=\"file.txt\"\nContent-Type: text/plain\n\nfile contents  here\n-----------------------------7d82751e2bc0858--";\n  static TCHAR hdrs[] = "Content-Type: multipart/form-data; boundary=---------------------------7d82751e2bc0858";

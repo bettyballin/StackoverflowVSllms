@@ -1,0 +1,1 @@
+SELECT url, GROUP_CONCAT(category) AS categories FROM yourtable GROUP BY url 

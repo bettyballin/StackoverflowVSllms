@@ -1,0 +1,1 @@
+BEGIN WORK;\nSELECT creds FROM credits WHERE userid = 1;\n-- do your work\nUPDATE credits SET creds = 150 WHERE userid = 1;\nCOMMIT;

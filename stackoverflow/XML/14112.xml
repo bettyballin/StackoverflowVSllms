@@ -1,0 +1,1 @@
+<aiml xmlns="http://alicebot.org/2001/AIML-1.0.1" version="1.0.1">\n  <category>\n    <pattern>ANSWER MY QUESTION</pattern>\n    <template>\n       Please try asking\n       <set name="it">your question</set>\n       another way.\n    </template>\n  </category>\n</aiml>

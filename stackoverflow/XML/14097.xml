@@ -1,0 +1,1 @@
+<Column Name="Table1.Amount" DbType="smallint" Type="System.Int32" \n         Expression="CAST(Table1.Amount as int)" />

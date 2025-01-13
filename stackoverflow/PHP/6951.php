@@ -1,0 +1,1 @@
+class Page {\n    public $title = '';\n    public $keywords = array();\n    public $content = '';\n    // etc.\n}\n\n$page = new Page();\necho '<title>' . $page->title . '</title>';\necho $page->content;

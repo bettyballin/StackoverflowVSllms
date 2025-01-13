@@ -1,0 +1,1 @@
+*pVal = new CComObject<CNumber>();  \n(*pVal)->AddRef();

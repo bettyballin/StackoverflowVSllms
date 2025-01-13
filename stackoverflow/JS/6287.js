@@ -1,0 +1,1 @@
+$('div.your-save-buttons').click(updateFunction);

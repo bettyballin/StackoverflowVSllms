@@ -1,0 +1,1 @@
+create or replace\nfunction inttoip(ip_address integer) return varchar2\ndeterministic\nis\nbegin\n    return to_char(mod(trunc(ip_address/256/256/256),256))\n           ||'.'||to_char(mod(trunc(ip_address/256/256),256))\n           ||'.'||to_char(mod(trunc(ip_address/256),256))\n           ||'.'||to_char(mod(ip_address,256));\nend;

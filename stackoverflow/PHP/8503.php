@@ -1,0 +1,1 @@
+<?php\n\n  $start = microtime(true);\n\n  include 'somefile.php';\n\n  echo microtime(true)-$start;\n\n?>

@@ -1,0 +1,1 @@
+Private Function FindCulture(ByVal Code As String) As Globalization.CultureInfo\n    Dim AllCultures As Globalization.CultureInfo() = Globalization.CultureInfo.GetCultures(Globalization.CultureTypes.AllCultures)\n    Return Array.Find(AllCultures, Function(s) s.TwoLetterISOLanguageName = Code)\nEnd Functio

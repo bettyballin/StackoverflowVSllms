@@ -1,0 +1,1 @@
+rem call dll and get string\ndim mystring as string=string.intern(mydll.getstring())

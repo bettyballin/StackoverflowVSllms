@@ -1,0 +1,1 @@
+DTE.ActiveDocument.Language = "CSharp"

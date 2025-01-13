@@ -1,0 +1,1 @@
+require 'net/http'\n\nNet::HTTP.start("minscandboo.com") { |http|\n  resp = http.get("/miscgame/001-Title01.jpg")\n  open("local-game-image.jpg", "wb") { |file|\n    file.write(resp.body)\n   }\n}\n\n# ...\n\n@sprite.bitmap = Bitmap.new("local-game-image.jpg")

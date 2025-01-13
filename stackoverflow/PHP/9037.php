@@ -1,0 +1,1 @@
+if ($_GET['rows'] > 10 && $_GET['rows'] < 200)

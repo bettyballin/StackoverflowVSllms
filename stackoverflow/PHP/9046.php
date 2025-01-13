@@ -1,0 +1,1 @@
+function alterMe($var) {\n    $var = 'hello';\n}\n\n$test = 'hi';\nalterMe($test);\nprint $test; // prints hi\n\n$a = 'hi';\n$b = $a;\n$a = 'hello';\nprint $b; // prints hi

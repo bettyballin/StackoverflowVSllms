@@ -1,0 +1,1 @@
+if (window.addEventListener)\n    /** DOMMouseScroll is for mozilla. */\n    window.addEventListener('DOMMouseScroll', handleWheelEvent, false);\n/** IE/Opera. */\nwindow.onmousewheel = document.onmousewheel = handleWheelEvent;\n\nfunction handleWheelEvent(e){\n    e.preventDefault();\n}

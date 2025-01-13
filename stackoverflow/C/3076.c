@@ -1,0 +1,1 @@
+BOOL WINAPI GetDiskFreeSpace(\n  __in   LPCTSTR lpRootPathName,\n  __out  LPDWORD lpSectorsPerCluster, // <--\n  __out  LPDWORD lpBytesPerSector, // <--\n  __out  LPDWORD lpNumberOfFreeClusters,\n  __out  LPDWORD lpTotalNumberOfClusters\n);

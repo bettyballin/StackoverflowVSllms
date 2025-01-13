@@ -1,0 +1,1 @@
+>>> from cStringIO import StringIO\n>>> f = StringIO('foo')\n>>> f.read()\n'foo'

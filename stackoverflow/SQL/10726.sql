@@ -1,0 +1,1 @@
+DELETE FROM myTable AS t1 \nWHERE EXISTS (\n    SELECT 1 FROM myTable AS t2 \n    WHERE t1.ID=t2.ID AND t1.DateCreated<t2.DateCreated)

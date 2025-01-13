@@ -1,0 +1,1 @@
+create proc InsertAndUpdate\n@parentName varchar(255),\n@childName varchar(255)\n\nas\ndeclare @newParentId int\ninsert into PARENT values (@parentName)\nselect @newParentId = SCOPE_IDENTITY()\n\ninsert into CHILD values (@newParentId, @childName)

@@ -1,0 +1,1 @@
+var segment_part = "some bit of the regexp";\nvar pattern = new RegExp("some regex segment" + /*comment here */\n              segment_part + /* that was defined just now */\n              "another segment");

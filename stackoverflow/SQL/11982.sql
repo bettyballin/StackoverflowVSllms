@@ -1,0 +1,1 @@
+SELECT  item.*\nFROM    tree tm\nJOIN    tree tc\nON      tc.lft >= tm.lft\n        AND tc.rgt <= tm.rgt\nJOIN    item\nON      item.tree_id = tc.id\nWHERE   tm.type = x

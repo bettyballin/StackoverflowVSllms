@@ -1,0 +1,1 @@
+$date = '2008-11-05';\nif (strtotime("now") > strtotime("+13 days", strtotime($date))) {\n  //Do something\n}

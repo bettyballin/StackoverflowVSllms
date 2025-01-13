@@ -1,0 +1,1 @@
+function removeFlashFromHTML() \n{\n swfobject.removeSWF("id_of_your_html_object");\n}

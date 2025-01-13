@@ -1,0 +1,1 @@
+[SomeTextarea].onkeyup = function(e){\n  e = e || event;\n  if (e.keyCode === 13) {\n    // start your submit function\n  }\n  return true;\n }

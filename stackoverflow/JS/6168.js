@@ -1,0 +1,1 @@
+function myfunc(){\n  var myself = arguments.callee;\n  myself.anotherfunc();\n}\n\nmyfunc.avalue=5;\n\nmyfunc.anotherfunc=function(){\n  alert(this.avalue);\n}\n\nmyfunc(); //Alerts 5\nmyfunc.anotherfunc(); //Alerts 5

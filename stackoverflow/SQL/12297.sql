@@ -1,0 +1,1 @@
+SELECT *\nFROM ( \n    SELECT id, column1, column2\n    FROM atable ORDER BY 2 DESC\n) \nWHERE ROWNUM < 100;

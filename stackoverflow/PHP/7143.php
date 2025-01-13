@@ -1,0 +1,1 @@
+$last = count($arr_nav) - 1;\n\nforeach ($arr_nav as $i => $row)\n{\n    $isFirst = ($i == 0);\n    $isLast = ($i == $last);\n\n    echo ... $row['name'] ... $row['url'] ...;\n}

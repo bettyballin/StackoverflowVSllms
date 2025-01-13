@@ -1,0 +1,1 @@
+if (document.referrer != "http://homepage.com/file.pdf") {\n    // go to the file\n}

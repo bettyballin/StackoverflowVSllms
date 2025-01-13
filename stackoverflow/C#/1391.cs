@@ -1,0 +1,1 @@
+static void Main(string[] args)\n    {\n        UInt32 us = 0x80004005;\n        Int32 s = (Int32)us;\n\n        Console.WriteLine("Unsigned {0}", us);\n        Console.WriteLine("Signed {0}", s);\n        Console.WriteLine("Signed as unsigned {0}", (UInt32)s);\n\n        Console.ReadKey();\n    }

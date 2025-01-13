@@ -1,0 +1,1 @@
+INSERT IGNORE INTO `table`\nSELECT `alt1`.`nid`, `alt2`.`realm`\nFROM `table` AS `alt1`, `table` AS `alt2`

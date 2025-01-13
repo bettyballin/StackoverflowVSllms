@@ -1,0 +1,1 @@
+<?php\n    include($_SERVER['DOCUMENT_ROOT'].'/data/data.php/');\n?>

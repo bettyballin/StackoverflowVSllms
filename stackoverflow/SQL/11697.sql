@@ -1,0 +1,1 @@
+SELECT A.ID, A.Name, COUNT(ab.B_ID) AS bcount\nFROM A LEFT JOIN A_B_Link ab ON (ab.A_ID = A.ID)\nGROUP BY A.ID, A.Name;

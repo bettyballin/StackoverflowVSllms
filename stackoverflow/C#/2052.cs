@@ -1,0 +1,1 @@
+IEnumerable<SomeType> data = ...\nDataTable table = new DataTable();\nusing(var reader = ObjectReader.Create(data)) {\n    table.Load(reader);\n}

@@ -1,0 +1,1 @@
+Dim clientSiteUrl As String = "http://myintranet/clients/sampleclient"\nUsing SPSite = new SPSite(clientSiteUrl) \n    webApp As SPWebApplication = SPWebApplication.Lookup(new Uri(clientSiteUrl));\n    If Not (webApp.Prefixes.Contains(clientSiteUrl)) Then\n        webApp.Prefixes.Add(clientSiteUrl, SPPrefixType.ExplicitInclusion)\n    End If\nEnd Using

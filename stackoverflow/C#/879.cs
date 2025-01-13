@@ -1,0 +1,1 @@
+Job job = new Job();\njob.Name = "a";\nlist.Add(job);\njob.Name = "b";\nlist.Add(job);

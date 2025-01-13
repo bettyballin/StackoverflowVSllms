@@ -1,0 +1,1 @@
+bMuteSound = abs(chkMute.Value)  \nchkMute.Value = abs(bMuteSound)

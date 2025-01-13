@@ -1,0 +1,1 @@
+namespace ns {\n    class A; // just tell the compiler to expect a class def\n}\n\nclass ns::A {\n    // define here\n};

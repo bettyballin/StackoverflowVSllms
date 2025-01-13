@@ -1,0 +1,1 @@
+CREATE TABLE #tempMatchResult (\n    matchId VARCHAR(50) NOT NULL PRIMARY KEY /* NOT NULL if at all possible */\n);\n\nINSERT INTO #tempMatchResult\nSELECT DISTINCT MatchId FROM MatchResult;

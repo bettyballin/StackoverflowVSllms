@@ -1,0 +1,1 @@
+#!/usr/bin/env ruby\n\nrequire 'fileutils'\n\nFileUtils.mv('/tmp/your_file', '/opt/new/location/your_file')

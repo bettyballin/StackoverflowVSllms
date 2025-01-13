@@ -1,0 +1,1 @@
+There are currently some issues with komodo.docommand and some commands. \nTo work around this, change this line:\n\nkomodo.doCommand("cmd_selectWordLeft");\n\nto this instead:\n\nkomodo.editor.wordLeftExtend();

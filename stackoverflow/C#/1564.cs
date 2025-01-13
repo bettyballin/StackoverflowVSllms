@@ -1,0 +1,1 @@
+DataTable data = DAL.getdata();\nif (data.Rows.Count == 0)\n{\n    ShowEmptyData();\n}\nelse\n{\n    Grid.DataSource = dt;\n    Grid.DataBind();\n}

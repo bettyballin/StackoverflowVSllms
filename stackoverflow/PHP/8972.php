@@ -1,0 +1,1 @@
+$foo = array(1,2,3,4,5);\nprint_r($foo);

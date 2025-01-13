@@ -1,0 +1,1 @@
+CASE WHEN (NULL + ?)=0 THEN 0 ELSE ?/(NULL + ?) END

@@ -1,0 +1,1 @@
+setup_socket();\n\nwhile(1)\n{\n   listen();\n   newfile_descriptor = accept();\n   int command\n   command = read(newfile_descriptor,&command,sizeof(int));\n   while(command) {\n     switch(command)\n     {\n        ...\n     }\n     // get next command, or figure out closed connection\n     command = read(newfile_descriptor,&command,sizeof(int));\n  }\n}

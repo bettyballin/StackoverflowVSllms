@@ -1,0 +1,1 @@
+define( '_JEXEC', 1 );\ndefine('JPATH_BASE', dirname(dirname(__FILE__)));\ndefine( 'DS', DIRECTORY_SEPARATOR );\n\nrequire_once (JPATH_BASE . DS . 'includes' . DS . 'defines.php');\nrequire_once (JPATH_BASE . DS . 'includes' . DS . 'framework.php');\n\n$mainframe = JFactory::getApplication('site');

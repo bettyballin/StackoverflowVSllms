@@ -1,0 +1,1 @@
+string s = "søme string";\ns = Regex.Replace(s, @"[^\u0000-\u007F]+", string.Empty);

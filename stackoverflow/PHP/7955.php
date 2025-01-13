@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/1265061/efficient-way-to-realize-permalinks-in-php

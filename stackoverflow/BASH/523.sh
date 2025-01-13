@@ -1,0 +1,1 @@
+osql -U %1 -P %2 -S %3 -d %4 -h-1 -Q "SELECT ROUTINE_NAME FROM INFORMATION_SCHEMA.Routines WHERE ROUTINE_TYPE = 'PROCEDURE'" -n -o "sp_list.txt"\nfor /f %%a in (sp_list.txt) do osql -U %1 -P %2 -S %3 -d %4 -h-1 -Q "SELECT ROUTINE_DEFINITION FROM INFORMATION_SCHEMA.Routines WHERE ROUTINE_NAME = '%%a'" -n -o "%%a.sql"

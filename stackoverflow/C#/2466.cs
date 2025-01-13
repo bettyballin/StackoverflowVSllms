@@ -1,0 +1,1 @@
+static void Hook1()\n{\n    someEvent += new EventHandler( Program_someEvent );\n}\n\nstatic void Hook2()\n{\n    someEvent += Program_someEvent;\n}

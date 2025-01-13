@@ -1,0 +1,1 @@
+SELECT * FROM table1 WHERE ID NOT IN\n  (SELECT * FROM table2 WHERE accountID = '1')

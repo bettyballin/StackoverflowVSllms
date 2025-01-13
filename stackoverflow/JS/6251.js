@@ -1,0 +1,1 @@
+$.ajax({\n   type: "POST",\n   url: "login.php",\n   dataType: 'text',\n   data: { username: username, password: password },\n   success: function(data) {\n     if(data == 'Incorrect password'){\n       $('#login_callback').html(data);        \n     }\n     else{\n       $('#login').html(data);\n     }\n   },\n   error: function(msg) {\n    alert("O NOES");\n   }\n});

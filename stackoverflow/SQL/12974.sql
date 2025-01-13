@@ -1,0 +1,1 @@
+SELECT table1.Col1 AS "This is |not| an alias" FROM table1

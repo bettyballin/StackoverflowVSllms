@@ -1,0 +1,1 @@
+db.FileEntities.\n    Where(x => ids.Contains(x.ID)).\n    Select(x => x.DateDeleted = DateTime.Now; return x; );\n\ndb.SubmitChanges();

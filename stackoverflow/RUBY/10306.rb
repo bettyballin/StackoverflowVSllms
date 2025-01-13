@@ -1,0 +1,1 @@
+<%=    link_to_remote image_tag('whatever.jpg'), \n       {:controller => 'something', :action => 'replace_thumbnail', :id => @thumbnail.id}, \n       :update => 'preview' %>

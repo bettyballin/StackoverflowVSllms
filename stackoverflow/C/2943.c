@@ -1,0 +1,1 @@
+num_list.erase(elements_iter);

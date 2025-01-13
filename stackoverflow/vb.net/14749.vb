@@ -1,0 +1,1 @@
+AddHandler PropertyChanged, addressof MyProperty_PropertyChangedHandler

@@ -1,0 +1,1 @@
+UPDATE MyTable\nSET MyColumn = Replace(MyColumn, CHAR(13), ' ')

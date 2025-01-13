@@ -1,0 +1,1 @@
+create table t (id number(10,0), padding varchar2(1000));  

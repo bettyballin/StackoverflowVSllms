@@ -1,0 +1,1 @@
+select * from expense, transaction where expense_id = transaction_expense_id

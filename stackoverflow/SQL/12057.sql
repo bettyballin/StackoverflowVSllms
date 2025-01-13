@@ -1,0 +1,1 @@
+ALTER IGNORE TABLE `my_table` ADD UNIQUE (\n`ref_id` ,\n`type`\n);

@@ -1,0 +1,1 @@
+Public Module MyClass\n\n  Public Sub Reset()\n    Field1 = 42\n    Field2 = "foo"\n  End Sub\n\n  Public Shared Field1 As Integer\n  Public Shared Field2 As String\nEnd Module

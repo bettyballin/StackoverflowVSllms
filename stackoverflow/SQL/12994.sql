@@ -1,0 +1,1 @@
+CREATE FUNCTION UnifiedData (@LiveOnly bit, @ArchiveOnly bit)\nRETURNS TABLE\nAS\nRETURN (\n    SELECT columnA\n           ,columnB\n           ,columnC\n    FROM (\n        SELECT 'Live' AS Src, * \n        FROM Data\n        WHERE @ArchiveOnly = 0\n\n        UNION ALL\n\n        SELECT 'Archive' AS Src, *\n        FROM DataArchive\n        WHERE @LiveOnly = 0\n    )\n)

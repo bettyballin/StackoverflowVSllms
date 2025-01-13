@@ -1,0 +1,1 @@
+SUM(AvgPrice *\n     CASE\n          WHEN ReservedQty > QtyOnHand THEN QtyOnHand\n          ELSE ReservedQty\n     END)

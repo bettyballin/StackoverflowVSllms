@@ -1,0 +1,1 @@
+preg_replace('/^(?:([^\.]+)\.)?domain\.com$/', '\1', $_SERVER['SERVER_NAME'])

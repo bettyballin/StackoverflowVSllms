@@ -1,0 +1,1 @@
+wget -r -np -A "*.htm*" ftp://site/dir

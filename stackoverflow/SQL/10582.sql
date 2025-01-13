@@ -1,0 +1,1 @@
+SELECT DISTINCT(ans) FROM (\n    SELECT right AS ans FROM answers\n    UNION\n    SELECT wrong1 AS ans FROM answers\n    UNION\n    SELECT wrong2 AS ans FROM answers\n    UNION\n    SELECT wrong3 AS ans FROM answers\n    UNION\n    SELECT wrong4 AS ans FROM answers\n) AS Temp

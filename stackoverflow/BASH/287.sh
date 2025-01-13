@@ -1,0 +1,1 @@
+keytool -importkeystore \\n  -deststorepass storepassword \\n  -destkeypass keypassword \\n  -destkeystore my-keystore.jks \\n  -srckeystore cert-and-key.p12 \\n  -srcstoretype PKCS12 \\n  -srcstorepass p12password \\n  -alias 1

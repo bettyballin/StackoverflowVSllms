@@ -1,0 +1,1 @@
+def quarticRamp(x, b=10, peak=5):\n    if not 0 <= x <= b:\n        raise ValueError   #or return 0\n    return peak*x*x*(x-b)*(x-b)*16/(b*b*b*b)

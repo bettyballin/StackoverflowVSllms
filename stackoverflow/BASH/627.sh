@@ -1,0 +1,1 @@
+caspol -machine -addgroup <group_param> -url file://yournetworkdriveletter/* FullTrust -name somename

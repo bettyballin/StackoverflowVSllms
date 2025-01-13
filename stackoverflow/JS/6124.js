@@ -1,0 +1,1 @@
+$("#mySelect").change(function() {\n  document.location = this.value;\n});

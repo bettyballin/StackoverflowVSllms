@@ -1,0 +1,1 @@
+SqlCommand cmd = new SqlCommand("exec @myProc " + paramValue, con);\ncmd.ExecuteNonQuery();

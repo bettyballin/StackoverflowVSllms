@@ -1,0 +1,1 @@
+xmllint --noout --schema XSD_FILE XML_FILE

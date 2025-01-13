@@ -1,0 +1,1 @@
+var user_is_leecher = true;

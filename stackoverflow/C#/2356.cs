@@ -1,0 +1,1 @@
+void Adapter_RowUpdated(object sender, SqlRowUpdatedEventArgs e)\n        {\n            if (e.StatementType==StatementType.Insert)\n            {\n\n                Select last autoinc value with @@Identity  \n                e.Row["ID"] = last autoinc value\n            } \n        }

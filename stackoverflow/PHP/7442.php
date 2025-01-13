@@ -1,0 +1,1 @@
+// adjust pattern to your needs\n// $input needs to be UTF-8 encoded\nif (preg_match('/^\p{L}+$/u', $input)) {\n    // OK\n} else {\n    // not OK\n}

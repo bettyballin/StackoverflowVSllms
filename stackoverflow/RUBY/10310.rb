@@ -1,0 +1,1 @@
+<%= link_to_function "Toggle", "$('.some_div').toggle()" %>

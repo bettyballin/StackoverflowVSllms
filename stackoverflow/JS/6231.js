@@ -1,0 +1,1 @@
+for(i=0;i<array_size;i++) {\n  print "group" + (Math.floor(i/(array_size/N)) + 1)\n}

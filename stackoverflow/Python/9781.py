@@ -1,0 +1,1 @@
+sum(i for i, j in list_of_pairs)

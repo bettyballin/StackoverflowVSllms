@@ -1,0 +1,1 @@
+DECLARE temp_status_id INT;\nSELECT status_id \n   INTO temp_status_id \n   FROM car_status;\nINSERT INTO cars (type, status_id) \n    VALUES ('GM',temp_status_id),\n           ('Toyota',temp_status_id),\n           ('Honda',temp_status_id);

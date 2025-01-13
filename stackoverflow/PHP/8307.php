@@ -1,0 +1,1 @@
+foreach (glob("*.*") as $filename) {\n    echo $filename."<br />";\n}

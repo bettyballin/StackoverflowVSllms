@@ -1,0 +1,1 @@
+//if a customer is late, send them a reminder\nfor(int i=0;i<USER_COUNT-1;++i){\n  if(LATE_ON_PAYMENTS=CustomerType(Customers[i])){\n    SendReminder(Customers[i]);\n  }  //if cust is late on their payments\n}  //for ea customer

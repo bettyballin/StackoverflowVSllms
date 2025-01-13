@@ -1,0 +1,1 @@
+SELECT a.session_id, MIN(a.created) as start_time, \nb.page_id AS last_page, b.end_time\nFROM table a \nINNER JOIN \n   (SELECT b.session_id, MAX(b.created) as end_time, MAX(b.page_id) \n   FROM table b GROUP BY b.session_id) \nON a.session_id = b.session_id GROUP BY a.session_id

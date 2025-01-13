@@ -1,0 +1,1 @@
+SELECT UserName\nFROM Tbl_Users\nWHERE FREETEXT (UserName, 'bob' )\n\nResults:\n\nJimBob\nLittle Bobby Tables

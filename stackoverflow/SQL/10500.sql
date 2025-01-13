@@ -1,0 +1,1 @@
+begin\n  for i in (select rowid, emp.* from emp)\n  loop\n    if i.sal=1300 then\n      update emp\n      set sal=13000\n      where rowid=i.rowid;\n    end if;\n  end loop;\nend;

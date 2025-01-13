@@ -1,0 +1,1 @@
+#!/bin/sh\n# \n# usage: retrieve-cert.sh remote.host.name [port]\n#\nREMHOST=$1\nREMPORT=${2:-443}\n\necho |\\nopenssl s_client -connect ${REMHOST}:${REMPORT} 2>&1 |\\nsed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p'

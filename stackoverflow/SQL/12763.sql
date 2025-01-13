@@ -1,0 +1,1 @@
+SELECT *\nFROM ERAUser.Audit\nPIVOT (max(NewValue) FOR FieldName in (Field1, Field2, Field3)) as PivotTable

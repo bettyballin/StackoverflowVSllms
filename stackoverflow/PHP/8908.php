@@ -1,0 +1,1 @@
+gd\nGD Support  enabled\n**GD Version    bundled (2.0.34 compatible)**\nFreeType Support    enabled\nFreeType Linkage    with freetype\nFreeType Version    2.1.9\nT1Lib Support   enabled\nGIF Read Support    enabled\nGIF Create Support  enabled\nJPG Support     enabled\nPNG Support     enabled\nWBMP Support    enabled\nXBM Support     enabled

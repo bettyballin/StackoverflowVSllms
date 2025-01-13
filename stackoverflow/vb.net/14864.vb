@@ -1,0 +1,1 @@
+Dim cmd as New SqlCommand("SELECT * FROM compliance_corner WHERE (body LIKE '%' + @query + '%') OR (title LIKE '%' + @query + '%')")\n\ncmd.Parameters.Add("@query", searchString)

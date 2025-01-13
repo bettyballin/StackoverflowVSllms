@@ -1,0 +1,1 @@
+var all = document.getElementsByTagName('iframe'), l = all.length;\nwhile (l--) all[l].parentNode.removeChild(all[l]);

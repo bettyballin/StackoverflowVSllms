@@ -1,0 +1,1 @@
+RewriteCond %{HTTPS} !^on$\nRewriteRule ^/checkout/? https://%{HTTP_HOST}%{REQUEST_URI} [R,L] \n\nRewriteRule !\.(js|ico|gif|jpg|png|css|swf|xml|avi|flv|mov|mp3|wav)$ index.php [L]

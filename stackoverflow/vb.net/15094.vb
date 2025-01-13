@@ -1,0 +1,1 @@
+'declare the adapter as normal\nDim AdapterTest As New DataSetTestTableAdapters.TestTableAdapter\n\n'pass the new connection object into the now visible property\nAdapterTest.Connection = New Data.SqlClient.SqlConnection("Data Source=Myserver;Initial Catalog=TEST;Integrated Security=True;")

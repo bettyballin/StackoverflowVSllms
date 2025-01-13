@@ -1,0 +1,1 @@
+<script type="text/javascript">\nfunction test() {\n  alert('i got loaded dynamically!');\n}\n</script>

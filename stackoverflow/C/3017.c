@@ -1,0 +1,1 @@
+const int MAX = 72460; // Or anything more than the highest legal value\ninRange = (MAX + inputDate - startDate) % MAX < \n          (MAX + endDate - startDate) % MAX;

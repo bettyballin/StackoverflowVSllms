@@ -1,0 +1,1 @@
+System.Environment.GetEnvironmentVariable("PROCESSOR_ARCHITECTURE")

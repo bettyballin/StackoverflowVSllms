@@ -1,0 +1,1 @@
+$dir_array = array_diff($dir_array, array(".", ".."));

@@ -1,0 +1,1 @@
+myprocess.EnableRaisingEvents = true;

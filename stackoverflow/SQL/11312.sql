@@ -1,0 +1,1 @@
+Select Id,\n       Case When Col1 < Col2 And Col1 < Col3 Then Col1\n            When Col2 < Col1 And Col2 < Col3 Then Col2 \n            Else Col3\n            End As TheMin\nFrom   YourTableNameHere

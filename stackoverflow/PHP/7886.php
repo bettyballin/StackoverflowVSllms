@@ -1,0 +1,1 @@
+function myeval($code) {\n     my_eval_tracking($code, ...);  # use traceback to get more info if necessary\n     # (...)\n     return eval($code);\n}

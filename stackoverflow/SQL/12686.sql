@@ -1,0 +1,1 @@
+UPDATE  table t\nJOIN    (\n        SELECT  code, MIN(docId) AS firstdoc\n        FROM    table\n        GROUP BY\n                code\n        ) q\nON      t.code = q.code\nSET     t.isDup = NOT (t.docId = q.firstdoc), \n        t.dupOf = CASE WHEH t.docId = q.firstdoc THEN 0 ELSE q.firstDoc END

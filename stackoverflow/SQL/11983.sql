@@ -1,0 +1,1 @@
+CREATE OR REPLACE PACKAGE BODY testPackage AS\nPROCEDURE privateProc; --Forward declaration\n\nPROCEDURE publicProc IS\n  BEGIN    \n    privateProc();\nEND;\n\nPROCEDURE privateProc IS\nBEGIN    \n  DBMS_OUTPUT.PUT_LINE('test');\nEND;\nEND testPackage;

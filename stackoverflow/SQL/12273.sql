@@ -1,0 +1,1 @@
+SET a.Col1 = COALESCE(incoming.Col1, a.Col1)\n    ,a.Col2 = COALESCE(incoming.Col2, a.Col2)

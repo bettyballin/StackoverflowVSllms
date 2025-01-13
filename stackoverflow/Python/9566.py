@@ -1,0 +1,1 @@
+newlist = [s for s in a_list if not any(r(s) for r in regex_list)]

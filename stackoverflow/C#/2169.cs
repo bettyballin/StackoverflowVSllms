@@ -1,0 +1,1 @@
+public static class MyExtenstionMethods \n{   \n  public static bool HasSelectedValue(this RadioButtonList list) \n  {\n    return list.SelectedItem != null;\n  }\n}\n\n\n...\n\nif (RadioButtonList_VolunteerType.HasSelectedValue)\n{\n // do stuff\n}

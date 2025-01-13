@@ -1,0 +1,1 @@
+alert("entered call back function. readstate value is: "+xmlHttpreadyState+". Response Text is: "+xmlHttp.responseText);

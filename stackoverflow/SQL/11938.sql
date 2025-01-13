@@ -1,0 +1,1 @@
+CATEGORY_TABLE:\n  name | value\n   A      aaa\n   B      bbb\n   C      ccc\n ...\n\n\nSELECT B.value AS COLUMN1, A.\* \nFROM TRANSACTION\_TABLE A, CATEGORY\_TABLE B \nWHERE A.column1 = B.name

@@ -1,0 +1,1 @@
+var sorted = oldList.OrderBy( l => l.Count );

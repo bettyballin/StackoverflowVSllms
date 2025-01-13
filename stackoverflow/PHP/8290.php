@@ -1,0 +1,1 @@
+$text = 'ignore everything except this (text)';\npreg_match('#\((.*?)\)#', $text, $match);\nprint $match[1];

@@ -1,0 +1,1 @@
+var timer1\nSortable.create("fList", {constraint:false,onChange:function(){triggerUpdate()}})\n\nfunction triggerUpdate() {\n    clearTimeout(timer1)\n    window.setTimeout(function(){showList()},800)\n}\nfunction showList() {\n    var now = new Date()\n    alert(now)\n\n}

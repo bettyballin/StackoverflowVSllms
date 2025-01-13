@@ -1,0 +1,1 @@
+$(document).ready(function() {\n\n  // For IE\n  var h = $('#page').outerHeight();\n  var newH = h + 20;\n  window.resizeBy(0, newH - $(window).height());\n\n  // Only works in Firefox/Safari\n  $('img').load(function() {\n    var h = $('#page').outerHeight();\n    var newH = h + 20;\n    window.resizeBy(0, newH - $(window).height());\n  });\n});

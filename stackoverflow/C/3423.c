@@ -1,0 +1,1 @@
+class ListNode {\nprivate:\n    int value;\n    ListNode * next;\n\npublic:\n    bool listcontains(int v) { \n        // does this node contain the value?\n        if(value == v) return true; \n\n        // was this the last node?\n        if(next == 0) return false;\n\n        // return whether nodes after us contain the value \n        return next->listcontains(v);\n    }\n};

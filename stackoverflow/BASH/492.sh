@@ -1,0 +1,1 @@
+for ((i=1;i<=n;i++));\ndo\n  echo "name$i $((NUM=(RANDOM%75)+15)) (###)###-####"\ndone > "$file"

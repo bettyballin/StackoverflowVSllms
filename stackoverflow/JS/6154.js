@@ -1,0 +1,1 @@
+SearchTable.prototype.show = function () {\n  ....\n\n  var self = this;\n\n  new Ajax.Request(this.dataProxy, {\n    method: 'get',\n    parameters: {\n      format: 'json',\n      param: 'columns'\n    },\n    onSuccess: function(transport) { self.setTableColumns(transport); }\n  });

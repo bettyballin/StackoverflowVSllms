@@ -1,0 +1,1 @@
+$results = ORM::factory('product_shoppingcart')\n           ->where('shoppingcart_id', $shoppingcartID)\n           ->find_all();\nforeach ($results as $product_shoppingcart) {\n  print Kohana::debug($product_shoppingcart->as_array());\n}

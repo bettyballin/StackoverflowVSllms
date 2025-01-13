@@ -1,0 +1,1 @@
+XPathNavigator.get_OuterXml

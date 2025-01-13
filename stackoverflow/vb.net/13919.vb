@@ -1,0 +1,1 @@
+myUrl = Server.UrlEncode(myUrl)

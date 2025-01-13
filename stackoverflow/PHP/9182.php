@@ -1,0 +1,1 @@
+$feed = new Zend_Feed_Rss('http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/uk/rss.xml');\n\n$dom = $feed->getDOM();\n\n$version = $dom->ownerDocument->documentElement->getAttribute('version');

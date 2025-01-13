@@ -1,0 +1,1 @@
+OpenDataSource(provider_name, init_string)

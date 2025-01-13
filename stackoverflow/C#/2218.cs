@@ -1,0 +1,1 @@
+list<Request> requests;\nlog_manipulator.getRequestListByRef(requests);

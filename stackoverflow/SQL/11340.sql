@@ -1,0 +1,1 @@
+CREATE TABLE Item(\n  item_id INT NOT NULL, \n  item_name VARCHAR(255) NOT NULL\n)\nCREATE TABLE Category(\n  category_id INT NOT NULL, \n  category_name VARCHAR(255) NOT NULL\n)\nCREATE TABLE Item_Category(\n  item_id INT NOT NULL REFERENCES Item(item_id), \n  category_id INT NOT NULL REFERENCES Category(category_id)\n )

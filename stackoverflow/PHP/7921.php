@@ -1,0 +1,1 @@
+// We'll be outputting a PDF\nheader('Content-type: application/pdf');\n// It will be called downloaded.pdf\nheader('Content-Disposition: attachment; filename="downloaded.pdf"');\n// The PDF source is in original.pdf\nreadfile('original.pdf');

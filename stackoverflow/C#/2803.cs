@@ -1,0 +1,1 @@
+var uirQuery = from uir in db.UsersInRole\n               join u in db.User on uir.UserID equals u.RecordID\n               join r in db.Role on uir.RoleID equals r.RecordID\n               where usernames.Contains(u.Username) \n                  && rolenames.Contains(r.Rolename)\n               select uir;\n\ndb.UsersInRole.DeleteAllOnSubmit(uirQuery);

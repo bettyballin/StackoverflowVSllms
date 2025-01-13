@@ -1,0 +1,1 @@
+From TABLE_A A\n\nJOIN TABLE_B B ON A.Column = B.Colum

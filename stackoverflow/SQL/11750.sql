@@ -1,0 +1,1 @@
+DECLARE @BirthDate DATETIME\nDECLARE @CurrentDate DATETIME\n\nSELECT @CurrentDate = '20070210', @BirthDate = '19790519'\n\nSELECT DATEDIFF(YY, @BirthDate, @CurrentDate) - CASE WHEN( (MONTH(@BirthDate)*100 + DAY(@BirthDate)) > (MONTH(@CurrentDate)*100 + DAY(@CurrentDate)) ) THEN 1 ELSE 0 END 

@@ -1,0 +1,1 @@
+$val = get_post_custom_values('header_image');\nif (!val) {\n    $parent = get_page($post->post_parent);\n    while (!$val && $parent) {\n        $val = get_post_custom_values('header_image', $parent->id);\n        $parent = get_page($parent->post_parent);\n    }\n    if (!$parent && !val) // has failed to find a header image!\n        $val = 'my default value';\n}

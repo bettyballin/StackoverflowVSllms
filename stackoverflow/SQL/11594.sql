@@ -1,0 +1,1 @@
+Declare @MyInt integer Set @MyInt = 123\nDeclare @StrLen TinyInt Set @StrLen = 8\n\nSelect Replace(Str(@MyInt, @StrLen), ' ' , '0')

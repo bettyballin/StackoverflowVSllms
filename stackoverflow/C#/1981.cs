@@ -1,0 +1,1 @@
+MasterList.SelectMany(master => master.SubItems)

@@ -1,0 +1,1 @@
+parse_str($_SERVER['QUERY_STRING'], $get);\nprint_r($get);

@@ -1,0 +1,1 @@
+$.get('http://your.website.com/page.html', \n  function (data) {  alert(data) } );

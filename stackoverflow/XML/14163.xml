@@ -1,0 +1,1 @@
+<configuration><sytem.web>\n    <httpHandlers>\n        <add path="*.xml" verb="*" type="System.Web.UI.PageHandlerFactory" validate="true"/>\n    </httpHandlers>\n    <compilation>\n       <buildProviders>\n         <add extension=".xml" type="System.Web.Compilation.PageBuildProvider"/>\n       </buildProviders>\n    </compilation>\n</sytem.web></configuration>

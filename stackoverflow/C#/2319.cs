@@ -1,0 +1,1 @@
+var q = from single in Enumerable.Range(1, 1)\n                let xs = sourceSequence\n                select new\n                {\n                    Aggregate1 = xs.Sum(),\n                    Aggregate2 = xs.Average(),\n                    // etc\n                };

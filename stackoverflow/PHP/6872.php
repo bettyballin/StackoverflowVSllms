@@ -1,0 +1,1 @@
+$str = "string_with_smart_quote_chars";\n\n$ilen = strlen($str);\n$sords = NULL;\n\necho "$str\n\n";\n\nfor($i=0; $i<$ilen; $i++)\n{\n    $sords .= ord(substr($str, $i, 1))."  ";\n}\n\necho "$sords\n\n";

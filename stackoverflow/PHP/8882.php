@@ -1,0 +1,1 @@
+$i = 0;\n$len = count($array);\nforeach ($array as $item) {\n    if ($i == 0) {\n        // first\n    } else if ($i == $len - 1) {\n        // last\n    }\n    // …\n    $i++;\n}

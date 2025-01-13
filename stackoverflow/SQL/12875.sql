@@ -1,0 +1,1 @@
+select *\nfrom YourTable cur\nwhere cur.Co3 in ('t','r')\nand not exists (\n    select *\n    from YourTable later\n    where cur.Co1 = later.Co1 \n    and cur.Co2 = later.Co2\n    and later.Co3 not in ('t','r') \n    and CInt(Mid(later.Co4,2)) > CInt(Mid(cur.Co4,2))\n)\norder by cur.Co1, cur.Co2 desc, CInt(Mid(cur.Co4,2))

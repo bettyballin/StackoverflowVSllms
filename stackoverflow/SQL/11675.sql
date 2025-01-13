@@ -1,0 +1,1 @@
+CREATE TEMPORARY TABLE PhpArray (name varchar(50));\n\n-- you can probably do this more efficiently\nINSERT INTO PhpArray VALUES ($foo[0]), ($foo[1]), ...;\n\nSELECT People.*\nFROM People\n LEFT OUTER JOIN PhpArray USING (name)\nWHERE PhpArray.name IS NULL;

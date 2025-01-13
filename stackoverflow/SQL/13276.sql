@@ -1,0 +1,1 @@
+select ID +1 From Table t1\nwhere not exists (select * from Table t2 where t1.id +1 = t2.id);

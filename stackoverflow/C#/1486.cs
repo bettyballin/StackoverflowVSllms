@@ -1,0 +1,1 @@
+string currencySymbol = RegionInfo.CurrentRegion.ISOCurrencySymbol;\n\n// currencySymbol equals EUR for France(fr-FR) or any EU country\n// returns AUD for en-AU, US for en-US, etc.

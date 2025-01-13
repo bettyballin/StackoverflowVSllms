@@ -1,0 +1,1 @@
+>>> ["foo", "bar", "baz"].index("bar")\n1

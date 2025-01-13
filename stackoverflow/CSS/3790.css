@@ -1,0 +1,1 @@
+div.noSelect {\n  -moz-user-select: none; /* mozilla browsers */\n  -khtml-user-select: none; /* webkit browsers */\n}

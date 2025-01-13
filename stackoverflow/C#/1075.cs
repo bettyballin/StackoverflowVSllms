@@ -1,0 +1,1 @@
+Func<Person, string> nameProjection = p => p.Name;

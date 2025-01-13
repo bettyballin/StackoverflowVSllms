@@ -1,0 +1,1 @@
+Me.TextBox1.Focus()\nMe.TextBox1.SelectionStart = TextBox1.Text.Length

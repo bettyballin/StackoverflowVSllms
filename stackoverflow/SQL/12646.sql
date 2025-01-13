@@ -1,0 +1,1 @@
+SELECT slotnumber, fileid, rank\nFROM\n(\n    SELECT slotnumber, fileid, Schedules.rank, RANK() OVER (PARTITION BY slotnumber ORDER BY Schedules.rank DESC) as rankfunc\n    FROM Schedules\n    INNER JOIN PlaylistSlots ON Schedules.playlistid = PlaylistSlots.playlistid\n) tmp\nWHERE rankfunc = 1

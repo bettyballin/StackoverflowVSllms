@@ -1,0 +1,1 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">\n  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">\n    <UserConfig>Tom</UserConfig>\n    <DefineConstants>DEBUG;TRACE;TOM</DefineConstants>\n  </PropertyGroup>\n  <ItemGroup Condition=" '$(UserConfig)' == 'Tom'">\n    <Compile Include="Tom.cs" />\n  </ItemGroup>\n</Project>

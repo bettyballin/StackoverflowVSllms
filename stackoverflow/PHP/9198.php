@@ -1,0 +1,1 @@
+$this->getResponse()->setCookie('myCookie[0]', $data1);\n$this->getResponse()->setCookie('myCookie[1]', $data2);

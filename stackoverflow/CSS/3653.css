@@ -1,0 +1,1 @@
+@page land { size:landscape; }\n@page port { size:portrait; }\n.landscapePage { page:land; }\n.portraitPage { page:port; }

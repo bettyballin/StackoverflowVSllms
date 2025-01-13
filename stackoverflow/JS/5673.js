@@ -1,0 +1,1 @@
+<script type="text/javascript"> \n  document.body.className += " js";\n</script>

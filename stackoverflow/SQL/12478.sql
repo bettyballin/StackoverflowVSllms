@@ -1,0 +1,1 @@
+Select\n   ID,\n   AssnDate,\n   AssnTxt,\n   Max(IsNull(Sally,0)) AS Sally,\n   Max(IsNull(Ted, 0)) As Ted,\n   Max(IsNull(Bob, 0)) As Bob\nFrom vwGrades\nGroup By\n  ID,\n  AssnDate,\n  AssnTxt

@@ -1,0 +1,1 @@
+SELECT thread.* FROM thread \nLEFT OUTER JOIN product\nON thread.prod_id = product.id\nWHERE thread.user_id = 5 OR product.user_id = 5

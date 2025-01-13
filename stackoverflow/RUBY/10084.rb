@@ -1,0 +1,1 @@
+@results = Array.new\n  Note.find(:all, :limit => 3, :order => "created_at DESC").each do |item|\n      @results << item\n  end\n\n  Picture.find(:all, :limit => 3, :order => "created_at DESC").each do |item|\n    @results << item\n  end\n  @results.sort!{|a,b|a.updated_at <=> b.updated_at}

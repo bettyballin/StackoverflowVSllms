@@ -1,0 +1,1 @@
+//$data is dynamic data you want to pass to the sidebar\necho $this -> partial('/path/to/sidebar.phtml',array('menuitems' => $data));

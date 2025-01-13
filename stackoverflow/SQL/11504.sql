@@ -1,0 +1,1 @@
+SELECT\n    SUM(((LENGTH(p.body) - LENGTH(REPLACE(p.body, 'term', '')))/4) +\n        ((LENGTH(p.body) - LENGTH(REPLACE(p.body, 'search', '')))/6))\n    AS Occurrences\nFROM\n    posts AS p\nGROUP BY\n    p.id\nORDER BY\n    Occurrences DESC

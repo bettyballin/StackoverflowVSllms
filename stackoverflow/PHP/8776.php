@@ -1,0 +1,1 @@
+function sort_by_length($arrays) {\n    $lengths = array_map('count', $arrays);\n    asort($lengths);\n    $return = array();\n    foreach(array_keys($lengths) as $k)\n        $return[$k] = $arrays[$k];\n    return $return;\n}

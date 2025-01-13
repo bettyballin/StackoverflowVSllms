@@ -1,0 +1,1 @@
+UPDATE `table`\nSET `inuse` = (`id` = 23)

@@ -1,0 +1,1 @@
+int DoSomething()\n{\n   return DoSomethingSpecial();\n}

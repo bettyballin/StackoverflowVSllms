@@ -1,0 +1,1 @@
+$imageArray = glob($folder . "/image*.jpg");

@@ -1,0 +1,1 @@
+$from_unix_time = mktime(0, 0, 0, $month, $day, $year);\n$day_before = strtotime("yesterday", $from_unix_time);\n$formatted = date('Y-m-d', $day_before);

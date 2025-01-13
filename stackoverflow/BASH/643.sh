@@ -1,0 +1,1 @@
+gnome-terminal --working-directory=myfolder

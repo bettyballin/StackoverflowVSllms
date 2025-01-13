@@ -1,0 +1,1 @@
+if (objdeg != gundeg)\n{\n    if ((gundeg - objdeg) > 180)\n       gundeg++;\n    else\n       gundeg--;\n}

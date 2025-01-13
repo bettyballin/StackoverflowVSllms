@@ -1,0 +1,1 @@
+$('select').each(function(){\n\n  $('option', this).each(function() {\n    // your normalizing script here\n\n  })\n\n});

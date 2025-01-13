@@ -1,0 +1,1 @@
+Dim del = Function (x) x + 42

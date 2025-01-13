@@ -1,0 +1,1 @@
+SELECT * FROM mytable where date > (\n   SELECT max(date) FROM mytable where check = 0    \n) 

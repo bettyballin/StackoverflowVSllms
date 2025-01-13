@@ -1,0 +1,1 @@
+/* Code to get config variables here */\n$DB = new DB($config);\n/* You might want to delete the database password from $config here */\n$Page = new Page($config, $DB);

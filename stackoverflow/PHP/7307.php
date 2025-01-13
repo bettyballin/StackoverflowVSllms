@@ -1,0 +1,1 @@
+if(!extension_loaded('soap')){\n  dl('soap.so'); // Actually a deprecated method. See "notes" at http://no.php.net/dl\n}

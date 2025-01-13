@@ -1,0 +1,1 @@
+\nSELECT group\n FROM theTable\n GROUP BY group\n HAVING MAX(Sequence) - MIN(Sequence) <> (COUNT(*) - 1);

@@ -1,0 +1,1 @@
+select\n    Category,\n    min(StartDateTime) [MinStartDateTime],\n    max(EndDateTime) [MaxDateTime]\nfrom MyTable\ngroup by\n    Category\norder by\n    Category,\n    MinStartDateTime,\n    MaxDateTime

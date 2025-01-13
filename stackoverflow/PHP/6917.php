@@ -1,0 +1,1 @@
+<?php\n    if ($_POST['action'] == "delete") {\n        delete();\n    }\n?>

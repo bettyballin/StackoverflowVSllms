@@ -1,0 +1,1 @@
+$imagesDir = 'path/to/your/images/';\n$images = glob($imagesDir . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);\n\necho json_encode($images);

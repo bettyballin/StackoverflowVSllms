@@ -1,0 +1,1 @@
+Private Sub DisableWaterMark()\n    Me.waterMarkTextEnabled = False\n    Me.SetStyle(ControlStyles.UserPaint, False)\n    If oldFont IsNot Nothing Then\n        Me.Font = New System.Drawing.Font(oldFont.FontFamily, oldFont.Size, oldFont.Style, oldFont.Unit)\n    End If\n    Refresh()\nEnd Sub

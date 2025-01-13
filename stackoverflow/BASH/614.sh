@@ -1,0 +1,1 @@
+sqlplus scott/tiger@someDatabase @someScript.sql

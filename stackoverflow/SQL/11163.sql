@@ -1,0 +1,1 @@
+ALTER TABLE PopByCountry DROP CONSTRAINT Country_Key

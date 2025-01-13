@@ -1,0 +1,1 @@
+if (!Roles.RoleExists("Administrator"))\n{\n    Roles.CreateRole("Administrator");\n}\nif (Membership.GetUser("Admin") == null)\n{\n    Membership.CreateUser("Admin", "Admin");\n    Roles.AddUserToRole("Admin", "Administrator");\n}

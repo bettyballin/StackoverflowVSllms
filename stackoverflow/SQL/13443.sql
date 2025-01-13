@@ -1,0 +1,1 @@
+begin tran;\ndelete from tablea where exists (select 1 from tableb where tablea.id=tableb.id);\ninsert into tablea select * from tableb;\ncommit tran;

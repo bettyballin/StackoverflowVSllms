@@ -1,0 +1,1 @@
+xmlHttp.onreadystatechange = FetchComplete(layername);

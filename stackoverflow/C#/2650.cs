@@ -1,0 +1,1 @@
+Thread.CurrentThread.Priority = ThreadPriority.Lowest;

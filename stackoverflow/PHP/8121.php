@@ -1,0 +1,1 @@
+$query = "SELECT *\n          FROM produto, pt, amb_prod \n          WHERE produto.refPT = pt.ref\n          AND produto.refPT = amb_prod.idProduto \n          WHERE amb_prod.idAmbiente='1';";\n$result_set = mysql_query($query);

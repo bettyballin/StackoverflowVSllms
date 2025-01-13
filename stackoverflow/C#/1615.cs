@@ -1,0 +1,1 @@
+new ReflectedControllerDescriptor(typeof(TController)).GetCanonicalActions()

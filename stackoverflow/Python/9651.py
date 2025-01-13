@@ -1,0 +1,1 @@
+import urllib2\n\nurllib2.urlopen("http://remotehost.com/myscript.php")

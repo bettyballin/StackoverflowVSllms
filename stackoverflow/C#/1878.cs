@@ -1,0 +1,1 @@
+new Select().From().Where("1").IsEqualTo("1");

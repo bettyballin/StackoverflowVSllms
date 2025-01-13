@@ -1,0 +1,1 @@
+SELECT \n     myTable.Index,\n     MIN(myTable.[Date]),\n     MAX(myTable.[Date])\nFROM myTable\n     Inner Join (\n       SELECT Index \n       From myTable \n       WHERE [Date] BETWEEN '1/1/2000' AND '12/31/2000') As AliasName\n       On myTable.Index = AliasName.Index\nGROUP BY myTable.Index\nORDER BY myTable.Index ASC

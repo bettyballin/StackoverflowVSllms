@@ -1,0 +1,1 @@
+// Test data\n$str = '<p>a1</p><p>b2</p><p>c3</p><p>d4</p>';\n\n// Pull out all the paragraph contents into $matches\npreg_match_all('_<p>(.+?)</p>_is', $str, $matches);\n\n// $matches[0] contains all the <p>....</p>\n// $matches[1] contains the first group, i.e. our (.+?)\n// Echo a random one\necho $matches[1][array_rand($matches[1])];

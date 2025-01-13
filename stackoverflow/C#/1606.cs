@@ -1,0 +1,1 @@
+//EventHandler declaration\npublic event EventHandler  DataLoaded;\nprotected void Mag_Button_Load_Click(object sender, EventArgs e)\n{\n\n    //Raise Event\n    if (DataLoaded != null) {\n        DataLoaded(this, EventArgs.Empty);\n    }\n}

@@ -1,0 +1,1 @@
+Response.AddHeader "Set-Cookie", "mycookie=yo; HttpOnly"

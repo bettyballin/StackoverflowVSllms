@@ -1,0 +1,1 @@
+POST https://api.usergrid.com/token  -d '{"username":"Joe","password":"Sec4et!","grant_type" : "password"}'

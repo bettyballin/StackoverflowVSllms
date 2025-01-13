@@ -1,0 +1,1 @@
+UPDATE mytable, (\n  SELECT @loop := MAX(col1)\n  FROM\n    mytable\n  ) o\nSET col1 = (@loop := @loop + 1)

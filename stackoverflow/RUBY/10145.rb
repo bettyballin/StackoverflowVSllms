@@ -1,0 +1,1 @@
+@messages = RolesMessages.find(:all, :select => 'DISTINCT sender_id, message_id', :conditions => ["sender_id IN (?) ", @roles.map(&:id)], :order => 'created_at DESC')

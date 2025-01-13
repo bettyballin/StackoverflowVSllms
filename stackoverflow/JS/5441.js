@@ -1,0 +1,1 @@
+$.get('quiz.xml', function(d) {\n    var question = $(d).find('question :eq(0)');\n    var questionContent = question.attr('content');\n    alert(questionContent);\n    $(questionContent).appendTo("#quizQuestion");\n});

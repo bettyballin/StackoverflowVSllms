@@ -1,0 +1,1 @@
+CREATE INDEX notNullblob ON myTable (blobCol is not NULL);

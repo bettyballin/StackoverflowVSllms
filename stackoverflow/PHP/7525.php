@@ -1,0 +1,1 @@
+function getScpCommand($???) \n{\n    $Command = new Command();\n    $Command->addOption(/* scp specific this */);\n    $Command->addArgument(/* scp specific that */);\n    /* etc */\n    $Command->addOption(/* handle your getScpCommand parameters here */)\n\n    return $Command;\n}

@@ -1,0 +1,1 @@
+SET @counter = 0;\nSET @category = '';\n\nSELECT\n    *\nFROM\n(\n    SELECT\n        @counter := IF(data.category = @category, @counter+1, 0) AS counter,\n        @category := data.category,\n        data.*\n    FROM\n    (\n        SELECT\n            *\n        FROM test\n        ORDER BY category, date DESC\n    ) data\n) data\nHAVING counter < 2

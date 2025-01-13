@@ -1,0 +1,1 @@
+var category = $("#business_business_category_id").val();\n    if (!category) {\n        $('#categorylabel').show();\n        $("#business_business_category_id").focus();\n          return false;\n    }

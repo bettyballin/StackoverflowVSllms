@@ -1,0 +1,1 @@
+Class ChildClass\n  Inherits BaseClass\n  Public Sub New(text As String)\n    MyBase.New(text)\n  End Sub\nEnd Class

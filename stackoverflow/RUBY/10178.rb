@@ -1,0 +1,1 @@
+Item.find(:all, :select=>:status, :group => 'status', :conditions => "status != ''").collect{|r| r.status}

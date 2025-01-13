@@ -1,0 +1,1 @@
+select QUOTENAME(FieldName, CHAR(39))

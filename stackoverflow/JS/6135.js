@@ -1,0 +1,1 @@
+$(function(){\n    $("#myElementId").mouseOver(myMouseOverHandler);\n});

@@ -1,0 +1,1 @@
+public bool DeleteUser(string username, bool deleteAllRelatedData)

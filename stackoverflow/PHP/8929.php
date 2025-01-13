@@ -1,0 +1,1 @@
+if (empty($variable) && '0' != $variable) {\n  // Do something\n}

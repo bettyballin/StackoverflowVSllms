@@ -1,0 +1,1 @@
+EXEC sp_server_info 2

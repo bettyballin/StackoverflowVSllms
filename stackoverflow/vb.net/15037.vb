@@ -1,0 +1,1 @@
+Dim pi = From p In dc.Inventories _\n         Join i In dc.InventoryItems\n              On p.InventoryItemID Equals i.InventoryItemID _\n         Where p.LotNumber <> "" _\n         Select New With { .LotNumber = p.LotNumber, .Quantity = p.Quantity, _\n                           .Item = i.Item, .Uom = i.UnitofMeasure, _\n                           .Description = i.Description }

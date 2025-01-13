@@ -1,0 +1,1 @@
+<script type="text/javascript">\n  $(function() {\n    $("#tabs").tabs( 'select' , index )\n  });\n</script>

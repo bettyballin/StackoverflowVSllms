@@ -1,0 +1,1 @@
+$ cut -c 1 t.txt | sort | uniq

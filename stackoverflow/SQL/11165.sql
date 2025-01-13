@@ -1,0 +1,1 @@
+LEFT JOIN (SELECT DISTINCT ComponentID FROM BuildComponents) BC ON BC.ComponentID = i.ItemID

@@ -1,0 +1,1 @@
+-- avoid re-calculating @MyDate +1 for every row\nDECLARE @NextDay DateTime\nSet @NextDay = @MyDate + 1\n\nSELECT \n    -- ...\nWHERE [timestamp] >= @MyDate AND [timestamp] < @NextDay

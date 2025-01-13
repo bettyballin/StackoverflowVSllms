@@ -1,0 +1,1 @@
+$(document).ready( function() {\n    $('ul#selectable li').toggle( function() {\n        $(this).addClass('orange'); }, function() {\n        $(this).removeClass('orange'); } );\n});

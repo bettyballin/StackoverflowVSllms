@@ -1,0 +1,1 @@
+int count = gridView1.Rows.Count;\n\nfor(int i=0; i < count; i++)\n{\n  GridViewRow row = gridView1.Rows[i];\n  CheckBox cb = row.FindControl("CheckBoxID") as CheckBox;\n  //Check if CheckBox is checked\n  if(cb != null && cb.Checked) \n  {\n    // Logic here.\n  }\n}

@@ -1,0 +1,1 @@
+preg_match_all('/(test|data|string)/', 'testdatastring', $m)

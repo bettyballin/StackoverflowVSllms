@@ -1,0 +1,1 @@
+send_data pptdata, :filename => 'your_file_name.ppt', \n   :disposition => 'inline', :type => "multipart/related"

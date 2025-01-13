@@ -1,0 +1,1 @@
+reg_replace(/\D+/g, '', your_string)

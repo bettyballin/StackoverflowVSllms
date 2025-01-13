@@ -1,0 +1,1 @@
+<?php\n\n    $guest = 1;\n    $editor = 2;\n    $admin = 4;\n\n    $user = $editor;\n\n    if( $user & ($editor | $admin) ) {\n        echo "Test";    \n    }\n\n?>

@@ -1,0 +1,1 @@
+def build_active_solution(progid="VisualStudio.DTE.7.1"):\n    from win32com.client import GetActiveObject\n    dte = GetActiveObject(progid)\n    sb = dte.Solution.SolutionBuild\n    sb.Build(True)\n\n    output = dte.Windows['Output'].Object.ActivePane.TextDocument.Selection\n    output.SelectAll()\n    return output.Text

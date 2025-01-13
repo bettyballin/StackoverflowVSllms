@@ -1,0 +1,1 @@
+extract($someArray); // could be $_POST or anything\n\n/* snip a dozen or more lines */\n\necho $someVariable;

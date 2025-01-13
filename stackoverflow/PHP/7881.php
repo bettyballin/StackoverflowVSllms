@@ -1,0 +1,1 @@
+function log($msg)\n{\n  $bt = debug_backtrace();\n  $caller = array_shift($bt);\n\n  // echo $caller['file'];\n  // echo $caller['line'];\n\n  // do your logging stuff here.    \n}

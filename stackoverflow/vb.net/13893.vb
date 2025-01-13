@@ -1,0 +1,1 @@
+Dim cp As New CustomerParameters() With { _\n     .FirstName = "C First Name", _\n     .LastName = "C Last Name" _\n}

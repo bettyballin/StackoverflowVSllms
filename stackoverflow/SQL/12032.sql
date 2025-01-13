@@ -1,0 +1,1 @@
+SELECT SUBSTRING(column, PATINDEX('%[0-9]%', column), 999)\nFROM table

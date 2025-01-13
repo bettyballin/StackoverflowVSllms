@@ -1,0 +1,1 @@
+$productsArray = file($productsFileName, FILE_IGNORE_NEW_LINES);\n\nforeach ($productsArray as $key => &$product) {\n    $arr = explode("\t", $product);\n    $product = array('number' => $arr[0], 'name' => $arr[1], 'price' => $arr[2]);\n}\n\nvar_dump($productsArray);

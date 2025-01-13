@@ -1,0 +1,1 @@
+SELECT \n  * \nFROM \n  Books \n  LEFT OUTER JOIN KeywordsLink ON KeywordsLink.BookID = Books.CopyID \n  LEFT OUTER JOIN Keywords ON Keywords.ID = KeywordsLink.KeywordID \nWHERE Books.Title LIKE '%JOEL%' \n      OR Keywords.Name LIKE '%GOOD%'

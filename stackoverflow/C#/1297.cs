@@ -1,0 +1,1 @@
+TextBox nameTextBox =\n  CreateUserWizard1.CreateUserStep.ContentTemplateContainer.FindControl("Name") as TextBox;\n\nif (nameTextBox != null) {\n    /* Do your stuff */\n}

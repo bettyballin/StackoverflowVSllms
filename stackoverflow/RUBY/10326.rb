@@ -1,0 +1,1 @@
+cgi.out( "cookie" => [cookie] ){""}

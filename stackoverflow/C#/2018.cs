@@ -1,0 +1,1 @@
+LogEntry logEntry = \nPerson.LogEntries.OrderByDescending(p => p.EntryTime).FirstOrDefault();

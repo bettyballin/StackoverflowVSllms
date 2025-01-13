@@ -1,0 +1,1 @@
+$str = array();\nforeach (array('first','second','third','fourth') as $k) {\n    if (isset($_POST[$k]) && $_POST[$k]) {\n        $str[] = $_POST[$k];\n    }\n}\n$last = array_pop($str);\necho implode(", ", $str) . " and " . $last;

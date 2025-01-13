@@ -1,0 +1,1 @@
+SELECT  body, created, anonymous, screen_name\nFROM    idiscussion\nLEFT JOIN\n        users\nON      idiscussion.uid = users.id\nWHERE   idiscussion.iask_id = iask_id

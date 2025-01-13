@@ -1,0 +1,1 @@
+public abstract string Foo { get; protected set; }

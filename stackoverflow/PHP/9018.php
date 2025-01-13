@@ -1,0 +1,1 @@
+$array = array('apple', 'orange', 'pear', 'banana', 'apple',\n'pear', 'kiwi', 'kiwi', 'kiwi');\n\nprint_r(array_count_values($array));

@@ -1,0 +1,1 @@
+(excerpt from web.xml)\n<filter>\n  <filter-name>jspFilter</filter-name>\n  <filter-class>com.mypackage.JspFilter</filter-class>\n</filter>\n<filter-mapping>\n  <filter-name>jspFilter</filter-name>\n  <url-pattern>*.jsp</url-pattern>\n</filter-mapping>

@@ -1,0 +1,1 @@
+<Subreport Name="SubReport">\n  <ReportName>SubReport</ReportName>\n  <Visibility>\n    <Hidden>=Not Parameters!ShowLogo.Value</Hidden>\n  </Visibility>\n</Subreport>

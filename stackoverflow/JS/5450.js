@@ -1,0 +1,1 @@
+if (part=="1")\n{\n   $url  "get_auction.php?cmd=GetAuctionData&pk="+pk+"&sid="+Math.random()\n}\nelse if (part=="2")\n{\n   var url  "get_records.php?cmd=GetRecordSet&query="+query+"&sid="+Math.random()\n}

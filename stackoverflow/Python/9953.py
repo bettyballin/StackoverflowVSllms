@@ -1,0 +1,1 @@
+In [2]: class C(object):\n   ...:     def method(self, a, b, c):\n   ...:         print a, b, c\n   ...:\n   ...:\n\nIn [3]: def api_function(a_func):\n   ...:     a_func("One Fish", "Two Fish", "Blue Fish")\n   ...:\n   ...:\n\nIn [4]: c = C()\n\nIn [5]: api_function(c.method)\nOne Fish Two Fish Blue Fish

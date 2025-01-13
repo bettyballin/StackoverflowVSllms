@@ -1,0 +1,1 @@
+y, x = 35, 570\nfor line in attText.splitlines():\n    draw.text( (x,y), line, ... )\n    y = y + attSpacing

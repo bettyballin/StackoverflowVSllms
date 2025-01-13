@@ -1,0 +1,1 @@
+public string ValidationGroup\n{\n   get\n   {\n      return MyRequiredFieldValidator.ValidationGroup;\n   }\n   set\n   {\n      MyRequiredFieldValidator.ValidationGroup = value;\n   }\n}

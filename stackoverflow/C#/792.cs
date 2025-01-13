@@ -1,0 +1,1 @@
+tblDeviceDataTable dtService = new tblDeviceDataTable();\ndtService.tblLocationID.AllowDbNull = true;\ntaDevice.FillDataByDeviceSN(dtService,txtDeviceSerial.Text);

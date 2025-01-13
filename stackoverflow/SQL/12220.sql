@@ -1,0 +1,1 @@
+SELECT  field1\nFROM    mytable\nWHERE   id = $id\nORDER BY\n        criteria = $criteria DESC, id\nLIMIT 5

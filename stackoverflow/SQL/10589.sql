@@ -1,0 +1,1 @@
+UPDATE prospekts SET sni_kod = \n    CASE\n        WHEN ISNUMERIC(@sni_kod)=1 THEN\n            CASE \n                WHEN cast(@sni_kod as int) BETWEEN 1000 AND 1499 OR cast(@sni_kod as int) BETWEEN 1600 AND 2439 THEN '1'\n                WHEN cast(@sni_kod as int) BETWEEN 7000 AND 7499 THEN 'W'\n                ELSE @sni_kod\n            END\n        ELSE @sni_kod\n    END

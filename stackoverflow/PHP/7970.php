@@ -1,0 +1,1 @@
+require_once('SYMFONY_DIR/config/ProjectConfiguration.class.php');\n$configuration = ProjectConfiguration::getApplicationConfiguration( 'frontend', 'test', true);\nnew sfDatabaseManager($configuration);\n$job = JobeetJobPeer::doSelectOne(new Criteria());\nprint_r($job);

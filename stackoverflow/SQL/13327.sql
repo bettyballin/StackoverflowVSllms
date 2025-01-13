@@ -1,0 +1,1 @@
+CREATE TABLE agebands\n(\n    id INT NOT NULL PRIMARY KEY,\n    lower_bound INT NOT NULL,\n    upper_bound INT NOT NULL\n)\nCREATE INDEX IDX_agebands_bounds ON (lower_bound, upper_bound)

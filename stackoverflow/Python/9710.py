@@ -1,0 +1,1 @@
+d = {}\nfor line in open("file"):\n    line=line.strip()\n    if line.endswith("\\"):\n        directory = line.split(":")[-1].strip().replace("\\","")\n        d.setdefault(directory,[])\n    if line.startswith("->"):\n        song=line.split(" ")[-1]\n        d[directory].append(song)\nprint d

@@ -1,0 +1,1 @@
+Dim thisUser As New UserInformation()\nthisUser.LoginID = someValue\nSession("UserInformation") = thisUser

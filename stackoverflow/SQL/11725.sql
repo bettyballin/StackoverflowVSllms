@@ -1,0 +1,1 @@
+SELECT `Item`.*, `Seat`.`Face_value`\nFROM `Item`\nJOIN `Event` ON `Event`.`Id` = `Item`.`Event_id`\nJOIN `Seat` USING (`Venue_id`, `Configuration`)\nWHERE `Seat`.`Section` = `Item`.`Section`

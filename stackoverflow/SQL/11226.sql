@@ -1,0 +1,1 @@
+CREATE TABLE Employees\n(\n    Id int,\n    Name varchar(50) not null,\n    Photo varbinary(max) not null\n)\n\n\nINSERT INTO Employees (Id, Name, Photo) \nSELECT 10, 'John', BulkColumn \nFROM Openrowset( Bulk 'C:\photo.bmp', Single_Blob) as EmployeePicture

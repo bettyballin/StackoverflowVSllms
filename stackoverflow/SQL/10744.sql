@@ -1,0 +1,1 @@
+SELECT AVG(`num`), ((`num` - 1) DIV 2) * 2 AS `tier`\nFROM (\n    SELECT DATE_FORMAT(`created`, '%Y-%m-%d') AS `day`, COUNT(*) AS `num`\n    FROM `yourtable`\n    GROUP BY 1\n) AS `src`\nGROUP BY `tier`

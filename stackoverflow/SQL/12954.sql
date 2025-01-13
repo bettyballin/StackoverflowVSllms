@@ -1,0 +1,1 @@
+WITH XMLNAMESPACES('uri' as xsi)    \nSELECT    \n'me:age'     AS 'description/@xsi:type'    \n,age         AS 'description'    \n,name        AS 'name'   \n,'me:height' AS 'description/@xsi:type'    \n,height      AS 'description'    \nFROM #test    \nFOR XML PATH('person')

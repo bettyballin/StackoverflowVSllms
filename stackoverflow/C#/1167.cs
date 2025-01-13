@@ -1,0 +1,1 @@
+public void Add(Output output)\n{\n    OutputCollectionItem oci = new OutputCollectionItem();\n    oci.item = output;\n    this.OutputCollection.Add(oci);\n}

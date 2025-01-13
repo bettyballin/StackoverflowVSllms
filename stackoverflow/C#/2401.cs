@@ -1,0 +1,1 @@
+var directory = new DirectoryInfo("C:\\MyDirectory");\nvar myFile = (from f in directory.GetFiles()\n             orderby f.LastWriteTime descending\n             select f).First();\n\n// or...\nvar myFile = directory.GetFiles()\n             .OrderByDescending(f => f.LastWriteTime)\n             .First();

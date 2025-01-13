@@ -1,0 +1,1 @@
+DECLARE @query nvarchar(2000),\n        @paramList nvarchar(2000)\n\nSET @query = 'SELECT * FROM dbo.Orders WHERE custLastName LIKE ''%'' + @custLastName + ''%'''\nSET @paramList = '@custLastName varchar(30)'\n\nEXEC SP_EXECUTESQL @query, @paramList, @custLastName

@@ -1,0 +1,1 @@
+$crawler = getIsCrawler($_SERVER['HTTP_USER_AGENT']);

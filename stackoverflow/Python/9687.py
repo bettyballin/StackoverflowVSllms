@@ -1,0 +1,1 @@
+a = [f(x) for x in bar]

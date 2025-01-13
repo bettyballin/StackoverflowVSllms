@@ -1,0 +1,1 @@
+Class BL\npublic event doneUpdate(o as object, e as eventArgs)\n\nsub method doDBUpdate()\n\n'do your stuff\n\nRaiseEvent doneUpdate(o,e) \nend sub\n\nEnd Class\n\nClass Form\ndim withEvents bl as BL\n\nsub g handles bl.doneUpdate(o as object , e as eventargs)\n  'rebind\nend sub \n\nEnd Class

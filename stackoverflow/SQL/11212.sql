@@ -1,0 +1,1 @@
+select columnlist\nfrom table1\njoin table2 on joincond2\njoin table3 on joincond3

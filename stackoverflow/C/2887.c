@@ -1,0 +1,1 @@
+struct array1 {\n    int mArray[10];\n    int & operator[](int i) {\n      /// what to put here\n    }\n}; `

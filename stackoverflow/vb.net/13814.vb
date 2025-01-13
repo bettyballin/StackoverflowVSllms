@@ -1,0 +1,1 @@
+so.Cpage = "ContractChange.aspx?" & Request.RawUrl.Split("?")(1)

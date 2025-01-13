@@ -1,0 +1,1 @@
+\nobject o = 1;\nobject z = Enum.ToObject(typeof(E), o); 

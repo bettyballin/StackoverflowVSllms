@@ -1,0 +1,1 @@
+SELECT *\n  FROM dbo.TblBusinessNames\n WHERE BusinessName like '%[^A-z^0-9]Break%' -- In the middle of a sentence\n    OR BusinessName like 'Break%'            -- At the beginning of a sentence

@@ -1,0 +1,1 @@
+select * from master.sys.syslogins WHERE [name] ='loginname'

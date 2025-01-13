@@ -1,0 +1,1 @@
+$page = (isset($_GET['page']) && is_numeric($_GET['page'])) ? $_GET['page'] : 0;

@@ -1,0 +1,1 @@
+function checkbox_value($name) {\n    return (isset($_POST[$name]) ? 1 : 0);\n}

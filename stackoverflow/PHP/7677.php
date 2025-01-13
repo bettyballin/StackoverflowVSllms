@@ -1,0 +1,1 @@
+//run query and get field information about the row in the table\n$meta = mysql_fetch_field($result, $i);\n\n//get the field type of the current column\n$fieldType = $meta->type

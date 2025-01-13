@@ -1,0 +1,1 @@
+select table_name \nfrom information_schema.columns \nwhere column_name = 'classtypeid'

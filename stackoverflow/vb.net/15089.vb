@@ -1,0 +1,1 @@
+Public Class whatever\n  Public _id as string\n  Public name as string\n  public date as string\n\n  Public Property Id As String \n    Get \n      Return _id\n    End Get\n    Set (value as String )\n      _id = value\n    End Set\n  End Property\n\n  ' repeat for all 3 fields\nend class

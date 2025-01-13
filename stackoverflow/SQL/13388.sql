@@ -1,0 +1,1 @@
+SELECT\n  p.name,\n  GROUP_CONCAT(c.name SEPARATOR ', ') AS categories\nFROM\n  product p\n  JOIN product_to_category pc ON p.id = pc.product_id\n  JOIN category c ON c.id = pc.category_id\nGROUP BY\n  p.name\nORDER BY\n  p.name,\n  c.name

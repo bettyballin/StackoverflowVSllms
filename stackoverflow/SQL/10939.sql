@@ -1,0 +1,1 @@
+SELECT toUTC([MyDateColumn], [MyTimeZoneColumn]) FROM [MyTable]

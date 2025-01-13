@@ -1,0 +1,1 @@
+try {\n    try {\n        throw new Exception("This is thrown from the inner exception handler.");\n    }catch(Exception $e) {\n        throw $e;\n    }\n}catch(Exception $e) {\n    die("I'm the outer exception handler (" . $e->getMessage() . ")<br />");\n}

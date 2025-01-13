@@ -1,0 +1,1 @@
+function weigh(&$vals, $key, $weights) {\n    $sum = 0;\n    foreach($vals as $v)\n        $sum += $v*$weights[$key];\n    $vals = $sum;\n}\n\n$result = $values;\narray_walk($result, "weigh", $weights);

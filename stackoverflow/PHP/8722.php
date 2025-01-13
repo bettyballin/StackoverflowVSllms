@@ -1,0 +1,1 @@
+$params = "<ns1:myOperation xmlns:ns1="..." xmlns:ns2="...">\n      <ns2:Person>\n        <ns2:Firstname>..</ns2:Firstname>\n        ..\n      </ns2:Person>\n      <ns1:Attribute>..</ns1:Attribute>\n    </ns1:myOperation>";

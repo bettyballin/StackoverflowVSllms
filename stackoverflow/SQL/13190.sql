@@ -1,0 +1,1 @@
+Select count(*) from `friends` join `users` on `user_id`=`users`.`id` where `users`.`id`=? and `accepted`=`TRUE` and `online`='TRUE'

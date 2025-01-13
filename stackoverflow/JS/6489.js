@@ -1,0 +1,1 @@
+var st : String ="";\nfor (var i:int = 0; i < tf.numLines; i++) {\n\n            var s:String = tf.getLineText(i) + "\n";\n            st += s;\n}

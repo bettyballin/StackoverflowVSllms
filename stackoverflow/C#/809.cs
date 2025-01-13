@@ -1,0 +1,1 @@
+((ListControl)cbListBox).DataSource = fieldList.Select( f => f.objectName )\n                                               .Distinct()\n                                               .ToList() );

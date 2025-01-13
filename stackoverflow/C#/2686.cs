@@ -1,0 +1,1 @@
+string machineName = ConfigurationManager.AppSettings["ServiceMachineName"];\nstring serviceName = ConfigurationManager.AppSettings["ServiceName"];\nServiceController service = new ServiceController( serviceName, machineName );\nreturn service.Status;

@@ -1,0 +1,1 @@
+using System;\nusing System.Data;\nusing System.Data.SqlClient;\nusing System.Data.SqlTypes;\nusing Microsoft.SqlServer.Server;\n\npublic partial class StoredProcedures\n{\n    [Microsoft.SqlServer.Server.SqlProcedure]\n    public static int Debug(string s)\n    {\n        System.Diagnostics.Debug.WriteLine(s);\n            return 0;\n        }\n    }\n}

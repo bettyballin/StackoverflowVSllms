@@ -1,0 +1,1 @@
+eval: 1: /home/user1/MyApp/bin/wrapper: Permission denied

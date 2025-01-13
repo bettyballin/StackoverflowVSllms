@@ -1,0 +1,1 @@
+<select name='locations'>\n<?php\nwhile ($row = mysql_fetch_assoc($result))\n{\n    echo "<option value='".$row['location']."'>".$row['location']."</option>";\n}\n?>\n</select>

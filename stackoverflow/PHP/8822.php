@@ -1,0 +1,1 @@
+<?php echo system('zip -P pass file.zip file.txt'); ?>

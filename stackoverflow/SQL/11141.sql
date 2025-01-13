@@ -1,0 +1,1 @@
+GROUP BY set-of-column\nHAVING SUM(CASE WHEN ISNULL(pa.addon_id, 0) IN (1,14,237) THEN 1 ELSE 0 END) = 3

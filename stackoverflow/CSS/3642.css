@@ -1,0 +1,1 @@
+.question_list {\n    min-height: 10px; //clear float\n}\n\n\n.question_list li {\n    display: block;\n    float: left;\n    width: 50%;\n}

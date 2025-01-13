@@ -1,0 +1,1 @@
+$.get("/some/url", {data: "value"}, function(json) { \n  // use json here\n}, "json")\n\n$.getJSON("/some/url", {data: "value"}, function(json) {\n  // use json here\n});

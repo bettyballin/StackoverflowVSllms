@@ -1,0 +1,1 @@
+Stream stream = report.ExportToStream(ExportFormatType.RichText);

@@ -1,0 +1,1 @@
+private _xyz as cXYZ = nothing \n\n private property xyz() as cXYZ \n   get\n      if _xyz is nothing then _xyz = TryCast(session("myXYZ"), cXYZ)\n      return _xyz\n   end get \n   set (value as cXYZ)\n      _xyz = value\n      session("myXYZ")=_xyz \n   end set\nend property

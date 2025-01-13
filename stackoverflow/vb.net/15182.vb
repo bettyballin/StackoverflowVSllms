@@ -1,0 +1,1 @@
+Protected Sub wzrdAddEvent_SideBarButtonClick(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.WizardNavigationEventArgs) Handles wzrdAddEvent.SideBarButtonClick\n        If e.NextStepIndex > (e.CurrentStepIndex + 1) Then\n            e.Cancel = True\n        End If\n    End Sub

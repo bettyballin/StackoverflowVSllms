@@ -1,0 +1,1 @@
+Dim i as Integer\nWith myFlexGrid\n  .Row = rowToChange\n  For i = 0 to .Cols - 1\n    .Col = i\n    .CellBackColor = vbColorValue\n  Next i\nEnd With

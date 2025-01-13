@@ -1,0 +1,1 @@
+$(document).ajaxError(function(event, XMLHttpRequest, ajaxOptions, thrownError) {\n    // redirect here.\n}

@@ -1,0 +1,1 @@
+$user = new User();\n$user->username = 'jwage';\n$user->updated_at = new Doctrine_Expression('NOW()');\n$user->save();

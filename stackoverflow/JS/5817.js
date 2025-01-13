@@ -1,0 +1,1 @@
+window.onbeforeunload = function (evt) {\n  var message = 'Are you sure you want to leave?';\n  if (typeof evt == 'undefined') {\n    evt = window.event;\n  }\n  if (evt) {\n    evt.returnValue = message;\n  }\n  return message;\n}

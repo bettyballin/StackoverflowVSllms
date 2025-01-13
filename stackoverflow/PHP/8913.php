@@ -1,0 +1,1 @@
+$foobarobject->{"foomethod"}();

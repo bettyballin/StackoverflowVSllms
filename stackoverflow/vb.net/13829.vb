@@ -1,0 +1,1 @@
+Using svc As New WebRef.Service\n    Dim parameter As New ComplexType\n    parameter.Property1 = value1\n    parameter.Property2 = New Property2Type\n    parameter.Property2.SubProperty1 = value12\n    ' ...\n    svc.Operation(parameter)\nEnd Using

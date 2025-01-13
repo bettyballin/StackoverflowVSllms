@@ -1,0 +1,1 @@
+foreach($arr as $key => $value) if($key&1) unset($arr[$key]);

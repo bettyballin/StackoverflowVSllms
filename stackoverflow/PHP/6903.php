@@ -1,0 +1,1 @@
+<?php\n   header('Content-Type: image/jpeg');\n   include('SimpleImage.php');\n   $image = new SimpleImage();\n   $image->load($location);\n   $image->resize(120, 240);\n   $image->output();\n?>

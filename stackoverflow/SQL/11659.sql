@@ -1,0 +1,1 @@
+select r.roleid \nfrom role r\nwhere not exists (select * from role_permissions rp where rp.roleid = r.roleid and rp.permissionid not in (1,2,3,4)) -- id of permissions\n   and (select count(*) from role_permissions rp where rp.roleid = r.roleid) = 4 -- number of permissions

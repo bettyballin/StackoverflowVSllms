@@ -1,0 +1,1 @@
+SELECT    number, count(id)\nFROM    tracking \n  INNER JOIN (SELECT max(id) ID FROM tracking  \n                 WHERE splitnr = 'a11' AND \n                       number >0 AND timestamp >= '2009-04-08 00:00:00' AND \n                       timestamp <= '2009-04-08 12:55:57'\n              GROUP BY ident\n             ) MID ON (MID.ID=tracking.id)\nWHERE   \nGROUP BY number

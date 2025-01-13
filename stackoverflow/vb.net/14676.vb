@@ -1,0 +1,1 @@
+Dim formvalue As String\nformValue = Request.Form("FormField1")

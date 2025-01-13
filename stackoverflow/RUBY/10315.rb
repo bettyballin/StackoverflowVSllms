@@ -1,0 +1,1 @@
+$ rails myproject\n$ cd myproject\n$ script/generate model publication type:string name:string\n$ script/generate model citation publication_id:integer reference_id:integer

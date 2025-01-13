@@ -1,0 +1,1 @@
+IEnumerable<Post> = dataContext.ExecuteQuery<Post>(sqlQuery);

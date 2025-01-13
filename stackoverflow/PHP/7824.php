@@ -1,0 +1,1 @@
+$data['content'] = 'your_controller/index';\n\n// more code...\n\n$this->load->vars($data);\n$this->load->view('layouts/default');

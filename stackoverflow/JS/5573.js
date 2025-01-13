@@ -1,0 +1,1 @@
+jQuery.fn.ie7fix = function(){\n    if (!($.browser.msie && $.browser.version == "7.0")) return $(this);\n    return $(this).hide().show();\n};\n$('#test').append('<option>asdfasdfasdfasdfasdfasdfasdfasdf</option>').ie7fix();

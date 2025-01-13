@@ -1,0 +1,1 @@
+SELECT  TOP 1 *\nFROM    tblSignature \nWHERE   PatientID = 12345\nORDER BY\n        TreatAuthDate DESC

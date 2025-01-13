@@ -1,0 +1,1 @@
+using System.Windows.Forms;\n\nvar label = new Label();\nlabel.AutoSize = false;\nlabel.AutoEllipsis = true;\nlabel.Text = "This text will be too long to display all together.";\n\nvar labelToolTip = new ToolTip();\nlabelToolTip.SetToolTip(label, label.Text);

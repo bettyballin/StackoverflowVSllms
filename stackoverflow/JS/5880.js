@@ -1,0 +1,1 @@
+$(".row #more").click(function() {\n        $(this).parents(".row").children(".hidden").slideToggle("slow");    \n    }\n);

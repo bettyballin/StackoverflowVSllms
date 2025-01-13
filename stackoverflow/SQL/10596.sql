@@ -1,0 +1,1 @@
+DECLARE @user_sort INTEGER\nSET @user_sort = 0\n\nSELECT position, name FROM \n(\n  SELECT I1.position, I1.name, COUNT(*) AS rownumber, (SELECT COUNT(*) FROM items) AS maxrows\n  FROM items I1, items I2\n  WHERE I2.position <= I1.position\n  GROUP BY I1.position, I1.name\n) Q1\nORDER BY \n  CASE WHEN maxrows - rownumber < (@user_sort % maxrows) THEN 1 ELSE 2 END, positio

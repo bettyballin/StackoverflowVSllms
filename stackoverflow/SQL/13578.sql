@@ -1,0 +1,1 @@
+SELECT TOP (@topparam) * from table1

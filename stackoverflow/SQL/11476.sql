@@ -1,0 +1,1 @@
+create table temp1 as (\n    select \n        table_1.cust_id,\n        table_1.invoice_amt,\n        table_2.payment_date \n    from \n        table_1@dblink, \n        table_2@dblink \n    where \n        table_1.cust_id = table_2.cust_id\n    )

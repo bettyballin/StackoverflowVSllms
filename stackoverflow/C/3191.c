@@ -1,0 +1,1 @@
+(! expression_one || ! expression_two) /** this is the same as the one below **/\n! (expression_one && expression_two)

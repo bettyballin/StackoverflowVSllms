@@ -1,0 +1,1 @@
+>>> import socket\n>>> packed_n= socket.inet_aton("128.0.0.1")\n>>> import struct\n>>> struct.unpack( "!L", packed_n )\n(2147483649L,)\n>>> hex(_[0])\n'0x80000001L'

@@ -1,0 +1,1 @@
+C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\aspnet_regiis -s /w3svc/1/root

@@ -1,0 +1,1 @@
+Process myProcess = New Process;\nmyProcess.StartInfo.FileName = "cmd.exe";\nmyProcess.StartInfo.Arguments = "/C " + cmd;\nmyProcess.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;\nmyProcess.StartInfo.CreateNoWindow = True;\nmyProcess.Start();\nmyProcess.WaitForExit();\nmyProcess.Close();

@@ -1,0 +1,1 @@
+var pre = document.createElement('pre');\npre.innerHTML = "aaa<br />aaa<br />bbb";\ndocument.body.appendChild(pre);

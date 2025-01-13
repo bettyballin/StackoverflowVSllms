@@ -1,0 +1,1 @@
+upper(T1.TABLENAME) = upper(t2.Table_Name)

@@ -1,0 +1,1 @@
+int prm_arr[3];\n\nprm_arr[0] = prm.field1;\nprm_arr[1] = prm.field2;\nprm_arr[2] = prm.field3;

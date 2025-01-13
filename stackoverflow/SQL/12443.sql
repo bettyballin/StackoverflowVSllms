@@ -1,0 +1,1 @@
+SELECT\n  l.LookupId,\n  i.FileId,\n  l.[Order],  \n  p.ProductTitle,\n  p.Price,\n  p.ProductId \nFROM\n  Products p\n  INNER JOIN ProductImagesLookUp l ON l.ProductId = p.ProductId\n  INNER JOIN Images i ON i.FileId = l.FileId\nWHERE\n  i.[Order] = (\n    SELECT MIN([Order]) \n    FROM ProductImagesLookUp \n    WHERE ProductId = p.ProductId\n  )

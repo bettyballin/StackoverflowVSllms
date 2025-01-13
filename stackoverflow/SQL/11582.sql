@@ -1,0 +1,1 @@
+SELECT col1, col2, col3 \nFROM records \nWHERE (records.startDate BETWEEN NOW() AND ADDDATE(NOW(), INTERVAL 9 HOUR)) \nAND (records.status = '0');

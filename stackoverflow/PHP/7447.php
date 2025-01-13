@@ -1,0 +1,1 @@
+while($row = mysql_fetch_assoc($result))\n {\n    $_SESSION = array_merge_recursive($_SESSION, $row);\n }

@@ -1,0 +1,1 @@
+function renderPhpToString($file, $vars=null)\n{\n    if (is_array($vars) && !empty($vars)) {\n        extract($vars);\n    }\n    ob_start();\n    include $file;\n    return ob_get_clean();\n}

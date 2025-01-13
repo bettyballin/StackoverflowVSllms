@@ -1,0 +1,1 @@
+SELECT\n  TableA.ID, \n  TableA.Name, \n  TableB.Name, \n  TableB.DateStamp\nFROM\n  TableA\n  INNER JOIN TableB ON \n    TableA.ID = TableB.TableA_ID\n    AND TableB.DateStamp = (\n      SELECT MAX(DateStamp) \n      FROM TableB\n      WHERE TableA_ID = TableA.ID\n    )

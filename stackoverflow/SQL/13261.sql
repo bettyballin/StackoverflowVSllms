@@ -1,0 +1,1 @@
+declare\n     c integer;\nbegin\n\nc:=storedProc(...parameters...);

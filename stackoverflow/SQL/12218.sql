@@ -1,0 +1,1 @@
+select substr(assigner_staff_id, 8) as staff_id, \n      active_flag as Flag, \n      to_char(assign_date, 'DD/MM/YY'),\n      to_char(complete_date, 'DD/MM/YY'), \n      mod_date\nfrom work where assigner_staff_id = '2096';

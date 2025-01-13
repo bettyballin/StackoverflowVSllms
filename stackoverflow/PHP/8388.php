@@ -1,0 +1,1 @@
+$mail->setSubject($subject);\n$mail->setSMTPParams('mail.site.net', 25, 'site.net');\n$mail->setReturnPath("email@site.net");\n$mail->setFrom("email@site.net");\n$mail->setHTML($message);

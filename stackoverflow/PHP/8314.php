@@ -1,0 +1,1 @@
+$AsciiCodeLowerCaseA = 97;\n\nfor ($j = 1; $j < strlen($string); $j++) {\n  $CurrentLetter = $string[$j];\n  $AsciiCode = ord($CurrentLetter);\n  $AlphabetPos = $AsciiCode - $AsciiCodeLowerCaseA + 1;\n      $LetterCount[$AlphabetPos] = $LetterCount[$AlphabetPos] + 1;\n}

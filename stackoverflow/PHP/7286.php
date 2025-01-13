@@ -1,0 +1,1 @@
+foreach ($alUser as $user) {\n    $obj = $user;\n}

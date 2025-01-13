@@ -1,0 +1,1 @@
+SomeId int,\n SomeString varchar(100),\n SomeValue int

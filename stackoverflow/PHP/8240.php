@@ -1,0 +1,1 @@
+// array of letters\n$letters = array('a', 'b', 'c');\n// loop through array and create empty arrays with names like $a, $b, $c\nforeach($letters as $letter) {\n    $$letter = array();\n}

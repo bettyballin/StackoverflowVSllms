@@ -1,0 +1,1 @@
+foreach($data as $d){\n  echo "document.write('This is a test for array item ".$d."<br>'); \r\n";\n}

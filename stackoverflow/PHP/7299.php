@@ -1,0 +1,1 @@
+preg_replace('/#\\d+/', '<a href="$0">$0</a>', $str);

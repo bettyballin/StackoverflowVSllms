@@ -1,0 +1,1 @@
+makecert -r -pe -n "CN=My Root Authority" -ss CA -sr CurrentUser ^\n         -a sha1 -sky signature -cy authority -sv CA.pvk CA.cer

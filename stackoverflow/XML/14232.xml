@@ -1,0 +1,1 @@
+<mx:XML id="usersXML">\n  <root>\n    <users>\n      <user id="1" lovesDonuts="Yes">\n        <firstname>Tariq</firstname>\n        <lastname>Ahmed</lastname>\n      </user>\n      <user id="2" lovesDonuts="Yes">\n        <firstname>Jon</firstname>\n        <lastname>Hirschi</lastname>\n      </user>\n    </users>\n  </root>\n</mx:XML>

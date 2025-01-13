@@ -1,0 +1,1 @@
+first = [x for (x,y) in data]\nsecond = [y for (x,y) in data]

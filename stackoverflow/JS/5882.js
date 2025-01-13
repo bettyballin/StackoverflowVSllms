@@ -1,0 +1,1 @@
+function stripHtml(html)\n{\n   let tmp = document.createElement("DIV");\n   tmp.innerHTML = html;\n   return tmp.textContent || tmp.innerText || "";\n}

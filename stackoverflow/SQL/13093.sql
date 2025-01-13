@@ -1,0 +1,1 @@
+CREATE TABLE MyTableName(PKFieldName IDENTITY PRIMARY KEY, StringFieldName VARCHAR(255))

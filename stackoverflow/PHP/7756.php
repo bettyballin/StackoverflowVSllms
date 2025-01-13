@@ -1,0 +1,1 @@
+<?php\n$doc = new DOMDocument;\nif ( !$doc->loadhtml($contents) ) {\n  echo 'something went wrong';\n}\nelse {\n  $xpath = new DOMXpath($doc);\n  foreach($xpath->query('//form[@name="aspnetForm"]//input') as $eInput) {\n      echo 'name=', $eInput->getAttribute('name'), ' value=', $eInput->getAttribute('value'), "\n";\n  }\n}

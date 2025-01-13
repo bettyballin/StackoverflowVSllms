@@ -1,0 +1,1 @@
+if (!isset($_GET['country'])) {\n    $incoming = $outgoing = $sms = $free = "---";\n} else {\n    get_rates($_GET['country']);\n}

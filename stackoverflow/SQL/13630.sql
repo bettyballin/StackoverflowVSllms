@@ -1,0 +1,1 @@
+Select *\nFrom persons \nleft outer join photos on person.id=photos.person_id\norder by photos.title

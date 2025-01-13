@@ -1,0 +1,1 @@
+public static T ExecuteNullableScalar<T>(this SqlCommand cmd)\n    where T : struct\n{\n    var result = cmd.ExecuteScalar();\n    if (result == DBNull.Value) return default(T);\n    return (T)result;\n}

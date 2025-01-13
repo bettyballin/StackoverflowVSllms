@@ -1,0 +1,1 @@
+class ClassWithSpecialMethods {\n    function __get($name) { }\n    function __set($name, $value) { }\n    function __isset($name) { }\n    function __unset($name) { }\n    function __call($method, $arguments) { }\n    function __toString() { }\n}\nMock::generate('ClassWithSpecialMethods');

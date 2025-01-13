@@ -1,0 +1,1 @@
+function changeval() {\n\n    var option = document.createElement("option");\n    option.text = 'my long text value to change stuff';\n    option.value = 'test';\n    $('#department_id')[0].options.add(option);\n}

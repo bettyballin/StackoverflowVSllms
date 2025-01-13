@@ -1,0 +1,1 @@
+SELECT e1.EntityID, t1.TargetID\nFROM Entities e1\n  JOIN Entities e2 ON (e1.EntityID = e2.EntityID)\n  CROSS JOIN Targets t1\n  LEFT OUTER JOIN Targets t2 ON (t1.TargetID = t2.TargetID\n    AND e2.AttributeName = t2.AttributeName\n    AND e2.AttributeValue = t2.AttributeValue)\nGROUP BY e1.EntityID, t1.TargetID\nHAVING COUNT(e2.AttributeValue) = COUNT(t2.AttributeValue);

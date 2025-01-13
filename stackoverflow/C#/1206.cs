@@ -1,0 +1,1 @@
+} catch (FaultException<MyFault> fe) {

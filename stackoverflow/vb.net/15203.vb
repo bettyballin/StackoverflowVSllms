@@ -1,0 +1,1 @@
+Dim my_tableDef As DAO.TableDef\nDim my_field As DAO.Field\n\nSet my_tableDef = currentDb.TableDefs(my_table)\nSet my_Field = my_tableDef.CreateField(my_fieldName, dbDecimal, myFieldSize)\nmy_Field.decimalPlaces = myDecimalPlaces\nmy_Field.defaultValue = myDefaultValue\n\nmy_tableDef.Fields.Append my_Field\n\nset my_Field = nothing\nset my_tableDef = nothing

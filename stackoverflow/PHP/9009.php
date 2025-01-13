@@ -1,0 +1,1 @@
+// Controller\nfunction register() {\n    if ($this->Auth->user()) {\n        $this->redirect(/* somewhere else */);\n    }\n}

@@ -1,0 +1,1 @@
+SELECT\n    Rank() over (Partition by Category Order by Value, User, Category) as ranks,\n    Category, User\nFROM \n    Table1\nGroup By\n    User, Category, Value \nOrder by\n    ranks asc

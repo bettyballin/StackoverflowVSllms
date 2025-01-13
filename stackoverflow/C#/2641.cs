@@ -1,0 +1,1 @@
+//assume that the array of page names has come from the DB.\nprotected void Page_Load(object sender, EventArgs e)\n{\n    string[] pages = new string [] { "~/Default.html", \n             "~/Default2.html", "~/Default3.html", "~/Default4.html" };\n\n    foreach (string p in pages)\n    {\n        Response.WriteFile(p);\n    }\n}

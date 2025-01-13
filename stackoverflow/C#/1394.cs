@@ -1,0 +1,1 @@
+// X + Y\npublic static Gauss operator + (Gauss a, Gauss b) {\n    //NOTE: this is valid if X,Y are independent normal random variables\n    return new Gauss(a.mean + b.mean, a.variance + b.variance);\n}\n\n// X*b\npublic static Gauss operator * (Gauss a, double b) {\n    return new Gauss(a.mean*b, a.variance*b*b);\n}

@@ -1,0 +1,1 @@
+if (remove("/var/tmp/my file.pdf") != 0)

@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <time.h>\n\nint\nmain(int argc, char *argv[]) {\n  char ft[256];\n  struct tm *tmp;\n  time_t curtime;\n\n  time(&curtime);\n  tmp = localtime(&curtime);\n\n  strftime(ft, 256, "%D - %T %s", tmp);\n  printf("%s\n", ft);\n\n  return(0);\n}

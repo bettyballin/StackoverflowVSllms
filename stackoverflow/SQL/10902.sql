@@ -1,0 +1,1 @@
+WHERE PostDate >=  DATEADD(mm, DATEDIFF(mm, 0, '01/28/2009'), 0)\n   AND PostDate <  DATEADD(mm, 1 + DATEDIFF(mm, 0, '01/28/2009'), 0)

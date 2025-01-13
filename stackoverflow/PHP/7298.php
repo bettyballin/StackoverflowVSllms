@@ -1,0 +1,1 @@
+// If you don't have a document already:\n$doc = new DOMDocument('1.0', 'UTF-8');\n\necho $doc->saveXML($node); // where $node is your DOMNode

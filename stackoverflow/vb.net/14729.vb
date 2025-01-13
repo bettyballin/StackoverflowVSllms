@@ -1,0 +1,1 @@
+Dim TimeZone As TimeZoneInfo = TimeZoneInfo.FindSystemTimeZoneById("W. Europe Standard Time")\nDim Dated As DateTime = TimeZoneInfo.ConvertTimeToUtc(TempDate, TimeZone)

@@ -1,0 +1,1 @@
+passthru('/usr/python/bin/python3 ../cgi-bin/tabular.py 1 2>&1');

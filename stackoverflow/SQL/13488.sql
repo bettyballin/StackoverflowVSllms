@@ -1,0 +1,1 @@
+UPDATE user_cars\n   SET num_cars = num_cars +\n                     CASE WHEN user_name='Bob' THEN -2\n                          WHEN user_name='John' THEN +2\n                     END\n   WHERE user_name IN ( 'Bob', 'John' )

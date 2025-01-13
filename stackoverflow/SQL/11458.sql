@@ -1,0 +1,1 @@
+SELECT\n    i.`id`,\n    i.`title`,\n    g.`id` as 'groupId',\n    g.`groupTitle`,\n    g.`externalURL`\nFROM\n    items i RIGHT OUTER JOIN groups g ON (i.`groupId` = g.`id`)\nWHERE i.`id` IS NOT NULL OR g.`externalURL` IS NOT NULL;

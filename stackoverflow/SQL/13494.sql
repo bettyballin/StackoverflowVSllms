@@ -1,0 +1,1 @@
+select t.* \nfrom table t \njoin othertable o on t.nameid = o.nameid \n    and o.otherdesc in ('SomeDesc','SomeOtherDesc');

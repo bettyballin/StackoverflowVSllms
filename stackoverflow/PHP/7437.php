@@ -1,0 +1,1 @@
+if (strstr($_SERVER['HTTP_ACCEPT'], 'application/x-shockwave-flash')){\n    $hasFlash = true;\n}

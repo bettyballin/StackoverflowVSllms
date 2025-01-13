@@ -1,0 +1,1 @@
+SELECT * FROM TheTable\nWHERE CURDATE() BETWEEN date_from AND date_to

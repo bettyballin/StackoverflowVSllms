@@ -1,0 +1,1 @@
+select a.user, a.data, a.sequence\nfrom table as a\n    inner join (\n        select user, max(sequence) as 'last'\n        from table \n        group by user) as b\n    on a.user = b.user and \n       a.sequence = b.last

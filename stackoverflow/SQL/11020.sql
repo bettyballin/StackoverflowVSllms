@@ -1,0 +1,1 @@
+SELECT SoftwareName, \n  SUM( CASE Country WHEN 'Canada' THEN [Count] ELSE 0 END ) AS Canada,\n  SUM( CASE Country WHEN 'USA'    THEN [Count] ELSE 0 END ) AS USA,\n  SUM( [Count] ) AS Total\nFROM [Table] \nGROUP BY SoftwareName;

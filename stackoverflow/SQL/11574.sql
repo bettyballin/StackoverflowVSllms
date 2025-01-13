@@ -1,0 +1,1 @@
+SELECT COUNT(1) FROM mytable WHERE id = 5

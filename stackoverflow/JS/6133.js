@@ -1,0 +1,1 @@
+$.getJSON(url, function(data){\n    alert(data.exampleType);\n});

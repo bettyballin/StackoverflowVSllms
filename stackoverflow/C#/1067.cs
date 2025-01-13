@@ -1,0 +1,1 @@
+Application.SetSuspendState(PowerState.Hibernate, true, true);

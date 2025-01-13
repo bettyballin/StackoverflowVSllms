@@ -1,0 +1,1 @@
+SELECT `img`.`id` , `img`.`userid`\nFROM `img`\nWHERE 3 > (\nSELECT count( * )\nFROM `img` AS `img1`\nWHERE `img`.`userid` = `img1`.`userid`\nAND `img`.`id` > `img1`.`id` )\nORDER BY `img`.`id` DESC\nLIMIT 10 

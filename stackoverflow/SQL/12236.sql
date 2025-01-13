@@ -1,0 +1,1 @@
+create materialized view mv_so_x \nbuild immediate \nrefresh complete \nSTART WITH SYSDATE NEXT SYSDATE + 1/24/60\n as select count(*),avg(a),avg(b),avg(c),avg(d) from so_x;

@@ -1,0 +1,1 @@
+SELECT timestamp,method,id,response FROM rpc_responses \nINNER JOIN\n(SELECT max(timestamp) as timestamp,method,id FROM rpc_responses GROUP BY method,id) latest\nUSING (timestamp,method,id);

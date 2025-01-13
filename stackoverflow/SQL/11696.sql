@@ -1,0 +1,1 @@
+SELECT Parent.ParentID, COUNT(*)\nFROM Parent\nINNER JOIN ChildParent\n    ON ChildParent.ParentID = Parent.ParentID\nINNER JOIN Child\n    ON ChildParent.ChildID = Child.ChildID\nWHERE <ChildFilterCriteria>\nGROUP BY Parent.ParentID\nHAVING COUNT(*) = (\n    SELECT COUNT(Child.ChildID)\n    FROM Child WHERE <ChildFilterCriteria>\n)

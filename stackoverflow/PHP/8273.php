@@ -1,0 +1,1 @@
+$expr = '(5*(7 + 2 * -9.3) - 8 )/ 11';\n$tokens = preg_split('/([*\/^+-]+)\s*|([\d.]+)\s*/', $expr, -1,\n        PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY);\n$tts = print_r($tokens, true);\necho "<pre>x=$tts</pre>";

@@ -1,0 +1,1 @@
+Article\n-------\nArticleID int PK\n\nArticle_Tags\n------------\nArticleTagID int PK\nArticleID int FK\nTagId int FK\n\nTag\n---\nTagId int identity(1,1) PK\nTagText varchar(50) 

@@ -1,0 +1,1 @@
+//Delete Icon Column\ngridViewContacts.Columns[0].Visible = user.IsInRole("DeleteAnyContact"); 

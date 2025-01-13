@@ -1,0 +1,1 @@
+$doc->xmlStandalone = true;

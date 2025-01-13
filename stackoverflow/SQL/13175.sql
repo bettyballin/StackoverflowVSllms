@@ -1,0 +1,1 @@
+select l1.userid\nfrom status_log l1\nwhere l1.status='s'\nand l1.logcreated = (select max(l2.logcreated)\n                     from status_log l2\n                     where l2.userid = l1.userid\n                     and   l2.logcreated <= date '2008-02-15'\n                    );

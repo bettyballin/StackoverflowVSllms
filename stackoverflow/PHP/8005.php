@@ -1,0 +1,1 @@
+$element = new Zend_Form_Element_Select(...);\necho $element->render();

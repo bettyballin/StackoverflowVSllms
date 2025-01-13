@@ -1,0 +1,1 @@
+<html>\n  <asp:Repeater id="repeater" runat="server" OnItemDataBound="repeater_ItemDatabound">\n     <ItemTemplate>\n         <span><%# DataBinder.Eval(Container.DataItem, "isScorm") %></span>\n         <span id="totalLessonsSpan" runat="server"><%# DataBinder.Eval(Container.DataItem, "totalLessons") %></span>\n     </ItemTemplate>\n  </asp:Repeater>\n</html>

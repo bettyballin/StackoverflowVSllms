@@ -1,0 +1,1 @@
+CREATE FULLTEXT Catalog HtmlSearch AS DEFAULT;\n\nGO\n\nCREATE FULLTEXT INDEX ON docs\n( WordHtml Language English )\nKEY INDEX IX_docs_1\nWITH CHANGE_TRACKING auto;\n\nGO

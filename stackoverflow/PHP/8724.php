@@ -1,0 +1,1 @@
+in_array($role_auth, $array, true)

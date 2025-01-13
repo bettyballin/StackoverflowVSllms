@@ -1,0 +1,1 @@
+-- An index on Name including ID would be ideal\nSELECT\n    [id]\nFROM\n    TEST\nWHERE\n    [name] = 'bob'

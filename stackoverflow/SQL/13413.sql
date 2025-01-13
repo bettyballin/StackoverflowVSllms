@@ -1,0 +1,1 @@
+grant SELECT on TABLE_NAME to READ_USERNAME;

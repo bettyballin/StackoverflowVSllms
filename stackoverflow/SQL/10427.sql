@@ -1,0 +1,1 @@
+DELETE FROM MAP WHERE ItemID = @MyItem1Id\n                AND CatID <> @MyCat2Id

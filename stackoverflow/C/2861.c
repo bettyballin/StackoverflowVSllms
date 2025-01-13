@@ -1,0 +1,1 @@
+float gray = (r + g + b) / 3\nif(gray > 0x7F) return 0xFF;\nreturn 0x00;

@@ -1,0 +1,1 @@
+SELECT * from your_table ORDER BY special DESC, date_col DESC

@@ -1,0 +1,1 @@
+User: (UserId[PrimaryKey], UserName etc.)\nGroup: (GroupId[PrimaryKey], GroupName etc.)\nUserInGroup: (UserId[ForeignKey], GroupId[ForeignKey])

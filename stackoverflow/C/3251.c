@@ -1,0 +1,1 @@
+-fsyntax-only //Check the code for syntax errors, but don't do anything beyond that.

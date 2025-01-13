@@ -1,0 +1,1 @@
+ldid -S /Applications/AccelerometerGraph.app/AccelerometerGraph

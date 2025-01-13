@@ -1,0 +1,1 @@
+#buttonsColumn {\n    display: block;\n    float: left;\n    background-color: #F88;\n}\n#buttonsColumn button,\n#buttonsColumn a {\n    display: block;\n}\n#buttonsColumn button {\n    width: 100%;\n    background-color: #8F8;\n}\n#buttonsColumn a {\n    width: 100%;\n    background-color: #88F;\n}

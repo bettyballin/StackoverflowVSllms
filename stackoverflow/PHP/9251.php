@@ -1,0 +1,1 @@
+system("convert big.gif -coalesce coalesce.gif");\nsystem("convert -size 200x100 coalesce.gif -resize 200x10 small.gif");

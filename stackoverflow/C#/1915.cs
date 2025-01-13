@@ -1,0 +1,1 @@
+public static T LocateException<T>(Exception outer) where T : Exception\n{\n    while (outer != null)\n    {\n        T candidate = outer as T;\n        if (candidate != null)\n        {\n            return candidate;\n        }\n        outer = outer.InnerException;\n    }\n    return null;\n}

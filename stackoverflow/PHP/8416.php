@@ -1,0 +1,1 @@
+<?php\n$xml = simplexml_load_file('file.xml', NULL, LIBXML_NOCDATA);\n$description = $xml->xpath("//item[@title='0x|Beschrijving']");\nvar_dump($description);\n?>

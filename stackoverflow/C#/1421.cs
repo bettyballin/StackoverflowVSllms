@@ -1,0 +1,1 @@
+data\n    .GroupBy(x => new\n        {\n            x.Col1,\n            x.Col2,\n        })\n    .Select(x => x.MaxBy(y => y.Col3)\n    .ForEach(x =>\n        {\n            x.Col5 = x.Col4,\n        });

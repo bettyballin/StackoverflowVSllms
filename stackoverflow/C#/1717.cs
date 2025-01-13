@@ -1,0 +1,1 @@
+return (accountNumber == DBNull.Value) ? string.Empty : accountNumber.ToString()

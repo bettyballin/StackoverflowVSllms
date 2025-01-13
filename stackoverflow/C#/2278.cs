@@ -1,0 +1,1 @@
+ProcessStartInfo psi = new ProcessStartInfo("cmd.exe")\n{\n    RedirectStandardError = true,\n    RedirectStandardInput = true,\n    RedirectStandardOutput = true,\n    UseShellExecute = false\n};\n\nProcess p = Process.Start(psi);\n\nStreamWriter sw = p.StandardInput;\nStreamReader sr = p.StandardOutput;\n\nsw.WriteLine("Hello world!");\nsr.Close();

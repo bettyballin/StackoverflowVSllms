@@ -1,0 +1,1 @@
+Public Function GetEnumerator() As IEnumerator(Of T) _\n  Implements IEnumerable(Of T).GetEnumerator\n\n  Return Inner.GetEnumerator()\nEnd Function\n\nPublic Function GetListEnumerator() As IEnumerator _\n  Implements IList(Of T).GetEnumerator\n\n  Return DirectCast(Inner, IEnumerable).GetEnumerator()\nEnd Functio

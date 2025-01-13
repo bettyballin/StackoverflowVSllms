@@ -1,0 +1,1 @@
+define('LIB_PATH', '/full/path/to/Library'); //Zend Framework is in Library\nset_include_path(LIB_PATH . PATH_SEPARATOR . get_include_path());\nrequire_once('Zend/Loader.php');

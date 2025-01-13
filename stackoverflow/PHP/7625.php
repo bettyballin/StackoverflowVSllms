@@ -1,0 +1,1 @@
+Memcache::set('someKey', array(\n    'user_id' => 1,\n    'url' => 'http://',\n    'name' => 'Dave'\n));

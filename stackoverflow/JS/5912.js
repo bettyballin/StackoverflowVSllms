@@ -1,0 +1,1 @@
+typeof function() {}; // == 'function'\n({}).toString.call(function() {}) // == '[object Function]'\nfunction foo() {}\ntypeof foo; // == 'function'\n({}).toString.call(foo) // == '[object Function]'

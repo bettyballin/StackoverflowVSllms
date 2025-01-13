@@ -1,0 +1,1 @@
+public Data TakeSnapshot()\n{\n   // ...\n   return new Data(...);\n}\n\npublic void Analyze(Data data)\n{\n   // ...\n}

@@ -1,0 +1,1 @@
+print htmlentities(file_get_contents("http://www.arstechnica.com"));

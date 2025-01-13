@@ -1,0 +1,1 @@
+remove : function(record){\n    var index = this.data.indexOf(record);\n    this.data.removeAt(index);\n    if(this.pruneModifiedRecords){\n        this.modified.remove(record);\n    }\n    if(this.snapshot){\n        this.snapshot.remove(record);\n    }\n    this.fireEvent("remove", this, record, index);\n}

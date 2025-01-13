@@ -1,0 +1,1 @@
+$mysqli = new mysql("host", "user", "password", "location");\n$statement = $mysqli->prepare("SELECT * FROM TABLE WHERE ID=?");\n$statement->bind_param("s","5");\n$statement->execute();\n$result = $statement->result_metadata;\n$object = $result->fetch_object();

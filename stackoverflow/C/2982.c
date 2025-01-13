@@ -1,0 +1,1 @@
+m_primaryKey(m_primaryKeyLength) = primaryCharacter(idx)\nm_primaryKeyLength = m_primaryKeyLength + 1\nidx = idx + 1

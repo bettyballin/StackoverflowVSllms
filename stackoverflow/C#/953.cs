@@ -1,0 +1,1 @@
+protected void rpter_ItemDataBound(object sender, RepeaterItemEventArgs e)\n{\n    if (e.Item.ItemType == ListItemType.Item || e.Item.ItemType == ListItemType.AlternatingItem)\n    {\n        ThumbViewControl control = e.Item.FindControl("Th1") as ThumbViewControl;\n        if (control != null)\n        {\n           control.ImageUrl = "";\n        }\n    }\n}

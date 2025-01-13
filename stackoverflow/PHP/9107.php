@@ -1,0 +1,1 @@
+$xml = new DOMDocument('1.0', 'UTF-8');\n$doc = $xml->appendChild($xml->createElement('my-root-element'));\n...\nheader('Content-Type: text/xml; charset=utf-8');\necho $xml->saveXML();

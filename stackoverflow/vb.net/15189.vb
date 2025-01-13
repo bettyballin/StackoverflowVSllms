@@ -1,0 +1,1 @@
+Function SomeFunction(Of T)(obj As Object) As T\n    '' Magic\nEnd Functio

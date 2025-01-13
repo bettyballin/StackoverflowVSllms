@@ -1,0 +1,1 @@
+routes.IgnoreRoute("Pages/{*path}");

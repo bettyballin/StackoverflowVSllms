@@ -1,0 +1,1 @@
+CREATE TABLE item_in_section (item_id int, section_id int)

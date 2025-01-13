@@ -1,0 +1,1 @@
+Dim PossibleDouble as Double\nIf Double.TryParse("hello", PossibleDouble) Then\n  ''//Success!\nElse\n  ''//Not a double\nEnd If

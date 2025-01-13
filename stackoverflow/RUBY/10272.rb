@@ -1,0 +1,1 @@
+def classes(object)\n  case object\n  when Post then post_classes(object)\n  end\nend

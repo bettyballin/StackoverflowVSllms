@@ -1,0 +1,1 @@
+Dim rs As DAO.Recordset\nSet rs= CurrentDb.OpenRecordset("TableName", dbOpenDynaset)\n\nrs.AddNew\nrs![ColumnName1] ="Some Value"\nrs![ColumnName2] ="Some Value"\nrs.Update\nrs.Close

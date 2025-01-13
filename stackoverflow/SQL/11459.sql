@@ -1,0 +1,1 @@
+GROUP BY `credit_balance`.`credit_used_acc` \nORDER BY `users_usr`.`id_usr`

@@ -1,0 +1,1 @@
+SELECT\n  c.Name AS 'CountryName',\n  '' AS 'ProvinceName',\n  ISNULL(s.[Name], '') AS 'StateName'\nFROM Country c \nLEFT OUTER JOIN [Province] p ON p.[CountryID]=c.[ID]\nUNION ALL\nSELECT\n  c.Name AS 'CountryName',\n  ISNULL(p.[Name], '') AS 'ProvinceName',\n  '' AS 'ProvinceName'\nFROM Country c \nLEFT OUTER JOIN [State] s ON s.[CountryID]=c.[ID]

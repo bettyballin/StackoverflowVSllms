@@ -1,0 +1,1 @@
+<EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)> _\nPrivate p_dlgAdd As frmAdd = Nothing

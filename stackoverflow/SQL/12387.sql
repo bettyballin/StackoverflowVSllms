@@ -1,0 +1,1 @@
+select id, user, action, insertDate\nfrom userActions\nwhere id in (select max(id)\n                 from userActions\n                 where user ='john'\n                 group by action)

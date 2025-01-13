@@ -1,0 +1,1 @@
+INSERT INTO destTable\nSELECT Field1,Field2,Field3,... \nFROM srcTable\nWHERE NOT EXISTS(SELECT * \n                 FROM destTable \n                 WHERE (srcTable.Field1=destTable.Field1 and\n                       SrcTable.Field2=DestTable.Field2...etc.)\n                 )

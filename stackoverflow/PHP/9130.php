@@ -1,0 +1,1 @@
+$url = 'http://www.example.com/myfile.base64';\n$target = 'localfile.data';\n\n$rhandle = fopen($url,'r');\nstream_filter_append($rhandle, 'convert.base64-decode');\n\n$whandle = fopen($target,'w');\n\nstream_copy_to_stream($rhandle,$whandle);\nfclose($rhandle);\nfclose($whandle);

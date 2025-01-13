@@ -1,0 +1,1 @@
+[Test]\npublic void NamePropTest()\n{\n    Person p = new Person();\n\n    //Some code here that will set up the Person object\n    //  so that you know what the name will be\n\n    Assert.AreEqual("some known value...", p.Name);\n}

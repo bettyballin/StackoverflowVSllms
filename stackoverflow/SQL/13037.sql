@@ -1,0 +1,1 @@
+select [columnname] from [sheetname$] where [columnname] = 'somevalue'

@@ -1,0 +1,1 @@
+tinyMCE.init({\n  mode : "none",\n  theme : "advanced"\n});\n\n/* call this function in ajax return text */\nfunction makeTinyMCE(faqid) {\n    tinyMCE.execCommand('mceAddControl', false, 'answer'+faqid);\n\n}

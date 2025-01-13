@@ -1,0 +1,1 @@
+$ scp me@myserver.mydomain.com:.bashr<TAB>

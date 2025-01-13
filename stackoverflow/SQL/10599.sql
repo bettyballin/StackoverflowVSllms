@@ -1,0 +1,1 @@
+update tbl\nset field1 = upper(field1)

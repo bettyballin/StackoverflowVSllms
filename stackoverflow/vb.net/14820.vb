@@ -1,0 +1,1 @@
+Dim oldAsset As Asset\n    oldAsset = currentRow.DataBoundItem\n    Dim newAsset As Asset = oldAsset.Clone()

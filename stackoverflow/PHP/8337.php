@@ -1,0 +1,1 @@
+$sql = "SELECT * FROM table LIMIT 0,1";\n$result = mysql_query($sql);\nwhile ($rows = mysql_fetch_array($result, MYSQL_ASSOC)) {\n    foreach ($rows as $key => $value) {\n        $$key = $value;\n    }\n}

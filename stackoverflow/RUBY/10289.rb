@@ -1,0 +1,1 @@
+<%=link_to_remote "Delete", {:update => "section_phone", :url => {:controller => "phone_numbers", :action => "destroy", :id => phone_number_display.id }}, :href => url_for(:controller => "phone_numbers", :action => "destroy", :id => phone_number_display.id)%>

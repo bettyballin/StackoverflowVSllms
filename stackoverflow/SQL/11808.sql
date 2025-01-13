@@ -1,0 +1,1 @@
+WHERE `site` <> ''\nor\nWHERE `site` != ''

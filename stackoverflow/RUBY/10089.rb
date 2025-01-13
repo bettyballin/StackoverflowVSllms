@@ -1,0 +1,1 @@
+class Array\n  def to_yaml_style\n    :inline\n  end\nend

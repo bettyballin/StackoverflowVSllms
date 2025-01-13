@@ -1,0 +1,1 @@
+var elem = document.getElementById("foobar"),\n    parent = elem.parentNode;\nwhile (parent && parent.nodeName != "DIV") {\n    parent = parent.parentNode;\n}\nif (parent.nodeName == "DIV") {\n    elem.style.marginLeft = - 60 + (parent.style.width * 0.5) + "px";\n} else {\n    elem.style.marginLeft = "-60px";\n}

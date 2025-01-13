@@ -1,0 +1,1 @@
+SELECT to1.*\nFROM t_order AS to1\nWHERE\n    to1.date IS NULL AND \n    to1.custId NOT IN (\n        SELECT to2.custId\n        FROM t_order AS to2\n        WHERE to2.date IS NOT NULL\n        GROUP BY to2.custId\n    )\nGROUP BY to1.custId

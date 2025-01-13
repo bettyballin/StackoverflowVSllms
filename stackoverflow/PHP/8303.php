@@ -1,0 +1,1 @@
+$document = new DOMDocument();\n$document->load($myXmlFile);\n$xpath = new DOMXPath($document);\n\n$result = $xpath->query('//node()[@page="1"]');\nvar_dump($result->length); // int(2)\nvar_dump($result->item(0)->tagName); // string(8) "element1"\nvar_dump($result->item(1)->tagName); // string(8) "element2"

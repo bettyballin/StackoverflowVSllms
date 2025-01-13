@@ -1,0 +1,1 @@
+def partition(alist, indices):\n    return [alist[i:j] for i, j in zip([0]+indices, indices+[None])]

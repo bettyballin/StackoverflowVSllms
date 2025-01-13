@@ -1,0 +1,1 @@
+$ cpan install CAM::PDF\n # start a new terminal if this is your first cpan module\n $ changepagestring.pl input.pdf oldtext newtext output.pdf

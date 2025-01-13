@@ -1,0 +1,1 @@
+SELECT  e.*\nFROM    addresses a\nJOIN    events e\nON      e.adr_id = a.adr_id\nWHERE   a.per_id = 45

@@ -1,0 +1,1 @@
+var links_in_row = document.evaluate( ".//a[starts-with(text(),'Keyword')]"\n          , document, null, XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE, null);\nvar i = 0;\nwhile( (link = links_in_row.snapshotItem(i) ) != null) {\n   print(link.innerHTML);i++;\n}

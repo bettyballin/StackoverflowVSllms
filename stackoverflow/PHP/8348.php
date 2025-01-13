@@ -1,0 +1,1 @@
+$this->_engine = new Smarty();\nprint_r($this->_engine);

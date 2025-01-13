@@ -1,0 +1,1 @@
+function is_cli()\n{\n    return php_sapi_name() === 'cli';\n}

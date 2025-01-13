@@ -1,0 +1,1 @@
+select name,    \n       (select top 1 h.run_duration\n        from sysjobhistory h\n        where h.step_id = 0\n        and h.job_id = j.job_id\n        group by h.run_duration\n        order by count(*) desc) run_duration\nfrom sysjobs j

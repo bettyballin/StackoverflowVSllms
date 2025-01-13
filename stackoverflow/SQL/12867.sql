@@ -1,0 +1,1 @@
+SELECT  *\nFROM    table FORCE INDEX (myindex)

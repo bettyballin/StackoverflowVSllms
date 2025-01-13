@@ -1,0 +1,1 @@
+select * from tb_Worker\n  join tb_Manager on tb_Worker.ManagerID = tb_Manager.ManagerID\n  join tb_Head on tb_Manager.HeadID = Head.HeadID\n  where tb_Head.HeadID = <given value>

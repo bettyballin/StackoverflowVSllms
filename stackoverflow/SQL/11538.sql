@@ -1,0 +1,1 @@
+SELECT `mid`, SUM(`rating`) AS `total`\nFROM `rating`\nGROUP BY `mid`\nORDER BY `total` DESC\nLIMIT 5

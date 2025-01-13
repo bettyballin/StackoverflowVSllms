@@ -1,0 +1,1 @@
+select distinct COLLATION_NAME from INFORMATION_SCHEMA.COLUMNS order by 1

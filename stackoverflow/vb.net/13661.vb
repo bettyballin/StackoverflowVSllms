@@ -1,0 +1,1 @@
+If DataRow.Table.Columns.Contains("column") Then\n        MsgBox("YAY")\n    End If

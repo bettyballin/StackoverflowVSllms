@@ -1,0 +1,1 @@
+Assert.That(Session.Contains(_beveragesCategory), Is.False); \nAssert.That(Session.Contains(_beerCategory), Is.False);\nAssert.That(Session.Contains(_darkBeerCategory), Is.False);\nAssert.That(Session.Contains(_lightBeerCategory), Is.False);

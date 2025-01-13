@@ -1,0 +1,1 @@
+Dbcmd2.CommandText = "select dept,deptname from table"\nDim dr As SqlClient.SqlDataReader = Dbcmd2.ExecuteReader\nWhile dr.Read() \n  ddldept.Items.Add(new ListItem(dr("deptname"),dr("dept"))\nEnd While\n' ddldept is now populated with all items from the query

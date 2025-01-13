@@ -1,0 +1,1 @@
+cscript adplus.vbs -crash -pn w3wp.exe

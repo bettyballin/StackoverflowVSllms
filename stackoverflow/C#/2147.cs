@@ -1,0 +1,1 @@
+Test t = delegate { return e.PropertyName; }; // C# 2.0\nTest t = () => e.PropertyName; // C# 3.0

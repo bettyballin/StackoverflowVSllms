@@ -1,0 +1,1 @@
+echo '<pre>';\nprint_r( get_class_methods( new ArrayObject() ) );\necho '</pre>';

@@ -1,0 +1,1 @@
+<check-valid-connection-sql>select 1 from dual</check-valid-connection-sql>

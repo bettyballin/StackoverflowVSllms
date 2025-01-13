@@ -1,0 +1,1 @@
+using System.Diagnostics;\n// ...\n\nStopwatch sw = new Stopwatch();\n\nsw.Start();\n\n// ...\n\nsw.Stop();\n\nConsole.WriteLine("Elapsed={0}",sw.Elapsed);

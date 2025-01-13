@@ -1,0 +1,1 @@
+UPDATE MyTable\n   SET Config.modify('\n   replace value of (/configuration/column/row/component/@title)[1]\n    with sql:column("title")\n   ')

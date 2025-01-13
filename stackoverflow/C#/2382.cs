@@ -1,0 +1,1 @@
+string x = GetBase64DataFromWherever();\nint size = (x.Length *3)/4;\nif (x.EndsWith("="))\n{\n    size--;\n}\nif (x.EndsWith("=="))\n{\n    size--; // 1 will already have been removed by the if statement above\n}

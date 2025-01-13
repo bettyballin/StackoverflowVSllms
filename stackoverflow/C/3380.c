@@ -1,0 +1,1 @@
+std::cout << "standard text" << setcolour(red) << "red text" << std::endl;

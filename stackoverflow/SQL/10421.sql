@@ -1,0 +1,1 @@
+UPDATE ( SELECT tp.delta_balance\n                , tp.post_balance\n                , ts.balance_due\n             FROM table_paid tp\n                  JOIN table_snapshot ts\n                    ON tp.account_no = ts.account_no\n         )\n     SET delta_balance = post_balance - balance_due;

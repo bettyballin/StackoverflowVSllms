@@ -1,0 +1,1 @@
+VstInt32 magic; ///< must be #kEffectMagic ('VstP')

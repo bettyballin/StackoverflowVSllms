@@ -1,0 +1,1 @@
+SELECT 'TF7-User-Demo-ScheduledRestore-03' AS DBCatalog, COUNT(*) \nFROM [TF7-User-Demo-ScheduledRestore-03].[dbo].[LinkedDocumentFolderTable] \nWHERE IsUnmanagedFolder = 1

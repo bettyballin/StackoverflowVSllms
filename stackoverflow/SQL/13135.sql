@@ -1,0 +1,1 @@
+IF (selectField1 = true AND selectField2 = true)\nBEGIN\n   SELECT Field1, Field2\n   FROM Table\nEND\nELSE IF (selectField1 = true)\nBEGIN\n   SELECT Field1\n   FROM Table\nEND\nELSE IF (selectField2 = true)\nBEGIN\n   SELECT Field2\n   FROM Table\nEND

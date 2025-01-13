@@ -1,0 +1,1 @@
+select distinct ItemName\nfrom Item I\ninner join GroupItem GI\n    on I.ItemKey = GI.ItemKey\nwhere GI.GroupKey in\n    (select GroupKey\n    from GroupItem\n    where ItemKey = @Param)\n-- @Param is the input parameter. Change for you\n-- DBMS

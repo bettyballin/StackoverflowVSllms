@@ -1,0 +1,1 @@
+<?php\nfoo();  # works\n\nfunction foo(){\n  print "bar";\n}

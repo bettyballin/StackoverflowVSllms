@@ -1,0 +1,1 @@
+Cache.Insert("key_dependent_to_session", value, Nothing, \n  DateTime.Now.AddMinutes(5), TimeSpan.Zero)

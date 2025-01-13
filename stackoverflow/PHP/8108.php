@@ -1,0 +1,1 @@
+$query = "select * from my_events where date between now() and ".\ndate("Y-m-d", strtotime("+1 week"));

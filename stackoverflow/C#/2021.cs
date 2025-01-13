@@ -1,0 +1,1 @@
+if (ErrorLoggingMethod.GetInvocationList().Length(0) == 0){\n    //Add your default handler to the delegate\n}

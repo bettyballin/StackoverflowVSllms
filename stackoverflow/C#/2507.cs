@@ -1,0 +1,1 @@
+CsvLine.Append(Format(b.Price, "c").Replace(",", ""))

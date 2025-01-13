@@ -1,0 +1,1 @@
+$query = "UPDATE members SET userrole ='$userrole' WHERE member_id = '$member_id'";\necho mysql_errno($yourmysqlconnection) . ": " . mysql_error($yourmysqlconnection) . "\n"

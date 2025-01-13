@@ -1,0 +1,1 @@
+function sortByLength($a,$b){\n    return strlen($b)-strlen($a);\n}\n\nusort($array,'sortByLength');

@@ -1,0 +1,1 @@
+function ViewTopic($id) {\n\n     $q = mysql_query("SELECT * FROM replies WHERE topic_id = $id");\n     while ($r = mysql_fetch_array($q)) {\n     $text = bbcode($r['text']);\n     $date = $r['date'];\n     $poster = $r['poster'];\n     $edited = $r['edited'];\n\n     echo "<p>$text</p>";.......\n\n}

@@ -1,0 +1,1 @@
+template <typename T>\nstruct pointer_values_equal\n{\n    const T* to_find;\n\n    bool operator()(const T* other) const\n    {\n        return *to_find == *other;\n    }\n};\n\n\n// usage:\nvoid test(const vector<A*>& va)\n{\n    A* to_find = new A("two");\n    pointer_values_equal<A> eq = { to_find };\n    find_if(va.begin(), va.end(), eq);\n    // don't forget to delete A!\n}

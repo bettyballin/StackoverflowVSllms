@@ -1,0 +1,1 @@
+db.articles.InsertOnSubmit(oArticle)\ndb.SubmitChanges()

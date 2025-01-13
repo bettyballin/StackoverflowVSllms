@@ -1,0 +1,1 @@
+class Animal\n{\n  int id;\n  string name;\n  abstract void eat();\n  abstract void breed();\n}\n\nclass Dog : Animal\n{\n  bool pedigree;\n  override void eat() {...}\n  override void breed() {...}\n}\n\nclass Bird : Animal\n{\n  bool carnivore;\n  int numberOfEggs;\n  void fly() {...}\n  override void eat() {...}\n  override void breed() {...}\n}

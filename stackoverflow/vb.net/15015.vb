@@ -1,0 +1,1 @@
+Dim query = db.Customers.Where("City == @0 and Orders.Count >= @1", "London", 10). _\n                OrderBy("CompanyName"). _\n                Select("New(CompanyName as Name, Phone)")

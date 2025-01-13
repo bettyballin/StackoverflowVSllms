@@ -1,0 +1,1 @@
+CREATE INDEX IX_Blah ON Blah (FirstName, Rank DESC) INCLUDE (Position)

@@ -1,0 +1,1 @@
+$root = realpath($_SERVER["DOCUMENT_ROOT"]);\n\ninclude "$root/inc/include1.php";

@@ -1,0 +1,1 @@
+// get your select element and listen for a change event on it\n$('#selectEl').change(function() {\n  // set the window's location property to the value of the option the user has selected\n  window.location = $(this).val();\n});

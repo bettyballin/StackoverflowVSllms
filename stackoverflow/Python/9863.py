@@ -1,0 +1,1 @@
+>>> from BeautifulSoup import BeautifulSoup\n>>> soup = BeautifulSoup("<htm@)($*><body><table <tr><td>hi</tr></td></body><html")\n>>> print soup.prettify()\n<htm>\n <body>\n  <table>\n   <tr>\n    <td>\n     hi\n    </td>\n   </tr>\n  </table>\n </body>\n</htm>

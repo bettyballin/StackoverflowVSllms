@@ -1,0 +1,1 @@
+template <typename X, typename Y, typename Z>\nstruct Foo {};\n\ntemplate <typename X>\nstruct Foo<X, Base<X>, void> {};                   // #1\n\ntemplate <typename X, typename Y>\nstruct Foo<X, Y, typename whatever<Y>::type> {};   // #2

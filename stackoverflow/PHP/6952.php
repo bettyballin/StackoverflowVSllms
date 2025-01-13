@@ -1,0 +1,1 @@
+// Option 1: Events can be deleted directly\n$event->delete();

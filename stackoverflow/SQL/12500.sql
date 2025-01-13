@@ -1,0 +1,1 @@
+\set user = foo\ndrop user :user;\ncreate user :user identified by 'password';

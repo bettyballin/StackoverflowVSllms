@@ -1,0 +1,1 @@
+Dim myObject\nSet myObject = Server.CreateObject("MyWebDLL.MyClass")\nResponse.Write myObject.MyMethod("test")

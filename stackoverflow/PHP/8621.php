@@ -1,0 +1,1 @@
+$site = preg_replace('{/$}', '', $site);

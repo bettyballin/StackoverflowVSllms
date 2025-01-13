@@ -1,0 +1,1 @@
+ArtistFans\n    ArtistID (PK)\n    UserID (PK)

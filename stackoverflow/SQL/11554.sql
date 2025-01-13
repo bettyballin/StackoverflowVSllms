@@ -1,0 +1,1 @@
+(SELECT \n    IF(COUNT(*) > 0, 6, 4)) - WEEKDAY(NOW()) DAY) \n    FROM shifts \n    WHERE DATE(shift_start) BETWEEN\n    DATE_ADD(DATE(NOW()), INTERVAL 5 - WEEKDAY(NOW()) DAY) AND\n    DATE_ADD(DATE(NOW()), INTERVAL 6 - WEEKDAY(NOW()) DAY)

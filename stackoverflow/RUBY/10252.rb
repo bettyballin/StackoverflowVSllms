@@ -1,0 +1,1 @@
+class Post < ActiveRecord::Base\n  belongs_to :user\n  named_scope :recent, :order => 'created_at desc', :limit => 5\nend\n\nclass User < ActiveRecord::Base\n  has_many :posts\nend

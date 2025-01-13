@@ -1,0 +1,1 @@
+if (orderLines.Any(order => order.Product == myLine.Product))\n{\n    ...\n}

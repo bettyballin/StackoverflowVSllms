@@ -1,0 +1,1 @@
+Conn.Execute("EXEC usp_ImOnlySafeIfYouCallMeRight '" + param1 + "', '" + param2 + "'") ;

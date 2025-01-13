@@ -1,0 +1,1 @@
+SELECT * FROM information_schema.columns WHERE is_nullable = 'YES'

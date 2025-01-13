@@ -1,0 +1,1 @@
+declare @date as datetime\nSET @date = '1/1/1901 12:00:00 AM'\n\nSELECT @date, CASE WHEN @date IS NULL THEN 'date is null' ELSE 'date not null' END

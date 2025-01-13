@@ -1,0 +1,1 @@
+<a href="http://php.net/manual/en/function.file-put-contents.php" rel="noreferrer">file_put_contents</a>("filelist.txt", "");

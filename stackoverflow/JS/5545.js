@@ -1,0 +1,1 @@
+function updateTextArea() {         \n     var allVals = [];\n     $('#c_b :checked').each(function() {\n       allVals.push($(this).val());\n     });\n     $('#t').val(allVals);\n  }\n $(function() {\n   $('#c_b input').click(updateTextArea);\n   updateTextArea();\n });

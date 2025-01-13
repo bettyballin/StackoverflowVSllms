@@ -1,0 +1,1 @@
+<form onsubmit="$(this).send({update: 'yourParentDiv', onComplete: function() { lightBox.close() } })">

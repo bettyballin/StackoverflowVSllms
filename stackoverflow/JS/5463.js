@@ -1,0 +1,1 @@
+if (nom == "1")\n{\n    nom +=1;\n    ou = nom;\n} else \n{\n    ou = "blank value";\n}

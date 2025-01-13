@@ -1,0 +1,1 @@
+for x in thousand[400:500]:\n    pass

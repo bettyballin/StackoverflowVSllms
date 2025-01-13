@@ -1,0 +1,1 @@
+Alter Table MyTable\nAlter Column MyColumn varchar(25)\n\nEXEC('Update MyTable\nSet MyColumn = Substring(MyColumn, 0, 5)');

@@ -1,0 +1,1 @@
+awk " BEGIN { multiline = 0;} \n      ! /^ / { if (whatever) \n                 { print; multiline = 1;} \n               else \n                 multiline = 0; \n             } \n        /^ / {if (multiline == 1) \n                 print;\n             } \n     " \n      yourfile

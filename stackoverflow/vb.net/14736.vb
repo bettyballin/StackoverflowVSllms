@@ -1,0 +1,1 @@
+Robert = Replace(Robert.ToLower, chr(59), "B")

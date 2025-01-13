@@ -1,0 +1,1 @@
+Dim result = elements.Aggregate(Function(a, b) If(a.val1.Length > b.val1.Length, a, b))

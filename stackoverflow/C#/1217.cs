@@ -1,0 +1,1 @@
+static void Main()\n{\n    bool your_condition = ReadRegistry or ReadConfigurationFile;\n    if(your_condition)\n    {\n        ServiceBase[] ServicesToRun;\n        ServicesToRun = new ServiceBase[] \n        { \n            new YourService() \n        }\n        ServiceBase.Run(ServicesToRun);\n    }\n    else\n    {\n        Application.Run(new YourForm())\n    }\n}

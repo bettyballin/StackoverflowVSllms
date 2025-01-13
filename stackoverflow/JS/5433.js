@@ -1,0 +1,1 @@
+$.ajaxSetup({'beforeSend': function(xhr){\n    if (xhr.overrideMimeType)\n        xhr.overrideMimeType("text/plain");\n    }\n});

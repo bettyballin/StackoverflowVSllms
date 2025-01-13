@@ -1,0 +1,1 @@
+$(".myDIVClass").hide();

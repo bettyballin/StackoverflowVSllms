@@ -1,0 +1,1 @@
+SET @ActualWeightDIMS =\n     CAST(@Actual_Dims_Lenght AS VARCHAR(16)) + 'x' +\n     CAST(@Actual_Dims_Width  AS VARCHAR(16)) + 'x' +\n     CAST(@Actual_Dims_Height  AS VARCHAR(16))

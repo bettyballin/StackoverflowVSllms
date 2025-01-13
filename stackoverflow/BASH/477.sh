@@ -1,0 +1,1 @@
+stat -f -c %T <filename>

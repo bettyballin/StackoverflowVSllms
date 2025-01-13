@@ -1,0 +1,1 @@
+$('#category').change( function() {\n    $('div#gallery').load( '/some/url/togeneratehtml',\n                           { category : $(this).val() },\n                           function() {\n                             $('div#gallery').gallerific();\n                           });\n});

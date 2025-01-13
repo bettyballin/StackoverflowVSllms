@@ -1,0 +1,1 @@
+$bar = new Bar();\n$bar->composition();// here you are calling the parent method, sets instance var $somethineelse\n$bar->somethingelse->test();// now you can call methods

@@ -1,0 +1,1 @@
+echo $aum;\necho floatval($aum);

@@ -1,0 +1,1 @@
+const string ValidChars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";\n\n static string GenerateName(Random random, int length)\n {\n     char[] chars = new char[length];\n     for (int i=0; i < length; i++)\n     {\n         chars[i] = ValidChars[random.Next(ValidChars.Length)];\n     }\n     return new string(chars);\n }

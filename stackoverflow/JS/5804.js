@@ -1,0 +1,1 @@
+var el = document.getElementById('gender');\nvar text = el.options[el.selectedIndex].innerHTML;

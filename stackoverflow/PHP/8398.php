@@ -1,0 +1,1 @@
+class Logger {\n\n    private static $log;\n\n    private function __construct() { }\n\n    public static function init(Log $log) {\n        self::$log = $log;\n    }\n\n    public static function get() {\n        return self::$log;\n    }\n\n}

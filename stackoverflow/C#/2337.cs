@@ -1,0 +1,1 @@
+double[] items1 = new double[10];\n\n// This means array is double[3] and cannot be changed without redefining it.\ndouble[] items2 = {1.23, 4.56, 7.89};

@@ -1,0 +1,1 @@
+preg_match_all('/(.)/', $subject, $result, PREG_PATTERN_ORDER);\n$result = $result[0];

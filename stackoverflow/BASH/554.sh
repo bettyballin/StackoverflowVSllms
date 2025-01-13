@@ -1,0 +1,1 @@
+echo off\nYourApp.exe\npause

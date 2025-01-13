@@ -1,0 +1,1 @@
+a = re.compile(r"""\d +  # the integral part\n                   \.    # the decimal point\n                   \d *  # some fractional digits""", re.X)\n\nb = re.compile(r"\d+\.\d*")

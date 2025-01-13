@@ -1,0 +1,1 @@
+SELECT *\nFROM resource\nLEFT OUTER JOIN perms_groups ON resource.id = perms_group.res_id \n                             AND perms_group.group_id = 2\nLEFT OUTER JOIN perms_users ON resource.id = perms_users.res_id \n                            AND perms_users.user_id = 3\nWHERE resource.id = 1

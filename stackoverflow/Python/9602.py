@@ -1,0 +1,1 @@
+f = open('filename string');\nlines = f.readlines()

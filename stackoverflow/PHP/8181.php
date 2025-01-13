@@ -1,0 +1,1 @@
+$font_color = imagecolorallocate($image, hexdec($r), hexdec($g), hexdec($b));

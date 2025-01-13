@@ -1,0 +1,1 @@
+select c.*\nfrom comments c\njoin (\n  values\n    (1,1),\n    (3,2),\n    (2,3),\n    (4,4)\n) as x (id, ordering) on c.id = x.id\norder by x.ordering

@@ -1,0 +1,1 @@
+ScriptManager sman = ScriptManager.GetCurrent(Page);\nsman.RegisterPostBackControl(btn_addDocument);

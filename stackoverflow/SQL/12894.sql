@@ -1,0 +1,1 @@
+ORDER BY CASE WHEN SUBSTRING([Translation Color],1,1) = 'l' \n     THEN 1 ELSE 0 END DESC

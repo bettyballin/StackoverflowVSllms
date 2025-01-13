@@ -1,0 +1,1 @@
+select userId\nfrom submission   \ngroup by userId\nhaving count(submissionGuid) > 10

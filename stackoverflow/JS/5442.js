@@ -1,0 +1,1 @@
+var elem = $("img#one").get(0)\nif (elem.parentNode.firstChild == elem)\n{ .... }

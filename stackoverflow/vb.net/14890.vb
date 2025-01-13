@@ -1,0 +1,1 @@
+Public Event PassNames(ByRef names() as String)

@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('form:first *:input[type!=hidden]:first').focus();\n});

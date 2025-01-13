@@ -1,0 +1,1 @@
+INSERT INTO database_b.table (SELECT * FROM database_a.table)

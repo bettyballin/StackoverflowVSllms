@@ -1,0 +1,1 @@
+In [1]: (import sys)\n------------------------------------------------------------\nFile "<ipython console>", line 1\n  (import sys)\n       ^\n<type 'exceptions.SyntaxError'>: invalid syntax

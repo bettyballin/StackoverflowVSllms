@@ -1,0 +1,1 @@
+(REGEXP_LIKE(col1, :name || '\s+' || :code)\nOR (NOT REGEXP_LIKE(col1, :name || '\s+' || :code) AND REGEXP_LIKE(col1, :name))

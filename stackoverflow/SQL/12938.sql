@@ -1,0 +1,1 @@
+UPDATE myTable \nSET description = newdesc\nFROM Pieces\nWHERE Pieces.id = myTable.itemid

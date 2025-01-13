@@ -1,0 +1,1 @@
+SELECT  COALESCE(t1.name, 'Item nonexistent'), t2.intValue\nFROM    table2 t2\nLEFT OUTER JOIN\n        table1 t1\nON      t1.id = t2.id

@@ -1,0 +1,1 @@
+$link = mysqli_connect("localhost", "user", "password", "database");\n\n$result = mysqli_query($link, "SELECT * FROM table1");\n$num_rows = mysqli_num_rows($result);\n\necho "$num_rows Rows\n";

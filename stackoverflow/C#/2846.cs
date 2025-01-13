@@ -1,0 +1,1 @@
+// C#\nlock (someLock)\n{\n    list.Add(someItem);\n}\n\n// VB\nSyncLock someLock\n    list.Add(someItem)\nEnd SyncLock

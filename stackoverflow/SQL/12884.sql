@@ -1,0 +1,1 @@
+select col1,col2,\ncase when col3='E01089001' then 1 else 2 end,\ncase when col3='E01089001' then 3 else 4 end\nend\nfrom Table1, dual\nwhere col1='A0529';

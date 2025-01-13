@@ -1,0 +1,1 @@
+SELECT COUNT(ISNULL(col1,0)) FROM   table1

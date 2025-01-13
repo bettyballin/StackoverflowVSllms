@@ -1,0 +1,1 @@
+$("a[id^=show]").click(function(){\n var id = $(this).attr("id");\n var num = id.substring(4);\n $(".item" + num).toggle(1000);\n});

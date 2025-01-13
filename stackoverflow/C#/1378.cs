@@ -1,0 +1,1 @@
+UpdatePanel1.Triggers.Add(new AsyncPostBackTrigger()\n{\n    ControlID = DropDown1.UniqueID,\n    EventName = "SelectedIndexChanged", // this may be optional\n});

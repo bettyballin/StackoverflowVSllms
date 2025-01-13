@@ -1,0 +1,1 @@
+typedef int dimensions[3][4];\n\ndimensions * dim = new dimensions[10];\ndim[/* from 0 to 9 */][/* from 0 to 2 */][/* from 0 to 3 */] = 42;\ndelete [] dim;

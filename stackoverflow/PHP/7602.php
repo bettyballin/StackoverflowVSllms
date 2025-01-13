@@ -1,0 +1,1 @@
+//Response from UPS\n\n    $label = $responseArray['ShipmentAcceptResponse']['ShipmentResults']['PackageResults']['LabelImage']['GraphicImage']['VALUE'];

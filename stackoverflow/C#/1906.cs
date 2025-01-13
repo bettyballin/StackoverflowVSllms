@@ -1,0 +1,1 @@
+select new {\n      Name = (string)el.Element("abc")\n      ...\n    }

@@ -1,0 +1,1 @@
+try:\n    x = int(rowColumn[1][3].replace(',','').strip('$'))\nexcept ValueError, e:\n    x = None # rowColumn[1][3] was not an integer

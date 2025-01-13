@@ -1,0 +1,1 @@
+<ListConfigurations>\n    <lists>\n      <add Name="blah" EndpointConfigurationName="blah" ListName="blah" ConnectionString="blah" TableName="blah" FieldsCsv="blah" DbFieldsCsv="blah"/>\n      <add Name="blah2" EndpointConfigurationName="blah" ListName="blah" ConnectionString="blah" TableName="blah" FieldsCsv="blah" DbFieldsCsv="blah"/>\n    </lists>\n  </ListConfigurations>

@@ -1,0 +1,1 @@
+select state, avg(lat), avg(lon) \nfrom tRealtyTrac \ngroup by state \norder by state 

@@ -1,0 +1,1 @@
+int main()\n{\n    MyClass a;\n    std::list<unsigned char> b = a;\n\n    return 0;\n}

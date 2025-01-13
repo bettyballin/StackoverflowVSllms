@@ -1,0 +1,1 @@
+function remove_wall(id) {  \n    var refresh = setTimeout(function() {\n        $("#recent_activity").load("activity.php?random=" +unique_requestid());\n    }, 1);\n    $("#contentArea").load("remove.php?wall_id="+id+"");\n};

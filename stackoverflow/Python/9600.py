@@ -1,0 +1,1 @@
+from ID3 import ID3\n\nmp3_filepath = r'/music/song.mp3'\nid3_data = ID3(mp3_filepath)\nprint 'Artist:', id3_data['ARTIST']\nprint 'Title:', id3_data['TITLE']

@@ -1,0 +1,1 @@
+int peasant_mult (int a, int b) {\n  for (p = 0;\n       p += (a & 1) * b, a != 1;\n       a /= 2, b *= 2);\n  return p;}

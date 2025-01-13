@@ -1,0 +1,1 @@
+FK_childtablename_parenttablename

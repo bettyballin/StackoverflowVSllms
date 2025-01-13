@@ -1,0 +1,1 @@
+<script type="text/javascript">\nfunction showSpinner() {\n   // TODO show spinner\n}\nfunction hideSpinner() {\n   // TODO hide spinner\n}\nAjax.Responders.register({\n   onLoading: function() {\n      showSpinner();\n   },\n   onComplete: function() {\n      if(!Ajax.activeRequestCount) hideSpinner();\n   }\n});\n</script>

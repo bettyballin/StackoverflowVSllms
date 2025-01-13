@@ -1,0 +1,1 @@
+dsData = getSQLData(conn,sql, blah,blah....)\n   dt = dsData.Tables(0)  'Perhaps the obj ref not set is occurring here

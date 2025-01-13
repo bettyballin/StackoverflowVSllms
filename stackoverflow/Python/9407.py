@@ -1,0 +1,1 @@
+def requiresUser(fun):\n  def decorate(*args, **kwargs):\n    if not users.get_current_user():\n      self.error(403)\n    else:\n      fun(*args, **kwargs)\n  return decorate\n\ndef requiresAdmin(fun):\n  def decorate(*args, **kwargs):\n    if not users.is_current_user_admin():\n      self.error(403)\n    else:\n      fun(*args, **kwargs)\n  return decorate

@@ -1,0 +1,1 @@
+DECLARE @condition BIT\n\nIF @condition = 1 \nBEGIN \n EXEC MyProc1\nEND \nELSE \nBEGIN \n EXEC MyProc2\nEND

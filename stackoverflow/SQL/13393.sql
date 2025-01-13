@@ -1,0 +1,1 @@
+DECLARE @a INT \nDECLARE @b VARCHAR \nSET @a = 1\n\nWHILE @a < 30\nBEGIN\nset @b = @a  \nexec sp_executesql N'UPDATE source set h = h + 'x_'+@b + N'\n           where y_'+@b + N' = ''Sold'''   \n\nSET @a = @a + 1\nEND

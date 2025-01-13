@@ -1,0 +1,1 @@
+var mailMessage = new MailMessage();\nAttachment data = new Attachment(attachment, contentType); \nContentDisposition disposition = data.ContentDisposition;\ndisposition.FileName = "message.csv";\nmailMessage.Attachments.Add(data);

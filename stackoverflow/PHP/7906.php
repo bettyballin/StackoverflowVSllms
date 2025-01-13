@@ -1,0 +1,1 @@
+// setup your translation\n$translate = new Zend_Translate('csv', '/my/path/source-de.csv', 'de');\n$translate->addTranslation('/my/path/source-en.csv', 'en');\n// add the translation adapter to the registry\nZend_Registry::set('Zend_Translate', $translate);

@@ -1,0 +1,1 @@
+return JavaScript( "window.top.location.href ='" + Url.Action( "Action" ) + "';" );

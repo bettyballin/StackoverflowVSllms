@@ -1,0 +1,1 @@
+Dim myReader As DataReader\nDim myTable As DataTable\n\nDim myColumns As New Collection\n\nmyReader =  //' get your data\n\nIf myReader.HasRows Then\n    myTable.Load(myReader)\n    For Each col As DataColumn In myTable.Columns\n        myColumns.Add(col.DataType.ToString, col.ColumnName)\n    Next\nEnd If

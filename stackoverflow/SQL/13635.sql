@@ -1,0 +1,1 @@
+SELECT T.ID, S.Item AS dataItem\nFROM @temp AS T CROSS APPLY dbo.__StringSplit(T.data, ',', T.ID) AS S

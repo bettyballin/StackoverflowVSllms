@@ -1,0 +1,1 @@
+SELECT\n        [name]\n       ,create_date\n       ,modify_date\nFROM\n        sys.tables

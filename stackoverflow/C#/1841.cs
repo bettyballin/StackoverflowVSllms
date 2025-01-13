@@ -1,0 +1,1 @@
+private static string configFile = Path.Combine(Directory.GetCurrentDirectory(), "LoadCell.config");\n// Or...\nprivate static string configFile = Directory.GetCurrentDirectory() + Path.DirectorySeparatorChar + "LoadCell.config";

@@ -1,0 +1,1 @@
+Private Sub cbx_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles cbx.KeyDown\n\n    Me.Cursor = Cursors.IBeam\n    If e.KeyData = Keys.Enter Then\n        Me.Cursor = Cursors.WaitCursor\n        PerformSearch()\n        cbx.Focus()\n        Me.Cursor = Cursors.Default\n    End If\n    Me.Cursor = Cursors.Default\n\nEnd Sub

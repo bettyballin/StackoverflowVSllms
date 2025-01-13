@@ -1,0 +1,1 @@
+select case\n    when substring(pan,1,2) = '37' then 'AMEX'\n    when substring(pan,1,1) = '3' then 'Diners'\n    when substring(pan,1,1) = '4' then 'Mastercard'\n    when substring(pan,1,1) = '5' then 'VISA'\n    else 'unknown' \nend,\ncount(*),\nsum(amount)\nfrom transactions\ngroup by card_type

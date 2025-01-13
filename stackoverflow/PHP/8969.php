@@ -1,0 +1,1 @@
+class Demo\n{\n    public static $foo = 42;\n}\n\n$class = new ReflectionClass('Demo');\n$value=$class->getStaticPropertyValue('foo');\nvar_dump($value);

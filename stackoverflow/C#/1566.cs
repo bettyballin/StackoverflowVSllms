@@ -1,0 +1,1 @@
+using (var resource = ResourceType.Create())\n{\n    // Use the resource\n}   // resource.Dispose called here even if your code throws an exceptio

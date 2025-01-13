@@ -1,0 +1,1 @@
+public function isValid($fieldName = null)\n{\n    $this->_process();\n    (...)\n}\n\n\nprotected function _process()\n{\n    if ($this->_processed === false) {\n        $this->_filter();\n        $this->_validate();\n        $this->_processed = true;\n    }\n}

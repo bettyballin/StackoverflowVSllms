@@ -1,0 +1,1 @@
+myObjects.RemoveAll(Function(m As MyObject) m.X >= 10)

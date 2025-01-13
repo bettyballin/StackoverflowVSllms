@@ -1,0 +1,1 @@
+php > $foo = "http://www.example.com/foo/bar?hat=bowler&accessory=cane";\nphp > $blah = parse_url($foo);\nphp > print_r($blah);\nArray\n(\n    [scheme] => http\n    [host] => www.example.com\n    [path] => /foo/bar\n    [query] => hat=bowler&accessory=cane\n)

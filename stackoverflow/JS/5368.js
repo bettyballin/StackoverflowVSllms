@@ -1,0 +1,1 @@
+function isImage(url, callback) {\n    var img = document.createElement('img');\n    img.onload = function() {\n        callback(url);\n    }\n    img.src = url;\n}

@@ -1,0 +1,1 @@
+select sum(case when t1.a = 1 then 1 else 0 end) as A_COUNT\n     , sum(case when t1.b = 2 then 1 else 0 end) as B_COUNT\n  from t1\n where t1.a = 1\n    or t1.b = 2

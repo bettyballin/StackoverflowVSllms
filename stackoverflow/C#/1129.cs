@@ -1,0 +1,1 @@
+[System.Web.Script.Services.ScriptService]\npublic class Service : System.Web.Services.WebService

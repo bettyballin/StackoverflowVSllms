@@ -1,0 +1,1 @@
+using System.Globalization;\n\nCultureInfo.InvariantCulture.TextInfo.ToTitleCase("GeOrGE bUrdEll")

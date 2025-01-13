@@ -1,0 +1,1 @@
+Dim xml : Set xml = CreateObject("MSXML2.DOMDocument.3.0")\n xml.async = false\n xml.Load Request

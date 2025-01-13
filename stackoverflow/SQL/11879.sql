@@ -1,0 +1,1 @@
+select 'Test Name', \n    case when foo = 'Result' then 1 else 0 end \n    from bar where baz = (some criteria)

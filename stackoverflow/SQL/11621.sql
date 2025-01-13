@@ -1,0 +1,1 @@
+SELECT  @listCol = STUFF(( SELECT distinct  '], [' + [size]\n                           FROM     #t\n                         FOR\n                           XML PATH('')\n                         ), 1, 2, '') + ']'

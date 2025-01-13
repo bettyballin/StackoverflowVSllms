@@ -1,0 +1,1 @@
+SELECT CAST('the quick brown fox jumped over the lazy dog' AS VARCHAR(45))

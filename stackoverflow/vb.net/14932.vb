@@ -1,0 +1,1 @@
+str = regex.Replace(str, "(bkz: <a href=javascript:" & myAnchor.HRef & "><font color=""#CC0000"">$1</font></a> )")

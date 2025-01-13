@@ -1,0 +1,1 @@
+Return RedirectToAction("Details", New With { .id = dinner.DinnerID})

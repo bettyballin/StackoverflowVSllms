@@ -1,0 +1,1 @@
+$.ajaxSetup({\n    error: function(xhr){\n        alert('Request Status: ' + xhr.status + ' Status Text: ' + xhr.statusText + ' ' + xhr.responseText);\n    }\n});

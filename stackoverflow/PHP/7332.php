@@ -1,0 +1,1 @@
+function createUser($username, &$error)

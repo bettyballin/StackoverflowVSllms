@@ -1,0 +1,1 @@
+<tr<%= index++ % 2 == 0 ? " class=\"alt-row\"" : "" %>>

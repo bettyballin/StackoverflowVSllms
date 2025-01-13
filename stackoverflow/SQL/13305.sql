@@ -1,0 +1,1 @@
+select dbo.YourFunc(column) as result\nfrom table

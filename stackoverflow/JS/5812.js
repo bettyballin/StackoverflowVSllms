@@ -1,0 +1,1 @@
+$('#btnSubmit').unbind('click').click( function() { return false; } );

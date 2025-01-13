@@ -1,0 +1,1 @@
+SELECT c.chr, n.num\nFROM chars c, nums n\n WHERE NOT EXISTS (SELECT 1\n                     FROM mix m\n                    WHERE m.chr = c.chr AND m.num = n.num)

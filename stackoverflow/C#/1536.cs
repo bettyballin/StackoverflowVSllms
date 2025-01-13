@@ -1,0 +1,1 @@
+var myLog = session.Get<LogRun>(1);\nAssert.True(myLog.LogMessages.Count > 0);\nmyLog.LogMessages = new List<Log>();

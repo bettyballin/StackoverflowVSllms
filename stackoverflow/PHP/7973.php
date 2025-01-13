@@ -1,0 +1,1 @@
+$condition = array(\n    'message_id = ' . $messageId,\n    'profile_id = ' . $userId\n);

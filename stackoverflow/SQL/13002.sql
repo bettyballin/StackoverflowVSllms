@@ -1,0 +1,1 @@
+create view cumulative_balance as\nselect a.*, \n  (select sum( balance ) \n  from openitems b \n  where b.id = a.id and b.type = a.type and a.daysOpen >= a.daysOpen)\n  as cumulative_balance\nfrom openitems a;

@@ -1,0 +1,1 @@
+class ContentsController extends AppController {\n         function view() {\n              $foo = $this->Foo->find(\n                  array('chapter'=>$this->passedArgs['chapter'],\n                        'section'=>$this->passedArgs['section']));\n         }\n    }

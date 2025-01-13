@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    var flashvars = {};\n    flashvars.targetURL = "http://www.stackoverflow.com";\n    var params = {};\n    var attributes = {};\n    swfobject.embedSWF("myflashmovie.swf", "myAlternativeContent", "800", "600", "9.0.0", false, flashvars, params, attributes);\n</script>

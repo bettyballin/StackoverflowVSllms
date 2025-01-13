@@ -1,0 +1,1 @@
+process.start("dtsrun /S ""server name"" /U sa /N ""d:\task.dts""")

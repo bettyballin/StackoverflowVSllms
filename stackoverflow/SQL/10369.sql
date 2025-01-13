@@ -1,0 +1,1 @@
+CREATE LOGIN foo WITH PASSWORD = 'bar'

@@ -1,0 +1,1 @@
+$test = $this->getRequest()->getParam('test') //$test = 1234

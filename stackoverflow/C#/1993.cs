@@ -1,0 +1,1 @@
+public Address GetAddressOrDefault()\n{\n  return Address ?? new NullAddress();\n}

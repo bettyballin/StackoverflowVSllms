@@ -1,0 +1,1 @@
+explain plan for\nSELECT *\nFROM   sometable\nWHERE  foo='hello' AND bar='world'\n/\nselect * from table(dbms_xplan.display)\n/

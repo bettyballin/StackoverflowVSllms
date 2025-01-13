@@ -1,0 +1,1 @@
+SELECT document_id\nFROM table\nWHERE tag = 'tag1' OR tag = 'tag2'\nGROUP BY document_id\nHAVING COUNT(DISTINCT tag) = 2

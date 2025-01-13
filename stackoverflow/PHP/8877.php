@@ -1,0 +1,1 @@
+$fout = fopen('/tmp/verylarge.jpeg', 'w');\n$fin = fopen("http://www.example.com/verylarge.jpeg", "rb");\nwhile (!feof($fin)) {\n    $buffer= fread($fin, 32*1024);\n    fwrite($fout,$buffer);\n}\nfclose($fin);\nfclose($fout);

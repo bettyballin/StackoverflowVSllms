@@ -1,0 +1,1 @@
+int[] validIds = { 1, 4, 5 };\nvar query = from order in db.Orders\n            where validIds.Contains(order.Id)\n            select order

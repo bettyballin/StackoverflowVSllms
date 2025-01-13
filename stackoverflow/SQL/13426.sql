@@ -1,0 +1,1 @@
+SELECT *, IDENTITY( int ) AS idcol\n  INTO #newtable\n  FROM oldtable

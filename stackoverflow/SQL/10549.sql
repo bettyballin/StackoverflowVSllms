@@ -1,0 +1,1 @@
+where ModelB = 'ModelB_1' or ModelB = 'ModelB_2'

@@ -1,0 +1,1 @@
+$api_key = "YOUR APP API KEY";\n$api_secret = "YOUR API SECRET KEY";\n\n$facebook = new Facebook($api_key, $api_secret);\n$facebook_id = $facebook->get_loggedin_user();

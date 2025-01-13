@@ -1,0 +1,1 @@
+$a = simplexml_load_string('<root></root>');\n$a->b = 'This is a non-breaking space &nbsp;';\n$a->addChild('c','This is a non-breaking space &nbsp;');    \nprint $a->asXML();

@@ -1,0 +1,1 @@
+(SELECT TOP 1 config.Signal FROM config,bases \n     WHERE config.ID = messages.ID AND bases.Name = messages.RecBy AND bases.NameNum = \n     config.RecBy Order By...)  

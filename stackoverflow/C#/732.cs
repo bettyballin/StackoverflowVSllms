@@ -1,0 +1,1 @@
+var mockRequest = new Mock<HttpRequestBase>();\nmockRequest.Setup(x => x.IsAuthenticated).Returns(true); \n\nvar mockContext = new Mock<ControllerContext>();\nmockContext.Setup(x => x.Request).Returns(mockRequest.Object);\n\nvar myController = new MyController();\nmyController.ControllerContext = new ControllerContext(mockContext.Object, new RouteData(), myController);

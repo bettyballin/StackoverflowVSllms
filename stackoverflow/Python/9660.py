@@ -1,0 +1,1 @@
+"add \x93Monitoring\x94 to list".decode("cp1252", "ignore")

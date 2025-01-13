@@ -1,0 +1,1 @@
+preg_match("/\p{Arabic}/u", $item['item_title'])

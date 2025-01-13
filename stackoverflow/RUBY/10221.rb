@@ -1,0 +1,1 @@
+class UserTest < ActiveSupport::TestCase\n  setup do\n    @user = User.new\n  end\n\n  should 'Calculate the hashed password correctly'\n    @user.password = "password"\n    @user.hashed_password = "xxxxx" # Manually calculate it\n  end\nend

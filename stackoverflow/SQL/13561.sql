@@ -1,0 +1,1 @@
+SELECT col1, MAX(col2) FROM some_table GROUP BY col1;

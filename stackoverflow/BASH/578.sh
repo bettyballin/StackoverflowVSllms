@@ -1,0 +1,1 @@
+cat /proc/loadavg >> /var/log/loads

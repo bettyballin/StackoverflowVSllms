@@ -1,0 +1,1 @@
+Dim DatesInRange = (From o in dc.Orders _\n                   Where (o.OrderDate >= StartDate and _\n                          o.OrderDate <= EndDate)\n                   Select o.OrderDate).Distinct

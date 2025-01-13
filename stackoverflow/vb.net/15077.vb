@@ -1,0 +1,1 @@
+Dim strEmpty(-1) As String

@@ -1,0 +1,1 @@
+typedef boost::tuple<double,double,double> XYZ;\n\nXYZ foo();\n\ndouble x,y,z;\nboost::tie(x,y,z) = foo();

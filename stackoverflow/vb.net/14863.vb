@@ -1,0 +1,1 @@
+Set xmlhttp = Server.CreateObject("Msxml2.ServerXMLHTTP.4.0") \n\nxmlhttp.SetProxy 2,"proxyname:port", "addresses that should bypass the proxy"

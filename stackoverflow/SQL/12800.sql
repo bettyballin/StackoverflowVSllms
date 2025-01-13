@@ -1,0 +1,1 @@
+SELECT TOP N    \n    SomeColumn \nFROM     \n    SomeTable\nORDER BY     \n    CHECKSUM(NEWID())

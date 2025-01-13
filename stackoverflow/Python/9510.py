@@ -1,0 +1,1 @@
+approx_english_words = a1*no_characters_in_script1 + a2 * no_chars_in_script2 + a3 * no_chars_in_script3

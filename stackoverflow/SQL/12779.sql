@@ -1,0 +1,1 @@
+to_number (to_char (date_column, 'J')) - to_number(to_char(to_date('12/31/1899', 'MM/DD/YYYY'), 'J'))

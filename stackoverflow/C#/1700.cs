@@ -1,0 +1,1 @@
+imageButton.CommandName = "Delete"\nimageButton.CommandArgument = Your_Row_ID_You_Want_To_Get

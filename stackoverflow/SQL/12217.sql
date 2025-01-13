@@ -1,0 +1,1 @@
+SELECT unixTime FROM entries ORDER BY unixTime DESC LIMIT 49, 1;\nDELETE FROM entries WHERE unixTime < $sqlResult;

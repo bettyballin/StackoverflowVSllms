@@ -1,0 +1,1 @@
+i++;\narray[i] = foo;

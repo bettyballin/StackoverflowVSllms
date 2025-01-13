@@ -1,0 +1,1 @@
+<roleManager defaultProvider="WindowsProvider" \n  enabled="true"\n  cacheRolesInCookie="false">\n  <providers>\n    <add\n      name="WindowsProvider"\n      type="System.Web.Security.WindowsTokenRoleProvider" />\n  </providers>\n</roleManager>

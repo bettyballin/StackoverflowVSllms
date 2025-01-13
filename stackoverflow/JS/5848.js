@@ -1,0 +1,1 @@
+$(document).ready(function(){    \n    $.get("textes.html",function(data){\n        $("#right").append($("#nicolas",data)).end().append($("#antoine",data));\n    },'html');    \n});

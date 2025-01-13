@@ -1,0 +1,1 @@
+SELECT * FROM Adjusters \nWHERE AdjusterID IN(SELECT min(AdjusterID) \n                    FROM Adjusters GROUP BY CompanyID)

@@ -1,0 +1,1 @@
+./tsmarty2c.php «template_file» > smarty.c

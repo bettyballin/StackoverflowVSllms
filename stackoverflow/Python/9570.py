@@ -1,0 +1,1 @@
+sys.modules['os.path'] = path\nfrom os.path import (curdir, pardir, sep, pathsep, defpath, extsep, altsep,\n    devnull)

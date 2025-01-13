@@ -1,0 +1,1 @@
+select * from\n(select c.* from cool_table c\n   where date >= to_date('200901010000', 'YYYYMMDDhh24mi') \n   order by seq_nr, entry_dts)\nwhere rownum < 50

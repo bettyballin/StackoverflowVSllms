@@ -1,0 +1,1 @@
+SELECT  UTL_RAW.cast_to_varchar2(UTL_ENCODE.base64_encode(UTL_RAW.bit_xor(UTL_RAW.cast_to_raw('text'), UTL_RAW.cast_to_raw('mask'))))\nFROM    dual

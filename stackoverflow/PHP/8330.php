@@ -1,0 +1,1 @@
+$stringData = preg_replace('/[\n\r]{1,2}$/',"\r\n",$stringData);

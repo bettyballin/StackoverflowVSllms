@@ -1,0 +1,1 @@
+echo $html->link('Dashboard', '/dashboard/index',\narray("onmouseover" => "Tip('Test');"), null, false);

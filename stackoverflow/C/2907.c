@@ -1,0 +1,1 @@
+LRESULT CALLBACK my_callback(HWND hwnd, UINT ui, WPARAM wp, LPARAM lp) {\n    Window * self = reinterpret_cast<Window*>(\n        GetWindowLongPtr(hwnd, 0));\n    return self->update(hwnd, ui, wp, lp); // handle it.\n}

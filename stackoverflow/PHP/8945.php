@@ -1,0 +1,1 @@
+$MyString = preg_replace\n    ( '/(?si)<SPAN\s+style\s*=\s*"TEXT-DECORATION:\s*underline;?"\s*>(.*?)<\/SPAN>/'\n    , '<u>$1</u>'\n    , $MyString\n    );

@@ -1,0 +1,1 @@
+IF @TableExists > 0 THEN\n   BEGIN\n       INSERT INTO country (name) VALUES ('Afghanistan'),('Aland Islands');\n   END

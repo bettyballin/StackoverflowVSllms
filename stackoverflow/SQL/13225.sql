@@ -1,0 +1,1 @@
+select t1.eid\n  from t t1\n where t1.fid  = 'B'\n   and not exists\n       (select 1\n          from t t2\n         where t2.eid = t1.eid\n           and t2.fid  = 'A')

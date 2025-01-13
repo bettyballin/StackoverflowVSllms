@@ -1,0 +1,1 @@
+<?php\nrequire 'Archive/Tar.php';\n$obj = new Archive_Tar('archive.tar');\n$path = '/path/to/folder/';\n$handle=opendir($path); \n$files = array();\nwhile(false!==($file = readdir($handle)))\n {\n    $files[] = $path . $file;\n }\n\nif ($obj->create($files))\n {\n    //Sucess\n }\nelse\n {\n    //Fail\n }\n?>

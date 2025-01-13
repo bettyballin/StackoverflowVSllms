@@ -1,0 +1,1 @@
+string forDisplay = currentBalance.ToString("N2");

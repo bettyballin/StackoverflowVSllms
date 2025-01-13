@@ -1,0 +1,1 @@
+Dim mynode As New TreeNode\nDim SomeBigCustomObject as New MyContentStorageObject(name,content)\nmynode.Text = SomeBigCustomObject.Name\nmynode.Tag = SomeBigCustomObject\nTreeView1.Nodes.Add(mynode)

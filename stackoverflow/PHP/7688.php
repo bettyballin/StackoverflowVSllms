@@ -1,0 +1,1 @@
+foreach ($all_items as $key =>$items) {\n   $dataset = $items['dataset'];\n   unset($all_items[$key]['dataset']); // Removing it (from the top)\n   $all_items[$key]['dataset'] = $dataset; // Adding it again (at the bottom)\n}

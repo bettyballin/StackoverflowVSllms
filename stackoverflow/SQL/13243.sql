@@ -1,0 +1,1 @@
+@Offset = ((DATEDIFF(day, @BaseDate, GETDATE()) % @DayCount)

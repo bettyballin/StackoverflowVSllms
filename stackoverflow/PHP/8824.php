@@ -1,0 +1,1 @@
+<?php\n  $content = file_get_contents("http://video.google.de/?hl=de&tab=wv");\n  $regex = '|<img class=thumbnail-img.*?src=(.*?) |';\n  preg_match_all($regex, $content, $result, PREG_PATTERN_ORDER);\n  $images = $result[1];\n  foreach($images AS $image){\n    echo $image;\n  }\n?>

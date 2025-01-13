@@ -1,0 +1,1 @@
+<?php\n\n$db = mysql_connect( 'localhost', 'user', 'pass' );\n\n$result = mysql_query( "insert into table (col1, col2) values ('foo', 'bar')", $db );\n\n$lastId = mysql_insert_id();

@@ -1,0 +1,1 @@
+select count(*), round(mynum/3.0) foo from mytable group by foo;

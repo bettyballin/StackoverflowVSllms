@@ -1,0 +1,1 @@
+<s:action name="myAction"  ignoreContextParams="true" executeResult="true">\n        <s:param name="foo" value="bar"/>\n    </s:action>

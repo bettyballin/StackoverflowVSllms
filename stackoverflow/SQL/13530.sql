@@ -1,0 +1,1 @@
+INSERT INTO anothertable (list, of , column, names, to, give, values, for)\nSELECT list, of, column, names, of, compatible, column, types\nFROM bigimportedtable\nWHERE possibly you want a predicate or maybe not;

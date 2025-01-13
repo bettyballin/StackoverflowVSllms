@@ -1,0 +1,1 @@
+a = 123456\nb = str(a)\nc = []\n\nfor digit in b:\n    c.append (int(digit))\n\nprint c

@@ -1,0 +1,1 @@
+<?php\n\nfunction to_netmask($ip, $prefix) {\n    $mask = $prefix==0?0:0xffffffff << (32 - $prefix);\n    return long2ip(ip2long($ip) & $mask);\n}\n\n?>

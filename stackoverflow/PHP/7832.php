@@ -1,0 +1,1 @@
+interface CrossSiteLoader \n{\n    public function loadURL($url);\n}\n\nclass SimpleLoader implements CrossSiteLoader\n{\n    public function loadURL($url)\n    {\n        return file_get_contents($url);\n    }\n}

@@ -1,0 +1,1 @@
+Private _items As New List(Of Person)  'you will need to fill this with data!'\n\nPrivate Sub Populate()\n\n  For i As Integer = 0 To _items.count - 1\n    lst.items.add(_items(i).Name & ", " & _items(i).Age)\n  Next\n\nEnd Sub

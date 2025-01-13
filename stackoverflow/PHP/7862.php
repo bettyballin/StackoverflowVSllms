@@ -1,0 +1,1 @@
+$colId\n    ->setMultiOptions(array_flip(array('sadda', 'asss'))) // three closing-brackets \n    ->setAttrib('disable', array('sadda', 'asss'));

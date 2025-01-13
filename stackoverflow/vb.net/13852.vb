@@ -1,0 +1,1 @@
+Array.IndexOf(New Integer() {90605, 90607, 90610}, IntGLAcct) >-1

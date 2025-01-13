@@ -1,0 +1,1 @@
+tree_ul.each(function(n,item){\n   if(n > (max_listCount - 1))\n     $(item).remove();\n});

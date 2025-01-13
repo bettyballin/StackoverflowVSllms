@@ -1,0 +1,1 @@
+$(yourselector).text("<h1>Your text String</h1>");

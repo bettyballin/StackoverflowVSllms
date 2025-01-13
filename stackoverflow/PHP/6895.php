@@ -1,0 +1,1 @@
+function ifsetor(&$variable, $default = null) {\n    if (isset($variable)) {\n        $tmp = $variable;\n    } else {\n        $tmp = $default;\n    }\n    return $tmp;\n}

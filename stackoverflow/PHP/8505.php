@@ -1,0 +1,1 @@
+$str = "Hello\n<?php echo 'World';?>";\n\n$matches = array();\n\npreg_match('/<\?php (.+) \?>/x', $str, $matches);\n\neval($matches[1]);

@@ -1,0 +1,1 @@
+Dim DeleteId As Guid = New Guid(Convert.ToString(e.CommandArgument))

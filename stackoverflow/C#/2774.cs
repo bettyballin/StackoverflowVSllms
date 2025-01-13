@@ -1,0 +1,1 @@
+string valueToConvertFrom = "123";\n\nType convertToType = typeof(int);\n\nTypeConverter tc =  TypeDescriptor.GetConverter(convertToType);             \n\nobject blah =tc.ConvertFromString(valueToConvertFrom);

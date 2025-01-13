@@ -1,0 +1,1 @@
+UPDATE tablename SET [filename] = RTRIM([filename]) + '.jpg' WHERE id > 50

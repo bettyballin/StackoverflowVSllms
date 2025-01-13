@@ -1,0 +1,1 @@
+ws.Endpoint.Address = new System.ServiceModel.EndpointAddress( newurl )

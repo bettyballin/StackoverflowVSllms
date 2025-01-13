@@ -1,0 +1,1 @@
+$id = 5;\n$baz = 'shazam';\n$select = $db->select()->from('bar','foo')\n                       ->where('id = ?', $id)\n                       ->where('baz = ?', $baz); // Zend_Db_Select will properly quote stuff for you\nprint_r($select->__toString()); // prints SELECT `bar`.`foo` FROM `bar` WHERE (id = 5) AND (baz = 'shazam')

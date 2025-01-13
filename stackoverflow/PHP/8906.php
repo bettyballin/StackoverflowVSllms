@@ -1,0 +1,1 @@
+$all_values = array();\nwhile loop {\n  $value = "...";\n  $all_values[] = $value;\n}\n$all_values = implode(',', array_reverse($all_values));

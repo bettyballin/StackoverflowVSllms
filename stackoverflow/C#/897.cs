@@ -1,0 +1,1 @@
+MyButton.OnClientClick = "ShowModal(); return false;"

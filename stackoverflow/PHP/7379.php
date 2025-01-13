@@ -1,0 +1,1 @@
+utf8_encode(htmlentities($source,ENT_COMPAT,'utf-8'));

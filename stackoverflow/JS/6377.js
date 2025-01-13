@@ -1,0 +1,1 @@
+$('#mydiv').load('http://getsomehtml.php?op=loadmeup');

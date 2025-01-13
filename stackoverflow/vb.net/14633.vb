@@ -1,0 +1,1 @@
+myGuid = Left(myGuid, Len(myGuid)-2)

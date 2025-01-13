@@ -1,0 +1,1 @@
+SELECT * FROM Families\nLEFT JOIN\nChildren ON Families.FamilyID = Children.FamilyID AND Children.Gender="m"\nWHERE Children.FamilyID IS NULL 

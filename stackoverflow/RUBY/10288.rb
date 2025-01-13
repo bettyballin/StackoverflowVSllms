@@ -1,0 +1,1 @@
+<% remote_form_for membership do |f| %>\n    <%= f.select :permissions, [['none', 0], ['admin', 9]], {}, :onchange => 'this.form.submit()' %>\n<% end %>

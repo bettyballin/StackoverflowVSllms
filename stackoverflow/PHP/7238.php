@@ -1,0 +1,1 @@
+<?php echo ltrim(wp_title('')); ?>

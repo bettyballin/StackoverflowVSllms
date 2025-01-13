@@ -1,0 +1,1 @@
+document.getElementById('diva').innerHTML = \n  <?php echo functionThatReturnsSomeValue(); ?>;

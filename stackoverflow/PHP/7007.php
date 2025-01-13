@@ -1,0 +1,1 @@
+class Integer\n{\n  public $val;\n\n  function __construct($val) { $this->val = $val; }\n}\n\nfunction ExampleFunc($i){\n    if (is_numeric($i)) { $iObj = new Integer($i); }\n    ...\n}\n\nExamFunc(333); // 333 -> Integer object with $val === 333.

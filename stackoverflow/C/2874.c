@@ -1,0 +1,1 @@
+int r = pixel & 0xff0000;\nint g = pixel & 0xff00;\nint b = pixel & 0xff;

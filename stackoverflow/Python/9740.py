@@ -1,0 +1,1 @@
+myList = sorted(set(myList))

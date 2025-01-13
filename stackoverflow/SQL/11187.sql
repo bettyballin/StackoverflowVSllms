@@ -1,0 +1,1 @@
+SELECT C1, C2, C3\nFROM (\n    select C1, C2, C3 from T1\n    union all \n    select C1, C2, C3 from T2\n)\norder by C3

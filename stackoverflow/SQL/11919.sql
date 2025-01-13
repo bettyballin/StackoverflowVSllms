@@ -1,0 +1,1 @@
+UPDATE    tblCheckbook\nSET       CheckColor = 'Blue'

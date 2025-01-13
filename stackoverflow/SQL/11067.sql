@@ -1,0 +1,1 @@
+select A as [Col 1], B as [Col 2] from table\nunion all \nselect C,D from table \nunion all \nselect E,F from table

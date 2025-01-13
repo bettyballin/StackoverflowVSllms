@@ -1,0 +1,1 @@
+create or replace\nFUNCTION Testing\n( \niKey IN VARCHAR2\n) RETURN INTEGER\n AS \n\nBEGIN\n  delete from MyTable WHERE \n  TheKey = iKey;\n\n  RETURN SQL%ROWCOUNT;\n\nEND Testing;

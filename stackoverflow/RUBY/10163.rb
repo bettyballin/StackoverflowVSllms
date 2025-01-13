@@ -1,0 +1,1 @@
+def function\n  basic_stuff # executed regardless of the mime types accepted\n  respond_to do |format|\n    format.html do\n      user_redirect\n    end\n  end\n  # will fall back rendering the default view - which you should ensure will be js\nend

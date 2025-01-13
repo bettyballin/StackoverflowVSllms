@@ -1,0 +1,1 @@
+if gcc helloworld.c -o helloworld; then \necho "Success!";\nelse \necho "Failure"; \nfi

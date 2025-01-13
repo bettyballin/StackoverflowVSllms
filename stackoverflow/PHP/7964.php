@@ -1,0 +1,1 @@
+<?\nob_start(); // ensures anything dumped out will be caught\n\n// do stuff here\n$url = 'http://example.com/thankyou.php'; // this can be set based on whatever\n\n// clear out the output buffer\nwhile (ob_get_status()) \n{\n    ob_end_clean();\n}\n\n// no redirect\nheader( "Location: $url" );\n?>

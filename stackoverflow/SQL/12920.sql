@@ -1,0 +1,1 @@
+SELECT * FROM Questions \nINNER JOIN QuestionKeyword ON Questions.ID=QuestionKeyword.QuestionID\nINNER JOIN Keywords  ON QuestionKeyword.KeywordID=Keywords.ID\nWHERE Keywords.Keyword LIKE '%es%'

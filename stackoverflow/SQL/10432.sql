@@ -1,0 +1,1 @@
+SELECT xml_schema_namespace(N'',N'OurXmlSchemaNameOnDatabase')

@@ -1,0 +1,1 @@
+CREATE TABLE Deposits(Amount Money, UserID int)\nINSERT INTO Deposits (Amount, UserID)\nSELECT 0.0, 123\n--Reset\nUPDATE Deposits\nSET Amount = 0.00\nWHERE UserID = 123

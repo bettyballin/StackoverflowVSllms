@@ -1,0 +1,1 @@
+if type __git_ps1 | grep -q '^function$' 2>/dev/null; then\n    PS1=whatever\nfi

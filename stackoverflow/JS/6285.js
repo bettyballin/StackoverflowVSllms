@@ -1,0 +1,1 @@
+$$('div a[href="http://google.com"]').each(function (e) { Element.hide(e.parentNode); })

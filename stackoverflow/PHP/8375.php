@@ -1,0 +1,1 @@
+class myClass\n{\n    function myFunc()\n    {\n        echo "Hi";\n    }\n\n    function myOtherFunc()\n    {\n        $this->myFunc();\n    }\n\n}\n\n\n$obj = new myClass;\n\n// You access myFunc() like this outside\n$obj->myFunc();\n\n// So Access it with $this-> on the inside\n$obj->myOtherFunc();\n\n// Both will echo "Hi"

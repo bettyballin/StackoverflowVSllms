@@ -1,0 +1,1 @@
+var_dump(ftp_nlist($connect, ''));

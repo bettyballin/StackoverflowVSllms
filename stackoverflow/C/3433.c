@@ -1,0 +1,1 @@
+std::string   line;\nwhile(std::getline(std::cin,line))\n{\n\n    // If you then want to tokenize the line use a string stream:\n\n    std::stringstream lineStream(line);\n    std::string token;\n    while(lineStream >> token)\n    {\n        std::cout << "Token(" << token << ")\n";\n    }\n\n    std::cout << "New Line Detected\n";\n}

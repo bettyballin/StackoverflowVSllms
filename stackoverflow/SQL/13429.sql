@@ -1,0 +1,1 @@
+SELECT  *\nFROM    users u\nWHERE   EXISTS (\n        SELECT  1\n        FROM    options o\n        WHERE   o.user_id = u.id\n                AND o.option = 'AC1'\n        )

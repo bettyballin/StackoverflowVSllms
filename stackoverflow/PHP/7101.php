@@ -1,0 +1,1 @@
+$items = $this->paginate('Item');

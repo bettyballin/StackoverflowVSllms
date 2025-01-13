@@ -1,0 +1,1 @@
+AddHandler AppDomain.CurrentDomain.UnhandledException, AddressOf MyHandler

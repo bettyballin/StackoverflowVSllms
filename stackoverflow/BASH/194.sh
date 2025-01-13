@@ -1,0 +1,1 @@
+wget -O - http://domain.com/cron/script.php

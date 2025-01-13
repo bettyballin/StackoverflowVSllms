@@ -1,0 +1,1 @@
+with dummy(id) as (\n    select 2 from SYSIBM.SYSDUMMY1    \n    union all\n    select id + 1 from dummy where id < 4\n)\nselect id from dummy

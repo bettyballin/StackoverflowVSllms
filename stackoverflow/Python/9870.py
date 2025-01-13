@@ -1,0 +1,1 @@
+import os, fcntl\nfcntl.fcntl(thePipe, fcntl.F_SETFL, os.O_NONBLOCK) 

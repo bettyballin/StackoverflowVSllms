@@ -1,0 +1,1 @@
+>>> import os\n>>> os.times()\n(1.296875, 0.765625, 0.0, 0.0, 0.0)\n>>> print os.times.__doc__\ntimes() -> (utime, stime, cutime, cstime, elapsed_time)\n\nReturn a tuple of floating point numbers indicating process times.

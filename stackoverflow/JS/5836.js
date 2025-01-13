@@ -1,0 +1,1 @@
+$("#ajax_icon").ajaxStop(function(){\n   $(this).hide();\n });

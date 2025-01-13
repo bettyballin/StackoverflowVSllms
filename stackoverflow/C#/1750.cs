@@ -1,0 +1,1 @@
+string query = "SELECT * FROM TheTable WHERE 1=1 ";\nif (checkBlackOnly.Checked)\n    query += "AND Color = 'Black' ";\nif (checkWhiteOnly.Checked)\n    query += "AND Color = 'White' ";

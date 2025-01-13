@@ -1,0 +1,1 @@
+[Guid("00001111-2222-3333-4444-555566667777"), ComVisible(true)]    \npublic class MyCOMRegisteredClass

@@ -1,0 +1,1 @@
+parent = int((child + 2) / 4)

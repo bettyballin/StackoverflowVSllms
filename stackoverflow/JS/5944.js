@@ -1,0 +1,1 @@
+child1 = window.open ("about:blank")\nchild1.document.write("Moo!");\nchild1.document.close()

@@ -1,0 +1,1 @@
+"[Flags]\npublic enum Permission\n{\n    VIEWUSERS = 1, // 2^0 // 0000 0001\n    EDITUSERS = 2, // 2^1 // 0000 0010\n    VIEWPRODUCTS = 4, // 2^2 // 0000 0100\n    EDITPRODUCTS = 8, // 2^3 // 0000 1000\n    VIEWCLIENTS = 16, // 2^4 // 0001 0000\n    EDITCLIENTS = 32, // 2^5 // 0010 0000\n    DELETECLIENTS = 64, // 2^6 // 0100 0000\n}"

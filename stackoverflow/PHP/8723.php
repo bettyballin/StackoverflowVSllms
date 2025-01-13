@@ -1,0 +1,1 @@
+namespace test\foo;\n\nclass A\n{\n    public static function __callStatic($method, $args)\n    {\n        echo __METHOD__ . "\n";\n\n        return call_user_func_array(__CLASS__ . '::' . $method, $args);\n    }\n\n    protected static function foo()\n    {\n        echo __METHOD__ . "\n";\n    }\n}\n\nA::foo();

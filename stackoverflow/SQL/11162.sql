@@ -1,0 +1,1 @@
+Select ClientName, InvoiceAmount, Sum(PaymentAmount) Group By *

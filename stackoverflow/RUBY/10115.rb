@@ -1,0 +1,1 @@
+When /^I press "([^\"]*)"$/ do |button|\n  click_button(button)\nend

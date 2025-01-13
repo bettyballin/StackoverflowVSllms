@@ -1,0 +1,1 @@
+if(is_null($result)) {\n throw new Exception("No valid Result");\n}  

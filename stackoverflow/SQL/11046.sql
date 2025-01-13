@@ -1,0 +1,1 @@
+SELECT * \nFROM MyTable \nWHERE cast(floor(cast(MyDate as float))+1 as datetime) > getdate()

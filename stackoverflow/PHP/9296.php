@@ -1,0 +1,1 @@
+function drive($the_car){\n\n    switch($the_car){\n\n      case 'ferrari':\n          $all_cars->run_ferrari_code();\n          break;\n\n      case 'mazerati':\n          $all_cars->run_mazerati_code();\n          break;\n\n      case 'bentley':\n          $all_cars->run_bentley_code();\n          break;\n    }\n}

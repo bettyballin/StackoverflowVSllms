@@ -1,0 +1,1 @@
+CGI::parse(querystring)

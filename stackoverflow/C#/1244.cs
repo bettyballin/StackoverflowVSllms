@@ -1,0 +1,1 @@
+bool b = listOfStrings.Any(s=>myString.Contains(s));

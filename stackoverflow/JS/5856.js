@@ -1,0 +1,1 @@
+var reg = /\(([\s\S]*?)\)/;\nvar params = reg.exec(func);\nif (params) \n     var param_names = params[1].split(',');

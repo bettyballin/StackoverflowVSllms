@@ -1,0 +1,1 @@
+select \n    account, bookdate, amount, \n    sum(amount) over (partition by account order by bookdate) running_total\nfrom t\n/

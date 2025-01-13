@@ -1,0 +1,1 @@
+import mimetypes\n...\nmime = mimetypes.guess_type(file)

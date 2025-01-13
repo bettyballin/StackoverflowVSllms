@@ -1,0 +1,1 @@
+p.Start();\np.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;\nif (p.HasExited == false)\n{\n   p.WaitForExit(10000);\n}\n\np.EnableRaisingEvents = true;\np.CloseMainWindow();\np.Close();

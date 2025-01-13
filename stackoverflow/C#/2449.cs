@@ -1,0 +1,1 @@
+[ValidateInput(false)]\npublic ActionResult create()\n{\n    // ...method body\n}

@@ -1,0 +1,1 @@
+Dim temp = _\n    (From t In context.MyTable _\n     Group t.f1, t.f2, t.f3 By t.title Into g = Group _\n     Select title, g).ToList\n\nDim results = _\n    From t In temp _\n    Select t.title, _\n        f1_count = t.g.Count(Function(x) If(x.f1, False)), _\n        f2_count = t.g.Count(Function(x) If(x.f2, False)), _\n        f3_count = t.g.Count(Function(x) If(x.f3, False))

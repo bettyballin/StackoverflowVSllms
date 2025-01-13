@@ -1,0 +1,1 @@
+ddlDay.ClearSelection()\nddlDay.Items.FindByValue(int.InterviewDate.Day.ToString("00")).Selected = True\n\nddlMonth.ClearSelection()\nddlMonth.Items.FindByValue(int.InterviewDate.Month.ToString("00")).Selected = True

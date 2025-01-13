@@ -1,0 +1,1 @@
+SELECT\n   [tree].productID\nFROM\n   products_tree AS [tree]\nWHERE\n   [tree].productID IN (1040,1050,1168)\n   AND NOT EXISTS (SELECT * FROM products_tree WHERE productID = [tree].productID AND categoryID NOT IN (1040,1050,1168)) \nGROUP BY\n   [tree].productID

@@ -1,0 +1,1 @@
+SELECT *\nFROM clients\nWHERE clients.city = {form result: cities.id}\nAND clients.business = {form result: businesses.id}\nORDER BY clients.name\nLIMIT 0, 30

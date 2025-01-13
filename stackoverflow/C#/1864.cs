@@ -1,0 +1,1 @@
+Regex wordSplitter = new Regex(@"\W+");\nstring[] words = wordSplitter.Split(data);

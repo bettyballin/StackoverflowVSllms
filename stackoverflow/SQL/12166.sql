@@ -1,0 +1,1 @@
+UPDATE im\nSET mf_item_number = gm.SKU --etc\nFROM item_master im\nJOIN group_master gm\n    ON im.sku = gm.sku \nJOIN Manufacturer_Master mm\n    ON gm.ManufacturerID = mm.ManufacturerID\nWHERE im.mf_item_number like 'STA%' AND\n      gm.manufacturerID = 34

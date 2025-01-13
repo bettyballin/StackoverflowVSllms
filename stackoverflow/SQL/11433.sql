@@ -1,0 +1,1 @@
+AND (aCode = @aCode OR (aCode IS NULL AND @aCode IS NULL))

@@ -1,0 +1,1 @@
+function mainfunc (func){\n    window[func].apply(null, Array.prototype.slice.call(arguments, 1));\n} 

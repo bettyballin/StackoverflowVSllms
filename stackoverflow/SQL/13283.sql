@@ -1,0 +1,1 @@
+update b\nset b.col1 = CASE WHEN 1 <= 0 THEN 1 ELSE 0 END

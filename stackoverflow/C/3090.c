@@ -1,0 +1,1 @@
+a.dll\n    dllexport void* createBla() { return malloc( 100 ); }\n\nb.dll\n    void consumeBla() { void* p = createBla(); free( p ); }

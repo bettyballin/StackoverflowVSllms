@@ -1,0 +1,1 @@
+SELECT\n    TD1.client_id,\n    TD1.id,\n    TD1.description,\n    TD1.timestamp_due\nFROM\n    Todos TD1\nLEFT OUTER JOIN Todos TD2 ON\n    TD2.client_id = TD1.client_id AND\n    TD2.timestamp_completed IS NULL AND\n    (\n        TD2.timestamp_due < TD1.timestamp_due OR\n        (TD2.timestamp_due = TD1.timestamp_due AND TD2.id < TD1.id)\n    )\nWHERE\n    TD2.id IS NULL

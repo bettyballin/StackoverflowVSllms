@@ -1,0 +1,1 @@
+mt.exe -tlb:mycomlib.ocx -dll:mycomlib.ocx -out:mycomlib.ocx.manifest

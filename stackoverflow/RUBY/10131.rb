@@ -1,0 +1,1 @@
+ids = LevelsQuestion.all(:select => "question_id", \n        :conditions => "level_id = 15").collect(&:question_id)\nQuestion.all(:select => "id, name", :conditions => ["id not in (?)", ids])

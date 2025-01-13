@@ -1,0 +1,1 @@
+SELECT Hospital, Doctor, MAX(Patient)\nFROM table\nGROUP BY Hospital, Doctor\nORDER BY Hospital, Doctor

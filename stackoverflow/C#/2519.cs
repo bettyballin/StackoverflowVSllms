@@ -1,0 +1,1 @@
+using System;\n\nclass Test\n{\n    static void Main()\n    {\n        AppDomain.CreateDomain("First")\n                 .ExecuteAssembly("ShowFinalizerThread.exe");\n        AppDomain.CreateDomain("Second")\n                 .ExecuteAssembly("ShowFinalizerThread.exe");\n    }\n}

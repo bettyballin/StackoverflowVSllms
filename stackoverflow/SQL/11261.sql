@@ -1,0 +1,1 @@
+UPDATE users u\nSET status = 1\nWHERE EXISTS (SELECT id FROM usersold WHERE id = u.id)

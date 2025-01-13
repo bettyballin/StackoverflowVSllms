@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('h1').each(function(index) {\n    $(this).html((index + 1) + '. ' + $(this).html());\n  });\n});

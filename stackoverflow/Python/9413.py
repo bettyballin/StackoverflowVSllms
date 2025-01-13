@@ -1,0 +1,1 @@
+from django.db.models import Q\n\nProject.objects.filter(\nQ(id__in=Campaign.objects.filter(user=SomeUser).values('project')) | \nQ(id__in=Donation.objects.filter(user=SomeUser).values('project'))\n)

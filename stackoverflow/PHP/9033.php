@@ -1,0 +1,1 @@
+$pattern = '/(width|height)="[0-9]*"/i';

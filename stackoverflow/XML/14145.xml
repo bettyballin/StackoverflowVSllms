@@ -1,0 +1,1 @@
+<xsl:template match="//User">\n  <xsl:value-of select="Contact/@FirstName"/>,\n  <xsl:value-of select="Contact/@LastName"/>,\n  <!--etc-->\n</xsl:template>

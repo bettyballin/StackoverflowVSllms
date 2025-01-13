@@ -1,0 +1,1 @@
+SELECT    SUBSTR(TO_CHAR(NVL(arg1 - arg2, TO_DSINTERVAL('0 00:00:00'))), 1, 1)\n       || SUBSTR(TO_CHAR(NVL(arg1 - arg2, TO_DSINTERVAL('0 00:00:00'))), 9, 2)\n       || ' '\n       || SUBSTR(TO_CHAR(NVL(arg1 - arg2, TO_DSINTERVAL('0 00:00:00'))), 12, 12)\n  FROM table1;

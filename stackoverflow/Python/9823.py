@@ -1,0 +1,1 @@
+fileInfos = list(DirectoryInfo(path).GetFiles())\nfileInfos.sort(key=lambda f: f.CreationTime, reverse=True)

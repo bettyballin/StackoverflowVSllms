@@ -1,0 +1,1 @@
+SELECT\n  ...\nFROM\n  yourGroupTable as y\nWHERE\n  Curdate() BETWEEN y.ArrivalDate AND y.DepartureDate

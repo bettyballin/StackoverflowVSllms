@@ -1,0 +1,1 @@
+If CurrentPage.Roles.Any(Function(Role) Role.Users.Any(Function(User) User.Id = CurrentUser.Id)) Then\n    'User has role\nEnd If

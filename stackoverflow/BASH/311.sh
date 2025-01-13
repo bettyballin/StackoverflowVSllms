@@ -1,0 +1,1 @@
+$ iconv -f UTF-8 your_file -o /dev/null; echo $?

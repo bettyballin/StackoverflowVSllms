@@ -1,0 +1,1 @@
+$thumb = imagecreatetruecolor($newwidth, $newheight);\nimagealphablending($thumb, false);\nimagesavealpha($thumb, true);  \n\n$source = imagecreatefrompng($fileName);\nimagealphablending($source, true);\n\nimagecopyresampled($thumb, $source, 0, 0, 0, 0, $newwidth, $newheight, $width, $height);\n\nimagepng($thumb,$newFilename);

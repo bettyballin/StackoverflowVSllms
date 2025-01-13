@@ -1,0 +1,1 @@
+SQL> create table parent_tbl(col1 char(20) primary key);\nTable created.\nSQL> create table child_tbl(col1 char(6) primary key, constraint col1_fk foreign key (col1) references parent_tbl(col1));\nTable created.\nSQL> alter table child_tbl modify col1 char(20);\nTable altered.\nSQL>

@@ -1,0 +1,1 @@
+SELECT\n    SomeTable.*,    \n    col1.RANK + col2.RANK\nFROM \n    SomeTable\nINNER JOIN CONTAINSTABLE(SomeTable, Column1, 'word1 OR word2') as col1 ON \n    col1.[KEY] = SomeTable.ID\nINNER JOIN CONTAINSTABLE(SomeTable, Column2, 'word3 OR word4') as col2 ON \n    col2.[KEY] = SomeTable.ID

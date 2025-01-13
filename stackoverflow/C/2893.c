@@ -1,0 +1,1 @@
+template<typename T> struct c1 { \n    void foo() { std::cout << "empty" << std::endl; } \n}; \n\ntemplate<typename T> struct c2 : c1<T> { \n    using c1<T>::foo; \n    void foo(int) { std::cout << "int" << std::endl; } \n}; \n\nint main() { \n    c2<void> c;\n    c.foo();\n    c.foo(10); \n}

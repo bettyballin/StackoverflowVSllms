@@ -1,0 +1,1 @@
+var files = Directory.GetFiles(jobDir).Where(name => !name.EndsWith(".xml"));

@@ -1,0 +1,1 @@
+// Provide the same seed value for both generators:\nSystem.Random r1 = new System.Random(1);\nSystem.Random r2 = new System.Random(1);\n\n// Will output 'True'\nConsole.WriteLine(r1.Next() == r2.Next());

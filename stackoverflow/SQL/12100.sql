@@ -1,0 +1,1 @@
+use tempdb\n\nCREATE TABLE parent(\n    pk int identity primary key, \n    candidate_key int unique not null)\n\nCREATE TABLE child(\n    pk int identity primary key, \n    join_key int references parent(candidate_key))

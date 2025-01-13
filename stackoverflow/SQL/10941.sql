@@ -1,0 +1,1 @@
+CREATE TABLE `users` (\n    `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,\n    `username` VARCHAR(100),\n    -- other user fields --\n);

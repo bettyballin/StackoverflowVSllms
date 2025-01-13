@@ -1,0 +1,1 @@
+SELECT person_id\n       , name_part_id\n       , name_part\n    FROM NAME_PART\n   WHERE name_part_id IN (1, 2, 3)\nORDER BY person_id\n       , name_part_id;

@@ -1,0 +1,1 @@
+if (User.IsInRole("Admin"))\n      Session.Timeout = 3 * 60;

@@ -1,0 +1,1 @@
+string start = "<div>";\nstring end = "</div>";\nstring txt = Regex.Replace(htmlString, Regex.Escape(start) + "(?<data>[^" + Regex.Escape(end) + "]*)" + Regex.Escape(end), string.Empty);

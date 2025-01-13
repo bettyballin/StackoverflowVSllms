@@ -1,0 +1,1 @@
+$dbh=new PDO($dbConnect, $dbUser, $dbPass);\n$parms=array(12, 45, 65, 33);\n$parmcount=count($parms);   // = 4\n$inclause=implode(',',array_fill(0,$parmcount,'?')); // = ?,?,?,?\n$sql='SELECT age, name FROM people WHERE id IN (%s)';\n$preparesql=sprintf($sql,$inclause);  // = example statement used in the question\n$st=$dbh->prepare($preparesql);\n$st->execute($parms);

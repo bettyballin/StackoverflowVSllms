@@ -1,0 +1,1 @@
+select s.*,c.* \n from story s \n left outer join categories c \n      on c.story_id=s.story_id \n where story_id in (select story_id from story order by pub_date desc limit 10)

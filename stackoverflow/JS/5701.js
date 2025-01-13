@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "MyService.aspx/ConstructUrl",\n    data: jsonData,\n    contentType: "application/json; charset=utf-8",\n    dataType: "json",\n    success: function(msg) {\n        window.open("https://www.myurl.com"); \n    },\n    error: function(msg) {\n        //alert(error);\n    }\n});

@@ -1,0 +1,1 @@
+$new_text = preg_replace_callback('%&lt;|&gt;|<pre>.*?</pre>%si', compute_replacement, $text);\n\nfunction compute_replacement($groups) {\n    if ($groups[0] == '&lt;') {\n      return '<';\n    } elseif ($groups[1] == '&gt;') {\n      return '>';\n    } else {\n      return $groups[0];\n    }\n}

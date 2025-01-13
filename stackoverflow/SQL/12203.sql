@@ -1,0 +1,1 @@
+select a.job, a.status, a.opendate, \n       b.note as opennote, c.note as closenote \nfrom job a\n     join note b on (a.job = b.job and b.type = 'Open')\n     left outer join note c on (a.job = c.job and c.type = 'Closed');

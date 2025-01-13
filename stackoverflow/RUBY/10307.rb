@@ -1,0 +1,1 @@
+$ irb --help\nUsage:  irb.rb [options] [programfile] [arguments]\n  --prompt prompt-mode\n  --prompt-mode prompt-mode\n            Switch prompt mode. Pre-defined prompt modes are\n            `default', `simple', `xmp' and `inf-ruby'\n\n$ irb --prompt inf-ruby\nirb(main):001:0> 

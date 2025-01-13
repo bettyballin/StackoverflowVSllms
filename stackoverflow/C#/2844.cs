@@ -1,0 +1,1 @@
+HtmlGenericControl list = new HtmlGenericControl("ul");\nlist.ID = "editor-menu";\nHtmlGenericControl listItem = new HtmlGenericControl("li");\nlistItem.InnerText = "List Item 1";\nlist.Controls.Add(listItem);

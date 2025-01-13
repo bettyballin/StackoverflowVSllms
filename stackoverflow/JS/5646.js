@@ -1,0 +1,1 @@
+if (passwrd1 != passwrd2)\n{\n    document.getElementById("response").innerHTML = "Passwords don't match";\n    return false;\n}

@@ -1,0 +1,1 @@
+<pre><?php\n$dom = new DOMDocument();\n$dom->loadHTML(file_get_contents('<a href="http://foo.bar" rel="nofollow noreferrer">http://foo.bar</a>'));\n$xpath = new DOMXPath($dom);</p>\n\n<p>$elements = $xpath->query("/html/body//span[@class='img']//a");\nforeach ($elements as $a)\n{\n    echo $a->getAttribute('href'), "\n";\n}</pre>

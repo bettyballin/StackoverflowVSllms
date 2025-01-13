@@ -1,0 +1,1 @@
+import re\ndata = re.findall('<body>([^\<]*)</body>', result)[0]

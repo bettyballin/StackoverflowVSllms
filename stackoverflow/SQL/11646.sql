@@ -1,0 +1,1 @@
+SELECT\n    CONVERT(XML,\n        (SELECT cust_id, fname, lname FROM Customer FOR XML PATH('customer'))),\n    CONVERT(XML,\n        (SELECT order_id, cust_id, shipped FROM Purchase_order FOR XML PATH('purchase_order'))),\n    CONVERT(XML,\n        (SELECT line_id, order_id, quantity FROM Line_Item FOR XML PATH('line_item')))\nFOR XML PATH('collection')

@@ -1,0 +1,1 @@
+SELECT Keyword, SideInfo\nFROM\n(\n    SELECT\n        DISTINT City as Keyword, Country as SideInfo\n    FROM Table\n\n    UNION\n    SELECT \n        DISTINCT Country, 'Country'\n    FROM Table\n) AS InnerQuery\nWhere Keyword LIKE '%blah%'

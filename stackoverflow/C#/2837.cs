@@ -1,0 +1,1 @@
+var innerQuery = from fb in FoorBar where fb.BarId = 1000 select fb.FooId;\nvar result = from f in Foo where innerQuery.Contains(f.FooId) select f;

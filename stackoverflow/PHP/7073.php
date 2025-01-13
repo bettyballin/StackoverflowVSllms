@@ -1,0 +1,1 @@
+exec('ln -s ' . PLUGIN_DIR . '/.htaccess ' . ABSPATH . '/.htaccess',$output);\nvar_dump($output);

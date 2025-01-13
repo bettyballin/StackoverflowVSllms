@@ -1,0 +1,1 @@
+<?php\n/*\nTemplate Name: mypage\n*/\n?>

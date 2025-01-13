@@ -1,0 +1,1 @@
+#!/usr/bin/env python\nimport elinks\nimport sys\nfor line in sys.stdin:\n    line = line.decode('utf-8')\n    sys.stdout.write(line.encode('ASCII', 'elinks'))

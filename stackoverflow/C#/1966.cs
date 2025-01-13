@@ -1,0 +1,1 @@
+MyTextBox.Lines = GetAgentsDetails(writeDir).ToArray();

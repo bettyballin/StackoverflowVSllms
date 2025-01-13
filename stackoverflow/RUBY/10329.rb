@@ -1,0 +1,1 @@
+statuses = \n  [\n    ['Awaiting Marketing & Legal Approval','Awaiting Compliance Approval'],\n    ['Awaiting Marketing Approval','Pending Approval']\n  ]\n\n{:status => statuses[params[:concept][:consulted_legal].to_i][params[:concept][:consulted_marketing].to_i]}

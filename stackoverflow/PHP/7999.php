@@ -1,0 +1,1 @@
+<?php\n// a string with 75 characters\n$x = str_repeat('x', 75); \n\necho wordwrap($x, 25, '<br />', true);

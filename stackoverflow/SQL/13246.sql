@@ -1,0 +1,1 @@
+SELECT reply.id, reply.authorid, reply.text, reply.topicid, \n       topic.title, \n       user.username \nFROM reply\n  LEFT JOIN topic ON (topic.id = reply.topicid)\n  LEFT JOIN user  ON (user.id = reply.authorid)\nWHERE (reply.isactive = 1)\nORDER BY reply.postdate DESC\nLIMIT 10

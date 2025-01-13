@@ -1,0 +1,1 @@
+public static void AddModelError (this ModelStateDictionary modelState, string key, string errorMessage, string attemptedValue) {\n        modelState.AddModelError (key, errorMessage);\n        modelState.SetModelValue (key, new ValueProviderResult (attemptedValue, attemptedValue, null));\n    }

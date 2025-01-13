@@ -1,0 +1,1 @@
+SELECT \n    DocNum,\n    STUFF((SELECT ', ' + CAST(DocEntry AS VARCHAR(MAX)) AS [text()]\n        FROM Temp5 b\n        WHERE a.DocNum = b.DocNum\n        FOR XML PATH('')), 1, 2, '') AS DocEntry\nFROM Temp5 a\nGROUP BY DocNum

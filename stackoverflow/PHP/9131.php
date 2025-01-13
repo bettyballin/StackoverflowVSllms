@@ -1,0 +1,1 @@
+$file="foo.mp3";\n$salt="youpeskykids";\n$expiry=time()+3600;\n$hash=md5($salt.$file.$expiry);\n\n$url="download.php?file=$file&e=$expiry&h=$hash";

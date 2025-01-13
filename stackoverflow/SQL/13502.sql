@@ -1,0 +1,1 @@
+sp_addlinkedserver [ @server= ] 'server' [ , [ @srvproduct= ] 'product_name' ] \n [ , [ @provider= ] 'provider_name' ]\n [ , [ @datasrc= ] 'data_source' ] \n [ , [ @location= ] 'location' ] \n [ , [ @provstr= ] 'provider_string' ] \n [ , [ @catalog= ] 'catalog' ] 

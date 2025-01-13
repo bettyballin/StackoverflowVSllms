@@ -1,0 +1,1 @@
+SUM(IIF(myData!Name.Value = "John", 1, 0))

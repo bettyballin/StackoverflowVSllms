@@ -1,0 +1,1 @@
+$cron = !isset($_ENV['SSH_CLIENT']);

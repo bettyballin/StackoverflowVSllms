@@ -1,0 +1,1 @@
+UPDATE ... WHERE lock_status = 0

@@ -1,0 +1,1 @@
+// prototype\nint your_function(int an_argument);\n\n// ...\n// here you can write functions that call your_function()\n// ...\n\n// implementation of your_function()\nint your_function(int an_argument) {\n    return an_argument + 1;\n}

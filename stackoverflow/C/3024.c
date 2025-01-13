@@ -1,0 +1,1 @@
+// config.h\n\n#define NUMBER_OF_POTS  2\nextern int pots[];\n\n// config.c\n\nint pots[NUMBER_OF_POTS] = {\n    27,\n    29\n};\n\n\n// adc.c\n\nvoid initialize_adc() {\n    for (int i = 0; i < NUMBER_OF_POTS; i++) {\n        CALL_MAKE_CSS(pots[i]);\n    }\n}

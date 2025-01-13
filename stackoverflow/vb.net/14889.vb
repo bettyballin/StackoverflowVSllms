@@ -1,0 +1,1 @@
+dim MyVariable as string = xystring.split("/")(0)\ndim MyVariable2 as string = xystring.split("/")(1)

@@ -1,0 +1,1 @@
+>>> class A(object):\n>>>     pass\n\n\n>>> def stuff(self):\n>>>     print self\n\n>>> A.test = stuff\n>>> A().test()

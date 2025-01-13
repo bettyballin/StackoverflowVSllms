@@ -1,0 +1,1 @@
+UPDATE old_data SET move="MARKED";\nINSERT INTO somewhere... SELECT where move="MARKED";\nDELETE FROM old_data WHERE move="MARKED";

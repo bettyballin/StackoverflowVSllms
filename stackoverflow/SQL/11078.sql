@@ -1,0 +1,1 @@
+SELECT PersonID, \n       Min(CASE\n                WHEN ApplicationID = 1\n                THEN PersonApplicationID\n        END) AS 'DRIMaster', \n       Min(CASE\n                WHEN ApplicationID = 6\n                THEN PersonApplicationID\n        END) AS 'DRIClient'\nFROM tblApplicationAssociation\nWHERE ApplicationID IN (1,6)\nGroup By PersonId

@@ -1,0 +1,1 @@
+public string GetAsCsv(Func<CheckBox, string> getValue)\n{\n    var buffer = new StringBuilder();\n    foreach (var cb in SelectedCheckBoxes)\n    {\n        buffer.Append(getValue(cb)).Append(",");\n    }\n    return DropLastComma(buffer.ToString());\n}

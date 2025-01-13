@@ -1,0 +1,1 @@
+public abstract class FooBase\n{\n  private FooBase() {} // Not inheritable by anyone else\n  public class Foo<U> : FooBase {...generic stuff ...}\n\n  ... nongeneric stuff ...\n}\n\npublic class Bar<T> where T: FooBase { ... }\n...\nnew Bar<FooBase.Foo<string>>()
