@@ -1,1 +1,0 @@
-// In your view class\npublic function render($template, $vars = array()) {\n    $this->vars = $vars;\n    include($template);\n}\n\n// In your view file (myView.phtml)\necho $this->vars['foo'];

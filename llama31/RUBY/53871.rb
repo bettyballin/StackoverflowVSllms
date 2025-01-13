@@ -1,1 +1,0 @@
-class ElementsController < ApplicationController\n  before_action :set_filename, only: [:show]\n\n  private\n\n  def set_filename\n    headers['Content-Disposition'] = "attachment; filename=your_descriptive_filename.ppt"\n  end\nend

@@ -1,1 +1,0 @@
-$dateTime = new DateTime();\n$mysqlDate = $dateTime->format('Y-m-d');

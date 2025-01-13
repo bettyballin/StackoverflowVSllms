@@ -1,1 +1,0 @@
-SELECT AdjusterID, CompanyID, FirstName, LastName, EmailID\nFROM (\n  SELECT AdjusterID, CompanyID, FirstName, LastName, EmailID,\n         ROW_NUMBER() OVER (PARTITION BY CompanyID ORDER BY AdjusterID) AS row_num\n  FROM your_table\n) AS subquery\nWHERE row_num = 1;

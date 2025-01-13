@@ -1,1 +1,0 @@
-use Word2Number\Word2Number;\n\n$text = "iPhone has two hundred and thirty thousand seven hundred and eighty three apps";\n$words = explode(' ', $text);\nforeach ($words as $key => $word) {\n    $number = Word2Number::toNumber($word);\n    if ($number !== false) {\n        $words[$key] = $number;\n    }\n}\n$text = implode(' ', $words);\necho $text;

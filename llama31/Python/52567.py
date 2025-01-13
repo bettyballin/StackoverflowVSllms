@@ -1,1 +1,0 @@
-d = {name: locals()[name] for name in list_of_variable_names}

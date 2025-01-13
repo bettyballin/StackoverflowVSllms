@@ -1,1 +1,0 @@
-function switchTheme(theme) {\n  // Get the element\n  var div = document.getElementById("styledDiv");\n  \n  // Remove any previous theme classes\n  div.classList.remove("theme1", "theme2", "theme3");\n  \n  // Add the selected theme class\n  div.classList.add(theme);\n}

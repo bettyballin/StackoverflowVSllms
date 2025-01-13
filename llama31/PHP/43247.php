@@ -1,1 +1,0 @@
-$stmt = mysqli_prepare($conn, "SELECT * FROM your_table WHERE your_column = ?");\nmysqli_stmt_bind_param($stmt, "s", $query);\nmysqli_stmt_execute($stmt);\n$result = mysqli_stmt_get_result($stmt);

@@ -1,1 +1,0 @@
-import pyautogui\n\n# Move the mouse to the center of the screen\npyautogui.moveTo(100, 100)\n\n# Click the mouse\npyautogui.click()

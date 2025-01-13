@@ -1,1 +1,0 @@
-def write_list_to_file(filename, lines):\n    with open(filename, 'w') as f:\n        for line in lines:\n            f.write(f"{line}\n")\n\n# Example usage\nlines = ["line1", "line2", "line3"]\nfilename = "example.txt"\nwrite_list_to_file(filename, lines)

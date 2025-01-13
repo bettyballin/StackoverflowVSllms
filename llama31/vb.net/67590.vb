@@ -1,1 +1,0 @@
-Protected Sub GridView1_Init(sender As Object, e As EventArgs) Handles GridView1.Init\n    AddHandler ddlmgr.SelectedIndexChanged, AddressOf ddlmgr_SelectedIndexChanged\nEnd Sub

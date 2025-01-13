@@ -1,1 +1,0 @@
-DROP ROLE role_name;\nCREATE ROLE role_name;\nGRANT SELECT ON SCM1_VIEW_OBJECT_VW TO role_name;

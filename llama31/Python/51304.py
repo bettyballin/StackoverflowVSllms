@@ -1,1 +1,0 @@
-from scapy.all import *\n\n# Define the target IP and port\ntarget_ip = "192.168.1.1"\ntarget_port = 80\n\n# Create a TCP SYN packet\npacket = IP(dst=target_ip)/TCP(dport=target_port, flags="S")\n\n# Send the packet\nsend(packet)

@@ -1,1 +1,0 @@
-SELECT name \nFROM tempdb.sys.columns \nWHERE object_id = OBJECT_ID('tempdb..#MyTempTable')

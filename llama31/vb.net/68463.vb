@@ -1,1 +1,0 @@
-Dim customer As Customer = list.FirstOrDefault(Function(c) c.ID = 1)

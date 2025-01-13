@@ -1,1 +1,0 @@
-// profile.php\necho "User ID: $user_id";\n// display the rest of the profile page

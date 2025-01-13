@@ -1,1 +1,0 @@
-localStorage.setItem('data', 'Hello, World!');\nconsole.log(localStorage.getItem('data'));

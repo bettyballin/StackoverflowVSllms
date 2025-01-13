@@ -1,1 +1,0 @@
-SELECT foo\nFROM bar\nWHERE foo >= 5 AND foo <= 10

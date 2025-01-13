@@ -1,1 +1,0 @@
-import bcrypt\n\ndef hash_password(password):\n    salt = bcrypt.gensalt()\n    hashed_password = bcrypt.hashpw(password.encode('utf-8'), salt)\n    return hashed_password.decode('utf-8')\n\ndef verify_password(plain_password, hashed_password):\n    return bcrypt.checkpw(plain_password.encode('utf-8'), hashed_password.encode('utf-8'))

@@ -1,1 +1,0 @@
-// Client-side encryption using Crypto-JS\nconst encryptedData = CryptoJS.AES.encrypt(data, password);

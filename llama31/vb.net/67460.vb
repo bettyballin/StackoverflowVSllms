@@ -1,1 +1,0 @@
-Dim startDate As DateTimeOffset = DateTimeOffset.Now ' or the date of purchase\nDim expiryDate As DateTimeOffset = startDate.AddMonths(6)

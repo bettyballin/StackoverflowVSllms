@@ -1,1 +1,0 @@
-function roundUp($number) {\n    return ceil($number);\n}\n\n// Test the function\necho roundUp(4.2);  // Outputs: 5\necho roundUp(4.7);  // Outputs: 5

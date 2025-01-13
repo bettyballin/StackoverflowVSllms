@@ -1,1 +1,0 @@
-copy("path/to/your/database.db", "backup.db");

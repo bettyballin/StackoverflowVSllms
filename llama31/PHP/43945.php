@@ -1,1 +1,0 @@
-$article_Desc = htmlspecialchars($row['article_Desc']);\necho $article_Desc;

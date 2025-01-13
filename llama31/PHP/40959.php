@@ -1,1 +1,0 @@
-$InvoicedUnits = (string) $InvoiceLineItem->InvoicedUnits;\n$pricePerUnit = (string) $InvoiceLineItem->PricePerUnit;\n\n$totalAmount = floatval($InvoicedUnits) * floatval($pricePerUnit);\n\n// or\n\n$totalAmount = (float) $InvoicedUnits * (float) $pricePerUnit;\n\necho $totalAmount;

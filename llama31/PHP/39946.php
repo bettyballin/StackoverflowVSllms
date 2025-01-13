@@ -1,1 +1,0 @@
-if (!isset($_COOKIE['referrer_counted'])) {\n    $referrer = $_SERVER['HTTP_REFERER'];\n    // strip domain and update hits_in\n    // ...\n\n    setcookie('referrer_counted', '1', time() + 3600); // set cookie for 1 hour\n}

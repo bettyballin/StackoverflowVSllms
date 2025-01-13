@@ -1,1 +1,0 @@
-$colors = array(\n    array('id' => 1, 'color' => 'blue'),\n    array('id' => 2, 'color' => 'green'),\n);\n\n$xml = new SimpleXMLElement('<root/>');\n\nforeach ($colors as $color) {\n    $node = $xml->addChild('color');\n    $node->addChild('id', $color['id']);\n    $node->addChild('color', $color['color']);\n}\n\necho $xml->asXML();

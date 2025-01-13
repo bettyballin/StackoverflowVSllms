@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_document_update\nAFTER UPDATE ON documents\nFOR EACH ROW\nBEGIN\n  INSERT INTO documents_audit (document_id, content, updated_at, changed_by, operation)\n  VALUES (OLD.id, OLD.content, NOW(), 'username', 'UPDATE');\nEND;

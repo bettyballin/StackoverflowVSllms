@@ -1,1 +1,0 @@
-$a = '10.99';\n$b = '2.49';\n\n$result = bcmul($a, $b, 2); // Multiply with 2 decimal places\necho $result; // Output: 27.30\n\n$result = bcadd($a, $b, 2); // Add with 2 decimal places\necho $result; // Output: 13.48

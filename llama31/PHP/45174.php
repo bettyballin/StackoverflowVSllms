@@ -1,1 +1,0 @@
-class MyLexer extends PhpHighlight\Lexer\n{\n    public function getTokens()\n    {\n        // Define your token rules here\n    }\n}

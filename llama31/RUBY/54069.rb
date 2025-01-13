@@ -1,1 +1,0 @@
-protect_from_forgery with: :exceptio

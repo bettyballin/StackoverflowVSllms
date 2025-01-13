@@ -1,1 +1,0 @@
-$aum = filter_var($aum, FILTER_SANITIZE_NUMBER_FLOAT);\n$faum = money_format('%(#1n', $aum) . "\n";

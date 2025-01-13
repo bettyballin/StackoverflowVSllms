@@ -1,1 +1,0 @@
-function validateEmail(email) {\n  var emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;\n  return emailRegex.test(email);\n}\n\n// Example usage:\n$('#email').on('keyup', function() {\n  var email = $(this).val();\n  if (!validateEmail(email)) {\n    $(this).next('.error').text('Invalid email format');\n  } else {\n    $(this).next('.error').text('');\n  }\n});

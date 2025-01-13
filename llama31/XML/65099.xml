@@ -1,1 +1,0 @@
-<resin:if test="${file.exists('maintenance.flag')}">\n  <redirect regexp="^/" target="/maintenance.html"/>\n</resin:if>

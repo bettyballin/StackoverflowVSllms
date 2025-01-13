@@ -1,1 +1,0 @@
-class Hello {\n    private static $greeting = 'Hello';\n\n    public static function init() {\n        self::$greeting .= ' There!';\n    }\n\n    public static function greet() {\n        if (!isset(self::$initialized)) {\n            self::init();\n            self::$initialized = true;\n        }\n        echo self::$greeting;\n    }\n}\n\nHello::greet(); // Hello There!

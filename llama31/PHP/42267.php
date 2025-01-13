@@ -1,1 +1,0 @@
-$form = new Zend_Form();\n\n$store_id = new Zend_Form_Element_Note('store_id');\n$store_id->setValue('12345'); // Set the value to display\n$store_id->setLabel('Store ID:'); // Optional label\n\n$form->addElement($store_id);

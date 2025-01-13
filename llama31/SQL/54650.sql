@@ -1,1 +1,0 @@
-SELECT Question, Answer, Responses\nFROM (\n  SELECT Question, Answer, Responses,\n         ROW_NUMBER() OVER (PARTITION BY Question ORDER BY Responses DESC) AS rank\n  FROM mytable\n) AS subquery\nWHERE rank = 1;

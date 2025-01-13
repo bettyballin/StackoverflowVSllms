@@ -1,1 +1,0 @@
-import cProfile\n\ndef my_function():\n    # code to be profiled\n    pass\n\ncProfile.run('my_function()')

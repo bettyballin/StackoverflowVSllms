@@ -1,1 +1,0 @@
-def sanitize_html(input)\n  begin\n    Loofah.sanitize(input, :remove_script_and_style => true)\n  rescue Loofah::MalformedHtmlError => e\n    # Handle the error or return a default value\n  end\nend

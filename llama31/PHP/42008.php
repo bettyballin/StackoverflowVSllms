@@ -1,1 +1,0 @@
-$byte = chr(1);\nsend($byte);

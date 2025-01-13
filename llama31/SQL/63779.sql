@@ -1,1 +1,0 @@
-EXPLAIN SELECT * FROM your_view WHERE ...;

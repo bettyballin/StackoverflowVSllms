@@ -1,1 +1,0 @@
-$gfc_provider = new osapiFriendConnectProvider();\n$gfc_auth = new osapiOAuth2Legged(GFCAPIKEY, GFCSECRET);\n\n// Get the authorization URL\n$auth_url = $gfc_auth->getAuthorizationUrl();\n\n// Redirect the user to the authorization URL\nheader('Location: ' . $auth_url);\nexit;

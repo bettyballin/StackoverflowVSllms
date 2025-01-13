@@ -1,1 +1,0 @@
-// application/libraries/format.php\nclass Format {\n    public function format_string($str) {\n        // formatting logic here\n        return $str;\n    }\n}

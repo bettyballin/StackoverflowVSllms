@@ -1,1 +1,0 @@
-<system.serviceModel>\n  <services>\n    <service name="MyService">\n      <endpoint address="" binding="webHttpBinding" contract="IMyService" />\n    </service>\n  </services>\n  <behaviors>\n    <endpointBehaviors>\n      <behavior>\n        <webHttp/>\n      </behavior>\n    </endpointBehaviors>\n  </behaviors>\n</system.serviceModel>

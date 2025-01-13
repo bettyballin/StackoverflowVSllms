@@ -1,1 +1,0 @@
-CREATE SERVICE [YourService] ON QUEUE [YourQueue] (\n    'http://schemas.microsoft.com/SQL/ServiceBroker/Dialog'\n);

@@ -1,1 +1,0 @@
-function FindProxyForURL(url, host) {\n  // Return a proxy server for all URLs\n  return "PROXY proxy.example.com:8080";\n}

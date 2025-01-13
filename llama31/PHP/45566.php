@@ -1,1 +1,0 @@
-$lastSeen = abs(time() - strtotime($dateLastActive));

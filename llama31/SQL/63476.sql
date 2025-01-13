@@ -1,1 +1,0 @@
-CREATE TABLE PopByCountry(\n    Region TEXT NOT NULL,\n    Country TEXT NOT NULL,\n    Population INTEGER NOT NULL,\n    PRIMARY KEY (Region, Country)\n)

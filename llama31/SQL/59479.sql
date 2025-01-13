@@ -1,1 +1,0 @@
-CREATE TABLE user_similarity (\n  user1_id INT,\n  user2_id INT,\n  similarity FLOAT\n);

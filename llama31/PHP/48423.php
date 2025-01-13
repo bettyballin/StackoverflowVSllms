@@ -1,1 +1,0 @@
-xdebug_start_code_coverage();\n\n// Code to be tested here\n\n$coverage = xdebug_get_code_coverage();

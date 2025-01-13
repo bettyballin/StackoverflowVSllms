@@ -1,1 +1,0 @@
-dl('my_extension.so');\n$x = 5;\n$result = my_extension_my_function($x);\necho "Result: $result\n";

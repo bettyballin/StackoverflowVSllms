@@ -1,1 +1,0 @@
-$(function() {\n  $("#tabs").tabs();\n  \n  // clone and append forms to the "All" tab\n  $("#tab-all").append($("#form-1").clone());\n  $("#tab-all").append($("#form-2").clone());\n});

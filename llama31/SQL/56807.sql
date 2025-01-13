@@ -1,1 +1,0 @@
-CREATE TABLE Customers (\n    CustomerID INT IDENTITY(1,1) PRIMARY KEY,\n    EmailAddress VARCHAR(255) NOT NULL,\n    CONSTRAINT UC_Customers_EmailAddress UNIQUE (EmailAddress)\n);

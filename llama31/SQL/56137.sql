@@ -1,1 +1,0 @@
-SELECT \n  A.name, \n  B.marks\nFROM \n  A\n  LEFT JOIN B ON \n    CASE \n      WHEN A.num = 0 THEN B.num IN (SELECT num FROM B)\n      ELSE A.num = B.num\n    END

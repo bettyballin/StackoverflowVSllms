@@ -1,1 +1,0 @@
-SELECT \n  c.table_name, \n  c.column_name \nFROM \n  information_schema.columns c \nWHERE \n  c.table_name IN ('tabx', 'taby');

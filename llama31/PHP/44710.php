@@ -1,1 +1,0 @@
-function detect_proxy() {\n    $client_ip = $_SERVER['REMOTE_ADDR'];\n    $api_key = 'YOUR_API_KEY';\n    $response = json_decode(file_get_contents('https://iphub.info/api/ip/' . $client_ip . '?key=' . $api_key), true);\n    if ($response['block'] == 1) {\n        return true;\n    }\n    return false;\n}

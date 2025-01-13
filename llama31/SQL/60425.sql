@@ -1,1 +1,0 @@
-// Using a DSL to create a user\nCREATE USER 'John Doe' WITH EMAIL 'john.doe@example.com';

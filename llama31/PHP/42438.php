@@ -1,1 +1,0 @@
-$dir = "path/to/directory";\n\nif (file_exists($dir) && is_dir($dir)) {\n    echo "Directory exists";\n} else {\n    echo "Directory does not exist";\n}

@@ -1,1 +1,0 @@
-// For online status popup\nvar onlineStatusPopupHeight = $("#onlineStatusPopUp").outerHeight();\n$("#onlineStatusPopUp").css("bottom", (onlineStatusPopupHeight + 1) + "px");\n\n// For favorites online popup\nvar favoritesOnlinePopupHeight = $("#favoritesOnlinePopUp").outerHeight();\n$("#favoritesOnlinePopUp").css("bottom", (favoritesOnlinePopupHeight + 1) + "px");

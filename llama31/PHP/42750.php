@@ -1,1 +1,0 @@
-require_once 'HTMLPurifier.auto.php';\n\n$config = HTMLPurifier_Config::createDefault();\n$purifier = new HTMLPurifier($config);\n\n$userInput = $_POST['wysiwyg_input'];\n$cleanHtml = $purifier->purify($userInput);\n\n// Now you can safely store or display the clean HTML

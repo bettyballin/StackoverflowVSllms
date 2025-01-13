@@ -1,1 +1,0 @@
-$newRowset = clone $rowset;\n$newRowset->_data = array();\n\nforeach ($rowset as $row) {\n    if ($condition == satisfied) {\n        $newRowset->_data[] = $row;\n    }\n}

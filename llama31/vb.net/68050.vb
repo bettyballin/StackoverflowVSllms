@@ -1,1 +1,0 @@
-Sub SendCommand()\n    Dim pipe As Object\n    Set pipe = CreateObject("NamedPipeServer")\n    pipe.SendCommand "MyCommand"\nEnd Sub

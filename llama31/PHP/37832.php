@@ -1,1 +1,0 @@
-function DetectPrefix($filePath, $prefix) {\n    $files = glob($filePath . '/' . $prefix . '*');\n    return !empty($files) ? $files : null;\n}

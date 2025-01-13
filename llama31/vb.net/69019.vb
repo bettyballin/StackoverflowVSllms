@@ -1,1 +1,0 @@
-Dim html As String = "<tr>    <td>"\nhtml = RemoveWhitespaceBetweenTags(html)\nConsole.WriteLine(html)  ' Outputs: <tr><td>

@@ -1,1 +1,0 @@
-EXEC [schema_name].[stored_procedure_name]

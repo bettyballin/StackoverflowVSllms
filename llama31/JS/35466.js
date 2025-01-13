@@ -1,1 +1,0 @@
-document.getElementById('file-upload').addEventListener('change', function() {\n    // handle file upload\n});

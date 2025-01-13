@@ -1,1 +1,0 @@
-SELECT MyField1, MyField2, MyField3, MyField4, MyField5\nFROM (\n  SELECT MyField1, MyField2, MyField3, MyField4, MyField5,\n         ROW_NUMBER() OVER (PARTITION BY MyField1, MyField2, MyField3 ORDER BY MyField1) AS row_num\n  FROM TableA\n) AS subquery\nWHERE row_num = 1;

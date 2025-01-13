@@ -1,1 +1,0 @@
-Dim i As Integer = 0\nDim l As Integer = 0\n\nWhile i < 20\n    ' your code here\n    i += 1\nEnd While

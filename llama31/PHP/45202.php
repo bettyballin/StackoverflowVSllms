@@ -1,1 +1,0 @@
-$value = '100.00';\nif (preg_match($pattern, $value)) {\n    echo 'Valid currency value';\n} else {\n    echo 'Invalid currency value';\n}

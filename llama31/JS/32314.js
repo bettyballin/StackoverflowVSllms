@@ -1,1 +1,0 @@
-var newElements = $("#forum_entries").prepend(response).children();\nnewElements.effect("highlight", {}, 1500);

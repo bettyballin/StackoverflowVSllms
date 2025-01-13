@@ -1,1 +1,0 @@
-CREATE TABLE MyTable (\n    Id UNIQUEIDENTIFIER PRIMARY KEY DEFAULT (newid()),\n    -- other columns...\n)

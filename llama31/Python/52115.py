@@ -1,1 +1,0 @@
-import pyodide\n\n# Compile the game logic to WASM\nwasm_module = pyodide.compile(game_logic)\n\n# Send the WASM module to the client's browser for executio

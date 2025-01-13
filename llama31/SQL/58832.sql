@@ -1,1 +1,0 @@
-CREATE ROLE alice_schema_role;\nGRANT ALL ON SCHEMA alice TO alice_schema_role;\nGRANT alice_schema_role TO bob;

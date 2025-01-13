@@ -1,1 +1,0 @@
-class MyClass {\n    public static function createInstance() {\n        return new static(); // Creates an instance of the current class\n    }\n}\n\n$instance = MyClass::createInstance();

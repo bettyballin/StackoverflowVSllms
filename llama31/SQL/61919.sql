@@ -1,1 +1,0 @@
-CREATE SEQUENCE dbo.DocumentOrderSequence\n    START WITH 1\n    INCREMENT BY 1;\n\nALTER TABLE dbo.Documents\nADD CONSTRAINT DF_Documents_Doc_Order\nDEFAULT (NEXT VALUE FOR dbo.DocumentOrderSequence) FOR Doc_Order;

@@ -1,1 +1,0 @@
-WITH RECURSIVE category_path AS (\n  SELECT id, parent, title, 0 AS level\n  FROM categories\n  WHERE id = ?  -- start with the desired category id\n  UNION ALL\n  SELECT c.id, c.parent, c.title, level + 1\n  FROM categories c\n  JOIN category_path p ON c.id = p.parent\n)\nSELECT * FROM category_path;

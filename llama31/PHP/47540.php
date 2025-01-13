@@ -1,1 +1,0 @@
-$password = 'user_provided_password';\n$hashed_password = password_hash($password, PASSWORD_BCRYPT);\n// Store $hashed_password in your database\n\n// Later, to verify the password\n$stored_hash = 'hashed_password_from_database';\nif (password_verify($password, $stored_hash)) {\n    // Password is valid\n} else {\n    // Password is invalid\n}

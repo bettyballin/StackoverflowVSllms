@@ -1,1 +1,0 @@
-UPDATE your_table\nSET city = REPLACE(REPLACE(city, 'Ft.', 'Fort'), 'Ft', 'Fort')\nWHERE city LIKE '%Ft%' OR city LIKE '%Fort%';

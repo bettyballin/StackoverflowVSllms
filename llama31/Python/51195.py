@@ -1,1 +1,0 @@
-import subprocess\n\ndef php(script_path):\n    process = subprocess.Popen(['php', script_path], stdout=subprocess.PIPE)\n    output, _ = process.communicate()\n    return output.decode('utf-8')\n\npage_html = "<h1>News and Updates</h1>"\nnews_script_output = php("news-generator.php")\nprint(page_html + news_script_output)

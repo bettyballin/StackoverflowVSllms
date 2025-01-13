@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <sessionState mode="InProc" timeout="525600" />\n    <httpCookies>\n      <sessionCookie name="ASP.NET_SessionId" />\n    </httpCookies>\n  </system.web>\n</configuration>

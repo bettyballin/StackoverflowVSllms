@@ -1,1 +1,0 @@
-class ParentClass {\n    // ...\n\n    protected function mergeOptions(array $options) {\n        $this->options = array_merge($this->options, $options);\n    }\n}\n\nclass ChildClass extends ParentClass {\n    public function __construct() {\n        parent::__construct();\n        $this->mergeOptions(array(\n            'option2'=>'setting2'\n        ));\n    }\n}

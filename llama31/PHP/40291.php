@@ -1,1 +1,0 @@
-$text = 'your text here...';\n\n$text = preg_replace_callback('/"([^"]*)\n([^"]*)"/', function($match) {\n    return '"' . $match[1] . ' ' . $match[2] . '"';\n}, $text);\n\necho $text;

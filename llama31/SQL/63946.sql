@@ -1,1 +1,0 @@
-SELECT *\n  FROM TableA\n       INNER JOIN TableB ON TableA.Column1 = TableB.Column1\n  WHERE TableA.Column1 <> 0\n\nUNION ALL\n\nSELECT *\n  FROM TableA\n       CROSS JOIN TableB\n  WHERE TableA.Column1 = 0

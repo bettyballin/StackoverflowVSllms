@@ -1,1 +1,0 @@
-conn = MyConnection(use_ssl=True, host='example.com', port=443)\n# or\nconn = MyConnection(use_ssl=False, host='example.com', port=80)

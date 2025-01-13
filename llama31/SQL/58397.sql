@@ -1,1 +1,0 @@
-SELECT DISTINCT \n    E.ID AS Expr1, \n    JA.Job\nFROM \n    [Equipment List] E\nLEFT JOIN \n    [Job Assignments] JA ON E.ID = JA.EquipmentID\n    AND JA.[Date Returned] IS NULL\n    AND JA.ID = (\n        SELECT TOP 1 ID \n        FROM [Job Assignments] \n        WHERE EquipmentID = E.ID \n        AND [Date Returned] IS NULL\n        ORDER BY ID DESC\n    );

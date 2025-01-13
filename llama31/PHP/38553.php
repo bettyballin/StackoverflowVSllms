@@ -1,1 +1,0 @@
-function myFunc($params = array()) {\n    $defaults = array('name' => 'rob', 'count' => 5, 'anArray' => array('A string', 5, new stdClass()));\n    $params = array_merge($defaults, $params);\n    \n    // ...\n}\n\n// Example usage:\nmyFunc(array('name' => 'John', 'count' => 10));

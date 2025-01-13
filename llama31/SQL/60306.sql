@@ -1,1 +1,0 @@
-SELECT HEX(abbreviation) FROM your_table WHERE id = <id_of_the_problematic_row>;

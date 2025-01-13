@@ -1,1 +1,0 @@
-$.ajax({\n    type: 'GET',\n    url: '/GetPerson',\n    dataType: 'json',\n    success: function(data) {\n        $('#person-container').html(data.Html);\n        var personData = data.Data;\n        // Do something with personData\n    }\n});

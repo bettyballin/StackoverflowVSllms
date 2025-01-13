@@ -1,1 +1,0 @@
-(function() {\n  var xhr = new XMLHttpRequest();\n  xhr.open('GET', '/ajax_test1.php', true);\n  xhr.onload = function() {\n    updateOne(xhr.responseText);\n  };\n  xhr.send();\n})();\n\n(function() {\n  var xhr = new XMLHttpRequest();\n  xhr.open('GET', '/ajax_test2.php', true);\n  xhr.onload = function() {\n    updateTwo(xhr.responseText);\n  };\n  xhr.send();\n})();

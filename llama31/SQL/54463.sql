@@ -1,1 +1,0 @@
--- Original query ( executed 200 times )\nSELECT * \nFROM table1 \nINNER JOIN table2 ON table1.id = table2.id \nWHERE table1.object_id = @object_id;\n\n-- Rewritten query ( executed twice per update )\nSELECT * \nFROM table1 \nINNER JOIN table2 ON table1.id = table2.id \nWHERE table1.object_id IN (@object_id1, @object_id2, ..., @object_id200);

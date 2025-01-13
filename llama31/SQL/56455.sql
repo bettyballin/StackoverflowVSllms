@@ -1,1 +1,0 @@
-SELECT \n  a.ID, \n  a.Title, \n  COUNT(c.ID) AS NumComments\nFROM \n  Articles a\n  LEFT JOIN Comments c ON a.ID = c.ParentID\nGROUP BY \n  a.ID, \n  a.Title

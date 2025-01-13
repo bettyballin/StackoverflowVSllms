@@ -1,1 +1,0 @@
-$variable = 0;\n\nif ($variable != NULL) { echo "Not NULL"; } // Outputs: Not NULL\nif (!empty($variable)) { echo "Not empty"; } // No output\nif ($variable) { echo "Truthy"; } // No output

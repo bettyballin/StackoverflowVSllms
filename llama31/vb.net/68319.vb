@@ -1,1 +1,0 @@
-Dim connectionString As String = GetCustomerConnectionString()\nDim tableAdapter As New MyTableAdapter()\ntableAdapter.Connection.ConnectionString = connectionString\nDim dataSet As New MyDataSet()\ntableAdapter.Fill(dataSet)

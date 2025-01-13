@@ -1,1 +1,0 @@
-$opts = array(\n    'http' => array(\n        'method' => 'GET',\n        'header' => 'Connection: close'\n    )\n);\n$context = stream_context_create($opts);\n$content = file_get_contents($url, false, $context);

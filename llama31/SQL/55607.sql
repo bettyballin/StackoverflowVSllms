@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE Testing\n(\n  iKey IN VARCHAR2,\n  oResult OUT INTEGER\n)\nAS\nBEGIN\n  DELETE FROM MyTable WHERE TheKey = iKey;\n  oResult := SQL%ROWCOUNT; -- Returns the number of rows deleted\nEND Testing;

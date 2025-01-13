@@ -1,1 +1,0 @@
-$server = 'localhost';\n$username = 'myusername';\n$password = 'mypassword';\n$db = 'mydb';\n\n$link = mysqli_connect($server, $username, $password, $db);\n\nif (!$link) {\n    die("Connection failed: " . mysqli_connect_error());\n}\n\n$stmt = mysqli_stmt_init($link);

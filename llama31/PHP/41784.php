@@ -1,1 +1,0 @@
-public function indexAction() {\n    $messages = $this->_helper->flashMessenger->getMessages();\n    $this->view->errorMessage = $messages[0];\n}

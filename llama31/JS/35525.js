@@ -1,1 +1,0 @@
-function makewindows(html){\n  child1 = window.open ("about:blank");\n  child1.document.write(html);\n  child1.document.close(); \n}

@@ -1,1 +1,0 @@
-SELECT * FROM ... WHERE name REGEXP '^[^a-zA-Z0-9]';

@@ -1,1 +1,0 @@
-SHOW TABLE STATUS LIKE 'your_table_name';

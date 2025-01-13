@@ -1,1 +1,0 @@
-Private _foo As String\n\nPublic Property Foo() As String\n    Get\n        Return _foo\n    End Get\n    Set(ByVal value As String)\n        _foo = value\n    End Set\nEnd Property

@@ -1,1 +1,0 @@
-$pname = $_POST['pname'];\n$query = "SELECT * FROM your_table_name WHERE name = '$pname'";\n$result = mysqli_query($conn, $query);\nif (mysqli_num_rows($result) > 0) {\n    echo "exists";\n} else {\n    echo "not_exists";\n}

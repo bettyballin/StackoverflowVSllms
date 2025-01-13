@@ -1,1 +1,0 @@
-from django.db import connection\n\nwith connection.cursor() as cursor:\n    cursor.execute("UPDATE something SET a = 'something' WHERE x IN ('a', 'b', 'c')")

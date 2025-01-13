@@ -1,1 +1,0 @@
-CREATE TABLE ClientSwitches (\n    ClientId INT,\n    SwitchName VARCHAR(50),\n    SwitchValue BIT\n)

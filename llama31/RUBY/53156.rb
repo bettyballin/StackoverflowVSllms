@@ -1,1 +1,0 @@
-my_proc = proc { puts "Hello, world!" }\nmy_lambda = lambda { puts "Hello, world!" }

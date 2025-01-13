@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\nSELECT creds FROM credits WHERE user_id = 1 FOR UPDATE;\n-- perform application logic to calculate new value\nUPDATE credits SET creds = 160 WHERE user_id = 1;\nCOMMIT;

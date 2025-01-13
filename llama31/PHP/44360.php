@@ -1,1 +1,0 @@
-exec('/path/to/chown_wrapper user group /path/to/file');

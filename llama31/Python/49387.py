@@ -1,1 +1,0 @@
-data = [(1,2),(40,2),(9,80)]\nlist1, list2 = zip(*data)\nprint(list1)  # prints: (1, 40, 9)\nprint(list2)  # prints: (2, 2, 80)

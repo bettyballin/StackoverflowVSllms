@@ -1,1 +1,0 @@
-INSERT INTO aliases (id, name, alias_of) VALUES\n  (1, 'microsoft', NULL),\n  (2, 'ms', 1),\n  (3, 'm$', 1);

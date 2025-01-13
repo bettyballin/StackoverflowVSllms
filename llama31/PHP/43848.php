@@ -1,1 +1,0 @@
-use Symfony\Component\Validator\Validator\EmailValidator;\n\n$email = 'user@example.com';\n$validator = new EmailValidator();\nif ($validator->isValid($email)) {\n    echo "$email is valid";\n} else {\n    echo "$email is not valid";\n}

@@ -1,1 +1,0 @@
-CREATE TABLE us_state_codes (\n  id INT AUTO_INCREMENT PRIMARY KEY,\n  state_code CHAR(2) UNIQUE\n);

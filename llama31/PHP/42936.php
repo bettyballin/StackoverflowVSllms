@@ -1,1 +1,0 @@
-$c1 = new MyClass1();\n$c2 = new MyClass2();\n\nif (compare_classes($c1, $c2)) {\n    echo "All public methods return the same values";\n} else {\n    echo "Not all public methods return the same values";\n}

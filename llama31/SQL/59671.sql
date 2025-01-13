@@ -1,1 +1,0 @@
-RECOVER DATABASE FROM TAG "whole_database_copy" UNTIL CANCEL;

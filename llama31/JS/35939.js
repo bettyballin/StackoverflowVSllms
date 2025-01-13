@@ -1,1 +1,0 @@
-// Get the parent element\nvar parent = document.getElementById('parentElement');\n\n// Attach a single onmousemove event handler to the parent element\nparent.onmousemove = function(event) {\n  // Get the element under the mouse cursor\n  var target = event.srcElement || event.target;\n  \n  // Do your logic and rendering here\n  // ...\n};

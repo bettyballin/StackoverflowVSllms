@@ -1,1 +1,0 @@
-var fieldValue = getVal('a_21');

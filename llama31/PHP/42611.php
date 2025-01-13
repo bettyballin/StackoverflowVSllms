@@ -1,1 +1,0 @@
-$endMarkup = preg_replace_callback('/<% ([a-z]+) %>/', function($match) use ($data) {\n    return $data[$match[1]];\n}, $template);

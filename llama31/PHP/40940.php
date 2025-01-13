@@ -1,1 +1,0 @@
-json_encode($dates, JSON_NUMERIC_CHECK);

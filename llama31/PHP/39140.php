@@ -1,1 +1,0 @@
-ini_set('upload_max_filesize', '512M');\nini_set('post_max_size', '512M');

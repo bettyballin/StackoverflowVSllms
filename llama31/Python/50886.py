@@ -1,1 +1,0 @@
-import pygtk\npygtk.require('2.0')\nimport gtk\n\ndef on_configure_event(window, event):\n    if event.type == gtk.gdk.MOTION_NOTIFY or event.type == gtk.gdk.BUTTON_RELEASE:\n        # Manual resize detected\n        print "Manual resize detected"\n\nwindow = gtk.Window(gtk.WINDOW_TOPLEVEL)\nwindow.connect("configure-event", on_configure_event)\n\nwindow.show_all()\ngtk.main()

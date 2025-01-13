@@ -1,1 +1,0 @@
-SELECT * FROM users\nJOIN user_permissions ON users.id = user_permissions.user_id\nWHERE user_permissions.permission_id = <permission_id>;

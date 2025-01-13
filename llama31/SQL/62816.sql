@@ -1,1 +1,0 @@
-myuser@[//]myhost.example.com:1521/my_service_name

@@ -1,1 +1,0 @@
-$sql = 'DELETE FROM messages WHERE message_id = ? AND user_id = ?';\n$stmt = $db->prepare($sql);\n$stmt->execute(array($messageId, $userId));

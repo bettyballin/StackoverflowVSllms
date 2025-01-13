@@ -1,1 +1,0 @@
-// Load the web page into the iframe\nconst url = 'https://example.com';\niframe.src = url;

@@ -1,1 +1,0 @@
-SELECT c.*\nFROM cars c\nJOIN (\n  SELECT make, model, MAX(year) as max_year\n  FROM cars\n  GROUP BY make, model\n) m ON c.make = m.make AND c.model = m.model AND c.year = m.max_year;

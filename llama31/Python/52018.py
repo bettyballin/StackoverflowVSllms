@@ -1,1 +1,0 @@
-id = models.AutoField(primary_key=True, db_column='my_custom_id')

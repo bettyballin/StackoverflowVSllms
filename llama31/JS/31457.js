@@ -1,1 +1,0 @@
-const socket = new WebSocket('ws://example.com');\n\n// Send data to the server at intervals\nsetInterval(() => {\n  socket.send('Hello, server!');\n}, 1000);\n\n// Handle incoming messages from the server\nsocket.onmessage = (event) => {\n  console.log(`Received message from server: ${event.data}`);\n};

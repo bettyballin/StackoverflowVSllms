@@ -1,1 +1,0 @@
-// app/View/Elements/menu.ctp\n<ul>\n    <?php foreach ($menuItems as $menuItem): ?>\n        <li>\n            <?php echo $this->Html->link($menuItem['Menu']['name'], array('controller' => $menuItem['Menu']['controller'], 'action' => $menuItem['Menu']['action'])); ?>\n        </li>\n    <?php endforeach; ?>\n</ul>

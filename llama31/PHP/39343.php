@@ -1,1 +1,0 @@
-$originalRequestUri = preg_replace('/^[A-Z]+ /', '', $_SERVER['THE_REQUEST']);\necho $originalRequestUri . "<br>" . $_GET['req'];

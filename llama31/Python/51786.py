@@ -1,1 +1,0 @@
-latest_edition = Edition.objects.order_by('-pub_date')[0]

@@ -1,1 +1,0 @@
-function __autoload($class_name) {\n    include 'inc/' . $class_name . '.class.php';\n}

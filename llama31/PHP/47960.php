@@ -1,1 +1,0 @@
-$handle = fopen("php://stdin", "r");\nwhile (($line = fgets($handle)) !== false) {\n    echo $line;\n}\nfclose($handle);

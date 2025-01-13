@@ -1,1 +1,0 @@
-if ($_SERVER['REMOTE_ADDR'] == $_SERVER['SERVER_ADDR']) {\n    // Log the request and block it if necessary\n    error_log("Recursive request detected from " . $_SERVER['REMOTE_ADDR']);\n    header('HTTP/1.1 403 Forbidden');\n    exit;\n}

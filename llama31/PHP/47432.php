@@ -1,1 +1,0 @@
-ini_set('session.use_cookies', 1);\nsession_start();\n$_SESSION["current_page"] = 'special1';

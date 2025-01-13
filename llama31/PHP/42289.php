@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("INSERT INTO mytable (date_column, time_column) VALUES (?, ?)");\n$stmt->bind_param("ss", $date, $time);\n\n// Assuming $date is a PHP DateTime object\n$date = (new DateTime())->format("Y-m-d");\n$time = (new DateTime())->format("H:i:s");\n\n$stmt->execute();

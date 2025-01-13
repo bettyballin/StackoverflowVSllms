@@ -1,1 +1,0 @@
-import http.client\nimport protocolbuffers.yourmessage_pb2 as yourmessage_pb2\n\nmessage = yourmessage_pb2.YourMessage()\n# Populate the message fields\nmessage.SerializeToString()\n\nconn = http.client.HTTPConnection('localhost', 8000)\nconn.request('POST', '/', message.SerializeToString())\nresponse = conn.getresponse()\nprint(response.status, response.reason)\nconn.close()

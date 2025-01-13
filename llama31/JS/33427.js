@@ -1,1 +1,0 @@
-const d = { func: (...args) => window.alert(...args) };\nd.func("Hello World!"); // works as expected

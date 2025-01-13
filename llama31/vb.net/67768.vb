@@ -1,1 +1,0 @@
-Dim myNetObject As Object\nSet myNetObject = CreateObject("MyNetDll.MyNetClass")\nmyNetObject.MyMethod

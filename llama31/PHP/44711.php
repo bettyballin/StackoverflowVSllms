@@ -1,1 +1,0 @@
-use GuzzleHttp\Url;\n\n$url = Url::fromString('ctx_ver=Z39.88-2004&rft_id=info:oclcnum/1903126&rft_id=http://www.biodiversitylibrary.org/bibliography/4323&...');\n\n$rft_id_values = $url->getQueryParameter('rft_id');\n\nprint_r($rft_id_values);

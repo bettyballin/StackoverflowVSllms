@@ -1,1 +1,0 @@
-#Tokenization\ndata_test['text'] = data_test['text'].apply(lambda x: " ".join(x for x in x.split()))

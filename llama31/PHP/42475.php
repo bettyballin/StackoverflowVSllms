@@ -1,1 +1,0 @@
-$data = 'this is quite a lot of data...';\n\n$ch = curl_init('https://example.com/get.php');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_POST, true);\ncurl_setopt($ch, CURLOPT_POSTFIELDS, $data);\n$response = curl_exec($ch);\ncurl_close($ch);

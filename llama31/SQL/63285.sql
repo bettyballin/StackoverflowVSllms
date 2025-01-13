@@ -1,1 +1,0 @@
-BEGIN\n  DBMS_STATS.GATHER_TABLE_STATS(\n    ownname => 'MY_SCHEMA',\n    tabname => 'MY_TABLE',\n    cascade => TRUE\n  );\nEND;\n/

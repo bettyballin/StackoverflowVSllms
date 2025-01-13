@@ -1,1 +1,0 @@
-# app/models/calendar.rb\nputs "Loading calendar.rb"\n\nclass Calendar < ActiveRecord::Base\n  # ...\nend

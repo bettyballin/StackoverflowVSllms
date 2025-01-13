@@ -1,1 +1,0 @@
-function register() {\n    $userId = $this->User->registerUser($this->data);\n    $this->Session->write('User.UserId', $userId);\n    $this->Session->write('Form.FormId', $formId); // assuming $formId is defined\n    // ...\n}

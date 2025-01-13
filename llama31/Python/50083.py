@@ -1,1 +1,0 @@
-recovery_target = 'timestamp=2022-01-01 14:30:00'

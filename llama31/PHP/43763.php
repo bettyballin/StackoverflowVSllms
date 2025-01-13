@@ -1,1 +1,0 @@
-$sql = "SELECT * FROM dacc_data WHERE date BETWEEN '$startDate' AND '$endDate'";

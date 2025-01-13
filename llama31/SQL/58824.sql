@@ -1,1 +1,0 @@
-CREATE PROCEDURE myProcedure\nAS\nBEGIN\n    DECLARE @myVariable INT = 0;\n    PRINT 'Hello, World!';\n    SET @myVariable = 1;\n    SELECT @myVariable AS myColumn;\nEND;

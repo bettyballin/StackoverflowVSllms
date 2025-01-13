@@ -1,1 +1,0 @@
-#Lemmatization\nlm = WordNetLemmatizer()\ndata_test['text'] = data_test['text'].apply(lambda x: " ".join([lm.lemmatize(word) for word in x.split()]))

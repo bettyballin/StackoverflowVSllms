@@ -1,1 +1,0 @@
-# mod_call.py\nimport types\n\nclass CallableModule(types.ModuleType):\n    def __call__(self):\n        return 42\n\nsys.modules[__name__] = CallableModule(__name__)

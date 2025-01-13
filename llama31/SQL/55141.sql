@@ -1,1 +1,0 @@
-CREATE INDEX IX_FieldW ON A (FieldW)

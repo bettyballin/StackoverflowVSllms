@@ -1,1 +1,0 @@
-$x = $_GET['x'];\n\nswitch($x) {\n    default:\n        include("inc/main.php");\n        break;\n\n    case "products":\n        include("inc/products.php");\n        break;\n}

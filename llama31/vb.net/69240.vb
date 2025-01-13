@@ -1,1 +1,0 @@
-Public Sub New(ByVal message As String, ByVal validationGroup As String)\n    MyBase.ErrorMessage = message\n    MyBase.ValidationGroup = validationGroup\n    MyBase.IsValid = False\nEnd Sub

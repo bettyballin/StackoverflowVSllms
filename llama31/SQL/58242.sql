@@ -1,1 +1,0 @@
--- On the primary server\nALTER DATABASE [database_name] SET PARTNER (TCP://primary_server:5022)\nGO\n\n-- On the secondary server\nALTER DATABASE [database_name] SET PARTNER (TCP://secondary_server:5022)\nGO

@@ -1,1 +1,0 @@
-$field_name = 'loanOfficer';\n$content = null;\n\nforeach ($submission_info as $field) {\n    if ($field['field_name'] === $field_name) {\n        $content = $field['content'];\n        break;\n    }\n}\n\necho $content; // Output: John Doe

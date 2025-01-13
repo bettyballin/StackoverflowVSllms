@@ -1,1 +1,0 @@
-// layout.phtml\n\n<div id="calendar">\n    <?= $this->calendar(date('Y'), date('m')) ?>\n</div>

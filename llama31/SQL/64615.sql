@@ -1,1 +1,0 @@
-SELECT `Tag`, `count`\nFROM (\n  SELECT `Tag`, COUNT(id) as `count`\n  FROM `images-tags`\n  GROUP BY `Tag`\n) AS subquery\nORDER BY `count` DESC\nLIMIT 20;

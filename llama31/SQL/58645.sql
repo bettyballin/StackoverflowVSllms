@@ -1,1 +1,0 @@
-SELECT DISTINCT p.product_id\nFROM products p\nJOIN (\n  SELECT product_id, attribute_id,\n         COUNT(DISTINCT attribute_class) OVER (PARTITION BY product_id) AS num_classes\n  FROM attribproducts\n  WHERE attribute_id IN (9, 10, 11, 60, 61)\n) ap ON p.product_id = ap.product_id\nWHERE ap.num_classes = 2

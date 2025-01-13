@@ -1,1 +1,0 @@
-$variableNames = array_keys($_GET);

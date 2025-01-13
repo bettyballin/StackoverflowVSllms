@@ -1,1 +1,0 @@
-<pre class="prettyprint lang-vbnet">\n    Partial Public Class WebForm1\n        Inherits System.Web.UI.Page\n\n        Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load\n            'set page title\n            Page.Title = "Something"\n        End Sub\n\n    End Class\n</pre>

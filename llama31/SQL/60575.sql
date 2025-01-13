@@ -1,1 +1,0 @@
--- Drop old primary key column\nALTER TABLE YourTableName\nDROP COLUMN OldPrimaryKey;\n\n-- Drop old foreign key column\nALTER TABLE YourReferencingTableName\nDROP COLUMN OldForeignKey;

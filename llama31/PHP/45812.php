@@ -1,1 +1,0 @@
-session_name('your_custom_session_name');\nsession_start();

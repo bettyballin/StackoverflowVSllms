@@ -1,1 +1,0 @@
-billingDatagrid.Columns("Package Rate").Name = "PackageRateColumn"

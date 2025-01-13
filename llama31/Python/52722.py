@@ -1,1 +1,0 @@
-def count_coprime(N):\n    return euler_totient(N)

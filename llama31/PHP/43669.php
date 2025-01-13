@@ -1,1 +1,0 @@
-$url .= '&section=1';

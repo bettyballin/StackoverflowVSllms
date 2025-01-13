@@ -1,1 +1,0 @@
-Sub DoStuff(params As Tuple(Of param1Type, param2Type), reportStatus As ReportStatusDelegate)\n    ' Do stuff here\nEnd Sub

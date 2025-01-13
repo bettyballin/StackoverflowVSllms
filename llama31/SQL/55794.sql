@@ -1,1 +1,0 @@
-CREATE PROCEDURE MyProc\n    @MyDate DATETIME = NULL\nAS\n    IF @MyDate IS NULL SET @MyDate = CURRENT_TIMESTAMP\n    -- Do Something using @MyDate

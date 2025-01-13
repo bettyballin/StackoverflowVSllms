@@ -1,1 +1,0 @@
-if (xmlhttp.status != 200) {\n    console.error(xmlhttp.statusText);\n}

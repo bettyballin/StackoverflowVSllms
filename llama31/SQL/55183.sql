@@ -1,1 +1,0 @@
-CREATE PROCEDURE UpdateApprovalTaskStatus\n    @ApprovalTaskID int,\n    @Status smallint\nAS\nBEGIN\n    UPDATE ApprovalTasks\n    SET Status = @Status\n    WHERE ApprovalTaskID = @ApprovalTaskID;\n\n    UPDATE ApprovalsView\n    SET Status = @Status\n    WHERE ApprovalTaskID = @ApprovalTaskID;\nEND

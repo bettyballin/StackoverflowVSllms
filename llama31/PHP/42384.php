@@ -1,1 +1,0 @@
-$string = 'your input string here...';\n\n$pattern = '/John Doe(?![^<]*\/>|[^<]*>)/i';\n\n$replacement = ' replacement string here...';\n\necho eregi_replace($pattern, $replacement, $string);

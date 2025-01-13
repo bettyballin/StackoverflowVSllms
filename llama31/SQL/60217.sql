@@ -1,1 +1,0 @@
-SELECT u.* \nFROM Users u \nJOIN UserGroups ug ON u.UserID = ug.UserID \nWHERE ug.GroupID = <group_id>;

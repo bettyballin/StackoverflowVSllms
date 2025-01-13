@@ -1,1 +1,0 @@
-var pre = document.createElement('pre');\nvar text = "aaa\naaa\nbbb";\nvar textNode = document.createTextNode(text);\npre.appendChild(textNode);\ndocument.body.appendChild(pre);

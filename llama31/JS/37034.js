@@ -1,1 +1,0 @@
-$(document).ajaxSuccess(function(event, xhr, settings) {\n  if (settings.url.indexOf('/specific/url') !== -1) {\n    myFunction();\n  }\n});

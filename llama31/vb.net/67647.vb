@@ -1,1 +1,0 @@
-Sub DeleteAllData()\n    Dim db As DAO.Database\n    Dim tdf As DAO.TableDef\n    \n    Set db = CurrentDb()\n    \n    For Each tdf In db.TableDefs\n        If Not tdf.Name Like "MSys*" Then\n            db.Execute "DELETE * FROM " & tdf.Name\n        End If\n    Next tdf\n    \n    Set tdf = Nothing\n    Set db = Nothing\nEnd Sub

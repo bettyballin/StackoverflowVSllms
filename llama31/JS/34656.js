@@ -1,1 +1,0 @@
-document.getElementById('<%= OKToContinueCheckInButton.ClientID %>').click();

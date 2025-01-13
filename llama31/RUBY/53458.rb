@@ -1,1 +1,0 @@
-User.find(:all, \n          :conditions => ['EXISTS (SELECT 1 FROM events WHERE events.user_id = users.id)'])

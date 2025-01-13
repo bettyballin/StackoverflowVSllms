@@ -1,1 +1,0 @@
-$sql = "CREATE TABLE qotwQuestion1111 (\n  QuestionId int PRIMARY KEY AUTO_INCREMENT,\n  Question varchar(5000),\n  MemberId varchar(255),\n  PostDate date,\n  Vote int,\n  FOREIGN KEY (MemberId) REFERENCES qotwMember(MemberId)\n)";\nmysql_query($sql, $con);

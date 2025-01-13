@@ -1,1 +1,0 @@
-function main()\n{\n    var shell = new ActiveXObject("Shell.Application");\n    shell.Windows.item(0).resizeTo(500, 300);\n}

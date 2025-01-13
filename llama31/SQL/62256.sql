@@ -1,1 +1,0 @@
-SELECT IDENTITY(int, 1, 1) AS Id, *\nINTO #TempTable\nFROM YourTable\nWHERE YourConditions;

@@ -1,1 +1,0 @@
-CREATE INDEX idx_start_time_duration ON Table2 (starttime, starttime + duration/24);

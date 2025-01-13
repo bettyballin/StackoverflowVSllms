@@ -1,1 +1,0 @@
--- Create a sample table and index\nCREATE TABLE Employee (\n    EmployeeId INT PRIMARY KEY,\n    EmployeeTypeId INT\n);\n\nCREATE INDEX IX_Employee_EmployeeTypeId ON Employee (EmployeeTypeId);\n\n-- Run the query and display the execution plan\nSELECT EmployeeId\nFROM Employee\nWHERE EmployeeTypeId IN (1, 2, 3);

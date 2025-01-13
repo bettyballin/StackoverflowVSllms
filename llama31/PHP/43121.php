@@ -1,1 +1,0 @@
-$array = array('key1' => 'value1', 'key2' => array('nested_key1' => 'nested_value1'));\n$depth = array_depth($array);  // Output: 2\n$normalized_array = normalize_array_nesting($array);  // Output: array(array(array('key1' => 'value1', 'key2' => array('nested_key1' => 'nested_value1'))))

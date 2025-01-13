@@ -1,1 +1,0 @@
-''//file1.vb\nSub Something()\n    ''//...\n    Functions.LogInfo("some text")\n    ''//...\nEnd Sub

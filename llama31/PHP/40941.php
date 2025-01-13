@@ -1,1 +1,0 @@
-$compressed = gzencode(file_get_contents($filename), 5);\nheader("Content-Length: ".strlen($compressed));

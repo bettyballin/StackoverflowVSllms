@@ -1,1 +1,0 @@
-$url = $_REQUEST['url'];\n$decodedUrl = urldecode($url);

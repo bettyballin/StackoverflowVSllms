@@ -1,1 +1,0 @@
-CREATE NONCLUSTERED INDEX idx_c2_c3_c4 ON table1 (c2, c3, c4);

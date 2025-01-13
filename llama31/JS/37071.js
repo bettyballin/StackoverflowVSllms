@@ -1,1 +1,0 @@
-(function($) {\n  // Use jQuery UI components here, e.g.\n  $('#myDialog').dialog();\n  $('#myDraggable').draggable();\n})(jQuery.noConflict());

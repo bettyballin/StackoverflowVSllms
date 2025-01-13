@@ -1,1 +1,0 @@
-function showDetails() {\n  var elem = document.getElementById("my_div");\n  var computedStyle = window.getComputedStyle(elem);\n\n  alert("elem.className=" + elem.className);\n  alert("computedStyle.paddingLeft=" + computedStyle.paddingLeft);\n  alert("computedStyle.marginLeft=" + computedStyle.marginLeft);\n  alert("computedStyle.borderLeft=" + computedStyle.borderLeft);\n}

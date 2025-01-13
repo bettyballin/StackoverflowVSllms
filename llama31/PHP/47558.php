@@ -1,1 +1,0 @@
-start_connection($config['db_host']);

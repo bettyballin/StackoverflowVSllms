@@ -1,1 +1,0 @@
-exec('/usr/bin/curl -L /opt/csw/lib/libsunmath.so.1 ...');

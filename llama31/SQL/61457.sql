@@ -1,1 +1,0 @@
-SELECT e1.id AS id1, e2.id AS id2\nFROM endpoints e1\nJOIN endpoints e2 ON e1.point = e2.point\nWHERE e1.id != e2.id AND e1.start_or_end = 'end' AND e2.start_or_end = 'start';

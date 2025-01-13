@@ -1,1 +1,0 @@
-Using conn As New SqlConnection(connectionString)\n    Dim cmd As New SqlCommand("SELECT * FROM Customers WHERE Country = @Country", conn)\n    cmd.Parameters.AddWithValue("@Country", "USA")\n\n    conn.Open()\n    Dim reader As SqlDataReader = cmd.ExecuteReader()\n    While reader.Read()\n        Console.WriteLine(reader("CustomerName"))\n    End While\nEnd Using

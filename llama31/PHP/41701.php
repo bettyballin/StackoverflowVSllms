@@ -1,1 +1,0 @@
-$myConstant = $_ENV['MY_CONSTANT'];

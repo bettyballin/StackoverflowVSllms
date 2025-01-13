@@ -1,1 +1,0 @@
-function replace_char($match) {\n    return "&#".ord($match[0]).";";\n}\n\n$content = preg_replace_callback('/[\x80-\xff]/', 'replace_char', $content);

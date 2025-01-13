@@ -1,1 +1,0 @@
--- No specific SQL code is required for this solution.\n-- The fix involves installing a service pack or using a different version of the wizard.

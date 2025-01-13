@@ -1,1 +1,0 @@
-if (confirm("There was an error. Go to this page to fix it: https://www.TheWebPageToFix.com")) {\n  window.open("https://www.TheWebPageToFix.com", "_blank");\n}

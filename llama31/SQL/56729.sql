@@ -1,1 +1,0 @@
-SELECT \n  a.constraint_name,\n  a.constraint_type,\n  a.table_name,\n  b.column_name\nFROM \n  SYS.ALL_CONSTRAINTS a,\n  SYS.ALL_CONS_COLUMNS b\nWHERE \n  a.constraint_name = b.constraint_name\n  AND a.table_name = 'YOUR_TABLE_NAME'\n  AND a.constraint_type = 'R';

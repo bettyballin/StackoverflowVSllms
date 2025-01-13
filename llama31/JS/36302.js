@@ -1,1 +1,0 @@
-var items = $(".item");\nvar selectedItem = items.filter("#3");\nvar index = items.index(selectedItem);\nvar previousItem = items.eq(index - 1);\n\nconsole.log(previousItem); // should log the <div id="2"> element

@@ -1,1 +1,0 @@
-WITH SalesSummary AS (\n  SELECT \n    region,\n    product,\n    SUM(sales) AS total_sales\n  FROM \n    SalesData\n  GROUP BY \n    region, product\n)\nSELECT \n  region,\n  product,\n  total_sales,\n  RANK() OVER (PARTITION BY region ORDER BY total_sales DESC) AS sales_rank\nFROM \n  SalesSummary\nORDER BY \n  region, sales_rank;

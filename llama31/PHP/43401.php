@@ -1,1 +1,0 @@
-use Brick\Math\BigInteger;\n\n$a = BigInteger::of('9223372036854775807');\n$b = BigInteger::of('1');\n\n$result = $a->multipliedBy($b);\necho $result;

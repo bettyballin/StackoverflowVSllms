@@ -1,1 +1,0 @@
-SELECT \n  Books.BOOK,\n  Median(Books.PRICE) AS MedianPrice\nFROM \n  Books\nGROUP BY \n  Books.BOOK;

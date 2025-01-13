@@ -1,1 +1,0 @@
-$archiveLinks = array();\nwhile ($row = mysql_fetch_assoc($result)) {\n    $year = $row['year'];\n    $month = $row['month'];\n    $monthName = date('F', mktime(0, 0, 0, $month, 1, $year)); // Get the month name\n    $archiveLinks[] = "$monthName $year";\n}

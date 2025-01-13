@@ -1,1 +1,0 @@
-$hash = hash('md5', 'hello');\n$query = "INSERT INTO example (hash) VALUES ('$hash')";

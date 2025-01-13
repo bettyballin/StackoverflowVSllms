@@ -1,1 +1,0 @@
-// test5.php\ninclude 'test.php';\n\nclass test1 {\n    function test2() {\n        global $config_key_security;\n        echo $config_key_security;\n    }\n}

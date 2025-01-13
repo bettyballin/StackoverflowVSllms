@@ -1,1 +1,0 @@
-$a = '9223372036854775807'; // maximum 64-bit integer value\n$b = '1';\n\n$result = bcmul($a, $b);\necho $result;

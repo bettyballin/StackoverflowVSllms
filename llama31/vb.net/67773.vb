@@ -1,1 +1,0 @@
-If selectedUsersRoles.Contains(RoleCheckBox.Text) Then\n    RoleCheckBox.Checked = True\nElse\n    RoleCheckBox.Checked = False\nEnd If

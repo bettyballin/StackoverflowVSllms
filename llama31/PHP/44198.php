@@ -1,1 +1,0 @@
-$routes = array(\n    '/reports/' => 'ReportsController',\n    '/secure/' => 'SecureController',\n    // add more routes as needed\n);\n\n$route = $_GET['route'];\nif (isset($routes[$route])) {\n    $controller = new $routes[$route]();\n    $controller->handleRequest();\n} else {\n    // handle 404 or unknown route\n}

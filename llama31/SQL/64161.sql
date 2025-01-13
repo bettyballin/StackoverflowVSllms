@@ -1,1 +1,0 @@
-CREATE TABLE example (id SERIAL PRIMARY KEY, data JSON);\nINSERT INTO example (data) VALUES ('{"name": "John", "age": 30}');\nSELECT * FROM example WHERE data @> '{"age": 30}';

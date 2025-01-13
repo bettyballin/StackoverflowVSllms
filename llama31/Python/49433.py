@@ -1,1 +1,0 @@
-import pathlib\n\ndef check_directory_permission(path):\n    try:\n        pathlib.Path(path).open()\n        return True\n    except PermissionError:\n        return False\n\nprint(check_directory_permission(r'C:\haveaccess'))  # Should return True\nprint(check_directory_permission(r'C:\donthaveaccess'))  # Should return False

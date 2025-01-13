@@ -1,1 +1,0 @@
-// Define a model\nuse Illuminate\Database\Eloquent\Model;\n\nclass User extends Model {\n    protected $fillable = ['name', 'email'];\n}\n\n// Use the model\n$user = new User();\n$user->name = 'John Doe';\n$user->save();

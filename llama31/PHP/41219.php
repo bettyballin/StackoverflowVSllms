@@ -1,1 +1,0 @@
-$session_params = session_get_cookie_params();\necho $session_params['lifetime'];

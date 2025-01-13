@@ -1,1 +1,0 @@
-CREATE VIEW orders_view AS\nSELECT order_id, customer_id, order_date FROM orders;\n\nCREATE VIEW customers_view AS\nSELECT customer_id, name FROM customers;

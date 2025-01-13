@@ -1,1 +1,0 @@
-DECLARE\n  PRAGMA AUTONOMOUS_TRANSACTION;\nBEGIN\n  -- code here is executed independently of the main transaction\nEND;

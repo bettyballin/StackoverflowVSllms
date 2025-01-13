@@ -1,1 +1,0 @@
-Private WithEvents myButton As Button\n\nPrivate Sub myButton_Click(sender As Object, e As EventArgs) Handles myButton.Click\n    ' Event handler code\nEnd Sub

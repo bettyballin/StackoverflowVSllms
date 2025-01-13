@@ -1,1 +1,0 @@
-SELECT c.id AS ContactID, c.ContactName as ForeName,\n       xmlvalues.query('data(contact/Ref[1])') as ref\nFROM Contacts c\nINNER JOIN ParticipantContactMap pcm ON c.id = pcm.contactid\nAND pcm.participantid = 2140\nWHERE xmlvalues.exist('/contact[Ref = "118985"]') = 1;

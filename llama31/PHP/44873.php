@@ -1,1 +1,0 @@
-if (isset($_SERVER['argc'])) {\n    // script was invoked from command line\n} else {\n    // script was invoked by web server\n}

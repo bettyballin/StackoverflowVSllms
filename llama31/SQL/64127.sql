@@ -1,1 +1,0 @@
-$query = 'SELECT * FROM public.sf_bands LIMIT 10';

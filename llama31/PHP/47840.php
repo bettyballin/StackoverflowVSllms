@@ -1,1 +1,0 @@
-if (preg_match_all('/{dropcap}(.+?){\/dropcap}/', $row->text, $matches, PREG_PATTERN_ORDER) > 0)

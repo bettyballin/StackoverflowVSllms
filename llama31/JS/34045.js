@@ -1,1 +1,0 @@
-function submitForm(formName, navigateValue, id) {\n    var form = document.forms[formName];\n    if (navigateValue != null && navigateValue != "") {\n        form.navigate.value = navigateValue;\n    }\n    var url = form.action + "?id=" + encodeURIComponent(id);\n    form.action = url;\n    form.submit();\n}

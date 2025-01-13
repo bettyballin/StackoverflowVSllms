@@ -1,1 +1,0 @@
-EXEC SQL BEGIN DECLARE SECTION;\n    DATE    hire_date;\n    long    hire_date_long;\nEXEC SQL END DECLARE SECTION;\n\nEXEC SQL SELECT TRUNC(hire_date - TO_DATE('1899-12-31', 'YYYY-MM-DD')) INTO :hire_date_long FROM emp;

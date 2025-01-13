@@ -1,1 +1,0 @@
-use Monolog\Logger;\nuse Monolog\Handler\StreamHandler;\n\n// Create a logger instance\n$logger = new Logger('openid_error');\n$logger->pushHandler(new StreamHandler('path/to/error.log', Logger::DEBUG));\n\n// Log errors and exceptions\ntry {\n    // OpenID authentication code here\n} catch (Exception $e) {\n    $logger->error($e->getMessage(), $e->getTrace());\n}

@@ -1,1 +1,0 @@
-ALTER VIEW view_name COMPILE;

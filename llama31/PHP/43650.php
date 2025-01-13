@@ -1,1 +1,0 @@
-$values = array_unique(array_values($array));

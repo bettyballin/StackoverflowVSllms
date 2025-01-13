@@ -1,1 +1,0 @@
-ALTER TABLE FriendRequests\nADD CONSTRAINT UC_FriendRequests_UserId_FriendUserId\nUNIQUE (UserId, FriendUserId);

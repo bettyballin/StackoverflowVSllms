@@ -1,1 +1,0 @@
-$text = "Your block of text here";\n$words = explode(' ', $text);\n$first50Words = array_slice($words, 0, 50);\n$first50WordsString = implode(' ', $first50Words);\n\necho $first50WordsString;

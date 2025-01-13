@@ -1,1 +1,0 @@
-IdProduct | IdService | ProductName | ServiceName \n-----------|-----------|-------------|-------------\n1          | 1         | Product 1   | Service 1

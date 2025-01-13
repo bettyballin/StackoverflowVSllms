@@ -1,1 +1,0 @@
--- Verify Oracle connection (example)\nsqlplus username/password@//localhost:1521/ORCL

@@ -1,1 +1,0 @@
-function validateWYSIWYG(sender, args) {\n    var editor = document.getElementById('editor'); // adjust to your editor's ID\n    var content = editor.getContent(); // adjust to your editor's getContent method\n    args.IsValid = content.length > 0;\n}

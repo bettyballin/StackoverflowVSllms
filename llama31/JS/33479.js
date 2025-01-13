@@ -1,1 +1,0 @@
-// sw.js\nself.addEventListener('install', event => {\n  event.waitUntil(\n    caches.open('my-cache').then(cache => {\n      cache.add('index.html');\n    })\n  );\n});\n\nself.addEventListener('fetch', event => {\n  event.respondWith(\n    caches.match(event.request).then(response => {\n      return response || fetch(event.request);\n    })\n  );\n});

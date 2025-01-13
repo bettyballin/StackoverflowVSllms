@@ -1,1 +1,0 @@
-CREATE TABLE merged_table AS\nSELECT * FROM table1\nUNION ALL\nSELECT * FROM table2;

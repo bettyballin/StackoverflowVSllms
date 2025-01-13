@@ -1,1 +1,0 @@
-SELECT IIf(UCASE([category]) LIKE "*ABC*", "DEF", category) AS category\n, Month\n, Sum(qty) AS [qty]\nFROM [tableX]\nGROUP BY category, Month

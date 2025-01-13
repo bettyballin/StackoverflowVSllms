@@ -1,1 +1,0 @@
-<template name="AllStructs">\n  <namespace name="${Namespace}">\n    <!-- ... -->\n    <region name="Databases">\n      <struct name="Databases" visibility="public" />\n    </region>\n  </namespace>\n</template>

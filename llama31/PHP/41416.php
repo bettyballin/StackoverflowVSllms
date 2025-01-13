@@ -1,1 +1,0 @@
-// Autoloader example (simplified)\nspl_autoload_register(function ($class) {\n    $file = __DIR__ . '/' . $class . '.php';\n    if (file_exists($file)) {\n        require_once $file;\n    }\n});

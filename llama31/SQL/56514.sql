@@ -1,1 +1,0 @@
-SELECT * FROM mytable\nWHERE MATCH (search_data) AGAINST ('word1 word2 word3' IN NATURAL LANGUAGE MODE)\nAND status = 'live';

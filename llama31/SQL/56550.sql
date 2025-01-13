@@ -1,1 +1,0 @@
-SELECT \n  Month, \n  Orders, \n  LAG(Orders) OVER (ORDER BY Month) AS Prev_Orders,\n  ((Orders - LAG(Orders) OVER (ORDER BY Month)) / LAG(Orders) OVER (ORDER BY Month)) * 100 AS Pct_Change\nFROM \n  YourTable\nORDER BY \n  Month;

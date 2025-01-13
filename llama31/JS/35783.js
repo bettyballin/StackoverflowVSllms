@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('table.grid tbody tr:nth-child(4n-1)').addClass('alt1');\n    $('table.grid tbody tr:nth-child(4n)').addClass('alt2');\n});

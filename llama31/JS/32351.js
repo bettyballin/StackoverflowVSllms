@@ -1,1 +1,0 @@
-function putText() {\n    var text = "first line\nsecond line";\n    var preTag = document.getElementById("putItHere");\n    preTag.innerText = text; // use innerText instead of innerHTML\n}

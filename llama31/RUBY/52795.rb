@@ -1,1 +1,0 @@
-question_ids = LevelsQuestion.where(level_id: 15).pluck(:question_id)\nquestions = Question.find((Question.pluck(:id) - question_ids), :select => [:id, :name])

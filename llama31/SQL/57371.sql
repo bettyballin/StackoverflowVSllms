@@ -1,1 +1,0 @@
-SELECT \n  t1.id,\n  t1.name,\n  t1.created_at,\n  t2.created_at AS parent_created_at\nFROM \n  your_table t1\n  LEFT JOIN your_table t2 ON t1.parent_id = t2.id

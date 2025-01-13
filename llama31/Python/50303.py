@@ -1,1 +1,0 @@
-import kerberos\n\ndef validate_spnego_token(token, service_principal):\n    # Initialize kerberos context\n    ctx = kerberos.authGSSServerInit(service_principal)\n\n    # Validate SPNEGO token\n    try:\n        kerberos.authGSSServerResponse(ctx, token)\n        return True\n    except kerberos.GSSError:\n        return False

@@ -1,1 +1,0 @@
-$video_id = // retrieve the video ID from the database\n$directory_path = '/path/to/videos/' . $video_id;\nif (!file_exists($directory_path)) {\n    mkdir($directory_path, 0755, true);\n}

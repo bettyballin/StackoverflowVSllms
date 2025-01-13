@@ -1,1 +1,0 @@
-var divContainsP = $("div").has("p").length > 0;

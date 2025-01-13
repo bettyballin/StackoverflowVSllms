@@ -1,1 +1,0 @@
-<module rename-to='myapp'>\n    <entry-point class='com.company.project.client.AppModule'/>\n</module>

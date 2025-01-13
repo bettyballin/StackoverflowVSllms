@@ -1,1 +1,0 @@
-CREATE TABLE item_relations (\n  item1ID INT,\n  item2ID INT,\n  sort_order INT\n);

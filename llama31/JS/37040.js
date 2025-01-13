@@ -1,1 +1,0 @@
-function addNodes() {\n  for (let i = 0; i < 100; i++) {\n    const span = document.createElement('span');\n    document.body.appendChild(span);\n  }\n  if (nodesToAdd.length > 0) {\n    requestAnimationFrame(addNodes);\n  }\n}\naddNodes();

@@ -1,1 +1,0 @@
-SELECT A.id, B.id AS food_id\nFROM A\nJOIN (\n  SELECT aid, id, ROW_NUMBER() OVER (PARTITION BY aid ORDER BY sort_key DESC) AS row_num\n  FROM B\n) B ON A.id = B.aid\nWHERE B.row_num <= 5;

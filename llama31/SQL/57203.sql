@@ -1,1 +1,0 @@
-CREATE INDEX infoblocks_parent_block_id_id_idx ON infoblocks (parent_block_id, id);

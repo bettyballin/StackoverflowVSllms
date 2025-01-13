@@ -1,1 +1,0 @@
-function fileLines($fname) {\n    $file = fopen($fname, 'r');\n    while (($line = fgets($file)) !== false) {\n        yield $line;\n    }\n    fclose($file);\n}\n\nforeach (fileLines('somefile') as $line) {\n    // process the line\n}

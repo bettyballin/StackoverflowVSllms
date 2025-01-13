@@ -1,1 +1,0 @@
-respond_to do |format|\n  # code here\nend

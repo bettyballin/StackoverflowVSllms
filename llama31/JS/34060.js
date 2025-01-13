@@ -1,1 +1,0 @@
-$(document).ready(function () {\n    $('#nav-menu li').hover(function () {\n        $(this).find('.dropdown').fadeIn();\n    }, function () {\n        $(this).find('.dropdown').fadeOut();\n    });\n});

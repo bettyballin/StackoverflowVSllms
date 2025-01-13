@@ -1,1 +1,0 @@
-$stmt = $conn->prepare("SELECT f_name, l_name, (f_name + ' ' + l_name) AS full_name\n                        FROM users_table\n                        WHERE f_name = ?\n                           OR l_name = ?\n                           OR (f_name + ' ' + l_name) = ?");\n\n$stmt->bind_param("sss", $user_input, $user_input, $user_input);\n$stmt->execute();

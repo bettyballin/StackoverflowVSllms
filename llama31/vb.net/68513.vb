@@ -1,1 +1,0 @@
-Dim comObject\nSet comObject = CreateObject("YourComObject.ProgId")\ncomObject.YourMethod()\nSet comObject = Nothing

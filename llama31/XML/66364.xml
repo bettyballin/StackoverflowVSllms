@@ -1,1 +1,0 @@
-<?xml version="1.0"?>\n<ruleset name="My Coding Standard">\n    <description>My custom coding standard</description>\n    <rule ref="PSR2.Classes.ClassDeclaration"/>\n    <rule ref="PSR2.ControlStructures.ControlStructureSpacing"/>\n    <!-- Add more rules here -->\n</ruleset>

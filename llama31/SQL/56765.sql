@@ -1,1 +1,0 @@
-ALTER TABLE TableName DROP CONSTRAINT ConstraintName

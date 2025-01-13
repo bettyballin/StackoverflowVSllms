@@ -1,1 +1,0 @@
-' Before\nDim frm As Form1 = Form1.DefInstance()\n\n' After\nDim frm As New Form1()

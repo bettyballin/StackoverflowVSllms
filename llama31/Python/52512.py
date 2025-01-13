@@ -1,1 +1,0 @@
-import requests\n\ndef check_grammar(text):\n    url = "https://api.languagetool.org/v2/check"\n    params = {\n        "language": "en-US",\n        "text": text\n    }\n    response = requests.post(url, params=params)\n    return response.json()\n\ntext = "This is a sample text with a deliberate gramatical error."\nresult = check_grammar(text)\nprint(result)

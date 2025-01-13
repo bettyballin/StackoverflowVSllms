@@ -1,1 +1,0 @@
-SELECT count(COLUMN_VALUE) into cnt From Table (mytmou);

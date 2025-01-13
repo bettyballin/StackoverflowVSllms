@@ -1,1 +1,0 @@
-$num_one = rand() % 10; // generates a random number between 0 and 9\n$num_two = rand() & 10; // performs a bitwise AND operation with 10

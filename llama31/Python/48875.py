@@ -1,1 +1,0 @@
-s = 'arbit'\nstring = 'hello world hello world hello world'.replace('hello world', f'{s} hello world')

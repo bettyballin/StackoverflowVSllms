@@ -1,1 +1,0 @@
-class Cache {\n    public function __construct($file = null, $url = null, $string = null) {\n        if ($file !== null) {\n            // handle file input\n        } elseif ($url !== null) {\n            // handle URL input\n        } elseif ($string !== null) {\n            // handle string input\n        } else {\n            // handle invalid input\n        }\n    }\n}

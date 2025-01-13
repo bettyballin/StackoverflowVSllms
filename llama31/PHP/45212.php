@@ -1,1 +1,0 @@
-$html = '<td><b>Title</td>';\n\n$doc = new DOMDocument();\nlibxml_use_internal_errors(true);\n$doc->loadHTML($html);\nlibxml_clear_errors();\n\necho $doc->saveHTML();

@@ -1,1 +1,0 @@
-var a = document.getElementById('my-div');\nvar next = a.nextSibling;\nvar prev = a.previousSibling;

@@ -1,1 +1,0 @@
-UPDATE YourTable\nSET TestTime = @NewTestTime\nWHERE ProductionCode = @ProductionCode\nAND RowVersion = @OriginalRowVersion;

@@ -1,1 +1,0 @@
-SELECT Q1.IssueID, D1.DocID\nFROM Docs AS D1, Issues AS Q1\nWHERE Q1.IssueID IN \n   ((SELECT Q2.IssueID from Issues AS Q2 where (Q2.References) Like CONCAT('%',D1.DocID,'%')));

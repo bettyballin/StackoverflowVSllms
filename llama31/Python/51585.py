@@ -1,1 +1,0 @@
-import multiprocessing\n\ndef background_process():\n    # Your command or code here\n    pass\n\nif __name__ == '__main__':\n    process = multiprocessing.Process(target=background_process)\n    process.daemon = True\n    process.start()

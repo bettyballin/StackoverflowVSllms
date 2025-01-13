@@ -1,1 +1,0 @@
-ini_set('log_errors', 1);\nini_set('error_log', 'path/to/error.log');

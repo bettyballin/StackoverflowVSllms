@@ -1,1 +1,0 @@
-try {\n    $imageContents = file_get_contents($PIC_URL);\n} catch (Exception $e) {\n    // handle error, e.g., log and return an error message\n}

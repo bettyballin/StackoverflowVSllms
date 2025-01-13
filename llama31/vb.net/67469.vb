@@ -1,1 +1,0 @@
-Dim dyn As Object = 5\ndyn = "Hello"

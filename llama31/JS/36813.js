@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  // Bind events to the parent element (e.g., the table)\n  $('#myTable').on('click', '.add-color', function() {\n    // Add color logic here\n  });\n\n  $('#myTable').on('click', '.delete-color', function() {\n    // Delete color logic here\n  });\n});

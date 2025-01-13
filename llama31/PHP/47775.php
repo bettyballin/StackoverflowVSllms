@@ -1,1 +1,0 @@
-class MyClass {\n    public static $sharedVariable = 0;\n\n    public function __construct() {}\n\n    public function updateVariable() {\n        self::$sharedVariable++;\n    }\n}\n\n$obj1 = new MyClass();\n$obj2 = new MyClass();\n\n$obj1->updateVariable();\n\nprint $obj2::$sharedVariable; // prints 1

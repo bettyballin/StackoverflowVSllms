@@ -1,1 +1,0 @@
-# config/routes.rb\nRails.application.routes.draw do\n  get '/test', to: 'test#index'\nend

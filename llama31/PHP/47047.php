@@ -1,1 +1,0 @@
-public function configure()\n{\n    $user = sfContext::getInstance()->getUser();\n    $this->setWidgets(array(\n        'graduate_job_title' => new sfWidgetFormInput(array(), array(\n            'maxlength' => 80,\n            'size' => 30,\n            'value' => $user->getAttribute('job_title')\n        ))\n    ));\n    // etc\n}

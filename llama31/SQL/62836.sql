@@ -1,1 +1,0 @@
-case \n  when trn.wid_location = 28.3 then con.empty_weight_total*0.900-1.0\n  when trn.wid_location = 29.6 then con.empty_weight_total*0.950-1.5\nend as mine

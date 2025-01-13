@@ -1,1 +1,0 @@
-CREATE FUNCTION GetCurrentDate()\nRETURNS @CurrentDate TABLE (CurrentDate datetime)\nAS\nBEGIN\n    INSERT INTO @CurrentDate (CurrentDate)\n    VALUES (GETDATE())\n    RETURN\nEND

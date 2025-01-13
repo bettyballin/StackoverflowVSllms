@@ -1,1 +1,0 @@
-def find_first_last(lst, val):\n    indices = [i for i, x in enumerate(lst) if x == val]\n    if indices:\n        return indices[0], indices[-1]\n    return None, None\n\n# Example usage:\nverts = [1, 2, 3, 12.345, 4, 5, 12.345, 6]\nfirst_idx, last_idx = find_first_last(verts, 12.345)\nprint(first_idx, last_idx)  # Output: 3 6

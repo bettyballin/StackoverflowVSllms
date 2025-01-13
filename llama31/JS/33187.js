@@ -1,1 +1,0 @@
-<sx:div id="pwcercontainer" ajax="%{pwcerAjax}" showLoadingText="false" indicator="recordImage">\n</sx:div>

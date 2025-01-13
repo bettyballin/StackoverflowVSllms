@@ -1,1 +1,0 @@
-try {\n    // Open connection\n    $db = new MySQL();\n    $db->connect();\n\n    // Interact with database\n    // ...\n\n} catch (Exception $e) {\n    // Handle error\n    // ...\n} finally {\n    // Close connection\n    $db->close();\n}

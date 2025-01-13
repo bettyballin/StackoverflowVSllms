@@ -1,1 +1,0 @@
-$sql = "SELECT *\n        FROM `myTable`\n        WHERE `id` = 4";

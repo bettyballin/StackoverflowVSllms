@@ -1,1 +1,0 @@
-SELECT p.* \nFROM Postings p \nJOIN UserPostings up ON p.PostID = up.PostID \nWHERE up.UserID = 1;

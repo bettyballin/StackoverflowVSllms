@@ -1,1 +1,0 @@
-Public Class MyClass\n    Public Sub MyMethod(x As Integer)\n    End Sub\nEnd Class\n\nPublic Class Program\n    Public Shared Sub Main()\n        Dim obj As New MyClass()\n        obj. ' VB.NET IntelliSense will suggest MyMethod, along with its parameters and return type\n    End Sub\nEnd Class

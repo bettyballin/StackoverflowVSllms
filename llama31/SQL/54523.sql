@@ -1,1 +1,0 @@
--- Drop the clustered index\nALTER TABLE t1 DROP CONSTRAINT [your_clustered_index_name];\n\n-- Update the rows\nUPDATE t1\nSET t1.groupId = t2.groupId\nFROM t1\nJOIN newtable t2 ON t1.email = t2.email;\n\n-- Recreate the clustered index\nALTER TABLE t1 ADD CONSTRAINT [your_clustered_index_name] PRIMARY KEY CLUSTERED (groupId);

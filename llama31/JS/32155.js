@@ -1,1 +1,0 @@
-dialog.onLoad = function() {\n    dojo.connect(dojo.byId('testLink'), 'onClick', function() {\n        alert('xx');\n    });\n};

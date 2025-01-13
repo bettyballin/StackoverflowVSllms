@@ -1,1 +1,0 @@
-import pandas as pd\n\n# Load a large CSV file\ndf = pd.read_csv('large_file.csv', chunksize=10 ** 6)\n\n# Process the file in chunks\nfor chunk in df:\n    # Perform operations on the chunk\n    print(chunk.head())

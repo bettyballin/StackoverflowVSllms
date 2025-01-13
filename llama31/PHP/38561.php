@@ -1,1 +1,0 @@
-$fb_uids = array(123, 456, 789, ...); // your array of Facebook user IDs\n\n$sql = "SELECT DISTINCT username FROM users WHERE fb_uid IN (" . implode(',', $fb_uids) . ")";

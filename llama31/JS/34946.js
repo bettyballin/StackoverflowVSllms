@@ -1,1 +1,0 @@
-$('.sortlist').sortable({\n  handle: '.icono',\n  connectWith: '.sortlist',\n  update: function() {\n    $('input#sortlist').val($('.sortlist').sortable('serialize'));\n  }\n});

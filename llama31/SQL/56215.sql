@@ -1,1 +1,0 @@
-CREATE TABLE Customers (\n    CustomerID NUMBER PRIMARY KEY,\n    Name VARCHAR2(100),\n    PostalCode VARCHAR2(12),  -- This accommodates various international formats\n    Country VARCHAR2(50)\n);

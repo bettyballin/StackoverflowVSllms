@@ -1,1 +1,0 @@
-$c = new Criteria();\n$c->add(FoobarPeer::CREATED_AT, "DATE_SUB(curdate(), INTERVAL 1 MONTH)", Criteria::RAW);

@@ -1,1 +1,0 @@
-$('#login-form').ajaxForm({\n    dataType: 'json',\n    success: function(response) {\n        if (response.success) {\n            // Let the server handle the redirect\n            window.location.href = response.redirect;\n        } else {\n            // Display the error message\n            $('#error-message').text(response.message);\n        }\n    }\n});

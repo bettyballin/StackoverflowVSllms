@@ -1,1 +1,0 @@
-$date = date("Y, n-1, j", strtotime($row["date"]));

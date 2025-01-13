@@ -1,1 +1,0 @@
-SELECT p.*\nFROM Products p\nINNER JOIN (\n  SELECT CategoryId, ParentCategoryId, LEVEL\n  FROM Categories\n  START WITH CategoryId = @SelectedCategoryId\n  CONNECT BY PRIOR CategoryId = ParentCategoryId\n) c ON p.CategoryId = c.CategoryId;

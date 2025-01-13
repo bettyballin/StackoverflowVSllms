@@ -1,1 +1,0 @@
-CREATE VIEW myView AS\nSELECT * FROM myTable\nWHERE myColumn > 0\nWITH CHECK OPTION;\n\nALTER VIEW myView\nADD CONSTRAINT myView_ck_myColumn CHECK (myColumn > 0);

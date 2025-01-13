@@ -1,1 +1,0 @@
-// Example using Express.js\nconst express = require('express');\nconst app = express();\n\napp.get('/api/data', (req, res) => {\n    const data = { name: 'John', age: 30 };\n    res.json(data);\n});\n\napp.listen(3000, () => {\n    console.log('Server listening on port 3000');\n});

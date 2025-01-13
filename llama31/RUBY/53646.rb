@@ -1,1 +1,0 @@
-Follow.joins(:followee, :followee_messages).where(follower_id: current_user.id)

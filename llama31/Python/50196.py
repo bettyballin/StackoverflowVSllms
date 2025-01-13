@@ -1,1 +1,0 @@
-from django.db.models import Q\n\nName.objects.filter(Q(alias__ne="") & Q(alias__isnull=False))

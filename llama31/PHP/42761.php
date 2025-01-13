@@ -1,1 +1,0 @@
-$combinedForms = array_merge($Forms, $formsShared);\nforeach ($combinedForms as $r) {\n    $("#shareform<?=$r['Form']['id'];?>").hide();\n    $(".Share<?=$r['Form']['id'];?>").click(function () {\n        $("#shareform<?=$r['Form']['id'];?>").toggle("show");\n    });\n}

@@ -1,1 +1,0 @@
-CREATE USER myuser IDENTIFIED BY mypassword;\nCREATE TABLESPACE mytablespace DATAFILE '/path/to/datafile.dbf' SIZE 1M;\nCREATE SCHEMA myschema AUTHORIZATION myuser;

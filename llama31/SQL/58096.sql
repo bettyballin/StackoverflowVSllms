@@ -1,1 +1,0 @@
-SELECT \n    LEN(your_column) AS character_length,\n    DATALENGTH(your_column) AS byte_length\nFROM your_table;

@@ -1,1 +1,0 @@
-SELECT * FROM table WHERE column LIKE '%search_term%';

@@ -1,1 +1,0 @@
-// javscript.php\nheader('Content-Type: application/javascript');\n// your dynamic JavaScript code here

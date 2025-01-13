@@ -1,1 +1,0 @@
-<Obsolete("This method is deprecated and will be removed in future versions.", True)>\nFunction MyDeprecatedFunction() As Integer\n    ' Function implementation here\nEnd Functio

@@ -1,1 +1,0 @@
-If myNode.ParentNode IsNot Nothing AndAlso myNode.ParentNode.ParentNode IsNot Nothing Then\n    Dim grandParent As XmlNode = myNode.ParentNode.ParentNode\n    If grandParent.ParentNode IsNot Nothing Then\n        Dim greatGrandParent As XmlNode = grandParent.ParentNode\n    End If\nEnd If

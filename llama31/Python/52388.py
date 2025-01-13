@@ -1,1 +1,0 @@
-L = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']\nIdx = [0, 3, 7]\nT = [L[i] for i in Idx]\nprint(T)  # Output: ['a', 'd', 'h']

@@ -1,1 +1,0 @@
-$("img").hover(\n  function() {\n    var src = $(this).attr("src");\n    $(this).attr("src", src.replace(".gif", "over.gif"));\n  },\n  function() {\n    var src = $(this).attr("src");\n    $(this).attr("src", src.replace("over.gif", ".gif"));\n  }\n);

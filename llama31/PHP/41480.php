@@ -1,1 +1,0 @@
-// module/Application/Module.php\nnamespace Application;\n\nuse Zend\ModuleManager\Feature\ConfigProviderInterface;\n\nclass Module implements ConfigProviderInterface\n{\n    public function getConfig()\n    {\n        return include __DIR__ . '/config/module.config.php';\n    }\n}

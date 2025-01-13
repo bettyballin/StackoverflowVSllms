@@ -1,1 +1,0 @@
-$photosDir = 'photos';\n$files = scandir($photosDir);\n$images = array();\n\nforeach ($files as $file) {\n    if (is_file($photosDir . '/' . $file) && preg_match('/\.(jpg|jpeg|png|gif)$/', $file)) {\n        $images[] = $file;\n    }\n}\n\nnatcasesort($images);\n\nforeach ($images as $image) {\n    echo "<li><img src=\"$photosDir/$image\" alt=\"$image\" title=\"\"></li>\n";\n}

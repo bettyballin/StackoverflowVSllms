@@ -1,1 +1,0 @@
-public function index() {\n    $this->paginate = [\n        'limit' => 50,\n        'page' => $this->request->getParam('page', 1), // default to page 1 if not set\n    ];\n    // ... rest of the index logic ...\n}

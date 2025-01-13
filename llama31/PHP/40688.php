@@ -1,1 +1,0 @@
-$query = "SELECT * FROM your_table";\n$result = mysql_query($query);\n\nwhile ($row = mysql_fetch_assoc($result)) {\n    foreach ($row as $key => $value) {\n        if (preg_match('/^timestamp/', $key)) {\n            $row[$key] = date('m/d/y', strtotime($value));\n        }\n    }\n    // display the formatted data\n    print_r($row);\n}

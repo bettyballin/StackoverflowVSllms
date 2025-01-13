@@ -1,1 +1,0 @@
-Function MyFunction(Optional ByVal param1 As String = "default value") As String\n    ' function body\nEnd Functio

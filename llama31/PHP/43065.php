@@ -1,1 +1,0 @@
-$userAgent = $_SERVER['HTTP_USER_AGENT'];\n$osInfo = preg_match('/(Windows|Macintosh|Linux|Android|iOS)/', $userAgent, $matches);\nif ($osInfo) {\n  echo $matches[0];\n}

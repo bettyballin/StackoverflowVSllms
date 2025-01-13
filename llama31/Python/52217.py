@@ -1,1 +1,0 @@
-import xml.etree.ElementTree as ET\n\n# Define the namespace\nns = {'z': 'http://schemas.microsoft.com/ado/2007/08/dataservices'}\n\n# Parse the XML file\nroot = ET.parse('myxmlfile.xml').getroot()\n\n# Use the namespace in the XPath expression\nrows = root.findall('.//z:row', ns)\n\n# Print the results\nfor row in rows:\n    print(row.attrib)

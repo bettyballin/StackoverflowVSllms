@@ -1,1 +1,0 @@
-SELECT COUNT(*) \nFROM (\n  SELECT t3.id, a,bunch,of,other,stuff \n  FROM t1, t2, t3 \n  WHERE (associate t1,t2, and t3 with each other) \n  GROUP BY t3.id\n) AS subquery;

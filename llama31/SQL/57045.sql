@@ -1,1 +1,0 @@
-select type, craft, sum(regular + NVL(overtime, 0)) as total_hours\nfrom hours_t\ngroup by type, craft\norder by type, craft

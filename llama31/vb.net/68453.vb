@@ -1,1 +1,0 @@
-Dim key As String = "1234567890abcdef"\nDim aes As New AESCrypt(key)\n\nDim plaintext As String = "aaaaaaaaaaaaaaaaaaaa"\nDim ciphertext As String = aes.Encrypt(plaintext)\nConsole.WriteLine(ciphertext)\n\nDim decrypted As String = aes.Decrypt(ciphertext)\nConsole.WriteLine(decrypted)

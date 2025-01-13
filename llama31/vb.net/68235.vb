@@ -1,1 +1,0 @@
-myDelegate = New LogMessageDelegate(AddressOf log.ErrorFormat)

@@ -1,1 +1,0 @@
-<Realm className="org.apache.catalina.realm.JNDIRealm"\n       connectionURL="ldap://your-win2003-server-ip:389"\n       connectionName="your-ldap-username"\n       connectionPassword="your-ldap-password"\n       userBase="CN=Users,DC=your-domain,DC=com"\n       userSearch="(sAMAccountName={0})"\n       roleBase="CN=Users,DC=your-domain,DC=com"\n       roleSearch="(member={0})"/>

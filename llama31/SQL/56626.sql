@@ -1,1 +1,0 @@
-SELECT LEFT(REPLACE(CONVERT(VARCHAR(50), NEWID(), 2), '-', ''), 16) AS HexadecimalNumber

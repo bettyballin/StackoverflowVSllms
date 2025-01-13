@@ -1,1 +1,0 @@
-$data = array('personName' => 'John', 'personAge' => 99, 'personId' => 1, /* many more data I don't need here ... */);\n$wantedKeys = array('personName', 'personAge', 'personId');\n\n$filteredArray = array_intersect_key($data, array_flip($wantedKeys));\n\nprint_r($filteredArray);

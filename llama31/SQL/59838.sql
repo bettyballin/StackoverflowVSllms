@@ -1,1 +1,0 @@
-SELECT a.aid, a.name, array_agg(s.sid) AS sids, array_agg(s.length) AS lengths\nFROM albums a\nJOIN songs s ON a.aid = s.aid\nWHERE a.aid IN (1, 2, 3)\nGROUP BY a.aid, a.name;

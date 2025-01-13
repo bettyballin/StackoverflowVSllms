@@ -1,1 +1,0 @@
-def round_to_nearest100(num):\n    return (num + 50) // 100 * 100

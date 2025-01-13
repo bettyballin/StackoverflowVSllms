@@ -1,1 +1,0 @@
-TRANSFORM MAX(Setuptime)\nSELECT Plant, Material\nFROM tmp\nGROUP BY Plant, Material\nPIVOT Workcenter;

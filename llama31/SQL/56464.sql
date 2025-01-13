@@ -1,1 +1,0 @@
-SELECT STRING_AGG(your_column_name, ',') AS result\nFROM your_table_name

@@ -1,1 +1,0 @@
-// Client-side JavaScript\n$.ajax({\n    type: "POST",\n    url: "MyService.asmx/GetData",\n    data: "id=1",\n    contentType: "application/json; charset=utf-8",\n    dataType: "json",\n    success: function(response) {\n        console.log(response); // {"name":"John","age":30}\n    }\n});

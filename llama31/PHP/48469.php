@@ -1,1 +1,0 @@
-$urlParts = explode('-', $uniqueSlug);\n$slug = implode('-', array_slice($urlParts, 0, -1)); // extracts "john-adams"\n$userId = (int) end($urlParts); // extracts 123

@@ -1,1 +1,0 @@
-from django.db.models import Count\n\nPlayer.objects.values('player_type').annotate(count=Count('player_type'))

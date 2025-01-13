@@ -1,1 +1,0 @@
-class MyController < ApplicationController\n  def index\n    # Render JSON response\n    respond_to do |format|\n      format.json { render json: { message: 'Hello, World!' } }\n    end\n  end\n\n  def index_xml\n    # Render XML response\n    respond_to do |format|\n      format.xml { render xml: '<message>Hello, World!</message>' }\n    end\n  end\nend

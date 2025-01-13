@@ -1,1 +1,0 @@
-if ($line != "\n" && $line != "\r") {\n    // process the line\n}

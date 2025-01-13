@@ -1,1 +1,0 @@
-$token = bin2hex(random_bytes(16));\n$timestamp = time();\n$_SESSION['submit_token'] = $token;\n$_SESSION['submit_timestamp'] = $timestamp;\n\n// ...\n\nif ($_POST['submit_token'] === $_SESSION['submit_token'] && time() - $_SESSION['submit_timestamp'] > 10) {\n    // Process the form submission\n    // ...\n}

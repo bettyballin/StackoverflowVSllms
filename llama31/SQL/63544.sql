@@ -1,1 +1,0 @@
-SELECT m.*\nFROM movies m\nLEFT JOIN seen s ON m.id = s.movie_id AND s.user_id = 123\nWHERE s.movie_id IS NULL;

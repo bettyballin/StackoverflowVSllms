@@ -1,1 +1,0 @@
-$data = null;\n$getters = [\n    fn () => obj->getData(),\n    fn () => othObj->getThisData(),\n    fn () => anothObj->getTheData(),\n    fn () => anothOne->getAData(),\n];\n\nforeach ($getters as $getter) {\n    if ($data = $getter()) {\n        break;\n    }\n}\n\nprocess($data);

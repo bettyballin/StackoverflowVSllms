@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    Sys.CultureInfo.prototype._getAbbrMonthIndex = function(value)\n    {\n        if (!this._upperAbbrMonths) {\n            this._upperAbbrMonths = this._toUpperArray(this.dateTimeFormat.AbbreviatedMonthNames);\n        }\n        return Array.indexOf(this._upperAbbrMonths, this._toUpper(value));\n    };\n</script>

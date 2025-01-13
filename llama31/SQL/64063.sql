@@ -1,1 +1,0 @@
-CREATE TABLE mytable (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(50) NOT NULL,\n    email VARCHAR(100) UNIQUE NOT NULL\n);

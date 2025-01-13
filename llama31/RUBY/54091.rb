@@ -1,1 +1,0 @@
-Rails.application.configure do\n  # ...\n  config.session_store = :active_record_store, database: 'shared_database'\nend

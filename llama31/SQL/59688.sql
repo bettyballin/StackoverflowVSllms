@@ -1,1 +1,0 @@
-SELECT t1.date, t1.value, t1.check\nFROM your_table t1\nLEFT JOIN (\n  SELECT date\n  FROM your_table\n  WHERE check = 0\n  ORDER BY date DESC\n  FETCH FIRST 1 ROW ONLY\n) t2\nON t1.date > t2.date\nWHERE t2.date IS NULL\nORDER BY t1.date DESC;

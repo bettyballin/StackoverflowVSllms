@@ -1,1 +1,0 @@
-Private Sub SortBindingSource()\n    Dim sortString As String = "YourColumnName DESC" ' Change to your desired sort column and direction\n    BindingSource1.Sort = sortString\n    ReportViewer1.RefreshReport()\nEnd Sub

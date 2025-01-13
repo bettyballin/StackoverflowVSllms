@@ -1,1 +1,0 @@
-<?php\nif (!extension_loaded('win32_auth')) {\n    dl('php_win32_auth.dll');\n}\n\n$domain = ''; // leave blank for local machine\n$username = $_POST['username'];\n$password = $_POST['password'];\n\nif (win32_auth_authenticate($domain, $username, $password)) {\n    echo "Authentication successful";\n} else {\n    echo "Authentication failed";\n}\n?>

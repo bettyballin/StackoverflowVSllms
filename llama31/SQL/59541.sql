@@ -1,1 +1,0 @@
-DECLARE @value INT\nSET @value = 14\n\nSELECT DISTINCT \n    t1.id,\n    t2.name AS column1,\n    t3.name AS column2\nFROM \n    Table1 t1\nINNER JOIN \n    Table2 t2 ON t1.column1 = t2.id\nINNER JOIN \n    Table2 t3 ON t1.column2 = t3.id\nWHERE \n    t1.id = @value

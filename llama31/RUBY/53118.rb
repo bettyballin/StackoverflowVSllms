@@ -1,1 +1,0 @@
-event_participants.sort! { |a, b| Participant.field_event_sort(a, b) }\n\nclass Participant\n  def self.field_event_sort(a, b)\n    a_parts = a.time_distance.split(/[:.]/).map(&:to_i)\n    b_parts = b.time_distance.split(/[:.]/).map(&:to_i)\n\n    a_parts <=> b_parts\n  end\nend

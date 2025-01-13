@@ -1,1 +1,0 @@
-var bclick = function(foo, bar){\n  alert(foo + "  " + bar + "\n");\n}\n\n$("button").click(function(){\n  bclick("Button", "Clicked");\n});

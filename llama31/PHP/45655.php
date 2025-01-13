@@ -1,1 +1,0 @@
-class Item\n{\n    // ...\n    private $price;\n\n    public function getPrice()\n    {\n        return $this->price;\n    }\n\n    public function setPrice($price)\n    {\n        $this->price = $price;\n    }\n}

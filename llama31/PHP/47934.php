@@ -1,1 +1,0 @@
-$output = array();\nexec('path/to/your/file.cmd', $output);\nprint_r($output);

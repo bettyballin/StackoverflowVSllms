@@ -1,1 +1,0 @@
-Ajax.Request.prototype._originalOnSuccess = Ajax.Request.prototype.onSuccess;\nAjax.Request.prototype.onSuccess = function(response) {\n  // Call your function to check the response\n  yourFunctionToCheckResponse(response);\n  \n  // Call the original onSuccess handler\n  this._originalOnSuccess(response);\n};

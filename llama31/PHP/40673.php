@@ -1,1 +1,0 @@
-use Ifsnop\Mysqldump\Mysqldump;\n\n$database = 'your_database_name';\n$username = 'your_database_username';\n$password = 'your_database_password';\n$host = 'your_database_host';\n\n$dump = new Mysqldump($database, $username, $password, $host);\n$dump->start('backup.sql');

@@ -1,1 +1,0 @@
-Imports System.Runtime.CompilerServices\n\nNamespace Base\n    <InternalsVisibleTo("Base")>\n    Public Class BaseElement\n        Friend ReadOnly Property SubElements() As BaseElements\n            ' implementation\n        End Property\n    End Class\nEnd Namespace

@@ -1,1 +1,0 @@
-SELECT u.*\nFROM User u\nLEFT JOIN Key k ON u.userid = k.userid\nLEFT JOIN Laptop l ON u.userid = l.userid\nWHERE k.userid IS NOT NULL OR l.userid IS NOT NULL;

@@ -1,1 +1,0 @@
-SELECT DISTINCT word\nFROM (\n  SELECT value AS word\n  FROM (\n    SELECT SPLIT(description, ' ') AS words\n    FROM your_table\n  ) AS t\n  CROSS APPLY STRING_SPLIT(words, ' ')\n) AS words

@@ -1,1 +1,0 @@
-import unittest\n\nclass CalculatorTest(unittest.TestCase):\n    def test_addition(self):\n        calculator = Calculator()\n        self.assertEqual(2 + 2, calculator.add(2, 2))\n\n    def test_subtraction(self):\n        calculator = Calculator()\n        self.assertEqual(2 - 2, calculator.subtract(2, 2))

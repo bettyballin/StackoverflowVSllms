@@ -1,1 +1,0 @@
-Private Declare Function WNetAddConnection2 Lib "mpr.dll" Alias "WNetAddConnection2A" (lpLocalName As String, lpRemoteName As String, lpProvider As String, lpPassword As String, dwFlags As Long, dwType As Long) As Long\n\nDim uncPath As String\n\nuncPath = "\\server\share\folder"\n\nWNetAddConnection2 "", uncPath, "", "", 0&, 1&

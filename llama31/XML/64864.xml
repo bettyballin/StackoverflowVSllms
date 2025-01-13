@@ -1,1 +1,0 @@
-<bindings>\n    <netMsmqBinding>\n        <binding>\n            <reliableSession ordered="true" />\n        </binding>\n    </netMsmqBinding>\n</bindings>

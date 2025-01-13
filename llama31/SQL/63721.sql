@@ -1,1 +1,0 @@
-CREATE TABLE mytable (\n    id INT PRIMARY KEY,\n    name VARCHAR(50) NOT NULL, -- reasonable size for a name column\n    data VARBINARY(1024) NOT NULL -- reasonable size for binary data\n);

@@ -1,1 +1,0 @@
-DECLARE @nRecords INT = DATEDIFF(d,'2009-01-01',getdate())\n\n;WITH Numbers AS\n(\n    SELECT 1 AS Number\n    UNION ALL\n    SELECT Number + 1\n    FROM Numbers\n    WHERE Number < @nRecords\n)\nINSERT INTO YourTable (identity, column2, column3)\nSELECT Number, 0, 1\nFROM Numbers\nOPTION (MAXRECURSION 0)

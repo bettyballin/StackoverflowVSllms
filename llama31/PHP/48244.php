@@ -1,1 +1,0 @@
-class cBar {\n    function foobar() {\n        // Code\n    }\n}

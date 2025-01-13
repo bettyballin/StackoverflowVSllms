@@ -1,1 +1,0 @@
-f = open('example.txt', 'w', newline='')\nf.write('Hello, World!\n')\nf.close()

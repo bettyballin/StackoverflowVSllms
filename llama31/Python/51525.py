@@ -1,1 +1,0 @@
-# example.py\nx = 5\ny = x * 2\nprint(y)

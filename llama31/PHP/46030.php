@@ -1,1 +1,0 @@
-$domains = array('example.com', 'test.com', 'example.net', 'foo.bar');\n$x = 'example';\n\n$filteredDomains = array_filter($domains, function($domain) use ($x) {\n    return strpos($domain, $x) === false;\n});\n\nprint_r($filteredDomains);

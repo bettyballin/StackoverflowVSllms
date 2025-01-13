@@ -1,1 +1,0 @@
-libxml_use_internal_errors(true);\n$xmlDoc = new DomDocument;\n$xmlDoc->loadHTML($fetchResult);\n$errors = libxml_get_errors();\nlibxml_clear_errors();\n\n// Handle the errors\nforeach ($errors as $error) {\n    // Do something with the error\n    echo "Error: {$error->message}\n";\n}

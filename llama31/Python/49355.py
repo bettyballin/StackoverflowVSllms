@@ -1,1 +1,0 @@
-adjusted = []\nfor number in vari:\n    adjusted.append(number - (number * r))\nadjusted.extend(fix)\nadjusted.append(x)

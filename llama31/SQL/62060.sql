@@ -1,1 +1,0 @@
-CREATE UNIQUE INDEX unique_pair ON your_table (LEAST(TeamA, TeamB), GREATEST(TeamA, TeamB));

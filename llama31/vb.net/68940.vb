@@ -1,1 +1,0 @@
-Imports System.Linq\n\nDim array1() As Integer = {1, 2, 3, 4, 5}\nDim array2() As Integer = {4, 5, 6, 7, 8}\n\nDim commonElements() As Integer = array1.Intersect(array2).ToArray()\n\nFor Each element As Integer In commonElements\n    Console.WriteLine(element)\nNext

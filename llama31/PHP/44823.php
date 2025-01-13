@@ -1,1 +1,0 @@
-$item1 = new Zend_Form_Element_Checkbox('item');\n$item1->setName('item[]')\n      ->setIsArray(true)\n      ->setBelongsTo('');\n\n$item2 = new Zend_Form_Element_Checkbox('item');\n$item2->setName('item[]')\n      ->setIsArray(true)\n      ->setBelongsTo('');\n\n$form = new Zend_Form();\n$form->addElement($item1);\n$form->addElement($item2);

@@ -1,1 +1,0 @@
-jQuery('.class0 input')\n    .focus(function() {\n        jQuery(this).parents('.class1').addClass("special_class");\n        jQuery(this).parent().prev('.class3').addClass("special_class_1");\n        jQuery(this).addClass("special_class_2");\n    });

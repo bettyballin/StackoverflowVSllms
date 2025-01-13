@@ -1,1 +1,0 @@
-<system.web>\n  <hostingEnvironment>\n    <add name="DynamicPageProvider" type="YourNamespace.DynamicPageProvider" />\n  </hostingEnvironment>\n</system.web>

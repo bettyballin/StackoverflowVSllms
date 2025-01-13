@@ -1,1 +1,0 @@
-SELECT *\nFROM original_table\nLEFT JOIN deleted_records ON original_table.id = deleted_records.record_id\nWHERE deleted_records.id IS NULL;

@@ -1,1 +1,0 @@
-$url = 'https://example.com/path?a=1&b=2';\n$parsedUrl = parse_url($url);\n$cleanUrl = $parsedUrl['scheme'] . '://' . $parsedUrl['host'] . $parsedUrl['path'];\n\necho $cleanUrl; // Output: https://example.com/path

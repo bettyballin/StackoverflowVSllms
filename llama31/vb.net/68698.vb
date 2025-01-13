@@ -1,1 +1,0 @@
-Using someClass As New SomeClass\n    someClass.SomeMethod()\nEnd Using

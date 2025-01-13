@@ -1,1 +1,0 @@
-$.ajax({\n    type: "POST",\n    url: "Services/ProfileService.asmx/Select",\n    dataType: "json",\n    data: JSON.stringify({ login: 'DOMAIN\\USER1' }),\n    contentType: "application/json; charset=utf-8",\n    success: function(msg){ alert(msg); },\n    error: function(xhr){ alert(xhr.statusText);}\n});

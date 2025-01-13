@@ -1,1 +1,0 @@
-SELECT *\nFROM logging_table\nWHERE CONVERT(TIME, datetime_field) > '17:00:00'

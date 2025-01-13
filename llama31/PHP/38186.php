@@ -1,1 +1,0 @@
-if ($provider == '') {\n    redirect(site_url('provider1'), 'location');\n}

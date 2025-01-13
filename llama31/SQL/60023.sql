@@ -1,1 +1,0 @@
-EXPLAIN PLAN FOR\nEXECUTE my_procedure(arg1, arg2, ...);

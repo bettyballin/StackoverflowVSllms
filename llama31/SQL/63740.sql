@@ -1,1 +1,0 @@
-DECLARE @PageSize INT = 10;\nDECLARE @PageNumber INT = 1;\n\nWITH PaginatedCTE AS (\n  SELECT TOP ((@PageNumber * @PageSize)) *\n  FROM YourTable\n  ORDER BY Operator, CustomerIdentifier, DateDisconnected\n)\nSELECT TOP (@PageSize) *\nFROM PaginatedCTE\nORDER BY Operator, CustomerIdentifier, DateDisconnected;

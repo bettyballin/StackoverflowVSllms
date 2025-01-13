@@ -1,1 +1,0 @@
-ob_start();\ninclude "script.php";\n$out = ob_get_clean();\n\n// Remove the Location header\nheader_remove('Location');\n\necho $out;

@@ -1,1 +1,0 @@
-// In your plugin\n$view->keywords = 'global,generic,keywords,';\n\n// In your view script\n$this->headMeta()->setName('keywords', $this->keywords . 'view,specific,keywords');

@@ -1,1 +1,0 @@
-$array = [];\nforeach ($data as $item) {\n    $array[] = $item->toString();\n}\n$result = implode('', $array);

@@ -1,1 +1,0 @@
-$text = file_get_contents('yourfile.txt');\necho '<div style="white-space: pre">' . htmlspecialchars($text) . '</div>';

@@ -1,1 +1,0 @@
-$(".link").click(function () {\n  var divId = $(this).data("div-id");\n  $(".myDiv").hide();\n  $("#" + divId).toggle();\n});

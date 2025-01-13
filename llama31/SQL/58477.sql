@@ -1,1 +1,0 @@
-CREATE DATABASE [SnapshotDB] AS SNAPSHOT OF [SourceDB];

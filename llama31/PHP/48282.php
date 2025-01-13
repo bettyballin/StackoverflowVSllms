@@ -1,1 +1,0 @@
-function get_numbers($rest_number, $result = array()) {\n    $found_number = pow(2, floor(log($rest_number, 2)));\n    $result[] = $found_number;\n    if ($rest_number - $found_number > 0) {\n        return get_numbers($rest_number - $found_number, $result);\n    } else {\n        return $result;\n    }\n}\n\n$number_array_recursive = get_numbers($number);

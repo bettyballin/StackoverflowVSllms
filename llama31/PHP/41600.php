@@ -1,1 +1,0 @@
-while ($rowr = mysql_fetch_row($values)) {\n    for ($j=0;$j<$i;$j++) {\n        if (strpos($rowr[$j], ',') !== false || strpos($rowr[$j], '"') !== false) {\n            $csv_output .= '"' . str_replace('"', '""', $rowr[$j]) . '",';\n        } else {\n            $csv_output .= $rowr[$j] . ',';\n        }\n    }\n    $csv_output .= "\n";\n}

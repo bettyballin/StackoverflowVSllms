@@ -1,1 +1,0 @@
-require 'active_support/core_ext/string'\n\nclass_name = "ThisIsMyString"\nformatted_string = class_name.underscore\n\nputs formatted_string  # Outputs: "this_is_my_string"

@@ -1,1 +1,0 @@
-$file = fopen(date("Y-m-d") . ".txt", "r+") or exit("Unable to open file!");\n$existingContent = fread($file, filesize(date("Y-m-d") . ".txt"));\nREWIND($file);\nif ($_POST["lastname"] <> "") {\n    fwrite($file, $_POST["lastname"] . "\n" . $existingContent);\n}\nfclose($file);

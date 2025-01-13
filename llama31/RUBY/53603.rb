@@ -1,1 +1,0 @@
-client = SOAP::RPC::Driver.new(url, 'http://removed')\nclient.options['protocol.http.ssl_config.verify_mode'] = OpenSSL::SSL::VERIFY_NONE

@@ -1,1 +1,0 @@
-$wgOut->addWikiText('<form action="' . $wgScript . '" method="get">\n<input type="hidden" name="title" value="Special:Export"/>\n<input type="hidden" name="pages" value="' . $wgTitle->getPrefixedText() . '"/>\n<input type="submit" value="Export as XML"/>\n</form>');

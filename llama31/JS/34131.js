@@ -1,1 +1,0 @@
-$.ajax({\n  type: 'GET',\n  url: callUrl,\n  dataType: 'json',\n  success: function(data) {\n    console.log(typeof data);\n    $.each(data.items, function(i, item) {\n      console.log(i);\n    });\n  }\n});

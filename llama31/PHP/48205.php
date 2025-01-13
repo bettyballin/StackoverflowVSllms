@@ -1,1 +1,0 @@
-if (ftp_errno($conn_id) !== 0) {\n    $error_message = ftp_strerror(ftp_errno($conn_id));\n    echo "FTP error: $error_message\n";\n}

@@ -1,1 +1,0 @@
-const url = 'https://example.com/resource.js?v=' + Date.now();

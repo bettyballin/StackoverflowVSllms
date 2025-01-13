@@ -1,1 +1,0 @@
-SELECT \n    m.definition\nFROM\n    [server1].MyDatabase.sys.sql_modules m\nINNER JOIN\n    [server1].MyDatabase.sys.objects o ON m.object_id = o.object_id\nLEFT JOIN\n    [server2].MyDatabase.sys.objects o2 ON o.name = o2.name\nWHERE\n    o2.name is null AND o.type = 'P';

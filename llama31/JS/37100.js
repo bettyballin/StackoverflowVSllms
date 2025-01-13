@@ -1,1 +1,0 @@
-// Using jQuery\n$.ajaxSetup({\n  headers: {\n    'X-Frame-Options': 'DENY'\n  }\n});\n\n// Using Dojo\ndojo.xhr.setRequestHeader('X-Frame-Options', 'DENY');\n\n// Using YUI\nY.io.header('X-Frame-Options', 'DENY');\n\n// Using ExtJS\nExt.Ajax.setDefaultHeaders({\n  'X-Frame-Options': 'DENY'\n});

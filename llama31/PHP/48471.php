@@ -1,1 +1,0 @@
-$username = 'John Adams';\n$userId = 123;\n\n$slug = slugify($username); // generates "john-adams"\n$uniqueSlug = $slug . '-' . $userId; // generates "john-adams-123"\n\n$url = 'https://me.com/' . $uniqueSlug;

@@ -1,1 +1,0 @@
-// Assuming your ul has an id="myList"\n$("#myList li:not(:first-child,:last-child)").remove();

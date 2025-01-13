@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_avoid_multiples_of_13\nON Comments\nINSTEAD OF INSERT\nAS\nBEGIN\n    IF (SELECT ID FROM inserted) % 13 = 0\n    BEGIN\n        RAISERROR ('Cannot insert multiple of 13', 16, 1);\n        ROLLBACK TRANSACTION;\n    END\n    ELSE\n    BEGIN\n        INSERT INTO Comments (ID, Comment)\n        SELECT ID, Comment\n        FROM inserted;\n    END\nEND;

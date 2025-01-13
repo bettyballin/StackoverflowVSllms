@@ -1,1 +1,0 @@
-DECLARE @ReportParameter nvarchar(50)\nSET @ReportParameter = 'Your Data'

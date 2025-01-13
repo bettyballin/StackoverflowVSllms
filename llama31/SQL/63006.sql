@@ -1,1 +1,0 @@
-CREATE TABLE Orders (\n    OrderID INT IDENTITY(1,1) PRIMARY KEY,\n    CustomerID INT,\n    OrderDate DATE,\n    OrderNumber INT\n);\n\nCREATE TRIGGER trg_UpdateOrderNumber\nON Orders\nAFTER INSERT\nAS\nBEGIN\n    UPDATE o\n    SET o.OrderNumber = (SELECT MAX(OrderNumber) + 1 FROM Orders)\n    FROM Orders o\n    INNER JOIN inserted i ON o.OrderID = i.OrderID\nEND;

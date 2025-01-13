@@ -1,1 +1,0 @@
-Dim value As Integer = ' generated value\nDim imageName As String = "image" & value.ToString() & ".gif"\nPictureBox1.Image = Image.FromFile(imageName)

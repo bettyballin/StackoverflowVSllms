@@ -1,1 +1,0 @@
-<%= image_tag('image.jpg', lazy_load: true) %>

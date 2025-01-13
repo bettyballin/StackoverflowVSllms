@@ -1,1 +1,0 @@
-$xml = simplexml_load_string($xml_string);\necho $xml->getName(); // get root element name\necho $xml->attributes()->attributeName; // get attribute value

@@ -1,1 +1,0 @@
-// Use a library like Composer to check for updates\n$composer = new Composer();\nif ($composer->hasUpdates()) {\n    die('Updates available, please run composer update');\n}

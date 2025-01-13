@@ -1,1 +1,0 @@
-// Get the session ID from the query parameter\n$sessionId = $_GET['session_id'];\n\n// Set the session ID\nsession_id($sessionId);\n\n// Start the session\nsession_start();

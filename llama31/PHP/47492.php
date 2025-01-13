@@ -1,1 +1,0 @@
-function extractBeforeForbidden($str, $forbiddenChars) {\n    $result = '';\n    for ($i = 0; $i < strlen($str); $i++) {\n        if (in_array($str[$i], $forbiddenChars)) {\n            break;\n        }\n        $result .= $str[$i];\n    }\n    return $result;\n}\n\n$chars = array("a", "b", "c");\n$str = 'log dog hat bat';\necho extractBeforeForbidden($str, $chars);

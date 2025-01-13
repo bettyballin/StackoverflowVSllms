@@ -1,1 +1,0 @@
--- Analyze database performance\nSELECT \n    query_stats.query_text,\n    query_stats.execution_count,\n    query_stats.total_logical_reads,\n    query_stats.total_logical_writes,\n    query_stats.total_cpu_time,\n    query_stats.total_elapsed_time\nFROM \n    sys.dm_exec_query_stats AS query_stats\nCROSS APPLY \n    sys.dm_exec_sql_text(query_stats.sql_handle) AS query_text;

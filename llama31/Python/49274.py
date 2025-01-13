@@ -1,1 +1,0 @@
-import PyPDF2\n\nwith open('sample.pdf', 'rb') as f:\n    pdf = PyPDF2.PdfFileReader(f)\n    text = ''\n    for page in pdf.pages:\n        text += page.extractText()\n    print(text)

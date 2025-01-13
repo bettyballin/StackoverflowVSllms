@@ -1,1 +1,0 @@
-CREATE PROCEDURE sp_MyProcedure\nAS\nBEGIN\n    -- procedure code here\n    OPTION (RECOMPILE)\nEND

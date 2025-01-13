@@ -1,1 +1,0 @@
-// Create a hidden iframe\nvar iframe = document.createElement('iframe');\niframe.style.display = 'none';\ndocument.body.appendChild(iframe);\n\n// Set the src attribute to the URL of your download script\niframe.src = 'download.php?file=' + msg + '&properFilename=' + properFileName;

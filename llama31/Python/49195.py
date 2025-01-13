@@ -1,1 +1,0 @@
-from collections import deque\n\ninitial_capacity = 1000\nmy_deque = deque(maxlen=initial_capacity)

@@ -1,1 +1,0 @@
-UPDATE lessonstatus\nINNER JOIN user ON lessonstatus.user_id = user.user_id\nLEFT JOIN lessonstatus ls2 ON lessonstatus.lesson_id = ls2.lesson_id AND ls2.user_id = 1\nSET user_id = (SELECT user_id FROM user WHERE username = 'too_many_accounts')\nWHERE last_name = 'stupid'\nAND first_name = 'user'\nAND username != 'too_many_accounts'\nAND ls2.lesson_id IS NULL;

@@ -1,1 +1,0 @@
-$zip_array = array();\nforeach ($zip->result_array() as $row) {\n    $zip_array[] = $row['zip'];\n}

@@ -1,1 +1,0 @@
-<configuration>\n  <connectionStrings>\n    <add name="MyConnectionString" connectionString="..." providerName="System.Data.SqlClient">\n      <encrypt enabled="true" certificateThumbprint="your_cert_thumbprint" />\n    </add>\n  </connectionStrings>\n</configuration>

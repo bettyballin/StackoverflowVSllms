@@ -1,1 +1,0 @@
-SELECT index_name, index_type\nFROM all_indexes\nWHERE table_name = 'your_table_name';

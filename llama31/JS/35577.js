@@ -1,1 +1,0 @@
-$.ajax({\n    type: 'POST',\n    url: 'check_sheet_number.php',\n    data: { sheetNumber: 'example_sheet_number' },\n    success: function(response) {\n        if (response === 'true') {\n            console.log('SheetNumber exists!');\n        } else {\n            console.log('SheetNumber does not exist!');\n        }\n    }\n});

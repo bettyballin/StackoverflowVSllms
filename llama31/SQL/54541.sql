@@ -1,1 +1,0 @@
-SELECT E.EventID, E.EventType, WS.Time\nFROM Events E\nJOIN Schedules S ON E.EventID = S.EventID\nJOIN WeeklySchedules WS ON S.ScheduleID = WS.ScheduleID\nWHERE WS.DayOfWeek = WEEKDAY(CURDATE()) + 1; -- Adjust according to your SQL dialect's date handling

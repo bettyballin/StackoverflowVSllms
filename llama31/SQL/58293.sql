@@ -1,1 +1,0 @@
-CREATE TYPE id_coll IS TABLE OF NUMBER;\n\n-- create a collection instance\nDECLARE\n  id_list id_coll := id_coll(1, 2, 3, ..., 1001, 1002, ...);\nBEGIN\n  -- use the collection in the IN clause\n  SELECT * FROM table1 WHERE ID IN (SELECT COLUMN_VALUE FROM TABLE(id_list));\nEND;

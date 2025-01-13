@@ -1,1 +1,0 @@
-// In your form page (form_page.php)\nif (isset($_SESSION['message'])) {\n    echo $_SESSION['message'];\n    unset($_SESSION['message']); // Clear the message after displaying it\n}

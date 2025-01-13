@@ -1,1 +1,0 @@
-<?php\n$refdomain = $_GET['refdomain'];\n$page = $_GET['page'];\n\n// Load content from database based on $refdomain and $page\n$content = load_content_from_db($refdomain, $page);\n\n// Serve the content\necho $content;

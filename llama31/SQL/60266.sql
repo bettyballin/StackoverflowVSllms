@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetTotalOrderValue\n    @CustomerId INT\nAS\nBEGIN\n    SELECT SUM(OrderTotal) \n    FROM Orders \n    WHERE CustomerId = @CustomerId;\nEND;

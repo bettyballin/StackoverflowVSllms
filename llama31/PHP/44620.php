@@ -1,1 +1,0 @@
-$r[0] = ($idd == 1021) ? '<img src="IMAGE_URL">' : '';

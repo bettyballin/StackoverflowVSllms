@@ -1,1 +1,0 @@
-<?php\n// Set the locale\nsetlocale(LC_ALL, 'en_US.UTF-8');\n\n// Bind the domain (your translation files)\nbindtextdomain('mydomain', './locale');\ntextdomain('mydomain');\n\n// Use the _() function to translate strings\necho _('Hello World');\n?>

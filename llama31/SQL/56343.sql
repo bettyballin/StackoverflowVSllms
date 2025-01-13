@@ -1,1 +1,0 @@
-INSERT INTO MY_DATA.my_table (column1, column2, ...)\nSELECT column1, column2, ...\nFROM CORE_DATA.core_table;

@@ -1,1 +1,0 @@
-Provider.php\n{\n    $answer = getAnswer($_GET['data']);\n    ob_start();\n    echo $answer;\n    ob_end_flush();\n    // SIGNAL TO REQUESTER THAT WE ARE FINISHED\n    header('Connection: close');\n    header('Content-Length: '.ob_get_length());\n    ob_end_clean();\n    flush();\n\n    // CONTINUE PROCESSING UPDATES\n    processDBUpdates();\n    return;\n}

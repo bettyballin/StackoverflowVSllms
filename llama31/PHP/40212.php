@@ -1,1 +1,0 @@
-if (isset($_GET['destroy'])) {\n    session_destroy();\n} else {\n    session_start();\n}

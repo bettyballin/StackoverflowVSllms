@@ -1,1 +1,0 @@
-SELECT     tblEntities.EntityID, tblEntities.ShortName, tblScheduling.ScheduleID\nFROM         tblEntities\nLEFT OUTER JOIN tblScheduling\nON tblScheduling.EntityID = tblEntities.EntityID\nAND tblScheduling.SchedulingYearID = @SchedulingYearID\nWHERE     (tblEntities.Active = 1)\nORDER BY tblEntities.EntityID

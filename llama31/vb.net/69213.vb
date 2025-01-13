@@ -1,1 +1,0 @@
-If condition Then\n    PictureBox1.SizeMode = PictureBoxSizeMode.AutoSize\n    PictureBox1.Image.RotateFlip(RotateFlipType.Rotate180FlipNone)\n    PictureBox1.SizeMode = PictureBoxSizeMode.Normal\nEnd If

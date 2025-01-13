@@ -1,1 +1,0 @@
-CREATE TABLE ProductPrices (\n  ProductID INT NOT NULL,\n  CompanyID INT NOT NULL,\n  PriceType VARCHAR(10) NOT NULL,\n  Price DECIMAL(10, 2) NOT NULL,\n  SaleStartDate DATE NULL,\n  SaleEndDate DATE NULL,\n  PRIMARY KEY (ProductID, CompanyID, PriceType),\n  FOREIGN KEY (ProductID) REFERENCES Products(ProductID),\n  FOREIGN KEY (CompanyID) REFERENCES Companies(CompanyID)\n);

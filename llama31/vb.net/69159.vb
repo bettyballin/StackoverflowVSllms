@@ -1,1 +1,0 @@
-Function BinaryToInteger(binaryString As String) As Integer\n    Return Convert.ToInt32(binaryString, 2)\nEnd Functio

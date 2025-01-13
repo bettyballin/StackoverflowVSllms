@@ -1,1 +1,0 @@
-$randomNumber = random_int(0, 100);

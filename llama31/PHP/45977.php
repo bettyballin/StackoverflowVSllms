@@ -1,1 +1,0 @@
-error_reporting(E_ALL);\n\nclass ClassName {\n    public $varName = 'foo';\n}

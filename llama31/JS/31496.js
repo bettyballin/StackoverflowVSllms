@@ -1,1 +1,0 @@
-$(function() {\n    $("#draggable").draggable({\n        containment: "#container", // Define a container to restrict the movement\n        scroll: false // Prevent scrolling while dragging\n    });\n});

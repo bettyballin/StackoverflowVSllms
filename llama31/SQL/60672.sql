@@ -1,1 +1,0 @@
--- Example answer: Table variables are stored in memory and have limited capacity, while temporary tables are stored on disk and can handle larger datasets\nDECLARE @tablevar TABLE (id int, name nvarchar(50))\nCREATE TABLE #temptable (id int, name nvarchar(50))

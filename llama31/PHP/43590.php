@@ -1,1 +1,0 @@
-$fp = fopen('file.txt', 'r');\nvar_dump(is_resource($fp) && get_resource_type($fp) === 'stream');  // bool(true)

@@ -1,1 +1,0 @@
-MAP(x, n = 1:10, rotate = "varimax", diagonal = FALSE, fm = "pa", \n    n.obs = NULL, plot = TRUE, title = "MAP Criterion")

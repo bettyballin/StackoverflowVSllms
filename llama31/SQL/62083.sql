@@ -1,1 +1,0 @@
-CREATE TABLE example (\n  id INT PRIMARY KEY,\n  data1 INT,  -- 4 bytes per row\n  data2 VARCHAR(50),  -- 1-2 bytes per row (length) + actual data\n  data3 TEXT  -- 1-2 bytes per row (length) + actual data\n);

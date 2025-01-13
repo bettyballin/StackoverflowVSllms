@@ -1,1 +1,0 @@
-Rails.application.eager_load!\nActiveRecord::Base.subclasses.each do |model|\n  puts model.name\nend

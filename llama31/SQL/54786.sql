@@ -1,1 +1,0 @@
-ALTER TABLE `my_table` ADD UNIQUE (`ref_id`, `type`);

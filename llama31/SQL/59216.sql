@@ -1,1 +1,0 @@
-CREATE TRIGGER after_insert_tree\nAFTER INSERT ON tree\nFOR EACH ROW\nBEGIN\n  INSERT INTO update_queue (num)\n  SELECT orig FROM tree WHERE term = NEW.term;\nEND;

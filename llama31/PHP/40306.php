@@ -1,1 +1,0 @@
-$conn = mysql_connect("localhost", "username", "password") or die(mysql_error());\nmysql_select_db("database_name", $conn);\n\n$usr_name = mysql_real_escape_string($_REQUEST['usr_name'], $conn);

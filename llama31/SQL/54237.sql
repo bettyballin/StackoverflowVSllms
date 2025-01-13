@@ -1,1 +1,0 @@
-SELECT *\nFROM MyObjects\nWHERE GenerationId = (\n  SELECT MAX(GenerationId)\n  FROM MyObjects AS sub\n  WHERE sub.Id = MyObjects.Id AND sub.GenerationId <= ?\n)\nAND DeleteAction = FALSE;

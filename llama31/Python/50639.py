@@ -1,1 +1,0 @@
-import pandas as pd\n\ndef csv_to_html_table(csv_file_path):\n    df = pd.read_csv(csv_file_path)\n    return df.to_html(index=False)\n\nprint(csv_to_html_table('example.csv'))

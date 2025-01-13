@@ -1,1 +1,0 @@
-Imports System.Net\n\nPublic Function GetIpAddress(ByVal address() As Byte) As String\n    Dim ipAddress As IPAddress = New IPAddress(address)\n    Return ipAddress.ToString()\nEnd Functio

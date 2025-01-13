@@ -1,1 +1,0 @@
-with foo(parent_id, child_id) as (\n  -- anchor member\n  select parent_id, child_id \n  from #bar \n  where parent_id in (1, 3)\n  union all\n  -- recursive member\n  select #bar.* \n  from #bar \n  join foo on #bar.parent_id = foo.child_id\n  where #bar.child_id not in (select child_id from foo)\n)\nselect parent_id, child_id from foo

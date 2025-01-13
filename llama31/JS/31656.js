@@ -1,1 +1,0 @@
-const express = require('express');\nconst { createProxyMiddleware } = require('http-proxy-middleware');\n\nconst app = express();\n\napp.use('/proxy', createProxyMiddleware({\n  target: 'https://example.com',\n  changeOrigin: true,\n  pathRewrite: { '^/proxy': '' }\n}));

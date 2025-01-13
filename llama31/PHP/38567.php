@@ -1,1 +1,0 @@
-$newtitle = html_entity_decode($item->title, ENT_QUOTES, 'UTF-8');

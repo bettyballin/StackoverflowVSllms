@@ -1,1 +1,0 @@
-EXEC SearchCompanies \n    @CompanyType = 'Restaurants',\n    @CompanyName = 'Pizza',\n    @Location = 'London'

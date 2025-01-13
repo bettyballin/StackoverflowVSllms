@@ -1,1 +1,0 @@
-class CustomView extends View {\n    public function inheritVariables(View $parentView) {\n        foreach ($parentView->getData() as $key => $value) {\n            $this->$key = $value;\n        }\n    }\n}

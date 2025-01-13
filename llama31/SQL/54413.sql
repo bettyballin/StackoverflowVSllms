@@ -1,1 +1,0 @@
-CREATE TABLE mytable (\n  id NUMBER,\n  name VARCHAR2(20),  -- use VARCHAR2 instead of VARCHAR\n  email VARCHAR2(50)\n);

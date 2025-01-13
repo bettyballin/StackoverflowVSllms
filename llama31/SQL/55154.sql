@@ -1,1 +1,0 @@
-CREATE TABLE user_items (\n  user_id VARCHAR(255),\n  item_id VARCHAR(255),\n  PRIMARY KEY (user_id, item_id),\n  FOREIGN KEY (user_id) REFERENCES users (user_id),\n  FOREIGN KEY (item_id) REFERENCES items (item_id)\n);

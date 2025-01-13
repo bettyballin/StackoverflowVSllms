@@ -1,1 +1,0 @@
-function profile($func) {\n    $start = microtime(true);\n    $func();\n    $end = microtime(true);\n    echo "Function $func took " . ($end - $start) . " seconds to execute.\n";\n}\n\n// Example usage:\nfunction my_function() {\n    // Code to be profiled...\n}\n\nprofile('my_function');

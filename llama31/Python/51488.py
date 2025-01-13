@@ -1,1 +1,0 @@
-import csv\nimport io\n\ndef join_list_with_quotes(lst):\n    output = io.StringIO()\n    writer = csv.writer(output)\n    writer.writerow(lst)\n    return output.getvalue().strip()\n\nlst = ['a', 'one "two" three', 'foo, bar', """both"'"""]\nprint(join_list_with_quotes(lst))

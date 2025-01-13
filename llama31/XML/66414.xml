@@ -1,1 +1,0 @@
-<system.diagnostics>\n  <sources>\n    <source name="System.ServiceModel" switchValue="Information, ActivityTracing" propagateActivity="true">\n      <listeners>\n        <add name="xml" type="System.Diagnostics.XmlWriterTraceListener" initializeData="c:\log\Traces.svclog" />\n      </listeners>\n    </source>\n  </sources>\n</system.diagnostics>

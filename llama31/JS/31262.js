@@ -1,1 +1,0 @@
-$(".appended-content").fadeOut('slow', function() {\n  $(this).remove();\n});

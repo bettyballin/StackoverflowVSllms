@@ -1,1 +1,0 @@
-$userInput = trim(htmlspecialchars($_POST['user_input']));

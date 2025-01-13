@@ -1,1 +1,0 @@
-$archiveName = 'backup.tar.gz';\n$directory = '/path/to/image/directory';\n\n// Create the archive using the tar command\nexec("tar -czf $archiveName $directory");

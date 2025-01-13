@@ -1,1 +1,0 @@
-CREATE TABLE People (\n  ID INT PRIMARY KEY,\n  Name VARCHAR(50),\n  Email VARCHAR(100)\n);

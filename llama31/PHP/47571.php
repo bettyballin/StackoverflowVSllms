@@ -1,1 +1,0 @@
-public $force_ssl = '2'; // Force HTTPS for all pages

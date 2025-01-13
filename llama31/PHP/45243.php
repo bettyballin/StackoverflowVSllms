@@ -1,1 +1,0 @@
-$query = 'insert into articles (modified, username, url, title, description, points) values (?, ?, ?, ?, ?, ?)';\n$stmt = $db->prepare($query);\n$stmt->execute(array($this->getModified(), $this->username, $this->url, $this->title, $this->description, $this->points));

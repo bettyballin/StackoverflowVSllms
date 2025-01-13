@@ -1,1 +1,0 @@
-<bindings>\n  <basicHttpBinding>\n    <binding name="basicHttpBinding" maxConnections="200" />\n  </basicHttpBinding>\n</bindings>

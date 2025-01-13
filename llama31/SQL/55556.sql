@@ -1,1 +1,0 @@
--- Enable dirty reads for the current session\nSET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;\n\n-- Run your query\nSELECT * FROM your_table;\n\n-- Revert to the default isolation level\nSET TRANSACTION ISOLATION LEVEL READ COMMITTED;

@@ -1,1 +1,0 @@
-$cache = new Redis();\n$cache->connect('localhost');\n$xmlData = $cache->get('xml_data');\nif (!$xmlData) {\n    $xmlData = simplexml_load_file('file.xml');\n    $cache->set('xml_data', $xmlData);\n}

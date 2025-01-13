@@ -1,1 +1,0 @@
-def some_function(binding)\n  # Evaluate the block in the calling scope\n  eval("t + x", binding)\nend

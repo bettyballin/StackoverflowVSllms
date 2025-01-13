@@ -1,1 +1,0 @@
-CREATE TABLE my_table (\n  id NUMBER PRIMARY KEY,\n  name VARCHAR2(50),\n  hidden_column VARCHAR2(50)\n);\n\nCREATE VIEW my_view AS\nSELECT id, name\nFROM my_table;\n\nCREATE TRIGGER my_trigger\nINSTEAD OF INSERT ON my_view\nFOR EACH ROW\nBEGIN\n  INSERT INTO my_table (id, name)\n  VALUES (:NEW.id, :NEW.name);\nEND;

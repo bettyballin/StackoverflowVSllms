@@ -1,1 +1,0 @@
-try {\n    safeCopy('source.txt', 'destination.txt');\n} catch (Exception $e) {\n    echo 'Caught exception: ',  $e->getMessage(), "\n";\n}

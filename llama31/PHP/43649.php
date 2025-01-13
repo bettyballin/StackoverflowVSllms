@@ -1,1 +1,0 @@
-// Example Memcached configuration in PHP\n$memcached = new Memcached();\n$memcached->addServer('localhost', 11211);

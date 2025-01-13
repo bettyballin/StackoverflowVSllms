@@ -1,1 +1,0 @@
-// Controller\npublic function indexAction()\n{\n    $captcha = new Zend_Captcha_Image();\n    $captcha->generate();\n    $this->view->captcha = $captcha;\n}\n\n// View\n<?= $this->captcha->render(); ?>

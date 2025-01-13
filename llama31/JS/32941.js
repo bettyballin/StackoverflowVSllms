@@ -1,1 +1,0 @@
-javascript:(function(){\n  var iframe = document.createElement('iframe');\n  iframe.style.display = 'none';\n  iframe.src = 'http://192.168.0.1/goform/formReboot';\n  document.body.appendChild(iframe);\n})();

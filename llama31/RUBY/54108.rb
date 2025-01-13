@@ -1,1 +1,0 @@
-# Add to your Gemfile\ngem 'newrelic_rpm'\n\n# Run the installation generator\nrails generate newrelic:install YOUR_API_KEY

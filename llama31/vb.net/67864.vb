@@ -1,1 +1,0 @@
-Dim s As String = x.y.z.q(r)

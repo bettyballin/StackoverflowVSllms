@@ -1,1 +1,0 @@
-Public Class PasswordResult\n    Public Property IsValid As Boolean\n    Public Property Password As String\nEnd Class\n\nPublic ReadOnly Property Password(ByVal ownerNeeded As Boolean) As PasswordResult\n    Get\n        Dim result As New PasswordResult\n        ' implementation\n        Return result\n    End Get\nEnd Property

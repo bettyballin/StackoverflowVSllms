@@ -1,1 +1,0 @@
-use Symfony\Component\CssSelector\CssSelectorConverter;\nuse Symfony\Component\DomCrawler\Crawler;\n\n$html = '<html>...</html>';\n$crawler = new Crawler($html);\n\n$cssSelector = new CssSelectorConverter();\n$expression = $cssSelector->toXPath('a');\n\n$links = $crawler->filterXPath($expression)->each(function ($node) {\n    return $node->attr('href');\n});\n\nprint_r($links);

@@ -1,1 +1,0 @@
-<bean id="imageProperties" class="org.springframework.beans.factory.config.PropertiesFactoryBean">\n    <property name="location" value="classpath:images.properties"/>\n</bean>

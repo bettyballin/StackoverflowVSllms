@@ -1,1 +1,0 @@
-$.ajax({\n    // your form submission AJAX call settings\n    success: function(data) {\n        // load the updated content of #tab2\n        loadTab(2);\n        // switch to #tab2\n        $('div.HOMEtabdiv ul.HOMEtabs a').removeClass('selected');\n        $('#tab2').addClass('selected');\n    }\n});

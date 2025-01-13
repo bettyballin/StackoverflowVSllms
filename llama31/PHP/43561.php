@@ -1,1 +1,0 @@
-$price_corrected = bcmul($price, 100, 2);\n$price_int = intval($price_corrected);

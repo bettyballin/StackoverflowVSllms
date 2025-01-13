@@ -1,1 +1,0 @@
-// application.js\nvar rsh = new ReallySimpleHistory();

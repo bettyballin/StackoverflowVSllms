@@ -1,1 +1,0 @@
-myList = [None] * 43\nmyList[12] = 'a'\nmyList[22] = 'b'\nmyList[32] = 'c'\nmyList[42] = 'd'

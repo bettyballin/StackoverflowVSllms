@@ -1,1 +1,0 @@
-$.ajax({\n  url: 'path/to/page?version=' + someVersionNumber,\n  cache: true\n});

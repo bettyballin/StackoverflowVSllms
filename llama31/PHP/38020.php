@@ -1,1 +1,0 @@
-// Server-side PHP\nif ($_POST['id']) {\n    updateRecordTimestamp($_POST['id']);\n}

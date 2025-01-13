@@ -1,1 +1,0 @@
-function getProducts(Category) {\n  $.ajax({\n    type: "GET",\n    url: "getInfo.cfm",\n    data: "Action=getProducts&Category=" + Category,\n    success: function(result){\n      $("#Products").html(result);\n      $("#Products").prepend("<option value='' selected='selected'>Select a Product</option>");\n    }\n  });\n};

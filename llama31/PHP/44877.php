@@ -1,1 +1,0 @@
-$lua = new Lua();\n$lua->eval('function hello(name) print("Hello, " .. name .. "!") end');\n$lua->hello('Rolf');

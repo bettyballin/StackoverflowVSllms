@@ -1,1 +1,0 @@
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">\n  <PropertyGroup>\n    <TargetFramework>net4.5</TargetFramework>\n  </PropertyGroup>\n  ...\n</Project>

@@ -1,1 +1,0 @@
-CREATE TABLE references (\n  id INT PRIMARY KEY,\n  table_name VARCHAR(255),\n  value VARCHAR(255)\n);

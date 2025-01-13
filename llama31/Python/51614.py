@@ -1,1 +1,0 @@
-from faker import Faker\n\nfake = Faker()\n\n# Generate 1000 company names\ncompanies = [fake.company() for _ in range(1000)]\n\n# Generate additional information (address, phone number, etc.)\nfor company in companies:\n    print(f"Company: {company}")\n    print(f"Address: {fake.street_address()}")\n    print(f"Phone: {fake.phone_number()}")\n    print("-" * 20)

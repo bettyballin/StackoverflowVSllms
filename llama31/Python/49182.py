@@ -1,1 +1,0 @@
-import types\n\nclass A(object):\n    def hello(self, salutation):\n        print('%s, my name is %s' % (salutation, str(self)))\n\na = A()\nbound_hello = types.MethodType(A.hello, a)\nbound_hello('Greetings')  # prints: Greetings, my name is <__main__.A object at 0x...>

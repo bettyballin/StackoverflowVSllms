@@ -1,1 +1,0 @@
-<DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)> _\n<Browsable(False)> _\nPublic Property SelectedPeople() As List(Of Person)\n    Get\n        Return _SelectedPeople\n    End Get\n    Set(ByVal value As List(Of Person))\n        _SelectedPeople = value\n    End Set\nEnd Property

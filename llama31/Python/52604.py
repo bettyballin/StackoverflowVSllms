@@ -1,1 +1,0 @@
-t = '@abc @def Hello this part is text'\n\n# Split the string into two parts: @names and text\nat_names, text = t.lstrip('@').split(' ', 1)\n\n# Extract the @names\nat_names = ['@' + name for name in at_names.split('@') if name]\n\nprint(at_names)  # Output: ['@abc', '@def']\nprint(text)      # Output: 'Hello this part is text'

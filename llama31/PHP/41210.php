@@ -1,1 +1,0 @@
-<?php\nsession_start();\n$tmp = "index";\n\necho "A: " . $_SESSION['page_loaded']['index']; // returns 1\necho "B: " . (isset($_SESSION['page_loaded'][$tmp]) ? $_SESSION['page_loaded'][$tmp] : 'not set'); // should return 1\n?>

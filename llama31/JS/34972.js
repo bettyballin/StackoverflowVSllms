@@ -1,1 +1,0 @@
-if (img.complete) {\n  imagesLoaded++;\n  // ...\n}

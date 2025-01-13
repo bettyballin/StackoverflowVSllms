@@ -1,1 +1,0 @@
-sel.addEventListener('DOMAttrModified', function(event) {\n  if (event.attrName === 'selectedIndex') {\n    myfunction();\n  }\n});

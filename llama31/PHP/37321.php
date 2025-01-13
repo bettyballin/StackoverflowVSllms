@@ -1,1 +1,0 @@
-// In your controller\npublic function getOptionsForListbox2(Request $request)\n{\n    $selectedValue = $request->input('selectedValue');\n    // Retrieve the options from the database\n    $options = DB::table('options')->where('parent_id', $selectedValue)->get();\n    return response()->json($options);\n}

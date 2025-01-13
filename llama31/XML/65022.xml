@@ -1,1 +1,0 @@
-<system.web>\n  <sessionState mode="SQLServer" sqlConnectionString="Data Source=YourSQLServer;Initial Catalog=ASPState;Integrated Security=True" />\n</system.web>

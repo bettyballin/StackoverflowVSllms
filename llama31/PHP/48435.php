@@ -1,1 +1,0 @@
-use PHPUnit\Framework\TestCase;\n\nclass MyTest extends TestCase\n{\n    /**\n     * @covers MyClass::myMethod\n     */\n    public function testMyMethod()\n    {\n        // Test code here\n    }\n}

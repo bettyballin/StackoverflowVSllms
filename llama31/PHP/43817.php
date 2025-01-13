@@ -1,1 +1,0 @@
-// test1.php\nsession_start();\n// do some stuff\nsession_write_close(); // release the session lock\nsleep(120);

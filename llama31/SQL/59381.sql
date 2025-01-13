@@ -1,1 +1,0 @@
-SELECT *\nFROM large_table\nWHERE complex_condition;

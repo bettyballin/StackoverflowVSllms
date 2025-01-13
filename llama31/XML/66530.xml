@@ -1,1 +1,0 @@
-<system.web>\n    <authentication mode="Forms">\n        <forms loginUrl="login.aspx" cookieless="false" />\n    </authentication>\n</system.web>

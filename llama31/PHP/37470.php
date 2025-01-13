@@ -1,1 +1,0 @@
-$myArray = [3, 1, 2];\nusort($myArray, function($a, $b) {\n    return $a - $b;\n});\n$firstElement = $myArray[0];

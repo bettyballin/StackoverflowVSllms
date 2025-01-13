@@ -1,1 +1,0 @@
-// App A's PHP file: appA.php\nfunction doSomething() {\n    // code here\n}\n\n// App B's PHP file: appB.php\nrequire_once '/path/to/appA.php';\ndoSomething(); // calls the doSomething function from App A

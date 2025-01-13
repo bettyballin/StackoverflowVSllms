@@ -1,1 +1,0 @@
-$('#textbox-container').on('input', 'input[type="text"]', function() {\n  var $textbox = $(this);\n  var value = $textbox.val();\n  \n  var rules = {\n    required: true,\n    minlength: 5\n  };\n  \n  var validator = $.validate($textbox, rules);\n  if (!validator.valid()) {\n    $textbox.addClass('invalid');\n  } else {\n    $textbox.removeClass('invalid');\n  }\n});

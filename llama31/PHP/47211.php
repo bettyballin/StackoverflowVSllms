@@ -1,1 +1,0 @@
-$x = bcmul(62574, 62574);\nvar_dump($x);          // string(10) "3915505476"\nvar_dump(bcmod($x, 104659)); // string(5) "59534"

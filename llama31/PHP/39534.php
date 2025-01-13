@@ -1,1 +1,0 @@
-ignore_user_abort(true);\nset_time_limit(0);\n// Start the download process

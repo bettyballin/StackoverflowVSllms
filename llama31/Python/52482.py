@@ -1,1 +1,0 @@
-sep = 0x1\ndata = ["abc","def","ghi","jkl"]\n\nresult = sep.join(map(lambda x: x.encode(), data))\n\nprint(result)

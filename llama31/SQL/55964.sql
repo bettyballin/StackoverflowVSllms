@@ -1,1 +1,0 @@
-SELECT \n    c.Comm\nFROM \n    (SELECT @Profit AS Profit) p\nINNER JOIN \n    CommissionTable c ON p.Profit >= c.ProfitStartRange AND p.Profit < c.ProfitEndRange

@@ -1,1 +1,0 @@
-class My_Form_Decorator_WrapLabel extends Zend_Form_Decorator_Abstract\n{\n    public function render($content)\n    {\n        $element = $this->getElement();\n        $label   = $element->getLabel();\n        $id      = $element->getId();\n\n        return '<label for="' . $id . '">' . $label . ' ' . $content . '</label>';\n    }\n}

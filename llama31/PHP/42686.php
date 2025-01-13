@@ -1,1 +1,0 @@
-$iniString = file_get_contents('/etc/php.d/eaccelerator.ini');\n$config = parse_ini_string($iniString, true);

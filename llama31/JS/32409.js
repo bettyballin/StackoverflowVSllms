@@ -1,1 +1,0 @@
-var previousBounds;\ngoogle.maps.event.addListener(map, 'bounds_changed', function() {\n  var bounds = map.getBounds();\n  if (bounds && (!previousBounds || !bounds.equals(previousBounds))) {\n    previousBounds = bounds;\n    // Make AJAX request here\n  }\n});

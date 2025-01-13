@@ -1,1 +1,0 @@
-CREATE INDEX idx_searchable_data ON searchable_data USING GIN (to_tsvector('english', name || ' ' || email || ' ' || description || ' ' || address));

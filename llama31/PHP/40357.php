@@ -1,1 +1,0 @@
-$date = '2008-09-28 9:19 pm';\n$wrappedDate = preg_replace('/(?<=[0-9]) (?=[0-9])/', '<br>', $date);\necho $wrappedDate;

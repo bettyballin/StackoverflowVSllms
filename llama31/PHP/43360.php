@@ -1,1 +1,0 @@
-$link = '<a href="' . $path . rawurlencode($filename) . '">' . htmlspecialchars($filename) . '</a>';

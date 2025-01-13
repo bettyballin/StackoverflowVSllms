@@ -1,1 +1,0 @@
-var selectedCheckboxes = $('input[name="type"]:checked').map(function() {\n    return $(this).val();\n}).get();

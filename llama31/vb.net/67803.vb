@@ -1,1 +1,0 @@
-Sub QuestionChangeLogic()\n    Dim questions As List(Of Question) = GetQuestions()\n    For Each question As Question In questions\n        ' Process question logic here\n    Next\nEnd Sub

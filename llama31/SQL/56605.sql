@@ -1,1 +1,0 @@
-WITH cte AS (\n    SELECT sni_kod, CAST(sni_kod AS INT) AS sni_kod_int\n    FROM prospekts\n)\nUPDATE c\nSET sni_kod = CASE\n    WHEN c.sni_kod_int >= 1000 AND c.sni_kod_int <= 1499 \n        OR c.sni_kod_int >= 1600 AND c.sni_kod_int <= 2439\n    THEN '1'\n    WHEN c.sni_kod_int >= 7000 AND c.sni_kod_int <= 7499 \n    THEN 'W'\n    ELSE c.sni_kod\nEND\nFROM cte c

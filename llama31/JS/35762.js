@@ -1,1 +1,0 @@
-var timeoutId;\n$.ajaxSetup({\n    beforeSend: function() {\n        timeoutId = setTimeout(function() {\n            $('#loading-indicator').show();\n        }, 250); // show loading indicator after 250ms\n    },\n    complete: function() {\n        clearTimeout(timeoutId);\n        $('#loading-indicator').hide();\n    }\n});

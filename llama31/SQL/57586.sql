@@ -1,1 +1,0 @@
-CALL update_table();

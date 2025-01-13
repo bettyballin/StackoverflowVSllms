@@ -1,1 +1,0 @@
-EXEC TemplateSelector 'YourTableName', 'YourProductionCode';

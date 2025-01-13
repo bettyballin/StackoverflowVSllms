@@ -1,1 +1,0 @@
-// Client-side example using Handlebars\nconst template = Handlebars.compile('function render() { {{body}} }');\nconst userSpecificCode = 'console.log("Hello, ' + username + '!");';\nconst generatedJs = template({ body: userSpecificCode });

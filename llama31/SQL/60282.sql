@@ -1,1 +1,0 @@
-CREATE ASSEMBLY [AssemblyName]\nFROM 'C:\Path\To\Assembly.dll'\nWITH PERMISSION_SET = EXTERNAL_ACCESS;

@@ -1,1 +1,0 @@
-import discourse_api\nclient = discourse_api.Client('https://your-forum.com', api_key='your_api_key')\nclient.create_user(username, password, email)\nclient.create_topic(forum_id, topic_title, topic_text)

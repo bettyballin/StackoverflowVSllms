@@ -1,1 +1,0 @@
-$data = [];\n$var_name = 'foo';\n$data[$var_name] = 'bar';

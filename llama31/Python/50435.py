@@ -1,1 +1,0 @@
-from M2Crypto import DSA, BIO\n\ndsa = DSA.gen_params(1024)\n\n# Save private key\nmem = BIO.MemoryBuffer()\ndsa.save_key_bio(mem, cipher=None)\nprivate_key = mem.getvalue()\n\n# Save public key\npub_bio = BIO.MemoryBuffer()\npub_key = dsa.pub\npub_key.save_key_bio(pub_bio)\npublic_key = pub_bio.getvalue()\n\nprint(private_key)\nprint(public_key)

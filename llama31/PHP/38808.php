@@ -1,1 +1,0 @@
-$email = 'new_email@example.com';\n$query = "INSERT IGNORE INTO your_table (email, ...) VALUES ('$email', ...)";\nmysql_query($query) or die(mysql_error());

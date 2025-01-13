@@ -1,1 +1,0 @@
-CREATE TABLE url_redirects (\n  id INT PRIMARY KEY,\n  old_url VARCHAR(255),\n  new_url VARCHAR(255)\n);

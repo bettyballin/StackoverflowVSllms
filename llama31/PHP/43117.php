@@ -1,1 +1,0 @@
-error_log('[' . date("F j, Y, g:i a", time() + microtime()) . ']' . $msg . PHP_EOL, 3, $phperrorPath);

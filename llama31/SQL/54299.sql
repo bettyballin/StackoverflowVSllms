@@ -1,1 +1,0 @@
-FROM incidents incd\nFROM cause_attack ctk\nFROM obscure_table obtb

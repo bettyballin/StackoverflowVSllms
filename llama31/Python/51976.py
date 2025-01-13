@@ -1,1 +1,0 @@
-import numpy as np\n\ndef get_rows(m, row_indices):\n    return m[np.array(row_indices)]

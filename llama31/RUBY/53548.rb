@@ -1,1 +1,0 @@
-redirect_to image_url(@image.id)

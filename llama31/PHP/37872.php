@@ -1,1 +1,0 @@
-$xml_parser = xml_parser_create();\nxml_set_element_handler($xml_parser, 'start_element', 'end_element');\nxml_set_character_data_handler($xml_parser, 'character_data');\nxml_parse($xml_parser, $xml_string);\nxml_parser_free($xml_parser);

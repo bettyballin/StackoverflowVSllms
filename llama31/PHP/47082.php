@@ -1,1 +1,0 @@
-<?php\n  // Load the PHP page\n  $url = 'http://example.com/yourpage.php';\n  $html = file_get_contents($url);\n\n  // Save the HTML to a file\n  $file = 'yourpage.html';\n  file_put_contents($file, $html);\n?>

@@ -1,1 +1,0 @@
-CREATE INDEX idx_sourceid_covering ON page (sourceid, pageid);

@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded", function() {\n  const link = document.querySelector("a[href='GetCustomerData.php?id=10']");\n  link.addEventListener("click", function(event) {\n    event.preventDefault();\n    requestCustomerInfo();\n  });\n});

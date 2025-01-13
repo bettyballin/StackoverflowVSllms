@@ -1,1 +1,0 @@
--- Use date instead of varchar for date columns\nCREATE TABLE events (\n  id INT PRIMARY KEY,\n  event_date DATE\n);

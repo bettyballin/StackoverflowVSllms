@@ -1,1 +1,0 @@
-# tcp_server.rb\nrequire 'socket'\n\ndef start_tcp_server\n  # Your TCP server code here\n  server = TCPServer.new('localhost', 8080)\n  loop do\n    # handle incoming connections\n  end\nend\n\n# Start the TCP server in a new process\npid = fork do\n  start_tcp_server\nend\n\n# Store the PID of the new process so you can manage it later\nFile.write('tcp_server.pid', pid)

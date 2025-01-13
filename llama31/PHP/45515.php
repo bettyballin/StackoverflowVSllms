@@ -1,1 +1,0 @@
-// dispatch the job\ndispatch(new \App\Jobs\SendEmail);

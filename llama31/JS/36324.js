@@ -1,1 +1,0 @@
-// assume you have a container element with id 'textbox-container'\n$('#textbox-container').on('input', 'input[type="text"]', function() {\n  var $textbox = $(this);\n  var value = $textbox.val();\n  \n  // perform validation logic here\n  if (value.length < 5) {\n    $textbox.addClass('invalid');\n  } else {\n    $textbox.removeClass('invalid');\n  }\n});

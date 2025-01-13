@@ -1,1 +1,0 @@
-// Get the container element\nvar container = document.getElementById('topics');\n\n// Create a new div element\nvar newDiv = document.createElement('div');\nnewDiv.id = 'mysection';\n\n// Add the new div to the container\ncontainer.appendChild(newDiv);

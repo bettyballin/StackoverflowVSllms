@@ -1,1 +1,0 @@
-// updatescore.php\n$userData = $_POST['user_data'];\n$answer = $_POST['answer'];\n$correct = $_POST['correct'];\n\n// Update your database using the received data

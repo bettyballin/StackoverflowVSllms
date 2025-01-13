@@ -1,1 +1,0 @@
-iep = New IPEndPoint(broadcastip, port)

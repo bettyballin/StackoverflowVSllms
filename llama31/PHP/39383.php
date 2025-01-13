@@ -1,1 +1,0 @@
-echo 'Title: <input type="text" name="title" value="'.$row['Title'].'"></input><br>';

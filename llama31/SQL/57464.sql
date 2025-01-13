@@ -1,1 +1,0 @@
-CREATE LOGIN [Domain\TestGroup] FROM WINDOWS;

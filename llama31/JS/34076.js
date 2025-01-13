@@ -1,1 +1,0 @@
-// Get all table elements\nvar tables = document.getElementsByTagName('table');\n\n// Loop through each table and remove it\nwhile (tables.length > 0) {\n  tables[0].parentNode.removeChild(tables[0]);\n}

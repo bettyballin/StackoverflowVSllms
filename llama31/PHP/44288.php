@@ -1,1 +1,0 @@
-require_once 'PPB.php';\n$perl = new PPB();\n$result = $perl->eval('use MyPerlModule; MyPerlModule::my_function("hello")');

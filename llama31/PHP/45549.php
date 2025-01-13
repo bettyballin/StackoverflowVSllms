@@ -1,1 +1,0 @@
-// In your config/database.php file\npublic $default = array(\n    'datasource' => 'Database/Mysql',\n    'persistent' => false,\n    'host' => 'localhost',\n    'login' => 'username',\n    'password' => 'password',\n    'database' => 'database_name',\n    'prefix' => '',\n    'encoding' => 'utf8',\n    'debug' => 2, // Set debug to 2 to enable query logging\n);

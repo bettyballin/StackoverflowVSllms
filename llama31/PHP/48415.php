@@ -1,1 +1,0 @@
-<?php\nheader('Content-Type: text/html; charset=UTF-8');\nprint 'Hello';\n?>

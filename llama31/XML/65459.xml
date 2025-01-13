@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <warmup>\n      <requests>\n        <add url="/" />\n      </requests>\n    </warmup>\n  </system.webServer>\n</configuration>

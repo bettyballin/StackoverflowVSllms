@@ -1,1 +1,0 @@
-$text = preg_replace("/\[\[(.*?\|)(.*?)\]\]/", '$2', $text);\n$text = preg_replace("/\[\[|\]\]/", '', $text);

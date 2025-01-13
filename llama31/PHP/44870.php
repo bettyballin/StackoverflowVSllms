@@ -1,1 +1,0 @@
-if ($_SERVER['is_special'] == 'true') {\n    echo "Yeah for us!";\n} else {\n    echo "No you fool!";\n}

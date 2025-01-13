@@ -1,1 +1,0 @@
-// application/controllers/ErrorHandler.php\nclass Application_ErrorHandler extends Zend_Controller_Action\n{\n    // ...\n}

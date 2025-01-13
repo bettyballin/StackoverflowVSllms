@@ -1,1 +1,0 @@
-CREATE MATERIALIZED VIEW search_results\nBUILD IMMEDIATE\nREFRESH COMPLETE ON DEMAND\nAS\nSELECT \n  firstname,\n  middlename,\n  lastname,\n  CASE \n    WHEN firstname LIKE '%John%' THEN 'John > *'\n    WHEN middlename LIKE '%John%' THEN '* > John > *'\n    WHEN lastname LIKE '%John%' THEN '* > * > John'\n  END AS search_result\nFROM your_table;

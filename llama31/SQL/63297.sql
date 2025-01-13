@@ -1,1 +1,0 @@
-SELECT L1.*\nFROM Log L1\nINNER JOIN (\n  SELECT FB_ID, MIN(Log_ID) AS First_Log_ID, Log_Name AS First_Log_Name\n  FROM Log\n  GROUP BY FB_ID, Log_Name\n) L2\nON L1.FB_ID = L2.FB_ID AND L1.Log_ID = (\n  SELECT MIN(Log_ID)\n  FROM Log L3\n  WHERE L3.FB_ID = L1.FB_ID AND L3.Log_Name <> L2.First_Log_Name\n  OR L3.Log_ID = L2.First_Log_ID\n)

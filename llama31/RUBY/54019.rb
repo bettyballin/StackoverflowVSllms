@@ -1,1 +1,0 @@
-require 'selenium-webdriver'\n\n# Load environment variables\nENV['RAILS_ENV'] = 'test'\nENV['DATABASE_URL'] = 'mysql2://username:password@test_database_host/test_database_name'\n\n# Create a new Selenium WebDriver instance\ndriver = Selenium::WebDriver.for :chrome

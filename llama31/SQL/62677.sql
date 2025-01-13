@@ -1,1 +1,0 @@
-ALTER TABLE table_name\nADD COLUMN new_pk UUID NOT NULL DEFAULT uuid_generate_v4();\n\nUPDATE table_name\nSET new_pk = uuid_generate_v4();\n\nALTER TABLE table_name\nDROP PRIMARY KEY;\n\nALTER TABLE table_name\nADD PRIMARY KEY (new_pk);

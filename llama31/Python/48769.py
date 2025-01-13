@@ -1,1 +1,0 @@
-import langdetect\n\ndef detect_language(text):\n    try:\n        language = langdetect.detect(text)\n        return language\n    except langdetect.lang_detect_exception.LangDetectException:\n        return "unknown"\n\ntext = "Merhaba, nasılsınız?"  # Turkish sentence\nprint(detect_language(text))  # Output: tr

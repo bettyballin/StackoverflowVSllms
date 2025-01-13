@@ -1,1 +1,0 @@
-// wrapper.php\nrequire_once 'wordpress/wp-includes/query.php';\nrename_function('is_admin', 'wp_is_admin');\nrequire_once 'smf/Sources/Security.php';

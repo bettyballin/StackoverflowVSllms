@@ -1,1 +1,0 @@
-class Template {\n    function Parse($model) {\n        $return = $this->special_include_parse('/var/www/template.html.php', $model);\n    }\n\n    private function special_include_parse($path, $model) {\n        $closure = function() use ($model) {\n            include $path;\n        };\n        $closure->bindTo($this);\n        return $closure();\n    }\n}

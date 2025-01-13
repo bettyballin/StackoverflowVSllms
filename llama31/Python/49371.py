@@ -1,1 +1,0 @@
-# Example of secure null handling in Python\nname = None\nif name is None:\n    print("Name is unspecified")\nelif name == "":\n    print("Name is empty")

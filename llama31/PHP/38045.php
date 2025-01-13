@@ -1,1 +1,0 @@
-$hindi_text = "सूर्योदय";\n$utf8_equivalent = "";\nfor ($i = 0; $i < strlen($hindi_text); $i++) {\n    $utf8_equivalent .= "&#".ord($hindi_text[$i]).";";\n}\necho $utf8_equivalent;

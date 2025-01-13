@@ -1,1 +1,0 @@
-<Target Name="CopyThirdPartyDlls" AfterTargets="Build">\n  <ItemGroup>\n    <ThirdPartyDlls Include="$(ProjectDir)..\ThirdPartyDlls\*.dll" />\n  </ItemGroup>\n  <Copy SourceFiles="@(ThirdPartyDlls)" DestinationFiles="@(ThirdPartyDlls->'$(SolutionDir)MainApplication\$(OutDir)%(Filename)%(Extension)')" />\n</Target>

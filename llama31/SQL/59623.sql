@@ -1,1 +1,0 @@
-PRAGMA case_sensitive_like=OFF;\nSELECT * FROM tableNames ORDER BY Name;

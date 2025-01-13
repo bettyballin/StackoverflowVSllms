@@ -1,1 +1,0 @@
-Sys.Mvc.Async.registerNamespace('Sys.Mvc.Async');

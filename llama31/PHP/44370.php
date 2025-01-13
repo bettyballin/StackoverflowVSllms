@@ -1,1 +1,0 @@
-// Start the session (on every page)\nsession_start();\n\n// On the page where you set the session variable\n$_SESSION['user_id'] = 'daniel';\n\n// Basic debugging on another page\necho "Session ID: " . session_id(); // Make sure the session ID is the same across pages\nvar_dump($_SESSION); // Check the contents of the session array

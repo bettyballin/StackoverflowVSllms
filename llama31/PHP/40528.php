@@ -1,1 +1,0 @@
-$str = new String('Hello, World!');\necho $str->length(); // Output: 13\necho $str->substr(7, 5); // Output: World

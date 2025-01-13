@@ -1,1 +1,0 @@
-$dsn = 'mysql:host=localhost;dbname=mydatabase';\n$options = [\n    PDO::MYSQL_ATTR_SSL_KEY => '/path/to/ssl/key',\n    PDO::MYSQL_ATTR_SSL_CERT => '/path/to/ssl/cert',\n];\n$pdo = new PDO($dsn, 'username', 'password', $options);

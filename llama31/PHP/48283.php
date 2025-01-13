@@ -1,1 +1,0 @@
-function prepareStatement($name, $query) {\n    global $rayPrepared;\n    if (isset($rayPrepared[$name])) {\n        pg_execute($name, array());\n    } else {\n        pg_prepare($name, $query);\n        $rayPrepared[$name] = true;\n    }\n}

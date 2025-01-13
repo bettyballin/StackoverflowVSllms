@@ -1,1 +1,0 @@
-If Integer.TryParse(txtProductID.Text, Nothing) Then\n    ' ...do stuff\nElse\n    Dim msg As String = "Error!"\nEnd If

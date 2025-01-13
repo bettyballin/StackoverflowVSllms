@@ -1,1 +1,0 @@
-INSERT IGNORE INTO your_table (email, ...) VALUES ('new_email@example.com', ...);

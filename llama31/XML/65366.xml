@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>commons-beanutils</groupId>\n    <artifactId>commons-beanutils</artifactId>\n    <version>1.9.4</version>\n</dependency>

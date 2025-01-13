@@ -1,1 +1,0 @@
-$term = 'cool';\n$content = ob_get_contents();\nob_clean();\n\n$pattern = "/(<[^>]*>)([^<]*?$term[^<]*?)(<\/[^>]*>)/i";\n$replace = "$1<span style=\"background: #f00\">$2</span>$3";\n\necho preg_replace($pattern, $replace, $content);

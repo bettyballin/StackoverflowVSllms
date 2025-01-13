@@ -1,1 +1,0 @@
-SELECT \n  vc.Name AS County_Name,\n  vp.PREC_ID,\n  vp.Name AS Prec_Name,\n  COUNT(vv.ID) AS Voters\nFROM \n  voterfile_precienct vp\n  JOIN voterfile_county vc ON vp.County_ID = vc.ID\n  JOIN voterfile_household vh ON vp.PREC_ID = vh.Precnum\n  JOIN voterfile_voter vv ON vh.ID = vv.House_ID\nGROUP BY \n  vc.Name, vp.PREC_ID, vp.Name

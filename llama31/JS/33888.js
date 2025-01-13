@@ -1,1 +1,0 @@
-$.ajax({\n  url: 'demo2.htm',\n  success: function(loadeddata){\n    var specificDiv = $(loadeddata).find('#specificDivId');\n    $("#loaded_data").after(specificDiv);\n    alert('success');\n  },\n  error: function(){\n    alert('failure');\n  }\n});

@@ -1,1 +1,0 @@
-DECLARE @number INT = 5\nDECLARE @binary VARCHAR(32) = CONVERT(VARCHAR(32), CONVERT(BINARY(32), @number), 2)\n\nSELECT @binary

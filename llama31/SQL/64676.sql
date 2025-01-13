@@ -1,1 +1,0 @@
-DECLARE @name VARCHAR(50), @species VARCHAR(50)\n\nSELECT \n    @name = value \nFROM your_table \nWHERE attribute = 'name'\n\nSELECT \n    @species = value \nFROM your_table \nWHERE attribute = 'species'\n\nSELECT \n    ISNULL(@name, '') + ' ' + ISNULL(@species, '')

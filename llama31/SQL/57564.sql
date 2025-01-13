@@ -1,1 +1,0 @@
-WHERE \n    (t1.start_time, t1.end_time) OVERLAPS (t2.start_time, COALESCE(t2.end_time, '9999-12-31 23:59:59'))

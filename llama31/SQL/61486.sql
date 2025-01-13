@@ -1,1 +1,0 @@
-SELECT DISTINCT [Item] \nFROM [ASPStateTempSessions] \nWHERE [SessionId] = @SessionId

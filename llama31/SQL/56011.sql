@@ -1,1 +1,0 @@
--- Aggregate functions\nSUM(column_name)\nCOUNT(column_name)\nMAX(column_name)\nMIN(column_name)\nAVG(column_name)\n\n-- String functions\nCONCAT(string1, string2)\nLENGTH(string)\nLOWER(string)\nUPPER(string)\nTRIM(string)\n\n-- Date and time functions\nNOW()\nCURDATE()\nCURTIME()\nDATE_FORMAT(date, format)

@@ -1,1 +1,0 @@
-Imports System.Collections.Generic\n\nDim dict As New Dictionary(Of String, String)\ndict.Add("key1", "value1")\ndict.Add("key2", "value2")\n\nFor Each pair As KeyValuePair(Of String, String) In dict\n    Console.WriteLine("Key: " & pair.Key & ", Value: " & pair.Value)\nNext

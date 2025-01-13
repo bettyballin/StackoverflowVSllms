@@ -1,1 +1,0 @@
-$tempParams = []; // or array()\n$tempParams = $params;

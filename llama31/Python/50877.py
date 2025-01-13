@@ -1,1 +1,0 @@
-def IsBitTrue(number, bitPosition):\n    return bool(number & (1 << (bitPosition - 1)))

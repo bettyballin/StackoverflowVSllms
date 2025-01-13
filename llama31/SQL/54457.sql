@@ -1,1 +1,0 @@
-SELECT t1.UserID, t1.UserName, t1.EmailAddress, t1.Source\nFROM your_table t1\nJOIN (\n  SELECT UserID, MAX(EmailAddress) as max_email\n  FROM your_table\n  GROUP BY UserID\n) t2\nON t1.UserID = t2.UserID AND t1.EmailAddress = t2.max_email

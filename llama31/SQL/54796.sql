@@ -1,1 +1,0 @@
-SELECT ta.ID, ta.Name, tb.Name, tb.DateStamp\nFROM TableA ta\nINNER JOIN (\n  SELECT TableA_ID, Name, DateStamp,\n         ROW_NUMBER() OVER (PARTITION BY TableA_ID ORDER BY DateStamp DESC) AS row_num\n  FROM TableB\n) tb ON ta.ID = tb.TableA_ID AND tb.row_num = 1

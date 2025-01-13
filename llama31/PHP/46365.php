@@ -1,1 +1,0 @@
-$url = 'http://example.com/thankyou.php';\necho '<script>window.location.href = "' . $url . '";</script>';

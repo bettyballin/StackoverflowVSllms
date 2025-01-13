@@ -1,1 +1,0 @@
-SELECT setval('your_sequence_name', (SELECT MAX(id) FROM your_table_name) + 1);

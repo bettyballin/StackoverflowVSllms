@@ -1,1 +1,0 @@
-/**\n * Implements hook_theme().\n */\nfunction my_module_theme($existing, $type, $theme, $path) {\n  return [\n    'views_view_plain' => [\n      'variables' => ['view' => NULL],\n      'template' => 'views-view-plain',\n    ],\n  ];\n}

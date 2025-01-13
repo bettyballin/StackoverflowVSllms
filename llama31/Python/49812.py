@@ -1,1 +1,0 @@
-import os\nimport stat\n\nfor root, dirs, files in os.walk('/path/to/search'):\n    for file in files:\n        file_path = os.path.join(root, file)\n        file_stat = os.stat(file_path)\n        if file_stat.st_mode & 0o777 == 0o777:\n            print(file_path)

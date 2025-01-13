@@ -1,1 +1,0 @@
--- Update the identity column to a value greater than 0\nUPDATE SyncSession\nSET id = id + 1;\n\n-- Reseed the identity column to start from 1\nDBCC CHECKIDENT (SyncSession, reseed, 1);

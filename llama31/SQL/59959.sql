@@ -1,1 +1,0 @@
-CREATE TABLE table_name (\n    column_name data_type,\n    ...\n) PARTITION BY RANGE (column_name);

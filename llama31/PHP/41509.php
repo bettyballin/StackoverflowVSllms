@@ -1,1 +1,0 @@
-<link rel="stylesheet" href="<?= base_url('public/css/style.css') ?>">\n<script src="<?= base_url('public/js/script.js') ?>"></script>\n<img src="<?= base_url('public/images/image.jpg') ?>">

@@ -1,1 +1,0 @@
-CREATE TABLE comments (\n    id INT PRIMARY KEY,\n    parent_id INT,\n    created_at DATETIME,\n    text TEXT\n);

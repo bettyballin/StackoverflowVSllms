@@ -1,1 +1,0 @@
-SELECT o.order_id, c.customer_name, p.product_name\nFROM customer_orders o\nJOIN customers c ON o.customer_id = c.customer_id\nJOIN products p ON o.product_id = p.product_id\nWHERE o.order_date > '2020-01-01';

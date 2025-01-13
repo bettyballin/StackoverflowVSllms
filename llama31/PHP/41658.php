@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare('SELECT my_longblob_column FROM my_table');\n$stmt->execute();\n$result = $stmt->fetch();\n$longblob_value = $result['my_longblob_column']; // returns a string

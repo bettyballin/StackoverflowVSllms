@@ -1,1 +1,0 @@
-CREATE SECURITY POLICY ProjectsSecurityPolicy\nWITH (STATE = 'ON')\nAS\nBEGIN\n    SELECT *\n    FROM projects\n    WHERE project_id IN (SELECT project_id FROM user_projects WHERE user_id = CURRENT_USER);\nEND;

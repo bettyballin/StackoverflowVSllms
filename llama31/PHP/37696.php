@@ -1,1 +1,0 @@
-$file_path = '\\\\ServerName\\Folder\\file.txt';\n$content = file_get_contents($file_path);

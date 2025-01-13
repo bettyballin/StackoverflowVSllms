@@ -1,1 +1,0 @@
-WITH reversed AS (\n  SELECT val, COUNT(*) AS cnt\n  FROM check_minus\n  WHERE val < 0\n  GROUP BY val\n)\nSELECT val\nFROM check_minus\nWHERE val > 0\nAND val NOT IN (SELECT -val FROM reversed WHERE cnt > 0)\nOR val IN (\n  SELECT val\n  FROM check_minus\n  WHERE val > 0\n  GROUP BY val\n  HAVING COUNT(*) > (\n    SELECT COUNT(*)\n    FROM reversed\n    WHERE val = -val\n  )\n)

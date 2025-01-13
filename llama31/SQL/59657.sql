@@ -1,1 +1,0 @@
-INSERT INTO records (id, start_date) VALUES (1, '2022-01-01');

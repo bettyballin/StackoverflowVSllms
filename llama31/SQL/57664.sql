@@ -1,1 +1,0 @@
-CREATE TABLE Person (\n    PersonID id_type,\n    Name VARCHAR2(31)\n);

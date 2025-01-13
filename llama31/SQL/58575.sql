@@ -1,1 +1,0 @@
-CREATE TABLE mytable (\n    id INT IDENTITY(1,1) PRIMARY KEY,\n    myvarchar VARCHAR(50)\n);\n\n-- Create a computed column with a fixed length\nALTER TABLE mytable\nADD myvarchar_fixed AS (CONVERT(VARCHAR(50), myvarchar));\n\n-- Create a non-clustered index on the computed column\nCREATE NONCLUSTERED INDEX idx_myvarchar_fixed\nON mytable (myvarchar_fixed);

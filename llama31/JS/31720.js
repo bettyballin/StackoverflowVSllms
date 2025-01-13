@@ -1,1 +1,0 @@
-Object.prototype.doAjaxCall = function(url) {\n    var self = this;\n    $.get(url, null, function(data) {\n        self.handleAjaxResponse(data);\n    });\n}

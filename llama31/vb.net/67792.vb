@@ -1,1 +1,0 @@
-Dim wrapper As New SessionWrapper\n' Use the wrapper object\n' ...\n' No need to explicitly call Dispose; it will be called when wrapper goes out of scope

@@ -1,1 +1,0 @@
-$obj_md = new MDB2();

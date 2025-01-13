@@ -1,1 +1,0 @@
-<!-- Reference the NuGet package in your project's csproj file -->\n<Project Sdk="Microsoft.NET.Sdk">\n  ...\n  <ItemGroup>\n    <PackageReference Include="CompanyName.CommonLibrary" Version="1.0.0" />\n  </ItemGroup>\n  ...\n</Project>

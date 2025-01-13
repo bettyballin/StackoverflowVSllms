@@ -1,1 +1,0 @@
-<session-config>\n    <session-timeout>30</session-timeout>\n    <cookie-config>\n        <secure>true</secure>\n        <http-only>true</http-only>\n    </cookie-config>\n    <tracking-mode>COOKIE</tracking-mode>\n</session-config>

@@ -1,1 +1,0 @@
-<Project ...>\n  ...\n  <PropertyGroup>\n    <GenerateManifest>false</GenerateManifest>\n  </PropertyGroup>\n  ...\n</Project>

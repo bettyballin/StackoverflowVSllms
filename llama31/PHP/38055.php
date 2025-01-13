@@ -1,1 +1,0 @@
-if (isset($_GET['ajax']) && $_GET['ajax'] == 1) {\n    // it's an AJAX request, don't add header/footer wrapper\n    echo $content;\n} else {\n    // it's not an AJAX request, add header/footer wrapper\n    include_once 'about-header.php';\n    echo $content;\n    include_once 'about-footer.php';\n}

@@ -1,1 +1,0 @@
-<jboss-web>\n  ...\n  <jsp-configuration>\n    <modificationTestInterval>10</modificationTestInterval>\n  </jsp-configuration>\n  ...\n</jboss-web>

@@ -1,1 +1,0 @@
-$dbh = new PDO('dsn', 'username', 'password', [\n    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,\n]);

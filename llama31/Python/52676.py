@@ -1,1 +1,0 @@
-import fsspec\n\nsrc = "file:///path/to/local/file.txt"\ndst = "nfs://server/path/to/remote/file.txt"\n\nfs = fsspec.filesystem('nfs', host='server', port=2049)\n\nwith fs.open(src, 'rb') as f_in:\n    with fs.open(dst, 'wb') as f_out:\n        f_out.write(f_in.read())

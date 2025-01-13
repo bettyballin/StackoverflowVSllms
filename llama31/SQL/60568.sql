@@ -1,1 +1,0 @@
-SELECT * FROM mytable WHERE id = 1;\nSELECT * FROM mytable WHERE id = 2;\n...\nSELECT * FROM mytable WHERE id = 200;

@@ -1,1 +1,0 @@
-if (!ctype_digit($quantity)) {\n    // redirect or handle invalid input\n    echo "is not numeric";\n}

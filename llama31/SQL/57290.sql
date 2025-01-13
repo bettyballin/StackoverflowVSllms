@@ -1,1 +1,0 @@
-SELECT nl2br(your_text_column) AS formatted_text FROM your_table;

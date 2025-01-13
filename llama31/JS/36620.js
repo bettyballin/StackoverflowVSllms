@@ -1,1 +1,0 @@
-var iframe = document.getElementById('htmlFrame');\nvar iframedoc = iframe.contentDocument || iframe.contentWindow.document;\niframedoc.body.innerHTML = yourSanitizedHTMLContent;

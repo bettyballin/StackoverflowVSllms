@@ -1,1 +1,0 @@
-SELECT DISTINCT field1, field2, field3\nFROM table1;

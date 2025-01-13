@@ -1,1 +1,0 @@
-// Vulnerable code\n$headers = "From: ".$_POST['name']." <".$_POST['email'].">\r\n";\nmail($to, $subject, $message, $headers);

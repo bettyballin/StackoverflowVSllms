@@ -1,1 +1,0 @@
-// Set the locale\nsetlocale(LC_ALL, 'en_US.UTF-8');\n\n// Bind the gettext domain\nbindtextdomain('myapp', '/path/to/translations');\n\n// Translate a string\necho gettext('hello');

@@ -1,1 +1,0 @@
-function retrieve($table, $fields, $conditions, $conn) {\n    $sql = "SELECT " . implode(", ", $fields) . " FROM $table";\n    if ($conditions) {\n        $sql .= " WHERE " . implode(" AND ", $conditions);\n    }\n    $result = $conn->query($sql);\n    return $result->fetch_all(MYSQLI_ASSOC);\n}

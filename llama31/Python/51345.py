@@ -1,1 +1,0 @@
-pixelPos = self.odePosToPixelPos(odePos)

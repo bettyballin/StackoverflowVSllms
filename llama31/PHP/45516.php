@@ -1,1 +1,0 @@
-// Assuming $conn1 is your connection to db1\n$placeholders = array_fill(0, count($ids), '?');\n$placeholders = implode(',', $placeholders);\n\n$stmt = $conn1->prepare("DELETE FROM players WHERE acc NOT IN ($placeholders)");\n$stmt->execute($ids);

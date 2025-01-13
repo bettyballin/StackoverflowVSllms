@@ -1,1 +1,0 @@
-setcookie('mycookie', 'value', 0, "/", NULL, false, false);

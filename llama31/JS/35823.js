@@ -1,1 +1,0 @@
-// In your JavaScript code\n$.ajax({\n    type: 'POST',\n    url: '/my-route',\n    data: {\n        _token: '{{ csrf_token() }}',\n        // Other data...\n    },\n    success: function(response) {\n        // Handle response...\n    }\n});

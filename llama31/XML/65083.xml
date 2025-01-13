@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <security>\n      <activex>\n        <controls>\n          <add name="*" type="*" assembly="*" version="*" />\n        </controls>\n      </activex>\n    </security>\n  </system.web>\n</configuration>

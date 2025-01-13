@@ -1,1 +1,0 @@
-$ ruby -c hello.rb\n$ ruby hello.rb\nHello, World!

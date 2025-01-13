@@ -1,1 +1,0 @@
-SELECT COUNT(*) \nFROM sys.foreign_key_columns \nWHERE parent_object_id = OBJECT_ID('YourTableName') \nAND parent_column_id = COLUMNPROPERTY(OBJECT_ID('YourTableName'), 'YourColumnName', 'ColumnId');

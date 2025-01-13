@@ -1,1 +1,0 @@
-<configuration>\n  <daab>\n    <oracle>\n      <parameter name="DateType" value="OracleDateTime" />\n    </oracle>\n  </daab>\n</configuration>

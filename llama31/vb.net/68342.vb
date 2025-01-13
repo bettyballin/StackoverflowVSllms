@@ -1,1 +1,0 @@
-GridView1.DataSource = temptable\nGridView1.DataBind()

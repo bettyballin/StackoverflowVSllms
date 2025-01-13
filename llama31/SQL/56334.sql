@@ -1,1 +1,0 @@
-SELECT *\nFROM ParentTable p\nWHERE REGEXP_LIKE(p.Office_Code, (SELECT LISTAGG(Code_Wildcard, '|') FROM SecondTable))

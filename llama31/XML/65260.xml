@@ -1,1 +1,0 @@
-<add verb="*" path="*.gif" type="System.Web.DefaultHttpHandler" />

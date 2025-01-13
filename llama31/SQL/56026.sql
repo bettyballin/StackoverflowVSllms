@@ -1,1 +1,0 @@
-SELECT t1.id, t2.id\nFROM mytable AS t1\nJOIN mytable AS t2 ON t2.id > t1.id;

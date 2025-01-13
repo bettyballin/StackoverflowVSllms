@@ -1,1 +1,0 @@
-SELECT CONCAT(ISNULL(FirstName, ''), ISNULL(LastName, ''), ISNULL(Email, '')) as Vitals \nFROM MEMBERS

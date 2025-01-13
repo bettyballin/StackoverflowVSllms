@@ -1,1 +1,0 @@
-SELECT date, symbol, MPR\nFROM (\n  SELECT date, symbol, MPR,\n         (SELECT COUNT(*) FROM your_table AS t2 WHERE t2.date = t1.date AND t2.MPR > t1.MPR) + 1 AS row_num\n  FROM your_table AS t1\n) AS subquery\nWHERE row_num <= 2

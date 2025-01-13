@@ -1,1 +1,0 @@
-SELECT * FROM table \nWHERE first_name LIKE '%$search_term%' \nOR last_name LIKE '%$search_term%' \nOR CONCAT(first_name, ' ', last_name) LIKE '%$search_term%';

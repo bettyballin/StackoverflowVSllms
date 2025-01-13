@@ -1,1 +1,0 @@
-SELECT DBMS_METADATA.get_ddl('TABLE', table_name) \nFROM user_tables;

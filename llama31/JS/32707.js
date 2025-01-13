@@ -1,1 +1,0 @@
-$.ajax({\n    type: "POST",\n    url: "MyHandler.ashx",\n    data: { id: "123", token: '<%= Session["token"] %>' },\n    success: function(data) {\n        // Handle the response\n    }\n});

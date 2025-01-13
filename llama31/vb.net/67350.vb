@@ -1,1 +1,0 @@
-Public Class Foo\n    Private Shared _nextId As Integer = 0\n    Private ReadOnly _id As Integer\n\n    Public Sub New()\n        _id = Interlocked.Increment(_nextId)\n    End Sub\n\n    Public ReadOnly Property Id As Integer\n        Get\n            Return _id\n        End Get\n    End Property\nEnd Class

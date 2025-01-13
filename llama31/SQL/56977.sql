@@ -1,1 +1,0 @@
-SELECT * FROM `picdb`\nWHERE `username` = '$username'\nORDER BY `picid` DESC\nLIMIT 10, 10

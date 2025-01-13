@@ -1,1 +1,0 @@
-CREATE TABLE t1 (id INT);\nCREATE INDEX idx_id ON t1 (id);\nCREATE TABLE t2 (id INT);\nCREATE INDEX idx_id ON t2 (id);

@@ -1,1 +1,0 @@
-import psutil\nimport os\nimport time\n\ndef slow_down_if_high_cpu(threshold):\n    while True:\n        cpu_usage = get_cpu_usage()\n        if cpu_usage > threshold:\n            time.sleep(0.1)  # sleep for 100ms\n        else:\n            break\n\n# Example usage:\nslow_down_if_high_cpu(50)  # slow down if CPU usage is above 50%

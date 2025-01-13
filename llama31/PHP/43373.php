@@ -1,1 +1,0 @@
-function capitalizeName($name) {\n  $name = strtolower($name);\n  $name = preg_replace('/\b(mac|mc|fitz|o\')/i', '$1', $name);\n  $name = preg_replace('/\b(de|van|von|der)/i', '$1', $name);\n  $name = ucwords($name);\n  return $name;\n}

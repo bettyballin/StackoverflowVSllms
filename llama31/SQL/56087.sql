@@ -1,1 +1,0 @@
-CREATE ROLE our_tool_role IDENTIFIED USING our_tool_package;

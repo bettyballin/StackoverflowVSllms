@@ -1,1 +1,0 @@
-$magic_bytes = file_get_contents($uploaded_file, false, null, 0, 4);\nif ($magic_bytes === "\x89\x50\x4E\x47") {\n    // File is likely a PNG\n}

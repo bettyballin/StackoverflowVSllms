@@ -1,1 +1,0 @@
-function variable_load($args) {\n  // your logic here...\n  if ($some_condition) {\n    drupal_not_found();\n    exit;\n  }\n  // rest of the code...\n}

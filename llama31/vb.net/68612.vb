@@ -1,1 +1,0 @@
-Imports System.Drawing\n\nPublic Class Form1\n    Private Sub Form1_Paint(sender As Object, e As PaintEventArgs) Handles MyBase.Paint\n        Dim pen As New Pen(Color.Black, 2)\n        e.Graphics.DrawLine(pen, 10, 10, 100, 100)\n    End Sub\nEnd Class

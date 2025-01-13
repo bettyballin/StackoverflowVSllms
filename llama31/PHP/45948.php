@@ -1,1 +1,0 @@
-$sock = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);\nsocket_bind($sock, 'eth0:0'); // bind to IP address associated with eth0:0

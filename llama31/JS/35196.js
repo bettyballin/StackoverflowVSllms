@@ -1,1 +1,0 @@
-<script type="text/javascript">\njavascript:alert('hello world!');\n</script>

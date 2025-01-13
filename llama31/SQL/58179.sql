@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\nINSERT INTO objects (name) VALUES ('Object 1');\nINSERT INTO attributes (object_id, name, value) VALUES (LASTVAL(), 'Attribute 1', 'Value 1');\nCOMMIT;

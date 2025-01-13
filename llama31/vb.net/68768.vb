@@ -1,1 +1,0 @@
-Imports System.Text.RegularExpressions\n\nDim input As String = "your input string here"\nDim pattern As String = "(\d+\.\d+)|(\?\?\?\?\?\?)"\nDim replacement As String = "$1" ' or "$2" depending on your needs\n\nDim regex As Regex = New Regex(pattern)\nDim output As String = regex.Replace(input, replacement)\n\nConsole.WriteLine(output)

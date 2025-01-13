@@ -1,1 +1,0 @@
-<?php\n  // Get the value of the selected radio button\n  $selected_value = $_GET['radio_value'];\n  echo $selected_value;\n?>

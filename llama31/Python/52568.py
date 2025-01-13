@@ -1,1 +1,0 @@
-for photo in photos:\n    file_path = os.path.join(IMPORT_DIR, 'fotos', photo)\n    file = create_in_memory_uploaded_file(file_path)\n    p = Photo(name=file.name, image=file, parent=supply.supply_ptr)\n    name = str(uuid1()) + os.path.splitext(file.name)[1]\n    p.image.save(name, file)\n    p.save()

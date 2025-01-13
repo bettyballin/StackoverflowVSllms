@@ -1,1 +1,0 @@
-GM_xmlhttpRequest({\n  // ...\n  headers: {\n    "User-Agent": navigator.userAgent\n  }\n});

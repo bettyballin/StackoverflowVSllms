@@ -1,1 +1,0 @@
-Dim st As New StackTrace(err, True)\nFor i As Integer = 0 To st.FrameCount - 1\n    Dim sf As StackFrame = st.GetFrame(i)\n    Dim lineNumber As Integer = sf.GetFileLineNumber()\n    ' Log the line number along with the error message\n    System.Diagnostics.Debug.Print($"Error at line {lineNumber}: {err.Message}")\nNext i

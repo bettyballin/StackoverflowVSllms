@@ -1,1 +1,0 @@
-$rss = new SimpleXMLElement('http://domain.com/rss/feed.xml', 0, true);

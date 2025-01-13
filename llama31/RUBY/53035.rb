@@ -1,1 +1,0 @@
-# config/application.rb\nmodule YourApp\n  class Application < Rails::Application\n    # ...\n    config.action_mailer.default_url_options = { host: 'your-domain.com' }\n    # ...\n  end\nend

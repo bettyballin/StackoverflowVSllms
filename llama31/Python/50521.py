@@ -1,1 +1,0 @@
-import os\nimport datetime\n\nfilename = 'path_to_your_file.txt'\n\nif os.path.exists(filename):\n    modified_time = os.path.getmtime(filename)\n    print("Last modified time: ", datetime.datetime.fromtimestamp(modified_time))\nelse:\n    print("File does not exist.")

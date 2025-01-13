@@ -1,1 +1,0 @@
-var radios = document.getElementsByName('test');\nfor (var i = 0; i < radios.length; i++) {\n  radios[i].addEventListener('click', function(event) {\n    event.preventDefault();\n    return false;\n  });\n}

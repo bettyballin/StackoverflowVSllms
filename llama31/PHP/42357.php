@@ -1,1 +1,0 @@
-$obj = new stdClass();\n$obj->name = 'John';\n$obj->age = 30;\n\n$xml = new XmlWriter();\n$xml->openMemory();\n$xml->startDocument('1.0', 'UTF-8');\n$xml->startElement('person');\n$xml->writeElement('name', $obj->name);\n$xml->writeElement('age', $obj->age);\n$xml->endElement();\n$xml->endDocument();\n\necho $xml->outputMemory();

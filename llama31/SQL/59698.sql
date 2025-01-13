@@ -1,1 +1,0 @@
-SELECT articles.*, people.*\nFROM articles\nJOIN people ON articles.spubid = people.spubid\nWHERE articles.skeywords_auto ilike '%pm2%'\nAND people.slast ilike 'chow'\nLIMIT 1;

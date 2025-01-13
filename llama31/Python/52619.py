@@ -1,1 +1,0 @@
-import imagehash\n\ndef hash_similarity(image1, image2):\n    hash1 = imagehash.phash(image1)\n    hash2 = imagehash.phash(image2)\n    return hash1 - hash2

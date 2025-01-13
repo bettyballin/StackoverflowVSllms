@@ -1,1 +1,0 @@
-SELECT \n    B, \n    C, \n    COUNT(DISTINCT A) AS Count\nFROM \n    (\n    SELECT \n        A, \n        MAX(B) AS B, \n        C\n    FROM \n        YourTable\n    GROUP BY \n        A, \n        C\n    ) AS subquery\nGROUP BY \n    B, \n    C

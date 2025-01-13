@@ -1,1 +1,0 @@
-$dom = new DOMDocument();\nlibxml_disable_entity_loader(true);\n$dom->loadXML($xml_results, LIBXML_NOENT);\nlibxml_disable_entity_loader(false);\n\nforeach ($dom->getElementsByTagName('Property') as $property) {\n    echo $property->getElementsByTagName('Name')->item(0)->nodeValue . "\n";\n}

@@ -1,1 +1,0 @@
-set_error_handler(function($errno, $errstr, $errfile, $errline) {\n    if ($errno === E_WARNING) {\n        return true; // ignore warning\n    }\n    return false; // let PHP handle other error types\n});\n\ntry {\n    $vtest = '';\n    print(array_pop($vtest));\n} catch (Exception $e) {}

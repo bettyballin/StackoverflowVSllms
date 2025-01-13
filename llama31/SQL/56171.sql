@@ -1,1 +1,0 @@
-BACKUP DATABASE [YourDatabaseName]\nTO DISK = 'C:\Backup\YourDatabaseName.bak'\nWITH FORMAT,\nNAME = 'YourDatabaseName Backup',\nDESCRIPTION = 'Full backup of YourDatabaseName'

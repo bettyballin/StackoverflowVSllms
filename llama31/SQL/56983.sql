@@ -1,1 +1,0 @@
-SELECT s.synonym_name, s.table_name, s.owner\nFROM dba_synonyms s\nSTART WITH s.synonym_name = 'YOUR_SYNONYM_NAME'\nCONNECT BY NOCYCLE s.synonym_name = PRIOR s.table_name;

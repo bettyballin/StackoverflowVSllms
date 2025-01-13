@@ -1,1 +1,0 @@
-SELECT a.State, COUNT(c.CustomerID) AS Number_of_Customers\nFROM Product p\nINNER JOIN Customer c ON c.CustomerID = p.CustomerID\nLEFT JOIN (\n  SELECT CustomerID, State, ROW_NUMBER() OVER (PARTITION BY CustomerID ORDER BY AddressID DESC) AS RowNum\n  FROM Address\n) a ON a.CustomerID = c.CustomerID AND a.RowNum = 1\nWHERE p.ProductID = 101\nGROUP BY a.State

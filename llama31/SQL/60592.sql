@@ -1,1 +1,0 @@
-WHERE dateField1 >= CURDATE() AND dateField2 >= CURDATE()

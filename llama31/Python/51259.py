@@ -1,1 +1,0 @@
-import re\nfrom nltk.stem import PorterStemmer\n\ndef tokenize(title):\n    tokens = re.findall(r'\b\w+\b', title.lower())\n    stemmer = PorterStemmer()\n    return [stemmer.stem(token) for token in tokens]

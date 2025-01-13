@@ -1,1 +1,0 @@
-$db = new PDO('mysql:host=localhost;dbname=database', 'username', 'password');\n\n$stmt = $db->prepare("CALL my_stored_procedure()");\n$stmt->execute();\n\nwhile ($row = $stmt->fetch()) {\n    // process the result set\n}

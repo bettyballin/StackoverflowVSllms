@@ -1,1 +1,0 @@
-Dim loTupleDatabaseTools = From tt In lottTorqueTools _\n                           Select Tuple.Create(tt.station_index, tt.slot_number)\n\nDim loTupleToolObjects = From tt In m_lottTorqueTools _\n                         Select Tuple.Create(tt.StationIndex, tt.SlotNumber)

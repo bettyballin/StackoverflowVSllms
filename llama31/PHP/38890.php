@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\n// Store file information in session\n$_SESSION['file_size'] = $_FILES['file']['size'];\n$_SESSION['file_tmp'] = $_FILES['file']['tmp_name'];\n\n// Start uploading the file\nmove_uploaded_file($_FILES['file']['tmp_name'], 'uploads/'.$_FILES['file']['name']);\n?>

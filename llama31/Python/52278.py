@@ -1,1 +1,0 @@
-from django.db.models import Subquery, OuterRef\n\nvotes = Vote.objects.filter(object_id=1)\nsubquery = votes.filter(created_on__lte=OuterRef('created_on')).values('object_id').annotate(csum=Sum('vote')).values('csum')\nresult = votes.annotate(score=Subquery(subquery)).values('created_on', 'score')

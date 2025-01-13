@@ -1,1 +1,0 @@
-CREATE TABLE orders (\n  order_id varchar (20),\n  /* more columns... */\n);

@@ -1,1 +1,0 @@
-xmlhttp.open("GET", "test.php", true);\nxmlhttp.send(null);

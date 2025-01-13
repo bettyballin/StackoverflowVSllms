@@ -1,1 +1,0 @@
-CREATE INDEX idx_game_id ON players (game_id);\nCREATE INDEX idx_team_id ON players (team_id);\nCREATE INDEX idx_player_id ON tries (player_id);\nCREATE INDEX idx_game_id ON tries (game_id);

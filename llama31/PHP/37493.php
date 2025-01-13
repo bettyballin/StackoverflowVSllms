@@ -1,1 +1,0 @@
-session_start();\n$name = $_SESSION['name'];\n$base = $_SESSION['base'];\n$location = $_SESSION['location'];

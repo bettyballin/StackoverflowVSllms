@@ -1,1 +1,0 @@
-// models/Referral.php\npublic $hasMany = array(\n    'Friend' => array(\n        'className' => 'Friend',\n        'foreignKey' => 'referral_id'\n    )\n);\n\n// models/Friend.php\npublic $belongsTo = array(\n    'Referral' => array(\n        'className' => 'Referral',\n        'foreignKey' => 'referral_id'\n    )\n);

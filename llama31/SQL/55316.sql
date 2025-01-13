@@ -1,1 +1,0 @@
-CREATE SCHEMA customer;\nGO\n\nGRANT SELECT, INSERT, UPDATE, DELETE ON SCHEMA::customer TO [app_user];\nGO\n\nCREATE TABLE customer.customers (\n    id INT PRIMARY KEY,\n    name VARCHAR(50)\n);\nGO

@@ -1,1 +1,0 @@
-CREATE TABLE LineCharts (\n    ChartId INT PRIMARY KEY,\n    Thickness INT,\n    YAxis INT,\n    XAxis INT,\n    Color VARCHAR(10)\n)\n\nCREATE TABLE PieCharts (\n    ChartId INT PRIMARY KEY,\n    Radius INT,\n    Color VARCHAR(10)\n)\n\nCREATE TABLE BarCharts (\n    ChartId INT PRIMARY KEY,\n    Width INT,\n    Border INT\n)

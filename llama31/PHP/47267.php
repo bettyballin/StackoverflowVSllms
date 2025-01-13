@@ -1,1 +1,0 @@
-// Example of using DATETIME and PHP's datetime handling\n$date = new DateTime('2022-01-01 12:00:00', new DateTimeZone('UTC'));\n$mysqli->query("INSERT INTO table (date_column) VALUES ('{$date->format('Y-m-d H:i:s')}')");

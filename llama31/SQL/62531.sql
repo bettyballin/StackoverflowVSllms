@@ -1,1 +1,0 @@
-CREATE TABLE BusinessTransactionLog (\n    Id INT PRIMARY KEY,\n    TransactionData VARBINARY(MAX),\n    Signature VARBINARY(MAX)\n);

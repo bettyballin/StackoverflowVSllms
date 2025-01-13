@@ -1,1 +1,0 @@
-config.action_mailer = false

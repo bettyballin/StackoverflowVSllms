@@ -1,1 +1,0 @@
-// In your Bootstrap.php or application.ini\n$translate = new Zend_Translate('gettext', '/path/to/your/translations', 'de_DE');\nZend_Registry::set('Zend_Translate', $translate);\n\n// In your view script\n<?= $this->translate('Hello, world!'); ?>

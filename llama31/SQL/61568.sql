@@ -1,1 +1,0 @@
-CREATE TABLE entity_entity (\n  entity_id_a INT NOT NULL,\n  entity_id_b INT NOT NULL,\n  PRIMARY KEY (entity_id_a, entity_id_b),\n  INDEX idx_entity_id_a (entity_id_a),\n  INDEX idx_entity_id_b (entity_id_b),\n  FOREIGN KEY (entity_id_a) REFERENCES entities (id),\n  FOREIGN KEY (entity_id_b) REFERENCES entities (id)\n);

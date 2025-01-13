@@ -1,1 +1,0 @@
-#!/usr/bin/python\n\nimport cgi\n\nprint "Content-Type: text/html"\nprint\n\nprint "Test"

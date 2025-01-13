@@ -1,1 +1,0 @@
-foreach (Conf::get_class_array() as $class) {\n    $property = $class->getProperty('static_type');\n    $property->setAccessible(true);\n    echo $property->getValue();\n}

@@ -1,1 +1,0 @@
-$number = 12345;\n$formattedNumber = preg_replace('/^(\d{0,3})(\d{0,3})(\d{0,3})$/', sprintf('%03s/%03s/%03s', '$1', '$2', '$3'), $number);\necho $formattedNumber; // outputs: 000/012/345

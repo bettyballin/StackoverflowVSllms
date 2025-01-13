@@ -1,1 +1,0 @@
-SELECT *\nFROM table\nWHERE field1 = 'x'\n  AND field2 = 'y'\n  AND (\n    CASE \n      WHEN @DateValue = '1/1/1900' THEN field3 <= GETDATE()\n      ELSE field3 = @DateValue\n    END\n  )

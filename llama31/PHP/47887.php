@@ -1,1 +1,0 @@
-$bin = 'your binary data here';\n$stream = fopen('php://memory', 'r+');\nfwrite($stream, $bin);\nrewind($stream); // reset the stream pointer to the beginning\n\n// now you can use fseek() on the stream\nfseek($stream, 10); // seek to the 10th byte

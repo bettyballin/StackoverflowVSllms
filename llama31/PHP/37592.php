@@ -1,1 +1,0 @@
-// sql/queries.php\n<?php\nreturn [\n    'getUser' => 'SELECT * FROM users WHERE id = :id',\n    'getUsers' => 'SELECT * FROM users',\n    // ...\n];

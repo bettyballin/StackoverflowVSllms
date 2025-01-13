@@ -1,1 +1,0 @@
-define('DIR_APP', 'app/');\n\nclass Questions\n{\n    const QUESTIONS_FILE = DIR_APP . 'questions.xml'; // this will not work\n\n    // Instead, define a class constant like this:\n    const QUESTIONS_FILE = self::getQuestionsFile();\n\n    private static function getQuestionsFile()\n    {\n        return DIR_APP . 'questions.xml';\n    }\n}

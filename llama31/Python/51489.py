@@ -1,1 +1,0 @@
-longest = max([x for x in mylist], key=len)

@@ -1,1 +1,0 @@
-const uaParser = require('ua-parser');\n\nconst userAgent = 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1';\n\nconst parser = new uaParser(userAgent);\nconst device = parser.getDevice();\n\nif (device.type === 'mobile') {\n  console.log('Mobile device detected!');\n}

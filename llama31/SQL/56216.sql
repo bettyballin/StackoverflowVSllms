@@ -1,1 +1,0 @@
-UPDATE org.security_training_question a\nSET a.actv_indr = 'N'\nWHERE a.qstn_id IN (\n  SELECT REGEXP_SUBSTR(v_qstns_to_delete, '[^,]+', 1, LEVEL) \n  FROM DUAL \n  CONNECT BY LEVEL <= REGEXP_COUNT(v_qstns_to_delete, ',') + 1\n);

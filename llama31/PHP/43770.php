@@ -1,1 +1,0 @@
-if (isset($_REQUEST["input_name"])) {\n    // input_name is set, process it\n}\n\nif (!empty($_REQUEST["input_name"])) {\n    // input_name is set and not empty, process it\n}

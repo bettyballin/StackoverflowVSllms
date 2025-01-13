@@ -1,1 +1,0 @@
-SELECT *\nFROM vehicles\nWHERE reg_num >= 'DD' AND reg_num < 'DF'

@@ -1,1 +1,0 @@
-function match_password($password) {\n    return password_verify($password, $this->password);\n}

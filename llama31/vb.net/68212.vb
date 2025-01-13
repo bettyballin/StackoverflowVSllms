@@ -1,1 +1,0 @@
-Imports Microsoft.VisualBasic\n\nDim sReadString As String = oReader.ReadString\nCallByName(Me.Elements, sReadString, CallType.Set, sReadString)

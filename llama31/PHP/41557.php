@@ -1,1 +1,0 @@
-$a = 1;\n$b = 2;\n\n$defined_vars = get_defined_vars();\n\nprint_r($defined_vars);

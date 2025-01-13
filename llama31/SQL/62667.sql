@@ -1,1 +1,0 @@
-GRANT SELECT ON view_owner.view_name TO user_schema;

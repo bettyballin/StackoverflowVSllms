@@ -1,1 +1,0 @@
-SELECT *\nFROM table\nWHERE REF NOT IN (SELECT ID FROM table);

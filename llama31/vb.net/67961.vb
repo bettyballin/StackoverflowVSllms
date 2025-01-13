@@ -1,1 +1,0 @@
-Private Declare Sub FortranCall Lib "Fcall.dll" (r1 As Long, ByVal num As String)\n\nSub LoadDLL()\n    Dim dllPath As String\n    dllPath = ThisWorkbook.Path & "\Fcall.dll"\n    FortranCall.r1 = LoadLibrary(dllPath)\nEnd Sub

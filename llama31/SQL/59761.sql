@@ -1,1 +1,0 @@
-WITH rankedEvents AS (\n  SELECT caseID, eventDate, ROW_NUMBER() OVER (PARTITION BY caseID ORDER BY eventDate DESC) as row_num\n  FROM Events\n)\nSELECT c.caseNo, re.eventDate\nFROM Cases c\nJOIN rankedEvents re ON c.id = re.caseID AND re.row_num = 1

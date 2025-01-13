@@ -1,1 +1,0 @@
-SELECT MIN(t1.document_number) + 1\nFROM (\n  SELECT document_number\n  FROM your_table\n  UNION ALL\n  SELECT document_number + 1\n  FROM your_table\n) t1\nLEFT JOIN your_table t2\n  ON t1.document_number = t2.document_number\nWHERE t2.document_number IS NULL\n  AND t1.document_number > 0;

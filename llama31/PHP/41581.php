@@ -1,1 +1,0 @@
-// In your homepage.php view\n$this->load->view('partials/navbar');

@@ -1,1 +1,0 @@
-$search_term = trim($_POST['search_term']);  // assuming you're using POST method\n$remote_ip = $_SERVER['REMOTE_ADDR'];  // optional, if you want to track IP addresses\n\n$stmt = $mysqli->prepare("INSERT INTO search_logs (search_term, search_date, remote_ip) VALUES (?, ?, ?)");\n$stmt->bind_param("sss", $search_term, date("Y-m-d H:i:s"), $remote_ip);\n$stmt->execute();

@@ -1,1 +1,0 @@
-@results = (Note.find(:all, :limit => 3, :order => "updated_at DESC") + \n            Picture.find(:all, :limit => 3, :order => "updated_at DESC")).sort_by(&:updated_at).reverse

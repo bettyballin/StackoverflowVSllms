@@ -1,1 +1,0 @@
-UPDATE your_table\nSET destination_column = source_column;

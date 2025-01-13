@@ -1,1 +1,0 @@
-/**\n * @param Whatever $blah\n */\nfunction myFunction($blah) {\n    // Now $blah will have autocomplete suggestions\n}

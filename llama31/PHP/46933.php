@@ -1,1 +1,0 @@
-<?php\ndefine('INCLUDING_SERVER_HOST', $_SERVER['HTTP_HOST']);\ninclude('http://example.com/includedFile.php');\n?>

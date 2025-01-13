@@ -1,1 +1,0 @@
-// merged.php\nrequire __DIR__ . '/class1.php';\nrequire __DIR__ . '/class2.php';\n// ...\n\n// usage.php\nrequire __DIR__ . '/merged.php';

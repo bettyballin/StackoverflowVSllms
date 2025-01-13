@@ -1,1 +1,0 @@
-CREATE TABLE users (\n  id INT PRIMARY KEY,\n  username VARCHAR(255)\n);\n\nCREATE TABLE permissions (\n  id INT PRIMARY KEY,\n  user_id INT,\n  post BOOLEAN DEFAULT FALSE,\n  edit BOOLEAN DEFAULT FALSE,\n  delete BOOLEAN DEFAULT FALSE,\n  FOREIGN KEY (user_id) REFERENCES users(id)\n);

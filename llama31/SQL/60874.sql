@@ -1,1 +1,0 @@
-BACKUP DATABASE [database_name] \nTO DISK = '\\remote_drive\backup_path'\nWITH FORMAT, MEDIANAME = 'backup_media_name'

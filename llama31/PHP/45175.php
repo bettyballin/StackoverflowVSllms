@@ -1,1 +1,0 @@
-class MyFormatter extends PhpHighlight\Formatter\n{\n    public function format($tokens)\n    {\n        // Define your formatting rules here\n    }\n}

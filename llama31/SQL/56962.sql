@@ -1,1 +1,0 @@
-SELECT *\nFROM tbl1\nWHERE REGEXP_LIKE(col1, '[^0-9]');

@@ -1,1 +1,0 @@
-CREATE VIEW VehicleValues AS\nSELECT period, NameOfVehicle, Value\nFROM (\n  SELECT period, Truck, Car, Boat\n  FROM YourOriginalTable\n) AS SourceTable\nUNPIVOT (\n  Value\n  FOR NameOfVehicle IN (Truck, Car, Boat)\n) AS UnpivotTable;

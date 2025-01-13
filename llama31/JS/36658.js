@@ -1,1 +1,0 @@
-$('a[href="#"]').on('click', function() {\n  $('input[type="checkbox"]', document.myList).prop('checked', true);\n});

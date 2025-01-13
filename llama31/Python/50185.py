@@ -1,1 +1,0 @@
-import re\n\n# Search for a pattern in a string\ntext = "Hello, world!"\npattern = r"world"\nmatch = re.search(pattern, text)\nif match:\n    print("Found:", match.group())\n\n# Replace a pattern in a string\ntext = "Hello, world!"\npattern = r"world"\nreplacement = "Python"\nnew_text = re.sub(pattern, replacement, text)\nprint("New text:", new_text)

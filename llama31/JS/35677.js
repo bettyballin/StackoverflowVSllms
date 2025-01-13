@@ -1,1 +1,0 @@
-function selectTreeNode(treeView, treeNodeValue) {\n    var clientID = treeView + "_" + treeNodeValue.replace(/\\/g, "_");\n    TreeView_SelectNode(treeView + "_Data", this, clientID);\n}\n\n// usage:\nselectTreeNode("tvMenu", "s1\\720,63");

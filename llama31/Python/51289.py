@@ -1,1 +1,0 @@
-#Replace the first character of the column\nsubmission['label'].str[0] = submission['label'].str[0].replace('1', '2')

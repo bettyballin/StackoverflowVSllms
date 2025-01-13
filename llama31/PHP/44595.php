@@ -1,1 +1,0 @@
-while($p = next($primes)) {\n    $res = doSomeCalculationsOn($p);\n    $currentKey = key($primes);\n\n    if( IsPrime($res, $currentKey) ) {\n        return $p;\n    }\n}

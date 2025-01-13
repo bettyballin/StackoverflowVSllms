@@ -1,1 +1,0 @@
-CREATE TABLE Combinations (\n    CombinationId INT PRIMARY KEY,\n    Item1Id INT,\n    Item2Id INT\n);\n\nCREATE TABLE Ratings (\n    UserId INT,\n    CombinationId INT,\n    Rating INT\n);

@@ -1,1 +1,0 @@
-SELECT AUTO_INCREMENT\nFROM information_schema.TABLES\nWHERE TABLE_SCHEMA = 'your_database_name'\nAND TABLE_NAME = 'your_table_name';

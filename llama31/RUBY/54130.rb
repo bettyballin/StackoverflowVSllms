@@ -1,1 +1,0 @@
-# Add to your Gemfile\ngem 'bullet'\n\n# Run the installation generator\nrails generate bullet:install

@@ -1,1 +1,0 @@
-SELECT \n    CASE DATENAME(dw, ADateTimeColumn)\n        WHEN 'Monday' THEN 1\n        WHEN 'Tuesday' THEN 2\n        WHEN 'Wednesday' THEN 3\n        WHEN 'Thursday' THEN 4\n        WHEN 'Friday' THEN 5\n        WHEN 'Saturday' THEN 6\n        WHEN 'Sunday' THEN 7\n    END AS MondayBasedDate\nFROM famousShipwrecks

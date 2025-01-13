@@ -1,1 +1,0 @@
-Imports System.ComponentModel\n\n<TypeConverter(GetType(LocalizedEnumConverter))>\nPublic Enum MyEnum\n    ItemA\n    ItemB\nEnd Enum

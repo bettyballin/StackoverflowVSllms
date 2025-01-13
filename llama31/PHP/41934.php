@@ -1,1 +1,0 @@
-$localeInfo = localeconv();\n$firstDayOfWeek = $localeInfo['first_weekday'];\n\nif ($firstDayOfWeek == 0) {\n    echo "Sunday";\n} elseif ($firstDayOfWeek == 1) {\n    echo "Monday";\n}

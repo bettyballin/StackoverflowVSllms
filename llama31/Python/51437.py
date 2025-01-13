@@ -1,1 +1,0 @@
-from django.db import models\n\nclass MyModel(models.Model):\n    name = models.CharField(max_length=255)\n    email = models.EmailField(unique=True)

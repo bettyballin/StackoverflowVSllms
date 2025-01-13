@@ -1,1 +1,0 @@
-// Get the fixed element\nconst fixedElement = document.querySelector('#fixed-element');\n\n// Get the element's bounding rect\nconst rect = fixedElement.getBoundingClientRect();\n\n// Calculate the scroll position\nconst scrollX = rect.left + window.pageXOffset;\nconst scrollY = rect.top + window.pageYOffset;\n\n// Scroll to the element\nwindow.scrollTo(scrollX, scrollY);

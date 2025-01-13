@@ -1,1 +1,0 @@
-import heapq\n\nclass YourObject:\n    def __init__(self, dt):\n        self.dt = dt\n\n# assuming obj1 and obj2 are lists of YourObject instances\nobj1 = [YourObject(datetime(2022, 1, 1)), YourObject(datetime(2022, 1, 3))]\nobj2 = [YourObject(datetime(2022, 1, 2)), YourObject(datetime(2022, 1, 4))]\n\nmerged_list = list(heapq.merge(obj1, obj2, key=lambda x: x.dt))

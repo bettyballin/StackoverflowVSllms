@@ -1,1 +1,0 @@
-#Replace the last character of the column\nsubmission['label'].str[-1] = submission['label'].str[-1].replace('1', '2')

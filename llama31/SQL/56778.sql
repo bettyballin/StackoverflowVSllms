@@ -1,1 +1,0 @@
-DECLARE @IncrementalId INT\nSET @IncrementalId = 0\n\nSELECT \n    @IncrementalId := @IncrementalId + 1 AS IncrementalId,\n    YourColumn1,\n    YourColumn2\nFROM \n    YourTable\nORDER BY \n    YourOrderColum

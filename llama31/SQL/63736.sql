@@ -1,1 +1,0 @@
-UPDATE u\nSET u.assid = s.assid\nFROM ud u\nINNER JOIN sale s\nON u.id = s.udid

@@ -1,1 +1,0 @@
-$.ajax({\n  type: "GET",\n  url: "/game/getpuzzleinfo",\n  dataType: "json",\n  cache: false,\n  success: function(data) {\n    // ...\n  }\n});

@@ -1,1 +1,0 @@
-Dim startDate As New Date(2022, 1, 1)\nDim endDate As New Date(2022, 12, 31)\nDim excludedDates As New List(Of Date) From {New Date(2022, 1, 3), New Date(2022, 4, 15)}\n\nDim workingDaysCount = WorkingDays(startDate, endDate, excludedDates)\nConsole.WriteLine(workingDaysCount)

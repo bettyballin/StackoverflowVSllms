@@ -1,1 +1,0 @@
-var applet = document.getElementById('rawprint');\napplet.print('Hello, World!');

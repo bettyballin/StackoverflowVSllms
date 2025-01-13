@@ -1,1 +1,0 @@
-Function Index() As ActionResult\n    Return View(New Stock_ViewModel)\nEnd Function\n\n<HttpPost>\nFunction Index(ByVal svm As Stock_ViewModel) As ActionResult\n    Return View(svm)\nEnd Functio

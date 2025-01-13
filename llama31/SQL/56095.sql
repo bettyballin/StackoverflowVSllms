@@ -1,1 +1,0 @@
-SELECT TRY_CAST(REPLACE(Column1, '"', '') AS float) AS NumericValue

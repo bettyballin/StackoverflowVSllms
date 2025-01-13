@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded', function() {\n  // Place the script here\n});

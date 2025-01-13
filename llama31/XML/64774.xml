@@ -1,1 +1,0 @@
-<ItemGroup>\n    <Analyzer Include="Microsoft.CodeAnalysis.CSharp" />\n    <Analyzer Include="Microsoft.CodeAnalysis.VisualBasic" />\n  </ItemGroup>

@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.jboss.jms</groupId>\n    <artifactId>jboss-jms-client</artifactId>\n    <version>1.1.0.GA</version>\n</dependency>

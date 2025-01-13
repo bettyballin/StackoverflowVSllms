@@ -1,1 +1,0 @@
-CREATE TABLE mytable (id SERIAL PRIMARY KEY, data xml);\n\nINSERT INTO mytable (data) VALUES ('<person><name>John</name><age>30</age></person>');\n\nSELECT xpath('/person/name/text()', data) FROM mytable;

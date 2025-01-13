@@ -1,1 +1,0 @@
-<Component Id="Allow_WebServiceExtension_ASP.NET_2.0" DiskId="1" Guid="02247363-E423-41E1-AC15-BEF589B65A4D">\n  <IIS:WebServiceExtension Id="ASP.NET v2.0.50727" Allow="yes" />\n</Component>

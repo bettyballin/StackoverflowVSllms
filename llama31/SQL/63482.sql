@@ -1,1 +1,0 @@
-EXEC sp_configure 'remote access', 0;\nRECONFIGURE;

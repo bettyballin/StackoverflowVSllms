@@ -1,1 +1,0 @@
-function validateQuantities() {\n    var qtyTextboxes = document.getElementsByClassName('qty-textbox');\n    for (var i = 0; i < qtyTextboxes.length; i++) {\n        var textbox = qtyTextboxes[i];\n        if (!/^\d+$/.test(textbox.value)) {\n            alert('Invalid quantity in one or more textboxes');\n            return false;\n        }\n    }\n    return true;\n}

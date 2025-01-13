@@ -1,1 +1,0 @@
-@news = News.where(role_id: @news_writers.map(&:id))

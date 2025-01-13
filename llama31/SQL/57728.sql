@@ -1,1 +1,0 @@
-+----+-------+\n| id | email |\n+----+-------+\n| 1  | a@example.com |\n| 2  | b@example.com |\n| 3  | c@example.com |\n+----+-------+

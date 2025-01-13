@@ -1,1 +1,0 @@
-# lib/open_flash_chart_wrapper.rb\nmodule OpenFlashChartWrapper\n  class Wrapper\n    def initialize\n      # initialization code\n    end\n\n    def some_method\n      # method code\n    end\n  end\nend

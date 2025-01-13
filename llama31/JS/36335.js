@@ -1,1 +1,0 @@
-success: function(xml) {\n    var weather = $(xml).find('temp_c').attr('data');\n    var template = Handlebars.compile($('#weather-template').html());\n    var html = template({ city: city, weather: weather });\n    // Append the rendered HTML to your page\n}

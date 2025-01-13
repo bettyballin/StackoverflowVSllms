@@ -1,1 +1,0 @@
-class Food {\n  var $q = array();\n  var $nutrients = array();\n  // rest of your code...\n}

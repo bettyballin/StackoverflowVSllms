@@ -1,1 +1,0 @@
-function generatePage() {\n    // your page generation code here\n}\n\nif (mysql_num_rows() == 0) {\n    // clear user choices\n    generatePage(); // call the main function again\n}

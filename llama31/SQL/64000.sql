@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nTABLESAMPLE (5000 ROWS);

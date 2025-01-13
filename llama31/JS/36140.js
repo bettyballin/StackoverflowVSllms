@@ -1,1 +1,0 @@
-// Clear all session variables\nsessionStorage.clear();

@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded", function() {\n  var txtLink = document.getElementById("txtLink");\n  var href = txtLink.querySelector("a").href;\n  var txtCss = document.getElementById("txtCss");\n  txtCss.querySelector("a").href = href;\n});

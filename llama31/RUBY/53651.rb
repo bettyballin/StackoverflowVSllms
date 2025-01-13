@@ -1,1 +1,0 @@
-company = Company.find(1)\nemail_addresses = company.emails.pluck(:email_address)

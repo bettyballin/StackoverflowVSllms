@@ -1,1 +1,0 @@
-$wpdb->query( 'LOCK TABLES wp_posts WRITE' );\n// perform queries\n$wpdb->query( 'UNLOCK TABLES' );

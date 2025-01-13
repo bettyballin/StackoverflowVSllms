@@ -1,1 +1,0 @@
-with open('somefile.txt') as f:\n    # use the file\n# file is automatically closed when leaving the with block

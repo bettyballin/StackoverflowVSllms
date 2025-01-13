@@ -1,1 +1,0 @@
-$route = new Zend_Controller_Router_Route(':controller/:action.html', array('controller' => 'index', 'action' => 'index'));\n$router->addRoute('html', $route);

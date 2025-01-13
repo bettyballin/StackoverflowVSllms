@@ -1,1 +1,0 @@
-UPDATE Address\nSET Street_Name = regexp_replace(Street_Address_1, '^[0-9]+ (.*) (Street|St|Rd|Road|Ave|Avenue|Ln|Lane|Dr|Drive)$', '\1');

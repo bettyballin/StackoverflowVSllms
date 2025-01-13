@@ -1,1 +1,0 @@
-<input value={this.state.name} onChange={this.handleChange} />

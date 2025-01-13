@@ -1,1 +1,0 @@
-WHILE EXISTS (SELECT 1 FROM your_table WHERE date_column IS NOT NULL)\nBEGIN\n    UPDATE TOP (1000) your_table\n    SET date_column = DATEADD(day, ABS(CHECKSUM(NEWID())) % (365*5), '2010-01-01')\n    WHERE date_column IS NOT NULL\n\n    CHECKPOINT\nEND

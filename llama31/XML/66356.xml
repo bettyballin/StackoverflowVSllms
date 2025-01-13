@@ -1,1 +1,0 @@
-<rewrite>\n    <rules>\n        <rule name="Subdomain Rewrite" stopProcessing="true">\n            <match url="(.*)" />\n            <conditions>\n                <add input="{HTTP_HOST}" pattern="^(.*?)\.mydir\.com$" />\n            </conditions>\n            <action type="Rewrite" url="/{C:1}/{R:1}" />\n        </rule>\n    </rules>\n</rewrite>

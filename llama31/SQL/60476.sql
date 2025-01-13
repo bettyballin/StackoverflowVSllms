@@ -1,1 +1,0 @@
-BACKUP DATABASE AbraEmployeeSelfService\nTO DISK = '\\servername\f$\Backup\myDB_backup.bak'

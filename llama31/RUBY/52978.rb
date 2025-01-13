@@ -1,1 +1,0 @@
-Foo::Bar.freeze\nFoo::SimpleBarImplementation.freeze

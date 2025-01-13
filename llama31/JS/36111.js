@@ -1,1 +1,0 @@
-$(function() {\n  $('#boxes div').matchHeight();\n  $(window).resize(function() {\n    $('#boxes div').matchHeight();\n  });\n});

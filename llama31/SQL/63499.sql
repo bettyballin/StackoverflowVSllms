@@ -1,1 +1,0 @@
-CREATE TABLE searches (\n  id INT PRIMARY KEY,\n  user_id INT,\n  query_hash VARCHAR(255),\n  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);\n\nCREATE TABLE search_results (\n  id INT PRIMARY KEY,\n  search_id INT,\n  user_id INT,\n  order INT,\n  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n  FOREIGN KEY (search_id) REFERENCES searches(id)\n);

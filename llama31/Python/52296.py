@@ -1,1 +1,0 @@
-import requests\n\nproxies = {\n    'http': 'http://user:pass@myproxy:port',\n    'https': 'http://user:pass@myproxy:port'\n}\n\nresponse = requests.get(A_HTTPS_URL, proxies=proxies)\nprint response.text

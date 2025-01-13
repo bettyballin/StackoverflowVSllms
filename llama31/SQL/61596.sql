@@ -1,1 +1,0 @@
-CREATE TABLE files (\n  id INT PRIMARY KEY,\n  filename VARCHAR(255),\n  file_type VARCHAR(50),\n  file_size INT,\n  upload_date TIMESTAMP,\n  file_path VARCHAR(255)  // store the file path and name\n);

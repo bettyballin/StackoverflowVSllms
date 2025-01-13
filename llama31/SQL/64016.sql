@@ -1,1 +1,0 @@
--- Create an EAV table to store attributes\nCREATE TABLE attributes (\n    id SERIAL PRIMARY KEY,\n    entity_id INTEGER,\n    attribute_name VARCHAR(50),\n    attribute_value VARCHAR(255)\n);

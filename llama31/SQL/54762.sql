@@ -1,1 +1,0 @@
-CREATE TABLE your_table (column1 NUMBER, column2 VARCHAR2(20)) NOLOGGING;

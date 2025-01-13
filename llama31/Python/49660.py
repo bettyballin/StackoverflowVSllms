@@ -1,1 +1,0 @@
-from google.appengine.api import urlfetch\n\n# ...\n\ndef _make_request(self, method, url, headers, data):\n    # Use urlfetch instead of httplib or urllib\n    result = urlfetch.fetch(url, method=method, headers=headers, payload=data)\n    return result.content

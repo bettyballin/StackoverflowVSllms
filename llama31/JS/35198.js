@@ -1,1 +1,0 @@
-<template>\n  <div>\n    <input v-model="name" />\n    <input v-model="email" />\n  </div>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      name: 'John Doe',\n      email: 'john.doe@example.com'\n    }\n  }\n}\n</script>

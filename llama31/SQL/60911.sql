@@ -1,1 +1,0 @@
-insert into agregadores_agregadores \n(\n    idagregador,\n    nombre,\n    url\n) \nvalues \n(\n    2,\n    'Netvibes',\n    'http://www.netvibes.com/subscribe.php?type=rss' || CHR(38) || 'url='\n);

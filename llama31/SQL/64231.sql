@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE id IN (\n  123, 456, 789, ... , 400th_number\n);

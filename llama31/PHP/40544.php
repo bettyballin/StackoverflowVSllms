@@ -1,1 +1,0 @@
-if (!file_exists($file) || !include($file)) {\n    // Define default preferences here\n    $pref1 = 'default_value';\n    // Log the issue\n    error_log("Preferences file missing or failed to include. Using defaults.");\n}

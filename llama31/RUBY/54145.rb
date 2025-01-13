@@ -1,1 +1,0 @@
-assert_equal(BigDecimal.new("61.0"), calibrations[0].calibration_constant)

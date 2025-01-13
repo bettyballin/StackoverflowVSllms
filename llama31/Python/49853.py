@@ -1,1 +1,0 @@
-import pandas as pd\n\n# create a sample dataset\ndata = {'name': ['John', 'Mary', 'David'], \n        'age': [25, 31, 42]}\ndf = pd.DataFrame(data)\n\n# perform a query\nresult = df[df['age'] > 30]\nprint(result)

@@ -1,1 +1,0 @@
-use PHPAuth\Auth;\n\n$auth = new Auth($dbh, $config); // $dbh is a PDO instance, $config is an array\n\n// Register a new user\n$auth->register('username', 'password', 'email@example.com');\n\n// Login a user\n$auth->login('username', 'password');\n\n// Check if a user is logged in\nif ($auth->isLoggedin()) {\n    // User is logged in\n}

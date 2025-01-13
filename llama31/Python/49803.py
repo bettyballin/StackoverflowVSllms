@@ -1,1 +1,0 @@
-import tkinter as tk\nfrom PIL import Image, ImageTk\n\n# Create a Tkinter window\nroot = tk.Tk()\n\n# Open the PNG image\nimage = Image.open('output.png')\n\n# Convert the image to a PhotoImage object\nphoto = ImageTk.PhotoImage(image)\n\n# Create a label with the image\nlabel = tk.Label(root, image=photo)\nlabel.pack()\n\n# Start the Tkinter event loop\nroot.mainloop()

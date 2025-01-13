@@ -1,1 +1,0 @@
-SELECT \n    id,\n    STRING_AGG(Name + ':' + CONVERT(VARCHAR, Value), ', ') AS Column\nFROM \n    YourTable\nGROUP BY \n    id

@@ -1,1 +1,0 @@
-class ApplicationController < ActionController::Base\n  before_action :remove_x_runtime_header\n\n  private\n\n  def remove_x_runtime_header\n    headers['X-Runtime'] = nil\n  end\nend

@@ -1,1 +1,0 @@
-setcookie('token', base64_encode(serialize($token)), time()+10800, '/', '.mydomain.com', true, true);

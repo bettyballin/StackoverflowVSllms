@@ -1,1 +1,0 @@
-$mysqli = new mysqli("localhost", "username", "password", "database");\n$mysqli->query("CALL get_user_data(123)");

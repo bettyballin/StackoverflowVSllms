@@ -1,1 +1,0 @@
-SELECT \n    Date,\n    Column1,\n    Column2,\n    Column3,\n    Column4,\n    Column3 - LAG(Column3) OVER (ORDER BY Date) AS NewColumn\nFROM \n    YourTable

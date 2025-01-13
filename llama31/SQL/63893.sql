@@ -1,1 +1,0 @@
-CREATE INDEX idx_sold_on_isnull ON Sales (CASE WHEN sold_on IS NULL THEN 1 ELSE 0 END, total);

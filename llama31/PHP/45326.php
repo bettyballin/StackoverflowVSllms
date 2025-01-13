@@ -1,1 +1,0 @@
-$user = mysql_real_escape_string($_POST['user']);\n$pass = mysql_real_escape_string($_POST['pass']);\n\n$query = "SELECT * FROM users WHERE user = '$user' AND pass = '$pass'";

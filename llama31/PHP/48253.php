@@ -1,1 +1,0 @@
-$message = "Order for $name on $date";

@@ -1,1 +1,0 @@
-// in your views/elements/session_flash.ctp\n<div id="flashMessage" class="message">\n    <?php echo $message; ?>\n    <?php if (isset($dismiss)): ?>\n        <a href="#" onclick="$('#flashMessage').fadeOut(); return false;">Dismiss</a>\n    <?php endif; ?>\n</div>

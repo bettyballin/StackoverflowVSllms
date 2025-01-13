@@ -1,1 +1,0 @@
-SELECT rawtohex(timestamp) AS timestamp\nFROM smon_scn_time\nWHERE scn = <your_scn_value>;

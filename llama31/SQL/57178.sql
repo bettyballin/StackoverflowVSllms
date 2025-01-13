@@ -1,1 +1,0 @@
-CREATE TABLE users (\n  id INT PRIMARY KEY,\n  first_name VARCHAR(50),\n  last_name VARCHAR(50),\n  username VARCHAR(50),\n  password VARCHAR(255),\n  ...\n);\n\nCREATE TABLE user_attributes (\n  id INT PRIMARY KEY,\n  user_id INT,\n  attribute_name VARCHAR(50),\n  attribute_value VARCHAR(255),\n  FOREIGN KEY (user_id) REFERENCES users(id)\n);

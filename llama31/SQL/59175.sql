@@ -1,1 +1,0 @@
-SELECT p.Name, a.City, a.State\nFROM people p\nCROSS APPLY p.addresses.nodes('/address') AS addr(a)

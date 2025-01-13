@@ -1,1 +1,0 @@
-CREATE PROCEDURE getSomething @keyList varchar(4096)\nAS\nBEGIN\n    SELECT * FROM mytbl\n    WHERE name IN (SELECT value FROM dbo.Split(@keyList, ','))\nEND

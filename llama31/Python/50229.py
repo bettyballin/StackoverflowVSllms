@@ -1,1 +1,0 @@
-# views.py\nfrom django.shortcuts import render\nfrom .models import Order, Item\n\ndef report(request):\n    orders = Order.objects.prefetch_related('items')\n    return render(request, 'report.html', {'orders': orders})

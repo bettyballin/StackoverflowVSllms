@@ -1,1 +1,0 @@
-WITH RECURSIVE dates AS (\n  SELECT SYSDATE - INTERVAL '1 year' AS date\n  UNION ALL\n  SELECT date + INTERVAL '1 day'\n  FROM dates\n  WHERE date < SYSDATE\n)\nSELECT date\nFROM dates;

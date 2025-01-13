@@ -1,1 +1,0 @@
-Protected Overrides Function GetErrorMessage() As String\n    Return MyBase.Text\nEnd Functio

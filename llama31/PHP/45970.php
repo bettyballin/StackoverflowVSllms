@@ -1,1 +1,0 @@
-<?php\n$imageFile = 'path/to/your/image/1234.jpeg';\n$imageData = file_get_contents($imageFile);\n\nheader('Content-Type: image/jpeg'); // Set the MIME type\nheader('Content-Length: ' . strlen($imageData)); // Set the content length\n\necho $imageData; // Output the image data\nexit; // Stop PHP from outputting anything else\n?>

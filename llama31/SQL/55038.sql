@@ -1,1 +1,0 @@
-CREATE TABLE Table1 (\n    UniqueID int IDENTITY(1, 10) -- increment value of 10\n    -- other columns...\n)

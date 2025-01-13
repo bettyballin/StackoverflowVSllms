@@ -1,1 +1,0 @@
-include 'home.php';\nexit;

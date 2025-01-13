@@ -1,1 +1,0 @@
-SELECT * FROM Customers c\nWHERE NOT EXISTS (SELECT 1 FROM Employees e WHERE e.Country = c.Country)

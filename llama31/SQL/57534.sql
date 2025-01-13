@@ -1,1 +1,0 @@
-SELECT \n    SUM(Delta) AS Total\nFROM \n    (\n    SELECT \n        timestamp, \n        value, \n        LAG(value) OVER (ORDER BY timestamp) AS LastValue,\n        value - LAG(value) OVER (ORDER BY timestamp) AS Delta\n    FROM \n        table\n    ) AS subquery\nWHERE \n    Delta > 0

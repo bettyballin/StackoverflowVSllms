@@ -1,1 +1,0 @@
-function hasPermission($user_id, $permission_name) {\n    $query = "SELECT * FROM user_permissions\n              WHERE user_id = $1 AND permission_id = (SELECT id FROM permissions WHERE name = $2)";\n    $result = pg_query_params($query, array($user_id, $permission_name));\n    return pg_num_rows($result) > 0;\n}

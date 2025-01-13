@@ -1,1 +1,0 @@
-wmd_options = {\n  textarea: document.getElementById('my_textarea_id')\n};

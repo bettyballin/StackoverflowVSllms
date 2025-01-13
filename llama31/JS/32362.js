@@ -1,1 +1,0 @@
-// Store the arrays in local storage\nlocalStorage.setItem('array1', JSON.stringify(array1));\nlocalStorage.setItem('array2', JSON.stringify(array2));\nlocalStorage.setItem('array3', JSON.stringify(array3));

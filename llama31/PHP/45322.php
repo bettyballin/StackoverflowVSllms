@@ -1,1 +1,0 @@
-Array\n(\n    [0] => Array\n        (\n            [0] => Scott L. Aranda\n            [1] => 123 Main Street, Bethesda, Maryland 20816\n            [2] => Single\n        )\n\n    [1] => Array\n        (\n            [0] => Todd D. Smith\n            [1] => 987 Elm Street, Alexandria, Virginia 22301\n            [2] => Single\n        )\n\n    // ...\n)

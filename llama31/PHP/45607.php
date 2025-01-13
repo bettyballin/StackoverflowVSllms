@@ -1,1 +1,0 @@
-$config['enable_profiler'] = TRUE;

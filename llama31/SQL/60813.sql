@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\nINSERT INTO ratings (entity_id, entity_type, rating) VALUES (?, ?, 1);\nUPDATE entities SET rating = rating + 1 WHERE id = ? AND type = ?;\nCOMMIT;

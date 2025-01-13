@@ -1,1 +1,0 @@
-keys = ['name', 'age', 'food']\nvalues = ['Monty', 42, 'spam']\n\nresult = dict(zip(keys, values))\n\nprint(result)  # Output: {'name': 'Monty', 'age': 42, 'food': 'spam'}

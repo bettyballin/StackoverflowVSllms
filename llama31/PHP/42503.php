@@ -1,1 +1,0 @@
-$last_timestamp = (string)$last_obj->abstime['val'];\n$last_energy_in_kwh = (string)$last_obj->int[0]['val'];\n$last_energy_out_kwh = (string)$last_obj->int[1]['val'];

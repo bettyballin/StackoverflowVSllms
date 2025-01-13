@@ -1,1 +1,0 @@
-<parameter name="myIntegerParam" class="java.lang.Integer"/>\n\n// ...\n\n<textFieldExpression><![CDATA[$P{myIntegerParam}.toString()]]></textFieldExpression>

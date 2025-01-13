@@ -1,1 +1,0 @@
-from django.http import HttpRequest\n\ndef view(request: HttpRequest):\n    print(request.path)\n    print(request.method)\n    print(request.GET)\n    print(request.META)\n    return HttpResponse('Hello, World!')

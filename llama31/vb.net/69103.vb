@@ -1,1 +1,0 @@
-Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick\n    If e.RowIndex >= 0 Then\n        Dim linkButton As DataGridViewLinkCell = DataGridView1.Rows(e.RowIndex).Cells(e.ColumnIndex)\n        ' Your code here to handle the click event\n    End If\nEnd Sub

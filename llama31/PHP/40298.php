@@ -1,1 +1,0 @@
-$conn = new mysqli("localhost", "username", "password", "database_name");\n\nif ($conn->connect_error) {\n    die("Connection failed: " . $conn->connect_error);\n}\n\n$stmt = $conn->prepare("SELECT * FROM table_name WHERE usr_name = ?");\n$stmt->bind_param("s", $_REQUEST['usr_name']);\n$stmt->execute();

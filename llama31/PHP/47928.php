@@ -1,1 +1,0 @@
-$decrypted_credentials = openssl_decrypt($_SESSION['soap_credentials'], $cipher, $key, 0, $iv);

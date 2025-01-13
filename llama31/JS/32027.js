@@ -1,1 +1,0 @@
-if (xhr.status === 0) {\n  console.log("Request has been aborted");\n}

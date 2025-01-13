@@ -1,1 +1,0 @@
-BEGIN;\nLOCK TABLE mytable IN EXCLUSIVE MODE;\nUPDATE mytable SET column1 = ...;\nCOMMIT;

@@ -1,1 +1,0 @@
-DECLARE @sql NVARCHAR(255)\nDECLARE cur CURSOR FOR\nSELECT 'DROP INDEX ' + name + ' ON ' + object_name(object_id)\nFROM sys.indexes\nWHERE type_desc = 'NONCLUSTERED'\n\nOPEN cur\nFETCH NEXT FROM cur INTO @sql\nWHILE @@FETCH_STATUS = 0\nBEGIN\n    EXEC sp_executesql @sql\n    FETCH NEXT FROM cur INTO @sql\nEND\nCLOSE cur\nDEALLOCATE cur

@@ -1,1 +1,0 @@
-$data = simplexml_load_string($xmlFile);\nforeach($data->item as $key => $current){\n    $attributes = $current->attributes();\n    $url = (string)$attributes['url'];\n    $height = (string)$attributes['height'];\n    $width = (string)$attributes['width'];\n    echo "URL: $url, Height: $height, Width: $width";\n}

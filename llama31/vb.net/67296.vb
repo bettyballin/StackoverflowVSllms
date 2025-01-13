@@ -1,1 +1,0 @@
-Imports System.Runtime.Serialization.Json\n\nDim obj As Object = ' Your object to serialize\nDim serializer As New DataContractJsonSerializer(obj.GetType())\nDim stream As New MemoryStream()\nserializer.WriteObject(stream, obj)\nDim jsonString As String = Encoding.UTF8.GetString(stream.ToArray())

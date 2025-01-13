@@ -1,1 +1,0 @@
-$query = mysql_query("SELECT threads.title, accounts.title \n                      FROM threads \n                      INNER JOIN accounts\n                      ON threads.author = accounts.id \n                      WHERE id = ".intval($_GET['threadID']));\n$row = mysql_fetch_assoc($query);\n\n$thread_title = $row['threads.title'];\n$account_title = $row['accounts.title'];

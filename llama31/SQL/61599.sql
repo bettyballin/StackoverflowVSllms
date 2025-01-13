@@ -1,1 +1,0 @@
-SELECT * FROM Phones WHERE Mobile = CONVERT(nvarchar(50), @biMobile_1)

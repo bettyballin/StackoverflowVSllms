@@ -1,1 +1,0 @@
-$ boo\n>>> def add(x, y):\n...     return x + y\n...\n>>> add(2, 3)\n5

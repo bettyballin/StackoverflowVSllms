@@ -1,1 +1,0 @@
-my_object = MyObject.new\nmy_object.instance_eval do\n  # code to be executed in the context of my_object\nend

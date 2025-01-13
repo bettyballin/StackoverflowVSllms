@@ -1,1 +1,0 @@
-CREATE INDEX idx_file_path_regexp ON filesystem_data.$tablename (file_path(50));

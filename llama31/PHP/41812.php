@@ -1,1 +1,0 @@
-ini_set('max_input_time', 300);

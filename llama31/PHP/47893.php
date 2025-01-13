@@ -1,1 +1,0 @@
-class Debug {\n    private $logFile;\n\n    public function __construct($logFile) {\n        $this->logFile = $logFile;\n    }\n\n    public function logQuery($sql) {\n        file_put_contents($this->logFile, $sql . "\n", FILE_APPEND);\n    }\n}

@@ -1,1 +1,0 @@
--- Query to determine if report will be empty\nSELECT COUNT(*) as RowCount\nFROM YourReportDataset

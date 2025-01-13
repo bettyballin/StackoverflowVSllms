@@ -1,1 +1,0 @@
-$data = new MixedArray(array(\n    'one' => 'something',\n    'two' => 'else',\n    'three' => 'completely'\n));\n\necho $data['one']; // outputs "something"\necho $data[0]; // outputs "something"

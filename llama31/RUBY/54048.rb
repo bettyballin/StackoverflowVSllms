@@ -1,1 +1,0 @@
-create_table :city_permissions do |t|\n  t.integer :user_id, :city_id\n  t.other_fields ...\nend\n\nadd_index(:city_permissions, [:user_id, :city_id])\nadd_index(:city_permissions, [:city_id, :user_id])

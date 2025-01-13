@@ -1,1 +1,0 @@
-$string = "O'Reilly";\n$escaped_string = addslashes($string);\necho $escaped_string; // Output: O\'Reilly

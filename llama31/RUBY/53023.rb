@@ -1,1 +1,0 @@
-begin\n  doc = Nokogiri::XML(open(url))\nrescue Nokogiri::XML::SyntaxError\n  doc = Nokogiri::HTML(open(url))\nend

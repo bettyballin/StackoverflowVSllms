@@ -1,1 +1,0 @@
-function closePanels() {\n    $(".panel").hide("fast");\n}

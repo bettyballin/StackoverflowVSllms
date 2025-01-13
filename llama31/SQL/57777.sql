@@ -1,1 +1,0 @@
-SELECT \n  pd.Offset\nFROM \n  Pattern p\n  JOIN PatternDetail pd ON p.ID = pd.PID\nWHERE \n  p.ID = 1  -- assuming you want to get the offset for pattern ID 1\n  AND pd.Offset = (\n    (DATEDIFF(DAY, p.BaseDate, GETDATE()) % p.DayCount)  -- MSSQL Server syntax\n    -- OR\n    -- (TRUNC(SYSDATE - p.BaseDate) % p.DayCount)  -- Oracle syntax\n  )

@@ -1,1 +1,0 @@
-function dirCount($dir) {\n  $files = scandir($dir);\n  $count = 0;\n  foreach ($files as $file) {\n    if (is_file($dir . '/' . $file) && isImage($file)) {\n      $count++;\n    }\n  }\n  return $count;\n}

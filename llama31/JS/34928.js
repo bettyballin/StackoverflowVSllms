@@ -1,1 +1,0 @@
-$("#content").load("file:///path/to/data.html #test");

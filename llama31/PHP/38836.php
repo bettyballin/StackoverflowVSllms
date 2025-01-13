@@ -1,1 +1,0 @@
-<img src='<?php echo $this->serverUrl($this->baseUrl('images/logo.png')); ?>' />

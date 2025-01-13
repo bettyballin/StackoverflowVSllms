@@ -1,1 +1,0 @@
-SELECT * FROM audit_log WHERE timestamp > 'your_checkpoint_timestamp';

@@ -1,1 +1,0 @@
-Sub test()\n    Dim result As String\n    result = f("myFunction", "Hello")\n    Debug.Print result\nEnd Sub\n\nFunction myFunction(x As String) As String\n    myFunction = UCase(x)\nEnd Functio

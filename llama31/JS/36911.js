@@ -1,1 +1,0 @@
-var var1 = encodeURIComponent(var1);\nvar var2 = encodeURIComponent(var2);\nvar queryString = "?var1=" + var1 + "&var2=" + var2;

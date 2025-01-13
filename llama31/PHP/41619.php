@@ -1,1 +1,0 @@
-use UnixTimestampable;\n\n/**\n * @ORM\Entity\n */\nclass MyEntity\n{\n    use UnixTimestampable;\n\n    /**\n     * @ORM\Column(type="integer")\n     */\n    private $createdAt;\n\n    /**\n     * @ORM\Column(type="integer")\n     */\n    private $updatedAt;\n}

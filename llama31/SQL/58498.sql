@@ -1,1 +1,0 @@
-CREATE PROCEDURE OuterProc\nAS\nBEGIN\n    EXEC InnerProc;\n    SELECT * FROM #ResultTable; -- return the result set\nEND;

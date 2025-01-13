@@ -1,1 +1,0 @@
-<rule name="Root URL Rewrite">\n  <match url="^$" />\n  <action type="Rewrite" url="/index.php?page=home" />\n</rule>

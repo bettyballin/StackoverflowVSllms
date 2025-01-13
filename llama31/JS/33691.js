@@ -1,1 +1,0 @@
-const input = document.getElementById('myInput');\n\n// Get the associated label\nconst label = document.querySelector(`label[for="${input.id}"]`);\n\n// Do something with the label\nconsole.log(label.textContent);

@@ -1,1 +1,0 @@
-Dim d As DateTime\nIf DateTime.TryParseExact(value, "dd/MMM/yyyy:HH:mm:ss zzz", provider, DateTimeStyles.None, d) Then\n    ' parsing was successful\nElse\n    ' parsing failed\nEnd If

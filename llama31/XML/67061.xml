@@ -1,1 +1,0 @@
-<dependencyManagement>\n    <dependencies>\n        <dependency>\n            <groupId>org.bar</groupId>\n            <artifactId>foo</artifactId>\n            <version>0.5.0-SNAPSHOT</version>\n            <policy>\n                <updatePolicy>always</updatePolicy>\n            </policy>\n        </dependency>\n    </dependencies>\n</dependencyManagement>

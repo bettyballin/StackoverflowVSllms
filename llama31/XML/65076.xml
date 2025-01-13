@@ -1,1 +1,0 @@
-<ConnectionProperties>\n  <DataProvider>Oracle OLE DB Provider</DataProvider>\n  <Config>Provider=OraOLEDB.Oracle;Data Source=YourOracleServer;User ID=YourOracleUsername;Password=YourOraclePassword;</Config>\n</ConnectionProperties>

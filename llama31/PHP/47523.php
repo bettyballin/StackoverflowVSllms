@@ -1,1 +1,0 @@
-function domainname($link) {\n    $parsedUrl = parse_url($link);\n    $domain = $parsedUrl['host'];\n    return $domain;\n}\n\necho domainname("http://example.com/index.html?a=123%1231");

@@ -1,1 +1,0 @@
-use Respect\Validation\Validator as v;\n\n$nameValidator = v::string()->notEmpty();\n$emailValidator = v::email();\n$creditCardValidator = v::creditCard();\n\nif (!$nameValidator->validate($_POST['name']) || !$emailValidator->validate($_POST['email']) || !$creditCardValidator->validate($_POST['creditCard'])) {\n    // validation failed\n} else {\n    // validation succeeded\n}

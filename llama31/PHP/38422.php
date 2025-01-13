@@ -1,1 +1,0 @@
-class MyClass {\n    private $foo;\n    protected $bar;\n    public $baz;\n}

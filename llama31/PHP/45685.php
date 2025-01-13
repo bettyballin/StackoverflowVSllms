@@ -1,1 +1,0 @@
-$offset = date('Z');\necho "UTC offset: " . ($offset / 3600);

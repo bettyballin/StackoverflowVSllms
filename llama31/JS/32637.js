@@ -1,1 +1,0 @@
-function toconv(str) {\n    const gogo = { "a": "b", "cd": "e" };\n    return str.replace(/a|cd/g, match => gogo[match]);\n}

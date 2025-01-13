@@ -1,1 +1,0 @@
-// Nested Modal code fragment within the /suppliers/2/edit html\n$(function(){\n  $("#nested_modal_trigger").on("click", function(){\n    $("#nested_modal").jqm({ajax:'@href', zIndex:3001});\n  });\n})\n<a class="button" id="nested_modal_trigger" href="/suppliers/6/bills/new">Add Bill</a>

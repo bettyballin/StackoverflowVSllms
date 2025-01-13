@@ -1,1 +1,0 @@
-$new_password = $_POST['new_password'];\n$hashed_new_password = password_hash($new_password, PASSWORD_DEFAULT);\n\n// Compare the new hashed password to the stored hashed password\nif (password_verify($new_password, $stored_hashed_password)) {\n    // Update the stored hashed password\n}

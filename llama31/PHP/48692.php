@@ -1,1 +1,0 @@
-$_im->setImageIndex(0);\nwhile ($_im->hasNextImage()) {\n    $_im->removeImage();\n}

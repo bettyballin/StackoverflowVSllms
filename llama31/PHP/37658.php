@@ -1,1 +1,0 @@
-$str = preg_replace('/([|]\d*)/', '\1;', $str);

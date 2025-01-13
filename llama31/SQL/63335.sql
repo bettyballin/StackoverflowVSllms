@@ -1,1 +1,0 @@
-SELECT *\nFROM Table1\nCROSS JOIN Table1\nCROSS JOIN Table1

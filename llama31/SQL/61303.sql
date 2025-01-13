@@ -1,1 +1,0 @@
-CREATE TABLE products (\n  origin VARCHAR2(10),\n  date_component DATE,\n  type VARCHAR2(10),\n  id NUMBER,\n  composite_number VARCHAR2(50) GENERATED ALWAYS AS (origin || '-' || TO_CHAR(date_component, 'YYYYMMDD') || '-' || type || '-' || TO_CHAR(id)) VIRTUAL\n);

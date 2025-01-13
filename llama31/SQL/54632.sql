@@ -1,1 +1,0 @@
-CREATE TABLE MyTable (\n    Id INT PRIMARY KEY,\n    IsDeleted BIT NOT NULL DEFAULT 0,\n    -- other columns...\n);\n\nCREATE VIEW MyTable_Active AS\nSELECT * FROM MyTable WHERE IsDeleted = 0;\n\nCREATE INDEX IX_MyTable_IsDeleted ON MyTable (IsDeleted) WHERE IsDeleted = 0;

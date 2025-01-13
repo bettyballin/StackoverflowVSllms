@@ -1,1 +1,0 @@
-parse_str($postString, $decodedArray);\nprint_r($decodedArray);

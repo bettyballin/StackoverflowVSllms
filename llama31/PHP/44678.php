@@ -1,1 +1,0 @@
-header('Content-Type: text/csv');\nheader('Content-Disposition: attachment; filename="example.csv"');\necho "cell 1, cell 2";

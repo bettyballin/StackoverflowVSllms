@@ -1,1 +1,0 @@
-Dim RetVal as RetType\n\nTry\n    ...\n    If ... Then\n        Throw New Exception(RetType.FailedParse)\n    End If\n    ...\nCatch ex As Exception\n    RetVal = CType(ex.Data, RetType)\nFinally\n    Select Case RetVal\n        Case ...\n            UserStr = ...\n    End Select\nEnd Try\n\nReturn RetVal

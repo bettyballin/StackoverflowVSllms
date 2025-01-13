@@ -1,1 +1,0 @@
--- create a stored procedure in SQL Server\nCREATE PROCEDURE GetUsersByName\n    @name nvarchar(255)\nAS\nBEGIN\n    SELECT * FROM users WHERE name = @name\nEND

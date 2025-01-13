@@ -1,1 +1,0 @@
-// display.php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    // Process the POST request\n    // You can access the page information using $_GET\n    $page = $_GET['page'];\n    // ...\n} else {\n    // Handle GET requests or other methods\n}

@@ -1,1 +1,0 @@
-function start_connection() {\n    global $config;\n    $db_host = $config['db_host'];\n}

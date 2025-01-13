@@ -1,1 +1,0 @@
-<class name="ScenarioMaster" table="MASTER">\n    <!-- other properties -->\n    <bag name="slaves" cascade="all">\n        <key>\n            <column name="sName" not-null="true"/>\n            <column name="sNumber" not-null="true"/>\n        </key>\n        <one-to-many class="ScenarioSlave" property-ref="keyId"/>\n    </bag>\n</class>

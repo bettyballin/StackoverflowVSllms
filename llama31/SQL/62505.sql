@@ -1,1 +1,0 @@
-CREATE TABLE Orders (\n    OrderID AS ('OR' + CONVERT(varchar(10), OrderNumber)) PERSISTED PRIMARY KEY,\n    OrderType char(2) CHECK (OrderType = 'OR'),\n    OrderNumber int IDENTITY(1,1)\n);

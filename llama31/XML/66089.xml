@@ -1,1 +1,0 @@
-<!-- Example JMeter JDBC sampler configuration -->\n<jdbc_sampler>\n    <driver>org.postgresql.Driver</driver>\n    <url>jdbc:postgresql://your_host:your_port/your_database</url>\n    <username>your_username</username>\n    <password>your_password</password>\n    <query>SELECT * FROM your_table WHERE value = ${var}</query>\n</jdbc_sampler>

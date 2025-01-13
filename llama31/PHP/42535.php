@@ -1,1 +1,0 @@
-$allowedExtensions = array('jpg', 'jpeg', 'png', 'gif');\n$fileExtension = pathinfo($_FILES['image']['name'], PATHINFO_EXTENSION);\n\nif (!in_array($fileExtension, $allowedExtensions)) {\n    // Handle error: File type not allowed\n}

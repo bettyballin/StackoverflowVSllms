@@ -1,1 +1,0 @@
-Public Class Person\n    Public Property Name As String\n    Public Property Age As Integer\nEnd Class\n\nDim person As New Person With {.Name = "John Doe", .Age = 30}

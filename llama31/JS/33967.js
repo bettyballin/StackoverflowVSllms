@@ -1,1 +1,0 @@
-/// <reference path="../Services/DocLookups.svc?wsdl" />

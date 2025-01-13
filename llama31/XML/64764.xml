@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>com.opencsv</groupId>\n    <artifactId>opencsv</artifactId>\n    <version>5.5.2</version>\n</dependency>

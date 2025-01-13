@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE \n    DATE_FORMAT(date_of_birth, '%Y-%m-%d') = DATE_FORMAT(:input_date, '%Y-%m-%d')

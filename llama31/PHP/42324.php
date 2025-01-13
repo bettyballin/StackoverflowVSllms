@@ -1,1 +1,0 @@
-if (array_key_exists('pageContent', $bigArr)) {\n    $pageContent = $bigArr['pageContent'];\n    echo $pageContent; // Outputs: About\n}

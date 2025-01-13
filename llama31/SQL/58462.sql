@@ -1,1 +1,0 @@
-CREATE DATABASE target_database TEMPLATE source_database;

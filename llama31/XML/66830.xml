@@ -1,1 +1,0 @@
-<security-permissions>\n    <permission java.lang.RuntimePermission "file-access" />\n</security-permissions>

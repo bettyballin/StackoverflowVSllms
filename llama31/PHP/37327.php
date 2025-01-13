@@ -1,1 +1,0 @@
-setcookie('encrypted_data', $encrypted_data, 0, '/', 'yourdomain.com', true, true);

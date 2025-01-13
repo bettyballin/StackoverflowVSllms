@@ -1,1 +1,0 @@
-trait Lockable {\n    public function __set($var, $val) {\n        trigger_error("Cannot dynamically add members to a class", E_USER_ERROR);\n    }\n}\n\nclass Foo {\n    use Lockable;\n\n    public $bar = 5;\n}

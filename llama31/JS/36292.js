@@ -1,1 +1,0 @@
-document.addEventListener('keydown', function(event) {\n  if (event.altKey && event.key === 'a') {\n    document.getElementById('hidden-button').focus();\n  }\n});

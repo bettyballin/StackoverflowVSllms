@@ -1,1 +1,0 @@
-$array2 = array_map(function($obj) {\n    return $obj->myMethod();\n}, $array);

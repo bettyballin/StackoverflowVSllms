@@ -1,1 +1,0 @@
-ALTER SEQUENCE sequence_name INCREMENT BY -sequence_value;\nSELECT sequence_name.NEXTVAL FROM DUAL;\nALTER SEQUENCE sequence_name INCREMENT BY 1;

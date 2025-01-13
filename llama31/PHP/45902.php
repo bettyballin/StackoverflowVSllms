@@ -1,1 +1,0 @@
-// controllers/MyController.php\npublic function index()\n{\n    $image = 'path/to/image.jpg';\n    return view('header', compact('image'));\n}

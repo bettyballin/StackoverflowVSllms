@@ -1,1 +1,0 @@
-$('input[type="checkbox"]').change(function() {\n    var index = $(this).index('input[type="checkbox"]') + 1;\n    $('table tr').find('th:nth-child(' + index + '), td:nth-child(' + index + ')').toggle($(this).is(':checked'));\n});

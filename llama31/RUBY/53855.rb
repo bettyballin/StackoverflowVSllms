@@ -1,1 +1,0 @@
-gateway = ActiveMerchant::Billing::PaypalGateway.new(\n  login: $PAYPAL_LOGIN,\n  password: $PAYPAL_PASSWORD,\n  ssl: true\n)

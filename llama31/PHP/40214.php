@@ -1,1 +1,0 @@
-// UserController.php\nclass UserController {\n    private $userModel;\n\n    public function __construct(UserModel $userModel) {\n        $this->userModel = $userModel;\n    }\n\n    public function loginAction($username, $password) {\n        $this->userModel->login($username, $password);\n        // ...\n    }\n}

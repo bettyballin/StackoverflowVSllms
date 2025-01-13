@@ -1,1 +1,0 @@
-const images = document.querySelectorAll('img');\n\nimages.forEach((img) => {\n  img.onerror = () => {\n    img.src = 'standard.gif';\n  };\n});

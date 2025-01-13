@@ -1,1 +1,0 @@
-set_error_handler(function ($errno, $errstr, $errfile, $errline) {\n    if ($errno === E_NOTICE && strpos($errstr, 'Undefined variable') !== false) {\n        throw new Exception($errstr);\n    }\n});

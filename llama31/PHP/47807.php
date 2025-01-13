@@ -1,1 +1,0 @@
-// modules/MyModule/init.php\nEvent::add('system.pre_controller', array('MyClass', 'myMethod'));

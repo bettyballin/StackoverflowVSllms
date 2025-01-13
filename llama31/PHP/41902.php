@@ -1,1 +1,0 @@
-// Set the session cookie to be HTTP-only (prevent JavaScript access)\nini_set('session.cookie_httponly', 1);\n\n// Set the session cookie to be secure (only transmit over HTTPS)\nini_set('session.cookie_secure', 1);

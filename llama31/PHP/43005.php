@@ -1,1 +1,0 @@
-// ajax.php\necho "Link.php?action=Delete";

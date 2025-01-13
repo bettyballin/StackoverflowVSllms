@@ -1,1 +1,0 @@
-CREATE TABLE document_rows_history (\n    document_id INT,\n    row_id INT,\n    revision INT,\n    requirement_text VARCHAR(255),\n    attribute_values JSON,\n    created_at TIMESTAMP,\n    updated_at TIMESTAMP,\n    PRIMARY KEY (document_id, row_id, revision)\n);

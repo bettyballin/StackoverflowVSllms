@@ -1,1 +1,0 @@
-SELECT \n  (COUNT(order_id) / (SELECT COUNT(order_id) FROM orders)) * 100 AS percentage\nFROM \n  orders\nWHERE \n  cust_id = 541;

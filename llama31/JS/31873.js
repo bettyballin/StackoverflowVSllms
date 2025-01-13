@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $("#audioplayer_1 object").css("visibility", "hidden");\n});

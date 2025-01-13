@@ -1,1 +1,0 @@
-method_name do |arguments|\n  # block code\nend

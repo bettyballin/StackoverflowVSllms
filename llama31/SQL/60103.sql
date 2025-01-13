@@ -1,1 +1,0 @@
-SELECT EventID, EventTypeName, COUNT(*) AS Occurrences\nFROM [EVENTLOG]\nWHERE EventID = 6008\nGROUP BY EventID, EventTypeName\nORDER BY Occurrences DESC

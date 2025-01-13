@@ -1,1 +1,0 @@
-// Handle form submission in a tab\napp.post('/tab1', (req, res) => {\n  // Validate and sanitize input\n  const userInput = req.body;\n  // Process the form data\n  const result = processFormData(userInput);\n  // Send back the updated tab content\n  res.json({ tab1: result });\n});

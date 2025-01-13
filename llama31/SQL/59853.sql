@@ -1,1 +1,0 @@
-CREATE TABLE MessageQueue (\n    Id INT PRIMARY KEY,\n    DataId INT,  -- reference to the main data table\n    Status VARCHAR(20) CHECK (Status IN ('NEW', 'PROCESSING', 'COMPLETED', 'FAILED'))\n);

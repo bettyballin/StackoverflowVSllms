@@ -1,1 +1,0 @@
-SELECT ... FROM table WHERE normalize_string(strSomeField) = ?

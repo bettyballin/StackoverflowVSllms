@@ -1,1 +1,0 @@
-' VB code\nImports MyClass\n\nPublic Class MyVBClass\n    Public Sub MyVBMethod()\n        Dim obj As New MyClass()\n        obj.MyMethod() ' Try to navigate to definition from here\n    End Sub\nEnd Class

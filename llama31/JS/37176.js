@@ -1,1 +1,0 @@
-const DOMPurify = require('dompurify');\n\nconst embedCode = '<iframe src="https://www.youtube.com/embed/VIDEO_ID"></iframe>';\nconst sanitizedCode = DOMPurify.sanitize(embedCode, {\n  ALLOWED_TAGS: ['iframe'],\n  ALLOWED_ATTR: ['src', 'frameborder', 'allowfullscreen', 'sandbox'],\n});

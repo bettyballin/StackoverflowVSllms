@@ -1,1 +1,0 @@
-require_once 'VisualParadigm.php';\n\n$vp = new VisualParadigm();\n$vp->addClass('MyClass');\n$vp->addMethod('MyClass', 'myMethod');\n$vp->generate();

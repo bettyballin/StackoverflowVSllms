@@ -1,1 +1,0 @@
-Ajax.Responders.register({\n  onCreate: function(request) {\n    request.options.onSuccess = function(response) {\n      yourFunctionToCheckResponse(response);\n      // Call the original onSuccess handler\n      request.options._originalOnSuccess(response);\n    };\n  }\n});

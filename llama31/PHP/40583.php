@@ -1,1 +1,0 @@
-$integer = 123;\n$string = (string) $integer;\necho $string; // Outputs: 123\n\n$integer = 123;\n$string = "$integer";\necho $string; // Outputs: 123

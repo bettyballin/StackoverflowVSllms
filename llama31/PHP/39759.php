@@ -1,1 +1,0 @@
-$mysqli = new mysqli("localhost", "root", "", "test");\ntry {\n    // ... do stuff, perhaps redirect to another page ...\n} finally {\n    $mysqli->close();\n}

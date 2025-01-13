@@ -1,1 +1,0 @@
-BEGIN\n  DBMS_HS_INVALIDATE_OBJECT('your_view_name@dblink', 'VIEW');\nEND;\n/

@@ -1,1 +1,0 @@
-Dim chkBox As Word.CheckBox = TryCast(myFieldInstance, Word.CheckBox)\nIf chkBox IsNot Nothing Then\n    ' chkBox is now a valid Word.CheckBox object\nEnd If

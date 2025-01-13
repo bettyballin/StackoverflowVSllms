@@ -1,1 +1,0 @@
-SELECT \n  timefield, \n  PERCENT_RANK() OVER (ORDER BY timefield) AS percentile\nFROM \n  entries \nWHERE \n  uid = ?\nORDER BY \n  timefield;

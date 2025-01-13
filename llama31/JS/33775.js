@@ -1,1 +1,0 @@
-$.ajax({\n    type: 'GET',\n    url: 'staff-profile.php',\n    data: {\n        'ajax': 1 // add a parameter to indicate it's an AJAX request\n    },\n    success: function(data) {\n        // handle the response\n    }\n});

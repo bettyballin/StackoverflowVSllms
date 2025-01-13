@@ -1,1 +1,0 @@
-strSql6 = " SELECT FORMAT(PercentSuccess, 'Percent') AS PercentSuccess FROM analyzedCopy3 "

@@ -1,1 +1,0 @@
-// Create a new style element\nvar style = document.createElement('style');\nstyle.type = 'text/css';\n\n// Append the styles you want\nstyle.innerHTML = 'h1 { background: red; }';\n\n// Get the head element\nvar head = document.getElementsByTagName('head')[0];\n\n// Append the style element to the head\nhead.appendChild(style);

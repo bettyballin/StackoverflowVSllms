@@ -1,1 +1,0 @@
-Imports System.Text.RegularExpressions\n\nModule Module1\n    Sub Main()\n        Dim input As String = "term: 156:59 datainput"\n        Dim output As String = Regex.Replace(input, ": (\d+):(\d+)", ": $1-$2")\n        Console.WriteLine(output)\n    End Sub\nEnd Module

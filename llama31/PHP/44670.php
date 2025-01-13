@@ -1,1 +1,0 @@
-$category->findDefault_Model_Projects();

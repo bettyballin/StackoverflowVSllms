@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n  UserID INT PRIMARY KEY,\n  -- other user columns...\n);\n\nCREATE TABLE Postings (\n  PostID INT PRIMARY KEY,\n  -- other posting columns...\n);\n\nCREATE TABLE UserPostings (\n  UserID INT,\n  PostID INT,\n  PRIMARY KEY (UserID, PostID),\n  FOREIGN KEY (UserID) REFERENCES Users(UserID),\n  FOREIGN KEY (PostID) REFERENCES Postings(PostID)\n);

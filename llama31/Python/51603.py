@@ -1,1 +1,0 @@
-import sys\n\n# Send chunked response\nwhile True:\n    html_chunk = '<p>New content!</p>'\n    chunk_size = hex(len(html_chunk))[2:]  # Calculate chunk size in hexadecimal\n    print(chunk_size + '\r\n' + html_chunk + '\r\n', end='')\n    sys.stdout.flush()  # Flush output buffer

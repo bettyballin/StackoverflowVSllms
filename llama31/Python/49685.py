@@ -1,1 +1,0 @@
-def configure(ctx):\n    ctx.check_header('header_file.h')

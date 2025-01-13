@@ -1,1 +1,0 @@
-try {\n  // your PHP code here\n} catch (Exception $e) {\n  header('Content-Type: application/json');\n  echo json_encode(array('error' => $e->getMessage()));\n  exit;\n}

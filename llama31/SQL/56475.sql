@@ -1,1 +1,0 @@
-SELECT Type, COUNT(*) - 1 AS MoreResults\nFROM Records\nWHERE Name LIKE '%Foo%'\nGROUP BY Type\nHAVING COUNT(*) > 1

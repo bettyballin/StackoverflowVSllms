@@ -1,1 +1,0 @@
-INSERT INTO certs (cert, name) VALUES (readfile('your_ca_cert.der'), 'Your CA Certificate');

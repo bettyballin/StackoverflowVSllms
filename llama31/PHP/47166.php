@@ -1,1 +1,0 @@
-$pattern = "/\/\/\/<summary>\/\*.*\/\/\/<\/summary>/s";

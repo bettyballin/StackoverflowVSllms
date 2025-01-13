@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>com.oracle.weblogic</groupId>\n    <artifactId>weblogic</artifactId>\n    <version>10.3</version>\n    <scope>provided</scope>\n</dependency>

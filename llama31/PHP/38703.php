@@ -1,1 +1,0 @@
-require_once('Google/Api/Ads/AdWords/Lib/AdWordsUser.php');\n$user = new AdWordsUser();\n$user->LogAll();\n$campaignService = $user->GetService('CampaignService');\n$response = $campaignService->get(array('fields' => array('Id', 'Name')));

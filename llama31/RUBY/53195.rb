@@ -1,1 +1,0 @@
-class MySymbol\n  @@table = {}\n  # ...\nend

@@ -1,1 +1,0 @@
-GRANT EXECUTE ON People.ufnContactInformation TO Staff_User;

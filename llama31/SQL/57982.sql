@@ -1,1 +1,0 @@
-CREATE OR REPLACE TRIGGER my_trigger\nAFTER INSERT ON my_table\nFOR EACH ROW\nBEGIN\n    -- Autonomous transaction\n    DECLARE\n        PRAGMA AUTONOMOUS_TRANSACTION;\n    BEGIN\n        -- Do something...\n        INSERT INTO another_table VALUES (:NEW.id);\n        COMMIT;  -- This will commit the entire transaction\n    END;\nEND;\n/

@@ -1,1 +1,0 @@
-$pattern = '/<description>(.*?)<\/description>/is';\n$replace = '<description>' . htmlentities('$1', ENT_QUOTES, 'UTF-8') . '</description>';\n$rawFeed = preg_replace_callback($pattern, function ($match) {\n    return '<description>' . htmlentities($match[1], ENT_QUOTES, 'UTF-8') . '</description>';\n}, $rawFeed);

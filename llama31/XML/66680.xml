@@ -1,1 +1,0 @@
-<!-- Define a hidden form field with the user's ID -->\n<field name="user_id" type="hidden">\n  <value><?xml version="1.0" encoding="UTF-8"?>#{user_id}</value>\n</field>

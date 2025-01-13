@@ -1,1 +1,0 @@
-amespace Plugin\myplugin;\n\nclass PlginImpl extends Plugin implements PluginInterface {\n    // ...\n}

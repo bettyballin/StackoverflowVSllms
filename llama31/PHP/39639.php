@@ -1,1 +1,0 @@
-function sanitize_bbcode($input) {\n    $allowed_tags = array('b', 'i', 'u', 's', 'url', 'img');\n    $allowed_attributes = array('url' => array('href'), 'img' => array('src'));\n    $bbcode_parser = new BBCodeParser($allowed_tags, $allowed_attributes);\n    return $bbcode_parser->parse($input);\n}

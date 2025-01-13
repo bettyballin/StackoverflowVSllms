@@ -1,1 +1,0 @@
-$(document).ajaxStart(function() {\n  $('#status').text('Starting');\n});\n$(document).ajaxSend(function() {\n  $('#status').text('Getting Closer');\n});\n$(document).ajaxSuccess(function() {\n  $('#status').text('I\'m almost there');\n});\n$(document).ajaxComplete(function() {\n  $('#status').text('Done!');\n  // display content\n});

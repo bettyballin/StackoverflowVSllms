@@ -1,1 +1,0 @@
-SELECT \n    p.UserId, \n    p.Tags, \n    p.CommentCount, \n    p.Status,  \n    p.PostDate, \n    p.[Content], \n    p.Title, \n    p.PostId, \n    u.DisplayName \nFROM  \n    dbo.Post p\nINNER JOIN\n    dbo.[User] u ON p.UserId = u.UserId \nWHERE \n    YEAR(p.PostDate) = 2009\n    AND MONTH(p.PostDate) = 1;

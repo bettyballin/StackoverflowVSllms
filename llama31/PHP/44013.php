@@ -1,1 +1,0 @@
-// lib/common.php\nrequire_once 'config.inc.php';\n\nfunction someFunction() {\n    $config = Config::getInstance();\n    $databaseName = $config->get('database_name');\n    // ...\n}

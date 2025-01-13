@@ -1,1 +1,0 @@
-const form = document.querySelector('form');\nform.addEventListener('submit', (e) => {\n  e.preventDefault();\n});

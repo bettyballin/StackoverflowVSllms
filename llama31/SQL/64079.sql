@@ -1,1 +1,0 @@
-CREATE TYPE dbo.CustomerIDTableType AS TABLE (CustomerID uniqueidentifier);

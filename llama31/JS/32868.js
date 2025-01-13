@@ -1,1 +1,0 @@
-function isElementClosed(element) {\n  const parser = new DOMParser();\n  try {\n    parser.parseFromString(element.outerHTML, 'text/html');\n    return true;\n  } catch (error) {\n    return false;\n  }\n}

@@ -1,1 +1,0 @@
-class PaypalNotificationsController extends AppController {\n\n    public function process() {\n        // ...\n        $fp = fsockopen('ssl://' . $server, 443, $errno, $errstr, 30);\n        if (!$fp) {\n            // Handle error\n            $this->log('Error posting back to PayPal: ' . $errstr);\n            // ...\n        }\n        // ...\n    }\n}

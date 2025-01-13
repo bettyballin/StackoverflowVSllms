@@ -1,1 +1,0 @@
-LOGGING = {\n    'version': 1,\n    'disable_existing_loggers': False,\n    'handlers': {\n        'console': {\n            'class': 'logging.StreamHandler',\n        },\n    },\n    'loggers': {\n        'django.db.backends': {\n            'handlers': ['console'],\n            'level': 'DEBUG',\n        },\n    },\n}

@@ -1,1 +1,0 @@
-SELECT DATEPART(wk, '2008-10-16') AS WeekNumber

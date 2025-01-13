@@ -1,1 +1,0 @@
-window.open('download.php?file=' + msg + '&properFilename=' + properFileName);

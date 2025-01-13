@@ -1,1 +1,0 @@
-function scrollToRow(table, row) {\n  var container = table.parentNode;\n  var rowOffset = row.offsetTop - container.offsetTop;\n  container.scrollTop = rowOffset;\n}

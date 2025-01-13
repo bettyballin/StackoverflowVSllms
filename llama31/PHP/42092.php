@@ -1,1 +1,0 @@
-$url = 'http://example.com/myaction/#someanchor';\n$parsedUrl = parse_url($url);\n$fragment = $parsedUrl['fragment'];\n\nif ($fragment === 'comments') {\n    // Show comments\n}

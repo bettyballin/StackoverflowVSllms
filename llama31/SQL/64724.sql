@@ -1,1 +1,0 @@
-CREATE TABLE Example (\n    Id numeric(12, 0) PRIMARY KEY,  -- 9 bytes\n    -- vs.\n    Id int PRIMARY KEY,  -- 4 bytes\n    -- or\n    Id bigint PRIMARY KEY  -- 8 bytes\n);

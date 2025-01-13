@@ -1,1 +1,0 @@
-CREATE OR REPLACE TYPE DATE_ARRAY IS TABLE OF DATE;\n\nCREATE OR REPLACE FUNCTION DATE_RANGE(p_start_date DATE, p_end_date DATE)\nRETURN DATE_ARRAY PIPELINED\nIS\n  v_date DATE := p_start_date;\nBEGIN\n  LOOP\n    PIPE ROW (v_date);\n    EXIT WHEN v_date >= p_end_date;\n    v_date := v_date + 1;\n  END LOOP;\n  RETURN;\nEND;

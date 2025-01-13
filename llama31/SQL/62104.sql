@@ -1,1 +1,0 @@
-SELECT UPPER(REPLACE(CONVERT(VARCHAR(32), HashBytes('MD5', 'HelloWorld'), 2), '0x', ''))

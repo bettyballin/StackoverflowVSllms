@@ -1,1 +1,0 @@
-$color = new Variant(255, VT_COLOR);\n$this->oBuilder->Font->Color = $color;

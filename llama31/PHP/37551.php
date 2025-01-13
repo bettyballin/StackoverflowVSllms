@@ -1,1 +1,0 @@
-$decorators = array(\n    'ViewHelper',\n    'Errors',\n    array('ZendX_JQuery_Form_Decorator_UiWidgetElement'),\n);\nDecorator::$elementDecorators = $decorators;

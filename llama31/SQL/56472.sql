@@ -1,1 +1,0 @@
-SELECT T.col\nFROM (\n    SELECT foo AS col\n    FROM R\n    UNION\n    SELECT bar\n    FROM S\n) AS T;

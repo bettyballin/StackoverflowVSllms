@@ -1,1 +1,0 @@
-declare @test varchar(20)\nset @test = 'VALUE'\n\nexec sp_executesql N'select @test as Value', N'@test varchar(20)', @test = @test

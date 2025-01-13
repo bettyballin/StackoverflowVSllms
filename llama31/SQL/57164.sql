@@ -1,1 +1,0 @@
-INSERT INTO target_table\nSELECT DISTINCT * \nFROM initial_table\nWHERE column1 IS NOT NULL AND column2 IS NOT NULL;

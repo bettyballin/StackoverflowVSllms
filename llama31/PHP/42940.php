@@ -1,1 +1,0 @@
-$items = "word 1\nword 2\nword 3\nword 4";\n$items = explode("\n", $items);

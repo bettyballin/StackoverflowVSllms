@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("SELECT * FROM users WHERE name = ? AND email = ?");\n$stmt->bind_param("ss", $name, $email);

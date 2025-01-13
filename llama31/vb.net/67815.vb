@@ -1,1 +1,0 @@
-Sub GetDisplayedValue()\n    Dim cell As Range\n    Set cell = Range("A1") ' replace with your cell reference\n    \n    cell.Offset(0, 1).Value = cell.Text\nEnd Sub

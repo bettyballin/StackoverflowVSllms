@@ -1,1 +1,0 @@
-SELECT \n    p.name AS procedure_name,\n    m.definition AS procedure_definition\nFROM \n    sys.sql_modules m\nINNER JOIN \n    sys.objects p ON m.object_id = p.object_id\nWHERE \n    m.definition LIKE '%EffectiveDate%' \n    AND p.type = 'P' \n    AND p.name LIKE '%NET'

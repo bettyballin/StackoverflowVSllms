@@ -1,1 +1,0 @@
-import random\n\ndef generate_passphrase(wordlist, length=4):\n    words = random.sample(wordlist, length)\n    return ' '.join(words)\n\nwordlist = ['apple', 'banana', 'cherry', 'date', 'elderberry', ...]\n\npassphrase = generate_passphrase(wordlist)\nprint(passphrase)

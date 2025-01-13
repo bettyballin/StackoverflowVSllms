@@ -1,1 +1,0 @@
-success: function(msg){\n    jQuery(this).closest('tr').remove();\n}

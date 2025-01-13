@@ -1,1 +1,0 @@
-DELIMITER //\nCREATE PROCEDURE get_user_data(IN username VARCHAR(50))\nBEGIN\n  PREPARE stmt FROM 'SELECT * FROM users WHERE username = ?';\n  EXECUTE stmt USING username;\n  DEALLOCATE PREPARE stmt;\nEND //\nDELIMITER ;

@@ -1,1 +1,0 @@
-ALTER DATABASE <dbname> SET ONLINE;

@@ -1,1 +1,0 @@
-select fname, lname\nfrom people\nwhere isValid = 1

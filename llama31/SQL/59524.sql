@@ -1,1 +1,0 @@
-VARCHAR(length) [CHARACTER SET charset_name] [COLLATE collation_name]

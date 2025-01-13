@@ -1,1 +1,0 @@
-$result = $mysqli->query('INSERT IGNORE INTO tblUser (email, ...) VALUES ("foo@bar.org", ...)');\nif ($mysqli->affected_rows == 1) {\n    // Insert successful\n} else {\n    // Insert failed (duplicate key)\n}

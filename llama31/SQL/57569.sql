@@ -1,1 +1,0 @@
-SELECT *\nFROM table\nWHERE id < 7868\nORDER BY id DESC\nLIMIT 2;

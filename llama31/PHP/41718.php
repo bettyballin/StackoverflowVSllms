@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare('SELECT `content`.* \n                         FROM   `content` \n                         WHERE  user_id = ? AND id IN (?, ?, ?, ?)\n                         ORDER BY FIELD(id, ?, ?, ?, ?)');\n$stmt->bind_param('iiiiiiii', $user_id, $id1, $id2, $id3, $id4, $id1, $id2, $id3, $id4);\n$stmt->execute();

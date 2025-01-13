@@ -1,1 +1,0 @@
-wp_schedule_recurring_event(time(), 'daily', 'my_daily_digest');

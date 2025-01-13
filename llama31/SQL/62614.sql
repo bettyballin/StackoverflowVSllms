@@ -1,1 +1,0 @@
-SELECT p.productId, p.colorsId, p.imgId, i.imgSrc, pc.colorName\nFROM products p\nLEFT JOIN images i ON p.imgId = i.imgId\nLEFT JOIN productcolors pc ON p.colorsId = pc.colorId\nWHERE p.productId = 1;  -- Change the productId as needed

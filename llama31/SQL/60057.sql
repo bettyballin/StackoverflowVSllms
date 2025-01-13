@@ -1,1 +1,0 @@
-SELECT  a1.ARTICLE_NO\nFROM    auctions1 a1\nJOIN    auctions1 a2\nON      a1.ARTICLE_NO > a2.ARTICLE_NO\nAND     a1.ACCESSSTARTS = a2.ACCESSSTARTS\nWHERE   a2.ARTICLE_NO = 160288212077\nORDER BY \n        a1.str_to_date(ACCESSSTARTS, '%d/%m/%Y %k:%i:%s'), a1.article_no\nLIMIT 1;

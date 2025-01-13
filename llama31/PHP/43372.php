@@ -1,1 +1,0 @@
-<?php\nrequire_once 'i18n.php';\necho _("Hello, world!"); // outputs "Bonjour, monde!"\n?>

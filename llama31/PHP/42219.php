@@ -1,1 +1,0 @@
-$select = $db->select()\n             ->from('bar')\n             ->where('a = ?', 1)\n             ->nest()\n             ->where('b = ?', 2)\n             ->orWhere('b = ?', 3)\n             ->unnest();

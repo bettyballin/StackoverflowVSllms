@@ -1,1 +1,0 @@
-if (!isset($wrap[$function])) {\n    throw new InvalidArgumentException("Invalid function name: $function");\n}

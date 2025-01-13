@@ -1,1 +1,0 @@
-SELECT t.tag\nFROM tags t\nJOIN user_favored_tags uft ON t.id = uft.tag_id\nWHERE uft.user_id = ?;

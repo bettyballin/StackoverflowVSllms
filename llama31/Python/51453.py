@@ -1,1 +1,0 @@
-{\n    'foo': {\n        'opt1': 1,\n        'opt2': 2,\n        'bar': {\n            'opt3': 3,\n            'opt4': 4,\n            'baz': {\n                'opt5': 5,\n                'opt6': 6\n            }\n        }\n    }\n}

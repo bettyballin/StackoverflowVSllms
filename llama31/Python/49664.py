@@ -1,1 +1,0 @@
-original = [('a', 1), ('b', 2), ('c', 3), ('d', 4)]\nresult = zip(*original)\nprint(result)  # Output: [('a', 'b', 'c', 'd'), (1, 2, 3, 4)]

@@ -1,1 +1,0 @@
-$(targetStory).clone().insertAfter(targetStory);

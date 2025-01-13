@@ -1,1 +1,0 @@
-SELECT CONVERT(datetime, unix_time, 120) AT TIME ZONE 'Central European Standard Time' AS local_time

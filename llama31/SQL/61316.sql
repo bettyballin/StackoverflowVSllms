@@ -1,1 +1,0 @@
-CREATE OR REPLACE PACKAGE my_package AS\n    TYPE my_type IS RECORD (\n        id NUMBER(15)\n    );\nEND;

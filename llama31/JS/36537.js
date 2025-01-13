@@ -1,1 +1,0 @@
-const referrer = document.referrer;\nif (referrer && referrer.includes('google.com')) {\n  // Visitor came from Google search result\n}

@@ -1,1 +1,0 @@
-public function printthingAction()\n{\n    $viewHelper = $this->getView()->getHelper('tabbedbox');\n    echo $viewHelper->tabbedbox($this->getRequest()->getParam('textme'));\n}

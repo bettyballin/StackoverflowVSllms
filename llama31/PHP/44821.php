@@ -1,1 +1,0 @@
-require_once 'Zend/Gdata/YouTube/VideoQuery.php';

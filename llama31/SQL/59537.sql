@@ -1,1 +1,0 @@
-SELECT *\nFROM Company\nWHERE (CompanyName, CompanyAddress, CompanyCity, CompanyState) IN (\n  SELECT CompanyName, CompanyAddress, CompanyCity, CompanyState\n  FROM Company\n  GROUP BY CompanyName, CompanyAddress, CompanyCity, CompanyState\n  HAVING COUNT(*) > 1\n)

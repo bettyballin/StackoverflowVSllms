@@ -1,1 +1,0 @@
-try {\n    $rar_file = rar_open('htdocs.rar');\n} catch (Exception $e) {\n    echo 'Caught exception: ',  $e->getMessage(), "\n";\n}

@@ -1,1 +1,0 @@
-function generate_list($items) {\n  $html = '<ul>';\n  foreach ($items as $i => $item) {\n    if ($i == 4) {\n      $html .= '<div>';\n    }\n    $html .= '<li><img src="' . $item['src'] . '" width="75" height="75" alt="" /></li>';\n  }\n  $html .= '</div></ul>';\n  return $html;\n}

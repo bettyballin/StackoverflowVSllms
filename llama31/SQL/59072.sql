@@ -1,1 +1,0 @@
-CREATE TABLE portlet_layouts (\n  id INT PRIMARY KEY,\n  user_id INT,\n  portlet_id INT,\n  position VARCHAR(255),\n  FOREIGN KEY (user_id) REFERENCES users(id),\n  FOREIGN KEY (portlet_id) REFERENCES portlets(id)\n);

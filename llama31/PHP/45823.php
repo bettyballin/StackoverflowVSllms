@@ -1,1 +1,0 @@
-$query = "SELECT * \n          FROM `amb_prod` \n          INNER JOIN `produto` ON amb_prod.idProduto = produto.refPT \n          INNER JOIN `pt` ON produto.refPT = pt.ref \n          WHERE amb_prod.idAmbiente = ?";

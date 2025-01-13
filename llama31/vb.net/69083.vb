@@ -1,1 +1,0 @@
-Imports System.Text.RegularExpressions\n\nPublic Function RemoveWhitespaceBetweenNumbersAndColon(input As String) As String\n    Return Regex.Replace(input, "\s*:\s*", ":")\nEnd Functio

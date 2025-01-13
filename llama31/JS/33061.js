@@ -1,1 +1,0 @@
-// Define the scrollToTop function\nfunction scrollToTop() {\n  window.scrollTo(0, 0);\n}

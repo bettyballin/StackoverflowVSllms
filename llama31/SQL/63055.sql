@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE url REGEXP '^' + REPLACE('/users/admin/steve/', '/', '\\/') + '$' OR\n      url REGEXP '^' + REPLACE('/users/admin/steve/', '/', '\\/') + '.*\\*$'\nORDER BY LENGTH(url) DESC\nLIMIT 1;

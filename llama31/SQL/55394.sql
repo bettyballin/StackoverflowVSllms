@@ -1,1 +1,0 @@
-UPDATE t\nSET field1 = t2.new_value\nFROM table t\nJOIN (\n    SELECT field1, field1 + ' - ' + field2 AS new_value\n    FROM table\n    WHERE field1 = 'somevalue'\n) t2\nON t.field1 = t2.field1

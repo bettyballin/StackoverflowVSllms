@@ -1,1 +1,0 @@
-<!-- app.config for service host -->\n<configuration>\n  <connectionStrings configSource="DataLayer.config" />\n  <appSettings configSource="BusinessLayer.config" />\n</configuration>

@@ -1,1 +1,0 @@
-import pefile\n\npe = pefile.PE('yourdll.dll')\nfor entry in pe.DIRECTORY_ENTRY_IMPORT:\n    print(entry.dll.decode('utf-8'))

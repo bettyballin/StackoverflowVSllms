@@ -1,1 +1,0 @@
-var csvData = '<?php echo $csv_data; ?>'.replace(/__NEWLINE__/g, '\n');\nso.addVariable("chart_settings", escape('<settings>...</csv><data>' + csvData + '</data>...</settings>'));

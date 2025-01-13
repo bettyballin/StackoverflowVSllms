@@ -1,1 +1,0 @@
-SELECT *, rowid\nFROM tblEvent_basic\nWHERE service_id = ?\n  AND (\n    (start_time >= ? AND start_time <= ?)\n    OR (end_time > ? AND end_time < ?)\n    OR (start_time < ? AND end_time > ?)\n  )\nORDER BY start_time ASC;

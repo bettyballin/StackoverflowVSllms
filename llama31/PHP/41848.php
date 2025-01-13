@@ -1,1 +1,0 @@
-function checkAccNoExistsInDB($accountNumber) {\n    $db = new PDO('your_database_connection_string');\n    $stmt = $db->prepare('SELECT 1 FROM accounts WHERE account_number = :accountNumber');\n    $stmt->bindParam(':accountNumber', $accountNumber);\n    $stmt->execute();\n    return $stmt->fetchColumn() !== false;\n}

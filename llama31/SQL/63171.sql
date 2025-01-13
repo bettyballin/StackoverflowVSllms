@@ -1,1 +1,0 @@
-SELECT * FROM your_table FOR UPDATE NOWAIT;

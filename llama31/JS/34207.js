@@ -1,1 +1,0 @@
-// Create a new paragraph element\nconst paragraph = document.createElement('p');\n\n// Set the text content of the paragraph\nparagraph.textContent = 'Hello, World!';\n\n// Append the paragraph to the body element\ndocument.body.appendChild(paragraph);

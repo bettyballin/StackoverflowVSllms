@@ -1,1 +1,0 @@
-<script>\n    $(document).ready(function () {\n        @if (ViewData["DivIsVisible"] != null && (bool)ViewData["DivIsVisible"])\n        {\n            <text>\n                $("#myDiv").show();\n            </text>\n        }\n    });\n</script>

@@ -1,1 +1,0 @@
-<ItemGroup>\n    <FxCopRules Include="$(DevEnvDir)\FxCop\FxCopRules.dll" />\n  </ItemGroup>

@@ -1,1 +1,0 @@
-$encoding = shell_exec('file -i path/to/your/file.txt');\necho $encoding;

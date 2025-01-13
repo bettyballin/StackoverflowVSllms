@@ -1,1 +1,0 @@
-SELECT Email, FirstName, LastName \nFROM Employees \nWHERE Email = 'john.doe@example.com';

@@ -1,1 +1,0 @@
-Dim ContentType As String = System.Web.MimeMapping.GetMimeMapping(Model.FileName)

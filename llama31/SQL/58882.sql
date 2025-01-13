@@ -1,1 +1,0 @@
-CREATE FUNCTION [dbo].[SetDBNullNvarChar] (@input nvarchar(1000))\nRETURNS nvarchar(1000)\nAS\nBEGIN\n    IF (@input = '' OR @input = '0')\n    BEGIN\n        RETURN NULL\n    END\n    RETURN @input\nEND

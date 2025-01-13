@@ -1,1 +1,0 @@
-SET STATISTICS IO ON;\nSELECT * FROM tblExample WHERE column1 = 'value';

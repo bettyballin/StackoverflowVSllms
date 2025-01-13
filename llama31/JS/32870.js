@@ -1,1 +1,0 @@
-function loadxml() {\n    var name = document.getElementById("xmlname").value;\n    // do something with the value\n}

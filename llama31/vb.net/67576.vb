@@ -1,1 +1,0 @@
-Dim foo As String = If(bar = buz, cat, dog)

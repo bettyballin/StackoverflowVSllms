@@ -1,1 +1,0 @@
-SHOW GLOBAL VARIABLES LIKE 'log_bin';

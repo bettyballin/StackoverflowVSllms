@@ -1,1 +1,0 @@
-document.getElementById('comment').value = 'Add a comment...';

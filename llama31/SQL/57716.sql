@@ -1,1 +1,0 @@
-<UpdateCommand>\n  UPDATE myTable\n  SET column1 = @column1, column2 = @column2\n  WHERE actualPrimaryKey = @actualPrimaryKey\n</UpdateCommand>

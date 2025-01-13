@@ -1,1 +1,0 @@
-var query = "select title,abstract,url from search.web where query='pizza'";\nvar url = "https://query.yahooapis.com/v1/public/yql?q=" + encodeURIComponent(query) + "&format=json";

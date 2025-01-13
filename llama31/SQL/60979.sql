@@ -1,1 +1,0 @@
-SELECT *\nFROM YourTable\nWHERE ' ' + REPLACE(Keywords, ',', ' ') + ' ' LIKE '% endorse %'

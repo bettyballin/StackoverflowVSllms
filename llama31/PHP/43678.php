@@ -1,1 +1,0 @@
-$url = 'http://www.something.com/myOwnScript.php';\n\n$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);\ncurl_setopt($ch, CURLOPT_TIMEOUT, 10);\n\n$response = curl_exec($ch);\ncurl_close($ch);\n\n$xmlString = $response;

@@ -1,1 +1,0 @@
-function foo($firstName = 'john', $lastName = 'doe') {\n    echo $firstName . " " . $lastName;\n}\n\nfoo(lastName: 'smith'); // output: john smith

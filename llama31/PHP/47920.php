@@ -1,1 +1,0 @@
-Array\n(\n    [personName] => John\n    [personAge] => 99\n    [personId] => 1\n)

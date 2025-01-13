@@ -1,1 +1,0 @@
-// Point-free style\nconst add = a => b => a + b;\nconst increment = add(1);\n\nconsole.log(increment(5)); // 6\n\n// Equivalent explicit style\nfunction add(a, b) {\n  return a + b;\n}\nfunction increment(x) {\n  return add(1, x);\n}

@@ -1,1 +1,0 @@
-SELECT t.*\nFROM tags t\nJOIN item_tags it ON t.id = it.tag_id\nJOIN items i ON it.item_id = i.id\nWHERE i.id = 1;  // Replace with the desired item ID

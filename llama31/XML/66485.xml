@@ -1,1 +1,0 @@
-<system.web>\n    <applicationInitialization>\n        <add initializationPage="/default.aspx" />\n    </applicationInitialization>\n</system.web>

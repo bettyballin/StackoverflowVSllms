@@ -1,1 +1,0 @@
-// JavaScript\nalert(document.location);

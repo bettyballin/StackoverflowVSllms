@@ -1,1 +1,0 @@
-Dim uptime As TimeSpan = ServerUptime.GetUptime()\nConsole.WriteLine("Server uptime: " & uptime.ToString())

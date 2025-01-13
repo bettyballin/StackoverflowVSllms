@@ -1,1 +1,0 @@
-import sandbox\n\n# Create a sandbox environment\nsandbox_env = sandbox.Sandbox()\n\n# Execute the user-uploaded script in the sandbox\ntry:\n    exec(user_script, sandbox_env)\nexcept Exception as e:\n    print(f"Error executing script: {e}")

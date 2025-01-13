@@ -1,1 +1,0 @@
-SELECT t1.id, t1.Hospital, t1.Doctor, t1.Patient\nFROM table t1\nJOIN (\n  SELECT Hospital, Doctor, MAX(Patient) as max_patient\n  FROM table\n  GROUP BY Hospital, Doctor\n) t2\nON t1.Hospital = t2.Hospital AND t1.Doctor = t2.Doctor AND t1.Patient = t2.max_patient\nORDER BY t1.Hospital, t1.Doctor;

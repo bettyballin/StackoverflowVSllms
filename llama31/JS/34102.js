@@ -1,1 +1,0 @@
-$.validator.addMethod("maxlength", function(value, element, param) {\n  var length = $.trim(value).length;\n  return this.optional(element) || length <= param;\n}, function(param, element) {\n  var length = $.trim($(element).val()).length;\n  return $.validator.format("Please enter no more than {0} characters. You've currently entered {1} characters.", param, length);\n});

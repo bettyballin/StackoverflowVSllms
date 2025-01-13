@@ -1,1 +1,0 @@
-$.ajax({\n  type: "POST",\n  url: "__doPostBack",\n  data: "__EVENTTARGET=btnMyButton&__EVENTARGUMENT=",\n  success: function(result) {\n    // handle the result\n  }\n});

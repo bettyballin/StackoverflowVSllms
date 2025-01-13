@@ -1,1 +1,0 @@
-SELECT \n  v.id, \n  v.stock, \n  v.year, \n  v.make, \n  v.model, \n  i.name, \n  (SELECT COUNT(*) FROM images WHERE vehicle_id = v.id) as image_count\nFROM \n  vehicle v\n  LEFT JOIN images i ON v.id = i.vehicle_id AND i.default = 1

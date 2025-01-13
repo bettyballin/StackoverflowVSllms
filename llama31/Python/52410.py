@@ -1,1 +1,0 @@
-DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'OPTIONS': {'init_command': 'SET storage_engine=INNODB'},\n        'TEST': {\n            'OPTIONS': {'init_command': 'SET storage_engine=INNODB'}\n        }\n    }\n}

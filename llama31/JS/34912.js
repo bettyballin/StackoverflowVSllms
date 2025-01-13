@@ -1,1 +1,0 @@
-// Assume 'data' is the AJAX response\nvar template = Handlebars.compile($('#user-template').html());\n$('#user-info').html(template(data));

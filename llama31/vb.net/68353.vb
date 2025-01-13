@@ -1,1 +1,0 @@
-Const WM_NCLBUTTONDOWN As Integer = &HA1\n\nButton1.Capture = False\nCursor.Position = Me.Location + New Size(50, 8)\n\nPostMessage(Me.Handle, WM_NCLBUTTONDOWN, CType(2, IntPtr), IntPtr.Zero)

@@ -1,1 +1,0 @@
-// Assuming you have a function to add a new item to the list via AJAX\nfunction addNewItem() {\n  // Your AJAX code to add the new item...\n  // ...\n\n  // Re-initialize the Sortable list\n  Sortable.create('my_list', {\n    // Your Sortable options...\n  });\n}

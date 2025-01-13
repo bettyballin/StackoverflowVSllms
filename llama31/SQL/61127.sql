@@ -1,1 +1,0 @@
-DECLARE @NumberOfResultsToReturn INT = 10;\nSELECT TOP (@NumberOfResultsToReturn) * FROM YourTable;

@@ -1,1 +1,0 @@
-grDest.Clear(BackgroundColor) ' Assuming BackgroundColor is a System.Drawing.Color

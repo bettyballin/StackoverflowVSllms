@@ -1,1 +1,0 @@
-DECLARE\n  l_id NUMBER;\nBEGIN\n  SELECT id\n    INTO l_id\n    FROM cinema\n   WHERE name = :P_CINEMA_NAME;\n  :P_CINEMA_ID := l_id;\nEND;

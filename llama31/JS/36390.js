@@ -1,1 +1,0 @@
-var element = $('#bodyContainer #mainContentContainer #mainContent #productContentRight #swatchContent #colorSwatchContent span');

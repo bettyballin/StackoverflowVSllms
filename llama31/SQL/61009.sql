@@ -1,1 +1,0 @@
-INSERT INTO files (id, file_name, file_content)\nVALUES (1, 'example.pdf', BFILENAME('file_dir', 'example.pdf'));

@@ -1,1 +1,0 @@
-If Books.Count > 0 Then\n    Dim firstBook As BookEntity = Books(0)\n    Me.Title = firstBook.Title\n    Me.Author = firstBook.Author\n    ' Assign other properties as needed\nEnd If

@@ -1,1 +1,0 @@
-class AnalyticsController < ApplicationController\n  def index\n    @filter = AnalyticsFilter.new(start_date: params[:start_date], end_date: params[:end_date])\n    metrics = # gather metrics from DB\n    presenter = AnalyticsPresenter.new(metrics, @filter)\n    @filtered_metrics = presenter.filtered_metrics\n    # render the view\n  end\nend

@@ -1,1 +1,0 @@
-$output = shell_exec('ln -s ' . PLUGIN_DIR . '/.htaccess ' . ABSPATH . '/.htaccess 2>&1');\nif ($output === NULL) {\n    die("Error executing command");\n} else {\n    print($output);\n}

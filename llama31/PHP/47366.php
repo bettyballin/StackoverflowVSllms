@@ -1,1 +1,0 @@
-$lockFile = '/path/to/lock/file.lock';\n$fp = fopen($lockFile, 'w');\n\nif (flock($fp, LOCK_EX | LOCK_NB)) {\n    // Your conversion script here...\n    flock($fp, LOCK_UN);\n} else {\n    exit('Script is already running.');\n}\n\nfclose($fp);

@@ -1,1 +1,0 @@
-SELECT COALESCE(c.CreatedAt, p.CreatedAt, c.RemovedAt, p.RemovedAt) AS RevisionId\nFROM Countries c\nFULL OUTER JOIN Provinces p ON c.LocalId = p.CountryId\nWHERE c.LocalId = @Country

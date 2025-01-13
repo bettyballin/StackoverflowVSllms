@@ -1,1 +1,0 @@
-my_set = {'a', 'b', 'c'}\nmy_list = list(my_set)\nprint(my_list)  # Output: ['a', 'b', 'c']

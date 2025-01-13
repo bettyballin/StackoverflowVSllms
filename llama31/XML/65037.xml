@@ -1,1 +1,0 @@
-<webHttpBinding>\n  <binding name="webHttp" maxReceivedMessageSize="2147483647" maxBufferSize="2147483647">\n    <!-- other settings... -->\n  </binding>\n</webHttpBinding>

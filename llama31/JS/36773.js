@@ -1,1 +1,0 @@
-$.ajax({\n  type: 'GET',\n  url: 'token.php',\n  success: function(token) {\n    // use the token for subsequent requests\n  }\n});

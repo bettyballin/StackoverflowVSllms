@@ -1,1 +1,0 @@
-SELECT name \nFROM sys.databases \nWHERE name = 'mydb';

@@ -1,1 +1,0 @@
-s1_normalized = unicodedata.normalize('NFKD', s1).casefold()\ns2_normalized = unicodedata.normalize('NFKD', s2).casefold()

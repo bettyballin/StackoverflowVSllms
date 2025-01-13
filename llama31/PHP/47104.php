@@ -1,1 +1,0 @@
-if (isset($_POST['fname'])){\n    $fname        = htmlspecialchars(trim($_POST['fname']));\n    $oname        = htmlspecialchars(trim($_POST['oname']));\n    // DO SOMETHING....\n}

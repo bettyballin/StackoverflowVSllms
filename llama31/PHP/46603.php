@@ -1,1 +1,0 @@
-if (ini_get('register_globals')) {\n    die('register_globals is enabled, please disable it');\n}\nif (ini_get('display_errors')) {\n    die('display_errors is enabled, please disable it');\n}

@@ -1,1 +1,0 @@
-session_start();\n$_SESSION['soap_credentials'] = $encrypted_credentials;\nsession_write_close();

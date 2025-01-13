@@ -1,1 +1,0 @@
-public function getPostIDs($num_posts = 1) {\n  if ($num_posts == 0) {\n    $num_posts = 1;\n  }\n  return $this->RPCRequest("mt.getRecentPostTitles",\n                            array($this->blogID, $this->username,\n                            $this->password, $num_posts));\n}

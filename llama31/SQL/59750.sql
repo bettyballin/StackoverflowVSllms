@@ -1,1 +1,0 @@
--- Batch 1\nINSERT INTO foo VALUES ('1', '2');\nINSERT INTO foo VALUES ('3', '4');\n...\nGO\n\n-- Batch 2\nINSERT INTO foo VALUES ('100001', '100002');\nINSERT INTO foo VALUES ('100003', '100004');\n...\nGO

@@ -1,1 +1,0 @@
-app/\nconfig/\ndatabase/\nmodels/\ncontrollers/\nviews/\npublic/\nindex.php\nvendor/\ncomposer.jso

@@ -1,1 +1,0 @@
-def bid\n  @bid = Bid.new(params[:bid])\n  if @bid.save\n    # do something on success\n  else\n    # do something on failure\n  end\nend

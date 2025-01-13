@@ -1,1 +1,0 @@
-$checkboxValue = $_POST['checkbox_name'] ?? 0;

@@ -1,1 +1,0 @@
-WITH DuplicateRecords AS (\n  SELECT RecordID,\n         ROW_NUMBER() OVER (PARTITION BY longitude, latitude, BusinessName, Phone ORDER BY RecordID) AS RowNum\n  FROM MyTable\n)\nDELETE FROM DuplicateRecords\nWHERE RowNum > 1;

@@ -1,1 +1,0 @@
-import getpass\n\npassword = getpass.getpass("Enter password: ")

@@ -1,1 +1,0 @@
-stringValue = otherString or defaultString

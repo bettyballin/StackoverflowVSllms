@@ -1,1 +1,0 @@
-function greet($callback, $name) {\n    $callback($name);\n}\n\ngreet(function($name) {\n    echo "Hello, $name!";\n}, 'Jane'); // Output: Hello, Jane!

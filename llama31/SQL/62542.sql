@@ -1,1 +1,0 @@
--- Original CTE\nWITH MyCTE AS (\n    SELECT * FROM MyTable\n)\nSELECT * FROM MyCTE\nUNION ALL\nSELECT * FROM MyCTE\n\n-- Converted to Table Variable\nDECLARE @MyTableVar TABLE (\n    -- define columns here\n)\nINSERT INTO @MyTableVar\nSELECT * FROM MyTable\n\nSELECT * FROM @MyTableVar\nUNION ALL\nSELECT * FROM @MyTableVar

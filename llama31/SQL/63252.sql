@@ -1,1 +1,0 @@
-CREATE TABLE measurement_type (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(255) NOT NULL,  -- e.g., 'temperature', 'dissolved oxygen', etc.\n    dimension VARCHAR(50) NOT NULL,  -- e.g., 'Θ', 'M/V', etc.\n    unit_id INTEGER NOT NULL,  -- references the default unit for this measurement type\n    FOREIGN KEY (unit_id) REFERENCES measurement_unit (id)\n);

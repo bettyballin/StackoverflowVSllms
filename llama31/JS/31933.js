@@ -1,1 +1,0 @@
-$.ajax({\n    type: "POST",\n    url: "replyMessage.php",\n    data: {\n        senderID: senderID,\n        subject: subject,\n        message: message,\n        receiverID: receiverID,\n        threadID: thread_id\n    },\n    //...\n});

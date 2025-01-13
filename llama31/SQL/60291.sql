@@ -1,1 +1,0 @@
-SELECT * FROM `sales_flat_order` WHERE `total_paid` = `grand_total`

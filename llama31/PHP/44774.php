@@ -1,1 +1,0 @@
-$upload_dir = "upload/";\nif (!is_dir($upload_dir)) {\n    mkdir($upload_dir, 0777, true);\n}

@@ -1,1 +1,0 @@
-<?php\n// Include File2.php\ninclude_once 'File2.php';\n\n// Now you can access the session variable\necho $_SESSION['site_user_country'];\n?>

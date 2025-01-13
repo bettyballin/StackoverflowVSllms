@@ -1,1 +1,0 @@
-// config.php\ndefine('DB_HOST', 'localhost');\ndefine('DB_USERNAME', 'your_username');\ndefine('DB_PASSWORD', 'your_password');\ndefine('DB_NAME', 'your_database');\n\n// db.php\nrequire_once 'config.php';\n\n$conn = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);\n\nif ($conn->connect_error) {\n    die("Connection failed: " . $conn->connect_error);\n}

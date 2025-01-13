@@ -1,1 +1,0 @@
-// in your view file (e.g. index.ctp)\n<?php echo $this->Rtf->link($type); ?>

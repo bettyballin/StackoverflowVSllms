@@ -1,1 +1,0 @@
-$dom = new DOMDocument('1.0');\n// ... build your XML document ...\n\n// Save the XML file to a location on the server\n$dom->save('/path/to/your/file.xml');

@@ -1,1 +1,0 @@
-import mmap\nimport re\n\nwith open('file.txt', 'r+') as f:\n    mmap_file = mmap.mmap(f.fileno(), 0, access=mmap.ACCESS_READ)\n\n    # Use re.search or re.match as you normally would\n    match = re.search(rb'your_pattern', mmap_file)\n\n    if match:\n        print(match.group())\n\n    mmap_file.close()

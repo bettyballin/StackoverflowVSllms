@@ -1,1 +1,0 @@
-$('body').on('load', function(){\n  // your code here\n})

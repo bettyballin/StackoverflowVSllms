@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetXByDate\n    @Date datetime\nAS\nBEGIN\n    SELECT * FROM X\n    WHERE Date = @Date\nEND

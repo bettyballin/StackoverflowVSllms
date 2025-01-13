@@ -1,1 +1,0 @@
-while ($row = mysql_fetch_array($result)) {\n    $lastImg = $row['PIC_URL'];\n    savePicture($lastImg, $pk);\n    // Rest of your code here...\n}

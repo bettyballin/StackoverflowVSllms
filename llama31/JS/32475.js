@@ -1,1 +1,0 @@
-function appendSuffix() {\n  var links = document.querySelectorAll('a[href^="http://www.example.com"]');\n  links.forEach(function(link) {\n    var href = link.getAttribute('href');\n    if (!href.includes('?hl=')) {\n      link.setAttribute('href', href + '?hl=foo');\n    }\n  });\n}\n\ndocument.addEventListener("DOMContentLoaded", appendSuffix);

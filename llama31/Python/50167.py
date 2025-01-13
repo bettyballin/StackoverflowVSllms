@@ -1,1 +1,0 @@
-class MyClass:\n    def __init__(self):\n        self._private_variable = 0\n\n    def _private_function(self):\n        pass\n\n    def public_function(self):\n        return self._private_variable

@@ -1,1 +1,0 @@
-if (preg_match('/\b' . preg_quote($word) . '\b/i', $text)) {\n    return true;\n} else {\n    return false;\n}

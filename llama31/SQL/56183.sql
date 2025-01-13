@@ -1,1 +1,0 @@
--- Create a table\nCREATE TABLE customers (\n    id INT PRIMARY KEY,\n    email VARCHAR(255) NOT NULL\n);\n\n-- Create a UNIQUE constraint\nALTER TABLE customers\nADD CONSTRAINT uq_email UNIQUE (email);\n\n-- Create a UNIQUE index\nCREATE UNIQUE INDEX idx_email ON customers (email);

@@ -1,1 +1,0 @@
-INSERT INTO tbl_xyz (field1)\nOUTPUT inserted.id\nSELECT field1 FROM tbl_abc

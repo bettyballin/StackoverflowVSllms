@@ -1,1 +1,0 @@
-SELECT LOWER(keyword) FROM your_table;

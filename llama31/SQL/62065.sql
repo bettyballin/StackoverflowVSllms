@@ -1,1 +1,0 @@
-CREATE OR REPLACE TRIGGER my_trigger\nBEFORE INSERT OR UPDATE ON my_table\nFOR EACH ROW\nBEGIN\n  IF :new.my_column IS NULL OR :new.my_column = '' THEN\n    :new.my_column := '@';\n  END IF;\nEND;

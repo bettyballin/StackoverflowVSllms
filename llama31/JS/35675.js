@@ -1,1 +1,0 @@
-const iframe = document.getElementById('myIframe');\niframe.contentDocument.addEventListener('DOMContentLoaded', function() {\n  console.log('Initial HTML loaded');\n});

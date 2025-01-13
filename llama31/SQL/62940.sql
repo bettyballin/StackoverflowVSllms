@@ -1,1 +1,0 @@
-CREATE TABLE federated_table (\n  id INT,\n  name VARCHAR(255)\n) ENGINE=FEDERATED\nDEFAULT CHARSET=latin1\nCONNECTION='mysql://username:password@1.2.3.4:3306/Test/source_table';

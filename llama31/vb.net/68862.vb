@@ -1,1 +1,0 @@
-Dim l_stuff As List(Of Stuff)\nDim m_stuff As New Stuff\n\nm_stuff.property1 = 1\nm_stuff.property2 = "This"\n\nIf Not l_stuff.Exists(Function(x) x.property1 = m_stuff.property1 AndAlso x.property2 = m_stuff.property2) Then\n    l_stuff.Add(m_stuff)\nEnd If

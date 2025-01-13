@@ -1,1 +1,0 @@
-window.onload = function() {\n    window.opener.postMessage("finishedLoading", "*");\n};

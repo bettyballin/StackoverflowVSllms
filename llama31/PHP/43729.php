@@ -1,1 +1,0 @@
-$config = yaml_parse_file('config.yaml');

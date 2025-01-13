@@ -1,1 +1,0 @@
-UPDATE table_name\nSET date_field = CONVERT(datetime, '2022-07-25 14:30:00', 120)\nWHERE condition;

@@ -1,1 +1,0 @@
-// In your controller\nfunction design() {\n    $this->log($this->Session->read(), 'debug');\n    $uid = $this->Session->read('uid');\n    echo "uid: " . $uid;\n}

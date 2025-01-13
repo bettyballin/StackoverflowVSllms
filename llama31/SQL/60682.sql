@@ -1,1 +1,0 @@
--- Example answer: Using self-referential tables or Common Table Expressions (CTEs)\nCREATE TABLE Employees (\n    id int PRIMARY KEY,\n    name nvarchar(50),\n    manager_id int NULL\n)

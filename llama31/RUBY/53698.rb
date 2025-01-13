@@ -1,1 +1,0 @@
-class UserArticle < ActiveResource::Base\n  self.site = "https://example.com"\n  self.element_name = "user_article"\n\n  def self.find(user_id, article_id)\n    find_one(user_id, article_id)\n  end\n\n  def self.find_one(user_id, article_id)\n    get("users/#{user_id}/articles/#{article_id}.xml")\n  end\nend

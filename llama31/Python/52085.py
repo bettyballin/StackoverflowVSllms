@@ -1,1 +1,0 @@
-def jaccard_similarity(article1, article2):\n    words1 = set(article1.split())\n    words2 = set(article2.split())\n    intersection = words1.intersection(words2)\n    union = words1.union(words2)\n    return len(intersection) / len(union)

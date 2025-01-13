@@ -1,1 +1,0 @@
-<?php\n$imageDir = 'images/';\n$expirationTime = 86400; // 1 day\n\nforeach (glob($imageDir . '*.jpg') as $image) {\n    if (filemtime($image) < time() - $expirationTime) {\n        unlink($image);\n    }\n}

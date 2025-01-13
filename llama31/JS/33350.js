@@ -1,1 +1,0 @@
-var config = {\n  baseUrl: 'http://www.example.com/alpha/bravo/UsabilityTest/'\n};\n\nvar URI = config.baseUrl + "foxtrot/ProcessUserInput.php?";

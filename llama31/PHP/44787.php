@@ -1,1 +1,0 @@
-function getValue($cn, $comando) {\n    $resul = $cn->query($comando);\n    if (!$resul) return null;\n    $retorno = $resul->fetchAll();\n    return $retorno[0][0];\n}

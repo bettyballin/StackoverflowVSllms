@@ -1,1 +1,0 @@
-SET @maxA = (SELECT MAX(`A`) FROM `aTable`);\nINSERT INTO `aTable` (`A`, `B`) VALUES (@maxA * 2, 'name');

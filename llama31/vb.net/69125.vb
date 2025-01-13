@@ -1,1 +1,0 @@
-Public Overridable ReadOnly Property PropertyName() As String\n    Get\n        ' implementation\n    End Get\nEnd Property\n\nPublic Delegate Function Test() As String\n\nDim t As Test = AddressOf Me.GetProperty(Of String)(PropertyName)

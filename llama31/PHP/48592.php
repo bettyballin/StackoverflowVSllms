@@ -1,1 +1,0 @@
-if (isset($_GET['p']) && $_GET['p'] == 'view-member-photos') {\n    $username = $_GET['username'];\n    // fetch member photos from database using $username\n    // display member photos\n}

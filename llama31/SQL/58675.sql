@@ -1,1 +1,0 @@
-SELECT IIF(ISNULL(YourAttachmentField.Value), 'Empty', 'Not Empty') AS AttachmentStatus\nFROM YourTable

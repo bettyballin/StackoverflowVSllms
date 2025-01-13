@@ -1,1 +1,0 @@
-$.getJSON("http://localhost/OutVoice/services/test.php?callback=?", function(json){\n    alert("JSON Data: " + json);\n});

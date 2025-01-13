@@ -1,1 +1,0 @@
-try {\n    var xhr = new ActiveXObject('MSXML2.XMLHTTP');\n} catch (e) {\n    // control is blocked\n}

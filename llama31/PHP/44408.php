@@ -1,1 +1,0 @@
-$json = array('message' => 'Hello, World!', 'status' => 'success');\nheader('Content-Type: application/json');\necho json_encode($json);

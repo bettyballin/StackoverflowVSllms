@@ -1,1 +1,0 @@
-class Rating < ActiveRecord::Base\n  belongs_to :rateable, :polymorphic => true\n  belongs_to :user\nend

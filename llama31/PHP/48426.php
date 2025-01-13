@@ -1,1 +1,0 @@
-<?php\nif(!preg_match('/^([a-zA-Z0-9\-_]*)$/', basename($_SERVER['REQUEST_URI'])))\n  die('Incorrect page supplied.');\n\nob_start('changeOutput');\n\ninclude(dirname(__FILE__) . '/' . basename($_SERVER['REQUEST_URI']));\n\nob_end_flush();\n\nfunction changeOutput ($buffer) {\n  ...\n}\n?>

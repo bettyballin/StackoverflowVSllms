@@ -1,1 +1,0 @@
-google.maps.event.addListener(marker, 'click', function() {\n  // ...\n});

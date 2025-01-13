@@ -1,1 +1,0 @@
-from django.db import models\nfrom .utils import Coalesce\n\nclass MyModel(models.Model):\n    field1 = models.CharField(max_length=255)\n    field2 = models.CharField(max_length=255, null=True)\n\n    def my_query(self):\n        return MyModel.objects.annotate(\n            result=Coalesce('field1', 'field2')\n        )

@@ -1,1 +1,0 @@
-function replaceTags($template, $newtext) {\n    return str_replace('%MYTAG%', $newtext, $template);\n}

@@ -1,1 +1,0 @@
-INSERT INTO Bar (FooID, -- other columns)\nVALUES (123, -- other values)\nDEFAULT;

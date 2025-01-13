@@ -1,1 +1,0 @@
-$(function() {\n  $(".tablesorter-footer tr").each(function(index) {\n    $(this).addClass(index % 2 === 0 ? "odd" : "even");\n  });\n});

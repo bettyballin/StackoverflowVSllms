@@ -1,1 +1,0 @@
-$stmt->bind_result($photo_id, $photo_title, $photo_filename, $photographer_id, $photographer_id, $photographer_name);

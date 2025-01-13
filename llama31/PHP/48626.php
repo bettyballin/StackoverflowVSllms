@@ -1,1 +1,0 @@
-$autoload['model'] = array('my_model');

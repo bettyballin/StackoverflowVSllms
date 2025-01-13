@@ -1,1 +1,0 @@
-end($array_of_arrayrefs);\n$last_ref = &$array_of_arrayrefs[key($array_of_arrayrefs)];\n$last_ref["one"] = 1;

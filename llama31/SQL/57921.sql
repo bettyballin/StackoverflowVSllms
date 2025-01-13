@@ -1,1 +1,0 @@
-CREATE TABLE table (column INT);\n\nINSERT INTO table (column) VALUES (1), (1), (2), (2), (3);\n\nSELECT column FROM table GROUP BY column;\nSELECT DISTINCT column FROM table;

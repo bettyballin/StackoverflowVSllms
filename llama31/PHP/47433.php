@@ -1,1 +1,0 @@
-ini_set('SMTP', 'your_smtp_server_ip_or_hostname');\nini_set('smtp_port', '25'); // or the port number your SMTP server uses

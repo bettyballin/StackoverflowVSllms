@@ -1,1 +1,0 @@
-CREATE USER new_user \nIDENTIFIED BY password \nDEFAULT TABLESPACE new_tablespace \nTEMPORARY TABLESPACE existing_temp_tablespace;

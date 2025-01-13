@@ -1,1 +1,0 @@
-import subprocess\n\n# Define the command and arguments\ncmd = ["../bin/producenotify.py", "xx"]\n\n# Use Popen with close_fds=True to close all file descriptors\np = subprocess.Popen(cmd, close_fds=True, env=os.environ)

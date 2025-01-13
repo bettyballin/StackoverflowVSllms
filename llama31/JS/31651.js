@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\n// avoid using overrideMimeType() in Safari

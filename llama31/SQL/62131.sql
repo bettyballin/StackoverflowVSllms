@@ -1,1 +1,0 @@
-CREATE TABLESPACE replication LOCATION '/var/lib/postgresql/9.5/main';

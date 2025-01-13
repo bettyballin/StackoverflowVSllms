@@ -1,1 +1,0 @@
-DELETE FROM myOtherTable \nWHERE id IN (SELECT id FROM myTable WHERE id = -1);

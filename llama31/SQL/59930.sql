@@ -1,1 +1,0 @@
-UPDATE sometable \nSET \n    price1 = COALESCE(@param1, price1),\n    price2 = COALESCE(@param2, price2),\n    price3 = COALESCE(@param3, price3),\n    price4 = COALESCE(@param4, price4)\nWHERE\n    ID = @param5

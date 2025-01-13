@@ -1,1 +1,0 @@
-(SELECT value FROM values WHERE sensor_id = fp.sensor_id AND acquired >= fp.start_date ORDER BY acquired ASC) AS v1,\nROW_NUMBER() OVER (PARTITION BY fp.sensor_id ORDER BY acquired ASC) AS rn\n...\nWHERE rn = 1

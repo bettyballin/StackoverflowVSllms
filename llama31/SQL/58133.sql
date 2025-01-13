@@ -1,1 +1,0 @@
-LOCK TABLE your_table WRITE;\nIF NOT book THEN\n    UPDATE your_table SET book = TRUE WHERE memberid = $memberid AND classid = $classid;\nUNLOCK TABLES;

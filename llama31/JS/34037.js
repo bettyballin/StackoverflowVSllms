@@ -1,1 +1,0 @@
-$("td").click(function(){\n  var columnPosition = $(this).index();\n  alert("column " + columnPosition + " is clicked");\n});

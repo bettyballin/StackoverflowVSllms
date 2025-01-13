@@ -1,1 +1,0 @@
-$string = "R 124 This is my message";\n$words = explode(' ', $string);\n$filteredString = implode(' ', array_slice($words, 2));\n\necho $filteredString; // Outputs: "This is my message"

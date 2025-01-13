@@ -1,1 +1,0 @@
-<receiver android:name=".ServiceStarter" android:enabled="true" android:exported="true">\n    <intent-filter>\n        <action android:name="android.intent.action.BOOT_COMPLETED" />\n    </intent-filter>\n</receiver>\n\n<service android:name=".YourService" android:enabled="true" android:exported="true" />

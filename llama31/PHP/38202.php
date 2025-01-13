@@ -1,1 +1,0 @@
-foreach ($rows = $html->find('tr[bgcolor="#ffffff"], tr[bgcolor="#cccccc"]') as $row);

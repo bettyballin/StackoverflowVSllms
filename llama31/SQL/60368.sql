@@ -1,1 +1,0 @@
-SELECT * FROM sys.dm_os_wait_stats\nWHERE wait_type LIKE '%DISKIO%';

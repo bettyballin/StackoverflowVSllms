@@ -1,1 +1,0 @@
-if (true) {\n    var functionOne = function() {\n        console.log("Hello");\n    }\n}\n\nfunctionOne(); // outputs "Hello"

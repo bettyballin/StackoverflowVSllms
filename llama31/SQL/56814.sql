@@ -1,1 +1,0 @@
-SELECT name \nFROM sysconstraints \nWHERE tableid = object_id('dbo.city') \n  AND contype = 'R'

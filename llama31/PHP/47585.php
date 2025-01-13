@@ -1,1 +1,0 @@
-$old_umask = umask(0);\n$fp = fopen($count_my_page, "w");\n// ...\numask($old_umask);

@@ -1,1 +1,0 @@
-$image_p = imagecreatetruecolor(160, 120);\n$white = imagecolorallocate($image_p, 255, 255, 255);\nimagefill($image_p, 0, 0, $white);

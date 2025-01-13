@@ -1,1 +1,0 @@
-CREATE PROCEDURE MyProc1\n  @id int\nAS BEGIN\n  UPDATE MyTable\n  SET somevalue1 = somevalue1 + 1,\n      somevalue2 = somevalue2 + 1,\n      somevalue3 = somevalue3 + 1,\n      ...\n      somevalueN = somevalueN + 1\n  WHERE id = @id\nEND

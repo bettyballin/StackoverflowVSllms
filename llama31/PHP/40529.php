@@ -1,1 +1,0 @@
-// module/Application/config/module.config.php\n\n'router' => [\n    'routes' => [\n        'database' => [\n            'type' => DatabaseRouter::class,\n            'factory' => DatabaseRouterFactory::class,\n        ],\n    ],\n],

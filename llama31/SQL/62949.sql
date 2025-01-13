@@ -1,1 +1,0 @@
-INSERT INTO ...\nWHERE YourColumn NOT IN (SELECT ValidationColumn FROM YourTable)

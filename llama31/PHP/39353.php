@@ -1,1 +1,0 @@
-$headerMap = [\n    'home' => 'Home Header',\n    'about' => 'About Header',\n];\n\n$header = $headerMap[$type] ?? 'Default Header';

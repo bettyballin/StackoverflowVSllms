@@ -1,1 +1,0 @@
-function slowFunction() {\n  // Simulate some slow operation\n  var start = new Date().getTime();\n  while (new Date().getTime() < start + 500) {}\n}\n\nfunction main() {\n  slowFunction();\n}\n\n// Profile the main function\nconsole.profile('main');\nmain();\nconsole.profileEnd('main');

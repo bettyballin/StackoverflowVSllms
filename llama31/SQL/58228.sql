@@ -1,1 +1,0 @@
-SELECT * FROM tbl_dict TABLESAMPLE SYSTEM_ROWS(1) WHERE lock = '0'

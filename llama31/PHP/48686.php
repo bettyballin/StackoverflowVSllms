@@ -1,1 +1,0 @@
-$productName = isset($products[$thisProd]) ? $products[$thisProd]["name"] : null;

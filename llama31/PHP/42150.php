@@ -1,1 +1,0 @@
-$array = [...]; // your array of objects\n\nusort($array, function($a, $b) {\n    return $b->score <=> $a->score;\n});

@@ -1,1 +1,0 @@
-CatRemove('path/to/your/xml.xml', $_POST['categorytoremoveValue']);

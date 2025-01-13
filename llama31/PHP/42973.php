@@ -1,1 +1,0 @@
-$fontFamily = htmlspecialchars($userInput);\necho '<a href="..." style="font-family: ' . $fontFamily . ' !important;">...</a>';

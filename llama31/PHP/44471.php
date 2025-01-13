@@ -1,1 +1,0 @@
-$siteID = filter_var($_GET['siteID'], FILTER_VALIDATE_INT);

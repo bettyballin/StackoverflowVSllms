@@ -1,1 +1,0 @@
-SELECT DISTINCT i.*\nFROM Item i\nJOIN GroupItem gi ON i.ItemKey = gi.ItemKey\nWHERE gi.GroupKey IN (\n  SELECT gi2.GroupKey\n  FROM GroupItem gi2\n  WHERE gi2.ItemKey = ?  -- Replace '?' with the given ItemKey\n)

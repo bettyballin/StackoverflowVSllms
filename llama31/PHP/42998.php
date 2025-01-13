@@ -1,1 +1,0 @@
-if (is_numeric($monthlybill)) {\n    // do your math here\n} else {\n    // handle invalid input\n}

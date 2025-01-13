@@ -1,1 +1,0 @@
-usort($array, function($a, $b) {\n    return strlen($a) - strlen($b);\n});

@@ -1,1 +1,0 @@
-$xml_data = $_POST['xml_data'];\n$file_a = $_FILES['file_upload']['tmp_name'][0];\n$file_b = $_FILES['file_upload']['tmp_name'][1];

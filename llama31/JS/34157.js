@@ -1,1 +1,0 @@
-var formData = new FormData();\nformData.append('file', $('#fileInput')[0].files[0]);\n\n$.ajax({\n    url: '/YourController/YourAction',\n    type: 'POST',\n    data: formData,\n    processData: false,\n    contentType: false,\n    success: function (data) {\n        // handle success\n    },\n    error: function (xhr, status, error) {\n        // handle error\n    }\n});

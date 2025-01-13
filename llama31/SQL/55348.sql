@@ -1,1 +1,0 @@
-SELECT p.* \nFROM Products p \nINNER JOIN ProductProperties pp ON p.ProductId = pp.ProductId \nINNER JOIN Properties prop ON pp.PropertyId = prop.PropertyId \nWHERE p.CategoryId = @CategoryId \n  AND prop.Name = @PropertyName \n  AND pp.Value = @PropertyValue

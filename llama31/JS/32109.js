@@ -1,1 +1,0 @@
-// Get the cache\ncaches.open('image-cache').then(function(cache) {\n  // Get the image from the cache\n  cache.match('image.jpg').then(function(response) {\n    // Create a new image element\n    var img = new Image();\n    img.src = response.url;\n  });\n});

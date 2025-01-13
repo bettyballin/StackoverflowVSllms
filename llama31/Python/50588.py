@@ -1,1 +1,0 @@
-def crc16(data, polynomial=0xA001):\n    crc = 0xFFFF\n    for byte in data:\n        crc = (crc >> 8) ^ (polynomial & ((crc ^ byte) & 0xFF))\n    return crc & 0xFFFF\n\n# Example usage:\ndata = b'\x31\x31\x31\x30\x30\x39\x30\x36\x30\x31\x30\x30'\ncrc = crc16(data)\nprint(f"CRC-16 value: {crc:04X}")

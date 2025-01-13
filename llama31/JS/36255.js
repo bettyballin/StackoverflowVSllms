@@ -1,1 +1,0 @@
-// Get all elements with the tag name 'div'\nvar elements = document.querySelectorAll('div');\n\n// Get an element with the id 'myId'\nvar element = document.querySelector('#myId');

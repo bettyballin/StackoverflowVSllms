@@ -1,1 +1,0 @@
-for i in range(0, 145, 6):\n    print(i)

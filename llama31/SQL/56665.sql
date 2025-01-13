@@ -1,1 +1,0 @@
-CREATE INDEX idx_table1_firstName ON table1 (firstName) INCLUDE (lastName, address);

@@ -1,1 +1,0 @@
-// Get the viewport size from the form submission\n$viewportSize = explode(',', $_POST['viewport_size']);\n$viewportWidth = $viewportSize[0];\n$viewportHeight = $viewportSize[1];\n\n// Use the viewport size as needed\necho "Viewport size: $viewportWidth x $viewportHeight";

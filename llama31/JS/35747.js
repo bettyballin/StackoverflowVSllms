@@ -1,1 +1,0 @@
-// assuming 'checkbox' is the element you want to simulate a click on\nvar checkbox = document.getElementById('myCheckbox');\n\n// simulate a click\ncheckbox.click();\n\n// or, if you want to toggle the checkbox state\ncheckbox.checked = !checkbox.checked;

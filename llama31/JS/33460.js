@@ -1,1 +1,0 @@
-$('#myForm').submit(function() {\n    if (!$('#AgreeToTerms').is(':checked')) {\n        alert('You must agree to the terms and conditions');\n        return false;\n    }\n});

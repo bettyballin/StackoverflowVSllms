@@ -1,1 +1,0 @@
-// Bootstrap.php\nprotected function _initRoutes()\n{\n    $routes = include APPLICATION_PATH . '/configs/routes.php';\n    $router = Zend_Controller_Front::getInstance()->getRouter();\n    foreach ($routes as $name => $route) {\n        $router->addRoute($name, new Zend_Controller_Router_Route($route['route'], $route['defaults'], $route['requirements']));\n    }\n}

@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n-- Update the contract number\nUPDATE Contract SET ContractNumber = 'new_value' WHERE ContractID = 'existing_id';\n\n-- Update the related tables\nUPDATE RelatedTable SET ContractID = 'new_value' WHERE ContractID = 'existing_id';\n\n-- Commit the transaction\nCOMMIT TRANSACTION;

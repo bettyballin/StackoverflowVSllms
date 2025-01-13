@@ -1,1 +1,0 @@
-CREATE TABLE Constants (\n    Name nvarchar(50) PRIMARY KEY,\n    Value int\n);\n\nINSERT INTO Constants (Name, Value)\nVALUES ('Nissan', 1),\n       ('Toyota', 2);\n\nCREATE FUNCTION GetConstantValue (@Name nvarchar(50))\nRETURNS int\nWITH SCHEMABINDING\nAS\nBEGIN\n    DECLARE @Value int;\n    SELECT @Value = Value FROM Constants WHERE Name = @Name;\n    RETURN @Value;\nEND;\nGO

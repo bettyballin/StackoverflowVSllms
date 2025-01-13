@@ -1,1 +1,0 @@
-function OneOfTwoFieldsValidator_ClientValidate(val, args) {\n    var control1 = $get(val.control1id);\n    var control2 = $get(val.control2id);\n\n    var value1 = control1.value;\n    var value2 = control2.value;\n\n    if (value1 != "" || value2 != "") {\n        args.IsValid = true;\n    } else {\n        args.IsValid = false;\n    }\n}

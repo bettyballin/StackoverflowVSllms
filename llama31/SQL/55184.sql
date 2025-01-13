@@ -1,1 +1,0 @@
-CREATE NONCLUSTERED INDEX IX_GuidColumn ON YourTable (GuidColumn);\nCREATE CLUSTERED INDEX IX_ClusteredColumn ON YourTable (ClusteredColumn);

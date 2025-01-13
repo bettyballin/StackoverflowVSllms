@@ -1,1 +1,0 @@
-const funcName = settings.functionName;\nconst arg = t.parentNode.id;\n\n// Using bracket notation\nwindow[funcName](arg);\n\n// Using Function() constructor\nconst func = new Function('arg', `return ${funcName}(arg)`);\nfunc(arg);

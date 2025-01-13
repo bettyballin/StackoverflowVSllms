@@ -1,1 +1,0 @@
-SELECT *\nFROM Orders\nWHERE OrderNumber IN (@OrderNumbers);

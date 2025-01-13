@@ -1,1 +1,0 @@
-function Validate() {\n    var i = 1;\n    do {\n        console.log(document.getElementById('radioButtonAnswer2') == null);\n        i++;\n    } while (i < 10);\n    console.log('out of loop');\n    return false;\n}

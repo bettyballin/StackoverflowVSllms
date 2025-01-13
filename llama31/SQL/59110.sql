@@ -1,1 +1,0 @@
-execute sp_getSomeValue @theValue = 1, @theOtherValue = null

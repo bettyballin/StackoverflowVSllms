@@ -1,1 +1,0 @@
-$submit = new Zend_Form_Element_Button('submit');\n$submit->setLabel('My Button');\n$submit->setDecorators(array(\n    array('My_Form_Decorator_ButtonSpan'),\n    array('HtmlTag', array('tag' => 'li'))\n));\n$submit->setAttrib('type', 'submit');

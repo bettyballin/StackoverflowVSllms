@@ -1,1 +1,0 @@
-function pythonic(array $options)\n{\n    $defaults = ['name' => 'Jon Skeet'];\n    $options = array_merge($defaults, $options);\n\n    // Use $options['name'] instead of $name\n    // ...\n}

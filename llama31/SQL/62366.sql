@@ -1,1 +1,0 @@
-CREATE TABLE dates (\n  id INT PRIMARY KEY,\n  year INTEGER,\n  month INTEGER,\n  day INTEGER\n);

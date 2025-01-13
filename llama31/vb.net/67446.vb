@@ -1,1 +1,0 @@
-Using cmd As New SqlCommand("SELECT * FROM compliance_corner WHERE (body LIKE '%' + @query + '%') OR (title LIKE '%' + @query + '%')", connection)\n    cmd.Parameters.AddWithValue("@query", searchQuery)\n    Using reader As SqlDataReader = cmd.ExecuteReader()\n        While reader.Read()\n            ' Process the results\n        End While\n    End Using\nEnd Using

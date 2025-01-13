@@ -1,1 +1,0 @@
-function convertToPath($string)\n{\n    $string = strtolower(trim($string));\n    $string = preg_replace('/\s+/', '-', $string);\n    $string = preg_replace('/[^\p{L}\p{N}\p{Z}_-]/u', '-', $string);\n    $string = preg_replace('/-+/', "-", $string);\n    return $string;\n}

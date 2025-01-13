@@ -1,1 +1,0 @@
-var text = $("#bla span").contents().filter(function() {\n    return this.nodeType == 3; // Text nodes have a nodeType of 3\n}).text();\n\nconsole.log(text);

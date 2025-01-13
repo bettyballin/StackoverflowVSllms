@@ -1,1 +1,0 @@
-function listToString() {\n  const list = document.getElementById('list');\n  const selectedOptions = Array.from(list.selectedOptions, option => option.value);\n  const commaDelimitedString = selectedOptions.join(',');\n  document.getElementById('str').value = commaDelimitedString;\n}

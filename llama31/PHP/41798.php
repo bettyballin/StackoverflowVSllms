@@ -1,1 +1,0 @@
-Array\n(\n    [0] => this is my - string\n    [1] => and more\n)

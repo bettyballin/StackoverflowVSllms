@@ -1,1 +1,0 @@
-// Set a cookie in the response\nres.setHeader('Set-Cookie', 'downloadStarted=true');\nres.setHeader('Content-Disposition', 'attachment; filename="example.pdf"');\nres.setHeader('Content-Type', 'application/pdf');\n// Send the PDF file

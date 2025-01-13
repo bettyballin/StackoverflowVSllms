@@ -1,1 +1,0 @@
-DECLARE @sql nvarchar(max) = 'EXEC MyStoredProcedure';\nSET COMMAND TIMEOUT 60;\nEXEC sp_executesql @sql;\nIF @@ERROR = 1222\n    PRINT 'Statement timed out after 60 seconds';

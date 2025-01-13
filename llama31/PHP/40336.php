@@ -1,1 +1,0 @@
-function set(&$y) {\n    return &$y[2];\n}\n\n$y = array(\n    0,\n    1,\n    array('something')\n);\n\n$x = array('old_val');\nprint "1. inited, x is:\n";\nprint_r($x);\n\n$x =& set($y);\n\nprint "\n2. now, x is: ";\nprint_r($x);

@@ -1,1 +1,0 @@
-use IntlChar;\n\nfunction isAlpha($char) {\n    $codePoint = IntlChar::ord($char);\n    return IntlChar::isalpha($codePoint);\n}\n\n// Test it\n$chineseChar = '';\n$russianChar = 'А';\n\nvar_dump(isAlpha($chineseChar)); // bool(true)\nvar_dump(isAlpha($russianChar)); // bool(true)

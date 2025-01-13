@@ -1,1 +1,0 @@
-SELECT \n  t.id, \n  t.tag_name, \n  COUNT(et.example_id) AS 'no_tags'\nFROM \n  tags t\n  INNER JOIN examples_tags et ON t.id = et.tag_id\n  INNER JOIN examples e ON et.example_id = e.id\nWHERE \n  e.category = 'english examples'\nGROUP BY \n  t.id, t.tag_name

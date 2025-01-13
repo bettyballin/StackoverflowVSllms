@@ -1,1 +1,0 @@
-if ($_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') {\n    // Request is HTTPS\n} else {\n    // Request is HTTP\n}

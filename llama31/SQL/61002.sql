@@ -1,1 +1,0 @@
-DELIMITER $$\nCREATE TRIGGER add_bcc\nBEFORE INSERT ON MailQueue\nFOR EACH ROW BEGIN\n  IF (NEW.sHeaders LIKE "%support@mydomain.com%") THEN\n    SET NEW.sHeaders = CONCAT(NEW.sHeaders, "BCC:internal@mydomain.com");\n  END IF;\nEND$$\nDELIMITER ;

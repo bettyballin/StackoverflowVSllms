@@ -1,1 +1,0 @@
-DECLARE @XYList nvarchar(max)\n\nSELECT @XYList = COALESCE(@XYList + ',', '') + CONVERT(nvarchar, X) + ',' + CONVERT(nvarchar, Y)\nFROM POINTS\n\nSELECT @XYList AS XYList

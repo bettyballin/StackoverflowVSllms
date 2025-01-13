@@ -1,1 +1,0 @@
-def version_chatbot_training_data(data):\n    # Version data to track changes and maintain different versions\n    versioned_data = version_data(data)\n    return versioned_data

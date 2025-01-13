@@ -1,1 +1,0 @@
-require_once('setapdf.php');\n\n$pdf = new SetaPDF_Core_Document('path/to/form.pdf');\n$form = $pdf->getForm();\n$form->fill($data); // $data is an array of form field values\n$pdf->flatten();\n$pdf->save('output.pdf');

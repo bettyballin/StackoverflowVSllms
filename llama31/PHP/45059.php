@@ -1,1 +1,0 @@
-function deepCopy(array $array): array {\n    $copy = [];\n    foreach ($array as $key => $value) {\n        if (is_array($value)) {\n            $copy[$key] = deepCopy($value);\n        } elseif (is_object($value)) {\n            $copy[$key] = clone $value;\n        } else {\n            $copy[$key] = $value;\n        }\n    }\n    return $copy;\n}

@@ -1,1 +1,0 @@
-from bs4 import BeautifulSoup\n\nwith open('input.html', 'r') as f:\n    html = f.read()\n\nsoup = BeautifulSoup(html, 'html.parser')\n\n# Simplify the HTML\nsimplified_html = soup.prettify()\n\nwith open('output.html', 'w') as f:\n    f.write(simplified_html)

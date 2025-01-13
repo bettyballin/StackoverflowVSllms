@@ -1,1 +1,0 @@
-$query = Zend_Search_Lucene_Search_Query::parse($searchTerm);\n$query->setFields(array('item-title', 'item-description', 'item-tags', 'item-price'));

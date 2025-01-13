@@ -1,1 +1,0 @@
-SELECT Name, Age\nFROM MEMBERS\nWHERE Name IS NOT NULL AND Name <> '';

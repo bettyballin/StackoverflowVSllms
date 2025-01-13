@@ -1,1 +1,0 @@
-$string = "ThisWasCool to visit you again";\necho preg_replace('~(?<!^)(?=[A-Z])~', ' $0', $string);\n// Output: "This Was Cool to visit you again"

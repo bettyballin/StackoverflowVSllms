@@ -1,1 +1,0 @@
-require 'vendor/autoload.php';\nuse MaxMind\GeoIP2\Reader;\n\n$reader = new Reader('path/to/GeoIP2-City.mmdb');\n$ipAddress = '8.8.8.8';\n$record = $reader->city($ipAddress);\necho $record->latitude . ', ' . $record->longitude;

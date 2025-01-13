@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>io.netty</groupId>\n    <artifactId>netty-all</artifactId>\n    <version>4.1.73.Final</version>\n</dependency>

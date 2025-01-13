@@ -1,1 +1,0 @@
-SELECT \n    Sum(VisitingCount) as VisitingCount, \n    [Time], \n    FORMAT([Time]*@countgap, 'hh\:mm') AS VisitingGap\nFROM (\n    -- ...\n) X\nGROUP BY [Time]\nORDER BY 2 ASC;

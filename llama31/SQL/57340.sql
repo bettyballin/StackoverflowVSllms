@@ -1,1 +1,0 @@
-SELECT\n  c.Name AS 'CountryName',\n  SUM(CASE WHEN p.[Name] <> 'Washington D.C.' THEN 1 ELSE 0 END) as 'ProvinceCount'\nFROM \n  Country c\n  LEFT OUTER JOIN [Province] p ON p.[CountryID]=c.[ID]\nWHERE\n  c.[ID]=@idParameter

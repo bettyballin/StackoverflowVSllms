@@ -1,1 +1,0 @@
-$obj->{'foo-bar'} = 'baz'; // valid\n$obj->foo-bar = 'baz'; // invalid\n\n$propertyName = 'user_id';\n$obj->{$propertyName} = 'baz'; // valid

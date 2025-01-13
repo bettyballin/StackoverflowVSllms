@@ -1,1 +1,0 @@
-import smtplib\n\nserver = smtplib.SMTP("smtp.gmail.com", 587)\nserver.starttls()\nserver.login("your_email", "your_password")\n\nmsg = "Hello, world!"\nserver.sendmail("your_email", "phonenumber@vtext.com", msg)\nserver.quit()

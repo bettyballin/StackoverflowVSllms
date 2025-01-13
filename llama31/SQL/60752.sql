@@ -1,1 +1,0 @@
-CREATE PROCEDURE SelectDistinctName\nAS\nBEGIN\n  SELECT *\n  FROM (\n    SELECT *,\n      ROW_NUMBER() OVER (PARTITION BY name ORDER BY b DESC) AS row_num\n    FROM temp\n  ) AS subquery\n  WHERE row_num = 1;\nEND;\nGO

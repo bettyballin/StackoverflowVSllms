@@ -1,1 +1,0 @@
-$string = 'Hello {TEST} and {CONTACT-FORM}';\n\n$pattern = '/\{([A-Z0-9_-]+)\}/';\n$replacement = function($match) {\n    $filename = $match[1] . '.php';\n    return file_get_contents($filename);\n};\n\n$result = preg_replace_callback($pattern, $replacement, $string);\n\necho $result;

@@ -1,1 +1,0 @@
-$latin1_string = 'Brélé Lake';\n$utf8_string = iconv('ISO-8859-1', 'UTF-8', $latin1_string);\necho $utf8_string; // Output: Brélé Lake

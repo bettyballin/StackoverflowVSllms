@@ -1,1 +1,0 @@
-SELECT CONVERT(INT, SUBSTRING(comment, PATINDEX('%[0-9]%', comment), LEN(comment)))\nFROM your_table;

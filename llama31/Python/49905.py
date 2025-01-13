@@ -1,1 +1,0 @@
-@time_it\ndef my_function():\n    # Your function code here\n    pass

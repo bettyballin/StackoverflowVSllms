@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n  SELECT C01, C02, C03, C04\n  FROM Table1\n)\nUNPIVOT (\n  value FOR Any_Col_name IN (C01, C02, C03, C04)\n);

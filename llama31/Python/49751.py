@@ -1,1 +1,0 @@
-import argon2\n\n# ...\n\npassword = "user_password"\nsalt = argon2.generate_salt()\nhashed_password = argon2.hash_password(password, salt)\n\n# Store the hashed password

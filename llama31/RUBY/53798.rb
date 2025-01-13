@@ -1,1 +1,0 @@
-class Contact < ActiveRecord::Base\n  attr_accessible :name, :email, :phone\nend

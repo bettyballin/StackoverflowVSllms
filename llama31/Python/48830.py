@@ -1,1 +1,0 @@
-import psutil\nimport os\n\ndef my_func():\n    # Your function code here\n    pass\n\nprocess = psutil.Process(os.getpid())\nmem_before = process.memory_info().rss\nmy_func()\nmem_after = process.memory_info().rss\nprint(f"Memory usage: {mem_after - mem_before} bytes")

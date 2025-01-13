@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('#datetime-field').blur(function() {\n    var datetime = $(this).val();\n    if (!moment(datetime, 'YYYY-MM-DD HH:mm', true).isValid()) {\n      $('#error-message').text('Invalid date/time format. Please use YYYY-MM-DD HH:MM');\n    } else {\n      $('#error-message').text('');\n    }\n  });\n});

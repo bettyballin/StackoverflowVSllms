@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("SELECT * FROM (\n  SELECT * FROM $db_table \n  ORDER BY $datetime DESC \n  LIMIT 100\n) AS subquery \nORDER BY rand() \nLIMIT 1");\n\n$stmt->execute();\n$result = $stmt->get_result();\n\nwhile($row = $result->fetch_assoc()) {\n  echo "".$row['familyname']."";\n}

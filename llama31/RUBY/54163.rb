@@ -1,1 +1,0 @@
-class MyModel < ActiveRecord::Base\n  def self.custom_sql(params)\n    where("sql_query_here WITH params ?", params)\n  end\nend

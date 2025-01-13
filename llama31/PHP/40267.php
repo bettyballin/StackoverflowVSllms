@@ -1,1 +1,0 @@
-foreach ([$a, $b, $c, $d] as &$var) {\n    $var = count($var);\n}

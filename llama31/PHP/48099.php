@@ -1,1 +1,0 @@
-// controller\n$this->load->helper('format');\n\n// view\necho format_string($output);

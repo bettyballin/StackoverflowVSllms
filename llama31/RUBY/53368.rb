@@ -1,1 +1,0 @@
-# db/seeds.rb\nFactoryBot.create(:theme)\nFactoryBot.create(:dark_theme)

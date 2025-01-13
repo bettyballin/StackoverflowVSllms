@@ -1,1 +1,0 @@
--- SQL Server\nEXPLAIN SELECT *\nFROM Document\nINNER JOIN DocumentStats ON Document.Id = DocumentStats.Id\nWHERE DocumentStats.NbViews > 500\n\n-- MySQL\nEXPLAIN EXTENDED SELECT *\nFROM Document\nINNER JOIN DocumentStats ON Document.Id = DocumentStats.Id\nWHERE DocumentStats.NbViews > 500

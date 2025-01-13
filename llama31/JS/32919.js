@@ -1,1 +1,0 @@
-const listItems = document.querySelectorAll('#thumbsPhotos li');\n\nlistItems.forEach((item) => {\n  const src = item.getAttribute('src');\n  item.removeAttribute('src');\n  item.setAttribute('title', src);\n});

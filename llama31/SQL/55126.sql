@@ -1,1 +1,0 @@
-SELECT * FROM items WHERE item_id LIKE 'Sb99%';

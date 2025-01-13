@@ -1,1 +1,0 @@
-Imports System.Numerics\n\nModule Module1\n    Sub Main()\n        Dim num As BigInteger = 2 ^ 1000\n        Dim sum As Integer = 0\n        For Each digit As Char In num.ToString()\n            sum += Integer.Parse(digit.ToString())\n        Next\n        Console.WriteLine(sum)\n    End Sub\nEnd Module

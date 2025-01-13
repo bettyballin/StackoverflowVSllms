@@ -1,1 +1,0 @@
-const encrypted = CryptoJS.AES.encrypt("Message", "Secret Passphrase");\nconst decrypted = CryptoJS.AES.decrypt(encrypted, "Secret Passphrase");

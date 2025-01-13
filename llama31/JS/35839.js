@@ -1,1 +1,0 @@
-// Create a Set from the array\nconst validationSet = new Set(arrayOfByteStrings);\n\n// Function to validate user input\nfunction validateInput(input) {\n  if (validationSet.has(input)) {\n    // Input is valid, proceed with form submission or other actions\n  } else {\n    // Input is invalid, display error message\n    alert('Invalid input');\n  }\n}

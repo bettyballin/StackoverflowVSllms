@@ -1,1 +1,0 @@
-echo utf8_decode($user_input);

@@ -1,1 +1,0 @@
-// your_php_file.php\nif ($_POST) {\n    // your database query here\n    $result = // your query result\n    echo $result;\n    exit();\n}

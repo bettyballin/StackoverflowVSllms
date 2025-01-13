@@ -1,1 +1,0 @@
-SELECT username, email, activation_code\nFROM (\n  SELECT username, email, activation_code,\n         ROW_NUMBER() OVER (PARTITION BY email ORDER BY username) AS row_num\n  FROM your_table\n) t\nWHERE row_num = 1;

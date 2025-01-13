@@ -1,1 +1,0 @@
-document.observe('dom:loaded', function() {\n  $$('div:has(a[href="http://google.com"])').invoke('hide');\n});

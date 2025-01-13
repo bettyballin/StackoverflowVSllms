@@ -1,1 +1,0 @@
-require 'rspec_on_rails'

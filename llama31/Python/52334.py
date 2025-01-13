@@ -1,1 +1,0 @@
-def on_insert_text(buffer, iter, text, len):\n    if text == "\n":\n        buffer.delete(iter, buffer.get_end_iter())\n\nbuffer.connect("insert-text", on_insert_text)

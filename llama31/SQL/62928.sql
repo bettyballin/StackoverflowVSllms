@@ -1,1 +1,0 @@
-SELECT @@SERVERNAME, 'GUEST' AS [Account], CASE WHEN [state] = 1 THEN 'ENABLED' ELSE 'DISABLED' END AS [Status]\nFROM sys.server_principals\nWHERE [name] = 'GUEST';

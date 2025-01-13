@@ -1,1 +1,0 @@
-ob_start();\n$_GET['id'] = '1249642977'; // Set the GET variable\ninclude_once("report.php");\n$html = ob_get_contents();\nob_end_clean();\n\nrequire_once("dompdf/dompdf_config.inc.php");\n$dompdf = new DOMPDF();\n$dompdf->load_html($html);\n$dompdf->render();\n$dompdf->stream("sample.pdf", array('Attachment'=>'0'));

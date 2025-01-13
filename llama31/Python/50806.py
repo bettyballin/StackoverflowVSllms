@@ -1,1 +1,0 @@
-import calendar\n\n# Get the Unix timestamp in seconds\ntimestamp_seconds = calendar.timegm(parseddate.utctimetuple())\n\n# Convert the timestamp to milliseconds\ntimestamp_milliseconds = timestamp_seconds * 1000

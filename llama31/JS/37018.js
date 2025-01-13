@@ -1,1 +1,0 @@
-const textarea = document.getElementById('myTextarea');\nconst value = 'Line 1<br>Line 2<br>Line 3';\n\ntextarea.innerHTML = value;

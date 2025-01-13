@@ -1,1 +1,0 @@
-// server.js\nvar express = require('express');\nvar app = express();\n\napp.get('/', function(req, res) {\n  // render template with data\n  res.render('template', { data: ... });\n});

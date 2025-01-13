@@ -1,1 +1,0 @@
-exec('export DYLD_LIBRARY_PATH=/opt/local/lib && /opt/local/bin/convert ...');

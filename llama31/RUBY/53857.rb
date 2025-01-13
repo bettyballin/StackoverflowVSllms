@@ -1,1 +1,0 @@
-def all_recent_posts_on_class\n  Post.find(:all, :order => 'created_at asc', :limit => 5)\nend

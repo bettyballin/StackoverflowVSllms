@@ -1,1 +1,0 @@
-<dependencies>\n  <dependency>\n    <groupId>your-group-id</groupId>\n    <artifactId>your-artifact-id</artifactId>\n    <version>1-0-SNAPSHOT</version>\n    <type>war</type>\n  </dependency>\n</dependencies>

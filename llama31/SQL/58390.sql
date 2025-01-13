@@ -1,1 +1,0 @@
-SELECT DISTINCT YEAR(date_field) AS year\nFROM your_table;

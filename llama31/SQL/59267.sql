@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n  SELECT ROW_NUMBER() OVER (ORDER BY username) AS rownum,\n         username\n  FROM users\n) AS paged_users\nWHERE rownum BETWEEN 1 AND 10;  -- return the first 10 records\n\n-- to get the next 10 records\nWHERE rownum BETWEEN 11 AND 20;

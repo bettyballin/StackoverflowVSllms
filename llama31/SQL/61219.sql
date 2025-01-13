@@ -1,1 +1,0 @@
-cursor.execute("SELECT TO_CHAR(WhenAdded, 'YYYY-MM-DD HH24:MI:SS.FF6 TZH:TZM') FROM Log")

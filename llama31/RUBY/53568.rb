@@ -1,1 +1,0 @@
-# config/initializers/cas.rb\nRails.application.config.middleware.use OmniAuth::Builder do\n  provider :cas,\n    cas_server: 'https://app-a.com/cas',\n    login_url: 'https://app-a.com/login',\n    logout_url: 'https://app-a.com/logout'\nend

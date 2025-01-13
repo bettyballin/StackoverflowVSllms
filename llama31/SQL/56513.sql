@@ -1,1 +1,0 @@
-SELECT \n    A.field1, \n    B.field2, \n    A.field3\nFROM \n    TableA A\nJOIN \n    TableB B ON A.id = B.id\nWHERE \n    A.condition = 'value';

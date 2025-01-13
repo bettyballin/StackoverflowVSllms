@@ -1,1 +1,0 @@
-$doc = new DOMDocument();\n$doc->loadXML($xml_string);

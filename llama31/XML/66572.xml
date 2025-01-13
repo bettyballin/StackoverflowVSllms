@@ -1,1 +1,0 @@
-<web-app>\n  <servlet>\n    <servlet-name>RubyServlet</servlet-name>\n    <servlet-class>org.jruby.rack.RackServlet</servlet-class>\n  </servlet>\n  <servlet-mapping>\n    <servlet-name>RubyServlet</servlet-name>\n    <url-pattern>/ruby/*</url-pattern>\n  </servlet-mapping>\n</web-app>

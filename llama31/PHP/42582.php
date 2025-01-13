@@ -1,1 +1,0 @@
-class siteMSConfig {\n    function __construct() {\n        $backtrace = debug_backtrace();\n        if ($backtrace[1]['class'] == 'siteMS') {\n            // siteMSConfig is being called from siteMS\n        } else {\n            // siteMSConfig is not being called from siteMS\n        }\n    }\n}

@@ -1,1 +1,0 @@
-SELECT VehicleID, Name, dbo.JoinRows(VehicleID, ', ') AS Locations\nFROM Vehicles

@@ -1,1 +1,0 @@
-SELECT * \nFROM sys.index_columns \nWHERE object_id = OBJECT_ID('demo') \n  AND index_id = INDEXPROPERTY(OBJECT_ID('demo'), 'idx_demo_foo', 'IndexID');

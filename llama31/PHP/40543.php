@@ -1,1 +1,0 @@
-class ExtendedTemplate extends Template\n{\n    // code here\n    function foo()\n    {\n        \n    }\n}

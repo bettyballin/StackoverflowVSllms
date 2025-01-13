@@ -1,1 +1,0 @@
-define('APP_INCLUDED', true);\n\ninclude 'included_file.php';

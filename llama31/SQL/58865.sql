@@ -1,1 +1,0 @@
-UPDATE your_table_name\nSET lastModifiedTime = CURRENT_TIMESTAMP\nWHERE your_condition_here;

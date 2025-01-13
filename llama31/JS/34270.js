@@ -1,1 +1,0 @@
-function show() {\n    for (var i = 13; i <= 17; i++) {\n        jQuery("table tr th:nth-child(" + i + "), table tr td:nth-child(" + i + ")").show();\n    }\n}\nfunction hide() {\n    for (var i = 13; i <= 17; i++) {\n        jQuery("table tr th:nth-child(" + i + "), table tr td:nth-child(" + i + ")").hide();\n    }\n}

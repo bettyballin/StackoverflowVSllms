@@ -1,1 +1,0 @@
-setup do\n  post :create, :user => Factory.attributes_for(:user)\n  assert_valid assigns(:user)\nend

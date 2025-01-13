@@ -1,1 +1,0 @@
-<%= Html.ActionLink("Text to display", "ActionName", "ControllerName", New With { .id = "123" }, Nothing)%>

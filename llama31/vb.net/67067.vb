@@ -1,1 +1,0 @@
-Dim loTupleSetDifference = loTupleDatabaseTools.Except(loTupleToolObjects)

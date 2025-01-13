@@ -1,1 +1,0 @@
-<connectionStrings>\n  <add name="YourConnectionStringName"\n       connectionString="Server=YourServerName;Database=YourDatabaseName;User ID=YourUsername;Password=YourPassword;"\n       providerName="System.Data.SqlClient" />\n</connectionStrings>

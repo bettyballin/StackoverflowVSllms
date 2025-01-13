@@ -1,1 +1,0 @@
-const editor = getElem("descriptionEditor");\nconst description = getElem("description");\n\nfunction replaceDescription() {\n  const sanitizedHtml = DOMPurify.sanitize(editor.value);\n  description.innerHTML = sanitizedHtml;\n}

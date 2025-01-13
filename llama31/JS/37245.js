@@ -1,1 +1,0 @@
-const divs = document.querySelectorAll('div');\n\ndivs.forEach(div => {\n  if (div.matches('[property-name]')) {\n    console.log(div.getAttribute('property-name'));\n  }\n});

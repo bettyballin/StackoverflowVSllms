@@ -1,1 +1,0 @@
-// In your view (e.g., loginOrRegister.ctp)\n<?= $this->Form->create() ?>\n    <?= $this->Form->button('Register', ['name' => 'submit', 'value' => 'register']) ?>\n    <?= $this->Form->button('Login', ['name' => 'submit', 'value' => 'login']) ?>\n<?= $this->Form->end() ?>

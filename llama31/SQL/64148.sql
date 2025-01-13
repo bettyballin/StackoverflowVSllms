@@ -1,1 +1,0 @@
-CREATE TABLE LOG_TABLE (\n    LOG_ID NUMBER PRIMARY KEY,\n    TABLE_NAME VARCHAR2(30),\n    ROW_ID NUMBER,\n    OPERATION VARCHAR2(6), -- INSERT, UPDATE, DELETE\n    CHANGE_DATE DATE,\n    OLD_DATA XMLTYPE, -- Optional, for storing old values\n    NEW_DATA XMLTYPE  -- Optional, for storing new values\n);

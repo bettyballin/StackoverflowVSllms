@@ -1,1 +1,0 @@
--- Create the UDTT\nCREATE TYPE StringList AS TABLE (word nvarchar(50));\nGO\n\n-- Create the stored procedure\nCREATE PROCEDURE MyProc\n    @LISTOFWORDS StringList READONLY\nAS\nBEGIN\n    SELECT blahblahblah\n    FROM mytable\n    WHERE blahblahblah IN (SELECT word FROM @LISTOFWORDS);\nEND;\nGO

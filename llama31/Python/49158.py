@@ -1,1 +1,0 @@
-import re\n\ninput_str = "i like cats\n\n\nmy cat is happy\ni love my cat\n\n\n\nhope you have a nice day\n"\nsanitized = re.sub(r'\n{2,}', '\n\n', input_str)\nprint(sanitized)

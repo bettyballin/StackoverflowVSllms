@@ -1,1 +1,0 @@
-SELECT /*+ INDEX(YourTable YourIndex) */ *\nFROM YourTable\nWHERE YourColumn IS NOT NULL;

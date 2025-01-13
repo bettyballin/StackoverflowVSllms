@@ -1,1 +1,0 @@
-$filter = new Zend_Filter_Input($filters, $validators, $data);\nif ($filter->isValid()) {\n    $filteredData = $filter->getEscaped();\n    // or $filter->getUnescaped();\n    var_dump($filteredData);\n}

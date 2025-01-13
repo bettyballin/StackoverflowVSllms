@@ -1,1 +1,0 @@
-function short_unique_id($length = 6) {\n    $hash = crc32(uniqid());\n    $id = substr(hash('crc32', $hash), 0, $length);\n    return $id;\n}

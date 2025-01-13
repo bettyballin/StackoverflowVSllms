@@ -1,1 +1,0 @@
-unset($return, $url, $sourceip, $user, $method, $urlgroup, $myip, $myport);

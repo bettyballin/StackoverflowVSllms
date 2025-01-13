@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $("a").live("click", function() {\n        alert("Hello world!");\n    });\n});

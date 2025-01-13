@@ -1,1 +1,0 @@
-import sympy as sp\n\n# Define symbols\nx, y = sp.symbols('x y')\n\n# Create a symbolic expression\nexpr = x**2 + 2*y\n\n# Print the expression\nprint(expr)\n\n# Compute the derivative of expr with respect to x\nderivative = sp.diff(expr, x)\nprint(derivative)

@@ -1,1 +1,0 @@
-SELECT \n    ar.artranid, \n    ar.trandate, \n    ar.type, \n    ar.checkNumber, \n    ar.refNumber,\n    ar.custid,\n    ar.amount, \n    ar.taxAmount, \n    (SELECT SUM(a2.amount) FROM artran a2 WHERE a2.artranid <= ar.artranid) AS balance,\n    ar.postedflag, \n    ar.modifieddate\nFROM \n    artran ar\nORDER BY \n    ar.artranid;

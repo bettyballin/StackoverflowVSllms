@@ -1,1 +1,0 @@
-$.getJSON('http://your-webservice-url.com/api/endpoint', function(data) {\n    console.log(data);\n});

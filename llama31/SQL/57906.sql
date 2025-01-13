@@ -1,1 +1,0 @@
-CREATE VIEW black_hole AS SELECT * FROM dual WHERE 1=0;\n\nCREATE TRIGGER black_hole_trigger\nINSTEAD OF INSERT ON black_hole\nFOR EACH ROW\nBEGIN\n  NULL; -- discard the insert\nEND;

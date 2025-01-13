@@ -1,1 +1,0 @@
-from psd_tools import PSDFile\n\npsd = PSDFile('path/to/file.psd')\nlayers = psd.layers\n\nfor layer in layers:\n    layer.save('layer-{}.png'.format(layer.name))

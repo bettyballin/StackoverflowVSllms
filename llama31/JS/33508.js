@@ -1,1 +1,0 @@
-// client-side JavaScript\n$.ajax({\n    url: 'votes.php',\n    headers: {\n        'X-Auth-Token': getToken()\n    },\n    // ...\n});

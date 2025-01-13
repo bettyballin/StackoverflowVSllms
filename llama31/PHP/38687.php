@@ -1,1 +1,0 @@
-class UserFactory\n{\n    public function createUser($userType, Zend_Db_Table_Row $row)\n    {\n        if (!in_array($userType, array('admin', 'associate'))) {\n            throw new InvalidArgumentException("Invalid user type");\n        }\n        // ...\n    }\n}

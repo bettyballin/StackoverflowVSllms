@@ -1,1 +1,0 @@
-$("#fArea").load("friends_online.php?fo="+id+"", function() {\n    // manipulate the DOM here\n});

@@ -1,1 +1,0 @@
-Dim i As Integer\n\nFor i = 1 To FlexGrid1.Rows - 1\n    If i Mod 2 = 0 Then ' alternate row color\n        FlexGrid1.Row = i\n        FlexGrid1.Col = 0\n        FlexGrid1.CellBackColor = vbLightGray\n    End If\nNext i

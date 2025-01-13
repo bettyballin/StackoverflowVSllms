@@ -1,1 +1,0 @@
-$_SESSION['user_id'] = $u_result[0]['user_id'];\n$_SESSION['user_data'] = $user->getData(); // assuming getData() returns the relevant data

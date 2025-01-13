@@ -1,1 +1,0 @@
-var url = "https://.../service.svc?criteria=john+smith&" + new Date().getTime();

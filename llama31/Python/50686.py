@@ -1,1 +1,0 @@
-def modOrder(x, y):\n    for i in range(1, y):\n        if (x**i) % y == 1:\n            return i\n    return 0

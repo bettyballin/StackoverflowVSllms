@@ -1,1 +1,0 @@
-$stmt->execute(); // executes the query and stores the result in the statement object\n$stmt->fetch();   // retrieves the result from the statement object and binds it to the variables

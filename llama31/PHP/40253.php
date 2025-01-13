@@ -1,1 +1,0 @@
-// Store the arrays in cache\n$cache->set('array1', $array1);\n$cache->set('array2', $array2);\n$cache->set('array3', $array3);

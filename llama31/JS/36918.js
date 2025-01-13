@@ -1,1 +1,0 @@
-const link = $('a');\nconst articleId = link.data('article-id');

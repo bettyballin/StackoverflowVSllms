@@ -1,1 +1,0 @@
-// Create a new session\nSession("username") = "George"\n\n// Access a session variable\nusername = Session("username")\n\n// Remove a session variable\nSession.Contents.Remove("username")\n\n// Abandon a session\nSession.Abando

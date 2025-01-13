@@ -1,1 +1,0 @@
-$("a[href$='.jpg'], a[href$='.JPG']").each(function() {\n  console.log($(this).attr("href"));\n});

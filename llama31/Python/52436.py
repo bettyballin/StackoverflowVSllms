@@ -1,1 +1,0 @@
-from django.db import models\n\nclass MenuItem(models.Model):\n    name = models.CharField(max_length=255)\n    url = models.CharField(max_length=255)\n    permission = models.CharField(max_length=255)  # e.g. 'myapp.add_myobject'

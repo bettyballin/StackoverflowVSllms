@@ -1,1 +1,0 @@
-question = Question.new\nquestion.tag_list = "halloween, movie, christmas"\nquestion.save

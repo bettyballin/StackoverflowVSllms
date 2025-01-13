@@ -1,1 +1,0 @@
-INSERT INTO Customers (Name, Email) VALUES ('John Doe', 'john.doe@example.com');\nDECLARE @CustomerId INT = SCOPE_IDENTITY();\n\nINSERT INTO Orders (CustomerId, OrderDate) VALUES (@CustomerId, GETDATE());

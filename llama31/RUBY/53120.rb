@@ -1,1 +1,0 @@
-action_link.add(:label => '<i class="icon-move" title="Move"></i>'.html_safe, ...)

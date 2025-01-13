@@ -1,1 +1,0 @@
-$destination = 'path/to/destination/file.txt';\nmove_uploaded_file($_FILES['file']['tmp_name'], $destination);\n\n// Set permissions using icacls\n$command = 'icacls "' . $destination . '" /inheritance:r';\nexec($command, $output, $return_var);

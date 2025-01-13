@@ -1,1 +1,0 @@
-$output = "Country=UNITED STATES (US) &City=Scottsdale, AZ &Latitude=33.686 &Longitude=-111.87";\n\n$parts = explode("&", $output);\n\n$latitude = explode("=", $parts[2])[1];\n$longitude = explode("=", $parts[3])[1];\n\necho "Latitude: $latitude\n";\necho "Longitude: $longitude\n";

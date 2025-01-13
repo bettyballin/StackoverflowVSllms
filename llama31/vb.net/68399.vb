@@ -1,1 +1,0 @@
-Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)\n    pageTitle.Text = title\n    metaDescription.Content = MetaDescription\nEnd Sub

@@ -1,1 +1,0 @@
-SELECT REPLACE(YourColumnName, 'FindThisText', 'ReplaceWithThisText') AS ReplacedText\nFROM YourTableName

@@ -1,1 +1,0 @@
-$doc = new DOMDocument();\n$doc->loadXML($your_xml_string);\n\n$xpath = new DOMXPath($doc);\n$xpath->registerNamespace('gesmes', 'http://example.com/gesmes'); // register namespace if needed\n\n$cubes_with_currency = $xpath->query("//Cube[@currency]");

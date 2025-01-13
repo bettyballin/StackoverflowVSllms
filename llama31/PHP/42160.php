@@ -1,1 +1,0 @@
-// Writing data to a JSON file\n$data = array('title' => 'Example Post', 'content' => 'This is a sample post.');\n$json = json_encode($data);\nfile_put_contents('post.json', $json);\n\n// Reading data from a JSON file\n$json = file_get_contents('post.json');\n$data = json_decode($json, true);\nprint_r($data);

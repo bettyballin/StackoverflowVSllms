@@ -1,1 +1,0 @@
-class Note < ApplicationRecord\n  belongs_to :notable, polymorphic: true\nend\n\nclass Customer < ApplicationRecord\n  has_many :notes, as: :notable\nend\n\nclass Job < ApplicationRecord\n  has_many :notes, as: :notable\nend

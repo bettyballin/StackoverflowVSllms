@@ -1,1 +1,0 @@
-$contents = $this->Content->find('all', array(\n    'conditions' => array(\n        'chapter' => $this->params['named']['chapter'],\n        'section' => $this->params['named']['section']\n    )\n));

@@ -1,1 +1,0 @@
-$xml = simplexml_load_string('<root><element1 page="1">blah</element1><element2 page="1">blah blah</element2><element3 page="2">blah</element3><element4 page="3">blah blah</element4></root>');\n\n$result = array();\nforeach ($xml->xpath('//node()[@page="1"]') as $node) {\n    $result[$node->getName()] = (string)$node;\n}\n\nprint_r($result);

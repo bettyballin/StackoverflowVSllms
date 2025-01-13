@@ -1,1 +1,0 @@
-const tinycolor = require('tinycolor2');\n\nfunction lightenColor(color, amount) {\n  const tc = tinycolor(color);\n  return tc.lighten(amount).toString();\n}\n\nconst backgroundColor = '#ECECEC';\nconst lightenedColor = lightenColor(backgroundColor, 10); // 10% lighter\n\nconsole.log(lightenedColor); // Output: #F4F4F4

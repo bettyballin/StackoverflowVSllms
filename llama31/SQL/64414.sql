@@ -1,1 +1,0 @@
-CREATE TABLE IPv6Addresses (\n    Id INT PRIMARY KEY,\n    AddressHigh BIGINT NOT NULL,\n    AddressLow BIGINT NOT NULL\n);

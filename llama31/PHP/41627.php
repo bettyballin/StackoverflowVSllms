@@ -1,1 +1,0 @@
-<td class="<?= $cell_class ?>"><?= $cell_content ?></td>

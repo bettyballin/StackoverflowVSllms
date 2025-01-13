@@ -1,1 +1,0 @@
-// Remove a specific session variable\nsessionStorage.removeItem('variableName');

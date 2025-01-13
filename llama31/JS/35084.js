@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    var originalScrollTo = window.scrollTo;\n    window.scrollTo = function(x, y) {\n        if (arguments.callee.caller.toString().indexOf("ValidationSummaryOnSubmit") === -1) {\n            originalScrollTo(x, y);\n        }\n    }\n</script>

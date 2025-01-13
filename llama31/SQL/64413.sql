@@ -1,1 +1,0 @@
-SELECT *\nFROM table t\nWHERE EXISTS (\n  SELECT nameid\n  FROM othertable o\n  WHERE t.nameid = o.nameid AND otherdesc = 'SomeDesc'\n)\nAND EXISTS (\n  SELECT nameid\n  FROM othertable o\n  WHERE t.nameid = o.nameid AND otherdesc = 'SomeOtherDesc'\n)

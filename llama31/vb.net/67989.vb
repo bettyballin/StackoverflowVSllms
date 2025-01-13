@@ -1,1 +1,0 @@
-Private Sub ExtractContent()\n    Dim html As String\n    html = "<p>This is a <b>test</b> paragraph.</p>"\n    \n    Dim doc As New MSHTML.HTMLDocument\n    doc.body.innerHTML = html\n    \n    Dim text As String\n    text = doc.body.innerText\n    \n    Debug.Print text\nEnd Sub

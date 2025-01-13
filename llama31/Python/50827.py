@@ -1,1 +1,0 @@
-from sqlalchemy import update\n\n# assuming session is your SQLAlchemy session object\nsession.execute(update(Stuff).values(foo=Stuff.foo + 1))\nsession.commit()

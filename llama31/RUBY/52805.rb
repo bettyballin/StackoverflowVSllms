@@ -1,1 +1,0 @@
-def import\n  # ...\n  if @recipe.save\n    render :json => { :success => true, :message => 'Recipe imported successfully' }\n  else\n    render :json => { :success => false, :message => 'Validation errors occurred' }\n  end\nend

@@ -1,1 +1,0 @@
-AND \n    [Description] LIKE '%YourStoredProcedureName%'

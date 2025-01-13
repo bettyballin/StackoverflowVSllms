@@ -1,1 +1,0 @@
-$input = 'I am a string in the database';\n$match = 'AM';\n\n$words = preg_split('/\b' . preg_quote($match, '/') . '\b/i', $input);\n\nprint_r($words);

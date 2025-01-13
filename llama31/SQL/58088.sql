@@ -1,1 +1,0 @@
-CREATE TABLE ParentChildRelationships (\n    Id INT PRIMARY KEY,\n    TypeAId INT,\n    ParentId_INT INT,\n    ParentId_STRING NVARCHAR(50),\n    ParentType NVARCHAR(100),\n    CONSTRAINT CK_ParentId CHECK ((ParentId_INT IS NULL AND ParentId_STRING IS NOT NULL) OR (ParentId_INT IS NOT NULL AND ParentId_STRING IS NULL))\n);

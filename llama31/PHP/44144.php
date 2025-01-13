@@ -1,1 +1,0 @@
-$string = "hello";\nif (ctype_digit($string)) {\n    $integer = (int)$string;\n} else {\n    // handle error\n}

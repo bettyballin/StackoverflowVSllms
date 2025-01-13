@@ -1,1 +1,0 @@
-$row = $result->fetch_assoc();\n$newsId = $row['news_id'];\n$userId = $row['user_id'];

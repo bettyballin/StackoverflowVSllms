@@ -1,1 +1,0 @@
-SELECT DISTINCT product_field \nFROM (\n  /* your existing query here */\n) AS subquery;

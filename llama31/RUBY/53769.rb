@@ -1,1 +1,0 @@
-@if (ViewData.ModelState.Errors.Count > 0)\n{\n    <div>\n        @foreach (var error in ViewData.ModelState.Values.SelectMany(x => x.Errors))\n        {\n            <p>@error.ErrorMessage</p>\n        }\n    </div>\n}

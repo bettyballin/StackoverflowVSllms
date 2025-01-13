@@ -1,1 +1,0 @@
-INSERT INTO TableName DEFAULT VALUES (?, ?, ?)

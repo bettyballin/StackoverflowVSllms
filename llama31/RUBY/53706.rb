@@ -1,1 +1,0 @@
-# config/initializers/session_store.rb\nRails.application.config.session_store :cookie_store, key: '_graduate_students_session'\nRails.application.config.session_store :cookie_store, key: '_current_students_session'

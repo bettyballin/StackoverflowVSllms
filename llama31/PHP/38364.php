@@ -1,1 +1,0 @@
-function is_json($string) {\n    json_decode($string);\n    return (json_last_error() == JSON_ERROR_NONE);\n}

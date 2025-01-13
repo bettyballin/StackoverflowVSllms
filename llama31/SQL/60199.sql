@@ -1,1 +1,0 @@
-ALTER TABLE your_table\nADD CONSTRAINT chk_colExp CHECK (colExp REGEXP '^[0-9]{8}$')

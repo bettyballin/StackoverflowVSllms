@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("SELECT *, DATE_FORMAT('timestamp', '%W %D %M %Y') as date FROM articleDB WHERE userID=? ORDER BY timestamp DESC LIMIT 8");\n$stmt->bind_param("s", $_SESSION["**"]);\n$stmt->execute();\n$result = $stmt->get_result();

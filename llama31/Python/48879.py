@@ -1,1 +1,0 @@
-import psutil\nimport os\n\ndef get_cpu_usage():\n    process = psutil.Process(os.getpid())\n    return process.cpu_percent(interval=1)\n\nprint(get_cpu_usage())

@@ -1,1 +1,0 @@
-$imagelist['additional']['image'][$getvars['imagename']]['name_body']

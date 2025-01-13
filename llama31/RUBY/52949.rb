@@ -1,1 +1,0 @@
-# Gemfile\ngem 'asset_sync'

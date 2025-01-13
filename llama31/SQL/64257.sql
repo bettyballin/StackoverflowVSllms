@@ -1,1 +1,0 @@
-SELECT e.*\nFROM employee e\nWHERE department = 'sales'\nAND salary = (SELECT MIN(salary) FROM employee WHERE department = 'sales')

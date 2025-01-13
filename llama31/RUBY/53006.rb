@@ -1,1 +1,0 @@
-require 'prawn'\n\nPrawn::Document.generate("example.pdf") do |pdf|\n  pdf.image("image.jpg", :at => [pdf.bounds.right - 100, pdf.bounds.top], :width => 100)\n  pdf.text_box("This is some sample text that will flow around the image.", :at => [0, pdf.bounds.top], :width => pdf.bounds.width - 100)\nend

@@ -1,1 +1,0 @@
-ALTER TABLE YourTable\nADD NewColumn DECIMAL(18, 6);\n\nUPDATE YourTable\nSET NewColumn = Column3 - LAG(Column3) OVER (ORDER BY Date);

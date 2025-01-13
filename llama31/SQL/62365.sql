@@ -1,1 +1,0 @@
-SELECT IIF(TO_CHAR(0 = 1), 'false', 'true') FROM DUAL;

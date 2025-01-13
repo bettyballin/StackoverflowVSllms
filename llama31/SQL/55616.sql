@@ -1,1 +1,0 @@
-SELECT id FROM entries \nWHERE entries.date >= NOW() - INTERVAL 1 WEEK;

@@ -1,1 +1,0 @@
-SELECT \n  EXISTS (SELECT 1 FROM series WHERE t_stamp BETWEEN x AND y AND field1 IS NOT NULL) AS field1_exists,\n  EXISTS (SELECT 1 FROM series WHERE t_stamp BETWEEN x AND y AND field2 IS NOT NULL) AS field2_exists,\n  ...\n  EXISTS (SELECT 1 FROM series WHERE t_stamp BETWEEN x AND y AND field70 IS NOT NULL) AS field70_exists;

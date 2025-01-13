@@ -1,1 +1,0 @@
-var data = {};\n\n$("[id^=play_]").each(function() {\n  var id = $(this).attr("id");\n  var value = $(this).val();\n  data[id] = value;\n});\n\n$.post("../includes/process.php", data, function(data) {\n  $("#activityWindow").empty().append(data);\n});

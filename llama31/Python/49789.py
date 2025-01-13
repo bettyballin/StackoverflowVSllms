@@ -1,1 +1,0 @@
-import ctypes\n\n# Define the functions you want to export\ndef add(a, b):\n    return a + b\n\ndef subtract(a, b):\n    return a - b\n\n# Create a ctypes DLL\ndll = ctypes.CDLL(None)\ndll.add = add\ndll.subtract = subtract\n\n# Save the DLL to a file\nwith open('example.dll', 'wb') as f:\n    f.write(dll._handle)

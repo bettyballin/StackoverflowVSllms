@@ -1,1 +1,0 @@
-Public Shared Sub Login(Username, Password)\n    ValidateCredentials(UserName, Password)\n\n    Dim dc As New MyDataContext()\n    Dim user As User = (from u in dc.Users select u where u.UserName = Username)).FirstOrDefault()\n    user.TotalLogins = user.TotalLogins.GetValueOrDefault() + 1\n    dc.SubmitChanges()\nEnd Sub

@@ -1,1 +1,0 @@
-RUN("MyConsoleApp.exe", output)

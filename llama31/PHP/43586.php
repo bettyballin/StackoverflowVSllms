@@ -1,1 +1,0 @@
-$route = new Zend_Controller_Router_Route(\n    'login', // route name\n    array(\n        'controller' => 'user',\n        'action'     => 'login'\n    )\n);\n\n$router = Zend_Controller_Front::getInstance()->getRouter();\n$router->addRoute('login', $route);

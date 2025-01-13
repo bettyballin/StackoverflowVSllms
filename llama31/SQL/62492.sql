@@ -1,1 +1,0 @@
-SET @myID = 1;\nSELECT * FROM myTable WHERE ID = @myID;

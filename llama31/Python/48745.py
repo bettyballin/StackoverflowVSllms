@@ -1,1 +1,0 @@
-my_list = [None] * 1000  # Create a list of size 1000\nfor i in range(1000):\n    my_list[i] = i  # Populate the list

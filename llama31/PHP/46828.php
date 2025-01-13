@@ -1,1 +1,0 @@
-class UserRepository {\n    private $db;\n\n    public function __construct(DB $db) {\n        $this->db = $db;\n    }\n\n    public function verifyLogin($email, $password) {\n        $query = "SELECT uid FROM Users WHERE email=? AND pw=?";\n        $result = $this->db->q($query, array($email, $password));\n        // ...\n    }\n}

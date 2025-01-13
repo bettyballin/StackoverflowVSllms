@@ -1,1 +1,0 @@
-static $wrap = array(\n    'comment' => 'the_comment',\n    'comments' => 'have_comments',\n    'post' => 'the_post',\n    'posts' => 'have_posts'\n);

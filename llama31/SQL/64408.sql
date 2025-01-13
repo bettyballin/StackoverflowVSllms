@@ -1,1 +1,0 @@
-SELECT * FROM user_schema_name.the_table;

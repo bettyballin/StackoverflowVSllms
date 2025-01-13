@@ -1,1 +1,0 @@
-DECLARE\n  l_timestamp TIMESTAMP;\n  l_elapsed INTERVAL DAY TO SECOND;\nBEGIN\n  l_timestamp := SYSTIMESTAMP;\n  -- ...\n  l_elapsed := SYSTIMESTAMP - l_timestamp;\nEND;

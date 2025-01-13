@@ -1,1 +1,0 @@
-$string = 'café';\necho strlen($string); // outputs 5, not 4

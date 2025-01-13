@@ -1,1 +1,0 @@
-class MyModel < ApplicationRecord\n  validates_date :date\nend

@@ -1,1 +1,0 @@
-<system.serviceModel>\n  <services>\n    <service name="YourImplementationNamespace.YourServiceClass">\n      <endpoint address="" binding="basicHttpBinding" contract="YourContractNamespace.YourContractInterface">\n      </endpoint>\n    </service>\n  </services>\n</system.serviceModel>

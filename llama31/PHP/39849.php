@@ -1,1 +1,0 @@
-echo getcwd() . "\n";  // prints the current working directory\n\n// assuming foo.ini exists in the CWD\nparse_ini_file("foo.ini");\n\n// assuming foo.ini exists in the include_path\nset_include_path("/path/to/config");\nparse_ini_file("foo.ini");

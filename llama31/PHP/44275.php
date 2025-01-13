@@ -1,1 +1,0 @@
-$this->Upload->set($this->data);\nif ($this->Upload->validates()) {\n    // Data is valid, proceed with processing\n} else {\n    // Data is invalid, display errors\n}

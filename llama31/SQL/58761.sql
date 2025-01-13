@@ -1,1 +1,0 @@
-CREATE PROCEDURE sp_test\nAS\nBEGIN\n    SET NOCOUNT ON;\n\n    INSERT INTO NewMember (A, B, C)\n    SELECT A, B, C\n    FROM tbl_Member;\n\n    DECLARE @D INT;\n\n    INSERT INTO MemberId (Mid)\n    SELECT SCOPE_IDENTITY() AS Mid\n    FROM NewMember;\nEND\nGO

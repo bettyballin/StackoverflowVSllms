@@ -1,1 +1,0 @@
-config.action_controller.session_store = :active_record_store\nconfig.action_controller.session_options[:database] = 'your_external_database_name'\nconfig.action_controller.session_options[:username] = 'your_database_username'\nconfig.action_controller.session_options[:password] = 'your_database_password'\nconfig.action_controller.session_options[:host] = 'your_database_host'

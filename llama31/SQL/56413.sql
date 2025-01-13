@@ -1,1 +1,0 @@
-SELECT \n  U.UserID,\n  M.MovieID,\n  R.Rating\nFROM \n  (SELECT DISTINCT UserID FROM ratings ORDER BY UserID) U\n  CROSS JOIN\n  (SELECT DISTINCT MovieID FROM ratings ORDER BY MovieID) M\n  LEFT JOIN\n  ratings R ON U.UserID = R.UserID AND M.MovieID = R.MovieID\nORDER BY \n  U.UserID, M.MovieID;

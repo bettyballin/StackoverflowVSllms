@@ -1,1 +1,0 @@
-function escape_string($str) {\n    return mysql_escape_string(stripslashes($str));\n}

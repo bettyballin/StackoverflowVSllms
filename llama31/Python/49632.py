@@ -1,1 +1,0 @@
-from django.urls import reverse\nfrom django.shortcuts import redirect\n\ndef my_view(request):\n    # Your code here\n    return redirect(reverse('my_app:my_url_name'))

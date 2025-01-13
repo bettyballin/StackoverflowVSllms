@@ -1,1 +1,0 @@
-for ($i = 0; $i < $length_of_unique_key; $i++) {\n    $values = $array[$i];\n    // do something with $values\n}

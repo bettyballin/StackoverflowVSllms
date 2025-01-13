@@ -1,1 +1,0 @@
-const inputField = document.getElementById('myInputField');\nconst selectionStart = inputField.selectionStart;\nconst selectionEnd = inputField.selectionEnd;\nconsole.log(`Selected text: ${inputField.value.substring(selectionStart, selectionEnd)}`);

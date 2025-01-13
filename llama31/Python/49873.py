@@ -1,1 +1,0 @@
-def singularize(word):\n    if word.endswith('ies'):\n        return word[:-3] + 'y'\n    elif word.endswith(('ses', 'xes', 'zes')):\n        return word[:-2]\n    elif word.endswith('s') and len(word) > 3 and word[-3] not in 'aeiou' and word[-2] == 'y':\n        return word[:-1]\n    elif word.endswith('s'):\n        return word[:-1]\n    return word

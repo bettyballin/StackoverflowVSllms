@@ -1,1 +1,0 @@
-use PhpImap\PhpImap;\n\n// Create a new PhpImap instance\n$mailbox = new PhpImap\PhpImap();\n\n// Connect to IMAP server\n$mailbox->connect($host, $username, $password);\n\n// Get the most recent email\n$email = $mailbox->getMessages()[0];\n\n// Print the body\necho $email->getBody();

@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("SELECT name, address FROM master WHERE name LIKE ?");\n$stmt->bind_param("s", $input);\n$stmt->execute();

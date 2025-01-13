@@ -1,1 +1,0 @@
-// Create a CKEditor instance\nvar editor = CKEDITOR.replace('editor');\n\n// Configure the editor\neditor.config.toolbar = [\n  { name: 'basicstyles', items: ['Bold', 'Italic', 'Underline'] },\n  { name: 'paragraph', items: ['NumberedList', 'BulletedList'] }\n];\n\n// Get the edited content\nvar content = editor.getData();

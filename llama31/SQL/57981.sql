@@ -1,1 +1,0 @@
-CREATE TABLE website_strings (\n  id INT PRIMARY KEY,\n  string_value MEDIUMTEXT,\n  language VARCHAR(10)\n);

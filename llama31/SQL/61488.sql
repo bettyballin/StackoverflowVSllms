@@ -1,1 +1,0 @@
-sp_configure 'remote query timeout', <timeout_value>;\nGO\nRECONFIGURE;\nGO

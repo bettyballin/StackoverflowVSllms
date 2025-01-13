@@ -1,1 +1,0 @@
-DECLARE @CurrentVersion INT;\nSELECT @CurrentVersion = Version FROM SchemaVersions WHERE Id = 1;\n\nIF @CurrentVersion <> @ExpectedVersion\nBEGIN\n    RAISERROR ('Schema version mismatch. Expected version %d, but current version is %d.', 16, 1, @ExpectedVersion, @CurrentVersion);\nEND;

@@ -1,1 +1,0 @@
-function getQuarterDay() {\n    $currentDate = new DateTime();\n    $quarter = ceil($currentDate->format('n') / 3);\n    $firstDayOfQuarter = new DateTime($currentDate->format('Y') . '-' . (($quarter - 1) * 3 + 1) . '-1');\n    $interval = $currentDate->diff($firstDayOfQuarter);\n    return $interval->days + 1;\n}\n\necho getQuarterDay();

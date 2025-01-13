@@ -1,1 +1,0 @@
-for ($i = 1; $i <= 10; $i++) { // adjust the loop limit to your needs\n    $pageNumber = $i;\n    $nextDate = date('Y-m-d', strtotime($currentDate . ' + ' . $pageNumber . ' days'));\n    echo '<a href="index.php?page=' . $pageNumber . '">' . $nextDate . '</a> ';\n}

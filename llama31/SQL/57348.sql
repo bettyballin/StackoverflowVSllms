@@ -1,1 +1,0 @@
-SELECT TOP @Count ItemID FROM item_k ORDER BY NEWID()

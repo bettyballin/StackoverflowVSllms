@@ -1,1 +1,0 @@
-while ($long_running_task) {\n    // Do some work...\n    if (!is_browser_connected()) {\n        break;\n    }\n    // Do some more work...\n}

@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <httpProtocol>\n      <customHeaders>\n        <add name="Host" value="help.domain1.com" />\n      </customHeaders>\n    </httpProtocol>\n  </system.webServer>\n</configuration>

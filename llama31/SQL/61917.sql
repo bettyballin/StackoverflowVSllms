@@ -1,1 +1,0 @@
-CREATE TABLE audit_trail (\n    id INT PRIMARY KEY,\n    record_id INT,\n    operation VARCHAR(10),  -- 'INSERT', 'UPDATE', 'DELETE'\n    changed_fields VARCHAR(255),  -- Comma-separated list of changed fields\n    change_date DATETIME,\n    old_value VARCHAR(255),\n    new_value VARCHAR(255)\n);

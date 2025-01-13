@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>\n<customer>\n  <name>John Doe</name>\n  <address>\n    <street>123 Main St</street>\n    <city>Anytown</city>\n    <state>CA</state>\n    <zip>12345</zip>\n  </address>\n  <orders>\n    <order>\n      <id>1</id>\n      <date>2022-01-01</date>\n      <total>100.00</total>\n    </order>\n  </orders>\n</customer>

@@ -1,1 +1,0 @@
-$encoding = mb_detect_encoding(file_get_contents('path/to/your/file.txt'), 'UTF-8, ISO-8859-1, ASCII', true);\necho $encoding;

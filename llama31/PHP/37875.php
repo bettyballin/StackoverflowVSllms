@@ -1,1 +1,0 @@
-if (is_array($options)) {\n    $messageproper .= "Options:".implode("\n",$options)."\n";\n} else {\n    $messageproper .= "Options: None\n";\n}

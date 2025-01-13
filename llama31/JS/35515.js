@@ -1,1 +1,0 @@
-<script>\n  // Get the sliders\n  var slider1 = #{rich:component('slider1')};\n  var slider2 = #{rich:component('slider2')};\n\n  // Sync the values\n  slider1.onchange = function() {\n    slider2.setValue(slider1.getValue());\n  };\n  slider2.onchange = function() {\n    slider1.setValue(slider2.getValue());\n  };\n</script>

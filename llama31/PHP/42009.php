@@ -1,1 +1,0 @@
-$array = array('a', 'b', 'c', 'd');\n\n$lastKey = array_keys($array);\n$lastKey = end($lastKey);\n\nforeach ($array as $key => $value) {\n    $isLastElem = $key == $lastKey;\n    // do something\n}

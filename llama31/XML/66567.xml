@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <authentication mode="None" />\n    <!-- or -->\n    <authentication mode="Windows">\n      <anonymousIdentification enabled="true" />\n    </authentication>\n  </system.web>\n</configuration>

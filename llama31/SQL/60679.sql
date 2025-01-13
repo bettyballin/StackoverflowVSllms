@@ -1,1 +1,0 @@
--- Recommended approach\nSELECT COUNT(*) FROM [table_name];\n\n-- Expression-based count (not recommended)\nSELECT COUNT(1) FROM [table_name];

@@ -1,1 +1,0 @@
-UPDATE your_table\nSET widget_ids = CASE\n    WHEN INSTR(widget_ids, 'somenumber/') > 0 THEN widget_ids\n    ELSE widget_ids || 'somenumber/'\nEND\nWHERE id = X;

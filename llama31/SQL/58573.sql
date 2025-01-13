@@ -1,1 +1,0 @@
-IF DATALENGTH(@value) = 0

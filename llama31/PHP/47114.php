@@ -1,1 +1,0 @@
-$user = (new UserBuilder())\n    ->setCode('code')\n    ->setName('name')\n    ->setTime('time')\n    ->setArea('area')\n    ->setDomain('domain')\n    ->setText('text')\n    ->setId('id')\n    ->setNum('num')\n    ->setVideo(0)\n    ->setAudio(0)\n    ->setImage(0)\n    ->build();

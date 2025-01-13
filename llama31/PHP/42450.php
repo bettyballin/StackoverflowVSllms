@@ -1,1 +1,0 @@
-// Validate user input on server-side\n$company_id = filter_var($_GET['company_id'], FILTER_VALIDATE_INT);

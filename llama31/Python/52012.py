@@ -1,1 +1,0 @@
-import pkg_resources\n\ndef get_module_version(module_name):\n    try:\n        version = pkg_resources.get_distribution(module_name).version\n    except pkg_resources.DistributionNotFound:\n        version = None\n    return version\n\nprint(get_module_version('libxslt'))\nprint(get_module_version('libxml2'))

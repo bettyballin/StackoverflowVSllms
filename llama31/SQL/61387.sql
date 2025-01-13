@@ -1,1 +1,0 @@
--- Example using PostgreSQL\nCREATE POLICY tenant_isolation_policy ON customers\n  FOR SELECT, INSERT, UPDATE, DELETE\n  USING (tenant_id = current_tenant_id());

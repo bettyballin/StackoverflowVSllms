@@ -1,1 +1,0 @@
-$images = $_FILES['images'];\n\nforeach ($images['name'] as $key => $value) {\n    $file_name = $images['name'][$key];\n    $file_tmp = $images['tmp_name'][$key];\n    $file_size = $images['size'][$key];\n    $file_type = $images['type'][$key];\n\n    // Process the file here (e.g. upload to server, resize, etc.)\n}

@@ -1,1 +1,0 @@
-Dim originalDate As String\noriginalDate = "2/31/2006"\n\nDim convertedDate As String\nOn Error Resume Next\nconvertedDate = Format(CDate(originalDate), "dd-mmm-yyyy")\nIf Err.Number <> 0 Then\n    Debug.Print "Invalid date"\nElse\n    Debug.Print convertedDate\nEnd If\nOn Error GoTo 0

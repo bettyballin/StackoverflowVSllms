@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    var controlsToValidate = '<%= ConfigurationManager.AppSettings["ControlsToValidateRequiredFields"] %>'.split(',');\n\n    $.each(controlsToValidate, function(index, controlName) {\n        $('#' + controlName).rules('add', 'required');\n    });\n});

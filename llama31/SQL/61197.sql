@@ -1,1 +1,0 @@
-proc sql;\n  connect to teradata (server='your_teradata_server' user='your_username' password='your_password');\n  execute(CHECKPOINT WORK) by teradata;\n  waitfor _tdchkpt_;\n  disconnect from teradata;\nquit;

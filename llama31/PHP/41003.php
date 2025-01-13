@@ -1,1 +1,0 @@
-$color_guid = com_create_guid('000000FF'); // FF is the hex value for 255\n$color = new Variant($color_guid, VT_COLOR);\n$this->oBuilder->Font->Color = $color;

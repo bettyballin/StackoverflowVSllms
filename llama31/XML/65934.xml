@@ -1,1 +1,0 @@
-<tiles-definitions>\n  <definition name="master" template="/WEB-INF/jsp/master.jsp">\n    <put-attribute name="header" value="/WEB-INF/jsp/header.jsp" />\n    <put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />\n  </definition>\n</tiles-definitions>

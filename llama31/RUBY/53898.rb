@@ -1,1 +1,0 @@
-str1 = 'Hello, world!'\nstr2 = "Hello, #{name}!"\nstr3 = %q(Hello, world!)\nstr4 = %Q(Hello, #{name}!)

@@ -1,1 +1,0 @@
-double_encoded_str = u'Rafa\xc5\x82'\ncorrect_str = double_encoded_str.encode('latin1').decode('utf-8')\nprint(correct_str)  # prints u'Rafa\u0142'

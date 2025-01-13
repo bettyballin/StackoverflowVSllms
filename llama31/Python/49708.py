@@ -1,1 +1,0 @@
-from faker import Faker\n\nfake = Faker()\nprint(fake.name())  # John Doe\nprint(fake.address())  # 123 Main St, Anytown, USA

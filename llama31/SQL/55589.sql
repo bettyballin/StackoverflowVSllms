@@ -1,1 +1,0 @@
-SELECT 'my message' AS result

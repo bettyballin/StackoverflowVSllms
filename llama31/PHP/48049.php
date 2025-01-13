@@ -1,1 +1,0 @@
-$WSDL = 'http://www.nanonull.com/TimeService/TimeService.asmx?WSDL';\n$client = new SoapClient($WSDL);\n$response = $client->__soapCall('getUTCTime', array()); // WORKS\n$response = $client->__soapCall('getTimeZoneTime', array('ZULU'));  // SHOULD WORK NOW

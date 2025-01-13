@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_Insert ON your_table\nAFTER INSERT\nAS\nBEGIN\n    -- Trigger logic here\n    PRINT 'Trigger executed for row ' + CONVERT(VARCHAR(10), @@ROWCOUNT)\nEND

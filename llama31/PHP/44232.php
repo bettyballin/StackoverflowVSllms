@@ -1,1 +1,0 @@
-<?php\necho "<script>window.onload = function() { loadxml(); };</script>";\n?>

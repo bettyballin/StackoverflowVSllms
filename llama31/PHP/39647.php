@@ -1,1 +1,0 @@
-if (isset($_SERVER['HTTP_CACHE_CONTROL']) && $_SERVER['HTTP_CACHE_CONTROL'] == 'max-age=0') {\n    // Browser is refreshed\n    // Your PHP code here\n}

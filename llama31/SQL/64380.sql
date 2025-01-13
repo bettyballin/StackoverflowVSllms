@@ -1,1 +1,0 @@
-DECLARE @Param1 INT\n\nWHILE EXISTS (SELECT 1 FROM Table1)\nBEGIN\n    SELECT TOP 1 @Param1 = id FROM Table1\n\n    EXEC dbo.MySproc @Param1\n\n    DELETE FROM Table1 WHERE id = @Param1\nEND

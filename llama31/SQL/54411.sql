@@ -1,1 +1,0 @@
-CREATE PROCEDURE Test (@top integer)\nAS\nBEGIN\n    DECLARE @sql nvarchar(100)\n    SET @sql = 'SELECT TOP ' + CONVERT(nvarchar(10), @top) + ' * FROM SomeTable'\n    EXEC sp_executesql @sql\nEND\nGO

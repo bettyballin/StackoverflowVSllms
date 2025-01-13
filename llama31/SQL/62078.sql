@@ -1,1 +1,0 @@
--- Example query to check Oracle version\nSELECT * FROM v$version;

@@ -1,1 +1,0 @@
-SELECT create_new_year_tables();

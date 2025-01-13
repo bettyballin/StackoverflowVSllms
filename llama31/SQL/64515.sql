@@ -1,1 +1,0 @@
-SELECT HEX(hash) FROM hashes WHERE id = 1;

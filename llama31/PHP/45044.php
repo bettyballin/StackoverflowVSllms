@@ -1,1 +1,0 @@
-ob_end_clean(); // Remove any previous output\nheader('Content-Type: text/csv');\nheader('Content-Disposition: attachment; filename="export.csv"');\n// ... output the CSV data ...\n\nob_start(); // Capture any further output

@@ -1,1 +1,0 @@
-$a = mysql_query("SELECT * FROM `users` WHERE `id` = '1' ");\n\n$result = mysql_fetch_assoc($a);\n\nprint_r($result);

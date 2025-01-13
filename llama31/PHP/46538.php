@@ -1,1 +1,0 @@
-$xml = $doc->saveXML($node);

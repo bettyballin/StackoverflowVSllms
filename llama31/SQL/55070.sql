@@ -1,1 +1,0 @@
-DECLARE @sql nvarchar(max) = 'SELECT Col1,...,Coln FROM MyTable WHERE 1=1'\n\nIF @IDCriteria IS NOT NULL\n    SET @sql += ' AND ID = @IDCriteria'\n\nIF @MaxDateCriteria IS NOT NULL\n    SET @sql += ' AND Date < @MaxDateCriteria'\n\nEXEC sp_executesql @sql, N'@IDCriteria bigint, @MaxDateCriteria datetime', @IDCriteria, @MaxDateCriteria

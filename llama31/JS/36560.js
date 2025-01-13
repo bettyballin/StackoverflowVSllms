@@ -1,1 +1,0 @@
-// In the iframe\nwindow.addEventListener('message', function(event) {\n    if (event.origin === 'https://parent.example.com') {\n        // Handle the message\n        console.log(event.data);\n    }\n});

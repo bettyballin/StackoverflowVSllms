@@ -1,1 +1,0 @@
-SELECT id, name\nFROM table1\nWHERE id IN (SELECT DISTINCT id FROM table1);

@@ -1,1 +1,0 @@
-WITH RankedRows AS (\n    SELECT *, ROW_NUMBER() OVER (ORDER BY YourColumn DESC) AS RowNum\n    FROM YourTable\n)\nDELETE FROM RankedRows\nWHERE RowNum > n;

@@ -1,1 +1,0 @@
-const idRegistry = {};\nconst prefix = 'myapp-';\n\nfunction generateUniqueId() {\n  const id = prefix + uuid.v4();\n  if (idRegistry[id]) {\n    // ID already exists, generate a new one\n    return generateUniqueId();\n  }\n  idRegistry[id] = true;\n  return id;\n}\n\n// Example usage:\nconst newItem = document.createElement('div');\nnewItem.id = generateUniqueId();

@@ -1,1 +1,0 @@
-SELECT \n  customer_name,\n  order_date,\n  price,\n  ROW_NUMBER() OVER (PARTITION BY customer_name ORDER BY order_date) AS pivot_id\nFROM \n  Sales\nWHERE \n  (SELECT COUNT(*) FROM Sales WHERE customer_name = x.customer_name AND order_date >= x.order_date) <= 5\nORDER BY \n  customer_name, order_date, price;

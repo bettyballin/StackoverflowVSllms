@@ -1,1 +1,0 @@
-WITH RECURSIVE category_tree AS (\n  SELECT id, name, parent_id, 0 AS level\n  FROM categories\n  WHERE name = 'Toys'\n  UNION ALL\n  SELECT c.id, c.name, c.parent_id, level + 1\n  FROM categories c\n  JOIN category_tree p ON c.parent_id = p.id\n)\nSELECT p.*\nFROM products p\nJOIN category_tree c ON p.category_id = c.id\nORDER BY p.hits DESC\nLIMIT 10;

@@ -1,1 +1,0 @@
-$.ajax({\n    // ...\n    data: JSON.stringify({ number: "01502", numberTypeId: 2, companyId: 531 }),\n    // ...\n});

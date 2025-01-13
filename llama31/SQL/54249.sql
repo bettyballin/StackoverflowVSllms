@@ -1,1 +1,0 @@
-CREATE TABLE test (float_val FLOAT, number_val NUMBER);\n\nINSERT INTO test VALUES (0.1, 0.1);\n\nSELECT float_val, number_val FROM test;

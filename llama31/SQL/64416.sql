@@ -1,1 +1,0 @@
-CREATE INDEX ix_profiles_filter ON Profiles (FirstName, LastName, Address1)

@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetCustomerDetails\n    @CustomerID INT\nAS\nBEGIN\n    SELECT * FROM Customers\n    WHERE CustomerID = @CustomerID\nEND

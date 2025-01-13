@@ -1,1 +1,0 @@
-// Using a library (built-in class)\n$security = $this->security;\n$encodedHtml = $security->encodeForHTML($input);\n\n// Using a plugin (optional class)\n$form = new Form();\n$form->addInput('username', 'text');

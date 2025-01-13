@@ -1,1 +1,0 @@
-$data = array('message' => 'Hello, client!');\necho json_encode($data);

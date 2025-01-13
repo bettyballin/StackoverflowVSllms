@@ -1,1 +1,0 @@
-use Whoops\Handler\PrettyPageHandler;\nuse Whoops\Run;\n\n$whoops = new Run();\n$whoops->pushHandler(new PrettyPageHandler());\n$whoops->register();

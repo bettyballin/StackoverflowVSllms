@@ -1,1 +1,0 @@
-// Using a relative path\ninclude ('index.php');\n\n// Using a different method (e.g., class autoloader)\nrequire_once __DIR__ . '/vendor/autoload.php';

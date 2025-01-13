@@ -1,1 +1,0 @@
-arr = [1, 2, 3, 4, 5]\nfor i in range(len(arr)):\n    for j in range(len(arr)):\n        print(arr[i], arr[j])

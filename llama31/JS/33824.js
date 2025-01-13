@@ -1,1 +1,0 @@
-// Example in JavaScript\nimport { cy } from 'cypress';\n\ndescribe('Example', () => {\n  it('submits a form', () => {\n    cy.visit('https://www.example.com');\n    cy.get('[name="username"]').type('username');\n    cy.get('[type="submit"]').click();\n  });\n});

@@ -1,1 +1,0 @@
-$largeObject = new stdClass();\n$largeObject->data = str_repeat('test', 1000000); // allocate a large amount of memory\n\n// Using unset()\nunset($largeObject); // $largeObject is no longer accessible\n\n// Using $var = null\n$largeObject = null; // $largeObject is still accessible, but its value is null

@@ -1,1 +1,0 @@
-Dim MyAppBase As New OPSupport.App.AppBase()

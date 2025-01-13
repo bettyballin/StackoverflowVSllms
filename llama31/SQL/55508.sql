@@ -1,1 +1,0 @@
-CREATE TABLE TimeZones (\n    Id INT PRIMARY KEY,\n    TimeZoneId NVARCHAR(50),\n    Offset INT,\n    DisplayName NVARCHAR(100)\n);

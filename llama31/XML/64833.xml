@@ -1,1 +1,0 @@
-<system.web>\n    <httpModules>\n        <add name="StaticFileModule" type="YourNamespace.StaticFileModule, YourAssembly" />\n    </httpModules>\n</system.web>

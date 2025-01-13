@@ -1,1 +1,0 @@
-function generateRegistrationKey($userID, $productID) {\n  $secretKey = 'your_secret_key_here'; // Keep this secret!\n  $hash = hash('sha256', $userID . $productID . $secretKey);\n  $registrationKey = substr($hash, 0, 16); // Trim to 16 characters for readability\n  return $registrationKey;\n}

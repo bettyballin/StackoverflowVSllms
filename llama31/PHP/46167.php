@@ -1,1 +1,0 @@
-if(is_iphone())\n{\n// do something for the iPhone\n}\nelse\n{\n// do something else for other devices\n}

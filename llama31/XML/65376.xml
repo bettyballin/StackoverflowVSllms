@@ -1,1 +1,0 @@
-<!-- app.config.test -->\n<connectionStrings>\n    <add name="MyConnectionString" connectionString="TestDatabaseConnectionString" />\n</connectionStrings>

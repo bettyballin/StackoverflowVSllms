@@ -1,1 +1,0 @@
-DECLARE @DateOfBirth DATE = '1990-01-01'\nDECLARE @Today DATE = GETDATE()\n\nSELECT \n    YEAR(@Today) - YEAR(@DateOfBirth) - \n    CASE \n        WHEN MONTH(@Today) < MONTH(@DateOfBirth) THEN 1\n        WHEN MONTH(@Today) = MONTH(@DateOfBirth) AND DAY(@Today) < DAY(@DateOfBirth) THEN 1\n        ELSE 0\n    END AS Age

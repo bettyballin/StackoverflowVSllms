@@ -1,1 +1,0 @@
-$.ajax({\n  url: 'https://example.com/large-picture.jpg',\n  xhr: function() {\n    var xhr = new XMLHttpRequest();\n    xhr.addEventListener('progress', function(evt) {\n      if (evt.lengthComputable) {\n        var percentLoaded = (evt.loaded / evt.total) * 100;\n        console.log('Loaded: ' + percentLoaded + '%');\n      }\n    }, false);\n    return xhr;\n  }\n});

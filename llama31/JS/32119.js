@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('#form1').validate();\n});

@@ -1,1 +1,0 @@
-CREATE INDEX entity_id_idx ON entity_data (entity_id);

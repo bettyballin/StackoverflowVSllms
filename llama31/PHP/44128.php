@@ -1,1 +1,0 @@
-<?php\nabstract class YourApp_Controller_TestCase extends Zend_Test_PHPUnit_ControllerTestCase\n{\n    public function setUp()\n    {\n        $this->bootstrap = array($this, 'appBootstrap');\n        parent::setUp();\n    }\n\n    public function appBootstrap()\n    {\n        require_once 'bootstrap.php';\n    }\n}

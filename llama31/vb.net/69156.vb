@@ -1,1 +1,0 @@
-Public Overrides ReadOnly Property GetPower As Integer\n    Get\n        Return desiredPower\n    End Get\nEnd Property

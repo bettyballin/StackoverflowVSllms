@@ -1,1 +1,0 @@
-CHANGE MASTER TO MASTER_HOST='<primary_server_ip>', MASTER_PORT=3306, MASTER_USER='repl_user', MASTER_PASSWORD='password';\nSTART SLAVE;

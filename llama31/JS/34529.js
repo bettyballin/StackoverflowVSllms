@@ -1,1 +1,0 @@
-Element.insert($("update"), "2. Content_2");

@@ -1,1 +1,0 @@
-function showDetails(id) {\n    $.ajax({\n        type: "POST",\n        url: "get_details.php",\n        data: { id: id },\n        success: function(data) {\n            // Display the detailed data\n            $("#details").html(data);\n        }\n    });\n}

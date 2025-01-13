@@ -1,1 +1,0 @@
-class Foobar < ApplicationRecord\n  validates :attribute, presence: true, message: 'is required'\nend

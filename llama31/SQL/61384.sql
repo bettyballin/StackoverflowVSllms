@@ -1,1 +1,0 @@
-ALTER TABLE Customers \nADD Country nvarchar(50) DEFAULT 'USA';

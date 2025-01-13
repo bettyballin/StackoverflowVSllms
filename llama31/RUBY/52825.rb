@@ -1,1 +1,0 @@
-require 'aws-sdk-kms'\n\nkms = Aws::KMS::Client.new(region: 'your_region')\nresponse = kms.get_secret_value(secret_id: 'your_secret_id')\n\nsecret_key = response.secret_string

@@ -1,1 +1,0 @@
--- Rebuild an index\nALTER INDEX IX_Transaction_ID ON Transactions REBUILD;\n\n-- Reorganize an index\nALTER INDEX IX_Transaction_ID ON Transactions REORGANIZE;

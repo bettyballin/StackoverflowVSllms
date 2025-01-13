@@ -1,1 +1,0 @@
-puts "The temperature is #{temperature.inspect}."

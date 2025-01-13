@@ -1,1 +1,0 @@
-class QueryBuilder {\n    private $db;\n\n    public function __construct(DB $db) {\n        $this->db = $db;\n    }\n\n    public function select($table, $columns) {\n        $query = "SELECT " . implode(", ", $columns) . " FROM " . $table;\n        // ...\n    }\n\n    public function where($condition) {\n        $query .= " WHERE " . $condition;\n        // ...\n    }\n}

@@ -1,1 +1,0 @@
-SELECT \n  Item, \n  SUM(PriceVal), \n  SUM(CostVal),\n  SUM(CASE WHEN CHARGE_CODE = 'CH' THEN 1 ELSE -1 END)\nFROM \n  Table\nGROUP BY \n  Item

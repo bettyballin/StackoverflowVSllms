@@ -1,1 +1,0 @@
-var myVariable = getCookie("myVariable");\nfunction getCookie(name) {\n    var value = "; " + document.cookie;\n    var parts = value.split("; " + name + "=");\n    if (parts.length == 2) return parts.pop().split(";").shift();\n}

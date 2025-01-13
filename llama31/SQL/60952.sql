@@ -1,1 +1,0 @@
-CREATE TABLE example_table (\n  id INT PRIMARY KEY,\n  value INT CHECK (value BETWEEN 0 AND 100)\n);

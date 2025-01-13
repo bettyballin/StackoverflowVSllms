@@ -1,1 +1,0 @@
-// Zend Framework endpoint (e.g. UserController.php)\npublic function indexAction()\n{\n    // Return a JSON response\n    $users = array('John', 'Jane', 'Bob');\n    $this->_helper->json($users);\n}

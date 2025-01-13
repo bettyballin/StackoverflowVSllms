@@ -1,1 +1,0 @@
-SELECT c.id, c.name, i.id, i.itemname\nFROM categories c\nJOIN (\n  SELECT categoryid, id as random_item_id\n  FROM (\n    SELECT categoryid, id\n    FROM items\n    ORDER BY RAND()\n  ) r\n  GROUP BY categoryid\n) f ON c.id = f.categoryid\nJOIN items i ON f.random_item_id = i.id

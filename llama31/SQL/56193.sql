@@ -1,1 +1,0 @@
-INSERT INTO your_table (CategoryId, SortOrder, ...)\nSELECT \n  CategoryId,\n  ROW_NUMBER() OVER (PARTITION BY CategoryId ORDER BY CategoryId) AS SortOrder,\n  ...\nFROM \n  your_import_data;

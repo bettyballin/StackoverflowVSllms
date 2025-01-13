@@ -1,1 +1,0 @@
-CREATE TYPE my_type_map IS TABLE OF STRUCT (\n  key VARCHAR2(10),\n  value VARCHAR2(10)\n);\n\nCREATE TYPE my_other_type AS OBJECT (\n  id NUMBER(15),\n  MEMBER PROCEDURE initialize(p_my_type_map my_type_map)\n) NOT INSTANTIABLE NOT FINAL;

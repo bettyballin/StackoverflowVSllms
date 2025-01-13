@@ -1,1 +1,0 @@
-use Geos\Geometry\Polygon;\nuse Geos\Geometry\Point;\n\n$polygon = // retrieve the dealer's polygon from your database\n$point = new Point($lat, $lng);\nif ($polygon->contains($point)) {\n  // the point falls within the dealer's area\n}

@@ -1,1 +1,0 @@
-$(function () {\n  $.ajax({\n    url: '/your-python-script',\n    dataType: 'json',\n    success: function(data) {\n      $('#tree').jstree({\n        'core': {\n          'data': data\n        }\n      });\n    }\n  });\n});

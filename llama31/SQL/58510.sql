@@ -1,1 +1,0 @@
-UPDATE \n  quantity\nSET \n  quantity = CASE\n    WHEN product_name = 'DELL' AND price = 100 THEN 0\n    WHEN product_name = 'DELL' AND price = 120 THEN 5\n    ELSE quantity\n  END\nWHERE \n  product_name = 'DELL'\n  AND price IN (100, 120);

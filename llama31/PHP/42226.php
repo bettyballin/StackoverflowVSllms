@@ -1,1 +1,0 @@
-$question->addValidator(new YesValidator());

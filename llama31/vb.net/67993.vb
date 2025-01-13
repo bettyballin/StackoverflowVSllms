@@ -1,1 +1,0 @@
-If someControl Is SpecificControl Then\n    ' do stuff to the control\nEnd If

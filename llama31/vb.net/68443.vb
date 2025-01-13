@@ -1,1 +1,0 @@
-Dim connectionString As String = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Path\To\Database.accdb"

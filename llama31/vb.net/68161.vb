@@ -1,1 +1,0 @@
-Dim dt As New DataTable\ndt.Columns.Add("myTableId", GetType(Integer))\n\n' Set the primary key column\ndt.PrimaryKey = New DataColumn() {dt.Columns("myTableId")}

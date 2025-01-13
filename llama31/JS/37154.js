@@ -1,1 +1,0 @@
-frames['writer'].document.addEventListener('selectionchange', eventHandler, false);

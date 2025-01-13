@@ -1,1 +1,0 @@
-CREATE TABLE news (\n    id SERIAL PRIMARY KEY,\n    title TEXT NOT NULL,\n    hash BIGINT NOT NULL,\n    UNIQUE (hash)\n);\n\nCREATE INDEX idx_hash ON news (hash);

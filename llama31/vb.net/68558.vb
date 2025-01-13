@@ -1,1 +1,0 @@
-Imports ModernUI.Forms\n\nPublic Class MainForm\n    Inherits ModernForm\n\n    Private Sub MainForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load\n        ' Initialize ModernUI\n        Me.StyleManager = New ModernStyleManager(Me)\n    End Sub\nEnd Class

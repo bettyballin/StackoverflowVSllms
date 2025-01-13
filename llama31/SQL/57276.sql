@@ -1,1 +1,0 @@
-SELECT ID, TIME, DATA\nFROM your_table\nWHERE (ID, TIME) IN (\n  SELECT ID, MIN(TIME)\n  FROM your_table\n  GROUP BY ID\n);

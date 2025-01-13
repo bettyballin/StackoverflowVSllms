@@ -1,1 +1,0 @@
-CREATE TABLE order_items (\n  order_id INT,\n  product_id INT,\n  PRIMARY KEY (order_id, product_id),\n  FOREIGN KEY (order_id) REFERENCES orders(id),\n  FOREIGN KEY (product_id) REFERENCES products(id)\n);

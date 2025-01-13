@@ -1,1 +1,0 @@
-document.getElementById('yourInputId').addEventListener('keydown', function(event) {\n  if (event.keyCode === 8) { // backspace key code\n    return false;\n  }\n});

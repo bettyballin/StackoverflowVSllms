@@ -1,1 +1,0 @@
-<?php\n$count = 0;\n$files = scandir('.');\nforeach ($files as $file) {\n    if (strpos($file, '.php') !== false) {\n        $lines = file($file);\n        $count += count($lines);\n    }\n}\necho "Number of lines of code: $count";

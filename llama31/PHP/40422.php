@@ -1,1 +1,0 @@
-$client = new SoapClient('path/to/wsdl/file.wsdl', array(\n    'uri' => 'http://new-endpoint-url.com/service'\n));

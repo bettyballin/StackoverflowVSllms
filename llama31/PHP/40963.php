@@ -1,1 +1,0 @@
-$dates []= floatval(1000 * strtotime($strippedTexts));

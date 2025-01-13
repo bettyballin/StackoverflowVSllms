@@ -1,1 +1,0 @@
-$resultVars = array();\n$stmt->store_result();\n$meta = $stmt->result_metadata();\nwhile ($field = $meta->fetch_field()) {\n    $resultVars[] = &$row[$field->name];\n}\ncall_user_func_array(array($stmt, 'bind_result'), $resultVars);

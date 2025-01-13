@@ -1,1 +1,0 @@
-function is_shutdown_function_registered($function_name) {\n    $defined_functions = get_defined_functions();\n    return in_array($function_name, $defined_functions['user']) && is_callable($function_name);\n}\n\n// Example usage:\nif (is_shutdown_function_registered('shutdown_function1')) {\n    echo "Shutdown function 1 is already registered\n";\n}

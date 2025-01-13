@@ -1,1 +1,0 @@
-SELECT DUMP(float_val), DUMP(number_val) FROM test;

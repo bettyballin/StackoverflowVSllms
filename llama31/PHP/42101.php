@@ -1,1 +1,0 @@
-$max_length = exec('getconf NAME_MAX .');\necho $max_length;

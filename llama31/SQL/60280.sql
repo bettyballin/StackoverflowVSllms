@@ -1,1 +1,0 @@
-LogParser.exe -i:IISW3C \n"SELECT LEN(cs(User-Agent)) AS Length, COUNT(*) AS Count \nFROM *.log \nGROUP BY LEN(cs(User-Agent)) \nORDER BY Length DESC"

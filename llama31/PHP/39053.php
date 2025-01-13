@@ -1,1 +1,0 @@
-<?php\n// Connect to database\n// ...\n\n// Get comment ID and vote type from AJAX request\n$commentId = $_POST['commentId'];\n$voteType = $_POST['voteType'];\n\n// Update database with new vote information\n// ...\n\n// Return updated vote count\n$voteCount = // retrieve updated vote count from database\necho $voteCount;

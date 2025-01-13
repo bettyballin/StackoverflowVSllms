@@ -1,1 +1,0 @@
-var iframe = document.getElementById('yourIframeId');\nvar iframeDoc = iframe.contentDocument || iframe.contentWindow.document;\nvar iframeViewportHeight = iframe.offsetHeight;\nvar iframeContentHeight = iframeDoc.body.offsetHeight;\n\nif (iframeContentHeight > iframeViewportHeight) {\n    // when there's a scrollbar\n} else {\n    // when there's not a scrollbar\n}

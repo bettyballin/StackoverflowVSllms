@@ -1,1 +1,0 @@
-If editTransactionRow.pay_id IsNot Nothing Then\n    stTransactionPaymentID = editTransactionRow.pay_id\nEnd If

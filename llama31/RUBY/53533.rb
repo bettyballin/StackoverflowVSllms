@@ -1,1 +1,0 @@
-# In your controller\nprotect_from_forgery with: :exception\n\n# In your form\n<%= form_tag({controller: "my_controller", action: "my_action"}, authenticity_token: true) do %>\n  # form fields here\n<% end %>

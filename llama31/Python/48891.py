@@ -1,1 +1,0 @@
-#Removing Punctuation\ndata['text'] = data['text'].apply(lambda x: " ".join(x for x in x.split() if x not in string.punctuation))

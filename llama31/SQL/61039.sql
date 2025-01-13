@@ -1,1 +1,0 @@
-CREATE TEMPORARY TABLESPACE new_temp_tablespace \nTEMPFILE 'path/to/tempfile' \nSIZE 10M \nAUTOEXTEND ON;

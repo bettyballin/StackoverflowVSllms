@@ -1,1 +1,0 @@
-Public Class MyClass\n    Public Sub MyMethod()\n        Dim myType As Type = Me.GetType()\n        Console.WriteLine(myType.Name) ' prints "MyClass"\n    End Sub\nEnd Class

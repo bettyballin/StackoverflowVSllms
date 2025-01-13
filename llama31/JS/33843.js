@@ -1,1 +1,0 @@
-$('#button').click(function() {\n    // load new content\n    $('#div-container').load('new-content.html', function() {\n        // bind event handler to new content\n        $('.new-button').on('click', function() {\n            // code to handle the click event\n        });\n    });\n});

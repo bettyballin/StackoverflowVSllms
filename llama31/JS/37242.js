@@ -1,1 +1,0 @@
-// app/assets/javascripts/application.js\n$("#email_form").on("ajax:success", function(event, data) {\n  if (data.success) {\n    console.log("Email is valid");\n  } else {\n    console.log("Email is invalid: " + data.message);\n  }\n});

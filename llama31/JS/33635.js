@@ -1,1 +1,0 @@
-var divContainsP = $(".specific-div-class").find("p").length > 0;

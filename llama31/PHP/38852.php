@@ -1,1 +1,0 @@
-<?php\n// recommended syntax\necho $var;\n\n// equivalent, but less recommended\n?>\n<?=$var?>

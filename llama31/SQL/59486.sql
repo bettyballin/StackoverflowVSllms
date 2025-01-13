@@ -1,1 +1,0 @@
--- Example of a simple PL/Perl function\nCREATE OR REPLACE FUNCTION hello_world()\nRETURNS text AS $$\n  return "Hello, World!";\n$$ LANGUAGE plperl;\n\n-- Example of a simple PL/LOLCODE function\nCREATE OR REPLACE FUNCTION lol_hello_world()\nRETURNS text AS $$\n  HAI\n  CAN HAS STDIO?\n  VISIBLE "Hello, World!"\n  KTHXBYE\n$$ LANGUAGE pllolcode;

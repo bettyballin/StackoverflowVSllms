@@ -1,1 +1,0 @@
-SELECT *\nFROM Comments\nORDER BY id  -- or any other column to maintain a consistent order\nOFFSET 7 ROWS\nLIMIT 1;

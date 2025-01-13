@@ -1,1 +1,0 @@
-class StringBuilder {\n    private $parts = array();\n\n    public function append($str) {\n        $this->parts[] = $str;\n    }\n\n    public function toString() {\n        return implode('', $this->parts);\n    }\n}\n\n$stringBuilder = new StringBuilder();\nfor ($i = 0; $i < 10000; $i++) {\n    $stringBuilder->append('Hello, world!');\n}\n$string = $stringBuilder->toString();

@@ -1,1 +1,0 @@
-import mmap\n\nwith open('large_file.txt', 'r+b') as f:\n    mm = mmap.mmap(f.fileno(), 0)\n    # Access the file through the mmap object\n    data = mm.read(1024)\n    # ...\n    mm.close()

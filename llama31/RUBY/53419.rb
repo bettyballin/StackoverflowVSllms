@@ -1,1 +1,0 @@
-# In your test_helper.rb file\nrequire 'minitest/hooks'\nrequire 'database_cleaner'\n\nMinitest::Hooks.define do\n  before(:each) do\n    DatabaseCleaner.start\n  end\n\n  after(:each) do\n    DatabaseCleaner.clean\n  end\nend

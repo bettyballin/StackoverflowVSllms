@@ -1,1 +1,0 @@
-function rhyme($word1, $word2) {\n    $dmp1 = doublemetaphone($word1);\n    $dmp2 = doublemetaphone($word2);\n    return $dmp1 === $dmp2;\n}\n\n$word1 = "cat";\n$word2 = "hat";\n\nif (rhyme($word1, $word2)) {\n    echo "The words '$word1' and '$word2' rhyme.";\n} else {\n    echo "The words '$word1' and '$word2' do not rhyme.";\n}

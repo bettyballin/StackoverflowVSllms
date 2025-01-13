@@ -1,1 +1,0 @@
-header("Vary: Accept-Encoding");

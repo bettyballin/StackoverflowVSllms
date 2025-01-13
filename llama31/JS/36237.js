@@ -1,1 +1,0 @@
-// Delete a specific session variable\ndelete sessionStorage.variableName;

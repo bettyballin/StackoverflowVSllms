@@ -1,1 +1,0 @@
-<Realm className="org.apache.catalina.realm.MemoryRealm" \n       pathname="/path/to/users.htpasswd" />

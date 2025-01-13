@@ -1,1 +1,0 @@
-ini_set('session.save_handler', 'memcached');\nini_set('session.save_path', 'tcp://memcached-host:11211');

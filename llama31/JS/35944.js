@@ -1,1 +1,0 @@
-const fileInput = document.getElementById('fileInput');\nconst customButton = document.querySelector('.custom-file-button');\n\ncustomButton.addEventListener('click', () => {\n  fileInput.click();\n});

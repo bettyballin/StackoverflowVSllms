@@ -1,1 +1,0 @@
-try:\n    print(my_list[52])\nexcept IndexError:\n    print("List has fewer than 53 items")

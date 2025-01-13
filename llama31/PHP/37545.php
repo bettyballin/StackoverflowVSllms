@@ -1,1 +1,0 @@
-<?php\ntrigger_error('Test error', E_USER_ERROR);\n?>

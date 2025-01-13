@@ -1,1 +1,0 @@
-const { parse } = require('node-html-parser');\n\nconst htmlString = "<html>...</html>";\nconst root = parse(htmlString);\nconst result = root.querySelectorAll("//a/@href");\nconsole.log(result);

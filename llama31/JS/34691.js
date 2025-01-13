@@ -1,1 +1,0 @@
-const div = document.getElementById('Area_T10');\nconst script = div.querySelector('script');\nconst src = script.getAttribute('src');\nconst regex = /\*\*\*(\d+)\*\*\*/;\nconst match = src.match(regex);\nif (match) {\n  const number = match[1];\n  console.log(number); // Output: "1644116"\n}

@@ -1,1 +1,0 @@
-SELECT Name, Color\nFROM TableA\nEXCEPT\nSELECT Name, Color\nFROM TableB;

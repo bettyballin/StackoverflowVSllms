@@ -1,1 +1,0 @@
-$.ajax({\n  type: "PUT",\n  url: url,\n  data: {\n    dummy: data,\n    authenticity_token: '<%= form_authenticity_token %>'\n  },\n  complete: function(data) {}\n});

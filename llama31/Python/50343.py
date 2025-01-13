@@ -1,1 +1,0 @@
-def my_view(request):\n    session_id = request.session.session_key\n    # Use session_id as needed\n    return HttpResponse("Session ID: {}".format(session_id))

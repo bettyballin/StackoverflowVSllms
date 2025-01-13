@@ -1,1 +1,0 @@
-def update(self, id):\n    user = User.query.get(id)\n    schema = UserSchema()\n    try:\n        data = schema.to_python(request.params, user)\n    except Invalid, e:\n        return render('/update.mako', {'errors': e.unpack_errors(), 'user': user})\n    \n    # update user logic here\n    return redirect('/users')

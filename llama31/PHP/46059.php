@@ -1,1 +1,0 @@
-// mytemplate.php\n<?php\n$cookies = 100;\nwhile ($cookies > 0) {\n    $cookies = $cookies - 1;\n    $data[] = ['cookies' => $cookies];\n}\n?>\n\n<!-- mytemplate.html -->\n<?php foreach ($data as $item) { ?>\n    <b>Fatty has </b><?= $item['cookies'] ?> <b>cookies left.</b><br>\n<?php } ?>

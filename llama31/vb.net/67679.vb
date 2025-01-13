@@ -1,1 +1,0 @@
-Private Sub Label1_Paint(sender As Object, e As System.Windows.Forms.PaintEventArgs) Handles Label1.Paint\n    e.Graphics.DrawRectangle(New Pen(Color.Blue), e.ClipRectangle)\nEnd Sub

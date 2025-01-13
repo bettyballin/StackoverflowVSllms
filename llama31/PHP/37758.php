@@ -1,1 +1,0 @@
-$questionIds = // fetch question IDs from database\nshuffle($questionIds);\n$randomQuestionIds = array_slice($questionIds, 0, $qty);\n\n// fetch questions from database using $randomQuestionIds

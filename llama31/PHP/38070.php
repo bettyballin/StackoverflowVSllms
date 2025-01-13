@@ -1,1 +1,0 @@
-$client = $kernel->createClient();\n$entityManager = $client->getContainer()->get('doctrine.orm.entity_manager');

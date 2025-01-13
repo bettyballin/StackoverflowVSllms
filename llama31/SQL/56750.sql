@@ -1,1 +1,0 @@
-SELECT *\nFROM customers\nINNER JOIN orders\nON customers.customer_id = orders.customer_id;

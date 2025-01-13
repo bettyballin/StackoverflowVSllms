@@ -1,1 +1,0 @@
-<img src="<?= URL::site('images/your_image.jpg'); ?>" alt="Your Image">

@@ -1,1 +1,0 @@
-$('iso_address').observe('keyup', resizeIt);

@@ -1,1 +1,0 @@
-function validateEmail(email) {\n    const pattern = /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/;\n    return pattern.test(email);\n}\n\n// Test the function\nconsole.log(validateEmail("test@example.com"));  // Returns: true\nconsole.log(validateEmail("invalid_email"));  // Returns: false

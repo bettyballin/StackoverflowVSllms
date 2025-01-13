@@ -1,1 +1,0 @@
-<!-- In your archive.html.erb view -->\n<% @posts.each do |month, posts| %>\n  <h2><%= month.strftime("%B") %></h2>\n  <ul>\n    <% posts.each do |post| %>\n      <li><%= post.title %></li>\n    <% end %>\n  </ul>\n<% end %>

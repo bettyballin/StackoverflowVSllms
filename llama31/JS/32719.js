@@ -1,1 +1,0 @@
-var html = $('<td id="toggle-day">T</td><img id="delete-alarm" src="img/cross.png">');\n\nhtml.find('#toggle-day').on('click', function() {\n  toggleDay(data, this, 'tue');\n});\n\nhtml.find('#delete-alarm').on('click', function() {\n  deleteAlarm(data);\n});\n\n$('#some-element').append(html);

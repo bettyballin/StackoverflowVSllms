@@ -1,1 +1,0 @@
-// class.tattler_stats.php\nclass tattler_stats {\n    function __construct($request) {\n        $param = $request['menu'];\n        $this->run($param);\n    }\n\n    function run($param) {\n        $this->connect();\n        $this->showMenu($param);\n        // rest of class...\n    }\n\n    // rest of class...\n}

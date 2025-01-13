@@ -1,1 +1,0 @@
-BULK INSERT SwearWords\nFROM 'c:\swears.txt'\nWITH\n(\n    FORMATFILE = 'c:\swears.fmt'\n)

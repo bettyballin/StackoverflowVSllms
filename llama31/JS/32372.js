@@ -1,1 +1,0 @@
-window.addEvent('domready', function() {\n    var form = $('myForm');\n    form.formCheck({\n        // options go here\n    });\n});

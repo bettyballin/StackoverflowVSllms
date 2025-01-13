@@ -1,1 +1,0 @@
-areEqual = (If(nullId, 0) = id)

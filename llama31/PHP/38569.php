@@ -1,1 +1,0 @@
-$qry_array = $_GET;\n$qry_array['page'] = $start-$pagesize;\n$qry_str = http_build_query($qry_array);

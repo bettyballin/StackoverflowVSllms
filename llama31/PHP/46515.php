@@ -1,1 +1,0 @@
-$date = new Zend_Date($userInput, 'dd/mm/yyyy');\n$date->setFormat('yyyy-mm-dd');

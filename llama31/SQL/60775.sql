@@ -1,1 +1,0 @@
-IF EXISTS (\n    SELECT 1\n    FROM table_name\n    WHERE condition AND column1 <> 'new_value'\n)\nBEGIN\n    UPDATE table_name\n    SET column1 = 'new_value', last_modified = GETDATE()\n    WHERE condition;\nEND

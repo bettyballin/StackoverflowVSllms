@@ -1,1 +1,0 @@
-DECLARE @formId INT\n\nDECLARE cur CURSOR FOR\nSELECT formId FROM Forms WHERE Tenant = @TenantId\n\nOPEN cur\n\nFETCH NEXT FROM cur INTO @formId\n\nWHILE @@FETCH_STATUS = 0\nBEGIN\n    EXEC Delete_Form @formId\n    FETCH NEXT FROM cur INTO @formId\nEND\n\nCLOSE cur\nDEALLOCATE cur

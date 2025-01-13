@@ -1,1 +1,0 @@
-$sha1_hash = pack('H*', sha1($ticket));

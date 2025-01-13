@@ -1,1 +1,0 @@
-Dim x = (From y In context.MyTable _\n         Where y.MyField = value _\n         Select y.MyCounter).MaxOrDefault(0)

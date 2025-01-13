@@ -1,1 +1,0 @@
-$conn = new mysqli($host, $username, $password, $database);\n// ...\n$conn->close(); // Close the connectio

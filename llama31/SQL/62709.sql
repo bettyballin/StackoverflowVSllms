@@ -1,1 +1,0 @@
-CREATE TABLE #myTemporaryTable (id INT, name VARCHAR(50));\nINSERT INTO #myTemporaryTable (id, name) VALUES (1, 'John'), (2, 'Jane');\nSELECT * FROM #myTemporaryTable;\nDROP TABLE #myTemporaryTable;

@@ -1,1 +1,0 @@
-DECLARE @id int;\nDECLARE @countVal int;\nDECLARE @sql nvarchar(max);\n\nSET @id = 1000;\nSET @sql = 'SELECT COUNT(*) FROM owner.myTable WHERE id = ?';\n\nEXEC (@sql, @id) AT oracleServer;

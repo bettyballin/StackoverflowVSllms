@@ -1,1 +1,0 @@
-my_list = [{'id': 1, 'name': 'paul'}, {'id': 2, 'name': 'john'}]\nid_to_remove = 2\n\nfor item in my_list[:]:\n    if item['id'] == id_to_remove:\n        my_list.remove(item)\n\nprint(my_list)  # Output: [{'id': 1, 'name': 'paul'}]

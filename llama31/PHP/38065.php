@@ -1,1 +1,0 @@
-$conditions = explode(" OR ", $criteria);

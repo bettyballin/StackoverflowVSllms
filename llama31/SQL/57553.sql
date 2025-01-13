@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\nINSERT INTO TableA (column1, column2)\nOUTPUT INSERTED.Id INTO @TableAId\nVALUES ('value1', 'value2');\n\nINSERT INTO TableB (column3, column4, TableAId)\nVALUES ('value3', 'value4', @TableAId);\n\nCOMMIT TRANSACTION;

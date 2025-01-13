@@ -1,1 +1,0 @@
-Me.LabelVersion.Text = "Version " & My.Application.Info.ProductVersio

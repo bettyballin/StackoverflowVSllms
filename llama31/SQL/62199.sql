@@ -1,1 +1,0 @@
-SELECT E.EntityID, T.TargetID\nFROM Entities E\nJOIN Targets T ON E.AttributeName = T.AttributeName AND E.AttributeValue = T.AttributeValue\nGROUP BY E.EntityID, T.TargetID\nHAVING COUNT(DISTINCT T.AttributeName) = (SELECT COUNT(*) FROM Targets WHERE TargetID = T.TargetID);

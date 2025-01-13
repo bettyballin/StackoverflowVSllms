@@ -1,1 +1,0 @@
-messages = request.session.get('messages', [])\nfor message in messages:\n    # display the message\nrequest.session['messages'] = []  # clear the messages

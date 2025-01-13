@@ -1,1 +1,0 @@
-CREATE TABLE events (\n  id INT PRIMARY KEY,\n  title VARCHAR(255),\n  start_date DATE,\n  recurrence VARCHAR(10),  -- daily, weekly, monthly\n  recurrence_interval INT,  -- interval for weekly and monthly recurrences\n  end_date DATE  -- optional end date for recurring events\n);

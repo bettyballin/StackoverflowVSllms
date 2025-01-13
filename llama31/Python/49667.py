@@ -1,1 +1,0 @@
-import requests_toolbelt.appengine\n\n# ...\n\ndef _make_request(self, method, url, headers, data):\n    # Use requests-toolbelt's appengine module\n    session = requests_toolbelt.appengine.AppEngineSession()\n    response = session.request(method, url, headers=headers, data=data)\n    return response.content

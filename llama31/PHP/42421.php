@@ -1,1 +1,0 @@
-$context = stream_context_create(array(\n    'ssl' => array(\n        'verify_peer' => true,\n        'cafile' => '/path/to/cacert.pem', // Path to your CA bundle\n    ),\n));

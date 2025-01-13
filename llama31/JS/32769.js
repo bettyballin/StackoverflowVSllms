@@ -1,1 +1,0 @@
-const encodedEmail = "&#110;&#101;&#119;&#098;&#105;...";\nconst decodedEmail = encodedEmail.replace(/&#(\d+);/g, (match, codePoint) => {\n  return String.fromCharCode(codePoint);\n});\nconsole.log(decodedEmail); // outputs "newbie..."

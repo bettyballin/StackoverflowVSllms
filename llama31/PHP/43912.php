@@ -1,1 +1,0 @@
-// Enable slow query logging\nmysql_query("SET GLOBAL slow_query_log = 1");\nmysql_query("SET GLOBAL slow_query_log_file = '/var/log/mysql/slow.log'");\n\n// Set the threshold to 5 seconds\nmysql_query("SET GLOBAL long_query_time = 5");

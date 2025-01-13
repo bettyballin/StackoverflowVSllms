@@ -1,1 +1,0 @@
-function can_x_requested_with_be_spoofed() {\n  return "It can be spoofed.  But, it can't be trusted unless it's from an AJAX request that you know has been made from your site.  I suggest you do not use it as a security feature.";\n}

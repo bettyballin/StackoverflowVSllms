@@ -1,1 +1,0 @@
-var formData = new FormData();\nformData.append('video', fileInput.files[0]);\n\nvar xhr = new XMLHttpRequest();\nxhr.open('POST', 'https://api.viddler.com/api/v2/videos/upload', true);\nxhr.setRequestHeader('Authorization', 'YOUR_API_KEY');\nxhr.send(formData);

@@ -1,1 +1,0 @@
-import cx_Oracle\n\n# Specify the path to the Oracle client libraries\ncx_Oracle.init_oracle_client(lib_dir=r"C:\Oracle\XEClient\bin")\n\n# Now you can connect to the database\nconn = cx_Oracle.connect('scott/tiger@localhost:1521/orcl')

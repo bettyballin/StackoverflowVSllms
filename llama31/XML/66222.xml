@@ -1,1 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">\n  <!-- ... -->\n  <Target Name="CopyLibComposites" AfterTargets="Build">\n    <Copy SourceFiles="$(ProjectDir)LibComposites.dll" DestinationFiles="$(OutputPath)LibComposites.dll" />\n  </Target>\n  <!-- ... -->\n</Project>

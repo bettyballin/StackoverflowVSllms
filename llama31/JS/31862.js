@@ -1,1 +1,0 @@
-function myFunc(requiredArg, optionalArg) {\n  optionalArg = optionalArg ?? 'defaultValue';\n  // Do stuff\n}

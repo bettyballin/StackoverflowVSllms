@@ -1,1 +1,0 @@
-// Example of SOP restriction\n// Assume the user is on https://example.com\n// The following request will be blocked by the SOP\nconst xhr = new XMLHttpRequest();\nxhr.open('GET', 'https://other-domain.com/data', true);\nxhr.send();

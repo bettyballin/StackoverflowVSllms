@@ -1,1 +1,0 @@
-<!-- Well-formed but not valid -->\n<person>\n  <name>John</name>\n  <age>30</age>\n  < occupation>Developer</occupation>\n</person>

@@ -1,1 +1,0 @@
-CREATE TABLE mytable (\n  ts TIMESTAMP WITH TIMEZONE\n);\n\nINSERT INTO mytable (ts) VALUES (TIMESTAMP '2023-02-26 11:36:25.390713 Pacific/Auckland');

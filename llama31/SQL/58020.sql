@@ -1,1 +1,0 @@
-SELECT FROM_UNIXTIME(1658731200) AS mysql_timestamp;

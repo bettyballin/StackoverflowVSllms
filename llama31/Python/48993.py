@@ -1,1 +1,0 @@
-from django import template\n\nregister = template.Library()\n\n@register.filter\ndef oxford_comma_join(value):\n    if len(value) == 2:\n        return '{} and {}'.format(*value)\n    return '{}, and {}'.format(', '.join(value[:-1]), value[-1])

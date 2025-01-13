@@ -1,1 +1,0 @@
-CREATE TABLE Table2 (\n  authorId INT PRIMARY KEY,\n  authorName VARCHAR(255)\n);\n\nCREATE TABLE Table1 (\n  bookId INT PRIMARY KEY,\n  authorId INT,\n  bookName VARCHAR(255),\n  CONSTRAINT fk_authorId FOREIGN KEY (authorId) REFERENCES Table2 (authorId)\n);

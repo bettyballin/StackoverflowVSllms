@@ -1,1 +1,0 @@
-<?php\nini_set('xdebug.remote_host', '192.168.1.100');\nini_set('xdebug.remote_port', '9000');\nini_set('xdebug.remote_autostart', 1);\n\nxdebug_break();\n\n// Your script code here\n?>

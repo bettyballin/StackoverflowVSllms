@@ -1,1 +1,0 @@
-CREATE EVENT update_queue_event\nON SCHEDULE EVERY 1 MINUTE\nDO CALL process_update_queue();

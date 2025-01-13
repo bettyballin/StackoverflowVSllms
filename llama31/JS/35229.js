@@ -1,1 +1,0 @@
-const WebSocket = require('ws');\n\nconst wss = new WebSocket.Server({ port: 8080 });\n\nwss.on('connection', (ws) => {\n  console.log('Client connected');\n\n  // Push updates to the client as soon as an event occurs\n  setTimeout(() => {\n    ws.send('New event occurred!');\n  }, 5000);\n});

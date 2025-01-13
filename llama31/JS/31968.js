@@ -1,1 +1,0 @@
-// Secure way to bind a function to a click event\n$(document).ready(function() {\n    $('#myButton').on('click', function() {\n        // Your function code here\n        myFunction1();\n    });\n});\n\nfunction myFunction1() {\n    // Your function logic here\n    console.log('Function 1 executed');\n}

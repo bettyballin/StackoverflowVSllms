@@ -1,1 +1,0 @@
-SELECT b.* \nFROM friend_bulletin b \nJOIN friend_friend f ON b.user_id = f.friendid \nWHERE f.userid = ? AND b.status = 'Active';

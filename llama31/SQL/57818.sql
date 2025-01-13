@@ -1,1 +1,0 @@
-DECLARE @row_id INT = 123;  -- replace with the ID of the row you want to delete\n\nIF CHECK_CONSTRAINTS('dbo.MainTable', 'DELETE', @row_id) = 0\nBEGIN\n    PRINT 'Constraints violation detected';\nEND\nELSE\nBEGIN\n    PRINT 'No constraints violation detected';\nEND

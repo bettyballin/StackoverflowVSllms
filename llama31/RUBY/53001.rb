@@ -1,1 +1,0 @@
-start_time = convert_to_string([214, 222, 0, 23, 0])\nend_time = convert_to_string([214, 223, 0, 0, 0])\n\nBasic.find(:all, :conditions => "start_time > ? AND end_time < ?", start_time, end_time)

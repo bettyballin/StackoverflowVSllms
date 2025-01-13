@@ -1,1 +1,0 @@
-SELECT * INTO #temp FROM mytable WHERE condition;\nDELETE FROM mytable WHERE condition;\nINSERT INTO mytable SELECT * FROM #temp;\nDROP TABLE #temp;

@@ -1,1 +1,0 @@
-$xml = simplexml_load_string($xml_string);\n$group_id = (string)$xml->diffgram->NewDataSet->Table1->GROUP_ID;

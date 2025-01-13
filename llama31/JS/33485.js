@@ -1,1 +1,0 @@
-$('#searchMe').blur(function(){\n  clearTimeout(timeoutId);\n});

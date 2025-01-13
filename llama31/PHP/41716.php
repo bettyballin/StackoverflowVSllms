@@ -1,1 +1,0 @@
-$large_int = bcmul(2, bcpow(2, 63)); // calculate 2^64\necho $large_int; // outputs a string representation of the large integer

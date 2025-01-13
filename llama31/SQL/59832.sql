@@ -1,1 +1,0 @@
-INSERT INTO table_a (column1, column2)\nVALUES ('value1', 'value2');\n\nSET @new_id = LAST_INSERT_ID();\n\nINSERT INTO table_b (table_a_id, column3)\nVALUES (@new_id, 'value3');

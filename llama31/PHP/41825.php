@@ -1,1 +1,0 @@
-$idnum = 123; // assuming this is the ID from your database\n$objectName = 'obj_' . $idnum; // prefixing with 'obj_' to avoid potential issues\n$$objectName = new stdClass(); // or any other class you're using\n\n// Now you can access the object using the dynamic name\n${$objectName}->property = 'value';

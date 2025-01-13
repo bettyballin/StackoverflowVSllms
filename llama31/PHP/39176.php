@@ -1,1 +1,0 @@
-$this->Form->find('first', array(\n    'fields' => array('id'),\n    'order' => array('id DESC')\n));

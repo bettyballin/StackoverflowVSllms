@@ -1,1 +1,0 @@
-BEGIN\n  DBMS_JAVA.LOADJAVA(\n    'saaj-impl.jar',\n    'MYSCHEMA',\n    'MYSCHEMA/MYSCHEMA@actest',\n    'resolve'\n  );\nEND;\n/

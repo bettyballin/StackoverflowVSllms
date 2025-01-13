@@ -1,1 +1,0 @@
-Dim rs3()\nReDim rs3(UBound(rs1, 1), UBound(rs1, 2) + UBound(rs2, 2) + 1)\n\nFor i = 0 To UBound(rs1, 2)\n    For j = 0 To UBound(rs1, 1)\n        rs3(j, i) = rs1(j, i)\n    Next j\nNext i\n\nFor i = 0 To UBound(rs2, 2)\n    For j = 0 To UBound(rs2, 1)\n        rs3(j, UBound(rs1, 2) + 1 + i) = rs2(j, i)\n    Next j\nNext i

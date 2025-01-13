@@ -1,1 +1,0 @@
-CREATE UNIQUE INDEX idx_email ON your_table (email);

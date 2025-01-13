@@ -1,1 +1,0 @@
-$args = [3, 6];\ncall_user_func_array('range', $args); // equivalent to range(3, 6)

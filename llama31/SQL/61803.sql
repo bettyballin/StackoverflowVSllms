@@ -1,1 +1,0 @@
-SELECT job_number, COUNT(*) as duplicate_count\nFROM jobs\nGROUP BY job_number\nHAVING COUNT(*) > 1;

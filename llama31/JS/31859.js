@@ -1,1 +1,0 @@
-function myFunc(requiredArg, optionalArg) {\n  optionalArg = optionalArg || 'defaultValue';\n  console.log(optionalArg);\n}\n\nmyFunc('required', 0); // outputs "defaultValue", not 0\nmyFunc('required', ''); // outputs "defaultValue", not ''

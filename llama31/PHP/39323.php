@@ -1,1 +1,0 @@
-if ($_FILES['file']['error'] === UPLOAD_ERR_OK) {\n    $file_name = $_FILES['file']['name'];\n    $file_type = $_FILES['file']['type'];\n    $file_size = $_FILES['file']['size'];\n    $file_tmp_name = $_FILES['file']['tmp_name'];\n\n    // Process the uploaded file...\n}

@@ -1,1 +1,0 @@
-CREATE FUNCTION [dbo].[GetDateDifferenceInDays]\n(\n    @first_date SMALLDATETIME,\n    @second_date SMALLDATETIME\n)\nRETURNS TABLE\nAS\nRETURN\n(\n    SELECT ABS(DATEDIFF(DAY, @first_date, @second_date)) AS DateDifference\n)

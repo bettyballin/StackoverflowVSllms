@@ -1,1 +1,0 @@
-$approvedSites = array('http://example1.com', 'http://example2.com');\n\nif (!in_array($_SERVER['HTTP_REFERER'], $approvedSites)) {\n    header('HTTP/1.0 403 Forbidden');\n    exit;\n}\n\n// Serve the content

@@ -1,1 +1,0 @@
-SELECT * FROM (\n  SELECT * FROM tbl_dict WHERE lock = '0'\n) AS subquery ORDER BY RAND() LIMIT 1

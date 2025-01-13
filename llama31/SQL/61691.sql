@@ -1,1 +1,0 @@
-CREATE PROCEDURE UpdateCustomersByPartition\n    @PartitionID INT\nAS\nBEGIN\n    BEGIN TRANSACTION;\n\n    UPDATE c\n    SET ...\n    FROM Customers c\n    WHERE c.PartitionID = @PartitionID;\n\n    COMMIT TRANSACTION;\nEND;

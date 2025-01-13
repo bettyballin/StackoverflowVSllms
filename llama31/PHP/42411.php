@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare(\n  "SELECT answers.id, answers.answer \n   FROM answers, a_lookup \n   WHERE answers.id = a_lookup.a_id AND ? = a_lookup.q_id;"\n);\n$stmt->bind_param("i", $i);\n$stmt->execute();\n$answers = $stmt->get_result();

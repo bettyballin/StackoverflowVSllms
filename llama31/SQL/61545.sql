@@ -1,1 +1,0 @@
-SELECT \n  ...,\n  APEX_PAGE.GET_URL(p_page => 'your_edit_page', p_items => 'P1_ID:' || id) AS EDIT_LINK\nFROM \n  your_table

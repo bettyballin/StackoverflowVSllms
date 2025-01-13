@@ -1,1 +1,0 @@
-SET MARKUP CSV ON\nSPOOL out1.csv\nSELECT * FROM your_query;\nSPOOL OFF\n\n-- repeat for each file\nSET MARKUP CSV ON\nSPOOL out2.csv\nSELECT * FROM your_query WHERE ROWNUM BETWEEN 100001 AND 200000;\nSPOOL OFF

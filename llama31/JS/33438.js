@@ -1,1 +1,0 @@
-var isAjaxBusy = false;\n\nfunction myAjaxFunction() {\n  if (isAjaxBusy) {\n    console.log('AJAX is busy, skipping call');\n    return;\n  }\n  isAjaxBusy = true;\n  $.ajax({\n    type: 'GET',\n    url: '/my-url',\n    success: function(data) {\n      // do something with data\n    },\n    complete: function() {\n      isAjaxBusy = false;\n    }\n  });\n}

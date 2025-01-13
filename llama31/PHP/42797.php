@@ -1,1 +1,0 @@
-preg_replace("/([A-Z])/", "<span class=\"initial\">$1</span>", $str)

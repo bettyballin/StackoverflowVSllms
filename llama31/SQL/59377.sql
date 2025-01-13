@@ -1,1 +1,0 @@
-CREATE PROCEDURE MyProc\nAS\nBEGIN\n    -- ...\n    SELECT 'Hello, World!' AS Message;\nEND;

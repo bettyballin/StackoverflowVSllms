@@ -1,1 +1,0 @@
-<!-- app/views/uploads/new.html.erb -->\n<h1>Upload a file</h1>\n\n<%= form_for(Upload.new) do |form| %>\n  <%= form.file_field :file %>\n  <%= form.submit %>\n<% end %>

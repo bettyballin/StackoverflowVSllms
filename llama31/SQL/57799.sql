@@ -1,1 +1,0 @@
-SELECT u1.*\nFROM user u1\nWHERE u1.banned = 0\nAND u1.ip IN (\n  SELECT u2.ip\n  FROM user u2\n  WHERE u2.banned = 1\n  GROUP BY u2.ip\n  HAVING COUNT(u2.id) >= 5\n);

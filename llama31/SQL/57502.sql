@@ -1,1 +1,0 @@
-CREATE TABLE friendships (\n  id INT PRIMARY KEY,\n  user_id INT,\n  friend_id INT,\n  status ENUM('pending', 'accepted', 'declined')\n);

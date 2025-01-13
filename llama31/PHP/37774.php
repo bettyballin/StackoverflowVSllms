@@ -1,1 +1,0 @@
-$content = file_get_contents("http://example.com");\nif ($content !== false) {\n    // Process the content\n}

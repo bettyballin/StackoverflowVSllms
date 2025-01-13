@@ -1,1 +1,0 @@
-$defaultValue = 'some_default_value';\n$param = isset($userInput) ? $userInput : $defaultValue;\n$stmt = $pdo->prepare('CALL my_sp(:param)');\n$stmt->bindParam(':param', $param);\n$stmt->execute();

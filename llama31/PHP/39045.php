@@ -1,1 +1,0 @@
-$record = $currentLesson->getI18nRecord($lessonCulture);\nif ($record) {\n    // Use the record\n    $currentLesson = $record;\n} else {\n    // Default to the base culture\n    $currentLesson = $currentLesson->getI18nRecord('en_US');\n}

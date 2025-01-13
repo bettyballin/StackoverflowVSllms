@@ -1,1 +1,0 @@
-session_start();\n\n// Generate a new CAPTCHA code\n$captcha_code = rand(1000, 9999);\n\n// Store the new CAPTCHA code in the session variable\n$_SESSION['captcha_code'] = $captcha_code;\n\n// Create a new image with the CAPTCHA code\nheader('Content-Type: image/jpeg');\nimagejpeg(imagecreatefromjpeg('captcha.jpg'));

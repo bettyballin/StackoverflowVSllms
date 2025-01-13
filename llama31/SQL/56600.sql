@@ -1,1 +1,0 @@
-CREATE TYPE MyTableType AS TABLE\n(\n    Id INT,\n    Name VARCHAR(50)\n);\nGO

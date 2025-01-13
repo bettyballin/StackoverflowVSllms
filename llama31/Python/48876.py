@@ -1,1 +1,0 @@
-s = 'arbit'\nstring = f'{s} hello world {s} hello world {s}'

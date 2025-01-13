@@ -1,1 +1,0 @@
-import shutil\n\ndef copy_file(src, dst):\n    try:\n        shutil.copy2(src, dst)\n        print(f"File copied successfully: {src} -> {dst}")\n    except FileNotFoundError:\n        print(f"Source file not found: {src}")\n    except Exception as e:\n        print(f"Error copying file: {e}")\n\n# Example usage:\ncopy_file("/path/to/source.txt", "/path/to/destination.txt")

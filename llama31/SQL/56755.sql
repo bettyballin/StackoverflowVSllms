@@ -1,1 +1,0 @@
-DECLARE GLOBAL TEMPORARY TABLE tt_testingSyntax (id INT);\nINSERT INTO tt_testingSyntax (id) VALUES (1);\nINSERT INTO tt_testingSyntax (id) VALUES (2);\nINSERT INTO tt_testingSyntax (id) VALUES (3);\nINSERT INTO tt_testingSyntax (id) VALUES (4);\nSELECT * FROM tt_testingSyntax;

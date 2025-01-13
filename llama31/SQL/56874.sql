@@ -1,1 +1,0 @@
-SELECT a, b, c, OrderDate as maxDate\nFROM (\n  SELECT a, b, c, OrderDate,\n  ROW_NUMBER() OVER (PARTITION BY a, b, c ORDER BY OrderDate DESC) as rn\n  FROM ABC\n) subquery\nWHERE rn = 1

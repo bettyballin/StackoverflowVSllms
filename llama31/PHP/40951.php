@@ -1,1 +1,0 @@
-class HtmlHelper {\n    public function div($class, $content) {\n        return sprintf('<div class="%s">%s</div>', $class, $content);\n    }\n}

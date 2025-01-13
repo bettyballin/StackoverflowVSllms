@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $("#SomeDropdown option").mouseover(function() {\n        var theVal = $(this).val();\n        $("#SomeDiv_" + theVal).css("visibility", "visible");\n    }).mouseout(function() {\n        var theVal = $(this).val();\n        $("#SomeDiv_" + theVal).css("visibility", "hidden");\n    });\n});

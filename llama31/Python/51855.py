@@ -1,1 +1,0 @@
-import requests\n\nwith open('soap_message.xml', 'r') as f:\n    soap_message = f.read()\n\nurl = 'http://your-server-url.com/endpoint'\nheaders = {'Content-Type': 'text/xml'}\n\nresponse = requests.post(url, headers=headers, data=soap_message)\n\nprint(response.content)

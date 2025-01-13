@@ -1,1 +1,0 @@
-Public Sub New(Optional url As String = "testlink")\n    MyBase.New(url)\nEnd Sub

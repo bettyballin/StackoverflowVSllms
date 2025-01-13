@@ -1,1 +1,0 @@
-from collections import OrderedDict\n\nresult = OrderedDict()\nfor key, value in tuples_list:\n    if key not in result:\n        result[key] = []\n    result[key].append(value)\n\nfor key, values in result.items():\n    print(key, *values)

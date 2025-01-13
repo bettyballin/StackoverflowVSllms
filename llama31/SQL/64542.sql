@@ -1,1 +1,0 @@
-SELECT a FROM table\nWHERE c = 1 AND d = 2\nOPTION (RECOMPILE)

@@ -1,1 +1,0 @@
-DBCC SHRINKDATABASE ('mydatabase', 1, TRUNCATEONLY);

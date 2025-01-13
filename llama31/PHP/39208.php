@@ -1,1 +1,0 @@
-$directory = 'classes/';\nforeach (scandir($directory) as $filename) {\n    $path = $directory . $filename;\n    if (is_file($path) && pathinfo($path, PATHINFO_EXTENSION) == 'php') {\n        include($path);\n    }\n}

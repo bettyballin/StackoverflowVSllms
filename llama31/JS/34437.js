@@ -1,1 +1,0 @@
-// MongoDB Example\ndb.questions.updateOne(\n  { _id: ObjectId(questionId) },\n  { $inc: { vote_count: 1 } }\n);

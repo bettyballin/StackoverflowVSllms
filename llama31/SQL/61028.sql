@@ -1,1 +1,0 @@
--- Add a linked server\nEXEC sp_addlinkedserver 'RemoteServer', 'SQL Server', 'RemoteServerName'\n\n-- Execute a query on the linked server\nSELECT * FROM OPENQUERY(RemoteServer, 'SELECT * FROM RemoteDatabase.dbo.RemoteTable')

@@ -1,1 +1,0 @@
-var userInput = prompt("Please enter a value:");

@@ -1,1 +1,0 @@
-$command = "ls -l"; // example command\nexec($command, $output, $return_var);\nprint_r($output); // prints the output of the command

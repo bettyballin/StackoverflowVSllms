@@ -1,1 +1,0 @@
-function int2coord($i) {\n    $x = $i >> 3; // equivalent to $i / 8\n    $y = $i & 7; // equivalent to $i % 8\n    return array($x, $y);\n}

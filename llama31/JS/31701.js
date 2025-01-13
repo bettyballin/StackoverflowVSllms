@@ -1,1 +1,0 @@
-const enumField = document.getElementById('enumField');\n\n$(enumField).autocomplete({\n  source: ['High', 'Medium', 'Low'],\n  minLength: 0,\n  select: (event, ui) => {\n    enumField.value = ui.item.value;\n  }\n});

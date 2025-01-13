@@ -1,1 +1,0 @@
-var focusedElement = document.activeElement;\nconsole.log(focusedElement);

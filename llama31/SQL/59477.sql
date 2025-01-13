@@ -1,1 +1,0 @@
-CREATE TABLE Hierarchy_History (\n  History_ID INT PRIMARY KEY,\n  Node_ID INT,\n  Parent_Node_ID INT,\n  Effective_Date DATE,\n  End_Date DATE,\n  FOREIGN KEY (Node_ID) REFERENCES Hierarchy_Nodes(Node_ID),\n  FOREIGN KEY (Parent_Node_ID) REFERENCES Hierarchy_Nodes(Node_ID)\n);

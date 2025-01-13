@@ -1,1 +1,0 @@
-s = dict.fromkeys(e for t in l for e in t)\nprint(s)  # Output: {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'i'}

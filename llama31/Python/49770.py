@@ -1,1 +1,0 @@
-import hashlib\n\ndef generate_hash(nickname, salt):\n    return hashlib.sha256((nickname + salt).encode()).hexdigest()

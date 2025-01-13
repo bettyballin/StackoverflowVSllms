@@ -1,1 +1,0 @@
-function a(given_id) {\n  var id = given_id;\n\n  this.myMethod = function() {\n    alert(id);\n  };\n}\n\nmy_obj = new a('some_id');\nmy_obj.myMethod(); // alerts 'some_id'

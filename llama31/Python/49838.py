@@ -1,1 +1,0 @@
-if request.headers.get('X-Forwarded-Proto') == 'https':\n    # Handle HTTPS request\nelse:\n    # Handle HTTP request

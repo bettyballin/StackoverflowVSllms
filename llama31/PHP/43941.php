@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare('SELECT COUNT(*) FROM your_table WHERE your_conditions');\n$stmt->execute($params);\n$rowCount = $stmt->fetchColumn();

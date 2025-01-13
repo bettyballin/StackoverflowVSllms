@@ -1,1 +1,0 @@
-writer = csv.writer(output, quoting=csv.QUOTE_ALL)

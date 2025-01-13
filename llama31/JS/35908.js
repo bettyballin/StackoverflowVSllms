@@ -1,1 +1,0 @@
-function sendSelectedValue() {\n    var selectedValue = document.getElementById("my-dropdown").value;\n    var xhr = new XMLHttpRequest();\n    xhr.open("POST", "/store-selected-value", true);\n    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");\n    xhr.send("selected_value=" + selectedValue);\n}

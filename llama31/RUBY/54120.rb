@@ -1,1 +1,0 @@
-$ rails console\nLoading development environment (Rails 6.1.4.1)\nirb(main):001:0> User.find(1)\n=> #<User id: 1, email: "user@example.com", password_digest: "...">\nirb(main):002:0> User.find(1).update(password: 'new_password')\n=> true

@@ -1,1 +1,0 @@
-import urllib.request\n\nresponse = urllib.request.urlopen('http://example.com')\nhtml_string = response.text

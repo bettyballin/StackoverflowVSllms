@@ -1,1 +1,0 @@
-class Foo {\n    public $baz;\n\n    function bar() {\n        $this->baz = new Baz;\n        $this->meh = $this->baz->getStuff();\n    }\n}

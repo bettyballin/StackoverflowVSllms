@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $("#lowerLayer").click(function(event) {\n        if (event.target === this) { // check if the target is the #lowerLayer element itself\n            $(this).fadeTo("fast", 0, function() {\n                $(this).hide(0);\n            });\n        }\n    });\n});

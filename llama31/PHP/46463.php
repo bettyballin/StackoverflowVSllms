@@ -1,1 +1,0 @@
-$imageName = 'image_' . uniqid() . '.jpg';

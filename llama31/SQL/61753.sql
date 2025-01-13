@@ -1,1 +1,0 @@
-ALTER TABLE your_table\nADD CONSTRAINT unique_constraint UNIQUE (column1, column2);

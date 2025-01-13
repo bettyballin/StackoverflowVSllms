@@ -1,1 +1,0 @@
-DECLARE\n  v_string VARCHAR2(100) := 'Hello, World!';\n  v_char CHAR(1) := ',';\n  v_index NUMBER;\nBEGIN\n  v_index := INSTR(v_string, v_char);\n  DBMS_OUTPUT.PUT_LINE('The character ' || v_char || ' is found at position ' || v_index);\nEND;

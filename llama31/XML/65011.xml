@@ -1,1 +1,0 @@
-<system.web>\n  <membership defaultProvider="CustomProvider">\n    <providers>\n      <add name="CustomProvider" type="YourCustomProviderNamespace.YourCustomProviderClass, YourCustomProviderAssembly" />\n    </providers>\n  </membership>\n</system.web>

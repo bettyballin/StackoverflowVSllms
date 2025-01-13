@@ -1,1 +1,0 @@
-import zipfile\n\nwith zipfile.ZipFile('C:\\Python25\\lib\\site-packages\\stompservice-0.1.0-py2.5.egg') as egg_file:\n    egg_file.extractall()

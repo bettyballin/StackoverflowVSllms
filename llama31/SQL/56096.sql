@@ -1,1 +1,0 @@
-CREATE TABLE WideTable (\n    Column1 int,\n    Column2 int,\n    -- ...\n    Column1025 int,\n    -- ...\n    Column30000 int\n)

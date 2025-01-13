@@ -1,1 +1,0 @@
-foreach ($_POST['day'] as $day) {\n    echo $day . "\n";\n}

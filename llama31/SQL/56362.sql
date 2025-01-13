@@ -1,1 +1,0 @@
-CREATE TABLE recurrence_instances (\n  id SERIAL PRIMARY KEY,\n  recurrence_id INTEGER,\n  instance_date DATE,\n  -- other fields...\n);

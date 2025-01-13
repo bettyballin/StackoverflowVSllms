@@ -1,1 +1,0 @@
-$config = file('config.ini', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);\n\n$result = array();\nforeach ($config as $line) {\n    list($key, $value) = explode('=', $line);\n    $result[trim($key)] = trim(trim($value, ';'));\n}\n\nprint_r($result);

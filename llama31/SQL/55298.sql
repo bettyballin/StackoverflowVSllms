@@ -1,1 +1,0 @@
-TRANSFORM FIRST(related_table.value)\nSELECT main_table.id\nFROM main_table\nLEFT JOIN related_table\nON main_table.id = related_table.main_id\nGROUP BY main_table.id\nPIVOT related_table.value;

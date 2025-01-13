@@ -1,1 +1,0 @@
-print(is_ascii('Hello World'))  # Returns: True\nprint(is_ascii('Hëllo World'))  # Returns: False

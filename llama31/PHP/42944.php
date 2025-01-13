@@ -1,1 +1,0 @@
-foreach ($arrFeeds as $i => $values) {\n    $url = filter_var($values['url'], FILTER_VALIDATE_URL);\n    if ($url !== false) {\n        echo "<p><a href='{$url}'>{$values['artist']} - {$values['name']}</a></p>";\n    } else {\n        // Handle invalid URL\n    }\n}

@@ -1,1 +1,0 @@
-declare @foo int\ndeclare @bar int\n\ndeclare @variable_name varchar(10)\nset @variable_name = '@foo'\n\ndeclare @sql nvarchar(max)\nset @sql = N'select @result = ' + @variable_name\n\ndeclare @result int\nexec sp_executesql @sql, N'@result int output', @result output\n\nprint @result

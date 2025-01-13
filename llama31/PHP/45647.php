@@ -1,1 +1,0 @@
-class MyClass {\n    function _myPrivateMethod() {\n        // intended to be private\n    }\n}

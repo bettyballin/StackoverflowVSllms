@@ -1,1 +1,0 @@
-Public ReadOnly Property Images() As ObservableCollection(Of Graphic)\n    Get\n        Return From g In db.Graphic _\n                Order By g.DateAdded Ascending _\n                Select g\n    End Get\nEnd Property

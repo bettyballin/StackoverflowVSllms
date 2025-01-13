@@ -1,1 +1,0 @@
-def make_chatbot_training_data_traceable(data):\n    # Make data traceable to ensure its provenance and integrity\n    traceable_data = make_data_traceable(data)\n    return traceable_data

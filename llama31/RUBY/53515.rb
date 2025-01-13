@@ -1,1 +1,0 @@
-class AddIndexToSchoolsName < ActiveRecord::Migration\n  def change\n    add_index :schools, :name, unique: true\n  end\nend

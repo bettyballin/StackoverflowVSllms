@@ -1,1 +1,0 @@
-SELECT foo.a, (SELECT c \n               FROM bar \n               WHERE foo.a = bar.a) \nFROM foo;\n\n-- Get the execution plan\nEXPLAIN PLAN FOR SELECT foo.a, (SELECT c \n                               FROM bar \n                               WHERE foo.a = bar.a) \n                 FROM foo;\n\n-- Display the execution plan\nSELECT * FROM TABLE(DBMS_XPLAN.DISPLAY_CURSOR);

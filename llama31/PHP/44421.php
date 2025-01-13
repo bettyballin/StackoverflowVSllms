@@ -1,1 +1,0 @@
-<?php\nrequire_once ('../login/connection.php');\n\n// Create a prepared statement\n$stmt = $conn->prepare("SELECT email FROM users");\n$stmt->execute();\n$result = $stmt->get_result();\n\necho "<table>";\nwhile ($row = $result->fetch_assoc()) {\n    echo "<tr><td>" . htmlspecialchars($row['email']) . "</td></tr>";\n}\necho "</table>";\n\n$stmt->close();\n$conn->close();\n?>

@@ -1,1 +1,0 @@
-const message = DOMPurify.sanitize(userInput);\ndisplayNotification(message);

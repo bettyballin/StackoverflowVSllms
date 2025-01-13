@@ -1,1 +1,0 @@
-$dbAdapter = Zend_Db::factory('Pdo_Mysql', array(\n    'host'     => 'your_host',\n    'username' => 'your_username',\n    'password' => 'your_password',\n    'dbname'   => 'your_database'\n));\n\n$dbAdapter->setAttribute(PDO::ATTR_STRINGIFY_FETCHES, false);

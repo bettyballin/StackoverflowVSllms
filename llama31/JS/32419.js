@@ -1,1 +1,0 @@
-// Create a new canvas element\nvar canvas = document.createElement('canvas');\ncanvas.width = 400;\ncanvas.height = 200;\n\n// Get the 2D drawing context\nvar ctx = canvas.getContext('2d');\n\n// Draw a rectangle\nctx.fillStyle = 'rgb(200, 0, 0)';\nctx.fillRect(10, 10, 50, 50);\n\n// Add the canvas to the page\ndocument.body.appendChild(canvas);

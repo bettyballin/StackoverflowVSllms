@@ -1,1 +1,0 @@
-SELECT * FROM items WHERE user_id = ?;

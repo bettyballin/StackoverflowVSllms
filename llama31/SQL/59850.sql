@@ -1,1 +1,0 @@
-SELECT id, colorName\nFROM (\n  SELECT id, colorName,\n         ROW_NUMBER() OVER (PARTITION BY colorName ORDER BY id) AS row_num\n  FROM your_table\n) AS subquery\nWHERE row_num = 1

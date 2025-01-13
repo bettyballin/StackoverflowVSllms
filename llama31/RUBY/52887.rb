@@ -1,1 +1,0 @@
-def process_running?(pid)\n  File.exist?("/proc/#{pid}")\nend

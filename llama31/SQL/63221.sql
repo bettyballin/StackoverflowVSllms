@@ -1,1 +1,0 @@
-CREATE VIEW PetsView AS\nSELECT p.PetId, p.Name, o.Name AS OtherName\nFROM Pets p\nLEFT JOIN PetOtherNames o ON p.PetId = o.PetId

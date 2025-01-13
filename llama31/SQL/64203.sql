@@ -1,1 +1,0 @@
-CREATE TABLE ReportingHierarchy (\n    ID INT PRIMARY KEY,\n    ParentID INT,\n    LevelID INT,\n    -- Other columns...\n);

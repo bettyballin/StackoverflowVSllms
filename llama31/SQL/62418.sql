@@ -1,1 +1,0 @@
-SELECT *\nFROM tasks\nORDER BY done ASC,\n         IF(done = 0, priority DESC, date DESC);

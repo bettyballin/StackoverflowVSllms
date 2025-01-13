@@ -1,1 +1,0 @@
-use CodeCoverage\CodeCoverage;\n\n$coverage = new CodeCoverage();\n$coverage->start();\n\n// Code to be tested here\n\n$coverage->stop();\n$report = $coverage->report();

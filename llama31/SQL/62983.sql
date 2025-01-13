@@ -1,1 +1,0 @@
-CREATE VIEW ActiveUsers AS\nSELECT UserID, Username, Email\nFROM IdentitySystem.dbo.Users\nWHERE IsActive = 1

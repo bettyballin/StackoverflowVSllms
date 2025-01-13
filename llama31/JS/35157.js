@@ -1,1 +1,0 @@
-var sanitizedHtml = SanitizeHtml("<p>Hello <script>alert('XSS')</script> world!</p>");

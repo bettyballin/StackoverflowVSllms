@@ -1,1 +1,0 @@
-BEGIN TRANSACTION\n\nSELECT * FROM widgets WHERE widget_id = @widget_id FOR UPDATE\n\nIF @@ROWCOUNT = 0\nBEGIN\n    INSERT INTO widgets (widget_id, ...) VALUES (@widget_id, ...)\nEND\n\nCOMMIT TRANSACTION

@@ -1,1 +1,0 @@
--- Example of using a single connection and committing transactions in a timely manner\nBEGIN TRANSACTION\n    INSERT INTO TableA (key_id) VALUES (@key_id)\n    INSERT INTO TableB (key_id, ...) VALUES (@key_id, ...)\nCOMMIT TRANSACTION

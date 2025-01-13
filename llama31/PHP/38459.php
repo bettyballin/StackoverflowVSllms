@@ -1,1 +1,0 @@
-preg_match('/^\**/', $line, $match);\n$count = strlen($match[0]);

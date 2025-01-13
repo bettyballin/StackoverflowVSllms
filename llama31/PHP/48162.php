@@ -1,1 +1,0 @@
-$output = "Country=UNITED STATES (US) &City=Scottsdale, AZ &Latitude=33.686 &Longitude=-111.87";\n\npreg_match('/Latitude=([^&]+)/', $output, $latitudeMatch);\npreg_match('/Longitude=([^&]+)/', $output, $longitudeMatch);\n\n$latitude = $latitudeMatch[1];\n$longitude = $longitudeMatch[1];\n\necho "Latitude: $latitude\n";\necho "Longitude: $longitude\n";

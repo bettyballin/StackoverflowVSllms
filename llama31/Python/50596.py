@@ -1,1 +1,0 @@
-# Example: Implement a simplified version of the library's functionality\ndef my_own_implementation():\n    # Implement the necessary functionality\n    pass

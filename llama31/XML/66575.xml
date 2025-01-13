@@ -1,1 +1,0 @@
-<plugin id="plugin.A" name="Plugin A" version="1.0.0">\n  <requires>\n    <import plugin="plugin.B"/>\n  </requires>\n  <!-- your extensions here -->\n</plugin>

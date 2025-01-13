@@ -1,1 +1,0 @@
-$.load('/path/to/content', function() {\n  var newUrl = '/path/to/content?param=value';\n  history.pushState(null, null, newUrl);\n});

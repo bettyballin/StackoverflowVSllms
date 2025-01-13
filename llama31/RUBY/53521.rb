@@ -1,1 +1,0 @@
-class Widget\n  attr_reader :x # Use a getter method instead of direct access\n\n  def initialize\n    @x = nil\n  end\n\n  def utility_method\n    # Do something with @x, but avoid exposing it directly\n    @x = some_computation\n  end\n\n  private\n\n  def some_computation\n    # Perform some calculation and return the result\n  end\nend

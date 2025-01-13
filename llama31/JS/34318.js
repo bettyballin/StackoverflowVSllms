@@ -1,1 +1,0 @@
-function findLongestElement(arr) {\n    let maxLength = 0;\n    for (let i = 0; i < arr.length; i++) {\n        if (arr[i].length > maxLength) {\n            maxLength = arr[i].length;\n        }\n    }\n    return maxLength;\n}

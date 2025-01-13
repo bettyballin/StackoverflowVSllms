@@ -1,1 +1,0 @@
-$connection = new DatabaseConnection();\n\nfunction myFunction(DatabaseConnection $connection) {\n    // Use the connection object\n}\n\nmyFunction($connection);

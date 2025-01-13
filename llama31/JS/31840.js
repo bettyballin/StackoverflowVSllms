@@ -1,1 +1,0 @@
-document.getElementById('swf-container').style.visibility = 'visible';\ndocument.getElementById('swf-container').style.opacity = 1;

@@ -1,1 +1,0 @@
-class myUserClass {\n    private $auth;\n\n    public function __construct($auth) {\n        $this->auth = $auth;\n    }\n\n    public function login($username, $password) {\n        if ($this->auth->login($username, $password)) {\n            // update internal structure\n        }\n    }\n}

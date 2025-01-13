@@ -1,1 +1,0 @@
-<SubSonicService defaultProvider="test">\n    <providers>\n        <clear/>\n        <add name="test" type="YourCustomOracleDataProvider, YourAssembly" connectionStringName="test" generatedNamespace="testdb"/>\n    </providers>\n</SubSonicService>

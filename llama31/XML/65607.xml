@@ -1,1 +1,0 @@
-<key>Exchange</key>\n<dict>\n    <key>Server</key>\n    <string>https://exchange2007.mydomain.com/ews/exchange.asmx</string>\n    <key>UseEWS</key>\n    <true/>\n</dict>

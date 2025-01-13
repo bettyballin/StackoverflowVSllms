@@ -1,1 +1,0 @@
-use Doctrine\ORM\Mapping as ORM;\nuse Symfony\Component\Validator\Constraints as Assert;\n\n/**\n * @ORM\Entity\n */\nclass User\n{\n    /**\n     * @ORM\Column(type="string")\n     * @Assert\NotBlank(message="Username is required")\n     * @Assert\Length(min=3, max=50, message="Username must be between 3 and 50 characters")\n     */\n    private $username;\n}

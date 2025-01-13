@@ -1,1 +1,0 @@
-OpenURLfromLocation = function(response) {\n  var transport = response.transport;\n  var location = transport.getResponseHeader('Location');\n  alert(location);\n}

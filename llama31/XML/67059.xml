@@ -1,1 +1,0 @@
-<jboss-deployment-structure>\n  <ear-subdeployments-isolated>true</ear-subdeployments-isolated>\n  <deployment>\n    <dependencies>\n      <module name="org.picketbox" export="true"/>\n    </dependencies>\n  </deployment>\n</jboss-deployment-structure>

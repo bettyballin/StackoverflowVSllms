@@ -1,1 +1,0 @@
-// Sample configuration\n$config = new \Doctrine\DBAL\Configuration();\n$connectionParams = array(\n    'dbname' => 'your_database',\n    'user' => 'your_user',\n    'password' => 'your_password',\n    'host' => 'your_host',\n    'driver' => 'pdo_pgsql',\n);\n$conn = \Doctrine\DBAL\DriverManager::getConnection($connectionParams, $config);

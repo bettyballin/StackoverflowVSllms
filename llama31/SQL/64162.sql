@@ -1,1 +1,0 @@
-SELECT trigger_name, status\nFROM all_triggers\nWHERE status = 'INVALID';

@@ -1,1 +1,0 @@
-USE msdb\nGO\n\nEXEC sp_update_job \n    @job_name=N'YourJobName',\n    @enabled=1,\n    @start_step_id=1,\n    @schedule_name=N'AutoStartSchedule'\nGO

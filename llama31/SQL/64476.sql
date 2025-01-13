@@ -1,1 +1,0 @@
-SELECT dbo.StripHTML('<B>Some useful text</B>&nbsp;<A onclick="return openInfo(this)" href="http://there.com/3ce984e88d0531bac5349" target=globalhelp><IMG title="Source Description" height=15 alt="Source Description" src="/ri/new_info.gif" width=15 align=top border=0></A>&gt;&nbsp;<b>more text</b>')

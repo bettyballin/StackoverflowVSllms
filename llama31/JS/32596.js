@@ -1,1 +1,0 @@
-function placeMarkerAtPoint(point) {\n    var marker = new google.maps.Marker({\n        position: point,\n        icon: icon,\n        map: map\n    });\n\n    var infowindow = new google.maps.InfoWindow({\n        content: 'here is some text'\n    });\n\n    google.maps.event.addListener(marker, 'click', function() {\n        infowindow.open(map, marker);\n    });\n}

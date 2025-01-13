@@ -1,1 +1,0 @@
-onComplete: function() {\n  var consoleElement = $('console');\n  consoleElement.scrollTop = consoleElement.scrollHeight - consoleElement.clientHeight;\n}

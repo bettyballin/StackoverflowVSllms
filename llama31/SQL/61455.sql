@@ -1,1 +1,0 @@
-CREATE TABLE excel_import (\n  column1 VARCHAR2(255),\n  column2 VARCHAR2(255),\n  ...\n)\nORGANIZATION EXTERNAL (\n  TYPE ORACLE_LOADER\n  DEFAULT DIRECTORY your_directory\n  ACCESS PARAMETERS (\n    RECORDS DELIMITED BY NEWLINE\n    FIELDS TERMINATED BY ','\n    OPTIONALLY ENCLOSED BY '\"'\n  )\n  LOCATION ('path/to/your/excel/file.xlsx')\n);

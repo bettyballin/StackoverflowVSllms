@@ -1,1 +1,0 @@
-SELECT * \nFROM InstanceTable \nWHERE LastUpdatedTime > '2022-01-01'

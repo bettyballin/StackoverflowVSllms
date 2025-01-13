@@ -1,1 +1,0 @@
-function time_to_seconds($time) {\n    list($hours, $minutes, $seconds) = explode(':', $time);\n    return $hours * 3600 + $minutes * 60 + $seconds;\n}\n\n$t1 = time_to_seconds("3:15:00");\n$t2 = time_to_seconds("1:00:00");\n$t3 = time_to_seconds("2:00:00");\n$t4 = time_to_seconds("9:00:00");\n\necho $t1 . "\n";\necho $t2 . "\n";\necho $t3 . "\n";\necho $t4 . "\n";

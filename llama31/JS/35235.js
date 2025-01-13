@@ -1,1 +1,0 @@
-$('label[for="myCb1"]').eq(1).hide();

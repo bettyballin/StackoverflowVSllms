@@ -1,1 +1,0 @@
-$pdo = new PDO("mysql:host=localhost;dbname=database", "username", "password");\n\n$statement = $pdo->prepare("SELECT QNO FROM TABLE ORDER BY RAND() LIMIT 10");\n$statement->execute();\n\n$entries = $statement->fetchAll(PDO::FETCH_COLUMN, 0);\n\nprint_r($entries);

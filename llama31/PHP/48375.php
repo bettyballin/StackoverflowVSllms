@@ -1,1 +1,0 @@
-header('Content-Disposition: attachment; filename="kickstart.cfg"');\nheader('Content-Type: text/plain');\necho $kickstartConfigContent;

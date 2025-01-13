@@ -1,1 +1,0 @@
-from django.contrib.auth.models import User, Group\n\n# Get the group instance\ngroup = Group.objects.get(name='blogger')\n\n# Get the list of users with the specific group\nusers = User.objects.filter(groups=group)\n\n# OR, you can use the __in syntax\nusers = User.objects.filter(groups__name='blogger')

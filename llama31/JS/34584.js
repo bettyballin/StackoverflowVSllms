@@ -1,1 +1,0 @@
-checkUser(function(status) {\n    if (status) {\n        // allow form submission\n    } else {\n        // prevent form submission\n    }\n});

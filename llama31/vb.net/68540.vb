@@ -1,1 +1,0 @@
-Imports System.Windows.Forms.MessageBox\n\nPublic Class MyClass\n    Public Sub MyMethod()\n        Show("Hello, World!") ' Instead of MessageBox.Show("Hello, World!")\n    End Sub\nEnd Class

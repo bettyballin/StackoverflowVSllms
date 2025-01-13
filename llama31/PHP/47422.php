@@ -1,1 +1,0 @@
-echo $_SERVER['PATH_INFO']; // outputs: /articles/edit/1/my-first-article

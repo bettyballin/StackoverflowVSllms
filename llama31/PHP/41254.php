@@ -1,1 +1,0 @@
-$servername = "mail_server_ip_address";\n$username = "your_username";\n$password = "your_password";\n$dbname = "your_database";\n\n$conn = new mysqli($servername, $username, $password, $dbname);\n\nif ($conn->connect_error) {\n    die("Connection failed: " . $conn->connect_error);\n}\n\n// Your PHP code to interact with the database goes here\n\n$conn->close();

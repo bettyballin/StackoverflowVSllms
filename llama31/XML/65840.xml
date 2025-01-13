@@ -1,1 +1,0 @@
-<Project>\n  ...\n  <ItemGroup>\n    <MergeModule Include="Microsoft_VC80_CRT_x86.msm" />\n  </ItemGroup>\n  ...\n</Project>

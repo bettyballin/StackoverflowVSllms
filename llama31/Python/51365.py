@@ -1,1 +1,0 @@
-import subprocess\n\ndef start_bot():\n    # start your irc bot as a separate process\n    subprocess.Popen(["python", "irc_bot.py"])\n\nwhile True:\n    try:\n        start_bot()\n    except Exception as e:\n        print(f"Error: {e}")\n        time.sleep(1)  # wait for 1 second before restarting

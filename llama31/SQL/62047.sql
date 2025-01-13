@@ -1,1 +1,0 @@
-CREATE TABLE example (\n    id NUMBER PRIMARY KEY,\n    large_text CLOB\n);

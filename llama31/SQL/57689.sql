@@ -1,1 +1,0 @@
-SELECT *\nFROM TABLE1 t1\nLEFT OUTER JOIN TABLE2 t2\n  ON \n    CASE \n      WHEN t1.Letter = 'Z' THEN 'A'\n      ELSE CHAR(ASCII(t1.Letter) + 1)\n    END = t2.Letter\n  AND t1.date = t2.date\nWHERE t2.id IS NULL\n  AND NOT EXISTS (\n    SELECT 1\n    FROM TABLE1 t3\n    WHERE t3.date = t1.date\n      AND ASCII(t3.Letter) > ASCII(t1.Letter)\n  )

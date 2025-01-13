@@ -1,1 +1,0 @@
-if (!move_uploaded_file($tmp_name, $destination)) {\n    echo "Error moving file: " . $_FILES['file']['error'];\n}

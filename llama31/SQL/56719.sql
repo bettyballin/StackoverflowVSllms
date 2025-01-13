@@ -1,1 +1,0 @@
-ALTER TABLE fraud_report CONVERT TO CHARACTER SET utf8;

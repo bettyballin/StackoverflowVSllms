@@ -1,1 +1,0 @@
-$password = 'user_input';\n$hashed_password = password_hash($password, PASSWORD_BCRYPT);

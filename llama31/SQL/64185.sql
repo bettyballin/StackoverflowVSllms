@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.ValidatePartNumber (@part_number varchar(30))\nRETURNS int\nAS\nBEGIN\n    DECLARE @exists int\n    SELECT @exists = 1\n    FROM inventory_master\n    WHERE part_number = @part_number AND type = 'C'\n    RETURN @exists\nEND\nGO\n\nALTER TABLE import_table\nADD CONSTRAINT CK_PartNumber CHECK (dbo.ValidatePartNumber(part_number) = 1)

@@ -1,1 +1,0 @@
-import textwrap\n\ntext = "This is a long piece of text that needs to be wrapped."\nwrapped_text = textwrap.fill(text, 20)\nprint(wrapped_text)

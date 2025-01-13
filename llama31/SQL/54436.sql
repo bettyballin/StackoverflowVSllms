@@ -1,1 +1,0 @@
-CREATE POLICY mypolicy ON mytable FOR SELECT\nTO PUBLIC\nUSING (current_user = 'myuser');

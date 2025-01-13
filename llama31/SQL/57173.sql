@@ -1,1 +1,0 @@
-SELECT owner, name, type, text\nFROM DBA_SOURCE\nWHERE UPPER(text) LIKE UPPER('%search_string%');

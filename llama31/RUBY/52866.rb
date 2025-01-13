@@ -1,1 +1,0 @@
-class MyController < ApplicationController\n  def show\n    @resource = Resource.find(params[:id])\n    respond_to do |format|\n      format.html # render html template\n      format.json { render json: @resource } # render json response\n    end\n  end\nend

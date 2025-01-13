@@ -1,1 +1,0 @@
-SELECT name\nFROM aggregations\nWHERE element IN (2, 3)\nGROUP BY name\nHAVING COUNT(DISTINCT element) = 2;

@@ -1,1 +1,0 @@
-$("#link").click(function(e) {\n    e.preventDefault();\n    var url = $(this).attr("href");\n    $("#response").load(url);\n});

@@ -1,1 +1,0 @@
-User.where(name: 'John').to_sql\n# => "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"name\" = 'John'"

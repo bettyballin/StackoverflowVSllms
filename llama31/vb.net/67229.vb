@@ -1,1 +1,0 @@
-Dim amount As Decimal = 10.25D

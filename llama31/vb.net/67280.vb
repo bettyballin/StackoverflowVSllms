@@ -1,1 +1,0 @@
-Imports System.Drawing\n\nPublic Function DoesFontExist(fontName As String) As Boolean\n    Try\n        Dim fontFamily As New FontFamily(fontName)\n        Return True\n    Catch ex As ArgumentException\n        Return False\n    End Try\nEnd Functio

@@ -1,1 +1,0 @@
-const checkbox = document.getElementById('myCheckbox');\n\n// Check if the checkbox is checked\nif (checkbox.checked) {\n  console.log(checkbox.value); // Outputs: "yes"\n} else {\n  console.log("no");\n}

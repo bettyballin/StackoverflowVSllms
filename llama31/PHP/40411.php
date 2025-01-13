@@ -1,1 +1,0 @@
-$attachment = Attachment_Model::factory()->find($id);\n$data = hex2bin($attachment->data);

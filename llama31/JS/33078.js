@@ -1,1 +1,0 @@
-$(function() {\n    $('#jlogin').click(function() {\n        $('#reg').fadeOut('fast').promise().done(function() {\n            $('#login').toggle('fast');\n        });\n    });\n\n    $('#jreg').click(function() {\n        $('#login').fadeOut('fast').promise().done(function() {\n            $('#reg').toggle('fast');\n        });\n    });\n});

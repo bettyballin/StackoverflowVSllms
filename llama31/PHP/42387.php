@@ -1,1 +1,0 @@
-if(strlen($strTemp) > 0)

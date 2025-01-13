@@ -1,1 +1,0 @@
-import os\n\nfd = os.open('sample.log', os.O_WRONLY)\nos.ftruncate(fd, 0)\nos.close(fd)

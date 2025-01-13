@@ -1,1 +1,0 @@
-SELECT *\nFROM orders\nJOIN customers\n  ON orders.customer_id = customers.id AND customers.country = 'USA';

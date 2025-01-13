@@ -1,1 +1,0 @@
-$client = new Zend_Rest_Client('http://localhost/my_application/api/index/');\n$client->getHttpClient()->setConfig(array(\n    'timeout' => 30 // Increase timeout to 30 seconds\n));\n$client->auth($key);\n$result = $client->get();

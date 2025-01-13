@@ -1,1 +1,0 @@
-CREATE PROCEDURE [dbo].[insertSomeDataWrapper] (@myParam int) AS\nBEGIN\n    DECLARE @output TABLE (output_xml varchar(2048));\n    INSERT INTO @output (output_xml)\n    EXEC [dbo].[insertSomeData] @myParam;\nEND\nGO

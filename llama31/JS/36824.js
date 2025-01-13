@@ -1,1 +1,0 @@
-const iframe = document.getElementById('myIframe');\nconst originalSrc = iframe.src;\n\n// Hide div\niframe.src = 'about:blank';\n\n// Show div\niframe.src = originalSrc;

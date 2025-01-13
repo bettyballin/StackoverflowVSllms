@@ -1,1 +1,0 @@
-avigator.sms.send('+1234567890', 'Hello World')\n  .then(() => console.log('SMS sent successfully'))\n  .catch((error) => console.error('Error sending SMS:', error));

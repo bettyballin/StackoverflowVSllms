@@ -1,1 +1,0 @@
-<?php\n// Log download information\n$fp = fopen('download_log.txt', 'a');\nfwrite($fp, date('Y-m-d H:i:s') . " - Downloaded appendix.ps\n");\nfclose($fp);\n\n// Serve the PostScript file\nheader('Content-type: application/postscript');\nheader('Content-Disposition: attachment; filename="appendix.ps"');\nreadfile('appendix.ps.real');\n?>

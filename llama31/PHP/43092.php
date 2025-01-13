@@ -1,1 +1,0 @@
-use Adldap\Adldap;\n\n$adldap = new Adldap();\n$config = [\n    'hosts' => ['your-ad-server.com'],\n    'base_dn' => 'dc=your,dc=domain,dc=com',\n    'username' => 'your-ad-username',\n    'password' => 'your-ad-password',\n];\n$adldap->addProvider($config);\n$username = $adldap->search()->find('(&(objectClass=user)(sAMAccountName=' . $_SERVER['REMOTE_ADDR'] . '))');

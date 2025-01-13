@@ -1,1 +1,0 @@
-<CustomAction Id="CustomAction" BinaryKey="CustomAction.dll" DllEntry="Install" />\n<CustomAction Id="CustomAction" Property="CustomActionData" Value="[TEXTBOX1];[TEXTBOX2]" />

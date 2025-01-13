@@ -1,1 +1,0 @@
-class MyController < ActionController::API\n  def index\n    # Return a JSON response\n    render json: { message: "Hello, World!" }\n  end\nend

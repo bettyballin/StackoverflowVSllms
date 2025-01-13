@@ -1,1 +1,0 @@
-import maya.cmds as cmds\n\ncons = cmds.ls(type='constraint')\nfor con in cons:\n    attrs = cmds.attributeQuery(con, list=True)\n    target_attr = [a for a in attrs if a.endswith('targetList') or a.endswith('target')]\n    targets = cmds.getAttr(con + '.' + target_attr[0])\n    print(targets)

@@ -1,1 +1,0 @@
-$array = explode(".", $row['copy']);\n$a = count($array) - 1;\n$lastElement = $array[$a];

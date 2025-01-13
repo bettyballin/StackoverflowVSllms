@@ -1,1 +1,0 @@
-map.resources :workouts, :path_prefix => '/:user_login', :only => [:show]

@@ -1,1 +1,0 @@
-from lxml import etree\n\n# Parse the XML file\ntree = etree.parse('example.xml')\nroot = tree.getroot()\n\n# Access elements like a list object\nfor elem in root.xpath('//element'):\n    print(elem.text)

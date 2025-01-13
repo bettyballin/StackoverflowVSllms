@@ -1,1 +1,0 @@
-ALTER TABLE Ancestor\nADD CONSTRAINT UC_Ancestor UNIQUE (NodeId, AncestorId);

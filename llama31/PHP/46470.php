@@ -1,1 +1,0 @@
-class MyCompany_MyModule_IndexController extends Mage_Core_Controller_Front_Action\n{\n    public function indexAction()\n    {\n        echo 'Hello World';\n    }\n}

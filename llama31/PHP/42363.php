@@ -1,1 +1,0 @@
-$form = new Zend_Form();\n\n$element = new Zend_Form_Element_Text('element');\n$element->setIsArray(true);\n\n$form->addElement($element);\n\n// in your view script\nforeach ($this->form->getElement('element')->getMultiOptions() as $key => $value) {\n    echo $this->form->getElement('element')->renderViewHelper(array('name' => 'element[' . $key . ']'));\n}

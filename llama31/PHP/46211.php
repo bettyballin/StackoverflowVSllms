@@ -1,1 +1,0 @@
-$date = 'Sun, 21 Jun 2009 20:21:13 +0200';\n$utcDate = gmdate('Y-m-d H:i:s', strtotime($date));\n// Insert $utcDate into your database

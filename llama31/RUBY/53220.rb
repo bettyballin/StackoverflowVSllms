@@ -1,1 +1,0 @@
-my_lambda = -> {\n  # some code here\n}\n\nmy_lambda.call

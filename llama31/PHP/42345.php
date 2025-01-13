@@ -1,1 +1,0 @@
-$date = new DateTime('2022-01-01');\n$date->add(new DateInterval('P5D')); // add 5 days\necho $date->format('Y-m-d'); // outputs 2022-01-06

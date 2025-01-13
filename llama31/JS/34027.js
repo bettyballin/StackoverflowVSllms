@@ -1,1 +1,0 @@
-$('#yourForm').submit(function(event) {\n  event.preventDefault();\n  $.ajax({\n    type: 'POST',\n    url: 'addOrder.php',\n    data: $(this).serialize(),\n    success: function(response) {\n      console.log(response);\n    }\n  });\n});

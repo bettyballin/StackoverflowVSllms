@@ -1,1 +1,0 @@
-SELECT * FROM sys.databases WHERE name = '<old_ssp_database_name>';

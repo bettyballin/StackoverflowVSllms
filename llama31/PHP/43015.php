@@ -1,1 +1,0 @@
-require_once 'Text/Patch.php';\n\n$patch = new Text_Patch($diff->render(new Text_Diff_Renderer_Unified()));\n$updated = $patch->apply($original);

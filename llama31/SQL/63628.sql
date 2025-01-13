@@ -1,1 +1,0 @@
-CREATE NONCLUSTERED INDEX IX_UsageLog_Date_UserID\nON UsageLog (Date, UserID)\nINCLUDE (StoreNumber)

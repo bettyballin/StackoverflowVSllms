@@ -1,1 +1,0 @@
-exec("autossh -f -N -L 3307:DESTINATION_IP:3306 username@SERVER_IP -p 22", $output, $return_var);

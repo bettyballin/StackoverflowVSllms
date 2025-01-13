@@ -1,1 +1,0 @@
-year_id = request.GET['year_id']\nprojectyr = Researchproject.objects.exclude(activeyesno=2).filter(grantstartdt__year=year_id)

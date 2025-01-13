@@ -1,1 +1,0 @@
-+---------------+\n| data          |\n+---------------+\n| not duplicate |\n| duplicate     |\n| duplicate     |\n| second dup    |\n| second dup    |\n+---------------+

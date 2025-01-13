@@ -1,1 +1,0 @@
-SELECT * FROM follows \nINNER JOIN users ON follows.followee_id = users.id \nINNER JOIN messages ON users.id = messages.user_id \nWHERE follows.follower_id = ?;

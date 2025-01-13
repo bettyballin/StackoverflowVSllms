@@ -1,1 +1,0 @@
-BEGIN;\n    -- start a new transaction\n    SAVEPOINT my_savepoint;\n    -- execute your script here\n    -- if an error occurs, roll back to the savepoint\n    ROLLBACK TO SAVEPOINT my_savepoint;\n    -- if no error, release the savepoint\n    RELEASE SAVEPOINT my_savepoint;\nCOMMIT;

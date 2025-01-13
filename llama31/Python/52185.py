@@ -1,1 +1,0 @@
-def integrate_chatbot_training_data_with_sentiment_analysis(data, sentiment_analysis_sources):\n    # Integrate data with sentiment analysis data\n    integrated_data = integrate_data_with_sentiment_analysis(data, sentiment_analysis_sources)\n    return integrated_data

@@ -1,1 +1,0 @@
-DECLARE @string VARCHAR(100)\nSET @string = 'Hello' + CHAR(13) + CHAR(10) + 'World'\nPRINT @string

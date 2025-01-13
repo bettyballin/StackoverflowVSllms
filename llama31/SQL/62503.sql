@@ -1,1 +1,0 @@
-SELECT DISTINCT LEN(CAST(textfield AS VARCHAR(1000))) FROM tablename

@@ -1,1 +1,0 @@
-// file.js\nmodule.exports.add = function(a, b) {\n  return a + b;\n}\n\n// main.js\nconst file = require('./file.js');\nconsole.log(file.add(2, 3)); // outputs 5

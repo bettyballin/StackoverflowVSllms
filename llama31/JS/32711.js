@@ -1,1 +1,0 @@
-function validateString(input) {\n    const regex = /^[a-zA-Z0-9\s!@#$%^*()_+-={}:<>?]+$/;\n    return regex.test(input);\n}\n\n// Test the function\nconsole.log(validateString("Hello World"));  // Returns: true\nconsole.log(validateString("Hello / World"));  // Returns: false\nconsole.log(validateString("Hello & World"));  // Returns: false

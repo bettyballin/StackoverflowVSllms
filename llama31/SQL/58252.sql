@@ -1,1 +1,0 @@
-EXPLAIN SELECT \n    ... \nFROM \n    (SELECT ... ) T1 \nJOIN \n    (SELECT ... ) T2 \nGROUP BY \n    ...;

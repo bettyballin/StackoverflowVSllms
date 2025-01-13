@@ -1,1 +1,0 @@
-ew Ajax.Request('http://url.com', {\n  method: 'GET',\n  ajaxOptions: {\n    username: 'user',\n    password: 'pass'\n  },\n  onSuccess: function(response) {\n    // handle success\n  },\n  onFailure: function(response) {\n    // handle failure\n  }\n});

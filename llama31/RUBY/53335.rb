@@ -1,1 +1,0 @@
-# When using active_record_store\nsession_id = request.session_options[:id]

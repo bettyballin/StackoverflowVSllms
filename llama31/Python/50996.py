@@ -1,1 +1,0 @@
-f1 = open(file1, "r", errors='replace')\ntext = f1.read().replace('\u2018', "'").replace('\u2019', "'")

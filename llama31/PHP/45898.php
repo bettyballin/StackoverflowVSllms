@@ -1,1 +1,0 @@
-$obj = new stdClass();\n$obj->{"foo"} = "bar";\n$obj->{"0"} = "zero";\n\nforeach ($obj as $key=>$value){\n    echo "$key -- $value\n";\n}

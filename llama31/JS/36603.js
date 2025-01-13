@@ -1,1 +1,0 @@
-$.get(url, {sheetnum: $("input#sheetnum").val()}, verifyDb);

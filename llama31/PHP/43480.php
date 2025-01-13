@@ -1,1 +1,0 @@
-require_once 'twilio-php/Services/Twilio.php';\n\n$account_sid = 'your_account_sid';\n$auth_token = 'your_auth_token';\n$client = new Services_Twilio($account_sid, $auth_token);\n\n$message = $client->account->messages->create(array(\n    'From' => 'your_twilio_number',\n    'To' => 'recipient_number',\n    'Body' => 'Hello, world!',\n));

@@ -1,1 +1,0 @@
-// public/js/custom.js\n$(document).ready(function() {\n    $.ajax({\n        type: 'POST',\n        url: '<?php echo $this->url('my-controller', 'my-action'); ?>',\n        data: { /* your data here */ },\n        success: function(response) {\n            // Handle the response from the controller\n        }\n    });\n});

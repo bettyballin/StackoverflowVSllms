@@ -1,1 +1,0 @@
-CREATE TABLE many_rows (\n  id INT PRIMARY KEY,\n  key_name VARCHAR(50),\n  value VARCHAR(255)\n);\n\nCREATE TABLE many_columns (\n  id INT PRIMARY KEY,\n  col1 VARCHAR(255),\n  col2 VARCHAR(255),\n  ...\n  col100 VARCHAR(255)\n);

@@ -1,1 +1,0 @@
-<PropertyGroup>\n  <PostBuildEvent>xcopy /y /d "$(ProjectDir)..\ThirdPartyDlls\*.dll" "$(SolutionDir)MainApplication\$(OutDir)"</PostBuildEvent>\n</PropertyGroup>

@@ -1,1 +1,0 @@
-function RetrievePageContent($url) {\n    $pageContent = file_get_contents($url);\n    return $pageContent;\n}

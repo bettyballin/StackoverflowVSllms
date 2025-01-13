@@ -1,1 +1,0 @@
-SELECT \n  ...\nFROM \n  clients c\nWHERE \n  (SELECT \n     t.id \n   FROM \n     todos t \n   WHERE \n     t.client_id = c.id \n     AND t.timestamp_completed IS NULL \n   ORDER BY \n     t.timestamp_due, \n     t.id \n   LIMIT 1) IS NOT NULL;

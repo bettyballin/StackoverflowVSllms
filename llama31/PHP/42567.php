@@ -1,1 +1,0 @@
-$activeSites = $this->Site->find('all', array('conditions' => array('Site.active' => '1'), 'recursive' => -1));

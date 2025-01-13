@@ -1,1 +1,0 @@
-module YourApp\n  class Application < Rails::Application\n    config.doctype = :html4\n  end\nend

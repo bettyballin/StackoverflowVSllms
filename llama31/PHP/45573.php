@@ -1,1 +1,0 @@
-header('X-Apache-Redirect: /new_url');

@@ -1,1 +1,0 @@
-function cache_file_nonexistence($filename) {\n    if (!file_exists($filename)) {\n        apc_store('file_not_found_'.$filename, 1);\n    }\n}\n\n// Usage:\ncache_file_nonexistence(APPLICATION_PATH . '/controllers/company/LoginController.php');

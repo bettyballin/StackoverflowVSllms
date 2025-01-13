@@ -1,1 +1,0 @@
-function fetchAndDisplay($query) {\n    $result = mysql_query($query);\n    if (!$result) {\n        // handle error\n    }\n    while ($row = mysql_fetch_array($result)) {\n        // display code here\n    }\n}\n\n// usage\nfetchAndDisplay("SELECT * FROM table");

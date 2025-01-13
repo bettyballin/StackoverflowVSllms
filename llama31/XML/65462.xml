@@ -1,1 +1,0 @@
-<File Id="MyDll" Source="$(var.MyProject.TargetDir)MyDll.dll" Version="1.0.0.0" />

@@ -1,1 +1,0 @@
-function fixCase($str) {\n    if (preg_match('/^[a-z]+$/', $str) || preg_match('/^[A-Z]+$/', $str)) {\n        return ucwords(strtolower($str));\n    } else {\n        return $str;\n    }\n}

@@ -1,1 +1,0 @@
-SELECT * \nFROM Questions \nINNER JOIN QuestionKeyword \nON Questions.ID = QuestionKeyword.QuestionID\nINNER JOIN Keywords\nON QuestionKeyword.KeywordID = Keywords.ID\nWHERE Keywords.Keyword LIKE '%es%';

@@ -1,1 +1,0 @@
-<projectDescription>\n    ...\n    <filteredResources>\n        <filter>\n            <id>exclude-third-party</id>\n            <name>Exclude Third-Party Directory</name>\n            <pattern>third-party/</pattern>\n            <type>CONTAINER</type>\n        </filter>\n    </filteredResources>\n    ...\n</projectDescription>

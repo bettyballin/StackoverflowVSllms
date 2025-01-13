@@ -1,1 +1,0 @@
-import numpy as np\n\n# Your signal\nsignal = np.array([23, 26, 28, 22, 48, 49, 51, 49])\n\n# Perform FFT\nfreq_spectrum = np.fft.fft(signal)\n\n# Find the frequency with the highest magnitude\nmax_freq_idx = np.argmax(np.abs(freq_spectrum))\nmax_freq = np.fft.fftfreq(len(signal), d=1)[max_freq_idx]

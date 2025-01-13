@@ -1,1 +1,0 @@
-from pptx import Presentation\n\nprs = Presentation()\ntitle_slide = prs.slides.add_slide(prs.slide_layouts[0])\ntitle_slide.shapes.title.text = 'Hello, World!'\nprs.save('example.pptx')

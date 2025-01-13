@@ -1,1 +1,0 @@
-const iframe = document.getElementById('myIframe');\nconst iframeDoc = iframe.contentDocument || iframe.contentWindow.document;\nconst div = iframeDoc.getElementById('myDiv');\n\n// do something with the div\nconsole.log(div);

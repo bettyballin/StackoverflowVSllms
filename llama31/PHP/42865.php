@@ -1,1 +1,0 @@
-// base.php\nglobal $variable;\necho $variable; // outputs: value

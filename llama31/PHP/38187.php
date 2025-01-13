@@ -1,1 +1,0 @@
-<?php\n$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, 'http://192.168.1.100:80');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_HEADER, true);\ncurl_setopt($ch, CURLOPT_HTTPHEADER, array('Host: www.mydomain.com'));\n$response = curl_exec($ch);\ncurl_close($ch);\necho $response;\n?>

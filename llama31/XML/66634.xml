@@ -1,1 +1,0 @@
-<!-- data.xml -->\n<catalog>\n  <book id="bk101">\n    <author>John Smith</author>\n    <title>XML for Beginners</title>\n  </book>\n  <book id="bk102">\n    <author>Jane Doe</author>\n    <title>XSLT: The Ultimate Guide</title>\n  </book>\n</catalog>

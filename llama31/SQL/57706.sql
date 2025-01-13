@@ -1,1 +1,0 @@
-PARAMETERS [LabourCost] DECIMAL, [LabourHours] DECIMAL, [VAT] DECIMAL;\nSELECT [LabourCost]*[LabourHours]+[VAT] AS Total;

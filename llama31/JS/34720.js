@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('#country').change(function() {\n    var val = $(this).val();\n    if (val == 223) {\n      $('#state').val('').show();\n      $('#othstate').hide();\n    } else {\n      $('#state').val('').hide();\n      $('#othstate').show();\n    }\n  });\n});

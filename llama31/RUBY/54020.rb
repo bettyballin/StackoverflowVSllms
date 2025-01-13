@@ -1,1 +1,0 @@
-class UsersController < ApplicationController\n  def delete\n    @user = User.find(params[:id])\n    @user.destroy\n    redirect_to users_path, notice: "User deleted successfully"\n  end\nend

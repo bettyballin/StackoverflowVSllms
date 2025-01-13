@@ -1,1 +1,0 @@
-$node = new DOMNode(); // assuming you have your DOMNode object\n$attribute = $node->attributes->getNamedItem('attributeName'); // replace 'attributeName' with the name of the attribute you want to remove\nif ($attribute) {\n    $node->removeAttributeNode($attribute);\n}

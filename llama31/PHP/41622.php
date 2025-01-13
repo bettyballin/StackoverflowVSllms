@@ -1,1 +1,0 @@
-// When the form is generated\n$csrfToken = bin2hex(random_bytes(32)); // Generate a random token\n$_SESSION['csrfToken'] = $csrfToken; // Store it in the session\n\n// When the form is submitted\nif ($_POST['csrfToken'] !== $_SESSION['csrfToken']) {\n    // Handle CSRF attack\n}

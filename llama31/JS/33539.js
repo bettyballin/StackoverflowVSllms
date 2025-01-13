@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $("#lowerLayer").click(function(event) {\n        $(this).fadeTo("fast", 0, function() {\n            $(this).hide(0);\n        });\n    });\n\n    $("#lowerLayer").children().click(function(event) {\n        event.stopPropagation();\n    });\n});

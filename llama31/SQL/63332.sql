@@ -1,1 +1,0 @@
-SELECT 'Hello' || CHR(13) || CHR(10) || 'World' AS NewLineText

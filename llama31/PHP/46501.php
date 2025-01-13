@@ -1,1 +1,0 @@
-$path = 'gallery/painting/some_image_name.jpg';\n$file_name = basename($path);\n$file_name = str_replace('_', ' ', pathinfo($file_name, PATHINFO_FILENAME));\n\necho $file_name; // outputs: some image name

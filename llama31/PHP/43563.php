@@ -1,1 +1,0 @@
-$array = array("dog", "elephant", "cat", "bird", "lion");\n\nusort($array, function($a, $b) {\n    return strlen($b) - strlen($a);\n});\n\nprint_r($array);

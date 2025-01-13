@@ -1,1 +1,0 @@
-ALTER TABLE content_link DROP INDEX content_id;

@@ -1,1 +1,0 @@
-// app/Controller/Component/MyComponent.php\nApp::uses('ExcelUtility', 'Vendor/Excel');\n\nclass MyComponent extends Component {\n    public function doSomethingWithExcel() {\n        $excelUtility = new ExcelUtility();\n        // use the ExcelUtility class here\n    }\n}

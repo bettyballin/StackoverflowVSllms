@@ -1,1 +1,0 @@
-God.watch do |w|\n  w.name = 'my_service'\n  w.interval = 30.seconds\n  w.start = '/usr/bin/my_service'\n  w.stop = '/usr/bin/killall my_service'\n  w.restart = '/usr/bin/my_service'\n  w.pid_file = '/var/run/my_service.pid'\n\n  w.behavior(:clean_pid_file)\n\n  w.transition(:up, :start) do |on|\n    on.condition(:process_exits) do |c|\n      c.restart\n    end\n  end\nend

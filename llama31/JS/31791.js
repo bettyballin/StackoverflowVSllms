@@ -1,1 +1,0 @@
-document.getElementById('bar').options[1].selected = true;

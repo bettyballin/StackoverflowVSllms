@@ -1,1 +1,0 @@
-CREATE TABLE customers (\n  id INT PRIMARY KEY NOT NULL,\n  name VARCHAR(255) NOT NULL,\n  email VARCHAR(255) NOT NULL,\n  phone VARCHAR(20) NULL  // optional column\n);

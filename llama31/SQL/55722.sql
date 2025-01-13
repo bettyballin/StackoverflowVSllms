@@ -1,1 +1,0 @@
-ORDER BY \n  CASE \n    WHEN user_id = ? THEN 0 \n    ELSE 1 \n  END,\n  rating DESC,\n  title

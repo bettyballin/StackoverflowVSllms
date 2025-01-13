@@ -1,1 +1,0 @@
-// JavaScript\nvar xhr = new XMLHttpRequest();\nxhr.open('GET', '/your-php-script.php', true);\nxhr.onload = function() {\n    if (xhr.status === 200) {\n        console.log(xhr.responseText);\n    }\n};\nxhr.send();

@@ -1,1 +1,0 @@
-$target = dirname(__DIR__) . '/uploads/';

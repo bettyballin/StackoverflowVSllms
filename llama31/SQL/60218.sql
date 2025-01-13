@@ -1,1 +1,0 @@
-SELECT DISTINCT score\nFROM scores\nORDER BY score DESC\nLIMIT 1 OFFSET 2;

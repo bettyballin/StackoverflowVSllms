@@ -1,1 +1,0 @@
-Public Class ClassB\n    Inherits ClassA\n\n    Public Shared Sub DoWork()\n        Dim test As String = ClassA.SecurityKey\n        ' ...\n    End Sub\nEnd Class

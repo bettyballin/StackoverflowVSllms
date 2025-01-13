@@ -1,1 +1,0 @@
-WITH ranked_actions AS (\n  SELECT userid, action_date,\n  ROW_NUMBER() OVER (PARTITION BY userid ORDER BY action_date) as rn\n  FROM user_actions\n  WHERE action_date >= (SELECT pay_date FROM users WHERE userid = user_actions.userid)\n)\nSELECT u.userid, ra.action_date\nFROM users u\nLEFT JOIN ranked_actions ra ON u.userid = ra.userid AND ra.rn = 1

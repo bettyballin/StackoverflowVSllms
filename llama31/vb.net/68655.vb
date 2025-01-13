@@ -1,1 +1,0 @@
-Dim xdoc As XDocument = _\n    <?xml version="1.0" encoding="utf-8"?>\n    <profiles>\n        <%= From p In _Profiles Select <profile name=<%= p.Name %>>\n                   <%= From i In p.GetProfileItems Select GetProfileItemXml(i) %>\n               </profile> %>\n    </profiles>

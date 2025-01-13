@@ -1,1 +1,0 @@
-$string = "15.11-101-102";\n$pos = strpos($string, "-");\nif ($pos !== false) {\n    echo substr($string, $pos + 1); // outputs "101-102"\n}

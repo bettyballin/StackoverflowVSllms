@@ -1,1 +1,0 @@
-ini_set('session.cookie_domain', '.example.com');\nsession_start();

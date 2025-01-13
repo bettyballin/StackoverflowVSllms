@@ -1,1 +1,0 @@
-SELECT *, ST_Distance_Sphere(location, POINT(:latitude, :longitude)) AS distance\nFROM businesses\nWHERE ST_Distance_Sphere(location, POINT(:latitude, :longitude)) <= 20 * 1609.34\nORDER BY distance ASC;

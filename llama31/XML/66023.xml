@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <modules>\n      <add name="MyModule" type="MyModule"/>\n    </modules>\n    <handlers>\n      <add name="MyHandler" type="MyHandler" path="*.myextension" verb="*"/>\n    </handlers>\n  </system.webServer>\n</configuration>

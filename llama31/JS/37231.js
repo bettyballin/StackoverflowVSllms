@@ -1,1 +1,0 @@
-$("#test2").click(function() {\n    $.getJSON("data.json", function(response) {\n        alert('hi');\n    });\n});

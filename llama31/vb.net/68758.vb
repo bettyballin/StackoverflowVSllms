@@ -1,1 +1,0 @@
-Dim e As Expressions.Expression(Of Func(Of Tthing, Boolean))\ne = Function(thing) Expression.MakeMemberAccess(thing, GetType(IKeyed(Of TKey)).GetProperty("Key")).Equals(1)

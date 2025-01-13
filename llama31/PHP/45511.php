@@ -1,1 +1,0 @@
-$obj = new COM('YourCOMObject');\n$size = $obj->Size();\nvar_dump($size);

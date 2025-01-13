@@ -1,1 +1,0 @@
-CREATE TABLE mytable (\n  myfield VARCHAR2(50) NOT NULL,\n  is_empty NUMBER(1) DEFAULT 0\n);\n\nINSERT INTO mytable (myfield, is_empty) VALUES ('', 1);

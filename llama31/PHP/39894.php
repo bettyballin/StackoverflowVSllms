@@ -1,1 +1,0 @@
-// Create a JSON object\n$userData = array(\n  "name" => "John Doe",\n  "age" => 30,\n  "city" => "New York"\n);\n\n// Convert array to JSON string\n$userDataJson = json_encode($userData);\n\n// Send JSON string to client\nheader('Content-Type: application/json');\necho $userDataJson;

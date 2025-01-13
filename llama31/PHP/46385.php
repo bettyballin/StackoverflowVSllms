@@ -1,1 +1,0 @@
-$fo = fopen("files/data.csv", "rb+");\n$data = array();\nwhile (($row = fgetcsv($fo, 0, ';')) !== FALSE) {\n    $data[] = $row;\n}\nfclose($fo);\n\n// Now you can access your data like this:\nforeach ($data as $row) {\n    $name[] = $row[0];\n    $street[] = $row[1];\n    $country[] = $row[2];\n    $accessories[] = $row[3];\n    $orderdate[] = $row[4];\n}

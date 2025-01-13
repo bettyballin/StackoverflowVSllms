@@ -1,1 +1,0 @@
-// On page 3\n$previous_post_data = unserialize(base64_decode($_POST['previous_post_data']));\n// Now you can access the original POST data in $previous_post_data

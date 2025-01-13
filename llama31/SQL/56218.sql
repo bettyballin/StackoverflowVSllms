@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nORDER BY your_column\nOFFSET (@page_number - 1) * @records_per_page ROWS\nFETCH NEXT @records_per_page ROWS ONLY;

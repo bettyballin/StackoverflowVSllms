@@ -1,1 +1,0 @@
--- Update statistics on relevant tables\nUPDATE STATISTICS YourTable WITH FULLSCAN;\n\n-- Rebuild or reorganize indexes to address fragmentation\nALTER INDEX YourIndex ON YourTable REBUILD;\nALTER INDEX YourIndex ON YourTable REORGANIZE;\n\n-- Use OPTION (RECOMPILE) to avoid parameter sniffing\nEXEC YourStoredProcedure @param1, @param2 OPTION (RECOMPILE);

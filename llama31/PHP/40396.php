@@ -1,1 +1,0 @@
-function bot_install() {\n    // ...\n    wp_die('bot_install function called');\n    // or\n    wp_debug_print_backtrace();\n    // ...\n}

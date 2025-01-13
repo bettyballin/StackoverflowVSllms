@@ -1,1 +1,0 @@
-$db = new MysqliDb ('host', 'username', 'password', 'database');\n$db->where('name', $name);\n$db->where('email', $email);\n$result = $db->get('users');

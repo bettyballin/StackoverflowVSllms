@@ -1,1 +1,0 @@
-Dim db As DAO.Database\nDim ws As DAO.Workspace\n\nSet db = CurrentDb()\nSet ws = DBEngine.Workspaces(0)\n\nws.BeginTrans\n    ' Perform database operations here\n    db.Execute "INSERT INTO myTable (myField) VALUES ('myValue')"\n    \n    ' Commit or rollback the transaction\n    If Err.Number = 0 Then\n        ws.CommitTrans\n    Else\n        ws.Rollback\n    End If\nws.Close

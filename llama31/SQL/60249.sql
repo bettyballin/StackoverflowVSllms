@@ -1,1 +1,0 @@
-SELECT * FROM OPENROWSET('MSOLAP', 'Data Source=<your_server_name>;Initial Catalog=<your_database_name>')

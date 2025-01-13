@@ -1,1 +1,0 @@
-user = User.new("John")\nuser.sensitive_info # NoMethodError: protected method `sensitive_info' called

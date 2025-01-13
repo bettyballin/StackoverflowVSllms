@@ -1,1 +1,0 @@
-IF EXISTS (SELECT 1 FROM msdb.dbo.sysjobs WHERE name = N'JobName')\nBEGIN\n    EXEC msdb.dbo.sp_delete_job @job_name=N'JobName', @delete_unused_schedule=1\nEND\nGO

@@ -1,1 +1,0 @@
-mail($to_address, $subject, $message, $headers, "-f" . $return_path);

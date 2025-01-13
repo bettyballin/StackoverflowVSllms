@@ -1,1 +1,0 @@
-SELECT *\nFROM your_query\nFOR XML RAW, ROOT('inserts'), ELEMENTS;

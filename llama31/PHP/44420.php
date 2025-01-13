@@ -1,1 +1,0 @@
-function errorHandler($errno, $errstr, $errfile, $errline) {\n    // Log the error to a file or email it\n    error_log($errstr . " in " . $errfile . " on line " . $errline, 0);\n    // Return true to prevent the default error handler from running\n    return true;\n}\n\n// Set the custom error handler\nset_error_handler('errorHandler');

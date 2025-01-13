@@ -1,1 +1,0 @@
-$.post("Row/getRowNames", { currRow: "MyRow", offset: 3 },\n    function(rowNames) {\n        console.log(rowNames); // outputs the entire array\n        console.log(rowNames[0]); // outputs the first element of the array\n        // do something with the array...\n    },\n    "json");

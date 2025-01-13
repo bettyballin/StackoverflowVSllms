@@ -1,1 +1,0 @@
-$route = new Zend_Controller_Router_Route(\n    'register', \n    array(\n        'module'     => 'members',\n        'controller' => 'register', \n        'action'     => 'index'\n    ), \n    array(\n        'module' => '([a-z]+)'\n    )\n);

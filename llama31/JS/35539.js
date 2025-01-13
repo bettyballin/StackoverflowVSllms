@@ -1,1 +1,0 @@
-$.ajax({\n  url: '/your-endpoint',\n  success: function(data) {\n    var html = $.parseHTML(data);\n    $('#your-element').append(html);\n  }\n});

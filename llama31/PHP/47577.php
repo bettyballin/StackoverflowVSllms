@@ -1,1 +1,0 @@
-$matrix = buildMatrix($documents);\nlist($U, $S, $V) = svd($matrix);

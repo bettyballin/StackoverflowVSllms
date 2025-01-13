@@ -1,1 +1,0 @@
-<system.webServer>\n    <caching>\n        <profiles>\n            <add extension=".css" policy="CacheUntilChange" kernelCachePolicy="DontCache" />\n            <add extension=".js" policy="CacheUntilChange" kernelCachePolicy="DontCache" />\n        </profiles>\n    </caching>\n</system.webServer>

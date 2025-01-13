@@ -1,1 +1,0 @@
-import requests\n\ndef fetch_user_data(user_id):\n    response = requests.get(f"https://api.example.com/users/{user_id}")\n    return response.json()\n\n# Testing this function would require mocking out the requests library\n# and simulating the API response, which might be more trouble than it's worth.

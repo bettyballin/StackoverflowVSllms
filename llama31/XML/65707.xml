@@ -1,1 +1,0 @@
-<msbuild project="MyWebsite.csproj">\n  <arg value="/property:Configuration=release" />\n  <arg value="/property:DeployOnBuild=true" />\n  <arg value="/property:PublishProfile=FolderProfile" />\n</msbuild>

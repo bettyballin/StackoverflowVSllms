@@ -1,1 +1,0 @@
-<?php\n  $file = 'myfile.zip';\n\n  header('Content-Type: application/zip');\n  header('Content-Disposition: attachment; filename="' . $file . '"');\n  header('Content-Length: ' . filesize($file));\n\n  readfile($file);\n  exit;\n?>

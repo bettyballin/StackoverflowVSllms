@@ -1,1 +1,0 @@
-CREATE TABLE orders (\n  id INT PRIMARY KEY,\n  customer_id INT,\n  order_date DATE\n);\n\nCREATE TABLE order_notes (\n  id INT PRIMARY KEY,\n  order_id INT UNIQUE,\n  notes TEXT,\n  FOREIGN KEY (order_id) REFERENCES orders(id)\n);

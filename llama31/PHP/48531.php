@@ -1,1 +1,0 @@
-$content = 'ZOMFG\n&This is a comment !\non multiple !\nlines.\n(show "Hello, World!");';\n\n$lines = explode_with_continuation($content);\nprint_r($lines);

@@ -1,1 +1,0 @@
-<?php\n  $data = array('message' => 'Hello, Mobile!');\n  header('Content-Type: application/json');\n  echo json_encode($data);\n?>

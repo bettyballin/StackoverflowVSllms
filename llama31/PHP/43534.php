@@ -1,1 +1,0 @@
-$url = 'http://example.com/yourfile.xml'; // replace with the URL of the XML file\n\n$xml = simplexml_load_file($url);\n\nif ($xml === false) {\n    echo "Failed to load XML";\n} else {\n    foreach ($xml->child as $child) {\n        echo $child->grandchild . "\n";\n    }\n}

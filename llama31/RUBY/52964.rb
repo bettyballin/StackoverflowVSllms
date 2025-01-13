@@ -1,1 +1,0 @@
-# app/jobs/my_script_job.rb\nclass MyScriptJob < ApplicationJob\n  queue_as :default\n\n  def perform(*args)\n    # Your script logic here\n    User.all.each do |user|\n      # Do something with user\n    end\n  end\nend

@@ -1,1 +1,0 @@
-var csrfToken = $('#csrf-token').val();\n$.post("", {message: msg, _csrfToken: csrfToken}, function() {\n    // Handle the response\n});

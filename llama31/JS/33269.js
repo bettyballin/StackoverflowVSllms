@@ -1,1 +1,0 @@
-$.ajax({\n    type : "GET",\n    url : 'ajaxtest-content.html',\n    dataType : "html",\n    success: function(data) {\n        alert( $(data).find('#wrapper').html() );\n    },\n    error : function() {\n        alert("Sorry, The requested property could not be found.");\n    }\n});

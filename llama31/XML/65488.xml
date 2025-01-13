@@ -1,1 +1,0 @@
-<RemoveFile Id="RemoveRedundantFiles" Name="*.asp" On="install" />

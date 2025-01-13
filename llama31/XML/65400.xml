@@ -1,1 +1,0 @@
-<result-types>\n  <result-type name="velocity" class="org.apache.struts2.result.VelocityResult"/>\n</result-types>\n\n<action name="login" class="com.example.LoginAction">\n  <result name="success" type="velocity">login.vm</result>\n</action>

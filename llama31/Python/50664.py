@@ -1,1 +1,0 @@
-class Person(Base):\n    # ...\n\n    default_address = relationship('Address', secondary='default_address')

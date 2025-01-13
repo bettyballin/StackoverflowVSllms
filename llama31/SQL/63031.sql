@@ -1,1 +1,0 @@
-SELECT \n  value_column1,\n  (\n    SELECT AVG(value_column1) \n    FROM table1 \n    WHERE datetime_column1 <= t1.datetime_column1 \n    ORDER BY datetime_column1 DESC \n    LIMIT 20\n  ) AS moving_average\nFROM table1 t1\nWHERE datetime_column1 >= '2009-01-01 00:00:00'\nORDER BY datetime_column1;

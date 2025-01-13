@@ -1,1 +1,0 @@
-setlocale(LC_ALL, 'en_EN.UTF-8');

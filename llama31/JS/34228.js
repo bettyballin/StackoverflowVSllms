@@ -1,1 +1,0 @@
-function getArgumentNames(func) {\n  const funcStr = func.toString();\n  const argMatch = funcStr.match(/\(([^)]*)\)/);\n  if (argMatch) {\n    return argMatch[1].split(',').map(arg => arg.trim());\n  } else {\n    return [];\n  }\n}\n\n// Example usage:\nfunction myFunc(a, b, c) {\n  // ...\n}\n\nconsole.log(getArgumentNames(myFunc)); // Output: ["a", "b", "c"]

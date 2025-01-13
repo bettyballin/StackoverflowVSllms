@@ -1,1 +1,0 @@
-if (!$something_important) {\n    echo '<script>window.location.href = "someharmless.php";</script>';\n    exit;\n}

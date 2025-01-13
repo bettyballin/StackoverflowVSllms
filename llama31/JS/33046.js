@@ -1,1 +1,0 @@
-var jsonData;\n\n$.getJSON("panorama.json", function(json) {\n  jsonData = json;\n  console.log(jsonData); // logs the JSON data\n  // Call a function that uses the jsonData\n  useJsonData();\n});\n\nfunction useJsonData() {\n  console.log(jsonData); // logs the JSON data\n}

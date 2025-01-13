@@ -1,1 +1,0 @@
-SELECT * FROM sys.server_principals WHERE name = 'Domain\TestGroup';

@@ -1,1 +1,0 @@
-INSERT INTO session (session_id, session_data) VALUES (?, ?)

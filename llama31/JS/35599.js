@@ -1,1 +1,0 @@
-function map(fn, context, arr) {\n  return arr.map(function(item) {\n    return fn.call(context, item);\n  });\n}

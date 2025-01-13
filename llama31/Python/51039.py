@@ -1,1 +1,0 @@
-import requests\n\nresponse = requests.get('https://www.example.com/link/sublink', auth=('username', 'password'), verify='/path/to/ca.crt')\n\nprint(response.content)

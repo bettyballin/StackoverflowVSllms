@@ -1,1 +1,0 @@
-minChars: function() {\n    var currentValue = $($.jqId("requestQueuesText"), $theForm).val();\n    return currentValue && currentValue.length >= 1 ? 1 : 0;\n}

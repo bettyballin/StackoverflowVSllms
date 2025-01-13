@@ -1,1 +1,0 @@
-var isIE6 = (navigator.userAgent.indexOf("MSIE 6") != -1) && (navigator.userAgent.indexOf("Opera") == -1);

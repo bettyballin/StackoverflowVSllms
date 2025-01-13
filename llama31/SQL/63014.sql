@@ -1,1 +1,0 @@
-DECLARE @date DATETIME\nSET @date = DATEFROMPARTS(@year, @month, @day)\nSELECT @date

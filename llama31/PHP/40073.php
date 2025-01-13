@@ -1,1 +1,0 @@
-// Example of input validation and sanitization\n$input = $_GET['user_input'];\n$validatedInput = filter_var($input, FILTER_SANITIZE_STRING);

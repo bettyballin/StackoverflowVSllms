@@ -1,1 +1,0 @@
-DECLARE @SearchQuery AS NVARCHAR(100) = 'yellow bird'\nDECLARE @Sql AS NVARCHAR(MAX) = ''\n\nSELECT @Sql += 'CONTAINS(Name, N''FORMSOF(Thesaurus, ' + value + '')'') AND '\nFROM STRING_SPLIT(@SearchQuery, ' ')\n\nSET @Sql = 'SELECT Id, Name FROM dbo.FooBars WHERE ' + LEFT(@Sql, LEN(@Sql) - 5)\n\nEXEC sp_executesql @Sql

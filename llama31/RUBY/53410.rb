@@ -1,1 +1,0 @@
-# config/initializers/session_store.rb\nRails.application.config.session_store :redis_store, \n  redis_options: { \n    url: "redis://your-redis-server:6379" \n  }

@@ -1,1 +1,0 @@
-Public MustInherit Class DataAccessClass\n    Public Sub DoMagix()\n        Dim myType As Type = Me.GetType()\n        Console.WriteLine(myType.Name)\n    End Sub\nEnd Class\n\nPublic Class FooDAL\n    Inherits DataAccessClass\nEnd Class\n\nPublic Class WeeDAL\n    Inherits DataAccessClass\nEnd Class

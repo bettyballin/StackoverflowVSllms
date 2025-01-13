@@ -1,1 +1,0 @@
-import chardet\n\ndef is_valid_utf8(data):\n    result = chardet.detect(data)\n    return result['encoding'] == 'utf-8'

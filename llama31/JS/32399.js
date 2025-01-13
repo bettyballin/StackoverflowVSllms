@@ -1,1 +1,0 @@
-const html = '<p>Hello <strong>world</strong>!</p><script>alert("xss")</script><style>body { background-color: #f2f2f2; }</style>';\n\nconst regex = /<(?:script|style).*?>.*?<\/(?:script|style)>|<.*?>/gs;\nconst text = html.replace(regex, '');\n\nconsole.log(text); // Output: "Hello world!"

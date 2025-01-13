@@ -1,1 +1,0 @@
-<taskdef name="xsd2sql" classname="Xsd2Sql">\n    <classpath>\n        <pathelement location="xsd2db.jar"/>\n    </classpath>\n</taskdef>\n\n<target name="generate-sql-schema">\n    <xsd2sql xsdfile="path/to/your/xsd/file.xsd" dbschema="your_schema_name" dbtype="oracle11"/>\n</target>

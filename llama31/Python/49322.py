@@ -1,1 +1,0 @@
-from pyramid.config import Configurator\nfrom pyramid.response import Response\n\ndef hello_world(request):\n    return Response(body='{"hello": "world"}', content_type='application/json')\n\nconfig = Configurator()\nconfig.add_route('hello', '/')\nconfig.add_view(hello_world, route_name='hello')

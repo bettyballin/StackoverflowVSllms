@@ -1,1 +1,0 @@
-SELECT * FROM Orders o\nWHERE (SELECT COUNT(*) FROM Orders o2 WHERE o2.TotalOrder > o.TotalOrder) < 6

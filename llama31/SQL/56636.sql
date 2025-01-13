@@ -1,1 +1,0 @@
-SELECT firstName, lastName, address FROM table1 WITH (INDEX(idx_table1_firstName)) WHERE firstName = :p1;

@@ -1,1 +1,0 @@
-def subdivided_icosahedron(vertices, level):\n    if level == 0:\n        return vertices\n    else:\n        new_vertices = []\n        for v1, v2, v3 in vertices:\n            new_triangles = subdivide_triangle(v1, v2, v3)\n            new_vertices.extend(new_triangles)\n        return subdivided_icosahedron(new_vertices, level - 1)

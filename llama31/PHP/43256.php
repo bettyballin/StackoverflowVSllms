@@ -1,1 +1,0 @@
-$doc = new DOMDocument();\n$doc->loadHTML($your_html_string);\n$doc->formatOutput = true;\necho $doc->saveHTML();

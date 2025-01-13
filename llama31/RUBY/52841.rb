@@ -1,1 +1,0 @@
-Dir.glob('**/*.tex').each { |f| File.rename(f, f.sub(/\.tex$/, '')) }

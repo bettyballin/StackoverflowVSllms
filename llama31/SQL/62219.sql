@@ -1,1 +1,0 @@
-SELECT id, description, count\nFROM (\n  SELECT id, description, COUNT(*) as count,\n         ROW_NUMBER() OVER (PARTITION BY id ORDER BY COUNT(*) DESC) as row_num\n  FROM your_table\n  GROUP BY id, description\n) AS subquery\nWHERE row_num = 1;

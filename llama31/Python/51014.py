@@ -1,1 +1,0 @@
-from multiprocessing import Pipe, Process\n\ndef child(conn):\n    data = conn.recv()\n    print("Child received:", data)\n\nif __name__ == '__main__':\n    parent_conn, child_conn = Pipe()\n    p = Process(target=child, args=(child_conn,))\n    p.start()\n    parent_conn.send("Hello, child!")\n    p.join()

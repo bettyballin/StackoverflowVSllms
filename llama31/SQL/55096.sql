@@ -1,1 +1,0 @@
-CREATE TABLE ComparisonData (\n    Id INT PRIMARY KEY,\n    Data varbinary(max)\n);

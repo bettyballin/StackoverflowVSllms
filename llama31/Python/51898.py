@@ -1,1 +1,0 @@
-class User:\n    def __init__(self):\n        self.data = []\n        self.other_data = []\n\n    def doSomething(self, source):\n        data = getattr(self, source)\n        # do something with data\n\nuser = User()\nuser.doSomething('other_data')

@@ -1,1 +1,0 @@
-use GIF\GIF;\n\n$gif = new GIF('input.gif');\n$gif->addWatermark('watermark.png', 'bottom-right');\n$gif->removeFrames(2); // remove every 2nd frame\n$gif->save('output.gif');

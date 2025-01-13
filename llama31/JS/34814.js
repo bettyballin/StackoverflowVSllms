@@ -1,1 +1,0 @@
-$.ajax({\n  type: "GET",\n  url: "/get-portlet-order",\n  success: function(data) {\n    var portletOrder = data.order;\n    $( ".portlet" ).each(function() {\n      var portletId = $(this).attr("id");\n      var index = $.inArray(portletId, portletOrder);\n      if (index !== -1) {\n        $(this).appendTo($(".column").eq(index));\n      }\n    });\n  }\n});

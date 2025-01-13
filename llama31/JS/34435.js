@@ -1,1 +1,0 @@
-// In your main JavaScript file\nfrm.submit(function () {\n    if (frm.validate()) {\n        var data = frm.serialize();\n        jQuery.ajax({\n            url: ajaxUrl,\n            type: 'POST',\n            data: data,\n            dataType: "html",\n            success: function (data) {\n                // ...\n            }\n        });\n    }\n    return false;\n});

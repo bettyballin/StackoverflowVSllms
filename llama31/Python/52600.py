@@ -1,1 +1,0 @@
-import csv\nimport io\n\nc = "1, 2, 3, 4\n5, 6, 7, 8\n"\ntest = csv.reader(io.StringIO(c))\nfor t in test:\n    print(t)

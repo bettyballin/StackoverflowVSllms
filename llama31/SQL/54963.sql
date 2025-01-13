@@ -1,1 +1,0 @@
-DECLARE @dbName nvarchar(50)\nSET @dbName = CASE WHEN @@SERVERNAME = 'development' THEN 'db1-development' ELSE 'db1-production' END\n\nEXEC ('SELECT * FROM [' + @dbName + '].[schema].[table]')

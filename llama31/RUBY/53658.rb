@@ -1,1 +1,0 @@
-# In your partial\n<%\n  f = MyFormBuilder.new(object_name, object, self, {}, proc {})\n%>

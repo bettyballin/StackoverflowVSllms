@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION sp_list_name(p_start_name VARCHAR)\nRETURNS SETOF v_player AS $$\nDECLARE\n    r_player  v_player%ROWTYPE;\nBEGIN\n    FOR r_player IN\n        SELECT first_name, last_name FROM v_player WHERE last_name LIKE $1 || '%'\n    LOOP\n        RETURN NEXT r_player;\n    END LOOP;\n    RETURN;\nEND;\n$$ LANGUAGE plpgsql;

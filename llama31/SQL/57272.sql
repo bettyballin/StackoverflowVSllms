@@ -1,1 +1,0 @@
-ALTER TABLE your_table\nADD CONSTRAINT uc_url UNIQUE (url);

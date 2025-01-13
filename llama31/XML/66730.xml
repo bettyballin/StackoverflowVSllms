@@ -1,1 +1,0 @@
-<configuration>\n  <system.applicationHost>\n    <applicationPools>\n      <add name="YourAppPool" recycling.periodicRestart.memory="0" />\n    </applicationPools>\n  </system.applicationHost>\n</configuration>

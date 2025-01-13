@@ -1,1 +1,0 @@
-setcookie('your_cookie_name', 'your_cookie_value', time() + 1209600, '/', '.yourdomain.com');

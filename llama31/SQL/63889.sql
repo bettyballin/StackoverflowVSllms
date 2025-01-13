@@ -1,1 +1,0 @@
-SELECT AuditFieldID, AuditValue, AuditDate\nFROM (\n    SELECT \n        AuditFieldID,\n        AuditValue,\n        AuditDate,\n        RANK() OVER (PARTITION BY AuditFieldID ORDER BY AuditDate DESC) AS Rank\n    FROM Tbl\n) AS Subquery\nWHERE Rank = 1;

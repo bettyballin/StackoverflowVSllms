@@ -1,1 +1,0 @@
-DECLARE @new_value VARCHAR(50)\n\nSELECT @new_value = field1 + ' - ' + field2\nFROM table\nWHERE field1 = 'somevalue'\n\nUPDATE table\nSET field1 = @new_value\nWHERE field1 = 'somevalue'

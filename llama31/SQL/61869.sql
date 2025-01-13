@@ -1,1 +1,0 @@
-INSERT INTO your_table (nid, realm)\nSELECT nid, 'domain_site'\nFROM your_table\nWHERE nid NOT IN (SELECT nid FROM your_table WHERE realm = 'domain_site')

@@ -1,1 +1,0 @@
-SELECT loginid \nFROM affiliates \nWHERE id NOT IN (SELECT affiliates_id FROM referrers);

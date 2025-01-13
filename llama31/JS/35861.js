@@ -1,1 +1,0 @@
-var element = document.getElementById('myElement');\nsetAttribute(element, 'myAttribute', 'myValue');

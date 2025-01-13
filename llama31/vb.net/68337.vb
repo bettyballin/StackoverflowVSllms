@@ -1,1 +1,0 @@
-Public Class Utilities\n    Public Shared Function IsValidEmail(email As String) As Boolean\n        ' implementation\n    End Function\n\n    Public Shared Function GetHash(input As String) As String\n        ' implementation\n    End Function\nEnd Class

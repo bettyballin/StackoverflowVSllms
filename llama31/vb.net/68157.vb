@@ -1,1 +1,0 @@
-Sub MyMethod(Optional ByVal name As String = "Default Name")\n    Console.WriteLine(name)\nEnd Sub

@@ -1,1 +1,0 @@
-if (isset($_FILES['file'])) {\n    $file = $_FILES['file'];\n    // Process the file...\n    move_uploaded_file($file['tmp_name'], './imgs/curdesktop.png');\n    file_put_contents('./nin.txt', print_r($file, true));\n}

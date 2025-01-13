@@ -1,1 +1,0 @@
-LOAD DATA\nINFILE 'script.sql'\nBADFILE 'script.bad'\nDISCARDFILE 'script.dsc'\nAPPEND\nINTO TABLE your_table_name\nFIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '\"'\n(\n  column1,\n  column2,\n  ...\n)

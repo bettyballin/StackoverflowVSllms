@@ -1,1 +1,0 @@
-UPDATE YourTable\nSET YourDateTimeField = SWITCHOFFSET(CONVERT(datetimeoffset, YourDateTimeField), '+00:00');

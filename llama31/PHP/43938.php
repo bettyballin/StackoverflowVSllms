@@ -1,1 +1,0 @@
-// Example using PHPBench\nuse PhpBench\Benchmark\Metadata\Annotations\BeforeMethods;\nuse PhpBench\Benchmark\Metadata\Annotations\AfterMethods;\n\nclass MyBenchmark\n{\n    /**\n     * @BeforeMethods({"setUp"})\n     * @AfterMethods({"tearDown"})\n     */\n    public function benchMyCode()\n    {\n        // Your PHP code here\n    }\n}

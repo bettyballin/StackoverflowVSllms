@@ -1,1 +1,0 @@
-$.ajax({\n    url: "/ajax/test",\n    type: "POST",\n    dataType: "html",\n    contentType: "application/json",\n    data: '{"keyword" : "' + $('#tbxBrand').val() + '", "projectguid" : "<%= thisProject.ProjectGuid.ToString() %>", "userguid" : "<%= thisUser.UserGuid.ToString() %>"}',\n    beforeSend: function() { },\n    success: function(data) {\n        alert(data);\n    }\n});

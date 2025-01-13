@@ -1,1 +1,0 @@
-class Model_Table_Company implements GatewayInterface\n{\n    public function find($id)\n    {\n        // implementation\n    }\n\n    public function fetchAll()\n    {\n        // implementation\n    }\n}

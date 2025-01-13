@@ -1,1 +1,0 @@
-ini_set('display_errors', 'Off');\nerror_reporting(0); // This will also prevent errors from being displayed

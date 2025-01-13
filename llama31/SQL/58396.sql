@@ -1,1 +1,0 @@
-SET IDENTITY_INSERT CommReceipt ON\n\nDELETE FROM CommReceipt WHERE CR_Key = <id>\n\nINSERT INTO CommReceipt (CR_Key, ...) VALUES (<id>, ...)\n\nSET IDENTITY_INSERT CommReceipt OFF

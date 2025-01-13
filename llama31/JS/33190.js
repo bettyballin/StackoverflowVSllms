@@ -1,1 +1,0 @@
-[\n  { value: 1, label: 'Option 1' },\n  { value: 2, label: 'Option 2' },\n  { value: 3, label: 'Option 3' }\n]

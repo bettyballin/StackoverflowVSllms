@@ -1,1 +1,0 @@
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">\n  <!-- ... -->\n  <ItemGroup>\n    <Folder Include="FILES\" />\n  </ItemGroup>\n  <Target Name="CopyFiles">\n    <Copy SourceFiles="@(Folder)" DestinationFiles="@(Folder->'$(OutputPath)%(RecursiveDir)%(Filename)%(Extension)')" />\n  </Target>\n  <!-- ... -->\n</Project>

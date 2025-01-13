@@ -1,1 +1,0 @@
-$mysql_date_string = date('Y-m-d H:i:s', $php_unix_timestamp);

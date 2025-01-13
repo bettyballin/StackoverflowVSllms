@@ -1,1 +1,0 @@
-SELECT \n    CONVERT(VARCHAR(5), DATEADD(mi, -DATEPART(mi, MyDate) % 15, MyDate), 108) AS TimeBlock,\n    COUNT(ID) AS Count\nFROM \n    MyTable\nGROUP BY \n    CONVERT(VARCHAR(5), DATEADD(mi, -DATEPART(mi, MyDate) % 15, MyDate), 108)\nORDER BY \n    TimeBlock;

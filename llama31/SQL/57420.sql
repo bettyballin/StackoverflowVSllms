@@ -1,1 +1,0 @@
-SELECT DISTINCT name, location_id, application_id \nFROM apps \nWHERE location_id IN (SELECT location_id FROM locations WHERE /*condition*/) \nAND application_id IN (SELECT application_id FROM applications WHERE /*condition*/)

@@ -1,1 +1,0 @@
-tree_view.selection.selected_each do |model, path, iter|\n  puts model.get_value(iter, 0)\nend

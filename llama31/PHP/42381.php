@@ -1,1 +1,0 @@
-// Use a middleware in Laravel\nclass MyFilter implements Illuminate\Contracts\Http\Middleware\n{\n    public function handle(Request $request, Closure $next)\n    {\n        // do something with request parameters\n        return $next($request);\n    }\n}

@@ -1,1 +1,0 @@
-JHtml::_('behavior.framework', true);

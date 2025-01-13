@@ -1,1 +1,0 @@
-SELECT c.ClaimNumber, a.ItemDate, c.DTN, b.FilePath\nFROM keygroupdata c\nINNER JOIN itempages b ON c.ItemNum = b.ItemNum\nINNER JOIN items a ON b.ItemNum = a.ItemNum\nWHERE a.ItemType IN (112, 115, 189, 241)\nORDER BY a.DateStored DESC;

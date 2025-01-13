@@ -1,1 +1,0 @@
-const url = 'https://example.com/really/long/url/that/exceeds/max/width';\nconst maxLength = 50;\nconst truncatedUrl = truncateUrl(url, maxLength);\nconsole.log(truncatedUrl); // Output: "https://example.com/really.../width"

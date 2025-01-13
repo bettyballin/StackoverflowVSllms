@@ -1,1 +1,0 @@
-arr = [1, 51, 3, 1, 100, 199, 3]\nmax_sum = max_non_adjacent_subsequence(arr)\nprint(max_sum)  # Output: 251

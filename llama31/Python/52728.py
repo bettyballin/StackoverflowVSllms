@@ -1,1 +1,0 @@
-import struct\n\nfin = open("hi.bmp", "rb")\nfirm = fin.read(2)\nfile_size = struct.unpack('i', fin.read(4))[0]

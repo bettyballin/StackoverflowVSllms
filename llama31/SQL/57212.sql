@@ -1,1 +1,0 @@
-CREATE TABLE cities (\n  id INTEGER PRIMARY KEY AUTOINCREMENT,\n  web_id INTEGER NOT NULL,  // Web Primary ID\n  name TEXT NOT NULL,\n  // other columns...\n);

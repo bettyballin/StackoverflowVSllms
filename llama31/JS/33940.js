@@ -1,1 +1,0 @@
-$("#outerDiv").draggable({\n  handle: "#innerDiv"\n});

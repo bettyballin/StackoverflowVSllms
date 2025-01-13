@@ -1,1 +1,0 @@
-class MyDateOnlyModel < ActiveRecord::Base\n  def effective_date\n    read_attribute(:effective_date).to_date\n  end\nend

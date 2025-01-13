@@ -1,1 +1,0 @@
-CREATE UNIQUE INDEX UX_MyTable_MyColumn ON MyTable (MyColumn)\nWHERE MyColumn IS NOT NULL;

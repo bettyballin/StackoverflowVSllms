@@ -1,1 +1,0 @@
-Array\n(\n    [0] => Array\n        (\n            [0] => %hey%\n            [1] => %rockstar%\n            [2] => %there%\n        )\n\n)

@@ -1,1 +1,0 @@
-SELECT DISTINCT `payer_email` AS `email`\nFROM `database1`.`paypal_table`\nLEFT JOIN `database2`.`Unsubscribers`\n  ON `paypal_table`.`payer_email` = `Unsubscribers`.`email`\nWHERE `Unsubscribers`.`email` IS NULL

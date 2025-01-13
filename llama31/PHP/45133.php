@@ -1,1 +1,0 @@
-// Input video file\n$videoFile = 'input.mp4';\n\n// Set the output format to MP3\nheader('Content-Type: audio/mpeg');\nheader('Content-Disposition: attachment; filename="output.mp3"');\n\n// Execute ffmpeg command\n$command = "ffmpeg -i $videoFile -vn -ar 44100 -ac 2 -ab 192k -f mp3 pipe:1";\npassthru($command);

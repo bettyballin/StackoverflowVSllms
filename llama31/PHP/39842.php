@@ -1,1 +1,0 @@
-<div class="newlogo">\n    <a href="<?php echo home_url(); ?>">\n        <?php echo wp_get_attachment_image(get_attachment_id_by_name('newlogo.PNG'), 'full'); ?>\n    </a>\n</div>

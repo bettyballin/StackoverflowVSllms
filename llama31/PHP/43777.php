@@ -1,1 +1,0 @@
-// config/auth.php\n\nuse Cake\Auth\BaseAuthenticate;\n\n'passwordHasher' => [\n    'className' => 'PerlCrypt',\n],

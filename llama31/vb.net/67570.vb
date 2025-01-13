@@ -1,1 +1,0 @@
-For Each CurrentTask As Task In _MasterTaskList\n    Dim itemDisplay As New ItemDisplay(CurrentTask.Name, CurrentTask.Optional)\n    clstTasks.Items.Add(itemDisplay, True)\nNext

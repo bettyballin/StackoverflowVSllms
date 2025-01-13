@@ -1,1 +1,0 @@
-# app/models/upload.rb\nclass Upload < ApplicationRecord\n  has_one_attached :file\nend

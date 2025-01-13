@@ -1,1 +1,0 @@
-EXEC sp_addrolemember 'db_ddladmin', 'username'

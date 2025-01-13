@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>net.sf.jsqlparser</groupId>\n    <artifactId>jsqlparser</artifactId>\n    <version>4.2</version>\n</dependency>

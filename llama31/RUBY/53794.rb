@@ -1,1 +1,0 @@
->> Time.zone.parse(Feedback.last.created_at.to_s)\n=> Mon Jun 22 00:06:09 UTC 2009

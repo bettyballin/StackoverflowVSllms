@@ -1,1 +1,0 @@
-DELETE t1\nFROM my_table t1\nINNER JOIN my_table t2\nWHERE t1.id < t2.id AND t1.ref_id = t2.ref_id AND t1.type = t2.type;

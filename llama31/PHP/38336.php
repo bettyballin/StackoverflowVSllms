@@ -1,1 +1,0 @@
-private function getValidLanguage(): Language {\n    $language = $this->myParameters->getLanguage();\n    if (is_null($language) || !$language->isValid()) {\n        throw new Exception('Language must be valid.');\n    }\n    return $language;\n}

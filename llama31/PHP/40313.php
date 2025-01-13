@@ -1,1 +1,0 @@
-if (($_FILES["image$i"]["type"] == "image/gif")\n|| ($_FILES["image$i"]["type"] == "image/jpeg")\n|| (($_FILES["image$i"]["type"] == "image/png" ) && ($_FILES["image$i"]["size"] < 500000)))

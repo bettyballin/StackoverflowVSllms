@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION varchar_to_int(p_input text, p_default integer)\n  RETURNS integer AS\n$$\nBEGIN\n  RETURN p_input::integer;\nEXCEPTION\n  WHEN invalid_text_representation THEN\n    RETURN p_default;\nEND;\n$$\nLANGUAGE plpgsql IMMUTABLE;

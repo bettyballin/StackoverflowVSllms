@@ -1,1 +1,0 @@
-// FinishOrdersCronJob.php\nclass FinishOrdersCronJob extends CronJob {\n    public function execute() {\n        // Finish orders logic here\n        $orders = Order::getPendingOrders();\n        foreach ($orders as $order) {\n            // Process order...\n        }\n        $this->log('Finished processing orders');\n    }\n}

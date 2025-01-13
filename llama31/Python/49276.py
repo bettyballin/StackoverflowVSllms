@@ -1,1 +1,0 @@
-data = data.decode('windows-1252', 'replace')

@@ -1,1 +1,0 @@
-class Universe:\n    def answer(self):\n        return 42\n\ndef show_answer(thing):\n    print(thing.answer())\n\nu = Universe()\nshow_answer(u)  # prints 42\n\nclass FakeUniverse:\n    def answer(self):\n        return " fake answer"\n\nfu = FakeUniverse()\nshow_answer(fu)  # prints " fake answer"

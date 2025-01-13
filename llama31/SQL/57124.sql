@@ -1,1 +1,0 @@
-SELECT\n    gl.LAT AS Lat,\n    gl.LON AS Lon\nFROM\n    Address_Location WITH(NOLOCK) AS al\nINNER JOIN\n    GIS_Location WITH(NOLOCK) AS gl\nON\n    al.City = gl.City AND al.[State] = gl.[State]\nWHERE\n    al.ID IN (SELECT TOP 100 ID FROM Address_Location WITH(NOLOCK) ORDER BY ID DESC)

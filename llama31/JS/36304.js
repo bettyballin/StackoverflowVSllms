@@ -1,1 +1,0 @@
-$('#externalButton').on('click', function() {\n  var xhr = new XMLHttpRequest();\n  xhr.open('POST', $('#MyForm').attr('action'), true);\n  xhr.onload = function() {\n    if (xhr.status === 200) {\n      console.log('Form submitted successfully');\n    }\n  };\n  xhr.send(new FormData($('#MyForm')[0]));\n});

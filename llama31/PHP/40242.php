@@ -1,1 +1,0 @@
-$start1 = hrtime(true);\nfor ($i = 0; $i < count($array); $i++) {\n    // do something\n}\n$time1 = hrtime(true) - $start1;

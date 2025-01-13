@@ -1,1 +1,0 @@
-function clean_url_var($var) {\n  $var = filter_var($var, FILTER_SANITIZE_STRING);\n  $var = trim($var);\n  return $var;\n}

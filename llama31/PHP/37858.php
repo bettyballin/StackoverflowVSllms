@@ -1,1 +1,0 @@
-function processUpdate($table, $id) {\n    $email = addslashes($_POST['email']);\n    $lname = addslashes($_POST['lname']);\n    $fname = addslashes($_POST['fname']);\n    // ...\n}

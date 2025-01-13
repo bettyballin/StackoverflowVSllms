@@ -1,1 +1,0 @@
-SELECT \n    type, \n    name, \n    schema_name(schema_id) as schema_name\nFROM \n    sys.objects\nWHERE \n    name LIKE 'your_prefix%' \n    AND type IN ('U', 'V', 'FN', 'IF', 'PK');  -- tables, views, functions, indexes, primary keys

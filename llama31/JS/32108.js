@@ -1,1 +1,0 @@
-$("input#title").get(0).maxLength = 25;\n\n$("input#title").get(0).onpropertychange = function() {\n  limitMe(event, this);\n};\n\nfunction limitMe(evt, txt) {\n  if (evt.which && evt.which == 8) return true;\n  else return (txt.value.length < txt.maxLength);\n}

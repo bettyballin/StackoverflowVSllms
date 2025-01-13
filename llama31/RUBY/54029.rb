@@ -1,1 +1,0 @@
-def textile_to_html\n  text = request.raw_post\n  # ...\nend

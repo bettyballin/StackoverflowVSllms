@@ -1,1 +1,0 @@
-USE msdb\nGO\n\nCREATE ROLE CustomDeveloperRole\nGO\n\nGRANT EXECUTE ON SCHEMA::dbo TO CustomDeveloperRole\nGO\n\nGRANT SELECT, INSERT, UPDATE, DELETE ON OBJECT::dbo.sysjobs TO CustomDeveloperRole\nGO\n\nGRANT SELECT ON OBJECT::dbo.sysschedules TO CustomDeveloperRole\nGO\n\nEXEC sp_addrolemember 'CustomDeveloperRole', 'developer_username'\nGO

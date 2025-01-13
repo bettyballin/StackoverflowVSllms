@@ -1,1 +1,0 @@
-$client = new \Artisaninweb\SoapClient('http://example.com/soap/wsdl');

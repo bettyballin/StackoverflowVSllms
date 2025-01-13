@@ -1,1 +1,0 @@
-const express = require('express');\nconst app = express();\n\napp.get('/users', (req, res) => {\n  const users = [\n    { id: 1, name: 'John Doe' },\n    { id: 2, name: 'Jane Doe' }\n  ];\n  res.json(users);\n});\n\napp.listen(3000, () => {\n  console.log('Server listening on port 3000');\n});

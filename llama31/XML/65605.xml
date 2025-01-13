@@ -1,1 +1,0 @@
-<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment"\n            EntryPointAssembly="YourAssembly"\n            EntryPointType="YourNamespace.YourApplication"\n            RuntimeVersion="2.0.31005.0">\n  <Deployment.Parts>\n    <AssemblyPart x:Name="YourAssembly" Source="YourAssembly.dll" />\n  </Deployment.Parts>\n</Deployment>

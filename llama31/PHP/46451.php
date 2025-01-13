@@ -1,1 +1,0 @@
-// Acquire a lock on the session file\nsession_lock();\n\n// Start the session\nsession_start();\n\n// Release the lock\nsession_unlock();

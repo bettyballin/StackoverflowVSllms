@@ -1,1 +1,0 @@
-SELECT \n  u.username, \n  e.eventDate, \n  IF(WEEKDAY(e.eventDate) < 5, 'weekday', 'weekend') AS day_type\nFROM \n  eventcal e \n  JOIN users u ON e.primary = u.username\nWHERE \n  e.eventDate BETWEEN '2023-08-01' AND '2024-05-31';

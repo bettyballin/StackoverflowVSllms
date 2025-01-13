@@ -1,1 +1,0 @@
-CREATE TABLE B (\n    id INT(10) NOT NULL AUTO_INCREMENT,\n    a_id INT(10) NOT NULL,\n    val2 VARCHAR(255),\n\n    FOREIGN KEY (a_id) REFERENCES A(id),\n    PRIMARY KEY (id)\n);

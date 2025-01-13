@@ -1,1 +1,0 @@
-import math\n\ndef wilson_score_interval(upvotes, downvotes, confidence=0.95):\n    n = upvotes + downvotes\n    if n == 0:\n        return 0\n    z = 1.96  # for 95% confidence\n    p = upvotes / n\n    score = (p + z*z/(2*n) - z * math.sqrt((p*(1-p)+z*z/(4*n))/n)) / (1 + z*z/n)\n    return score

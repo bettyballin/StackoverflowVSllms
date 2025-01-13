@@ -1,1 +1,0 @@
-<mbean code="org.jboss.console.ConsoleService" name="jboss:service=Console">\n  <attribute name="Enabled">false</attribute>\n</mbean>\n\n<mbean code="org.jboss.web.tomcat.service.HttpService" name="jboss.web:service=HttpService">\n  <attribute name="Enabled">false</attribute>\n</mbean>

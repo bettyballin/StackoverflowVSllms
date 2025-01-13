@@ -1,1 +1,0 @@
-<?php\nif (extension_loaded('pdo')) {\n    echo 'PDO is enabled';\n} else {\n    echo 'PDO is not enabled';\n}\n?>

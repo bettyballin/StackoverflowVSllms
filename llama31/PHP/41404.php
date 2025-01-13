@@ -1,1 +1,0 @@
-$data = 'This is the data to be downloaded'; // Replace with your database values\n$filename = 'example.txt';\n\nheader('Content-Type: text/plain');\nheader('Content-Disposition: attachment; filename="' . $filename . '"');\nheader('Content-Length: ' . strlen($data));\n\necho $data;\nexit;

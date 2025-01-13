@@ -1,1 +1,0 @@
-CREATE TRIGGER update_vote_results AFTER INSERT ON votes FOR EACH ROW\nBEGIN\n  UPDATE vote_results\n  SET yes_count = yes_count + IF(NEW.vote = 2, 1, 0),\n      no_count = no_count + IF(NEW.vote = 0, 1, 0),\n      maybe_count = maybe_count + IF(NEW.vote = 1, 1, 0),\n      total_score = total_score + NEW.vote\n  WHERE question_id = NEW.question_id;\nEND;

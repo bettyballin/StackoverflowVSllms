@@ -1,1 +1,0 @@
-// main file\nfunction onloadCallback() {\n  a(function() {\n    // Code to be executed after a() has finished\n  });\n}

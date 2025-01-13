@@ -1,1 +1,0 @@
-var div_html = $('#myDiv').html();\nvar encoded_html = encodeURIComponent(div_html);\n\nvar data = 'id=' + currid + '&html=' + encoded_html;\n\n$.ajax({\n    type: "POST",\n    url: "file.php",\n    data: data,\n    // ...\n});

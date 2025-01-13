@@ -1,1 +1,0 @@
-function clean_json($json_string) {\n  $json_string = rtrim($json_string, ','); // remove trailing comma\n  $json_string = preg_replace('/([a-zA-Z0-9_]+):/', '"$1":', $json_string); // add quotes around keys\n  return $json_string;\n}\n\n$json_string = clean_json($received_json_string);\n$data = json_decode($json_string, true);

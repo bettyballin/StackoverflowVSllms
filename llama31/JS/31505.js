@@ -1,1 +1,0 @@
-var textareaText = $('#myTextarea').val();

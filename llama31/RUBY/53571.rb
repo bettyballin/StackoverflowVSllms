@@ -1,1 +1,0 @@
-# controllers/concerns/authenticable.rb\ndef authenticate_user_from_jwt!\n  jwt_token = cookies[:jwt_token]\n  return unless jwt_token\n\n  begin\n    payload = JWT.decode(jwt_token, 'your-secret-key', ['HS256'])\n    user = User.find_by_id(payload['user_id'])\n    sign_in user, store: false\n  rescue JWT::VerificationError\n    # Handle invalid token\n  end\nend

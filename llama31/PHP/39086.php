@@ -1,1 +1,0 @@
-$array = array('apple', 'banana', 'cherry');\nunset($array[1]); // delete 'banana'\nforeach ($array as $value) {\n    echo $value . "\n";\n}

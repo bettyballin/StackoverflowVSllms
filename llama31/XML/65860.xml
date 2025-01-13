@@ -1,1 +1,0 @@
-<configuration>\n    <system.web>\n        <httpRuntime virtualPath="/" />\n    </system.web>\n</configuration>

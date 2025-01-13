@@ -1,1 +1,0 @@
-while True:\n    key = makeKey()\n    if not keyExists(key):\n        break

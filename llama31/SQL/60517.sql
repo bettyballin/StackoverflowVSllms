@@ -1,1 +1,0 @@
-SELECT c.name\nFROM cust c\nWHERE c.birthdate >= DATE_FORMAT(@suppliedDate, '%Y-%m-01')\n  AND c.birthdate < DATE_FORMAT(@suppliedDate, '%Y-%m-01') + INTERVAL 1 MONTH\nORDER BY c.name;

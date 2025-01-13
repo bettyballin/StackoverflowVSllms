@@ -1,1 +1,0 @@
-def ene(_, ev, es=es):\n    for eb in es:\n        eb.set_state(gtk.STATE_PRELIGHT)\n\ndef lne(_, ev, es=es):\n    for eb in es:\n        eb.set_state(gtk.STATE_NORMAL)

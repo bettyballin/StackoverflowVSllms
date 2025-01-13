@@ -1,1 +1,0 @@
-$colorCode = $_SESSION['colorcode'];\nsetcookie(\n    'colorcode',\n    $colorCode,\n    time() + 60 * 60 * 24 * 30,\n    '',\n    '',\n    false,\n    true\n);

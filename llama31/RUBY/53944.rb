@@ -1,1 +1,0 @@
-class Invoice < ApplicationRecord\n  private\n\n  def address_id=(value)\n    # do nothing, or raise an error if you want to prevent changes\n  end\nend

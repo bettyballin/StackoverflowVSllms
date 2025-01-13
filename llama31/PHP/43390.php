@@ -1,1 +1,0 @@
-// In your controller (e.g., UsersController.php)\npublic function loginOrRegister()\n{\n    if ($this->request->is('post')) {\n        if ($this->request->data['submit'] == 'register') {\n            // Handle registration logic\n        } elseif ($this->request->data['submit'] == 'login') {\n            // Handle login logic\n        }\n    }\n}

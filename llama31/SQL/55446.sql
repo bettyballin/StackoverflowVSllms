@@ -1,1 +1,0 @@
-SELECT \n    SERVERPROPERTY('Collation') AS ServerCollation,\n    DATABASEPROPERTYEX(DB_NAME(), 'Collation') AS DatabaseCollation;

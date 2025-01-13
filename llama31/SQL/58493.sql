@@ -1,1 +1,0 @@
-SELECT u.*, n.subject, n.heading, n.body, n.timestamp\nFROM users u\nJOIN (\n  SELECT user_id, subject, heading, body, timestamp,\n  ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY timestamp DESC) as row_num\n  FROM notes\n) n ON u.id = n.user_id AND n.row_num = 1;

@@ -1,1 +1,0 @@
-$logEntry = "Something happened!" . PHP_EOL;\nfile_put_contents('log.txt', $logEntry, FILE_APPEND);

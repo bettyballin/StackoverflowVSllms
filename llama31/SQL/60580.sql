@@ -1,1 +1,0 @@
-CREATE TABLE images (\n    id INTEGER PRIMARY KEY,\n    filename TEXT NOT NULL,\n    filepath TEXT NOT NULL,\n    filetype TEXT NOT NULL\n);

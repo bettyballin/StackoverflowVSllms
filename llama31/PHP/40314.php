@@ -1,1 +1,0 @@
-// controller file\nclass Page extends Controller {\n\n    function index()\n    {\n        $data['page_title'] = 'Your title';\n        $this->load->view('header');\n        $this->load->view('content', $data);\n        $this->load->view('footer');\n    }\n\n}

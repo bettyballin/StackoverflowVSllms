@@ -1,1 +1,0 @@
-// Fetch data from the database\n$arr = mysql_fetch_array(mysql_query("SELECT * FROM table where id = 1"));\n\n// Set the character encoding to UTF-8\nheader('Content-Type: text/html; charset=UTF-8');\n\n// Print the data\necho $arr[1];

@@ -1,1 +1,0 @@
-CREATE TABLE new_table_1 (\n  id INT PRIMARY KEY,\n  column_1 VARCHAR(255),\n  column_2 INT,\n  FOREIGN KEY (column_2) REFERENCES new_table_2(id)\n);

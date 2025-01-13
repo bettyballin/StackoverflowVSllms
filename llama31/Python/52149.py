@@ -1,1 +1,0 @@
-def integrate_chatbot_training_data_with_iot_devices(data, iot_devices):\n    # Integrate data with IoT devices\n    integrated_data = integrate_data_with_iot_devices(data, iot_devices)\n    return integrated_data

@@ -1,1 +1,0 @@
-CREATE NONCLUSTERED INDEX IX_MyTable_MyColumn\nON MyTable (MyColumn);

@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare($query);\n$params = array_merge(array_fill(0, count($args), 's'), $args);\ncall_user_func_array(array($stmt, 'bind_param'), $params);

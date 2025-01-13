@@ -1,1 +1,0 @@
-from faker import Faker\nfake = Faker()\nprint(fake.name())  # Output: "Liam O'Connell"

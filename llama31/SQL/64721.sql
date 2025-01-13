@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE (COL1, COL2) IN (\n  SELECT COL1, COL2\n  FROM your_table\n  GROUP BY COL1, COL2\n  HAVING COUNT(*) > 1\n)

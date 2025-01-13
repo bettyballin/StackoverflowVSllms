@@ -1,1 +1,0 @@
-// Example usage:\nvar stage = new Konva.Stage({\n  container: 'container',\n  width: 500,\n  height: 500\n});\nvar layer = new Konva.Layer();\nstage.add(layer);\n\nvar rect = new Konva.Rect({\n  x: 100,\n  y: 100,\n  width: 100,\n  height: 100,\n  fill: 'red'\n});\nlayer.add(rect);

@@ -1,1 +1,0 @@
-$tempParams = unserialize(serialize($params));

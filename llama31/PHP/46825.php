@@ -1,1 +1,0 @@
-if ($_SERVER['REQUEST_METHOD'] == 'GET') {\n    $query = $_GET['query'];\n} elseif ($_SERVER['REQUEST_METHOD'] == 'POST') {\n    $query = $_POST['query'];\n}\n// Perform search using $query

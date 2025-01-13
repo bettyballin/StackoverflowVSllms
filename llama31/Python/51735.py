@@ -1,1 +1,0 @@
-import numpy as np\nfrom scipy.ndimage import gaussian_filter\n\ndef remove_noise(image, sigma):\n    return gaussian_filter(image, sigma)\n\ndef add_noise(image, sigma):\n    return gaussian_filter(image, -sigma)

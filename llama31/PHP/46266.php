@@ -1,1 +1,0 @@
-if (!copy($tmp_name, $orig_path)) {\n    echo json_encode(array(\n        'success' => false,\n        'errno' => 'Failed to copy the file',\n    ));\n    exit;\n} else {\n    unlink($tmp_name); // Remove the original temp file\n}

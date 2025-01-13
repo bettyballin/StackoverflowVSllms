@@ -1,1 +1,0 @@
-jQuery(".insert").click(function(){\n  // ...\n\n  return false; // prevent the default submit behavior\n});

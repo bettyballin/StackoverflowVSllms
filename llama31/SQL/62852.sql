@@ -1,1 +1,0 @@
-CREATE TYPE LocationIdTableType AS TABLE (location_id INT);

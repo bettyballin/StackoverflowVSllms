@@ -1,1 +1,0 @@
-$query = $entityManager->createQuery('SELECT e FROM MyEntity e WHERE e.name LIKE :searchTerm');\n$query->setParameter('searchTerm', '%punkrock live%');\n$results = $query->getResult();

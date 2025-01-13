@@ -1,1 +1,0 @@
-class PremiumSitesController extends AppController {\n\n    public function index() {\n        // ...\n        if (!empty($this->data)) {\n            if ($this->data['PremiumSite']['type'] !== '1' && $this->data['PremiumSite']['type'] !== '0') {\n                // Handle invalid input\n            }\n            // ...\n        }\n        // ...\n    }\n}

@@ -1,1 +1,0 @@
-Set obj = CreateObject("FmuComTest.Class1")\n\nMsgBox obj.Dogs(0).Name  ' This should now work

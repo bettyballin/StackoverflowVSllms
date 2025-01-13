@@ -1,1 +1,0 @@
-Dim myDelegate As New MyDelegate(Sub(x) Console.WriteLine(x))

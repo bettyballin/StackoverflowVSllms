@@ -1,1 +1,0 @@
-function tag1func($input,$params) {\n  return array("It called me", false);\n}\n\nfunction tag2func($input,$params) {\n  return array("It called me -- 2", false);\n}

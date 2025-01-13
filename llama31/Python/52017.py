@@ -1,1 +1,0 @@
-class MyModel(models.Model):\n    id = models.AutoField(primary_key=True, db_column='id')\n\n    # ... other fields ...\n\n    class Meta:\n        managed = False\n        db_table = 'my_table_name'

@@ -1,1 +1,0 @@
-CREATE TABLE FooTag (\n  fooID INT NOT NULL,\n  tag VARCHAR(50) NOT NULL,\n  PRIMARY KEY (fooID, tag),\n  FOREIGN KEY (fooID) REFERENCES Foo (id)\n);

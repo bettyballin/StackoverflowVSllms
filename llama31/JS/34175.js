@@ -1,1 +1,0 @@
-const uncheckedCheckboxes = document.querySelectorAll('input[name="us"]:not(:checked)');\nconst allUnchecked = uncheckedCheckboxes.length === document.querySelectorAll('input[name="us"]').length;\nconsole.log(allUnchecked); // true if all checkboxes are unselected

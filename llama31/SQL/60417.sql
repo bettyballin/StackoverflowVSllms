@@ -1,1 +1,0 @@
-ALTER TABLE jnrvwchnglst ADD\n     ( jnrvwchnglst_userid NUMBER(10) DEFAULT 1 );\n\nALTER TABLE jnrvwchnglst MODIFY\n     ( jnrvwchnglst_userid NOT NULL );

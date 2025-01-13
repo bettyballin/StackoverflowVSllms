@@ -1,1 +1,0 @@
-session_start();\n\nif (!isset($_SESSION['database_connection'])) {\n  $_SESSION['database_connection'] = array(\n    'host' => 'localhost',\n    'dbname' => 'yourdb',\n    'username' => 'username',\n    'password' => 'password'\n  );\n}

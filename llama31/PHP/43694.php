@@ -1,1 +1,0 @@
-$input = "asd";\n$hash = md5($input, true); // Note the second argument true, which returns the hash as a binary string\n$output = base64_encode($hash);\necho $output;

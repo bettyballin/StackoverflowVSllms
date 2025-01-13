@@ -1,1 +1,0 @@
-$x = clone_object($obj);

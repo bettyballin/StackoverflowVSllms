@@ -1,1 +1,0 @@
-$tabs = get_newest_tabs();\nforeach ($tabs as $tab) {\n  echo $tab['tab_id'];\n  echo $tab['song_name'];\n  echo $tab['artist_name'];\n  // ...\n}

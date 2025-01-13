@@ -1,1 +1,0 @@
-/* echo "[$sql][$result][$rows][$e]<BR>"; */

@@ -1,1 +1,0 @@
-<bindings>\n    <binding protocol="http" bindingInformation="127.0.0.1:53289" />\n    <binding protocol="http" bindingInformation="::1:53289" />\n</bindings>

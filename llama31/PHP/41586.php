@@ -1,1 +1,0 @@
-if (is_singular('post')) {\n    // code to display the div goes here\n    echo '<div>...</div>';\n}

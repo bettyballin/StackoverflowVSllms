@@ -1,1 +1,0 @@
-SELECT REPLACE(contract_text, '{date}', FORMAT(contract_date, 'MMM dd, yyyy')) AS formatted_text\nFROM your_table;

@@ -1,1 +1,0 @@
-SELECT colname\nFROM table\nORDER BY CASE \n    WHEN ISNUMERIC(REPLACE(REPLACE(colname, 'Operator (', ''), ')', '')) = 1 \n    THEN CAST(REPLACE(REPLACE(colname, 'Operator (', ''), ')', '') AS INT) \n    ELSE NULL \nEND;

@@ -1,1 +1,0 @@
-<broker xmlns="http://activemq.apache.org/schema/core">\n  ...\n  <plugins>\n    <jaasAuthenticationPlugin configuration="activemq-domain" />\n  </plugins>\n  ...\n</broker>

@@ -1,1 +1,0 @@
-Dim rand As New Random()\nDim n As Integer = 10 ' replace with your desired maximum value\nDim randomInteger As Integer = rand.Next(1, n + 1)

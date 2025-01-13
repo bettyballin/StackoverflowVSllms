@@ -1,1 +1,0 @@
-// application/controllers/Home.php\n\nclass Controller_Home extends Controller {\n    public function action_index() {\n        $this->response->body(View::factory('layout'));\n    }\n}

@@ -1,1 +1,0 @@
-<system.web>\n    <sessionState mode="StateServer" stateConnectionString="..." stateNetworkTimeout="...">\n        <providers>\n            <add name="CustomSessionStateStoreProvider" type="YourNamespace.CustomSessionStateStoreProvider" />\n        </providers>\n    </sessionState>\n</system.web>

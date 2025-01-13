@@ -1,1 +1,0 @@
-// retrieve cached HTML page\nconst cachedHTML = localStorage.getItem('index.html');\nif (cachedHTML) {\n  document.documentElement.outerHTML = cachedHTML;\n}

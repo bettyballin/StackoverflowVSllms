@@ -1,1 +1,0 @@
-var grid = $find("WebGrid1");\nvar dataView = grid.get_dataView();

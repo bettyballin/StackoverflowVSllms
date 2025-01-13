@@ -1,1 +1,0 @@
-jwplayer('player').setup({\n    file: 'index.php?id=123&hash=ew6rg5reg4',\n    flashplayer: 'jwplayer.flash.swf',\n    width: '640',\n    height: '480'\n});

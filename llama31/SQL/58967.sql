@@ -1,1 +1,0 @@
-SELECT a.* FROM accounts a\nJOIN user_accounts ua ON a.id = ua.account_id\nWHERE ua.user_id = <user_id>\n\nUNION ALL\n\nSELECT a.* FROM accounts a\nJOIN user_institution_all_accounts uia ON a.institution_id = uia.institution_id\nWHERE uia.user_id = <user_id>

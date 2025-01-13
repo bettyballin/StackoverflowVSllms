@@ -1,1 +1,0 @@
-def factorial(num):\n    try:\n        # computation here\n    except Exception as e:\n        raise ValueError("Invalid input") from e

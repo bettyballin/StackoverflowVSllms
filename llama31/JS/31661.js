@@ -1,1 +1,0 @@
-const div = document.getElementById('myDiv');\nconst inputs = div.querySelectorAll('input');\nconsole.log(inputs.length);

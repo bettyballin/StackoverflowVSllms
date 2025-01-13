@@ -1,1 +1,0 @@
-SELECT \n    orders.order_id,\n    customers.customer_name\nFROM \n    orders\nINNER JOIN \n    customers ON orders.customer_id = customers.customer_id\nWHERE \n    orders.order_total > 100

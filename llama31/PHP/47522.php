@@ -1,1 +1,0 @@
-if ($variable == 'setvalue'):\n    $variable = executefunctiononvariable($variable);\nelse:\n    $variable = executedifferentfunctiononvariable($variable);\nendif;

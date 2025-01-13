@@ -1,1 +1,0 @@
-if (empty($PIC_URL) || !filter_var($PIC_URL, FILTER_VALIDATE_URL)) {\n    // handle invalid URL error\n}

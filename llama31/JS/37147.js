@@ -1,1 +1,0 @@
-(function() {\n  // code to execute\n})();

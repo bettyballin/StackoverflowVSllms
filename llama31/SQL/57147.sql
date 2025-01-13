@@ -1,1 +1,0 @@
-SELECT UPPER(your_column) AS upper_case_column\nFROM your_table;

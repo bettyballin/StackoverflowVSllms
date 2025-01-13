@@ -1,1 +1,0 @@
-import base64\n\nraw_bytes = b'\x01\x10\x11\x10\x11\x01\x10\x11'\n\n# Encode raw bytes to base64\nencoded_text = base64.b64encode(raw_bytes)\n\nprint(encoded_text)\n\n# Decode base64 text back to raw bytes\ndecoded_bytes = base64.b64decode(encoded_text)\n\nprint(decoded_bytes)

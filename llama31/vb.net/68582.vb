@@ -1,1 +1,0 @@
-Using conn As New SqlConnection(connectionString)\n    Dim cmd As New SqlCommand("MyStoredProcedure", conn)\n    cmd.CommandType = CommandType.StoredProcedure\n    cmd.Parameters.AddWithValue("@Param1", "Value1")\n\n    conn.Open()\n    cmd.ExecuteNonQuery()\nEnd Using

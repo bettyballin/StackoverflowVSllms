@@ -1,1 +1,0 @@
-const express = require('express');\nconst app = express();\nconst db = require('./db'); // Your database connection module\n\napp.get('/events', async (req, res) => {\n  const events = await db.getEvents(req.query);\n  res.json(events);\n});\n\napp.listen(3000, () => {\n  console.log('API listening on port 3000');\n});

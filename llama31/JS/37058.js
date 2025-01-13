@@ -1,1 +1,0 @@
-var src = '{ &#034;menu&#034;: &#034;Reallocate:&#034;} ';\nvar decodedSrc = src.replace(/&#(\d+);/g, function(match, codePoint) {\n  return String.fromCodePoint(codePoint);\n});\nvar data = JSON.parse(decodedSrc);

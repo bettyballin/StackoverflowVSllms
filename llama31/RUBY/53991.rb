@@ -1,1 +1,0 @@
-class Meal < ApplicationRecord\n  has_many :foods\n  accepts_nested_attributes_for :foods\nend\n\nclass Food < ApplicationRecord\n  belongs_to :meal\nend

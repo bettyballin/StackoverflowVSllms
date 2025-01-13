@@ -1,1 +1,0 @@
-document.getElementById('favorites-add').addEventListener('click', function() {\n    var id = this.getAttribute('data-id');\n    var type = this.getAttribute('data-type');\n    favoritesAdd(id, 11, type);\n});

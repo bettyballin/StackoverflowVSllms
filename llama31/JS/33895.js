@@ -1,1 +1,0 @@
-var html = new XMLSerializer().serializeToString(document);

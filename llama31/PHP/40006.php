@@ -1,1 +1,0 @@
-$imageBytes = file_get_contents('php://input');\n$image = imagecreatefromstring($imageBytes);\n\n// You can then output the image directly\nheader('Content-Type: image/jpeg');\nimagejpeg($image);\nimagedestroy($image);

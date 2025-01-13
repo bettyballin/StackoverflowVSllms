@@ -1,1 +1,0 @@
-CREATE TABLE Teacher (\n  ID INT PRIMARY KEY,\n  PeopleID INT,\n  TeacherSpecificData VARCHAR(100),\n  FOREIGN KEY (PeopleID) REFERENCES People(ID)\n);

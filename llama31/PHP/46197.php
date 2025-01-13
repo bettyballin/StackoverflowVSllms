@@ -1,1 +1,0 @@
-$unlink = array_map('serialize', $linkphoto);\n$unlink = array_unique($unlink);\n$unlink = array_map('unserialize', $unlink);\n\nforeach ($unlink as $link) {\n    echo $link, "<br />";\n}

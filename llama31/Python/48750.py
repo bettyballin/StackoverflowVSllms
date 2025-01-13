@@ -1,1 +1,0 @@
-output_window = dte.Windows.Item("Output")\noutput_text = output_window.ActivePane.TextDocument.Selection.Text

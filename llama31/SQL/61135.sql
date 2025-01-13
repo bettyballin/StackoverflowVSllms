@@ -1,1 +1,0 @@
-SELECT ChargeId, ChargeType, ServiceMonth\nFROM (\n  SELECT ChargeId, ChargeType, ServiceMonth,\n         ROW_NUMBER() OVER (PARTITION BY ChargeId, ChargeType ORDER BY ServiceMonth DESC) AS rn\n  FROM invoice\n) subquery\nWHERE rn = 1;

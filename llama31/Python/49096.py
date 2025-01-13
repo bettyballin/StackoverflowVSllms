@@ -1,1 +1,0 @@
-import paramiko\n\n# Establish a connection\nssh = paramiko.SSHClient()\nssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())\nssh.connect('remote_computer_ip', username='your_username')\n\n# Save a file on the remote computer\nsftp = ssh.open_sftp()\nsftp.put('local_file.txt', '/remote/path/file.txt')\nsftp.close()\n\n# Close the connection\nssh.close()

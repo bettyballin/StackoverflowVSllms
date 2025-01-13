@@ -1,1 +1,0 @@
-sp_configure 'remote query timeout', 300;  -- sets the timeout to 5 minutes\nGO\nRECONFIGURE;\nGO

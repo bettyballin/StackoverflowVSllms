@@ -1,1 +1,0 @@
-select length('012'), \n       length(to_char('012', 'FM')), \n       length(to_char('12', 'FM000')) \n  from dual;

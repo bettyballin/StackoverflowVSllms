@@ -1,1 +1,0 @@
-def jaro_winkler_distance(s1, s2):\n    m, n = len(s1), len(s2)\n    prefix = 0\n    for i in range(min(m, n)):\n        if s1[i] == s2[i]:\n            prefix += 1\n        else:\n            break\n    jaro_distance = (m + n) / 3 - (prefix * 2) / 3\n    return jaro_distance

@@ -1,1 +1,0 @@
-//in your controller\npublic function editAction()\n{\n    $userId = $this->_getParam('id');\n    $user = Users::find($userId); // assume Users is your Zend_Db_Table\n    $form = new UsersForm();\n    $form->populate($user->toArray());\n    // render the form\n}

@@ -1,1 +1,0 @@
-@attribute[.='true' or .='1'][not(.='false' or .='0')]\n@attribute[.='false' or .='0'][not(.='true' or .='1')]

@@ -1,1 +1,0 @@
-ob_start();\nob_implicit_flush(true);\necho "This will be printed immediately.";\nob_end_flush();

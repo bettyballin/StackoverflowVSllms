@@ -1,1 +1,0 @@
-echo $html->link(__('New Question', true), array('action'=>'add'), array('full_base' => true, 'base' => 'http://apps.facebook.com/appname/'));

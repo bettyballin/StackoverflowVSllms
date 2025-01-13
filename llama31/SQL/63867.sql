@@ -1,1 +1,0 @@
-CREATE TABLE example (\n    id SERIAL PRIMARY KEY,\n    text_column TEXT\n);

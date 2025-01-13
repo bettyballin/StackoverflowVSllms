@@ -1,1 +1,0 @@
-INSERT INTO main_table (name, values) VALUES ('John', JSON_SET('[]', '$[0]', 'value1', '$[1]', 'value2'));

@@ -1,1 +1,0 @@
-// Update the tab content with the server's response\n$.ajax({\n  type: 'POST',\n  url: '/tab1',\n  data: formData,\n  success: (data) => {\n    // Update the tab content\n    $('#tab1').html(data.tab1);\n  }\n});

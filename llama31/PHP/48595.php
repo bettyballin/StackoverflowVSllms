@@ -1,1 +1,0 @@
-$user_list = array(\n    'john' => 'password123',\n    'jane' => 'hello123',\n);\n\nforeach ($user_list as $user => $pass) {\n    echo "User: $user, Password: $pass\n";\n}

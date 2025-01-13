@@ -1,1 +1,0 @@
-const he = require('he');\n\nfunction convertHtmlEntities(str) {\n  return he.decode(str);\n}\n\nconst object = {};\nobject.Text = convertHtmlEntities("&#97;");\nconsole.log(object.Text); // outputs: "a"

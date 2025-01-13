@@ -1,1 +1,0 @@
-CREATE TABLE T (\n  id INT PRIMARY KEY,\n  f INT,\n  FOREIGN KEY (f) REFERENCES ParentTable(id)\n);\n\nCREATE INDEX idx_f ON T (f);

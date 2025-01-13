@@ -1,1 +1,0 @@
-document.getElementsByName("comment")[0].focus();

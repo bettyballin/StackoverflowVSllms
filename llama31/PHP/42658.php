@@ -1,1 +1,0 @@
-$a = 'professor';\n$b = str_split($a);\n\nprint_r($b);

@@ -1,1 +1,0 @@
-$dsn = 'sqlite:example.db';\n$conn = new PDO($dsn);

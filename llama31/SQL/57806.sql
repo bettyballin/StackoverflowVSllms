@@ -1,1 +1,0 @@
-SELECT \n    name, \n    create_date, \n    modify_date\nFROM \n    sys.objects\nWHERE \n    create_date > DATEADD(day, -1, GETDATE())\n    OR modify_date > DATEADD(day, -1, GETDATE());

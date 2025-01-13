@@ -1,1 +1,0 @@
-$pid = pcntl_fork();\nif ($pid == -1) {\n    die('Could not fork');\n} elseif ($pid) {\n    // parent code here\n} else {\n    // child code here\n}

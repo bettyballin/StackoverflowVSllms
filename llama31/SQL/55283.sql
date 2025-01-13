@@ -1,1 +1,0 @@
-SELECT DBMS_METADATA.GET_DDL(object_type, object_name) AS source_code\nFROM ALL_OBJECTS\nWHERE object_type IN ('PACKAGE', 'PROCEDURE', 'FUNCTION')\n  AND object_name LIKE '%your_search_phrase%';

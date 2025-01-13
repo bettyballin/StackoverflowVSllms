@@ -1,1 +1,0 @@
-// Load the module manually\ndl('xslcache.so');\n\n// Create a new xsltCache object\n$xslt = new xsltCache;

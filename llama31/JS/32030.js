@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  var columnContainer = $('#columncontainer');\n  var leftColumn = $('#leftcolumn');\n  var rightColumn = $('#rightcolumn');\n  \n  var totalWidth = leftColumn.outerWidth() + rightColumn.outerWidth();\n  columnContainer.width(totalWidth);\n});

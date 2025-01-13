@@ -1,1 +1,0 @@
-require 'em-websocket'\n\nEM.run do\n  WebSocket::EventMachine::Server.start(:host => 'localhost', :port => 8080) do |ws|\n    ws.onopen do\n      # Handle new connection\n    end\n\n    ws.onmessage do |msg|\n      # Handle incoming message\n    end\n\n    ws.onclose do\n      # Handle connection close\n    end\n  end\nend

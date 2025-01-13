@@ -1,1 +1,0 @@
-import xmlrpc.client\n\n# Client code\nclient = xmlrpc.client.ServerProxy('http://example.com/rpc')\nresult = client.add(2, 3)\nprint(result)  # prints 5\n\n# Server code\nfrom xmlrpc.server import SimpleXMLRPCServer\n\ndef add(x, y):\n    return x + y\n\nserver = SimpleXMLRPCServer(('example.com', 80))\nserver.register_function(add)\nserver.serve_forever()

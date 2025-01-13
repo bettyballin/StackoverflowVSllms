@@ -1,1 +1,0 @@
-use Zend_CodeGenerator\Php\PhpClass;\n$class = new PhpClass('MyClass');\n$class->addMethod('myMethod', array('public', 'static'));\necho $class->generate();

@@ -1,1 +1,0 @@
-Dim emptyStringArray As String() = {}

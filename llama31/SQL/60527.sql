@@ -1,1 +1,0 @@
-SELECT m.id, a.type_id, a.assign_id\nFROM master m\nJOIN assignment a ON m.id = a.id\nJOIN (\n  SELECT a.id, MAX(t.create_date) AS max_create_date\n  FROM assignment a\n  JOIN type t ON a.type_id = t.type_id\n  GROUP BY a.id\n) sub ON m.id = sub.id AND a.type_id = (\n  SELECT t.type_id\n  FROM type t\n  WHERE t.create_date = sub.max_create_date\n)

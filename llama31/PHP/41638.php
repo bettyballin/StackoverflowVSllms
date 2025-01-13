@@ -1,1 +1,0 @@
-$history12 = filter_input(INPUT_POST, 'history12', FILTER_SANITIZE_STRING);

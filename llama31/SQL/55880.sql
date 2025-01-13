@@ -1,1 +1,0 @@
-CREATE INDEX idx_points_name ON your_table (points, name);

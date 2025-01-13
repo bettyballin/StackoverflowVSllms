@@ -1,1 +1,0 @@
-var goog = newTabBrowser.contentDocument.getElementsByTagName("pre")[0].innerHTML;\nvar googObject = JSON.parse(goog);\nalert(googObject.responseData.results[0].url);

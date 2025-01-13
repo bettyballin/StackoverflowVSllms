@@ -1,1 +1,0 @@
-SELECT index, value\nFROM your_table t\nWHERE value > (SELECT value FROM your_table WHERE index = t.index - 1)\n  AND value > (SELECT value FROM your_table WHERE index = t.index + 1)

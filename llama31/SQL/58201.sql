@@ -1,1 +1,0 @@
-SELECT \n  (SELECT MAX(videoId) FROM videos WHERE videoId < ? AND IsActive = 1) AS prev_video_id,\n  (SELECT MIN(videoId) FROM videos WHERE videoId > ? AND IsActive = 1) AS next_video_id\nFROM videos\nWHERE videoId = ?;

@@ -1,1 +1,0 @@
-SELECT l.level \nFROM user_scores us \nJOIN levels l ON us.score BETWEEN l.min_score AND l.max_score \nWHERE us.user_id = ?;

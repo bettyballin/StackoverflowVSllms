@@ -1,1 +1,0 @@
-function validate(input) {\n    var value = trim(input.value);\n    // ...\n}

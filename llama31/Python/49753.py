@@ -1,1 +1,0 @@
-import cloudpickle\n\ndef my_function(x, y):\n    return x + y\n\n# Serialize the function\nserialized_function = cloudpickle.dumps(my_function)\n\n# Deserialize the function\ndeserialized_function = cloudpickle.loads(serialized_function)\n\n# Call the deserialized function\nresult = deserialized_function(2, 3)\nprint(result)  # Output: 5

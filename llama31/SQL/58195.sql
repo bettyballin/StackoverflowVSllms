@@ -1,1 +1,0 @@
-DECLARE @StartDate DATE = '2023-06-22';\nDECLARE @PairSize INT = 2;  -- Change this to adjust the pair size\nDECLARE @PeoplePerSite INT = 6;  -- Change this to adjust people per site

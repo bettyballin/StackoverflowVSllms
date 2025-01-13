@@ -1,1 +1,0 @@
-$query = "SELECT * FROM your_table WHERE Date = CURDATE()";\n$result = mysql_query($query);

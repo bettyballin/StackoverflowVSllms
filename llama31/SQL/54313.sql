@@ -1,1 +1,0 @@
-VALUES 'TableName:X';

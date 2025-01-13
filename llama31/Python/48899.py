@@ -1,1 +1,0 @@
-from sklearn.preprocessing import OneHotEncoder\n\n# assume you have a pandas DataFrame df with a column 'favourite_food'\n\nencoder = OneHotEncoder()\ndf_encoded = encoder.fit_transform(df[['favourite_food']])\n\nprint(df_encoded.toarray())

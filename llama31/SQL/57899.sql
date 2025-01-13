@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n    SELECT id, name, value\n    FROM yourTable\n) AS SourceTable\nPIVOT (\n    MAX(value)\n    FOR name IN ([column1], [column2])\n) AS PivotTable;

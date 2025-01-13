@@ -1,1 +1,0 @@
-FORALL i IN 1..n\n  INSERT INTO table_name (col1, col2, ..., col40)\n  VALUES (:bind1, :bind2, ..., :bind40);

@@ -1,1 +1,0 @@
-TRANSFORM Nz(Sum([YourValueField]), 0) AS SumOfValues\nSELECT [YourRowHeaderField]\nFROM YourTable\nGROUP BY [YourRowHeaderField]\nPIVOT [YourColumnHeaderField] IN ("Column1", "Column2", "Column3", ...);

@@ -1,1 +1,0 @@
-if (document.referrer !== "https://example.com/gate-page") {\n  window.location.href = "/error-page";\n}

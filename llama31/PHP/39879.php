@@ -1,1 +1,0 @@
-class Address {\n    public $Street;\n}\n\nclass Employee {\n    public $ID;\n    public $Name;\n    public $Address;\n}

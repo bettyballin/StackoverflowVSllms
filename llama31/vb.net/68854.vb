@@ -1,1 +1,0 @@
-Dim objImage As MemoryStream\nDim objwebClient As WebClient\nDim sURL As String = Trim(m_StationInterface.PicLocation)\n\nobjwebClient = New WebClient\nobjImage = New MemoryStream(objwebClient.DownloadData(sURL))\nm_imgLiftingEye.Image = Image.FromStream(objImage)\n\n' Release the Image object's reference to the MemoryStream\nobjImage.Dispose()\nm_imgLiftingEye.Image = Nothing

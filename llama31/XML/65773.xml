@@ -1,1 +1,0 @@
-<!-- DTD definition -->\n<!ELEMENT person (name,age,occupation)>\n<!ELEMENT name (#PCDATA)>\n<!ELEMENT age (#PCDATA)>\n<!ELEMENT occupation (#PCDATA)>\n\n<!-- Valid XML document -->\n<person>\n  <name>John</name>\n  <age>30</age>\n  <occupation>Developer</occupation>\n</person>

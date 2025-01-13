@@ -1,1 +1,0 @@
-$mysqli = new mysqli("host", "username", "password", "database");\n$result = $mysqli->query("SELECT * FROM table_name ORDER BY RAND() LIMIT 1");\n$row = $result->fetch_assoc();

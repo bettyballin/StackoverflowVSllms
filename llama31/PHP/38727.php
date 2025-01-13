@@ -1,1 +1,0 @@
-$client = new SoapClient($WSDL, $soapSettings);\n\n$obj = new stdClass();\n$obj->internal_id = $internalId;\n$obj->external_id = $externalId;\n\n$derivedClassVar = new SoapVar($obj, SOAP_ENC_OBJECT, 'DerivedClass', 'http://namespace/of/derived/class');\n\n$params = array(\n    'obj' => $derivedClassVar\n);\n\n$response = $client->webmethod($params);

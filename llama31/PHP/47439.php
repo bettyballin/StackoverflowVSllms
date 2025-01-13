@@ -1,1 +1,0 @@
-echo "Note = " . htmlspecialchars($_POST['note'], ENT_QUOTES, 'UTF-8');

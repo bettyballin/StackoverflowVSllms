@@ -1,1 +1,0 @@
-const messageSpan = document.getElementById('message');\nconst form = messageSpan.closest('form');

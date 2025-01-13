@@ -1,1 +1,0 @@
-trait UnixTimestampable\n{\n    /**\n     * @ORM\PrePersist\n     */\n    public function onPrePersist()\n    {\n        $this->createdAt = time();\n        $this->updatedAt = time();\n    }\n\n    /**\n     * @ORM\PreUpdate\n     */\n    public function onPreUpdate()\n    {\n        $this->updatedAt = time();\n    }\n}

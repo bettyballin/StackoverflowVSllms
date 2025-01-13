@@ -1,1 +1,0 @@
-# middlewares.py\nfrom django.http import HttpResponseRedirect\n\nclass DomainRedirectMiddleware:\n    def process_request(self, request):\n        if request.META.get('HTTP_HOST') == 'example.com':\n            return HttpResponseRedirect('http://www.example.com' + request.path)

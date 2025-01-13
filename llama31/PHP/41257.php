@@ -1,1 +1,0 @@
-mail($to, $subject, $message, $headers, '-f your_username your_password');

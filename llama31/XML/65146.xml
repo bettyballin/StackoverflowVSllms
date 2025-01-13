@@ -1,1 +1,0 @@
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">\n    <xsd:simpleType name="colorType">\n        <xsd:restriction base="xsd:string">\n            <xsd:enumeration value="rgb(255,0,0)"/>\n        </xsd:restriction>\n    </xsd:simpleType>\n</xsd:schema>

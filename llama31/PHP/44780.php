@@ -1,1 +1,0 @@
-// in footer.php\ninclude __DIR__ . '/anotherfile.php';

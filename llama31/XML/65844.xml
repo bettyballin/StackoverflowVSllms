@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>\n<datasources>\n    <datasource jndi-name="my-datasource" pool-name="my-datasource">\n        <connection-url>...</connection-url>\n        <driver>...</driver>\n        <security>\n            <user-name>...</user-name>\n            <password>...</password>\n        </security>\n    </datasource>\n</datasources>

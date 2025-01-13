@@ -1,1 +1,0 @@
-CREATE DATABASE LINK anotheruser.remote_db_link\nCONNECT TO remote_user\nIDENTIFIED BY remote_password\nUSING 'remote_db'\nAUTHENTICATED BY anotheruser;

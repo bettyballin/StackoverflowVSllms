@@ -1,1 +1,0 @@
-function add_target_blank_to_links($link) {\n  $link['target'] = '_blank';\n  return $link;\n}\nadd_filter('wp_insert_link', 'add_target_blank_to_links');

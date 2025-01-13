@@ -1,1 +1,0 @@
-WITH SplitString AS (\n  SELECT value, \n         ROW_NUMBER() OVER (ORDER BY value) AS ordinal\n  FROM STRING_SPLIT('Hello John Smith', ' ')\n)\nSELECT value \nFROM SplitString \nWHERE ordinal = 2;

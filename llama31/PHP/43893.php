@@ -1,1 +1,0 @@
-$mysqli = new mysqli("localhost", "username", "password");\n\n$result = $mysqli->query("SHOW DATABASES");\n\nwhile ($row = $result->fetch_assoc()) {\n    echo $row["Database"] . "\n";\n}

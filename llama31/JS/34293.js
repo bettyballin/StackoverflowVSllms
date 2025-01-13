@@ -1,1 +1,0 @@
-const parser = new DOMParser();\nconst doc = parser.parseFromString(ajaxResponse, 'text/html');\nconst scripts = doc.querySelectorAll('script');\nscripts.forEach((script) => {\n  const newScript = document.createElement('script');\n  newScript.type = 'text/javascript';\n  newScript.text = script.textContent;\n  document.body.appendChild(newScript);\n});

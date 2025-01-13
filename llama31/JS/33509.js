@@ -1,1 +1,0 @@
-// client-side JavaScript\n$.ajax({\n    url: 'votes.php',\n    // ...\n    error: function(xhr, status, error) {\n        if (xhr.status === 401) {\n            window.location.href = 'login.php';\n        }\n    }\n});

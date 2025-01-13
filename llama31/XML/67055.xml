@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <authentication mode="Windows">\n      <windowsAuthentication defaultDomain="Domain01" />\n    </authentication>\n  </system.web>\n</configuration>

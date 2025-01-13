@@ -1,1 +1,0 @@
-# public/test.rb\nrequire 'cgi'\n\ncgi = CGI.new\ncgi.out("text/html") do\n  "<html><body>Hello World!</body></html>"\nend

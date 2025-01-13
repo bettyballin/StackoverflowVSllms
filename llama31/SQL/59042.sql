@@ -1,1 +1,0 @@
-BEGIN\n  DBMS_STATS.GATHER_TABLE_STATS(\n    ownname => 'YOUR_SCHEMA',\n    tabname => 'YOUR_TABLE_NAME',\n    estimate_percent => 10\n  );\nEND;

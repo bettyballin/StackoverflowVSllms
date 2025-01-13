@@ -1,1 +1,0 @@
-const userInput = '/hello/gi';\nconst regex = parseRegexInput(userInput);\nconsole.log(regex); // Output: /hello/gi

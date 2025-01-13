@@ -1,1 +1,0 @@
-const hostname = window.location.hostname;\nconst parts = hostname.split('.');\nconst subdomain = parts.slice(0, -2).join('.') + '.' + parts.slice(-2).join('.');\n\nconsole.log(subdomain); // outputs "sample.example.com"

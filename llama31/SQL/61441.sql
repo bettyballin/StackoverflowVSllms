@@ -1,1 +1,0 @@
-CREATE TABLE Skill (\n  SkillId INT PRIMARY KEY,\n  SkillName VARCHAR(255)\n);\n\nCREATE TABLE RelevantSkill (\n  SkillId INT,\n  RelevantSkillId INT,\n  RelevanceLevel FLOAT,\n  PRIMARY KEY (SkillId, RelevantSkillId),\n  FOREIGN KEY (SkillId) REFERENCES Skill(SkillId),\n  FOREIGN KEY (RelevantSkillId) REFERENCES Skill(SkillId)\n);

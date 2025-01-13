@@ -1,1 +1,0 @@
-$memcached = new Memcached;\n$memcached->addServer('localhost', 11211);\n\n// Cache a value for 1 hour\n$memcached->set('key', 'value', 3600);\n\n// Retrieve a cached value\n$value = $memcached->get('key');

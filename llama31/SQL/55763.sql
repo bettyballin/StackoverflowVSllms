@@ -1,1 +1,0 @@
-SELECT \n  customer_number, \n  customer_name, \n  customer_address\nFROM \n  unprocessed_invoices\nGROUP BY \n  customer_number, \n  customer_name, \n  customer_address\nHAVING \n  COUNT(DISTINCT customer_address) = 1 AND \n  COUNT(DISTINCT customer_name) = 1

@@ -1,1 +1,0 @@
-SELECT a.aid, a.name, s.sid, s.length\nFROM albums a\nJOIN songs s ON a.aid = s.aid\nWHERE a.aid IN (1, 2, 3);  // fetch multiple albums at once

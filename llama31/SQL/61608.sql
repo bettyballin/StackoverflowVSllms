@@ -1,1 +1,0 @@
-CREATE TABLE my_table (\n  id NUMBER(7,0) PRIMARY KEY,\n  -- other columns...\n);

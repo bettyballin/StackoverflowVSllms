@@ -1,1 +1,0 @@
-SELECT \n  COALESCE((SELECT COUNT(*) FROM comments), 0) + \n  COALESCE((SELECT COUNT(*) FROM tags), 0) + \n  COALESCE((SELECT COUNT(*) FROM search), 0) AS total_count;

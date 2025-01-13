@@ -1,1 +1,0 @@
-WITH total_events AS (\n  -- your complex query here (@total@)\n)\nSELECT \n  (SELECT COUNT(*) FROM total_events WHERE @conditions@) AS suboccurs,\n  COUNT(*) AS totaloccurs\nFROM total_events;

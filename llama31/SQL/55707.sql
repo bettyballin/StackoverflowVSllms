@@ -1,1 +1,0 @@
-SELECT LOAD AS current_cpu_load\nFROM V$OSSTAT;

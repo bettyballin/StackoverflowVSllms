@@ -1,1 +1,0 @@
-$string = 'item355';\n$range = range(355, 502);\n$number = (int) substr($string, 4); // assuming the number is always after 'item'\nif (in_array($number, $range)) {\n    echo 'Number is within the range!';\n}

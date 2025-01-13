@@ -1,1 +1,0 @@
-SELECT \n    A, B,\n    A IS NOT DISTINCT FROM B AS equal\nFROM (\n    VALUES\n    (NULL, NULL),\n    (NULL, 'john'),\n    (NULL, 'paul'),\n    ('john', NULL),\n    ('john', 'john'),\n    ('john', 'paul'),\n    ('paul', NULL),\n    ('paul', 'john'),\n    ('paul', 'paul')\n) AS x(A, B);

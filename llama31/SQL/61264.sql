@@ -1,1 +1,0 @@
-DECLARE\n  v_owner      VARCHAR2(128) := 'SCHEMA_USER';\n  v_tablename  VARCHAR2(128) := 'TABLENAME';\n  v_sql        VARCHAR2(4000);\n  v_tab        SYS_REFCURSOR;\n\nBEGIN\n  v_sql := 'SELECT * FROM ' || v_owner || '.' || v_tablename;\n  OPEN v_tab FOR v_sql;\n  -- Process the results\n  CLOSE v_tab;\nEND;

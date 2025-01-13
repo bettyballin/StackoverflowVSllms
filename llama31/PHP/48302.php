@@ -1,1 +1,0 @@
-<div id="left">\n    <?= $this->layout()->getView()->left_container ?>\n</div>\n<div id="center">\n    <?= $this->layout()->getView()->center_container ?>\n</div>\n<div id="right">\n    <?= $this->layout()->getView()->right_container ?>\n</div>

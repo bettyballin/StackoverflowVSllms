@@ -1,1 +1,0 @@
-$exe = 'd:\Prog Files\foo.exe';\n$arg = 'd:\data path\datadir';\n\n$cmd = $exe;\n$args = array('-p', $arg);\nexec($cmd, $args, $out);

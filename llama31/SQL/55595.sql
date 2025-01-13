@@ -1,1 +1,0 @@
-CREATE TABLE votes (\n    id INT PRIMARY KEY AUTO_INCREMENT,\n    article_id INT,\n    user_id INT,\n    vote_date DATETIME\n);

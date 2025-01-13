@@ -1,1 +1,0 @@
--- Oracle Query to fetch IDs\nSELECT distinct(id) \nFROM your_oracle_table \nWHERE your_conditions;

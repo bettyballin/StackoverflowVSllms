@@ -1,1 +1,0 @@
-UPDATE org.security_training_question a\nSET a.actv_indr = 'N'\nWHERE a.qstn_id IN (\n  SELECT TO_NUMBER(column_value) \n  FROM XMLTABLE('"' || v_qstns_to_delete || '"')\n);

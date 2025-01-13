@@ -1,1 +1,0 @@
-const tinymce = new tinymce.Editor('textarea', {\n  // config options\n});\nconst html = tinymce.getContent();

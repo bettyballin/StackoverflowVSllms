@@ -1,1 +1,0 @@
-<%= form_tag({controller: 'sessions', action: 'destroy'}, {method: 'delete'}) do %>\n  <%= submit_tag 'Log out' %>\n<% end %>

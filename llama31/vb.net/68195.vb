@@ -1,1 +1,0 @@
-Dim consumer As New ConsumerPerson()\nFillCustomerData(consumer)\n\nDim changeData As New ChangeData()\nFillCustomerData(changeData)

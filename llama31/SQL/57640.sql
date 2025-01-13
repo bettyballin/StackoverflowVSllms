@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nORDER BY CASE WHEN city = 'Montreal' THEN 0 ELSE 1 END, city ASC;

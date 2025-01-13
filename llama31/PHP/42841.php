@@ -1,1 +1,0 @@
-syslog(LOG_INFO, "This is a log message from PHP");

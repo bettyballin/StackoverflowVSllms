@@ -1,1 +1,0 @@
-EXEC pivot_data;

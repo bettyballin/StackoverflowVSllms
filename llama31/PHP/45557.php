@@ -1,1 +1,0 @@
-$xml = new SimpleXMLElement(file_get_contents("StopPointList.xml"));\n$searchTerm = "Sinsen"; // example search term\n\nforeach ($xml->StopPoint as $stop) {\n  $result = searchObject($stop, $searchTerm);\n  if ($result !== null) {\n    echo $result->StopName.'<br />';\n  }\n}

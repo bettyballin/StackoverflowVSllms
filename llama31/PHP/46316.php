@@ -1,1 +1,0 @@
-function hexToDateTime($hex) {\n    $ticks = hexdec($hex);\n    $seconds = $ticks / 10000000; // .NET ticks to seconds\n    $unixTimestamp = $seconds - 62135596800; // .NET epoch to Unix epoch\n    return new DateTime("@$unixTimestamp");\n}\n\n$hex = '60f347d15798c901';\n$dateTime = hexToDateTime($hex);\necho $dateTime->format('Y-m-d H:i:s');

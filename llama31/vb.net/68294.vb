@@ -1,1 +1,0 @@
-Dim aggregatedList As IEnumerable(Of T) = MasterList.SelectMany(Function(mi) mi.SubItems)

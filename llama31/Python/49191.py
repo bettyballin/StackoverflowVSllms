@@ -1,1 +1,0 @@
-import win32com.client\n\n# Load the COM DLL\ncom_obj = win32com.client.Dispatch('Your_COM_Class_Name')\n\n# Call a method on the COM object\nresult = com_obj.YourMethod()

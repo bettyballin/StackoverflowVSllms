@@ -1,1 +1,0 @@
-import os\nimport tempfile\n\ndef dump_data_to_file(data):\n    tmp_file = tempfile.NamedTemporaryFile(delete=False)\n    tmp_file.write(data.encode())\n    tmp_file.close()\n    return tmp_file.name

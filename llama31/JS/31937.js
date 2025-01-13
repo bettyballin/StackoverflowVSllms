@@ -1,1 +1,0 @@
-const apiUrl = 'https://api.ipify.org?format=json';\n\nfetch(apiUrl)\n  .then(response => response.json())\n  .then(data => {\n    const ipAddress = data.ip;\n    document.getElementById('ip-address').value = ipAddress;\n  });

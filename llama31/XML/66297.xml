@@ -1,1 +1,0 @@
-<renderer>\n  <fonts>\n    <font metrics-file="CustomFont.xml" kerning="yes" embed-file="CustomFont.ttf">\n      <font-triplet name="CustomFont" style="normal" weight="normal"/>\n    </font>\n  </fonts>\n</renderer>

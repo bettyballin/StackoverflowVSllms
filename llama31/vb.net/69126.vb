@@ -1,1 +1,0 @@
-Dim xmlDoc As New XmlDocument()\nDim filePath As String = Path.Combine(mDirectory, name + "\" + name + ".vbproj")\nxmlDoc.Load(filePath)\n\nDim nsMgr As New XmlNamespaceManager(xmlDoc.NameTable)\nnsMgr.AddNamespace("msb", "http://schemas.microsoft.com/developer/msbuild/2003")\n\nDim value As Object = xmlDoc.SelectNodes("/msb:Project/msb:PropertyGroup/msb:ProjectGuid", nsMgr)

@@ -1,1 +1,0 @@
-WITH ranked_prescriptions AS (\n  SELECT Branch, Patient, DateOfTest,\n         LAG(DateOfTest) OVER (PARTITION BY Patient ORDER BY DateOfTest) AS prev_date\n  FROM Prescriptions\n)\nSELECT DISTINCT Branch, Patient\nFROM ranked_prescriptions\nWHERE DateOfTest - prev_date < INTERVAL '6 month';

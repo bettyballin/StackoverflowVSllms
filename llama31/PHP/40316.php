@@ -1,1 +1,0 @@
-class Foo {\n    function Foo() {\n        // constructor code\n    }\n}

@@ -1,1 +1,0 @@
-$form = new Zend_Form();\n$form->setMethod('post');\n$form->addElement('textarea', 'Name with Space');\n\n// ...\n\n$values = $form->getValues(Zend_Form::ELEMENT_NAME_FILTER);\necho $values['Name with Space']; // outputs the filled-in value

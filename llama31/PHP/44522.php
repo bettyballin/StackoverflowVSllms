@@ -1,1 +1,0 @@
-$imageUrls = array(\n    'http://domain.com/pic1.jpg',\n    'http://domain.com/pic2.jpg',\n    'http://domain.com/pic3.jpg'\n);\n\nforeach ($imageUrls as $url) {\n    $imageName = basename($url);\n    $imageContent = file_get_contents($url);\n    file_put_contents('uploads/'.$imageName, $imageContent);\n}

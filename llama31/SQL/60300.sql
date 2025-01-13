@@ -1,1 +1,0 @@
-SELECT Name, Age, ROW_NUMBER() OVER (ORDER BY Age) AS RowOrder\nFROM YourTable\nORDER BY Age;

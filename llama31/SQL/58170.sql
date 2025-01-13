@@ -1,1 +1,0 @@
-CREATE TABLE user_scores (\n  user_id INT PRIMARY KEY,\n  score INT,\n  last_updated TIMESTAMP\n);

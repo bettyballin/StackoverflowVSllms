@@ -1,1 +1,0 @@
-function json_encode_custom($data) {\n    return str_replace('\\"', '\\\\"', json_encode($data));\n}

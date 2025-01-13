@@ -1,1 +1,0 @@
-SELECT query, calls, rows_affected \nFROM pg_stat_statements \nWHERE query LIKE 'DELETE%';

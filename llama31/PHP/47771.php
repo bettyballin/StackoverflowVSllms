@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare("SELECT name, pwd FROM users WHERE name = :name AND pwd = :pwd");\n$stmt->bindParam(":name", $_POST["user"]);\n$stmt->bindParam(":pwd", $_POST["pwd"]);\n$stmt->execute();

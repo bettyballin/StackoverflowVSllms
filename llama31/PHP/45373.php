@@ -1,1 +1,0 @@
-<?php\nif (extension_loaded('soap')) {\n    echo "SOAP extension is enabled.";\n} else {\n    echo "SOAP extension is not enabled.";\n}\n?>

@@ -1,1 +1,0 @@
-function checkGravatar($email) {\n    $hash = md5(strtolower(trim($email)));\n    $url = 'http://www.gravatar.com/avatar/' . $hash . '?d=404';\n    $headers = get_headers($url);\n    return strpos($headers[0], '200') !== false;\n}

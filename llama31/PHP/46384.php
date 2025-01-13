@@ -1,1 +1,0 @@
-<?php echo $mesg; ?>\n<br /><br />\n<form enctype="multipart/form-data" action="" method="POST">\n    Please choose a file: <input name="uploaded" type="file" /><br />\n    <input type="submit" name="submit" value="Upload" />\n</form>

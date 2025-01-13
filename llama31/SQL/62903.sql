@@ -1,1 +1,0 @@
-SELECT username\nFROM (\n  SELECT username, ROW_NUMBER() OVER (ORDER BY userid DESC) AS rn\n  FROM table\n) AS sub\nWHERE rn <= 50

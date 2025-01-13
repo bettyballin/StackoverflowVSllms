@@ -1,1 +1,0 @@
-CREATE OR REPLACE TYPE my_type AS OBJECT (\n    id NUMBER(15)\n);\n\nCREATE OR REPLACE PACKAGE my_package AS\n    PROCEDURE my_procedure(p_my_type my_type);\nEND;\n\nCREATE OR REPLACE PACKAGE BODY my_package AS\n    PROCEDURE my_procedure(p_my_type my_type) IS\n    BEGIN\n        -- Use the object type here\n        DBMS_OUTPUT.PUT_LINE(p_my_type.id);\n    END;\nEND;

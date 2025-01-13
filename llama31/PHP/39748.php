@@ -1,1 +1,0 @@
-class Html {\n    function redirect($url) {\n        header("Location: $url");\n        exit;\n    }\n}\n\n$html = new Html();\n$html->redirect("https://www.example.com");

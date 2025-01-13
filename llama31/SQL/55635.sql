@@ -1,1 +1,0 @@
--- Enable the connection limit feature\nsp_configure 'show advanced options', 1;\nRECONFIGURE;\nsp_configure 'connection limit', 1;\nRECONFIGURE;\n\n-- Set the connection limit for the login\nALTER LOGIN [technical_account] WITH CONNECTION LIMIT = 2;

@@ -1,1 +1,0 @@
-GRANT CREATE TRIGGER TO <your_username>;\nGRANT ALTER TABLE ON <schema_B>.<table_name> TO <your_username>;

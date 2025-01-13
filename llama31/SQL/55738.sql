@@ -1,1 +1,0 @@
-SELECT \n  @row_num:=@row_num+1 AS row_num,\n  name\nFROM \n  friends, (SELECT @row_num:=0) AS init;

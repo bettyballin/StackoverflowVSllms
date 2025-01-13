@@ -1,1 +1,0 @@
-$session = new Zend_Session();\n$session->setOptions(array('use_trans_sid' => true));\n$session->start();

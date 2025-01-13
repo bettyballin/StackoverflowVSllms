@@ -1,1 +1,0 @@
-SELECT column1, column2\nFROM table1\nWHERE EXISTS (\n  SELECT 1\n  FROM table2\n  WHERE table1.column1 = table2.column1\n)

@@ -1,1 +1,0 @@
-def my_method\n  # some code here\n  process_data\nrescue Exception => e\n  # handle the error\nend\n\ndef process_data\n  # code that might raise an error\nend

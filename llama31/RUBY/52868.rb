@@ -1,1 +1,0 @@
-class MyController < ApplicationController\n  def show\n    @resource = Resource.find(params[:id])\n    if request.accepts.include?('application/json')\n      render json: @resource\n    else\n      # render html template\n    end\n  end\nend

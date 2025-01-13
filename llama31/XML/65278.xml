@@ -1,1 +1,0 @@
-<configuration>\n  <location path="Media">\n    <system.web>\n      <authorization>\n        <allow roles="Admin,Moderator"/>\n        <deny users="*"/>\n      </authorization>\n    </system.web>\n  </location>\n</configuration>

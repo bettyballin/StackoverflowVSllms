@@ -1,1 +1,0 @@
-Imports System.Runtime.InteropServices\n\n<DllImport("kernel32.dll")>\nPrivate Shared Function OpenProcess(dwDesiredAccess As Integer, bInheritHandle As Boolean, dwProcessId As Integer) As IntPtr\nEnd Functio

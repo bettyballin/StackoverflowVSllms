@@ -1,1 +1,0 @@
-project 'MyProject' do\n  # Git repository settings\n  repository :git do\n    url 'git@github.com:myusername/myproject.git'\n    branch 'master'\n  end\n\n  # Rake build settings\n  build :rake do\n    task 'build'\n    task 'test'\n  end\n\n  # Automate build and test after checkin\n  trigger :commit do\n    email :to => 'your_email@example.com'\n  end\nend

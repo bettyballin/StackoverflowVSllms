@@ -1,1 +1,0 @@
-// Example of MonoDevelop's VB.NET code\nImports MonoDevelop.Projects\nImports MonoDevelop.CodeCompletion\n\nNamespace MonoDevelop.VBNet\n    Public Class VBNetParser\n        Implements IParser\n\n        Public Function Parse(source As String) As CompilationUnit\n            // ...\n        End Function\n    End Class\nEnd Namespace

@@ -1,1 +1,0 @@
-const iframe = document.createElement('iframe');\niframe.onload = () => {\n  console.log('IFRAME loaded');\n};\niframe.src = 'https://example.com';\ndocument.body.appendChild(iframe);

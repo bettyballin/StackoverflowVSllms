@@ -1,1 +1,0 @@
-ini_set('html_errors', 'Off');

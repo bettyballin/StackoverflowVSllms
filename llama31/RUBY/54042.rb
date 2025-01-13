@@ -1,1 +1,0 @@
-foo = [1, 2, 3, 4, 5, 6]\nbar = [10, 20, 30, 40, 50, 60]\nhalf = foo.size / 2\nfoobar = foo.take(half) + bar.drop(half)

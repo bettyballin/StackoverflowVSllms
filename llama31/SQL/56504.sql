@@ -1,1 +1,0 @@
-CREATE PROCEDURE proc1()\nBEGIN\n  START PROCEDURE proc2();\n  -- continue executing proc1 without waiting for proc2 to complete\nEND;\n\nCREATE PROCEDURE proc2()\nBEGIN\n  -- perform some long-running operation\n  -- this will run in the background while proc1 continues to execute\nEND;

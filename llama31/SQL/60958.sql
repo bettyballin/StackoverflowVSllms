@@ -1,1 +1,0 @@
-SELECT id INTO @var_name FROM table1 WHERE some_column='something' LIMIT 1;\nINSERT INTO table2 (`number`) VALUES (@var_name);

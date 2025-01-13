@@ -1,1 +1,0 @@
-import html\n\nunicode_string = "<p>Hello, World!</p>"\nhtml_entities = html.escape(unicode_string)\nprint(html_entities)  # Output: &lt;p&gt;Hello, World!&lt;/p&gt;

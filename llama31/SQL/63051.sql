@@ -1,1 +1,0 @@
-SELECT *, \n       CASE \n           WHEN DATEDIFF(NOW(), created) = 0 THEN hits\n           ELSE hits / DATEDIFF(NOW(), created)\n       END AS hits_per_day\nFROM entries\nWHERE is_published = 1\nORDER BY hits_per_day DESC, hits DESC, created DESC\nLIMIT 10;

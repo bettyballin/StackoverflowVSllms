@@ -1,1 +1,0 @@
-<?php\nob_start(); // Start output buffering\ninclude("config.php");\ninclude("session.php");\nob_end_flush(); // End output buffering and send headers\n?>

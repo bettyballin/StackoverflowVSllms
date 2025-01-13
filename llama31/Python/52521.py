@@ -1,1 +1,0 @@
-import requests\nfrom bs4 import BeautifulSoup\n\nurl = "http://www.biglickmedia.com/art/random/index.php"\nresponse = requests.get(url)\nsoup = BeautifulSoup(response.content, "html.parser")\n\nimg_url = soup.find("img")["src"]\nimg_response = requests.get(img_url)\n\nwith open("image.jpg", "wb") as f:\n    f.write(img_response.content)

@@ -1,1 +1,0 @@
-If (condition1 AndAlso condition2 AndAlso condition3)\n    ...\nEnd If\n\nIf (condition1 OrElse condition2 OrElse condition3)\n    ...\nEnd If\n\nIf (condition1 OrElse (condition2 AndAlso condition3) OrElse condition4)\n    ...\nEnd If

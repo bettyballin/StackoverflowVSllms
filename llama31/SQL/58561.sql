@@ -1,1 +1,0 @@
-SELECT \n    *\nFROM \n    o1, o2\nWHERE \n    o1.from_ts < (o2.to_ts - INTERVAL '1' SECOND * ((o2.to_ts - o2.from_ts) / 2))\n    AND \n    o1.to_ts > (o2.to_ts - INTERVAL '1' SECOND * ((o2.to_ts - o2.from_ts) / 2))

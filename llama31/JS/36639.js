@@ -1,1 +1,0 @@
-$(".item").draggableSelectable({\n  drag: {\n    revert: "invalid"\n  },\n  select: {\n    filter: ".item"\n  }\n});

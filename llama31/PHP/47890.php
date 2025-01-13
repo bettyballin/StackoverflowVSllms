@@ -1,1 +1,0 @@
-mail('user@example.com', 'Test Email', 'This is a test email', '', '-f sender@example.com -r ip.address.of.server');

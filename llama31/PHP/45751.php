@@ -1,1 +1,0 @@
-class MyClass {\n    private $configVar;\n\n    public function __construct($configVar) {\n        $this->configVar = $configVar;\n    }\n\n    public function myMethod() {\n        // Use $this->configVar\n    }\n}

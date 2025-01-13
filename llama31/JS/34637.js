@@ -1,1 +1,0 @@
-Sys.Application.add_load(function() {\n    var checkboxes = $get('<%= GridView1.ClientID %>').getElementsByTagName('input');\n    for (var i = 0; i < checkboxes.length; i++) {\n        if (checkboxes[i].type == 'checkbox') {\n            checkboxes[i].onclick = function() { checkClick(); };\n        }\n    }\n});

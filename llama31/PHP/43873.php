@@ -1,1 +1,0 @@
-// Get the data from Symphony's XML storage\n$xml = Symphony::get('xml');\n\n// Load the XSLT template\n$xsl = new DOMDocument();\n$xsl->load('template.xsl');\n\n// Transform the XML data using the XSLT template\n$proc = new XSLTProcessor();\n$proc->importStylesheet($xsl);\n$result = $proc->transformToXml($xml);\n\n// Output the transformed data\necho $result;

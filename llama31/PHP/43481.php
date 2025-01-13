@@ -1,1 +1,0 @@
-$test1 = 0;\n$test2 = "0";\n$test3 = "";\n$test4 = array();\n$test5 = NULL;\n\nvar_dump(is_truly_empty($test1));  // bool(false)\nvar_dump(is_truly_empty($test2));  // bool(false)\nvar_dump(is_truly_empty($test3));  // bool(true)\nvar_dump(is_truly_empty($test4));  // bool(true)\nvar_dump(is_truly_empty($test5));  // bool(true)

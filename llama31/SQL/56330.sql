@@ -1,1 +1,0 @@
-CREATE TABLE MyTable (\n    ID INT,\n    ValueInt INT,\n    ValueString VARCHAR(255),\n    ValueDateTime DATETIME,\n    Type VARCHAR(255)\n);

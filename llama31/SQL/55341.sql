@@ -1,1 +1,0 @@
-CREATE TABLE Properties (\n  PropertyId INT PRIMARY KEY,\n  CategoryId INT NOT NULL,\n  Name VARCHAR(50) NOT NULL,\n  DataType VARCHAR(20) NOT NULL,  -- e.g., 'int', 'varchar', 'datetime'\n  FOREIGN KEY (CategoryId) REFERENCES Categories(CategoryId)\n)

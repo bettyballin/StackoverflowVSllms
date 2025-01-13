@@ -1,1 +1,0 @@
-SELECT COUNT(Job) AS Jobs\nFROM dbo.Job\nWHERE Received >= CAST(GETDATE() AS DATE)\n  AND Received < CAST(GETDATE() + 1 AS DATE)

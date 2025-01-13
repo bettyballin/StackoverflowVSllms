@@ -1,1 +1,0 @@
-SELECT \n    ar.artranid, \n    ar.trandate, \n    ar.type, \n    ar.checkNumber, \n    ar.refNumber,\n    ar.custid,\n    ar.amount, \n    ar.taxAmount, \n    SUM(ar.amount) OVER (ORDER BY ar.artranid) AS balance,\n    ar.postedflag, \n    ar.modifieddate\nFROM \n    artran ar\nORDER BY \n    ar.artranid;

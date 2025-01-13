@@ -1,1 +1,0 @@
-CREATE TABLE user_roles (\n  id INT PRIMARY KEY,\n  user_id INT,\n  role_id INT\n);

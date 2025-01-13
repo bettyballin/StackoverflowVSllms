@@ -1,1 +1,0 @@
->>> length = 10\n>>> chunk_size = 3\n>>> num_chunks = length // chunk_size\n>>> num_chunks\n3

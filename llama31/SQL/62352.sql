@@ -1,1 +1,0 @@
--- Get the list of tables\nSELECT name FROM sys.tables;\n\n-- Get the list of columns for each table\nSELECT name FROM sys.columns WHERE object_id = OBJECT_ID('TABLE_NAME');

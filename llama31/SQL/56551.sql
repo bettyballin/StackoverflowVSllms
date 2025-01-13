@@ -1,1 +1,0 @@
-SELECT \n  Statistics.StatisticID, \n  COUNT(Votes.StatisticID) AS Votes\nFROM \n  Statistics\n  LEFT JOIN Votes ON Statistics.StatisticID = Votes.StatisticID\nGROUP BY \n  Statistics.StatisticID\nORDER BY \n  Statistics.SubmittedTime DESC\nLIMIT 0, 10;

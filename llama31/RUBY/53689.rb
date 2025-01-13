@@ -1,1 +1,0 @@
-require 'selenium-webdriver'\n\nCapybara.default_driver = :selenium\nCapybara.register_driver :selenium do |app|\n  Selenium::WebDriver.for :firefox\nend

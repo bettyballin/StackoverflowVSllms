@@ -1,1 +1,0 @@
-$.validator.prototype.elements = function() {\n    var elements = this.$element.find(":input");\n    if (elements.length === 0) {\n        elements = this.$element.filter(":input");\n    }\n    // Add this line to prevent IE from clearing file input values\n    elements.filter(":file").off("focus");\n    return elements;\n};

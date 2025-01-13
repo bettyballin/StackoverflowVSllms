@@ -1,1 +1,0 @@
-var dataString = "email="+username+"&password="+password+"&remember="+remember;

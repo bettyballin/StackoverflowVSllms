@@ -1,1 +1,0 @@
-Dim db As DAO.Database\nSet db = CurrentDb()\nDim qdf As DAO.QueryDef\nSet qdf = db.QueryDefs("YourQueryName")\n\nqdf.SQL = "SELECT utyp, count(*) AS anzahl " & _\n          "INTO UTYP_Anzahl " & _\n          "FROM 01_umwelt " & _\n          "WHERE status = pStatus " & _\n          "GROUP BY utyp;"\n\nqdf.Parameters("pStatus").Value = Me.Controls("STATUS").Value\nqdf.Execute

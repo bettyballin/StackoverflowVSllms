@@ -1,1 +1,0 @@
-<Project ...>\n  <ItemGroup>\n    <EmbeddedResource Include="YourDependency1.dll" />\n    <EmbeddedResource Include="YourDependency2.dll" />\n  </ItemGroup>\n</Project>

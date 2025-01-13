@@ -1,1 +1,0 @@
-for ($i = 1; $i <= $totalpages; $i++) {\n    if ($i == $page) {\n        echo "<b>$i</b>";\n    } else {\n        echo "<a href='test.php?page=$i'>$i</a>";\n    }\n}

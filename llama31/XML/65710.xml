@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>\n<docTemplate>\n  <summary></summary>\n  <param name="$parameter1$"></param>\n  <param name="$parameter2$"></param>\n  <returns></returns>\n  <remarks>Author: $author$</remarks>\n  <remarks>Date: $date$</remarks>\n</docTemplate>

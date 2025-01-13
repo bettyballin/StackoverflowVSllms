@@ -1,1 +1,0 @@
-UPDATE money\nSET cash = cash + 100\nWHERE _uid = 1;

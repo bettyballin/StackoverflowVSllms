@@ -1,1 +1,0 @@
-$product_name = $_POST["product_name"];\n// Now you can store it in your database

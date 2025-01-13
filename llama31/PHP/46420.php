@@ -1,1 +1,0 @@
-$connection = sqlsrv_connect($serverName, $connectionOptions);\nif ($connection === false) {\n    die(print_r(sqlsrv_errors(), true));\n}

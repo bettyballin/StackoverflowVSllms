@@ -1,1 +1,0 @@
-def remove_values_from_list(lst, value):\n    return [item for item in lst if item != value]\n\nprint(remove_values_from_list([1, 2, 3, 4, 2, 2, 3], 2))  # Output: [1, 3, 4, 3]

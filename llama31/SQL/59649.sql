@@ -1,1 +1,0 @@
-CREATE ROLE [YourRoleName] AUTHORIZATION [dbo];\nGRANT EXECUTE ON [schema_name].[procedure_name] TO [YourRoleName];\nALTER ROLE [YourRoleName] ADD MEMBER [YourUserGroupName];

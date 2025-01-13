@@ -1,1 +1,0 @@
-CREATE TABLE Orders (\n    OrderID INT PRIMARY KEY,\n    CustomerID INT\n);\n\nCREATE TABLE OrderItems (\n    OrderItemID INT PRIMARY KEY,\n    OrderID INT,\n    ProductID INT,\n    FOREIGN KEY (OrderID) REFERENCES Orders(OrderID) ON DELETE CASCADE\n);

@@ -1,1 +1,0 @@
-$ch = curl_init('http://example.com/file.txt');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_HEADER, true);\ncurl_setopt($ch, CURLOPT_HTTPHEADER, array('Cache-Control: no-cache'));\n$response = curl_exec($ch);\ncurl_close($ch);

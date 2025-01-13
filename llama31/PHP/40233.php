@@ -1,1 +1,0 @@
-require_once 'Date.php';\n\n$date = new Date('2009-07-01 12:00:00', 'America/Los_Angeles');\n$offset = $date->format('%T') / 3600;\n\necho $offset;

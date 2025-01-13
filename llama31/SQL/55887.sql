@@ -1,1 +1,0 @@
-(\n    R.reviewStart between M.meetingStart and M.meetingEnd OR\n    R.reviewEnd between M.meetingStart and M.meetingEnd OR\n    M.meetingStart between R.reviewStart and R.reviewEnd OR\n    M.meetingEnd between R.reviewStart and R.reviewEnd\n)

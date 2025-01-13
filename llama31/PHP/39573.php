@@ -1,1 +1,0 @@
-// index.php\n$token = uniqid();\n$_SESSION['token'] = $token;\n\n// Spawn child window using JavaScript\necho "<script>window.open('oauth.php?token=$token', '_blank');</script>";\n\n// oauth.php\nif (isset($_GET['token'])) {\n    $token = $_GET['token'];\n    if (isset($_SESSION['token']) && $_SESSION['token'] === $token) {\n        // Authenticate and retrieve data...\n    }\n}

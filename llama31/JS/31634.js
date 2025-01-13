@@ -1,1 +1,0 @@
-function editFile(filePath) {\n    $.ajax({\n        type: "GET",\n        url: "/FileEditHandler.ashx?filePath=" + filePath,\n        success: function (response) {\n            var blobUrl = URL.createObjectURL(response);\n            window.open(blobUrl, "_blank");\n        }\n    });\n}

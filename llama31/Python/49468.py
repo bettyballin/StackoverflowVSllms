@@ -1,1 +1,0 @@
-def get_index_of_tuple(tuple_list, sub_index, value):\n    indices = [i for i, x in enumerate(tuple_list) if x[sub_index] == value]\n    return indices[0] if indices else None

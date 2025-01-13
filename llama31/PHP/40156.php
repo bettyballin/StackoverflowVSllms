@@ -1,1 +1,0 @@
-file_put_contents("ja.po", $con, FILE_APPEND | LOCK_EX, 'utf-8');

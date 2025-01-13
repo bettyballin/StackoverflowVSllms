@@ -1,1 +1,0 @@
-CREATE OR REPLACE TRIGGER login_trigger\nAFTER LOGON ON DATABASE\nFOR user_name\nBEGIN\n  IF SYS_CONTEXT('USERENV', 'IP_ADDRESS') != 'allowed_ip_address' THEN\n    RAISE_APPLICATION_ERROR(-20001, 'Access denied from this IP address');\n  END IF;\nEND;

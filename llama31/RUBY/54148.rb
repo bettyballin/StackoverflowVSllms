@@ -1,1 +1,0 @@
-some_cool_class.rb

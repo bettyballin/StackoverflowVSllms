@@ -1,1 +1,0 @@
-$mail = new PHPMailer();\n$mail->isSMTP();\n$mail->Host = 'your_smtp_server';\n$mail->Port = 587;\n$mail->SMTPAuth = true;\n$mail->Username = 'your_username';\n$mail->Password = 'your_password';\n$mail->send();

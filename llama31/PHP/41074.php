@@ -1,1 +1,0 @@
-$clean = mysql_real_escape_string($input);

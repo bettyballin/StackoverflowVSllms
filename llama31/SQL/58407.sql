@@ -1,1 +1,0 @@
-WITH Dates AS (\n  SELECT CAST('2008-12-10' AS DATE) AS Date\n  UNION ALL\n  SELECT DATEADD(DAY, 1, Date)\n  FROM Dates\n  WHERE Date < '2008-12-16'\n)\nSELECT d.Date, COALESCE(l.Count, 0) AS Count\nFROM Dates d\nLEFT JOIN (\n  SELECT DATE(login_date) AS Date, COUNT(*) AS Count\n  FROM WebsiteLogin\n  GROUP BY DATE(login_date)\n) l ON d.Date = l.Date\nOPTION (MAXRECURSION 0);

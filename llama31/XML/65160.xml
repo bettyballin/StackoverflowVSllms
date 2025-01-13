@@ -1,1 +1,0 @@
-<!-- customBuildCallbacks.xml -->\n<project name="custom-build-callbacks" default="pre.build">\n    <target name="pre.build">\n        <!-- Your custom build steps here -->\n        <echo message="Custom build callback executed"/>\n    </target>\n</project>

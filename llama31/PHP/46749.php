@@ -1,1 +1,0 @@
-$ch = curl_init("http://www.sportingpulse.com/rpt_ladder.cgi?results=N&round=15&client=1-3909-47801-81021-6151461&pool=-1");\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$page = curl_exec($ch);\n\n$dom = new DOMDocument();\n$dom->loadHTML($page);\n$tables = $dom->getElementsByTagName('table');\n\nforeach ($tables as $table) {\n    echo $dom->saveHTML($table);\n}

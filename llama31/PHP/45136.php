@@ -1,1 +1,0 @@
-$result = ImageCreateFromPNG(...);\nImageAlphaBlending($result, false);\nImageSaveAlpha($result, true);\nImageFill($result, 0, 0, IMG_COLOR_TRANSPARENT);\nImageFillColor($result, IMG_COLOR_WHITE);\nImageJPEG($result);\nImageDestroy($result);

@@ -1,1 +1,0 @@
-// client-side JavaScript\nconst dateValidator = new DateValidator();\nif (!dateValidator.isValidDate(date)) {\n    // handle invalid date\n}

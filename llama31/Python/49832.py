@@ -1,1 +1,0 @@
-def split_list_in_half(input_list):\n    half = len(input_list) // 2\n    return input_list[:half], input_list[half:]\n\nA = [0,1,2,3,4,5]\nB, C = split_list_in_half(A)\n\nprint("B:", B)\nprint("C:", C)

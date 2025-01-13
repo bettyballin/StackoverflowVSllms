@@ -1,1 +1,0 @@
-<!-- default.ctp -->\n<!DOCTYPE html>\n<html>\n<head>\n    <!-- common header code -->\n</head>\n<body>\n    <?= $this->fetch('content') ?>\n</body>\n</html>

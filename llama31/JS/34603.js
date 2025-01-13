@@ -1,1 +1,0 @@
-class UserModel {\n  constructor(id, name, email) {\n    this.id = id;\n    this.name = name;\n    this.email = email;\n  }\n\n  toJSON() {\n    return {\n      id: this.id,\n      name: this.name,\n      email: this.email\n    };\n  }\n}

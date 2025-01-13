@@ -1,1 +1,0 @@
-SELECT \n  date, \n  item, \n  total\nFROM (\n  SELECT \n    date, \n    item, \n    COUNT(*) as total,\n    ROW_NUMBER() OVER (PARTITION BY date ORDER BY COUNT(*) DESC) as row_num\n  FROM \n    test_popularity\n  GROUP BY \n    date, item\n) as subquery\nWHERE \n  row_num = 1;

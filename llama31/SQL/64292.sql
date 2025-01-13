@@ -1,1 +1,0 @@
--- ANSI SQL standard way to get the current date\nSELECT CURRENT_DATE;\n\n-- PostgreSQL implementation\nSELECT CURRENT_DATE;\n\n-- MySQL implementation (before 8.0)\nSELECT CURDATE();\n\n-- MySQL implementation (8.0 and later)\nSELECT CURRENT_DATE;

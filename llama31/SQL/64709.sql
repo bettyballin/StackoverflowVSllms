@@ -1,1 +1,0 @@
-WITH user_data AS (\n  SELECT name, address, phone\n  FROM USER\n)\nSELECT count(address)\nFROM user_data;

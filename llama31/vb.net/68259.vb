@@ -1,1 +1,0 @@
-Catch ex As DuplicateException\n    NonDuplicate = IncrementToNonDuplicateValue(NumberToCheck)\n    ' log or perform any other necessary actions here\n    Throw ' rethrow the original exceptio

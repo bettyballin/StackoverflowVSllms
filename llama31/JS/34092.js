@@ -1,1 +1,0 @@
-window.addEventListener("load", function() {\n  // code to be executed when the page is fully loaded\n});

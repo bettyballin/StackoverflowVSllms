@@ -1,1 +1,0 @@
--- Example of including key attributes in column names\nCREATE TABLE customers (\n  customer_id_pk INT PRIMARY KEY,\n  name VARCHAR(255),\n  email VARCHAR(255)\n);\n\nCREATE TABLE orders (\n  order_id_pk INT PRIMARY KEY,\n  customer_id_fk INT,\n  order_date DATE,\n  FOREIGN KEY (customer_id_fk) REFERENCES customers(customer_id_pk)\n);

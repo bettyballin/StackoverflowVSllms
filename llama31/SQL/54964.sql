@@ -1,1 +1,0 @@
-CREATE TEMPORARY TABLE temp_node_ids (\n  node_ID INT PRIMARY KEY\n);\n\nINSERT INTO temp_node_ids (node_ID)\nSELECT DISTINCT node_ID\nFROM viewpermission\nWHERE usergroupID IN (<...usergroups of current user...>);\n\nSELECT n.*\nFROM node n\nJOIN temp_node_ids t ON n.node_ID = t.node_ID\nORDER BY n.node_lastupdated DESC\nLIMIT 20;

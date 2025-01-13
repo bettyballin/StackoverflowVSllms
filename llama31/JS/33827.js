@@ -1,1 +1,0 @@
-$.ajax({\n  type: "GET",\n  url: "/dummy-text",\n  success: function(data) {\n    $("#dummy-text").text(data);\n  }\n});

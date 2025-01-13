@@ -1,1 +1,0 @@
-if (isset($tx)) {\n    // Variable is set, proceed with caution\n}

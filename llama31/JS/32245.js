@@ -1,1 +1,0 @@
-$.ajax({\n    // your AJAX options here\n    success: function(data) {\n        $('#yourDiv').html(data);\n        $('#birthdate').datepicker({ showOn: 'focus' });\n    }\n});

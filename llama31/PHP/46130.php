@@ -1,1 +1,0 @@
-// Assuming you're using a MySQL database\n$activationKey = generateActivationKey($email);\n$hashedActivationKey = hash('sha256', $activationKey . $salt); // Use a salt!\n\n// Store the hashed activation key in the database\nmysqli_query($db, "INSERT INTO activations (email, activation_key) VALUES ('$email', '$hashedActivationKey')");

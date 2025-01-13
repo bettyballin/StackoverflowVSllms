@@ -1,1 +1,0 @@
-SELECT DISTINCT KEY\nFROM (\n    SELECT DISTINCT key as KEY FROM tablea WHERE XYZ\n    UNION ALL\n    SELECT DISTINCT id as KEY FROM tableb WHERE XYZ\n    UNION ALL\n    ...\n) AS subquery;

@@ -1,1 +1,0 @@
-class Schedule < ApplicationRecord\n  before_save :validate_associations\n\n  private\n\n  def validate_associations\n    # Check if assignment is present and valid\n    if assignment.blank? || !assignment.valid?\n      errors[:assignment] = "Assignment is missing or invalid"\n      throw(:abort)\n    end\n  end\nend

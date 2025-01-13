@@ -1,1 +1,0 @@
-CREATE INDEX idx_table1_foo_0_bar1 ON table1 (foo_0, bar1);

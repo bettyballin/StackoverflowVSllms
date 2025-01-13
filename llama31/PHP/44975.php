@@ -1,1 +1,0 @@
-while ($row = mysqli_fetch_assoc($getformdata)) {\n    $ARTICLE_NO = $row['ARTICLE_NO'];\n    $checkDeleted = ($row['deleted'] == 'checked') ? 'checked' : '';\n}

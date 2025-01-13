@@ -1,1 +1,0 @@
-<PropertyGroup>\n  <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">9.0</VisualStudioVersion>\n  <PromptForReloadModifiedFiles>false</PromptForReloadModifiedFiles>\n</PropertyGroup>

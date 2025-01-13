@@ -1,1 +1,0 @@
-function processArray(array $arr) {\n    foreach ($arr as $key => $value) {\n        echo "$key => $value\n";\n    }\n}\n\n// Numerically indexed array\n$array1 = array(1, 2, 3);\nprocessArray($array1);\n\n// Associative array (hash)\n$array2 = array('key1' => 'value1', 'key2' => 'value2');\nprocessArray($array2);

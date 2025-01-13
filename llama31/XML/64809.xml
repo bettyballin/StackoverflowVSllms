@@ -1,1 +1,0 @@
-<Deployment xmlns="urn:schemas-microsoft-com:asm.v1"\n             ManifestVersion="1.0"\n             MapAllFiles="true"\n             ApplicationIdentity="YourCompany.TestApplication"\n             DeploymentType="install">\n  ...\n</Deployment>

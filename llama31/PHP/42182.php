@@ -1,1 +1,0 @@
-// Query with case-sensitive comparison\n$query = "SELECT * FROM users WHERE BINARY username = '$username'";

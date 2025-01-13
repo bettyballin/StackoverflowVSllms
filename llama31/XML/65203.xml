@@ -1,1 +1,0 @@
-<class name="Event" table="Events">\n  ...\n  <property name="EventId" type="string" unique="true" cache="true"/>\n  ...\n</class>

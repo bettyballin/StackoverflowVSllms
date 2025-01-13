@@ -1,1 +1,0 @@
-function stripJunk($string){\n    $string = str_replace(" ", "-", $string);\n    $string = preg_replace("/[^a-zA-Z0-9-]/", "", $string);\n    $string = strtolower($string);\n    return $string;\n}

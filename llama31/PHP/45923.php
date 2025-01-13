@@ -1,1 +1,0 @@
-try {\n    $contents = file_get_contents($imagePath);\n    // ...\n} catch (Exception $e) {\n    // Handle the exception, e.g., log the error and continue\n    // ...\n}

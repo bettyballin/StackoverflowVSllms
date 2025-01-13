@@ -1,1 +1,0 @@
-<a href="#" onclick="${htmlEscape('SelectSurveyItem(\'' + jsEscape(itemid) + '\', \'' + jsEscape(itemname) + '\'); return false;')}">Select</a>

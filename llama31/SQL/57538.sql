@@ -1,1 +1,0 @@
-BEGIN\n  DBMS_FGA.ADD_POLICY(\n    object_schema => 'YOUR_SCHEMA',\n    object_name => 'YOUR_PROCEDURE',\n    policy_name => 'AUDIT_PROCEDURE',\n    audit_condition => 'TRUE',\n    audit_column => 'ALL',\n    enable => TRUE,\n    statement_types => 'EXECUTE'\n  );\nEND;

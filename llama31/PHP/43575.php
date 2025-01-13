@@ -1,1 +1,0 @@
-global $wpdb;\n$item_id = 123; // Replace with the ID of the item\n$logs = $wpdb->get_results("SELECT * FROM change_log WHERE table_name = 'Item' AND row_id = $item_id");

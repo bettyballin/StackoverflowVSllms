@@ -1,1 +1,0 @@
--- Create a new schema for adjustment tables\nCREATE SCHEMA adjustments;\n\n-- Create a table in the new schema\nCREATE TABLE adjustments.BillAdjustments (\n    -- columns...\n);\n\n-- Enable auditing on the new schema\nCREATE SERVER AUDIT SPECIFICATION BillAdjustmentsAudit\nFOR SERVER AUDIT 'BillAdjustments'\nADD (SCHEMA_OBJECT_ACCESS_GROUP = 'adjustments')\nWITH (STATE = ON);

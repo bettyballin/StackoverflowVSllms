@@ -1,1 +1,0 @@
-INSERT INTO MyTable (Column1, Column2, Column3)\nVALUES ('Value1', NULL, 'Value3');

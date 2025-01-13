@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("INSERT INTO geological_data (street_name) VALUES (?)");\n$stmt->bind_param("s", $street_name);\n$stmt->execute();

@@ -1,1 +1,0 @@
-$result = implode(" ", $matches[0]);\necho $result;  // Outputs: "is a"

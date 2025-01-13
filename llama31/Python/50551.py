@@ -1,1 +1,0 @@
-import rpm\n\ndef check_for_updates(package_name):\n    ts = rpm.TransactionSet()\n    mi = ts.dbMatch('name', package_name)\n    return list(mi)\n\npackage_name = 'example-package'  # replace with your package name\nupdates = check_for_updates(package_name)\nprint(updates)

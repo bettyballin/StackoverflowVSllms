@@ -1,1 +1,0 @@
-PREPARE stmt FROM 'SELECT * FROM some_table WHERE id IN (?)';\nEXECUTE stmt USING @ids;

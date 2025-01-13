@@ -1,1 +1,0 @@
-SELECT CarId, NumberPlate,\n    STUFF((SELECT ', ' + Owner\n           FROM Owners b\n           WHERE b.CarId = a.CarId\n           FOR XML PATH(''), TYPE).value('.', 'nvarchar(max)'), 1, 2, '') AS Owners\nFROM Cars a\nORDER BY NumberPlate

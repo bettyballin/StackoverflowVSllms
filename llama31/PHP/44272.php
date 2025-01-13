@@ -1,1 +1,0 @@
-// Before (each page controller has its own logic)\n// login.php, register.php, etc.\n\n// After (page controllers extend a base controller)\n// LoginController.php\nclass LoginController extends BaseController {\n    public function login() {\n        // Login logic\n    }\n}

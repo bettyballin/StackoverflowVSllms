@@ -1,1 +1,0 @@
-GRANT EXECUTE ON [dbo].[StoredProcedureXPTO] TO [MySpecificRole];

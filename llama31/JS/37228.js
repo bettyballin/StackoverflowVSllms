@@ -1,1 +1,0 @@
-// Client-side JavaScript validation\nfunction validateUsername(username) {\n    if (username.length > 50) {\n        alert("Invalid username");\n        return false;\n    }\n    return true;\n}

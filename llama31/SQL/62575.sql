@@ -1,1 +1,0 @@
-START TRANSACTION;\n\nSELECT DISTINCT url\nFROM urls\nWHERE task_assigned IS NULL\nORDER BY id\nLIMIT 100\nFOR UPDATE;\n\nUPDATE urls\nSET task_assigned = NOW()\nWHERE url IN (SELECT url FROM urls WHERE task_assigned IS NULL AND url IN (...));\n\nCOMMIT;

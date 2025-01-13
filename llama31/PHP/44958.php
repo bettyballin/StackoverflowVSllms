@@ -1,1 +1,0 @@
-if ($condition) {\n    $foo++ for (1..10);\n}

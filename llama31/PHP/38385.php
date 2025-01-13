@@ -1,1 +1,0 @@
-$gif = new Giflib('input.gif');\n$gif->addImage('watermark.png', 'bottom-right', 0, 0);\n$gif->removeFrames(2);\n$gif->save('output.gif');

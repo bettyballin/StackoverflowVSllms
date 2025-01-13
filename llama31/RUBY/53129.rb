@@ -1,1 +1,0 @@
-Widget.find(:all, :conditions => ["name like ?", "%awesome%"])

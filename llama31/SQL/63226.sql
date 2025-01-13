@@ -1,1 +1,0 @@
-CREATE PROCEDURE sp_user_getDetails\n    @userid INT\nAS\nBEGIN\n    SELECT * \n    FROM sometable \n    WHERE iUser = @userid;\nEND\nGO

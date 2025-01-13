@@ -1,1 +1,0 @@
-$auth = $this->requestAction('/users/get_auth');\n$username = $auth->user('username');\necho "Welcome " . $username;

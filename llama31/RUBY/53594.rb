@@ -1,1 +1,0 @@
-books_to_consider = Book.where(Book.arel_table[:created_at].between(date1..date2))\n                         .where(Book.arel_table[:updated_at].lt(date3))\n                         .joins(Cart.arel_table)

@@ -1,1 +1,0 @@
-<?php\n$file_path = '\\server\directory\file.xlsx';\n$file_name = basename($file_path);\n\nheader('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');\nheader('Content-Disposition: attachment; filename="' . $file_name . '"');\nheader('Content-Length: ' . filesize($file_path));\n\nreadfile($file_path);\nexit;\n?>

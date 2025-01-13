@@ -1,1 +1,0 @@
-SELECT CONCAT(H.name, P.name)\nFROM urls AS U\nINNER JOIN hosts AS H ON U.host = H.id\nINNER JOIN paths AS P ON U.path = P.id\nLIMIT 100000;

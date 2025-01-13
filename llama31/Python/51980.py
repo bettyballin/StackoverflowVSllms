@@ -1,1 +1,0 @@
->>> import mod_call\n>>> mod_call()\n42

@@ -1,1 +1,0 @@
-$image = imagecreatefrompng('input.png');\nimagesavealpha($image, true);\n\n$mask = imagecreatetruecolor(200, 200);\nimagefill($mask, 0, 0, imagecolorallocate($mask, 0, 0, 0));\nimagefilledellipse($mask, 100, 100, 200, 200, imagecolorallocate($mask, 255, 255, 255));\n\nimagealphamask($image, $mask);\nimagepng($image, 'output.png');

@@ -1,1 +1,0 @@
-SET @@GLOBAL.default_week_format = 1;  // Set Monday as the first day of the week\n\nSELECT *\nFROM your_table\nWHERE YEARWEEK(CURDATE()) = YEARWEEK(your_date_column);

@@ -1,1 +1,0 @@
-SELECT\n    p.value('(firstName/text())[1]', 'varchar(50)') AS FirstName,\n    p.value('(lastName/text())[1]', 'varchar(50)') AS LastName\nFROM\n    YourTable\nCROSS APPLY\n    YourXmlField.nodes('/person') AS x(p)

@@ -1,1 +1,0 @@
-// Header.php\nclass Header {\n    public function render() {\n        ?>\n        <nav>\n            <ul>\n                <li><a href="#">Home</a></li>\n                <li><a href="#">About</a></li>\n            </ul>\n        </nav>\n        <?php\n    }\n}

@@ -1,1 +1,0 @@
-SELECT city FROM $table WHERE SOUNDEX(city) = SOUNDEX('$searchTerm')

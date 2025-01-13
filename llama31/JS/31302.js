@@ -1,1 +1,0 @@
-// Create a new Date object without parentheses\nconst date1 = new Date;\nconsole.log(date1); // Output: current date and time\n\n// Create a new Date object with parentheses and arguments\nconst date2 = new Date('2022-07-25');\nconsole.log(date2); // Output: July 25, 2022, 00:00:00

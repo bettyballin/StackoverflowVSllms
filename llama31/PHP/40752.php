@@ -1,1 +1,0 @@
-$count = sizeof($abc);\necho $count; // Output: 3

@@ -1,1 +1,0 @@
-var htmlData = $('#user-generated-html').html();\nvar jsonData = JSON.stringify(htmlData);

@@ -1,1 +1,0 @@
-function read_doc_file($filename) {\n    $content = '';\n    exec('antiword -m UTF-8 ' . escapeshellarg($filename), $output);\n    foreach ($output as $line) {\n        $content .= $line . "\n";\n    }\n    return $content;\n}\n\n$text = read_doc_file('document.doc');

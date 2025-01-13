@@ -1,1 +1,0 @@
-$(document).ready(function(){\n    $('#myForm').ajaxForm({\n        success: function(data) {\n            if (data == 1) {\n                $('#bad').fadeIn("slow");\n            }\n        },\n        complete: function() {\n            $('#submitinput').prop('disabled', false);\n        }\n    });\n});

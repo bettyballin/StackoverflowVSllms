@@ -1,1 +1,0 @@
-CREATE VIEW t2_with_descriptions AS\nSELECT t2.parent, t2.child, t1.description\nFROM t2 JOIN t1 ON t2.child = t1.id\n\nSELECT parent, child, \n       sys_connect_by_path(description, '/') as "path"\nFROM t2_with_descriptions\nCONNECT BY PRIOR parent = child

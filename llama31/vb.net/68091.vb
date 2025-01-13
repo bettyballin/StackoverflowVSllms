@@ -1,1 +1,0 @@
-Private Sub Form_Load()\n    Dim db As DAO.Database\n    Dim rs As DAO.Recordset\n    \n    Set db = CurrentDb()\n    Set rs = db.OpenRecordset("qryTop10Sales", dbOpenSnapshot)\n    \n    rs.MoveFirst\n    Me.txtTopSales = rs!TotalSales\n    \n    rs.Close\n    Set rs = Nothing\n    Set db = Nothing\nEnd Sub

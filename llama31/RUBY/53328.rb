@@ -1,1 +1,0 @@
-def constantize_model(common_part)\n  self.class.const_get("#{I18n.locale.capitalize}::#{common_part}")\nend

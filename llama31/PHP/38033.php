@@ -1,1 +1,0 @@
-$ch = curl_init('https://example.com');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$response = curl_exec($ch);\ncurl_close($ch);

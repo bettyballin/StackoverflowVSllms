@@ -1,1 +1,0 @@
-WITH RECURSIVE row_generator AS (\n  SELECT 1 AS row_number\n  UNION ALL\n  SELECT row_number + 1\n  FROM row_generator\n  WHERE row_number < 10\n)\nSELECT * FROM row_generator;

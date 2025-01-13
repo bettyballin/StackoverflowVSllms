@@ -1,1 +1,0 @@
-if (function_exists('mb_strlen')) {\n    echo 'mb_strlen function is available';\n} else {\n    echo 'mb_strlen function is not available';\n}

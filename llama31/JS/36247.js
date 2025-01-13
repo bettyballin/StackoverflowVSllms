@@ -1,1 +1,0 @@
-chgImg("myImage", "image1");

@@ -1,1 +1,0 @@
-document.querySelector('option.selected').setAttribute('selected', 'true');

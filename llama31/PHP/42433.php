@@ -1,1 +1,0 @@
-public function setFulltextColumn($parameters)\n{\n    $sql = "INSERT INTO my_table (fulltext_column) VALUES (to_tsvector('english', :text))";\n    $params = array('text' => $parameters);\n    MyTablePeer::executeQuery($sql, $params);\n}

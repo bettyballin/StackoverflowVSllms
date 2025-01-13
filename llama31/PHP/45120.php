@@ -1,1 +1,0 @@
-function access($role_auth, $array){\n    if(!is_null($role_auth) && is_numeric($role_auth) && in_array($role_auth, $array)) {\n        // Do nothing, the user is authorized\n    } else {\n        header("Location: ../index.html");\n        exit; // Make sure to exit the script after redirecting\n    }\n}

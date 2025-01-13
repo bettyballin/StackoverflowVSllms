@@ -1,1 +1,0 @@
-$string = 'HelloWorld123';\nif (isAlphanumeric($string)) {\n    echo 'The string is alphanumeric.';\n} else {\n    echo 'The string is not alphanumeric.';\n}

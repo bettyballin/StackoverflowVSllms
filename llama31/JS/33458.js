@@ -1,1 +1,0 @@
-// Assuming your DropDownList ID is "ddlList"\nvar ddlList = $("#<%= ddlList.ClientID %>");\n\n// Get all option elements\nvar options = ddlList.find("option");\n\n// Iterate through options and get their values\noptions.each(function() {\n    var optionValue = $(this).val();\n    // Do something with the option value\n});

@@ -1,1 +1,0 @@
-$start = microtime(true);\n// call the function you want to measure\nis_dir('/path/to/check');\n$end = microtime(true);\n$executionTime = $end - $start;\necho "Execution time: $executionTime seconds";

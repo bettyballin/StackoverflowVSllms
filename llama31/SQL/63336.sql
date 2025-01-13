@@ -1,1 +1,0 @@
-SELECT Date1.date, Date2.date\nFROM Dates Date1\nCROSS JOIN Dates Date2\nWHERE Date1.date < Date2.date

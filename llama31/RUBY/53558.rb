@@ -1,1 +1,0 @@
-@my_message = create_message_owned_by(@me)

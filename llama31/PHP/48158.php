@@ -1,1 +1,0 @@
-if (isset($_POST['myPOSTvar'])) {\n    $var = $_POST['myPOSTvar'];\n    // ...\n} else {\n    // handle the case where the variable is not set\n}

@@ -1,1 +1,0 @@
-$filter = new Zend_Filter_Input(array(\n    'name' => array(\n        'filters' => array('StringTrim', 'StringToLower'),\n        'validators' => array('NotEmpty', 'Alpha')\n    )\n));

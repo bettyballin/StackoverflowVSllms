@@ -1,1 +1,0 @@
-lstOutput.Text = Bill * (1 + If(Tip < 1, Tip, Tip / 100))

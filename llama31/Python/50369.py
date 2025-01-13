@@ -1,1 +1,0 @@
-# Example of using Django's ORM to fetch data from a database\nfrom django.db import models\n\nclass Book(models.Model):\n    title = models.CharField(max_length=200)\n    author = models.CharField(max_length=100)\n\n# Fetch all books with a specific author\nbooks = Book.objects.filter(author='John Doe')

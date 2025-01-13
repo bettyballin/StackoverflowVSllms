@@ -1,1 +1,0 @@
-DELETE masterTable\nFROM masterTable t\nJOIN incomingDataTable inc ON t.TrimmedTextField = inc.TrimmedTextField\nWHERE t.TrimmedTextField <> ''

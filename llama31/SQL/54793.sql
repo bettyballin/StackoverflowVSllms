@@ -1,1 +1,0 @@
-UPDATE im\nSET mf_item_number = 'new_value'\nFROM item_master im\nINNER JOIN group_master gm ON im.sku = gm.sku\nINNER JOIN Manufacturer_Master mm ON gm.ManufacturerID = mm.ManufacturerID\nWHERE im.mf_item_number LIKE 'STA%'\n  AND gm.manufacturerID = 34;

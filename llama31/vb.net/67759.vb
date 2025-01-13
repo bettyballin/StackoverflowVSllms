@@ -1,1 +1,0 @@
-Dim pageType As Type = Me.GetType()\nDim methods() As MethodInfo = pageType.GetMethods()\nDim CallbackMethodInfo As MethodInfo = methods.FirstOrDefault(Function(m) m.Name = "MethodName")

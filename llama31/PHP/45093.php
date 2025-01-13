@@ -1,1 +1,0 @@
-define('APP_PATH', dirname(__FILE__));\ndefine('APP_URL', '/path/to/your/app/'); // adjust this to your needs\n\n// In header.php\n<img src="<?php echo APP_URL; ?>images/image.jpg" alt="Image">

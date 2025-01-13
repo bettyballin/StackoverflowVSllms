@@ -1,1 +1,0 @@
-// client-side JavaScript\nvar xhr = new XMLHttpRequest();\nxhr.open('GET', 'update.asp', true);\nxhr.onreadystatechange = function() {\n  if (xhr.readyState === 4 && xhr.status === 200) {\n    document.getElementById('myDiv').innerHTML = xhr.responseText;\n  }\n};\nxhr.send();

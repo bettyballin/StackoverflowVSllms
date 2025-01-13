@@ -1,1 +1,0 @@
-import win32com.client\n\n# Create an instance of the Outlook Application object\noutlook = win32com.client.Dispatch("Outlook.Application")\n\n# Get the IDs of the methods and properties on the Application object\nids = outlook.GetIDsOfNames(["GetNamespace", "CreateItem"])\n\n# Invoke the GetNamespace method\nnamespace = outlook.Invoke(ids[0], "MAPI")

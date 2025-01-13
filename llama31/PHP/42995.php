@@ -1,1 +1,0 @@
-class MyClass {\n    public $myProperty = 'Hello';\n    public function myMethod() { return 'World'; }\n}\n\n$obj = new MyClass();\necho $obj->myProperty; // outputs "Hello"\necho $obj->myMethod(); // outputs "World"

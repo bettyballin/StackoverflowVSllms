@@ -1,1 +1,0 @@
-$.ajax({\n    type: "POST",\n    url: "YourPage.aspx/RunQuery",\n    data: "{query: 'SELECT * FROM YourTable'}",\n    contentType: "application/json; charset=utf-8",\n    dataType: "json",\n    success: function (data) {\n        $("#result").html(data.d);\n    }\n});

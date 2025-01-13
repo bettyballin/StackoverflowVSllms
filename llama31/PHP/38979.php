@@ -1,1 +1,0 @@
-// Enable error reporting to get more information about the issue\nerror_reporting(E_ALL);\nini_set('display_errors', 1);\n\n// Try to connect to the database\n$db_crm = pg_connect($connection_str);\n\n// Check if the connection was successful\nif (!$db_crm) {\n    // Get the last error message\n    $error = pg_last_error();\n    die("Connection failed: $error");\n}

@@ -1,1 +1,0 @@
-SELECT * FROM sys.databases\nWHERE database_id = DB_ID('bybox') AND source_database_id IS NOT NULL

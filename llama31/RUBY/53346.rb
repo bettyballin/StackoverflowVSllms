@@ -1,1 +1,0 @@
-(pid = fork) ? Process.detach(pid) : exec("whatever --take-very-long")

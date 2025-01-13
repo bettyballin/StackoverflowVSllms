@@ -1,1 +1,0 @@
-const box = document.getElementById('box');\nconst rowHeight = 15;\nconst scrollTop = box.scrollTop;\nconst scrollPosition = Math.round(scrollTop / rowHeight);\nconsole.log(scrollPosition);

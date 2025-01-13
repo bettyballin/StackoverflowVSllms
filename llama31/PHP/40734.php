@@ -1,1 +1,0 @@
-$x[1][] = 'child' ?? $x[1] = array('parent');

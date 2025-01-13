@@ -1,1 +1,0 @@
-<TextBox Name="Textbox1">\n  <Value>=[Field1]</Value>\n  <CanGrow>false</CanGrow>\n</TextBox>

@@ -1,1 +1,0 @@
-Dim uri As New Uri(uriNode.InnerText)\nDim cred As New System.Net.CredentialCache\ncred.Add(uri, "BASIC", New System.Net.NetworkCredential(_username, _password, _domain))\n\nDim wc As New WebClient()\nwc.Credentials = cred\nwc.Headers.Add("Translate", "f") ' This header is required for WebDAV\n\nwc.DownloadFile(uri, "c:\testEML.EML")

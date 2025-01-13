@@ -1,1 +1,0 @@
-from flask import Flask, request\n\napp = Flask(__name__)\n\n@app.route('/')\ndef index():\n    print(request.url)\n    print(request.method)\n    print(request.args)\n    print(request.headers)\n    return 'Hello, World!'

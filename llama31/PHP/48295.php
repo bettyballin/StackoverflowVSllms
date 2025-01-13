@@ -1,1 +1,0 @@
-$user =& JFactory::getUser();

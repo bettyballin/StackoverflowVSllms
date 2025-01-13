@@ -1,1 +1,0 @@
-SELECT VehicleID, Name,\n    STRING_AGG(City, ', ') AS Locations\nFROM Locations\nGROUP BY VehicleID

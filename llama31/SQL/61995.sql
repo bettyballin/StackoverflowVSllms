@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.fnGetAppId (@user_id INT)\nRETURNS INT\nAS\nBEGIN\n    -- your logic here\n    DECLARE @app_id INT\n    -- ...\n    RETURN @app_id\nEND

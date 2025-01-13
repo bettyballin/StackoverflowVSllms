@@ -1,1 +1,0 @@
-Dim welcomeText As String = My.Resources.ResourceManager.GetString("Welcome")\nConsole.WriteLine(welcomeText)

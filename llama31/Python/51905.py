@@ -1,1 +1,0 @@
-# middleware.py\nfrom django.contrib.sessions.middleware import SessionMiddleware\n\nclass CustomSessionMiddleware(SessionMiddleware):\n    def process_request(self, request):\n        session = self.SessionStore(request.session_key)\n        request.session_data = session.load()\n        return None

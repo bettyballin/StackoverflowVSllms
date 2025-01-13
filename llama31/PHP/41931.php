@@ -1,1 +1,0 @@
-register_shutdown_function('custom_error_handler');\n\nfunction custom_error_handler() {\n    $error = error_get_last();\n    if ($error['type'] === E_PARSE) {\n        // Run your custom error handling code here\n        echo "Parse error occurred!";\n    }\n}

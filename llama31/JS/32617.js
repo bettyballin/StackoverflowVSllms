@@ -1,1 +1,0 @@
-var d = new Date();\nd.setTime(timestamp_milliseconds);\nconsole.log(d.toUTCString());

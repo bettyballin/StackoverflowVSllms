@@ -1,1 +1,0 @@
-$('#mylist').sortable({\n    update: function() {\n        var order = $('#mylist').sortable('serialize', {\n            attribute: 'data-id'\n        });\n        alert(order);\n    }\n});

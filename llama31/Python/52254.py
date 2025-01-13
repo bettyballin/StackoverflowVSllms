@@ -1,1 +1,0 @@
-# myapp/views.py\nfrom django.http import JsonResponse\nfrom .trie import Trie\n\ndef autocomplete(request):\n    query = request.GET.get('q')\n    trie = Trie()\n    suggestions = trie.get_suggestions(query)\n    return JsonResponse(suggestions)

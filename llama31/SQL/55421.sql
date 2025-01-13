@@ -1,1 +1,0 @@
-SELECT \n  year AS OldYear\nFROM \n  your_table\nWHERE \n  year < 1950\n\nUNION ALL\n\nSELECT \n  year AS NewYear\nFROM \n  your_table\nWHERE \n  year >= 1950

@@ -1,1 +1,0 @@
-// Encrypt data using AES-256-CBC\n$data = 'Hello, World!';\n$key = openssl_random_pseudo_bytes(32);\n$encrypted = openssl_encrypt($data, 'AES-256-CBC', $key, OPENSSL_RAW_DATA, 'your_iv');\n\n// Hash a password using bcrypt\n$password = 'your_password';\n$hashed_password = password_hash($password, PASSWORD_BCRYPT);

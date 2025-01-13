@@ -1,1 +1,0 @@
-CREATE TABLE #TempTable (\n    ID INT,\n    Name VARCHAR(50),\n    Descriptions VARCHAR(200)\n);\n\nINSERT INTO #TempTable\nEXEC MyStoredProcedure;\n\nSELECT COUNT(*) FROM #TempTable;\n\nDROP TABLE #TempTable;

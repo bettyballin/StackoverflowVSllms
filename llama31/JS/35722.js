@@ -1,1 +1,0 @@
-$('[data-myapp-action]').each(function() {\n    var action = $(this).data('myapp-action');\n    var typeId = $(this).closest('[data-myapp-type]').data('myapp-app-id');\n    // ...\n});

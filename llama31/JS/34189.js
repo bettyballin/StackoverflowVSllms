@@ -1,1 +1,0 @@
-setInterval(function() {\n  $.ajax({\n    type: "GET",\n    url: "your_php_page.php",\n    success: function(data) {\n      $("#your_div_id").html(data);\n    }\n  });\n}, 10000); // 10000 milliseconds = 10 seconds

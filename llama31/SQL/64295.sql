@@ -1,1 +1,0 @@
-ALTER TABLE events DROP FOREIGN KEY adr_id;

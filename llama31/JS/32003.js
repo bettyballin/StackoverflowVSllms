@@ -1,1 +1,0 @@
-taskList.on('change', function() {\n    var selectedValue = $(this).val();\n    // Handle the selected value\n    console.log("Selected value:", selectedValue);\n});

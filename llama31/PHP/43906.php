@@ -1,1 +1,0 @@
-$storedHashedFacebookUserId = '...'; // Retrieve the hashed ID from your database\n$facebookUserId = '1234567890'; // Replace with the actual user ID from the Graph API response\nif (password_verify($facebookUserId, $storedHashedFacebookUserId)) {\n    // Auto-login the user\n}

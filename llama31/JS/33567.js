@@ -1,1 +1,0 @@
-$('.j_header').on('click', function() { /* JavaScript functionality */ });

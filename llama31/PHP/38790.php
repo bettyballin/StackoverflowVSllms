@@ -1,1 +1,0 @@
-// Local server ( encryption )\n$data = 'Hello, World!';\n$key = 'your_secret_key_here';\n$encrypted_data = mcrypt_encrypt(MCRYPT_RIJNDAEL_128, $key, $data, MCRYPT_MODE_CBC);\n\n// Remote server ( decryption )\n$decrypted_data = mcrypt_decrypt(MCRYPT_RIJNDAEL_128, $key, $encrypted_data, MCRYPT_MODE_CBC);\necho $decrypted_data; // outputs "Hello, World!"

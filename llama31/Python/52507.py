@@ -1,1 +1,0 @@
-keys = ['name', 'age']\nvalues = ['Monty', 42, 'Matt', 28, 'Frank', 33]\n\nresult = [dict(zip(keys, values[i:i+len(keys)])) for i in range(0, len(values), len(keys))]\n\nprint(result)

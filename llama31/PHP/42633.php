@@ -1,1 +1,0 @@
-// functions.php\nfunction validateInput($input) {\n    // validation logic here\n}\n\nfunction dbConnect() {\n    // database connection logic here\n}\n\n// index.php\nrequire_once 'functions.php';\n\n$input = $_POST['input'];\nif (validateInput($input)) {\n    $db = dbConnect();\n    // perform database operations\n}

@@ -1,1 +1,0 @@
-tinyMCE.init({\n  // ... other options ...\n  apply_source_formatting: true,\n  // ... other options ...\n});

@@ -1,1 +1,0 @@
-import win32com.client\n\ntry:\n    vbox = win32com.client.Dispatch('VirtualBox.VirtualBox')\n    vm = vbox.FindMachine('kubuntu')\n    print(vm.Name)\nexcept Exception as e:\n    print(str(e))

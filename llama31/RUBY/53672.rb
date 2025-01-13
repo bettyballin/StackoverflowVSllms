@@ -1,1 +1,0 @@
-Given I am logged in as admin\nWhen I go to the article page with ID "1"\nThen I should see "Edit Article"\nAnd I should see "Article Title"\n\n# step definition\nWhen /^I go to the article page with ID "([^"]+)"$/ do |article_id|\n  visit "/articles/#{article_id}"\nend

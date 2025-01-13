@@ -1,1 +1,0 @@
-exec('runas /user:administrator "C:\Path\To\restart_apache.bat"');

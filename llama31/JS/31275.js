@@ -1,1 +1,0 @@
-var parseString = require('xml2js').parseString;\nvar xmlText = "<root><person><name>John</name><age>30</age></person></root>";\nparseString(xmlText, function (err, result) {\n  console.log(result);\n});

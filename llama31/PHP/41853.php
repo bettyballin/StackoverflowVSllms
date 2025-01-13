@@ -1,1 +1,0 @@
-$list = array(...);\nreturn $list;

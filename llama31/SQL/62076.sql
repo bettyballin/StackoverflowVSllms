@@ -1,1 +1,0 @@
-SELECT Name = LTRIM(RTRIM(Name)) FROM dbo.Customer;

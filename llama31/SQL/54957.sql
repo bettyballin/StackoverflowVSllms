@@ -1,1 +1,0 @@
-SELECT n.*\nFROM node n\nJOIN (\n  SELECT DISTINCT node_ID\n  FROM viewpermission\n  WHERE usergroupID IN (<...usergroups of current user...>)\n) AS p ON n.node_ID = p.node_ID\nORDER BY n.node_lastupdated DESC\nLIMIT 20;

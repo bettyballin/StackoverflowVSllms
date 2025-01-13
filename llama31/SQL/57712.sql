@@ -1,1 +1,0 @@
-sqry = "SELECT emp_no, CONCAT(emp_fname, ' ', emp_lname) AS full_name FROM your_table"\n...\nddl_adv.DataTextField = "full_name"

@@ -1,1 +1,0 @@
-Dim slotDates As New LimitedList(Of Date)(7)\nslotDates.Add(Date.Now) ' works\nslotDates.Add(Date.Now) ' works\n...\nslotDates.Add(Date.Now) ' throws InvalidOperationException when count reaches 7

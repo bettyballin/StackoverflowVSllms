@@ -1,1 +1,0 @@
-<!-- .htaccess rule -->\nRewriteRule ^example$ example.php [L]\n\n<!-- IIS URL Rewrite Module rule -->\n<rewrite>\n  <rules>\n    <rule name="Example Rule" stopProcessing="true">\n      <match url="^example$" />\n      <action type="Rewrite" url="example.php" />\n    </rule>\n  </rules>\n</rewrite>

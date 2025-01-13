@@ -1,1 +1,0 @@
-$directory = '/path/to/image/directory';\n$files = scandir($directory);\nforeach ($files as $file) {\n    if (is_file($directory . '/' . $file)) {\n        strip_image_metadata($directory . '/' . $file);\n    }\n}

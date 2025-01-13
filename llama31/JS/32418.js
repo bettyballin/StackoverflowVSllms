@@ -1,1 +1,0 @@
-var offScreenCanvas = document.createElement('canvas');\noffScreenCanvas.width = canvas.width;\noffScreenCanvas.height = canvas.height;\nvar offScreenCtx = offScreenCanvas.getContext('2d');\n\n// Draw your lines on the off-screen canvas...\n\n// Copy to on-screen canvas with nearest interpolation\nctx.imageSmoothingEnabled = false;\nctx.drawImage(offScreenCanvas, 0, 0);

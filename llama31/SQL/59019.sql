@@ -1,1 +1,0 @@
-DECLARE @Categories TABLE (Category varchar(40));\n\nINSERT INTO @Categories (Category)\nVALUES ('Category1'), ('Category2'), -- ...\n\nINSERT INTO #MapTable (Category, Code)\nSELECT C.Category, M.Code\nFROM @Categories C\nCROSS JOIN (\n    SELECT 'Code1' AS Code UNION ALL\n    SELECT 'Code2' UNION ALL\n    SELECT 'Code3' -- ...\n) M

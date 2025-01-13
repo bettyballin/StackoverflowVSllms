@@ -1,1 +1,0 @@
-header('Set-Cookie: Secure=false; HttpOnly=false; Domain=static.example.com; Path=/');

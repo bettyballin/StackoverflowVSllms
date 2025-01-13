@@ -1,1 +1,0 @@
-$.ajax({\n    async: false,\n    type: "GET",\n    url: "https://example.com/service.ashx",\n    data: "n=" + parameters,\n    dataType: "json",\n    success: function(data) {\n        // Process the response...\n    }\n});

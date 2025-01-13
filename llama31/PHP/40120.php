@@ -1,1 +1,0 @@
-$countArray = [];\n\nforeach ($array as $value) {\n    if (isset($countArray[$value])) {\n        $countArray[$value]++;\n    } else {\n        $countArray[$value] = 1;\n    }\n}\n\nforeach ($countArray as $value => $count) {\n    if ($count > 1) {\n        echo "$value ($count)\n";\n    } else {\n        echo "$value\n";\n    }\n}

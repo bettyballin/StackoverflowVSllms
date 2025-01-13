@@ -1,1 +1,0 @@
-$file_path = '/path/to/file.jpg';\n$file_size = filesize($file_path);\n\n// Send headers\nheader('Content-Type: image/jpeg');\nheader('Content-Length: ' . $file_size);\n\n// Open the file in read-only mode\n$fp = fopen($file_path, 'rb');\n\n// Send the file in chunks\nfpassthru($fp);\n\n// Close the file pointer\nfclose($fp);

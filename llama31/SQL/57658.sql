@@ -1,1 +1,0 @@
-SELECT \n  NZ(Column1, 0) AS Column1,\n  NZ(Column2, "") AS Column2,\n  NZ(Column3, #01/01/1900#) AS Column3\nFROM [qry vaBaseQuery-S2]\nUNION ALL\nSELECT \n  NZ(Column1, 0) AS Column1,\n  NZ(Column2, "") AS Column2,\n  NZ(Column3, #01/01/1900#) AS Column3\nFROM [qry BaseQuery];

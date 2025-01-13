@@ -1,1 +1,0 @@
-$arrayObject = new ArrayObject(array('value1', 'value2', 'value3'));\n\nvar_dump(in_array('value2', (array)$arrayObject)); // outputs: bool(true)\nvar_dump(in_array('value4', (array)$arrayObject)); // outputs: bool(false)

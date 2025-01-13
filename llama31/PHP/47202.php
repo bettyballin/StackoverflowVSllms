@@ -1,1 +1,0 @@
-Array\n(\n    [0] => name\n    [1] => aalaap\n    [2] => age\n    [3] => 29\n    [4] => location\n    [5] => mumbai\n)

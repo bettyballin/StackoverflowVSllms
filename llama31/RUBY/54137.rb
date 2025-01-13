@@ -1,1 +1,0 @@
-require 'open-uri'\n\nresponse = open('http://your-php-app.com/your-php-method', :method => 'post', :body => 'your-data')\n\nputs response.read

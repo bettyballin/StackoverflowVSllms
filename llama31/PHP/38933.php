@@ -1,1 +1,0 @@
-$url = $_GET['url'];\n// Store the URL in your database or perform any other desired actio

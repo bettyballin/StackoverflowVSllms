@@ -1,1 +1,0 @@
-UPDATE voterfile_household vh\nJOIN voterfile_precienct vp ON vp.PREC_ID = vh.Precnum\nSET vh.PrecID = vp.ID;

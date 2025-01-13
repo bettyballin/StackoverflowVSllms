@@ -1,1 +1,0 @@
-function bar() {\n    $backtrace = debug_backtrace();\n    $originalFile = $backtrace[0]['file'];\n    // do something with $originalFile\n}

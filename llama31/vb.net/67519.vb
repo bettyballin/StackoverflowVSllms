@@ -1,1 +1,0 @@
-Imports System.Web\n\nDim xml As String = "<systemCode>APP</systemCode>"\nDim encodedXml As String = HttpUtility.HtmlEncode(xml)\n\nDim hiddenField As New HtmlInputHidden("hiddenField")\nhiddenField.Value = New HtmlString(encodedXml).ToString()

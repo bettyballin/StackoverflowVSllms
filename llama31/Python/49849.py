@@ -1,1 +1,0 @@
-from flask import make_response\n\nresponse = make_response()\nresponse.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'\nresponse.headers['Pragma'] = 'no-cache'

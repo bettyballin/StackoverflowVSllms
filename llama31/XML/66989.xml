@@ -1,1 +1,0 @@
-<property name="environment" value="${environment}"/>\n<!-- ... -->\n<target name="build" depends="init">\n  <!-- ... -->\n  <property name="db.connection.string" value="${environment}.db.connection.string"/>\n  <!-- ... -->\n</target>

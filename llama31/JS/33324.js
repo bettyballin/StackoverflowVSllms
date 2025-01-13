@@ -1,1 +1,0 @@
-// assuming 'xhr' is the XMLHttpRequest object\nxhr.onreadystatechange = function() {\n    if (xhr.readyState === 4) {\n        // force Firefox to stop the page loading indicator\n        window.stop();\n    }\n};

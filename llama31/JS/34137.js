@@ -1,1 +1,0 @@
-var specialClass = $('div').attr('class').match(/_spec$/);

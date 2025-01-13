@@ -1,1 +1,0 @@
-BEGIN\n  DBMS_STATS.GATHER_DATABASE_STATS(\n    estimate_percent => DBMS_STATS.AUTO_SAMPLE_SIZE,\n    granularity => 'ALL',\n    options => 'GATHER AUTO'\n  );\nEND;\n/

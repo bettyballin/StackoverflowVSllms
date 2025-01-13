@@ -1,1 +1,0 @@
-if ($stmt->errorCode() !== '00000') {\n    echo "Error deleting row: " . $stmt->errorInfo()[2];\n}

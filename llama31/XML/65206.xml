@@ -1,1 +1,0 @@
-<svn2vss>\n  <svn-repository>https://your-svn-repo.com/svn/your-project</svn-repository>\n  <vss-repository>\\your-sourcesafe-server\your-project</vss-repository>\n  <username>your-vss-username</username>\n  <password>your-vss-password</password>\n</svn2vss>

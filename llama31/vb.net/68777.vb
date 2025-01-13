@@ -1,1 +1,0 @@
-Imports AutoMapper\n\nPublic Class LocationMapper\n    Public Shared Function Map(serviceLocation As ServiceLocation) As MyLocation\n        Return Mapper.Map(Of ServiceLocation, MyLocation)(serviceLocation)\n    End Function\nEnd Class

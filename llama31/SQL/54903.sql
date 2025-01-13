@@ -1,1 +1,0 @@
-CREATE TABLE movies (\n  id INT PRIMARY KEY,\n  title VARCHAR(255),\n  FULLTEXT (title)\n);\n\nINSERT INTO movies (title) VALUES ('The Terminator'), ('Terminator 2');\n\nSELECT * FROM movies WHERE MATCH (title) AGAINST ('terminator' IN NATURAL LANGUAGE MODE);

@@ -1,1 +1,0 @@
-ALTER TABLE my_contacts\nADD COLUMN phone VARCHAR(10);\n\nALTER TABLE my_contacts\nCHANGE COLUMN phone phone VARCHAR(10) AFTER column_name;

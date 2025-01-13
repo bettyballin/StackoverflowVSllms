@@ -1,1 +1,0 @@
-INSERT INTO table1 (someInt, someOtherInt, name, someBit)\nSELECT someInt, someOtherInt, name, CAST(0 AS bit)\nFROM table2

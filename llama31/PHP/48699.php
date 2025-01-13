@@ -1,1 +1,0 @@
-// Example using PHP's `date` function\n$loginTime = date('H:i:s');\n// Store $loginTime in user's session or database

@@ -1,1 +1,0 @@
-uasort($array, function($a, $b) {\n    return $b['weight'] <=> $a['weight'];\n});\n\n$top5 = array_slice($array, 0, 5);

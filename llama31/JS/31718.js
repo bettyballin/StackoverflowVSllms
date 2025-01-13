@@ -1,1 +1,0 @@
-<script>\n    window.onload = function() {\n        window.print();\n    };\n</script>

@@ -1,1 +1,0 @@
-// Example code to increase script timeout in Firefox\n// (add this to your Firefox configuration file, e.g., prefs.js)\npref("dom.max_script_run_time", 30); // Increase timeout to 30 seconds

@@ -1,1 +1,0 @@
-import pyp2p\n\n# Create a node\nnode = pyp2p.Net()\n\n# Set the node's ID\nnode.id = "example_node"\n\n# Create a socket\nsock = node.create_socket()\n\n# Connect to a peer\nsock.connect(("example_peer", 12345))\n\n# Send a message\nsock.send("Hello, world!")\n\n# Close the socket\nsock.close()

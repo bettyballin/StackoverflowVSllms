@@ -1,1 +1,0 @@
-// Get the print settings\nvar printSettings = {\n  page: {\n    start: 100,\n    end: 200\n  }\n};\n\n// Print the HTML\nwindow.print(printSettings);

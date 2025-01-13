@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <httpProtocol allowKeepAlive="true" />\n  </system.webServer>\n</configuration>

@@ -1,1 +1,0 @@
-$('input[type="radio"]').change(function() {\n  var inputField = $('#input-field');\n  if (inputField.val() === '') {\n    inputField.val($(this).data('text'));\n  }\n});\n\n$('#input-field').on('input', function() {\n  if ($(this).val() === '') {\n    var selectedRadio = $('input[type="radio"]:checked');\n    $(this).val(selectedRadio.data('text'));\n  }\n});

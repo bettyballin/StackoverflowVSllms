@@ -1,1 +1,0 @@
-SELECT * FROM OracleLinkedServer.your_oracle_database_name.your_schema_name.your_table_name

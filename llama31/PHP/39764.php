@@ -1,1 +1,0 @@
-static public function urlExists($url)\n{\n    $ch = curl_init($url);\n    curl_setopt($ch, CURLOPT_NOBODY, true); // Send a HEAD request\n    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n    curl_exec($ch);\n    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);\n    curl_close($ch);\n\n    return $httpCode < 400; // Returns true if the URL exists (HTTP code < 400)\n}

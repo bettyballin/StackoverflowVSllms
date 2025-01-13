@@ -1,1 +1,0 @@
-$(document).click(function(event) {\n  if (!$(event.target).closest('div').length) {\n    // Hide the dropdown menu\n    $('div').hide();\n  }\n});

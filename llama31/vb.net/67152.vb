@@ -1,1 +1,0 @@
-Imports System.Drawing\n\nDim colorDialog As New ColorDialog\n\n' Define the custom colors\nDim customColors() As Color = {Color.FromArgb(255, 0, 0), Color.FromArgb(0, 255, 0), Color.FromArgb(0, 0, 255)}\n\n' Set the custom colors\ncolorDialog.CustomColors = customColors\n\n' Show the ColorDialog\ncolorDialog.ShowDialog()

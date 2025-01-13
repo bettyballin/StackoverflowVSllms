@@ -1,1 +1,0 @@
-ALTER TABLE my_table\nADD CONSTRAINT no_insert CHECK (hidden_column IS NULL);

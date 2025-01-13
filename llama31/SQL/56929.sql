@@ -1,1 +1,0 @@
-DECLARE @cmd nvarchar(255)\nSET @cmd = 'rundll32.exe user32.dll,OutputDebugString "This is a debug message"'\nEXEC xp_cmdshell @cmd

@@ -1,1 +1,0 @@
-import bisect\n\nclass SortedList:\n    def __init__(self):\n        self.list = []\n\n    def push(self, x):\n        bisect.insort(self.list, x)\n\n    def find(self, x):\n        index = bisect.bisect_left(self.list, x)\n        if index != len(self.list) and self.list[index] == x:\n            return index\n        return -1\n\n    def to_list(self):\n        return self.list

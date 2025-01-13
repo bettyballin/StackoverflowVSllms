@@ -1,1 +1,0 @@
-var link = document.createElement('link');\nlink.rel = 'stylesheet';\nlink.type = 'text/css';\nlink.href = 'http://cdn.somewhere.com/css/style.css';\nlink.onerror = function() {\n  link.href = 'local/style.css';\n  link.onerror = null;\n};\ndocument.head.appendChild(link);

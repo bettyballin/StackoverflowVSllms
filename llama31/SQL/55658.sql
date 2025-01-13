@@ -1,1 +1,0 @@
-CREATE TABLE quotes (\n  id INT PRIMARY KEY,\n  quote TEXT\n);

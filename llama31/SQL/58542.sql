@@ -1,1 +1,0 @@
-UPDATE master.dbo.syslanguages SET DATEFORMAT = 'ymd' WHERE lcid = 1045;

@@ -1,1 +1,0 @@
-require 'resolv'\n\nhostname = 'example.com'\nbegin\n  dns = Resolv::DNS.new\n  ip_address = dns.getaddress hostname\n  puts "IP Address: #{ip_address}"\nrescue Resolv::ResolvError\n  puts "No DNS record found."\nend

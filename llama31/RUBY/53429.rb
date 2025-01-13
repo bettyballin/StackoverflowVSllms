@@ -1,1 +1,0 @@
-class MyObject\n  def marshal_dump\n    # serialize your object here\n  end\n\n  def marshal_load(data)\n    # deserialize your object here\n  end\nend

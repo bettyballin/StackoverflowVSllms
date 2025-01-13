@@ -1,1 +1,0 @@
-CREATE TABLE logs (\n  log_id NUMBER PRIMARY KEY,\n  log_timestamp TIMESTAMP(3) NOT NULL,\n  log_value NUMBER(10,2) NOT NULL,\n  log_type VARCHAR2(20) NOT NULL\n) PARTITION BY RANGE (log_timestamp)\nINTERVAL (NUMTODSINTERVAL(1, 'DAY'))\nSTORE IN (logs_table_space);\n\nCREATE INDEX logs_idx ON logs (log_timestamp, log_type);

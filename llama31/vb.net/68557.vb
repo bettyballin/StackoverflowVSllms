@@ -1,1 +1,0 @@
-Dim ResultRows As DataRow() = dt.AsEnumerable().Where(Function(row) row.Field(Of Byte())("Hash").SequenceEqual(TheData!Hash)).ToArray()

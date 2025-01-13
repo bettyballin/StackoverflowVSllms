@@ -1,1 +1,0 @@
-php_value include_path ".:/usr/lib/php:/usr/local/lib/php:/path/to/your/custom/directory"

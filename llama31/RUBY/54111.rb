@@ -1,1 +1,0 @@
-# Load the Rails console\nrails c\n\n# Get an instance of the view context\nview = ActionView::Base.new(ActionController::Base.view_paths, {})\n\n# Call the helper method\nview.my_helper_method

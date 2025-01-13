@@ -1,1 +1,0 @@
-class LegacyController extends Zend_Controller_Action\n{\n    public function indexAction()\n    {\n        $action = $this->getRequest()->getActionName();\n        // execute the corresponding legacy script\n        include_once 'legacy/' . $action . '.php';\n    }\n}

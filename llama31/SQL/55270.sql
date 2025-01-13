@@ -1,1 +1,0 @@
-CREATE TABLE "Site" (id INT, name VARCHAR(255));

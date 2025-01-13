@@ -1,1 +1,0 @@
-$xmlData = gzdecode(file_get_contents($linkToXmlFile));\n$xml = new XMLReader();\n$xml->XML($xmlData);\n\n// Now you can use the XMLReader object to parse the XML file\nwhile ($xml->read()) {\n    // Do something with the XML data\n}\n\n$xml->close();

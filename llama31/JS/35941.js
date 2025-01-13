@@ -1,1 +1,0 @@
-var formData = $('#myForm').serialize();\n$.ajax({\n  url: "graph_data.php",\n  type: "POST",\n  data: formData,\n  // ...\n});

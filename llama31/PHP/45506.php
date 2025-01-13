@@ -1,1 +1,0 @@
-$myArray = array(1, 9, 18, 12, 56);\n\nusort($myArray, function($a, $b) {\n    echo "Comparing $a and $b\n";\n    if ($a == $b) return 0;\n    return ($a < $b) ? -1 : 1;\n});

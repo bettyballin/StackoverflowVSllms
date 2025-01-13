@@ -1,1 +1,0 @@
-BEGIN TRANSACTION\n\nBEGIN TRY\n    UPDATE Terminals WITH (ROWLOCK)\n    SET Lock = 1\n    WHERE TerminalId = @TerminalId AND Lock = 0\n\n    IF @@ROWCOUNT = 0\n        RAISERROR ('Terminal is already locked', 16, 1)\n\n    COMMIT TRANSACTION\nEND TRY\nBEGIN CATCH\n    ROLLBACK TRANSACTION\n    THROW\nEND CATCH

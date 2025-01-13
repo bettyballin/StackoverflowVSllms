@@ -1,1 +1,0 @@
-import schedule\nimport time\n\ndef readserial():\n    # Read data from serial port and do stuff with it\n    print("Reading serial data...")\n\nschedule.every(5).minutes.do(readserial)  # Run every 5 minutes\n\nwhile True:\n    schedule.run_pending()\n    time.sleep(1)

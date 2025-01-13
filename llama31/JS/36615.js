@@ -1,1 +1,0 @@
-var myArray = [\n  {id: 1, name: 'John'},\n  {id: 2, name: 'Jane'}\n];\n\nvar xml = arrayToXML(myArray);\nconsole.log(xml);

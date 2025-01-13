@@ -1,1 +1,0 @@
-$filesource = $_SERVER['HTTP_REFERER'];\n$a = fopen($filesource,"r");\n$string = fread($a,1024);\n\nif (preg_match("/<linkto>(.*?)<\/linkto>/", $string, $out)) {\n    $outdata = $out[1];\n} elseif (preg_match("/<title>(.*?)<\/title>/", $string, $title)) {\n    $outdata = $title[1];\n}\n\n$outdatapart = explode(" ", $outdata);\necho $outdatapart[0];

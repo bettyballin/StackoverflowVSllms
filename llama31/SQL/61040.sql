@@ -1,1 +1,0 @@
-DECLARE @varcharTimestamp VARCHAR(20) = '0x0000000002C490C8'\nDECLARE @timestamp TIMESTAMP\n\nSET @timestamp = CONVERT(TIMESTAMP, CONVERT(BINARY(8), @varcharTimestamp, 2))\n\nSELECT @timestamp

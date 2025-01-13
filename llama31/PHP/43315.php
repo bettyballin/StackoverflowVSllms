@@ -1,1 +1,0 @@
-use Symfony\Component\Templating\PhpEngine;\n\n$engine = new PhpEngine();\n$engine->evaluate($code);

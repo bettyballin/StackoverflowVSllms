@@ -1,1 +1,0 @@
-trait additional_methods {\n    public function new_method() {\n        return 'new result';\n    }\n}\n\nclass third_party_library {\n    use additional_methods;\n}

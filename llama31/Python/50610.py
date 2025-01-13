@@ -1,1 +1,0 @@
-fleets = Fleet.objects.select_related('home', 'dest').all()

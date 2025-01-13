@@ -1,1 +1,0 @@
-from dir2.file2 import ClassOne\nmyObject = ClassOne()\n\n# Make changes to file2.py\n\nmyObject.reload_module()\nmyObject = ClassOne()  # recreate myObject to use the new code

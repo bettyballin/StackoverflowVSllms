@@ -1,1 +1,0 @@
-// Using Datatables\n$(document).ready(function() {\n    $('#myTable').DataTable();\n});

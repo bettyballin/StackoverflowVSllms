@@ -1,1 +1,0 @@
-BEGIN\n  FOR c IN (SELECT table_name FROM user_tables WHERE table_name IN ('table1', 'table2', ...)) LOOP\n    EXECUTE IMMEDIATE 'ALTER TABLE ' || c.table_name || ' DISABLE ALL TRIGGERS';\n    EXECUTE IMMEDIATE 'ALTER TABLE ' || c.table_name || ' DISABLE CONSTRAINTS';\n  END LOOP;\nEND;

@@ -1,1 +1,0 @@
-function loadEvents() {\n    var changed = document.getElementById('click1');\n    var a = document.getElementById('invisible');\n    changed.onchange = function() {\n        a.style.display = 'block';\n    }\n}\n\nif (document.getElementById) window.onload = loadEvents;

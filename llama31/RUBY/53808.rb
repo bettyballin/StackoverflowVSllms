@@ -1,1 +1,0 @@
-Webrat.configure do |config|\n  config.prevent_external_requests = true\nend

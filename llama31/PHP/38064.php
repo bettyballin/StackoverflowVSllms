@@ -1,1 +1,0 @@
-$conditions = array_map('trim', explode(" OR ", $criteria));

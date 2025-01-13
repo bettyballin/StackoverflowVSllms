@@ -1,1 +1,0 @@
-CREATE INDEX idx_Ticket ON YourTableName (Ticket);

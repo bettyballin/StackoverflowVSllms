@@ -1,1 +1,0 @@
-// WP OAuth Server plugin configuration\ndefine('WP_OAUTH_SERVER_CLIENT_ID', 'your_client_id');\ndefine('WP_OAUTH_SERVER_CLIENT_SECRET', 'your_client_secret');

@@ -1,1 +1,0 @@
-SELECT \n  LOWER(\n    REGEXP_SUBSTR('Smith, John R', ', (.){1}') || \n    REGEXP_SUBSTR('Smith, John R', '^([^,]+)')\n  ) AS result\nFROM DUAL;

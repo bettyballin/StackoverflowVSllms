@@ -1,1 +1,0 @@
-// Select only the modules you need\nvar modules = [\n  'ajax',\n  'dom',\n  'event'\n];\n\n// Create a custom build of Prototype\nvar customPrototype = Prototype.modules(modules);\n\n// Use the custom build\ncustomPrototype.ajax({\n  url: 'example.php',\n  onSuccess: function(data) {\n    console.log(data);\n  }\n});

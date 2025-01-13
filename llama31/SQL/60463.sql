@@ -1,1 +1,0 @@
-SELECT \n    grade, \n    (COUNT(*) * 1.0 / (SELECT COUNT(*) FROM your_table)) * 100 AS percentage\nFROM \n    your_table\nGROUP BY \n    grade\nORDER BY \n    grade;

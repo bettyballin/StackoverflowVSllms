@@ -1,1 +1,0 @@
-$pattern = '/\b(webmaster|admin|webadmin|sysadmin)\b/i';\npreg_match($pattern, 'admin'); // Should not be allowed\npreg_match($pattern, 'admin2'); // Should be allowed

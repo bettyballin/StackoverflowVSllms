@@ -1,1 +1,0 @@
-// validation example\n$file_name = preg_replace('/[^a-zA-Z0-9\.\-_]/', '', $file_name);

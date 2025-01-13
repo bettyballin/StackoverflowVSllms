@@ -1,1 +1,0 @@
-$fn = function($a, $b) { return Bar::foo2($a, $b); };\nprint $fn(4,1);

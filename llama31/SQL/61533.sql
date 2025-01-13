@@ -1,1 +1,0 @@
-CREATE PROCEDURE sp_QueryDynamicTable\n    @TableName sysname,\n    @Filter nvarchar(max)\nAS\nBEGIN\n    DECLARE @sql nvarchar(max)\n\n    SET @sql = N'SELECT * FROM ' + QUOTENAME(@TableName) + N' WHERE ' + @Filter\n\n    EXEC sp_executesql @sql\nEND

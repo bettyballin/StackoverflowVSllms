@@ -1,1 +1,0 @@
-SELECT * FROM Books \nWHERE Title LIKE '%Joel%' OR Author LIKE '%Spolsky%'\n\nUNION\n\nSELECT B.* \nFROM Books B \nJOIN KeywordsLink KL ON B.CopyID = KL.BookID \nJOIN Keywords K ON KL.KeywordID = K.ID \nWHERE K.Name LIKE '%good%';

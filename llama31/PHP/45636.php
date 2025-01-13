@@ -1,1 +1,0 @@
-function gcd($a, $b) {\n    return ($a % $b) ? gcd($b, $a % $b) : $b;\n}\n\nfunction lcm($a, $b) {\n    return ($a * $b) / gcd($a, $b);\n}\n\nfunction euler5() {\n    $result = 1;\n    for ($i = 2; $i <= 20; $i++) {\n        $result = lcm($result, $i);\n    }\n    return $result;\n}\n\necho euler5();

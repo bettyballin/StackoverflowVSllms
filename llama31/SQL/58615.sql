@@ -1,1 +1,0 @@
-create procedure sp_getSomeValue\n    @theValue int,\n    @theOtherValue int output\nas\nbegin\n    set @theOtherValue = @theValue + 1\nend

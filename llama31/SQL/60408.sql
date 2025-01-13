@@ -1,1 +1,0 @@
-SELECT \n  bp.*,\n  COUNT(r.id) AS reply_count\nFROM \n  blog_posts bp\n  LEFT JOIN replies r ON bp.id = r.blog_post_id\nGROUP BY \n  bp.id\nORDER BY \n  reply_count DESC\nLIMIT 30 OFFSET 30;

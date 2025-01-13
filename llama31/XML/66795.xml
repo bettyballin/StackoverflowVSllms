@@ -1,1 +1,0 @@
-<bindings>\n  <netTcpBinding>\n    <binding name="netTcpBinding">\n      <security mode="Transport">\n        <transport clientCredentialType="Windows" />\n      </security>\n    </binding>\n  </netTcpBinding>\n</bindings>

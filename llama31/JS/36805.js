@@ -1,1 +1,0 @@
-var $thumbs = $(".thumb");\nvar $div = $thumbs.find("div");

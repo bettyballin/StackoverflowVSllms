@@ -1,1 +1,0 @@
-SELECT title\nFROM games\nORDER BY \n  IF(title REGEXP '^[^0-9]+([0-9]+)', \n    CAST(SUBSTRING_INDEX(SUBSTRING_INDEX(title, ' ', -1), ':', 1) AS UNSIGNED), \n    0), \n  title;

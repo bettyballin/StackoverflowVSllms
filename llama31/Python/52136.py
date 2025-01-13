@@ -1,1 +1,0 @@
-with open('helloworld', 'r+') as file:\n    contents = file.read()\n    print(contents)\n    file.write('new contents')

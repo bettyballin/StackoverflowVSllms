@@ -1,1 +1,0 @@
-hands = {}\n\ndef make_hand(deck, handname):\n    hands[handname] = []\n    for c in range(5):\n        hands[handname].append(deck.pop())\n    return hands[handname]

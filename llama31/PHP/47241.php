@@ -1,1 +1,0 @@
-// config.php\n<?php\ndefine('API_KEY', getenv('API_KEY'));\ndefine('DB_HOST', getenv('DB_HOST'));

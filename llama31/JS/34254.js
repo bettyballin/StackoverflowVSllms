@@ -1,1 +1,0 @@
-const jsdom = require('jsdom');\n\nconst html = '<input type="text" name="date" />';\nconst dom = new jsdom.JSDOM(html);\nconst window = dom.window;\n\n// Execute JavaScript code\nwindow.onload = function() {\n  // ...\n};\n\nwindow.document.addEventListener('DOMContentLoaded', function() {\n  const html = window.document.documentElement.outerHTML;\n  console.log(html);\n});

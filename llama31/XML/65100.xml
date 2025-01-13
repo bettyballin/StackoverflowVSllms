@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <application>\n      <virtualDirectory path="/" physicalPath="%SystemDrive%\inetpub\wwwroot\myapp" />\n      <virtualDirectory path="/secure/restricted" physicalPath="%SystemDrive%\inetpub\wwwroot\myapp\secure\restricted" />\n    </application>\n  </system.webServer>\n</configuration>

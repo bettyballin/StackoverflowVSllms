@@ -1,1 +1,0 @@
-$mail->addHeader('Content-Transfer-Encoding', 'base64');

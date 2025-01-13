@@ -1,1 +1,0 @@
-$('.FunctieSelect').on('change', function() {\n  $(this).find('option:selected').addClass('yellow');\n});

@@ -1,1 +1,0 @@
-CREATE TABLE main_table (\n  id INT PRIMARY KEY,\n  name VARCHAR(255)\n);\n\nCREATE TABLE values_table (\n  id INT PRIMARY KEY,\n  main_table_id INT,\n  value VARCHAR(255),\n  FOREIGN KEY (main_table_id) REFERENCES main_table(id)\n);

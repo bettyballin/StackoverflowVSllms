@@ -1,1 +1,0 @@
-$(document).ajaxComplete(function() {\n    $('#myTextbox').focus();\n});

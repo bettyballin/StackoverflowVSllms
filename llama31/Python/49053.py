@@ -1,1 +1,0 @@
-# Create a new ACE for the user 'MyCustomUsername'\nace = win32security.ACE(0, win32security.ACCESS_ALLOWED_ACE_TYPE, win32security.ACCESS_MASK_GENERIC_READ, win32security.NO_INHERITANCE, win32security.NO_PROPAGATION, 'MyCustomUsername')\n\n# Append the new ACE to the ACL\nacl.AddACE(ace)

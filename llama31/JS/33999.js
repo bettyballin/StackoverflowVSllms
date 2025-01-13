@@ -1,1 +1,0 @@
-var elem = document.getElementById('mydiv');\nvar style = window.getComputedStyle(elem, null);\nvar paddingLeft = parseInt(style.paddingLeft, 10);\nvar paddingRight = parseInt(style.paddingRight, 10);\nvar borderLeftWidth = parseInt(style.borderLeftWidth, 10);\nvar borderRightWidth = parseInt(style.borderRightWidth, 10);

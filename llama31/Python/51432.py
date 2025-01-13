@@ -1,1 +1,0 @@
-with open(file_path, 'r', encoding=charenc, errors='replace') as file:\n    text = file.read()

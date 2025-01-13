@@ -1,1 +1,0 @@
-document.getElementById('editableDiv').innerHTML = yourSanitizedHTMLContent;

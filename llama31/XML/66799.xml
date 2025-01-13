@@ -1,1 +1,0 @@
-<!-- Example of a web reference in the .vbproj file -->\n<WebReferences>\n  <WebReference Name="ReferenceName" Url="http://example.com/service.asmx" />\n</WebReferences>

@@ -1,1 +1,0 @@
-class Dstorage(Fuse, Distributor):\n    def get_file(self, server, path, flags, *mode):\n        # Return an instance of XmpFile\n        instance = XmpFile()\n\n        # Create a proxy instance\n        proxy = FileProxy(instance)\n        return proxy\n\n    def main(self, *a, **kw):\n        self.file_class = FileProxy\n        return Fuse.main(self, *a, **kw)

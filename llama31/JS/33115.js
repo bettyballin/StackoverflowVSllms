@@ -1,1 +1,0 @@
-$('#notificationcontainer')\n    .load('http://localhost/member/beta_new/notifications.inc.php')\n    .fail(function(xhr, status, error){\n        console.error('Error loading notifications:', error);\n    })\n    .fadeIn("slow");

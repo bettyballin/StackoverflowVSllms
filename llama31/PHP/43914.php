@@ -1,1 +1,0 @@
-if (isset($_POST['buttonValue'])) {\n    $buttonName = $_POST['buttonValue'];\n    if ($buttonName == 'mint') {\n        add_product_to_cart(2);\n    } elseif ($buttonName == 'near-mint') {\n        // ...\n    } elseif ($buttonName == 'standard') {\n        // ...\n    }\n}

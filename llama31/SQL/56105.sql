@@ -1,1 +1,0 @@
-SELECT t1.NAME, t1.SEQNUM\nFROM your_table t1\nJOIN (\n  SELECT NAME, MIN(SEQNUM) as min_seqnum\n  FROM your_table\n  GROUP BY NAME\n) t2\nON t1.NAME = t2.NAME AND t1.SEQNUM = t2.min_seqnum

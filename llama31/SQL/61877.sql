@@ -1,1 +1,0 @@
-SELECT u.column1, g.name\nFROM page p\nINNER JOIN pagegroup g ON p.pagegroupid = g.pagegroupid\nINNER JOIN userdata u ON p.pageid = u.pageid;

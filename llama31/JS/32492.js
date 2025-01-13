@@ -1,1 +1,0 @@
-// Client-side JavaScript\nfunction GetData() {\n    MyService.GetData(function(data) {\n        // Process JSON data\n        var name = data.name;\n        var age = data.age;\n    });\n}

@@ -1,1 +1,0 @@
-<servlet>\n    <servlet-name>RmiProxyServlet</servlet-name>\n    <servlet-class>org.apache.catalina.servlets.RmiProxyServlet</servlet-class>\n</servlet>\n\n<servlet-mapping>\n    <servlet-name>RmiProxyServlet</servlet-name>\n    <url-pattern>/rmi/*</url-pattern>\n</servlet-mapping>

@@ -1,1 +1,0 @@
-<key>CFBundleURLTypes</key>\n<array>\n    <dict>\n        <key>CFBundleURLSchemes</key>\n        <array>\n            <string>myapp</string>\n        </array>\n        <key>CFBundleURLName</key>\n        <string>com.example.myapp</string>\n    </dict>\n</array>

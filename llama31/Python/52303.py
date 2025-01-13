@@ -1,1 +1,0 @@
-import subprocess\n\n# Find the path to the dot executable\ndot_path = subprocess.check_output(["which", "dot"]).strip()\n\n# Run the dot command\nsubprocess.call([dot_path, "-o9.png", "-Tpng", "./6.dot"])

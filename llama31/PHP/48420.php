@@ -1,1 +1,0 @@
-$st_dt = new DateTime('2022-01-01');\n$end_dt = new DateTime('2022-01-02');\n\nif ($end_dt > $st_dt) {\n    echo 'End date is later than start date';\n} else {\n    echo 'End date is not later than start date';\n}

@@ -1,1 +1,0 @@
-def operation(original_element, another_var):\n    # your operation implementation here\n    return original_element + another_var\n\nnumbers = [1, 2, 3, 4, 5]  # your list of numbers\nanother_var = 10\n\nresult = [operation(num, another_var) for num in numbers]\n\nprint(result)  # prints: [11, 12, 13, 14, 15]

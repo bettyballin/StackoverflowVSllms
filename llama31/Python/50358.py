@@ -1,1 +1,0 @@
-# Python 2.x\ndef get_numbers(n):\n    return [i for i in range(n)]\n\n# Converted to Python 3.x using 2to3\ndef get_numbers(n):\n    return [i for i in range(n)]\n\n# Python 3.x with iterators\ndef get_numbers(n):\n    return (i for i in range(n))

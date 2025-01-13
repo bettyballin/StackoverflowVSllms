@@ -1,1 +1,0 @@
-Private Function FindThing(ByVal Things As List(Of Thing)) As Thing\n    Dim ReverseOrderThings As List(Of Thing) = New List(Of Thing)(Things)\n    ReverseOrderThings.Reverse()\n    For Each t As Thing In ReverseOrderThings\n        ...\n    Next\n    Return Nothing\nEnd Functio

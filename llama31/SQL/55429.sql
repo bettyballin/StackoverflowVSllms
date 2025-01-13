@@ -1,1 +1,0 @@
-DELETE FROM your_table\nWHERE ROW_NUMBER() OVER (PARTITION BY column1, column2, ... ORDER BY ROWID) > 1;

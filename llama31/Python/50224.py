@@ -1,1 +1,0 @@
-from cryptography.fernet import Fernet\n\n# Encrypt code\nkey = Fernet.generate_key()\ncipher_suite = Fernet(key)\nencrypted_code = cipher_suite.encrypt(b"my_function()")\n\n# Decrypt and execute code\ndecrypted_code = cipher_suite.decrypt(encrypted_code)\nexec(decrypted_code.decode())

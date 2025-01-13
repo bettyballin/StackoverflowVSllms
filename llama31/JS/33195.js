@@ -1,1 +1,0 @@
-// Load the 3D model\nvar loader = new THREE.GLTFLoader();\nloader.load('model.gltf', function(gltf) {\n  scene.add(gltf.scene);\n});

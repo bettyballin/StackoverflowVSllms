@@ -1,1 +1,0 @@
-# main.py\ngame_data = GameData()\nunit = Unit(game_data, 'Tight', 'Forest')

@@ -1,1 +1,0 @@
-DECLARE @recipients VARCHAR(MAX);\nSET @recipients = 'person1@yahoo.com;person2@hotmail.com;person1@yahoo.com;';\n\nSELECT DISTINCT value FROM STRING_SPLIT(@recipients, ';');

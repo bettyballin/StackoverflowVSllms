@@ -1,1 +1,0 @@
-CREATE TABLE search_index (\n  id INT PRIMARY KEY,\n  word VARCHAR(255),\n  post_ids TEXT\n);

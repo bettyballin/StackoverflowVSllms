@@ -1,1 +1,0 @@
-def check_date(year, month, day):\n    leap = False\n    if year % 400 == 0 or (year % 100 != 0 and year % 4 == 0):\n        leap = True\n\n    if month in [4, 6, 9, 11] and day > 30:\n        return False\n    elif month == 2 and (leap and day > 29 or (not leap) and day > 28):\n        return False\n    elif day > 31:\n        return False\n\n    return True

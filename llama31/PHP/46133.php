@@ -1,1 +1,0 @@
-$encodedQuestion = json_encode($sendQuestion);\necho "<input type='button' value='send mails' onclick=\"sendmails(".$encodedQuestion.")\">";

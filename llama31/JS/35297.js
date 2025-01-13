@@ -1,1 +1,0 @@
-const validate = require('validate.js');\n\nconst constraints = {\n  email: {\n    presence: true,\n    email: true,\n  },\n  password: {\n    presence: true,\n    format: {\n      pattern: /(?=.{8,})/\n    }\n  }\n};\n\nconst form = document.getElementById('myForm');\nconst errors = validate(form, constraints);

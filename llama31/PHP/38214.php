@@ -1,1 +1,0 @@
-$html = '<p>Hello <span>World</span>!</p>';\n$purifier = new HTMLPurifier();\n$cleanHtml = $purifier->purify($html);\n$tokens = $purifier->getTokens();\nforeach ($tokens as $token) {\n    echo $token->getName() . "\n";\n}

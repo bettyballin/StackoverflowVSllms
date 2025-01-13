@@ -1,1 +1,0 @@
-$xml = new XMLReader();\n$xml->open('file.xml');

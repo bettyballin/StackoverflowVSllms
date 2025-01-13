@@ -1,1 +1,0 @@
-if (!isset($_POST['myParam'])) {\n    // myParam is not present in the $_POST request\n} else {\n    // myParam is present in the $_POST request\n}

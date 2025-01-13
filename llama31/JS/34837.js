@@ -1,1 +1,0 @@
-// Assuming 'div' is the element you want to clear\ndiv.replaceChildren();

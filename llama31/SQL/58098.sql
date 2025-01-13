@@ -1,1 +1,0 @@
-SELECT A.*, C.*\nFROM A\nINNER JOIN B ON A.id = B.a_id\nINNER JOIN C ON B.c_id = C.id\nWHERE A.id = C.a_id

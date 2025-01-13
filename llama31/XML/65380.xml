@@ -1,1 +1,0 @@
-<configuration>\n  <system.applicationHost>\n    <sites>\n      <site name="Default Web Site" id="1">\n        <bindings>\n          <binding protocol="http" bindingInformation="*:80" />\n        </bindings>\n        <limits>\n          <connections maxConnections="100" />\n        </limits>\n      </site>\n    </sites>\n  </system.applicationHost>\n</configuration>

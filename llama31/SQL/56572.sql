@@ -1,1 +1,0 @@
-SELECT TOP 1000 *, COUNT(*) OVER() AS total_rows\nFROM your_table\nWHERE your_conditions;

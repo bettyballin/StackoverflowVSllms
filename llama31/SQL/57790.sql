@@ -1,1 +1,0 @@
-SELECT \n  cost, \n  participant, \n  TRUNC(cost / participant) AS single_cost\nFROM \n  your_table;

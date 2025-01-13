@@ -1,1 +1,0 @@
-echo sprintf("%d + %d = %d<br>", $num1, $num2, $num1 + $num2);

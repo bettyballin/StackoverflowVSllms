@@ -1,1 +1,0 @@
-require('pdfparser.php');\n\n$parser = new PdfParser();\n$pdf = $parser->parseFile('path/to/your/file.pdf');\n$pages = $pdf->getNumPages();\necho $pages;

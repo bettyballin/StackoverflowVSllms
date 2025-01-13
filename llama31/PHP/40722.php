@@ -1,1 +1,0 @@
-$array = array('key1' => 'value1', 'key2' => 'value2');\n$query_string = http_build_query($array);\necho $query_string; // Output: key1=value1&key2=value2

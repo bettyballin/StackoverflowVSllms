@@ -1,1 +1,0 @@
-Public Sub CheckDifference(ByVal A As Integer, ByVal B As Integer, ByVal logDelegate As LogMessageDelegate)\n    If (B - A) > 5 Then\n        logDelegate.Invoke("Difference ({0}) is outside of acceptable range.", (B - A))\n    End If\nEnd Sub

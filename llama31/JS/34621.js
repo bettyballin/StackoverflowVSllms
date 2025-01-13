@@ -1,1 +1,0 @@
-$(document).ajaxComplete(function(event, xhr, settings) {\n  if (settings.url === 'your_url') {\n    // Access elements inside div A\n    var elements = $('#A').find('your_elements');\n    // Do something with the elements\n  }\n});

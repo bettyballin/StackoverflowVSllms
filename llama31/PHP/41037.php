@@ -1,1 +1,0 @@
-<!-- views/calendar.php -->\n<div class="tabs">\n    <ul>\n        <?php foreach ($dates as $date): ?>\n            <li><a href="#" data-date="<?php echo $date; ?>"><?php echo $date; ?></a></li>\n        <?php endforeach; ?>\n    </ul>\n    <div class="tab-content">\n        <div id="events"></div>\n    </div>\n</div>

@@ -1,1 +1,0 @@
-/<tagname[^>]*>.*?<\/tagname>/gi

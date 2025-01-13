@@ -1,1 +1,0 @@
-require 'pry'\n\n[1,2,3,4,5].each do |item|\n  if item == 2\n    # this starts a pry shell from which you can step through your code\n    binding.pry\n  end\nend

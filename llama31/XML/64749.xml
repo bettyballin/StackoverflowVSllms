@@ -1,1 +1,0 @@
-<Project>\n  ...\n  <Target Name="AfterBuild">\n    <Exec Command="regasm.exe /codebase $(TargetPath)" />\n  </Target>\n</Project>

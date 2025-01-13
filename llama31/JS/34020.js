@@ -1,1 +1,0 @@
-function showBusyIcon() {\n  // ...\n  setTimeout(function() {\n    hideBusyIcon();\n  }, 500); // adjust the timeout value as needed\n}

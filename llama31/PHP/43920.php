@@ -1,1 +1,0 @@
-$result = $con->query($countQuery);\n$rowcount = $result->num_rows;

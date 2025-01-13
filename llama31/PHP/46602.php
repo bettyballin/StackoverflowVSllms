@@ -1,1 +1,0 @@
-<?php\n$file = 'libs.php';\n$content = file_get_contents($file);\n$content = preg_replace('/^\x{FEFF}/u', '', $content);\nfile_put_contents($file, $content);

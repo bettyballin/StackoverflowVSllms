@@ -1,1 +1,0 @@
-$.get('feed.php', function(oXmlDoc) {\n  var xmlDoc = $.parseXML(oXmlDoc);\n  var titles = $(xmlDoc).find('title');\n  var dates = $(xmlDoc).find('pubDate');\n\n  for(var i = 0; i < 5; i++) {\n    parseNodes(titles[i].firstChild.nodeValue, dates[i].firstChild.nodeValue);\n  }\n});

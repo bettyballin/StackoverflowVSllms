@@ -1,1 +1,0 @@
-try {\n    file_put_contents("./images/".$pk.".jpg", $imageContents);\n} catch (Exception $e) {\n    // handle error, e.g., log and return an error message\n}

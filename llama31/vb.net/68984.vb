@@ -1,1 +1,0 @@
-Public Sub OnConnection(ByVal application As Object, ByVal connectMode As ext_ConnectMode, ByVal addInInst As Object, ByRef custom As Array) Implements IDTExtensibility2.OnConnection\n    If Environment.CommandLine.Contains("devenv.com") Then\n        ' build is being invoked from command line\n    End If\nEnd Sub

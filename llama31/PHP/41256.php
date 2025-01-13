@@ -1,1 +1,0 @@
-$query = "SELECT val FROM table WHERE id = 1";\n$result = mysql_query($query);\n$value = mysql_result($result, 0, 0); // returns the first column of the first row

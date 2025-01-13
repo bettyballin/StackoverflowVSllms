@@ -1,1 +1,0 @@
-<Condition Message="The winmgmt service is not running.">\n  <![CDATA[(SERVICE::winmgmt::Status = "running")]]>\n</Condition>

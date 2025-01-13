@@ -1,1 +1,0 @@
--- Create a sample stored procedure\nCREATE PROCEDURE MyProcedure\nAS\nBEGIN\n    SELECT * FROM MyTable;\nEND;\nGO\n\n-- Run SQLCop analysis\nEXEC sqlcop MyProcedure;

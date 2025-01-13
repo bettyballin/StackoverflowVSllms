@@ -1,1 +1,0 @@
-$query = "SELECT path FROM images WHERE id = 1";\n$result = mysqli_query($conn, $query);\n$image_path = mysqli_fetch_assoc($result)['path'];\necho '<img src="' . $image_path . '">';

@@ -1,1 +1,0 @@
-$.ajax({\n    url: 'ajax.php',\n    type: 'GET',\n    success: function(data) {\n        $('#link-container').html(data);\n    }\n});

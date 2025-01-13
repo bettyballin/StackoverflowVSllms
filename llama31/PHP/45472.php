@@ -1,1 +1,0 @@
-$q = new SplQueue();\n\nfunction test($var) {\n    global $q;\n    $q->enqueue($var);\n    if ($q->count() > 10) {\n        $q->dequeue();\n    }\n}

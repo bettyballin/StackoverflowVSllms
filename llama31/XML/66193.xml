@@ -1,1 +1,0 @@
-<xs:schema xmlns="urn:GenericLabData" targetNamespace="urn:GenericLabData" \n   xmlns:xs="http://www.w3.org/2001/XMLSchema"\n   elementFormDefault="qualified">

@@ -1,1 +1,0 @@
-$rss = new MagpieRSS($rss_url);\nforeach ($rss->items as $item) {\n  $decoded_html = htmlspecialchars_decode($item['description'], ENT_QUOTES);\n  // Now you can safely insert the decoded HTML into your DB\n  // Make sure to use prepared statements to prevent SQL injection!\n}

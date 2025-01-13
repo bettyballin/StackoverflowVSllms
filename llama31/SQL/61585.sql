@@ -1,1 +1,0 @@
-CREATE TABLE FileContents (\n    FileId INT PRIMARY KEY,\n    ContentType VARCHAR(50),\n    FileText VARCHAR(MAX)\n);\n\nCREATE FULLTEXT INDEX ON FileContents (FileText);

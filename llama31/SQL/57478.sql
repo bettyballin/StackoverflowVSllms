@@ -1,1 +1,0 @@
-COPY FROM user1/password1@db1 TO user2/password2@db2 \nINSERT TABLE_A (column1, column2, ...) \nSELECT column1, column2, ... FROM TABLE_A \nWHERE filter_condition;

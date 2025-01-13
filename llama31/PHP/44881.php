@@ -1,1 +1,0 @@
-$funcs = [t1::class, t2::class]; // This syntax is available from PHP 5.5

@@ -1,1 +1,0 @@
-// Replace with your email address\nvar email = 'your-first-name@your-last-name.com';\n\n// Obfuscate the email address\nvar mailtoLink = '<a href="mailto:' + email.replace('@', '&#64;') + '">email me</a>';\n\n// Add the link to your webpage\ndocument.write(mailtoLink);

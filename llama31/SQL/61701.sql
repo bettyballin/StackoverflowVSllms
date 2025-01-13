@@ -1,1 +1,0 @@
-SELECT \n  DATE_FORMAT(`when`, '%e_%c_%Y') AS date, \n  COUNT(DISTINCT `ip`) AS AddressCount \nFROM \n  `Metrics` \nWHERE \n  `ID` = '1' \nGROUP BY \n  DATE_FORMAT(`when`, '%e_%c_%Y')

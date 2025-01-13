@@ -1,1 +1,0 @@
-glob("/path/to/directory/*.txt")

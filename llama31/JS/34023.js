@@ -1,1 +1,0 @@
-// Not recommended\neval(settings.functionName + '(' + t.parentNode.id + ')');

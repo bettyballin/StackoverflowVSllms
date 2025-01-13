@@ -1,1 +1,0 @@
-$string = "Your string with &#39; instead of apostrophes";\n$string = html_entity_decode($string, ENT_QUOTES, 'UTF-8');

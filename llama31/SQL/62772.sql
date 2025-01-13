@@ -1,1 +1,0 @@
-SELECT p.id, r.status, r.title\nFROM page AS p\nLEFT JOIN (\n  SELECT pageId, MAX(id) AS max_id\n  FROM page_revision\n  WHERE status = 'active'\n  GROUP BY pageId\n) AS max_active ON p.id = max_active.pageId\nJOIN page_revision AS r ON r.pageId = p.id AND r.id = COALESCE(max_active.max_id, (SELECT MAX(id) FROM page_revision WHERE pageId = p.id))

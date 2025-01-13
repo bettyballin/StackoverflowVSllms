@@ -1,1 +1,0 @@
-SELECT name\nFROM aggregations\nWHERE element IN (:args)\nGROUP BY name\nHAVING COUNT(DISTINCT element) = :arg_count;

@@ -1,1 +1,0 @@
-# settings.py\nSECURE_HSTS_SECONDS = 31536000  # enable HSTS\nSECURE_CONTENT_TYPE_NOSNIFF = True  # prevent MIME-sniffing\nSECURE_BROWSER_XSS_FILTER = True  # enable XSS filter\nSESSION_COOKIE_SECURE = True  # secure session cookies\nCSRF_COOKIE_SECURE = True  # secure CSRF cookies

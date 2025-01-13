@@ -1,1 +1,0 @@
-if (!Modernizr.apng) {\n    alert("Your browser does not support animated PNG images.");\n}

@@ -1,1 +1,0 @@
-DECLARE\n  v_repair_status NUMBER;\nBEGIN\n  v_repair_status := DBMS_REPAIR.FIX_CORRUPT_BLOCKS('TABLESPACE.TABLE', 'TABLESPACE.INDEX');\n  DBMS_OUTPUT.PUT_LINE('Repair status: ' || v_repair_status);\nEND;\n/

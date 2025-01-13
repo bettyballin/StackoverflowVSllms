@@ -1,1 +1,0 @@
-<login-config>\n  <auth-method>FORM</auth-method>\n  <form-login-config>\n    <form-login-page>/login.jsp</form-login-page>\n    <form-error-page>/error.jsp</form-error-page>\n  </form-login-config>\n</login-config>

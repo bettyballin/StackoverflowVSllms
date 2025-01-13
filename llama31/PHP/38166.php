@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\nif (isset($_GET['logout'])) {\n    session_destroy();\n    header('Location: /');\n    exit;\n}\n\nif (!isset($_SESSION['authenticated'])) {\n    header('HTTP/1.1 401 Unauthorized');\n    header('WWW-Authenticate: Basic realm="Restricted Area"');\n    exit;\n}\n\n// rest of your code...\n?>

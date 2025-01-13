@@ -1,1 +1,0 @@
-if ($row['name'] == "") {\n    return "-";\n} else {\n    return $row['name'];\n}

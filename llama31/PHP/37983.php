@@ -1,1 +1,0 @@
-Configure::write('log', array(\n    'database' => array(\n        'enabled' => true,\n    ),\n));

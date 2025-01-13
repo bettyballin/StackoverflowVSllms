@@ -1,1 +1,0 @@
-CREATE PROCEDURE sp_getSomeValue @theValue int, @theOtherValue int output AS BEGIN SET @theOtherValue = @theValue + 1 END

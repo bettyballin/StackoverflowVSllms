@@ -1,1 +1,0 @@
-// Assuming 'entry' is the LDAP entry object\nconst entryUUID = entry.entryUUID;\n\n// Store the entryUUID in the checkbox\ncheckbox.value = entryUUID;\n\n// Later, use the entryUUID to retrieve the LDAP entry\nconst ldapEntry = ldapSearch(`entryUUID=${checkbox.value}`);

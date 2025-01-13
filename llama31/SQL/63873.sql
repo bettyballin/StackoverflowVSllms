@@ -1,1 +1,0 @@
-impdp user/password@database directory=DPUMP_DIR dumpfile=EXPORT.DMP sqlfile=ddl.sql

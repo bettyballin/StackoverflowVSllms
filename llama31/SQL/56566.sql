@@ -1,1 +1,0 @@
-CREATE TABLE MyTable (\n    ID INT PRIMARY KEY,\n    Name VARCHAR(50)\n);\n\nEXEC sys.sp_cdc_add_job 'MyTable';\nEXEC sys.sp_cdc_change_job 'MyTable' @job_type = 'capture';

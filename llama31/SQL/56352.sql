@@ -1,1 +1,0 @@
-GRANT SELECT ON DATABASE::[MyDB] TO [DomainAdminDBRole]\nGRANT EXECUTE ON SCHEMA::[MySchema] TO [DomainAdminDBRole]

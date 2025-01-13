@@ -1,1 +1,0 @@
-SELECT * FROM sys.fn_xe_file_target_read_file('Capture Queries', NULL, NULL, NULL);

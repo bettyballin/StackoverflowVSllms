@@ -1,1 +1,0 @@
-WITH RECURSIVE list AS (\n  SELECT id, value, next_id, 0 AS level\n  FROM linked_list\n  WHERE next_id IS NULL  -- start with the last node\n  UNION ALL\n  SELECT l.id, l.value, l.next_id, level + 1\n  FROM linked_list l\n  JOIN list p ON l.next_id = p.id\n)\nSELECT value\nFROM list\nORDER BY level DESC;

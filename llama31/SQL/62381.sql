@@ -1,1 +1,0 @@
-DELETE FROM reltable\nWHERE productid = @productid\nAND attributetypeid = @attributetypeid\nAND attributeid NOT IN (SELECT value FROM STRING_SPLIT(@includedids, ','));

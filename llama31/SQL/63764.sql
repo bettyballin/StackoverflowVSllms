@@ -1,1 +1,0 @@
-SELECT * FROM questions WHERE id > 10 ORDER BY id LIMIT 10;

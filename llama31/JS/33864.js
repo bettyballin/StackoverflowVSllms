@@ -1,1 +1,0 @@
-const htmlDiff = new HtmlDiff();\nconst oldHtml = '<p>Original text</p>';\nconst newHtml = '<p>Updated text</p>';\nconst diffHtml = htmlDiff.compare(oldHtml, newHtml);\nconsole.log(diffHtml); // outputs HTML with changes highlighted

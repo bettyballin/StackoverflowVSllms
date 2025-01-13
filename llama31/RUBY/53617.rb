@@ -1,1 +1,0 @@
-class Product < ActiveRecord::Base\n  include CharBoolean\n\n  char_boolean_accessor :recycled, :another_field\nend

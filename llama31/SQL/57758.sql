@@ -1,1 +1,0 @@
-IF EXISTS (SELECT 1 FROM YourTable WHERE YourPrimaryKey = 'yourkeyvalue')\nBEGIN\n    UPDATE YourTable\n    SET column1 = 'newvalue', column2 = 'newvalue'\n    WHERE YourPrimaryKey = 'yourkeyvalue';\nEND\nELSE\nBEGIN\n    INSERT INTO YourTable (column1, column2)\n    VALUES ('newvalue', 'newvalue');\nEND

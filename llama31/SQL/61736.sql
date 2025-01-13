@@ -1,1 +1,0 @@
-INSERT INTO FriendRequests (UserId, FriendUserId)\nSELECT @UserId, @PossibleFriend\nWHERE NOT EXISTS (\n  SELECT 1\n  FROM FriendRequests\n  WHERE UserId = @UserId AND FriendUserId = @PossibleFriend\n);

@@ -1,1 +1,0 @@
-// Old code\n$foo = $HTTP_SESSION_VARS['foo'];\n\n// New code\n$foo = $_SESSION['foo'];

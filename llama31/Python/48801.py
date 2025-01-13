@@ -1,1 +1,0 @@
-goodvals = [1, 2, 3]\nmylist = [1, 2, 4, 5, 3, 6]\n\ngood, bad = [], []\nfor x in mylist:\n    (good if x in goodvals else bad).append(x)\n\nprint(good)  # prints: [1, 2, 3]\nprint(bad)   # prints: [4, 5, 6]

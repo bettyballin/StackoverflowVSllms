@@ -1,1 +1,0 @@
-// Before database insertion (validation and normalization)\n$name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);\n\n// Before display (encoding and escaping)\necho htmlspecialchars($name, ENT_QUOTES, 'UTF-8');

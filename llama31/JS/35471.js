@@ -1,1 +1,0 @@
-$('#smallDiv').css({\n  'grid-column': '1 / 2', // span 1 column\n  'grid-row': '1 / 2' // span 1 row\n});

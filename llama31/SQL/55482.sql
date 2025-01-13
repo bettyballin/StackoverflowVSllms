@@ -1,1 +1,0 @@
-CREATE TABLE entity_attributes (\n    id SERIAL PRIMARY KEY,\n    entity_id INTEGER NOT NULL,\n    key_id INTEGER NOT NULL,\n    value VARCHAR(255) NOT NULL,\n    value_type VARCHAR(20) NOT NULL CHECK (value_type IN ('integer', 'string', 'boolean'))\n);

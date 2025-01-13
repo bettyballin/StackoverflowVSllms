@@ -1,1 +1,0 @@
-let newWindow = window.open('https://example.com', '_blank');\n\nif (!newWindow || newWindow.closed || typeof newWindow.closed == 'undefined') {\n    // popup blocker is enabled\n    alert('Popup blocker is enabled. Please allow popups for this site.');\n}

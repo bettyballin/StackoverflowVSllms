@@ -1,1 +1,0 @@
-$xml = file_get_contents($url);\nfile_put_contents($filename, $xml);

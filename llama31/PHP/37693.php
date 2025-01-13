@@ -1,1 +1,0 @@
-require_once 'SVN.php';\n\n$svn = new SVN();\n$svn->setRepository('file:///path/to/repo');\n$svn->setRevision('HEAD');\n\n$list = $svn->listDirectory('/');\n\nforeach ($list as $entry) {\n    echo $entry['name'] . "\n";\n}

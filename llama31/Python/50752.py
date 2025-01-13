@@ -1,1 +1,0 @@
-import ctypes\nimport sys\n\ndef set_process_name(name):\n    libc = ctypes.CDLL('libc.so.6')  # for Linux\n    # for Windows, use ctypes.windll.kernel32 instead\n    libc.prctl(15, name, 0, 0, 0)\n\nif __name__ == '__main__':\n    set_process_name(b'othername')\n    # your code here

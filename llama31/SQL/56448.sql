@@ -1,1 +1,0 @@
-SELECT card_type = \n    CASE \n        WHEN substring(pan, 1, 2) = '37' THEN 'AMEX'\n        WHEN substring(pan, 1, 1) = '3' THEN 'Diners'\n        WHEN substring(pan, 1, 1) = '4' THEN 'VISA'\n        WHEN substring(pan, 1, 1) = '5' THEN 'MasterCard'\n        ELSE 'unknown'\n    END,\n    count(*),\n    sum(amount)\nFROM transactions\nGROUP BY card_type

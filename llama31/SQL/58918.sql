@@ -1,1 +1,0 @@
-SELECT * \nFROM OPENQUERY(RemoteServer, 'SELECT * FROM DatabaseName.SchemaName.TableName');

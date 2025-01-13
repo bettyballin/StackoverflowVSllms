@@ -1,1 +1,0 @@
-class OrdersController < ApplicationController\n  def create\n    @order = Order.new(order_params)\n    # ...\n  end\n\n  private\n\n  def order_params\n    params.require(:order).permit(:name, :email, :phone)\n  end\nend

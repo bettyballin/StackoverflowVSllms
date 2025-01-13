@@ -1,1 +1,0 @@
-// routines.php\nif ($_SERVER['REMOTE_ADDR'] !== $_SERVER['SERVER_ADDR']) {\n    // request did not come from the same local server\n    exit;\n}

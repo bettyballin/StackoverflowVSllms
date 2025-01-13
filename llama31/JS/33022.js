@@ -1,1 +1,0 @@
-var sessionId = document.cookie.match(/JSESSIONID=[^;]+/)[0].split('=')[1];

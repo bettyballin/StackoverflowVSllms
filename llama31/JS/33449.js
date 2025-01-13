@@ -1,1 +1,0 @@
-window.addEventListener('resize', function() {\n  // your code here to redraw the layout-cell contents at the new resolution\n});

@@ -1,1 +1,0 @@
-# Model/User.py\nfrom .base import BaseModel\n\nclass User(BaseModel):\n    def __init__(self, name, email):\n        super().__init__()\n        self.name = name\n        self.email = email\n\n    def get_user_data(self):\n        # Implement user-specific logic\n        pass

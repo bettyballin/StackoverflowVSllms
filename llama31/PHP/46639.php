@@ -1,1 +1,0 @@
-class UserView {\n    public $models;\n    public $currentPage;\n    public $totalPages;\n}\n\nclass UserController {\n    public function renderView() {\n        // ...\n        $view = new UserView();\n        $view->models = $models;\n        $view->currentPage = $current;\n        $view->totalPages = $total;\n        return $view->render();\n    }\n}

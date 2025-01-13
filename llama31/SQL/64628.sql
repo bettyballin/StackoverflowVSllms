@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION send_data_over_tcp()\nRETURNS void AS $$\nDECLARE\n    conn pg8000_socket;\nBEGIN\n    conn = pg8000_connect('localhost', 8080);\n    IF conn IS NOT NULL THEN\n        pg8000_send(conn, 'Hello, World!');\n        pg8000_close(conn);\n    END IF;\nEND;\n$$ LANGUAGE plpgsql;

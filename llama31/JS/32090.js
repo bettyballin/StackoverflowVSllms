@@ -1,1 +1,0 @@
-const lastModified = new Date(response.headers.get('Last-Modified'));\nconsole.log(lastModified.toLocaleString());

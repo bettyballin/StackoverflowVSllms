@@ -1,1 +1,0 @@
-CREATE VIEW FishCrosstab AS\nSELECT \n  f.ID,\n  f.Name,\n  [Length],\n  [Girth],\n  [Weight]\nFROM \n  Fish f\n  LEFT JOIN \n  (\n    SELECT \n      FishID,\n      Property,\n      Value\n    FROM \n      FishProperty\n  ) p\n  ON f.ID = p.FishID\nPIVOT \n  (\n    MAX(Value)\n    FOR Property IN ([Length], [Girth], [Weight])\n  ) AS PivotTable;

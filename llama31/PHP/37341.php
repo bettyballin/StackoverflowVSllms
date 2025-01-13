@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("DELETE FROM Comments WHERE PostID = ?");\n$stmt->bind_param("i", $post_id);\n$stmt->execute();\n\n$stmt = $mysqli->prepare("DELETE FROM Posts WHERE PostID = ?");\n$stmt->bind_param("i", $post_id);\n$stmt->execute();

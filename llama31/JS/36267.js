@@ -1,1 +1,0 @@
-$.ajax({\n  // ...\n  success: function(data) {\n    var html = $.parseHTML(data, null, true);\n    $('#myDiv').html(html);\n  }\n});

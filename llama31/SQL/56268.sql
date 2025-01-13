@@ -1,1 +1,0 @@
-DBMS_XMLGEN.setlob(l_ctx, 'CLOB_COLUMN', 'TRUE');\nDBMS_XMLGEN.setlob(l_ctx, 'BLOB_COLUMN', 'TRUE');

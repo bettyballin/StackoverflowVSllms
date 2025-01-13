@@ -1,1 +1,0 @@
-<?php\n    $id = $_GET["email"];\n    $token = $_GET["token"];\n    if (verifyToken($token, $id)) {\n        // Process the unsubscribe request\n    } else {\n        // Handle invalid token\n    }\n?>

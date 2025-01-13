@@ -1,1 +1,0 @@
-$_SESSION['ip_address'] = $_SERVER['REMOTE_ADDR'];\n$_SESSION['user_agent'] = $_SERVER['HTTP_USER_AGENT'];\n$_SESSION['token'] = bin2hex(random_bytes(16)); // generate a random toke

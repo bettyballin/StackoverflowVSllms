@@ -1,1 +1,0 @@
-<Reference Include="AssemblyA">\n  <HintPath>$(SolutionDir)Assemblies\AssemblyA.dll</HintPath>\n</Reference>

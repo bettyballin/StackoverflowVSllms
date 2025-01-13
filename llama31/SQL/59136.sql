@@ -1,1 +1,0 @@
-SELECT colname\nFROM table\nORDER BY TRY_CAST(REPLACE(colname, 'Operator (', '') AS INT);

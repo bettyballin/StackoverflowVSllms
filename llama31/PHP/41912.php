@@ -1,1 +1,0 @@
-<?php\n  header('Content-Type: text/plain'); // <--- Change this\n  echo "test";\n?>

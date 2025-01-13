@@ -1,1 +1,0 @@
-if (!defined('ABSPATH')) {\n    exit;\n}

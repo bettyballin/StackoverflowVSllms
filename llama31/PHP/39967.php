@@ -1,1 +1,0 @@
-$this->output->set_status_header('404');

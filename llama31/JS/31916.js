@@ -1,1 +1,0 @@
-// JavaScript\ndocument.addEventListener("DOMContentLoaded", function() {\n  const collapsibleSections = document.querySelectorAll(".collapsible-section");\n\n  collapsibleSections.forEach(function(section) {\n    const header = section.querySelector("h2");\n    header.addEventListener("click", function() {\n      section.classList.toggle("expanded");\n    });\n  });\n});

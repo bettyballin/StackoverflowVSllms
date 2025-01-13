@@ -1,1 +1,0 @@
-FB.api('/your-app-url.com/endpoint', 'get', { param1: 'value1' }, function(response) {\n  // process response\n});

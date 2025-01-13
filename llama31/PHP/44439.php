@@ -1,1 +1,0 @@
-$node = new DOMNode(); // assuming you have your DOMNode object\n$element = $node->ownerDocument->getElementsByTagName($node->nodeName)->item(0);\n$element->removeAttribute('attributeName'); // replace 'attributeName' with the name of the attribute you want to remove

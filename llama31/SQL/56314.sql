@@ -1,1 +1,0 @@
-SELECT DISTINCT clients.*\nFROM clients\nLEFT JOIN invoices ON clients.id = invoices.client_id\nLEFT JOIN deliveries ON clients.id = deliveries.client_id\nWHERE invoices.date >= DATE_TRUNC('month', CURRENT_DATE) OR deliveries.date >= DATE_TRUNC('month', CURRENT_DATE)

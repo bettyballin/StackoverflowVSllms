@@ -1,1 +1,0 @@
-use PhpSerialize\SerializerFactory;\n\n$decryptedData = '6E 85 A4 39 71 31 46 BB A3 F6 BE 1A 07 EE A4 CE ...'; // your decrypted data\n\n$serializer = SerializerFactory::create();\n$deserializedData = $serializer->deserialize($decryptedData);\n\nprint_r($deserializedData);

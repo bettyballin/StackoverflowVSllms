@@ -1,1 +1,0 @@
-try {\n    $date = new DateTime('02/31/2018');\n    $errors = DateTime::getLastErrors();\n    if ($errors['warning_count'] + $errors['error_count'] > 0) {\n        throw new Exception('Invalid date');\n    }\n    $formattedDate = $date->format('Y-m-d');\n} catch (Exception $e) {\n    echo 'Invalid date';\n}

@@ -1,1 +1,0 @@
-SELECT usename, pid, backend_start, query_start, state \nFROM pg_stat_activity;

@@ -1,1 +1,0 @@
-update t\nset xml = updateXML(xml, '/a/b', 'insert text gaga into /a/b');

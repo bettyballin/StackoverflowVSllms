@@ -1,1 +1,0 @@
-// Assume you're using Firebug to analyze a request to a server\n\n// Time spent sending request (red line)\nvar requestTime = request.endTime - request.startTime;\n\n// Time spent receiving response (blue line)\nvar responseTime = response.endTime - response.startTime;\n\n// Total time spent on request-response cycle\nvar totalTime = response.endTime - request.startTime;

@@ -1,1 +1,0 @@
-import re\n\ndef strip_color_codes(message):\n    return re.sub(r'\x03\d+(,\d+)?', '', message)\n\n# Example usage:\nmessage = "Hello, \x0312this is a colored message\x03!"\nclean_message = strip_color_codes(message)\nprint(clean_message)  # Output: "Hello, this is a colored message!"

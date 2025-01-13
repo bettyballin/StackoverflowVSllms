@@ -1,1 +1,0 @@
-testDict = {'x': 2, 'xS': 4}\n\ndef newFunct(key, dictionary):\n    new_value = key + str(dictionary[key])\n    return new_value\n\nfor key in testDict:\n    new_value = newFunct(key, testDict)\n    print(new_value)

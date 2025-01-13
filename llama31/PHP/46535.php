@@ -1,1 +1,0 @@
-$client = new SoapClient("some.wsdl", array(\n    'local_cert' => "cert_key.pem",\n    'cafile' => "ca_cert.pem"\n));

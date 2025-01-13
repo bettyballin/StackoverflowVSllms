@@ -1,1 +1,0 @@
-CREATE Procedure StoredProc2 \n    @AmountOfNames [int] OUT\nAS\nBEGIN\n    DECLARE @Results TABLE (UserID int, Name varchar(50), DateOfBirth datetime)\n\n    INSERT INTO @Results\n    EXEC StoredProc1 @Name='Irwin'\n\n    SELECT @AmountOfNames = COUNT(*) FROM @Results\nEND

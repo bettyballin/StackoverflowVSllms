@@ -1,1 +1,0 @@
-# config/application.rb\nmodule YourApp\n  class Application < Rails::Application\n    config.serve_static_assets = true\n  end\nend

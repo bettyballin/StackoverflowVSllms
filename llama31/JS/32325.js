@@ -1,1 +1,0 @@
-var form = Ext.create('Ext.form.FormPanel', {\n  // ...\n  buttons: [\n    {\n      text: 'Submit',\n      handler: function() {\n        form.submit({\n          url: '/submit/url',\n          // use the custom ScriptAction\n          action: 'script'\n        });\n      }\n    }\n  ]\n});

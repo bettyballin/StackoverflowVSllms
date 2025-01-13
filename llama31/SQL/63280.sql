@@ -1,1 +1,0 @@
-SELECT p.id, p.name, GROUP_CONCAT(ph.id, ',', ph.path, ',', ph.title) AS photos\nFROM persons p\nLEFT JOIN photos ph ON p.id = ph.person_id\nGROUP BY p.id\nORDER BY ph.title;

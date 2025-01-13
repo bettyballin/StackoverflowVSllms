@@ -1,1 +1,0 @@
-DECLARE\n  v_file UTL_FILE.FILE_TYPE;\nBEGIN\n  v_file := UTL_FILE.FOPEN('output.txt', 'w');\n  UTL_FILE.PUT_LINE(v_file, 'Hello World!');\n  UTL_FILE.FCLOSE(v_file);\nEND;

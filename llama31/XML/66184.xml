@@ -1,1 +1,0 @@
-<defaultProxy useDefaultCredentials="true">\n  <proxy usesystemdefault="true" proxyaddress="<proxy address>" bypassonlocal="true" />\n</defaultProxy>

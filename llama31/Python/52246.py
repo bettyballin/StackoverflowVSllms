@@ -1,1 +1,0 @@
->>> from __future__ import division\n>>> 4 / 100\n0.04

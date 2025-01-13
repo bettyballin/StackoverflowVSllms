@@ -1,1 +1,0 @@
-function notEmpty($var) {\n    return isset($var) && $var !== "";\n}

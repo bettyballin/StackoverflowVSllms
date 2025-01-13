@@ -1,1 +1,0 @@
-<Query>\n  <DataSourceName>YourOLEDBDataSource</DataSourceName>\n  <CommandText>SELECT * FROM YourOracleTable WHERE YourColumn = :YourParameter</CommandText>\n</Query>

@@ -1,1 +1,0 @@
-CREATE TABLE DictionaryBridge (\n    DictionaryID bigint NOT NULL,\n    RelatedTableID bigint NOT NULL,\n    RelatedTableName varchar(200) NOT NULL,\n    CONSTRAINT PK_DictionaryBridge PRIMARY KEY (DictionaryID, RelatedTableID),\n    CONSTRAINT FK_DictionaryBridge_Dictionary FOREIGN KEY (DictionaryID) REFERENCES Dictionary(ID)\n)

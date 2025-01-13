@@ -1,1 +1,0 @@
-$array = array('apple', 'banana', 'cherry');\narray_splice($array, 1, 1); // delete 'banana'

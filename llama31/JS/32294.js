@@ -1,1 +1,0 @@
-// layout.js\nfunction renderData(data) {\n  // rendering logic here\n  return '<div>...</div>';\n}\n\n// logic.js\n$.ajax({\n  url: '/data',\n  success: function(data) {\n    var html = renderData(data);\n    $('#container').html(html);\n  }\n});

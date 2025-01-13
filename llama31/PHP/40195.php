@@ -1,1 +1,0 @@
-use Carbon\Carbon;\n\n$timestamp = Carbon::createFromTimestamp($timestamp);\necho $timestamp->diffForHumans();

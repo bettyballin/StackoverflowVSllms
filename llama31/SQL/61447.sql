@@ -1,1 +1,0 @@
-SELECT VehicleID, Name,\n    (SELECT City + ', ' AS [text()]\n     FROM Locations\n     WHERE VehicleID = Vehicles.VehicleID\n     FOR XML PATH ('')) AS Locations\nFROM Vehicles

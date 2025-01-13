@@ -1,1 +1,0 @@
-SELECT *\nFROM customers\nJOIN orders\nON customers.customer_id = orders.customer_id;

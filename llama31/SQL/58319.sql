@@ -1,1 +1,0 @@
-DECLARE @envVar VARCHAR(255)\nEXEC xp_cmdshell 'echo %VARIABLE_NAME%', @envVar OUTPUT\nSELECT @envVar AS EnvVarValue

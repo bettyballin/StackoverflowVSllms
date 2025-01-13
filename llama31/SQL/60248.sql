@@ -1,1 +1,0 @@
-INSERT OR IGNORE INTO MailQueue(SubscriberID, TemplateID)\nSELECT s.ID, '1' AS TemplateID\nFROM Subscribers s\nINNER JOIN SubscriberGroups sg ON s.ID = sg.SubscriberID\nWHERE sg.GroupID IN ('1', '2', '3')\nAND NOT EXISTS (\n  SELECT 1\n  FROM SubscriberGroups sg2\n  WHERE sg2.SubscriberID = s.ID\n  AND sg2.GroupID IN ('4', '5', '6')\n);

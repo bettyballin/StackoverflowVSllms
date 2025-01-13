@@ -1,1 +1,0 @@
-document.getElementById('reservation_pick_up_time_year').value + '-' + document.getElementById('reservation_pick_up_time_month').value + '-' + document.getElementById('reservation_pick_up_time_day').value + ' ' + document.getElementById('reservation_pick_up_time_hour').value + ':' + document.getElementById('reservation_pick_up_time_minute').value

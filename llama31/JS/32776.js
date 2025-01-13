@@ -1,1 +1,0 @@
-// Example Cypress test script\ndescribe('Example', () => {\n  it('should submit the form', () => {\n    cy.visit('https://example.com');\n    cy.get('button[type="submit"]').click();\n  });\n});

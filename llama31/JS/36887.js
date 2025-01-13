@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\nxhr.open('GET', 'https://example.com', true);\nxhr.setRequestHeader('Authorization', 'Basic ' + btoa('username:password'));\nxhr.send();

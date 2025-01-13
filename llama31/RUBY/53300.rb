@@ -1,1 +1,0 @@
-<%= Html.Raw(Html.Encode(Model.NAME)) %>

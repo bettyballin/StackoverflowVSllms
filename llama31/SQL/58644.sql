@@ -1,1 +1,0 @@
-ALTER FULLTEXT INDEX ON your_table_name REBUILD;

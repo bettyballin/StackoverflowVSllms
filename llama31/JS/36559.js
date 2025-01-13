@@ -1,1 +1,0 @@
-function creatediv(id, html, left, top) {\n    // ...\n    newdiv.style.cssText = "position: absolute; left: " + left + "; top: " + top + "; display: none;";\n    // ...\n}

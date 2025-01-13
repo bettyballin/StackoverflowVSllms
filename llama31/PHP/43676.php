@@ -1,1 +1,0 @@
-// In your controller\npublic function my_ajax_action() {\n    $this->viewBuilder()->setLayout('ajax');\n    // Your logic here\n}

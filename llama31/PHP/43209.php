@@ -1,1 +1,0 @@
-echo "Query info: " . $mysqli->info;

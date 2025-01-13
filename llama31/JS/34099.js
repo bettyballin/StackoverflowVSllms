@@ -1,1 +1,0 @@
-function clearTextboxes() {\n  var textboxes = document.querySelectorAll('input[type="text"]');\n  textboxes.forEach(function(textbox) {\n    textbox.value = '';\n  });\n}

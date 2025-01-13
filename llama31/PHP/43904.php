@@ -1,1 +1,0 @@
-// Disabling allow_url_fopen and allow_url_include\nini_set('allow_url_fopen', 0);\nini_set('allow_url_include', 0);\n\n// Disabling register_globals\nini_set('register_globals', 0);\n\n// Enabling open_basedir\nini_set('open_basedir', '/path/to/your/webroot/');

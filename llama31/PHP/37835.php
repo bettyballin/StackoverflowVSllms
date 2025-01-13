@@ -1,1 +1,0 @@
-mysql_query("INSERT INTO `tblpm` (title, content, sender_id, date_sent) VALUES ('$original_title', '$reply_message', '$reply_sender', NOW())");\n$message_id = mysql_insert_id();\nmysql_query("INSERT INTO `tblpm_info` (message_id, sender_id, receiver_id) VALUES ('$message_id', '$reply_sender', '$original_sender')");

@@ -1,1 +1,0 @@
-<img src="image.jpg?timestamp=<?= time() ?>">

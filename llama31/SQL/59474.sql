@@ -1,1 +1,0 @@
-SELECT userid \nFROM table_name \nWHERE column_name = 'such_and_such';

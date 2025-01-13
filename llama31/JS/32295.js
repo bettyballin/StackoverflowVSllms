@@ -1,1 +1,0 @@
-// model.js\nvar DataModel = Backbone.Model.extend({\n  url: '/data'\n});\n\n// view.js\nvar DataView = Backbone.View.extend({\n  template: _.template($('#template').html()),\n  render: function() {\n    this.$el.html(this.template(this.model.toJSON()));\n    return this;\n  }\n});

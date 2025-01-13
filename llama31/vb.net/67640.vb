@@ -1,1 +1,0 @@
-Dim obj As MyNetClass\nSet obj = New MyNetClass\n\nDim result As String\nresult = obj.MyMethod("Hello, World!")

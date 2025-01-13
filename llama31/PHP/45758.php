@@ -1,1 +1,0 @@
-function p($value) {\n    $backtrace = debug_backtrace();\n    $caller = $backtrace[0];\n    $code = file($caller['file']);\n    $line = $code[$caller['line'] - 1];\n    $expression = trim(substr($line, strpos($line, 'p(') + 2));\n    $expression = substr($expression, 0, strpos($expression, ')'));\n\n    echo "$expression is " . var_export($value, true) . "\n";\n}

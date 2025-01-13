@@ -1,1 +1,0 @@
-use Symfony\Component\Process\Process;\n\n$process = new Process(['php', '/path/to/your/script.php']);\n$process->start();

@@ -1,1 +1,0 @@
-SELECT * FROM pg_locks WHERE relation = 'your_table_name';

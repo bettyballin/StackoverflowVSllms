@@ -1,1 +1,0 @@
-SELECT value\nFROM your_table\nGROUP BY value\nORDER BY COUNT(value) ASC, value ASC\nLIMIT 1;

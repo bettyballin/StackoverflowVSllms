@@ -1,1 +1,0 @@
-$fixed = preg_replace('/(.*)(\b\d+\b)(.*)(Click here.*)/i',"$1$2$3<BR><A href=\"somepage.php?entry_no=$2\">$4</A>",$originalData);

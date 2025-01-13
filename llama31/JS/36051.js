@@ -1,1 +1,0 @@
-const formattedAmount = new Intl.NumberFormat('en-US', {\n  style: 'currency',\n  currency: 'USD',\n  minimumFractionDigits: 2,\n  maximumFractionDigits: 2,\n}).format(amount);

@@ -1,1 +1,0 @@
-DECLARE\n  l_array array_type;\nBEGIN\n  l_array := array_type('value1', 'value2', 'value3');\n  my_procedure(l_array);\nEND;\n/

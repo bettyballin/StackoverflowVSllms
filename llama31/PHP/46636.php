@@ -1,1 +1,0 @@
-if (version_compare(PHP_VERSION, '7.2', '<')) {\n    die('PHP version 7.2 or higher is required');\n}\nif (!extension_loaded('gd') || !extension_loaded('pdo')) {\n    die('GD and PDO extensions are required');\n}

@@ -1,1 +1,0 @@
-// ...\n\nfunction formatTweet($tweet) {\n    // ...\n    $tweet->text = clickable_link($tweet->text);\n    // ...\n}

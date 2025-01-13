@@ -1,1 +1,0 @@
-SELECT StudentID, \n       [1], [2], [3], ..., [100]\nFROM \n(\n    SELECT StudentID, QuestionID, Answer\n    FROM ExamAnswers\n) AS SourceTable\nPIVOT \n(\n    MAX(Answer)\n    FOR QuestionID IN ([1], [2], [3], ..., [100])\n) AS PivotTable;

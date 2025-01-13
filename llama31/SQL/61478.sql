@@ -1,1 +1,0 @@
-DECLARE\n  p_cursor SYS_REFCURSOR;\nBEGIN\n  get_data(p_sort_clause => 'CompanyName DESC', p_filter_clause => 'CompanyID > 400', p_cursor => p_cursor);\n  LOOP\n    FETCH p_cursor INTO your_record;\n    EXIT WHEN p_cursor%NOTFOUND;\n    -- process your_record\n  END LOOP;\n  CLOSE p_cursor;\nEND;\n/

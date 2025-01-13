@@ -1,1 +1,0 @@
-ALTER TABLE `events` CHANGE `adr_id` `adr_id` INT(11) DEFAULT '';\nALTER TABLE `events` CHANGE `evt_amtPersonsSubs` `evt_amtPersonsSubs` INT(11) DEFAULT '';

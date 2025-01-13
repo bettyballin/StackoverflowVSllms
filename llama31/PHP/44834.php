@@ -1,1 +1,0 @@
-$shelf = new BookShelf();\n\n// Loops through both arrays, first books (if any) and then magazines (if any)\nforeach ($shelf as $item) {\n    echo $item;\n}

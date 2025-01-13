@@ -1,1 +1,0 @@
-$openid = new OpenID();\n$endpoint = $openid->discover('http://flimcc.blogspot.com/');\nif (!$endpoint) {\n    echo "Discovery failed";\n}

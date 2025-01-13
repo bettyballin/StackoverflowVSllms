@@ -1,1 +1,0 @@
-SELECT * \nFROM YourViewName \nWHERE DateColumn >= ? AND DateColumn <= ?

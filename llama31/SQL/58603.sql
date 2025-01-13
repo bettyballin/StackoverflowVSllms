@@ -1,1 +1,0 @@
-IF @value IS NULL

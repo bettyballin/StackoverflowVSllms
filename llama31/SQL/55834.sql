@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE \n    TO_CHAR(date_of_birth, 'YYYY-MM-DD') = TO_CHAR(:input_date, 'YYYY-MM-DD')

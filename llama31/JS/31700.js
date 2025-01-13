@@ -1,1 +1,0 @@
-var infowindow = new google.maps.InfoWindow({\n  content: 'your content here',\n  maxHeight: 200 // set the maximum height here\n});

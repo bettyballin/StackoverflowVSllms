@@ -1,1 +1,0 @@
-browser.Navigate("about:blank")\nbrowser.Document.Write(_emailHTML)

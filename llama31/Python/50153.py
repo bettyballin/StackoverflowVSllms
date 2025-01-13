@@ -1,1 +1,0 @@
-variables = {'foo': 'bar', 'baz': 'qux'}\nlocals().update(variables)\nprint(foo)  # Outputs: bar\nprint(baz)  # Outputs: qux

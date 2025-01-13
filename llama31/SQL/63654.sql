@@ -1,1 +1,0 @@
-WITH Random(Value) AS (\n    SELECT ABS(CHECKSUM(NEWID())) AS Value\n    UNION ALL\n    SELECT ABS(CHECKSUM(NEWID())) FROM Random\n)\nSELECT TOP 10 * FROM Random

@@ -1,1 +1,0 @@
--- Example MongoDB query\ndb.collection.find({ name: "John" });

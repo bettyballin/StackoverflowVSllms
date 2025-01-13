@@ -1,1 +1,0 @@
-// In your Customer class\npublic function getNumberCompletedOrders()\n{\n    return $this->getVirtualColumn('NumberCompletedOrders');\n}

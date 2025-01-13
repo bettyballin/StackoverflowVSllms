@@ -1,1 +1,0 @@
-$("a#linkid").click(function(GM_setValue) {\n  GM_setValue("foo", 123);\n}.bind(null, GM_setValue));\n\nGM_setValue("bar", 123);

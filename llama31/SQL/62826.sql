@@ -1,1 +1,0 @@
--- Enable cascading deletes on all foreign keys\nEXEC sp_msforeachtable @command1="ALTER TABLE ? NOCHECK CONSTRAINT ALL;";\nEXEC sp_msforeachtable @command1="ALTER TABLE ? ENABLE TRIGGER ALL;";\n\n-- Your delete statement here\nDELETE FROM TopLevelTable WHERE ...;\n\n-- Re-enable foreign key constraints\nEXEC sp_msforeachtable @command1="ALTER TABLE ? CHECK CONSTRAINT ALL;";

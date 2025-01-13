@@ -1,1 +1,0 @@
-SELECT p.name\nFROM products p\nWHERE p.id IN (\n  SELECT r.product_id\n  FROM reviews r\n  GROUP BY r.product_id\n  HAVING AVG(r.rating) > 3\n);

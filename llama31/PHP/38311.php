@@ -1,1 +1,0 @@
-$string = "Hello World!<br>&nbsp;";\n$trimmed_string = preg_replace('/(<br>&nbsp;)+$/', '', $string);\necho $trimmed_string; // outputs "Hello World!"

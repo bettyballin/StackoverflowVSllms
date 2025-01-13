@@ -1,1 +1,0 @@
-const arr1 = [1, 2, 3];\nconst arr2 = [2, 4, 5];\n\nconsole.log(arr1.indexOf(arr2[0]) !== -1); // true\nconsole.log(arr1.indexOf(arr2[1]) !== -1); // false

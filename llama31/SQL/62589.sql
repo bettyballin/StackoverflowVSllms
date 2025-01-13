@@ -1,1 +1,0 @@
-CREATE INDEX idx_exhibition_venue_id_active_ends ON exhibitions (venue_id, active, ends);

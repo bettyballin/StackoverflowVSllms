@@ -1,1 +1,0 @@
--- Open a new query window in SSMS\n-- Execute the following command to enable the SQL Server Profiler\nEXEC sp_trace_setevent @traceid = 1, @eventid = 12, @columnid = 1, @on = 1;\nGO\n\n-- Execute the following command to view the captured events\nSELECT * FROM fn_trace_gettable(NULL, NULL);\nGO

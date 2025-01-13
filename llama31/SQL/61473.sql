@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_MyTable_Update\nON MyTable\nINSTEAD OF UPDATE\nAS\nBEGIN\n    UPDATE t\n    SET t.[UPDATED] = getdate()\n    FROM MyTable t\n    INNER JOIN inserted i ON t.ROWID = i.ROWID\nEND

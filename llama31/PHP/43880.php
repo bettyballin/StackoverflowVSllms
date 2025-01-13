@@ -1,1 +1,0 @@
-function showCombinations($string, $traits, $i)\n{\n    if ($i >= count($traits))\n        echo htmlspecialchars(trim($string) . PHP_EOL);\n    else\n    {\n        foreach ($traits[$i] as $trait)\n            showCombinations("$string$trait", $traits, $i + 1);\n    }\n}

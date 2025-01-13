@@ -1,1 +1,0 @@
-<img src='./images/".$id.".jpg' width='".$imageSize["width"]."' height='".$imageSize["height"]."'/>"

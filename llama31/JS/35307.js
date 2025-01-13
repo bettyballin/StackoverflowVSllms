@@ -1,1 +1,0 @@
-const xhr = new XMLHttpRequest();\nxhr.open('GET', '/api/data', true);\nxhr.onload = function() {\n  if (xhr.status === 200) {\n    console.log(xhr.responseText);\n  }\n};\nxhr.send();

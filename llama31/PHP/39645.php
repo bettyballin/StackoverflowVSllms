@@ -1,1 +1,0 @@
-// Set a session variable\nsession_start();\n$_SESSION['token'] = uniqid();\n\n// Generate a token and store it in a session variable\n$token = $_SESSION['token'];

@@ -1,1 +1,0 @@
-CREATE TABLE clients (\n  ip_address VARCHAR(45)\n);

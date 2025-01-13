@@ -1,1 +1,0 @@
-SELECT fnc_getReadableSize(documents.doc) FROM documents WHERE id = ?

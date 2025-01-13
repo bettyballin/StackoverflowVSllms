@@ -1,1 +1,0 @@
-<system.webServer>\n    <security>\n        <dynamicIpSecurity>\n            <denyByConcurrentRequests enabled="true" maxConcurrentRequests="10" />\n            <denyByRequestRate enabled="true" maxRequests="10" requestIntervalInMilliseconds="1000" />\n        </dynamicIpSecurity>\n    </security>\n</system.webServer>

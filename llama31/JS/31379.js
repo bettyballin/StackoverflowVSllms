@@ -1,1 +1,0 @@
-// JavaScript example (using jQuery)\n$.ajax({\n    type: "GET",\n    url: "https://example.com/webservice",\n    dataType: "json",\n    success: function(data) {\n        // Process the response\n        // ...\n    }\n});

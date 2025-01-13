@@ -1,1 +1,0 @@
-integer = 12345\nbinary_string = [integer].pack('N*')

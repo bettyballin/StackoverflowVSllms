@@ -1,1 +1,0 @@
-$headers = array(\n    'From: system@abc.com',\n    'Reply-To: ', // empty string to prevent replies\n    'X-Auto-Response-Suppress: ALL', // suppress automated responses\n);\n\nmail('jason@123.com', 'Subject', 'Message', $headers);

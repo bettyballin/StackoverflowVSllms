@@ -1,1 +1,0 @@
-book = Book.objects.get(id=1)  # Replace with the desired book ID\ningredients = Ingredient.objects.filter(recipe__book=book)\n\n# Alternatively, you can use the select_related method to reduce queries\ningredients = Ingredient.objects.select_related('recipe__book').filter(recipe__book=book)

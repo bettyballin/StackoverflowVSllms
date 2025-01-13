@@ -1,1 +1,0 @@
-function fatalErrorHandler() {\n    $error = error_get_last();\n    if ($error['type'] === E_ERROR) {\n        echo "Fatal Error: {$error['message']} in {$error['file']} on line {$error['line']}\n";\n        debug_print_backtrace();\n    }\n}\n\nregister_shutdown_function('fatalErrorHandler');

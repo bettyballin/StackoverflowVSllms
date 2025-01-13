@@ -1,1 +1,0 @@
-if (isset($username)) {\n    // use $username\n}

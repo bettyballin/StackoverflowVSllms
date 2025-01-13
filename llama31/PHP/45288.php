@@ -1,1 +1,0 @@
-<?php\n  phpinfo(INFO_MODULES);\n?>

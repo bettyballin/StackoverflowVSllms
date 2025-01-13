@@ -1,1 +1,0 @@
-<modules>\n    <add name="FormsAuthenticationModule1" type="System.Web.Security.FormsAuthenticationModule" />\n    <add name="FormsAuthenticationModule2" type="System.Web.Security.FormsAuthenticationModule" />\n</modules>

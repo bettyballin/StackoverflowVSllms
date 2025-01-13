@@ -1,1 +1,0 @@
-// PHP 4 code\n$var = $HTTP_POST_VARS['var'];\necho $var;\n\n// Updated PHP 5 code\n$var = $_POST['var'];\necho $var;

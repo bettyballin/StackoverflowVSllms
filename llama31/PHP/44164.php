@@ -1,1 +1,0 @@
-// Example of vulnerable code\n$include_file = $_GET['file'];\ninclude($include_file);

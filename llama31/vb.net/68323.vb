@@ -1,1 +1,0 @@
-Dim obj As Object = ' create an instance of the old class\nDim proxy = InterfaceProxy.CreateProxy(Of IMyInterface)(obj)

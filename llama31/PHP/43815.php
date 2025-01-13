@@ -1,1 +1,0 @@
-// assume $user is an instance of your Zend_Db_Table_Row object\n$form = new UsersForm();\n$form->populate($user->toArray());

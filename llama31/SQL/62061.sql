@@ -1,1 +1,0 @@
-CREATE ROLE DeveloperGrantRole AUTHORIZATION db_securityadmin;\n\nGRANT GRANT OPTION ON OBJECT::schema_name.table_name TO DeveloperGrantRole;\n\nALTER ROLE DeveloperGrantRole ADD MEMBER developer_login;

@@ -1,1 +1,0 @@
-// Set session timeout to 15 minutes\nini_set('session.gc_maxlifetime', 900);\n\n// Set session cookie expiration time to 15 minutes\nsession_set_cookie_params(900);\n\n// Start the session\nsession_start();

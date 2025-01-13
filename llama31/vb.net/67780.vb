@@ -1,1 +1,0 @@
-teksti = teksti.Trim()\nteksti = Replace(teksti, "&", "&amp;")\nteksti = Replace(teksti, "<", "&lt;")\nteksti = Replace(teksti, ">", "&gt;")\nteksti = Replace(teksti, """", "&quot;")\nteksti = Replace(teksti, "'", "&#8217;")\nteksti = Replace(teksti, "%", "&#37;")\nteksti = Replace(teksti, "#", "&#35;")\nteksti = Replace(teksti, "@", "&#64;")

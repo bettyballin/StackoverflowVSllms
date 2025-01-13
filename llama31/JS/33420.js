@@ -1,1 +1,0 @@
-const obj = { foo: 'bar', baz: { qux: 'quux' } };\nconsole.dir(obj);

@@ -1,1 +1,0 @@
--- Enable result set caching in PostgreSQL\nSET enable_result_cache = on;\n\n-- Set the cache size to 1 GB\nSET result_cache_size = 1GB;

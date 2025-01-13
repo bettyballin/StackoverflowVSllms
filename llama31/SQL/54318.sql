@@ -1,1 +1,0 @@
--- Create a new column\nALTER TABLE [dbo].[MyTable]\nADD [NewColumn] INT NULL;\n\n-- Modify an existing column\nALTER TABLE [dbo].[MyTable]\nALTER COLUMN [ExistingColumn] VARCHAR(50) NOT NULL;\n\n-- Drop a column\nALTER TABLE [dbo].[MyTable]\nDROP COLUMN [OldColumn];

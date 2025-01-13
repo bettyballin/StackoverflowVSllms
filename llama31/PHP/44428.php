@@ -1,1 +1,0 @@
-$originalVar = null;\n\nfunction setdefault(&$var, $default = "") {\n    if (!isset($var)) {\n        $var = $default;\n    }\n}\n\nsetdefault($originalVar, "Hello, World!");\necho $originalVar; // Outputs: "Hello, World!"

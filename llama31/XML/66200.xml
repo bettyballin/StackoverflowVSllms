@@ -1,1 +1,0 @@
-<system.web>\n  <httpModules>\n    <add name="UrlRewriter" type="Intelligencia.UrlRewriter.RewriterHttpModule, Intelligencia.UrlRewriter" />\n  </httpModules>\n</system.web>

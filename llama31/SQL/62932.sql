@@ -1,1 +1,0 @@
--- Create a security predicate\nCREATE FUNCTION SecurityPredicate(@EmployeeID int)\nRETURNS TABLE\nWITH SCHEMABINDING\nAS\n    RETURN SELECT 1 AS result\n    WHERE SUSER_ID() = 'YourApplicationUser';\nGO\n\n-- Create a security policy\nCREATE SECURITY POLICY EmployeeSecurityPolicy\nADD FILTER PREDICATE dbo.SecurityPredicate(EmployeeID)\nON dbo.Employees\nWITH (STATE = ON);\nGO

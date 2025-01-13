@@ -1,1 +1,0 @@
-hash = { :key => 'value' }

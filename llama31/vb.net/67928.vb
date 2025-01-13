@@ -1,1 +1,0 @@
-' Version 1\n<Assembly: AssemblyVersion("1.0.0.0")>\n\n' Version 2\n<Assembly: AssemblyVersion("2.0.0.0")>

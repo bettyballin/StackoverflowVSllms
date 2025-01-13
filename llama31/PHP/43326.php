@@ -1,1 +1,0 @@
-$path = getenv('PATH');\n\n// Determine the separator based on the operating system\n$separator = PHP_OS_FAMILY === 'Windows' ? ';' : ':';\n\n// Split the PATH variable using the determined separator\n$components = explode($separator, $path);\n\nprint_r($components);

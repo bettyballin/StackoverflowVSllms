@@ -1,1 +1,0 @@
-<?xml version="1.0"?>\n<!DOCTYPE MODE SYSTEM "mode.dtd">\n\n<MODE>\n  <name>php</name>\n  <property name="wordChars" value="$"/>\n  <!-- ... other settings ... -->\n</MODE>

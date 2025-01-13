@@ -1,1 +1,0 @@
-NOW() returns a constant time that indicates the time at which the statement began to execute.

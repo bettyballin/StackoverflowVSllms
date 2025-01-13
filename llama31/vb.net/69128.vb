@@ -1,1 +1,0 @@
-Try\n    ' Code that may throw an exception\nCatch ex As Exception\n    ' Handle exception and redirect to error page\nEnd Try

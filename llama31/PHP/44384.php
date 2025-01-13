@@ -1,1 +1,0 @@
-$json_data = json_encode($data);\nif (json_last_error() !== JSON_ERROR_NONE) {\n    // handle error\n}

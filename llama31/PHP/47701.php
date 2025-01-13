@@ -1,1 +1,0 @@
-function get_real_image_url($long_url) {\n    $headers = get_headers($long_url, 1);\n    if (isset($headers["Content-Location"])) {\n        return $headers["Content-Location"];\n    }\n    return $long_url; // fallback to original URL if no Content-Location header found\n}

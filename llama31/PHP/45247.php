@@ -1,1 +1,0 @@
-$this_day = date('d', strtotime('-1 day', strtotime(date('Y-m-d'))));\nif($year == date('Y') && $month == date('m')) {\n    $this_ytd_end = $year.'-'.str_pad($month, 2, "0", STR_PAD_LEFT).'-'.$this_day;\n} else {\n    $last_day_of_month = date('t', mktime(0, 0, 0, $month, 1, $year));\n    $this_ytd_end = $year.'-'.str_pad($month, 2, "0", STR_PAD_LEFT).'-'.$last_day_of_month;\n}

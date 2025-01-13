@@ -1,1 +1,0 @@
-// Using the sandbox extension\n$sandbox = new Sandbox();\n$sandbox->setOption('memory_limit', '16M');\n$sandbox->setOption('cpu_limit', '10');\n\n// Execute user-provided code in the sandbox\n$sandbox->execute($userCode);

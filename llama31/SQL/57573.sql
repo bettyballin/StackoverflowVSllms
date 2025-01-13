@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n  SELECT *\n  FROM table\n  WHERE id < 7868\n  ORDER BY id DESC\n  LIMIT 2\n) AS subquery\nORDER BY id ASC;

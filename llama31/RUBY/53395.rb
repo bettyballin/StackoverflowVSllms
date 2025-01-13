@@ -1,1 +1,0 @@
-user = User.new(state: 'invited')\nuser.validate_invited_state\n\nuser.accept_invitation!\nuser.validate_active_state

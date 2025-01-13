@@ -1,1 +1,0 @@
-foreach ($constraints as $field => $value) {\n    $PDOStatement->bindValue(':' . $field, $value);\n}

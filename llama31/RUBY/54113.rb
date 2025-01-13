@@ -1,1 +1,0 @@
-# Gemfile\ngem 'cancancan'\n\n# Ability.rb\nclass Ability\n  include CanCan::Ability\n\n  def initialize(user)\n    user ||= User.new # guest user (not logged in)\n    if user.admin?\n      can :manage, :all\n    else\n      can :read, :all\n    end\n  end\nend\n\n# In your controllers\nclass MyController < ApplicationController\n  authorize_resource\nend

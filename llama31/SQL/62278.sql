@@ -1,1 +1,0 @@
-CREATE TABLE bad_words (\n  id INT PRIMARY KEY,\n  word VARCHAR(255) NOT NULL,\n  language VARCHAR(10) NOT NULL\n);\n\nINSERT INTO bad_words (word, language) VALUES ('foo', 'en'), ('bar', 'en'), ...;\nINSERT INTO bad_words (word, language) VALUES ('parolaccia', 'it'), ...;

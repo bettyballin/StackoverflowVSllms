@@ -1,1 +1,0 @@
-SELECT i.ItemID, i.Title, t.TagID, t.Title AS TagTitle\nFROM Item i\nLEFT JOIN Tag t ON i.ItemID = t.ItemID;

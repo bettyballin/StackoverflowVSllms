@@ -1,1 +1,0 @@
-MERGE INTO timesheet AS t\nUSING (SELECT :jobid, :datebeginning, :dateending) AS s\nON t.jobid = s.jobid\nWHEN MATCHED THEN\n    UPDATE SET t.dateending = s.dateending\nWHEN NOT MATCHED THEN\n    INSERT (jobid, datebeginning, dateending)\n    VALUES (s.jobid, s.datebeginning, s.dateending);

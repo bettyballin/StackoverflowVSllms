@@ -1,1 +1,0 @@
-Select Case x\n    Case 6\n        Dim z As Integer = 6\n    Case 7\n        ' z is still in scope here, so this will compile and run without errors\n        z = 7\nEnd Select

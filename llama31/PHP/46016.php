@@ -1,1 +1,0 @@
-$dir = new DirectoryIterator('.');\n$files = iterator_to_array($dir);\n\nuasort($files, function($a, $b) {\n    return strcmp($a->getFilename(), $b->getFilename());\n});\n\nforeach ($files as $file) {\n    echo $file->getFilename();\n}

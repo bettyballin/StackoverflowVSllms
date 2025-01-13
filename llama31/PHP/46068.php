@@ -1,1 +1,0 @@
-require_once 'myfunctions.php';\nmy_function();

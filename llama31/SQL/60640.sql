@@ -1,1 +1,0 @@
--- CTE\nWITH EmployeesCTE AS (\n  SELECT employee_id, name, department\n  FROM employees\n  WHERE salary > 50000\n)\nSELECT * FROM EmployeesCTE;\n\n-- Sub-query\nSELECT *\nFROM (\n  SELECT employee_id, name, department\n  FROM employees\n  WHERE salary > 50000\n) AS sub_query;

@@ -1,1 +1,0 @@
-for (var x = 0; x < f; x++) {\n    s[x] = [\n        (g[x][0] - g[x + 1][0]) / (l / (g.length - 1)),\n        (g[x][1] - g[x + 1][1]) / (l / (g.length - 1)),\n        (g[x][2] - g[x + 1][2]) / (l / (g.length - 1))\n    ];\n}

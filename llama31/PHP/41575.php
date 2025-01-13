@@ -1,1 +1,0 @@
-// Example PHPUnit test\npublic function testUserRegistration()\n{\n    $user = new User();\n    $user->register('john.doe@example.com', 'password123');\n    $this->assertNotEmpty($user->getId());\n}

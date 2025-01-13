@@ -1,1 +1,0 @@
-const form = document.getElementById('myForm');\n\nform.addEventListener('submit', (e) => {\n  e.preventDefault();\n  const formData = new FormData(form);\n  const checkboxValue = formData.get('myCheckbox');\n  console.log(checkboxValue); // Outputs: "yes" if checked, null otherwise\n});

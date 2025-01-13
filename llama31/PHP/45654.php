@@ -1,1 +1,0 @@
-$smarty->debugging = TRUE;\n$smarty->error_reporting = E_ALL;\n$smarty->debugging_ctrl = 'URL'; // enables debugging via URL

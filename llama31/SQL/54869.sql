@@ -1,1 +1,0 @@
-set transaction isolation level snapshot\nbegin transaction\nWAITFOR DELAY '00:00:01'  -- wait for 1 second to allow database recovery\ndeclare @sQuery varchar(max)\nset @sQuery = 'Select * from synToSomeTableInDB2'\nexec (@sQuery)\ncommit transactio

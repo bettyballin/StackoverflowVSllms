@@ -1,1 +1,0 @@
-function customAlert(message, timeout) {\n  var dialog = document.createElement('dialog');\n  dialog.innerHTML = message;\n  document.body.appendChild(dialog);\n  dialog.showModal();\n  setTimeout(function() {\n    dialog.close();\n  }, timeout);\n}

@@ -1,1 +1,0 @@
-$variables = array('value1', 'value2', 'value3', 'value4', 'value5');\nforeach ($variables as $variable) {\n    echo $variable;\n}

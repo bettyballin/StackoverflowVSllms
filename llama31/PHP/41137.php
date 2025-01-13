@@ -1,1 +1,0 @@
-autoloadernamespaces[] = "Widgets_"

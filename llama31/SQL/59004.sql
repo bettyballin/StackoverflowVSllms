@@ -1,1 +1,0 @@
--- Bad\nSELECT * FROM users WHERE name = 'John';\n\n-- Good\nCREATE INDEX idx_name ON users (name);\nSELECT * FROM users WHERE name = 'John';

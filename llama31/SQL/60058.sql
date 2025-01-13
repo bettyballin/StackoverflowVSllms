@@ -1,1 +1,0 @@
-SELECT *\nFROM users\nLEFT JOIN (\n  SELECT *\n  FROM suspensions\n  WHERE suspended_date > NOW()\n) AS active_suspensions\nON active_suspensions.user_id = users.id;

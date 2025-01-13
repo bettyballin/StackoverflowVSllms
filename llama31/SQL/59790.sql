@@ -1,1 +1,0 @@
-SELECT t1.*\nFROM Thing t1\nINNER JOIN (\n  SELECT ThingID, MAX(PriceDateTime) as MaxPriceDateTime\n  FROM Thing\n  WHERE ThingID IN (1,2,3,4,5,6)\n  AND PriceDateTime > CAST(GETDATE() AS DATE)\n  GROUP BY ThingID\n) t2\nON t1.ThingID = t2.ThingID AND t1.PriceDateTime = t2.MaxPriceDateTime

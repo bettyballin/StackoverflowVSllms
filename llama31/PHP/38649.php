@@ -1,1 +1,0 @@
-$element = $form->getElement('myElement');\n$element->addFilter(new StripslashesFilter());

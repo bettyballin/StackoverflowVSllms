@@ -1,1 +1,0 @@
-from io import BytesIO\n\nmy_bytes = b"Hello, World!"\nfile_like_object = BytesIO(my_bytes)\n\n# Now you can use file_like_object like a regular file\nprint(file_like_object.read())

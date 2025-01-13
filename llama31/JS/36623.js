@@ -1,1 +1,0 @@
-$.ajax({\n    type: 'POST',\n    url: 'your_php_file.php',\n    data: your_form_data,\n    dataType: 'json',\n    success: function(data) {\n        // Use the retrieved variables\n        var variable1 = data.variable1;\n        var variable2 = data.variable2;\n        // Do something with the variables...\n    }\n});

@@ -1,1 +1,0 @@
-ssh.exec!(cmd) do |channel, stream, data|\n  puts data\nend

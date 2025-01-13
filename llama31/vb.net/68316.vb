@@ -1,1 +1,0 @@
-Public Class BaseClass\n    Public Sub MyMethod()\n        Console.WriteLine("Base class method")\n    End Sub\nEnd Class\n\nPublic Class DerivedClass\n    Inherits BaseClass\n    Public Shadows Sub MyMethod()\n        Console.WriteLine("Derived class method")\n    End Sub\nEnd Class\n\nDim obj As BaseClass = New DerivedClass()\nobj.MyMethod() ' Output: Base class method

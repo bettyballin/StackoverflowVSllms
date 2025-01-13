@@ -1,1 +1,0 @@
-import re\n\nhtml = '<p class="thisClass">this is nice <br /><br /> isn\'t it?</p>'\npattern = re.compile('<p class="thisClass">(.*?)</p>', re.DOTALL)\nmatches = pattern.findall(html)\nprint(matches)

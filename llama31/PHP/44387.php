@@ -1,1 +1,0 @@
-$doc = new DOMDocument();\n$root = $doc->createElement('root');\n$doc->appendChild($root);\n\n$child1 = $doc->createElement('child1', 'value1');\n$root->appendChild($child1);\n\n$grandchild1 = $doc->createElement('grandchild1', 'grandvalue1');\n$child1->appendChild($grandchild1);\n\nprint $doc->saveXML();

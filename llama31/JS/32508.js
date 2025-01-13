@@ -1,1 +1,0 @@
-var row = // get a reference to the table row element\nvar links_in_row = document.evaluate(\n  ".//td/a[starts-with(text(),'Keyword')]",\n  row,\n  null,\n  XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE,\n  null\n);

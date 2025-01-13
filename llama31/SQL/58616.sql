@@ -1,1 +1,0 @@
-CREATE TABLE inventorycontrol (\n    ...\n    nodeID INT NOT NULL CHECK (nodeID > 0) IGNORE\n);

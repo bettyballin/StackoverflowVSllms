@@ -1,1 +1,0 @@
-var $list = $('#cyclelist');\nvar listItemCount = $list.find('li').length;\n\nif (listItemCount > 1) {\n  // ...\n}

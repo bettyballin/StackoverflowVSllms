@@ -1,1 +1,0 @@
-function isBehindProxy() {\n    $proxyHeaders = array(\n        'HTTP_X_FORWARDED_FOR',\n        'HTTP_CLIENT_IP',\n        'HTTP_VIA',\n        'HTTP_PROXY_CONNECTION'\n    );\n\n    foreach ($proxyHeaders as $header) {\n        if (isset($_SERVER[$header])) {\n            return true;\n        }\n    }\n\n    return false;\n}

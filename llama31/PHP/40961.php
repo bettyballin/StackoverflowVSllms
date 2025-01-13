@@ -1,1 +1,0 @@
-doSomethingWith((md5($_POST[$foo['bar']]) == $somemd5) ? md5($_POST[$foo['bar']]) : null);

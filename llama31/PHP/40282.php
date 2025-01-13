@@ -1,1 +1,0 @@
-echo '<script type="text/javascript">window.top.location="http://localhost/";</script>';\necho '<noscript><meta http-equiv="refresh" content="0;url=http://localhost/"></noscript>';

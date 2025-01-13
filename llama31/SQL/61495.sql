@@ -1,1 +1,0 @@
--- Not a SQL command, but a suggestion to explore connection pooling libraries

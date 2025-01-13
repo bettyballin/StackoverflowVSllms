@@ -1,1 +1,0 @@
-// Remove a specific element\nvar element = document.getElementById('specific-element');\nelement.parentNode.removeChild(element);

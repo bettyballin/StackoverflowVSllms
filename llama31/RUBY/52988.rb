@@ -1,1 +1,0 @@
-# in your edit_form partial (_edit_form.html.erb)\n<%= form_for(@asset) do |form| %>\n  <%= form.text_field :name %>\n  <%= form.text_area :description %>\n  <%= form.submit %>\n<% end %>

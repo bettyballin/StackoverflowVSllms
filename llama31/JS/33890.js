@@ -1,1 +1,0 @@
-$('a.button:not(:has(img))')

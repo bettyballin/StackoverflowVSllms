@@ -1,1 +1,0 @@
-$imagehtml = "'about:blank'";\necho "<a href='#' onclick=\"makewindows(".$imagehtml."); return false;\">Click for full description </a>";

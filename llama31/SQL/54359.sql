@@ -1,1 +1,0 @@
-DECLARE @sql nvarchar(max);\nSET @sql = 'SELECT * FROM ' + QUOTENAME('#Return_Records');\nEXEC sp_executesql @sql;

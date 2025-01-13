@@ -1,1 +1,0 @@
-// MyController.php\nclass MyController extends Zend_Controller_Action {\n    public function indexAction() {\n        $userType = $this->getRequest()->getParam('userType');\n        $gateway = new PersonGateway();\n        $person = PersonFactory::createPerson($userType, $gateway);\n        // use the $person object to perform business logic\n    }\n}

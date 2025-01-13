@@ -1,1 +1,0 @@
-function myObject(data) {\n  var myData = data;\n\n  this.doSomething = function() {\n    // Use myData here\n    alert("I did something!");\n  }\n}\n\nmyObject.prototypeAnotherMethod = function() {\n  // This method can't access myData directly\n  // But you can use a privileged method to access it\n  this.doSomething();\n}

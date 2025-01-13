@@ -1,1 +1,0 @@
-const html = 'bla bla bla long paragraph here<br/><br/>bla bla bla more paragraph text<br/><br/>';\n\nconst paragraphs = html.replace(/(.*?)(<br\/>)+/g, (match, p1) => {\n  return `<p>${p1.trim()}</p>`;\n});\n\nconsole.log(paragraphs);

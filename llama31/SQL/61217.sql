@@ -1,1 +1,0 @@
-WHILE condition LOOP\n  -- some code\n  IF condition THEN\n    -- some code\n    EXIT;\n  END IF;\n  -- some code\nEND LOOP;

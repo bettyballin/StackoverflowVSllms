@@ -1,1 +1,0 @@
-// User controller handles user-related actions\nclass UserController extends Controller {\n    public function action_login() {}\n    public function action_register() {}\n}\n\n// Payment controller handles payment-related actions\nclass PaymentController extends Controller {\n    public function action_process_payment() {}\n    public function action_handle_refund() {}\n}

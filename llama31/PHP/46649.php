@@ -1,1 +1,0 @@
-define('CONSTANT_VALUE', 1);\ndefine('ANOTHER_CONSTANT', 2);

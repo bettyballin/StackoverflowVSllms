@@ -1,1 +1,0 @@
-// In your application.ini or config file\nresources.db.table.metadata.cache = true\n\n// In your Bootstrap.php or a resource method\nprotected function _initDbTableCache() {\n    $db = Zend_Db::factory($this->getOption('db'));\n    Zend_Db_Table_Abstract::setDefaultMetadataCache($db->getCache());\n}

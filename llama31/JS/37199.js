@@ -1,1 +1,0 @@
-const myDiv = document.createElement('div');\nmyDiv.style.background = '#ffffff'; // default background color\n\n// set hover effect\nmyDiv.addEventListener('mouseover', () => {\n  myDiv.style.background = '#000000'; // hover background color\n});\n\nmyDiv.addEventListener('mouseout', () => {\n  myDiv.style.background = '#ffffff'; // default background color\n});

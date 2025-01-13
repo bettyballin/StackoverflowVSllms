@@ -1,1 +1,0 @@
-class BlahTest < ActiveSupport::TestCase\n  setup do\n    fixtures :all\n  end\n\n  # your test methods here\nend

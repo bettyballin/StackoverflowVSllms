@@ -1,1 +1,0 @@
-<PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|Win32'">\n  <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>\n</PropertyGroup>

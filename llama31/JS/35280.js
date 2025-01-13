@@ -1,1 +1,0 @@
-const div = document.getElementById('myid');\nconst attributeNames = div.getAttributeNames();\nattributeNames.forEach((attributeName) => {\n  const attributeValue = div.getAttribute(attributeName);\n  console.log(`${attributeName} = ${attributeValue}`);\n});

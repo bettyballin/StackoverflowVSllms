@@ -1,1 +1,0 @@
-import colorsys\n\ndef generate_unique_colors(n):\n    colors = []\n    hue_step = 1.0 / n\n    for i in range(n):\n        hue = i * hue_step\n        rgb = colorsys.hsv_to_rgb(hue, 1, 1)\n        colors.append((int(rgb[0] * 255), int(rgb[1] * 255), int(rgb[2] * 255)))\n    return colors

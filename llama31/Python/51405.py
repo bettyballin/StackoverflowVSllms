@@ -1,1 +1,0 @@
-points = equidistant_points(8, 1);

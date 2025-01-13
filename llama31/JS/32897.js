@@ -1,1 +1,0 @@
-var page = require('webpage').create();\npage.open('http://example.com', function() {\n  page.render('output.png');\n  phantom.exit();\n});

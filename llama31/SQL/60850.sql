@@ -1,1 +1,0 @@
-UPDATE cr\nSET cr.IsComplete = dbo.YourScalarFunction(yt.YourColumn)\nFROM CachedResults cr\nINNER JOIN YourTable yt ON cr.YourTableId = yt.YourTableId;

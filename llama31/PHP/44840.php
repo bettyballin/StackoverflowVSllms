@@ -1,1 +1,0 @@
-<?php   \n$test = $_POST['test'];\necho $test;\n?>

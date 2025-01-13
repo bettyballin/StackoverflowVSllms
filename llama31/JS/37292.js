@@ -1,1 +1,0 @@
-$.get("test.php", function(data){\n    var tempList = JSON.parse(data);\n    temp = tempList;\n    getList();\n});

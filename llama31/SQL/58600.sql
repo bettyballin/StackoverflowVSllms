@@ -1,1 +1,0 @@
-SELECT timeEvent \nFROM tbEvents \nWHERE CAST(startHour AS TIME) >= CAST(@startHour AS TIME)

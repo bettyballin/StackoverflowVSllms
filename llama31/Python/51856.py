@@ -1,1 +1,0 @@
-# myapp/admin.py\nfrom django.contrib import admin\nfrom myapp.models import MyModel\nfrom myapp.forms import MyModelForm\n\nclass MyModelAdmin(admin.ModelAdmin):\n    form = MyModelForm\n\nadmin.site.register(MyModel, MyModelAdmin)

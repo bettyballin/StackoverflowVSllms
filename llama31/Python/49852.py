@@ -1,1 +1,0 @@
-items = Something.objects.filter(x='y')\nfor item in items:\n    item.a = "something"\nSomething.objects.bulk_update(items, ['a'])

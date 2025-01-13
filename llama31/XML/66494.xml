@@ -1,1 +1,0 @@
-<system.webServer>\n  <rewrite>\n    <rules>\n      <rule name="Forms Auth Redirect" stopProcessing="true">\n        <match url="^Account/Login$" />\n        <action type="Redirect" url="/MVCapp/Account/Login" />\n      </rule>\n    </rules>\n  </rewrite>\n</system.webServer>

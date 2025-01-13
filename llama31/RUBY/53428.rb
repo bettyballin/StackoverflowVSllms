@@ -1,1 +1,0 @@
-# In your Capistrano recipe\nset :database_username, 'your_username'\nset :database_password, 'your_password'\n\n# In your database.yml\nusername: <%= ENV['DATABASE_USERNAME'] %>\npassword: <%= ENV['DATABASE_PASSWORD'] %>

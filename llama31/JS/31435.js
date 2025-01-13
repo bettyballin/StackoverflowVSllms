@@ -1,1 +1,0 @@
-var low = arr[0];\nvar high = arr[0];\nfor (i = 1; i < arr.length; i++) {\n    if (arr[i] > high) {\n        high = arr[i];\n    }\n    if (arr[i] < low) {\n        low = arr[i];\n    }\n}

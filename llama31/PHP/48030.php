@@ -1,1 +1,0 @@
-// Example using Google Authenticator\nrequire_once 'vendor/autoload.php';\n$authenticator = new \Google\Authenticator\GoogleAuthenticator();\n$secretKey = 'your_secret_key_here';\n$username = 'your_username_here';\n$authenticator->createSecretKey($username, $secretKey);

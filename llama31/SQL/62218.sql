@@ -1,1 +1,0 @@
-SELECT *\nFROM messages\nWHERE messageTime >= NOW() - INTERVAL 1 DAY;

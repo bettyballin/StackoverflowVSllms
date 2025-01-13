@@ -1,1 +1,0 @@
-UPDATE images\nSET filename = filename + '.jpg'\nWHERE id IN (1, 2, 3, 4, 5);

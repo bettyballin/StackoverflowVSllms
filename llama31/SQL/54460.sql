@@ -1,1 +1,0 @@
-CREATE TABLE Customers (\n    CustomerID INT PRIMARY KEY,\n    Name VARCHAR(255)\n);\n\nCREATE TABLE CustomerDetails (\n    CustomerID INT UNIQUE,\n    Address VARCHAR(255),\n    CONSTRAINT FK_CustomerDetails_Customers FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)\n);

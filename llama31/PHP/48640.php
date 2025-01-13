@@ -1,1 +1,0 @@
-$online = // retrieve the value from the database\nonline($online);

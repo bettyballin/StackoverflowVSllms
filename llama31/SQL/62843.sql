@@ -1,1 +1,0 @@
-SELECT * FROM table \nWHERE CONCAT(first_name, ' ', last_name) LIKE '%$search_term%';

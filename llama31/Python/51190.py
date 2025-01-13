@@ -1,1 +1,0 @@
-# Model/User.py (updated)\nfrom .base import BaseModel\n\nclass User(BaseModel):\n    def __init__(self, name, email, db):\n        super().__init__(db)\n        self.name = name\n        self.email = email\n\n    def get_user_data(self):\n        # Use the injected database instance to perform queries\n        self.db.query('SELECT * FROM users WHERE ...')

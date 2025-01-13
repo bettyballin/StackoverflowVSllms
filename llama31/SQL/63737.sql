@@ -1,1 +1,0 @@
-DECLARE @PageSize INT = 10;\nDECLARE @PageNumber INT = 1;\n\nSELECT TOP (@PageSize) *\nFROM (\n  SELECT TOP ((@PageNumber * @PageSize)) *\n  FROM YourTable\n  ORDER BY Operator, CustomerIdentifier, DateDisconnected\n) AS Subquery\nORDER BY Operator, CustomerIdentifier, DateDisconnected;

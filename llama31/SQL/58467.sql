@@ -1,1 +1,0 @@
-INSERT INTO my_table (id) VALUES (MySequence.NEXTVAL);

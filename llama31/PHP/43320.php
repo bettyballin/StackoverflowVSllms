@@ -1,1 +1,0 @@
-function autoload($class) {\n    $namespace = substr($class, 0, strrpos($class, '\\'));\n    $className = substr($class, strrpos($class, '\\') + 1);\n    $fileName = __DIR__ . '/' . str_replace('\\', '/', $namespace) . '/' . $className . '.php';\n    if (file_exists($fileName)) {\n        require $fileName;\n    }\n}\nspl_autoload_register('autoload');

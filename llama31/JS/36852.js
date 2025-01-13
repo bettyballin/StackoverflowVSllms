@@ -1,1 +1,0 @@
-function hideSpinner() {\n  document.getElementById('spinner').style.display = 'none';\n}

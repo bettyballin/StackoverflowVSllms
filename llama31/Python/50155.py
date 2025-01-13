@@ -1,1 +1,0 @@
-import numpy as np\nfrom skimage.metrics import structural_similarity as ssim\n\ndef fitness(image1, image2):\n    return ssim(image1, image2, multichannel=True)

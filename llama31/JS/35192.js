@@ -1,1 +1,0 @@
-var cookieValue = "Hello, World!";\nvar encryptedValue = CookieEncryptor.Encrypt(cookieValue);\n// Store the encrypted value in the cookie\n\n// Later...\nvar decryptedValue = CookieEncryptor.Decrypt(encryptedValue);\n// Use the decrypted value

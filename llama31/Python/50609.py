@@ -1,1 +1,0 @@
-class MyForm(forms.ModelForm):\n    class Meta:\n        model = MyModel\n        fields = ('file1', 'file2', 'folder')\n\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n        self.fields['folder'].widget = forms.HiddenInput()

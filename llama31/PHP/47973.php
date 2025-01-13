@@ -1,1 +1,0 @@
-header('Content-Disposition: attachment; filename="NASA.pdf"');\nheader('Content-Type: application/pdf');\nreadfile('http://history.nasa.gov/monograph15b.pdf');

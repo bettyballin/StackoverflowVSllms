@@ -1,1 +1,0 @@
-UPDATE tbl\nJOIN (\n    SELECT 'a-1' AS old_title, 'a1' AS new_title\n    UNION ALL\n    SELECT 'a.1', 'a1'\n    UNION ALL\n    SELECT 'b-1', 'b1'\n    UNION ALL\n    SELECT 'b.1', 'b1'\n) AS updates\nON tbl.title = updates.old_title\nSET tbl.title = updates.new_title;

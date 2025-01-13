@@ -1,1 +1,0 @@
-$query = "SELECT SQL_CALC_FOUND_ROWS * FROM your_table LIMIT 0, 10";\n$result = $mysqli->query($query);\n$total_rows = $mysqli->query("SELECT FOUND_ROWS()")->fetch_assoc()['FOUND_ROWS()'];

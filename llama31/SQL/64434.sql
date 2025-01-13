@@ -1,1 +1,0 @@
-CREATE PROCEDURE sp_canexecute\n    @storedProcedureName nvarchar(128),\n    @username nvarchar(128)\nAS\nBEGIN\n    EXECUTE AS USER = @username;\n    SELECT CASE WHEN EXISTS (\n        SELECT 1\n        FROM fn_my_permissions(@storedProcedureName, 'EXECUTE')\n    ) THEN 1 ELSE 0 END AS can_execute;\n    REVERT;\nEND;

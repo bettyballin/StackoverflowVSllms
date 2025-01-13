@@ -1,1 +1,0 @@
-Dim list As New List(Of Customer)\n\nlist.Add(New Customer(1, "A"))\nlist.Add(New Customer(2, "B"))\n\nDim customer As Customer = list.Find(Function(c) c.ID = 1)\n\nIf customer IsNot Nothing Then\n    Console.WriteLine(customer.Name) ' prints "A"\nEnd If

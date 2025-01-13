@@ -1,1 +1,0 @@
-SELECT REGEXP_REPLACE('can no pay{1},as your payment{2}due on {3}', \n                      '\{1\}|{2\}|{3\}', \n                      CASE \n                        WHEN '{1}' THEN 'value1'\n                        WHEN '{2}' THEN 'value2'\n                        WHEN '{3}' THEN 'value3'\n                      END,\n                      1, 0, 'c') \nFROM dual;

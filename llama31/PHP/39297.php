@@ -1,1 +1,0 @@
-$html = '<p>Some HTML code</p>\n         <p>More HTML code</p>';\n\n$html = remove_carriage_returns($html);

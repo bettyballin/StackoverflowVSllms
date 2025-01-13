@@ -1,1 +1,0 @@
-function strip($value) {\n    if (get_magic_quotes_gpc() == 0) {\n        return $value;\n    } else {\n        return stripslashes($value);\n    }\n}

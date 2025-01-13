@@ -1,1 +1,0 @@
-date_default_timezone_set('America/New_York'); // Set your desired timezone\n$mysqldate = date('Y-m-d H:i:s');

@@ -1,1 +1,0 @@
-CREATE TABLE Table1 (\n    Id INT PRIMARY KEY,\n    Title VARCHAR(50),\n    Description VARCHAR(200),\n    UpdatedAt DATETIME DEFAULT GETDATE()\n);\n\nUPDATE Table1\nSET Title = 'New title'\nWHERE Id = 1;\n\nSELECT UpdatedAt\nFROM Table1\nWHERE Id = 1;

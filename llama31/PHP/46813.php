@@ -1,1 +1,0 @@
-<?php\nrequire_once 'constants.php';\n\necho "Blah blah blah" . EL;\n?>

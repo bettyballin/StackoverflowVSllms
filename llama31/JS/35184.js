@@ -1,1 +1,0 @@
-// Client-side\npredicted_pos = predict_player_B_position();\n// Server-side\ncorrected_pos = correct_prediction(predicted_pos);\nsend_to_client(corrected_pos);

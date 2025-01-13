@@ -1,1 +1,0 @@
-var json = JSON.stringify({ countries: countries });

@@ -1,1 +1,0 @@
-$.get('/GetSummary?id=' + nextId, function (result) {\n    if (result) {\n        $('#memberList').fadeOut('slow', function (e) {\n            e.preventDefault();\n            $(this).html(result).fadeIn('slow');\n        });\n    }\n});

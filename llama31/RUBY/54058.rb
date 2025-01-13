@@ -1,1 +1,0 @@
-class SessionsController < ApplicationController\n  def create\n    # ...\n    session[:user_id] = User.generate_session_token(current_user.id)\n    # ...\n  end\nend\n\nclass User < ActiveRecord::Base\n  def self.generate_session_token(user_id)\n    # generate a secure token based on the user ID\n    # ...\n  end\nend

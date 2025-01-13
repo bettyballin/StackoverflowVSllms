@@ -1,1 +1,0 @@
-WITH RankedRows AS (\n  SELECT memID, foo, bar, foobar,\n         ROW_NUMBER() OVER (PARTITION BY memID ORDER BY foo) AS RowNum\n  FROM your_table\n  WHERE memID BETWEEN 0 AND 2\n)\nSELECT memID, foo, bar, foobar\nFROM RankedRows\nWHERE RowNum <= 3\nORDER BY memID, RowNum;

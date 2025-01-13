@@ -1,1 +1,0 @@
-header('Cache-Control: max-age=3600, public');

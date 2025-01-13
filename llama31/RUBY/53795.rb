@@ -1,1 +1,0 @@
-# app/controllers/comments_controller.rb\nclass CommentsController < ApplicationController\n  before_action :authorize, only: [:update, :destroy]\n\n  private\n\n  def authorize\n    @comment = Comment.find(params[:id])\n    if policy(@comment).update?\n      # Update comment logic here\n    else\n      render text: 'Unauthorized', status: :unauthorized\n    end\n  end\nend

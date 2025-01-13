@@ -1,1 +1,0 @@
-<java fork="false" spawn="false" classname="MyApp">\n    <arg value="-jar"/>\n    <arg value="MyApp.jar"/>\n</java>

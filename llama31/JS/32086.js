@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('#select').on('change', function() {\n    var selectedId = $(this).find('option:selected').attr('id');\n    var divId = 'form' + selectedId;\n    $('#' + divId).show();\n    $('[id^="form"]:not(#' + divId + ')').hide();\n  });\n});

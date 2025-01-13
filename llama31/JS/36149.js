@@ -1,1 +1,0 @@
-$(document).ready(function(){\n  var ajaxDelay = 1000;\n  var ids = ['111', '222', '333', '444', '555']; // add more IDs as needed\n\n  setInterval(function(){\n    $.each(ids, function(index, id){\n      $('#zone-' + id).load('ajax.php?refresh=hits&id=' + id);\n    });\n  }, ajaxDelay);\n});

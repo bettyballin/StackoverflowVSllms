@@ -1,1 +1,0 @@
-$.ajax({\n    // ...\n    contentType: 'application/json',\n    // ...\n});

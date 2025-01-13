@@ -1,1 +1,0 @@
-document.getElementById('submitsubform').addEventListener('click', function(event) {\n    event.preventDefault();\n    document.getElementById('subscribe_form').submit();\n});

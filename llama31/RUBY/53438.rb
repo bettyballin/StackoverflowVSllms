@@ -1,1 +1,0 @@
-class EntriesController < ApplicationController\n  def getcsv\n    @entries = Entry.all\n\n    respond_to do |format|\n      format.csv {\n        send_data(\n          @entries.to_csv,\n          type: 'text/csv',\n          disposition: 'attachment',\n          filename: 'entries.csv'\n        )\n      }\n    end\n  end\nend

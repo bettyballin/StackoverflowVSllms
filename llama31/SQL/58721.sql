@@ -1,1 +1,0 @@
-CREATE TABLE Item_Table_Instance OF Item_Table;\n\nINSERT INTO Item_Table_Instance (id, subitems)\nVALUES (1, Item_Table(Item_Ref(2), Item_Ref(3)));\n\nINSERT INTO Item_Table_Instance (id, subitems)\nVALUES (2, Item_Table(Item_Ref(4)));\n\nSELECT * FROM Item_Table_Instance;

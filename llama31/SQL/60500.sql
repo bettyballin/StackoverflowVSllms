@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE Name IN (\n  SELECT Name\n  FROM your_table\n  GROUP BY Name\n  HAVING COUNT(Name) >= 2\n);

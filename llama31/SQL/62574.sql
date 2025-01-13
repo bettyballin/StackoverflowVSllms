@@ -1,1 +1,0 @@
-SELECT col1, col2 INTO col_val, col2_val\nFROM (\n  SELECT col1, col2, 1 AS priority\n  FROM t1\n  WHERE REGEXP_LIKE(col1, name||'\s+'||code)\n  UNION ALL\n  SELECT col1, col2, 2 AS priority\n  FROM t1\n  WHERE NOT REGEXP_LIKE(col1, name||'\s+'||code) AND REGEXP_LIKE(col1, name)\n)\nORDER BY priority, col1;

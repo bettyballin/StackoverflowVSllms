@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE pop_records_from_queue(\n  p_queue_table  IN  VARCHAR2,\n  p_record_set  OUT SYS_REFCURSOR\n) AS\nBEGIN\n  OPEN p_record_set FOR\n    SELECT *\n    FROM queue_table\n    WHERE ...;  -- your condition to select records from the queue\n\n  DELETE FROM queue_table\n  WHERE ...;  -- same condition as above\nEND;\n/

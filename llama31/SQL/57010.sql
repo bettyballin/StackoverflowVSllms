@@ -1,1 +1,0 @@
-UPDATE bundles_denormalized\nSET category = (SELECT MAX(p.description)\n                FROM products p\n                WHERE p.bundle_id = b.id)\nFROM bundles_denormalized b

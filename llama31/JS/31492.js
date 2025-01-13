@@ -1,1 +1,0 @@
-const myObject = {\n  allVarsDefined: function() {\n    // your code here\n  },\n  myFunction: function() {\n    this.allVarsDefined();\n  }.bind(myObject) // bind the function to myObject\n}

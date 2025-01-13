@@ -1,1 +1,0 @@
-// Laravel example\nRoute::get('/{id}', 'VideoController@show');\n\n// Symfony example\nuse Symfony\Component\Routing\Annotation\Route;\n\n/**\n * @Route("/{id}", name="video_show")\n */\npublic function show($id)\n{\n    // Retrieve the video from the database using the $id\n}

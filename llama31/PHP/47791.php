@@ -1,1 +1,0 @@
-$arrayOfIds = [1, 2, 3, 4, 5];\n\n// Convert the array to a comma-separated string for safe placeholders\n$placeholders = implode(',', array_fill(0, count($arrayOfIds), '?'));\n\n$stmt = $pdo->prepare("UPDATE table SET column = 1 WHERE id IN ($placeholders)");\n\n// Execute, passing the IDs as an array of parameters\n$stmt->execute($arrayOfIds);

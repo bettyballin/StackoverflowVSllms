@@ -1,1 +1,0 @@
-// Bind the click event to all links on the page, including dynamically loaded content\n$(document).on("click", 'a', handleLinks);\n\n// Then, unbind the click event from the navbar links\n$(document).off("click", '#navbar a', handleLinks);

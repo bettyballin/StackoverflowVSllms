@@ -1,1 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">\n  <UsingTask TaskName="CustomTask.ModifyCsFiles" AssemblyFile="$(MSBuildThisFileDirectory)..\CustomTask.dll" />\n  <!-- ... -->\n</Project>

@@ -1,1 +1,0 @@
-SELECT * FROM user_post_counts WHERE user_id = 123;

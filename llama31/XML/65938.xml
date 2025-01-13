@@ -1,1 +1,0 @@
-<PropertyGroup>\n  <SomeDllPath>$(ProjectDir)..\Library\bin\$(Configuration)\SomeDll.dll</SomeDllPath>\n</PropertyGroup>\n\n<Target Name="CopySomeDll" AfterTargets="Build">\n  <Copy SourceFiles="$(SomeDllPath)" DestinationFiles="$(OutputPath)\SomeDll.dll" />\n</Target>

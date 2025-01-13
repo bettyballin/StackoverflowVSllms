@@ -1,1 +1,0 @@
-class MyClass {\n    private $someVar;\n\n    public function __construct($someVar) {\n        $this->someVar = $someVar;\n    }\n\n    function myFunction() {\n        if (isset($this->someVar)) {\n            // do something\n        }\n    }\n}\n\n$someExternalVar = true;\n$obj = new MyClass($someExternalVar);\n$obj->myFunction();

@@ -1,1 +1,0 @@
-$('.item_roll').mouseover(function() {\n  var id = $(this).data('id');\n  // Use the ID to load AJAX content\n  $.ajax({\n    url: '/tooltip-content',\n    data: { id: id },\n    success: function(data) {\n      // Show tooltip with loaded content\n    }\n  });\n});

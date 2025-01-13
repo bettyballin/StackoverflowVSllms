@@ -1,1 +1,0 @@
-// Client-side JavaScript\nvar xhr = new XMLHttpRequest();\nxhr.open('GET', '/proxy/api/data', true);\nxhr.onload = function() {\n  // Handle data\n};\nxhr.send();

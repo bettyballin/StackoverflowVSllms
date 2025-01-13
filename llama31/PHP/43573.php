@@ -1,1 +1,0 @@
-header('ETag: ' . md5_file($file_path));

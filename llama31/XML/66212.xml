@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <bindings>\n      <binding protocol="http" bindingInformation="*:80:internalportal" />\n    </bindings>\n  </system.webServer>\n</configuration>

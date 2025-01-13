@@ -1,1 +1,0 @@
-<configuration>\n  <appSettings configSource="web-dev.config" />\n  <!-- other configurations -->\n</configuration>

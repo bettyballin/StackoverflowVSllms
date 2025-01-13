@@ -1,1 +1,0 @@
-const iframe = document.getElementById('yourIframeId');\nconst xhr = new XMLHttpRequest();\nxhr.open('GET', iframe.src, true);\nxhr.onload = function() {\n  if (xhr.status === 200) {\n    iframe.srcdoc = xhr.responseText;\n  }\n};\nxhr.send();

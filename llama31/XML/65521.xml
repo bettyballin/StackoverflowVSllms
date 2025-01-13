@@ -1,1 +1,0 @@
-<system.web>\n    <httpHandlers>\n        <add verb="*" path="files/*" type="System.Web.HttpNotFoundHandler" />\n    </httpHandlers>\n</system.web>

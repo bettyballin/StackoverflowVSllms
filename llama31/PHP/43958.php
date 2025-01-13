@@ -1,1 +1,0 @@
-class My_View extends Zend_View_Abstract\n{\n    public function _($string)\n    {\n        return Zend_Registry::get('Zend_Translate')->_($string);\n    }\n}

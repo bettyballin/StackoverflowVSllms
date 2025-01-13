@@ -1,1 +1,0 @@
-import glob\n\ndirectory = '/path/to/your/folder'\npattern = '*tmp*.log'\n\nfiles = glob.glob(directory + '/' + pattern)\n\nfor file in files:\n    print(file)

@@ -1,1 +1,0 @@
-// Assuming your table has an ID of "myTable"\nvar table = document.getElementById("myTable");\ntable.style.width = "100%";

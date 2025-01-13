@@ -1,1 +1,0 @@
-UPDATE YourTable\nSET ColumnName = 'NewValue'\nWHERE ROW_NUMBER() OVER (ORDER BY (SELECT 1)) = Y

@@ -1,1 +1,0 @@
-Imports System.Web.Routing\n\nPublic Class Global_asax\n    Inherits HttpApplication\n\n    Sub Application_Start(sender As Object, e As EventArgs)\n        RegisterRoutes(RouteTable.Routes)\n    End Sub\nEnd Class

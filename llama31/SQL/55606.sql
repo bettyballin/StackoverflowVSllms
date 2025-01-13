@@ -1,1 +1,0 @@
-CREATE ASYMMETRIC KEY MyAsymmetricKey\nFROM FILE = 'path_to_public_key_file';

@@ -1,1 +1,0 @@
-import math\n\ndef solve():\n    max_line = 0\n    max_value = 0\n    with open('base_exp.txt', 'r') as f:\n        for i, line in enumerate(f):\n            base, exp = map(int, line.split(','))\n            value = exp * math.log(base)\n            if value > max_value:\n                max_value = value\n                max_line = i + 1\n    return max_line\n\nprint(solve())

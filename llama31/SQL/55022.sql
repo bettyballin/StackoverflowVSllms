@@ -1,1 +1,0 @@
-CASE\n    WHEN @TestVal <= 3 AND (SELECT ...) = 1 THEN 'Top 3 and Other Value'\n    WHEN @TestVal > 3 OR (SELECT ...) = 2 THEN 'Other Value 2'\n    ELSE 'Other'\nEND

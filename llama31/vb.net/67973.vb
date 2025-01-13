@@ -1,1 +1,0 @@
-If FontToolStripComboBox.SelectedItem IsNot Nothing Then\n    Dim selectedFontName As String = CStr(FontToolStripComboBox.SelectedItem)\n    Pad.SelectionFont = New System.Drawing.Font(selectedFontName, Font.Size, Font.Style)\nEnd If

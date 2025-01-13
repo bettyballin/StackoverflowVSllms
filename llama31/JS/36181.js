@@ -1,1 +1,0 @@
-const locations = [\n  { lat: 37.9153, lng: -122.2945, title: "El Cerrito, CA" },\n  { lat: 44.5682, lng: -123.2619, title: "Corvallis, OR" },\n  { lat: 35.7459, lng: -81.6853, title: "Morganton, NC" },\n  { lat: 40.7128, lng: -74.0060, title: "New York, NY" },\n  { lat: 32.7157, lng: -117.1611, title: "San Diego, CA" }\n];

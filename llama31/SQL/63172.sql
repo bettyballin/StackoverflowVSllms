@@ -1,1 +1,0 @@
-SELECT\n    p1.person_id AS target_person_id,\n    p2.person_id AS related_person_id,\n    p2.relationship_type_id\nFROM\n    people p1\nJOIN\n    people p2 ON p1.family_number = p2.family_number\n              AND p1.person_id != p2.person_id\n              AND p2.relationship_type_id = 1\nWHERE\n    p1.relationship_type_id = 1;

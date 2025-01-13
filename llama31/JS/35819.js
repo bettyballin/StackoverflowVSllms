@@ -1,1 +1,0 @@
-FB.init({\n  appId: 'YOUR_APP_ID',\n  status: true,\n  cookie: true,\n  xfbml: true\n});\n\n// Call this function whenever you want to refresh the session\nfunction refreshSession() {\n  FB.getLoginStatus(function(response) {\n    if (response.status === 'connected') {\n      FB.api('/me', function(response) {\n        // The session has been refreshed\n      });\n    }\n  });\n}

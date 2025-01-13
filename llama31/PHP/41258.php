@@ -1,1 +1,0 @@
-$mysqli = new mysqli("localhost", "username", "password", "database");\n\n// Perform the INSERT query\n$mysqli->query("INSERT INTO table (column) VALUES ('value')");\n\n// Get the ID of the last inserted row\n$id = $mysqli->insert_id;\n\necho "Last inserted ID: $id";

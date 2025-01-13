@@ -1,1 +1,0 @@
-$handle = fopen('CSV Address.csv', 'r');\n$data = array();\n\nwhile (($row = fgetcsv($handle, 1000, ",")) !== FALSE) {\n    $data[] = $row;\n}\n\nfclose($handle);\n\nprint_r($data);

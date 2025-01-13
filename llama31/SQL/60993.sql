@@ -1,1 +1,0 @@
--- Create a security predicate\nCREATE FUNCTION [myPredicate] (@ rowId INT) RETURNS TABLE\nWITH SCHEMABINDING\nAS\nRETURN SELECT 1 AS result\nWHERE SUSER_ID() = 'myUser';\nGO\n\n-- Apply the security predicate to a table\nCREATE SECURITY POLICY [myPolicy]\nADD FILTER PREDICATE [myPredicate]([rowId]) ON [myTable];\nGO

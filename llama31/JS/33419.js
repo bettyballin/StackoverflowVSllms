@@ -1,1 +1,0 @@
-var $li = $('#001');\nvar $ul = $li.closest('.myul');

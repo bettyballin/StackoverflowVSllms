@@ -1,1 +1,0 @@
-$req = new HttpRequest('https://example.com', 'POST');\n$req->setOptions(array('http' => array('header' => 'x-example-info: 2342342')));\n$req->setBody($var);\n$response = $req->send()->getBody();

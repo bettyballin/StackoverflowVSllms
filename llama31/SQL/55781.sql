@@ -1,1 +1,0 @@
-SHOW VARIABLES LIKE 'character_set_database';

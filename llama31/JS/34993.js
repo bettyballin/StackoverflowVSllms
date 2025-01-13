@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $(yourForm).submit(function(event) {\n    event.preventDefault();\n  });\n  $('#submitButton').click(function() {\n    $(yourForm).unbind('submit').submit();\n  });\n});

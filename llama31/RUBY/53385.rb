@@ -1,1 +1,0 @@
-class CreatePeople < ActiveRecord::Migration[6.0]\n  def change\n    create_table :people do |t|\n      t.string :login\n      t.string :password\n      t.string :first_name\n      t.string :last_name\n      t.references :profile, null: true, foreign_key: { to_table: :people }\n\n      t.timestamps\n    end\n  end\nend

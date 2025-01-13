@@ -1,1 +1,0 @@
-use PHPSpec\Specification;\n\nclass CalculatorSpec extends Specification\n{\n    function it_adds_numbers()\n    {\n        $calculator = new Calculator();\n        $result = $calculator->add(2, 2);\n        $this->shouldBe(4, $result);\n    }\n}

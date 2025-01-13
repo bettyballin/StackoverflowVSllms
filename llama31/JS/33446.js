@@ -1,1 +1,0 @@
-Ext.Ajax.request({\n    loadMask: true,\n    url: 'myfile.php',\n    params: {id: "1"},\n    success: function(response) {\n        var jsonData = Ext.decode(response.responseText);\n        var mymessages = jsonData.options;\n        // now mymessages contains the array of message objects\n        console.log(mymessages);\n    }\n});

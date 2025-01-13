@@ -1,1 +1,0 @@
-require_once 'Parsedown.php';\n\n$parser = new Parsedown();\n$text = 'Hello, **bold** and *italic* text!';\n$html = $parser->text($text);\n\necho $html;

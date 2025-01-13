@@ -1,1 +1,0 @@
-SET @Id = TRY_CONVERT(int, @Criteria);\nIF @Id IS NULL\n    RAISERROR ('Overflow occurred while converting @Criteria to int.', 16, 1);

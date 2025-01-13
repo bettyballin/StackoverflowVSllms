@@ -1,1 +1,0 @@
-DECLARE @PageSize INT = 10;\nDECLARE @PageIndex INT = 1;\n\nSELECT \n  TotalCount = (SELECT COUNT(*) FROM YourTable),\n  *\nFROM \n  YourTable\nORDER BY \n  YourColumn\nOFFSET (@PageIndex - 1) * @PageSize ROWS\nFETCH NEXT @PageSize ROWS ONLY;

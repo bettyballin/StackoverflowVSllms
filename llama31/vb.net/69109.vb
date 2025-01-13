@@ -1,1 +1,0 @@
-Dim htmlFilePath As String = Path.GetFullPath(Path.Combine(Application.StartupPath, "folder\index.html"))

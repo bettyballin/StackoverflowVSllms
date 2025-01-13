@@ -1,1 +1,0 @@
-Public Class A\n    Private _collection As New GenericCollection(Of A)\n\n    Public Sub AddToCollection(a As A)\n        _collection.Add(a)\n    End Sub\n\n    Public ReadOnly Property Collection As GenericCollection(Of A)\n        Get\n            Return _collection\n        End Get\n    End Property\nEnd Class

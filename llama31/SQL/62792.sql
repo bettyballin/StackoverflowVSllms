@@ -1,1 +1,0 @@
-SELECT \n  c1.Id, \n  c1.ParentId, \n  c1.Comment\nFROM \n  comments c1\n  LEFT JOIN comments c2 ON c1.Id = c2.ParentId\nORDER BY \n  COALESCE(c2.ParentId, c1.Id), \n  c1.ParentId

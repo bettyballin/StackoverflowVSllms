@@ -1,1 +1,0 @@
-from selenium import webdriver\n\ndriver = webdriver.Firefox(headless=True)\ndriver.get('http://example.com')\nhtml = driver.page_source\n# Use BeautifulSoup or lxml to parse the HTML\nfrom bs4 import BeautifulSoup\nsoup = BeautifulSoup(html, 'html.parser')\n# Manipulate the DOM tree using BeautifulSoup\nprint(soup.title.text)\ndriver.quit()

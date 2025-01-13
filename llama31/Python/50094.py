@@ -1,1 +1,0 @@
-import os\nfrom twilio.rest import Client\n\n# Your Account SID and Auth Token from twilio.com/console\naccount_sid = "your_account_sid"\nauth_token  = "your_auth_token"\nclient = Client(account_sid, auth_token)\n\nmessage = client.messages.create(\n    to="+1234567890", \n    from_="+9876543210",\n    body="Hello from Python!")\n\nprint(message.sid)

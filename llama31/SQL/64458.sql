@@ -1,1 +1,0 @@
-CREATE TABLE RULE_VALUES (\n    RULE_ID INT,\n    COLUMN_NAME VARCHAR(10),\n    VALUE INT\n);\n\n-- Insert values for each column\nINSERT INTO RULE_VALUES (RULE_ID, COLUMN_NAME, VALUE) VALUES (1, 'A', 50);\n\n-- Check which rules match\nSELECT r.* FROM RULES r\nJOIN RULE_VALUES rv ON r.ID = rv.RULE_ID\nWHERE rv.COLUMN_NAME = 'A' AND rv.VALUE = :a;

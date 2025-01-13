@@ -1,1 +1,0 @@
-select FLOOR(@value * 100) / 100.0

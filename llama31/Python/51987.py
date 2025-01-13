@@ -1,1 +1,0 @@
-import gtk\n\n# Create a window\nwindow = gtk.Window()\n\n# Add an accelerator for F5\nwindow.add_accelerator("activate", gtk.keysyms.F5, 0, 0)

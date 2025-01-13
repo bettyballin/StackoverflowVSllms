@@ -1,1 +1,0 @@
-import ldap\n\nl = ldap.initialize('LDAP://example.com')\nm = l.simple_bind_s(username@example.com, password)\n\nif m[0] == 97:  # LDAP_SUCCESS\n    print("Authentication successful")\nelse:\n    print("Authentication failed with code", m[0])

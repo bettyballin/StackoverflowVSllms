@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("SELECT *, MATCH (column_name) AGAINST (? IN BOOLEAN MODE) AS score FROM table_name WHERE MATCH (column_name) AGAINST (? IN BOOLEAN MODE) ORDER BY score DESC");\n$stmt->bind_param("ss", $search_query, $search_query);\n$search_query = 'apple iphone applications';\n$stmt->execute();\n$result = $stmt->get_result();

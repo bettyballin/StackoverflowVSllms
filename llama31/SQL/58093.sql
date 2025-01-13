@@ -1,1 +1,0 @@
-CREATE TABLE mytable (\n    updated_by int,\n    created_by int,\n    FOREIGN KEY (updated_by) REFERENCES user(id),\n    FOREIGN KEY (created_by) REFERENCES user(id)\n);

@@ -1,1 +1,0 @@
-header("Location: https://www." . $_SESSION['domainname']);

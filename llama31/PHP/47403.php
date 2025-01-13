@@ -1,1 +1,0 @@
-$q = FoobarQuery::create()\n    ->addCond('created_at', 'DATE_SUB(curdate(), INTERVAL 1 MONTH)', Criteria::GREATER_THAN)\n;

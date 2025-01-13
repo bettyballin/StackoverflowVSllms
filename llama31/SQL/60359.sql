@@ -1,1 +1,0 @@
-ALTER TABLE your_table ADD DisplayOrder FLOAT;

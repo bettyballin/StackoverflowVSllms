@@ -1,1 +1,0 @@
-User.includes(:roles).where('roles.id != ?', Role[:admin].id)

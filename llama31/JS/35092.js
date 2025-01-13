@@ -1,1 +1,0 @@
-window.addEventListener('beforeunload', function() {\n  // Pause polling\n});

@@ -1,1 +1,0 @@
-UPDATE #tempTable\nSET latest_date = (SELECT MAX(d) FROM (VALUES (date1), (date2), (date3)) AS dates(d))

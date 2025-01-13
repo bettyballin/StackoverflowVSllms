@@ -1,1 +1,0 @@
-$comment_author = htmlspecialchars($comment_author, ENT_QUOTES, 'UTF-8');

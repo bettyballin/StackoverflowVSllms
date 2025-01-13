@@ -1,1 +1,0 @@
-// Add this to your function to debug in IE\nfunction checkAvailability(){\n    try {\n        // your code here\n    } catch (e) {\n        alert("Error: " + e.description);\n    }\n}

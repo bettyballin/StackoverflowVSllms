@@ -1,1 +1,0 @@
-public function fetchObject($psClassname = "", $paParams = array()) {\n    $lrResource = $this->mrQueryResource;\n    $liResult = array(); // Initialize an empty array\n    while ($row = mysql_fetch_object($lrResource, $psClassname, $paParams)) {\n        $liResult[] = $row; // Append the object to the array\n    }\n    return $liResult;\n}

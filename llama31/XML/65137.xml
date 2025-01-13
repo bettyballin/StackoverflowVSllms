@@ -1,1 +1,0 @@
-<configuration>\n  <appSettings>\n    <add key="WebServiceUrl" value="http://new-location.com/your-webservice.asmx" />\n  </appSettings>\n</configuration>

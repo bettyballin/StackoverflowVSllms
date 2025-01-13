@@ -1,1 +1,0 @@
-this.dependentProperties = []; // array\n\nfunction addDependentProperty(depName, depValue) {\n    dependentProperties.push({ name: depName, value: depValue });\n}

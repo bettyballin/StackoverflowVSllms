@@ -1,1 +1,0 @@
-<jboss-app>\n    <module-order>strict</module-order>\n    <interceptors>\n        <interceptor class="com.yourcompany.DBMSApplicationInfoInterceptor"/>\n    </interceptors>\n</jboss-app>

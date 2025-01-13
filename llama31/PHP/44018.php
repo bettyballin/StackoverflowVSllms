@@ -1,1 +1,0 @@
-function get_facebook_status($access_token) {\n   $graph_url = "https://graph.facebook.com/me/feed?access_token=" . $access_token;\n   $json_feed = json_decode(file_get_contents($graph_url), true);\n   $latest_status = $json_feed['data'][0]['message'];\n   return $latest_status;\n}

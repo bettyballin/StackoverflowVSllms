@@ -1,1 +1,0 @@
-<?php\nif (@ini_set('display_errors', '1')) {\n    echo 'ini_set() is enabled';\n} else {\n    echo 'ini_set() is disabled';\n}

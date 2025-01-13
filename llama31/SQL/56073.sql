@@ -1,1 +1,0 @@
-SELECT * FROM OPENQUERY(OracleLinkedServer, 'SELECT * FROM dual')

@@ -1,1 +1,0 @@
-WHERE m.definition LIKE '%INSERT INTO YourTableName (%' \n   OR m.definition LIKE '%UPDATE YourTableName SET %'

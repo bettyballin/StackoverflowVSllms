@@ -1,1 +1,0 @@
-$(document).ajaxError(function(event, xhr, settings, thrownError) {\n  console.log("Error: " + thrownError);\n});

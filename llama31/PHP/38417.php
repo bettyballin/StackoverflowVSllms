@@ -1,1 +1,0 @@
-use PhpOffice\PhpSpreadsheet\Spreadsheet;\nuse PhpOffice\PhpSpreadsheet\Reader\Xlsx;\n\n// Load the Excel file\n$spreadsheet = new Spreadsheet();\n$reader = new Xlsx();\n$spreadsheet = $reader->load("path/to/excel/file.xlsx");\n\n// Evaluate a formula\n$worksheet = $spreadsheet->getActiveSheet();\n$cell = $worksheet->getCell('A1');\n$formula = $cell->getValue();\necho $formula;

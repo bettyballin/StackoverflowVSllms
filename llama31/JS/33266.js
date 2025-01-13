@@ -1,1 +1,0 @@
-$("#div_id")\n  .data("foo", 1)\n  .data("bar", 2);

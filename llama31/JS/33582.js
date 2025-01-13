@@ -1,1 +1,0 @@
-var selectedValue = $("#myForm :radio:checked").val();

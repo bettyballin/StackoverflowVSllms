@@ -1,1 +1,0 @@
-Dim base64Hash As String = Convert.ToBase64String(TheData!Hash)\nDim sQuery0 As String = "Hash='" & base64Hash & "'"\nDim ResultRows As DataRow() = dt.Select(sQuery0)

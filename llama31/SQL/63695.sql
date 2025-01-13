@@ -1,1 +1,0 @@
-GRANT CREATE TABLE ON CLUSTER userB.cluster_name TO userA;

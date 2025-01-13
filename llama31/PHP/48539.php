@@ -1,1 +1,0 @@
-$rsArr[$i]['userId'] = $row['userId'];\n$rsArr[$i]['item'] = $row['item'];\n$rsArr[$i]['amount'] = $row['amount'];\n$rsArr[$i]['position'] = $row['position'];

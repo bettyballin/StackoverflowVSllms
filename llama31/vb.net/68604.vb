@@ -1,1 +1,0 @@
-Protected Overrides Sub OnPaint(e As PaintEventArgs)\n    MyBase.OnPaint(e)\n    Dim caption As String = Me.GetType().Name & " v" & Me.GetType().Assembly.GetName().Version.ToString()\n    e.Graphics.DrawString(caption, Me.Font, Brushes.Black, 0, 0)\nEnd Sub

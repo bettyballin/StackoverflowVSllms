@@ -1,1 +1,0 @@
-SELECT \n  t1.custid,\n  t1.ordid,\n  t1.qty,\n  t1.datesold,\n  t2.ordid AS prev_ordid,\n  t2.qty AS prev_qty,\n  t2.datesold AS prev_datesold\nFROM \n  your_table t1\n  LEFT JOIN your_table t2\n    ON t1.custid = t2.custid\n    AND t2.datesold = (SELECT MAX(datesold) FROM your_table WHERE custid = t1.custid AND datesold < t1.datesold)\nORDER BY \n  t1.custid, t1.datesold;

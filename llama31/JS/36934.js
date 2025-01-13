@@ -1,1 +1,0 @@
-const articleId = link.getAttribute('data-article-id');

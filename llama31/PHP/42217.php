@@ -1,1 +1,0 @@
-function today(){\n    $day = array("Lunes","Martes","Miércoles","Jueves","Viernes","Sábado","Domingo");\n    $d = date("N");\n    echo $day[$d-1]; // date("N") returns the day of the week as a number (1-7)\n}\n\ntoday();

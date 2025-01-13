@@ -1,1 +1,0 @@
-GRANT SELECT ON Stuff TO magnus AS WebFacing;

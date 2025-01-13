@@ -1,1 +1,0 @@
-Dim driverProxy As wsDrivers.Driver = mywebserviceinstance.GetDriverByID(1)\nDim driver As New Driver()\n\ndriver.DriverID = driverProxy.DriverID\ndriver.Name = driverProxy.Name\n' ... map other properties as needed

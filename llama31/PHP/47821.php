@@ -1,1 +1,0 @@
-$mil = 1227643821310;\n$dt = new DateTime("@".intval($mil / 1000));\necho $dt->format("d-m-Y");

@@ -1,1 +1,0 @@
-MERGE INTO data d\nUSING (SELECT 'someid' as id, 'testKey' as key, 'someValue' as value FROM dual) s\nON (d.id = s.id AND d.key = s.key)\nWHEN MATCHED THEN\n    UPDATE SET d.value = s.value\nWHEN NOT MATCHED THEN\n    INSERT (id, key, value) VALUES (s.id, s.key, s.value);

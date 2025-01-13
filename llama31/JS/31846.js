@@ -1,1 +1,0 @@
-$(document).ready(function(){\n    $('#myInputElement').on('change', function(){\n        var newvalue = $(this).val();\n        var oldvalue = $(this).data('previous-value');\n        $(this).data('previous-value', newvalue);\n        // do something with oldvalue and newvalue\n    });\n});

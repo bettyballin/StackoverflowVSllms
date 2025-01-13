@@ -1,1 +1,0 @@
-CREATE TABLE users (\n    id INT PRIMARY KEY,\n    username VARCHAR(255),\n    password VARBINARY(20) // SHA-1 hash is 20 bytes long\n);

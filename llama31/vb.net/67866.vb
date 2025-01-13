@@ -1,1 +1,0 @@
-Private Sub Form_Load()\n    \n    Dim rst As Recordset\n    Dim sql As String\n    \n    sql = "Select [ID], [Ln] From [Order Detail] Where [ID] = " & Forms![Order Data Entry Header]![ID]\n    \n    Set rst = CurrentDb.OpenRecordset(sql)\n    \n    rst.MoveLast\n    Forms![Order Data Entry Header].LineNum = rst![Ln]\n    \nEnd Sub

@@ -1,1 +1,0 @@
-' Explicit typing\nDim s1 As String = New String("Hello")\n\n' Implicit typing (type inference)\nDim s2 As New String("Hello")

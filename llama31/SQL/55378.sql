@@ -1,1 +1,0 @@
-CREATE TABLE purchase_orders (\n  ...\n  address_snapshot JSONB  -- or TEXT, depending on your needs\n);

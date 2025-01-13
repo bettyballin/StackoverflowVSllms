@@ -1,1 +1,0 @@
-$route['Hotel/(:num)/RoomAvailability/(:num)'] = 'Hotel/RoomAvailability/$1/$2';

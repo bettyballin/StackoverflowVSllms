@@ -1,1 +1,0 @@
-$key = array_keys($_GET);\necho $key[0];

@@ -1,1 +1,0 @@
-SELECT * \nFROM msdb.dbo.sysdtspackages \nWHERE name = 'YourPackageName';

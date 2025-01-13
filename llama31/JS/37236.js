@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('ol li').each(function() {\n    var $this = $(this);\n    $this.prepend('<span class="list-number">' + ($this.index() + 1) + '. </span>');\n  });\n  \n  $(document).on('copy', function(e) {\n    var selectedText = window.getSelection().toString();\n    if (selectedText.includes('. ')) {\n      e.preventDefault();\n    }\n  });\n});

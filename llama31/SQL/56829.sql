@@ -1,1 +1,0 @@
-CREATE TABLE AuditLog (\n    AuditID INT IDENTITY(1,1) PRIMARY KEY,\n    TableName VARCHAR(50),\n    RecordID INT,\n    FieldName VARCHAR(50),\n    OldValue VARCHAR(200),\n    NewValue VARCHAR(200),\n    ChangedBy VARCHAR(50),\n    ChangedDate DATETIME DEFAULT GETDATE()\n);

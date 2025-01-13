@@ -1,1 +1,0 @@
-SELECT *\nFROM table1, table2\nWHERE table1.column(+) = table2.column;

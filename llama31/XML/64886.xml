@@ -1,1 +1,0 @@
-<client>\n  <endpoint address="net.tcp://primaryserver:8080/MyService"\n            binding="netTcpBinding" \n            contract="MyServiceContract"\n            name="MyService">\n    <backupList>\n      <add address="net.tcp://failoverserver:8080/MyService"/>\n    </backupList>\n  </endpoint>\n</client>

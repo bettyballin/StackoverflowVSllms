@@ -1,1 +1,0 @@
--- Check CPU usage\nSELECT cpu_count, cpu_usage FROM sys.dm_os_sys_info;\n\n-- Check disk usage\nSELECT * FROM sys.dm_io_virtual_file_stats;\n\n-- Check query plans\nSELECT * FROM sys.dm_exec_query_stats;

@@ -1,1 +1,0 @@
-echo <<<HTML\n<p>This is some HTML output.</p>\nHTML;

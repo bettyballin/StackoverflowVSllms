@@ -1,1 +1,0 @@
-const observer = new MutationObserver(() => {\n  const loadedElements = document.querySelectorAll('*').length;\n  const remainingElements = totalElements - loadedElements;\n  console.log(`${loadedElements} objects loaded, ${remainingElements} ones remain!`);\n});\n\nobserver.observe(document.body, {\n  childList: true,\n  subtree: true,\n});

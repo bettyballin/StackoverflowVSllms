@@ -1,1 +1,0 @@
-include ('AClass.php');\n\nclass Auto_Cart {\n    private $aclass;\n\n    function __construct() {\n       $this->aclass = new AClass();\n    }\n\n    function DoSomething() {\n       $this->aclass->amemberfunction();   \n    }\n}

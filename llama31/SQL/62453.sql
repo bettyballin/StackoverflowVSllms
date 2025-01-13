@@ -1,1 +1,0 @@
-SELECT \n  'Currently, ' || (SELECT COUNT(*) FROM V$SESSION) || ' out of ' || (SELECT VALUE FROM V$PARAMETER WHERE NAME = 'sessions') || ' connections are used' AS CONNECTION_STATUS\nFROM \n  DUAL;

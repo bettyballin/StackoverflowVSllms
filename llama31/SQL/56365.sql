@@ -1,1 +1,0 @@
-CREATE TABLE events (\n  id SERIAL PRIMARY KEY,\n  title VARCHAR(255),\n  start_date DATE,\n  end_date DATE,\n  user_id INTEGER,\n  -- other fields...\n);

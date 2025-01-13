@@ -1,1 +1,0 @@
-CREATE TABLE referrals (\n  id INT PRIMARY KEY,\n  referrer_id INT,\n  referred_id INT,\n  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);\n\nCREATE TABLE users (\n  id INT PRIMARY KEY,\n  username VARCHAR(255),\n  email VARCHAR(255)\n);

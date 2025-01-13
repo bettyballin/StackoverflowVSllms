@@ -1,1 +1,0 @@
-<application path="/" applicationPool="PS-Extranet">\n    <virtualDirectory path="/" physicalPath="%SystemDrive%\inetpub\wwwroot" userName="ApplicationPoolIdentity" />\n</application>

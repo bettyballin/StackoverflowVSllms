@@ -1,1 +1,0 @@
-$phar = new Phar('archive.phar');\n$phar->addFile('file1.php');\n$phar->addFile('file2.php');\n$phar->addFile('file3.php');\n$phar->compressFiles(Phar::GZ);

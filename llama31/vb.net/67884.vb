@@ -1,1 +1,0 @@
-Private Declare Function CoUninitialize Lib "ole32" () As Long\n\nSub UnloadControl()\n    CoUninitialize\nEnd Sub

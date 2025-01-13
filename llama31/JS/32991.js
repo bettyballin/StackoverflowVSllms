@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('#myForm').ajaxForm({\n        success: function(data) {\n            $('#updateArea').html(data);\n        }\n    });\n});

@@ -1,1 +1,0 @@
-TIME = CONVERT(VARCHAR(6), timecolumn, 108)

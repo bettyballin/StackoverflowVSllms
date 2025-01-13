@@ -1,1 +1,0 @@
-// In your button's handler function\nvar grid = Ext.getCmp('yourGridId'); // Replace 'yourGridId' with the actual ID of your grid\nvar columnModel = grid.getColumnModel();\nvar columnCount = columnModel.getColumnCount();

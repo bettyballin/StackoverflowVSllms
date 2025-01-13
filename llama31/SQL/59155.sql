@@ -1,1 +1,0 @@
-DECLARE @year INT = 2009;\nDECLARE @month INT = 1;\n\nSELECT \n    p.UserId, \n    p.Tags, \n    p.CommentCount, \n    p.Status,  \n    p.PostDate, \n    p.[Content], \n    p.Title, \n    p.PostId, \n    u.DisplayName \nFROM  \n    dbo.Post p\nINNER JOIN\n    dbo.[User] u ON p.UserId = u.UserId \nWHERE \n    YEAR(p.PostDate) = @year\n    AND MONTH(p.PostDate) = @month;

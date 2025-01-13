@@ -1,1 +1,0 @@
-public function view($id)\n{\n    $data = $this->getData($id);\n    if (!$this->isOwner($data)) {\n        $this->setAction('error', 'You are not authorized to access this data');\n    }\n    // ...\n}

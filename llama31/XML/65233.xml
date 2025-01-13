@@ -1,1 +1,0 @@
-<rule id="ignore-attribute-scroll" severity="IGNORE">\n  <selector>body[scroll]</selector>\n</rule>\n<rule id="ignore-attribute-embed" severity="IGNORE">\n  <selector>embed[quality], embed[bgcolor], embed[width], embed[height], embed[name], embed[align], embed[play], embed[loop], embed[allowScriptAccess], embed[type], embed[pluginspage]</selector>\n</rule>

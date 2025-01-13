@@ -1,1 +1,0 @@
-<bean id="securityContext" class="com.example.SecurityContextProxy" />

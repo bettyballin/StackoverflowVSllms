@@ -1,1 +1,0 @@
-function applyStyles() {\n  // Add styles using .css()\n  $('#myTable tr:odd').css('background-color', '#f2f2f2');\n  \n  // Or add a class using .addClass()\n  $('#myTable tr:odd').addClass('odd-row');\n}

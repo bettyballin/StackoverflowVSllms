@@ -1,1 +1,0 @@
-CREATE TABLE my_table (\n    guid RAW(16)\n);

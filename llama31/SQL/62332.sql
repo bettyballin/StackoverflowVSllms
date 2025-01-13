@@ -1,1 +1,0 @@
-SELECT ROW_NUMBER() OVER (ORDER BY column_name) AS row_index, column_name\nFROM table_name

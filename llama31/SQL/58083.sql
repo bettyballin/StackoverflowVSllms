@@ -1,1 +1,0 @@
-SELECT Date, User, Status, Notes\nFROM (\n  SELECT Date, User, Status, Notes,\n         ROW_NUMBER() OVER (PARTITION BY User ORDER BY Date DESC) AS rn\n  FROM YourTable\n) AS subquery\nWHERE rn = 1;

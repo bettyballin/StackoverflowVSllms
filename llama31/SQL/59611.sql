@@ -1,1 +1,0 @@
-DECLARE\n  surname VARCHAR2(50) := 'O''Keefe';\nBEGIN\n  SELECT * FROM PEOPLE WHERE SURNAME = :surname;\nEND;

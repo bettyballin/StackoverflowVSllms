@@ -1,1 +1,0 @@
-import json\n\nwith open('labels.json') as f:\n    labels = json.load(f)\n\n# Usage:\nprint(labels['height'])  # Output: Height (cm)

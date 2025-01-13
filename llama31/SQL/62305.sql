@@ -1,1 +1,0 @@
-SELECT \n  n.*,\n  GROUP_CONCAT(c.* SEPARATOR ',') AS comments\nFROM \n  news n\n  LEFT JOIN comments c ON c.news_id = n.id\nGROUP BY \n  n.id;

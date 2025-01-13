@@ -1,1 +1,0 @@
-$tplContent = '{foreach from=$tabMethodTest item=entry}\n    /**\n     * @todo Implement test{$entry.name}().\n     */\n    public function test{$entry.name}() {\n        $this->markTestIncomplete("This test has not been implemented yet.");\n    }\n{/foreach}';\n\npreg_match_all('/{foreach.*?}(.*?)\{\/foreach}/s', $tplContent, $regsTplResult);\n\nprint_r($regsTplResult[1]);

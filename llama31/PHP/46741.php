@@ -1,1 +1,0 @@
-class Color {\n    private function __construct() {}\n\n    const RED = 1;\n    const GREEN = 2;\n    const BLUE = 3;\n\n    public static function isValid($value) {\n        return in_array($value, [self::RED, self::GREEN, self::BLUE]);\n    }\n}

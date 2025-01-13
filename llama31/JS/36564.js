@@ -1,1 +1,0 @@
-var uniqueId = $.data(currentElement, 'uniqueId');\nif (!uniqueId) {\n  uniqueId = Math.floor(Math.random() * 1000000);\n  $.data(currentElement, 'uniqueId', uniqueId);\n}

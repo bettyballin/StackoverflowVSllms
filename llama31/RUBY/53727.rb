@@ -1,1 +1,0 @@
-def create\n  if request.xhr?\n    # respond to AJAX request\n  else\n    # respond to normal POST request\n  end\nend

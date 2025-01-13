@@ -1,1 +1,0 @@
-$queryString = $_SERVER['QUERY_STRING'];\n$queryParams = array();\n$parts = explode('&', $queryString);\n\nforeach ($parts as $part) {\n    list($key, $value) = explode('=', $part);\n    $key = urldecode($key);\n    $value = urldecode($value);\n    $queryParams[$key] = $value;\n}\n\n// Print the query parameters\nprint_r($queryParams);

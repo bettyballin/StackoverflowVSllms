@@ -1,1 +1,0 @@
-class MyDispatcher extends Zend_Controller_Dispatcher_Standard\n{\n    public function formatModuleName($moduleName)\n    {\n        return ucfirst($moduleName);\n    }\n}

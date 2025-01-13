@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <handlers>\n      <remove name="ASPNET-ISAPI-1.1-4322" />\n    </handlers>\n  </system.webServer>\n</configuration>

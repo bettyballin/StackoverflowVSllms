@@ -1,1 +1,0 @@
-SELECT *\nFROM TableA\nLEFT JOIN TableB\n  ON TableA.fld1 = TableB.fld2\n  AND TableB.fld4 = false\nWHERE TableA.fld3 = True

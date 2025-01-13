@@ -1,1 +1,0 @@
-function validateForm() {\n    var selectElement = document.getElementsByName("<%= key %>")[0];\n    if (selectElement.value === "ETC") {\n        alert("Please select an option.");\n        return false;\n    }\n    return true;\n}

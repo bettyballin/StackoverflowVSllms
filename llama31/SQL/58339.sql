@@ -1,1 +1,0 @@
-insert into TEST values (153, 'test', 'test', 1, 1, 1.11, 1.11)

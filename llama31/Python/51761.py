@@ -1,1 +1,0 @@
-def my_view(request):\n    custom_var = request.META.get('HTTP_CUSTOM_VAR')\n    # do something with custom_var

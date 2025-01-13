@@ -1,1 +1,0 @@
-// Client-side example using JavaScript and WebSocket\nvar ws = new WebSocket('ws://example.com/updates');\nws.onmessage = function(event) {\n  console.log(event.data);\n};

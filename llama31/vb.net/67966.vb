@@ -1,1 +1,0 @@
-If myEntity.employee.Any(Function(e) e.employeeID = myEmployeeIDVariable) Then\n    Dim r = myEntity.employee.First(Function(e) e.employeeID = myEmployeeIDVariable)\n    ' ... do stuff ...\nEnd If

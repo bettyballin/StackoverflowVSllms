@@ -1,1 +1,0 @@
-sajax_request_type = 'post';\nsajax_init();

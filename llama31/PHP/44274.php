@@ -1,1 +1,0 @@
-$compressed = gzcompress('large_file.xml', 9);\n$chunks = str_split($compressed, 8192);\nforeach ($chunks as $chunk) {\n    echo $chunk;\n    flush();\n}

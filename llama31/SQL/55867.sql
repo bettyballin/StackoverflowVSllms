@@ -1,1 +1,0 @@
--- Example of creating a spatial table in PostGIS\nCREATE TABLE cities (\n  id SERIAL PRIMARY KEY,\n  name VARCHAR(50),\n  location GEOMETRY(POINT, 4326)\n);\n\n-- Example of inserting a spatial record in PostGIS\nINSERT INTO cities (name, location)\nVALUES ('New York', ST_GeomFromText('POINT(-74.0060 40.7128)', 4326));

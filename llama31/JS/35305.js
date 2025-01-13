@@ -1,1 +1,0 @@
-// Handle incoming WebSocket messages\nws.onmessage = function(event) {\n  if (event.data === 'new_message') {\n    playBeep();\n  }\n};

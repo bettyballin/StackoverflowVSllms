@@ -1,1 +1,0 @@
-SELECT TO_CHAR(your_column, 'FM99999.00') FROM your_table;

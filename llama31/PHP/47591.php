@@ -1,1 +1,0 @@
-$headers = "From: myaddress@mydomain.com" . "\r\n".\n           "X-Mailer: PHP/".phpversion() ."\r\n".\n           "MIME-Version: 1.0" . "\r\n".\n           "Content-Type: multipart/alternative; boundary=--$boundary\r\n".\n           "Content-Transfer-Encoding: 7bit". "\r\n";

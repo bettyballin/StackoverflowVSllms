@@ -1,1 +1,0 @@
-from collections import OrderedDict\n\nstate_dict = OrderedDict([\n    ("ALABAMA", "AL"),\n    ("ALASKA", "AK"),\n    ("WYOMING", "WY")\n])\n\nfor key, value in state_dict.items():\n    print(f"The abbreviation for {key} is {value}")

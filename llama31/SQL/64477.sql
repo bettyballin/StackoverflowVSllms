@@ -1,1 +1,0 @@
-DECLARE\n  v_return_value INTEGER;\nBEGIN\n  v_return_value := orm_helper.orm_helper.SaveShipment(9999, 31896, NULL, '');\n  DBMS_OUTPUT.PUT_LINE(v_return_value);\nEND;

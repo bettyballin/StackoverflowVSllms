@@ -1,1 +1,0 @@
-CREATE INDEX idx_a_status_did ON a (status, did);

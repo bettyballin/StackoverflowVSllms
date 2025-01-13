@@ -1,1 +1,0 @@
-$file = 'counter.txt';\n$counter = (int) file_get_contents($file);\n$counter++;\nfile_put_contents($file, $counter, LOCK_EX);

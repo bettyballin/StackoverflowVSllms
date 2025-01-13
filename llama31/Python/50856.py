@@ -1,1 +1,0 @@
-from sqlalchemy import func\n\n# assuming 'session' is your SQLAlchemy session\nresult = session.query(YourTable).order_by(func.random()).limit(1).first()

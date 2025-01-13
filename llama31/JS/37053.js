@@ -1,1 +1,0 @@
-// Add the report server URL to the Trusted Sites zone\nvar shell = new ActiveXObject("WScript.Shell");\nshell.RegWrite("HKCU\\Software\\Microsoft\\Internet Explorer\\Trusted Sites\\http://server", "http://server", "REG_SZ");

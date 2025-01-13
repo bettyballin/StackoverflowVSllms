@@ -1,1 +1,0 @@
-SELECT * \nFROM 'C:\Logs\IIS\*.log' \nWHERE c-ip = '192.168.1.100' \n  AND cs-uri-stem = '/path/to/your/file.ashx'

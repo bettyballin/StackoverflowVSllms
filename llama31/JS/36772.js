@@ -1,1 +1,0 @@
-var tableA = getID("tableA");\nvar tableB = getID("tableB");\n\n// Clear TableA contents\nwhile (tableA.firstChild) {\n  tableA.removeChild(tableA.firstChild);\n}\n\n// Clone TableB contents and append to TableA\nvar clone = tableB.cloneNode(true);\ntableA.appendChild(clone);

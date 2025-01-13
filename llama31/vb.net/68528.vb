@@ -1,1 +1,0 @@
-app.UseRouting();\napp.UseEndpoints(Function(builder)\n    builder.MapControllerRoute(name:="default", pattern:="{controller=Home}/{action=Index}/{id?}")\nEnd Function)

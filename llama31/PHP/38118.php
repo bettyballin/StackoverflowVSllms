@@ -1,1 +1,0 @@
-if (isset($_SESSION['user_id'])) {\n    // Session exists, proceed with authenticated user\n} else {\n    // Session does not exist, redirect to login page\n}

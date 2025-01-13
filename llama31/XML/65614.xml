@@ -1,1 +1,0 @@
-<configuration>\n  <system.messaging>\n    <triggers>\n      <add name="ConnectionPoolTrigger" type="System.Messaging.Trigger" />\n    </triggers>\n  </system.messaging>\n</configuration>

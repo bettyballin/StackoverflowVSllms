@@ -1,1 +1,0 @@
-$record = mysql_fetch_array($queryResult);\necho date('Y-m-d', strtotime($record['post_date']));

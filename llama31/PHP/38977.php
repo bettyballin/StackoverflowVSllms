@@ -1,1 +1,0 @@
-pg_connect($connection_str, PGSQL_CONNECT_FORCE_NEW, PGSQL_CONNECT_ASYNC);

@@ -1,1 +1,0 @@
-$log_data = htmlspecialchars($log_data, ENT_QUOTES, 'UTF-8');

@@ -1,1 +1,0 @@
-$contents = $i->getContents();\n$id = $contents['id'];

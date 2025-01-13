@@ -1,1 +1,0 @@
-CREATE TABLE NewTable (\n    NewColumn DataType,\n    ExistingColumn1 DataType,\n    ExistingColumn2 DataType,\n    ...\n);\n\nINSERT INTO NewTable (NewColumn, ExistingColumn1, ExistingColumn2, ...)\nSELECT NULL, ExistingColumn1, ExistingColumn2, ...\nFROM YourTable;\n\nDROP TABLE YourTable;\n\nEXEC sp_rename 'NewTable', 'YourTable';

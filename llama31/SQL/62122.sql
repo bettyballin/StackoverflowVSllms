@@ -1,1 +1,0 @@
-UPDATE customers\nJOIN (\n  SELECT customerid, COUNT(*) as order_count\n  FROM orders\n  GROUP BY customerid\n) AS order_counts\nON customers.customerid = order_counts.customerid\nSET customers.ordercount = customers.ordercount + order_counts.order_count

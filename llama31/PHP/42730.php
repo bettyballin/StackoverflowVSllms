@@ -1,1 +1,0 @@
-$result = preg_replace('/href="(?!(http|https):\/\/)/', 'href="bla?id=', $result);

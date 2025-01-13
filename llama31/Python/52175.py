@@ -1,1 +1,0 @@
-print(mytext, flush=True)

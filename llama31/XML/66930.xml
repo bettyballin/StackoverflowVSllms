@@ -1,1 +1,0 @@
-<system.web>\n    <httpHandlers>\n        <add verb="*" path="trace.axd" type="YourNamespace.TraceLogger, YourAssembly"/>\n    </httpHandlers>\n</system.web>

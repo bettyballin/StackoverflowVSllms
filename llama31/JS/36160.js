@@ -1,1 +1,0 @@
-var divsArray = $('[id^="triger"]').get();\nconsole.log(divsArray); // plain array of div elements

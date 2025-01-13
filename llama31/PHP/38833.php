@@ -1,1 +1,0 @@
-// MySQLi\n$mysqli->close();\n\n// PDO\n$pdo = null;

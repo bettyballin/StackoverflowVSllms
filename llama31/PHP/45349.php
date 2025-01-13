@@ -1,1 +1,0 @@
-$name = trim(fgets($file));

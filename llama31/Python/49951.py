@@ -1,1 +1,0 @@
-print(0b1010)  # Output: 10\nprint(0B1100)  # Output: 12

@@ -1,1 +1,0 @@
-$headers = get_headers($url, 1);

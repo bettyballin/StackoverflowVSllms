@@ -1,1 +1,0 @@
-const userAgent = navigator.userAgent;\nconst osInfo = userAgent.match(/(Windows|Macintosh|Linux|Android|iOS)/);\nif (osInfo) {\n  console.log(osInfo[0]);\n}

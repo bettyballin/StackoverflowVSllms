@@ -1,1 +1,0 @@
-a.to_s == b.to_s rescue false

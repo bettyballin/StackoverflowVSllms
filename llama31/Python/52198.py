@@ -1,1 +1,0 @@
-def reverse_words(s):\n    return ' '.join(word[::-1] for word in s.split())\n\nprint(reverse_words("my string"))  # prints "ym gnirts"

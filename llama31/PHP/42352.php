@@ -1,1 +1,0 @@
-$postData = $_POST;\n$sessionData = $_SESSION;\n$cookieData = $_COOKIE;\n\n$user = new Account($whatever, $objects, $we, $depend, $on);\nif ($user->login($postData, $sessionData, $cookieData)) {\n    // Do this stuff when logged in\n}

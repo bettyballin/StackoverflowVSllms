@@ -1,1 +1,0 @@
-SELECT p.page_title\nFROM (\n  SELECT DISTINCT rev_page, MAX(rev_timestamp) AS max_timestamp\n  FROM revision\n  WHERE rev_user = {$userId} AND rev_page_namespace = 0\n  GROUP BY rev_page\n  ORDER BY max_timestamp DESC\n  LIMIT 3\n) AS subquery\nJOIN page p ON p.page_id = subquery.rev_page

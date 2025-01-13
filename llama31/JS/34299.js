@@ -1,1 +1,0 @@
-<script>\n  var img = new Image();\n  img.src = 'https://your-server.com/track-open.gif';\n</script>

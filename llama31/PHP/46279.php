@@ -1,1 +1,0 @@
-$string = '...your string...';\n$regex = '/(.*\s\d{4})/i';\n$parts = preg_split($regex, $string, -1, PREG_SPLIT_DELIM_CAPTURE | PREG_SPLIT_NO_EMPTY);\n\nprint_r($parts);

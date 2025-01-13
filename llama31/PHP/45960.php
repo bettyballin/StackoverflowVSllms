@@ -1,1 +1,0 @@
-$xml_content = get_url("http://www.e24.se/?service=rss&type=latest");\n\n$dom = new DOMDocument();\n@$dom->loadXML($xml_content);\n$xpath = new DomXPath($dom);\n$results = $xpath->query('//channel/title/text()');\n\nforeach ($results as $result) {\n    echo $result->nodeValue . "<br />";\n}

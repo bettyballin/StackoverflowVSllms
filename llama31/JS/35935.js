@@ -1,1 +1,0 @@
-var myFunction = function(x, y) {\n  console.log(x + y);\n};\n\n// later, call the function with parameters\nmyFunction(2, 3); // outputs 5

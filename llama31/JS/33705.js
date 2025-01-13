@@ -1,1 +1,0 @@
-const express = require('express');\nconst app = express();\n\napp.get('/users/:id', (req, res) => {\n  const id = req.params.id;\n  // fetch user data from database or cache\n  res.json({ name: 'John Doe', email: 'john.doe@example.com' });\n});\n\napp.listen(3000, () => {\n  console.log('Server listening on port 3000');\n});

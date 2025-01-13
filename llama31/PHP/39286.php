@@ -1,1 +1,0 @@
-$vars = get_defined_vars();\nforeach ($vars as $varname => $value) {\n    echo "<b>$varname</b> = $value <br/>";\n}

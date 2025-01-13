@@ -1,1 +1,0 @@
-var unc = '\\\\server\\d$\\x\\y\\z\\AAA';\nvar url = unc.replace(/^\\\\([^\\]+)\\d\$\x\\y\\z\\/, 'http://$1/z/');\nconsole.log(url); // outputs: http://server/z/AAA

@@ -1,1 +1,0 @@
-$name = str_replace("\r", "\n", fgets($file));

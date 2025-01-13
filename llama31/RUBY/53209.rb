@@ -1,1 +1,0 @@
-module FooModule\n  def bar\n    puts 'bar'\n  end\nend\n\nclass Foo\n  include FooModule\n  extend FooModule\nend\n\nFoo.bar  # prints "bar"\nFoo.new.bar  # prints "bar"

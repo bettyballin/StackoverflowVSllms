@@ -1,1 +1,0 @@
-<configuration>\n    <runtime>\n        <shadowCopy>\n            <directory path="C:\ShadowCopy" />\n        </shadowCopy>\n    </runtime>\n</configuration>

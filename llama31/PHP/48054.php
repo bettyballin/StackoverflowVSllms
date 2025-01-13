@@ -1,1 +1,0 @@
-class DB {\n    private $config;\n\n    public function __construct($config) {\n        $this->config = $config;\n    }\n\n    private function _connectToDB() {\n        $dbUsername = $this->config['dbUserName'];\n        // ...\n    }\n}

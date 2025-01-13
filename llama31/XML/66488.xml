@@ -1,1 +1,0 @@
-<class name="Lab">\n  <composite-id>\n    <key-property name="Department" type="string" />\n    <key-property name="LabID" type="int" />\n  </composite-id>\n  <!-- other properties -->\n  <set name="Employees" table="Employee" generic="true" inverse="true">\n    <key column="Department" property-ref="Department" />\n    <one-to-many class="Employee" />\n  </set>\n</class>

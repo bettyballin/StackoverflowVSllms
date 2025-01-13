@@ -1,1 +1,0 @@
-function reloadUpdatePanel() {\n    __doPostBack('<%= UpdatePanel1.ClientID %>', '');\n}

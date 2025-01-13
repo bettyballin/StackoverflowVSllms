@@ -1,1 +1,0 @@
-document.addEventListener('keydown', function(event) {\n  if (event.key === 'F5') {\n    event.preventDefault();\n    window.location.href = 'https://example.com/home-page';\n  }\n});

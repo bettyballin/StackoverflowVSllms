@@ -1,1 +1,0 @@
-amed_scope :has_wives_named, lambda { |names|\n  { :conditions => ["EXISTS (SELECT 1 FROM wives WHERE wives.name IN (?)) AND EXISTS (SELECT 1 FROM wives WHERE wives.name IN (?)) AND EXISTS (SELECT 1 FROM wives WHERE wives.name IN (?))", names, names, names] }\n}

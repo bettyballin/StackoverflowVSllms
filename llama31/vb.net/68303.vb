@@ -1,1 +1,0 @@
-Imports System.Threading.Tasks\n\nPublic Class MyClass\n    Public Async Function MyMethodAsync() As Task\n        ' Do some work\n        Await Task.Delay(1000)\n        ' Do some more work\n    End Function\nEnd Class

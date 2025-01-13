@@ -1,1 +1,0 @@
-from voluptuous import Schema, Invalid\n\nclass User(Base):\n    __tablename__ = 'users'\n    email = Column(String)\n\n    @validates('email')\n    def validate_email(self, key, email):\n        schema = Schema(lambda v: v if "@" in v else Invalid("Invalid email address"))\n        return schema(email)

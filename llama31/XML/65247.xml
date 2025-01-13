@@ -1,1 +1,0 @@
-<tc:config>\n  <tc:partial-replication>\n    <tc:field name="user floats" replicate-period="1000"/>\n  </tc:partial-replication>\n</tc:config>

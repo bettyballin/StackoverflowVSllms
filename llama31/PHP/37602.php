@@ -1,1 +1,0 @@
-$tempFile = tempnam(sys_get_temp_dir(), 'image');\nmove_uploaded_file($_FILES['image']['tmp_name'], $tempFile);\n$_SESSION['image_path'] = $tempFile;

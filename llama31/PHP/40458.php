@@ -1,1 +1,0 @@
-$sql = 'SELECT TABLE_ROWS FROM information_schema.TABLES WHERE TABLE_NAME = "friend_user_photo"';\n$query = executeQuery($sql);\n$row = mysql_fetch_assoc($query);\n$rowcount = $row['TABLE_ROWS'];

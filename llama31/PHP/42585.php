@@ -1,1 +1,0 @@
-echo $this->formElementArray('element', null, null, array(1 => '', 2 => ''));

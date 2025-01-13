@@ -1,1 +1,0 @@
-<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">\n    <property name="basename" value="validation-messages"/>\n</bean>

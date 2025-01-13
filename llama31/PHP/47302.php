@@ -1,1 +1,0 @@
-echo <<<EOT\n<p>i remember a while ago i used a method like this to print out content so i didnt have to use slashes every time i had to use a quotation.</p>\n\n<pre><code>\nsome text here "and more text"\n\nsomething;\n</code></pre>\n\n<p>what was that called? and how did it look</p>\n\n<p>thanks</p>\n\n<p>this im gonna write down :p</p>\nEOT;

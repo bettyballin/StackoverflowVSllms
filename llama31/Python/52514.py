@@ -1,1 +1,0 @@
-import sys\n\nn = (2**32)**2\nli = []\n\n# Storing references to the same object\nfor i in range(10**7):\n    li.append(n)\n\nprint(sys.getsizeof(li))  # prints approximately 40000048\n\nli = []\n\n# Creating new objects for each iteration\nfor i in range(10**7):\n    li.append(i**2)\n\nprint(sys.getsizeof(li))  # prints approximately 80000048

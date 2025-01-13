@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n  SELECT *, ROW_NUMBER() OVER (ORDER BY seq_nr, entry_dts) AS row_num\n  FROM cool_table\n  WHERE date >= TO_DATE('200901010000', 'YYYYMMDDhh24mi')\n)\nWHERE row_num <= 50;

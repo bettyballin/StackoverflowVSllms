@@ -1,1 +1,0 @@
-SELECT HEX(blob_column) AS blob_data FROM your_table;

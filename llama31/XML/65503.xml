@@ -1,1 +1,0 @@
-<system.serviceModel>\n  <serviceHostingEnvironment>\n    <host allowInsecureUri="true" />\n  </serviceHostingEnvironment>\n</system.serviceModel>

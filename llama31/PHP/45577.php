@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("SELECT * FROM tblProducts WHERE ProductId = ? \n                          UNION \n                          SELECT * FROM tblProducts WHERE Cat = ? AND Type = ?");\n$stmt->bind_param("sss", $SCId, $CatType, $TypeType);\n$stmt->execute();\n$result = $stmt->get_result();

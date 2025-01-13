@@ -1,1 +1,0 @@
-def sqrt_babylonian(n, tolerance=1e-6):\n    guess = n / 2\n    while True:\n        better_guess = (guess + n / guess) / 2\n        if abs(guess - better_guess) < tolerance:\n            return better_guess\n        guess = better_guess

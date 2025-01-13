@@ -1,1 +1,0 @@
-def get_pid\n  File.read('/proc/self/stat').split(' ')[0]\nend\n\npid = get_pid\nputs "PID: #{pid}"

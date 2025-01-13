@@ -1,1 +1,0 @@
-SELECT Id, Title, Comments, CreatedDate\nFROM (\n  SELECT TOP X Id, Title, Comments, CreatedDate\n  FROM MyTable\n  WHERE CreatedDate > @OlderThanDate\n  ORDER BY CreatedDate ASC\n) AS subquery\nORDER BY CreatedDate DESC;

@@ -1,1 +1,0 @@
-// script1.php\n$file = 'example.txt';\n$fp = fopen($file, 'w');\nfwrite($fp, 'Hello, world!');\nfclose($fp);\n\n// script2.php\n$file = 'example.txt';\n$fp = fopen($file, 'w');\nfwrite($fp, ' Foo bar!');\nfclose($fp);

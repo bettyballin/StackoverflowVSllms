@@ -1,1 +1,0 @@
-DBCC PAGE ('your_database_name', 'your_table_name', 'your_page_number');

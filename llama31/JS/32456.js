@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('[id^="show"]').click(function() {\n    var id = $(this).attr('id').replace('show', 'item');\n    $('.' + id).toggle(1000);\n    return false;\n  });\n});

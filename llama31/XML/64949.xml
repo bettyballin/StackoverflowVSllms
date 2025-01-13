@@ -1,1 +1,0 @@
-<tiles-definitions>\n  <definition name="base" template="/base.jsp">\n    <put-attribute name="content" value="/content.jsp" />\n  </definition>\n</tiles-definitions>

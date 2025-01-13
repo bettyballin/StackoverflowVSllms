@@ -1,1 +1,0 @@
-include_once 'slug_map.php';\n   $slug = $_GET['slug'];\n   $postId = $slugMap[$slug] ?? null;\n   if ($postId) {\n       // Proceed with the known post ID\n   } else {\n       // Handle unknown slug\n   }

@@ -1,1 +1,0 @@
-from sklearn.feature_extraction.text import TfidfVectorizer\n\ndef extract_keywords(title):\n    vectorizer = TfidfVectorizer()\n    tfidf = vectorizer.fit_transform([title])\n    return vectorizer.get_feature_names()

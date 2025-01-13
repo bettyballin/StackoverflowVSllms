@@ -1,1 +1,0 @@
-$sql = "SELECT * FROM (\n  SELECT * FROM $db_table \n  ORDER BY $datetime DESC \n  LIMIT 100\n) AS subquery \nORDER BY rand() \nLIMIT 1";\n\n$query = mysql_query($sql);\n\nwhile($row = mysql_fetch_array($query)) {\n  echo "".$row['familyname']."";\n}

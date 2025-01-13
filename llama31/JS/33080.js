@@ -1,1 +1,0 @@
-function OnClientSelectedIndexChanged(sender, args) {\n    var panel = $find("<%= RadAjaxPanel1.ClientID %>");\n    var combobox = $find("<%= ComboBox1.ClientID %>");\n    var selectedValue = combobox.get_selectedValue();\n\n    if (selectedValue) {\n        panel.addCssClass("warning");\n    } else {\n        panel.removeCssClass("warning");\n    }\n}

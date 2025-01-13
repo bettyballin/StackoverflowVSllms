@@ -1,1 +1,0 @@
-$str = '%'.$_POST['search'].'%';\n$query = $db->prepare("SELECT * FROM comments WHERE comment LIKE :search");\n$query->bindParam(':search', $str);\n$query->execute();

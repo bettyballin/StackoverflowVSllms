@@ -1,1 +1,0 @@
-SELECT /*+ NO_MERGE */ a, b, expensive_procedure(c)\nFROM (\n  SELECT a, b, c, d\n  FROM example\n  WHERE <the_where_clause>\n  ORDER BY d\n);

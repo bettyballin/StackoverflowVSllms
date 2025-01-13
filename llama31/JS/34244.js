@@ -1,1 +1,0 @@
-function parseClassNames(element) {\n  const classNames = element.className.split(' ');\n  const data = {};\n\n  classNames.forEach(className => {\n    if (className.startsWith('id-')) {\n      const parts = className.substring(3).split('-');\n      data[parts[0]] = parts[1];\n    }\n  });\n\n  return data;\n}

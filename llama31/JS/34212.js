@@ -1,1 +1,0 @@
-<script>\n    $(document).ready(function () {\n        $('#Button1').click(function () {\n            $('#Table1').hide();\n            $('#Table2').show();\n        });\n    });\n</script>

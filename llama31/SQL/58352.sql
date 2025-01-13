@@ -1,1 +1,0 @@
-SET FOREIGN_KEY_CHECKS = 0;\n-- Import your data here\nSET FOREIGN_KEY_CHECKS = 1;

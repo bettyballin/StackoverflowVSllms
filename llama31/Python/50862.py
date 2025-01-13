@@ -1,1 +1,0 @@
-import json\n\n# Create a dictionary\nd = {"abc": [1, 2, 3], "qwerty": [4, 5, 6]}\n\n# Save it to a file\nwith open("data.json", "w") as f:\n    json.dump(d, f)\n\n# Load it from the file\nwith open("data.json", "r") as f:\n    loaded_d = json.load(f)\n\nprint(loaded_d)  # prints: {'abc': [1, 2, 3], 'qwerty': [4, 5, 6]}

@@ -1,1 +1,0 @@
-from difflib import SequenceMatcher\n\n# Define phrases\nphrase1 = 'This is a test phrase'\nphrase2 = 'This is another test phrase'\n\n# Calculate similarity\nsimilarity = SequenceMatcher(None, phrase1, phrase2).ratio()\n\nprint(similarity)

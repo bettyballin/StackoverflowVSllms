@@ -1,1 +1,0 @@
-CREATE TABLE #temp (\n    COLUMN_NAME nvarchar(128)\n);\n\nINSERT INTO #temp\nEXEC sp_columns 'tblSomeTableName';\n\nSELECT COLUMN_NAME FROM #temp;\n\nDROP TABLE #temp;

@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <caching>\n      <profiles>\n        <add name="CssJsFiles" duration="2592000" location="Client" />\n      </profiles>\n    </caching>\n  </system.web>\n</configuration>

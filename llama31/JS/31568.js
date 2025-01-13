@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $.ajax({\n    type: 'GET',\n    url: '/check-login-status',\n    success: function(response) {\n      if (response.isLoggedIn) {\n        // Display username\n        $('#username').html(response.username);\n      } else {\n        // Display username/password input\n        $('#login-form').show();\n      }\n    }\n  });\n});

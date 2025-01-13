@@ -1,1 +1,0 @@
-class Contact(db.Model):\n    name = db.StringProperty()\n    organizations = db.ListProperty(db.Key)

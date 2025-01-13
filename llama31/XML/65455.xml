@@ -1,1 +1,0 @@
-<endpointBehaviors>\n  <behavior name="WebAPILibrary.WebAPIBehavior">\n    <enableWebScript/>\n    <webHttp defaultBodyStyle="Wrapped" defaultOutgoingResponseFormat="Json"/>\n  </behavior>\n</endpointBehaviors>

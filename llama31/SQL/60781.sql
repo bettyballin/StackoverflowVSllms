@@ -1,1 +1,0 @@
-DECLARE @id INT\nSELECT @id = id FROM myTable WHERE name = ?

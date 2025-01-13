@@ -1,1 +1,0 @@
-' Example using Ranorex\nDim repo As New Ranorex.Repository\nrepo.Navigate "http://your-legacy-app.com"\nrepo.FindElement("id=someElement").Click ' VBScript will be executed

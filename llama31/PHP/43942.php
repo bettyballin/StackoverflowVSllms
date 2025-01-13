@@ -1,1 +1,0 @@
-$article_Desc = htmlspecialchars($row['article_Desc']);\necho '<div id="popup-content">'.$article_Desc.'</div>';

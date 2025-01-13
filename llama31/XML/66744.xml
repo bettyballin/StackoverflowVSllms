@@ -1,1 +1,0 @@
-<rewrite>\n  <rules>\n    <rule name="DomainAliasRule" stopProcessing="true">\n      <match url="(.*)" />\n      <conditions>\n        <add input="{HTTP_HOST}" pattern="^domainAlias\.co\.za$" />\n      </conditions>\n      <action type="Rewrite" url="/domainAlias/{R:0}" />\n    </rule>\n  </rules>\n</rewrite>

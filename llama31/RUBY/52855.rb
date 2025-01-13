@@ -1,1 +1,0 @@
-amespace :session do\n  desc "Clear cookie-based session store"\n  task clear: :environment do\n    Rails.application.config.session_store :cookie_store, key: '_new_session_key'\n  end\nend

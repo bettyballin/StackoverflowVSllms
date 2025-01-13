@@ -1,1 +1,0 @@
-preg_match_all("/\[\[([^\]]*)\]\]/", $data, $matches, PREG_OFFSET_CAPTURE);

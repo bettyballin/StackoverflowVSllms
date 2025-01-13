@@ -1,1 +1,0 @@
-DECLARE\n  x NUMBER := 1;\n  y NUMBER := 0;\nBEGIN\n  IF (x > 0) OR (y / 0 > 0) THEN\n    DBMS_OUTPUT.PUT_LINE('Short-circuit evaluation');\n  END IF;\nEND;

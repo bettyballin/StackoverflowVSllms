@@ -1,1 +1,0 @@
-if (!function_exists('lcfirst')) {\n    function lcfirst($str) {\n        return strtolower($str[0]) . substr($str, 1);\n    }\n}

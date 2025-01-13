@@ -1,1 +1,0 @@
-SELECT Blah FROM TableName WHERE (StringField = 'value')

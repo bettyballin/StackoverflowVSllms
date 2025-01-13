@@ -1,1 +1,0 @@
-echo (array('a','b','c'))[$key];

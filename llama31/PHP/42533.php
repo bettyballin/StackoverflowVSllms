@@ -1,1 +1,0 @@
-$utf16_hex_string = "R\00f6dhakev\00e4gen 4\nR\00e4ntm\00e4starv\00e4gen 24\nK\00d8BENHAVN";\n\n$utf8_string = iconv('UTF-16LE', 'UTF-8', $utf16_hex_string);\n\necho $utf8_string;

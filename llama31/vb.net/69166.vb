@@ -1,1 +1,0 @@
-' My.Computer.FileSystem.MoveFile (VB.NET specific)\nMy.Computer.FileSystem.MoveFile(sourceFileName, destinationFileName)\n\n' File.Move (standard .NET method)\nSystem.IO.File.Move(sourceFileName, destinationFileName)

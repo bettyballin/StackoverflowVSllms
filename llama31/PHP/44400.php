@@ -1,1 +1,0 @@
-function fetchdata($pointer, $method, $superglobals) {\n    if (isset($superglobals[$method][$pointer])) {\n        return $superglobals[$method][$pointer];\n    }\n    return false;\n}

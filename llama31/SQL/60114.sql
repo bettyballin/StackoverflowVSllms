@@ -1,1 +1,0 @@
-ALTER TABLE your_table_name CHANGE your_field_name your_field_name INT AUTO_INCREMENT;

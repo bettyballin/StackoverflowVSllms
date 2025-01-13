@@ -1,1 +1,0 @@
-from windmill.authoring import setup_module, teardown_module\nfrom windmill.authoring import WindmillTestClient\n\ndef test_example(wtc: WindmillTestClient):\n    wtc.open("https://www.example.com")\n    wtc.type("username", "username")\n\nsetup_module()\nteardown_module()

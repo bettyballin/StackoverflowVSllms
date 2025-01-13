@@ -1,1 +1,0 @@
-<a href='http://server.com/unsubscribe.php?email=".$row1['EmailId']."'>Unsubscribe me</a>

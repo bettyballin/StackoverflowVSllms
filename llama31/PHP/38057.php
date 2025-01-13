@@ -1,1 +1,0 @@
-function performTask() {\n    try {\n        // Perform the task\n        // ...\n    } catch (Exception $e) {\n        // Handle the exception\n        echo "Task timed out: " . $e->getMessage() . "\n";\n    }\n}

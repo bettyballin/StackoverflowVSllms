@@ -1,1 +1,0 @@
-Option Infer On\n\nDim foo = New Whatever()

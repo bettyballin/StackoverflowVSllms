@@ -1,1 +1,0 @@
-SELECT id, \n       REPLACE(SYS_CONNECT_BY_PATH(codes, ','), ',', ', ') AS codes\nFROM (\n  SELECT id, codes, ROW_NUMBER() OVER (PARTITION BY id ORDER BY codes) AS row_num\n  FROM your_table\n) AS subquery\nWHERE row_num = 1\nGROUP BY id\nORDER BY id;

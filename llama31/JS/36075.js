@@ -1,1 +1,0 @@
-res.header('Cache-Control', 'no-cache');\nres.send('your response data');

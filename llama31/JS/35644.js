@@ -1,1 +1,0 @@
-$("#el").on("mouseover", ".del", function() {\n  $(this).css("cursor", "pointer");\n});

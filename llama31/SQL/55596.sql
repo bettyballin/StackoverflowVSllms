@@ -1,1 +1,0 @@
-DECLARE xmlDoc TEXT;\nSET xmlDoc = '<parent><child>Example 1</child><child>Example 2</child></parent>';\n\nSELECT \n  child_value\nFROM \n  UNNEST(ExtractValue(xmlDoc, '//child') AS child_value);

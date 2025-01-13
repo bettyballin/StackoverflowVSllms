@@ -1,1 +1,0 @@
-var resp = JSON.parse(transport.responseText);\nfor (var error in resp.errors) {\n  if (resp.errors.hasOwnProperty(error)) {\n    alert(resp.errors[error].name);\n  }\n}

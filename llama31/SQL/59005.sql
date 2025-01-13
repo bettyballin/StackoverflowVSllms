@@ -1,1 +1,0 @@
-CREATE TABLE events_pending (\n  id INT PRIMARY KEY,\n  event_id INT,  -- reference to the original event\n  name VARCHAR,\n  start_date DATETIME,\n  guest INTEGER,\n  changed_by INT,  -- user ID who made the change\n  changed_at TIMESTAMP,  -- timestamp of the change\n  status VARCHAR(20)  -- e.g., "pending", "approved", "rejected"\n);

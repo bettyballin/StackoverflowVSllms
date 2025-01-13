@@ -1,1 +1,0 @@
-WP_Http_ExtHTTP::test();

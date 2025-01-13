@@ -1,1 +1,0 @@
-DELIMITER //\nCREATE PROCEDURE my_sp_wrapper(IN param INT DEFAULT 'some_default_value')\nBEGIN\n  CALL my_sp(param);\nEND//\nDELIMITER ;

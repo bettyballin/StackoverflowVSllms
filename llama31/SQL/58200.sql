@@ -1,1 +1,0 @@
-EXECUTE sp_MyProcedure WITH RECOMPILE

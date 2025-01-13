@@ -1,1 +1,0 @@
-// Listen for the popstate event\nwindow.addEventListener("popstate", function(event) {\n  // Get the new URL and title from the history stack\n  var newUrl = event.state.url;\n  var newTitle = event.state.title;\n\n  // Load the new content via AJAX\n  loadContent(newUrl);\n});

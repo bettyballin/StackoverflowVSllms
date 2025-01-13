@@ -1,1 +1,0 @@
--- Check connection settings\nSELECT @@OPTIONS\n\n-- Check execution plan\nSET STATISTICS PROFILE ON\nGO\n-- Run your query here\nGO\nSET STATISTICS PROFILE OFF\nGO\n\n-- Check plan cache\nSELECT cp.objtype, cp.plan_handle, cp.usecounts, t.text\nFROM sys.dm_exec_cached_plans cp\nCROSS APPLY sys.dm_exec_sql_text(cp.plan_handle) t\nWHERE t.text LIKE '%your_query_text%'

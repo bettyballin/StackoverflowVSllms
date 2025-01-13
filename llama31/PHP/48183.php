@@ -1,1 +1,0 @@
-$final = preg_replace_callback('/\{CONSTANT_(.*?)\}/', function ($match) {\n    return constant(__NAMESPACE__ . '\\' . $match[1]);\n}, $final);

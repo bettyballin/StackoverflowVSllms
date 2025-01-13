@@ -1,1 +1,0 @@
-var $foo; // equivalent to just $foo;\n$bar;

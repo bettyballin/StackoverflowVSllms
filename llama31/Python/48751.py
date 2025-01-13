@@ -1,1 +1,0 @@
-import win32com.client\n\n# Create a COM object using its GUID\nobj = win32com.client.Dispatch(clsid='{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}')\n\n# Call a method on the COM object\nobj.YourMethod()

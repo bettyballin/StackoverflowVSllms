@@ -1,1 +1,0 @@
-// User model\nclass User extends CI_Model {\n    public function get_user($id) {\n        $this->db->where('id', $id);\n        $query = $this->db->get('users');\n        return $query->row();\n    }\n}

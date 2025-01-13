@@ -1,1 +1,0 @@
-def segment_chatbot_training_data(data):\n    # Segment data to create subsets with similar characteristics\n    segmented_data = segment_data(data)\n    return segmented_data

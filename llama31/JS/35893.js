@@ -1,1 +1,0 @@
-document.body.addEventListener('click', function() {\n  window.location.href = 'http://sponsors.url';\n});

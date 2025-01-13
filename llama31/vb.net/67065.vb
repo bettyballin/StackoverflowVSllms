@@ -1,1 +1,0 @@
-YourDataGrid.Focus(YourDataGrid.SelectedItem, YourDataGrid.Columns(0))

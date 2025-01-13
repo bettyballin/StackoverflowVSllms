@@ -1,1 +1,0 @@
-ALTER FULLTEXT CATALOG your_catalog_name REBUILD;

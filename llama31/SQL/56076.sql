@@ -1,1 +1,0 @@
-SELECT * FROM storeopeninghours_tostring(1) AS (column1 text, column2 text, column3 text);

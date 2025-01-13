@@ -1,1 +1,0 @@
-User.find(:all, :conditions => ['id NOT IN (SELECT user_id FROM roles_users WHERE role_id = ?)', Role[:admin].id])

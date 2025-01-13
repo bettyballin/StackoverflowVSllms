@@ -1,1 +1,0 @@
-// Client-side JavaScript code\n$.ajax({\n  type: 'POST',\n  url: '/update-data',\n  data: JSON.stringify({ /* your data here */ }),\n  contentType: 'application/json',\n  success: function(data) {\n    // Update the front-end with the received data\n  }\n});

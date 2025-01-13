@@ -1,1 +1,0 @@
-$("li").click(function(){\n    var current_id = $(this).attr('id');\n    alert(current_id);\n    return false;\n});

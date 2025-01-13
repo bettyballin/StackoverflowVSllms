@@ -1,1 +1,0 @@
-$frontController = Zend_Controller_Front::getInstance();\n$dispatcher = new Controller_Dispatcher();\n$frontController->setDispatcher($dispatcher);

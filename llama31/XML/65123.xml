@@ -1,1 +1,0 @@
-<ReportParameters>\n  <ReportParameter Name="YourParameter">\n    <DataType>String</DataType>\n    <Prompt>Enter a value</Prompt>\n  </ReportParameter>\n</ReportParameters>

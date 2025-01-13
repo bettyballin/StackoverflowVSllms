@@ -1,1 +1,0 @@
-document.getElementById('mySelect').addEventListener('keydown', function(event) {\n  event.preventDefault();\n});

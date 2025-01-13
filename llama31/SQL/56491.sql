@@ -1,1 +1,0 @@
-SELECT f.title\nFROM Films f INNER JOIN\n    FREETEXTTABLE(Films, Title, @partialKeywordString) f_key ON f.filmid = f_key.[key]\nORDER BY f_key.Rank DESC

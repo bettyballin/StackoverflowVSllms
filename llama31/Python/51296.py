@@ -1,1 +1,0 @@
-added = B_set - A_set

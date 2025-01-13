@@ -1,1 +1,0 @@
-// Instead of storing the entire $dataentry array in the session variable,\n// consider storing only the necessary data or a cache key.\n$_SESSION['dataentry'] = array(\n    'pcode' => $row_taskinfo[0],\n    'modules' => $row_taskinfo[1],\n    // ...\n);

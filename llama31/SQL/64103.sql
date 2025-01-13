@@ -1,1 +1,0 @@
-CREATE EXTENSION pg_visibility;\nSELECT * FROM pg_visibility WHERE relid = 'example'::regclass;

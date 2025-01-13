@@ -1,1 +1,0 @@
-Array\n(\n    [1] => string2\n    [3] => string4\n)

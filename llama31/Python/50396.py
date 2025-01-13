@@ -1,1 +1,0 @@
-import importlib\nimport os\n\n# Automatically import all modules in the providers package\nfor file in os.listdir(__path__[0]):\n    if file.endswith('.py') and not file.startswith('__'):\n        module_name = file[:-3]\n        globals()[module_name] = importlib.import_module(f'.{module_name}', __name__)

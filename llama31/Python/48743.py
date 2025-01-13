@@ -1,1 +1,0 @@
-print("Status: 301 Moved Permanently")\nprint("Location: http://example.com/new-location")\nprint()

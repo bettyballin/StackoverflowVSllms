@@ -1,1 +1,0 @@
-$conditions = [];\nforeach ($constraints as $field => $value) {\n    $conditions[] = $field . ' = :' . $field;\n}\n$SQL .= ' WHERE ' . implode(' AND ', $conditions);

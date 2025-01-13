@@ -1,1 +1,0 @@
-<project name="myproject" default="build">\n  <target name="build">\n    <mkdir dir="build/classes"/>\n    <javac srcdir="src" destdir="build/classes"/>\n  </target>\n  <target name="deploy">\n    <copy todir="/path/to/production/server">\n      <fileset dir="build/classes"/>\n    </copy>\n  </target>\n</project>

@@ -1,1 +1,0 @@
-require 'sinatra'\nrequire 'sequel'\n\nDB = Sequel.connect('sqlite://database.db')\n\nclass User < Sequel::Model\n  def initialize(name)\n    super(name: name)\n  end\nend\n\nget '/users' do\n  users = User.all\n  erb :index, locals: { users: users }\nend\n\npost '/users' do\n  user = User.create(name: params['name'])\n  redirect to('/users')\nend

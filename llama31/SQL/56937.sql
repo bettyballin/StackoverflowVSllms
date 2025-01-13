@@ -1,1 +1,0 @@
-INSERT IGNORE INTO your_table (id, column1, column2, ...)\nVALUES (specific_id_value, value1, value2, ...);

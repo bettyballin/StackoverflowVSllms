@@ -1,1 +1,0 @@
-$reflectionClass = new ReflectionClass($object);\n$properties = $reflectionClass->getProperties(ReflectionProperty::IS_PUBLIC | ReflectionProperty::IS_PROTECTED | ReflectionProperty::IS_PRIVATE);\n\nforeach ($properties as $property) {\n    $property->setAccessible(true);\n    echo $property->getValue($object);\n}

@@ -1,1 +1,0 @@
-<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">\n    <OutDir>$(SolutionDir)bin\</OutDir>\n</PropertyGroup>\n<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">\n    <OutDir>$(SolutionDir)bin\</OutDir>\n</PropertyGroup>

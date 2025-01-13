@@ -1,1 +1,0 @@
-SET @DeptIDs = '1,2,3';\n\nSELECT EmpID\nFROM YourTable\nWHERE FIND_IN_SET(DeptID, @DeptIDs) > 0\nGROUP BY EmpID\nHAVING COUNT(DISTINCT DeptID) = LENGTH(@DeptIDs) - LENGTH(REPLACE(@DeptIDs, ',', '')) + 1;

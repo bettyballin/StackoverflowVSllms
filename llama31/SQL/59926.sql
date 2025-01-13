@@ -1,1 +1,0 @@
-SELECT * FROM your_table\nWHERE column2 REGEXP ',?2,?';

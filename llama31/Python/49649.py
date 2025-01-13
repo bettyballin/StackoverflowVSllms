@@ -1,1 +1,0 @@
-from django.db.models import F, Q\n\ncars = Car.objects.filter(Q(mileage__lt=F('mileage_limit')))

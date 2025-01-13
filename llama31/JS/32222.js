@@ -1,1 +1,0 @@
-var button = $get('<%= Button1.ClientID %>');

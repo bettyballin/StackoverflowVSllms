@@ -1,1 +1,0 @@
-$sql = "INSERT INTO table_name (column1) VALUES ('test_value')";\nsqlsrv_query($conn, $sql);

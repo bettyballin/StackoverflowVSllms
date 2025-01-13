@@ -1,1 +1,0 @@
-$allViews = array();\nwhile ($resultV = mysql_fetch_assoc($metQueryViews)) {\n    $allViews[$resultV['date']] = $resultV['Count'];\n}

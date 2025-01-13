@@ -1,1 +1,0 @@
-import secrets\n\ndef makeKey():\n    return ''.join(secrets.choice('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789') for _ in range(5))

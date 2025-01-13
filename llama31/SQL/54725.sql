@@ -1,1 +1,0 @@
-SELECT\n  MAX(count) AS max,\n  COUNT(*) AS count\nFROM\n  (\n    SELECT 1 AS id, 7 AS count FROM DUAL\n    UNION ALL\n    SELECT 2, 6 FROM DUAL\n    UNION ALL\n    SELECT 3, 13 FROM DUAL\n    UNION ALL\n    SELECT 4, 12 FROM DUAL\n    UNION ALL\n    SELECT 5, 9 FROM DUAL\n  ) AS mytable\n  INNER JOIN someothertable ON someothertable.id=mytable.id;

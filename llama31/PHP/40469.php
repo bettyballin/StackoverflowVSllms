@@ -1,1 +1,0 @@
-list ($year, $month, $day) = explode ('-', $mysqlDT);\n$timestamp = gmmktime (0,0,0, $month, $day, $year);

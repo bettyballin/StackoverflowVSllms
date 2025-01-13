@@ -1,1 +1,0 @@
-function pass(a) {\n    myjson = a;\n    \n    $.each(myjson, function(index, obj) {\n        alert(obj.name);\n        alert(obj.distance);\n        alert(obj.code);\n    });\n}

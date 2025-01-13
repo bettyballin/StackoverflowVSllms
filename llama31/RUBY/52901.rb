@@ -1,1 +1,0 @@
-require "../car.rb"\n\nmodule Electric\n  class Car < ::Car\n  end\nend

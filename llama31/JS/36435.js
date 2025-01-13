@@ -1,1 +1,0 @@
-document.all.attachEvent('onload', startup);

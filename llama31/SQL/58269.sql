@@ -1,1 +1,0 @@
-EXPLAIN PLAN FOR SELECT * FROM mytable;

@@ -1,1 +1,0 @@
-some_list2 = []\nsome_list2 += ["something"]\nprint(some_list2)  # ["something"]\n\nsome_list2 += ["another", "thing"]\nprint(some_list2)  # ["something", "another", "thing"]

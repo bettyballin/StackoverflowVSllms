@@ -1,1 +1,0 @@
-BEGIN\n    IF [condition] THEN\n        GOTO exit_label;\n    END IF;\n    [the rest of the program]\n    <<exit_label>>\n    NULL;  -- do nothing and exit\nEND;

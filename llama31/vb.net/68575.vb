@@ -1,1 +1,0 @@
-Dim IndexedLetters = Letters.Select(Function(aLetter, index) New With {.Index = index + 1, .Letter = aLetter})

@@ -1,1 +1,0 @@
-def find_majority_element(arr):\n    candidate = None\n    count = 0\n    for num in arr:\n        if count == 0:\n            candidate = num\n            count = 1\n        elif candidate == num:\n            count += 1\n        else:\n            count -= 1\n    return candidate

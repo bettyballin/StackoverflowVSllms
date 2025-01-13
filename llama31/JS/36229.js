@@ -1,1 +1,0 @@
-// template.html\n$.ajax({\n    type: 'GET',\n    url: '{% url "my_view" %}',\n    success: function(data) {\n        console.log(data.message);\n    }\n});

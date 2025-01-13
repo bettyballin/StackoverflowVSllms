@@ -1,1 +1,0 @@
-def burninate(b):\n    b_copy = b[:]  # Create a copy of the original list\n    c = []\n    for i in range(3):\n        c.append(b_copy.pop())\n    return c\n\na = list(range(6))  # Note: In Python 3, range() returns a range object, so we need to convert it to a list\nd = burninate(a)\nprint(a, d)

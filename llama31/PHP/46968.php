@@ -1,1 +1,0 @@
-PDO::PARAM_BOOL  // Boolean\nPDO::PARAM_NULL  // NULL\nPDO::PARAM_INT   // Integer\nPDO::PARAM_STR   // String\nPDO::PARAM_LOB   // Large Object (e.g. binary data, images)

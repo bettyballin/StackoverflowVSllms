@@ -1,1 +1,0 @@
-// On your server-side, generate the JSONP callback\nfunction generateJsonpCallback($data) {\n  $callback = $_GET['callback'];\n  $json = json_encode($data);\n  return "$callback($json);";\n}\n\n// Example usage:\n$data = array('username' => 'JohnDoe', 'reputation' => 1000);\necho generateJsonpCallback($data);

@@ -1,1 +1,0 @@
-SELECT * FROM table1 t1 WHERE EXISTS (\n    SELECT * FROM table2 t2 WHERE t1.some_id = t2.some_id\n)

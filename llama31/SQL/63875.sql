@@ -1,1 +1,0 @@
--- Create a login\nCREATE LOGIN mylogin WITH PASSWORD = 'mypassword';\n\n-- Create a user in a database (e.g., AdventureWorks)\nUSE AdventureWorks;\nCREATE USER myuser FOR LOGIN mylogin;\n\n-- Grant permissions to the user in the database\nGRANT SELECT ON TABLE mytable TO myuser;

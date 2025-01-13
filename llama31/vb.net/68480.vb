@@ -1,1 +1,0 @@
-Imports System.Runtime.InteropServices\n\nNamespace YourNamespace\n    <StructLayout(LayoutKind.Sequential)>\n    Public Structure YourStructure\n        <MarshalAs(UnmanagedType.LPWStr)>\n        Public field1 As String\n        Public field2 As Integer\n    End Structure\nEnd Namespace

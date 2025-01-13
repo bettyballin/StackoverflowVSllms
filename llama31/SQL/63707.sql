@@ -1,1 +1,0 @@
-DECLARE\n  v_table_name VARCHAR2(30) := 'my_table_' || TO_CHAR(SYSDATE, 'YYYYMMDD');\nBEGIN\n  EXECUTE IMMEDIATE 'CREATE TABLE ' || v_table_name || ' (id NUMBER)';\nEND;

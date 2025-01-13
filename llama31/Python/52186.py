@@ -1,1 +1,0 @@
-def integrate_chatbot_training_data_with_market_data(data, market_data_sources):\n    # Integrate data with market data\n    integrated_data = integrate_data_with_market_data(data, market_data_sources)\n    return integrated_data

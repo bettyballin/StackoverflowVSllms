@@ -1,1 +1,0 @@
-# config/environments/*.rb (e.g., development.rb, production.rb)\nRails.application.configure do\n  # ...\n  config.action_mailer.default_url_options = { host: 'your-domain.com' }\n  # ...\nend

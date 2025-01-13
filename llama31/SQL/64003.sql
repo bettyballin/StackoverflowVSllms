@@ -1,1 +1,0 @@
-SELECT A.*, GROUP_CONCAT(B.Name SEPARATOR ', ') as linked_b_names\nFROM A\nLEFT JOIN A_B_Link ON A.ID = A_B_Link.A_ID\nLEFT JOIN B ON A_B_Link.B_ID = B.ID\nGROUP BY A.ID, A.Name

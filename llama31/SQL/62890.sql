@@ -1,1 +1,0 @@
--- Create a new table\nCREATE TABLE [dbo].[TableName] (\n[FieldID] [int] IDENTITY (1,1) NOT NULL,\n[FieldName1] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,\n[FieldName2] [nchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL\n) ON [PRIMARY]\nGO

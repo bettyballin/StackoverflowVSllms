@@ -1,1 +1,0 @@
-$ip = $_SERVER['REMOTE_ADDR'];\n$country = geoip_country_name_by_name($ip);\n\necho $country;

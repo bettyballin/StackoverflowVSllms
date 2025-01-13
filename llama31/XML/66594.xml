@@ -1,1 +1,0 @@
-<service android:name=".YourService" android:enabled="true" android:exported="true"\n    android:foregroundServiceType="microphone" />

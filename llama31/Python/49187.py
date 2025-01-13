@@ -1,1 +1,0 @@
-import functools\n\ndef add(x, y):\n    return x + y\n\nadd_five = functools.partial(add, 5)\nprint(add_five(3))  # prints 8

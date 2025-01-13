@@ -1,1 +1,0 @@
-// BinsVideo model\nclass BinsVideo extends AppModel {\n    public $belongsTo = array('Bin', 'Video');\n}

@@ -1,1 +1,0 @@
-SELECT t1.business_key, t1.result\nFROM your_table t1\nINNER JOIN (\n    SELECT business_key, MAX(id) as max_id\n    FROM your_table\n    GROUP BY business_key\n) t2\nON t1.business_key = t2.business_key AND t1.id = t2.max_id

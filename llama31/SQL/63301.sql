@@ -1,1 +1,0 @@
-SELECT *\nFROM Colors\nCROSS JOIN Sizes

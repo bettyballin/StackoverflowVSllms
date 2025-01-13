@@ -1,1 +1,0 @@
-CREATE TABLE categories (\n  id INT PRIMARY KEY,\n  description VARCHAR(255) NOT NULL\n);

@@ -1,1 +1,0 @@
-$url = 'http://www.google.com';\n$command = "wkhtmltoimage $url test.png";\nshell_exec($command);

@@ -1,1 +1,0 @@
-frames['log'].document.on('ready', function() {\n  $(this).find(line);\n});

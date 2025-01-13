@@ -1,1 +1,0 @@
-$username = $_SERVER['REDIRECT_REMOTE_USER'] ?? $_SERVER['REMOTE_USER'];

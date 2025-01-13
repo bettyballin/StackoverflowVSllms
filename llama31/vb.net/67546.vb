@@ -1,1 +1,0 @@
-Dim Th As New Thread(Sub() DoStuff(param1, param2, AddressOf ReportStatus))\nTh.Start()

@@ -1,1 +1,0 @@
-class Foo\n{\n    public $bar;\n\n    public function TestFoobar()\n    {\n        $this->foobar('bar');\n    }\n\n    public function foobar($string)\n    {\n        echo $this->{$string}; // works!\n    }\n}

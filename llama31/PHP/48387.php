@@ -1,1 +1,0 @@
-$replace = array('address' => '123 Main St', 'fixDate' => '2022-01-01', 'measureDate' => '2022-01-15', 'builder' => 'John Doe');\n\n$input = '<td>{{address}}</td><td>{{fixDate}}</td><td>{{measureDate}}</td><td>{{builder}}</td>';\n\n$output = preg_replace_callback($pattern, function($match) use ($replace) {\n    return $replace[$match[1]];\n}, $input);\n\necho $output;

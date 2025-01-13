@@ -1,1 +1,0 @@
-define('TWITTER_CREDENTIALS', $username . ':' . $password);

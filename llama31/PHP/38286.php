@@ -1,1 +1,0 @@
-// Example of a prepared statement to retrieve the user's authorization level\n$stmt = $mysqli->prepare("SELECT auth_level FROM roles WHERE user_id = ?");\n$stmt->bind_param("i", $user_id);\n$stmt->execute();\n$stmt->bind_result($auth_level);\n$stmt->fetch();

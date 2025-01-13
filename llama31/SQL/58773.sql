@@ -1,1 +1,0 @@
-SELECT COUNT(*) AS c\nFROM BANS\nWHERE typeid = 6\n  AND ip_match(ipaddr, cidr, UNHEX(REPLACE('this_ip', ':', ''))) = 1;

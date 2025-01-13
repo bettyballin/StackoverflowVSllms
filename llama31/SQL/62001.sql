@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION my_trigger_function()\nRETURNS TRIGGER AS $$\nBEGIN\n    INSERT INTO audit_table (action, user_name, ...)\n    VALUES ('DELETE', current_setting('my.context_info'), ...);\n    RETURN OLD;\nEND;\n$$ LANGUAGE plpgsql;

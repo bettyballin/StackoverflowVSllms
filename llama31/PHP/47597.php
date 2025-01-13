@@ -1,1 +1,0 @@
-<?php\nrequire_once($_SERVER['DOCUMENT_ROOT'].'/wp-load.php');\n\nif (isset($_GET['size']) && ctype_alnum($_GET['size'])) {\n    echo $_GET['size'];\n}\n\necho "hello world";\n?>

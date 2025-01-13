@@ -1,1 +1,0 @@
-const cleanHtml = DOMPurify.sanitize(html);\nif (cleanHtml === html) {\n    console.log("HTML is valid");\n} else {\n    console.log("HTML is not valid");\n}

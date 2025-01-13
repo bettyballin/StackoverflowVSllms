@@ -1,1 +1,0 @@
-BULK INSERT YourTable\nFROM 'C:\Path\To\Your\File.csv'\nWITH\n(\n    FIELDTERMINATOR = ',',\n    ROWTERMINATOR = '\n',\n    BATCHSIZE = 10000,\n    MAXERRORS = 10\n)

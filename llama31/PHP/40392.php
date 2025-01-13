@@ -1,1 +1,0 @@
-$stmt = sqlsrv_prepare($conn, "SELECT * FROM your_table WHERE column = ?", array($parameter));\nsqlsrv_execute($stmt);

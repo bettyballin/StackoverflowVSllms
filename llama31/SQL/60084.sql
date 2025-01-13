@@ -1,1 +1,0 @@
-SELECT m.material_id,\n       (SELECT file_location\n          FROM mat m2\n         WHERE m2.content_id = m.content_id\n          ORDER BY resolution DESC\n          LIMIT 1) special_mat_file_location\n  FROM mat m\n  JOIN con ON con.content_id = m.content_id\n  JOIN con_groups ON con_groups.content_id = con.content_id\n WHERE con_groups.content_group_id = 10;

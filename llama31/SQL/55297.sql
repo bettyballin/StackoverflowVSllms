@@ -1,1 +1,0 @@
-SELECT query, query_start \nFROM pg_stat_activity \nWHERE datname = 'your_database_name' \nORDER BY query_start DESC LIMIT 1;

@@ -1,1 +1,0 @@
-try {\n    mysql_ping();\n} catch (Exception $e) {\n    // handle the error\n}

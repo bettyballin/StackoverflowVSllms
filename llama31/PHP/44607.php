@@ -1,1 +1,0 @@
-$weeks = (int) $_POST['weeks']; // assuming user input comes from POST request\n$endDate = strtotime("+$weeks weeks");\n\n// Format the date for MySQL\n$mysqlDate = date('Y-m-d H:i:s', $endDate);\n\n// Use $mysqlDate for your MySQL query

@@ -1,1 +1,0 @@
-import re\n\nhtml = '<img src="http://example.com/g.jpg" alt="" />'\n\npattern = r'<img\s+src="([^"]+)"'\nmatches = re.findall(pattern, html)\n\nprint(matches)  # Output: ['http://example.com/g.jpg']

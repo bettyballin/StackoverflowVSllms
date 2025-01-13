@@ -1,1 +1,0 @@
-encoded_text = "\x66\x75\x6e\x63\x74\x69"\ndecoded_text = encoded_text.encode('latin1').decode('unicode-escape')\n\nprint(decoded_text)

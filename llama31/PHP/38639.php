@@ -1,1 +1,0 @@
-$file = new SplFileObject('path/to/your/file.txt', 'r');\n$file->setFlags(SplFileObject::DROP_NEW_LINE);\n$mm = mmap_open($file->getHandle(), 0, MMAP_ACCESS_READ);\n// Process the file using $mm\nmmap_close($mm);\n$file = null;

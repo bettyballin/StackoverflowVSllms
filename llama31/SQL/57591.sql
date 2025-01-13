@@ -1,1 +1,0 @@
-SET GLOBAL innodb_autoinc_lock_mode = 1;

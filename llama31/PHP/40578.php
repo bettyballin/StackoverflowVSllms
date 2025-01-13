@@ -1,1 +1,0 @@
-$result = $_GET['result'];\n$decodedData = json_decode(urldecode($result), true);\n\n// Use the decoded data as needed

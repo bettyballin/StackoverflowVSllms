@@ -1,1 +1,0 @@
-const retrievedUsername = decodeURIComponent(encodedUsername);

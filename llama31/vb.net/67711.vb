@@ -1,1 +1,0 @@
-Dim myDecimal As Double\n\nmyDecimal = 123.45\n\nSelect Case myDecimal\n    Case 0 To 49.99\n        MsgBox "Between 0 and 49.99"\n    Case 50 To 99.99\n        MsgBox "Between 50 and 99.99"\n    Case 100 To 199.99\n        MsgBox "Between 100 and 199.99"\n    Case Is > 200\n        MsgBox "Greater than 200"\nEnd Select

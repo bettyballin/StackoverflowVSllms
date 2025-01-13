@@ -1,1 +1,0 @@
-var regex = /<(fieldset)\b[^>]*>.*?<\/\1>/gi;

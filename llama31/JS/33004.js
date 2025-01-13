@@ -1,1 +1,0 @@
-// Get the viewport size\nvar viewportWidth = window.innerWidth;\nvar viewportHeight = window.innerHeight;\n\n// Set the viewport size in a hidden form field\ndocument.getElementById('viewport_size').value = viewportWidth + ',' + viewportHeight;\n\n// Submit the form\ndocument.getElementById('your_form').submit();

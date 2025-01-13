@@ -1,1 +1,0 @@
-$('.container img').wrap('<div class="some_class"></div>');\n$('.some_class').append('<strong>text</strong>');

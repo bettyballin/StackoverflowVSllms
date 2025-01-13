@@ -1,1 +1,0 @@
-$facebook = new FacebookRestClient($api_key, $secret);\n$feed = $facebook->api_client->feed_publish(\n  $user_id, // user ID\n  $title, // title\n  $body, // body\n  $image // image URL\n);

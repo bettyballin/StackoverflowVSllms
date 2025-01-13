@@ -1,1 +1,0 @@
-UPDATE YourTable\nINNER JOIN EmployeeMap ON YourTable.[Name] = EmployeeMap.[Name]\nSET YourTable.EmployeeID = EmployeeMap.EmployeeID

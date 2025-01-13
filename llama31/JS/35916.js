@@ -1,1 +1,0 @@
-// Good practice: IIFE with parentheses\nvar singleton = (function() {\n  // code\n})();\n\n// Possible issue: IIFE without parentheses\nvar singleton = function() {\n  // code\n}(); // This can be interpreted as a separate expressio

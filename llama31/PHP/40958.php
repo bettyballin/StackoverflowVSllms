@@ -1,1 +1,0 @@
-$xmlContent = '<?xml version="1.0"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><root>';\n$hierarchy = $tree->getArray();\n$xmlContent .= recursiveBuild($hierarchy[0]);\n$xmlContent .= '</root>';\n\nfile_put_contents('output.xml', $xmlContent);

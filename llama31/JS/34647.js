@@ -1,1 +1,0 @@
-// global variable\nvar globalVar = 'I am global';\n\nconsole.log(globalVar); // outputs: I am global

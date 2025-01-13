@@ -1,1 +1,0 @@
-SELECT IS_SRVROLEMEMBER('Domain\TestGroup');

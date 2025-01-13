@@ -1,1 +1,0 @@
-CREATE TABLE users (\n  id INT PRIMARY KEY,\n  civil_status_id INT,\n  FOREIGN KEY (civil_status_id) REFERENCES civil_status(id)\n);

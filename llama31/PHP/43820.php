@@ -1,1 +1,0 @@
-// Enable page caching\ndrupal_set_cache('page', TRUE);\n\n// Enable block caching\ndrupal_set_cache('block', TRUE);\n\n// Enable views caching\ndrupal_set_cache('views', TRUE);

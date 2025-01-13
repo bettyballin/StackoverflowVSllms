@@ -1,1 +1,0 @@
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {\n    if (isset($_POST['form_name']) && $_POST['form_name'] == 'met') {\n        // Process metric form\n    } elseif (isset($_POST['form_name']) && $_POST['form_name'] == 'imp') {\n        // Process imperial form\n    }\n}

@@ -1,1 +1,0 @@
-<Condition type="equality">\n  <Operator>And</Operator>\n  <Operand>\n    <AnimalType value="Leopard"/>\n  </Operand>\n  <Operand>\n    <Operator>Or</Operator>\n    <SourceCountry value="Kenya"/>\n    <TargetCountry value="Kenya"/>\n  </Operand>\n  <True>\n    <ZooKeeper value="Jack"/>\n  </True>\n  <False>\n    <ZooKeeper value="Jill"/>\n  </False>\n</Condition>

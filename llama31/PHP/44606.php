@@ -1,1 +1,0 @@
-$exe = 'd:\Prog Files\foo.exe';\n$arg = 'd:\data path\datadir';\n\n$cmd = escapeshellarg($exe) . ' -p ' . escapeshellarg($arg);\n$out = `$cmd`;

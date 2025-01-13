@@ -1,1 +1,0 @@
-$result = mysqli_query($db, "SELECT `online` FROM `tbl_system` WHERE `property` = 'extranet'");\n$online = mysqli_fetch_row($result);\necho $online[0];

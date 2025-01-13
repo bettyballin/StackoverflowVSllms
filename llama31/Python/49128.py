@@ -1,1 +1,0 @@
-def substring_extraction(strA, strB):\n    try:\n        return strB.lower().index(strA.lower())\n    except ValueError:\n        return -1

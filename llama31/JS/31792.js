@@ -1,1 +1,0 @@
-/// <reference path="~/Scripts/jquery-1.4.1.js" />\n/// <reference path="~/Scripts/jquery.validate.js" />\n\n$().ready(function() {\n    // your code here\n});

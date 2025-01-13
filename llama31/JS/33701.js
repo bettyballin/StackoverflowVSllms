@@ -1,1 +1,0 @@
-const $markup = $('<p>description like <a href="myexample.com"></a></p>');\n$markup.find('a').remove();\n// or edit the link\n// $markup.find('a').attr('href', 'new-url.com').text('New Link Text');\nconst editedMarkup = $markup.html();\nconsole.log(editedMarkup);

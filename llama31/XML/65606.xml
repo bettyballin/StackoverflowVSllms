@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <rewrite>\n      <rules>\n        <rule name="ReverseProxy" stopProcessing="true">\n          <match url="(.*)" />\n          <action type="Rewrite" url="http://www.example.com/other/{R:1}" />\n        </rule>\n      </rules>\n    </rewrite>\n  </system.webServer>\n</configuration>

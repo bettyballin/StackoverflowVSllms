@@ -1,1 +1,0 @@
->>> alist = list(range(10))\n>>> segment_list(alist, 3)\n[[0, 1, 2], [3, 4, 5], [6, 7, 8], [9]]

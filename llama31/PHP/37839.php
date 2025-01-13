@@ -1,1 +1,0 @@
-$array = array('one' => 1);\nvar_dump($array);

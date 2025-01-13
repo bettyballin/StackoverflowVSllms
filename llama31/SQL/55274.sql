@@ -1,1 +1,0 @@
-SELECT t1.*\nFROM your_table t1\nJOIN your_table t2 ON t1.Link = t2.Link\nWHERE t2.ID = 'AA'\nAND t1.ID IN ('AA', 'MASTER');

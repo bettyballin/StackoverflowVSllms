@@ -1,1 +1,0 @@
-$referer = $_SERVER['HTTP_REFERER'];\nif (strpos($referer, 'your-website.com') !== false) {\n    // Form submission came from your website\n} else {\n    // Form submission came from elsewhere\n}

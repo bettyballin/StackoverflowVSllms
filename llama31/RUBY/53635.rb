@@ -1,1 +1,0 @@
-assert_select '#first_name[value]', address.first_name.blank? ? 0 : 1

@@ -1,1 +1,0 @@
-// Laravel example\n// resources/views/layouts/master.blade.php\n<!DOCTYPE html>\n<html>\n  <head>...</head>\n  <body>\n    <header>...</header>\n    @yield('content')\n    <footer>...</footer>\n  </body>\n</html>

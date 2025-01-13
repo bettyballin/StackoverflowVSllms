@@ -1,1 +1,0 @@
-if (window.location.hash === '#comments') {\n    // Show comments\n    document.getElementById('comments').style.display = 'block';\n}

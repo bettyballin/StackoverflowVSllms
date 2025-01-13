@@ -1,1 +1,0 @@
-p.playparticipant_set.create(play=p, player_id=2383)

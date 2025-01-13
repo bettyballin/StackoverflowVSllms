@@ -1,1 +1,0 @@
-// Add this script to your page or web part\nSys.WebForms.PageRequestManager.getInstance().add_endRequest(endRequestHandler);\n\nfunction endRequestHandler(sender, args) {\n    // Set the page title\n    document.title = "My default title - " + document.title;\n}

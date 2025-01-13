@@ -1,1 +1,0 @@
-var options = {\n    // ...\n    data: DTO,\n    traditional: true,\n    // ...\n};

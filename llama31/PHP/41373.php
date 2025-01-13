@@ -1,1 +1,0 @@
-$serverName = "your_server_name";\n$databaseName = "your_database_name";\n$username = "your_username";\n$password = "your_password";\n\n$connectionOptions = array(\n    "Database" => $databaseName,\n    "UID" => $username,\n    "PWD" => $password\n);\n\n$conn = sqlsrv_connect($serverName, $connectionOptions);\n\nif ($conn === false) {\n    die(print_r(sqlsrv_errors(), true));\n}

@@ -1,1 +1,0 @@
-$foo = new Foo();\n$foo->setTitle("My Title");\n$foo->render();

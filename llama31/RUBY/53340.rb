@@ -1,1 +1,0 @@
-date_string = params[:date]\ndate = DateTime.parse(date_string)

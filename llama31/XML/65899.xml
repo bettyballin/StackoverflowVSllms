@@ -1,1 +1,0 @@
-<!-- web.config file -->\n<configuration>\n  <system.webServer>\n    <security>\n      <ipSecurity allowUnlisted="false">\n        <add ipAddress="192.168.1.0" subnetMask="255.255.255.0" allowed="true" />\n        <!-- Add more internal IP addresses as needed -->\n      </ipSecurity>\n    </security>\n  </system.webServer>\n</configuration>

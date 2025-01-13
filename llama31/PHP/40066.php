@@ -1,1 +1,0 @@
-<?php\n$jsCode = 'console.log("Hello, World!");';\necho '<script>' . $jsCode . '</script>';\n?>

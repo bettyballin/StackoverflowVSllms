@@ -1,1 +1,0 @@
-import numpy as np\n\ndef random_walk(n):\n    x = np.zeros(n)\n    for i in range(1, n):\n        x[i] = x[i-1] + np.random.normal(0, 1)\n    return x

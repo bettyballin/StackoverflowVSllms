@@ -1,1 +1,0 @@
-SELECT COUNT(1)\nFROM records r\nINNER JOIN addresses a ON r.address_id = a.address_id\nINNER JOIN rates p ON r.rate_id = p.rate_id\nWHERE r.status = 1\n  AND p.code = 1\n  AND a.state = 'TN';

@@ -1,1 +1,0 @@
-SELECT strftime('%Y-%m-%d %H:%M:%S', timestamp, 'localtime') AS timestamp_cst\nFROM your_table;

@@ -1,1 +1,0 @@
-CREATE TABLE sequences (\n    name VARCHAR(50) PRIMARY KEY,\n    value INT\n);

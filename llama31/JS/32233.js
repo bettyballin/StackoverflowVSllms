@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\nxhr.timeout = 30000; // 30 seconds

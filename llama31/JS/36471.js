@@ -1,1 +1,0 @@
-var express = require('express');\n	var app = express();\n\n	app.get('/honeypot', function(req, res) {\n		res.status(403).send('Forbidden');\n		// log the IP address and block it\n	});

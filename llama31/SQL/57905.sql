@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE get_employee_by_id (\n  p_employee_id IN NUMBER,\n  p_result OUT SYS_REFCURSOR\n) AS\nBEGIN\n  OPEN p_result FOR\n    SELECT * FROM employees WHERE employee_id = p_employee_id;\nEND;

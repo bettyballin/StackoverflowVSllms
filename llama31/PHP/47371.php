@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("SELECT * FROM table_name");\n$stmt->execute();\n$result = $stmt->get_result();\n\nwhile($item = $result->fetch_object()) {\n    my_function($item->rowname);\n}

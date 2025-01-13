@@ -1,1 +1,0 @@
-const svgObject = document.querySelector('object[type="image/svg+xml"]');\nsvgObject.addEventListener('click', showLargerVersion);

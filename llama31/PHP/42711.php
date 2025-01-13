@@ -1,1 +1,0 @@
-function detectFormat($text) {\n  $textileRegex = '/\b(h[1-6]\.|p\.|table)/';\n  $markdownRegex = '/\b(#{1,6} |(\*\*|__)[^(\*\*|__)]+(\*\*|__))/';\n\n  if (preg_match($textileRegex, $text)) {\n    return 'textile';\n  } elseif (preg_match($markdownRegex, $text)) {\n    return 'markdown';\n  } else {\n    return 'unknown';\n  }\n}

@@ -1,1 +1,0 @@
-Sub LockDatabase()\n    Dim db As DAO.Database\n    \n    Set db = CurrentDb()\n    db.Properties("AllowBypassKey") = False\n    db.Properties("AllowBreakIntoCode") = False\n    db.Save\nEnd Sub

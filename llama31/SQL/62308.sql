@@ -1,1 +1,0 @@
-SELECT u1.id AS creator, u2.id AS updater, u3.id AS owner, [name]\nFROM asset a\nLEFT JOIN ice.dbo.[user] u1 ON a.created_by = u1.user_pk\nLEFT JOIN ice.dbo.[user] u2 ON a.updated_by = u2.user_pk\nLEFT JOIN ice.dbo.[user] u3 ON a.owned_by = u3.user_pk

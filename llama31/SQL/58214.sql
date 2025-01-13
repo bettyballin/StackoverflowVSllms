@@ -1,1 +1,0 @@
-ALTER TABLE your_table\nADD CONSTRAINT unique_fieldA_fieldB UNIQUE (fieldA, fieldB);

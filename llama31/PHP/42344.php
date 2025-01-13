@@ -1,1 +1,0 @@
-$offer1name = 'Offer 1';\n$offer2name = 'Offer 2';\n$offer3name = 'Offer 3';\n\n$offername = ${'offer'.$_GET['id'].'name'};\n\necho $offername;

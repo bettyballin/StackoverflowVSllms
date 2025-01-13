@@ -1,1 +1,0 @@
-use IntlChar;\n\n$string = 'café';\necho IntlChar::strlen($string); // outputs 4

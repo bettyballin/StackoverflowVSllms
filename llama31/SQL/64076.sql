@@ -1,1 +1,0 @@
-USE [master]\nGO\nRESTORE DATABASE [your_database_name]\nFROM DISK = 'C:\Backup\your_database_name.bak'\nWITH REPLACE, MOVE 'your_database_name' TO 'C:\Program Files\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\DATA\your_database_name.mdf'\nGO

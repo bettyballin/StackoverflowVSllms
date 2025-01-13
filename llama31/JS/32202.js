@@ -1,1 +1,0 @@
-tinymce.init({\n  selector: 'textarea',\n  plugins: 'php_code',\n  toolbar: 'undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image',\n  php_code: {\n    allow_php: true,\n  },\n});

@@ -1,1 +1,0 @@
-$xpath = new DOMXPath($document);\n$textNodes = $xpath->query('//text()');\n\n$nodes = array();\nforeach ($textNodes as $textNode) {\n    $nodes[] = $textNode;\n}

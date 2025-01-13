@@ -1,1 +1,0 @@
-byebug\nputs "My find method returned: #{@my_object}"

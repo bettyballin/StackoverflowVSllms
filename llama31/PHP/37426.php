@@ -1,1 +1,0 @@
-$ids = array(12, 17, 27, 26, 5);\n$database->query("SET @order = 0;");\n$database->query("\n    UPDATE `table`\n    SET `priorityLevel` = (@order := @order + 1)\n    WHERE `ID` IN (" . implode(',', $ids) . ")\n    ORDER BY FIELD(`ID`, " . implode(',', $ids) . ")\n");

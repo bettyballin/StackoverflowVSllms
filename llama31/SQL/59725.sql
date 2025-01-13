@@ -1,1 +1,0 @@
-SELECT *\nFROM CONTAINSTABLE(your_table, *, '"*"')

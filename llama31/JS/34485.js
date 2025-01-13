@@ -1,1 +1,0 @@
-// Set value\ndocument.cookie = 'stack=' + JSON.stringify(arr);\n\n// Get value\nvar storedStack = JSON.parse(getCookie('stack'));\n\nfunction getCookie(name) {\n  var value = "; " + document.cookie;\n  var parts = value.split("; " + name + "=");\n  if (parts.length == 2) return parts.pop().split(";").shift();\n}

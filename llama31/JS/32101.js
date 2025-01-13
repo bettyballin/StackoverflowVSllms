@@ -1,1 +1,0 @@
-$.ajax({\n  type: 'GET',\n  url: '/search_midi_file', // your search endpoint\n  data: { query: 'user_input' }, // user's search query\n  success: function(data) {\n    // assume data contains the new MIDI file path\n    var newSrc = data.new_midi_file_path;\n    $('#quicktime-movie param[name="src"]').attr('value', newSrc);\n  }\n});

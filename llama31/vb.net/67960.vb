@@ -1,1 +1,0 @@
-Sub ImportSQL()\n    Dim db As DAO.Database\n    Set db = CurrentDb()\n    \n    Dim sql As String\n    sql = "Your SQL code here"\n    \n    db.Execute sql\n    Set db = Nothing\nEnd Sub

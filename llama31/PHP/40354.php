@@ -1,1 +1,0 @@
-class Foo {\n    function __construct() {\n        // constructor code\n    }\n}

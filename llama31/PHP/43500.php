@@ -1,1 +1,0 @@
-$allowedCookies = array('my_cookie_name', 'another_cookie_name');\nif (in_array($cookieName, $allowedCookies)) {\n    $cookieValue = $_COOKIE[$cookieName];\n} else {\n    // handle error or unauthorized access\n}

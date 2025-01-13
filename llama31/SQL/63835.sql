@@ -1,1 +1,0 @@
-EXEC sp_pkeys 'your_table_name';

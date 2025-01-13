@@ -1,1 +1,0 @@
-$("#item_select").change(function() {\n    var params = $("#item_select option:selected").val();\n    $.post('/account/ar_form.php', {idata: params},  function(data){\n        $("#message_display" ).html(data);\n    });\n}).trigger('change'); // Trigger the change event

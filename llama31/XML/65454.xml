@@ -1,1 +1,0 @@
-<add name="AspNetActiveDirectoryMembershipProvider"\n     type="System.Web.Security.ActiveDirectoryMembershipProvider" \n     applicationName="adtest"\n     connectionUsername="cn=Users"\n     connectionPassword="password"\n     connectionStringName="LocalAD"\n     connectionProtection="None" >

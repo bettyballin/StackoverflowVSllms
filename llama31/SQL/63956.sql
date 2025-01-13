@@ -1,1 +1,0 @@
-SELECT *\nFROM table_name\nLIMIT 10;

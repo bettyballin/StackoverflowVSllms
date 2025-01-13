@@ -1,1 +1,0 @@
-$cardNumber = '4111111111111111'; // Visa test card number\nif (validateCreditCardNumber($cardNumber)) {\n    echo 'Card number is valid';\n} else {\n    echo 'Card number is invalid';\n}

@@ -1,1 +1,0 @@
-// ClassLoader.php\nclass ClassLoader {\n    public function load($class) {\n        $file = 'path/to/classes/' . $class . '.php';\n        if (file_exists($file)) {\n            require $file;\n        }\n    }\n}\n\n// config.php\n$classLoader = new ClassLoader();

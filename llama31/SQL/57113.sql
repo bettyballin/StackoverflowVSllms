@@ -1,1 +1,0 @@
-ALTER TABLE testTable\nALTER COLUMN baseColumn VARCHAR(20) ONLINE;

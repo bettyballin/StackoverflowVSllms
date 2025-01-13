@@ -1,1 +1,0 @@
-echo uploadFolder(1000);  // Output: 1/1/5\necho uploadFolder(2000);  // Output: 1/1/10\necho uploadFolder(2001);  // Output: 1/2/1\necho uploadFolder(4000);  // Output: 1/2/10\necho uploadFolder(4001);  // Output: 1/3/1

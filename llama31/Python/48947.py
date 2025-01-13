@@ -1,1 +1,0 @@
-# Twilio IVR example in Python\nfrom twilio.rest import Client\n\naccount_sid = 'your_account_sid'\nauth_token = 'your_auth_token'\nclient = Client(account_sid, auth_token)\n\nresponse = client.calls.create(\n    from_='your_twilio_number',\n    to='caller_number',\n    url='http://your-website.com/ivr'\n)

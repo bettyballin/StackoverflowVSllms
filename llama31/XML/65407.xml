@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <sessionState timeout="30" />\n    <roleManager enabled="true" />\n    <roles>\n      <add name="Admin" timeout="180" />\n    </roles>\n  </system.web>\n</configuration>

@@ -1,1 +1,0 @@
-function processKey(e)\n{\n    if (null == e)\n        e = window.event ;\n    if (e.keyCode == 13)  {\n        document.getElementById("foobar").click();\n        return false;\n    }\n}

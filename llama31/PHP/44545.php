@@ -1,1 +1,0 @@
-$putdata = fopen("php://input", "r");\n$rawdata = '';\n\nwhile ($chunk = fread($putdata, 1024)) {\n    $rawdata .= $chunk;\n}\n\nfclose($putdata);\n\n// Now $rawdata contains the request body

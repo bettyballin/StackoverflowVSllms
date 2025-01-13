@@ -1,1 +1,0 @@
-CREATE INDEX idx_name ON new_table (column_name) COMPUTE STATISTICS;

@@ -1,1 +1,0 @@
-setup do\n  post :create, :user => Factory.attributes_for(:user)\n  user = assigns(:user)\n  puts user.errors.inspect\nend

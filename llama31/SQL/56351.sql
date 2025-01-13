@@ -1,1 +1,0 @@
-CREATE ROLE [DomainAdminDBRole] AUTHORIZATION [dbo]

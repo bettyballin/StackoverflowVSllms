@@ -1,1 +1,0 @@
-Dim MyStream As New StreamReader(Path.Combine(Application.StartupPath, filelocation))

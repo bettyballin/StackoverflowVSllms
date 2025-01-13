@@ -1,1 +1,0 @@
-window.onload = function() { /* code */ };\nonload = function() { /* code */ };

@@ -1,1 +1,0 @@
-def sanitize_params(func):\n    def wrapper(*args, **kwargs):\n        args = [arg or '' for arg in args]\n        return func(*args, **kwargs)\n    return wrapper\n\n@sanitize_params\ndef func(param1, param2, param3):\n    # rest of your function code

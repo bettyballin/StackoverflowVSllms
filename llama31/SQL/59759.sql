@@ -1,1 +1,0 @@
-BACKUP LOG [YourDatabaseName] TO DISK = 'C:\LogBackup.bak';

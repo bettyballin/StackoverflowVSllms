@@ -1,1 +1,0 @@
-<?php\n// ... some code\nif ($redirect) {\n    header('Location: index.php');\n    exit;\n}\n?>\n\n<?php include 'header.php'; ?>

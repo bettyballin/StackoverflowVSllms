@@ -1,1 +1,0 @@
-BACKUP DATABASE [YourDatabaseName]\nTO DISK = 'C:\Backup\FullBackup.bak'\nWITH FORMAT, MEDIANAME = 'FullBackupMedia', NAME = 'FullBackup';

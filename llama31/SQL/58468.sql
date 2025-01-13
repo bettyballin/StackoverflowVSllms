@@ -1,1 +1,0 @@
--- Create a new trace\nCREATE TRACE mytrace ON SERVER ( -- replace with your server name\n    TOP 10,  -- capture top 10 queries by CPU usage\n    -- events to capture\n    RPC:Completed,  -- stored procedure calls\n    SQL:BatchCompleted,  -- ad-hoc queries\n    SQL:StmtCompleted  -- individual statements\n) \nFOR SERVER 'myserver'  -- replace with your server name

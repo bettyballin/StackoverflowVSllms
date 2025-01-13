@@ -1,1 +1,0 @@
-CREATE TABLE Currencies (\n  Code CHAR(3) PRIMARY KEY,\n  Name VARCHAR(50) NOT NULL\n);

@@ -1,1 +1,0 @@
-Dim url As String = "http://www.domain.com/myfile.txt"\nIf CheckIfFileExists(url) Then\n    Console.WriteLine("File exists")\nElse\n    Console.WriteLine("File does not exist")\nEnd If

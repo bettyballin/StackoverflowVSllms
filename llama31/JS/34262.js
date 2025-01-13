@@ -1,1 +1,0 @@
-$.post("/Controller/Action", { parameterName: "parameterValue" }, function(data) {\n    // callback function to handle the response\n});

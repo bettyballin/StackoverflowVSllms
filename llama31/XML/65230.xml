@@ -1,1 +1,0 @@
-<target name="check-file">\n  <available file="path/to/your/file" property="file.exists"/>\n</target>\n\n<target name="process-file" depends="check-file" if="file.exists">\n  <!-- your special processing here -->\n</target>

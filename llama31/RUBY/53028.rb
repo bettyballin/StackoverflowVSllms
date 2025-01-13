@@ -1,1 +1,0 @@
-gem 'pdfkit'\n\n# In your controller\ndef generate_pdf\n  kit = PDFKit.new('path/to/template')\n  send_data(kit.to_pdf, :filename => 'example.pdf')\nend

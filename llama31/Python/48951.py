@@ -1,1 +1,0 @@
-import cProfile\n\ndef my_view(request):\n    # code to profile\n    pass\n\ncProfile.run('my_view(request)')

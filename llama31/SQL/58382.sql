@@ -1,1 +1,0 @@
-MERGE INTO CommReceipt AS target\nUSING StagingTable AS source\nON target.CR_Key = source.CR_Key\nWHEN NOT MATCHED THEN\n    INSERT (CR_Key, ...)\n    VALUES (source.CR_Key, ...)

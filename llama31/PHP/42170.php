@@ -1,1 +1,0 @@
-function somefunc($stuff) {\n    return "my bold text <b>$stuff</b>.";\n}\n\n$var1 = "I'm including " . somefunc("awesome") . " in this variable..";

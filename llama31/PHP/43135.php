@@ -1,1 +1,0 @@
-$string = 'Hello, visit https://www.example.com for more information.';\n$pattern = '/(https?:\/\/[^\s]+)/';\n$replacement = '<a href="$1">$1</a>';\necho preg_replace($pattern, $replacement, $string);

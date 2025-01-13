@@ -1,1 +1,0 @@
-SELECT t1.ID AS ID1, t2.ID AS ID2\nFROM Table1 t1\nJOIN Table2 t2 ON t1.ID = t2.ID

@@ -1,1 +1,0 @@
-SELECT * FROM mytable WHERE NULL = NULL;  // returns no rows

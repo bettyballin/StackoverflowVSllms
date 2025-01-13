@@ -1,1 +1,0 @@
-window.addEventListener('message', (event) => {\n  if (event.data === 'triggerSubmit') {\n    document.getElementById('submitButtonId').click();\n  }\n}, false);

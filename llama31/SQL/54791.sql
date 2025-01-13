@@ -1,1 +1,0 @@
-INSERT INTO MyTable (Name) VALUES ('John Doe');\nSELECT SCOPE_IDENTITY() AS InsertedId;

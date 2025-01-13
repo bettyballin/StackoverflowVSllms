@@ -1,1 +1,0 @@
-class Website < ActiveRecord::Base\n  def to_param\n    domain_name.gsub('.', '_')\n  end\n  ...\nend

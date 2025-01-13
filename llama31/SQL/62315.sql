@@ -1,1 +1,0 @@
-SELECT *\nFROM employees\nORDER BY salary DESC;

@@ -1,1 +1,0 @@
-CREATE DATABASE ASPState\nGO\n\nUSE ASPState\nGO\n\nCREATE TABLE Sessions (\n  SessionId uniqueidentifier NOT NULL PRIMARY KEY,\n  Created datetime NOT NULL DEFAULT GETDATE(),\n  Expires datetime NOT NULL,\n  Data image NOT NULL\n)\nGO

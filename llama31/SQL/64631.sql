@@ -1,1 +1,0 @@
-SELECT \n    your_column IS NOT NULL AS boolean_column\nFROM your_table;

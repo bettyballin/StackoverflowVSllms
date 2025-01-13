@@ -1,1 +1,0 @@
-document.getElementById('mySelect').disabled = true; // or false

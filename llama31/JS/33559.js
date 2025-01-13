@@ -1,1 +1,0 @@
-$("#myform").validate({\n  rules: {\n    myfield: {\n      exactString: "Hello World"\n    }\n  }\n});

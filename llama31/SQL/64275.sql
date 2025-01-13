@@ -1,1 +1,0 @@
-CREATE TABLE company_id_sequence (\n  company_id INT,\n  next_internal_id INT,\n  PRIMARY KEY (company_id)\n);

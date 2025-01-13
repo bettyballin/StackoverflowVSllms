@@ -1,1 +1,0 @@
-require 'mongrel_cluster'\n\ncluster = MongrelCluster.new\nqueue_length = cluster.queue_length\nputs queue_length

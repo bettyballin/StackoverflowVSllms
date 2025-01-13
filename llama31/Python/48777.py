@@ -1,1 +1,0 @@
-import dbus\n\nbus = dbus.SystemBus()\nproxy = bus.get_object('org.freedesktop.UPower', '/org/freedesktop/UPower')\ninterface = dbus.Interface(proxy, 'org.freedesktop.UPower')\n\n# Set the system to Sleep mode\ninterface.Suspend()

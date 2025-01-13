@@ -1,1 +1,0 @@
-$php_unix_timestamp = strtotime($mysql_date_string);

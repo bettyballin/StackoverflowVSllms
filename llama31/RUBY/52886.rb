@@ -1,1 +1,0 @@
-<%= drop_receiving_element "move_drop_zone_#{node.id.to_s}", \n  :update => "users", \n  :url => move_user_path(:id => node.id), \n  :method => :put, \n  :accept => "move_user", \n  :params => { :user_id => user.id, :from_node_id => node.id } %>

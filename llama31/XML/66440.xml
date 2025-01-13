@@ -1,1 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>\n<Settings>\n  <Setting Name="ConnectionString" Type="String" Scope="Application">\n    <Value>Server=myServer;Database=myDB;User Id=myUser;Password=myPassword;</Value>\n  </Setting>\n</Settings>

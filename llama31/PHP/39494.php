@@ -1,1 +1,0 @@
-// Get the viewport size from the AJAX request\n$viewportWidth = $_POST['viewportWidth'];\n$viewportHeight = $_POST['viewportHeight'];\n\n// Use the viewport size as needed\necho "Viewport size: $viewportWidth x $viewportHeight";

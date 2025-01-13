@@ -1,1 +1,0 @@
-WITH PaginatedTable AS (\n  SELECT *, ROW_NUMBER() OVER (ORDER BY (SELECT 1)) AS RowNum\n  FROM table1\n)\nSELECT * FROM PaginatedTable\nWHERE RowNum BETWEEN 11 AND 30;

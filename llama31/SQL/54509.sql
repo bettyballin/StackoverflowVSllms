@@ -1,1 +1,0 @@
-sqlite> ATTACH 'example.db' AS example;\nsqlite> PRAGMA database_list;\nsqlite> SELECT name FROM example.sqlite_master WHERE type='table';\nsqlite> SELECT * FROM example.mytable;

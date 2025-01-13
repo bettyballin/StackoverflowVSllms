@@ -1,1 +1,0 @@
-DBCC CHECKIDENT ('YourTableName', RESEED, 100)

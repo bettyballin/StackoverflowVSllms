@@ -1,1 +1,0 @@
-function voteUp() {\n  $.ajax({\n    type: "POST",\n    url: "/vote",\n    data: {"vote": "up"},\n    success: function(data) {\n      $("#vote-count").text(data);\n    }\n  });\n}\n\nfunction voteDown() {\n  $.ajax({\n    type: "POST",\n    url: "/vote",\n    data: {"vote": "down"},\n    success: function(data) {\n      $("#vote-count").text(data);\n    }\n  });\n}

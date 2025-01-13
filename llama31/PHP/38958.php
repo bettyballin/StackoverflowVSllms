@@ -1,1 +1,0 @@
-$plain_password = 'your_password';\n$apr1_md5_hash = crypt_apr1_md5($plain_password);\necho $apr1_md5_hash;

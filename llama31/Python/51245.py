@@ -1,1 +1,0 @@
-check_set = set(check_list)\nmain_set = set(member.split(',')[0].split('=')[1] for member in main_list)\n\nresult = not check_set.isdisjoint(main_set)

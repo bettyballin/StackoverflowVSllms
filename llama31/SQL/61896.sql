@@ -1,1 +1,0 @@
-UPDATE your_table\nSET your_column = UPPER(LEFT(your_column, 2)) CONCAT LTRIM(SUBSTR(your_column, 3))

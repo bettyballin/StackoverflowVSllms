@@ -1,1 +1,0 @@
-SELECT \n  group_id AS id,\n  LAG(id) OVER (PARTITION BY group_id ORDER BY id) AS parent,\n  value\nFROM (\n  SELECT \n    group_id,\n    id,\n    value,\n    ROW_NUMBER() OVER (PARTITION BY group_id ORDER BY id) AS row_num\n  FROM your_table\n)

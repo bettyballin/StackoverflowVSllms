@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <httpErrors existingResponse="PassThrough" />\n  </system.webServer>\n</configuration>

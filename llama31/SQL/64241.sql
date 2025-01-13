@@ -1,1 +1,0 @@
-SELECT word_id\nFROM (\n  SELECT word_id, COUNT(sentence_id) as cnt\n  FROM sentence_word\n  GROUP BY word_id\n) AS subquery\nWHERE cnt > 100;

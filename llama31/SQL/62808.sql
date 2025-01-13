@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION "test_single_resultset"()\nRETURNS TABLE (\n    id INTEGER,\n    name VARCHAR,\n    child_id INTEGER,\n    child_name VARCHAR\n) AS $BODY$\nBEGIN\n    RETURN QUERY SELECT id, name, NULL, NULL FROM parent\n    UNION ALL\n    SELECT NULL, NULL, child_id, child_name FROM child;\nEND;\n$BODY$\nLANGUAGE plpgsql;

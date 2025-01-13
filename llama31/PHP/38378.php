@@ -1,1 +1,0 @@
-$path = 'new_directory';\nmkdir($path);\n$dir = new COM('WScript.Shell');\n$dir->CreateFolder($path, 0x40000000); // 0x40000000 is the flag for read-write access

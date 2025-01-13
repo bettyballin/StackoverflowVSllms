@@ -1,1 +1,0 @@
-SELECT FORMAT(user_id, 'D9') AS auid, user_id, username\nFROM dbo.users;

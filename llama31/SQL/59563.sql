@@ -1,1 +1,0 @@
-SELECT COUNT(*) \nFROM table \nWHERE COALESCE(array_length(datasets, 1), 0) = 0;

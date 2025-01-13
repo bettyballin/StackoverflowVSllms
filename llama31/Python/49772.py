@@ -1,1 +1,0 @@
-import contextlib\n\n@contextlib.contextmanager\ndef open_frz_file():\n    try:\n        with open(".frz", "r") as f:\n            yield f\n    except FileNotFoundError:\n        with open(".frz", "w") as f:\n            yield f\n\ndef process_decorators():\n    with open_frz_file() as f:\n        # process decorators here

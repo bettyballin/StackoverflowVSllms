@@ -1,1 +1,0 @@
-$answer_id = $_POST['answer_id'];\nif (!in_array($answer_id, array('313', '314'))) {\n    // handle invalid answer id\n}

@@ -1,1 +1,0 @@
-SELECT full_name\nFROM (\n  SELECT o.operator_id AS authorised_by, o.full_name\n  FROM lims.operator o\n  JOIN lims.sample s ON o.operator_id = s.authorised_by\n  WHERE s.sample_template_id = 200\n  UNION ALL\n  SELECT NULL, NULL\n  FROM lims.sample s\n  WHERE s.sample_template_id = 200 AND s.authorised_by IS NULL\n) AS combined

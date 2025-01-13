@@ -1,1 +1,0 @@
-SELECT p.id, COALESCE(pl.name, p.name) \nFROM products p \nLEFT JOIN products_l10n pl ON p.id = pl.product_id AND pl.language_id = 'de' \nLEFT JOIN languages l ON p.default_language_id = l.id \nWHERE l.code = 'en';

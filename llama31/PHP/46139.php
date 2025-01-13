@@ -1,1 +1,0 @@
-use Swift_Mailer;\nuse Swift_Message;\n\n$mailer = new Swift_Mailer('smtp.example.com', 'your_username', 'your_password');\n$message = new Swift_Message('Test Email');\n$message->setFrom('your_email@example.com');\n$message->setBody('Hello, World!');\n$message->attach(new Swift_Attachment('path/to/attachment.pdf'));\n$mailer->send($message);

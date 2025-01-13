@@ -1,1 +1,0 @@
-DECLARE\n  p1 VARCHAR2(255);\n  p2 VARCHAR2(255);\nBEGIN\n  p1 := WEB.GET_PARAMETER('p1');\n  p2 := WEB.GET_PARAMETER('p2');\n  MESSAGE(p1 || ' ' || p2);\nEND;

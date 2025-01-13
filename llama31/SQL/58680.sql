@@ -1,1 +1,0 @@
--- Export database schema and data\nexpdp system/manager DIRECTORY=export_dir DUMPFILE=database_export.dmp SCHEMAS=your_schema\n\n-- Import database schema and data\nimpdp system/manager DIRECTORY=import_dir DUMPFILE=database_export.dmp

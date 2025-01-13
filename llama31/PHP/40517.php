@@ -1,1 +1,0 @@
-function update_actionlog() {\n    $ticketnum = $this->input->post('ticketnum');\n    $actionlog = $this->input->post('actionlog');\n    $this->m_tickets->updateActionLog($ticketnum, $actionlog);\n    $data['actionlog'] = $this->m_tickets->actionLogPull($ticketnum);\n    $this->load->vars($data);\n    $this->load->view('content/ajaxtestform');\n}

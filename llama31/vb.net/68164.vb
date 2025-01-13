@@ -1,1 +1,0 @@
-Dim index As Integer\nFor Each objNode In objDoc.SelectNodes("//books/book")\n    index = objDoc.SelectNodes("//books/book").IndexOf(objNode) + 1\n    ' Do something with the index\n    Console.WriteLine(index)\nNext

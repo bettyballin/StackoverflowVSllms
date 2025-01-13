@@ -1,1 +1,0 @@
-import sys\n\ndef read_file(file_path):\n    try:\n        with open(file_path, 'r') as file:\n            data = file.read()\n    except IOError:\n        print('Error: Failed to open file', file_path)\n        sys.exit(1)\n    return data\n\n# Example usage\nfile_path = 'path/to/file.txt'\ndata = read_file(file_path)\nprint(data)

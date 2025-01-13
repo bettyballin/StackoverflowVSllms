@@ -1,1 +1,0 @@
-// Client-side JavaScript code\nfunction getMessage() {\n    PageMethods.GetMessage(onSuccess, onFailure);\n}\n\nfunction onSuccess(result) {\n    alert(result);\n}\n\nfunction onFailure(error) {\n    alert(error);\n}

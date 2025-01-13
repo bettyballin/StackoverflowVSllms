@@ -1,1 +1,0 @@
-class Factory {\n    public function createDatabase() {\n        $logger = $this->createLogger();\n        return new Database($logger);\n    }\n\n    public function createLogger() {\n        $database = $this->createDatabase();\n        return new Log($database);\n    }\n}

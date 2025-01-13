@@ -1,1 +1,0 @@
-<plugin>\n    <groupId>org.apache.maven.plugins</groupId>\n    <artifactId>maven-failsafe-plugin</artifactId>\n    <version>2.22.2</version>\n    <configuration>\n        <includes>\n            <include>**/*IT*.java</include>\n        </includes>\n        <excludes>\n            <exclude>**/*Test*.java</exclude>\n        </excludes>\n    </configuration>\n</plugin>

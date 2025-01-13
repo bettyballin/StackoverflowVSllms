@@ -1,1 +1,0 @@
-def newFunct(key, **kwargs):\n    new_value = key + str(kwargs[key])\n    return new_value\n\nfor key in testDict:\n    new_value = newFunct(key, **testDict)\n    print(new_value)

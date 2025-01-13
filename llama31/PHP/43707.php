@@ -1,1 +1,0 @@
-$featureEnabled = true;\n\nif ($featureEnabled) {\n    // code to be executed when feature is enabled\n} else {\n    // code to be executed when feature is disabled\n}

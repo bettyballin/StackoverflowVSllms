@@ -1,1 +1,0 @@
-$string = "php, regu[]lar expre[# # 1]ssio [# # 2]nssadas das dasd as das dasdssd [# # 301]dfs dfsdf sd fsdfds";\n\n$pattern = '/\[# # (\d+)\]/';\n$replacement = '{$1}';\n\necho preg_replace($pattern, $replacement, $string);

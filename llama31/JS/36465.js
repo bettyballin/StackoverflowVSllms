@@ -1,1 +1,0 @@
-var hasErrors = '@ViewBag.HasErrors';\nif (hasErrors === 'True') {\n    // validation has errors\n}

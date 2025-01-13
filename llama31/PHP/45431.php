@@ -1,1 +1,0 @@
-function magic($obj, $property, $value = null) {\n    if ($value !== null) {\n        $obj->{$property} = $value;\n    }\n    return $obj->{$property};\n}

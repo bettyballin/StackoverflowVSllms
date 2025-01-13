@@ -1,1 +1,0 @@
-SELECT * FROM users WHERE name = ʼadminʼ OR 1=1

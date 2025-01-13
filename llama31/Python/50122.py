@@ -1,1 +1,0 @@
-window = gtk.Window(gtk.WINDOW_TYPE_HINT_DESKTOP)

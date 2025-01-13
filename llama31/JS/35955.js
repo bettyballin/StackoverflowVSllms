@@ -1,1 +1,0 @@
-// JavaScript\n$.ajax({\n    url: 'ajax.php',\n    type: 'GET',\n    success: function(data) {\n        var link = $('<a>').attr('href', data).text('Delete');\n        $('#link-container').append(link);\n    }\n});

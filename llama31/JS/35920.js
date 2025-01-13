@@ -1,1 +1,0 @@
-var requestData = {\n    data: "some data",\n    __RequestVerificationToken: $('input[name="__RequestVerificationToken"]').val()\n};\n\n$.ajax({\n    type: "POST",\n    url: "/MySecureMethod",\n    data: requestData,\n    success: function (response) {\n        // Handle response\n    }\n});

@@ -1,1 +1,0 @@
-<Placemark>\n  <name>My Placemark</name>\n  <description>\n    <![CDATA[\n      <iframe src="http://your-server.com/placemark-description.html" \n              frameborder="0" width="100%" height="100%"></iframe>\n    ]]>\n  </description>\n  <Point>\n    <coordinates>...</coordinates>\n  </Point>\n</Placemark>

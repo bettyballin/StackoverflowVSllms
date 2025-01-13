@@ -1,1 +1,0 @@
-# Install flup\npip install flup\n\n# Example with flup\nfrom flup.server.fcgi import WSGIServer\n\ndef app(environ, start_response):\n    # Your CGI code here\n\nWSGIServer(app).run()

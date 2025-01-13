@@ -1,1 +1,0 @@
-// jQuery code\nfunction display(id) {\n  return $.ajax({\n    type: 'POST',\n    url: 'ajax.php',\n    data: 'id=' + id\n  });\n}\n\n// JavaScript code\nfunction showName() {\n  var id = 12;\n  display(id).then(function(salary) {\n    console.log(salary); // Handle the response data here\n  });\n}

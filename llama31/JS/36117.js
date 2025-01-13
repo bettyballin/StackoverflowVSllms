@@ -1,1 +1,0 @@
-$('#text-field').typeahead({\n  name: 'suggestions',\n  local: ['Suggestion 1', 'Suggestion 2', 'Suggestion 3']\n});

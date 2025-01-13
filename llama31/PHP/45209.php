@@ -1,1 +1,0 @@
-$this->getRequest()->getParam('Name with Space');

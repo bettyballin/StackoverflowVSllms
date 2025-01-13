@@ -1,1 +1,0 @@
-$lastUpdateTimestamp = file_get_contents('last_update.txt');\n$currentTimestamp = time();\n\nif ($lastUpdateTimestamp === $currentTimestamp) {\n    // Return cached result\n    return $cachedResult;\n} else {\n    // Run the query and update the timestamp\n    $result = runQuery();\n    file_put_contents('last_update.txt', $currentTimestamp);\n    return $result;\n}

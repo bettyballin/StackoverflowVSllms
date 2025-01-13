@@ -1,1 +1,0 @@
-$db_con = mysql_pconnect($host, $username, $password);\nmysql_select_db($database, $db_con);\n\n$result = mysql_query("SELECT SQL_CALC_FOUND_ROWS * FROM users LIMIT 0,10", $db_con);\n$count_result = mysql_query("SELECT FOUND_ROWS() as totalcount", $db_con);\n$row = mysql_fetch_assoc($count_result);\n$total = $row['totalcount'];

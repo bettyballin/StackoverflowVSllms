@@ -1,1 +1,0 @@
-SELECT \n  A.Activity, \n  SUM(I1.Amount) as "Total Amount 2009",\n  SUM(I2.Amount) as "Total Amount 2008"\nFROM \n  Activities A\n  LEFT JOIN Incomes I1 ON A.ActivityID = I1.ActivityId\n  LEFT JOIN Incomes2008 I2 ON A.ActivityID = I2.ActivityId\nWHERE \n  A.UnitName = ?\nGROUP BY \n  A.Activity\nORDER BY \n  A.Activity;

@@ -1,1 +1,0 @@
-class Person:\n    def __init__(self, name, age):\n        self.name = name\n        self.age = age\n\n    def __str__(self):\n        return f"{self.name}, {self.age} years old"\n\nperson = Person("John", 30)\nexpression = Expression(person) == 30\nmagic(expression)  # Output: John, 30 years old == 30

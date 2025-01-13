@@ -1,1 +1,0 @@
-var div = document.createElement('div');\ndiv.innerHTML = xhr.responseText;\nvar yourDiv = div.querySelector('#yourDivId');\n// now you can append the div to your current page\ndocument.body.appendChild(yourDiv);

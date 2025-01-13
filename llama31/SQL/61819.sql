@@ -1,1 +1,0 @@
--- Declare a table variable to store the ID numbers\nDECLARE @pidms TABLE (pidm INT);\n\n-- Populate the table variable with the ID numbers\nINSERT INTO @pidms (pidm)\nSELECT pidm\nFROM sql_server_table;\n\n-- Use OPENQUERY with a JOIN to filter the results\nSELECT o.pidm\nFROM OPENQUERY(oracledb, 'SELECT pidm FROM table') o\nINNER JOIN @pidms p ON o.pidm = p.pidm;

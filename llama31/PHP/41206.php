@@ -1,1 +1,0 @@
-$array = [\n    [1, 'Al', 3],\n    [2, 'Bea', 2],\n    [3, 'Chan', 1], \n    [4, 'Doug', 2],\n    [5, 'Ed', 3],\n    [6, 'Fey', 1],\n];\n\nusort($array, function($a, $b) {\n    return $b[2] <=> $a[2];\n});\n\nprint_r($array);

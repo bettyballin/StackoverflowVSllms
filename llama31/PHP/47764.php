@@ -1,1 +1,0 @@
-header('X-Accel-Redirect: /path/to/video.mp4');

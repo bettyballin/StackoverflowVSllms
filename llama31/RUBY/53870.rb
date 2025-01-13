@@ -1,1 +1,0 @@
-def select_interface(interfaces)\n  interface = nil\n  list_box :items => interfaces do |list|\n    interface = list.text\n    Thread.main.wakeup\n  end\n  Thread.stop\n  return interface\nend

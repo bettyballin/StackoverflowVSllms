@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded", function() {\n  const links = document.querySelectorAll("a");\n\n  links.forEach(function(link) {\n    link.addEventListener("mouseover", function() {\n      link.classList.add("hover");\n    });\n    link.addEventListener("mouseout", function() {\n      link.classList.remove("hover");\n    });\n  });\n});

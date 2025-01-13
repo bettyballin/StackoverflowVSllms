@@ -1,1 +1,0 @@
-# test_helper.rb\nrequire 'rake'\n\n# Override the :environment task to use the test database\nRake::Task[:environment].clear\nRake::Task.define_task(:environment) do\n  # Set up the test database connection and classes here\n  ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: ':memory:')\n  # ... other setup code ...\nend

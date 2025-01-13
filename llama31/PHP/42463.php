@@ -1,1 +1,0 @@
-$html = '<a href="../" title="link title">' . $link_text . '</a>';\n$html = preg_replace('/="([^"]*)"/', '="\1"', $html);\necho $html;

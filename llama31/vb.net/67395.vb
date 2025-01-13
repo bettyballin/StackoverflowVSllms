@@ -1,1 +1,0 @@
-Public Sub ProcessInput()\n    Dim obj As New MyClass()\n    Dim reasonCode As ReasonCodeEnum = ReasonCodeEnum.ServiceNotCovered\n    If obj.ReasonCode = reasonCode.ToString() Then\n        'Do one thing\n    ElseIf obj.ReasonCode = ReasonCodeEnum.MemberNotEligible.ToString() Then\n        'Do something different\n    'Other enum value cases and default\n    End If\nEnd Sub

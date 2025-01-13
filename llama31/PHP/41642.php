@@ -1,1 +1,0 @@
-$values = mysql_query("SELECT lname, fname, email, dtelephone, etelephone, contactwhen, thursday, friday, saturday, sunday, monday, comments FROM volunteers_2009 WHERE venue_id = $venue_id");\n\n$fp = fopen('output.csv', 'w');\n\nwhile ($rowr = mysql_fetch_row($values)) {\n    fputcsv($fp, $rowr);\n}\n\nfclose($fp);

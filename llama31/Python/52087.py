@@ -1,1 +1,0 @@
-from lxml import html\n\nhtml_code = "<html>...</html>"  # your malformed HTML code\nparser = html.HTMLParser(recover=True)\ndom = html.fromstring(html_code, parser=parser)

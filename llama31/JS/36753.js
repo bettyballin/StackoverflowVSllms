@@ -1,1 +1,0 @@
-const form = document.querySelector('form[name="form1"]');\nconst txtSessionId = document.querySelector('#txtSessionId');\n\nform.addEventListener('submit', (e) => {\n  e.preventDefault();\n  const sessionId = txtSessionId.value;\n  const newAction = `https://www.mywebsite.com/${sessionId}`;\n  form.action = newAction;\n  form.submit();\n});

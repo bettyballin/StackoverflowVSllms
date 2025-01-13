@@ -1,1 +1,0 @@
-class Player {\n  private static $instance = null;\n\n  private function __construct() {}\n\n  public static function getInstance() {\n    if (self::$instance === null) {\n      self::$instance = new Player();\n    }\n    return self::$instance;\n  }\n\n  public function playSong($song) {\n    // Your code to play the song goes here\n  }\n}

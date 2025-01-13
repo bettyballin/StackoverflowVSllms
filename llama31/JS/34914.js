@@ -1,1 +1,0 @@
-function submit_form(){\n    var form_data = $('form').serialize();\n    \n    $.post("ajax.php", form_data,\n    function(data){\n        $("#lightbox").html(data);\n    });\n}

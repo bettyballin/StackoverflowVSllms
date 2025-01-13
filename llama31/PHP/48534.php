@@ -1,1 +1,0 @@
-$allowedPages = array("grac", "zamknij", "dolaczyc");\n$page = $_GET['page'];\nif (in_array($page, $allowedPages)) {\n  include($page.'.php');\n} else {\n  include('error.php');\n}

@@ -1,1 +1,0 @@
-$record = mysql_fetch_array($result, MYSQL_ASSOC);

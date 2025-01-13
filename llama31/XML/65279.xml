@@ -1,1 +1,0 @@
-<system.serviceModel>\n  <behaviors>\n    <serviceBehaviors>\n      <behavior>\n        <serviceMetadata httpGetEnabled="true" hostHeader="http://1.2.3.4" />\n      </behavior>\n    </serviceBehaviors>\n  </behaviors>\n</system.serviceModel>

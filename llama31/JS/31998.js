@@ -1,1 +1,0 @@
-// in your success callback\najaxManager.clearQueue();

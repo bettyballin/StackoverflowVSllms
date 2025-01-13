@@ -1,1 +1,0 @@
-Dim list = xd.Descendants("product").\n    Select(Function(element) New With {\n        .Title = element.Attribute("title").Value,\n        .Duration = element.Element("duration").Value\n    }).ToList()

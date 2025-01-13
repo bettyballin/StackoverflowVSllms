@@ -1,1 +1,0 @@
-var so = new SWFObject("/icpmenu_es/menu.swf", "menu", "185", "440", "8", "#000000");

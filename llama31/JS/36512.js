@@ -1,1 +1,0 @@
-function convertHtmlEntities(str) {\n  const parser = new DOMParser();\n  const doc = parser.parseFromString(str, 'text/html');\n  return doc.documentElement.textContent;\n}\n\nconst object = {};\nobject.Text = convertHtmlEntities("&#97;");\nconsole.log(object.Text); // outputs: "a"

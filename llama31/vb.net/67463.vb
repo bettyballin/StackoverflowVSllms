@@ -1,1 +1,0 @@
-If Not DateTime.TryParse(DT.Rows(0)("LastLogin"), _LastLogin) Then\n    _LastLogin = Nothing\nEnd If

@@ -1,1 +1,0 @@
-// Iframe content script\nwindow.addEventListener('load', function() {\n  // Listen for form submission\n  document.addEventListener('submit', function(event) {\n    // Send a message to the parent page when submission is complete\n    parent.postMessage('submitComplete', '*');\n  }, false);\n}, false);

@@ -1,1 +1,0 @@
-class Name {\n    public $jobs2do;\n\n    public function __construct($string) {\n        $this->jobs2do[] = function() {\n            $this->do();\n        };\n    }\n\n    public function do() {\n        // ...\n    }\n}\n\n$instance = new Name();\nforeach ($instance->jobs2do as $job) {\n    $job();\n}

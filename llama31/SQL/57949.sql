@@ -1,1 +1,0 @@
--- Do not use NUMBER type for storing Java double values\nCREATE TABLE example_table (\n    double_value NUMBER -- Insufficient precision\n);

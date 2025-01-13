@@ -1,1 +1,0 @@
-Dim input As String = "##RES00012##Some value ##RES00034##Another value"\nDim pattern As String = "(##RES[^#]+##.*?)(?=##RES|$)"\nDim matches As MatchCollection = Regex.Matches(input, pattern)\n\nFor Each match As Match In matches\n    Console.WriteLine(match.Value)\nNext

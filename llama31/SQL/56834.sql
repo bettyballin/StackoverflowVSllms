@@ -1,1 +1,0 @@
-SELECT count(*) \nFROM quote_ident('mytable') AS t;

@@ -1,1 +1,0 @@
-CREATE TABLE Questions (\n    ...\n    TITLE nvarchar(60) NOT NULL CHECK (TITLE <> ''),\n    ...\n);

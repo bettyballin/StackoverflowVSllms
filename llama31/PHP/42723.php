@@ -1,1 +1,0 @@
-// List.php (model)\npublic function sortItems() {\n    $items = $this->listItems;\n    usort($items, function($a, $b) {\n        return $a->rank - $b->rank;\n    });\n    return $items;\n}

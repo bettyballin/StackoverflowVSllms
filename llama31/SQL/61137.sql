@@ -1,1 +1,0 @@
-/* Example of securely connecting to a database in SAS BI Dashboard */\nproc sql;\n  connect to oracle (user="username" password="password" db="database");\n  create table bi_data as select * from connection to oracle;\n  disconnect from oracle;\nquit;

@@ -1,1 +1,0 @@
-CREATE TYPE [dbo].[parseInputFile] AS TABLE(\n    [strRow] [varchar](500) NOT NULL\n);\n\nALTER PROCEDURE [dbo].[InsertPIF] @InputFileParam parseInputFile READONLY\nAS\nINSERT dbo.ParentTable (strInput) SELECT strRow FROM @InputFileParam;\nGO

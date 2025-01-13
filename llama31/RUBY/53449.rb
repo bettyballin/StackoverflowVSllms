@@ -1,1 +1,0 @@
-class ListingsHelperTest < ActionView::TestCase\n  def setup\n    @controller = ListingsController.new\n    @request  = ActionController::TestRequest.new\n    @response = ActionController::TestResponse.new\n    \n    # Mock the request\n    @request.request_method = 'GET'\n    @request.path_parameters = {}\n    @request.query_parameters = {}\n  end\nend

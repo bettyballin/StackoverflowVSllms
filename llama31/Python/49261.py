@@ -1,1 +1,0 @@
-import platform\n\ndef get_interpreter_name(request):\n    return platform.python_implementation()\n\n# In your view\nfrom django.http import HttpResponse\n\ndef my_view(request):\n    interpreter_name = get_interpreter_name(request)\n    return HttpResponse(f"Interpreter name: {interpreter_name}")

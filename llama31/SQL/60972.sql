@@ -1,1 +1,0 @@
-SET LOCK_TIMEOUT 1000  -- 1 second timeout

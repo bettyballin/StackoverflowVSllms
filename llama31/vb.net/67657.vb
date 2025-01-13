@@ -1,1 +1,0 @@
-Sub MyFunction()\n    On Error GoTo ErrorHandler\n    \n    ' Code that might raise an error\n    \n    Exit Sub\n    \nErrorHandler:\n    Debug.Print "Error at line " & Erl\n    ' Log the error or take other actions\nEnd Sub

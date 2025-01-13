@@ -1,1 +1,0 @@
-class DogObject {\n    public function __invoke() {\n        return false;\n    }\n}\n\n$dog = new DogObject();\nif ($dog()) { // Notice the parentheses\n    return "This is bad;";\n} else {\n    return "Excellent! $dog was false!";\n}

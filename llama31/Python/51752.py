@@ -1,1 +1,0 @@
-# Using pip to manage dependencies\nimport pip\n\n# Define dependencies in requirements.txt\nwith open('requirements.txt', 'r') as f:\n    dependencies = f.read().splitlines()\n\n# Install dependencies\npip.install(dependencies)\n\n# Import dependencies\nimport dependency1\nimport dependency2

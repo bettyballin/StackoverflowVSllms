@@ -1,1 +1,0 @@
-$points = array();\nforeach ($xpointsArray as $xvalue) {\n    foreach ($ypointsArray as $yvalue) {\n        $points[] = array($xvalue, $yvalue);\n    }\n}\n\n// Now you can access the points like this:\nforeach ($points as $point) {\n    list($x, $y) = $point;\n    // Draw point at coordinates $x, $y\n}

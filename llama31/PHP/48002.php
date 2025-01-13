@@ -1,1 +1,0 @@
-$array = array(\n    'key1' => 'value1',\n    'key2' => 'value2',\n    ...\n    'key57' => 'value57'\n);\n\n$keysToKeep = array('key2', 'key57');\n$filteredArray = array_intersect_key($array, array_flip($keysToKeep));\n\nprint_r($filteredArray);

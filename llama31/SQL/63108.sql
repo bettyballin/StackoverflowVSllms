@@ -1,1 +1,0 @@
-INSERT INTO OPENROWSET('Microsoft.Jet.OLEDB.4.0', \n'Excel 8.0;Database=C:\newfile.xls;', \n'SELECT * FROM [SheetName$]')\nSELECT * FROM myTable

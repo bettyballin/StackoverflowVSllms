@@ -1,1 +1,0 @@
-UPDATE o\nSET o.UserId = m.Id\nFROM Orders o\nJOIN UserGuidMapping m ON o.Initials = m.Initials;

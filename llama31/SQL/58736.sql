@@ -1,1 +1,0 @@
-SELECT TOP 1 \n    @TmpGFSID = ShoppingCartItem.GFSID, \n    @TmpQuantity = ShoppingCartItem.Quantity,\n    @TmpShoppingCartItemID = ShoppingCartItem.ShoppingCartItemID,\nFROM\n    ShoppingCartItem \nINNER JOIN \n    GoodsForSale on ShoppingCartItem.GFSID = GoodsForSale.GFSID\nWHERE \n    ShoppingCartItem.PurchID = @PurchID\nORDER BY \n    ShoppingCartItem.ShoppingCartItemID

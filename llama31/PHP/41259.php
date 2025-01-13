@@ -1,1 +1,0 @@
-$allowedExtensions = ['jpg', 'jpeg', 'png'];\n$allowedMimeTypes = ['image/jpeg', 'image/png'];\n\nif(in_array(strtolower(pathinfo($name, PATHINFO_EXTENSION)), $allowedExtensions) && in_array($type, $allowedMimeTypes)){\n    // file is an image\n} else {\n    // file is not an image\n}

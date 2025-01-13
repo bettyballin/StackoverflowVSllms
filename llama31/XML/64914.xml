@@ -1,1 +1,0 @@
-<behaviors>\n  <serviceBehaviors>\n    <behavior name="MyServiceBehavior">\n      <serviceCredentials>\n        <userNameAuthentication userNamePasswordValidationMode="Custom" customUserNamePasswordValidatorType="YourNamespace.CustomUserNameValidator, YourAssemblyName" />\n      </serviceCredentials>\n    </behavior>\n  </serviceBehaviors>\n</behaviors>

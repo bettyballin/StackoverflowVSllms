@@ -1,1 +1,0 @@
-class test {\n    public static function sayHi() {\n        echo 'hi';\n    }\n}

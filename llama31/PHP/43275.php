@@ -1,1 +1,0 @@
-class CustomCheckbox extends Zend_Form_Element_Checkbox\n{\n    public function getErrorMessage()\n    {\n        if ($this->isRequired() && !$this->getValue()) {\n            return 'You must agree with terms and conditions';\n        }\n        return parent::getErrorMessage();\n    }\n}\n\n$form->addElement(new CustomCheckbox('terms', array('required' => true)));

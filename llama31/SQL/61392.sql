@@ -1,1 +1,0 @@
-WITH connected_sets AS (\n  SELECT a.set_id, b.set_id AS connected_set_id\n  FROM your_table a\n  JOIN your_table b ON a.element = b.element AND a.set_id != b.set_id\n)\nSELECT DISTINCT a.set_id, b.connected_set_id\nFROM connected_sets a\nJOIN connected_sets b ON a.set_id = b.connected_set_id OR a.connected_set_id = b.set_id

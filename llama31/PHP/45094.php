@@ -1,1 +1,0 @@
-$encrypted = openssl_encrypt("message", "AES-128-CBC", "secret key", 0, "initialization vector");\n$decrypted = openssl_decrypt($encrypted, "AES-128-CBC", "secret key", 0, "initialization vector");

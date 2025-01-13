@@ -1,1 +1,0 @@
-class SomeOtherClass {\n    private $user;\n\n    public function __construct(User $user) {\n        $this->user = $user;\n    }\n\n    public function doSomething() {\n        if ($this->user->isLoggedIn()) {\n            // do something\n        }\n    }\n}

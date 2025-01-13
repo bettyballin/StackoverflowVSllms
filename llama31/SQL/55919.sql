@@ -1,1 +1,0 @@
-SELECT \n  ProductCode,\n  SerialNumber,\n  Quantity\nFROM (\n  SELECT \n    ProductCode,\n    SerialNumber,\n    Quantity,\n    ROW_NUMBER() OVER (PARTITION BY ProductCode, SerialNumber ORDER BY DatePurchased DESC) AS rn\n  FROM \n    your_table\n  WHERE \n    CustomerID = 'xxx'\n) AS subquery\nWHERE \n  rn = 1;

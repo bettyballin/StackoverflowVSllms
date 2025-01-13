@@ -1,1 +1,0 @@
-$field_value = $_POST['field_name'];\n$utf8_value = iconv('Windows-1251', 'UTF-8', $field_value);

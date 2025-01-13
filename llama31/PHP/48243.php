@@ -1,1 +1,0 @@
-<?php\n$key = 'your_encryption_key_here';\n$password = 'your_password_here';\n\n// Encrypt the key\n$encryptedKey = openssl_encrypt($key, 'AES-256-CBC', $password, 0, 'your_iv_here');\n\n// Store the encrypted key in a file\nfile_put_contents('encrypted_key.txt', $encryptedKey);

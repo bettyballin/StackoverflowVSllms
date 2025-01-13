@@ -1,1 +1,0 @@
-SELECT 'true' WHERE NOT EXISTS (\n  SELECT 1 FROM (VALUES (1), (2), (null)) AS t(v)\n  WHERE t.v = 3\n)

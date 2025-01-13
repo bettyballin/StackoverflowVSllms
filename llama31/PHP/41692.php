@@ -1,1 +1,0 @@
-<td><?php echo $content->MemberID ?></td>\n<td><?php echo $content->MemberName ?></td>\n<td><?php echo $content->FruitNames ?></td>

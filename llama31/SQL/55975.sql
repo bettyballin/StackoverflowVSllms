@@ -1,1 +1,0 @@
-<cfquery name="mappingQuery">\n    CREATE TABLE #IDMapping (\n        OldAccountID INT,\n        NewAccountID INT IDENTITY(1,1) PRIMARY KEY\n    );\n</cfquery>\n\n<!--- ... repeat the SQL statements above using cfquery tags ... -->\n\n<cfquery name="dropMappingQuery">\n    DROP TABLE #IDMapping;\n</cfquery>

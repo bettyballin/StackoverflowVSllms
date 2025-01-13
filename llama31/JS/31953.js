@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('#datetime-field').blur(function() {\n    var datetime = $(this).val();\n    var pattern = /^\d{4}-\d{2}-\d{2} \d{2}:\d{2}$/;\n    if (!pattern.test(datetime)) {\n      $('#error-message').text('Invalid date/time format. Please use YYYY-MM-DD HH:MM');\n    } else {\n      $('#error-message').text('');\n    }\n  });\n});

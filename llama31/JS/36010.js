@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('#selectId').change(function() {\n    var url = $(this).val();\n    if (url != '') {\n      window.location.href = url;\n    }\n  });\n});

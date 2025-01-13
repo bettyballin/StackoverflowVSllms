@@ -1,1 +1,0 @@
-setInterval(function() {\n    $.ajax({\n        type: "GET",\n        url: "/SomePage.aspx?ticketId=" + ticketId,\n        success: function(data) {\n            if (data.isModified) {\n                // Notify the user that someone else has modified the content\n            }\n        }\n    });\n}, 30000); // refresh every 30 seconds

@@ -1,1 +1,0 @@
-Imports System\n\nModule Module1\n    Sub Main()\n        Dim currentDir As String = Environment.CurrentDirectory\n        Console.WriteLine("Current directory: " & currentDir)\n        ' Use currentDir as needed\n    End Sub\nEnd Module

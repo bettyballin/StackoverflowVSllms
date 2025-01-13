@@ -1,1 +1,0 @@
-input_string = "abcdefgh"\npatterns = ["bc", "f"]\nresult = split_string(input_string, patterns)\nprint(result)  # Output: ["a", "bc", "de", "f", "gh"]

@@ -1,1 +1,0 @@
-SELECT TOP 100 DateOfBirth, TimesPlayed, Versions, playvalue\nFROM tb_player;

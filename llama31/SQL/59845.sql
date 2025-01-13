@@ -1,1 +1,0 @@
-SELECT * FROM table WHERE status = 'new' AND id = 10 FOR UPDATE;\nUPDATE table SET status = 'old' WHERE id = 10;

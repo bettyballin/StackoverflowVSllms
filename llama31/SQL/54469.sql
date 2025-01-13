@@ -1,1 +1,0 @@
-INSERT INTO group_types (id, type) VALUES\n  (1, 'buyer'),\n  (2, 'seller'),\n  (3, 'referee');\n\nINSERT INTO groups (id, group_type_id) VALUES\n  (1, 1),\n  (2, 2),\n  (3, 3);\n\nINSERT INTO buyer_specializations (id, group_id, specialization) VALUES\n  (1, 1, 'electrical'),\n  (2, 1, 'mechanical');

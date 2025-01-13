@@ -1,1 +1,0 @@
-SELECT TIMESTAMPDIFF(SECOND, datetime1, datetime2) AS elapsed_time\nFROM your_table;

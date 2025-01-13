@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_ProductCode\nON dbo.Products\nINSTEAD OF INSERT\nAS\nBEGIN\n    IF APP_NAME() = 'Administration Frontend'\n    BEGIN\n        -- Generate Product Code logic here\n    END\n    ELSE\n    BEGIN\n        -- Do nothing, allow insert to proceed without generating Product Code\n    END\nEND

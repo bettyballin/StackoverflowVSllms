@@ -1,1 +1,0 @@
-SELECT *\nFROM logging_table\nWHERE DATEPART(HOUR, datetime_field) > 17

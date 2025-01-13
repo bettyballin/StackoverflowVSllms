@@ -1,1 +1,0 @@
-SELECT name, collation_name FROM sys.databases WHERE name = 'your_database_name'

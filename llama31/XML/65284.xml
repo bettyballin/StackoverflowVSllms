@@ -1,1 +1,0 @@
-<rewrite>\n  <rules>\n    <rule name="ReverseProxy" stopProcessing="true">\n      <match url="(.*)" />\n      <action type="Rewrite" url="http://jboss-server:8080/{R:1}" />\n      <serverVariables>\n        <set name="HTTP_COOKIE" value="username=%{REMOTE_USER}; roles=%{REMOTE_USER_GROUPS}" />\n      </serverVariables>\n    </rule>\n  </rules>\n</rewrite>

@@ -1,1 +1,0 @@
-$xml = file_get_contents($request);\necho htmlspecialchars($xml);

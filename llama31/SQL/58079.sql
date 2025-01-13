@@ -1,1 +1,0 @@
-SELECT col FROM db.tbl WHERE col REGEXP 'str1|str2' AND col2 = num;

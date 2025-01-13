@@ -1,1 +1,0 @@
--- Move item with id = 1 to position 1\nUPDATE your_table\nSET position = position + 1\nWHERE position >= 1 AND id != 1;\n\nUPDATE your_table\nSET position = 1\nWHERE id = 1;

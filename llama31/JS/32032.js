@@ -1,1 +1,0 @@
-var url = 'image.jpg?' + new Date().getTime();\n$.ajax({ url: url, ... });

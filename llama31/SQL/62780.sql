@@ -1,1 +1,0 @@
-BACKUP DATABASE [production_database] TO DISK = 'backup_file.bak'

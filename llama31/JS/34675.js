@@ -1,1 +1,0 @@
-var popup = window.open('https://openid.example.com/auth', 'openid_popup', 'width=500,height=500');

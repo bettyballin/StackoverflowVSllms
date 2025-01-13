@@ -1,1 +1,0 @@
-function sanitizeFileName($str) {\n    $str = str_replace(array(\n        "\0", "\"", "*", "/", ":", "<", ">", "?", "\\", "|", "^", "~", "[", "]", "{", "}", "(", ")", "&", "$", "#", " ", "%"\n    ), "_", $str);\n    return $str;\n}

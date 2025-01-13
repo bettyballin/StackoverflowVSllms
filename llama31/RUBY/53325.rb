@@ -1,1 +1,0 @@
-text = "hello john\nyour username is: jj\nthanks for signing up\n"\nvalue = text[/your username is: (.*)/, 1]

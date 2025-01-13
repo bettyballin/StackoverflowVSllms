@@ -1,1 +1,0 @@
-try:\n    index = my_list.index(item)\n    print(index)\nexcept ValueError:\n    print("Item not found in the list")

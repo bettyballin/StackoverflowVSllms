@@ -1,1 +1,0 @@
-SELECT A.Name, A.Street, A.City, A.State\nFROM Addresses A\nINNER JOIN (\n  SELECT Name, MIN(Street) AS MinStreet\n  FROM Addresses\n  GROUP BY Name\n) AS B\nON A.Name = B.Name AND A.Street = B.MinStreet

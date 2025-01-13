@@ -1,1 +1,0 @@
-Imports System.Linq\n\nModule MyExtensions\n    <Extension()> _\n    Public Function HelloWorld(ByVal s As String) As String\n        Return s & " World!"\n    End Function\nEnd Module

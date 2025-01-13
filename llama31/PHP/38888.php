@@ -1,1 +1,0 @@
-$request = Zend_Controller_Front::getInstance()->getRequest();\n$start = $request->getQuery('start');\n$end = $request->getQuery('end');

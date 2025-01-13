@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <httpCompression directory="%SystemDrive%\inetpub\temp\IIS Temporary Compressed Files">\n      <scheme name="gzip" dll="%Windir%\system32\inetsrv\gzip.dll" />\n    </httpCompression>\n  </system.webServer>\n</configuration>

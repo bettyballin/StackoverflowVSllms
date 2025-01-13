@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n-- Select a chunk of work (e.g., 100 items)\nSELECT * FROM work_queue\nWHERE status = 'pending'\nORDER BY id\nLIMIT 100\nFOR UPDATE;\n\n-- Mark the selected rows as in_progress\nUPDATE work_queue\nSET status = 'in_progress'\nWHERE id IN (SELECT id FROM work_queue WHERE status = 'pending' ORDER BY id LIMIT 100);\n\nCOMMIT;

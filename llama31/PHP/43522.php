@@ -1,1 +1,0 @@
-if (preg_match($yahooRegex, $username)) {\n    echo 'Username is valid';\n} else {\n    echo 'Username is not valid';\n}

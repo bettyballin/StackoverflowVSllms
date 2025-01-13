@@ -1,1 +1,0 @@
-SELECT INITCAP(your_column) AS proper_case_column\nFROM your_table;

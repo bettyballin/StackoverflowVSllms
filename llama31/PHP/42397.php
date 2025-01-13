@@ -1,1 +1,0 @@
-// Assume you have a User class with a getRole() method\n$user = new User();\nif ($user->getRole() === 'admin') {\n    echo '<a href="foobar/?update">edit</a>';\n}

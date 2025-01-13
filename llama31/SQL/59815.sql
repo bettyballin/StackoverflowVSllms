@@ -1,1 +1,0 @@
-GRANT VIEW SERVER STATE TO [YourUsername];

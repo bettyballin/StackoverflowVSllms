@@ -1,1 +1,0 @@
-<defects>\n  <summary>\n    <group priority="High" count="567" />\n    <group priority="Medium" count="437" />\n    <group priority="Low" count="19" />\n  </summary>\n  <defect id="1" priority="High" ... />\n  <defect id="2" priority="High" ... />\n  ...\n</defects>

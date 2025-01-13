@@ -1,1 +1,0 @@
-function test() {\n    echo 'Foo';\n    goto a;\n    echo 'Bar'; // this will be skipped\n    a:\n    echo 'Baz';\n}\ntest(); // outputs "FooBaz"

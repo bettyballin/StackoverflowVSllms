@@ -1,1 +1,0 @@
-const element = document.getElementById('myDiv');\nif (checkOverflow(element)) {\n  console.log('The element\'s content overflows.');\n} else {\n  console.log('The element\'s content does not overflow.');\n}

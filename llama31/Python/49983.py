@@ -1,1 +1,0 @@
-probabilities = np.array([0.2, 0.2, 0.01, 0.01, 0.001, 0.001, ...])  # len ~ 100\nn = 8\n\nselected_features = select_consecutive_features(probabilities, n)\nprint(selected_features)

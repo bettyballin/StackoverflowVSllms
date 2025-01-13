@@ -1,1 +1,0 @@
-SELECT notes.*\nFROM notes\nJOIN note_labels ON notes.id = note_labels.note_id\nJOIN labels ON note_labels.label_id = labels.id\nWHERE labels.name IN ('one', 'two')\nGROUP BY notes.id\nHAVING COUNT(DISTINCT labels.name) = 2

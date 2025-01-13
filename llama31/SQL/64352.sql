@@ -1,1 +1,0 @@
-CREATE PROCEDURE UpdateRecords\nAS\nBEGIN\n    UPDATE t\n    SET flag = 1\n    FROM YourTable t\n    INNER JOIN (\n        SELECT id FROM YourStoredProcedure\n    ) s ON t.id = s.id;\nEND;

@@ -1,1 +1,0 @@
-class RenameAbcdToABCD < ActiveRecord::Migration[6.0]\n  def change\n    rename_column :xxxxx, :abcd, :ABCD, type: :text\n  end\nend

@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_UpdateLastModifiedDate\nON YourTable\nAFTER UPDATE\nAS\nBEGIN\n    UPDATE YourTable\n    SET LastModifiedDate = GETDATE()\n    WHERE YourTable.PrimaryKey = inserted.PrimaryKey\nEND

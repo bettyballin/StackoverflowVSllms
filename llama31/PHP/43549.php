@@ -1,1 +1,0 @@
-$string = 'ä';\n$encoding = 'UTF-8';\necho mb_strlen($string, $encoding); // 1\n\n$encoding = 'ISO-8859-1';\necho mb_strlen($string, $encoding); // 1\n\n$encoding = 'Windows-1252';\necho mb_strlen($string, $encoding); // 1

@@ -1,1 +1,0 @@
-// Define the placeholder string\n$this->translate('page-error-%s');\n\n// Use sprintf() to replace the placeholder with the actual error type\n$errorType = 'invalid-password';\n$message = sprintf($this->translate('page-error-%s'), $errorType);

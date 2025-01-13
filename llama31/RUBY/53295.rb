@@ -1,1 +1,0 @@
-# config/routes.rb\nresources :students do\n  member do\n    post :add_class\n    post :remove_class\n  end\nend

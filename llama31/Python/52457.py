@@ -1,1 +1,0 @@
-related_foos = Foo.all().filter('bars IN', [bar_entity1, bar_entity2, ...]).fetch(fetch_count)

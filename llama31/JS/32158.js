@@ -1,1 +1,0 @@
-function stepOne() {\n    return new Promise(resolve => {\n        // Simulate a long-running operation\n        setTimeout(function() {\n            console.log("Step one completed.");\n            resolve();\n        }, 30000); // 30 seconds\n    });\n}\n\nfunction stepTwo() {\n    console.log("Step two completed.");\n}\n\nstepOne().then(stepTwo);

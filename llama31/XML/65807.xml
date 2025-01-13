@@ -1,1 +1,0 @@
-<project>\n  <vcs-settings>\n    <vcs>\n      <git>\n        <url>git@github.com:your-repo-name.git</url>\n        <auth-method>privateKey</auth-method>\n        <private-key-path>/path/to/id_rsa</private-key-path>\n      </git>\n    </vcs>\n  </vcs-settings>\n</project>

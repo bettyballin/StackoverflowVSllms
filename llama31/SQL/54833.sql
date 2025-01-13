@@ -1,1 +1,0 @@
-CREATE TABLE comment (\n    idComment INT,\n    idPost INT,\n    inputDate DATE,\n    comment TEXT\n) PARTITION BY RANGE (YEAR(inputDate)) (\n    PARTITION p_2022 VALUES LESS THAN (2023),\n    PARTITION p_2023 VALUES LESS THAN (2024),\n    ...\n);

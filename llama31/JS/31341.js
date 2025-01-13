@@ -1,1 +1,0 @@
-var x = 5;\nvar y = 10;\nconsole.log("Result:", x + y);

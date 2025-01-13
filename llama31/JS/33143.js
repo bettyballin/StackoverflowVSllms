@@ -1,1 +1,0 @@
-class CallableClass {\n  __invoke(x: number, y: number) {\n    console.log(x, y);\n  }\n}\nconst callableInstance = new CallableClass();\ncallableInstance(1, 2);  // outputs: 1 2

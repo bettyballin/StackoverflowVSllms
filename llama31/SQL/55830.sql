@@ -1,1 +1,0 @@
-EXECUTE PROCEDURE grant_select_on_all_tables();

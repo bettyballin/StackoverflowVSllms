@@ -1,1 +1,0 @@
-<ProjectProperties>\n  <Publish>\n    <Method>FileSystem</Method>\n    <TargetLocation>\\remoteServer\folder</TargetLocation>\n  </Publish>\n</ProjectProperties>

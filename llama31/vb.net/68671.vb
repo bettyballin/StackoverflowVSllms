@@ -1,1 +1,0 @@
-Partial Class MyTable\n    Private Sub OnCreated()\n        Dim context As MyDataContext = CType(DataContext, MyDataContext)\n        Dim contextValue As String = context.MyValue\n    End Sub\nEnd Class

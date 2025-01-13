@@ -1,1 +1,0 @@
-$last_key = array_key_last($abc);\necho $last_key; // Output: 2

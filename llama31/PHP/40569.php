@@ -1,1 +1,0 @@
-$text = $_GET['text'];\n$text = urldecode($text);\n$text = html_entity_decode($text);

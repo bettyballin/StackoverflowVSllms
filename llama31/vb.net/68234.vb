@@ -1,1 +1,0 @@
-Dim list As New List(Of Integer)({1, 2, 3, 4})\nDim combinations = Combinations.GenerateCombinations(list, 2)\nFor Each combination In combinations\n    Console.WriteLine(String.Join(", ", combination))\nNext

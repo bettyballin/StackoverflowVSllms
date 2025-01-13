@@ -1,1 +1,0 @@
-// Get all elements with the class 'tab'\nconst tabs = document.querySelectorAll('.tab');\n\n// Add an event listener to each tab\ntabs.forEach(tab => {\n    tab.addEventListener('click', () => {\n        // Get the URL from the data attribute and redirect\n        const url = tab.getAttribute('data-url');\n        window.location.href = url;\n    });\n});

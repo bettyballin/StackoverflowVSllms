@@ -1,1 +1,0 @@
-const code = document.querySelector('code');\nconst prism = new Prism(code, 'html');

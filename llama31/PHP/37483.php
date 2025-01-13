@@ -1,1 +1,0 @@
-<?php\n    $this->renderSomeHTML(true); // For top of the page\n?>\n\n// some content...\n\n<?php\n    $this->renderSomeHTML(false); // For not top of the page\n?>

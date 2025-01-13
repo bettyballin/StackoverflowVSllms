@@ -1,1 +1,0 @@
-require_once 'Zend/Http/Client/Adapter/Socket.php';\nsession_start();

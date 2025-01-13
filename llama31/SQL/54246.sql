@@ -1,1 +1,0 @@
-CREATE TABLE statistics (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(50),\n    value INTEGER,\n    timestamp TIMESTAMP\n);

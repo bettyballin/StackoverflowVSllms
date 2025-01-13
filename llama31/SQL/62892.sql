@@ -1,1 +1,0 @@
-SELECT l.letter, n.number\nFROM letters l\nCROSS JOIN numbers n\nLEFT JOIN mixed m ON l.letter = m.letter AND n.number = m.number\nWHERE m.letter IS NULL AND m.number IS NULL;

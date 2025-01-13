@@ -1,1 +1,0 @@
-module MyModule\n  MY_CONSTANT = 'hello'\nend\n\nputs MyModule::MY_CONSTANT  # outputs "hello"

@@ -1,1 +1,0 @@
-$query = $entityManager->createQueryBuilder('u')\n    ->select('u')\n    ->from('User', 'u')\n    ->where('u.name = :name')\n    ->setParameter('name', 'John')\n    ->getQuery();

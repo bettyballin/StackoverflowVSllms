@@ -1,1 +1,0 @@
-Dim xmlString As String = "<your_xml_string_here>"\nDim schemaUri As String = "path_to_your_schema.xsd"\nDim isValid As Boolean = ValidateXML(xmlString, schemaUri)\nIf isValid Then\n    Console.WriteLine("XML is valid")\nElse\n    Console.WriteLine("XML is invalid")\nEnd If

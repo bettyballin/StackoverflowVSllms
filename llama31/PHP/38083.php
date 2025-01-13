@@ -1,1 +1,0 @@
-session_set_cookie_params(3600, '/', 'example.com', true, true);

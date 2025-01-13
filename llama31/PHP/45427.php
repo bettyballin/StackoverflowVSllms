@@ -1,1 +1,0 @@
-function getAge($Birthdate)\n{\n    $birthdate = new DateTime($Birthdate);\n    $today = new DateTime();\n    $age = $today->diff($birthdate)->y;\n    return $age;\n}\n\necho getAge('1990-04-04');

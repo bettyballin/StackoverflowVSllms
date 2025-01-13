@@ -1,1 +1,0 @@
-<con:soapui-settings xmlns:con="http://eviware.com/soapui/config">\n    <con:http-settings save-responses="true"/>\n</con:soapui-settings>

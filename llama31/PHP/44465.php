@@ -1,1 +1,0 @@
-$name = 'John';\necho <<<EOB\n    Hello, my name is $name.\nEOB;

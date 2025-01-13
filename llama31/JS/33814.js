@@ -1,1 +1,0 @@
-window.addEventListener('resize', function() {\n  window.scrollBy(0, 1);\n  window.scrollBy(0, -1);\n});

@@ -1,1 +1,0 @@
-SELECT contentid\nFROM tags\nWHERE tagid IN (334, 338, 342)\nGROUP BY contentid\nHAVING COUNT(DISTINCT tagid) = 3;

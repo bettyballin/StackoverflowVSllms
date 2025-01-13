@@ -1,1 +1,0 @@
-INSERT INTO stats (zones, date, hits)\nSELECT zones, date, hits + 1\nFROM stats\nWHERE zones = ? AND date = ?\nON DUPLICATE KEY UPDATE hits = hits + 1;

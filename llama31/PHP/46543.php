@@ -1,1 +1,0 @@
-$conn = NewADOConnection('mssql');\n$conn->maxColNameLen = 255; // increase the maximum column name length

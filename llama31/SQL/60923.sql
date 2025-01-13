@@ -1,1 +1,0 @@
-SELECT * FROM table_name LIMIT 10, 20;  // fetch 20 rows starting from row 10

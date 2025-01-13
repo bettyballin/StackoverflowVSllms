@@ -1,1 +1,0 @@
-$singleton1 = Singleton::getInstance();\n$singleton2 = Singleton::getInstance();\n\nvar_dump($singleton1 === $singleton2); // bool(true)

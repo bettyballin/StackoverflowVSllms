@@ -1,1 +1,0 @@
-array = ["value1", "value2", "value3"]\nhash = {"key1" => "value1"}\n\nputs array.inspect\nputs hash.inspect

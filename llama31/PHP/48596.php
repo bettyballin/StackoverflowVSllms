@@ -1,1 +1,0 @@
-$config = new stdClass();\n$config->adminEmail = 'user@domain.tld';\n\n// accessing the property\necho $config->adminEmail;

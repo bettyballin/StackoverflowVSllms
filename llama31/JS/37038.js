@@ -1,1 +1,0 @@
-ctx.arc(x, y, r, sAngle, eAngle, counterclockwise);

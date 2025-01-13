@@ -1,1 +1,0 @@
-$.ajax({\n  type: 'GET',\n  url: '/update',\n  dataType: 'json',\n  success: function(data) {\n    $.each(data.updates, function(index, update) {\n      $('#' + update.id).text(update.new_text);\n    });\n  }\n});

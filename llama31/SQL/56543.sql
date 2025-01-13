@@ -1,1 +1,0 @@
-ALTER TABLE Users\nADD UserName AS LOWER(DisplayUserName);

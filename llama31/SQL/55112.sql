@@ -1,1 +1,0 @@
-CREATE TABLE orders (\n  id INT PRIMARY KEY,\n  customer_id INT,\n  CONSTRAINT fk_orders_customers FOREIGN KEY (customer_id) REFERENCES customers(id)\n);

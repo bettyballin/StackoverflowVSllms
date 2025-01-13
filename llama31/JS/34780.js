@@ -1,1 +1,0 @@
-var displayItemUrl = $('#displayItemUrl').val();\nvar xhr = $.ajax({\n    url: displayItemUrl + '/' + el1.siblings("input:hidden").val(),\n    // ...\n});

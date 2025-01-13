@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('a[rel="external"]').attr('target', '_blank');\n});

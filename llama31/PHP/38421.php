@@ -1,1 +1,0 @@
-if (stristr($page, "some_old_image.jpg")) {\n    http_response_code(301);\n    header('Location: http://www.site.com/the/new/image.jpg');\n    exit;\n}

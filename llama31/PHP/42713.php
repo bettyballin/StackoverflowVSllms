@@ -1,1 +1,0 @@
-$file = './iplogg.html';\n$contents = file_get_contents($file);\n$lines = explode("\n", $contents);\narray_splice($lines, -2, 0, "<tr><td>{$ip}</td><td>{$date}</td><td>{$time}</td></tr>");\nfile_put_contents($file, implode("\n", $lines));

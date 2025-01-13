@@ -1,1 +1,0 @@
-SELECT ID, Signal, Station, OwnerID\nFROM (\n  SELECT ID, Signal, Station, OwnerID,\n         ROW_NUMBER() OVER (PARTITION BY ID ORDER BY Signal DESC) as rn\n  FROM your_table\n) t\nWHERE rn = 1;

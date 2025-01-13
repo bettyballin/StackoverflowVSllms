@@ -1,1 +1,0 @@
-$.ajax({\n  url: 'json/test.js',\n  dataType: 'json',\n  success: function(data) {\n    alert(data[0].test);\n  }\n});

@@ -1,1 +1,0 @@
-$basePath = 'DIR';\n$html = file_get_contents('DIR/main.php');\n$html = rewriteRelativeUrls($html, $basePath);\necho $html;

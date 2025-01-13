@@ -1,1 +1,0 @@
-$queryStr .= 'tbl_clientes  WHERE nome LIKE \'' . $nome . '\'';

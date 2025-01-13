@@ -1,1 +1,0 @@
-DECLARE @zipCodeMin varchar(15) = @zipCode + '0000';\nDECLARE @zipCodeMax varchar(15) = @zipCode + '9999';\n\nSELECT @iStartLat = Latitude, @iStartLong = Longitude\nFROM Zip\nWHERE ZipCode >= @zipCodeMin AND ZipCode <= @zipCodeMax;\n\nSELECT @iStartLat = Latitude, @iStartLong = Longitude\nFROM PostalCode\nWHERE PostalCode >= @zipCodeMin AND PostalCode <= @zipCodeMax;

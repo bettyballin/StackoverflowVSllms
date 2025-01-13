@@ -1,1 +1,0 @@
-import socket\n\n# Create a socket object\nsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n\n# Connect to a server\nsock.connect(("www.example.com", 80))\n\n# Send and receive data\nsock.sendall(b"GET / HTTP/1.1\r\nHost: www.example.com\r\n\r\n")\ndata = sock.recv(1024)\n\n# Close the socket\nsock.close()

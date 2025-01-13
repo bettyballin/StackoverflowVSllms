@@ -1,1 +1,0 @@
-CREATE USER aspnet_membership_user FOR LOGIN = 'aspnet_membership_login';\nGRANT db_datareader TO aspnet_membership_user;\nGRANT db_datawriter TO aspnet_membership_user;

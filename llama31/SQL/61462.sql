@@ -1,1 +1,0 @@
-LOAD DATA\nAPPEND\nINFILE 'path/to/your/excel/file.xlsx'\nINTO TABLE your_table_name\nFIELDS TERMINATED BY ','\nOPTIONALLY ENCLOSED BY '\"'\nTRAILING NULLCOLS\n(\n  column1 CHAR(255),\n  column2 CHAR(255),\n  ...\n)

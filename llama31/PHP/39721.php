@@ -1,1 +1,0 @@
-$query = "EXEC @return_code = my_stored_proc";\n$result = mssql_query($query);\n$return_code = mssql_query("SELECT @@ERROR AS return_code");\n$return_code = mssql_fetch_array($return_code);\nprint $return_code['return_code'];

@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE col2 IN (\n  SELECT col2\n  FROM your_table\n  GROUP BY col2\n  HAVING COUNT(DISTINCT col1) > 1\n)

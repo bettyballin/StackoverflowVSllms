@@ -1,1 +1,0 @@
-USE [your_database_name]\nGO\nBACKUP DATABASE [your_database_name]\nTO DISK = 'C:\Backup\your_database_name.bak'\nWITH FORMAT, MEDIANAME = 'your_database_name_backup', NAME = 'your_database_name_backup'\nGO

@@ -1,1 +1,0 @@
-public function input($name, $default = '')\n{\n    $input = $_REQUEST[$name] ?? $default; // Use the null coalescing operator (??) for PHP 7+\n    // Perform input validation and sanitization here, if needed\n    return $input;\n}

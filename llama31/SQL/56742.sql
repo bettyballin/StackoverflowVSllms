@@ -1,1 +1,0 @@
-WITH \n  cte1 AS (\n    SELECT * from cdr.Location\n  ),\n  cte2 AS (\n    SELECT * from cdr.Location\n  )\nSELECT * FROM cte1\nUNION\nSELECT * FROM cte2;

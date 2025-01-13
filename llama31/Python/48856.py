@@ -1,1 +1,0 @@
-your_list = [1, 2, 3, 4, 5]\nfor current_item, next_item in zip(your_list, your_list[1:]):\n    # Do something with current_item and next_item\n    print(f"Current item: {current_item}, Next item: {next_item}")

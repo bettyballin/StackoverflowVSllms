@@ -1,1 +1,0 @@
-bcscale(100);\necho bcdiv('1', bcpow('10', '0.01'));

@@ -1,1 +1,0 @@
-$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, 'http://internal-IP/userTracker.php?Name=UserName&Page=...');\ncurl_setopt($ch, CURLOPT_TIMEOUT, 1); // set a low timeout to prevent blocking\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, false); // don't wait for response\ncurl_exec($ch);\ncurl_close($ch);

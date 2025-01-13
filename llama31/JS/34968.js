@@ -1,1 +1,0 @@
-function pad(str, len, pad) {\n  return (str.length < len) ? pad.substring(0, len-str.length) + str : str;\n}

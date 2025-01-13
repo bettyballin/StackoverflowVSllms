@@ -1,1 +1,0 @@
-class ActionController\n  def log_action(user_id, action)\n    Log.create(user_id: user_id, action: action)\n  end\nend\n\nclass MyController < ActionController\n  def update\n    # ...\n    log_action(current_user.id, 'updated resource')\n    # ...\n  end\nend

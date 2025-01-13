@@ -1,1 +1,0 @@
-const htmlMinifier = require('html-minifier');\nconst html = '<html>...</html>';\nconst minifiedHtml = htmlMinifier.minify(html, {\n  collapseWhitespace: true,\n  removeComments: true,\n});

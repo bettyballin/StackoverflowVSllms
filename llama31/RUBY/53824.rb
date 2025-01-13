@@ -1,1 +1,0 @@
-require 'axlsx'\n\nAxlsx::Package.new do |p|\n  p.workbook.add_worksheet do |sheet|\n    sheet.add_row ["Name", "Description"]\n    sheet.add_row ["ø", "ü"]\n  end\n  p.serialize("example.xlsx")\nend

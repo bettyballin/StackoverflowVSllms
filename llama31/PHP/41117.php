@@ -1,1 +1,0 @@
-String encrypted = encrypt($encrypted, $salt);\n$encrypted = urlencode(base64_encode($encrypted));

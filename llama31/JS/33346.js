@@ -1,1 +1,0 @@
-// Using YUI's Grid\nvar grid = new YAHOO.widget.DataTable({\n    // config options\n});\n\n// Using jQuery's UI components (e.g., Dialog)\n$("#dialog").dialog({\n    // config options\n});

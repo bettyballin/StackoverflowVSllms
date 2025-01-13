@@ -1,1 +1,0 @@
-$ddl = array(\n    'CREATE TABLE tableOne ...',\n    'CREATE TABLE tableTwo ...',\n    'CREATE TABLE tableThree ...'\n);\n\nforeach($ddl as $tableDef) {\n    // Using regular expression to extract the table name\n    preg_match('/CREATE TABLE\s+([^\s]+)/i', $tableDef, $match);\n    $tableName = $match[1];\n    echo $tableName;\n}

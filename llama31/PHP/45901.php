@@ -1,1 +1,0 @@
-if ($_SERVER['HTTP_REFERER'] !== 'https://yourdomain.com') {\n    header('HTTP/1.1 403 Forbidden');\n    exit;\n}

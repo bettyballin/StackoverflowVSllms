@@ -1,1 +1,0 @@
-require 'nokogiri'\n\nclass HTML\n  include Nokogiri::XML\nend

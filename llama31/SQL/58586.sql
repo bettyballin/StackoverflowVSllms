@@ -1,1 +1,0 @@
-DECLARE\n  l_cursor SYS_REFCURSOR;\n  l_token VARCHAR2(255);\nBEGIN\n  l_cursor := split_csv('a,b,c,d,e');\n  LOOP\n    FETCH l_cursor INTO l_token;\n    EXIT WHEN l_cursor%NOTFOUND;\n    DBMS_OUTPUT.PUT_LINE(l_token);\n  END LOOP;\n  CLOSE l_cursor;\nEND;\n/

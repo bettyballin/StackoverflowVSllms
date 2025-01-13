@@ -1,1 +1,0 @@
-def get_related_questions(title):\n    tokens = tokenize(title)\n    keywords = extract_keywords(title)\n    tags = get_tags(keywords)\n    questions = search_questions(tags)\n    return rank_questions(questions, tokens, keywords)

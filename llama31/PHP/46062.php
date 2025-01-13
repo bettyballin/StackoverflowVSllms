@@ -1,1 +1,0 @@
-// SWFUpload settings\n$swfupload_settings = array(\n    'upload_url' => 'upload.php',\n    'file_post_name' => 'file',\n    // other settings...\n);

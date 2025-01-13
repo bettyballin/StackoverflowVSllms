@@ -1,1 +1,0 @@
-document.addEventListener('focus', function(event) {\n  if (event.target.classList.contains('table-element')) {\n    event.preventDefault();\n    event.stopPropagation();\n  }\n}, true);

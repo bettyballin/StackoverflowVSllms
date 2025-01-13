@@ -1,1 +1,0 @@
-$path = '/home/john/smith/web/test/testing/nothing/';\n$levelsToRemove = 4;\n\n$newPath = preg_replace('#^(/[^/]+){' . $levelsToRemove . '}#', '', $path);\n\necho $newPath; // outputs: /test/testing/nothing/

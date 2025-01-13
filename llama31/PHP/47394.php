@@ -1,1 +1,0 @@
-<?= $rsArr[$x]['item']; ?>\n<?= $rsArr[$x]['amount']; ?>

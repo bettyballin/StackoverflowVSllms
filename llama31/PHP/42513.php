@@ -1,1 +1,0 @@
-$string = '&nbsp; &amp; &copy;';\n$string = html_entity_decode($string, ENT_QUOTES | ENT_HTML5);\n$string = preg_replace('/[^\w\s]/', '', $string);\n\necho $string;

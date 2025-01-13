@@ -1,1 +1,0 @@
-import webtest\n\nclass TestMyApp(webtest.TestCase):\n    def setUp(self):\n        self.app = webtest.TestApp(MyApp())\n\n    def test_index(self):\n        response = self.app.get('/')\n        self.assertEqual(response.status_code, 200)\n        self.assertIn('Welcome to my app', response.body)

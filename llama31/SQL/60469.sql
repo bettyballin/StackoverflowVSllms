@@ -1,1 +1,0 @@
-CREATE TABLE customers (\n  id INT PRIMARY KEY,\n  name VARCHAR(255),\n  country VARCHAR(255),\n  age INT\n);\n\n-- Create an index on country and age columns\nCREATE INDEX idx_country_age ON customers (country, age);

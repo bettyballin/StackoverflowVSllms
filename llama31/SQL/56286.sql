@@ -1,1 +1,0 @@
-SELECT \n  log_timestamp\nFROM \n  information_schema.INNODB_LOG\nWHERE \n  log_type = 'INSERT' OR \n  log_type = 'UPDATE' OR \n  log_type = 'DELETE'\nORDER BY \n  log_timestamp DESC\nLIMIT 1;

@@ -1,1 +1,0 @@
-class MyClass\n  MY_CONSTANT = 'hello'\n  def my_method\n    puts MY_CONSTANT  # outputs "hello"\n  end\nend\n\nputs MyClass.MY_CONSTANT  # raises NoMethodError\nputs MyClass::MY_CONSTANT  # outputs "hello"

@@ -1,1 +1,0 @@
-$countQuery = "SELECT ARTICLE_NO FROM $table WHERE upper(ARTICLE_NAME) LIKE ?";\nif ($numRecords = $con->prepare($countQuery)) {\n    $searchTerm = "%$brand%";\n    $numRecords->bind_param("s", $searchTerm);\n    $numRecords->execute();\n    $numRecords->store_result();\n    $rowcount = $numRecords->num_rows;\n    // ...\n}

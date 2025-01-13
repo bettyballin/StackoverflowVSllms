@@ -1,1 +1,0 @@
-import ctypes\nimport sys\n\ndef set_process_name(name):\n    ctypes.windll.kernel32.SetConsoleTitleW(name)\n\nif __name__ == '__main__':\n    set_process_name('othername')\n    # your code here

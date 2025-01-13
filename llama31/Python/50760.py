@@ -1,1 +1,0 @@
-my_list = [3, 7, 19]\nfor i, value in enumerate(my_list):\n    print(f"Index: {i}, Value: {value}")

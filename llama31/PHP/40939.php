@@ -1,1 +1,0 @@
-$xmlRpcClient = new XmlRpcClient('https://example.com/xmlrpc');\n$xmlRpcClient->setMethod('myMethod');\n$xmlRpcClient->addParam(new XmlRpcValue('Hello, World!'));\n$response = $xmlRpcClient->send();

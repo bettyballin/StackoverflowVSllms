@@ -1,1 +1,0 @@
-INSERT INTO votes (question_id, user_id, vote) VALUES (?, ?, ?);

@@ -1,1 +1,0 @@
-$firstVariableName = array_key_first($_GET);

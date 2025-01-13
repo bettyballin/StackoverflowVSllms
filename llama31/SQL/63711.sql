@@ -1,1 +1,0 @@
-DECLARE @start_ipv6 binary(16) = CONVERT(binary(16), '2001:db8:1234:5678:9012:3456:7890:1234');\nDECLARE @end_ipv6 binary(16) = CONVERT(binary(16), '2001:db8:1234:5678:9012:3456:7890:5678');\n\nSELECT *\nFROM your_table\nWHERE ipv6_address BETWEEN @start_ipv6 AND @end_ipv6;

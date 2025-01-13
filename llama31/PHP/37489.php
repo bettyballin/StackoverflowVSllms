@@ -1,1 +1,0 @@
-use phpseclib3\Crypt\RSA;\n\n$rsa = new RSA();\n$rsa->loadKey('...'); // load the private key\n\n$data = 'Sensitive data';\n$encryptedData = $rsa->encrypt($data);\n\n$rsa->loadKey('...'); // load the public key\n$decryptedData = $rsa->decrypt($encryptedData);

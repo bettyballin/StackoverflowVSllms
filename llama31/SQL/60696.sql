@@ -1,1 +1,0 @@
-GRANT CREATE PROCEDURE ON my_schema TO my_user;\nGRANT CREATE TRIGGER ON my_schema TO my_user;

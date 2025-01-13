@@ -1,1 +1,0 @@
-= ChrW(8364) & FormatCurrency(Fields!YourField.Value)

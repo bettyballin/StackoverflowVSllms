@@ -1,1 +1,0 @@
-$('#countries').attr('size', $('#countries option').length);

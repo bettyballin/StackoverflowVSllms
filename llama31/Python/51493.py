@@ -1,1 +1,0 @@
-class MyTestCase(TestCase):\n    transaction.atomic = True\n\n    def test_my_test(self):\n        # Your test code here\n        pass

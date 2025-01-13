@@ -1,1 +1,0 @@
-distinct_users = Model.objects.values_list('watchers', flat=True).distinct()

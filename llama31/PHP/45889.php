@@ -1,1 +1,0 @@
-// views/header.php\n<div id="header">\n    <img src="<?= Image::get($image, 60, array('id' => 'header_image')) ?>" />\n    <div id="header_text">\n        <?= self::defaultSectionText() ?>\n    </div>\n</div>

@@ -1,1 +1,0 @@
-SELECT COUNT(*) AS total_rows\nFROM your_table;

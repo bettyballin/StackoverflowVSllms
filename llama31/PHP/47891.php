@@ -1,1 +1,0 @@
-$mail = new PHPMailer();\n$mail->isSMTP();\n$mail->Host = 'your-smtp-server.com';\n$mail->Port = 25;\n$mail->SetFrom('sender@example.com');\n$mail->AddAddress('user@example.com');\n$mail->Subject = 'Test Email';\n$mail->Body = 'This is a test email';\n$mail->Send();

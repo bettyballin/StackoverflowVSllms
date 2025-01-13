@@ -1,1 +1,0 @@
-$.ajax({\n  type: 'GET',\n  url: 'your-php-script.php',\n  data: { inputname: 'value' },\n  success: function(data) {\n    // handle response data\n  }\n});

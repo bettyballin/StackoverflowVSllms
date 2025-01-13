@@ -1,1 +1,0 @@
-UPDATE table\nSET Col1 = CASE\n        WHEN id = 1 THEN 1\n        WHEN id = 2 THEN 2\n        WHEN id = 4 THEN 10\n        ELSE Col1\n    END,\n    Col2 = CASE\n        WHEN id = 3 THEN 3\n        WHEN id = 4 THEN 12\n        ELSE Col2\n    END;

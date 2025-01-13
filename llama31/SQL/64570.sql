@@ -1,1 +1,0 @@
-CREATE INDEX idx_game ON games (game);

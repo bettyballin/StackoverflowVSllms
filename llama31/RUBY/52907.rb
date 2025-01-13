@@ -1,1 +1,0 @@
-# config/application.rb\nmodule YourApp\n  class Application < Rails::Application\n    config.settings = YAML.safe_load(File.read('config/settings.yml'))\n  end\nend

@@ -1,1 +1,0 @@
-CREATE TABLE Certifications (\n    Id INT PRIMARY KEY,\n    PersonId INT,\n    CertificationName VARCHAR(255),\n    PdfFileUrl VARCHAR(255) -- store URL to PDF file in file storage solution\n);\n\n-- store PDF file in file storage solution (e.g., Azure Blob Storage)\n-- and retrieve URL to store in database

@@ -1,1 +1,0 @@
-$(document).ajaxStop(function() {\n  // All AJAX requests have completed, retrieve totals and display score\n  $.get('/retrieve_totals', { scan_id: scan_id }, function(data) {\n    // Display total score\n  });\n});

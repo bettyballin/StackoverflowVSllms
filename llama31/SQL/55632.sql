@@ -1,1 +1,0 @@
-SELECT Products.*, \n       EXCEPT (IdService), \n       Services.*\nFROM Products\nINNER JOIN Services ON Products.IdService = Services.IdService

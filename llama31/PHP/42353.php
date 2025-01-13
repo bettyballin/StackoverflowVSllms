@@ -1,1 +1,0 @@
-$tzone = new DateTimeZone($timezone);\n$now->setTimezone($tzone);

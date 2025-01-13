@@ -1,1 +1,0 @@
-var hiddenField = document.getElementById('<%= __TabControlAction.ClientID %>');\nhiddenField.value = 'Click';

@@ -1,1 +1,0 @@
-$var = 0;\nif ($var) {\n    // This will evaluate to FALSE\n}

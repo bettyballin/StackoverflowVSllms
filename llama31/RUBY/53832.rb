@@ -1,1 +1,0 @@
-require 'openpgp'\n\n# Load the encrypted file\nencrypted_data = File.binread('encrypted_file.pgp')\n\n# Decrypt the data to memory\ndecrypted_data = OpenPGP.decrypt(encrypted_data, passphrase: 'your_passphrase')\n\n# Use the decrypted data\nputs decrypted_data.to_s

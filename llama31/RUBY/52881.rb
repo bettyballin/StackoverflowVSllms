@@ -1,1 +1,0 @@
-require "parslet"\n\n# Define a simple grammar\nclass MyParser < Parslet::Parser\n  root(:expr)\n  rule(:expr) { str("hello") >> match("[0-9]+").as(:num) }\nend\n\n# Parse a string\nparse_result = MyParser.new.parse("hello123")\n\n# Print the AST\nputs parse_result.inspect

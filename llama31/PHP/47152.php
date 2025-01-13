@@ -1,1 +1,0 @@
-// Example batch processing\n$batchSize = 1000;\n$userCount = 40000;\n$batches = ceil($userCount / $batchSize);\n\nfor ($i = 0; $i < $batches; $i++) {\n    $start = $i * $batchSize;\n    $end = $start + $batchSize;\n    // Process users in this batch range\n    processUsers($start, $end);\n}

@@ -1,1 +1,0 @@
-CREATE PROCEDURE MyProcedure\n    @Chunk1 varchar(8000),\n    @Chunk2 varchar(8000),\n    @Chunk3 varchar(8000)\nAS\nBEGIN\n    -- Combine the chunks into a single text variable\n    DECLARE @LargeText varchar(max)\n    SET @LargeText = @Chunk1 + @Chunk2 + @Chunk3\n    \n    -- Process the large text data\n    SELECT @LargeText\nEND

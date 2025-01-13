@@ -1,1 +1,0 @@
-$file = fopen('output.bin', 'wb');\nfwrite($file, $str); // write the imploded string\nfwrite($file, $id); // write the concatenated string\nfclose($file);

@@ -1,1 +1,0 @@
-DELIMITER //\nCREATE PROCEDURE get_user_data(IN username VARCHAR(50))\nBEGIN\n  DECLARE sql_stmt TEXT;\n  SET sql_stmt = CONCAT('SELECT * FROM users WHERE username = "', username, '"');\n  PREPARE stmt FROM sql_stmt;\n  EXECUTE stmt;\n  DEALLOCATE PREPARE stmt;\nEND //\nDELIMITER ;

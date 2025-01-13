@@ -1,1 +1,0 @@
-CREATE TABLE quotes (\n  id INT PRIMARY KEY,\n  customer_id INT,\n  quote_details JSON\n);

@@ -1,1 +1,0 @@
-CREATE TABLE mytable (\n  id BINARY(16) PRIMARY KEY\n);\n\nINSERT INTO mytable (id) VALUES (UNHEX('1234567890abcdef1234567890abcdef'));\n\nSELECT HEX(id) AS guid FROM mytable;

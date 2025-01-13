@@ -1,1 +1,0 @@
-INSERT INTO table2 (column_name)\nSELECT x \nFROM table1 \nWHERE x > 5 \nLIMIT 4;

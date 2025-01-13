@@ -1,1 +1,0 @@
-<Assembly: DebuggerVisualizer(GetType(GuidVisualizer), GetType(Guid), Target:=GetType(Guid))>

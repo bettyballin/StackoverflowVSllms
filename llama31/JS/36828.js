@@ -1,1 +1,0 @@
-$('#section-list').sortable({\n  stop: function(event, ui) {\n    var questionId = ui.item.attr('id').split('_')[1];\n    var newSectionId = ui.item.parent().attr('id').split('_')[1];\n    $.ajax({\n      type: 'PUT',\n      url: '/questions/' + questionId,\n      data: { section_id: newSectionId }\n    });\n  }\n});

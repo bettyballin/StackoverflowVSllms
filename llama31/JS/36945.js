@@ -1,1 +1,0 @@
-function requestCustomerInfo() {\n  const customerId = 10;\n  const url = `GetCustomerData.php?id=${customerId}`;\n  http.open("GET", url, true);\n  http.onreadystatechange = handleHttpResponse;\n  http.send(null);\n}

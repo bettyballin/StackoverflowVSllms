@@ -1,1 +1,0 @@
-def foo():\n    pass\n\nfoo.__name__ = "bar"\n\nprint(foo.__name__)  # Outputs: "bar"

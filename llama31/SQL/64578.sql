@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetEmployeesByDepartment\n    @DepartmentId INT\nAS\nBEGIN\n    SELECT * FROM Employees WHERE DepartmentId = @DepartmentId\nEND

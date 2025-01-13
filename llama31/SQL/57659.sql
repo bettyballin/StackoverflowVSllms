@@ -1,1 +1,0 @@
-CREATE EVENT archive_data\nON SCHEDULE EVERY 7 DAY\nDO\nBEGIN\n  INSERT INTO history_table_B (SELECT * FROM table_A WHERE timestamp_column < NOW() - INTERVAL 60 DAY);\n  DELETE FROM table_A WHERE timestamp_column < NOW() - INTERVAL 60 DAY;\n  DELETE FROM history_table_B WHERE timestamp_column < NOW() - INTERVAL 365 DAY;\nEND;

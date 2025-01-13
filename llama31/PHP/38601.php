@@ -1,1 +1,0 @@
-function truncate_string($text, $length) {\n  if (strlen($text) <= $length) {\n    return $text;\n  }\n  $text = substr($text, 0, $length);\n  $text = substr($text, 0, strrpos($text, ' '));\n  return $text;\n}

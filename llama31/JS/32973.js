@@ -1,1 +1,0 @@
-const username = 'DOMAIN\\hers...';\nconst encodedUsername = encodeURIComponent(username);\n// Store the encoded username in the hidden field

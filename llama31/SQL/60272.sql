@@ -1,1 +1,0 @@
-CREATE INDEX idx_tuples_a ON tuples (a);\nCREATE INDEX idx_tuples_b ON tuples (b);\nCREATE INDEX idx_tuples_c ON tuples (c);\nCREATE INDEX idx_tuples_d ON tuples (d);

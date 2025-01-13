@@ -1,1 +1,0 @@
-<!-- footer.php -->\n    <footer>...</footer>\n  </body>\n</html>

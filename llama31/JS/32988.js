@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\nxhr.open('GET', '/some_url', true);\nxhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');\nxhr.onload = function() {\n  var sessionId = xhr.getResponseHeader('Set-Cookie').match(/JSESSIONID=[^;]+/)[0].split('=')[1];\n  // do something with sessionId\n};\nxhr.send();

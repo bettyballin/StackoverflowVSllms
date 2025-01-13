@@ -1,1 +1,0 @@
-use Symfony\Component\Process\Process;\n\n$process = new Process('php long_running_script.php');\n$process->start();

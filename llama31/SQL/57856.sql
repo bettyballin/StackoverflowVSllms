@@ -1,1 +1,0 @@
-INSERT INTO db2.dbo.your_table (value)\nSELECT db1.value\nFROM db1.dbo.your_table db1\nINNER JOIN db2.dbo.your_table db2\nON db1.uniqueConst = db2.uniqueConst;

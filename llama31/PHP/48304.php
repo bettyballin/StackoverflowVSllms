@@ -1,1 +1,0 @@
-// Set a session variable after user logs in\n$_SESSION['logged_in'] = true;

@@ -1,1 +1,0 @@
-$ch = curl_init('https://example.com/inner_page');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_COOKIE, $cookie);\n$response = curl_exec($ch);\ncurl_close($ch);

@@ -1,1 +1,0 @@
-$client = new GuzzleHttp\Client();\n$url = 'http://wapedia.mobi/sv/Gröt';\n$response = $client->get($url, ['encode_query' => false]);\n$result = $response->getBody()->getContents();

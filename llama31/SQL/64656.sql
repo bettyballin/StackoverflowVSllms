@@ -1,1 +1,0 @@
-WHILE 1 = 1\nBEGIN\n    UPDATE TOP (100000) dbo.MyTable\n    SET myColumn = myColumn\n    WHERE myColumn IS NOT NULL\n\n    IF @@ROWCOUNT = 0\n        BREAK\nEND\n\nALTER TABLE dbo.MyTable\nALTER COLUMN myColumn int NOT NULL

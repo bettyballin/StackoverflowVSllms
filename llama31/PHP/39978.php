@@ -1,1 +1,0 @@
-function someFunction($in_param1) {\n    return "SUCCESS";\n}\n\n$function = 'someFunction';\n\ntry {\n    $x = $function();\n} catch (ArgumentCountError $e) {\n    // handle the error\n    echo "Error: " . $e->getMessage();\n}

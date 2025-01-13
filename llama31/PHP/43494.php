@@ -1,1 +1,0 @@
-$pattern = '/^([a-z0-9]+)\./';\n$serverName = $_SERVER['SERVER_NAME'];\npreg_match($pattern, $serverName, $matches);\n$subdomain = isset($matches[1]) ? $matches[1] : '';

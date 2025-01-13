@@ -1,1 +1,0 @@
-function getvalue($array, $key) {\n    return $array[$key];\n}\n\n// usage\n$arr = array(\n    'row1' => array('item' => 'value1'),\n    'row2' => array('item' => 'value2'),\n);\n\n// set the internal pointer to the first element\nreset($arr);\n\n// get the value\necho getvalue(current($arr), 'item'); // outputs: value1

@@ -1,1 +1,0 @@
-$("#yourButtonId").click(function() {\n    closePanels(); // This will hide the panels when the button is clicked\n});

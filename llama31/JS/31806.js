@@ -1,1 +1,0 @@
-// JavaScript example (using jQuery for simplicity)\n$('.delete-button').on('click', function() {\n    var id = $(this).data('id');\n    $.ajax({\n        type: 'POST',\n        url: 'delete-entry.php',\n        data: { id: id },\n        success: function() {\n            // Remove the item from the list\n            $(this).closest('tr').remove();\n        }\n    });\n});

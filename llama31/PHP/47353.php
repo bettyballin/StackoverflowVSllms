@@ -1,1 +1,0 @@
-$class = new ReflectionClass('Profile');\n$constants = $class->getConstants();\n$className = $class->getName();\n\n$fullConstants = array();\nforeach ($constants as $constantName => $constantValue) {\n    $fullConstants[$className . '::' . $constantName] = $constantValue;\n}\n\nprint_r($fullConstants);

@@ -1,1 +1,0 @@
-Response.Write "Debug: " & someVariable

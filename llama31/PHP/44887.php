@@ -1,1 +1,0 @@
-function encrypt_param($matches) {\n    return 'href="somepage.php?x=' . base64_encode($matches[1]) . '"';\n}\n\n$webdoc = preg_replace_callback('/href="somepage\.php\?x=([^"]+)"/', 'encrypt_param', $webdoc);

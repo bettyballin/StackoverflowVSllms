@@ -1,1 +1,0 @@
-CREATE INDEX idx_field1Date_field2Number_field3Text\nON tablename (field1Date, field2Number, field3Text);

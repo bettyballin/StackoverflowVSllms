@@ -1,1 +1,0 @@
-Public Class MyEnumClass(Of T)\n    Public MyValue As T\n\n    Public Function GetIntegerValue() As Integer\n        Return Convert.ToInt32(MyValue)\n    End Function\nEnd Class

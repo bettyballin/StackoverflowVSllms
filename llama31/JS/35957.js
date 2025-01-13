@@ -1,1 +1,0 @@
-var $container = $('#container');\nfor (var i = 1; i <= 5; i++) {\n    $container.append($('<span>').text('Item ' + i));\n}

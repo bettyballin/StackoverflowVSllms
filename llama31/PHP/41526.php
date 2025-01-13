@@ -1,1 +1,0 @@
-$LastModified = filemtime($somefile);\n$deleteTime = $LastModified + (10 * 60); // add 10 minutes in seconds\n\nif ($deleteTime <= time()) {\n    unlink($somefile);\n}

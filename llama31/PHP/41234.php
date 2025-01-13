@@ -1,1 +1,0 @@
-$pattern = '/\[code\](.*)\[/code\]/sim';

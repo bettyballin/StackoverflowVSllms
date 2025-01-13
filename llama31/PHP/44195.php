@@ -1,1 +1,0 @@
-// auto_append_file.php\n// Code to run after every PHP script

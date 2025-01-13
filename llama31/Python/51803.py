@@ -1,1 +1,0 @@
-import re\n\ndef is_valid_zip(zip):\n  return bool(re.match(r"^\d{5}(-\d{4})?$", zip))

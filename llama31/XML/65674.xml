@@ -1,1 +1,0 @@
-<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins">\n    <attributes>\n        <attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="com.foo.myplugin"/>\n    </attributes>\n</classpathentry>

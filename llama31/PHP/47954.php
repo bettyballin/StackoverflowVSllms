@@ -1,1 +1,0 @@
-// In Members/Controller/IndexController.php\nuse Model\User;\n\nclass IndexController extends ActionController\n{\n    public function indexAction()\n    {\n        $user = new User();\n        // ...\n    }\n}

@@ -1,1 +1,0 @@
-// Connect to ActionCable WebSocket\nconst cable = ActionCable.createConsumer('ws://localhost:28080');\n\n// Subscribe to the events channel\ncable.subscriptions.create('EventsChannel', {\n  received: (data) => {\n    // Display the notification\n    console.log(`Received event: ${data}`);\n  },\n});

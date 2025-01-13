@@ -1,1 +1,0 @@
-$data = storelistingUno();\necho $data['test']; // outputs "yes!"

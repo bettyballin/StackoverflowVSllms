@@ -1,1 +1,0 @@
-Private Sub saveBut_Click(ByVal sender As Object, ByVal e As EventArgs) Handles saveBut.Click\n    ' Make sure the data source knows about the changes\n    TblPropertiesBindingSource.EndEdit()\n\n    ' Update the database\n    PropertiesTableAdapter.Update(PropertiesBindingSource.DataSource)\nEnd Sub

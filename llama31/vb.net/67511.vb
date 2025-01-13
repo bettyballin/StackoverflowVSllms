@@ -1,1 +1,0 @@
-If Not String.IsNullOrWhiteSpace(editTransactionRow.pay_id?.ToString()) Then\n    stTransactionPaymentID = editTransactionRow.pay_id\nEnd If

@@ -1,1 +1,0 @@
-$expiration_time = time() + ($x_minutes * 60); // calculate expiration time\n$token_data = array(\n    'token' => $token,\n    'file_path' => $file_path,\n    'expiration_time' => $expiration_time\n);\n// Store $token_data securely

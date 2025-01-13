@@ -1,1 +1,0 @@
-var position = $column.position();\nvar popupLeft = position.left + $column.width();\nvar popupTop = position.top;

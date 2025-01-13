@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n  SELECT *,\n    ROW_NUMBER() OVER (PARTITION BY ThreadId ORDER BY HitCount DESC) AS rn\n  FROM Samples\n  WHERE FunctionId NOT IN (SELECT CalleeId FROM Callers)\n) AS subquery\nWHERE rn = 1\nORDER BY ThreadId;

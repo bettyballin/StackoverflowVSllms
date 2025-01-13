@@ -1,1 +1,0 @@
--- Use InnoDB storage engine, which supports row-level locking\nCREATE TABLE mytable (...) ENGINE=InnoDB;\n\n-- Use isolation level READ COMMITTED\nSET TRANSACTION ISOLATION LEVEL READ COMMITTED;

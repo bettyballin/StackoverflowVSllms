@@ -1,1 +1,0 @@
-Imports System.Math\n\nModule Program\n    Sub Main()\n        Console.WriteLine(Sin(1.0))\n    End Sub\nEnd Module

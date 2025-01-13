@@ -1,1 +1,0 @@
-$post_title = str_replace('/OLD_FOLDER/index.php/', '', $_SERVER['HTTP_URL']);

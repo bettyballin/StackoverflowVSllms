@@ -1,1 +1,0 @@
-// Without prepared queries\n$query = "SELECT * FROM table WHERE id = ?";\nmysqli_query($conn, $query);\n\n// With prepared queries (not recommended for once-per-session queries)\n$stmt = mysqli_prepare($conn, "SELECT * FROM table WHERE id = ?");\nmysqli_stmt_execute($stmt);\nmysqli_stmt_close($stmt);

@@ -1,1 +1,0 @@
--- In the Internal database\nCREATE ROLE StuffReader;\nGRANT SELECT ON Stuff TO StuffReader;\n\n-- In the WebFacing database\nALTER ROLE StuffReader ADD MEMBER magnus;

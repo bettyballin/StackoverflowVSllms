@@ -1,1 +1,0 @@
-$date = '0000-00-00';\ntry {\n    $dt = new DateTime($date);\n} catch (Exception $e) {\n    echo "Invalid date: $date";\n}

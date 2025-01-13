@@ -1,1 +1,0 @@
-Imports System.Text.RegularExpressions\n\nDim sXMLResponse As String = "your_xml_string"\nDim pattern As String = "<start>.*?<end>"\nDim FinalResult As String = Regex.Replace(sXMLResponse, pattern, "", RegexOptions.Singleline)

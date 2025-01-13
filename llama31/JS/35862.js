@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('ul').css('width', '200px');\n  $('li').css('word-wrap', 'break-word');\n});

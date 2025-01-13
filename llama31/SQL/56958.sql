@@ -1,1 +1,0 @@
-SELECT \n  *\nFROM \n  YourTable\n  CROSS APPLY (\n    SELECT \n      Jan = CASE WHEN StartDate <= '2023-01-01' AND EndDate >= '2023-01-01' THEN 1 ELSE 0 END,\n      Feb = CASE WHEN StartDate <= '2023-02-01' AND EndDate >= '2023-02-01' THEN 1 ELSE 0 END,\n      ...\n      Dec = CASE WHEN StartDate <= '2023-12-01' AND EndDate >= '2023-12-01' THEN 1 ELSE 0 END\n  ) AS Months;

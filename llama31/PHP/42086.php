@@ -1,1 +1,0 @@
-use Illuminate\Support\Facades\Http;\n\n$response = Http::post('https://sub-server1.com/api/insert-sql-row', ['column1' => 'value1']);

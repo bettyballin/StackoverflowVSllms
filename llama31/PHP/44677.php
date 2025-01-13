@@ -1,1 +1,0 @@
-header('Content-Length: ' . strlen("cell 1, cell 2"));

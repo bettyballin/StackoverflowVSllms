@@ -1,1 +1,0 @@
-Public MustInherit Class BaseClass\n    Public MustOverride Property Name() As String\n        Get\n        End Get\n        Friend Set(ByVal value As String)\n        End Set\n    End Property\nEnd Class

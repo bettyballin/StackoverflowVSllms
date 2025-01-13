@@ -1,1 +1,0 @@
-Dim hWnd As IntPtr = Process.GetCurrentProcess().MainWindowHandle\nScreenTinter.SetBackgroundColor(hWnd, Color.FromArgb(255, 0, 0)) ' Red background color

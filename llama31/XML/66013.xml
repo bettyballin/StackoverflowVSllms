@@ -1,1 +1,0 @@
-<?xml version="1.0"?>\n<config>\n    <channel>\n        <name>com.example.pear</name>\n        <alias>example</alias>\n        <summary>Example PEAR Channel</summary>\n    </channel>\n</config>

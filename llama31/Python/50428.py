@@ -1,1 +1,0 @@
-matches = [match.group(0) for match in [pattern.search(s) for s in current_f] if match]

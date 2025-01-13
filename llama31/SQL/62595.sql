@@ -1,1 +1,0 @@
-SELECT dbo.RegexMatch(text_string, 'DELINQUENT') AS delinquent_status\nFROM your_table\nWHERE text_string LIKE '%DELINQUENT%';

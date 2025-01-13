@@ -1,1 +1,0 @@
-SELECT RTRIM(SYS_CONNECT_BY_PATH(column_name, ','), ',') AS comma_separated_list\nFROM (\n  SELECT column_name, ROW_NUMBER() OVER (ORDER BY column_name) AS row_num\n  FROM your_table\n  WHERE your_condition\n)\nWHERE row_num = 1\nSTART WITH row_num = 1\nCONNECT BY PRIOR row_num = row_num - 1;

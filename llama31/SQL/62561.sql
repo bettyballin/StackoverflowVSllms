@@ -1,1 +1,0 @@
-CREATE TABLE users (\n  id INT PRIMARY KEY,\n  username VARCHAR(255)\n);\n\nCREATE TABLE user_encryption_keys (\n  id INT PRIMARY KEY,\n  user_id INT UNIQUE,\n  encryption_key BLOB,\n  FOREIGN KEY (user_id) REFERENCES users(id)\n);

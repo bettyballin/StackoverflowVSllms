@@ -1,1 +1,0 @@
-$.ajax({\n    // your ajax settings here\n    beforeSend: function (xhr) {\n        var indicatorId = $(this).data('indicator-id');\n        $('#' + indicatorId).css({ display: "inline" });\n    },\n    complete: function (xhr) {\n        var indicatorId = $(this).data('indicator-id');\n        $('#' + indicatorId).hide();\n    }\n});

@@ -1,1 +1,0 @@
-UPDATE bundles_denormalized\nSET category = (SELECT p.description\n                FROM products p\n                WHERE p.bundle_id = b.id\n                ORDER BY p.description DESC)\nFROM bundles_denormalized b

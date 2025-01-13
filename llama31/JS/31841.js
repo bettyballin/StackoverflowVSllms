@@ -1,1 +1,0 @@
-function myJavaScriptFunction() {\n    // Your JavaScript code here\n    // You can also use jQuery functionality here\n    console.log("Called from Flash!");\n}

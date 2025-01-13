@@ -1,1 +1,0 @@
-CREATE TABLE acl (\n  id SERIAL PRIMARY KEY,\n  user_id INTEGER NOT NULL REFERENCES users(id),\n  role VARCHAR(50) NOT NULL,\n  permissions JSONB NOT NULL DEFAULT '{}'::jsonb\n);\n\nCREATE TABLE users (\n  id SERIAL PRIMARY KEY,\n  uname VARCHAR(50) NOT NULL,\n  pass VARCHAR(255) NOT NULL  -- hashed and salted password\n);

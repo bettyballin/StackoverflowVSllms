@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare($query);\n$stmt->execute([$ambId]);\n$result = $stmt->fetchAll();

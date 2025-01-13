@@ -1,1 +1,0 @@
-# Avoid using 'file' type in Python 2.5\nf = file('example.txt', 'r')\ncontents = f.read()\nf.close()

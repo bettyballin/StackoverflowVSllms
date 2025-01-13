@@ -1,1 +1,0 @@
-// Get the text content element\nvar textContent = document.getElementById('textContent');\n\n// Get the text content width\nvar textWidth = textContent.scrollWidth;\n\n// Set the width of the div to fit the text content\ntextContent.style.width = textWidth + 'px';

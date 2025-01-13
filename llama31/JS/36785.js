@@ -1,1 +1,0 @@
-$(function(){\n    $('#slider-buttons a').click(function(){\n        var x = $(this).data('target');\n        var y = $('#slider-stage-list li[data-target="' + x + '"]');\n\n        console.log(y); // Should now log the correct element\n\n        // Rest of your code...\n    });\n});

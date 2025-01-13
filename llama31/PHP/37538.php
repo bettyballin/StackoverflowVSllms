@@ -1,1 +1,0 @@
-$server = new SoapServer($wsdl, $options);\n\n$server->addFunction('handleHeaders');\n\n$server->handle();\n\nfunction handleHeaders($headers) {\n    $email = $headers['email'];\n    $password = $headers['password'];\n\n    // Process authentication here\n}

@@ -1,1 +1,0 @@
-$array = array();\n$start = microtime(true);\n\nfor ($i = 0; $i < 100000; $i++) {\n    $array[] = $i;\n}\n\necho "Time taken using \$array[]: " . (microtime(true) - $start) . "\n";\n\n$array = array();\n$start = microtime(true);\n\nfor ($i = 0; $i < 100000; $i++) {\n    array_push($array, $i);\n}\n\necho "Time taken using array_push(): " . (microtime(true) - $start) . "\n";

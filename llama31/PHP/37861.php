@@ -1,1 +1,0 @@
-// Add this code to your functions.php file\nfunction custom_permalink_structure() {\n  $structure = '/%category%/%postname%/';\n  return $structure;\n}\nadd_filter('pre_option_permalink_structure', 'custom_permalink_structure');

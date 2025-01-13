@@ -1,1 +1,0 @@
-DECLARE @sql NVARCHAR(MAX) = '';\n\nSELECT @sql += '\n    GRANT SELECT, REFERENCES, INSERT, UPDATE, DELETE ON ' + QUOTENAME(s.name) + '.' + QUOTENAME(t.name) + ' TO [YourDatabaseRole];\n'\nFROM sys.tables t\nJOIN sys.schemas s ON t.schema_id = s.schema_id\nWHERE t.type = 'U'  -- only user tables\n    AND s.principal_id = 1;  -- exclude system schemas\n\nEXEC sp_executesql @sql;

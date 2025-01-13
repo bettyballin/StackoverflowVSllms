@@ -1,1 +1,0 @@
-<ItemGroup>\n    <Compile Include="$(USERPROFILE)\yourfile.cs" Condition="Exists($(USERPROFILE)\yourfile.cs)"/>\n</ItemGroup>

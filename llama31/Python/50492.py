@@ -1,1 +1,0 @@
-my_list = [None] * max_length

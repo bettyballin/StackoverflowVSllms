@@ -1,1 +1,0 @@
-SELECT unitNo, BuildingNo\nFROM DB2.TableB\nEXCEPT\nSELECT unitNo, BuildingNo\nFROM DB1.TableA;

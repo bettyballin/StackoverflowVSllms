@@ -1,1 +1,0 @@
-$memcache = new Memcache;\n$memcache->addServer('127.0.0.1', 11211);\n$memcache->setConnectTimeout(500); // 500ms connection timeout\n\n// Store an object in memcache\n$obj = new stdClass;\n$obj->data = 'Hello, World!';\n$memcache->set('my_object', $obj);\n\n// Retrieve the object from memcache\n$obj = $memcache->get('my_object');

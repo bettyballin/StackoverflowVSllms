@@ -1,1 +1,0 @@
-$user_data = 'some user input';\necho htmlspecialchars($user_data, ENT_QUOTES, 'UTF-8');

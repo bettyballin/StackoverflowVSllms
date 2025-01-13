@@ -1,1 +1,0 @@
-WITH XMLNAMESPACES(\n    '[schema]' AS soap2,\n    'http://tempuri.org/' AS tempuri,\n    DEFAULT '[schema]'\n)\n\nSELECT TransactionID, \n    T2.Loc.query('data(Request/SubscriberCode)') as 'SubscriberCode'\nFROM TempWorksRequest\nCROSS APPLY RequestXML.nodes('soap2:Envelope/soap2:Body/tempuri:RunPackage/xmlDoc') as T2(Loc)

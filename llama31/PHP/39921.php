@@ -1,1 +1,0 @@
-$ids = array(123, 535, 345, 567, 878);\n$count = count($ids);\n\n$placeholders = implode(',', array_fill(0, $count, '?'));\n\n$stmt = $mysqli->prepare("SELECT foo, blar FROM table WHERE id IN ($placeholders)");\n\n$types = str_repeat('i', $count); // Create a string of 'i' types\n$stmt->bind_param($types, ...$ids); // Unpack the array of IDs\n\n$stmt->execute();

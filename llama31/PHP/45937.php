@@ -1,1 +1,0 @@
-Array\n(\n    [0] => hi\n    [1] => how are you\n)

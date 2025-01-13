@@ -1,1 +1,0 @@
-SELECT \n  entity_id,\n  MAX(CASE WHEN attribute_name = 'field1' THEN value END) AS field1,\n  MAX(CASE WHEN attribute_name = 'field2' THEN value END) AS field2,\n  ...\nFROM form_data\nGROUP BY entity_id;

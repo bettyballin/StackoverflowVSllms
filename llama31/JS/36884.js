@@ -1,1 +1,0 @@
-// Example using jQuery DataTables\nvar data = [...]; // your 1000 row data\n\n$('#data-grid').DataTable({\n  data: data,\n  columns: [\n    { title: 'ID' },\n    { title: 'Value' }\n  ],\n  filter: true,\n  paging: true,\n  pageLength: 10\n});

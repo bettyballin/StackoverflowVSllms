@@ -1,1 +1,0 @@
-DECLARE @password NVARCHAR(50) = 'AAAA'\nDECLARE @salt NVARCHAR(50) = 'your_secret_salt_value'\nDECLARE @hashed_password VARBINARY(512) = HASHBYTES('SHA2_512', CONVERT(NVARCHAR(50), @password + @salt))\n\n-- Verify password\nSELECT CONVERT(INT, HASHBYTES('SHA2_512', CONVERT(NVARCHAR(50), @password + @salt)) = @hashed_password)

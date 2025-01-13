@@ -1,1 +1,0 @@
-const { format } = require('date-fns');\n\nconst timestamp = new Date();\nconst formatted = format(timestamp, 'yyyy-MM-dd'T'HH:mm:ss.SSSxxx');\nconsole.log(formatted);

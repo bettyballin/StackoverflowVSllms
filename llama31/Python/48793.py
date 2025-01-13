@@ -1,1 +1,0 @@
-cls = getattr(struct, 'ClassName')\ninstance = cls()

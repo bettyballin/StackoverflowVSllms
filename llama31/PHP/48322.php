@@ -1,1 +1,0 @@
-$string = "Hello “world” ‘foo’";\n\n$replacements = array(\n    "“" => '"',\n    "”" => '"',\n    "‘" => "'",\n    "’" => "'"\n);\n\n$string = str_replace(array_keys($replacements), array_values($replacements), $string);\n\necho $string; // Output: Hello "world" 'foo'

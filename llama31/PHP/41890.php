@@ -1,1 +1,0 @@
-$array = array(\n    "totalRooms" => array(\n        array("Room" => ...),\n        array("Room" => ...),\n    ),\n);

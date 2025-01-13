@@ -1,1 +1,0 @@
-if (in_array(strtolower($row['name']), $list, true) && $Cond2) {\n    doThis();\n}

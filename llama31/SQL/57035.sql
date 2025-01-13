@@ -1,1 +1,0 @@
-CREATE TABLE example (\n  id INT,\n  name VARCHAR(255)\n);

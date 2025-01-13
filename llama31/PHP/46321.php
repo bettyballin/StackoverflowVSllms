@@ -1,1 +1,0 @@
-$feed->set_cache_location(WP_CONTENT_DIR . '/cache');

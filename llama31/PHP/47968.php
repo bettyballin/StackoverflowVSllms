@@ -1,1 +1,0 @@
-echo strtotime('0000-00-00 22:00:00'); // outputs nothing or 0

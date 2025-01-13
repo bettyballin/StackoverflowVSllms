@@ -1,1 +1,0 @@
-CREATE TABLE Person (\n  name CHAR(10),\n  ssn INTEGER\n);

@@ -1,1 +1,0 @@
-$xml = simplexml_load_string($your_xml_string);\n\necho '<select name="select" id="select">';\nforeach ($xml->xpath('//album') as $album) {\n    echo '<option value="' . (string)$album->contentnumber . '">' . (string)$album->title . '</option>';\n}\necho '</select>';

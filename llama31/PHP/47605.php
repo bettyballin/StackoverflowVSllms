@@ -1,1 +1,0 @@
-// User model represents a user entity\nclass UserModel extends Model {\n    public function get_user_data() {}\n    public function update_user_profile() {}\n}\n\n// Order model represents an order entity\nclass OrderModel extends Model {\n    public function get_order_details() {}\n    public function update_order_status() {}\n}

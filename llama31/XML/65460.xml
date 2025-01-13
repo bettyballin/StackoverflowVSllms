@@ -1,1 +1,0 @@
-<Context>\n  <Valve className="org.apache.catalina.valves.SingleSignOn" />\n  <Manager className="org.apache.catalina.session.StandardManager" />\n</Context>

@@ -1,1 +1,0 @@
-const headerHeight = document.getElementById('header').offsetHeight;\nconst footerHeight = document.getElementById('footer').offsetHeight;\nconst contentElement = document.getElementById('content');\n\ncontentElement.style.height = `calc(100vh - ${headerHeight}px - ${footerHeight}px)`;

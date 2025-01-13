@@ -1,1 +1,0 @@
-$select = $db->select()\n             ->from('reported_issues', array('status', 'total' => 'count(*)'))\n             ->where('date_reported >= ?', $today)\n             ->where('status IN (?)', array(0, 1))\n             ->group('status');\n\n$stmt = $select->query();\n\nwhile ($row = $stmt->fetch()) {\n    // ...\n}

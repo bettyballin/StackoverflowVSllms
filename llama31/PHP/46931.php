@@ -1,1 +1,0 @@
-$row2 = // retrieve your data here\necho json_encode($row2["ARTICLE_DESC"]);

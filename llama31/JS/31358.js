@@ -1,1 +1,0 @@
-$("#thediv").prop("scrollTop", $("#thediv").prop("scrollHeight"));

@@ -1,1 +1,0 @@
-$.ajax({\n  type: "POST",\n  url: "/my/service",\n  data: { name: "John", age: 30 },\n  success: function(data) {\n    console.log(data);\n  }\n});

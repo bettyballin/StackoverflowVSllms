@@ -1,1 +1,0 @@
-UPDATE YourTableName\nSET GuidId = NEWID();

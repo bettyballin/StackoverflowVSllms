@@ -1,1 +1,0 @@
-# in your controller\ndef create\n  # ...\n  Delayed::Job.enqueue(FileProcessor.new(params[:fmfile][:document]))\n  # ...\nend\n\n# in your model\nclass FileProcessor < Struct.new(:file)\n  def perform\n    # process the file here\n  end\nend

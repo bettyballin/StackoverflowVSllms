@@ -1,1 +1,0 @@
-<?php\n  sleep(5); // sleep for 5 seconds\n  echo "Hello, World!";\n?>

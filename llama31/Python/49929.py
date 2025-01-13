@@ -1,1 +1,0 @@
-child_index_1 = 4 * i + 1\nchild_index_2 = 4 * i + 2\nchild_index_3 = 4 * i + 3\nchild_index_4 = 4 * i + 4

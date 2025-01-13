@@ -1,1 +1,0 @@
-$lastInsertId = $db->getConnection()->lastInsertId();

@@ -1,1 +1,0 @@
-SELECT *\nFROM node\nCONNECT BY node_id = PRIOR parent_node_id\nSTART WITH node_id = 10

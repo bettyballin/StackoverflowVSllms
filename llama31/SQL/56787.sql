@@ -1,1 +1,0 @@
-UPDATE stuff SET foo = foo + 1

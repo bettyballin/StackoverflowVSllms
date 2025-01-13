@@ -1,1 +1,0 @@
-import re\n\nfoundemail = []\n\nmailsrch = re.compile(r'From:.*?<([\w\-][\w\-\.]+@[\w\-][\w\-\.]+[a-zA-Z]{1,4})>')\n\nfor line in open("text.txt"):\n    foundemail.extend(mailsrch.findall(line))\n\nprint foundemail

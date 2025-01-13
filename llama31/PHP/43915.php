@@ -1,1 +1,0 @@
-class Test {\n    public function __construct() {\n        echo 'Hello, World!';\n    }\n}\n\n$test = new Test;

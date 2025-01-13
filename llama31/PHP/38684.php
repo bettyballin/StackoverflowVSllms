@@ -1,1 +1,0 @@
-// in a config file or a bootstrap script\ndefine('BASE_PATH', dirname(__DIR__));\n\n// in script.php\nrequire BASE_PATH . '/inc/include1.php';\n\n// in soap/soap.php\nrequire BASE_PATH . '/inc/include1.php';

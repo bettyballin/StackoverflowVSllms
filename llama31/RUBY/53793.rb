@@ -1,1 +1,0 @@
->> Time.zone.now\n=> Sun Jun 21 17:05:59 UTC 2009

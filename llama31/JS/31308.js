@@ -1,1 +1,0 @@
-// Write a function that takes a string as input and returns the string with all vowels removed\nfunction removeVowels(input) {\n  // Add your JavaScript code here\n}

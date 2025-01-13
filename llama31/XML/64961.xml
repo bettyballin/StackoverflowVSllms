@@ -1,1 +1,0 @@
-<roleManager enabled="true" defaultProvider="CustomRoleProvider">\n    <providers>\n        <add name="CustomRoleProvider" type="YourNamespace.CustomRoleProvider" />\n    </providers>\n</roleManager>

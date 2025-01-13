@@ -1,1 +1,0 @@
-SELECT \n  table1.price,\n  table2.price AS other_price\nFROM \n  table1 \n  JOIN table2 ON table1.id = table2.id;

@@ -1,1 +1,0 @@
-from lxml import html\n\ntree = html.parse("example.html")

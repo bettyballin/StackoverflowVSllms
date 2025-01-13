@@ -1,1 +1,0 @@
-// Basic PHP example to get started\n<?php\n  $name = 'John Doe';\n  echo "Hello, $name!";\n?>

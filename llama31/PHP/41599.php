@@ -1,1 +1,0 @@
-$query = $modelName->find('all', [\n    'recursive' => -1,\n    // other query options...\n]);\n\nforeach ($query as $row) {\n    // process each row individually\n}

@@ -1,1 +1,0 @@
-Imports System.Text.RegularExpressions\n\nProtected Sub TenWordsTextBoxValidator_ServerValidate(ByVal source As Object, ByVal args As System.Web.UI.WebControls.ServerValidateEventArgs) Handles TenWordsTextBoxValidator.ServerValidate\n    ' 10 words\n    args.IsValid = Regex.Matches(args.Value, "\b\w+\b").Count <= 10\nEnd Sub

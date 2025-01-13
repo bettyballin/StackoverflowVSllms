@@ -1,1 +1,0 @@
-function getLoginData() {\n    // Initialize variables...\n    return array(\n        'dbHost' => $dbHost,\n        'dbPort' => $dbPort,\n        // ...\n        'username' => $username,\n        'passhash_md5' => $passhash_md5\n    );\n}

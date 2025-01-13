@@ -1,1 +1,0 @@
-$ID = filter_var($_GET['id'], FILTER_VALIDATE_INT);\nif ($ID === false) {\n    // handle invalid input\n}

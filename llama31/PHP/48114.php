@@ -1,1 +1,0 @@
-class User {\n    public $id;\n    public $name;\n    public $email;\n}\n\nfunction getUserData(): User {\n    $user = new User();\n    $user->id = 1;\n    $user->name = 'John Doe';\n    $user->email = 'john@example.com';\n    return $user;\n}

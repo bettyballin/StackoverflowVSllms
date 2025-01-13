@@ -1,1 +1,0 @@
-<Reference Include="nunit.framework, Version=2.4.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">\n  <SpecificVersion>False</SpecificVersion>\n  <HintPath>..\..\..\NUnit-2.4.8\bin\nunit.framework.dll</HintPath>\n</Reference>

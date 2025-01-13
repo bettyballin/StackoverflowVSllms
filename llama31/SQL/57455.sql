@@ -1,1 +1,0 @@
-SELECT column_name\nFROM table_name\nLIMIT 1 OFFSET 0;

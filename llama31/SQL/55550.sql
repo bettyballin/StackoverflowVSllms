@@ -1,1 +1,0 @@
--- migrate_001.sql\nCREATE TABLE your_table (\n    id INT PRIMARY KEY,\n    name VARCHAR(255) NOT NULL\n);

@@ -1,1 +1,0 @@
-ALTER TABLE Orders\nDROP COLUMN Initials;\n\nALTER TABLE Orders\nADD CONSTRAINT FK_Orders_UserGuidMapping\nFOREIGN KEY (UserId) REFERENCES UserGuidMapping(Id);

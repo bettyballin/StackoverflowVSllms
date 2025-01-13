@@ -1,1 +1,0 @@
-BEGIN TRY\n    -- Create and open cursors here\nEND TRY\nBEGIN CATCH\n    -- Close and deallocate cursors here\n    IF CURSOR_STATUS('global', 'cursor_name') = 1\n    BEGIN\n        CLOSE cursor_name;\n        DEALLOCATE cursor_name;\n    END\nEND CATCH

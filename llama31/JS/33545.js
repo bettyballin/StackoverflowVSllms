@@ -1,1 +1,0 @@
-const express = require('express');\nconst app = express();\n\napp.post('/check-username', (req, res) => {\n  const username = req.body.username;\n  // Check if username is available in your database\n  // ...\n  const available = true; // or false\n  res.json({ available });\n});

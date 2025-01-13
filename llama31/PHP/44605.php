@@ -1,1 +1,0 @@
-echo 'Posted: ' . $row['date'];

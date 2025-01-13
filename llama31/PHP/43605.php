@@ -1,1 +1,0 @@
-$maxLength = 50; // adjust to your desired length\n$shortened = substr($input, 0, $maxLength / 2) . '...' . substr($input, -$maxLength / 2);

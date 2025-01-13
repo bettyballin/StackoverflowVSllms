@@ -1,1 +1,0 @@
-def flip():\n    count = 0\n    def inner():\n        nonlocal count\n        print("count is:", count)\n        if count == 0:\n            count = 1\n            return count\n        else:\n            count = 0\n            return count\n    return inner

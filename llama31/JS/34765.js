@@ -1,1 +1,0 @@
-function ajax_cb() {\n  window.setTimeout(function() {\n    window.close();\n  }, 0);\n}

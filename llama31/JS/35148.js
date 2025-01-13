@@ -1,1 +1,0 @@
-fetch("/path/to/resource", { method: "HEAD" })\n  .then(response => console.log(response.headers))\n  .catch(error => console.error(error));

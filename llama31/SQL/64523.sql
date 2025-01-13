@@ -1,1 +1,0 @@
-SELECT *\nFROM sometable USE INDEX (bar_idx, foo_idx)\nWHERE foo='hello' AND bar='world';

@@ -1,1 +1,0 @@
-onSuccess: function(transport) {\n  if (transport.status === 200) {\n    // process the responseText\n  } else {\n    // handle error\n  }\n}

@@ -1,1 +1,0 @@
-$image = imagecreatetruecolor(100, 100);\n$backgroundColor = imagecolorallocatealpha($image, 255, 255, 255, 127); // 50% transparent white\nimagefill($image, 0, 0, $backgroundColor);\n\n// Save the image as a PNG to preserve the alpha channel\nheader('Content-Type: image/png');\nimagepng($image);\nimagedestroy($image);

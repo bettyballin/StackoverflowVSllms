@@ -1,1 +1,0 @@
-CREATE TABLE Orders (\n    OrderID INT,\n    OrderDate DATETIME\n);\n\nCREATE INDEX IX_Orders_OrderDate_ASC ON Orders (OrderDate ASC);\n\nCREATE INDEX IX_Orders_OrderDate_DESC ON Orders (OrderDate DESC);

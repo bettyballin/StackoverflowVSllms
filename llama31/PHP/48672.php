@@ -1,1 +1,0 @@
-// Define a code template for a PHP function\nabby: function ${functionName}(${parameters}) {\n    ${cursor}\n}

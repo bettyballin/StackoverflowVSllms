@@ -1,1 +1,0 @@
-$myFunction = create_function('$foo', 'return $foo;');\n$myFunction('bar'); // Returns bar

@@ -1,1 +1,0 @@
-const arr1 = [1, 2, 3];\nconst arr2 = [2, 4, 5];\n\nconsole.log(arr2.some(val => arr1.includes(val))); // true

@@ -1,1 +1,0 @@
-// Create a new page\ncreate('pages', ['title' => 'New Page', 'content' => 'This is a new page']);\n\n// Read a page by ID\n$page = read('pages', 1);\n\n// Update a page\nupdate('pages', 1, ['title' => 'Updated Page', 'content' => 'This is an updated page']);\n\n// Delete a page\ndelete('pages', 1);

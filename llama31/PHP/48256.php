@@ -1,1 +1,0 @@
-$sql = sprintf("INSERT INTO profiles(email, fullName) VALUES(%s,%s)", \n                     $mdb2->quote($email), $mdb2->quote($fullName));\n\n// insert data...\n\n$sql = "SELECT * FROM profiles WHERE email = " . $mdb2->quote($email);\n$result = $mdb2->query($sql);\n$data = $result->fetchRow();\n\n// $data['email'] and $data['fullName'] will not have extra quotes

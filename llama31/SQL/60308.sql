@@ -1,1 +1,0 @@
-UPDATE your_table SET abbreviation = REPLACE(abbreviation, '\0', '');

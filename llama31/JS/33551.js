@@ -1,1 +1,0 @@
-$.ajax({\n    type: 'GET',\n    url: '/MyController/GetData',\n    dataType: 'json',\n    success: function (data) {\n        console.log(data);\n        // Process the JSON data\n    }\n});

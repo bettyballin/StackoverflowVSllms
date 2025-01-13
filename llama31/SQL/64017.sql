@@ -1,1 +1,0 @@
-ALTER SYSTEM SET UNDO_RETENTION = 86400;  -- 24 hours in seconds

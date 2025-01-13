@@ -1,1 +1,0 @@
-$front = Zend_Controller_Front::getInstance();\n$request = $front->getRequest();\n$request->setBasePath('/quickstart'); // set the base path to your subfolder\n$front->dispatch();

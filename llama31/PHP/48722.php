@@ -1,1 +1,0 @@
-// cron.php (before performing tasks)\n$lockFile = 'lock.txt';\nif (file_exists($lockFile)) {\n    exit(); // another instance is running, exit\n}\nfile_put_contents($lockFile, time());\n// perform tasks...\nunlink($lockFile);

@@ -1,1 +1,0 @@
-jQuery('#btnAddItem').click(function(event){\n  console.log('Click event triggered');\n  addItemToStorageList();\n});\n\nfunction addItemToStorageList()\n{\n  console.log('addItemToStorageList function called');\n  var stores = jQuery('#storeListBox').val();\n  console.log('Selected values:', stores);\n  alert(stores);\n}

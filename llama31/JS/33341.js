@@ -1,1 +1,0 @@
-/html.href = html.href.replace(/([^\?]+)\?.*$/g, '$1');

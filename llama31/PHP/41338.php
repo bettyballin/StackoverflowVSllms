@@ -1,1 +1,0 @@
-$a = 0;\n$b = '0';\n\nvar_dump($a != $b);  // outputs: bool(false)\nvar_dump($a !== $b); // outputs: bool(true)

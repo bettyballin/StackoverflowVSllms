@@ -1,1 +1,0 @@
-EXEC dbo.ConcatField 'SELECT * FROM your_table', 'your_field', ', '

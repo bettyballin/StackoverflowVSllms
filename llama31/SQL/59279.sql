@@ -1,1 +1,0 @@
-SELECT SUM(CAST(myIntColumn AS DECIMAL(20, 0))) as foo FROM myTable;

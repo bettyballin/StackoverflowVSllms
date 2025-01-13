@@ -1,1 +1,0 @@
-SELECT * \nFROM cs_Users \nWHERE Username NOT IN (SELECT MembershipName FROM aspnet_Membership);

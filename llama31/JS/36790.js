@@ -1,1 +1,0 @@
-function OnSucceeded(result) {\n    // assuming you have a thickbox with an id 'myThickbox'\n    var thickbox = $('#myThickbox');\n    thickbox.html(result); // set the content of the thickbox\n    thickbox.show(); // show the thickbox\n}

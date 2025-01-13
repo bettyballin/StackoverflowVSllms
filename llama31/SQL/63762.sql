@@ -1,1 +1,0 @@
-INSERT INTO @tmpField\n      ([name], [fieldRowId])\nSELECT [Name], \n       FieldRowId =../../@FieldRowId\n FROM OPENXML (@idoc, '/Field/Items/Item', 1)

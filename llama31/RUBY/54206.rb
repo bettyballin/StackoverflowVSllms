@@ -1,1 +1,0 @@
-class MyResource < ActiveResource::Base\n  self.site = "http://example.com"\n\n  def new?\n    id.blank? || id == 0\n  end\nend

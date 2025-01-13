@@ -1,1 +1,0 @@
--- Execute a query on the remote server\nSELECT * \nFROM OPENQUERY(RemoteServer, 'SELECT * FROM DatabaseName.SchemaName.TableName')

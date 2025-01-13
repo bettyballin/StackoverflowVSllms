@@ -1,1 +1,0 @@
-$("input:radio:checked").prev("input:radio").attr("name", "new_name");

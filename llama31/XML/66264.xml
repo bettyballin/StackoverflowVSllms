@@ -1,1 +1,0 @@
-<jboss>\n    <connection-pool>\n        <listener>\n            <class-name>com.example.ConnectionErrorHandler</class-name>\n        </listener>\n    </connection-pool>\n</jboss>

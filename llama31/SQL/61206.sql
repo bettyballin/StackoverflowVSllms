@@ -1,1 +1,0 @@
-DECLARE\n  CURSOR my_cursor IS\n    SELECT * FROM employees;\nBEGIN\n  OPEN my_cursor;\n  FETCH my_cursor INTO ...;\n  CLOSE my_cursor;\nEND;

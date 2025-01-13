@@ -1,1 +1,0 @@
-// Before minification\nfunction add(a, b) {\n  return a + b;\n}\n\n// After minification\nfunction a(b,c){return b+c;}

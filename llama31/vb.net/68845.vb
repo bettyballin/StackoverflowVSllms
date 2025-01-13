@@ -1,1 +1,0 @@
-Private Sub OK_Button_Click(sender As Object, e As EventArgs)\n    ' event handler code here\nEnd Sub\n\nPrivate Sub InitializeComponent()\n    ' ...\n    AddHandler OK_Button.Click, AddressOf OK_Button_Click\n    ' ...\nEnd Sub

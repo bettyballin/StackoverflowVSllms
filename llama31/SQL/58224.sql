@@ -1,1 +1,0 @@
-CREATE PROCEDURE sp_RecompileProcedures\nAS\nBEGIN\n    EXECUTE sp_recompile @objname = 'dbo.sp_MyProcedure1'\n    EXECUTE sp_recompile @objname = 'dbo.sp_MyProcedure2'\n    -- add more procedures here\nEND

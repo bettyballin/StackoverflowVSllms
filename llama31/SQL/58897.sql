@@ -1,1 +1,0 @@
-CREATE TABLE events (\n  event_time DATE,\n  event_milliseconds NUMBER(3)\n);\n\nINSERT INTO events (event_time, event_milliseconds) \nVALUES (SYSDATE, TO_NUMBER(TO_CHAR(SYSTIMESTAMP, 'FF3')));

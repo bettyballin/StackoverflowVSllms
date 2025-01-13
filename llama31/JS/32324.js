@@ -1,1 +1,0 @@
-Ext.define('MyApp.form.ScriptAction', {\n  extend: 'Ext.form.Action',\n  alias: 'formaction.script',\n  handleResponse: function(response) {\n    var script = response.responseText;\n    // evaluate the script\n    (function() {\n      eval(script);\n    })();\n  }\n});

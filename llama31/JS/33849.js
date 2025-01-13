@@ -1,1 +1,0 @@
-function mouse_on_write(txt) {\n  document.getElementById("desc").innerHTML = txt;\n  document.getElementById("image").src = images[1].src; // show pic2.jpg\n}\n\nfunction mouse_off(txt) {\n  document.getElementById("desc").innerHTML = txt;\n  document.getElementById("image").src = images[0].src; // show pic.jpg\n}

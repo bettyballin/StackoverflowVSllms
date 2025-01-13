@@ -1,1 +1,0 @@
-CREATE TABLE tree_node (\n    id INT PRIMARY KEY,\n    parent_id INT,\n    FOREIGN KEY (parent_id) REFERENCES tree_node(id)\n);

@@ -1,1 +1,0 @@
-Imports System.Web.Mvc\n\nNamespace HtmlHelpers\n\n    Public Module HelpExtensions\n\n        <Extension()> _\n        Public Function HelpMe(ByVal htmlHelper As HtmlHelper) As String\n            Return "<a>HELP</a>"\n        End Function\n\n    End Module\n\nEnd Namespace

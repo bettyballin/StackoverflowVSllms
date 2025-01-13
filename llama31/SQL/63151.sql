@@ -1,1 +1,0 @@
-UPDATE p1\nSET address1 = p2.address1\nFROM places p1\nINNER JOIN places p2 ON p1.placename = p2.placename\nWHERE p2.address1 IS NOT NULL AND p2.address1 <> ''\nAND p1.address1 IS NULL OR p1.address1 = '';

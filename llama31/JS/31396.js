@@ -1,1 +1,0 @@
-xhr.onprogress = function(event) {\n  const chunk = event.target.response;\n  // Process the chunk here...\n};

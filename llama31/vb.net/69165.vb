@@ -1,1 +1,0 @@
-Public Sub RaiseEvent(sender As Object, e As Object)\n    Dim attribute As BindEventAttribute = CType(Attribute.GetCustomAttribute(GetType(MyClass).GetProperty("IsTrue"), GetType(BindEventAttribute)), BindEventAttribute)\n    If attribute IsNot Nothing Then\n        attribute.EventDelegate(sender, e)\n    End If\nEnd Sub

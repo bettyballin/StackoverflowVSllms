@@ -1,1 +1,0 @@
-const email = "newbie@example.com";\nconst obfuscatedEmail = email.replace(/./g, (char) => {\n  return char.charCodeAt(0) + 1;\n});\nconsole.log(obfuscatedEmail); // outputs a obfuscated string

@@ -1,1 +1,0 @@
-$cookieName = filter_var($cookieName, FILTER_SANITIZE_STRING);\n$cookieValue = $_COOKIE[$cookieName];

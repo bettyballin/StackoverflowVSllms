@@ -1,1 +1,0 @@
-<?php\necho extension_loaded('mysql') ? 'MySQL driver is loaded' : 'MySQL driver is not loaded';\n?>

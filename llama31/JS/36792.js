@@ -1,1 +1,0 @@
-var parser = new DOMParser();\nvar doc = parser.parseFromString(response, "text/html");\nvar fieldset = doc.querySelector("fieldset");

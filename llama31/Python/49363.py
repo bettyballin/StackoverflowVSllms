@@ -1,1 +1,0 @@
-import networkx as nx\nimport matplotlib.pyplot as plt\n\n# Create a graph\nG = nx.Graph()\nG.add_edge('A', 'B')\nG.add_edge('B', 'C')\nG.add_edge('C', 'A')\n\n# Draw the graph\nnx.draw(G, with_labels=True)\nplt.show()

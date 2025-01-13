@@ -1,1 +1,0 @@
-DECLARE @batchSize INT = 10000;\nDECLARE @affected INT = 1;\n\nWHILE @affected > 0\nBEGIN\n    BEGIN TRANSACTION;\n\n    DELETE TOP (@batchSize)\n    FROM your_table\n    WHERE your_condition = 'true';\n\n    SET @affected = @@ROWCOUNT;\n\n    COMMIT TRANSACTION;\n\n    CHECKPOINT; -- to reduce transaction log usage\nEND;

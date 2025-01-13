@@ -1,1 +1,0 @@
-SELECT a1.*\nFROM audit_log a1\nINNER JOIN (\n  SELECT CustomerID, MAX(AuditDateTime) as MaxAuditDateTime\n  FROM audit_log\n  WHERE AuditDateTime BETWEEN @start_time AND @end_time\n  GROUP BY CustomerID\n) a2\nON a1.CustomerID = a2.CustomerID AND a1.AuditDateTime = a2.MaxAuditDateTime\nWHERE a1.AuditDateTime BETWEEN @start_time AND @end_time

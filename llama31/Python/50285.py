@@ -1,1 +1,0 @@
-from django.db.models import Count\n\nclass NonEmptyManager(models.Manager):\n    def get_queryset(self):\n        return super(NonEmptyManager, self).get_queryset().annotate(\n            num_images=Count('images')\n        ).filter(num_images__gt=0)

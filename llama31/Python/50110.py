@@ -1,1 +1,0 @@
-import html\n\ns = "&#39;"\nunescaped_s = html.unescape(s)\nprint(unescaped_s)  # prints: '

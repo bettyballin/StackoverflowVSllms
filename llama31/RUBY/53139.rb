@@ -1,1 +1,0 @@
-gem 'oracle-enhanced', '~> 1.7.0'

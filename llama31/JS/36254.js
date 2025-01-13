@@ -1,1 +1,0 @@
-function injectScript() {\n  const script = document.createElement('script');\n  script.src = browser.runtime.getURL('script.js');\n  document.head.appendChild(script);\n}\n\nbrowser.runtime.onMessage.addListener((request, sender, sendResponse) => {\n  if (request.action === 'injectScript') {\n    injectScript();\n  }\n});

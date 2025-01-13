@@ -1,1 +1,0 @@
-// On next_page.php\necho '<input type="hidden" name="key" value="' . $_SESSION['key'] . '">';

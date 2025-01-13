@@ -1,1 +1,0 @@
-CREATE TABLE Comments (\n  ID INT PRIMARY KEY,\n  ParentObjectID INT,\n  ObjectType VARCHAR(50),\n  Comment TEXT,\n  FOREIGN KEY (ParentObjectID) REFERENCES Objects(ID)\n);\n\nCREATE TABLE Objects (\n  ID INT PRIMARY KEY,\n  -- other columns common to all objects\n);

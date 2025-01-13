@@ -1,1 +1,0 @@
-WITH FilteredGroups AS (\n  SELECT GroupID\n  FROM SNetwork_Groups\n  WHERE ClientId = @ClientId AND (@GroupId = -1 OR GroupID = @GroupId)\n)\nSELECT ...\nFROM SNetwork_Threads\nINNER JOIN FilteredGroups ON SNetwork_Threads.GroupId = FilteredGroups.GroupID

@@ -1,1 +1,0 @@
-$dbh = new PDO('odbc:DSN=myDSN;UID='.$mssql_login.';PWD='.$mssql_pwd.';CharacterSet=UTF-8');\n$dbh->setAttribute(PDO::SQLSRV_ENCODING_UTF8, true);\n$dbh->setAttribute(PDO::ATTR_MAX_COLUMN_LEN, 4096);

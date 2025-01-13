@@ -1,1 +1,0 @@
-// Cache object\nvar cache = {};\n\n// Store HTML in cache\ncache[pageNumber] = htmlContent;\n\n// Retrieve HTML from cache\nif (cache[pageNumber]) {\n  // Use cached HTML\n} else {\n  // Make AJAX request\n}

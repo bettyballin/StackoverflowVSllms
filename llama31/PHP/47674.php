@@ -1,1 +1,0 @@
-// config.php\ndefine('CDN_URL', 'http://cdn-dev.example.com');\n\n// header.php\n<link rel="stylesheet" href="<?php echo CDN_URL; ?>/styles.css">

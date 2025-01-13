@@ -1,1 +1,0 @@
-SELECT * \nFROM tbl1 \nINNER JOIN tbl2 \nON tbl1.start_date < tbl2.end_date AND tbl2.start_date < tbl1.end_date

@@ -1,1 +1,0 @@
-$fileContents = file_get_contents('/path/to/your/file.txt');

@@ -1,1 +1,0 @@
--- Example online schema change\nALTER TABLE mytable ADD COLUMN new_column INT, ALGORITHM=INPLACE;

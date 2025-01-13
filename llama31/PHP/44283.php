@@ -1,1 +1,0 @@
-$output = array();\nexec("cmd /c C:\dir\file.bat", $output);

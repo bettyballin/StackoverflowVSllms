@@ -1,1 +1,0 @@
-Dim myDate As Date\nmyDate = #1/1/2022#\n\nDim dateString As String\ndateString = Format(myDate, "yyyy-mm-dd")\n\nDim sql As String\nsql = "INSERT INTO myTable (myDateColumn) VALUES ('" & dateString & "')"\n\n' execute the SQL statement

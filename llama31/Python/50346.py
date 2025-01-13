@@ -1,1 +1,0 @@
-from itertools import zip_longest\n\na = ['a1']\nb = ['b1', 'b2', 'b3']\nc = ['c1', 'c2']\n\nresult = list(zip_longest(a, b, c))\nprint(result)

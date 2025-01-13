@@ -1,1 +1,0 @@
-<% if @bunny.carrots.any? %>\n  <strong>Yay! Carrots!</strong>\n  <% for carrot in @bunny.carrots %>\n    You got a <%=h carrot.color %> carrot!<br />\n  <% end %>\n<% end %>

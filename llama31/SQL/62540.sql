@@ -1,1 +1,0 @@
-USE master;\nGO\n\nALTER DATABASE [YourDatabaseName] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;\nGO\n\nRESTORE DATABASE [YourDatabaseName]\nFROM DISK = 'C:\Path\To\BackupFile.BAK'\nWITH REPLACE,\nMOVE 'YourDatabaseName' TO 'C:\Path\To\Database.mdf',\nMOVE 'YourDatabaseName_log' TO 'C:\Path\To\Database_log.ldf';\nGO\n\nALTER DATABASE [YourDatabaseName] SET MULTI_USER;\nGO

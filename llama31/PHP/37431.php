@@ -1,1 +1,0 @@
-function addImageToMessage(MimeMessage $mimeMessage, $imagePath) {\n    $imagePart = new MimePart(file_get_contents($imagePath));\n    $imagePart->type = 'image/jpeg';\n    $imagePart->disposition = 'inline';\n    $imagePart->filename = basename($imagePath);\n    $imagePart->id = basename($imagePath);\n    $mimeMessage->addPart($imagePart);\n}

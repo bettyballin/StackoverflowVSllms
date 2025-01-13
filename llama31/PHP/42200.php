@@ -1,1 +1,0 @@
-$prefix = 'MyApp: ';\n\n$logger = function($message) use ($prefix) {\n    echo $prefix . $message . PHP_EOL;\n};\n\n$logger('Hello, world!'); // outputs "MyApp: Hello, world!"

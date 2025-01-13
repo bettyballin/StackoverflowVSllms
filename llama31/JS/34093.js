@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded", function() {\n  // code to be executed when the DOM is loaded\n});

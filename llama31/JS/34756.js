@@ -1,1 +1,0 @@
-// Using d3.js\nd3.json('/data', function(data) {\n  var graph = new d3.graph(data);\n  graph.render();\n});

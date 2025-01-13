@@ -1,1 +1,0 @@
-require 'date'\n\nstart_time = DateTime.parse("Mon Jul 20 18:25:17 -0400 2009")\nend_time = DateTime.parse("Mon Jul 20 18:49:43 -0400 2009")\n\nduration = end_time - start_time\n\nputs "Duration: #{duration} seconds"

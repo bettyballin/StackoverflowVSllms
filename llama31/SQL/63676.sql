@@ -1,1 +1,0 @@
-DECLARE\n  v_index_name VARCHAR2(30) := 'idx$$_' || TO_CHAR(SYSDATE, 'YYYYMMDD');\nBEGIN\n  EXECUTE IMMEDIATE 'CREATE INDEX ' || v_index_name || ' ON my_table (id)';\nEND;

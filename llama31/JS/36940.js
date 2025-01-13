@@ -1,1 +1,0 @@
-// Create a new history object\nvar history = new History();\n\n// Add a new state to the history stack\nhistory.pushState({ foo: 'bar' }, 'New State', '/new-state');\n\n// Bind to the statechange event\nhistory.on('statechange', function(event) {\n  console.log(event.state); // Output: { foo: 'bar' }\n});

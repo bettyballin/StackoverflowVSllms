@@ -1,1 +1,0 @@
-CREATE TABLE MyTable (MyColumn INT UNIQUE);\n\nSELECT * FROM sys.indexes WHERE object_id = OBJECT_ID('MyTable');

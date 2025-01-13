@@ -1,1 +1,0 @@
-WITH trigrams AS (\n  SELECT \n    value,\n    SUBSTRING(value, 1, 3) AS trigram1,\n    SUBSTRING(value, 2, 3) AS trigram2,\n    ...\n  FROM your_table\n)\nSELECT \n  a.value, \n  b.value, \n  COUNT(*) AS similarity\nFROM trigrams a\nJOIN trigrams b ON a.trigram1 = b.trigram1 OR a.trigram2 = b.trigram2 OR ...\nGROUP BY a.value, b.value\nHAVING COUNT(*) > 1;

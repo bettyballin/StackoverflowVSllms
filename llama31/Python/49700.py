@@ -1,1 +1,0 @@
-import subprocess\n\ndef pdf_to_jpeg(pdf_path, jpeg_path):\n    command = f"pdftoppm -jpeg -f 1 -l 1 {pdf_path} {jpeg_path}"\n    subprocess.run(command, shell=True)\n\n# Example usage:\npdf_path = "input.pdf"\njpeg_path = "output.jpg"\npdf_to_jpeg(pdf_path, jpeg_path)

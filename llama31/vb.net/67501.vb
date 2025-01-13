@@ -1,1 +1,0 @@
-Dim comparer = New ClassAComparer()\nDim result = lst1.Any(Function(x) lst2.Contains(x, comparer))

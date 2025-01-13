@@ -1,1 +1,0 @@
-<?php\n  $fp = fopen('test.txt', 'w');\n  fwrite($fp, 'This is a test.');\n  fclose($fp);\n?>

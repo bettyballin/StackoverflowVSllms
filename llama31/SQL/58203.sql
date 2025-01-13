@@ -1,1 +1,0 @@
-DECLARE @id INT;\nDECLARE cur CURSOR FOR SELECT id FROM table2;\nOPEN cur;\n\nFETCH NEXT FROM cur INTO @id;\nWHILE @@FETCH_STATUS = 0\nBEGIN\n    INSERT INTO table1 (column1, column2, column3, column4, column5, fk)\n    VALUES ('a', 'a', 'a', 'a', 'a', @id);\n    FETCH NEXT FROM cur INTO @id;\nEND;\n\nCLOSE cur;\nDEALLOCATE cur;

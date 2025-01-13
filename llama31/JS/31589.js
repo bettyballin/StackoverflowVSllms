@@ -1,1 +1,0 @@
-// avoid using JSONP in Safari\n// instead, use CORS headers for cross-domain requests

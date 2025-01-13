@@ -1,1 +1,0 @@
-header("Content-Type: text/html");\necho "<script>window.open('http://www.awebsite.com', '_blank');</script>";\nexit;

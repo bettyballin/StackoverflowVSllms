@@ -1,1 +1,0 @@
-$.ajaxSetup({\n  xhr: function() {\n    var progIDs = ['Msxml2.XMLHTTP.3.0', 'Msxml2.XMLHTTP'];\n    for (var i = 0, l = progIDs.length; i < l; i++) {\n      try {\n        return new ActiveXObject(progIDs[i]);\n      } catch (ex) {}\n    }\n    return null;\n  }\n});

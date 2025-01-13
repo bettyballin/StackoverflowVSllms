@@ -1,1 +1,0 @@
-SELECT c.CategoryNumber, c.Desc\nFROM Category c\nWHERE c.CategoryNumber NOT IN (\n  SELECT m.CategoryNumber\n  FROM Media m\n  JOIN Sales s ON m.MediaID = s.MediaID\n  JOIN Employees e ON s.EmployeeID = e.EmployeeID\n  WHERE e.EmployeeID = ?  -- replace with the given employee ID\n)

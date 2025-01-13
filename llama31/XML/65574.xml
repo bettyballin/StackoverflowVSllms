@@ -1,1 +1,0 @@
-<Server>\n  ...\n  <Listener className="org.apache.catalina.mbeans.JmxRemoteLifecycleListener"\n            rmiRegistryPortPlatform="1099"\n            rmiServerPortPlatform="1098"/>\n  ...\n</Server>

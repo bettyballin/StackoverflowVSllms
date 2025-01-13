@@ -1,1 +1,0 @@
-SELECT *\nFROM afile\nWHERE afield1 IN (\n  SELECT afield1\n  FROM afile\n  GROUP BY afield1\n  HAVING COUNT(afield1) > 1\n);

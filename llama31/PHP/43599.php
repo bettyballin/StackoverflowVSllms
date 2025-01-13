@@ -1,1 +1,0 @@
-$matrixA = new Matrix([[1, 2], [3, 4]]);\n$matrixB = new Matrix([[5, 6], [7, 8]]);\n\n$matrixC = $matrixA->multiply($matrixB);\n\nprint_r($matrixC->data);

@@ -1,1 +1,0 @@
-function autoComplete($query)\n{\n    $this->set('users', $this->User->find('all', array(\n        'fields' => array('User.id', 'User.name'),\n        'conditions' => array('User.name LIKE' => '%' . $query . '%')\n    )));\n    $this->layout = "ajax";\n}

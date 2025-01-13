@@ -1,1 +1,0 @@
-function apply_count(...$args) {\n    return array_map('count', $args);\n}\n\nlist($a, $b, $c, $d) = apply_count($a, $b, $c, $d);

@@ -1,1 +1,0 @@
-$image_path = 'input.jpg';\n\n// Create an image from the JPG file\n$img = imagecreatefromjpeg($image_path);\n\n// Save the image as GIF\nimagegif($img, 'output.gif');\n\n// Save the image as PNG\nimagepng($img, 'output.png');\n\n// Save the image as BMP\nimagebmp($img, 'output.bmp');\n\n// Free up memory\nimagedestroy($img);

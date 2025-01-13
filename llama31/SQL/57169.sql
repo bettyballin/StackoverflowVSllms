@@ -1,1 +1,0 @@
--- Enable auditing on a specific schema\nAUDIT ALL BY SESSION ON SCHEMA schema_name;\n\n-- Enable auditing on a specific table\nAUDIT ALL ON table_name;

@@ -1,1 +1,0 @@
-<httpHandlers>\n  <add verb="*" path="*.pdf" type="YourNamespace.PdfHandler, YourAssembly"/>\n</httpHandlers>

@@ -1,1 +1,0 @@
-select * from sample_table where age is not null;

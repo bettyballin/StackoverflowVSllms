@@ -1,1 +1,0 @@
-SomeString = SomeString.Replace(vbCrLf, vbLf)

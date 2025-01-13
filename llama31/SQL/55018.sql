@@ -1,1 +1,0 @@
-SET GLOBAL time_zone = 'America/New_York'; // Set your desired timezone

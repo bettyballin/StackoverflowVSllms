@@ -1,1 +1,0 @@
-$this->db->select('d.*, IFNULL(u.some_val, "default_value") as some_val');\n$this->db->from('data d');\n$this->db->join('users u', 'd.user_id = u.user_id', 'left');\n$query = $this->db->get();

@@ -1,1 +1,0 @@
-$feed->set_cache_location(ABSPATH . 'wp-content/cache');

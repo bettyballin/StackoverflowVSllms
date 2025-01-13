@@ -1,1 +1,0 @@
-FLOOR((DAYOFMONTH(dateField) - 1) / 7) + 1

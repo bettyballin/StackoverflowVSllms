@@ -1,1 +1,0 @@
-import shutil\n\ntry:\n    shutil.rmtree("/folder_name")\nexcept OSError as e:\n    print(f"Error deleting folder: {e}")

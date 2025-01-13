@@ -1,1 +1,0 @@
-SELECT first_name, last_name, email FROM employees WHERE employee_id = 123;

@@ -1,1 +1,0 @@
-Dim byteArray(20) As Byte

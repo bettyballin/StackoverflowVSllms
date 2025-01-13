@@ -1,1 +1,0 @@
-// Assuming $conn2 is your connection to db2\n$stmt = $conn2->prepare("SELECT id FROM accounts");\n$stmt->execute();\n$ids = $stmt->fetchAll(PDO::FETCH_COLUMN);

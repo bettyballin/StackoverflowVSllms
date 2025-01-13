@@ -1,1 +1,0 @@
-$sizes = trim($_POST['sizes']);\n\nif ($sizes === "Small ($30)") {\n    $total = "30";\n} elseif ($sizes === "Medium ($40)") {\n    $total = "40";\n} elseif ($sizes === "Large ($50)") {\n    $total = "50";\n} else {\n    $total = $_POST['price'];\n}

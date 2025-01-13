@@ -1,1 +1,0 @@
-<p><a href='#' onclick='makewindows(" . json_encode(htmlentities($row2["ARTICLE_DESC"])) . "); return false;'>Click for full description </a></p>

@@ -1,1 +1,0 @@
-WITH RecursivePage AS (\n    SELECT PageID, ParentID, Title, 0 AS Level\n    FROM Pages\n    WHERE ParentID IS NULL\n    UNION ALL\n    SELECT p.PageID, p.ParentID, p.Title, Level + 1\n    FROM Pages p\n    INNER JOIN RecursivePage rp ON p.ParentID = rp.PageID\n)\nSELECT \n    REPLICATE('    ', Level) + Title AS Title\nFROM RecursivePage\nORDER BY Level, Title

@@ -1,1 +1,0 @@
-xhr.setRequestHeader('Content-Length', SearchString.length);\nxhr.send(SearchString);

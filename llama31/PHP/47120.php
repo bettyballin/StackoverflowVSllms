@@ -1,1 +1,0 @@
-$url = htmlspecialchars($row['url'], ENT_QUOTES, 'UTF-8');\n$url = str_replace("%3A", ":", $url);

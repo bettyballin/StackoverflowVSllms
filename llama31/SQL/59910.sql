@@ -1,1 +1,0 @@
-CREATE TEMPORARY TABLE ids (id VARCHAR(255));\nLOAD DATA LOCAL INFILE 'ids.txt' INTO TABLE ids;\nSELECT a.* FROM archive_table a JOIN ids i ON a.id = i.id;

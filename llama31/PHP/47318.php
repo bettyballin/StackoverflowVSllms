@@ -1,1 +1,0 @@
-$cpuUsage = exec('top -b -n 1 | grep "Cpu(s)" | awk \'{print $2}\'');\nif ($cpuUsage > 80) { // adjust the threshold value as needed\n    echo "Server is busy";\n} else {\n    echo "Server is not busy";\n}

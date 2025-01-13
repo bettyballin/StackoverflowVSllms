@@ -1,1 +1,0 @@
-<!-- app.config -->\n<configuration>\n  <connectionStrings>\n    <add name="SqlServer" connectionString="..." providerName="SqlServer"/>\n    <add name="Oracle" connectionString="..." providerName="Oracle"/>\n    <add name="Xml" connectionString="..." providerName="Xml"/>\n  </connectionStrings>\n</configuration>

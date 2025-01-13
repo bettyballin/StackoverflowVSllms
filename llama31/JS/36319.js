@@ -1,1 +1,0 @@
-$.ajax({\n  // your options here\n  error: function(xhr, status, error) {\n    if (xhr.status === 0) {\n      // ignore error caused by client cancelling request\n      return;\n    }\n    // handle error as usual\n  }\n});

@@ -1,1 +1,0 @@
-SELECT ps.score\nFROM product_scores ps\nJOIN products p ON ps.product_id = p.id\nJOIN categories c ON ps.category_id = c.id\nWHERE p.id = ? AND c.name = 'occasions';

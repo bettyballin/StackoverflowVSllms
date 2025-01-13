@@ -1,1 +1,0 @@
-<Tool Name="GCC" \n      CommandLine="gcc -c -o $(IntDir)$(InputName).o $(InputPath)" \n      Outputs="$(IntDir)$(InputName).o" />

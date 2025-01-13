@@ -1,1 +1,0 @@
-const element = document.getElementById('myElement');\nconst rect = element.getBoundingClientRect();\nconst viewportHeight = globalThis.innerHeight || 768;\n\nif (rect.bottom > viewportHeight) {\n  // Element has gone off the bottom of the page\n  // You can move it to the next page or adjust its position as needed\n}

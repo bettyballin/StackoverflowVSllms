@@ -1,1 +1,0 @@
-// Enable DELETE and PUT requests\n$.ajaxSetup({\n  beforeSend: function(xhr) {\n    if (xhr.setRequestHeader) {\n      xhr.setRequestHeader('X-CSRF-Token', $('meta[name="csrf-token"]').attr('content'));\n      xhr.setRequestHeader('X-HTTP-Method-Override', 'DELETE'); // or 'PUT'\n    }\n  }\n});

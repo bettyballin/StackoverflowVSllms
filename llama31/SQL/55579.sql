@@ -1,1 +1,0 @@
-CREATE TABLE map_values (\n  id INT PRIMARY KEY,\n  map VARCHAR(255) UNIQUE\n);\n\nCREATE TABLE your_table (\n  id INT PRIMARY KEY,\n  map_id INT,\n  FOREIGN KEY (map_id) REFERENCES map_values(id)\n);

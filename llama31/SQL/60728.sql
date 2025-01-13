@@ -1,1 +1,0 @@
-function funcGet_Bookmark_Id return NUMBER\nIS\n  bookmarkId NUMBER;\nBEGIN\n  SELECT seq_bookmarks.nextval INTO bookmarkId\n    FROM dual;\n  return bookmarkId;\nEND funcGet_Bookmark_Id;

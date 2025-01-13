@@ -1,1 +1,0 @@
-header('WWW-Authenticate: Basic realm="My Realm"'); // request basic authentication\nheader('Authorization: Bearer YOUR_TOKEN'); // specify authorization toke

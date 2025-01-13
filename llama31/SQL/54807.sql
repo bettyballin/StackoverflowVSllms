@@ -1,1 +1,0 @@
-SELECT department, AVG(salary) as avg_salary\nFROM employees\nWHERE hire_date > '2010-01-01'  -- filter individual rows\nGROUP BY department\nHAVING AVG(salary) > 50000;  -- filter groups

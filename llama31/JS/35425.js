@@ -1,1 +1,0 @@
-// Using Jest and jsdom\nimport { JSDOM } from 'jsdom';\n\nconst dom = new JSDOM('<div class="rounded-corners"></div>');\nconst element = dom.window.document.querySelector('.rounded-corners');\n\nexpect(element.style.borderRadius).toBe('10px');

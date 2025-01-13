@@ -1,1 +1,0 @@
-$rel_title = "SELECT * FROM tbl_content WHERE status='t' AND (";\nforeach ($keywords as $keyword) {\n    $rel_title .= "article_name LIKE '%$keyword%' OR ";\n}\n$rel_title = substr($rel_title, 0, -4); // remove the last " OR "\n$rel_title .= ") ORDER BY id DESC LIMIT 5";

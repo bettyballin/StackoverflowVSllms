@@ -1,1 +1,0 @@
-$query = "SELECT u.url_id, url, title, description, \n          DATE_FORMAT(STR_TO_DATE(pub_date, '%d-%b-%Y'), '%d %M %Y') \n          AS pub_date FROM urls AS u, url_associations AS ua \n          WHERE u.url_id = ua.url_id AND ua.url_category_id=$type \n          AND ua.approved = 'Y' ORDER BY pub_date DESC";

@@ -1,1 +1,0 @@
--- Example of using HASHBYTES() (SQL Server 2008 and later)\nSELECT HASHBYTES('SHA2_256', CONVERT(VARCHAR(MAX), \n               DATA_DT_ID + '|' + BANK_NUM + '|' + COST_CTR_NUM + '|' + \n               GL_ACCT_NUM + '|' + ACCT_NUM + '|' + APPN_CD)) AS HASH_KEY\nFROM CUST_ACCT_PRFTBLT;

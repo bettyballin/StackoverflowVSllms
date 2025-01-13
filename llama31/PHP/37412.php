@@ -1,1 +1,0 @@
-$xml = new SimpleXMLElement('<root><person><name>John</name><age>30</age></person></root>');\n\necho $xml->person->name; // outputs "John"\necho $xml->person->age;  // outputs "30"

@@ -1,1 +1,0 @@
-<!-- Main module's pom.xml -->\n<dependencies>\n    <dependency>\n        <groupId>com.example</groupId>\n        <artifactId>base</artifactId>\n        <version>1.0</version>\n        <classifier>tests</classifier>\n        <scope>test</scope>\n    </dependency>\n</dependencies>

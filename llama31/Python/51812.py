@@ -1,1 +1,0 @@
-from flask import send_file\n\n@app.route('/download')\ndef download():\n    return send_file('path/to/yourfile.pdf', as_attachment=True, attachment_filename='yourfile.pdf')

@@ -1,1 +1,0 @@
-import secrets\nkey1 = secrets.token_bytes(16)  # 128 bits\nkey2 = secrets.token_bytes(16)  # 128 bits

@@ -1,1 +1,0 @@
-$.post("place_list.php", {action: "create", name: myvariable4}, function(data){\n  alert("Data Loaded: " + data);\n  alert(myvariable4);\n},"html");

@@ -1,1 +1,0 @@
-$(".add").click(function(e){\n    e.preventDefault();\n    var data = $(this).find('a').text();\n    alert(data);\n});

@@ -1,1 +1,0 @@
--- Bad\nSELECT * FROM users WHERE name = 'John' OR email = 'john@example.com' OR phone = '123-456-7890';\n\n-- Good\nSELECT * FROM users WHERE name = 'John'\nUNION\nSELECT * FROM users WHERE email = 'john@example.com'\nUNION\nSELECT * FROM users WHERE phone = '123-456-7890';

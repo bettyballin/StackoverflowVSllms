@@ -1,1 +1,0 @@
-DECLARE @Table TABLE(\n    [ID] int,\n    [CostA] float,\n    [CostB] float,\n    [CostC] float\n)

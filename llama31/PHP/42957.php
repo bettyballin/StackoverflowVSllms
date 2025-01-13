@@ -1,1 +1,0 @@
-<body class="<?php echo $sf_request->getAttribute('body_class', '') ?>">\n    <?php echo $sf_content ?>\n</body>

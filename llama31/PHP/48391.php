@@ -1,1 +1,0 @@
-// header.php\n<nav>\n    <ul>\n        <li><a href="#">Home</a></li>\n        <li><a href="#">About</a></li>\n    </ul>\n</nav>

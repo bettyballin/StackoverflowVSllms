@@ -1,1 +1,0 @@
-class MyClass {\n    private $myVar;\n\n    public function __construct($myVar) {\n        $this->myVar = $myVar;\n    }\n\n    public function doSomething() {\n        // use $this->myVar here\n    }\n}

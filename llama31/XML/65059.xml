@@ -1,1 +1,0 @@
-<!-- web.config snippet -->\n<configuration>\n  <system.web>\n    <httpErrors existingResponse="PassThrough" />\n  </system.web>\n</configuration>

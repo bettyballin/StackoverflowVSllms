@@ -1,1 +1,0 @@
-SELECT p.caption\nFROM posts p\nWHERE EXISTS (\n  SELECT 1\n  FROM comments c\n  WHERE c.post_id = p.id\n);

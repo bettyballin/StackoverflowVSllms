@@ -1,1 +1,0 @@
-ibbles_per_nanosecond = 2\nnanoseconds_per_second = 1e9\nbytes_per_megabyte = 1024**2\n\nbytes_per_second = (nibbles_per_nanosecond / 2) * nanoseconds_per_second\nmegabytes_per_second = bytes_per_second / bytes_per_megabyte\nmegabytes_per_day = megabytes_per_second * 3600 * 24\n\nprint(f"Growth rate: {megabytes_per_day:.2f} MB/day")

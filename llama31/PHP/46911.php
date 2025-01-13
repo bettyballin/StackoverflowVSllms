@@ -1,1 +1,0 @@
-if (count($_POST)) {\n\n  $username = mysql_real_escape_string($_POST['username']);\n  $passwd = mysql_real_escape_string($_POST['passwd']);\n\n  mysql_query("INSERT INTO users (username, password)\n               VALUES ('$username', '$passwd')") or die(mysql_error());\n\n}

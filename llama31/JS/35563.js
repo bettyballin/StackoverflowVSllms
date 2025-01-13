@@ -1,1 +1,0 @@
-document.addEventListener('visibilitychange', function() {\n  if (document.visibilityState === 'visible') {\n    // Resume polling\n  } else {\n    // Pause polling\n  }\n});

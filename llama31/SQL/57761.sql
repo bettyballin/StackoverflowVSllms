@@ -1,1 +1,0 @@
-SELECT * INTO YourTable\nFROM OPENROWSET(BULK 'C:\Path\To\Your\File.csv',\n    SINGLE_CLOB) AS data;

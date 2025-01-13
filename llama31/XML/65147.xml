@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <customErrors mode="On" redirectMode="ResponseRewrite">\n      <error statusCode="404" redirect="/404.html" />\n    </customErrors>\n  </system.web>\n  <system.webServer>\n    <httpErrors existingResponse="PassThrough" />\n  </system.webServer>\n</configuration>

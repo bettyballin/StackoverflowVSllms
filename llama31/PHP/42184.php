@@ -1,1 +1,0 @@
-function escape_string($input) {\n    return str_replace(array('\\', "\0", "\n", "\r", "'", '"', "\x1a"),\n                      array('\\\\', '\\0', '\\n', '\\r', "\\'", '\\"', '\\Z'),\n                      $input);\n}

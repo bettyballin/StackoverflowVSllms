@@ -1,1 +1,0 @@
-UPDATE YourTable\nSET PhoneNumber = REPLACE(REPLACE(REPLACE(PhoneNumber, ' ', ''), '-', ''), '/', '')

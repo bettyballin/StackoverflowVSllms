@@ -1,1 +1,0 @@
-wmd_options = {\n  tags: {\n    span: ['style'], // allow span with style attribute\n    strong: [], // allow strong tag without attributes\n    em: [], // allow em tag without attributes\n    p: ['class'] // allow p tag with class attribute\n  }\n};

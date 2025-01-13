@@ -1,1 +1,0 @@
-$value = 2.5; // or 3.0, etc.\necho (int) $value == $value ? (int) $value : $value;

@@ -1,1 +1,0 @@
-SELECT (\n  SELECT COUNT(*) + 1\n  FROM people\n  WHERE name < 'Steve'\n) AS rank

@@ -1,1 +1,0 @@
-CREATE TABLE table (\n  id BINARY(16) PRIMARY KEY,\n  a INT,\n  b INT\n);\n\nINSERT INTO table (id, a, b) VALUES (UNHEX(REPLACE(UUID(), '-', '')), 1, 1);

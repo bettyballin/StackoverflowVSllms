@@ -1,1 +1,0 @@
-questions = Question.objects.filter(\n    Q(question__icontains='software') & Q(question__icontains='java')\n)

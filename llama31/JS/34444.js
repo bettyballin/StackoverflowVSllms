@@ -1,1 +1,0 @@
-// assuming you have an accordion with id 'myAccordion'\n\n// add new content to the accordion\n$('#myAccordion').prepend('<h3>New Section</h3><div>New Content</div>');\n\n// destroy the accordion\n$('#myAccordion').accordion('destroy');\n\n// re-init the accordion\n$('#myAccordion').accordion();

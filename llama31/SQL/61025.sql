@@ -1,1 +1,0 @@
-EXEC [dbo].[test] @p_SortExpression = 'DateTime', @p_StartIndex = 1, @p_MaxRows = 10, @p_SearchKeyword = 'test'

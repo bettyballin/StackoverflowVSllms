@@ -1,1 +1,0 @@
-Dim obj As Object\nSet obj = CreateObject("MyAssembly.MyClass")\nobj.MyMethod\nobj.MyProperty = "Hello, World!"

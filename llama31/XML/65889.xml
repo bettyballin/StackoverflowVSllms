@@ -1,1 +1,0 @@
-<csc target="library" output="MyWebsite.dll">\n  <sources>\n    <include name="**/*.cs" />\n  </sources>\n</csc>

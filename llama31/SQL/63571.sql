@@ -1,1 +1,0 @@
-SELECT y\nFROM (\n  SELECT x, y, LEAD(x, 1, NULL) OVER (ORDER BY x) AS next_x\n  FROM foo\n)\nWHERE x <= 21 AND (next_x IS NULL OR next_x > 21);

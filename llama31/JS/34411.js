@@ -1,1 +1,0 @@
-$("li").click(function(event) {\n    if ($(this).is("[id^='outer']")) {\n        var current_id = $(this).attr('id');\n        alert(current_id);\n    } else {\n        event.stopPropagation();\n        var parent_id = $(this).closest("[id^='outer']").attr('id');\n        alert(parent_id);\n    }\n});

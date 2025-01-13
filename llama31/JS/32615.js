@@ -1,1 +1,0 @@
-console.log(typeof internalFoo); // "undefined"\nvar internalFoo = function() { return true; };

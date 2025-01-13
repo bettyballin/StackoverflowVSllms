@@ -1,1 +1,0 @@
-$array = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);\n$array = array_splice($array, 3, 0, 'new element');\nprint_r($array);

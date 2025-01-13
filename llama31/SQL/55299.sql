@@ -1,1 +1,0 @@
-SELECT \n    CASE MyCharField \n        WHEN 'Y' THEN 1 \n        WHEN 'N' THEN 0 \n        ELSE NULL \n    END AS MyBooleanField\nFROM MyTable;

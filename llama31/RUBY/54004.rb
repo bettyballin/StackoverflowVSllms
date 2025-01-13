@@ -1,1 +1,0 @@
-Haml::Options.defaults[:attribute_wrapper] = '"'

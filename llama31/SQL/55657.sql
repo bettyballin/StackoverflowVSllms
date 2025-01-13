@@ -1,1 +1,0 @@
-UPDATE YourTable\nSET YourYesNoColumn = 0\nWHERE YourYesNoColumn IS NULL;

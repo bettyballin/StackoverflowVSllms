@@ -1,1 +1,0 @@
-// Before refactoring\nfunction oldFunctionName() {\n  // ...\n}\n\n// After refactoring\nfunction newFunctionName() {\n  // ...\n}\n\n// ESLint configuration\nmodule.exports = {\n  rules: {\n    'no-undef': 'error',\n  },\n};

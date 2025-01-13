@@ -1,1 +1,0 @@
-$pattern = '/rgb\((\d{1,3},\s?\d{1,3},\s?\d{1,3})\)/';\npreg_match_all($pattern, $htmlString, $matches);\n$colors = $matches[1];

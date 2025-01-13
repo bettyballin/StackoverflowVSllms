@@ -1,1 +1,0 @@
-function setLeaveCode(leaveCode) {\n  document.getElementById("leaveCode").value = leaveCode;\n}

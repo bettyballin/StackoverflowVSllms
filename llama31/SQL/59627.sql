@@ -1,1 +1,0 @@
-DROP INDEX [IX_Log_Seiten_archive_Datum] ON [dbo].[Log_Seiten_archiv]\nGO\nCREATE CLUSTERED INDEX [IX_Log_Seiten_archive_Datum] ON [dbo].[Log_Seiten_archiv]\n(\n    [Datum] DESC\n) ON [PRIMARY]\nGO

@@ -1,1 +1,0 @@
-$string = '<p class="test">Hello World</p>';\n$doc = new DOMDocument();\n$doc->loadHTML($string);\n$paragraphs = $doc->getElementsByTagName('p');\nforeach ($paragraphs as $paragraph) {\n    $paragraph->removeAttribute('class');\n}\necho $doc->saveHTML();

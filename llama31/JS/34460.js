@@ -1,1 +1,0 @@
-javascript:document.write('<pre>' + document.documentElement.outerHTML + '</pre>');

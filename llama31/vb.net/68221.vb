@@ -1,1 +1,0 @@
-Option Strict On\nOption Infer On\n\nModule MyModule\n    Sub MyMethod()\n        ' Anonymous type\n        Dim anonType = New With {.Name = "John", .Age = 30}\n        ' ...\n    End Sub\nEnd Module

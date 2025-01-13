@@ -1,1 +1,0 @@
-$imageUrl = 'https://example.com/image.jpg';\n$cacheBuster = '?' . time();\n$imageUrlWithCacheBuster = $imageUrl . $cacheBuster;

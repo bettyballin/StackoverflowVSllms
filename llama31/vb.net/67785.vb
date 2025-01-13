@@ -1,1 +1,0 @@
-token = GenerateToken()\nResponse.Write "Token: " & toke

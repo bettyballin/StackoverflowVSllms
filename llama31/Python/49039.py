@@ -1,1 +1,0 @@
-import pynotify\nimport gtk\n\n# Get the screen dimensions\nscreen = gtk.gdk.screen_get_default()\nwidth = screen.get_width()\nheight = screen.get_height()\n\n# Calculate the center coordinates\nx = width / 2\ny = height / 2\n\n# Create the notification\nn = pynotify.Notification("This is my title", "This is my description")\nn.set_hint('x', x)\nn.set_hint('y', y)\nn.show()

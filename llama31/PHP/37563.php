@@ -1,1 +1,0 @@
-$guests = array();\n$sql = "SELECT * FROM `guestlist`";\n$result = mysql_query($sql);\nwhile ($data = mysql_fetch_assoc($result)) {\n    $guests[] = $data['name'];\n}

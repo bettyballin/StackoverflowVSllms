@@ -1,1 +1,0 @@
-CREATE TRIGGER my_trigger BEFORE UPDATE ON my_table\nFOR EACH ROW\nBEGIN\n  IF @user_update IS TRUE THEN\n    -- trigger code here\n  END IF;\nEND;

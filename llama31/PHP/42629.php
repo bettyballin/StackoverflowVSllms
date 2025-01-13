@@ -1,1 +1,0 @@
-$productWidget = new ProductWidget(new ProductModel(), new ProductView());\necho $productWidget->render(['limit' => 5]); // render 5 products

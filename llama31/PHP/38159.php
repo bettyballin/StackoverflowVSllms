@@ -1,1 +1,0 @@
-$referrer = $_SERVER['HTTP_REFERER'];\nif (strpos($referrer, 'google.com') !== false) {\n  // Visitor came from Google search result\n}

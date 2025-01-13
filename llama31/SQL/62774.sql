@@ -1,1 +1,0 @@
-CREATE TABLE web_site_settings\n(\n  id SERIAL PRIMARY KEY,\n  common_homepage_content text NOT NULL\n);\n\nINSERT INTO web_site_settings (common_homepage_content) VALUES ('default content');

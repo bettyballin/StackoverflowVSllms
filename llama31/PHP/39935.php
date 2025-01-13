@@ -1,1 +1,0 @@
-require_once 'JSMin.php';\n\n$files = array('file1.js', 'file2.js', 'file3.js');\n$concatenated = '';\n\nforeach ($files as $file) {\n  $concatenated .= file_get_contents($file);\n}\n\n$minified = JSMin::minify($concatenated);\n\nfile_put_contents('all.js', $minified);

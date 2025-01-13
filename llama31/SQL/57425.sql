@@ -1,1 +1,0 @@
-DECLARE @result XML;\nDECLARE @input XML = '<root><person><name>John</name></person></root>';\n\nSET @result = (\n  SELECT @input.query('*')\n  FOR XML RAW, TYPE\n);

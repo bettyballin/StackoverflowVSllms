@@ -1,1 +1,0 @@
-class Model\n{\n    public function __construct()\n    {\n        $this->db = new Db_Class();\n    }\n\n    // ...\n}

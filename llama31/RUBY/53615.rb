@@ -1,1 +1,0 @@
-class User\n  after_save :sync_with_chimp\n\n  def sync_with_chimp\n    if email_was != email\n      // update_mail_chimp_api\n    end\n  end\nend

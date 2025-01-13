@@ -1,1 +1,0 @@
-SELECT name\nFROM Foo\nWHERE id NOT IN (\n  SELECT fooId\n  FROM Bar\n  WHERE value > 0\n)

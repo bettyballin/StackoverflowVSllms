@@ -1,1 +1,0 @@
-// Example InfluxDB schema\nCREATE DATABASE usage_reports\n\nCREATE MEASUREMENT disk_usage (\n    user STRING,\n    space FLOAT,\n    timestamp TIMESTAMP\n)\n\nCREATE MEASUREMENT memory_usage (\n    user STRING,\n    memory FLOAT,\n    timestamp TIMESTAMP\n)

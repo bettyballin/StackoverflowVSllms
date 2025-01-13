@@ -1,1 +1,0 @@
-// Set the ID in session storage\nsessionStorage.setItem('id', '123');\n\n// Get the ID from session storage on the next page\nconst id = sessionStorage.getItem('id');

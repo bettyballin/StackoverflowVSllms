@@ -1,1 +1,0 @@
-$.ajax({\n    dataType: 'json',\n    type: "POST",\n    url: "some_file.php", // The location of the above-mentioned PHP script\n    cache: false,\n    success: function(data) {\n        $(el).html(data.some_html_output); // Add HTML output to page\n        var a = data.some_value_for_js_variable_output; // Assign value to JS variable\n    }\n}); // AJAX

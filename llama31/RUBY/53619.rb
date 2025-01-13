@@ -1,1 +1,0 @@
-require 'yaml'\ndata = { is_something: { values: ['yes', 'no'] } }\nputs data.to_yaml(inline: [ :values ])

@@ -1,1 +1,0 @@
-$archiveName = 'backup.tar.gz';\n$directory = '/path/to/image/directory';\n\n// Create a new PharData object\n$phar = new PharData($archiveName);\n\n// Add the directory to the archive\n$phar->buildFromDirectory($directory);\n\n// Compress the archive using gzip\n$phar->compress(Phar::GZ);

@@ -1,1 +1,0 @@
-CREATE TABLE country (\n    country_name nvarchar(50) UNIQUE\n);

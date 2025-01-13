@@ -1,1 +1,0 @@
-$this->addCondition($condition_1);\n$this->addCondition($condition_2, 'AND');\n$this->addCondition($condition_3, 'NOT');\n\n$result = $this->validate();

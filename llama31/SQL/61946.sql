@@ -1,1 +1,0 @@
-LEFT JOIN (\n  SELECT field_id_41 FROM weblog_data WHERE field_id_41 = ewd.field_id_32\n  UNION ALL\n  SELECT field_id_41 FROM weblog_data WHERE field_id_41 LIKE CONCAT('%', ewd.field_id_32, '%')\n  AND NOT EXISTS (SELECT 1 FROM weblog_data WHERE field_id_41 = ewd.field_id_32)\n) AS pwd ON pwd.field_id_41 = ewd.field_id_32

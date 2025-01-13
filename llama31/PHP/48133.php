@@ -1,1 +1,0 @@
-$db     = new Database;\n$result = $db->Query('SELECT * FROM users WHERE id = 1;');\n\nif (count($result) > 0) {\n    echo $result['username'];\n    echo '<pre>', print_r($result), '</pre>';\n} else {\n    echo 'No results found';\n}

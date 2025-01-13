@@ -1,1 +1,0 @@
-$serializer = new XML_Serializer();\n$serializer->setOption('arrayKey', 'Room');\n$array = array(\n    "totalRooms" => array(\n        array(...),\n        array(...),\n    ),\n);\n$xml = $serializer->serialize($array);

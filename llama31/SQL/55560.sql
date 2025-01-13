@@ -1,1 +1,0 @@
-+-------------------------+\n|        Compute Scalar  |\n+-------------------------+\n|  Expression: @MyDate_Copy |\n|  IsNull: unknown       |\n+-------------------------+\n|        Table Scan      |\n+-------------------------+

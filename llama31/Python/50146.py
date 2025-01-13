@@ -1,1 +1,0 @@
-from bs4 import BeautifulSoup\n\nsoup = BeautifulSoup(c, 'html5lib')

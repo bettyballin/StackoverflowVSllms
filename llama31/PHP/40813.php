@@ -1,1 +1,0 @@
-use FFMpeg\FFMpeg;\n\n$movieFile = 'path/to/your/movie.mov';\n$thumbnailFile = 'path/to/your/thumbnail.jpg';\n\n$ffmpeg = FFMpeg::create();\n$video = $ffmpeg->open($movieFile);\n$frame = $video->frame(10);\n$frame->save($thumbnailFile);

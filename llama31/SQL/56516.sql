@@ -1,1 +1,0 @@
-CREATE TABLE Users (\n    DisplayUserName nvarchar(50),\n    UserName AS LOWER(DisplayUserName)\n);

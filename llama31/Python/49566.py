@@ -1,1 +1,0 @@
-import requests\n\nresponse = requests.get('http://localhost:5000/data')\nif response.status_code == 200:\n    data = response.json()\n    # Process the received data

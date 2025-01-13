@@ -1,1 +1,0 @@
-CREATE TABLE #Table1 (\n    -- table definition\n);\n\nALTER AUTHORIZATION ON #Table1 TO SCHEMA OWNER;\n\nTRUNCATE TABLE #Table1;\nDBCC CHECKIDENT('#Table1', RESEED, @SequenceNumber) WITH NO_INFOMSGS;

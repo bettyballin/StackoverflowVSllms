@@ -1,1 +1,0 @@
-CREATE TEMPORARY TABLE temp_table AS\n  SELECT * FROM monster_query;\n\nINSERT INTO temp_table\n  SELECT * FROM another_table;\n\nDELETE FROM old_table\n  WHERE EXISTS (SELECT 1 FROM temp_table WHERE temp_table.id = old_table.id);\n\nINSERT INTO different_table\n  SELECT * FROM temp_table;

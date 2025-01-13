@@ -1,1 +1,0 @@
-// Instead of Html.Button\n// <%= Html.Button("Click me") %>\n\n// Use Html.ActionLink\n<%= Html.ActionLink("Click me", "ActionName", "ControllerName") %>\n\n// Or use Html.SubmitButton\n<%= Html.SubmitButton("Click me") %>

@@ -1,1 +1,0 @@
-const element = document.getElementById('myElement');\nconst extraInfo = element.dataset.extraInfo;\nconsole.log(extraInfo); // Output: "some extra data"

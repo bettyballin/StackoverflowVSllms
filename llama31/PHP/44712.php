@@ -1,1 +1,0 @@
-if (detect_proxy()) {\n    echo 'Proxy detected!';\n} else {\n    echo 'No proxy detected.';\n}

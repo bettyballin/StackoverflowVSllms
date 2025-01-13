@@ -1,1 +1,0 @@
-// Example in Selenium WebDriver (JavaScript) to execute a script\ndriver.executeScript("window.yourFunctionName();");

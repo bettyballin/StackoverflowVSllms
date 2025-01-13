@@ -1,1 +1,0 @@
-function arrayToXML(arr) {\n  var xml = '';\n  xml += '<?xml version="1.0" encoding="UTF-8"?>\n';\n  xml += '<root>\n';\n  for (var i = 0; i < arr.length; i++) {\n    xml += '  <item>\n';\n    for (var key in arr[i]) {\n      xml += '    <' + key + '>' + arr[i][key] + '</' + key + '>\n';\n    }\n    xml += '  </item>\n';\n  }\n  xml += '</root>\n';\n  return xml;\n}

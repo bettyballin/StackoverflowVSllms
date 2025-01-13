@@ -1,1 +1,0 @@
-CREATE PROCEDURE MyProcedure\nAS\nBEGIN\n    -- Your insert, update or delete statement here\n    INSERT INTO MyTable (Column1, Column2)\n    VALUES ('Value1', 'Value2');\n\n    -- Return the number of rows affected\n    SELECT @@ROWCOUNT AS RowsAffected;\nEND

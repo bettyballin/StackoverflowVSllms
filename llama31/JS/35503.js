@@ -1,1 +1,0 @@
-var moment = require('moment');\n\nvar jsonDate = "/Date(1221644506800-0700)/";\nvar date = moment(jsonDate, "/Date(####x####)/");\nconsole.log(date.toDate());

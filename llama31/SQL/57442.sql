@@ -1,1 +1,0 @@
-SELECT DISTINCT \n  p.*\nFROM \n  user_product_certification upc\n  JOIN products p ON upc.product_id = p.id\nWHERE \n  upc.user_id = ? AND\n  upc.certification_status = 'certified';

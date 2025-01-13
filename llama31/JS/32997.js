@@ -1,1 +1,0 @@
-$.ajax({\n  type: "GET",\n  url: "something.html",\n  dataType: "xml",\n  contentType: "application/xml", // or "text/xml"\n  success: function(data) {}\n});

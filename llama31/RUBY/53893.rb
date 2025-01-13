@@ -1,1 +1,0 @@
-render :update do |page|\n  page.replace_html 'div_id', ''\nend

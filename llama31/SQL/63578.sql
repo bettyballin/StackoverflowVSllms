@@ -1,1 +1,0 @@
-IF @NbPartsReturned > 0

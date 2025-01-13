@@ -1,1 +1,0 @@
-function ajax_cb() {\n  setTimeout(function() {\n    window.close();\n  }, 100); // adjust the timeout value as needed\n}

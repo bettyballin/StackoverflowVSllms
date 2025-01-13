@@ -1,1 +1,0 @@
-DECLARE @date DATE = '2022-09-15'\n\nSELECT EOMONTH(@date) AS LastDayOfMonth

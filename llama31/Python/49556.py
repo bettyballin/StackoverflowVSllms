@@ -1,1 +1,0 @@
-from bs4 import BeautifulSoup\n\ndef strip_html(html):\n    soup = BeautifulSoup(html, 'html.parser')\n    return soup.get_text()\n\n# Example usage\nhtml = '<a href="whatever.example">some text</a>'\nprint(strip_html(html))  # Output: 'some text'

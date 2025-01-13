@@ -1,1 +1,0 @@
-// Truncate using bitwise operator\nlet floatNum3 = 3.7;\nlet wholeNumTruncBitwise = ~~floatNum3; // Double bitwise NOT operator\nconsole.log(wholeNumTruncBitwise); // Output: 3\n\n// or\nlet wholeNumTruncBitwise2 = floatNum3 | 0; // Bitwise OR with 0\nconsole.log(wholeNumTruncBitwise2); // Output: 3

@@ -1,1 +1,0 @@
-Notice: Undefined variable: tablePages in ./include/classes/uri-resolve.php on line X

@@ -1,1 +1,0 @@
-Public Sub New()\n    InitializeComponent()\n    ' Put your custom code here\nEnd Sub

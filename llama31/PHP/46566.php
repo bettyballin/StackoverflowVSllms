@@ -1,1 +1,0 @@
-$intValue = 996;\n$queryResult = mysql_query("SELECT aString FROM table1");\n$stringValue = mysql_result($queryResult, 0, "aString");

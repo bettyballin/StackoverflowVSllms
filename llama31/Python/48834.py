@@ -1,1 +1,0 @@
-class Percentile:\n    def __init__(self, p):\n        self.p = p\n        self.marker = None\n\n    def update(self, x):\n        if self.marker is None:\n            self.marker = x\n        elif x < self.marker:\n            self.marker = x\n        else:\n            self.marker = self.marker * (1 - self.p) + x * self.p

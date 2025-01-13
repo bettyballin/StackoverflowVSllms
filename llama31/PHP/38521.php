@@ -1,1 +1,0 @@
-curl_setopt($curlHandle, CURLOPT_HTTPHEADER, array('Content-Type: application/xml'));

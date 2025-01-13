@@ -1,1 +1,0 @@
-class DB {\n  public static $conn = 'Connection';\n}\n\nclass User {\n  function __construct() {\n    $dbConn = DB::$conn; // Accessing the static variable securely\n    // Use $dbConn as needed\n  }\n}

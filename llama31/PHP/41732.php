@@ -1,1 +1,0 @@
-// Example price calculation function\nfunction calculate_price($product_id, $quantity) {\n    $product_data = get_product_data($product_id);\n    $price = $product_data['price'] * $quantity;\n    if ($price <= 0) {\n        log_checkout('Invalid price calculation', $product_data);\n        throw new Exception('Invalid price calculation');\n    }\n    return $price;\n}

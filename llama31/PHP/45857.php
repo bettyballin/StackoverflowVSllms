@@ -1,1 +1,0 @@
-mktime(0, 0, 0, $doba[1], $doba[0], $doba[2])

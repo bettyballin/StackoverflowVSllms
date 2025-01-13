@@ -1,1 +1,0 @@
-SELECT length(name), vsize(name) FROM test_table;

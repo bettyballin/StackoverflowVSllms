@@ -1,1 +1,0 @@
-$mail_body_reply = "Sum: &euro; from JavaScript";

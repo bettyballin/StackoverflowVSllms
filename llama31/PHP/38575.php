@@ -1,1 +1,0 @@
-$dir = 'path/to/your/folder/'; // use a local path, not a URL\n$images_array = glob($dir . '*.jpg');\n\nforeach ($images_array as $v) {\n    $filename = basename($v); // get the filename only, to prevent path disclosure\n    echo '<img src="' . $dir . $filename . '" />';\n}

@@ -1,1 +1,0 @@
-UPDATE events SET period = GEOMFROMTEXT(CONCAT('LINESTRING(', UNIX_TIMESTAMP(start_time), ' ', UNIX_TIMESTAMP(end_time), ')'));

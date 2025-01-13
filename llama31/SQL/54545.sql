@@ -1,1 +1,0 @@
--- Rebuild indexes\nALTER INDEX ALL ON YourTableName REBUILD;\n\n-- Clean table\nDBCC CLEANTABLE (YourDatabaseName, YourTableName, 0) WITH NO_INFOMSGS;\n\n-- Reorganize table\nALTER TABLE YourTableName REORGANIZE;

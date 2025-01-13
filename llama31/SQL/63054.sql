@@ -1,1 +1,0 @@
-SELECT COUNT(*) \nFROM (\n  SELECT t3.id, a,bunch,of,other,stuff \n  FROM t1\n  JOIN t2 ON (associate t1 and t2)\n  JOIN t3 ON (associate t2 and t3)\n  GROUP BY t3.id\n) AS subquery;

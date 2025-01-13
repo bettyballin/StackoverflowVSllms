@@ -1,1 +1,0 @@
-var rect = document.getElementById('myElement').getBoundingClientRect();\nvar x = rect.left + window.pageXOffset;\nvar y = rect.top + window.pageYOffset;

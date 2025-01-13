@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('.menuItem').hover(\n        function() {\n            $(this).addClass('hovered');\n        },\n        function() {\n            $(this).removeClass('hovered');\n        }\n    );\n});

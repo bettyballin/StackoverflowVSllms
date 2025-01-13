@@ -1,1 +1,0 @@
-$pattern = "\x12\x34"; // Search for the bytes 0x12 and 0x34\n\n$fp = fopen($filename, 'rb');\n\nif (!$fp) {\n    echo "Could not open file '$filename'";\n    exit;\n}\n\nwhile (!feof($fp)) {\n    $bytes = fread($fp, 2);\n    if ($bytes === $pattern) {\n        echo "Found pattern at position " . ftell($fp) - 2 . "\n";\n    }\n}\n\nfclose($fp);

@@ -1,1 +1,0 @@
-SELECT xml_schema_collection_schema(xsc.name) \nFROM sys.xml_schema_collections xsc \nWHERE xsc.name = 'YourSchemaCollectionName'

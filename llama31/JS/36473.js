@@ -1,1 +1,0 @@
-function convertNow(validURL) {\n  var source = new EventSource('main.php?url=' + validURL);\n  source.onmessage = function(event) {\n    console.log(event.data);\n    // process the received data here\n  };\n}

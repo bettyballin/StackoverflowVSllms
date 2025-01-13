@@ -1,1 +1,0 @@
-CREATE TABLE people_active (\n  id       INTEGER PRIMARY KEY,\n  name     VARCHAR(100),\n  ...\n);\n\nCREATE TABLE people_inactive (\n  id       INTEGER PRIMARY KEY,\n  name     VARCHAR(100),\n  ...\n);

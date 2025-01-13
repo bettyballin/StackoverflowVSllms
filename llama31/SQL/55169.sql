@@ -1,1 +1,0 @@
-CREATE INDEX idx_contact_info_user_id ON CONTACT_INFO (user_id);

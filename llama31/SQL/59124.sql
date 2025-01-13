@@ -1,1 +1,0 @@
-SELECT ID, Name, SUM(Salary) AS Salary\nFROM TableA\nGROUP BY GROUPING SETS ((ID, Name), (Name));

@@ -1,1 +1,0 @@
-$.ajax({\n    type: "GET",\n    url: "@Url.Action("GetData", "MyController")",\n    data: { format: "json" }, // or "html"\n    success: function (data) {\n        if (data.format == "json") {\n            // Process JSON data\n        } else {\n            // Append partial HTML to the page\n            $("#myDiv").html(data);\n        }\n    }\n});

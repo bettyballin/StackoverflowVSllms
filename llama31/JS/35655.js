@@ -1,1 +1,0 @@
-function callback(data) {\n    // get the HTML from the response\n    var html = data.html;\n\n    // insert the HTML into the page\n    $('#my_div').html(html);\n}

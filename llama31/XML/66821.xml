@@ -1,1 +1,0 @@
-<!-- web.config for HTTP host -->\n<system.serviceModel>\n  <services>\n    <service name="MyService">\n      <endpoint address="" binding="basicHttpBinding" contract="MyServiceContract" />\n    </service>\n  </services>\n</system.serviceModel>

@@ -1,1 +1,0 @@
-Dim myComObject\nSet myComObject = CreateObject("MyAssembly.MyComObject")\nDim myDataSet\nSet myDataSet = myComObject.MyMethod()

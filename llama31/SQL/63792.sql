@@ -1,1 +1,0 @@
-SELECT \n  number,\n  ROW_NUMBER() OVER (PARTITION BY number ORDER BY index) AS index\nFROM \n  (\n    SELECT number, index FROM table1\n    UNION ALL\n    SELECT number, index FROM table2\n  ) AS combined_table

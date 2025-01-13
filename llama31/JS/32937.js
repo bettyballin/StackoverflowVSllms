@@ -1,1 +1,0 @@
-txtStartDate.observe('input', function() {\n    alert('change: ' + txtStartDate.value);\n});

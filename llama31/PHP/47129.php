@@ -1,1 +1,0 @@
-$ciphertext = 'your encrypted data';\n$key = 'your encryption key';\n$method = 'aes-256-cbc'; // or another supported algorithm\n$iv = 'your initialization vector'; // optional\n\n$decrypted_data = openssl_decrypt($ciphertext, $method, $key, 0, $iv);\n\necho $decrypted_data;

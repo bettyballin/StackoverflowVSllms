@@ -1,1 +1,0 @@
-$modifiedTime = @filemtime('/document_root/myfile.pdf');\n   if ($modifiedTime !== false) {\n       echo $modifiedTime;\n   } else {\n       echo "Failed to retrieve file modification time.";\n   }

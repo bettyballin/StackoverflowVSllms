@@ -1,1 +1,0 @@
-import { db } from './firebaseConfig';\n\nconst formData = {\n  firstName: 'John',\n  favoriteColor: 'blue',\n};\n\ndb.collection('forms')\n  .add(formData)\n  .then((docRef) => console.log('Form data saved:', docRef.id))\n  .catch((error) => console.error('Error saving form data:', error));

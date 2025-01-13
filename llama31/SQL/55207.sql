@@ -1,1 +1,0 @@
-DECLARE @constraintName nvarchar(128)\n\nSELECT @constraintName = [name]\nFROM sys.foreign_keys\nWHERE parent_object_id = object_id('Machines')\n    AND col_name(parent_object_id, key_column_id) = 'IdArt'\n\nDECLARE @sql nvarchar(255) = 'ALTER TABLE Machines DROP CONSTRAINT ' + @constraintName\nEXEC sp_executesql @sql

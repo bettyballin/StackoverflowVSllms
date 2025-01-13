@@ -1,1 +1,0 @@
-$feed = new Zend_Feed_Rss('http://rss.exemple.com/feed');\n$type = $feed->getType();\n$version = substr($type, strpos($type, '_') + 1);\necho $version;

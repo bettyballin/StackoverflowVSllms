@@ -1,1 +1,0 @@
-UPDATE sys.fulltext_document_types\nSET path = 'C:\Program Files\Adobe\PDF iFilter 9.0\bin\PDFFILT.dll'\nWHERE document_type = '.pdf';

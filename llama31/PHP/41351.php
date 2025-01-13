@@ -1,1 +1,0 @@
-$conn = new PDO("sqlsrv:Server={$host};Database={$db}", $user, $pass);

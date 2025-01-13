@@ -1,1 +1,0 @@
-Private Sub MyHook(ImageIndex As Integer)\n    ' Handle the event here\nEnd Sub

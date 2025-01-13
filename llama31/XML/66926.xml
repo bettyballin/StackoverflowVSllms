@@ -1,1 +1,0 @@
-<sessionState \n    mode="SQLServer" \n    sqlConnectionString="Data Source=myServer;User ID=myUser;Password=myPassword;" \n    cookieless="false" \n    timeout="20" />

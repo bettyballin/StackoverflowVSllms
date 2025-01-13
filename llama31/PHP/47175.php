@@ -1,1 +1,0 @@
-$city_id = $_POST['city_id'];\n\n$query = "SELECT area_id, area_name FROM tbl_area WHERE area_city = '$city_id'";\n$result = $mysqli->query($query);\n\nwhile($row = $result->fetch_assoc()) {\n    echo '<option value="' . $row['area_id'] . '">' . $row['area_name'] . '</option>';\n}

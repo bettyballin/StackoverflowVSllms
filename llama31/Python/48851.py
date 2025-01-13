@@ -1,1 +1,0 @@
-import my_package.module1\nfrom my_package import module2

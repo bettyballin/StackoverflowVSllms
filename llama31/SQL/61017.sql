@@ -1,1 +1,0 @@
-SELECT *\nFROM Companies\nWHERE CONTAINS((CompanyName, Location), 'Pizza AND London')

@@ -1,1 +1,0 @@
-// Check if the request is a POST request\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    // Get the JSON-encoded filter values\n    $filterValues = json_decode($_POST['filter_values'], true);\n\n    // Use the filter values to construct your query\n    // ...\n\n    // Print the results\n    // ...\n} else {\n    // Handle invalid request method\n}

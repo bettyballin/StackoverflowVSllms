@@ -1,1 +1,0 @@
-<script type="text/javascript">\n  // your JavaScript code here\n</script>

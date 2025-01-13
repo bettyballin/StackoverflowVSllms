@@ -1,1 +1,0 @@
-const divA = document.getElementById('a');\nconst divCapitalA = document.getElementById('A');\n\nconsole.log(divA !== divCapitalA); // Output: true

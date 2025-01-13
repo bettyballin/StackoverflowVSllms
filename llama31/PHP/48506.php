@@ -1,1 +1,0 @@
-// Get the current user data\n$user = $this->Auth->user();\n\n// Update the customer_id\n$user['User']['customer_id'] = 4;\n\n// Update the session\n$this->Auth->login($user);

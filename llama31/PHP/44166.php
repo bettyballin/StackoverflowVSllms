@@ -1,1 +1,0 @@
-curl_setopt($curl_handle, CURLOPT_POSTFIELDS, ''); // reset POST fields\ncurl_setopt($curl_handle, CURLOPT_POST, FALSE);\ncurl_setopt($curl_handle, CURLOPT_HTTPGET, TRUE);\ncurl_setopt($curl_handle, CURLOPT_CUSTOMREQUEST, 'GET'); // explicitly set GET request

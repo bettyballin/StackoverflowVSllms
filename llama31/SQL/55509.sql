@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_events ON your_table FOR UPDATE\nAS\nBEGIN\n    IF NOT UPDATE(auditing_field1) AND NOT UPDATE(auditing_field2)\n    BEGIN\n        -- insert event information into events table\n    END\nEND

@@ -1,1 +1,0 @@
-select foo from bar where baz = 123,45

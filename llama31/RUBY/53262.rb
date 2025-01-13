@@ -1,1 +1,0 @@
-package Foo::Corge;\n\nuse Foo::Bar;\nuse Foo::Baz;\nuse Foo::Qux;\nuse Foo::Quux;\n\n# Potentially many more.\n\n1;

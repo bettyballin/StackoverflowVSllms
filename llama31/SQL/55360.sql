@@ -1,1 +1,0 @@
-DECLARE\n  v_oracle_home VARCHAR2(255);\nBEGIN\n  v_oracle_home := SYS_CONTEXT('USERENV', 'ORACLE_HOME');\n  DBMS_OUTPUT.PUT_LINE(v_oracle_home);\nEND;

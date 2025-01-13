@@ -1,1 +1,0 @@
-SELECT \n    TaskID, \n    STRING_AGG(Name, ', ') AS PeopleAssigned\nFROM \n    YourTable\nGROUP BY \n    TaskID

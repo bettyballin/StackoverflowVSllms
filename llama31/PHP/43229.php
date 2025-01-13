@@ -1,1 +1,0 @@
-$example = new Zend_Form_Element_Hidden('example');\n$example->removeDecorator('HtmlTag');\n$this->addElement($example);

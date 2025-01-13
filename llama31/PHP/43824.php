@@ -1,1 +1,0 @@
-use Respect\Validation\Validator as v;\n\n$email = 'user@example.com';\nif (v::email()->validate($email)) {\n    echo "$email is valid";\n} else {\n    echo "$email is not valid";\n}

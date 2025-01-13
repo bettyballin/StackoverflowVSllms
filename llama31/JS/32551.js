@@ -1,1 +1,0 @@
-const lat = 40.7560540;\nconst long = -73.9869510;\nconst mapWidth = 1000;\nconst mapHeight = 446;\n\nconst [x, y] = latLongToXY(lat, long, mapWidth, mapHeight);\nconsole.log(`X: ${x}, Y: ${y}`); // Output: X: 289, Y: 111

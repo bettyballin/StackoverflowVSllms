@@ -1,1 +1,0 @@
-// Client-side JavaScript code\nif (username.length > 0 && password.length > 0) {\n  // Send AJAX request to server\n}

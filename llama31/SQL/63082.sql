@@ -1,1 +1,0 @@
-CREATE FULLTEXT INDEX ON PageViews (PageUrl);\n\nupdate \n    c\nset\n    LastStep = @StepNumber,\n    LastDate = pv.Created\nfrom\n    @Conversions c\n        inner join PageViews pv on c.SessionID = pv.SessionID\nwhere\n    c.GoalName = @GoalName AND\n    pv.Created > c.LastDate AND\n    CONTAINS(pv.PageUrl, @MatchValue);

@@ -1,1 +1,0 @@
-SELECT * \nFROM movie \nORDER BY worldwide_gross DESC \nLIMIT 20;

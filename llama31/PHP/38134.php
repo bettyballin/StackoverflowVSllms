@@ -1,1 +1,0 @@
-$pattern = '/' . preg_quote('A+', '/') . '/'; // escapes the + sig

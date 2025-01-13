@@ -1,1 +1,0 @@
-$url = "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'] . "?" . $_SERVER['QUERY_STRING'];\necho $url;

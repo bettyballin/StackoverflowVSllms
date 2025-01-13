@@ -1,1 +1,0 @@
-DELETE FROM tblTable1\n\nINSERT INTO tblTable1 (column1, column2, column3, ...)\nSELECT column1, column2, column3, ... FROM tblTable1_Link

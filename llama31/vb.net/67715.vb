@@ -1,1 +1,0 @@
-Function FilterQueryString(queryString)\n    Dim regEx\n    Set regEx = New RegExp\n    regEx.Pattern = "[\/\?\-\^%{}\[\];$=`#|&@'\"<>()+,\.]"\n    regEx.Global = True\n    FilterQueryString = regEx.Replace(queryString, "")\nEnd Functio

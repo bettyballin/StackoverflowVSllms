@@ -1,1 +1,0 @@
-set transaction isolation level snapshot\nbegin transaction\nEXEC sp_wait_for_database_recovery 'DB2'\ndeclare @sQuery varchar(max)\nset @sQuery = 'Select * from synToSomeTableInDB2'\nexec (@sQuery)\ncommit transactio

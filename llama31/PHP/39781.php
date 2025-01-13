@@ -1,1 +1,0 @@
-$string = '0001';\n$number = (int)$string + 1;\n$result = str_pad($number, strlen($string), '0', STR_PAD_LEFT);

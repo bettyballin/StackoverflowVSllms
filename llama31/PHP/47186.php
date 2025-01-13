@@ -1,1 +1,0 @@
-$questions = $this->Question->find('all', array('contain' => array('Answer' => false)));

@@ -1,1 +1,0 @@
-try {\n    if (!$this->connection[0]->query($this->query)) {\n        throw new Exception($this->connection[0]->error);\n    }\n} catch (Exception $e) {\n    // Log the error\n    error_log($e->getMessage());\n\n    // Send an error message to the user\n    echo "Error: " . $e->getMessage();\n\n    // You can also retry the query here if needed\n}

@@ -1,1 +1,0 @@
-ANALYZE TABLE post;\nANALYZE TABLE comment;\nANALYZE TABLE postCategory;\nCHECK TABLE post;\nCHECK TABLE comment;\nCHECK TABLE postCategory;

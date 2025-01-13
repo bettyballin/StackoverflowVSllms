@@ -1,1 +1,0 @@
-$index->find('+"lorem ipsum" +type:photo');\n$index->find('+"lorem ipsum" +type:video');

@@ -1,1 +1,0 @@
-$.ajaxSetup({\n  beforeSend: function(xhr) {\n    // override global ajaxStart handler\n    $(document).ajaxStart(function() {});\n  },\n  complete: function(xhr, status) {\n    // override global ajaxStop handler\n    $(document).ajaxStop(function() {});\n  }\n});\n\n// make your AJAX calls here\n\n$.ajaxSetup({}); // reset the global handlers

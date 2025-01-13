@@ -1,1 +1,0 @@
-$array = array(\n    array('username' => 'user1'),\n    array('username' => 'user2')\n);\n\n$username = 'user1';\n\n$index = array_search($username, array_column($array, 'username'));\n\nif ($index !== false) {\n    echo $index;\n} else {\n    echo "Username not found";\n}

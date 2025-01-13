@@ -1,1 +1,0 @@
-imp atlantis/atlantis@orcl file=E:\ABCD1_EXCLUDE_CLOB_TABS_BAK.dmp indexfile=index.sql full=y log=imp.log

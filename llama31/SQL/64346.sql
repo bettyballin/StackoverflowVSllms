@@ -1,1 +1,0 @@
-SELECT * \nFROM sys.tables \nWHERE name = 'YourTableName';

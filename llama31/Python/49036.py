@@ -1,1 +1,0 @@
-import subprocess\n\ninput_file = 'input.html'\noutput_file = 'output.pdf'\n\ncmd = ['wkhtmltopdf', '--page-size', 'A4', '--margin-top', '0', '--margin-bottom', '0', input_file, output_file]\nsubprocess.run(cmd)

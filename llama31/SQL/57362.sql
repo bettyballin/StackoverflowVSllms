@@ -1,1 +1,0 @@
-CREATE INDEX idx_hash_column ON table_name USING HASH (column_name);

@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n  SELECT ...\n  FROM ...\n  ORDER BY ID\n)\nWHERE rownum <= :end AND rownum >= :start

@@ -1,1 +1,0 @@
-function checkFileSize(input) {\n    var file = input.files[0];\n    var fileSize = file.size;\n    var maxSize = 10 * 1024 * 1024; // 10MB\n\n    if (fileSize > maxSize) {\n        alert("File is too large. Maximum size is 10MB.");\n        input.value = "";\n    }\n}

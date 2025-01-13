@@ -1,1 +1,0 @@
-CREATE INDEX IX_Tree_ParentNodeID ON Tree (ParentNodeID)\nCREATE INDEX IX_Tree_NodeID ON Tree (NodeID)

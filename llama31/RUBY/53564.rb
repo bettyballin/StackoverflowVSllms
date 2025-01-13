@@ -1,1 +1,0 @@
-class Book < ApplicationRecord\n  scope :created_between, ->(date1, date2) { where("created_at BETWEEN ? AND ?", date1, date2) }\n  scope :updated_before, ->(date) { where("updated_at <= ?", date) }\n  scope :in_carts, -> { joins(:carts) }\nend\n\nbooks_to_consider = Book.created_between(date1, date2).updated_before(date3).in_carts

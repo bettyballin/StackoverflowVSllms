@@ -1,1 +1,0 @@
-function autoEscape($sql, $values) {\n    $escapedValues = array();\n    foreach ($values as $value) {\n        $escapedValues[] = $DB->Escape($value);\n    }\n    $sql = preg_replace_callback('/\?/', function($match) use ($escapedValues) {\n        return array_shift($escapedValues);\n    }, $sql);\n    return $sql;\n}

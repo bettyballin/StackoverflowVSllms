@@ -1,1 +1,0 @@
-Default Public ReadOnly Property Item(ByVal vntIndexKey As Integer) As ItemType\n    Get\n        If mCol.TryGetValue(vntIndexKey, ItemType) Then\n            Return CType(mCol.Item(vntIndexKey), ItemType)\n        Else\n            Return Nothing ' or throw an exception\n        End If\n    End Get\nEnd Property

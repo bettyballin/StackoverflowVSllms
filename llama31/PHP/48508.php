@@ -1,1 +1,0 @@
-<?php\nheader('Transfer-Encoding: chunked');\n\nwhile (true) {\n    $chunk = "<script type='text/javascript'>alert('hello');</script>";\n    $chunkSize = strlen($chunk);\n    echo dechex($chunkSize) . "\r\n";\n    echo $chunk . "\r\n";\n    flush();\n    sleep(5);\n}\n?>

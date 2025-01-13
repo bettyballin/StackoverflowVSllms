@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_UpdateExternalDB\nON [Table1], [Table2], [Table3]\nAFTER INSERT, UPDATE, DELETE\nAS\nBEGIN\n    -- Logic to update external database tables goes here\nEND

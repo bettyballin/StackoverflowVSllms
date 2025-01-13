@@ -1,1 +1,0 @@
-variable mvtask varchar2(100);\nvariable mvddl varchar2(4000);\n\nexecute :mvtask := 'MV_FOO_BAR';\n\nexecute :mvddl := 'CREATE MATERIALIZED VIEW ' || :mvtask || ' \nBUILD IMMEDIATE \nREFRESH FAST ON COMMIT \nAS ' || (select query from user_mviews where view_name = :mvtask);\n\nexecute dbms_advisor.tune_mview(:mvtask, :mvddl);\n\nselect * from user_tune_mview;

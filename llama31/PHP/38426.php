@@ -1,1 +1,0 @@
-$token = bin2hex(random_bytes(16)); // generate a random token\nsetcookie('auth_token', $token, time() + 3600, '/', 'example.com', true, true); // set a secure cookie

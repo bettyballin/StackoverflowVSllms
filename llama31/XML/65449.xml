@@ -1,1 +1,0 @@
-<!-- Web.config of the WCF service -->\n<configuration>\n  <system.serviceModel>\n    <serviceHostingEnvironment>\n      <serviceActivations>\n        <add relativeAddress="~/api/MyService.svc" service="MyService" />\n      </serviceActivations>\n    </serviceHostingEnvironment>\n  </system.serviceModel>\n</configuration>

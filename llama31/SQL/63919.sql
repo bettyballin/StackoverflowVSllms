@@ -1,1 +1,0 @@
-CREATE PROCEDURE dbo.TestProc\nAS\n    /* This is a comment */\n    SELECT * FROM sys.objects\nGO\n\nEXEC dbo.TestProc

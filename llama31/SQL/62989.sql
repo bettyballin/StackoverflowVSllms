@@ -1,1 +1,0 @@
-SELECT COMPRESS(column_name) AS compressed_data\nFROM your_table\nWHERE condition;

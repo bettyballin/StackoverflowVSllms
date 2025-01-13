@@ -1,1 +1,0 @@
-// Start the session\nsession_start();\n\n// Retrieve the database key and other variables from the session\n$db_key = $_SESSION['db_key'];\n$var1 = $_SESSION['var1'];\n$var2 = $_SESSION['var2'];\n\n// Use the database key and other variables as needed

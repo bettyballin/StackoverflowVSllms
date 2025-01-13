@@ -1,1 +1,0 @@
-function sumArray($foo) {\n    $sum = 0;\n    foreach ($foo as $value) {\n        $sum += $value;\n    }\n    return $sum;\n}

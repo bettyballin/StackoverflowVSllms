@@ -1,1 +1,0 @@
-SomeString = Regex.Replace(SomeString, vbCrLf, vbLf)

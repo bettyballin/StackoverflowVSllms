@@ -1,1 +1,0 @@
-EXEC xp_cmdshell 'sqlcmd -S your_server_name -i "c:\temp\file01.sql"';\nEXEC xp_cmdshell 'sqlcmd -S your_server_name -i "c:\temp\file02.sql"';

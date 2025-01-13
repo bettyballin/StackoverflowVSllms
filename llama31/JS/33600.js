@@ -1,1 +1,0 @@
-import axios from 'axios';\n\n// Set token in header\naxios.defaults.headers.common['Authorization'] = 'Bearer ' + token;\n\n// Make web service call\naxios.post('https://your-webservice-url.com/api/endpoint', {\n    // data to send\n})\n    .then(response => {\n        // handle response\n    })\n    .catch(error => {\n        // handle error\n    });

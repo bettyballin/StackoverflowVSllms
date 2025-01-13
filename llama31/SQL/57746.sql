@@ -1,1 +1,0 @@
-CREATE TABLE cached_tables (\n  id INT PRIMARY KEY,\n  group_id INT,\n  html TEXT,\n  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\n);

@@ -1,1 +1,0 @@
-Dim myList As New List(Of String) From {"apple", "banana", "cherry"}\n\nFor Each item As String In myList\n    Console.WriteLine(item)\nNext

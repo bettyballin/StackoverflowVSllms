@@ -1,1 +1,0 @@
-app.get('/gallery-data', function(req, res) {\n  var categoryId = req.query.category_id;\n  // fetch image data from your database/storage\n  var imageData = [...]; // array of image objects\n  res.json({ images: imageData });\n});

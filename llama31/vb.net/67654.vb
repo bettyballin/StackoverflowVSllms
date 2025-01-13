@@ -1,1 +1,0 @@
-Dim db As DAO.Database\nDim qdf As DAO.QueryDef\nDim sql As String\n\nSet db = CurrentDb()\nSet qdf = db.CreateQueryDef("", _\n    "SELECT TestScenario, TestId FROM tblTesting WHERE empid = [empid] AND testid = [testid]")\n\nqdf.Parameters!empid = Me.txtEmpId.Value\nqdf.Parameters!testid = Me.txtAutoNumber.Value\n\nlstDiff.RowSource = qdf.OpenRecordset()

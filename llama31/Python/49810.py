@@ -1,1 +1,0 @@
-cursor.execute("INSERT INTO table VALUES (:var1, :var2, :var3)", \n               {'var1': var1, 'var2': var2, 'var3': var3})

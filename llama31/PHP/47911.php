@@ -1,1 +1,0 @@
-$this->Ajax->autoComplete('div', 'url', array(\n    'callback' => 'afterComplete',\n    'indicator' => 'loading',\n    'with' => 'Form.serialize(Event.element(event))'\n));

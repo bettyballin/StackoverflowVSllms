@@ -1,1 +1,0 @@
-SELECT grade, COUNT(*) as count\nFROM your_table\nGROUP BY grade\nORDER BY grade;

@@ -1,1 +1,0 @@
-$serverName = "your_server_name";\n$connectionOptions = array(\n    "Database" => "your_database_name",\n    "Uid" => "your_username",\n    "PWD" => "your_password",\n    "CharacterSet" => "SQLSRV_ENCODING_UTF8",\n    "Timezone" => "Pacific/Auckland"\n);\n\n$conn = sqlsrv_connect($serverName, $connectionOptions);

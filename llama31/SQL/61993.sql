@@ -1,1 +1,0 @@
-DELETE FROM your_table\nWHERE id IN (\n  SELECT id\n  FROM (\n    SELECT id, ROW_NUMBER() OVER (PARTITION BY column1, column2, ... ORDER BY id) AS row_num\n    FROM your_table\n  ) t\n  WHERE row_num > 1\n)

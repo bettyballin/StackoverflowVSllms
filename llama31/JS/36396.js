@@ -1,1 +1,0 @@
-var socket = io.connect('http://localhost:8080');\n\nsocket.on('connect', function() {\n  console.log('Connected to server');\n});\n\nsocket.on('message', function(data) {\n  console.log('Received message:', data);\n});\n\nsocket.on('disconnect', function() {\n  console.log('Disconnected from server');\n});

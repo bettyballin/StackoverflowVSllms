@@ -1,1 +1,0 @@
-$insertVersionQuery = "INSERT INTO article_versions (article_id, version, title, content) \n                       VALUES (:article_id, :version, :title, :content)";

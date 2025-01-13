@@ -1,1 +1,0 @@
-$string2 = mb_substr($string1, 0, 100, 'UTF-8');

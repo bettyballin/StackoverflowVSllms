@@ -1,1 +1,0 @@
-ALTER USER myuser DEFAULT_SCHEMA = new_schema;

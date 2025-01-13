@@ -1,1 +1,0 @@
-If anObject Is Nothing Then\n    ' handle null reference\nEnd If

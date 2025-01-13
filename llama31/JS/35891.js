@@ -1,1 +1,0 @@
-$(document).ajaxStart(function() {\n    // Show loading notification\n    $("#loading-notification").show();\n});\n\n$(document).ajaxStop(function() {\n    // Hide loading notification\n    $("#loading-notification").hide();\n});

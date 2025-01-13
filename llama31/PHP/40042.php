@@ -1,1 +1,0 @@
-$mime_type = mime_content_type($file_path);

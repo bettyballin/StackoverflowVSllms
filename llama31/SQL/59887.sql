@@ -1,1 +1,0 @@
-SELECT t1.value - t2.value AS difference\nFROM table t1\nINNER JOIN table t2 ON t1.id = t2.id + 1

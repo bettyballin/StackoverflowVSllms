@@ -1,1 +1,0 @@
-$("#form1").validate({\n    debug: false,\n    // ... rest of your configuration ...\n});

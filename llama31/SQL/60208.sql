@@ -1,1 +1,0 @@
-CREATE PROCEDURE getSomething @keyList varchar(4096)\nAS\nBEGIN\n    DECLARE @sql nvarchar(4000)\n    SET @sql = 'SELECT * FROM mytbl WHERE name IN (' + @keyList + ')'\n    EXEC sp_executesql @sql\nEND

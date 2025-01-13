@@ -1,1 +1,0 @@
-$allowedPages = array('home', 'about', 'contact');\n\n$page = $_GET['page'];\n\nif (in_array($page, $allowedPages)) {\n    $page = sprintf("%s/%s.php", "pages", $page);\n    if (file_exists($page)) {\n        include $page;\n    } else {\n        echo "The page '$page' does not exist =(";\n    }\n} else {\n    echo "Invalid page";\n}

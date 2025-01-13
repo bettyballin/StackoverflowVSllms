@@ -1,1 +1,0 @@
-$points = array();\nfor ($i = 0; $i < count($xpointsArray); $i++) {\n    for ($j = 0; $j < count($ypointsArray); $j++) {\n        $points[$i][$j] = array($xpointsArray[$i], $ypointsArray[$j]);\n    }\n}

@@ -1,1 +1,0 @@
-function set_b($obj) {\n    $obj = clone $obj; // Create a local copy\n    $obj->b = "after";\n}\n\n$a = new A();\n$a->b = "before";\n\nset_b($a);\n\nprint $a->b; // Outputs: before

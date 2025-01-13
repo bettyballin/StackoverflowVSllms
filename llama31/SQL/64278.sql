@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.MyFunction (@Param1 INT)\nRETURNS TABLE\nAS\nRETURN\n(\n    -- Your stored procedure logic here\n    SELECT * FROM dbo.MyTable WHERE id = @Param1\n)\nGO\n\nSELECT * FROM Table1\nCROSS APPLY dbo.MyFunction(Table1.id)

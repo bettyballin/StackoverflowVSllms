@@ -1,1 +1,0 @@
-var printer = jsprint.getPrinter('Your Printer Name');\nvar data = 'Hello, World!';\nprinter.print(data, 'raw');

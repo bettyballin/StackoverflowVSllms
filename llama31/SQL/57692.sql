@@ -1,1 +1,0 @@
-SELECT name FROM database_name.sqlite_master WHERE type='table';

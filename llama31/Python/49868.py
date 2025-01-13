@@ -1,1 +1,0 @@
-from test_utils import test_database\n\n@test_database\nclass MyTest(TestCase):\n    # your test code here

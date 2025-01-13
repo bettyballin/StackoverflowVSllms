@@ -1,1 +1,0 @@
-# Before\nkey = "my_secret_key"\n\n# After\nimport secrets\nkey = secrets.token_bytes(32)

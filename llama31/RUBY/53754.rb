@@ -1,1 +1,0 @@
-cgi.assign = ( ".php" => "/path/to/php-cgi-wrapper" )

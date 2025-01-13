@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\nxhr.open('GET', '/search_midi_file', true);\nxhr.onload = function() {\n  if (xhr.status === 200) {\n    var newSrc = xhr.responseText.new_midi_file_path;\n    document.querySelector('#quicktime-movie param[name="src"]').setAttribute('value', newSrc);\n  }\n};\nxhr.send();

@@ -1,1 +1,0 @@
-foreach ($results as $row) {\n    $unix_time[] = $row['unix_time'];\n    unset($row); // Add this line to break the reference\n}

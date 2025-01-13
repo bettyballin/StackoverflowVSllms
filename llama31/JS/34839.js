@@ -1,1 +1,0 @@
-var cache = {};\n\nfunction getItemDetail(itemId) {\n  if (cache[itemId]) {\n    return cache[itemId];\n  }\n  \n  $.ajax({\n    url: '/item/detail',\n    data: { id: itemId },\n    success: function(data) {\n      cache[itemId] = data;\n      return data;\n    }\n  });\n}

@@ -1,1 +1,0 @@
-$result = mysql_query("SHOW TABLES FROM feather") or die(mysql_error());\n\nwhile($row = mysql_fetch_row($result)) {\n  $table = $row[0];\n  $sqlA = "SELECT COUNT(*) FROM `$table` WHERE `site` LIKE '$entry'";\n  $resA = mysql_query($sqlA) or die("$sqlA:".mysql_error());\n  list($isThere) = mysql_fetch_row($resA);\n  if ($isThere) {\n     $table_list[] = $table;\n  }\n}

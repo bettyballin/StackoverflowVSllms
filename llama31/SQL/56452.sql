@@ -1,1 +1,0 @@
-CREATE TABLE #temp_delete (id INT);\n\n-- populate #temp_delete with the IDs to delete\nINSERT INTO #temp_delete (id) VALUES (123), (345), ...;\n\nDELETE t\nFROM OUR_TABLE t\nINNER JOIN #temp_delete i ON t.ID = i.id;\n\nDROP TABLE #temp_delete;

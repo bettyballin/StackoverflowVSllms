@@ -1,1 +1,0 @@
-define('DIR_APP', 'app/');\n\nclass Questions\n{\n    private static $QUESTIONS_FILE;\n\n    public function __construct()\n    {\n        self::$QUESTIONS_FILE = DIR_APP . 'questions.xml';\n    }\n\n    public static function getQuestionsFile()\n    {\n        return self::$QUESTIONS_FILE;\n    }\n}

@@ -1,1 +1,0 @@
-function getCallingMethodInfo() {\n    $backtrace = debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS, 2);\n    $caller = $backtrace[1];\n    $className = $caller['class'];\n    $methodName = $caller['function'];\n    $params = $caller['args'];\n\n    // Sanitize and filter output as needed\n    // ...\n\n    return [$className, $methodName, $params];\n}

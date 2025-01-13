@@ -1,1 +1,0 @@
-class MailProcessorServer(smtpd.SMTPServer):\n    def process_message(self, peer, sender, rcpttos, data):\n        badrecipients = {}\n        for rcpt in rcpttos:\n            badrecipients[rcpt] = (550, 'Recipient not found')\n\n        return badrecipients

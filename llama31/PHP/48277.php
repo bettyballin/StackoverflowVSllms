@@ -1,1 +1,0 @@
-Route::set('default', '(<controller>(/<action>(/<id>)))')\n    ->defaults(array(\n        'controller' => 'home',\n        'action' => 'index',\n    ));\n\nRoute::set('products', 'products(/<action>(/<id>))')\n    ->defaults(array(\n        'controller' => 'products',\n        'action' => 'index',\n    ));\n\n// Add more routes for Support and Contact

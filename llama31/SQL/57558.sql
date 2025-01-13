@@ -1,1 +1,0 @@
-CREATE TABLE AUCTIONS (\n  ...\n  `CONDITION` VARCHAR(20),\n  ...\n);

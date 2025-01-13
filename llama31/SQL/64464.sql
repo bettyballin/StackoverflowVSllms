@@ -1,1 +1,0 @@
-SELECT /*+ INDEX(table1, col1_idx) */ *\nFROM table1;

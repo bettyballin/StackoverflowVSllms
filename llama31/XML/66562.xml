@@ -1,1 +1,0 @@
-<dependencies>\n    <!-- Remove unused dependency -->\n    <!--<dependency>\n        <groupId>org.springframework</groupId>\n        <artifactId>spring</artifactId>\n        <version>3.2.4.RELEASE</version>\n    </dependency>-->\n</dependencies>

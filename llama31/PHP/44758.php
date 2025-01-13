@@ -1,1 +1,0 @@
-// Read the SQL file into a string\n$sql = file_get_contents('backup.sql');\n\n// Compress the SQL string using GZIP\n$compressed = gzcompress($sql, 9);\n\n// Write the compressed string to a file\nfile_put_contents('backup.sql.gz', $compressed);

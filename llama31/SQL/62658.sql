@@ -1,1 +1,0 @@
-SELECT COUNT(DISTINCT (a, b)) AS distinct_count\nFROM MyTable\nWHERE c = 'foo';

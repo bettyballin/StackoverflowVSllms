@@ -1,1 +1,0 @@
-fetch('https://your-proxy-server.com/search?q=example')\n  .then(response => response.json())\n  .then(data => console.log(data))\n  .catch(error => console.error(error));

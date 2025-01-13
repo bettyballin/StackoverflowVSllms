@@ -1,1 +1,0 @@
-$app = JFactory::getApplication();\n$app->setHeader('Content-Type', 'application/pdf', true);

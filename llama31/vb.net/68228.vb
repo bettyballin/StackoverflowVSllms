@@ -1,1 +1,0 @@
-Public Sub timReminder_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs)

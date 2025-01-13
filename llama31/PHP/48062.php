@@ -1,1 +1,0 @@
-if ($insert_success) {\n  echo 'success|' . $customer_name;\n} else {\n  echo 'error|' . $error_message;\n}

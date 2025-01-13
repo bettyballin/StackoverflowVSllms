@@ -1,1 +1,0 @@
--- Sample SQL query with parameters\nSELECT * \nFROM table \nWHERE date BETWEEN @StartDate AND @EndDate

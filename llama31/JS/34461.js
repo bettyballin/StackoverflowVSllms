@@ -1,1 +1,0 @@
-const coordinatesData = JSON.parse(document.getElementById('coordinates-data').textContent);

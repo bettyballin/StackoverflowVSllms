@@ -1,1 +1,0 @@
-UPDATE your_table\nSET date_column = DATEADD(day, ABS(CHECKSUM(NEWID())) % (365*5), '2010-01-01')

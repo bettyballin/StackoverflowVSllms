@@ -1,1 +1,0 @@
-<appender name="EventLog" type="log4net.Appender.EventLogAppender">\n  <param name="LogName" value="MyLog" />\n  <param name="Source" value="MyEventLogSource" />\n</appender>

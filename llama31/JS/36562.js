@@ -1,1 +1,0 @@
-td1.style.width = td1.currentShrinkCount + "px";

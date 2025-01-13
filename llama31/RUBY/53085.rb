@@ -1,1 +1,0 @@
-require 'nokogiri'\n\nhtml = <<-HTML\n<html>\n<body>\n<h1>Foo</h1>\n<p>The quick brown fox.</p>\n<h1>Bar</h1>\n<p>Jumps over the lazy dog.</p>\n</body>\n</html>\nHTML\n\ndoc = Nokogiri::HTML(html)\n\ndoc.css('h1').each do |h1|\n  h1.name = 'p'\n  h1['class'] = 'title'\nend\n\nputs doc.to_html

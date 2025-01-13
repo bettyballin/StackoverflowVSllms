@@ -1,1 +1,0 @@
-Dim result As String\nIf condition Then\n    result = "true value"\nElse\n    result = "false value"\nEnd If

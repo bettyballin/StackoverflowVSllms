@@ -1,1 +1,0 @@
-<?php\n$db = wfGetDB( DB_SLAVE );\nvar_dump( $db->getServerInfo() );\n?>

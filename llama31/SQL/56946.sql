@@ -1,1 +1,0 @@
-SELECT * FROM all_indexes WHERE index_name = 'MY_TEMP_INDEX';

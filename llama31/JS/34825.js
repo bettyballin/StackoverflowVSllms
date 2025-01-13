@@ -1,1 +1,0 @@
-$('.star').rating({\n  split: 4\n});

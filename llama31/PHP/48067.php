@@ -1,1 +1,0 @@
-function clean_string($string) {\n    if (!get_magic_quotes_gpc()) {\n        $string = mysql_real_escape_string($string);\n    }\n    $string = str_replace(array('%', '_'), '', $string);\n    return $string;\n}

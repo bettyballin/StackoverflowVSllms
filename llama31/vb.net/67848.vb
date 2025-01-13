@@ -1,1 +1,0 @@
-OpenFileDialog2.InitialDirectory = "a:"\nOpenFileDialog2.Filter = "CSV File (*.csv)|*.csv"\nOpenFileDialog2.RestoreDirectory = True\nIf OpenFileDialog2.ShowDialog() = DialogResult.OK Then\n    Using reader As New CSVReader(OpenFileDialog2.FileName)\n        reader.DisplayResults(DataGridView1)\n    End Using\nElse\nEnd If

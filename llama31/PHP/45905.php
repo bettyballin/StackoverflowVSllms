@@ -1,1 +1,0 @@
-$phar = new PharData('/path/to/output.tar');\n$phar->buildFromIterator(new RecursiveIteratorIterator(new RecursiveDirectoryIterator('/path/to/directory')));

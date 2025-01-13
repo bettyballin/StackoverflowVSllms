@@ -1,1 +1,0 @@
-unread_counts = {\n    user_id: {\n        feed_id: unread_count\n    }\n}

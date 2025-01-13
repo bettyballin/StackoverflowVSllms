@@ -1,1 +1,0 @@
-CREATE TABLE calendar (\n  date DATE PRIMARY KEY,\n  day INTEGER,\n  week INTEGER,\n  month INTEGER,\n  year INTEGER\n);\n\n-- Populate the calendar table with dates\nINSERT INTO calendar (date, day, week, month, year)\nVALUES\n  ('2009-01-01', 1, 1, 1, 2009),\n  ('2009-01-02', 2, 1, 1, 2009),\n  ...\n  ('2010-12-31', 31, 52, 12, 2010);

@@ -1,1 +1,0 @@
-// Node.js server using Express and EJS\nconst express = require('express');\nconst app = express();\n\napp.set('view engine', 'ejs');\n\napp.get('/department/:name', (req, res) => {\n    res.render('department', {\n        departmentName: req.params.name,\n        content: `Welcome to the ${req.params.name} department.`\n    });\n});

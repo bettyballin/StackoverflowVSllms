@@ -1,1 +1,0 @@
-$result = mysql_query("SELECT * FROM sggame");\nif (!$result) {\n    die('Invalid query: ' . mysql_error());\n}

@@ -1,1 +1,0 @@
-function errorHandler($errno, $errstr, $errfile, $errline) {\n    echo "<h1>Error</h1>";\n    echo "Error Number: $errno<br />";\n    echo "Error String: $errstr<br />";\n    echo "Error File: $errfile<br />";\n    echo "Error Line: $errline<br />";\n    echo "Stack Trace:<br />";\n    debug_print_backtrace();\n}\n\nset_error_handler('errorHandler');

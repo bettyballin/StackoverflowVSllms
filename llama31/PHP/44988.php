@@ -1,1 +1,0 @@
-class MyClass {\n    public readonly string $readonlyProperty;\n\n    public function __construct() {\n        $this->readonlyProperty = 'initial value';\n    }\n}

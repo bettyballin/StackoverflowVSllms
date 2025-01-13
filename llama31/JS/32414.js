@@ -1,1 +1,0 @@
-var oFCKeditor = new FCKeditor('editor');\noFCKeditor.Config.DocType = 'XHTML';

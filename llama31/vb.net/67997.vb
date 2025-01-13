@@ -1,1 +1,0 @@
-Dim fpQuery As IEnumerable(Of IInterface) = _\n    (From dr As DataRow In DataLayer.SomeMethodToGetADataTable.AsEnumerable _\n     Select New SomeClass(dr)).OfType(Of IInterface)

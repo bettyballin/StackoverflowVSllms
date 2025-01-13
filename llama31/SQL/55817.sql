@@ -1,1 +1,0 @@
-SELECT \n  vt.text AS create_statement\nFROM \n  sys_views v\n  JOIN sys_viewtexts vt ON v.viewname = vt.viewname\nWHERE \n  v.viewname = '<your_view_name>';

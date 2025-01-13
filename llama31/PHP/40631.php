@@ -1,1 +1,0 @@
-class MyPrint {\n    public function __invoke(...$args) {\n        echo implode(' ', $args);\n    }\n}\n\n$myprint = new MyPrint();\n$myprint('Hello', 'World');  // still requires parentheses

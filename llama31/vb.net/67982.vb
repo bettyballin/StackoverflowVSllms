@@ -1,1 +1,0 @@
-Dim CreateObj As Object\nSet CreateObj = CreateObject("OPSValuer.OPSValue")

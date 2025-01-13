@@ -1,1 +1,0 @@
-$arr = array("z" => "z", "a" => "a", "b" => "b");\n\n// Associative array - order not guaranteed\nforeach ($arr as $key => $val) {\n    print("$key: $val\n");\n}\n\n// Array with numerical keys - order guaranteed\n$arr2 = array(0 => "z", 1 => "a", 2 => "b");\nforeach ($arr2 as $key => $val) {\n    print("$key: $val\n");\n}

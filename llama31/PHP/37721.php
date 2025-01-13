@@ -1,1 +1,0 @@
-use Zend\Log\Logger;\nuse Zend\Log\Writer\Stream;\n\n$logger = new Logger();\n$logger->addWriter(new Stream('logs/exceptions.log'));\n\ntry {\n    // Your code here\n} catch (Exception $e) {\n    $logger->err($e->getMessage(), array('exception' => $e));\n}

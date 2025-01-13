@@ -1,1 +1,0 @@
-const div = document.querySelector('.slanted-div');\ndiv.style.transform = 'rotate(45deg)';

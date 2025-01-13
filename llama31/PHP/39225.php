@@ -1,1 +1,0 @@
-function receive_pingback() {\n  $source_uri = $_POST['source_uri'];\n  \n  // validate input data\n  if (empty($source_uri)) {\n    // handle error\n  }\n  \n  // process pingback data\n  // ...\n  \n  // return success response\n  header('Content-Type: text/xml');\n  echo '<?xml version="1.0" encoding="UTF-8"?><response><error>0</error></response>';\n  exit;\n}

@@ -1,1 +1,0 @@
-// Add class using JavaScript\n$(this).removeClass().addClass('validate[required,custom[onlyLetter],length[0,100]] text-input');\n\n// Re-initialize the jQuery Form Validator plugin\n$.validate();

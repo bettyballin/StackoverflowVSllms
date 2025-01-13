@@ -1,1 +1,0 @@
-use Pheanstalk\Pheanstalk;\n\n// Connect to Beanstalkd\n$pheanstalk = new Pheanstalk('localhost');\n\n// Send a job to the queue\n$pheanstalk->put('my_queue', 'my_job', ['param1' => 'value1']);

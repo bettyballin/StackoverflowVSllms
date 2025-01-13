@@ -1,1 +1,0 @@
-import win32com.client\nimport time\n\ndte = win32com.client.GetActiveObject("VisualStudio.DTE.7.1")\ndte.ExecuteCommand("Build.BuildSolution")\ntime.sleep(2)  # wait for build to complete\noutput_window = dte.Windows.Item("Output")\noutput_text = output_window.ActivePane.TextDocument.Selection.Text\nprint(output_text)

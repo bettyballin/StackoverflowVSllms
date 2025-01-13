@@ -1,1 +1,0 @@
-$username = mysql_real_escape_string(isset($_POST['username']) ? $_POST['username'] : '');\n$password = mysql_real_escape_string(md5(isset($_POST['password']) ? $_POST['password'] : ''));

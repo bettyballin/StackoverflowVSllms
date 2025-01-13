@@ -1,1 +1,0 @@
-INSERT INTO new_table_1 (id, column_1, column_2)\nSELECT \n  id, \n  column_1, \n  column_2\nFROM \n  original_table;

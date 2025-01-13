@@ -1,1 +1,0 @@
-function throw_if_false($value, $message, $code = 0) {\n    if (!$value) {\n        throw new Exception($message, $code);\n    }\n    return $value;\n}\n\ntry {\n    $foo = throw_if_false(bar(), 'Problems with bar()');\n    $aa = throw_if_false(bb($foo), 'Problems with bb()');\n    // ... and so on!\n} catch (Exception $e) {\n    echo $e->getMessage();\n}

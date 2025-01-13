@@ -1,1 +1,0 @@
-CREATE TABLE #TempTable (\n    -- define the columns that match the output of the stored procedures\n    column1 INT,\n    column2 VARCHAR(50),\n    -- ...\n)\n\nINSERT INTO #TempTable\nEXEC StoreProcedure1 p1\n\nINSERT INTO #TempTable\nEXEC StoreProcedure2 p2\n\nSELECT * FROM #TempTable\n\nDROP TABLE #TempTable

@@ -1,1 +1,0 @@
-result = list(map(lambda x: x + another_var, numbers))

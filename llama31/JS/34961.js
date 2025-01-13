@@ -1,1 +1,0 @@
-try {\n    xmlHttpReq = new ActiveXObject("Msxml2.XMLHTTP");\n} catch (ex) {\n    try {\n        xmlHttpReq = new ActiveXObject("Microsoft.XMLHTTP");\n    } catch (ex2) {\n        alert("Your browser does not support AJAX. Please use an AJAX compatible browser.");\n        return false;\n    }\n}

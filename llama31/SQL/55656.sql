@@ -1,1 +1,0 @@
-CREATE TABLE MyTable (\n    [id] [int] IDENTITY(1,1),\n    [name] [nvarchar],\n    [magicvalue] [int] CHECK ([magicvalue] BETWEEN 1 AND 100)  -- example validation rule\n);

@@ -1,1 +1,0 @@
-$.ajax({\n  url: 'your-url',\n  dataType: 'html',\n  success: function(data) {\n    // Execute your code after the script has finished running\n    $(document).ready(function() {\n      // Your code here\n    });\n  }\n});

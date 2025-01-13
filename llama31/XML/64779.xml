@@ -1,1 +1,0 @@
-<Subreport Name="LogoSubreport">\n  <Visibility>\n    <Toggle>true</Toggle>\n    <Expression>=IIF(IsNothing(Fields!Logo.Value), false, true)</Expression>\n  </Visibility>\n  ...\n</Subreport>

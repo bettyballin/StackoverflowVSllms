@@ -1,1 +1,0 @@
-SELECT field, ... FROM table1 WHERE @Flag = 1\nUNION ALL\nSELECT field, ... FROM table2 WHERE @Flag = 2\nUNION ALL\nSELECT field, ... FROM table3 WHERE @Flag = 3

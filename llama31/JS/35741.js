@@ -1,1 +1,0 @@
-function get_number() {\n  var script_file = GetQueryStringValue("run");\n  var e = document.createElement('script');\n  e.type = 'text/javascript';\n  e.src = script_file + ".js";\n  e.onload = function() {\n    document.write(myValue);\n  };\n  head.appendChild(e);\n}

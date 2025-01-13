@@ -1,1 +1,0 @@
-SELECT word2 FROM word_link WHERE word1 = 1\nUNION\nSELECT word1 FROM word_link WHERE word2 = 1;

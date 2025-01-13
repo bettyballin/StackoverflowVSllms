@@ -1,1 +1,0 @@
-SELECT \n    CASE \n        WHEN t.freeplayabandoned != f.freeplayabandoned THEN 'freeplayabandoned'\n        WHEN t.freeplaydownloaded != f.freeplaydownloaded THEN 'freeplaydownloaded'\n    END \nFROM \n    testtable t\nLEFT JOIN \n    freeplay.egmfreeplay f ON f.freeplaydownloaded = t.freeplaydownloaded\nWHERE \n    f.freeplaydownloaded IS NULL;

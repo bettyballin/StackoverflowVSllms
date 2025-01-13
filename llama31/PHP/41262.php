@@ -1,1 +1,0 @@
-class MyClass {\n    public static function __callStatic($name, $arguments) {\n        // handle the static method call\n        echo "You called the static method $name with arguments " . implode(', ', $arguments);\n    }\n}\n\nMyClass::myMethod('arg1', 'arg2');

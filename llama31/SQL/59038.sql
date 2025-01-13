@@ -1,1 +1,0 @@
-SELECT \n  c.date, \n  COALESCE(SUM(t.important_data), 0) AS important_data\nFROM \n  calendar c\n  LEFT JOIN my_table t ON c.date = DATE_FORMAT(t.date, '%Y-%m-%d')\nWHERE \n  c.date BETWEEN '2009-01-01' AND '2010-12-31'\nGROUP BY \n  c.date\nORDER BY \n  c.date;

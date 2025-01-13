@@ -1,1 +1,0 @@
-um = 123\nlst = magic(num)\nprint(lst, type(lst))

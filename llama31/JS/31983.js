@@ -1,1 +1,0 @@
-document.querySelector('.closeLink').addEventListener('click', function(event) {\n  // your code to close the box here\n  return false;\n});

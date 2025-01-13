@@ -1,1 +1,0 @@
-addElement('textarea', 'contact_address', 'Address:', '<?= str_replace("\n", "\\n", isset($_SESSION['contact_address']) ? $_SESSION['contact_address'] : "") ?>');

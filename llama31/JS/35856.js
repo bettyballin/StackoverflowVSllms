@@ -1,1 +1,0 @@
-// Submit both forms using JavaScript\nfunction submitBothForms() {\n  document.getElementById("form1").submit();\n  document.getElementById("form2").submit();\n}

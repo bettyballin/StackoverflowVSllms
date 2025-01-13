@@ -1,1 +1,0 @@
-$domains = array('example.com', 'test.com', 'example.net', 'foo.bar');\n$x = 'example';\n\nforeach ($domains as $domain) {\n    if (strpos($domain, $x) === false) {\n        echo $domain . "\n";\n    }\n}

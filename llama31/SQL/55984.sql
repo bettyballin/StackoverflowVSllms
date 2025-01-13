@@ -1,1 +1,0 @@
--- Script out database objects\nSELECT DBMS_METADATA.get_ddl(object_type, object_name) \nFROM user_objects \nWHERE object_type IN ('TABLE', 'VIEW', 'PACKAGE', 'PROCEDURE', 'FUNCTION', 'TRIGGER');\n\n-- Script out static data\nSELECT DBMS_METADATA.get_dependent_ddl('TABLE_DATA', table_name) \nFROM user_tables;

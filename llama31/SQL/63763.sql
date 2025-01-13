@@ -1,1 +1,0 @@
--- Example upgrade script\n-- 1. Backup table\nSELECT * INTO #backup_table FROM mytable;\n\n-- 2. Modify table\nALTER TABLE mytable ADD COLUMN new_column INT;\n\n-- 3. Verify changes\nSELECT * FROM mytable;

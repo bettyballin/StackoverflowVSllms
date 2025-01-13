@@ -1,1 +1,0 @@
-import operator\nL = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']\nIdx = [0, 3, 7]\nT = list(operator.itemgetter(*Idx)(L))\nprint(T)  # Output: ['a', 'd', 'h']

@@ -1,1 +1,0 @@
-// Send a GET request to the specified URL\npm.sendRequest({\n  url: "https://jsonplaceholder.typicode.com/posts/1",\n  method: "GET",\n  headers: {\n    "Content-Type": "application/json"\n  }\n}, function (err, res) {\n  console.log(res);\n});

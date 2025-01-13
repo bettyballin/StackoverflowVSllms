@@ -1,1 +1,0 @@
-define('table', 'evil_code()');\n\n$a = array(table => 'myTable');\nprint $a[table]; // executes the evil_code() functio

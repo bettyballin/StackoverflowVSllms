@@ -1,1 +1,0 @@
-article = Article.create(:name => "Article Title")\narticle_id = article.id

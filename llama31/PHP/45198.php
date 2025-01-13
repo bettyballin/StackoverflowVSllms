@@ -1,1 +1,0 @@
-$fn = array('Bar', 'foo2');\nprint $fn(4,1);

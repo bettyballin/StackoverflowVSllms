@@ -1,1 +1,0 @@
-const express = require('express');\nconst app = express();\n\napp.post('/email', (req, res) => {\n  const emailContent = req.body;\n  // Process the email content and save it to your database\n  // or perform any other necessary actions\n  res.send('Email received and processed!');\n});

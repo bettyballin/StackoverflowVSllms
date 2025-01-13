@@ -1,1 +1,0 @@
-$stmt = $mysqli->prepare("SELECT array_column FROM table_name WHERE id = ?");\n$stmt->bind_param("i", $id);\n$stmt->execute();\n$result = $stmt->get_result();\n$row = $result->fetch_assoc();\n\n$array = json_decode($row['array_column'], true);\n\nvar_dump($array);

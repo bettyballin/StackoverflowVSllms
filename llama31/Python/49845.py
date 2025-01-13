@@ -1,1 +1,0 @@
-from Crypto.Cipher import AES\n\n# Create AES cipher object\ncipher = AES.new(key, AES.MODE_ECB)\n\n# Encrypt data\nencrypted_data = cipher.encrypt(data)

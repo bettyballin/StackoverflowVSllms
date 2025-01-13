@@ -1,1 +1,0 @@
-$color = "orange";\nprint(sprintf("My favorite color is %sish -- at least for now.", strtolower($color)));

@@ -1,1 +1,0 @@
-<class name="Client" table="clients">\n    <property name="Language" column="language" type="LanguageUserType" />\n</class>

@@ -1,1 +1,0 @@
-SELECT Keyword.Keyword \nFROM Keyword CROSS JOIN BlackList\nWHERE (Keyword.Keyword \nLIKE { fn CONCAT({ fn CONCAT('%', BlackList.Keyword) }, '%') })

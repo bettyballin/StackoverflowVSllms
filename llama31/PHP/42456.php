@@ -1,1 +1,0 @@
-$previous_week = date('Y-m-d', strtotime('-7 days', strtotime($first_day_of_week)));\n$next_week = date('Y-m-d', strtotime('+7 days', strtotime($first_day_of_week)));

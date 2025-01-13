@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  var feedbackLink = $('#feedback_link');\n  $(window).scroll(function() {\n    feedbackLink.css('top', $(window).scrollTop() + $(window).height() * 0.4);\n  });\n});

@@ -1,1 +1,0 @@
-CREATE FULLTEXT INDEX ON customer (fname, email)\nKEY INDEX pk_customer;

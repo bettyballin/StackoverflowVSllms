@@ -1,1 +1,0 @@
-$files = scandir('path/to/your/files/');\nforeach ($files as $file) {\n    $content = file('path/to/your/files/' . $file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);\n    // Process the file content\n}

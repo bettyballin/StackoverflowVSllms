@@ -1,1 +1,0 @@
-SELECT *\nFROM employees\nWHERE office_id IN (SELECT * FROM TABLE(get_office_ids()));

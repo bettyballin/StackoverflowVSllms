@@ -1,1 +1,0 @@
-str1 = "AAAA BBBB CCCC DDDD"\n\nstr1 = str1.gsub(/(AAAA|CCCC)/) do |match|\n  match == "AAAA" ? "CCCC" : "AAAA"\nend\n\nputs str1 # Outputs: "CCCC BBBB AAAA DDDD"

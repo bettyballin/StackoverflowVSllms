@@ -1,1 +1,0 @@
-$obj = new MyObject();\n$obj->setFlag(MyObject::FLAG_A);\n$obj->setFlag(MyObject::FLAG_C);\n\nif ($obj->getFlag(MyObject::FLAG_A)) {\n    echo "Flag A is set";\n}

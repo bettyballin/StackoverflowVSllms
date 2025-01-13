@@ -1,1 +1,0 @@
-fetch('template.html', { cache: 'force-cache' })\n  .then(response => response.text())\n  .then(templateContent => {\n    // Use the template content here\n  });

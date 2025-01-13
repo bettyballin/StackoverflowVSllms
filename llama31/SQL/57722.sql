@@ -1,1 +1,0 @@
-declare @x xml\nset @x='123'\nselect @x.exist('xs:int(.)[not(node())]')

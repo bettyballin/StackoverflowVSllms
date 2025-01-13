@@ -1,1 +1,0 @@
-var features = "location=no, toolbar=no, menubar=no, scrollbars=yes, resizable=yes, status=no, fullscreen=yes";\nvar newWindow = window.open(src, 'newWin', features);\nnewWindow.moveTo(0, 0);\nnewWindow.resizeTo(screen.width, screen.height);

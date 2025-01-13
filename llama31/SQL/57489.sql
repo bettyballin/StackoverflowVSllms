@@ -1,1 +1,0 @@
-SELECT \n  s.Student_Name, \n  s.Student_Email, \n  CASE \n    WHEN EXISTS (SELECT 1 FROM Enrollment e WHERE e.Student_ID = s.Student_ID AND e.IsActive = 1) \n    THEN 'Yes' \n    ELSE 'No' \n  END AS IsEnrolled\nFROM \n  Student s;

@@ -1,1 +1,0 @@
-<?php\n$file = 'image.jpg'; // replace with your image file name\n$fp = fopen($file, 'rb');\n\nheader('Content-Type: image/jpeg');\nheader('Content-Length: ' . filesize($file));\n\nfpassthru($fp);\nexit;\n?>

@@ -1,1 +1,0 @@
-if (!filter_var($to, FILTER_VALIDATE_EMAIL)) {\n    // Invalid email address\n}

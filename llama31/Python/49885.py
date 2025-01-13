@@ -1,1 +1,0 @@
-import json\n\n# assuming 'response' is the JSON response from the Twitter Search API\ndata = json.loads(response)\n\n# get the total number of results\ntotal_results = data['search_metadata']['count']\n\n# calculate the number of pages (assuming 100 tweets per page)\nnum_pages = -(-total_results // 100)  # using ceiling division to round up\n\nprint(num_pages)

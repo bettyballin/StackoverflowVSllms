@@ -1,1 +1,0 @@
-$.getJSON('your.json', function(data) {\n  $.each(data, function(index, value) {\n    $('<div>' + value + '</div>')\n      .appendTo('#container')\n      .delay(index * 500) // delay by 500ms for each element\n      .fadeIn(1000); // fade in over 1 second\n  });\n});

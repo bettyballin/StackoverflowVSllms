@@ -1,1 +1,0 @@
-image = Image.open('input.jpg')\nbounding_box = (100, 50)\nnew_image = scale_to_fill_bounding_box(image, bounding_box)\nnew_image.save('output.jpg')

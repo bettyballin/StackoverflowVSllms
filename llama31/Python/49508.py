@@ -1,1 +1,0 @@
-import os\nimport fcntl\n\n# Create a pipe\nr, w = os.pipe()\n\n# Set non-blocking flag on the pipe\nfcntl.fcntl(r, fcntl.F_SETFL, os.O_NONBLOCK)\n\ntry:\n    data = os.read(r, 1024)\n    print(data)\nexcept IOError as e:\n    if e.errno == 11:  # EAGAIN\n        print("Pipe is empty")\n    else:\n        raise

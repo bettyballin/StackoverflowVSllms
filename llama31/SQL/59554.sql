@@ -1,1 +1,0 @@
-EXECUTE LandData_Update @MyFirstName = @FirstName, @MyLastName = @LastName

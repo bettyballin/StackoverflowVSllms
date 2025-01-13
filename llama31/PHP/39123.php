@@ -1,1 +1,0 @@
-$xml = simplexml_load_string($xml_text, 'SimpleXMLElement', LIBXML_NOCDATA);

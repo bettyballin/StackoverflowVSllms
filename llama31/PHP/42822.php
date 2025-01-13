@@ -1,1 +1,0 @@
-Array\n(\n    [0] => ID\n    [1] => HouseNum\n    [2] => AptNum\n    [3] => Street\n    [4] => City\n    [5] => State\n    [6] => Zip5\n    [7] => EID\n    [8] => RequestDate\n    [9] => Status\n    [10] => DateCompleted\n    [11] => CompletedBy\n    [12] => ContactName\n    [13] => ContactNumber\n    [14] => ContactTime\n)

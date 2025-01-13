@@ -1,1 +1,0 @@
-$("#link").click(function(e) {\n    e.preventDefault();\n    var url = $(this).attr("href");\n    $.ajax({\n        type: "GET",\n        url: url,\n        success: function(data) {\n            $("#response").html(data);\n        }\n    });\n});

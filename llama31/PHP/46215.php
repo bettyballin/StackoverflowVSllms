@@ -1,1 +1,0 @@
-// Reorder the videos\n$binsVideo = new BinsVideo();\n$binsVideo->updateAll(\n    array('sort_order' => $newSortOrder),\n    array('bin_id' => $binId, 'video_id' => $videoId)\n);

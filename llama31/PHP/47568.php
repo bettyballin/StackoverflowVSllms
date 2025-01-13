@@ -1,1 +1,0 @@
-$response = curl_exec($ch);\nif (curl_errno($ch)) {\n    // Handle CURL error\n    $error = curl_error($ch);\n    // ...\n} elseif ($httpResponseCode = curl_getinfo($ch, CURLINFO_HTTP_CODE) >= 500) {\n    // Handle API error (5xx status code)\n    // ...\n}

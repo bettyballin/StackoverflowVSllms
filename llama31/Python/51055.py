@@ -1,1 +1,0 @@
-import threading\n\ndef run_indefinitely():\n    while True:\n        # your code here\n        print("Fibonacci sequence: ...")\n\ndef wait_for_input():\n    input("Press Enter to stop...")\n\nt = threading.Thread(target=wait_for_input)\nt.start()\n\nrun_indefinitely()

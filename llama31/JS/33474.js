@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  // Module 1 code\n  initModule1();\n  \n  // Module 2 code\n  initModule2();\n  \n  // Module 3 code\n  initModule3();\n});\n\nfunction initModule1() {\n  // Module 1 initialization code\n}\n\nfunction initModule2() {\n  // Module 2 initialization code\n}\n\nfunction initModule3() {\n  // Module 3 initialization code\n}

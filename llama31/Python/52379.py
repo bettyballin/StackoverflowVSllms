@@ -1,1 +1,0 @@
-2           0 LOAD_FAST                0 (x)\n            2 LOAD_CONST               1 (2)\n            4 BINARY_POWER\n            6 RETURN_VALUE

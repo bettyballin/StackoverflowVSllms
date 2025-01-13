@@ -1,1 +1,0 @@
-var textareaValue = $('#myTextarea').val();\nvar encodedValue = encodeURIComponent(textareaValue);\n\n$.ajax({\n    type: 'POST',\n    url: 'your_php_script.php',\n    data: 'textarea_value=' + encodedValue,\n    success: function(data) {\n        // handle response\n    }\n});

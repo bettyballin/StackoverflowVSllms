@@ -1,1 +1,0 @@
-<a href="<?php echo esc_url('http://www.ojaivalleynews.com/'); ?>" target="_blank">

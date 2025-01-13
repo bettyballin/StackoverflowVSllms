@@ -1,1 +1,0 @@
-CREATE TRIGGER [OnItem_Updated] \n    ON  [Item]\n    AFTER UPDATE\n    DISABLED\nAS \nBEGIN\n    -- trigger code here\nEND

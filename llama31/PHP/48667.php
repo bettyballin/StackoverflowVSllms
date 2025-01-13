@@ -1,1 +1,0 @@
-function __construct()\n{\n    require 'config.php';\n    $this->config = new stdClass();\n    $this->config->adminEmail = 'user@domain.tld'; // or use an associative array\n}

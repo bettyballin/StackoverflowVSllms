@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    function exportToPdf() {\n        var url = "/ReportServer/Pages/ReportViewer.aspx?/YourReportName&rs:Command=Render&rs:Format=PDF";\n        window.open(url, "_blank");\n    }\n</script>

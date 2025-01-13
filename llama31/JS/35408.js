@@ -1,1 +1,0 @@
-function myObject(data) {\n  var myData = data;\n}\n\nmyObject.prototype.doSomething = function () {\n  alert("I did something!");\n}

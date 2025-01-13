@@ -1,1 +1,0 @@
-def divide(x, y):\n    """\n    Divide x by y and return the quotient and remainder.\n\n    Args:\n        x (int): Dividend\n        y (int): Divisor\n\n    Returns:\n        tuple: (quotient, remainder)\n    """\n    quotient = x / y\n    remainder = x % y\n    return quotient, remainder\n\n(q, r) = divide(22, 7)

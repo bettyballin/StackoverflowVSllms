@@ -1,1 +1,0 @@
--- Example of creating a partition function and scheme\nCREATE PARTITION FUNCTION pf_siteId (INT)\nAS RANGE RIGHT FOR VALUES (001, 002, 003, ..., 999);\n\nCREATE PARTITION SCHEME ps_siteId\nAS PARTITION pf_siteId\nALL TO ('PRIMARY');

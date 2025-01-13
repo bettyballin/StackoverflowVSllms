@@ -1,1 +1,0 @@
-CREATE TABLE Dictionary (\n    WordID INT PRIMARY KEY,\n    Word VARCHAR(50) NOT NULL\n);\n\nINSERT INTO Dictionary (WordID, Word)\nVALUES\n    (1, 'aardvark'),\n    (2, 'abandon'),\n    (3, 'abundance'),\n    (4, 'acorn'),\n    (5, 'acoustic'),\n    -- ... add more words here ...\n    (99999, 'zoo'),\n    (100000, 'zylophone');

@@ -1,1 +1,0 @@
-EXPLAIN SELECT User.* \nFROM User, Address \nWHERE User.addressId = Address.id;\n\nEXPLAIN SELECT User.* \nFROM User \nINNER JOIN Address ON (User.addressId = Address.id);

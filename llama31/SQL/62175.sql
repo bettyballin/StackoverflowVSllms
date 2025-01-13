@@ -1,1 +1,0 @@
-SELECT id, num_things\nFROM (\n  SELECT t1.id,\n         (SELECT COUNT(t2.id)\n          FROM t2\n          WHERE t2.id = t1.id) as num_things\n  FROM t1\n) AS subquery\nWHERE num_things = 5;

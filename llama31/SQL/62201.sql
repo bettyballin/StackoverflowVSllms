@@ -1,1 +1,0 @@
-SELECT \n  p.content, \n  (\n    SELECT COUNT(*) \n    FROM `page-tag` pt \n    WHERE pt.`page-id` = p.id \n    AND pt.`tag-id` IN (1, 3, 8)\n  ) AS tag_count\nFROM page p\nORDER BY tag_count DESC;

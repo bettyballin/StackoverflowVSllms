@@ -1,1 +1,0 @@
-DECLARE @xml XML = '<doc>\n    <a>1</a>\n    <b ba="1" bb="2" bc="3" />\n    <c bd="3"/>\n</doc>'\n\nSELECT DISTINCT\n    attr.value('local-name(.)', 'nvarchar(50)') AS AttributeName\nFROM\n    @xml.nodes('/*/*/@*') AS x(attr)

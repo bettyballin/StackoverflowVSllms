@@ -1,1 +1,0 @@
-<bindings>\n  <wsHttpBinding>\n    <binding name="reliableSessionBinding">\n      <reliableSession enabled="true" inactivityTimeout="00:10:00" />\n    </binding>\n  </wsHttpBinding>\n</bindings>

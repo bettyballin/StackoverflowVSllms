@@ -1,1 +1,0 @@
-SELECT COUNT(DISTINCT student) FROM course_enrolment;

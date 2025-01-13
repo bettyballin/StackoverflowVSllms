@@ -1,1 +1,0 @@
-$ldap = ldap_connect('ldap://your-ad-server.com');\nldap_set_option($ldap, LDAP_OPT_PROTOCOL_VERSION, 3);\nldap_set_option($ldap, LDAP_OPT_REFERRALS, 0);\n$bind = ldap_bind($ldap, 'your-ad-username', 'your-ad-password');\nif ($bind) {\n    $username = ldap_get_entries($ldap, '(&(objectClass=user)(sAMAccountName=' . $_SERVER['REMOTE_ADDR'] . '))');\n    ldap_unbind($ldap);\n}

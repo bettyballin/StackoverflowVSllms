@@ -1,1 +1,0 @@
-Private Sub Button1_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button1.Click\n    Dim selectedText As String = String.Empty\n    For Each cell As DataGridViewCell In DataGridView1.SelectedCells\n        selectedText &= cell.Value.ToString() & Environment.NewLine\n    Next\n    TextBox1.Text = selectedText\nEnd Sub

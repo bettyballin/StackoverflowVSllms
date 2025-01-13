@@ -1,1 +1,0 @@
-' Create an instance of your DLL\nDim obj As Object\nSet obj = CreateObject("MyDLL.MyClass")

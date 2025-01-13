@@ -1,1 +1,0 @@
-SELECT DISTINCT ON (Question) Question, Answer, Responses\nFROM mytable\nORDER BY Question, Responses DESC;

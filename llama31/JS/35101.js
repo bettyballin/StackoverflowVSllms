@@ -1,1 +1,0 @@
-function TextOnKeyDown(event)\n{\n    var key = (window.event) ? event.keyCode : event.which;\n    ...\n}

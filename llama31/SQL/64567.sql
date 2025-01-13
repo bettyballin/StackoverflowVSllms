@@ -1,1 +1,0 @@
-SELECT table_name \nFROM information_schema.columns \nWHERE data_type IN ('binary', 'varbinary', 'blob');

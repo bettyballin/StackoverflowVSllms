@@ -1,1 +1,0 @@
-# test_helper.rb or spec_helper.rb\nrequire 'facebooker' if ENV['TEST_FACEBOOKER']\nrequire 'flickraw' if ENV['TEST_FLICKRAW']

@@ -1,1 +1,0 @@
-DECLARE\n  my_obj mybigtype;\n  my_array myarrayoflittletypes;\nBEGIN\n  SELECT REF(S) BULK COLLECT INTO my_array\n  FROM anotherTable S\n  WHERE S.stname = 'dingle' OR S.stname = 'fangle';\n\n  my_obj := mybigtype('foo', 'bar', 'fizzle', my_array);\n\n  INSERT INTO myTable VALUES (my_obj);\nEND;

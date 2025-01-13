@@ -1,1 +1,0 @@
-CREATE PROCEDURE sp_SearchMovies\n    @SearchTerm nvarchar(50)\nAS\nBEGIN\n    DECLARE @SearchTerms table (Term nvarchar(50));\n    INSERT INTO @SearchTerms (Term)\n    SELECT value FROM STRING_SPLIT(@SearchTerm, ' ');\n\n    SELECT TITLE\n    FROM MOVIES\n    WHERE CONTAINS(TITLE, (SELECT Term + '*' FROM @SearchTerms FOR XML PATH('')))\nEND\nGO

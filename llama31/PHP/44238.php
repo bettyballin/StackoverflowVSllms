@@ -1,1 +1,0 @@
-$wordList = array('apple', 'basic', 'cloud', ...); // 300 words\n$randomWord = $wordList[array_rand($wordList)];

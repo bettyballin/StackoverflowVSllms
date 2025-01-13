@@ -1,1 +1,0 @@
-// In your auth.php file\n$token = md5(uniqid());\n$_SESSION['token'] = $token;\n\n// In your JavaScript code\nvar token = '<?php echo $token; ?>';\n// Pass token as a parameter in the upload request\n\n// In your insert.php file\n$token = $_POST['token'];\nif ($token === $_SESSION['token']) {\n    // Authenticate the request\n}

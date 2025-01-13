@@ -1,1 +1,0 @@
-umbers = [1, 2, 3, 4, 5]\ntotal = sum(numbers)\nprint(total)

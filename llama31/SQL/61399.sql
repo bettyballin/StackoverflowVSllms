@@ -1,1 +1,0 @@
-CREATE TABLE users (\n  id INT PRIMARY KEY,\n  name VARCHAR(255),\n  email VARCHAR(255)\n);\n\nINSERT INTO users (id, name, email) VALUES (1, 'John', NULL);  // No email address\nINSERT INTO users (id, name, email) VALUES (2, 'Jane', '');  // Empty string as email address

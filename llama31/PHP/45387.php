@@ -1,1 +1,0 @@
-public function sortedPhotogsByLocation($location)\n{\n    $q = Doctrine_Query::create()\n        ->select('p.*')\n        ->from('Photographer p')\n        ->where('p.city_id = ?', $location->id)\n        ->orderBy('CASE WHEN p.lname < :sort THEN 1 ELSE 0 END, p.lname ASC')\n        ->setParameter('sort', $location->photographer_sort);\n\n    return $q->execute();\n}

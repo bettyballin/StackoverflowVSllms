@@ -1,1 +1,0 @@
-// Import React Router\nimport { BrowserRouter, Route, Link } from 'react-router-dom';\n\n// Define a new route\nconst App = () => (\n  <BrowserRouter>\n    <div>\n      <h1>Home</h1>\n      <p>\n        <Link to="/new-state">New State</Link>\n      </p>\n      <Route path="/new-state" component={NewState} />\n    </div>\n  </BrowserRouter>\n);

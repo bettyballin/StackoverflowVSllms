@@ -1,1 +1,0 @@
-USE [YourOLAPDatabaseName]\nGO\n\nIF NOT EXISTS (SELECT * FROM sys.schemas WHERE name = 'DataWarehouseReports')\nBEGIN\n    CREATE SCHEMA DataWarehouseReports\nEND\nGO

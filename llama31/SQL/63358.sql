@@ -1,1 +1,0 @@
-CREATE INDEX idx_page_title ON table1 (page_title);\nCREATE INDEX idx_page_title ON table2 (page_title);

@@ -1,1 +1,0 @@
-SELECT *\nFROM Vehicles\nWHERE (DKID IN (69954))\nORDER BY (CASE WHEN ImageName1 = 'na' THEN 0 ELSE 1 END), Make, Model, Year DESC

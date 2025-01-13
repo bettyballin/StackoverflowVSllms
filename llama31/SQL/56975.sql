@@ -1,1 +1,0 @@
-SELECT /*+ INDEX (my_table my_index) */ * FROM my_table;

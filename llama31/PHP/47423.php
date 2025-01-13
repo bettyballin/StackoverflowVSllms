@@ -1,1 +1,0 @@
-$ra_category_id = 3;\n$ra_category = $wpdb->get_row("SELECT name FROM $wpdb->terms WHERE term_id = '$ra_category_id'");\n$ra_category_name = $ra_category->name;\n\n<h3>Category: <?php echo $ra_category_name; ?></h3>

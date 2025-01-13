@@ -1,1 +1,0 @@
-$formatter = new IntlDateFormatter('es_ES', IntlDateFormatter::NONE, IntlDateFormatter::NONE);\n$formatter->setPattern('dd MMMM, yyyy');\n$date = '2009-04-13'; // retrieved from database\n$displayDate = $formatter->format(new DateTime($date));\necho $displayDate; // outputs: 13 abril, 2009

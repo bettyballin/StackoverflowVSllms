@@ -1,1 +1,0 @@
-SELECT p.*, c.*\nFROM (\n  SELECT DISTINCT p.id\n  FROM posts p\n  LIMIT 10\n) AS sub\nJOIN posts p ON sub.id = p.id\nJOIN post_to_category pc ON p.id = pc.post_id\nJOIN categories c ON pc.category_id = c.id;

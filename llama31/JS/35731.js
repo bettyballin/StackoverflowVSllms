@@ -1,1 +1,0 @@
-$.ajax({\n  type: 'POST',\n  url: '/my/service',\n  data: { date: '2023-03-01' },\n  success: function(data) {\n    // Update your UI with the received data\n  }\n});

@@ -1,1 +1,0 @@
-if ($this->logger->isDebug()) {\n    $this->logMessage('Expensive operation return value: '.expensiveFunction(), 'debug');\n}

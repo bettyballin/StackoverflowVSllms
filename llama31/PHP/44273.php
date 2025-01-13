@@ -1,1 +1,0 @@
-$queryParams = $this->getRequest()->getQuery();\n$maxResults = $queryParams['max_results'];\n$startIndex = $queryParams['start_index'];

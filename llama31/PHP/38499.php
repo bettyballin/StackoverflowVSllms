@@ -1,1 +1,0 @@
-class Entity {\n    private $_modified = false;\n\n    public function __set($name, $value) {\n        $this->$name = $value;\n        $this->_modified = true;\n    }\n\n    public function isModified() {\n        return $this->_modified;\n    }\n}

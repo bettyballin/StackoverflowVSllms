@@ -1,1 +1,0 @@
-<system.serviceModel>\n  <client>\n    <endpoint address="net.tcp://localhost:8080/BusinessLogicService"\n              binding="netTcpBinding"\n              contract="IBusinessLogicService" />\n  </client>\n</system.serviceModel>

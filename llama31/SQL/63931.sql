@@ -1,1 +1,0 @@
-CREATE TABLE countries (\n  id INT PRIMARY KEY,\n  code CHAR(2) NOT NULL,  -- fixed-length country code\n  name VARCHAR(50) NOT NULL\n);

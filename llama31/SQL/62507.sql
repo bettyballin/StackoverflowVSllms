@@ -1,1 +1,0 @@
-CREATE TABLE team (\n  teamid CHAR(3) PRIMARY KEY,\n  teamname VARCHAR(50) NOT NULL\n);

@@ -1,1 +1,0 @@
-import mpmath as mp\n\ndef hypergeometric_3F2(a, b, c, d):\n    """\n    Evaluate the hypergeometric function 3F2(a, b, 1; c, d; 1)\n    """\n    mp.dps = 50  # set decimal precision\n    return mp.hyper([a, b, 1], [c, d], 1)\n\n# Example usage:\na = 2.5\nb = 3.7\nc = 4.2\nd = 5.1\n\nresult = hypergeometric_3F2(a, b, c, d)\nprint(result)

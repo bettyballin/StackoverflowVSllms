@@ -1,1 +1,0 @@
-header('Location: ' . $_SERVER['PHP_SELF']);\nexit;

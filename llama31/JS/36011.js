@@ -1,1 +1,0 @@
-$.ajax({\n  type: 'GET',\n  url: '/ajax/ldap_search.php',\n  data: { cn: $('#username').val() },\n  dataType: 'xml',\n  cache: false,\n  success: function(xml) {\n    $('#ajax-context').html($('display', xml).text());\n    $('#context').val($('context', xml).text());\n  }\n});

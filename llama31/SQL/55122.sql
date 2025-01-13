@@ -1,1 +1,0 @@
-declare @firstId int\ndeclare @lastId int\n\nset @firstId = 5461094\nset @lastId = 5461097\n\n...\nWHERE id BETWEEN @firstId and @lastId\nOPTION (OPTIMIZE FOR (@firstId = 5461094, @lastId = 5461097))

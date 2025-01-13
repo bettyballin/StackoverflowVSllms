@@ -1,1 +1,0 @@
-$.ajax({\n  type: 'POST',\n  url: '/TestWebService/TestWebService.asmx',\n  data: data\n})\n.done(function(data) {\n  // Request was successful\n})\n.fail(function(xhr, status, error) {\n  // An error occurred, handle it\n  console.error('Error:', error);\n});

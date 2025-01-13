@@ -1,1 +1,0 @@
-$mysqli = new mysqli('localhost', 'username', 'password', 'database');\n\n$string = "Hello, ' world";\n\n$escaped_string = $mysqli->real_escape_string($string);\necho $escaped_string; // Output: Hello, \' world\n\n$unescaped_string = $mysqli->real_unescape_string($escaped_string);\necho $unescaped_string; // Output: Hello, ' world

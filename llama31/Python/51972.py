@@ -1,1 +1,0 @@
-def experiment_with_chatbot_training_data(data, hypotheses):\n    # Experiment with data to test different hypotheses\n    experimental_results = experiment_with_data(data, hypotheses)\n    return experimental_results

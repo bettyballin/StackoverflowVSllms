@@ -1,1 +1,0 @@
-$ch = curl_init('https://subdomain.a/secure.xml');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_USERPWD, 'username:password');\ncurl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);\n$response = curl_exec($ch);\ncurl_close($ch);\n\n$xml = simplexml_load_string($response);\n// use the $xml object to parse the XML data

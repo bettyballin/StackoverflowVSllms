@@ -1,1 +1,0 @@
-function substr_word($str, $start, $length) {\n    $substr = substr($str, $start, $length);\n    $last_space = strrpos($substr, ' ');\n    if ($last_space !== false) {\n        return substr($str, $start, $last_space + 1);\n    } else {\n        return $substr;\n    }\n}\n\n$body = "Your text here";\necho substr_word($body, 0, 260);

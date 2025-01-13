@@ -1,1 +1,0 @@
-$(window).load(function() {\n  console.log( $('#ixd') );\n  console.log( $("input[name='ixd']") );\n});

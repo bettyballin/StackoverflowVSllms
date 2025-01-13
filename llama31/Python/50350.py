@@ -1,1 +1,0 @@
-# Example User Agent verification using Python\nimport requests\n\ndef verify_user_agent(request):\n    legitimate_uas = ["Googlebot", "bingbot", "Slurp"]\n    ua = request.headers.get("User-Agent")\n    if ua in legitimate_uas:\n        return True\n    return False

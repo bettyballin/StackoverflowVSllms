@@ -1,1 +1,0 @@
-for p in Prs:\n    print(p.PrName, p.PrCompany.ComName)

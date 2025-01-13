@@ -1,1 +1,0 @@
-$pattern = '/<div class="articleTitle">(.*?)<\/div>/s';

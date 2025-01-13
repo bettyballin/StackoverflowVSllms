@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  const $box = $('#myBox');\n\n  $(window).on('resize', function() {\n    $box.css({\n      width: `${$(window).width() * 0.5}px`, // 50% of the window width\n      height: `${$(window).height() * 0.3}px` // 30% of the window height\n    });\n  });\n\n  // Trigger the resize event on load\n  $(window).trigger('resize');\n});

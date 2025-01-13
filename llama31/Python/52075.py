@@ -1,1 +1,0 @@
-__package__ = 'simulations.life'

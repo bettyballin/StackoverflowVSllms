@@ -1,1 +1,0 @@
-WITH duplicates AS (\n  SELECT Name, Date,\n         ROW_NUMBER() OVER (PARTITION BY Name ORDER BY Date DESC) as rn\n  FROM your_table\n)\nDELETE FROM duplicates\nWHERE rn > 1;

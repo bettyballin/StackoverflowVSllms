@@ -1,1 +1,0 @@
-$url = 'http://power-coder.net/Test/something.php?id=3#Page1';\n$parsed_url = parse_url($url);\n$hash = $parsed_url['fragment'];

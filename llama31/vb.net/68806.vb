@@ -1,1 +1,0 @@
-Imports NAudio.Wave\n\nModule Module1\n    Sub Main()\n        Dim filePath As String = "path_to_your_wav_file.wav"\n        Dim audioFileReader As New AudioFileReader(filePath)\n        Dim duration As TimeSpan = audioFileReader.TotalTime\n\n        Console.WriteLine("Duration: " & duration.ToString)\n    End Sub\nEnd Module

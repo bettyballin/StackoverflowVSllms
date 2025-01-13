@@ -1,1 +1,0 @@
-text_items = ["Hello", "World", " Foo|Bar "]\ndelimiter = "|"\ncombined_string = delimiter.join(text_items)\nprint(combined_string)  # Output: "Hello|World| Foo|Bar "

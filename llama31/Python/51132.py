@@ -1,1 +1,0 @@
-def get_unread_counts(user_id):\n    return unread_counts[user_id]

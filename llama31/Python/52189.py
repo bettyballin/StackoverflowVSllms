@@ -1,1 +1,0 @@
-a = []\na.append(1)\na.append(2)\n\na.clear()

@@ -1,1 +1,0 @@
-<connectionStrings>\n    <add name="MyContextSqlServer" connectionString="Data Source=myserver;Initial Catalog=mydatabase;Integrated Security=True;" providerName="System.Data.SqlClient" />\n    <add name="MyContextOracle" connectionString="Data Source=myoracle;User ID=myuser;Password=mypassword;" providerName="Oracle.ManagedDataAccess.Client" />\n</connectionStrings>

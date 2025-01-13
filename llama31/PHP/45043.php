@@ -1,1 +1,0 @@
-function index(){\n    $this->output->set_charset('UTF-8');\n    $this->load->view('french/header_view');\n    $this->load->view('french/homepage_view');\n    $this->load->view('french/footer_view');\n}

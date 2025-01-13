@@ -1,1 +1,0 @@
--- Check table permissions\nSELECT * FROM pg_permissions WHERE tablename = 'uvusers';\n\n-- Check schema permissions\nSELECT * FROM pg_permissions WHERE schemaname = 'public';

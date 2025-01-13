@@ -1,1 +1,0 @@
-SELECT TOP 2 *\nFROM YourTable\nWHERE YourLinkField = [ParentReportLinkField]\nORDER BY YourSortField

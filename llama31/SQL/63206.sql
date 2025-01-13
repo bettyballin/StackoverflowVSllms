@@ -1,1 +1,0 @@
-SELECT \n  LAG(id) OVER (ORDER BY id) AS prev_id,\n  id AS current_id,\n  LEAD(id) OVER (ORDER BY id) AS next_id\nFROM \n  your_table\nWHERE \n  id = ?;

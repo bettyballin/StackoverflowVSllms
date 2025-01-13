@@ -1,1 +1,0 @@
-<membership>\n  <providers>\n    <add name="SqlMembershipProvider" type="System.Web.Security.SqlMembershipProvider" connectionStringName="SqlConn" />\n    <add name="ActiveDirectoryMembershipProvider" type="System.Web.Security.ActiveDirectoryMembershipProvider" connectionStringName="ADConn" />\n  </providers>\n</membership>

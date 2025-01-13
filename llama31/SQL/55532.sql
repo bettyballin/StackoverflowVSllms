@@ -1,1 +1,0 @@
-DECLARE @nRecords INT = DATEDIFF(d,'2009-01-01',getdate())\n\nCREATE TABLE #Numbers (Number INT PRIMARY KEY)\n\nINSERT INTO #Numbers (Number)\nSELECT TOP (@nRecords) ROW_NUMBER() OVER (ORDER BY t1.object_id)\nFROM master.sys.all_columns t1\nCROSS JOIN master.sys.all_columns t2\n\nINSERT INTO YourTable (identity, column2, column3)\nSELECT Number, 0, 1\nFROM #Numbers

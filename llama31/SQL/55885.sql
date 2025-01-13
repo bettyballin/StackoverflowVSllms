@@ -1,1 +1,0 @@
-to_char(date_updated, 'YYYY-MM-DD"T"HH24:MI:SS')

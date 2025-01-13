@@ -1,1 +1,0 @@
-SELECT CONCAT('INSERT INTO `', table_name, '` (',\n               GROUP_CONCAT(COLUMN_NAME), ') VALUES (',\n               GROUP_CONCAT(QUOTE(COLUMN_VALUE)), ');')\nFROM information_schema.COLUMNS\nWHERE TABLE_NAME = 'table_name'\nGROUP BY TABLE_NAME;

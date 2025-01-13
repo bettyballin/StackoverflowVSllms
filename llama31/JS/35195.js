@@ -1,1 +1,0 @@
-<script>\n  /* <![CDATA[\n    // this is a "comment" inside a script\n    // you can put anything here, including HTML tags\n  ]]> */\n</script>

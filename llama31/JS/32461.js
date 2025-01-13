@@ -1,1 +1,0 @@
-const inputBox = document.querySelector('.timebox');\nconst inputBanner = document.querySelector('.someclass');\n\ninputBox.addEventListener('focus', () => {\n  inputBanner.style.display = 'block';\n});\n\ninputBox.addEventListener('blur', () => {\n  inputBanner.style.display = 'none';\n});

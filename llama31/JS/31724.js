@@ -1,1 +1,0 @@
-const cloneButton = document.getElementById('clone-button');\n\ncloneButton.addEventListener('click', () => {\n  const clonedRow = rowToClone.cloneNode(true);\n  table.tBodies[0].appendChild(clonedRow);\n});

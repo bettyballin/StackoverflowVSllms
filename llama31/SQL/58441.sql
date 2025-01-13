@@ -1,1 +1,0 @@
-CREATE INDEX idx_bigbigtable ON bigbigtable (category, element_id, date_updated);

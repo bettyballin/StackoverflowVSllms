@@ -1,1 +1,0 @@
-class User {\n  constructor(name, email) {\n    this.name = name;\n    this.email = email;\n  }\n\n  isValid() {\n    if (!this.name || !this.email) {\n      return false;\n    }\n    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;\n    return emailRegex.test(this.email);\n  }\n}

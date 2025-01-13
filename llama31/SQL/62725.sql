@@ -1,1 +1,0 @@
-SELECT * FROM MyTable\nOPTION (MAXDOP 4); -- execute query using 4 CPU cores

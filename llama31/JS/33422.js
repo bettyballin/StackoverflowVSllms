@@ -1,1 +1,0 @@
-const obj = { foo: 'bar', baz: { qux: 'quux' } };\nfor (const prop in obj) {\n  console.log(`${prop}: ${obj[prop]}`);\n}

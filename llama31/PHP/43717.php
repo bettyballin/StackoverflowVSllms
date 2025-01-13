@@ -1,1 +1,0 @@
-use GuzzleHttp\Client;\n$client = new Client();\n$url = urldecode($object_list_url);\n$response = $client->get($url);\n$xmlstr = $response->getBody()->getContents();\n$obj = new SimpleXMLElement($xmlstr, LIBXML_NOCDATA);

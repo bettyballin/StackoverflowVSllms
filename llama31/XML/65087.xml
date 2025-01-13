@@ -1,1 +1,0 @@
-<changeSet id="1" author="your_name">\n  <createTable tableName="new_table">\n    <column name="id" type="int">\n      <constraints primaryKey="true" nullable="false"/>\n    </column>\n    <column name="name" type="varchar(255)"/>\n  </createTable>\n</changeSet>

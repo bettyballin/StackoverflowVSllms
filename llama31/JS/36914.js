@@ -1,1 +1,0 @@
-var source = new Ext.dd.DragSource("source", {\n    ddGroup: "myDDGroup"\n});\n\nvar target = new Ext.dd.DropTarget("target", {\n    ddGroup: "myDDGroup"\n});\n\n// Add event handlers for drag-and-drop\nsource.on("dragdrop", function(source, e) {\n    console.log("Dropped!");\n});

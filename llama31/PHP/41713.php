@@ -1,1 +1,0 @@
-$myString = "foo 123 bar 456.78 baz";\n$pattern = '/\d+(?:\.\d+)?/';\n\npreg_match_all($pattern, $myString, $matches);\nprint_r($matches[0]);\n// outputs: Array ( [0] => 123 [1] => 456.78 )

@@ -1,1 +1,0 @@
-function attachMoreEvent() {\n    $("#more").click(function(){\n        $("#morediv").slideToggle("slow");\n        return false;\n    });\n}\n\n$(document).ready(attachMoreEvent);

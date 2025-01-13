@@ -1,1 +1,0 @@
-$tokenizer = new Tokenizer();\n$words = $tokenizer->tokenize($postContent);

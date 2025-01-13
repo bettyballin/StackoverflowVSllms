@@ -1,1 +1,0 @@
-CREATE TABLE employees (\n  id INT PRIMARY KEY,\n  name VARCHAR(255),\n  department VARCHAR(255)\n);\n\nCREATE INDEX idx_department ON employees (department);

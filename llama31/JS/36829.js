@@ -1,1 +1,0 @@
-$.jmsajax({\n    type: "POST",\n    url: "Services/MyServices.asmx",\n    data: { uname: $uname },\n    method: "check_username",\n    dataType: "msjson",\n    contentType: "application/json; charset=utf-8",\n    success: function(result) {\n        $("#msg").html(result);\n        alert(result);\n        $("#msg").addClass("notice");\n    }\n});

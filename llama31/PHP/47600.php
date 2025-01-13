@@ -1,1 +1,0 @@
-// In your PHP file (myajaxform.php)\n<script>\n    var ajaxUrl = '<?= $_SERVER['PHP_SELF'] ?>';\n</script>

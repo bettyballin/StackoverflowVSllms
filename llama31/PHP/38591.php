@@ -1,1 +1,0 @@
-$xml = new DOMDocument();\n$xml->loadXML($xmlString);\n\n$node = $xml->getElementsByTagName('node')->item(0);\necho (string) $node; // auto-converts to string

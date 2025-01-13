@@ -1,1 +1,0 @@
-#Disable Warning BC40000 ' Type or member is obsolete\n\nPublic Sub MyMethod()\n    ' Your code here\nEnd Sub\n\n#Enable Warning BC40000

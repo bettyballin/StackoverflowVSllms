@@ -1,1 +1,0 @@
-require 'terminal-table'\n\ntable = Terminal::Table.new headings: ['Column 1', 'Column 2'], rows: [[text, '']]\nputs table

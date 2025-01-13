@@ -1,1 +1,0 @@
-' MyVB6Module.bas (continued)\nSub Main()\n    MyCSharpMethod\nEnd Sub

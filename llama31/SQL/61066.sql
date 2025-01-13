@@ -1,1 +1,0 @@
-SELECT '<?xml version="1.0" encoding="utf-8"?>' + \n       (SELECT * FROM YourTable FOR XML AUTO, ROOT('YourRoot'))

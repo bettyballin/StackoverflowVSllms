@@ -1,1 +1,0 @@
-DELIMITER //\nCREATE PROCEDURE myProc()\nBEGIN\n  DECLARE myVar INT;\n  SET myVar = 10;\n  SELECT myVar;\nEND//\nDELIMITER ;\nCALL myProc();

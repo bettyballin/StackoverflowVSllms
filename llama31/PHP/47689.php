@@ -1,1 +1,0 @@
-function cleanup() {\n    // clean up after yourself\n}\n\nregister_shutdown_function('cleanup');\n\ntry {\n    // do something\n} catch (Exception $ex) {\n    // handle an error\n}

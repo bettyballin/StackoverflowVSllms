@@ -1,1 +1,0 @@
-SELECT s.sid, s.serial#, t.xidusn, t.xidslt, t.xidsqn\nFROM V$SESSION s\nJOIN V$TRANSACTION t ON s.saddr = t.ses_addr\nWHERE s.sid = <session_id>;

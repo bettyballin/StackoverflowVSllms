@@ -1,1 +1,0 @@
-import numpy as np\n\nvector1 = np.array([2, 2, 2])\nvector2 = np.array([1, 1, 1])\n\nresult = vector1 - vector2\nprint(result)  # Output: [1 1 1]

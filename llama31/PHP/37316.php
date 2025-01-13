@@ -1,1 +1,0 @@
-if (strpos($_SERVER['REQUEST_URI'], '/blah1/blah2') === 0) {\n    // Redirect to https://www.example.com/blah1/blah2\n    header('Location: https://www.example.com/blah1/blah2?token='.$token);\n    exit;\n}

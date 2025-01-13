@@ -1,1 +1,0 @@
-interface WidgetInterface\n{\n    public function run();\n}

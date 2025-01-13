@@ -1,1 +1,0 @@
-<?php\nerror_reporting(E_ALL);\nini_set('display_errors', 1);\n\necho 'START START START';\n\n// comment out the rest of the code for now\n/*\nerror_reporting(E_ALL);\n// ... rest of the code ...\n*/

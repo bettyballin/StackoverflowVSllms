@@ -1,1 +1,0 @@
-$.ajaxSetup({\n  contentType: 'application/json; charset=ISO-8859-1'\n});

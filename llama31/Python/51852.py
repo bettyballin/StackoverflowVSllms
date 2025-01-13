@@ -1,1 +1,0 @@
-def group_by(data, key):\n    groups = {}\n    for row in data:\n        k = row[key]\n        if k not in groups:\n            groups[k] = []\n        groups[k].append(row)\n    return groups

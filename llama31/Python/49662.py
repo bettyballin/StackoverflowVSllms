@@ -1,1 +1,0 @@
-foo = 'what'\nbar = 'ever'\n\n# equivalent to compact('foo', 'bar')\ncompact_dict = {k: v for k, v in locals().items() if k in ['foo', 'bar']}\n\nprint(compact_dict['foo'])  # what\n\n# equivalent to extract(compact_dict)\nlocals().update(compact_dict)\ncompact_dict['baz'] = 'another'\nlocals().update(compact_dict)\n\nprint(baz)  # another

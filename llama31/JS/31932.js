@@ -1,1 +1,0 @@
-<script>\n  function resizeIframe() {\n    var docHeight = document.body.scrollHeight;\n    parent.postMessage({ type: 'resize', height: docHeight }, '*');\n  }\n\n  window.addEventListener('load', resizeIframe);\n  window.addEventListener('resize', resizeIframe);\n</script>

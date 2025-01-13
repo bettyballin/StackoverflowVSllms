@@ -1,1 +1,0 @@
-Public Shared Function Map(serviceLocation As ServiceLocation) As MyLocation\n    Dim myLocation As New MyLocation\n    myLocation.Id = serviceLocation.Id\n    myLocation.Name = serviceLocation.Name\n    myLocation.Address = serviceLocation.Address\n    Return myLocation\nEnd Functio

@@ -1,1 +1,0 @@
-import shelve\n\n# Create a new shelf\ndb = shelve.open('my_data')\n\n# Store some data\ndb['key1'] = {'name': 'John', 'age': 30}\ndb['key2'] = {'name': 'Jane', 'age': 25}\n\n# Close the shelf\ndb.close()\n\n# Later, reopen the shelf and access data\ndb = shelve.open('my_data')\nprint(db['key1'])  # {'name': 'John', 'age': 30}

@@ -1,1 +1,0 @@
-// Using Bootstrap Modal\n$('#column-selector').modal({\n    show: false\n});\n\nfunction showColumnSelector() {\n    $('#column-selector').modal('show');\n}

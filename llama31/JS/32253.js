@@ -1,1 +1,0 @@
-$.ajax({\n  url: URL,\n  cache: false,\n  success: function(data) {\n    $("#dialogContainer").html(data);\n  }\n});

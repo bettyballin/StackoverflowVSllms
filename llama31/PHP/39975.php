@@ -1,1 +1,0 @@
-<head>\n    <?php echo $this->headStyle(); ?>\n</head>

@@ -1,1 +1,0 @@
-<?=View::factory('embed')->set($vars)->output($vars)?>

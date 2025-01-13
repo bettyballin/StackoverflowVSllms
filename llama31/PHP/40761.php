@@ -1,1 +1,0 @@
-$searches = [...]; // your array\n\nforeach ($searches as $index => $value) {\n    foreach (array_keys($value) as $part) {\n        echo "Index: $index, Part: $part, Value: " . $value[$part] . "\n";\n    }\n}

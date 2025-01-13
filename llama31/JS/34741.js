@@ -1,1 +1,0 @@
-setTimeout(function() {\n  // do nothing, just trigger a repaint\n}, 0);

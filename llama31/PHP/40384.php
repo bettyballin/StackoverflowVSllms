@@ -1,1 +1,0 @@
-#!/usr/bin/php\n<?php\n// Load Zend Framework's autoloader\nrequire_once 'vendor/autoload.php';\n\n// Use Zend Framework's Filesystem component to clean up tmp directory\nuse Zend\Filesystem\Filesystem;\n\n$filesystem = new Filesystem();\n$filesystem->removeRecursive('tmp');

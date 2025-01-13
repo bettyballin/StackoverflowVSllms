@@ -1,1 +1,0 @@
-function myAlert() {\n  alert('magic!!!');\n  return 'hello';\n}\n\nconsole.log(myAlert); // function myAlert() { ... }\nconsole.log(myAlert()); // 'hello'

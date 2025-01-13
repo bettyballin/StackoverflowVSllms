@@ -1,1 +1,0 @@
-CREATE TABLE ProductProperties (\n  ProductId INT NOT NULL,\n  PropertyId INT NOT NULL,\n  Value VARCHAR(MAX) NOT NULL,  -- or use a separate column for each data type\n  FOREIGN KEY (ProductId) REFERENCES Products(ProductId),\n  FOREIGN KEY (PropertyId) REFERENCES Properties(PropertyId)\n)

@@ -1,1 +1,0 @@
-SELECT * \nFROM [MainDB].[dbo].[Company] \nWHERE [CompanyName] = 'StackOverflow'

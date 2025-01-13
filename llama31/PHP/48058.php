@@ -1,1 +1,0 @@
-// autoload.php\nspl_autoload_register(function ($class) {\n    $file = __DIR__ . '/' . str_replace('\\', '/', $class) . '.php';\n    if (file_exists($file)) {\n        require $file;\n    }\n});\n\n// MyClass.php\nnamespace MyNamespace;\n\nclass MyClass {\n    // ...\n}\n\n// usage\nrequire 'autoload.php';\nuse MyNamespace\MyClass;\n\n$obj = new MyClass();

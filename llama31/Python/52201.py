@@ -1,1 +1,0 @@
-import clr\nimport System\n\n# Load the COM DLL\nclr.AddReference("YourComDllName")\n\n# Get the COM wrapper\ncom_wrapper = clr.GetClrType(System.Type.GetTypeFromProgID("YourComDllName.YourClassName"))\n\n# Create an instance of the COM class\nobj = com_wrapper.CreateInstance()\n\n# Call a method on the COM object\nobj.YourMethodName()

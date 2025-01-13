@@ -1,1 +1,0 @@
-var searchText = "I am a simple string";\nvar foundElements = $('*').filter(function() {\n  return $(this).text().toLowerCase().indexOf(searchText.toLowerCase()) !== -1;\n});\n\n// do something with the found elements\nfoundElements.css('background-color', 'yellow');

@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <handlers>\n      <add name="App_Data" path="App_Data/*" verb="*" type="System.Web.HttpForbiddenHandler" />\n    </handlers>\n  </system.web>\n</configuration>

@@ -1,1 +1,0 @@
--- Example stored procedure\nCREATE PROCEDURE dbo.MyStoredProcedure\nAS\nBEGIN\n    -- Your stored procedure code here\nEND\nGO

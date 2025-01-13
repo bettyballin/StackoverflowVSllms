@@ -1,1 +1,0 @@
-CREATE VIEW [dbo].[v_ReportInvoiceClientsThisMonth]\nAS\nSELECT * FROM OPENROWSET('SQLNCLI', 'Server=(local);Trusted_Connection=yes;',\n    'EXEC [dbo].[GetInvoiceClients] @startDate = ''2009-03-01'', @endDate = ''2009-04-01''')

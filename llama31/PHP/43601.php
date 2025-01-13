@@ -1,1 +1,0 @@
-include 'path/to/your/index.php';\nexit; // Make sure to stop execution after including the file

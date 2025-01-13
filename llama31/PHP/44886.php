@@ -1,1 +1,0 @@
-function foo() {\n    $args = func_get_args();\n    foreach ($args as $i => $arg) {\n        doSomethingWith($arg, $i + 1);\n    }\n}

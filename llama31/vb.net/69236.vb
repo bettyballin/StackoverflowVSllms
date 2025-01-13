@@ -1,1 +1,0 @@
-Public Function Blah(Of T As {String, IInterface})(Foo As T)\n    ' code here\nEnd Functio

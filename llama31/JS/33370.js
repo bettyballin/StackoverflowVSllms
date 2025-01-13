@@ -1,1 +1,0 @@
-$.ajaxPrefilter(function(options, originalOptions, jqXHR) {\n  if (options.url === "http://csewebprod/cgi-bin/broker") {\n    options.url += "?" + $.param(originalOptions.data);\n  }\n});

@@ -1,1 +1,0 @@
-$filenameext = pathinfo($_FILES['image']['name'], PATHINFO_EXTENSION);

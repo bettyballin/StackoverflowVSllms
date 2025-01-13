@@ -1,1 +1,0 @@
-ew Autocompleter.Local('my_input', 'my_div', {\n  minChars: 2, // default is 3\n  frequency: 0.5 // default is 1\n}, myData);

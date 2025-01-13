@@ -1,1 +1,0 @@
-$sqlArray = // your associative array from Zend_Table_Abstract->fetchAll();\n$indexedArray = array_values($sqlArray);\n$json = json_encode($indexedArray);\necho $json;

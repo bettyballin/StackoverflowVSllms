@@ -1,1 +1,0 @@
-$url = 'http://rss.news.yahoo.com/rss/topstories';\n\n$xml = file_get_contents($url);\n\n// If you want to pretty-print the XML\n$dom = new DOMDocument();\n$dom->loadXML($xml);\n$dom->formatOutput = true;\necho $dom->saveXML();\n\n// Or simply echo the XML\necho $xml;

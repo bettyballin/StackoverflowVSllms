@@ -1,1 +1,0 @@
-CREATE PROCEDURE hd_invoice_select (@id INT)\nAS\nBEGIN\n    WITH InvoiceData AS (\n        SELECT * FROM Invoice WHERE InvoiceID = @id\n    )\n    SELECT * FROM InvoiceData\n    SELECT * FROM InvoiceItem WHERE InvoiceID IN (SELECT InvoiceID FROM InvoiceData)\n    SELECT * FROM InvoiceComments WHERE InvoiceID IN (SELECT InvoiceID FROM InvoiceData)\n    RETURN\nEND\nGO

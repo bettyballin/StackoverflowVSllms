@@ -1,1 +1,0 @@
-SELECT *\nFROM messages\nWHERE messageTime >= CURRENT_TIMESTAMP - INTERVAL '1 day';

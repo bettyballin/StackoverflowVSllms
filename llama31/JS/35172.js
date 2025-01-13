@@ -1,1 +1,0 @@
-<script src="constants.json"></script>\n<script>\n  console.log(constants.RESOURCE_TYPE_REGSITER); // Outputs: 2\n</script>

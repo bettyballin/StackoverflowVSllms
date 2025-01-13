@@ -1,1 +1,0 @@
-// Set local storage\nlocalStorage.setItem('form_data', JSON.stringify($('form').serializeArray()));\n\n// Retrieve local storage on the confirmation page\nvar form_data = JSON.parse(localStorage.getItem('form_data'));

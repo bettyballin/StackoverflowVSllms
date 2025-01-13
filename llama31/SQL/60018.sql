@@ -1,1 +1,0 @@
-CREATE INDEX idx_slug ON posts (slug);

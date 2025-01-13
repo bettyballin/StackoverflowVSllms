@@ -1,1 +1,0 @@
-$xml = new DOMDocument();\n$xml->load('file.xml');\n$entries = $xml->getElementsByTagName('entry');\n\nforeach ($entries as $entry) {\n    echo $xml->saveHTML($entry);\n}

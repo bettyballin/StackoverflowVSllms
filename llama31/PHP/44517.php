@@ -1,1 +1,0 @@
-<?php\nexec('sudo service tomcat restart');\n?>

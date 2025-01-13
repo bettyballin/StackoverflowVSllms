@@ -1,1 +1,0 @@
-DECLARE @myTableVariable TABLE (id INT, name VARCHAR(50));\nINSERT INTO @myTableVariable (id, name) VALUES (1, 'John'), (2, 'Jane');\nSELECT * FROM @myTableVariable;

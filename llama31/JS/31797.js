@@ -1,1 +1,0 @@
-container.innerHTML = content;\nwindow.scrollTo(0, 0);

@@ -1,1 +1,0 @@
-# Create a list of 3 references to the same inner list\na = [[0] * 3] * 3\nprint(id(a[0]), id(a[1]), id(a[2]))  # prints the same id three times\n\n# Create a list with a single inner list\nb = [[0] * 3]\nprint(id(b[0]))  # prints a unique id

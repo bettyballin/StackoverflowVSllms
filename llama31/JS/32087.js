@@ -1,1 +1,0 @@
-var bdydivWidth = winWdth - bdydivLft - parseInt(bdydiv.style.paddingLeft) - parseInt(bdydiv.style.borderLeftWidth);\nbdydiv.style.width = bdydivWidth + "px";\ncoldiv.style.width = bdydivWidth + "px";

@@ -1,1 +1,0 @@
-$data = array(\n    'foo' => 'bar',\n    'baz' => array('qux', 'quux')\n);\n\n$file = 'example.txt';\nfile_put_contents($file, serialize($data));

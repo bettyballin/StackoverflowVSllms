@@ -1,1 +1,0 @@
-console.log(document.getElementById("textbox").style.display = 'none');\nconsole.log(parseFloat("33.33"));

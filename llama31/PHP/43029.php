@@ -1,1 +1,0 @@
-$session = new Zend_Session();\n$session->setOptions(array('use_trans_sid' => true, 'trans_sid_tags' => 'token=a-zA-Z0-9'));\n$session->start();

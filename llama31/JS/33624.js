@@ -1,1 +1,0 @@
-swfobject.embedSWF("your_swf_file.swf", "your_swf_container", "100%", "100%", "9.0.0");\n\n// Get a reference to the embedded SWF object\nvar swf = swfobject.getObjectById("your_swf_container");\n\n// Resize the SWF object\nswf.style.width = "500px";\nswf.style.height = "300px";

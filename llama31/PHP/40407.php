@@ -1,1 +1,0 @@
-$arr = ORM::factory('product_shoppingcart')\n    ->where('shoppingcart_id', '=', $shoppingcartID)\n    ->find_all();

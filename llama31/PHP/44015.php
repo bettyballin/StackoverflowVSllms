@@ -1,1 +1,0 @@
-function __autoload($class) {\n    $path = str_replace('_', '/', $class);\n    require_once $path . '.php';\n}

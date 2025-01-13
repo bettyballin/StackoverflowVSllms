@@ -1,1 +1,0 @@
-import pytz\nfrom datetime import datetime\n\ndt = datetime.strptime("2009-06-16", "%Y-%m-%d")\ndt_utc = pytz.utc.localize(dt)\ntimestamp = int(dt_utc.timestamp())\n\nprint(timestamp)

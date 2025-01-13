@@ -1,1 +1,0 @@
-from django import forms\n\nclass GameForm(forms.Form):\n    score = forms.IntegerField(min_value=0, max_value=100)

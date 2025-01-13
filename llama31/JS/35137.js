@@ -1,1 +1,0 @@
-function highlightWord(textBox, word) {\n    var text = textBox.html();\n    var regex = new RegExp(word, 'gi');\n    textBox.html(text.replace(regex, '<span style="color: red">' + word + '</span>'));\n}\n\n// Usage:\nvar textBox = $('#myTextBox');\nhighlightWord(textBox, 'highlight');

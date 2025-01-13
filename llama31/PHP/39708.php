@@ -1,1 +1,0 @@
-$fp = fsockopen('http://internal-IP/userTracker.php', 80, $errno, $errstr, 30);\nif ($fp) {\n    fwrite($fp, "GET /userTracker.php?Name=UserName&Page=... HTTP/1.0\r\nHost: internal-IP\r\n\r\n");\n    fclose($fp);\n}

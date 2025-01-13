@@ -1,1 +1,0 @@
-// Intermediate page\nsetTimeout(function() {\n  window.location.href = '/place-order';\n}, 3000); // 3-second delay

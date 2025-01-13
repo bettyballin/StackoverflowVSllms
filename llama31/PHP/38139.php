@@ -1,1 +1,0 @@
-if ($_POST['action'] === 'save') {\n    // Save button was clicked\n} elseif ($_POST['action'] === 'delete') {\n    // Delete button was clicked\n}

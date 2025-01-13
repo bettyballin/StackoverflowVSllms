@@ -1,1 +1,0 @@
-$types = self::$resourcetypes;

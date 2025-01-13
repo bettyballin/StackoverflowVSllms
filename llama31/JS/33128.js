@@ -1,1 +1,0 @@
-/             # delimiter\n  (^|[^\w])   # match either the start of the string (^) or any non-word character ([^\w])\n  (@[\d\w\-]+) # match the @ symbol followed by one or more digits, word characters, or hyphens\n/             # delimiter

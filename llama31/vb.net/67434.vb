@@ -1,1 +1,0 @@
-Imports System.Windows.Forms\n\nDim openFileDialog As New OpenFileDialog()\nopenFileDialog.Filter = "Text files (*.txt)|*.txt"\nopenFileDialog.Title = "Select a file"\n\nIf openFileDialog.ShowDialog() = DialogResult.OK Then\n    Dim filePath As String = openFileDialog.FileName\n    ' Read the file into an array (see below)\nEnd If

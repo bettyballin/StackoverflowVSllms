@@ -1,1 +1,0 @@
-<endpoint address="soap"\n          binding="basicHttpBinding"\n          contract="Employees.Services.IEmployeeService">\n</endpoint>

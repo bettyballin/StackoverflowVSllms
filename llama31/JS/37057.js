@@ -1,1 +1,0 @@
-$.ajax({\n  url: 'textes.html',\n  success: function(data) {\n    $('#right').append($(data).find('#nicolas'));\n    $('#right').append('<hr>');\n    $('#right').append($(data).find('#antoine'));\n  }\n});

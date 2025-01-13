@@ -1,1 +1,0 @@
-import ctypes\n\n# Load the DLL file\ndll = ctypes.CDLL('path/to/your/dll.dll')\n\n# Define the function signature\ndll.your_function.argtypes = [ctypes.c_int, ctypes.c_char_p]\ndll.your_function.restype = ctypes.c_int\n\n# Call the function\nresult = dll.your_function(1, b'hello')\nprint(result)

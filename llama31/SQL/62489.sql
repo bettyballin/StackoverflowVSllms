@@ -1,1 +1,0 @@
-CAST(expression AS data_type)

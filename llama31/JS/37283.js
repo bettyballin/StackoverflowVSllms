@@ -1,1 +1,0 @@
-frames['writer'].addEventListener('load', function() {\n  frames['writer'].document.addEventListener('DOMSubtreeModified', eventHandler, false);\n  frames['writer'].document.addEventListener('selectionchange', eventHandler, false);\n}, false);

@@ -1,1 +1,0 @@
-var flashvars = {\n  width: 800,\n  height: 600,\n  // other parameters...\n};

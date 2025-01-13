@@ -1,1 +1,0 @@
-// Compress data\n$data = 'your large data here';\n$compressed = gzcompress($data, 9); // 9 is the highest compression level\n\n// Send the compressed data over the network\n\n// Receive the compressed data and decompress it\n$decompressed = gzuncompress($compressed);

@@ -1,1 +1,0 @@
-mylist = ['abc','abcdef','abcd']\nlongest = max(mylist, key=len)\n\nfor each in mylist:\n    if condition1:\n        do_something()\n    elif each == longest:\n        do_something_else()

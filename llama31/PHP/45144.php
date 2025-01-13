@@ -1,1 +1,0 @@
-use Zend_Queue_Adapter_Db;\n\n// Create a queue adapter\n$adapter = new Zend_Queue_Adapter_Db($config);\n\n// Create a queue\n$queue = new Zend_Queue($adapter, 'my_queue');\n\n// Add a task to the queue\n$queue->send('my_task');

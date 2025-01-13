@@ -1,1 +1,0 @@
-// Set a flag when the user is about to leave the page\ndocument.addEventListener('mouseleave', function(e) {\n  if (e.clientY < 0) {\n    // Show the survey popup\n    document.getElementById('survey-popup').classList.add('visible');\n  }\n});

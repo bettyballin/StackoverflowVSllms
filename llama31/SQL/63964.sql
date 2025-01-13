@@ -1,1 +1,0 @@
-CREATE VIEW your_view AS\nSELECT donor_id, country_id\nFROM your_table;

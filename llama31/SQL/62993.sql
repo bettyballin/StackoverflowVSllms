@@ -1,1 +1,0 @@
-SELECT \n  name,\n  (3959 * acos(...)) AS distance\nFROM locations\nWHERE active = 1\n  AND lng BETWEEN -71.35368 - 10 / 69.172 AND -71.35368 + 10 / 69.172\n  AND lat BETWEEN 42.290763 - 10 / 69.172 AND 42.290763 + 10 / 69.172\nHAVING distance < 10\nORDER BY distance;

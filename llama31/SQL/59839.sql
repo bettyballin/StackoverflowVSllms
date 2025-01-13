@@ -1,1 +1,0 @@
-SELECT \n  tabx.* AS 'tabx.', \n  taby.* AS 'taby.' \nFROM \n  tabx, \n  taby \nWHERE \n  ...;

@@ -1,1 +1,0 @@
-CREATE TABLE cache_data (\n    cache_id INT PRIMARY KEY,\n    cache_name NVARCHAR(256),\n    cache_event_id INT,\n    cache_creation_date DATETIME,\n    cache_data VARBINARY(MAX)\n);\n\nCREATE NONCLUSTERED INDEX idx_cache_name_event_id\nON cache_data (cache_name, cache_event_id);\n\nCREATE NONCLUSTERED INDEX idx_cache_creation_date\nON cache_data (cache_creation_date);

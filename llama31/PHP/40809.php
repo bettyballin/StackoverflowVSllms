@@ -1,1 +1,0 @@
-$bat_file = 'C:\\path\\to\\file.bat';\n$output = array();\n$return_var = 0;\nexec($bat_file, $output, $return_var);\n\nif ($return_var !== 0) {\n    // Handle the error\n    print("Error executing $bat_file");\n} else {\n    // Handle the success\n    print("Successfully executed $bat_file");\n}

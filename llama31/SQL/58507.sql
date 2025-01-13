@@ -1,1 +1,0 @@
-DECLARE @tblKeyword TABLE (Value VARCHAR(50));\n\nINSERT INTO @tblKeyword (Value)\nVALUES ('warrior'), ('fiend'), ('damage');\n\nSELECT Id, Name, Description\nFROM dbo.Card\nCROSS APPLY STRING_SPLIT(Description, ' ') AS words\nINNER JOIN @tblKeyword ON words.value LIKE '%' + @tblKeyword.Value + '%';

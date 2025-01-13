@@ -1,1 +1,0 @@
-$dbh->setAttribute(PDO::ATTR_MAX_COLUMN_LEN, 4096);

@@ -1,1 +1,0 @@
-<?php\n    echo "It's Yii framework!";\n?>

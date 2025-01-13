@@ -1,1 +1,0 @@
-class MyArray {\n    public array $elements;\n\n    public function __construct() {\n        $this->elements = [];\n    }\n}\n\n/** @var MyInterface[] $myArray->elements */\n$myArray = new MyArray();\n$myArray->elements[] = new MyInterfaceImplementation();

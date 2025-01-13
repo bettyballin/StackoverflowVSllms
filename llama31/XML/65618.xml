@@ -1,1 +1,0 @@
-<!-- tiles.xml -->\n<definition name="common.layout" template="/WEB-INF/jsp/layout.jsp">\n  <put name="header" value="/WEB-INF/jsp/header.jsp"/>\n  <put name="footer" value="/WEB-INF/jsp/footer.jsp"/>\n</definition>

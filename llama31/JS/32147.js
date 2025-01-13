@@ -1,1 +1,0 @@
-document.getElementById("mySelect").selectedIndex = 2; // selects the third option (male)

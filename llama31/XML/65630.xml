@@ -1,1 +1,0 @@
-<bindings>\n  <netTcpBinding>\n    <security mode="Message">\n      <message algorithmSuite="Basic128" clientCredentialType="Windows" />\n    </security>\n  </netTcpBinding>\n</bindings>

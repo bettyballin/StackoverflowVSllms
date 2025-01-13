@@ -1,1 +1,0 @@
-$("#girc-content").load("home.html", function() {\n  $(this).parent().refresh();\n});

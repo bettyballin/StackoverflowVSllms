@@ -1,1 +1,0 @@
-class MyClass\n  def my_method\n    puts "Hello, world!"\n  end\nend

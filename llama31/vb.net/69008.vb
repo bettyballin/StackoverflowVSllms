@@ -1,1 +1,0 @@
-If baseObject.ListOfThings IsNot Nothing Then\n    baseObject.ListOfThings.Sort(New ThingComparer())\nEnd If

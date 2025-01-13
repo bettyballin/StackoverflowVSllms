@@ -1,1 +1,0 @@
-DELETE FROM table_name WHERE id IN (SELECT id FROM temp_table);\nCOMMIT;

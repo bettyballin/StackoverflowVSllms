@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE CIPProjectBudget(\n  p_ActivityCode IN VARCHAR2,\n  p_ExecutionID IN VARCHAR2\n) AS\nBEGIN\n  -- Populate temp tables here\n  INSERT INTO temp_table1...\n  INSERT INTO temp_table2...\n  -- Commit changes explicitly\n  COMMIT;\nEND;

@@ -1,1 +1,0 @@
-DECLARE @Profit decimal(10, 2) = 250.00\n\nSELECT \n    COALESCE(\n        (\n            SELECT TOP 1 Comm\n            FROM CommissionTable\n            WHERE @Profit BETWEEN ProfitStartRange AND ProfitEndRange\n        ),\n        0\n    ) AS Comm

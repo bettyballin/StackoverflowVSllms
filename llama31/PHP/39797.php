@@ -1,1 +1,0 @@
-$dom = new DOMDocument();\n$dom->loadHTML($fcon);\n$xpath = new DOMXPath($dom);\n$comments = $xpath->query("//p[@class='comment' or @class='simplecomment']");\n\nforeach ($comments as $comment) {\n    echo $comment->nodeValue;\n}

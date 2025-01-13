@@ -1,1 +1,0 @@
-Imports System\n\nPublic Function task(value As Object, toType As Type) As Object\n    Return Convert.ChangeType(value, toType)\nEnd Functio

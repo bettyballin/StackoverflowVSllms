@@ -1,1 +1,0 @@
-header('HTTP/1.0 404 Not Found');\ninclude '404.php';\nexit;

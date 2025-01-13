@@ -1,1 +1,0 @@
-const grid = new Grid({\n  dataSource: myData,\n  columns: [\n    { field: 'name', title: 'Name' },\n    { field: 'age', title: 'Age' }\n  ],\n  sortable: true,\n  filterable: true,\n  selectable: true\n});

@@ -1,1 +1,0 @@
-INSERT INTO YourTable (Field1, Field2) VALUES ('Value1', 'Value2');\nSELECT @@IDENTITY AS LastInsertedID;

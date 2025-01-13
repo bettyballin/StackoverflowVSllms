@@ -1,1 +1,0 @@
-$results = get_data_from_db();\n$fp = gzopen($file_name, 'w');\nif ($fp) {\n    foreach ($results as $row) {\n        fputcsv($fp, $row, "\t");\n    }\n    gzclose($fp);\n}

@@ -1,1 +1,0 @@
-import time\nimport hashlib\n\ndef generate_readable_id():\n    timestamp = int(time.time())\n    hash_object = hashlib.sha256(f"{timestamp}".encode())\n    return f"{timestamp}-{hash_object.hexdigest()[:8]}"\n\n# Example output: "1643723900-43a65a2f"

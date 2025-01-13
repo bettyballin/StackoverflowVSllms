@@ -1,1 +1,0 @@
-const obj = { foo: 'bar', baz: { qux: 'quux' } };\nconsole.log(Object.keys(obj)); // logs ["foo", "baz"]\nconsole.log(Object.getOwnPropertyNames(obj)); // logs ["foo", "baz"]

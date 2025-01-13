@@ -1,1 +1,0 @@
-<system.web>\n  <pages>\n    <controls>\n      <add tagPrefix="asp" namespace="System.Web.UI.WebControls" />\n    </controls>\n  </pages>\n</system.web>

@@ -1,1 +1,0 @@
-$m = 1.75; // example height in meters\n\n$inches = round($m * 39.3701); // convert meters to inches\n$feet = floor($inches / 12);\n$inches %= 12; // remainder\n\necho "$feet' $inches\"";

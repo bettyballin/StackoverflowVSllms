@@ -1,1 +1,0 @@
-class ModelA < ApplicationRecord\n  scope :with_all_model_bs, ->(model_b_ids) {\n    joins(:model_bs).where(model_bs: { id: model_b_ids }).group(:id).having("COUNT(DISTINCT model_bs.id) = #{model_b_ids.size}")\n  }\nend

@@ -1,1 +1,0 @@
-function updateScore(element) {\n  $.get('index.php', {'score': '1'}, function(d) {\n    alert('Vote Accepted: ' + d);\n    $(element).text('You Voted!');\n  });\n}

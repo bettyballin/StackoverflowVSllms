@@ -1,1 +1,0 @@
-INSERT INTO Data_Table (column1, column2)\nOUTPUT inserted.id, @new_object_id INTO Link_Table (data_id, object_id)\nSELECT column1, column2\nFROM Data_Table\nWHERE id IN (\n  SELECT data_id\n  FROM Link_Table\n  WHERE object_id = @old_object_id\n)

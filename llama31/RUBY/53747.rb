@@ -1,1 +1,0 @@
-# Install the mediation package if you haven't already\ninstall.packages("mediation")\n\n# Load the mediation package\nlibrary(mediation)

@@ -1,1 +1,0 @@
-$conn = new mysqli($host, $username, $password, $database);\n$conn->set_charset('utf8mb4');\n\n$stmt = $conn->prepare('SELECT * FROM table WHERE column = ?');\n$stmt->bind_param('s', $utf8EncodedString);\n$stmt->execute();

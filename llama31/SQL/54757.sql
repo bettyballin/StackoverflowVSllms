@@ -1,1 +1,0 @@
-ALTER PROCEDURE [dbo].[GetNextSms]\n(\n    @SmsId UNIQUEIDENTIFIER OUTPUT,\n    @SmsContent NVARCHAR(1024) OUTPUT,\n    @ToNumber VARCHAR(50) OUTPUT,\n    @TimeAccepted DATETIME OUTPUT\n)

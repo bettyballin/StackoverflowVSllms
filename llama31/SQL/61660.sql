@@ -1,1 +1,0 @@
-SELECT TO_CHAR(NVL(your_column, 0), 'FM99999.00') FROM your_table;

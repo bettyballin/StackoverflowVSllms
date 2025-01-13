@@ -1,1 +1,0 @@
--- Grant db_ddladmin role\nALTER ROLE [db_ddladmin] ADD MEMBER [YourUsername];\n\n-- Grant SELECT permission on sysdiagrams system view\nGRANT SELECT ON sysdiagrams TO [YourUsername];

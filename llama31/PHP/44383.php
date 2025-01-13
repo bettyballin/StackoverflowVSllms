@@ -1,1 +1,0 @@
-$stmt = $pdo->query("SELECT * FROM table");\n$data = $stmt->fetchAll(PDO::FETCH_ASSOC);\n$json_data = json_encode($data);

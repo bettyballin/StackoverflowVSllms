@@ -1,1 +1,0 @@
-// Define a simple view model\nvar viewModel = {\n  name: ko.observable('John Doe'),\n  email: ko.observable('john.doe@example.com')\n};\n\n// Bind the view model to the HTML\nko.applyBindings(viewModel);\n\n// HTML\n<input data-bind="value: name" />\n<input data-bind="value: email" />

@@ -1,1 +1,0 @@
--- Example of a batch insert\nINSERT INTO your_table (column1, column2)\nVALUES\n    ('value1', 'value2'),\n    ('value3', 'value4'),\n    -- ... 998 more\n    ('value1999', 'value2000');

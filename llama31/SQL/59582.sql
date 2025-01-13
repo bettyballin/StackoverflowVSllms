@@ -1,1 +1,0 @@
-SELECT \n    Area,\n    geography::ConvexHullAggregate(\n        geography::Point(Lat, Long, 4326)\n    ) AS ConvexHullPolygon\nFROM \n    YourTable\nGROUP BY \n    Area

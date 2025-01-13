@@ -1,1 +1,0 @@
-SELECT \n  trx_started\nFROM \n  information_schema.INNODB_TRX\nWHERE \n  trx_state = 'COMMITTED' AND \n  trx_table_name = 'your_table_name';

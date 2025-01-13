@@ -1,1 +1,0 @@
-<a href="javascript:test('01004');">Test it!</a>

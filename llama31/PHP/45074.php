@@ -1,1 +1,0 @@
-$string = "abc fox fox fox ghi xyz";\n$substring = "fox";\n$count = substr_count($string, $substring);\nprint($count);  // Outputs: 3

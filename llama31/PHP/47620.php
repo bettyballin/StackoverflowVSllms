@@ -1,1 +1,0 @@
-interface MyInterface {\n    public static function foo();\n}\n\nclass MyClass implements MyInterface {\n    public static function foo() {}\n}

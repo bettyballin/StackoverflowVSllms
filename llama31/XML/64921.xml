@@ -1,1 +1,0 @@
-<html xmlns:custom="http://your-custom-namespace.com">\n  ...\n  <custom:nonstandardtag>content of non-standard tag</custom:nonstandardtag>

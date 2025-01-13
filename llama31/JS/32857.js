@@ -1,1 +1,0 @@
-var xAmt = $('#xForm' + num).find('#xAmt').val();

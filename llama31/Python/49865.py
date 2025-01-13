@@ -1,1 +1,0 @@
-import numpy as np\n\nA = 1  # lower limit\nB = 3  # mode\nC = 5  # upper limit\n\nrandom_value = np.random.triangular(A, B, C)\n\nprint(random_value)

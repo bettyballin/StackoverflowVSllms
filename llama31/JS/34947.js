@@ -1,1 +1,0 @@
-var xml = "<xml></xml>";\n\n$.ajax({\n  type: "POST",\n  url: "your_jsp_page.jsp",\n  data: { data: xml },\n  contentType: "application/xml",\n  success: function(data) {\n    console.log("Data sent successfully!");\n  }\n});

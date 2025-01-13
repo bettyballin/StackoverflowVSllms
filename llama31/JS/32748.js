@@ -1,1 +1,0 @@
-// Get the body height\nvar bodyHeight = document.body.offsetHeight;\n\n// Set the top property of the .buyfloat div\ndocument.querySelector('.buyfloat').style.top = (bodyHeight - 200) + 'px';

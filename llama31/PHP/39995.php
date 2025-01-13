@@ -1,1 +1,0 @@
-$fileDirectory = dirname(__FILE__) . '/fileDirectory/';\nfile_put_contents($fileDirectory . $fileName, $fileContents);

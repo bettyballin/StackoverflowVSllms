@@ -1,1 +1,0 @@
--- Example using MySQL's built-in SHA-256 function\nCREATE TABLE users (\n  id INT PRIMARY KEY,\n  name VARCHAR(255) NOT NULL,\n  hashed_name VARBINARY(32) AS (UNHEX(SHA2(name, 256))) STORED\n);\n\n-- Insert example\nINSERT INTO users (id, name) VALUES (1, 'John Doe');\n\n-- Lookup example\nSELECT * FROM users WHERE hashed_name = UNHEX(SHA2('John Doe', 256));

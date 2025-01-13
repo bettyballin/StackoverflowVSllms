@@ -1,1 +1,0 @@
-from gateone.core.server import Server\n\n# Create a GateOne server instance\nserver = Server()\n\n# Define a terminal emulator instance\nterminal = server.create_terminal()\n\n# Send VT100/ANSI escape codes to the terminal\nterminal.write("\033[31mHello, world!\033[0m")\n\n# Start the GateOne server\nserver.start()

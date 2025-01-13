@@ -1,1 +1,0 @@
-$image = imagecreatefrompng('input.png');\n$cropped_image = imagecrop($image, array(\n    'x' => 0,\n    'y' => 0,\n    'width' => 800,\n    'height' => 800 // adjust this to the desired height\n));\n\nheader('Content-Type: image/png');\nimagepng($cropped_image);\nimagedestroy($cropped_image);

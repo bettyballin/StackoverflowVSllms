@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('#select_type').change(function() {\n    var selectedValue = $(this).val();\n    $('fieldset').hide();\n    $('#' + selectedValue).show();\n  });\n\n  // Trigger the change event on page load to show the correct form\n  $('#select_type').trigger('change');\n});

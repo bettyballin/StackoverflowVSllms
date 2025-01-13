@@ -1,1 +1,0 @@
-CREATE TABLE #temp (\n    id INT IDENTITY(1,1),\n    field1,\n    field2,\n    etc\n);\n\nINSERT INTO #temp (field1, field2, etc)\nSELECT field1, field2, etc\nFROM otherTable\nORDER BY id;\n\nMERGE INTO someTable st\nUSING #temp ot\nON st.field1 = ot.field1\nWHEN NOT MATCHED THEN\n    INSERT (field1, field2, etc)\n    VALUES (ot.field1, ot.field2, ot.etc);\n\nDROP TABLE #temp;

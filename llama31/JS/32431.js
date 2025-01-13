@@ -1,1 +1,0 @@
-var childWindow = window.open('url', 'name');\nchildWindow.addEventListener('load', function() {\n  // child window has finished loading, enable the link\n});

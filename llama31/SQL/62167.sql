@@ -1,1 +1,0 @@
-CREATE FUNCTION get_word_completions(IN search_string VARCHAR(255))\nRETURNS TABLE (\n  Word VARCHAR(255)\n)\nBEGIN\n  SELECT \n    Word\n  FROM \n    Words\n  WHERE \n    Word LIKE CONCAT('%', search_string, '%');\nEND //

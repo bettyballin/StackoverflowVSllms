@@ -1,1 +1,0 @@
-SELECT \n  t1.*,\n  (SELECT t2.* FROM table2 t2 WHERE t2.id = t1.id),\n  (SELECT t3.* FROM table3 t3 WHERE t3.id2 = t1.id2 AND t3.id3 = t1.id3)\nFROM \n  table1 t1\nWHERE \n  t1.id = 1;

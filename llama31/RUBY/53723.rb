@@ -1,1 +1,0 @@
-Time.zone.now.strftime('%Y-%m-%d %H:%M:%S')

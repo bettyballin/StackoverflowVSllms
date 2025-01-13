@@ -1,1 +1,0 @@
-<!-- SqlStatements.resx -->\n<root>\n  <data name="GetCustomers">\n    <value>SELECT * FROM Customers WHERE Country=@Country</value>\n  </data>\n  <data name="GetOrders">\n    <value>SELECT * FROM Orders WHERE CustomerId=@CustomerId</value>\n  </data>\n</root>

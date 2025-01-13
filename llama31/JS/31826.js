@@ -1,1 +1,0 @@
-// jQuery.load() example\n$("#result").load("ajax/test.html");\n\n// jQuery.get() example\n$.get("ajax/test.html", function(data) {\n    $("#result").html(data);\n});

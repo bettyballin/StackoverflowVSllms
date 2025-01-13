@@ -1,1 +1,0 @@
-class MDB2 {\n    // ...\n\n    function __destruct() {\n        $this->setCharset('utf8');\n        $this->disconnect();\n    }\n}

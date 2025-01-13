@@ -1,1 +1,0 @@
-require 'text/format'\n\ntext = "This is a long piece of text that needs to be wrapped."\nputs text.format(20)  # Wrap text at 20 columns

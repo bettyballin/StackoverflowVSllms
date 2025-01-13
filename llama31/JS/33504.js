@@ -1,1 +1,0 @@
-$(function () {\n  var doSomething = function() {\n    // Do something\n  };\n\n  $("div.class").click(doSomething);\n  $("div.secondclass").click(doSomething);\n});

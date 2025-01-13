@@ -1,1 +1,0 @@
-// Example of a simple AJAX request\nvar xhr = new XMLHttpRequest();\nxhr.open('GET', 'https://example.com', true);\nxhr.onload = function() {\n  if (xhr.status === 200) {\n    console.log(xhr.responseText);\n  }\n};\nxhr.send();

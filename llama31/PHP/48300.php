@@ -1,1 +1,0 @@
-$date = new DateTime("now", new DateTimeZone("America/New_York"));\n$date = $date->format("Y-m-d");

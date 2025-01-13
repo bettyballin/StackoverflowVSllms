@@ -1,1 +1,0 @@
-<?php\n// Create a new SOAP server\n$server = new SoapServer("example.wsdl");\n\n// Define a function to handle SOAP requests\nfunction hello($name) {\n    return "Hello, $name!";\n}\n\n// Register the function with the SOAP server\n$server->addFunction("hello");\n\n// Handle incoming SOAP requests\n$server->handle();\n?>

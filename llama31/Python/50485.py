@@ -1,1 +1,0 @@
-import sys\n\nif __name__ == "__main__":\n    if sys.stdin.isatty():\n        # Called from command line\n        print("Called from command line")\n    else:\n        # Called from CGI script or other non-interactive environment\n        print("Called from CGI script or other non-interactive environment")

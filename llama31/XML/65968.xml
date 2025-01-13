@@ -1,1 +1,0 @@
-<system.web>\n       <httpHandlers>\n           <add verb="GET" path="ImageHandler.ashx" type="YourNamespace.ImageHandler"/>\n       </httpHandlers>\n   </system.web>

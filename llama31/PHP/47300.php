@@ -1,1 +1,0 @@
-function getBody($pid)\n{\n    // ...\n    $html = '<div style="width:600px; font-family:Arial, Helvetica, sans-serif; color:#333333;">' .\n        // ...\n        '</div>';\n    return $html;\n}

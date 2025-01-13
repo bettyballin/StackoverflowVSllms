@@ -1,1 +1,0 @@
-DECLARE @rowCount INT\nBULK INSERT MyTable\nFROM 'C:\Path\To\File.csv'\nWITH (FORMATFILE = 'C:\Path\To\FormatFile.xml')\nSET @rowCount = @@ROWCOUNT\nSELECT @rowCount AS RowsAffected

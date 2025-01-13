@@ -1,1 +1,0 @@
-// Assuming you're using a PHP framework like Laravel\nuse Illuminate\Http\Request;\n\nRoute::post('/login', function (Request $request) {\n  // Hash the password securely using a library like HashiCorp's password-hasher\n  $hashedPassword = password_hash($request->password, PASSWORD_DEFAULT);\n\n  // Verify the password and authenticate the user\n  // ...\n});

@@ -1,1 +1,0 @@
-Dim strSql As String\nstrSql = "SELECT readings.ids " & _\n         "INTO ids_temp " & _\n         "FROM readings " & _\n         "WHERE readings.ids > 1234;"\n\nCurrentDb.Execute strSql

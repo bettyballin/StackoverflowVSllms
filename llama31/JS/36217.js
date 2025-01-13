@@ -1,1 +1,0 @@
-<script>\n  window.onload = function() {\n    document.querySelectorAll('a').forEach(function(link) {\n      link.target = '_parent';\n    });\n  };\n</script>

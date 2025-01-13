@@ -1,1 +1,0 @@
-$client = new GuzzleHttp\Client();\n$response = $client->get('https://www.example.com/link/sublink', [\n    'auth' => ['username', 'password'],\n    'verify' => '/path/to/ca.crt'\n]);\n\necho $response->getBody()->getContents();

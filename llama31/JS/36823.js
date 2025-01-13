@@ -1,1 +1,0 @@
-onew.addEventListener('click', function() {\n  fnDisplay_Computers("'" + alines[i] + "'");\n});

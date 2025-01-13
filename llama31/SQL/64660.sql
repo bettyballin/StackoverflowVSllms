@@ -1,1 +1,0 @@
-ALTER TABLE your_table\nADD cIndexed AS (CASE WHEN c = 0 THEN 0 ELSE 1 END) PERSISTED;\n\nCREATE INDEX idx_cIndexed ON your_table (cIndexed);

@@ -1,1 +1,0 @@
-If Not (OldCheckedItems Is CurCheckedItems) Then\n    ' ...\nEnd If

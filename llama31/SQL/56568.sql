@@ -1,1 +1,0 @@
-SELECT COUNT(predicate), subject\nFROM TableA\nGROUP BY subject\nFIELDS TERMINATED BY ',';

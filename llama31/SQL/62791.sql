@@ -1,1 +1,0 @@
-ORDER BY \n  COALESCE(c2.ParentId, c1.Id), \n  c1.ParentId, \n  c1.CommentDate

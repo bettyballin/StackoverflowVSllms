@@ -1,1 +1,0 @@
-$obj = new stdClass(['foo' => 'bla', 'bar' => 2]);

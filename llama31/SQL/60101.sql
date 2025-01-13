@@ -1,1 +1,0 @@
-CREATE TABLE table (\n  a INT UNSIGNED,\n  b INT UNSIGNED,\n  PRIMARY KEY (a, b)\n);

@@ -1,1 +1,0 @@
-print(link.contents[0].encode('ascii', 'ignore').decode('ascii'))

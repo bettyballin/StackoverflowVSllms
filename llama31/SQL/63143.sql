@@ -1,1 +1,0 @@
-CASE \n  WHEN FC.CourseId IS NOT NULL THEN 0x1 \n  ELSE 0x0 \nEND AS IsCoursedBased

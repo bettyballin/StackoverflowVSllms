@@ -1,1 +1,0 @@
-DROP TABLE target_table;\nSELECT * INTO target_table FROM source_table;

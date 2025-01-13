@@ -1,1 +1,0 @@
-<html>\n  <body>\n    <% if user_logged_in? %>\n      <h1>Welcome, <%= username %>!</h1>\n    <% else %>\n      <h1>Please log in</h1>\n    <% end %>\n  </body>\n</html>

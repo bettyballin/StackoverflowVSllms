@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\nxhr.open('GET', 'path_to_your_image.jpg', true);\nxhr.onload = function() {\n  if (xhr.status === 404) {\n    console.log('Image not found');\n  } else {\n    console.log('Image loaded successfully');\n  }\n};\nxhr.send();

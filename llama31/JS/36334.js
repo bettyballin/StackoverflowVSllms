@@ -1,1 +1,0 @@
-function foo() {\n  alert('foo');\n}\n\nvar test = 'foo';\n\neval(test + '()');  // This calls foo()

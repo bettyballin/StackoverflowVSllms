@@ -1,1 +1,0 @@
-// Cache search result in local storage\nlocalStorage.setItem('searchResult', JSON.stringify(result));\n\n// Retrieve cached result when navigating back\n$(document).ready(function () {\n    var cachedResult = localStorage.getItem('searchResult');\n    if (cachedResult !== null) {\n        populatePageWithResult(JSON.parse(cachedResult));\n    }\n});

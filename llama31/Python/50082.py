@@ -1,1 +1,0 @@
-self.connection.execute("INSERT INTO bin_test (b) VALUES (rawtohex(UNISTR('\xff\x00\xff\x00')))")

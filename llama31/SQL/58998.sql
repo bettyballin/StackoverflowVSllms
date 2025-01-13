@@ -1,1 +1,0 @@
-UPDATE transactions\nSET running_balance = (\n  SELECT SUM(amount) \n  FROM transactions \n  WHERE date <= current_date AND id > current_id\n)\nWHERE id > current_id;

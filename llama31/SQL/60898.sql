@@ -1,1 +1,0 @@
-SELECT *\nFROM aTable t1\nWHERE FIND_IN_SET(t1.fldInputField, t1.fldRoleList) > 0;

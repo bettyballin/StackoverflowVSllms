@@ -1,1 +1,0 @@
-function json_encode_safe($data) {\n    $json = json_encode($data);\n    $json = preg_replace('/[\x00-\x1f\x22\x5c]/u', function ($match) {\n        return '\\u' . sprintf('%04x', ord($match[0]));\n    }, $json);\n    return $json;\n}

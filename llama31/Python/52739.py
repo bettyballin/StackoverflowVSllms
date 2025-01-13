@@ -1,1 +1,0 @@
-def simulate_with_chatbot_training_data(data, scenarios):\n    # Simulate different scenarios using data simulation techniques\n    simulation_results = simulate_with_data(data, scenarios)\n    return simulation_results

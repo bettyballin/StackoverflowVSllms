@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE LOWER(your_column) REGEXP '[[:<:]]a[[:>:]]' = 1;

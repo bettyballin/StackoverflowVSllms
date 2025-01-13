@@ -1,1 +1,0 @@
-$.ajax({\n    url: getDescriptionUrl,\n    data: { categoryId: catId },\n    ...\n});

@@ -1,1 +1,0 @@
-Dim dt As DateTime = CDate(cmd.Parameters("myDate").Value)

@@ -1,1 +1,0 @@
-SELECT height\nFROM your_table\nWHERE height > (SELECT PERCENTILE_CONT(0.3) WITHIN GROUP (ORDER BY height) FROM your_table)\n  AND height < (SELECT PERCENTILE_CONT(0.7) WITHIN GROUP (ORDER BY height) FROM your_table);

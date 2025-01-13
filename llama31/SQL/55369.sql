@@ -1,1 +1,0 @@
-SELECT * FROM people\nWHERE age = (SELECT MAX(age) FROM people);

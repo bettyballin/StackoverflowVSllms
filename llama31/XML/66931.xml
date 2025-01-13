@@ -1,1 +1,0 @@
-<rewrite>\n  <rules>\n    <rule name="RemoveASPXExtension" stopProcessing="true">\n      <match url="^(.*)\.aspx$" />\n      <action type="Rewrite" url="{R:1}/" />\n    </rule>\n    <rule name="ToLowercase" stopProcessing="true">\n      <match url="(.*)" />\n      <action type="Rewrite" url="{ToLower:{R:1}}" />\n    </rule>\n  </rules>\n</rewrite>

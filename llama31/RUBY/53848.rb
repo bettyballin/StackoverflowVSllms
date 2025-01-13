@@ -1,1 +1,0 @@
-class Car\n  attr_accessor :color, :model\n\n  def initialize(color, model)\n    @color = color\n    @model = model\n  end\n\n  def start_engine\n    puts "Vroom!"\n  end\nend\n\nmy_car = Car.new("Red", "Toyota")\nmy_car.start_engine # Output: Vroom!

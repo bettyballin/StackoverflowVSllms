@@ -1,1 +1,0 @@
-setTimeout(getProgressMsg, 2000);

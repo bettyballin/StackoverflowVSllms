@@ -1,1 +1,0 @@
-$program = "/usr/bin/top -n 1";\npassthru($program);

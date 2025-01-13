@@ -1,1 +1,0 @@
-EXEC sp_addarticle \n    @publication = 'YourPublication', \n    @article = 'YourNewTable', \n    @source_object = 'YourNewTable', \n    @schema_option = 0x02;

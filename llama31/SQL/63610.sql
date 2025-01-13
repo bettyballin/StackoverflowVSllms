@@ -1,1 +1,0 @@
-SELECT \n  q.question_text, \n  a.answer_text, \n  COUNT(aq.user_ip) as answer_count\nFROM \n  Questions q\n  LEFT JOIN Answers a ON q.question_id = a.question_id\n  LEFT JOIN Answered_Questions aq ON a.answer_id = aq.answer_id AND q.question_id = aq.question_id\nWHERE \n  q.question_id = (SELECT MAX(question_id) FROM Questions)\nGROUP BY \n  q.question_text, a.answer_text

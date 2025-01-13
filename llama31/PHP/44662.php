@@ -1,1 +1,0 @@
-$ch = curl_init('http://example.com/api/data');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_TIMEOUT, 10); // timeout in seconds\ncurl_exec($ch);\ncurl_close($ch);

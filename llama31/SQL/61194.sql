@@ -1,1 +1,0 @@
-CREATE TABLE MyTable (\n    Id INT PRIMARY KEY,\n    MyString nvarchar(MAX)\n);

@@ -1,1 +1,0 @@
-// Inline script tag\n$(window).on('load', function() {\n  console.log('Inline script window load event fired');\n  // Insert additional ads here\n});

@@ -1,1 +1,0 @@
-function goFullScreen() {\n  var movie = document.getElementById('your_movie');\n  movie.requestFullScreen();\n}

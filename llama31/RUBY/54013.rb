@@ -1,1 +1,0 @@
-def update\n  # Update membership permissions here\n  respond_to do |format|\n    format.js { render :nothing => true }\n  end\nend

@@ -1,1 +1,0 @@
-CREATE NONCLUSTERED INDEX IX_URLRewitten ON your_table (URLRewitten);

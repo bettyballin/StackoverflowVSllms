@@ -1,1 +1,0 @@
-<target name="create-rpm">\n  <taskdef name="rpm" classname="org.redline_rpm.ant.RPMTask"/>\n  <rpm spec="${basedir}/rpm/SPECS/your-spec-file.spec" topdir="${basedir}/rpm">\n    <sources>\n      <pathelement location="${basedir}/build"/>\n    </sources>\n  </rpm>\n</target>

@@ -1,1 +1,0 @@
-function dateTimeFormat($dateIn)\n{\n    $dateOut = date("F j, Y h:i A", strtotime($dateIn));\n\n    return $dateOut;\n}

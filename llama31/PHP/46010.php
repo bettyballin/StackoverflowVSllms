@@ -1,1 +1,0 @@
-$output = print "<li><a href=\"$url\" target=\"_blank\">$title</a> $price</li>";

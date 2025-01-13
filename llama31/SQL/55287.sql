@@ -1,1 +1,0 @@
-UPDATE `#__menu` SET `path` = REPLACE(`path`, 'BradPPresents.com', 'BradP.com');\nUPDATE `#__menu` SET `link` = REPLACE(`link`, 'BradPPresents.com', 'BradP.com');\nUPDATE `#__content` SET `text` = REPLACE(`text`, 'BradPPresents.com', 'BradP.com');

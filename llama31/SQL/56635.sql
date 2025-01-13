@@ -1,1 +1,0 @@
-SELECT p.ProductTitle, p.Price, p.ProductId, i.FileID\nFROM Products p\nJOIN (\n  SELECT ProductId, MIN(Order) AS MinOrder\n  FROM ProductImagesLookUp\n  GROUP BY ProductId\n) sub ON p.ProductId = sub.ProductId\nJOIN ProductImagesLookUp pil ON p.ProductId = pil.ProductId AND pil.Order = sub.MinOrder\nJOIN Images i ON pil.FileID = i.FileID

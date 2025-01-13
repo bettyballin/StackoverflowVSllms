@@ -1,1 +1,0 @@
-$xml = simplexml_load_string('<node id="foo" id="bar">');\n\n$id = $xml['id'];\necho $id; // Output: foo\necho (string) $id; // Output: foo\necho $id->__toString(); // Output: foo\n\n// Iterate over all attribute values\nforeach ($id as $value) {\n    echo "$value\n";\n}\n// Output:\n// foo\n// bar

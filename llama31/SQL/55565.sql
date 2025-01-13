@@ -1,1 +1,0 @@
--- Example of creating a VARCHAR column with a specific length\nCREATE TABLE example (\n    column_name VARCHAR(32) -- Choose a length that is reasonable for the expected data\n);

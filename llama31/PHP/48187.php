@@ -1,1 +1,0 @@
-$stmt = $db->prepare('SELECT * FROM tbl_clientes WHERE nome LIKE ?');\n$stmt->execute(['%' . $nome . '%']);

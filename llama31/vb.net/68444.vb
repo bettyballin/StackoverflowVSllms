@@ -1,1 +1,0 @@
-If Debugger.IsAttached Then\n    Debugger.Break()\nEnd If

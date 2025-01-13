@@ -1,1 +1,0 @@
-$mail = new PHPMailer();\n$mail->isHTML(true);\n\n// Assume $imgPath is the path to your image file\n$imgData = file_get_contents($imgPath);\n$imgData = base64_encode($imgData);\n\n// Create the HTML email body\n$mailBody = '<html><body>';\n$mailBody .= '<img src="data:image/jpeg;base64,' . $imgData . '">';\n$mailBody .= '</body></html>';\n\n$mail->Body = $mailBody;

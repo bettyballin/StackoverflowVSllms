@@ -1,1 +1,0 @@
-$(document).ready(function () {\n    $('#txtQuestions').on('input', function () {\n        var text = $(this).val();\n        if (text.length > 250) {\n            $(this).val(text.substring(0, 250));\n        }\n    });\n});

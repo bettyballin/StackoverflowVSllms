@@ -1,1 +1,0 @@
-require_once 'functions.php';\n\nif ($_FILES['attachment']['error'] == UPLOAD_ERR_OK) {\n    $file = $_FILES['attachment'];\n    send_file_as_attachment($file);\n}

@@ -1,1 +1,0 @@
-import copy\n\noriginal_list = [["apple", "banana"], ["cherry", "date"]]\n\n# Create a deep copy of the list\nnew_list = copy.deepcopy(original_list)\n\n# Modify the original list\noriginal_list[0][0] = "elderberry"\n\nprint(original_list)  # Output: [["elderberry", "banana"], ["cherry", "date"]]\nprint(new_list)  # Output: [["apple", "banana"], ["cherry", "date"]]

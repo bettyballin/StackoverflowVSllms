@@ -1,1 +1,0 @@
-const crypto = require('crypto');\n\nconst jsonData = JSON.stringify(yourData);\nconst hash = crypto.createHash('sha256');\nhash.update(jsonData);\nconst hashedData = hash.digest('hex');

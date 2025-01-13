@@ -1,1 +1,0 @@
-require_once 'vendor/autoload.php';\n\n$flickr = new phpFlickr\phpFlickr('YOUR_API_KEY', 'YOUR_API_SECRET');\n\n$photos = $flickr->photosets_getPhotos('SET_ID', array('per_page' => 20));\n\nforeach ($photos['photoset']['photo'] as $photo) {\n    echo '<img src="' . $flickr->buildPhotoURL($photo, 'medium') . '" alt="' . $photo['title'] . '">';\n}

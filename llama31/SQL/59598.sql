@@ -1,1 +1,0 @@
-SELECT TOP 5 f.id, f.name, COUNT(s.id) AS subscriber_count\nFROM tblFeeds f\nINNER JOIN tblSubscribers s ON f.id = s.FeedId\nGROUP BY f.id, f.name\nORDER BY subscriber_count DESC;

@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n-- Select the first available message\nSELECT id, message FROM messages WHERE claimed = 0 LIMIT 1;\n\n-- Store the selected message ID in a variable\nSET @message_id = LAST_INSERT_ID();\n\n-- Mark the message as claimed\nUPDATE messages SET claimed = 1, claimed_by = 'current_user' WHERE id = @message_id;\n\nCOMMIT;

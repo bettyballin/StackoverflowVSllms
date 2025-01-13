@@ -1,1 +1,0 @@
-SELECT (SUM( CAST(FILEPROPERTY(name, 'SpaceUsed') AS bigint) ) * 8192) / 1024 / 1024 / 1024 AS DatabaseSizeInGB\nFROM sys.master_files\nWHERE database_id = DB_ID()

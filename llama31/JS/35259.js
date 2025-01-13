@@ -1,1 +1,0 @@
-document.getElementById('editor').addEventListener('click', function() {\n  document.execCommand('bold', false, null);\n});

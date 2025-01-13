@@ -1,1 +1,0 @@
-var dict:Object = {a: 1, b: 2};\n\n// Using the 'in' operator\nif ('a' in dict) {\n    trace("Key 'a' exists");\n} else {\n    trace("Key 'a' does not exist");\n}\n\n// Using hasOwnProperty()\nif (dict.hasOwnProperty('b')) {\n    trace("Key 'b' exists");\n} else {\n    trace("Key 'b' does not exist");\n}

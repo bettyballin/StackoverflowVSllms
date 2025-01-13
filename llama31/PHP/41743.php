@@ -1,1 +1,0 @@
-session.save_path = "C:\path\to\new\sessions\folder"

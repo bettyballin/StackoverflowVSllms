@@ -1,1 +1,0 @@
-$doc = new DomDocument();\n$doc->loadXML(file_get_contents("php://input"));\n$profile_node = $doc->getElementsByTagName("profile")->item(0);\n\n$childnodes = $profile_node->childNodes;\nforeach ($childnodes as $node) {\n    // do something with this node\n}

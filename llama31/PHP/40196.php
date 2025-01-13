@@ -1,1 +1,0 @@
-$timestamp = strtotime('2022-01-01 12:00:00');\necho time_ago($timestamp);

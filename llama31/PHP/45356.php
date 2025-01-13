@@ -1,1 +1,0 @@
-require_once 'IP2Location.php';\n\n$ip = $_SERVER['REMOTE_ADDR'];\n$loc = new IP2Location();\n$loc->open('./IP2LOCATION-LITE-DB1.BIN', IP2Location::FILE_IO);\n\n$countryCode = $loc->getCountryCode($ip);\n\nif ($countryCode == 'US' || $countryCode == 'CA') {\n    // allow access\n} else {\n    // deny access\n    header('HTTP/1.0 403 Forbidden');\n    exit;\n}\n\n$loc->close();

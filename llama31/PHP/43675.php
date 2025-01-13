@@ -1,1 +1,0 @@
-// In config/routes.php\nRouter::scope('/', function ($routes) {\n    $routes->setExtensions(['json', 'xml']);\n    $routes->options('/*', ['controller' => 'Pages', 'action' => 'display', 'home'], ['layout' => 'ajax']);\n});

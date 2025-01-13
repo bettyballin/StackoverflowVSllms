@@ -1,1 +1,0 @@
-DECLARE @MyTable TABLE (Id INT, Name VARCHAR(50));\n\nINSERT INTO @MyTable (Id, Name) VALUES (1, 'John'), (2, 'Jane'), (3, 'filter');\n\nSELECT * FROM dbo.GetFilteredTable(@MyTable);

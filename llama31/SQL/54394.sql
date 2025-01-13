@@ -1,1 +1,0 @@
-ALTER TABLE mytable\nADD CONSTRAINT check_time_specified\nCHECK ((time_specified = TRUE AND EXTRACT(HOUR FROM datetime_field) IS NOT NULL)\n       OR (time_specified = FALSE AND EXTRACT(HOUR FROM datetime_field) = 0));

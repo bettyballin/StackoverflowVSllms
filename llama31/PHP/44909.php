@@ -1,1 +1,0 @@
-project/\napp/\ncontrollers/\nmodels/\nviews/\ntemplates/\nhelpers/\npublic/\nindex.php\n.htaccess

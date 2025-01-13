@@ -1,1 +1,0 @@
-$selected_value = filter_input(INPUT_POST, 'radio_group', FILTER_SANITIZE_STRING);

@@ -1,1 +1,0 @@
-var $responseClone = $response.clone();\n$('#content').html($responseClone.find('.teaser'));

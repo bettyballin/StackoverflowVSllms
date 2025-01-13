@@ -1,1 +1,0 @@
-protected function _initAutoload()\n{\n    $autoloader = new Zend_Application_Module_Autoloader(array(\n        'namespace' => array('Sl_', 'Sl_Dao_'),\n        'basePath'  => dirname(__FILE__),\n    ));\n\n    return $autoloader;\n}

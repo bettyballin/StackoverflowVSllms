@@ -1,1 +1,0 @@
--- Example OLTP workload for testing\nCREATE TABLE customers (\n  id INT PRIMARY KEY,\n  name VARCHAR(255),\n  email VARCHAR(255)\n);\n\nCREATE TABLE orders (\n  id INT PRIMARY KEY,\n  customer_id INT,\n  order_date DATE,\n  total DECIMAL(10, 2)\n);\n\n-- Test query\nSELECT * FROM customers\nJOIN orders ON customers.id = orders.customer_id\nWHERE orders.order_date > '2022-01-01';

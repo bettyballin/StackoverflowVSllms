@@ -1,1 +1,0 @@
-SELECT \n    DeviceSerialNumber, \n    BuildID, \n    LEMSCredentialsID, \n    LEMSSoftwareID, \n    OwnerID, \n    RestagedDate\nINTO #TempTable\nFROM \n    tblDevice\nWHERE \n    (DeviceSerialNumber = @SerialNumber)\n\nSELECT * FROM #TempTable

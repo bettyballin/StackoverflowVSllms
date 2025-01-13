@@ -1,1 +1,0 @@
-UPDATE mytable\nSET wholenodecolumn.modify('replace /* with <Item>{/*}</Item>')

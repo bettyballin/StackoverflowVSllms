@@ -1,1 +1,0 @@
-result = 0\n[1, 2, 3, 4].each do |element|\n  result += element\nend\nputs result # => 10

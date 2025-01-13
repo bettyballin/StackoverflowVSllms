@@ -1,1 +1,0 @@
-from Crypto.Cipher import DES\nimport base64\n\ndef pad(data):\n    padding_length = 8 - (len(data) % 8)\n    return data + chr(padding_length) * padding_length\n\nobj = DES.new('abcdefgh', DES.MODE_ECB)\nplain = "Guido van Rossum is a space alien.XXXXXX"\npadded_plain = pad(plain)\nciph = obj.encrypt(padded_plain)\nenc = base64.b64encode(ciph)\nprint enc

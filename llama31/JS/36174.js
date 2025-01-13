@@ -1,1 +1,0 @@
-const yaml = require('js-yaml');\n\nlet yamlData = `\nall:\n  foo: 1025\n  bar:\n    baz: 37628\n    quux:\n      a: 179\n      b: 7\n`;\n\nlet jsonData = yaml.safeLoad(yamlData);\n\n$("#tree").jstree({\n  core: {\n    data: jsonData\n  }\n});

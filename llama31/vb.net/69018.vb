@@ -1,1 +1,0 @@
-Public ReadOnly Property ListOfThings() As List(Of Thing)\n    Get\n        If _listOfThings Is Nothing Then\n            _listOfThings = New List(Of Thing)\n        End If\n        Return _listOfThings\n    End Get\nEnd Property\nPrivate _listOfThings As List(Of Thing)

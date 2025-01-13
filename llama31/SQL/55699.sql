@@ -1,1 +1,0 @@
-WITH RecursiveChildren AS (\n    SELECT NodeId, ParentId, 0 AS Level\n    FROM YourTable\n    WHERE ParentId = @parentId\n\n    UNION ALL\n\n    SELECT t.NodeId, t.ParentId, Level + 1\n    FROM YourTable t\n    INNER JOIN RecursiveChildren r ON t.ParentId = r.NodeId\n)\nSELECT NodeId\nFROM RecursiveChildren\nWHERE NodeId <> @parentId;

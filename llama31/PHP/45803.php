@@ -1,1 +1,0 @@
-foreach($inbox as $key => $array) {\n  if (!isset($output['Inbox']['id'])) {\n    $output['Inbox']['id'] = array();\n  }\n  $output['Inbox']['id'][] = $array['msg_seq'];\n}\n\nforeach($outbox as $key => $array) {\n  if (!isset($output['Outbox']['id'])) {\n    $output['Outbox']['id'] = array();\n  }\n  $output['Outbox']['id'][] = $array['msg_seq'];\n}

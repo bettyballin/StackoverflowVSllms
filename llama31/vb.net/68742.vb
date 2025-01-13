@@ -1,1 +1,0 @@
-Imports System.Xml.Linq\n\nDim x As XElement = _\n    <div>\n        <%= XRaw(message.ToString()) %>\n    </div>\n\nDim m = x.ToString()

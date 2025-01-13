@@ -1,1 +1,0 @@
-var cells = row.find('td'); // Find all td elements in the selected row

@@ -1,1 +1,0 @@
-SELECT \n    CONVERT(DATE, [Date]) AS Date,\n    COUNT(*) AS Count\nFROM \n    YourTable\nGROUP BY \n    CONVERT(DATE, [Date])

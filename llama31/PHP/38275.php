@@ -1,1 +1,0 @@
-use setasign\Fpdi\Fpdi;\n\n$fpdi = new Fpdi();\n$fpdi->setSourceFile('path/to/your/pdf.pdf');\n$template = $fpdi->importPage(1);\n\n// Get the field coordinates\n$fields = $template->getFields();\nforeach ($fields as $field) {\n    $x = $field->getLeft();\n    $y = $field->getTop();\n    echo "Field name: " . $field->getName() . ", X: $x, Y: $y\n";\n}

@@ -1,1 +1,0 @@
-<?php\nheader('HTTP/1.1 301 Moved Permanently');\nheader('Location: /path/to/existing/dir');\nexit;

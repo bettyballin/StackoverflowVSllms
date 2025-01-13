@@ -1,1 +1,0 @@
-import pyqrcode\n\n# Generate a QR code for a file\nqr = pyqrcode.create(open('example.txt', 'r').read())\nqr.png('example.png', scale=6)

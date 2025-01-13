@@ -1,1 +1,0 @@
-ALTER TABLE old_table\nALTER COLUMN LeftId INT;\nALTER TABLE old_table\nALTER COLUMN RightId INT;

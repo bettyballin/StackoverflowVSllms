@@ -1,1 +1,0 @@
-<a href="#" onclick="sendRequest()">XXX</a>\n\nfunction sendRequest() {\n  var hrefValue = this.href;\n  $.ajax({\n    type: "GET",\n    url: "/your-servlet",\n    data: {hrefValue: hrefValue},\n    success: function(data) {\n      // handle the response\n    }\n  });\n}

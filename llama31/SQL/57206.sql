@@ -1,1 +1,0 @@
-SELECT Name, Status\nFROM (\n  SELECT Name, Status,\n         ROW_NUMBER() OVER (PARTITION BY Name ORDER BY \n           CASE Status\n             WHEN 'Closed' THEN 1\n             WHEN 'Hold' THEN 2\n             WHEN 'Waiting' THEN 3\n             WHEN 'Open' THEN 4\n           END) AS RowNum\n  FROM LoggingTable\n) AS subquery\nWHERE RowNum = 1;

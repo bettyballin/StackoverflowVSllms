@@ -1,1 +1,0 @@
-$orders = Mage::getModel('sales/order')->getCollection();\n$orders->addFieldToFilter('total_paid', array('eq' => new Zend_Db_Expr('`grand_total`')));

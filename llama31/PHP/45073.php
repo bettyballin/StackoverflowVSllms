@@ -1,1 +1,0 @@
-$data = json_decode(file_get_contents('data.json'), true);\nforeach ($data as $row) {\n    // Process the row\n    $sku = $row['sku'];\n    $specs = $row['specs'];\n    // ...\n    // Insert into database using MySQLi or PDO\n}

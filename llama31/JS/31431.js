@@ -1,1 +1,0 @@
-$('#edit .postcontent').load('admin-ajax.php', {'action':'qe-getpost'}, function(response) {\n    $(this).html(response.trim());\n});

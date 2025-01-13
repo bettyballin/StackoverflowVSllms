@@ -1,1 +1,0 @@
-$socket = fsockopen($host['host'], $host['port']);\nfwrite($socket, "I am a message\r\n" . chr(26));\nfclose($socket);

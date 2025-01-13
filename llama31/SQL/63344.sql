@@ -1,1 +1,0 @@
-CREATE TABLE color_catalog (\n    id SERIAL PRIMARY KEY,\n    color cube\n);\n\nCREATE INDEX color_catalog_cube_idx ON color_catalog USING GIST (color);\n\nSELECT * FROM color_catalog\nWHERE color <-> '(r, g, b)'::cube < threshold;

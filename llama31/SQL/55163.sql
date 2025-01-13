@@ -1,1 +1,0 @@
-CREATE INDEX idx_wikiscore_pagename ON wikiscore (pagename);

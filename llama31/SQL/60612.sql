@@ -1,1 +1,0 @@
-SELECT * \nFROM events \nWHERE DATEDIFF(day, date, GETDATE()) <= 31 \nORDER BY date ASC;

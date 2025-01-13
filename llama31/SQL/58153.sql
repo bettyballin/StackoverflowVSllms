@@ -1,1 +1,0 @@
-EXEC sp_changemergepublication \n    @publication = '<publication_name>', \n    @property = 'subscriber', \n    @value = '<subscriber_alias>';

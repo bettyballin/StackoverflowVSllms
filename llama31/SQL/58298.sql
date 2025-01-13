@@ -1,1 +1,0 @@
-IF EXISTS (SELECT 1 FROM tempdb.sys.tables WHERE name = '#TempTable')\nBEGIN\n    DROP TABLE #TempTable\nEND

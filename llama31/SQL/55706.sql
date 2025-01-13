@@ -1,1 +1,0 @@
-DECLARE @parentId INT = 1;\nWITH RecursiveChildren AS (\n    ...\n)\nSELECT NodeId\nFROM RecursiveChildren\nWHERE NodeId <> @parentId;

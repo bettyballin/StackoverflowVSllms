@@ -1,1 +1,0 @@
-if ($username === $sessionuser) {\n    // execute code when the two strings match\n}

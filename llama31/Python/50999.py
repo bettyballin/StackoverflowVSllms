@@ -1,1 +1,0 @@
-#!/usr/bin/python\n\nimport subprocess\n\n# Run the Visitors program and capture the output\noutput = subprocess.check_output(["/path/to/visitors", "-flags", "-options"])\n\n# Print the output\nprint("Content-Type: text/plain")\nprint("")\nprint(output.decode("utf-8"))

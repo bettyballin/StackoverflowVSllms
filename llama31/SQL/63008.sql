@@ -1,1 +1,0 @@
-WITH original_query AS (\n  SELECT [colnames]\n  FROM [tables with joins]\n  WHERE [constraints]\n  GROUP BY [cols]\n)\nSELECT COUNT(*)\nFROM original_query

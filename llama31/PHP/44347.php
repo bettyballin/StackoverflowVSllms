@@ -1,1 +1,0 @@
-setcookie('session_id', 'some_value', time() + 3600, '/', 'www.domain.com', true, true);

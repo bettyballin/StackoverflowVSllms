@@ -1,1 +1,0 @@
-const net = require('net');\n\nconst server = net.createServer((socket) => {\n  console.log('Connection established');\n  socket.on('data', (data) => {\n    console.log(`Received data: ${data}`);\n  });\n});\n\nserver.listen(8080, () => {\n  console.log('Server listening on port 8080');\n});

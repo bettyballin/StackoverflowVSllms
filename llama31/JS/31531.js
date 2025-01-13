@@ -1,1 +1,0 @@
-if (Modernizr.canvas) {\n  // Canvas is supported, use it\n} else {\n  // Canvas is not supported, provide a fallback\n}

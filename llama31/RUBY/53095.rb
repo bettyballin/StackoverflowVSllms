@@ -1,1 +1,0 @@
-result = ActiveRecord::Base.connection.execute("your sql query here")\ncolumn_names = result.fields

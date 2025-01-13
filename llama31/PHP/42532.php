@@ -1,1 +1,0 @@
-// Without error suppression\n$image = getimagesize("non_existent_image.jpg");\n// Will display an error message like "Warning: getimagesize(non_existent_image.jpg): failed to open stream: No such file or directory in..."\n\n// With error suppression\n$image = @getimagesize("non_existent_image.jpg");\n// Will not display an error message, $image will simply be false

@@ -1,1 +1,0 @@
-CREATE TABLE countries (\n  id INT PRIMARY KEY,\n  name VARCHAR(50),\n  code VARCHAR(2)  // ISO 3166-1 alpha-2 code\n);\n\nCREATE TABLE states (\n  id INT PRIMARY KEY,\n  country_id INT,\n  name VARCHAR(50),\n  code VARCHAR(2),  // State/Province code (e.g., NY, CA)\n  FOREIGN KEY (country_id) REFERENCES countries(id)\n);

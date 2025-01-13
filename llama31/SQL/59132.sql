@@ -1,1 +1,0 @@
-SELECT EXISTS (\n  SELECT 1\n  FROM in_fmd i\n  WHERE i.description = 'GN'\n  AND i.isbn IN (\n    SELECT bwi_isbn FROM bw_isbn WHERE orig_isbn = ?\n    UNION ALL\n    SELECT CAST(? AS VARCHAR) AS isbn\n  )\n)

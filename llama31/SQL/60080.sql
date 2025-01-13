@@ -1,1 +1,0 @@
-ALTER TABLE YourTableName\nADD CONSTRAINT UC_UserContact UNIQUE (UserId, ContactID);

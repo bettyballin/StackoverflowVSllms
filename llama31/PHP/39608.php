@@ -1,1 +1,0 @@
-$rows = array();\nwhile ($row_sections = mysql_fetch_array($sections_query)) {\n    $rows[] = $row_sections;\n}\n\nforeach ($rows as $row) {\n    echo "<h3>" . $row['section_name'] . "</h3>";\n}

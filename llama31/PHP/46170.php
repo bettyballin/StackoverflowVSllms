@@ -1,1 +1,0 @@
-function hashItem($itemId) {\n  $hash = hash('sha256', (string) $itemId);\n  return $hash;\n}

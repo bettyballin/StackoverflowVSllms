@@ -1,1 +1,0 @@
-SELECT CONVERT(DATE, datetime_column)

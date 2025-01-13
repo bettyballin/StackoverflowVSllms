@@ -1,1 +1,0 @@
-$fields = array('PAYPAL_ACCEPT', 'OTHER_FIELD', 'ANOTHER_FIELD');\nforeach ($fields as $field) {\n    $$field = ($row[$field] == 1) ? 'Yes' : 'No';\n}

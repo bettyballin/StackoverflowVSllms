@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetMultipleResults\n    @Id INT\nAS\nBEGIN\n    SELECT * FROM TableA WHERE Id = @Id;\n    SELECT * FROM TableB WHERE ForeignKey = @Id;\nEND;

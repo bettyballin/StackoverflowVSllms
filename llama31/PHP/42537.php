@@ -1,1 +1,0 @@
-$string = '¡Hola!';\n\necho strlen($string); // outputs 6, not 5, because ¡ is a 2-byte character\n\necho substr($string, 0, 1); // outputs a broken character, not ¡

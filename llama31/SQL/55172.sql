@@ -1,1 +1,0 @@
-DECLARE @TablesToDeleteFrom INT = 15\n\nSELECT \n    @TablesToDeleteFrom & 1 AS Bit0,\n    @TablesToDeleteFrom & 2 AS Bit1,\n    @TablesToDeleteFrom & 4 AS Bit2,\n    @TablesToDeleteFrom & 8 AS Bit3

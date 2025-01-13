@@ -1,1 +1,0 @@
-Imports HtmlAgilityPack\n\nDim htmlDoc As New HtmlDocument()\nhtmlDoc.LoadHtml(output)\n\nFor Each paragraph As HtmlNode In htmlDoc.DocumentNode.SelectNodes("//p")\n    If String.IsNullOrWhiteSpace(paragraph.InnerText.Trim()) Then\n        paragraph.Remove()\n    End If\nNext\n\noutput = htmlDoc.DocumentNode.OuterHtml

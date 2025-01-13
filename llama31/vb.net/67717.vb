@@ -1,1 +1,0 @@
-Private Sub selArchives_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles selArchives.SelectedIndexChanged\n    Response.Redirect("index.aspx?selArchives=" + selArchives.SelectedValue, False)\nEnd Sub

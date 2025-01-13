@@ -1,1 +1,0 @@
-$xml = new DOMDocument();\n$xml->load('yourfile.xml');\n\n$xpath = new DOMXPath($xml);\n$buildingName = 'Big Blue';\n\n$nodes = $xpath->query("//building[@name='$buildingName']");\n\nif ($nodes->length > 0) {\n    echo "Building with name '$buildingName' exists.";\n} else {\n    echo "Building with name '$buildingName' does not exist.";\n}

@@ -1,1 +1,0 @@
-// savePosition.php\n$left = $_POST['left'];\n$top = $_POST['top'];\n\n// Validate and sanitize the input\nif (ctype_digit($left) && ctype_digit($top)) {\n  // Use prepared statements to prevent SQL injection\n  $stmt = $db->prepare("UPDATE div_position SET left = :left, top = :top");\n  $stmt->bindParam(':left', $left);\n  $stmt->bindParam(':top', $top);\n  $stmt->execute();\n}

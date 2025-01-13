@@ -1,1 +1,0 @@
-TINYINT[(length)] [UNSIGNED] [ZEROFILL]

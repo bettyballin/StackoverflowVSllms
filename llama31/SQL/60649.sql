@@ -1,1 +1,0 @@
-SELECT p1.product_id\nFROM properties p1\nJOIN properties p2 ON p1.product_id = p2.product_id\nWHERE p1.value = 'red' AND p2.value = 'small';

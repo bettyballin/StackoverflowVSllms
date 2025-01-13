@@ -1,1 +1,0 @@
-Dim serviceLocations As ServiceLocation() = ' retrieve from web service\nDim myLocations As List(Of MyLocation) = serviceLocations.Select(Function(location) LocationMapper.Map(location)).ToList()

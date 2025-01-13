@@ -1,1 +1,0 @@
-module UsefulThings\n  def get_file; ... end\n  def delete_file; ... end\n\n  def format_text(x); ... end\n\n  def self.format_text(x)\n    new.format_text(x)\n  end\nend\n\n# Now you can call format_text on the module\nUsefulThings.format_text("abc")

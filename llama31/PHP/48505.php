@@ -1,1 +1,0 @@
-class Something {\n    function __construct() {\n        // code that runs automatically when the object is created\n        echo "Hello, I'm initialized!";\n    }\n}\n\n$s = new Something(); // outputs: "Hello, I'm initialized!"

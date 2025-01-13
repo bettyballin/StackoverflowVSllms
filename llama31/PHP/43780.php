@@ -1,1 +1,0 @@
-foreach ($_POST as $field => $value) {\n    if (!isset($_POST[$field]['data-hidden']) || $_POST[$field]['data-hidden'] !== 'true') {\n        // Process the field\n    }\n}

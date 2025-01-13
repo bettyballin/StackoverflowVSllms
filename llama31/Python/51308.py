@@ -1,1 +1,0 @@
-import urllib.parse\n\nflashvars = {"key": "value"}\nencoded_flashvars = urllib.parse.urlencode(flashvars)\nprint(f"<param name='flashvars' value='{encoded_flashvars}' />")

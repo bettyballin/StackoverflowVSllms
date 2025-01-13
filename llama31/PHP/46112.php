@@ -1,1 +1,0 @@
-function addNums($args) {\n    $defaults = array(\n        'num1' => 0,\n        'num2' => 0,\n    );\n    $args = array_merge($defaults, $args);\n    return $args['num1'] + $args['num2'];\n}\n\n$result = addNums(array('num1' => 2, 'num2' => 2));\necho $result; // Output: 4

@@ -1,1 +1,0 @@
-CREATE TABLE articles (\n    id SERIAL PRIMARY KEY,\n    title VARCHAR(255),\n    content TEXT,\n    date DATE,\n    link VARCHAR(255),\n    language VARCHAR(10),\n    hash VARCHAR(64) UNIQUE NOT NULL,\n    CONSTRAINT unique_content_link UNIQUE (content, link)\n);\n\nCREATE INDEX idx_hash ON articles (hash);

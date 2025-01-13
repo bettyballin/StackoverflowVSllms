@@ -1,1 +1,0 @@
-def execute(func as callable(int, int) as int):\n    print func(2, 3)

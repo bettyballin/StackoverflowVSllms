@@ -1,1 +1,0 @@
-<?php\n// ...\n\n// Log the start of the script\nerror_log('Script started');\n\n// ...\n\n// Log the result of the PayPal PDT request\nerror_log('PayPal PDT response: ' . $response);\n\n// ...\n\n// Log the completion of the script\nerror_log('Script finished');

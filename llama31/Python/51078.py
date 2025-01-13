@@ -1,1 +1,0 @@
-channel_data = {\n    1: {"name": "Channel 1", "currently_playing": "Song 1"},\n    2: {"name": "Channel 2", "currently_playing": "Song 2"},\n    # ...\n}

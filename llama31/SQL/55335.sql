@@ -1,1 +1,0 @@
-SELECT \n  t.TagID, \n  t.Title, \n  COUNT(it.ItemID) as item_count\nFROM \n  Tag t\n  LEFT JOIN ItemTag it ON t.TagID = it.TagID\nGROUP BY \n  t.TagID, \n  t.Title

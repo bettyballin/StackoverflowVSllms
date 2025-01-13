@@ -1,1 +1,0 @@
-CREATE PACKAGE my_package AS\n  -- Comment with ampersand: This is a test && comment\n  PROCEDURE my_procedure;\nEND;

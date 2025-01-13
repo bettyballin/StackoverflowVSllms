@@ -1,1 +1,0 @@
--- Example of archiving data older than 6 months\nINSERT INTO MetricArchives (MetricID, MetricValue, DateCollected)\nSELECT MetricID, MetricValue, DateCollected\nFROM Metrics\nWHERE DateCollected < DATEADD(month, -6, GETDATE());

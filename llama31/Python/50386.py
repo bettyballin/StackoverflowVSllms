@@ -1,1 +1,0 @@
-items = Items.objects.select_related('location').filter(location__country=country, location__state=state, location__city=city, location__big_city_nearby=big_city_nearby)

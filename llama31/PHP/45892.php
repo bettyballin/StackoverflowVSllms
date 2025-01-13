@@ -1,1 +1,0 @@
-$filePath = realpath('../../files/zip.zip');\nif (file_exists($filePath)) {\n    header('Content-disposition: attachment; filename=zip.zip');\n    header('Content-type: application/zip');\n    readfile($filePath);\n} else {\n    // Handle the case when the file does not exist\n    header('HTTP/1.0 404 Not Found');\n    echo 'File not found';\n}

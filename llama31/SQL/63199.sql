@@ -1,1 +1,0 @@
--- SQL Server stored procedure\nCREATE PROCEDURE myProc\nAS\nBEGIN\n    SELECT * FROM myTable;\nEND;\nGO\n\n-- Converted to MySQL using MySQL Workbench\nDELIMITER //\nCREATE PROCEDURE myProc()\nBEGIN\n    SELECT * FROM myTable;\nEND//\nDELIMITER ;

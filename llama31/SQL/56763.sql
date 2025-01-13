@@ -1,1 +1,0 @@
-CREATE TABLE table_name (\n  column1 data_type,\n  column2 data_type,\n  FOREIGN KEY (column_name) REFERENCES parent_table_name (parent_column_name)\n) ENGINE=InnoDB;

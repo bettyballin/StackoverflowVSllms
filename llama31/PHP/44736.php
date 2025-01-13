@@ -1,1 +1,0 @@
-<?php\n$zip = $_REQUEST['zip'];\n\nif ($zip != "") {\n    $wsdl_url = "http://www.webservicex.net/uszip.asmx?WSDL";\n    $client = new SoapClient($wsdl_url);\n    $params = array('USZip' => $zip);\n    try {\n        $response = $client->GetInfoByZIP($params);\n        echo $response;\n    } catch (SoapFault $e) {\n        echo "Error: " . $e->getMessage();\n    }\n}\n?>

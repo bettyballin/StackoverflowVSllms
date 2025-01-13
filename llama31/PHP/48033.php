@@ -1,1 +1,0 @@
-$date = filter_var($date, FILTER_VALIDATE_INT);\n$weekday = filter_var($weekday, FILTER_VALIDATE_INT);\nif ($date === false || $weekday === false || $weekday < 0 || $weekday > 6) {\n  // handle invalid input\n}

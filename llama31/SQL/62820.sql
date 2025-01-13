@@ -1,1 +1,0 @@
-SELECT \n  SUM(IIF(Month(eventDate) = [desired_month], IIF(lunch, 1, 0), 0)) AS LunchCount,\n  SUM(IIF(Month(eventDate) = [desired_month], IIF(snacks, 1, 0), 0)) AS SnacksCount,\n  SUM(IIF(Month(eventDate) = [desired_month], IIF(Tea, 1, 0), 0)) AS TeaCount\nFROM \n  your_table_name;

@@ -1,1 +1,0 @@
-$sql = new mysqli('localhost', 'root', '');\n$sql->select_db('mysql');\n$s1 = $sql->query('SELECT SQL_CALC_FOUND_ROWS * FROM db LIMIT 0, 3');\n$s2 = $sql->query('SELECT FOUND_ROWS() AS total_rows');\nif ($row = $s2->fetch_assoc()) {\n    printf('%d/%d', $s1->num_rows, $row['total_rows']);\n}

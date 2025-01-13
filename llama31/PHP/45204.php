@@ -1,1 +1,0 @@
-// Create a new record\n$data = array('Foo' => array('id' => 999, 'website' => 'google'));\n$this->Foo->save($data);\n\n// Update the existing record\n$data['Foo']['website'] = 'stackoverflow';\n$this->Foo->save($data);

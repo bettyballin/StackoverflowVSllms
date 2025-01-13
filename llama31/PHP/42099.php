@@ -1,1 +1,0 @@
-// Example of Drupal's security features\nfunction drupal_validate_form($form_id, $form_values) {\n  // Validate user input to prevent XSS and SQL injection attacks\n  // ...\n}

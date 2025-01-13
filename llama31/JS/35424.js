@@ -1,1 +1,0 @@
-window.addEventListener('beforeunload', function () {\n    // Make an AJAX call to clear session variables\n    $.ajax({\n        type: 'POST',\n        url: '/ClearSession',\n        async: false\n    });\n});

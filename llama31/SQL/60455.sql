@@ -1,1 +1,0 @@
-DELETE l1\nFROM Locations l1\nINNER JOIN Locations l2\nWHERE l1.lat = l2.lat AND l1.lng = l2.lng\nAND l1.id != l2.id\nAND (l1.url IS NULL OR l1.url = '')\nAND (l2.url IS NOT NULL OR l2.created_at < l1.created_at);

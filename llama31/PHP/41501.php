@@ -1,1 +1,0 @@
-echo $some_variable . '';

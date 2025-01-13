@@ -1,1 +1,0 @@
-import dns.resolver\n\ndef is_spammer(ip):\n    try:\n        dns.resolver.resolve(ip + '.zen.spamhaus.org', 'A')\n        return True\n    except dns.resolver.NXDOMAIN:\n        return False

@@ -1,1 +1,0 @@
-function updateList() {\n  const sourceList = document.getElementById('<%=ListBox1.ClientID%>');\n  const targetList = document.getElementById('<%=ListBox2.ClientID%>');\n  \n  Array.from(sourceList.options).forEach(option => {\n    if (option.selected) {\n      const newOption = new Option(option.text);\n      targetList.add(newOption);\n    }\n  });\n}

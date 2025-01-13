@@ -1,1 +1,0 @@
-$('#your-element').removeAttr('style');

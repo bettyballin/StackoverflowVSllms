@@ -1,1 +1,0 @@
-ALTER DATABASE [YourDatabaseName] SET DEFAULT_SCHEMA = [YourSchemaName];

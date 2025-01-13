@@ -1,1 +1,0 @@
-mb_internal_encoding('UTF-8');\n\n// Use multi-byte function explicitly\n$string = 'Hello, World!';\necho mb_strlen($string); // outputs 13

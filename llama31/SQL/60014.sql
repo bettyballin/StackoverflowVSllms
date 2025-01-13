@@ -1,1 +1,0 @@
-GRANT EXECUTE ON PROCEDURE MyProcedure TO UserName;

@@ -1,1 +1,0 @@
-setTimeout(function() {\n    document.getElementById('your_text_field_id').focus();\n}, 1000);

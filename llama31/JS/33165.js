@@ -1,1 +1,0 @@
-document.addEventListener('keydown', function(event) {\n  console.log('Key pressed:', event.key);\n  // Send the key press to your PHP script using AJAX\n  fetch('/your-php-script.php', {\n    method: 'POST',\n    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },\n    body: 'key=' + event.key\n  });\n});

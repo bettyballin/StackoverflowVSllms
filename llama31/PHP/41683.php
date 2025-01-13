@@ -1,1 +1,0 @@
-<?php\n$stdin = fopen('/dev/tty', 'r');\n$input = trim(fgets($stdin));\nfclose($stdin);\n?>

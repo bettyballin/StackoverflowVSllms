@@ -1,1 +1,0 @@
-SELECT value, attribute_definition_id, value_rk\nFROM (\n  SELECT value, attribute_definition_id, value_rk,\n         ROW_NUMBER() OVER (PARTITION BY value ORDER BY value_rk) AS row_num\n  FROM attribute_values\n) AS subquery\nWHERE row_num = 1\nORDER BY attribute_definition_id;

@@ -1,1 +1,0 @@
-import chardet\n\ndata = irc.recv(4096)\nencoding = chardet.detect(data)['encoding']\ndata = data.decode(encoding, 'replace')

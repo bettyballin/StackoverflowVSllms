@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    var urlRegex = /(https?:\/\/[^\s]+)/g;\n    $('body').html($('body').html().replace(urlRegex, '<a href="$1">$1</a>'));\n});

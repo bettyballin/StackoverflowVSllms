@@ -1,1 +1,0 @@
-const jsonData = '{"name": "John", "age": 30}';\nconst data = JSON.parse(jsonData);\nconsole.log(data); // { name: "John", age: 30 }

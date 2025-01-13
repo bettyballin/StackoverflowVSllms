@@ -1,1 +1,0 @@
-from django.core.validators import MinLengthValidator\n\nclass MyForm(forms.Form):\n    my_string_field = forms.CharField(validators=[MinLengthValidator(5)])

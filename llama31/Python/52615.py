@@ -1,1 +1,0 @@
-a = []\nif len(a) == 0:\n    print("List is empty")

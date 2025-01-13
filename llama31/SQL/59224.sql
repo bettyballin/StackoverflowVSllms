@@ -1,1 +1,0 @@
-WITH RankedKeyboards AS (\n  SELECT KeyboardID, KeyboardName,\n         ROW_NUMBER() OVER (ORDER BY KeyboardID DESC) AS RowNum\n  FROM Keyboard\n)\nSELECT KeyboardID, KeyboardName\nFROM RankedKeyboards\nWHERE RowNum = 2

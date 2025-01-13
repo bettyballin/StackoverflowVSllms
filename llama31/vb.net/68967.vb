@@ -1,1 +1,0 @@
-Dim myTxt As TextBox = TryCast(Page.PreviousPage.FindControl("Textbox1"), TextBox)\nIf myTxt IsNot Nothing Then\n    TextBox1.Text = myTxt.Text\nEnd If

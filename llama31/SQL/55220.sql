@@ -1,1 +1,0 @@
-SELECT COUNT(*) \nFROM Options \nWHERE user_id = ? AND option = ?

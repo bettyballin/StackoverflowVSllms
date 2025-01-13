@@ -1,1 +1,0 @@
-var referer = document.referrer;\nvar regex = /google\.com/;\nif (regex.test(referer)) {\n  // trigger FancyBox\n}

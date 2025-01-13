@@ -1,1 +1,0 @@
-CREATE PROCEDURE dbo.usp_TestFilter\n  @AdditionalFilter BIT = 1\nAS\n  SELECT *\n  FROM dbo.SomeTable T\n  WHERE\n    T.Column1 IS NOT NULL\n    AND (@AdditionalFilter = 0 OR T.Column2 IS NOT NULL)

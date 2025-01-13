@@ -1,1 +1,0 @@
-SELECT \n    ROW_NUMBER() OVER () AS row_num,\n    name\nFROM \n    Beatles

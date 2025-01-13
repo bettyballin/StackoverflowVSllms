@@ -1,1 +1,0 @@
-CREATE TEMPORARY TABLE temp_table AS\nSELECT 2 AS a, b, c\nFROM your_table\nWHERE a = 1;\n\nINSERT INTO your_table (a, b, c)\nSELECT a, b, c\nFROM temp_table;

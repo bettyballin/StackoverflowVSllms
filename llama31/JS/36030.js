@@ -1,1 +1,0 @@
-// Assuming you've included jQuery for AJAX\n$.ajax({\n  url: 'constants.json',\n  dataType: 'json',\n  success: function(constants) {\n    console.log(constants.RESOURCE_TYPE_REGSITER); // Outputs: 2\n  }\n});

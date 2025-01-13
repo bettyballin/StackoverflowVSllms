@@ -1,1 +1,0 @@
-// In your layout.php view\n<html>\n  <head>...</head>\n  <body>\n    <?=$this->load->view($content_view); ?>\n  </body>\n</html>

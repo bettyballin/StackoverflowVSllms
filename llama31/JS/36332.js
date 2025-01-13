@@ -1,1 +1,0 @@
-const getUniqueIdentifier = () => {\n  const navigatorString = [\n    navigator.userAgent,\n    navigator.language,\n    navigator.platform,\n    navigator.vendor,\n    navigator.plugins.map(plugin => plugin.name).join(',')\n  ].join(';');\n  \n  const hash = crypto.createHash('sha256');\n  hash.update(navigatorString);\n  return hash.digest('hex');\n};

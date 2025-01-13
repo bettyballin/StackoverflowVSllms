@@ -1,1 +1,0 @@
-import sys\nimport yaml\n\ndocs = yaml.safe_load_all(sys.stdin)\n\nfor doc in docs:\n    print(doc)

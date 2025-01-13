@@ -1,1 +1,0 @@
-RESTORE DATABASE [YourDBName]\nFROM DISK = 'backup_file_location'\nWITH REPLACE,\nMOVE 'YourDBName' TO 'new_file_location_B\YourDBName.mdf',\nMOVE 'YourDBName_log' TO 'new_file_location_B\YourDBName_log.ldf'

@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE (timestamp '2009-08-12 02:59:59' - timestamp '2009-08-12 02:59:10') > interval '30 seconds';

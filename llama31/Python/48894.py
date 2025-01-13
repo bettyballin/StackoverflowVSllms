@@ -1,1 +1,0 @@
-import numpy as np\nverts = np.empty(1000)

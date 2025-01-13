@@ -1,1 +1,0 @@
-CREATE NONCLUSTERED INDEX IX_EventTable_EventDate \nON EventTable (EventDate)

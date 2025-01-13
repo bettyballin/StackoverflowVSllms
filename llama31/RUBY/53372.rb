@@ -1,1 +1,0 @@
-# mycode.rb\nrequire 'pry'\n\ndef my_method\n  x = 5\n  binding.pry # This will drop you into a Pry REPL\n  puts x\nend\n\nmy_method

@@ -1,1 +1,0 @@
-SELECT Documents.name, HasDownloaded.id \nFROM Documents\nLEFT JOIN HasDownloaded \n  ON HasDownloaded.documentID = Documents.id \n  AND HasDownloaded.memberID = @memberID

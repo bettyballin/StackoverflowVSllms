@@ -1,1 +1,0 @@
-$decode = json_decode($json, true);\n\nif (json_last_error() !== JSON_ERROR_NONE) {\n    echo 'Error parsing JSON: ' . json_last_error_msg();\n} else {\n    print_r($decode);\n}

@@ -1,1 +1,0 @@
-class Entry < ApplicationRecord\n  def self.to_csv\n    attributes = %w[firstName lastName]\n\n    CSV.generate(headers: true) do |csv|\n      csv << attributes\n\n      all.each do |entry|\n        csv << attributes.map { |attr| entry.send(attr) }\n      end\n    end\n  end\nend

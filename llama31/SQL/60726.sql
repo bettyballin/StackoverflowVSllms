@@ -1,1 +1,0 @@
-CREATE TABLE myTable (\n    myDateColumn DATETIME CHECK (CONVERT(VARCHAR(8), myDateColumn, 112) = CONVERT(VARCHAR(8), myDateColumn, 112))\n)

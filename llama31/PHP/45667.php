@@ -1,1 +1,0 @@
-$element = new Zend_Form_Element_Select('mySelect');\n$element->addMultiOptions(array(\n    'option1' => 'Option 1',\n    'option2' => 'Option 2',\n));\n\n// Render only the select element\necho $element->render();

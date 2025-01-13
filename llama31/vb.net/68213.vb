@@ -1,1 +1,0 @@
-Public Function GetProperty(PropertyID As Integer) As JCPropertyDTO\n    ' retrieve data from database and populate a JCPropertyDTO object\n    Return dto\nEnd Functio

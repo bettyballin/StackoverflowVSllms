@@ -1,1 +1,0 @@
-SELECT (DATEDIFF(second, '2009-08-06 00:00:00', '2009-10-06 23:59:59') / 3600.0) AS HourDifference

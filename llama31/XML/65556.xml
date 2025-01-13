@@ -1,1 +1,0 @@
-<Grid>\n    <Grid.ColumnDefinitions>\n        <ColumnDefinition Width="Auto"/>\n        <ColumnDefinition Width="*"/>\n    </Grid.ColumnDefinitions>\n    <TextBox \n        TextWrapping="Wrap" \n        MinLines="5" \n        HorizontalAlignment="Stretch" \n        Margin="0,0,0,0" />\n</Grid>

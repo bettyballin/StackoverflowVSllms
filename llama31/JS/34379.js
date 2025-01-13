@@ -1,1 +1,0 @@
-// assuming 'container' is the DIV container and 'item' is the selected item\nconst container = document.getElementById('container');\nconst item = document.getElementById('item');\n\n// scroll the container to the item\ncontainer.scrollTop = item.offsetTop - container.offsetTop;

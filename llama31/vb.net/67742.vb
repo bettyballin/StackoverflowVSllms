@@ -1,1 +1,0 @@
-Dim lineItems = myFile.Select(Function(x) New With {\n    .Name = x.Last_Name & ", " & x.First_Name,\n    .StartDate = x.Day,\n    .EndDate = x.Day\n}).ToList()

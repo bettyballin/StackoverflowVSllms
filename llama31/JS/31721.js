@@ -1,1 +1,0 @@
-Object.prototype.doAjaxCall = function(url) {\n    $.get(url, null, $.proxy(this.handleAjaxResponse, this));\n}

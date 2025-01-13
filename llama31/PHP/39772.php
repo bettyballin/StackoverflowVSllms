@@ -1,1 +1,0 @@
-$galleryId = 'your_gallery_id_here';\n$cookieName = 'gallery_id';\n$cookieValue = $galleryId;\n$cookieDomain = '.yourdomain.com'; // note the dot at the beginning\n\nheader('Set-Cookie: ' . $cookieName . '=' . $cookieValue . '; domain=' . $cookieDomain . '; path=/');

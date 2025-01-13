@@ -1,1 +1,0 @@
-success: function(data){\n    $("#response").html(data);\n    var $response = $(data);\n    var oneval = $response.filter('#title').text();\n    var subval = $response.filter('#message').text();\n    alert(oneval);\n}

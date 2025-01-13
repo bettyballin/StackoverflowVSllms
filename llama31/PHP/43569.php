@@ -1,1 +1,0 @@
-// PHP code\n$twig = new Twig_Environment(new Twig_Loader_Filesystem('templates'));\n$template = $twig->load('template.html.twig');\necho $template->render(array(\n    'fooHeader' => function() { return 'Header content'; },\n    'fooBody' => function() { return 'Body content'; },\n    'fooFooter' => function() { return 'Footer content'; },\n));

@@ -1,1 +1,0 @@
-SELECT \n  n.id AS news_id, \n  n.item AS news_item, \n  a.id AS author_id, \n  a.name AS author_name\nFROM \n  `news` n\nJOIN \n  `authors` a ON n.author_id = a.id

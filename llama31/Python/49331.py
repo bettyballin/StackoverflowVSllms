@@ -1,1 +1,0 @@
-import socket\n\naddrinfo = socket.getaddrinfo(socket.gethostname(), None)\nipv4_addrs = [addr[4][0] for addr in addrinfo if addr[0] == socket.AF_INET]\nHOST = ipv4_addrs[0]

@@ -1,1 +1,0 @@
-Private WithEvents notifyIcon As New NotifyIcon\n\nPrivate Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing\n    notifyIcon.Visible = False\n    notifyIcon.Dispose()\nEnd Sub

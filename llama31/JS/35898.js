@@ -1,1 +1,0 @@
-var getListExecuted = false;\n\n$.ajax({\n    type:'POST',\n    url: 'display.php',\n    data:'id='+id  ,\n    success: function(data){\n        $("#response").html(data);\n\n        if (!getListExecuted) {\n            get_list('get');\n            getListExecuted = true;\n        }\n\n        display();\n    }//success\n}); //Ajax

@@ -1,1 +1,0 @@
-WITH ranked_actions AS (\n  SELECT username, actiondate, status,\n         ROW_NUMBER() OVER (PARTITION BY username ORDER BY actiondate DESC) AS row_num\n  FROM actions\n  WHERE actiondate < 20061231\n)\nSELECT actiondate, status\nFROM ranked_actions\nWHERE row_num = 1;

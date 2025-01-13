@@ -1,1 +1,0 @@
-SELECT dbo.ResolveHostname('stackoverflow.com') AS ipaddress

@@ -1,1 +1,0 @@
-while ($line = fgets($handle)) {\n    $progress = trim($line);\n    $pattern = '/(?<percent>\d{1,3}\.\d{1,2})%\s+of\s+(?<filesize>[\d.]+[kBM])\s+at\s+(?<speed>[\d.]+[kBM\/s])\s+ETA\s+(?<eta>[\d:]+)/';\n    if (preg_match_all($pattern, $progress, $matches)) {\n        // matched\n    }\n}

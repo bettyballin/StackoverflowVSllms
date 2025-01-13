@@ -1,1 +1,0 @@
-puts String.method(:foo).source_locatio

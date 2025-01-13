@@ -1,1 +1,0 @@
-eventId | eventName | ArtistLineup\n--------|-----------|-------------\n1       | Gig1      | Led Zep, The Beatles\n2       | Gig2      | NULL

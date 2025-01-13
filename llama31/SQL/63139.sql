@@ -1,1 +1,0 @@
-SELECT COUNT(*) as num \nFROM keywords \nWHERE campaignId='12' \nAND LCASE(keyword) COLLATE utf8_general_ci = 'hello again æ˜” ã‹ã‚‰ ã‚ã‚‹ å ´æ‰€';

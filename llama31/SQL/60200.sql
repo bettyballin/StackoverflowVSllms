@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n  SELECT *,\n         LAG(Date_Created) OVER (ORDER BY Date_Created) AS Prev_Date\n  FROM Table1\n) AS subquery\nWHERE Date_Created - Prev_Date = 2\nOR (Prev_Date IS NULL AND Date_Created = (SELECT MIN(Date_Created) FROM Table1))

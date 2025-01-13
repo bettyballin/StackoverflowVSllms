@@ -1,1 +1,0 @@
-$("#btnSubmit").prop('disabled', true);

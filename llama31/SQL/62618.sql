@@ -1,1 +1,0 @@
-DECLARE @NewSortOrder float;\nSELECT @NewSortOrder = (SortOrder + (SortOrder - LAG(SortOrder) OVER (ORDER BY SortOrder))) / 2\nFROM Friends\nWHERE FriendID = @PreviousFriend;\n\nUPDATE Friends\nSET SortOrder = @NewSortOrder\nWHERE FriendID = @FriendToInsert;

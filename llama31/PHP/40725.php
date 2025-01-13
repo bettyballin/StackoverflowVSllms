@@ -1,1 +1,0 @@
-$sock = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);\nsocket_connect($sock, 'localhost', 12345); // connect to the C program's socket\nsocket_write($sock, 'Hello from PHP!');\nsocket_close($sock);

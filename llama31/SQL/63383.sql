@@ -1,1 +1,0 @@
-CREATE TABLE ##TempTable (DBName varchar(50));\n\nINSERT INTO ##TempTable (DBName) VALUES ('SweetDB');\n\nGO\n\nUSE [$(SELECT DBName FROM ##TempTable)];\n\nGO\n\nINSERT INTO [dbo].[ProjectVersion] ([DB_Name], [Script]) \nVALUES ((SELECT DBName FROM ##TempTable), '1.2');\n\nDROP TABLE ##TempTable;

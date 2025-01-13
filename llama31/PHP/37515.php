@@ -1,1 +1,0 @@
-if (class_exists('bob')) {\n    bob::yippie();\n}

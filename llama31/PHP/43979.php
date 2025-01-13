@@ -1,1 +1,0 @@
-// In your custom controller class\npublic function myAction()\n{\n    // Set breakpoint here\n    xdebug_break();\n    // ...\n}

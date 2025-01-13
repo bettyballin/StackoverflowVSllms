@@ -1,1 +1,0 @@
-<PropertyGroup>\n  <PreBuildEvent>\n    xcopy /s /y "$(ProjectDir)..\Content\customFolder" "$(ProjectDir)Content\customFolder"\n  </PreBuildEvent>\n</PropertyGroup>

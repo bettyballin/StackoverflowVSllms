@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE DATEPART(year, your_datetime_column) = DATEPART(year, GETDATE())

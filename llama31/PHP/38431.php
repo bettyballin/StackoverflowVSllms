@@ -1,1 +1,0 @@
-// Register the plugin\n$smarty->registerPlugin('function', 'recursive_list', 'smarty_function_recursive_list');\n\n// Assign the data to the template\n$smarty->assign('data', $your_nested_array);\n\n// In your template\n{recursive_list data=$data}

@@ -1,1 +1,0 @@
-const xhr = new XMLHttpRequest();\nxhr.open('PUT', '/example', true);\nxhr.setRequestHeader('Content-Type', 'application/json');\nxhr.send(JSON.stringify({ /* data to send */ }));\n\nxhr.onload = function() {\n  if (xhr.status === 200) {\n    console.log(JSON.parse(xhr.responseText));\n  } else {\n    console.error('Error:', xhr.statusText);\n  }\n};

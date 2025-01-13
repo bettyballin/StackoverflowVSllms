@@ -1,1 +1,0 @@
-var child = $('#parent').children().first();

@@ -1,1 +1,0 @@
-# urls.py\nfrom django.conf.urls import patterns, url\nfrom django.utils.translation import ugettext_lazy as _\n\nurlpatterns = patterns('',\n    url(r'^%s/$' % _('books'), books_view, name="books"),\n)

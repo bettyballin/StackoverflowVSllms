@@ -1,1 +1,0 @@
-// Create a new file in helpers folder, e.g. css_helper.php\nfunction add_css($file) {\n    $CI =& get_instance();\n    $CI->css_files[] = $file;\n}

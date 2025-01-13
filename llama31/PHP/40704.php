@@ -1,1 +1,0 @@
-class MyModel {\n    private $db;\n\n    public function __construct(Database $db) {\n        $this->db = $db;\n    }\n\n    public function doSomething() {\n        // Use the database object\n        $this->db->query('SELECT * FROM my_table');\n    }\n}

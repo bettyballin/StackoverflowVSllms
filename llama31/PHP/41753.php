@@ -1,1 +1,0 @@
-$url = 'http://example.com/your-xml-file.xml'; // replace with your XML URL\n\n// Retrieve the XML content\n$xmlContent = file_get_contents($url);\n\n// Parse the XML content\n$xml = simplexml_load_string($xmlContent);\n\n// Convert the parsed XML to JSON\n$json = json_encode($xml);\n\n// Output the JSON\necho $json;

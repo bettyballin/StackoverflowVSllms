@@ -1,1 +1,0 @@
-ALTER TABLE your_table_name MODIFY COLUMN your_column_name TEXT CHARACTER SET utf8;

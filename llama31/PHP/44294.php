@@ -1,1 +1,0 @@
-$ipAddress = $_SERVER['REMOTE_ADDR'];\n// Store $ipAddress in your database with the user's vote

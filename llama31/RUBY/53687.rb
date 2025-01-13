@@ -1,1 +1,0 @@
-def update\n  @album = Album.find(params[:id])\n  if @album.update(params[:album])\n    redirect_to(:action=>'list')\n  else\n    render(:action=>'edit')\n  end\nend

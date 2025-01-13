@@ -1,1 +1,0 @@
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>\n  <h2><?php the_title(); ?></h2>\n  <p><?php the_content(); ?></p>\n<?php endwhile; else: ?>\n  <p>No posts found.</p>\n<?php endif; ?>

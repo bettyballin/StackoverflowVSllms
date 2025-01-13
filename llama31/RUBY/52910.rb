@@ -1,1 +1,0 @@
-# app/controllers/your_controller.rb\nclass YourController < ApplicationController\n  def validate\n    # Assuming YourModel is the model with validations\n    @your_model = YourModel.new(params[:your_model])\n    @your_model.valid? # Run validations\n    render json: { errors: @your_model.errors }\n  end\nend

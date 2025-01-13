@@ -1,1 +1,0 @@
-$_GET['name'] = '(default name)';\n$name = filter_var($_GET['name'], FILTER_SANITIZE_STRING);

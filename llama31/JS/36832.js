@@ -1,1 +1,0 @@
-$.ajax({\n  type: 'GET',\n  url: 'https://example.com',\n  headers: {\n    'Authorization': 'Basic ' + btoa('username:password')\n  }\n});

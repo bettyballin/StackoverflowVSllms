@@ -1,1 +1,0 @@
-onSuccess: function(transport) {\n    var stylesheets = document.styleSheets;\n    for (i = 0; i < stylesheets.length; i++) {\n        if (stylesheets[i].href.indexOf('/CSS') !== -1) {\n            stylesheets[i].href = '/CSS?' + d.getTime();\n        }\n    }\n}

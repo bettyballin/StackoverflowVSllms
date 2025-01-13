@@ -1,1 +1,0 @@
-$classMap = [\n    'MyClass' => __DIR__ . '/MyClass.php',\n    // ...\n];\n\nspl_autoload_register(function ($class_name) use ($classMap) {\n    if (isset($classMap[$class_name])) {\n        require $classMap[$class_name];\n    }\n});

@@ -1,1 +1,0 @@
-$docFile = 'path/to/document.doc';\n$text = shell_exec('antiword -t ' . escapeshellarg($docFile));

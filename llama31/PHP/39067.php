@@ -1,1 +1,0 @@
-$dateTime = new DateTime('now', new DateTimeZone('UTC'));\n$timeStamp = $dateTime->getTimestamp() * 1000;

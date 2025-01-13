@@ -1,1 +1,0 @@
-SELECT a.ItemDate, c.ClaimNumber, c.DTN\nFROM items a\nWHERE a.ItemType IN (112, 115, 189, 241)\nAND EXISTS (\n  SELECT 1\n  FROM keygroupdata c\n  WHERE c.ItemNum = a.ItemNum\n)\nORDER BY a.DateStored DESC;

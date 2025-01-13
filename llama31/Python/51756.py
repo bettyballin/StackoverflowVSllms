@@ -1,1 +1,0 @@
-my_map = {'a': 1, 'b': 2, 'c': 3}\n\n# Iterate over keys (default behavior)\nfor key in my_map:\n    print(key)\n\n# Iterate over key-value pairs\nfor key, value in my_map.items():\n    print(key, value)

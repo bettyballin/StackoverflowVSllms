@@ -1,1 +1,0 @@
-CREATE TEMP TABLE tempTable (id serial, folio int);\n\nINSERT INTO tempTable(id, folio)\nSELECT 0, folio\nFROM (\n  SELECT folio\n  FROM regularTable\n  ORDER BY folio\n) AS orderedTable;

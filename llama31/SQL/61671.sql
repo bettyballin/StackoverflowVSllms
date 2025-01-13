@@ -1,1 +1,0 @@
--- To test it\nINSERT INTO mytable (id, data) VALUES (1, 'initial data');\nSELECT * FROM mytable;\n\nUPDATE mytable SET data = 'new data' WHERE id = 1;\nSELECT * FROM mytable;

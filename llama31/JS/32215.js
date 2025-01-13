@@ -1,1 +1,0 @@
-fieldsize = $('#fieldSize').fieldValue();\nvar size;\nif (fieldsize == "small") {\n  size = 100;\n} else if (fieldsize == "medium") {\n  size = 200;\n} else if (fieldsize == "large") {\n  size = 400;\n}\n\nif (fieldType == "text") {\n  $("<input id=inputstr" + increment + " type='text' style='width:" + size + "px'></input><br><br>").appendTo("#fb_contentarea_col1down21");\n}

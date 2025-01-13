@@ -1,1 +1,0 @@
-function () { ... }() // this will still work, but it's more obvious what's happening

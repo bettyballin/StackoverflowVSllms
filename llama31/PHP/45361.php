@@ -1,1 +1,0 @@
-$serverTime = new DateTime();\n$serverTime->setTimezone(new DateTimeZone('UTC'));\n\n$userOffset = $_POST['offsetMinutes']; // or $_GET['offsetMinutes']\n$userTimezone = new DateTimeZone($userOffset . ' minutes');\n$userLocalTime = clone $serverTime;\n$userLocalTime->setTimezone($userTimezone);

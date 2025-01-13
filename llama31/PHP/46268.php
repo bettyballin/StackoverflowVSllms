@@ -1,1 +1,0 @@
-error_reporting(E_ALL);\nini_set('display_errors', 1);\n\n// Attempt to move the uploaded file\n$ret = move_uploaded_file($tmp_name, $orig_path);\n\nif (!$ret) {\n    echo json_encode(array(\n        'success' => false,\n        'errno' => error_get_last()['message'],\n    ));\n    exit;\n}

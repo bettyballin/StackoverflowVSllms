@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE EXTRACT(YEAR FROM your_date_column) = your_year\n  AND EXTRACT(MONTH FROM your_date_column) = your_month;

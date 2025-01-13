@@ -1,1 +1,0 @@
-$image = new Imagick('path/to/image.jpg');\n$image->resizeImage(800, 600); // resize image\n$image->writeImage('path/to/resized_image.jpg');

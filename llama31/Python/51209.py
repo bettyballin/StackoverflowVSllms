@@ -1,1 +1,0 @@
-from django.contrib import messages\n\n# In your view\ndef my_view(request):\n    # Process the request...\n    messages.add_message(request, messages.INFO, 'Your status message')\n    return HttpResponseRedirect('/next/url')\n\n# In your template\n{% if messages %}\n  <ul>\n    {% for message in messages %}\n      <li>{{ message }}</li>\n    {% endfor %}\n  </ul>\n{% endif %}

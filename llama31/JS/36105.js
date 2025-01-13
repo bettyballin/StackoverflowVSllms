@@ -1,1 +1,0 @@
-// In your HTML file\nwindow.onbeforeunload = function() {\n    // Call the Flex app's method to close connections\n    myFlexApp.closeConnections();\n}

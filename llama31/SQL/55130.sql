@@ -1,1 +1,0 @@
--- Use query analysis tools to identify performance bottlenecks\nSELECT * FROM sys.dm_exec_query_stats;

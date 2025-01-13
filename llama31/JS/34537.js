@@ -1,1 +1,0 @@
-$.post('/intra/vcard.php', { id: '992772', type: 'sponsor'})\n  .done(function(data) {\n    var blob = new Blob([data], {type: 'text/x-vcard'});\n    var link = document.createElement('a');\n    link.href = URL.createObjectURL(blob);\n    link.download = 'filename.vcf';\n    link.click();\n  });

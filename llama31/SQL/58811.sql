@@ -1,1 +1,0 @@
-select a.* from a where a.id in (select id from b where b.id = a.id)

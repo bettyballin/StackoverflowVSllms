@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n    SELECT 'Hello' AS message\n) AS DRVTBL

@@ -1,1 +1,0 @@
-CREATE PROCEDURE MyProcedure\n    @MyParameter INT\nAS\nBEGIN\n    SELECT *\n    FROM MyTable\n    WHERE (@MyParameter = 1 AND MyColumn IS NULL)\n       OR (@MyParameter = 2 AND MyColumn IS NOT NULL)\n       OR (@MyParameter = 3)\nEND

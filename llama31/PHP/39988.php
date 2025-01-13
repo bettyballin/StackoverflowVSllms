@@ -1,1 +1,0 @@
-<?PHP\nif ($whatsit) {\n    do_something();\n    echo '<html>Some embedded HTML</html>';\n}\nsome_more_code();\n?>

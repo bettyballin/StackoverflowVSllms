@@ -1,1 +1,0 @@
-intList.count(13)

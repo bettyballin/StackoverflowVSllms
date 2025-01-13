@@ -1,1 +1,0 @@
-$.ajax({\n  // ...\n  success: function(data) {\n    applyStyles();\n  }\n});

@@ -1,1 +1,0 @@
-SELECT \n    Year, \n    Week, \n    Sales\nFROM \n    (SELECT \n         Year, \n         [Week 1], \n         [Week 2], \n         ..., \n         [Week 52]\n     FROM \n         YourTable) p\nUNPIVOT \n    (Sales FOR Week IN ([Week 1], [Week 2], ..., [Week 52])) AS unpiv;

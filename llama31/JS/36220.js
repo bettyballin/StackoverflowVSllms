@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  Highcharts.chart('container', {\n    chart: {\n      type: 'line'\n    },\n    title: {\n      text: 'My Chart'\n    },\n    series: [{\n      data: [1, 2, 3, 4, 5]\n    }]\n  });\n});

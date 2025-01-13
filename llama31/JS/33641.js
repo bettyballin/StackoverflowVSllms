@@ -1,1 +1,0 @@
-$(function() {\n  var toggle = false;\n  \n  function first_function() {\n    // code goes here\n  }\n  \n  function second_function() {\n    // code goes here\n  }\n  \n  $("#link").click(function() {\n    if (toggle) {\n      second_function();\n    } else {\n      first_function();\n    }\n    toggle = !toggle;\n  });\n});

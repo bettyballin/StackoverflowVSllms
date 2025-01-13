@@ -1,1 +1,0 @@
-import gtk\n\n# Add widget to scrolled window\nscrolled_window.add(widget)\n\n# Show all widgets in the container\ngtk.widget_show_all(scrolled_window)\n\n# Process all pending events\ngtk.main_iteration_do(False)\n\n# Now you can get the allocation of the widget\nallocation = widget.get_allocation()

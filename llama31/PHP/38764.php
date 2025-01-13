@@ -1,1 +1,0 @@
-catch (Exception $e) {\n    // Handle the error or re-throw the Exception\n    echo $e->getMessage();\n    // or\n    throw $e;\n}

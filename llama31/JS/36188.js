@@ -1,1 +1,0 @@
-if (document.compatMode === 'BackCompat') {\n  // browser is in quirks mode\n} else if (document.compatMode === 'CSS1Compat') {\n  // browser is in standards mode\n}

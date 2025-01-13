@@ -1,1 +1,0 @@
-SELECT \n    COALESCE(FirstName + ' ', '') + \n    COALESCE(MiddleName + ' ', '') + \n    COALESCE(LastName, '')\nAS FullName\nFROM YourTable;

@@ -1,1 +1,0 @@
-function getStats(): array {\n    return [\n        'views' => 100,\n        'clicks' => 20,\n        'conversions' => 5,\n    ];\n}

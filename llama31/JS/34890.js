@@ -1,1 +1,0 @@
-$('#myForm').autoSave({\n  saveUrl: '/save-data',\n  interval: 2000, // save every 2 seconds\n  onChange: true,\n  onBlur: true,\n  dataSelector: 'input, textarea'\n});

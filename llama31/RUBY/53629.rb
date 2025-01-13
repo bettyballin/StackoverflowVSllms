@@ -1,1 +1,0 @@
-require 'sinatra'\nrequire 'active_record'\n\n# Set up your database connection\nActiveRecord::Base.establish_connection(\n  adapter: 'sqlite3',\n  database: 'your_database.db'\n)\n\n# Define your models\nclass User < ActiveRecord::Base\n  # ...\nend\n\n# Use your models in your Sinatra routes\nget '/users' do\n  @users = User.all\n  erb :index\nend

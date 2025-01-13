@@ -1,1 +1,0 @@
-$ ipython\nIn [1]: %timeit [x**2 for x in range(1000)]\n1000 loops, best of 3: 1.35 ms per loop

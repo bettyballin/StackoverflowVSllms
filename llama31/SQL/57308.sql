@@ -1,1 +1,0 @@
-DELIMITER //\n\nCREATE AGGREGATE FUNCTION checksum_agg_string(value VARCHAR(255)) RETURNS INT\nBEGIN\n  DECLARE checksum INT DEFAULT 0;\n  DECLARE count INT DEFAULT 0;\n\n  UPDATE checksum, count\n  SET checksum = CRC32(value) ^ checksum,\n      count = count + 1;\n\n  RETURN checksum;\nEND //\n\nDELIMITER ;

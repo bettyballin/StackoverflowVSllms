@@ -1,1 +1,0 @@
-function chainOnLoad(newFunction) {\n  var oldOnLoad = window.onload;\n  window.onload = function() {\n    if (typeof oldOnLoad === 'function') {\n      oldOnLoad();\n    }\n    newFunction();\n  }\n}\n\n// Usage:\nchainOnLoad(function() {\n  alert("ha!");\n});

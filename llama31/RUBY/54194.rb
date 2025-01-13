@@ -1,1 +1,0 @@
-class MyClass\n  def my_method\n    puts "Hello, world!"\n  end\nend\n\nmy_object = MyClass.new\nmy_object.my_method # prints "Hello, world!"\n\nmy_proc = proc { puts "Hello, world!" }\nmy_proc.call # prints "Hello, world!"

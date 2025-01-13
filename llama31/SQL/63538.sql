@@ -1,1 +1,0 @@
-CREATE TEMPORARY TABLE temp_ids (id INT PRIMARY KEY);\nINSERT INTO temp_ids (id) VALUES (...ids list...);\nSELECT *\nFROM tab1\nJOIN temp_ids ON tab1.id = temp_ids.id;

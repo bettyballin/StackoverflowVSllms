@@ -1,1 +1,0 @@
-<%= @rendering_action %>

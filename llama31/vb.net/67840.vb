@@ -1,1 +1,0 @@
-If log.IsDebugEnabled Then\n    log.Debug("Integration Services Constructed")\nEnd If

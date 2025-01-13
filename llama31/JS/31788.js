@@ -1,1 +1,0 @@
-// Server-side code (e.g. Node.js)\nconst Handlebars = require('handlebars');\nconst template = Handlebars.compile('my-template');\n\nconst data = { postUrl: '/post-handler' };\nconst html = template(data);\n\n// Client-side code\n$(document).ready(function() {\n  $.ajax({\n    url: '{{postUrl}}',\n    success: function() {\n      alert('Post successful');\n    }\n  });\n});

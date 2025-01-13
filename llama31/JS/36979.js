@@ -1,1 +1,0 @@
-$(pagerDiv).html(newPagerHtml);

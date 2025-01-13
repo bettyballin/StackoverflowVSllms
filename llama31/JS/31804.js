@@ -1,1 +1,0 @@
-const input = document.createElement('input');\ninput.type = 'file';\ninput.onchange = (e) => {\n  const file = input.files[0];\n  const lastModified = file.lastModified;\n  console.log(`File was modified on ${new Date(lastModified)}`);\n};\ndocument.body.appendChild(input);

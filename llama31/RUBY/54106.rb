@@ -1,1 +1,0 @@
-# Load the Rails console\nrails c\n\n# Use the `helper` method to call a view helper method\nhelper.my_helper_method\n\n# Use the `controller` method to call a controller method\ncontroller = ApplicationController.new\ncontroller.my_controller_method

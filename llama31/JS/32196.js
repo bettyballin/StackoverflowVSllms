@@ -1,1 +1,0 @@
-// Example usage:\nconst fileInput = new FileInput({\n  element: document.getElementById("file-input"),\n  uploadUrl: "/upload",\n  maxFiles: 10,\n  allowedExtensions: ["jpg", "png", "zip"]\n});

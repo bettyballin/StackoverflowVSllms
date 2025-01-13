@@ -1,1 +1,0 @@
-from django.contrib.auth.decorators import login_required\nfrom django.views.decorators.csrf import csrf_exempt\n\n@login_required\n@csrf_exempt\ndef my_view(request):\n    # Your view code here\n    pass

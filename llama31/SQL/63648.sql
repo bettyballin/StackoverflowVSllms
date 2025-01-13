@@ -1,1 +1,0 @@
-DROP DATABASE <old_ssp_database_name>;

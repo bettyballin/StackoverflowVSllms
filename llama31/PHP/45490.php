@@ -1,1 +1,0 @@
-$reg = '/mailto:([\w-]+@([\w-]+\.)+[\w-]+)/i';\n$replace = '$1'; // Reference the first capture group\n$matches = preg_replace($reg, $replace, $matches);

@@ -1,1 +1,0 @@
-document.body.style.background = '#000000 url(images/back_all.gif) repeat-x top';

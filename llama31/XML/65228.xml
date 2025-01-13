@@ -1,1 +1,0 @@
-<system.web>\n    <httpModules>\n        <add name="Rewriter" type="System.Web.Rewriter.RewriterModule, System.Web.Rewriter" />\n    </httpModules>\n</system.web>

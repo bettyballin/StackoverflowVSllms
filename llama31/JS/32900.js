@@ -1,1 +1,0 @@
-window.addEventListener('message', function(event) {\n  if (event.data === 'buttonClicked') {\n    myJavaScriptFunction();\n  }\n});

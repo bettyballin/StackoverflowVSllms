@@ -1,1 +1,0 @@
-$command = "ec2-associate-address -i $id ip.###.###.###";\nexec("cmd /c $command");

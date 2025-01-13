@@ -1,1 +1,0 @@
-require 'java'\njava_import 'oracle.jdbc.driver.OracleDriver'

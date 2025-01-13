@@ -1,1 +1,0 @@
-SELECT T1.AccountNo, T1.Balance, T2.Balance\nINTO MismatchedAccounts\nFROM Temp1 T1, Temp2 T2\nWHERE \n  T1.AccountNo = T2.AccountNo\nAND \n  ((T1.Balance / NULLIF(T2.Balance, 0) > 1.1) OR\n   (T1.Balance / NULLIF(T2.Balance, 0) < 0.9))

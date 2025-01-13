@@ -1,1 +1,0 @@
-$data = null;\n$objects = [obj, othObj, anothObj, anothOne];\n\nforeach ($objects as $object) {\n    if ($data = $object->getData()) {\n        break;\n    }\n}\n\nprocess($data);

@@ -1,1 +1,0 @@
-SELECT *\nFROM table1 t1\nJOIN table2 t2\nON t1.column_name = t2.column_name;

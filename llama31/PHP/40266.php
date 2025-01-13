@@ -1,1 +1,0 @@
-$command = "ls -l"; // example command\nsystem($command, $return_var);\necho $return_var; // prints the return value of the command

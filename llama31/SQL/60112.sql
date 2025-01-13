@@ -1,1 +1,0 @@
-INSERT INTO purchases (productid, price)\nSELECT p.id, p.price\nFROM products p\nWHERE p.id = ?;

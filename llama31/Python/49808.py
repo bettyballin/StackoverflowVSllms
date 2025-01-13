@@ -1,1 +1,0 @@
-class ContactOrganization(db.Model):\n    contact = db.ReferenceProperty(Contact)\n    organization = db.ReferenceProperty(Organization)

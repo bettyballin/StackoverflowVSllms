@@ -1,1 +1,0 @@
-ALTER TABLE mytable NOLOGGING;\n\n-- Perform inserts here\n\nALTER TABLE mytable LOGGING;

@@ -1,1 +1,0 @@
-import psutil\n\nfor proc in psutil.process_iter(['pid', 'name']):\n    print(proc.info)

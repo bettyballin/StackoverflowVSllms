@@ -1,1 +1,0 @@
--- Malicious input\nsInput = " Robert'); DROP TABLE Students; -- "\n\n-- Your sanitization method\nsSanitizedInput = "'" & Replace(sInput, "'", "''") & "'"\n\n-- Resulting SQL query\nSELECT * FROM Students WHERE Name = ' Robert''); DROP TABLE Students; -- '

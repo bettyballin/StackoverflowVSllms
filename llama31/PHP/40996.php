@@ -1,1 +1,0 @@
-header("Content-Encoding: gzip");

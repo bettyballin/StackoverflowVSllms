@@ -1,1 +1,0 @@
-const parent = document.getElementById('parent');\nconst childWidth = parent.scrollWidth;\nconsole.log(childWidth);

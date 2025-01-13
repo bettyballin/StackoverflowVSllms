@@ -1,1 +1,0 @@
-import re\n\nhtml_string = "<SYNC Start=364><P Class=KRCC>\n<Font Color=lightpink>abcd\n</Font></P></SYNC>"\n\n# Regular expression pattern to match unwanted HTML tags\npattern = r"</?(\w+).*?>"\n\n# Replace unwanted HTML tags with an empty string\nclean_string = re.sub(pattern, "", html_string)\n\nprint(clean_string)  # Output: abcd

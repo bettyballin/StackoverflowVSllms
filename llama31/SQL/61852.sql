@@ -1,1 +1,0 @@
-DECLARE @columnName sysname = 'col_3';  -- your variable\nDECLARE @sql nvarchar(max) = 'SELECT ' + QUOTENAME(@columnName) + ' FROM your_table WHERE id = 1';\n\nEXEC sp_executesql @sql;

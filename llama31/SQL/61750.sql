@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION greet(name text)\nRETURNS text AS $$\nBEGIN\n  RETURN 'Hello, ' || name || '!';\nEND;\n$$ LANGUAGE plpgsql;

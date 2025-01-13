@@ -1,1 +1,0 @@
-Dim key As String = "someKey"\nDim predicate As New KeyPredicate(Of MyClass)(key)\nDim blah As MyClass = MyList.Find(predicate)

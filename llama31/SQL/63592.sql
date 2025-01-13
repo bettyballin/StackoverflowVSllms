@@ -1,1 +1,0 @@
--- Disable all foreign key constraints on a table and prevent them from being re-enabled automatically\nALTER TABLE [TableName] NOCHECK ALL IGNORE_DTC;

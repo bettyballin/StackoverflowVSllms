@@ -1,1 +1,0 @@
-Me.SuspendLayout()\n' Update your controls here\nMe.ResumeLayout()

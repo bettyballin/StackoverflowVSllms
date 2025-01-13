@@ -1,1 +1,0 @@
--- Example of a simple view\nCREATE VIEW SalesReport AS\nSELECT * FROM Sales WHERE Date > '2020-01-01';

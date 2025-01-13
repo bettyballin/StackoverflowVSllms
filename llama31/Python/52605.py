@@ -1,1 +1,0 @@
-import re\n\nt = '@abc @def Hello this part is text'\n\n# Extract the @names\nat_names = re.findall(r'@\w+', t)\n\n# Extract the text part\ntext = re.sub(r'^@\w+\s*', '', t)\n\nprint(at_names)  # Output: ['@abc', '@def']\nprint(text)      # Output: 'Hello this part is text'

@@ -1,1 +1,0 @@
-$.ajax({\n    type:'POST',\n    url: 'display.php',\n    data:'id='+id  ,\n    complete: function(){\n        get_list('get');\n    },\n    success: function(data){\n        $("#response").html(data);\n        display();\n    }\n}); //Ajax

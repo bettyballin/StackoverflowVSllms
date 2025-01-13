@@ -1,1 +1,0 @@
-$pdf->setCharacterEncoding('UTF-8');

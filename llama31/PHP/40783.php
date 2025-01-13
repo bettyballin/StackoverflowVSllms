@@ -1,1 +1,0 @@
-$dir = '/path/to/directory';\n$files = scandir($dir);\n\nforeach ($files as $file) {\n    if ($file !== '.' && $file !== '..') {\n        echo $file . "\n";\n    }\n}

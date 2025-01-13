@@ -1,1 +1,0 @@
-// file1.php\nif (isset($_POST['button1'])) {\n    $result = processInformation();\n    header('Location: file2.php?result='.$result);\n    exit;\n}\n\n// file2.php\n$result = $_GET['result'];\necho $result;

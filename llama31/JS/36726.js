@@ -1,1 +1,0 @@
-$.ajax({\n  type: "POST",\n  url: "setClientVariable.cfm",\n  data: {\n    variableName: "myVariable",\n    variableValue: "myValue"\n  }\n});

@@ -1,1 +1,0 @@
-Dim retval As New Data.OracleClient.OracleParameter("retval", DbType.Decimal)\nretval.Direction = ParameterDirection.ReturnValue

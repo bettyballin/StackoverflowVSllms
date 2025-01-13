@@ -1,1 +1,0 @@
-def decimal_range_to_regex(min_value, max_value):\n    min_pattern = decimal_to_regex(min_value)\n    max_pattern = decimal_to_regex(max_value)\n    return "(" + min_pattern + ")|(" + max_pattern + ")"\n\n# Example usage:\nprint(decimal_range_to_regex(100, 199))  # Output: (^1[0-9][0-9]$)|(^1[1-9][9]$)

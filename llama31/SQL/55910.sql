@@ -1,1 +1,0 @@
-SELECT *\nFROM YourDimensionTable\nWHERE LOWER(EmployeeName) = LOWER(?)

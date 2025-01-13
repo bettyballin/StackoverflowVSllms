@@ -1,1 +1,0 @@
-CREATE TABLE Products (\n  ProductId INT PRIMARY KEY,\n  CategoryId INT NOT NULL,\n  FOREIGN KEY (CategoryId) REFERENCES Categories(CategoryId)\n)

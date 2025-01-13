@@ -1,1 +1,0 @@
-if (!is_array($foo)) {\n    throw new \InvalidArgumentException('Expected an array');\n}

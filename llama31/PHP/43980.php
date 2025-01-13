@@ -1,1 +1,0 @@
-// In your authentication controller class\npublic function loginAction()\n{\n    // Set breakpoint here\n    xdebug_break();\n    // ...\n}

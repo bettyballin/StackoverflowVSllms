@@ -1,1 +1,0 @@
-use Phpml\Math\Matrix;\n\n$matrix = new Matrix([\n    [1, 2, 3],\n    [4, 5, 6],\n    [7, 8, 9]\n]);\n\n$transpose = $matrix->transpose();\n$inverse = $matrix->inverse();\n$determinant = $matrix->determinant();\n\necho "Transpose:\n";\necho $transpose;\n\necho "\nInverse:\n";\necho $inverse;\n\necho "\nDeterminant:\n";\necho $determinant;

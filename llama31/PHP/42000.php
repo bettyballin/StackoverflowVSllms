@@ -1,1 +1,0 @@
-// Loose comparison\nvar_dump('0' == 0); // bool(true)\nvar_dump('0' == false); // bool(true)\n\n// Strict comparison\nvar_dump('0' === 0); // bool(false)\nvar_dump('0' === false); // bool(false)

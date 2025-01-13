@@ -1,1 +1,0 @@
-SELECT DATEADD(dd, 0, DATEDIFF(dd, 0, datetime_column))

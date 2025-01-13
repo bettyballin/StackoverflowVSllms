@@ -1,1 +1,0 @@
-$source = file_get_contents('your_source_file.html');\npreg_match_all('/<option value="([^"]+)">([^<]+)<\/option>/', $source, $matches);\n$arr = array();\nforeach ($matches[1] as $key => $value) {\n    $arr[$value] = $matches[2][$key];\n}\nprint_r($arr);

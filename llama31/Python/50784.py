@@ -1,1 +1,0 @@
-class LabelLessForm(forms.Form):\n    def __init__(self, *args, **kwargs):\n        super(LabelLessForm, self).__init__(*args, **kwargs)\n        for field in self.fields.values():\n            field.label = ""\n\nclass CommentForm(LabelLessForm):\n    comment = forms.CharField(widget=forms.Textarea())

@@ -1,1 +1,0 @@
-// at the start of your upgrade script\n$drain_file = 'drain.txt';\ntouch($drain_file);\n\n// in your application code\nif (file_exists($drain_file)) {\n    // new users are blocked, existing users can finish their actions\n    if (!isset($_SESSION[' existing_user'])) {\n        header('HTTP/1.1 503 Service Unavailable');\n        exit;\n    }\n}

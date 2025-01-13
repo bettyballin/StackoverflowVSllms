@@ -1,1 +1,0 @@
-// Create a new search index\n$index = new SearchApiIndex();\n$index->name = 'rss_feeds';\n$index->datasource = 'entity:feed';

@@ -1,1 +1,0 @@
-class MyController extends Zend_Controller_Action\n{\n    public function init()\n    {\n        $this->setRequest(new My_Request());\n    }\n}

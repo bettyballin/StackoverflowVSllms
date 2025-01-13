@@ -1,1 +1,0 @@
-$videoURL = (string)$attrs->url;

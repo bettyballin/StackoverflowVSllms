@@ -1,1 +1,0 @@
-SELECT yt.id\nFROM your_table yt\nJOIN your_table_values ytv ON yt.id = ytv.id\nWHERE ytv.value = '1';

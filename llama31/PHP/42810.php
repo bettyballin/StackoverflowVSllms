@@ -1,1 +1,0 @@
-// Set the user ID in a secure cookie\nsetcookie('uid', $uid, time() + 3600, '/', 'yourdomain.com', true, true);\n\n// Access the user ID in another script\n$uid = $_COOKIE['uid'];

@@ -1,1 +1,0 @@
-<subsystem xmlns="urn:jboss:domain:web:2.2" default-virtual-server="default-host" native="false">\n    ...\n    <session-config>\n        <jdbc-store datasource="java:/PostgresDS" table-name="sessions"/>\n    </session-config>\n    ...\n</subsystem>

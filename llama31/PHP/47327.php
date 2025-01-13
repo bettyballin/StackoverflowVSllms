@@ -1,1 +1,0 @@
-require_once 'Text/LanguageDetect.php';\n\n$detector = new Text_LanguageDetect();\n\n$text = "This is a sample text in English.";\n$language = $detector->detect($text);\n\necho "Detected language: " . $language;

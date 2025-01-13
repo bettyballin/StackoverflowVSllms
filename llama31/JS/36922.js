@@ -1,1 +1,0 @@
-disableValidators('<%= YourGridView.ClientID %>');

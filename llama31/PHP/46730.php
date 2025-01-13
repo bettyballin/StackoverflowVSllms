@@ -1,1 +1,0 @@
-class Myclass {\n    public function __construct($params) {\n        if (!$this->insert($params)) {\n            throw new Exception("Insert failed");\n        }\n    }\n\n    private function insert($params) {\n        // your insert code here\n        // return true if insert is successful, false otherwise\n    }\n}

@@ -1,1 +1,0 @@
-var log = function(arg1, arg2){\n    console.log("inside :" + arg1 + " / " + arg2);\n};\n\nvar wrap = function(fn){\n    return function(){\n        console.log("before :");\n        fn.apply(this, arguments); // <--- Use apply and arguments\n        console.log("after :");\n    }\n};\n\nvar fn = wrap(log); // No need for new\nfn(1, 2);

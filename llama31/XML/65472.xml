@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <globalization uiCulture="auto" culture="auto" />\n  </system.web>\n</configuration>

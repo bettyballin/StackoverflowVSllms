@@ -1,1 +1,0 @@
-// ListsController.php\npublic function view($id) {\n    $list = $this->List->findById($id);\n    $sortedItems = $list->sortItems();\n    // ...\n}

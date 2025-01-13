@@ -1,1 +1,0 @@
-UPDATE table SET field3 = CONCAT(field1, '_', field2)

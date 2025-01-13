@@ -1,1 +1,0 @@
-WITH updated_values AS (\n  SELECT id, row_number() OVER () AS new_unique_number\n  FROM person\n)\nUPDATE person p\nSET unique_number = uv.new_unique_number\nFROM updated_values uv\nWHERE p.id = uv.id;

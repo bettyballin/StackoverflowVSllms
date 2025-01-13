@@ -1,1 +1,0 @@
-komodo.editor.setFocus();\nsetTimeout(function() {\n    komodo.doCommand('cmd_selectWordLeft');\n}, 100);

@@ -1,1 +1,0 @@
-CREATE TABLE #ids (id INT PRIMARY KEY);\n\nINSERT INTO #ids (id)\nVALUES (123), (456), (789), ... , (400th_number);\n\nSELECT t.*\nFROM your_table t\nINNER JOIN #ids i ON t.id = i.id;

@@ -1,1 +1,0 @@
-DECLARE @searchTerm nvarchar(50) = @userInput\n\nSELECT *\nFROM yourTable\nWHERE CONTAINS(yourColumn, @searchTerm LANGUAGE N'English');

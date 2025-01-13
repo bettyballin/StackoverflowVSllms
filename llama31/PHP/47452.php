@@ -1,1 +1,0 @@
-// processing.php\n$processedData = '...';\nheader('Location: display.php?data=' . urlencode($processedData));\nexit;\n\n// display.php\n$data = $_GET['data'];\n// display the results

@@ -1,1 +1,0 @@
-// HomeController.php\nclass HomeController extends Controller {\n    public function index() {\n        // Access multiple models and render the homepage view\n    }\n}

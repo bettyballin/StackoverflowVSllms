@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $.ajax({\n        type: 'POST',\n        url: 'path/to/user-join',\n        data: { userId: 'user-id' }\n    });\n});

@@ -1,1 +1,0 @@
-$url = 'https://example.com/file.txt';\n$headers = get_headers($url, 1);\nprint_r($headers);

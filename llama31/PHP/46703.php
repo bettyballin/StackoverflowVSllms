@@ -1,1 +1,0 @@
-use SecureHeaders\SecureHeaders;\n\n$headers = new SecureHeaders();\n$headers->addHeader('Content-Security-Policy', "default-src 'self';");

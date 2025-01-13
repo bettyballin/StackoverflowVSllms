@@ -1,1 +1,0 @@
-from types import SimpleNamespace\n\nfoo = 'what'\nbar = 'ever'\n\nns = SimpleNamespace(foo=foo, bar=bar)\n\nprint(ns.foo)  # what\n\nns.baz = 'another'\n\nprint(ns.baz)  # another

@@ -1,1 +1,0 @@
-use Symfony\Component\HttpFoundation\Response;\n\n$data = array('foo' => 'bar', 'baz' => 'qux');\n$jsonData = json_encode($data);\n\n$response = new Response();\n$response->setCookie('myCookie', $jsonData);\n\nreturn $response;

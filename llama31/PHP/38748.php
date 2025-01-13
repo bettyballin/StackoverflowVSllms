@@ -1,1 +1,0 @@
-$string = implode("", $array);\necho $string; // Outputs: "hello"

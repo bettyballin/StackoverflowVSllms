@@ -1,1 +1,0 @@
-def aggregate_chatbot_training_data(data):\n    # Aggregate data based on specific criteria\n    aggregated_data = aggregate_data(data)\n    return aggregated_data

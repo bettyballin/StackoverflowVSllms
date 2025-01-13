@@ -1,1 +1,0 @@
-SELECT \n  AUTHOR, \n  CODE, \n  COUNT(CODE) AS codeAppearsNTimes\nFROM \n  your_table\nWHERE \n  COUNTRY = 'your_country'\nGROUP BY \n  AUTHOR, CODE;

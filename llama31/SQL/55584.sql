@@ -1,1 +1,0 @@
-SELECT \n    t1.Index,\n    MIN(t1.[Date]) AS MinDate,\n    MAX(t1.[Date]) AS MaxDate\nFROM \n    myTable t1\nINNER JOIN \n    (SELECT DISTINCT Index \n     FROM myTable \n     WHERE [Date] BETWEEN '1/1/2000' AND '12/31/2000') t2\nON \n    t1.Index = t2.Index\nGROUP BY \n    t1.Index\nORDER BY \n    t1.Index ASC;

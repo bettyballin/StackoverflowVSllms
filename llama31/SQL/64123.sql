@@ -1,1 +1,0 @@
--- Correlated sub-query\nSELECT * \nFROM customers c \nWHERE EXISTS (\n  SELECT 1 \n  FROM orders o \n  WHERE o.customer_id = c.customer_id \n  AND o.order_date > DATE '2022-01-01'\n);\n\n-- Rewritten as a join\nSELECT DISTINCT c.* \nFROM customers c \nJOIN orders o ON c.customer_id = o.customer_id \nWHERE o.order_date > DATE '2022-01-01';

@@ -1,1 +1,0 @@
-$password = 'mysecretpassword';\n$hashed_password = password_hash($password, PASSWORD_DEFAULT);\n// Store $hashed_password in your database\n\n// Later, to verify the password:\n$stored_hash = // retrieve the stored hash from your database\nif (password_verify($password, $stored_hash)) {\n    // Password is valid\n} else {\n    // Password is invalid\n}

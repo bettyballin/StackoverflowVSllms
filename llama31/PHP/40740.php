@@ -1,1 +1,0 @@
-class MyClass {\n    private function myPrivateMethod() {\n        // Non-public function not intended to be extended\n    }\n\n    protected function myProtectedMethod() {\n        // Non-public function intended to be extended by subclasses\n    }\n}

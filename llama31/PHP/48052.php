@@ -1,1 +1,0 @@
-class ClassB extends ClassA {\n  function __get($item) {\n    // this will override ClassA's __get() function\n  }\n}

@@ -1,1 +1,0 @@
-if ($_POST) {\n    // This might not be executed even if the request method is POST\n}

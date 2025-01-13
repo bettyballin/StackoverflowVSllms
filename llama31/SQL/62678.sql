@@ -1,1 +1,0 @@
-UPDATE Friends\nSET SortOrder = @TopAnchor + 1\nWHERE FriendID = @FriendToMove;

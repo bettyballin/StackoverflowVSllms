@@ -1,1 +1,0 @@
-SELECT \n    P.Name AS ParentName,\n    C.Name AS ChildName\nFROM \n    Parent P\nLEFT OUTER JOIN \n    Children C ON P.ParentID = C.ParentID\nORDER BY \n    P.ParentID;

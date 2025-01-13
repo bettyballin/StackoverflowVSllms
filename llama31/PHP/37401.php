@@ -1,1 +1,0 @@
-$message = "Message sent: $date \n\n\n\nName: $name\n\nCompany: $company\n\nEmail: $email\n\nPhone: $phone\n\n\n\nOrder:\n\n";\n$message .= "$item1 \tx$qty1\n\n$item2 \tx$qty2\n\n$item3 \tx$qty3\n";

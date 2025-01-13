@@ -1,1 +1,0 @@
-CREATE TABLE tblFilter (\n    FilterID uniqueidentifier,\n    ColumnName nvarchar(50),\n    FilterType tinyint,  -- 0 = ignore, 1 = equals, 2 = not equals, etc.\n    FilterValue nvarchar(4000)\n);

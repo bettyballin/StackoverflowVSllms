@@ -1,1 +1,0 @@
-<?php\n    $id = $_GET["email"];\n    echo ($id);\n?>

@@ -1,1 +1,0 @@
-CREATE TABLE YourTable (\n    DateColumn datetime\n);\n\n-- When inserting data, use the following format:\nINSERT INTO YourTable (DateColumn)\nVALUES (CONVERT(datetime, '2022-07-25', 101));

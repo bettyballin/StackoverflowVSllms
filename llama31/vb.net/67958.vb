@@ -1,1 +1,0 @@
-Private Sub Form_BeforeUpdate(Cancel As Integer)\n    ' Validate field 1\n    If Me.Field1.Value = "" Then\n        MsgBox "Field 1 is required", vbCritical\n        Cancel = True\n    End If\n    \n    ' Validate field 2\n    If Me.Field2.Value < 0 Then\n        MsgBox "Field 2 must be greater than 0", vbCritical\n        Cancel = True\n    End If\nEnd Sub

@@ -1,1 +1,0 @@
-$query = iconv('latin-1', 'utf-8', $query);

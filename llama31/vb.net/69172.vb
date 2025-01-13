@@ -1,1 +1,0 @@
-Label1.Text = "Hello," & Environment.NewLine & "World!"

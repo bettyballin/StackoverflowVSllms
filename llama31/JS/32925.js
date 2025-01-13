@@ -1,1 +1,0 @@
-var grid = Ext.ComponentQuery.query('gridpanel')[0]; // Assuming you have only one gridpanel on the page\nvar columnModel = grid.getColumnModel();\nvar columnCount = columnModel.getColumnCount();

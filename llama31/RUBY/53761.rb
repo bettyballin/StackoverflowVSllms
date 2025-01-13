@@ -1,1 +1,0 @@
-plot(1:10, ylab = "")\nmtext("Your label here", side = 2, line = 2.5, cex = 0.8)

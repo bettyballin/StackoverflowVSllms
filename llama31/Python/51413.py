@@ -1,1 +1,0 @@
-leading = (Ascender - Descender + LineGap) * fontSize / unitsPerEm

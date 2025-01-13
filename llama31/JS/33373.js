@@ -1,1 +1,0 @@
-$("#myForm").validate({\n  errorPlacement: function(error, element) {\n    // Don't display error messages next to the input field\n    // Instead, use a tooltip to display the error message\n    element.tooltip({\n      content: error.text(),\n      position: {\n        my: "left top",\n        at: "left bottom",\n        of: element\n      }\n    });\n  }\n});

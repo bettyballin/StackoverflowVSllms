@@ -1,1 +1,0 @@
-CREATE TABLE ip_addresses (\n  id INT PRIMARY KEY,\n  ip_address BINARY(16) NOT NULL,\n  prefix_length TINYINT NOT NULL\n);

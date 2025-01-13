@@ -1,1 +1,0 @@
-var dpi = (function() {\n    var div = document.createElement('div');\n    div.style.position = 'absolute';\n    div.style.top = '-1000px';\n    div.style.left = '-1000px';\n    div.style.width = '1in';\n    div.style.height = '1in';\n    document.body.appendChild(div);\n    var dpi = div.offsetWidth;\n    document.body.removeChild(div);\n    return dpi;\n})();

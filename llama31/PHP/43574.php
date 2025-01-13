@@ -1,1 +1,0 @@
-$file_url = 'path/to/file.png?' . time();

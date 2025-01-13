@@ -1,1 +1,0 @@
-// Create a new directory with permissions 755\nmkdir('/path/to/directory', 0755);\n\n// Move the uploaded file to the new directory with permissions 644\nmove_uploaded_file($_FILES['file']['tmp_name'], '/path/to/directory/'.$_FILES['file']['name']);\nchmod('/path/to/directory/'.$_FILES['file']['name'], 0644);

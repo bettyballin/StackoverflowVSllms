@@ -1,1 +1,0 @@
-<system.webServer>\n    <serverRuntime>\n        <hostName>yourwebsite.yourdomain.com</hostName>\n    </serverRuntime>\n</system.webServer>

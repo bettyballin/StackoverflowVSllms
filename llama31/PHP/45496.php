@@ -1,1 +1,0 @@
-$array[] = trim(fgets($handle, 4096));

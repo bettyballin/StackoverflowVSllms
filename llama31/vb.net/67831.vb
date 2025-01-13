@@ -1,1 +1,0 @@
-Private Declare Function CoFreeUnusedLibraries Lib "ole32" () As Long\n\nSub UnloadControl()\n    CoFreeUnusedLibraries\nEnd Sub

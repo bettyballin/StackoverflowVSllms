@@ -1,1 +1,0 @@
-if (true) {\n    let functionOne = function() {\n        console.log("Hello");\n    }\n}\n\nfunctionOne(); // ReferenceError: functionOne is not defined

@@ -1,1 +1,0 @@
-INSERT INTO row_counts (table_name, row_count)\nSELECT 'your_table_name', COUNT(*)\nFROM your_table_name;

@@ -1,1 +1,0 @@
-<?php\nphpinfo(INFO_GENERAL);\n?>

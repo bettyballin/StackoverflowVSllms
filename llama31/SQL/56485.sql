@@ -1,1 +1,0 @@
--- Example SQL Server configuration\n-- ( note: actual values depend on your specific needs and hardware )\n\n-- Set max degree of parallelism to take advantage of multiple cores\nsp_configure 'max degree of parallelism', 16;\nGO\n\n-- Set cost threshold for parallelism to a reasonable value\nsp_configure 'cost threshold for parallelism', 5;\nGO

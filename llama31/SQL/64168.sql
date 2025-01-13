@@ -1,1 +1,0 @@
-SELECT \n    CONVERT(MONEY, COALESCE(YourField, '0.00')) AS ConvertedField\nFROM \n    YourTable;

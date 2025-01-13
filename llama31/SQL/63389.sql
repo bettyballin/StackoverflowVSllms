@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE your_column REGEXP '[^\\[\\]]+' AND your_column NOT REGEXP '^\\[lang_[a-z]+\\].*\\[/lang_[a-z]+\\]$'

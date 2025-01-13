@@ -1,1 +1,0 @@
-Sub InsertCharacters()\n    Dim cell As Range\n    For Each cell In Selection\n        cell.Value = Left(cell.Value, 1) & "08" & Right(cell.Value, Len(cell.Value) - 1)\n    Next cell\nEnd Sub

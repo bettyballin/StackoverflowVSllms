@@ -1,1 +1,0 @@
-$response = file_get_contents($url);\n$data = simplexml_load_string($response);\n\nforeach ($data->item as $item) {\n    $ccc = $item->children('ccc', true);\n    echo $ccc->fid . "\n";\n    echo $ccc->bid . "\n";\n}

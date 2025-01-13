@@ -1,1 +1,0 @@
-<!-- Assuming your project is a C# project -->\n<Reference Include="thirdparty">\n  <HintPath>path\to\thirdparty.dll</HintPath>\n  <Private>True</Private>\n</Reference>

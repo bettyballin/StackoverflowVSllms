@@ -1,1 +1,0 @@
-function decompress_gzip($data) {\n    // Remove gzip header and footer\n    $data = substr($data, 10, -8);\n    // Decompress data\n    return gzuncompress($data);\n}

@@ -1,1 +1,0 @@
-// Set token on page load\n$_SESSION['token'] = uniqid();\n\n// Verify token on subsequent requests\nif (!isset($_SESSION['token']) || $_SESSION['token'] !== $_GET['token']) {\n  header('Location: https://example.com/home-page');\n  exit;\n}

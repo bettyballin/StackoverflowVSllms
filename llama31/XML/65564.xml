@@ -1,1 +1,0 @@
-<ItemGroup>\n  <None Include="App_GlobalResources\*.resx">\n    <Generator>ResXFileCodeGenerator</Generator>\n  </None>\n</ItemGroup>

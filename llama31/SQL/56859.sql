@@ -1,1 +1,0 @@
--- Drop the existing constraint\nALTER TABLE table_name DROP CONSTRAINT constraint_name;\n\n-- Recreate the constraint without the "NOT FOR REPLICATION" option\nALTER TABLE table_name ADD CONSTRAINT constraint_name CHECK (constraint_expression);

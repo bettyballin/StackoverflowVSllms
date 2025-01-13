@@ -1,1 +1,0 @@
-Dim genericType As Type = GetType(Wrapper(Of ))\nDim specificType As Type = genericType.MakeGenericType(T)\nDim props As PropertyInfo() = specificType.GetProperties()\nFor Each prop As PropertyInfo In props\n    Console.WriteLine(prop.Name)\nNext

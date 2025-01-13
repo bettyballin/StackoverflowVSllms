@@ -1,1 +1,0 @@
-$stmt = mssql_init("my_stored_proc");\nmssql_execute($stmt);\n$return_code = mssql_get_last_message();\nprint $return_code;

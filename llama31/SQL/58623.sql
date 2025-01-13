@@ -1,1 +1,0 @@
-CREATE TABLE users (\n  id INT PRIMARY KEY AUTO_INCREMENT,\n  first_name VARCHAR(255),\n  last_name VARCHAR(255)\n);

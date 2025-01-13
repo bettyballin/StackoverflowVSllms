@@ -1,1 +1,0 @@
-SELECT mid, \n       (SUM(rating) / COUNT(*)) * (COUNT(*) / (COUNT(*) + 1)) as weighted_avg\nFROM ratings\nGROUP BY mid\nORDER BY weighted_avg DESC\nLIMIT 5;

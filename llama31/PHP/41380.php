@@ -1,1 +1,0 @@
-$botKeywords = array('bot', 'crawler', 'spider', 'slurp', 'mediapartners');\n\nwhile($row = mysql_fetch_array($yesterday, MYSQL_ASSOC)) {\n  $userAgent = $row['user_agent'];\n  $isBot = false;\n  \n  foreach ($botKeywords as $keyword) {\n    if (stripos($userAgent, $keyword) !== false) {\n      $isBot = true;\n      break;\n    }\n  }\n  \n  if (!$isBot) {\n    $count++;\n  }\n}

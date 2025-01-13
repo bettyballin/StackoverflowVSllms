@@ -1,1 +1,0 @@
-DECLARE @Var INT = 10;\nSET @Var += 5;\nSELECT @Var;  -- Returns 15

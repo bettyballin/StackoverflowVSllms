@@ -1,1 +1,0 @@
-if (file_exists('playlist.xml')) {\n  unlink('playlist.xml');\n}

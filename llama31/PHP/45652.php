@@ -1,1 +1,0 @@
-// a.php\n\n// Define the path to your Drupal installation\n$drupal_path = '/path/to/your/drupal/installation';\n\n// Bootstrap the Drupal environment\nrequire_once $drupal_path . '/includes/bootstrap.inc';\ndrupal_bootstrap(DRUPAL_BOOTSTRAP_SESSION);\n\n// Get the user ID\n$userid = $GLOBALS['user']->uid;\n\n// Print the user ID\nprint($userid);

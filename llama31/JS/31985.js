@@ -1,1 +1,0 @@
-const content = document.querySelector('.content');\nconst columns = [];\n\n// Split the content into columns\ncontent.children.forEach((child, index) => {\n  const column = index % 3;\n  if (!columns[column]) {\n    columns[column] = document.createElement('div');\n    content.appendChild(columns[column]);\n  }\n  columns[column].appendChild(child);\n});

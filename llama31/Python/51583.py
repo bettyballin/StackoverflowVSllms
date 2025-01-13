@@ -1,1 +1,0 @@
-obj.__dict__['new_attr'] = 'value'\nobj.__dict__['new_method'] = types.MethodType(new_method, obj)

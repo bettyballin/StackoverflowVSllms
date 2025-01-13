@@ -1,1 +1,0 @@
-ALTER TABLE tablename \nADD columnname datatype DEFAULT defaultvalue;

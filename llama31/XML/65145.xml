@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>\n<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">\n  <comInterfaceExternalProxyStub \n    iid="{your-iid-here}" \n    name="YourApp.Interface" \n    tlbid="{your-tlbid-here}" \n    proxyStubClsid32="{your-proxy-stub-clsid-here}"/>\n</assembly>

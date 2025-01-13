@@ -1,1 +1,0 @@
-MyModel.objects.filter(data__contains={'key': 'value'})

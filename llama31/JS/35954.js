@@ -1,1 +1,0 @@
-// In the parent page (not in the popover)\n_gaq.push(['_trackEvent', 'Conversion', 'PopoverDisplayed']);

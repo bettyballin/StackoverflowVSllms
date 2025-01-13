@@ -1,1 +1,0 @@
-# app/controllers/uploads_controller.rb\nclass UploadsController < ApplicationController\n  def create\n    @upload = Upload.new\n    @upload.file.attach(params[:file])\n    if @upload.save\n      @upload.generate_thumbnail\n      redirect_to @upload, notice: 'File uploaded successfully!'\n    else\n      render :new\n    end\n  end\nend

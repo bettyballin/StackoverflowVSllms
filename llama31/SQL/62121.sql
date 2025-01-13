@@ -1,1 +1,0 @@
-UPDATE customers\nSET ordercount = ordercount + (\n  SELECT COUNT(*)\n  FROM orders\n  WHERE orders.customerid = customers.customerid\n)

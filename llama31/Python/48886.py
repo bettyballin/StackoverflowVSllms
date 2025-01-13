@@ -1,1 +1,0 @@
-import intrinio\n\nintrinio.api_key = "YOUR_API_KEY"\nreit_data = intrinio.get_historical_stock_prices("AX-UN.TO")\nprint(reit_data)

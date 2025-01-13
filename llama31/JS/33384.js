@@ -1,1 +1,0 @@
-$('.editable').editable({\n    // your editable options here\n});\n\n$('.editable').on('keydown', function(e) {\n    if (e.which == 9) { // Tab key\n        e.preventDefault();\n        var nextEditable = $(this).next('.editable');\n        if (nextEditable.length > 0) {\n            nextEditable.editable('show');\n            nextEditable.focus();\n        }\n    }\n});

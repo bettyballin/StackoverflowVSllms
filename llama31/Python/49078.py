@@ -1,1 +1,0 @@
-my_list = ["dog", "cat", "bird", "cat", "dog", "elephant"]\n\n# Convert the list to a set to remove duplicates\nmy_set = set(my_list)\n\n# Convert the set back to a list and sort it\nmy_sorted_list = sorted(list(my_set))\n\nprint(my_sorted_list)

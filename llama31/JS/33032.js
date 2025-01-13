@@ -1,1 +1,0 @@
-// Open the new window\nvar newWindow = window.open("Content/StartPage.aspx", "_blank", "menubar=0, location=0, resizable=1, status=1, width=" + screen.width + ",height=" + screen.height);\n\n// Close the opener window using the new window's opener property\nif (newWindow) {\n    newWindow.opener = null;\n    window.self.close();\n}

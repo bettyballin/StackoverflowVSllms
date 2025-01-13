@@ -1,1 +1,0 @@
-if (req.isUserInRole("someRole")) {\n    // User is in the role\n}

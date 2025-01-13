@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <httpHandlers>\n      <add verb="POST" path="Comment/FindUser" type="YourHandlerType, YourAssemblyName"/>\n    </httpHandlers>\n  </system.web>\n</configuration>

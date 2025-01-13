@@ -1,1 +1,0 @@
-CREATE OR REPLACE TRIGGER MYTRIGGER\nAFTER INSERT ON SOMETABLE\nFOR EACH ROW\n\nBEGIN\n  FOR rec IN (\n    SELECT personnum\n    FROM PERSON\n    WHERE PERSONID = :new.EMPLOYEEID\n  ) LOOP\n    dbms_output.put(rec.personnum);\n\n    /* INSERT INTO SOMEOTHERTABLE USING rec.personnum and some of the other values from the trigger table*/\n  END LOOP;\nEND MYTRIGGER;

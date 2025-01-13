@@ -1,1 +1,0 @@
-<Target Name="CheckSchemaVersion">\n    <SqlCmd Command="EXEC CheckSchemaVersion" ConnectionString="$(ConnectionString)" />\n</Target>

@@ -1,1 +1,0 @@
-<handlers>\n    <add name="MvcHandler" path="*" verb="*" modules="IsapiModule" scriptProcessor="%windir%\Microsoft.NET\Framework\v4.0.30319\aspnet_isapi.dll" resourceType="Unspecified" requireAccess="None" preCondition="bitness64" />\n</handlers>

@@ -1,1 +1,0 @@
--- Create a schema comparison script\nDECLARE @sourceDB nvarchar(50) = 'YourBaselineDB';\nDECLARE @targetDB nvarchar(50) = 'YourTargetDB';\n\nEXEC sp_schema_compare \n    @sourceDB, \n    @targetDB, \n    @script = 1, \n    @output = 'C:\SchemaCompare.sql';

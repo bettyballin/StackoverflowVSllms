@@ -1,1 +1,0 @@
-if (!is_writable("./images/")) {\n    // handle permission error\n}

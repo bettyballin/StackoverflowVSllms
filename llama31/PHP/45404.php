@@ -1,1 +1,0 @@
-$outerVar = 'Hello';\n\n$closure = function() use ($outerVar) {\n    echo $outerVar; // outputs "Hello"\n};

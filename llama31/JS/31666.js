@@ -1,1 +1,0 @@
-document.addEventListener('selectstart', function(event) {\n  event.preventDefault();\n});

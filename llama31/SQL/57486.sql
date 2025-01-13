@@ -1,1 +1,0 @@
-JOIN users AS u ON c.companyid = u.companyid

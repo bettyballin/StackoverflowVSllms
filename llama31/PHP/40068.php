@@ -1,1 +1,0 @@
-$sequentialArray = ['apple', 'orange', 'tomato', 'carrot'];\n$assocArray = ['fruit1' => 'apple', 'fruit2' => 'orange', 'veg1' => 'tomato', 'veg2' => 'carrot'];\n\nvar_dump(isSequential($sequentialArray)); // bool(true)\nvar_dump(isSequential($assocArray)); // bool(false)

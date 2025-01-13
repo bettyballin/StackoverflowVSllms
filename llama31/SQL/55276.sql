@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE Link IN (\n  SELECT Link\n  FROM your_table\n  WHERE ID = 'AA'\n)\nOR ID = 'MASTER';

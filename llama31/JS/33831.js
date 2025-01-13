@@ -1,1 +1,0 @@
-$('p').each(function() {\n    var text = $(this).text();\n    $(this).html(text.replace(/dolor/g, '<span class="myClass">dolor</span>'));\n});

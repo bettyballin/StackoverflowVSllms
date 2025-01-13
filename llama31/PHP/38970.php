@@ -1,1 +1,0 @@
-$original_data = "Hello 'World'!";\n$escaped_data = mysql_real_escape_string($original_data);\n\n// To reverse the escaping\n$reversed_data = stripslashes($escaped_data);\n\necho $reversed_data;  // Outputs: Hello 'World'!

@@ -1,1 +1,0 @@
-$userDB = new Sl_Dao_UserDB();

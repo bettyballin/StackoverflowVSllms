@@ -1,1 +1,0 @@
-$mail = new PHPMailer();\n$mail->IsSMTP();\n$mail->Host = 'mail.domain.com';\n$mail->Port = 25;\n$mail->SMTPAuth = true;\n$mail->SMTPSecure = 'ntlm';\n$mail->Username = 'user';\n$mail->Password = 'pass';\n$mail->From = 'no-reply@domain.com';\n$mail->FromName = 'Webmaster';\n$mail->AddAddress($emailto);\n$mail->Subject = $subject;\n$mail->Body = $message;\n$mail->Send();

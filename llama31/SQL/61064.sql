@@ -1,1 +1,0 @@
-UPDATE tablename\nSET fieldname = fieldname + 'appended string'

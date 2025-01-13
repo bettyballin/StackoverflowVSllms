@@ -1,1 +1,0 @@
-$.ajaxSetup({\n  headers: {\n    'X-CSRF-Token': '<%= form_authenticity_token %>'\n  }\n});

@@ -1,1 +1,0 @@
-require 'rtex'\n\n# Create a TeX document\ndoc = RTex::Document.new\n\n# Add content to the document\ndoc.text "Hello, World!"\ndoc.paragraph "This is a paragraph of text."\n\n# Generate the PDF\npdf = RTex::PdfGenerator.new(doc)\npdf.generate("output.pdf")

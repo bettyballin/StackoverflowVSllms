@@ -1,1 +1,0 @@
-duration = datetime.timedelta(days=7)  # 1 week\nstart_date_range = datetime.date(2023, 5, 1)  # First day of May\n\nfree_slot = find_free_slot(duration, start_date_range)\nif free_slot:\n    print(f"Free slot available: {free_slot}")\nelse:\n    print("No free slot available")

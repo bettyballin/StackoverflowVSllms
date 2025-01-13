@@ -1,1 +1,0 @@
-$socket = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP);\nsocket_sendto($socket, "your_secret_knock_sequence", strlen("your_secret_knock_sequence"), 0, "your_server_ip", 3333);\nsocket_close($socket);

@@ -1,1 +1,0 @@
-SELECT * \nFROM Table1 \nJOIN Table2 \n  ON Table2Id = Table2.Id \n  AND starttime < :starttime \n  AND (starttime + duration/24) > :endtime + 0;

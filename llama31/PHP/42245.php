@@ -1,1 +1,0 @@
-$conn = connectSugarCRM();\n$ExecuteSQL = mysql_query($sqlSTR, $conn) or die("Query Failed!");

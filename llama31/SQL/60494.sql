@@ -1,1 +1,0 @@
-SELECT * FROM mytable SAMPLE (0.1) -- select 10% of the rows

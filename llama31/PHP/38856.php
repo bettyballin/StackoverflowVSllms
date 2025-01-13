@@ -1,1 +1,0 @@
-$picUrl = $_REQUEST[$PIC_URL];\n\n$headers = get_headers($picUrl, 1);\nif (strpos($headers[0], '200 OK') !== false) {\n    $status = "1";\n} else {\n    $status = "2";\n}\n\nif ($status == "2") {\n    $picUrl = "http://www.tricityhomes.com/assets/images/noimage.gif";\n}

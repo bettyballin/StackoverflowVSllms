@@ -1,1 +1,0 @@
-const form = document.getElementById('myForm');\n\nform.addEventListener('keypress', function(event) {\n  if (event.key === 'Enter') {\n    event.preventDefault();\n    form.submit();\n  }\n});

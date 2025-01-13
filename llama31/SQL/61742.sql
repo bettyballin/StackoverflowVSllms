@@ -1,1 +1,0 @@
-CREATE TABLE example (\n    id INT PRIMARY KEY,\n    text VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci\n);\n\nINSERT INTO example (text) VALUES (' example text ');

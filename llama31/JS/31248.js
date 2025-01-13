@@ -1,1 +1,0 @@
-$.ajax({\n  type: "POST",\n  url: "/bulkaction",\n  headers: {\n    'X-CSRF-Token': AUTH_TOKEN\n  },\n  data: {\n    ids: ids\n  },\n  success: function(data){\n    // ...\n  }\n});

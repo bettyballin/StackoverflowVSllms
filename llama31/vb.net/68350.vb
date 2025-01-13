@@ -1,1 +1,0 @@
-<ComClass()> _\nPublic Class MenuHandler\n    ' Class implementation...\nEnd Class

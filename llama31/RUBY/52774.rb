@@ -1,1 +1,0 @@
-require 'openssl'\n\n# Encryption\ncipher = OpenSSL::Cipher.new('AES-256-CBC')\ncipher.encrypt\nkey = 'your_secret_key'\niv = 'your_initialization_vector'\nencrypted_data = cipher.update('your_data') + cipher.final\n\n# Decryption\ndecipher = OpenSSL::Cipher.new('AES-256-CBC')\ndecipher.decrypt\ndecrypted_data = decipher.update(encrypted_data) + decipher.final

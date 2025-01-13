@@ -1,1 +1,0 @@
-CREATE SYNONYM secondDB FOR [A_2].dbo.yourTable

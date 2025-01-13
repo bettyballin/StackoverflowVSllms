@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\nxhr.open('GET', '/check-username', true); // true for asynchronous\n\nxhr.onload = function() {\n  if (xhr.status === 200) {\n    // handle the response\n  }\n};\n\nxhr.send();

@@ -1,1 +1,0 @@
-function get_stumbleupon() {\n    $.get("http://rss.stumbleupon.com/user/fredkelly/", function(data) {\n        var $xml = $(data);\n        var title = $xml.find("item:first title").text();\n        alert(title);\n    }, "xml");\n}

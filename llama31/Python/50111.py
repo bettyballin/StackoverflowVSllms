@@ -1,1 +1,0 @@
-import requests\n\nwith open(file, 'rb') as f:\n    response = requests.post(url, files={'executable': f}, data={'analysisType': 'file', 'notification': 'email', 'email': FROM_ADDR})

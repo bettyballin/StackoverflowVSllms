@@ -1,1 +1,0 @@
-$idToCount = array(1 => 10, 2 => 20, 3 => 30);\n$idToName = array(1 => 'John', 2 => 'Jane', 3 => 'Bob');\n\n$nameToCount = array_combine(array_values($idToName), array_intersect_key($idToCount, $idToName));\n\nprint_r($nameToCount);

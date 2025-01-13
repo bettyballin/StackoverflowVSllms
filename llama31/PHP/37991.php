@@ -1,1 +1,0 @@
-$a = array('table' => 'myTable');\n$table = $a['table'];

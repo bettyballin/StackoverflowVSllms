@@ -1,1 +1,0 @@
-var type = $(this).data('type');\nvar index = $(this).data('index');

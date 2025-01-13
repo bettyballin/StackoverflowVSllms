@@ -1,1 +1,0 @@
-# my_module.rb\nmodule MyModule\n  def hello\n    puts "Hello!"\n  end\nend

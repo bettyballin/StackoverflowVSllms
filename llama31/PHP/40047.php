@@ -1,1 +1,0 @@
-<?php\n// Receive edited table data from JavaScript\n$csvData = trim(file_get_contents('php://input'));\n\n// Save edited table data to new CSV file\n$fileName = 'edited_' . date('Y-m-d_H-i-s') . '.csv';\n$file = fopen($fileName, 'w');\nfputs($file, $csvData);\nfclose($file);\n\n// Return success message to JavaScript\necho 'CSV file saved successfully!';

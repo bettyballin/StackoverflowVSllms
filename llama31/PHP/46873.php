@@ -1,1 +1,0 @@
-function &returnByReference() {\n    $var = 'original value';\n    return $var;\n}\n\n$variable1 =& returnByReference();\n$variable1 = 'new value';\necho $variable1; // outputs "new value"

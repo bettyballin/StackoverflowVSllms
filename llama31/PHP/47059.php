@@ -1,1 +1,0 @@
-$link = '/directory/link.php';\n$link = preg_replace('#^/#', '', $link);\necho $link; // outputs: directory/link.php

@@ -1,1 +1,0 @@
-function canViewPdf() {\n  var mime = 'application/pdf';\n  var canPlay = document.canPlayType(mime);\n  return canPlay === 'probably' || canPlay === 'maybe';\n}

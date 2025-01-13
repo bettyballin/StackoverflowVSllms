@@ -1,1 +1,0 @@
-$set = new Set();\n$set->add(1);\n$set->add(2);\n$set->add(2); // duplicate element, will not be added\n$set->add(3);\n\nprint_r($set->getElements()); // [1, 2, 3]

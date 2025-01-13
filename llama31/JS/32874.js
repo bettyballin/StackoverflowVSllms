@@ -1,1 +1,0 @@
-var div = document.getElementById('myDiv');\nvar rect = div.getBoundingClientRect();\nvar x = rect.left;\nvar y = rect.top;

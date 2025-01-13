@@ -1,1 +1,0 @@
-CREATE TABLE users (\n  id INT PRIMARY KEY,\n  name VARCHAR(255),\n  email VARCHAR(255),\n  address VARCHAR(255),\n  phone VARCHAR(20)\n);\n\nCREATE TABLE logins (\n  id INT PRIMARY KEY,\n  user_id INT,\n  username VARCHAR(255),\n  password_hash VARCHAR(255),\n  salt VARCHAR(255),\n  FOREIGN KEY (user_id) REFERENCES users(id)\n);

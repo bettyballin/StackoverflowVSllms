@@ -1,1 +1,0 @@
-def model_chatbot_training_data(data):\n    # Model data to represent it in a structured and organized way\n    modeled_data = model_data(data)\n    return modeled_data

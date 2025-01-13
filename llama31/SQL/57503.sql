@@ -1,1 +1,0 @@
-CREATE TABLE #tmpIdTable (ids INT);\nINSERT INTO #tmpIdTable (ids) VALUES (1), (2), (3);\n\nSELECT 1 WHERE 1 <> (SELECT ids FROM #tmpIdTable);  -- returns NULL\nSELECT 1 WHERE 1 NOT IN (SELECT ids FROM #tmpIdTable);  -- returns 1\n\nDROP TABLE #tmpIdTable;

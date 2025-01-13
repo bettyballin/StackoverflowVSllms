@@ -1,1 +1,0 @@
-INSERT INTO db2.table2\nSELECT * \nFROM OPENQUERY(LinkedServerName, 'SELECT * FROM db1.table1 WHERE rule1 = true')

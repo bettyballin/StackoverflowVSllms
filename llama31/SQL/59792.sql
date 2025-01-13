@@ -1,1 +1,0 @@
-SELECT \n  table_a.id,\n  table_b.column1,\n  table_c.column2\nFROM \n  table_a \n  INNER JOIN table_b ON table_a.id = table_b.id\n  INNER JOIN table_c ON table_a.id = table_c.id\nWHERE \n  table_a.create_date >= '1998-01-01';

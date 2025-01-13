@@ -1,1 +1,0 @@
-# controllers/application_controller.rb\nclass ApplicationController < ActionController::Base\n  private\n\n  def current_user\n    @current_user ||= User.find(session[:user_id]) if session[:user_id]\n  end\nend

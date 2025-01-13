@@ -1,1 +1,0 @@
-$year = date("Y");\necho "&copy; $year Your Company Name";

@@ -1,1 +1,0 @@
-class StoreHelper extends Zend_Controller_Action_Helper_Abstract\n{\n    protected $_store;\n\n    public function __construct()\n    {\n        $this->_store = null;\n    }\n\n    public function setStore($store)\n    {\n        $this->_store = $store;\n    }\n\n    public function getStore()\n    {\n        return $this->_store;\n    }\n}

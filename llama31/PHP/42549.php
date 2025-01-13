@@ -1,1 +1,0 @@
-$path = $_GET['path'];\nif (path_is_valid($path) && file_exists("sample/$path")) {\n    header('Content-Type: text/plain');\n    readfile("sample/$path");\n}

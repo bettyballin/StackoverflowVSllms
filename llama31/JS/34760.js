@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\nxhr.open('GET', 'https://example.com/resource', true);\nxhr.setRequestHeader('Accept', 'application/json'); // or any other MIME type\nxhr.send();

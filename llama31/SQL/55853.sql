@@ -1,1 +1,0 @@
-SELECT MIN(id) \nFROM tableA A, tableB B \nWHERE a.name = b.name(+)

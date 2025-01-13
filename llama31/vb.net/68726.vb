@@ -1,1 +1,0 @@
-Dim results = From a In articles\n              Where a.articleID = 4\n              Select a.articleName

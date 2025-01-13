@@ -1,1 +1,0 @@
-SELECT \n    CASE \n        WHEN value_type = 'integer' THEN value::INTEGER\n        WHEN value_type = 'string' THEN value\n        WHEN value_type = 'boolean' THEN value::BOOLEAN\n    END AS value\nFROM entity_attributes;

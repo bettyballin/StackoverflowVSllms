@@ -1,1 +1,0 @@
--- SQL example to generate keywords for each item\nSELECT item_id, item_name, \n    (SELECT TOP 5 keyword FROM keywords WHERE item_id = i.item_id) AS keywords\nFROM items i;

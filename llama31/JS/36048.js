@@ -1,1 +1,0 @@
-const iconBuffer = new CircularBuffer(5);\niconBuffer.push(icon1);\niconBuffer.push(icon2);\niconBuffer.push(icon3);\niconBuffer.push(icon4);\niconBuffer.push(icon5);\n\n// Move the icons around\niconBuffer.shift();\niconBuffer.push(icon6);\n\n// Get the icon at the center of the buffer\nconst centerIcon = iconBuffer.getCenterElement();

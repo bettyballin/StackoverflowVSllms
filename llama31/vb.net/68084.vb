@@ -1,1 +1,0 @@
-Function IsGuid(str)\n    Dim regex\n    Set regex = New RegExp\n    regex.Pattern = "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"\n    IsGuid = regex.Test(str)\nEnd Functio

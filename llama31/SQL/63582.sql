@@ -1,1 +1,0 @@
-CREATE TRIGGER set_timestamp\nBEFORE INSERT ON table_name\nFOR EACH ROW\nSET NEW.timestamp = SUBSTRING(NEW.id, 1, 8);

@@ -1,1 +1,0 @@
-if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {\n    header('Access-Control-Allow-Origin: *');\n    header('Access-Control-Allow-Methods: POST, GET, OPTIONS');\n    header('Access-Control-Allow-Headers: Content-Type, x-requested-with');\n    exit;\n}

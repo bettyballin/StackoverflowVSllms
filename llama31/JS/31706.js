@@ -1,1 +1,0 @@
-for (var i = 0; i < 10; i++) {\n  var top = random(-20, 20);\n  var left = random(-20, 20);\n\n  document.write(`\n    <div class="one" style="position: absolute; top: ${top}px; left: ${left}px;">\n      <img src="hein.png"/>\n    </div>\n  `);\n}

@@ -1,1 +1,0 @@
-SELECT *\nFROM table_name\nORDER BY column_name\nLIMIT N;

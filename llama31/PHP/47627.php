@@ -1,1 +1,0 @@
-// Get the current user ID (should be the web server's user)\n$uid = getmyuid();\n\n// Set the directory permissions so the owner has write access\nchmod('.', 0755);

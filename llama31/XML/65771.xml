@@ -1,1 +1,0 @@
-<tag>\n    <name>formatFileSize</name>\n    <tag-class>com.example.FormatFileSizeTag</tag-class>\n    <body-content>empty</body-content>\n    <attribute>\n        <name>fileSize</name>\n        <required>true</required>\n        <rtexprvalue>true</rtexprvalue>\n    </attribute>\n</tag>

@@ -1,1 +1,0 @@
-$template = '{continue}click to continue{/continue}';\n$canContinue = true; // or false\n\nif ($canContinue) {\n    $output = preg_replace('/{continue}(.*){\/continue}/', '$1', $template);\n} else {\n    $output = preg_replace('/{continue}.*{\/continue}/', '', $template);\n}\n\necho $output;

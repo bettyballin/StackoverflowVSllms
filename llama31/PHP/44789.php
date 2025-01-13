@@ -1,1 +1,0 @@
-// Passed by value\n$a = 5;\nfunction changeValue($a) {\n    $a = 10;\n}\nchangeValue($a);\necho $a; // Outputs: 5\n\n// Passed by reference\n$obj = new stdClass();\n$obj->value = 5;\nfunction changeObjectValue($obj) {\n    $obj->value = 10;\n}\nchangeObjectValue($obj);\necho $obj->value; // Outputs: 10

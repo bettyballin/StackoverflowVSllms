@@ -1,1 +1,0 @@
-<?php\n// ... your PHP code ...\n\n// Instead of using print_r, use echo with SSE format\necho "event: message\n";\necho "data: " . json_encode($data) . "\n\n";\n\n// ... repeat the above for each message ...\n?>

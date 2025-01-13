@@ -1,1 +1,0 @@
-function sumArray($foo) {\n    return array_sum($foo);\n}

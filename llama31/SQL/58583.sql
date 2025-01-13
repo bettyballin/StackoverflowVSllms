@@ -1,1 +1,0 @@
-SELECT \n    name AS TableName,\n    rows,\n    modification_counter\nFROM \n    sysobjects\nWHERE \n    xtype = 'U' AND (rows = 0 OR modification_counter = 0)

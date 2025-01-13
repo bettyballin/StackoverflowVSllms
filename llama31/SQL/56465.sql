@@ -1,1 +1,0 @@
-DECLARE @result nvarchar(max)\n\nSELECT @result = COALESCE(@result + ',', '') + your_column_name\nFROM your_table_name\nFOR XML PATH('')\n\nSELECT @result

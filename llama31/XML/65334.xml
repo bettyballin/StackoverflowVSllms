@@ -1,1 +1,0 @@
-<LinkerOptions>/OUT:$(OutDir)mydll.dll /LIB:$(IntDir)mylib.lib</LinkerOptions>

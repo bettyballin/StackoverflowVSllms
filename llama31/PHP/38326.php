@@ -1,1 +1,0 @@
-// file: libs/User/User.php\nuse Libs\Db\Db;\n\nclass User {\n    private $db;\n\n    public function __construct(Db $db) {\n        $this->db = $db;\n    }\n\n    // ...\n}

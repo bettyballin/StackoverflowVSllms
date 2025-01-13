@@ -1,1 +1,0 @@
-IFNULL(expression, value_if_null)

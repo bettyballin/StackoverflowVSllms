@@ -1,1 +1,0 @@
-letter_count = {chr(i): 0 for i in range(ord('a'), ord('z')+1)}

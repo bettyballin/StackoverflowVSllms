@@ -1,1 +1,0 @@
-SELECT CONVERT(nvarchar(128), SERVERPROPERTY('InstanceDefaultDataPath')) AS InstanceDefaultDataPath

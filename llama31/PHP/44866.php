@@ -1,1 +1,0 @@
-$url = $_POST['url'];\n// Decode the URL if needed\n$url = urldecode($url);

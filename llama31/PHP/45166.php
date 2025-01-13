@@ -1,1 +1,0 @@
-try {\n    $connect = mysql_connect('localhost', 'root', 'password');\n    if (!$connect) {\n        throw new Exception('Connection failed');\n    }\n} catch (Exception $e) {\n    echo 'Error: ' . $e->getMessage();\n}

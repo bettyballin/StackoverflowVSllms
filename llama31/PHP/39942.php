@@ -1,1 +1,0 @@
-// Set the content type and disposition header\nheader('Content-Type: application/octet-stream');\nheader('Content-Disposition: attachment; filename="example.zip"');\n\n// Output the file contents\nreadfile('path/to/example.zip');

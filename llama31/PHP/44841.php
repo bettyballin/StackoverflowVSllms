@@ -1,1 +1,0 @@
-if (true && ($a = new foo()) && $a->bar()) {\n    echo "true";\n} else {\n    echo "false";\n}

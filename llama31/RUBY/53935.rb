@@ -1,1 +1,0 @@
-require 'capybara/poltergeist'\n\nitems.each do |id|\n  url = "http://foo.com/bar/#{id}"\n  session = Capybara::Session.new(:poltergeist)\n  session.visit url\n  session.save_screenshot "/images/thumbnail-#{id}.png"\n  session.driver.quit\nend

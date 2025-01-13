@@ -1,1 +1,0 @@
-WITH RECURSIVE numbers AS (\n  SELECT 1 AS nr\n  UNION ALL\n  SELECT nr + 1\n  FROM numbers\n  WHERE nr < 5\n)\nSELECT * FROM numbers;

@@ -1,1 +1,0 @@
-SELECT 'attribute' AS attribute_name, 'op' AS operator, 'value' AS attribute_value\nFROM radcheck\nWHERE username = '%{User-Name}'

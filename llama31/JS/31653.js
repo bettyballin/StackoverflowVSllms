@@ -1,1 +1,0 @@
-// Example usage:\nvar pptx = require('pptxjs');\n\n// Load the PPTX file\npptx.load('path/to/example.pptx').then(function(presentation) {\n  // Render the first slide\n  var slide = presentation.slides[0];\n  var canvas = document.getElementById('pptx-canvas');\n  slide.render(canvas);\n});

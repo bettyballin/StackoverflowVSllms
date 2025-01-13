@@ -1,1 +1,0 @@
-$url = 'https://example.com/remote_file.php';\n$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$contents = curl_exec($ch);\ncurl_close($ch);\n\n// Process the contents as needed\necho $contents;

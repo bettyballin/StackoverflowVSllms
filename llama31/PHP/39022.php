@@ -1,1 +1,0 @@
-function print_file($filename) {\n  $command = "lp '$filename'";\n  exec($command, $output, $return_var);\n  if ($return_var != 0) {\n    // error handling\n  }\n}\n\n// usage:\n$file_to_print = '/path/to/your/file.pdf';\nprint_file($file_to_print);

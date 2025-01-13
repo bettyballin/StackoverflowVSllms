@@ -1,1 +1,0 @@
-GROUP_CONCAT(\n    IF(`menu_items`.`price` > 0,\n        CONCAT(\n            `menu_items`.`name`, \n            ' ($',\n            FORMAT(`menu_items`.`price`,2),\n            ')'\n        ),\n        `menu_items`.`name`\n    ) SEPARATOR '<br>'\n) as `items`

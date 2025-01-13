@@ -1,1 +1,0 @@
-$mail = new htmlMimeMail5();\n$mail->setEncoding('base64');

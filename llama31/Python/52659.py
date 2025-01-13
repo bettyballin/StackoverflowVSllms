@@ -1,1 +1,0 @@
-import ply.lex as lex\nimport ply.yacc as yacc\n\n# Define a simple grammar\ntokens = ["ID", "NUM"]\nt_ID = r"[a-zA-Z]+"\nt_NUM = r"\d+"\n\n# Define a parser\ndef p_expr(p):\n    """expr : ID NUM"""\n    p[0] = ("EXPR", p[1], p[2])\n\n# Parse a string\nparser = yacc.yacc()\nresult = parser.parse("hello123")\n\n# Print the AST\nprint(result)

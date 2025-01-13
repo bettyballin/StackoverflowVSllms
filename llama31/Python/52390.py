@@ -1,1 +1,0 @@
-from django.contrib.auth.hashers import make_password\n\nuser_password = "mysecretpassword"\nhashed_password = make_password(user_password)

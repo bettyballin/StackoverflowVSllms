@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded', function() {\n  var baseUrl = "http://www.domain.com";\n  var anchors = document.querySelectorAll('a');\n  anchors.forEach(function(anchor) {\n    var href = anchor.getAttribute('href');\n    if (href.indexOf('/') === 0) {\n      anchor.setAttribute('href', baseUrl + href);\n    }\n  });\n});

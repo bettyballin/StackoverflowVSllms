@@ -1,1 +1,0 @@
-$(document).ajaxStart(function() {\n  // Disable other AJAX requests while one is in progress\n  $(document).ajaxStop(function() {\n    // Re-enable other AJAX requests when the current one is completed\n  });\n});

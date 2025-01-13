@@ -1,1 +1,0 @@
-DECLARE @HasAccess BIT;\nSELECT @HasAccess = dbo.EvaluatePermissions(1, 123, 1, 4);\nIF @HasAccess = 1\n  PRINT 'User has access';\nELSE\n  PRINT 'User does not have access';

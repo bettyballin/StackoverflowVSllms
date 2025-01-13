@@ -1,1 +1,0 @@
-EXEC tempdb.sys.sp_columns '#MyTempTable'

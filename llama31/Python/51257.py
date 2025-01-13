@@ -1,1 +1,0 @@
-check_list = ['group2', 'group16']\nmain_list = ADUser.get('memberOf')\n\nresult = any(group in member for member in main_list for group in check_list)

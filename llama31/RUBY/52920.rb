@@ -1,1 +1,0 @@
-@results = (Note.last(3) + Picture.last(3)).sort_by(&:updated_at).reverse

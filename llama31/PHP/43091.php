@@ -1,1 +1,0 @@
-$arrayOne = [...]; // your array\nforeach (array_values($arrayOne) as $key => $value) {\n    // do function with $value\n    // if you need to remove elements, use unset($arrayOne[$key])\n}

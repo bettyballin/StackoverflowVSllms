@@ -1,1 +1,0 @@
-// config.php\n$path = '/path/to/site/includes/';\nset_include_path(get_include_path() . PATH_SEPARATOR . $path);

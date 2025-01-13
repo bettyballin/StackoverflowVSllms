@@ -1,1 +1,0 @@
-$headers = array(\n    'From: your_email@example.com',\n    'Reply-To: your_email@example.com',\n    'Content-Type: text/plain; charset=UTF-8',\n    'X-Mailer: PHP/' . phpversion()\n);\n\nmail('recipient@example.com', 'Test Email', 'Hello, this is a test email.', $headers);

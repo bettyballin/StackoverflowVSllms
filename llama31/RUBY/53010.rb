@@ -1,1 +1,0 @@
-gem 'wicked_pdf'\n\n# In your controller\ndef generate_pdf\n  respond_to do |format|\n    format.pdf do\n      render pdf: 'your_pdf_template', template: 'path/to/template'\n    end\n  end\nend

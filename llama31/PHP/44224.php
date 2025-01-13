@@ -1,1 +1,0 @@
-function getAdjustedTime($gmtOffsetHours) {\n    $gmtOffsetSeconds = $gmtOffsetHours * 3600; // Convert hours to seconds\n    $adjustedTime = time() + $gmtOffsetSeconds; // Adjust the current time\n    return $adjustedTime;\n}\n\n// Example: Getting the time for the Eastern Standard Time (EST) which is GMT-5\n$estTime = getAdjustedTime(-5);\necho date("Y-m-d H:i:s", $estTime);

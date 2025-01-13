@@ -1,1 +1,0 @@
-import os\n\n# Define feature flag\nTEST_MODE = os.environ.get('TEST_MODE', 'false') == 'true'\n\n# Use feature flag to control behavior\nif TEST_MODE:\n    # Simulate charging an imaginary credit card\n    print("Fake charging credit card...")\nelse:\n    # Actual credit card charging logic\n    print("Charging credit card...")

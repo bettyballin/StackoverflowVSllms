@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE \n    EXTRACT(YEAR FROM date_of_birth) = EXTRACT(YEAR FROM :input_date)\nAND \n    EXTRACT(MONTH FROM date_of_birth) = EXTRACT(MONTH FROM :input_date)\nAND \n    EXTRACT(DAY FROM date_of_birth) = EXTRACT(DAY FROM :input_date)

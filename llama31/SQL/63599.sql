@@ -1,1 +1,0 @@
-SELECT \n    FullName\nFROM \n    (SELECT LastName + ', ' + FirstName AS 'FullName' FROM customers) AS subquery\nGROUP BY \n    FullName

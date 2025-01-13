@@ -1,1 +1,0 @@
-interface LoggerInterface {\n    public function logMessage($message);\n    public function logDatabaseQuery($query);\n}

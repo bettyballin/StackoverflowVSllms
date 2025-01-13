@@ -1,1 +1,0 @@
-require_once 'jsonRPCServer.php';\n\n// Create a new JSON-RPC server\n$server = new jsonRPCServer();\n\n// Define a simple method\nfunction hello($name) {\n    return "Hello, $name!";\n}\n\n// Register the method\n$server->register('hello');\n\n// Handle incoming requests\n$server->handle();

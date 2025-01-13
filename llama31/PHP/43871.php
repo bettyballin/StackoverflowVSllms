@@ -1,1 +1,0 @@
-$image_path = $row['image_path']; // assuming $row is the database result\nif (file_exists($image_path)) {\n    unlink($image_path);\n}

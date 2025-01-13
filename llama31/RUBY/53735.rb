@@ -1,1 +1,0 @@
-# graduate_students_controller.rb\ndef index\n  session[:graduate_students_list] = ...\nend\n\n# current_students_controller.rb\ndef index\n  session[:current_students_list] = ...\nend

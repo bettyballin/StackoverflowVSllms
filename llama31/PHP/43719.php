@@ -1,1 +1,0 @@
-// config/ProjectConfiguration.class.php\nclass ProjectConfiguration extends sfProjectConfiguration\n{\n  public function setup()\n  {\n    // Enable the new routing system\n    $this->enableRouting();\n  }\n}

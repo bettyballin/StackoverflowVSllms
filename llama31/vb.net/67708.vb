@@ -1,1 +1,0 @@
-Private WithEvents frm As New Form2\n\nPrivate Sub frm_MyEvent(sender As Object, e As MyEventArgs) Handles frm.MyEvent\n    ' Handle the event\nEnd Sub

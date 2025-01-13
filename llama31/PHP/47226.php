@@ -1,1 +1,0 @@
-// Login\n$session_id = session_id();\n$db->insert('sessions', ['email' => $email, 'session_id' => $session_id]);\n\n// Verify session ID on each request\n$stored_session_id = $db->select('sessions', ['session_id'], ['email' => $email]);\nif ($stored_session_id !== $session_id) {\n    // Redirect to index page\n}

@@ -1,1 +1,0 @@
-CREATE VIEW OrderSummary AS\nSELECT \n    o.OrderID,\n    c.CustomerName,\n    p.ProductName,\n    o.OrderDate,\n    o.TotalAmount\nFROM \n    orders o\nJOIN \n    customers c ON o.CustomerID = c.CustomerID\nJOIN \n    products p ON o.ProductID = p.ProductID;

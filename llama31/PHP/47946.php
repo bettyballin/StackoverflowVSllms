@@ -1,1 +1,0 @@
-// test.tattler.php\nrequire_once 'class.tattler_stats.php';\n\n$tattler_test = new tattler_stats($_REQUEST);

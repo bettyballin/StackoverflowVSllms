@@ -1,1 +1,0 @@
-def cartesian_product(*sets):\n    result = [[]]\n    for s in sets:\n        new_result = []\n        for r in result:\n            for elem in s:\n                new_result.append(r + [elem])\n        result = new_result\n    return result

@@ -1,1 +1,0 @@
-import inspect\n\ndef get_function_key(f):\n    return inspect.getmodule(f).__name__ + '.' + f.__name__

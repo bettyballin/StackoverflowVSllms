@@ -1,1 +1,0 @@
-$q = new WP_Query( "cat=-1&posts_per_page=15&orderby=date&order=DESC" );

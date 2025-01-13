@@ -1,1 +1,0 @@
-UPDATE cs_Cache \nSET LastUpdate = '1900-01-01' \nWHERE SectionID = [YourSectionID];

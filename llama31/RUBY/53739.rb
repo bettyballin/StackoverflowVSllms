@@ -1,1 +1,0 @@
-# app/controllers/users_controller.rb\n\ndef new\n  @user = User.new\nend

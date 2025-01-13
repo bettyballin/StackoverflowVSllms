@@ -1,1 +1,0 @@
-<td style="background-color: <?= $cell_color ?>"><?= $cell_content ?></td>

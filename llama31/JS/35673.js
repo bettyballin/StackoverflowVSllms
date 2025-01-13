@@ -1,1 +1,0 @@
-var myToolbar = {\n    toolbar: [\n        ["bold", "italic", "underline"],\n        ["cut", "copy", "paste"],\n        ["undo", "redo"]\n    ]\n};\n\nvar editor = Xinha.getEditor('txtEditor', myToolbar);

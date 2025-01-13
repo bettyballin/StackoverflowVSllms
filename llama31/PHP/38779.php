@@ -1,1 +1,0 @@
-use Cake\Network\Request;\n\n$request = new Request();\n$username = $request->getEnv('REMOTE_USER');

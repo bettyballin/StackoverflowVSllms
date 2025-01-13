@@ -1,1 +1,0 @@
-function isSiteAvailable($site) {\n    $pingResult = exec("ping -c 1 $site", $output, $returnVar);\n    if ($returnVar == 0) {\n        return true;\n    } else {\n        return false;\n    }\n}\n\n$site = "twitter.com";\nif (isSiteAvailable($site)) {\n    echo "$site is available";\n} else {\n    echo "$site is not available";\n}

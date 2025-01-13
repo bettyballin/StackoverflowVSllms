@@ -1,1 +1,0 @@
-use Illuminate\Support\Facades\Log;\n\n// ...\n\n$execution_time = microtime(true) - LARAVEL_START;\nif ($execution_time > 2) {\n    Log::info("Slow page: " . Request::url() . " ({$execution_time} seconds)");\n}

@@ -1,1 +1,0 @@
-<sessionState mode="StateServer" stateConnectionString="tcpip=YourStateServer:42424" >\n  <providers>\n    <add name="StateServer" type="System.Web.SessionState.StateServerSessionStateStore, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />\n  </providers>\n</sessionState>

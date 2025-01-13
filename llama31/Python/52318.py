@@ -1,1 +1,0 @@
-import pymsgbox\n\npymsgbox.alert('Alert message', 'Service Alert')

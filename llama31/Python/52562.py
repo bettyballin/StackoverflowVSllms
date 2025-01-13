@@ -1,1 +1,0 @@
-arrays1 = [["A", "B", "D"], ["A", "C", "D"]]\ntry:\n    print(partial_order_sort(arrays1))\nexcept ValueError:\n    print("Cannot determine the order")\n\narrays2 = [["A", "B", "D"], ["A", "B", "C"], ["A", "C", "D"]]\nprint(partial_order_sort(arrays2))  # Output: ["A", "B", "C", "D"]

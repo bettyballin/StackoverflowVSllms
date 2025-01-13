@@ -1,1 +1,0 @@
-$price_int = intval(round($price_corrected));

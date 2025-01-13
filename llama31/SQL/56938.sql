@@ -1,1 +1,0 @@
-SET IDENTITY_INSERT your_table ON;\nINSERT INTO your_table (id, column1, column2, ...)\nVALUES (specific_id_value, value1, value2, ...);\nSET IDENTITY_INSERT your_table OFF;

@@ -1,1 +1,0 @@
-$search_term = 'turkey';\n$quotes = search_quotes($search_term);\n\nforeach ($quotes as $quote) {\n  echo '<p>' . $quote['quote'] . '</p>';\n}

@@ -1,1 +1,0 @@
-echo $_GET["callback"].'({"message":"Hello World","version":"1.0"});';

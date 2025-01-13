@@ -1,1 +1,0 @@
-// Example of using an API to integrate CMSs\n// Using a RESTful API to retrieve banners\n$apiUrl = 'https://example.com/api/banners';\n$headers = ['Authorization: Bearer YOUR_API_TOKEN'];\n$response = json_decode(file_get_contents($apiUrl, false, stream_context_create(['http' => ['method' => 'GET', 'header' => $headers]])), true);\n$banners = $response['banners'];

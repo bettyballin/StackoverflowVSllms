@@ -1,1 +1,0 @@
-def retrieve_chatbot_training_data():\n    # Retrieve data from database\n    data = retrieve_data_from_db()\n    return data

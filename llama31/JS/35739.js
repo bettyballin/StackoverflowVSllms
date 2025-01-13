@@ -1,1 +1,0 @@
-// Client-side example\nconst peerConnection = new RTCPeerConnection();\n\n// Create an offer and send it to the other peer\npeerConnection.createOffer().then((offer) => {\n  // Send the offer to the other peer\n  // ...\n});

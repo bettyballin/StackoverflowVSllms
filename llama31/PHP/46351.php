@@ -1,1 +1,0 @@
-$field_name = 'loanOfficer';\n$content = null;\n\n$columns = array_column($submission_info, 'content', 'field_name');\n$content = $columns[$field_name] ?? null;\n\necho $content; // Output: John Doe

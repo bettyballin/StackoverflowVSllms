@@ -1,1 +1,0 @@
-$widgetLoader = new WidgetLoader();\n$column = 1; // load widgets for column 1\n$widgets = $widgetLoader->loadWidgets($column);\n\nforeach ($widgets as $widgetOutput) {\n    echo $widgetOutput;\n}

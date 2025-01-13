@@ -1,1 +1,0 @@
-$fp = fopen('data.csv', 'r');\nwhile ($row = fgetcsv($fp)) {\n    // Process the row\n    $sku = $row[0];\n    $specs = $row[1];\n    // ...\n    // Insert into database using MySQLi or PDO\n}\nfclose($fp);

@@ -1,1 +1,0 @@
-Protected Sub HiddenButton_Click(sender As Object, e As EventArgs) Handles HiddenButton.Click\n    ' Perform your heavy math here\n    ' You can access the value from the hidden label using HiddenLabel.Text\nEnd Sub

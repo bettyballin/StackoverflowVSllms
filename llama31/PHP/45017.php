@@ -1,1 +1,0 @@
-$referer = $_SERVER['HTTP_REFERER'];\n\nif ($referer) {\n    echo "Request came from: $referer";\n} else {\n    echo "No referer information available.";\n}

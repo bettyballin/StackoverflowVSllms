@@ -1,1 +1,0 @@
-use GuzzleHttp\Client;\nuse GuzzleHttp\Promise;\n\n$client = new Client();\n\n$promises = [\n    $client->getAsync('https://example.com/api/data1'),\n    $client->getAsync('https://example.com/api/data2'),\n];\n\n$results = Promise\Utils::unwrap($promises);\n\n// Do something with the results\nforeach ($results as $result) {\n    echo $result->getBody()->getContents() . "\n";\n}

@@ -1,1 +1,0 @@
-def build_index(some_list):\n    index_dict = {}\n    for i, (_, key, _) in enumerate(some_list):\n        if key not in index_dict:\n            index_dict[key] = i\n    return index_dict

@@ -1,1 +1,0 @@
-// generate a new session ID\nsession_regenerate_id();

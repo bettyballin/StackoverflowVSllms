@@ -1,1 +1,0 @@
-$mysqlTimestamp = '2023-03-15 14:30:00'; // UTC timestamp from MySQL\n$userTimezone = 'Asia/Kolkata'; // User's selected timezone\n\n$dateTime = new DateTime($mysqlTimestamp, new DateTimeZone('UTC'));\n$dateTime->setTimezone(new DateTimeZone($userTimezone));\n\necho $dateTime->format('Y-m-d H:i:s'); // Output: 2023-03-15 20:00:00 (in user's timezone)

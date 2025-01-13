@@ -1,1 +1,0 @@
-CREATE INDEX idx_SubscriberGroups_SubscriberID_GroupID ON SubscriberGroups (SubscriberID, GroupID);

@@ -1,1 +1,0 @@
-Dim dictionary As New Dictionary(Of String, String) From {{"key1", "value1"}, {"key2", "value2"}}

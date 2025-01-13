@@ -1,1 +1,0 @@
-$(window).on('beforeunload', function() {\n  $.ajax({\n    type: 'POST',\n    url: '/invalidate-session',\n    async: false\n  });\n});

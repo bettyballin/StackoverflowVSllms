@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.GetWeekOfMonth (@Date datetime)\nRETURNS int\nAS\nBEGIN\n    DECLARE @FirstDayOfMonth datetime\n    SET @FirstDayOfMonth = DATEADD(month, DATEDIFF(month, 0, @Date), 0)\n    RETURN (DATEDIFF(day, @FirstDayOfMonth, @Date) - 1) / 7 + 1\nEND\nGO\n\nSELECT dbo.GetWeekOfMonth('2008-10-16') AS WeekOfMonth

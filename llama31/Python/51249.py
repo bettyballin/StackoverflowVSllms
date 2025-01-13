@@ -1,1 +1,0 @@
-import sqltidy\n\nquery = "SELECT * FROM table WHERE id = 1"\nformatted_query = sqltidy.tidy(query)\nprint(formatted_query)

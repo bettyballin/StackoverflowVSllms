@@ -1,1 +1,0 @@
-// IndexedDB example (simplified)\nconst db = await indexedDB.open('my-database', 1);\nconst store = db.createObjectStore('sensitive-data', { keyPath: 'id' });\n\n// store sensitive data\nstore.add({ id: 1, data: 'your-sensitive-data' });\n\n// clear data when user logs out or session expires\nstore.clear();

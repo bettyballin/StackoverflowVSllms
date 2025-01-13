@@ -1,1 +1,0 @@
-// script.php\n$var = $argv[1];\necho "Variable: $var\n";

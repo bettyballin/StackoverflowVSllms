@@ -1,1 +1,0 @@
-class Foo(db.Model):\n    bars = db.ListProperty(db.Key)\n    bar_count = db.ComputedProperty(lambda self: len(self.bars))\n\nrelated_foos = Foo.all().filter('bars IN', [bar_entity1, bar_entity2, ...]).filter('bar_count >=', N).fetch(fetch_count)

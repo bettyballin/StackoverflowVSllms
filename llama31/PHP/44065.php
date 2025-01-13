@@ -1,1 +1,0 @@
-$user = posix_getpwuid(posix_geteuid());\necho $user['name'];

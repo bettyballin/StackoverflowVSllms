@@ -1,1 +1,0 @@
-$cmd = filter_var($_GET['cmd'], FILTER_SANITIZE_STRING);

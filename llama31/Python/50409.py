@@ -1,1 +1,0 @@
-print(active_entry_list.query)

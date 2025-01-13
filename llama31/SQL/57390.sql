@@ -1,1 +1,0 @@
-SELECT COUNT(Status)\nFROM [MyTable] WITH (NOLOCK)\nWHERE MemberType = 6;

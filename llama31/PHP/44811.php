@@ -1,1 +1,0 @@
-// In your controller or service\n$customers = CustomerQuery::create()\n    ->addNumberCompletedOrdersColumn()\n    ->find();

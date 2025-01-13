@@ -1,1 +1,0 @@
-alter system set "_pga_aggregate_target_factor"=100 scope=spfile;

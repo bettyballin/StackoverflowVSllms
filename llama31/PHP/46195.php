@@ -1,1 +1,0 @@
-$proxy = new SoapClient('someaddress?wsdl', array('connection_timeout' => 30));

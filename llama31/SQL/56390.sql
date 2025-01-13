@@ -1,1 +1,0 @@
-START TRANSACTION;\n\nINSERT INTO groups (name) VALUES ('new group');\nSET @group_id = LAST_INSERT_ID();\n\nINSERT INTO users (name, group_id) VALUES ('new user', @group_id);\n\nCOMMIT;

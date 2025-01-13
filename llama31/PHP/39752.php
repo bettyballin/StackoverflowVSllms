@@ -1,1 +1,0 @@
-$token = $_GET['token'];\n$secretKey = 'your_shared_secret_key_here';\n\nif (hash_hmac('sha256', $token, $secretKey) === $token) {\n    // token is valid, proceed with confirmation page logic\n}

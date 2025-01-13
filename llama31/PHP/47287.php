@@ -1,1 +1,0 @@
-print_r($keywords);\nextract($product, EXTR_PREFIX_ALL, 'product');\nforeach ($keywords as $k=>$v) {\n   //stuff here\n}

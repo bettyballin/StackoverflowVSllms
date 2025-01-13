@@ -1,1 +1,0 @@
-SELECT u.username, a.name\nFROM user u\nJOIN session s ON u.user_id = s.user_id\nJOIN user_activity ua ON s.session_id = ua.session_id\nJOIN activity a ON ua.activity_id = a.activity_id\nWHERE ua.user_activity_id = (SELECT MAX(user_activity_id) \n                             FROM user_activity \n                             WHERE session_id = s.session_id);

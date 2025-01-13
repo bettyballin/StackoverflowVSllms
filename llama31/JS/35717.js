@@ -1,1 +1,0 @@
-// Case 1:\n$("table.zebra").css({\n  "width": "600px",\n  "table-layout": "fixed"\n});\n\n// Case 2:\n$("table.zebra").css({\n  "width": "200px",\n  "table-layout": "fixed"\n});

@@ -1,1 +1,0 @@
-<?php\nheader('Content-Type: application/xhtml+xml; charset=UTF-8');\n?>

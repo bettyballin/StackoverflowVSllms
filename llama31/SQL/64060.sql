@@ -1,1 +1,0 @@
-SET XACT_ABORT ON;\nBEGIN TRANSACTION;\nINSERT INTO table_name (column1, column2) VALUES ('value1', 'value2');\n-- If an error occurs, the transaction will be rolled back automatically\nCOMMIT TRANSACTION;

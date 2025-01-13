@@ -1,1 +1,0 @@
-<rich-text>\n  <xsl:text disable-output-escaping="yes">&lt;p&gt;This text is &lt;em&gt;italic&lt;/em&gt;&lt;/p&gt;</xsl:text>\n</rich-text>

@@ -1,1 +1,0 @@
-// module.config.php\n\n'image' => [\n    'type' => 'segment',\n    'options' => [\n        'route' => '/image/serve/:filePath',\n        'defaults' => [\n            'controller' => 'Application\Controller\Image',\n            'action' => 'serve',\n        ],\n    ],\n],

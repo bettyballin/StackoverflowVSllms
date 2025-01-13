@@ -1,1 +1,0 @@
-// In the parent page\niframe.contentWindow.postMessage('Hello, iframe!', 'https://example.com');\n\n// In the iframe\nwindow.addEventListener('message', (event) => {\n  if (event.origin === 'https://parent-page.com') {\n    console.log(event.data); // 'Hello, iframe!'\n  }\n});

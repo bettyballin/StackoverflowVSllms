@@ -1,1 +1,0 @@
-<system.web>\n    <httpModules>\n        <add name="HtmlModifier" type="YourNamespace.HtmlModifier" />\n    </httpModules>\n</system.web>

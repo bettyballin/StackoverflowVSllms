@@ -1,1 +1,0 @@
-// Allow only letters, spaces, and apostrophes\n$name_regex = '/^[a-zA-Z\s\']+$/\n\n// Check if name matches regex\nif (preg_match($name_regex, $name)) {\n    // Name is valid\n}

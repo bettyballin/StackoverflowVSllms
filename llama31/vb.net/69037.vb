@@ -1,1 +1,0 @@
-If String.IsNullOrEmpty("ABC") Then\n    ' string is empty or null\nEnd If

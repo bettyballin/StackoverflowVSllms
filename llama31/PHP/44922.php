@@ -1,1 +1,0 @@
-$imagelist['additional']['image']['nokia_e61_1.jpg']['name_body']

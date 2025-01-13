@@ -1,1 +1,0 @@
-EXEC ('ALTER TABLE MyTable ALTER COLUMN MyColumn varchar(25)')\n\nUPDATE MyTable\nSET MyColumn = SUBSTRING(MyColumn, 0, 5)

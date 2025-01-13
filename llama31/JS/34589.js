@@ -1,1 +1,0 @@
-var dataList = $(".add").map(function(){\n    return $(this).find('a').text();\n}).get();\nconsole.log(dataList);  // Will log an array ["Data1", "Data2", ...]

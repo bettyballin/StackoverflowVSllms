@@ -1,1 +1,0 @@
-import nxt\n\n# Connect to the NXT brick\nbrick = nxt.find_one_brick()\n\n# Turn on motor A\nbrick.motor_a.turn(100)

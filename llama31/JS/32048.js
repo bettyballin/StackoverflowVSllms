@@ -1,1 +1,0 @@
-const GDBRemote = require('gdb-remote');\n\n// Create a GDBRemote object\nconst gdbRemote = new GDBRemote('localhost', 1234);\n\n// Send a command to gdbserver\ngdbRemote.sendCommand('qSupported', (err, response) => {\n  // Handle response from gdbserver\n});

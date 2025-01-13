@@ -1,1 +1,0 @@
-use PhpBench\Benchmark;\n\n$benchmark = new Benchmark();\n$benchmark->add('your_code', function () {\n    // your code here\n});\n$benchmark->run();

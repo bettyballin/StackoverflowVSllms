@@ -1,1 +1,0 @@
-$imageSource = $articles[$index]->has_voted($_SESSION['user']) ? 'assets/images/triangulo2.png' : 'assets/images/triangulo.png';\n\n<a href="/index.php?action=vote&amp;param=<?php echo $articles[$index]->getId(); ?>">\n    <img class="vote_button" src="<?php echo $imageSource; ?>" />\n</a>

@@ -1,1 +1,0 @@
-// In the pop-up window's JavaScript code\nvar opener = window.opener;\nif (opener) {\n    opener.execScript("alert(' Developer Tools are now attached to the pop-up window');");\n}

@@ -1,1 +1,0 @@
-var timeoutId = null;\n\n$(window).scroll(function() {\n  if (timeoutId !== null) {\n    clearTimeout(timeoutId);\n  }\n  timeoutId = setTimeout(function() {\n    // your function code here\n    // ...\n  }, 500); // adjust the timeout value to your needs\n});

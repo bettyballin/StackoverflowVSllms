@@ -1,1 +1,0 @@
-$user = new User('username', 'password');\nif ($user->authenticate()) {\n  // user is authenticated\n} else {\n  // user is not authenticated\n}

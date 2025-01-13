@@ -1,1 +1,0 @@
-UPDATE #MapTable\nSET Category = COALESCE(Category, (SELECT TOP 1 Category FROM #MapTable WHERE Category IS NOT NULL))

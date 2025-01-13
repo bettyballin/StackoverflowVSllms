@@ -1,1 +1,0 @@
-// Correct\ndocument.getElementById("myElement").onclick = function() {\n  alert("Button clicked!");\n};\n\n// Incorrect\ndocument.getelementbyid("myElement").onClick = function() {\n  alert("Button clicked!");\n};

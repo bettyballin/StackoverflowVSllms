@@ -1,1 +1,0 @@
-$.ajax({\n  url: "http://localhost/services/ezekielservices/configservice/ezekielservices.svc/test",\n  data: "{}",\n  dataType: "json",\n  crossDomain: true,\n  success: function(data) {\n    handleResponse(data);\n  }\n});

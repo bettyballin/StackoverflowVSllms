@@ -1,1 +1,0 @@
-if (window.addEventListener) {\n  window.addEventListener('load', function() {\n    alert("LOADED!");\n  });\n} else {\n  window.attachEvent('onload', function() {\n    alert("LOADED!");\n  });\n}

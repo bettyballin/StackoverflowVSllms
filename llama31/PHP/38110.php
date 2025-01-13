@@ -1,1 +1,0 @@
-$a = Null;\n$b = False;\n$c = 0;\n\nif ($a == $b) {\n    echo "Loose comparison: a == b\n";\n}\nif ($a === $b) {\n    echo "Strict comparison: a === b\n";\n}\n\nif ($b == $c) {\n    echo "Loose comparison: b == c\n";\n}\nif ($b === $c) {\n    echo "Strict comparison: b === c\n";\n}

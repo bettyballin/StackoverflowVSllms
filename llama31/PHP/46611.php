@@ -1,1 +1,0 @@
-<?php\n// Check if the session variable is set\nif (!isset($_SESSION['site_user_country'])) {\n    // Include File1.php only if the session variable is not set\n    include_once 'File1.php';\n}\n?>

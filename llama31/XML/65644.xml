@@ -1,1 +1,0 @@
-<membership defaultProvider="ADMembershipProvider">\n  <providers>\n    <add name="ADMembershipProvider" \n         type="System.Web.Security.ActiveDirectoryMembershipProvider" \n         connectionStringName="ADConnectionString" \n         connectionUsername="your_username" \n         connectionPassword="your_password" />\n  </providers>\n</membership>

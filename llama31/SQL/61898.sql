@@ -1,1 +1,0 @@
-SELECT *\nFROM invitations\nWHERE email = 'example@example.com'\n  AND (key1 = 'mykey' OR key1 IS NULL)\n  AND (key2 = 'mykey2' OR key2 IS NULL)\n  AND (key3 = 'mykey3' OR key3 IS NULL);

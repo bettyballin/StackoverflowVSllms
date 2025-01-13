@@ -1,1 +1,0 @@
-const inputField = document.getElementById('myInputField');\ninputField.focus();\ninputField.setSelectionRange(2, 5);

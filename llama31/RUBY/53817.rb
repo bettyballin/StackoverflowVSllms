@@ -1,1 +1,0 @@
-# app/controllers/calendars_controller.rb\nclass CalendarsController < ApplicationController\n  def index\n    @events = Event.all\n  end\nend

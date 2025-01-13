@@ -1,1 +1,0 @@
-# game_data.py\nclass GameData:\n    def __init__(self):\n        self.formations = config.formations\n        self.terrain = config.terrain\n\n    def get_formation(self, name):\n        return next((f for f in self.formations if f.name == name), None)\n\n    def get_terrain(self, name):\n        return next((t for t in self.terrain if t.name == name), None)

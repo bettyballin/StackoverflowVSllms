@@ -1,1 +1,0 @@
-<compilation debug="false" batch="false" optimizeCompilations="true">\n  <assemblies>\n    <add assembly="MySite"/>\n  </assemblies>\n</compilation>

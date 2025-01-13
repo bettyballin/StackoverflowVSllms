@@ -1,1 +1,0 @@
-SELECT Spl_No, Spl_Name\nFROM Spl\nWHERE Spl_No NOT IN (\n  SELECT Spl_No\n  FROM Del\n  WHERE Item_Name = 'Compass'\n)

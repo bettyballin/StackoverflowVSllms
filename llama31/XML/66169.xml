@@ -1,1 +1,0 @@
-<!-- web.config example: Increase MaxConcurrentRequestsPerCPU -->\n<system.web>\n  <applicationPool maxConcurrentRequestsPerCPU="5000" />\n</system.web>

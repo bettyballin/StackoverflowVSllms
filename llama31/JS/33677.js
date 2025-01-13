@@ -1,1 +1,0 @@
-$.ajax({\n  context: this, // set the context to the link that was clicked\n  // your AJAX settings here\n  success: function(data) {\n    // ...\n  }\n});

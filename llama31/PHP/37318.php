@@ -1,1 +1,0 @@
-$pdo = new PDO('mysql:host=your_host;dbname=your_db', 'your_username', 'your_password');\n\n$stmt = $pdo->prepare('DELETE FROM entries WHERE id = :id');\n$stmt->bindParam(':id', $_POST['id']);\n$stmt->execute();

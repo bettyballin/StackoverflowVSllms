@@ -1,1 +1,0 @@
-people.sort(key=lambda x: x['name'])\nprint(people)

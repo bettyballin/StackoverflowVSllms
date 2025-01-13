@@ -1,1 +1,0 @@
-result = list(zip_longest(a, b, c, fillvalue='default'))

@@ -1,1 +1,0 @@
-import math\n\ndef derive_public_key(private_key):\n    n, d = private_key\n    p = int(math.sqrt(n)) + 1\n    while n % p != 0:\n        p += 1\n    q = n // p\n    phi = (p - 1) * (q - 1)\n    e = pow(d, -1, phi)\n    return (n, e)\n\n# Example private key (n, d)\nprivate_key = (323, 275)\n\npublic_key = derive_public_key(private_key)\nprint(public_key)

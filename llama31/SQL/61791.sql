@@ -1,1 +1,0 @@
-SELECT @@VERSION;  -- MySQL, PostgreSQL, SQL Server\nSELECT * FROM V$VERSION;  -- Oracle\nSELECT version();  -- SQLite

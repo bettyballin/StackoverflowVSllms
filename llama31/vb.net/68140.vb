@@ -1,1 +1,0 @@
-Dim builder As New EntityConnectionStringBuilder\nbuilder.Provider = "System.Data.SqlClient"\nbuilder.ProviderConnectionString = "Data Source=your_database_server;Initial Catalog=your_database_name;Integrated Security=True;MultipleActiveResultSets=True"\nbuilder.Metadata = "res://*/Toy.csdl|res://*/Toy.ssdl|res://*/Toy.msl"\n\nDim dc As New ToyEntities(builder.ToString)

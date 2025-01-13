@@ -1,1 +1,0 @@
-// Select only the modules you need\nvar modules = [\n  'core',\n  'ajax',\n  'cookies'\n];\n\n// Create a custom build of jQuery\nvar customJQuery = jQuery.modules(modules);\n\n// Use the custom build\ncustomJQuery.ajax({\n  url: 'example.php',\n  success: function(data) {\n    console.log(data);\n  }\n});

@@ -1,1 +1,0 @@
-function confirmDelete() {\n    var confirmValue = confirm("Are you sure you want to delete this record?");\n    if (confirmValue) {\n        document.getElementById('<%= hfConfirm.ClientID %>').value = "Yes";\n    } else {\n        document.getElementById('<%= hfConfirm.ClientID %>').value = "No";\n    }\n}

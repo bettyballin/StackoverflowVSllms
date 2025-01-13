@@ -1,1 +1,0 @@
-import sqlparse\n\nquery = "SELECT * FROM table WHERE id = 1"\nformatted_query = sqlparse.format(query, reindent=True, keyword_case='upper')\nprint(formatted_query)

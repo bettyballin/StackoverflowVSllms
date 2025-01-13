@@ -1,1 +1,0 @@
-SELECT \n  us1.name AS sender_name, \n  us2.name AS recipient_name, \n  ta.amount, \n  ta.recipient_id, \n  ta.sender_id, \n  ta.timestamp_insert\nFROM  \n  `transactions` AS ta\n  JOIN users AS us1 ON ta.sender_id = us1.u_id\n  JOIN users AS us2 ON ta.recipient_id = us2.u_id\nWHERE  \n  ta.sender_id = 111111 OR ta.recipient_id = 111111\nLIMIT 0 , 10

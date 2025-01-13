@@ -1,1 +1,0 @@
-$array1 = array('key1', 'key2', 'key3');\n$array2 = array('value1', 'value2', 'value3');\n\n$associativeArray = array_combine($array1, $array2);\n\nprint_r($associativeArray);

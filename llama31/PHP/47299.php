@@ -1,1 +1,0 @@
-<?php\n// Your PHP library with the display() function\nrequire_once 'path/to/your/library.php';\n\n// Call the display() function and output the result\necho display();\n?>

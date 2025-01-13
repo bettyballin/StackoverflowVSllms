@@ -1,1 +1,0 @@
-select nullif(purge_date, null) || "SODIUFOSDIUFSDOIFUDSF" from id_rec where id=36581;

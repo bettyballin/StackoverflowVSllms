@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n  SELECT items.*,\n         ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY created_at DESC) AS row_num\n  FROM items\n) AS subquery\nWHERE row_num <= 3\nORDER BY created_at DESC\nLIMIT 10;

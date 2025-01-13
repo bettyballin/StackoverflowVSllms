@@ -1,1 +1,0 @@
-extension_dir = "c:\php\ext\"

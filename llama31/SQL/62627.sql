@@ -1,1 +1,0 @@
-SELECT \n    p.*,\n    r.reply\nFROM \n    Posts p\nJOIN \n    (\n        SELECT \n            post_id,\n            reply,\n            ROW_NUMBER() OVER (PARTITION BY post_id ORDER BY created_at DESC) as row_num\n        FROM \n            Replies\n    ) r ON p.id = r.post_id\nWHERE \n    r.row_num <= 3;

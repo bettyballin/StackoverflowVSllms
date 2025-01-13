@@ -1,1 +1,0 @@
-DECLARE @str VARCHAR(50) = 'foo=abc;bar=def;baz=ghi'\n\nSELECT \n    SUBSTRING(\n        @str, \n        CHARINDEX('bar=', @str) + LEN('bar='), \n        CHARINDEX(';', @str, CHARINDEX('bar=', @str)) - (CHARINDEX('bar=', @str) + LEN('bar='))\n    ) AS bar_value

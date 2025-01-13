@@ -1,1 +1,0 @@
-import os\nimport time\n\ndef get_idle_time():\n    with open('/proc/uptime', 'r') as f:\n        uptime = float(f.readline().split()[0])\n    with open('/proc/stat', 'r') as f:\n        for line in f:\n            if line.startswith('btime'):\n                btime = float(line.split()[1])\n                break\n    return uptime - btime\n\nprint(get_idle_time())

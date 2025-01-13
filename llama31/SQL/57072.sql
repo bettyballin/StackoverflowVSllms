@@ -1,1 +1,0 @@
-SELECT \n  GROUP_CONCAT(email ORDER BY date ASC SEPARATOR '|'), \n  newsletterid, \n  date\nFROM \n  (SELECT \n     email, \n     newsletterid, \n     date, \n     ROW_NUMBER() OVER (PARTITION BY newsletterid ORDER BY date ASC) AS row_num\n   FROM \n     newsletter_queue \n   WHERE \n     status='0') AS subquery\nWHERE \n  row_num <= 125\nGROUP BY \n  newsletterid

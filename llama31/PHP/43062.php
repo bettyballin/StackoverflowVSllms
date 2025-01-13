@@ -1,1 +1,0 @@
-// Example usage:\n$latitude = 37.7749;\n$longitude = -122.4194;\n$radius = 10; // miles\n\n$zipCodes = getZipCodesInRadius($latitude, $longitude, $radius);\n\nprint_r($zipCodes);

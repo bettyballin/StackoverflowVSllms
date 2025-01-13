@@ -1,1 +1,0 @@
-$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_HEADER, false);\ncurl_setopt($ch, CURLOPT_HTTPHEADER, array('Connection: close'));\n$content = curl_exec($ch);\ncurl_close($ch);

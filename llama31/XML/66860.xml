@@ -1,1 +1,0 @@
-<!-- target definition file (e.g., my.target) -->\n<?xml version="1.0" encoding="UTF-8"?>\n<?target name="My Custom Eclipse" sequenceNumber="1"?>\n<includes>\n  <plugin id="org.eclipse.jdt.core" version="3.25.0.v20210216-0414"/>\n  <plugin id="org.eclipse.ui" version="3.114.0.v20210514-1247"/>\n  <!-- add more plugins here -->\n</includes>

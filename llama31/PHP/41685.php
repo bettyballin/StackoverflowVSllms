@@ -1,1 +1,0 @@
-$date1_converted = date($dateFormat, strtotime($date1));\n$date2_converted = date($dateFormat, strtotime($date2));

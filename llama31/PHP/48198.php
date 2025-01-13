@@ -1,1 +1,0 @@
-function fractional_part($n) {\n    return $n - floor($n);\n}\n\nprint(fractional_part(1.25));  // Outputs: 0.25

@@ -1,1 +1,0 @@
-const textarea = document.querySelector('textarea');\nconst sendButton = document.querySelector('#send-button');\n\ntextarea.addEventListener('keypress', (e) => {\n  if (e.key === 'Enter') {\n    e.preventDefault();\n    sendButton.click();\n    textarea.value = '';\n  }\n});

@@ -1,1 +1,0 @@
-$dir_array = scandir('.');\n$dir_array = array_filter($dir_array, function($item) {\n    return is_dir($item) && $item !== '.' && $item !== '..';\n});\n\n// Now, $dir_array contains only the directories without "." and ".."

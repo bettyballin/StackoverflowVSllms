@@ -1,1 +1,0 @@
-$smarty = new Smarty();\n$smarty->setCaching(true);\n$smarty->setCacheLifetime(3600); // Cache for 1 hour\n\nif (!$smarty->isCached('index.tpl')) {\n    // Retrieve data from database or perform other computations\n    $smarty->assign('data', $data);\n}\n\n$smarty->display('index.tpl');

@@ -1,1 +1,0 @@
-$content = '<html><body>This is the content of the body.</body></html>';\n\npreg_match("/<body>(.*?)<\/body>/s", $content, $matches);\n\nprint_r($matches[1]); // $matches[1] will contain the content between the body tags

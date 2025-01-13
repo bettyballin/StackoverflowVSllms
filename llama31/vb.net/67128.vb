@@ -1,1 +1,0 @@
-Dim colorStrings = My.Settings.mytext1.Split(","c).Select(Function(x) x.Trim())\n\nDim colors As Integer() = colorStrings.Select(Function(x) Convert.ToInt32(x)).ToArray()\n\nColorDialog1.CustomColors = colors

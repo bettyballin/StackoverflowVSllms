@@ -1,1 +1,0 @@
-UPDATE foo f1\nSET total_count = (SELECT SUM(seconds) FROM bar b1 WHERE b1.foo_id = f1.foo_id)

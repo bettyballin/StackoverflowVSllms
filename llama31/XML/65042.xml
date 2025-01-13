@@ -1,1 +1,0 @@
-<!-- Example ReplayML configuration -->\n<ReplayML>\n    <ServerName>your_server_name</ServerName>\n    <DatabaseName>your_database_name</DatabaseName>\n    <UserName>your_username</UserName>\n    <Password>your_password</Password>\n    <Threads>10</Threads>\n    <TraceFile>your_trace_file.trc</TraceFile>\n</ReplayML>

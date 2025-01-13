@@ -1,1 +1,0 @@
-Imports System.Text\n\nDim sb As New StringBuilder("SCORE")\nsb.Append(Chr(0).ToString().PadRight(8, Chr(0)))\nsb.Append("3.0")\nsb.Append(Chr(0).ToString().PadRight(10, Chr(0)))\nsb.Append("0")\n\nDim result As String = sb.ToString()

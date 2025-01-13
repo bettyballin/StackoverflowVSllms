@@ -1,1 +1,0 @@
-SELECT DISTINCT DATE(timestamp_column) FROM your_table;

@@ -1,1 +1,0 @@
-use Gnupg;\n\n// Initialize GnuPG\n$gpg = new Gnupg();\n\n// Set the recipient's public key\n$gpg->addEncryptKey('recipient@example.com');\n\n// Encrypt the data\n$encryptedData = $gpg->encrypt('Hello, World!');\n\n// Decrypt the data\n$decryptedData = $gpg->decrypt($encryptedData);

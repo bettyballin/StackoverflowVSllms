@@ -1,1 +1,0 @@
-BACKUP DATABASE [Some_db] TO DISK = 'C:\Backup\Some_db.bak'

@@ -1,1 +1,0 @@
-import pathlib\n\npath = pathlib.Path('path_to_your_file')\nstat_info = path.stat()\nmodification_time_ns = stat_info.st_mtime_ns

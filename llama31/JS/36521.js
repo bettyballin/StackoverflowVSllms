@@ -1,1 +1,0 @@
-function showErrorSteps() {\n    var el = document.getElementById("t1");\n\n    if (el.style.opacity == 0) {\n        el.style.opacity = 1;\n    } else {\n        el.style.opacity = 0;\n    }\n}

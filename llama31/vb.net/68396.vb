@@ -1,1 +1,0 @@
-Dim yourPoco As New YourPoco()\nDim yourEfEntity As YourEfEntity = Mapper.Map(Of YourEfEntity)(yourPoco)

@@ -1,1 +1,0 @@
-import bitstruct\n\n# Define the bit field structure\nfmt = 'u13'  # unsigned 13-bit integer\n\n# Unpack the bit field from a bytes object\ndata = b'\x12\x34\x56\x78'\nvalue = bitstruct.unpack(fmt, data)[0]\nprint(value)

@@ -1,1 +1,0 @@
-Dim f As New DataContractSerializer(output.GetType())

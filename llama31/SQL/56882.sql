@@ -1,1 +1,0 @@
-ALTER TABLE Bookings\nADD CONSTRAINT UC_Booking UNIQUE (Date, Time, InstructorID);

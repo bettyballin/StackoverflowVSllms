@@ -1,1 +1,0 @@
-from django.utils.html import escape\n\ninput_value = "<script src='/js/script.js' type='text/javascript'></script>"\nescaped_value = escape(input_value)\n\n# Use the escaped value in your template\n<input type="text" value="{{ escaped_value }}" name="embed"/>

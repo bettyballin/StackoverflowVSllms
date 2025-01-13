@@ -1,1 +1,0 @@
-$dsn = "sqlsrv:Server=$serverName;Database=$databaseName";\n$username = "your_username";\n$password = "your_password";\n\n$conn = new PDO($dsn, $username, $password);

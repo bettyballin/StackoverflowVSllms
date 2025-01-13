@@ -1,1 +1,0 @@
-$tidy = new Tidy();\n$tidy->parseString($html, array(\n    Tidy::OPT_LITERAL_ATTRS => true,\n));

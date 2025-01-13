@@ -1,1 +1,0 @@
-<?php\nif (isset($_COOKIE['session_jwt'])) {\n    $jwt = $_COOKIE['session_jwt'];\n    // Verify JWT here\n    // If valid, log the user in\n}

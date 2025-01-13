@@ -1,1 +1,0 @@
-ALTER TABLE documents ADD COLUMN membersOnly NUMBER;\nALTER TABLE documents ALTER COLUMN membersOnly SET DEFAULT 0;

@@ -1,1 +1,0 @@
-function getAlternatingValue() {\n    $file = 'alternating_value.txt';\n    if (!file_exists($file)) {\n        file_put_contents($file, '0');\n    }\n    $currentValue = trim(file_get_contents($file));\n    $nextValue = ($currentValue === '0') ? '1' : '0';\n    file_put_contents($file, $nextValue);\n    return $currentValue;\n}

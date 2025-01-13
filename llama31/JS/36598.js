@@ -1,1 +1,0 @@
-const textarea = document.getElementById('myTextarea');\nconst delay = 500; // adjust the delay to your liking\n\nlet timeoutId = null;\n\ntextarea.addEventListener('keydown', (event) => {\n  clearTimeout(timeoutId);\n  timeoutId = setTimeout(() => {\n    // your code here\n  }, delay);\n});

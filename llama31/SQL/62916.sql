@@ -1,1 +1,0 @@
-SELECT name, email\nFROM (\n  SELECT name, email,\n    ROW_NUMBER() OVER (PARTITION BY name ORDER BY CASE WHEN email LIKE '%@yahoo.com' THEN 1 ELSE 0 END) AS row_num\n  FROM name_email\n) AS subquery\nWHERE row_num = 1;

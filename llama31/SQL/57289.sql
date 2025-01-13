@@ -1,1 +1,0 @@
--- Example using a temporary table\nSELECT *\nINTO #TempTable\nFROM table1\nWHERE -- Conditions\n\n-- Use #TempTable for subsequent queries\nSELECT *\nFROM #TempTable\nJOIN table2 ON #TempTable.column = table2.colum

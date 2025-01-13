@@ -1,1 +1,0 @@
-$fname = "проба.xml";\n$fname_windows = iconv('UTF-8', 'Windows-1251', $fname);\nfile_get_contents($fname_windows);

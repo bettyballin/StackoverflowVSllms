@@ -1,1 +1,0 @@
-$image = new Imagick('input_image.jpg');\n$image->resizeImage(800, 600, Imagick::FILTER_LANCZOS, 1);\n$image->writeImage('output_image.jpg');

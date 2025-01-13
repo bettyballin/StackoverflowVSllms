@@ -1,1 +1,0 @@
-wmd_options = {\n  textarea: document.querySelector('.my_textarea_class')\n};

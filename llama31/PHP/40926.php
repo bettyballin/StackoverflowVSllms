@@ -1,1 +1,0 @@
-ob_start();\n// generate output here\nob_end_flush();

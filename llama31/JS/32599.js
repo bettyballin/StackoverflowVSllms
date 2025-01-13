@@ -1,1 +1,0 @@
-const img = document.createElement('img');\nimg.src = '/api/image';\n\n// Remove the image tag to cancel the request\ndocument.body.removeChild(img);

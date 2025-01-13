@@ -1,1 +1,0 @@
-$obj = new stdClass();\n$obj->foo = 'bar';\n\n$binary = msgpack_pack($obj);\n// Store the binary data in APC or memcache\napc_store('my_object', $binary);\n\n// Later...\n$binary = apc_fetch('my_object');\n$obj = msgpack_unpack($binary);

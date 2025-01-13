@@ -1,1 +1,0 @@
-CREATE TABLE MEASUREMENT (\n  measurement_id NUMBER PRIMARY KEY,\n  test_id NUMBER,\n  rec_time DATE,\n  measurement BINARY_FLOAT\n);\n\n-- Insert sample data\nINSERT INTO MEASUREMENT (measurement_id, test_id, rec_time, measurement)\nVALUES (1, 1, SYSTIMESTAMP, 3.14159);

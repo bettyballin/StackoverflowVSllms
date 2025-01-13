@@ -1,1 +1,0 @@
-SELECT * FROM us_music WHERE genre = 'punk'\nUNION\nSELECT * FROM de_music WHERE genre = 'punk'

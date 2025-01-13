@@ -1,1 +1,0 @@
-Protected Sub GridView1_RowDataBound(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.GridViewRowEventArgs)\n    If e.Row.RowType = DataControlRowType.DataRow Then\n        e.Row.Attributes.Add("onclick", "javascript:__doPostBack('GridView1','Select$" + e.Row.RowIndex.ToString() + "')")\n    End If\nEnd Sub

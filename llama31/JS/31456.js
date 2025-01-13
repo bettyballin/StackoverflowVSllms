@@ -1,1 +1,0 @@
-const xhr = new XMLHttpRequest();\nxhr.open('POST', 'https://example.com', true);\n\n// Send data to the server at intervals\nsetInterval(() => {\n  xhr.send('Hello, server!');\n  xhr.abort();\n}, 1000);

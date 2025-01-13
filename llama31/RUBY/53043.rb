@@ -1,1 +1,0 @@
-server = TCPServer.new('localhost', 12345)\n\nloop do\n  client = server.accept\n  puts "Connection from #{client.peeraddr}"\n\n  file = File.open('path/to/binary/file', 'rb')\n  client.sendfile(file)\n  file.close\n  client.close\nend

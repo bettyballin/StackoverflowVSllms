@@ -1,1 +1,0 @@
-Array\n(\n    [ec2173de2134fdsfg4fsdffcb4b5205] => ABC Widgets\n    [e5dfgfdg2d760f640aadfgdfgdfg47b] => Acme Co\n    [b9dfgsdfg419085c3sdgffdsgfdg313] => 4321 Corp\n)

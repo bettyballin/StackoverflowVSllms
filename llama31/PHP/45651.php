@@ -1,1 +1,0 @@
-$html = '<html><body>Hello World!</body></html>';\n$css = 'body { font-size: 20px; }';\n\n$mpdf = new mPDF();\n$mpdf->WriteHTML($html);\n$mpdf->AddCSS($css);\n$mpdf->Output('output.pdf', 'D');

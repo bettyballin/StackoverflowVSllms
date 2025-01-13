@@ -1,1 +1,0 @@
-require 'yaml'\n\npoll.variants = {0 => 'тест', 1 => '-тест-', 2 => 'test # test "тест'}\n\n# Serialize the hash to YAML with UTF-8 encoding\nyaml_string = YAML.dump(poll.variants, :encoding => 'utf-8')\n\n# Save the YAML string to the ActiveRecord field\npoll.serialized_variants = yaml_string

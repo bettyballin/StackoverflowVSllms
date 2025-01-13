@@ -1,1 +1,0 @@
-window.open('https://example.com', '_blank', 'fullscreen=yes');

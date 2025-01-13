@@ -1,1 +1,0 @@
-function hashFileContents(fileContents) {\n    var hash = crypto.createHash('sha256');\n    hash.update(fileContents);\n    return hash.digest('hex');\n}

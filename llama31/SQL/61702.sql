@@ -1,1 +1,0 @@
-SELECT table1.Col1 AS q'["This is an alias with " quotes"]' FROM table1;

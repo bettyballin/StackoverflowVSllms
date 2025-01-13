@@ -1,1 +1,0 @@
-// Replace AjaxControlToolkit's AsyncPostBackTrigger\n$.ajax({\n  type: 'POST',\n  url: 'your-webservice-url',\n  data: yourData,\n  success: function(data) {\n    // process the response\n  }\n});\n\n// Replace RadAjaxManager's AjaxRequest\n$.getJSON('your-webservice-url', function(data) {\n  // process the response\n});

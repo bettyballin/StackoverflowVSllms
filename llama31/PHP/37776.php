@@ -1,1 +1,0 @@
-$this->_helper->ajaxContext->clearContexts();\n$this->_helper->ajaxContext->disable();\n$this->redirector->gotoSimple('manage', 'team', null, array('id' => $teamID));

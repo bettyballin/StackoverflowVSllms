@@ -1,1 +1,0 @@
-// plugins/MyPlugin.php\n\nclass MyPlugin\n{\n    public function __construct()\n    {\n        // Initialize plugin\n    }\n\n    public function doSomething()\n    {\n        // Plugin functionality\n    }\n}

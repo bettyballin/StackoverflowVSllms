@@ -1,1 +1,0 @@
-// Example encoding workaround\n$formData = htmlspecialchars($_POST['form_data']);\n// Process the encoded form data

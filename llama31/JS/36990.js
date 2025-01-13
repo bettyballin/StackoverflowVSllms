@@ -1,1 +1,0 @@
-// inside the iframe's content\nwindow.parent.scrollTo(0, 0);

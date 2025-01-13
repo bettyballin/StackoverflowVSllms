@@ -1,1 +1,0 @@
-$pdo = new PDO('mysql:host=your_host;dbname=your_db', 'your_username', 'your_password');\n$pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, true);\n\n$stmt = $pdo->prepare('SELECT foo,bar FROM baz WHERE quux = ? ORDER BY bar LIMIT 1');\n$stmt->execute(array('your_quux_value'));

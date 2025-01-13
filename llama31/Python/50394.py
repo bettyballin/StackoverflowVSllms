@@ -1,1 +1,0 @@
-import diagram\n\n# Create a diagram\ndia = diagram.Diagram()\n\n# Add nodes\ndia.add_node('A', 'Start')\ndia.add_node('B', 'Process 1')\ndia.add_node('C', 'Process 2')\ndia.add_node('D', 'End')\n\n# Add edges\ndia.add_edge('A', 'B')\ndia.add_edge('B', 'C')\ndia.add_edge('C', 'D')\n\n# Render the diagram as ASCII art\nprint(dia.render())

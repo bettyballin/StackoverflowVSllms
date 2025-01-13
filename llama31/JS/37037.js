@@ -1,1 +1,0 @@
-var myDiv = $("<div>Hello!</div>");\n$("somePlace").after(myDiv);\nmyDiv.hide().fadeIn('fast');

@@ -1,1 +1,0 @@
-$a = array(1 => 'one', 2 => 'two');\nunset($a[1]);\nunset($a[2]);\n$a[] = 'three';\nprint_r($a);

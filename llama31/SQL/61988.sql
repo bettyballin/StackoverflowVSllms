@@ -1,1 +1,0 @@
-SELECT \n    COALESCE(A.column1, 0) - COALESCE(B.column1, 0) AS column1_diff,\n    COALESCE(A.column2, 0) - COALESCE(B.column2, 0) AS column2_diff\nFROM \n    TableA A\nCROSS JOIN \n    TableB B;

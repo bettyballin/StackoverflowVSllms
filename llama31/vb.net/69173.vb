@@ -1,1 +1,0 @@
-Dim myFantasy As Integer = Convert.ToInt32("1000", 2)

@@ -1,1 +1,0 @@
-import copy\n\norig_list = [[1, 2], [3, 4], [5, 6]]\ntemp_list = copy.deepcopy(orig_list[0:2])\n\nprint(id(orig_list[0]))  # prints the id of the first element of orig_list\nprint(id(temp_list[0]))  # prints a different id, showing that temp_list is a deep copy

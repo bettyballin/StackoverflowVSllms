@@ -1,1 +1,0 @@
-require_once 'PHPExiftool.php';\n\n$exiftool = new PHPExiftool();\n$exiftool->writeMetadata('image.jpg', array(\n    'Artist' => 'Initrode',\n    'Copyright' => 'Copyright Initrode'\n));

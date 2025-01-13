@@ -1,1 +1,0 @@
-def number_of_ones(n):\n    c = 0\n    while n:\n        n &= n - 1\n        c += 1\n    return c

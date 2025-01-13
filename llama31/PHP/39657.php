@@ -1,1 +1,0 @@
-$consumer = new OpenID_Consumer();

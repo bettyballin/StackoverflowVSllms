@@ -1,1 +1,0 @@
-from bs4 import BeautifulSoup\nimport requests\n\nsoup = BeautifulSoup(requests.get('http://www.example.com').content, 'html.parser')\ntitle = soup.find('title').text

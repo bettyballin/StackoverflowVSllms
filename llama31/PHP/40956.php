@@ -1,1 +1,0 @@
-while ($row = mysql_fetch_assoc($result)) {\n    $content = $row[0]['value']; // Post Content\n    $title = $row[1]['value']; // Post Title\n    // ...\n}

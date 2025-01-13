@@ -1,1 +1,0 @@
-<application xmlns="http://wadl.dev.java.net/2009/02">\n  <resources base="http://example.com/api">\n    <resource path="/users">\n      <method id="getUsers" name="GET">\n        <response>\n          <representation mediaType="application/json" />\n        </response>\n      </method>\n    </resource>\n  </resources>\n</application>

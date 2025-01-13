@@ -1,1 +1,0 @@
-SELECT RAWTOHEX(USER_GUID) FROM user WHERE email = 'user@example.com';

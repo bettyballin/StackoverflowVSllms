@@ -1,1 +1,0 @@
-function returnsAnArray() {\n    return array('test', 'example');\n}\n\necho (returnsAnArray())[1]; // outputs: example

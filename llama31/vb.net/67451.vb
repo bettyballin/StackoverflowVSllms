@@ -1,1 +1,0 @@
-Dim numbers = {1, 2, 3, 4, 5}\n\n' Using 'And'\nDim result1 = numbers.Where(Function(n) n > 2 And n < 4)\n\n' Using 'AndAlso'\nDim result2 = numbers.Where(Function(n) n > 2 AndAlso n < 4)

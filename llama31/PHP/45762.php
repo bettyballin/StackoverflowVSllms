@@ -1,1 +1,0 @@
-$wsdl = new Zend\Soap\Wsdl('http://example.com/service?wsdl');\n$classes = $wsdl->generateClasses();

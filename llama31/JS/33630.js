@@ -1,1 +1,0 @@
-$$('div:has(a[href="http://google.com"])').invoke('hide');

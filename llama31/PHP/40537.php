@@ -1,1 +1,0 @@
-echo "Hello,\n"; // outputs "Hello," and moves to a new line\necho "World!\n"; // outputs "World!" and moves to a new line\necho "\033[31m This text will be red \033[0m\n"; // outputs "This text will be red" in red color\necho "\tThis is a tabbed text\n"; // outputs a tabbed text

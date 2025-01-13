@@ -1,1 +1,0 @@
-const xhr = new XMLHttpRequest();\nxhr.open('POST', '/upload', true);\nxhr.setRequestHeader('Content-Type', 'application/octet-stream');\nxhr.upload.addEventListener('progress', (e) => {\n  const percent = Math.round((e.loaded / e.total) * 100);\n  console.log(`Uploaded ${percent}%`);\n  // Update your progress bar here\n});\nxhr.send(file);

@@ -1,1 +1,0 @@
-use SecureSessionHandler\Session;\n\n$session = new Session();\n$session->start();

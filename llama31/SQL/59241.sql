@@ -1,1 +1,0 @@
-CREATE TABLE MyTable (\n    ID INT IDENTITY(1,1) PRIMARY KEY,\n    Column1 INT,\n    Column2 INT,\n    UniqueID AS (CONVERT(VARCHAR(20), ID) + '-' + CONVERT(VARCHAR(20), Column1) + '-' + CONVERT(VARCHAR(20), Column2))\n);

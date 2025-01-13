@@ -1,1 +1,0 @@
-$boolean_value = (bool) $row['your_boolean_column'];\necho ($boolean_value) ? "Yes" : "No";

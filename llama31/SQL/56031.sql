@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION my_function(p_field_c text)\nRETURNS SETOF text AS\n$$\nBEGIN\n    RETURN QUERY SELECT 'value1' WHERE p_field_c = 'condition1';\n    RETURN QUERY SELECT 'value2' WHERE p_field_c = 'condition2';\n    -- Add more conditions as needed\nEND;\n$$ LANGUAGE plpgsql;\n\nSELECT field_a\nFROM my_table\nWHERE field_b IN (SELECT my_function(field_c));

@@ -1,1 +1,0 @@
-const iframe = document.getElementById('ifrm');\nconst iframeContent = iframe.contentWindow.document.body.innerHTML;\n// or\nconst iframeContent = iframe.contentDocument.body.innerHTML;

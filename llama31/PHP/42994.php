@@ -1,1 +1,0 @@
-<?php\n$configValue = Mage::getStoreConfig('yourcompany_customconfig/general/corporate_url');\necho $configValue;

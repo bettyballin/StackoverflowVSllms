@@ -1,1 +1,0 @@
-$string = "This is a test";\n$pattern = "/(is|a)/";\npreg_match_all($pattern, $string, $matches);\nprint_r($matches[0]);

@@ -1,1 +1,0 @@
-$categories = /* your array data */;\n\nforeach ($categories as $category) {\n    echo $category['Category']['name'] . "\n";\n    \n    foreach ($category['Forum'] as $forum) {\n        echo $forum['name'] . "\n";\n    }\n}

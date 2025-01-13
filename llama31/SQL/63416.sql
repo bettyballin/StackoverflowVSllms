@@ -1,1 +1,0 @@
-SELECT JSON_EXTRACT(values, '$[0]') AS value1, JSON_EXTRACT(values, '$[1]') AS value2 FROM main_table;

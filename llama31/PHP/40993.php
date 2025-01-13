@@ -1,1 +1,0 @@
-function CatRemove($myXML, $idToRemove) {\n    $xmlDoc = new DOMDocument();\n    $xmlDoc->load($myXML);\n    $categories = $xmlDoc->getElementsByTagName("category");\n    foreach ($categories as $category) {\n        if ($category->getAttribute('id') == $idToRemove) {\n            $category->parentNode->removeChild($category);\n        }\n    }\n    $xmlDoc->save($myXML);\n}

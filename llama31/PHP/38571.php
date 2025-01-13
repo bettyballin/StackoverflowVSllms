@@ -1,1 +1,0 @@
-// test the extension\n<?php\n$foo = libfoo_init();\nif (!$foo) {\n    echo "Could not allocate foo\n";\n    exit(1);\n}\n$tmp = libfoo_parse($foo, "/foo/foo.txt");\n// ...\nlibfoo_finit($foo);\n?>

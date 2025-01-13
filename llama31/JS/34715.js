@@ -1,1 +1,0 @@
-jQuery.noConflict();\n$(function() {\n  // your code here\n});

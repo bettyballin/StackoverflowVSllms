@@ -1,1 +1,0 @@
-$eventId = 1;\n$startDate = new DateTime('2023-03-01');\n$recurrence = 'weekly';\n$recurrenceInterval = 2;  // every 2 weeks\n$endDate = new DateTime('2023-06-01');\n\n$dates = generateRecurringDates($eventId, $startDate, $recurrence, $recurrenceInterval, $endDate);\n\nprint_r($dates);

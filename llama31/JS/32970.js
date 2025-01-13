@@ -1,1 +1,0 @@
-const express = require('express');\nconst app = express();\n\nconst MAX_FILE_SIZE = 1024 * 1024 * 5; // 5 MB\n\napp.post('/upload', (req, res) => {\n  const fileSize = req.headers['content-length'];\n  if (fileSize > MAX_FILE_SIZE) {\n    return res.status(413).send('File too large');\n  }\n  // Continue with file upload processing...\n});

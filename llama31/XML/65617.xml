@@ -1,1 +1,0 @@
-<system.web>\n    <httpModules>\n        <add name="WebMethodInterceptor" type="YourNamespace.WebMethodInterceptor" />\n    </httpModules>\n</system.web>

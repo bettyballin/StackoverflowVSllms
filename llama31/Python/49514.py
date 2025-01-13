@@ -1,1 +1,0 @@
-sage: my_list = [1, 2, 3]\nsage: list(map(lambda x: 2 * x, my_list))\n[2, 4, 6]

@@ -1,1 +1,0 @@
-$.ajax({\n    type: 'POST',\n    url: 'vote.php',\n    data: {\n        id: 123, // ID of the item being voted on\n        token: '<?php echo $_SESSION['vote_token']; ?>'\n    },\n    success: function(data) {\n        // Handle the response\n    }\n});

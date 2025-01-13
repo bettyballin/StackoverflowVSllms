@@ -1,1 +1,0 @@
-makeBasicAuthRequest('https://example.com/protected', 'username', 'password', function(response) {\n  console.log(response);\n});

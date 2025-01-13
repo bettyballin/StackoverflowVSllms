@@ -1,1 +1,0 @@
-$geoip = new GeoIp2\Database\Reader('path/to/GeoLite2-City.mmdb');\n$record = $geoip->city($_SERVER['REMOTE_ADDR']);\n$userTimezone = $record->location->timeZone;

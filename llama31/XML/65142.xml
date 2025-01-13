@@ -1,1 +1,0 @@
-<class name="orm.generated.Report" table="Report" schema="dbo" catalog="DatabaseName">\n    <id name="id" type="int">\n        <column name="ID" />\n        <generator class="identity" />\n    </id>\n</class>

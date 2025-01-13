@@ -1,1 +1,0 @@
-# my_package/__init__.py\nfrom . import module1\nfrom . import module2\n\nPACKAGE_VERSION = '1.0'

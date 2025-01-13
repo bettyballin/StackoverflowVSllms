@@ -1,1 +1,0 @@
-SELECT title\nFROM your_table\nORDER BY \n  CASE \n    WHEN title LIKE 'The %' THEN SUBSTRING(title, 5) \n    ELSE title \n  END;

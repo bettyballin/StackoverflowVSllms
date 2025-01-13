@@ -1,1 +1,0 @@
-<basicHttpBinding>\n  <binding name="MyBinding"\n           maxReceivedMessageSize="2147483647"\n           maxBufferSize="2147483647"\n           maxBufferPoolSize="2147483647"\n           receiveTimeout="00:10:00"\n           sendTimeout="00:10:00">\n  </binding>\n</basicHttpBinding>

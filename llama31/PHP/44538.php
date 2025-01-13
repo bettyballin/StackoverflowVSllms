@@ -1,1 +1,0 @@
-$doc = new DOMDocument();\n$doc->loadHTML($original_text);\n$tags = $doc->getElementsByTagName('*');\nforeach ($tags as $tag) {\n    if (!$tag->hasAttribute('closed')) {\n        // Tag is not closed\n    }\n}

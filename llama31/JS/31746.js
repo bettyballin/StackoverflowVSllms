@@ -1,1 +1,0 @@
-$.ajax({\n    type: "POST",\n    url: "setData.php",\n    data: { myPOSTvar: "myData" },\n    success: function(){ alert("Data Saved"); }\n});

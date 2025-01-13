@@ -1,1 +1,0 @@
-SELECT *\nFROM Dataset2\nINNER JOIN Dataset1\nON Dataset2.subsNumber = Dataset1.subsNumber;

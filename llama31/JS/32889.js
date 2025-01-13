@@ -1,1 +1,0 @@
-// Assume you have a portlet container with the ID "portlet-container"\n// and a portlet element with the ID "my-portlet"\n\n$( "#portlet-container" ).sortable({\n  stop: function( event, ui ) {\n    // Get the new position of the portlet\n    var newPosition = ui.item.index();\n    console.log( "New position:", newPosition );\n  }\n});

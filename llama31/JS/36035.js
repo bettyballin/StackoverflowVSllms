@@ -1,1 +1,0 @@
-$.get('/your/url', yourData, function(data) {\n    // handle success\n}, 'json', { cache: true });

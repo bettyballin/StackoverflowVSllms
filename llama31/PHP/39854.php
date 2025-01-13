@@ -1,1 +1,0 @@
-<?php\n  $html = '<p>This is a paragraph.</p> ';\n  echo $html;\n?>

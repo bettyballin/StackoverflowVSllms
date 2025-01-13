@@ -1,1 +1,0 @@
-if ($row = $db->get_row($sql) && $row->folder == 'something') {\n    // ...\n}

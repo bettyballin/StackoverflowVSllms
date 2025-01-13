@@ -1,1 +1,0 @@
--- Create a new SQL Server Database Project in Visual Studio\n-- Add your stored procedures to the project\n-- Use the "Schema Compare" feature to synchronize changes with your database

@@ -1,1 +1,0 @@
-SET @SomeVariable = @AnotherVariable / \n                    COALESCE(NULLIF(@VariableEqualToZero, 0), 1) - 1;

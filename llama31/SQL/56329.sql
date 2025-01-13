@@ -1,1 +1,0 @@
-CREATE TABLE MyTable (\n    ID INT,\n    Value sql_variant,\n    Type VARCHAR(255)\n);

@@ -1,1 +1,0 @@
-declare @LanguageId varchar(10)\nset @LanguageId = 'en-US'\n\nselect * from ##example\norder by xmltest.value('(/languages/language[@id=sql:variable("@LanguageId")])[1]', 'varchar')

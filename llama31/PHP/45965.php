@@ -1,1 +1,0 @@
-$timezone = 'Australia/Melbourne';\n$tz = IntlTimeZone::createTimeZone($timezone);\necho $tz->getDisplayName(true, IntlTimeZone::SHORT); // Output: AEST

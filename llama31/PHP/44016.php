@@ -1,1 +1,0 @@
-sleep(3);\nheader("Location: /index.php");\nexit;

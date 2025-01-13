@@ -1,1 +1,0 @@
-<filter>\n    <filter-name>URLRewriteFilter</filter-name>\n    <filter-class>com.example.URLRewriteFilter</filter-class>\n</filter>\n\n<filter-mapping>\n    <filter-name>URLRewriteFilter</filter-name>\n    <servlet-name>your-servlet-name</servlet-name>\n</filter-mapping>

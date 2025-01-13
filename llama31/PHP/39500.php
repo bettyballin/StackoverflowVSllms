@@ -1,1 +1,0 @@
-$myClass = (new ReflectionClass($this->to_construct))->newInstance();

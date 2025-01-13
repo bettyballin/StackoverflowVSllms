@@ -1,1 +1,0 @@
-use Ramsey\Uuid\Uuid;\n\n$key = Uuid::uuid4()->toString(); // 36 character key

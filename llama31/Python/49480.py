@@ -1,1 +1,0 @@
-import pstats\n\np = pstats.Stats('profile.stats')\np.sort_stats('cumulative')\np.print_stats()

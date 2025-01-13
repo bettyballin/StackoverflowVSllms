@@ -1,1 +1,0 @@
-Do While Not parentControlControlType.IsInstanceOfType(parentControl)\n    ...\nLoop

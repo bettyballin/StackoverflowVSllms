@@ -1,1 +1,0 @@
-import socks\nimport urllib2\n\nproxy_info = {\n    'host': 'axxx',\n    'port': '1234'\n}\n\nsocks.setdefaultproxy(socks.PROXY_TYPE_HTTP, proxy_info['host'], int(proxy_info['port']))\nsocks.wrapmodule(urllib2)\n\nopener = urllib2.build_opener()\nurllib2.install_opener(opener)\n\nresponse = urllib2.urlopen('https://correct.url.to.login.page.com/user=a&pswd=b')

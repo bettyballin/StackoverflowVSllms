@@ -1,1 +1,0 @@
-SELECT \n    distinguishedName AS GroupDN,\n    name AS GroupName,\n    member\nFROM \n    OPENQUERY(ADSI, \n              'SELECT \n                   distinguishedName,\n                   name,\n                   member\n               FROM \n                   ''LDAP://name''\n               WHERE \n                   objectClass=''group''\n               ')\nAS derivedtbl_1

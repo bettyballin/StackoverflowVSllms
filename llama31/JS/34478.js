@@ -1,1 +1,0 @@
-$(".TextFieldSettings #fieldTitle").off('change').on('change', function () {\n    // your code here\n});

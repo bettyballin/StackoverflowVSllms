@@ -1,1 +1,0 @@
-$vars = array_diff_key(get_defined_vars(), array_flip(array('_SESSION', '_GET', '_POST', '_COOKIE', '_FILES', '_SERVER', '_ENV')));\nforeach ($vars as $varname => $value) {\n    echo "<b>$varname</b> = $value <br/>";\n}

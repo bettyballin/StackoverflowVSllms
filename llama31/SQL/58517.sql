@@ -1,1 +1,0 @@
-CREATE TABLE OrderPaymentCreditCard (\n  OrderId INT,\n  PaymentId INT,\n  CreditCardId INT,\n  PRIMARY KEY (OrderId, PaymentId),\n  FOREIGN KEY (OrderId) REFERENCES Orders (OrderId),\n  FOREIGN KEY (PaymentId) REFERENCES Payments (PaymentId),\n  FOREIGN KEY (CreditCardId) REFERENCES CreditCards (CreditCardId)\n);

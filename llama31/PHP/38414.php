@@ -1,1 +1,0 @@
-$reflection = new ReflectionMethod($this, 'myFunction');\n$params = $reflection->getParameters();\n\nif (count($params) <= count($yourParamsArray)) {\n    call_user_func_array(array($this, 'myFunction'), $yourParamsArray);\n} else {\n    // call another function if the number of parameters doesn't match\n}

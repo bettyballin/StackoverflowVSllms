@@ -1,1 +1,0 @@
-def translate_newlines(text):\n    text = text.replace('\r\n', '\n')  # Windows\n    text = text.replace('\r', '\n')  # old Macs\n    return text

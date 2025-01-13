@@ -1,1 +1,0 @@
-SELECT '123' = 123;  // returns 1 (true)\nSELECT '123.45' = 123.45;  // returns 1 (true)\nSELECT '123abc' = 123;  // returns 0 (false)

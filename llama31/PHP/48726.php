@@ -1,1 +1,0 @@
-$body = nl2br($body);

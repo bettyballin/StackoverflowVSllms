@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $("code").each(function() {\n    $(this).append("<pre>" + $(this).html() + "</pre>");\n    $(this).contents().filter(function() {\n      return this.nodeType === 3; // remove text nodes\n    }).remove();\n  });\n});

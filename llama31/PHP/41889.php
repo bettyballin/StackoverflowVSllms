@@ -1,1 +1,0 @@
-$storeID = $_POST["sID"];

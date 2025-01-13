@@ -1,1 +1,0 @@
-// LoginController.php\nclass LoginController extends Controller {\n    public function login() {\n        // Handle login logic\n    }\n}

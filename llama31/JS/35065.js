@@ -1,1 +1,0 @@
-MoreInformation = {\n    TestString : 'hello world'\n}

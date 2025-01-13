@@ -1,1 +1,0 @@
-SELECT word_id, SUM(1) as cnt\nFROM sentence_word\nGROUP BY word_id\nHAVING SUM(1) > 100;

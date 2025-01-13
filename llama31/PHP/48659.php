@@ -1,1 +1,0 @@
-<?php\n\n// Read email from STDIN\n$email = file_get_contents('php://stdin');\n\n// Parse email using php-imap\n$mail = imap_mailparse_msg($email);\n\n// Extract relevant information (e.g., subject, body, sender)\n$subject = $mail->subject;\n$body = $mail->body;\n$sender = $mail->from;\n\n// Process the email as needed\n// ...\n\n?>

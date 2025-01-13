@@ -1,1 +1,0 @@
-function getSelectedText() {\n  var textbox = document.getElementById('textbox');\n  var start = textbox.selectionStart;\n  var end = textbox.selectionEnd;\n  var selectedText = textbox.value.substring(start, end);\n  alert(selectedText);\n}

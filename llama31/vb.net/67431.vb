@@ -1,1 +1,0 @@
-Dim inputValues As Tuple(Of String, Integer) = Tuple.Create("InputValueforWork", 42)\nDim task As Task = Task.Factory.StartNew(Sub() functiontodowork(inputValues.Item1, inputValues.Item2))

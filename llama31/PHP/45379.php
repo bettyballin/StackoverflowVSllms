@@ -1,1 +1,0 @@
-$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);\nsocket_set_option($socket, SOL_SOCKET, SO_RCVTIMEO, array('sec' => 5, 'usec' => 0));\nsocket_set_option($socket, SOL_SOCKET, SO_SNDTIMEO, array('sec' => 5, 'usec' => 0));

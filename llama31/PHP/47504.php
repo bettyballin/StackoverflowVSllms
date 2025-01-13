@@ -1,1 +1,0 @@
-class MyClass {\n  private $myVar;\n\n  public function __construct() {\n    $this->myVar = 'Hello';\n  }\n\n  public function myMethod() {\n    echo $myVar; // This will not work, because $myVar is not in the global namespace\n    echo $this->myVar; // This will work, because $this->myVar is scoped to the current object\n  }\n}

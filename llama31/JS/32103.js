@@ -1,1 +1,0 @@
-function upload_file(file, path) {\n  var form_data = new FormData();\n  form_data.append('file', $('#file')[0].files[0]);\n  form_data.append('path', path);\n\n  $.ajax({\n    url: '/upload_file/',\n    type: 'POST',\n    data: form_data,\n    contentType: false,\n    processData: false,\n    success: function(data) {\n      notice(data);\n    }\n  });\n}

@@ -1,1 +1,0 @@
-import requests\n\ndef proxy_request(url, proxy_url):\n    proxies = {'http': proxy_url, 'https': proxy_url}\n    response = requests.get(url, proxies=proxies)\n    return response.text\n\n# Example usage:\nproxy_url = 'http://proxy.example.com:8080'\nurl = 'http://example.com'\nprint(proxy_request(url, proxy_url))

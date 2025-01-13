@@ -1,1 +1,0 @@
-INSERT ALL\nINTO Runs (Model_Type, Time)\nVALUES ('model1', TO_DATE('01-01-2009 14:47:00', 'MM-DD-YYYY HH24:MI:SS'))\nINTO Run_Values (run_id, Value)\nVALUES ((SELECT runID FROM Runs WHERE Model_Type = 'model1' AND Time = TO_DATE('01-01-2009 14:47:00', 'MM-DD-YYYY HH24:MI:SS')), 1.0)\nSELECT * FROM DUAL;

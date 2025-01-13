@@ -1,1 +1,0 @@
-INSERT INTO new_table (Id, Name)\nSELECT \n  COALESCE(LeftId, RightId) AS Id,\n  Name\nFROM \n  old_table;

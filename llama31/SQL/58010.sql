@@ -1,1 +1,0 @@
-SELECT \n  DATE(`when`) AS `date`, \n  COUNT(*) AS `count`\nFROM \n  `metrics`\nWHERE \n  `vidID` = '1'\nGROUP BY \n  DATE(`when`)

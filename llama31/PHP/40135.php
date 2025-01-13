@@ -1,1 +1,0 @@
-$command = escapeshellcmd($command);\nexec($command, $output, $return_var);

@@ -1,1 +1,0 @@
-$pname = $_POST['pname'];\n$stmt = $conn->prepare("SELECT * FROM your_table_name WHERE name = ?");\n$stmt->bind_param("s", $pname);\n$stmt->execute();\n$result = $stmt->get_result();\nif ($result->num_rows > 0) {\n    echo "exists";\n} else {\n    echo "not_exists";\n}

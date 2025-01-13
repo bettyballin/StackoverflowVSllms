@@ -1,1 +1,0 @@
-$.ajax({\n    type: "GET",\n    url: "file.php",\n    data: { id: id, radio_value: $('input[name="radio"]:checked').val() },\n    ...\n});

@@ -1,1 +1,0 @@
-$types = $this->resourcetypes;

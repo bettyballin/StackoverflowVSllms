@@ -1,1 +1,0 @@
-// Assuming you have an element with the class 'fade-in'\n$('.fade-in').fadeIn(1000, function() {\n  $(this).addClass('fade-in-active');\n});

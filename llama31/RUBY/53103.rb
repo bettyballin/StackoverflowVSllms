@@ -1,1 +1,0 @@
-Given /^I login with (.*) credentials$/ do |type|\n  # do stuff with type being one of "invalid" or "valid"\nend\n\nGiven /^I login successfully$/ do\n  steps %Q{Given I login with "valid" credentials}\nend

@@ -1,1 +1,0 @@
-$encoding = mb_detect_encoding($foo, 'UTF-8', true);\nif ($encoding !== 'UTF-8') {\n    // Handle encoding issues\n}

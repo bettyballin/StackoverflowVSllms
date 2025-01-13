@@ -1,1 +1,0 @@
-Dim cookie As HttpCookie = Request.Cookies("TestID")\nDim testId As Integer = CType(cookie.Value, Integer)

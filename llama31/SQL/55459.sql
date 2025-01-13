@@ -1,1 +1,0 @@
-SELECT * \nFROM YourTable \nWITH (NOLOCK) \nWHERE YourConditions;

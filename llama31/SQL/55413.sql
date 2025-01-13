@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\nWHILE condition\nBEGIN\n    UPDATE table_name\n    SET column_name = new_value\n    WHERE condition;\n\n    -- process next batch\nEND;\n\nCOMMIT TRANSACTION;

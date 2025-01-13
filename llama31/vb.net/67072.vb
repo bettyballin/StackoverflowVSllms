@@ -1,1 +1,0 @@
-Dim q = From s In dc.STOCKs _\n        Select s.ID, MemberPrice = _\n          (From mp In dc.STOCKPRICEs Where mp.NUMBER = s.NUMBER _\n          Order By dc.date Descending _\n          Select mp.PRICE).DefaultIfEmpty(0).FirstOrDefault

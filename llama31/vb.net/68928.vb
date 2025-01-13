@@ -1,1 +1,0 @@
-GridView1.Columns.Add("id", "ID")\nGridView1.Columns.Add("name", "Name")\nGridView1.Columns.Add("date", "Date")\n\nGridView1.DataSource = personList\nGridView1.DataBind()

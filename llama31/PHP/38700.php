@@ -1,1 +1,0 @@
-require_once('SOAP/Client.php');\n$client = new SOAP_Client('http://example.com/service?wsdl');\n$response = $client->method_name(array('param1' => 'value1'));

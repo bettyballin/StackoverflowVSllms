@@ -1,1 +1,0 @@
-SELECT c.* \nFROM Contacts c \nJOIN PhoneNumbers p ON c.Id = p.ContactId \nWHERE p.PhoneNumber = @searchPhoneNumber;

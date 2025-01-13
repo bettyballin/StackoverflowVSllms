@@ -1,1 +1,0 @@
-def gen_link(path)\n  script_name = request.script_name\n  "#{script_name}#{path}"\nend

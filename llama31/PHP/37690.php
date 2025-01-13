@@ -1,1 +1,0 @@
-$dir = '\\\\server\\dir';\nif (file_exists($dir)) {\n    echo 'success';\n} else {\n    echo 'error: ' . error_get_last()['message'];\n}

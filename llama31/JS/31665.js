@@ -1,1 +1,0 @@
-$.ajax({\n    type: 'POST',\n    url: 'MethodHandler.ashx',\n    success: function(data) {\n        console.log('Method called successfully');\n    }\n});

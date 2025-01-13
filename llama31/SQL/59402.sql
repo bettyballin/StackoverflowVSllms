@@ -1,1 +1,0 @@
-CREATE INDEX idx_person_upper_last_name ON person (UPPER(last_name)) NULLS FIRST;

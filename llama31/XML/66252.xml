@@ -1,1 +1,0 @@
-<deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">\n    <globalConfiguration>\n        <parameter name="caching" value="true"/>\n    </globalConfiguration>\n</deployment>

@@ -1,1 +1,0 @@
-var priceText = $('.price').contents().filter(function() {\n  return this.nodeType === 3; // 3 is the nodeType for TEXT_NODE\n}).text();\n\nconsole.log(priceText); // outputs "$61.00"

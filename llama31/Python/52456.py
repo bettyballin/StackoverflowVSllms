@@ -1,1 +1,0 @@
-dot_path = subprocess.check_output(["find", "/usr/local/bin", "-name", "dot"]).strip()

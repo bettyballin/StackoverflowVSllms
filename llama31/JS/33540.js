@@ -1,1 +1,0 @@
-// Get the selected cells\nvar selectedCells = $('td:selected');\n\n// Change the background color of the selected cells\nselectedCells.css('background-color', '#FF0000');

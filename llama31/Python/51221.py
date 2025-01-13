@@ -1,1 +1,0 @@
-array = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\n\nresult = [sum(col) for col in zip(*array)]\n\nprint(result)  # Output: [12, 15, 18]

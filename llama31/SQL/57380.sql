@@ -1,1 +1,0 @@
-SELECT t1.id, t1.day\nFROM test t1\nJOIN (\n  SELECT day\n  FROM test\n  GROUP BY day\n  HAVING COUNT(*) > 1\n) t2\nON t1.day = t2.day

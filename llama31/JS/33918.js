@@ -1,1 +1,0 @@
-const originalString = '<p>Hello <span>world</span>!</p>';\nconst tagToRemove = 'span';\nconst regex = new RegExp(`<${tagToRemove}[^>]*>.*?<\/${tagToRemove}>`, 'gi');\nconst cleanedString = originalString.replace(regex, '');\nconsole.log(cleanedString); // Output: "<p>Hello !</p>"

@@ -1,1 +1,0 @@
-var tableBody = document.getElementById('table-body');\nvar newContent = '<tr>...</tr>'; // your new table rows\n\ntableBody.insertAdjacentHTML('afterBegin', newContent);

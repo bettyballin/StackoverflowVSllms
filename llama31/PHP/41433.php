@@ -1,1 +1,0 @@
-$stmt = $pdo->prepare("INSERT INTO your_table (payment_due_on) VALUES (:date)");\n$stmt->bindParam(':date', get_mysqlDate($_POST['mydate']));\n$stmt->execute();

@@ -1,1 +1,0 @@
-jimport('joomla.environment.response');\n$response = JResponse::getInstance();\n$response->setHeader('Content-Type', 'application/pdf', true);

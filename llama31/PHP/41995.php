@@ -1,1 +1,0 @@
-$image_url = 'image.jpg?' . time();

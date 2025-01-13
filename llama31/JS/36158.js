@@ -1,1 +1,0 @@
-.replace(/(http:\/\/[^\s]+)\s+([^\s]+)(\.(jpe?g|png|gif))/ig, function(match, p1, p2, p3) {\n  return p1 + p2.replace(/\s+/g, '%20') + p3;\n})

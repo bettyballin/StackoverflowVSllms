@@ -1,1 +1,0 @@
-include(INCLUDE_DIR . 'somefile.php');

@@ -1,1 +1,0 @@
-$frontController = Zend_Controller_Front::getInstance();\n$frontController->registerPlugin(new Zend_Controller_Plugin_ErrorHandler());

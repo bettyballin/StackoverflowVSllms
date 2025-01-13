@@ -1,1 +1,0 @@
-require 'open3'\n\n# Run the cp command\nOpen3.popen3("cp /source/file /destination/directory") do |stdin, stdout, stderr, wait_thr|\n  # Check the exit status of the command\n  exit_status = wait_thr.value\n  if exit_status.success?\n    # Command executed successfully\n  else\n    # Command failed\n  end\nend

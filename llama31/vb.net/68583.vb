@@ -1,1 +1,0 @@
-Imports Redemption\n\nDim redApp As New Redemption.Application()\nDim redSession As Redemption.RDOSession = redApp.CreateSession()\nredSession.Logon()\n\n' Send your email here...\n\nredSession.Logoff()

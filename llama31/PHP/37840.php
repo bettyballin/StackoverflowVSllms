@@ -1,1 +1,0 @@
-// Check if the session has expired\nif (isset($_SESSION['logged']) && time() - $_SESSION['logged_timestamp'] > 300) {\n    session_unset();\n    session_destroy();\n} elseif ($errors == 0) {\n    $_SESSION['logged'] = "1";\n    $_SESSION['logged_timestamp'] = time();\n}

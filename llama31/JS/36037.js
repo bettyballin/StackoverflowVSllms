@@ -1,1 +1,0 @@
-const http = require('http');\nconst httpProxy = require('http-proxy');\n\nconst proxy = httpProxy.createProxyServer({\n  target: 'https://live-website.com', // target website\n  changeOrigin: true,\n});\n\nhttp.createServer((req, res) => {\n  proxy.web(req, res);\n}).listen(8080, () => {\n  console.log('Proxy server listening on port 8080');\n});

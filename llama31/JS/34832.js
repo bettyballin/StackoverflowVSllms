@@ -1,1 +1,0 @@
-// Request full-screen mode\nfunction goToFullScreen() {\n  var elem = document.documentElement;\n  if (elem.requestFullscreen) {\n    elem.requestFullscreen();\n  } else if (elem.mozRequestFullScreen) {\n    elem.mozRequestFullScreen();\n  } else if (elem.webkitRequestFullScreen) {\n    elem.webkitRequestFullScreen();\n  }\n}

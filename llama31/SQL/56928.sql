@@ -1,1 +1,0 @@
-SELECT a.code, a.ad_id, a.position, a.type, a.image, a.url, a.height, a.width\nFROM AD_TABLE a\nJOIN USER_GROUP_TABLE g ON g.user_id = a.user_id\nJOIN forum_ad_map fm ON fm.ad_id = a.ad_id AND fm.forum_id = $forum_id\nWHERE a.start_time < NOW() AND a.end_time > NOW()\nORDER BY RAND()\nLIMIT 10; // adjust the limit as needed

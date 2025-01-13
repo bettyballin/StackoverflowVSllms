@@ -1,1 +1,0 @@
-$homePointsPlayerResult = mysql_query("SELECT `player_id`, COUNT(*) as `conversions` \n                                       FROM `conversions` \n                                       WHERE `game_id` = '$game_id' AND `team_id` IS NULL \n                                       GROUP BY `player_id`");

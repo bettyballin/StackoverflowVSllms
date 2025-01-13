@@ -1,1 +1,0 @@
-from bs4 import BeautifulSoup\n\n# assuming headerRows[0][10] is your BeautifulSoup object\ncell = headerRows[0][10]\n\n# get the text from the cell\ntext = cell.get_text(strip=True)\n\nprint(text)  # prints "Apples Produced"

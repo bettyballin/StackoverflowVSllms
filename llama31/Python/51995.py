@@ -1,1 +1,0 @@
-from sklearn.naive_bayes import MultinomialNB\nfrom sklearn.feature_extraction.text import CountVectorizer\n\n# Training\nvectorizer = CountVectorizer()\nX = vectorizer.fit_transform([sample1_text, sample2_text])\ny = ['one', 'two']\nclf = MultinomialNB()\nclf.fit(X, y)\n\n# Classification\ntest_X = vectorizer.transform([sample3_text])\nprint(clf.predict(test_X))

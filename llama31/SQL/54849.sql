@@ -1,1 +1,0 @@
-CREATE TABLE states (\n  id SMALLINT PRIMARY KEY,\n  name VARCHAR(50),\n  abbreviation CHAR(2),\n  country_id SMALLINT\n);

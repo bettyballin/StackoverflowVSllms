@@ -1,1 +1,0 @@
-<?php\n$basePrice = 10;\n$colorPrices = array('blue' => 10, 'white' => 5);\n$sizePrices = array('8' => 5, '10' => 10);\n\n$color = $_POST['color'];\n$size = $_POST['size'];\n\n$price = $basePrice + $colorPrices[$color] + $sizePrices[$size];\n\necho 'Price: $' . $price;\n?>

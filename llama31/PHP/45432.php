@@ -1,1 +1,0 @@
-if (isset($unserialized_data['uri'])) {\n  $file_path = file_create_url($unserialized_data['uri']);\n} else {\n  // handle the case where the uri key is missing\n}

@@ -1,1 +1,0 @@
-// Create a custom plugin\nfunction my_custom_plugin() {\n    // Do something\n}\nadd_action( 'init', 'my_custom_plugin' );

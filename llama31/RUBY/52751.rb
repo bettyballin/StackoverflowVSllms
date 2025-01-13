@@ -1,1 +1,0 @@
-@clients = Client.with_invoices_or_deliveries.distinct

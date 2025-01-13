@@ -1,1 +1,0 @@
-// JavaScript enhancement\ndocument.getElementById('close-dialog').addEventListener('click', function(event) {\n    event.preventDefault();\n    // Hide dialog instantly with JavaScript\n    document.getElementById('dialog').style.display = 'none';\n});

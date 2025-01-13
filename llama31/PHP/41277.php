@@ -1,1 +1,0 @@
-<?php\nrequire_once('wp-config.php');\nrequire_once('wp-includes/functions.php');\nrequire_once('wp-includes/feed.php');\n\ndo_feed('rss2');

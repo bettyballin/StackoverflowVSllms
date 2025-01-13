@@ -1,1 +1,0 @@
-// assume 'data' is your JavaScript data array\n\n// get a reference to the WebGrid control\nvar grid = $find("WebGrid1");\n\n// bind the data to the grid\ngrid.set_dataSource(data);\ngrid.dataBind();

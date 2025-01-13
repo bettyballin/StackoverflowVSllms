@@ -1,1 +1,0 @@
-$userInput = '<b> 5 > 3 = true</b>';\n\n$escapedInput = htmlspecialchars($userInput, ENT_QUOTES);\n$decodedInput = html_entity_decode($escapedInput, ENT_HTML5, 'UTF-8');\n\necho $decodedInput;

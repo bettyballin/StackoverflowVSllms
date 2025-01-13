@@ -1,1 +1,0 @@
-GRANT SELECT ON People.vtPhoneNumbers TO Staff_User;

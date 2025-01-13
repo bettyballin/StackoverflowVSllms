@@ -1,1 +1,0 @@
-Private Sub TrackBar1_ValueChanged(sender As Object, e As EventArgs) Handles TrackBar1.ValueChanged\n    Me.Opacity = TrackBar1.Value / 100\nEnd Sub

@@ -1,1 +1,0 @@
-BEGIN\n  CTX_DDL.SYNC_INDEX('owner_info_idx');\n  CTX_DDL.SYNC_INDEX('property_info_idx');\n  CTX_DDL.SYNC_INDEX('owner_details_idx');\nEND;

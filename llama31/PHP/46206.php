@@ -1,1 +1,0 @@
-$data = pack('C3', 65, 66, 67); // pack 3 unsigned chars\necho bin2hex($data); // outputs: 414243\n\n$data = pack('v', 0x1234); // pack a short in little-endian byte order\necho bin2hex($data); // outputs: 3412\n\n$data = pack('V', 0x12345678); // pack a long in little-endian byte order\necho bin2hex($data); // outputs: 78563412

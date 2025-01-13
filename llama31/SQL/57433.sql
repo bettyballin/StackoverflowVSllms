@@ -1,1 +1,0 @@
-SELECT *\nFROM resource\nLEFT JOIN perms_groups ON resource.id = perms_groups.res_id\nLEFT JOIN (\n  SELECT *\n  FROM perms_users\n  WHERE user_id = 3 AND res_id = resource.id\n) AS user_perms ON TRUE\nWHERE resource.id = 1 AND perms_groups.group_id = 2;

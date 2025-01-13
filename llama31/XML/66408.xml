@@ -1,1 +1,0 @@
-<serviceHostingEnvironment>\n  <serviceActivations>\n    <add factory="YourNamespace.MultipleHostHeadersServiceHostFactory" relativeAddress="./YourService.svc"/>\n  </serviceActivations>\n</serviceHostingEnvironment>

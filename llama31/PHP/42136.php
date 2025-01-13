@@ -1,1 +1,0 @@
-$ip = '2001:0db8:85a3:0000:0000:8a2e:0370:7334';\nif (filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_IPV6)) {\n    echo 'Valid IPV6 address';\n} else {\n    echo 'Invalid IPV6 address';\n}

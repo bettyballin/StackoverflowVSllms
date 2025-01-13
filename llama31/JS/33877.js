@@ -1,1 +1,0 @@
-const fs = require('fs');\nconst path = require('path');\n\n// Store an image\nconst imageBuffer = // image data\nconst imagePath = path.join('images', 'user123.jpg');\nfs.writeFileSync(imagePath, imageBuffer);\n\n// Retrieve an image\nconst imageBuffer = fs.readFileSync(imagePath);

@@ -1,1 +1,0 @@
-use GuzzleHttp\Psr7\Uri;\n\n$sourceUrl = '/blah.html';\n$baseHost = 'http://www.example.com';\n\n$baseUrl = new Uri($baseHost);\n$url = $baseUrl->withPath($sourceUrl);\n\necho $url; // Outputs: http://www.example.com/blah.html

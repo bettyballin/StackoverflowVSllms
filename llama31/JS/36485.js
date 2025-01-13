@@ -1,1 +1,0 @@
-$("#pano param:first").attr("value", changed_url);

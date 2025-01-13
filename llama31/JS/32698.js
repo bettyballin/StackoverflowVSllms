@@ -1,1 +1,0 @@
-document.getElementById('screenMask').style.height = document.body.scrollHeight + 'px';

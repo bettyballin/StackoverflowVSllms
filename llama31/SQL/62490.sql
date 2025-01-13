@@ -1,1 +1,0 @@
-# grafana dashboard query\nSELECT \n  sum(node_memory_MemAvailable_bytes) AS available_memory,\n  sum(node_memory_MemTotal_bytes) AS total_memory\nFROM \n  node_memory_MemAvailable_bytes, \n  node_memory_MemTotal_bytes\nWHERE \n  instance='localhost:9090'

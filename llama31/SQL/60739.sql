@@ -1,1 +1,0 @@
-SELECT `content`.* \nFROM   `content` \nWHERE  user_id = "1" AND id IN (4, 7, 5, 8)\nORDER BY FIELD(id, 4, 7, 5, 8);

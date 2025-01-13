@@ -1,1 +1,0 @@
-$openid_url = $_POST['openid_url'];\n$consumer->begin($openid_url);

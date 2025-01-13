@@ -1,1 +1,0 @@
-UPDATE your_table_name \nSET your_column_name = CONVERT(CONVERT(your_column_name USING latin1) USING utf8);

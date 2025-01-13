@@ -1,1 +1,0 @@
-class NSNode {\n    function insertAfter(?NSNode $node) {\n        ...\n    }\n}

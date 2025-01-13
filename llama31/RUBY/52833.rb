@@ -1,1 +1,0 @@
-# Load the checklist items from the YAML file\nchecklist_items = YAML.load_file(Rails.root.join('config', 'checklist_items.yml'))\n\n# Create the checklist items for each new user\nUser.create do |user|\n  checklist_items.each do |item|\n    user.checklist_items.create!(name: item['name'])\n  end\nend

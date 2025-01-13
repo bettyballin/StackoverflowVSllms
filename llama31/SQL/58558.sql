@@ -1,1 +1,0 @@
-INSERT INTO Table (Field1) VALUES (1);

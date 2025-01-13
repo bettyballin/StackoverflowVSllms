@@ -1,1 +1,0 @@
-// assume 'result' is the JSON response\neval('(' + result + ')'); // DON'T DO THIS!

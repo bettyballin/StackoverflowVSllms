@@ -1,1 +1,0 @@
-EXEC sp_SearchClient @LastName = 'Smith', @HomePhone = '1234567890'
