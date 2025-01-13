@@ -1,1 +1,0 @@
-string firstName = null;\n   string middleName = null;\n   string lastName = "Smith";\n\n   string fullName = firstName ?? middleName ?? lastName ?? "Unknown";\n   // Returns "Smith"

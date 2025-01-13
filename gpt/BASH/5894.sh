@@ -1,1 +1,0 @@
-chmod +x propel-gen-vhost1.sh

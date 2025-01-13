@@ -1,1 +1,0 @@
-ps axo pid,comm,wchan | grep firefox

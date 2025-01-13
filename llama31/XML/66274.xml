@@ -1,0 +1,1 @@
+<dependency>\n  <groupId>org.dbunit</groupId>\n  <artifactId>dbunit</artifactId>\n  <version>2.7.0</version>\n</dependency>

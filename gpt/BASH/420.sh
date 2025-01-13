@@ -1,1 +1,0 @@
-cat email{1..200}.txt > combined_emails.txt

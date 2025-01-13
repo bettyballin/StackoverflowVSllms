@@ -1,1 +1,0 @@
-string filePath = "path/to/your/file.csv";\nDataTable dataTable = CsvToDataTable.LoadCsv(filePath);

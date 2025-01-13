@@ -1,1 +1,0 @@
-#ifndef HEADER_H\n#define HEADER_H\n\nstatic void myStaticFunction() {\n    // Function implementation\n}\n\n#endif // HEADER_H

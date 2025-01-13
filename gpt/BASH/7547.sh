@@ -1,1 +1,0 @@
-# Enable SELinux\nsudo setenforce 1\n# Check SELinux status\nsestatus

@@ -1,1 +1,0 @@
-<configuration>\n      <system.web>\n        <compilation debug="true" targetFramework="4.0">\n          <assemblies>\n            <add assembly="YourAssemblyName, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />\n          </assemblies>\n        </compilation>\n      </system.web>\n    </configuration>

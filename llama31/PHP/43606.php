@@ -1,0 +1,1 @@
+/** @var Whatever $blah */\n$blah = getWhateverObjectFromSomewhere();

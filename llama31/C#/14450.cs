@@ -1,0 +1,1 @@
+int myInt = 5;\nint result = ++myInt;\nConsole.WriteLine(result); // prints 6\nConsole.WriteLine(myInt);  // prints 6

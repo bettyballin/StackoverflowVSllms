@@ -1,1 +1,0 @@
-public class MainForm : Form\n{\n    private void Button1_Click(object sender, EventArgs e)\n    {\n        MessageBox.Show("Hello, World!");\n    }\n}

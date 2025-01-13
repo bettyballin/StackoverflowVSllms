@@ -1,0 +1,1 @@
+// in your model file (e.g. Type.php)\nclass Type extends AppModel {\n    public function afterFind($results, $primary = false) {\n        foreach ($results as &$result) {\n            $result['has_rtf'] = !empty($result['rtf']);\n        }\n        return $results;\n    }\n}

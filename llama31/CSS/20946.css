@@ -1,0 +1,1 @@
+/* IE8-compatible CSS example */\n.selector {\n    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE8 opacity */\n    filter: alpha(opacity=50); /* IE6-7 opacity */\n    opacity: 0.5; /* Standard opacity */\n}

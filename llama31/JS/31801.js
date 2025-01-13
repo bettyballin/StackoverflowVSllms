@@ -1,0 +1,1 @@
+const element = getElementAtPosition(100, 200);\nconsole.log(element); // prints the HTML element at position (100, 200)

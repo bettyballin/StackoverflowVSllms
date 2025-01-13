@@ -1,0 +1,1 @@
+$compressed_data = $api_response;\n$decompressed_data = gzinflate($compressed_data);\nif ($decompressed_data !== false) {\n    $xml = simplexml_load_string($decompressed_data);\n    // Process the XML data\n} else {\n    // Decompression failed\n}

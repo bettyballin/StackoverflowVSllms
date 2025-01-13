@@ -1,1 +1,0 @@
-Public Class FooChild\n    Inherits FooBase\n\n    Public Sub UpdateStatus(newStatus As String)\n        Me.StatusText = newStatus\n    End Sub\nEnd Class

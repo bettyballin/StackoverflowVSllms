@@ -1,1 +1,0 @@
-sudo apt install logwatch\n   sudo logwatch --detail High --mailto your-email@example.com --range today

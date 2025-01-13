@@ -1,0 +1,1 @@
+var currentIndicator;\n\n$(document).ajaxStart(function () {\n    currentIndicator = $('#ajaxBusyIndicator_<%=partido.PartidoId.ToString()%>');\n    currentIndicator.css({ display: "inline" });\n}).ajaxStop(function () {\n    currentIndicator.hide();\n});

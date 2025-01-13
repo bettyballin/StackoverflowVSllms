@@ -1,0 +1,1 @@
+[TestFixture]\npublic class MyTests\n{\n    [Test, Category("Critical")]\n    public void CriticalTest()\n    {\n        // Test critical functionality\n    }\n\n    [Test, Category("NonCritical")]\n    public void NonCriticalTest()\n    {\n        // Test non-critical functionality\n    }\n}

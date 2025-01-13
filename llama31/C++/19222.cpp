@@ -1,0 +1,1 @@
+void testReentrancy() {\n    ReadWriteLock lock;\n\n    lock.readLock();\n    lock.readLock(); // Attempt to reacquire the lock\n    lock.readUnlock();\n    lock.readUnlock();\n}

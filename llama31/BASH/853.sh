@@ -1,0 +1,1 @@
+air_install.exe --user "your_app.air"

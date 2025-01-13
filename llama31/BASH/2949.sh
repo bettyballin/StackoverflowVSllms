@@ -1,0 +1,1 @@
+mydumper -h commercial_server_ip -u username -p password -B database_name -o dump.sql

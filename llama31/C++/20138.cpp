@@ -1,0 +1,1 @@
+/**\n * @brief Operations related to MyClass\n */\nnamespace my_class_ops {\n    /**\n     * @brief Perform some operation on a MyClass object\n     * @param obj The MyClass object to operate on\n     */\n    void do_something(MyClass& obj) {\n        // implementation\n    }\n}

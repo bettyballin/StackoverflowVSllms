@@ -1,1 +1,0 @@
-aspnet_regiis.exe -pef "connectionStrings" "C:\Path\To\Your\WebApp"

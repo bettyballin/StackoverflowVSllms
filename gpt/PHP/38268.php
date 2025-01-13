@@ -1,1 +1,0 @@
-// Example of Laravel Controller\n   namespace App\Http\Controllers;\n\n   use Illuminate\Http\Request;\n   use App\Models\User;\n\n   class UserController extends Controller\n   {\n       public function index()\n       {\n           $users = User::all();\n           return view('users.index', compact('users'));\n       }\n   }

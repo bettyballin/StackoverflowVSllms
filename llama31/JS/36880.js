@@ -1,0 +1,1 @@
+var uploader = new YAHOO.widget.Uploader({\n    // ...\n    secure: true,\n    // ...\n});

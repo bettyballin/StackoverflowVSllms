@@ -1,0 +1,1 @@
+CREATE TABLE intermediate_table AS\nSELECT * FROM complex_query;

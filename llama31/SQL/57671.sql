@@ -1,0 +1,1 @@
+INSERT INTO Table1 (columns...)\nOUTPUT inserted.PrimaryKey INTO @InsertedKeys\nSELECT columns...\nFROM SourceTable;\n\nINSERT INTO Table2 (ForeignKeyColumn, other columns...)\nSELECT i.PrimaryKey, other columns...\nFROM @InsertedKeys i\nJOIN SourceTable s ON i.PrimaryKey = s.PrimaryKey;

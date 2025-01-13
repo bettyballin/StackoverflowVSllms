@@ -1,0 +1,1 @@
+void* handleB = dlopen("libB.so", RTLD_LAZY);\n// ...\ndlclose(handleB); // Unload library B

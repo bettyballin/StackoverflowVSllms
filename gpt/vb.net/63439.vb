@@ -1,1 +1,0 @@
-Public Sub New(ByVal obj1 As Object, Optional ByVal admissionDate As Nullable(Of DateTime) = Nothing)\n    ' Your constructor logic here\nEnd Sub

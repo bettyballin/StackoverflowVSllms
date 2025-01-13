@@ -1,0 +1,1 @@
+try {\n    $sql = "INSERT INTO ..."; // your insert query\n    sqlsrv_query($conn, $sql);\n} catch (Exception $e) {\n    echo "Error: " . $e->getMessage();\n}

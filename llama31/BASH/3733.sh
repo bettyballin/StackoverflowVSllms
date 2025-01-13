@@ -1,0 +1,1 @@
+gcc -shared -Wl,--gc-sections -o libexample.so example.c

@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "fetch_results.php",\n    data: {city_id: city_id, area_id: area_id},\n    success: function(data){\n        $("#results_div").html(data);\n    }\n});

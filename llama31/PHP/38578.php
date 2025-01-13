@@ -1,0 +1,1 @@
+$memcache_obj = memcache_connect('memcache_host', 11211);\n// ... use $memcache_obj throughout the page ...\nmemcache_close($memcache_obj);

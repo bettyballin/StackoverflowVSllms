@@ -1,0 +1,1 @@
+SELECT table_name\n    FROM all_tables\n    WHERE owner = 'SCHEMA_NAME';

@@ -1,1 +1,0 @@
-#include <windows.h>\n\nint WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {\n    // Set the process to be DPI-aware (96 DPI)\n    SetProcessDPIAware();\n\n    // Your application initialization and message loop here\n\n    return 0;\n}

@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        // This block will be executed when the page is loaded for the first time\n    }\n    else\n    {\n        // This block will be executed on postback\n    }\n}

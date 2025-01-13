@@ -1,1 +1,0 @@
-Public Class GenericStat\n    Private _value As Integer\n\n    Public Property Value() As Integer\n        Get\n            Return _value\n        End Get\n        Set(ByVal value As Integer)\n            _value = value\n        End Set\n    End Property\n\n    Public Overrides Function ToString() As String\n        Return Value.ToString()\n    End Function\nEnd Class

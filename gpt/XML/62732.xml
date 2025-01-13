@@ -1,1 +1,0 @@
-<office:document-content xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0">\n  <office:body>\n    <office:text>\n      <%= content %>\n    </office:text>\n  </office:body>\n</office:document-content>

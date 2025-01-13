@@ -1,1 +1,0 @@
-SELECT column_name\nFROM all_tab_columns\nWHERE table_name = 'FOO'\n  AND owner = 'SCOTT';

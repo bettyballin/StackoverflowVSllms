@@ -1,0 +1,1 @@
+cl /FpMyPchFile.pch /c MySourceFile.cpp

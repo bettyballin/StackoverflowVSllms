@@ -1,1 +1,0 @@
-5.times do\n  puts "Starting outer loop"\n  3.times do\n    puts "Starting inner loop"\n    2.times do\n      puts "Innermost loop"\n    end # 2.times\n  end # 3.times\nend # 5.times

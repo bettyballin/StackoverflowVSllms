@@ -1,0 +1,1 @@
+$result = !empty(array_filter($usergrouppermissions, function($value) use ($searchme) {\n    return $value['UserGroupPermission'] == $searchme['UserGroupPermission'];\n}));

@@ -1,0 +1,1 @@
+SELECT DISTINCT MEMO_TEXT\nFROM (\n  SELECT CONVERT(varchar(max), MEMO_TEXT) AS MEMO_TEXT\n  FROM YourTable\n) AS Subquery

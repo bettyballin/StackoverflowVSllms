@@ -1,0 +1,1 @@
+# Example Capistrano deployment script\nset :application, "your_app"\nset :repo_url, "git@github.com:your_username/your_repo.git"\n\nset :deploy_to, "/path/to/deployment"\n\nappend :linked_dirs, "uploads", "logs"

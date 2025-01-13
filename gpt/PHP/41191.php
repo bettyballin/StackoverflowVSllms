@@ -1,1 +1,0 @@
-$values = [];\nwhile (/* your condition */) {\n    $value = "..."; // Replace this with your actual value fetching logic\n    $values[] = $value;\n}\n\n$values = array_reverse($values);\n$all_values = implode(',', $values);\n\necho $all_values;

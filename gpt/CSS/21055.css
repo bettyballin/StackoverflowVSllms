@@ -1,1 +1,0 @@
-/* Default styles for links */\na:link,\na:visited {\n  font-weight: bold;\n  color: black;\n}\n\n/* Styles for read links */\na.read {\n  color: #444;\n  font-weight: normal; /* or lighter if you prefer */\n}\n\n/* Styles for unread links */\na.unread {\n  font-weight: bold;\n  color: black;\n}

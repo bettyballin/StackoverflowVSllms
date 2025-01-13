@@ -1,1 +1,0 @@
-function reSizePic($image)\n{\n    $max_width = 660;\n    $max_height = 500;\n\n    $command = "convert {$image} -resize {$max_width}x{$max_height} {$image}";\n    exec($command);\n}

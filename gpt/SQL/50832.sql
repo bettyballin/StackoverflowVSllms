@@ -1,1 +1,0 @@
-CREATE TABLE Books (\n    Id INT PRIMARY KEY,\n    Title NVARCHAR(255) NOT NULL UNIQUE\n);\n\nCREATE TABLE Chapters (\n    Id INT PRIMARY KEY,\n    Title NVARCHAR(255) NOT NULL,\n    Book INT NOT NULL,\n    FOREIGN KEY (Book) REFERENCES Books(Id),\n    CONSTRAINT UQ_Chapter_Title_Book UNIQUE (Title, Book)\n);

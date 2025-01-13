@@ -1,1 +1,0 @@
-std::ifstream file("example.txt");\n   if (file.is_open()) {\n       // Use the file\n   }

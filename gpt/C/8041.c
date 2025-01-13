@@ -1,1 +1,0 @@
-OCIHandleFree(stmthp, OCI_HTYPE_STMT);\n   OCIHandleFree(svchp, OCI_HTYPE_SVCCTX);\n   OCIHandleFree(errhp, OCI_HTYPE_ERROR);\n   OCIHandleFree(envhp, OCI_HTYPE_ENV);

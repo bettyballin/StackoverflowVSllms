@@ -1,0 +1,1 @@
+Dim myString As String = "123"\nDim myInteger As Integer = Integer.Parse(myString)

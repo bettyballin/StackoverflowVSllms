@@ -1,0 +1,1 @@
+CREATE PROCEDURE NormalSP\nAS\nBEGIN\n    SET XACT_ABORT ON;\n    BEGIN TRY\n        EXEC ManagedSP;  -- Call the managed SP\n    END TRY\n    BEGIN CATCH\n        -- Handle the exception\n        PRINT 'Exception caught: ' + ERROR_MESSAGE();\n    END CATCH;\nEND;

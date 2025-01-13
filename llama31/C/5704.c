@@ -1,0 +1,1 @@
+// example.c\n#include <stdio.h>\n\nint main() {\n    int x = 5 / 0; // division by zero error\n    printf("%d\n", x);\n    return 0;\n}

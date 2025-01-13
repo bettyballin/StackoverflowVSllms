@@ -1,1 +1,0 @@
-CREATE FUNCTION [dbo].[fComputeValue] (@data XML)\nRETURNS varchar(25)\nWITH SCHEMABINDING\nAS\nBEGIN\n  RETURN @data.value('(/Metadata/Value[@Key="StartDate"])[1]', 'varchar(25)')\nEND

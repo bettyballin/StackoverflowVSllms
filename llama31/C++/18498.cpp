@@ -1,0 +1,1 @@
+#include <iostream>\n#include <fstream>\n\nint main() {\n    std::ofstream ofs;\n    ofs.open("test.txt", std::ofstream::app);\n    ofs << "This is a test line\n";\n    ofs.close();\n}

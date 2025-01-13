@@ -1,0 +1,1 @@
+SELECT column1, column2, ... , column1 + column2 AS alias_column\nFROM your_table\nWHERE column1 + column2 > 10;

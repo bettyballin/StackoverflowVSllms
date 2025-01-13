@@ -1,0 +1,1 @@
+// example of basic validation\nvar textfield = document.getElementById('your_textfield_id');\nif(textfield && textfield.value) {\n    textfield.focus();\n    textfield.setSelectionRange(2, 10);\n}

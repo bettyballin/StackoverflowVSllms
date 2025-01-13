@@ -1,0 +1,1 @@
+UPDATE Person2\nSET \n    FirstName = CONVERT(nvarchar(50), DecryptByCert(Cert_ID('TestCertificate'), eFirstName), 2),\n    MiddleName = CONVERT(nvarchar(50), DecryptByCert(Cert_ID('TestCertificate'), eMiddleName), 2),\n    LastName = CONVERT(nvarchar(50), DecryptByCert(Cert_ID('TestCertificate'), eLastName), 2);

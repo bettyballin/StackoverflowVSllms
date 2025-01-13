@@ -1,0 +1,1 @@
+SetProcessAffinityMask\n   SetInformationJobObject

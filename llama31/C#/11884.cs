@@ -1,0 +1,1 @@
+XmlReader reader = XmlReader.Create(new StringReader(xml));\nMemoryStream ms = new MemoryStream();\nXmlWriter writer = XmlWriter.Create(ms, new XmlWriterSettings { Encoding = Encoding.UTF8 });\n\nwriter.WriteNode(reader, true);\nwriter.Flush();\n\nms.Position = 0;\n_cmd.Parameters["@XmlContents"].Value = new StreamReader(ms).ReadToEnd();

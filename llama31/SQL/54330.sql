@@ -1,0 +1,1 @@
+INSERT INTO items (itemName) VALUES ('new item')\nON DUPLICATE KEY UPDATE itemName = 'new item';

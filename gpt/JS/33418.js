@@ -1,1 +1,0 @@
-$('#searchbox input').bind('keypress', function(e) {\n    if (e.which === 13) { // 13 is the key code for ENTER\n        // Trigger form submit or any action you want to perform\n        $(this).closest('form').submit();\n    }\n});

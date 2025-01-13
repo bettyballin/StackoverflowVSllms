@@ -1,0 +1,1 @@
+Grid myGrid = new Grid(); // assuming you have a reference to your grid\n\n// specify the row and column numbers\nint row = 1;\nint column = 2;\n\n// delete the content of the cell\nmyGrid.Children.Remove(myGrid.Children.Cast<UIElement>().FirstOrDefault(e => Grid.GetRow(e) == row && Grid.GetColumn(e) == column));

@@ -1,1 +1,0 @@
-WITH RankedRows AS (\n    SELECT\n        Key,\n        Col,\n        ROW_NUMBER() OVER (PARTITION BY Key ORDER BY Col) AS rank\n    FROM\n        your_table_name\n)\nSELECT\n    Key,\n    Col\nFROM\n    RankedRows\nWHERE\n    rank = 1;

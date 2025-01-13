@@ -1,0 +1,1 @@
+class MySoapClient extends Zend_Soap_Client {\n    public function doRequest($request, $location, $action, $version) {\n        file_put_contents('soap_requests.log', $request, FILE_APPEND);\n        // don't send the request to the server\n        return '';\n    }\n}

@@ -1,1 +1,0 @@
-setspn -A HTTP/yourserver.domain.local yourdomain\youraccount\nsetspn -A HTTP/yourserver yourdomain\youraccount

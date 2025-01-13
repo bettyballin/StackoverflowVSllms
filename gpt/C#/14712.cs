@@ -1,1 +1,0 @@
-public DataTable ExecuteQuery(string query, OracleConnection connection)\n{\n    OracleCommand cmd = new OracleCommand(query, connection);\n    OracleDataReader reader = cmd.ExecuteReader();\n    \n    DataTable resultTable = new DataTable();\n    resultTable.Load(reader);\n\n    return resultTable;\n}

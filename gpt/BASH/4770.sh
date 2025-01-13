@@ -1,1 +1,0 @@
-# Install xvfb if not already installed\nsudo apt-get install xvfb\n\n# Start xvfb in the background\nXvfb :99 -ac &\n\n# Set the DISPLAY environment variable\nexport DISPLAY=:99\n\n# Run your tests\nnunit3-console YourTests.dll

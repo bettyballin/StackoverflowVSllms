@@ -1,0 +1,1 @@
+Protected Sub HistoryDataPager_PreRender(sender As Object, e As EventArgs) Handles HistoryDataPager.PreRender\n\n    HistoryListView.DataSource = From x in myContext.myTables ...\n    DataBind()\n\nEnd Sub

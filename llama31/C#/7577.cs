@@ -1,0 +1,1 @@
+var ids = new Guid[] { /* your ids here */ };\nif (ids.Length > 0)\n{\n    var query = NHibernateSession.CreateQuery("from User u where u.id in (:ids)");\n    query.SetParameterList("ids", ids);\n    query.ToList();\n}\nelse\n{\n    // Handle the case when the ids array is empty\n    // For example, return an empty list or throw a custom exception\n}

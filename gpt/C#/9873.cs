@@ -1,1 +1,0 @@
-DateTime now = DateTime.Now;\nTimeSpan roundedTimeSpan = TimeSpan.FromSeconds(Math.Round(now.TimeOfDay.TotalSeconds / 5.0) * 5);\nDateTime rounded = new DateTime(now.Year, now.Month, now.Day).Add(roundedTimeSpan);\n\nConsole.WriteLine(rounded);

@@ -1,1 +1,0 @@
-from django import forms\nfrom .models import Customer\n\nclass CustomerForm(forms.ModelForm):\n    class Meta:\n        model = Customer\n        fields = ['name', 'active']

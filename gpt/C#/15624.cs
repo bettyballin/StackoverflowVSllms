@@ -1,1 +1,0 @@
-using System.ComponentModel.DataAnnotations;\n\npublic class YourModel\n{\n    [FieldExistsInTables(ErrorMessage = "The field does not exist in both tables.")]\n    public string YourField { get; set; }\n\n    // Other properties\n}

@@ -1,1 +1,0 @@
-// Example of Rowhammer attack pattern in C\nvoid hammer_memory(volatile uint64_t *addr1, volatile uint64_t *addr2) {\n    for (int i = 0; i < 1000000; i++) {\n        *addr1;\n        *addr2;\n    }\n}

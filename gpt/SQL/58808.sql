@@ -1,1 +1,0 @@
-SELECT ProductId, Nz(Price, 0) AS Price\nFROM Products;

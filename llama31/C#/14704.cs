@@ -1,0 +1,1 @@
+using OpenPGP;\n\n// Example usage:\nPGPKeyring keyring = new PGPKeyring();\nPGPPublicKey publicKey = keyring.GetPublicKey();

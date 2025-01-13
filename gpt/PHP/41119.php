@@ -1,1 +1,0 @@
-<?php\nclass myClass {\n    public static function myStaticFunction() {\n        $backtrace = debug_backtrace();\n        return $backtrace[0]['file'];\n    }\n}\n?>

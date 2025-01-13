@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\npublic void MyMethod()\n{\n    int sessionId = Process.GetCurrentProcess().SessionId;\n    if (sessionId == 0)\n    {\n        // The code is being called from a Windows Service\n    }\n    else\n    {\n        // The code is being called from an interactive application\n    }\n}

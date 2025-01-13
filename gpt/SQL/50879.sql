@@ -1,1 +1,0 @@
-SELECT * FROM some_table WHERE ID IN (SELECT id FROM temp_ids);

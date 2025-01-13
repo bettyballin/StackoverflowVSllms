@@ -1,0 +1,1 @@
+SELECT id, colorName\nFROM your_table\nWHERE id IN (\n  SELECT MIN(id)\n  FROM your_table\n  GROUP BY colorName\n)

@@ -1,1 +1,0 @@
-void apply_filter(int width, int height, unsigned char *restrict input, unsigned char *restrict output) {\n       for (int y = 0; y < height; y++) {\n           for (int x = 0; x < width; x++) {\n               // Apply some filter operation\n               output[y * width + x] = input[y * width + x] / 2; // Example operation\n           }\n       }\n   }

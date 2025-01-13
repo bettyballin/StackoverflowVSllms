@@ -1,1 +1,0 @@
-ServiceHost host = new ServiceHost(typeof(Inventory.InventoryService));\nhost.AddServiceEndpoint(typeof(Inventory.IInventoryService), new NetTcpBinding(),\n    "net.tcp://localhost:9000/GetInventory");\nhost.Open();

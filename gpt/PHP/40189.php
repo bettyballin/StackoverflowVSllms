@@ -1,1 +1,0 @@
-$wgDBserver = "localhost";\n   $wgDBname = "your_database_name";\n   $wgDBuser = "your_user";\n   $wgDBpassword = "your_password";\n\n   // Add SSL options\n   $wgDBssl      = true;\n   $wgDBsslcert  = "C:/newcerts/client-cert.pem";\n   $wgDBsslca    = "C:/newcerts/ca-cert.pem";\n   $wgDBsslkey   = "C:/newcerts/client-key.pem";

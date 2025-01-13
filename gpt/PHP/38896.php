@@ -1,1 +1,0 @@
-// SQL query without ORM\n$sql = "SELECT * FROM users WHERE id = :id";\n$stmt = $pdo->prepare($sql);\n$stmt->execute(['id' => $userId]);\n$user = $stmt->fetch();

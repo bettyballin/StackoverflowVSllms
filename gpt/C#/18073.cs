@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\nstring configFilePath = @"C:\path\to\config.txt";\n// Create or overwrite the configuration file with the parameters\nSystem.IO.File.WriteAllText(configFilePath, "your parameters here");\n\nProcessStartInfo startInfo = new ProcessStartInfo();\nstartInfo.FileName = "yourProgram.exe";\nstartInfo.Arguments = configFilePath;\nProcess.Start(startInfo);

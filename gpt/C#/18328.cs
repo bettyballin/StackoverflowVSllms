@@ -1,1 +1,0 @@
-public class MyEntityMap : ClassMap<MyEntity>\n{\n    public MyEntityMap()\n    {\n        Id(x => x.Id);\n        Map(x => x.MyData).CustomType("BinaryBlob").Length(int.MaxValue).Column("MyData");\n    }\n}

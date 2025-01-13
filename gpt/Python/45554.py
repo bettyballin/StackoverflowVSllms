@@ -1,1 +1,0 @@
-import math\nimport struct\n\ndef getData():\n    data = []\n    for i in range(0, 1024):\n        data.append(0.25 * math.sin(math.radians(i)))\n    return data\n\ndata = getData()\n\n# Convert the list of floats into a byte buffer\nbuffer = struct.pack('f' * len(data), *data)\n\n# Now you can write the buffer to the stream\nstream.write(buffer)

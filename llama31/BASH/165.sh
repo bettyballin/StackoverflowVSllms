@@ -1,0 +1,1 @@
+# Example using ZAP to fuzz test a web API\nzap -openapi /path/to/api/definition -fuzz

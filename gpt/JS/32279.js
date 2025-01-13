@@ -1,1 +1,0 @@
-// ES6 Class\nclass ArticleVote {\n    // Constructor method\n    constructor() {}\n\n    // Method\n    submitVote(vote) {\n        console.log("Vote submitted:", vote);\n    }\n}\n\n// Creating an instance of ArticleVote\nconst myVote = new ArticleVote();\nmyVote.submitVote('no'); // Output: Vote submitted: no

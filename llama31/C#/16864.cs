@@ -1,0 +1,1 @@
+try\n{\n    string[] files = Directory.GetFiles("S:\\", "*", SearchOption.AllDirectories);\n    // process files\n}\ncatch (UnauthorizedAccessException ex)\n{\n    // handle exception\n    Console.WriteLine("Access denied to file or directory: " + ex.Message);\n}

@@ -1,0 +1,1 @@
+class PdfParserController < ApplicationController\n  def create\n    user_id = params[:user_id]\n    # Use the user_id to store the form data in the database\n  end\nend

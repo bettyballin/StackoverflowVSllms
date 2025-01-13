@@ -1,1 +1,0 @@
-caspol -m -ag 1.2 -url "file:///<path_to_your_assembly>" FullTrust

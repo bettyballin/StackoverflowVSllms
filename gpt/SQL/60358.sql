@@ -1,1 +1,0 @@
-USE master;\n   ALTER DATABASE [YourDevDatabase] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;\n   DROP DATABASE [YourDevDatabase];\n\n   RESTORE DATABASE [YourDevDatabase]\n   FROM DISK = 'C:\Backups\YourProductionDatabase.bak'\n   WITH MOVE 'YourProductionDatabase_Data' TO 'C:\Data\YourDevDatabase.mdf',\n        MOVE 'YourProductionDatabase_Log' TO 'C:\Data\YourDevDatabase.ldf';

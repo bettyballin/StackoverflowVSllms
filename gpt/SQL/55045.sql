@@ -1,1 +1,0 @@
-SELECT TO_DATE(:input_date, 'YYYY-MM-DD') FROM dual;

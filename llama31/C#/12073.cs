@@ -1,0 +1,1 @@
+if (EqualityComparer<T>.Default.Equals(thing, default(T)))\n{\n    // Do something\n}\nelse\n{\n    // Do something else\n}

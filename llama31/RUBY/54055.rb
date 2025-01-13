@@ -1,0 +1,1 @@
+doc = Hpricot.XML(xml_string)\naccounts = doc.search("//section[@description='YYYYY']//account")

@@ -1,1 +1,0 @@
-xwininfo -root -tree

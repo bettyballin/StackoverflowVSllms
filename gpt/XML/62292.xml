@@ -1,1 +1,0 @@
-<!-- ESI syntax example -->\n<esi:include src="http://images1.mysite.com/images/myimage.gif" alt="My Image"/>

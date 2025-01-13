@@ -1,1 +1,0 @@
-USE master;\n    CREATE CERTIFICATE LimitedAccessCert\n    ENCRYPTION BY PASSWORD = 'StrongPassword123'\n    WITH SUBJECT = 'Certificate for limited access to sysprocesses';

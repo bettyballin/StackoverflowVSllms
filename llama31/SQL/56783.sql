@@ -1,0 +1,1 @@
+SELECT /*+ TRACE */ *\nFROM my_table\nWHERE id = 1\n  AND SYS_CONTEXT('USERENV', 'CLIENT_INFO') = 'MyApp_Name';

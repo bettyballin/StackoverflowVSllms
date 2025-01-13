@@ -1,1 +1,0 @@
-mysql -u<username> -p<password> <database_name> < /path/to/dumpfile.sql

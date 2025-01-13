@@ -1,0 +1,1 @@
+SELECT \n  ChargeNum, \n  CategoryID, \n  SUM(Hours) AS Hours\nFROM (\n  SELECT \n    ChargeNum, \n    CategoryID, \n    Hours\n  FROM \n    KnownHours\n  UNION ALL\n  SELECT \n    ChargeNum, \n    'Unknown' AS CategoryID, \n    Hours\n  FROM \n    UnknownHours\n) AS CombinedHours\nGROUP BY \n  ChargeNum, \n  CategoryID

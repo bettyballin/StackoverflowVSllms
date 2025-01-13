@@ -1,0 +1,1 @@
+.menu ul {\n  display: flex;\n  justify-content: space-between;\n}\n\n.menu li {\n  /* You can set min-width or max-width here if needed */\n}

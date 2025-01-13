@@ -1,0 +1,1 @@
+module.exports = {\n  // Other configurations\n  module: {\n    rules: [\n      {\n        test: /\.(png|jpg|gif)$/i,\n        use: [\n          {\n            loader: 'url-loader',\n            options: {\n              limit: 8192, // Bytes\n              name: 'static/images/[name].[hash:8].[ext]',\n            },\n          },\n        ],\n      },\n    ],\n  },\n};

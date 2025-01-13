@@ -1,0 +1,1 @@
+// config/application.config.php\nreturn array(\n    'modules' => array(\n        'Application',\n        'ZfcUser',\n    ),\n    'module_listener_options' => array(\n        'config_cache_enabled' => false,\n    ),\n);

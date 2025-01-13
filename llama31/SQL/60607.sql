@@ -1,0 +1,1 @@
+-- Access ( proprietary syntax )\nSELECT *\nFROM Customers\nWHERE Country="USA";\n\n-- Oracle ( standard SQL )\nSELECT *\nFROM customers\nWHERE country='USA';

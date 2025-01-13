@@ -1,0 +1,1 @@
+$id = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);\nif ($id !== false) {\n    $extract = $connection->extracting_data("tablename", "id, name, points", $id, "date desc", "0, 10");\n} else {\n    // handle invalid input\n}

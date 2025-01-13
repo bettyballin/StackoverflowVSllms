@@ -1,1 +1,0 @@
-Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.Windows.RoutedEventArgs) Handles Button1.Click\n    Dim dataView As New DataView()\n    teststack.Children.Add(dataView)\nEnd Sub

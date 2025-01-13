@@ -1,1 +1,0 @@
-<?php\ndefine('DB_HOST', 'localhost');\ndefine('DB_USER', 'root');\ndefine('DB_PASS', 'password');\ndefine('DB_NAME', 'database');\n\nspl_autoload_register(function ($class) {\n    include_once __DIR__ . '/../lib/' . $class . '.php';\n});

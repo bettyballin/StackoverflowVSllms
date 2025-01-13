@@ -1,1 +1,0 @@
-export CC=arm-linux-gnueabihf-gcc\n   export CXX=arm-linux-gnueabihf-g++\n   export AR=arm-linux-gnueabihf-ar\n   export AS=arm-linux-gnueabihf-as\n   export RANLIB=arm-linux-gnueabihf-ranlib

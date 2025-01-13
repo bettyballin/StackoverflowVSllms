@@ -1,0 +1,1 @@
+const form = document.querySelector('form.login');\nconsole.log(form.action); // Output: "" (empty string)

@@ -1,0 +1,1 @@
+alter system set "_hash_join_cost_factor"=100 scope=spfile;

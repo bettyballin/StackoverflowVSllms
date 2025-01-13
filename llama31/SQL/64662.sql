@@ -1,0 +1,1 @@
+UPDATE YourTable\nSET Image = CONCAT(Image, '.jpg')\nWHERE Image <> '';

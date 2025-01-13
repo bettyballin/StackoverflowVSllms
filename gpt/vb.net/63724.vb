@@ -1,1 +1,0 @@
-Dim LTest3 As IEnumerable = From e1 As QNCEntity In Shape.Entities\n                               Join e2 As QNCEntity In Shape.Entities\n                               On CDbl(e1.EntObj.X2) Equals CDbl(e2.EntObj.X1)\n                               And CDbl(e1.EntObj.Y2) Equals CDbl(e2.EntObj.Y1)

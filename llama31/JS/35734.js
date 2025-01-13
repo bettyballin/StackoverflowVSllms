@@ -1,0 +1,1 @@
+function GetParents(id) {\n  var parents = $('#' + id).parents();\n  var selector = '';\n  parents.each(function() {\n    selector += this.tagName.toLowerCase() + ' ';\n  });\n  return $.trim(selector);\n}\n\n// Usage:\nvar parents = GetParents('myImg');\nconsole.log(parents);  // outputs: "a div"

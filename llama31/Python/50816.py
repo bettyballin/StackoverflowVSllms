@@ -1,0 +1,1 @@
+import math\n\ndef strip_trailing_digit(n, num_digits_to_strip):\n    return math.floor(n / (10 ** num_digits_to_strip))

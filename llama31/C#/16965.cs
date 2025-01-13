@@ -1,0 +1,1 @@
+using log4net;\nusing log4net.Config;\n\nclass MyClass\n{\n  private static readonly ILog _log = LogManager.GetLogger(typeof(MyClass));\n\n  public void DoSomething()\n  {\n    _log.Info("Doing something...");\n  }\n}

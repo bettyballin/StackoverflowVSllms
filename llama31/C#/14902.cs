@@ -1,0 +1,1 @@
+string[] urlPatterns = new string[]\n{\n    @"https?://[^\s]+", // HTTP and HTTPS URLs\n    @"ftp://[^\s]+",    // FTP URLs\n    @"file://[^\s]+",   // File URLs\n    @"www\.[^\s]+",     // Bare domain names (e.g., www.example.com)\n};\n\nforeach (string pattern in urlPatterns)\n{\n    // Use Regex.Matches with the current pattern\n}

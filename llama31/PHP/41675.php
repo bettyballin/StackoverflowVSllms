@@ -1,0 +1,1 @@
+$description = $xml->xpath("//item[@title='0x|Beschrijving']");\necho (string)$description[0]; // outputs the CDATA content

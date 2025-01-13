@@ -1,1 +1,0 @@
-WITH RankedEntries AS (\n    SELECT \n        id, \n        business_key, \n        result,\n        ROW_NUMBER() OVER (PARTITION BY business_key ORDER BY id DESC) AS rn\n    FROM \n        your_table_name\n)\nSELECT \n    business_key, \n    result\nFROM \n    RankedEntries\nWHERE \n    rn = 1;

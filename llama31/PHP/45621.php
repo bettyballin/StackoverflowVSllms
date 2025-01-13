@@ -1,0 +1,1 @@
+$find = '/(?<![a-zA-Z0-9_])(generative art console|Game of Life|framework notations|framework|Floating numbers|factorial|f5x5x3|f5x5x1|eversion|A-plus|16n|\[DAM\]Berlin gallery)(?![a-zA-Z0-9_])/s';

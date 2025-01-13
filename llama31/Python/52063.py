@@ -1,0 +1,1 @@
+import os\nimport pyrrd\n\n# Define RRD file and data source\nrrd_file = 'disk_utilization.rrd'\ndata_source = 'disk_utilization'\n\n# Collect data\ndisk_utilization = collect_data()  # Implement your data collection function\n\n# Update RRD file\nrrd = pyrrd.RRD(rrd_file)\nrrd.update(data_source, disk_utilization)

@@ -1,0 +1,1 @@
+sudo rpm -ivh php-5.1.6-20.el5_2.1.rpm

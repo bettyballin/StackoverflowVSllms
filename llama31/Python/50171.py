@@ -1,0 +1,1 @@
+import os\n\ndef get_subdirectories():\n    return [name for name in os.listdir(".") if os.path.isdir(os.path.join(".", name))]\n\nprint(get_subdirectories())

@@ -1,0 +1,1 @@
+<property name="proxyfactory.factory_class">\n    NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle\n</property>

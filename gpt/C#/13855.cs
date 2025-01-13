@@ -1,1 +1,0 @@
-// Example of a simple hash table lookup\n    int value = hashTable.get(key);

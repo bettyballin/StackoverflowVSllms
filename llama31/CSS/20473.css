@@ -1,0 +1,1 @@
+#header {\n  display: flex;\n  align-items: center;\n  position: relative;\n}\n\n#header img:nth-child(2) {\n  position: absolute;\n  right: 0;\n  top: 50%;\n  transform: translateY(-50%);\n}

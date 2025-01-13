@@ -1,0 +1,1 @@
+$auth = base64_encode(rawurlencode($username).'@'.$this->domain.chr(0).rawurlencode($username).chr(0).rawurlencode($password));

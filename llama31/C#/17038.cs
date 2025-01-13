@@ -1,0 +1,1 @@
+using System.Text;\n\n// Your input string\nstring inputString = "Hello, World!";\n\n// Convert the string to a byte array (OctetString)\nbyte[] octetString = Encoding.UTF8.GetBytes(inputString);

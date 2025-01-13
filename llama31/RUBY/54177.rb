@@ -1,0 +1,1 @@
+require 'ruport'\n\nclass MathExample < Ruport::Formatter::PDF\n  def setup\n    # ...\n  end\n\n  def report_body\n    text "x", :font_size => 12\n    text "-2", :font_size => 8, :y => -2\n  end\nend

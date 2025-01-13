@@ -1,0 +1,1 @@
+Keys key = (Keys)Enum.Parse(typeof(Keys), comboBox1.SelectedItem.ToString());

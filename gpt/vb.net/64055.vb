@@ -1,1 +1,0 @@
-Dim i As Integer = 1\nDo While i <= 10\n    If i = 5 Then\n        Exit Do\n    End If\n    Console.WriteLine(i)\n    i += 1\nLoop

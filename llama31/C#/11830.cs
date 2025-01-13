@@ -1,0 +1,1 @@
+using System;\n\nclass MyClass {\n    public MyClass() { }\n    ~MyClass() { Console.WriteLine("Finalizer called"); }\n}\n\nclass Program {\n    static void Main() {\n        MyClass obj = new MyClass();\n        // ...\n    }\n}

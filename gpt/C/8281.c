@@ -1,1 +1,0 @@
-if (foo->bar == NULL);\n   foo->bar = strdup("Unknown");

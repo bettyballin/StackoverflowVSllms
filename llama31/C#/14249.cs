@@ -1,0 +1,1 @@
+using (var dbContext = new MyDbContext())\n{\n    var cmd = dbContext.Database.Connection.CreateCommand();\n    cmd.CommandText = "SELECT BlobColumn FROM MyTable WHERE Id = 1";\n\n    using (var reader = cmd.ExecuteReader())\n    {\n        while (reader.Read())\n        {\n            var blobStream = reader.GetStream(0);\n            // work with the stream\n        }\n    }\n}

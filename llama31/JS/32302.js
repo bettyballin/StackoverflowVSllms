@@ -1,0 +1,1 @@
+// Server-side code (e.g., Node.js)\napp.get('/data', (req, res) => {\n  const data = { name: 'John Doe', age: 30 };\n  res.json(data);\n});\n\n// Client-side code (e.g., jQuery)\n$.ajax({\n  type: 'GET',\n  url: '/data',\n  dataType: 'json',\n  success: (data) => {\n    console.log(data); // { name: "John Doe", age: 30 }\n    // Render the data on the client-side\n  }\n});

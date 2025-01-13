@@ -1,0 +1,1 @@
+.small-white {\n    float:left;\n    margin: 15px 5px 0 5px;\n    padding:0;\n    display:block;\n    height:22px;\n}\n\n.small-white:before {\n    content: "";\n    display: block;\n    background:url(images/small-white-sprite.png) right no-repeat;\n    width: 100%;\n    height: 100%;\n}

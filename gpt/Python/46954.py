@@ -1,1 +1,0 @@
-import subprocess\n\nresult = subprocess.run('some command', shell=True, capture_output=True, text=True)\n\nret = result.returncode\nout = result.stdout if result.returncode == 0 else result.stderr\n\nprint(ret)\nprint(out)

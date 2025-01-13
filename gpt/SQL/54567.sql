@@ -1,1 +1,0 @@
-SELECT *\nFROM (\n    SELECT \n        DECODE(upper(Table.Column), 'SOMETHING', '---', TABLE2.COLUMN2) as VALUE,\n        -- other columns\n    FROM Table\n    JOIN TABLE2 ON Table.some_column = TABLE2.some_column\n    -- other joins or conditions\n) subquery\nWHERE upper(VALUE) like 'SOMETHING'

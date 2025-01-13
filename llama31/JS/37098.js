@@ -1,0 +1,1 @@
+window.addEventListener('scrollend', () => {\n  // Check if any input element has focus\n  inputs.forEach(input => {\n    if (input.hasFocus) {\n      // If an input element has focus, re-focus it after scrolling\n      input.focus();\n    }\n  });\n});

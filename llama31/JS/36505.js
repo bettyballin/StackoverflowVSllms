@@ -1,0 +1,1 @@
+// myHandler.js\nvar myHandler = (function() {\n  var handler = {\n    init: function() {\n      var options = JSON.parse(document.getElementById('myTag').getAttribute('data-my-handler-options'));\n      // use options here\n    }\n  };\n  return handler;\n}());

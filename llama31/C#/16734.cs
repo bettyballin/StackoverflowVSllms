@@ -1,0 +1,1 @@
+if (File.Exists(explorerPath))\n{\n    Process.Start(explorerPath, "your_command_line_parameters_here");\n}

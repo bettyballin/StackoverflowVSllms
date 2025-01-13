@@ -1,1 +1,0 @@
-etstat -an | find "LISTENING" | find ":8080"

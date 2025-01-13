@@ -1,1 +1,0 @@
-CREATE INDEX idx_not_null_ourcolumn ON your_table (OurColumn)\n   WHERE OurColumn IS NOT NULL;

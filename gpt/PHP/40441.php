@@ -1,1 +1,0 @@
-<?php\nget_header();\n\ninclude(locate_template('template-parts/content-teen.php'));\n\nget_footer();\n?>

@@ -1,1 +1,0 @@
-public void ConfigureServices(IServiceCollection services)\n   {\n       services.AddAWSService<IAmazonS3>();\n       services.AddTransient<S3Service>();\n   }

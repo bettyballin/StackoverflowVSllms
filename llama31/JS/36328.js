@@ -1,0 +1,1 @@
+const bbcode = '[b]Hello[/b] [color=red]World![/color]';\nconst html = BBCode.toHTML(bbcode);

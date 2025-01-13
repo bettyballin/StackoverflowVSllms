@@ -1,0 +1,1 @@
+BarList *barPush(BarList *list, Bar *bar) {\n    // ...\n    return newNode;\n}

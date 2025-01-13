@@ -1,0 +1,1 @@
+label.FontWeight = FontWeights.Bold; // or FontWeights.Normal, FontWeights.Light, etc.\nlabel.FontStyle = FontStyles.Italic; // or FontStyles.Normal, FontStyles.Oblique

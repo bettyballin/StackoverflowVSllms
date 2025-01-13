@@ -1,0 +1,1 @@
+@app.route("/run_script", methods=["POST"])\ndef run_script():\n    script_name = request.form["script_name"]\n    if script_name == "file_arranger":\n        output = subprocess.check_output(["python", "file_arranger.py"])\n        return output.decode("utf-8")\n    else:\n        return "Invalid script name"

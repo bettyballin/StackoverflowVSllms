@@ -1,1 +1,0 @@
-SELECT \n        $partition.MyPartitionFunction(UserID) AS PartitionNumber, \n        COUNT(*) AS RowsPerPartition\n    FROM \n        MyPartitionedTable\n    GROUP BY \n        $partition.MyPartitionFunction(UserID);

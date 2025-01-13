@@ -1,1 +1,0 @@
-from pony.orm import Database, Required\n\n   db = Database()\n   db.bind(provider='sqlite', filename='example.db', create_db=True)\n\n   class ExampleModel(db.Entity):\n       name = Required(str)\n\n   db.generate_mapping(create_tables=True)

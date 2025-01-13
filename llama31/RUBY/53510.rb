@@ -1,0 +1,1 @@
+# Insecure code\nUser.where("name = '#{params[:name]}'")\n\n# Secure code\nUser.where("name = ?", params[:name])

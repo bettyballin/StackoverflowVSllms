@@ -1,0 +1,1 @@
+var dpi = window.devicePixelRatio;

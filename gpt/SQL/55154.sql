@@ -1,1 +1,0 @@
--- Using IN with multiple values\nSELECT * FROM pages WHERE is_visible IN (5, 10, 15);\n\n-- Equivalent using OR\nSELECT * FROM pages WHERE is_visible = 5 OR is_visible = 10 OR is_visible = 15;

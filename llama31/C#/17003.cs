@@ -1,0 +1,1 @@
+string data = "Four score and seven years ago";\nWordReader reader = new WordReader(data);\n\nwhile (true)\n{\n    string word = reader.ReadWord();\n    if (word == null) break;\n    //additional parsing logic goes here\n    Console.WriteLine(word);\n}

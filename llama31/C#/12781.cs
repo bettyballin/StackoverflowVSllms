@@ -1,0 +1,1 @@
+public class LinkedList<T> {\n    private Node head;\n    private Node tail;\n\n    private class Node {\n        public T Value { get; set; }\n        public Node Next { get; set; }\n        public Node Prev { get; set; }\n    }\n\n    // ...\n}

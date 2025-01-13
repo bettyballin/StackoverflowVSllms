@@ -1,0 +1,1 @@
+SELECT \n    d.intPurchaseOrderInstance, \n    COUNT(g.intItemPOID) AS ItemsSent\nFROM \n    dbo_tblPODetail d\nINNER JOIN \n    dbo_tblPOGaugeDetail g ON d.intPurchaseOrderInstance = g.intGagePOID\nGROUP BY \n    d.intPurchaseOrderInstance

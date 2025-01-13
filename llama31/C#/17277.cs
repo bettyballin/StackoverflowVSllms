@@ -1,0 +1,1 @@
+using System;\nusing System.Diagnostics;\n\npublic class ProgramRunner\n{\n    public static void RunProgram(string path)\n    {\n        Process.Start(path);\n    }\n}

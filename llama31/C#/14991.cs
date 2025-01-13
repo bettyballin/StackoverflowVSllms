@@ -1,0 +1,1 @@
+using System.Runtime.InteropServices;\n\n[ComVisible(true)]\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]\npublic interface IMyComInterface\n{\n    void MyMethod();\n}

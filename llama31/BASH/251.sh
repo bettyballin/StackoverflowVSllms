@@ -1,0 +1,1 @@
+./configure --enable-cgi\nmake\nmake install

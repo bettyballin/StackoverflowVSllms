@@ -1,0 +1,1 @@
+strace -f ./example.sh.bi

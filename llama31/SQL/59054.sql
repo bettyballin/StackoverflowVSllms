@@ -1,0 +1,1 @@
+CREATE TABLE myTable (\n    id INT PRIMARY KEY,\n    columnA VARCHAR(50)\n);\n\nINSERT INTO myTable (id, columnA) VALUES\n    (1, 'bobo'),\n    (2, 'alice'),\n    (3, 'charlie'),\n    (4, 'bobo');\n\nSELECT * FROM myTable WHERE columnA LIKE 'bobo';

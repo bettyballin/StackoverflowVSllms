@@ -1,1 +1,0 @@
-// Example of creating a user control\n   public partial class MyUserControl : UserControl\n   {\n       protected void Page_Load(object sender, EventArgs e)\n       {\n           // User control logic here\n       }\n   }

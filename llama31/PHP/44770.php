@@ -1,0 +1,1 @@
+$array = array(\n    1 => '1233',\n    2 => '12334',\n    3 => 'Hello',\n    4 => 'hello',\n    5 => 'U'\n);\n\n$duplicates = array_filter(array_map('strtolower', $array), function ($value) use ($array) {\n    return count(array_keys($array, $value, true)) > 1;\n});\n\nprint_r($duplicates);

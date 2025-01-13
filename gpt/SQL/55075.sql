@@ -1,1 +1,0 @@
-CREATE TABLE row_count (\n    table_name VARCHAR(255) PRIMARY KEY,\n    row_count BIGINT\n);\n\nINSERT INTO row_count (table_name, row_count) VALUES ('your_table_name', 0)\n    ON DUPLICATE KEY UPDATE row_count = row_count + 1;

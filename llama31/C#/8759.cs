@@ -1,0 +1,1 @@
+[ComVisible(true)]\npublic interface IYourInterface\n{\n    // Methods and properties\n}

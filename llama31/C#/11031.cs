@@ -1,0 +1,1 @@
+private void Form_Load(object sender, EventArgs e)\n{\n    this.ValidateChildren();\n}

@@ -1,0 +1,1 @@
+header('Content-Type: text/html; charset=utf-8');\n\necho '<meta charset="UTF-8">';\n\n// Assuming $content is your content with international characters\necho htmlspecialchars($content, ENT_QUOTES, 'UTF-8');

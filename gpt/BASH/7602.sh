@@ -1,1 +1,0 @@
-# Example cron job to back up a directory daily at midnight\n   0 0 * * * rsync -av --delete /path/to/projects /path/to/backup/locatio

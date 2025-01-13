@@ -1,0 +1,1 @@
+using (new ReaderLockDisposable(m_Lock))\n{\n    return m_List.Count;\n}

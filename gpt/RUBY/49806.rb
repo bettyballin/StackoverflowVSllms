@@ -1,1 +1,0 @@
-# file.rb\n{\n  "key1" => "value1",\n  "key2" => "value2"\n}

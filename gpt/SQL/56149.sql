@@ -1,1 +1,0 @@
-WITH RankedScores AS (\n    SELECT\n        s1.*,\n        ROW_NUMBER() OVER (PARTITION BY s1.accountid ORDER BY s1.score DESC, s1.id) AS rn\n    FROM scores s1\n)\nSELECT *\nFROM RankedScores\nWHERE rn = 1\nORDER BY score DESC;

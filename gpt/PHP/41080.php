@@ -1,1 +1,0 @@
-function factorial($n) {\n       $result = 1;\n       for ($i = 1; $i <= $n; $i++) {\n           $result *= $i;\n       }\n       return $result;\n   }

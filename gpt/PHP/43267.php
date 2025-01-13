@@ -1,1 +1,0 @@
-$data = ['example' => 'data'];\n     apcu_store('cache_key', $data);\n     $cachedData = apcu_fetch('cache_key');

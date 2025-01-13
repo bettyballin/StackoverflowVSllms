@@ -1,0 +1,1 @@
+sqlcmd -S <your_server_name> -Q "SELECT * FROM sys.server_principals WHERE name = 'YourWindowsAccountName'"

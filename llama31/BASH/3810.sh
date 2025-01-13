@@ -1,0 +1,1 @@
+# Create a new branch for the isolated change\ngit checkout -b isolated-change\n\n# Cherry-pick the commit with the changes for task ABC\ngit cherry-pick <commit-hash>

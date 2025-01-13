@@ -1,0 +1,1 @@
+USE msdb;\nGO\n\nUPDATE sysmaintplan_subplans\nSET task_type = 'DELETE_FILES_RECURSIVE'\nWHERE plan_id = 'YourMaintenancePlanID' AND task_id = 'YourCleanupTaskID';\nGO

@@ -1,0 +1,1 @@
+$stdout = fopen('php://stdout', 'w');\nfwrite($stdout, 'Your message here' . PHP_EOL);\nfclose($stdout);

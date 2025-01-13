@@ -1,0 +1,1 @@
+adsutil SET W3SVC/1/ROOT/ServerBindings ":127.0.0.1:80:localhost"

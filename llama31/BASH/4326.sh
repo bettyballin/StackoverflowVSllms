@@ -1,0 +1,1 @@
+# Compile C++ code with G++\ng++ -o output_file source_file.cpp\n\n# Example:\ng++ -o hello hello.cpp

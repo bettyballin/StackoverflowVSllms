@@ -1,0 +1,1 @@
+function addSimpleXMLElement(SimpleXMLElement $parent, SimpleXMLElement $child) {\n    $newChild = $parent->addChild($child->getName(), (string)$child);\n    foreach ($child->attributes() as $key => $value) {\n        $newChild->addAttribute($key, $value);\n    }\n    foreach ($child->children() as $grandchild) {\n        addSimpleXMLElement($newChild, $grandchild);\n    }\n}

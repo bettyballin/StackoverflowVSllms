@@ -1,0 +1,1 @@
+protected void ImageButton1_Click(object sender, ImageClickEventArgs e)\n{\n    ImageButton imageButton = (ImageButton)sender;\n    int rowIndex = Convert.ToInt32(imageButton.CommandArgument);\n    // Use rowIndex as needed\n}

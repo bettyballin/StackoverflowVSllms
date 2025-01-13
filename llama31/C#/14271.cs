@@ -1,0 +1,1 @@
+public static void RegisterRoutes(RouteCollection routes)\n{\n    routes.MapPageRoute(null, "static/{*path}", "~/Views/{path}");\n}

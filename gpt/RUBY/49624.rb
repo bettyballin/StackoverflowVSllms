@@ -1,1 +1,0 @@
-# Load necessary library\nlibrary(datasets)\n\n# Load the dataset\ndata(mtcars)\n\n# Fit the model\nmodel <- lm(mpg ~ wt + hp, data = mtcars)\n\n# Summary of the model\nsummary(model)

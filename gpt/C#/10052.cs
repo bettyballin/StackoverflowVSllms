@@ -1,1 +1,0 @@
-public ActionResult RetrieveData()\n   {\n       // Retrieve the object from the session variable\n       MyObject myObject = Session["MyObject"] as MyObject;\n       \n       if (myObject != null)\n       {\n           // Use the object as needed\n       }\n\n       return View();\n   }

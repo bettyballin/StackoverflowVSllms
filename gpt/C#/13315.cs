@@ -1,1 +1,0 @@
-private static string puerto = "/dev/ttyS0";

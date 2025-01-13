@@ -1,1 +1,0 @@
--- Get the next value of the sequence\nSELECT MySequence.NEXTVAL FROM DUAL;\n\n-- Now you can get the current value of the sequence\nSELECT MySequence.CURRVAL FROM DUAL;

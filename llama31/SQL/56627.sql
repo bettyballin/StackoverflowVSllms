@@ -1,0 +1,1 @@
+SELECT t_id, height_breakdown.meters_feet\nFROM   (\n  SELECT t_id, get_distance_breakdown(h.height, h.unit_of_measure_id) height_breakdown\n  FROM   heights h\n) subquery,\nTABLE(subquery.height_breakdown) height_breakdown;

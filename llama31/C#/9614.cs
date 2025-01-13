@@ -1,0 +1,1 @@
+// Create an LDAPS connection\nLDAPConnection connection = new LDAPConnection("ldaps://your-ldap-server:636");

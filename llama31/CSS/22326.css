@@ -1,0 +1,1 @@
+.thumbnail-gallery {\n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));\n  grid-gap: 10px;\n}\n\n.thumbnail-gallery li {\n  display: flex;\n  flex-direction: column;\n}\n\n.thumbnail-gallery li img {\n  display: block;\n}

@@ -1,1 +1,0 @@
-jruby -S rake assets:precompile RAILS_ENV=productio

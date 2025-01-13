@@ -1,0 +1,1 @@
+class MyModel\n{\n    public function doSomething($someParam)\n    {\n        // Perform business logic here\n    }\n}

@@ -1,0 +1,1 @@
+stringValue = otherString if otherString is not None and otherString != "" else defaultString

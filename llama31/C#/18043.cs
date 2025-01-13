@@ -1,0 +1,1 @@
+using System;\nusing AjaxControlToolkit;\n\npublic class MyCustomAnimation : Animation\n{\n    // Implement your custom animation logic here\n}

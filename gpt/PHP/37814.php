@@ -1,1 +1,0 @@
-<?php\n$file = 'path_to_your_file.txt';\n$jsonData = file_get_contents($file);\n$data = json_decode($jsonData, true); // true parameter converts JSON object to associative array\n?>

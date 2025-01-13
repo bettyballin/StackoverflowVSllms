@@ -1,0 +1,1 @@
+[AcceptVerbs(HttpVerbs.Post), AjaxAuthorize]\npublic ActionResult Create(int siteId, Comment comment)\n{\n    // ...\n}

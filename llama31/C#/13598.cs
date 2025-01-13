@@ -1,0 +1,1 @@
+var result = from p in db.Persons\n             join l in db.LogEntries on p.Key equals l.PersonKey\n             group l by p into g\n             select new\n             {\n                 Person = g.Key,\n                 LatestLogEntry = g.OrderByDescending(x => x.EntryTime).FirstOrDefault()\n             };

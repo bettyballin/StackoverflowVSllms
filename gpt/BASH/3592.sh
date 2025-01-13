@@ -1,1 +1,0 @@
-pip install tortoise-orm tortoise-cli

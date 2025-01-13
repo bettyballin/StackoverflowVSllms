@@ -1,0 +1,1 @@
+java -jar schemaspy.jar -t orathin -db <database_name> -u <username> -p <password> -o output

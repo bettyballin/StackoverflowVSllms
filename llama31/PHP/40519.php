@@ -1,0 +1,1 @@
+amespace MyNamespace;\nclass Template extends \Template\n{\n    // code here\n    function foo()\n    {\n        \n    }\n}

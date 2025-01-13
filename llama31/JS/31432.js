@@ -1,0 +1,1 @@
+var refreshCount = window.performance.navigation.type;\n// ...\n\nmyService.myMethod(refreshCount, callback);

@@ -1,0 +1,1 @@
+using Creole;\n\n// example usage:\nstring creoleText = "= Heading =\nThis is a paragraph.";\nstring html = Creole.ToHtml(creoleText);

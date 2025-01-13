@@ -1,0 +1,1 @@
+$nom = (int) $nom;\n$stmt->bindParam(':nom', $nom, PDO::PARAM_INT);

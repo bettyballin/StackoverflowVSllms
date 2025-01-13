@@ -1,0 +1,1 @@
+import os\n\nstat_info = os.stat('path_to_your_file')\nmodification_time_ns = stat_info.st_mtime_ns

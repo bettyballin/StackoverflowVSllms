@@ -1,1 +1,0 @@
-sudo pppd call provider

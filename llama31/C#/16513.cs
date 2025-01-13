@@ -1,0 +1,1 @@
+XmlNode node = _xmlArticlesDocument.DocumentElement.SelectSingleNode\n               ("//mediawiki/page[id='" + id.ToString() + "']");

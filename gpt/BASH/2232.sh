@@ -1,1 +1,0 @@
-java -XX:+UseZGC -Dcom.sun.management.jmxremote -cp . fr.brouillard.jvm.MemoryFree

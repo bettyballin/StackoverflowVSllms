@@ -1,1 +1,0 @@
-import re\n\ndef encode_string_with_links(unencoded_string):\n    url_pattern = re.compile(r'(http[s]?://\S+)')\n    encoded_string = url_pattern.sub(r'<a href="\1">\1</a>', unencoded_string)\n    return encoded_string\n\nunencoded_string = "This is a link - http://google.com"\nencoded_string = encode_string_with_links(unencoded_string)\nprint(encoded_string)

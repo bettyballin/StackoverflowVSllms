@@ -1,0 +1,1 @@
+pg_dump -U your_username your_database_name > your_database.sql

@@ -1,1 +1,0 @@
-# Build the Docker image\ndocker build -t sandbox_image .\n\n# Run the container with limited resources\ndocker run --rm -v /path/to/uploaded/code:/home/sandboxuser -m 128m --cpus="0.5" sandbox_image

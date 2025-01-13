@@ -1,1 +1,0 @@
-BACKUP DATABASE [YourDatabaseName]\nTO DISK = 'C:\Backups\YourDatabaseName_Diff.bak'\nWITH DIFFERENTIAL,\nNAME = 'Differential Backup of YourDatabaseName';

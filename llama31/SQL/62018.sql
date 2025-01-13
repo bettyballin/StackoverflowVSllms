@@ -1,0 +1,1 @@
+SELECT MAX(RunDate) FROM ProductionRuns;

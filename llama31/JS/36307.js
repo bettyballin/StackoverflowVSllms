@@ -1,0 +1,1 @@
+// remember to always check the blob's type and size before reading it\nif (blob.type === "text/plain" && blob.size < 1024*1024) {\n    // read the blob's contents\n} else {\n    // handle error\n}

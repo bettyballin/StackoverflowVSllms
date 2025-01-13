@@ -1,0 +1,1 @@
+using Microsoft.EnterpriseManagement.Mom.Sdk;\n\nnamespace MyScomModule\n{\n    public class MyPerformanceCollector : IMonitoringModule\n    {\n        public void CollectPerformanceData()\n        {\n            // calculate calls per hour and total calls per day\n            // submit data to SCOM using the SdkDataSubmitter\n        }\n    }\n}

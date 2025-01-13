@@ -1,0 +1,1 @@
+SELECT \n  CONCAT(table_name, '.', column_name) AS fully_qualified_name\nFROM \n  information_schema.columns\nWHERE \n  table_name IN ('table1', 'table2');

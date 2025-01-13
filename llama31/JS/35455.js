@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('#yourInputId').on('paste', function(e) {\n    var pastedData = e.originalEvent.clipboardData.getData('text');\n    // Sanitize the pasted data\n    var sanitizedData = pastedData.replace(/[<>]/gi, '');\n    // Set the sanitized data to the input field\n    $(this).val(sanitizedData);\n    return false;\n  });\n});

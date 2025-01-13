@@ -1,0 +1,1 @@
+using System.Windows.Forms;\n\n// ...\n\nFont font = new Font("Arial", 12);\nstring text = "Hello, World!";\nSize size = TextRenderer.MeasureText(text, font);\n\n// Use the size to calculate the bounding rectangle\nRectangle boundingRect = new Rectangle(0, 0, size.Width, size.Height);

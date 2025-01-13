@@ -1,1 +1,0 @@
-# Install the live-server extension\next install ritwickdey.LiveServer\n\n# Open your HTML file in the editor\n# Right-click on the editor and select 'Open with Live Server'

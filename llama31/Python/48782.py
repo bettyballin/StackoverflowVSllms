@@ -1,0 +1,1 @@
+class MyInt(int):\n    def MyRandomMethod(self):\n        return self * 2\n\nmyInt = MyInt(5)\nprint(myInt.MyRandomMethod())  # Outputs: 10

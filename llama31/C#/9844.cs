@@ -1,0 +1,1 @@
+public int FindMostOccurringNumber(List<int> numbers)\n{\n    if (numbers.Count == 0) return default(int); // or throw an exception, depending on your requirements\n    return numbers.GroupBy(n => n)\n                  .OrderByDescending(g => g.Count())\n                  .First().Key;\n}

@@ -1,0 +1,1 @@
+if (context == doc) context = doc.documentElement;\nreturn context.selectNodes(this.xpathText);

@@ -1,0 +1,1 @@
+// Create a new Oracle connection with 10g mode\nstring connectionString = "Data Source=your_database;User Id=your_username;Password=your_password;Oracle Home=OraClient10g_home1";\nOracle.DataAccess.Client.OracleConnection conn = new Oracle.DataAccess.Client.OracleConnection(connectionString);

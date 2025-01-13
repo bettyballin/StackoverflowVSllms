@@ -1,0 +1,1 @@
+$a = "abc dec g (gold)";\n$pos = strpos($a, '(');\nif ($pos !== false) {\n    $b = substr($a, 0, $pos);\n    echo $b; // outputs "abc dec g "\n}

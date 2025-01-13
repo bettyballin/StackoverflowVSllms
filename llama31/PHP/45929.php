@@ -1,0 +1,1 @@
+$sa = $_POST['select'];\nif (!in_array($sa, ['1', '2'])) {\n    // handle invalid input\n}

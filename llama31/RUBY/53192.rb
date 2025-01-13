@@ -1,0 +1,1 @@
+# in your controller\n@scroll_to_id = 'some_id' if some_condition\n\n# in your view\n Event.observe(window, 'load', function() {\n  window.location.hash = '#<%= @scroll_to_id %>';\n});

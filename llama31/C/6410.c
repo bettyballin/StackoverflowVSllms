@@ -1,0 +1,1 @@
+#include <time.h>\n\nint main() {\n    struct timespec ts;\n    clock_gettime(CLOCK_THREAD_CPUTIME_ID, &ts);\n    printf("Thread CPU time: %lld.%09ld seconds\n", (long long)ts.tv_sec, ts.tv_nsec);\n    return 0;\n}

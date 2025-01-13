@@ -1,1 +1,0 @@
-// Example of loading a library only when a specific function is needed\n   if (function_needs_library()) {\n       require_once 'path/to/library.php';\n   }

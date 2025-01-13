@@ -1,1 +1,0 @@
-$arr = [95, 8, 0, 0];\n\n$dword = $arr[0] + ($arr[1] * 256) + ($arr[2] * 256 * 256) + ($arr[3] * 256 * 256 * 256);\n\necho $dword;  // Output should be 2191

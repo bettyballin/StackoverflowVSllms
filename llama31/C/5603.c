@@ -1,0 +1,1 @@
+int uDay = Sunday | Monday; // 0x03\nint today = Tuesday; // 3\n\nint nextDay = getNextWeekday(uDay, today);\nprintf("%d\n", nextDay); // prints 1 (Sunday)

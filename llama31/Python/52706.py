@@ -1,0 +1,1 @@
+import glob\n\nmp3_files = glob.glob('*.mp3')\n\nwith open('output.mp3', 'wb') as output:\n    for file in mp3_files:\n        with open(file, 'rb') as input_file:\n            output.write(input_file.read())

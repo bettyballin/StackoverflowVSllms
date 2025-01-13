@@ -1,0 +1,1 @@
+// Use a secure encryption library like OpenSSL\n$ciphertext = openssl_encrypt($plaintext, 'AES-256-CBC', $encryption_key, 0, $iv);\n\n// Store the encrypted data in your database\n$db->insert('bank_info', ['account_number' => $ciphertext]);

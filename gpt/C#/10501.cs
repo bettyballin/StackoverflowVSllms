@@ -1,1 +1,0 @@
-// Example of mocking a repository using Moq\n   var mockRepository = new Mock<IRepository>();\n   mockRepository.Setup(repo => repo.GetData()).Returns(fakeData);

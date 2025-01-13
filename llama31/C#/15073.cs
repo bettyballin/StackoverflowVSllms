@@ -1,0 +1,1 @@
+// In your second instance\nusing System.ServiceModel;\n\n// Create a channel factory\nvar factory = new ChannelFactory<IMyService>(new NetNamedPipeBinding(), "net.pipe://localhost/myService");\n\n// Create a channel\nvar channel = factory.CreateChannel();\n\n// Call the service\nchannel.ShowForm();\n\n// Close the channel\nchannel.Close();

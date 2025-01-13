@@ -1,0 +1,1 @@
+XmlNodeList results = prs.Doc.SelectNodes("//function[starts-with(translate(@name, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'" + txtSearch.Text.ToLower() + "')]");

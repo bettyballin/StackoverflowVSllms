@@ -1,0 +1,1 @@
+private void ultraGrid1_AfterCheckStateChanged(object sender, Infragistics.Win.UltraWinGrid.CheckStateChangedEventArgs e)\n{\n    // Code to handle the check state change\n}

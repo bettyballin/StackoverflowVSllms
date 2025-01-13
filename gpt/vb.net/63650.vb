@@ -1,1 +1,0 @@
-Dim obj As Object = "example string"\n  Dim str As String\n  str = DirectCast(obj, String)  ' This will succeed\n  Dim number As Integer\n  number = DirectCast(obj, Integer)  ' This will throw an InvalidCastExceptio

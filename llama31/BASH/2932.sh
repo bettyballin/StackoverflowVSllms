@@ -1,0 +1,1 @@
+curl -X GET \\n  https://jsonplaceholder.typicode.com/posts/1 \\n  -H 'Content-Type: application/json'

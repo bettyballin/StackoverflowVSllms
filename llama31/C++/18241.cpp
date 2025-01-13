@@ -1,0 +1,1 @@
+void myFunction(SDL_Event* event) {\n    // ...\n}\n\nfunctions.push_back(myFunction);

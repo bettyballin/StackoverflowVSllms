@@ -1,0 +1,1 @@
+const express = require('express');\nconst { createProxyMiddleware } = require('http-proxy-middleware');\n\nconst app = express();\n\napp.use('/proxy', createProxyMiddleware({\n  target: 'http://www.example.com',\n  changeOrigin: true,\n  pathRewrite: { '^/proxy': '' },\n}));\n\napp.listen(3000, () => {\n  console.log('Proxy server listening on port 3000');\n});

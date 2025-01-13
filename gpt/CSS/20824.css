@@ -1,1 +1,0 @@
-.wrapper {\n    position: relative;\n    width: 100%;\n    height: 100px; /* Adjust as needed */\n    overflow: hidden;\n}\n\n.moving-div {\n    position: absolute;\n    width: 7000px; /* Adjust as needed */\n    height: 100px; /* Adjust as needed */\n    background-color: blue; /* Adjust as needed */\n}

@@ -1,1 +1,0 @@
-llvm-profdata merge -sparse my_program.profraw -o my_program.profdata\n    llvm-cov show ./my_program -instr-profile=my_program.profdata

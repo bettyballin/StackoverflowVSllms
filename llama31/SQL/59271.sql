@@ -1,0 +1,1 @@
+SELECT \n  descendant AS id, \n  GROUP_CONCAT(ancestor) AS ancestors, \n  GROUP_CONCAT(descendant) AS children\nFROM \n  closure\nGROUP BY \n  (descendant);

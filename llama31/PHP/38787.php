@@ -1,0 +1,1 @@
+// layout.php\n<div><?php echo $sf_response->getSlot('myVariable'); ?></div>

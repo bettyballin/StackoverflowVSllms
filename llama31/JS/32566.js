@@ -1,0 +1,1 @@
+function init(){\n    document.getElementById("foo").onclick = function() { alert('foo'); };\n}

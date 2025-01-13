@@ -1,0 +1,1 @@
+$mainsection = "auth"; // The name of the table\n$query1 = "SELECT * FROM auth WHERE username = '$user'";\n$result = mysql_db_query($dbname, $query1) or die("Failed Query of " . $query1);\n\nwhile ($thisrow = mysql_fetch_row($result)) {\n    echo "Study: " . $thisrow[1] . " - " . $thisrow[5] . "\n";\n}

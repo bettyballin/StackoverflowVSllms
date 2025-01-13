@@ -1,1 +1,0 @@
-@echo off\nsetlocal\n\nset "source=C:\path\to\source"\nset "target=\\target-server\path\to\target"\nset "logfile=C:\path\to\logfile.log"\n\nROBOCOPY %source% %target% /MIR /R:3 /W:10 /LOG:%logfile% /TEE /NP\n\nif %ERRORLEVEL% leq 1 (\n  echo Success: Files copied successfully.\n) else (\n  echo Error: Robocopy encountered an error. Check the log file for details.\n)\n\nendlocal

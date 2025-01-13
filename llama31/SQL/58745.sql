@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT 1 AS dummy) AS empty_table WHERE FALSE;

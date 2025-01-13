@@ -1,1 +1,0 @@
-awk '{print "`" $0 "` VARCHAR(5),"}' terms.txt > fields.sql

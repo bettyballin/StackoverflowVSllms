@@ -1,1 +1,0 @@
-sudo cp /path/to/your/database/files/* /var/lib/mysql/your_database_name/

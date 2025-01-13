@@ -1,1 +1,0 @@
-CREATE TRIGGER after_user_update\n     AFTER UPDATE ON users\n     FOR EACH ROW\n     BEGIN\n       IF OLD.name != NEW.name THEN\n         INSERT INTO audit_trail (user_id, field_changed, old_value, new_value, timestamp)\n         VALUES (NEW.id, 'name', OLD.name, NEW.name, NOW());\n       END IF;\n     END;

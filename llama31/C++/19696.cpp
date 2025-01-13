@@ -1,0 +1,1 @@
+template <class T>\nstruct Types {\n    using Bar = std::vector<std::vector<std::map<T, std::set<T>>>>;\n};\n\ntemplate <class T>\nvoid fct(const Types<T>::Bar& bar) {\n    // ...\n}

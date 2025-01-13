@@ -1,0 +1,1 @@
+USE [prodDb]\nGO\nGRANT CREATE VIEW TO [myUser]\nGO

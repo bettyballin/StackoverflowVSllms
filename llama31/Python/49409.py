@@ -1,0 +1,1 @@
+# Example: Independent computations\ndef compute_results(data):\n    results = []\n    for item in data:\n        result = expensive_computation(item)\n        results.append(result)\n    return results

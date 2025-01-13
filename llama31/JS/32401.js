@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('ul.image-list li:even').addClass('even');\n    $('ul.image-list li:odd').addClass('odd');\n});

@@ -1,0 +1,1 @@
+// Original code\npublic class MyClass {\n    public void MyMethod() {\n        Console.WriteLine("Hello, World!");\n    }\n}\n\n// Obfuscated code (using Dotfuscator)\npublic class a {\n    public void b() {\n        Console.WriteLine("Hello, World!");\n    }\n}

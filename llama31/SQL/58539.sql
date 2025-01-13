@@ -1,0 +1,1 @@
+SELECT a.* \nFROM Activities a \nJOIN Followers f ON a.user_id = f.follower_id \nWHERE f.user_id = ?;

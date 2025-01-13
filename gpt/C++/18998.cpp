@@ -1,1 +1,0 @@
-STDAPI DllUnregisterServer(void) {\n        // Code to unregister the OCX\n        return S_OK;\n    }

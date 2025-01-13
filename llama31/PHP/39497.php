@@ -1,0 +1,1 @@
+ob_start();\nvar_dump($your_variable);\n$result = ob_get_clean();\n\n// $result now holds the output of var_dump as a string

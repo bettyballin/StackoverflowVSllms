@@ -1,0 +1,1 @@
+string clientId = Request.QueryString["clientId"];\n// or\nstring clientId = Request.Headers["X-My-Client-Id"];\n// Use clientId to retrieve variable value from cache

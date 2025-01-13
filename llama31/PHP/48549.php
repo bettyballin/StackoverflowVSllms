@@ -1,0 +1,1 @@
+<?php\n$postId = $_POST['post_id'];\n$ratingType = $_POST['rating_type'];\n\n// Update rating in database\nif ($ratingType == 'up') {\n  $rating = $current_rating + 1;\n} else {\n  $rating = $current_rating - 1;\n}\n// Save rating to database\n\necho $rating;\nexit;

@@ -1,0 +1,1 @@
+var xmlElement = // your XmlElement object\n\nvar xpathDocument = new XPathDocument(new StringReader(xmlElement.OuterXml));

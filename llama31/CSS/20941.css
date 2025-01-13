@@ -1,0 +1,1 @@
+.everything {\n  background-image: url(/images/shield-25.png);\n  background-repeat: no-repeat;\n  background-position: center;\n}\n\ntable, div {\n  width: 100%;\n}\n\n#table2, #div2 {\n  background-color: rgba(255, 255, 255, 0.5); /* white with 50% opacity */\n}

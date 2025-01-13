@@ -1,1 +1,0 @@
-int main() {\n        int x = 10;\n        int y = 0;\n        int z = x / y; // Undefined behavior: division by zero\n        return 0;\n    }

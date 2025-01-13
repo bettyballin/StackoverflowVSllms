@@ -1,1 +1,0 @@
-CREATE TABLE TEST (\n    id INT,\n    col1 VARCHAR(50),\n    col2 VARCHAR(50),\n    col3 INT,\n    col4 INT,\n    decimal_col1 DECIMAL(18,2),\n    decimal_col2 DECIMAL(18,2)\n);

@@ -1,0 +1,1 @@
+<?php\n$session_id = 'abc123';\n?>\n\n<!-- Standard syntax -->\n<?php echo $session_id ?> \n\n<!-- Short echo tag syntax -->\n<?= $session_id ?>

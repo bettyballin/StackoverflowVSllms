@@ -1,1 +1,0 @@
-// Example using parameterized query\n   using (SqlCommand cmd = new SqlCommand("SELECT * FROM Users WHERE Username = @username", conn))\n   {\n       cmd.Parameters.AddWithValue("@username", username);\n       // Execute query...\n   }

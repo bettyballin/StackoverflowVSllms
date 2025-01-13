@@ -1,1 +1,0 @@
-[ServiceContract]\n   public interface IProxyService\n   {\n       [OperationContract]\n       string GetData(int value);\n   }

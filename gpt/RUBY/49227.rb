@@ -1,1 +1,0 @@
-def process_running?(pid)\n  `ps -p #{pid} -o pid=`.strip != ""\nend

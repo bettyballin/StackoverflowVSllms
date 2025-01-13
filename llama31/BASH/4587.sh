@@ -1,0 +1,1 @@
+openssl x509 -req -days 365 -in csr.txt -signkey keystore.jks -out cert.pem -extensions EXT -config openssl.cnf\n\n[EXT]\nsubjectKeyIdentifier=hash\nauthorityKeyIdentifier=keyid:always,issuer\nbasicConstraints=CA:FALSE\nkeyUsage=nonRepudiation,digitalSignature,keyEncipherment\nextendedKeyUsage=serverAuth\nsubjectAltName=DNS:yourdomain.com

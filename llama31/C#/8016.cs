@@ -1,0 +1,1 @@
+string queryString = string.Join(" ", searchTerms);\n\nstring sqlQuery = $"SELECT col1 FROM myTable WHERE FREETEXT(fts_column, '{queryString}')";

@@ -1,0 +1,1 @@
+// app.cpp\n#include "app_interface.h"\n\nclass MyApp : public AppInterface {\npublic:\n    QWidget* getGui() override {\n        return gui_;  // Return a pointer to your GUI\n    }\n\n    // Implement other functions/data that plugins might need to access\n\nprivate:\n    QWidget* gui_;\n};

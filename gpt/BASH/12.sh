@@ -1,1 +1,0 @@
-sudo ln -s /etc/nginx/sites-available/myservice /etc/nginx/sites-enabled/

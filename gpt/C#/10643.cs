@@ -1,1 +1,0 @@
-// File: Program.cs\nusing System;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        int result = Library.add(2, 3);\n        string greeting = Library.greet("World");\n\n        Console.WriteLine($"Result of add: {result}");\n        Console.WriteLine(greeting);\n    }\n}

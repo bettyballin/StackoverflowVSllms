@@ -1,1 +1,0 @@
-keytool -printcert -file your_certificate.pem

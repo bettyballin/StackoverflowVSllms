@@ -1,0 +1,1 @@
+WITH ordered_values AS (\n    SELECT val, ROW_NUMBER() OVER (ORDER BY val) AS row_num\n    FROM #temp\n)\nSELECT *\nFROM your_other_table\nJOIN ordered_values ON your_column = val\nORDER BY row_num;

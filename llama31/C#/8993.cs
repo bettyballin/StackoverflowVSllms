@@ -1,0 +1,1 @@
+public class UserValidator\n{\n    public ValidationResult ValidateLogin(User user)\n    {\n        // Validate username and password\n    }\n\n    public ValidationResult ValidateCreateUser(User user)\n    {\n        // Validate all required fields\n    }\n}

@@ -1,1 +1,0 @@
-using System.Net;\n\nvar request = (HttpWebRequest)WebRequest.Create("https://example.com/api");\nrequest.Credentials = CredentialCache.DefaultCredentials;\n\nusing (var response = (HttpWebResponse)request.GetResponse())\n{\n    // Handle the response\n}

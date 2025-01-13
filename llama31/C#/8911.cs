@@ -1,0 +1,1 @@
+[WebInvoke(Method="POST")]\npublic int MyMethod([FromBody]int foo, [FromBody]string bar) {...}

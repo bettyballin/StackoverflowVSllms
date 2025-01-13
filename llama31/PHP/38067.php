@@ -1,0 +1,1 @@
+$criteria = "402=Y OR 7003=Y OR 905=Y OR 7007=Y OR 7008=Y OR 7010=Y OR 7011=Y OR 7013=Y";\n$conditions = split(" OR ", $criteria);\n\nforeach ($conditions as $condition) {\n    // Evaluate each condition here\n    echo $condition . "\n";\n}

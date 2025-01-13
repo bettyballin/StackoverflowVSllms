@@ -1,0 +1,1 @@
+class Model_Action extends Zend_Db_Table_Abstract\n{\n    protected $_name = 'actions_with_user';\n\n    public function init()\n    {\n        $this->_db->query('CREATE VIEW actions_with_user AS SELECT * FROM actions JOIN users ON actions.user_id = users.id');\n    }\n}

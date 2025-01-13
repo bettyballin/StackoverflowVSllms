@@ -1,1 +1,0 @@
-function display(text, corner) {\n    // Your function implementation here\n    console.log("Text: " + text + ", Corner: " + corner);\n}

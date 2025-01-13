@@ -1,1 +1,0 @@
-// Using jQuery to get the HTML inside the <html> tag\nvar innerHTML = $('html').html();\nconsole.log(innerHTML);\n\n// Using JavaScript to get the entire HTML document including the <html> tag\nvar entireHTML = document.documentElement.outerHTML;\nconsole.log(entireHTML);

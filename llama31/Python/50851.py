@@ -1,0 +1,1 @@
+import secrets\nlong_key = secrets.token_bytes(32)  # 256 bits

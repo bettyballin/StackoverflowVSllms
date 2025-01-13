@@ -1,1 +1,0 @@
-SELECT MIN(A.id)\nFROM tableA A\nLEFT JOIN tableB B ON A.name = B.name;

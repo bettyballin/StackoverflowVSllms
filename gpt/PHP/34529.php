@@ -1,1 +1,0 @@
-<?php\n$file_url = 'http://remote-server.com/file.zip';\n$new_filename = 'your_desired_name.zip';\n\n// Set headers to force download\nheader('Content-Type: application/zip');\nheader('Content-Disposition: attachment; filename="' . $new_filename . '"');\nheader('Content-Length: ' . filesize($file_url));\n\n// Read the file and output it to the browser\nreadfile($file_url);\n?>

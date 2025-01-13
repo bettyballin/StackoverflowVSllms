@@ -1,0 +1,1 @@
+$paths = array('gallery/painting/some_image_name.jpg', 'gallery/painting/another_image_name.jpg');\n\nforeach ($paths as $path) {\n    $file_name = basename($path);\n    $file_name = str_replace('_', ' ', pathinfo($file_name, PATHINFO_FILENAME));\n    echo $file_name . "\n";\n}

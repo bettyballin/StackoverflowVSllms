@@ -1,0 +1,1 @@
+$cli = new Zend_Controller_CommandLine();\n$cli->setController('MyController');\n$cli->setAction('myAction');\n$cli->dispatch();

@@ -1,1 +1,0 @@
-#include <stdio.h>\n\n// Fastcall function declaration\nint __attribute__((fastcall)) add(int a, int b) {\n    return a + b;\n}\n\nint main() {\n    int result = add(5, 3);\n    printf("Result: %d\n", result);\n    return 0;\n}

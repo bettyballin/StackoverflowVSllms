@@ -1,1 +1,0 @@
-int b = 5;\nmyfunc(&b); // Caller is aware that b is being passed by reference

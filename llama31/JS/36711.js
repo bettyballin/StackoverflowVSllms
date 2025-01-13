@@ -1,0 +1,1 @@
+$.post('index.php', {user_id: userid, ob_id: obid, author_user_id: authoruserid}, function(d)

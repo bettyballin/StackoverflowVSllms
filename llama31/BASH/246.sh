@@ -1,0 +1,1 @@
+awk -v RS= '{gsub(/\n/, " "); print}' file.txt | awk '{balance=0; for (i=1; i<=NF; i++) {if ($i == "{") balance++; if ($i == "}") balance--; if (balance == 0) {print substr($0, 1, i); next} }}'

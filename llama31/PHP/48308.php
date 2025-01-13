@@ -1,0 +1,1 @@
+amespace App\Enum;\n\nconst MSG_HOT = 1;\nconst MSG_WARM = 2;\nconst MSG_COLD = 3;

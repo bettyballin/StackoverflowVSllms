@@ -1,0 +1,1 @@
+echo "path/to/images/tmp" > exclude.txt\ntar -czpf /path/to/backups/my_backup.tar.gz -X exclude.txt path/to/images/

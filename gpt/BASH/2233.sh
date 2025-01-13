@@ -1,1 +1,0 @@
-git clone https://github.com/cr-marcstevens/hashclash.git\ncd hashclash\nmake

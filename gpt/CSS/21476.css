@@ -1,1 +1,0 @@
-#footnotes {\n    counter-reset: footnote-counter;\n}\n\n#footnotes li {\n    counter-increment: footnote-counter;\n    position: relative;\n    color: #000;\n}\n\n#footnotes li::before {\n    content: counter(footnote-counter) ". ";\n    position: absolute;\n    left: -2em; /* Adjust as needed */\n    color: #f90;\n}

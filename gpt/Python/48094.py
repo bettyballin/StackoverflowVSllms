@@ -1,1 +1,0 @@
-import math\n\ndef weight(d):\n    if d == float('inf'):\n        return 0\n    return (math.log(d + 1)) / (d * math.log(2))\n\n# Test the function\nprint(weight(1))  # Output should be 1\nprint(weight(2))\nprint(weight(10))\nprint(weight(float('inf')))  # Output should be 0

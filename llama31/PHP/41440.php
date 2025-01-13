@@ -1,0 +1,1 @@
+require_once('tcpdf.php');\n\n$pdf = new TCPDF();\n$pdf->AddPage();\n$pdf->SetFont('Arial', '', 12);\n$pdf->setForm($pdf->loadForm('path/to/form.pdf')); // Load form and fill fields\n$pdf->Output('output.pdf', 'F'); // Save to file

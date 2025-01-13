@@ -1,0 +1,1 @@
+#include <ExDisp.h> // IWebBrowser2 interface\n\n// Assuming you have a pointer to the IWebBrowser2 interface\nIWebBrowser2* pBrowser = ...;\n\n// Set the User-Agent property\nBSTR userAgent = SysAllocString(L"Your Custom User-Agent String");\npBrowser->put_UserAgent(userAgent);\nSysFreeString(userAgent);

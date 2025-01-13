@@ -1,0 +1,1 @@
+[DllImport(@"C:\\Test\\DelphiTest.dll")]\npublic static extern int StringTest([Out] StringBuilder stringOut, int bufSize);

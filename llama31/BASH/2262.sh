@@ -1,0 +1,1 @@
+httrack http://yourwebsite.com -A *yourwebsite.com* -B -K -N -w

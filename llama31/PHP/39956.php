@@ -1,0 +1,1 @@
+protected function _initNavigation()\n{\n    // ... (rest of the method remains the same)\n\n    $view->navigation()->addPage($config);\n\n    // Iterate over the navigation pages and set the 'id' parameter\n    foreach ($view->navigation()->getPages() as $page) {\n        $page->setUri($page->getAssemble(array('id' => null)));\n    }\n}

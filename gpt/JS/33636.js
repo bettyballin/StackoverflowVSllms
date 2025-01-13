@@ -1,1 +1,0 @@
-// Assuming you are using jQuery for AJAX requests\n$.ajax({\n    type: 'POST',\n    url: 'your-script.php',\n    data: {\n        csrf_token: $('input[name="csrf_token"]').val(),\n        // other data\n    },\n    success: function(response) {\n        // Handle the response\n    },\n    error: function(xhr, status, error) {\n        // Handle the error\n    }\n});

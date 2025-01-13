@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare('SELECT * FROM table');\n$stmt->execute();\n$result = $stmt->fetchAll(PDO::FETCH_OBJ);\n\nforeach ($result as $row) {\n    $id = intval($row->id);\n    // ...\n}

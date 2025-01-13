@@ -1,1 +1,0 @@
-class MyClass\n  @@shared_variable = 0\n\n  def self.increment\n    @@shared_variable += 1\n  end\n\n  def self.value\n    @@shared_variable\n  end\nend\n\n# This can cause race conditions and incorrect values in a multi-threaded environment

@@ -1,0 +1,1 @@
+protected void GridView1_ItemDataBound(object sender, GridViewRowEventArgs e)\n{\n    if (e.Row.RowType == DataControlRowType.DataRow)\n    {\n        MyFunkyRow row = (MyFunkyRow)e.Row.DataItem;\n        string estimationAllowed = row.ESTIMATION_ALLOWED;\n        e.Row.Cells[1].Text = estimationAllowed; // assuming ESTIMATION_ALLOWED is in the second column\n    }\n}

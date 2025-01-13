@@ -1,0 +1,1 @@
+var ahoCorasick = new AhoCorasick(yourTerms);

@@ -1,0 +1,1 @@
+.container {\n  height: 100vh; /* or any other fixed height */\n  display: flex;\n  flex-direction: column;\n}\n\n.panel {\n  flex-basis: 33.33%; /* adjust to your desired percentage */\n  overflow-y: auto; /* add scrollbars if content overflows */\n}

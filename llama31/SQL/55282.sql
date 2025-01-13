@@ -1,0 +1,1 @@
+-- Grant db_datareader role to the user\nALTER ROLE db_datareader ADD MEMBER [username];\n\n-- Grant SELECT permission on sys.sql_modules\nGRANT SELECT ON sys.sql_modules TO [username];\n\n-- Optional: Grant VIEW DEFINITION permission on schema objects\nGRANT VIEW DEFINITION ON SCHEMA::[schema_name] TO [username];

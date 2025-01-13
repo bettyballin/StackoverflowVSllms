@@ -1,1 +1,0 @@
-<transportConnectors>\n    <transportConnector name="ssl" uri="ssl://0.0.0.0:61617?transport.needClientAuth=true"/>\n</transportConnectors>\n\n<sslContext>\n    <sslContext keyStore="path/to/keystore.jks" keyStorePassword="password"\n                trustStore="path/to/truststore.jks" trustStorePassword="password"/>\n</sslContext>

@@ -1,1 +1,0 @@
-SELECT LAST_DAY('2009-05-15') AS LastDayOfMonth;

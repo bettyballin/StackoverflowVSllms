@@ -1,1 +1,0 @@
-gcc -pg -o my_application my_application.c\n   ./my_application\n   gprof my_application gmon.out > analysis.txt

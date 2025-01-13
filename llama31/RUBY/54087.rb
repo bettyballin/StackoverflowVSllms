@@ -1,0 +1,1 @@
+def remove_email\n  update_attribute(:email, "[deleted]")\nend

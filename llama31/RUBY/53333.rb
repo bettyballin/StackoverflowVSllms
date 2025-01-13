@@ -1,0 +1,1 @@
+def create\n  @user = User.new(params[:user])\n  # ...\nend

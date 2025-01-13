@@ -1,0 +1,1 @@
+if (condition) goto skip;\n// some operations\nskip: ; // Empty statement after a label

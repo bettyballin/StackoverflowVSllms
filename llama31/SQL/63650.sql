@@ -1,0 +1,1 @@
+CREATE TABLE customers (\n    id INT PRIMARY KEY,\n    name nvarchar(255) NOT NULL,\n    description nvarchar(MAX) NULL\n);

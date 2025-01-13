@@ -1,1 +1,0 @@
-SHOW STATUS LIKE 'last_query_cost';

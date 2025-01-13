@@ -1,0 +1,1 @@
+$fname = 'john';\n$lname = 'DOE';\n\n$fname = ucfirst(strtolower($fname));\n$lname = ucfirst(strtolower($lname));\n\necho $fname . ' ' . $lname;

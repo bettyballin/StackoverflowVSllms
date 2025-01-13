@@ -1,0 +1,1 @@
+bool on_button_press_event(GdkEventButton* event) {\n    if (event->button == 1 && (event->state & GDK_BUTTON1_MASK)) {\n        // Handle single left click\n    }\n    return true;\n}

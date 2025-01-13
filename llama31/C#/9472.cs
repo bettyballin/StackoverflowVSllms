@@ -1,0 +1,1 @@
+using System.Text.RegularExpressions;\n\nstring html = "...your XHTML content...";\nstring pattern = "<body[^>]*>(.*?)</body>";\nMatch match = Regex.Match(html, pattern, RegexOptions.Singleline);\n\nif (match.Success)\n{\n    string bodyContent = match.Groups[1].Value;\n    // Process the extracted body content\n}

@@ -1,1 +1,0 @@
-SELECT u.username, s.query\nFROM user u\nINNER JOIN search s ON u.userid = s.userid;

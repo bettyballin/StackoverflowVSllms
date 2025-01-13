@@ -1,0 +1,1 @@
+[DllImport("MyNativeDll")]\npublic static extern void MyNativeFunction([MarshalAs(UnmanagedType.LPStr)] string myString);\n\n// ...\n\nstring myNullString = null;\nMyNativeFunction(myNullString); // myNullString will be marshaled as a null pointer

@@ -1,1 +1,0 @@
-amespace mynamespace {\n       void myfunction();\n   }\n\n   void mynamespace::myfunction() {\n       // Implementation\n   }

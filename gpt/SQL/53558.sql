@@ -1,1 +1,0 @@
-UPDATE analyzedCopy2\nSET RSSI = (\n    SELECT AVG(RSSI)\n    FROM analyzedCopy2 AS sub\n    WHERE sub.readings_miu_id = analyzedCopy2.readings_miu_id\n)

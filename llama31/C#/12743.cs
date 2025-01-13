@@ -1,0 +1,1 @@
+using Chilkat;\n\n// Example: AES-256 encryption\nChilkat.Crypt2 crypt = new Chilkat.Crypt2();\ncrypt.UnlockComponent("your_license_key");\ncrypt.SetCryptAlgorithm("aes");\ncrypt.SetCipherMode("cbc");\ncrypt.SetKeyLength(256);\ncrypt.SetEncodingMode("base64");\nstring encrypted = crypt.EncryptStringENC("your_string_to_encrypt");

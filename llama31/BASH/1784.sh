@@ -1,0 +1,1 @@
+-- Grant execute permissions on the batch file\nicacls 'D:\xxx\import.bat' /grant:r 'NT SERVICE\SQLSERVERAGENT':RX\n\n-- Grant read and execute permissions on the directory\nicacls 'D:\xxx' /grant:r 'NT SERVICE\SQLSERVERAGENT':RX

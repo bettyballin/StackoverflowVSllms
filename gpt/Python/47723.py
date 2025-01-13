@@ -1,1 +1,0 @@
-hostname, username, password = 'fill', 'these', 'in'\nimport paramiko\n\ndef main():\n    c = paramiko.SSHClient()\n    c.set_missing_host_key_policy(paramiko.AutoAddPolicy())\n    c.connect(hostname=hostname, username=username, password=password)\n    i, o, e = c.exec_command('ls /')\n    print(o.read())\n    c.close()\n\nif __name__ == "__main__":\n    main()

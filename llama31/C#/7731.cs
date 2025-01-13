@@ -1,0 +1,1 @@
+[DllImport("kernel32")]\nprivate static extern IntPtr SuppressMessage(IntPtr hWnd, int msg);\n\n//...\n\nSuppressMessage(IntPtr.Zero, 0x00000018); // WM_SHOWWINDOW

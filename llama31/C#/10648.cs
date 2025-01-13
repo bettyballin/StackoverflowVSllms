@@ -1,0 +1,1 @@
+public void ConvertEpsToJpeg(string inputEpsPath, string outputJpegPath)\n{\n    using (var rasterizer = new GhostscriptRasterizer())\n    {\n        rasterizer.Open(inputEpsPath, GhostscriptRasterizer.Format.Eps);\n        var img = rasterizer.GetPage(1, 96, 96);\n        img.Save(outputJpegPath, System.Drawing.Imaging.ImageFormat.Jpeg);\n    }\n}

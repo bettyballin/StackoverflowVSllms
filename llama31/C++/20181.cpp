@@ -1,0 +1,1 @@
+// C++ DLL\ntypedef void (*CallbackPtr)(int newData);\nvoid registerCallback(CallbackPtr callback) {\n    // Store the callback pointer\n    callbackPtr = callback;\n}\n\nvoid sendData(int data) {\n    // Call the callback function with new data\n    callbackPtr(data);\n}

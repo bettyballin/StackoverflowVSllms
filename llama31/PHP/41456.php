@@ -1,0 +1,1 @@
+// Example usage:\nuse Zend\I18n\Translator\Translator;\n\n$translator = new Translator('fr_FR');\necho $translator->translate('Hello, world!'); // echoes the translated string

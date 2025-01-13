@@ -1,0 +1,1 @@
+public function stop()\n{\n    throw new RuntimeException('Execution stopped');\n}

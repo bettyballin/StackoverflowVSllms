@@ -1,0 +1,1 @@
+find $ORACLE_BASE -name "*.log" -o -name "*.xml"

@@ -1,1 +1,0 @@
-chmod +x archive_data.sh

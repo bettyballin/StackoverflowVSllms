@@ -1,1 +1,0 @@
-def factorial(n, acc=1):\n    if n == 0:\n        return acc\n    else:\n        return factorial(n-1, n*acc)\n\n# Calling the tail-recursive factorial function\nprint(factorial(5))

@@ -1,1 +1,0 @@
-protected void SaveButton_Click(object sender, EventArgs e)\n{\n    // Manually trigger validation for multiple groups\n    Page.Validate("InsertGroup");\n    Page.Validate("AnotherGroup");\n\n    if (Page.IsValid)\n    {\n        // Proceed with save operation\n    }\n}

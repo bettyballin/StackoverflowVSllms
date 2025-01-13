@@ -1,1 +1,0 @@
-public class Person\n{\n    public string Name { get; set; }\n    public int Age { get; set; }\n}

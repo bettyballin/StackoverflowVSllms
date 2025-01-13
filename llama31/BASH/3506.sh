@@ -1,0 +1,1 @@
+# Install OpenJDK 6\npkg install openjdk6\n\n# Install OpenJDK 8\npkg install openjdk8

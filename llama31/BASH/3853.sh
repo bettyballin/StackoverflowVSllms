@@ -1,0 +1,1 @@
+# Extract the extension source\ntar -xvf pecl_http-3.2.1.tgz\n\n# Run phpize\ncd pecl_http-3.2.1\nphpize\n\n# Configure and build the extension\nconfigure --enable-http\nmake\n\n# Install the extension\ncopy Release\php_http.dll C:\Path\To\Php\Extensions\n\n# Add the extension to your PHP configuration\necho "extension=php_http.dll" >> C:\Path\To\Php\php.ini

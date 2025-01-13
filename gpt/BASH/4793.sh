@@ -1,1 +1,0 @@
-jlink --module-path $JAVA_HOME/jmods:mods --add-modules your.module.name --output custom-runtime

@@ -1,1 +1,0 @@
-sqlldr userid=username/password control=controlfile.ctl direct=true

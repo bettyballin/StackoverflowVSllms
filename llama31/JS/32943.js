@@ -1,0 +1,1 @@
+var searchText = "Title";\nvar tdElements = $("td.ms-formbody").filter(function() {\n  var contents = $(this).contents();\n  for (var i = 0; i < contents.length; i++) {\n    if (contents[i].nodeType === 8 && contents[i].nodeValue.indexOf(searchText) !== -1) {\n      return true;\n    }\n  }\n  return false;\n});

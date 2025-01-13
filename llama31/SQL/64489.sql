@@ -1,0 +1,1 @@
+CREATE TABLE RULES (\n    A INT,\n    B INT,\n    C INT,\n    ...\n    MATCH_BITS INT  -- e.g., 0b111 for A, B, and C not null\n);\n\n-- Set MATCH_BITS when inserting/updating a rule\nINSERT INTO RULES (A, B, C, MATCH_BITS) VALUES (50, NULL, NULL, 0b100);\n\n-- Check which rules match\nSELECT * FROM RULES WHERE (MATCH_BITS & 0b111) = 0b111;

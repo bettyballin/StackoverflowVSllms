@@ -1,1 +1,0 @@
-$query = $this->db->query("YOUR RAW SQL QUERY");\n$result = $query->result();\n// Process your result\n$query->free_result(); // Frees up memory

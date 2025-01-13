@@ -1,0 +1,1 @@
+a[rel='lightbox'] {\n    /* existing styles */\n    display: block;\n    height: 100%; /* add this to make the a element expand to the height of its contents */\n}

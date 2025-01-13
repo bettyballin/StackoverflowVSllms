@@ -1,1 +1,0 @@
-pear install PHP_Beautifier

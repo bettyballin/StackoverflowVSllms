@@ -1,1 +1,0 @@
-UPDATE analyzedCopy2\nSET RSSI = (\n    SELECT AvgOfRSSI \n    FROM testQuery3 \n    WHERE analyzedCopy2.readings_miu_id = testQuery3.readings_miu_id\n)\nWHERE EXISTS (\n    SELECT 1 \n    FROM testQuery3 \n    WHERE analyzedCopy2.readings_miu_id = testQuery3.readings_miu_id\n);

@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "/api/proxy/PingService",\n    data: params,\n    dataType: "json",\n    success: function(msg) {\n        id = msg;\n    },\n    error: function(xhr, ajaxOptions, thrownError) {\n        alert(xhr.status);\n        alert(thrownError);\n    }\n});

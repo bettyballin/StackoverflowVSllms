@@ -1,0 +1,1 @@
+SELECT REPLACE(REPLACE(REPLACE('can no pay{1},as your payment{2}due on {3}', \n                               '{1}', \n                               (SELECT value1 FROM another_table)),\n                       '{2}', \n                       (SELECT value2 FROM another_table)),\n               '{3}', \n               (SELECT value3 FROM another_table)) \nFROM your_table;

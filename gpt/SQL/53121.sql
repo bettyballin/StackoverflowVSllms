@@ -1,1 +1,0 @@
-UPDATE Procrastination\nSET DropDeadDueDate = DATEADD(YEAR, 1, DropDeadDueDate);

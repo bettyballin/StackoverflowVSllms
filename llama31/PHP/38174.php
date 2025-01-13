@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare('SELECT column FROM table');\n$stmt->execute();\n$data = $stmt->fetchColumn();

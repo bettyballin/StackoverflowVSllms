@@ -1,0 +1,1 @@
+import os\n\ndir_path = '/path/to/your/directory'\n\nfor filename in os.listdir(dir_path):\n    if '&' in filename:\n        new_filename = filename.replace('&', '+')\n        os.rename(os.path.join(dir_path, filename), os.path.join(dir_path, new_filename))

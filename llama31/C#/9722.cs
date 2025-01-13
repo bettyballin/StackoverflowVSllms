@@ -1,0 +1,1 @@
+int n = 100;\nint comparisons = 0;\n\nfor (int i = 0; i < n - 1; i++)\n{\n    for (int j = i + 1; j < n; j++)\n    {\n        comparisons++; // increment comparison counter\n    }\n}\n\nConsole.WriteLine($"Total comparisons: {comparisons}");\nConsole.WriteLine($"Time complexity: O(n^2)");

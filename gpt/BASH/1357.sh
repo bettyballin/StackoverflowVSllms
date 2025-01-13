@@ -1,1 +1,0 @@
-powershell.exe -ExecutionPolicy Bypass -File "C:\path\to\watch-and-upload.ps1"

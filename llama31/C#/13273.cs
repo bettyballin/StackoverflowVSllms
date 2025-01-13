@@ -1,0 +1,1 @@
+StringHolderRepository repository = new StringHolderRepository();\nIList<string> cities = repository.GetValues("CITY");\ncomboBox.DataSource = cities;

@@ -1,1 +1,0 @@
-session_start();\n$_SESSION['temp_data'] = 'some temporary data';\n// Retrieve\n$temp_data = $_SESSION['temp_data'];

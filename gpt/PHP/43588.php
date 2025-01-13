@@ -1,1 +1,0 @@
-preg_match('/sessionid=([^,;]+)/', $strCookies, $sessionidMatches);

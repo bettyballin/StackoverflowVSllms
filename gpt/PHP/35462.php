@@ -1,1 +1,0 @@
-$memcache = new Memcache();\n$memcache->connect('127.0.0.1', 11211);\n\n// Retrieve multiple cached items\n$item1 = $memcache->get('item1_key');\n$item2 = $memcache->get('item2_key');\n$item3 = $memcache->get('item3_key');\n// and so on...\n\n// Process and use the retrieved items

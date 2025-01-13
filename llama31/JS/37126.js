@@ -1,0 +1,1 @@
+var intervalId;\n\n$(document).ajaxStart(function() {\n  intervalId = setInterval(function() {\n    // update your custom throbber here\n    console.log("Updating throbber...");\n  }, 1000);\n});\n\n$(document).ajaxStop(function() {\n  clearInterval(intervalId);\n});\n\n$("#id").load("your/url", function() {\n  // load() finished, clear the html\n  $("#id").html("");\n});

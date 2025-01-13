@@ -1,1 +1,0 @@
-var client = new MyServiceClient();\nvar response = client.MyServiceMethod();\n\nif (response is ActualResponse actualResponse)\n{\n    // Handle ActualResponse\n}\nelse if (response is ErrorResponse errorResponse)\n{\n    // Handle ErrorResponse\n}

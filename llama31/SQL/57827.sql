@@ -1,0 +1,1 @@
+CREATE FUNCTION MyFunction \n(\n    @param1 int, \n    @param2 int = NULL\n)\nRETURNS int\nAS\nBEGIN\n    IF @param2 IS NULL\n        -- Do something with @param1\n        RETURN @param1 * 2;\n    ELSE\n        -- Do something with @param1 and @param2\n        RETURN @param1 * @param2;\nEND\nGO

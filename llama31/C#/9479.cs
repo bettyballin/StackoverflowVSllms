@@ -1,0 +1,1 @@
+void Application_Start(object sender, EventArgs e)\n{\n    // Code that runs on application startup\n    RegisterRoutes(RouteTable.Routes);\n}\n\nvoid RegisterRoutes(RouteCollection routes)\n{\n    routes.MapPageRoute("Questions", "questions/ask", "~/questions/ask.aspx");\n    // Add more routes as needed\n}

@@ -1,0 +1,1 @@
+class Demo\n  DEFAULT = "Hello"\n  OTHER_CONSTANT = "World"\n\n  def retrieve_constant(constant_name)\n    const_get(constant_name.to_sym)\n  end\nend\n\ndem = Demo.new\nputs dem.retrieve_constant("DEFAULT")  # Output: Hello\nputs dem.retrieve_constant("OTHER_CONSTANT")  # Output: World

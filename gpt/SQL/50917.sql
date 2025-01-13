@@ -1,1 +1,0 @@
-DELETE FROM Matches \nWHERE TeamA = LEAST('red', 'blue') \n  AND TeamB = GREATEST('red', 'blue');

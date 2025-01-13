@@ -1,0 +1,1 @@
+SELECT * FROM RULES WHERE NOT ((A = :a OR A IS NULL) AND (B = :b OR B IS NULL) AND ...);

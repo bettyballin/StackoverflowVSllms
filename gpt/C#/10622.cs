@@ -1,1 +1,0 @@
-public interface IProcessWrapper\n{\n    Process Start(ProcessStartInfo startInfo);\n}

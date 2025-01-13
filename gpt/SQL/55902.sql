@@ -1,1 +1,0 @@
-GRANT CONTROL ON OBJECT::dbo.TriggerName TO DBAccountName;

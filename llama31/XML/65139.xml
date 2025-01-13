@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <globalization culture="en-GB" uiCulture="en-GB">\n      <datetimeFormat AMDesignator="" PMDesignator=""/>\n    </globalization>\n  </system.web>\n</configuration>

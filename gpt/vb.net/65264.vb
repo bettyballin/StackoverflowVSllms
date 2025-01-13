@@ -1,1 +1,0 @@
-Namespace Interfaces\n       Public Interface IAsset\n           Property ID As Integer\n       End Interface\n   End Namespace

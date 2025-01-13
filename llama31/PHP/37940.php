@@ -1,0 +1,1 @@
+$data = json_decode(file_get_contents('file.json'), true);

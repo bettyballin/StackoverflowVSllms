@@ -1,1 +1,0 @@
-curl -X PUT \\n    --data "name=batman" \\n    --header "Content-Type: application/x-www-form-urlencoded" \\n    http://localhost:8080/sample.html

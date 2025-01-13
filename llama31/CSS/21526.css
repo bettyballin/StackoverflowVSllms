@@ -1,0 +1,1 @@
+td {\n  position: relative;\n}\n\n.someclass {\n  position: absolute;\n  display: none;\n  width: 30px;\n  top: -30px; /* adjust the height to match the height of the DIV */\n  left: 0;\n}

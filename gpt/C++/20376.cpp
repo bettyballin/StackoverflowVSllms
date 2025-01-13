@@ -1,1 +1,0 @@
-std::vector<Value> points = {\n    { Point(1.0, 1.0), 1 },\n    { Point(2.0, 2.0), 2 },\n    { Point(3.0, 3.0), 3 },\n    // Add more points as needed\n};\n\nbgi::rtree<Value, bgi::quadratic<16>> rtree(points.begin(), points.end());

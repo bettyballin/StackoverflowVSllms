@@ -1,1 +1,0 @@
-g++ main.o -o main -lmylibrary

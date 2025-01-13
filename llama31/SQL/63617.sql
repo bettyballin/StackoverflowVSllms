@@ -1,0 +1,1 @@
+WAITFOR DELAY '00:00:30';  -- wait for 30 seconds

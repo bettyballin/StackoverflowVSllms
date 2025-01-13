@@ -1,1 +1,0 @@
-using System;\nusing System.Web.UI.WebControls;\n\nnamespace YourNamespace\n{\n    public partial class MyControl : TableRow\n    {\n        protected void Page_Load(object sender, EventArgs e)\n        {\n            // Any initialization code for your control\n        }\n    }\n}

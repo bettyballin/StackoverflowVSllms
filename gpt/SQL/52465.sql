@@ -1,1 +1,0 @@
-variable mvtask varchar2(100); \nvariable mvddl clob; -- Use CLOB for potentially large DDL\n\nBEGIN\n  :mvtask := 'MV_FOO_BAR';\n  SELECT dbms_metadata.get_ddl('MATERIALIZED_VIEW', 'MV_FOO_BAR', 'USER')\n  INTO :mvddl\n  FROM dual;\nEND;\n/

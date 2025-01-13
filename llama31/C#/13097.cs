@@ -1,0 +1,1 @@
+using System.Deployment.Application;\n\n// Get the deployed file path\nstring filePath = ApplicationDeployment.CurrentDeployment.DataDirectory + @"\en.xml";

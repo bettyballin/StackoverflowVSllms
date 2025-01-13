@@ -1,0 +1,1 @@
+hostname SERVER_HOSTNAME && php /path/to/your/script.php

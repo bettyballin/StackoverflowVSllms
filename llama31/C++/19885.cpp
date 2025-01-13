@@ -1,0 +1,1 @@
+srand(12345); // same seed on all nodes\nfor (int i = 0; i < local_population_size; i++) {\n    local_population[i] = initialize_individual();\n}

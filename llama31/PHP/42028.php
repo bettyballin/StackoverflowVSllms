@@ -1,0 +1,1 @@
+var $validate = array(\n    'title' => array(\n        'rule' => 'notEmpty',\n        'required' => true\n    ),\n    'body' => array(\n        'rule' => 'notEmpty',\n        'required' => true\n    )\n);

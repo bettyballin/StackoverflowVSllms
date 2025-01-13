@@ -1,0 +1,1 @@
+public static List<T> Clone<T>(List<T> list) where T : ICloneable\n{\n    return list.Select(item => (T)item.Clone()).ToList();\n}

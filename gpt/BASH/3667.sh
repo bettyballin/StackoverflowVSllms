@@ -1,1 +1,0 @@
-chmod 400 /path/to/config.php

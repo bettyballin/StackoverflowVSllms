@@ -1,0 +1,1 @@
+app.post('/server', (req, res) => {\n  const name = req.body.name;\n  const location = req.body.location;\n  // Insert data into database here\n  res.send('Data saved successfully');\n});

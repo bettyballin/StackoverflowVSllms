@@ -1,1 +1,0 @@
-class MyController extends CI_Controller {\n       public function index() {\n           $data['css_files'] = array('style.css', 'another_style.css');\n           $this->load->view('header', $data);\n           $this->load->view('my_view');\n           $this->load->view('footer');\n       }\n   }

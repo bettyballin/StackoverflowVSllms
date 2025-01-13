@@ -1,0 +1,1 @@
+using System.Numerics;\n\nclass Program\n{\n    static void Main()\n    {\n        decimal num = 1.67119535743E+33m;\n        BigInteger bigInt = (BigInteger)num;\n        string hex = bigInt.ToString("X");\n        Console.WriteLine(hex);\n    }\n}

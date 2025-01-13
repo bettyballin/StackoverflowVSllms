@@ -1,0 +1,1 @@
+[Export(typeof(ResourceDictionary))]\npublic partial class ShapeTemplate : ResourceDictionary\n{\n    public ShapeTemplate()\n    {\n        InitializeComponent();\n    }\n}

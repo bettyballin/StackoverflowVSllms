@@ -1,1 +1,0 @@
-#!/bin/bash\n\n   # Set the desired permissions (read/write for everyone)\n   chmod -R 777 "$1"

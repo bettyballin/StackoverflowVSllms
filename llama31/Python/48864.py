@@ -1,0 +1,1 @@
+import subprocess\nimport threading\n\ndef start_server():\n    subprocess.run(['python', 'http_server.py'])\n\ndef start_app():\n    subprocess.run(['python', 'app.py'])\n\nif __name__ == '__main__':\n    server_thread = threading.Thread(target=start_server)\n    app_thread = threading.Thread(target=start_app)\n    server_thread.start()\n    app_thread.start()

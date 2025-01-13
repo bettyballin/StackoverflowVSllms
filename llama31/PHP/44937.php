@@ -1,0 +1,1 @@
+$userAgent = $_SERVER['HTTP_USER_AGENT'];\n$browser = get_browser($userAgent);\nif ($browser->browser == 'IE' && $browser->majorver == 6) {\n    // IE6 detected\n}

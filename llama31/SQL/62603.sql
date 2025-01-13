@@ -1,0 +1,1 @@
+SELECT CHECK (\n    CONSTRAINT 'test_pk' PRIMARY KEY (id),\n    CONSTRAINT 'test_name_nn' CHECK (name IS NOT NULL)\n) AS result\nFROM (\n    SELECT 1 AS id, 'test' AS name\n) AS test;

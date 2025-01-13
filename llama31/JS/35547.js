@@ -1,0 +1,1 @@
+window.addEventListener('beforeunload', function(event) {\n  event.preventDefault();\n  window.location.href = 'https://example.com/home-page';\n});

@@ -1,1 +1,0 @@
-svn move /path/to/dir1/file.txt /path/to/dir2/file.txt

@@ -1,0 +1,1 @@
+require_once 'PHPExcel/PHPExcel.php';\n$objPHPExcel = new PHPExcel();\n$objPHPExcel->getActiveSheet()->setCellValue('A1', 'Hello World!');\n$objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');\n$objWriter->save('example.xlsx');

@@ -1,1 +1,0 @@
-callback([{"errors": {"comment": ["Weve detected that your submission contains words which violate our Terms and Conditions. Please remove them and resubmit test"]}}])

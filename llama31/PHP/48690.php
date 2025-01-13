@@ -1,0 +1,1 @@
+$frames = $_im->getImageIndex();\nfor ($i = 1; $i < $frames; $i++) {\n    $_im->removeImage($i);\n}

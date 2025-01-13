@@ -1,0 +1,1 @@
+# Example using curl with a proxy server\ncurl -x <proxy_server>:<port> http://example.com

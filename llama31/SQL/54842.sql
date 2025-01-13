@@ -1,0 +1,1 @@
+SET @sql = CONCAT('SELECT ', (SELECT CONCAT('column', mycolumn) FROM mytable), ' FROM mytable');\nPREPARE stmt FROM @sql;\nEXECUTE stmt;\nDEALLOCATE PREPARE stmt;

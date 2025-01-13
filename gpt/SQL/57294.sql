@@ -1,1 +1,0 @@
--- Create temporary table\nCREATE TABLE #TempIDs (ID INT PRIMARY KEY);\n\n-- Insert IDs into temporary table\nINSERT INTO #TempIDs (ID)\nVALUES (123), (345), ...; -- You can do this in batches as well\n\n-- Perform delete using join\nDELETE OUR_TABLE \nFROM OUR_TABLE\nJOIN #TempIDs ON OUR_TABLE.ID = #TempIDs.ID;\n\n-- Drop temporary table\nDROP TABLE #TempIDs;

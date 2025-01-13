@@ -1,1 +1,0 @@
-#include <vector>\n\nstd::vector<Foo*> foo_vector;\n\n// Populate the vector with pointers...\n\n// Cleanup\nfor (Foo* ptr : foo_vector) {\n    delete ptr;\n}\nfoo_vector.clear();

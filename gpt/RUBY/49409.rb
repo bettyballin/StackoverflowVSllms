@@ -1,1 +1,0 @@
-# Start the Rails console\nrails console\n\n# Include the helper module\ninclude YourHelper\n\n# Call a helper method\nyour_helper_method

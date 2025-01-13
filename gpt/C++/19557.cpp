@@ -1,1 +1,0 @@
-// MyClass.h\n     #pragma once\n\n     #ifdef MYLIBRARY_EXPORTS\n     #define MYLIBRARY_API __declspec(dllexport)\n     #else\n     #define MYLIBRARY_API __declspec(dllimport)\n     #endif\n\n     class MYLIBRARY_API MyClass {\n     public:\n         MyClass();\n         void DisplayMessage();\n     };

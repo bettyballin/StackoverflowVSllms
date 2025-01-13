@@ -1,1 +1,0 @@
-chmod +x /etc/ppp/scripts/get_available_modem.sh\nchmod +x /path/to/your/connection-script.sh

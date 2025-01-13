@@ -1,0 +1,1 @@
+@Html5Helper.Image("/path/to/image.jpg", "Image alt text")

@@ -1,1 +1,0 @@
-extern "C" void my_function() __attribute__((weak));\n\nint main() {\n    if (my_function) {\n        my_function();\n    } else {\n        // Handle the case where 'my_function' is not defined\n    }\n    return 0;\n}

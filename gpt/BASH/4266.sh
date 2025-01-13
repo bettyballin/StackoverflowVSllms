@@ -1,1 +1,0 @@
-@echo off\nsqlcmd -S YourServerName -E -i backup.sql

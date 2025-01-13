@@ -1,0 +1,1 @@
+// Web API Controller\npublic class MyController : ApiController\n{\n    public string GetData()\n    {\n        // Return some data\n        return "Hello, World!";\n    }\n}

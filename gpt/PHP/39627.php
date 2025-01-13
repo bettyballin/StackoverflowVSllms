@@ -1,1 +1,0 @@
-$output = shell_exec('your_command_here');\necho "Captured output: $output\n";

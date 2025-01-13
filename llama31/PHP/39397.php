@@ -1,0 +1,1 @@
+class DatabaseConnection {\n    private $db;\n\n    public function __construct() {\n        $this->db = new MySQL();\n        $this->db->connect();\n    }\n\n    public function __destruct() {\n        $this->db->close();\n    }\n\n    // Interact with database using $this->db\n}

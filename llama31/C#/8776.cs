@@ -1,0 +1,1 @@
+using System.Windows.Forms;\n\npublic Size MeasureString(string text, Font font, Size printArea)\n{\n    Size size = TextRenderer.MeasureText(text, font, printArea);\n    return size;\n}

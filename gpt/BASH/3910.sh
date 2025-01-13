@@ -1,1 +1,0 @@
-screen\n    your_command\n    # Press Ctrl+A, then D to detach

@@ -1,1 +1,0 @@
-CREATE SERVER foreign_db_server\n   FOREIGN DATA WRAPPER postgres_fdw\n   OPTIONS (host 'localhost', dbname 'databaseB', port '5432');

@@ -1,0 +1,1 @@
+pssh -h hosts.txt -l user -A -i "sudo su - && /path/to/your/script.sh"

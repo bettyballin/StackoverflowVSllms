@@ -1,1 +1,0 @@
-ls /usr/local/lib | grep freetype\n   ls /usr/local/include | grep freetype

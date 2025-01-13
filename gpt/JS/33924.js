@@ -1,1 +1,0 @@
-// Example using React\n    import React from 'react';\n    import ReactDOM from 'react-dom';\n\n    const App = () => (\n      <div>\n        <h1>Welcome to my page</h1>\n        <p>This is a paragraph.</p>\n      </div>\n    );\n\n    ReactDOM.render(<App />, document.getElementById('root'));

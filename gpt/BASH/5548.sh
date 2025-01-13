@@ -1,1 +1,0 @@
-sqlldr userid=your_username/your_password@your_db control=control_file.ctl log=import.log

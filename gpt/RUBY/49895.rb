@@ -1,1 +1,0 @@
-class PdfGenerator\n  def initialize(tex_content)\n    @tex_content = tex_content\n  end\n\n  def generate_pdf\n    pdf = RTex::Document.new(@tex_content).to_pdf\n    File.open("#{Rails.root}/tmp/generated_pdf.pdf", 'wb') do |file|\n      file.write(pdf)\n    end\n  end\nend

@@ -1,1 +1,0 @@
-result.Timeout = 60000; // Timeout in milliseconds

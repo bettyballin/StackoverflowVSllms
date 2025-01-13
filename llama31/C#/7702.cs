@@ -1,0 +1,1 @@
+using (OracleConnection conn = new OracleConnection(connStr))\nusing (OracleTransaction trans = conn.BeginTransaction())\nusing (OracleCommand command = new OracleCommand(cmdTxt, conn, trans))\n{\n    command.ExecuteNonQuery();\n    trans.Commit();\n}

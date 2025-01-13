@@ -1,1 +1,0 @@
-exec($cmd . ' 2>&1', $output, $retval);\n  error_log(print_r($output, true));

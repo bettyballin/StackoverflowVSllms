@@ -1,0 +1,1 @@
+string[] files = { "name 1", "name 10", "name 2" };\nstring[] sortedFiles = NaturalSort.Sort(files);\nConsole.WriteLine(string.Join(", ", sortedFiles));

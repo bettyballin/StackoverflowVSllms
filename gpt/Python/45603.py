@@ -1,1 +1,0 @@
-import cx_Oracle\n\n   connection = cx_Oracle.connect("user/password@dsn")\n   cursor = connection.cursor()\n   cursor.execute("SELECT * FROM your_table")\n\n   rows = cursor.fetchall()\n   for row in rows:\n       print(row)\n\n   cursor.close()\n   connection.close()

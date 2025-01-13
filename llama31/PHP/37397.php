@@ -1,0 +1,1 @@
+<?php\nsession_start();\necho $_SESSION['msg'];\n?>

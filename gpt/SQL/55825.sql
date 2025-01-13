@@ -1,1 +1,0 @@
-WITH CTE AS (\n    SELECT \n        ROW_NUMBER() OVER (ORDER BY id) AS rn,\n        id,\n        date,\n        product\n    FROM your_table\n)\nSELECT \n    t1.id,\n    t1.date AS start_date,\n    COALESCE(t2.date, '') AS end_date,\n    t1.product\nFROM \n    CTE t1\nLEFT JOIN \n    CTE t2\nON \n    t1.rn = t2.rn - 1\nWHERE \n    t1.rn % 2 = 1\nORDER BY \n    t1.id;

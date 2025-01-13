@@ -1,0 +1,1 @@
+CREATE TABLE MyTable (\n    Id UNIQUEIDENTIFIER PRIMARY KEY DEFAULT (NEWID()),\n    -- other columns...\n)

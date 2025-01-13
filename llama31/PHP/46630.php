@@ -1,0 +1,1 @@
+$img = imagecreatefromjpeg($img_addr);\n$gray_img = imagecreatetruecolor(imagesx($img), imagesy($img));\nimagecopymergegray($gray_img, $img, 0, 0, 0, 0, imagesx($img), imagesy($img), 100);

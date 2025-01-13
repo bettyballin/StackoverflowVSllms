@@ -1,1 +1,0 @@
-sqlfluff fix your_file.sql

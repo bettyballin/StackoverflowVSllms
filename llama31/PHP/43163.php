@@ -1,0 +1,1 @@
+ini_set('session.use_trans_sid', 1);\nini_set('session.trans_sid_tags', 'token=a-zA-Z0-9');\nsession_start();

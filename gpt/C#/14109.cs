@@ -1,1 +1,0 @@
-var result = from d in dateTable\n             where d.category == "someCat"\n             from tvf in tvFunction(d.dt, "anotherParam")\n             select new \n             {\n                 d.dateCol,\n                 tvf.descr,\n                 tvf.value\n             };

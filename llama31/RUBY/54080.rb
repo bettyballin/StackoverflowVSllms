@@ -1,0 +1,1 @@
+value.xpath("//div[@id[starts-with(., 'eq-') and contains(., '_bl-#{my_bl}') and string-length() = string-length('eq-#{my_eq}_bl-#{my_bl}')] and @class='foo']").first

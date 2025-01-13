@@ -1,1 +1,0 @@
-def custom_min(*args, key=None):\n       if len(args) == 1 and isinstance(args[0], (list, tuple)):\n           args = args[0]\n       return min(args, key=key)

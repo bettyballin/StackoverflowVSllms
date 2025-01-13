@@ -1,0 +1,1 @@
+_AccelLimit = (double)exercise["DefaultAccelLimit"];

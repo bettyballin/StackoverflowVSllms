@@ -1,1 +1,0 @@
-public function upload()\n{\n    $userId = $this->Auth->user('id');\n    if (!$this->UserPermissions->canUpload($userId)) {\n        $this->Flash->error(__('You do not have permission to upload files.'));\n        return;\n    }\n\n    // Continue with the upload process...\n}

@@ -1,0 +1,1 @@
+SELECT \n  a.*,\n  s.*\nFROM \n  AccessTable a\n  FULL OUTER JOIN SMSTable s\n  ON a.displayName = s.displayName\n  OR a.SAMAccountName = s.SAMAccountName\n  OR a.ComputerName = s.NetbiosName\nWHERE \n  a.displayName IS NULL AND a.SAMAccountName IS NULL AND a.ComputerName IS NULL\n  OR s.displayName IS NULL AND s.SAMAccountName IS NULL AND s.NetbiosName IS NULL

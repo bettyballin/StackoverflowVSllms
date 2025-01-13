@@ -1,0 +1,1 @@
+SELECT ci.cart_id, iv.item_id, iv.value\nFROM CartItems ci\nINNER JOIN ItemValues iv ON ci.item_id = iv.item_id\nINNER JOIN (\n  SELECT cart_id, MAX(value) as max_value\n  FROM CartItems\n  INNER JOIN ItemValues ON CartItems.item_id = ItemValues.item_id\n  GROUP BY cart_id\n) mv ON ci.cart_id = mv.cart_id AND iv.value = mv.max_value

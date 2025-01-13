@@ -1,1 +1,0 @@
-gcc -o ptrace_intercept ptrace_intercept.c\n./ptrace_intercept your_applicatio

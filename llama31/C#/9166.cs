@@ -1,0 +1,1 @@
+public void MyMethod(string a, int b)\n{\n    a ??= throw new ArgumentNullException(nameof(a));\n    // more stuff here\n}

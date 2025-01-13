@@ -1,1 +1,0 @@
-session_start();\n\nif (isset($_SESSION['has_voted'])) {\n    die("You have already voted.");\n}\n\nif ($_SERVER['REQUEST_METHOD'] == 'POST') {\n    // Process the vote\n    $_SESSION['has_voted'] = true;\n    // Store vote in database\n    // Redirect or show a success message\n}

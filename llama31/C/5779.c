@@ -1,0 +1,1 @@
+enum MessageType: int {\n    case HOT = 1;\n    case WARM = 2;\n    case COLD = 3;\n}

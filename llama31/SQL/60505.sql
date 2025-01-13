@@ -1,0 +1,1 @@
+DECLARE @str VARCHAR(50) = 'Hello'\nDECLARE @padchar CHAR(1) = '0'\nDECLARE @len INT = 10\n\nSELECT RIGHT(REPLICATE(@padchar, @len) + @str, @len)

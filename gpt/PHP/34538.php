@@ -1,1 +1,0 @@
-$post = new stdClass();\n$post->post_content = '<p>Some text with images <img src="image1.jpg" /> and <img src="image2.jpg" /></p>';\n\n$image_sources = get_all_images($post);\n\nprint_r($image_sources);

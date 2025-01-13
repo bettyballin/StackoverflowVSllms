@@ -1,0 +1,1 @@
+line.split("\t").each do |word|\n    puts word\nend

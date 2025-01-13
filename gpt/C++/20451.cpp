@@ -1,1 +1,0 @@
-#include "foo.h"\n\nvoid neverCalled() {\n  volatile Foo<int> f(1);\n}

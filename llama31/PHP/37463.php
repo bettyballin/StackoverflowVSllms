@@ -1,0 +1,1 @@
+function like_match($input, $pattern) {\n    $pattern = preg_quote($pattern, '/');\n    $pattern = str_replace('%', '.*', $pattern);\n    $pattern = '/^' . $pattern . '$/';\n    return preg_match($pattern, $input);\n}\n\n$input = 'matchme';\n$pattern = 'matchme%';\n\nif (like_match($input, $pattern)) {\n    echo 'Match found';\n} else {\n    echo 'No match found';\n}

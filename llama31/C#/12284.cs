@@ -1,0 +1,1 @@
+byte[] vfpGuidBytes = new byte[] { /* your vfp guid bytes here */ };\nGuid sqlGuid = new Guid(vfpGuidBytes);

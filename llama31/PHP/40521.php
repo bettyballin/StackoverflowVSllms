@@ -1,0 +1,1 @@
+public function mynextrequestAction()\n{\n    if ($this->_flashMessenger->hasMessages()) {\n        $messages = $this->_flashMessenger->getMessages();\n        zend_debug::dump($messages);\n    }\n    $this->render();\n}

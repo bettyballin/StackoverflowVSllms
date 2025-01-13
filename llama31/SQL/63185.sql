@@ -1,0 +1,1 @@
+CREATE INDEX idx_friendships_user_id ON Friendships(user_id);\nCREATE INDEX idx_events_user_id ON Events(user_id);\nCREATE INDEX idx_events_created_at ON Events(created_at);

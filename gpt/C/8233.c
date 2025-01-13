@@ -1,1 +1,0 @@
-HANDLE OpenFileById(\n      HANDLE                hVolumeHint,\n      LPFILE_ID_DESCRIPTOR  lpFileId,\n      DWORD                 dwDesiredAccess,\n      DWORD                 dwShareMode,\n      LPSECURITY_ATTRIBUTES lpSecurityAttributes,\n      DWORD                 dwFlagsAndAttributes\n    );

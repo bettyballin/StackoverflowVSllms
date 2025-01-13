@@ -1,0 +1,1 @@
+public static class HResult\n{\n    public const int S_OK = 0x00000000;\n    public const int E_FAIL = unchecked((int)0x80004005);\n}

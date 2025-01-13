@@ -1,1 +1,0 @@
-for ($i = 0; $i < some_lengthy_process; $i++) {\n       // Your processing code here\n\n       if ($i % 10 == 0) { // Adjust this condition as needed\n           ob_flush();\n           flush();\n       }\n   }

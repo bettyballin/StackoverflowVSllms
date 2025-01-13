@@ -1,0 +1,1 @@
+int count = ActiveRecordMediator.FindAll<Product>("SELECT COUNT(*)", Restrictions.Gt("Date", DateTime.Parse("your_date_here"))).First<int>();

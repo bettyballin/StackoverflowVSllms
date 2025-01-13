@@ -1,1 +1,0 @@
-@echo off\nsed "/\[aaa bbb\]/,/\\[www yyy\\]/!b;//!d" input.txt > output.txt

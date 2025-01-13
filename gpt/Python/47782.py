@@ -1,1 +1,0 @@
-try:\n    soup = BeautifulSoup(html_code, 'lxml')\n    print(soup.prettify())\nexcept Exception as e:\n    print(f"An error occurred: {e}")

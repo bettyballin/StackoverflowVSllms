@@ -1,1 +1,0 @@
-// mylib.c\n#include "mylib.h"\n#include <stdio.h>\n\nvoid my_function() {\n    printf("Hello from the library!\n");\n}

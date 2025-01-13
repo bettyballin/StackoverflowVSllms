@@ -1,0 +1,1 @@
+.sprite {\n  display: inline-block;\n  width: 20px; /* set to the width of the sprite image */\n  height: 20px; /* set to the height of the sprite image */\n  background-image: url('sprite.png'); /* set to the sprite image */\n  background-position: 0 0; /* set to the position of the sprite */\n}

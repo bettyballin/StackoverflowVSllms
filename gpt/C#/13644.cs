@@ -1,1 +1,0 @@
-using System.Data.Odbc;\n  \n  string connectionString = "Driver={Microsoft ODBC for Oracle};Server=myServerAddress;Uid=myUsername;Pwd=myPassword;";\n  using (OdbcConnection connection = new OdbcConnection(connectionString))\n  {\n      connection.Open();\n      // Perform database operations\n  }

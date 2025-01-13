@@ -1,0 +1,1 @@
+function onHoverEventForHighest(event) {\n  lowest_element.classList.add('hover');\n};\n\nfunction onHoverOutEventForHighest(event) {\n  lowest_element.classList.remove('hover');\n};

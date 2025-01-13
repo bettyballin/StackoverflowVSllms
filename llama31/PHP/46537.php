@@ -1,0 +1,1 @@
+$conn = new mysqli("your_zymic_mysql_host", "paulasplace_sudo", "mypassword", "your_database_name");\n\nif ($conn->connect_error) {\n    die("Connection failed: " . $conn->connect_error);\n} else {\n    echo "mysql connected successfully!";\n}

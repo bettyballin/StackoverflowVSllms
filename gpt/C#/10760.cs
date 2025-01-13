@@ -1,1 +1,0 @@
-this.approved_by = planRec.approved_by?.ToString() ?? "";

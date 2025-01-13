@@ -1,0 +1,1 @@
+-- Example of a well-structured view\nCREATE VIEW CustomerOrderSummary AS\nSELECT \n    c.CustomerID,\n    c.Name,\n    SUM(oi.Quantity * oi.UnitPrice) AS TotalOrderValue\nFROM \n    Customers c\nINNER JOIN \n    Orders o ON c.CustomerID = o.CustomerID\nINNER JOIN \n    OrderItems oi ON o.OrderID = oi.OrderID\nGROUP BY \n    c.CustomerID, c.Name

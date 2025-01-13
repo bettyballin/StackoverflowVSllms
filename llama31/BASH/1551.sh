@@ -1,0 +1,1 @@
+alias reconnect='screen -d -R'

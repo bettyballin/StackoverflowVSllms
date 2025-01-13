@@ -1,0 +1,1 @@
+DataTable exportTable = new DataTable();\nexportTable.Columns.Add("Column1");\nexportTable.Columns.Add("Column2");\n\nforeach (DataRow row in dataSet.Tables["YourTable"].Rows)\n{\n    DataRow newRow = exportTable.NewRow();\n    newRow["Column1"] = row["Column1"];\n    newRow["Column2"] = row["Column2"];\n    exportTable.Rows.Add(newRow);\n}\n\nexportTable.WriteXml("output.xml");

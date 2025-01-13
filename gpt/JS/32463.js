@@ -1,1 +1,0 @@
-function validateForm() {\n    // Trigger client-side validation\n    var isValid = Page_ClientValidate();\n\n    if (isValid) {\n        // Form is valid\n        return true;\n    } else {\n        // Form is not valid\n        return false;\n    }\n}

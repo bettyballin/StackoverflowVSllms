@@ -1,0 +1,1 @@
+<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">\n    <property name="host" value="mail.thecompany.net" />\n    <property name="port" value="25" />\n    <property name="javaMailProperties">\n        <props>\n            <prop key="mail.smtp.localhost">thecompany.net</prop>\n        </props>\n    </property>\n</bean>

@@ -1,0 +1,1 @@
+<persistence-unit name="myPU">\n    <provider>oracle.toplink.essentials.PersistenceProvider</provider>\n    <properties>\n        <property name="toplink.jdbc.url" value="jdbc:mysql://localhost:3306/myDB"/>\n        <property name="toplink.jdbc.user" value="myUser"/>\n        <property name="toplink.jdbc.password" value="myPassword"/>\n    </properties>\n</persistence-unit>

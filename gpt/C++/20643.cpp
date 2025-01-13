@@ -1,1 +1,0 @@
-"@assert"          return ASSERT_KEYWORD;

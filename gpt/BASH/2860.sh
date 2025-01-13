@@ -1,1 +1,0 @@
-# Example command to load a dump file in WinDbg\nwindbg -z C:\CrashDumps\w3wp.exe.<timestamp>.dmp

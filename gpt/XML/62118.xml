@@ -1,1 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk">\n  <PropertyGroup>\n    <CscToolPath>C:\Path\To\Your\dotnet\sdk\version\Roslyn\bincore</CscToolPath>\n    <CscToolExe>csc.exe</CscToolExe>\n  </PropertyGroup>\n</Project>

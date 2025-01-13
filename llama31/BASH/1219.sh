@@ -1,0 +1,1 @@
+mkdir -p /path/to/chroot\nchroot /path/to/chroot /usr/bin/python script.py

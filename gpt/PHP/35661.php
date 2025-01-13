@@ -1,1 +1,0 @@
-<?php\n   $v8 = new V8Js();\n   $jsCode = "var foo = 'bar'; foo;";\n   echo $v8->executeString($jsCode);\n   ?>

@@ -1,0 +1,1 @@
+// view script\n\n<img src="<?= $this->url('image/serve', ['filePath' => '0/0/1/image.jpg']) ?>" alt="Image">

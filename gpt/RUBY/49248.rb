@@ -1,1 +1,0 @@
-module UsefulThings\n  def self.format_text(x)\n    # implementation\n  end\nend\n\nclass UsefulWorker\n  def do_work\n    UsefulThings.format_text("abc")\n    # ...\n  end\nend

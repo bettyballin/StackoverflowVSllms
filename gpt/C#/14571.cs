@@ -1,1 +1,0 @@
-using System;\n    using Ncurses;\n\n    class Program\n    {\n        static void Main(string[] args)\n        {\n            NCurses.initscr();\n            NCurses.printw("Hello, Ncurses!");\n            NCurses.refresh();\n            NCurses.getch();\n            NCurses.endwin();\n        }\n    }

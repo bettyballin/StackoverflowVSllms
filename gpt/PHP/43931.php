@@ -1,1 +1,0 @@
-// src/Helpers/StringHelper.php\n   namespace App\Helpers;\n\n   class StringHelper {\n       public static function someStringFunction() {\n           // Functionality here\n       }\n   }\n\n   // src/Helpers/DateHelper.php\n   namespace App\Helpers;\n\n   class DateHelper {\n       public static function someDateFunction() {\n           // Functionality here\n       }\n   }

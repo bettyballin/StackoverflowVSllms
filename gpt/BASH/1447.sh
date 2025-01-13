@@ -1,1 +1,0 @@
-et localgroup Administrators SharePointServiceUser /add

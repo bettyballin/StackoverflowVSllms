@@ -1,1 +1,0 @@
-public static class DirectoryInfoExtensions\n{\n    public static FileInfo CreateFile(this DirectoryInfo dir, string fileName)\n    {\n        var filePath = Path.Combine(dir.FullName, fileName);\n        return new FileInfo(filePath);\n    }\n}\n\n// Usage\nvar dir = new DirectoryInfo(@"C:\Temp");\nvar file = dir.CreateFile("file.ext");

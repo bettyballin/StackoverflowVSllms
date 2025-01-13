@@ -1,1 +1,0 @@
-.ListSetContainer {\n  background-color: Red;\n  border: 1px solid #999999;\n  text-align: center;\n  overflow: hidden; /* Clearfix technique */\n}\n\n.ListSet {\n  margin: 2px 2px 2px 16px;\n  float: left;\n  clear: none;\n}\n\n.ListSet ul {\n  background-color: #EEEEEE;\n  border: 1px solid #999;\n  margin: 2px 2px 16px 2px;\n  padding: 6px 6px 0px 6px;\n}

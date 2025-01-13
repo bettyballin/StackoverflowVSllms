@@ -1,0 +1,1 @@
+public class Entity\n{\n    private long count;\n\n    public uint Count\n    {\n        get { return (uint)count; }\n        set { count = (long)value; }\n    }\n}

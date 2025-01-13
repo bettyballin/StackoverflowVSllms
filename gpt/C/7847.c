@@ -1,1 +1,0 @@
-#include <fcntl.h>\n#include <unistd.h>\n#include <sys/stat.h>\n#include <stdio.h>\n\nint main() {\n    const char *fileName = "/tmp/myfile.txt";\n    int fd = open(fileName, O_CREAT | O_RDWR, 0666);\n    \n    if (fd == -1) {\n        perror("Error creating file");\n        return 1;\n    }\n    \n    close(fd);\n    return 0;\n}

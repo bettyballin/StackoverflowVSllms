@@ -1,0 +1,1 @@
+CREATE TABLE lists (\n  id INT PRIMARY KEY,\n  -- other columns as needed\n);\n\nCREATE TABLE words (\n  id INT PRIMARY KEY,\n  list_id INT,\n  word VARCHAR(255),\n  FOREIGN KEY (list_id) REFERENCES lists(id)\n);

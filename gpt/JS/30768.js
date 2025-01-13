@@ -1,1 +1,0 @@
-const user = {\n    name: 'John',\n    age: 30,\n    email: 'john.doe@example.com'\n};\n\nconst updateUser = (user, updates) => {\n    return { ...user, ...updates };\n};\n\nconst updatedUser = updateUser(user, { age: 31 });\n\nconsole.log(user); // Original user remains unchanged\nconsole.log(updatedUser); // New user object with the updated age

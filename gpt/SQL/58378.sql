@@ -1,1 +1,0 @@
--- Find duplicates\nSELECT zip, COUNT(*)\nFROM zip_codes\nGROUP BY latitude, longitude\nHAVING COUNT(*) > 1;\n\n-- Delete duplicates (keep one instance)\nDELETE z1\nFROM zip_codes z1\nINNER JOIN zip_codes z2 \nON z1.latitude = z2.latitude \nAND z1.longitude = z2.longitude\nAND z1.zip > z2.zip;

@@ -1,0 +1,1 @@
+UpdatePanel1.AsyncPostBackTimeout = 300; // 5 minutes

@@ -1,0 +1,1 @@
+function printDocument(documentId) {\n    var pdfElement = document.getElementById(documentId);\n    pdfElement.onload = function() {\n        if (typeof pdfElement.printAll != 'undefined') {\n            pdfElement.printAll();\n        }\n    };\n}

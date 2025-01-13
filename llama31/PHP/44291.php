@@ -1,0 +1,1 @@
+$html = $_POST['html'];\n// Use prepared statements or HTML escaping to prevent SQL injection attacks\n$html = htmlspecialchars($html, ENT_QUOTES, 'UTF-8');\n// Insert into database

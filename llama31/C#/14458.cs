@@ -1,0 +1,1 @@
+SqlCommand theCommand = new SqlCommand("SELECT * FROM ApplicationName", connectSQL);

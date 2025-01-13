@@ -1,1 +1,0 @@
-document.cookie = "remember_me=" + tokenString + "; HttpOnly; Secure; SameSite=Strict; Expires=Tue, 19 Jan 2038 03:14:07 GMT;";

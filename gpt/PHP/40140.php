@@ -1,1 +1,0 @@
-// Clone the existing criteria for count\n$countCriteria = clone $c;\n$countCriteria->clearSelectColumns();\n$countCriteria->addSelectColumn('COUNT(*)');\n\n// Perform the count query\n$count = BasePeer::doCount($countCriteria);

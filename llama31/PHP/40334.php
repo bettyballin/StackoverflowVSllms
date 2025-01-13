@@ -1,0 +1,1 @@
+// Example usage:\n$this->load->library('rbac');\n$this->rbac->add_role('admin');\n$this->rbac->add_permission('create_post');\n$this->rbac->assign_permission('admin', 'create_post');

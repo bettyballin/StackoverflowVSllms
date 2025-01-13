@@ -1,1 +1,0 @@
--- Enable CDC on the database\nEXEC sys.sp_cdc_enable_db;\n\n-- Enable CDC on the table\nEXEC sys.sp_cdc_enable_table\n    @source_schema = N'dbo',\n    @source_name = N'YourWarehouseTable',\n    @role_name = NULL;

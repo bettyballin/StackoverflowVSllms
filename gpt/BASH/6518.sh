@@ -1,1 +1,0 @@
-chmod +x csv_to_xls.sh

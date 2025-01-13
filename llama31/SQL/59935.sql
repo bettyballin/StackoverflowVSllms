@@ -1,0 +1,1 @@
+INSERT INTO Message (FromID, FromType, ToID, ToType, Message)\nVALUES\n    (@FromID, 'Employee', @ToID, 'Company', 'Hello from employee!'),\n    (@FromID, 'Company', @ToID, 'Employee', 'Hello from company!');

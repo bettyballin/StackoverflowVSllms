@@ -1,1 +1,0 @@
--- To stop the job\nBEGIN\n    DBMS_SCHEDULER.stop_job('yearly_summary_job');\nEND;\n/\n\n-- To start the job\nBEGIN\n    DBMS_SCHEDULER.run_job('yearly_summary_job');\nEND;\n/

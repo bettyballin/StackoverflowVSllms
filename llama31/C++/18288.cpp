@@ -1,0 +1,1 @@
+#include <iostream>\n#include <initializer_list>\n\nvoid function(std::initializer_list<float> arr) {\n    for (auto value : arr) {\n        std::cout << value << " ";\n    }\n    std::cout << std::endl;\n}\n\nint main() {\n    function({1, 2, 3, 4});\n    return 0;\n}

@@ -1,1 +1,0 @@
-ice -n 10 ./background_worker_script

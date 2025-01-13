@@ -1,0 +1,1 @@
+DECLARE @email_address VARCHAR(200) = 'example@example.com'\n\nIF @email_address NOT LIKE '%[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}%'\n    PRINT 'Invalid email address'\nELSE\n    PRINT 'Valid email address'

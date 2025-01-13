@@ -1,0 +1,1 @@
+// config.php\nparameters:\n    level: 7\n    paths:\n        - src\n\n// src/example.php\n<?php\nzarfnutz('blah');

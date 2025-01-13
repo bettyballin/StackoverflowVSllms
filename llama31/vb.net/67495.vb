@@ -1,0 +1,1 @@
+Dim trueIndex As Integer = Array.IndexOf(ba.Cast(Of Boolean)().ToArray(), True)\nDim falseIndex As Integer = Array.IndexOf(ba.Cast(Of Boolean)().ToArray(), False)\n\nDim hasTrue As Boolean = trueIndex <> -1\nDim hasFalse As Boolean = falseIndex <> -1

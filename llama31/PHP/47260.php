@@ -1,0 +1,1 @@
+$name = 'John';\n$age = 30;\n\necho $name . ' is ' . $age . ' years old.';

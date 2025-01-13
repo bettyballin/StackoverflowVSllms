@@ -1,1 +1,0 @@
-function fetchData() {\n    document.getElementById('loading-indicator').style.display = 'block';\n    $.ajax({\n        url: '/data',\n        success: function(response) {\n            document.getElementById('loading-indicator').style.display = 'none';\n            // handle response\n        }\n    });\n}

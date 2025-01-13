@@ -1,1 +1,0 @@
-#!/bin/bash\n# Set environment variables\nexport HOME=/root\nexport USER=root\nexport PATH=/usr/bin:/bin\nexport SSH_AUTH_SOCK=/path/to/ssh_auth_sock\n\n# Define the SSH command with the full path to the SSH key\nSSH_CMD="ssh -i /root/.ssh/id_rsa -nxv user@remotehost echo 'hello world'"\n\n# Execute the SSH command\n$SSH_CMD

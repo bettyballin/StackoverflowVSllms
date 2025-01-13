@@ -1,0 +1,1 @@
+$string = "Your string with &#39; instead of apostrophes";\n$string = str_replace("&#39;", "'", $string);

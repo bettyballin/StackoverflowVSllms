@@ -1,0 +1,1 @@
+var textfield = document.getElementById('your_textfield_id');\ntextfield.focus();\ntextfield.setSelectionRange(2, 10);

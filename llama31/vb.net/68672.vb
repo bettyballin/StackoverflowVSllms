@@ -1,0 +1,1 @@
+Private Function GetAllChildNodeText(parentNode As TreeNode) As List(Of String)\n    Dim childNodeText As New List(Of String)\n    For Each childNode As TreeNode In parentNode.Nodes\n        childNodeText.Add(childNode.Text)\n        childNodeText.AddRange(GetAllChildNodeText(childNode))\n    Next\n    Return childNodeText\nEnd Functio

@@ -1,0 +1,1 @@
+Mouse.OverrideCursor = Cursors.AppStarting;

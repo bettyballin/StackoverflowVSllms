@@ -1,1 +1,0 @@
-$dateString = '2008-02-28T07:56:35.263';\n\n// Create a DateTime object from the XSD datetime string\n$dateTime = DateTime::createFromFormat('Y-m-d\TH:i:s.u', $dateString);\n\nif ($dateTime === false) {\n    echo "Invalid date format.";\n} else {\n    // Output the date in a different format, e.g., 'Y-m-d H:i:s'\n    echo $dateTime->format('Y-m-d H:i:s.u');\n}

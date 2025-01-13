@@ -1,1 +1,0 @@
-import requests\n\nurl = "http://your-server-url/service/data/1"\nresponse = requests.get(url, headers={"Accept": "application/json"})\n\nif response.status_code == 200:\n    print(response.json())\nelse:\n    print("GET request not worked")

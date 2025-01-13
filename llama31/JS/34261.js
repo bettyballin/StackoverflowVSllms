@@ -1,0 +1,1 @@
+function restrictSpecialChars(event) {\n  const text = event.target.value;\n  const cleanText = text.replace(/[^a-zA-Z0-9]/g, '');\n  event.target.value = cleanText;\n}\n\n// Example usage:\nconst inputField = document.getElementById('myInput');\ninputField.addEventListener('input', restrictSpecialChars);

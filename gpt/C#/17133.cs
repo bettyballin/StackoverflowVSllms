@@ -1,1 +1,0 @@
-int? test = null;\ntry\n{\n    test = (int?) Int32.Parse("7");\n}\ncatch {}\n\nif (test == null)\n    Console.WriteLine("test is null!");\nelse\n    Console.WriteLine("test = {0}", test);

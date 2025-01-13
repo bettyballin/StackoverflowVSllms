@@ -1,1 +1,0 @@
-.reload /f ntdll.dll

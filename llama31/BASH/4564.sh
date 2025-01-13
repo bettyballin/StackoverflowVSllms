@@ -1,0 +1,1 @@
+# Install pip using the built-in Python package manager, easy_install\neasy_install pip\n\n# Install a Python module using pip\npip install module_name

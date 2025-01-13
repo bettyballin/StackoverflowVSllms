@@ -1,0 +1,1 @@
+dynamic hello = new DynamicWrapper(new DynamicObject());\nAssert.AreEqual("World", hello.World());

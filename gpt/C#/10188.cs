@@ -1,1 +1,0 @@
-// Global.asax.cs\nprotected void Application_BeginRequest(Object sender, EventArgs e)\n{\n    var cultureInfo = new System.Globalization.CultureInfo("en-US");\n    System.Threading.Thread.CurrentThread.CurrentCulture = cultureInfo;\n    System.Threading.Thread.CurrentThread.CurrentUICulture = cultureInfo;\n}

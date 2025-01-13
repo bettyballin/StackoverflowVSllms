@@ -1,0 +1,1 @@
+destination = Vector2(*event.pos) – Vector2(*sprite.get_size())/2.

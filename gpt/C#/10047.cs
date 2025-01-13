@@ -1,1 +1,0 @@
-string result = someString ?? "default value";

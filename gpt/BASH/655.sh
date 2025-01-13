@@ -1,1 +1,0 @@
-geli attach /dev/ada0

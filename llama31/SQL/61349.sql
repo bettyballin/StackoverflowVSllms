@@ -1,0 +1,1 @@
+SELECT UserId, Name, to_timestamp(dt, 'YYYY-MM-DD"T"HH24:MI:SS.FF3') dt\nFROM \n  XMLTable('for $i in /badges/row return $i'\n    passing XMLTYPE(bfilename('D', 'tmp.xml'), nls_charset_id('UTF8'))\n    columns \n      UserId NUMBER path '@UserId',\n      Name VARCHAR2(50) path '@Name',\n      dt VARCHAR2(25) path '@Date');

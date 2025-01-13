@@ -1,0 +1,1 @@
+$stmt->bind_param($types, ...$bindValues);\n// becomes\ncall_user_func_array([$stmt, 'bind_param'], array_merge([$types], $bindValues));

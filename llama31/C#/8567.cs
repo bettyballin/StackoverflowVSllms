@@ -1,0 +1,1 @@
+[PrincipalPermission(SecurityAction.Demand, Role = "AuthorizedClient")]\npublic void MyMethod(MyRequest request)\n{\n    // Method implementation\n}

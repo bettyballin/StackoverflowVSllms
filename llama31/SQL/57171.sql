@@ -1,0 +1,1 @@
+RAISERROR ('This is a debug message', 0, 1) WITH LOG

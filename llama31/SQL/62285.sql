@@ -1,0 +1,1 @@
+INSERT INTO item (link, title, notes) VALUES\n  (1, 'Item 1', 'Note 1'),\n  (2, 'Item 2', 'Note 2'),\n  (3, 'Item 3', 'Note 3');

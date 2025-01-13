@@ -1,0 +1,1 @@
+SELECT COUNT(*) \nFROM your_table \nWHERE your_column < (SELECT your_column \n                     FROM your_table \n                     WHERE unique_identifier = X)

@@ -1,0 +1,1 @@
+$path = array('docs', '_c', 'folder', '_c', 'folder', 1);\n$current = &$array;\nforeach ($path as $key) {\n    $current = &$current[$key];\n}\narray_push($current, $newfile);

@@ -1,1 +1,0 @@
-<?php\n// PHP Tag File Example\nclass MyClass {\n    public function myFunction() {\n        // Function implementation\n    }\n}\n?>

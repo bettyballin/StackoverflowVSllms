@@ -1,0 +1,1 @@
+Name = 'w\xc3\xb6rner'.decode('utf-8', errors='replace')

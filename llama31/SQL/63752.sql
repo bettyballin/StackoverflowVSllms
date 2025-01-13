@@ -1,0 +1,1 @@
+-- Holds Employee Entity\n"Employees (EmployeeId, FirstName, LastName, DepartmentId, .., ..)"\n\n-- Holds the Employee Revisions in a separate table with a similar structure\n"EmployeeRevisions (EmployeeId, RevisionId, DateModified, FieldName, OldValue, NewValue)"

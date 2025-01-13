@@ -1,0 +1,1 @@
+var authentication = (FormsAuthenticationService)_mocks.PartialMock(\n  typeof(FormsAuthenticationService));\nExpect.Call(() => authentication.SetAuthCookie(null, null)).IgnoreArguments();

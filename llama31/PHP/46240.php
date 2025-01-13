@@ -1,0 +1,1 @@
+$conn = mysql_connect("your_zymic_mysql_host", "paulasplace_sudo", "mypassword");

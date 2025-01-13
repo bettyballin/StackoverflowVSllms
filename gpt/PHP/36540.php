@@ -1,1 +1,0 @@
-// Example usage\n$userId = 1; // Get the user ID from session or authentication system\n$inventory = new Inventory($userId);\n\n// Example of using an item from the inventory\n$itemId = 3; // ID of the item to use\n$inventory->useItem($itemId);

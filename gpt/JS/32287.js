@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    var text = $('a.Tag.Resource').text();\n    console.log(text); // This will output: test\n});

@@ -1,0 +1,1 @@
+# Download and install Opera Mobile Emulator\nwget http://www.opera.com/developer/tools/mobile/emulator/

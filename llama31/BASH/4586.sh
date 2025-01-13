@@ -1,0 +1,1 @@
+sudo htpasswd -c /etc/apache2/svn.passwd username

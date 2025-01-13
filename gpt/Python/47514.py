@@ -1,1 +1,0 @@
-from django.core import signing\n   from django.conf import settings\n   from django.utils.http import urlsafe_base64_encode\n   from django.utils.encoding import force_bytes\n\n   def generate_confirmation_token(user):\n       return signing.dumps({'user_id': user.id}, salt=settings.SECRET_KEY)

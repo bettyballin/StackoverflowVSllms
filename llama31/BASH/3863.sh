@@ -1,0 +1,1 @@
+pgloader mysql://user:password@host:port/dbname postgresql://user:password@host:port/dbname

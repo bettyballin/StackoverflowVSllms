@@ -1,1 +1,0 @@
-<?php print $user_picture; ?>\n\n<div class="profile">\n  <?php if ($user_email): ?>\n    <div class="profile-email">\n      <label><?php print t('Email'); ?>:</label>\n      <div class="profile-email-value"><?php print check_plain($user_email); ?></div>\n    </div>\n  <?php endif; ?>\n  \n  <?php print $profile; ?>\n</div>

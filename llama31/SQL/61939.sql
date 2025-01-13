@@ -1,0 +1,1 @@
+DECLARE @image VARBINARY(MAX)\nDECLARE @filePath NVARCHAR(255)\n\nSELECT @image = image_column FROM your_table WHERE id = 1\nSET @filePath = 'C:\image.jpg'\n\nEXEC xp_cmdshell 'bcp "SELECT image_column FROM your_table WHERE id = 1" queryout "C:\image.jpg" -T -c -S your_server_name'

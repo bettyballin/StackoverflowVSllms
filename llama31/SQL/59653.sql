@@ -1,0 +1,1 @@
+SELECT * FROM records WHERE start_date <= CURRENT_DATE AND end_date >= CURRENT_DATE;

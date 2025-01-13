@@ -1,0 +1,1 @@
+class Logger {\n    private static $instance;\n\n    public static function getInstance() {\n        if (!self::$instance) {\n            self::$instance = Log::singleton($handler, $name, $ident, $conf, $maxLevel);\n        }\n        return self::$instance;\n    }\n}

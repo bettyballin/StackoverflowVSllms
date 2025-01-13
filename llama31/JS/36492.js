@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  var screenWidth = $(window).width();\n  var screenHeight = $(window).height();\n  var divWidth = $('#myDiv').width();\n  var divHeight = $('#myDiv').height();\n  \n  $('#myDiv').css({\n    'position': 'absolute',\n    'left': (screenWidth - divWidth) / 2,\n    'top': (screenHeight - divHeight) / 2\n  });\n});

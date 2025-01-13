@@ -1,0 +1,1 @@
+aws ec2 describe-instances --instance-ids i-xxxxxxx --query 'Reservations[0].Instances[0].State.Name' --output text

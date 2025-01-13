@@ -1,0 +1,1 @@
+sudo apt-get install lftp lftp-gtk

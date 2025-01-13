@@ -1,0 +1,1 @@
+$dom = new DOMDocument();\n$dom->loadHTML($method);\n$xpath = new DOMXPath($dom);\nforeach ($xpath->query("//comment()") as $comment) {\n    $comment->parentNode->removeChild($comment);\n}\n$methodfinal = $dom->saveHTML();\necho $methodfinal;

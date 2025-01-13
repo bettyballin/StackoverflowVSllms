@@ -1,1 +1,0 @@
-protected void Page_Init(object sender, EventArgs e)\n{\n    litCSS.Text = "<link href='css/gs.aspx?id=allcss' rel='stylesheet' type='text/css' />";\n    litJS.Text = "<script src='js/gs.aspx?id=alljs' type='text/javascript'></script>";\n}

@@ -1,1 +1,0 @@
-class Customer < ApplicationRecord\n     has_many :notes, as: :notable\n     has_many :jobs\n   end\n\n   class Job < ApplicationRecord\n     belongs_to :customer\n     has_many :notes, as: :notable\n   end

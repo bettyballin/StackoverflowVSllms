@@ -1,1 +1,0 @@
-#!/bin/bash\n# Decrypt and display the password file\ngpg --decrypt /path/to/passwords.txt.gpg

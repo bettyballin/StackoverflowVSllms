@@ -1,0 +1,1 @@
+-- DBMonster example\nCREATE TABLE companies (\n  id INT PRIMARY KEY,\n  name VARCHAR(50),\n  address VARCHAR(100)\n);\n\nINSERT INTO companies (id, name, address)\nVALUES\n  (1, 'Acme Inc.', '123 Main St'),\n  (2, 'Widgets Inc.', '456 Elm St'),\n  ...;  // generates 150 company records

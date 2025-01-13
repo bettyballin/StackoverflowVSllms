@@ -1,0 +1,1 @@
+UPDATE DB2.TableB\nSET Amount = Amount + (SELECT People FROM DB1.TableA WHERE DB1.TableA.UserId = DB2.TableB.UserId)\nFROM DB2.TableB\nINNER JOIN DB1.TableA ON DB1.TableA.UserId = DB2.TableB.UserId;

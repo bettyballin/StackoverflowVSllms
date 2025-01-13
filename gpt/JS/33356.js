@@ -1,1 +1,0 @@
-var xmlString = `\n<root>\n    <yourElement>Value</yourElement>\n</root>`;\nvar parser = new DOMParser();\nvar xmlDoc = parser.parseFromString(xmlString, "text/xml");\n\n// Example of parsing XML\nvar elements = xmlDoc.getElementsByTagName("yourElement");\nfor (var i = 0; i < elements.length; i++) {\n    console.log(elements[i].textContent);\n}

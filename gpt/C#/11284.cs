@@ -1,1 +1,0 @@
-Console.WriteLine("Data being inserted: " + yourData);

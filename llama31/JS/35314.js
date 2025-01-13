@@ -1,0 +1,1 @@
+const csp = {\n  'default-src': ['self'],\n  'script-src': ['self', 'https://cdn.example.com'],\n};

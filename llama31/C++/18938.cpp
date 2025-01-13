@@ -1,0 +1,1 @@
+#include <Windows.h>\n\nbool MoveFile(const wchar_t* src, const wchar_t* dest) {\n  return MoveFileEx(src, dest, MOVEFILE_REPLACE_EXISTING) == TRUE;\n}

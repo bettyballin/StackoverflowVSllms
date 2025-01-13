@@ -1,0 +1,1 @@
+# Make changes to proj1\ncd proj1\ngit commit -am "Changes to proj1"\n\n# Update the master repository\ncd ..\ngit subtree pull --prefix=proj1 proj1 master\ngit commit -am "Update proj1"

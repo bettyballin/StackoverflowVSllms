@@ -1,0 +1,1 @@
+cl /MT /MD your_app.cpp

@@ -1,1 +1,0 @@
-g++ -v main.o -o mai

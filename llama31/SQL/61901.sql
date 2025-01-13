@@ -1,0 +1,1 @@
+CREATE TABLE products (\n  id INT PRIMARY KEY,\n  code CHAR(2) NOT NULL CHECK (code IN ('FB', 'AB', 'CD'))\n);

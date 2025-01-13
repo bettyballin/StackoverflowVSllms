@@ -1,1 +1,0 @@
-using System;\nusing System.Linq;\nusing System.Xml.Linq;\n\nclass Program\n{\n    static void Main()\n    {\n        string xml = @"<root><element>value</element></root>";\n        XDocument doc = XDocument.Parse(xml);\n\n        var elementValue = doc.Descendants("element").First().Value;\n        Console.WriteLine(elementValue); // Output: value\n    }\n}

@@ -1,0 +1,1 @@
+import os\n\nfor root, dirs, files in os.walk('.'):\n    for file in files:\n        if file.endswith('.tex'):\n            os.rename(os.path.join(root, file), os.path.join(root, file[:-4]))

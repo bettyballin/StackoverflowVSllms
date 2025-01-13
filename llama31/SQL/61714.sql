@@ -1,0 +1,1 @@
+UPDATE your_table\nSET date_column = SYSTIMESTAMP\nWHERE date_column IS NULL;

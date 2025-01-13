@@ -1,0 +1,1 @@
+$.ajax({\n    // ...\n    contentType: "application/json; charset=utf-8",\n    data: JSON.stringify({ number: "01502", numberTypeId: 2, companyId: 531 }),\n    // ...\n});

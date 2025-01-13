@@ -1,1 +1,0 @@
-$source = "C:\path\to\new\files\*"\n$destination = "C:\path\to\website\"\nCopy-Item -Path $source -Destination $destination -Recurse -Force

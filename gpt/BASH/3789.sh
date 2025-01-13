@@ -1,1 +1,0 @@
-sqlplus -S username/password@database <<EOF\n    SET MARKUP CSV ON\n    SET COLSEP ,\n    SET PAGESIZE 0\n    SET FEEDBACK OFF\n    SET HEADING OFF\n    SPOOL output.csv\n    SELECT * FROM your_table;\n    SPOOL OFF\n    EXIT\n    EOF

@@ -1,1 +1,0 @@
-javascript-obfuscator input.js --output output-obfuscated.js

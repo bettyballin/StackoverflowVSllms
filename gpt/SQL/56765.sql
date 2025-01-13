@@ -1,1 +1,0 @@
-SELECT * \nFROM   mytable \nSAMPLE (1) \nWHERE  rownum <= 1000

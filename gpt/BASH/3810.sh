@@ -1,1 +1,0 @@
-kill 19508\n   sudo kill 19508

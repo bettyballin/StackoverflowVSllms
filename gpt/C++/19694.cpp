@@ -1,1 +1,0 @@
-void do_something() noexcept; // Modern C++ way to indicate no exceptions

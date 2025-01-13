@@ -1,0 +1,1 @@
+SELECT * FROM parents p\nINNER JOIN children c ON p.id = c.pid\nWHERE p.x = 2;

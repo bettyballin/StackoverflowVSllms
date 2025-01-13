@@ -1,0 +1,1 @@
+awk '{gsub(/["\']|<[^>]*>/, "")}1' yourfile.csv > cleaned_file.csv

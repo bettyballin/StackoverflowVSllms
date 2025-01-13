@@ -1,1 +1,0 @@
-// Example of implementing a hotfix\n    public void applyHotfix() {\n        // Fix critical issue immediately\n    }

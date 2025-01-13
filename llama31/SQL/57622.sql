@@ -1,0 +1,1 @@
+SELECT *\nFROM YourTable\nWHERE YourDateColumn IS NOT NULL AND ISDATE(YourDateColumn) = 0

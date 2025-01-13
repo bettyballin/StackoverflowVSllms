@@ -1,0 +1,1 @@
+Zend_Controller_Action_HelperBroker::addHelper(\n    new ZendX_JQuery_Controller_Action_Helper_AutoComplete()\n);

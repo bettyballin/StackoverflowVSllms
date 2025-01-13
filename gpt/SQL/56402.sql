@@ -1,1 +1,0 @@
-INSERT INTO YourTableName (Column1, Column2, Column3) VALUES (5, 'B', 2); -- This will succeed

@@ -1,0 +1,1 @@
+chown apache:apache /usr/local/bin/restart_portmap\nchmod 755 /usr/local/bin/restart_portmap

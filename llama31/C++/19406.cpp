@@ -1,0 +1,1 @@
+void Camera::setModelViewMatrix(void) {\n    // ...\n\n    glMatrixMode(GL_MODELVIEW);\n    glLoadMatrixf(m);\n\n    getCameraValuesFromMatrix(m);\n}

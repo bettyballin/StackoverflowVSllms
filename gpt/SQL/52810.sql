@@ -1,1 +1,0 @@
-RESTORE CONTROLFILE FROM '/path/to/backup/controlfile.ctl';

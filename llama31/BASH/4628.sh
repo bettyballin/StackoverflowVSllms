@@ -1,0 +1,1 @@
+# Edit Apache configuration file\nsudo nano /etc/apache2/apache2.conf\n\n# Disable directory browsing\nOptions -Indexes\n\n# Enable SSL/TLS encryption\nSSLEngine on\n\n# Restart Apache service\nsudo service apache2 restart

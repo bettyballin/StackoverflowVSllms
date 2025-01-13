@@ -1,0 +1,1 @@
+using System;\nusing System.Runtime.InteropServices;\n\nclass Program\n{\n    [DllImport("kernel32.dll")]\n    public static extern bool Beep(int frequency, int duration);\n\n    static void Main(string[] args)\n    {\n        Beep(0, 0);\n    }\n}

@@ -1,1 +1,0 @@
-xcodebuild -workspace YourApp.xcworkspace -scheme YourAppScheme -sdk iphoneos -configuration Release archive -archivePath ./build/YourApp.xcarchive\n    xcodebuild -exportArchive -archivePath ./build/YourApp.xcarchive -exportOptionsPlist exportOptions.plist -exportPath ./build/YourApp.ipa

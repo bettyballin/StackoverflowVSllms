@@ -1,0 +1,1 @@
+// In your test code\n[TestFixture]\npublic class MyTests\n{\n    [Test]\n    public void TestMyMethod()\n    {\n        // create an instance of the class containing the internal method\n        var myClass = new MyClass();\n        myClass.MyMethod();\n        // assertions...\n    }\n}

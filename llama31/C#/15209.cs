@@ -1,0 +1,1 @@
+var pattern = new Regex(@"<([a-zA-Z]+)[^>]*class=""findme""[^>]*>.*?<\/\1>", \n    RegexOptions.Singleline | RegexOptions.IgnoreCase);

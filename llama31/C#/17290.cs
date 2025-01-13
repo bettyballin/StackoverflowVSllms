@@ -1,0 +1,1 @@
+[HttpGet("old-page")]\npublic IActionResult OldPage()\n{\n    return Redirect("new-page", true);\n}

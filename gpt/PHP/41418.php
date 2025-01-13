@@ -1,1 +1,0 @@
-// Example of logging and closing connections in PHP\n   $mysqli = new mysqli("host", "user", "password", "database");\n\n   if ($mysqli->connect_error) {\n       error_log("Connection failed: " . $mysqli->connect_error);\n   } else {\n       // Perform database operations\n       $mysqli->close();\n   }

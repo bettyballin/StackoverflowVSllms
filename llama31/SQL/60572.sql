@@ -1,0 +1,1 @@
+SELECT * FROM article_versions \nWHERE article_id = :article_id AND version = (SELECT current_version FROM articles WHERE id = :article_id);

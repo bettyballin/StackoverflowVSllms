@@ -1,0 +1,1 @@
+Dim ba As New BitArray(New Boolean() {True, False, True})\n\n' Check if any true value exists\nDim hasTrue As Boolean = ba.Cast(Of Boolean)().Any(Function(b) b)\n\n' Check if any false value exists\nDim hasFalse As Boolean = ba.Cast(Of Boolean)().Any(Function(b) Not b)

@@ -1,1 +1,0 @@
-USE [master]\nGO\nCREATE LOGIN [DOMAIN\ServiceAccount] FROM WINDOWS;\nGO\nUSE [YourDatabase]\nGO\nCREATE USER [ServiceAccount] FOR LOGIN [DOMAIN\ServiceAccount];\nALTER ROLE [db_owner] ADD MEMBER [ServiceAccount];\nGO

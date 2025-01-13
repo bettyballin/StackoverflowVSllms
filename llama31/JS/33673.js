@@ -1,0 +1,1 @@
+const kmlData = 'your KML data as a string';\nconst blob = new Blob([kmlData], { type: 'application/vnd.google-earth.kml+xml' });\nconst url = URL.createObjectURL(blob);\nconst a = document.createElement('a');\na.href = url;\na.download = 'data.kml';\na.click();

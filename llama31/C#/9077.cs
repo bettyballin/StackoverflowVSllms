@@ -1,0 +1,1 @@
+string originalText = ((CustomLabel)myLabel).OriginalText;

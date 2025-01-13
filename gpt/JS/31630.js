@@ -1,1 +1,0 @@
-// Set a secure cookie with HttpOnly and Secure attributes\ndocument.cookie = "authToken=your_token_here; path=/; secure; HttpOnly; SameSite=Strict; max-age=3600";

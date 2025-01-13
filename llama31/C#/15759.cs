@@ -1,0 +1,1 @@
+[HttpPost]\npublic ActionResult Proxy(string data)\n{\n    // Forward the request to the desired domain\n    var webClient = new WebClient();\n    webClient.Headers["Content-Type"] = "application/x-www-form-urlencoded";\n    var response = webClient.UploadString("http://www.mysite.com/Home/SaveData", data);\n    return Content(response);\n}

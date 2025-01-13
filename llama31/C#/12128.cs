@@ -1,0 +1,1 @@
+public class MyModule : IModule\n{\n    public void Initialize()\n    {\n        // Subscribe to the event\n        ShellApplication.LayoutChanged += (sender, args) =>\n        {\n            // Make changes to the layout\n        };\n    }\n}

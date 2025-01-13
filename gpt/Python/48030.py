@@ -1,1 +1,0 @@
-input_string = "9,admin@example.com,8"\noutput_array = input_string.split(',')\nprint(output_array)\n# Output: ['9', 'admin@example.com', '8']

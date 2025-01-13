@@ -1,0 +1,1 @@
+Public Class KeyPredicate\n    Private key As String\n\n    Public Sub New(ByVal key As String)\n        Me.key = key\n    End Sub\n\n    Public Function Match(ByVal instance As MyClass) As Boolean\n        Return instance.Key = Me.key\n    End Function\nEnd Class

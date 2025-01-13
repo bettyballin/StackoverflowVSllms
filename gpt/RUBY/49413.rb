@@ -1,1 +1,0 @@
-def login_as(user)\n     @request.session[:user_id] = user ? user.id : nil\n   end

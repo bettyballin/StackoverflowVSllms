@@ -1,0 +1,1 @@
+SELECT \n    LastName + ', ' + FirstName AS 'FullName'\nFROM \n    customers\nGROUP BY \n    LastName + ', ' + FirstName

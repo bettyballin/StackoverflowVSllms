@@ -1,0 +1,1 @@
+SELECT A,B,C, 1 as query_order\nFROM table \nWHERE field LIKE 'query%'\n\nUNION ALL\n\nSELECT A,B,C, 2 as query_order\nFROM table \nWHERE field LIKE '%query'\n\nUNION ALL\n\nSELECT A,B,C, 3 as query_order\nFROM table \nWHERE field LIKE '%query%'\n\nORDER BY query_order, B ASC\nLIMIT 5

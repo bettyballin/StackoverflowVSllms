@@ -1,0 +1,1 @@
+SELECT Product_Id, category, priority, atribute1, atribute2\nFROM YourTable\nORDER BY category, \n         NZ(priority, 1), \n         priority;

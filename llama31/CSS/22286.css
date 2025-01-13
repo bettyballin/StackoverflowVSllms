@@ -1,0 +1,1 @@
+ol {\n  list-style-position: inside;\n}\n\nli::marker {\n  width: 20px;\n  text-align: right;\n  margin-right: 2px;\n}

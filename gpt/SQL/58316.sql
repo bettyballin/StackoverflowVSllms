@@ -1,1 +1,0 @@
-SELECT\n    company_id,\n    string_agg(employee, ', ') AS employees\nFROM\n    your_table\nGROUP BY\n    company_id;

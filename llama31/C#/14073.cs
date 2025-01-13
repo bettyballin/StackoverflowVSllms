@@ -1,0 +1,1 @@
+byte[] largeArray = new byte[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };\nbyte[] subArray = new byte[] { 4, 5, 6 };\n\nbool isSubset = IsSubset(largeArray, subArray);\n\nConsole.WriteLine(isSubset);  // Outputs: True

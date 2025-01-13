@@ -1,0 +1,1 @@
+[helpstring("foo"), entry("foo")] void __stdcall foo( [out,retval] BSTR* msg );

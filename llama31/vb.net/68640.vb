@@ -1,0 +1,1 @@
+Dim x As Integer = IIF(SomeBoolean, FunctionThatThrowsException(), SafeFunction())

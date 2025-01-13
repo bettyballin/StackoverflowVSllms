@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  var $box = $('.box');\n  var $listItems = $box.find('li');\n  var maxHeight = 0;\n\n  $listItems.each(function() {\n    maxHeight += $(this).outerHeight();\n  });\n\n  $box.find('a').click(function(e) {\n    e.preventDefault();\n    $box.animate({ height: maxHeight }, 500);\n  });\n});

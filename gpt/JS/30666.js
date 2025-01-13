@@ -1,1 +1,0 @@
-function selectNthPreviousSibling(n) {\n    return $('ul li').eq(-n);\n}\n\n// Example usage:\nvar nthPrevious = selectNthPreviousSibling(2); // Selects the second to last item\nconsole.log(nthPrevious.text());

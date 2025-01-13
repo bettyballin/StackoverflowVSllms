@@ -1,0 +1,1 @@
+var service = new EmailVerificationService("YOUR_API_KEY");\nvar isValid = await service.VerifyEmailAsync("example@example.com");\nif (isValid)\n{\n    Console.WriteLine("Email address is valid");\n}\nelse\n{\n    Console.WriteLine("Email address is not valid");\n}

@@ -1,0 +1,1 @@
+[ComImport, GuidAttribute("00012345-0000-0000-0000-000000000011")]\n[CoClass(typeof(DummyClass))]\npublic interface Dummy\n{\n    void Foo(ref int x);\n}\n\n[ComImport, ClassInterface(ClassInterfaceType.None)]\n[GuidAttribute("00012345-0000-0000-0000-000000000012")]\npublic class DummyClass\n{\n}

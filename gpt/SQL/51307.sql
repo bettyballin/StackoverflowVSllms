@@ -1,1 +1,0 @@
-CREATE DATABASE book_tracking;\n   USE book_tracking;\n\n   CREATE TABLE books (\n       id INT AUTO_INCREMENT PRIMARY KEY,\n       title VARCHAR(255) NOT NULL,\n       author VARCHAR(255),\n       current_stage VARCHAR(100),\n       estimated_completion_date DATE,\n       last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\n   );

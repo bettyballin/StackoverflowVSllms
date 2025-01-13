@@ -1,0 +1,1 @@
+m -gC libmylibrary.so | grep my_functio

@@ -1,1 +1,0 @@
-SELECT indexname, indexdef\nFROM pg_indexes\nWHERE tablename = 'your_table_name';

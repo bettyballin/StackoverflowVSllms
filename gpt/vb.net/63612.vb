@@ -1,1 +1,0 @@
-' In VB.NET Project\nImports CoreNamespace\n\nModule VBModule\n    Sub Main()\n        Dim coreInstance As New CoreClass()\n        Console.WriteLine(coreInstance.CoreMethod())\n    End Sub\nEnd Module

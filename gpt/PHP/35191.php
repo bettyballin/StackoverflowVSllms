@@ -1,1 +1,0 @@
-<?php\n// functions.php\n\nfunction greet($name) {\n    return "Hello, " . htmlspecialchars($name) . "!";\n}\n\nfunction add($a, $b) {\n    return $a + $b;\n}\n?>

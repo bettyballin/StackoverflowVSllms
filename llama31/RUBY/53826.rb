@@ -1,0 +1,1 @@
+my_model = MyModel.find(1)\n# ... do some processing ...\nmy_model.touch

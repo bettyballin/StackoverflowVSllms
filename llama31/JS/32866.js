@@ -1,0 +1,1 @@
+$(document).ready(function(){\n  // ...\n  \n  $('#radiodj a').click(function(event) {\n    event.stopPropagation();\n  });\n  \n  // ...\n});

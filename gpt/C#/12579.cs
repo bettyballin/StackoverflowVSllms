@@ -1,1 +1,0 @@
-public class FakeDateTimeProvider : IDateTimeProvider\n{\n    public DateTime Now { get; set; }\n}

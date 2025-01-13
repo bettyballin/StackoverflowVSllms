@@ -1,0 +1,1 @@
+public class TestTimer : ITimer\n{\n    public event Action Tick;\n\n    public void Start(TimeSpan interval)\n    {\n        // Do nothing, or setup a test-specific tick event\n    }\n\n    public void Stop()\n    {\n        // Do nothing\n    }\n\n    public void TickNow()\n    {\n        Tick?.Invoke();\n    }\n}

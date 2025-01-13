@@ -1,1 +1,0 @@
-cp -r /mnt/ipod /path/to/backup/directory/

@@ -1,1 +1,0 @@
-translatedArray[i]=mallocStuff(0,0);\n    printf("\n   block size (for a): %p-%p : %i",\n        translatedArray[i], translatedArray[i-1], translatedArray[i]-translatedArray[i-1]);

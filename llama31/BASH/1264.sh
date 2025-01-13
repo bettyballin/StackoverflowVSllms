@@ -1,0 +1,1 @@
+svn import /path/to/merged/working/copy http://new/repo/url --message "Initial import"

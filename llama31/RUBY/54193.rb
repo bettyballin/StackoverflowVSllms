@@ -1,0 +1,1 @@
+class Thing < ActiveRecord::Base\n  after_update :update_total\n\n  private\n\n  def update_total\n    difference = self.amount - self.amount_was\n    Total.update_all("sum = sum + #{difference}")\n  end\nend

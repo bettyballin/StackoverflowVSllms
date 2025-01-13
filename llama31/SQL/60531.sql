@@ -1,0 +1,1 @@
+ALTER TABLE your_table\nADD CONSTRAINT chk_name UNIQUE (name)\nCHECK (NOT EXISTS (\n  SELECT 1\n  FROM your_table\n  WHERE name = NEW.name AND deleted = 0 AND id != NEW.id\n));

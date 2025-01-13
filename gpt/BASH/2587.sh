@@ -1,1 +1,0 @@
-# Sample commands for VirtualBox setup\nbrew install --cask virtualbox\n# Download VM from Microsoft and import it\nVBoxManage import "path_to_downloaded_vm.ova"\n# Start the VM\nVBoxManage startvm "VM_NAME"

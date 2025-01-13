@@ -1,0 +1,1 @@
+SELECT * FROM (\n  SELECT *, DENSE_RANK() OVER (ORDER BY age DESC) AS rank\n  FROM people\n) AS subquery\nWHERE rank = 1;

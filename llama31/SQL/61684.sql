@@ -1,0 +1,1 @@
+WITH foo(parent_id, child_id) AS (\n    SELECT parent_id, child_id\n    FROM #bar\n    WHERE parent_id IN (1, 3)\n    UNION ALL\n    SELECT #bar.parent_id, #bar.child_id\n    FROM #bar\n    JOIN foo ON #bar.parent_id = foo.child_id\n)\nSELECT * FROM foo

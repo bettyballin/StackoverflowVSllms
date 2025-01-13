@@ -1,1 +1,0 @@
-mysql -u yourusername -p -h 127.0.0.1

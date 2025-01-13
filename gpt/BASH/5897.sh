@@ -1,1 +1,0 @@
-#!/bin/bash\n# Simple script to list all files in a directory\n\nDIRECTORY="/path/to/directory"\n\nfor FILE in "$DIRECTORY"/*\ndo\n  echo "$FILE"\ndone

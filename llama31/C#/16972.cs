@@ -1,0 +1,1 @@
+try\n{\n    // Use the COM objects\n}\nfinally\n{\n    // Release the COM objects\n    Marshal.ReleaseComObject(sheet);\n    sheet = null;\n\n    Marshal.ReleaseComObject(workbook);\n    workbook = null;\n\n    Marshal.ReleaseComObject(excelApp);\n    excelApp = null;\n}

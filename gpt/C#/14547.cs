@@ -1,1 +1,0 @@
-using System.Globalization;\n\npublic class LocalizedHtmlLoader\n{\n    public static string LoadLocalizedHtml()\n    {\n        string locale = CultureInfo.CurrentCulture.TwoLetterISOLanguageName;\n        string resourceName = $"YourNamespace.Resources.{locale}.welcome.html";\n        return HtmlLoader.LoadHtmlResource(resourceName);\n    }\n}

@@ -1,1 +1,0 @@
-from lxml import etree\n\n# Load XML file\ntree = etree.parse('/path/to/xml/file.xml')\n\n# Run XPath query\nresults = tree.xpath('//course[title="Introduction to XML"]')\n\n# Process results\nfor result in results:\n    print(etree.tostring(result, pretty_print=True).decode('utf-8'))

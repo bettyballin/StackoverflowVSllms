@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('#myTextArea').on('focus', function() {\n        nicEditors.allTextAreas();\n    });\n});

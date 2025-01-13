@@ -1,0 +1,1 @@
+let countdown = 30;\n\nfunction startCountdown() {\n  const timer = setInterval(() => {\n    console.log(countdown);\n    countdown -= 1;\n\n    if (countdown === 0) {\n      clearInterval(timer);\n    }\n  }, 1000); // 1000ms = 1s\n}\n\nstartCountdown();

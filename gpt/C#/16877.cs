@@ -1,1 +1,0 @@
-MyTypedDataSet.UsersDataTable usersTable = new MyTypedDataSet.UsersDataTable();\n     SqlDataAdapter adapter = new SqlDataAdapter("SELECT * FROM Users", connectionString);\n     adapter.Fill(usersTable);

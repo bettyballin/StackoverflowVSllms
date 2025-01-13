@@ -1,0 +1,1 @@
+-rw-r--r-- 1 root root 0 Jun  1 14:50 /root/testfile\n-rw-r--r-- 1 root root 0 Jun  1 14:50 /usr/testfile

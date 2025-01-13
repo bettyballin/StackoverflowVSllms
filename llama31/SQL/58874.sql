@@ -1,0 +1,1 @@
+ALTER LOGIN sa WITH NAME = 'new_sa_name';

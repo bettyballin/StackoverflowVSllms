@@ -1,1 +1,0 @@
-pg_dump -Fc your_database_name > your_database_dump.dump\n   pg_restore -d your_new_database_name your_database_dump.dump

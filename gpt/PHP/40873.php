@@ -1,1 +1,0 @@
-function tidy($data) {\n    // Perform the tidying operation\n    return $tidied_data;\n}\n\n$data = tidy($data);

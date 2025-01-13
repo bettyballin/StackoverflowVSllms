@@ -1,1 +1,0 @@
-Dim firstvar As String = "Hello"\nDim secondvar As String = "World"\nDim thirdvar As String\n\nthirdvar = firstvar + secondvar\nConsole.WriteLine(thirdvar)  ' Output: HelloWorld

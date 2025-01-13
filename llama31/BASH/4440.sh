@@ -1,0 +1,1 @@
+git tag manufacturing/release-1.0\ngit tag production/release-1.0

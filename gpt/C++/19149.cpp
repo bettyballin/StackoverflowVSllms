@@ -1,1 +1,0 @@
-#include <iostream>\n\nextern "C" __declspec(dllexport) void TestExceptionHandling() {\n    try {\n        std::cout << "Hello world" << std::endl;\n        throw new int;\n    } catch (int* e) {\n        std::cout << "Caught exception" << std::endl;\n        delete e;\n    }\n    std::cout << "Done" << std::endl;\n}

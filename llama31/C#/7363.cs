@@ -1,0 +1,1 @@
+using System.Web.Hosting;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        HostingEnvironment.Shutdown();\n    }\n}

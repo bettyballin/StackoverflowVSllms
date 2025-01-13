@@ -1,0 +1,1 @@
+jQuery.get(contenturl, function(data) {\n    var css = jQuery(data).filter('style').html();\n    alert(css);\n});

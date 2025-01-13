@@ -1,0 +1,1 @@
+XmlElement elem = xmldoc.CreateElement("p");\nelem.InnerText = text; // InnerText automatically encodes certain characters.\nxmldoc.AppendChild(elem);

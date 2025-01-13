@@ -1,0 +1,1 @@
+while (true)\n{\n    Console.ReadKey(true);\n}

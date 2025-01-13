@@ -1,0 +1,1 @@
+-- PostgreSQL\nCREATE INDEX idx_salary_inflation ON employees ((salary * 1.1));\n\n-- Oracle\nCREATE INDEX idx_salary_inflation ON employees (salary * 1.1);\n\n-- Microsoft SQL Server\nCREATE INDEX idx_salary_inflation ON employees (salary * 1.1) INCLUDE (salary);

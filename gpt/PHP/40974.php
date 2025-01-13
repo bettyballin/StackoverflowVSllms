@@ -1,1 +1,0 @@
-<?php\n  require_once('include/dal.php');\n  require_once('include/bll.php');\n  \n  $myDB = new DAL();\n?>

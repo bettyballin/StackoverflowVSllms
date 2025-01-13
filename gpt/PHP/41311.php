@@ -1,1 +1,0 @@
-// Convert query to UTF-8\n$query = '+_area:' . mb_convert_encoding('skåne', 'UTF-8', 'ISO-8859-1');\n\n// Perform search\n$hits = $index->find($query);

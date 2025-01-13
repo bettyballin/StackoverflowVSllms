@@ -1,1 +1,0 @@
-SELECT * FROM your_table WHERE id > @last_id ORDER BY id LIMIT 10;

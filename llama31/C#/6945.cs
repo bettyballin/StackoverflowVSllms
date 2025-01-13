@@ -1,0 +1,1 @@
+bool IsFileInUse(string filePath)\n{\n    try\n    {\n        using (FileStream fileStream = File.Open(filePath, FileMode.Open, FileAccess.Write, FileShare.None))\n        {\n            fileStream.Close();\n        }\n    }\n    catch (IOException)\n    {\n        return true;\n    }\n\n    return false;\n}

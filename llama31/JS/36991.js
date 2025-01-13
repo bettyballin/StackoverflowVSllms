@@ -1,0 +1,1 @@
+// Add some debug logging to your AJAX script\n$.ajax({\n  // ... your existing code ...\n  error: function(xhr, status, error) {\n    console.log('AJAX error:', error);\n  },\n  success: function(data) {\n    console.log('AJAX success:', data);\n  }\n});

@@ -1,0 +1,1 @@
+logparser -i:IISW3C -o:CSV -q:query.sql

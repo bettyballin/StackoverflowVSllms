@@ -1,0 +1,1 @@
+setx PATH "%PATH%;C:\path\to\mysql\dlls"

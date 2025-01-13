@@ -1,0 +1,1 @@
+import os\n\nfor root, dirs, files in os.walk('PATH2/project'):\n    for file in files:\n        file_path = os.path.join(root, file)\n        with open(file_path, 'r') as f:\n            contents = f.read()\n        contents = contents.replace('Masi', 'Bond')\n        with open(file_path, 'w') as f:\n            f.write(contents)

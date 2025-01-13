@@ -1,0 +1,1 @@
+$forbidden_words = array('webmaster', 'admin', 'webadmin', 'sysadmin');\n$nickname = 'admin2';\n\nif (in_array(strtolower($nickname), $forbidden_words)) {\n    // Nickname is not allowed\n} else {\n    // Nickname is allowed\n}

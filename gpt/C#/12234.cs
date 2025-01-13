@@ -1,1 +1,0 @@
-var adults = people.Where(p => p.Age >= 18);

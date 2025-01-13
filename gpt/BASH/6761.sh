@@ -1,1 +1,0 @@
-# Example cron job for rsnapshot daily backups\n   0 2 * * * /usr/bin/rsnapshot daily

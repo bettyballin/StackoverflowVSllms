@@ -1,1 +1,0 @@
-// Example conditional CAPTCHA\n   function shouldShowCaptcha($username) {\n       $failedAttempts = getFailedAttempts($username);\n       return $failedAttempts > 3 || isSuspiciousLogin($username, generateDeviceFingerprint());\n   }

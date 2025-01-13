@@ -1,1 +1,0 @@
-stat /cygdrive/c/path/to/your/file.txt

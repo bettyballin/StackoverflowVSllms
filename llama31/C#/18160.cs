@@ -1,0 +1,1 @@
+public class Logger\n{\n    public static void LogStatus(string message)\n    {\n        Console.Write(message);\n    }\n\n    public static void LogSuccess(string message)\n    {\n        Console.WriteLine(message);\n    }\n}

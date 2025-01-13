@@ -1,1 +1,0 @@
-<?php\nsession_start(); // Ensure session is started\n\nif (!isset($_SESSION['site_lang'])) {\n    $_SESSION['page_refer'] = "http://".$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];\n    header("Location: lang_choose.php");\n    exit;\n} else {\n    $lang = $_SESSION['site_lang'];\n    require_once 'languages/'.$lang.'.php';\n}\n?>

@@ -1,1 +1,0 @@
-touch /path/to/shared/directory/newfile\n   mkdir /path/to/shared/directory/newdir\n   getfacl /path/to/shared/directory/newfile\n   getfacl /path/to/shared/directory/newdir

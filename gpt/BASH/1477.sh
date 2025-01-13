@@ -1,1 +1,0 @@
-cd codeplex-repo\n    svn update

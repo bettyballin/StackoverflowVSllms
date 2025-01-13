@@ -1,1 +1,0 @@
-[ServiceContract]\npublic interface ISalesService\n{\n    [OperationContract]\n    [WebGet(ResponseFormat = WebMessageFormat.Json, UriTemplate = "/sales/start={start}&end={end}")]\n    List<Sales> GetSalesByDate(string start, string end);\n}

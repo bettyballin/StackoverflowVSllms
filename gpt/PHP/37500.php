@@ -1,1 +1,0 @@
-// Directly accessing the 'pwd' input from POST data without validation or sanitization\n$pwd = $_POST['pwd'];\n\n// This is risky as it may contain malicious input\necho "Password: " . $pwd;

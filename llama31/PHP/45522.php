@@ -1,0 +1,1 @@
+class URIResolve extends URISplit {\n    function __construct($uri) {\n        parent::__construct($uri); // Call URISplit's constructor\n        // some code\n    }\n}\n\nclass PageControl extends URIResolve {\n    function __construct($uri) {\n        parent::__construct($uri); // Call URIResolve's constructor\n        // some more code\n    }\n}

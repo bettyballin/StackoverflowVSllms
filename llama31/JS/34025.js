@@ -1,0 +1,1 @@
+function clicked() {\n    var myDiv = $("#my-div");\n    $.post("someurl.php", someData, doSomething.bind(null, myDiv), "json");\n}\n\nfunction doSomething(curDiv, curData) {\n    // process curDiv and curData here\n}

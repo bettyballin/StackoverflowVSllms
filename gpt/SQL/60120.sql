@@ -1,1 +1,0 @@
-SELECT it.item_id, it.item_name\nFROM items it\nJOIN item_tags itags ON it.item_id = itags.item_id\nJOIN tags t ON t.tag_id = itags.tag_id\nWHERE t.tag_name IN ('tag1', 'tag2', 'tag3') -- Replace with your tag names\nGROUP BY it.item_id, it.item_name\nHAVING COUNT(DISTINCT t.tag_name) = 3; -- The number should match the number of tags in the WHERE clause

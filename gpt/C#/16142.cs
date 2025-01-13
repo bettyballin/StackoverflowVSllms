@@ -1,1 +1,0 @@
-public static class Utility\n{\n    public static void NonMemberFunction()\n    {\n        Console.WriteLine("This is a non-member function implemented as a static method.");\n    }\n}

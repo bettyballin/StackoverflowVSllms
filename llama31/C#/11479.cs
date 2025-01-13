@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    string script = "alert('Hello World!');";\n    ClientScript.RegisterStartupScript(this.GetType(), "MyScript", script, true);\n}

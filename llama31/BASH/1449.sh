@@ -1,0 +1,1 @@
+# Upload an artifact to the 'dev' repository\nmvn deploy:deploy-file -Dfile=my-artifact.jar -DrepositoryId=dev -Durl=http://nexus:8081/nexus/content/repositories/dev\n\n# Promote an artifact from 'dev' to 'QA'\ncurl -u admin:password -X POST "http://nexus:8081/nexus/service/local/repositories/qa/content/groups/my-artifact/1.0.0/my-artifact-1.0.0.jar"

@@ -1,0 +1,1 @@
+CREATE VIEW employee_data AS\nSELECT employee_id, name, department\nFROM employees\nWHERE department = 'Sales';

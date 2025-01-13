@@ -1,1 +1,0 @@
-function handleSqlError() {\n    // Custom error handling logic, e.g., logging the error, sending an email, etc.\n    error_log("Unable to connect to SQL server");\n    // Optionally, you can also terminate the script if needed\n    die("Unable to connect to SQL server");\n}\n\nmysql_pconnect("server", "tator_w", "password") or handleSqlError();

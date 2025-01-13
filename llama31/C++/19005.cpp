@@ -1,0 +1,1 @@
+#include <optional>\n#include <string>\n\nvoid foo(const std::optional<std::string>& input) {\n    if (input) {\n        std::cout << input->size() << std::endl;\n    } else {\n        std::cout << "null" << std::endl;\n    }\n}\n\nvoid bar() {\n    foo("stackoverflow");\n    foo(std::nullopt); // equivalent to NULL\n}

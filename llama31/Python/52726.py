@@ -1,0 +1,1 @@
+import os\nfrom django.core.wsgi import get_wsgi_application\n\nos.environ.setdefault("DJANGO_SETTINGS_MODULE", "myproject.settings")\n\napplication = get_wsgi_application()

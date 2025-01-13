@@ -1,1 +1,0 @@
-<?php\n   $client = new GearmanClient();\n   $client->addServer();\n\n   $data = json_encode(['image_id' => 12345]);\n   $client->doBackground('process_image', $data);\n\n   echo ' [x] Sent ', $data, "\n";\n   ?>

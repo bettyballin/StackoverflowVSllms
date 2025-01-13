@@ -1,1 +1,0 @@
-CREATE TABLE terrain (\n    id SERIAL PRIMARY KEY,\n    x INT NOT NULL,\n    y INT NOT NULL,\n    elevation INT,\n    terrain_type VARCHAR(50),\n    PRIMARY KEY (x, y)\n);\n\nCREATE INDEX idx_terrain_xy ON terrain (x, y);

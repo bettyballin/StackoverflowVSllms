@@ -1,1 +1,0 @@
-# Restart SQL Server service\nRestart-Service -Name "MSSQLSERVER" # Change to your instance name if needed

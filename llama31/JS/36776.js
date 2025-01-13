@@ -1,0 +1,1 @@
+var script = document.createElement('script');\n   script.src = 'https://your-server.com/endpoint?callback=myCallback&param1=value1&param2=value2';\n   document.body.appendChild(script);\n\n   function myCallback(data) {\n     console.log(data);\n   }

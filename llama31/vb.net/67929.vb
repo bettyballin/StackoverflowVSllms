@@ -1,0 +1,1 @@
+Imports System.Web\n\nDim input As String = "Hello, <b>World!</b>"\nDim encoded As String = HttpUtility.HtmlEncode(input)\n\nConsole.WriteLine(encoded) ' Outputs: "Hello, &lt;b&gt;World!&lt;/b&gt;"

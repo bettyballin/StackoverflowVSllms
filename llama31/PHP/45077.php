@@ -1,0 +1,1 @@
+<?php\n$subdomain = $_SERVER['HTTP_HOST'];\n$subdomain = str_replace('.website.example', '', $subdomain);\n\n// Authenticate the user and display their account area\n// ...\n?>

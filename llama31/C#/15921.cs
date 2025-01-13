@@ -1,0 +1,1 @@
+MyPc.Utils.DisplayController.SwitchOnDisplay();

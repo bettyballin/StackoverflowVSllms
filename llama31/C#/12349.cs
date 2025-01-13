@@ -1,0 +1,1 @@
+Guid userId = ...;\nstring userIdString = userId.ToString();\n// add userIdString to the HTTP header

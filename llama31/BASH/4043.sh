@@ -1,0 +1,1 @@
+#!/bin/sh\n\n# Check if the VPN is up\nif [ "$1" = "up" ]; then\n  # Disable DHCP client from updating resolv.conf\n  echo "nameserver 127.0.0.1" > /etc/resolv.conf\n  chattr +i /etc/resolv.conf\nelse\n  # Re-enable DHCP client to update resolv.conf\n  chattr -i /etc/resolv.conf\nfi

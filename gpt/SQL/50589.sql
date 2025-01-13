@@ -1,1 +1,0 @@
-INSERT INTO Attributes (AttributeID, AttributeName) VALUES (1, 'Blue');\n    INSERT INTO Attributes (AttributeID, AttributeName) VALUES (2, 'Red');\n    INSERT INTO Attributes (AttributeID, AttributeName) VALUES (3, 'Small');\n    INSERT INTO Attributes (AttributeID, AttributeName) VALUES (4, 'Medium');\n    INSERT INTO Attributes (AttributeID, AttributeName) VALUES (5, 'Large');

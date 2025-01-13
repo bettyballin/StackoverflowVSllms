@@ -1,1 +1,0 @@
-void modifyWithPointer(int *a) {\n    if (a != nullptr) {\n        *a = 10;\n    }\n}\n\nvoid modifyWithReference(int &a) {\n    a = 10;\n}\n\nint main() {\n    int x = 5;\n    modifyWithPointer(&x); // Explicitly passing by pointer\n    modifyWithReference(x); // Cleaner reference passing\n    return 0;\n}

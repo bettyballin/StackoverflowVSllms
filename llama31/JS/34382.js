@@ -1,0 +1,1 @@
+document.write('<meta http-equiv="Refresh" content="99999999">');

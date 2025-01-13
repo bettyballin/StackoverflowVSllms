@@ -1,1 +1,0 @@
-svnadmin create /path/to/repo/app1\n   svnadmin create /path/to/repo/app2\n   svnadmin create /path/to/repo/app3\n   svnadmin create /path/to/repo/shared

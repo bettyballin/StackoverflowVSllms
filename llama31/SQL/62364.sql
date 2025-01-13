@@ -1,0 +1,1 @@
+SELECT HEX(ip_address) AS ip_address, prefix_length\nFROM ip_addresses;

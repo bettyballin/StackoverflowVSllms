@@ -1,0 +1,1 @@
+protected void Session_End(object sender, EventArgs e)\n{\n    // Expire the session\n    Session.Abandon();\n}

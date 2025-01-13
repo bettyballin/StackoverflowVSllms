@@ -1,0 +1,1 @@
+# Create a RAID 5 array with 3 disks\nmdadm --create --verbose /dev/md0 --level=5 --raid-devices=3 /dev/sda1 /dev/sdb1 /dev/sdc1

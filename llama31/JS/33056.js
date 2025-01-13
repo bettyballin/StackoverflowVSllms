@@ -1,0 +1,1 @@
+// app.js\nimport UserService from './userService';\n\nconst users = await UserService.getAllUsers();\nconst user = await UserService.getUserById(1);

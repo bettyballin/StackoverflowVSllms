@@ -1,0 +1,1 @@
+public class ObjectViewModel\n{\n    public PropertyA { get; set; }\n    public PropertyB { get; set; }\n    public PropertyC { get; set; }\n\n    public ObjectViewModel(DataRepository repository)\n    {\n        PropertyA = repository.GetDataA();\n        PropertyB = repository.GetDataB();\n        PropertyC = repository.GetDataC();\n    }\n}

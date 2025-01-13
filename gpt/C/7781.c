@@ -1,1 +1,0 @@
-#include <unistd.h>\n#include <sys/syscall.h>\n#include <linux/random.h>\n\nint get_random_bytes(void *buf, size_t buflen) {\n    return syscall(SYS_getrandom, buf, buflen, 0);\n}

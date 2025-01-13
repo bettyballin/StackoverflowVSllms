@@ -1,0 +1,1 @@
+using (var connection = new SqlConnection(connectionString))\n{\n    connection.Open();\n    // Perform database operations\n}

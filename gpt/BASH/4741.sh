@@ -1,1 +1,0 @@
-OTHER_CFLAGS = $(inherited) -mfpu=neo

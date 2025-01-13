@@ -1,1 +1,0 @@
-.Layer3 {\n    position: absolute;\n    top: 67%;\n    padding: 20px;\n    width: 100%;\n    pointer-events: none; /* make the entire layer click-through */\n}\n\n.Layer3 a {\n    pointer-events: auto; /* re-enable pointer events for links within this layer */\n}

@@ -1,0 +1,1 @@
+class user implements Serializable {\n    // ...\n\n    public function serialize() {\n        return serialize($this->data); // assuming $data is the relevant data to store\n    }\n\n    public function unserialize($data) {\n        $this->data = unserialize($data);\n    }\n}

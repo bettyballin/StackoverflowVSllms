@@ -1,0 +1,1 @@
+7z a -t7z -m0=lzma -mx=9 C:\Backup\your_database.bak.7z C:\Backup\your_database.bak

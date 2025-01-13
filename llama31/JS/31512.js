@@ -1,0 +1,1 @@
+// Example\n$('.element').hover(function() {\n  console.log('hovered!');\n  // inspect DOM and CSS styles here\n});

@@ -1,0 +1,1 @@
+$string = "Hello, naïve <b>World</b>!";\necho htmlentities($string);\n// Output: Hello, na&iuml;ve &lt;b&gt;World&lt;/b&gt;!

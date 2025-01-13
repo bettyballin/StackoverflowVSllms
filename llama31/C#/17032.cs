@@ -1,0 +1,1 @@
+using System.Net;\n\nclass Program\n{\n    static void Main()\n    {\n        string fqdn = Dns.GetHostName();\n        Console.WriteLine(fqdn);\n    }\n}

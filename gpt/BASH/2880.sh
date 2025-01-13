@@ -1,1 +1,0 @@
-$ git add -p\ndiff --git a/file.txt b/file.txt\nindex 83db48f..f735c2b 100644\n--- a/file.txt\n+++ b/file.txt\n@@ -1,5 +1,5 @@\n line 1\n line 2\n-line 3\n+fixed line 3\n line 4\n+new change on line 5

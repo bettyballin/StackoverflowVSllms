@@ -1,1 +1,0 @@
-./dns_query example.com

@@ -1,1 +1,0 @@
-// C# Example\npublic void ExampleMethod()\n{\n    // JIT can optimize this code based on runtime behavior\n    int[] numbers = new int[100];\n    for (int i = 0; i < numbers.Length; i++)\n    {\n        numbers[i] = i;\n    }\n}

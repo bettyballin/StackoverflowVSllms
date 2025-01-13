@@ -1,0 +1,1 @@
+$array = array(1, 2, 2, 3, 4, 4, 5);\n$array = array_unique($array);\n\nforeach ($array as $value) {\n    echo "$value\n";\n}

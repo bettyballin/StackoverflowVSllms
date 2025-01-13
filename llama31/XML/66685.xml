@@ -1,0 +1,1 @@
+<system.web>\n    <authentication mode="Forms">\n        <forms cookieless="true" />\n    </authentication>\n</system.web>

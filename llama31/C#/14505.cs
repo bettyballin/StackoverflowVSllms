@@ -1,0 +1,1 @@
+var serializer = new DataContractSerializer(typeof(YourDataContract), new[] { typeof(System.Drawing.Bitmap) });

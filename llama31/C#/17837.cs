@@ -1,0 +1,1 @@
+WebsiteBlocker blocker = new WebsiteBlocker();\nblocker.BlockWebsite("example.com");\n// later...\nblocker.UnblockWebsite("example.com");

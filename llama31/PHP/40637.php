@@ -1,0 +1,1 @@
+$string = '>Data 1-23</a>';\n$string2 = '>Datkl3</a>';\n$string3 = '>RA Ndom</a>';\n\n$pattern = '/>(.*?)<\/a>/';\n\npreg_match($pattern, $string, $match1);\npreg_match($pattern, $string2, $match2);\npreg_match($pattern, $string3, $match3);\n\n$matches = array($match1[1], $match2[1], $match3[1]);\n\nprint_r($matches);

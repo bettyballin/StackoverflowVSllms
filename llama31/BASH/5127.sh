@@ -1,0 +1,1 @@
+listdlls -d <your_process_name>.exe

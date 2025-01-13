@@ -1,1 +1,0 @@
-composer require gedmo/doctrine-extensions

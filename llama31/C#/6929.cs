@@ -1,0 +1,1 @@
+public class myCustom : IHttpHandler, IRequiresSessionState\n{\n    // ...\n}

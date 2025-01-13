@@ -1,1 +1,0 @@
-<!-- app/views/layouts/application.html.erb -->\n   <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>

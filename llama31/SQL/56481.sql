@@ -1,0 +1,1 @@
+SELECT *\nFROM TableA\nINNER JOIN TableB\nON TableA.id = TableB.id;

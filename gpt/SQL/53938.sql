@@ -1,1 +1,0 @@
-SELECT ID, 'Value1' AS Name, Value1 AS Value FROM your_table\nUNION ALL\nSELECT ID, 'Value2' AS Name, Value2 AS Value FROM your_table\nUNION ALL\nSELECT ID, 'Value3' AS Name, Value3 AS Value FROM your_table;

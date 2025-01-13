@@ -1,0 +1,1 @@
+header("Location: http://www.${_SESSION['domainname']}");

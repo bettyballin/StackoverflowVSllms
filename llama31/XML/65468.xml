@@ -1,0 +1,1 @@
+<configuration>\n  <system.diagnostics>\n    <switches>\n      <add name="Application" value="4" />\n    </switches>\n  </system.diagnostics>\n</configuration>

@@ -1,0 +1,1 @@
+Form1 form = new Form1();\n// form.Show(); // Don't call Show() if you don't want to show the form

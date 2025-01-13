@@ -1,0 +1,1 @@
+Dim ie As Object\nSet ie = CreateObject("InternetExplorer.Application")\nie.Navigate "http://www.google.com"\nie.Toolbar = False\nie.AddressBar = False\nie.StatusBar = False\nie.MenuBar = False\nie.Visible = True

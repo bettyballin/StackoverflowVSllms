@@ -1,0 +1,1 @@
+#include <dvdread/ifo_read.h>\n#include <dvdread/udf_fs.h>\n\n// Open the DVD device\nifo_handle_t *ifo = ifoOpen("/dev/dvd");\n\n// Read the UDF filesystem\nudf_fs_t *fs = udf_fs_open(ifo);\n\n// Browse files on the disc\nudf_dir_t *root_dir = udf_fs_root_dir(fs);\nudf_dir_entry_t *entry;\nwhile ((entry = udf_fs_readdir(root_dir))) {\n    printf("%s\n", entry->name);\n}

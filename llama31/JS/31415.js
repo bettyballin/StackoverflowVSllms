@@ -1,0 +1,1 @@
+// Example of optimized JavaScript code\nconst image = new Image();\nimage.src = 'image.jpg';\nimage.onload = () => {\n  document.body.appendChild(image);\n};

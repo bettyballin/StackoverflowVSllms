@@ -1,1 +1,0 @@
-# Add an audit rule to monitor access to the shared memory\n    sudo auditctl -w /dev/shm/shared_memory -p rwxa -k shared_memory_access\n\n    # View audit logs\n    sudo ausearch -k shared_memory_access

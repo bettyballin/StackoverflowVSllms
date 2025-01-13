@@ -1,1 +1,0 @@
-<select name='voter'>\n{% for voter in allowed_voters %}\n    <option {% if voter == last_voter %}selected{% endif %} value='{{ voter }}'>{{ voter }}</option>\n{% endfor %}\n</select>

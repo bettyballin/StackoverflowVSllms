@@ -1,1 +1,0 @@
-public class iCalendar\n{\n    public T Create<T>() where T : new()\n    {\n        return new T();\n    }\n}

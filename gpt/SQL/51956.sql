@@ -1,1 +1,0 @@
-CREATE VIEW vTest AS\nSELECT * FROM Table\nWHERE 1=1\nAND table.Field = 'Value'

@@ -1,0 +1,1 @@
+byte[] bytes = new byte[1000];\nGCHandle pinnedArray = GCHandle.Alloc(bytes, GCHandleType.Pinned);\nIntPtr pointer = pinnedArray.AddrOfPinnedObject();\nFunc(pointer);\npinnedArray.Free();

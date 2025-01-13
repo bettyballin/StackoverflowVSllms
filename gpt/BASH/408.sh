@@ -1,1 +1,0 @@
-convert 06-7-1-B.png 06-7-1-B.pdf\n   convert 06-7-2-B.png 06-7-2-B.pdf

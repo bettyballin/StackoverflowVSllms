@@ -1,0 +1,1 @@
+html {\n  scroll-behavior: smooth;\n}\n\n.anchor {\n  display: block;\n  position: relative;\n  top: -100px; /* adjust this value to match your needs */\n  visibility: hidden;\n}

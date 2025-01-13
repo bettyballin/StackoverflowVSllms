@@ -1,1 +1,0 @@
-composer require fx3costa/chartjs-php

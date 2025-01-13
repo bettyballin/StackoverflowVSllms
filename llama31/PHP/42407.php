@@ -1,0 +1,1 @@
+ini_set('session.cookie_lifetime', 0);\nini_set('session.gc_maxlifetime', 86400); // 86400 seconds = 1 day, adjust as necessary\nsession_start();

@@ -1,0 +1,1 @@
+while True:\n    line = f.readline()\n    if not line:\n        break\n    line = line.strip()\n    print(f'"{line}"')

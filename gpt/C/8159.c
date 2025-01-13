@@ -1,1 +1,0 @@
-char buffer[256];\n   fgets(buffer, sizeof(buffer), stdin);\n   sscanf(buffer, "%d", &num);

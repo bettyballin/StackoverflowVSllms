@@ -1,0 +1,1 @@
+// Set row auto height\ngridControl1.OptionsView.RowAutoHeight = true;

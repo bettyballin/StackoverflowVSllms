@@ -1,1 +1,0 @@
-books_to_consider = Book.joins('INNER JOIN carts ON carts.book_id = books.id')\n                        .where('books.created_at BETWEEN ? AND ?', date1, date2)\n                        .where('books.updated_at <= ?', date3)\n                        .select('books.*')

@@ -1,0 +1,1 @@
+#include <ncurses.h>\n\nint main() {\n    initscr();\n    noecho();\n    curs_set(0);\n    mvprintw(0, 0, "FPS: 60");\n    refresh();\n    // Print regular output\n    printw("Hello, World!\n");\n    refresh();\n    // Update FPS\n    mvprintw(0, 0, "FPS: 61");\n    refresh();\n    endwin();\n    return 0;\n}

@@ -1,0 +1,1 @@
+UPDATE ValTable\nSET val = 2.124\nWHERE str_key = (SELECT str_key FROM StrTable WHERE str = 'a')\n  AND other_key = 1\nLIMIT 1;\n\nIF @@ROWCOUNT=0\n  INSERT INTO ValTable (str_key, other_key, val)\n  SELECT str_key, 1, 2.124\n  FROM StrTable\n  WHERE str = 'a';

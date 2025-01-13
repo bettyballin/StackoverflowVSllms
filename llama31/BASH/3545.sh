@@ -1,0 +1,1 @@
+phc --binary-output -o output_binary your_php_script.php

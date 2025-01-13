@@ -1,1 +1,0 @@
-$my_object = new stdClass(); \n    $my_object->property = 'value';

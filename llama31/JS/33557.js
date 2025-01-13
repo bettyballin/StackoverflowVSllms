@@ -1,0 +1,1 @@
+const selectElement = document.querySelector('select');\n\nselectElement.addEventListener('change', () => {\n  console.log("Selection changed!");\n});

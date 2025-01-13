@@ -1,0 +1,1 @@
+.name-value-pair {\n  display: flex;\n  flex-direction: row;\n  align-items: baseline;\n  margin-bottom: 10px;\n}\n\n.name-value-pair .name {\n  font-weight: bold;\n  width: 30%;\n}\n\n.name-value-pair .value {\n  width: 70%;\n}

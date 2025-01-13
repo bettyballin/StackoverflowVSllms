@@ -1,0 +1,1 @@
+phash -d image.jpg

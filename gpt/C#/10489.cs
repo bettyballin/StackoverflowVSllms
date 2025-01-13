@@ -1,1 +1,0 @@
-// Retrieving AssemblyTitleAttribute\nAssemblyTitleAttribute title = (AssemblyTitleAttribute)Attribute.GetCustomAttribute(\n    someAssembly, typeof(AssemblyTitleAttribute));\nif (title != null)\n{\n    Console.WriteLine(title.Title);\n}

@@ -1,0 +1,1 @@
+function positionUpdate(var1, var2){\n    alert("1");\n    var queryString = "?var1=" + var1 + "&var2=" + var2;\n    alert("2");\n    \n    // Create an instance of the XMLHttpRequest object\n    var ajaxRequest = new XMLHttpRequest();\n    \n    ajaxRequest.open("GET", "position_update.php" + queryString, true);\n    alert("3");\n    ajaxRequest.send(null);\n    alert("4");\n}

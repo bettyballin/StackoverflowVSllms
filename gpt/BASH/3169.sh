@@ -1,1 +1,0 @@
-pkill ffmpeg\n   ffmpeg -re -i new_input.flv -c:v libx264 -c:a aac -f flv rtmp://localhost/live/stream

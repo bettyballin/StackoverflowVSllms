@@ -1,1 +1,0 @@
-sudo systemctl daemon-reload\n    sudo systemctl enable my_service.service\n    sudo systemctl start my_service.service

@@ -1,0 +1,1 @@
+foreach (DataSet1.DataTable1Row dr in ds.DataTable1.Rows)\n{\n    if (ds.DataTable1.FindById(dr.Id) != dr)\n        Console.Write(dr.Id);\n}

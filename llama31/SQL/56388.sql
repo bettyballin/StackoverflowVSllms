@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE my_procedure(p_date IN DATE) AS\nBEGIN\n  IF p_date IS NULL THEN\n    RAISE_APPLICATION_ERROR(-20001, 'Date is null or invalid');\n  END IF;\n  \n  -- or, to check for a specific date format\n  IF TO_CHAR(p_date, 'YYYY-MM-DD') IS NULL THEN\n    RAISE_APPLICATION_ERROR(-20002, 'Date is invalid');\n  END IF;\nEND;

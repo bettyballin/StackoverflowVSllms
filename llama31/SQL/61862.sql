@@ -1,0 +1,1 @@
+DECLARE\n  v_data VARCHAR2(20);\nBEGIN\n  BEGIN\n    SELECT data INTO v_data FROM table1;\n  EXCEPTION\n    WHEN NO_DATA_FOUND THEN\n      BEGIN\n        SELECT data INTO v_data FROM table2;\n      EXCEPTION\n        WHEN NO_DATA_FOUND THEN\n          SELECT data INTO v_data FROM table3;\n      END;\n  END;\n  RETURN v_data;\nEND;

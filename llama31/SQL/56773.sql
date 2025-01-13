@@ -1,0 +1,1 @@
+SELECT \n  constraint_name, \n  table_name, \n  r_constraint_name, \n  r_table_name \nFROM \n  all_constraints \nWHERE \n  constraint_type = 'R' \n  AND r_table_name = 'YOUR_TABLE_NAME';

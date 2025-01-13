@@ -1,1 +1,0 @@
-For Each row As DataGridViewRow In DataGridView1.Rows\n    ' Ensure the row is not a new row\n    If Not row.IsNewRow Then\n        Dim name As String = row.Cells("ColumnA").Value.ToString()\n        Dim path As String = row.Cells("ColumnB").Value.ToString()\n        MessageBox.Show(name & "," & path)\n    End If\nNext

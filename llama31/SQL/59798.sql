@@ -1,0 +1,1 @@
+SET @random_index = FLOOR(RAND() * (SELECT MAX(id) FROM your_table));\nSELECT *\nFROM your_table\nWHERE id >= @random_index\nORDER BY id\nLIMIT 1;

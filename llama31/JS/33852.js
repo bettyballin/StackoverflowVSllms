@@ -1,0 +1,1 @@
+function functionTwo() {\n    console.log("Hello");\n}\n\nfunctionTwo(); // outputs "Hello"

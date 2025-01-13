@@ -1,0 +1,1 @@
+var linqDataSource = new LinqDataSource();\n// configure the LinqDataSource...\n\nvar query = linqDataSource.Select(new DataSourceSelectArguments());\nvar cmd = query.Provider.CreateQuery(query).GetCommand();\n\nstring sqlQuery = cmd.CommandText;

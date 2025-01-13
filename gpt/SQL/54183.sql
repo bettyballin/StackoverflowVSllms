@@ -1,1 +1,0 @@
-select 'abc ' || (select txt from \n        (select 'xyz' as txt from dual where 1=2)) \n   from dual

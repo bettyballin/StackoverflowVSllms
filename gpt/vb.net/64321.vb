@@ -1,1 +1,0 @@
-Imports Newtonsoft.Json\n\nModule Module1\n    Sub Main()\n        Dim array As Integer() = {1, 2, 3, 4, 5}\n        Dim json As String = JsonConvert.SerializeObject(array)\n        Console.WriteLine(json)\n    End Sub\nEnd Module

@@ -1,1 +1,0 @@
-decimal value = 123.456789m;\nstring formattedValue = $"{value:F2}";\nConsole.WriteLine(formattedValue); // Output: 123.46

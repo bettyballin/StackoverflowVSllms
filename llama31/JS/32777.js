@@ -1,0 +1,1 @@
+// Example Artillery test script\nconst artillery = require('artillery');\n\nartillery.run({\n  scenarios: [\n    {\n      name: 'Example',\n      flow: [\n        {\n          get: {\n            url: 'https://example.com'\n          }\n        },\n        {\n          click: {\n            selector: 'button[type="submit"]'\n          }\n        }\n      ]\n    }\n  ]\n});

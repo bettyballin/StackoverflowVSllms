@@ -1,1 +1,0 @@
-CREATE INDEX idx_log_entry_date ON LogEntries (EntryDate);\nCREATE INDEX idx_log_entry_foreign_key ON LogEntries (ForeignKeyColumn);

@@ -1,0 +1,1 @@
+$status = passthru($command, $output);\necho "output: " . $output;

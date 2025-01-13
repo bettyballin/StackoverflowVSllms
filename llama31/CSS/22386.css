@@ -1,0 +1,1 @@
+.bottom-text:before {\n  content: '';\n  position: absolute;\n  left: 50%;\n  transform: translateX(-50%);\n  width: 100px; /* adjust width */\n  height: 10px; /* adjust height */\n  background-color: #333; /* adjust color */\n}

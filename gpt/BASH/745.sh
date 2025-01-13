@@ -1,1 +1,0 @@
-regasm /unregister delphitocsharp.dll\n    regasm /codebase delphitocsharp.dll

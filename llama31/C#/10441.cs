@@ -1,0 +1,1 @@
+// Controller action\npublic PartialViewResult ReportOne()\n{\n    // Return the partial view\n    return PartialView("_ReportOne");\n}

@@ -1,1 +1,0 @@
-# Navigate to the image directory\ncd /path/to/kilkin/images\n\n# Check the current permissions\nls -l dukkah.jpg\n\n# Correct the permissions if necessary\nchmod 644 dukkah.jpg

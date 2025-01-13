@@ -1,0 +1,1 @@
+using System.IO;\n\n// Assuming you have an ASP.NET Label control with the id "contentLabel"\nstring filePath = Server.MapPath("~/path/to/your/file.txt"); // path to your file\nstring fileContents = File.ReadAllText(filePath);\ncontentLabel.Text = fileContents;

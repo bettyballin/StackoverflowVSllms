@@ -1,0 +1,1 @@
+CREATE OR REPLACE PACKAGE my_package AS\n  TYPE t_rec IS RECORD (id NUMBER);\n  PROCEDURE my_procedure(p_rec t_rec);\nEND my_package;\n\nCREATE OR REPLACE PACKAGE BODY my_package AS\n  PROCEDURE my_procedure(p_rec t_rec) IS\n  BEGIN\n    -- Process the record\n    DBMS_OUTPUT.PUT_LINE(p_rec.id);\n  END my_procedure;\nEND my_package;

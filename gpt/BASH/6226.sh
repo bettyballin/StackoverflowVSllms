@@ -1,1 +1,0 @@
-composer require --dev pestphp/pest\n   # or\n   composer require --dev phpunit/phpunit

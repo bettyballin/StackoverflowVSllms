@@ -1,1 +1,0 @@
-program.exe: ui.a main.o\n    gcc main.o ui.a -o program.exe\n\nui.a: window1.o window2.o\n    ar rcs ui.a window1.o window2.o\n\nwindow1.o: window1.c window1.h window1_events.c window1_controls.c\n    gcc -c window1.c window1_events.c window1_controls.c\n\nwindow2.o: window2.c window2.h\n    gcc -c window2.c\n\nmain.o: main.c main.h\n    gcc -c main.c

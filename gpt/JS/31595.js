@@ -1,1 +1,0 @@
-// In IE, the context must be an Element not a document,\n// so if the context is a document, use the documentElement instead\nif (context == doc) context = doc.documentElement;\nreturn context.selectNodes(this.xpathText);

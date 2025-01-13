@@ -1,0 +1,1 @@
+ssh -t kev@server1 './test/foo.sh'

@@ -1,1 +1,0 @@
-#toolbar #favoritesOnlinePopUp {\n    display: none; /* Change to none to hide initially */\n    border: 1px solid #000000;\n    width: 191px;\n    background: #2b2b2b;\n    float: left;\n    position: absolute;\n    left: -1px;\n    top: -501px; /* Adjust as needed */\n    height: auto; /* Set height to auto */\n    overflow: auto;\n}

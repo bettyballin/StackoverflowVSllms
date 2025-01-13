@@ -1,1 +1,0 @@
-class module {\n\n    public function process_data($child) {\n        require($child . ".php");\n        read_data();\n        return true;\n    }\n}

@@ -1,1 +1,0 @@
-openssl x509 -inform DER -in your_certificate.cer -outform PEM -out your_certificate.pem

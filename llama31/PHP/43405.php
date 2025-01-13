@@ -1,0 +1,1 @@
+protected function _initNavigation()\n{\n    $this->bootstrap('layout');\n    $layout = $this->getResource('layout');\n    $view = $layout->getView();\n    \n    $config = new Zend_Config_Xml(APPLICATION_PATH . '/configs/navigation.xml', 'nav');\n    $navigation = new Zend_Navigation($config);\n    \n    $view->navigation($navigation);\n}

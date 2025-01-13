@@ -1,0 +1,1 @@
+public class Person\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n}\n\npublic class MyDbContext : DbContext\n{\n    public DbSet<Person> People { get; set; }\n\n    protected override void OnModelCreating(ModelBuilder modelBuilder)\n    {\n        modelBuilder.Entity<Person>().ToTable("Persons");\n    }\n}

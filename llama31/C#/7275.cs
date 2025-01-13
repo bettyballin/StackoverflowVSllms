@@ -1,0 +1,1 @@
+public partial class Course\n{\n    public Category Category\n    {\n        get\n        {\n            return this.CourseCategories.FirstOrDefault().Category;\n        }\n    }\n}

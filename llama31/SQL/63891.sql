@@ -1,0 +1,1 @@
+MERGE INTO A AS target\nUSING B AS source\nON 1=0 -- always false, to force an insert\nWHEN NOT MATCHED THEN\n    INSERT (fname, lname)\n    VALUES (source.fname, source.lname)\n    OUTPUT inserted.id, inserted.fname, inserted.lname\n    INTO #temp;\n\nUPDATE b\nSET NewId = t.id\nFROM B b\nINNER JOIN #temp t ON b.fname = t.fname AND b.lname = t.lname;\n\nDROP TABLE #temp;

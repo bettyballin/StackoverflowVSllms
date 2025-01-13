@@ -1,1 +1,0 @@
-curl -X PUT \\n     -H "Content-Type: application/octet-stream" \\n     -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \\n     --data-binary @/path/to/your/file \\n     "https://your-storage-service.com/container/blob"

@@ -1,0 +1,1 @@
+var dataString = 'message='+ message;\n$.ajax({\n    type: "POST",\n    url: "process.php",\n    data: dataString,\n    dataType: "json",\n    success: function (data) {\n        // do stuff here\n    }\n});

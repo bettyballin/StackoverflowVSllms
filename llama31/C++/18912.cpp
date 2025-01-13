@@ -1,0 +1,1 @@
+template class __declspec(dllimport) B<int>;\n#pragma comment(lib, "yourdll.lib")

@@ -1,0 +1,1 @@
+$result = mysql_query("SELECT SQL_CALC_FOUND_ROWS * FROM users LIMIT 0,10", $db_con);\n$total = mysql_num_rows($result);

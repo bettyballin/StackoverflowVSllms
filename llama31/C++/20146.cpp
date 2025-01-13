@@ -1,0 +1,1 @@
+// Expensive operation: reallocation\nif (size == capacity) {\n    // Allocate a new array with double capacity\n    capacity *= 2;\n    // Copy elements to the new array\n    for (int i = 0; i < size; i++) {\n        // Copy element\n    }\n}

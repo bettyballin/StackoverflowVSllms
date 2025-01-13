@@ -1,1 +1,0 @@
-set http_proxy=http://username:password@our-proxy-server:8088\n   set https_proxy=http://username:password@our-proxy-server:8088

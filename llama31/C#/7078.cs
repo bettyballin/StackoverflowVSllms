@@ -1,0 +1,1 @@
+public class Game\n{\n    ...\n    [Fetch(FetchMode.Join)]\n    public virtual Event Event { get; set; }\n    ...\n}

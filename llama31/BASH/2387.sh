@@ -1,0 +1,1 @@
+curl -X GET \\n  'https://api.flickr.com/services/rest/' \\n  -H 'Content-Type: application/x-www-form-urlencoded' \\n  -d 'method=flickr.photos.search&api_key=YOUR_API_KEY&collection_id=COLLECTION_ID&per_page=X&format=json&nojsoncallback=1'

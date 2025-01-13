@@ -1,0 +1,1 @@
+// Version 1.0 implementation of ADIF writer\nnamespace ADIF.Version1\n{\n    public class ADIFWriter : IADIFWriter\n    {\n        public void WriteFile(string filePath)\n        {\n            // Version 1.0 specific implementation\n        }\n    }\n}

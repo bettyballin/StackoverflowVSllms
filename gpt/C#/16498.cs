@@ -1,1 +1,0 @@
-// Assume you have a Linq2Sql generated class named 'Product'\npublic partial class Product\n{\n    // Add custom logic or methods here\n    public string DisplayName => $"{Name} ({Category})";\n}

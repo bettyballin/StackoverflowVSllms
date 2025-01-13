@@ -1,1 +1,0 @@
-private void btnSavePlainText_Click(object sender, EventArgs e)\n{\n    string filePath = "C:\\path\\to\\your\\file.txt";\n    SavePlainText(myRichTextBox, filePath);\n}

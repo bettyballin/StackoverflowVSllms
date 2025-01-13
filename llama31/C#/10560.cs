@@ -1,0 +1,1 @@
+travelQuery.CommandText = "SELECT [StartLoc], [EndLoc],[TravelTime], [AvgSpeed], [Distance]  FROM [TravelTimes] WHERE [TripNum] = @TripNum"\ntravelQuery.Parameters.AddWithValue("@TripNum", TripNum)

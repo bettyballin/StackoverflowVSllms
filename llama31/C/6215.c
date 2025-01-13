@@ -1,0 +1,1 @@
+// file1.c\nint f() { return 0; }\n\n// file2.c\n#include <stdio.h>\n\nint main() {\n    printf("%d\n", f());  // prints 0\n    return 0;\n}

@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Start the process in the background and store its PID\n./your_process.sh &\nPID=$!\n\n# Wait for a few hours and then kill the process\nsleep 3600 # 3600 seconds = 1 hour, adjust as needed\nkill $PID\n\n# Optionally, wait to ensure the process is killed before proceeding\nwait $PID\n\n# Restart the process\n./your_process.sh &

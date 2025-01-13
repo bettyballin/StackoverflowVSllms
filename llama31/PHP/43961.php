@@ -1,0 +1,1 @@
+// In your authentication adapter class\npublic function authenticate()\n{\n    // Set breakpoint here\n    xdebug_break();\n    // ...\n}

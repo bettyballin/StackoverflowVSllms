@@ -1,1 +1,0 @@
-UPDATE users SET is_deleted = 1 WHERE id = {user_id};

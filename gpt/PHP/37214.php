@@ -1,1 +1,0 @@
-<?php\nsession_start();\n// Get the session ID\n$sid = session_id();\necho '<br /><a href="page2.php?' . $sid . '">page 2</a>';\n?>

@@ -1,1 +1,0 @@
-wget https://github.com/php/php-gtk-src/archive/master.zip\n   unzip master.zip\n   cd php-gtk-src-master

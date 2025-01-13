@@ -1,0 +1,1 @@
+void CMyPropertySheet::OnApply()\n{\n    // Perform your validation here\n    if (/* validation fails */)\n    {\n        AfxMessageBox("Validation failed.");\n        return;\n    }\n\n    // Call base class method if validation succeeds\n    CPropertySheet::OnApply();\n}

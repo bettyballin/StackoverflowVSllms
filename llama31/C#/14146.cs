@@ -1,0 +1,1 @@
+using Aspose.Words;\n\n// Load the Word document\nDocument doc = new Document("input.docx");\n\n// Save the document as PDF\ndoc.Save("output.pdf", SaveFormat.Pdf);

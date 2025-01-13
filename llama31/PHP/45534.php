@@ -1,0 +1,1 @@
+<?php foreach ($posts as $index => $post) { ?>\n    <div class="<?= ($index % 2 == 0) ? 'even' : 'odd'; ?>">\n        <?= $post ?>\n    </div>\n<?php } ?>

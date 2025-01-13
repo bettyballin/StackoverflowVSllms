@@ -1,1 +1,0 @@
-public static ISessionFactory SessionFactory { get; private set; }\n\npublic static void InitializeSessionFactory()\n{\n    var cfg = new Configuration();\n    cfg.Configure(); // Reads the nhibernate.cfg.xml file\n    SessionFactory = cfg.BuildSessionFactory();\n}

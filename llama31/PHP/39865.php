@@ -1,0 +1,1 @@
+trait Loadable {\n    public static function load($id) {\n        // Instantiate the object\n        $object = new self($id);\n        return $object;\n    }\n\n    public static function loadMultiple() {\n        // Code here\n    }\n}\n\nclass Object1 {\n    use Loadable;\n}\n\nclass Object2 {\n    use Loadable;\n}

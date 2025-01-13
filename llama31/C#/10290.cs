@@ -1,0 +1,1 @@
+public IList SelectedItemsProxy\n{\n    get { return _selectedItemsProxy; }\n    set\n    {\n        _selectedItemsProxy = value;\n        OnPropertyChanged("SelectedItemsProxy");\n    }\n}

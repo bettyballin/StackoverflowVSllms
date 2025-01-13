@@ -1,1 +1,0 @@
-public class AdminViewModel\n   {\n       public List<Product> Products { get; set; }\n       public List<Category> Categories { get; set; }\n   }

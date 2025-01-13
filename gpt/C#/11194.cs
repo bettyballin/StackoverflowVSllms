@@ -1,1 +1,0 @@
-<% using (Ajax.BeginForm("Edit", "Subscriber",\n          new AjaxOptions { OnSuccess = "onEditResult", HttpMethod = "GET" })) \n   { %>\n    <%= Html.Hidden("idSub", p.Id.ToString()) %>\n    <input type="submit" value="Edit" />\n<% } %>

@@ -1,0 +1,1 @@
+string sql = "SELECT AUDITLOG.EVENTID_SEQ.NEXTVAL FROM SYSIBM.SYSDUMMY1 WHERE 1 = @param";\n\nvar param = new SqlParameter("@param", 1);\n\ndecimal nextSequenceValue = db.ExecuteStoreQuery<decimal>(sql, param).FirstOrDefault();

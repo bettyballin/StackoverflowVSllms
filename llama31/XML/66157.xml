@@ -1,0 +1,1 @@
+<property\n    name="tin"\n    type="com.example.SpacePreservingStringType"\n    column="TIN"\n    not-null="true"\n    length="9"/>

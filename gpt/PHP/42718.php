@@ -1,1 +1,0 @@
-$str = "This is a test string with |123 and |456";\n\n$result = preg_replace("/(\|\d*)/", "$1;", $str);\n\necho $result;

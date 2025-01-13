@@ -1,1 +1,0 @@
-public class Employee\n{\n    public virtual int EmployeeID { get; protected set; }\n    public virtual string Department { get; protected set; }\n    public virtual Lab Lab { get; protected set; }  \n}

@@ -1,1 +1,0 @@
-CREATE TABLE categories (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    category_name VARCHAR(255) NOT NULL\n);\n\nCREATE TABLE documents (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    document_title VARCHAR(255) NOT NULL,\n    category_id INT,\n    FOREIGN KEY (category_id) REFERENCES categories(id)\n);

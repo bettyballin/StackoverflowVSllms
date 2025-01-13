@@ -1,1 +1,0 @@
-app.post('/webhook', (req, res) => {\n    const event = req.body;\n\n    if (event.event_type === 'BILLING.SUBSCRIPTION.CANCELLED') {\n        // Handle subscription cancellation\n    } else if (event.event_type === 'BILLING.SUBSCRIPTION.UPDATED') {\n        // Handle subscription update\n    }\n\n    res.status(200).send('Event received');\n});

@@ -1,0 +1,1 @@
+<Reference Include="YourDependency.dll">\n  <HintPath>$(OutDir)\YourDependency.dll</HintPath>\n</Reference>

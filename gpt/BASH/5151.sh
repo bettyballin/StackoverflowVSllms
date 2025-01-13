@@ -1,1 +1,0 @@
-@echo off\ntitle MyDatabaseInstance\nsqlplus username/password@database

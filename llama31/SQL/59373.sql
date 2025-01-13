@@ -1,0 +1,1 @@
+-- On the Main SQL Server (Master)\nCREATE PUBLICATION [OrderData]\n    FOR DATABASE = 'MainDB'\n    WITH ALLOW_initialize_from_backup = 1;\n\n-- On each Brand-Specific SQL Server (Slave)\nCREATE SUBSCRIPTION [OrderData]\n    TO PUBLICATION 'OrderData'\n    FROM SERVER 'MainSQLServer'\n    WITH initialize = 1, enabled_for_sync = 1;

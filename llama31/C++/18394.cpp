@@ -1,0 +1,1 @@
+#include <gtest/gtest.h>\n\nTEST(MyClassTest, DoesSomething) {\n  MyClass obj;\n  // Your test code here\n  ASSERT_TRUE(obj.didSomething());\n}

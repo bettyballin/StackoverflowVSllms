@@ -1,1 +1,0 @@
-awk '{gsub(/[!$%]/, ""); print}' input.txt > output.txt

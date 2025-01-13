@@ -1,1 +1,0 @@
-# Reset Xcode's Derived Data directory\nrm -rf ~/Library/Developer/Xcode/DerivedData\n\n# Reboot the iOS device and Mac

@@ -1,0 +1,1 @@
+public class OrdinalStringComparer : IComparer\n{\n    public int Compare(object x, object y)\n    {\n        return String.Compare((string)x, (string)y, StringComparison.Ordinal);\n    }\n}

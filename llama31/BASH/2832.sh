@@ -1,0 +1,1 @@
+pkill -P <PPID> -9

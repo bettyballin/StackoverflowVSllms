@@ -1,1 +1,0 @@
-CREATE LOGIN LimitedAccessLogin FROM CERTIFICATE LimitedAccessCert;

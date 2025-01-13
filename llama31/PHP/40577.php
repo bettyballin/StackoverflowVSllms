@@ -1,0 +1,1 @@
+<?php\nheader('Access-Control-Allow-Origin: *');\nheader('Access-Control-Allow-Methods: GET, POST, PUT, DELETE');\nheader('Access-Control-Allow-Headers: Content-Type, Authorization');\n?>

@@ -1,0 +1,1 @@
+var form = jQuery('form#listing');\nform.validate().destroy();\nform.submit();

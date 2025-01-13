@@ -1,0 +1,1 @@
+set_include_path(get_include_path() . PATH_SEPARATOR . '/path/to/your/include/directory');\ninclude_once('file.php');

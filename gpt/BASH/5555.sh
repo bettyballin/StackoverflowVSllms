@@ -1,1 +1,0 @@
-copy "C:\Users\<YourUsername>\AppData\Roaming\SQL Developer\UserSnippets\snippets.xml" "D:\Backup\snippets.xml"

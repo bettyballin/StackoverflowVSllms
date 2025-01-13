@@ -1,0 +1,1 @@
+DBCC SHRINKFILE ('logfilename', 1);

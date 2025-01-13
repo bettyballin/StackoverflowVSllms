@@ -1,0 +1,1 @@
+hHook = SetWindowsHookEx(WH_MOUSE, _\n                         hookproc, _\n                         IntPtr.Zero, _\n                         GetCurrentThreadId())

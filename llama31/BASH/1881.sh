@@ -1,0 +1,1 @@
+schtasks /create /tn "Daily Task" /tr "C:\Path\To\PHP\php.exe C:\Path\To\Script.php" /sc daily /st 00:00

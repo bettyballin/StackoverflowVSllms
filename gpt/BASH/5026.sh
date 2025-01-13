@@ -1,1 +1,0 @@
-# This can be run by a normal user to trigger the scheduled task\nschtasks /run /tn "DisableCDROM"

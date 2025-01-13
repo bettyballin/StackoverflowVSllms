@@ -1,1 +1,0 @@
-// my_program.c\n#include <stdio.h>\n\nvoid hot_function() {\n    for (int i = 0; i < 1000000; i++) {\n        // Some intensive computation\n    }\n}\n\nint main() {\n    hot_function();\n    return 0;\n}

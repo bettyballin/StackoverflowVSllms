@@ -1,0 +1,1 @@
+$diff = new Diff(explode("\n", $old_text), explode("\n", $new_text));\n$edits = $diff->getEdits();

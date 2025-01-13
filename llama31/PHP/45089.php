@@ -1,0 +1,1 @@
+class MyClass\n{\n    const CONSTANT = 'Const var';\n}\n\n$classname = 'MyClass';\necho constant($classname . '::CONSTANT');

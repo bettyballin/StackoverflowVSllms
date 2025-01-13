@@ -1,1 +1,0 @@
-Public Sub SomeMethod()\n    RaiseBoundEvent("IsTrue", Me, EventArgs.Empty)\nEnd Sub

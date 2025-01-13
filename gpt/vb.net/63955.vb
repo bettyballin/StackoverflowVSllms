@@ -1,1 +1,0 @@
-Public Class Whatever\n    Public Property Id As String\n    Public Property Name As String\n    Public Property Date As String\nEnd Class

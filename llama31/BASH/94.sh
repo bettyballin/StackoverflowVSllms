@@ -1,0 +1,1 @@
+#!/bin/bash\n\nQUEUE_LENGTH=$(ruby -e "require 'mongrel_cluster'; cluster = MongrelCluster.new; puts cluster.queue_length")\n\nif [ $QUEUE_LENGTH -gt 100 ]; then\n  # send alert or restart Mongrel\n  echo "Mongrel queue length is too high: $QUEUE_LENGTH" | mail -s "Mongrel Alert" your_email@example.com\nfi

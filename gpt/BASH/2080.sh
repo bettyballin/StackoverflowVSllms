@@ -1,1 +1,0 @@
-mkstore -wrl /path/to/wallet -create\n     mkstore -wrl /path/to/wallet -createCredential your_database your_db_user your_db_password

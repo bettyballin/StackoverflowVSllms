@@ -1,0 +1,1 @@
+SELECT \n  TIMESTAMP(date_time_posting, '+06:00') AS date_time_posting\nFROM \n  table \nWHERE \n  FROM_UNIXTIME(TIMESTAMP(date_time_posting, '+06:00'), '%d-%m-%Y') = '$c_day_date'

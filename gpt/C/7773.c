@@ -1,1 +1,0 @@
-// hello.c\n   #include <stdio.h>\n\n   int main() {\n       printf("Hello, PS2 world!\n");\n       return 0;\n   }

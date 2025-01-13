@@ -1,0 +1,1 @@
+from django.utils.safestring import mark_safe\n\ns = '<p>Hello!</p>'\ns = mark_safe(s)

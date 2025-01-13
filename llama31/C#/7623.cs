@@ -1,0 +1,1 @@
+string input = "<a href=\"_mystring_\">_mystring_</a>";\nstring pattern = "_mystring_(?![^<]*>)";\n\nMatchCollection matches = Regex.Matches(input, pattern);\n\nforeach (Match match in matches)\n{\n    Console.WriteLine(match.Value);\n}

@@ -1,0 +1,1 @@
+CREATE FULLTEXT INDEX ON myTable (myColumn) KEY INDEX myTablePK;

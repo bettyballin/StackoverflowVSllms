@@ -1,1 +1,0 @@
-const assert = require('assert');\n\n   describe('Addition', function() {\n     it('should return 15 when adding 10 and 5', function() {\n       assert.equal(10 + 5, 15);\n     });\n   });

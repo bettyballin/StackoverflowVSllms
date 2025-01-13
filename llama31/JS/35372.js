@@ -1,0 +1,1 @@
+setInterval(function() {\n    $.ajax({\n        type: 'GET',\n        url: 'path/to/online-users',\n        success: function(data) {\n            $('#online-users').html(data);\n        }\n    });\n}, 5000); // update every 5 seconds

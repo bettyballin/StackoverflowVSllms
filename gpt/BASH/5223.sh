@@ -1,1 +1,0 @@
-utplsql run user/password@db -f=ut_documentation_reporter -o=test_results.log

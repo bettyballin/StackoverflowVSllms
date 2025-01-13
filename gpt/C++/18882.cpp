@@ -1,1 +1,0 @@
-#ifdef MYLIBRARY_EXPORTS\n#define MYLIBRARY_API __declspec(dllexport)\n#else\n#define MYLIBRARY_API __declspec(dllimport)\n#endif\n\n// Example class\nclass MYLIBRARY_API MyClass {\npublic:\n    void myFunction() noexcept(false); // Function that can throw exceptions\n};

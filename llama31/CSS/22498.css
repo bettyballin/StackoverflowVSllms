@@ -1,0 +1,1 @@
+ul {\n  display: inline-block;\n  width: fit-content;\n  padding: 0;\n  margin: 0;\n  list-style: none;\n}\n\n.highlight {\n  background-color: yellow;\n}

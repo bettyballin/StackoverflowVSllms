@@ -1,0 +1,1 @@
+using Tesseract;\n\n// Create a new Tesseract engine\nusing (var engine = new TesseractEngine(@"./tessdata", "eng", EngineMode.Default))\n{\n    // Load the image\n    using (var img = Pix.LoadFromFile("image.png"))\n    {\n        // Recognize the text\n        using (var page = engine.Process(img))\n        {\n            Console.WriteLine(page.GetText());\n        }\n    }\n}

@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <compilation debug="true" />\n    <httpHandlers>\n      <add verb="*" path="*" type="System.Web.Handlers.DebugHandler" />\n    </httpHandlers>\n  </system.web>\n</configuration>

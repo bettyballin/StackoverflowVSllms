@@ -1,1 +1,0 @@
-short_name.some_function()

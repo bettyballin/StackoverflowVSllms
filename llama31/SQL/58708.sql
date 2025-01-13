@@ -1,0 +1,1 @@
+-- CASE WHEN short-circuits\nSELECT CASE WHEN 1 = 0 THEN 1 / 0 ELSE 1 END;  -- returns 1\n\n-- ISNULL/NULLIF does not short-circuit\nSELECT ISNULL(1 / NULLIF(0, 0), 0);  -- returns NULL

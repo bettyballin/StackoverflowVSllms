@@ -1,0 +1,1 @@
+private static readonly SemaphoreSlim _semaphore = new SemaphoreSlim(1, 1);\n\npublic void ProcessRequest(HttpContext context)\n{\n    if (!_semaphore.Wait(0))\n    {\n        context.Response.Redirect("Default.aspx");\n        return;\n    }\n\n    try\n    {\n        // Process the request\n    }\n    finally\n    {\n        _semaphore.Release();\n    }\n}

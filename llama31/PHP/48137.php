@@ -1,0 +1,1 @@
+$myArray = new ArrayObject([\n    'name' => 'juank',\n    'age' => 26,\n    'config' => new ArrayObject([\n        'usertype' => 'admin',\n        'etc' => 'bla bla'\n    ], ArrayObject::ARRAY_AS_PROPS | ArrayObject::READONLY)\n]);

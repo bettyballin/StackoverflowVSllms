@@ -1,0 +1,1 @@
+var selectedChildren = validParents\n    .SelectMany(p => p.Children.Where(c => c.CategoryNumber == 2));

@@ -1,0 +1,1 @@
+# Example command to analyze a document with OLEVBA\n    olevba /path/to/document.docx

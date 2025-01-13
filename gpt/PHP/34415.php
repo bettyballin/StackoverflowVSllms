@@ -1,1 +1,0 @@
-$nb = "Hello\r\n\r\nMy\r\n\r\n\r\n\r\n\r\n\r\nName is\r\nShadow";\n$result = preg_split("/(\r\n){2,}/", $nb);\n\nforeach ($result as &$part) {\n    $part = rtrim($part, "\r\n");\n}\n\nprint_r($result);

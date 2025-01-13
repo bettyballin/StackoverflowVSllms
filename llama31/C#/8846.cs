@@ -1,0 +1,1 @@
+var validator = new QueryStringValidator();\n\n// Validate a query string as a numeric value\nvar isValidNumeric = validator.IsValid(Request.QueryString["id"], @"^\d+$");\n\n// Validate a query string as a string with a length of 5\nvar isValidString = validator.IsValid(Request.QueryString["name"], @"^.{5}$");

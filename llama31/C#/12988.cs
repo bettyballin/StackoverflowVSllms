@@ -1,0 +1,1 @@
+[ComVisible(true)]\npublic MyClass {\n    [ComVisible(true)]\n    public MyReturnType Method1(\n        [MarshalAs(UnmanagedType.BStr)] string param1,\n        [MarshalAs(UnmanagedType.BStr)] string param2)\n    {\n        // implementation\n    }\n}

@@ -1,0 +1,1 @@
+WebConfigEditor.EditWebConfig("MyKey", "MyValue");

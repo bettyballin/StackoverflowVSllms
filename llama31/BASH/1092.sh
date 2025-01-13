@@ -1,0 +1,1 @@
+stap -v trace.stp

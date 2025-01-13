@@ -1,1 +1,0 @@
-Dim input As String = "123.45"\nDim result As Double\n\nIf Double.TryParse(input, result) Then\n    result = Math.Round(result, 2)\n    Console.WriteLine("Converted and rounded value: " & result)\nElse\n    Console.WriteLine("The input is not a valid double.")\nEnd If

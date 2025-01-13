@@ -1,1 +1,0 @@
-blackfire-agent -register\n     blackfire config

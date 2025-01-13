@@ -1,1 +1,0 @@
-session optional pam_exec.so /usr/local/bin/notify-ssh-login.sh

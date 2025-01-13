@@ -1,0 +1,1 @@
+try\n{\n    // your code here\n}\ncatch (Exception ex)\n{\n    // log and handle exception\n}

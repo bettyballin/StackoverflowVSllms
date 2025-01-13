@@ -1,1 +1,0 @@
-class Program\n{\n    static void Main()\n    {\n        var list = new ObservableList<string>();\n        list.ItemAdded += (sender, e) => Console.WriteLine($"Item added: {e.Item}");\n        list.ItemRemoved += (sender, e) => Console.WriteLine($"Item removed: {e.Item}");\n\n        list.Add("Apple");\n        list.Add("Banana");\n        list.Remove("Apple");\n    }\n}

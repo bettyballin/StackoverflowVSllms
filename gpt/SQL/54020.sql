@@ -1,1 +1,0 @@
-SELECT id, name, created_date, serial_number\nFROM products\nWHERE created_date >= '2023-01-01';

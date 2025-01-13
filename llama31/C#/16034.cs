@@ -1,0 +1,1 @@
+var result = (from a in accounts\n              join d in details on a.Code equals d.Code\n              join e in accEntries.Where(e => e.EDate > new DateTime(2000, 1, 1)) on d.EID equals e.EID\n              group a by d.Code into g\n              select new { Code = g.Key, SumAmount = g.Sum(a => a.Amount) }).ToList();

@@ -1,0 +1,1 @@
+public class MefContainer\n{\n    private CompositionContainer _container;\n\n    public MefContainer()\n    {\n        var catalog = new DirectoryCatalog(Server.MapPath("~/bin"));\n        _container = new CompositionContainer(catalog);\n    }\n\n    public CompositionContainer Container\n    {\n        get { return _container; }\n    }\n}

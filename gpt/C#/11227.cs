@@ -1,1 +1,0 @@
-[TestFixture]\npublic class ProductDALTests\n{\n    private ProductDAL productDal;\n\n    [SetUp]\n    public void SetUp()\n    {\n        productDal = new ProductDAL();\n    }\n\n    [TearDown]\n    public void TearDown()\n    {\n        // Optional: Clean up test data if necessary\n    }\n\n    // Individual test methods here\n}

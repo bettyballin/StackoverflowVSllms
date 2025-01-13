@@ -1,1 +1,0 @@
-service <service_name> start\n   service <service_name> stop

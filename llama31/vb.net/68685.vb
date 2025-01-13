@@ -1,0 +1,1 @@
+Dim x As Nullable(Of Integer) \n' or \nDim x As Integer?\n\nx = 10\nConsole.WriteLine(x) ' Outputs 10\n\nx = Nothing\nConsole.WriteLine(x) ' Outputs

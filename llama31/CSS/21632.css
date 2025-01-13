@@ -1,0 +1,1 @@
+.container {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  grid-gap: 10px;\n}\n\n.item {\n  grid-column: auto;\n}

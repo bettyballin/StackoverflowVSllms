@@ -1,0 +1,1 @@
+SELECT * \nFROM sales \nINNER JOIN weather \nON sales.date > weather.date AND sales.date < weather.date + INTERVAL 7 DAY

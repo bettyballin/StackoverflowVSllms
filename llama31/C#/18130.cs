@@ -1,0 +1,1 @@
+foreach (IValidator validator in Page.Validators)\n{\n    if (!validator.IsValid)\n    {\n        string controlId = validator.ControlToValidate;\n        // Apply style to the control\n        Control control = Page.FindControl(controlId);\n        control.CssClass += " error";\n    }\n}

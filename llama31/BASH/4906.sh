@@ -1,0 +1,1 @@
+exiftool -q -q -s3 -ImageSize -FileType -if '$FileType =~ /^(JPEG|PNG)$/' image.jpg

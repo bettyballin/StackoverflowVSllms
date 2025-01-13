@@ -1,1 +1,0 @@
-sizer.Resize(from: inputImage, to: outputImage, resizeBy: 0.5, format: ImageFormat.Jpeg);

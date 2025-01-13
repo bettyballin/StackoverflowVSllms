@@ -1,0 +1,1 @@
+import binascii\n\nname_enc = binascii.hexlify('some text'.encode('utf-8'))

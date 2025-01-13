@@ -1,0 +1,1 @@
+// Example of how to communicate with a web service\n$ch = curl_init('http://localhost:port/api/generateLicense');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_POST, 1);\ncurl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('licenseName' => $regName)));\n$response = curl_exec($ch);\ncurl_close($ch);

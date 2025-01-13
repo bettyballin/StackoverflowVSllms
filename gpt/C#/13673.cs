@@ -1,1 +1,0 @@
-// In your redirectto.aspx\n   string originalUrl = "http://mysite/handler.ashx?id=123&locale=123";\n   Response.Redirect(originalUrl, false);\n   HttpContext.Current.ApplicationInstance.CompleteRequest();

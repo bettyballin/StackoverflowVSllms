@@ -1,1 +1,0 @@
-sudo apt-get install php-imap\n   sudo phpenmod imap\n   sudo service apache2 restart

@@ -1,1 +1,0 @@
-adt -package -storetype pkcs12 -keystore your-cert.p12 -storepass your-password -target native MyAirApp.air application.xml index.html path/to/your/flashComponent.swf

@@ -1,1 +1,0 @@
-/* Example CSS to remove unwanted margins or borders */\n.some-element {\n    border-left: none; /* Removes left border if any */\n    margin-left: 0;    /* Resets left margin */\n    padding-left: 0;   /* Resets left padding */\n}

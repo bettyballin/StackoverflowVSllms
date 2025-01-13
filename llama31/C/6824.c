@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint main() {\n    // Open the file for writing\n    FILE* file = fopen("large_file.dat", "wb");\n    if (!file) {\n        // Handle error\n    }\n\n    // Set the file size to 1 GB (1024*1024*1024 bytes)\n    if (ftruncate(fileno(file), 1024 * 1024 * 1024) != 0) {\n        // Handle error\n    }\n\n    // Close the file\n    fclose(file);\n    return 0;\n}

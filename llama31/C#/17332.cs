@@ -1,0 +1,1 @@
+string directory = "directory";\nstring file = "tool.exe";\nstring expandedFilename = Path.Combine(Environment.ExpandEnvironmentVariables("%programfiles%"), directory, file);

@@ -1,1 +1,0 @@
-select foo from bar where dateColumn = '20230115'

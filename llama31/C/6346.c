@@ -1,0 +1,1 @@
+typedef struct _SHELLSTATE_FLAGS {\n    DWORD fShowStatusBar:1;   // Show status bar\n    DWORD fShowAddressBar:1;  // Show address bar\n    DWORD fShowLinksFolder:1; // Show links folder\n    // ... other flags ...\n} SHELLSTATE_FLAGS;

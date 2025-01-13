@@ -1,0 +1,1 @@
+int test (int x)\n{\n  int y;\n  // do a bit-rotate by 8 on the lower word. leave upper word intact.\n  asm ("rorw $8, %0\n\t": "=w"(y) :"0"(x));\n  return y;\n}

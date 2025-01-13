@@ -1,0 +1,1 @@
+sudo -s "echo 'something' >> /etc/privilegedFile"

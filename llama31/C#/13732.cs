@@ -1,0 +1,1 @@
+ameList = nameList.OrderBy(x => x.Text).ToList();

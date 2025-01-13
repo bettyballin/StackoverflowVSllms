@@ -1,1 +1,0 @@
-<configuration>\n      <system.web>\n        <trace enabled="true" pageOutput="true" />\n      </system.web>\n    </configuration>

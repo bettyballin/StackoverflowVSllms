@@ -1,1 +1,0 @@
-<?php\n   // Disable session cookies\n   ini_set('session.use_cookies', 0);\n   ini_set('session.use_only_cookies', 0);\n   ini_set('session.use_trans_sid', 0);\n\n   // Set a session ID to an empty string to ensure no cookie is set\n   session_id('');\n\n   // Prevent PHP from sending any cookies\n   header_remove('Set-Cookie');\n   ?>

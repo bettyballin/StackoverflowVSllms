@@ -1,0 +1,1 @@
+{\n    string nom = "1";\n    string ou;\n    if (nom == "1")\n    {\n        ou = "2";\n    }\n    Console.WriteLine(ou);\n}

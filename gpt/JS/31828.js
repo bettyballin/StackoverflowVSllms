@@ -1,1 +1,0 @@
-// script.js\nadmin = false; // Assume this is set based on user authentication\n\n$(".something").dblclick(function() {\n  if (admin && typeof adminstuff === 'function') {\n    adminstuff(); // Implemented in admin.js (conditionally included)\n  } else {\n    userstuff();\n  }\n});

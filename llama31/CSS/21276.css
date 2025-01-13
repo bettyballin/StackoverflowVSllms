@@ -1,0 +1,1 @@
+table {\n  border-collapse: collapse;\n}\n\ntd:empty {\n  border: none;\n}\n\ntable:empty {\n  border: none;\n}\n\ntd {\n  border: 1px solid #000;\n}\n\ntable {\n  border: 1px solid #000;\n}

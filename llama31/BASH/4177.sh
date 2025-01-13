@@ -1,0 +1,1 @@
+ffmpeg -i input.ima4 -c:a libmp3lame output.mp3

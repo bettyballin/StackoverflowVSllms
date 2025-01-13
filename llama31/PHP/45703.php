@@ -1,0 +1,1 @@
+$wsdl = new phpwsdl\Wsdl('http://example.com/service?wsdl');\n$classes = $wsdl->generateClasses();

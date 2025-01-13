@@ -1,1 +1,0 @@
-// Example using a message queue\n   Queue queue = new Queue();\n   queue.enqueue(new Task("processData", data));

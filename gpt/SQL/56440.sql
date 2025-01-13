@@ -1,1 +1,0 @@
-SELECT *\n   FROM YourFactTable fact\n   JOIN TimeDimension time ON fact.time_id = time.time_id\n   WHERE time.is_business_hour = 1;

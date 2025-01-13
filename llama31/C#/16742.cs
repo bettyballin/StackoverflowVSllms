@@ -1,0 +1,1 @@
+using System;\nusing System.Reflection;\nusing System.Collections.Generic;\n\nclass MyClass\n{\n}\n\nclass MainClass\n{\n    public static void Main(string[] args)\n    {\n        Type myType = typeof(MyClass);\n\n        Type listType = typeof(List<>).MakeGenericType(myType);\n        object myList = Activator.CreateInstance(listType);\n    }\n}

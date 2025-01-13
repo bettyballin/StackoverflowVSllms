@@ -1,1 +1,0 @@
-pear channel-discover pear.example.com

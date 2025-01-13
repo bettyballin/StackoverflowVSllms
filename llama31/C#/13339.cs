@@ -1,0 +1,1 @@
+using System.IO;\nusing System.Security.AccessControl;\n\n// ...\n\nstring folderPath = MapPath(".") + "\\Ads";\n\nvar di = new DirectoryInfo(folderPath);\nvar ds = di.GetAccessControl();\n\nds.AddAccessRule(new FileSystemAccessRule("IIS APPPOOL\\YourAppPoolName", FileSystemRights.Write, AccessControlType.Allow));\n\ndi.SetAccessControl(ds);

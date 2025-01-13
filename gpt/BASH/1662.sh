@@ -1,1 +1,0 @@
-composer require --dev phpdocumentor/phpdocumentor\n   phpdoc -d src -t docs

@@ -1,1 +1,0 @@
-.wrap {\n  width: 250px;\n  height: 140px;\n  position: relative;\n  overflow: hidden;\n  padding: 0 1em;\n}\n\nimg {\n  position: absolute;\n  top: 0;\n  left: 0;\n}\n\n.front {\n  z-index: 10; /* This ensures front.jpg is on top */\n}

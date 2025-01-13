@@ -1,0 +1,1 @@
+HANDLE hEvent = CreateEvent(NULL, FALSE, FALSE, NULL);\n\nwhile (true) {\n    // Do compression work...\n    // ...\n\n    // Check if we've used up our time slice\n    if (WaitForSingleObject(hEvent, 10) == WAIT_TIMEOUT) {\n        // If we've timed out, sleep for a bit to yield the CPU\n        Sleep(10);\n    }\n}

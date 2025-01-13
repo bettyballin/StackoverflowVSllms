@@ -1,0 +1,1 @@
+CREATE PROCEDURE OuterProc\n    @Result TABLE (Id INT, Name VARCHAR(50))\nAS\nBEGIN\n    EXEC InnerProc;\n    INSERT INTO @Result (Id, Name)\n    SELECT Id, Name FROM #ResultTable;\nEND;

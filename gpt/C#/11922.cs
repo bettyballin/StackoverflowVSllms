@@ -1,1 +1,0 @@
-// Ensure your project is set up for profiling\n// Go to Debug -> Performance Profiler -> Select the desired profiling type (CPU, Memory, etc.)\n\npublic class Program\n{\n    public static void Main(string[] args)\n    {\n        // Your application code here\n    }\n}

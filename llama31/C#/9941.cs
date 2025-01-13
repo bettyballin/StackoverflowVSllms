@@ -1,0 +1,1 @@
+using WebMatrix.WebData;\n\n// Example configuration\npublic class MembershipConfig\n{\n    public static void Configure()\n    {\n        WebSecurity.InitializeDatabaseConnection("DefaultConnection", "Users", "Id", "Username", true);\n    }\n}

@@ -1,0 +1,1 @@
+figure {\n  background: #f7f7f7; /* background color */\n  padding: 10px;\n  overflow: hidden;\n}\n\nfigure img {\n  float: left;\n  margin-right: 10px;\n}\n\nfigcaption {\n  overflow: hidden;\n}\n\nfigcaption h4 {\n  margin-top: 0;\n}\n\nfigure a:hover img {\n  opacity: 0.7; /* hover effect */\n}

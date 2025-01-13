@@ -1,0 +1,1 @@
+CREATE TABLE DynamicData (\n    ID INT PRIMARY KEY,\n    FormID INT,\n    Value VARCHAR(255)\n);

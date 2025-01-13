@@ -1,0 +1,1 @@
+keytool -v -export -alias <alias_name> -keystore <keystore_file> -storepass <store_password> -file <output_file>

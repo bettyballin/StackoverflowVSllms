@@ -1,1 +1,0 @@
-.pictureframe {\n  display: inline-block;\n  margin: 5px;\n  padding: 5px;\n  border: solid brown 2px;\n  background-color: #ffeecc;\n}\n\n#foo {\n  border: solid blue 2px;\n  display: inline-block;\n}\n\nimg {\n  display: block;\n}

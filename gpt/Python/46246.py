@@ -1,1 +1,0 @@
-class YourHandler(webapp2.RequestHandler):\n    def get(self):\n        self.response.headers['Content-Type'] = 'application/json'\n        self.response.headers.add_header('Access-Control-Allow-Origin', '*')  # Add CORS header\n        jsonData = {"foo": "bar"}\n        self.response.write(json.dumps(jsonData))

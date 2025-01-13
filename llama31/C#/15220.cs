@@ -1,0 +1,1 @@
+protected void btnSave_Click(object sender, EventArgs e) {\n    foreach (ZipCode zip in selectedZipCodes) {\n        if (zip.IsNew) {\n            // Insert new zipcode into database\n        } else if (zip.IsDeleted) {\n            // Delete zipcode from database\n        }\n    }\n}

@@ -1,1 +1,0 @@
-# .htaccess Rewrite Rules\nRewriteEngine On\nRewriteRule ^register/?$ /register.php [L]\nRewriteRule ^login/?$ /login.php [L]

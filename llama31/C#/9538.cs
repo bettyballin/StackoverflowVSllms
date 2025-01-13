@@ -1,0 +1,1 @@
+using CabLib;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        // Open an existing cabinet file\n        using (var cab = new CabFile("example.cab"))\n        {\n            // Extract all files from the cabinet\n            cab.Extract("extracted");\n        }\n    }\n}

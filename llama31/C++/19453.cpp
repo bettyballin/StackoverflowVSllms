@@ -1,0 +1,1 @@
+int main() {\n    extern "C" void myFunction();\n    return 0;\n}

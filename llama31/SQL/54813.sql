@@ -1,0 +1,1 @@
+SELECT \n  COALESCE(t1.Name, 'Item Inexistent') AS Name,\n  t2.IntValue\nFROM \n  Table2 t2\n  LEFT JOIN Table1 t1 ON t1.Id = t2.Table1sID

@@ -1,0 +1,1 @@
+$mysqli = new mysqli('your_host', 'your_username', 'your_password', 'your_database');\n\n// Set connection pooling options\n$mysqli->options(MYSQLI_OPT_CONNECT_TIMEOUT, 10); // 10 seconds\n$mysqli->options(MYSQLI_OPT_READ_TIMEOUT, 10); // 10 seconds\n\n// Perform queries\n$mysqli->query('SELECT * FROM your_table');\n\n// Close connection\n$mysqli->close();

@@ -1,0 +1,1 @@
+For Each column As DataGridViewColumn In billingDatagrid.Columns\n    ' Access the column by its Index property\n    ' ...\nNext

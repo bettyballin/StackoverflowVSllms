@@ -1,1 +1,0 @@
-SELECT * FROM wedding_dates WHERE wedding_year = 2012;

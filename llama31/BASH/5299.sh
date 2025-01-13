@@ -1,0 +1,1 @@
+sqlldr your_username/your_password control=your_control_file.ctl

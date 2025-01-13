@@ -1,1 +1,0 @@
-sudo yum install php-pdo php-mssql

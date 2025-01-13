@@ -1,0 +1,1 @@
+#div-b {\n    position: absolute;\n    background-color: red;\n    width: 35px;\n    height: 350px;\n    bottom: 0;\n    right: 0;\n    margin: 5px;\n    border: 2px solid black;\n    z-index: 1; /* Add this line */\n}

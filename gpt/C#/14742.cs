@@ -1,1 +1,0 @@
-protected void SaveButton_Click(object sender, EventArgs e)\n   {\n       // Rebind DataList before processing save logic\n       BindDataList();\n       \n       // Your save logic here\n       SaveData();\n   }

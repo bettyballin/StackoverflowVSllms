@@ -1,1 +1,0 @@
-/path/to/tomcat/bin/shutdown.sh\n/path/to/tomcat/bin/startup.sh

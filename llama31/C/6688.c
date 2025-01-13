@@ -1,0 +1,1 @@
+int main() {\n    FILE *fp = popen("ls", "r");\n    if (is_pipe(fp)) {\n        printf("It's a pipe!\n");\n    } else {\n        printf("It's not a pipe\n");\n    }\n    pclose(fp);\n    return 0;\n}

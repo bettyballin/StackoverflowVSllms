@@ -1,1 +1,0 @@
-SELECT EXISTS (\n    SELECT 1\n    FROM in_fmd i\n    WHERE description = 'GN'\n      AND (\n          i.isbn IN (\n              SELECT bwi_isbn \n              FROM bw_isbn \n              WHERE orig_isbn = ?\n          ) \n          OR i.isbn = CAST(? AS varchar)\n      )\n);

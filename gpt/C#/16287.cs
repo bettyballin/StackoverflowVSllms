@@ -1,1 +1,0 @@
-// Using pattern matching\nif (any is System.DBNull)\n{\n    // handle DBNull case\n}\n\n// Using equality comparison\nif (any == System.DBNull.Value)\n{\n    // handle DBNull case\n}

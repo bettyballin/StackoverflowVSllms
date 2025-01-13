@@ -1,1 +1,0 @@
-gu install native-image

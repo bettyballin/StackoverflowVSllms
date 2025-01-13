@@ -1,1 +1,0 @@
-using System;\nusing System.ServiceModel;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        using (ServiceHost host = new ServiceHost(typeof(DataService)))\n        {\n            host.Open();\n            Console.WriteLine("Service started. Press [Enter] to exit.");\n            Console.ReadLine();\n        }\n    }\n}

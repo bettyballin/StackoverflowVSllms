@@ -1,1 +1,0 @@
-$price = (int)$price; // Ensure $price is an integer before binding\n$stmt->bindParam(':price', $price, PDO::PARAM_INT);

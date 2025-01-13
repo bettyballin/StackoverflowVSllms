@@ -1,0 +1,1 @@
+gameProcess.StartInfo.WorkingDirectory = Path.GetDirectoryName(TextBox2.Text)

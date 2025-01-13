@@ -1,1 +1,0 @@
-// A.h\n\n#ifndef A_H\n#define A_H\n\nclass A {\npublic:\n    virtual ~A();\n    static int count;\n};\n\nclass B : public A {\npublic:\n    B();\n};\n\n#endif // A_H

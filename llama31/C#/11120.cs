@@ -1,0 +1,1 @@
+protected override void OnInit(EventArgs e)\n{\n    base.OnInit(e);\n    // ...\n    priceMask.DisplayMoney = MaskedEditShowSymbol.Left;\n    priceMask.Mask = "C99.99"; // Add the 'C' symbol to the mask\n    // ...\n}

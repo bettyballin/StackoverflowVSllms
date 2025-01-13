@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n    {\n        if (!IsPostBack)\n        {\n            GenerateForm(typeof(YourGeneratedClass), formContainer);\n        }\n    }

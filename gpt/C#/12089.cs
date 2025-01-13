@@ -1,1 +1,0 @@
-internal class MyClass\n{\n    internal int Multiply(int a, int b)\n    {\n        return a * b;\n    }\n}

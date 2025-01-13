@@ -1,1 +1,0 @@
-Namespace flightinfo\n        Public Class Soap\n            ' Your web service code here\n        End Class\n    End Namespace

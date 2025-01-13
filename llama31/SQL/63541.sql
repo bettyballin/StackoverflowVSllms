@@ -1,0 +1,1 @@
+SELECT CategoryName\nFROM Categories\nWHERE ID_Category NOT IN (\n  SELECT SuperCategoryID\n  FROM SuperCategories\n)

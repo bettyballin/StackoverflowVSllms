@@ -1,0 +1,1 @@
+using (var dbContext = new MyDbContext())\n{\n    var myEntity = new MyEntity { Name = "John Doe" };\n    dbContext.MyEntities.Add(myEntity);\n    dbContext.SaveChanges();\n}

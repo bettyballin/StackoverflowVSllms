@@ -1,0 +1,1 @@
+try\n{\n    // execute database query\n}\ncatch (SqlException ex)\n{\n    if (ex.Number == -2)  // timeout error number\n    {\n        // handle timeout exception\n    }\n}

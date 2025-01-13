@@ -1,1 +1,0 @@
-curl --negotiate -u : -x http://proxy-server:port http://example.com

@@ -1,1 +1,0 @@
-// Assuming your BindingSource is named 'bindingSource' and your TableAdapter is named 'tableAdapter'\n\n// Manually push the data from the TextBox controls to the BindingSource\nbindingSource.EndEdit();\n\n// Now call the Update method on your TableAdapter\ntableAdapter.Update(yourDataSet.YourDataTable);

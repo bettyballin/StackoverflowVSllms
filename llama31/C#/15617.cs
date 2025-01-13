@@ -1,0 +1,1 @@
+MultilineTreeNode node = new MultilineTreeNode("This is a multiline node.\nWith a second line.\nAnd a third line.");\nnode.Nodes.Add(new TreeNode("Child node"));\ntreeView1.Nodes.Add(node);

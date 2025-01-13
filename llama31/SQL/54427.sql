@@ -1,0 +1,1 @@
+CREATE TABLE parent (\n  id INT PRIMARY KEY,\n  name VARCHAR(50)\n);\n\nCREATE TABLE child (\n  id INT PRIMARY KEY,\n  parent_id INT,\n  FOREIGN KEY (parent_id) REFERENCES parent(id) ON DELETE CASCADE ON UPDATE CASCADE\n);

@@ -1,1 +1,0 @@
-// In driverA.c\n#include <linux/module.h>\n\nvoid driverA_function(void) {\n    // Function implementation\n}\n\nEXPORT_SYMBOL(driverA_function);  // Make this function available to other modules\n\nMODULE_LICENSE("GPL");

@@ -1,0 +1,1 @@
+ldd -u your_shared_object.so

@@ -1,0 +1,1 @@
+form_for @story, url: { controller: 'stories', action: 'create' }, method: 'post' do |f|\n  # ...\nend

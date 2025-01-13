@@ -1,0 +1,1 @@
+#include <Windows.h>\n\nint main() {\n    LANGID langId = GetThreadLocale();\n    return 0;\n}

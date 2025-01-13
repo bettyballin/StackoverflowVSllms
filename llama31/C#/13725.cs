@@ -1,0 +1,1 @@
+public class Dimensions : IDimensions\n{\n    // ...\n}

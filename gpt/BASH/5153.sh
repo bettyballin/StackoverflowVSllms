@@ -1,1 +1,0 @@
-mt.exe -inputresource:myapp.exe;#1 -out:myapp.exe.manifest

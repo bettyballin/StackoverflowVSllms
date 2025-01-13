@@ -1,0 +1,1 @@
+throw new ValidationException("Custom error message");

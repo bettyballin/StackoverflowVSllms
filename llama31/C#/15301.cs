@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    // ...\n    if (!SecurityManager.IsActionAuthorized("List", typeof(YourEntity)))\n    {\n        // Redirect the user to an unauthorized page or display an error message\n    }\n}

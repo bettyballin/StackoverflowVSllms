@@ -1,1 +1,0 @@
-# Edit this file on the remote server\n   vi ~/.bashrc\n\n   # Add the following line to the file if it's not already present\n   export PATH=/usr/local/bin:$PATH\n\n   # Reload the .bashrc file to apply the changes\n   source ~/.bashrc

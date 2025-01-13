@@ -1,0 +1,1 @@
+XmlNode node = myXMLdoc.SelectSingleNode("/itemSet/Item[.='two']")

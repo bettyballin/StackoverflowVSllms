@@ -1,0 +1,1 @@
+uuid.time_low = ntohl(uuid.time_low);\nuuid.time_mid = ntohs(uuid.time_mid);\nuuid.time_hi_and_version = ntohs(uuid.time_hi_and_version);

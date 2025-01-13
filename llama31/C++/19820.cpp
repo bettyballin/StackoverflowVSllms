@@ -1,0 +1,1 @@
+using ReverseMap = std::unordered_map<ID*, Foo*>;\n\nReverseMap reverseMap;\n\nvoid FindXXX(const ID* pID) {\n    auto it = reverseMap.find(pID);\n    if (it != reverseMap.end()) {\n        Foo* foo = it->second;\n        // Do something with foo\n    }\n}

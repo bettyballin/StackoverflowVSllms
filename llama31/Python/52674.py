@@ -1,0 +1,1 @@
+import re\n\ndef sanitize_file_name(file_name):\n    # Replace spaces and special characters with hyphens\n    sanitized_name = re.sub(r'[^a-zA-Z0-9.-]', '-', file_name)\n    return sanitized_name\n\n# Example usage:\nfile_name = "Hello World.txt"\nsanitized_name = sanitize_file_name(file_name)\nprint(sanitized_name)  # Output: "Hello-World.txt"

@@ -1,1 +1,0 @@
-// Example of enabling Entity Cache module\n   drush en entitycache -y

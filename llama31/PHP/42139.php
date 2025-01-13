@@ -1,0 +1,1 @@
+$secureId = bin2hex(random_bytes(16)); // 128-bit cryptographically secure random ID

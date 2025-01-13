@@ -1,1 +1,0 @@
-SELECT * \nFROM Data \nORDER BY \n    CASE \n        WHEN @Direction = 1 THEN SortOrder \n        ELSE NULL \n    END DESC, \n    CASE \n        WHEN @Direction != 1 THEN SortOrder \n        ELSE NULL \n    END ASC;

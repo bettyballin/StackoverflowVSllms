@@ -1,0 +1,1 @@
+var tagIds = new int[] { 2, 3, 4, 7 };\n\nvar items = (from i in db.Items\n             join tm in db.TagMaps on i.ItemId equals tm.ItemId\n             where tagIds.Contains(tm.TagId)\n             select i).Distinct();

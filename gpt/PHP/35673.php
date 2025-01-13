@@ -1,1 +1,0 @@
-// Inefficient query\n$result = $mysqli->query("SELECT * FROM users WHERE id = $userId");\n\n// Optimized query with prepared statements\n$stmt = $mysqli->prepare("SELECT name, email FROM users WHERE id = ?");\n$stmt->bind_param("i", $userId);\n$stmt->execute();\n$result = $stmt->get_result();\n$user = $result->fetch_assoc();

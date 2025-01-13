@@ -1,1 +1,0 @@
-self::$staticProperty;\n  self::staticMethod();

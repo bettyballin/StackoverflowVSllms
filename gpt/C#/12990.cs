@@ -1,1 +1,0 @@
-SortedDictionary<string, int> sortedDictionary = new SortedDictionary<string, int>();\n   sortedDictionary["Alice"] = 30;

@@ -1,1 +1,0 @@
-protected void Page_PreRender(object sender, EventArgs e)\n{\n    string pageKey = HiddenFieldPageKey.Value;\n    var data = SessionManager.GetSessionData(pageKey);\n    // Use the data as needed\n}

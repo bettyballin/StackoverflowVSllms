@@ -1,1 +1,0 @@
-const char *sql = "SELECT your_integer_column FROM your_table";\n   OCIStmtPrepare(stmthp, errhp, (text *)sql, (ub4)strlen(sql), OCI_NTV_SYNTAX, OCI_DEFAULT);

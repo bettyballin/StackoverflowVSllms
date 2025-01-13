@@ -1,1 +1,0 @@
-DECLARE @Today DATE = GETDATE();\n\nSELECT pd.PID, pd.Offset, pd.Detail\nFROM Pattern p\nJOIN PatternDetail pd ON p.ID = pd.PID\nWHERE pd.Offset = ((DATEDIFF(DAY, p.BaseDate, @Today)) % p.DayCount);

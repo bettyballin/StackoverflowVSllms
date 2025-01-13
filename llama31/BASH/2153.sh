@@ -1,0 +1,1 @@
+# Create a new branch for refactoring\ngit checkout -b refactor/new-feature\n\n# Perform refactoring changes on this branch\n# ...\n\n# Merge the refactoring branch into the trunk\ngit checkout trunk\ngit merge refactor/new-feature\n\n# Resolve any conflicts and commit the merge\n# ...\n\n# Delete the refactoring branch\ngit branch -d refactor/new-feature

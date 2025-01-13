@@ -1,0 +1,1 @@
+LD_OPTIONS="-ztextoff" gcc -shared your_file.c -o your_library.so

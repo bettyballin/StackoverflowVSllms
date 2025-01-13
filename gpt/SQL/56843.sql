@@ -1,1 +1,0 @@
-SELECT \n    c.cal_date,\n    COALESCE(COUNT(w.id), 0) AS login_count\nFROM \n    Calendar c\nLEFT JOIN \n    WebsiteLogin w\nON \n    DATE(w.login_date) = c.cal_date\nGROUP BY \n    c.cal_date\nORDER BY \n    c.cal_date;

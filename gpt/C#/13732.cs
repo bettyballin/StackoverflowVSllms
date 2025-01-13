@@ -1,1 +1,0 @@
-using System.Web.Services;\n\npublic partial class YourPage : System.Web.UI.Page\n{\n    [WebMethod]\n    public static string GetServerTime()\n    {\n        return DateTime.Now.ToString();\n    }\n}

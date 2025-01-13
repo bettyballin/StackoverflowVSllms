@@ -1,0 +1,1 @@
+CREATE TABLE aliases (\n  id INT PRIMARY KEY,\n  name VARCHAR(255) NOT NULL,\n  alias_of INT,\n  FOREIGN KEY (alias_of) REFERENCES aliases(id)\n);

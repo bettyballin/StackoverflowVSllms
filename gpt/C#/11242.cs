@@ -1,1 +1,0 @@
-// In Startup.cs\n   public void Configure(IApplicationBuilder app, IHostingEnvironment env)\n   {\n       app.UseHttpsRedirection();\n   }

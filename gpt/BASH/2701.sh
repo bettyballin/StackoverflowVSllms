@@ -1,1 +1,0 @@
-aspnet_regiis -pdf "appSettings" "C:\path\to\your\web\config\directory"

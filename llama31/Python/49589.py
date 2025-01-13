@@ -1,0 +1,1 @@
+my_list = [1, 2, 3, 4, 5]\nindex = next((i for i, x in enumerate(my_list) if x > 3), -1)  # returns 3

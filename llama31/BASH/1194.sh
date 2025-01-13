@@ -1,0 +1,1 @@
+git format-patch -1 <commit_hash> > patch_file.patch

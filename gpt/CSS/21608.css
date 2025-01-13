@@ -1,1 +1,0 @@
-#topnav ul {\n    float: left;\n    margin: 0;\n    padding: 0;\n    list-style: none;\n    direction: rtl; /* Add this for RTL language support */\n}\n\n#topnav li {\n    float: left; /* Change to left to maintain RTL order */\n    margin: 0 10px 0 0;\n    padding: 0 10px 0 0;\n    background: url(img/topnav_br.png) no-repeat left center;\n}

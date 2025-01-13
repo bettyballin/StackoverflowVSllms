@@ -1,0 +1,1 @@
+// submit.php\n<?php\nif (isset($_POST['name'])) {\n    // Process the form submission\n    echo "Hello, " . $_POST['name'] . "!";\n} else {\n    echo "Please fill in your name.";\n}\n?>

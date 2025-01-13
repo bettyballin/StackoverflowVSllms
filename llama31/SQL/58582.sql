@@ -1,0 +1,1 @@
+-- Grant permissions on the database\nUSE [YourDatabaseName];\nCREATE USER [IIS APPPOOL\DefaultAppPool] FOR LOGIN [IIS APPPOOL\DefaultAppPool];\nGRANT SELECT, INSERT, UPDATE, DELETE ON DATABASE::[YourDatabaseName] TO [IIS APPPOOL\DefaultAppPool];

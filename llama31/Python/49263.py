@@ -1,0 +1,1 @@
+def gray_code(n):\n    if n == 1:\n        return ["0", "1"]\n    else:\n        codes = gray_code(n - 1)\n        return ["0" + code for code in codes] + ["1" + code for code in codes[::-1]]\n\ngray_codes = gray_code(4)\nprint(gray_codes)

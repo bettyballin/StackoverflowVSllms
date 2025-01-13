@@ -1,1 +1,0 @@
-convert mainImg_3.gif -quality 85 mainImg_3.jpg

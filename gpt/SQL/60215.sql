@@ -1,1 +1,0 @@
-WITH CTE AS (\n    SELECT \n        colname,\n        CAST(SUBSTRING(colname, 10, LEN(colname) - 10) AS INT) AS numeric_part\n    FROM \n        table\n)\nSELECT \n    colname\nFROM \n    CTE\nORDER BY \n    numeric_part;

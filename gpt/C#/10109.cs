@@ -1,1 +1,0 @@
-public class HomeController : Controller\n{\n    public ActionResult Index()\n    {\n        return Content("Hello, World!");\n    }\n}

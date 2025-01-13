@@ -1,0 +1,1 @@
+# Create an Oracle Wallet\nmkstore -wrl /path/to/wallet -create\n\n# Add credentials to the wallet\nmkstore -wrl /path/to/wallet -createCredential mydatabase myuser mypassword\n\n# Use the wallet in your script\nsqlplus /@mydatabase

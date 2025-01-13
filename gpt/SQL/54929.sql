@@ -1,1 +1,0 @@
-SELECT * FROM YourTable\nWHERE Title LIKE 'blah blah 1\.5' ESCAPE '\';

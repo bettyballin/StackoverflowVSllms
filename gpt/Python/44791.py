@@ -1,1 +1,0 @@
-def reorder_todo_items(project_id, ordered_item_ids):\n    for idx, item_id in enumerate(ordered_item_ids):\n        TodoItem.objects.filter(id=item_id, project_id=project_id).update(order=idx)

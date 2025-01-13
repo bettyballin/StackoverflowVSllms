@@ -1,1 +1,0 @@
-class AppModel extends Model {\n        // Define associations explicitly\n        var $belongsTo = array('AssociatedModel1', 'AssociatedModel2');\n        var $hasMany = array('AssociatedModel3', 'AssociatedModel4');\n        var $hasOne = array('AssociatedModel5');\n        var $hasAndBelongsToMany = array('AssociatedModel6');\n    }

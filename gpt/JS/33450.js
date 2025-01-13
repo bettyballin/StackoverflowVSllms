@@ -1,1 +1,0 @@
-var a = {\n  class: "Person",\n  name: "William Shakespeare",\n  birthday: -12802392000000,\n  nickname: "Bill"\n};

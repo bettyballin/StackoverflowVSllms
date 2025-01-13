@@ -1,0 +1,1 @@
+CREATE TABLE menu (\n  id INT PRIMARY KEY,\n  title VARCHAR(255),\n  parent_id INT,\n  level INT\n);

@@ -1,1 +1,0 @@
-USE [YourDevDatabase];\n   TRUNCATE TABLE [LoggingTable];\n   DELETE FROM [HeavyTable] WHERE [SomeCondition];

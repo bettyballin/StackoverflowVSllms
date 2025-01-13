@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE your_column REGEXP '(^|\\[\\/lang_[a-z]{2}\\])[[:space:]]*[^\\[]+?[[:space:]]*(\\[lang_[a-z]{2}\\]|$)';

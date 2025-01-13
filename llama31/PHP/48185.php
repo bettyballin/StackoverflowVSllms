@@ -1,0 +1,1 @@
+putenv('FREETDS=/path/to/freetds.conf');

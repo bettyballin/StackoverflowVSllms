@@ -1,0 +1,1 @@
+const fs = require('fs');\nconst stats = fs.statSync('/home/me/file.txt');\nconsole.log(`File was modified on ${stats.mtime}`);

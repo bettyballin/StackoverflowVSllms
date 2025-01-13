@@ -1,0 +1,1 @@
+bool isValidPointer(void* ptr) {\n    if (ptr == NULL) return false;\n    uintptr_t addr = (uintptr_t)ptr;\n    if (addr < 0x1000) return false; // invalid low addresses\n    if (addr >= 0x7FFFFFFF) return false; // invalid high addresses\n    return (addr % sizeof(void*)) == 0; // alignment check\n}

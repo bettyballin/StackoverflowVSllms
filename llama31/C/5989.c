@@ -1,0 +1,1 @@
+OCIAttrSet(sess, OCI_HTYPE_SESSION, &timeout, sizeof(timeout), OCI_ATTR_SESSION_TIMEOUT, err);

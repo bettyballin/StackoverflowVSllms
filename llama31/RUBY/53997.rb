@@ -1,0 +1,1 @@
+# config/initializers/cookie_store.rb\nmodule ActionController\n  module Session\n    class CookieStore\n      def set_session_cookie!(session_id, options)\n        options[:httponly] = true\n        super\n      end\n    end\n  end\nend

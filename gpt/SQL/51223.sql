@@ -1,1 +1,0 @@
--- Select Method\nSELECT Id, Forename, Surname, Email, DateOfBirth\nFROM Person\nWHERE PersonName LIKE '%frank%';\n\n-- List Method\nSELECT Id, Forename, Surname\nFROM Person\nWHERE PersonName LIKE '%frank%';\n\n-- Search Method\nSELECT Id, Forename, Surname, Email, PhoneNumber\nFROM Person\nWHERE PersonName LIKE '%frank%';

@@ -1,1 +1,0 @@
-gcc -mavx -o avx_example avx_example.c

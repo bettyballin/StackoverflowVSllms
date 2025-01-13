@@ -1,0 +1,1 @@
+model.update_column(:created_at, legacy_data['created_at'])\nmodel.update_column(:updated_at, legacy_data['updated_at'])

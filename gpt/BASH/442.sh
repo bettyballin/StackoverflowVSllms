@@ -1,1 +1,0 @@
-tail -f /var/log/httpd/ssl_error_log

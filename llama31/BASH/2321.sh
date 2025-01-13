@@ -1,0 +1,1 @@
+svn commit -m "Resolved conflicts by accepting repository version"

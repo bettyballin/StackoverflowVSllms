@@ -1,0 +1,1 @@
+yourDataTable.DefaultView.Sort = "YourColumnName ASC System.String.Ordinal";

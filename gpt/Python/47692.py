@@ -1,1 +1,0 @@
-class MyInt(int):\n    def my_random_method(self):\n        return self + 1\n\nmy_int = MyInt(5)\nprint(my_int.my_random_method())  # Output: 6

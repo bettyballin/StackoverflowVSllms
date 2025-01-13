@@ -1,1 +1,0 @@
-// PHP example of escaping JSON for use in HTML\n    echo htmlspecialchars(json_encode($data), ENT_QUOTES, 'UTF-8');

@@ -1,0 +1,1 @@
+usermod -aG <group_name> www-data

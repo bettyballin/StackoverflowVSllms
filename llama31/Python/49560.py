@@ -1,0 +1,1 @@
+from django.db.models import Count\n\nsquirrel_qs = Squirrel.objects.filter(country_of_origin='USA').annotate(\n    nut_count=Count('nut_table')\n)\n\n# Now you can access the nut_count attribute\nfor squirrel in squirrel_qs:\n    print(squirrel.name, squirrel.nut_count)

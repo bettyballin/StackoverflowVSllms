@@ -1,0 +1,1 @@
+def find_majority_element(arr):\n    count_dict = {}\n    for num in arr:\n        if num in count_dict:\n            count_dict[num] += 1\n        else:\n            count_dict[num] = 1\n        if count_dict[num] > len(arr) / 2:\n            return num

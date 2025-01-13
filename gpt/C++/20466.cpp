@@ -1,1 +1,0 @@
-// stdafx.h\n#pragma once\n\n#include <iostream>\n#include <vector>\n\n// Add managed references\n#using <mscorlib.dll>\n#using <System.dll>\n#using <Core.dll> // Ensure this is included

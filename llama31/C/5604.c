@@ -1,0 +1,1 @@
+int n = 42;\nif ((n & 1) == 0) {\n    printf("Even\n");\n}

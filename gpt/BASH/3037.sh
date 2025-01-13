@@ -1,1 +1,0 @@
-sudo cp /etc/php.ini.default /etc/php.ini

@@ -1,0 +1,1 @@
+function uploadFolder($x) {\n    $firstLevel = floor($x / 180000) + 1;\n    $secondLevel = floor(($x % 180000) / 2000) % 10 + 1;\n    $thirdLevel = floor(($x % 2000) / 200) % 10 + 1;\n    \n    return "$firstLevel/$secondLevel/$thirdLevel";\n}

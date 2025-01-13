@@ -1,0 +1,1 @@
+$result = (int) ($value & 0xFFFFFFFF); // Mask result to 32 bits

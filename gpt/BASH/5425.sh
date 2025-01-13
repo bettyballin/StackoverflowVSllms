@@ -1,1 +1,0 @@
-php -c /etc/php/apache2/php.ini -r 'phpinfo();'

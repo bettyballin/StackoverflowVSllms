@@ -1,1 +1,0 @@
-let o = "<script type='text/javascript'>some stuff</script>";\nlet result = o.replace(/(<\s*\/?\s*)script(\s*([^>]*)?\s*>)/gi, '$1div$2');\nconsole.log(result);

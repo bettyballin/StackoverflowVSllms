@@ -1,0 +1,1 @@
+$var = 5;  // 00000101 (binary)\n$result = $var & 1;  // 00000001 (binary)\n\n$var = 4;  // 00000100 (binary)\n$result = $var & 1;  // 00000000 (binary)

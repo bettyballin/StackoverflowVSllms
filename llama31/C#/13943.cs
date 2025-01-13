@@ -1,0 +1,1 @@
+public class MyObj : IComparable\n{\n    // ...\n\n    public override bool Equals(object obj)\n    {\n        if (obj is MyObj myObj)\n        {\n            return String.Compare(this.Symbol, myObj.Symbol, true) == 0;\n        }\n        return false;\n    }\n\n    public override int GetHashCode()\n    {\n        return this.Symbol.GetHashCode();\n    }\n\n    // ...\n}

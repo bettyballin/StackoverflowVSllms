@@ -1,1 +1,0 @@
-[DataContract]\npublic class PointSurrogate\n{\n    [DataMember]\n    public double X { get; set; }\n\n    [DataMember]\n    public double Y { get; set; }\n}

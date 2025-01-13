@@ -1,1 +1,0 @@
-$ git checkout one.one\n   $ git pull . master

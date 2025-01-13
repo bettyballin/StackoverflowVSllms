@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION count_rows_in_table(table_name TEXT)\nRETURNS INTEGER AS $$\nDECLARE\n    count INTEGER;\nBEGIN\n    EXECUTE format('SELECT count(*) FROM %I', table_name) INTO count;\n    RETURN count;\nEND;\n$$ LANGUAGE plpgsql;

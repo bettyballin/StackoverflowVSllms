@@ -1,0 +1,1 @@
+var divs = $('div').filter(function() {\n  return this.id.indexOf('triger') === 0;\n});\nconsole.log(divs); // array of div elements

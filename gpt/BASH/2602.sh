@@ -1,1 +1,0 @@
-cd %systemroot%\system32\inetsrv\niisback /backup /b myBackup

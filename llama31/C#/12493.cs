@@ -1,0 +1,1 @@
+[StructLayout(LayoutKind.Explicit)]\npublic struct MyStruct {\n    [FieldOffset(0)]\n    public int i;\n\n    [FieldOffset(0)]\n    public float f;\n\n    [FieldOffset(0)]\n    public byte b1;\n\n    [FieldOffset(1)]\n    public byte b2;\n\n    [FieldOffset(2)]\n    public byte b3;\n\n    [FieldOffset(3)]\n    public byte b4;\n}

@@ -1,0 +1,1 @@
+Array\n(\n    [gif] => gif=>0\n    [jpg] => jpeg=>90\n    [jpeg] => jpeg=>90\n    [png] => png=>8\n)

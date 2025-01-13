@@ -1,0 +1,1 @@
+g++ -O2 your_code.cpp -o your_binary

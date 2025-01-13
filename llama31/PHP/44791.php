@@ -1,0 +1,1 @@
+use yii\web\Application;\n\nclass HelloWorld extends Application\n{\n    public function actionIndex()\n    {\n        return 'Hello, World!';\n    }\n}

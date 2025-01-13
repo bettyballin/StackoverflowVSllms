@@ -1,0 +1,1 @@
+public partial class YourEntity\n{\n    [Required(ErrorMessage = "Email Id is required")]\n    [RegularExpression(@"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$", ErrorMessage = "Invalid Email Id")]\n    public string EmailId { get; set; }\n}

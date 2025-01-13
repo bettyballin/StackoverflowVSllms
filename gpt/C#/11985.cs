@@ -1,1 +1,0 @@
-using System;\n\n[AttributeUsage(AttributeTargets.Assembly)]\npublic class BuildDateAttribute : Attribute\n{\n    public DateTime BuildDate { get; }\n\n    public BuildDateAttribute(string buildDate)\n    {\n        BuildDate = DateTime.Parse(buildDate);\n    }\n}

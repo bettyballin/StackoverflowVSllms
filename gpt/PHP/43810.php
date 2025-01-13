@@ -1,1 +1,0 @@
-class Foo {\n    public function bar() {\n        $originalFilePath = $_SERVER['SCRIPT_FILENAME'];\n        echo $originalFilePath;\n    }\n}\n\n// index.php\nrequire 'inc/app/Foo.class.php';\n$foo = new Foo();\n$foo->bar();

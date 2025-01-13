@@ -1,0 +1,1 @@
+appcmd set config -section:system.webServer -site.name:"NewSiteName" -in < workingSiteConfig.xml

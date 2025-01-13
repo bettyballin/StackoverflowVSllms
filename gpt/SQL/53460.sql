@@ -1,1 +1,0 @@
-UPDATE im\nSET im.mf_item_number = 'NewValue'  -- Replace 'NewValue' with the actual value you want to set\nFROM item_master im\nJOIN group_master gm ON im.sku = gm.sku\nJOIN Manufacturer_Master mm ON gm.ManufacturerID = mm.ManufacturerID\nWHERE im.mf_item_number like 'STA%'\n  AND gm.ManufacturerID = 34;

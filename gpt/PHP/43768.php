@@ -1,1 +1,0 @@
-class MyClass {\n         public static $staticVar = 'Static Variable';\n         public static function staticMethod() {\n             return 'Static Method';\n         }\n     }\n\n     // Accessing static property\n     echo MyClass::$staticVar;\n\n     // Calling static method\n     echo MyClass::staticMethod();

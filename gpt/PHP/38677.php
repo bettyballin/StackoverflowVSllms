@@ -1,1 +1,0 @@
-public function setChangeSort($changeSort)\n{\n    self::$changeSort = $changeSort;\n}\n\npublic function getChangeSort()\n{\n    return self::$changeSort;\n}

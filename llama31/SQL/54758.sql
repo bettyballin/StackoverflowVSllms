@@ -1,0 +1,1 @@
+-- Export a package definition as a SQL file\nSELECT DBMS_METADATA.get_ddl('PACKAGE', 'your_package_name')\nFROM dual;

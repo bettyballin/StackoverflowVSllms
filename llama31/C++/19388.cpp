@@ -1,0 +1,1 @@
+// Server-side\ndistance = calculate_distance(player_A, player_B);\nfidelity = calculate_fidelity(distance);\nsend_to_client(player_B.pos * fidelity);

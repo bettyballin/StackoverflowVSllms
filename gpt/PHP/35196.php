@@ -1,1 +1,0 @@
-$pdo = new PDO('mysql:host=your_host;dbname=your_database;charset=utf8mb4', 'username', 'password', [\n       PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8mb4'\n   ]);

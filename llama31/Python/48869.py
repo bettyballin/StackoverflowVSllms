@@ -1,0 +1,1 @@
+if __name__ == "__main__":\n    builder = gtk.Builder()\n    builder.add_from_file("mydialog.glade")\n\n    dialog = builder.get_object("mydialog-instance")\n    # Now you can access the treeview as dialog.treeview\n    dialog.run()

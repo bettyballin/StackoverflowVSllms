@@ -1,1 +1,0 @@
-CREATE TABLE your_table_name (\n       column1_name datatype,\n       column2_name datatype,\n       ...\n   );

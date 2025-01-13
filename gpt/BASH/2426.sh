@@ -1,1 +1,0 @@
-sudo cpan -u\n   sudo cpan install Compress::Zlib

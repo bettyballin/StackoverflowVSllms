@@ -1,0 +1,1 @@
+<?php\n$email_id = $_GET['email_id'];\n// Log the request and update the email status\n// ...\n?>

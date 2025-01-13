@@ -1,0 +1,1 @@
+struct { int values[20]; } foo;

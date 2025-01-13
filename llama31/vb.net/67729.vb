@@ -1,0 +1,1 @@
+Dim conn As New OleDbConnection("your_connection_string")\nDim cmd As New OleDbCommand("your_insert_statement_with_returning_clause", conn)\n\nconn.Open()\nDim returnValue As Integer = CInt(cmd.ExecuteScalar())\nconn.Close()\n\n' Use the returned value as needed

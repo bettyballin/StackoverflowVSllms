@@ -1,0 +1,1 @@
+// Twig example\n<?php\n  $twig = new Twig_Environment();\n  echo $twig->render('template.html', ['markup' => $a ? '[SOME MARKUP]' : '[OTHER MARKUP]']);\n?>

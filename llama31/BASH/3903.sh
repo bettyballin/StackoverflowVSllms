@@ -1,0 +1,1 @@
+msiexec /a vssdk.msi /qb

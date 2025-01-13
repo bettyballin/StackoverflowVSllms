@@ -1,1 +1,0 @@
-# Install Visual Studio Code and the Remote Development extensions on your laptop\n   # Connect to your desktop via SSH

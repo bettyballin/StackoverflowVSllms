@@ -1,1 +1,0 @@
-#include <iostream>\n#include <unistd.h>\n\nint main() {\n    pid_t process_id = getpid();\n    std::cout << "Process ID: " << process_id << std::endl;\n    return 0;\n}

@@ -1,0 +1,1 @@
+SELECT \n  ID, \n  Rank, \n  Type, \n  Status, \n  Amount\nFROM (\n  SELECT \n    ID, \n    Rank, \n    Type, \n    Status, \n    Amount,\n    ROW_NUMBER() OVER (PARTITION BY ID ORDER BY Rank DESC) AS RowNum\n  FROM YourTable\n) AS Subquery\nWHERE RowNum = 1;

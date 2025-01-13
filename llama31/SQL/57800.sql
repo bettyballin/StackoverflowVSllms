@@ -1,0 +1,1 @@
+SELECT NVL(NVL(NVL(name, 'Unknown'), 'Not Applicable'), 'Default Value') \nFROM customers;

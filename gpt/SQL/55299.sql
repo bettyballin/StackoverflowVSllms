@@ -1,1 +1,0 @@
-CREATE TRIGGER TriggerName\nON TableName\nINSTEAD OF UPDATE\nAS\nBEGIN\n    -- Your custom logic goes here\n\n    -- Assuming you want to update the table after your custom logic\n    UPDATE TableName\n    SET Column1 = inserted.Column1,\n        Column2 = inserted.Column2,\n        ...\n    FROM inserted\n    WHERE TableName.PrimaryKey = inserted.PrimaryKey;\nEND;

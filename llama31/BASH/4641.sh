@@ -1,0 +1,1 @@
+$ export ORACLE_HOME=/opt/oracle/product/12.2.0/client_1\n$ echo $TNS_ADMIN\n/opt/oracle/product/12.2.0/client_1/network/admi

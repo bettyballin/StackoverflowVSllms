@@ -1,1 +1,0 @@
-class Image < ActiveRecord::Base\n  # existing code...\n\n  def url_for_image\n    Rails.application.routes.url_helpers.image_url(self, only_path: true)\n  end\nend

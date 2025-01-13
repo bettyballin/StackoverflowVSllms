@@ -1,1 +1,0 @@
-// In your action method, e.g., actions.class.php\n   public function executeYourAction(sfWebRequest $request)\n   {\n       // Your action logic\n       \n       // Set the body class\n       $this->getResponse()->setSlot('body_class', 'inner-page');\n   }

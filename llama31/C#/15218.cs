@@ -1,0 +1,1 @@
+Response.ContentType = "application/zip";\nResponse.AddHeader("content-disposition", "filename=" + filename);\n\nusing (ZipFile zip = new ZipFile(Response.OutputStream, FileAccess.Write))\n{\n    // ...\n}

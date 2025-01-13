@@ -1,0 +1,1 @@
+#include <windows.h>\n\nint main() {\n    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);\n    WriteConsole(hConsole, "Hello, World!", 13, NULL, NULL);  // No newline character appended\n    return 0;\n}

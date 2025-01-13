@@ -1,0 +1,1 @@
+public class PasswordResetRequest\n{\n    public string Email { get; set; }\n    public string IPAddress { get; set; }\n}

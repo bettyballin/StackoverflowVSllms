@@ -1,0 +1,1 @@
+[AllowAnonymous]\npublic ActionResult CreateAdmin()\n{\n    Membership.CreateUser("admin", "password", "admin@example.com");\n    Roles.AddUserToRole("admin", "Administrator");\n    return RedirectToAction("Index", "Home");\n}

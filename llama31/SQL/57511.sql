@@ -1,0 +1,1 @@
+DELETE t1\nFROM your_table_name t1\nINNER JOIN (\n  SELECT action, L11_data, MIN(id) AS min_id\n  FROM your_table_name\n  GROUP BY action, L11_data\n  HAVING COUNT(*) > 1\n) t2\nON t1.action = t2.action\nAND t1.L11_data = t2.L11_data\nAND t1.id > t2.min_id;

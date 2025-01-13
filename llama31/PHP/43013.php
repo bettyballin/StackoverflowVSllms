@@ -1,0 +1,1 @@
+class Database {\n  private $con;\n\n  public function __construct() {\n    $this->con = connectToDatabase();\n  }\n\n  public function doSomething() {\n    // Do stuff with MySQL\n    $this->con->tralalala();\n  }\n}\n\n$db = new Database();\n$db->doSomething();

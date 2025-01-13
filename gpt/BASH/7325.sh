@@ -1,1 +1,0 @@
-sudo perf report

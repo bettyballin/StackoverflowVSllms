@@ -1,1 +1,0 @@
-CREATE DIRECTORY backup_dir AS '/path/to/your/directory';\nGRANT READ, WRITE ON DIRECTORY backup_dir TO your_user;

@@ -1,0 +1,1 @@
+ui.a: window1.o window2.o\n    ar rcs $@ $^\n\nprogram.exe: ui.a main.o\n    gcc -o $@ $^

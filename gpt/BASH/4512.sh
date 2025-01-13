@@ -1,1 +1,0 @@
-certutil -addstore -enterprise -f "Root" "C:\MyCertificates\your_certificate.cer"

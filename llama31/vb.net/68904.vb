@@ -1,0 +1,1 @@
+Private Sub TextBox1_KeyDown(sender As Object, e As KeyEventArgs) Handles TextBox1.KeyDown\n    If Not (e.KeyCode >= Keys.D0 AndAlso e.KeyCode <= Keys.D9) AndAlso \n       e.KeyCode <> Keys.Decimal AndAlso \n       e.KeyCode <> Keys.OemPeriod AndAlso \n       e.KeyCode <> Keys.Back AndAlso \n       e.KeyCode <> Keys.Delete Then\n        e.Handled = True\n    End If\nEnd Sub

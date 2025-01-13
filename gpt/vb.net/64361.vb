@@ -1,1 +1,0 @@
-Imports System.IO\nImports System.Linq\n\nPublic Class Example\n    Public Shared Sub RandomizeFileInfoList(ByRef fileList As List(Of FileInfo))\n        Dim rand As New Random()\n        fileList = fileList.OrderBy(Function() rand.Next()).ToList()\n    End Sub\nEnd Class

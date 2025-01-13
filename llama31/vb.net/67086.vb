@@ -1,0 +1,1 @@
+' Example of AUTH_USER being used in an ASP.NET application\n' running on IIS with Windows Authentication\nDim username As String = Request.ServerVariables("AUTH_USER")

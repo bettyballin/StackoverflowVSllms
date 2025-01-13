@@ -1,0 +1,1 @@
+aspnet_regiis.exe -s <VirtualDirectoryName> -i <.NETVersion>

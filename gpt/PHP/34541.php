@@ -1,1 +1,0 @@
-<?php\necho "Hello, this is a response from the PHP script!";\n?>

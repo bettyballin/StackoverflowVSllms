@@ -1,0 +1,1 @@
+private const double EPS = 1e-6; // Adjust this value as needed for your specific calculations

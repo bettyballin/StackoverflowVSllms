@@ -1,1 +1,0 @@
-using SanitizeLibrary;\n\n    public class Program\n    {\n        public static void Main(string[] args)\n        {\n            string rawInput = "<script>alert('xss')</script>";\n            string sanitizedInput = Sanitizer.SanitizeInput(rawInput);\n            Console.WriteLine(sanitizedInput);\n        }\n    }

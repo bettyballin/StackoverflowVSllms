@@ -1,1 +1,0 @@
-d[i-1, j] + 1, // deletion \n    d[i, j-1] + 1, // insertio

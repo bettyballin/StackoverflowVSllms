@@ -1,0 +1,1 @@
+const cheerio = require('cheerio');\nconst $ = cheerio.load(fs.readFileSync('example.html'));

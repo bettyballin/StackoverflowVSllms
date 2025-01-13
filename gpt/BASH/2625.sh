@@ -1,1 +1,0 @@
-aspnet_regsql.exe -S [SQLServerName] -E -ssadd -sstype p

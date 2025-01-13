@@ -1,0 +1,1 @@
+int main() {\n    MessageWindow mw;\n    if (mw.Create()) {\n        mw.Run();\n    }\n    return 0;\n}

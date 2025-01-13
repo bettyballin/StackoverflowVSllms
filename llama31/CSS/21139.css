@@ -1,0 +1,1 @@
+div.container {\n  display: block;\n  overflow: auto; /* or overflow-y: auto; */\n}\n\ntable {\n  height: 100%; /* make the table take up the full height of the div */\n}

@@ -1,1 +1,0 @@
-chown www-data:www-data file.txt

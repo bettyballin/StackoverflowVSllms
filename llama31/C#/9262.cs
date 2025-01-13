@@ -1,0 +1,1 @@
+System.Net.NetworkCredential SMTPUserInfo = \n    new System.Net.NetworkCredential(username, password, domain);

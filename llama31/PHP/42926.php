@@ -1,0 +1,1 @@
+$form->addElementPrefixPath('My_Form_Decorator', 'My/Form/Decorator/', 'decorator');

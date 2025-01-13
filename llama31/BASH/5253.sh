@@ -1,0 +1,1 @@
+csc /Zi /pdb:MyDll.pdb MyDll.cs

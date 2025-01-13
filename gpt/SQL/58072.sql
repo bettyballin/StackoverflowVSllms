@@ -1,1 +1,0 @@
-CREATE OR REPLACE TRIGGER trigger_name\nBEFORE INSERT OR UPDATE OR DELETE ON table_name\nFOR EACH ROW\nBEGIN\n    IF INSERTING THEN\n        -- logic for insert\n    ELSIF UPDATING THEN\n        -- logic for update\n    ELSIF DELETING THEN\n        -- logic for delete\n    END IF;\nEND;

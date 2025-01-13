@@ -1,1 +1,0 @@
--- Unique index on the combination of state_id and slug\nCREATE UNIQUE INDEX idx_unique_state_slug ON cities (state_id, slug);\n\n-- Separate index on state_id for the second query\nCREATE INDEX idx_state_id ON cities (state_id);

@@ -1,0 +1,1 @@
+@media print {\n  /* Add your print-specific styles here */\n  .element-with-background {\n    background-color: #f2f2f2; /* or any other color */\n  }\n}

@@ -1,0 +1,1 @@
+// initSession() function\nfunction initSession() {\n  // ...\n}\n\n// scriptNext() function\nfunction scriptNext($script_id) {\n  // ...\n}\n\n// scriptPrevious() function\nfunction scriptPrevious() {\n  // ...\n}\n\n// Example usage\ninitSession();\n\n// Proceed to a new script\nscriptNext('new_script.php');\n\n// Go back to the previous script\nscriptPrevious();

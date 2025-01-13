@@ -1,1 +1,0 @@
-openssl genrsa -des3 -out rootCA.key 4096\n   openssl req -x509 -new -nodes -key rootCA.key -sha256 -days 1024 -out rootCA.pem

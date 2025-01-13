@@ -1,1 +1,0 @@
-CREATE TABLE CLIENT\n    (\n        NAME VARCHAR2(11), -- defaults to BYTE if not specified otherwise\n        ID_CLIENT NUMBER\n    );

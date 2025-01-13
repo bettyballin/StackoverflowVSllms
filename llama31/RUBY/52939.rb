@@ -1,0 +1,1 @@
+class SessionsController < ApplicationController\n  def destroy\n    # Log out logic here\n  end\nend

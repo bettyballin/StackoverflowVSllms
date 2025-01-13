@@ -1,0 +1,1 @@
+awk -F: '{if ($0 ~ /voltage: /) {print $2} else {print ""}}' input.csv > output.txt

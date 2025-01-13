@@ -1,1 +1,0 @@
-<?php\n// Turn off output buffering\nob_implicit_flush(true);\nob_end_flush();\n\n// Example loop to demonstrate real-time output\nfor ($i = 1; $i <= 10; $i++) {\n    echo "Number: $i<br>";\n    // Send the output to the browser immediately\n    flush();\n    // Pause for a moment to simulate real-time processing\n    sleep(1);\n}\n?>

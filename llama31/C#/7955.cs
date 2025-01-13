@@ -1,0 +1,1 @@
+if (condition)\n    doSomething();\n    doSomethingElse(); // This line will always be executed, regardless of the conditio

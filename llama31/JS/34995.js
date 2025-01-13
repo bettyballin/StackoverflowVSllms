@@ -1,0 +1,1 @@
+// Refresh the page and maintain the scroll position\nwindow.location.href = window.location.href + '#anchor';\nwindow.location.reload();

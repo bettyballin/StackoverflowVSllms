@@ -1,1 +1,0 @@
-public partial class MyCustomItem : UserControl\n{\n    public MyCustomItem()\n    {\n        InitializeComponent();\n    }\n\n    // Add properties and methods to handle the custom data\n}

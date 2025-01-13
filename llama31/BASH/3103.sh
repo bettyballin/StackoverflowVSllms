@@ -1,0 +1,1 @@
+rsync -avz --delete /source/folder/ /destination/folder/

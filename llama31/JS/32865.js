@@ -1,0 +1,1 @@
+$.ajax({\n  url: "X.asp",\n  cache: false,\n  type: "POST",\n  data: $('#xForm' + num).serialize()\n});

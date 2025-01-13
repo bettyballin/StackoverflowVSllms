@@ -1,0 +1,1 @@
+UPDATE your_table\nSET CurCode = WhatCodeShouldBe\nWHERE SomeNumber IN (SELECT SomeNumber FROM your_table);

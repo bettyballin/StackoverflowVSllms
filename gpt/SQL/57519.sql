@@ -1,1 +1,0 @@
-DROP TABLE your_table_name;

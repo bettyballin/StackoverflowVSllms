@@ -1,0 +1,1 @@
+@inherits YourNamespace.LayoutPage<LayoutModel>\n\n@Model.Tralala

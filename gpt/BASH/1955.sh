@@ -1,1 +1,0 @@
-socat -d -d pty,raw,echo=0,link=/tmp/virtualport1 pty,raw,echo=0,link=/tmp/virtualport2 &

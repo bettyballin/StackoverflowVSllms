@@ -1,0 +1,1 @@
+CREATE TABLE pivot_table (\n  table1ID INT,\n  table2ID INT,\n  PRIMARY KEY (table1ID, table2ID)\n);

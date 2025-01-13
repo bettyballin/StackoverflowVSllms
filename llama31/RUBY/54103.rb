@@ -1,0 +1,1 @@
+# Generate a CSRF token\ndef generate_csrf_token\n  session[:csrf_token] = SecureRandom.base64(32)\nend\n\n# Verify the CSRF token\ndef verify_csrf_token\n  if request.post? && params[:csrf_token] != session[:csrf_token]\n    render text: "Invalid CSRF token", status: 403\n  end\nend

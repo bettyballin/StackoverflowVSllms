@@ -1,1 +1,0 @@
-SELECT category, SUM(sales) AS total_sales\nFROM products\nGROUP BY category;

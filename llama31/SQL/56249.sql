@@ -1,0 +1,1 @@
+CREATE FULLTEXT CATALOG ftCatalog AS DEFAULT;\nCREATE FULLTEXT INDEX ON Table1 (Field1 + Field2) KEY INDEX PK_Table1;\n\nCREATE PROCEDURE [dbo].[sp_FindMatches] @SearchString varchar(30)\nAS\n  SELECT *, \n         RANK() OVER (ORDER BY ft.RANK DESC) AS MatchRank\n  FROM Table1 AS t\n  INNER JOIN FREETEXTTABLE(Table1, *, @SearchString) AS ft\n  ON t.PrimaryKey = ft.[KEY];

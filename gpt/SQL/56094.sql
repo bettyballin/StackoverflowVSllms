@@ -1,1 +1,0 @@
--- Example of database-level validation using SQL constraints\n    CREATE TABLE Comments (\n        CommentID INT PRIMARY KEY,\n        UserID INT NOT NULL,\n        QuestionID INT NOT NULL,\n        CommentText VARCHAR(500) NOT NULL,\n        FOREIGN KEY (QuestionID) REFERENCES Questions(QuestionID),\n        CHECK (LEN(CommentText) > 0) -- Ensure comment is not empty\n    );

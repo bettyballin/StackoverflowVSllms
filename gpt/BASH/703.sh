@@ -1,1 +1,0 @@
-dot -Tpng schema.dot -o schema.png

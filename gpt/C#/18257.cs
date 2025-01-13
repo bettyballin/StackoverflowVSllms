@@ -1,1 +1,0 @@
-var groupedByAge = people.GroupBy(p => p.Age);

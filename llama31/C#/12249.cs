@@ -1,0 +1,1 @@
+partial class MyServiceProxy\n{\n    /// <include file='MyServiceProxy.xml' path='doc/members/member[@name="M:MyServiceProxy.MyMethod(System.String)"]/*' />\n}

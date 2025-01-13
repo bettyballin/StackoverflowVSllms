@@ -1,0 +1,1 @@
+import xml.etree.ElementTree as ET\n\n# assuming _course is an Element variable\ndesc = ET.tostring(_course.find("Description"), encoding="unicode")

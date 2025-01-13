@@ -1,0 +1,1 @@
+using Newtonsoft.Json;\n\nstring html = "your string with apostrophe's";\nstring encodedHtml = JsonConvert.SerializeObject(html);

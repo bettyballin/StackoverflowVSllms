@@ -1,0 +1,1 @@
+Dir.glob("#{dirname}/*", encoding: 'UTF-8').each do |filename|\n  # process filename\nend

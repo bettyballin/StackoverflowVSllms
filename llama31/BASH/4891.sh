@@ -1,0 +1,1 @@
+svn propset svn:externals 'https://mirror.repo.url/path/to/files' /path/to/dev/repo

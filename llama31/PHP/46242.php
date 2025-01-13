@@ -1,0 +1,1 @@
+use Pico\Posts;\n\n// Create a new post\n$post = new Posts\Post();\n$post->setTitle('Hello World!');\n$post->setContent('This is a sample blog post.');\n$post->setTags(['hello', 'world']);\n$post->setCategories(['blog', 'sample']);\n\n// Save the post\n$posts = new Posts();\n$posts->addPost($post);

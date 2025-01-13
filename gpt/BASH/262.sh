@@ -1,1 +1,0 @@
-gcc -o sendmail sendmail.c -lcurl

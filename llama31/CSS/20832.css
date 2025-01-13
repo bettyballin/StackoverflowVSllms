@@ -1,0 +1,1 @@
+.container {\n  display: grid;\n  grid-template-areas: "second-div first-div";\n}\n\n.first-div {\n  grid-area: first-div;\n}\n\n.second-div {\n  grid-area: second-div;\n}

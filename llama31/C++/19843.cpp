@@ -1,0 +1,1 @@
+std::unique_ptr<std::list<int>> createList() {\n    std::unique_ptr<std::list<int>> myList(new std::list<int>());\n    // populate the list\n    return myList;\n}

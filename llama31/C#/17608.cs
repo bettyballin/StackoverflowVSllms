@@ -1,0 +1,1 @@
+using System.IO;\n\npublic class FileToBitStream\n{\n    public static byte[] FileToBytes(string filePath)\n    {\n        using (var fileStream = File.OpenRead(filePath))\n        {\n            var bytes = new byte[fileStream.Length];\n            fileStream.Read(bytes, 0, (int)fileStream.Length);\n            return bytes;\n        }\n    }\n}

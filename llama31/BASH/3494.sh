@@ -1,0 +1,1 @@
+hping [options] <host> <port>

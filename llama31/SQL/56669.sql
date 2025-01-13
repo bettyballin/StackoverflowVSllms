@@ -1,0 +1,1 @@
+COALESCE(\n  CONCAT('<Notes>', \n    GROUP_CONCAT(\n      CONCAT(\n        '<Note>',\n        har_notes.ID,\n        '</Note>'\n      )\n      SEPARATOR ''\n    ),\n    '</Notes>'\n  ),\n  '<Notes/>'\n) AS UserNotes

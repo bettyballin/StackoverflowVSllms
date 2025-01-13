@@ -1,0 +1,1 @@
+SELECT * FROM table WHERE UNICODE(name) LIKE '%+00DF%';  -- +00DF is the Unicode code point for ß

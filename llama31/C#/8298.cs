@@ -1,0 +1,1 @@
+[HttpPost]\npublic ActionResult UploadXml(HttpPostedFileBase file)\n{\n    // Read the uploaded file\n    string xmlData = new StreamReader(file.InputStream).ReadToEnd();\n\n    // Process the XML data\n    // ...\n\n    return Json(new { success = true });\n}

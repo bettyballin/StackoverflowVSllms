@@ -1,0 +1,1 @@
+ew Form.Element.Observer('postbody', 0.5, function(element, value) {\n  var encodedValue = encodeURIComponent(value);\n  new Ajax.Updater('preview', '/blog/textile_to_html', {\n    asynchronous: true,\n    evalScripts: true,\n    parameters: 'postbody=' + encodedValue + '&authenticity_token=' + encodeURIComponent('22f7ee12eac9efd418caa0fe76ae9e862025ef97')\n  })\n})

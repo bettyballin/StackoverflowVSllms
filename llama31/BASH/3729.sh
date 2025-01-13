@@ -1,0 +1,1 @@
+wget --header="Accept-Charset: utf-8" http://www.example.com

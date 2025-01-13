@@ -1,1 +1,0 @@
-table {\n  table-layout: fixed;\n  width: 100%; /* Ensure the table takes up the full width */\n}\n\ntd {\n  border: solid green 1px;\n  width: 200px;\n  overflow: hidden;\n  white-space: nowrap;\n  text-overflow: ellipsis; /* Optional: adds ellipsis (...) for overflow text */\n}

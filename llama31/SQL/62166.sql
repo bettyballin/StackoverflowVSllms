@@ -1,0 +1,1 @@
+SELECT * FROM get_word_completions('seq');

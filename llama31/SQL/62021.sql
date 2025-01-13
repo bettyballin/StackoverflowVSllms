@@ -1,0 +1,1 @@
+SELECT \n    DB_NAME(qs.database_id) AS DatabaseName, \n    SUM(qs.cpu_time) AS TotalCPUUsage\nFROM \n    sys.dm_exec_query_stats qs\nCROSS APPLY \n    sys.dm_exec_sql_text(qs.sql_handle) st\nWHERE \n    qs.database_id > 4  -- exclude system databases\nGROUP BY \n    qs.database_id\nORDER BY \n    TotalCPUUsage DESC;

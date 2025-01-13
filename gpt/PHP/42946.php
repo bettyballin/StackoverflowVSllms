@@ -1,1 +1,0 @@
-$dom = new DOMDocument();\n   $dom->load('file.xml');\n   $elements = $dom->getElementsByTagName('tag');\n   foreach ($elements as $element) {\n       echo $element->getAttribute('attribute');\n   }

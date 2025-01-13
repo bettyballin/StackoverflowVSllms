@@ -1,0 +1,1 @@
+string executablePath = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\Tools\RunHidden.exe"));\nstring argument = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\My-Bridge.bat"));\n\nbridge_process = System.Diagnostics.Process.Start(\n    executablePath,\n    "\"" + argument + "\"");

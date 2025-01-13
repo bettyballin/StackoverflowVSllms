@@ -1,0 +1,1 @@
+using System.Security.Cryptography;\n\n// Encrypt data\nbyte[] encryptedData = ProtectedData.Protect(dataToEncrypt, null, DataProtectionScope.CurrentUser);\n\n// Decrypt data\nbyte[] decryptedData = ProtectedData.Unprotect(encryptedData, null, DataProtectionScope.CurrentUser);

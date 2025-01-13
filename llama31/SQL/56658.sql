@@ -1,0 +1,1 @@
+DECLARE\n    v_cursor NUMBER;\n    v_name   VARCHAR2(20);\nBEGIN\n    v_cursor := DBMS_SQL.OPEN_CURSOR;\n    DBMS_SQL.PARSE(v_cursor, 'SELECT * FROM table WHERE name = :name', DBMS_SQL.NATIVE);\n    DBMS_SQL.BIND_VARIABLE(v_cursor, 'name', v_name);\n    DBMS_SQL.EXECUTE(v_cursor);\n    DBMS_SQL.FETCH_ROWS(v_cursor);\n    DBMS_SQL.CLOSE_CURSOR(v_cursor);\nEND;

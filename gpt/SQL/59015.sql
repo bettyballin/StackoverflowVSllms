@@ -1,1 +1,0 @@
-SELECT TO_CHAR(TO_DATE('24-DEC-08', 'DD-MON-RR'), 'YY') AS year_component\nFROM gct;

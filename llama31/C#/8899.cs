@@ -1,0 +1,1 @@
+X509Certificate2 certificate = new X509Certificate2("path/to/your/certificate.pfx", "password");

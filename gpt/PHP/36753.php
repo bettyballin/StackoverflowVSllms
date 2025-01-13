@@ -1,1 +1,0 @@
-$file_content = preg_replace('/\x{FEFF}/u', '', $file_content);

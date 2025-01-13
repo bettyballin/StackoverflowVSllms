@@ -1,0 +1,1 @@
+// actions.class.php\npublic function executeIndex(sfWebRequest $request)\n{\n  $this->getResponse()->setSlot('myVariable', 'Hello, World!');\n}

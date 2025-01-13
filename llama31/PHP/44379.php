@@ -1,0 +1,1 @@
+function replaceSymbols($text) {\n    return htmlspecialchars($text, ENT_QUOTES);\n}

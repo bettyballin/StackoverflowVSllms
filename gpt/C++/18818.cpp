@@ -1,1 +1,0 @@
-HWND hwndConsole = CreateWindowEx(0, "ConsoleWindowClass", "Console Window",\n                                  WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, CW_USEDEFAULT, 500, 400,\n                                  NULL, NULL, GetModuleHandle(NULL), NULL);\nShowWindow(hwndConsole, SW_SHOW);\nUpdateWindow(hwndConsole);

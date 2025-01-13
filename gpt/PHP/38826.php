@@ -1,1 +1,0 @@
-<?php\n$_code = 'ABC'; // Example value for $_code, ensure it is properly assigned\n\necho '<a href="javascript:pop_item(\'' . addslashes($_code) . '\',1)">Link </a>';\n?>

@@ -1,0 +1,1 @@
+vsperfcmd /start:sample /output:"C:\path\to\output.vsp"\n"C:\path\to\your\application.exe"\nvsperfcmd /stop

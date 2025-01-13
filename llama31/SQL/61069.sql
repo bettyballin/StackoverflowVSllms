@@ -1,0 +1,1 @@
+BEGIN;\nINSERT INTO question (id, text) VALUES (1, 'What is the answer?');\nINSERT INTO answer (id, question_id, text) VALUES (1, 1, 'This is the answer');\nINSERT INTO question (correct_answer) VALUES (1);\nCOMMIT;

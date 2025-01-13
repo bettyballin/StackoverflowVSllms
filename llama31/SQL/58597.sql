@@ -1,0 +1,1 @@
+SELECT \n  SUM(CASE WHEN field1 IS NOT NULL THEN 1 ELSE 0 END) AS field1_count,\n  SUM(CASE WHEN field2 IS NOT NULL THEN 1 ELSE 0 END) AS field2_count,\n  ...\n  SUM(CASE WHEN field70 IS NOT NULL THEN 1 ELSE 0 END) AS field70_count\nFROM \n  series \nWHERE \n  t_stamp BETWEEN x AND y;

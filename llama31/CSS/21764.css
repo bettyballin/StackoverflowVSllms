@@ -1,0 +1,1 @@
+#column {\n  overflow: auto;\n  zoom: 1; /* for IE6/7 */\n}\n\n#column:after {\n  content: "";\n  display: table;\n  clear: both;\n}

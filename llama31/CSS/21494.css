@@ -1,0 +1,1 @@
+/* Example of allowed styles for table columns */\ncol {\n  border: 1px solid #ccc;\n  background-color: #f0f0f0;\n  width: 200px;\n  visibility: visible;\n}

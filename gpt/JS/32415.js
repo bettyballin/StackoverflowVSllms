@@ -1,1 +1,0 @@
-try {\n    var iframeDocument = document.getElementById("some_iframe_id").contentWindow.document;\n    // Your code to interact with iframeDocument\n} catch (e) {\n    console.error("Access denied. Ensure that the iframe content is from the same domain and the correct security settings are applied.");\n}

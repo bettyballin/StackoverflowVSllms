@@ -1,0 +1,1 @@
+start-stop-daemon --start --user my_user --exec /path/to/my_cmd

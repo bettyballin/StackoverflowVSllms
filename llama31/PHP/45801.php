@@ -1,0 +1,1 @@
+class MyClass {\n    private function myCallback($match) {\n        // do something\n    }\n\n    public function doSomething() {\n        preg_replace_callback('/pattern/', array($this, 'myCallback'), $subject);\n    }\n}

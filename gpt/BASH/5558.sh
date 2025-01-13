@@ -1,1 +1,0 @@
-sudo a2enmod auth_kerb\n   sudo systemctl restart apache2

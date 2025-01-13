@@ -1,0 +1,1 @@
+/* styles.css */\n#popup-content {\n  width: 400px;\n  overflow-y: auto; /* add scrollbar if content exceeds height */\n}

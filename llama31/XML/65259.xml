@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <httpHandlers>\n      <add verb="*" path="*.gif" type="System.Web.Handlers.TransferRequestHandler" />\n    </httpHandlers>\n  </system.web>\n</configuration>

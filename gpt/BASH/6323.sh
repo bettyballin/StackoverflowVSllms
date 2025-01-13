@@ -1,1 +1,0 @@
-# Download Strawberry Perl Portable from the official website\n# Extract it to your desired location\n# Run your Perl script using the included Perl interpreter\nstrawberry\perl\bin\perl myscript.pl

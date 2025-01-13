@@ -1,0 +1,1 @@
+public class CustomPermission : CodeAccessPermission { ... }\n\n[CustomPermission(SecurityAction.Demand, MyCustomPermission = true)]\npublic void MethodRequiringCustomPermission() { ... }

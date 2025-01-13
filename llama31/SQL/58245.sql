@@ -1,0 +1,1 @@
+SELECT chg\nFROM (\n  SELECT ((amount1 - amount2) / amount1) AS chg\n  FROM t1\n) AS subquery\nWHERE chg > 1 OR chg < 0.3;

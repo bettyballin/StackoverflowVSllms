@@ -1,0 +1,1 @@
+var sanitizer = new HtmlSanitizer();\nsanitizer.AllowedTags.Add("img");\nsanitizer.AllowedAttributes.Add("src");

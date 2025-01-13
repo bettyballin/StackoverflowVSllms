@@ -1,1 +1,0 @@
-using System;\nusing System.Text.RegularExpressions;\n\npublic class Program\n{\n    public static void Main()\n    {\n        string input = "I DonÃ¢â‚¬â„¢t see ya..";\n        string cleanedString = Regex.Replace(input, "[^a-zA-Z0-9 .,]", "");\n        Console.WriteLine(cleanedString);\n    }\n}

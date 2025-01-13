@@ -1,1 +1,0 @@
-<!-- Spring configuration example -->\n<beans>\n    <bean id="workerV1" class="org.myhypotheticalwrapper.analyzer.WorkerV1"/>\n    <bean id="workerV2" class="org.myhypotheticalwrapper.analyzer.WorkerV2"/>\n</beans>

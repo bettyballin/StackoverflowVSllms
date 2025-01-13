@@ -1,1 +1,0 @@
-<configuration>\n       <connectionStrings>\n         <add name="OracleDbContext" \n              connectionString="Data Source=MyOracleDB;User Id=myUsername;Password=myPassword;Pooling=true;Min Pool Size=10;Max Pool Size=100;Connection Lifetime=0;" \n              providerName="System.Data.OracleClient" />\n       </connectionStrings>\n     </configuration>

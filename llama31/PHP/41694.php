@@ -1,0 +1,1 @@
+usort($posts, function($a, $b) {\n    return strcmp($a['title'], $b['title']);\n});

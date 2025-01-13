@@ -1,0 +1,1 @@
+using System.IO.IsolatedStorage;\n\n// Increase the quota to 100MB\nIsolatedStorageFile isoStore = IsolatedStorageFile.GetUserStoreForApplication();\nisoStore.IncreaseQuotaTo(100 * 1024 * 1024);

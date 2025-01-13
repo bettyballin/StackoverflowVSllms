@@ -1,0 +1,1 @@
+// Process A (service)\nusing System.ServiceModel;\n\n[ServiceContract]\npublic interface IMyService\n{\n    [OperationContract]\n    void GetMetrics();\n}\n\n// Process B (client)\nusing System.ServiceModel;\n\nvar channel = new ChannelFactory<IMyService>("myEndpoint");\nvar proxy = channel.CreateChannel();\nproxy.GetMetrics();

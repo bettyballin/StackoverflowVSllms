@@ -1,1 +1,0 @@
-client.YourServiceMethodCompleted += (s, e) =>\n{\n    if (e.Error != null)\n    {\n        // Handle the error\n        MessageBox.Show(e.Error.Message);\n    }\n    else\n    {\n        // Process the result\n    }\n};

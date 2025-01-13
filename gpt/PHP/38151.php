@@ -1,1 +1,0 @@
-if ($key == "a") return 1;\n   else if ($key == "b") return 2;\n   else if ($key == "c") return 3;

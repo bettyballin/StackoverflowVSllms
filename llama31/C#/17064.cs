@@ -1,0 +1,1 @@
+using ConsoleUI;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        var console = new ConsoleUI.Console();\n        console.WriteLine("Select a file:");\n        var filePath = console.GetFileName();\n\n        console.WriteLine($"You selected: {filePath}");\n    }\n}

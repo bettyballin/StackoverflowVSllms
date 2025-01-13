@@ -1,0 +1,1 @@
+$newText = preg_replace('/(?<!<pre>.*?)(?:&gt|&lt)(?!.*?<\/pre>)/', \n                        function($match) {\n                            return $match[0] == '&gt' ? '>' : '<';\n                        }, \n                        $text);

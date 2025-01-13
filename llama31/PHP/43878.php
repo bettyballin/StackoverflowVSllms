@@ -1,0 +1,1 @@
+function hasMultipleOccurrences($str) {\n    $words = explode(' ', $str);\n    $wordCounts = array_count_values($words);\n    foreach ($wordCounts as $count) {\n        if ($count > 1) {\n            return true;\n        }\n    }\n    return false;\n}

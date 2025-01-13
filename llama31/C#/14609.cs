@@ -1,0 +1,1 @@
+// Using route parameters (e.g., ASP.NET MVC)\n[Route("targetPage/{type}")]\npublic ActionResult TargetPage(int type) { ... }\n\n// Using path segments (e.g., ASP.NET Web Forms)\nstring url = "targetPage.aspx/3";

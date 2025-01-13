@@ -1,1 +1,0 @@
-<?php\n$str = "Hello, World!";\necho $str[7];  // Outputs: W\necho $str{7};  // Outputs: W\n?>

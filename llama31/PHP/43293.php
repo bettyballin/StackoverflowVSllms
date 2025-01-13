@@ -1,0 +1,1 @@
+$date = '2009-02-02'; // or any other date\n$lastTuesday = strtotime('last Tuesday', strtotime($date));\necho date('Y-m-d', $lastTuesday);

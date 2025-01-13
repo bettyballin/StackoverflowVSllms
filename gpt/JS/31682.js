@@ -1,1 +1,0 @@
-if (window.navigator.userAgent.indexOf('Firefox') !== -1) {\n    var canvas = document.createElement('canvas');\n    var ctx = canvas.getContext('2d');\n    ctx.mozImageSmoothingEnabled = false;\n    ctx.webkitImageSmoothingEnabled = false;\n    ctx.msImageSmoothingEnabled = false;\n    ctx.imageSmoothingEnabled = false;\n}

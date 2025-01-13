@@ -1,1 +1,0 @@
-dev_appserver.py --datastore_path=./local-directory/path-to-exported-data your-app-directory

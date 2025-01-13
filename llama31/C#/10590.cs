@@ -1,0 +1,1 @@
+using MyNamespace;\n\nclass MyClass {\n    void MyMethod() {\n        // Access the global namespace\n        global::System.Console.WriteLine("Hello, World!");\n    }\n}

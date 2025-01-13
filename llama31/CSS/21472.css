@@ -1,0 +1,1 @@
+.header-banner {\n  background-image: url('image.jpg');\n  background-size: cover;\n  height: 100px; /* or any other height you prefer */\n}\n\n@media print {\n  .header-banner {\n    background-image: none;\n  }\n  .header-banner:after {\n    content: "Your Header Text";\n    font-size: 36px; /* or any other size you prefer */\n    font-weight: bold;\n  }\n}

@@ -1,0 +1,1 @@
+class ProductsController < ApplicationController\n  def index\n    # Cache the result for 1 hour\n    @products = Rails.cache.fetch('products', expires_in: 1.hour) do\n      Product.all\n    end\n  end\nend

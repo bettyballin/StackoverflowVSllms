@@ -1,0 +1,1 @@
+su cs -c "cp -R /Users/me/cs_project ~/"

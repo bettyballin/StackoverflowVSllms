@@ -1,0 +1,1 @@
+-- Example of chunking (pseudo-code)\nfor (i = 0; i < 1000; i += chunkSize) {\n    -- Build a batch insert statement for this chunk\n    INSERT INTO your_table (column1, column2)\n    VALUES\n        -- Add values for this chunk\n    ;\n}

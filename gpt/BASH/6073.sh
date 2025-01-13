@@ -1,1 +1,0 @@
-sudo service httpd restart\n    # or\n    sudo systemctl restart httpd

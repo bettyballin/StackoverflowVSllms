@@ -1,1 +1,0 @@
-' Wait for the checkbox to be present\nIf Browser("YourBrowser").Page("YourPage").WebCheckBox("YourCheckBox").Exist(10) Then\n    ' Perform the action on the checkbox\n    Browser("YourBrowser").Page("YourPage").WebCheckBox("YourCheckBox").Set "ON"\nElse\n    Reporter.ReportEvent micFail, "Checkbox Not Found", "The checkbox was not found within the timeout period."\nEnd If

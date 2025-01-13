@@ -1,1 +1,0 @@
-class Address{\n   public $Street;\n}\n\nclass Employee{\n    public $ID;\n    public $Name;\n    public $Address;\n}\n\n$myEmployee = new Employee();\n$myEmployee->Address = new Address();\n$myEmployee->Address->Street = "123 Main St"; // Example assignment\n\n$street = $myEmployee->Address->Street;\necho $street; // Outputs: 123 Main St

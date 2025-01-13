@@ -1,1 +1,0 @@
-// sse_example.cpp\n#include <xmmintrin.h>\n\nextern "C" __declspec(dllexport) void AddFloatArrays(float* a, float* b, float* result, int count) {\n    for (int i = 0; i < count; i += 4) {\n        __m128 va = _mm_load_ps(a + i);\n        __m128 vb = _mm_load_ps(b + i);\n        __m128 vr = _mm_add_ps(va, vb);\n        _mm_store_ps(result + i, vr);\n    }\n}

@@ -1,0 +1,1 @@
+# PHP (Composer)\ncomposer update\n\n# Django (pip)\npip install --upgrade -r requirements.txt\n\n# Ruby on Rails (Bundler)\nbundle update

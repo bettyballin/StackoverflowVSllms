@@ -1,1 +1,0 @@
-RESTORE DATABASE TempDB FROM DISK = 'C:\path\to\your\backupfile.bak'\n    WITH MOVE 'OriginalDB_Data' TO 'C:\path\to\tempdb_data.mdf',\n    MOVE 'OriginalDB_Log' TO 'C:\path\to\tempdb_log.ldf';

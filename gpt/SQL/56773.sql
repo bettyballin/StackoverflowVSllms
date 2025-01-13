@@ -1,1 +1,0 @@
-SELECT name, LEAST(score_a, score_b) AS min\nFROM your_table_name;

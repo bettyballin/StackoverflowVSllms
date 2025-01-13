@@ -1,0 +1,1 @@
+require_once 'pChart.class.php';\n\n$chart = new pChart(400, 200);\n$chart->setSeriesDefault(array('series1' => array(10, 15, 7, 12, 18)));\n$chart->drawBarChart();

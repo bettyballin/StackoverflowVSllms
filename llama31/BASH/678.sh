@@ -1,0 +1,1 @@
+db2dart extract /path/to/your/db2/file.db2

@@ -1,0 +1,1 @@
+PageMethods.MethodName(function() {\n    console.log('Method called successfully');\n});

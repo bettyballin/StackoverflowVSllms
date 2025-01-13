@@ -1,0 +1,1 @@
+#!/bin/sh\n\nEMAIL="-e s/SOMETHING//g -e s/SOME THING ELSE//g"\n\nsomecommand | sed $EMAIL

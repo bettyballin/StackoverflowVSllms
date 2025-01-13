@@ -1,0 +1,1 @@
+// Parsing JSON in PHP\n$jsonData = '{"name":"John", "age":30, "city":"New York"}';\n$obj = json_decode($jsonData, true);\necho $obj["name"]; // John\n\n// Parsing XML in PHP\n$xml = '<person><name>John</name><age>30</age><city>New York</city></person>';\n$xmlObj = simplexml_load_string($xml);\necho $xmlObj->name; // Joh

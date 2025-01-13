@@ -1,0 +1,1 @@
+def convert_to_dict(tuple_list):\n    result = {}\n    for tup in tuple_list:\n        if tup[1] in result:\n            result[tup[1]].append(tup[0])\n        else:\n            result[tup[1]] = [tup[0]]\n    return result\n\ntuple_list = [(1,4),(2,4),(3,4),(4,15),(5,15),(6,23),(7,23),(8,23),(9,15),(10,23),(11,15),(12,15)]\nprint(convert_to_dict(tuple_list))

@@ -1,1 +1,0 @@
--- Query to view the transaction log\nSELECT \n    [Current LSN],\n    [Operation],\n    [Transaction ID],\n    [Transaction Name],\n    [Begin Time],\n    [SPID],\n    [End Time],\n    [Number of Locks],\n    [Lock Information]\nFROM \n    fn_dblog(NULL, NULL)

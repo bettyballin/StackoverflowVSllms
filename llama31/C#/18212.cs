@@ -1,0 +1,1 @@
+var query = context.Author\n    .Where(a => a.XmlField.XPathSelectElements("Root/CreatedAt").Any(e => e.Value == DateTime.Now.ToString()))\n    .Select(a => new\n    {\n        Author = a,\n        CreatedAt = a.XmlField.XPathSelectElements("Root/CreatedAt").Select(e => e.Value).ToList()\n    });

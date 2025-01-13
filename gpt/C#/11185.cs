@@ -1,1 +1,0 @@
-var result = from record in db.Records \n                where record.StringProperty == null || record.StringProperty == ""\n                select record;

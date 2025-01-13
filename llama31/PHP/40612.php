@@ -1,0 +1,1 @@
+$array = ...; // your array here\n\n// Accessing the 'user_id' directly if you know the key of the outer array\n$user_id = $array[2]->user_id;\n\n// If the key is dynamic or you're looping through the array\nforeach ($array as $key => $subscription) {\n    $user_id = $subscription->user_id;\n    // Do something with $user_id\n}

@@ -1,1 +1,0 @@
-tlbimp C:\Windows\System32\shdocvw.dll /out:Interop.SHDocVw.dll

@@ -1,1 +1,0 @@
-g++ -w (..lots of .o files/include directories/etc..) -L/usr/lib -lmagic

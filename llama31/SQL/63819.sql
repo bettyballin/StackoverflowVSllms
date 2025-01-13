@@ -1,0 +1,1 @@
+SELECT \n    MailAddress1 = COALESCE(NULLIF(Line1, ''), NULLIF(Line2, ''), NULLIF(Line3, ''), City + ' ' + State + ' ' + PostalCode),\n    MailAddress2 = COALESCE(NULLIF(Line2, ''), NULLIF(Line3, ''), City + ' ' + State + ' ' + PostalCode),\n    MailAddress3 = CASE WHEN Line3 IS NOT NULL AND Line3 <> '' THEN Line3 ELSE NULL END,\n    MailAddress4 = NULL\nFROM \n    your_table

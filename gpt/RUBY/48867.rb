@@ -1,1 +1,0 @@
-@if (ViewData["LoggedUser"] != null)\n{\n    var user = (UserModel)ViewData["LoggedUser"];\n    <p>Welcome, @user.Name</p>\n}\nelse\n{\n    <p>Welcome, Guest</p>\n}

@@ -1,1 +1,0 @@
-$halt = false;\n\nforeach($results as $result) {\n    if (!$condition) {\n        $halt = true;\n        ErrorHandler::addErrorToStack('Unexpected result.');\n        break; // Exit the loop immediately\n    }\n\n    doSomething();\n}\n\nif (!$halt) {\n    // do what I want because I know there was no error\n}

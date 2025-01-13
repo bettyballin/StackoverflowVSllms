@@ -1,0 +1,1 @@
+Imports System.Linq\n\nDim sortedList = m_equipmentList.OrderBy(Function(x) x.resourceid).ToList()

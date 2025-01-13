@@ -1,0 +1,1 @@
+if (ListBox1.SelectedIndex != -1)\n{\n    // An item is selected, proceed with removal\n}\nelse\n{\n    // No item is selected, display an error message or do nothing\n}

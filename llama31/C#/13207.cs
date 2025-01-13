@@ -1,0 +1,1 @@
+Response.Clear();\nResponse.AddHeader("Pragma", "public");\nResponse.AddHeader("Cache-Control", "max-age=1");\nResponse.AddHeader("Content-Disposition", "attachment; filename=" + fileName);\nResponse.AddHeader("Content-Type", "application/vnd.ms-excel");\nResponse.BinaryWrite(fileBytes);\nResponse.End();

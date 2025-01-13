@@ -1,0 +1,1 @@
+UPDATE AccountTable \nSET \n    FirstName = @FirstName,\n    LastName = @LastName,\n    Street = @StreetName,\n    StateId = @StateId \nWHERE AccountId = @Id

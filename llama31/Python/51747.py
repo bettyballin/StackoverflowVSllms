@@ -1,0 +1,1 @@
+_functions = {}\n\ndef register_function(func):\n    _functions[func.__name__] = func\n    return func\n\n@register_function\ndef foo():\n    pass\n\ndef get_function_name(func):\n    for name, f in _functions.items():\n        if f is func:\n            return name\n    return None\n\nprint(get_function_name(foo))  # Outputs: "foo"

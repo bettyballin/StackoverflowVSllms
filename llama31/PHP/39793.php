@@ -1,0 +1,1 @@
+$headers = apache_request_headers();\n\n// or\n\n$headers = array();\nforeach ($_SERVER as $key => $value) {\n    if (strpos($key, 'HTTP_') !== false) {\n        $headers[str_replace('HTTP_', '', $key)] = $value;\n    }\n}

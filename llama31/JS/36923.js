@@ -1,0 +1,1 @@
+$("select").change(function(){\n    var formData = $(this).closest('form').serialize();\n    $.ajax({\n        type: 'POST',\n        url: 'page.html',\n        data: formData,\n        success: function(data) {\n            // handle the response\n        }\n    });\n});

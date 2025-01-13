@@ -1,1 +1,0 @@
-using System.Security.Cryptography.X509Certificates;\n\n   string certPath = @"C:\MyCertificates\your_certificate.cer";\n   X509Certificate2 certificate = new X509Certificate2(certPath);\n\n   // Add the certificate to the client certificates collection\n   myWebService.ClientCertificates.Add(certificate);

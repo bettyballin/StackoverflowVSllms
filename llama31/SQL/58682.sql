@@ -1,0 +1,1 @@
+DECLARE @dayName VARCHAR(10) = 'Tuesday'\n\nSELECT \n  CASE \n    WHEN @dayName = 'Sunday' THEN 1\n    WHEN @dayName = 'Monday' THEN 2\n    WHEN @dayName = 'Tuesday' THEN 3\n    WHEN @dayName = 'Wednesday' THEN 4\n    WHEN @dayName = 'Thursday' THEN 5\n    WHEN @dayName = 'Friday' THEN 6\n    WHEN @dayName = 'Saturday' THEN 7\n  END

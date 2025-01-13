@@ -1,0 +1,1 @@
+string imagePath = Server.MapPath("~/img.bmp");\nBitmap b = new Bitmap(imagePath);

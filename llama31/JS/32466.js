@@ -1,0 +1,1 @@
+const userData = {\n  username: 'johnDoe',\n  password: 'mySecretPassword'\n};\n\nfetch('/login', {\n  method: 'POST',\n  headers: {\n    'Content-Type': 'application/json'\n  },\n  body: JSON.stringify(userData)\n})\n  .then(response => response.json())\n  .then(data => console.log(data))\n  .catch(error => console.error(error));

@@ -1,0 +1,1 @@
+$pattern = '/%(\d+)\$(s|d|u|f)/';\n\n$input = 'some text here. %1$s done %2$d times';\n\nif (preg_match_all($pattern, $input, $matches)) {\n    // Valid sprintf format\n    print_r($matches);\n} else {\n    // Invalid sprintf format\n}

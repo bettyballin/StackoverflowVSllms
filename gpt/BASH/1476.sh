@@ -1,1 +1,0 @@
-svn merge http://path.to.codeplex.repo/trunk /path/to/your/local/repo/branches/codeplex\n    cd /path/to/your/local/repo/branches/codeplex\n    svn commit -m "Merged changes from CodePlex"

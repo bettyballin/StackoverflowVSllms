@@ -1,0 +1,1 @@
+$("#dialog").dialog({\n  modal: true,\n  resizable: false,\n  draggable: false,\n  position: ['center', 'center']\n});

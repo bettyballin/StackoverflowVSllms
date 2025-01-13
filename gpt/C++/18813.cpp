@@ -1,1 +1,0 @@
-class A {\n  public:\n    int DoSomething() { return 0; }\n};\n\nclass B : public A {\n  public:\n    int DoSomething(int x) { return 1; }\n};

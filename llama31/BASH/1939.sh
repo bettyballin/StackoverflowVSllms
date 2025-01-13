@@ -1,0 +1,1 @@
+// Start the PHP built-in server\nphp -S localhost:8000\n\n// Access your PHP application at http://localhost:8000

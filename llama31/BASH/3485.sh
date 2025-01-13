@@ -1,0 +1,1 @@
+rsync -v --dry-run --out-format='%n' /source/directory/ /destination/directory/

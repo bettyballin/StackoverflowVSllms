@@ -1,1 +1,0 @@
-public class DataAccessLayer\n{\n    public DataTable GetReportData()\n    {\n        // Implement your data retrieval logic here\n        // Example:\n        DataTable dt = new DataTable();\n        // Fill the DataTable with data\n        return dt;\n    }\n}

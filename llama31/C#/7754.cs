@@ -1,0 +1,1 @@
+using Microsoft.Pex.Framework;\nusing System;\n\npublic class Calculator\n{\n    public int Add(int a, int b)\n    {\n        return a + b;\n    }\n}\n\n[PexClass(typeof(Calculator))]\npublic partial class CalculatorTests\n{\n    [PexMethod]\n    public int Add(int a, int b)\n    {\n        Calculator calculator = new Calculator();\n        return calculator.Add(a, b);\n    }\n}

@@ -1,0 +1,1 @@
+<% if approved %> <%= tag.td("Flow Number") %> <% end %>

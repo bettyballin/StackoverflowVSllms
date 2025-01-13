@@ -1,0 +1,1 @@
+-- Create a temporary table to store the IDs\nCREATE TEMPORARY TABLE ids (id INTEGER PRIMARY KEY);\n\n-- Insert the IDs into the temporary table\nINSERT INTO ids (id) VALUES ('1001'), ('1002'), ('1003'), ...;\n\n-- Join the temporary table with your some_table\nSELECT * FROM some_table\nJOIN ids ON some_table.id = ids.id;

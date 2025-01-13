@@ -1,0 +1,1 @@
+sysdig proc.pid=<pid>

@@ -1,0 +1,1 @@
+log.DebugFormat("Executing statement: {0}.", GetCommandTextWithParameters(command));

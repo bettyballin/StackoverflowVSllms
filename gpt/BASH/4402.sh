@@ -1,1 +1,0 @@
-rsync -av --progress --partial /path/to/source/ /path/to/destination/

@@ -1,1 +1,0 @@
-telnet localhost 25\nHELO domain.com\nMAIL FROM:you@yourdomain.com\nRCPT TO:someone@example.com\nDATA\nSubject: Test mail\nThis is a test mail sent from Windows Server 2008 SMTP server.\n.\nQUIT

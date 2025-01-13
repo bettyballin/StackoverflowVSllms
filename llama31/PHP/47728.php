@@ -1,0 +1,1 @@
+// Define a model\nuse Propel\Runtime\Propel;\nuse Propel\Runtime\ActiveQuery\ModelCriteria;\n\nclass User extends BaseUser {\n    public function setName($name) {\n        $this->name = $name;\n    }\n}\n\n// Use the model\n$user = new User();\n$user->setName('John Doe');\nPropel::getConnection()->persist($user);\nPropel::getConnection()->flush();

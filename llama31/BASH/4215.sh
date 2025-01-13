@@ -1,0 +1,1 @@
+sed ":a; N; $!ba; s/ style='[^']*'//" fileA > fileB

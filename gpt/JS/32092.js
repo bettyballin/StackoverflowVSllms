@@ -1,1 +1,0 @@
-// Example of integrating Sentry in a Node.js application\n   const Sentry = require('@sentry/node');\n   Sentry.init({ dsn: 'your-dsn-url' });\n\n   app.use(Sentry.Handlers.requestHandler());\n   app.use(Sentry.Handlers.errorHandler());

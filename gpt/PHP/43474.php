@@ -1,1 +1,0 @@
-class TEST {\n\n}\n\n$abc =& new TEST();

@@ -1,1 +1,0 @@
-class User < ApplicationRecord\n  validate :custom_validation_method\n\n  def custom_validation_method\n    unless errors[:base].include?("Custom error message")\n      errors.add(:base, "Custom error message") if some_condition?\n    end\n  end\nend

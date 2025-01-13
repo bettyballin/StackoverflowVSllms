@@ -1,0 +1,1 @@
+# Example usage of pdf2htmlEX\npdf2htmlEX --embed-css 0 --embed-font 0 --embed-image 0 example.pdf

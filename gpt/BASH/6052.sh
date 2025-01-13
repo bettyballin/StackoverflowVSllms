@@ -1,1 +1,0 @@
-./run_cpp.sh your_code.cpp

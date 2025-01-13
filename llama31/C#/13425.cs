@@ -1,0 +1,1 @@
+IPAddress address = IPAddress.Parse("10.171.24.69");\nIPAddress netmask = IPAddress.Parse("255.255.255.128");\nIPAddress broadcast = IPv4AddressHelper.GetBroadcastAddress(address, netmask);\n\nConsole.WriteLine(broadcast.ToString());\n\n// Output: 10.171.24.127

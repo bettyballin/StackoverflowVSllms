@@ -1,1 +1,0 @@
-snap install myapp_1.0_amd64.snap --dangerous\n   myapp

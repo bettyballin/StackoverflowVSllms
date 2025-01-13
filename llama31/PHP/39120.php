@@ -1,0 +1,1 @@
+$someXmlDoc->xpath("//*[translate(local-name(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz') = 'item']/text()");

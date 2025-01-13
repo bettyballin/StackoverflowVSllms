@@ -1,1 +1,0 @@
-<?php\n$data = array('New York', 'Tokyo', 'Berlin', 'London', 'Sydney', 'Bern', 'Boston', 'Baltimore');\necho $this->autocomplete("ac1", "", array('data' => $data));\n?>

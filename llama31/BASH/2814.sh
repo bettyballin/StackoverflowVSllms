@@ -1,0 +1,1 @@
+# Example using Cloudflare CDN\n# Update your Cloudflare configuration to use HTTPS\ncurl -X PATCH \\n  https://api.cloudflare.com/client/v4/zones/${ZONE_ID}/settings/ssl \\n  -H 'Content-Type: application/json' \\n  -H 'Authorization: Bearer ${API_TOKEN}' \\n  -d '{"value":"full"}'

@@ -1,0 +1,1 @@
+$.ajax({\n  url: '/item/detail',\n  data: { id: itemId },\n  cache: true,\n  success: function(data) {\n    // handle data\n  }\n});

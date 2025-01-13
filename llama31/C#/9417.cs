@@ -1,0 +1,1 @@
+int? a = 5;\nConsole.WriteLine(a.HasValue); // prints: True\nConsole.WriteLine(a != null);  // prints: True\n\nint? b = null;\nConsole.WriteLine(b.HasValue); // prints: False\nConsole.WriteLine(b != null);  // prints: False

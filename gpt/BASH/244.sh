@@ -1,1 +1,0 @@
-svn checkout svn+ssh://myuser@www.myclient.com/home/svn/project/trunk

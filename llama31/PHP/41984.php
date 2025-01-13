@@ -1,0 +1,1 @@
+// Create a helper file in application/helpers\n// e.g., dx_auth_helper.php\n\nfunction dx_auth_register() {\n    // registration code here\n}\n\n// Then, in your front page controller\n$this->load->helper('dx_auth');\ndx_auth_register();

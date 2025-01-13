@@ -1,1 +1,0 @@
-CREATE INDEX idx_profile_id ON PEOPLE(profile_id);

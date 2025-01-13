@@ -1,0 +1,1 @@
+initial_capacity = 1000\nmy_list = [None] * initial_capacity

@@ -1,0 +1,1 @@
+string encryptedContent = Request.Cookies["YourCookieName"].Value;\nFormsAuthenticationTicket ticket = FormsAuthentication.Decrypt(encryptedContent);\nstring decryptedContent = ticket.UserData;

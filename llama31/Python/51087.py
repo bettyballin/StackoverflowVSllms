@@ -1,0 +1,1 @@
+list_of_lists = [['a','b'], ['a','c'], ['b','d']]\nsearch = 'c'\n\nfound = any(item[1] == search for item in list_of_lists)

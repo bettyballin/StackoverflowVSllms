@@ -1,0 +1,1 @@
+regasm /codebase /tlb MyAddin1.dll

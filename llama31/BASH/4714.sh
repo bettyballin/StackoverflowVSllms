@@ -1,0 +1,1 @@
+robocopy C:\Source D:\Destination /mov /minage:1

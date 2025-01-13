@@ -1,0 +1,1 @@
+for file in *.php; do\n  unexpand -t 4 "$file" | sponge "$file"\ndone

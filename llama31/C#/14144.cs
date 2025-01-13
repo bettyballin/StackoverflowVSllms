@@ -1,0 +1,1 @@
+public class CustomOracleCommand : OracleCommand\n{\n    public CustomOracleCommand()\n    {\n        BindByName = true;\n    }\n}

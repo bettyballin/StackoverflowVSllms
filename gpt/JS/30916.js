@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    $(document).ready(function() {\n        $('table.grid tbody tr').each(function(index) {\n            if ((index + 1) % 3 === 0) {\n                $(this).addClass('alt1');\n            } else if ((index + 1) % 4 === 0) {\n                $(this).addClass('alt2');\n            }\n        });\n    });\n</script>

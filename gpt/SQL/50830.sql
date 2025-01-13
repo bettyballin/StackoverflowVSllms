@@ -1,1 +1,0 @@
-CREATE TABLE `game_players` (\n    `game_id` INT NOT NULL,\n    `player_id` INT NOT NULL,\n    PRIMARY KEY (`game_id`, `player_id`)\n);

@@ -1,1 +1,0 @@
-unsigned long ulSize = 0;\nunsigned char dummy = 0; // Dummy buffer\n\n// Call the function with a valid pointer, but size zero\nHRESULT hr = foo(ulSize, &dummy);

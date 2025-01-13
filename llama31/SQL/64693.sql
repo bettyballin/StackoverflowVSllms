@@ -1,0 +1,1 @@
+SELECT 'CREATE PROCEDURE ' + QUOTENAME(s.name) + '.' + QUOTENAME(p.name) + ' AS ' + p.definition\nFROM sys.sql_modules p\nJOIN sys.schemas s ON p.schema_id = s.schema_id\nWHERE p.type = 'P';

@@ -1,0 +1,1 @@
+if (!IsCrystalReportsInstalled())\n{\n    // handle the case where Crystal Reports is not installed\n}

@@ -1,1 +1,0 @@
-function scrollToBottom() {\n    var $div = $("#thediv");\n    $div.scrollTop($div[0].scrollHeight);\n}\n\n// Example of appending new content and scrolling to bottom\nfunction appendContent(content) {\n    var $div = $("#thediv");\n    $div.append(content);\n    scrollToBottom();\n}\n\n// Usage example: appending new content\nappendContent("<p>New line of text from server</p>");

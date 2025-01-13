@@ -1,0 +1,1 @@
+sudo nano /etc/profile.d/apache_env.sh

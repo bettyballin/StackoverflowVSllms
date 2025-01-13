@@ -1,1 +1,0 @@
-$router = $this->_front->getRouter();\n$categoryRoute = new My_Custom_Route(\n    'category/:category/:controller/:action/*',\n    array(\n        'controller' => 'index',\n        'action'     => 'index',\n        'category'   => 'default-category' // This will be dynamically overridden\n    )\n);\n$router->addRoute('category', $categoryRoute);

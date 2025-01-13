@@ -1,0 +1,1 @@
+[AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]\npublic class MyService : IMyService\n{\n    public void MyMethod()\n    {\n        IPrincipal principal = HttpContext.Current.User;\n        // Use the principal to authenticate and authorize\n    }\n}

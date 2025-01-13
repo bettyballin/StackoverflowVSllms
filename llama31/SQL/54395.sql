@@ -1,0 +1,1 @@
+ALTER TABLE your_table \nADD computed_column AS (REPLACE(primary_key, '[^a-zA-Z0-9]', ''));\n\nCREATE FULLTEXT INDEX ON your_table (computed_column);\n\nSELECT * \nFROM FREETEXTTABLE(your_table, computed_column, 'abcd') AS ft \nINNER JOIN your_table ON ft.[KEY] = your_table.primary_key;

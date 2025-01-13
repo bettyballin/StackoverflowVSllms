@@ -1,0 +1,1 @@
+INSERT INTO TableB(ID, Names, Address)\nSELECT \n  (\n    SELECT COUNT(*) \n    FROM TableB\n    WHERE ID <= b.ID\n  ), \n  Names, \n  Address\nFROM TableA b

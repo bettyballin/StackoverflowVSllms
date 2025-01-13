@@ -1,1 +1,0 @@
-javac -g MyClass.java

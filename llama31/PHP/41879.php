@@ -1,0 +1,1 @@
+$string = "Your 75 character string here";\n$lines = 3;\n$wrapped_string = wordwrap($string, 25, "\n", true);\n\necho $wrapped_string;

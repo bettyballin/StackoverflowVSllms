@@ -1,0 +1,1 @@
+{php}\n  include("../Includes/FusionCharts.php");\n  $strXML  = "";\n  // ... create the XML data document ...\n  $chartHTML = renderChartHTML("../../FusionCharts/FCF_Column3D.swf", "", $strXML, "myNext", 600, 300);\n  echo $chartHTML;\n{/php}

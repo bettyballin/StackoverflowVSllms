@@ -1,1 +1,0 @@
-SELECT TO_CHAR(SYSDATE, 'DD/MM/YYYY HH24:MI:SS') AS FormattedDate FROM dual;

@@ -1,0 +1,1 @@
+// SiteA and SiteB are in the same application pool\n// SiteA sets a session variable\nSession["sharedVariable"] = "Hello, World!";

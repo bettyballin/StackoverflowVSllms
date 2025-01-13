@@ -1,1 +1,0 @@
-$encodedSerializedObject = $resultFromDatabase;\n    error_log("Encoded Serialized Object: " . $encodedSerializedObject);\n    $serializedObject = base64_decode($encodedSerializedObject);\n    error_log("Serialized Object: " . $serializedObject);\n    $yourObject = unserialize($serializedObject);\n    error_log("Unserialized Object: " . print_r($yourObject, true));

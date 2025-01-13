@@ -1,1 +1,0 @@
-using System.Runtime.CompilerServices;\n\n[assembly: InternalsVisibleTo("YourOtherAssembly, PublicKey=YourPublicKeyHere")]

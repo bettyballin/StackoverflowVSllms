@@ -1,0 +1,1 @@
+SELECT \n  LAG(end_block) OVER (ORDER BY id) + 1 AS expected_start_block,\n  start_block - 1 AS expected_end_block\nFROM \n  your_table\nWHERE \n  LAG(end_block) OVER (ORDER BY id) + 1 != start_block

@@ -1,0 +1,1 @@
+// myclass.h\n#ifndef MYCLASS_H\n#define MYCLASS_H\n\nclass __declspec(dllexport) MyClass {\npublic:\n    MyClass();\n    ~MyClass();\n    void myMethod();\n};\n\n#endif // MYCLASS_H

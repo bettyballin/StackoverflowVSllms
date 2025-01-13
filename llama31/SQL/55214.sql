@@ -1,0 +1,1 @@
+TIME = FORMAT(timecolumn, 'HHmmss')

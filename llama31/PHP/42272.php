@@ -1,0 +1,1 @@
+$orders = Mage::getModel('sales/order')->getCollection();\n$orders->addFilter('total_paid = grand_total', null, 'string');

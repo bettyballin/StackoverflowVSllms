@@ -1,0 +1,1 @@
+function Test() {\n    var input = document.createElement('input');\n    input.type = 'text';\n    input.value = "ab'cef";\n    document.getElementById("test").appendChild(input);\n}

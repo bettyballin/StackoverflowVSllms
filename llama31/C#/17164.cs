@@ -1,0 +1,1 @@
+[DataContract]\npublic class MyDataContract\n{\n    [DataMember(IsRequired=true)]\n    public string MyProperty { get; set; }\n}

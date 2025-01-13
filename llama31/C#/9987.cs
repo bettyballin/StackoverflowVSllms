@@ -1,0 +1,1 @@
+using Magick;\n\n// Create a new Magick instance\nusing (var magick = new MagickImage())\n{\n    // Open the EPS or AI file\n    magick.Read("input.eps"); // or "input.ai"\n\n    // Create a new thumbnail image\n    magick.Resize(new MagickGeometry(100, 100));\n\n    // Save the thumbnail to a file\n    magick.Write("thumbnail.png");\n}

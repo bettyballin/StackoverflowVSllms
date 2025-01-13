@@ -1,0 +1,1 @@
+curl -X POST \\n  https://yourwiki.com/w/api.php \\n  -H 'Content-Type: application/x-www-form-urlencoded' \\n  -d 'action=query&prop=info&titles=Main%20Page&intoken=edit&format=json'

@@ -1,1 +1,0 @@
-RESTORE DATABASE MyDatabase\n    FROM DISK = 'backupfile.bak'\n    WITH NORECOVERY;

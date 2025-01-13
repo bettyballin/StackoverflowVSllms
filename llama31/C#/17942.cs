@@ -1,0 +1,1 @@
+void Print(object obj) { Console.WriteLine(obj); }\nint value = 42;\nPrint(value); // value is boxed to an object

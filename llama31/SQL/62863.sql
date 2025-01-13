@@ -1,0 +1,1 @@
+ALTER LOGIN [sa] WITH PASSWORD = 'strong_password'

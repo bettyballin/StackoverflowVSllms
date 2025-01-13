@@ -1,1 +1,0 @@
-git add .\n    git commit -m "Merge new official version with custom modifications"

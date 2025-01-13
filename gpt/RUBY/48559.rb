@@ -1,1 +1,0 @@
-Rails.application.routes.draw do\n  resources :users do\n    resource :publicprofile do\n      resources :emails\n      resources :phonenumbers\n    end\n\n    resource :privateprofile do\n      resources :addresses\n      resources :creditcards\n    end\n  end\nend

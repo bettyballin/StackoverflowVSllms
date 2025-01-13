@@ -1,0 +1,1 @@
+var path = @"\\fors343a.ww123.somedomain.net\folder\1";\nif (System.IO.Path.IsUNC(path))\n{\n    Console.WriteLine("UNC path");\n}\nelse\n{\n    Console.WriteLine("Local drive");\n}

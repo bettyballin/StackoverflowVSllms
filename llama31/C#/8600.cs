@@ -1,0 +1,1 @@
+var birthDate = new DateTime(1990, 1, 31);\nvar today = new DateTime(2000, 2, 10);\nvar nextBirthday = BirthdayCalculator.NextBirthday(birthDate, today);\nConsole.WriteLine(nextBirthday); // Output: 1/31/2001 12:00:00 AM

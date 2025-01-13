@@ -1,0 +1,1 @@
+$out_array = array();\nforeach($items as $item) {\n    $out_array[$item['id']] = $item['cust'];\n}

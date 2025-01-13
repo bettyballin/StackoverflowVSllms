@@ -1,1 +1,0 @@
-tail -f /var/log/apache2/error.log\n    tail -f /var/log/nginx/error.log

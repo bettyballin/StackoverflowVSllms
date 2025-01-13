@@ -1,1 +1,0 @@
-rails generate scaffold Customer name:string email:string phone:string

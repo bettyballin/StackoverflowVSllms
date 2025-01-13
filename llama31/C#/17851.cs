@@ -1,0 +1,1 @@
+DataGridViewColumn column = new DataGridViewColumn();\ncolumn.HeaderText = "Foo bar";\ncolumn.DataPropertyName = "Foo";\ndataGridView1.Columns.Add(column);

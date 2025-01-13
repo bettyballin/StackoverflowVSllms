@@ -1,0 +1,1 @@
+DirectoryEntry directoryEntry = new DirectoryEntry("LDAP://yourdomaincontroller.com/DC=yourdomain,DC=com");

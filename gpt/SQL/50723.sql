@@ -1,1 +1,0 @@
-CREATE TRIGGER before_delete_trigger\nBEFORE DELETE ON your_table\nFOR EACH ROW\nEXECUTE FUNCTION log_delete();

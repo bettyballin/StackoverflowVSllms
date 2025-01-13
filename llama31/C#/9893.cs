@@ -1,0 +1,1 @@
+protected void Session_End(object sender, EventArgs e)\n{\n    // Clean up session variables\n    Session["UserId"] = null;\n    Session["Username"] = null;\n\n    // Log the user out (if needed)\n    // AuthenticationManager.SignOut();\n}

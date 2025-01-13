@@ -1,0 +1,1 @@
+WITH ranked_photos AS (\n  SELECT *, ROW_NUMBER() OVER (ORDER BY id) AS row_num\n  FROM photos\n)\nSELECT *\nFROM ranked_photos\nWHERE row_num BETWEEN (SELECT row_num FROM ranked_photos WHERE id = currentphoto) - 4\n                  AND (SELECT row_num FROM ranked_photos WHERE id = currentphoto) + 4\nORDER BY row_num;

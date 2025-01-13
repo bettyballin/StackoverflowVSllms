@@ -1,1 +1,0 @@
-<?php\n\nclass Integer {\n    public $val;\n\n    public function __construct(int $val) {\n        $this->val = $val;\n    }\n\n    public static function fromInt(int $val): Integer {\n        return new self($val);\n    }\n}\n\nfunction ExampleFunc(Integer $i) {\n    echo $i->val;\n}\n\n// Convert integer to Integer object\nExampleFunc(Integer::fromInt(333));

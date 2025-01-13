@@ -1,1 +1,0 @@
-// Use the generated parser in C#\n   var inputStream = new AntlrInputStream("1 + 2");\n   var lexer = new SimpleLexer(inputStream);\n   var tokenStream = new CommonTokenStream(lexer);\n   var parser = new SimpleParser(tokenStream);\n   var tree = parser.expr();

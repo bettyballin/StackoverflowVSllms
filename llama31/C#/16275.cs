@@ -1,0 +1,1 @@
+product.StorageHistories.Add(new StorageHistory { /* initialize properties */ });\nsession.Save(product);

@@ -1,0 +1,1 @@
+$tidy = tidy_create();\n$tidy_options = array('preserve-entities' => true);\ntidy_setopt($tidy, $tidy_options);\n$clean = tidy_repair_string($your_html_string, $tidy);

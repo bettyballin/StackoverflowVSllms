@@ -1,1 +1,0 @@
-# On Linux, you can use the following commands to install Oracle Database XE\n   wget https://download.oracle.com/otn-pub/otn_software/db-express/21c/xe/oracle-database-xe-21c-1.0-1.ol7.x86_64.rpm\n   sudo yum localinstall oracle-database-xe-21c-1.0-1.ol7.x86_64.rpm\n   sudo /etc/init.d/oracle-xe-21c configure

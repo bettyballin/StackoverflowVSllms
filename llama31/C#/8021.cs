@@ -1,0 +1,1 @@
+public class Person\n{\n    public int ID { get; set; }\n    public string Name { get; set; }\n    [ModelBinder(typeof(IntegerModelBinder))]\n    public int NumberOfCatsNamedEnder { get; set; }\n}

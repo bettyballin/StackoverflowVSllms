@@ -1,0 +1,1 @@
+mysqldump -h <sql_server_host> -u <sql_server_username> -p<sql_server_password> <database_name> > dump.sql

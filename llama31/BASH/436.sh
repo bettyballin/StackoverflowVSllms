@@ -1,0 +1,1 @@
+openssl pkcs12 -in <keystore_file> -out <output_file> -nodes -passin pass:<store_password>

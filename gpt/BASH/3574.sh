@@ -1,1 +1,0 @@
-gcc -o decompress decompress.c -llzo2

@@ -1,0 +1,1 @@
+ul li {\n  margin-left: 20px; /* adjust the margin to match the list indentation */\n}\n\nul li img {\n  float: left;\n  margin-right: 10px; /* add some space between the image and text */\n}

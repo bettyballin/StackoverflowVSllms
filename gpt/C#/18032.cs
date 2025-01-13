@@ -1,1 +1,0 @@
-using Microsoft.AspNetCore.SignalR;\n\n   public class GameHub : Hub\n   {\n       public async Task SendMove(string user, string move)\n       {\n           await Clients.All.SendAsync("ReceiveMove", user, move);\n       }\n   }

@@ -1,1 +1,0 @@
-curl -I https://gateway.fedex.com/xml

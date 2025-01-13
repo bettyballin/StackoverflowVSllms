@@ -1,0 +1,1 @@
+[HttpPost]\npublic ActionResult Submit(LawyerModel model)\n{\n    // model.SelectedStates will contain the IDs of the selected states\n    // ...\n}

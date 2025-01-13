@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare('SELECT * FROM users WHERE id = :id');\n$stmt->bindParam(':id', $id);\n$stmt->execute();\n\n$rawSql = $stmt->queryString;\nforeach ($stmt->parameters as $param => $value) {\n    $rawSql = str_replace(":$param", "'$value'", $rawSql);\n}\n\necho $rawSql;

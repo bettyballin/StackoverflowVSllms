@@ -1,0 +1,1 @@
+public DataSet PopulateDataSetFromDataReader(SqlDataReader reader)\n{\n    DataSet dataSet = new DataSet();\n    \n    do\n    {\n        DataTable dataTable = new DataTable();\n        dataSet.Tables.Add(dataTable);\n        dataTable.Load(reader);\n    } while (!reader.IsClosed);\n    \n    reader.Close();\n    return dataSet;\n}

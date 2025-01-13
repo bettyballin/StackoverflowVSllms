@@ -1,1 +1,0 @@
-# Create a new OHS instance\n$ORACLE_HOME/bin/opmnctl createinstance -instanceName <instance_name> -instanceHome <instance_home_path>\n\n# Start the new instance\n$ORACLE_HOME/bin/opmnctl startproc ias-component=<instance_name>

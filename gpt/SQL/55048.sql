@@ -1,1 +1,0 @@
-SELECT \n    users.user_id, \n    users.user_name, \n    SUM(points.point_points) AS total_points, \n    SUM(CASE \n            WHEN points.point_date > '$this_month' \n            THEN points.point_points \n            ELSE 0 \n        END) AS month_points\nFROM users \nLEFT JOIN points \nON users.user_id = points.point_userid \nWHERE users.user_id = 1\nGROUP BY users.user_id

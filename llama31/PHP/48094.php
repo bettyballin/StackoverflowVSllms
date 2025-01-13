@@ -1,0 +1,1 @@
+require 'vendor/autoload.php';\n\nuse MatthiasMullie\Minify;\n\n$minifier = new Minify\JS($code);\n$minified = $minifier->minify();\n\necho $minified;

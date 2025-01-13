@@ -1,0 +1,1 @@
+SELECT id\nFROM your_table\nWHERE FIND_IN_SET('1', bb) > 0;

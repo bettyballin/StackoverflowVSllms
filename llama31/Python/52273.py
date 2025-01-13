@@ -1,0 +1,1 @@
+import random\n\nb = [object(), object()]\nshuffled_b = random.sample(b, len(b))\nprint(shuffled_b)

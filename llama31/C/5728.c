@@ -1,0 +1,1 @@
+HKEY hKey;\nLONG lRes = RegQueryValueEx(HKEY_CLASSES_ROOT, "CLSID\\{your_clsid}", NULL, NULL, NULL);\nif (lRes == ERROR_SUCCESS) {\n    // DLL is registered\n} else {\n    // DLL is not registered\n}

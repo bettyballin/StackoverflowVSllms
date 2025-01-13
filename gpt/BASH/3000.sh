@@ -1,1 +1,0 @@
-find oldcode -type f -exec ls -lh {} \; | awk '{ if($5 != $9) print $9 ": " $5 " actual vs " $9 " reported" }'

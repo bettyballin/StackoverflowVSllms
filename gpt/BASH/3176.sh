@@ -1,1 +1,0 @@
-compare original.jpg produced.jpg diff.png

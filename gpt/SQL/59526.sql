@@ -1,1 +1,0 @@
-SELECT failed_attempts, last_attempt_time FROM FailedLoginSummary\n    WHERE username = ? AND last_attempt_time > (NOW() - INTERVAL 5 MINUTE);

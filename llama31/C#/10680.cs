@@ -1,0 +1,1 @@
+foreach (var path in NetworkPaths)\n{\n    var tempPath = Path.GetTempFileName();\n    File.Move(tempPath, path);\n}

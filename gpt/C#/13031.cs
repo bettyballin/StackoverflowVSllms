@@ -1,1 +1,0 @@
-public interface IMyInterface\n{\n    void MyMethod();\n}

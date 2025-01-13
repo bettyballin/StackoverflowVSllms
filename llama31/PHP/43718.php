@@ -1,0 +1,1 @@
+$userAgent = $_SERVER['HTTP_USER_AGENT'];\n\nif (strpos($userAgent, 'MSIE 6') !== false) {\n    echo "IE6";\n} elseif (strpos($userAgent, 'MSIE 7') !== false) {\n    echo "IE7";\n}

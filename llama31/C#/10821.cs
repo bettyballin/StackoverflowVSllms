@@ -1,0 +1,1 @@
+List<string> L = new List<string>().Initialize(10);

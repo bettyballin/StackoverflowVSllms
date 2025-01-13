@@ -1,0 +1,1 @@
+public class MyDataDirectory : IDataDirectory\n{\n  public string GetDataDirectory()\n  {\n    return "/CustomDataDirectory";\n  }\n}

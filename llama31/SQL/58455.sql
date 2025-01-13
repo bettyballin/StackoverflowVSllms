@@ -1,0 +1,1 @@
+CREATE TABLE bar.dbo.tblFoobar LIKE foo.dbo.tblFoobar;\nINSERT INTO bar.dbo.tblFoobar\nSELECT * FROM foo.dbo.tblFoobar;

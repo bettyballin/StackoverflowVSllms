@@ -1,0 +1,1 @@
+using System.IO;\nusing System.Web;\n\npublic partial class MyPage : Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        string requestBody;\n        using (StreamReader reader = new StreamReader(Request.InputStream))\n        {\n            requestBody = reader.ReadToEnd();\n        }\n        // Process the request body\n    }\n}

@@ -1,0 +1,1 @@
+$gmt_time = gmdate("Y-m-d H:i:s");\necho $gmt_time;

@@ -1,1 +1,0 @@
-public async Task<IActionResult> GetDataAsync()\n{\n    var data = await _webService.GetDataAsync();\n    return Json(data);\n}

@@ -1,0 +1,1 @@
+SessionStateStore store = new SessionStateStore();\nSessionStateStoreItem item = store.GetSessionStoreItem(sessionId);\nstring userName = item.Items["User.Identity.Name"].ToString();

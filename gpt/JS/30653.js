@@ -1,1 +1,0 @@
-function add(a, b) {\n    return a + b;\n}\nconsole.log(add(2, 3)); // Works fine due to hoisting

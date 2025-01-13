@@ -1,0 +1,1 @@
+DELIMITER //\nCREATE TRIGGER trg_validate_insert\nBEFORE INSERT ON your_table\nFOR EACH ROW\nBEGIN\n    IF (/* your validation condition here */) THEN\n        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Validation failed';\n    END IF;\nEND//\nDELIMITER ;

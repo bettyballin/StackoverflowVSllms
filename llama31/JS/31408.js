@@ -1,0 +1,1 @@
+$(document).ready(function(){\n  var $ul = $('ul');\n  var $li = $ul.find('li');\n  var $div = $('<div>');\n  \n  $li.eq(4).before($div);\n  $div.append($li.slice(4));\n});

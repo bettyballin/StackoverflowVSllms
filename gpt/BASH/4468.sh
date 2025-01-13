@@ -1,1 +1,0 @@
-./configure\n    make\n    sudo cp ./scripts/phpize /usr/local/bin/phpize\n    sudo cp ./scripts/php-config /usr/local/bin/php-config

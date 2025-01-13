@@ -1,1 +1,0 @@
-MSG msg;\nwhile (GetMessage(&msg, NULL, 0, 0)) {\n    TranslateMessage(&msg);\n    DispatchMessage(&msg);\n}

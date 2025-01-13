@@ -1,0 +1,1 @@
+CREATE TYPE FooTableType AS TABLE (v VARCHAR(50));\nGO\n\nCREATE PROCEDURE spFooBatch\n    @FooTable FooTableType READONLY\nAS\nBEGIN\n    INSERT INTO tbFoo (v)\n    SELECT v FROM @FooTable;\nEND;\nGO

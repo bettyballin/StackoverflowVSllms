@@ -1,0 +1,1 @@
+(val = $_POST['val'];\n// do something with $val\necho $val;

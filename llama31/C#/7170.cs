@@ -1,0 +1,1 @@
+ProcessStartInfo startInfo = new ProcessStartInfo("cmd.exe");\nstartInfo.UseShellExecute = true;\nstartInfo.Verb = "runas";\nstartInfo.WorkingDirectory = Environment.GetFolderPath(Environment.SpecialFolder.System);\nProcess.Start(startInfo);

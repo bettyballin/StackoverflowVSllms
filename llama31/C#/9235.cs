@@ -1,0 +1,1 @@
+Dictionary<(string, string), TValue> dictionary;\nKey = (KeyObj.Str1, KeyObj.Str2);

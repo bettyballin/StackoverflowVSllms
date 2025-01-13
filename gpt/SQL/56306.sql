@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.PadLeft\n(\n    @str VARCHAR(MAX),\n    @len INT,\n    @padchar CHAR(1)\n)\nRETURNS VARCHAR(MAX)\nAS\nBEGIN\n    RETURN REPLICATE(@padchar, @len - LEN(@str)) + @str\nEND\nGO

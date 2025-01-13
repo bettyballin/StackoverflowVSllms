@@ -1,1 +1,0 @@
-function abc($a, $b, $c = 'foo', $d = 'bar') {\n    // Function implementation\n}\n\n// If you want $c to use its default value 'foo' and set $d to 'baz'\nabc('valueA', 'valueB', 'foo', 'baz');\n\n// Alternatively, using null (assuming the function handles null values appropriately)\nabc('valueA', 'valueB', null, 'baz');

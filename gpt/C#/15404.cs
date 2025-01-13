@@ -1,1 +1,0 @@
-DataContext db = new DataContext(connectionString);\nvar users = db.GetTable<User>().ToList();

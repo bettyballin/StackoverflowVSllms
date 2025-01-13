@@ -1,1 +1,0 @@
-[ServiceContract]\npublic interface IMyService\n{\n    [OperationContract]\n    SortableBindingList<MyBusinessObject> GetBusinessObjects();\n}\n\n[DataContract]\npublic class MyBusinessObject\n{\n    [DataMember]\n    public int Id { get; set; }\n\n    [DataMember]\n    public string Name { get; set; }\n}

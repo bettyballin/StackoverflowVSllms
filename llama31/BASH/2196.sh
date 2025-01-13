@@ -1,0 +1,1 @@
+sudo apt-get install lmd\nsudo lmd -scan /path/to/your/website

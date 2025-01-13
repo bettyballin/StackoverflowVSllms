@@ -1,0 +1,1 @@
+public class Product\n{\n    // ...\n    public decimal Price { get; set; }\n}

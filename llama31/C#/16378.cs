@@ -1,0 +1,1 @@
+public string GetIsChecked(bool isDefault)\n{\n    return isDefault ? "checked" : "";\n}

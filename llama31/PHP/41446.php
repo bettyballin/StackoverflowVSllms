@@ -1,0 +1,1 @@
+$files = new DirectoryIterator('.');\n$fileArray = iterator_to_array($files);\nusort($fileArray, function($a, $b) {\n    return strcmp($a->getFilename(), $b->getFilename());\n});

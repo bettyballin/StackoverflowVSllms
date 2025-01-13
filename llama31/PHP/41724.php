@@ -1,0 +1,1 @@
+$tags = array_map(function($tag) {\n    return preg_replace('/[^a-zA-Z0-9\s]/', '', trim($tag));\n}, explode(',', $_GET['tags']));

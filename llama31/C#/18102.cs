@@ -1,0 +1,1 @@
+MatchCollection matches = Regex.Matches(htmlSourceString, \n    "href=[\\\"\\\'](http:\\/\\/|\\.\\/|\\/)?\\w+(\\.\\w+)*(\\/\\w+(\\.\\w+)?)*(\\/|\\?\\w*=\\w*(&\\w*=\\w*)*)?[\\\"\\\']");\n\nforeach (Match match in matches)\n{\n    Console.WriteLine("value = " + match.Value);\n}

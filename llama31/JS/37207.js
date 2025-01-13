@@ -1,0 +1,1 @@
+// IE8-compatible JavaScript example\nfunction addEvent(element, event, handler) {\n    if (element.addEventListener) {\n        element.addEventListener(event, handler, false);\n    } else if (element.attachEvent) {\n        element.attachEvent('on' + event, handler);\n    }\n}

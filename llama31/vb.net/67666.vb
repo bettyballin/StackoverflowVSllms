@@ -1,0 +1,1 @@
+Dim dllPath As String\ndllPath = CreateObject("WScript.Shell").RegRead("HKEY_CLASSES_ROOT\TypeLib\" & YourDLLGuid & "\1.0\0\win32")\nMsgBox dllPath

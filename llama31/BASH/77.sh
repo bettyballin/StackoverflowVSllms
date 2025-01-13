@@ -1,0 +1,1 @@
+gcc -H your_file.cc

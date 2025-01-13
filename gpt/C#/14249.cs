@@ -1,1 +1,0 @@
-using (var db = new DataContext())\n{\n    var user = db.Users.SingleOrDefault(u => u.UserID == 1);\n    if (user != null)\n    {\n        user.FirstName = "John";\n        user.LastName = "Doe";\n\n        // Save changes will be handled by the setter methods\n        // db.SubmitChanges(); // No need to call here as it's already called in the setter\n    }\n}

@@ -1,0 +1,1 @@
+[MethodImpl(MethodImplOptions.AggressiveInlining | MethodImplOptions.AggressiveOptimization)]\npublic static int Add(int a, int b)\n{\n    return a + b;\n}

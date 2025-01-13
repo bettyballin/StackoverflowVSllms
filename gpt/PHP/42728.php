@@ -1,1 +1,0 @@
-Array\n(\n    [gif] => gif\n    [jpg] => jpeg\n    [jpeg] => jpeg\n    [png] => png\n)

@@ -1,1 +1,0 @@
-# In your urls.py\nhandler500 = 'my_app.views.my_custom_error_view'

@@ -1,0 +1,1 @@
+python --inspect script.py

@@ -1,0 +1,1 @@
+INSERT INTO sometable (someval)\nOUTPUT inserted.id, inserted.someval\nSELECT somefield AS someval\nFROM othertable

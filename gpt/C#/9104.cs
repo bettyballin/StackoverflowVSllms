@@ -1,1 +1,0 @@
-using System.Configuration;\n\npublic class DatabaseConnection\n{\n    private readonly string _connectionString;\n\n    public DatabaseConnection(string environment)\n    {\n        _connectionString = ConfigurationManager.ConnectionStrings[environment].ConnectionString;\n    }\n\n    // Existing database operations\n}

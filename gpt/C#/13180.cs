@@ -1,1 +1,0 @@
-if (Myobject != null)\n{\n    if (Myobject.MyNestedObject != null)\n    {\n        if (Myobject.MyNestedObject.Property != null)\n        {\n            //code\n        }\n    }\n}

@@ -1,1 +1,0 @@
-mage -update YourApp.exe.manifest -CertFile "path\to\your\certificate.pfx" -Password "yourPfxPassword"

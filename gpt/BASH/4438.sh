@@ -1,1 +1,0 @@
-#!/bin/bash\n\n   case "$SSH_ORIGINAL_COMMAND" in\n       lesslog)\n           less /path/to/logfile ;;\n       shutdown)\n           /path/to/shutdown.sh ;;\n       run)\n           /path/to/run.sh ;;\n       *)\n           echo "Access denied."\n           exit 1 ;;\n   esac

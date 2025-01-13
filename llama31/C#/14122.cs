@@ -1,0 +1,1 @@
+DateTime d1 = new DateTime(2007, 12, 1);\nDateTime d2 = new DateTime(2008, 1, 31);\n\nint totalDays = (d2 - d1).Days;\nint leapYearDays = DateCalculator.CalculateDaysInLeapYear(d1, d2);\n\nConsole.WriteLine("Total days: " + totalDays);\nConsole.WriteLine("Days in leap year: " + leapYearDays);

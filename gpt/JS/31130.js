@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    // Your enhancement code here\n\n    // Hide the loading indicator\n    $('#loading-indicator').hide();\n});

@@ -1,1 +1,0 @@
-CREATE UNIQUE INDEX idx_unique_non_empty\nON YourTable(YourColumn)\nWHERE YourColumn IS NOT NULL;

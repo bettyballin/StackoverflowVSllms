@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        ScriptManager.GetCurrent(Page).RegisterAsyncPostBackControl(folderContainer);\n    }\n}

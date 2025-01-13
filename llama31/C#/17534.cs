@@ -1,0 +1,1 @@
+DataSet dsSource = ...; // source DataSet\nDataSet dsTarget = ...; // target DataSet\n\nParallelOptions options = new ParallelOptions { MaxDegreeOfParallelism = 4 };\nParallel.ForEach(dsSource.Tables["master"].AsEnumerable(), options, row =>\n{\n    if (row.Field<string>("A") == "XXX")\n    {\n        dsTarget.Tables["master"].ImportRow(row);\n    }\n});

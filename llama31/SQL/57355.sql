@@ -1,0 +1,1 @@
+SELECT t.TeamName, it.PercentageAffected\nFROM Issues i\nJOIN IssueTeams it ON i.IssueId = it.IssueId\nJOIN Teams t ON it.TeamId = t.TeamId\nWHERE i.IssueId = @IssueId;

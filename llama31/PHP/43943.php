@@ -1,0 +1,1 @@
+use Drupal\node\Entity\Node;\n\n$node = Node::create([\n  'type' => 'my_node_type',\n  'title' => 'My Node Title',\n  'body' => 'My Node Body',\n]);\n$node->save();

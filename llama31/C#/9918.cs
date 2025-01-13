@@ -1,0 +1,1 @@
+public IEnumerable<Segment> Children\n{\n    get\n    {\n        return from link in this.ChildLinks\n            join segment in _context.Segments.Include("ChildLinks") on new { Site = link.ChildSite, ID = link.ChildSID } equals new { Site = segment.site, ID = segment.id }\n            select segment;\n    }\n}

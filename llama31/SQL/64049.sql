@@ -1,0 +1,1 @@
+DECLARE\n  v_status VARCHAR2(10);\nBEGIN\n  v_status := DBMS_TRANSACTION.step_id;\n  IF v_status = 'ACTIVE' THEN\n    DBMS_OUTPUT.PUT_LINE('Uncommitted work present');\n  ELSE\n    DBMS_OUTPUT.PUT_LINE('No uncommitted work');\n  END IF;\nEND;

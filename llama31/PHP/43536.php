@@ -1,0 +1,1 @@
+$email = filter_var($email, FILTER_VALIDATE_EMAIL);\nif ($email === false) {\n    // Invalid email format\n    return false;\n}\n\n// Additional syntax checking\nif (strpos($email, '@') === false || strpos($email, '@', strpos($email, '@') + 1) !== false) {\n    // Invalid email syntax\n    return false;\n}\n\n// Domain blacklisting and email verification can be added here

@@ -1,1 +1,0 @@
-<?php\nheader("content-type: text/xml");\n\n$response = new SimpleXMLElement('<Response></Response>');\n$sms = $response->addChild('Message');\n$sms->addChild('Body', 'Thank you for your message!');\n\necho $response->asXML();\n?>

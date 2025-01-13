@@ -1,0 +1,1 @@
+$plugins = array('jquery', 'plugin1', 'plugin2', 'plugin3', 'plugin4');\necho include_js($plugins);

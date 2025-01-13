@@ -1,0 +1,1 @@
+string guid = "1d03beb3-6d63-498b-aad7-fab0b1480996";\nstring encodedGuid = HttpUtility.UrlEncode(guid);

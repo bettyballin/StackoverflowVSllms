@@ -1,0 +1,1 @@
+String text = """\n    This is a multiline string.\n    It can span multiple lines.\n    No need for concatenation or escaping.\n    """;

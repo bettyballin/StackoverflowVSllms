@@ -1,0 +1,1 @@
+using System.Web;\n\npublic class MyClass\n{\n    public void MyMethod()\n    {\n        string filePath = HttpContext.Current.Server.MapPath("~/path/to/your/file");\n        // use filePath as needed\n    }\n}

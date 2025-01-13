@@ -1,0 +1,1 @@
+function myFunction($requiredParam, $optionalParam = 'default value') {\n    // function code here\n}

@@ -1,1 +1,0 @@
-Public Sub LoadCollection(Of T As {BaseClass, New})(ByRef Collection As Container(Of T))\n    _Container = CType(Collection, IContainer)\nEnd Sub

@@ -1,0 +1,1 @@
+x = [1, 2, 2, 2, 2]\nx = [i for i in x if i != 2]  # Replace 2 with the actual condition\nprint(x)

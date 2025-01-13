@@ -1,0 +1,1 @@
+function get_count() {\n    return count(array_filter($this->items));\n}

@@ -1,1 +1,0 @@
-if (cpu_usage_exceeds_threshold()) {\n        log_warning("High CPU usage detected");\n        take_corrective_action();\n    }

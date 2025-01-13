@@ -1,1 +1,0 @@
-SELECT call_dotnet_function();

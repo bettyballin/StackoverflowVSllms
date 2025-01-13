@@ -1,0 +1,1 @@
+Response.Output.WriteLine("<link rel=""Stylesheet"" type=""text/css"" href=""style.aspx?t={0}&v={1}&_={2}"" />", oType, oText, DateTime.Now.Ticks)

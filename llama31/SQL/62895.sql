@@ -1,0 +1,1 @@
+SELECT trn.column1, trn.column2 \nFROM widsys.train trn \nWHERE TO_CHAR(trn.WID_DATE, 'IYYY-IW') BETWEEN '2008-13' AND '2008-15' \nORDER BY trn.WID_DATE;

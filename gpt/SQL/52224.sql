@@ -1,1 +1,0 @@
-CREATE ASSEMBLY SimMetrics\n   FROM 'C:\path\to\SimMetrics.dll'\n   WITH PERMISSION_SET = SAFE;

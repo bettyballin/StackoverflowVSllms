@@ -1,1 +1,0 @@
-#include <windows.h>\n\nint WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)\n{\n    // Example: Launch notepad.exe without showing a console window\n    ShellExecute(NULL, "open", "notepad.exe", NULL, NULL, SW_SHOWNORMAL);\n    return 0;\n}

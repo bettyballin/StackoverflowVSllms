@@ -1,1 +1,0 @@
-Dim x As Decimal = 12.34D\nDim y As Integer = Math.Floor(x)\nDim z As Decimal = x - y\n\nConsole.WriteLine("Integer part: " & y)   ' Output: 12\nConsole.WriteLine("Fractional part: " & z) ' Output: 0.34

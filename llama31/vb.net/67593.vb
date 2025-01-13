@@ -1,0 +1,1 @@
+Private Sub ValidateLabel()\n    ' Your validation logic here\nEnd Sub\n\nPrivate Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged\n    ValidateLabel()\nEnd Sub\n\nPrivate Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged\n    ValidateLabel()\nEnd Sub

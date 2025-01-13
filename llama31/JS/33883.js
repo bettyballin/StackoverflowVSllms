@@ -1,0 +1,1 @@
+$( "#dialog" ).dialog({\n    close: function() {\n        $( "#date" ).datepicker( "disable" );\n    },\n    open: function() {\n        $( "#date" ).datepicker( "enable" );\n    }\n});

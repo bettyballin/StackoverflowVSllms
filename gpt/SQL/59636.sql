@@ -1,1 +1,0 @@
--- To get all flags for a specific user\n   SELECT f.flag_name\n   FROM flags f\n   JOIN user_flags uf ON f.flag_id = uf.flag_id\n   WHERE uf.user_id = ?;

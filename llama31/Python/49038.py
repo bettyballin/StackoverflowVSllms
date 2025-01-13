@@ -1,0 +1,1 @@
+import re\n\ntext = """\n<b>\n<p class="normalText">\n<script type="text/javascript">\n"""\n\nmatches = re.findall(r'<([^>\s]+)', text)\nprint(matches)  # Output: ['b', 'p', 'script']

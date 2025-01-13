@@ -1,1 +1,0 @@
-void REG_FUNCTION(func_ptr_t ptr, const char *name, const char *signature) {\n       // Registration logic\n   }

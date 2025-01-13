@@ -1,0 +1,1 @@
+using (var dbContext = new YourDbContext())\n{\n    if (!dbContext.Users.Any(u => u.UserName == "michael"))\n    {\n        dbContext.Users.Add(new User { UserName = "michael" });\n        dbContext.SaveChanges();\n    }\n}

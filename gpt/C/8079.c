@@ -1,1 +1,0 @@
-#include "myclass_c_api.h"\n\nint main() {\n    MyClass* obj = MyClass_new();\n    MyClass_doSomething(obj);\n    MyClass_delete(obj);\n    return 0;\n}

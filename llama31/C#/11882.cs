@@ -1,0 +1,1 @@
+string xml = "your xml string";\nbyte[] utf8Bytes = Encoding.UTF8.GetBytes(xml);\nstring utf8Xml = Encoding.UTF8.GetString(utf8Bytes);\n\n_cmd.Parameters["@XmlContents"].Value = utf8Xml;

@@ -1,1 +1,0 @@
-phpdoc -d src -t docs

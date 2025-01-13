@@ -1,0 +1,1 @@
+void subarray(const double a, const double b, vector<double> &sub, const vector<double> &data) {\n    auto lower_bound = std::lower_bound(data.begin(), data.end(), a);\n    auto upper_bound = std::upper_bound(data.begin(), data.end(), b);\n\n    sub.assign(lower_bound, upper_bound);\n}

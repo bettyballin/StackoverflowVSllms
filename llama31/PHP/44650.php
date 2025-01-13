@@ -1,0 +1,1 @@
+function strClean($input) {\n    $transliterator = transliterator_create('::Any-Latin; ::Latin-ASCII');\n    $input = transliterator_transliterate($transliterator, $input);\n    $input = strtolower($input);\n    $input = str_replace(' ', '-', $input);\n    return $input;\n}

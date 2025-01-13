@@ -1,1 +1,0 @@
-// Set additional values not bound to the UI\nnewRow["ForeignKeyColumn"] = foreignKeyValue;\nnewRow["OtherColumn"] = otherValue;\n\n// Now insert the row\ntableAdapter.Insert(newRow);

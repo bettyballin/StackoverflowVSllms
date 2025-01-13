@@ -1,0 +1,1 @@
+if (new[] { "List1", "List2", "List3" }.Contains(list.Title))

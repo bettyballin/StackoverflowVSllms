@@ -1,0 +1,1 @@
+using System;\nusing System.Web.Compilation;\nusing System.Web.UI;\n\npublic class ConfigExpressionBuilder : ExpressionBuilder\n{\n    public override object GetCodeExpression(BoundPropertyEntry entry, object parsedData, ExpressionBuilderContext context)\n    {\n        return new CodePrimitiveExpression(ConfigurationManager.AppSettings[entry.Expression]);\n    }\n}

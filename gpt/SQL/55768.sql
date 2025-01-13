@@ -1,1 +1,0 @@
-UPDATE t1 \n    INNER JOIN TempTable \n    ON t1.PrimaryKey = TempTable.PrimaryKey\n    SET t1.t2ID = TempTable.ID;

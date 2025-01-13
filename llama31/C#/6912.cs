@@ -1,0 +1,1 @@
+ListItem item = new ListItem();\nitem.Text = "<span style='padding-left: 20px; background-image: url(" + image + ".gif); background-repeat: no-repeat; background-position: left center;'>" + itemText + "</span>";\nlistBox.Items.Add(item);

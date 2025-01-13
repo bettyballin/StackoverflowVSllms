@@ -1,0 +1,1 @@
+public ActionResult SendReport(string date)\n{\n    // DO Stuff\n    return new JsonActionResult\n    {\n        Data = new { result = "OK" }\n    };\n}

@@ -1,0 +1,1 @@
+tidy -i -q -f input.html -o output.html

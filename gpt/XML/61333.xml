@@ -1,1 +1,0 @@
-<ossec_config>\n     <client>\n       <server-ip>YOUR_SERVER_IP</server-ip>\n       <config-profile>default</config-profile>\n     </client>\n   </ossec_config>

@@ -1,1 +1,0 @@
-public class Product\n{\n    public int ProductId { get; set; }\n    public string Name { get; set; }\n    public decimal Price { get; set; }\n}\n\npublic class Order\n{\n    public int OrderId { get; set; }\n    public DateTime OrderDate { get; set; }\n    public ICollection<Product> Products { get; set; }\n}

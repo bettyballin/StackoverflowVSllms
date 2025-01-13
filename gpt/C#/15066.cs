@@ -1,1 +1,0 @@
-string txtPattern = @"^[^;]{1,255}$";\nRegex txtRegex = new Regex(txtPattern);

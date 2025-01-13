@@ -1,0 +1,1 @@
+$('#' + '<%= Label1.ClientID %>').html(xml);

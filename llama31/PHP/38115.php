@@ -1,0 +1,1 @@
+<?php\n$data = array(0 => 'test');\n$callback = $_GET['callback'];\necho $callback . '(' . json_encode($data) . ')';\n?>

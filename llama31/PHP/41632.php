@@ -1,0 +1,1 @@
+$arrayA = array('apple', 'banana', 'orange');\n$arrayB = array('apple', 'banana', 'grape', 'pear');\n\n$result = array_diff($arrayB, $arrayA);\n\nprint_r($result);

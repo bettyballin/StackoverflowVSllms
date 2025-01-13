@@ -1,0 +1,1 @@
+from PIL import Image, ImageDraw, ImageFont\n\npassword = "mysecretpassword"\nfont = ImageFont.load_default()\nimage = Image.new("RGB", (200, 50), color=(255, 255, 255))\ndraw = ImageDraw.Draw(image)\ndraw.text((10, 10), password, font=font, fill=(0, 0, 0))\nimage.save("password-image.png")

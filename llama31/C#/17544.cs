@@ -1,0 +1,1 @@
+string encryptedString = "your encrypted string";\nstring key = "your encryption key";\nstring decryptedString = TripleDesDecryptor.Decrypt(encryptedString, key);

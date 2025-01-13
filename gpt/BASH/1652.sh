@@ -1,1 +1,0 @@
-jsvc -cp /path/to/yourapp.jar:/path/to/commons-daemon.jar -outfile /path/to/logfile -errfile /path/to/errorfile -pidfile /path/to/pidfile my.package.MainClass

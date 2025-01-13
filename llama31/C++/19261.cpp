@@ -1,0 +1,1 @@
+void WriteHexToFile(std::ofstream &stream, void *ptr, int buflen, char *prefix) {\n    unsigned char *buf = (unsigned char*)ptr;\n\n    for (int i = 0; i < buflen; ++i) {\n        if (i % 16 == 0) {\n            stream << prefix;\n        }\n\n        stream << std::setw(2) << std::setfill('0') << std::hex << (int)buf[i] << ' ';\n    }\n}

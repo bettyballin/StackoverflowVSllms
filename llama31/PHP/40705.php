@@ -1,0 +1,1 @@
+// in your view file (e.g. index.ctp)\n<?php\nif ($type['has_rtf']) {\n    echo $this->Html->link('View RTF', array('controller' => 'types', 'action' => 'view_rtf', $type['id']));\n}\n?>

@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $(yourForm).submit(function(event) {\n    if (event.keyCode === 13) {\n      event.preventDefault();\n      return false;\n    }\n  });\n});

@@ -1,1 +1,0 @@
-sudo apt-get install nmap\n    nmap -sV -p 80,443 yourserver.com

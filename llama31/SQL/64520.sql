@@ -1,0 +1,1 @@
+SELECT SYS_CONNECT_BY_PATH(column_name, ',') AS concatenated_string\nFROM (\n  SELECT column_name, ROW_NUMBER() OVER (PARTITION BY group_by_column ORDER BY column_name) AS row_num\n  FROM your_table\n)\nWHERE row_num = 1\nGROUP BY group_by_column\nCONNECT BY PRIOR row_num = row_num - 1;

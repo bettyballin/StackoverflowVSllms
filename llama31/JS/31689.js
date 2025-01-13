@@ -1,0 +1,1 @@
+function sanitizeHref(href) {\n  const url = new URL(href);\n  const allowedSchemes = ['http:', 'https:', 'mailto:', 'tel:'];\n  if (!allowedSchemes.includes(url.protocol)) {\n    return '';\n  }\n  return href;\n}

@@ -1,0 +1,1 @@
+@echo off\niisreset /START <site_id>

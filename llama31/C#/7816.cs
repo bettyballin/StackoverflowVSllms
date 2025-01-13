@@ -1,0 +1,1 @@
+[DataContract]\npublic class Basket\n{\n    [DataMember]\n    public SerializableCmsEntity SerializableDb { get; set; }\n}

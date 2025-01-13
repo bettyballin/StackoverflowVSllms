@@ -1,0 +1,1 @@
+regasm.exe /codebase YourAssembly.dll

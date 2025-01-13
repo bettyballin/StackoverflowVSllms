@@ -1,1 +1,0 @@
-if (sVal) {\n    std::string sAttr("");\n    std::string sValStr = *sVal; // Dereferencing sVal to get the actual string\n\n    sAttr = sAttr + VAL_TAG_OPEN + sValStr + VAL_TAG_CLOSE;\n} else {\n    // Handle the null pointer case appropriately\n}

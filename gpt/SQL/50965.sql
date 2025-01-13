@@ -1,1 +1,0 @@
-UPDATE Matches \nSET TeamA = LEAST('newTeamA', 'newTeamB'), \n    TeamB = GREATEST('newTeamA', 'newTeamB') \nWHERE TeamA = LEAST('oldTeamA', 'oldTeamB') \n  AND TeamB = GREATEST('oldTeamA', 'oldTeamB');

@@ -1,0 +1,1 @@
+PACL pDacl = NULL;\nGetNamedSecurityInfo(dstFile, SE_FILE_OBJECT, DACL_SECURITY_INFORMATION, NULL, NULL, &pDacl, NULL, NULL);\nif (pDacl) {\n    // Add the Users group to the DACL\n    AddAccessAllowedAce(pDacl, ACL_REVISION, GENERIC_READ | GENERIC_EXECUTE, SidUsers);\n    SetNamedSecurityInfo(dstFile, SE_FILE_OBJECT, DACL_SECURITY_INFORMATION, NULL, NULL, pDacl, NULL);\n}

@@ -1,1 +1,0 @@
-CREATE INDEX idx_post_ownerId ON post(ownerId);\nCREATE INDEX idx_tag_name ON tag(name);\nCREATE INDEX idx_tag_assoc_postId ON tag_assoc(postId);\nCREATE INDEX idx_tag_assoc_tagId ON tag_assoc(tagId);\nCREATE INDEX idx_tag_assoc_ownerId ON tag_assoc(ownerId);

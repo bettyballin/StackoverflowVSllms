@@ -1,0 +1,1 @@
+$num_years = count($data);\n$which_year = 1; // for example\n\n$args = array_merge([$data[$which_year], SORT_ASC], array_slice($data, 0, $which_year), array_slice($data, $which_year + 1));\n\narray_multisort(...$args);

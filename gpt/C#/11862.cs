@@ -1,1 +1,0 @@
-Validator<MyBusinessObject> validator = ValidationFactory.CreateValidator<MyBusinessObject>();\n   ValidationResults results = validator.Validate(myObject);\n   if (!results.IsValid)\n   {\n       foreach (ValidationResult result in results)\n       {\n           Console.WriteLine(result.Message);\n       }\n   }

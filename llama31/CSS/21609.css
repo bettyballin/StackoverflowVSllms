@@ -1,0 +1,1 @@
+#buttonsColumn {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n}\n\n#buttonsColumn button, #buttonsColumn a {\n  grid-column: 1 / -1;\n}

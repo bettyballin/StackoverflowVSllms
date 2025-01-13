@@ -1,1 +1,0 @@
-pkg_add php-odbc

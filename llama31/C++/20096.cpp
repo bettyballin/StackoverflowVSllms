@@ -1,0 +1,1 @@
+HRESULT hr = CoCreateInstance(CLSID_SomeObject, NULL, CLSCTX_INPROC_SERVER, IID_ISomeObject, (LPVOID*)&obj);

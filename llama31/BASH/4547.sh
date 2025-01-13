@@ -1,0 +1,1 @@
+cscript %windir%\system32\inetsrv\adsutil.vbs set w3svc/aspCache/enable true

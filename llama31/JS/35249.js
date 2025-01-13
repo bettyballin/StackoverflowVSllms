@@ -1,0 +1,1 @@
+<script>\n  fetch('insertthisfile.html')\n    .then(response => response.text())\n    .then(html => document.write(html));\n</script>

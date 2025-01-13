@@ -1,1 +1,0 @@
-# Set environment variables for Oracle 10g client\nexport ORACLE_HOME=/path/to/oracle10g/client\nexport PATH=$ORACLE_HOME/bin:$PATH\n\n# Now you can use the Oracle 10g client tools\nsqlplus username/password@tns_entry

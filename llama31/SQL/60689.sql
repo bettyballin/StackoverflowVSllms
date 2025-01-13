@@ -1,0 +1,1 @@
+-- Get the first 100 results\nSELECT * FROM your_table\nLIMIT 100;\n\n-- Get the next 100 results\nSELECT * FROM your_table\nLIMIT 100 OFFSET 100;\n\n-- Get the next 100 results\nSELECT * FROM your_table\nLIMIT 100 OFFSET 200;

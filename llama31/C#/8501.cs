@@ -1,0 +1,1 @@
+using System;\nusing System.Net.Mail;\n\n// Assuming you have a MailMessage object named 'email'\n\n// Create a new mailto link with the email content\nstring mailtoLink = $"mailto:?subject={email.Subject}&body={email.Body}";\n\n// Open the mailto link in the default email program\nSystem.Diagnostics.Process.Start(mailtoLink);

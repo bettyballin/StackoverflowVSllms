@@ -1,1 +1,0 @@
-class Foo {\n    public function __construct() {\n        // does constructing stuff\n    }\n}

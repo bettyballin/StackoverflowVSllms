@@ -1,0 +1,1 @@
+$.ajaxSetup({ disabled: true });

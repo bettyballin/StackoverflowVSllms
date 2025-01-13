@@ -1,1 +1,0 @@
-SELECT \n    e.employee_id,\n    e.first_name,\n    e.last_name,\n    d.department_name\nFROM \n    employees e\nJOIN \n    departments d ON e.department_id = d.department_id\nWHERE \n    e.status = 'active';

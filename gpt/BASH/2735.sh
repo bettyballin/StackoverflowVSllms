@@ -1,1 +1,0 @@
-gacutil -i "path\to\your\assembly.dll"

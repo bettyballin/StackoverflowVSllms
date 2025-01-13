@@ -1,0 +1,1 @@
+$html = '<ct:form/input type="attr1" value="$item->field">';\n$regex = '/(\<ct:([^\s\>]*)(?:[^>\-]|-(?!>))*\>)/';\npreg_match($regex, $html, $matches);\nprint_r($matches);

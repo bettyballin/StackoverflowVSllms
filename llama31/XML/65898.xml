@@ -1,0 +1,1 @@
+<xs:element name="MyColumn" type="xs:string" caption="User Friendly Caption" />

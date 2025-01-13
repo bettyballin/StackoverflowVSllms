@@ -1,0 +1,1 @@
+using S22.Imap;\nusing System.IO;\n\n// Load the .eml file from a MemoryStream\nMemoryStream emlStream = new MemoryStream(emlBytes);\nMessage message = Message.Parse(emlStream);\n\n// Access email message properties\nstring subject = message.Subject;\nstring body = message.Body;\nstring from = message.From.ToString();

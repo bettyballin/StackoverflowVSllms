@@ -1,0 +1,1 @@
+$tidy = new Tidy();\n$tidy->parseString($html);\n$tidy->cleanRepair();\n$opt = $tidy->getOpt('drop-empty-elements');\n$opt->value = 'yes';\n$tidy->setOpt($opt);\n$html = $tidy->output();\n$doc = new DOMDocument();\n$doc->loadHTML($html);

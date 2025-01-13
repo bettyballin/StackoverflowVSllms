@@ -1,1 +1,0 @@
-<?php\nif ($condition) {\n    $_GET['id'] = $someVar;\n    include "myFile.php";\n}\n?>

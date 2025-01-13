@@ -1,0 +1,1 @@
+Dim myString As String = "This is a test"\nDim result() As String = myString.Split(New Char() {" "c})

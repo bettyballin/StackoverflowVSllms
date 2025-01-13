@@ -1,0 +1,1 @@
+<mx:List id="eqlist" width="100%" dataProvider="{data}">\n    <mx:itemRenderer>\n        <mx:Component>\n            <mx:HBox>\n                <mx:Canvas width="10" height="10" backgroundColor="{data.color}"/>\n                <mx:Text text="{data.label}"/>\n            </mx:HBox>\n        </mx:Component>\n    </mx:itemRenderer>\n</mx:List>

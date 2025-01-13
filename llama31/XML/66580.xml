@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <httpHandlers>\n      <add verb="GET" path="*.jpg" type="System.Web.StaticFileHandler" />\n      <add verb="GET" path="*.png" type="System.Web.StaticFileHandler" />\n      <add verb="GET" path="*.gif" type="System.Web.StaticFileHandler" />\n    </httpHandlers>\n  </system.web>\n</configuration>

@@ -1,1 +1,0 @@
-.figure {\n  display: inline-block;\n  text-align: center;\n}\n\n.figure img {\n  display: block;\n  width: 100%; /* Ensures the image takes the full width of its container */\n}\n\n.figure .caption {\n  margin: 0;\n  width: 100%;\n  box-sizing: border-box;\n}

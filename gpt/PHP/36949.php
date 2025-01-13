@@ -1,1 +1,0 @@
-if (session_status() == PHP_SESSION_ACTIVE) {\n       // Session exists\n   } else {\n       // Session does not exist\n   }

@@ -1,0 +1,1 @@
+var appHost = ApplicationHost.CreateApplicationHost(typeof(MyAppHost), "/", path);\nappHost.HostingEnvironment.RestartOnExternalChanges = false;

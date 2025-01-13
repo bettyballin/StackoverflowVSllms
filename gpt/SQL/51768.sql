@@ -1,1 +1,0 @@
-SELECT FORMAT(your_datetime_column, 'dd/MM/yyyy') AS formatted_date\nFROM your_table;

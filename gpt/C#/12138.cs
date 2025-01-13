@@ -1,1 +1,0 @@
-public class Watermark\n{\n    public readonly string Key;\n\n    public Watermark(string key)\n    {\n        Key = key;\n    }\n}\n\nclass Program\n{\n    static void Main()\n    {\n        var watermark = new Watermark("unique-user-key");\n        Console.WriteLine(watermark.Key);\n    }\n}

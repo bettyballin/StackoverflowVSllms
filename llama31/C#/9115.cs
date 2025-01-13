@@ -1,0 +1,1 @@
+contextMenuStrip1.Width = 200; // sets the width to 200 pixels

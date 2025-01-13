@@ -1,1 +1,0 @@
-export LD_PRELOAD=/path/to/libcustomwrite.so

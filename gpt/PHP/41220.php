@@ -1,1 +1,0 @@
-<?php\n$data = [\n    ['STA-VES', 'East', 4500],\n    ['STA-CRF', 'West', 5400]\n];\necho json_encode($data);\n?>

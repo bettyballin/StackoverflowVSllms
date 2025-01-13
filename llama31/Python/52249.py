@@ -1,0 +1,1 @@
+import os\nimport datetime\n\ndef get_modified_datetime(file_path):\n    timestamp = os.path.getmtime(file_path)\n    return datetime.datetime.fromtimestamp(timestamp)\n\nfile_path = '/path/to/your/file.txt'\nmodified_datetime = get_modified_datetime(file_path)\nprint(modified_datetime)

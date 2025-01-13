@@ -1,0 +1,1 @@
+#overlay {\n  position: absolute;\n  z-index: 1000;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}

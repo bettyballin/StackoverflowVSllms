@@ -1,0 +1,1 @@
+var list = (from item in db.Table\n            select item).ToList();\n\n// do processing where you modify items & add to the list\nforeach (var newItem in newItems)\n{\n    db.Table.Add(newItem);\n}\n\nlist = list.Distinct();\n\ndb.SubmitChanges();

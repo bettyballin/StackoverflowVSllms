@@ -1,1 +1,0 @@
-Zend_Search_Lucene::setDefaultSearchField('contents');

@@ -1,0 +1,1 @@
+using ICSharpCode.SharpZipLib.Core;\n\nHttpPostedFile file = Request.Files["file"];\nStream fileStream = file.InputStream;\n\n// Read the file's metadata\nZipFile zipFile = new ZipFile(fileStream);\nZipEntry entry = zipFile.GetEntry(file.FileName);\nDateTime lastModified = entry.DateTime;

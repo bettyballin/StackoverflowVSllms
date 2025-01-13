@@ -1,0 +1,1 @@
+gcc -o example example.c\nobjdump -d example | grep -A10 "my_label:"

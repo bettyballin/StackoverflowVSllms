@@ -1,1 +1,0 @@
-public class CustomIdentity : IIdentity\n{\n    public CustomIdentity(string name)\n    {\n        Name = name;\n    }\n\n    public string Name { get; }\n\n    public string AuthenticationType => "Custom";\n\n    public bool IsAuthenticated => true;\n}

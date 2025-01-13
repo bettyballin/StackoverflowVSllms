@@ -1,0 +1,1 @@
+SELECT id, name, email, phone_number\nFROM customers\nWHERE country = 'USA';

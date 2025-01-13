@@ -1,0 +1,1 @@
+# Install Pelican\npip install pelican\n\n# Create a new Pelican project\npelican-quickstart\n\n# Create a new article\npelican-content "My First Article"\n\n# Build and serve your site\npelican -s

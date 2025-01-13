@@ -1,0 +1,1 @@
+public class MyModel\n{\n    [NonEmptyString(ErrorMessage = "A value is required")]\n    public string MyProperty { get; set; }\n}

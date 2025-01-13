@@ -1,0 +1,1 @@
+CREATE FUNCTION GetDistance\n    (@FromLocation VARCHAR(50), @ToLocation VARCHAR(50))\nRETURNS DECIMAL(10, 2)\nAS\nBEGIN\n    DECLARE @Distance DECIMAL(10, 2);\n    SELECT @Distance = Distance\n    FROM DistanceChart\n    WHERE FromLocation = @FromLocation AND ToLocation = @ToLocation;\n    RETURN @Distance;\nEND;

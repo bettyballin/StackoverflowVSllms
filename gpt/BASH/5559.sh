@@ -1,1 +1,0 @@
-ktutil\n   ktutil: addent -password -p HTTP/your.server.com@EXAMPLE.COM -k 1 -e aes256-cts-hmac-sha1-96\n   ktutil: wkt /etc/krb5.keytab

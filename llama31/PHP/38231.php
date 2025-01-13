@@ -1,0 +1,1 @@
+$group = new Zend_Form_DisplayGroup('my-group');\n$group->addElement($form->getElement('name'))\n      ->addElement($form->getElement('email'));\n$group->setDecorator(new Zend_Form_Decorator_HtmlTag(array(\n    'tag' => 'div',\n    'class' => 'my-custom-group-container'\n)));\n$form->addDisplayGroup($group);

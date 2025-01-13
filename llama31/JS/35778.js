@@ -1,0 +1,1 @@
+function loadInlineCss(cssContent) {\n  var style = document.createElement('style');\n  style.type = 'text/css';\n  style.innerHTML = cssContent;\n  document.getElementsByTagName('head')[0].appendChild(style);\n}\n\n// Usage\nvar cssContent = ".your-class { background-color: #f2f2f2; }";\nloadInlineCss(cssContent);

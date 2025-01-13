@@ -1,0 +1,1 @@
+$currentWeekQuestions = getCurrentWeekQuestions($pdo);\nforeach ($currentWeekQuestions as $question) {\n  // Display the question and its votes\n  echo $question['title'] . ' (' . $question['votes'] . ' votes)';\n}\n\n// When a user votes for a question\nvoteForQuestion($pdo, $questionId, $userId);

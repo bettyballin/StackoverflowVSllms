@@ -1,1 +1,0 @@
-# config/routes.rb\nresources :posts do\n  member do\n    get 'preview'\n  end\nend\n\n# app/controllers/posts_controller.rb\nclass PostsController < ApplicationController\n  def preview\n    @post = Post.find(params[:id])\n    render json: @post\n  end\nend

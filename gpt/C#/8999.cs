@@ -1,1 +1,0 @@
-private bool _enabled;\nprivate readonly object _lockObject = new object();\n\npublic bool Enabled\n{\n    get\n    {\n        lock (_lockObject)\n        {\n            return _enabled;\n        }\n    }\n    set\n    {\n        lock (_lockObject)\n        {\n            _enabled = value;\n        }\n    }\n}

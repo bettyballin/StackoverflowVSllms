@@ -1,1 +1,0 @@
-// Using insertAdjacentHTML\ndocument.body.insertAdjacentHTML('afterbegin', "<div id='myID'> my Text </div>");\n\n// Or using a secure way with createElement and innerHTML\nlet container = document.createElement('div');\ncontainer.innerHTML = "<div id='myID'> my Text </div>";\ndocument.body.insertBefore(container.firstChild, document.body.childNodes[0]);

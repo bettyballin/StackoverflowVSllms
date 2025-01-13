@@ -1,0 +1,1 @@
+var customers = dbContext.Customers\n    .Where(c => c.Country == "USA")\n    .ToList();

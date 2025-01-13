@@ -1,1 +1,0 @@
-et user IWAM_<MachineName> newpassword

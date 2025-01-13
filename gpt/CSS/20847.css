@@ -1,1 +1,0 @@
-#content {\n    width: 100%; /* Ensure the parent has a width defined */\n    text-align: center; /* Center align the contents */\n}\n\n.imagecenter {\n    display: inline-block; /* Make the child an inline-block element */\n    margin-left: auto;\n    margin-right: auto;\n}

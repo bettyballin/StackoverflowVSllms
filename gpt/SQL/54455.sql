@@ -1,1 +1,0 @@
-SELECT DISTINCT name, type, date\nFROM table1\nWHERE user1 = :userInput\nORDER BY user1;

@@ -1,0 +1,1 @@
+' Add a hidden field to the page\nDim hiddenField As New HiddenField()\nhiddenField.ID = "txtSomethingHidden"\nhiddenField.Value = ""\nPage.Controls.Add(hiddenField)\n\n' Update the hidden field value using jQuery\n$("#txtSomethingHidden").val("");\n\n' Update the control value with the hidden field value on the server-side\ntxtSomething.Text = Request.Form("txtSomethingHidden")

@@ -1,0 +1,1 @@
+use Cocur\Slugify\Slugify;\n\n$title = 'Aït Ben Haddou';\n\n$slugify = new Slugify();\n$slug = $slugify->slugify($title);\n\necho $slug; // outputs: ait-ben-haddou

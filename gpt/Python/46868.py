@@ -1,1 +1,0 @@
-# Using append\nsome_list1 = []\nsome_list1.append(["something"])\nprint(some_list1)  # Output: [['something']]\n\n# Using +=\nsome_list2 = []\nsome_list2 += ["something"]\nprint(some_list2)  # Output: ['something']

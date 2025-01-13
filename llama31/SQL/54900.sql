@@ -1,0 +1,1 @@
+SET STATISTICS TIME ON;\nSET STATISTICS IO ON;\n\nEXEC your_stored_procedure @param1, @param2, ...;\n\nSET STATISTICS TIME OFF;\nSET STATISTICS IO OFF;

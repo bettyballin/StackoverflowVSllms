@@ -1,0 +1,1 @@
+ViewState.Timeout = 60; // in minutes

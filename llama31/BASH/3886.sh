@@ -1,0 +1,1 @@
+svn commit -m "Added remote repository as external"

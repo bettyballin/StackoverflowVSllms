@@ -1,0 +1,1 @@
+class Test{\n    const SYSTIME = time();\n\n    public function get_systime(){\n        echo self::SYSTIME;\n    }\n}

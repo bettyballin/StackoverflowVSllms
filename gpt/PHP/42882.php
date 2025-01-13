@@ -1,1 +1,0 @@
-foreach ($customers as $customer) {\n    echo 'Customer ID: ' . $customer->getId();\n    echo 'Completed Orders: ' . $customer->getCompletedOrdersCount();\n}

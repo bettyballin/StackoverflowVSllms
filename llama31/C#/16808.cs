@@ -1,0 +1,1 @@
+using AlphaVSS;\n\n// Create a new file sync object\nvar sync = new FileSync();\n\n// Set the source and destination directories\nsync.Source = @"C:\Source";\nsync.Destination = @"D:\Destination";\n\n// Sync the files\nsync.Sync();

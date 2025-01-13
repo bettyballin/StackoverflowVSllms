@@ -1,0 +1,1 @@
+// Example using DataTables (jQuery)\n$('#myTable').DataTable({\n  "scrollX": true\n});

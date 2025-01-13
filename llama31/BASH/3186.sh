@@ -1,0 +1,1 @@
+ls -Z /var/www/cgi-bin/script/config_file

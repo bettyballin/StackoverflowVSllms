@@ -1,1 +1,0 @@
-setcookie("from_legacy", "true", time() + 3600, "/", "newsite.com", true, true);\n   header("Location: https://newsite.com");\n   exit();

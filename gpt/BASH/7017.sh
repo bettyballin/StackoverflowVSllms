@@ -1,1 +1,0 @@
-sudo apt-get install modsecurity-crs\n   sudo cp /usr/share/modsecurity-crs/modsecurity_crs_10_setup.conf.example /etc/modsecurity/modsecurity_crs_10_setup.conf

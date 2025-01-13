@@ -1,0 +1,1 @@
+[DatabaseGenerated(DatabaseGeneratedOption.Identity)]\npublic Guid CaseNoteID { get; set; }

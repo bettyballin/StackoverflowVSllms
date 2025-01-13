@@ -1,0 +1,1 @@
+ul.course-list {\n    zoom: 1; /* For IE 6/7 */\n}\n\nul.course-list:after {\n    clear: both;\n    content: ".";\n    display: block;\n    font-size: 0;\n    height: 0;\n    line-height: 0;\n    visibility: hidden;\n}

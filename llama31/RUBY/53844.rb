@@ -1,0 +1,1 @@
+class Admin::User < ActiveRecord::Base\n  belongs_to :organization, class_name: 'Admin::Organization'\nend

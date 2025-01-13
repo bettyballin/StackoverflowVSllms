@@ -1,1 +1,0 @@
-# Compiling a C program\ngcc myprogram.c -o myprogram\n\n# Compiling a C++ program\ng++ myprogram.cpp -o myprogram

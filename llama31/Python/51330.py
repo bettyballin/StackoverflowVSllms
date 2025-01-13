@@ -1,0 +1,1 @@
+import somemodule\n\nfor item in [x for x in dir(somemodule) if not x.startswith('_')]:\n    print(item)

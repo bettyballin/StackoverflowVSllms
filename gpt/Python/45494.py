@@ -1,1 +1,0 @@
-import re\n\npattern = r'^Run.*\.py$'\n\nfilenames = [\n    'RunFoo.py',\n    'RunBar.py',\n    'Run42.py',\n    'myRunFoo.py',\n    'RunBar.py1',\n    'Run42.txt'\n]\n\nmatches = [filename for filename in filenames if re.match(pattern, filename)]\nprint(matches)  # Output: ['RunFoo.py', 'RunBar.py', 'Run42.py']

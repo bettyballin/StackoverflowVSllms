@@ -1,1 +1,0 @@
-$.post("test.php", { name: "John", time: "2pm" }, function(data) {\n    // Since the original object isn't directly accessible, you need to handle it before\n    alert("Data Loaded: " + data);\n    // Unfortunately, you can't access the anonymous object's properties directly here\n    // unless you pass them in another way\n});

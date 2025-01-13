@@ -1,1 +1,0 @@
-using System;\nusing System.ServiceModel;\n\nnamespace WCFCallbackDemo\n{\n    public class MyCallback : IMyCallback\n    {\n        public void NotifyClient(string message)\n        {\n            Console.WriteLine("Received message from server: " + message);\n        }\n    }\n}

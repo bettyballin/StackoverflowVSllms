@@ -1,0 +1,1 @@
+if ($(this).find("option:selected").hasClass('show-input')) {\n    $("#newcat").show();\n}

@@ -1,1 +1,0 @@
-USE [Database1];\n   GRANT SELECT ON [SomeTable] TO [NewUser];

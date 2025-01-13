@@ -1,1 +1,0 @@
-# Ruby 1.9\n   enum = (1..10).enum_for(:each_with_index)\n   enum.each { |value, index| puts "#{index}: #{value}" }

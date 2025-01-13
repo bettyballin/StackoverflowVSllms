@@ -1,0 +1,1 @@
+.grid-container {\n  display: grid;\n  grid-template-columns: repeat(2, 180px);\n  grid-gap: 0;\n}\n\n.unit {\n  width: 180px;\n  height: 120px;\n}\n\n.horizontal-2-unit {\n  grid-column: span 2;\n}\n\n.vertical-2-unit {\n  grid-row: span 2;\n}

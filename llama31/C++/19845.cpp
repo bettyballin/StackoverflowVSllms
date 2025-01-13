@@ -1,0 +1,1 @@
+// Define the 2D array\nprivate:\nint pieceArray[4][4];\n\n// Function to return the 2D array\nint (*Piece::returnPiece())[4] {\n    return pieceArray;\n}\n\n// Function to insert the 2D array\nvoid Grid::InsertArray(int (*arr)[4]) {\n    for (int i = 0; i < 4; ++i) {\n        for (int j = 0; j < 4; ++j) {\n            squares[i][j] = (*arr)[i][j];\n        }\n    }\n}

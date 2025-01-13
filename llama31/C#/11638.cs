@@ -1,0 +1,1 @@
+ServiceHost host = new ServiceHost(typeof(MyService));\nhost.CloseTimeout = TimeSpan.FromSeconds(10);\nhost.OpenTimeout = TimeSpan.FromSeconds(10);\nhost.Open();

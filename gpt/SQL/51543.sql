@@ -1,1 +1,0 @@
-select (select count(*) from gt_roster where ROS_ROSTERPLAN_ID = RPL_ID)\nfrom gt_rosterplan\nwhere RPL_ID = 432065061;

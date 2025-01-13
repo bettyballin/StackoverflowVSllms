@@ -1,1 +1,0 @@
-// Check if session is not already started\nif (session_status() === PHP_SESSION_NONE) {\n    session_start();\n}

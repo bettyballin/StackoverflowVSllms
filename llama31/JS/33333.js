@@ -1,0 +1,1 @@
+$.validator.setDefaults({\n  submitHandler: function(form) {\n    if (!form.valid()) {\n      return false;\n    }\n  }\n});

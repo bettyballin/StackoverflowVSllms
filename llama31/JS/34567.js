@@ -1,0 +1,1 @@
+$.ajax({\n    url: aurl,\n    type: 'GET', // Changed from 'method' to 'type'\n    beforeSend: function (req) { req.setRequestHeader('Authorization', auth); },\n    dataType: "json",\n    error: function () {\n        //error code\n    },\n    success: function (t) {\n        //success code\n    }\n});

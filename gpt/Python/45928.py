@@ -1,1 +1,0 @@
-from datetime import datetime\n\n# Sample date tuple\ndate_tuple = (2009, 3, 23, 13, 6, 34, 0, 82, 0)\n\n# Convert tuple to datetime object\ndt = datetime(*date_tuple[:6])\n\n# Format to MySQL datetime string\nmysql_datetime = dt.strftime('%Y-%m-%d %H:%M:%S')\n\nprint(mysql_datetime)

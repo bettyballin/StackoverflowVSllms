@@ -1,0 +1,1 @@
+if (isset($_GET['Format']) && $_GET['Format'] == 'XML') {\n    header('Content-Type: application/xml');\n} else {\n    header('Content-Type: text/html');\n}

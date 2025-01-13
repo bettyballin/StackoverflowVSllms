@@ -1,0 +1,1 @@
+function send_html($from, $email, $subject = "AUCUN", $message, $cc = "", $bcc ="", $priotity = "3") {\n    // ... (rest of the code remains the same)\n\n    if (mail($email, $subject, $message, $headers)) {\n        return true;\n    } else {\n        $error = error_get_last();\n        if ($error) {\n            print_r($error);\n        }\n        return false;\n    }\n}

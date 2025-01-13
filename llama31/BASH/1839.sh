@@ -1,0 +1,1 @@
+HOST cd /d c:\new\directory

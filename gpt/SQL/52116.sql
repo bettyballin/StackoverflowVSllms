@@ -1,1 +1,0 @@
-SET CURRENT ISOLATION RS;  -- Read Stability (equivalent to Read Committed in Oracle)

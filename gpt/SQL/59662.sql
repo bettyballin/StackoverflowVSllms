@@ -1,1 +1,0 @@
-SELECT * FROM widget\nWHERE UPPER(name) >= 'BA'\nAND UPPER(name) < 'BJ';

@@ -1,0 +1,1 @@
+// Using the .bind() method\n$(document).ready(function() {\n    var myFunction1 = function() {\n        // Your function logic here\n        console.log('Function 1 executed');\n    }.bind(this);\n\n    $('#myButton').on('click', myFunction1);\n});

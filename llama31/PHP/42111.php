@@ -1,0 +1,1 @@
+$stmt = oci_parse($conn, 'SELECT * FROM my_table WHERE my_column = :my_value');\noci_bind_by_name($stmt, ':my_value', $my_value);\noci_execute($stmt);

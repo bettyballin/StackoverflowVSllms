@@ -1,1 +1,0 @@
-bool value = true;\nstring result = value ? "Yes" : "No";\nConsole.WriteLine(result); // Output: Yes

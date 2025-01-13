@@ -1,0 +1,1 @@
+DllWrapper wrapper = new DllWrapper(dllPath);\nwrapper.CallMethod();

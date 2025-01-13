@@ -1,1 +1,0 @@
-public class Question\n{\n    public int QuestionId { get; set; }\n    public string QuestionText { get; set; }\n    public List<Tag> Tags { get; set; }\n}\n\npublic class Tag\n{\n    public int TagId { get; set; }\n    public string TagName { get; set; }\n}

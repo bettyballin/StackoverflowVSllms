@@ -1,0 +1,1 @@
+SELECT v.* \nFROM vehicles v \nJOIN vehicleTags vt ON v.vid = vt.vid \nJOIN tags t ON vt.tid = t.tid \nJOIN categories c ON t.cid = c.cid \nWHERE c.category = 'manufacture' AND t.tag = 'Mercedes';

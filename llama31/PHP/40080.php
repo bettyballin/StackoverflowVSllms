@@ -1,0 +1,1 @@
+<?php\nsvn_auth_set_parameter(SVN_AUTH_PARAM_DEFAULT_USERNAME, 'username');\nsvn_auth_set_parameter(SVN_AUTH_PARAM_DEFAULT_PASSWORD, 'password');\n\n$svn_url = 'http://svn.example.com/repos/project';\n$export_path = '/path/to/export/directory';\n\nsvn_export($svn_url, $export_path);\n?>

@@ -1,0 +1,1 @@
+[AttributeUsage(AttributeTargets.Property)]\npublic class SecureFieldAttribute : Attribute\n{\n    public string[] AllowedRoles { get; set; }\n    public string[] AllowedStatuses { get; set; }\n}

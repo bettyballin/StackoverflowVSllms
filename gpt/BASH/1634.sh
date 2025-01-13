@@ -1,1 +1,0 @@
-git remote add origin https://github.com/yourusername/your-emacs-config.git\n   git push -u origin master

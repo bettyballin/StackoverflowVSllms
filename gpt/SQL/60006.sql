@@ -1,1 +1,0 @@
-SELECT v.date, vd.product_id, vd.rating\nFROM vote v\nJOIN vote_details vd ON v.id = vd.vote_id\nWHERE v.user_id = :user_id;

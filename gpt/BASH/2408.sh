@@ -1,1 +1,0 @@
-gcc -fPIC -shared -o libmodule.so module.c

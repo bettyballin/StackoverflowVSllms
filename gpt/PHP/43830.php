@@ -1,1 +1,0 @@
-<?php\nfunction cleanCurrency($currency) {\n    // Remove any character that is not a digit or a dot\n    return (double)preg_replace('/[^\d.]/', '', $currency);\n}\n\n$string1 = "$50,000";\n$string2 = "$50000";\n$string3 = "50,000";\n\n$total = cleanCurrency($string1) + cleanCurrency($string2) + cleanCurrency($string3);\necho $total; // Outputs: 150000\n?>

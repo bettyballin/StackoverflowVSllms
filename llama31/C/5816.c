@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint fibonacci(int n) {\n    if (n <= 1) return n;\n    return fibonacci(n - 1) + fibonacci(n - 2);\n}\n\nint main() {\n    int i;\n    for (i = 0; i <= 10; i++) {\n        printf("%d\n", fibonacci(i));\n    }\n    return 0;\n}

@@ -1,1 +1,0 @@
-0 2 * * * /path/to/sync_repos.sh

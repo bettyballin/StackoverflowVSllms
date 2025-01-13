@@ -1,0 +1,1 @@
+protected void Application_AcquireRequestState(object sender, EventArgs e)\n{\n    if (Session.Timeout <= 0)\n    {\n        Response.Redirect("~/Login.aspx");\n    }\n}

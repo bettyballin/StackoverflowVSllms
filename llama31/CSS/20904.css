@@ -1,0 +1,1 @@
+#frame {\n    position: absolute;\n    border: 2px solid red;\n    display: flex;\n}\n\n#content {\n    border: 1px dashed red;\n    flex-grow: 1;\n    margin-right: 15em;\n}

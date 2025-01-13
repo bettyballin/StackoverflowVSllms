@@ -1,1 +1,0 @@
-DECLARE\n  db_name VARCHAR2(50);\nBEGIN\n  db_name := SYS_CONTEXT('USERENV', 'DB_NAME');\n  DBMS_OUTPUT.PUT_LINE('Database Name: ' || db_name);\nEND;\n/

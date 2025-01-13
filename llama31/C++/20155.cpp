@@ -1,0 +1,1 @@
+STARTUPINFO si;\nZeroMemory(&si, sizeof(si));\nsi.cb = sizeof(si);\nsi.dwFlags = STARTF_USESHOWWINDOW;\nsi.wShowWindow = SW_HIDE;\n\nPROCESS_INFORMATION pi;\nZeroMemory(&pi, sizeof(pi));\n\nCreateProcess(NULL, "cmd.exe /c your_command", NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi);

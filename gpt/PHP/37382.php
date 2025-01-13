@@ -1,1 +1,0 @@
-<?php\n     include("a.php");\n     echo '<!-- a.php included -->';\n     include("b.php");\n     echo '<!-- b.php included -->';\n     include("c.php");\n     echo '<!-- c.php included -->';\n     ?>

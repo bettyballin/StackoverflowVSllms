@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\nusing PdfSharp.Pdf;\nusing TheArtOfDev.HtmlRenderer.PdfSharp;\n\nclass Program\n{\n    static void Main()\n    {\n        string htmlContent = "<html><body><h1>Hello, World!</h1></body></html>";\n        PdfDocument pdf = PdfGenerator.GeneratePdf(htmlContent, PdfSharp.PageSize.A4);\n        pdf.Save("output.pdf");\n    }\n}

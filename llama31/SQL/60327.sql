@@ -1,0 +1,1 @@
+SELECT t1.col1, t1.col2, \n       t2.result_1, \n       t2.result_2\nFROM Table1 t1\nJOIN (\n  SELECT 'E01089001' AS col3, 1 AS result_1, 3 AS result_2 FROM DUAL\n  UNION ALL\n  SELECT NULL, 2, 4 FROM DUAL\n) t2\nON t1.col3 = t2.col3\nWHERE t1.col1 = 'A0529';

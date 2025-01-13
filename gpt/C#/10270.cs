@@ -1,1 +1,0 @@
-if (myObject != null) {\n         myObject.dispose();\n         myObject = null;\n     }

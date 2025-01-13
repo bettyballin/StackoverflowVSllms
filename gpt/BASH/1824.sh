@@ -1,1 +1,0 @@
-sed -e 's|^\(--- \)\(.*\)|\1a/\2|' -e 's|^\(\+\+\+ \)\(.*\)|\1b/\2|' original.patch > transformed.patch

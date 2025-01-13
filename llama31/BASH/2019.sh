@@ -1,0 +1,1 @@
+iisreset\nnet stop w3svc\nnet start w3svc

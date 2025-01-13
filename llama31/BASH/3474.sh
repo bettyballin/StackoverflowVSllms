@@ -1,0 +1,1 @@
+*/5 * * * * process_feeds.sh  # Run every 5 minutes

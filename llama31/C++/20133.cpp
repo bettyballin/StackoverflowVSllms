@@ -1,0 +1,1 @@
+#include <Windows.h>\n\nint main() {\n    // Set the system to Sleep mode\n    SetSuspendState(TRUE, FALSE, FALSE);\n    return 0;\n}

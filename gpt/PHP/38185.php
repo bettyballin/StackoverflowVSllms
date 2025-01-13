@@ -1,1 +1,0 @@
-<?php\n$host = 'your_host';\n$user = 'your_username';\n$password = 'your_password';\n$database = 'your_database';\n\n$mysqli = new mysqli($host, $user, $password, $database);\n\nif ($mysqli->connect_error) {\n    die('Connect Error (' . $mysqli->connect_errno . ') ' . $mysqli->connect_error);\n}\n?>

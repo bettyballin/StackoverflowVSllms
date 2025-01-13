@@ -1,0 +1,1 @@
+fetch('https://example.com/iframe-content')\n  .then(response => response.text())\n  .then(content => console.log(content));

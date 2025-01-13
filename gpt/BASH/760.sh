@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Read the PID from the file and terminate the process\nif [ -f /path/to/your/pidfile.pid ]; then\n    kill $(cat /path/to/your/pidfile.pid)\n    rm /path/to/your/pidfile.pid\n    echo "Java program stopped successfully."\nelse\n    echo "PID file not found. Is the Java program running?"\nfi

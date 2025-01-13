@@ -1,1 +1,0 @@
-sudo cp -r /var/lib/mysql /var/lib/mysql_backup

@@ -1,1 +1,0 @@
-SELECT * FROM table1 WHERE region = 1 AND name = 'test';\nSELECT * FROM table1 WHERE name = 'test' AND region = 1;

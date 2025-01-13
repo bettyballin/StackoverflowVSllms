@@ -1,0 +1,1 @@
+as --32 your_assembly_code.s -o output_file.o\nld -m elf_i386 output_file.o -o output_file

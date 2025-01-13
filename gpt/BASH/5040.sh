@@ -1,1 +1,0 @@
-sqlplus / as sysdba <<EOF\n   SHUTDOWN IMMEDIATE;\n   EXIT;\n   EOF

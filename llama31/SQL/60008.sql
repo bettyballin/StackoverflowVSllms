@@ -1,0 +1,1 @@
+WHERE Stock.Status IN (1, 2) AND Order.Customer = 12345

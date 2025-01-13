@@ -1,1 +1,0 @@
-sudo mkdir -p /etc/xen/vm\n    sudo chown -R root:root /etc/xen/vm\n    sudo chmod 755 /etc/xen/vm

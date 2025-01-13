@@ -1,1 +1,0 @@
-# Check the status of the service (Windows)\n   sc query "Visual Studio Team Foundation Build"

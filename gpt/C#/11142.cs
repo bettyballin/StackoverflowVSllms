@@ -1,1 +1,0 @@
-private int myMethod_2()\n{\n    return someCall(someValue);\n}

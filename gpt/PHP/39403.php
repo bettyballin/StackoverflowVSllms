@@ -1,1 +1,0 @@
-<!-- application/views/homepage_content.php -->\n<div>\n    <!-- Homepage specific content -->\n</div>

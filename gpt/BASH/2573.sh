@@ -1,1 +1,0 @@
-windbg -pn SharePointConfigWizard.exe

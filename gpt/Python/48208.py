@@ -1,1 +1,0 @@
-from weasyprint import HTML\n\n    HTML('http://example.com').write_pdf('output.pdf')

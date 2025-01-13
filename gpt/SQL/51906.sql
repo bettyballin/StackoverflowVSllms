@@ -1,1 +1,0 @@
-SELECT da.pk, MIN(db.pk) AS min_pk\n   FROM data AS da\n   JOIN data AS db ON da.dt_hash = db.dt_hash AND da.pk <> db.pk\n   WHERE da.dt = db.dt\n   GROUP BY da.pk;

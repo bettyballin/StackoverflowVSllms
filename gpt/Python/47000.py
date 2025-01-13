@@ -1,1 +1,0 @@
-import requests\n\n   response = requests.get('https://api.mockaroo.com/api/generate.json?key=YOUR_API_KEY&schema=your_schema')\n   data = response.json()\n   print(data)

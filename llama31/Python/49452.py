@@ -1,0 +1,1 @@
+def find_single_number(nums):\n    result = 0\n    for num in nums:\n        result ^= num\n    return result

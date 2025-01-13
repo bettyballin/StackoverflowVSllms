@@ -1,1 +1,0 @@
-#ifndef MYCLASS_H\n#define MYCLASS_H\n\nclass MyClass {\npublic:\n    MyClass();\n    void doSomething();\n};\n\n#endif // MYCLASS_H

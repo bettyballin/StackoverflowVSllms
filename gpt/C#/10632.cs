@@ -1,1 +1,0 @@
-protected void Application_End(Object sender, EventArgs e)\n{\n    // Code to run when the application ends\n    // For example, you might log the event or clean up resources\n}

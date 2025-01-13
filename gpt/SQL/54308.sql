@@ -1,1 +1,0 @@
-SELECT p.*, c.*\nFROM Post p\nLEFT JOIN (\n    SELECT c1.*\n    FROM Comment c1\n    INNER JOIN (\n        SELECT post_id, MAX(created_at) AS max_created_at\n        FROM Comment\n        GROUP BY post_id\n    ) c2\n    ON c1.post_id = c2.post_id AND c1.created_at = c2.max_created_at\n) c\nON p.id = c.post_id;

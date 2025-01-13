@@ -1,1 +1,0 @@
-# Step 1: Make changes to the code\nnano source_code_file.c\n\n# Step 2: Commit the changes\ngit add source_code_file.c\ngit commit -m "Fixed bug in game logic"\n\n# Step 3: Generate a patch file\ngit format-patch -1 HEAD\n\n# Step 4: Apply the patch on the target system\ngit apply 0001-Fixed-bug-in-game-logic.patch

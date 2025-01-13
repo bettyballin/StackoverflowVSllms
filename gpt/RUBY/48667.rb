@@ -1,1 +1,0 @@
-# app/models/namespace/calendar.rb\nmodule Namespace\n  class Calendar\n    # Class implementation\n  end\nend

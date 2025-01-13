@@ -1,0 +1,1 @@
+SELECT i.serial_number, i.counter, i.selected_color\nFROM incoming_data i\nJOIN (\n  SELECT serial_number, MAX(counter) as max_counter\n  FROM incoming_data\n  GROUP BY serial_number\n) m ON i.serial_number = m.serial_number AND i.counter = m.max_counter

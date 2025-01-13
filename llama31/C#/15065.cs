@@ -1,0 +1,1 @@
+// Access the template\nstring template = ConfigurationManager.AppSettings["Template"];

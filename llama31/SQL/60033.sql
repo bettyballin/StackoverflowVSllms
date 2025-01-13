@@ -1,0 +1,1 @@
+DELIMITER //\nCREATE TRIGGER tg_table_before_insert\nBEFORE INSERT ON table\nFOR EACH ROW\nBEGIN\n  IF NEW.a IS NULL THEN\n    SET NEW.a = (SELECT MAX(a) + 1 FROM table WHERE b = (SELECT MAX(b) FROM table));\n    IF NEW.a IS NULL THEN\n      SET NEW.a = 1;\n      SET NEW.b = (SELECT MAX(b) + 1 FROM table);\n    END IF;\n  END IF;\nEND;//\nDELIMITER ;

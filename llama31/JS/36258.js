@@ -1,0 +1,1 @@
+$.extend($.validator.messages, {\n    minlength: $.format("Please check at least {0} boxes")\n});

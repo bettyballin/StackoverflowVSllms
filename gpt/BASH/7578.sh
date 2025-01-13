@@ -1,1 +1,0 @@
-openssl req -new -newkey rsa:3072 -nodes -keyout mydomain.key -out mydomain.csr

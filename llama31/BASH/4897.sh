@@ -1,0 +1,1 @@
+pg_basebackup -U your_username -D /path/to/backup

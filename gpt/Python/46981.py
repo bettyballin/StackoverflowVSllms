@@ -1,1 +1,0 @@
-user_input = '../../etc/passwd'\n   if os.path.isabs(user_input) and not '..' in user_input:\n       with open(user_input, 'r') as file:\n           contents = file.read()

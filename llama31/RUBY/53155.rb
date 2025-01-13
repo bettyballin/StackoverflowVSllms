@@ -1,0 +1,1 @@
+resources :as do\n  resources :bs\nend\n\nresources :bs do\n  resources :as\nend

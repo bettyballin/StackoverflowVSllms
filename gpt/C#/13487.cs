@@ -1,1 +1,0 @@
-using Microsoft.AspNet.SignalR;\n\n    public class MilesHub : Hub\n    {\n        public void SendMilesUpdate(int totalMiles)\n        {\n            Clients.All.updateMiles(totalMiles);\n        }\n    }

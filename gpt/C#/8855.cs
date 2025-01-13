@@ -1,1 +1,0 @@
-[assembly: AssemblyKeyFile("MyKey.snk")]

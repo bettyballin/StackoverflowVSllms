@@ -1,1 +1,0 @@
-sudo systemctl restart xymon    # For systems using systemd\n# or\nsudo /etc/init.d/xymon restart  # For systems using init.d

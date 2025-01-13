@@ -1,0 +1,1 @@
+import requests\n\n# Make an HTTP request to your Ruby API\nresponse = requests.get("http://your-ruby-api.com/your_endpoint")

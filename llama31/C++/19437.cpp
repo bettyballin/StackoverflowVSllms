@@ -1,0 +1,1 @@
+interface IMyInterface : IUnknown\n{\n  [id(0x00000001)]\n  HRESULT _stdcall MyMethod([in] LPSTR param1, [in] LPSTR param2);\n}

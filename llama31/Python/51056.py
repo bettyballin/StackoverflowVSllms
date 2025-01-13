@@ -1,0 +1,1 @@
+import time\nimport threading\n\ndef run_indefinitely():\n    while True:\n        # your code here\n        print("Fibonacci sequence: ...")\n\ndef timer(timeout):\n    time.sleep(timeout)\n    print("Time's up!")\n\nt = threading.Thread(target=timer, args=(60,))  # 1-minute timer\nt.start()\n\nrun_indefinitely()

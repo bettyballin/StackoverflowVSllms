@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE name !~ '^[a-zA-Z]';

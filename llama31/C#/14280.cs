@@ -1,0 +1,1 @@
+var filteredList = await Task.Run(() => list.Where(obj => obj.Property == "someValue").ToList());

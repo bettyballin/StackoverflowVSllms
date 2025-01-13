@@ -1,1 +1,0 @@
-Dim obj As MyClass = GetSomeObject()\n' GetSomeObject() returns Nothing\nobj.DoSomething()

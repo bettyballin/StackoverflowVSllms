@@ -1,0 +1,1 @@
+gcc -Wall -Wextra -Wdeprecated-declarations -Wposix-deprecated your_code.c

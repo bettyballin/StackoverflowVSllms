@@ -1,1 +1,0 @@
-var events = this.GetSortedEvents().ToList();\nvar test3 = events.Where(e => e.FinishDateTime.RiyadhTimeFromUtc().Date >= DateTime.UtcNow.RiyadhTimeFromUtc().Date);

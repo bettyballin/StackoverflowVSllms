@@ -1,0 +1,1 @@
+' Example VB.NET code for ASP.NET MVC\nImports System.Web.Mvc\n\nNamespace MyMvcApp\n    Public Class HomeController\n        Inherits Controller\n\n        Public Function Index() As ActionResult\n            Return View()\n        End Function\n    End Class\nEnd Namespace

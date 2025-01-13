@@ -1,0 +1,1 @@
+pdftk file.pdf dump_data | grep NumberOfPages

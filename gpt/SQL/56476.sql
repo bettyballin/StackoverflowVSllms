@@ -1,1 +1,0 @@
-UPDATE parent_table SET is_deleted = TRUE WHERE id = 1;

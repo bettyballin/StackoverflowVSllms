@@ -1,0 +1,1 @@
+$scribd = new Scribd(...); // initialize Scribd API\n\n// assume $file_input is the input field where the user uploaded the file\n$file_stream = fopen($file_input, 'r');\n\n$data = $scribd->upload($file_stream, $doc_type, $access, $rev_id);\nfclose($file_stream);

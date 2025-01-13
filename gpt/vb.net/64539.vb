@@ -1,1 +1,0 @@
-' Module: Profiler\nOption Explicit\n\nPrivate Declare PtrSafe Function GetTickCount Lib "kernel32" () As Long\n\nPrivate StartTime As Long\nPrivate EndTime As Long\n\nPublic Sub StartTimer()\n    StartTime = GetTickCount()\nEnd Sub\n\nPublic Sub EndTimer()\n    EndTime = GetTickCount()\n    Debug.Print "Elapsed Time: " & (EndTime - StartTime) & " ms"\nEnd Sub

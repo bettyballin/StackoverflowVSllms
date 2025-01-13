@@ -1,1 +1,0 @@
-svn propset svn:externals 'components https://your-svn-server/repos/common/joomla-components' site1\n   svn propset svn:externals 'components https://your-svn-server/repos/common/joomla-components' site2

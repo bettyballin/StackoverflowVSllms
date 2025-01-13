@@ -1,1 +1,0 @@
-from pdfminer.high_level import extract_text\n\n   def extract_text_from_pdf(pdf_path):\n       text = extract_text(pdf_path)\n       return text\n\n   # Example usage\n   pdf_path = 'example.pdf'\n   text = extract_text_from_pdf(pdf_path)\n   print(text)

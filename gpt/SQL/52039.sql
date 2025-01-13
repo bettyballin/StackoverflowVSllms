@@ -1,1 +1,0 @@
-WITH Sequence AS (\n    SELECT 0 AS x\n    UNION ALL\n    SELECT x + 1\n    FROM Sequence\n    WHERE x < 23\n)\nSELECT x, ROUND((SIN(x * PI() / 12) * 11.5 + 11.5), 2) AS y\nFROM Sequence\nOPTION (MAXRECURSION 0);

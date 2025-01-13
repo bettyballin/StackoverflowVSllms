@@ -1,0 +1,1 @@
+using System.Security.Cryptography.X509Certificates;\n\n// Open the certificate store\nX509Store store = new X509Store(StoreName.My, StoreLocation.LocalMachine);\n\n// Add a certificate to the store\nstore.Open(OpenFlags.ReadWrite);\nstore.Add(new X509Certificate2("path/to/certificate.cer"));\nstore.Close();

@@ -1,0 +1,1 @@
+g++43 -O2 your_source_file.cpp -o your_executable -Wl,-rpath,/usr/lib/gcc/i386-redhat-linux6E/4.3.2/

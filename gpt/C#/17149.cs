@@ -1,1 +1,0 @@
-string pattern = @"select\s+\w+\s+from\s+\w+\s+where\s+\w+\s*=\s*\w+\s+order\s+by\s+\w+";

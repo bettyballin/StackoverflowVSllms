@@ -1,0 +1,1 @@
+using (var dbContext = new MyDbContext())\n{\n    var clients = dbContext.Clients\n        .Include(c => c.Name)\n        .Include(c => c.Address)\n        .ToList();\n}

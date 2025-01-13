@@ -1,1 +1,0 @@
-public class SecureComponent\n{\n    public SecureComponent()\n    {\n        AssemblyChecker.EnsureCallerIsAllowed();\n    }\n\n    public void SecureMethod()\n    {\n        AssemblyChecker.EnsureCallerIsAllowed();\n        // Method implementation\n    }\n}

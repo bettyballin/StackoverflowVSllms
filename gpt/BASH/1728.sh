@@ -1,1 +1,0 @@
-telnet smtp.example.com 587

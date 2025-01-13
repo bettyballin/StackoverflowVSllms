@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (Request.IsAjaxRequest())\n    {\n        // Register the validation scripts using ScriptManager\n        ScriptManager1.Scripts.Add(new ScriptReference("ValidationScripts"));\n    }\n}

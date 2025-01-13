@@ -1,1 +1,0 @@
-context.Response.ContentType = "text/plain";\ncontext.Response.Write(returnString ?? string.Empty);

@@ -1,0 +1,1 @@
+SELECT \n  q.question_id,\n  q.question_body,\n  GROUP_CONCAT(tq.tag_id, ' ') AS 'tags-ids'\nFROM (\n  SELECT question_id, question_body\n  FROM questions\n  LIMIT 15\n) q\nJOIN tag_question tq ON q.question_id = tq.question_id\nGROUP BY q.question_id

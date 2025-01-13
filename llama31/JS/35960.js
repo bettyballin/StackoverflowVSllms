@@ -1,0 +1,1 @@
+// Example code to profile\nfunction myFunction() {\n  // Do some work...\n}\n\n// Open the Chrome DevTools and navigate to the "Performance" tab\n// Click on "Record" to start profiling\nmyFunction(); // Call the function to profile\n// Click on "Stop" to stop profiling

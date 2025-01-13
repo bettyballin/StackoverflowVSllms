@@ -1,1 +1,0 @@
-from rest_framework import serializers\n   from .models import MyModel\n\n   class MyModelSerializer(serializers.ModelSerializer):\n       class Meta:\n           model = MyModel\n           fields = '__all__'

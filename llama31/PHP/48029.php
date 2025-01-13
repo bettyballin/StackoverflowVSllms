@@ -1,0 +1,1 @@
+$functionName = "foo";\n$functionName(); // Outputs: Inside foo()

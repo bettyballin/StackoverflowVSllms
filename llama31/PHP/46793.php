@@ -1,0 +1,1 @@
+<?php\n// error_template.php\n?>\n<html>\n  <head><title>Error</title></head>\n  <body>\n    <p>Error message</p>\n  </body>\n</html>

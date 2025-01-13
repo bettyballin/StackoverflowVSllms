@@ -1,1 +1,0 @@
-protected WebControl _viewMode = new WebControl();

@@ -1,1 +1,0 @@
-public class MyService : IMyService\n{\n    public MyData GetData()\n    {\n        return new MyData { Value = "Hello, World!" };\n    }\n}\n\npublic class MyData\n{\n    public string Value { get; set; }\n}

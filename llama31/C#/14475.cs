@@ -1,0 +1,1 @@
+public class MyModel\n{\n    [Required(ErrorMessage = "Name is required")]\n    public string Name { get; set; }\n\n    [RegularExpression(@"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$", ErrorMessage = "Invalid email")]\n    public string Email { get; set; }\n}

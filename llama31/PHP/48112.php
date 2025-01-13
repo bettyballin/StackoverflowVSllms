@@ -1,0 +1,1 @@
+<table>\n  <?php\n  $counter = 0;\n  while ($row = mysql_fetch_assoc($result)) {\n    if ($counter % 3 == 0) {\n      echo "<tr>";\n    }\n    echo "<td>" . $row['color'] . "</td>";\n    $counter++;\n    if ($counter % 3 == 0) {\n      echo "</tr>";\n    }\n  }\n  if ($counter % 3 != 0) {\n    echo "</tr>";\n  }\n  ?>\n</table>

@@ -1,0 +1,1 @@
+using System;\n\nstring explorerPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Windows), "explorer.exe");

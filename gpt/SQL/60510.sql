@@ -1,1 +1,0 @@
--- Register the classification function\nALTER RESOURCE GOVERNOR\nWITH (CLASSIFIER_FUNCTION = dbo.ClassifyQuery);\n\nALTER RESOURCE GOVERNOR RECONFIGURE;

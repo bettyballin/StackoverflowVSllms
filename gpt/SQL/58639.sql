@@ -1,1 +1,0 @@
-BEGIN\n  FOR t IN (SELECT table_name FROM all_tables WHERE owner = 'OWNINGUSER') LOOP\n    EXECUTE IMMEDIATE 'GRANT SELECT ON OWNINGUSER.' || t.table_name || ' TO RECEIVINGUSER';\n  END LOOP;\nEND;\n/

@@ -1,0 +1,1 @@
+<location path="admin.aspx">\n  <system.web>\n    <authorization>\n      <allow roles="Admin"/>\n      <deny users="?"/>\n    </authorization>\n  </system.web>\n</location>

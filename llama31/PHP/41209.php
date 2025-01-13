@@ -1,0 +1,1 @@
+$date = new DateTime($row['datetime_field']);\necho $date->format('Y-m-d');

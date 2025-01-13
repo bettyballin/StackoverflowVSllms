@@ -1,1 +1,0 @@
-sudo chown root:root /path/to/start.sh /path/to/stop.sh\nsudo chmod 755 /path/to/start.sh /path/to/stop.sh

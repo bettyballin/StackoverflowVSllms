@@ -1,0 +1,1 @@
+struct Foo {\n    Foo(std::string s) : foo_value(s) {}\n\n    bool operator<(const Foo& foo1) const { \n        return foo_value < foo1.foo_value;  \n    }\n\n    // You don't need to overload operator>, std::map only uses operator<\n\n    std::string foo_value;\n};

@@ -1,1 +1,0 @@
-<?php\n$text = "This is a long piece of text that should be wrapped and formatted according to the specified column width.";\necho wordwrap($text, 40, "\n", true);\n?>

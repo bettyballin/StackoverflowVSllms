@@ -1,0 +1,1 @@
+java -javaagent:method-access-agent.jar -jar your-application.jar

@@ -1,1 +1,0 @@
-<?php\n// Example of using goto in PHP\n\nfor ($i = 0; $i < 10; $i++) {\n    if ($i == 5) {\n        goto end; // Jump to the end label when $i is 5\n    }\n    echo $i . "\n";\n}\n\nend:\necho "We have exited the loop when i equals 5.";\n?>

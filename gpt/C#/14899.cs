@@ -1,1 +1,0 @@
-public ActionResult Index()\n   {\n       var contacts = new List<ContactView>\n       {\n           new ContactView { Id = 1, Name = "John Doe", Email = "john.doe@example.com" },\n           new ContactView { Id = 2, Name = "Jane Smith", Email = "jane.smith@example.com" }\n       };\n       return View(contacts);\n   }

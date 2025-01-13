@@ -1,0 +1,1 @@
+$.ajax({\n  type: 'HEAD',\n  url: 'login.html',\n  success: function() {\n    $("#Main").load("login.html");\n  },\n  error: function(xhr, status, error) {\n    if (xhr.status === 404) {\n      // File not found, redirect to error page\n      window.location.href = 'error.html';\n    }\n  }\n});

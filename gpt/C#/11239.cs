@@ -1,1 +1,0 @@
-private void btnMeasure_Click(object sender, EventArgs e)\n   {\n       string url = txtUrl.Text;\n       TimeSpan loadTime = WebPageMonitor.MeasurePageLoadTime(url);\n       lblLoadTime.Text = $"Page Load Time: {loadTime.TotalSeconds} seconds";\n\n       // Save the result to a database or create reports as needed\n       // SaveLoadTimeToDatabase(url, loadTime);\n   }

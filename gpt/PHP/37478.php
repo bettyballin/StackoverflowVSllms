@@ -1,1 +1,0 @@
-// public/index.php\n   $frontController = Zend_Controller_Front::getInstance();\n   $frontController->setBaseUrl('/');\n\n   // Alternative: Automatically detect and set the base URL\n   // $frontController->setBaseUrl(dirname($_SERVER['SCRIPT_NAME']));

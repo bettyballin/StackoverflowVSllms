@@ -1,0 +1,1 @@
+char buffer[1024];\nDWORD size = 1024;\nGetEnvironmentVariable("VARIABLE_NAME", buffer, size);

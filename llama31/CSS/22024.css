@@ -1,0 +1,1 @@
+.horiz:after {\n  content: "";\n  display: table;\n  clear: both;\n}

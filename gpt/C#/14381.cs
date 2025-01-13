@@ -1,1 +1,0 @@
-[DataContract]\n  public class MyDataContract\n  {\n      [DataMember]\n      public int Id { get; set; }\n\n      [DataMember]\n      public string Name { get; set; }\n  }\n\n  [ServiceContract]\n  public interface IMyService\n  {\n      [OperationContract]\n      MyDataContract GetData(int id);\n  }

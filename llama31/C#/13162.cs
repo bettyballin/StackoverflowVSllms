@@ -1,0 +1,1 @@
+if (int.TryParse(value[i], out intval[i]))\n{\n    Console.WriteLine(intval[i]);\n}\nelse\n{\n    Console.WriteLine("Invalid input");\n}

@@ -1,0 +1,1 @@
+curl -s -I -L https://www.zoomrp.com/quoteconfig.aspx | grep -i "http:"

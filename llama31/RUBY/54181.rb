@@ -1,0 +1,1 @@
+User.where(name: 'John').explain\n# => "EXPLAIN ( COSTS OFF ) SELECT \"users\".* FROM \"users\" WHERE \"users\".\"name\" = 'John'"

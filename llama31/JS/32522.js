@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'POST',\n    url: '/delete/record/5',\n    xhrFields: {\n        withCredentials: true\n    }\n});

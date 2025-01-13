@@ -1,0 +1,1 @@
+Using Process As New System.Diagnostics.Process\n    Process.StartInfo.FileName = "msiexec.exe"\n    Process.StartInfo.Arguments = "/i foo.msi"\n    Process.StartInfo.WindowStyle = ProcessWindowStyle.Normal\n    Process.WaitForExit()\nEnd Using

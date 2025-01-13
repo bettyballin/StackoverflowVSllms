@@ -1,1 +1,0 @@
-SELECT\n    a.friendly_email,\n    b.plain_email\nFROM\n    table_with_friendly_email a\nJOIN\n    table_with_plain_email b\nON\n    SUBSTRING(a.friendly_email, LOCATE('<', a.friendly_email) + 1, LOCATE('>', a.friendly_email) - LOCATE('<', a.friendly_email) - 1) = b.plain_email;

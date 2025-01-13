@@ -1,1 +1,0 @@
-INSERT INTO Projects (ClientID, ProjectName, ...)\nSELECT \n    C.ClientID,\n    OP.ProjectName,\n    -- Other columns...\nFROM \n    OldProjects OP\nJOIN \n    Clients C ON OP.ClientName = C.ClientName;

@@ -1,0 +1,1 @@
+// Add a processor to index feed items\n$processor = new SearchApiProcessor();\n$processor->name = 'rss_feed_item';\n$processor->class = 'Drupal\search_api\Plugin\search_api\processor\FeedItemProcessor';\n$processor->settings = array(\n  'feed_source' => 'your_feed_source', // Replace with the feed source\n);\n$index->addProcessor($processor);

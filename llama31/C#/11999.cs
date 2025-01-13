@@ -1,0 +1,1 @@
+[Table("my_table")]\npublic class MyEntity\n{\n    [Column("my_column")]\n    public string MyProperty { get; set; }\n}

@@ -1,0 +1,1 @@
+const fileInput = document.getElementById('fileInput');\n\nconst clickEvent = new MouseEvent('click', {\n  bubbles: true,\n  cancelable: true,\n  view: window,\n});\n\nfileInput.dispatchEvent(clickEvent);

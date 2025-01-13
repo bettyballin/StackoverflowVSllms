@@ -1,0 +1,1 @@
+SELECT TOP 1 cde.processPath AS 'keywordValue', COUNT(*) AS 'total'\nFROM dbo.ClientDefinitionEntry AS cde\nINNER JOIN dbo.KeywordValueGroups AS kvg\n    ON cde.keywordGroupId = kvg.keywordValueGrpId\nWHERE kvg.[name] = @definitionName\nGROUP BY cde.processPath\nORDER BY total DESC

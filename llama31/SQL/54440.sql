@@ -1,0 +1,1 @@
+CREATE PROCEDURE InsertDraftDetails\n    @c_id INT,\n    @blah VARCHAR(50)\nAS\nBEGIN\n    BEGIN TRANSACTION\n    DECLARE @docid INT\n    SET @docid = (SELECT MAX(id+1) AS docid FROM draft_main)\n    INSERT INTO draft_details (id, main_id, blah) VALUES (@c_id, @docid, @blah)\n    COMMIT\nEND\nGO

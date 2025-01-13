@@ -1,0 +1,1 @@
+import os\n\nif os.name == 'nt':  # Windows\n    file_path = os.path.join('C:', 'Python_project', 'foo.py')\nelif os.name == 'posix':  # *nix\n    file_path = os.path.join('.', 'foo.py')

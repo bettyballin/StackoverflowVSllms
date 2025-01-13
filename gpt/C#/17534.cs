@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        string imagePath = "Pics/Image99.jpg";\n        string uniqueImageUrl = imagePath + "?v=" + DateTime.Now.Ticks;\n        ImageControl.ImageUrl = uniqueImageUrl;\n    }\n}

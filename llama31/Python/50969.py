@@ -1,0 +1,1 @@
+def __init__(self, *args, **kwargs):\n    super(IssuesForm, self).__init__(*args, **kwargs)\n    self.fields['vehicle'].widget.attrs['disabled'] = True\n    self.fields['vehicle'].required = False

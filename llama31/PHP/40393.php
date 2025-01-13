@@ -1,0 +1,1 @@
+function abc($a, $b, $options = []) {\n    $c = $options['c'] ?? 'foo';\n    $d = $options['d'] ?? 'bar';\n    // function implementation\n}\n\n// calling the function\nabc('valueA', 'valueB', ['d' => 'newBar']);

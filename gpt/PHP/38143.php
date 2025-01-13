@@ -1,1 +1,0 @@
-<?php\n// Accessing the GET parameter\n$page = isset($_GET['page']) ? intval($_GET['page']) : 1;\n\n// Accessing POST data\n$vote = isset($_POST['vote']) ? $_POST['vote'] : null;\n\necho "Page: " . $page . "<br>";\necho "Vote: " . $vote;\n?>

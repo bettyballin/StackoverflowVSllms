@@ -1,0 +1,1 @@
+class User {\n    private static $instance;\n\n    private function __construct() {}\n\n    public static function getInstance() {\n        if (!self::$instance) {\n            self::$instance = new User();\n        }\n        return self::$instance;\n    }\n\n    public function isLoggedIn() {\n        // logic to check if user is logged in\n    }\n}

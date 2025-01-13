@@ -1,0 +1,1 @@
+struct Capsule {\n    Vector3 center; // center of the capsule\n    float radius; // radius of the capsule\n    float height; // height of the capsule\n};

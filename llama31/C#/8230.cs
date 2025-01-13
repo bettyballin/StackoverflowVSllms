@@ -1,0 +1,1 @@
+using Newtonsoft.Json;\n\n// Assume 'obj' is the object you want to print\nstring json = JsonConvert.SerializeObject(obj, Formatting.Indented);\nDebug.WriteLine(json);

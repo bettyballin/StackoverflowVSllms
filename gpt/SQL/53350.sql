@@ -1,1 +1,0 @@
-EXEC runStoredProcedure\nFROM table\nWHERE data = 'specificValue';

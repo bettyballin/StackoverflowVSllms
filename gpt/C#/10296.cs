@@ -1,1 +1,0 @@
-if (emailExists(email)) {\n       // Do not disclose if the email exists or not\n       throw new Exception("Unable to create account. Please try again.");\n   } else {\n       // Proceed with account creation\n   }

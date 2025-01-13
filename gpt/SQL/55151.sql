@@ -1,1 +1,0 @@
-SELECT * FROM your_table ORDER BY entry_order_no;

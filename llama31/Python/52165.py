@@ -1,0 +1,1 @@
+def integrate_chatbot_training_data_with_customer_data(data, customer_data_sources):\n    # Integrate data with customer data\n    integrated_data = integrate_data_with_customer_data(data, customer_data_sources)\n    return integrated_data

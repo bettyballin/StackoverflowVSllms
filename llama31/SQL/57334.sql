@@ -1,0 +1,1 @@
+SELECT h.*\nFROM hardware h\nJOIN incidents i ON h.tag = i.tag\nWHERE i.status = 'unresolved'\nGROUP BY h.tag

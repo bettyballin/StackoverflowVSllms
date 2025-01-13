@@ -1,1 +1,0 @@
-sudo apt-get install ltp\n    sudo ltp

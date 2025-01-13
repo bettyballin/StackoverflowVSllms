@@ -1,1 +1,0 @@
-etstat -tulnp\n     ss -tulnp\n     lsof -i

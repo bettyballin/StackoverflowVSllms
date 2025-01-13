@@ -1,0 +1,1 @@
+$alttitle = "35:title1,36:title2, 59:title5";\n$replacetitle = array();\n\nforeach (explode(",", $alttitle) as $value) {\n    list($key, $title) = explode(":", trim($value));\n    $replacetitle[$key] = $title;\n}\n\nprint_r($replacetitle);

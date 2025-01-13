@@ -1,0 +1,1 @@
+if (RadioButtonList_VolunteerType.SelectedItem != null)\n{\n    // a value is selected\n}\nelse\n{\n    // no value is selected\n}

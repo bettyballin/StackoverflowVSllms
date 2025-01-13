@@ -1,1 +1,0 @@
-$sql =  "SELECT this, that\n        FROM table\n        WHERE id = ? AND restriction = ?";\n\n$stmt = $this->_db->query($sql, array($myId, $myValue)); \n$result = $stmt->fetchAll();

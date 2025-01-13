@@ -1,0 +1,1 @@
+using System;\nusing System.Data;\nusing System.Data.SqlClient;\nusing System.Data.SqlTypes;\n\npublic partial class HugeTableTransformer\n{\n    [SqlProcedure]\n    public static void TransformHugeTable(SqlConnection connection)\n    {\n        // Perform transformation logic here\n    }\n}

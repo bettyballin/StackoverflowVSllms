@@ -1,1 +1,0 @@
-function loadCSS(url) {\n    var link = document.createElement('link');\n    link.rel = 'stylesheet';\n    link.type = 'text/css';\n    link.href = url;\n    document.getElementsByTagName('head')[0].appendChild(link);\n}\n\n// Example usage: load a CSS file hosted on your server\nloadCSS('https://yourserver.com/path/to/your.css');

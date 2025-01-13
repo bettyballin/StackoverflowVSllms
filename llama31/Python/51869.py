@@ -1,0 +1,1 @@
+data = getattr(self, source, None)

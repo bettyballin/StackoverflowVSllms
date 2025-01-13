@@ -1,1 +1,0 @@
-__attribute__((used)) void my_function() {\n       // function implementation\n   }

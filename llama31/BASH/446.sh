@@ -1,0 +1,1 @@
+sched -d <pid>

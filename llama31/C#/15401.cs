@@ -1,0 +1,1 @@
+var dictionary = new Dictionary<string, int>();\nvar results = dictionary.Where(x => x.Value > 10);

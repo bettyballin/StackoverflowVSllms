@@ -1,0 +1,1 @@
+$mysqli = new mysqli('localhost', 'username', 'password', 'database');\nif ($mysqli->connect_errno) {\n    echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;\n}

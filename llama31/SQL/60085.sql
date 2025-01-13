@@ -1,0 +1,1 @@
+IF (SELECT is_nullable\n    FROM sys.columns\n    WHERE name = 'your_column_name'\n    AND object_id = OBJECT_ID('your_table_name')) = 0\nBEGIN\n    -- Run the patch to make the column nullable\n    ALTER TABLE your_table_name\n    ALTER COLUMN your_column_name your_data_type NULL;\nEND;

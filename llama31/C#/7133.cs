@@ -1,0 +1,1 @@
+using System;\nusing System.Linq;\n\nclass Program\n{\n    static void Main()\n    {\n        string test = "Hello";\n        Console.WriteLine(test.HelloWorld()); // Outputs: "Hello World!"\n    }\n}

@@ -1,0 +1,1 @@
+function getPageSizeInKB() {\n  const documentSize = document.documentElement.outerHTML.length;\n  const pageSizeInKB = (documentSize / 1024).toFixed(2);\n  return pageSizeInKB;\n}\n\nconsole.log(getPageSizeInKB());

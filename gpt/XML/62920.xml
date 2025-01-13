@@ -1,1 +1,0 @@
-<class name="Game" table="Games">\n    <id name="Id" column="Id" />\n    <many-to-one name="Event" column="EventId" fetch="select" batch-size="10"/>\n    <!-- Other mappings... -->\n</class>

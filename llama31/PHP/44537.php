@@ -1,0 +1,1 @@
+$file = dirname($_FILES['upfile']['tmp_name']) . '/' . basename($_FILES['upfile']['tmp_name']);

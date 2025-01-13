@@ -1,1 +1,0 @@
-/* \nThis is a multiline comment for DB2 or Informix.\nIt can span multiple lines.\n*/\nSELECT * FROM employees;

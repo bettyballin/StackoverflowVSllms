@@ -1,1 +1,0 @@
-icacls C:\Windows\System32\drivers\etc\hosts /grant <custom_identity>:(R)

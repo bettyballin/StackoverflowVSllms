@@ -1,1 +1,0 @@
-using System;\nusing System.Security.Principal;\n\npublic class Program\n{\n    public static void Main()\n    {\n        // Get the current Windows identity\n        WindowsIdentity identity = WindowsIdentity.GetCurrent();\n        \n        // Display the name of the user\n        Console.WriteLine("Current user: " + identity.Name);\n    }\n}

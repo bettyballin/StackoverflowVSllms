@@ -1,1 +1,0 @@
-public partial class ContentUserControl : UserControl\n   {\n       public ContentUserControl()\n       {\n           InitializeComponent();\n       }\n   }

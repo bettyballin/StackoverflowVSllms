@@ -1,1 +1,0 @@
-GRUB_CMDLINE_LINUX="... intel_iommu=on"  # For Intel\n   GRUB_CMDLINE_LINUX="... amd_iommu=on"    # For AMD

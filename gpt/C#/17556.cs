@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\n\npublic class PPPManager\n{\n    [DllImport("PPPManager.dll", CallingConvention = CallingConvention.Cdecl)]\n    private static extern bool Install();\n\n    [DllImport("PPPManager.dll", CallingConvention = CallingConvention.Cdecl)]\n    private static extern bool PPPConnect();\n}

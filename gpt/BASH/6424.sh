@@ -1,1 +1,0 @@
-./configure --host=arm-linux-gnueabihf --build=x86_64-linux-gnu

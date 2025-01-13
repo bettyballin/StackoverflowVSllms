@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Extract the client IP address from the SSH_CONNECTION variable\nclient_ip=$(echo $SSH_CONNECTION | awk '{print $1}')\n\necho "Client IP address: $client_ip"

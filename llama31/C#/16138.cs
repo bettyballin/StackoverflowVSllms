@@ -1,0 +1,1 @@
+string connectionString = "Server=myServer;Database=myDatabase;User Id=myUser;Password=myPassword;";\nstring scriptPath = @"C:\path\to\script.sql";\n\nvar importer = new SqlScriptImporter();\nimporter.ImportScript(connectionString, scriptPath);

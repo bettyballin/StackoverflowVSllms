@@ -1,1 +1,0 @@
-#!/bin/bash\n\n   if [ $# -ne 2 ]; then\n       echo "Usage: $0 input.csv output.xls"\n       exit 1\n   fi\n\n   input_csv=$1\n   output_xls=$2\n\n   ssconvert "$input_csv" "$output_xls"\n\n   echo "Conversion complete: $output_xls"

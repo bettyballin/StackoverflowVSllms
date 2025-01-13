@@ -1,1 +1,0 @@
-awk 'NR%3{printf "%s,", $0; next}1' inputfile.txt

@@ -1,1 +1,0 @@
-session_start();\n\n$template = new Template($mysqli);\n$_SESSION['template'] = serialize($template);\n\n// Debugging: Check if the session is correctly set\nerror_log("Initialized template: " . print_r($template, true));

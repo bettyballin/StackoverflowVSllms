@@ -1,0 +1,1 @@
+private Dictionary<string, string> errorCodes = new Dictionary<string, string>()\n{\n    {"A01", "whatever error"},\n    {"U01", "another error"},\n    {"U02", "yet another error type"}\n};\n\npublic string GetErrorMessage(string code)\n{\n    return errorCodes[code];\n}

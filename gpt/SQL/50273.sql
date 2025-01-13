@@ -1,1 +1,0 @@
--- Check current compatibility level\n    SELECT compatibility_level\n    FROM sys.databases\n    WHERE name = 'YourDatabaseName';\n\n    -- Set compatibility level (e.g., 140 for SQL Server 2017)\n    ALTER DATABASE YourDatabaseName\n    SET COMPATIBILITY_LEVEL = 140;

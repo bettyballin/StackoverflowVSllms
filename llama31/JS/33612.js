@@ -1,0 +1,1 @@
+const express = require('express');\nconst app = express();\nconst axios = require('axios');\n\napp.get('/proxy/api/data', (req, res) => {\n  axios.get('https://example.com/api/data')\n    .then(response => {\n      res.json(response.data);\n    })\n    .catch(error => {\n      console.error(error);\n    });\n});

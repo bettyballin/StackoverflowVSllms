@@ -1,1 +1,0 @@
-[propget, helpstring("The click through parameters")] \nHRESULT Params([out, retval] SAFEARRAY(int) *rVal);\n\n[propput, helpstring("The click through parameters")] \nHRESULT Params([in] SAFEARRAY(int) RnewVal);

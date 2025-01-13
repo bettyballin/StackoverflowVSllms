@@ -1,1 +1,0 @@
-sage: list = [1, 2, 3]\nsage: list = [2 * x for x in list]\nsage: list\n[2, 4, 6]

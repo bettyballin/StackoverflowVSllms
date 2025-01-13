@@ -1,0 +1,1 @@
+msbuild /p:Configuration=Disabled YourProject.csproj\nmsbuild /p:Configuration=Enabled YourProject.csproj

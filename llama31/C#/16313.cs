@@ -1,0 +1,1 @@
+using System.Net.Mail;\n\nvar smtpClient = new SmtpClient("smtp.gmail.com")\n{\n    Port = 587,\n    EnableSsl = true,\n    UseDefaultCredentials = false,\n    Credentials = new NetworkCredential("your_email@gmail.com", "your_password")\n};\n\nsmtpClient.Send("your_email@gmail.com", "recipient@example.com", "Subject", "Body");

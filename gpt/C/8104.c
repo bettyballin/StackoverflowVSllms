@@ -1,1 +1,0 @@
-// Good examples\nif (error_condition) {\n    goto ERROR_HANDLER;\n}\n\n// ...\n\nERROR_HANDLER:\n    // Handle error\n    return;

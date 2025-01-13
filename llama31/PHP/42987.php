@@ -1,0 +1,1 @@
+var_dump($_GET);\nvar_dump($_POST);\nvar_dump($_REQUEST);

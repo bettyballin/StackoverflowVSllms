@@ -1,0 +1,1 @@
+$docuroot = explode(PATH_SEP, getcwd());

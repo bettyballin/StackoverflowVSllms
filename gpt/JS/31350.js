@@ -1,1 +1,0 @@
-if (History.enabled) {\n         // Bind to StateChange Event\n         History.Adapter.bind(window, 'statechange', function() {\n             var State = History.getState();\n             // Do something with State\n         });\n\n         // Change the URL\n         History.pushState({state:1}, "State 1", "?state=1");\n     }

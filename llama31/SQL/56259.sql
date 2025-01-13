@@ -1,0 +1,1 @@
+SET slow_query_log = 1;\nSET long_query_time = 1;  -- log queries taking longer than 1 second

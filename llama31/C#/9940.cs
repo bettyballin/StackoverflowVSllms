@@ -1,0 +1,1 @@
+using System.Web;\n\npublic class MyClass\n{\n    private readonly HttpContext _httpContext;\n\n    public MyClass(HttpContext httpContext)\n    {\n        _httpContext = httpContext;\n    }\n\n    public void MyMethod()\n    {\n        var session = _httpContext.Session;\n        var value = session["SessionKey1"];\n        // use the value\n    }\n}

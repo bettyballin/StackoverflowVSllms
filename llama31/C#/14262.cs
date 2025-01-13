@@ -1,0 +1,1 @@
+// Dashboard.cshtml (main view)\n@model DashboardModel\n\n@Html.Partial("_Part1", Model.Part1)\n@Html.Partial("_Part2", Model.Part2)

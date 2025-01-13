@@ -1,0 +1,1 @@
+// Original process\nSOCKET hSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);\n\n// Remote thread\nconnect(hSocket, (SOCKADDR*)&serverAddr, sizeof(serverAddr));

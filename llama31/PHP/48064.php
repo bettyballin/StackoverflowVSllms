@@ -1,0 +1,1 @@
+$stmt = $DB->prepare('INSERT INTO example (column1) VALUES (:value) RETURNING id');\n$stmt->execute(['value' => 'test']);\n$id = $stmt->fetchColumn();

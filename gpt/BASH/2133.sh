@@ -1,1 +1,0 @@
-iisreset /stop\n     del /S /Q "C:\Windows\Microsoft.NET\Framework\[version]\Temporary ASP.NET Files\*"\n     iisreset /start

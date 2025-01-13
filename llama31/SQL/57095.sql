@@ -1,0 +1,1 @@
+"UPDATE myTable SET columnA = (" + (DT_WSTR,50) @[User::param1] + " + " + (DT_WSTR,50) @[User::param2] + "), columnB = (" + (DT_WSTR,50) @[User::param2] + ") WHERE columnC = (" + (DT_WSTR,50) @[User::param1] + " * " + (DT_WSTR,50) @[User::param2] + ")"

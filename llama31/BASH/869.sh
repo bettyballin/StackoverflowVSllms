@@ -1,0 +1,1 @@
+java -Xgc:compact -jar your_application.jar

@@ -1,0 +1,1 @@
+undname ?my_function@@YAHPAU MyClass@@@Z

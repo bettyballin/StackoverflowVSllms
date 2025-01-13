@@ -1,0 +1,1 @@
+function db($dbuser = 'default_user', $dbpassword = 'default_password', $dbname = 'default_name', $dbhost = 'default_host')

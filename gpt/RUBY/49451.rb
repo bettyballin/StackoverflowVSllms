@@ -1,1 +1,0 @@
-# deploy.rb\n\nnamespace :deploy do\n  desc 'Symlink config.php'\n  task :symlink_config do\n    on roles(:app) do\n      within release_path do\n        execute :ln, '-s', "#{shared_path}/config.php", "#{release_path}/config.php"\n      end\n    end\n  end\n\n  after :publishing, :symlink_config\nend

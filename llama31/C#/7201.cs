@@ -1,0 +1,1 @@
+using System;\n\n[assembly: CLSCompliant(true)]

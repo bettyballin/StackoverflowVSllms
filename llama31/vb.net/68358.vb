@@ -1,0 +1,1 @@
+<ServiceContract()>\nPublic Interface IFoo\n    <OperationContract()> _\n    Function get_Length() As Integer\n\n    <OperationContract()> _\n    Sub set_Length(value As Integer)\nEnd Interface

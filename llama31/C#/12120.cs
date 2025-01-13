@@ -1,0 +1,1 @@
+// CommentController.cs\n[HttpPost]\npublic JsonResult AddComment(CommentModel model)\n{\n    // Validate and save the comment data\n    // ...\n\n    return Json(new { CommentId = model.Id, Text = model.Text });\n}

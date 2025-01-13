@@ -1,0 +1,1 @@
+.dynamic-controls {\n    width: 100%;\n    overflow: auto;\n}\n\n.dynamic-controls .textbox-container {\n    float: left;\n    margin: 5px;\n}\n\n.dynamic-controls .textbox-container input[type="text"] {\n    width: 150px;\n}

@@ -1,0 +1,1 @@
+$db_url = 'mysqli://username:password@host:port/database';\n$db_options = array(\n  'init_commands' => array(\n    'SET NAMES utf8',\n    'SET CLIENT_COMPRESS=1', // Enable compression\n  ),\n);

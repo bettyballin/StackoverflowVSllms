@@ -1,0 +1,1 @@
+SELECT \n    readings_miu_id,\n    '4/21/09 to 4/29/09' AS ReadDate,\n    AVG(RSSI) AS RSSI,\n    ... (other columns)\nINTO \n    analyzed\nFROM \n    analyzedCopy\nWHERE \n    ReadDate BETWEEN #04/21/09# AND #04/29/09#\nGROUP BY \n    readings_miu_id\nORDER BY \n    readings_miu_id;

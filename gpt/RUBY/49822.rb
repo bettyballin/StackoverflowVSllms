@@ -1,1 +1,0 @@
-require 'haml'\nrequire 'haml/helpers'\n\nRSpec.describe FooHelper, type: :helper do\n  include Haml::Helpers\n\n  before(:each) do\n    init_haml_helpers\n  end\n\n  it 'renders the foo content' do\n    expect(helper.foo).to include('<div>bar</div>')\n  end\nend

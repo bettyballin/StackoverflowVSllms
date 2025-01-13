@@ -1,0 +1,1 @@
+using Microsoft.WindowsMobile.Imaging;\n\n// ...\n\nstring filePath = "path/to/image.jpg";\nImage image = new Image(filePath);\nBitmap bitmap = new Bitmap(image);

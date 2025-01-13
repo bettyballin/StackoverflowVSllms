@@ -1,1 +1,0 @@
-SELECT result\nFROM result_tbl\nJOIN test_tbl USING (test_id)\nJOIN sample_tbl USING (sample_id)\nJOIN (SELECT request_id FROM request_tbl WHERE request_status='A') USING(request_id);

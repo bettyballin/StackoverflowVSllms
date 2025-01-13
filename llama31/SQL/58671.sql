@@ -1,0 +1,1 @@
+SELECT secure_delete('my_table', 123);

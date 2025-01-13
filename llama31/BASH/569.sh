@@ -1,0 +1,1 @@
+bjam --manifest --toolset=msvc-8.0 --variant=debug link=shared threading=multi runtime-link=shared

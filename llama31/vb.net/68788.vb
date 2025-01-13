@@ -1,0 +1,1 @@
+<DllImport("kernel32.dll")> _\nPublic Shared Function GetCurrentThreadId() As Integer\nEnd Functio

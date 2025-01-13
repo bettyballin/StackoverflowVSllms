@@ -1,0 +1,1 @@
+LIBC_VERSION := $(shell getconf GNU_LIBC_VERSION | cut -d' ' -f2)\nLIBPTHREAD_VERSION := $(shell getconf GNU_NPTL_VERSION | cut -d' ' -f2)

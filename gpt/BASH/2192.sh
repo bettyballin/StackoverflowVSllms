@@ -1,1 +1,0 @@
-sysbench --test=oltp --mysql-db=test --mysql-user=root --mysql-password=yourpassword prepare\n   sysbench --test=oltp --mysql-db=test --mysql-user=root --mysql-password=yourpassword ru

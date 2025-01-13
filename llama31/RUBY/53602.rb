@@ -1,0 +1,1 @@
+client = SOAP::RPC::Driver.new(url, 'http://removed')\nclient.options['protocol.http.ssl_config.ca_file'] = '/path/to/self-signed-cert.pem'

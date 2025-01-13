@@ -1,0 +1,1 @@
+CREATE TABLE tree_node (\n    id INT PRIMARY KEY,\n    left INT,\n    right INT\n);

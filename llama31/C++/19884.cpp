@@ -1,0 +1,1 @@
+// IHelloWorld.h\n#ifndef __IHELLOWORLD_H__\n#define __IHELLOWORLD_H__\n\ninterface IHelloWorld : IUnknown\n{\n    HRESULT SayHello();\n};\n\n#endif // __IHELLOWORLD_H__

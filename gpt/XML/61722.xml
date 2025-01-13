@@ -1,1 +1,0 @@
-<bindings>\n  <customBinding>\n    <binding name="secureBinding">\n      <binaryMessageEncoding />\n      <httpTransport />\n    </binding>\n  </customBinding>\n</bindings>

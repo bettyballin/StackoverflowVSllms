@@ -1,1 +1,0 @@
-sqlplus scott/tiger@//dbhost.example.com:1521/orclpdb1

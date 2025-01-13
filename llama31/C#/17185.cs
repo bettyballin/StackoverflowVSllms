@@ -1,0 +1,1 @@
+string time = ddlStartTime.SelectedItem.Text;\nstring format = "hh:mmtt"; // format for 12-hour clock with AM/PM\nDateTime dt = DateTime.ParseExact(time, format, CultureInfo.InvariantCulture);\nDateTime today = DateTime.Today;\nDateTime result = new DateTime(today.Year, today.Month, today.Day, dt.Hour, dt.Minute, 0);\n\n// Save result to database

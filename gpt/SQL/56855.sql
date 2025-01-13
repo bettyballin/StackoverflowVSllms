@@ -1,1 +1,0 @@
-WITH Top5 AS (\n    SELECT TOP 5\n        columnB,\n        columnA\n    FROM\n        someTable\n    ORDER BY\n        columnA DESC\n),\nOther AS (\n    SELECT\n        'Other' AS columnB,\n        SUM(columnA) AS columnA\n    FROM\n        someTable\n    WHERE\n        columnB NOT IN (SELECT columnB FROM Top5)\n)\nSELECT * FROM Top5\nUNION ALL\nSELECT * FROM Other;

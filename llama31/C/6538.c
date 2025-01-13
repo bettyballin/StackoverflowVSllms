@@ -1,0 +1,1 @@
+munmap(sharedArea, fileSize);\nfclose(temp);

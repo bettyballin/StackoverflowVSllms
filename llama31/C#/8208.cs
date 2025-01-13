@@ -1,0 +1,1 @@
+using VMware.Vix;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        using (var host = new VixHost())\n        {\n            host.Connect("https://localhost:8333/sdk");\n            // ... perform VM management tasks\n        }\n    }\n}

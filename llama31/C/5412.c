@@ -1,0 +1,1 @@
+double closestPowerOf10(double x) {\n    double pow10 = pow(10, floor(log10(x)));\n    double nextPow10 = pow10 * 10;\n    return (nextPow10 - x) < (x - pow10) ? nextPow10 : pow10;\n}

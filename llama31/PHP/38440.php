@@ -1,0 +1,1 @@
+class BaseClass {\n    protected $db;\n\n    public function __construct($config) {\n        $this->db = new DB($config);\n    }\n}\n\nclass Login extends BaseClass {\n    public function __construct($config) {\n        parent::__construct($config);\n    }\n\n    public function myfunction() {\n        $this->db; // access the database connection\n    }\n}

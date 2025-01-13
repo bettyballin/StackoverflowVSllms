@@ -1,0 +1,1 @@
+SELECT REPLACE(PathColumn, 'OldString', 'NewString') AS NewPath\nFROM YourTable

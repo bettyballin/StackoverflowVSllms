@@ -1,1 +1,0 @@
-# <outline>\n#   <node>Root</node>\n#   <node>Child 1</node>\n#   <node>Child 2</node>\n# </outline>\n\ndef example_function():\n    # Your Python code here\n    pass

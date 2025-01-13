@@ -1,0 +1,1 @@
+objdump -T pjsip.o | grep missing_symbol

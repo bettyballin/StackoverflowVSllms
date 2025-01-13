@@ -1,0 +1,1 @@
+SELECT \n  COALESCE(c.main_cat_name, c.sub_cat_name) AS category_name,\n  COUNT(p.categoryid) AS product_count\nFROM \n  products p\n  LEFT JOIN category c \n    ON p.categoryid = c.sub_cat_id OR p.categoryid = c.main_cat_id\nGROUP BY \n  category_name\nORDER BY \n  product_count DESC;

@@ -1,0 +1,1 @@
+csc /debug YourProgram.cs\ncdb YourProgram.exe

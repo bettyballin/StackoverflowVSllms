@@ -1,0 +1,1 @@
+BEGIN\n  DBMS_AQ.POST(\n    queue_name => 'my_notification_queue',\n    enqueue_options => SYS.DBMS_AQADM.ENQUEUE_OPTIONS_WAIT,\n    message_properties => SYS.DBMS_AQADM.MESSAGE_PROPERTIES_PERSISTENT,\n    payload => SYS.ANYDATA.CONVERTVARCHAR2('Hello, world!')\n  );\nEND;\n/

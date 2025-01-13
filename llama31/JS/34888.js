@@ -1,0 +1,1 @@
+var promises = [];\n\nfunction processRow(rowNum) {\n  // ...\n  var promise = $.ajax({\n    // ...\n  });\n  promises.push(promise);\n}\n\n$.when.apply($, promises).then(function() {\n  // All AJAX calls are complete, enable/disable the submit button\n  $("input[type='submit']").prop("disabled", false);\n});

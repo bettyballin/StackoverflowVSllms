@@ -1,1 +1,0 @@
-using System.ComponentModel.DataAnnotations;\n\npublic class MyModel\n{\n    [StringLength(10)]\n    public string MyProperty { get; set; }\n}

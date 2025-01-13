@@ -1,0 +1,1 @@
+@typeperf -p <process_id> "\Processor(*)\% Processor Time"\n@typeperf -p <process_id> "\Process(*)\Working Set"

@@ -1,0 +1,1 @@
+// Example code with a bookmark\npublic class MyClass \n{\n    public void MyMethod() \n    {\n        // Bookmark: Ctrl + K, Ctrl + K\n        Console.WriteLine("Hello, World!"); // <--- Bookmark here\n    }\n}

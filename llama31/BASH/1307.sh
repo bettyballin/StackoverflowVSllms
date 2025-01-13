@@ -1,0 +1,1 @@
+curl -v http://machine001/Services/conversionService.asmx?wsdl

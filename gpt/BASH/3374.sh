@@ -1,1 +1,0 @@
-0 0 * * * /usr/bin/php /home/yourusername/public_html/cron/script.php

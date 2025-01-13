@@ -1,0 +1,1 @@
+var hiddenList = $('#myList-hidden');\nhiddenList.hide();\n$('a#myList-toggle').click(function() {\n  hiddenList.slideToggle(400);\n  return false;\n});

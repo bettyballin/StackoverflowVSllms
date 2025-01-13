@@ -1,1 +1,0 @@
-var dc = new CandyStoreDataContext();\nvar bar = new CandyBar()\n{\n    Name = "Flake",\n    DeliciousCandyBar = new DeliciousCandyBar()\n    {\n        DeliciousnessFactor = 12\n    }\n};\n\ndc.CandyBars.InsertOnSubmit(bar);\ndc.SubmitChanges();

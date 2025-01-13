@@ -1,0 +1,1 @@
+EnvStack envStack;\n\n// Save current state\nenvStack.push();\n\n// Make changes to environment settings\nglEnable(GL_BLEND);\nglBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);\nglDisable(GL_DEPTH_TEST);\n\n// Draw operations\n\n// Restore previous state\nenvStack.pop();

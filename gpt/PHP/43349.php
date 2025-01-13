@@ -1,1 +1,0 @@
-<?php\n// Logging out a user\nsession_start();\n$_SESSION = array();\nif (ini_get("session.use_cookies")) {\n    $params = session_get_cookie_params();\n    setcookie(session_name(), '', time() - 42000,\n        $params["path"], $params["domain"],\n        $params["secure"], $params["httponly"]\n    );\n}\nsession_destroy();\n?>

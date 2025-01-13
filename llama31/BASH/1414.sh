@@ -1,0 +1,1 @@
+sort -k 2 -n 1 -o file.txt file.txt

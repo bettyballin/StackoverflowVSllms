@@ -1,0 +1,1 @@
+$session_data = session_encode();\n$unserialized_data = unserialize_session_data($session_data);

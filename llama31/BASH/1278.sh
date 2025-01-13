@@ -1,0 +1,1 @@
+etsh interface ipv4 delete connection <src_ip>:<src_port> <dst_ip>:<dst_port>

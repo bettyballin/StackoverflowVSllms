@@ -1,0 +1,1 @@
+SELECT Date\nFROM YourTable\nGROUP BY Date\nHAVING COUNT(Date) < k;

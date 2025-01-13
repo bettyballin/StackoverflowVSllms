@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_LastUpdatedDate\nON YourTable\nAFTER INSERT, UPDATE\nAS\nBEGIN\n    UPDATE t\n    SET LastUpdatedDate = GETDATE()\n    FROM YourTable t\n    INNER JOIN inserted i ON t.PrimaryKey = i.PrimaryKey\nEND

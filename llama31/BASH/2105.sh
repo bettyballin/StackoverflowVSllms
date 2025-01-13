@@ -1,0 +1,1 @@
+svn resolve --accept mine-full path/to/conflicted/dll

@@ -1,1 +1,0 @@
-$ gcc -pg -arch x86_64 test.c -o test

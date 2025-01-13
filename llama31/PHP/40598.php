@@ -1,0 +1,1 @@
+$allowed_variables = ['name', 'email'];\nforeach ($allowed_variables as $variable) {\n    if (isset($_POST[$variable])) {\n        $$variable = sanitize_input($_POST[$variable]);\n    }\n}

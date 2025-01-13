@@ -1,1 +1,0 @@
-Console.WriteLine("This is a standard message.");\nConsole.Error.WriteLine("This is an error message.");

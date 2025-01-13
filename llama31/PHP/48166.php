@@ -1,0 +1,1 @@
+<?php\ninclude_once("header2.html");\n$includedContent = trim(ob_get_contents());\nob_end_clean();\necho $includedContent;\n?>

@@ -1,0 +1,1 @@
+$className = 'foo1';\n$obj = new $className();

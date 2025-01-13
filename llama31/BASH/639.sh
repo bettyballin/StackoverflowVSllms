@@ -1,0 +1,1 @@
+gzip -f --fast A.txt\ngzip -f --fast B.txt

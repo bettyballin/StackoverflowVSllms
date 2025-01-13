@@ -1,0 +1,1 @@
+CREATE LOGIN [LowPrivUser] WITH PASSWORD = 'StrongPassword';\nCREATE USER [LowPrivUser] FOR LOGIN [LowPrivUser];\nGRANT SELECT, INSERT, UPDATE, DELETE ON [schema].[table] TO [LowPrivUser];

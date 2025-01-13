@@ -1,0 +1,1 @@
+$ch = curl_init('http://example.com');\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_POST, true);\ncurl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('key' => 'value', 'key2' => 'value2')));\n$response = curl_exec($ch);\ncurl_close($ch);

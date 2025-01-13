@@ -1,0 +1,1 @@
+public static Expression<Func<T, bool>> Like<T>(this Expression<Func<T, string>> property, string value)\n{\n    return Expression.Lambda<Func<T, bool>>(\n        Expression.Call(\n            Expression.Constant(SqlFunctions.StringConvert(property.Body)),\n            "Contains",\n            Expression.Constant(value)\n        )\n    );\n}

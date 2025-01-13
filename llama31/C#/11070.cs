@@ -1,0 +1,1 @@
+string uncPath = GetUncPath('W');

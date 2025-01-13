@@ -1,0 +1,1 @@
+$("form").ajaxForm({\n  beforeSubmit: function() {\n    // Prevent multiple submissions\n    if (this.submitting) {\n      return false;\n    }\n    this.submitting = true;\n  }\n});

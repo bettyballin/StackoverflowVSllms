@@ -1,0 +1,1 @@
+E e;\nobject o = 1;\ne = (E)Enum.ToObject(typeof(E), o);

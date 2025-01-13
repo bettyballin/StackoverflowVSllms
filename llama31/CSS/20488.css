@@ -1,0 +1,1 @@
+div.menu {\n  width: 550px;\n}\n\ndiv.menu div {\n  float: left;\n  width: 200px;\n}\n\ndiv.menu div.right {\n  float: right;\n  width: 200px;\n  margin-left: 350px; /* 550 - 200 = 350 */\n}

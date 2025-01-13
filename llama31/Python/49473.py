@@ -1,0 +1,1 @@
+import cProfile\n\ndef my_function():\n    # your code here\n\nif __name__ == "__main__":\n    cProfile.run('my_function()', sort='cumulative')

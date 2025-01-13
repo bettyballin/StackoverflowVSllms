@@ -1,1 +1,0 @@
-amespace MyWcfApplication.Common.Models\n{\n    public class Order\n    {\n        public int OrderId { get; set; }\n        public string ProductName { get; set; }\n        public int Quantity { get; set; }\n    }\n}

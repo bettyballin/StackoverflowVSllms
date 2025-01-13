@@ -1,0 +1,1 @@
+private delegate void UpdateTextBoxDelegate(String value);\n\nprivate void UpdateTextBox(String value)\n{\n    this.txtPrice.Text = value;\n}\n\ntxtPrice.BeginInvoke(new UpdateTextBoxDelegate(UpdateTextBox), price);

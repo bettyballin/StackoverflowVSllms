@@ -1,0 +1,1 @@
+-- With prefix\nCREATE TABLE tbl_users (\n  id INT PRIMARY KEY,\n  name VARCHAR(50)\n);\n\n-- Without prefix\nCREATE TABLE users (\n  id INT PRIMARY KEY,\n  name VARCHAR(50)\n);

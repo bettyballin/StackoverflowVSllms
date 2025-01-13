@@ -1,1 +1,0 @@
-PHP_ARG_ENABLE(my_extension, whether to enable my_extension support,\n     [  --enable-my_extension   Enable my_extension support])\n\n     if test "$PHP_MY_EXTENSION" != "no"; then\n       PHP_NEW_EXTENSION(my_extension, my_extension.c, $ext_shared)\n     fi

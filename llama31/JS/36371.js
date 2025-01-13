@@ -1,0 +1,1 @@
+$('table tr:odd').addClass('odd-row');\n$('table tr:even').addClass('even-row');

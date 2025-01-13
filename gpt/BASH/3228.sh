@@ -1,1 +1,0 @@
-sudo chown -R mysql:mysql /var/lib/mysql/your_database_name/\n    sudo chmod -R 755 /var/lib/mysql/your_database_name/

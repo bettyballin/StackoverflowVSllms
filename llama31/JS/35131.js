@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    var getChildCategoriesUrl = '<%= Url.Action("GetChildCategories") %>';\n    var getDescriptionUrl = '<%= Url.Action("GetDescription") %>';\n</script>

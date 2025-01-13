@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\nclass Program\n{\n    static void Main()\n    {\n        string processName = "winword";\n        Process[] processes = Process.GetProcessesByName(processName);\n\n        foreach (Process p in processes)\n        {\n            p.Kill();\n        }\n\n        // Continue executing your code here\n    }\n}

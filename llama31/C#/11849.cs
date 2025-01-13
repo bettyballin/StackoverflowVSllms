@@ -1,0 +1,1 @@
+var obj = new MyClass { Property1 = "value1", Property2 = "value2" };

@@ -1,1 +1,0 @@
-# Given dictionary\nmy_dict = {'a': 1, 'b': 2, 'c': 3}\n\n# Convert to list of (value, key) tuples\nlist_of_tuples_value_key = [(value, key) for key, value in my_dict.items()]\nprint(list_of_tuples_value_key)\n# Output: [(1, 'a'), (2, 'b'), (3, 'c')]

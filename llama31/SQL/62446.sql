@@ -1,0 +1,1 @@
+UPDATE t\nSET EndTimeKey = d.DATE_NO\nFROM TableToUpdate t\nINNER JOIN Dates d ON t.EndTime = d.DATE;

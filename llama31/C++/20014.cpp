@@ -1,0 +1,1 @@
+using namespace Aspose::ThreeD;\n\n// Load the DXF file\nauto scene = Scene::FromFile("input.dxf");\n\n// Create a 3D PDF\nauto pdf = Pdf::Pdf("output.pdf");\n\n// Add the 3D scene to the PDF\npdf->AddEntity(scene);\n\n// Save the PDF\npdf->Save();

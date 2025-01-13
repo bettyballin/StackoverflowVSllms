@@ -1,0 +1,1 @@
+-Wno-unknown-pragmas

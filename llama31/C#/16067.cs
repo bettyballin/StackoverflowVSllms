@@ -1,0 +1,1 @@
+routes.MapRoute(\n    "Wizard",\n    "Wizard/{PartNum}/{PageId}",\n    new { controller = "Wizard", action = "Index", PageId = UrlParameter.Optional }\n);

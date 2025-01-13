@@ -1,0 +1,1 @@
+using Microsoft.Office.Interop.Excel;\n\n// assuming 'worksheet' is your Excel Worksheet object\n\n// 1. Put footer text in BOLD\nworksheet.PageSetup.Footer.Font.Bold = true;\nworksheet.PageSetup.Footer.Text = "Your bold footer text";\n\n// 2. Put the page number in the footer\nworksheet.PageSetup.Footer.Text = "Page &P";

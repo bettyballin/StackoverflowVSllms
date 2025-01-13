@@ -1,0 +1,1 @@
+# Create a new web site\nNew-WebSite -Name "MyNewSite" -Port 80 -PhysicalPath "C:\Inetpub\MyNewSite"\n\n# Create a virtual directory within an existing web site\nNew-WebVirtualDirectory -Site "Default Web Site" -Name "MyVirtualDir" -PhysicalPath "C:\Inetpub\MyVirtualDir"

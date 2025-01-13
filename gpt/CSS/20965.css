@@ -1,1 +1,0 @@
-#header {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 24px;\n    display: flex;\n    justify-content: space-between;\n    align-items: center; /* Align items vertically center */\n}\n\n#header span {\n    /* No need for additional styles here */\n}\n\n#header button {\n    /* No need for absolute positioning */\n}

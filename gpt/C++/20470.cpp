@@ -1,1 +1,0 @@
-// point3d.cpp\n\n#include "point3d.h"\n\nnamespace VW {\n    Point3D operator+(const Point3D& lhs, const Point3D& rhs) {\n        // Implementation of operator+\n    }\n\n    Point3D operator/(const Point3D& lhs, double rhs) {\n        // Implementation of operator/\n    }\n}

@@ -1,1 +1,0 @@
-// Original code\nfunction helloWorld() {\n    console.log("Hello, World!");\n}\nhelloWorld();

@@ -1,0 +1,1 @@
+CREATE TABLE enum_values (\n  value VARCHAR(20),\n  index INT\n);\n\nINSERT INTO enum_values (value, index) VALUES\n  ('alpha', 1),\n  ('beta', 2),\n  ('gamma', 3),\n  ('delta', 4),\n  ('omega', 5);\n\nSELECT *\nFROM your_table\nJOIN enum_values ON your_table.status = enum_values.value\nWHERE enum_values.index < 4;

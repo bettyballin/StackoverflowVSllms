@@ -1,0 +1,1 @@
+Using dr As DbDataReader = connection.GetDataReader(sql_str)\n    Try\n        ' process the data reader\n    Catch ex As SqlClientException\n        log.Error(ex)\n    End Try\nEnd Using

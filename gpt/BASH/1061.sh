@@ -1,1 +1,0 @@
-./file_watcher /path/to/your/file.xml

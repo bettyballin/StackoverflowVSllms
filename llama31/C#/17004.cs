@@ -1,0 +1,1 @@
+public static SqlCommand CreateStoredProcedureCommand(string procedureName, params SqlParameter[] parameters)\n{\n    var cmd = new SqlCommand(procedureName);\n    cmd.CommandType = CommandType.StoredProcedure;\n    cmd.Parameters.AddRange(parameters);\n    return cmd;\n}

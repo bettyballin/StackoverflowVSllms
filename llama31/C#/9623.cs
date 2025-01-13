@@ -1,0 +1,1 @@
+IList employeesWithAddresses = sess.CreateCriteria(typeof(Employee))\n    .CreateAlias("Address", "address")\n    .Add(Restrictions.IsNotNull("address"))\n    .List();

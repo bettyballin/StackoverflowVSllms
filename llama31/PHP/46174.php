@@ -1,0 +1,1 @@
+$petCriteria = new Criteria();\n$petCriteria->add(PetInfoPeer::ACCOUNT_ID, $user->getProfile()->getAccountId());\n$petCriteria->addJoin(LostPetPeer::PET_INFO_ID, PetInfoPeer::PET_INFO_ID, Criteria::LEFT_JOIN);

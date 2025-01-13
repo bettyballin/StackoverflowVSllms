@@ -1,1 +1,0 @@
-<?php\n    namespace Admin\Controller;\n\n    use Laminas\Mvc\Controller\AbstractActionController;\n    use Laminas\View\Model\ViewModel;\n\n    class IndexController extends AbstractActionController\n    {\n        public function indexAction()\n        {\n            return new ViewModel();\n        }\n    }

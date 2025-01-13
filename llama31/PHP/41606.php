@@ -1,0 +1,1 @@
+<?php\ntry {\n    $xml = file_get_contents('example.xml');\n    // ...\n} catch (Exception $e) {\n    error_log($e->getMessage());\n    // ...\n}

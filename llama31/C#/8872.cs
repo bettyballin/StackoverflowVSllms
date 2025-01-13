@@ -1,0 +1,1 @@
+using System.IO;\nusing System.Data;\n\nDataSet ds = ...; // your dataset\n\nStringWriter sw = new StringWriter();\nds.WriteXml(sw);\nstring xmlString = sw.ToString();

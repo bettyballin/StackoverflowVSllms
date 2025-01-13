@@ -1,1 +1,0 @@
-<extension\n        point="org.jbpm.gd.common.xmlMappings">\n    <xmlMapping\n            id="yourMappingId"\n            name="Your Mapping"\n            path="your/path/to/mapping">\n        <!-- Override any specific attributes or elements as needed -->\n    </xmlMapping>\n</extension>

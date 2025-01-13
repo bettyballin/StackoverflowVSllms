@@ -1,0 +1,1 @@
+#include <stdlib.h>\n#include <string.h>\n\n// ...\n\nchar template[] = "/tmp/somefile-XXXXXX";\nint fd = mkstemp(template);\nif (fd != -1) {\n    char *dir = dirname(template);\n    // use dir\n    close(fd);\n    unlink(template);\n}

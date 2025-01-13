@@ -1,0 +1,1 @@
+if (function_exists('hidef_define_constants')) {\n    hidef_define_constants('my_constants', array(\n        'SECRET_KEY' => 'my_secret_key',\n    ));\n}

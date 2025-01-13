@@ -1,0 +1,1 @@
+$view = entity_view('node', $node, 'teaser');

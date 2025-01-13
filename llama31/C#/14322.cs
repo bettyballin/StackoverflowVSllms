@@ -1,0 +1,1 @@
+// MethodHandler.ashx\npublic class MethodHandler : IHttpHandler\n{\n    public void ProcessRequest(HttpContext context)\n    {\n        // Call your method here\n        YourPageBaseClass.MethodName();\n        context.Response.StatusCode = 200;\n    }\n\n    public bool IsReusable { get { return false; } }\n}

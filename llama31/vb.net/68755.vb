@@ -1,0 +1,1 @@
+Imports NUnit.Framework\n\n[TestFixture]\nPublic Class MyClassTests\n    [Test]\n    Public Sub MyMethod_Should_Return_True()\n        Dim myClass = New MyClass()\n        Assert.IsTrue(myClass.MyMethod())\n    End Sub\nEnd Class

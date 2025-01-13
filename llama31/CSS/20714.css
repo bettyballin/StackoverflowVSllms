@@ -1,0 +1,1 @@
+#my-special-table {\n  /* add all the styles from seaglass.css here */\n}\n\n/* or, if you want to keep the original CSS intact */\n#my-special-table tr, #my-special-table td, #my-special-table th {\n  /* inherit all the styles from seaglass.css */\n}

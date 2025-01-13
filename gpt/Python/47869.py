@@ -1,1 +1,0 @@
-class MyResourceView(APIView):\n      def get(self, request, format=None):\n          my_resource = MyResource.objects.all()\n          serializer = MyResourceSerializer(my_resource, many=True)\n          return Response(serializer.data)

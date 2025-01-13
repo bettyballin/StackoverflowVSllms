@@ -1,0 +1,1 @@
+if($.metadata){\n  $.metadata.setType("attr", "validate"); \n}else{\n  console.log('$.metadata is not defined');\n}

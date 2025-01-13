@@ -1,0 +1,1 @@
+public ActionResult MyAction()\n{\n    bool isVisible = // your database logic here\n    ViewBag.IsDivVisible = isVisible;\n    return View();\n}

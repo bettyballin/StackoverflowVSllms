@@ -1,0 +1,1 @@
+<fo:block text-align="left">\n  Left-aligned text\n  <fo:inline text-align="right">Right-aligned text</fo:inline>\n</fo:block>

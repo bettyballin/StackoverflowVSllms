@@ -1,0 +1,1 @@
+curl -X POST \\n  http://localhost:5984/_replicate \\n  -H 'Content-Type: application/json' \\n  -d '{"source": {"db": "mydatabase", "username": "myuser", "password": "mypassword"}, "target": {"db": "myclone", "username": "myuser", "password": "mypassword"}}'

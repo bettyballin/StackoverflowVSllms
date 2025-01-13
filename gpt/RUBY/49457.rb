@@ -1,1 +1,0 @@
-# Ruby 1.8.6\n   (1..10).each { |i| j = i + 1 }\n   \n   # Ruby 1.9\n   (1..10).each { |i; j| j = i + 1 }

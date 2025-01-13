@@ -1,0 +1,1 @@
+DataSet dsSource = ...; // source DataSet\nDataSet dsTarget = ...; // target DataSet\n\nvar filteredData = dsSource.Tables["master"].AsEnumerable()\n    .Where(row => row.Field<string>("A") == "XXX")\n    .CopyToDataTable();\n\ndsTarget.Tables["master"].Merge(filteredData);

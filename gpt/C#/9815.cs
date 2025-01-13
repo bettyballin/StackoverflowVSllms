@@ -1,1 +1,0 @@
-[AcceptVerbs(HttpVerbs.Post)]\npublic ActionResult Create(FormCollection collection)\n{\n    try\n    {\n        var contact = Contact.Create();\n        UpdateModel<Contact>(contact);\n        contact.Save();\n        return RedirectToAction("Index");\n    }\n    catch (InvalidOperationException ex)\n    {\n        return View();\n    }\n}

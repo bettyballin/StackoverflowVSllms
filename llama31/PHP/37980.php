@@ -1,0 +1,1 @@
+if (($myvariable ?? "") !== "") {\n    // do something\n}

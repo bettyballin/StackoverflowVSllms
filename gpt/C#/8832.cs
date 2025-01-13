@@ -1,1 +1,0 @@
-SPUser currentUser = SPContext.Current.Web.CurrentUser;\nstring userName = currentUser.LoginName;

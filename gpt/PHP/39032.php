@@ -1,1 +1,0 @@
-class foo {\n    public static $bar = 'hi';\n} \n\n$class = 'foo';\necho $class::$bar; // Outputs 'hi'

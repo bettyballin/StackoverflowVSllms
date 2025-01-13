@@ -1,1 +1,0 @@
-CREATE INDEX idx_start_end_time ON events (start_time, end_time);

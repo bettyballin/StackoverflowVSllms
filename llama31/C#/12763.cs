@@ -1,0 +1,1 @@
+var result = session.QueryOver<View>()\n    .Left.JoinQueryOver(v1 => v1.SourceView, () => v2)\n    .OrderBy(v1 => v1.Position).Asc\n    .Select(v1 => v1.Id)\n    .List<int>();

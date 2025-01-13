@@ -1,0 +1,1 @@
+$jsonForm = Zend_Json::encode($form->getElements());

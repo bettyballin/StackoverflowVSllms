@@ -1,1 +1,0 @@
-$rootPath = $_SERVER['DOCUMENT_ROOT'];\n   $includePath = ini_get('include_path');\n   ini_set('include_path', '.'.PATH_SEPARATOR.$rootPath.PATH_SEPARATOR.$includePath);\n\n   // usage\n   require_once 'controller/somecontroller.php';

@@ -1,0 +1,1 @@
+using System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        string fileName = "cheese.exe";\n        string[] paths = Directory.EnumerateFiles(@"C:\", fileName, SearchOption.AllDirectories);\n\n        foreach (string path in paths)\n        {\n            Console.WriteLine($"Found {fileName} at {Path.GetDirectoryName(path)}");\n        }\n    }\n}

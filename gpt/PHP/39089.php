@@ -1,1 +1,0 @@
-$a1 = array('foo');\n$a2 = $a1; // No immediate copy, both $a1 and $a2 point to the same memory\n\n$a2[0] = 'bar'; // Now, $a2 is modified, so PHP makes a copy of the array\n\n// Result:\n// $a1[0] is still 'foo'\n// $a2[0] is now 'bar'

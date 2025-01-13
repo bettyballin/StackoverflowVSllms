@@ -1,0 +1,1 @@
+ftp.sendcmd("TYPE I")

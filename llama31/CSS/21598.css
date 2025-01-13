@@ -1,0 +1,1 @@
+input[type="text"][style*="display: none"] {\n  user-select: none;\n}

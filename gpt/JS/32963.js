@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\nxhr.open("PUT", "https://example.com/api/resource", true);\nxhr.setRequestHeader("Content-Type", "application/json");\n\nxhr.onreadystatechange = function () {\n  if (xhr.readyState === 4 && xhr.status === 200) {\n    console.log(xhr.responseText);\n  }\n};\n\nvar data = JSON.stringify({ key: "value" });\nxhr.send(data);

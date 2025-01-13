@@ -1,0 +1,1 @@
+WITH RankedVersions AS (\n  SELECT ItemId, ItemVersionId, Year, Value,\n         ROW_NUMBER() OVER (PARTITION BY ItemId, Year ORDER BY ItemVersionId DESC) AS RowNum\n  FROM table\n)\nSELECT ItemId, ItemVersionId, Year, Value\nFROM RankedVersions\nWHERE RowNum = 1 AND ItemId = 1;

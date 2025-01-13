@@ -1,0 +1,1 @@
+session_start();\n$file_contents = $_SESSION['file_contents'];\n// Process the file contents...\nunset($_SESSION['file_contents']); // Don't forget to unset the session variable

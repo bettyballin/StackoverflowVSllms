@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("SELECT ... WHERE CONCAT(...) LIKE ?");\n$stmt->bind_param("s", $keyword);\n$stmt->execute();

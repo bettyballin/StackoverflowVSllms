@@ -1,0 +1,1 @@
+CurrencyManager currencyManager = (CurrencyManager)BindingContext[DataGridView.DataSource];\ncurrencyManager.SuspendBinding();\nDataGridView.Rows[0].Visible = false;\ncurrencyManager.ResumeBinding();

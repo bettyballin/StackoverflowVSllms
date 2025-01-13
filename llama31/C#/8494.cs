@@ -1,0 +1,1 @@
+// PageA\n[HttpPost]\npublic ActionResult SubmitForm(FormCollection form)\n{\n    return RedirectToAction("PageB", new { data = form });\n}\n\n// PageB\npublic ActionResult PageB(string data)\n{\n    // Use the data\n}

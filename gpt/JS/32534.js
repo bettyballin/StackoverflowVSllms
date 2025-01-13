@@ -1,1 +1,0 @@
-document.getElementById("username").addEventListener("input", function() {\n       const username = this.value;\n       if (username.length > 20) {\n           showError("Username must be at most 20 characters long.");\n       } else {\n           clearError();\n       }\n   });

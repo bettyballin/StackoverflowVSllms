@@ -1,1 +1,0 @@
-patch -p0 < new-feature.patch

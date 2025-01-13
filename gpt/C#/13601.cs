@@ -1,1 +1,0 @@
-public partial class MainForm : Form\n{\n    private BrowserHelper browserHelper;\n\n    public MainForm()\n    {\n        InitializeComponent();\n        browserHelper = new BrowserHelper(webBrowser1);\n    }\n}

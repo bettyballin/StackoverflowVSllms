@@ -1,0 +1,1 @@
+echo getRootDomain('here.example.com'); // outputs "example.com"\necho getRootDomain('example.com'); // outputs "example.com"\necho getRootDomain('example.org'); // outputs "example.org"\necho getRootDomain('here.example.org'); // outputs "example.org"

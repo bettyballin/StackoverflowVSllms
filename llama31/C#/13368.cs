@@ -1,0 +1,1 @@
+public class MyDataService : DataService<MyDataContext>\n{\n    public MyDataService()\n    {\n        Serializer = new GuidSerializer();\n    }\n\n    public IQueryable<UserDetails> UserDetails\n    {\n        get { return CurrentDataSource.UserDetails; }\n    }\n}

@@ -1,0 +1,1 @@
+.box {\n    overflow: auto;\n    margin-top: 10px;\n    zoom: 1; /* add this */\n}

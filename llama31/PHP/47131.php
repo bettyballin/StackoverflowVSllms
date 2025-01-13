@@ -1,0 +1,1 @@
+require_once 'PHPExcel/PHPExcel.php';\n\n// Create a new Excel document\n$excel = new PHPExcel();\n\n// Add some data to the document\n$excel->getActiveSheet()->setCellValue('A1', 'Hello, World!');\n\n// Save the document to a file\n$objWriter = PHPExcel_IOFactory::createWriter($excel, 'Excel2007');\n$objWriter->save('example.xlsx');

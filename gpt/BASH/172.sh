@@ -1,1 +1,0 @@
-cloc --list-file=source_files.txt

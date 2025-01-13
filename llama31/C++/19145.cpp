@@ -1,0 +1,1 @@
+void MyControl::OnEraseBkgnd(CDC* pDC)\n{\n    // Set up clipping region\n    CRect rect;\n    GetClientRect(rect);\n    pDC->SelectClipRgn(&rect);\n\n    // Fill background with solid color\n    CBrush brush;\n    brush.CreateSolidBrush(RGB(255, 255, 255)); // White background\n    pDC->FillRect(rect, &brush);\n\n    // Clean up\n    pDC->SelectClipRgn(NULL);\n}

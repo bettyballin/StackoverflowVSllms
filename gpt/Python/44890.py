@@ -1,1 +1,0 @@
-import re\n\nhtml_string = '<a href=test.html class="xyz" id=\'anchor1\'>'\n\npattern = re.compile(r'(?<name>\b\w+\b)\s*=\s*("(?<value>[^"]*)"|\'(?<value>[^']*)\'|(?<value>[^\s"\'<>]+))')\n\nmatches = pattern.finditer(html_string)\n\nfor match in matches:\n    name = match.group('name')\n    value = match.group('value')\n    print(f'Attribute: {name}, Value: {value}')

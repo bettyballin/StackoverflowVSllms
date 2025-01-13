@@ -1,0 +1,1 @@
+submit_to_remote 'Disable', :url => "build_url(this.form)"

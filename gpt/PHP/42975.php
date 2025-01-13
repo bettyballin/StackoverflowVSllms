@@ -1,1 +1,0 @@
-$query = "SELECT val FROM table WHERE id = 1";\n$result = mysql_query($query);\n\nif ($result) {\n    $value = mysql_result($result, 0);\n    echo $value;\n} else {\n    echo "Query failed: " . mysql_error();\n}

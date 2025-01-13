@@ -1,1 +1,0 @@
-exiftool -FileType -ImageWidth -ImageHeight image.jpg

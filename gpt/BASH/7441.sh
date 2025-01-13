@@ -1,1 +1,0 @@
-mysqldump -u [username] -p[password] [database_name] [table1] [table2] > [output_file].sql

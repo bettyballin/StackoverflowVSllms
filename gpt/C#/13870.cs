@@ -1,1 +1,0 @@
-class Foo {\n    // This is a constructor, it matches the class name\n    public Foo() {\n        // Constructor code here\n    }\n    \n    // This is a method, it uses camelCase\n    public void someMethod() {\n        // Method code here\n    }\n}

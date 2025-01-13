@@ -1,1 +1,0 @@
-/path/to/set_permissions.sh "$@"

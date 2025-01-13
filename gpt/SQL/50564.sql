@@ -1,1 +1,0 @@
-CREATE TABLE Attributes (\n        AttributeID INT PRIMARY KEY,\n        AttributeName VARCHAR(100)\n    );

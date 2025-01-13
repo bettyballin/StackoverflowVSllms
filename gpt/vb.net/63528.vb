@@ -1,1 +1,0 @@
-Public Shared Sub CreateCustomer(cust As Customer)\n    Dim validationResult = Validation.CustomerValidation.ValidateForCreate(cust)\n    If Not validationResult.IsValid Then\n        Throw New CustomValidationException(validationResult.ErrorMessage)\n    End If\n    Dal.Customer.Create(cust)\nEnd Sub

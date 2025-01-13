@@ -1,1 +1,0 @@
-DELETE TOP (1)\nFROM YourTable\nORDER BY YourColumn;

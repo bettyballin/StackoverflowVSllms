@@ -1,0 +1,1 @@
+volatile NSP::Admin admin();\nvolatile NSP::Server server();

@@ -1,1 +1,0 @@
-CREATE TRIGGER trg_UpdateUserName\nON Users\nAFTER INSERT, UPDATE\nAS\nBEGIN\n    SET NOCOUNT ON;\n\n    UPDATE Users\n    SET UserName = LOWER(i.DisplayUserName)\n    FROM inserted i\n    WHERE Users.ID = i.ID;\nEND;

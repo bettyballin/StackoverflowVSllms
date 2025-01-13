@@ -1,0 +1,1 @@
+DELETE t1\nFROM your_table t1\nINNER JOIN your_table t2\nWHERE t1.id < t2.id AND t1.name = t2.name;

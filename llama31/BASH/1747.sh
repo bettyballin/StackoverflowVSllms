@@ -1,0 +1,1 @@
+TFSRestore.exe /restore /collection:http://your-new-tfs-server:8080/tfs/YourCollection /filename:C:\Backup\TFS_Backup.bak

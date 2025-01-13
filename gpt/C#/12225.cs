@@ -1,1 +1,0 @@
-public class MyEntity : IEntity\n{\n    public int ID { get; set; }\n\n    // Other properties of your entity\n    public string Name { get; set; }\n}

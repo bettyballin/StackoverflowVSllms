@@ -1,1 +1,0 @@
-SELECT ppp.[passenger-id]\nFROM passenger ppp\nINNER JOIN [passenger-flylist] ppff \nON ppp.[passenger-id] = ppff.[passenger-id]\nINNER JOIN flylist fff \nON ppff.[flylist-id] = fff.[flylist-id]\nWHERE ppp.[name] = @name \nAND fff.[start-from] = @flightDate \nAND ppp.[ticket-number] = @ticketNo

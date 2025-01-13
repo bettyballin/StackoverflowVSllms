@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('#log').on('load', function() {\n        scrollLog(line);\n    });\n});\n\nfunction scrollLog(line) {\n    var iframe = document.getElementById('log').contentWindow;\n    $(iframe.document).find(line);\n}

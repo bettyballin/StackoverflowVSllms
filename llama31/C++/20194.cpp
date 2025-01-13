@@ -1,0 +1,1 @@
+class MyPermission : public IPermission {\npublic:\n    HRESULT RequestPermission(\n        /* [in] */ BSTR bstrPermission,\n        /* [out] */ VARIANT_BOOL* pfRequired\n    ) {\n        // Implement your permission logic here\n        // e.g., check the caller's process ID, username, etc.\n        // Return S_OK if permission is granted, E_ACCESSDENIED otherwise\n    }\n};

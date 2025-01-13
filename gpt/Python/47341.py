@@ -1,1 +1,0 @@
-data = "78,45,New things,200, Number of columns,2.00,5\n"\n\nwith open('output.txt', 'w', encoding='utf-8') as file:\n    file.write(data)

@@ -1,0 +1,1 @@
+my_list = ['a', 'b', 'c', 'd']\nmy_dict = {item: None for item in my_list}\n\nprint(my_dict)  # {'a': None, 'b': None, 'c': None, 'd': None}

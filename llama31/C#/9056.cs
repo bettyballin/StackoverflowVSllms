@@ -1,0 +1,1 @@
+XmlDocument xmlDoc = new XmlDocument();\n// Load your XML data into xmlDoc\n\nDataSet ds = new DataSet();\nStringReader sr = new StringReader(xmlDoc.OuterXml);\nds.ReadXml(sr);

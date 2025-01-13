@@ -1,0 +1,1 @@
+import re\n\nwith open('example.inf', 'r') as f:\n    content = f.read()\n\npattern = r'%(\w+)%\s*=\s*(\w+),\s*(.*)'\nmatches = re.findall(pattern, content)\n\nfor match in matches:\n    device_name = match[1]\n    pci_id = match[2]\n    print(f"Device Name: {device_name}")\n    print(f"PCI ID: {pci_id}")

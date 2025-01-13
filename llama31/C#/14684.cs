@@ -1,0 +1,1 @@
+abstract class A { }\n\nstatic class S\n{\n    public static void DoFirst(A argument) { }\n    public static void DoSecond(IEnumerable<A> argument) { }\n}\n\nstatic class P<T>\n    where T : A, new()\n{\n    static void Do()\n    {\n        S.DoFirst(new T());             // this call is OK\n\n        S.DoSecond(new List<T>());      // this call is now OK\n    }\n}

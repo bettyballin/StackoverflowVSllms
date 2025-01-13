@@ -1,0 +1,1 @@
+import re\n\nregex = r'(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)'\nstring = '127.255.0.0'\n\nmatches = re.finditer(regex, string)\nfor match in matches:\n    print(match.group(0))  # prints the full match

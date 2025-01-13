@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'GET',\n    url: '@Url.Action("UpdateSections")',\n    success: function (data) {\n        $('#top-section').html($(data).find('#top-section'));\n        $('#bottom-section').html($(data).find('#bottom-section'));\n        $('#main-section').html($(data).find('#main-section'));\n    }\n});

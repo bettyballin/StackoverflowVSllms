@@ -1,0 +1,1 @@
+public class ChatHub : Hub\n{\n    public void SendMessage(string message)\n    {\n        Clients.All.Send(message);\n    }\n}

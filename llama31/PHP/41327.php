@@ -1,0 +1,1 @@
+$string = 'The {site} site {adj} because it {adj}';\n$vars = array('site' => 'Stackoverflow', 'adj' => 'rocks');\n\necho str_replace(array_map(function($key) { return '{' . $key . '}'; }, array_keys($vars)), array_values($vars), $string);

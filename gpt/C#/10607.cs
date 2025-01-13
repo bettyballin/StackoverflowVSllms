@@ -1,1 +1,0 @@
-using System.Net;\n\n   WebClient client = new WebClient();\n   client.DownloadStringCompleted += (sender, e) =>\n   {\n       if (e.Error == null)\n       {\n           string response = e.Result;\n           // Process the response\n       }\n   };\n   client.DownloadStringAsync(new Uri("http://yourserver.com/yourphpscript.php"));

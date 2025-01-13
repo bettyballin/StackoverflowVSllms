@@ -1,1 +1,0 @@
-string connectionString = @"Server=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\YourDatabase.mdf;Database=YourDatabase;Trusted_Connection=Yes;";

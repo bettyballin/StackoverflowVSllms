@@ -1,0 +1,1 @@
+CREATE TABLE BitMasks (\n    Id INT PRIMARY KEY,\n    IntBitMask INT,\n    VarbinaryBitMask VARBINARY(32)\n);\n\nINSERT INTO BitMasks (Id, IntBitMask, VarbinaryBitMask)\nVALUES (1, 0x0000000F, 0x0F);\n\nSELECT \n    IntBitMask,\n    CONVERT(INT, VarbinaryBitMask) AS VarbinaryToInt\nFROM BitMasks;

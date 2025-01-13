@@ -1,1 +1,0 @@
-sudo apt-get update\n   sudo apt-get install python3-pip\n   pip3 install mitmproxy

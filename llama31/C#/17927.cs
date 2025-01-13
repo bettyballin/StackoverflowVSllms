@@ -1,0 +1,1 @@
+[HttpPost]\npublic ActionResult Delete(int id)\n{\n    // delete logic\n    return RedirectToAction("Index");\n}

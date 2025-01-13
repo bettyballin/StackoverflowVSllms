@@ -1,0 +1,1 @@
+DELETE me\nFROM MatchEvent me\nINNER JOIN MatchResult mr ON me.MatchId = mr.MatchId\nWHERE mr.SOME_CONDITION;\n\nDELETE mr\nFROM MatchResult mr\nWHERE mr.SOME_CONDITION;

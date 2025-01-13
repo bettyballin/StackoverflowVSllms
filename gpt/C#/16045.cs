@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        int size = Convert.ToInt32(Master.MySize.SelectedItem.Text);\n        // Use the size variable as needed\n    }\n}

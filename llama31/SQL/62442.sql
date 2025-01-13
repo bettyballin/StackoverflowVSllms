@@ -1,0 +1,1 @@
+CREATE TABLE TableName (...);\nEXECUTE ('SET IDENTITY_INSERT TableName ON');

@@ -1,1 +1,0 @@
-$command = 'mysqldump --opt -h localhost -u username --password="password" dbname > "backup-2009-04-15-09-57-13.sql"';\nexec($command, $output, $return_var);\n\nif ($return_var !== 0) {\n    // Command failed, handle the error\n    echo "Error: " . implode("\n", $output);\n} else {\n    echo "Backup successful.";\n}

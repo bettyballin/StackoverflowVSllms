@@ -1,0 +1,1 @@
+if (filter_var($_POST['email-address'], FILTER_VALIDATE_EMAIL)) {\n    echo "valid email";\n} else {\n    echo "invalid email";\n}

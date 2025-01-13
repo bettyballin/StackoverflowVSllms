@@ -1,1 +1,0 @@
-SELECT name, description \n  FROM table2 \n  WHERE id IN (5, 3, 8, 1)\n  ORDER BY CASE id \n    WHEN 5 THEN 1\n    WHEN 3 THEN 2\n    WHEN 8 THEN 3\n    WHEN 1 THEN 4\n    ELSE 5 END;

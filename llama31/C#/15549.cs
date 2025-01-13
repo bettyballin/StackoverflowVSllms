@@ -1,0 +1,1 @@
+Configuration config = null;\nforeach (Configuration c in Configurations)\n{\n    if (c.Name == "myConfig")\n    {\n        config = c;\n        break;\n    }\n}

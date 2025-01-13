@@ -1,1 +1,0 @@
-class Public_IndexController extends Zend_Controller_Action\n{\n    public function indexAction()\n    {\n        // Instantiate the User model\n        $userModel = new Application_Model_User();\n        \n        // Use model methods\n        $users = $userModel->fetchAll();\n        \n        // Pass data to view\n        $this->view->users = $users;\n    }\n}

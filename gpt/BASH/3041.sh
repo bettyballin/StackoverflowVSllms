@@ -1,1 +1,0 @@
-svn commit -m "Added WebInfo to svn:ignore"

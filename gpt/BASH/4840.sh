@@ -1,1 +1,0 @@
-# Install OpenAPI Generator\nnpm install @openapitools/openapi-generator-cli -g\n\n# Generate a client library in Python\nopenapi-generator-cli generate -i api-spec.yaml -g python -o /path/to/output/python-client\n\n# Generate a client library in Java\nopenapi-generator-cli generate -i api-spec.yaml -g java -o /path/to/output/java-client

@@ -1,1 +1,0 @@
-sudo apt-get install php7.4-fpm\nsudo systemctl start php7.4-fpm\nsudo systemctl enable php7.4-fpm

@@ -1,1 +1,0 @@
-rails g acts_as_taggable_on:migration\nrails db:migrate

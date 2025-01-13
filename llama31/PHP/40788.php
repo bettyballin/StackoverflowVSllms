@@ -1,0 +1,1 @@
+$array = array(1, 2, 3, 4, 5);\nloop_array($array, function($value) {\n    echo $value . '<br>';\n});

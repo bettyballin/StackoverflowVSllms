@@ -1,1 +1,0 @@
-// Example of a simple Web API controller in ASP.NET MVC\n   public class DataController : ApiController\n   {\n       [HttpGet]\n       public IHttpActionResult GetData()\n       {\n           var data = new { Name = "Example", Value = "123" };\n           return Ok(data);\n       }\n   }

@@ -1,0 +1,1 @@
+private readonly object lockObject = new object();\n\npublic void DoImportantStuff()\n{\n    lock (lockObject)\n    {\n        // dangerous code goes here.\n    }\n}

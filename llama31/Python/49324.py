@@ -1,0 +1,1 @@
+import win32com.client\n\ndef get_link_target(path):\n    shell = win32com.client.Dispatch("WScript.Shell")\n    shortcut = shell.CreateShortCut(path)\n    return shortcut.Targetpath\n\n# Example usage:\nprint(get_link_target(r"C:\Path\To\Videos.lnk"))

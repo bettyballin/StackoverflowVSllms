@@ -1,0 +1,1 @@
+session_start(); // start the sessio

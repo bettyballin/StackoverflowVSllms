@@ -1,1 +1,0 @@
-var result = from student in students\n             where student.Age > 18\n             select new { student.Name, student.Age };

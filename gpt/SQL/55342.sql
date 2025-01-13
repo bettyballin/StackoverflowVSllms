@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION check_cycle() RETURNS TRIGGER AS $$\nBEGIN\n    IF NEW.path LIKE '%' || NEW.id::TEXT || '%' THEN\n        RAISE EXCEPTION 'Cycle detected: A node cannot be its own ancestor';\n    END IF;\n    RETURN NEW;\nEND;\n$$ LANGUAGE plpgsql;\n\nCREATE TRIGGER trigger_check_cycle\nBEFORE INSERT OR UPDATE ON tree\nFOR EACH ROW\nEXECUTE FUNCTION check_cycle();

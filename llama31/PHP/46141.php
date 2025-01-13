@@ -1,0 +1,1 @@
+$db->query("SET NAMES 'utf8'");

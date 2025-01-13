@@ -1,1 +1,0 @@
-public class DynamicFormViewModel\n{\n    public List<StringDateCombo> StringDateCombos { get; set; }\n}\n\npublic class StringDateCombo\n{\n    [Required]\n    public string SomeString { get; set; }\n\n    [Required]\n    [DataType(DataType.Date)]\n    public DateTime SomeDate { get; set; }\n}

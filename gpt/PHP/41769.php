@@ -1,1 +1,0 @@
-<?php\nrequire_once 'path/to/MyClass.class.php';

@@ -1,0 +1,1 @@
+public class Product\n{\n    public Product()\n    {\n        StorageHistories = new HashSet<StorageHistory>();\n    }\n\n    public virtual ISet<StorageHistory> StorageHistories { get; set; }\n}

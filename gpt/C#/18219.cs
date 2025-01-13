@@ -1,1 +1,0 @@
-Person bob = new Person();\nbob.FirstName = "Bob";\ncollectionPeople.Add(bob);\ncontext.SaveChanges(); // Assuming Entity Framework or similar ORM

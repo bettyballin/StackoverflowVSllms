@@ -1,0 +1,1 @@
+// Using compiler intrinsics for SSE\n#ifdef _MSC_VER\n#include <intrin.h>\n#else\n#include <emmintrin.h>\n#endif\n\nvoid sseOptimizedFunction() {\n    __m128i vec;\n    // ...\n}

@@ -1,0 +1,1 @@
+strace -f -c for i in `cat url-list.txt`; do wget -c $i; done

@@ -1,0 +1,1 @@
+-- Enable auditing for the schema\nALTER SYSTEM SET AUDIT_TRAIL = 'DB' SCOPE = SPFILE;\n\n-- Create an audit policy\nCREATE AUDIT POLICY my_policy\n  ACTIONS INSERT, UPDATE, DELETE\n  ON my_table;\n\n-- Enable the audit policy\nAUDIT POLICY my_policy;

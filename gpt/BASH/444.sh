@@ -1,1 +1,0 @@
-cat server.cert intermediate1.crt intermediate2.crt > chained.cert

@@ -1,1 +1,0 @@
-<?php\n// script.php\n\nheader('Content-Type: application/javascript');\n\n$callback = $_GET['callback'];\n$response = array('message' => 'test');\n\necho $callback . '(' . json_encode($response) . ');';\n?>

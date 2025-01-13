@@ -1,0 +1,1 @@
+clang-tidy -checks=-*,readability- unused-include-parameters your_file.cpp

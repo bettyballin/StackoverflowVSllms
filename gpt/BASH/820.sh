@@ -1,1 +1,0 @@
-#!/bin/bash\ninterval=5\nduration=60\noutput_file="cpu_usage.log"\n\necho "Timestamp, %Idle" > $output_file\nend_time=$((SECONDS+duration))\n\nwhile [ $SECONDS -lt $end_time ]; do\n    timestamp=$(date +"%Y-%m-%d %H:%M:%S")\n    idle=$(mpstat 1 1 | awk '/all/ {print $12}')\n    echo "$timestamp, $idle" >> $output_file\n    sleep $interval\ndone

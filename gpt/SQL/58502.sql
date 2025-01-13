@@ -1,1 +1,0 @@
-USE [YourDatabase_Copy];\nSELECT * FROM YourTable WHERE YourCondition;

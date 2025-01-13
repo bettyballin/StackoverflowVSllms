@@ -1,0 +1,1 @@
+// Core process\nwhile (running) {\n    // Check if client process has terminated\n    pid_t client_pid = get_client_pid(client_socket);\n    int status;\n    if (waitpid(client_pid, &status, WNOHANG) != 0) {\n        // Client process has terminated, free resources\n        free_resources(client_socket);\n    }\n}

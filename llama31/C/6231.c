@@ -1,0 +1,1 @@
+#include <sys/socket.h>\n\n// Create a socket\nint sock = socket(AF_INET, SOCK_STREAM, 0);\n\n// Set SO_REUSEADDR\nint optval = 1;\nsetsockopt(sock, SOL_SOCKET, SO_REUSEADDR, &optval, sizeof(optval));

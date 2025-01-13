@@ -1,0 +1,1 @@
+<!-- Example of increasing the maxContexts attribute in server.xml -->\n<Host name="localhost" appBase="webapps" unpackWARs="true" autoDeploy="true" maxContexts="200">\n    <!-- ... -->\n</Host>

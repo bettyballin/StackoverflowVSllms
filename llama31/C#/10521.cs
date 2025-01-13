@@ -1,0 +1,1 @@
+insertPanel.CssClass = "panel-container"

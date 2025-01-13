@@ -1,0 +1,1 @@
+git archive --format=tar.gz <branch_name> -o snapshot.tar.gz

@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION get_compatible_articles(text[])\nRETURNS TABLE (article text) AS $$\n  SELECT DISTINCT c1.artOne \n  FROM Compatible c1\n  JOIN Compatible c2 ON c1.artOne = c2.artTwo\n  WHERE c2.artOne = ANY($1);\n$$ LANGUAGE sql;

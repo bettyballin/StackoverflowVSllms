@@ -1,1 +1,0 @@
-Public Class DataContextFactory\n    Public Shared Function CreateDataContext() As MyDataContext\n        Return New MyDataContext()\n    End Function\nEnd Class

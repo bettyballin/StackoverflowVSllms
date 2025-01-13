@@ -1,1 +1,0 @@
-SELECT * FROM SOME_TABLE WHERE SOME_FIELD = 'some_value';

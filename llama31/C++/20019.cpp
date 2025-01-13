@@ -1,0 +1,1 @@
+class A {\npublic:\n    virtual ~A();\n\n    static int getCount();\n};\n\nclass B : public A {\npublic:\n    B();\n};

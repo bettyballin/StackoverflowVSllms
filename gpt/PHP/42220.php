@@ -1,1 +1,0 @@
-header('Content-Type: text/html; charset=utf-8');\necho utf8_encode($file);

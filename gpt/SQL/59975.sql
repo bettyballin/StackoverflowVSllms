@@ -1,1 +1,0 @@
--- Drop the existing sequence\nDROP SEQUENCE my_sequence;\n\n-- Recreate the sequence starting with 0\nCREATE SEQUENCE my_sequence\nSTART WITH 0\nINCREMENT BY 1\nNOCACHE\nNOCYCLE;

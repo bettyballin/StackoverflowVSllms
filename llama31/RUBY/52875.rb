@@ -1,0 +1,1 @@
+require 'fileutils'\n\nfile = 'path/to/file.txt'\nsubdirs.each do |subdir|\n  FileUtils.cp(file, subdir)\nend

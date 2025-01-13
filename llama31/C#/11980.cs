@@ -1,0 +1,1 @@
+public class MyClass \n{\n    public DateTime MyTimestamp { get; set; } = DateTime.Now;\n}

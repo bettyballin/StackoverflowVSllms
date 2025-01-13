@@ -1,1 +1,0 @@
-SELECT ID, CODE\nFROM your_table\nWHERE ID NOT IN (\n    SELECT ID\n    FROM your_table\n    WHERE CODE = 'BADCODE'\n);

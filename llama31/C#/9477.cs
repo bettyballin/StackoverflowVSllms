@@ -1,0 +1,1 @@
+try\n{\n    // Your background thread code here\n}\ncatch (Exception ex)\n{\n    // Log the exception\n    using (var writer = new StreamWriter("thread_error.log"))\n    {\n        writer.WriteLine(ex.ToString());\n    }\n}

@@ -1,1 +1,0 @@
-// Example of setting a DataGridView to allow multi-line rows\n   dataGridView1.DefaultCellStyle.WrapMode = DataGridViewTriState.True;\n   dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;

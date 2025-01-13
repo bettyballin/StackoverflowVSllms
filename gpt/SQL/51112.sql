@@ -1,1 +1,0 @@
-CREATE INDEX idx_content_id_full ON content_link (content_id, other_columns);

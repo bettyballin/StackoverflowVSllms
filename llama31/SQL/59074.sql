@@ -1,0 +1,1 @@
+SELECT *\nFROM A\nLEFT JOIN B\nON A.foo = B.foo AND A.date = "Yesterday"

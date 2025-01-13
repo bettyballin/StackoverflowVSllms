@@ -1,0 +1,1 @@
+const isChrome = /Chrome/.test(navigator.userAgent);\nif (isChrome) {\n  // Chrome-specific code here\n}

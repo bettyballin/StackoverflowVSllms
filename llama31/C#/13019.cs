@@ -1,0 +1,1 @@
+public class ValuesController : ApiController\n{\n    [HttpPut]\n    public IHttpActionResult Put(int id, string value)\n    {\n        // Update logic here\n    }\n\n    [HttpDelete]\n    public IHttpActionResult Delete(int id)\n    {\n        // Delete logic here\n    }\n}

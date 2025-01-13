@@ -1,1 +1,0 @@
-@echo off\nsetlocal\n\necho Stopping IIS...\niisreset /stop\n\nset DLL_PATH="C:\path\to\your\FastImage.dll"\n\ndel %DLL_PATH%\nif exist %DLL_PATH% (\n    echo Failed to delete %DLL_PATH%\n    echo Restarting IIS...\n    iisreset /start\n    exit /b 1\n) else (\n    echo Successfully deleted %DLL_PATH%\n    echo Restarting IIS...\n    iisreset /start\n)\n\nendlocal

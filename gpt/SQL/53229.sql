@@ -1,1 +1,0 @@
-CREATE TABLE root_posts_meta (\n        id INT AUTO_INCREMENT PRIMARY KEY,\n        user_id INT NOT NULL,\n        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n        views INT DEFAULT 0,\n        -- other metadata fields\n        FOREIGN KEY (user_id) REFERENCES users(id)\n    );

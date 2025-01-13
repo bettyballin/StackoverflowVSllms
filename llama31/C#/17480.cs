@@ -1,0 +1,1 @@
+public interface IKeyFrame\n{\n    float Time { get; set; }\n    object Value { get; set; }\n}\n\npublic class KeyFrame<T> : IKeyFrame\n{\n    public float Time { get; set; }\n    public T Value { get; set; }\n\n    object IKeyFrame.Value => Value;\n}\n\npublic class Timeline<T> where T : IKeyFrame\n{\n    // ...\n}

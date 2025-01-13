@@ -1,1 +1,0 @@
-import os\n    \n    def set_file_permissions(file_path):\n        os.chmod(file_path, 0o600)  # User read/write only

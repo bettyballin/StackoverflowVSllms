@@ -1,0 +1,1 @@
+// Example using JavaScript\nvar timeoutWarning = 10 * 60 * 1000; // 10 minutes\nvar sessionTimeout = 2 * 60 * 60 * 1000; // 2 hours\n\nsetTimeout(function() {\n    alert("Your session will expire in 10 minutes. Please save your work.");\n}, timeoutWarning);

@@ -1,1 +1,0 @@
-from bidict import bidict\n\n# Create a bidict\nbimap = bidict({'one': 1, 'two': 2, 'three': 3})\n\n# Access values by keys\nprint(bimap['one'])  # Outputs: 1\n\n# Access keys by values\nprint(bimap.inverse[2])  # Outputs: 'two'

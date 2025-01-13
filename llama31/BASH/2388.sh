@@ -1,0 +1,1 @@
+curl ... | jq '.photos.photo[] | {url: "https://farm\(.farm).staticflickr.com/\(.server)/\(.id)_\(.secret).jpg", caption: .title}'

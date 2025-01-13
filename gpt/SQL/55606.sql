@@ -1,1 +1,0 @@
-CREATE PROCEDURE ExecuteOracleQuery\n       @param0 NVARCHAR(MAX)\n   AS\n   BEGIN\n       DECLARE @SQL NVARCHAR(MAX);\n       SET @SQL = 'SELECT myfield FROM OPENROWSET(''MSDAORA'', ''(connect-string-values)'';''user'';''pass'', ''SELECT myfield FROM mytable WHERE ' + @param0 + ' ORDER BY myfield'')';\n\n       EXEC sp_executesql @SQL;\n   END

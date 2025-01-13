@@ -1,1 +1,0 @@
-var result = from record in db.Records \n                where record.Date.Year == specificDate.Year \n                      && record.Date.Month == specificDate.Month \n                      && record.Date.Day == specificDate.Day\n                select record;

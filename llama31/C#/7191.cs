@@ -1,0 +1,1 @@
+DateTime now = DateTime.Now;\ndouble seconds = now.Second + now.Millisecond / 1000.0;\nDateTime rounded = now.AddSeconds(Math.Round(seconds / 5) * 5 - seconds);

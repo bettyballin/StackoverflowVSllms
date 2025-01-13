@@ -1,1 +1,0 @@
-CREATE TRIGGER trgBeforeDelete\nON YourTable\nINSTEAD OF DELETE\nAS\nBEGIN\n    -- Perform your pre-delete actions here, e.g., logging or validation\n    PRINT 'Trigger fired before delete';\n\n    -- Now delete the records from the actual table\n    DELETE FROM YourTable\n    WHERE YourPrimaryKey IN (SELECT YourPrimaryKey FROM deleted);\nEND;

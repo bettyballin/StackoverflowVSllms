@@ -1,0 +1,1 @@
+const redis = require('redis');\nconst client = redis.createClient();\n\n// Set cache value\nclient.set('key', 'value', (err, reply) => {\n  if (err) {\n    console.error(err);\n  } else {\n    console.log(reply);\n  }\n});\n\n// Get cache value\nclient.get('key', (err, reply) => {\n  if (err) {\n    console.error(err);\n  } else {\n    console.log(reply);\n  }\n});

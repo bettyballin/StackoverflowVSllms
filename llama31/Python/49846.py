@@ -1,0 +1,1 @@
+# Example of a binary file format (Pickle)\nimport pickle\ndata = {\n    "name": "John Doe",\n    "age": 30,\n    "city": "New York"\n}\n\nwith open('data.pkl', 'wb') as f:\n    pickle.dump(data, f)

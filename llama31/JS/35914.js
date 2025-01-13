@@ -1,0 +1,1 @@
+// In the parent page\nvar _gaq = _gaq || [];\n_gaq.push(['_setAccount', 'YOUR_TRACKING_ID']);\n_gaq.push(['_trackPageview']);\n\n// When the popover window is displayed\n_gaq.push(['_trackEvent', 'Conversion', 'PopoverDisplayed']);

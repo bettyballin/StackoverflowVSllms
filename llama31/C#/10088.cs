@@ -1,0 +1,1 @@
+var query = db.Customers\n    .Where(c => !db.Employees.Any(e => e.Country == c.Country));

@@ -1,0 +1,1 @@
+openssl s_client -connect yourwebserviceurl.com:443 -showcerts

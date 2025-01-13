@@ -1,0 +1,1 @@
+WHERE web.KONTO = TRIM('  00000001')

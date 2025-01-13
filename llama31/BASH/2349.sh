@@ -1,0 +1,1 @@
+openssl dsa -pubin -in public_key.pub -modulus -noout | diff - <(openssl dsa -in private_key.key -modulus -noout)

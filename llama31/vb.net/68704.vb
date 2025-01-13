@@ -1,0 +1,1 @@
+DataGridView.EndEdit(DataGridViewDataErrorContexts.Commit)\nDataset2 = DirectCast(Dataset1.Copy(), dsApplication)

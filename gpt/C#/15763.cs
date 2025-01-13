@@ -1,1 +1,0 @@
-public class ContactModel\n{\n    [Required(ErrorMessage = "Task Name is required")]\n    public string Task { get; set; }\n}

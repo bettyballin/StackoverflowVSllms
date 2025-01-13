@@ -1,1 +1,0 @@
-chmod +x svn_update.sh

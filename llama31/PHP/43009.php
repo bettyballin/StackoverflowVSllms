@@ -1,0 +1,1 @@
+$dir = "path/to/image/folder";\n$files = scandir($dir);\n\nforeach ($files as $file) {\n    if (is_file($dir . "/" . $file)) {\n        $imagePath = $dir . "/" . $file;\n        $imageName = basename($file);\n        echo "<img src='" . $imagePath . "' alt='" . $imageName . "' width='200' height='150'>";\n    }\n}

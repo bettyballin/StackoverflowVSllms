@@ -1,1 +1,0 @@
-git init\n   git add my_package_spec.sql my_package_body.sql\n   git commit -m "Initial commit of MY_PACKAGE"

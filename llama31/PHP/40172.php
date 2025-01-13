@@ -1,0 +1,1 @@
+class MyController extends Zend_Controller_Action\n{\n    public function indexAction()\n    {\n        $request = $this->getRequest();\n        $params = $request->getParams();\n\n        // Validate and sanitize user input here\n\n        // Pass validated data to the model\n        $model = new MyModel();\n        $model->doSomething($params['someParam']);\n    }\n}

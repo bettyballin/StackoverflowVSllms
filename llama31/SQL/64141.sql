@@ -1,0 +1,1 @@
+SELECT *\nFROM customers\nWHERE country='USA'\nORDER BY last_name, first_name;

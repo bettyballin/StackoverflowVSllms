@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Set the system time\n# Example: Set the system time to "2023-10-01 12:34:56"\ndate -s "2023-10-01 12:34:56"\n\n# Synchronize the hardware clock with the system time\nhwclock --systohc\n\necho "System time and hardware clock have been synchronized."

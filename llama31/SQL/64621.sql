@@ -1,0 +1,1 @@
+-- create an index in MySQL\nCREATE INDEX idx_name ON users (name);

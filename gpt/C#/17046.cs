@@ -1,1 +1,0 @@
-if (HttpRuntime.UsingIntegratedPipeline)\n{\n    // Code for IIS7 integrated pipeline\n}\nelse\n{\n    // Code for IIS6 classic pipeline\n}

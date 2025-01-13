@@ -1,0 +1,1 @@
+Imports SharpBits.Base\n\nDim b As New BitsManager\nDim mynewjob As BitsJob = b.CreateJob("jobname", JobType.Download)\nmynewjob.AddFile("\\server\share\bigfile.zip", "c:\bigfile.zip")\nmynewjob.Resume()

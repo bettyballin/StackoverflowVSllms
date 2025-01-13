@@ -1,0 +1,1 @@
+UPDATE YourTable\nSET YourDateTimeField = CONVERT(datetime, CONVERT(datetimeoffset, YourDateTimeField) AT TIME ZONE 'UTC');

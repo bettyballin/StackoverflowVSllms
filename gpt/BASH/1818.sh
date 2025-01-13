@@ -1,1 +1,0 @@
-keytool -export -alias client -keystore client.jks -file client.crt

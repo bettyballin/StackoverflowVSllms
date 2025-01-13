@@ -1,0 +1,1 @@
+bool bGetChildrenSuccess = parserReportData.GetFirstRecord()->GetChildRecords(listpChildren, _T("//*[local-name()='subreport']"));

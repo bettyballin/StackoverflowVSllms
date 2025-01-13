@@ -1,0 +1,1 @@
+List<int> intList = new List<int>(new int[]{1,2,3,3,2,1});\n\nint sumFirstThree = intList.Take(3).Sum();\nint sumLastThree = intList.Skip(3).Take(3).Sum();

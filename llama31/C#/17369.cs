@@ -1,0 +1,1 @@
+using Markdown;\n\n// example usage:\nstring markdownText = "# Heading\nThis is a paragraph.";\nstring html = Markdown.ToHtml(markdownText);

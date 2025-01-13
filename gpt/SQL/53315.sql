@@ -1,1 +1,0 @@
-SELECT FORMAT(timecolumn, 'HHmmss') AS TIME\nFROM your_table;

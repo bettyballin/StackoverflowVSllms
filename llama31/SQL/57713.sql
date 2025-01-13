@@ -1,0 +1,1 @@
+<sql\n    driver="${db.driver}"\n    url="${db.url}"\n    userid="${db.userid}"\n    password="${db.password}"\n    outputproperty="service.pack.number"\n    print="false">\n    select SP_NUMBER from SERVICE_PACK\n</sql>

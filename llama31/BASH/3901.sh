@@ -1,0 +1,1 @@
+#!/bin/bash\ntrap 'pkill -P $$ ssh' INT\nssh -n -x root@db-host 'mysqldump db' -r file.sql

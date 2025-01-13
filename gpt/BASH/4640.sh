@@ -1,1 +1,0 @@
-mysqldump --innodb-optimize-keys -u username -p database > dump.sql

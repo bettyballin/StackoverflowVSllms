@@ -1,0 +1,1 @@
+$dateString = '2008-02-28T07:56:35.263';\n$date = new DateTime($dateString);\necho $date->format('Y-m-d H:i:s.v');

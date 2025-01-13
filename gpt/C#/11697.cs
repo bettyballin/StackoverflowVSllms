@@ -1,1 +1,0 @@
-public class HomeController : Controller\n{\n    public ActionResult Index()\n    {\n        return View();\n    }\n\n    public ActionResult Register()\n    {\n        return View();\n    }\n\n    public ActionResult ThankYou()\n    {\n        return View();\n    }\n}

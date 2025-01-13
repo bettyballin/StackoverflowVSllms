@@ -1,0 +1,1 @@
+sudo iptables -t nat -F\nsudo ip link del loop1

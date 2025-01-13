@@ -1,0 +1,1 @@
+@echo off\nbcp.exe MyDatabase.MyTable out MyFile.csv -c -S MyServer -U MyUser -P MyPassword

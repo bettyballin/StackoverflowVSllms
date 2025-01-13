@@ -1,0 +1,1 @@
+RowHeaderProxyModel *proxyModel = new RowHeaderProxyModel(this);\nproxyModel->setSourceModel(your2DModel);\n\nQListView *listView = new QListView(this);\nlistView->setModel(proxyModel);

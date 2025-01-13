@@ -1,0 +1,1 @@
+keytool -genkey -alias mykey -keystore ~/Library/Java/KeyStore.jks

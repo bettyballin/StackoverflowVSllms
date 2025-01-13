@@ -1,0 +1,1 @@
+public class MemoryQuotaAttribute : Attribute, IOperationBehavior\n{\n    public int MaxMemoryUsage { get; set; }\n\n    public void ApplyDispatchBehavior(OperationDescription operationDescription, DispatchOperation dispatchOperation)\n    {\n        dispatchOperation.Invoker = new MemoryQuotaInvoker(dispatchOperation.Invoker, MaxMemoryUsage);\n    }\n}

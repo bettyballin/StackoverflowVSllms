@@ -1,1 +1,0 @@
-chmod 640 /path/to/your/myfile.txt\nchown www-data:www-data /path/to/your/myfile.txt

@@ -1,1 +1,0 @@
-wget http://technotes.1000lines.net/fastcgi-wrapper.pl\n   chmod +x fastcgi-wrapper.pl

@@ -1,0 +1,1 @@
+HRESULT hr = SomeCOMFunction();\nif (FAILED(hr)) {\n    // handle error\n}

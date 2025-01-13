@@ -1,1 +1,0 @@
-# Update package list\nsudo apt update\n\n# Install Apache\nsudo apt install apache2\n\n# Install PHP\nsudo apt install php libapache2-mod-php\n\n# Install MySQL (if needed)\nsudo apt install mysql-server php-mysql\n\n# Restart Apache to apply changes\nsudo systemctl restart apache2\n\n# Verify PHP installation\nphp -v

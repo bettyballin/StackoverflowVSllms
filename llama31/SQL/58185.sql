@@ -1,0 +1,1 @@
+SELECT Product.* FROM Product WHERE Product.OurPrice <> Product.RetailPrice

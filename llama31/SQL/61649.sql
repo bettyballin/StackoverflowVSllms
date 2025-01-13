@@ -1,0 +1,1 @@
+CREATE TABLE LocaleClosure (\n  AncestorID INT,\n  DescendantID INT,\n  Distance INT\n);

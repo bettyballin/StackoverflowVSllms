@@ -1,1 +1,0 @@
-$(".sendEmail").click(function() {\n    var element = $(this);\n    var guest_id = element.attr("id");                                         \n    $.post("WebGuest_SendEmail.php", { id: guest_id }, function(data) {\n        element.text("Sent!").removeClass("sendEmail").off("click");\n    });                            \n    return false;                             \n});

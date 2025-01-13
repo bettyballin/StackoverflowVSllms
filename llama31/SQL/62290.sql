@@ -1,0 +1,1 @@
+SELECT * FROM myTable WHERE (@Start_Date IS NULL OR myDate >= @Start_Date)

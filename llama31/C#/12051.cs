@@ -1,0 +1,1 @@
+using Excel = Microsoft.Office.Interop.Excel;\n\n// ...\n\nExcel.Application excelApp = new Excel.Application();\n// ...\n\nbool isExcelWindowActive = excelApp.ActiveWindow.IsActive();

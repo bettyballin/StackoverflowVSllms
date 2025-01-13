@@ -1,1 +1,0 @@
-for (int i = 0; i < 1000; i++) {\n    // Simple loop body\n    sum += array[i];\n}

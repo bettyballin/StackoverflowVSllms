@@ -1,0 +1,1 @@
+<system.web>\n    <httpModules>\n        <add name="HttpRequestValidationExceptionHandler" type="YourNamespace.HttpRequestValidationExceptionHandler, YourAssembly" />\n    </httpModules>\n</system.web>

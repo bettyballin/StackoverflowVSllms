@@ -1,0 +1,1 @@
+SELECT LTRIM(@binary, '0')

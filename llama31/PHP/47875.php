@@ -1,0 +1,1 @@
+use Firebase\JWT\JWT;\n\n$sso_data = array('username' => 'john', 'email' => 'john@example.com');\n$token = JWT::encode($sso_data, 'secret_key', 'HS256');

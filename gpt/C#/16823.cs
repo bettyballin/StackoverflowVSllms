@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (Session["X"] != null)\n    {\n        lblDisplay.Text = Session["X"].ToString();\n    }\n}\n\nprotected void btnEdit_Click(object sender, EventArgs e)\n{\n    Response.Redirect("Page1.aspx");\n}

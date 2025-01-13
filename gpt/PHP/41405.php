@@ -1,1 +1,0 @@
-// Server-side API endpoint (api/products.php)\n<?php\nheader('Content-Type: application/json');\n$pdo = new PDO('mysql:host=localhost;dbname=mydatabase', 'username', 'password');\n$query = $pdo->query('SELECT name, description, price FROM products');\n$products = $query->fetchAll(PDO::FETCH_ASSOC);\necho json_encode($products);\n?>

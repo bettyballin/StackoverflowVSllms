@@ -1,0 +1,1 @@
+function getLink($sa){\n    switch ((int)$sa) {\n        case 1:\n            return 'qp_bbl';\n        default:\n            return 'qp_sbl';\n    }\n}

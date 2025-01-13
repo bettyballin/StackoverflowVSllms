@@ -1,1 +1,0 @@
-using System;\nusing System.Text;\n\nclass Program\n{\n    static void Main()\n    {\n        Console.OutputEncoding = Encoding.UTF8;\n        Console.WriteLine("Your text here");\n    }\n}

@@ -1,0 +1,1 @@
+' In the subreport, add a hidden textbox with the following expression:\n=CountRows()\n\n' In the main report, add a parameter to the subreport:\n@RowCount = ReportItems!Subreport1.ReportParameters!RowCount.Value\n\n' In the main report, set the visibility of the subreport:\n=IIF(@RowCount = 0, True, False)

@@ -1,0 +1,1 @@
+void Method(TypeA a) { }\nvoid Method(TypeB b) { }\n\n// Call the first overload\nMethod((TypeA)null);\n\n// Call the second overload\nMethod((TypeB)null);

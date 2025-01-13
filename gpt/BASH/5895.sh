@@ -1,1 +1,0 @@
-./propel-gen-vhost1.sh

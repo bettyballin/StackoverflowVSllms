@@ -1,1 +1,0 @@
-public (List<MyType> ListOne, List<MyType> ListTwo) ReturnTwoLists()\n{\n    // Create and populate the lists\n    List<MyType> listOne = new List<MyType>();\n    List<MyType> listTwo = new List<MyType>();\n\n    // Populate the lists with data\n    // For example:\n    // listOne.Add(new MyType());\n    // listTwo.Add(new MyType());\n\n    return (listOne, listTwo);\n}

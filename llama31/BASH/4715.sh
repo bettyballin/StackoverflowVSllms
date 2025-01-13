@@ -1,0 +1,1 @@
+# Example SQLMap test in CLI mode\n   sqlmap -u http://your-application-url.com/vulnerable-page

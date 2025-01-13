@@ -1,0 +1,1 @@
+SELECT t.name AS trigger_name, \n       o.name AS table_name, \n       t.trigger_definition AS trigger_code\nFROM sysobjects o \nJOIN sysobjects t ON o.id = t.parent_obj\nWHERE o.name = 'your_table_name' \nAND t.type = 'TR';

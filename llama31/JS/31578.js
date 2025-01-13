@@ -1,0 +1,1 @@
+var pages = jsonObject.query.pages;\nvar pageId = Object.keys(pages)[0]; // get the first property name\nvar revision = pages[pageId].revisions[0]['*'];

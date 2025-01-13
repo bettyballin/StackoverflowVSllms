@@ -1,0 +1,1 @@
+require 'faraday'\n\nclass TreasureHuntClient\n  def get_treasure_hunts(params)\n    conn = Faraday.new(url: 'site.com') do |faraday|\n      faraday.adapter  Faraday.default_adapter\n      faraday.headers['Content-Type'] = 'application/xml'\n    end\n\n    response = conn.post('/gettreasurehunts', params.to_xml)\n    # parse response XML\n  end\nend

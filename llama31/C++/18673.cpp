@@ -1,0 +1,1 @@
+#include <oleauto.h>\n\n// ...\n\nITypeLib* pTypeLib = NULL;\nHRESULT hr = LoadTypeLib("sql.tlb", &pTypeLib);\nif (SUCCEEDED(hr)) {\n    // Use the pTypeLib pointer to access the types defined in the TLB file\n    // ...\n    pTypeLib->Release();\n}

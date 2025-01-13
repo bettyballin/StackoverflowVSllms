@@ -1,1 +1,0 @@
-#include <memory>\nusing namespace std;\n\nauto_ptr<Table> table = db->query("select * from t"); // Error: conversion from 'Table*' to non-scalar type 'std::auto_ptr<Table>' requested

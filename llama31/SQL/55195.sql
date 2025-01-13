@@ -1,0 +1,1 @@
+SELECT s1.user, \n  (SELECT COUNT(*) \n   FROM scores s2 \n   WHERE s2.score < s1.score) \n  * 100.0 / (SELECT COUNT(*) FROM scores) AS percentile\nFROM scores s1\nWHERE s1.user = 'john'

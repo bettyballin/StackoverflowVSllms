@@ -1,0 +1,1 @@
+Dim currentPage As String = Page.AppRelativeVirtualPath

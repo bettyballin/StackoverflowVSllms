@@ -1,0 +1,1 @@
+// Before\n<? $request = &$this->request; ?>\n\n// After\n<?php $request = &$this->request; ?>

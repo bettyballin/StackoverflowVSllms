@@ -1,1 +1,0 @@
-SELECT *\nFROM {schema_name}.my_table\nWHERE column_name = 'value';

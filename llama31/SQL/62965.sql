@@ -1,0 +1,1 @@
+SELECT COMPRESS(CONCAT_WS('', column1, column2, ...)) AS compressed_data\nFROM your_table\nWHERE condition;

@@ -1,0 +1,1 @@
+template<class X>\nclass MyClass : Derived {\nprivate:\n    template<typename T = X, typename std::enable_if_t<std::is_same<T, MyClass<T>>::value, int> = 0>\n    MyClass(const MyClass& ) : x() {}\npublic:\n    MyClass(const X& value) : x(value) {}\n};

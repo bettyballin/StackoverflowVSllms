@@ -1,0 +1,1 @@
+using System;\nusing System.Text;\n\nclass MyProgram\n{\n    static void Main(string[] args)\n    {\n        Console.OutputEncoding = Encoding.Unicode;\n        Console.WriteLine("Hello, World!");\n    }\n}

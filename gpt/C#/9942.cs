@@ -1,1 +1,0 @@
-label1.Text = "&#126;"; // HTML entity for tilde

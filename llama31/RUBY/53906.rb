@@ -1,0 +1,1 @@
+post = Post.new(name: "John", title: "Rails")\npost.valid? # returns true or false\npost.validate! # raises an exception if the model is invalid

@@ -1,0 +1,1 @@
+// VB.NET\nWith myObject\n    .Property1 = "value1"\n    .Property2 = "value2"\nEnd With\n\n// C# equivalent\nusing (var myObject = new MyObject())\n{\n    myObject.Property1 = "value1";\n    myObject.Property2 = "value2";\n}\n\n// or\nvar myObject = new MyObject();\nmyObject.Property1 = "value1";\nmyObject.Property2 = "value2";

@@ -1,0 +1,1 @@
+int i = 12; // decimal literal\nlong l = 12L; // long literal\nfloat f = 12.0F; // float literal\ndouble d = 12.0D; // double literal\nbyte b = (byte) 12; // no byte literal, requires explicit casting\nshort s = (short) 12; // no short literal, requires explicit casting

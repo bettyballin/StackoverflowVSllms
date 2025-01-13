@@ -1,0 +1,1 @@
+gcc -Wall -Wno-newline-eof your_file.c -o your_file

@@ -1,0 +1,1 @@
+-- Create an Archive table\nCREATE TABLE user_activity_archive (\n  id INT,\n  user_id INT,\n  activity VARCHAR(255),\n  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n) ENGINE=ARCHIVE;\n\n-- Insert data into the Archive table\nINSERT INTO user_activity_archive (user_id, activity) VALUES (1, 'logged_in');

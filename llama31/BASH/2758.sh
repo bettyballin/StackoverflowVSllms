@@ -1,0 +1,1 @@
+# Install Cygwin and GCC\n# ...\n\n# Compile Objective-C code\ngcc -o output.exe input.m -lobjc

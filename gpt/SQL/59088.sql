@@ -1,1 +1,0 @@
-SELECT \n    A.Id AS A_Id, \n    A.BId AS A_BId, \n    A.Number AS A_Number, \n    B.Id AS B_Id, \n    B.Number AS B_Number\nFROM \n    A \nINNER JOIN \n    B \nON \n    A.BId = B.Id

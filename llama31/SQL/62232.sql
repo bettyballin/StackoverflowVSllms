@@ -1,0 +1,1 @@
+DROP SCHEMA myschema CASCADE;\nCREATE SCHEMA myschema AUTHORIZATION myuser;

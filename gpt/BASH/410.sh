@@ -1,1 +1,0 @@
-export RAILS_ENV=test\n   bundle exec rspec

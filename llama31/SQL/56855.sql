@@ -1,0 +1,1 @@
+-- Disable constraints\nEXEC sp_msforeachtable "ALTER TABLE ? NOCHECK CONSTRAINT all"\n\n-- Perform data copy operation\nINSERT INTO db2.table1 (column1, column2)\nSELECT column1, column2 FROM db1.table1\n\n-- Re-enable constraints\nEXEC sp_msforeachtable "ALTER TABLE ? CHECK CONSTRAINT all"

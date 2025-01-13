@@ -1,1 +1,0 @@
-<?php\n// A string containing a multi-byte UTF-8 character\n$string = "Hello, 世界";\n\n// Using strlen (not Unicode-aware)\necho strlen($string);  // Output: 13\n\n// Using mb_strlen (Unicode-aware)\necho mb_strlen($string, 'UTF-8');  // Output: 9\n?>

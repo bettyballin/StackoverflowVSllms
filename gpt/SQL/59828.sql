@@ -1,1 +1,0 @@
-SELECT TOP 10 Salesperson, TotalSales\n   FROM SalesTable\n   ORDER BY TotalSales DESC;

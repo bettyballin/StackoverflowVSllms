@@ -1,1 +1,0 @@
-px create-react-app my-app\n    cd my-app

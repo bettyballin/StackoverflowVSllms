@@ -1,0 +1,1 @@
+using System.Xml;\n\n// ...\n\nDataTable dataTable = ...; // your DataTable instance\n\nXmlReader xmlReader = dataTable.CreateReader();\nstring xmlString = xmlReader.ReadOuterXml();\n\n// return xmlString as the result of your WCF service

@@ -1,0 +1,1 @@
+function directorGen($array)\n{\n    $genreList = array();\n    foreach($array as $value)\n    {\n        $genreList[] = $value;\n    }\n    return $genreList;\n}\n\n// later...\n\n$genreList = directorGen($title->genres());

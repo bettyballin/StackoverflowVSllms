@@ -1,0 +1,1 @@
+ALTER TABLE mytable\n  ALTER COLUMN elevation TYPE integer USING varchar_to_int(elevation, -1);

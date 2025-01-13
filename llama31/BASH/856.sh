@@ -1,0 +1,1 @@
+tlbexp input.tlb /out:output.h

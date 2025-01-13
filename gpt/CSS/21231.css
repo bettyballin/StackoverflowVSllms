@@ -1,1 +1,0 @@
-iframe {\n    z-index: 1;\n}\n\ninput, button {\n    z-index: 2;\n    position: relative;\n}

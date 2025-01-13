@@ -1,0 +1,1 @@
+$user = exec('whoami');\necho $user;

@@ -1,0 +1,1 @@
+string settingValue = MySharedConfig.GetSetting("MySharedSetting");

@@ -1,1 +1,0 @@
-// bbb.cpp\n#include "shared.h"\n\nSharedState sharedState = { false };\n\nvoid setState(bool state) {\n    sharedState.isSet = state;\n}

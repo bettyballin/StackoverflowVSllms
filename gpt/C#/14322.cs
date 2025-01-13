@@ -1,1 +1,0 @@
-public interface IExtendedEntity\n   {\n       string AdditionalProperty { get; set; }\n       void AdditionalMethod();\n   }

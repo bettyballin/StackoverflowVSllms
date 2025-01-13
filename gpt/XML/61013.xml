@@ -1,1 +1,0 @@
-<servlet>\n        <servlet-name>PrettyUrlServlet</servlet-name>\n        <servlet-class>com.example.PrettyUrlServlet</servlet-class>\n    </servlet>\n    <servlet-mapping>\n        <servlet-name>PrettyUrlServlet</servlet-name>\n        <url-pattern>/product-*</url-pattern>\n    </servlet-mapping>

@@ -1,1 +1,0 @@
-C:\Windows\SysWOW64\regsvr32.exe path\to\64-bit\component.dll

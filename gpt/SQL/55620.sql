@@ -1,1 +1,0 @@
-SELECT TOP N * FROM your_table\nTABLESAMPLE (1 PERCENT) -- Adjust the percentage based on the table size and desired number of rows\nORDER BY NEWID();

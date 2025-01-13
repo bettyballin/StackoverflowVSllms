@@ -1,0 +1,1 @@
+<?php\n$file = 'filelist.txt';\n$fp = fopen($file, 'w');\nfclose($fp);\n?>

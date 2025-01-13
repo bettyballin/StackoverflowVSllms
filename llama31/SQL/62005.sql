@@ -1,0 +1,1 @@
+SELECT \n  c.name AS column_name,\n  t.name AS table_name\nFROM \n  syscolumns c\n  INNER JOIN systables t ON c.id = t.id\nWHERE \n  c.isnullable = 1\nORDER BY \n  t.name, c.name

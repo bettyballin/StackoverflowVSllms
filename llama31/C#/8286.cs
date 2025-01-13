@@ -1,0 +1,1 @@
+try\n{\n    Process.Start(@"C:\myfile.txt");\n}\ncatch (Win32Exception ex)\n{\n    // Handle the exception, e.g., display an error message to the user\n    MessageBox.Show(ex.Message);\n}

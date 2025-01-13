@@ -1,0 +1,1 @@
+public enum LogicalOperator\n{\n    And,\n    Or\n}\n\npublic class QueryCondition\n{\n    public string PropertyName { get; set; }\n    public object Value { get; set; }\n    public LogicalOperator Operator { get; set; }\n}

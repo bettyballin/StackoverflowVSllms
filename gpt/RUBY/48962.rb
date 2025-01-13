@@ -1,1 +1,0 @@
-array = ["value1", "value2", "value3"]\nhash = {"key1" => "value1"}\n\n# Using p to print\np array\np hash

@@ -1,1 +1,0 @@
-MYSERVER=\\machine\foobar

@@ -1,0 +1,1 @@
+#!/bin/sh\n\n# Update the development server\nsvn update /path/to/development/server/your-project

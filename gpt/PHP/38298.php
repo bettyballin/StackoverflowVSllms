@@ -1,1 +1,0 @@
-// Example of a simple PHPUnit test\n    use PHPUnit\Framework\TestCase;\n\n    class UserTest extends TestCase\n    {\n        public function testUserCreation()\n        {\n            $user = new User('JohnDoe');\n            $this->assertEquals('JohnDoe', $user->getUsername());\n        }\n    }

@@ -1,0 +1,1 @@
+void freeMultiArray(int* *multi, int size) {\n    for (int i = 0; i < size; i++) {\n        if (multi[i] != NULL) {\n            free(multi[i]);\n            multi[i] = NULL;\n        }\n    }\n    free(multi);\n}

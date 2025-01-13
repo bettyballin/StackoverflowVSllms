@@ -1,1 +1,0 @@
-# Grant 'Log on as a batch job' and 'Log on as a service' rights to Network Service\nntrights -u "Network Service" +r SeBatchLogonRight\nntrights -u "Network Service" +r SeServiceLogonRight\n\n# Grant full control on the Task Scheduler folder to Network Service\nicacls "C:\Windows\System32\Tasks" /grant "Network Service:(OI)(CI)F"

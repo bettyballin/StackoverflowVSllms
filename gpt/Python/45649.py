@@ -1,1 +1,0 @@
-# handlers/handler.py\nimport webapp2\nfrom models.model import MyModel\n\nclass MainHandler(webapp2.RequestHandler):\n    def get(self):\n        my_model_instance = MyModel(name="Example")\n        my_model_instance.put()\n        self.response.write("Model instance created.")

@@ -1,0 +1,1 @@
+$files = glob($path . '*');\nforeach ($files as $file) {\n    // do stuff\n}

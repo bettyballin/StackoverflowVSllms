@@ -1,0 +1,1 @@
+function myFunction(array $options = []) {\n    $requiredKeys = ['foo', 'bar'];\n    foreach ($requiredKeys as $key) {\n        if (!array_key_exists($key, $options)) {\n            throw new InvalidArgumentException("Missing required key: $key");\n        }\n    }\n    // ...\n}

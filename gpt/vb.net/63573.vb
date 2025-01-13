@@ -1,1 +1,0 @@
-Public Class myPage\n    Inherits System.Web.UI.Page\n\n    Protected Overrides Sub OnPreInit(ByVal e As EventArgs)\n        MyBase.OnPreInit(e)\n        ' Ensure the Title is set correctly\n        If Not String.IsNullOrEmpty(Me.Title) Then\n            Me.Header.Title = Me.Title\n        End If\n    End Sub\nEnd Class

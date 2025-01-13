@@ -1,1 +1,0 @@
-SELECT * FROM information_schema.TRIGGERS WHERE TRIGGER_SCHEMA = 'your_database_name';

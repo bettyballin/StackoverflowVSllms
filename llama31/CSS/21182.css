@@ -1,0 +1,1 @@
+.colorChip {\n    position: relative;\n    float: left;\n    width: 20px;\n    height: 20px;\n    margin: 2px;\n    border-style: solid;\n    border-width: 1px;\n    border-color: black;\n}\n\n.colorChip-row {\n    *zoom: 1; /* for IE */\n}\n\n.colorChip-row:after {\n    clear: both;\n    content: "";\n    display: table;\n}

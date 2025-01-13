@@ -1,1 +1,0 @@
-CREATE ASSEMBLY CalcEngineAssembly FROM 'path_to_your_assembly.dll' WITH PERMISSION_SET = SAFE;\n   CREATE PROCEDURE GetCalculatedData(@parameter NVARCHAR(MAX)) AS EXTERNAL NAME CalcEngineAssembly.[Namespace.ClassName].GetCalculatedData;

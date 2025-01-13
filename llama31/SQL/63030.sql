@@ -1,0 +1,1 @@
+SELECT sid, serial#, username, sql_id, status\nFROM V$SESSION\nWHERE status = 'ACTIVE';\n\nSELECT sql_id, sql_text, executions, rows_processed\nFROM V$SQL\nWHERE sql_id = '<sql_id_from_v_session>';

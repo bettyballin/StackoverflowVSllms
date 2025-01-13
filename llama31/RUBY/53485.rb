@@ -1,0 +1,1 @@
+class UsersController < ApplicationController\n  def create\n    # Get the uploaded file\n    file = params[:avatar]\n\n    # Read the file contents\n    contents = file.read\n\n    # Save the contents to the database\n    user = User.new(avatar: contents)\n    user.save\n\n    # ...\n  end\nend

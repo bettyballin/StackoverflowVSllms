@@ -1,0 +1,1 @@
+[ComVisible(true)]\npublic enum MyEnum\n{\n    Value1,\n    Value2,\n    Value3\n}

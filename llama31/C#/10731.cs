@@ -1,0 +1,1 @@
+try\n{\n    using (var stream = File.Open("D:\\myService\\eventlog.xml", FileMode.Append, FileAccess.Write, FileShare.None))\n    {\n        // Write to the file\n    }\n}\ncatch (IOException ex)\n{\n    // Handle the exception\n}

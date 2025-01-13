@@ -1,0 +1,1 @@
+// Enable error reporting\nerror_reporting(E_ALL);\nini_set('display_errors', 1);\n\n// Attempt to connect to MySQL\n$link = mysql_connect('your_host', 'your_username', 'your_password');\nif (!$link) {\n    die('Could not connect: ' . mysql_error());\n}

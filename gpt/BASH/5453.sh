@@ -1,1 +1,0 @@
-#!/bin/bash\n\nzenity --info --text="This is a message box"

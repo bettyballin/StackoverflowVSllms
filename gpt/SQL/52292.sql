@@ -1,1 +1,0 @@
-CREATE TABLE usage_reports (\n       id SERIAL PRIMARY KEY,\n       user_id VARCHAR(255) NOT NULL,\n       report_date DATE NOT NULL,\n       disk_usage BIGINT,\n       avg_memory_usage FLOAT,\n       avg_cpu_time FLOAT\n   );

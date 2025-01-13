@@ -1,0 +1,1 @@
+var entities = FetchEntities(EmployeeFields.Salary > 50000);

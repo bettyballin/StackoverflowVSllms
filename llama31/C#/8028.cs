@@ -1,0 +1,1 @@
+using ActiveReports.WebDesigner;\n\n// Create a new instance of the WebDesigner control\nWebDesigner webDesigner = new WebDesigner();\n\n// Set the report to design\nwebDesigner.Report = new Report();\n\n// Add the WebDesigner control to the ASP.NET page\nthis.Controls.Add(webDesigner);

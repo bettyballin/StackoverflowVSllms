@@ -1,1 +1,0 @@
-using System.ComponentModel.Composition.Hosting;\n\nvar catalog = new DirectoryCatalog("path_to_your_assemblies");\nvar container = new CompositionContainer(catalog);\n\n// Compose parts\ncontainer.ComposeParts(this);

@@ -1,0 +1,1 @@
+ExecutionEngine* ee = ExecutionEngine::create(module);\nGenericValue result = ee->runFunction(jitFunc, {});

@@ -1,0 +1,1 @@
+$ciphertext = base64_decode($cookieValue);\n$iv = substr($ciphertext, 0, openssl_cipher_iv_length('aes-256-cbc'));\n$ciphertext = substr($ciphertext, openssl_cipher_iv_length('aes-256-cbc'));\n\n$plaintext = openssl_decrypt($ciphertext, 'aes-256-cbc', $key, 0, $iv);

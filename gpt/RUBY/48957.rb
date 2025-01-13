@@ -1,1 +1,0 @@
-# In graduate_students_controller\n   if session[:graduate_student_data].nil?\n     # Handle the case when the session variable is nil\n   else\n     # Access the session variable\n   end\n\n   # In current_students_controller\n   if session[:current_student_data].nil?\n     # Handle the case when the session variable is nil\n   else\n     # Access the session variable\n   end

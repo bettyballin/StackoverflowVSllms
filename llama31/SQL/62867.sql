@@ -1,0 +1,1 @@
+INSERT INTO my_table (token, count)\nVALUES (my_token, -1)\nON DUPLICATE KEY UPDATE count = IF(count - 1 > 0, count - 1, NULL);

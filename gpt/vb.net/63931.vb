@@ -1,1 +1,0 @@
-Imports System\nImports System.Collections.Generic\n\nModule Program\n    Sub Main()\n        Dim numbers As New List(Of Integer) From {1, 2, 3, 4, 5}\n\n        For Each number As Integer In numbers\n            Console.WriteLine(number)\n        Next\n    End Sub\nEnd Module

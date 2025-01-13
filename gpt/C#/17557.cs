@@ -1,1 +1,0 @@
-void UpdateValue(ref int number)\n   {\n       number = 10;\n   }\n\n   int myNumber = 5;\n   UpdateValue(ref myNumber);\n   // myNumber is now 10

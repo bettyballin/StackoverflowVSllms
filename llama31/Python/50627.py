@@ -1,0 +1,1 @@
+from bs4 import BeautifulSoup\n\n# assuming 'html' is your HTML content\nsoup = BeautifulSoup(html, 'html.parser')\n\n# find all <a> tags\na_tags = soup.find_all('a')\n\n# extract href attributes\nhrefs = [a.get('href') for a in a_tags]\n\nprint(hrefs)

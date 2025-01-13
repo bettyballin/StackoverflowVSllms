@@ -1,1 +1,0 @@
-session.FlushMode = FlushMode.Commit; // Set flush mode\n   // Perform operations\n   session.Flush(); // Manually flush changes

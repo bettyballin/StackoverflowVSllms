@@ -1,1 +1,0 @@
-public IEnumerable<YourEntity> GetPagedResults(int pageNumber, int pageSize)\n{\n    using (var context = new YourDbContext())\n    {\n        return context.YourEntities\n                      .OrderBy(e => e.SomeColumn)\n                      .Skip(pageSize * (pageNumber - 1))\n                      .Take(pageSize)\n                      .ToList();\n    }\n}

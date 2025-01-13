@@ -1,1 +1,0 @@
-def wrapper(func, args):\n    func(*args)\n\ndef func1(x):\n    print(x)\n\ndef func2(x, y, z):\n    return x + y + z\n\n# Example usage:\nx = 1\ny = 2\nz = 3\n\nwrapper(func1, [x])\nwrapper(func2, [x, y, z])

@@ -1,0 +1,1 @@
+int myVariable_; // Good practice! This name is not reserved.

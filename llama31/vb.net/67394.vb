@@ -1,0 +1,1 @@
+Dim z As Integer\n\nSelect Case x\n    Case 6\n        z = 6\n    Case 7\n        z = 7\nEnd Select

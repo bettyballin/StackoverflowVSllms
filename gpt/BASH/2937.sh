@@ -1,1 +1,0 @@
-find ~/Documents -name "*#important*"

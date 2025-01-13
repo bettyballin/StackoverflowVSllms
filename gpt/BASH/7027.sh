@@ -1,1 +1,0 @@
-sudo chmod -R 755 /var/www/html\n    sudo chown -R www-data:www-data /var/www/html

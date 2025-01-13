@@ -1,0 +1,1 @@
+RenderOptions.SetCachingHint(ParticleHost, CachingHint.Cache);\nRenderOptions.SetBitmapScalingMode(ParticleHost, BitmapScalingMode.HighQuality);

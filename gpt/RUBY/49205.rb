@@ -1,1 +1,0 @@
-gem 'activesupport', '~> 6.0'

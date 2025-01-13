@@ -1,0 +1,1 @@
+SELECT \n  SUM(rating * weight) / SUM(weight) AS weighted_mean\nFROM \n  (\n    SELECT \n      rating, \n      COUNT(*) AS weight\n    FROM \n      your_table\n    GROUP BY \n      rating\n  ) AS subquery;

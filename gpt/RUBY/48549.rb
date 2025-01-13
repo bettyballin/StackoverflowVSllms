@@ -1,1 +1,0 @@
-require 'gpgme'\n\n# Initialize the GPGME context\ncrypto = GPGME::Crypto.new\n\n# Read the PGP-encrypted file\nencrypted_data = File.read('path/to/encrypted_file.pgp')\n\n# Decrypt the data\ndecrypted_data = crypto.decrypt(encrypted_data).to_s\n\n# Now decrypted_data contains the plaintext\nputs decrypted_data

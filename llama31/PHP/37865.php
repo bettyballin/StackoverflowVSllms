@@ -1,0 +1,1 @@
+$mysqli->query("SET NAMES 'utf8'");

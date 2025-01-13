@@ -1,0 +1,1 @@
+regsvr32 /DEPENDENCIES:sqlite3.dll mycomobject.dll

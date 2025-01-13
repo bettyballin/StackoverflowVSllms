@@ -1,0 +1,1 @@
+console.log(properCaseName("John SMITH")); // John Smith\nconsole.log(properCaseName("Mary O'SMITH")); // Mary O'Smith\nconsole.log(properCaseName("E.t MCHYPHEN-SMITH")); // E.T McHyphen-Smith\nconsole.log(properCaseName("John Middlename SMITH")); // John Middlename Smith

@@ -1,0 +1,1 @@
+var casi = $('#casi').val();\nvar nada = $('#nada').val();\n// ...\nvar data = "casi=" + casi + "&nada=" + nada + "&...";\n$.ajax({\n  url: "graph_data.php",\n  type: "POST",\n  data: data,\n  // ...\n});

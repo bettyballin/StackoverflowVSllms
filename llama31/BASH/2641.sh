@@ -1,0 +1,1 @@
+gcc -pg -m32 -o test test.c

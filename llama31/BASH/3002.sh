@@ -1,0 +1,1 @@
+gcc -fprofile-arcs -ftest-coverage -pthread your_file.c -lgcov

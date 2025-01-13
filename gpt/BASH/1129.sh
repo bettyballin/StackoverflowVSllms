@@ -1,1 +1,0 @@
-# Assuming you have the patch file and pdfcrop.pl\npatch pdfcrop.pl < pdfcrop2.patch

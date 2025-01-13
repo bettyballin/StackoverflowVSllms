@@ -1,1 +1,0 @@
-find . -type f -name "*.php" -print0 | xargs -0 sed -i -e '${s/[[:space:]]*$//}'

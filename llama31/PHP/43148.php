@@ -1,0 +1,1 @@
+$redirectUrl = $_GET['RedirectPage'];\n$parsedUrl = parse_url($redirectUrl);\nif (!in_array($parsedUrl['scheme'], array('http', 'https')) || !preg_match('/^(www\.)?(mylink|othertrusteddomain)\.com$/', $parsedUrl['host'])) {\n    // handle error or redirect to a default page\n}

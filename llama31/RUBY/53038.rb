@@ -1,0 +1,1 @@
+require 'fastercsv'\n\n# Initialize an empty hash to store the counts\ncounts = Hash.new(0)\n\n# Open the CSV file\nFasterCSV.foreach('your_file.csv', headers: true) do |row|\n  # Increment the count for the first column value\n  counts[row[0]] += 1\nend\n\n# Print the resulting hash\nputs counts

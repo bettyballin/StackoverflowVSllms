@@ -1,1 +1,0 @@
-public void ConfigureServices(IServiceCollection services)\n{\n    services.AddSession(options =>\n    {\n        options.Cookie.SameSite = SameSiteMode.None;\n    });\n}

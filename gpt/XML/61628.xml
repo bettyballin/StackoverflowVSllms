@@ -1,1 +1,0 @@
-<filter>\n    <filter-name>SecurityFilter</filter-name>\n    <filter-class>filters.SecurityFilter</filter-class>\n</filter>\n<filter-mapping>\n    <filter-name>SecurityFilter</filter-name>\n    <url-pattern>/add/*</url-pattern>\n</filter-mapping>

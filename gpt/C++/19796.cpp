@@ -1,1 +1,0 @@
-BSTR bstrText;\nHRESULT hr = pYourInterface->GetText(&bstrText);\nif (SUCCEEDED(hr))\n{\n    // Use bstrText as needed\n    SysFreeString(bstrText);\n}

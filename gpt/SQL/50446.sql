@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n-- User 1 starts a long-running query with ROWLOCK\nSELECT * FROM Customers WITH (ROWLOCK);\n\n-- Another user can still perform updates,\n-- but the query will wait for the lock to be released.\n\nCOMMIT TRANSACTION;

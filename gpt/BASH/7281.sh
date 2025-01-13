@@ -1,1 +1,0 @@
-chmod +x /home/backup_user/bin/upload.sh

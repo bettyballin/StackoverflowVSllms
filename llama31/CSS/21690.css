@@ -1,0 +1,1 @@
+.title {\n  display: block;\n  background-color: red;\n}\n\na {\n  display: block;\n}\n\na span {\n  display: block;\n  width: 100%;\n  *display: inline-block; /* add this line for IE7 */\n  *zoom: 1; /* add this line for IE7 */\n}

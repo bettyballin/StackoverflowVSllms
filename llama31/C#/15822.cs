@@ -1,0 +1,1 @@
+lkuDiagnosis.Properties.DataSource = ds.Tables["tblDiagnosisCues"];

@@ -1,0 +1,1 @@
+public class ComComponentSingleton\n{\n    private static ComComponent _comComponent;\n\n    public static ComComponent Instance\n    {\n        get\n        {\n            if (_comComponent == null)\n            {\n                _comComponent = new ComComponent();\n            }\n            return _comComponent;\n        }\n    }\n}

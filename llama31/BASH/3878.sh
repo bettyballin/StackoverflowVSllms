@@ -1,0 +1,1 @@
+sysdig -c file_write

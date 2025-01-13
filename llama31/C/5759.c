@@ -1,0 +1,1 @@
+[\n    object,\n    uuid("..."),\n    dual,\n    helpstring("IMyCOMServer Interface"),\n    pointer_default(unique)\n]\n__interface IMyCOMServer : IDispatch\n{\n    [id(1), helpstring("method MyQuery")]\n    HRESULT MyQuery([in] BSTR instr, [out,retval] MyEnum* outint);\n};

@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX IX_Stories_LastActivityAt ON Stories (LastActivityAt)

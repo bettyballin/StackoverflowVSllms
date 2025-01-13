@@ -1,0 +1,1 @@
+$("#feeds").html("<h1>Feed title</h1><p>Feed content</p>");

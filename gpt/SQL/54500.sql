@@ -1,1 +1,0 @@
-SELECT /*+ BIND_AWARE */ *\nFROM your_table\nWHERE your_column = :your_parameter;

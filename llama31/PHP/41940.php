@@ -1,0 +1,1 @@
+function verifySignedCookie($cookieValue, $signature, $secretKey) {\n    $expectedSignature = signCookie($cookieValue, $secretKey);\n    return hash_equals($signature, $expectedSignature);\n}

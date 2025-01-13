@@ -1,1 +1,0 @@
-using NUnit.Framework;\n\n   [TestFixture]\n   public class SampleTest\n   {\n       [Test]\n       public void TestAddition()\n       {\n           Assert.AreEqual(5, 2 + 3);\n       }\n   }

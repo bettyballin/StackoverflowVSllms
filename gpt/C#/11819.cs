@@ -1,1 +1,0 @@
-Session.Timeout = 20; // Timeout in minutes

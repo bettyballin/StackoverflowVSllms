@@ -1,0 +1,1 @@
+fetch('included.html')\n  .then(response => response.text())\n  .then(data => {\n    document.getElementById('include').innerHTML = data;\n  });

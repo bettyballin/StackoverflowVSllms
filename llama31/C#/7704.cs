@@ -1,0 +1,1 @@
+private static WindsorContainer container;\n\nprotected void Application_Start(object sender, EventArgs e)\n{\n    if (container == null)\n    {\n        container = new WindsorContainer(new XmlInterpreter(filePath));\n        Application[Constant.CastleWindsorAppKey] = container;\n    }\n}

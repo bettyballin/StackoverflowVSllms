@@ -1,0 +1,1 @@
+$menuMap = $this->processMenuMap($menuMapPath);\n$usersession->menus = serialize($menuMap);

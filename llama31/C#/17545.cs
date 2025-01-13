@@ -1,0 +1,1 @@
+public void MyMethod(ref int myValue)\n{\n    myValue = 10;\n}\n\npublic void Main()\n{\n    int value = 5;\n    MyMethod(ref value);\n    Console.WriteLine(value); // Outputs: 10\n}

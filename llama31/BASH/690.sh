@@ -1,0 +1,1 @@
+compare -metric PSNR original_480x360.jpg output_484x362.jpg

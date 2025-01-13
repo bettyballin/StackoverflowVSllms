@@ -1,1 +1,0 @@
-SELECT CONVERT(VARCHAR(32), HashBytes('MD5', 'HelloWorld'), 2) AS HashString

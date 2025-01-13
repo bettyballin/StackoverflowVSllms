@@ -1,1 +1,0 @@
-sudo yum install redis\nsudo yum install php-pecl-redis

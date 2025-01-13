@@ -1,1 +1,0 @@
-composer require --dev sebastianbergmann/phpcpd\n   vendor/bin/phpcpd src

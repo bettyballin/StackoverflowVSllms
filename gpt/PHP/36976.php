@@ -1,1 +1,0 @@
-<?php\n// This will search for all .txt files in the /path/to/directory directory\nforeach (glob("/path/to/directory/*.txt") as $filename) {\n    echo "$filename size " . filesize($filename) . "\n";\n}\n?>

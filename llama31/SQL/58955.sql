@@ -1,0 +1,1 @@
+GRANT SELECT, INSERT, UPDATE, DELETE ON alice.table1 TO bob;

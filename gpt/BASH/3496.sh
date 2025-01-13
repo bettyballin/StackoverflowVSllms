@@ -1,1 +1,0 @@
-sudo apt-get install libboost-log-dev

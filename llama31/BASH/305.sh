@@ -1,0 +1,1 @@
+#!/bin/bash\n\nLOCAL_DIR=/path/to/your/project\nREMOTE_DIR=/path/to/remote/directory\nFTP_HOST=your-ftp-host\nFTP_USER=your-ftp-username\nFTP_PASSWORD=your-ftp-password\n\nwhile inotifywait -r -e modify,create,delete --format '%w%f' --timefmt '%Y-%m-%d %H:%M:%S' "$LOCAL_DIR"; do\n  rsync -avz --delete --progress "$LOCAL_DIR/" "$FTP_HOST:$REMOTE_DIR/"\ndone

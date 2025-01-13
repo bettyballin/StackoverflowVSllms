@@ -1,0 +1,1 @@
+using (SqlConnection conn = new SqlConnection(CONNECTION_STRING))\nusing (SqlDataAdapter adapter = new SqlDataAdapter(cmd))\n{\n    // ...\n}

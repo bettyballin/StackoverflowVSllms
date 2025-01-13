@@ -1,0 +1,1 @@
+SELECT * FROM Orders WHERE OrderDate >= '2020-01-01' ORDER BY OrderDate DESC;

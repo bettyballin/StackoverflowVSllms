@@ -1,1 +1,0 @@
-public partial class Form2 : Form\n{\n    private int _customerId;\n\n    public Form2(int customerId)\n    {\n        InitializeComponent();\n        _customerId = customerId;\n        // Use _customerId as needed within this form\n        lblCustomerId.Text = $"Customer ID: {_customerId}";\n    }\n}

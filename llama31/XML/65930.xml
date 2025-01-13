@@ -1,0 +1,1 @@
+<dependency>\n  <groupId>org.liquibase</groupId>\n  <artifactId>liquibase-core</artifactId>\n  <version>3.10.3</version>\n</dependency>

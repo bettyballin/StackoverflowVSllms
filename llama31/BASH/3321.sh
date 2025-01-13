@@ -1,0 +1,1 @@
+// Set environment variables on Linux\nexport DB_URL=jdbc:mysql://localhost:3306/mydb\nexport DB_USERNAME=myuser\nexport DB_PASSWORD=mypassword

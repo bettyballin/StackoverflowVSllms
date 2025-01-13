@@ -1,0 +1,1 @@
+[WebMethod]\npublic static string UpdateGridView(int id, string name, string email)\n{\n    // Update the database or perform other operations here\n    return "Updated successfully!";\n}

@@ -1,0 +1,1 @@
+var query = GetQuery(dataContext.MyTable, arrayOfQueryTerms, e => e.FieldName);

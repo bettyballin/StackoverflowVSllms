@@ -1,0 +1,1 @@
+CREATE TABLE PurchaseOrders (\n    Id UNIQUEIDENTIFIER PRIMARY KEY NONCLUSTERED,\n    -- other columns...\n);

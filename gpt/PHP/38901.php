@@ -1,1 +1,0 @@
-<?php\n// Set the content type to CSV\nheader('Content-Type: text/csv');\n// Suggest a filename for the download\nheader('Content-Disposition: attachment;filename="data.csv"');\n\n// Output the CSV content\necho "cell 1, cell 2\n";\necho "cell 3, cell 4\n";\n?>

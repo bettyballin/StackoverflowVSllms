@@ -1,0 +1,1 @@
+var razzies = bloops.Where(b => b.Number > 10)\n                    .Select(b => new Razzie\n                    {\n                        FirstName = b.FirstName,\n                        LastName = b.LastName\n                    }).ToList();

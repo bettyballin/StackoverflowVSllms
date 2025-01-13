@@ -1,0 +1,1 @@
+string text = "I love c# and .net, but not vb.net";\nstring word = ".net";\nstring pattern = WholeWordPattern(word);\nMatch match = Regex.Match(text, pattern);\nif (match.Success)\n{\n    Console.WriteLine($"Found {word}");\n}

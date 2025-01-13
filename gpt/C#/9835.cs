@@ -1,1 +1,0 @@
-bool usingIntegratedPipeline = HttpRuntime.UsingIntegratedPipeline;\n\nroutes.MapRoute(\n    "Default",\n    usingIntegratedPipeline ?\n        "{controller}/{action}/{id}" : "{controller}.mvc/{action}/{id}",\n    new { controller = "Home", action = "Index", id = UrlParameter.Optional }\n);

@@ -1,0 +1,1 @@
+if (!Page.ClientScript.IsStartupScriptRegistered("file.js") && !isScriptLoaded("file.js")) {\n    Page.ClientScript.RegisterStartupScript(this.GetType(), "file.js", "<script src='file.js' type='text/javascript'></script>");\n}

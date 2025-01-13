@@ -1,0 +1,1 @@
+perl -MModule::Name -e 'print $Module::Name::VERSION . "\n";'

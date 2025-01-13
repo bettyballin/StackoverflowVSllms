@@ -1,1 +1,0 @@
-IWindsorContainer container = new DecoratedConfig(new DefaultConfig()).InitialiseContainer();

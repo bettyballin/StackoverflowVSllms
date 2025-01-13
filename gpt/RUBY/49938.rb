@@ -1,1 +1,0 @@
-operations = {\n     "add" => ->(a, b) { a + b },\n     "subtract" => ->(a, b) { a - b }\n   }\n\n   operation = "add"\n   result = operations[operation].call(2, 3) if operations.has_key?(operation)\n   puts result  # Output: 5

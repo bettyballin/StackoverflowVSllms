@@ -1,1 +1,0 @@
-public class EmployeeDTO\n{\n    public int EmployeeID { get; set; }\n    public string FirstName { get; set; }\n    public string LastName { get; set; }\n}\n\nvar result = db.Employees.Select(e => new EmployeeDTO\n       { \n           EmployeeID = e.EmployeeID, \n           FirstName = e.FirstName,\n           LastName = e.LastName \n       }).ToList();\n\nreturn result;

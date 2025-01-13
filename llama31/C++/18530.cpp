@@ -1,0 +1,1 @@
+Fred* fred = &gFred[0];\n...\nfred = &gFred[z];

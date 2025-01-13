@@ -1,0 +1,1 @@
+CREATE FUNCTION find_root (@id INT)\nRETURNS INT\nAS\nBEGIN\n    DECLARE @result INT\n    -- your calculation logic here\n    RETURN @result\nEND

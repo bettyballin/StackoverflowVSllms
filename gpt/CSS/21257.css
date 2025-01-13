@@ -1,1 +1,0 @@
-@media (max-width: 320px) {\n       /* Styles for small screens like iPhone */\n   }\n\n   @media (min-width: 321px) and (max-width: 480px) {\n       /* Styles for medium screens */\n   }\n\n   @media (min-width: 481px) {\n       /* Styles for larger screens */\n   }

@@ -1,0 +1,1 @@
+// C#\nvar results = collection.Where(item => item.Name == "John");

@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        // Set initial state of the panels if required\n    }\n    else\n    {\n        // Retrieve the state from the hidden field and set the panel state\n        bool isCollapsed = bool.Parse(HiddenField1.Value);\n        CollapsiblePanelExtender1.Collapsed = isCollapsed;\n    }\n}

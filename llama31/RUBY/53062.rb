@@ -1,0 +1,1 @@
+# app/models/user.rb\nclass User < ApplicationRecord\n  include CustomTimestamps\nend

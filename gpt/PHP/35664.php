@@ -1,1 +1,0 @@
-// Hash the password\n   $hashedPassword = password_hash($password, PASSWORD_BCRYPT);\n\n   // Verify the password\n   if (password_verify($password, $hashedPassword)) {\n       // Password is correct\n   } else {\n       // Incorrect password\n   }

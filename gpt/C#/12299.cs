@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        link1.NavigateUrl = "Equipamentos.aspx?ID_Cliente=" + Request.QueryString["ID_Cliente"]?.Trim();\n    }\n}

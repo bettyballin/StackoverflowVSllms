@@ -1,0 +1,1 @@
+for (int i = items.Count - 1; i >= 0; i--)\n{\n    if (items[i].something > 10)\n    {\n        otherList.Add(items[i]);\n        items.RemoveAt(i);\n    }\n}

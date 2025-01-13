@@ -1,1 +1,0 @@
-var imageUrl = contextPath + "/myimage.gif";\nvar pageUrl = contextPath + "/mypage.jsp";

@@ -1,1 +1,0 @@
-exe2bin program.exe program.com

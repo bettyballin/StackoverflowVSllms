@@ -1,1 +1,0 @@
-CREATE TABLE FooTag (\n    fooID INT,\n    tag VARCHAR(255),\n    PRIMARY KEY (fooID, tag)\n);

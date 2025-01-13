@@ -1,0 +1,1 @@
+byte[] bytes = Encoding.UTF8.GetBytes(new char[] { (char)149 });\nConsole.WriteLine(bytes[0]); // Output: 149

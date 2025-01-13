@@ -1,1 +1,0 @@
-RESTORE DATABASE [YourDatabase_Copy]\nFROM DISK = 'Path\To\Your\FullBackup.bak'\nWITH MOVE 'YourDatabase_Data' TO 'Path\To\Your\NewDatabase.mdf',\nMOVE 'YourDatabase_Log' TO 'Path\To\Your\NewDatabase.ldf',\nNORECOVERY;

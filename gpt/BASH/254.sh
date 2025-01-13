@@ -1,1 +1,0 @@
-sudo gdb -p <pid>

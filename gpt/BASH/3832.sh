@@ -1,1 +1,0 @@
-gcc -o program_name source_file.c

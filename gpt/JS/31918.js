@@ -1,1 +1,0 @@
-var obj = new ActiveXObject("MSDAIPP.DSO");\nobj.Open("http://example.com/data");

@@ -1,1 +1,0 @@
-export DISPLAY=your_local_ip:0.0

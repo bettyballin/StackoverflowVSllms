@@ -1,0 +1,1 @@
+ht->table = calloc(ht->size, sizeof(bucket*));

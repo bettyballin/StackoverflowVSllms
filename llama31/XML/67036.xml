@@ -1,0 +1,1 @@
+<build>\n    <plugins>\n        <plugin>\n            <groupId>org.apache.maven.plugins</groupId>\n            <artifactId>maven-compiler-plugin</artifactId>\n            <configuration>\n                <debug>true</debug>\n                <debuglevel>lines,vars,source</debuglevel>\n            </configuration>\n        </plugin>\n    </plugins>\n</build>

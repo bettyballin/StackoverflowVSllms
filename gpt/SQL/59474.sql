@@ -1,1 +1,0 @@
--- CustomPreDeployment.sql\n   -- Disable replication\n   USE [master];\n   EXEC sp_replicationdboption @dbname = N'YourDatabase', @optname = N'publish', @value = N'false';

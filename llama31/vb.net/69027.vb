@@ -1,0 +1,1 @@
+Dim Bind As New WSHttpBinding(SecurityMode.None, True)\nBind.UseDefaultWebProxy = False

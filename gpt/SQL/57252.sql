@@ -1,1 +1,0 @@
-DECLARE\n    v_sql VARCHAR2(1000);\n    v_result NUMBER;\nBEGIN\n    v_sql := 'SELECT COUNT(*) INTO :result FROM employees WHERE department_id = :dept_id';\n    EXECUTE IMMEDIATE v_sql INTO v_result USING :dept_id;\n    DBMS_OUTPUT.PUT_LINE('Result: ' || v_result);\nEND;

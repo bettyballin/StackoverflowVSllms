@@ -1,1 +1,0 @@
-framework.bat create-controller MyController\nframework.bat create-module MyModule

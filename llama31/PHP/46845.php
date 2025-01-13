@@ -1,0 +1,1 @@
+$myCar = new Car("Red", "Toyota");\necho $myCar->color; // Output: Red\n$myCar->honk(); // Output: Beep beep!

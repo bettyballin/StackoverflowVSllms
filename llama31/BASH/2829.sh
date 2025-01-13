@@ -1,0 +1,1 @@
+pdftk *.pdf output output.pdf

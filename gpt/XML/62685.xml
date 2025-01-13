@@ -1,1 +1,0 @@
-<Context>\n       <Manager className="de.javakaffee.web.msm.MemcachedBackupSessionManager"\n                memcachedNodes="n1:localhost:11211"\n                sticky="false"\n                sessionBackupAsync="false"\n                lockingMode="auto" />\n   </Context>

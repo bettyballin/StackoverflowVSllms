@@ -1,0 +1,1 @@
+msbuild /t:publish /y

@@ -1,1 +1,0 @@
-# Create and restore snapshots in VirtualBox\n     VBoxManage snapshot <vm_name> take <snapshot_name>\n     VBoxManage snapshot <vm_name> restore <snapshot_name>

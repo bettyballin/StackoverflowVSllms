@@ -1,0 +1,1 @@
+function findLongestElement(arr) {\n    return Math.max(...arr.map(element => element.length));\n}

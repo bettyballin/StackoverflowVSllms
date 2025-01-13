@@ -1,1 +1,0 @@
-SELECT p.*, im.*\n   FROM posts p\n   JOIN postimages pi ON pi.post_id = p.id\n   JOIN images im ON pi.image_id = im.image_id\n   WHERE im.active = 1\n   ORDER BY p.created_at\n   LIMIT 16 OFFSET 0;

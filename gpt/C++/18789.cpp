@@ -1,1 +1,0 @@
-#include "MyDll.h"\n\ntemplate<typename T>\nvoid B<T>::doSomething() {\n    // Implementation\n}\n\n// Explicit instantiation for int\ntemplate class __declspec(dllexport) B<int>;

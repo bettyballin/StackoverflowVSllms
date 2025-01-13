@@ -1,1 +1,0 @@
-import React from 'react';\n   import ReactDOM from 'react-dom';

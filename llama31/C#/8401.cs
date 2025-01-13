@@ -1,0 +1,1 @@
+var selected = items.Where(item => item.something > 10).ToList();\nitems = items.Except(selected).ToList();\notherList.AddRange(selected);

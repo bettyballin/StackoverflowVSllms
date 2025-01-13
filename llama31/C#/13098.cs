@@ -1,0 +1,1 @@
+if (Page.Request.Form["MyButton"] != null)\n{\n    // don't show the modal popup\n}\nelse\n{\n    ClientScript.RegisterStartupScript(Page.GetType(), "ModalPopup", "Sys.Application.add_load(function() {ShowModalPopup(""" & Me.formModalButton.ID & """)};", True)\n}

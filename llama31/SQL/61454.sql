@@ -1,0 +1,1 @@
+WITH cte AS (\n  SELECT "Ugly OLAP name" as "Value"\n  FROM OpenQuery( OLAP, 'OLAP Query')\n)\nSELECT *\nFROM cte\nWHERE "Value" > 0

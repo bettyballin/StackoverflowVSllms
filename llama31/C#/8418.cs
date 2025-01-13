@@ -1,0 +1,1 @@
+Session.Add("X", TextBox1.Text);

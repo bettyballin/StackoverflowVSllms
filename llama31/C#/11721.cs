@@ -1,0 +1,1 @@
+ServiceSecurityContext securityContext = ServiceSecurityContext.Current;\nstring windowsUser = securityContext.WindowsIdentity.Name;

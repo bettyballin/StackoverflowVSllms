@@ -1,1 +1,0 @@
--- Example of creating an APEX application\n    BEGIN\n        APEX_APPLICATION_INSTALL.SET_SCHEMA('YOUR_SCHEMA');\n        APEX_APPLICATION_INSTALL.SET_APPLICATION_ID(100);\n        APEX_APPLICATION_INSTALL.SET_APPLICATION_NAME('Your Application');\n        \n        -- Create the application\n        APEX_APPLICATION_INSTALL.CREATE_APPLICATION;\n    END;

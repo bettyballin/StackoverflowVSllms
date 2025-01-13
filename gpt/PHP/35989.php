@@ -1,1 +1,0 @@
-<?php\n// Assume $pdo is a PDO instance connected to the database\n$user_input = trim($_POST['textarea']);\n$encoded_input = htmlentities($user_input, ENT_QUOTES, 'UTF-8');\n\n$sql = "INSERT INTO your_table (your_column) VALUES (:user_input)";\n$stmt = $pdo->prepare($sql);\n$stmt->bindParam(':user_input', $encoded_input);\n$stmt->execute();\n?>

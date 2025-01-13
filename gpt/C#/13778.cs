@@ -1,1 +1,0 @@
-using System.Drawing;\nusing System.Windows.Forms;\n\npublic Bitmap CaptureControl(Control control)\n{\n    // Create a new bitmap with the same size as the control\n    Bitmap bitmap = new Bitmap(control.Width, control.Height);\n\n    // Draw the control onto the bitmap\n    control.DrawToBitmap(bitmap, new Rectangle(Point.Empty, control.Size));\n\n    return bitmap;\n}

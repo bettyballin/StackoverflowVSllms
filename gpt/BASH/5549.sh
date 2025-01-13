@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Define the workspace and the document root\nWORKSPACE_DIR=~/workspace/myproject\nDOCUMENT_ROOT=/var/www/html/myproject\n\n# Use rsync to deploy the project from workspace to document root\nrsync -av --delete $WORKSPACE_DIR/ $DOCUMENT_ROOT/\n\n# Print a message indicating the deployment is done\necho "Deployment completed successfully."

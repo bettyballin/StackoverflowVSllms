@@ -1,1 +1,0 @@
-Imports Shell32\n\nModule Module1\n    Sub Main()\n        Dim shell As New Shell()\n        Dim folder As Folder = shell.NameSpace(11) ' 11 corresponds to the Start Menu\n        If folder IsNot Nothing Then\n            Dim path As String = folder.Self.Path\n            MsgBox(path)\n        End If\n    End Sub\nEnd Module

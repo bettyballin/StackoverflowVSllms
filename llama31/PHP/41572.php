@@ -1,0 +1,1 @@
+$unix_time = array_map(function($row) {\n    return $row['unix_time'];\n}, $results);

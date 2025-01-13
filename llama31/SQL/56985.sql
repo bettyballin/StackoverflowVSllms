@@ -1,0 +1,1 @@
+SELECT DISTINCT m.*\nFROM models m\nJOIN models_networks mn ON m.id = mn.model_id\nJOIN networks n ON mn.network_id = n.id\nJOIN countries_networks cn ON n.id = cn.network_id\nJOIN countries c ON cn.country_id = c.id\nWHERE c.countryName = 'France';

@@ -1,0 +1,1 @@
+for (auto& func : functions) {\n    func(event);\n}

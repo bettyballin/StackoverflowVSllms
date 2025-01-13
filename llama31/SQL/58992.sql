@@ -1,0 +1,1 @@
+INNER JOIN pages    ON updates.page  = pages.page_id

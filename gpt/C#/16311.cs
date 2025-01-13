@@ -1,1 +1,0 @@
-using System;\nusing System.Runtime.InteropServices;\n\npublic class NativeMethods\n{\n    [DllImport("YourFirstDllName.dll", CallingConvention = CallingConvention.Cdecl)]\n    public static extern void init(byte[] initData, byte[] key);\n}

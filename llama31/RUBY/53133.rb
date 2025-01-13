@@ -1,0 +1,1 @@
+url = URI.parse('http://localhost:3000/someservice/')\nrequest = Net::HTTP::Post.new(url.path)\nrequest.body = "<?xml version='1.0' encoding='UTF-8'?><somedata><name>Test Name 1</name><description>Some data for Unit testing</description></somedata>"\nrequest['Content-Type'] = 'application/xml'\nresponse = Net::HTTP.start(url.host, url.port) {|http| http.request(request)}

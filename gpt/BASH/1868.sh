@@ -1,1 +1,0 @@
-gs -dNOPAUSE -sDEVICE=laserjet -sOutputFile=output.pcl -dBATCH input.pdf

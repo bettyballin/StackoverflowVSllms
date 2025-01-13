@@ -1,1 +1,0 @@
-INSERT INTO NewMilestones (MilestoneID, Name)\nSELECT MilestoneID, Name FROM Milestones;\n\nINSERT INTO NewCategories (CategoryID, Name)\nSELECT CategoryID, Name FROM Categories;\n\nINSERT INTO NewSkills (SkillID, Name)\nSELECT SkillID, Name FROM Skills;\n\nINSERT INTO NewPayRates (RateID, Name)\nSELECT RateID, Name FROM PayRates;

@@ -1,1 +1,0 @@
-<?php\n$html = '<a href="1.html" href="2.html">Link</a>';\n$dom = new DOMDocument;\n@$dom->loadHTML($html); // Suppress warnings due to malformed HTML\n$xpath = new DOMXPath($dom);\n\n$nodes = $xpath->query('//@href');\n$lastHref = $nodes->item($nodes->length - 1)->nodeValue;\n\necho $lastHref; // Outputs "2.html"\n?>

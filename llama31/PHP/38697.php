@@ -1,0 +1,1 @@
+require_once 'vendor/autoload.php';\n\nuse Goutte\Client;\n\n$client = new Client();\n\n$crawler = $client->request('GET', 'https://example.com');\n\n$links = $crawler->filter('a')->each(function ($node) {\n    return $node->attr('href');\n});\n\nprint_r($links);

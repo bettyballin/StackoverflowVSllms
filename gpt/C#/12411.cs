@@ -1,1 +1,0 @@
-public enum NodeType\n    {\n        None = 0,\n        Type1,\n        Type2,\n        // Other enumeration values\n    }\n\n    public class PackageDTO\n    {\n        public NodeType NodeTypeProperty { get; set; }\n    }

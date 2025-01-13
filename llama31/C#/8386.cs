@@ -1,0 +1,1 @@
+[HandleError]\n[OutputCache(Duration = 5, VaryByParam = "none")]\npublic class HomeController : Controller\n{\n    public ActionResult Index()\n    {\n        ViewData["Title"] = "Home Page" + DateTime.Now;\n        ViewData["Message"] = "Welcome to ASP.NET MVC! " + DateTime.Now;\n\n        return View();\n    }\n}

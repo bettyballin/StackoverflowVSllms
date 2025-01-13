@@ -1,0 +1,1 @@
+$this->headStyle()->prependStyle('<!--[if lt IE 7]>' .\n                                 '<style type="text/css" media="screen">' .\n                                 'div.stuff { background-image: none; }' .\n                                 '</style>' .\n                                 '<![endif]-->');

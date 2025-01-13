@@ -1,1 +1,0 @@
-EndpointAddress endpointAddress = new EndpointAddress("https://mydomain.com:2443/UtilService.svc");\n   BasicHttpBinding binding = new BasicHttpBinding(BasicHttpSecurityMode.Transport);\n   binding.Security.Transport.ClientCredentialType = HttpClientCredentialType.None;\n   UtilServiceClient client = new UtilServiceClient(binding, endpointAddress);

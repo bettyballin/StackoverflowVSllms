@@ -1,1 +1,0 @@
-# Check the filesystem\nsudo fsck -y test.img

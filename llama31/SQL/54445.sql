@@ -1,0 +1,1 @@
+CREATE TABLE mytable (\n    id SERIAL PRIMARY KEY,\n    data TEXT\n);\n\nALTER TABLE mytable ENABLE ROW LEVEL SECURITY;

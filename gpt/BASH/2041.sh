@@ -1,1 +1,0 @@
-gcc -o pop3_ssl pop3_ssl.c -lssl -lcrypto

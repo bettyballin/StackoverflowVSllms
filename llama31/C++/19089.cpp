@@ -1,0 +1,1 @@
+class K {\npublic:\n    static __declspec(dllimport) int a;\n    static __declspec(dllimport) int b;\n};

@@ -1,1 +1,0 @@
-CREATE INDEX idx_some_field ON some_table (some_field);

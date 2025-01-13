@@ -1,0 +1,1 @@
+DELIMITER //\nCREATE FUNCTION CLEAN_ME(input_str VARCHAR(255)) RETURNS VARCHAR(255)\nBEGIN\n  DECLARE cleaned_str VARCHAR(255);\n  SET cleaned_str = REGEXP_REPLACE(input_str, '[^a-zA-Z0-9 ]', '');\n  RETURN cleaned_str;\nEND//\nDELIMITER ;

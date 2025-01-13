@@ -1,0 +1,1 @@
+Process process = Process.GetProcessesByName("processName").FirstOrDefault();\nif (ProcessChecker.IsProcessRunning(process))\n{\n    Console.WriteLine("The process is running.");\n}\nelse\n{\n    Console.WriteLine("The process is not running.");\n}

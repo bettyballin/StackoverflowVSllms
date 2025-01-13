@@ -1,1 +1,0 @@
-try\n{\n    // Your code that may throw an exception\n}\ncatch (Exception ex)\n{\n    System.Diagnostics.Trace.WriteLine(ex.ToString());\n    // Optionally, you can also log it to a file or another logging mechanism here\n}

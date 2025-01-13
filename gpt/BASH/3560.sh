@@ -1,1 +1,0 @@
-./editproducts.cgi               # Access the product management interface

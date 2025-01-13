@@ -1,1 +1,0 @@
-[Authorize(Roles = "YourRoleName")]\npublic ActionResult YourAction()\n{\n    // Your code here\n}

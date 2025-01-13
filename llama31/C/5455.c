@@ -1,0 +1,1 @@
+int fd = open(PIPE_IN, O_RDONLY | O_NONBLOCK);\nif (fd == -1) {\n    perror("open");\n    exit(1);\n}\n\n// You can then use fd in a select() call

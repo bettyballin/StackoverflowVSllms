@@ -1,0 +1,1 @@
+olevba -d example.docx

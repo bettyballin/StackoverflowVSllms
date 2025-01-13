@@ -1,0 +1,1 @@
+SELECT STUFF((SELECT ',' + CONVERT(nvarchar, X) + ',' + CONVERT(nvarchar, Y)\nFROM POINTS\nFOR XML PATH('')), 1, 1, '') AS XYList

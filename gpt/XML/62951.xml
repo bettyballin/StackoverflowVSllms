@@ -1,1 +1,0 @@
-<!-- Web.Release.config -->\n   <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">\n     <appSettings>\n       <add key="StaticContentUrl" value="http://static.yourdomain.com" xdt:Transform="SetAttributes" xdt:Locator="Match(key)" />\n     </appSettings>\n   </configuration>

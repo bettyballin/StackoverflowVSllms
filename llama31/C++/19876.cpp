@@ -1,0 +1,1 @@
+#include <Windows.h>\n\n// ...\n\nCString sourceFile = "C:\\Source\\File.txt";\nCString destinationFile = "C:\\Destination\\File.txt";\n\nif (!CopyFile(sourceFile, destinationFile, TRUE))\n{\n    // Error handling, e.g., get the last error code\n    DWORD errorCode = GetLastError();\n    // ...\n}

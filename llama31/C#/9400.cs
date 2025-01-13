@@ -1,0 +1,1 @@
+string FullPath = TempPath + FileName;\nSystem.Drawing.Image Adimg = null;\n\nHttpContext context = HttpContext.Current;\nif (context != null) {\n    Adimg = System.Drawing.Image.FromFile(context.MapPath(FullPath));\n} else {\n    // handle the case where HttpContext is null\n    // e.g., throw an exception or return an error message\n}

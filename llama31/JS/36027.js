@@ -1,0 +1,1 @@
+var paragraphElement = document.getElementById('myParagraph');\naddLineBreaks(paragraphElement);

@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\nif (!isset($_SESSION['user_id'])) {\n    header("Location: login.php");\n    exit();\n}\n\n// User is logged in, display protected content\necho "Welcome, " . htmlspecialchars($_SESSION['username']) . "!";\n?>

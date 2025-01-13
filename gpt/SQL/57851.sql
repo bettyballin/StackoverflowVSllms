@@ -1,1 +1,0 @@
-CREATE TABLE articles (\n       id SERIAL PRIMARY KEY,\n       title VARCHAR(255) NOT NULL\n   );

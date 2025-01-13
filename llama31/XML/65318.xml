@@ -1,0 +1,1 @@
+<many-to-one name="Node" class="Node" lazy="false">\n    <column name="NodeID"/>\n    <column name="VersionID" />\n</many-to-one>

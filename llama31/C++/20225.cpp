@@ -1,0 +1,1 @@
+struct A {};\n\nstruct __attribute__((packed)) B : A {\n    int i;\n};

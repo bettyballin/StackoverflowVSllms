@@ -1,0 +1,1 @@
+@page {\n  @top-right {\n    counter-increment: page 2; /* increments the page counter by 2-1 = 1, starting from 2 */\n    content: "Page " counter(page) " of " counter(pages);\n  }\n}

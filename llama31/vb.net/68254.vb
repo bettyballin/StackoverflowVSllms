@@ -1,0 +1,1 @@
+Public Function GetSheepCopy() As Sheep\n    Try\n        Dim sheepCopy As New Sheep()\n        sheepCopy = Me.Sheep.Clone()\n        Return sheepCopy\n    Catch ex As Exception\n        ' Handle the exception and return a default value or throw a new exception\n    End Try\nEnd Functio

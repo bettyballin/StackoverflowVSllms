@@ -1,0 +1,1 @@
+<Window x:Name="window">\n    <Grid MaxWidth="{Binding ActualWidth, ElementName=window}">\n        <!-- your grid content here -->\n    </Grid>\n</Window>

@@ -1,1 +1,0 @@
-sqlplus username/password@database

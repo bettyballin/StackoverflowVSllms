@@ -1,1 +1,0 @@
-<!-- templates/documents/document_list.html -->\n    <h1>Document List</h1>\n    <ul>\n        {% for document in documents %}\n            <li><a href="{% url 'document_detail' document.pk %}">{{ document.title }}</a></li>\n        {% endfor %}\n    </ul>

@@ -1,1 +1,0 @@
-const express = require('express');\n   const request = require('request');\n   const app = express();\n\n   app.get('/proxy', (req, res) => {\n     const apiUrl = 'https://api.example.com/data';\n     request(apiUrl).pipe(res);\n   });\n\n   app.listen(3000, () => console.log('Server running on port 3000'));

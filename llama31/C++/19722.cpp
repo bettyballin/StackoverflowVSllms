@@ -1,0 +1,1 @@
+class StaticObject {\npublic:\n    StaticObject() { /* initialization */ }\n    ~StaticObject() { /* cleanup */ }\n\n    static StaticObject& getInstance() {\n        static StaticObject instance; // constructs on first use\n        return instance;\n    }\n};

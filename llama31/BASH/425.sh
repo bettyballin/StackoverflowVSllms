@@ -1,0 +1,1 @@
+rsync -avz --exclude-from=exclude.txt -e ssh /local/path/ user@remotehost:/remote/path/

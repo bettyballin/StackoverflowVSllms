@@ -1,1 +1,0 @@
-public class Resume\n{\n    public virtual int Id { get; set; }\n    public virtual int UserId { get; set; }\n    public virtual string FileName { get; set; }\n    public virtual byte[] Content { get; set; }\n}

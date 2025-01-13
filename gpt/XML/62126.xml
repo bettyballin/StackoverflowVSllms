@@ -1,1 +1,0 @@
-<extension\n       point="your.plugin.id.serverType">\n       <serverType\n           id="newServerType"\n           class="com.example.NewServer">\n       </serverType>\n   </extension>

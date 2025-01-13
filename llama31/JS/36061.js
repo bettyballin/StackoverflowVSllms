@@ -1,0 +1,1 @@
+try {\n  const script = document.createElement('script');\n  script.src = 'https://cdn.example.com/script.js';\n  document.head.appendChild(script);\n} catch (e) {\n  const fallbackScript = document.createElement('script');\n  fallbackScript.src = 'https://fallback.example.com/script.js';\n  document.head.appendChild(fallbackScript);\n}

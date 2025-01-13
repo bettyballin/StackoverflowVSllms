@@ -1,1 +1,0 @@
-void myFunction() {\n        static int counter = 0; // This variable retains its value between function calls\n        counter++;\n        printf("%d\n", counter);\n    }

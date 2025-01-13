@@ -1,0 +1,1 @@
+[Export(typeof(IPlugin))]\npublic class MyPlugin : IPlugin\n{\n    public string Name\n    {\n        get { return "MyPlugin"; }\n    }\n\n    public MvcHtmlString GetView()\n    {\n        return MvcHtmlString.Create("<h1>Hello from MyPlugin!</h1>");\n    }\n}

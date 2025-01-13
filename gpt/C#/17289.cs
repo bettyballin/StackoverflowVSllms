@@ -1,1 +1,0 @@
-// Example of forms authentication in ASP.NET\n     public void SignIn(string userName, bool createPersistentCookie)\n     {\n         FormsAuthentication.SetAuthCookie(userName, createPersistentCookie);\n     }

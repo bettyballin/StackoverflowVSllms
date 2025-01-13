@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nunsigned long long factorial(int n) {\n    if (n == 0) return 1;\n    unsigned long long result = 1;\n    for (int i = 1; i <= n; ++i) {\n        result *= i;\n    }\n    return result;\n}\n\nint main() {\n    int num = 5;\n    printf("Factorial of %d is %llu\n", num, factorial(num));\n    return 0;\n}

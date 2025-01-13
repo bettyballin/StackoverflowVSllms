@@ -1,0 +1,1 @@
+#include <spdlog/spdlog.h>\n\nint main() {\n  spdlog::info("Diagnostic information");\n  return 0;\n}

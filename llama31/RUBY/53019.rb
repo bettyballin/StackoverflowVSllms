@@ -1,0 +1,1 @@
+doc = Nokogiri::XML(open('http://feeds.feedburner.com/RidingRails'))\ndoc.remove_namespaces!\nputs doc.xpath('//feed/entry').length # => 15

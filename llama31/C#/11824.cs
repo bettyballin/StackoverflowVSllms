@@ -1,0 +1,1 @@
+string connectionString = ConfigurationManager.ConnectionStrings["myconstr"].ConnectionString;\nMyDataset dataset = new MyDataset(connectionString);\ndataset.MyMethod();

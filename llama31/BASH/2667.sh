@@ -1,0 +1,1 @@
+$ gdb --args ./gtkworkbook\n(gdb) run\n# reproduce the warnings\n(gdb) break g_cclosure_new\n(gdb) continue\n# gdb will stop at the breakpoint\n(gdb) print callback_func\n$1 = (void (*)(void)) 0x0\n# inspect the call stack to see where the NULL callback_func came from\n(gdb) backtrace

@@ -1,0 +1,1 @@
+// assume 'ints' is an array<int>^\n\n// compiler-generated code\nIEnumerator<int>^ enumerator = ints->GetEnumerator();\nwhile (enumerator->MoveNext())\n{\n    int i = enumerator->Current;\n    // loop body goes here\n}

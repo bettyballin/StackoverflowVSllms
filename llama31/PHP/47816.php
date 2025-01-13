@@ -1,0 +1,1 @@
+<?php\nfunction run_script($script) {\n    $output = null;\n    $retval = null;\n    exec('php ' . escapeshellarg($script), $output, $retval);\n    if ($retval != 0) {\n        print "Error running script $script\n";\n    }\n}\n\n// Run your scripts\n$scripts = array('script1.php', 'script2.php', 'script3.php');\nforeach ($scripts as $script) {\n    run_script($script);\n}\n?>

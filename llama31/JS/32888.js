@@ -1,0 +1,1 @@
+function findInArray(arr, searchStr) {\n  const indices = [];\n\n  for (let i = 0; i < arr.length; i++) {\n    if (arr[i].indexOf(searchStr) !== -1) {\n      indices.push(i);\n    }\n  }\n\n  return indices;\n}

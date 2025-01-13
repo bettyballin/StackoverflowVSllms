@@ -1,0 +1,1 @@
+catch (Exception ex)\n{\n    // Log the exception\n    System.Diagnostics.Trace.TraceError(ex.Message, ex.StackTrace);\n    // You can also log the exception to a file or database if needed\n}

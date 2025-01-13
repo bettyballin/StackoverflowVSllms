@@ -1,1 +1,0 @@
-USE [YourDatabaseName]\n   GO\n   CREATE USER [IIS APPPOOL\DefaultAppPool] FOR LOGIN [IIS APPPOOL\DefaultAppPool];\n   GO\n   ALTER ROLE [db_owner] ADD MEMBER [IIS APPPOOL\DefaultAppPool];\n   GO

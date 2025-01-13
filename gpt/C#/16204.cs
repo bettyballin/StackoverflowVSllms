@@ -1,1 +1,0 @@
-private void Form1_FormClosing(object sender, FormClosingEventArgs e)\n   {\n       WebBrowser1.Dispose();\n   }

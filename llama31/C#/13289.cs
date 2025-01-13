@@ -1,0 +1,1 @@
+using (FileStream fileStream = new FileStream("example.txt", FileMode.Open))\n{\n    // Use the fileStream\n}

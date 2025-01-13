@@ -1,0 +1,1 @@
+svn diff -c > bugfix.patch

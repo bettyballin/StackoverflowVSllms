@@ -1,1 +1,0 @@
-DateTime dateTime = DateTime.FromOADate(oleAutomationDate);

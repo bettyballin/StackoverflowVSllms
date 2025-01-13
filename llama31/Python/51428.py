@@ -1,0 +1,1 @@
+import importlib\n\nclass ClassOne():\n   def reload_module():\n       importlib.reload(__name__)

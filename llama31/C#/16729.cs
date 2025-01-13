@@ -1,0 +1,1 @@
+using System.Runtime.InteropServices;\n\nclass Program\n{\n    [DllImport("your_ocx_file")]\n    public static extern void YourOcxMethod();\n\n    static void Main(string[] args)\n    {\n        // Call the OCX method\n        YourOcxMethod();\n    }\n}

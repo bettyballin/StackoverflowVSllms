@@ -1,0 +1,1 @@
+[Authorize]\npublic partial class baz : System.Web.UI.Page\n{\n    // ...\n}

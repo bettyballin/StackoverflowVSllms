@@ -1,0 +1,1 @@
+void on_paste_done(GtkTextBuffer *buffer, GtkClipboard *clipboard, gpointer data) {\n    // Perform actions after text has been pasted\n}\n\nvoid on_insert_text(GtkTextBuffer *buffer, GtkTextIter *iter, gchar *text, gint len, gpointer data) {\n    // Perform actions when text is inserted\n}

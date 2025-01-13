@@ -1,0 +1,1 @@
+// Stateless session, no transaction\nISession session = sessionFactory.OpenStatelessSession();\n\n// Save or update an entity\nsession.SaveOrUpdate(entity);\n\n// Flush the session to persist changes\nsession.Flush();

@@ -1,0 +1,1 @@
+SELECT dbo.YearFrac('2005-01-01', '2005-12-31', 0) AS YearFrac

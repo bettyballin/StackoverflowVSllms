@@ -1,0 +1,1 @@
+// Example of multi-column sorting with Ag-Grid\nconst columnDefs = [\n  { field: 'status', sortable: true },\n  { field: 'priority', sortable: true, sort: 'desc' },\n  { field: 'date', sortable: true, sort: 'asc' }\n];\n\nnew agGrid.Grid(eGridDiv, {\n  columnDefs: columnDefs,\n  rowData: yourData,\n  defaultColDef: {\n    sortable: true\n  }\n});

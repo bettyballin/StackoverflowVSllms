@@ -1,0 +1,1 @@
+wmic logicaldisk where "DeviceID='W:'" get ProviderName

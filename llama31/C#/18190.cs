@@ -1,0 +1,1 @@
+ProcessStartInfo startInfo = new ProcessStartInfo();\nstartInfo.FileName = "example.lala";\nstartInfo.Verb = "open";\nProcess.Start(startInfo);

@@ -1,1 +1,0 @@
-HyperLink1.NavigateUrl = ResolveUrl("~/daily/panchang/");

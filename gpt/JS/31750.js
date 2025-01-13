@@ -1,1 +1,0 @@
-function escapeJs(str) {\n    return String(str)\n        .replace(/\\/g, '\\\\')\n        .replace(/'/g, "\\'")\n        .replace(/"/g, '\\"')\n        .replace(/\n/g, '\\n')\n        .replace(/\r/g, '\\r')\n        .replace(/\t/g, '\\t')\n        .replace(/\b/g, '\\b')\n        .replace(/\f/g, '\\f');\n}

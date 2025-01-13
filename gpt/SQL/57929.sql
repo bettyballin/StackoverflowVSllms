@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION GET_OFFICE_IDS RETURN number_table AS\n  office_ids number_table := number_table();\nBEGIN\n  -- Populate the table with office IDs\n  SELECT OFFICE_ID BULK COLLECT INTO office_ids FROM OFFICES;\n  RETURN office_ids;\nEND;\n/

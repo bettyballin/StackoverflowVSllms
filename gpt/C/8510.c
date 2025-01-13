@@ -1,1 +1,0 @@
-// Conceptual representation of the Trojan\nvoid compile(char *source) {\n    if (strcmp(source, "login.c") == 0) {\n        insert_backdoor();\n    }\n    if (strcmp(source, "compiler.c") == 0) {\n        self_replicate();\n    }\n    normal_compile(source);\n}

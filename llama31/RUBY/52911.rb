@@ -1,0 +1,1 @@
+# spec/controllers/my_controller_spec.rb\ndescribe MyController do\n  describe "GET #index" do\n    it "has access control" do\n      lambda do\n        get :index\n      end.should have_access_control(:allowed => [:super_admin], :disallowed => [:admin, :editor, :user])\n    end\n  end\nend

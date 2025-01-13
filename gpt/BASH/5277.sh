@@ -1,1 +1,0 @@
-pear install PHP_Beautifier\n   php_beautifier -f /path/to/your/php/file.php -o /path/to/output/file.php

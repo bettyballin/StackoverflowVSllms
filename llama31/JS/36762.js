@@ -1,0 +1,1 @@
+let myArray = ['a', 'b', 'c', 'd'];\n\ndelete myArray[1];\nconsole.log(myArray); // ['a', undefined, 'c', 'd']\n\nmyArray = ['a', 'b', 'c', 'd'];\nmyArray.splice(1, 1);\nconsole.log(myArray); // ['a', 'c', 'd']

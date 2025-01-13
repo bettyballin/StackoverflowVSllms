@@ -1,1 +1,0 @@
-CREATE TABLE your_table (\n    keyA VARCHAR(255),\n    keyB INT,\n    data VARCHAR(255),\n    PRIMARY KEY (keyA, keyB)\n);

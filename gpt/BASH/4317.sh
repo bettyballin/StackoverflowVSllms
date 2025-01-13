@@ -1,1 +1,0 @@
-xtrabackup --copy-back --target-dir=/path/to/backup/

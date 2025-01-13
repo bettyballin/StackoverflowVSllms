@@ -1,1 +1,0 @@
-WITH CTE AS (\n    SELECT \n        ID, \n        Name, \n        InsertedDate,\n        ROW_NUMBER() OVER (PARTITION BY ID ORDER BY InsertedDate DESC) AS RowNum\n    FROM dbo.TestTable\n)\nDELETE FROM dbo.TestTable\nWHERE ID IN (\n    SELECT ID FROM CTE WHERE RowNum > 1\n);

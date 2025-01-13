@@ -1,1 +1,0 @@
-#define PASTE(a, b) a##b\n#define _ PASTE(-F<00||--F-OO--,)\n\n// Usage\n_-_-_

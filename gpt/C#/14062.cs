@@ -1,1 +1,0 @@
-static void Main(string[] args)\n{\n    Player a = new A();\n    Player b = new B();\n\n    if (a.Power > b.Power)\n        Console.WriteLine("C# won");\n    else if (a.Power < b.Power)\n        Console.WriteLine("VB won");\n    else\n        Console.WriteLine("Tie");\n}

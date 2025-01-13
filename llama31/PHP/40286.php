@@ -1,0 +1,1 @@
+$descriptorspec = array(\n    0 => array("pipe", "r"),  // stdin\n    1 => array("pipe", "w"),  // stdout\n    2 => array("pipe", "w")   // stderr\n);\n\n$process = proc_open($command, $descriptorspec, $pipes);\n\nif (is_resource($process)) {\n    $output = stream_get_contents($pipes[1]);\n    fclose($pipes[1]);\n    $return_value = proc_close($process);\n    echo $output;\n}

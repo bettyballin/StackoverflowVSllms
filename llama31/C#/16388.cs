@@ -1,0 +1,1 @@
+// Assume we have a controller named 'MyController' with an action 'GetData'\npublic class MyController : Controller\n{\n    [HttpGet]\n    public JsonResult GetData()\n    {\n        // Sample data\n        var data = new { Name = "John Doe", Age = 30 };\n\n        // Return JSON data\n        return Json(data, JsonRequestBehavior.AllowGet);\n    }\n}

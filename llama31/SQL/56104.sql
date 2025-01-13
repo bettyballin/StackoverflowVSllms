@@ -1,0 +1,1 @@
+select * from table \nwhere col1 is not 'blah' and col2 = 'something'

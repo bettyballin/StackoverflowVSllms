@@ -1,1 +1,0 @@
-char* createString() {\n       char* str = malloc(100 * sizeof(char));\n       // Initialize str\n       return str;\n   }

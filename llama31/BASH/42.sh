@@ -1,0 +1,1 @@
+sudo auditctl -w /var/log/auth.log -k SSH_LOGIN

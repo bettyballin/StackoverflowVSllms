@@ -1,0 +1,1 @@
+var comObject = new ComObject();\nvar wrapper = new ComObjectWrapper(comObject);\n\nwrapper.UseComObject(comObj => comObj.DoSomething());\nwrapper.UseComObject(comObj => comObj.DoSomethingElse());

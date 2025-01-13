@@ -1,0 +1,1 @@
+class Program\n{\n    static void Main(string[] args)\n    {\n        Console.CancelKeyPress += Console_CancelKeyPress;\n\n        // Your application code here\n    }\n\n    static void Console_CancelKeyPress(object sender, ConsoleCancelEventArgs e)\n    {\n        Console.WriteLine("Interrupted. Exiting...");\n        // Perform any necessary cleanup here\n    }\n}

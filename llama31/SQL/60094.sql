@@ -1,0 +1,1 @@
+SELECT * FROM my_table WHERE CONTAINS(my_column, 'search_term') > 0;

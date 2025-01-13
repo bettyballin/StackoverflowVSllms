@@ -1,1 +1,0 @@
-// After user login in CodeIgniter\n        $token = JWT::encode(['sub' => $user->id, 'iat' => time(), 'exp' => time() + 3600], env('JWT_SECRET'));\n        setcookie('forum_token', $token, time() + 3600, '/', '', false, true);

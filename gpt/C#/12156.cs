@@ -1,1 +1,0 @@
-// Step 1: Get the items with the specified tag text\nvar itemsWithTags = db.Items\n    .Where(i => i.Tags.Any(t => t.Text == text))\n    .OrderByDescending(i => i.CreatedDate)\n    .ToList();\n\n// Step 2: Load the Tags relation for the filtered items\ndb.Entry(itemsWithTags).Collection(i => i.Tags).Load();

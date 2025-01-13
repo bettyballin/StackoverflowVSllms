@@ -1,0 +1,1 @@
+import itertools\n\na = set((1, 2, 3))\nb = set((2, 3, 5))\nunion = set()\nfor el in itertools.chain(a, b):\n    union.add(el)

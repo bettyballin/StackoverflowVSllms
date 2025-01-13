@@ -1,1 +1,0 @@
-SELECT t1.user, t1.data, t1.sequence\nFROM actions t1\nJOIN (\n    SELECT user, MAX(sequence) AS max_sequence\n    FROM actions\n    GROUP BY user\n) t2 ON t1.user = t2.user AND t1.sequence = t2.max_sequence;

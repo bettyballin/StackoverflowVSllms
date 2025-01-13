@@ -1,0 +1,1 @@
+<template xmlns="http://java.sun.com/jsf/html">\n  <div class="my-input-text">\n    <label for="#{id}">#{label}</label>\n    <input type="text" id="#{id}" name="#{name}" value="#{value}"/>\n  </div>\n</template>

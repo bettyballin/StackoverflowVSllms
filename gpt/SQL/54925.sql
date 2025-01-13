@@ -1,1 +1,0 @@
-SELECT TO_CHAR(your_timestamp_column, 'DD-MON-RR HH.MI.SS.FF AM TZR') FROM your_table;

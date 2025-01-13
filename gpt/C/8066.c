@@ -1,1 +1,0 @@
-int interpret(node)\n{\n    switch(node) {\n        case PLUS:\n             return interpret(child(0)) + interpret(child(1));\n        case MINUS:\n             return interpret(child(0)) - interpret(child(1));       \n    }\n}

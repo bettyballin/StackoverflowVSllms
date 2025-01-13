@@ -1,0 +1,1 @@
+CREATE PROCEDURE sprocGetArticles\nAS\nBEGIN\n    SELECT \n        a.*,\n        COALESCE(c.comment_count, 0) AS comment_count\n    FROM \n        articles a\n        LEFT JOIN (\n            SELECT articleid, COUNT(*) AS comment_count\n            FROM comments\n            GROUP BY articleid\n        ) c ON a.articleid = c.articleid\nEND

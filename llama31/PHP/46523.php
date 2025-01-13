@@ -1,0 +1,1 @@
+<?php\nini_set('magic_quotes_gpc', 'Off');\nini_set('magic_quotes_runtime', 'Off');\n?>

@@ -1,0 +1,1 @@
+ssh remotemachine -f -o 'ExitOnForwardFailure=yes' 'tail -f logfile'

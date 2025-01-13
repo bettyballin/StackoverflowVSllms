@@ -1,1 +1,0 @@
-chmod +x manage_process.sh

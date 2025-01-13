@@ -1,0 +1,1 @@
+[HttpPost]\npublic ActionResult MyAction(MyModel model)\n{\n    // model.Items will be populated with the values from the form\n}

@@ -1,0 +1,1 @@
+If PropertiesBindingSource.HasErrors Then\n    ' Handle the errors here\nEnd If

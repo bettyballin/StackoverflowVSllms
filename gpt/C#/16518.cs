@@ -1,1 +1,0 @@
-protected void SubmitButton_Click(object sender, EventArgs e)\n{\n    string input = userInput.Text;\n    // Process the input value\n    Response.Write("User input: " + input);\n}

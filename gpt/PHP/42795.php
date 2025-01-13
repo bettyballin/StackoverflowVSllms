@@ -1,1 +1,0 @@
-if (apcu_exists('decision_tree')) {\n        $tree = apcu_fetch('decision_tree');\n    } else {\n        $tree = createDecisionTree(); // Your function to create the tree\n        apcu_store('decision_tree', $tree);\n    }

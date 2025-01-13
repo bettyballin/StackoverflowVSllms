@@ -1,0 +1,1 @@
+int main() {\n    // Example list of addresses\n    std::vector<uint64_t> addresses = {0x10000000, 0x20000000, 0x30000000};\n\n    // Calculate the hash\n    uint64_t hash = fnv1a_hash(addresses);\n\n    // Use the hash to identify the stack frame\n    // ...\n\n    return 0;\n}

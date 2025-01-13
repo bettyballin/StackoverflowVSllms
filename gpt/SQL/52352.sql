@@ -1,1 +1,0 @@
-SELECT \n    c.id AS courseId,\n    CASE \n        WHEN COUNT(i.instructor) = 1 THEN MAX(i.instructor)\n        WHEN COUNT(i.instructor) = 2 THEN CONCAT(MIN(i.instructor), ' ', MAX(i.instructor))\n        ELSE 'Committee'\n    END AS instructors\nFROM \n    courses c\nLEFT JOIN \n    instructors i ON c.id = i.courseId\nGROUP BY \n    c.id;

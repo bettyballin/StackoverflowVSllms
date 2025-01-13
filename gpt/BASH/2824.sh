@@ -1,1 +1,0 @@
-setspn -A <service_class>/<hostname>:<port> <service_account>

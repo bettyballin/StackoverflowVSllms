@@ -1,0 +1,1 @@
+const User = Backbone.Model.extend({\n  defaults: {\n    id: '',\n    name: '',\n    email: ''\n  }\n});\n\nconst Users = Backbone.Collection.extend({\n  model: User,\n  url: '/users'\n});\n\nconst users = new Users();\nusers.fetch();

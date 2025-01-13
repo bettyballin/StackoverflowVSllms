@@ -1,1 +1,0 @@
-./configure --with-apxs2=/usr/sbin/apxs --with-iconv=shared,/usr

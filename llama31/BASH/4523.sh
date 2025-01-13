@@ -1,0 +1,1 @@
+sudo grep 'too many connections' /var/log/mysql/error.log

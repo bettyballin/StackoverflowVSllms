@@ -1,0 +1,1 @@
+SET @year = 2009;\n\nSELECT \n  country,\n  SUM(IF(MONTH(`when`) = 1, 1, 0)) AS Jan,\n  SUM(IF(MONTH(`when`) = 2, 1, 0)) AS Feb,\n  SUM(IF(MONTH(`when`) = 3, 1, 0)) AS Mar,\n  ...\n  SUM(IF(MONTH(`when`) = 12, 1, 0)) AS Dec\nFROM \n  metrics\nWHERE \n  projID = 'projID' \n  AND country != 'XX' \n  AND YEAR(`when`) = @year\nGROUP BY \n  country

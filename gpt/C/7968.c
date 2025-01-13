@@ -1,1 +1,0 @@
-sequence = (char **)malloc(sizeof(char *) * seqNum);

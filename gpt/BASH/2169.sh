@@ -1,1 +1,0 @@
-chmod 600 /path/to/db_config.conf

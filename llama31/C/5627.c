@@ -1,0 +1,1 @@
+int detect_prm(Param prm) {\n  int prm_arr[3];\n\n  prm_arr[0] = prm.field1;\n  prm_arr[1] = prm.field2;\n  prm_arr[2] = prm.field3;\n\n  return 0;\n}

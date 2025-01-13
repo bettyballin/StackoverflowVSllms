@@ -1,1 +1,0 @@
-WinMergeU.exe c:\server1_iis_config.xml c:\server2_iis_config.xml

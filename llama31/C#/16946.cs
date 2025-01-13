@@ -1,0 +1,1 @@
+listQuery.SetParameter(0, null, NHibernateUtil.Int32);\nlistQuery.SetParameter(1, null, NHibernateUtil.DateTime);\nlistQuery.SetParameter(2, null, NHibernateUtil.String);

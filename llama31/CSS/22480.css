@@ -1,0 +1,1 @@
+.responsive-table {\n  table-layout: fixed;\n  width: 100%;\n}\n\n.responsive-table td {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}

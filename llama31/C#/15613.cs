@@ -1,0 +1,1 @@
+using System.Data.Entity;\n\n// Example of using Entity Framework (ORM) to interact with the database\npublic class MyDbContext : DbContext\n{\n    public DbSet<MyEntity> MyEntities { get; set; }\n}\n\npublic class MyEntity\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n}

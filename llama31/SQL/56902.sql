@@ -1,0 +1,1 @@
+SELECT \n  COUNT(*) AS num_transactions,\n  AVG(amount) AS avg_amount\nFROM \n  transactions\nGROUP BY \n  DATE(created)\nORDER BY \n  num_transactions ASC;

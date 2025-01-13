@@ -1,1 +1,0 @@
-string schema = ConfigurationManager.AppSettings["SchemaName"];\nstring query = $"SELECT ID, NAME FROM {schema}.MyTempTable WHERE ID IN (10780, 10760, 11890)";

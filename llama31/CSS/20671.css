@@ -1,0 +1,1 @@
+.moving-div {\n  width: 100%;\n  height: 100px;\n  animation: move-left 10s linear infinite;\n}\n\n@keyframes move-left {\n  0% {\n    transform: translateX(0);\n  }\n  100% {\n    transform: translateX(-7000px);\n  }\n}

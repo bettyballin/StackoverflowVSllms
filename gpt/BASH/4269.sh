@@ -1,1 +1,0 @@
-@echo off\nsetlocal\n\nset DLL_PATH="C:\path\to\your\FastImage.dll"\n\ndel %DLL_PATH%\nif exist %DLL_PATH% (\n    echo Failed to delete %DLL_PATH%\n    exit /b 1\n) else (\n    echo Successfully deleted %DLL_PATH%\n)\n\nendlocal

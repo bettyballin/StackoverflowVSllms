@@ -1,0 +1,1 @@
+RESTORE DATABASE FROM TAG 'Sunday_Full_Backup';

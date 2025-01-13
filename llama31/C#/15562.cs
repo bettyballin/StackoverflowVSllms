@@ -1,0 +1,1 @@
+using DirectoryServices.Linq;\n\n// Create a new DirectoryContext\nvar context = new DirectoryContext("LDAP://dc=example,dc=com");\n\n// Query the directory\nvar users = from user in context.Users\n            where user.Department == "Sales"\n            select user;\n\n// Iterate over the results\nforeach (var user in users)\n{\n    Console.WriteLine(user.DisplayName);\n}

@@ -1,0 +1,1 @@
+uint32_t argb = (255 << 24) | (rgb & 0x00FFFFFF);

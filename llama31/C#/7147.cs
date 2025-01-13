@@ -1,0 +1,1 @@
+using Microsoft.Office.Interop.Word;\n\n// ...\n\nRange range = document.Range();\nstring htmlText = "<b>This text is bold</b> and <i>this text is italic</i>";\nrange.InsertHtml(htmlText);

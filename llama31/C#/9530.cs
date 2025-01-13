@@ -1,0 +1,1 @@
+using System.Web;\n\nstring filename = "example.txt";\nstring mimeType = MimeMapping.GetMimeMapping(filename);\n\nConsole.WriteLine(mimeType); // Output: text/plai

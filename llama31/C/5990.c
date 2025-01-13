@@ -1,0 +1,1 @@
+OCIStmt* stmt;\nOCISession* sess;\nOCIError* err;\n\n// ... initialize statement and session handles ...\n\n// Set the timeout to 10 seconds\nub4 timeout = 10;\nOCIAttrSet(stmt, OCI_HTYPE_STMT, &timeout, sizeof(timeout), OCI_ATTR_STMT_TIMEOUT, err);\n\n// Execute the statement\nOCIStmtExecute(sess, stmt, err, 1, 0, NULL, NULL, OCI_DEFAULT);

@@ -1,0 +1,1 @@
+svnadmin downgrade /path/to/repository

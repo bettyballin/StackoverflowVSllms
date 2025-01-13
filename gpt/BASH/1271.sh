@@ -1,1 +1,0 @@
-30 2 * * * /usr/bin/php /path/to/your/zend/app/public/cron_task.php

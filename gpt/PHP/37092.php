@@ -1,1 +1,0 @@
-<?php\nnamespace String;\n\nfunction match($string1, $string2)\n{\n    // Function definition\n}\n\nnamespace {\n\nfunction globalFunction()\n{\n    // Function definition in the global namespace\n}\n}\n?>

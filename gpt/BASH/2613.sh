@@ -1,1 +1,0 @@
-db2 -tvf EXPLAIN.DDL

@@ -1,0 +1,1 @@
+// client-side JavaScript\nfunction updateContent() {\n  $.ajax({\n    type: 'GET',\n    url: 'update.asp',\n    async: true,\n    cache: false,\n    timeout: 60000, // 1 minute\n    success: function(data) {\n      document.getElementById('myDiv').innerHTML = data;\n      updateContent(); // recursive call\n    }\n  });\n}\nupdateContent();

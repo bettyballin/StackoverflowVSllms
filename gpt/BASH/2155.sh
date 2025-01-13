@@ -1,1 +1,0 @@
-del /F /S /Q "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files\root\*"

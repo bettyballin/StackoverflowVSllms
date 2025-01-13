@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetPeopleFromGroupRecords\nAS\nBEGIN\n  SELECT DISTINCT p.Name, p.Bio, p.Location\n  FROM People p\n  INNER JOIN GroupRecords gr ON p.GroupRecordsId = gr.Id\n  WHERE gr.SchoolYear = '2000'\n  AND gr.Id = (\n    SELECT TOP 1 Id\n    FROM GroupRecords\n    WHERE SchoolYear = '2000'\n    AND People.Name = p.Name\n    ORDER BY RecordDate DESC\n  )\nEND\nGO

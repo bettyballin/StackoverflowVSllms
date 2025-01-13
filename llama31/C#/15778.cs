@@ -1,0 +1,1 @@
+@using (Html.BeginForm("ActionName", "ControllerName", FormMethod.Post, new { id = "myForm" }))\n{\n    // Your form fields here\n    <button type="submit">Submit</button>\n}

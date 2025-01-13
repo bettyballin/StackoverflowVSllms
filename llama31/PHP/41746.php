@@ -1,0 +1,1 @@
+require_once 'PHPMimeType.php';\n\n$mimeType = PHPMimeType::getMimeType($filePath);

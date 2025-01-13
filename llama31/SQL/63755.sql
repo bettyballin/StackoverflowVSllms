@@ -1,0 +1,1 @@
+CREATE TABLE worksheet_name (\n  column1 TEXT,\n  column2 INTEGER,\n  column3 DATE\n)

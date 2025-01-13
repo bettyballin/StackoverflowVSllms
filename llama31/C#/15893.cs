@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    string s = string.Format("showConfirm(this,'{0}','{1}');return false;", ConfirmDialog1.FindControl("theButton").ClientID, ConfirmDialog1.FindControl("div").ClientID);\n    ConfirmDialog1.SetButtonClientClick("Button1", s);\n}

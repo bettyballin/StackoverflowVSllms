@@ -1,0 +1,1 @@
+$data = array(...);\necho json_encode($data);

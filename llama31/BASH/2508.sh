@@ -1,0 +1,1 @@
+openssl x509 -in root_certificate.pem -text | grep "Certificate Class"

@@ -1,1 +1,0 @@
-<property name="query.plan_cache_max_size">128</property>\n<property name="query.plan_cache_max_soft_references">32</property>

@@ -1,0 +1,1 @@
+SELECT fruit.id, fruit.name\nFROM fruit\nWHERE fruit.id NOT IN (\n  SELECT fruit_id FROM fruit_rating WHERE user_id = 10\n)

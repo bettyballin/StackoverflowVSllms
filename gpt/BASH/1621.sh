@@ -1,1 +1,0 @@
-#!/bin/bash\n\nhosts=("host1" "host2" "host3")\ncommand="your_command_here"\n\nfor host in "${hosts[@]}"; do\n  echo "Running command on $host..."\n  ssh user@$host "$command"\ndone

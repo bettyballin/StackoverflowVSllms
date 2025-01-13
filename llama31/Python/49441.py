@@ -1,0 +1,1 @@
+from PIL import Image\n\n# Open the image file\nimg = Image.open('image.png')\n\n# Resize the image to 128x128 pixels\nimg = img.resize((128, 128))\n\n# Save the resized image\nimg.save('resized_image.png')

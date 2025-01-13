@@ -1,0 +1,1 @@
+$current_time = date('D j M Y, G:ia');\necho $current_time;

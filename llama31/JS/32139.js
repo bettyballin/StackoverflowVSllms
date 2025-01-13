@@ -1,0 +1,1 @@
+// Get all table rows\nvar rows = $$('table tr');\n\n// Add event listeners to each row\nrows.each(function(row) {\n  row.observe('mouseover', function() {\n    row.addClassName('highlight');\n  });\n  row.observe('mouseout', function() {\n    row.removeClassName('highlight');\n  });\n});

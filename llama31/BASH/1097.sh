@@ -1,0 +1,1 @@
+ps -o stat= -p <PID>

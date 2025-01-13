@@ -1,0 +1,1 @@
+ProcessStartInfo startInfo = new ProcessStartInfo();\nstartInfo.FileName = @"C:\Path\To\java.exe";\nstartInfo.Arguments = @"-Xmx1024m -cp ./../libs/*;l2jserver.jar net.sf.l2j.gameserver.GameServer";\nstartInfo.RedirectStandardOutput = true;\nstartInfo.RedirectStandardError = true;\n\nProcess javaProcess = Process.Start(startInfo);

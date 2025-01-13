@@ -1,0 +1,1 @@
+$person = new Person();\n$person->name = "John";\necho $person->name;  // outputs "John"\n\n$person->sayHello();  // calls the sayHello() method on the $person object

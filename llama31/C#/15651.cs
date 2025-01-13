@@ -1,0 +1,1 @@
+IEnumerable<T> items = new T[] { new T("msg") };\nitems = items.Concat(new[] { new T("msg2") });

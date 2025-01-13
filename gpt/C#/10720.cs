@@ -1,1 +1,0 @@
-helpProvider.HelpNamespace = "path_to_your_help_file.chm"

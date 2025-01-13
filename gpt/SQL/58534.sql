@@ -1,1 +1,0 @@
-INSERT INTO my_table (uuid, column1, column2, last_synced) VALUES (?, ?, ?, CURRENT_TIMESTAMP);\nINSERT INTO changelog (uuid, change_type) VALUES (?, 'insert');

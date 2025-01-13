@@ -1,0 +1,1 @@
+SELECT Column1, Column2, NZ(Column3, 0) + NZ(Column4, 0) AS [Added Values]\nFROM Table

@@ -1,0 +1,1 @@
+air_install.exe --appdir "C:\Users\<username>\AppData\Local\YourApp" "your_app.air"

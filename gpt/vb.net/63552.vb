@@ -1,1 +1,0 @@
-Dim contractText As String = "blah blah blah... on {0}... blah blah blah"\nDim contractDate As DateTime = New DateTime(2009, 1, 12)\nDim formattedText As String = String.Format(contractText, contractDate.ToString("MMM dd, yyyy"))\nConsole.WriteLine(formattedText)

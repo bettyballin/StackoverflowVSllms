@@ -1,1 +1,0 @@
-public static async Task Main(string[] args)\n{\n    var client = new AsyncSocketClient();\n    await client.StartClient("127.0.0.1", 11000);\n    await client.SendPacketAsync("Hello, World!");\n    client.Close();\n}

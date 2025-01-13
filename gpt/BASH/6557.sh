@@ -1,1 +1,0 @@
-perl list_deps.pl > required-modules

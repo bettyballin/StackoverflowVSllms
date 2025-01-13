@@ -1,0 +1,1 @@
+CREATE PROCEDURE MyProcedure\n    @RowsAffected INT OUTPUT\nAS\nBEGIN\n    -- Your insert, update or delete statement here\n    INSERT INTO MyTable (Column1, Column2)\n    VALUES ('Value1', 'Value2');\n\n    -- Set the output parameter\n    SET @RowsAffected = @@ROWCOUNT;\nEND

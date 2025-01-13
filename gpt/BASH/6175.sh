@@ -1,1 +1,0 @@
-diff-pdf --output-diff=diff.pdf previous_month.pdf current_month.pdf

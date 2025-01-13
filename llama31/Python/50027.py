@@ -1,0 +1,1 @@
+# Before obfuscation\ndef my_function():\n    print("Hello, World!")\n\n# After obfuscation (example using PyMinifier)\ndef _00000000():\n    print("Hello, World!")

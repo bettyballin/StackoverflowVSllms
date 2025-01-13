@@ -1,0 +1,1 @@
+CREATE TABLE app_config (\n  id INT PRIMARY KEY,\n  sales_tax_rate DECIMAL(4, 2) NOT NULL,\n  api_key VARCHAR(255) NOT NULL\n);\n\nINSERT INTO app_config (id, sales_tax_rate, api_key)\nVALUES (1, 8.25, 'your_api_key_here');

@@ -1,1 +1,0 @@
-pdfjam --paper a4paper rfc1234.pdf -o rfc1234_a4.pdf

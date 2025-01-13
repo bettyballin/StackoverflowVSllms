@@ -1,1 +1,0 @@
-<?php\nif (isset($this->tempFilePath)) {\n    echo '<p>File uploaded: ' . basename($this->tempFilePath) . '</p>';\n    echo '<input type="hidden" name="tempFilePath" value="' . $this->tempFilePath . '" />';\n}\necho $this->form;\n?>

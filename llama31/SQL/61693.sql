@@ -1,0 +1,1 @@
+ALTER PROCEDURE [dbo].[FileUploadAsyncWorker]\nWITH EXECUTE AS SELF\nAS\nBEGIN\n    -- stored procedure code here\nEND

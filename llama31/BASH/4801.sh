@@ -1,0 +1,1 @@
+openssl enc -aes-256-cbc -in input.xml -out encrypted.xml -pass pass:mysecretpassword

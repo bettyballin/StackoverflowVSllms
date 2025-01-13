@@ -1,0 +1,1 @@
+#mySelect {\n  width: 200px;\n  height: 100px;\n  padding: 10px;\n  border: 1px solid #ccc;\n  border-radius: 5px;\n  overflow-y: auto;\n}\n\n#mySelect option {\n  padding: 5px;\n  margin: 5px;\n}\n\n#mySelect option:checked {\n  background-color: #f0f0f0;\n}

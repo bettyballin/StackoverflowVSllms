@@ -1,1 +1,0 @@
-<configuration>\n        ...\n        <applicationSettings configSource="appSettings.config" inheritInChildApplications="false" />\n    </configuration>

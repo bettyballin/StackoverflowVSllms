@@ -1,0 +1,1 @@
+// Google Maps API script tag\n<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>\n\n// JSONP callback function\nfunction callback(data) {\n  // Process the data from the Google Maps API\n  console.log(data);\n}\n\n// Request to the Google Maps API server\nscript.src = 'https://maps.googleapis.com/maps/api/js/jsonp?callback=callback';

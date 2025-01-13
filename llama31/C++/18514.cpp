@@ -1,0 +1,1 @@
+// Create an instance of the COM object\n    IUnknown* pUnknown = NULL;\n    hr = pClassFactory->CreateInstance(NULL, IID_IUnknown, (void**)&pUnknown);\n    if (FAILED(hr)) {\n        // Handle failure\n        pClassFactory->Release();\n        CoUninitialize();\n        return 1;\n    }\n\n    // Release the class factory\n    pClassFactory->Release();

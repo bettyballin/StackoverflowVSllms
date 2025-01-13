@@ -1,0 +1,1 @@
+function onPageMethodCallback(response) {\n    var customObject = $.parseJSON(response.d);\n    // access properties like customObject.propertyName\n    // update DOM using jQuery\n}

@@ -1,0 +1,1 @@
+ini_set('xdebug.remote_autostart', 1);

@@ -1,0 +1,1 @@
+private void UpdateLabelText(string newText)\n{\n    if (this.label1.InvokeRequired)\n    {\n        this.label1.Invoke((MethodInvoker)delegate { this.label1.Text = newText; });\n    }\n    else\n    {\n        this.label1.Text = newText;\n    }\n}

@@ -1,0 +1,1 @@
+$.ajax({\n  // your ajax settings here...\n  success: function(data) {\n    console.log(JSON.stringify(data, null, 2));\n  }\n});

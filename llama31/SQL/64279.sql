@@ -1,0 +1,1 @@
+CREATE REPLICATION SLAVE 'slave_user'@'%' IDENTIFIED BY 'slave_password';

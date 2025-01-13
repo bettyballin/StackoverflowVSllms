@@ -1,0 +1,1 @@
+$htmlOutput = array();\nexec('c:/path/to/exe/launchMe.exe hey lol hi', $htmlOutput);\necho implode('<br />', $htmlOutput);

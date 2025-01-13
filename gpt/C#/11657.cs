@@ -1,1 +1,0 @@
-// Example in an ASP.NET MVC controller\npublic class SessionController : Controller\n{\n    [HttpPost]\n    [Authorize]\n    public ActionResult ExtendSession()\n    {\n        // This method can be empty or contain logic to extend the session\n        return Json(new { success = true });\n    }\n}

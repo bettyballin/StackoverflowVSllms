@@ -1,1 +1,0 @@
-#include <stdio.h>\n\n// Regular function declaration\nint add(int a, int b) {\n    return a + b;\n}\n\nint main() {\n    int result = add(5, 3);\n    printf("Result: %d\n", result);\n    return 0;\n}

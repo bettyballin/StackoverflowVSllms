@@ -1,1 +1,0 @@
-sudo yum install python26 python26-libs python26-devel

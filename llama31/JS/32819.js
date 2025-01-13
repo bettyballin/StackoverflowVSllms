@@ -1,0 +1,1 @@
+var plugin = navigator.plugins["Plugin Name"];\nif (plugin) {\n    // plugin is installed\n}

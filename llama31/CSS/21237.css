@@ -1,0 +1,1 @@
+button.submit {\n  background: #F99;\n  font-size: 3em;\n}\n\nbutton.submit:focus {\n  background: #FFF;\n  color: #F99;\n}\n\nbutton.submit:active {\n  background: #CCC;\n  color: #333;\n}

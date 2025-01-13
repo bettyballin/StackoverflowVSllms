@@ -1,0 +1,1 @@
+runas /user:administrator "powershell -File C:\path\to\script.ps1"

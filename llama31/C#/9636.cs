@@ -1,0 +1,1 @@
+try\n{\n    // some code that throws an exception\n}\ncatch (IndexOutOfRangeException ex)\n{\n    // log the exception\n    throw; // rethrow the exception\n}

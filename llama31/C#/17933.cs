@@ -1,0 +1,1 @@
+using System.Security.Cryptography;\nusing System.Security.Cryptography.X509Certificates;\n\n// ...\n\nSHA1Managed sha1 = new SHA1Managed();\nbyte[] hash = sha1.ComputeHash(certificatEnCours.RawData);\n\nstring thumbprint = certificatEnCours.Thumbprint;\nbyte[] expectedHash = Convert.FromHexString(thumbprint);\n\nbool verif = expectedHash.SequenceEqual(hash);

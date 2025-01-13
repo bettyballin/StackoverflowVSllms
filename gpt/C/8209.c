@@ -1,1 +1,0 @@
-int main()\n{\n    int i = 0;\n    while (i < 10) ; // Loop does nothing\n    return 0;\n}

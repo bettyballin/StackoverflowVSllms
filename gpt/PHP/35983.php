@@ -1,1 +1,0 @@
-#!/usr/bin/php\n<?php\nset_time_limit(0);\n$stdin = fopen('php://stdin', 'r');\nwhile ($line = fgets($stdin)) {\n    $line = trim($line);\n    // Process the URL here and determine the new destination\n    // For example, redirect all input URLs to www.google.com\n    echo "www.google.com\n";\n}\nfclose($stdin);\n?>

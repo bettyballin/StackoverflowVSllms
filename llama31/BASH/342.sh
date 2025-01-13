@@ -1,0 +1,1 @@
+# Install Alpine Linux base image\napk update\napk upgrade\n\n# Install PHP 5 and MySQL\napk add php5 mysql\n\n# Configure services to start on boot\nrc-update add php5 default\nrc-update add mysql default\n\n# Set a secure password for the root user\npasswd\n\n# Disable root login via SSH (optional)\nsed -i 's/#PermitRootLogin yes/PermitRootLogin no/' /etc/ssh/sshd_config

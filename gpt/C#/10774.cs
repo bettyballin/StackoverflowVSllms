@@ -1,1 +1,0 @@
-using (var context = new MyDbContext())\n{\n    var clients = context.Clients\n        .FromSqlRaw("SELECT Name, Address FROM Clients")\n        .ToList();\n}

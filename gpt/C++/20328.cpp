@@ -1,1 +1,0 @@
-Something<int> intObject(5);   // T is int\nSomething<std::string> stringObject("Hello");  // T is std::string

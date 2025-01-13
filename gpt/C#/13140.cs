@@ -1,1 +1,0 @@
-List<string> list = Enumerable.Repeat("x", 5).ToList();\n// list contains ["x", "x", "x", "x", "x"]

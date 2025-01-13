@@ -1,1 +1,0 @@
-openssl x509 -in mycert.pem -out cert.crt

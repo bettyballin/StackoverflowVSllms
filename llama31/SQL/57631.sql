@@ -1,0 +1,1 @@
+insert into SOMETABLE \n  select 'FieldOneValue','FieldTwoValue',3,4.55,'10/10/2008 16:42:00.000'

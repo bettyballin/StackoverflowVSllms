@@ -1,0 +1,1 @@
+$xml = simplexml_load_string($your_xml_string);\n$last_obj = $xml->list->obj[count($xml->list->obj) - 1];

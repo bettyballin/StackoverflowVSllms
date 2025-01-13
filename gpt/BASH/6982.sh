@@ -1,1 +1,0 @@
-mkdir /mnt/shared

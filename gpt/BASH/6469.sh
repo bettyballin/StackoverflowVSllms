@@ -1,1 +1,0 @@
-gawk -v FPAT='([^,]+)|(\"[^\"]+\")' '\n{\n  for (i=1; i<=NF; i++) {\n    gsub(/^"|"$/, "", $i)  # Remove leading and trailing quotes if any\n    printf "field #%d: %s\n", i, $(i)\n  }\n  printf "---------------------------\n"\n}' filename.csv

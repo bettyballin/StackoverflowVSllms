@@ -1,1 +1,0 @@
-typename vector<T>::iterator i = v.begin();

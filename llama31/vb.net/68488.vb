@@ -1,0 +1,1 @@
+Protected Overrides Sub OnInit(e As EventArgs)\n    MyBase.OnInit(e)\n\n    Validator = New MyValidator()\n    Me.Controls.Add(Validator)\n\n    Validator.ID = "MyValidatorID"\n    Validator.ControlToValidate = FooControl.ID\n    Validator.IsRequired = True\n    Validator.ErrorMessage = "Please select an answer"\nEnd Sub

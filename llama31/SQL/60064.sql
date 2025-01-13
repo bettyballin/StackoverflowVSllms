@@ -1,0 +1,1 @@
+SELECT * FROM property_owners\nWHERE CONTAINS(first_name || ' ' || last_name, 'smith') > 0\nUNION ALL\nSELECT * FROM property_details\nWHERE CONTAINS(address, 'smith') > 0;

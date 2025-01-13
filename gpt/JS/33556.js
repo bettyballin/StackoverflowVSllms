@@ -1,1 +1,0 @@
-$.ajax({\n  type: "POST",\n  url: "/relative/path/to/file.php",  // Adjust this to the correct URL path\n  data: theData,\n  success: function() {\n    $('div#success').fadeIn('fast');\n  },\n  error: function(xhr, status, error) {\n    console.log("An error occurred: " + error);\n  }\n});

@@ -1,0 +1,1 @@
+function latLongToXY($lat, $long, $mapWidth, $mapHeight) {\n  $x = ($long + 180) * ($mapWidth / 360);\n  $y = (90 - $lat) * ($mapHeight / 180);\n  return array($x, $y);\n}

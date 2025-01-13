@@ -1,1 +1,0 @@
-using System;\nusing System.Web.UI;\n\npublic partial class _Default : Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        if (!IsPostBack)\n        {\n            // Example of stable, mature code\n            Label1.Text = "Welcome to Classic WebForms!";\n        }\n    }\n}

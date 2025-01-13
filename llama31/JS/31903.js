@@ -1,0 +1,1 @@
+$.ajax({\n    //...\n    error: function(xhr, status, error) {\n        console.log('Error occurred:', error);\n    }\n});

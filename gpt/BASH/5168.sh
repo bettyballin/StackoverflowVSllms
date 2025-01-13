@@ -1,1 +1,0 @@
-./scripts/get_maintainer.pl -f <path-to-file-you-changed>

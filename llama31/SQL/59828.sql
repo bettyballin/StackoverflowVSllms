@@ -1,0 +1,1 @@
+SELECT model_a.*\nFROM model_a\nJOIN model_a_model_b ON model_a.id = model_a_model_b.model_a_id\nJOIN model_b ON model_a_model_b.model_b_id = model_b.id\nWHERE model_b.id IN (1, 2, 3, 4, 5)  -- replace with your desired ModelB IDs\nGROUP BY model_a.id\nHAVING COUNT(DISTINCT model_b.id) = 5  -- replace with the number of ModelB IDs

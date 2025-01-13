@@ -1,0 +1,1 @@
+struct Point {\n    int x; // orthogonal to y\n    int y; // orthogonal to x\n};

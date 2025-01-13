@@ -1,1 +1,0 @@
-sudo iptables -F\n   sudo iptables -t nat -F\n   sudo iptables -t mangle -F\n   sudo iptables -X

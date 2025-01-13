@@ -1,0 +1,1 @@
+e.Graphics.TextRenderingHint = Drawing.Text.TextRenderingHint.SystemDefault

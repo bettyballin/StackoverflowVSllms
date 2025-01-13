@@ -1,1 +1,0 @@
-// Attach to explorer.exe process\n     // Use "Analyze" -> "Performance Profiler" -> "CPU Usage" or other relevant options

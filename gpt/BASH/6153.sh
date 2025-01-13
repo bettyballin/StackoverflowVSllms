@@ -1,1 +1,0 @@
-openssl pkcs12 -export -in public_key.pem -inkey private_key.pem -out keypair.p12 -name "mykey"

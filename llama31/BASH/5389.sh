@@ -1,0 +1,1 @@
+@echo off\n"C:\Program Files\SASHome\SASFoundation\9.4\sas.exe" -sysin autoexec.sas -SYSIN "%1"

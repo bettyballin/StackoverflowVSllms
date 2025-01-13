@@ -1,0 +1,1 @@
+validates_format_of :nickname, :with => /^[a-zA-Z0-9]+$/, :allow_nil => true

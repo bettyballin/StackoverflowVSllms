@@ -1,1 +1,0 @@
-#pragma GCC diagnostic push\n#pragma GCC diagnostic ignored "-Wdeprecated-declarations"\n\n#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n    char *dir = tempnam(NULL, "prefix");\n    if (dir) {\n        printf("Temporary directory name: %s\n", dir);\n        free(dir);\n    } else {\n        perror("tempnam");\n    }\n    return 0;\n}\n\n#pragma GCC diagnostic pop

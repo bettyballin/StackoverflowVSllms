@@ -1,0 +1,1 @@
+var isIE = /*@cc_on!@*/false || !!document.documentMode;\nif (!isIE) {\n  alert("Please open this link in Internet Explorer for compatibility reasons.");\n}

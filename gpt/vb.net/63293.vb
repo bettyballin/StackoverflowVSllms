@@ -1,1 +1,0 @@
-Dim searchParams As New Dictionary(Of String, String)()\nsearchParams.Add("Country", "USA")\nsearchParams.Add("Region", "California")\nsearchParams.Add("Bedrooms", "3")\nsearchParams.Add("PriceRange", "100000-300000")\n\nDim properties As DataTable = GetProperties(searchParams)

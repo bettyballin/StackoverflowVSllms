@@ -1,1 +1,0 @@
--- glogin.sql\nSET SQLPROMPT '_USER@_CONNECT_IDENTIFIER > '

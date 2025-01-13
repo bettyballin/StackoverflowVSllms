@@ -1,0 +1,1 @@
+sorted_profiles = sorted(Profile.objects.all(), key=lambda p: p.reputation)\nprofile_ids = [p.id for p in sorted_profiles]\nsorted_queryset = Profile.objects.filter(id__in=profile_ids)

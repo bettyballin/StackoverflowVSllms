@@ -1,0 +1,1 @@
+CASE v_n\n  WHEN 1 THEN\n  WHEN 2 THEN\n    dbms_output.put_line('Case 1 or 2');\n  WHEN 3 THEN\n    dbms_output.put_line('Case 3');\nEND CASE;

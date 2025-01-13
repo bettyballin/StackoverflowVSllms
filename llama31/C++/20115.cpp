@@ -1,0 +1,1 @@
+// Native extension example (C/C++)\n#include <windows.h>\n\nextern "C" __declspec(dllexport) void JNICALL\ninitHardware(void)\n{\n    // Initialize hardware here\n}\n\nextern "C" __declspec(dllexport) void JNICALL\nsendCommandToHardware(const char* command)\n{\n    // Send command to hardware here\n}

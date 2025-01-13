@@ -1,1 +1,0 @@
-from sqlalchemy import create_engine\n   from sqlalchemy.orm import sessionmaker\n\n   engine = create_engine('sqlite:///example.db')\n   Session = sessionmaker(bind=engine)\n   session = Session()

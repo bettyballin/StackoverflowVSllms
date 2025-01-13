@@ -1,0 +1,1 @@
+Haml::Options.defaults[:preserve_attribute_order] = true

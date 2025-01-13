@@ -1,0 +1,1 @@
+var intervalId;\n\n$("#id").load("your/url", {\n  beforeSend: function() {\n    intervalId = setInterval(function() {\n      // update your custom throbber here\n      console.log("Updating throbber...");\n    }, 1000);\n  },\n  complete: function() {\n    clearInterval(intervalId);\n    $("#id").html("");\n  }\n});

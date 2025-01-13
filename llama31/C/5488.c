@@ -1,0 +1,1 @@
+short int *array = calloc(1, 1024);\nprintf("Allocated size: %zu\n", sizeof(*array) * 1024);

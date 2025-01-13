@@ -1,0 +1,1 @@
+using System.Web.Security;\n\n// Assuming you have a valid username\nstring username = "usernameToDelete";\n\n// Delete the user\nMembership.DeleteUser(username);

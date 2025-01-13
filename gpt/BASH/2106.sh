@@ -1,1 +1,0 @@
-aspnet_compiler -v /Website1 -p c:\Projects\WebSite -f c:\Deploy\Website1

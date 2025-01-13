@@ -1,0 +1,1 @@
+using (WindowsIdentity.Impersonate(IntPtr.Zero, "", ""))\n{\n    // Access the file here\n}

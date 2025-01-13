@@ -1,0 +1,1 @@
+if (!HttpContext.Current.Request.IsSecureConnection)\n{\n    // redirect to HTTPS\n    string url = HttpContext.Current.Request.Url.ToString().Replace("http:", "https:");\n    HttpContext.Current.Response.Redirect(url);\n}

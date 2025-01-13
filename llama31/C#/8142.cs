@@ -1,0 +1,1 @@
+ServiceHost host = new ServiceHost(typeof(YourService));\nhost.Authorization.ServiceAuthorizationManager = new CustomServiceAuthorizationManager();

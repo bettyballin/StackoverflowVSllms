@@ -1,1 +1,0 @@
-SELECT CONVERT(datetime, SWITCHOFFSET(CONVERT(datetimeoffset, YourDateColumn), DATENAME(TzOffset, SYSDATETIMEOFFSET()))) AS LocalDate\nFROM YourTable

@@ -1,0 +1,1 @@
+def integrate_chatbot_training_data_with_external_apis(data, external_apis):\n    # Integrate data with external APIs\n    integrated_data = integrate_data_with_apis(data, external_apis)\n    return integrated_data

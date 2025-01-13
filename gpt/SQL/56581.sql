@@ -1,1 +1,0 @@
-CREATE TABLE event_resource (\n    event_id INT,\n    resource_id INT,\n    PRIMARY KEY (event_id, resource_id)\n);

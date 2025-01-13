@@ -1,0 +1,1 @@
+define('TABLE_PAGES', 'orweb_pages');

@@ -1,1 +1,0 @@
-<?php\necho "<a href='my.php?action=show&amp;id=".$fid."'\nonclick=\"display('".$fid."'); return false;\">";  \necho "" .$fname."</a>";\n?>

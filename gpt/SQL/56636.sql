@@ -1,1 +1,0 @@
-CREATE TABLE ip_addresses (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    ip_address VARBINARY(16) NOT NULL,\n    masklen TINYINT UNSIGNED\n);

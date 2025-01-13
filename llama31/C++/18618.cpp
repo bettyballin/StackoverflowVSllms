@@ -1,0 +1,1 @@
+// Use the Unicode version of CreateFile\nHANDLE hFile = CreateFileW(L"\\\\?\\UNC\\server\\share\\long\\path\\to\\file.txt", GENERIC_READ, 0, NULL, OPEN_EXISTING, 0, NULL);

@@ -1,0 +1,1 @@
+@echo off\n:: Request admin privileges\nif not "%1"=="am_admin" (powershell start -verb runas '%0' am_admin & exit /b)

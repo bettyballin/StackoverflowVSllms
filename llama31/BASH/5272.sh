@@ -1,0 +1,1 @@
+setx PATH "%ORACLE_HOME_32%\bin;%PATH%"

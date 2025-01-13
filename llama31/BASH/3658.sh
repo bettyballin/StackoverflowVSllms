@@ -1,0 +1,1 @@
+awk '{gsub(/<\/?[^p][^>]*>/, "")}1' your_file.csv > output.csv

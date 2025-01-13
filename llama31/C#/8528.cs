@@ -1,0 +1,1 @@
+using System;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        Console.TreatControlCAsInput = true;\n    }\n}

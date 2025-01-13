@@ -1,0 +1,1 @@
+header('Content-Type: application/pdf');\nheader('Content-Disposition: inline; filename*=UTF-8\'\'' . rawurlencode(basename($file)));\nheader('Content-Transfer-Encoding: binary');\nheader('Content-Length: ' . filesize($file));\nheader('Connection: Close');\nset_time_limit(0);\nreadfile($file);

@@ -1,0 +1,1 @@
+curl --output-encoding utf-8 -o output.html http://example.com/imported/code

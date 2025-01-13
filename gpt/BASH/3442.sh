@@ -1,1 +1,0 @@
-# Find all files containing 'foo' and replace 'foo' with 'bar' in those files\ngrep -rl 'foo' . | while read -r file; do\n  sed -i 's/foo/bar/g' "$file"\ndone

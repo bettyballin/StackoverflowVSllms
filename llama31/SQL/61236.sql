@@ -1,0 +1,1 @@
+IF COALESCE(p_c_courtesies_cd, p_c_language_cd, v_c_name, v_c_firstname, v_c_function, p_c_phone, p_c_mobile, p_c_fax, v_c_email) IS NOT NULL THEN\n    -- Do something\nEND IF;

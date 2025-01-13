@@ -1,0 +1,1 @@
+stream << "test" << make_daytime_string();\nstream.flush(); // Add this line

@@ -1,0 +1,1 @@
+SELECT i.*\nFROM images i\nJOIN productPhotos p ON i.imageID = p.imageID\nWHERE p.productID IN (5, 2, 4)\nORDER BY FIELD(p.productID, 5, 2, 4);

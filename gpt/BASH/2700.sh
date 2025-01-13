@@ -1,1 +1,0 @@
-java -Xmx1024m -Xms1024m -XX:+PrintGCDetails -XX:+PrintGCDateStamps -Xloggc:gc.log -jar yourapp.jar

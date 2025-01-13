@@ -1,0 +1,1 @@
+[HttpGet]\npublic ActionResult Friends()\n{\n    // do some stuff\n    return View();\n}\n\n[HttpPost]\npublic ActionResult Friends(FormCollection collection)\n{\n    // do some stuff\n    return View();\n}

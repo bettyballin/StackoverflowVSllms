@@ -1,0 +1,1 @@
+declare @startDate datetime\ndeclare @endDate datetime\nset @startDate = '2008-01-01'\nset @endDate = '2008-04-01'\n\nselect min(date), max(date) from view_Inspections\nwhere date >= @startDate and date < dateadd(day, 1, @endDate)

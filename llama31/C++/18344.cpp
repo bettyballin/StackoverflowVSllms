@@ -1,0 +1,1 @@
+const int ledPins[] = {9, 10, 11};  // array of LED pins\n\nvoid setup() {\n  Serial.begin(9600);\n}\n\nvoid loop() {\n  for (int i = 0; i < sizeof(ledPins) / sizeof(ledPins[0]); i++) {\n    inout(50, 30, ledPins[i]);\n  }\n}\n\nvoid inout(int inDelay, int outDelay, int ledpin) {\n  // same implementation as before\n}

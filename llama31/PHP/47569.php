@@ -1,0 +1,1 @@
+$randomBytes = random_bytes(128); // 1024-bit\n$hashedString = hash_pbkdf2('sha256', $randomBytes, 'your_salt', 10000, 128);\n$encodedString = base64_encode($hashedString);\n$secureUrl = substr($encodedString, 0, 128); // trim to 128 characters

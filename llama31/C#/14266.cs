@@ -1,0 +1,1 @@
+Stream assemblyStream = GetAssemblyStreamFromNetworkLocation();\nAssembly assembly = Assembly.LoadFrom(assemblyStream, AssemblyLoadOptions.Internet);

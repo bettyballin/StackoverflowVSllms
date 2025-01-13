@@ -1,0 +1,1 @@
+cl /c /LD your_source_file.c

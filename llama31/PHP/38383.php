@@ -1,0 +1,1 @@
+$date = new DateTime();\n$interval = new DateInterval('P3M');\necho $date->sub($interval)->format('M') . "\n";\n$interval = new DateInterval('P2M');\necho $date->sub($interval)->format('M') . "\n";\n$interval = new DateInterval('P1M');\necho $date->sub($interval)->format('M') . "\n";\necho $date->format('M') . "\n";

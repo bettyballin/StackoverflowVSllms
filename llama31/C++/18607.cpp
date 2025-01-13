@@ -1,0 +1,1 @@
+#include <open3d/Open3D.h>\n\n// Load a 3D model using Open3D\nOpen3D::Geometry::TriangleMesh mesh;\nOpen3D::IO::ReadTriangleMesh("model.ply", mesh);

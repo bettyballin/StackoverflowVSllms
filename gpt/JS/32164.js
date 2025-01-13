@@ -1,1 +1,0 @@
-let timestamp = 1251783433;\nlet date = new Date(timestamp * 1000);\nconsole.log(date.toISOString()); // Outputs in ISO format

@@ -1,0 +1,1 @@
+sort file1.properties > file1.sorted.properties\nsort file2.properties > file2.sorted.properties\ndiff file1.sorted.properties file2.sorted.properties

@@ -1,1 +1,0 @@
-let socket = new WebSocket("ws://localhost:3000");\n\nsocket.onopen = function (event) {\n    socket.send("Hello from Firefox");\n};\n\nsocket.onmessage = function (event) {\n    console.log("Message from server: ", event.data);\n};

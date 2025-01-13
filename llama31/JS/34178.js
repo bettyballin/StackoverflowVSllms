@@ -1,0 +1,1 @@
+var date = Date.parse('Today');\nvar formattedDate = date.toString('MM/dd/yyyy');\n\n// Or\n\nvar date = Date.parse('Wednesday Feb 24');\nvar formattedDate = date.toString('MM/dd/yyyy');

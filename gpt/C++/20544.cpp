@@ -1,1 +1,0 @@
-Gtk::RadioMenuItem::Group group;\nfor (size_t i = 1; i < LH_MAX; ++i)\n{\n    Gtk::RadioMenuItem* pItem = new Gtk::RadioMenuItem(group, names[i], names[i]);\n    pItem->set_name(names[i]);\n    pItem->signal_toggled().connect(sigc::bind<Gtk::RadioMenuItem*>(sigc::mem_fun(*this, &MyClass::on_item_toggled), pItem));\n    pItem->show();\n    m_Menu.append(*Gtk::manage(pItem));\n}

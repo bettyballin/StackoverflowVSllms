@@ -1,0 +1,1 @@
+int countSetBits(int n) {\n    int count = 0;\n    for (int i = 0; i < 32; i++) {\n        if (n & (1 << i)) {\n            count++;\n        }\n    }\n    return count;\n}

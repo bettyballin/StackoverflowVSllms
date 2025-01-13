@@ -1,1 +1,0 @@
-perl path\to\your\script.pl

@@ -1,0 +1,1 @@
+sql = "insert into messages (usr, msg, [date]) values (@user, @message, @date)";\ncomm = new SqlCommand(sql, conn);\ncomm.Parameters.AddWithValue("@user", user);\ncomm.Parameters.AddWithValue("@message", message);\ncomm.Parameters.AddWithValue("@date", DateTime.Now);\ncomm.ExecuteNonQuery();

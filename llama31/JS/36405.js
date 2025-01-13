@@ -1,0 +1,1 @@
+$('.primarynav li').hover(function() {\n    $(this).css('background-color', '#ccc');\n}, function() {\n    $(this).css('background-color', '#f0f0f0');\n});

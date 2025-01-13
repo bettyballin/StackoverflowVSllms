@@ -1,0 +1,1 @@
+from selenium import webdriver\nfrom selenium.webdriver.chrome.options import Options\n\noptions = Options()\noptions.add_argument('--headless')\noptions.add_argument('--disable-gpu')\n\ndriver = webdriver.Chrome(options=options)\ndriver.get('https://example.com')\n\nhtml = driver.page_source\nprint(html)\n\ndriver.quit()

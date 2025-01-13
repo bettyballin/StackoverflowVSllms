@@ -1,1 +1,0 @@
-// Node.js with Express for a RESTful API\nconst express = require('express');\nconst app = express();\nconst port = 3000;\n\napp.get('/api/products', (req, res) => {\n  res.json({ products: [/* product data */] });\n});\n\napp.listen(port, () => {\n  console.log(`Server running at http://localhost:${port}/`);\n});

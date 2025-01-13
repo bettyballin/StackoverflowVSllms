@@ -1,0 +1,1 @@
+[WebMethod(EnableSession = true)]\n[System.Web.Script.Services.ScriptMethod(ResponseFormat = System.Web.Script.Services.ResponseFormat.Xml)]\npublic DataTable loginUser(string userName, string pw)\n{\n    //......\n}

@@ -1,0 +1,1 @@
+perl -ne '\n  if (!$modifier) {  # Read the modifier file\n    ($id, $change) = split;\n    $modifier{$id} = $change;\n    next;\n  }\n  while (<>) {  # Read the data file\n    if (/\b$id\b/) {  # Search for the id in the current line\n      s/^(.{$650}).{$20}/$1$modifier{$id}/;  # Perform the modification\n    }\n    print;\n  }\n' modifier.file data.file > output.file

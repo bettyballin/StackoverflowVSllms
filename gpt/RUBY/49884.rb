@@ -1,1 +1,0 @@
-UserMailer.encrypted_email(User.first).deliver_now

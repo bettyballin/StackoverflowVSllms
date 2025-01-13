@@ -1,1 +1,0 @@
-<configuration>\n  <connectionStrings>\n    <add name="YourConnectionString" connectionString="your_connection_string_here" providerName="System.Data.SqlClient" />\n  </connectionStrings>\n</configuration>

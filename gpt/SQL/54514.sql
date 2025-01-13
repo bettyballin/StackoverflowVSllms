@@ -1,1 +1,0 @@
-SELECT \n    COUNT(id) AS counted_leads, \n    CAST(created_date AS DATE) AS count_date\nFROM \n    tbl_leads\nWHERE \n    created_date >= DATEADD(DAY, -10, CAST(GETDATE() AS DATE))\nGROUP BY \n    CAST(created_date AS DATE)\nORDER BY \n    count_date DESC;

@@ -1,1 +1,0 @@
-<Upgrade Id="YOUR-UPGRADE-ID">\n     <UpgradeVersion Minimum="0.0.0"\n                     IncludeMinimum="yes"\n                     OnlyDetect="no"\n                     Property="OLDERVERSIONBEINGUPGRADED" />\n   </Upgrade>

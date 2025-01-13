@@ -1,0 +1,1 @@
+string data = "Four score and seven years ago";\nstring[] words = data.Split(new char[] { ' ', '\t', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);

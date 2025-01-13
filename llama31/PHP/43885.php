@@ -1,0 +1,1 @@
+// PHP side (your_php_script.php)\n$variable1 = $_POST['variable1'];\n$variable2 = $_POST['variable2'];\n\n// Connect to MySQL database and perform queries\n// Remember to sanitize and validate user input to prevent SQL injection!

@@ -1,0 +1,1 @@
+List<int> uniqueIds = myList.Select(x => x.ID).Distinct().ToList();

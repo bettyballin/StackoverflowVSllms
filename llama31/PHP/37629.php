@@ -1,0 +1,1 @@
+$tempDir = sys_get_temp_dir();\n$uniqueFilename = $tempDir . '/' . uniqid('pdf_', true) . '.pdf';

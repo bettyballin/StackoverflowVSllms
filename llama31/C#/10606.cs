@@ -1,0 +1,1 @@
+MailMessage email = new MailMessage();\nemail.IsBodyHtml = true;\nemail.Body = "<font face='Arial' size='12'>Hello World!</font>";

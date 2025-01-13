@@ -1,0 +1,1 @@
+// resources/views/page.blade.php\n@extends('layouts.master')\n\n@section('content')\n  <!-- page-specific content -->\n@endsectio

@@ -1,0 +1,1 @@
+byte[] data = new byte[60]; // first 60 bytes of the array\nbyte[] hash = new byte[20]; // last 20 bytes of the array\n\nHMACSHA1 hashSha = new HMACSHA1(_validationKey);\nbyte[] computedHash = hashSha.ComputeHash(data);\n\nif (computedHash.SequenceEqual(hash))\n{\n    Console.WriteLine("Hash is valid");\n}\nelse\n{\n    Console.WriteLine("Hash is invalid");\n}

@@ -1,0 +1,1 @@
+SET @myVar = 'Hello, World!';\nSELECT @myVar;

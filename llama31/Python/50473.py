@@ -1,0 +1,1 @@
+import xml.etree.ElementTree as ET\n\n# Parse the XML file\ntree = ET.parse('example.xml')\nroot = tree.getroot()\n\n# Access elements like a list object\nfor elem in root.findall('.//element'):\n    print(elem.text)

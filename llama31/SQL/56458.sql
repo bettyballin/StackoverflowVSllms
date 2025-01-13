@@ -1,0 +1,1 @@
+WHERE web.KONTO = 00000001

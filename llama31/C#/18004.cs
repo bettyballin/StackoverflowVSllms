@@ -1,0 +1,1 @@
+HtmlTable table = (HtmlTable)myPlaceHolder.FindControl("myTable");\n\n// Create a new table row\nHtmlTableRow row = new HtmlTableRow();\n\n// Create a new table cell\nHtmlTableCell cell = new HtmlTableCell();\ncell.InnerText = "Cell text";\n\n// Add the cell to the row\nrow.Cells.Add(cell);\n\n// Add the row to the table\ntable.Rows.Add(row);

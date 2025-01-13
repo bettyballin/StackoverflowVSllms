@@ -1,1 +1,0 @@
-# ~/.irbrc\nrequire 'awesome_print'\nAwesomePrint.irb!

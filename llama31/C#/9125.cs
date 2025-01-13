@@ -1,0 +1,1 @@
+HashSet<long> numbers = new HashSet<long>(yourList);\nif (numbers.Contains(targetNumber)) {\n    // ...\n}

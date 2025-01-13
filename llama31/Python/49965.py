@@ -1,0 +1,1 @@
+from .models import *\n\ndef processform(request):\n    if request.method == 'POST':\n        # process form data here\n        pass

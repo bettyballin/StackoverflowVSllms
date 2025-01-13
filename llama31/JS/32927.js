@@ -1,0 +1,1 @@
+const box = document.getElementById('box');\nconst scrollTop = box.scrollTop;\nconsole.log(scrollTop);

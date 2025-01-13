@@ -1,1 +1,0 @@
-std::ofstream logFile;\n   logFile.open("C:\\mylog.log");\n   logFile << "Hello World!" << std::endl;\n   logFile.flush();\n   logFile.close(); // Ensure the file is closed

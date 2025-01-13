@@ -1,0 +1,1 @@
+int num = 0;\n    assert num > 0;

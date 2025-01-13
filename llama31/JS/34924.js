@@ -1,0 +1,1 @@
+$(function () {\n  $("#tree").jstree({\n    "core": {\n      "data": {\n        "url": "/path/to/tree/data",\n        "dataType": "json"\n      }\n    },\n    "lazy": true\n  });\n});

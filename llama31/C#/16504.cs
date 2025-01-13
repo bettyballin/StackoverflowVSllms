@@ -1,0 +1,1 @@
+PeerToPeer p2p = new PeerToPeer(12345);\np2p.Send("Hello, world!");\nstring receivedMessage = p2p.Receive();\nConsole.WriteLine(receivedMessage);

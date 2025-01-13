@@ -1,0 +1,1 @@
+#include <Windows.h>\n\nBOOL WINAPI CtrlHandler(DWORD fdwCtrlType) {\n    switch (fdwCtrlType) {\n    case CTRL_C_EVENT:\n        // Handle Ctrl-C event\n        return TRUE;\n    default:\n        return FALSE;\n    }\n}\n\nint main() {\n    SetConsoleCtrlHandler(CtrlHandler, TRUE);\n    // ...\n}

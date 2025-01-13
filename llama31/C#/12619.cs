@@ -1,0 +1,1 @@
+public void DoImportantStuff()\n{\n    lock (this)\n    {\n        // dangerous code goes here.\n    }\n}

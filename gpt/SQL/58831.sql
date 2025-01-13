@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\nSET TRANSACTION ISOLATION LEVEL REPEATABLE READ;\n\n-- Get the row count\nSELECT COUNT(my_table.my_col) AS row_count\n  FROM my_table\n WHERE my_table.foo = 'bar';\n\n-- Get the actual rows\nSELECT my_table.my_col\n  FROM my_table\n WHERE my_table.foo = 'bar';\n\nCOMMIT TRANSACTION;

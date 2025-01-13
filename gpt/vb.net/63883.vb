@@ -1,1 +1,0 @@
-<%\nResponse.ContentType = "application/json"\nDim sessionActive\n\nIf Session("UserID") <> "" Then\n    sessionActive = True\nElse\n    sessionActive = False\nEnd If\n\nResponse.Write "{""sessionActive"":" & LCase(CStr(sessionActive)) & "}"\nResponse.End\n%>

@@ -1,0 +1,1 @@
+BEGIN\n  DBMS_JAVA.RESOLVE(\n    'MYSCHEMA.com/sun/xml/messaging/saaj/soap/MessageFactoryImpl'\n  );\nEND;\n/

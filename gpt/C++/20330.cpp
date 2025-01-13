@@ -1,1 +1,0 @@
-// IEngine.h\n#pragma once\n\npublic interface class IEngine\n{\n    void ProcessData();\n};

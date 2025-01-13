@@ -1,0 +1,1 @@
+CREATE TYPE IdTableType AS TABLE (Id INT);\nGO

@@ -1,1 +1,0 @@
-# Store word IDs in session\ndef start_quiz(words)\n  session[:quiz_word_ids] = words.map(&:id)\nend\n\n# Retrieve words from session and cache\ndef current_quiz_words\n  word_ids = session[:quiz_word_ids] || []\n  Rails.cache.fetch("quiz_words_#{word_ids.hash}", expires_in: 12.hours) do\n    Word.where(id: word_ids).to_a\n  end\nend

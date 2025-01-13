@@ -1,0 +1,1 @@
+$query = "SELECT p_pid, p_name, p_cat FROM products WHERE p_sid=346 AND p_name LIKE '$product_name' LIMIT 1";\nprint_r($query);

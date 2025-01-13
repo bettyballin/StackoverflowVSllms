@@ -1,0 +1,1 @@
+# Test GET request\ncurl http://localhost/restful.php/1\n\n# Test POST request\ncurl -X POST -H "Content-Type: application/json" -d '{"name":"Bob","age":40}' http://localhost/restful.php

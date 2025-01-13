@@ -1,0 +1,1 @@
+SELECT \n    sum(ISNULL(TotalHoursM, 0)) \n          + ISNULL(TotalHoursT, 0) \n          + ISNULL(TotalHoursW, 0) \n          + ISNULL(TotalHoursTH, 0) \n          + ISNULL(TotalHoursF, 0) \n          AS TOTAL\nFROM LeaveRequest

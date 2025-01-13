@@ -1,1 +1,0 @@
-ioncube_encoder --encode myscript.php --output encoded_script.php

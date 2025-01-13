@@ -1,0 +1,1 @@
+$xml = '<person><name>John</name><age>30</age></person>';\n$xmlElement = new SimpleXMLElement($xml);\nprint_r($xmlElement); // Output: SimpleXMLElement Object ( [name] => John [age] => 30 )

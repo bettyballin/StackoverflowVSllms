@@ -1,1 +1,0 @@
-require 'erb'\n\n   # Load the ERB template\n   template = File.read('template.html.erb')\n\n   # Create an ERB object\n   erb = ERB.new(template)\n\n   # Set instance variables for use in the template\n   @name = "John Doe"\n\n   # Render the template\n   result = erb.result(binding)\n\n   # Output the rendered template\n   puts result

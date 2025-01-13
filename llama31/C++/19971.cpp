@@ -1,0 +1,1 @@
+#include <comdef.h>\n\n// ...\n\nHRESULT hresult = // some COM operation\nif (FAILED(hresult))\n{\n    _com_error err(hresult);\n    cerr << "COM error: " << err.ErrorMessage() << endl;\n    exit (EXIT_FAILURE);\n}

@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n-- perform some operations\nIF @error_condition = 1\n    ROLLBACK TRANSACTION;\nELSE\n    COMMIT TRANSACTION;\nEND;

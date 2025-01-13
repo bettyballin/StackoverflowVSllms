@@ -1,1 +1,0 @@
-sudo fsck /dev/sdX

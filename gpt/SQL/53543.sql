@@ -1,1 +1,0 @@
-SELECT * FROM your_table\n   ORDER BY some_column\n   LIMIT 100 OFFSET @current_offset;

@@ -1,1 +1,0 @@
-SELECT my_sequence.NEXTVAL FROM dual;

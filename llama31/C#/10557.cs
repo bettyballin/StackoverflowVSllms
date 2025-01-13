@@ -1,0 +1,1 @@
+Assert.That(_internetExplorer.Button(Find.ById(New Regex("CBooking"))).Exists, Is.True, "Cancel Button does not exist")

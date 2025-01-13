@@ -1,0 +1,1 @@
+mysqldump -u username -p database_name --fields-escaped-by=\\ --fields-terminated-by=, --lines-terminated-by=\n > output.csv

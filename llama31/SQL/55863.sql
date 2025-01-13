@@ -1,0 +1,1 @@
+DECLARE @xml xml = '<root><name>John</name></root>'\nSELECT @xml.value('(/root/name)[1]', 'nvarchar(50)') AS Name

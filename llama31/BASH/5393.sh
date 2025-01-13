@@ -1,0 +1,1 @@
+regasm.exe /codebase MyAssembly.dll\ngacutil.exe /i MyAssembly.dll

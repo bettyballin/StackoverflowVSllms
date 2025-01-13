@@ -1,0 +1,1 @@
+set_include_path(get_include_path() . PATH_SEPARATOR . '/etc/php.d');\n$config = get_cfg_var('eaccelerator.shm_size');

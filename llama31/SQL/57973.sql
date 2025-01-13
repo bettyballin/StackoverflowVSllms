@@ -1,0 +1,1 @@
+WHILE EXISTS (SELECT 1 FROM mytable WHERE condition)\nBEGIN\n    DELETE TOP (1000) FROM mytable WHERE condition;\n    CHECKPOINT; -- to reduce log growth\nEND

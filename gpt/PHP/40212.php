@@ -1,1 +1,0 @@
-class YourController extends Zend_Controller_Action\n{\n    public function init()\n    {\n        // Store the request object in the Zend_Registry\n        Zend_Registry::set('request', $this->getRequest());\n    }\n}

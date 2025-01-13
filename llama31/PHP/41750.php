@@ -1,0 +1,1 @@
+// Fast\nif ($a && $b && $c && $d) { ... }\n\n// Slow\n$notFound = 0;\nfor ($i = 4; $i >= 1 && $notFound == 0; $i--) {\n    if (!$conditions[$i]) {\n        $notFound = 1;\n    }\n}

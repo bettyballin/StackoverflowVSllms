@@ -1,1 +1,0 @@
-composer require yourname/yourlibrary

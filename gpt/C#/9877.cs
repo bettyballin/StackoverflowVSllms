@@ -1,1 +1,0 @@
-SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();\n   builder.DataSource = "your_server";\n   builder.InitialCatalog = "your_database";\n   builder.IntegratedSecurity = true;\n   builder.ConnectTimeout = 30; // Increase timeout value if necessary

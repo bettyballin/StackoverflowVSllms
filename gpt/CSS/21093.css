@@ -1,1 +1,0 @@
-/* Print Styles */\n@media print {\n  body {\n    font-family: Arial, sans-serif;\n    margin: 0;\n    padding: 0;\n  }\n\n  .report-container {\n    width: 100%;\n    margin: 0 auto;\n  }\n\n  .no-print {\n    display: none;\n  }\n\n  /* Add page breaks */\n  .page-break {\n    page-break-before: always;\n  }\n}

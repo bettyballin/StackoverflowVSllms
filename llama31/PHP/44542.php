@@ -1,0 +1,1 @@
+$mh = curl_multi_init();\ncurl_multi_setopt($mh, CURLMOPT_MAXCONNECTS, 50);

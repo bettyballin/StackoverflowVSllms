@@ -1,1 +1,0 @@
-dotnet add package itextsharp --version 5.5.13.2

@@ -1,1 +1,0 @@
-DELIMITER //\n\n    CREATE PROCEDURE GetUsers()\n    BEGIN\n        SELECT * FROM Users;\n    END //\n\n    DELIMITER ;

@@ -1,1 +1,0 @@
-// Example of a simple firmware backdoor\n   void malicious_firmware_update() {\n       if (check_condition()) {\n           execute_malicious_code();\n       }\n   }

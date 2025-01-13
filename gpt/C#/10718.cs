@@ -1,1 +1,0 @@
-svcutil http://yourwebserviceurl?wsdl

@@ -1,0 +1,1 @@
+Then /^I should be (editing|viewing) the (\w+) with (\w+) "([^\"]*)"$/ do |action,model,field,value|\n  # ...\n  current_url.should match(eval("#{func}(m)"))\nend

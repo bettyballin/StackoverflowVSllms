@@ -1,0 +1,1 @@
+[Test]\npublic void OpenTable_ValidPath_CallsDoWithCorrectCommand()\n{\n    var mockMapinfo = new MapinfoMock();\n    var wrapper = new MapinfoWrapper(mockMapinfo.Object);\n\n    wrapper.OpenTable("C:\\Temp\\MyTable.TAB");\n\n    mockMapinfo.VerifyDoCalledWith("OpenTable(\"C:\\Temp\\MyTable.TAB\")");\n}

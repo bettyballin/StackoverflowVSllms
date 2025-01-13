@@ -1,1 +1,0 @@
-template class DLL_EXPORT std::allocator<tFontInfoRef>;\n   template class DLL_EXPORT std::map<std::string, tFontInfoRef>;\n\n   class DLL_EXPORT FontManager {\n       std::map<std::string, tFontInfoRef> m_fonts;\n   };

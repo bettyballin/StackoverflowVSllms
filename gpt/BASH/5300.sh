@@ -1,1 +1,0 @@
-db2look -d testdb -e -o schema.sql

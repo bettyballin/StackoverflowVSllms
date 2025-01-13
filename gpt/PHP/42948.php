@@ -1,1 +1,0 @@
-$dom = new DOMDocument();\n$dom->load('file.xml');\n\n// Get the elements you want to modify\n$elements = $dom->getElementsByTagName('p');\nforeach ($elements as $element) {\n    // Replace the attribute value\n    $element->setAttribute('class', 'new-class');\n}\n\n// Save the changes to a new file\n$dom->save('new_file.xml');

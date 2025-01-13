@@ -1,0 +1,1 @@
+// User.php\nclass User {\n    public static function loginRequired() {\n        if (!self::isLoggedIn()) {\n            throw new Exception('Login required');\n        }\n    }\n\n    private static function isLoggedIn() {\n        // Your login check logic here\n    }\n}

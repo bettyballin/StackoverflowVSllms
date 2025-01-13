@@ -1,1 +1,0 @@
-data = data.replace('\r\n', '\n')  # Normalize to LF\n# or\ndata = data.replace('\n', '\r\n')  # Normalize to CRLF

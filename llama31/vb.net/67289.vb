@@ -1,0 +1,1 @@
+Dim subject As String = "Information regarding John Doe sent."\nDim name As String = Regex.Match(subject, "regarding\s*(.*?)\s*sent").Groups(1).Value

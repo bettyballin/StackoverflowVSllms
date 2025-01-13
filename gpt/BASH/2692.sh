@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Break the large file into smaller chunks of 100,000 lines each\nsplit -l 100000 script.sql part_\n\nfor file in part_*\ndo\n  echo "Executing $file"\n  sqlplus user/pass @ $file\ndone

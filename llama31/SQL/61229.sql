@@ -1,0 +1,1 @@
+SELECT escape_regexp_special_chars('Hello. World*') FROM DUAL;

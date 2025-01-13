@@ -1,1 +1,0 @@
-INSERT INTO tablea (id, b, c)\n    SELECT tablea_seq.NEXTVAL, TO_NUMBER(b), TO_NUMBER(c)\n    FROM external_table;

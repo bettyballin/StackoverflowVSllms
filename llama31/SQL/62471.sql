@@ -1,0 +1,1 @@
+SELECT TOP (@PageSize) *\nFROM (\n  SELECT TOP (@PageNumber * @PageSize) ROW_NUMBER() OVER (ORDER BY id) AS RowNum, *\n  FROM YourTable\n) AS PaginatedTable\nWHERE RowNum > ((@PageNumber - 1) * @PageSize)\nORDER BY id;

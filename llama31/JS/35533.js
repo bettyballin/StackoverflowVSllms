@@ -1,0 +1,1 @@
+const parser = new DOMParser();\nconst doc = parser.parseFromString(data, 'text/html');\n\nconst divs = doc.querySelectorAll('div');\nconst divContents = {};\n\ndivs.forEach((div) => {\n  const id = div.id;\n  const content = div.innerHTML;\n  divContents[id] = content;\n});

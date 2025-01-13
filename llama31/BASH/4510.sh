@@ -1,0 +1,1 @@
+ssh user@host\ncd /path/to/your/app\nphp bin/console cache:clear

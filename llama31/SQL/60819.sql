@@ -1,0 +1,1 @@
+SELECT a.someRow, b.someRow \nFROM tableA AS a, tableB AS b \nWHERE a.ID=b.ID AND b.ID= $someVar

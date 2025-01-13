@@ -1,0 +1,1 @@
+StringBuilder text = new StringBuilder();\n\ntext.AppendLine($"{name}\t{age}");\n\n// Add more lines...\n\ntextBox.Text = text.ToString();

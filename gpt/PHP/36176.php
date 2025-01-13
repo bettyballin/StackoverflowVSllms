@@ -1,1 +1,0 @@
-{foreach $tableInfo as $info}\n       {$info}\n   {/foreach}

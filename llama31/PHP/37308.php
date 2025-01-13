@@ -1,0 +1,1 @@
+$date1 = new DateTime("2009-06-26");\n$date2 = new DateTime("2008-06-26");\n\n$interval = $date1->diff($date2);\necho $interval->format("%Y years, %m months, %d days");

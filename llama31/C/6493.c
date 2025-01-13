@@ -1,0 +1,1 @@
+case FOO:  // 'break' inside\n  {\n    int i;\n    doStuff();\n    break; // <--- inside the block\n  }

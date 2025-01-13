@@ -1,1 +1,0 @@
-# /etc/ppp/peers/dynamic-peer\ndemand\nidle 300\nconnect "/etc/ppp/scripts/get_available_modem.sh"

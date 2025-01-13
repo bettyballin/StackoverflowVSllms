@@ -1,1 +1,0 @@
-# Create a tar archive of the current branch (e.g., main)\ngit archive --format=tar --output=repo-snapshot.tar main\n\n# Alternatively, to create a zip archive\ngit archive --format=zip --output=repo-snapshot.zip mai

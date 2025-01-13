@@ -1,0 +1,1 @@
+# Enable SSL/TLS session caching\nopenssl s_server -cert server.crt -key server.key -www -tls1_2 -session_cache\n\n# Use efficient cipher suites\nopenssl s_server -cert server.crt -key server.key -www -tls1_2 -cipher ECDHE-ECDSA-AES256-GCM-SHA384

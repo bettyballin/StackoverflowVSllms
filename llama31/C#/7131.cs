@@ -1,0 +1,1 @@
+[SqlProcedure]\npublic static void MyClrProcedure(SqlConnection connection, SqlTransaction transaction, \n    [SqlParam] SqlString param1, \n    [SqlParam] SqlString param2)\n{\n    // Your logic here\n}

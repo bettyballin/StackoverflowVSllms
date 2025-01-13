@@ -1,0 +1,1 @@
+import cairosvg\n\n# Input SVG file\nsvg_file = 'input.svg'\n\n# Output PNG file\npng_file = 'output.png'\n\n# Convert SVG to PNG\ncairosvg.svg2png(url=svg_file, write_to=png_file)

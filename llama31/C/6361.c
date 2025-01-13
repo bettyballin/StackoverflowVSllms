@@ -1,0 +1,1 @@
+#pragma GCC diagnostic push\n#pragma GCC diagnostic note "This is a custom message"\n#pragma GCC diagnostic pop

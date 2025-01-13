@@ -1,1 +1,0 @@
-#!/bin/bash\n   rsync -avz --exclude '.svn' /path/to/local/site1/ user@remote-server:/path/to/remote/site1/\n   rsync -avz --exclude '.svn' /path/to/local/site2/ user@remote-server:/path/to/remote/site2/

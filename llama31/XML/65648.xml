@@ -1,0 +1,1 @@
+<ivysettings>\n  <mirrors>\n    <mirror name="central-mirror" url="http://localhost:8081/content/repositories/central">\n      <mirror name="central"/>\n    </mirror>\n    <mirror name="jboss-mirror" url="http://localhost:8081/content/repositories/jboss">\n      <mirror name="jboss"/>\n    </mirror>\n  </mirrors>\n</ivysettings>

@@ -1,0 +1,1 @@
+Dim i As Integer = 0\nUsing New Scope\n    Dim i As Integer = 0\n    i += 1\nEnd Using

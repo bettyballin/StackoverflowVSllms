@@ -1,1 +1,0 @@
-// Example CSP header\n   header("Content-Security-Policy: default-src 'self'; script-src 'self';");

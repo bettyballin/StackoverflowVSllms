@@ -1,1 +1,0 @@
-// AddInAdapter.cs\nusing System.AddIn.Pipeline;\n\n[AddInAdapter]\npublic class AddInAdapter : ContractBase, IMyAddInContract\n{\n    private AddInView _view;\n\n    public AddInAdapter(AddInView view)\n    {\n        _view = view;\n    }\n\n    public string GetName()\n    {\n        return _view.GetName();\n    }\n}

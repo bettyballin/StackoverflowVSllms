@@ -1,0 +1,1 @@
+ALTER TABLE users\n  CHANGE COLUMN region region tinyint(4) unsigned NOT NULL DEFAULT 0;

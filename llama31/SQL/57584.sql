@@ -1,0 +1,1 @@
+SELECT \n    t.name AS table_name,\n    ius.last_user_update AS last_modification_time\nFROM \n    sys.tables t\nINNER JOIN \n    sys.dm_db_index_usage_stats ius ON t.object_id = ius.object_id\nWHERE \n    ius.database_id = DB_ID() AND \n    ius.user_updates > 0\nORDER BY \n    last_modification_time DESC;

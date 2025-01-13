@@ -1,1 +1,0 @@
-' Ensure the DataGridView ends editing\nDataGridView1.EndEdit()\n\n' If using a BindingSource, ensure it also ends editing\nBindingSource1.EndEdit()\n\n' Accept changes to enforce the state change\nDataset1.AcceptChanges()\n\n' Now copy the dataset\nDim Dataset2 As dsApplication = DirectCast(Dataset1.Copy(), dsApplication)

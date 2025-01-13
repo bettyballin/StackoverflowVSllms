@@ -1,0 +1,1 @@
+SELECT `content`.* \nFROM   `content` \nWHERE  (user_id = "1" AND ( id = "4" OR id = "7" OR id = "5" OR id = "8" ))\nORDER BY FIELD(id, 4, 7, 5, 8);

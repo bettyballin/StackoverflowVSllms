@@ -1,1 +1,0 @@
-function sanitizeFileName($fileName) {\n    return preg_replace('/[^a-zA-Z0-9_\-\.]/', '_', $fileName);\n}

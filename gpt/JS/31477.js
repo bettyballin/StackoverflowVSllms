@@ -1,1 +1,0 @@
-const express = require('express');\nconst app = express();\n\napp.get('/your-server-endpoint', (req, res) => {\n  // Simulate delay\n  setTimeout(() => {\n    res.send({ message: "This is a delayed response" });\n  }, 10000); // Delay for 10 seconds, longer than the client timeout\n});\n\napp.listen(3000, () => {\n  console.log('Server is running on port 3000');\n});

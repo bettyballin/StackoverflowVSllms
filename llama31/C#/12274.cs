@@ -1,0 +1,1 @@
+Response.Cache.SetCacheability(HttpCacheability.NoCache);\nResponse.Cache.SetMaxAge(TimeSpan.Zero);\nResponse.Cache.SetExpires(DateTime.Now.AddMinutes(-1));

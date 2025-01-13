@@ -1,0 +1,1 @@
+avigator.mediaDevices.getUserMedia({ video: true })\n  .then(stream => {\n    // Use the stream to capture video\n    const video = document.getElementById('video');\n    video.srcObject = stream;\n    video.play();\n  })\n  .catch(error => {\n    console.error('Error accessing webcam:', error);\n  });

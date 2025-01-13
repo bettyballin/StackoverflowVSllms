@@ -1,0 +1,1 @@
+$queryString = "foo=bar&baz=qux";\nparse_str($queryString, $queryParams);\nprint_r($queryParams);

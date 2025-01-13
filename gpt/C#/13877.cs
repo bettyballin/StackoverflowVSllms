@@ -1,1 +1,0 @@
-int FooBarResult = (new Foo()).Bar();

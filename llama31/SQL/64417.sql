@@ -1,0 +1,1 @@
+SELECT \n    COLUMN_NAME, \n    COUNT(DISTINCT COLUMN_NAME) AS UniqueValues, \n    COUNT(*) AS TotalRows, \n    (COUNT(DISTINCT COLUMN_NAME) * 1.0 / COUNT(*)) AS UniquenessRatio\nFROM \n    Profiles\nGROUP BY \n    COLUMN_NAME

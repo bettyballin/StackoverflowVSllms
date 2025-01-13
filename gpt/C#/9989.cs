@@ -1,1 +1,0 @@
-L_0011: stloc.0 \nL_0012: br.s L_0014\nL_0014: ldloc.0 \nL_0015: ret

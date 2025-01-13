@@ -1,0 +1,1 @@
+import rarfile\n\ndef read_rar_file(rar_path, file_name):\n    with rarfile.RarFile(rar_path, 'r') as rar:\n        with rar.open(file_name, 'r') as file:\n            return file.read()\n\n# Example usage:\nrar_path = 'path/to/archive.rar'\nfile_name = 'image1.jpg'\nfile_contents = read_rar_file(rar_path, file_name)

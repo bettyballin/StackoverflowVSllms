@@ -1,1 +1,0 @@
-<?php echo checked('$1', '$2'); ?>

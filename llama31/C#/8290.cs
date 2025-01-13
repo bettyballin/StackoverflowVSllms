@@ -1,0 +1,1 @@
+[HttpPost]\npublic ActionResult Create()\n{\n    var model = new RegisterViewModel();\n    TryUpdateModel(model);\n    // ...\n}

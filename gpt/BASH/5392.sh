@@ -1,1 +1,0 @@
-#!/bin/bash\n# Example script to organize files into subdirectories based on their prefix\n\nfor file in *; do\n  if [[ -f "$file" ]]; then\n    prefix=$(echo "$file" | cut -c1-2)\n    mkdir -p "$prefix"\n    mv "$file" "$prefix/"\n  fi\ndone

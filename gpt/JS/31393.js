@@ -1,1 +1,0 @@
-$.ajax({\n  url: '/your/api/endpoint/',\n  type: 'GET',\n  dataType: 'json',\n  success: function(response) {\n    // Handle success\n    console.log(response);\n  },\n  error: function(xhr, status, error) {\n    // Handle error\n    console.error(error);\n  }\n});

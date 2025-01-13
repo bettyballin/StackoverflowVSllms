@@ -1,1 +1,0 @@
-$(document).ready(function() {\n  $('a.show').click(function() {\n    // Extract the number from the clicked element's id\n    var number = this.id.replace('show', '');\n    // Use the extracted number to construct the target class\n    $('.item' + number).toggle(1000);\n    return false;\n  });\n});

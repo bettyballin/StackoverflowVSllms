@@ -1,0 +1,1 @@
+CREATE TABLE files (\n  id NUMBER PRIMARY KEY,\n  file_name VARCHAR2(255),\n  file_content BFILE\n);

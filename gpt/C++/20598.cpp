@@ -1,1 +1,0 @@
-__declspec(dllexport) void __stdcall GetString(char* buffer, int bufferSize) {\n        const char* message = "Hello from DLL";\n        strncpy(buffer, message, bufferSize - 1);\n        buffer[bufferSize - 1] = '\0'; // Ensure null-termination\n    }

@@ -1,1 +1,0 @@
-listdlls /R PROGRAMNAME

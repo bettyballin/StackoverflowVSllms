@@ -1,0 +1,1 @@
+var control = XamlReader.Load(new StreamReader("path/to/your/usercontrol.xaml")) as Draco;

@@ -1,1 +1,0 @@
--- Combined query for Table1\nSELECT * FROM Table1 WHERE ObjectID IN (1, 2, 3, ..., N);\n\n-- Combined query for Table2\nSELECT * FROM Table2 WHERE ObjectID IN (1, 2, 3, ..., N);

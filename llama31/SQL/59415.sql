@@ -1,0 +1,1 @@
+ALTER SYSTEM KILL SESSION '<sid_from_v_lock>,<serial#>';

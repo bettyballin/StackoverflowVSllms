@@ -1,0 +1,1 @@
+public interface IUserRepository\n{\n    IEnumerable<User> GetAllUsers();\n}\n\npublic class UserRepository : IUserRepository\n{\n    private readonly DbContext _context;\n\n    public UserRepository(DbContext context)\n    {\n        _context = context;\n    }\n\n    public IEnumerable<User> GetAllUsers()\n    {\n        return _context.Users.ToList();\n    }\n}

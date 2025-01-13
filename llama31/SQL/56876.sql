@@ -1,0 +1,1 @@
+-- To get DDL for a single procedure\nSELECT DBMS_METADATA.get_ddl('PROCEDURE', 'MY_PROCEDURE') \nFROM dual;

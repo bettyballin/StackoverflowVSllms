@@ -1,0 +1,1 @@
+mkdir -m 1777 /path/to/writable/dir

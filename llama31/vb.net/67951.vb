@@ -1,0 +1,1 @@
+Dim command As OdbcCommand = gOdbcConn.CreateCommand()\ncommand.CommandText = "INSERT INTO auhinode (node_key, node_desc) VALUES (0, 'New Node'); SELECT LAST_INSERT_ID()"\nDim lastInsertedId As Integer = CInt(command.ExecuteScalar())

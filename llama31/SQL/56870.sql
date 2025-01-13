@@ -1,0 +1,1 @@
+CREATE TABLE table1 (id INT, name VARCHAR(255));\nCREATE TABLE table2 (id INT, age INT);\n\nSELECT * FROM table1\nJOIN table2\nUSING (name);  -- Error: column 'name' does not exist in table2\n\nSELECT * FROM table1\nJOIN table2\nON table1.id = table2.id;  -- Works fine

@@ -1,0 +1,1 @@
+myMethods.Method1()\nmyMethods.Method2()

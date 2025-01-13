@@ -1,1 +1,0 @@
-<?php\n\n$var1 = "Hello";\n$var2 = "World";\n\n$definedVars = get_defined_vars();\nvar_export($definedVars);\n\n?>

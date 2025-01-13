@@ -1,0 +1,1 @@
+#pragma comment(lib, "libcurl.lib")\n\nbool FTPGetFile::ConnectToFTP(string ftpServer){\n    CURL *curl;\n    CURLcode res;\n    curl = curl_easy_init();\n    if(curl) {\n        curl_easy_setopt(curl, CURLOPT_URL, "curl.haxx.se");\n        res = curl_easy_perform(curl);\n        return true;\n    }else{\n        return false;\n    }\n}

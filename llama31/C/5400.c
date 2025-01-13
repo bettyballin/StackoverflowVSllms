@@ -1,0 +1,1 @@
+#include <fcntl.h>\n#include <unistd.h>\n\nint fd = open("/dev/urandom", O_RDONLY);\nif (fd < 0) {\n    // error handling\n}\n\nunsigned char buffer[32];\nssize_t bytes_read = read(fd, buffer, 32);\nif (bytes_read != 32) {\n    // error handling\n}\n\nclose(fd);

@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', () => {\n  // Code to get checkbox names goes here\n});

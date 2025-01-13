@@ -1,0 +1,1 @@
+#include <objbase.h>\n\nGUID profileGuid;\nCoCreateGuid(&profileGuid);

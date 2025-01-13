@@ -1,0 +1,1 @@
+struct InventoryItem {\n    std::string description;\n    int quantity;\n    double wholesaleCost;\n    double retailCost;\n    std::string dateAdded;\n};

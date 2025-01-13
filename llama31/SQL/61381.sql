@@ -1,0 +1,1 @@
+SELECT T1.AccountNo, T1.Balance, T2.Balance, \n       CASE \n         WHEN T2.Balance = 0 THEN 'Zero balance in Temp2'\n         WHEN T1.Balance / T2.Balance > 1.1 THEN 'Mismatch'\n         WHEN T1.Balance / T2.Balance < 0.9 THEN 'Mismatch'\n         ELSE 'Match'\n       END AS BalanceStatus\nFROM Temp1 T1, Temp2 T2\nWHERE \n  T1.AccountNo = T2.AccountNo

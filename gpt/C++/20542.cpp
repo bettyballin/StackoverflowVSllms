@@ -1,1 +1,0 @@
-void MyClass::on_item_toggled(Gtk::RadioMenuItem* item)\n{\n    if (item->get_active())\n    {\n        // Perform your action here\n    }\n}

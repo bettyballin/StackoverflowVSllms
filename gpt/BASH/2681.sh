@@ -1,1 +1,0 @@
-gcc -march=skylake -mtune=skylake -O2 -o myprogram myprogram.c

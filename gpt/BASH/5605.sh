@@ -1,1 +1,0 @@
-docker pull dimitri/pgloader

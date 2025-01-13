@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Start the master connection\nssh -M -S my-ctrl-socket -fnNT user@host\n\n# Iterate over files and transfer them\nfor file in /path/to/files/*; do\n    scp -o ControlPath=my-ctrl-socket "$file" user@host:/remote/directory/\ndone\n\n# Close the master connection\nssh -S my-ctrl-socket -O exit user@host

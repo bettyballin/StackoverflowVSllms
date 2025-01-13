@@ -1,1 +1,0 @@
-mkdir /path/to/repo.git\n   cd /path/to/repo.git\n   git init --bare

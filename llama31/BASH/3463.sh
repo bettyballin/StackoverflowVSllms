@@ -1,0 +1,1 @@
+cat server.cert cacert.crt > server.bundle.crt

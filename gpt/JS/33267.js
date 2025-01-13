@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded", function() {\n       var articleContent = document.querySelector('.article-content'); // Adjust the selector as necessary\n       if (articleContent) {\n           articleContent.classList.add('multi-column');\n       }\n   });

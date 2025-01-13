@@ -1,0 +1,1 @@
+var itemsToAdd = new List<Item>();\n\nforeach (var item in enumerable)\n{\n    foreach (var item2 in item.Enumerable)\n    {\n        itemsToAdd.Add(new Item2());\n    }\n}\n\nenumerable.AddRange(itemsToAdd);

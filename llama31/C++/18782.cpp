@@ -1,0 +1,1 @@
+std::ofstream logFile;\nlogFile.open("C:\\mylog.log");\nlogFile.rdbuf()->pubsetbuf(nullptr, 0); // Disable buffering\nlogFile << "Hello World!" << std::endl;

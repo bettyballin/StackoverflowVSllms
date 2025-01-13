@@ -1,1 +1,0 @@
-<?php\nheader("Expires: Tue, 01 Jan 2000 00:00:00 GMT");\nheader("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");\nheader("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");\nheader("Cache-Control: post-check=0, pre-check=0", false);\nheader("Pragma: no-cache");\n?>

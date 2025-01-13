@@ -1,0 +1,1 @@
+// Add a new element\nxmlDoc.Root.Add(new XElement("newElement", "newValue"));

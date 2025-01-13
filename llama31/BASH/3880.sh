@@ -1,0 +1,1 @@
+rpmbuild -ba --with php-mssql.patch php.spec

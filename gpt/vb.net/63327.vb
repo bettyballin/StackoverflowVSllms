@@ -1,1 +1,0 @@
-Public Property PropertyName As String\n    Get\n        Return _PropertyName\n    End Get\n    Private Set(value As String)\n        _PropertyName = value\n    End Set\nEnd Property\n\nPrivate _PropertyName As String

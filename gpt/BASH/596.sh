@@ -1,1 +1,0 @@
-xwd -id <window-id> -out capture.xwd

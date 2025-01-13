@@ -1,0 +1,1 @@
+window.javascript_enabled = false;

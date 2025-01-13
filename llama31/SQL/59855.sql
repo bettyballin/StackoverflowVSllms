@@ -1,0 +1,1 @@
+CREATE TABLE table (\n  id INT PRIMARY KEY,\n  status VARCHAR(10),\n  version INT DEFAULT 0\n);\n\nSELECT * FROM table WHERE status = 'new' AND id = 10;\nUPDATE table SET status = 'old', version = version + 1 WHERE id = 10 AND version = <selected_version>;

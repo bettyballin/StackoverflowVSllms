@@ -1,1 +1,0 @@
-x = 0\nloop; puts x; x += 1; break if x == 100 end # => error

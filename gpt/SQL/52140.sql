@@ -1,1 +1,0 @@
-CREATE TABLE cache (\n    id INTEGER PRIMARY KEY AUTOINCREMENT,\n    url TEXT NOT NULL,\n    access_time DATETIME NOT NULL,\n    file_path TEXT NOT NULL\n);

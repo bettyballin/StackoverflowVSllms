@@ -1,1 +1,0 @@
-CREATE INDEX idx_tag_id ON videotags(tag_id);\nCREATE INDEX idx_video_id ON videotags(video_id);

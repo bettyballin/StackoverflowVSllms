@@ -1,0 +1,1 @@
+SELECT f.fid, b.value\nFROM foo f\nLEFT JOIN foo2bar fb ON f.fid = fb.fid\nLEFT JOIN bar b ON fb.bid = b.bid AND b.zid = 30;

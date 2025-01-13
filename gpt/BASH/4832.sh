@@ -1,1 +1,0 @@
-# For Maven\nmvn sonar:sonar\n\n# For Gradle\ngradle sonarqube

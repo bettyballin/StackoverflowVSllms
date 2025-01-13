@@ -1,0 +1,1 @@
+using System;\n\npublic static string Base64ToHex(string base64String)\n{\n    byte[] bytes = Convert.FromBase64String(base64String);\n    return BitConverter.ToString(bytes).Replace("-", "").ToLower();\n}

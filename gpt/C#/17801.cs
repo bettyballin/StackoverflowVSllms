@@ -1,1 +1,0 @@
-[WebMethod(EnableSession = true)]\npublic static string YourWebMethod(string param1, string param2)\n{\n    // Your method logic here\n    var sessionValue = HttpContext.Current.Session["YourSessionKey"];\n    return sessionValue != null ? sessionValue.ToString() : "Session is null";\n}

@@ -1,0 +1,1 @@
+if (isset($_REQUEST["add_single"])) {\n    $addSingle = filter_var($_REQUEST["add_single"], FILTER_VALIDATE_INT);\n    if ($addSingle !== false) {\n        save_single_bracelet($_REQUEST["id"], $addSingle);\n    } else {\n        // handle invalid input\n    }\n}

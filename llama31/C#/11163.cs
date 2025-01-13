@@ -1,0 +1,1 @@
+var writer = new StringWriter();\nvar htmlWriter = new HtmlTextWriter(writer);\n// Render your page or control\n// ...\nvar capturedHtml = writer.ToString();

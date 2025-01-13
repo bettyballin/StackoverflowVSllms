@@ -1,0 +1,1 @@
+#include <iostream>\n#include <filesystem>\n\nint main() {\n    namespace fs = std::filesystem;\n\n    fs::path path = "."; // specify the directory path\n    for (const auto& entry : fs::directory_iterator(path)) {\n        if (entry.is_regular_file()) {\n            std::cout << entry.path().filename().string() << std::endl;\n        }\n    }\n\n    return 0;\n}

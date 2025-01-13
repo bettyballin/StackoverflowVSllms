@@ -1,1 +1,0 @@
-using Markdig;\n\n   string htmlContent = "<h1>Hello, World!</h1><p>This is a paragraph.</p>";\n   string markdownContent = Markdown.ToPlainText(htmlContent);\n\n   // Display markdownContent in a TextBlock or other WPF control

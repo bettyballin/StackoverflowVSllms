@@ -1,1 +1,0 @@
-CREATE TABLE YourTable (\n    ID INT PRIMARY KEY,\n    FormID INT,\n    isDefault BIT,\n    -- other columns\n);\n\nCREATE UNIQUE INDEX UX_OneDefaultPerForm\nON YourTable (FormID)\nWHERE isDefault = 1;

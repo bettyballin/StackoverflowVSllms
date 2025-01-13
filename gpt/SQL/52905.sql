@@ -1,1 +1,0 @@
-CREATE TABLE MembershipSettings (\n    SettingKey NVARCHAR(50) PRIMARY KEY,\n    SettingValue NVARCHAR(50)\n);\n\n-- Insert default settings\nINSERT INTO MembershipSettings (SettingKey, SettingValue) VALUES ('maxInvalidPasswordAttempts', '5');\nINSERT INTO MembershipSettings (SettingKey, SettingValue) VALUES ('passwordAttemptWindow', '10');

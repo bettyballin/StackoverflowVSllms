@@ -1,1 +1,0 @@
-#content {\n    width: 100px;\n    height: 100px;\n    background-color: blue;\n    overflow: hidden; /* Ensure the content div maintains its height */\n}\n\n#a, #b {\n    position: relative;\n    top: 0px;\n    left: 0px;\n    width: 100px;\n    height: 100px;\n    background-color: red;\n}\n\n#b {\n    top: -100px;\n    background-color: green;\n}

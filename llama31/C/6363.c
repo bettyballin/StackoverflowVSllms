@@ -1,0 +1,1 @@
+int main() {\n    char* content = readFileToString("example.txt");\n    if (content) {\n        printf("%s\n", content);\n        free(content);\n    }\n    return 0;\n}

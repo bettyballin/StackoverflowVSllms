@@ -1,1 +1,0 @@
-scp user@hostname:/path/to/remote/directory/* /path/to/local/directory/

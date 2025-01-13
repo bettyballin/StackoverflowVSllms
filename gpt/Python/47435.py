@@ -1,1 +1,0 @@
-def find_upper_bound():\n      low = 50\n      high = 100\n      while low < high:\n          mid = (low + high) // 2\n          if test(mid):\n              low = mid + 1\n          else:\n              high = mid\n      \n      return low - 1

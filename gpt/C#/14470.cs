@@ -1,1 +1,0 @@
-// C# Code\npublic class Example\n{\n    public void SayHello()\n    {\n        Console.WriteLine("Hello, world!");\n    }\n}

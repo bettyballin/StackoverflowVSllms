@@ -1,0 +1,1 @@
+$(document).ajaxSuccess(function(event, xhr, settings) {\n  // Your function to be called on AJAX success goes here\n  myFunction();\n});

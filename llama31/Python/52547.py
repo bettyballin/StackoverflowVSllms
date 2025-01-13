@@ -1,0 +1,1 @@
+# settings.py\nTEMPLATES = [\n    {\n        # ...\n        'OPTIONS': {\n            'context_processors': [\n                # ...\n                'myapp.context_processors.session_data',\n            ],\n        },\n    },\n]

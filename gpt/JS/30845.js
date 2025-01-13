@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $("#yourElement").fadeIn(); // Adjust selector as necessary\n    // or\n    $("#yourElement").fadeOut();\n});

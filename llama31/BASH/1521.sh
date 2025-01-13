@@ -1,0 +1,1 @@
+svn propset svn:externals "https://codeplex.svn.internet/project internet-project" file:///local-repo/branches/local-branch

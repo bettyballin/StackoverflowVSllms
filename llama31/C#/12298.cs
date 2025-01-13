@@ -1,0 +1,1 @@
+// Get the credential from the locker\nvar credential = locker.Retrieve("Your App Name", "username");\n\n// Get the password from the credential\nvar password = credential.Password;

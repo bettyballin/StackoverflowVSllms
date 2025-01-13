@@ -1,0 +1,1 @@
+from docx import Document\n\n# Load HTML content\nhtml_content = "<html><body>This is a simple HTML page.</body></html>"\n\n# Create a new Word document\ndocument = Document()\n\n# Add HTML content to the document\ndocument.add_paragraph(html_content)\n\n# Save the document to a file\ndocument.save("output.doc")

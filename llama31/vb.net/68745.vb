@@ -1,0 +1,1 @@
+If Appointment IsNot Nothing AndAlso Appointment.AppointmentId > 0 Then\n    ' ... update code ...\nEnd If

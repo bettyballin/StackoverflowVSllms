@@ -1,1 +1,0 @@
-remove_filter('the_content', 'wpautop');\nremove_filter('the_content', 'wptexturize');

@@ -1,0 +1,1 @@
+import cv2\n\nimg = cv2.imread('image.jpg')\nhash = cv2.phash(img)\nprint(hash)

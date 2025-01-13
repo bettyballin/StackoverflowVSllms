@@ -1,1 +1,0 @@
-appcmd add vdir /app.name:"Default Web Site/MyProject" /path:/MyProject /physicalPath:"C:\path\to\your\project"

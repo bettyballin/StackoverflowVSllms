@@ -1,0 +1,1 @@
+public class CustomSqlSyncProvider : SqlSyncProvider\n{\n    protected override DbCommand GetCommand(string commandText)\n    {\n        // Optimize the query here\n        return base.GetCommand(commandText);\n    }\n}

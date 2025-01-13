@@ -1,0 +1,1 @@
+require 'socket'\n\n# Create a TCP socket\nsocket = TCPSocket.new('localhost', 12345)\n\n# Open a file to write the received data to\nfile = File.open('path/to/received/file', 'wb')\n\n# Receive the file from the server\nwhile line = socket.gets\n  file.write(line)\nend\n\nfile.close\nsocket.close

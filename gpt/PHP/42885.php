@@ -1,1 +1,0 @@
-<?php\n   $a = 2;\n   $b = 3;\n   $response = file_get_contents("http://localhost:4242/add?a=$a&b=$b");\n   echo "Result from Lisp: " . $response;\n   ?>

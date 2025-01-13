@@ -1,0 +1,1 @@
+[AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]\n[ServiceContract(Namespace = "YourNamespace")]\npublic interface YourServiceContract\n{\n    // Your service methods here\n}

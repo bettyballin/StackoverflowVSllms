@@ -1,0 +1,1 @@
+# Using Web PI (recommended)\nwebpicmd /Install /Products:PHPManagerPHP\n\n# Manual installation\n# Download PHP installer from php.net and follow installation instructions

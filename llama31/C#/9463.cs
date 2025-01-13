@@ -1,0 +1,1 @@
+using System.Windows.Markup;\n\n// Assuming 'canvas' is the name of your Canvas object\nstring xaml = XamlWriter.Save(canvas);

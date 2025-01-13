@@ -1,1 +1,0 @@
-class My_Filter_DateToDb implements Zend_Filter_Interface\n{\n    public function filter($value)\n    {\n        if (empty($value)) {\n            return null;\n        }\n        $date = Zend_Date::createFromFormat('dd/MM/yyyy', $value);\n        return $date->toString('yyyy-MM-dd');\n    }\n}

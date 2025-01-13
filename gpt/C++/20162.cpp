@@ -1,1 +1,0 @@
-#include "MyCppLibrary.h"\n\npublic ref class MyCppWrapper\n{\npublic:\n    int MyCppFunction(int a, int b)\n    {\n        return ::MyCppFunction(a, b);\n    }\n};

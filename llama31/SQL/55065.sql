@@ -1,0 +1,1 @@
+SELECT \n  t.*,\n  u.username AS username\nFROM \n  threads t\n  LEFT JOIN users u ON t.user_id = u.id

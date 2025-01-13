@@ -1,0 +1,1 @@
+using (var fileStream = new FileStream(Server.MapPath("charts.pdf"), FileMode.Create, FileAccess.Write))\n{\n    Document doc = new Document();\n    PdfWriter.GetInstance(doc, fileStream);\n    doc.Open();\n    //ADD DATA\n    doc.Close();\n}

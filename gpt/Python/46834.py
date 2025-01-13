@@ -1,1 +1,0 @@
-widget.show_now()

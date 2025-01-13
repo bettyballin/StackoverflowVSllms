@@ -1,0 +1,1 @@
+$preferences = array('pref1' => 'value1', 'pref2' => 'value2');\n$jwt = JWT::encode($preferences, 'your_secret_key', 'HS256');\n\nsetcookie('user_preferences', $jwt, array(\n    'expires' => time() + 3600,\n    'path' => '/',\n    'domain' => 'yourdomain.com',\n    'secure' => true,\n    'httponly' => true\n));

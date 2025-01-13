@@ -1,0 +1,1 @@
+curl -T file.txt -u ftpuser:ftppass --socks5-hostname socks5://your-socks-proxy:1080 ftp://your-ftp-server/path/

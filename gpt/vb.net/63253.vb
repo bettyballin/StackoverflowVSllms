@@ -1,1 +1,0 @@
-Imports System.IO\n\nDim myStream As New Stream

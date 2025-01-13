@@ -1,1 +1,0 @@
-Select col1, col2, col3 from view

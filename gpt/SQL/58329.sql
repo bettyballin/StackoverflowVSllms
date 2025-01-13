@@ -1,1 +1,0 @@
-SELECT ti.itemId, ti.title, tis.statusKey, tis.statusDate\nFROM todo_item ti\nJOIN todo_project tp ON ti.projectId = tp.projectId\nJOIN todo_itemStatus tis ON ti.itemId = tis.itemId\nWHERE tp.projectId = 13\nAND tis.statusDate = (\n    SELECT MAX(statusDate)\n    FROM todo_itemStatus\n    WHERE itemId = ti.itemId\n)\nORDER BY ti.itemId;

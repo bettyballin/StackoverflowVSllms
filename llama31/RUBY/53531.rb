@@ -1,0 +1,1 @@
+<%= link_to_remote "Delete", employee_path(@employee), :method => :delete %>

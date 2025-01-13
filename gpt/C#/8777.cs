@@ -1,1 +1,0 @@
-amespace YourNamespace\n    {\n        public partial class ProblemReport : Form\n        {\n            // class contents\n        }\n    }

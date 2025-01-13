@@ -1,1 +1,0 @@
-create table #output(line varchar(2000) null)\n   insert into #output exec master..xp_cmdshell 'move /y "D:\files\*.txt" "D:\oldfiles"'

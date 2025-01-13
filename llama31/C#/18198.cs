@@ -1,0 +1,1 @@
+SqlConnection connection = new SqlConnection("myConnectionString");\nSqlDataAdapter adapter = new SqlDataAdapter();\nadapter.SelectCommand = new SqlCommand("SELECT * FROM myTable", connection);\nadapter.FillSchema(myDataSet, SchemaType.Source);

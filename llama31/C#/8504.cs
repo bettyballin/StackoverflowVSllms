@@ -1,0 +1,1 @@
+public class LoginViewModel\n{\n    private readonly ILoginService _loginService;\n\n    public LoginViewModel(ILoginService loginService)\n    {\n        _loginService = loginService;\n    }\n\n    public void Login()\n    {\n        if (_loginService.Authenticate(Username, Password))\n        {\n            // login successful\n        }\n    }\n}

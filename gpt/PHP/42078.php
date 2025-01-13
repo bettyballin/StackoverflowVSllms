@@ -1,1 +1,0 @@
-<?php\nclass User {\n    private $db;\n\n    public function __construct() {\n        $this->db = new Database();\n    }\n\n    public function getUser($id) {\n        $result = $this->db->query("SELECT * FROM users WHERE id = :id", ['id' => $id]);\n        return $result->fetch(PDO::FETCH_ASSOC);\n    }\n\n    // Other user-related methods...\n}

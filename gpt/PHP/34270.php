@@ -1,1 +1,0 @@
-require 'vendor/autoload.php';\n\n   use YourNamespace\YourUtilityClass;\n\n   $util = new YourUtilityClass();\n   $util->yourUtilityMethod();

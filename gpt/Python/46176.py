@@ -1,1 +1,0 @@
-def my_function(x):\n    return x * 2\n\nmy_list = [1, 2, 3, 4, 5]\nresults = [my_function(x) for x in my_list]\n# Alternatively, you can use the map function\n# results = list(map(my_function, my_list))\n\nprint(results)

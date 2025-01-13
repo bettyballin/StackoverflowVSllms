@@ -1,0 +1,1 @@
+cat yourfile.crt yourfile.key > yourfile.pem

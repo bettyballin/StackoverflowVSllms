@@ -1,0 +1,1 @@
+$select = $this->getAdapter()->select()\n    ->from('users')\n    ->where('user_id = ?', $id);\n\n$result = $this->getAdapter()->fetchAll($select);

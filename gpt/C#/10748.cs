@@ -1,1 +1,0 @@
-public class HomeController : Controller\n   {\n       [RobotsMetaTag]\n       public ActionResult Index()\n       {\n           return View();\n       }\n       \n       [RobotsMetaTag]\n       public ActionResult AnotherAction()\n       {\n           return View();\n       }\n   }

@@ -1,0 +1,1 @@
+DirectoryEntry directoryEntry = new DirectoryEntry("LDAP://your-ldap-server", "username", "password");\n\nif (directoryEntry.NativeObject != null)\n{\n    // Connection was successful\n}\nelse\n{\n    // Connection failed\n}

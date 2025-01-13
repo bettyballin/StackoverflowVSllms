@@ -1,0 +1,1 @@
+SELECT f.FIELDNAME\nFROM foo f\nINNER JOIN bar b ON f.id = b.fId\nWHERE b.cId = @id\nGROUP BY f.FIELDNAME;

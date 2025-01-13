@@ -1,1 +1,0 @@
-WITH Hierarchy AS (\n    SELECT ID, ParentID, LevelID, Data\n    FROM ReportingHierarchy\n    WHERE ParentID IS NULL\n    UNION ALL\n    SELECT rh.ID, rh.ParentID, rh.LevelID, rh.Data\n    FROM ReportingHierarchy rh\n    INNER JOIN Hierarchy h ON rh.ParentID = h.ID\n)\nSELECT * FROM Hierarchy;

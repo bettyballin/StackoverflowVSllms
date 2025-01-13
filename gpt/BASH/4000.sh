@@ -1,1 +1,0 @@
-svn commit -m "Set mime type to text/plain for yourfile.txt" --yourfile.txt

@@ -1,1 +1,0 @@
-public class Foo\n{\n    private const string myTableName = "mytable";\n\n    public void Bar()\n    {\n        string query = $"SELECT * FROM {myTableName}";\n        using (NpgsqlCommand command = new NpgsqlCommand(query, connection))\n        {\n            // Execute the command or perform other operations\n        }\n    }\n}

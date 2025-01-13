@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare('UPDATE cart_items SET quantity = :quantity WHERE cart_id = :cart_id AND item_id = :item_id');\n$stmt->execute(['quantity' => $quantity, 'cart_id' => $cart_id, 'item_id' => $item_id]);

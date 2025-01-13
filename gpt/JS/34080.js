@@ -1,1 +1,0 @@
-$('#myList').css('display', 'block');\nsetTimeout(function(){\n  $('#myList').css('display', 'table');\n}, 0);

@@ -1,0 +1,1 @@
+from django.db.models import F\nfrom django.db.models.functions import Func\n\nclass Strftime(Func):\n    function = 'strftime'\n    template = "%(function)s('%m/%d/%Y', %(expressions)s)"\n\ndata = My_Model.objects.annotate(\n    the_date=Strftime(F('time_stamp'))\n).values('the_date').annotate(Sum('numbers_data')).order_by()

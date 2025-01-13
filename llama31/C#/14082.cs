@@ -1,0 +1,1 @@
+#if DEBUG\nConsole.WriteLine("Press any key to continue...");\nConsole.ReadKey();\n#endif

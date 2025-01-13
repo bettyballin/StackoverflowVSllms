@@ -1,0 +1,1 @@
+SELECT DISTINCT u.profession FROM users u;  // faster

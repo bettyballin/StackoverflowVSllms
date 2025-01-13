@@ -1,0 +1,1 @@
+proc sql;\n  connect to odbc (datasrc="mydatabase");\n  spds create table mytable as\n  select * from connection to odbc\n  (\n    select * from mydatabase.mytable\n  );\n  disconnect from odbc;\nquit;

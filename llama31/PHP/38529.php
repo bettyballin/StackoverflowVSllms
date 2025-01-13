@@ -1,0 +1,1 @@
+$file = 'http://file-managers.net/skins/blue/images/actions/view_tree.png';\n$filename = basename($file);\n$thumb_filename = preg_replace('/\.[^.]+$/', '_thumb$0', $filename);\n\n// will show: view_tree_thumb.png\necho $thumb_filename;

@@ -1,0 +1,1 @@
+var grouped = text.GroupBy(s => s.Length);

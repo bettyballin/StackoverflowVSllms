@@ -1,1 +1,0 @@
-$data = ['example' => 'data'];\n   file_put_contents('cache_file', serialize($data));\n   $cachedData = unserialize(file_get_contents('cache_file'));

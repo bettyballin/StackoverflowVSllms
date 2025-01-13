@@ -1,0 +1,1 @@
+#include <unistd.h>\n\nint main() {\n    // simulate some work\n    for (int i = 0; i < 10000000; i++) {\n        // do some calculations\n        int result = i * i;\n    }\n    return 0;\n}

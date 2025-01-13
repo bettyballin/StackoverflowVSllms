@@ -1,0 +1,1 @@
+Imports System.Text.RegularExpressions\n\nDim fileContentString As String = "SendersTimeSeriesIdentification: COMPANY_A/COMPANY_B/REF_7/20090505"\nDim pattern As String = "(?<=SendersTimeSeriesIdentification: )[^:]*"\nDim replacement As String = Regex.Replace(fileContentString, pattern, Function(m) Regex.Replace(m.Value, "\W", "n"))\n\nConsole.WriteLine(replacement)

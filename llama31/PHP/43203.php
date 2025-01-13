@@ -1,0 +1,1 @@
+$query = mysqli_real_escape_string($conn, $query);

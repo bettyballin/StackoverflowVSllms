@@ -1,0 +1,1 @@
+<%@ Page Language="VB" MasterPageFile="~/Views/Shared/Main.Master" Inherits="System.Web.Mvc.ViewPage" %>\n<%@ Import Namespace="MvcPortfolio" %>\n<asp:Content ID="projectsContent" runat="server" ContentPlaceHolderID="newsContent">\n    <%Html.RenderAction("Index", "YourControllerName")%>\n</asp:Content>

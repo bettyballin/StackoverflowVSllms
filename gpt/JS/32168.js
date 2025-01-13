@@ -1,1 +1,0 @@
-// Example using DOMPurify\n   const safeContent = DOMPurify.sanitize(messageData.content);\n   messageElement.textContent = safeContent;

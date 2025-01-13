@@ -1,1 +1,0 @@
-import os\n\n# Command to capture the entire screen\nos.system("screencapture -x full_screenshot.png")

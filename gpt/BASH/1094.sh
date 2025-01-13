@@ -1,1 +1,0 @@
-sshfs -o ssh_command='ssh -i /path/to/private/key -l root' remote_user@remote_host:/remote/path /path/to/mount/point -o uid=$(id -u your_local_user) -o gid=$(id -g your_local_user)

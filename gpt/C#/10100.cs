@@ -1,1 +1,0 @@
-public static SqlCommand getCommand(string procedure, SqlParameter[] parameters)\n{\n    SqlCommand cmd = new SqlCommand(procedure);\n    cmd.Parameters.AddRange(parameters);\n    return cmd;\n}

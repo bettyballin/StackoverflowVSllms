@@ -1,0 +1,1 @@
+WebRequest.DefaultWebProxy.Credentials = CredentialCache.DefaultCredentials;\nWebRequest.DefaultWebProxy.BypassProxyOnLocal = true;

@@ -1,0 +1,1 @@
+Message msg = queue.Receive(messageId, MessageQueueTransactionType.Single);

@@ -1,1 +1,0 @@
-<!DOCTYPE html>\n<html>\n<head>\n    <title>Edit Person</title>\n</head>\n<body>\n    <h1>{{ person.id|default:"Create" }} Person</h1>\n    <form method="post">\n        {% csrf_token %}\n        {{ form.as_p }}\n        <button type="submit">Save</button>\n    </form>\n</body>\n</html>

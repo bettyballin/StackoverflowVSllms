@@ -1,0 +1,1 @@
+using System.Security.Cryptography;\n\n// Encrypt your HLS stream\nvar encryptedStream = hlsStream.EncryptWithAes128(key, iv);

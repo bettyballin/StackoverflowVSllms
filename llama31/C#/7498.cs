@@ -1,0 +1,1 @@
+@using (Ajax.BeginForm("YourAction", "YourController", new AjaxOptions { UpdateTargetId = "tabs-container" }))\n{\n    // your form fields here\n}

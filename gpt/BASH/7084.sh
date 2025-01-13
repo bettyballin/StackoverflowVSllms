@@ -1,1 +1,0 @@
-cp -r /usr/lib/python2.4/site-packages/<module_name> /usr/local/lib/python2.6/site-packages/

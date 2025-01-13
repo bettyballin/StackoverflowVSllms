@@ -1,0 +1,1 @@
+INSERT INTO ...\nFROM YourTable AS t1\nLEFT JOIN YourTable AS t2\n    ON t1.YourColumn = t2.ValidationColumn\nWHERE t2.ValidationColumn IS NULL

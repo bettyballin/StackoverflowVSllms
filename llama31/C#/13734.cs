@@ -1,0 +1,1 @@
+<div onclick="<%= Ajax.JavaScriptStringEncode(Ajax.ActionLink("Action", "Controller", params, new AjaxOptions { InsertionMode = InsertionMode.Replace, UpdateTargetId = "WorkorderDetails" }).ToString()) %>"></div>

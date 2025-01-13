@@ -1,1 +1,0 @@
-<!-- Example of including a header in BlogEngine.NET -->\n<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="header.ascx.cs" Inherits="BlogEngine.Core.Web.Controls.Header" %>

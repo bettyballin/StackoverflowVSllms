@@ -1,0 +1,1 @@
+SELECT TOP 50 77 AS Repository, DocID, LastFileDate, ImageCount,\n LockedUserID,   DocClass, Offline, FileType, OrigFileName, C_CredCardSSN, C_CredCardName,C_CredCardDocType, C_CredCardDocDate, C_CredCardStatus \n\nFROM D77 \n\nWHERE C_CredCardSSN \nLIKE @sp1 + '%'\n\nORDER BY C_CredCardSSN,C_CredCardName

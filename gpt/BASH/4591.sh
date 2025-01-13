@@ -1,1 +1,0 @@
-composer create-project -sdev laminas/laminas-mvc-skeleton path/to/install

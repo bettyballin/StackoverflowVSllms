@@ -1,0 +1,1 @@
+DataSet ds = new DataSet();\nds.ReadXml(xml);\n\n// Access the 'attr' attribute\nstring attrValue = ds.Tables[0].Rows[0]["attr"].ToString();

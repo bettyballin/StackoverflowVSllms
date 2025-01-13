@@ -1,0 +1,1 @@
+svn mv --force /dir1/file.txt /dir2/file.txt.new

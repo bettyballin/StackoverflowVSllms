@@ -1,1 +1,0 @@
-<Target Name="PostGenerateEntities" AfterTargets="AfterBuild">\n  <Exec Command="powershell -File path\to\your\script.ps1" />\n</Target>

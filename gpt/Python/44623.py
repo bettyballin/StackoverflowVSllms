@@ -1,1 +1,0 @@
-N = 3  # Example: find Foos with at least 3 Bar entities\nfoos_with_at_least_n_bars = Foo.all().filter('bar_count >=', N).fetch(fetch_count)

@@ -1,0 +1,1 @@
+// jQuery code\n$(document).ready(function() {\n  // select all buttons and add event handler\n  $('button').click(function() {\n    // handle click event\n  });\n});

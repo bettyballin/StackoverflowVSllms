@@ -1,0 +1,1 @@
+DirectoryInfo directoryInfo = new DirectoryInfo(@"C:\Program Files\MyPath");\nDirectorySecurity directorySecurity = directoryInfo.GetAccessControl();\ndirectorySecurity.AddAccessRule(new FileSystemAccessRule("YourUserOrGroup", FileSystemRights.Write, AccessControlType.Allow));\ndirectoryInfo.SetAccessControl(directorySecurity);

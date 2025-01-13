@@ -1,0 +1,1 @@
+if (Modernizr.ie) {\n  document.write("<a href='ie-only.html'>Click here!</a>");\n} else {\n  document.write("<a href='all-other-browsers.html'>Click here!</a>");\n}

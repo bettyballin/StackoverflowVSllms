@@ -1,1 +1,0 @@
-using System;\n   using System.Runtime.InteropServices;\n\n   [ComVisible(true)]\n   [Guid("XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX")]\n   public class MyClass\n   {\n       public string MyMethod(string input)\n       {\n           return "Hello, " + input;\n       }\n   }

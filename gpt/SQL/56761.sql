@@ -1,1 +1,0 @@
-SELECT n_tup_upd, n_tup_del, n_live_tup, n_dead_tup\nFROM pg_stat_all_tables\nWHERE relname = 'pagelinks';

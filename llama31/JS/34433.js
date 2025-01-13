@@ -1,0 +1,1 @@
+const iframe = document.querySelector('iframe');\niframe.addEventListener('load', function() {\n  console.log("Iframe loaded");\n});

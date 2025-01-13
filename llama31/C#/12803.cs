@@ -1,0 +1,1 @@
+string country = "France";\nstring hotel = "Hotel Movenpick";\n\n// Convert to lowercase\ncountry = country.ToLower();\nhotel = hotel.ToLower();\n\n// Replace spaces with hyphens\ncountry = country.Replace(" ", "-");\nhotel = hotel.Replace(" ", "-");\n\n// Create the URL\nstring url = $"http://www.travel.com/{country}/{hotel}";\n\nConsole.WriteLine(url);

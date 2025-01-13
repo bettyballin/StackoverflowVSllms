@@ -1,0 +1,1 @@
+$results[] = deepCopy($array);

@@ -1,0 +1,1 @@
+// Client-side (JavaScript)\nvar source = new EventSource('/updates');\nsource.onmessage = function(event) {\n  // Update the page with new content\n};

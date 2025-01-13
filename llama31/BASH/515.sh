@@ -1,0 +1,1 @@
+for i in {1..77}; do\n  echo "file$i" > "file$i"\ndone

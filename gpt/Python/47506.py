@@ -1,1 +1,0 @@
-from django.urls import path\n   from .views import confirm_email\n\n   urlpatterns = [\n       path('confirm/<uidb64>/<token>/', confirm_email, name='confirm_email'),\n   ]

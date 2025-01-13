@@ -1,1 +1,0 @@
-#!/bin/bash\nline=1\nwhile IFS= read -r line_content; do\n    if (( (line - 32) % 15 == 0 )) && (( line >= 32 )); then\n        echo "#"\n    fi\n    echo "$line_content"\n    ((line++))\ndone < input_file > output_file

@@ -1,0 +1,1 @@
+// Attach to the process using the Native debugger\nDebugger.Attach(Process.GetCurrentProcess().Id, DebuggerType.Native);

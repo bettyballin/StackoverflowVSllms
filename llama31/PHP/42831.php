@@ -1,0 +1,1 @@
+// Set the session ID\nsession_id('your_unique_session_id');\n\n// Start the session\nsession_start();

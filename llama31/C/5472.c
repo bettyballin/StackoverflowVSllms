@@ -1,0 +1,1 @@
+FILE* in = fdopen(fd, "r");\nif (in == NULL) {\n    perror("fdopen");\n    exit(1);\n}

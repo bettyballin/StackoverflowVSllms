@@ -1,0 +1,1 @@
+-- Drop table\nDROP TABLE my_table;\n\n-- Truncate table\nTRUNCATE TABLE my_table;

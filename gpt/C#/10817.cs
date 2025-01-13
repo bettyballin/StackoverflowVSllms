@@ -1,1 +1,0 @@
-double volume;\nif (double.TryParse(uxVolume.Text, out volume))\n{\n    // Valid volume, proceed with your logic\n    // do something\n}\nelse\n{\n    // Handle invalid input\n    // e.g., display an error message or log the incident\n}

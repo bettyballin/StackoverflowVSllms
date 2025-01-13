@@ -1,0 +1,1 @@
+Assembly.LoadFrom(@"file:///H:/boo-svn/bin/boo.exe", Evidence);

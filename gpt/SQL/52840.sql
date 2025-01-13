@@ -1,1 +1,0 @@
--- Enable xp_cmdshell if it is not already enabled\nEXEC sp_configure 'show advanced options', 1;\nRECONFIGURE;\nEXEC sp_configure 'xp_cmdshell', 1;\nRECONFIGURE;\n\n-- Write text to a file using xp_cmdshell\nDECLARE @cmd NVARCHAR(4000);\nSET @cmd = 'echo Your text here > C:\path\to\your\file.txt';\nEXEC xp_cmdshell @cmd;

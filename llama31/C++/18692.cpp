@@ -1,0 +1,1 @@
+myproject/\nmyclass.h\nmyclass.cpp\nanotherclass.h\nanotherclass.cpp\ninterface.h\ninterface.cpp\nutils/\nutils.h\nutils.cpp\nmain.cpp\nCMakeLists.txt

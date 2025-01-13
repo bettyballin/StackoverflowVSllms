@@ -1,1 +1,0 @@
-Account(oracle::occi::Environment* env);\nAccount(void* oraCtx);

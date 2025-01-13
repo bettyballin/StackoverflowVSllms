@@ -1,1 +1,0 @@
-from django.db.models import Value\nfrom django.db.models.functions import Coalesce\n\n# Example usage in a queryset\nMyModel.objects.annotate(\n    my_field=Coalesce('field1', 'field2', Value('default_value'))\n)

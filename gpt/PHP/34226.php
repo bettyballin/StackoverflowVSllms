@@ -1,1 +1,0 @@
-date_default_timezone_set('America/New_York');\necho date('Y-m-d H:i:s');

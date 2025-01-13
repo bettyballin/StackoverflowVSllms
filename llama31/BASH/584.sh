@@ -1,0 +1,1 @@
+sqlcmd -S myServer -d myDB -E -Q "select col1, col2, col3 from SomeTable" \n     -o "MyData.csv" -s"," -W

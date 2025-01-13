@@ -1,0 +1,1 @@
+// In your page's form:\n@Html.AntiForgeryToken()\n\n// In your page's Load event handler:\nprotected void Page_Load(object sender, EventArgs e)\n{\n    if (!Page.IsPostBack)\n    {\n        // Validate the anti-forgery token\n        AntiForgery.Validate();\n    }\n}

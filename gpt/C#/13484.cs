@@ -1,1 +1,0 @@
-DataRow row = table.NewRow();\nrow["ID"] = 1;\nrow["Name"] = "John Doe";\nrow["Status"] = (int)Status.Active; // Cast enum to int\ntable.Rows.Add(row);

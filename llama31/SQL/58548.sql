@@ -1,0 +1,1 @@
+CREATE TABLE CLIENT\n(\n  NAME VARCHAR2(11 CHAR),\n  ID_CLIENT NUMBER\n);\n\nINSERT INTO CLIENT (NAME) VALUES ('¿Cómo estás?');  // 11 characters, stored successfully

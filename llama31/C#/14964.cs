@@ -1,0 +1,1 @@
+ColorDialog colorDialog = new ColorDialog();\n\nif (colorDialog.ShowDialog() == DialogResult.OK)\n{\n    if (colorDialog.CustomColors.Length > 0)\n    {\n        // User has added one or more custom colors\n        Console.WriteLine("Custom color(s) added");\n    }\n}

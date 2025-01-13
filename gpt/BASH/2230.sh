@@ -1,1 +1,0 @@
-*/2 * * * * /usr/bin/php /path/to/your/script/process_signup.php

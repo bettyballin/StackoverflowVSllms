@@ -1,1 +1,0 @@
-xcopy "$(SolutionDir)Path\To\ThirdPartyDLLs\*.*" "$(SolutionDir)MainApplication\bin\$(ConfigurationName)\" /Y

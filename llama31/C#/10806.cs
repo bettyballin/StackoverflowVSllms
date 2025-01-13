@@ -1,0 +1,1 @@
+public partial class VotingPolls : System.Web.UI.UserControl\n{\n    public override bool Visible\n    {\n        get { return base.Visible; }\n        set { base.Visible = value; }\n    }\n    // ...\n}

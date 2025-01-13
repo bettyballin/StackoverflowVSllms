@@ -1,0 +1,1 @@
+$people = array(3, 20);\n$wantedCriminals = array(2, 4, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20);\n\n$intersection = array_intersect($people, $wantedCriminals);\n\nif (!empty($intersection)) {\n    echo "True";\n} else {\n    echo "False";\n}

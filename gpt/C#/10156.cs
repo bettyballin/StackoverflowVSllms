@@ -1,1 +1,0 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="b.aspx.cs" Inherits="b" %>\n<!DOCTYPE html>\n<html>\n<head>\n    <title>Content</title>\n</head>\n<body>\n    Content String\n</body>\n</html>

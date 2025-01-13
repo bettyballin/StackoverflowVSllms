@@ -1,0 +1,1 @@
+DECLARE @batchSize INT = 1000;\n\nWHILE 1 = 1\nBEGIN\n    INSERT INTO Table2 (id, field1, ...)\n    SELECT TOP (@batchSize) id, NULL, ...\n    FROM Table1\n    WHERE id NOT IN (SELECT id FROM Table2);\n\n    IF @@ROWCOUNT = 0\n        BREAK;\nEND;

@@ -1,0 +1,1 @@
+class MyClass {\n    public function __destruct() {\n        echo "Destruct called\n";\n    }\n}\n\n$obj = new MyClass();\nexit(); // __destruct() will not be called

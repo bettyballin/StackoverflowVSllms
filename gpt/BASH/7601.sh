@@ -1,1 +1,0 @@
-#!/bin/bash\n    # Navigate to your project directory\n    cd /path/to/your/eclipse/project\n\n    # Run the Maven command to clean and package the project\n    mvn clean package\n\n    # The WAR file will be created in the target directory

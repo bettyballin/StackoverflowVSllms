@@ -1,0 +1,1 @@
+using Oracle.ManagedDataAccess.Client;\n\nstring connectionString = "Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=your_host)(PORT=your_port))(CONNECT_DATA=(SERVICE_NAME=your_service_name)));User ID=your_username;Password=your_password;";\nusing (OracleConnection connection = new OracleConnection(connectionString))\n{\n    connection.Open();\n    // execute queries\n}

@@ -1,0 +1,1 @@
+BEGIN\n  DBMS_SCHEDULER.SET_ATTRIBUTE (\n    name      => 'MY_SINGLETON_JOB',\n    attribute => 'MAX_INSTANCES',\n    value     => 1);\nEND;

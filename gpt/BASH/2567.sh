@@ -1,1 +1,0 @@
-tlbimp MyComDll.dll /out:MyInterop.dll /asmversion:1.2.42.0

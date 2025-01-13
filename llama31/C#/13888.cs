@@ -1,0 +1,1 @@
+protected void Repeater1_ItemDataBound(object sender, RepeaterItemEventArgs e)\n{\n    if (e.Item.ItemType == ListItemType.Item || e.Item.ItemType == ListItemType.AlternatingItem)\n    {\n        ThumbViewer thumbViewer = (ThumbViewer)e.Item.FindControl("Th1");\n        thumbViewer.ImageUrl = "images/" + DataBinder.Eval(e.Item.DataItem, "Name").ToString();\n    }\n}

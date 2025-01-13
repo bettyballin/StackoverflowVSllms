@@ -1,1 +1,0 @@
-public YourEntity GetLatestVersion(int id)\n{\n    using (var context = new DataContext(connectionString))\n    {\n        return context.GetTable<YourEntity>()\n                      .Where(e => e.ID == id)\n                      .OrderByDescending(e => e.Version)\n                      .FirstOrDefault();\n    }\n}

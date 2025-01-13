@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Set the WAR file name and destination directory\nWAR_FILE="myapp.war"\nDEST_DIR="/path/to/deploy/dir"\n\n# Create the WAR file\njar -cvf $WAR_FILE .\n\n# Deploy the WAR file\ncp $WAR_FILE $DEST_DIR

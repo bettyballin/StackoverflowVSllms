@@ -1,0 +1,1 @@
+$string = 'your russian text here'; // e.g. 'Привет, мир!'\n$utf8_string = mb_convert_encoding($string, 'UTF-8', 'Windows-1251');\n\necho $utf8_string;

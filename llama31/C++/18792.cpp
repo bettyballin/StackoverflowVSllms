@@ -1,0 +1,1 @@
+class BankAccount {\npublic:\n    void deposit(double amount) {\n        balance_ += amount;\n    }\n\nprivate:\n    double balance_;\n};

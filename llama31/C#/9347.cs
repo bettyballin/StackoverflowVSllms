@@ -1,0 +1,1 @@
+// C# 1.0\nDelegate d = new Delegate(SomeMethod);\n\n// C# 2.0\nDelegate d = SomeMethod;\n\n// C# 3.0\nvar d = SomeMethod;

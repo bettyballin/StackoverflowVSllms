@@ -1,1 +1,0 @@
-def count_lines(file_path):\n    with open(file_path, 'r') as file:\n        return sum(1 for line in file)\n\n# Example usage\nfile_path = 'your_file.txt'\nprint(f'Number of lines: {count_lines(file_path)}')

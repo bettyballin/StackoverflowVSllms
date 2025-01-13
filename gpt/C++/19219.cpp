@@ -1,1 +1,0 @@
-#include <windows.h>\n\nCRITICAL_SECTION cs;\n\nvoid InitializeCriticalSectionCustom() {\n    InitializeCriticalSection(&cs);\n}\n\nvoid DeleteCriticalSectionCustom() {\n    DeleteCriticalSection(&cs);\n}\n\nvoid YourFunction() {\n    EnterCriticalSection(&cs);\n    // Your code here\n    LeaveCriticalSection(&cs);\n}

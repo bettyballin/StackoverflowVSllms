@@ -1,1 +1,0 @@
-#!/bin/bash\n\n   # Process the delayed mail queue\n   /usr/sbin/sendmail -q -OQueueDirectory=/var/spool/mqueue-delayed

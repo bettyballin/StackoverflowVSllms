@@ -1,1 +1,0 @@
-class Foo(db.Model):\n    bars = db.ListProperty(db.Key)\n    bar_count = db.IntegerProperty(default=0)

@@ -1,0 +1,1 @@
+set @sum = select Sum(t.[VISITINGCOUNT]) from

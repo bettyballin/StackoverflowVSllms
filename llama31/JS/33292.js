@@ -1,0 +1,1 @@
+// Override XMLHttpRequest\nXMLHttpRequest.prototype.open = function() {\n  throw new Error("AJAX requests are disabled");\n};\n\n// Override fetch\nwindow.fetch = function() {\n  throw new Error("AJAX requests are disabled");\n};

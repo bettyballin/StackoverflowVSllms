@@ -1,1 +1,0 @@
-INSERT INTO Species (SpeciesName)\n   SELECT DISTINCT Species FROM original_table;

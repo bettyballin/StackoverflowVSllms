@@ -1,0 +1,1 @@
+head -n 100 large_file.csv > shortened_file.csv

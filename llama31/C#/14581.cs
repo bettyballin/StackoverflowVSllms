@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (IsPostBack)\n    {\n        // You can also store the scroll position in ViewState or Session\n        // if you prefer\n        hidScrollPosition.Value = Request.Form[hidScrollPosition.UniqueID];\n    }\n}

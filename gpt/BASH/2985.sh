@@ -1,1 +1,0 @@
-cd /var/www/your-project\n   git init

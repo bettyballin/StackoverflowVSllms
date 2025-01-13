@@ -1,1 +1,0 @@
-if ($var != 'test1' && $var != 'test2' && $var != 'test3' && $var != 'test4') {\n    // Your code here\n}

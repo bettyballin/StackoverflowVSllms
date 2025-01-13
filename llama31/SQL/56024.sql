@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX IX_parent_product_id ON product_bill_of_materials (parent_product_id)\nCREATE NONCLUSTERED INDEX IX_child_product_id ON product_bill_of_materials (child_product_id)

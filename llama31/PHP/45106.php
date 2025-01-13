@@ -1,0 +1,1 @@
+$form = new Zend_Form();\n$form->addElement('hash', 'csrf_token', array(\n    'salt' => 'your_secret_salt',\n    'timeout' => 300 // 5 minutes\n));

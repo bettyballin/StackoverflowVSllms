@@ -1,0 +1,1 @@
+myWebRequest.Headers["Content-Encoding"] = "gzip";

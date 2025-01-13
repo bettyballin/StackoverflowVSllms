@@ -1,0 +1,1 @@
+use Kint;\n\n$array = array('one' => 1);\nKint::dump($array);

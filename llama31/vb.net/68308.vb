@@ -1,0 +1,1 @@
+Dim value As Integer = 1\nSelect Case value\n    Case 1\n        ' code to execute\n    Case 2\n        ' code to execute\n    Case Else\n        ' code to execute\nEnd Select

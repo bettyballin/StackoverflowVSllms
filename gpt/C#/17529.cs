@@ -1,1 +1,0 @@
-<%@ Control Language="C#" AutoEventWireup="true" Inherits="System.Web.Mvc.ViewUserControl<Person>" %>\n<div class="person">\n  First Name: <%= Html.TextBox("FirstName", Model.FirstName) %>\n  Last Name: <%= Html.TextBox("LastName", Model.LastName) %>\n</div>

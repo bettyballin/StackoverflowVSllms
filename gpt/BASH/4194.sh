@@ -1,1 +1,0 @@
-regsvr32 /u iwamreg.dll\n    regsvr32 iwamreg.dll\n    regsvr32 /u asptxn.dll\n    regsvr32 asptxn.dll

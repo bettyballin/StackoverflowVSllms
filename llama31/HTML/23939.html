@@ -1,0 +1,1 @@
+-- Simple XSS\n<script>alert('XSS')</script>\n\n-- XSS with HTML encoding\n<img src=x onerror=alert('XSS')>\n\n-- XSS with JavaScript encoding\njavascript:alert('XSS')\n\n-- DOM-based XSS\n<div id="test"></div>\n<script>document.getElementById('test').innerHTML = '<script>alert("XSS")</script>'</script>

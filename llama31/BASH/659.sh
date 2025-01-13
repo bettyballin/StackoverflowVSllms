@@ -1,0 +1,1 @@
+history | grep 510 | sed '1q;d' | cut -d' ' -f2- | pbcopy

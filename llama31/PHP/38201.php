@@ -1,0 +1,1 @@
+$data = addslashes($input);

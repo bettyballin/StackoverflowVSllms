@@ -1,0 +1,1 @@
+// Create a new 'row' element\nvar newRow = xmlDoc.createElement('row');\nnewRow.setAttribute('id', 'new-id');\nvar newName = xmlDoc.createElement('name');\nnewName.appendChild(xmlDoc.createTextNode('New Name'));\nnewRow.appendChild(newName);\n\n// Add the new row to the root element\nroot.appendChild(newRow);

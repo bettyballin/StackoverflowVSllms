@@ -1,1 +1,0 @@
-using (var context = new MyDbContext())\n{\n    context.Database.EnsureCreated();\n    \n    context.MyModels.Add(new MyModel { Name = "Example" });\n    context.SaveChanges();\n\n    var data = context.MyModels.ToList();\n}

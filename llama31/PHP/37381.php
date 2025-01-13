@@ -1,0 +1,1 @@
+$request_url = "http://exampleurl.com/feed";\n\n$context = stream_context_create(array(\n    'http' => array(\n        'method' => 'GET',\n        'header' => 'Accept: application/json'\n    )\n));\n\n$json = file_get_contents($request_url, false, $context);\n\n$decode = json_decode($json, true);\n\nprint_r($decode);

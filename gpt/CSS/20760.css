@@ -1,1 +1,0 @@
-/* Ensure parent elements have position: relative */\nli {\n    position: relative;\n    z-index: 1; /* Set a z-index on the parent element */\n}\n\n/* Ensure the span.info is on top */\nspan.info {\n    position: absolute; /* or relative, depending on your layout */\n    z-index: 1000; /* Ensure it's higher than any potential conflicting elements */\n}

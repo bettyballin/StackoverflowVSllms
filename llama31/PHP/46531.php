@@ -1,0 +1,1 @@
+<?php\nsession_start();\nif (isset($_POST['info'])) {\n  $_SESSION['var'] = $_POST['info'];\n}\n?>

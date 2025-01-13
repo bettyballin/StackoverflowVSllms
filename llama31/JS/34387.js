@@ -1,0 +1,1 @@
+codeTextBox.resizable({\n    handles: { s : $(".resizable-s").appendTo(codeTextBox) },\n    minHeight: 80,\n    maxHeight: 400\n});

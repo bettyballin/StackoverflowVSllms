@@ -1,0 +1,1 @@
+INSERT IGNORE INTO friends (requestor, buddy)\nVALUES\n  ('value1', 'value2'),\n  ('value2', 'value1'),\n  ('value3', 'value4'),\n  ('value4', 'value3'),\n  ('value1', 'value2');  // duplicate record

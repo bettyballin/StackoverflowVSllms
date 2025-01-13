@@ -1,0 +1,1 @@
+EXEC sys.sp_set_firewall_rule @name = N'Block Attacker IP', @start_ip_address = 'x.x.x.x', @end_ip_address = 'x.x.x.x';

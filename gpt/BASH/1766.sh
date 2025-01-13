@@ -1,1 +1,0 @@
-curl -X POST -H "Content-Type: application/json" -d '{"id": 3, "title": "Brave New World", "author": "Aldous Huxley"}' http://127.0.0.1:5000/api/books

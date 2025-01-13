@@ -1,1 +1,0 @@
-System.Xml.XmlDocument oXmlDoc = new System.Xml.XmlDocument();\noXmlDoc.Load(Server.MapPath("xml.xml")); // load XML file\n\nXmlNode root = oXmlDoc.DocumentElement;\n\nfor (int x = 0; x < root.ChildNodes.Count; x++) // loop through children and add to session\n{\n    Session[root.ChildNodes.Item(x).Name] = root.ChildNodes.Item(x).InnerText; // add XML values to session\n}

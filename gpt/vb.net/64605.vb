@@ -1,1 +1,0 @@
-Public Class MailMessage\n    Public Property FromAddress As String\n    Public Property ToAddresses As List(Of String)\n    Public Property Subject As String\n    ' Other properties and methods\nEnd Class

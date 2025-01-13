@@ -1,0 +1,1 @@
+protected override System.Collections.Generic.IEnumerable<ScriptReference> GetScriptReferences()\n{\n    var references = base.GetScriptReferences();\n    references.Add(new ScriptReference("YourNamespace.YourScript.js"));\n    return references;\n}

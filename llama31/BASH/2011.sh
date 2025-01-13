@@ -1,0 +1,1 @@
+$libraryProject = "Library.csproj"\n$webSiteA = "WebSiteA.csproj"\n$webSiteB = "WebSiteB.csproj"\n\nmsbuild $libraryProject -t:Build -p:Configuration=Release\nmsbuild $webSiteA -t:Publish -p:Configuration=Release -p:PublishProfile=FileSystem -p:publishUrl=C:\Publish\A\nmsbuild $webSiteB -t:Publish -p:Configuration=Release -p:PublishProfile=FileSystem -p:publishUrl=C:\Publish\B

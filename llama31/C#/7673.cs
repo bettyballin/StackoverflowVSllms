@@ -1,0 +1,1 @@
+[Route("api/my-service")]\npublic class MyServiceController : ApiController\n{\n  [HttpPost]\n  public DateTime GetDate()\n  {\n    return DateTime.Now;\n  }\n}

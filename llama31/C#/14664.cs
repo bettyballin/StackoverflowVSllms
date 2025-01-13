@@ -1,0 +1,1 @@
+var result = from f in db.Foos\n             join fb in db.FooBars on f.FooId equals fb.FooId\n             where fb.BarId == 1000\n             select f;

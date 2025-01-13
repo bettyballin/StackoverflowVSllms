@@ -1,1 +1,0 @@
-LDFLAGS="-L/usr/local/lib/amd64" CFLAGS="-m64" ./configure --prefix=/usr/local/gcc-4.4.0 --enable-languages=c,c++

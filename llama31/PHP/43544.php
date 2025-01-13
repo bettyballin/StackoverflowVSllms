@@ -1,0 +1,1 @@
+class MyClass {\n    public $id = 42;\n    public $_tbl_key = 'id';\n\n    public function test() {\n        $k = $this->_tbl_key;\n        echo $this->$k; // outputs 42\n    }\n}

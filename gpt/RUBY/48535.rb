@@ -1,1 +1,0 @@
-class ApplicationController < ActionController::Base\n      include SslRequirement\n\n      ssl_required :signup\n\n      def signup\n        # Signup logic here\n      end\n    end

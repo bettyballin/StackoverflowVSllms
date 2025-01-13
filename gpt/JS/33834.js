@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    // Your code to add HTML elements\n    var newElement = $('<div>New Element</div>');\n    $('body').append(newElement);\n});

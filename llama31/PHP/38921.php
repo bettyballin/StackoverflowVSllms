@@ -1,0 +1,1 @@
+use phpseclib\Math\BigInteger;\n\n$largenum = new BigInteger('95635000009453274121700');\n$result = $largenum->mod(97);\necho $result->toString();

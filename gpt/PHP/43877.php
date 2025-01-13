@@ -1,1 +1,0 @@
-xdebug_start_trace('/path/to/your/xdebug/logs/trace');\n     // Your PHP code here\n     xdebug_stop_trace();

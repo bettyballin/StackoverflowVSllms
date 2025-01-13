@@ -1,0 +1,1 @@
+DataSetProducts.productsDataTable typedTable = new DataSetProducts.productsDataTable();\ntypedTable.Load(productlist.Skip(begin).Take(pagesize).CopyToDataTable().CreateDataReader());\nreturn typedTable;

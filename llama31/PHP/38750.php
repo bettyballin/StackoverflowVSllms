@@ -1,0 +1,1 @@
+<?php\n// generate JavaScript content\n$jsContent = 'console.log("Hello, World!");';\n\n// set the MIME type and output the content\nheader('Content-Type: text/javascript');\necho $jsContent;

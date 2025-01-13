@@ -1,1 +1,0 @@
-composer require --dev php-mock/php-mock

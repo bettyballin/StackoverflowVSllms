@@ -1,0 +1,1 @@
+BEGIN\n  FOR cur_rec IN (SELECT view_name FROM user_views WHERE status = 'INVALID') LOOP\n    EXECUTE IMMEDIATE 'ALTER VIEW ' || cur_rec.view_name || ' COMPILE';\n  END LOOP;\nEND;\n/

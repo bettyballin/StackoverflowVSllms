@@ -1,0 +1,1 @@
+class A {\n    public static function newInstance($myName) {\n        $instance = new self();\n        $instance->myName = $myName;\n        return $instance;\n    }\n}\n\nclass B extends A {\n    public function __construct() {\n        $anotherA = A::newInstance('stackoverflow');\n    }\n}

@@ -1,0 +1,1 @@
+[DataContract]\npublic class MyContract\n{\n    [DataMember]\n    public DateTime MyDate { get; set; }\n}\n\n// When setting the value\nMyContract.MyDate = DateTime.UtcNow;

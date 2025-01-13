@@ -1,1 +1,0 @@
-# Example: Replay a previously captured packet capture file\n   tcpreplay --intf1=<interface> <capture_file.pcap>

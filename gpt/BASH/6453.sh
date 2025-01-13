@@ -1,1 +1,0 @@
-sudo systemctl restart rmi-registry.service  # Example command, adjust based on your system

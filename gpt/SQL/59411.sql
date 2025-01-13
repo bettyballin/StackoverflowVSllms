@@ -1,1 +1,0 @@
-SELECT 'First Line' || CHR(10) || 'Second Line' AS Result;

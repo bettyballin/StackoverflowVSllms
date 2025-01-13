@@ -1,0 +1,1 @@
+#include <linux/fs.h>\n\n// ...\n\n// Get the file from the proc filesystem\nstruct file *file = filp_open(PROC_PIPE_NAME "/data", O_WRONLY, 0666);\nif (!file)\n    return -ENOENT;\n\n// Write the data to the pipe\nchar *data = "Hello, world!";\nkernel_write(file, data, strlen(data), &file->f_pos);\n\nfilp_close(file, NULL);

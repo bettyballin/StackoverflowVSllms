@@ -1,1 +1,0 @@
-/* CSS */\n.cleaner:after {\n    content: '';\n    display: block;\n    clear: both;\n    visibility: hidden;\n    height: 0;\n}

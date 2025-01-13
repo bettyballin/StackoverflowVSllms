@@ -1,1 +1,0 @@
-./profiler.sh flamegraph -f /path/to/output.jfr -o /path/to/output.html

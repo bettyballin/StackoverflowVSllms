@@ -1,1 +1,0 @@
-@echo off\nmsiexec /x {DD75996F-C279-420A-9A19-48EF9EFE70C2} /qn\n\nREM Deleting the application folder\nRD /s /q "C:\Documents and Settings\%username%\myCompanyName"\n\nREM Deleting the start menu folder\nRD /s /q "C:\Documents and Settings\%username%\Start Menu\Programs\myCompany"\n\npause

@@ -1,1 +1,0 @@
-cmd.Parameters.AddWithValue("@Field", this.Field ?? (object)DBNull.Value);

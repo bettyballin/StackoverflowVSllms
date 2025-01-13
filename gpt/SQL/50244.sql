@@ -1,1 +1,0 @@
-SELECT \n    EmailAddress,\n    STRING_AGG(Column2, ', ') AS Column2\nFROM \n    YourTable\nGROUP BY \n    EmailAddress;

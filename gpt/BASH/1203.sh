@@ -1,1 +1,0 @@
-sudo apt-get update\nsudo apt-get install iproute2\npip install tcconfig

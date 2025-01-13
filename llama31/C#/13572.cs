@@ -1,0 +1,1 @@
+string programFilesX86 = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86);\nstring myAppPath = Path.Combine(programFilesX86, "MyInstalledApp");

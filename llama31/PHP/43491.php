@@ -1,0 +1,1 @@
+$a = new stdClass();\n$a->value = 'Original value';\n\n$b = $a; // $b is now a reference to the same object as $a\n$b->value = 'New value';\n\nprint_r($a); // Output: stdClass Object ( [value] => New value )

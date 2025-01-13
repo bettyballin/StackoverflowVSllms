@@ -1,0 +1,1 @@
+public class Foo<T> { }\n\nFoo<object> x;

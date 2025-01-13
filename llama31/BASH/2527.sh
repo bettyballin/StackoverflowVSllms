@@ -1,0 +1,1 @@
+# Example usage:\nrslsync --generate-secret\nrslsync --sync --secret <secret>

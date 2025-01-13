@@ -1,0 +1,1 @@
+#include <Windows.h>\n\nBOOL WINAPI CtrlHandler(DWORD fdwCtrlType) {\n    if (fdwCtrlType == CTRL_C_EVENT || fdwCtrlType == CTRL_BREAK_EVENT) {\n        // Deallocate resources here\n        printf("Cleaning up...\n");\n        return TRUE;\n    }\n    return FALSE;\n}\n\nint main() {\n    SetConsoleCtrlHandler(CtrlHandler, TRUE);\n\n    // Your process code here...\n}

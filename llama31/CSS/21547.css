@@ -1,0 +1,1 @@
+.wrapper {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  display: flex;\n  flex-direction: column;\n}\n\n#header {\n  height: 24px;\n}\n\n#body {\n  flex: 1;\n  overflow: auto;\n}\n\n#footer {\n  min-height: 80px;\n  height: auto;\n  overflow: auto;\n}

@@ -1,1 +1,0 @@
-public static void RegisterRoutes(RouteCollection routes)\n   {\n       routes.Ignore("{resource}.axd/{*pathInfo}");\n       routes.MapPageRoute("AskRoute", "questions/ask", "~/questions/ask.aspx");\n       routes.MapPageRoute("HomeRoute", "", "~/default.aspx");\n       // Add more routes here\n   }

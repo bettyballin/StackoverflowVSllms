@@ -1,0 +1,1 @@
+// For CSS files\nResponse.ContentType = "text/css";\n\n// For JavaScript files\nResponse.ContentType = "application/javascript";

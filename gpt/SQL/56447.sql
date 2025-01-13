@@ -1,1 +1,0 @@
-ALTER TABLE RelatedTable1\nADD CONSTRAINT FK_RelatedTable1_Dictionary FOREIGN KEY (DictionaryID, DictionaryType)\nREFERENCES Dictionary(ID, TYPE);\n\nALTER TABLE RelatedTable2\nADD CONSTRAINT FK_RelatedTable2_Dictionary FOREIGN KEY (DictionaryID, DictionaryType)\nREFERENCES Dictionary(ID, TYPE);

@@ -1,1 +1,0 @@
-class MyClass\n     def initialize\n       puts "Instance created"\n     end\n   end\n\n   instance = MyClass.new

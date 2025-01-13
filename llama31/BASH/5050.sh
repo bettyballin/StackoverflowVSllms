@@ -1,0 +1,1 @@
+command="internal-sftp -d /path/to/allowed/directory" ssh-rsa AAAA...=

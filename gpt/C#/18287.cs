@@ -1,1 +1,0 @@
-var options = new DbContextOptionsBuilder<MyDbContext>()\n                  .UseInMemoryDatabase("TestDb").Options;

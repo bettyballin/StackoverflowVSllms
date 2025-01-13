@@ -1,1 +1,0 @@
-HelloWorldResponse response = MyService1.HelloWorld3();\nConsole.WriteLine(response.StrVal1);\nConsole.WriteLine(response.StrVal2);

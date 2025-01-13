@@ -1,0 +1,1 @@
+WebBrowser1.Hide();\nWebBrowser1.Navigate("about:blank");\nMarshal.ReleaseCOMObject(WebBrowser1.ActiveXInstance); // Add this line

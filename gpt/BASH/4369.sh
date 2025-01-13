@@ -1,1 +1,0 @@
-cacls <filename> /e /g <user>:<permissions>

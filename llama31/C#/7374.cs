@@ -1,0 +1,1 @@
+protected void YourButton_Click(object sender, EventArgs e)\n{\n    // Add variable to Session\n    Session["YourVariable"] = "some value";\n\n    // Refresh drop down\n    YourDropDown.ajaxMethod();\n}

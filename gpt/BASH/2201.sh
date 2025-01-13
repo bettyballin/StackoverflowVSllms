@@ -1,1 +1,0 @@
-gcc -mwindows -o myapp myapp.c

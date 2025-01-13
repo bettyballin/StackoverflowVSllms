@@ -1,0 +1,1 @@
+For Each match As Match In myMatches\n    Console.WriteLine(match.Value)\nNext

@@ -1,0 +1,1 @@
+function mymodule_views_pre_render(&$view) {\n  // Access the $view object here\n  print_r($view);\n}

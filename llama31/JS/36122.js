@@ -1,0 +1,1 @@
+somefunction(function(responseText){\n    // Do something with the response text\n    console.log(responseText);\n});

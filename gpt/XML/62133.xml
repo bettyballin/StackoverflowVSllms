@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.redisson</groupId>\n    <artifactId>redisson</artifactId>\n    <version>3.16.2</version>\n</dependency>

@@ -1,0 +1,1 @@
+for file in *.html; do\n  if ! grep -q "<html>" "$file"; then\n    mv "$file" "${file%.html}.htmlf"\n  fi\ndone

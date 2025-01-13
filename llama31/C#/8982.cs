@@ -1,0 +1,1 @@
+using System.Security.Cryptography;\n\npublic static string GenerateSalt(int saltSize)\n{\n    using (var rng = RandomNumberGenerator.Create())\n    {\n        var saltBytes = new byte[saltSize];\n        rng.GetBytes(saltBytes);\n        return BitConverter.ToString(saltBytes).Replace("-", "").ToLower();\n    }\n}

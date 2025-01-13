@@ -1,1 +1,0 @@
-#include <unistd.h> // Include this for the sleep function\n\nstatic void\nshow_next_image (GsteSlideshow *self)\n{\n    // Code to show the next image\n    // ...\n\n    // Add a delay of 10 seconds\n    sleep(10);\n}

@@ -1,0 +1,1 @@
+ccnet.exe encrypt "USERNAME" "PASSWORD"

@@ -1,0 +1,1 @@
+SELECT *\nFROM Event\nWHERE TO_CHAR(start_date, 'D') = 1\n   OR TO_CHAR(end_date, 'D') = 1\n   OR (start_date < end_date AND TO_CHAR(start_date + 1, 'D') = 1);

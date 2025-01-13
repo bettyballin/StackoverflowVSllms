@@ -1,0 +1,1 @@
+# crontab -e\n*/5 * * * * /usr/bin/php /path/to/your/script.php

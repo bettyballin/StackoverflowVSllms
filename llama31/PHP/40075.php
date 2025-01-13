@@ -1,0 +1,1 @@
+$checkbox_value = $_POST['checkbox_name'] ?? '';

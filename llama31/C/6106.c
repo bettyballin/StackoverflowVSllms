@@ -1,0 +1,1 @@
+--- php_geoip.h.orig   2012-02-15 14:30:35.000000000 +0100\n+++ php_geoip.h        2012-02-15 14:31:15.000000000 +0100\n@@ -59,7 +59,7 @@\n #define GEOIP_COUNTRY_CODE3 3\n #define GEOIP_COUNTRY_CODE2 2\n\n-#define geoip_time_t long\n+#define geoip_time_t int64_t\n\n typedef struct {\n        geoip_time_t timestamp;

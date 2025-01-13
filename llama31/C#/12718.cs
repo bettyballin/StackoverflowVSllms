@@ -1,0 +1,1 @@
+ProcessStartInfo startInfo = new ProcessStartInfo();\nstartInfo.UseShellExecute = true;\nstartInfo.WorkingDirectory = Environment.CurrentDirectory;\nstartInfo.FileName = System.Reflection.Assembly.GetExecutingAssembly().Location;\nstartInfo.Verb = "runas";\nProcess.Start(startInfo);

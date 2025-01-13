@@ -1,0 +1,1 @@
+SELECT * \nINTO #TEMP \nFROM OPENROWSET('Microsoft.ACE.OLEDB.12.0', \n                'Excel 12.0;Database=C:\YourPath\YourExcelFile.xlsx',\n                'SELECT * FROM [Sheet1$]')\n\n-- Then select from the temp table\nSELECT TOP 1 * FROM #TEMP;

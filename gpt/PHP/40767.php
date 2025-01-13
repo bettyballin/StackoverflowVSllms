@@ -1,1 +1,0 @@
-<?php\nerror_reporting(E_ALL);\nini_set('display_errors', 1);\n\n$mysqli = new mysqli("127.0.0.1", "yourusername", "yourpassword", "yourdatabase");\n\nif ($mysqli->connect_error) {\n    die("Connection failed: " . $mysqli->connect_error);\n} else {\n    echo "Connected successfully";\n}\n?>

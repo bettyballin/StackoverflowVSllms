@@ -1,1 +1,0 @@
-gcc -E yourfile.cpp -o yourfile.i

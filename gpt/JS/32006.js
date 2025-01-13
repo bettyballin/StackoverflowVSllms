@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    // Select the list items within the div\n    var links = $('#move-me ul li');\n    \n    // Append the links to the sidebar list\n    $('#sidebar-list').append(links);\n    \n    // Remove the original div and ul elements\n    $('#move-me').remove();\n});

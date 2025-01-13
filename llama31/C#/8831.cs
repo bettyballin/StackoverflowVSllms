@@ -1,0 +1,1 @@
+protected void Application_BeginRequest(object sender, EventArgs e)\n{\n    // Initialize database here\n    var db = new Db4oDatabase();\n    db.Init();\n    // ...\n}

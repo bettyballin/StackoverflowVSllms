@@ -1,0 +1,1 @@
+$.getJSON('/your-url', function(data) {\n  // safely use data here\n}).fail(function(xhr, status, error) {\n  console.error('Invalid JSON response');\n});

@@ -1,0 +1,1 @@
+mvn hibernate-tools:hbm2ddl

@@ -1,0 +1,1 @@
+// When a user locks a record\nUPDATE records SET lock = 1, locked_at = NOW() WHERE id = :id;\n\n// Cron job to release stuck locks\nSELECT * FROM records WHERE lock = 1 AND locked_at < (NOW() - INTERVAL 30 MINUTE);\n// For each record, update the lock to 0\nUPDATE records SET lock = 0 WHERE id = :id;

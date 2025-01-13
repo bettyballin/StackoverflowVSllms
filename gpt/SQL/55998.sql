@@ -1,1 +1,0 @@
-CREATE VIEW RecursiveView AS\nWITH RecursiveCTE AS (\n    SELECT Id, ParentId, Name\n    FROM TableName\n    WHERE ParentId IS NULL\n    UNION ALL\n    SELECT t.Id, t.ParentId, t.Name\n    FROM TableName t\n    INNER JOIN RecursiveCTE r ON t.ParentId = r.Id\n)\nSELECT * FROM RecursiveCTE;

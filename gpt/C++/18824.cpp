@@ -1,1 +1,0 @@
-void LogDebugInfo(const char* message) {\n    DWORD threadId = GetCurrentThreadId();\n    // Log thread ID along with the message\n    // e.g., write to a log file or debug output\n}

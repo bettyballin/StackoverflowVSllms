@@ -1,0 +1,1 @@
+DECLARE @temp TABLE (column1 int, column2 varchar(50));\nINSERT INTO @temp (column1, column2) SELECT column1, column2 FROM source_table;

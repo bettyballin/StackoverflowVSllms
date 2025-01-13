@@ -1,1 +1,0 @@
-#!/bin/sh\n    REPOS="$1"\n    REV="$2"\n    /usr/bin/svn update /server/staging

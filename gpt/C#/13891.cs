@@ -1,1 +1,0 @@
-// Example pseudocode for a web request to update user data\n   WebRequest request = new WebRequest();\n   request.setUrl("https://example.com/api/updateUser");\n   request.addParameter("userId", "1");\n   request.addParameter("email", "newemail@example.com");\n   WebResponse response = request.submit();

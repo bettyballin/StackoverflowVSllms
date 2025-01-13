@@ -1,0 +1,1 @@
+var vid = $(this).closest('form').find('input[name="pid"]').val();

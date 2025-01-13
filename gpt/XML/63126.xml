@@ -1,1 +1,0 @@
-<action-mappings>\n        <action path="/user" type="com.example.UserAction">\n            <forward name="success" path="/user.jsp"/>\n        </action>\n    </action-mappings>

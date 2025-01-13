@@ -1,0 +1,1 @@
+CREATE TABLE mytable (mycolumn VARCHAR(100));\n\nCREATE INDEX myindex ON mytable (mycolumn);\n\nSELECT * FROM mytable WHERE mycolumn LIKE 'This is%';

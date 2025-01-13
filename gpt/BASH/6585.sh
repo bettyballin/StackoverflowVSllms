@@ -1,1 +1,0 @@
-#!/bin/bash\n   export DISPLAY=:0\n   firefox $1 & # Start firefox and go to the passed-in URL\n   sleep 5      # Wait for 5 seconds to ensure the page is loaded\n   scrot test.png # Take screen grab

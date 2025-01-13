@@ -1,1 +1,0 @@
-cscript %SystemDrive%\Inetpub\AdminScripts\iiscnfg.vbs /export /f c:\server1_iis_config.xml /cfgobject /children /inherited

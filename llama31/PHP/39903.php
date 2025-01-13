@@ -1,0 +1,1 @@
+class user {\n    function __construct($id, $dbConfig) {\n        $this->db = new db($dbConfig['host'], $dbConfig['user'], $dbConfig['pass'], $dbConfig['database']);\n        // ...\n    }\n    // ...\n}

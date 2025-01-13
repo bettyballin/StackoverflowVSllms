@@ -1,0 +1,1 @@
+git clone --upload-pack=/usr/local/bin/git-upload-pack me@me.mydevbox.com:/home/chris/myproject

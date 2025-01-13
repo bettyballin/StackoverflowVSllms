@@ -1,0 +1,1 @@
+const markdown = '**Hello** *World!*';\nconst html = showdown.makeHtml(markdown);

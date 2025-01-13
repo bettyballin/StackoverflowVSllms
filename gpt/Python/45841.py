@@ -1,1 +1,0 @@
-@app.route('/dashboard')\ndef dashboard():\n    session_id = request.cookies.get('session_id')\n    if session_id and session_id == session.get('session_id'):\n        user_id = session.get('user_id')\n        # Retrieve and display user data\n        return f'Welcome, user {user_id}!'\n    else:\n        return redirect(url_for('login'))

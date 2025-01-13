@@ -1,1 +1,0 @@
-var unitOfWork = context.CreateUnitOfWork();\nvar customers = unitOfWork.Customers.Where(c => c.Name.StartsWith("A")).ToList();

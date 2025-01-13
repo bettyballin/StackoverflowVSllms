@@ -1,0 +1,1 @@
+xmllint --schema your_schema.xsd

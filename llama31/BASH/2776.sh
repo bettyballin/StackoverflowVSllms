@@ -1,0 +1,1 @@
+jstack -l <pid> > thread_dump.txt\njstat -gc -t <pid> > gc_stats.txt\njstat -gcutil -t <pid> > gc_util_stats.txt

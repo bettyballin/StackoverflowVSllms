@@ -1,0 +1,1 @@
+from bs4 import BeautifulSoup\n\nsoup = BeautifulSoup(result.content, 'html.parser')\ntext = soup.get_text()\n\n# Split the text into lines\nlines = text.splitlines()\n\n# Remove any empty strings from the list\nlines = [line.strip() for line in lines if line.strip()]\n\n# Now lines should contain the plain text data\nfor line in lines:\n    print(line)

@@ -1,0 +1,1 @@
+document.write('<scr' + 'ipt>alert("XSS")</sc' + 'ript>');

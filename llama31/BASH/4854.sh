@@ -1,0 +1,1 @@
+# Open the HTML file in VS Code\ncode index.html\n\n# Make some changes to the file...\n\n# Commit the changes to the Git repository\ngit add .\ngit commit -m "Updated index.html"\ngit push origin master

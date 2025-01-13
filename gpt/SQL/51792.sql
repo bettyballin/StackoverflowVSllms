@@ -1,1 +1,0 @@
--- When creating a new User\nINSERT INTO User (username) VALUES ('example_user');\nINSERT INTO EntityLog (entity_name, entity_id, action) VALUES ('User', LAST_INSERT_ID(), 'CREATE');\n\n-- When updating a User\nUPDATE User SET username = 'new_username' WHERE id = 1;\nINSERT INTO EntityLog (entity_name, entity_id, action) VALUES ('User', 1, 'UPDATE');

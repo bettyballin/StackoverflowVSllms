@@ -1,0 +1,1 @@
+using HtmlSanitizer;\n\n// ...\n\nstring sanitizedColor = sanitizer.Sanitize(userInputColor);

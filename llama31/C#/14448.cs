@@ -1,0 +1,1 @@
+var result = from a in db.TableA\n             where db.TableB.Any(b => b.xx == a.Id)\n             select new { a.Id, a.Name };

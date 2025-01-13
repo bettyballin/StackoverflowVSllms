@@ -1,1 +1,0 @@
-ALTER TABLE `day` ENGINE=InnoDB;

@@ -1,1 +1,0 @@
-// GET request\n[HttpGet]\npublic ActionResult Friends()\n{\n    // Code for handling GET request\n    return View();\n}\n\n// POST request\n[HttpPost]\npublic ActionResult Friends()\n{\n    // Code for handling POST request\n    return View();\n}

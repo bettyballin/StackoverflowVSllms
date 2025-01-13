@@ -1,0 +1,1 @@
+// Using jQuery Lazy Load\n$("img.lazy").lazyload({\n  effect: "fadeIn"\n});

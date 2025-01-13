@@ -1,0 +1,1 @@
+// Example using Authorize.net's AIM API\n$authnet = new AuthnetAIM('YOUR_API_ID', 'YOUR_TRANSACTION_KEY');\n$authnet->addField('card_num', $_POST['card_number']);\n$authnet->addField('exp_date', $_POST['exp_month'] . '/' . $_POST['exp_year']);\n\n// Store the transaction ID on your server

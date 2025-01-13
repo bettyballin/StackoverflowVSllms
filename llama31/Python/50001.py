@@ -1,0 +1,1 @@
+# ASCII encoding\nascii_text = "Hello, World!"\nascii_bytes = ascii_text.encode("ascii")\nprint(ascii_bytes)  # Output: b'Hello, World!'\n\n# ANSI encoding (using Code Page 1252)\nansi_text = "Hëllo, Wørld!"\nansi_bytes = ansi_text.encode("cp1252")\nprint(ansi_bytes)  # Output: b'H\xe9llo, W\xf8rld!'

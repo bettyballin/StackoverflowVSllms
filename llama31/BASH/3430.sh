@@ -1,0 +1,1 @@
+gcc -Werror=sign-compare your_file.c

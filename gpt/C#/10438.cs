@@ -1,1 +1,0 @@
-[WebMethod]\npublic static object GetCachedData(string cacheKey)\n{\n    var data = MyStaticClass.GetDataFromCache(cacheKey);\n    return data ?? "No data in cache"; // Return a message if the cache is empty\n}

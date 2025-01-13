@@ -1,1 +1,0 @@
-# Service-side code\nimport socket\n\ndef send_alert_to_client(message):\n    client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\n    client_socket.connect(('localhost', 65432))\n    client_socket.sendall(message.encode('utf-8'))\n    client_socket.close()\n\n# Example usage\nsend_alert_to_client("This is an alert message from the service.")

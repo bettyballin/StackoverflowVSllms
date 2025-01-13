@@ -1,0 +1,1 @@
+string uncPath = @"\\servername\d$\directory";\nMatch m = r.Match(uncPath);\nif (m.Success)\n{\n    string serverName = m.Groups[1].Value;\n    Console.WriteLine(serverName); // Output: servername\n}

@@ -1,1 +1,0 @@
-@media print {\n       body {\n           font-size: 10pt; /* Adjust as necessary */\n           margin: 0;\n           padding: 0;\n       }\n       .container {\n           margin: 0;\n           padding: 0;\n       }\n   }

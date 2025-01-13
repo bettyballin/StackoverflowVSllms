@@ -1,0 +1,1 @@
+$variable = filter_var($_GET['variable'], FILTER_SANITIZE_STRING);

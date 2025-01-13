@@ -1,1 +1,0 @@
-screen -S my_session -X screen top

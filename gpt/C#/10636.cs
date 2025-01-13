@@ -1,1 +1,0 @@
-using System;\nusing System.Windows.Forms;\n\nclass Program\n{\n    [STAThread]\n    static void Main()\n    {\n        string csvData = "1\t2\t3\t4\n5\t6\t7\t8";\n        \n        // Setting the clipboard text with tab-separated values\n        Clipboard.SetText(csvData, TextDataFormat.Text);\n        \n        Console.WriteLine("Data has been copied to clipboard.");\n    }\n}

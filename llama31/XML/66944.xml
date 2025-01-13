@@ -1,0 +1,1 @@
+<system.web>\n  <httpHandlers>\n    <add verb="POST" path="/upload-image" type="YourNamespace.ImageUploadHandler, YourAssemblyName" />\n  </httpHandlers>\n</system.web>

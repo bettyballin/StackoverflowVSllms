@@ -1,0 +1,1 @@
+#include <malloc.h>\n\n// ...\n\nint main() {\n    // ...\n\n    // After freeing the memory, call malloc_trim to force the allocator to return\n    // the memory to the operating system\n    malloc_trim(0);\n\n    // ...\n}

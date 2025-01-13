@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>com.mycompany.myproject</groupId>\n    <artifactId>original-artifact-modified</artifactId>\n    <version>1.0.0-mycompany-SNAPSHOT</version>\n</dependency>

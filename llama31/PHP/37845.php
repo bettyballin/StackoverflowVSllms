@@ -1,0 +1,1 @@
+// In PageController.php\npublic function index() {\n    $newsPost = $this->requestAction('/news_posts/latest');\n    $shortFact = $this->requestAction('/short_facts/random');\n    $guestBookNotes = $this->GuestBook->find('all');\n\n    $this->set(compact('newsPost', 'shortFact', 'guestBookNotes'));\n}

@@ -1,1 +1,0 @@
-RewriteEngine on\nRewriteCond %{QUERY_STRING} ^q=(.*)$\nRewriteRule ^(.*)$ /index.php/app/create/%1? [L]

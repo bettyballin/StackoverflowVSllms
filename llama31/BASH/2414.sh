@@ -1,0 +1,1 @@
+# Compile C program to assembly code\ngcc -S -o example.s example.c\n\n# Assemble assembly code to machine code\nas -o example.o example.s\n\n# Link object file to create executable\nld -o example example.o

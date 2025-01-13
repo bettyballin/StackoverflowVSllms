@@ -1,0 +1,1 @@
+protected void MyButton_Click(object sender, EventArgs e)\n{\n    string xaml = GenerateXamlFromData();\n    string script = $"document.getElementById('mySilverlightControl').SetXaml('{xaml}')";\n    ScriptManager.RegisterStartupScript(this, this.GetType(), "setXaml", script, true);\n}

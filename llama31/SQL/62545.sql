@@ -1,0 +1,1 @@
+SELECT *\nFROM songs\nWHERE upload_date >= NOW() - INTERVAL 1 MONTH;

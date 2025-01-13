@@ -1,0 +1,1 @@
+DELIMITER //\n\nCREATE FUNCTION normalize_string(input_string VARCHAR(255))\nRETURNS VARCHAR(255)\nBEGIN\n  DECLARE output_string VARCHAR(255);\n  SET output_string = LOWER(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(input_string, ' ', '-'), ',', ''), '/', '-'), '&', ''), '+', ''));\n  RETURN output_string;\nEND //\n\nDELIMITER ;

@@ -1,0 +1,1 @@
+Action a = TestMethod;\nAction b = TestMethod;\nAction c = b;\nb += a;\n\nConsole.WriteLine(object.ReferenceEquals(b, c)); // False\n\nb -= a;\nConsole.WriteLine(b.GetInvocationList().Length); // 1\nConsole.WriteLine(c.GetInvocationList().Length); // 2

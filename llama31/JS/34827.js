@@ -1,0 +1,1 @@
+document.getElementById('mySelect').addEventListener('keydown', function(event) {\n  return false;\n});

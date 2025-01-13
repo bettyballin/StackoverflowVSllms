@@ -1,1 +1,0 @@
-<bean id="transactionManager"\n      class="org.springframework.orm.hibernate3.HibernateTransactionManager">\n    <property name="sessionFactory" ref="orderDataSessionFactory"/>\n</bean>

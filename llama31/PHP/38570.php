@@ -1,0 +1,1 @@
+$userName = preg_replace('/[^a-zA-Z0-9\s]/', '', $userName); // Remove any non-alphanumeric characters except spaces\n$parsedUserName = str_replace(" ", ".", $userName);

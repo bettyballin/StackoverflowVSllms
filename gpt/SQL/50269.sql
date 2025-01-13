@@ -1,1 +1,0 @@
-SELECT t1.*\nFROM TABLE1 t1\nLEFT JOIN TABLE2 t2 ON t1.Table1Id = t2.Table1Id AND t2.UserId = 1\nWHERE t2.Table1Id IS NULL;

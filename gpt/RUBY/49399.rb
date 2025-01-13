@@ -1,1 +1,0 @@
-# Gemfile\ngroup :test do\n  gem 'factory_bot_rails'\nend

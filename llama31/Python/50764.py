@@ -1,0 +1,1 @@
+import locust\n\nclass UserBehavior(locust.TaskSet):\n    def on_start(self):\n        self.login()\n\n    def login(self):\n        self.client.post("/login", {"username": "user", "password": "password"})\n\n    @locust.task\n    def index(self):\n        self.client.get("/")\n\nlocust -f load_test.py --headless -u 100 -r 10

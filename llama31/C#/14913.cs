@@ -1,0 +1,1 @@
+public class ParentModel\n{\n    public string Name { get; set; }\n    public List<string> Children { get; set; }\n}

@@ -1,0 +1,1 @@
+ultraDateTimeEditor1.Format = "yyyy-MM-dd HH:mm:ss";

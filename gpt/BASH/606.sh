@@ -1,1 +1,0 @@
-gcc -Wall -Wno-newline-eof -o my_program my_program.c

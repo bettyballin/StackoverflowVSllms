@@ -1,0 +1,1 @@
+using (var session = sessionFactory.OpenSession())\n{\n    using (var transaction = session.BeginTransaction())\n    {\n        var singleMeeting = session.Load<Meeting>(10193);\n        singleMeeting.Subject = "This is a test 2";\n\n        session.Update(singleMeeting, new[] { "Subject" });\n\n        transaction.Commit();\n    }\n}

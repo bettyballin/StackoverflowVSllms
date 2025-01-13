@@ -1,1 +1,0 @@
-function callFlashFunction() {\n       var swf = document.getElementById("myFlashObject");\n       swf.myFlashFunction("Hello from JavaScript");\n   }

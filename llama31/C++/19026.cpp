@@ -1,0 +1,1 @@
+#include <vector>\n#include <string>\n#include <sstream>\n\nstd::vector<std::string> splitString(const std::string& str, char delimiter) {\n    std::vector<std::string> tokens;\n    std::stringstream ss(str);\n    std::string token;\n\n    while (std::getline(ss, token, delimiter)) {\n        tokens.push_back(token);\n    }\n\n    return tokens;\n}

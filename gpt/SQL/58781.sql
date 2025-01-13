@@ -1,1 +1,0 @@
-SELECT * FROM JobStepLog ORDER BY LogDate DESC;

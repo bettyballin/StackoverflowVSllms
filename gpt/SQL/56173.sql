@@ -1,1 +1,0 @@
-CREATE TABLE UserGroups (\n    UserID INT,\n    GroupID INT,\n    PRIMARY KEY (UserID, GroupID),\n    FOREIGN KEY (UserID) REFERENCES Users(UserID),\n    FOREIGN KEY (GroupID) REFERENCES Groups(GroupID)\n);

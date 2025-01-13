@@ -1,0 +1,1 @@
+Dim logFile As String = "C:\log.txt"\nDim listener As New FileTraceListener(logFile)\nTrace.Listeners.Add(listener)

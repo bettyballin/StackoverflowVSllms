@@ -1,0 +1,1 @@
+$.ajax({\n    // ...\n    success: function(response, status, xhr) {\n        if (xhr.status === 302) {\n            window.location.href = xhr.getResponseHeader('Location');\n        }\n    }\n});

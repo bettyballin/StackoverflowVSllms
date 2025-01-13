@@ -1,0 +1,1 @@
+import logging\n\n# Set up logging to write to a central location (e.g., a log aggregation server)\nlogging.basicConfig(\n    level=logging.INFO,\n    format='%(asctime)s %(levelname)s [%(name)s] %(message)s',\n    handlers=[\n        logging.StreamHandler(),\n        logging.handlers.SysLogHandler(address='/dev/log')\n    ]\n)

@@ -1,1 +1,0 @@
-var caseNoteForm = new CaseNoteForm(selectedCaseNote);\ncaseNoteForm.Show();

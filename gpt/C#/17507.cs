@@ -1,1 +1,0 @@
-// Business Logic Layer\npublic class ProductManager\n{\n    private readonly ProductService _productService;\n\n    public ProductManager(ProductService productService)\n    {\n        _productService = productService;\n    }\n\n    public IList<Product> GetProducts()\n    {\n        return _productService.GetAllProducts();\n    }\n}

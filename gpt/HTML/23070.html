@@ -1,1 +1,0 @@
-<ul>\n        {% if 'app_label.can_view_menu1' in menu_permissions %}\n        <li><a href="{% url 'menu1_url' %}">Menu 1</a></li>\n        {% endif %}\n        {% if 'app_label.can_view_menu2' in menu_permissions %}\n        <li><a href="{% url 'menu2_url' %}">Menu 2</a></li>\n        {% endif %}\n    </ul>

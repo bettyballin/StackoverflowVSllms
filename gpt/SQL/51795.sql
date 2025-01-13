@@ -1,1 +1,0 @@
-EXEC GetTopRecords @top = 10

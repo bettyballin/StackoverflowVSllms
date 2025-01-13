@@ -1,1 +1,0 @@
-import importlib\nimport dir2.file2 as file2\n\nclass ClassOne:\n    def reload_module(self):\n        importlib.reload(file2)

@@ -1,0 +1,1 @@
+<MachineKey \n  validationKey="your_unique_validation_key_here" \n  decryptionKey="your_unique_decryption_key_here" \n  validation="HMACSHA256" \n  decryption="AES" \n/>

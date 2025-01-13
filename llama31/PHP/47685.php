@@ -1,0 +1,1 @@
+function htmlentities_quote($string) {\n    return htmlentities($string, ENT_QUOTES);\n}\n\n// Usage with array_map()\n$array = array('foo', 'bar', 'baz');\n$escapedArray = array_map('htmlentities_quote', $array);

@@ -1,0 +1,1 @@
+Public Declare Function LoadLibrary Lib "kernel32" Alias "LoadLibraryW" (ByVal lpLibFileName As String) As Long\n\nLoadLibrary "shell32.dll"

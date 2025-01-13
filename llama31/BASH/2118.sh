@@ -1,0 +1,1 @@
+xdotool search --onlyvisible --name "Your Application Name"

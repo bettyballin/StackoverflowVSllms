@@ -1,0 +1,1 @@
+ln -s /path/to/httpdocs/nav.php /path/to/httpsdocs/nav.php

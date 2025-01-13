@@ -1,1 +1,0 @@
-function validateSubJobName(val) {\n    // Your validation logic here\n    return val.length <= 14 && !nameAlreadyExists(val);\n}\n\nfunction nameAlreadyExists(val) {\n    // Logic to check if the name already exists\n    return false; // or true based on your logic\n}

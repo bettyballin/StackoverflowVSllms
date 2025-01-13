@@ -1,0 +1,1 @@
+$servers = array('server1', 'server2', 'server3');\n\nfunction get_random_server() {\n    global $servers;\n    return $servers[array_rand($servers)];\n}\n\n// Usage:\n$nextServer = get_random_server();\n// send the processing job to $nextServer

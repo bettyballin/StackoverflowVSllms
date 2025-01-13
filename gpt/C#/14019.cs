@@ -1,1 +1,0 @@
-var mostRecentWorkplans = \n    from wp in db.Workplans\n    group wp by wp.UserId into g\n    let maxDate = g.Max(w => w.WorkplanDate)\n    select g.First(w => w.WorkplanDate == maxDate);

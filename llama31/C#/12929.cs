@@ -1,0 +1,1 @@
+protected void _Build_Click(object sender, EventArgs e)\n{\n    if (Build.IsBuilding) return;\n    Task.Run(() => Build.DoBuild());\n}

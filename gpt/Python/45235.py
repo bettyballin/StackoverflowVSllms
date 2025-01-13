@@ -1,1 +1,0 @@
-from django.shortcuts import render\nfrom .models import Issue\n\ndef issue_list(request):\n    issues = Issue.objects.all()\n    return render(request, 'issue_list.html', {'issues': issues})

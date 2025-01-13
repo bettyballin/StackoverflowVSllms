@@ -1,1 +1,0 @@
-<!-- Incorrect: Whitespace before PHP tag -->\n <!-- (Whitespace here) -->\n<?php\nheader('Location: /new-page.php');

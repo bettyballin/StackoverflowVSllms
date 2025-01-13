@@ -1,1 +1,0 @@
-[OperationContract]\n   [WebInvoke(Method = "POST", \n              UriTemplate = "/persons", \n              RequestFormat = WebMessageFormat.Xml, \n              ResponseFormat = WebMessageFormat.Xml)]\n   SavePersonResponse SavePerson(SavePersonRequest request);

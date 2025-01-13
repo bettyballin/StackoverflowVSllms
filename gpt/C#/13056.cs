@@ -1,1 +1,0 @@
-ClientEntities clientContext = new ClientEntities();\n\nObjectQuery<Client> clientQuery = \n    clientContext.Client.Where("it.email = @email AND it.password = @password",\n                new ObjectParameter("email", "xxx@hotmail.com"),\n                new ObjectParameter("password", "xAdxar12s"));\n\nConsole.WriteLine(clientQuery.Count());\nConsole.ReadLine();

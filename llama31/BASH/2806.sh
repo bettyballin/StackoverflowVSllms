@@ -1,0 +1,1 @@
+export C_INCLUDE_PATH=/path/to/includes\nexport CPLUS_INCLUDE_PATH=/path/to/includes

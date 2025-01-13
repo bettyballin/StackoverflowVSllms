@@ -1,0 +1,1 @@
+pm install -g cssnano\ncssnano --clean path/to/your/css/file.css

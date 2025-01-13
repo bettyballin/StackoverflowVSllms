@@ -1,0 +1,1 @@
+Protected Sub Button2_Click(ByVal sender As Object, ByVal e As System.EventArgs)\n    Dim script As String = "helloWorld();"\n    ScriptManager.RegisterStartupScript(Me, Me.GetType(), "helloWorld", script, True)\nEnd Sub

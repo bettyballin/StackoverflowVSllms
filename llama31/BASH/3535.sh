@@ -1,0 +1,1 @@
+openssl x509 -in yourfile.crt -out yourfile.pem -inform der -outform pem

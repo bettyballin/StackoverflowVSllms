@@ -1,0 +1,1 @@
+avigator.geolocation.getCurrentPosition((position) => {\n  const lat = position.coords.latitude;\n  const lon = position.coords.longitude;\n  const timezone = moment.tz.guess(lat, lon);\n  console.log(timezone); // outputs "America/New_York" or similar\n});

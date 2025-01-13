@@ -1,1 +1,0 @@
-// Example validation\n   $value1 = filter_input(INPUT_POST, 'value1', FILTER_SANITIZE_STRING);\n   $value2 = filter_input(INPUT_POST, 'value2', FILTER_SANITIZE_STRING);

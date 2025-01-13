@@ -1,0 +1,1 @@
+INSERT INTO Customers (Name, Email)\nOUTPUT inserted.CustomerId INTO @CustomerId\nVALUES ('John Doe', 'john.doe@example.com');\n\nINSERT INTO Orders (CustomerId, OrderDate) VALUES (@CustomerId, GETDATE());

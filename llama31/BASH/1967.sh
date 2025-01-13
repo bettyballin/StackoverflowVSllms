@@ -1,0 +1,1 @@
+while ($true) {\n    $exitCode = (sqlcmd -S (local) -Q "SELECT @@VERSION" -b)\n    if ($exitCode -eq 0) {\n        break\n    }\n    Start-Sleep -Milliseconds 500\n}

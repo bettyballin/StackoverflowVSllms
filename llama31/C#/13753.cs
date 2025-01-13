@@ -1,0 +1,1 @@
+using System.Security.Cryptography;\n\npublic static string GenerateSecureToken(object obj)\n{\n    using (var hmacsha256 = new HMACSHA256())\n    {\n        var token = hmacsha256.ComputeHash(Encoding.UTF8.GetBytes(obj.ToString()));\n        return Convert.ToBase64String(token);\n    }\n}

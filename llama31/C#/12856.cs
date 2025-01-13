@@ -1,0 +1,1 @@
+protected void Application_Error(object sender, EventArgs e)\n{\n    Response.ContentEncoding = Encoding.UTF8;\n}

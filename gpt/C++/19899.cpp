@@ -1,1 +1,0 @@
-class MyClass {\npublic:\n    int& operator[](int i) {\n        // Your implementation\n    }\n\n    void someFunction() {\n        int value = this->operator[](i); // Nicer way to call the overloaded operator\n    }\n};

@@ -1,1 +1,0 @@
-java -javaagent:ClassLoadingAgent.jar -jar YourApplication.jar

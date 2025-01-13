@@ -1,0 +1,1 @@
+const tzOffset = Intl.DateTimeFormat().resolvedOptions().timeZone;\nconst offsetMinutes = new Date().getTimezoneOffset();

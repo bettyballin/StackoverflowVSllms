@@ -1,1 +1,0 @@
-perf record -g ./my_program

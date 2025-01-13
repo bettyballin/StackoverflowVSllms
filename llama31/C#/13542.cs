@@ -1,0 +1,1 @@
+HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://www.google.com");\nrequest.Proxy = WebRequest.GetSystemWebProxy();

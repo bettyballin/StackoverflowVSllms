@@ -1,1 +1,0 @@
-UPDATE YourTable\n   SET YourField = REPLACE(REPLACE(REPLACE(YourField, 'Ft.', 'Fort'), 'Ft', 'Fort'), 'Fort', 'Fort')\n   WHERE YourField LIKE '*Ft*' OR YourField LIKE '*Fort*';

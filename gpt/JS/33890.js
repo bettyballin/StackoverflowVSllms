@@ -1,1 +1,0 @@
-<script type="text/javascript">\n//<![CDATA[\n$(document).ready(function() {\n    // Add the important function to be executed on every page load\n    Sys.Application.add_load(ImportantFunction);\n    // Call other functions that need to run on document ready\n    Otherstuff();\n    MoreStuff();\n});\n//]]>\n</script>

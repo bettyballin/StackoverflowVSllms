@@ -1,0 +1,1 @@
+CREATE GLOBAL TEMPORARY TABLE my_temp_table (\n  id NUMBER,\n  name VARCHAR2(20)\n) ON COMMIT PRESERVE ROWS;\n\nCREATE INDEX my_temp_index ON my_temp_table (id);

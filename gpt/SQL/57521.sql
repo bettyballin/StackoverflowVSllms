@@ -1,1 +1,0 @@
-CREATE TABLE rankings (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(255) NOT NULL,\n    points INT NOT NULL,\n    INDEX (points, name)\n);

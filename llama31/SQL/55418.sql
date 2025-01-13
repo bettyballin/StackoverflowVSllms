@@ -1,0 +1,1 @@
+SELECT \n    s.name AS SchemaName, \n    o.name AS ObjectName\nFROM \n    sys.objects o\nINNER JOIN \n    sys.schemas s ON o.schema_id = s.schema_id

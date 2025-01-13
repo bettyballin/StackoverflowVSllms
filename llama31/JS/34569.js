@@ -1,0 +1,1 @@
+var jobValue = document.getElementById('txtJob').value.trim();

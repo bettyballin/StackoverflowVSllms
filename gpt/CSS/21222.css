@@ -1,1 +1,0 @@
-img {\n    display: block;\n    /* or you can use the following if you want to keep them inline */\n    vertical-align: bottom; /* or 'middle' or 'top', depending on your layout needs */\n}

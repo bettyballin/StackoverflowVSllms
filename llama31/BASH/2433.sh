@@ -1,0 +1,1 @@
+composer require kwn/word2number

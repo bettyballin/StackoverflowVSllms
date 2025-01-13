@@ -1,1 +1,0 @@
-SELECT\n    Year,\n    SUM(CASE WHEN Quarter = 'Q1' THEN Amount ELSE 0 END) AS Q1,\n    SUM(CASE WHEN Quarter = 'Q2' THEN Amount ELSE 0 END) AS Q2,\n    SUM(CASE WHEN Quarter = 'Q3' THEN Amount ELSE 0 END) AS Q3,\n    SUM(CASE WHEN Quarter = 'Q4' THEN Amount ELSE 0 END) AS Q4\nFROM\n    Sales\nGROUP BY\n    Year

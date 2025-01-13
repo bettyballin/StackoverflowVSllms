@@ -1,0 +1,1 @@
+CREATE PROCEDURE UpdateMirrorDistance\n    @FromLocation VARCHAR(50),\n    @ToLocation VARCHAR(50),\n    @Distance DECIMAL(10, 2)\nAS\nBEGIN\n    UPDATE DistanceChart\n    SET Distance = @Distance\n    WHERE FromLocation = @ToLocation AND ToLocation = @FromLocation;\nEND;

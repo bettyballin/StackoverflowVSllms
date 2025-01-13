@@ -1,1 +1,0 @@
-public abstract class Content\n{\n    public int ID { get; set; }\n    public string Title { get; set; }\n    public string SubTitle { get; set; }\n    public string BodyText { get; set; }\n    public string Status { get; set; }\n    public DateTime AddedDate { get; set; }\n}

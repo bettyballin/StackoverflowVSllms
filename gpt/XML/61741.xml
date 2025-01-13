@@ -1,1 +1,0 @@
-<configuration>\n  <location path="files">\n    <system.web>\n      <authorization>\n        <deny users="*"/>\n      </authorization>\n    </system.web>\n  </location>\n</configuration>

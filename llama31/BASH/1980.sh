@@ -1,0 +1,1 @@
+# Open Registry Explorer and navigate to the root key\nregexplorer -k "HKLM"\n\n# Search for all keys containing the string "example"\nregexplorer -s "example" -k "HKLM"

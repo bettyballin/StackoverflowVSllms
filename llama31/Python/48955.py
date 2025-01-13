@@ -1,0 +1,1 @@
+return HttpResponse("true", content_type="text/plain")

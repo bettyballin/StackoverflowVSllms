@@ -1,1 +1,0 @@
-CREATE TABLE orders (\n    order_id INT AUTO_INCREMENT PRIMARY KEY,\n    customer_id INT NOT NULL,\n    order_date DATE NOT NULL,\n    total_amount DECIMAL(10, 2) NOT NULL,\n    status VARCHAR(20) NOT NULL,\n    CONSTRAINT fk_customer\n        FOREIGN KEY (customer_id) \n        REFERENCES customers(customer_id)\n        ON DELETE CASCADE\n);

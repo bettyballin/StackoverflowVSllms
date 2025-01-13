@@ -1,1 +1,0 @@
-SELECT e.*\nFROM employee e\nWHERE e.department = 'sales'\nORDER BY e.salary ASC\nLIMIT 1;

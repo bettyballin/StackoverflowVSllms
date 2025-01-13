@@ -1,1 +1,0 @@
-sudo usermod -a -G kovshenin apache

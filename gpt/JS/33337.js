@@ -1,1 +1,0 @@
-const pattern = new RegExp("^\\d{4}-\\d{2}-\\d{2}$");\nconst subject = "2023-10-05";\nif (pattern.test(subject)) {\n    console.log("Valid date format");\n} else {\n    console.log("Invalid date format");\n}

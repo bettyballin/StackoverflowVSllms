@@ -1,1 +1,0 @@
-$connection_string = "host=localhost port=5432 dbname=mydb user=myuser password=mypassword connect_timeout=5 options='--client_encoding=UTF8'";

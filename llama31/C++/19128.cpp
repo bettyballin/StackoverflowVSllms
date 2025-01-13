@@ -1,0 +1,1 @@
+// plugin.cpp\n#include "app_interface.h"\n\nvoid Plugin::init(AppInterface* appInterface) {\n    // Use the AppInterface to access the application's GUI\n    QWidget* gui = appInterface->getGui();\n    // ...\n}

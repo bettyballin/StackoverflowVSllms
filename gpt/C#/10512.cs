@@ -1,1 +1,0 @@
-[SetUp]\n   public void Setup()\n   {\n       // Code to initialize database state\n   }\n\n   [TearDown]\n   public void TearDown()\n   {\n       // Code to clean up database state\n   }

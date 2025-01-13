@@ -1,0 +1,1 @@
+header("Content-Security-Policy: default-src 'self'; script-src 'self' https://www.paypal.com; object-src 'none';");

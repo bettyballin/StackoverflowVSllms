@@ -1,1 +1,0 @@
-DECLARE @MyBoolean bit;\nSET @MyBoolean = 0;\nSET @MyBoolean = CASE WHEN @MyBoolean = 1 THEN 0 ELSE 1 END;\nSELECT @MyBoolean;

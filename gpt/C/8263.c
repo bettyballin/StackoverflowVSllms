@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <stdlib.h>\n\nint main(void) {\n    // Required for CGI scripts\n    printf("Content-Type: application/json\n\n");\n    \n    // JSON response\n    printf("{\"message\": \"Hello from C CGI!\"}\n");\n    \n    return 0;\n}

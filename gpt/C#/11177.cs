@@ -1,1 +1,0 @@
-ArrayList numbers = new ArrayList();\nnumbers.Add(1);\nnumbers.Add(2);\nnumbers.Add(3);\nint firstNumber = (int)numbers[0]; // Requires type casting

@@ -1,0 +1,1 @@
+string connectionString = ConfigurationManager.ConnectionStrings["MyDB"].ConnectionString;

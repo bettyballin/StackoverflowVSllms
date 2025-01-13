@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <handlers>\n      <remove name="BlockViewHandler"/>\n      <add name="HtmlFileHandler" path="*.html" verb="GET" type="System.Web.Handlers.DefaultHttpHandler" />\n      <add name="XmlFileHandler" path="*.xml" verb="GET" type="System.Web.Handlers.DefaultHttpHandler" />\n    </handlers>\n  </system.webServer>\n</configuration>

@@ -1,0 +1,1 @@
+# PowerShell example: Adjust Idle Time-out\nSet-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\W3SVC\Parameters" -Name "IdleTimeout" -Value 30

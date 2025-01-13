@@ -1,0 +1,1 @@
+CREATE TABLE article_versions (\n  id INT PRIMARY KEY AUTO_INCREMENT,\n  article_id INT,\n  version INT,\n  title VARCHAR(255),\n  content TEXT,\n  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n  FOREIGN KEY (article_id) REFERENCES articles (id)\n);

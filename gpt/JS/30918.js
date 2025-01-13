@@ -1,1 +1,0 @@
-var num = 1; // Assuming num is the identifier for the form\nvar xAmt = $('#xForm' + num).find('input[name="xAmt"]').val();

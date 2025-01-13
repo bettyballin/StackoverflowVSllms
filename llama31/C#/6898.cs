@@ -1,0 +1,1 @@
+// Set authentication cookie in App1\nFormsAuthentication.SetAuthCookie("username", true);\n\n// Read authentication cookie in App2\nif (Request.Cookies["ASP.NET_SessionId"] != null)\n{\n    // User is already authenticated\n}

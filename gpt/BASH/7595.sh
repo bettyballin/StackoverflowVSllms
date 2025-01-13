@@ -1,1 +1,0 @@
-# On Windows\n   httpd.exe -k restart\n   # On Linux\n   sudo systemctl restart apache2

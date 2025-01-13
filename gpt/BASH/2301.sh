@@ -1,1 +1,0 @@
-sudo apt-get install clang-tools\n   scan-build make

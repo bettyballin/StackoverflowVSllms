@@ -1,0 +1,1 @@
+SELECT * \nFROM RegisteredCodes \nWHERE CODE LIKE ANY (SELECT '%' || REPLACE(CODE, '_', '%') || '%' FROM CodeVariations);

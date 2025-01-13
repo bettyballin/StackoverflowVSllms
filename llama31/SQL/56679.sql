@@ -1,0 +1,1 @@
+SELECT CONVERT(DECIMAL(18, 8), YourMoneyColumn) AS DecimalValue\nFROM YourTable;

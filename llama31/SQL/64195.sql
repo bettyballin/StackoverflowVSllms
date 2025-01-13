@@ -1,0 +1,1 @@
+UPDATE YourTable\nSET YourXmlColumn.modify('insert <processingInfo>your processing info</processingInfo> as last into (/root)[1]')\nWHERE YourCondition;

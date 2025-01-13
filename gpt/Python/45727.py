@@ -1,1 +1,0 @@
-mylist = ['abc', 'abcdef', 'abcd']\n\n# Find the longest string in the list\nlongest_string = max(mylist, key=len)\n\nfor each in mylist:\n    if condition1:\n        do_something()\n    elif each == longest_string:  # else if each is the longest string contained in mylist\n        do_something_else()

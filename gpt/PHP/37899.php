@@ -1,1 +1,0 @@
-<?php\n$m = new Memcached();\n$m->addServer('localhost', 11211);\n\n$key = "exampleKey";\n\n// Retrieve value\n$value = $m->get($key);\necho "Stored value: " . $value;\n?>

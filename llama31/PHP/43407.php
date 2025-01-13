@@ -1,0 +1,1 @@
+<?php\n// This will output 0.\necho strpos("abc", "abc");\n// This will output 6.\necho strpos("abcc", "abc");\n// This will output false, because "abc" is not in the string.\necho strpos("abcc", "abc");\n?>

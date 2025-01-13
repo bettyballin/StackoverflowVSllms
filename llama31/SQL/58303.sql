@@ -1,0 +1,1 @@
+CREATE TABLE post_keywords (\n  post_id INT,\n  keyword VARCHAR(255),\n  PRIMARY KEY (post_id, keyword),\n  FOREIGN KEY (post_id) REFERENCES posts (post_id)\n);

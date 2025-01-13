@@ -1,0 +1,1 @@
+$.getJSON("http://www.boobar.com/script.php?jsonp=myCallback",\n  function(data) { alert(data); }\n);

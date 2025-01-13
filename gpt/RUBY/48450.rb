@@ -1,1 +1,0 @@
-# config.ru or main application file\nset :base_url, ENV['BASE_URL'] || '/'\n\n# Helper method\nhelpers do\n  def gen_link(path)\n    settings.base_url + path\n  end\nend\n\n# In your routes/views\nget '/' do\n  "<a href='#{gen_link('/')}'>Home</a>"\nend\n\nget '/some/thing' do\n  "<a href='#{gen_link('/some/thing')}'>Some Page</a>"\nend

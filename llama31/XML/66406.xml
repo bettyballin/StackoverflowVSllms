@@ -1,0 +1,1 @@
+// feature1/persistence.xml\n<persistence-unit name="feature1">\n    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>\n    <class>com.example.feature1.Entity1</class>\n    <properties>\n        <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/feature1"/>\n    </properties>\n</persistence-unit>

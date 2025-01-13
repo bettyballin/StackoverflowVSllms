@@ -1,0 +1,1 @@
+// After adding the control to the parent\ncontrol.UpdateLayout();

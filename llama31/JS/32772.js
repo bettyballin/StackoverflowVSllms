@@ -1,0 +1,1 @@
+// On the page\nfunction pageLoad(sender, args) {\n    // Code here\n}\n\n// In your control\nSys.Application.add_load(function() {\n    // Additional code here\n});

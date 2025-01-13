@@ -1,0 +1,1 @@
+# Edit your Apache configuration file (e.g., httpd.conf or apache2.conf)\n# Add the following line to increase the redirect limit\nRewriteOptions MaxRedirects 1000

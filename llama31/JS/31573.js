@@ -1,0 +1,1 @@
+$('#fileupload').fileupload({\n    url: '/upload',\n    type: 'POST',\n    formData: {\n        token: 'your_secure_token_here'\n    },\n    done: function (e, data) {\n        // handle upload complete\n    }\n});

@@ -1,0 +1,1 @@
+function isValidUtf8(str) {\n  try {\n    new TextEncoder('utf-8').encode(str);\n    return true;\n  } catch (e) {\n    return false;\n  }\n}

@@ -1,0 +1,1 @@
+$phpBinary = PHP_BINARY;

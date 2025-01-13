@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>\n    <database name="my_database" defaultIdMethod="native">\n        <table name="my_table">\n            <column name="id" type="INTEGER" primaryKey="true" autoIncrement="true"/>\n            <column name="name" type="VARCHAR" size="255"/>\n        </table>\n    </database>

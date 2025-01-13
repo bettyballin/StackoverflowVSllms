@@ -1,0 +1,1 @@
+Response.ContentType = "image/jpeg";\nResponse.Cache.SetExpires(DateTime.Now.AddYears(1));\nResponse.Cache.SetCacheability(HttpCacheability.Public);\nResponse.Cache.SetMaxAge(TimeSpan.FromDays(365));\nResponse.OutputStream.Write(imageBytes, 0, imageBytes.Length);

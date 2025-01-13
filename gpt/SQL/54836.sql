@@ -1,1 +1,0 @@
-INSERT INTO events (event_id, event_timestamp) \nVALUES (1, TO_TIMESTAMP('2023-10-03 14:30:45.123', 'YYYY-MM-DD HH24:MI:SS.FF'));

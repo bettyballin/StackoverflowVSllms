@@ -1,0 +1,1 @@
+var emptyStrings = db.Strings.Where(s => s.StringColumn == "");

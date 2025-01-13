@@ -1,0 +1,1 @@
+message_div = html_doc.xpath("//div[starts-with(@id, 'post_message_') and substring-after(@id, 'post_message_') >= '0' and substring-after(@id, 'post_message_') <= '99999999']")

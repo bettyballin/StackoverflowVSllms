@@ -1,0 +1,1 @@
+const numericField = document.getElementById('numericField');\n\nnumericField.addEventListener('keypress', (event) => {\n  if (!event.key.match(/[0-9]/)) {\n    event.preventDefault();\n  }\n});\n\nnumericField.addEventListener('blur', () => {\n  const value = numericField.value;\n  if (!value || isNaN(value)) {\n    numericField.value = '';\n  }\n});

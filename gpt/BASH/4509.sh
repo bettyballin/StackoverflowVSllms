@@ -1,1 +1,0 @@
-git apply path/to/patchfile.patch

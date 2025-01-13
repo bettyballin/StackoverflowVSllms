@@ -1,1 +1,0 @@
-$input = filter_input(INPUT_POST, $foo['bar'], FILTER_SANITIZE_STRING);\n$value = md5($input);\nif ($value == $somemd5) {\n  doSomethingWith($value);\n}

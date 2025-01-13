@@ -1,0 +1,1 @@
+XmlNodeList selectedNodes = xmlDoc.SelectNodes("/tns:feed/tns:entry", nsMgr);

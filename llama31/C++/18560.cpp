@@ -1,0 +1,1 @@
+int main() {\n    Point point = {3, 4};\n    double angle = M_PI / 4; // 45 degrees\n    Point pivot = {0, 0};\n\n    Point rotatedPoint = rotatePoint(point, angle, pivot);\n\n    std::cout << "Rotated point: (" << rotatedPoint.x << ", " << rotatedPoint.y << ")" << std::endl;\n\n    return 0;\n}

@@ -1,0 +1,1 @@
+var query = from c in Customers\n            join o in Orders on c.CustomerID equals o.CustomerID\n            select new { c.CustomerName, o.OrderID };

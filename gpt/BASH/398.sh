@@ -1,1 +1,0 @@
-cat public_key.pub >> ~/.ssh/authorized_keys\nchmod 600 ~/.ssh/authorized_keys\nchmod 700 ~/.ssh

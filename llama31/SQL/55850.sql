@@ -1,0 +1,1 @@
+CREATE MATERIALIZED VIEW question_votes AS\nSELECT question_id, COUNT(*) as vote_count\nFROM votes\nGROUP BY question_id;

@@ -1,0 +1,1 @@
+// Example test data builder\npublic class TestDataBuilder\n{\n    public static MyData Build()\n    {\n        return new MyData\n        {\n            // Initialize properties\n        };\n    }\n}

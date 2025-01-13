@@ -1,1 +1,0 @@
-public ActionResult GetPreviewImage(string fileName)\n{\n    var filePath = Path.Combine(Server.MapPath("~/Content/Previews"), fileName);\n    if (System.IO.File.Exists(filePath))\n    {\n        return File(filePath, "image/png");\n    }\n    return HttpNotFound();\n}

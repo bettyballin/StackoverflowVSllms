@@ -1,0 +1,1 @@
+const DIR_APP = 'app/';\nclass Questions\n{\n    const QUESTIONS_FILE = DIR_APP . 'questions.xml';\n}

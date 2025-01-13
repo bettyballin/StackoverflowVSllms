@@ -1,1 +1,0 @@
-public void BindDataToGridView(DataGridView gridView)\n{\n    DataTable utcDataTable = GetDataFromDatabase();\n    DataTable localDataTable = ConvertUtcToLocal(utcDataTable);\n\n    gridView.DataSource = localDataTable;\n}

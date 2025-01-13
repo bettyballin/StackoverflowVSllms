@@ -1,1 +1,0 @@
-.organized-list {\n    list-style: none;\n    padding: 0;\n}\n\n.organized-list li {\n    display: flex;\n}\n\n.fixed {\n    width: 2em; /* Fixed width */\n    flex-shrink: 0; /* Prevent shrinking */\n}\n\n.flexible {\n    flex-grow: 1; /* Allow to take remaining space */\n}

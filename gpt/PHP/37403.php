@@ -1,1 +1,0 @@
-// src/Application.php\n   use App\Middleware\JwtAuthMiddleware;\n\n   public function middleware($middlewareQueue) {\n       $middlewareQueue\n           ->add(new ErrorHandlerMiddleware())\n           // Add JWTAuthMiddleware to the queue\n           ->add(new JwtAuthMiddleware())\n           ->add(new RoutingMiddleware($this));\n       return $middlewareQueue;\n   }

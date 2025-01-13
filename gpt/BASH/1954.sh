@@ -1,1 +1,0 @@
-socat -d -d file:/dev/ttyS0,raw,echo=0 SYSTEM:'tee /tmp/logfile > /tmp/virtualport1' &\n   socat -d -d file:/dev/ttyS1,raw,echo=0 SYSTEM:'tee /tmp/logfile > /tmp/virtualport2' &

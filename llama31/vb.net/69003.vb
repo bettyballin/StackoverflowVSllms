@@ -1,0 +1,1 @@
+Imports System.Diagnostics.CodeAnalysis\n\n<SuppressMessage("Microsoft.Usage", "CA1801:ReviewUnusedParameters", MessageId:="member")>\nPublic Sub MyMethod()\n    ' Your code here\nEnd Sub

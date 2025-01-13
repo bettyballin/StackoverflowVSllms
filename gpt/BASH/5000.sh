@@ -1,1 +1,0 @@
-tail -f /var/log/apache2/modsec_audit.log

@@ -1,1 +1,0 @@
-CREATE TABLE VareOrdre (\n    VareOrdreID INTEGER PRIMARY KEY AUTOINCREMENT,\n    Onr INTEGER NOT NULL\n        CONSTRAINT fk_ordrenr_onr REFERENCES Ordre(Onr),\n    Vnr INTEGER NOT NULL \n        CONSTRAINT fk_varevnr_vnr REFERENCES Vare(Vnr),\n    Antal INTEGER NOT NULL\n);

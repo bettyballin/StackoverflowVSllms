@@ -1,0 +1,1 @@
+#include <stdlib.h>\n\nint main() {\n    void* ptr;\n    if (aligned_alloc(4, sizeof(double), &ptr) == 0) {\n        double* dptr = (double*) ptr;\n        // use dptr\n        free(ptr);\n    }\n    return 0;\n}

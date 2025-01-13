@@ -1,0 +1,1 @@
+foreach (People p in ppl.results) {\n    list2d.Add(new List<string> { p.name, p.email });\n}

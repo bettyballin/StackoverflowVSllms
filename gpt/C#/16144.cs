@@ -1,1 +1,0 @@
-if (input == null)\n  {\n      throw new ArgumentNullException(nameof(input), "Input cannot be null.");\n  }

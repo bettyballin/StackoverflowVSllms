@@ -1,0 +1,1 @@
+import ctypes\n\n# Load the DLL\ndll = ctypes.CDLL('path/to/your/dll.dll')\n\n# ...\n\n# Unload the DLL\nctypes.windll.kernel32.FreeLibrary(dll._handle)

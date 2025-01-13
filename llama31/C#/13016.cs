@@ -1,0 +1,1 @@
+using System.IO;\n\n// Create a new project item\nvar projectItem = project.AddNewItem("File", "example.pdf");\n\n// Set the file path\nprojectItem.FilePath = @"C:\Path\To\example.pdf";

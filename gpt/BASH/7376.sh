@@ -1,1 +1,0 @@
-sudo ufw default deny incoming\n   sudo ufw default allow outgoing\n   sudo ufw allow ssh\n   sudo ufw allow 80/tcp\n   sudo ufw allow 443/tcp\n   sudo ufw enable

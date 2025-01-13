@@ -1,1 +1,0 @@
-// Assuming you have Ext2Fsd installed and configured\n// Mounting EXT3 partition to a drive letter (e.g., E:)\n\nExt2Fsd.exe /mount 0 E:

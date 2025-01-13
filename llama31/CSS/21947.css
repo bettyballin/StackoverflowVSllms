@@ -1,0 +1,1 @@
+table {\n  table-layout: fixed;\n  width: 100%;\n}\n\ntd {\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}

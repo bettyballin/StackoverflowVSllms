@@ -1,0 +1,1 @@
+SELECT \n  p.pollID, \n  p.pollQuestion, \n  pa.pollAnswerID, \n  pa.pollAnswerText\nFROM \n  poll p\n  LEFT JOIN poll_answers pa ON p.pollID = pa.pollID

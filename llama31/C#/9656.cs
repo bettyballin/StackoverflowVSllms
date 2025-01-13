@@ -1,0 +1,1 @@
+XmlNamespaceManager nsmgr = new XmlNamespaceManager(xmlDocument.NameTable);\nnsmgr.AddNamespace("ns", "urn:schemas-ncr-com:ECPIX:CXF:FileStructure:020001");\n\nXmlNodeList nodes = xmlDocument.SelectNodes("//ns:Item/ns:AddendA/ns:ImageViewDetail", nsmgr);

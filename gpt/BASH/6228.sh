@@ -1,1 +1,0 @@
-curl-loader -f <config_file> --http-1.0

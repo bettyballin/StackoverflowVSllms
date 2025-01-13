@@ -1,0 +1,1 @@
+if File.exist?(Rails.root + "/public/images/header.jpg")\n  render :text => "yes"\nelse\n  render :text => "no <img src='/images/header.jpg' />"\nend

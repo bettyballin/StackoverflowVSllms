@@ -1,1 +1,0 @@
--- Avoid this\n   SELECT ...\n   FROM table1 t1\n   WHERE t1.column = (SELECT ... FROM table2 t2 WHERE t2.id = t1.id);\n\n   -- Use this\n   SELECT t1.*\n   FROM table1 t1\n   JOIN table2 t2 ON t1.id = t2.id\n   WHERE ...;

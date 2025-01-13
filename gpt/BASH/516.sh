@@ -1,1 +1,0 @@
-m ./your_application | grep _ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE\nldd ./your_applicatio

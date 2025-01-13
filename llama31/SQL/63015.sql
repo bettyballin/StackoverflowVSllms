@@ -1,0 +1,1 @@
+DECLARE @day INT, @month INT, @year INT\nSET @day = 12\nSET @month = 1\nSET @year = 2007\n\nDECLARE @date DATETIME\nSET @date = CONVERT(DATETIME, CONVERT(VARCHAR, @year) + '-' + CONVERT(VARCHAR, @month) + '-' + CONVERT(VARCHAR, @day))\n\nSELECT @date

@@ -1,1 +1,0 @@
-// Create a new Console Application project and add a reference to ProxyLibrary.dll\n\nusing ProxyLibrary;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        MyProxy proxy = new MyProxy();\n        proxy.PlaceCall("123-456-7890");\n    }\n}

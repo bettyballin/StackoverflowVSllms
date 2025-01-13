@@ -1,0 +1,1 @@
+// template_func.h\ntemplate <typename T>\nvoid template_func(T param) {\n    // implementation\n}

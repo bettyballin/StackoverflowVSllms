@@ -1,0 +1,1 @@
+gcc -shared -o module.so module.c

@@ -1,0 +1,1 @@
+using System.Runtime.InteropServices;\n\n[DllImport("kernel32.dll", SetLastError = true)]\nstatic extern bool SetFileValidData(IntPtr hFile, long ValidDataLength);\n\nusing (FileStream outFile = System.IO.File.Create(filename))\n{\n    IntPtr handle = outFile.SafeFileHandle.DangerousGetHandle();\n    SetFileValidData(handle, f.Length);\n}

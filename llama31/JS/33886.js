@@ -1,0 +1,1 @@
+myForm.addEventListener('submit', myAlert(), false); // calls myAlert() immediately

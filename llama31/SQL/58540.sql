@@ -1,0 +1,1 @@
+SELECT \n  HOUR(added) AS hour, \n  COUNT(*) AS visits \nFROM \n  visits \nWHERE \n  added >= NOW() - INTERVAL 24 HOUR \nGROUP BY \n  HOUR(added) \nORDER BY \n  hour ASC;

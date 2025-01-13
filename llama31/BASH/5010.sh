@@ -1,0 +1,1 @@
+gcloud app ssl-certificates create --display-name my-ssl-cert \\n  --certificate certificate.crt --private-key private_key.key

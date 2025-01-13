@@ -1,0 +1,1 @@
+document.getElementById('comment:commentBody').markItUp(mySettings);

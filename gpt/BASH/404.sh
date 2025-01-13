@@ -1,1 +1,0 @@
-# Apache error log (location may vary)\n   tail -f /var/log/apache2/error.log\n\n   # PHP error log (location may vary)\n   tail -f /var/log/php_errors.log

@@ -1,1 +1,0 @@
-# Open a PowerShell prompt as an administrator\n\n# Enable auditing for logon events\nauditpol /set /subcategory:"Logon" /success:enable /failure:enable

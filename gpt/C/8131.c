@@ -1,1 +1,0 @@
-glEnable(GL_TEXTURE_2D);\nglBindTexture(GL_TEXTURE_2D, yourTexture);\n\nglEnable(GL_TEXTURE_1D);\nglBindTexture(GL_TEXTURE_1D, colorMapTex);\n\nglTexEnvi(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_COMBINE);\nglTexEnvi(GL_TEXTURE_ENV, GL_COMBINE_RGB, GL_REPLACE);\nglTexEnvi(GL_TEXTURE_ENV, GL_SOURCE0_RGB, GL_TEXTURE);

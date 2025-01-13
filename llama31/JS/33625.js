@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'GET',\n    url: '/TareasBackGround/DoTaskInteractivo',\n    dataType: 'json',\n    cache: false,\n    success: function(response) {\n        $('#ResultadoEjecutarTarea').html("<br />Resutado:" + response.result);\n        $('#ResultadoEjecutarTarea').css("style", "");\n    }\n});

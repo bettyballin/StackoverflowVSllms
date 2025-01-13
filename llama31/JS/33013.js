@@ -1,0 +1,1 @@
+jQuery.validator.addMethod("duplicate", {\n    type: "remote",\n    url: params.url,\n    data: params.data,\n    error: function(xhr, status, error) {\n        var response = xhr.responseText;\n        object_settings.messages[element.name] = response;\n        object_settings.showErrors();\n    }\n});

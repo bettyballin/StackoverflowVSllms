@@ -1,0 +1,1 @@
+$id = $this->input->get('id');\n$id = intval($id); // or use $this->security->xss_clean($id)

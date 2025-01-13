@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Generate delta and update migration files\n./generate-delta.sh\n\n# Add updated migration files to Git commit\ngit add .

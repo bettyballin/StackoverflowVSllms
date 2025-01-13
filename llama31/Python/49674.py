@@ -1,0 +1,1 @@
+def my_decorator(func):\n    def wrapper(*args, **kwargs):\n        print("Before calling the function")\n        return func(*args, **kwargs)\n    return wrapper\n\n@my_decorator\ndef add(a, b):\n    return a + b\n\nprint(add(2, 3))  # Output: Before calling the function, 5

@@ -1,0 +1,1 @@
+// Before renaming\nDataSet oldName = new DataSet();\n\n// After renaming\nDataSet newName = new DataSet();

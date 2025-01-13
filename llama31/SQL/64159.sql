@@ -1,0 +1,1 @@
+CREATE TABLE example (id SERIAL PRIMARY KEY, value INTEGER);\nINSERT INTO example (value) VALUES (1), (2), (3), (4), (5);\nSELECT *, ROW_NUMBER() OVER (ORDER BY value) FROM example;

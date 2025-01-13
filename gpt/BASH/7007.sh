@@ -1,1 +1,0 @@
-pylint my_project/\n   flake8 my_project/

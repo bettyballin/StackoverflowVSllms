@@ -1,1 +1,0 @@
-// To analyze a heap dump with MAT:\n// $ ./MemoryAnalyzer -vmargs -Xmx4g

@@ -1,1 +1,0 @@
-def func(files):\n    if isinstance(files, str):\n        files = [files]\n    elif not isinstance(files, list):\n        raise TypeError("Argument must be a string or a list of strings")\n\n    for f in files:\n        doSomethingWithFile(f)\n\ndef doSomethingWithFile(f):\n    print(f"Processing file: {f}")\n\n# Example usage:\nfunc(['file1', 'file2', 'file3'])\nfunc('file1')

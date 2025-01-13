@@ -1,0 +1,1 @@
+// In your code-behind file, add the following line before binding the data:\nSqlDataSource1.RefreshSchema();

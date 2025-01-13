@@ -1,0 +1,1 @@
+<binding name="tcpBinding">\n  <transport>\n    <tcp />\n  </transport>\n</binding>

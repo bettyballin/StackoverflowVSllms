@@ -1,1 +1,0 @@
-module MathUtils\n     PI = 3.14159\n\n     def self.circle_area(radius)\n       PI * radius**2\n     end\n   end\n\n   area = MathUtils.circle_area(5)

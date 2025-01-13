@@ -1,0 +1,1 @@
+SELECT s.sid, s.serial#, tu.tablespace, tu.blocks * ts.block_size / 1024 / 1024 AS temp_space_mb\nFROM v$session s\nJOIN v$tempseg_usage tu ON s.saddr = tu.session_addr\nJOIN dba_tablespaces ts ON tu.tablespace = ts.tablespace_name\nWHERE tu.tablespace LIKE 'TEMP%';

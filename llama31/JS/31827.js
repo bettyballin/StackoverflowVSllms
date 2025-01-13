@@ -1,0 +1,1 @@
+var i;\nvar l;\nvar e;\nvar es = [...];

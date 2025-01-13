@@ -1,1 +1,0 @@
-rman target /\n   ALTER DATABASE OPEN RESETLOGS;

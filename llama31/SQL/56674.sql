@@ -1,0 +1,1 @@
+SELECT CONVERT(datetime, CONVERT(varchar(10), DateColumn, 101)) AS DateWithoutTime\nFROM YourTable;

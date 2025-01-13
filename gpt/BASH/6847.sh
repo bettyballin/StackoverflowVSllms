@@ -1,1 +1,0 @@
-<VirtualHost *:80>\n         ServerName www.mysite.com\n         Redirect 301 / http://mysite.freehostprovider.com/\n     </VirtualHost>

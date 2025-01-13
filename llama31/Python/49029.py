@@ -1,0 +1,1 @@
+import csv\n\nwith open('example.csv', 'r') as csvfile:\n    reader = csv.reader(csvfile)\n    for row in reader:\n        print(row)\n\n# or\n\ndata = [row for row in csv.reader(open('example.csv', 'r'))]\nprint(data)

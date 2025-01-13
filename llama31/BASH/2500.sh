@@ -1,0 +1,1 @@
+ifort -syntax-only -stand f90 your_source_file.f90\ngfortran -fsyntax-only -std=f90 your_source_file.f90

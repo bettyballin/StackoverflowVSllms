@@ -1,1 +1,0 @@
-// Log cookie setting for debugging\nerror_log("Setting cookie: " . json_encode($_COOKIE));\n\n// Example of setting a cookie\nsetcookie("your_cookie_name", "your_cookie_value", time() + 3600, "/");

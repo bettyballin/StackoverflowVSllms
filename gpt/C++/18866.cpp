@@ -1,1 +1,0 @@
-#include <iostream>\n#include <Eigen/Dense>\n\nint main() {\n    Eigen::MatrixXd mat1 = Eigen::MatrixXd::Random(512, 512);\n    Eigen::MatrixXd mat2 = Eigen::MatrixXd::Random(512, 512);\n\n    Eigen::MatrixXd result = mat1 * mat2;\n\n    std::cout << "Result: " << result << std::endl;\n\n    return 0;\n}

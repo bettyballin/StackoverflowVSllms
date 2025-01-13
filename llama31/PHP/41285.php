@@ -1,0 +1,1 @@
+$date = '2008-09-28 9:19 pm';\n$wrappedDate = preg_replace('/ /', '<br>', $date, 1);\necho $wrappedDate;

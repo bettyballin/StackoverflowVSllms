@@ -1,0 +1,1 @@
+cd apr-1.7.0\n./configure --prefix=/usr/local/apr\nmake\nmake install

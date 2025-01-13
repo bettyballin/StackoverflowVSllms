@@ -1,0 +1,1 @@
+public class ZipCode {\n    public int Id { get; set; }\n    public string Zip { get; set; }\n    public bool IsNew { get; set; }\n    public bool IsDeleted { get; set; }\n}

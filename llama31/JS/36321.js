@@ -1,0 +1,1 @@
+$.ajax({\n  // your options here\n  beforeSend: function(xhr) {\n    xhr._cancelled = false;\n    $(window).on('beforeunload', function() {\n      xhr._cancelled = true;\n    });\n  },\n  error: function(xhr, status, error) {\n    if (xhr._cancelled) {\n      // ignore error caused by client cancelling request\n      return;\n    }\n    // handle error as usual\n  }\n});

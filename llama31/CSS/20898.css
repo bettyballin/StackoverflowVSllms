@@ -1,0 +1,1 @@
+.image-container {\n  background-image: url('default-image.jpg');\n  background-size: cover;\n  object-fit: cover;\n}\n\n.image-container img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n}

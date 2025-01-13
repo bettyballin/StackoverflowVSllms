@@ -1,1 +1,0 @@
-dojo.xhrPost({\n       url: 'dr_tm_w_0120.test_post',\n       form: 'orgForm',\n       load: testPostXHRCallback,\n       error: testPostXHRError,\n       headers: { 'Cache-Control': 'no-cache', 'Pragma': 'no-cache' }\n   });

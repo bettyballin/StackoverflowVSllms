@@ -1,0 +1,1 @@
+// Client-side SSE connection\nvar source = new EventSource("/sse-updates");\n\nsource.onmessage = function(event) {\n  // Update specific sections of the page with new data\n  $("#updated-section").html(event.data);\n};

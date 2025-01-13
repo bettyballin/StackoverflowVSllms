@@ -1,1 +1,0 @@
-<filter>\n    <filter-name>RequestCaptureFilter</filter-name>\n    <filter-class>com.yourpackage.RequestCaptureFilter</filter-class>\n</filter>\n<filter-mapping>\n    <filter-name>RequestCaptureFilter</filter-name>\n    <url-pattern>/*</url-pattern>\n</filter-mapping>\n\n<listener>\n    <listener-class>com.yourpackage.MySessionListener</listener-class>\n</listener>

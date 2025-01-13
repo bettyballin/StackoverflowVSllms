@@ -1,1 +1,0 @@
-SELECT COUNT(id)\nFROM messages\nWHERE FIND_IN_SET('userid', favs) > 0;

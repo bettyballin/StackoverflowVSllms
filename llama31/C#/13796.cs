@@ -1,0 +1,1 @@
+double minY = 10;\ndouble maxY = 100;\nint numTicks = 5;\ndouble? optionalValue = 50;\n\nvar (axisMin, axisMax, interval) = AxisCalculator.CalculateAxis(minY, maxY, numTicks, optionalValue);

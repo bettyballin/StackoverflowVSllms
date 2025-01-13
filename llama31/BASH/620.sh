@@ -1,0 +1,1 @@
+chcon -t usr_t /data/myapp/current/script/runner

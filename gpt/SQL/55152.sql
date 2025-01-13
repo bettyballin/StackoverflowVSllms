@@ -1,1 +1,0 @@
--- Using IN with a single value\nSELECT * FROM pages WHERE is_visible IN (5);\n\n-- Using equality\nSELECT * FROM pages WHERE is_visible = 5;

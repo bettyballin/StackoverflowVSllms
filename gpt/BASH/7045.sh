@@ -1,1 +1,0 @@
-chmod +x /bin/myscript.sh

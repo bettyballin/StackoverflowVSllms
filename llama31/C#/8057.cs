@@ -1,0 +1,1 @@
+[ComVisible(true)]\npublic interface IMyMethods\n{\n    void Method1();\n    void Method2();\n}

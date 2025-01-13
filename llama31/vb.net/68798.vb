@@ -1,0 +1,1 @@
+Dim checkBox As CheckBox = TryCast(sender, CheckBox)\nIf checkBox IsNot Nothing AndAlso checkBox.Checked Then\n    ' Do something...\nElse\n    ' Do something else...\nEnd If

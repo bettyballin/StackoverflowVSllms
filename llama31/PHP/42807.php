@@ -1,0 +1,1 @@
+// Generate a token for the user\n$token = generateToken($uid);\n\n// Store the token on the client-side\n// ...\n\n// Verify the token in another script\n$token = $_SERVER['HTTP_AUTHORIZATION'];\n$uid = verifyToken($token);

@@ -1,0 +1,1 @@
+SELECT \n    time_usr_tz\nFROM (\n    SELECT \n        CONVERT_TZ(\n            if(timestamp_start > last_update, timestamp_start, last_update), \n            'GMT', \n            user.timezone\n        ) as time_usr_tz\n    FROM \n        schedule\n        INNER JOIN user ON schedule.user_id = user.user_id\n) AS derived_table\nWHERE \n    time_usr_tz < CURRENT_TIMESTAMP();

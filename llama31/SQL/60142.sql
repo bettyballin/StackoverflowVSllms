@@ -1,0 +1,1 @@
+SELECT node1, node2\nFROM your_table\nWHERE node1 < node2\nUNION\nSELECT node2, node1\nFROM your_table\nWHERE node2 < node1;

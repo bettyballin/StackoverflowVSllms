@@ -1,1 +1,0 @@
-<endpoint address="https://your-service-url" binding="wsHttpBinding" bindingConfiguration="secureBinding" contract="YourNamespace.IYourService"/>

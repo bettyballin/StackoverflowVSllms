@@ -1,1 +1,0 @@
-CREATE DIRECTORY dump_dir AS '/path/to/import/directory';

@@ -1,1 +1,0 @@
-history | grep ' 510 ' | awk '{$1=""; print substr($0,2)}' | pbcopy

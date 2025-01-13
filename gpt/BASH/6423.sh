@@ -1,1 +1,0 @@
-git clone https://example.com/darwin-source-code.git\n   cd darwin-source-code

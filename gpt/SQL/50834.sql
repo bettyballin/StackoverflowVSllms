@@ -1,1 +1,0 @@
-SELECT\n    t1.id,\n    t1.text AS [lang A],\n    t2.text AS [lang B]\nFROM\n    TableName t1\nINNER JOIN\n    TableName t2\nON\n    t1.id = t2.id\nWHERE\n    t1.lang = 'a' AND t2.lang = 'b';

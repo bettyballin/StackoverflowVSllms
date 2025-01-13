@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE timestamp_column < CAST(CURRENT_DATE AS TIMESTAMP);

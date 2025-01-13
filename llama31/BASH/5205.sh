@@ -1,0 +1,1 @@
+for /f "tokens=*" %%d in ('dir /b /s /a:d _svn') do rmdir /s /q "%%d"

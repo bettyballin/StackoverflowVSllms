@@ -1,0 +1,1 @@
+gcc -I/path/to/includes myprogram.c -o myprogram

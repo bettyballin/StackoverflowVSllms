@@ -1,1 +1,0 @@
-// Assume the iframe has an id of 'myIframe'\nvar iframe = document.getElementById('myIframe');\n\n// Try to access the content of the iframe\ntry {\n    var iframeContent = iframe.contentWindow.document;\n    console.log(iframeContent);\n} catch (e) {\n    console.error("Access denied: Same-Origin Policy prevents access to iframe content from a different domain.", e);\n}

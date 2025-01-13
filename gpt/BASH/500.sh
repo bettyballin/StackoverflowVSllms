@@ -1,1 +1,0 @@
-openssl genrsa -out wildcard.key 2048\n   openssl req -new -key wildcard.key -out wildcard.csr -subj "/C=US/ST=State/L=City/O=Organization/OU=Department/CN=*.example.com"\n   openssl x509 -req -days 365 -in wildcard.csr -signkey wildcard.key -out wildcard.crt

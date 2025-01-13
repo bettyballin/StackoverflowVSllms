@@ -1,1 +1,0 @@
-class AddTriggersAndProcedures < ActiveRecord::Migration[6.1]\n  def up\n    sql = File.read(Rails.root.join('db', 'sql', 'triggers_and_procedures.sql'))\n    execute(sql)\n  end\n\n  def down\n    # Add code here to reverse the migration if necessary\n    # Example: execute "DROP TRIGGER IF EXISTS ..."\n  end\nend

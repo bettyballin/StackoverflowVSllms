@@ -1,1 +1,0 @@
-mkdocs new my-project\n   cd my-project

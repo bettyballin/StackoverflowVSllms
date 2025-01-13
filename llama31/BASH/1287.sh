@@ -1,0 +1,1 @@
+sudo chroot --userspec=guest:guest /path/to/your/applicatio

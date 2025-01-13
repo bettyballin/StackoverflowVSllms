@@ -1,1 +1,0 @@
-<%\nFunction HTMLEncode(inputStr)\n    HTMLEncode = Server.HTMLEncode(inputStr)\nEnd Function\n%>\n\n<% \nDim userInput\nuserInput = Request("userInput")\nResponse.Write HTMLEncode(userInput)\n%>

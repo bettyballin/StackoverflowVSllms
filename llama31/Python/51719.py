@@ -1,0 +1,1 @@
+a = set((1, 2, 3))\nb = set((2, 3, 5))\nunion = a.union(b)

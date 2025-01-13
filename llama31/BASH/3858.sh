@@ -1,0 +1,1 @@
+yum install rpm-build php-devel

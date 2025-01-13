@@ -1,0 +1,1 @@
+ALTER SYSTEM KILL SESSION 'sid,serial#' IMMEDIATE SQL_ID 'sql_id';

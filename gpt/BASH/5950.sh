@@ -1,1 +1,0 @@
-ls -l /usr/lib/php5/20060613+lfs/mysql.so

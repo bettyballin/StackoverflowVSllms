@@ -1,0 +1,1 @@
+using (PrincipalContext context = new PrincipalContext(ContextType.Domain, domain, "LDAP://" + domain + ":389"))

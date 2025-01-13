@@ -1,0 +1,1 @@
+DECLARE\n  l_blob BLOB;\n  l_file UTL_FILE.FILE_TYPE;\nBEGIN\n  -- Open the file\n  l_file := UTL_FILE.FOPEN('path/to/file.doc', 'wb');\n  \n  -- Read the BLOB\n  SELECT blob_column INTO l_blob FROM your_table;\n  \n  -- Write the BLOB to the file\n  UTL_FILE.PUT_RAW(l_file, l_blob);\n  \n  -- Close the file\n  UTL_FILE.FCLOSE(l_file);\nEND;

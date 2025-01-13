@@ -1,1 +1,0 @@
-public class HomeController : BaseController\n{\n    public ActionResult Index()\n    {\n        // You can access ViewBag.PageTitle here if needed\n        return View();\n    }\n}

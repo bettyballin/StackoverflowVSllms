@@ -1,1 +1,0 @@
-<?php\n$file = 'path_to_your_file.txt';\n$data = array(\n    'key1' => 'value1',\n    'key2' => array(\n        'subkey1' => 'subvalue1',\n        'subkey2' => 'subvalue2'\n    )\n);\n\n$jsonData = json_encode($data);\nfile_put_contents($file, $jsonData);\n?>

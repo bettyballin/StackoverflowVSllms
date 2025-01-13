@@ -1,1 +1,0 @@
-private void MainForm_Load(object sender, EventArgs e)\n   {\n       DockableForm form1 = new DockableForm();\n       form1.Show(dockPanel, DockState.DockLeft);\n\n       DockableForm form2 = new DockableForm();\n       form2.Show(dockPanel, DockState.DockRight);\n   }

@@ -1,0 +1,1 @@
+IList<T> originalList = ...;\nint start = ...;\nint count = ...;\n\nIList<T> sublist = originalList.Skip(start).Take(count).ToList();

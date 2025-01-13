@@ -1,0 +1,1 @@
+ALTER TABLE your_table\nADD CONSTRAINT check_y_greater_than_x CHECK (y > x OR y IS NULL);

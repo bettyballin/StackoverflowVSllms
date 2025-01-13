@@ -1,1 +1,0 @@
-public class FileStreamResult : FileResult\n{\n    public Stream FileStream { get; }\n\n    public FileStreamResult(Stream fileStream, string contentType) : base(contentType)\n    {\n        FileStream = fileStream;\n    }\n\n    // Other members\n}

@@ -1,1 +1,0 @@
-class A:\n      def method_a(self):\n          print("A")\n      \n  class B:\n      def method_b(self):\n          print("B")\n      \n  class C(A, B):\n      def method_c(self):\n          print("C")\n\n  c = C()\n  c.method_a()  # Output: A\n  c.method_b()  # Output: B\n  c.method_c()  # Output: C

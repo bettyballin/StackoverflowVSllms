@@ -1,1 +1,0 @@
-module Foo\n  module Bar\n    def self.new(*args)\n      SimpleBarImplementation.new(*args)\n    end\n\n    def baz\n      raise NotImplementedError.new('Implementing Classes MUST redefine #baz')\n    end\n\n    freeze\n  end\n\n  class SimpleBarImplementation\n    include Bar\n\n    def baz\n      # implementation\n    end\n\n    freeze\n  end\n\n  freeze\nend\n\nFoo.freeze

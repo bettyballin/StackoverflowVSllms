@@ -1,1 +1,0 @@
-chmod 0400 ~/user.p12\n   chmod 0400 ~/password.txt

@@ -1,0 +1,1 @@
+// config.inc.php\n$conf['servers'][0]['host'] = 'localhost';\n$conf['servers'][0]['port'] = 5432;\n$conf['servers'][0]['username'] = 'your_username';\n$conf['servers'][0]['password'] = 'your_password';

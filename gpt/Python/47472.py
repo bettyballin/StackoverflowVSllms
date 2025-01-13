@@ -1,1 +1,0 @@
-from macros import inline\n\n# Define the macro\ninline_macro = inline(lambda code_block, n: "\n".join([code_block for _ in range(n)]))\n\n# Usage\n@inline_macro(3)\ndef sample():\n    print("This is a repeated line.")

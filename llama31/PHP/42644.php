@@ -1,0 +1,1 @@
+$xml = new SimpleXMLElement(file_get_contents('yourfile.xml'));\n\n$info = (string) $xml->tag1->subtag1;\n\necho $info; // Outputs: Info

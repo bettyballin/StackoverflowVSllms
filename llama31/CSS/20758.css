@@ -1,0 +1,1 @@
+.container {\n  display: flex;\n  flex-direction: column;\n  height: 100%; /* or any fixed height */\n}\n\n.header {\n  flex: 0 0 auto; /* fixed height */\n}\n\n.body {\n  flex: 1 1 auto; /* grows to fill available space */\n  overflow-y: auto; /* add scrollbar if needed */\n}\n\n.footer {\n  flex: 0 0 auto; /* fixed height */\n  margin-top: auto; /* push to bottom */\n}

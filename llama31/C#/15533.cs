@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\npublic void OpenUrl(string url)\n{\n    Process.Start(new ProcessStartInfo\n    {\n        FileName = url,\n        UseShellExecute = true\n    });\n}

@@ -1,1 +1,0 @@
-SELECT Id, ParentId, ParentType\nFROM TypeA\nWHERE ParentType = 'TypeB' AND CAST(ParentId AS INT) = 123;\n\nSELECT Id, ParentId, ParentType\nFROM TypeA\nWHERE ParentType = 'TypeC' AND ParentId = 'abc';

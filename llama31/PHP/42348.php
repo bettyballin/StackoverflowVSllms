@@ -1,0 +1,1 @@
+use Carbon\Carbon;\n\n$date1 = Carbon::create('2022-01-01');\n$date2 = Carbon::create('2022-01-15');\necho $date1->diffInDays($date2); // outputs 14\necho $date1->diffInWeekdays($date2); // outputs 10

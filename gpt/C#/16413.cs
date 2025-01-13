@@ -1,1 +1,0 @@
-var result = await context.YourEntities.ToListAsync();

@@ -1,0 +1,1 @@
+CREATE INDEX idx_actions_userid ON actions (userid);\nCREATE INDEX idx_actions_datetime ON actions (datetime);

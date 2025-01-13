@@ -1,0 +1,1 @@
+// Get the build details\nIBuildDetail buildDetail = buildServer.GetBuild(buildRequest.BuildNumber);\n\n// Check the build status\nBuildStatus buildStatus = buildDetail.Status;\n\n// Get the build logs\nstring[] buildLogs = buildDetail.GetBuildLogs();

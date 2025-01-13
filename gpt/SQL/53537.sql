@@ -1,1 +1,0 @@
-UPDATE TOP(1) dbo.userAccountInfo\nSET           Flags = Flags | @AddValue\nWHERE         ID = @ID;

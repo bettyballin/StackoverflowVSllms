@@ -1,0 +1,1 @@
+StringWriter sw = new StringWriter();\nxmlDoc.Save(sw);\nstring formattedXml = sw.ToString();\n\nPre xmlPre = new Pre();\nxmlPre.InnerText = formattedXml;\nPage.Controls.Add(xmlPre);

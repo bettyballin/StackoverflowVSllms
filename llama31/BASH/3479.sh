@@ -1,0 +1,1 @@
+curl -X PUT -H "Content-Type: application/json" -H "Accept: application/json" -T test/data.json http://localhost:5000/resource/33

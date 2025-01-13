@@ -1,0 +1,1 @@
+use DebugBar\StandardDebugBar;\n\n$debugbar = new StandardDebugBar();\n$debugbar->render();

@@ -1,0 +1,1 @@
+SELECT GROUP_CONCAT(value SEPARATOR ', ') AS collapsed_string\nFROM simpleTable;

@@ -1,0 +1,1 @@
+if (isset($foo) && is_array($foo)) {\n    // ...\n}

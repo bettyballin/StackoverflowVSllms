@@ -1,0 +1,1 @@
+icacls <ServiceName> /setowner SYSTEM\nicacls <ServiceName> /grant:r SYSTEM:(OI)(CI)F\nicacls <ServiceName> /deny:r BUILTIN\Administrators:(OI)(CI)F

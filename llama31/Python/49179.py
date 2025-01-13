@@ -1,0 +1,1 @@
+with open('file1.tsv', 'r') as f1, open('file2.tsv', 'r') as f2:\n    set1 = set(line.strip() for line in f1)\n    set2 = set(line.strip() for line in f2)\n    diff = set1.symmetric_difference(set2)\n    if diff:\n        print("Differences found:")\n        for line in diff:\n            print(line)\n    else:\n        print("No differences found.")

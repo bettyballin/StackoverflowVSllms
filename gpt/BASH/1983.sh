@@ -1,1 +1,0 @@
-0 * * * * /path/to/your/project/scripts/cron/your-cron-script.php

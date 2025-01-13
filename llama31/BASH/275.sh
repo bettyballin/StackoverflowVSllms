@@ -1,0 +1,1 @@
+php -c c:\test.php 2>&1

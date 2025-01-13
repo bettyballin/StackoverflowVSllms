@@ -1,1 +1,0 @@
-SELECT \n    TORCH_ID,\n    distance AS thisscore,\n    FIND_IN_SET(distance, (\n        SELECT GROUP_CONCAT(DISTINCT distance ORDER BY distance DESC) \n        FROM torch_info\n    )) AS rank\nFROM \n    torch_info\nORDER BY \n    rank;

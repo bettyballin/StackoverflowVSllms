@@ -1,0 +1,1 @@
+<system.webServer>\n    <modules>\n        <add name="HttpModuleLoader" type="YourNamespace.HttpModuleLoader, YourAssembly" />\n    </modules>\n</system.webServer>

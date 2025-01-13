@@ -1,1 +1,0 @@
-function fetchData() {\n  var xhr = new XMLHttpRequest();\n  xhr.open("GET", "your-api-endpoint", true);\n  xhr.onreadystatechange = function() {\n    if (xhr.readyState == 4 && xhr.status == 200) {\n      console.log(xhr.responseText);\n    }\n  };\n  xhr.send();\n}\n\nsetInterval(fetchData, 30000); // Fetch data every 30 seconds

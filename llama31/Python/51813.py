@@ -1,0 +1,1 @@
+BTSocket.settimeout(5)  # Set a 5-second timeout

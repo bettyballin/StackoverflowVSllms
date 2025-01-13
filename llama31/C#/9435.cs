@@ -1,0 +1,1 @@
+if (Request.IsAjaxRequest())\n{\n    // Return JSON result\n}\nelse\n{\n    // Return View result\n}

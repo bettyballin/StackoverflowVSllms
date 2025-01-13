@@ -1,0 +1,1 @@
+$nid = 123; // Replace with the desired node ID\n$cid = get_comment_id($nid);\nif ($cid) {\n  print "Comment ID: $cid\n";\n} else {\n  print "No comments found for node $nid\n";\n}

@@ -1,0 +1,1 @@
+public class UniqueNamedEntityMap : ClassMap<UniqueNamedEntity>\n{\n    public UniqueNamedEntityMap()\n    {\n        // mappings for UniqueNamedEntity\n        DiscriminateSubClassesOnColumn("Type");\n    }\n}

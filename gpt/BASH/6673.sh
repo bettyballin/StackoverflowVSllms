@@ -1,1 +1,0 @@
-sudo systemctl restart gdm       # For GNOME Display Manager\n   sudo systemctl restart lightdm   # For LightDM\n   sudo systemctl restart sddm      # For SDDM\n   sudo systemctl restart lxdm      # For LXDM

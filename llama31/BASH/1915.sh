@@ -1,0 +1,1 @@
+override_dh_install:\n    dh_link $(libdir)/$(PACKAGE)-$(VERSION)/$(PACKAGE) /usr/bin/$(PACKAGE)

@@ -1,1 +1,0 @@
-cd codeplex-repo\n    svn update\n    # Copy changes from your local repo to the codeplex-repo directory\n    # Resolve any conflicts\n    svn commit -m "Your commit message"

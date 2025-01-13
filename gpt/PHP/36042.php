@@ -1,1 +1,0 @@
-$string = preg_replace('/&(?![a-zA-Z]{2,6};)/', '&amp;', $string);

@@ -1,1 +1,0 @@
-ffmpeg -i $infile -c:v copy -c:a aac -b:a 64k $outfile

@@ -1,1 +1,0 @@
-using System.IO;\n\nprivate static void LogStatus(string message)\n{\n    using (StreamWriter writer = new StreamWriter("service_status.log", true))\n    {\n        writer.WriteLine($"{DateTime.Now}: {message}");\n    }\n}

@@ -1,1 +1,0 @@
-LinkedList<int> intList = new LinkedList<int>(new int[] { 1, 2, 3, 4 });\nLinkedList<string> stringList = intList.ConvertAll(input => input.ToString());\n\nforeach (var item in stringList)\n{\n    Console.WriteLine(item);\n}

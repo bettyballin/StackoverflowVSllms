@@ -1,1 +1,0 @@
-var hqlQuery = session.CreateQuery("FROM YourEntity WHERE YourColumn = :param")\n                      .SetParameter("param", "value");\n\nvar hqlResult = hqlQuery.List<YourEntity>();

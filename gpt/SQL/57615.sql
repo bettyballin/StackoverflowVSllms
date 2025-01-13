@@ -1,1 +1,0 @@
---GetDataByAvailableTechs query \nSELECT tblLEMSCredentialsId, TechNumber\nFROM tblLEMSCredentials\nUNION ALL\nSELECT -1 AS tblLEMSCredentialsId, NULL AS TechNumber

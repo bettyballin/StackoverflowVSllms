@@ -1,1 +1,0 @@
-// UnmanagedClass.cpp\n    extern "C" {\n        __declspec(dllexport) void MyUnmanagedFunction();\n    }\n\n    void MyUnmanagedFunction() {\n        // Implementation of the function\n    }

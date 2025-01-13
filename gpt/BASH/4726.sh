@@ -1,1 +1,0 @@
-sudo yum install php-imagick\nsudo systemctl restart httpd   # or restart your web server

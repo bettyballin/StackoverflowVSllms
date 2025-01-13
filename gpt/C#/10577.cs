@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (IsPostBack)\n    {\n        string selectedCity = selectedCityHiddenField.Value;\n        // Use the selectedCity value as needed\n    }\n}

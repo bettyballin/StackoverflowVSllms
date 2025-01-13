@@ -1,1 +1,0 @@
-openssl pkcs12 -in yourCertificate.p12 -nocerts -out privateKey.pem -nodes

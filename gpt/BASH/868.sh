@@ -1,1 +1,0 @@
-cpan install i18

@@ -1,1 +1,0 @@
-dumpbin /headers yourfile.dll | findstr /C:"Debug"

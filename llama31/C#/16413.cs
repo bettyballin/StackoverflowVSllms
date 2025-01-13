@@ -1,0 +1,1 @@
+bool IsNull(object obj)\n{\n    if (obj == null) return true;\n    if (obj == DBNull.Value) return true;\n    if (obj is int? nullableInt && !nullableInt.HasValue) return true;\n    // Add more nullable value types as needed\n    return false;\n}

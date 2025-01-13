@@ -1,0 +1,1 @@
+<DebuggerDisplay("{X}, {Y}, {Width}, {Height}")>

@@ -1,1 +1,0 @@
-SET GLOBAL general_log = 'ON';\n   SET GLOBAL general_log_file = '/path/to/your/logfile.log';

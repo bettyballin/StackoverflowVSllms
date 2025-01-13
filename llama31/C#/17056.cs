@@ -1,0 +1,1 @@
+using System.Text.RegularExpressions;\n\npublic class QueryStringValidator\n{\n    public bool IsValid(string queryString, string pattern)\n    {\n        var regex = new Regex(pattern);\n        return regex.IsMatch(queryString);\n    }\n}

@@ -1,0 +1,1 @@
+if len(my_list) >= 53:\n    print(my_list[52])  # Note: list indices start at 0, so the 53rd item is at index 52\nelse:\n    print("List has fewer than 53 items")

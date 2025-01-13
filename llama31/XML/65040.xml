@@ -1,0 +1,1 @@
+<configuration>\n    <system.web>\n        <authentication mode="None" />\n        <hostAuthenticationSettings SuppressDefaultHostAuthentication="true" />\n    </system.web>\n</configuration>

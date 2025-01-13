@@ -1,0 +1,1 @@
+var session = // get your NHibernate session\nvar query = session.CreateQuery("DELETE FROM Accounts WHERE amount < 1000");\nquery.ExecuteUpdate();

@@ -1,1 +1,0 @@
-[ValidateAntiForgeryToken]\n    public ActionResult YourActionMethod(...)\n    {\n        ...\n    }

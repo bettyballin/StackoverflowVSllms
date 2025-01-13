@@ -1,0 +1,1 @@
+private void myButton_Click(object sender, EventArgs e)\n{\n    ((ToolStripButton)bindingNavigator1.Items["bindingNavigatorAddNewItem"]).Invoke((Action)(() =>\n    {\n        ((ToolStripButton)bindingNavigator1.Items["bindingNavigatorAddNewItem"]).Click();\n    }));\n}

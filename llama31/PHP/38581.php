@@ -1,0 +1,1 @@
+function create_hash($sender_id, $recipient_id) {\n  $data = "$sender_id:$recipient_id";\n  $hash = base64_encode($data);\n  return $hash;\n}\n\nfunction decode_hash($hash) {\n  $data = base64_decode($hash);\n  list($sender_id, $recipient_id) = explode(":", $data);\n  return array($sender_id, $recipient_id);\n}

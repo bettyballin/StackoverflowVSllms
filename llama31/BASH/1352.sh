@@ -1,0 +1,1 @@
+svn import --use-commit-times /path/to/source/tree https://svn.example.com/repos/myproject

@@ -1,0 +1,1 @@
+current_user.followees.includes(:messages).where(messages: { user_id: current_user.followees.pluck(:id) })

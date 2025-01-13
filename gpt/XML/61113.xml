@@ -1,1 +1,0 @@
-<Realm className="org.apache.catalina.realm.JAASRealm"\n          appName="Htpasswd"\n          userClassNames="com.example.HtpasswdLoginModule"\n          roleClassNames="com.example.HtpasswdLoginModule"/>

@@ -1,0 +1,1 @@
+openssl x509 -in server.crt -out server.der -outform der

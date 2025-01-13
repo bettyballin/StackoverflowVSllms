@@ -1,1 +1,0 @@
-# Example command to allow traffic on port 9191 (Windows)\n   netsh advfirewall firewall add rule name="Allow TFS Build Agent" dir=in action=allow protocol=TCP localport=9191

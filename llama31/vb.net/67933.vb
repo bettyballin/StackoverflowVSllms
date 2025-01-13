@@ -1,0 +1,1 @@
+Dim db As DAO.Database\nSet db = CurrentDb()\n\nDim qdf As DAO.QueryDef\nSet qdf = db.CreateQueryDef("", "UPDATE tbltesting SET IsDiff = 'Yes' WHERE empid = [empid] AND testid = [testid]")\n\nqdf.Parameters("[empid]").Value = Me.txtEmpId.Value\nqdf.Parameters("[testid]").Value = Me.txtAutoNumber.Value\n\nqdf.Execute dbFailOnError

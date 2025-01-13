@@ -1,0 +1,1 @@
+math.comb(n, k) = math.factorial(n) // (math.factorial(k) * math.factorial(n-k))

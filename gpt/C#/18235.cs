@@ -1,1 +1,0 @@
-[WebMethod]\npublic static void YourWebMethod(string number, int numberTypeId, int companyId)\n{\n    // Your code here\n}

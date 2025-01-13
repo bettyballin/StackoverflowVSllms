@@ -1,1 +1,0 @@
-@echo off\nsetlocal enabledelayedexpansion\n\nREM Read the value from the file\nset /p VALUE_FROM_FILE=<AppServer.pid\n\nREM Use the value in the taskkill command\ntaskkill /pid %VALUE_FROM_FILE% /f

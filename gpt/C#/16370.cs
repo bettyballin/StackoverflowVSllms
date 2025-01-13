@@ -1,1 +1,0 @@
-<!-- YourUserControl.ascx -->\n<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="YourUserControl.ascx.cs" Inherits="YourNamespace.YourUserControl" %>\n<asp:Button ID="btnCallPageMethod" runat="server" Text="Call PageMethod" OnClientClick="callPageMethod(); return false;" />

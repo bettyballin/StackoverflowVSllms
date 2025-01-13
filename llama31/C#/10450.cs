@@ -1,0 +1,1 @@
+// Cache the entire page for 24 hours\n[OutputCache(Duration = 86400)]\npublic partial class HomePage : Page\n{\n    // ...\n}

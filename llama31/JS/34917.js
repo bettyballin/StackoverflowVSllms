@@ -1,0 +1,1 @@
+function deleteRow(rowIndex) {\n    if (confirm('Are you sure you want to delete this row?')) {\n        __doPostBack('<%= GridPaymentMethod.ClientID %>', 'Delete$' + rowIndex);\n    }\n}

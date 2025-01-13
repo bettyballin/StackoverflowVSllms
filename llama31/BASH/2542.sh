@@ -1,0 +1,1 @@
+# Install tidy on Mac OS X (using Homebrew)\nbrew install tidy\n\n# Validate an HTML file using tidy\ntidy -errors -quiet yourfile.html

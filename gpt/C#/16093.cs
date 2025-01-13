@@ -1,1 +1,0 @@
-protected void Application_Error(Object sender, EventArgs e)\n   {\n       Exception ex = Server.GetLastError();\n       // Log the exception (e.g., using a logging framework or writing to a file)\n       // Example: LogException(ex);\n   }

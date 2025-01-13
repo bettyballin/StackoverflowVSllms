@@ -1,0 +1,1 @@
+SELECT ?tag (COUNT(*) AS ?count)\nWHERE {\n  ?r ns9:taggedWithTag ?tagresource.\n  ?tagresource ns9:name ?tag\n}\nGROUP BY ?tag\nLIMIT 5000

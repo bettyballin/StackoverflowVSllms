@@ -1,0 +1,1 @@
+CREATE TABLE TestIdentity (\n    Id INT IDENTITY(1,1) PRIMARY KEY,\n    Name VARCHAR(50)\n)

@@ -1,0 +1,1 @@
+int main() {\n    std::list<Point> pointList;\n    pointList.push_back(Point(1, 2));\n    pointList.push_back(Point(3, 4));\n    pointList.push_back(Point(5, 6));\n\n    deleteClosestPoint(3, 3, pointList);\n\n    std::list<Point> pointsInRadius = getPointsInRadius(3, 3, 2, pointList);\n\n    return 0;\n}

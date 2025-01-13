@@ -1,0 +1,1 @@
+// Configuration\n$redis = new Redis();\n$redis->connect('localhost', 6379);\n\n// Store session data in Redis\nsession_start();\n$redis->set('session:' . session_id(), $_SESSION);

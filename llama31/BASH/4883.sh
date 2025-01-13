@@ -1,0 +1,1 @@
+@ECHO OFF\nSET /P UserInput=Please Enter a Number: \n\nSET /A IsValid=1\nFOR /F "delims=0123456789" %%a IN ("%UserInput%") DO SET /A IsValid=0\n\nIF %IsValid%==1 (\n    ECHO Input is a valid number\n) ELSE (\n    ECHO Input is not a valid number\n)

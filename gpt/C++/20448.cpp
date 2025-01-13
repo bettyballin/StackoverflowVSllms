@@ -1,1 +1,0 @@
-#include "foo.h"\n\n__attribute__((used)) void neverCalled() {\n  Foo<int> f(1);\n}

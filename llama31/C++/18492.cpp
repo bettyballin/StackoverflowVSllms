@@ -1,0 +1,1 @@
+#pragma optimize("", off)\nClassTest::ClassTest() {\n    // your constructor code here\n}\n#pragma optimize("", on)

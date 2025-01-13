@@ -1,0 +1,1 @@
+// C++ DLL (dshow_manager.dll)\n// dshow_manager.idl\n[\n  uuid( your-GUID-here ),\n  version(1.0)\n]\ninterface IDShowManager : IUnknown\n{\n  HRESULT Initialize();\n  HRESULT DoSomething();\n};\n\n// dshow_manager.cpp\nclass CDShowManager : public IDShowManager\n{\n  // implement the interface methods\n};\n\n// register the DLL for COM\nregsvr32 dshow_manager.dll

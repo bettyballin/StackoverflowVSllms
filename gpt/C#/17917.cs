@@ -1,1 +1,0 @@
-DataSet myDataSet = new DataSet();\ntry\n{\n    // Populate and use the DataSet\n}\nfinally\n{\n    if (myDataSet != null)\n    {\n        try\n        {\n            myDataSet.Dispose();\n        }\n        catch (Exception ex)\n        {\n            // Log the exception\n            Console.WriteLine($"Exception during Dispose: {ex.Message}");\n        }\n    }\n}

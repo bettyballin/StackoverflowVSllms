@@ -1,0 +1,1 @@
+SELECT TOP 1 *\nFROM TestTable\nWHERE ColumnA = 'A' AND ColumnB = 'B'\nORDER BY CreatedDate DESC;

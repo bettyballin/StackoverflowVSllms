@@ -1,0 +1,1 @@
+function hasNumber($var) {\n    return preg_match('/\d/', $var) === 1;\n}

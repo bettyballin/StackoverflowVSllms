@@ -1,1 +1,0 @@
-function areAllCheckboxesUnselected() {\n    const checkboxes = document.querySelectorAll('input[name="us"]');\n    return Array.from(checkboxes).every(checkbox => !checkbox.checked);\n}\n\n// Usage\nif (areAllCheckboxesUnselected()) {\n    console.log('All checkboxes are unselected.');\n} else {\n    console.log('Some checkboxes are selected.');\n}

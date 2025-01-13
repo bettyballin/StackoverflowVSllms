@@ -1,0 +1,1 @@
+require_once 'jsonRPCClient.php';\n\n// Create a new JSON-RPC client\n$client = new jsonRPCClient('http://example.com/jsonrpc.php');\n\n// Call the hello method\n$response = $client->hello('John');\n\n// Print the response\necho $response; // Output: "Hello, John!"

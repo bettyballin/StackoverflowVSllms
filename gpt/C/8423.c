@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint main() {\n    printf("Hello, x86 World!\n");\n    return 0;\n}

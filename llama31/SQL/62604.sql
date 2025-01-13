@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\nBEGIN TRY\n    SELECT * FROM YourTable WITH (ROWLOCK, HOLDLOCK) WHERE YourColumn = 'YourValue';\n    -- Perform your operations here\n    COMMIT TRANSACTION;\nEND TRY\nBEGIN CATCH\n    ROLLBACK TRANSACTION;\n    DECLARE @ErrorMessage nvarchar(4000);\n    SET @ErrorMessage = ERROR_MESSAGE();\n    RAISERROR (@ErrorMessage, 16, 1);\nEND CATCH

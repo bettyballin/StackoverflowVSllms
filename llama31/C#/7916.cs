@@ -1,0 +1,1 @@
+using System;\nusing System.Diagnostics;\n\nclass ProcessTracker\n{\n    static void Main()\n    {\n        foreach (Process process in Process.GetProcesses())\n        {\n            Console.WriteLine(process.ProcessName);\n        }\n    }\n}

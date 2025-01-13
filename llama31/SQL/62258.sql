@@ -1,0 +1,1 @@
+from Contest c\nwhere exists (\n  from c.RequiredCountries rc\n  where rc.CountryCode = :CountryCode\n)

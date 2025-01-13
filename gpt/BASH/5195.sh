@@ -1,1 +1,0 @@
-objdump -h libmylibrary.so | grep debug

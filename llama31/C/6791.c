@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <stdlib.h>\n#include <sys/mman.h>\n\nint main() {\n    size_t size = 1024 * 1024; // 1MB\n    void* addr = mmap(NULL, size, PROT_READ | PROT_WRITE, MAP_ANONYMOUS | MAP_PRIVATE, -1, 0);\n    if (addr == MAP_FAILED) {\n        perror("mmap");\n        exit(1);\n    }\n    // ...\n}

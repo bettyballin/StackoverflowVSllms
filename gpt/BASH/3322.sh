@@ -1,1 +1,0 @@
-export BUNDLE_WITHOUT="development"

@@ -1,0 +1,1 @@
+svn propset svn:author your_desired_author_name --recursive

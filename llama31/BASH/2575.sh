@@ -1,0 +1,1 @@
+svn diff -r 7450:7500 /path/to/working/copy > patch_file.patch

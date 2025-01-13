@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    var nick = Page.RouteData.Values["nick"];\n    // Do something with the nick value\n}

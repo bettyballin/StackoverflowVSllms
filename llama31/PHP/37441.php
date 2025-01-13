@@ -1,0 +1,1 @@
+// Generate a token and store it in the session\n$token = bin2hex(random_bytes(32));\n$_SESSION['token'] = $token;\n\n// Include the token in the form as a hidden input field\necho '<input type="hidden" name="token" value="' . $token . '">';

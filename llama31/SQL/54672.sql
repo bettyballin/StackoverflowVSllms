@@ -1,0 +1,1 @@
+CREATE INDEX idx_EventTask_startEventKey ON EventTask (startEventKey);\nCREATE INDEX idx_EventTask_endEventKey ON EventTask (endEventKey);\nCREATE INDEX idx_Event_eventKey ON Event (eventKey);\nCREATE INDEX idx_EventTask_activityKey ON EventTask (activityKey);

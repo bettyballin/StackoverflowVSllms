@@ -1,0 +1,1 @@
+# Launch JConsole and connect to your WebSphere instance\njconsole <websphere_jmx_url>

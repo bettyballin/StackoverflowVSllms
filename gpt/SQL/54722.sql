@@ -1,1 +1,0 @@
-SELECT * FROM your_table\nWHERE DATE_FORMAT(time, '%Y-%m-%d %H:%i') = DATE_FORMAT(NOW(), '%Y-%m-%d %H:%i');

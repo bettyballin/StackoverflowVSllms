@@ -1,0 +1,1 @@
+// MyPage.aspx.cs\n[WebMethod]\npublic static string GetData()\n{\n    // Return JSON data\n    return "{\"name\":\"John\",\"age\":30}";\n}

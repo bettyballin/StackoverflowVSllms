@@ -1,1 +1,0 @@
-using Microsoft.AspNetCore.SignalR;\n\n   public class ConsoleOutputHub : Hub\n   {\n   }

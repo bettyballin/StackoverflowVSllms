@@ -1,0 +1,1 @@
+char character = 'A'; // a single character\nuint8_t octet = 0x41; // an octet representing the ASCII value of 'A'

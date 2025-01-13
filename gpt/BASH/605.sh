@@ -1,1 +1,0 @@
-javac ConsoleApp.java\njavah -jni ConsoleApp

@@ -1,1 +1,0 @@
-;WITH CTE AS (\n    SELECT \n        A, \n        B, \n        C,\n        ROW_NUMBER() OVER (PARTITION BY A ORDER BY B DESC) AS rn\n    FROM \n        YourTable\n)\nSELECT \n    MAX(B) AS B, \n    C, \n    COUNT(DISTINCT A) AS [Count]\nFROM \n    CTE\nWHERE \n    rn = 1\nGROUP BY \n    C\nORDER BY \n    B;

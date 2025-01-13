@@ -1,0 +1,1 @@
+caspol.exe -m -ag 1 -url file://your_network_share/* FullTrust

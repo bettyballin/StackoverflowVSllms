@@ -1,0 +1,1 @@
+require 'profiler'\n\nProfiler__.start_profile\n# your code here\nProfiler__.stop_profile\nProfiler__.print_profile($stdout)

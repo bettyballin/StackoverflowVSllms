@@ -1,0 +1,1 @@
+string[] textFiles = Directory.EnumerateFiles(@"c:\mydir", "*.txt")\n    .Where(file => File.Exists(file))\n    .ToArray();

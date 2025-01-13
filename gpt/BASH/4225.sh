@@ -1,1 +1,0 @@
-REM Unmap network drive\nnet use K: /delete

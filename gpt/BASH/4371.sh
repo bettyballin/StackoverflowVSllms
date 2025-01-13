@@ -1,1 +1,0 @@
-cd %windir%\system32\inetsrv\nappcmd restore backup "MyBackup"

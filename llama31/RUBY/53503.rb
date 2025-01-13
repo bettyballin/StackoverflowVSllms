@@ -1,0 +1,1 @@
+# app/controllers/application_controller.rb\nbefore_action :track_presence\n\nprivate\n\ndef track_presence\n  Presence.set(user_id, expires_in: 10.minutes)\nend

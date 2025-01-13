@@ -1,1 +1,0 @@
-<?php\ninclude 'common_script.php';\n?>

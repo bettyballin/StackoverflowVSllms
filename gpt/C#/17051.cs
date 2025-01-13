@@ -1,1 +1,0 @@
-DataSet dataSet = new DataSet();\nyourTableAdapter.Fill(dataSet, "TableName");\n// Perform additional operations on dataSet

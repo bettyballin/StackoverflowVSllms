@@ -1,0 +1,1 @@
+$('#searchButton').click(function() {\n    var timestamp = new Date().getTime();\n    $('#inquiry').load('/portal/?f=searchBilling&pid=' + $('#query').val() + '&t=' + timestamp);\n});

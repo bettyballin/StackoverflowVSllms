@@ -1,0 +1,1 @@
+MEMORYSTATUSEX memInfo;\n memInfo.dwLength = sizeof(MEMORYSTATUSEX);\n GlobalMemoryStatusEx(&memInfo);\n DWORD availableMemory = memInfo.ullAvailPhys;

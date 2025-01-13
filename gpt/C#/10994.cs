@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (this.Request["__EVENTARGUMENT"] == "Flag")\n    {\n        // DoSomething...\n    }\n}\n\nprotected void Button1_Click(object sender, EventArgs e)\n{\n    // Set the __EVENTARGUMENT value in JavaScript or other client-side code\n    HiddenField1.Value = "Flag";\n}

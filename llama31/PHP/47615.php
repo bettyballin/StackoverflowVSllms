@@ -1,0 +1,1 @@
+<?php\n$basehref = 'http://www.example.com/alpha/bravo/UsabilityTest/';\n?>\n<script>\nvar URI = "<?php echo $basehref; ?>foxtrot/ProcessUserInput.php?";\n</script>

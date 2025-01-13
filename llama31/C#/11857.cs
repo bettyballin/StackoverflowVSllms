@@ -1,0 +1,1 @@
+MyClass obj = new MyClass();\nstring value = obj.get_MyProperty(); // Note the get_ prefix

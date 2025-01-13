@@ -1,0 +1,1 @@
+$xml = file_get_contents('php://input');\n$xml = simplexml_load_string($xml);\n\n// Now you can access the XML nodes and content\necho $xml->getName(); // prints the root element name

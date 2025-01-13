@@ -1,1 +1,0 @@
-$sitename = "stackoverflow.com";\n    // Later in functions\n    global $sitename;

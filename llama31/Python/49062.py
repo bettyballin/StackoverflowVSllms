@@ -1,0 +1,1 @@
+#!/usr/bin/env python\nimport os\n\noriginal_command = os.environ.get('SSH_ORIGINAL_COMMAND')\nif original_command:\n    print(original_command)\nelse:\n    print("No command specified")

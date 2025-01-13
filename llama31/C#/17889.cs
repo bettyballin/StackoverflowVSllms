@@ -1,0 +1,1 @@
+[ComVisible(true)]\n[ClassInterface(ClassInterfaceType.AutoDispatch)]\npublic class ApiExposed\n{\n    // ...\n}

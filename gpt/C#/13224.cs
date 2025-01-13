@@ -1,1 +1,0 @@
-var query = from c in db.Customers\n            join o in db.Orders\n            on c.CustomerID equals o.CustomerID into sr\n            from x in sr.DefaultIfEmpty()\n            select (int?)x.OrderId; // Ensure the type is nullable\n\nList<int?> result = query.ToList();

@@ -1,1 +1,0 @@
-<?php\n// Assume $query is your MySQL query resource\nwhile ($row = mysql_fetch_array($query)) {\n    $forums[] = [\n        'name' => $row['forum_name'],\n        'date' => $row['forum_date'],\n        'desc' => $row['forum_description'],\n        'lastpost' => $row['forum_lastpost']\n    ];\n}\ninclude 'template.php';\n?>

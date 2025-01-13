@@ -1,0 +1,1 @@
+#include <unordered_map>\n#include <typeindex>\n\nclass Object {\npublic:\n    virtual ~Object() {}\n};\n\nclass MyObject : public Object {\npublic:\n    MyObject(int value) : value(value) {}\n    int value;\n};\n\nint main() {\n    std::unordered_map<std::type_index, Object*> dictionary;\n    dictionary[std::type_index(typeid(MyObject))] = new MyObject(10);\n    return 0;\n}

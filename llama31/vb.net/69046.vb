@@ -1,0 +1,1 @@
+Public Class CompanyMailMessage\n    Inherits MailMessage\n\n    ' ...\n\n    Public Overrides Property FromAddress As EmailAddress\n        Get\n            Return MyBase.FromAddress\n        End Get\n        Set(value As EmailAddress)\n            MyBase.FromAddress = value\n        End Set\n    End Property\n\n    ' ...\nEnd Class

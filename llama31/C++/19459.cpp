@@ -1,0 +1,1 @@
+interface IMyInterface : IUnknown\n{\n    // methods and properties here\n};

@@ -1,1 +1,0 @@
--- Create a full-text search index\n    CREATE INDEX textsearch_idx ON your_table USING gin (to_tsvector('english', your_column));\n\n    -- Perform a full-text search query\n    SELECT * FROM your_table WHERE to_tsvector('english', your_column) @@ to_tsquery('your_search_term');

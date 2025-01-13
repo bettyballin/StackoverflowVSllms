@@ -1,0 +1,1 @@
+// C code\nstruct foo {\n    int k;\n};\n\nint ret_foo(const struct foo* f) {\n    return f->k;\n}

@@ -1,0 +1,1 @@
+chown -R apache:apache xampp\tmp

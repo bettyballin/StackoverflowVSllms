@@ -1,1 +1,0 @@
-SELECT TOP(X) [colnames]\nFROM [tables with joins]\nWHERE [constraints]\nGROUP BY [cols]\nORDER BY [cols];

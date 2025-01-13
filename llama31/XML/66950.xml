@@ -1,0 +1,1 @@
+<configuration>\n  <system.net>\n    <mailSettings>\n      <smtp>\n        <sessionSizeLimit>40480</sessionSizeLimit>\n      </smtp>\n    </mailSettings>\n  </system.net>\n</configuration>

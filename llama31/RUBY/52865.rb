@@ -1,0 +1,1 @@
+require 'action_view/helpers/html_sanitizer'

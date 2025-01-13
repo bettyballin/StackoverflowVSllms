@@ -1,0 +1,1 @@
+/* print.css */\nbody {\n  margin: 0.5in;\n  padding: 0;\n  font-family: Arial, sans-serif;\n  font-size: 12pt;\n}\n\n.page-break {\n  page-break-before: always;\n}\n\n.container {\n  width: 800px;\n  margin: 0 auto;\n}\n\n/* add more styles as needed */

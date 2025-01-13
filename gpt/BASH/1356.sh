@@ -1,1 +1,0 @@
-etsh winhttp set proxy proxy-server="http=<proxy address>:<port>" proxy-bypass-list="*.local"

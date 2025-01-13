@@ -1,0 +1,1 @@
+openssl dgst -sha256 -verify certificate.pem -signature signature input_binary_stream

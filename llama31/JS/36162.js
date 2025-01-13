@@ -1,0 +1,1 @@
+$(".new").click(function() {\n  var myvariable4 = $(this).prevAll("input[type=text]").val().trim();\n  if (myvariable4 !== "") {\n    $.post("place_list.php", {action: "create", name: myvariable4}, function(data){\n      alert("Data Loaded: " + data);\n      alert(myvariable4);\n    },"html");\n  } else {\n    alert("Please enter a valid name");\n  }\n});

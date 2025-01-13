@@ -1,1 +1,0 @@
-@echo off\nrem step 1 - do some stuff here\n\nrem step 2 - launch my app\nstart "" "c:\myfolder\myapp.exe"\n\nrem step 3 - do some more stuff here

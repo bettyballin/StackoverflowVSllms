@@ -1,1 +1,0 @@
-gcc -fsanitize=address -g your_application.c -o your_application\n    ./your_applicatio

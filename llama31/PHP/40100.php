@@ -1,0 +1,1 @@
+class DiscographyEntry {\n    private $id;\n    private $cd_id; // foreign key to the CD product\n    private $track_list;\n\n    // Discography entry methods\n}

@@ -1,0 +1,1 @@
+public class MyEntity {\n    private string _myProperty;\n\n    public MyEntity() {}\n\n    public string MyProperty {\n        get { return _myProperty; }\n        private set { _myProperty = value; }\n    }\n}\n\n// Querying\nusing (var connection = new SqlConnection(connectionString)) {\n    var myEntity = connection.QuerySingle<MyEntity>("SELECT * FROM MyTable");\n}

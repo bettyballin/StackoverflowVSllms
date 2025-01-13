@@ -1,0 +1,1 @@
+SqlDataAdapter da = new SqlDataAdapter();\nda.SelectCommand = new SqlCommand("YourStoredProcedureName", YourSqlConnection);\nda.SelectCommand.CommandType = CommandType.StoredProcedure;\n\nDataSet ds = new DataSet();\nda.Fill(ds);\n\n// Rename the last table to "D1Header"\nds.Tables[ds.Tables.Count - 1].TableName = "D1Header";

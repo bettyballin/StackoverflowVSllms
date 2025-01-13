@@ -1,1 +1,0 @@
-sudo rsnapshot hourly

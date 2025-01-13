@@ -1,0 +1,1 @@
+using (RegistryKey reg = Registry.LocalMachine.OpenSubKey(@"SYSTEM\CurrentControlSet\Control\Session Manager\Environment", true))\n{\n    reg.SetValue("MYVAR", "SomeVal", RegistryValueKind.String);\n}

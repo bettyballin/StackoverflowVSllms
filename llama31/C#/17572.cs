@@ -1,0 +1,1 @@
+using (var stream = TestDataLoader.LoadResource("YourNamespace.YourResourceName"))\n{\n    // Use the stream\n}

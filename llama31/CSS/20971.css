@@ -1,0 +1,1 @@
+.rotated-text {\n  transform: rotate(30deg);\n  -ms-transform: rotate(30deg); /* IE 9 */\n  -moz-transform: rotate(30deg); /* Firefox */\n  -webkit-transform: rotate(30deg); /* Safari and Chrome */\n}

@@ -1,0 +1,1 @@
+// core/MY_Controller.php\nclass MY_Controller extends CI_Controller {\n    public function __construct() {\n        parent::__construct();\n        $this->load->library('auth');\n    }\n\n    public function requires_login() {\n        if (!$this->auth->is_logged_in()) {\n            redirect('login');\n        }\n    }\n}

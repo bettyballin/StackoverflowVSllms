@@ -1,0 +1,1 @@
+$a = 10.99;\n$b = 2.49;\n\n$result = $a + $b;\necho money_format('%n', $result); // Output: 13.48

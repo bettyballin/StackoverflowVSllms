@@ -1,0 +1,1 @@
+curl -H "Content-Type: application/json" -X GET http://example.com/your-rest-service

@@ -1,0 +1,1 @@
+validates_length_of :users, minimum: 1

@@ -1,0 +1,1 @@
+# Configure Windows Firewall\nnetsh advfirewall set allprofiles state on\nnetsh advfirewall set allprofiles firewallpolicy blockinboundalways,allowoutbound\n\n# Configure Windows Update\nSet-ExecutionPolicy RemoteSigned -Force\nInstall-WindowsUpdate -AutoUpdate -Force

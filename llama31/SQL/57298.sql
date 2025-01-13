@@ -1,0 +1,1 @@
+SELECT * FROM myTable WHERE NOT MATCH (field) AGAINST ('$keyword' IN BOOLEAN MODE);

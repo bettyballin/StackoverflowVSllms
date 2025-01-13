@@ -1,0 +1,1 @@
+pdfjam --fitpaper true --rotateoversize true file1.pdf file2.pdf file3.pdf -o output.pdf

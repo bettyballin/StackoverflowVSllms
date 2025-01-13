@@ -1,1 +1,0 @@
-# Stop Oracle Enterprise Manager service\nnet stop OracleDBConsole<your_sid>\n\n# Start Oracle Enterprise Manager service\nnet start OracleDBConsole<your_sid>

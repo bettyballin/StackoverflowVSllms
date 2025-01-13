@@ -1,1 +1,0 @@
-SELECT * \nFROM INFORMATION_SCHEMA.INNODB_LOCK_WAITS\nWHERE locked_table_name = 'your_database_name/your_table_name';

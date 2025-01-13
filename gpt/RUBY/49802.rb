@@ -1,1 +1,0 @@
-# app/jobs/mailer_job.rb\n   class MailerJob\n     include Sidekiq::Worker\n     sidekiq_options retry: 5 # Retry up to 5 times\n\n     def perform(mailer_class, mailer_method, *args)\n       mailer_class.constantize.send(mailer_method, *args).deliver_now\n     end\n   end

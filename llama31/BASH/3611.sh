@@ -1,0 +1,1 @@
+odb -d sqlserver -o mymodels.sql mydatabase.sql

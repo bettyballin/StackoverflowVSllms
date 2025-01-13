@@ -1,0 +1,1 @@
+// Assuming you have the certificate installed in the Personal store\n// and the private key is in the same location\n\n// Get the certificate hash\ncertutil -store my server.crt\n\n// Bind the certificate to the website\nhttpcfg set ssl -i 1 -h <certificate_hash> -g <private_key_path>

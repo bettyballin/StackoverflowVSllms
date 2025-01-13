@@ -1,0 +1,1 @@
+Dim ExcelApp\nSet ExcelApp = CreateObject("Excel.Application")\nExcelApp.AutomationSecurity = 1 ' Low\nExcelApp.Quit\nSet ExcelApp = Nothing

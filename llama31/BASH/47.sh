@@ -1,0 +1,1 @@
+gcc -o capture capture.c -lpcap

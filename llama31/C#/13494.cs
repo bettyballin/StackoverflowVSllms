@@ -1,0 +1,1 @@
+using System.Web;\n\n// Create a new OracleCommand\nOracleCommand cmd = new OracleCommand("SELECT * FROM your_table", conn);\n\n// Log the SQL statement\nHttpContext.Current.Trace.Write("SQL", cmd.CommandText);\n\n// Execute the command\ncmd.ExecuteNonQuery();

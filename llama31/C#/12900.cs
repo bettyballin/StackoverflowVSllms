@@ -1,0 +1,1 @@
+using (OracleCommand cmd = new OracleCommand("SELECT * FROM users WHERE username = :username", conn))\n{\n    cmd.Parameters.Add(new OracleParameter("username", OracleDbType.Varchar2, 50, ParameterDirection.Input, username));\n    using (OracleDataReader reader = cmd.ExecuteReader())\n    {\n        // Process results\n    }\n}

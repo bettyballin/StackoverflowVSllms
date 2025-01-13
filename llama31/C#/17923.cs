@@ -1,0 +1,1 @@
+private readonly object _lock = new object();\n\npublic void Method()\n{\n    lock (_lock)\n    {\n        // Use the session here\n    }\n}

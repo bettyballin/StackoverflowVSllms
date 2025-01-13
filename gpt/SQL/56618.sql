@@ -1,1 +1,0 @@
-CREATE PROCEDURE YourStoredProcedure\nAS\nBEGIN\n    SET NOCOUNT ON;  -- Prevents the result code from the DELETE statement from being returned\n\n    DELETE FROM table WHERE value1 = 1;\n\n    SELECT 0 AS Ret;  -- Returns the desired result set\n\n    SET NOCOUNT OFF;  -- Optional: Reset NOCOUNT to OFF if needed for subsequent code\nEND;

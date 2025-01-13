@@ -1,0 +1,1 @@
+public class ExtendFormsAuthTimeoutHandler : IHttpHandler\n{\n    public void ProcessRequest(HttpContext context)\n    {\n        FormsAuthentication.SetAuthCookie(context.User.Identity.Name, true);\n    }\n\n    public bool IsReusable\n    {\n        get { return true; }\n    }\n}

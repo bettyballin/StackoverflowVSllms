@@ -1,1 +1,0 @@
-fetch('http://localhost:18080/process', {\n    method: 'POST',\n    headers: {\n        'Content-Type': 'application/json',\n    },\n    body: JSON.stringify({ key: 'value' }),\n})\n.then(response => response.text())\n.then(data => console.log(data))\n.catch(error => console.error('Error:', error));

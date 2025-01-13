@@ -1,0 +1,1 @@
+wbadmin start backup -backupTarget:E: -include:C:\Users\username\Documents -allCritical -quiet

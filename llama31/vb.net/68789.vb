@@ -1,0 +1,1 @@
+Try\n    Label1.Text = My.Computer.Clock.LocalTime.ToLongTimeString\nCatch ex As InvalidCastException\n    ' Handle the exception, e.g., log the error, display a message, or provide a fallback value\n    Label1.Text = "Error: Unable to set time"\nFinally\n    ' Any necessary cleanup code\nEnd Try

@@ -1,1 +1,0 @@
-# On Linux server\n   echo "<Backup_Exec_Server_IP> <Backup_Exec_Server_Hostname>" >> /etc/hosts

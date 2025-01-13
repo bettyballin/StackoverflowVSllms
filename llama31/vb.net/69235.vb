@@ -1,0 +1,1 @@
+Public Function Blah(Foo As String Implements IInterface)\n    ' code here\nEnd Functio

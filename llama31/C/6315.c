@@ -1,0 +1,1 @@
+#include <time.h>\n\nvoid active_sleep(struct timespec *duration) {\n    struct timespec start, now;\n    clock_gettime(CLOCK_MONOTONIC, &start);\n    while (1) {\n        clock_gettime(CLOCK_MONOTONIC, &now);\n        if ((now.tv_sec - start.tv_sec) * 1000000000 + (now.tv_nsec - start.tv_nsec) >= duration->tv_nsec) {\n            break;\n        }\n    }\n}

@@ -1,1 +1,0 @@
-using System;\n\n[assembly: CLSCompliant(true)]\n\npublic class MyMath\n{\n    // This is not CLS-compliant because of the operator overload\n    public static MyMath operator +(MyMath a, MyMath b)\n    {\n        return new MyMath();\n    }\n\n    // This is CLS-compliant\n    public static MyMath Add(MyMath a, MyMath b)\n    {\n        return new MyMath();\n    }\n}

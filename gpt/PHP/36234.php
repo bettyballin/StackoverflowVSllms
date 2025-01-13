@@ -1,1 +1,0 @@
-<?php\n// index.php\nrequire('path/to/smarty/libs/Smarty.class.php');\n$smarty = new Smarty;\n\n// Include language file\nrequire('language.php');\n\n// Assign translations to Smarty\n$smarty->assign('translations', $translations);\n\n// Display template\n$smarty->display('index.tpl');\n?>

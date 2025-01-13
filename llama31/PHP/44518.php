@@ -1,0 +1,1 @@
+preg_match("/<p>([^<]+)<\/p>/", $blog_post, $blog_paragraph);

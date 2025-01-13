@@ -1,0 +1,1 @@
+vector<double> data = ...; // sorted vector of values\nvector<double> sub;\nsubarray(a, b, sub, data);

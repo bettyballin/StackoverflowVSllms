@@ -1,0 +1,1 @@
+CREATE TABLE Charts (\n    ChartId INT PRIMARY KEY,\n    ReportId INT,\n    ChartType VARCHAR(10), -- 'Line', 'Pie', 'Bar'\n    Thickness INT,\n    YAxis INT,\n    XAxis INT,\n    Color VARCHAR(10),\n    Radius INT,\n    Width INT,\n    Border INT\n)

@@ -1,0 +1,1 @@
+SELECT 'users' AS source_table, name FROM users WHERE name LIKE '%alex%'\nUNION ALL\nSELECT 'admins' AS source_table, name FROM admins WHERE name LIKE '%alex%';

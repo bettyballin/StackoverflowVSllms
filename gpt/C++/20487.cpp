@@ -1,1 +1,0 @@
-DLB->Directory = ReadLastDirectory();

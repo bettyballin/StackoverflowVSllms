@@ -1,1 +1,0 @@
-Dim connectionString As String = String.Format("Data Source={0}\MyAppDir\mydatabase.sdf", Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles))

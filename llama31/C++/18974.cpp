@@ -1,0 +1,1 @@
+#include <filesystem>\n#include <iostream>\n\nint main() {\n    namespace fs = std::filesystem;\n\n    fs::path path("/path/to/directory");\n\n    for (const auto& entry : fs::directory_iterator(path)) {\n        std::cout << entry.path().filename().string() << std::endl;\n    }\n\n    return 0;\n}

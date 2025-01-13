@@ -1,1 +1,0 @@
-sudo mkfs.ext4 /dev/sdX1  # Root\nsudo mkfs.ext4 /dev/sdX2  # Home\nsudo mkfs.ext4 /dev/sdX3  # Var\nsudo mkfs.ext4 /dev/sdX4  # Tmp\nsudo mkfs.ext4 /dev/sdX5  # Boot\nsudo mkswap /dev/sdX6     # Swap

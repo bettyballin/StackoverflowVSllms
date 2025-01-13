@@ -1,0 +1,1 @@
+oradim -new -sid MY_SID -intpwd my_pwd -startmode manual \\n  -pfile /path/to/init.ora \\n  -sysauxdata /path/to/sysauxdata \\n  -systemdata /path/to/systemdata \\n  -pga_aggregate_target 200M \\n  -sga_target 500M \\n  -large_pages true

@@ -1,0 +1,1 @@
+IFS=\narg1="[5111.3$]=5"\nrunjob specfile.spx "$arg1"

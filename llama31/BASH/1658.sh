@@ -1,0 +1,1 @@
+mage -update -force -appmanifest Control.exe.manifest

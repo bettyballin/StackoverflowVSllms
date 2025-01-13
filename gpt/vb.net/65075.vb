@@ -1,1 +1,0 @@
-' Using IsNothing function\nIf IsNothing(myObject) Then\n    ' Do something if myObject is Nothing\nEnd If\n\n' Using Is Nothing operator\nIf myObject Is Nothing Then\n    ' Do something if myObject is Nothing\nEnd If

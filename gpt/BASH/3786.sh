@@ -1,1 +1,0 @@
-m your_executable | grep " T main"

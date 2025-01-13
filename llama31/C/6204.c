@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nFILE* file = fopen("example.txt", "r");\nif (!file) {\n    perror("fopen");\n    return 1;\n}\n\n// Use fread() and fwrite() to access the file

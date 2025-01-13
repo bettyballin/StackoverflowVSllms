@@ -1,0 +1,1 @@
+SELECT \n  foo_id, \n  GROUP_CONCAT(foo_name SEPARATOR ' ') AS foo_name\nFROM \n  your_table\nGROUP BY \n  foo_id;

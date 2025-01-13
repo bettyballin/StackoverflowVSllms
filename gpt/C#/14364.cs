@@ -1,1 +1,0 @@
-[Export(typeof(IMyInterface))]\npublic class MyConcreteClass1 : IMyInterface\n{\n    // Implementation of IMyInterface\n}\n\n[Export(typeof(IMyInterface))]\npublic class MyConcreteClass2 : IMyInterface\n{\n    // Implementation of IMyInterface\n}

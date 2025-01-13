@@ -1,1 +1,0 @@
-SELECT\n    person_id,\n    MAX(CASE WHEN name_part_id = 1 THEN name_part END) AS first_name,\n    MAX(CASE WHEN name_part_id = 2 THEN name_part END) AS middle_name,\n    MAX(CASE WHEN name_part_id = 3 THEN name_part END) AS last_name\nFROM\n    name_parts\nGROUP BY\n    person_id;

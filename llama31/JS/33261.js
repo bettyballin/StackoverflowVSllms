@@ -1,0 +1,1 @@
+$.ajax({\n    type: "GET",\n    url: "example.xml",\n    dataType: "xml",\n    success: function(xml) {\n        var xmlDoc = xml;\n    }\n});

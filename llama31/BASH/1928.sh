@@ -1,0 +1,1 @@
+Exec 'icacls "C:\ProgramData\YourApp\Data" /grant:r BUILTIN\Users:(OI)(CI)M'

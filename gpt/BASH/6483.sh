@@ -1,1 +1,0 @@
-phpcs --standard=phpcs.xml /path/to/your/code

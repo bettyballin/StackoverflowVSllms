@@ -1,1 +1,0 @@
-create or replace package px as\n    function scn_to_timestamp(scn number) return timestamp;\nend px;\n\ncreate or replace package body px as\n    function scn_to_timestamp(scn number) return timestamp is\n    begin\n        -- qualify this to refer to the global function in the SYS schema\n        return sys.scn_to_timestamp(scn);\n    end;\nend px;

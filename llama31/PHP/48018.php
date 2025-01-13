@@ -1,0 +1,1 @@
+$hostname = 'example.com';\n$dns_record = dns_get_record($hostname, DNS_A);\nif ($dns_record) {\n    echo "IP Address: " . $dns_record[0]['ip'] . "\n";\n} else {\n    echo "No DNS record found.\n";\n}

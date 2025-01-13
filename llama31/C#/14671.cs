@@ -1,0 +1,1 @@
+using Org.BouncyCastle.Bcpg;\nusing Org.BouncyCastle.Bcpg.OpenPgp;\n\n// Example usage:\nPgpObjectFactory pgpFactory = new PgpObjectFactory();\nPgpPublicKey publicKey = pgpFactory.NextPgpObject() as PgpPublicKey;

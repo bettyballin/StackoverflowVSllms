@@ -1,0 +1,1 @@
+public IQueryable<T> SelectFromView()\n{\n    return db.Set<T>().FromSql($"SELECT * FROM {typeof(T).Name}Active");\n}

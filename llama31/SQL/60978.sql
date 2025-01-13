@@ -1,0 +1,1 @@
+SELECT *\nFROM YourTable\nWHERE CONTAINS(KeywordSearch, 'endorse')

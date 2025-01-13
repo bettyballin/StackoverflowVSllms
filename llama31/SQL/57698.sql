@@ -1,0 +1,1 @@
+SELECT \n    t.name AS TableName,\n    s.row_count AS RecordCount\nFROM \n    sys.tables t\nJOIN \n    sys.dm_db_partition_stats s ON t.object_id = s.object_id\nWHERE \n    s.index_id IN (0,1)\nGROUP BY \n    t.name, s.row_count\nORDER BY \n    t.name;

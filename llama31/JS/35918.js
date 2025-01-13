@@ -1,0 +1,1 @@
+const myArray = [2, 3, 3, 4, 2, 2, 5, 6, 7, 2];\n\n// Using spread operator\nconst maxValue = Math.max(...myArray);\nconst minValue = Math.min(...myArray);\n\n// Using apply() method\nconst maxValue = Math.max.apply(null, myArray);\nconst minValue = Math.min.apply(null, myArray);

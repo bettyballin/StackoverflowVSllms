@@ -1,0 +1,1 @@
+Dim pattern As String = "\(bkz: ([a-zA-Z0-9 ÖöİşşçÇğüÜ\s]+)\)"\nDim regex As New Regex(pattern, RegexOptions.IgnoreCase)\nstr = regex.Replace(str, "(bkz: <a href=""show.aspx?td=$1"">$1</a>)")

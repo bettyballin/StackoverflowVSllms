@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (chkCallWithCCDetails.Checked)\n    {\n        rfvCreditCardNumber.Enabled = false;\n        cvvCreditCardNumber.Enabled = false;\n    }\n    else\n    {\n        rfvCreditCardNumber.Enabled = true;\n        cvvCreditCardNumber.Enabled = true;\n    }\n}

@@ -1,0 +1,1 @@
+using System.Net.Http.Formatting;\n\n// ...\n\nvar json = await Request.Content.ReadAsStringAsync();\nvar obj = JsonConvert.DeserializeObject(json);

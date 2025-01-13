@@ -1,0 +1,1 @@
+SELECT COUNT(*) + 1 AS index_position\nFROM users\nWHERE userid < '123'\nORDER BY userid;

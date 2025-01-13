@@ -1,0 +1,1 @@
+<set name="tutorials" cascade="all-delete-orphan">\n    <key column="cid"/>\n    <one-to-many class="Tutorial"/>\n</set>\n\n<set name="applications" cascade="all-delete-orphan">\n    <key column="cid"/>\n    <one-to-many class="Application"/>\n</set>

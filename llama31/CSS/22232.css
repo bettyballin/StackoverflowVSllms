@@ -1,0 +1,1 @@
+.div-container {\n  height: 400px; /* Example height */\n  overflow: hidden; /* To ensure the image doesn't exceed the div boundaries */\n}\n\n.div-container img {\n  height: 100%;\n  width: auto;\n  margin: auto; /* Centers the image horizontally */\n  display: block; /* Removes white space around the image */\n}

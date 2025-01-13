@@ -1,0 +1,1 @@
+List<string> list1 = new List<string> { "apple", "banana", "cherry" };\nList<string> list2 = new List<string> { "banana", "date" };\n\nvar result = list1.Except(list2);\n\nforeach (var item in result)\n{\n    Console.WriteLine(item);\n}

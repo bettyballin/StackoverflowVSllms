@@ -1,1 +1,0 @@
-' Set the DataContext in the constructor or a specific method\nPublic Sub New()\n    InitializeComponent()\n    Me.DataContext = Me\nEnd Sub

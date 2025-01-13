@@ -1,0 +1,1 @@
+WITH Top100 AS (\n    SELECT TOP 100 F1, F2\n    FROM T1\n    ORDER BY F2  -- Specify the column you want to order by\n)\nUPDATE Top100\nSET F1 = 'New Value';

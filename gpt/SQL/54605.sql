@@ -1,1 +1,0 @@
-ALTER TABLE your_table_name\nADD COLUMN name_deleted VARCHAR(256) AS (CASE WHEN deleted = 0 THEN name ELSE NULL END);\n\nCREATE UNIQUE INDEX unique_name_not_deleted\nON your_table_name (name_deleted);

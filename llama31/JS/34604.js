@@ -1,0 +1,1 @@
+const users = {};\n\n// Fetch user data via Ajax and store it in the users object\n$.ajax({\n  url: '/users',\n  success: function(data) {\n    data.forEach(function(userData) {\n      users[userData.id] = new UserModel(userData.id, userData.name, userData.email);\n    });\n  }\n});

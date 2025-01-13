@@ -1,0 +1,1 @@
+#include <Windows.h>\n\nint main() {\n    OSVERSIONINFOEX osvi;\n    ZeroMemory(&osvi, sizeof(OSVERSIONINFOEX));\n    osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFOEX);\n\n    if (VerifyVersionInfo(&osvi, VER_SERVICEPACKMAJOR, 0, 0)) {\n        printf("Service Pack 0 or later\n");\n    } else {\n        printf("Service Pack 1 or later\n");\n    }\n\n    return 0;\n}

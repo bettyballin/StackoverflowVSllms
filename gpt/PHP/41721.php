@@ -1,1 +1,0 @@
-$string = "Äpfel";\n   $translit = \Transliterator::create('Any-Latin; Latin-ASCII');\n   $transliterated = $translit->transliterate($string);\n   echo $transliterated; // Outputs: "Aepfel"

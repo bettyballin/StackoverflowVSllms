@@ -1,1 +1,0 @@
-$settings['site_name'] = 'New Application Name';\nfile_put_contents('settings.json', json_encode($settings, JSON_PRETTY_PRINT));

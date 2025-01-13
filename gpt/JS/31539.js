@@ -1,1 +1,0 @@
-function isElementInFrame() {\n    return window.self !== window.top;\n}\n\nif (isElementInFrame()) {\n    console.log("This element is inside a frame.");\n} else {\n    console.log("This element is not inside a frame.");\n}

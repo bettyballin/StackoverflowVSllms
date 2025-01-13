@@ -1,0 +1,1 @@
+var foo = {};\nfoo['alfa'] = "first item";\nfoo['beta'] = "second item";\n\nvar keys = Object.keys(foo);\nconsole.log(keys); // Output: ["alfa", "beta"]

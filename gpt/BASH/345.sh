@@ -1,1 +1,0 @@
-regasm /codebase /tlb:DotNetControl.tlb DotNetControl.dll

@@ -1,0 +1,1 @@
+var newRow = $("<tr>...</tr>");\n$("#mytable tbody tr:nth-child(3)").before(newRow);

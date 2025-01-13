@@ -1,0 +1,1 @@
+using System.Windows.Printing;\n\npublic partial class MainPage : UserControl\n{\n    private void PrintButton_Click(object sender, RoutedEventArgs e)\n    {\n        PrintDocument printDocument = new PrintDocument();\n        // Prepare the print document\n        printDocument.Print();\n    }\n}

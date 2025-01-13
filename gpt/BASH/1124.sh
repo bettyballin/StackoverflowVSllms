@@ -1,1 +1,0 @@
-curl -X DELETE -H "Content-Type: application/json" \\n  -d '{"device": "eth0", "direction": "outgoing"}' \\n  http://localhost:9999/tcdel

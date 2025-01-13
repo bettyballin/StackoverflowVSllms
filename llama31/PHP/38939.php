@@ -1,0 +1,1 @@
+$memcache = new Memcache;\n$memcache->addServer('localhost', 11211);\n\n// cache PHP file\n$filename = 'example.php';\n$code = file_get_contents($filename);\n$memcache->set($filename, $code);\n\n// use OPcache to cache the compiled opcode\nopcache_compile_file($filename);\n\n// execute the cached code\nrequire $filename;

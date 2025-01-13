@@ -1,0 +1,1 @@
+// Replace Py_InitModule\nstatic PyModuleDef moduledef = {\n    PyModuleDef_HEAD_INIT,\n    "module_name",\n    "module_doc",\n    -1,\n    module_methods,\n    NULL, NULL, NULL, NULL\n};\n\nPyMODINIT_FUNC PyInit_module_name(void) {\n    return PyModule_Create(&moduledef);\n}

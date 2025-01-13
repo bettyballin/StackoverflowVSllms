@@ -1,0 +1,1 @@
+// Assuming you're using ASP.NET and have a database connection\nusing (var db = new YourDbContext()) {\n  var session = new Session {\n    UserId = user.Id,\n    SessionId = HttpContext.Current.Session.SessionID,\n    LoginTime = DateTime.Now,\n    LastActivity = DateTime.Now\n  };\n  db.Sessions.Add(session);\n  db.SaveChanges();\n}

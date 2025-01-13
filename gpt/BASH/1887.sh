@@ -1,1 +1,0 @@
-# Compress files into a tarball\ntar -czvf binaries.tar.gz /path/to/binary/files\n\n# Import the tarball into SVN\nsvn import binaries.tar.gz http://your_svn_repository/path/to/destination -m "Import compressed binaries"

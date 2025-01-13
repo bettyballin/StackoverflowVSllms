@@ -1,1 +1,0 @@
-@echo off\nsqlcmd -S YourServerName -U YourUsername -P YourPassword -i "C:\path\to\BackupDatabase.sql"

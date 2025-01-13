@@ -1,0 +1,1 @@
+gcc -mtune=generic -msse2 -msse3 your_file.c -o output

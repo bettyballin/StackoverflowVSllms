@@ -1,1 +1,0 @@
-USE master;\nGO\nEXEC xp_instance_regwrite\n    N'HKEY_LOCAL_MACHINE',\n    N'Software\Microsoft\MSSQLServer\MSSQLServer\SuperSocketNetLib\Tcp\IPAll',\n    N'TcpPort',\n    REG_DWORD,\n    <your_port_number>;\nGO

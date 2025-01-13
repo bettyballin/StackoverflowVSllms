@@ -1,0 +1,1 @@
+files = get_files("**/CVS/*")\nfor file in files:\n    print(file)

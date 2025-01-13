@@ -1,0 +1,1 @@
+gen install /nologo /silent your_assembly.dll

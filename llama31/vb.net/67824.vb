@@ -1,0 +1,1 @@
+Imports System.Diagnostics\n\nPublic Class GuidVisualizer\n    Inherits DialogDebuggerVisualizer\n\n    Protected Overrides Sub Show(ByVal windowService As IDialogVisualizerService, ByVal objectProvider As IVisualizerObjectProvider)\n        Dim guid As Guid = CType(objectProvider.GetObject, Guid)\n        MessageBox.Show(guid.ToString())\n    End Sub\nEnd Class

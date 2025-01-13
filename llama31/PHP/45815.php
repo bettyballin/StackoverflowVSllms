@@ -1,0 +1,1 @@
+header('Content-Type: application/json');\necho json_encode(array('message' => 'Log in credentials are not correct', 'refresh' => 'false'));

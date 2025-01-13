@@ -1,1 +1,0 @@
-./checksetup.pl --check-modules	# Ensure all required modules are installed\n   ./editparams.cgi                 # Access the Bugzilla parameters interface

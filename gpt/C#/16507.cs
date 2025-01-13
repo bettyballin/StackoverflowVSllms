@@ -1,1 +1,0 @@
-using System;\nusing System.Runtime.InteropServices;\n\npublic class NativeMethods\n{\n    [DllImport("YourSecondDllName.dll", CallingConvention = CallingConvention.Cdecl)]\n    public static extern IntPtr encrypt(byte[] inOut, uint inputSize, byte[] secretKey, uint secretKeySize);\n}

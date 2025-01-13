@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <unistd.h>\n\nint main() {\n    for (int i = 0; i <= 100; i++) {\n        printf("\rProgress: %d%%", i);\n        fflush(stdout); // Ensure the output is displayed immediately\n        usleep(100000); // Sleep for 100 milliseconds\n    }\n    printf("\n");\n    return 0;\n}

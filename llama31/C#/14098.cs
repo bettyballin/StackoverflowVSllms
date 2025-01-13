@@ -1,0 +1,1 @@
+[Serializable]\npublic class Customer\n{\n    public string CustomerName { get; set; }\n}\n\n// When serializing the Customer object, the CustomerName property might not be serialized correctly.

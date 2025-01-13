@@ -1,0 +1,1 @@
+CREATE TABLE StatusLookup (\n    StatusID int PRIMARY KEY,\n    StatusName nvarchar(50)\n);\n\nCREATE TABLE YourTable (\n    StatusID int,\n    CONSTRAINT FK_YourTable_StatusLookup FOREIGN KEY (StatusID) REFERENCES StatusLookup(StatusID)\n);

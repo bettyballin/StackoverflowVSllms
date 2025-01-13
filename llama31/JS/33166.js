@@ -1,0 +1,1 @@
+// userService.js\nclass UserService {\n  static getAllUsers() {\n    return fetch(apiEndpoints.users.getAll);\n  }\n\n  static getUserById(id) {\n    return fetch(apiEndpoints.users.getById.replace('{id}', id));\n  }\n}\n\nexport default UserService;

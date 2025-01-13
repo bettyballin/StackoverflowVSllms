@@ -1,0 +1,1 @@
+java -XX:NativeMemoryTracking=detail -jar myapp.jar

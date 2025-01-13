@@ -1,1 +1,0 @@
-Dim numbers = {1, 2, 3, 4, 5}\n    Dim evenNumbers = numbers.Where(Function(n) n Mod 2 = 0).ToList()

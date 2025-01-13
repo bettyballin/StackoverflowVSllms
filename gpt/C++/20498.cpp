@@ -1,1 +1,0 @@
-#include "obj.h"\n\nint main() {\n    const char *filename = "example.obj";\n    GLuint object_list;\n    \n    if (load_obj(filename, &object_list)) {\n        // Successfully loaded object\n    } else {\n        // Failed to load object\n    }\n\n    return 0;\n}

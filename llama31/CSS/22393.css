@@ -1,0 +1,1 @@
+ul {\n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(0, 1fr));\n  grid-gap: 10px;\n}\n\nli {\n  border: 1px solid #ccc;\n}

@@ -1,1 +1,0 @@
-openssl s_client -connect your-server:8443 -cipher 'AES256'

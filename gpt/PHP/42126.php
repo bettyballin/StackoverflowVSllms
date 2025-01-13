@@ -1,1 +1,0 @@
-// Example of setting up a Drupal multisite\n   $sites['subdomain.example.com'] = 'sites/subdomain.example.com';

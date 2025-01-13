@@ -1,1 +1,0 @@
-setspn -S HTTP/webserver.domain.com domain\webserver$

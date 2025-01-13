@@ -1,1 +1,0 @@
-<?php\n// Include the Commentics configuration file\nrequire('path/to/commentics/system/start.php');\n\n// Display the comment form\ncmtx_comment_form();\n\n// Display the comments\ncmtx_comments();\n?>

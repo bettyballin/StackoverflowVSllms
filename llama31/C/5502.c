@@ -1,0 +1,1 @@
+// debugr.c\n#include "php.h"\n\nPHP_FUNCTION(DebugR) {\n    // implementation\n}\n\n// build and install the extensio

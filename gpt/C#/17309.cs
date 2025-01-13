@@ -1,1 +1,0 @@
-using (TransactionScope ts = new TransactionScope())\n{\n    try\n    {\n        // Update operations\n        UpdateTable1();\n        UpdateTable2();\n\n        ts.Complete();\n    }\n    catch (Exception ex)\n    {\n        // Handle error\n    }\n}\n\nvoid UpdateTable1()\n{\n    // Code to update Table1\n}\n\nvoid UpdateTable2()\n{\n    // Code to update Table2\n}

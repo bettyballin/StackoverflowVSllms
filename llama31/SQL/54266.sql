@@ -1,0 +1,1 @@
+SELECT \n  tz_name, \n  transition_date, \n  offset\nFROM \n  V$TIMEZONE_NAMES tz, \n  V$TIMEZONE_TRANSITIONS tr\nWHERE \n  tz.TZID = tr.TZID\n  AND tz.TZ_NAME = 'America/New_York'\n  AND TO_CHAR(tr.TRANSITION_DATE, 'YYYY') = TO_CHAR(SYSDATE, 'YYYY');

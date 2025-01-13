@@ -1,1 +1,0 @@
-svn commit --username new_author -m "Commit message"

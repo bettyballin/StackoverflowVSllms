@@ -1,1 +1,0 @@
-class MyClass {\npublic:\n    int value;\n};\n\n// Free function that operates on MyClass\nvoid printValue(const MyClass &obj) {\n    std::cout << obj.value << std::endl;\n}

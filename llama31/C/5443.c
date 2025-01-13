@@ -1,0 +1,1 @@
+#include <mpi.h>\n#include <stdio.h>\n\nint main(int argc, char** argv) {\n  MPI_Init(&argc, &argv);\n  int rank, size;\n  MPI_Comm_rank(MPI_COMM_WORLD, &rank);\n  MPI_Comm_size(MPI_COMM_WORLD, &size);\n  printf("Hello from process %d of %d\n", rank, size);\n  MPI_Finalize();\n  return 0;\n}

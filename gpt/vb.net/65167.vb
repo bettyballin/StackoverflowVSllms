@@ -1,1 +1,0 @@
-Dim assetDisplayList As List(Of AssetDisplay)\n    assetDisplayList = DB_Asset.GetAssetDisplayList()\n    AssetDataGridView.DataSource = assetDisplayList

@@ -1,0 +1,1 @@
+using (var context = new MyDbContext())\n{\n    context.Database.Log = Console.WriteLine;\n    // or\n    context.Database.Log = log => File.AppendAllText("sql.log", log + Environment.NewLine);\n}

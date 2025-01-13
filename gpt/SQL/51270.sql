@@ -1,1 +1,0 @@
--- Subquery\n   SELECT name\n   FROM employees\n   WHERE department_id = (SELECT id FROM departments WHERE name = 'Sales');\n   \n   -- Equivalent Join\n   SELECT e.name\n   FROM employees e\n   JOIN departments d ON e.department_id = d.id\n   WHERE d.name = 'Sales';

@@ -1,0 +1,1 @@
+# Set TNS_ADMIN environment variable (Windows)\nsetx TNS_ADMIN "C:\Oracle\product\11.1.0\client_1\Network\Admin"

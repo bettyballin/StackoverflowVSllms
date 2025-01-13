@@ -1,1 +1,0 @@
-HashSet<string> uniqueNames = new HashSet<string> { "Alice", "Bob" };\n   uniqueNames.Add("Charlie");

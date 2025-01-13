@@ -1,0 +1,1 @@
+var express = require('express');\n	var app = express();\n	var tokens = {};\n\n	app.get('/numbers/:token', function(req, res) {\n		var token = req.params.token;\n		if (tokens[token]) {\n			res.send(tokens[token].number);\n		} else {\n			res.status(401).send('Invalid token');\n		}\n	});

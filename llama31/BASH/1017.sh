@@ -1,0 +1,1 @@
+upx -9 --encrypt=algorithm --password=password your_executable.exe

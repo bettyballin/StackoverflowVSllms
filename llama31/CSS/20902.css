@@ -1,0 +1,1 @@
+input[type="text"],\nselect,\ninput[type="file"] {\n  box-sizing: border-box;\n  width: 200px; /* or any other width you prefer */\n  display: inline-block;\n  padding: 10px;\n  border: 1px solid #ccc;\n  margin: 10px;\n}\n\n/* Make file inputs consistent across browsers */\ninput[type="file"] {\n  padding: 10px 0; /* remove padding from the right side */\n}

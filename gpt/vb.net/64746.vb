@@ -1,1 +1,0 @@
-Sub CallDotNetAssembly()\n       Dim obj As Object\n       Set obj = CreateObject("MyNamespace.MyClass")\n       ' Call your method\n       obj.MyMethod\n   End Sub

@@ -1,0 +1,1 @@
+CREATE OR REPLACE TRIGGER audit_trigger\nAFTER INSERT OR UPDATE OR DELETE ON your_table\nFOR EACH ROW\nDECLARE\n  v_values your_table%ROWTYPE;\nBEGIN\n  IF INSERTING OR UPDATING THEN\n    v_values := :NEW;\n  ELSIF DELETING THEN\n    v_values := :OLD;\n  END IF;\n\n  -- Insert values into audit table\n  INSERT INTO audit_table (values)\n  VALUES (v_values);\nEND;

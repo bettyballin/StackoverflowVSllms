@@ -1,0 +1,1 @@
+var cache = new InMemoryCache();\nvar client = new CachedHttpClient(cache);\nvar response = client.Get("https://example.com/api/data");

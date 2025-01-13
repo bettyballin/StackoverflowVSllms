@@ -1,0 +1,1 @@
+Select FIELD1, FIELD2 From Mylibrary.MyTable WHERE FIELD1 = :Field1

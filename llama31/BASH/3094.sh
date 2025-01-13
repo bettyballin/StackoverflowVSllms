@@ -1,0 +1,1 @@
+sudo update-java-alternatives -l

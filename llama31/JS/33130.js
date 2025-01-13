@@ -1,0 +1,1 @@
+play.tag = 1;\notherButton.tag = 2;

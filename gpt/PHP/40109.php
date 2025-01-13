@@ -1,1 +1,0 @@
-$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, "http://example.com/resource");\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);\n$response = curl_exec($ch);\ncurl_close($ch);\n\n// Process and format the response as needed\n// ...\n\necho $response;

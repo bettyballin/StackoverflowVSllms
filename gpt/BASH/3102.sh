@@ -1,1 +1,0 @@
-gprof my_program gmon.out > analysis.txt

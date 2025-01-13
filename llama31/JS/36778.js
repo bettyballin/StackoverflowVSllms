@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\n   xhr.open('POST', 'https://your-server.com/endpoint', true);\n   xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');\n   xhr.send('param1=value1&param2=value2');

@@ -1,0 +1,1 @@
+#include <gprof.h>\n\n// Start profiling\nvoid start_profiling() {\n    gprof_start();\n}\n\n// Stop profiling\nvoid stop_profiling() {\n    gprof_stop();\n}

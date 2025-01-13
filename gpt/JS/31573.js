@@ -1,1 +1,0 @@
-if (se.addEventListener) {\n    se.addEventListener('change', function() {\n        alert('Dynamic');\n    });\n} else if (se.attachEvent) {\n    se.attachEvent('onchange', function() {\n        alert('Dynamic');\n    });\n}

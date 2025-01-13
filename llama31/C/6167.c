@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <pthread.h>\n\nvoid* ptr = NULL;\n\nvoid* thread_func(void* arg) {\n    while (1) {\n        printf("%p\n", ptr);\n    }\n}\n\nint main() {\n    pthread_t thread;\n    pthread_create(&thread, NULL, thread_func, NULL);\n\n    // Change the pointer value\n    ptr = (void*) 0xdeadbeef;\n\n    return 0;\n}

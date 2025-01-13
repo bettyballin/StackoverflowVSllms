@@ -1,0 +1,1 @@
+// minify.php\nrequire_once 'JSMin.php';\n$minifier = new JSMin();\n$contents = file_get_contents('concat.php');\n$minified = $minifier->minify($contents);\nheader('Content-Type: text/javascript');\necho $minified;

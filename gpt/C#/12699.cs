@@ -1,1 +1,0 @@
-string programFilesX86Path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.ProgramFilesX86);\nFileInfo fileInfo = new FileInfo(programFilesX86Path + @"\MyInstalledApp");

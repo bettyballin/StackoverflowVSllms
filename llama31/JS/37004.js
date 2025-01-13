@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\nxhr.open('GET', 'image.jpg', true);\nxhr.onreadystatechange = function() {\n  if (xhr.readyState == 4) {\n    var stream = xhr.responseStream;\n    // Process the stream object\n  }\n};\nxhr.send();

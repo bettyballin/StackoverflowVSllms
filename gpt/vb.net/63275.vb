@@ -1,1 +1,0 @@
-Imports System.Runtime.InteropServices\n\n<ClassInterface(ClassInterfaceType.None), ComVisible(True)>\nPublic Class Class1\n    Public ReadOnly Property Dogs() As Dogs\n        Get\n            Return New Dogs()\n        End Get\n    End Property\nEnd Class

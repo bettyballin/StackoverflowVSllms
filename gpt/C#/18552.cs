@@ -1,1 +1,0 @@
-// AddInContract.cs\nusing System.AddIn.Contract;\nusing System.AddIn.Pipeline;\n\n[AddInContract]\npublic interface IMyAddInContract : IContract\n{\n    string GetName();\n}

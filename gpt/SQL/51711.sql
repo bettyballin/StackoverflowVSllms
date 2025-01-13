@@ -1,1 +1,0 @@
-GRANT ALL PRIVILEGES ON your_database.* TO 'your_user'@'HOST1_IP' IDENTIFIED BY 'your_password';\n   FLUSH PRIVILEGES;

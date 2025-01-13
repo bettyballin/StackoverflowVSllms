@@ -1,1 +1,0 @@
-chmod 644 /path/to/your/script.php\nchmod 644 /path/to/your/facebook.php\nchmod 644 /path/to/your/lib.php\nchmod 644 /path/to/your/config.php

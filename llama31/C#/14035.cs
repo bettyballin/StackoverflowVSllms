@@ -1,0 +1,1 @@
+public class NewHighTechEncryptingAlgorithm : HashAlgorithm\n{\n    // Implement the required methods\n}

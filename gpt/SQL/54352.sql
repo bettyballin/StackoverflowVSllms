@@ -1,1 +1,0 @@
--- Enable gathering of execution plan statistics\nALTER SESSION SET statistics_level = ALL;\n\n-- Execute your query\nSELECT /*+ gather_plan_statistics */ * FROM your_table WHERE your_condition;\n\n-- Display the execution plan with detailed statistics\nSELECT * FROM TABLE(DBMS_XPLAN.DISPLAY_CURSOR(NULL, NULL, 'ALLSTATS LAST'));

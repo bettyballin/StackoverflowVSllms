@@ -1,1 +1,0 @@
-curl -F "file=@styles.css" https://jigsaw.w3.org/css-validator/validator

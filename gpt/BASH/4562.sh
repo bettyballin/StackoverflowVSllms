@@ -1,1 +1,0 @@
-tidy -m -clean -quiet -indent your_document.html

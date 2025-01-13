@@ -1,0 +1,1 @@
+Encoding encoding = Encoding.GetEncoding("Shift-JIS");\nstring text = "Hello, モ!";\nbool canHandleAllChars = EncodingChecker.CanHandleAllChars(encoding, text);\nConsole.WriteLine(canHandleAllChars); // false

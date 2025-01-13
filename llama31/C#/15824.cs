@@ -1,0 +1,1 @@
+protected void Application_AuthenticateRequest(object sender, EventArgs e)\n{\n    if (Request.IsAuthenticated)\n    {\n        string userName = HttpContext.Current.User.Identity.Name;\n        if (!Roles.IsUserInRole(userName, "Users"))\n        {\n            Roles.AddUserToRole(userName, "Users");\n        }\n    }\n}

@@ -1,0 +1,1 @@
+try {\n    $browser->isStatusCode(200)\n        ->isRequestParameter('module', 'home')\n        ->isRequestParameter('action', 'index')\n        ->click('Register')\n        ->stop()\n        ->I_DONT_WANT_THIS_TO_RUN();\n} catch (RuntimeException $e) {\n    // Handle the exception, e.g., log it or ignore it\n}\n\n$browser->thenThisRunsOkay();

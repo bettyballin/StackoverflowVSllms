@@ -1,0 +1,1 @@
+.dynamic-box {\n  width: 50vw; /* 50% of the viewport width */\n  height: 30vh; /* 30% of the viewport height */\n  background-image: url('your-image.jpg');\n  background-size: cover;\n}

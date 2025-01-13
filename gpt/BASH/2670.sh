@@ -1,1 +1,0 @@
-aspnet_regiis -px "NetFrameworkConfigurationKey" "C:\keys\exportedKey.xml" -pri

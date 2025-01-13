@@ -1,0 +1,1 @@
+# Install APC\npecl install apc\n\n# Install Imagick\npecl install imagick\n\n# Configure APC (example)\necho "extension=apc.so" > /etc/php.d/apc.ini\n\n# Configure Imagick (example)\necho "extension=imagick.so" > /etc/php.d/imagick.ini

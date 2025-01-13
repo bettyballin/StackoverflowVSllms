@@ -1,1 +1,0 @@
-/* Default hide submenu */\n.submenu {\n    display: none;\n}\n\n/* Show submenu when parent is hovered */\n.menu-item:hover .submenu {\n    display: block;\n}

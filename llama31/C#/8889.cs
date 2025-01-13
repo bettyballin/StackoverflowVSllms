@@ -1,0 +1,1 @@
+XmlNode node = doc.SelectSingleNode("a/b[.='tsr']");\nint position = doc.SelectNodes("a/b").IndexOf(node) + 1;

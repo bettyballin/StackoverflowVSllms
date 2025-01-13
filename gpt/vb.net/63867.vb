@@ -1,1 +1,0 @@
-<%\n' Simulate PDF generation\nDim fso, pdfFile\nSet fso = Server.CreateObject("Scripting.FileSystemObject")\nSet pdfFile = fso.CreateTextFile(Server.MapPath("generated_pdf.pdf"), True)\n\npdfFile.WriteLine("This is a test PDF content.")\npdfFile.Close\n\n' Mark the PDF as ready\nApplication("pdfReady") = True\n\nResponse.Redirect "loading.html"\n%>

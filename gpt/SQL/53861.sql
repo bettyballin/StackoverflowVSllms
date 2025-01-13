@@ -1,1 +1,0 @@
-SELECT loanType, COUNT(contractNo) AS NumberOfContracts\nFROM LoanFact\nGROUP BY loanType\nHAVING COUNT(contractNo) > 10;

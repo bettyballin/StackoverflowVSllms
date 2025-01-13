@@ -1,1 +1,0 @@
-DevExpress.LookAndFeel.UserLookAndFeel.Default.SetSkinStyle("YourSkinStyle");

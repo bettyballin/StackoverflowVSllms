@@ -1,0 +1,1 @@
+bool isValidPort(const CString& port) {\n       int portNumber;\n       if (_stscanf(port.GetString(), _T("%d"), &portNumber) == 1) {\n         return portNumber >= 1 && portNumber <= 65535;\n       }\n       return false;\n     }

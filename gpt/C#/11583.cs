@@ -1,1 +1,0 @@
-public class MyHandler : IHttpHandler\n  {\n      public void ProcessRequest(HttpContext context)\n      {\n          context.Response.ContentType = "text/plain";\n          context.Response.Write("Hello, World!");\n      }\n\n      public bool IsReusable { get { return false; } }\n  }

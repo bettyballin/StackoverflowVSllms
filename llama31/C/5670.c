@@ -1,0 +1,1 @@
+GtkAllocation allocation;\ngtk_widget_get_allocated_size(widget, &allocation);\ng_print("Actual width: %d, Actual height: %d\n", allocation.width, allocation.height);

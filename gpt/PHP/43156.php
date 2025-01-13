@@ -1,1 +1,0 @@
-<?= $this->SimpleMarkup->formatText($newsPostContent) ?>

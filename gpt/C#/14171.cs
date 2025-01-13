@@ -1,1 +1,0 @@
-public class MyClass\n{\n    public DateTime? MyDateTimeProperty { get; set; }\n}\n\n// Usage\nvar myObject = new MyClass();\n\n// Check if the property has a value before using it\nif (myObject.MyDateTimeProperty.HasValue)\n{\n    Console.WriteLine(myObject.MyDateTimeProperty.Value);\n}\nelse\n{\n    Console.WriteLine("DateTime property is uninitialized (null).");\n}

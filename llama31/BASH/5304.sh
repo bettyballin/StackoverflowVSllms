@@ -1,0 +1,1 @@
+cscript get_aspnet_password.vbs

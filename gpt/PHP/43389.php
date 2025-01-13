@@ -1,1 +1,0 @@
-<?php\nheader('Content-Type: application/json');\ninclude "my_class.php";\n$data = array('post_url' => $my_obj->post_url());\necho json_encode($data);\n?>

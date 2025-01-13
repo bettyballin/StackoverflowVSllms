@@ -1,1 +1,0 @@
-wget http://mysqltuner.pl/mysqltuner.pl\n    perl mysqltuner.pl

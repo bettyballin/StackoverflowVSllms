@@ -1,1 +1,0 @@
-chmod +x convert_to_relative.sh\n./convert_to_relative.sh

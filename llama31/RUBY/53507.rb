@@ -1,0 +1,1 @@
+module MyModule\n  def self.method_a(param)\n    instance_variable_set(:@var, 0) unless instance_variable_defined?(:@var)\n    # other logic goes here\n  end\nend

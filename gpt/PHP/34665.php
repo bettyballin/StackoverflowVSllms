@@ -1,1 +1,0 @@
-$cfg['Servers'][$i]['host'] = 'localhost';\n    $cfg['Servers'][$i]['port'] = '3309';\n    $cfg['Servers'][$i]['user'] = 'root';\n    $cfg['Servers'][$i]['password'] = 'your_password';

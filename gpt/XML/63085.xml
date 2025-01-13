@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <sessionState sessionIDManagerType="Namespace.CustomSessionIDManager, AssemblyName" />\n  </system.web>\n</configuration>

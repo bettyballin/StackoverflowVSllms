@@ -1,0 +1,1 @@
+g++ -o your_executable your_source.cpp -lboost_algorithm

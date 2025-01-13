@@ -1,0 +1,1 @@
+using System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        string content = "This is the content to be written to the file.";\n        string filePath = "path/to/your/file.txt";\n\n        File.WriteAllText(filePath, content);\n    }\n}

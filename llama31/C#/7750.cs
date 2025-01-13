@@ -1,0 +1,1 @@
+public interface IMyInterface\n{\n    int MyProperty { get; set; }\n}\n\n[HasSelfValidation]\npublic class MyClass : IMyInterface\n{\n    [RangeValidator(1, 100)]\n    public int MyProperty { get; set; }\n\n    [SelfValidation]\n    public void Validate(ValidationResults results)\n    {\n        // custom validation logic here\n    }\n}

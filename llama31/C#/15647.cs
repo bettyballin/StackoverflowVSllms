@@ -1,0 +1,1 @@
+public class LinkListParagraph : Paragraph\n{\n    [Key, Column(Order = 0)]\n    public int ParagraphID { get; set; }\n\n    [Key, Column(Order = 1)]\n    public int LinkID { get; set; }\n\n    // Other properties\n}

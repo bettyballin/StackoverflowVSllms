@@ -1,1 +1,0 @@
-DROP PROCEDURE your_procedure_name;

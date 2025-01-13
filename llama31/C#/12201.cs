@@ -1,0 +1,1 @@
+List<Personnel> query = (from p in this.Database.Personnels\n                         where OrgIds.Contains(p.OrganizationId)\n                         select p).ToList();

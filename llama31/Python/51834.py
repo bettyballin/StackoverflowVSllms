@@ -1,0 +1,1 @@
+my_list = [1, 2, 3]\nmy_list.extend([4, 5, 6])\nprint(my_list)  # Output: [1, 2, 3, 4, 5, 6]

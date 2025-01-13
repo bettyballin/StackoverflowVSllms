@@ -1,1 +1,0 @@
-DBCC SHOWCONTIG('tblinvoices');

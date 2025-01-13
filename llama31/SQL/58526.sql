@@ -1,0 +1,1 @@
+SELECT ISNULL((SELECT * FROM Temp2), (SELECT * FROM Temp1)) AS Result

@@ -1,1 +1,0 @@
-socat -v TCP-LISTEN:<someport>,fork TCP:<isp-smtp>:26

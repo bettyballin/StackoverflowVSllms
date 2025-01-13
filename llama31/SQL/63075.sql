@@ -1,0 +1,1 @@
+id  | name | id  | address\n----|------|----|--------\n1   | John | 1   | NY\n2   | Jane | 2   | CA\n3   | Joe  | NULL| NULL

@@ -1,0 +1,1 @@
+icacls "C:\Users\<username>\AppData\Roaming\Application Data" /grant:r "DOMAIN\username":(OI)(CI)W

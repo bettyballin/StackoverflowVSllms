@@ -1,1 +1,0 @@
-public interface ICoreService\n{\n    void Execute();\n}

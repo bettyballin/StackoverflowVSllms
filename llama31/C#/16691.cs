@@ -1,0 +1,1 @@
+bool isVisioInstalled;\nstring installPath;\nif (IsVisioInstalled(out installPath))\n{\n    Console.WriteLine($"Visio is installed at {installPath}");\n}\nelse\n{\n    Console.WriteLine("Visio is not installed");\n}

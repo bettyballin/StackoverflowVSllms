@@ -1,1 +1,0 @@
-:: Reset ACLs after reboot\nicacls "C:\Program Files\Product\*" /reset /T\n\n:: Optionally, you can also explicitly set desired ACLs\nicacls "C:\Program Files\Product\*" /grant Users:(RX) /T

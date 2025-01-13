@@ -1,0 +1,1 @@
+{\n    "getUserData": "SELECT * FROM users WHERE id = $1",\n    "getOrderHistory": "SELECT * FROM orders WHERE user_id = $1"\n}

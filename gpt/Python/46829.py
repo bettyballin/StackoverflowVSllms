@@ -1,1 +1,0 @@
-from M2Crypto import X509\n    \n    cert = X509.load_cert('cert.pem')\n    store = X509.X509_Store()\n    store.load_info('cacert.pem')\n    context = X509.X509_Store_Context(store, cert)\n    status = context.verify_certificate()\n    print('OCSP Status:', status)

@@ -1,1 +1,0 @@
-$a = array(table => 'myTable');  // 'table' is treated as a constant if defined, otherwise as a string\n    $table = $a[table];  // same note as above

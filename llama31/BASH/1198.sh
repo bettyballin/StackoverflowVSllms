@@ -1,0 +1,1 @@
+rsync -avz -e ssh /remote/path/to/file /local/path/to/download

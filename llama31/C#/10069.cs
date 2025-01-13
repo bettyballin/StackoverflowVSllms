@@ -1,0 +1,1 @@
+[Authorize]\n[WebMethod]\npublic static bool ValidateLogin(string arg)\n{\n    // Only authenticated users can access this method\n    // Rest of your validation logic here...\n}

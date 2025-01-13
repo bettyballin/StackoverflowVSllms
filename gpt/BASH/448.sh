@@ -1,1 +1,0 @@
-gcc -o myapp myapp.c -lavformat -lavcodec -lavutil -lswresample

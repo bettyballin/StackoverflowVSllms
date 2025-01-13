@@ -1,0 +1,1 @@
+mt.exe -manifest your_manifest_file.xml -outputresource:your_executable.exe;#1

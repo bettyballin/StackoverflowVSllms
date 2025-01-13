@@ -1,0 +1,1 @@
+var comment = xmlDoc.selectSingleNode("//comment()");\nif (comment) {\n    alert(comment.nodeValue); // Output: "Some comment here"\n}

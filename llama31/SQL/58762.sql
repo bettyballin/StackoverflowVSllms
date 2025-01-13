@@ -1,0 +1,1 @@
+CREATE TRIGGER trg_InsertTimestamp\nON YourTable\nAFTER INSERT\nAS\nBEGIN\n    UPDATE YourTable\n    SET Timestamp = GETDATE()\n    WHERE ID IN (SELECT ID FROM inserted)\nEND

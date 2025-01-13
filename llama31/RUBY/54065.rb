@@ -1,0 +1,1 @@
+user_data = 'some user input'\n<%= h(user_data) %>

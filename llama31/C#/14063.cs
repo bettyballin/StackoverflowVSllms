@@ -1,0 +1,1 @@
+using Gtk;\n\npublic class MainWindow : Window\n{\n    public MainWindow() : base("Welcome")\n    {\n        var html = new Html();\n        html.LoadUri("file://welcome.html");\n        Add(html);\n    }\n}

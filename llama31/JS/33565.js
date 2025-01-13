@@ -1,0 +1,1 @@
+// client-side JavaScript\nconst schema = require('ajv')().compile(schemaJson);\nconst jsonData = JSON.parse(dataJson);\nif (!schema(jsonData)) {\n    // handle invalid data\n}

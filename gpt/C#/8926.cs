@@ -1,1 +1,0 @@
-using System.Web.Mvc;\n\npublic class FilterConfig\n{\n    public static void RegisterGlobalFilters(GlobalFilterCollection filters)\n    {\n        filters.Add(new HandleErrorAttribute());\n        filters.Add(new HostHeaderFilter()); // Register your custom filter globally\n    }\n}

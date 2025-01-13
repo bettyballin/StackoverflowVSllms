@@ -1,1 +1,0 @@
-try\n   {\n       // Database operations\n   }\n   catch (OracleException ex)\n   {\n       // Log and handle the exception\n   }

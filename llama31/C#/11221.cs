@@ -1,0 +1,1 @@
+[ScriptService]\npublic class MyService : WebService\n{\n    [WebMethod]\n    public string GetData()\n    {\n        // Return some data\n    }\n}

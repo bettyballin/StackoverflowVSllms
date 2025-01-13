@@ -1,1 +1,0 @@
-function formatLocalizedDate(date, locale) {\n    return new Intl.DateTimeFormat(locale).format(new Date(date));\n}\n\n// Usage\nvar date = '2023-10-15T00:00:00Z';\nvar formattedDate = formatLocalizedDate(date, 'fr-FR'); // Output: 15/10/2023

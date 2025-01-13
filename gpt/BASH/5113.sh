@@ -1,1 +1,0 @@
-# Create a feature branch for a small change\ngit checkout -b feature/new-feature\n\n# Make changes and commit\ngit add .\ngit commit -m "Add new feature"\n\n# Push changes and create a pull request for review\ngit push origin feature/new-feature\n\n# Merge to the main branch after review\ngit checkout main\ngit merge feature/new-feature

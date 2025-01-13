@@ -1,1 +1,0 @@
-CREATE UNIQUE CLUSTERED INDEX IX_vHelpfulPostCounts\nON dbo.vHelpfulPostCounts (PostId);\nGO

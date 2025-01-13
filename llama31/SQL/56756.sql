@@ -1,0 +1,1 @@
+DECLARE SESSION TEMPORARY TABLE tt_testingSyntax (id INT);\nINSERT INTO SESSION.tt_testingSyntax (id) VALUES (1);\nINSERT INTO SESSION.tt_testingSyntax (id) VALUES (2);\nINSERT INTO SESSION.tt_testingSyntax (id) VALUES (3);\nINSERT INTO SESSION.tt_testingSyntax (id) VALUES (4);\nSELECT * FROM SESSION.tt_testingSyntax;

@@ -1,1 +1,0 @@
-SELECT u.id, u.name, \n       (COUNT(p.id) + COUNT(c.id)) AS total_items\nFROM users u\nLEFT JOIN photos p ON u.id = p.user_id\nLEFT JOIN comments c ON u.id = c.user_id\nGROUP BY u.id, u.name\nORDER BY total_items DESC;

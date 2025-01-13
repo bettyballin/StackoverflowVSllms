@@ -1,1 +1,0 @@
-ALTER TABLE YourTableName ADD ID INT;

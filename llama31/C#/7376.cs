@@ -1,0 +1,1 @@
+string Filter;\n\nFilter = "Category = 'HIGH'";\nDataRow[] rows = dslErrors.Tables[0].Select(Filter);\nint highCount = rows.Length;\nforeach (DataRow row in dslErrors.Tables[0].Rows)\n{\n    if (row.IsNull("Category"))\n    {\n        highCount++;\n    }\n}\nResponse.Write("High: " + highCount.ToString() + "<br>");\n\n// Repeat for other categories

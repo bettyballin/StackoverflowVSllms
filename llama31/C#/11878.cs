@@ -1,0 +1,1 @@
+partial class MyDataContext\n{\n    public MyDataContext() : base() \n    {\n        this.PluralizeTableNames = false;\n    }\n}

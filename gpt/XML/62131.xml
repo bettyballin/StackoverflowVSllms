@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <httpRuntime maxRequestLength="1048576" /> <!-- Max file size in KB (1GB in this case) -->\n  </system.web>\n</configuration>

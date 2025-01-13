@@ -1,0 +1,1 @@
+using System;\n\n// Convert a 32-bit integer to bytes\nint value = 0x12345678;\nbyte[] bytes = BitConverter.GetBytes(value);\n\n// Send the bytes over UDP/IP\n\n// Convert a 4-character string to bytes\nstring str = "ABCD";\nbyte[] strBytes = Encoding.ASCII.GetBytes(str);\n\n// Send the bytes over UDP/IP

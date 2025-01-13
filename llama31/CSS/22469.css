@@ -1,0 +1,1 @@
+.container {\n  overflow: hidden;\n}\n\n.container > :last-child {\n  margin-bottom: 50px;\n}

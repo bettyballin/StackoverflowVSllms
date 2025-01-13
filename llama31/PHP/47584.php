@@ -1,0 +1,1 @@
+function delimitKey($key) {\n    $key = str_split($key, 4);\n    return implode('-', $key);\n}\n\n$key = '0123456789012345';\necho delimitKey($key); // Output: 0123-4567-8901-2345

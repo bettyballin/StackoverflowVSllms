@@ -1,0 +1,1 @@
+SELECT \n    p.name AS sp_name, \n    COUNT(c.text) AS lines_of_code\nFROM \n    sys.procedures p\nINNER JOIN \n    sys.sql_modules m ON p.object_id = m.object_id\nCROSS APPLY \n    sys.dm_sql_query_stats(qs) \n    CROSS APPLY \n    sys.dm_sql_query_stats_query_text(qs.sql_handle) c\nWHERE \n    p.type = 'P'\nGROUP BY \n    p.name\nORDER BY \n    sp_name;

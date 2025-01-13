@@ -1,1 +1,0 @@
-# app/views/buildings/update.js.erb\n\n# Assuming @building is set in the controller and @building.controls exists\n$("#controls_container").html("<%= escape_javascript(render partial: 'controls/control', collection: @building.controls) %>");

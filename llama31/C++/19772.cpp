@@ -1,0 +1,1 @@
+HMODULE hModule = NULL;\nGetModuleHandleEx(GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS, (LPCTSTR)__FILE__, &hModule);\nif (hModule)\n{\n    // use hModule to get the file name\n}

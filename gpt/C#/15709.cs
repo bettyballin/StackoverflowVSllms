@@ -1,1 +1,0 @@
-public void MyServiceMethod(string input)\n   {\n       if(string.IsNullOrWhiteSpace(input) || !Regex.IsMatch(input, @"^[a-zA-Z0-9]+$"))\n       {\n           throw new ArgumentException("Invalid input");\n       }\n       // Proceed with processing the validated input\n   }

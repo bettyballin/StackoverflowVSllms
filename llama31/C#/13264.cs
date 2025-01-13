@@ -1,0 +1,1 @@
+public class MyObject\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n}\n\nMyObject myObject = new MyObject { Id = 1, Name = "John" };\nSession["myKey"] = myObject;\n\n// Later, in a different request\nMyObject sessionObject = (MyObject)Session["myKey"];\nsessionObject.Name = "Jane"; // This change will not affect the original myObject

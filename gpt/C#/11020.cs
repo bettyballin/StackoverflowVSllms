@@ -1,1 +1,0 @@
-public class Product\n   {\n       public virtual int Id { get; set; }\n       public virtual string Name { get; set; }\n       public virtual decimal Price { get; set; }\n   }

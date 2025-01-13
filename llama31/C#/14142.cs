@@ -1,0 +1,1 @@
+public class CustomOracleProviderFactory : OracleClientFactory\n{\n    public override DbCommand CreateCommand()\n    {\n        var command = base.CreateCommand();\n        if (command is OracleCommand oracleCommand)\n        {\n            oracleCommand.BindByName = true;\n        }\n        return command;\n    }\n}

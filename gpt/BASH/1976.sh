@@ -1,1 +1,0 @@
-# Mount command with TCP\nmount -t nfs -o proto=tcp,port=2049 nfs_server:/export /mnt\n\n# In /etc/fstab for persistent configuration\nnfs_server:/export /mnt nfs defaults,proto=tcp 0 0

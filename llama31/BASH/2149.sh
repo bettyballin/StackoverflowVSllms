@@ -1,0 +1,1 @@
+mysqldump -h hostname -u username -p password x a > a.sql\nmysql -h hostname -u username -p password y < a.sql

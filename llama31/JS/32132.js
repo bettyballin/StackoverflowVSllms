@@ -1,0 +1,1 @@
+var countries = new Array();\ncountries[0] = 'ga';\ncountries[1] = 'cd';\n\nvar json = JSON.stringify(countries);\n\n$.ajax({\n    type: "POST",\n    url: "Concessions.aspx/GetConcessions",\n    data: json,\n    contentType: "application/json; charset=utf-8",\n    dataType: "json"\n});

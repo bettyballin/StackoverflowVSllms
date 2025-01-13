@@ -1,1 +1,0 @@
-<?php\n// In the included file\n$domain_name = $_SERVER['HTTP_HOST'];\necho "The domain name of the site containing the include() code is: " . $domain_name;\n?>

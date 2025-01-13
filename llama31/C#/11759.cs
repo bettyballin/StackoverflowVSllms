@@ -1,0 +1,1 @@
+RpcService rpcService = new RpcService(new CustomSerializationPolicy());

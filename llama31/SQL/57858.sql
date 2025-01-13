@@ -1,0 +1,1 @@
+WITH RECURSIVE category_tree AS (\n  SELECT id, name, parent_id, 0 AS level\n  FROM categories\n  WHERE parent_id IS NULL  -- anchor query for top-level categories\n  UNION ALL\n  SELECT c.id, c.name, c.parent_id, level + 1\n  FROM categories c\n  JOIN category_tree p ON c.parent_id = p.id  -- recursive join\n)\nSELECT * FROM category_tree;

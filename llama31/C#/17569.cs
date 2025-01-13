@@ -1,0 +1,1 @@
+[DataContract(Namespace = "http://tempuri.org/")]\npublic class CreateAccount\n{\n    // ...\n}

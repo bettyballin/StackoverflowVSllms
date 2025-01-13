@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint is_power_of_two(int x) {\n    return (x & (x-1)) == 0;\n}\n\nint main() {\n    printf("%d\n", is_power_of_two(4));  // prints 1 (true)\n    printf("%d\n", is_power_of_two(5));  // prints 0 (false)\n    return 0;\n}

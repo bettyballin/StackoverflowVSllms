@@ -1,0 +1,1 @@
+var list1 = new[] { 1, 2, 3, 4 };\nvar list2 = new[] { 3, 4, 5, 6 };\nvar intersection = list1.Intersect(list2);

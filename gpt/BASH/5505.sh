@@ -1,1 +1,0 @@
-stat -c '%i' /path/to/your/file

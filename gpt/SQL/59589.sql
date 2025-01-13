@@ -1,1 +1,0 @@
-CREATE SYMMETRIC KEY YourSymmetricKeyName \n      FROM FILE = 'path_to_symmetric_key_file'\n      DECRYPTION BY PASSWORD = 'your_strong_password';

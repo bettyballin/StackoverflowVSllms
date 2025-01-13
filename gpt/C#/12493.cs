@@ -1,1 +1,0 @@
-SslStream secureStream = new SslStream(stream, true, tlsRemoteCallback);\n\nX509Certificate serverCertificate = GetServerCertificate(); // Method to get your server certificate\n\nsecureStream.AuthenticateAsServer(serverCertificate);

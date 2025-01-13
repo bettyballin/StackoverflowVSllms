@@ -1,0 +1,1 @@
+$pk = (string) $_GET["pk"];\n// ...\n$getRecords->bind_param("s", $pk);

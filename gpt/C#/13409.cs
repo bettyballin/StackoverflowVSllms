@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        userControl1.SetValidationGroup(userControl1.ClientID);\n        userControl2.SetValidationGroup(userControl2.ClientID);\n    }\n}

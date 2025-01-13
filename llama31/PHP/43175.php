@@ -1,0 +1,1 @@
+// controllers/Calendar.php\npublic function get_events($date)\n{\n    // Retrieve events for the given date\n    $events = $this->calendar_model->get_events($date);\n    echo json_encode($events);\n}

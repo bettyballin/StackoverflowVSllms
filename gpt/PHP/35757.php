@@ -1,1 +1,0 @@
-// db_connect.php\n<?php\n$servername = getenv('DB_SERVER');\n$username = getenv('DB_USERNAME');\n$password = getenv('DB_PASSWORD');\n$dbname = getenv('DB_NAME');\n\n// Create connection\n$dbc = new mysqli($servername, $username, $password, $dbname);\n\n// Check connection\nif ($dbc->connect_error) {\n    die("Connection failed: " . $dbc->connect_error);\n}\n?>

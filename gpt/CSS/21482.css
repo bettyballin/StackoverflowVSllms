@@ -1,1 +1,0 @@
-/* styles.css */\n.video-container {\n    position: relative;\n    width: 320px;\n    transition: width 0.5s ease;\n}\n\n.video-container.enlarged {\n    width: 640px; /* Change to desired width when enlarged */\n}\n\n#myVideo {\n    width: 100%;\n    height: auto;\n}

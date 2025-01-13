@@ -1,0 +1,1 @@
+using (var context = new MyDataContext())\n{\n    context.ObjectTrackingEnabled = true;\n    var results = context.MyTable.ToList();\n}

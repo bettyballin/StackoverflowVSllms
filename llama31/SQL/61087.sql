@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE my_procedure\nAUTHID CURRENT_USER\nAS\n  dataType VARCHAR2(128);\nBEGIN\n  SELECT t.data_type INTO dataType FROM dba_tab_cols t\n  WHERE t.table_name = 'ACCOUNTTYPE' AND t.column_name = 'ACCESSEDBY';\n  ...\nEND;

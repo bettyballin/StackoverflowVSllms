@@ -1,1 +1,0 @@
-class PdfsController < ApplicationController\n  def create\n    tex_content = params[:tex_content] # Assuming you pass LaTeX content as a parameter\n    PdfGenerator.new(tex_content).generate_pdf\n    send_file "#{Rails.root}/tmp/generated_pdf.pdf", type: 'application/pdf', disposition: 'inline'\n  end\nend

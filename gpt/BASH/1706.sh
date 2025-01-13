@@ -1,1 +1,0 @@
-avr-gcc -g -Os -mmcu=atmega644 -ffunction-sections -fsigned-char -Wall -Wno-long-long -x assembler-with-cpp -Wa,-adhlns=z813.lst -c -o z813.o z813.s

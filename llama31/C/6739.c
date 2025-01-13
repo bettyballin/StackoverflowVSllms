@@ -1,0 +1,1 @@
+// WSL (Linux) side\n#include <windows.h>\n\n// Load the DLL\nHMODULE hModule = LoadLibrary("path/to/dll.dll");\n\n// Get the function pointer\nFARPROC fp = GetProcAddress(hModule, "FunctionName");\n\n// Call the function\nfp(arg1, arg2, ...);

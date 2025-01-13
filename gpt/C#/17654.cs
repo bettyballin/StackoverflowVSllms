@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult Save(IList<Item> items)\n{\n    if (ModelState.IsValid)\n    {\n        // Process the items\n    }\n    else\n    {\n        // Handle validation errors\n    }\n\n    return RedirectToAction("Index");\n}

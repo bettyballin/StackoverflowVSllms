@@ -1,1 +1,0 @@
-$message = 'Here is the result: %s';\n$value = 'your_value_here';\n$finalMessage = sprintf($message, $value);\n\necho $finalMessage;  // Outputs: Here is the result: your_value_here

@@ -1,0 +1,1 @@
+Button btn = new Button();\n// ...\nthis.Controls.Add(btn);

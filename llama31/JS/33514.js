@@ -1,0 +1,1 @@
+var originalUrl = "page--1--of--3.html";\nvar encodedUrl = encodeURIComponent(originalUrl);\n// encodedUrl will be "page%2D%2D1%2D%2Dof%2D%2D3.html"

@@ -1,0 +1,1 @@
+function get_calling_class_vars($varName) {\n    $backtrace = debug_backtrace();\n    $callingClass = $backtrace[1]['object'];\n    return $callingClass->$varName;\n}

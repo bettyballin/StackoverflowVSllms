@@ -1,0 +1,1 @@
+require 'mysql2'\n\nclient = Mysql2::Client.new(config)\nresults = client.query("SELECT j.n, j.name, j.dsc, j.flag, j.td FROM job j WHERE j.td = '0000-00-00 00:00:00'")

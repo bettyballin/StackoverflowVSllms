@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Collect all arguments\nargs=()\nfor i in {1..1500}; do\n    # Assuming your arguments are generated or stored somewhere\n    args+=("arg$i")\ndone\n\n# Pass all arguments to the Java program in one call\njava BatchProcessor "${args[@]}"

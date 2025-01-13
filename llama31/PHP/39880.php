@@ -1,0 +1,1 @@
+foreach($columns as $column) {\n    $$column = $$column ? 'YES' : 'NO';\n}

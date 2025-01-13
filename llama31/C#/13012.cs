@@ -1,0 +1,1 @@
+// Assuming 'mainForm' is the main form and 'secondaryForm' is the secondary form\n// and 'modalDialog' is the modal dialog box\n\nmodalDialog.Owner = mainForm;\nmodalDialog.ShowDialog();

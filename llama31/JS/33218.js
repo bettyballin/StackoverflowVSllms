@@ -1,0 +1,1 @@
+$.ajax({\n  type: 'POST',\n  url: '/your-url',\n  dataType: 'json',\n  success: function(data) {\n    try {\n      var jsonData = $.parseJSON(data);\n      // safely use jsonData here\n    } catch (e) {\n      console.error('Invalid JSON response');\n    }\n  }\n});

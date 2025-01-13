@@ -1,0 +1,1 @@
+// Get the element you want to scroll to\nvar topElement = document.getElementById("page_top");\n\n// Scroll to the element\nwindow.scrollTo(0, topElement.offsetTop);

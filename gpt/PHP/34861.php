@@ -1,1 +1,0 @@
-<?php\n$file = 'example.txt';\n\nif ($_SERVER['REQUEST_METHOD'] === 'GET') {\n    if (file_exists($file)) {\n        echo file_get_contents($file);\n    } else {\n        echo 'File not found.';\n    }\n}\n\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $content = $_POST['content'];\n    file_put_contents($file, $content);\n    echo 'File written successfully!';\n}\n?>

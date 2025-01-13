@@ -1,1 +1,0 @@
-<dict>\n    <key>CFBundleIdentifier</key>\n    <string>com.yourcompany.yourfiletype</string>\n    <key>CFBundleTypeExtensions</key>\n    <array>\n        <string>yourfileextension</string>\n    </array>\n    <key>QLPreviewPlugIn</key>\n    <string>YES</string>\n</dict>

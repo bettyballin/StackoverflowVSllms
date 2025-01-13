@@ -1,0 +1,1 @@
+from rest_framework import status\nfrom rest_framework.response import Response\nfrom rest_framework.views import APIView\n\nclass HelloWorldView(APIView):\n    def get(self, request):\n        return Response({'hello': 'world'})

@@ -1,0 +1,1 @@
+SELECT TO_CHAR(JUSTIFY_INTERVAL(INTERVAL '1 second' * your_duration_in_seconds), 'HH24:MI:SS') AS duration;

@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    var_dump($_POST);\n} else {\n    echo 'No POST request received';\n}\n?>

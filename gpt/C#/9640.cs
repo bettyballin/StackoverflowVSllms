@@ -1,1 +1,0 @@
-var client = new HttpClient();\nvar byteArray = new UTF8Encoding().GetBytes("username:password");\nclient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", Convert.ToBase64String(byteArray));\n\nHttpResponseMessage response = await client.PutAsync("https://yourserver/api/resource", content);

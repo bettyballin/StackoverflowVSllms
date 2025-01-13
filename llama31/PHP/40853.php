@@ -1,0 +1,1 @@
+function get_last_element($array) {\n    return end($array);\n}

@@ -1,0 +1,1 @@
+#include <Windows.h>\n\nint main() {\n    HANDLE hStdin = GetStdHandle(STD_INPUT_HANDLE);\n    INPUT_RECORD ir;\n    DWORD dwEvents;\n    ReadConsoleInput(hStdin, &ir, 1, &dwEvents);\n    if (ir.Event.KeyEvent.uChar.AsciiChar != 0) {\n        printf("You pressed: %c\n", ir.Event.KeyEvent.uChar.AsciiChar);\n    }\n    return 0;\n}

@@ -1,1 +1,0 @@
-chmod +x ~/switch_to_emacs.sh ~/switch_from_emacs.sh

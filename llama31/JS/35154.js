@@ -1,0 +1,1 @@
+document.onkeydown = function(e) {\n    if (e.keyCode == 116) { // F5 key code\n        // Handle F5 key press\n        // You can set a flag or call a function here\n    }\n};\n\nwindow.onbeforeunload = function() {\n    // Handle page refresh\n    // You can set a flag or call a function here\n};

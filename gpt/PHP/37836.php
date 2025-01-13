@@ -1,1 +1,0 @@
-<?php\nrequire_once(ABSPATH . INC . FUNC . '/table-config.php');\nrequire_once(ABSPATH . INC . CLASS . '/uri-resolve.php');\n\n$uriResolver = new URIResolve($tablePages);\n$uriResolver->process_uri();\n?>

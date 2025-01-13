@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("INSERT INTO table_name (text_field) VALUES (?)");\n$stmt->bind_param("s", $_POST['textarea']);\n$stmt->execute();

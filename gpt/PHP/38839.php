@@ -1,1 +1,0 @@
-function custom_site_info_form_submit($form, &$form_state) {\n     // Save default site information settings\n     system_site_information_settings_submit($form, $form_state);\n\n     // Save custom fields\n     variable_set('custom_field_1', $form_state['values']['custom_field_1']);\n     variable_set('custom_field_2', $form_state['values']['custom_field_2']);\n   }

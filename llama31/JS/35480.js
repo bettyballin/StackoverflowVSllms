@@ -1,0 +1,1 @@
+var xml = new XMLHttpRequest();\nxml.open("GET", myRequestURL, true);\nxml.onload = function() {\n  if (xml.status === 200) {\n    alert('test');\n  }\n};\nxml.send(null);

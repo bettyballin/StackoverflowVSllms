@@ -1,0 +1,1 @@
+class NamedObject {\npublic:\n    virtual const char* getName() const = 0;\n};\n\nclass MyObject : public NamedObject {\npublic:\n    const char* getName() const override {\n        return "MyObject";\n    }\n};

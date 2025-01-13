@@ -1,0 +1,1 @@
+virt-install --name myvm --ram 1024 --disk path=/dev/sda --pci-assign 01:00.0

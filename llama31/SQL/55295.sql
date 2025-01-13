@@ -1,0 +1,1 @@
+CREATE INDEX idx_credit_acc ON credit_acc (type_acc, status_acc, linetype_acc);

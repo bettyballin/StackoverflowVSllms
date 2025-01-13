@@ -1,1 +1,0 @@
-using Microsoft.AspNet.SignalR;\n    using Microsoft.Owin;\n    using Owin;\n\n    [assembly: OwinStartup(typeof(YourNamespace.Startup))]\n\n    public class Startup\n    {\n        public void Configuration(IAppBuilder app)\n        {\n            app.MapSignalR();\n        }\n    }

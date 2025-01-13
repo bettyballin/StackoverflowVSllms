@@ -1,1 +1,0 @@
-update forge..dimInteg2\nset duplicates = subquery.duplicate_count\nfrom forge..dimInteg2\ninner join (\n    select idCover, count(*) as duplicate_count\n    from x90..dimCover\n    group by idCover\n    having count(*) > 1\n) as subquery\non dimInteg2.idCover = subquery.idCover\nwhere dimInteg2.dimTable = 'dimCover'

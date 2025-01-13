@@ -1,1 +1,0 @@
-data = [(1,2),(40,2),(9,80)]\n\n# Use zip and unpacking operator to extract the lists\nlist1, list2 = zip(*data)\n\n# Convert the tuples to lists\nlist1 = list(list1)\nlist2 = list(list2)\n\nprint(list1)  # Output: [1, 40, 9]\nprint(list2)  # Output: [2, 2, 80]

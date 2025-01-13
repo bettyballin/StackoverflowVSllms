@@ -1,0 +1,1 @@
+configure --enable-cli --enable-cgi --with-apxs2=C:\Apache2.2\bin\apxs --with-mysql --with-pgsql --with-openssl\nnmake\nnmake install

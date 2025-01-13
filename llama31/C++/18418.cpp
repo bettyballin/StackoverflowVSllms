@@ -1,0 +1,1 @@
+template <typename T>\nclass ObservableList {\n    static_assert(std::is_base_of<List, T>::value, "T must inherit from List");\n    /* ... */\n};

@@ -1,0 +1,1 @@
+sudo apt-get update\nsudo apt-get install gcc-arm-linux-gnueabi libnewlib-arm-none-eabi

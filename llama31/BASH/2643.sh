@@ -1,0 +1,1 @@
+gprof --32 test

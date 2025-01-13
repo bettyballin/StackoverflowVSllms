@@ -1,0 +1,1 @@
+using Castle.ActiveRecord;\n\n[ActiveRecord]\npublic class MyClass\n{\n    [PrimaryKey]\n    public int Id { get; set; }\n\n    [Property]\n    public string Name { get; set; }\n}

@@ -1,1 +1,0 @@
-if (fabs(get_tot_amt1()) > BATCH_JV_CSH_MAX) {\n    fprintf(stderr, "\n*** Error: Transaction debit amount overflow\n");\n    fprintf(stderr, "\n***        Maximum expected: %.0f\n", BATCH_JV_CSH_MAX);\n    return (FALSE);\n}\n\nsprintf(in_batch_sum.batch_debit_amt, "%011.0f", get_tot_amt1());

@@ -1,0 +1,1 @@
+static const char *formatStrings[] = {\n    "Value: %d, Min: %d, Max: %d",\n    "Value: %d, Min: %d, Max: %d",\n    // ...\n};\n\nsnprintf(tempStr, size, formatStrings[testID],\n         A2DtoV(testResults[testID].value),\n         A2DtoV(testResults[testID].min),\n         A2DtoV(testResults[testID].max));

@@ -1,1 +1,0 @@
-gcc -shared -o your_shared_object.so -Wl,--as-needed your_source_files.c

@@ -1,0 +1,1 @@
+./configure --without-threads\nmake\nmake install

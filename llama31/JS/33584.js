@@ -1,0 +1,1 @@
+$("input[name='theme']").click(function(){\n    // your code here\n});

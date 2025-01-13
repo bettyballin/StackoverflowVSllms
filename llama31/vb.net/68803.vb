@@ -1,0 +1,1 @@
+Public Function LoadAll() As List(Of Incident)\n    Dim incidents As New List(Of Incident)\n    For Each row As DataRow In dataRows\n        Dim newIncident As New Incident\n        incidents.Add(MapDataRowToProperties(row, newIncident))\n    Next\n    Return incidents\nEnd Functio

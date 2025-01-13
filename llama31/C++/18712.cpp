@@ -1,0 +1,1 @@
+// Hand-rolled loop\nstd::vector<int> numbers = {1, 2, 3, 4, 5};\nfor (auto& num : numbers) {\n    num *= 2;\n}\n\n// STL algorithm\nstd::vector<int> numbers = {1, 2, 3, 4, 5};\nstd::transform(numbers.begin(), numbers.end(), numbers.begin(),\n               [](int x) { return x * 2; });

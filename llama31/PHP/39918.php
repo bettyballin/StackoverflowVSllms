@@ -1,0 +1,1 @@
+$pdf = new Zend_Pdf();\n$pdf->setFont(Zend_Pdf_Font::embed('path/to/your/font.ttf'), 12);\n$pdf->drawText('aąbcčdeę', 10, 10);

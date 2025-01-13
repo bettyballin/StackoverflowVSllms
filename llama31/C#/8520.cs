@@ -1,0 +1,1 @@
+[ComVisible(true)]\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]\npublic interface IServer\n{\n    object GetContext();\n}

@@ -1,0 +1,1 @@
+function storelistingUno() {\n    // your code here...\n    $itemnum = mysql_real_escape_string($_POST['itemnum']);\n    // ...\n    $test = "yes!";\n    \n    $data = array(\n        'itemnum' => $itemnum,\n        'msrp' => $msrp,\n        // ...\n        'test' => $test\n    );\n    \n    return $data;\n}

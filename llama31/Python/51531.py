@@ -1,0 +1,1 @@
+# appstate.py\n\nclass AppState:\n    _connected_users = set()\n    _total_answers = 0\n\n    @classmethod\n    def get_user_list(cls):\n        return cls._connected_users\n\n    @classmethod\n    def increment_total_answers(cls):\n        cls._total_answers += 1\n\n    @classmethod\n    def create_config_file(cls):\n        # implementation to create config file\n        pass

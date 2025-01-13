@@ -1,1 +1,0 @@
-keytool -import -alias mycert -file <path-to-cert>.cer -keystore keystore.jks

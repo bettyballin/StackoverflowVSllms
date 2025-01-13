@@ -1,1 +1,0 @@
-chmod +x highlight_warnings.sh

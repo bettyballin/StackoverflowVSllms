@@ -1,1 +1,0 @@
-// GeneratedProxyClass.cs (auto-generated)\npublic partial class MyServiceClient\n{\n    public void MyMethod()\n    {\n        // method implementation\n    }\n}

@@ -1,0 +1,1 @@
+using System.Web;\n\npublic static class MyStaticClass\n{\n    public static object GetData()\n    {\n        var cache = HttpContext.Current.Cache;\n        // use the cache instance to retrieve or store data\n    }\n}

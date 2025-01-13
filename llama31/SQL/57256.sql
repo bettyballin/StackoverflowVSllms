@@ -1,0 +1,1 @@
+SELECT ProductId, IIF(IsNull(Price), 0, Price) AS Price\nFROM Products

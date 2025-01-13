@@ -1,0 +1,1 @@
+$pattern = '/^www\.(.+)\.(.+)$/';\npreg_match($pattern, $url, $matches);\n$domain = $matches[1] . '.' . $matches[2];

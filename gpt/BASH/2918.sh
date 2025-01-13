@@ -1,1 +1,0 @@
-windbg -z [DumpFilePath]

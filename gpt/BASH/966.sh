@@ -1,1 +1,0 @@
-javascript-obfuscator yourfile.js --output yourfile-obfuscated.js

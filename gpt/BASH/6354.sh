@@ -1,1 +1,0 @@
-aspnet_regiis -px "YourKeyContainerName" "path\to\exportedkey.xml" -pri

@@ -1,1 +1,0 @@
-Public Property Item(index As Integer) As String\n        Get\n            ' Get property value\n        End Get\n        Set(value As String)\n            ' Set property value\n        End Set\n    End Property\n\n    ' Using the property with parameters\n    Dim value As String = Item(1)\n    Item(1) = "New Value"

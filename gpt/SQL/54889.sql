@@ -1,1 +1,0 @@
-CREATE TABLE events (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    event_name VARCHAR(255) NOT NULL,\n    event_date DATETIME NOT NULL\n);

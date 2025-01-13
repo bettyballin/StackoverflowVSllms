@@ -1,1 +1,0 @@
-# session.py\nclass Session:\n    def __init__(self):\n        pass\n    # Session related methods\n\n# logger.py\nclass Logger:\n    def __init__(self):\n        pass\n    # Logging related methods\n\n# database.py\nclass Database:\n    def __init__(self):\n        pass\n    # Database related methods

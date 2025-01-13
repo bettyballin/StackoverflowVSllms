@@ -1,0 +1,1 @@
+Console.WriteLine(100 Or 200 Xor 300 And 400) ' Output: 540\nConsole.WriteLine((100 Or 200) Xor (300 And 400)) ' Output: 540

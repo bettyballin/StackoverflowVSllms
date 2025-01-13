@@ -1,0 +1,1 @@
+$Config['CurrentFolder'] = '/path/to/your/upload/directory/';

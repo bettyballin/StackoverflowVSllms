@@ -1,1 +1,0 @@
-function calculatePoint(radius, angle, origin = {x: 0, y: 0}) {\n    const x = origin.x + radius * Math.cos(angle);\n    const y = origin.y + radius * Math.sin(angle);\n    return {x: x, y: y};\n}\n\n// Example usage:\nconst point = calculatePoint(5, Math.PI / 4);\nconsole.log(point);  // Output: {x: 3.5355339059327378, y: 3.5355339059327378}

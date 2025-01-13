@@ -1,0 +1,1 @@
+<script>\n  (function() {\n    var img = new Image();\n    img.src = 'preload_image.php'; // load the image\n  })();\n</script>

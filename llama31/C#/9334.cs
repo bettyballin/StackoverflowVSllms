@@ -1,0 +1,1 @@
+var sortedObjectList = objectList.OrderBy(x => indexMap[x.Value]);

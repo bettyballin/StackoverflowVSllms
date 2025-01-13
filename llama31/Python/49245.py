@@ -1,0 +1,1 @@
+def create_event_handlers(es):\n    def ene(_, ev):\n        for eb in es:\n            eb.set_state(gtk.STATE_PRELIGHT)\n\n    def lne(_, ev):\n        for eb in es:\n            eb.set_state(gtk.STATE_NORMAL)\n\n    return ene, lne\n\nene, lne = create_event_handlers(es)\nfor eb in es:\n    eb.connect('enter-notify-event', ene)\n    eb.connect('leave-notify-event', lne)

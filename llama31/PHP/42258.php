@@ -1,0 +1,1 @@
+$config = json_decode(file_get_contents('config.json'), true);\necho $config['database']['host']; // outputs "localhost"

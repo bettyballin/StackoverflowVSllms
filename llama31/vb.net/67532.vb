@@ -1,0 +1,1 @@
+' Verbose way\nDim myVariable As Integer = 5\n\n' Less verbose way\nDim myVariable = 5

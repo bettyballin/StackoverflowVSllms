@@ -1,1 +1,0 @@
-java -javaagent:instance-tracker-agent.jar -cp your-application.jar com.your.MainClass

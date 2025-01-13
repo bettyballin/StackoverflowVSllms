@@ -1,0 +1,1 @@
+import numpy as np\n\ndef ring_generation(a, b, c, d):\n    theta = np.linspace(0, 2*np.pi, 100)\n    x = a * np.cos(theta) + b * np.sin(theta)\n    y = c * np.sin(theta) + d * np.cos(theta)\n    return x, y

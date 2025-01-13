@@ -1,1 +1,0 @@
-cd C:\MyProjects\MySolution\bin\Release\nILMerge.exe /out:merged_wrapper.dll wrapper.dll api.dll

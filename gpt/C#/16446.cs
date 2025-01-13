@@ -1,1 +1,0 @@
-<%@ Page Language="C#" %>\n<!DOCTYPE html>\n<html>\n<head>\n    <title>Hello World</title>\n</head>\n<body>\n    <script runat="server">\n        protected void Page_Load(object sender, EventArgs e)\n        {\n            Response.Write("Hello, World!");\n        }\n    </script>\n</body>\n</html>

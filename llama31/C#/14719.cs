@@ -1,0 +1,1 @@
+CredentialCache cache = new CredentialCache();\ncache.Add(new Uri("http://ws.lokad.com/"), "Basic", new NetworkCredential("username", "password"));\n\nWebRequest request = WebRequest.Create("http://ws.lokad.com/");\nrequest.Credentials = cache;

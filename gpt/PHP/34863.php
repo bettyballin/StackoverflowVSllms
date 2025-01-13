@@ -1,1 +1,0 @@
-$xml = new SimpleXMLElement(file_get_contents("StopPointList.xml"));\n$searchTerm = "Sinsenveien"; // The term you are searching for\n\nforeach ($xml->StopPoint as $stop) {\n    if (strpos($stop->StopName, $searchTerm) !== false) {\n        echo $stop->StopName . '<br />';\n    }\n}

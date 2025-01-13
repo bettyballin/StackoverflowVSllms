@@ -1,0 +1,1 @@
+-- Compare Table A\napex dataloader compare --compare-key "Name" --source "DEV" --target "TEST" TableA\n\n-- Compare Table B\napex dataloader compare --compare-key "Name,Description" --source "DEV" --target "TEST" TableB

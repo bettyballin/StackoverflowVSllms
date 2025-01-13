@@ -1,0 +1,1 @@
+$(ad_numbers).each(function() {\n  var ad_number = $.trim(this);\n  if (!ad_number) return true;\n\n  $.ajax({\n    type: 'POST',\n    url: '/fetch.php',\n    data: { ad_number: ad_number },\n    complete: function() {\n      // Move on to the next ad number\n      $(ad_numbers).each(function() {\n        // ...\n      });\n    }\n  });\n});

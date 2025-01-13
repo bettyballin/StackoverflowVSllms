@@ -1,1 +1,0 @@
-"C:\path\to\PHP_Beautifier\Beautifier.php" -f "%F" -o "%F"

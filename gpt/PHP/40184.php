@@ -1,1 +1,0 @@
-require_once('../others/basemodel.php'); // Adjust the path as needed

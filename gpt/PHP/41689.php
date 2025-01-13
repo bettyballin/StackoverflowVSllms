@@ -1,1 +1,0 @@
-// In your CakePHP Controller\npublic function getArticle($id) {\n    $article = $this->Articles->get($id, [\n        'contain' => ['Images']\n    ]);\n    $this->set(compact('article'));\n}

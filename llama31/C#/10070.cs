@@ -1,0 +1,1 @@
+[WebMethod]\npublic static bool ValidateLogin(string arg, string antiForgeryToken)\n{\n    // Validate the anti-forgery token\n    if (!AntiForgery.Validate(antiForgeryToken))\n    {\n        // Reject the request\n        return false;\n    }\n    // Rest of your validation logic here...\n}

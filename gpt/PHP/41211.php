@@ -1,1 +1,0 @@
-$model = new MyModel();\n$result = $model->fetchByEmail('example@example.com');

@@ -1,1 +1,0 @@
--- Create temp table with all columns\n    SELECT *\n    INTO #TempTable\n    FROM PrimaryTable\n    WHERE <conditions>;\n\n    -- Further processing\n    SELECT *\n    FROM #TempTable\n    WHERE <paging conditions>;

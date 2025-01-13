@@ -1,1 +1,0 @@
-def validate_token(token, secret_key):\n       try:\n           decoded = jwt.decode(token, secret_key, algorithms=['HS256'])\n           return decoded\n       except jwt.ExpiredSignatureError:\n           return None  # Token has expired\n       except jwt.InvalidTokenError:\n           return None  # Invalid toke

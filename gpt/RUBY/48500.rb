@@ -1,1 +1,0 @@
-class Payment < ApplicationController\n  before_action :login_required\n  before_action :check_order_free, only: [:new]\n\n  def new\n    @payment = Payment.new\n  end\n\n  private\n\n  def check_order_free\n    redirect_to some_other_path if @order.is_free?\n  end\nend

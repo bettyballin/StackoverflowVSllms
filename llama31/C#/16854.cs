@@ -1,0 +1,1 @@
+string input = "8 a";\nDateTime result;\nstring[] formats = new string[] { "h tt", "hh:mm tt" };\nif (DateTime.TryParseExact(input, formats, CultureInfo.InvariantCulture, DateTimeStyles.None, out result))\n{\n    // result will be 1/1/0001 8:00:00 AM\n}

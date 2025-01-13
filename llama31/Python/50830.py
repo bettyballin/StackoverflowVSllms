@@ -1,0 +1,1 @@
+session.execute(update(Stuff).values(foo=Stuff.foo + 1), synchronize_session=False)\nsession.commit()

@@ -1,0 +1,1 @@
+UPDATE wp_posts\nSET post_date = post_date + INTERVAL 1 SECOND\nWHERE post_date IN (\n  SELECT post_date\n  FROM wp_posts\n  GROUP BY post_date\n  HAVING COUNT(*) > 1\n);

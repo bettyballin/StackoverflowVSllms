@@ -1,0 +1,1 @@
+@echo off\nsetlocal enabledelayedexpansion\n\nset "file=path\to\your\file.bin"\n\nfc /b "%file%" nul > nul\nif %errorlevel%==0 (\n    echo File is empty or does not exist.\n) else (\n    for /f "skip=1 delims=" %%i in ('fc /b "%file%" nul') do (\n        echo %%i\n    )\n)

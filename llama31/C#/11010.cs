@@ -1,0 +1,1 @@
+using System.Text.RegularExpressions;\n\npublic bool IsValidHtml(string html)\n{\n    var regex = new Regex(@"<(\w+)[^>]*>(.*?)</\1>");\n    return regex.IsMatch(html);\n}

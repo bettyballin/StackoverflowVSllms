@@ -1,0 +1,1 @@
+readelf -s yourlib.so

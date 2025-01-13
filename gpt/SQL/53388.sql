@@ -1,1 +1,0 @@
-SELECT a.column1, a.column2, b.column1, b.column2\nFROM (SELECT column1, column2, column3 FROM your_table WHERE some_condition) a\nJOIN (SELECT column1, column2, column3 FROM your_table WHERE some_condition) b\nON a.some_column = b.some_column\nWHERE additional_condition;

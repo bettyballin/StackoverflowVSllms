@@ -1,0 +1,1 @@
+DROP TABLE aspnet_Paths;\nDROP TABLE aspnet_PersonalizationAllUsers;\nDROP TABLE aspnet_PersonalizationPerUser;\nDROP TABLE aspnet_Profile;\nDROP TABLE aspnet_WebEvent_Events;

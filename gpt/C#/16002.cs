@@ -1,1 +1,0 @@
-[assembly: MbUnit.Framework.TestFixture]

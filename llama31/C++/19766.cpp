@@ -1,0 +1,1 @@
+class SomeClass {\npublic:\n    static const std::string str1;\n    static const std::string str2;\n    static const std::string str3;\n};\n\nconst std::string SomeClass::str1 = "message1";\nconst std::string SomeClass::str2 = "message2";\nconst std::string SomeClass::str3 = "message3";

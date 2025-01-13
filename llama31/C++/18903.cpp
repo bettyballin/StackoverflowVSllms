@@ -1,0 +1,1 @@
+class CMyClient : public IMyEvent\n{\npublic:\n    HRESULT EventTerminated(void)\n    {\n        // Handle the event here\n        return S_OK;\n    }\n\n    // ... other client methods ...\n};

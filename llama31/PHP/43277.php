@@ -1,0 +1,1 @@
+$checkDeleted = '';\nif (isset($_POST['checkboxes']) && in_array('deleted', $_POST['checkboxes'])) {\n    $checkDeleted = 'checked';\n}

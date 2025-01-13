@@ -1,1 +1,0 @@
-# Install AWS CLI\npip install awscli\n\n# Configure AWS CLI with your credentials\naws configure\n\n# Sync your local backup directory to S3 bucket\naws s3 sync /path/to/local/backup s3://your-s3-bucket-name/backup

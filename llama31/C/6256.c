@@ -1,0 +1,1 @@
+FILE *fp[] = {NULL, NULL};\n\nfp[0] = stdout;\nfp[1] = dump_f;

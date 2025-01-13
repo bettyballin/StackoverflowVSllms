@@ -1,0 +1,1 @@
+/* Add a page-curl effect to the PDF/PPTX container */\n.pdf-container {\n  perspective: 1000px;\n  perspective-origin: 50% 50%;\n}\n\n.pdf-container:hover {\n  transform: rotateY(10deg);\n  transition: transform 0.5s ease-out;\n}

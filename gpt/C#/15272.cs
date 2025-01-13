@@ -1,1 +1,0 @@
-// Avoid this\n   var tempPath = Environment.GetEnvironmentVariable("TEMP");

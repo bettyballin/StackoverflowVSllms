@@ -1,1 +1,0 @@
-// In your index view file\necho $this->Paginator->paginate('Items');\nforeach ($items as $item) {\n    $currentPage = $this->Paginator->params()['page'];\n    echo $this->Html->link('Edit', ['controller' => 'Items', 'action' => 'edit', $item->id, 'page' => $currentPage]);\n}

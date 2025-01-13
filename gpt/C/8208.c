@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint main() {\n    for (int i = 0; i < 5; i++) {\n        printf("%d\n", i);\n    }\n    return 0;\n}

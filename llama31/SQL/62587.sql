@@ -1,0 +1,1 @@
+SELECT *\nINTO #backup_table\nFROM your_table\n\nUPDATE your_table\nSET column1 = 'new_value'\nWHERE condition = 'true'\n\n-- if you want to rollback the update\nTRUNCATE TABLE your_table\nINSERT INTO your_table\nSELECT * FROM #backup_table

@@ -1,0 +1,1 @@
+ALTER TABLE Product_Attribute\nADD COLUMN is_active BOOLEAN DEFAULT TRUE;

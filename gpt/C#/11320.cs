@@ -1,1 +1,0 @@
-var result = from record in db.Records\n                where SqlFunctions.DateDiff("day", record.Date, DateTime.Now) < 30\n                select record;

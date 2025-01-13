@@ -1,1 +1,0 @@
-mysql -u username -p -e "CREATE DATABASE database_name;"

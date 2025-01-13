@@ -1,1 +1,0 @@
-foreach ($portfolio->clientGroup[$id]->client as $client) {\n    if ($client['name'] == 'foo') {\n        foreach ($client->src as $src) {\n            echo $src . '<br />';\n        }\n    }\n}

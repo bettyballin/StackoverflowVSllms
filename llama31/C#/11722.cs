@@ -1,0 +1,1 @@
+var serverCert = new X509Certificate2("path/to/server/cert");\nvar secureStream = new SslStream(stream, true, null, null);\nsecureStream.AuthenticateAsServer(serverCert);

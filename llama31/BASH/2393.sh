@@ -1,0 +1,1 @@
+propel:convert-xml schema.xml schema.yml

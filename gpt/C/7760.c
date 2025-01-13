@@ -1,1 +1,0 @@
-short int * mallocStuff(long int number, short int base){\n        short int *array;\n        int size=1024;\n\n        array=(short int*)calloc(1,size);\n        return array;\n    }

@@ -1,1 +1,0 @@
-phpcs --standard=PSR12 /path/to/your/php/files

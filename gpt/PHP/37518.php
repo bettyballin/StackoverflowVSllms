@@ -1,1 +1,0 @@
-$utcTime = '2009-06-21 18:21:13'; // This would be fetched from your database\n$dateTime = new DateTime($utcTime, new DateTimeZone('UTC'));\n$dateTime->setTimezone(new DateTimeZone('Europe/Berlin')); // Assuming UTC+2 for Europe/Berlin\n$localTime = $dateTime->format('Y-m-d H:i:s');\n\necho $localTime;  // Outputs: 2009-06-21 20:21:13

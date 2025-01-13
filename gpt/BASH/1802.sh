@@ -1,1 +1,0 @@
-sudo cryptsetup luksAddKey /dev/sdX /root/keyfile

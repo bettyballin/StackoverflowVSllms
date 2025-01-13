@@ -1,0 +1,1 @@
+Dim pub = _Data.publications.FindOrCreate(e..Value)\n.publication = pub

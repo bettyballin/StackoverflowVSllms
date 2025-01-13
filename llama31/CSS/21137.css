@@ -1,0 +1,1 @@
+tr.inaccessible {\n  position: relative;\n}\n\ntr.inaccessible::after {\n  content: "";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(255, 255, 255, 0.5); /* adjust opacity to your liking */\n  z-index: 1;\n  pointer-events: none; /* allow clicks to pass through */\n}

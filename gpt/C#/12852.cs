@@ -1,1 +1,0 @@
-public ActionResult YourAction()\n{\n    ModelState.AddModelError("Name", "Please visit <a href='https://example.com'>this link</a> for more information.");\n    return View();\n}

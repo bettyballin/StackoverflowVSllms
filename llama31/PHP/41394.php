@@ -1,0 +1,1 @@
+<?php\nwhile (true) {\n    // Your code here\n    $pid = pcntl_fork();\n    if ($pid == -1) {\n        die("Could not fork");\n    } elseif ($pid) {\n        // Parent process, wait for child to finish\n        pcntl_wait($status);\n    } else {\n        // Child process, run your code\n        // Your code here\n        exit(0);\n    }\n    sleep(10);\n}

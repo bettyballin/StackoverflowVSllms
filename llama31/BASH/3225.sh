@@ -1,0 +1,1 @@
+cl /DEF:mydll.def /LD mydll.cpp\nlink client.obj mydll.lib

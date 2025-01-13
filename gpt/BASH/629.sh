@@ -1,1 +1,0 @@
-export LD_LIBRARY_PATH=/usr/local/python2.5/lib:$LD_LIBRARY_PATH

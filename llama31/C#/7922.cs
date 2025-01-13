@@ -1,0 +1,1 @@
+public class MyClass\n{\n    private string _myField;\n\n    public string MyField\n    {\n        get { return _myField; }\n        set { _myField = value; }\n    }\n}

@@ -1,0 +1,1 @@
+[STAThread]\nstatic void Main()\n{\n    Application.EnableVisualStyles();\n    Application.SetCompatibleTextRenderingDefault(false);\n\n    if ((Control.ModifierKeys & Keys.Shift) == Keys.Shift)\n    {\n        // Shift key is being held down, change workflow accordingly\n    }\n\n    Application.Run(new Form1());\n}

@@ -1,1 +1,0 @@
-<?php\n    $title = 'My Page Title';\n    include 'header.php';\n    ?>\n    <h1>Welcome to My Page</h1>\n    <p>This is the content of the page.</p>\n    <?php include 'footer.php'; ?>

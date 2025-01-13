@@ -1,1 +1,0 @@
-gdb my_program

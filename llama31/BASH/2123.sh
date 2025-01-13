@@ -1,0 +1,1 @@
+cp original_file.php new_file.php

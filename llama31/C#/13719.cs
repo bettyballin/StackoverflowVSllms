@@ -1,0 +1,1 @@
+using System.Net.Http;\nusing System.Threading.Tasks;\n\npublic async Task<bool> CheckImageExistsAsync(string imageUrl)\n{\n    using (var client = new HttpClient())\n    {\n        var response = await client.GetAsync(imageUrl);\n        return response.IsSuccessStatusCode;\n    }\n}

@@ -1,0 +1,1 @@
+words = "apple banana apple strawberry banana lemon"\nfreqs = {}\nfor word in words.split():\n    freqs[word] = freqs.get(word, 0) + 1\nprint(freqs)

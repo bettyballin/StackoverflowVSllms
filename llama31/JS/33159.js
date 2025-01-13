@@ -1,0 +1,1 @@
+import React from 'react';\nimport { AppRegistry, Text, View } from 'react-native';\n\nconst App = () => {\n  return (\n    <View>\n      <Text>Hello, World!</Text>\n    </View>\n  );\n};\n\nAppRegistry.registerComponent('App', () => App);

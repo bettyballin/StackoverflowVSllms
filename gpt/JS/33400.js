@@ -1,1 +1,0 @@
-function getHTTPObject() {\n    var xmlhttp;\n    if (window.XMLHttpRequest) {\n        xmlhttp = new XMLHttpRequest();\n    } else if (window.ActiveXObject) {\n        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");\n        if (!xmlhttp) {\n            xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");\n        }\n    }\n    return xmlhttp;\n}

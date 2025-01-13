@@ -1,1 +1,0 @@
-// Define the number of items\nvar numItems = 7;\nvar items = {};\n\n// Loop to create items\nfor (var x = 0; x < numItems; x++) {\n    items[x] = x + 1; // Assuming you want to use numbers 1 through 7\n}\n\n// Use jQuery to add classes to <li> elements\n$("li").each(function(index) {\n    if (index < numItems) {\n        $(this).addClass("items" + items[index]);\n    }\n});

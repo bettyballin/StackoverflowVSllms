@@ -1,0 +1,1 @@
+' Retrieve date from SQL Server and display in TextBox\ntxtDate.Text = RecordSet.Fields("Date").Value\ntxtDate.Text = Format(txtDate.Text, "dd/mm/yyyy")\n\n' Update date in SQL Server\nDim updateSql As String\nupdateSql = "UPDATE [Progress] SET [Date] = CONVERT(DATETIME, '" & Format(txtDate.Text, "yyyy-mm-dd") & "')"

@@ -1,1 +1,0 @@
-svn mkdir http://your-svn-server/path/to/repo/trunk -m "Creating trunk directory"\n   svn mkdir http://your-svn-server/path/to/repo/branches -m "Creating branches directory"\n   svn mkdir http://your-svn-server/path/to/repo/tags -m "Creating tags directory"

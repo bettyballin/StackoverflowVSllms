@@ -1,0 +1,1 @@
+Version.find(:all, \n             :joins => "JOIN editions ON versions.edition_id=editions.id JOIN products ON editions.product_id=products.id", \n             :select => ["products.name", "versions.name AS version_name"])

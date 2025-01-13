@@ -1,1 +1,0 @@
-sudo systemctl daemon-reload\nsudo systemctl start my_ruby_service\nsudo systemctl enable my_ruby_service

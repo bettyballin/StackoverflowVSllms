@@ -1,0 +1,1 @@
+import numpy as np\n\ndef ar_process(n, p, alpha):\n    x = np.zeros(n)\n    for i in range(p, n):\n        x[i] = alpha * x[i-1] + np.random.normal(0, 1)\n    return x

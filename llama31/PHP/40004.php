@@ -1,0 +1,1 @@
+$image_path = 'path/to/your/favicon.ico';\n$image_data = file_get_contents($image_path);\n$base64_encoded_image = base64_encode($image_data);\n\necho $base64_encoded_image;

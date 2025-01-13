@@ -1,0 +1,1 @@
+SqlCommand CodeStatus = new SqlCommand(SQL, DB);\nDB.Open();\nSqlDataAdapter da = new SqlDataAdapter(CodeStatus);\n\nDataSet ds = new DataSet();\nda.Fill(ds);\n\nFormView1.DataSource = ds;\nFormView1.DataBind();\n\nDB.Close();

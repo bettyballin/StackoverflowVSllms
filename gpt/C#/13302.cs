@@ -1,1 +1,0 @@
-using System;\nusing DtdLibrary;\n\nclass Program\n{\n    static void Main()\n    {\n        string dtd1 = DtdProvider.GetDtdContent("xhtml11-flat.dtd");\n        Console.WriteLine(dtd1);\n\n        string dtd2 = DtdProvider.GetDtdContent("xhtml11.dtd");\n        Console.WriteLine(dtd2);\n    }\n}

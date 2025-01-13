@@ -1,0 +1,1 @@
+SELECT\n  i."owner-name",\n  b1.name AS "book1-name",\n  b2.name AS "book2-name"\nFROM\n  id i\n  LEFT JOIN "book-name" b1 ON i."book-id1" = b1.id\n  LEFT JOIN "book-name" b2 ON i."book-id2" = b2.id;

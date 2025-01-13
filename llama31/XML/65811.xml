@@ -1,0 +1,1 @@
+<sessionState mode="Custom" customProvider="CustomSessionStateStoreProvider">\n  <providers>\n    <add name="CustomSessionStateStoreProvider" type="YourNamespace.CustomSessionStateStoreProvider" />\n  </providers>\n</sessionState>

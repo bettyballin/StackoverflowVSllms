@@ -1,1 +1,0 @@
-class Employee < ActiveResource::Base\n  self.site = "http://example.com"\nend

@@ -1,0 +1,1 @@
+# Create a new container with limited resources\ndocker run -d --name sandbox \\n  -v /path/to/sandbox/directory:/sandbox \\n  -u underprivileged_user \\n  --cpu-quota 10000 \\n  --memory 512m \\n  my_java_or_cpp_image

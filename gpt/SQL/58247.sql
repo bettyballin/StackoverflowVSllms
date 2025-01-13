@@ -1,1 +1,0 @@
-SELECT \n    employee_id, \n    shift_id, \n    IFNULL(TIMESTAMPDIFF(MINUTE, time_arrived, time_left), 0) AS minutes_worked \nFROM \n    Attendance;

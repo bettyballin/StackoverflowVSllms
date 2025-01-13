@@ -1,0 +1,1 @@
+public abstract class AbstractModel\n{\n    // abstract class implementation\n}\n\npublic interface IModel\n{\n    // interface implementation\n}\n\npublic class MyModel : AbstractModel, IModel\n{\n    // class implementation\n}

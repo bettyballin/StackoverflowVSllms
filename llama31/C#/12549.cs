@@ -1,0 +1,1 @@
+Label label = new Label();\nlabel.AutoSize = false;\nlabel.Height = 100;\nlabel.Width = 200;

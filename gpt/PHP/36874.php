@@ -1,1 +1,0 @@
-// Check if private messages are enabled for the user\nif ($user['options'] & $vbulletin->bf_misc_useroptions['enablepm']) {\n    // User has private messaging enabled\n} else {\n    // User has private messaging disabled\n}

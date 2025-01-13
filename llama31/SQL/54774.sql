@@ -1,0 +1,1 @@
+SELECT *\nFROM (B INNER JOIN C ON B.id = C.id)\nINNER JOIN A ON A.id = B.id

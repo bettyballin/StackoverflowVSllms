@@ -1,0 +1,1 @@
+curl -u $Masi -k /path/to/private/key sftp://host/folder

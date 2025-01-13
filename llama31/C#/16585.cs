@@ -1,0 +1,1 @@
+using (var myTableTableAdapter = new MyDataSetTableAdapters.MyTableTableAdapter())\n{\n    var myTableDataTable = new MyDataSet.MyTableDataTable();\n    myTableTableAdapter.Fill(myTableDataTable);\n    // Use the data\n}

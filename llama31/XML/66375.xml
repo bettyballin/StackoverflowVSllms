@@ -1,0 +1,1 @@
+<!-- Open the project file (.csproj or .vbproj) in a text editor -->\n<Project ToolsVersion="2.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">\n  <!-- Change the ToolsVersion to 3.5 -->\n  <Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">

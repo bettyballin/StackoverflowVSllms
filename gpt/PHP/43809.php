@@ -1,1 +1,0 @@
-/**\n    * Retrieves user data from the database.\n    *\n    * @param int $userId The ID of the user.\n    * @return array The user data.\n    */\n   function getUserData($userId) {\n       // Database query logic here\n   }

@@ -1,0 +1,1 @@
+Page.Validate("InsertGroup");\nif (Page.IsValid) {\n    // Insert button logic\n}

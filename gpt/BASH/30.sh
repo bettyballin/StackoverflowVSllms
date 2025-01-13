@@ -1,1 +1,0 @@
-#!/bin/bash\n\n   LOCAL_DIR="/path/to/local/code"\n   REMOTE_USER="your_username"\n   REMOTE_HOST="remote_host_address"\n   REMOTE_DIR="/path/to/remote/directory"\n\n   rsync -avz --delete $LOCAL_DIR $REMOTE_USER@$REMOTE_HOST:$REMOTE_DIR

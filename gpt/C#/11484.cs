@@ -1,1 +1,0 @@
-amespace DeveloperNamespace.Tom\n{\n    public class TomClass\n    {\n        public void DoSomething()\n        {\n            // Developer-specific logic\n        }\n    }\n}

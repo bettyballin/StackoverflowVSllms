@@ -1,0 +1,1 @@
+using (FileStream fs = new FileStream("xxx.pdf", FileMode.Create))\n{\n    // Generate PDF file...\n}

@@ -1,0 +1,1 @@
+if (!hypPopup.Attributes.ContainsKey("onclick"))\n{\n    hypPopup.Attributes.Add("onclick",\n        "window.open('Popup.aspx', '', 'height=650, width=800, location=no, toolbar=no, status=no, scrollbars=yes, resizable=yes'); return false");\n}

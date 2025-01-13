@@ -1,1 +1,0 @@
-<?php\n    xdebug_start_code_coverage();\n    // include the file(s) you want to test manually\n    include 'your_script.php';\n    \n    // your manual testing code goes here\n\n    $coverage = xdebug_get_code_coverage();\n    xdebug_stop_code_coverage();\n\n    file_put_contents('coverage.json', json_encode($coverage));\n    ?>

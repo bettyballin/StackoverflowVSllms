@@ -1,0 +1,1 @@
+typedef int (*MY_FUNC_PTR)(int, int); // Function pointer type\nMY_FUNC_PTR myFunc = (MY_FUNC_PTR)GetProcAddress(hDll, "myFunctionName");\nif (myFunc == NULL) {\n    // Handle error\n}

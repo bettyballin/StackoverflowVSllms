@@ -1,0 +1,1 @@
+// store HTML page in LocalStorage\nlocalStorage.setItem('index.html', document.documentElement.outerHTML);

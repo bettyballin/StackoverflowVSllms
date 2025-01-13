@@ -1,0 +1,1 @@
+UPDATE a\nSET TATCallType = '12',\n    TATCallUnit = '1'\nFROM auditdata a\nINNER JOIN Auditdata_sms_12 a_sns\n    ON a.ID = a_sns.id\nWHERE a.ID IN (\n    SELECT TOP 1000 id\n    FROM auditdata\n    WHERE TATCallType <> '12' OR TATCallUnit <> '1'\n)

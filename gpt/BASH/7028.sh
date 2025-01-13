@@ -1,1 +1,0 @@
-alias yum='/usr/bin/python2.4 /usr/bin/yum'

@@ -1,0 +1,1 @@
+g++ -fexceptions -o your_app your_app.cpp -lboost_system -lboost_filesystem

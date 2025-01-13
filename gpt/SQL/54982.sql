@@ -1,1 +1,0 @@
-ALTER TABLE YourTable\nADD YourNewColumn VARCHAR(3000);

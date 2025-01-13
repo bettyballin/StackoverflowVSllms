@@ -1,0 +1,1 @@
+ENUM('value1', 'value2', ...) [CHARACTER SET charset_name] [COLLATE collation_name]

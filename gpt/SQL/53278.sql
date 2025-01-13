@@ -1,1 +1,0 @@
-SELECT question, answer\nFROM faqs\nWHERE to_tsvector('english', question || ' ' || answer) @@ to_tsquery('how & to & bla & bla & bla');

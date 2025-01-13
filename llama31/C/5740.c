@@ -1,0 +1,1 @@
+int my_function ( char *p_in_string, char *p_out_string ) {\n    // ...\n    return status_code; // some integer status code\n}

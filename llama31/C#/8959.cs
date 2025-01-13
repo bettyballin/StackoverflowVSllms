@@ -1,0 +1,1 @@
+IWebProxy systemProxy = WebRequest.GetSystemWebProxy();\nif (systemProxy != null && systemProxy.UseDefaultCredentials)\n{\n    // Proxy authentication is required, use default credentials\n    systemProxy.Credentials = CredentialCache.DefaultCredentials;\n}

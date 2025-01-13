@@ -1,0 +1,1 @@
+// Using taskIndex to set the selected option by its index is less reliable since val() requires the value of the option, not its index.\n// Instead, directly set the selected value\ntaskList.val(result.TaskTypes[taskIndex].TaskId); // Assuming TaskId is the unique identifier for each optio

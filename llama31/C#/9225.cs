@@ -1,0 +1,1 @@
+catch (LocalizedException ex)\n{\n    Console.WriteLine(ex.LocalizedMessage);\n}

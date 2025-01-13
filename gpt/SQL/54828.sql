@@ -1,1 +1,0 @@
-CREATE TABLE ChangeLog (\n        id INT AUTO_INCREMENT PRIMARY KEY,\n        user_id INT NOT NULL,\n        action VARCHAR(50) NOT NULL,\n        table_name VARCHAR(50) NOT NULL,\n        record_id INT NOT NULL,\n        changes TEXT,\n        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n    );

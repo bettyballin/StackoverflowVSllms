@@ -1,0 +1,1 @@
+CREATE OR REPLACE TRIGGER my_trigger\nBEFORE UPDATE ON my_table\nFOR EACH ROW\nBEGIN\n    IF SYS_CONTEXT('USERENV', 'SESSION_USER') = 'APPLICATION' THEN\n        -- allow update\n    ELSE\n        -- raise oracle error\n        RAISE_APPLICATION_ERROR(-20001, 'Update not allowed');\n    END IF;\nEND;

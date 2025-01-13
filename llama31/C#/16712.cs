@@ -1,0 +1,1 @@
+// Entity Framework example: Table Per Hierarchy\npublic abstract class Employee {\n    // ...\n}\n\npublic class FullTimeEmployee : Employee {\n    // ...\n}\n\npublic class MyDbContext : DbContext {\n    public DbSet<Employee> Employees { get; set; }\n}

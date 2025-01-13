@@ -1,0 +1,1 @@
+include_path = ".;C:\xampp\htdocs\weMatch\library\;C:\xampp\htdocs\weMatch\application\;C:\path\to\open-flash-chart\lib"

@@ -1,1 +1,0 @@
-<?php\n// Capture POST data\n$data = $_POST;\n\n// Function to convert array to JSON\nfunction array2json($data) {\n    return json_encode($data);\n}\n\n// Print the JSON encoded data\necho array2json($data);\n?>

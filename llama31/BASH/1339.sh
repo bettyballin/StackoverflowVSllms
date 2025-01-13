@@ -1,0 +1,1 @@
+sshfs user123@linuxbox:/home/user123/documents C:\mnt\linux_docs

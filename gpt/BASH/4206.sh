@@ -1,1 +1,0 @@
-// Example of static linking in C\ngcc -o myprogram myprogram.c -lmystaticlib.a

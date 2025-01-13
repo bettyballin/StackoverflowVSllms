@@ -1,0 +1,1 @@
+// Establish WebSocket connection\nvar socket = new WebSocket('ws://your-server.com/forum-updates');\n\n// Handle incoming post updates\nsocket.onmessage = function(event) {\n    var post = JSON.parse(event.data);\n    // Update the UI with the new post\n};

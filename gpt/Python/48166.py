@@ -1,1 +1,0 @@
-from pympler import muppy, summary\n\n   all_objects = muppy.get_objects()\n   sum1 = summary.summarize(all_objects)\n   summary.print_(sum1)

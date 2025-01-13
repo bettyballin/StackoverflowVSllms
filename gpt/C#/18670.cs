@@ -1,1 +1,0 @@
-using (YourDataContext context = new YourDataContext())\n{\n    // Your code to insert records\n    // e.g., context.YourTable.InsertOnSubmit(newRecord);\n\n    context.SubmitChanges();\n    \n    int numberOfInserts = context.GetChangeSet().Inserts.Count;\n    Console.WriteLine($"Number of records inserted: {numberOfInserts}");\n}

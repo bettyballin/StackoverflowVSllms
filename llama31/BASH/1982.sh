@@ -1,0 +1,1 @@
+diskspd -c1G -d30 -w100 -b4k -o8 -t4 \\server\share

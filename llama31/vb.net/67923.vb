@@ -1,0 +1,1 @@
+Dim frm As New Form()\nDim handle As IntPtr = frm.Handle

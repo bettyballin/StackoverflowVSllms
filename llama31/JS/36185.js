@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  var $ul = $('ul');\n  var numItems = $ul.children('li').length;\n  if (numItems > 10) { // adjust the threshold as needed\n    $ul.addClass('multicol');\n  }\n});

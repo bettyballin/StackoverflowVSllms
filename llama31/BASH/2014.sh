@@ -1,0 +1,1 @@
+stsadm -o enumservices -ssp <new_ssp_title>

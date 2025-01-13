@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n    // Call awk\n    system("awk '{print $1}' input.txt > output.txt");\n\n    // Call sed\n    system("sed 's/old/new/g' input.txt > output.txt");\n\n    return 0;\n}

@@ -1,0 +1,1 @@
+private static void MyThreadMethod(object state)\n{\n    try\n    {\n        // Thread work\n    }\n    catch (Exception ex)\n    {\n        // Log the exception\n    }\n    finally\n    {\n        // Log thread exit\n    }\n}

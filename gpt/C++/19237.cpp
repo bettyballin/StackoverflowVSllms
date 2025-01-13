@@ -1,1 +1,0 @@
-InlineShapes shapes = doc.GetInlineShapes();\nInlineShape control = shapes.AddOLEObject(COleVariant("Equation.DSMT4"), vtOpt, vtFalse, vtFalse, vtOpt, vtOpt, vtOpt, vtOpt);

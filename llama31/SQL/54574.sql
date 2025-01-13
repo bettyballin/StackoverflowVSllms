@@ -1,0 +1,1 @@
+CREATE TABLE row_counts (\n  table_name VARCHAR(255),\n  row_count INT\n);

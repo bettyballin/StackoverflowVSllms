@@ -1,1 +1,0 @@
-var mockRepository = new Mock<IRepository>();\n    mockRepository.Setup(repo => repo.GetItem(It.IsAny<int>()))\n                  .Returns(new Item { Id = 1, Name = "Test Item" });\n\n    var service = new ItemService(mockRepository.Object);\n    var result = service.GetItem(1);\n\n    Assert.AreEqual("Test Item", result.Name);

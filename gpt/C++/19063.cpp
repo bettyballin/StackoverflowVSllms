@@ -1,1 +1,0 @@
-// DerivedClass.cpp\n#include "DerivedClass.h"\n\nclass DerivedClass : public BaseClass {\npublic:\n    void doSomething() override {\n        // Implementation\n    }\n};\n\nextern "C" BaseClass* createDerivedClass() {\n    return new DerivedClass();\n}

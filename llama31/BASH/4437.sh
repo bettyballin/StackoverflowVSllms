@@ -1,0 +1,1 @@
+rake test:profile FORMAT=tree

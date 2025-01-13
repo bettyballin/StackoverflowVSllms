@@ -1,0 +1,1 @@
+gvfs-cat smb://server/share/file.txt -o 1024 -l 4096

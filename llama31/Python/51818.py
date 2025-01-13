@@ -1,0 +1,1 @@
+def is_list(obj):\n    return isinstance(obj, list)\n\n# Test the function\nmy_list = [1, 2, 3]\nprint(is_list(my_list))  # Output: True\n\nmy_generic_list = list()\nprint(is_list(my_generic_list))  # Output: True

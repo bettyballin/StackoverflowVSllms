@@ -1,1 +1,0 @@
-CREATE TABLE example_table (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    event_datetime DATETIME\n);

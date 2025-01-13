@@ -1,1 +1,0 @@
-INSERT INTO EVENTTYPE (EventTypeName)\nSELECT 'ANI Received'\nWHERE NOT EXISTS (\n    SELECT 1 FROM EVENTTYPE WHERE EventTypeName = 'ANI Received'\n);

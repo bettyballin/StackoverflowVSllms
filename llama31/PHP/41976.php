@@ -1,0 +1,1 @@
+use GuzzleHttp\Client;\n\n$client = new Client();\n$response = $client->get('https://example.com/xml');\n$xml = $response->xml();

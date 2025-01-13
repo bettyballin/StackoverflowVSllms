@@ -1,0 +1,1 @@
+Public Class MainForm\n    Inherits BaseForm\n    ' Your form's code here\nEnd Class

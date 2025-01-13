@@ -1,0 +1,1 @@
+[DllImport("user32.dll")]\nprivate static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);\n\n// ...\n\nShowWindow(this.Handle, 2); // SW_MINIMIZE = 2

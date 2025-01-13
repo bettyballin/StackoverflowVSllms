@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\n// ...\n\nProcess process = new Process();\nprocess.StartInfo.FileName = "your_service.exe";\nprocess.StartInfo.Verb = "runas";\nprocess.Start();

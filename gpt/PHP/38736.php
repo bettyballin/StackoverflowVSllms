@@ -1,1 +1,0 @@
-<?php\nsession_start();\n// Assuming $user_id is retrieved from the database upon successful login\n$_SESSION['user_id'] = $user_id;\n?>

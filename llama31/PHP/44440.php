@@ -1,0 +1,1 @@
+$driver->wait(10)->until(\n    WebDriverExpectedCondition::visibilityOfElementLocated(WebDriverBy::id('inputId'))\n);

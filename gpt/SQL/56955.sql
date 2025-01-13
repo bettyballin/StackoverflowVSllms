@@ -1,1 +1,0 @@
-CREATE TABLE OriginalTable (\n       Column1 int,\n       Column2 varchar(255),\n       -- Define other columns\n   ) ON MyPartitionScheme(Column1);

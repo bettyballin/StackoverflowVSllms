@@ -1,1 +1,0 @@
-# If using a package manager like Composer (if available)\ncomposer require zendframework/zendframework1:1.8.*\n\n# Or replace the library files manually\ncp -r /path/to/zendframework-1.8/library/Zend /path/to/your/project/library/Zend

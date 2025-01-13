@@ -1,0 +1,1 @@
+user = User.new(name: "John", email: "invalid_email")\nif user.valid?\n  # do something\nelse\n  # handle errors\nend

@@ -1,0 +1,1 @@
+div.menu {\n  width: 550px;\n  position: relative;\n}\n\ndiv.menu div {\n  float: left;\n  width: 200px;\n}\n\ndiv.menu div.right {\n  position: absolute;\n  right: 0;\n  top: 0;\n  width: 200px;\n}

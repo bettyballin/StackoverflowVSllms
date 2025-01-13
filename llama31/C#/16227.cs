@@ -1,0 +1,1 @@
+// Entity Framework Core\nvar dbContext = new MyDbContext();\nvar users = dbContext.Users.Where(u => u.Name == userInput).ToList();\n\n// NHibernate\nvar session = SessionFactory.OpenSession();\nvar users = session.Query<User>().Where(u => u.Name == userInput).ToList();

@@ -1,1 +1,0 @@
-CREATE DATABASE LINK dblink_name\n   CONNECT TO remote_user IDENTIFIED BY remote_password\n   USING 'remote_tns_entry';

@@ -1,0 +1,1 @@
+template <class T>\nusing Bar = std::vector<std::vector<std::map<T, std::set<T>>>>;\n\ntemplate <class T>\nvoid fct(const Bar<T>& bar) {\n    // ...\n}

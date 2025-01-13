@@ -1,0 +1,1 @@
+$.fn.collapsible = function() {\n  var collapse;\n  var triggers = $(this).children('.collapse-trigger');\n  jQuery.each(triggers, function() {\n    var self = this;\n    $(this).click(function() {\n      collapse = $(self).parent().find('.collapse');\n      // use the collapse variable as needed\n    })\n  })\n}

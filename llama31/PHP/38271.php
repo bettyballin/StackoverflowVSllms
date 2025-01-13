@@ -1,0 +1,1 @@
+$myArray = array('apple', 'orange', 'grape');\n\n$stmt = $mysqli->prepare("INSERT INTO `Fruits` (`FruitName`) VALUES (?)");\n$stmt->bind_param("s", $fruit);\n\nforeach ($myArray as $arrayFruit) {\n    $fruit = $arrayFruit;\n    $stmt->execute();\n}\n\n$stmt->close();

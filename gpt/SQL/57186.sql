@@ -1,1 +1,0 @@
-SELECT \n    CAST(ADSI.description AS NVARCHAR(255)) AS Description\nFROM \n    OPENQUERY(ADSI, 'SELECT description FROM ''LDAP://yourdomain.com'' WHERE objectClass = ''user''')

@@ -1,0 +1,1 @@
+protected void LazyLoadUpdatePanel_Tick(object sender, EventArgs e)\n{\n    if (datasource == null)\n    {\n        System.Threading.Thread.Sleep(2000);\n        datasource = customer.Orders;\n        OrdersGridView.DataBind();\n        OrdersUpdatePanel.Update();\n    }\n    LazyLoadUpdatePanel.Enabled = false;\n}

@@ -1,0 +1,1 @@
+private AutoResetEvent _event = new AutoResetEvent(false);\n\npublic void WorkerThread()\n{\n    _event.WaitOne(); // wait for signal\n    Console.WriteLine("Worker thread signaled");\n}\n\npublic void MainThread()\n{\n    Console.WriteLine("Main thread signaling worker thread");\n    _event.Set(); // signal worker thread\n}

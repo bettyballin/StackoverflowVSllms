@@ -1,1 +1,0 @@
-.form-row {\n  display: flex;\n  align-items: center;\n  margin-bottom: 10px; /* Adjust as needed for spacing */\n}\n\n.form-row label {\n  margin-right: 10px; /* Adjust as needed for spacing */\n  white-space: nowrap;\n}\n\n.form-row input {\n  flex: 1;\n}

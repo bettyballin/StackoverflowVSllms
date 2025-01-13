@@ -1,1 +1,0 @@
-pmap -x <pid> | grep -v shared | awk '{ sum += $3 } END { print sum }'

@@ -1,0 +1,1 @@
+SELECT pg_relation_size('table_name');

@@ -1,0 +1,1 @@
+$_GET['isAdmin'] = 'true';\nextract($_GET);\nif ($isAdmin) {\n    // grant admin privileges\n}

@@ -1,1 +1,0 @@
-CREATE VIEW PetsView AS\nSELECT PetId, Name\nFROM Pets\nUNION\nSELECT PetId, Name\nFROM PetOtherNames\nORDER BY PetId, Name;

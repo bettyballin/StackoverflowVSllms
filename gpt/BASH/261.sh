@@ -1,1 +1,0 @@
-map -p 389,636 --open -sV <network_subnet>

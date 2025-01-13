@@ -1,0 +1,1 @@
+tar xvf mit-scheme-7.5.1.tar.gz\n   cd mit-scheme-7.5.1\n   ./configure --prefix=/usr/local/mit-scheme-7.5.1\n   make\n   sudo make install

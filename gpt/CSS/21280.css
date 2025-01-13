@@ -1,1 +1,0 @@
-/* styles.css */\n.accordion-section {\n    margin-bottom: 10px;\n}\n\n.accordion-header {\n    background-color: #007BFF;\n    color: white;\n    padding: 10px;\n    border: none;\n    text-align: left;\n    width: 100%;\n    cursor: pointer;\n}\n\n.accordion-content {\n    display: none;\n    padding: 10px;\n    background-color: #f1f1f1;\n}

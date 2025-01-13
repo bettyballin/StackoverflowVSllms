@@ -1,0 +1,1 @@
+sed 's/[^[:print:]]//g' input_file > output_file

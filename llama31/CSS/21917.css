@@ -1,0 +1,1 @@
+.app_setting {\n  pointer-events: none;\n}\n\n.app_setting > * {\n  pointer-events: auto;\n}\n\n.app_setting:hover {\n  cursor: move;\n}

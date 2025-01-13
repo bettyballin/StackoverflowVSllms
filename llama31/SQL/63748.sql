@@ -1,0 +1,1 @@
+SELECT \n  SUBSTRING(column_name, \n            LOCATE('keyword', column_name) - 100, \n            200) AS summary\nFROM table_name\nWHERE column_name LIKE '%keyword%';

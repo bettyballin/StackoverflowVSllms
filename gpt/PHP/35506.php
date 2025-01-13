@@ -1,1 +1,0 @@
-<?php\n\nclass A {\n    public $b;\n}\n\nfunction set_b($obj) { \n    $obj->b = "after"; \n}\n\n$a = new A();\n$a->b = "before";\n$c = clone $a; // This creates a copy of $a\n\nset_b($a);\n\nprint $a->b; // This will show 'after'\nprint $c->b; // This will show 'before'\n\n?>

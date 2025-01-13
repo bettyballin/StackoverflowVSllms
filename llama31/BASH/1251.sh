@@ -1,0 +1,1 @@
+curl -X POST -d "txn_id=123456789&payment_status=Completed&..." http://your-servlet-url.com/ip

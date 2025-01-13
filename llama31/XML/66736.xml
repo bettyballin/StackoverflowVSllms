@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <sessionState cookieName="ASPSESSIONID" cookieSecure="True" />\n  </system.web>\n</configuration>

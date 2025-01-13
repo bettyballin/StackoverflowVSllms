@@ -1,0 +1,1 @@
+<style>\n    #txtName {\n        position: absolute;\n        top: 100px;\n        left: 200px;\n    }\n</style>\n<asp:TextBox ID="txtName" runat="server" />

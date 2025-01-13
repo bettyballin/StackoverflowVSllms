@@ -1,1 +1,0 @@
-// routes/api.php (Laravel)\nuse Illuminate\Support\Facades\Route;\nuse App\Http\Controllers\ItemController;\n\nRoute::middleware('auth:api')->group(function () {\n    Route::get('/items/{id}', [ItemController::class, 'show']);\n    Route::post('/items', [ItemController::class, 'store']);\n});

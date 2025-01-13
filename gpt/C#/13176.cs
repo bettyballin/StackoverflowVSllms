@@ -1,1 +1,0 @@
-using (var context = GetNewContext())\n{\n    var t = context.ForumManager.GetThread(id);\n    t.Views = t.Views + 1;\n    context.SubmitChanges();\n}

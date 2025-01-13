@@ -1,1 +1,0 @@
--- Create an event notification for the queue activation\nCREATE EVENT NOTIFICATION NotifyEvent \n    ON QUEUE NotifyQueue \n    FOR QUEUE_ACTIVATION \n    TO SERVICE 'NotifyService', 'current database';

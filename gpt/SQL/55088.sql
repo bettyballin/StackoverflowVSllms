@@ -1,1 +1,0 @@
-CREATE TABLE worker (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(100),\n    worker_specific_field VARCHAR(100)\n);\n\nCREATE TABLE employer (\n    id SERIAL PRIMARY KEY,\n    name VARCHAR(100),\n    employer_specific_field VARCHAR(100)\n);

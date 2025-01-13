@@ -1,0 +1,1 @@
+// Install PHP UML via Composer\ncomposer require phpuml/phpuml\n\n// Run PHP UML on your codebase\nvendor/bin/phpuml -o output.xmi /path/to/your/code\n\n// Generate a class diagram from the XMI file\nvendor/bin/phpuml -c output.xmi -o class_diagram.png

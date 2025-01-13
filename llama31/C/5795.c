@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint main() {\n    int x = 0x12345678;\n    printf("%d\n", x);\n    return 0;\n}

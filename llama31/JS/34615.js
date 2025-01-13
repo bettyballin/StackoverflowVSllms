@@ -1,0 +1,1 @@
+var sortOrder = 'ASC';\n\nfunction sort() {\n    sortOrder = (sortOrder === 'ASC') ? 'DESC' : 'ASC';\n    $.ajax({\n        // ... (rest of your code remains the same)\n        data: {orderby: sortOrder},\n        // ...\n    });\n}

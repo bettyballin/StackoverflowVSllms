@@ -1,0 +1,1 @@
+-- Create the database link as the current user\nCREATE DATABASE LINK remote_db_link\nCONNECT TO remote_user\nIDENTIFIED BY remote_password\nUSING 'remote_db';\n\n-- Change the owner of the database link to anotheruser\nALTER DATABASE LINK remote_db_link OWNER TO anotheruser;

@@ -1,1 +1,0 @@
-sudo chown -R www-data:www-data /var/trac\nsudo chmod -R 755 /var/trac

@@ -1,1 +1,0 @@
-$canMerge = ($condition1 && $condition2) ? true : false;\n...\n<?php if ($canMerge) { ?>\n    Stuff\n<?php } ?>

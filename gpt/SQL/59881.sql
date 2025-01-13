@@ -1,1 +1,0 @@
-EXPLAIN PLAN FOR\nSELECT * FROM employees WHERE department_id = 10;\n\nSELECT * FROM table(DBMS_XPLAN.DISPLAY());

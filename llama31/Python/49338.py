@@ -1,0 +1,1 @@
+import pyPDF2\n\nwith open('input.pdf', 'rb') as f:\n    pdf_reader = pyPDF2.PdfFileReader(f)\n    pdf_reader.decrypt('your_password')\n\n    with open('output.pdf', 'wb') as f_out:\n        pdf_writer = pyPDF2.PdfFileWriter()\n        for page_num in range(pdf_reader.numPages):\n            pdf_writer.addPage(pdf_reader.getPage(page_num))\n        pdf_writer.write(f_out)

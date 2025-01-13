@@ -1,1 +1,0 @@
-public class CoreService : ICoreService\n{\n    public void Execute()\n    {\n        // Core functionality\n    }\n}

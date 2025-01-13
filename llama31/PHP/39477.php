@@ -1,0 +1,1 @@
+Router::connect('/*', array('controller' => 'files', 'action' => 'index'), array('pass' => array()));

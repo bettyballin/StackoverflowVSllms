@@ -1,1 +1,0 @@
-public interface IProductRepository\n{\n    IEnumerable<Product> GetAll();\n    Product GetById(int id);\n    void Add(Product product);\n    void Update(Product product);\n    void Delete(int id);\n}

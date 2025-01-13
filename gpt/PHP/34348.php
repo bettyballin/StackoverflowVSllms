@@ -1,1 +1,0 @@
-// application/views/scripts/index/index.phtml\n    echo $this->form;

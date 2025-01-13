@@ -1,0 +1,1 @@
+RegistryWatcher watcher = new RegistryWatcher("SOFTWARE\\MyCompany\\MyApp", "MyValue");\nwatcher.Start();

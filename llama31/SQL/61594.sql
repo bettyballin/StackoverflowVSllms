@@ -1,0 +1,1 @@
+CREATE OR REPLACE PROCEDURE my_procedure(p_array IN SYS.ODCIVARCHAR2LIST)\nAS\nBEGIN\n  FOR i IN 1..p_array.COUNT LOOP\n    DBMS_OUTPUT.PUT_LINE(p_array(i));\n  END LOOP;\nEND;\n/

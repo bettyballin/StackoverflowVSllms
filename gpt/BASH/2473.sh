@@ -1,1 +1,0 @@
-certutil -repairstore my "certificate_thumbprint"

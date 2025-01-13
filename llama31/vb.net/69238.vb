@@ -1,0 +1,1 @@
+Public Function Blah(Of T As String)(t As Type)\n    ' code here\nEnd Functio

@@ -1,0 +1,1 @@
+curl -X POST \\n  http://localhost:5984/_backup \\n  -H 'Content-Type: application/json' \\n  -d '{"source": {"db": "mydatabase", "username": "myuser", "password": "mypassword"}, "target": {"filename": "backup.tar.gz"}}'

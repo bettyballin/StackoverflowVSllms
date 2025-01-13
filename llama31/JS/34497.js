@@ -1,0 +1,1 @@
+// Example in JavaScript\nconst whitelist = ['https://example.com', 'https://banking.example.com'];\n\nfunction checkOrigin(origin) {\n  return whitelist.includes(origin);\n}\n\n// In the plugin code, check the origin before accessing the smartcard reader\nif (checkOrigin(document.location.origin)) {\n  // Access the smartcard reader\n} else {\n  // Block access\n}

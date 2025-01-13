@@ -1,0 +1,1 @@
+svn resolve --accept theirs-full

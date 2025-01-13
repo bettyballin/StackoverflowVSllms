@@ -1,0 +1,1 @@
+Ajaxifier ajaxifier = new Ajaxifier();\najaxifier.Ajaxify(ctlEditForm);

@@ -1,0 +1,1 @@
+var innerCollection = new List<int> { 10, 20, 30 };\nvar oneBasedCollection = new OneBasedCollection<int>(innerCollection);\n\nConsole.WriteLine(oneBasedCollection[1]); // prints 10\nConsole.WriteLine(oneBasedCollection[2]); // prints 20\nConsole.WriteLine(oneBasedCollection[3]); // prints 30

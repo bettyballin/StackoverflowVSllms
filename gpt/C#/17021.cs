@@ -1,1 +1,0 @@
-List<string> text = new List<string> { "one", "two", "three", "four", "five" };\nList<string> subList = text.GetRange(2, text.Count - 2); // Excluding the first 2 elements\n\nforeach (string item in subList)\n{\n    Console.WriteLine(item);\n}

@@ -1,0 +1,1 @@
+/* Override the default YUI Grids template 3 */\n.yui-t3 {\n  margin-left: 400px; /* override the default 300px */\n}\n\n.yui-t3 .yui-b {\n  width: 400px; /* override the default 300px */\n}

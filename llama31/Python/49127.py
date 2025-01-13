@@ -1,0 +1,1 @@
+import feedparser\n\nfeed_url = 'https://example.com/your-rss-feed.xml'\nfeed = feedparser.parse(feed_url)\n\nprint(feed.entries)  # prints a list of feed entries

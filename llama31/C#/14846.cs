@@ -1,0 +1,1 @@
+[AttributeUsage(AttributeTargets.Class, Inherited = true)]\npublic class Random : Attribute\n{ /* attribute logic here */ }\n\n[Random]\nclass Mother\n{ }\n\nclass Child : Mother\n{ }

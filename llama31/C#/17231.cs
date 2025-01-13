@@ -1,0 +1,1 @@
+using System.Windows;\n\n// Create an instance of your window\nvar window = new YourWindow();\n\n// Show the window as a dialog\nwindow.ShowDialog();

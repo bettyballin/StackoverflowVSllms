@@ -1,0 +1,1 @@
+HttpCookie cookie = new HttpCookie("MyCookie");\ncookie.Value = "SomeValue";\ncookie.Session = true;

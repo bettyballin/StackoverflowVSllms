@@ -1,1 +1,0 @@
-CREATE UNIQUE INDEX unique_serials ON stock_items(serial_number) WHERE serial_number IS NOT NULL;

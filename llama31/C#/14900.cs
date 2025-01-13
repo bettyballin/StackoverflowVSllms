@@ -1,0 +1,1 @@
+List<string> myList = new List<string> { "apple", "banana", "cherry", "date", "elderberry", "fig", "grape" };\nList<string> randomElements = myList.GetRandomElements(5);\n\nforeach (string element in randomElements)\n{\n    Console.WriteLine(element);\n}

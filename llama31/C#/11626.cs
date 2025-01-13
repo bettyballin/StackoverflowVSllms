@@ -1,0 +1,1 @@
+// Load a user-created level\nstring levelName = "my_level.txt";\nstring levelContent = device.ReadFile(userLevelsPath + "/" + levelName);

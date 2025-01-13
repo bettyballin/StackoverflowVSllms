@@ -1,1 +1,0 @@
-# Gemfile\ngem 'sinatra'\ngem 'activerecord', '~> 6.1'\ngem 'sinatra-activerecord'\ngem 'sqlite3' # or any other database adapter you prefer

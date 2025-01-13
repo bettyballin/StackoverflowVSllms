@@ -1,0 +1,1 @@
+CREATE TABLE Products (\n    ProductGuid UNIQUEIDENTIFIER PRIMARY KEY CLUSTERED,\n    ProductId INT IDENTITY(1,1) NOT NULL,\n    ProductName VARCHAR(50) NOT NULL,\n    ...\n);\n\nCREATE NONCLUSTERED INDEX IX_Products_ProductId ON Products (ProductId);

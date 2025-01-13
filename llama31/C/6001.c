@@ -1,0 +1,1 @@
+int bytes_read = read(client_socket, buffer, buffer_size);\nif (bytes_read == 0) {\n    // Client has disconnected\n}

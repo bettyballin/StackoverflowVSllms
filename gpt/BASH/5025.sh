@@ -1,1 +1,0 @@
-# Set the ACL to grant 'blase' rw access to /tmp/secret\nsetfacl -m u:blase:rw /tmp/secret\n\n# Check the ACLs of /tmp/secret\ngetfacl /tmp/secret

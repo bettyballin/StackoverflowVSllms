@@ -1,0 +1,1 @@
+msbuild /p:Configuration=Release /p:DeployOnBuild=true MyProject.vbproj

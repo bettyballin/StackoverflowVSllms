@@ -1,0 +1,1 @@
+$conn = oci_connect('username', 'password', 'host:port/service_name');\nif (!$conn) {\n    $e = oci_error();\n    print "Error occurred: " . $e['message'];\n    exit;\n}\noci_close($conn);

@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\nusing System.Text;\n\nclass Program\n{\n    static void Main()\n    {\n        string path = "yourfile.txt";\n        using (StreamReader reader = new StreamReader(path, Encoding.Default))\n        {\n            string content = reader.ReadToEnd();\n            Console.WriteLine(content);\n        }\n    }\n}

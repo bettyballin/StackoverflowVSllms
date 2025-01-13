@@ -1,1 +1,0 @@
-// Generate a CSRF token\n   if (empty($_SESSION['csrf_token'])) {\n       $_SESSION['csrf_token'] = bin2hex(random_bytes(32));\n   }\n\n   // Validate the CSRF token\n   if (hash_equals($_SESSION['csrf_token'], $_POST['csrf_token'])) {\n       // Proceed with the request\n   } else {\n       // Invalid token, reject the request\n   }

@@ -1,0 +1,1 @@
+var list = new List<string>();\nfor (int i = 0; i < 10; i++)\n{\n    list.Add($"String {i}");\n}

@@ -1,0 +1,1 @@
+using AngleSharp;\n\nvoid main() {\n    string html = "<html><body>Hello, World!</body></html>";\n    var parser = new HtmlParser();\n    var document = parser.Parse(html);\n\n    // Do something with the parsed HTML...\n}

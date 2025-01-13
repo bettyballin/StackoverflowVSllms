@@ -1,0 +1,1 @@
+SELECT u.id AS creator, [name]\nFROM asset a\nCROSS APPLY dbo.get_user(a.created_by) u

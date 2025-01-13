@@ -1,0 +1,1 @@
+SELECT value\nFROM your_table\nUNION ALL\nSELECT 'default_value'  -- replace with your desired default value\nWHERE NOT EXISTS (SELECT 1 FROM your_table);

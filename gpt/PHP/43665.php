@@ -1,1 +1,0 @@
-<?php\n$array = array('foo' => 'bar', 'baz' => 'qux');\n$jsonData = json_encode($array);\necho $jsonData; // Output: {"foo":"bar","baz":"qux"}\n?>

@@ -1,1 +1,0 @@
-java -jar retroweaver.jar -d out out

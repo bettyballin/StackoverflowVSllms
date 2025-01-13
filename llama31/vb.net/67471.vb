@@ -1,0 +1,1 @@
+Public Function CalculateArea(length As Integer, width As Integer) As Integer\n    Return length * width\nEnd Function\n\nPublic Function CalculateArea(radius As Double) As Double\n    Return Math.PI * radius ^ 2\nEnd Functio

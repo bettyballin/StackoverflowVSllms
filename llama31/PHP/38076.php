@@ -1,0 +1,1 @@
+$data['x'] = $this->x->getResults();     \n$data['y'] = array();\n\nforeach ($data['x'] as $key => $row) {\n    $data['y'][$key] = clone $row;\n}

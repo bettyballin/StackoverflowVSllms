@@ -1,0 +1,1 @@
+import pkgutil\n\nmodules = set(["sys", "os", "jinja"])\n\nfor module in modules:\n    if pkgutil.find_loader(module) is not None:\n        print(f"Module {module} is installed")\n    else:\n        print(f"Module {module} is not installed")

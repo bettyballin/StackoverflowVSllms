@@ -1,1 +1,0 @@
-[HttpPost]\npublic JsonResult Delete(int id)\n{\n    try\n    {\n        // Perform delete operation\n        // For example: _yourService.DeleteItem(id);\n\n        return Json(new { success = true });\n    }\n    catch (Exception ex)\n    {\n        // Log the error\n        return Json(new { success = false, message = ex.Message });\n    }\n}

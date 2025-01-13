@@ -1,1 +1,0 @@
-private static string TestTwo(string RawData)\n  {\n      for (int i = 0; i < mc.Count; i++)\n      {\n          int days = Convert.ToInt32(FindNumber().Match(FindDays().Match(mc[i].Value).Value).Value);\n      }\n      return RawData;\n  }

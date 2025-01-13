@@ -1,0 +1,1 @@
+using Microsoft.VisualBasic.FileIO;\n\nusing (TextFieldParser parser = new TextFieldParser("example.csv"))\n{\n    parser.SetDelimiters(",");\n\n    while (!parser.EndOfData)\n    {\n        string[] fields = parser.ReadFields();\n        foreach (string field in fields)\n        {\n            Console.WriteLine(field);\n        }\n    }\n}

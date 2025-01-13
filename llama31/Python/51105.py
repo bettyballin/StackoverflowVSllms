@@ -1,0 +1,1 @@
+class F:\n    def __init__(self):\n        self.thing = None\n\n    def __call__(self, x):\n        self.thing = "hello!"\n        return x + 3\n\nf = F()\nprint(f.thing)  # This will print None\nf(5)\nprint(f.thing)  # This will print "hello!"

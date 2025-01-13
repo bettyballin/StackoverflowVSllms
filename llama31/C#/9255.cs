@@ -1,0 +1,1 @@
+Uri uri;\nif (!Uri.TryCreate(context.Request["url"], UriKind.Absolute, out uri))\n{\n    // Handle invalid URL\n}

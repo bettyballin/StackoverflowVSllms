@@ -1,1 +1,0 @@
-<?php\n$offer1calcsavings = 24.99;\n$offer2calcsavings = 20.00;\n$offer3calcsavings = 21.95;\n$offer4calcsavings = 23.95;\n$offer5calcsavings = 19.95;\n$offer6calcsavings = 23.97;\n$offer7calcsavings = 24.99;\n?>

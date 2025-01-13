@@ -1,0 +1,1 @@
+public string GetData()\n{\n    WebOperationContext.Current.OutgoingResponse.ContentType = "application/json";\n    return "{\"name\":\"John\",\"age\":30}";\n}

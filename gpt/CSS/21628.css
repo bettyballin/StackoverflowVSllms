@@ -1,1 +1,0 @@
-.container {\n  width: 200px;\n  height: 200px;\n  display: flex;\n  justify-content: center; /* Centers horizontally */\n  align-items: center;    /* Centers vertically */\n  border: 1px solid #000; /* Optional: for visualization purposes */\n}\n\n.centered-image {\n  width: 50px;\n  height: 50px;\n}

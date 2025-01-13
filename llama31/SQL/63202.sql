@@ -1,0 +1,1 @@
+SELECT name FROM sys.servers WHERE is_linked = 0;

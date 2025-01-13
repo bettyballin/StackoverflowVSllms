@@ -1,1 +1,0 @@
-#include "ClassB.h" // Only if you need the full definitio

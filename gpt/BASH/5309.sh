@@ -1,1 +1,0 @@
-sudo systemctl enable xfs\n   sudo systemctl start xfs

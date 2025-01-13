@@ -1,0 +1,1 @@
+$div.hide();\n\n$('button').click(function(){\n  $div.toggle();\n});

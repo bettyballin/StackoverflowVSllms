@@ -1,1 +1,0 @@
-using (var context = new YourDataContext())\n{\n    IQueryable<YourEntity> query = context.YourEntities.Where(e => e.SomeProperty == someValue);\n\n    // This will return the SQL query as a string\n    string sqlQuery = query.ToString();\n\n    Console.WriteLine(sqlQuery);\n}

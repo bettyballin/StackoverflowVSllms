@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\n-- Attempt to create the table\nCREATE TABLE TestTable (\n    ID INT PRIMARY KEY,\n    Name VARCHAR(100)\n);\n\n-- Rollback the transaction to avoid creating the table\nROLLBACK;

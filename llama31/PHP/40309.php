@@ -1,0 +1,1 @@
+$expire = time() + 1209600; // 2 weeks\nsetcookie('your_cookie_name', 'your_cookie_value', $expire, '/');

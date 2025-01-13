@@ -1,1 +1,0 @@
-sqlldr userid=username/password@hostname:port/sid control=load.ctl

@@ -1,1 +1,0 @@
-protected override void OnModelCreating(ModelBuilder modelBuilder)\n    {\n        modelBuilder.Entity<MyEntity>()\n            .ToTable("OldTableName")\n            .Property(e => e.NewColumnName)\n            .HasColumnName("OldColumnName");\n    }

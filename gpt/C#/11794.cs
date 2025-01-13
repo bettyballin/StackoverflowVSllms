@@ -1,1 +1,0 @@
-public class TerminalMap : ClassMap<Terminal> {\n    public TerminalMap() {\n        Table("TERMINALS");\n\n        Id(x => x.Id, "TERMINAL_ID").GeneratedBy.Identity();\n        Map(x => x.Name);\n    }\n}

@@ -1,1 +1,0 @@
-chmod +x set_java_home.sh

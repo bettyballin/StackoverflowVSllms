@@ -1,0 +1,1 @@
+import datetime\nimport inspect\n\n# Method 1: Using the __file__ attribute\nprint(datetime.__file__)\n\n# Method 2: Using the inspect module\nprint(inspect.getfile(datetime))

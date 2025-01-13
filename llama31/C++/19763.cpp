@@ -1,0 +1,1 @@
+class ITest {\npublic:\n    virtual void doSomething() = 0;\n\nprotected:\n    virtual ~ITest() {}\n};

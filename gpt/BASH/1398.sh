@@ -1,1 +1,0 @@
-$path = "C:\Path\To\Your\Project"\n    Get-ChildItem -Path $path -Recurse -Filter *.vb | ForEach-Object {\n        (Get-Content $_.FullName) -notmatch "' UPGRADE_WARNING:.*$" | Set-Content $_.FullName\n    }

@@ -1,1 +1,0 @@
-a2enmod rewrite\n    service apache2 restart

@@ -1,1 +1,0 @@
-<configuration>\n  <system.web>\n    <trust level="Full" />\n    <!-- Other configuration settings -->\n  </system.web>\n</configuration>

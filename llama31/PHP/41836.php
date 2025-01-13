@@ -1,0 +1,1 @@
+$referrerUrl = $_SERVER['HTTP_REFERER'];

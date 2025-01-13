@@ -1,1 +1,0 @@
-// Example code to call the WCF service from Silverlight\nMyServiceClient client = new MyServiceClient();\nclient.GetDataCompleted += (s, e) =>\n{\n    if (e.Error == null)\n    {\n        List<string> data = e.Result;\n        // Do something with the data\n    }\n    else\n    {\n        // Handle the error\n    }\n};\nclient.GetDataAsync();

@@ -1,0 +1,1 @@
+public class WebpagePreview : Control\n{\n    public string Url { get; set; }\n\n    protected override void OnMouseEnter(MouseEventArgs e)\n    {\n        base.OnMouseEnter(e);\n        PreviewBrowser.Source = new Uri(Url);\n    }\n}

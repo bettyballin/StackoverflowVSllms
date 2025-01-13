@@ -1,1 +1,0 @@
-extension_dir = "F:\PHP\ext"

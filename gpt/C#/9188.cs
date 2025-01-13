@@ -1,1 +1,0 @@
-[System.Web.Services.WebMethod]\npublic static void SaveUserDetails(UserDetails userDetails)\n{\n    // Your code to save user details\n}

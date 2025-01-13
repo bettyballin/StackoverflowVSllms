@@ -1,0 +1,1 @@
+#include <stdint.h>\n\nvolatile uint32_t shared_variable;\n\nvoid cpu1_write() {\n    shared_variable = 0x12345678;\n}\n\nvoid cpu2_write() {\n    shared_variable = 0x87654321;\n}

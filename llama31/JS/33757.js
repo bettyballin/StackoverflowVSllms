@@ -1,0 +1,1 @@
+function handleResponse(response) {\n  var json = response.responseText.evalJSON();\n  if (json.success) {\n    // Update the recipe div with the new content\n    $('recipe').update(json.message);\n  } else {\n    // Update the status div with the error message\n    $('recipe-status').update(json.message);\n  }\n}

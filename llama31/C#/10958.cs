@@ -1,0 +1,1 @@
+var yourPart = container.GetExportedValue<YourPart>();

@@ -1,1 +1,0 @@
-<?php\n    include_once('config.inc.php');\n    include_once('lib/common.php');\n    \n    // Now you can call functions from common.php\n    someFunction();\n    ?>

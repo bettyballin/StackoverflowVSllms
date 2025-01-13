@@ -1,0 +1,1 @@
+$db = new ezSQL_mysql('localhost', 'username', 'password', 'database', 'utf8');

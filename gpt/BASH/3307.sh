@@ -1,1 +1,0 @@
-# Navigate to the directory containing the problematic files\ncd path/to/parent-directory\n\n# Set the svn:ignore property to ignore files with specific patterns\nsvn propset svn:ignore "*.filenamepattern" .

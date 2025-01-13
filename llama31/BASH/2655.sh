@@ -1,0 +1,1 @@
+sudo rm /root/.ssh/authorized_keys\nsudo ssh-keygen -t rsa -b 2048

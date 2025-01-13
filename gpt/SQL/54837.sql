@@ -1,1 +1,0 @@
-CREATE TABLE events (\n    event_id NUMBER PRIMARY KEY,\n    event_timestamp TIMESTAMP\n);

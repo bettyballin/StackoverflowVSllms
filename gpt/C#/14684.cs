@@ -1,1 +1,0 @@
-var extensions = new HashSet<string> { ".log", ".txt", ".dat" };\nvar files = Directory.EnumerateFiles(@"C:\path", "*.*", SearchOption.AllDirectories)\n    .Where(file => extensions.Contains(Path.GetExtension(file).ToLower()));

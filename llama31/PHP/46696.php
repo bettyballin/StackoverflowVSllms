@@ -1,0 +1,1 @@
+$this->Question->unbindModel(array('hasMany' => array('Answer')));\n$questions = $this->Question->find('all');

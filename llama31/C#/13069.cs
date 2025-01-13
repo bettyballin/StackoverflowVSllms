@@ -1,0 +1,1 @@
+using (var dbContext = new YourDbContext())\n{\n    var posts = dbContext.Posts\n        .Include(p => p.User)\n        .Include(p => p.Photos)\n        .Where(p => p.LocationName == "SomeLocation" && p.Title.Contains("SomeTitle"))\n        .OrderByDescending(p => p.CreatedDate)\n        .Take(10)\n        .ToList();\n}

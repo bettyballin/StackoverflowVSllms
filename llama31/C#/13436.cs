@@ -1,0 +1,1 @@
+var hits = db.Hits\n    .Where(h => h.Date >= DateTime.Parse("2009-01-14") && h.Date < DateTime.Parse("2009-01-15"))\n    .GroupBy(h => h.Page)\n    .OrderByDescending(g => g.Count())\n    .Take(10)\n    .Select(g => new { Page = g.Key, Number = g.Count() });

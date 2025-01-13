@@ -1,0 +1,1 @@
+using (var scope = new TransactionScope())\n{\n    var txFileManager = new TxFileManager(Transaction.Current);\n    txFileManager.WriteFile("example.txt", Encoding.UTF8.GetBytes("Hello, world!"));\n    scope.Complete();\n}

@@ -1,0 +1,1 @@
+var customDataObject = new { Name = "John", Age = 30 };\nvar template = @"\n<html>\n    <body>\n        <h1>Hello, @Model.Name!</h1>\n        <p>You are @Model.Age years old.</p>\n    </body>\n</html>";\n\nHtmlGenerator.GenerateHtml("output.html", template, customDataObject);

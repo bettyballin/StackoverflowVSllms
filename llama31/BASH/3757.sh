@@ -1,0 +1,1 @@
+find /source/dir -type f -exec ln -s {} /dest/dir/{} \;

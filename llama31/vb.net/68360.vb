@@ -1,0 +1,1 @@
+Sub Application_Start()\n    ' ...\n    ViewEngines.Engines.Add(New StronglyTypedVbViewEngine())\n    ' ...\nEnd Sub

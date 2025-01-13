@@ -1,0 +1,1 @@
+function loadModel($model_name, $var_name)\n{\n    // blah blah blah\n    $obj = new $class_name();\n    $this->{$var_name} = $obj; // Use curly braces to ensure correct scope\n}

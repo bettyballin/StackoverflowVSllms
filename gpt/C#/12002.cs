@@ -1,1 +1,0 @@
-int myInt = 5;\n\nint a = myInt++;   // a is assigned 5, then myInt is incremented to 6\nint b = ++myInt;   // myInt is incremented to 7, then b is assigned 7

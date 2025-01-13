@@ -1,1 +1,0 @@
-DELETE FROM cart_items\n     WHERE cart_id = ? AND item_id = ?;

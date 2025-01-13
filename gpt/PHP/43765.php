@@ -1,1 +1,0 @@
-// Add this line to your wp-config.php file\ndefine('DISALLOW_FILE_EDIT', true);

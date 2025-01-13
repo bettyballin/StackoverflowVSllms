@@ -1,0 +1,1 @@
+#using "C:\\MyCSharpAssembly.dll";\n\n__declspec(dllexport) void callMangagedCode() {\n    try {\n        Assembly^ assembly = Assembly::LoadFrom("MyCSharpAssembly.dll");\n        ManagedObject ^o = assembly->CreateInstance("MyCSharpNamespace.ManagedObject");\n    } catch (Exception^ ex) {\n        // Handle the exception\n    }\n}

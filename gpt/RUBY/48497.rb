@@ -1,1 +1,0 @@
-def current_week\n  render :update do |page|\n    page["Week_div"].replace_html session[:next_week].to_s\n\n    for i in 0..23 do\n      for j in 0..6 do\n        page["calendar_td_#{i}_#{j}"].replace_html 'Available'\n        page["calendar_td_#{i}_#{j}"].set_class_name('available')\n      end\n    end\n  end\nend

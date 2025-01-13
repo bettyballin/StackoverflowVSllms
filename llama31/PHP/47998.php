@@ -1,0 +1,1 @@
+function is_host_alive($host, $port = 80, $timeout = 3) {\n    $sock = @fsockopen($host, $port, $errno, $errstr, $timeout);\n    if ($sock) {\n        fclose($sock);\n        return true;\n    }\n    return false;\n}\n\n$host = 'example.com';\nif (is_host_alive($host)) {\n    echo "$host is alive\n";\n} else {\n    echo "$host is not alive\n";\n}

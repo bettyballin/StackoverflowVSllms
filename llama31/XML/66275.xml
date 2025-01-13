@@ -1,0 +1,1 @@
+// phpUnderControl configuration (config.xml)\n<phpuc>\n  <buildTool>Phing</buildTool>\n  <buildFile>build.xml</buildFile>\n  <cruiseControlUrl>http://cruisecontrol.example.com</cruiseControlUrl>\n  <projectName>My Project</projectName>\n</phpuc>

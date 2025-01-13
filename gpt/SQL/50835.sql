@@ -1,1 +1,0 @@
-SELECT column_name, data_type, data_length, data_precision, data_scale\n    FROM all_tab_columns\n    WHERE table_name IN ('CRAZYTABLE', 'SANETABLE')\n    AND column_name = 'VER_NUM';

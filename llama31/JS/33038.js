@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\nxhr.open("GET", "/cgi-bin/your_program.cgi?variable=" + yourVariable, true);\nxhr.send();

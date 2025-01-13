@@ -1,1 +1,0 @@
-UPDATE Users\nSET fullname = dbo.properCase(fullname);

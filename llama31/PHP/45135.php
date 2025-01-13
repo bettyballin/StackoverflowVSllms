@@ -1,0 +1,1 @@
+$v8 = new V8Js();\n$v8->hello = function($name) { print("Hello, $name!"); };\n$v8->executeString('hello("Rolf")');

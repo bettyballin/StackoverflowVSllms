@@ -1,0 +1,1 @@
+WITH DistinctStatus AS (\n  SELECT DISTINCT Status\n  FROM [MyTable] WITH (NOLOCK)\n  WHERE MemberType = 6\n)\nSELECT COUNT(*) FROM DistinctStatus;

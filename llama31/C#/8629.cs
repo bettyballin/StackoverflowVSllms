@@ -1,0 +1,1 @@
+void GetFoo(int[] buffer);

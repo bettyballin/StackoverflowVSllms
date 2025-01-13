@@ -1,0 +1,1 @@
+SELECT *\nFROM Customers\nJOIN Sales ON Customers.CustomerID = Sales.CustomerID\nJOIN Units ON Sales.UnitID = Units.UnitID\n-- ... other joins ...\nOPTION (QUERYTRACEON 9481);

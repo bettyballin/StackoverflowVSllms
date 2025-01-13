@@ -1,0 +1,1 @@
+if (theMap.find(std::string(symbolName)) == theMap.end()) {\n    TheObject theObject(symbolName);\n    theMap.insert(std::make_pair(std::string(symbolName), theObject));\n}

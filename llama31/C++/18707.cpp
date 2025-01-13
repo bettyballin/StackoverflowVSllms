@@ -1,0 +1,1 @@
+for ( i = 0; i < initialWildebeest; i++) {\n    while (!placed) {\n        int x = 1 + (rand() % 20);\n        int y = 1 + (rand() % 20);\n\n        if (!(w.getAt(x, y))){\n            Wildebeest fred(&w, x, y); // Temporary object created here\n            placed = 1;\n        }\n    }\n    placed = 0;\n}

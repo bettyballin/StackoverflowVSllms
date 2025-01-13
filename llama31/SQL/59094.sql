@@ -1,0 +1,1 @@
+CREATE TABLE mytable (\n  id INT PRIMARY KEY AUTO_INCREMENT,\n  -- other columns...\n);

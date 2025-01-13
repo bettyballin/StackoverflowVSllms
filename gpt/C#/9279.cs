@@ -1,1 +1,0 @@
-// Example of hashing a password using BCrypt\nstring hashedPassword = BCrypt.Net.BCrypt.HashPassword(password);

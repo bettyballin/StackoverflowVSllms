@@ -1,0 +1,1 @@
+if (xml.error != undefined) {\n    trace("Error: " + xml.error);\n}

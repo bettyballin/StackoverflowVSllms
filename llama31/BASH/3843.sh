@@ -1,0 +1,1 @@
+jpegtran -copy none input.jpg output.jpg

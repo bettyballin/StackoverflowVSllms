@@ -1,0 +1,1 @@
+keytool -import -v -trustcacerts -alias <alias> -file repository.crt -keystore %JAVA_HOME%/jre/lib/security/cacerts -storepass changeit -disablehostnameverificatio

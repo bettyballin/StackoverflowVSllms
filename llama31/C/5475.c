@@ -1,0 +1,1 @@
+#include <openssl/aes.h>\n\n// Generate a random license key\nunsigned char licenseKey[16];\nRAND_bytes(licenseKey, 16);\n\n// Encrypt the license key\nAES_KEY secretKey;\nAES_set_encrypt_key(secretKey, 128);\nunsigned char encryptedLicenseKey[16];\nAES_encrypt(licenseKey, encryptedLicenseKey, &secretKey);

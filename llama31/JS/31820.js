@@ -1,0 +1,1 @@
+function closePanels() {\n    $("#servicesPanel, #portfolioPanel, #contactPanel, #aboutPanel").hide("fast");\n}

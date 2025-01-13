@@ -1,0 +1,1 @@
+using OpenOPCUA;\n\n// Create a client instance\nvar client = new Opc.Ua.Client.UaTcpSessionClient("opc.tcp://localhost:102");\n\n// Connect to the server\nclient.Connect();\n\n// Read a node's value\nvar node = client.GetNode("ns=2;i=1");\nvar value = node.Attributes.Value;\n\n// Disconnect from the server\nclient.Disconnect();

@@ -1,0 +1,1 @@
+#include <linux/module.h>\n#include <linux/sched/signal.h>\n\n// ...\n\npid_t pid = 1234; // Replace with the desired PID\nstruct task_struct *task = find_task_by_pid_ns(pid, &init_pid_ns);\n\nif (task) {\n    // You now have a pointer to the process descriptor\n    printk(KERN_INFO "Found task with PID %d\n", task->pid);\n} else {\n    printk(KERN_INFO "Task not found\n");\n}

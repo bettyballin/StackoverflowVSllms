@@ -1,1 +1,0 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="GetData.aspx.cs" Inherits="GetData" %>\n\n<%@ Import Namespace="System" %>\n\n<%\n    Response.ContentType = "text/plain";\n    Response.Write("This is a Test!");\n%>

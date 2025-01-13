@@ -1,1 +1,0 @@
-ffmpeg -i input.ima4 -codec:a libmp3lame -qscale:a 2 output.mp3

@@ -1,0 +1,1 @@
+public function testMethodWithOptionalParam() {\n    $object = new MyClass();\n    $result = $object->method('requiredParam');\n    $this->assertEquals('expected result', $result);\n\n    $result = $object->method('requiredParam', 'optionalParam');\n    $this->assertEquals('expected result with optional param', $result);\n}

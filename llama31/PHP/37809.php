@@ -1,0 +1,1 @@
+function DetectPrefix($filePath, $prefix) {\n    $files = glob($filePath . '/' . $prefix . '*');\n    $files = array_map('basename', $files);\n    return !empty($files) ? $files : null;\n}

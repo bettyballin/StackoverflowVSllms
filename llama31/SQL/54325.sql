@@ -1,0 +1,1 @@
+DECLARE\n    TYPE array_type IS TABLE OF your_table%ROWTYPE;\n    v_array array_type;\nBEGIN\n    SELECT * BULK COLLECT INTO v_array FROM another_table;\n    FORALL i IN v_array.FIRST..v_array.LAST\n        INSERT INTO your_table (column1, column2) VALUES (v_array(i).column1, v_array(i).column2);\n    COMMIT;\nEND;

@@ -1,1 +1,0 @@
-$.ajax({\n  url: 'your-url-here',\n  dataType: 'html',\n  success: function(response) {\n    // Insert the HTML into the DOM\n    $('#your-container').html(response);\n\n    // Load and execute the scripts separately\n    $('#your-container script').each(function() {\n      $.getScript($(this).attr('src'));\n    });\n  }\n});

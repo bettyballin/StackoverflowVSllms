@@ -1,0 +1,1 @@
+mysqldump -u [username] -p[password] [database_name] > backup.sql\nrsync -avz -e ssh backup.sql user@localhost:/path/to/backup/folder

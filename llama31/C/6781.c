@@ -1,0 +1,1 @@
+inline unsigned char _bittestandset(unsigned long * a, unsigned long b)\n{\n    __asm__ ( "bts %[a], %1"\n          : "=g"(*a)\n          : [a]"g"(*a), "Ir"(b)\n          : "memory" );\n    return 0;\n}

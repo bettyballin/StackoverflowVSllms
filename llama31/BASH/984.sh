@@ -1,0 +1,1 @@
+# Use GPG to encrypt a file\ngpg -c --armor example.txt

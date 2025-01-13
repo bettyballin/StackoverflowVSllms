@@ -1,0 +1,1 @@
+SELECT * FROM sys.triggers WHERE parent_id = OBJECT_ID('tablename');

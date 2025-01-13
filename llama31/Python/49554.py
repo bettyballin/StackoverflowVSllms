@@ -1,0 +1,1 @@
+from django.db import models\nfrom django.db.models.functions import Upper\n\nclass MyModel(models.Model):\n    login = models.CharField(max_length=10)\n\n    class Meta:\n        constraints = [\n            models.UniqueConstraint(\n                Upper('login'), name='unique_login_ignore_case'\n            ),\n        ]

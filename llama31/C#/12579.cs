@@ -1,0 +1,1 @@
+[ComVisible(true), ComDefaultInterface(typeof(IMyClass))]\npublic class MyClass<T> : BaseClass<T>, IMyClass where T : IMyClass\n{\n    // ...\n}

@@ -1,0 +1,1 @@
+var secret = Encoding.UTF8.GetBytes("Hello, World!");\nvar shamirs = new ShamirsSecretSharing(3, 5);\nshamirs.SplitSecret(secret);\n\nvar shares = shamirs._shares;\n\n// Reconstruct the secret from 3 shares\nvar reconstructedSecret = shamirs.ReconstructSecret(shares.GetRange(0, 3));\n\nConsole.WriteLine(Encoding.UTF8.GetString(reconstructedSecret));

@@ -1,1 +1,0 @@
-#include <type_traits>\n\ntemplate <typename T>\nusing pass_t = typename std::conditional<std::is_pod<T>::value, T, T&>::type;\n\nclass example {\npublic:\n    int just_use_a(const pass_t<a> object);\n    int use_and_mess_with_b(pass_t<b> object);\n    void do_nothing_on_c(pass_t<c> object);\n};

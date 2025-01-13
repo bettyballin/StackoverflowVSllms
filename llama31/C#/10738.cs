@@ -1,0 +1,1 @@
+SqlConnection connection = new SqlConnection(connectionString);\nconnection.Compression = true;\nconnection.Open();

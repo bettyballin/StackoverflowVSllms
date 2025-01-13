@@ -1,1 +1,0 @@
-pg_restore -U username -h localhost -d dbname db/backup.dump

@@ -1,1 +1,0 @@
-public override void WebDeleting(SPWebEventProperties properties)\n{\n    if (properties.Web.Url == properties.Web.Site.RootWeb.Url)\n    {\n        properties.Cancel = true;\n        properties.ErrorMessage = "Deleting the root site is not allowed.";\n    }\n}

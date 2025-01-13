@@ -1,1 +1,0 @@
-class User_Model extends CI_Model {\n    public function __construct() {\n        parent::__construct();\n    }\n\n    // Define your User_Model methods here\n}

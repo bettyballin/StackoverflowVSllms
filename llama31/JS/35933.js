@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $('div').each(function() {\n    $(this).click(function(e) {\n      console.log(e.type); // outputs "click"\n      console.log(e.target); // outputs the HTML element that was clicked\n    });\n  });\n});

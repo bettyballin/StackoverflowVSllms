@@ -1,0 +1,1 @@
+script.AppendFormat("sometext{0}", dbInfo.IsIdentity ? " IDENTITY(1,1)" : "");

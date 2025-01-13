@@ -1,0 +1,1 @@
+using (PowerPoint.Application ppApp = new PowerPoint.Application())\n{\n    // ...\n}

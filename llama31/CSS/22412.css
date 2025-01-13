@@ -1,0 +1,1 @@
+.container {\n  width: 300px;\n  display: flex;\n}\n\nlabel {\n  flex: 0 0 auto;\n}\n\ninput {\n  flex: 1 1 auto;\n}

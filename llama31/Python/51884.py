@@ -1,0 +1,1 @@
+def scale_chatbot_training_data(data):\n    # Scale data using scalability techniques\n    scaled_data = scale_data(data)\n    return scaled_data

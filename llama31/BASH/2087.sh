@@ -1,0 +1,1 @@
+svn resolve --accept base path/to/conflicted/dll

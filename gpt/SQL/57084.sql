@@ -1,1 +1,0 @@
-CATALOG START WITH '<directory_where_backup_files_are_stored>';

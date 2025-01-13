@@ -1,1 +1,0 @@
-CREATE TABLE pages (\n         id INT AUTO_INCREMENT PRIMARY KEY,\n         name VARCHAR(255) NOT NULL\n     );\n\n     CREATE TABLE page_modules (\n         id INT AUTO_INCREMENT PRIMARY KEY,\n         page_id INT,\n         module_name VARCHAR(255),\n         position VARCHAR(50),\n         FOREIGN KEY (page_id) REFERENCES pages(id)\n     );

@@ -1,1 +1,0 @@
-java -Djava.security.manager -Djava.security.policy=myapp.policy -jar yourapp.jar

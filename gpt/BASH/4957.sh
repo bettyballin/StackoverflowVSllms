@@ -1,1 +1,0 @@
-cscript.exe adsutil.vbs set /w3svc/1/SecureBindings ":443:"\nhttpcfg set ssl -i 0.0.0.0:443 -h <certificate_hash> -g {app_pool_guid}

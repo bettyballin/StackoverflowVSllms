@@ -1,1 +1,0 @@
-fieldname = "<?=$r['Attribute']['label'];?>";

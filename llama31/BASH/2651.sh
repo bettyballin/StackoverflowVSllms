@@ -1,0 +1,1 @@
+find /path/to/folder -type f -exec sed -i 's/\s+$//' {} \;

@@ -1,1 +1,0 @@
-mkdir -p /path/to/pear-channel/docs\n   mkdir -p /path/to/pear-channel/downloads\n   mkdir -p /path/to/pear-channel/rest

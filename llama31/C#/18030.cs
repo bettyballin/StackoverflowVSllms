@@ -1,0 +1,1 @@
+using System.Security.Principal;\n\n// ...\n\nstring currentIdentity = WindowsIdentity.GetCurrent().Name;

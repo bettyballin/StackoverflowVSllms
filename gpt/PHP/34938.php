@@ -1,1 +1,0 @@
-<?php\n$logFile = '/path/to/upload_log.txt';\nif ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_FILES)) {\n    $logData = sprintf(\n        "[%s] File upload: %s, Size: %d bytes\n",\n        date('Y-m-d H:i:s'),\n        $_FILES['file']['name'],\n        $_FILES['file']['size']\n    );\n    file_put_contents($logFile, $logData, FILE_APPEND);\n}\n?>

@@ -1,1 +1,0 @@
-BindingSource bindingSource = new BindingSource();\n     bindingSource.DataSource = dataSet.Tables["Users"];\n     dataGridView.DataSource = bindingSource;

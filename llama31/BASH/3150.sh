@@ -1,0 +1,1 @@
+gcc -I/my/custom/include -c myprogram.c

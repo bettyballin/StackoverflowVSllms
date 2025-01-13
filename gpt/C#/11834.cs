@@ -1,1 +1,0 @@
-[ThreadStatic]\nprivate static int _threadSpecificResource;\n\npublic void SomeMethod()\n{\n    // Each thread will have its own instance of _threadSpecificResource\n    _threadSpecificResource++;\n    // Your logic here\n}

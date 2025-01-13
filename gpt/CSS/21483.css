@@ -1,1 +1,0 @@
-/* For modern browsers */\n::selection {\n    background: yellow; /* Background color */\n    color: black;       /* Text color */\n}\n\n/* For Internet Explorer */\n::-ms-selection {\n    background: yellow; /* Background color */\n    color: black;       /* Text color */\n}

@@ -1,1 +1,0 @@
-public void ConfigureServices(IServiceCollection services)\n{\n    services.AddHangfire(configuration => \n        configuration.UseSqlServerStorage("YourConnectionString"));\n    services.AddHangfireServer();\n}\n\npublic void Configure(IApplicationBuilder app, IBackgroundJobClient backgroundJobs)\n{\n    app.UseHangfireDashboard();\n    app.UseHangfireServer();\n}

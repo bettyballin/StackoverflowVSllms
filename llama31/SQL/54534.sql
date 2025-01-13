@@ -1,0 +1,1 @@
+SELECT XmlColumn.query('/MyElement/MyDate[. > xs:date("2000-01-01")]') AS FilteredDate\nFROM MyTable;

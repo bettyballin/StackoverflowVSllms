@@ -1,1 +1,0 @@
-SELECT dbo.properCase(fullname) AS ProperCasedFullName\nFROM Users;

@@ -1,1 +1,0 @@
-<?php\n    echo displayInfo();\n    echo displayDetails();\n    echo '<a href="Another.php" class="ajax-link">Link</a>';\n?>

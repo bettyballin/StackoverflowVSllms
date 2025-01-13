@@ -1,0 +1,1 @@
+if (object.ReferenceEquals(region, null))\n{\n    // region is null\n}\nelse\n{\n    // region is not null\n}

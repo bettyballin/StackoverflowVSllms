@@ -1,1 +1,0 @@
-$outputFile = "big_script.sql"\n     $scriptFiles = Get-ChildItem -Path "./sql_scripts" -Recurse -Filter *.sql | Sort-Object Name\n\n     foreach ($file in $scriptFiles) {\n         Get-Content $file.FullName | Add-Content $outputFile\n         Add-Content $outputFile "`nGO`n"\n     }

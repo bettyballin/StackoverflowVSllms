@@ -1,1 +1,0 @@
-CREATE INDEX idx_column1 ON materialized_view(column1);\n    CREATE INDEX idx_column2 ON materialized_view(column2);

@@ -1,1 +1,0 @@
-public string GuidToBase64(Guid guid)\n{\n    return Convert.ToBase64String(guid.ToByteArray()).TrimEnd('=').Replace("/", "-").Replace("+", "_");\n}\n\npublic Guid Base64ToGuid(string base64)\n{\n    string paddedBase64 = base64.Replace("-", "/").Replace("_", "+") + new string('=', (4 - base64.Length % 4) % 4);\n    return new Guid(Convert.FromBase64String(paddedBase64));\n}

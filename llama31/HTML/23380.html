@@ -1,0 +1,1 @@
+{% if user.is_authenticated %}\n    <p>Welcome, {{ user.email }}!</p>\n{% else %}\n    <p>Please log in or register.</p>\n{% endif %}

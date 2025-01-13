@@ -1,1 +1,0 @@
-use Tightenco\Collect\Support\Collection;\n\n   $collection = collect([1, 2, 3, 4, 5]);\n   $filtered = $collection->filter(function ($value, $key) {\n       return $value > 2;\n   });

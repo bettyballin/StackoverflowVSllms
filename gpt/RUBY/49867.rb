@@ -1,1 +1,0 @@
-post 'checkout', to: 'your_controller#checkout'

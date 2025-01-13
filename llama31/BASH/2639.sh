@@ -1,0 +1,1 @@
+wraith capture https://example.com/page1 https://example.com/page2\nwraith compare

@@ -1,1 +1,0 @@
-echo 0 > /sys/kernel/debug/tracing/tracing_on\n   cat /sys/kernel/debug/tracing/trace

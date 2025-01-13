@@ -1,0 +1,1 @@
+// In the DLL (RTTI enabled)\nclass MyClass { ... };\n\n// In the application (RTTI disabled)\nvoid myFunction(void* pObj) {\n    if (typeid(*pObj) == typeid(MyClass)) {\n        MyClass* pMyClass = static_cast<MyClass*>(pObj);\n        // Use pMyClass\n    } else {\n        // Handle error\n    }\n}

@@ -1,0 +1,1 @@
+mt.exe -manifest TestRegFreeCom.exe.manifest -validate

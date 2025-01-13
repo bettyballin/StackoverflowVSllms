@@ -1,0 +1,1 @@
+eval $(ssh-agent -s)\nssh-add /path/to/your/private/key\nhg push ssh://your-repo-url.com/repo-name

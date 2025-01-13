@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetComboBoxOptions\n    @LookupName VARCHAR(50)\nAS\nBEGIN\n    SELECT OptionText\n    FROM ComboBoxOptions\n    INNER JOIN Lookups ON ComboBoxOptions.LookupId = Lookups.Id\n    WHERE Lookups.Name = @LookupName;\nEND;

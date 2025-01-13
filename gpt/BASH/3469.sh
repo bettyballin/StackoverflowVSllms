@@ -1,1 +1,0 @@
-#!/bin/bash\n     # Pull the latest changes from the repo\n     cd /path/to/your/website\n     git pull origin master\n\n     # Sync the website folder with the live server\n     rsync -av --delete /path/to/your/website user@server:/path/to/live/website

@@ -1,1 +1,0 @@
-UUID=YOUR_NTFS_VOLUME_UUID none ntfs ro,noauto

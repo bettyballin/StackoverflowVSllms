@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Set variables\nIMAGE_PATH="/path/to/image"\nVG_NAME="vg_name"\nLV_NAME="lv_name"\nMOUNT_POINT="/mnt"\n\n# Activate LVM volume group\nvgchange -ay "$IMAGE_PATH" "$VG_NAME"\n\n# Activate LVM logical volume\nlvchange -ay "/dev/$VG_NAME/$LV_NAME"\n\n# Mount the snapshot\nmount -o ro "/dev/$VG_NAME/$LV_NAME" "$MOUNT_POINT"

@@ -1,0 +1,1 @@
+$text = 'This is a long block of text that needs to be truncated.';\n$truncated_text = truncate_string($text, 200);\necho $truncated_text;

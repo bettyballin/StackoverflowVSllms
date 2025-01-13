@@ -1,1 +1,0 @@
--- control_file.ctl\n   LOAD DATA\n   INFILE 'path_to_your_file.csv'\n   INTO TABLE your_table_name\n   FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'\n   (\n     column1,\n     column2,\n     column3\n     ...\n   )

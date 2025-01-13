@@ -1,1 +1,0 @@
-BEGIN_DISPATCH_MAP(CMyActiveXCtrl, COleControl)\n       DISP_FUNCTION(CMyActiveXCtrl, "MyMethod", MyMethod, VT_EMPTY, VTS_BSTR VTS_PBSTR)\n   END_DISPATCH_MAP()

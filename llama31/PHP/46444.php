@@ -1,0 +1,1 @@
+function myFunction() {\n    global $stage;\n    echo '<input type="hidden" name="stage" value="' . ($stage + 1) . '" />';\n}

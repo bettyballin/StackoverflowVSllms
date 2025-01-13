@@ -1,1 +1,0 @@
-Public Sub AssignUserToRole(username As String, roleName As String)\n    Using connection As SqlConnection = GetSqlConnection()\n        connection.Open()\n        Dim query As String = $"ALTER ROLE [{roleName}] ADD MEMBER [{username}]"\n        Using command As New SqlCommand(query, connection)\n            command.ExecuteNonQuery()\n        End Using\n    End Using\nEnd Sub

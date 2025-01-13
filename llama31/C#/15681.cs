@@ -1,0 +1,1 @@
+public interface IUserInputProvider\n{\n    string GetUserInput(string question);\n}

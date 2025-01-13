@@ -1,0 +1,1 @@
+using System.Security.Principal;\n\n// ...\n\nusing (var impersonationContext = new ImpersonationContext("username", "domain", "password"))\n{\n    if (File.Exists("\\\\server\\share\\file.txt"))\n    {\n        // File exists\n    }\n}

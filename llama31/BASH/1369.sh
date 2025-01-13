@@ -1,0 +1,1 @@
+sort -k 3 -o file.txt file.txt

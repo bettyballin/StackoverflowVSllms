@@ -1,0 +1,1 @@
+function updateDate(date) {\n  document.getElementById('date').value = date;\n  document.getElementById('date_value').value = date;\n}

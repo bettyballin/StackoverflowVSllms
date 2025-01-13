@@ -1,0 +1,1 @@
+try\n{\n    base.Channel.Open();\n    base.Channel.RemoteMethod();\n}\ncatch (CommunicationException ex)\n{\n    // handle the exception\n}

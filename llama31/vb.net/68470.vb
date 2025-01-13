@@ -1,0 +1,1 @@
+Public MustInherit Class BaseClass\n    Public Shared Sub Log(message As String)\n        ' logging implementation\n    End Sub\nEnd Class\n\nPublic Class MyClass\n    Inherits BaseClass\n\n    Public Shared Sub LogSomething()\n        BaseClass.Log("Something happened")\n    End Sub\nEnd Class

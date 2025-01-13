@@ -1,0 +1,1 @@
+$.ajax({\n  url: 'your_url',\n  type: 'GET',\n  data: 'your_data',\n  success: function(data) {\n    // Render the div with id A\n    $('#A').html(data);\n  }\n}).done(function() {\n  // Access elements inside div A\n  var elements = $('#A').find('your_elements');\n  // Do something with the elements\n});

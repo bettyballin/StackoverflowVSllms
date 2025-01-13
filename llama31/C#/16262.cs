@@ -1,0 +1,1 @@
+[MethodImpl(MethodImplOptions.NoInlining)]\npublic static void MyMethod()\n{\n    // Method implementation\n}

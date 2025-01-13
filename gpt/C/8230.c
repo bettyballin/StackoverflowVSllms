@@ -1,1 +1,0 @@
-GetWindowText(hWnd, buffer, bufferSize);

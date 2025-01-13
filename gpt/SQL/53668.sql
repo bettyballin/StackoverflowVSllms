@@ -1,1 +1,0 @@
-SELECT\n    CAST(NULL AS INT) AS column1,\n    CAST(NULL AS VARCHAR(50)) AS column2,\n    CAST(NULL AS DATE) AS column3\nWHERE\n    1 = 0;

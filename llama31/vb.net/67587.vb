@@ -1,0 +1,1 @@
+Dim oxlRep As New Excel.Application\noxlRep.AutomationSecurity = Excel.MsoAutomationSecurity.msoAutomationSecurityForceDisable\nDim oWBRep As Excel.Workbook = oxlRep.Workbooks.Open(path)\nDim oSheetRep As Excel.Worksheet = oWBRep.Sheets(1)\nDim oRngRep As Excel.Range = oSheetRep.UsedRange

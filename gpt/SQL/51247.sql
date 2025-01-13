@@ -1,1 +1,0 @@
-EXPLAIN ANALYZE\nSELECT i.*\nFROM core_item i\nLEFT OUTER JOIN core_item_in_basket b ON (i.id = b.item_id AND b.user_id = __some_user__)\nWHERE b.on_wishlist IS NULL;

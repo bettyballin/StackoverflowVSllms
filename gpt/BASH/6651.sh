@@ -1,1 +1,0 @@
-#!/bin/bash\n\n./numbers.sh | sed -e '$!N' -e 's/\n/ /'

@@ -1,0 +1,1 @@
+qemu-system-x86_64 -enable-kvm -m 1024 -device pci-assign,host=01:00.0

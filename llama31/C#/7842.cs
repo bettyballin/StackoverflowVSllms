@@ -1,0 +1,1 @@
+// Example of setting secure cookie flags in ASP.NET\nHttpCookie cookie = new HttpCookie("myCookie");\ncookie.Value = "myValue";\ncookie.Secure = true;\ncookie.HttpOnly = true;\nResponse.Cookies.Add(cookie);

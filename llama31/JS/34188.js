@@ -1,0 +1,1 @@
+$("#your_div_id").text(data);

@@ -1,0 +1,1 @@
+$fp = fopen($file_path, 'rb');\n$magic_number = fread($fp, 3);\nfclose($fp);\n\nif ($magic_number === "\xFF\xD8\xFF") {\n    // File is a JPEG image\n}

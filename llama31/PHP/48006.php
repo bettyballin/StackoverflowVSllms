@@ -1,0 +1,1 @@
+$debug = new Debug('path/to/log/file.log');\n\n// ...\n\n$debug->logQuery($sqlQuery);

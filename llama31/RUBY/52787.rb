@@ -1,0 +1,1 @@
+class MyController < ApplicationController\n  def original_action\n    # ...\n    @new_action = 'new_action'\n    render :action => @new_action\n  end\n\n  def action_name\n    @new_action || super\n  end\nend

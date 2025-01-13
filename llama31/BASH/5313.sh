@@ -1,0 +1,1 @@
+function myFunction() output=false {\n    // function code here\n}

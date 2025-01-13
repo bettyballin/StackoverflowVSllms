@@ -1,0 +1,1 @@
+# Example NFS mount command\nmount -t nfs4 -o rsize=32768,wsize=32768 server:/share /mnt/nfs

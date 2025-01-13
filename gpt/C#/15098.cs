@@ -1,1 +1,0 @@
-protected void FormView1_ItemUpdating(object sender, FormViewUpdateEventArgs e)\n{\n    TextBox txtStartDate = (TextBox)FormView1.FindControl("TxtStartDate");\n    if (txtStartDate != null && string.IsNullOrWhiteSpace(txtStartDate.Text))\n    {\n        e.NewValues["StartDate"] = null;\n    }\n}

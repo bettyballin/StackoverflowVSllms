@@ -1,0 +1,1 @@
+<services>\n  <service name="YourService">\n    <endpoint address="" behaviorConfiguration="ipFilterBehavior" binding="basicHttpBinding" contract="YourContract" />\n  </service>\n</services>

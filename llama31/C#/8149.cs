@@ -1,0 +1,1 @@
+options.AddArgument("--window-size=1920,1080");

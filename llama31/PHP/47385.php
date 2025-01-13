@@ -1,0 +1,1 @@
+$token = generateToken();\n$uploader->addParam('token', $token);

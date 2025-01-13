@@ -1,1 +1,0 @@
-SELECT p.id, p.title, COUNT(pt2.tag_id) AS common_tag_count\nFROM Posts p\nJOIN PostTags pt1 ON pt1.post_id = :current_post_id\nJOIN PostTags pt2 ON pt2.tag_id = pt1.tag_id AND pt2.post_id != :current_post_id\nJOIN Posts p2 ON p2.id = pt2.post_id\nGROUP BY p2.id, p2.title\nORDER BY common_tag_count DESC;

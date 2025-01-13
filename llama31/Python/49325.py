@@ -1,0 +1,1 @@
+# www/dir1.py\ndef dir2(req):\n    # Handle the request\n    return "Hello, World!"

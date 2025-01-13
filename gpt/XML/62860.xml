@@ -1,1 +1,0 @@
-<target name="runMyApp">\n    <java fork="true" classname="MyApp">\n        <classpath>\n            <pathelement path="path/to/your/jar/MyApp.jar" />\n        </classpath>\n    </java>\n</target>

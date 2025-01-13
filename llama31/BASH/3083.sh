@@ -1,0 +1,1 @@
+wget -r -l 0 -A ".htm,.html" --ftp-user=myuser --ftp-password=mypass ftp://ftp.myserver.com/public_html/ -P ./local_folder

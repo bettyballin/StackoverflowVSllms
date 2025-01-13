@@ -1,1 +1,0 @@
-<?php\necho PHP_BINARY;\n?>

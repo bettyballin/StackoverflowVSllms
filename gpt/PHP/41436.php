@@ -1,1 +1,0 @@
-// In development\n   ini_set('display_errors', 1);\n   error_reporting(E_ALL);\n\n   // In production\n   ini_set('display_errors', 0);\n   ini_set('log_errors', 1);\n   error_reporting(E_ALL);

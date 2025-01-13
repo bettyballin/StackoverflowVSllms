@@ -1,1 +1,0 @@
-<?php\n\nfunction rangeExample($start, $end) {\n    return range($start, $end);\n}\n\n$args = [3, 6];\n$result = rangeExample(...$args);\n\nprint_r($result);\n?>

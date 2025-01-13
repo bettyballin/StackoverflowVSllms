@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX only_one_yes ON your_table (CASE WHEN your_column = 'YES' THEN 'YES' ELSE NULL END);

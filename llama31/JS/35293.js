@@ -1,0 +1,1 @@
+links.forEach(function(link) {\n  link.addEventListener('click', function() {\n    ga('send', 'event', 'link', 'click', link.href);\n  });\n});

@@ -1,0 +1,1 @@
+CREATE TEMPORARY TABLE temp_tbl AS\nSELECT id, col1 FROM tbl2;\n\nUPDATE temp_tbl SET col1 = col1 + 1;\n\nUPDATE tbl2 SET col1 = (SELECT col1 FROM temp_tbl WHERE id = tbl2.id);

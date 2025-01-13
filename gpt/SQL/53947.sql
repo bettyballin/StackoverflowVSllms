@@ -1,1 +1,0 @@
-DROP PROCEDURE procedure_name;\nDROP PACKAGE package_name;\nDROP FUNCTION function_name;\nDROP TRIGGER trigger_name;

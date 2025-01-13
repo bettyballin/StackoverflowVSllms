@@ -1,0 +1,1 @@
+# Install MinGW\n# ...\n\n# Compile Objective-C code\ngcc -o output.exe input.m -lobjc

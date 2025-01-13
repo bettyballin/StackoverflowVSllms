@@ -1,1 +1,0 @@
-iptables -A INPUT -p tcp --dport PORT -s TRUSTED_IP -j ACCEPT\n   iptables -A INPUT -p tcp --dport PORT -j DROP

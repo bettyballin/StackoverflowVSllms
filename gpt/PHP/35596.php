@@ -1,1 +1,0 @@
-// index.php\n$system_path = '/path/to/your/codeigniter/system';

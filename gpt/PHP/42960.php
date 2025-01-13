@@ -1,1 +1,0 @@
-class AccountController extends CI_Controller {\n    // Controller methods for updating account, changing password, etc.\n}

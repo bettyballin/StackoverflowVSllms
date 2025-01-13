@@ -1,1 +1,0 @@
-SELECT FirstName, LastName, Department\nFROM Employees\nWHERE EmployeeID = 1;

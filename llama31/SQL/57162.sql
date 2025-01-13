@@ -1,0 +1,1 @@
+SELECT * FROM XMLTABLE (\n  '/*' PASSING XMLSERIALIZE(\n    XMLROW(\n      your_excluded_column AS excluded_column\n    )\n  ) AS x\n  COLUMNS\n    excluded_value VARCHAR(255) PATH 'excluded_column'\n) AS x;

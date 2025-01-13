@@ -1,0 +1,1 @@
+openssl rsa -in public_key.pem -pubout -outform der -out public_key.der

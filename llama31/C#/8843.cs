@@ -1,0 +1,1 @@
+var client = new JsonRpcClient("https://example.com/jsonrpc");\nvar result = await client.InvokeAsync("myMethod", "param1", 2);\nConsole.WriteLine(result);

@@ -1,0 +1,1 @@
+gcc -Wl,--stack=1048576 your_program.c -o your_program.exe

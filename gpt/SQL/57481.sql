@@ -1,1 +1,0 @@
-SELECT column_name\nFROM table_name\nORDER BY CONVERT(column_name, SIGNED);

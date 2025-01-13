@@ -1,1 +1,0 @@
-SELECT * FROM ratings WHERE user_id = ? AND game_id = ?;

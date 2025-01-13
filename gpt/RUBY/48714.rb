@@ -1,1 +1,0 @@
-def expire_session\n     session[:destroy] = true\n     reset_session\n   end

@@ -1,1 +1,0 @@
-sudo nano /etc/apache2/mods-enabled/dav_svn.conf

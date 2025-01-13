@@ -1,1 +1,0 @@
--- Check for uncommitted transactions\nSELECT s.sid, s.serial#, s.username, s.status, t.start_time\nFROM v$transaction t, v$session s\nWHERE t.ses_addr = s.saddr;\n\n-- Check for locks\nSELECT l.session_id, l.locked_mode, o.object_name, o.object_type\nFROM v$locked_object l, dba_objects o\nWHERE l.object_id = o.object_id;

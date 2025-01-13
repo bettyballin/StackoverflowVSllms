@@ -1,0 +1,1 @@
+#include <ncurses.h>\n\nint main() {\n    initscr();\n    printw("\U263A\n");  // smiley face\n    refresh();\n    getch();\n    endwin();\n    return 0;\n}

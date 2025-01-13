@@ -1,0 +1,1 @@
+/* Default font size */\nbody {\n  font-size: 16px;\n}\n\n/* Adjust font size for zoom levels */\n@media screen and (max-width: 800px) {\n  body {\n    font-size: 14px;\n  }\n}\n\n@media screen and (max-width: 600px) {\n  body {\n    font-size: 12px;\n  }\n}

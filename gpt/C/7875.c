@@ -1,1 +1,0 @@
--L/usr/local/lib -lwx_osx_cocoa-3.0

@@ -1,1 +1,0 @@
-composer require --dev mockery/mockery

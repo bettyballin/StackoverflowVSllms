@@ -1,0 +1,1 @@
+$str1 = "google makes love";\n$str2 = "google makes google love";\n\necho hasMultipleOccurrences($str1) ? "true" : "false"; // outputs: false\necho hasMultipleOccurrences($str2) ? "true" : "false"; // outputs: true

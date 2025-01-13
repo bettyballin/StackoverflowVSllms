@@ -1,0 +1,1 @@
+submit_to_remote 'Disable', '/people/disable', \n  :before => "modify_params(this.form)", \n  :parameters => Form.serialize(this.form)

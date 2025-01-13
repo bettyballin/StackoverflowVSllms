@@ -1,1 +1,0 @@
-class Upload extends AppModel {\n    var $useTable = false; // This model does not use a database table\n\n    var $validate = array(\n        'source_id' => array(\n            'rule' => 'numeric',\n            'required' => true,\n            'allowEmpty' => false,\n            'message' => 'Error!'\n        )\n    );\n}

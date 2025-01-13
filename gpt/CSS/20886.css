@@ -1,1 +1,0 @@
-#header {\n  display: flex;\n  align-items: center;\n  position: relative;\n}\n\n.absolute-img {\n  position: absolute;\n  left: 0; /* Adjust as needed */\n}

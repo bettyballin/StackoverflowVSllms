@@ -1,0 +1,1 @@
+SELECT ISNULL(CONVERT(VARCHAR(10), someDateTime, 120), 'No')\nFROM someTable

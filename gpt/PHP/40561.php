@@ -1,1 +1,0 @@
-<?php\n$string = "Hello World\n\n[cid:image002.png@01C9DEDD.67C237D0]\n\nHello World\n\n[cid:image002.png@01C9DEDD.67C237D0] [cid:image002.png@01C9DEDD.67C237D0]\n\nHello World\n";\n\npreg_match_all("/\[cid:(.*?)(@|\])/s", $string, $matches);\n\necho "<pre>";\nprint_r($matches[1]);\necho "</pre>";\n?>

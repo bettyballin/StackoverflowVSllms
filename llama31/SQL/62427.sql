@@ -1,0 +1,1 @@
+-- Disable the trace\nEXEC sp_trace_setevent @traceid = 1, @eventid = 12, @columnid = 1, @on = 0;\nGO

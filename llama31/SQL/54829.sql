@@ -1,0 +1,1 @@
+SELECT post.idPost, post.post\nFROM post\nINNER JOIN postCategory ON postCategory.idPost = post.idPost\nWHERE postCategory.idCategory = <myCategoryId>\n    AND EXISTS (\n        SELECT 1\n        FROM comment\n        WHERE comment.idPost = post.idPost\n            AND comment.inputDate >= <today - time range>\n    );

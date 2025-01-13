@@ -1,0 +1,1 @@
+# Create a new virtual environment\npython -m venv myproject-env\n\n# Activate the virtual environment\nsource myproject-env/bin/activate

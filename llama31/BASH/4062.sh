@@ -1,0 +1,1 @@
+logman start "IIS Worker Process Monitoring"

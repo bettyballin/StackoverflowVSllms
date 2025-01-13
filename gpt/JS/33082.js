@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    function SelectRow(row) {\n        var grid = document.getElementById('<%= GridView1.ClientID %>');\n        var rows = grid.getElementsByTagName("tr");\n        for (var i = 1; i < rows.length; i++) {\n            rows[i].style.backgroundColor = '';\n        }\n        row.style.backgroundColor = '#A1DCF2';\n    }\n</script>

@@ -1,0 +1,1 @@
+# new_messages_controller.rb\nclass NewMessagesController < ApplicationController\n  def index\n    @user = User.find(params[:id])\n    @new_messages = @user.messages.where(created_at: Time.now - 2.minutes)\n    render json: @new_messages\n  end\nend

@@ -1,0 +1,1 @@
+var fileInput = document.getElementById('fileInput');\nvar fileSize = 0;\nif (fileInput.files && fileInput.files.length > 0) {\n  fileSize = fileInput.files[0].size;\n} else {\n  var fileObj = fileInput.value;\n  var fileSystemObject = new ActiveXObject('Scripting.FileSystemObject');\n  var file = fileSystemObject.GetFile(fileObj);\n  fileSize = file.Size;\n}

@@ -1,1 +1,0 @@
-<?php\n// Create a connection\n$conn = new mysqli($servername, $username, $password, $dbname);\n\n// Check connection\nif ($conn->connect_error) {\n    die("Connection failed: " . $conn->connect_error);\n}\n\n// Your database operations go here\n\n// Close the connection\n$conn->close();\n?>

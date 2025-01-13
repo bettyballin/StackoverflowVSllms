@@ -1,0 +1,1 @@
+# Create a new web farm\n>New-WebFarm -Name "MyWebFarm" -Servers @("server1", "server2")\n\n# Create a new application pool\n>New-WebAppPool -Name "MyAppPool" -AutoStart $true\n\n# Assign the application pool to the web farm\n>Set-WebFarm -Name "MyWebFarm" -ApplicationPool "MyAppPool"

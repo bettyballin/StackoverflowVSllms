@@ -1,0 +1,1 @@
+@page {\n  counter-increment: page;\n}\n\n.page-number: before {\n  content: "Page " counter(page) " of " counter(pages);\n}\n\n@page {\n  @bottom {\n    content: "Generated on 2009-02-20";\n  }\n}\n\n@media print {\n  a[href]: after {\n    content: none !important;\n  }\n}

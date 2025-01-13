@@ -1,0 +1,1 @@
+[Authorize]\npublic class ValuesController : ApiController\n{\n    // ...\n}

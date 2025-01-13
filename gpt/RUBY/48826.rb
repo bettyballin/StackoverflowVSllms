@@ -1,1 +1,0 @@
-GET    /posts         -> posts#index\nGET    /posts/new     -> posts#new\nPOST   /posts         -> posts#create\nGET    /posts/:id     -> posts#show\nGET    /posts/:id/edit -> posts#edit\nPATCH  /posts/:id     -> posts#update\nDELETE /posts/:id     -> posts#destroy

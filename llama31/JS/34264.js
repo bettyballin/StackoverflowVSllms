@@ -1,0 +1,1 @@
+$(function() {\n    $('form').submit(function() {\n        var hiddenField = $('#hiddenField');\n        hiddenField.clone().appendTo($(this));\n    });\n});

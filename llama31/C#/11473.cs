@@ -1,0 +1,1 @@
+string filePath = Path.Combine(directoryPath, fileName);

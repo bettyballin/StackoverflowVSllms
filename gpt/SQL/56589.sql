@@ -1,1 +1,0 @@
-UPDATE a\n   SET a.accountID = m.NewAccountID\n   FROM accounts a\n   JOIN AccountIDMapping m ON a.accountID = m.OldAccountID;

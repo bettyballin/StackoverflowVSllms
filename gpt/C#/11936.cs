@@ -1,1 +1,0 @@
-string query = "INSERT INTO TABLE_A (COLUMN_A, COLUMN_B) " +\n               "SELECT (" + EscapeSqlString(userInput) + ", COLUMN_C) " +\n               "FROM TABLE_B " +\n               "WHERE COLUMN_D = ?";\n\n// Use ODBCCommand to execute the query, ensuring to set the parameter for COLUMN_D

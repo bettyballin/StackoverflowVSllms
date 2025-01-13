@@ -1,1 +1,0 @@
-CREATE USER your_username\nIDENTIFIED BY your_password\nDEFAULT TABLESPACE your_default_tablespace\nTEMPORARY TABLESPACE your_temp_tablespace;

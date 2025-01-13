@@ -1,0 +1,1 @@
+string pattern = @"...something...(where)\s\w+\s*=\s*[\w'\"]+\s*(order by)*...something else...";

@@ -1,0 +1,1 @@
+protected void uc_TenantList_CustomButtonCallback(object sender, ASPxGridViewCustomButtonCallbackEventArgs e)\n{\n    // ... (rest of your code)\n\n    EditRow(tenant);\n\n    ScriptManager.RegisterStartupScript(this, typeof(Page), "UpdatePanel1", "Sys.Application.add_load(function() { $('#" + UpdatePanel1.ClientID + "').UpdatePanel(); });", true);\n}

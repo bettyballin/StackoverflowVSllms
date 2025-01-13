@@ -1,1 +1,0 @@
-sudo systemctl status nginx  # For Nginx\nsudo systemctl status apache2  # For Apache

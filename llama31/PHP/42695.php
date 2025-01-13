@@ -1,0 +1,1 @@
+// ItemsController.php\npublic function view($id) {\n    $item = $this->Item->findById($id);\n    $defaultImage = $item->getDefaultImage();\n    // ...\n}

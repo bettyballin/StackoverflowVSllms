@@ -1,1 +1,0 @@
-[ComVisible(true)]\n    [Guid("your-guid-here")]\n    [ClassInterface(ClassInterfaceType.None)]\n    public class YourComponent : IYourComponent\n    {\n        public string ProcessPayment(string paymentDetails)\n        {\n            // Implement your payment processing logic here\n        }\n    }

@@ -1,1 +1,0 @@
-[TestClass]\npublic class Tests\n{\n    [TestMethod]\n    [DataRow(null)]\n    [DataRow("")]\n    public void MyMethod_should_fail_if_param_is_null_or_empty(string param)\n    {\n        // Arrange\n        var myclass = new MyClass();\n\n        // Act & Assert\n        Assert.ThrowsException<ArgumentNullException>(() => myclass.MyMethod(param));\n    }\n}

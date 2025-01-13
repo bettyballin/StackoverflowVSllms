@@ -1,0 +1,1 @@
+.arrow-container {\n  display: flex;\n  align-items: center;\n}\n\n.arrow-container img {\n  margin: 0 5px; /* adjust the margin to your liking */\n}

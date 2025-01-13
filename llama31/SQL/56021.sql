@@ -1,0 +1,1 @@
+CREATE TABLE DistanceChart (\n    Id INT PRIMARY KEY IDENTITY(1,1),\n    FromLocation VARCHAR(50),\n    ToLocation VARCHAR(50),\n    Distance DECIMAL(10, 2)\n);\n\nCREATE TABLE Locations (\n    Id INT PRIMARY KEY IDENTITY(1,1),\n    Name VARCHAR(50)\n);

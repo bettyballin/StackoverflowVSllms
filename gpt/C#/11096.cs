@@ -1,1 +1,0 @@
-[Test]\n   public void TestWithQuickCheck()\n   {\n       Prop.ForAll<int>(x => x + 1 > x).QuickCheckThrowOnFailure();\n   }

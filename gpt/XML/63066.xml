@@ -1,1 +1,0 @@
-<fun xmlns="http://ttdi.us/I/am/having/fun"\n     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\n     xsi:schemaLocation="http://ttdi.us/I/am/having/fun test.xsd">\n    <activity>rowing</activity>\n    <activity>eating</activity>\n    <activity>coding</activity>\n</fun>

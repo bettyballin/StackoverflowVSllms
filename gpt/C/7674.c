@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <stdint.h>\n\nint main() {\n    // 32-bit integer\n    int32_t a = 2147483647;  // Max value for 32-bit signed integer\n    // 64-bit integer\n    int64_t b = 9223372036854775807;  // Max value for 64-bit signed integer\n\n    printf("32-bit integer: %d\n", a);\n    printf("64-bit integer: %lld\n", b);\n\n    return 0;\n}

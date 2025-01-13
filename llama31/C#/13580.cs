@@ -1,0 +1,1 @@
+protected override void WndProc(ref Message m)\n{\n    if (m.Msg == 0x020E) // WM_MOUSEHWHEEL\n    {\n        MouseEventArgs e = new MouseEventArgs(MouseButtons.None, 0, 0, 0, (int)m.WParam);\n        // e.Delta: -1 for left, 1 for right\n        // handle tilt event here\n    }\n    base.WndProc(ref m);\n}

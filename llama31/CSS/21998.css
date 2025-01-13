@@ -1,0 +1,1 @@
+a.link1 {\n  height: 70px;\n  width: 120px;\n  background-image: url('image1.jpg');\n}\n\na.link1:hover {\n  background-image: url('image1-hover.jpg');\n}\n\na.link2 {\n  height: 30px;\n  width: 80px;\n  background-image: url('image2.jpg');\n}\n\na.link2:hover {\n  background-image: url('image2-hover.jpg');\n}

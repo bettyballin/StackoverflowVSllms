@@ -1,1 +1,0 @@
-<!DOCTYPE html>\n    <html>\n    <head>\n        <title>Form Example</title>\n    </head>\n    <body>\n        <form method="post">\n            {% csrf_token %}\n            {{ form1.as_table }}\n            {{ form2.as_table }}\n            <input type="submit" value="Submit">\n        </form>\n    </body>\n    </html>

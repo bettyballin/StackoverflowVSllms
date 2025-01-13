@@ -1,0 +1,1 @@
+for (int j = 0; j < IMGX; j++) {\n    for (int i = 0; i < IMGY; i++) {\n        // Accessing img[i][j][0]\n        printf("%p\n", (void*)&img[i][j][0]);\n    }\n}

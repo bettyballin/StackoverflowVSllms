@@ -1,0 +1,1 @@
+$('#myform').validate({\n    rules: {\n        'data[]': {\n            required: true, minlength: 1\n        }\n    }\n});

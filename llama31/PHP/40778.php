@@ -1,0 +1,1 @@
+function emptyFunction() {}\n\n$start = microtime(true);\nfor ($i = 0; $i < 10000; $i++) {\n    emptyFunction();\n}\n$end = microtime(true);\n\necho "Time taken: " . ($end - $start) . " seconds";

@@ -1,0 +1,1 @@
+public class DateTimeComparer : IComparer\n{\n    public int Compare(object x, object y)\n    {\n        DateTime dateX = DateTime.ParseExact(x as string, "MM/dd/yyyy hh:mm:ss tt", CultureInfo.InvariantCulture);\n        DateTime dateY = DateTime.ParseExact(y as string, "MM/dd/yyyy hh:mm:ss tt", CultureInfo.InvariantCulture);\n        return dateX.CompareTo(dateY);\n    }\n}

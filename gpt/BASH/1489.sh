@@ -1,1 +1,0 @@
-gcc -shared -o liblicense_check.so -fPIC license_check.c

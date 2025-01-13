@@ -1,0 +1,1 @@
+require 'rubygems'\ngem 'activerecord-jdbc-adapter'\nrequire 'jdbc_adapter'\nrequire 'active_record'\n\nActiveRecord::Base.establish_connection(\n  :adapter => 'jdbc',\n  :driver => 'oracle',\n  :url => 'jdbc:oracle:thin:@myhost:1521:mydb',\n  :username=>'myuser',\n  :password=>'mypassword'\n)

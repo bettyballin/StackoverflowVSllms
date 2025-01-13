@@ -1,1 +1,0 @@
-require_once '/path/to/vendor/autoload.php';\n\n   $loader = new \Twig\Loader\FilesystemLoader('/path/to/templates');\n   $twig = new \Twig\Environment($loader, [\n       'cache' => '/path/to/compilation_cache',\n   ]);\n\n   $template = $twig->load('index.html');\n   echo $template->render(['name' => 'John Doe']);

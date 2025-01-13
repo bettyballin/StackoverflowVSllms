@@ -1,1 +1,0 @@
-// In Root.Master.cs or User.Master.cs\nprotected void LogoutLinkButton_Click(object sender, EventArgs e)\n{\n    // Perform logout operations\n    FormsAuthentication.SignOut();\n    Session.Abandon();\n\n    // Redirect to login page\n    Response.Redirect("~/Login.aspx");\n}

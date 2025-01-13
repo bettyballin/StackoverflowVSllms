@@ -1,0 +1,1 @@
+$subject = 'Hello world, world!';\n$search = 'world';\n$replace = 'earth';\n\necho str_replace_first($search, $replace, $subject); // Output: "Hello earth, world!"

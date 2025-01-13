@@ -1,1 +1,0 @@
-<?php\necho "<pre>";\nprint_r($_ENV);\necho "</pre>";\n?>

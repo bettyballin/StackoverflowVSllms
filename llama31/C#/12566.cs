@@ -1,0 +1,1 @@
+using System.Security;\n\nprivate void Button_Click(object sender, RoutedEventArgs e)\n{\n    try\n    {\n        string username = Environment.UserName;\n        MessageBox.Show("Username: " + username);\n    }\n    catch (SecurityException ex)\n    {\n        MessageBox.Show("Failed to get username: " + ex.Message);\n    }\n}

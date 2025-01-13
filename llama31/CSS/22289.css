@@ -1,0 +1,1 @@
+a:has(> img) {\n  /* styles for anchors containing images */\n  text-decoration: none;\n  color: inherit;\n}

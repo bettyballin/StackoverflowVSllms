@@ -1,1 +1,0 @@
-<ItemGroup>\n  <ProjectReference Include="..\Path\To\Your\DllProject\YourDllProject.csproj" />\n</ItemGroup>

@@ -1,1 +1,0 @@
-# On macOS, you can install qcachegrind using Homebrew\nbrew install qcachegrind\n\n# Then open the generated callgrind file\nqcachegrind tmp/performance/your_profile_file.callgrind

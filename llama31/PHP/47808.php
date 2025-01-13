@@ -1,0 +1,1 @@
+Event::add('system.pre_controller', array('MyClass', 'myMethod'));

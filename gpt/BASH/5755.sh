@@ -1,1 +1,0 @@
-echo -n "Enter a string here: "\nread -e STRING\n\n# Remove non-alphanumeric characters, convert to lowercase, and replace spaces with underscores\nSANITIZED_STRING=$(echo "$STRING" | tr -dc '[:alnum:][:space:]' | tr ' ' '_' | tr '[:upper:]' '[:lower:]')\n\necho "Sanitized string: $SANITIZED_STRING"

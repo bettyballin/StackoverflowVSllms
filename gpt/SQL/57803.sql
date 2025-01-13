@@ -1,1 +1,0 @@
-SELECT *\nFROM tProject\nWHERE name LIKE '%your_keyword%'\n   OR Goal LIKE '%your_keyword%'\n   OR Activities LIKE '%your_keyword%'\n   OR Result LIKE '%your_keyword%'\n   OR MonName LIKE '%your_keyword%'\n   OR MonGoal LIKE '%your_keyword%'\n   OR MonActivities LIKE '%your_keyword%'\n   OR MonResult LIKE '%your_keyword%'\n   OR TotalFund LIKE '%your_keyword%';

@@ -1,0 +1,1 @@
+using System.Runtime.InteropServices;\n\n// For Excel 9 (Excel 2000)\nType excel9Type = Type.GetTypeFromProgID("Excel.Application.9");\nobject excel9App = Activator.CreateInstance(excel9Type);\n\n// For Excel 11 (Excel 2003)\nType excel11Type = Type.GetTypeFromProgID("Excel.Application.11");\nobject excel11App = Activator.CreateInstance(excel11Type);

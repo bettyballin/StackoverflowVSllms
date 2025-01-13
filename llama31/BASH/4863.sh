@@ -1,0 +1,1 @@
+gcc -static -o output_file source_file.c -lexample

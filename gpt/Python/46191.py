@@ -1,1 +1,0 @@
-import requests\nfrom flask import Flask, request, jsonify\n\napp = Flask(__name__)\n\n@app.route('/proxy', methods=['POST'])\ndef proxy_request():\n    target_url = request.form['url']\n    payload = request.form['payload']\n    response = requests.post(target_url, data=payload)\n    return jsonify(response.json())\n\nif __name__ == '__main__':\n    app.run()

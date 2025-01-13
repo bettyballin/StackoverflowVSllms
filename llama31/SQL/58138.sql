@@ -1,0 +1,1 @@
+SELECT Description, [A], [B], [C]\nFROM (\n  SELECT np.Description, p.promotionalCode, p.Price\n  FROM Price AS p\n  INNER JOIN nProduct AS np ON p.nProduct = np.Id\n) AS SourceTable\nPIVOT (\n  MAX(Price)\n  FOR promotionalCode IN ([A], [B], [C])\n) AS PivotTable;

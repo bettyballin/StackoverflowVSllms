@@ -1,1 +1,0 @@
-pip install pdf2image\n    pip install pillow

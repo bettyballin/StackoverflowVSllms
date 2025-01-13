@@ -1,1 +1,0 @@
-# On both machines\nenv > env_output.txt

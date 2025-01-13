@@ -1,1 +1,0 @@
-$path = '/srv/www/site.com/htdocs/system/application/views/';\n$pattern = '/([^\/]+)/';\npreg_match_all($pattern, $path, $matches);\n$directories = $matches[0];\n\nprint_r($directories);

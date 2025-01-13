@@ -1,0 +1,1 @@
+using (System.IO.StreamWriter sw = new System.IO.StreamWriter(@fileSobrantes, true, Encoding.Default))\n{\n    sw.WriteLine("SEGS,AUS1,1,0,0,712205,584,8659094,2,NUÑEZ   FELIX ARTURO,584");\n}

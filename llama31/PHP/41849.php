@@ -1,0 +1,1 @@
+/**\n * @file MyClass.php\n * @brief Example class\n */\n\n/**\n * @class MyClass\n * @brief Example class description\n */\nclass MyClass {\n    /**\n     * @brief Example method\n     * @param string $param1 Parameter 1\n     * @param int $param2 Parameter 2\n     * @return void\n     */\n    public function myMethod($param1, $param2) {\n        // Code here\n    }\n}

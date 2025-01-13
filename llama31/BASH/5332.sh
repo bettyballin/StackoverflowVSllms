@@ -1,0 +1,1 @@
+for /f "tokens=2 delims=:" %%a in ('ipconfig ^| findstr /i hostname') do set host=%%a\necho %host%

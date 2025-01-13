@@ -1,0 +1,1 @@
+.mainpanel {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n}\n\n.mainpanel div {\n  width: calc(33.33% - 10px);\n  margin: 5px;\n  background-color: #f0f0f0;\n  padding: 5px;\n}

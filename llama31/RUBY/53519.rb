@@ -1,0 +1,1 @@
+# Create an item\nitem = Item.create(name: 'Item 1')\n\n# Create a transaction\ntransaction = Transaction.create(profit: 10.99)\n\n# Create a tran_item\ntran_item = TranItem.create(item: item, transaction: transaction, quantity: 2)

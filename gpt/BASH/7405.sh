@@ -1,1 +1,0 @@
-gcc your_project_files.c 2>&1 | ccze -A

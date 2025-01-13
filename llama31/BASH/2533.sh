@@ -1,0 +1,1 @@
+debugfs -w /dev/your/device

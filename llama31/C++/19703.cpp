@@ -1,0 +1,1 @@
+DatabaseConnection* dbConnection = ...;\nQueryBuilder queryBuilder(dbConnection);\n\nstd::string query = queryBuilder.Select("id")\n                                .From("table")\n                                .Where("id > 10")\n                                .Generate();\n\nresults = dbConnection->Query(query);

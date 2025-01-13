@@ -1,0 +1,1 @@
+try\n{\n    // Interact with the COM object\n}\ncatch (COMException ex)\n{\n    // Handle the COM exception\n    Console.WriteLine("COM exception caught: " + ex.Message);\n}\ncatch (Exception ex)\n{\n    // Handle any other exceptions\n    Console.WriteLine("General exception caught: " + ex.Message);\n}

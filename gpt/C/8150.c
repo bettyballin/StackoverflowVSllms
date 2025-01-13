@@ -1,1 +1,0 @@
-[cling]$ int a = 5;\n   [cling]$ printf("%d\n", a);\n   5

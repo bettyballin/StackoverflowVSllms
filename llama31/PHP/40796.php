@@ -1,0 +1,1 @@
+setcookie('session_cookie', 'value', time() + 3600, '/', 'example.com', true, true);

@@ -1,1 +1,0 @@
-#!/bin/bash\n   REPO_PATH="/var/svn/repositories/my_project"\n   BACKUP_PATH="/backup/svn/my_project"\n   DATE=$(date +%Y%m%d%H%M)\n\n   svnadmin hotcopy $REPO_PATH $BACKUP_PATH/$DATE\n   tar -czf $BACKUP_PATH/$DATE.tar.gz -C $BACKUP_PATH $DATE\n   rm -rf $BACKUP_PATH/$DATE

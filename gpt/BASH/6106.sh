@@ -1,1 +1,0 @@
-keytool -importkeystore -srckeystore foo.keystore -destkeystore foo.keystore -deststoretype pkcs12\n   keytool -importkeystore -srckeystore bar.keystore -destkeystore bar.keystore -deststoretype pkcs12

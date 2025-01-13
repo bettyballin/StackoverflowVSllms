@@ -1,0 +1,1 @@
+sudo mount -o remount,rw /dev/disk1s1

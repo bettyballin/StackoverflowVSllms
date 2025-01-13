@@ -1,1 +1,0 @@
-iisreset /stop\n     iisreset /start

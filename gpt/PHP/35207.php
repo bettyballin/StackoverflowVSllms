@@ -1,1 +1,0 @@
-<?php\n/*\nPlugin Name: My First Plugin\nDescription: This is a simple plugin example.\nVersion: 1.0\nAuthor: Your Name\n*/\n\nfunction my_first_plugin() {\n    echo "Hello from My First Plugin!";\n}\nadd_action('wp_footer', 'my_first_plugin');\n?>

@@ -1,0 +1,1 @@
+class ApplicationController < ActionController::Base\n  private\n\n  def current_user\n    @current_user ||= User.find_by_remember_token(cookies[:remember_token])\n  end\n\n  def remember_me(user)\n    cookies.permanent[:remember_token] = user.remember_token\n  end\n\n  def forget_me\n    cookies.delete(:remember_token)\n  end\nend

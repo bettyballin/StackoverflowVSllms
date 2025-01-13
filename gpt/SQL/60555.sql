@@ -1,1 +1,0 @@
-CREATE TABLE categories (\n       id INT PRIMARY KEY,\n       name VARCHAR(255)\n   );\n\n   CREATE TABLE category_closure (\n       ancestor INT,\n       descendant INT,\n       PRIMARY KEY (ancestor, descendant),\n       FOREIGN KEY (ancestor) REFERENCES categories(id),\n       FOREIGN KEY (descendant) REFERENCES categories(id)\n   );

@@ -1,0 +1,1 @@
+using YourProjectNamespace.App_WebReferences.YourWebServiceReference;

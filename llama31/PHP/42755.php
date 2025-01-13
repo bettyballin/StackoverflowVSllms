@@ -1,0 +1,1 @@
+if ($stmt = $link->prepare("SELECT item FROM data WHERE id = ?")) {\n    // ...\n    $results = array();\n    while ($stmt->fetch()) {\n        $results[] = $item;\n    }\n    $stmt->close();\n\n    foreach ($results as $item) {\n        // ...\n        if ($stmt2 = $link->prepare("INSERT INTO summaries (itemID, summary) VALUES (?, ?)")) {\n            // ...\n        }\n    }\n}

@@ -1,1 +1,0 @@
-class YourModel < ApplicationRecord\n  validate :valid_date\n\n  def valid_date\n    # Assuming your model has day, month, and year attributes\n    if !Date.valid_date?(year, month, day)\n      errors.add(:base, "The date provided is not valid")\n    end\n  end\nend

@@ -1,0 +1,1 @@
+#include <libnotify/notify.h>\n\nint main() {\n    NotifyNotification *notification;\n    notify_init("My Application");\n\n    notification = notify_notification_new("Hello, world!", "This is a notification.", NULL);\n    notify_notification_show(notification, NULL);\n\n    g_object_unref(G_OBJECT(notification));\n    notify_uninit();\n    return 0;\n}

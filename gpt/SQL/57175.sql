@@ -1,1 +1,0 @@
-SET GLOBAL innodb_buffer_pool_size = 1024 * 1024 * 1024; -- Adjust the size based on your available memory

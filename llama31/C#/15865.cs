@@ -1,0 +1,1 @@
+WaitHandle handle = ...;\nTimeSpan timeout = ...;\nThreadPool.RegisterWaitForSingleObject(handle, (state, timedOut) => {\n    // callback method\n}, null, timeout, true); // pass true for executeOnlyOnce

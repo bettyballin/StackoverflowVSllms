@@ -1,1 +1,0 @@
-INSERT INTO pivot_table (table1ID, table2ID) VALUES (1, 1);\nINSERT INTO pivot_table (table1ID, table2ID) VALUES (1, 1);  -- This will fail

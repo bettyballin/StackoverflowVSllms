@@ -1,0 +1,1 @@
+$result = mysql_query("SELECT * FROM table WHERE filename = 'test1.jpg'");\nif (mysql_num_rows($result) > 0) {\n    $data = mysql_fetch_assoc($result);\n    var_dump($data);\n} else {\n    echo "No rows returned";\n}

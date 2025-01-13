@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <string.h>\n\nchar* formatFloat(char* buf, float num) {\n    snprintf(buf, 20, "%.1f", num);\n    if (num == (int)num) {\n        char* p = strchr(buf, '.');\n        if (p) {\n            *p = '\0';\n        }\n    }\n    return buf;\n}

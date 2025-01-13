@@ -1,0 +1,1 @@
+CREATE TABLE MY_DATA.my_table\nAS SELECT *\nFROM CORE_DATA.core_table;

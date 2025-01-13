@@ -1,1 +1,0 @@
-// Example of a simple Firefox add-on to fetch and parse a webpage\nbrowser.webRequest.onCompleted.addListener((details) => {\n  fetch(details.url).then(response => response.text()).then(data => {\n    // Parse the page content here\n  });\n}, { urls: ["<all_urls>"] });

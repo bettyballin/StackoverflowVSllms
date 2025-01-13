@@ -1,1 +1,0 @@
-ComServiceClient client = new ComServiceClient();\nclient.CallComMethodCompleted += (s, e) =>\n{\n    string result = e.Result;\n    // Handle the result\n};\nclient.CallComMethodAsync("your parameter");

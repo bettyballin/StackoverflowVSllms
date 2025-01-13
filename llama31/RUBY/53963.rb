@@ -1,0 +1,1 @@
+ActionMailer::Base.smtp_settings = {\n  # ...\n  :openssl_verify_mode => 'none'\n}

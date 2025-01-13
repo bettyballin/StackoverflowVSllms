@@ -1,1 +1,0 @@
-#include <vector>\n#include <iostream>\n#include <boost/geometry.hpp>\n#include <boost/geometry/geometries/point.hpp>\n#include <boost/geometry/geometries/box.hpp>\n#include <boost/geometry/index/rtree.hpp>

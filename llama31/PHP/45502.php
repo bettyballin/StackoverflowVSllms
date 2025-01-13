@@ -1,0 +1,1 @@
+$client = new nusoap_client("my.wsdl", true);\n$client->namespaces = array(\n  'ns1' => 'http://domain.tld/namespace1',\n  'ns2' => 'http://domain.tld/namespace2'\n);\n$params = array(\n  'Person' => array(\n    'FirstName' => 'Thomas',\n    // ...\n  ),\n  'Attribute' => 'foo'\n);

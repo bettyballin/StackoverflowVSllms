@@ -1,1 +1,0 @@
-string connectionString = "Server=VirtualServerName\\InstanceName;Database=YourDatabase;Trusted_Connection=True;";

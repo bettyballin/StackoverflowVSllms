@@ -1,0 +1,1 @@
+$array3 = $array1 + $array2;

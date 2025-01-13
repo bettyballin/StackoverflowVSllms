@@ -1,0 +1,1 @@
+// Example PHP script to test local installation\n<?php\n  echo "Hello, World!";\n?>

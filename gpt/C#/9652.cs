@@ -1,1 +1,0 @@
-private string _name;\npublic string Name\n{\n    get { return _name; }\n    set { _name = value; }\n}

@@ -1,0 +1,1 @@
+CREATE TABLE users (\n  userid INT PRIMARY KEY,\n  username TEXT NOT NULL,\n  password_hash TEXT NOT NULL,  // store a secure password hash\n  user_someopt1 INT,\n  user_sig TEXT\n);\n\nCREATE INDEX idx_userid ON users (userid);

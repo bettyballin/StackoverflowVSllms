@@ -1,0 +1,1 @@
+$your_variable = $_SESSION['your_variable']; // access the variable from the sessio

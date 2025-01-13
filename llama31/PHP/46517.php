@@ -1,0 +1,1 @@
+// in iframe.php\nsession_start();\n$array = array('string1', 'string2', 'string3');\n$_SESSION['array'] = $array;\n\n// in parent.php\nsession_start();\n$array = $_SESSION['array'];\nprint_r($array);

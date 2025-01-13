@@ -1,0 +1,1 @@
+SELECT \n    CONVERT(date, your_date_column) AS date,\n    UPPER(REPLACE(your_nvarchar_column, 'ı', 'i')) AS name,\n    COUNT(*) AS count\nFROM \n    your_table\nGROUP BY \n    CONVERT(date, your_date_column),\n    UPPER(REPLACE(your_nvarchar_column, 'ı', 'i'))

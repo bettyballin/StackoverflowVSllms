@@ -1,0 +1,1 @@
+// Generate a new Guid\nGuid uniqueId = Guid.NewGuid();\n\n// Store the Guid in the Session object\nSession["UniqueId"] = uniqueId;

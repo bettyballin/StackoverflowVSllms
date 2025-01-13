@@ -1,0 +1,1 @@
+Dim strFileName, strMimeType\n\nstrFileName = "example.pdf" ' replace with your file name\n\nstrMimeType = Server.GetMimeType(strFileName)\n\nIf strMimeType <> "" Then\n    Response.ContentType = strMimeType\nElse\n    ' handle unknown mime type\nEnd If\n\nResponse.AddHeader "Content-Disposition", "attachment;filename=""" & strFileName & """"

@@ -1,0 +1,1 @@
+gcc -o yourguicode yourguicode.c -lgtk-3 -lgdk-3 -lglib-2.0 -I/usr/include/gtk-3.0

@@ -1,0 +1,1 @@
+from sqlobject import *\n\nconnection = connectionForURI('sqlite:///example.db')\nsqlhub.processConnection = connection\n\nclass User(SQLObject):\n    name = StringCol()\n\nusers = User.select()

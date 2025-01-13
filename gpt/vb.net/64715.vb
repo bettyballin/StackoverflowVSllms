@@ -1,1 +1,0 @@
-Function IsLeapYear(Year As Integer) As Boolean\n    ' A leap year is any year divisible by 4, except for years divisible by 100, \n    ' but including years divisible by 400.\n    \n    ' Using DateSerial to check if February 29 exists in the given year.\n    IsLeapYear = (Month(DateSerial(Year, 2, 29)) = 2)\nEnd Functio

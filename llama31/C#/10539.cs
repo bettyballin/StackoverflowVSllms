@@ -1,0 +1,1 @@
+System.Diagnostics.Debug.WriteLine("Your warning message here")

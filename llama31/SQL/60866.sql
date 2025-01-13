@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION get_value_at_index(p_id NUMBER, p_index NUMBER)\n  RETURN NUMBER\nIS\n  l_blob BLOB;\n  l_value BINARY_FLOAT;\nBEGIN\n  SELECT data INTO l_blob FROM waveforms WHERE id = p_id;\n  l_value := UTL_RAW.CAST_TO_BINARY_FLOAT(DBMS_LOB.SUBSTR(l_blob, 4, p_index * 4 + 1));\n  RETURN l_value;\nEND;

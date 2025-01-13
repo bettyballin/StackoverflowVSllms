@@ -1,0 +1,1 @@
+[WebMethod]\npublic static string UpdateTextBox()\n{\n    // Your long process here\n    return "I know this is silly";\n}

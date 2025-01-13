@@ -1,0 +1,1 @@
+CREATE TABLE mytable (\n  id INT PRIMARY KEY,\n  code ENUM('N', 'R', 'O') NOT NULL\n);

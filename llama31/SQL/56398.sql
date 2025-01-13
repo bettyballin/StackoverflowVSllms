@@ -1,0 +1,1 @@
+SELECT *\nFROM articles\nORDER BY COALESCE(\n  CASE\n    WHEN article_release_date < issue_release_date THEN article_release_date\n    ELSE issue_release_date\n  END,\n  issue_release_date\n);

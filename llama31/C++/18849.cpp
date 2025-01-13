@@ -1,0 +1,1 @@
+bool updateDisplay = false;\n\nvoid mainThread() {\n    // ...\n    updateDisplay = true;\n}\n\nvoid openglThread() {\n    InitGL();\n    glutTimerFunc(500, timerCallback, 0);\n    glutMainLoop();\n}\n\nvoid timerCallback(int value) {\n    if (updateDisplay) {\n        glutPostRedisplay();\n        updateDisplay = false;\n    }\n    glutTimerFunc(500, timerCallback, 0);\n}

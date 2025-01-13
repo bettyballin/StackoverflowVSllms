@@ -1,0 +1,1 @@
+$cache = new Mem;\n$cache->event($event)->delete();

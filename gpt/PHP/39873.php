@@ -1,1 +1,0 @@
-$encryption_key = "your-secret-encryption-key";\n$encrypted_data = $_POST['data'];\n\n$decrypted_data = decryptData($encrypted_data, $encryption_key);\n\necho $decrypted_data;

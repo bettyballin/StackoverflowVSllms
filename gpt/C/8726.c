@@ -1,1 +1,0 @@
-#define ARRAY_LEN 4\n\nlong *targetArray = (long *)malloc(sizeof(long) * ARRAY_LEN);\nif (targetArray == NULL) {\n    // Handle memory allocation failure\n}\n\nssize_t bytesRead = read(socketFD, targetArray, sizeof(long) * ARRAY_LEN);\nif (bytesRead < 0) {\n    // Handle read error\n}\n\n// Don't forget to free the allocated memory when done\nfree(targetArray);

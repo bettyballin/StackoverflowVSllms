@@ -1,1 +1,0 @@
-// Global.asax.cs\nvoid Application_Start(object sender, EventArgs e)\n{\n    // Code that runs on application startup\n    Application["AppStartTime"] = DateTime.Now;\n}\n\nvoid Application_End(object sender, EventArgs e)\n{\n    // Code that runs on application shutdown\n}

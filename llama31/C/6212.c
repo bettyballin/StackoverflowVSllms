@@ -1,0 +1,1 @@
+// myapp.c (console application)\n#include <stdio.h>\n\nint add(int a, int b) {\n    return a + b;\n}\n\nint main() {\n    printf("Result: %d\n", add(2, 3));\n    return 0;\n}

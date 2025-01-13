@@ -1,0 +1,1 @@
+$.ajax({\n  type: 'GET',\n  url: 'https://example.com/api/data',\n  success: function(data) {\n    console.log(data);\n  }\n});\n\n$.ajax({\n  type: 'POST',\n  url: 'https://example.com/api/data',\n  data: { name: 'John Doe' },\n  success: function(data) {\n    console.log(data);\n  }\n});

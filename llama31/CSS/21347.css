@@ -1,0 +1,1 @@
+table.ForumThreadViewer td.Date {\n  height: 20px;\n  min-height: 20px; /* add this line */\n}

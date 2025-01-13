@@ -1,0 +1,1 @@
+[DllImport("user32.dll")]\nstatic extern uint MapVirtualKey(uint uCode, uint uMapType);\n\n// assume 'vkCode' is the virtual key code\nuint scanCode = MapVirtualKey(vkCode, 0);\nKeys formsKey = (Keys)scanCode;

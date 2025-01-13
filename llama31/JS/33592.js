@@ -1,0 +1,1 @@
+// Client-side (JavaScript)\nfunction checkForUpdates() {\n  $.ajax({\n    type: 'GET',\n    url: '/updates',\n    async: true,\n    timeout: 30000, // 30 seconds\n    success: function(data) {\n      if (data.hasUpdates) {\n        // Update the page\n      }\n      checkForUpdates(); // Repeat the process\n    }\n  });\n}

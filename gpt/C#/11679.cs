@@ -1,1 +1,0 @@
-public ActionResult YourAction()\n{\n    try\n    {\n        // Your logic here\n    }\n    catch (Exception ex)\n    {\n        Response.StatusCode = 500;\n        return Json(new { message = ex.Message });\n    }\n}

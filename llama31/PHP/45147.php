@@ -1,0 +1,1 @@
+$sql=mysql_query("UPDATE blpublication SET JournalName = '$_POST[journal]', AcceptanceDate = '$_POST[acceptancedate]', PublishedDate = '$_POST[publisheddate]', Comment = '$_POST[comment]'\nWHERE JobNo = '$_POST[jobno]'");

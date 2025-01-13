@@ -1,0 +1,1 @@
+SELECT timeEvent \nFROM tbEvents \nWHERE CONVERT(VARCHAR(8), startHour, 108) >= CONVERT(VARCHAR(8), @startHour, 108)

@@ -1,0 +1,1 @@
+CREATE VIEW CustomerData AS\nSELECT \n    c.CustomerID,\n    c.Name,\n    o.OrderID,\n    o.OrderDate\nFROM \n    Customers c\nINNER JOIN \n    Orders o ON c.CustomerID = o.CustomerID;

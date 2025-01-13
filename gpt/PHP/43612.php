@@ -1,1 +1,0 @@
-if (getenv('HTTP_X_FORWARDED_FOR')) {\n    $ip = getenv('HTTP_X_FORWARDED_FOR');\n    $host = gethostbyaddr($ip);\n} else {\n    $ip = getenv('REMOTE_ADDR');\n    $host = gethostbyaddr($ip);\n}\n\nif (empty($ip)) {\n    echo "IP address not found.";\n} else {\n    echo "IP: $ip, Host: $host";\n}

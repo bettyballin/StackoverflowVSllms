@@ -1,0 +1,1 @@
+public static T DeserializeObject<T>(string xmlString)\n{\n    XmlSerializer xs = new XmlSerializer(typeof(T));\n    StringReader stringReader = new StringReader(xmlString);\n    return (T)xs.Deserialize(stringReader);\n}

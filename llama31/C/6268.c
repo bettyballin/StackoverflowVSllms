@@ -1,0 +1,1 @@
+static void\nsheet_method_apply_cellarray (Sheet * sheet, \n                  Cell ** array,\n                  gint size)\n{\n    // ...\n    array = (Cell **)g_realloc(array, size * sizeof(Cell *));\n    // ...\n}

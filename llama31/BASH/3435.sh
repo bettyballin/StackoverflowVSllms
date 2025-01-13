@@ -1,0 +1,1 @@
+ssh -t server.com screen -dr pts-2

@@ -1,1 +1,0 @@
-echo '<script>var userInput = ' . json_encode($userInput) . ';</script>';

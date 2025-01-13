@@ -1,1 +1,0 @@
-php your-script.php

@@ -1,0 +1,1 @@
+while (!feof($handle)) {\n    $progress = fread($handle, 8192);\n    preg_match('/\[download\] ([\d\.]+)% of ([\d\.]+[MKG]?)/', $progress, $matches);\n    if (isset($matches[1]) && isset($matches[2])) {\n        $percentage = $matches[1];\n        $filesize = $matches[2];\n        // Do something with $percentage and $filesize\n    }\n}

@@ -1,1 +1,0 @@
-int factorial(int n, int accumulator = 1) {\n       if (n == 0) {\n           return accumulator;\n       }\n       return factorial(n - 1, n * accumulator);\n   }

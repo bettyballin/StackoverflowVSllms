@@ -1,1 +1,0 @@
-var obj = someObject;\nobj.Property1 = "Value1";\nobj.Property2 = "Value2";\nobj.Method1();

@@ -1,0 +1,1 @@
+$(window).on('load', function() {\n  $('.entries').each(function() {\n    $(this).attr("value", $(this).outerHeight() + 15);\n  });\n});

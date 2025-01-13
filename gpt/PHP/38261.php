@@ -1,1 +1,0 @@
-// PHP example\n    $pattern = '/abc/i';

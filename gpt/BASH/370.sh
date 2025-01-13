@@ -1,1 +1,0 @@
-sudo docker pull oracle/database:19.3.0-ee

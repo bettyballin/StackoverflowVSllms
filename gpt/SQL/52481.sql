@@ -1,1 +1,0 @@
-CREATE TRIGGER tr_ServerDDLTrigger\nON ALL SERVER\nFOR DDL_EVENTS\nAS\nBEGIN\n    DECLARE @data XML\n    SET @data = EVENTDATA()\n    \n    -- Insert the event data into a logging table\n    INSERT INTO [YourCentralDatabase].[dbo].[DDLLog] (EventData)\n    VALUES (@data)\nEND\nGO

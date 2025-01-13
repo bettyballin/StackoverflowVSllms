@@ -1,0 +1,1 @@
+Color c = ColorDialog1.Color;\nint colorInt = (c.A << 24) | (c.R << 16) | (c.G << 8) | c.B;

@@ -1,0 +1,1 @@
+$thumbs.on("mouseenter", function() {\n    $(this).children(".download").fadeTo("fast", 1);\n    $(this).children(".hud").fadeTo("fast", 0.7);\n}).on("mouseleave", function() {\n    $div.fadeTo("fast", 0);\n});

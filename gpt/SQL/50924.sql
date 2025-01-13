@@ -1,1 +1,0 @@
-CREATE INDEX idx_subscribers_id ON Subscribers(ID);\nCREATE INDEX idx_subscribergroups_subscriberid ON SubscriberGroups(SubscriberID);\nCREATE INDEX idx_subscribergroups_groupid ON SubscriberGroups(GroupID);\nCREATE INDEX idx_subscribergroups_subscriberid_groupid ON SubscriberGroups(SubscriberID, GroupID);

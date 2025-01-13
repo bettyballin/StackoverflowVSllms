@@ -1,1 +1,0 @@
-set RAILS_ENV=productio

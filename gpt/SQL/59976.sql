@@ -1,1 +1,0 @@
-SELECT user_id, score\nFROM (\n    SELECT user_id, MAX(score) AS score\n    FROM user_scores\n    GROUP BY user_id\n) AS user_high_scores\nORDER BY score DESC\nLIMIT 5;

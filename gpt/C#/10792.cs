@@ -1,1 +1,0 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;\n\n[TestClass]\npublic class MyTests\n{\n    [TestMethod]\n    public void TestMethod1()\n    {\n        // Arrange\n        var expected = 1;\n        var actual = 1;\n\n        // Act\n        // (perform actions that you are testing)\n\n        // Assert\n        Assert.AreEqual(expected, actual);\n    }\n}

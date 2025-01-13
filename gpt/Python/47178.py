@@ -1,1 +1,0 @@
-string = "x/y"\nmyVariable, myVariable2 = string.split('/')

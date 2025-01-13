@@ -1,0 +1,1 @@
+.content-body {\n    padding: 10px 15px;\n    font-size: .8em;\n    font-family: arial;\n    overflow: auto;\n}\n\n.content-body:after {\n    content: ".";\n    display: block;\n    height: 0;\n    clear: both;\n    visibility: hidden;\n}

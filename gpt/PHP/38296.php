@@ -1,1 +1,0 @@
-Array\n(\n    [0] => Array\n        (\n            ['id'] => 8\n            ['title'] => Untitled\n        )\n    [1] => Array\n        (\n            ['id'] => 11\n            ['title'] => Untitled\n        )\n)

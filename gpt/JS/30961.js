@@ -1,1 +1,0 @@
-const timestampInSeconds = Math.floor(Date.now() / 1000);\nconsole.log(timestampInSeconds);

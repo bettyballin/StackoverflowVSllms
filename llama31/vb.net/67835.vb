@@ -1,0 +1,1 @@
+Function GetInteger() As Integer\n    Return Nothing ' will return 0\nEnd Function\n\nFunction GetNullableInteger() As Integer?\n    Return Nothing ' will return null\nEnd Functio

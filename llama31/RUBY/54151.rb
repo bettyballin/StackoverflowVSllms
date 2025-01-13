@@ -1,0 +1,1 @@
+# my_script.rb\ndef greet(name)\n  puts "Hello, #{name}!"\nend

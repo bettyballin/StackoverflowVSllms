@@ -1,1 +1,0 @@
-SELECT c.name AS FieldName\nFROM tempdb.sys.columns AS c\nJOIN tempdb.sys.objects AS o ON c.object_id = o.object_id\nWHERE o.name LIKE '#MyTempTable%'\nAND o.type = 'U';

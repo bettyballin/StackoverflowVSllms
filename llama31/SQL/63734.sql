@@ -1,0 +1,1 @@
+CREATE PROCEDURE sp_InsertWheel\n    @car_id INT,\n    @wheel_name VARCHAR(50)\nAS\nBEGIN\n    INSERT INTO wheels (car_id, wheel_name)\n    VALUES (@car_id, @wheel_name);\nEND;

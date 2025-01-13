@@ -1,1 +1,0 @@
-string escapedUsername = EscapeLdapSearchFilter(username);\nstring escapedDomain = EscapeLdapSearchFilter(domain);\n\nstring search = "(&(&(objectCategory=person)(userprincipalname=" \n    + escapedUsername \n    + "@" \n    + escapedDomain \n    + "*)(samaccountname=" \n    + escapedUsername \n    + ")))";

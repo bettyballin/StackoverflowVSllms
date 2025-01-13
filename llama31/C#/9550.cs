@@ -1,0 +1,1 @@
+public async Task<IActionResult> MyActionAsync()\n{\n    // Perform some async operation\n    var result = await MyService.AsyncOperationAsync();\n\n    // Process the result\n    return View(result);\n}

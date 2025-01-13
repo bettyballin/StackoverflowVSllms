@@ -1,1 +1,0 @@
-from abc import ABC, abstractmethod\n\nclass DiskInfoProvider(ABC):\n    @abstractmethod\n    def get_logical_disk_info(self):\n        pass

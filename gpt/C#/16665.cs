@@ -1,1 +1,0 @@
-using System;\n\npublic class MyClass\n{\n    [MyCustomPermission(SecurityAction.Demand)]\n    public void MySecureMethod()\n    {\n        Console.WriteLine("Executing secure method.");\n    }\n}

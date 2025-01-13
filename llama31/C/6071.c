@@ -1,0 +1,1 @@
+// Example using Intel SGX\n#include <sgx_urts.h>\n\nint main() {\n    // Initialize the enclave\n    sgx_enclave_id_t eid;\n    sgx_create_encrypted_enclave(&eid);\n\n    // Run your application within the enclave\n    // ...\n}

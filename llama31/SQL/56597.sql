@@ -1,0 +1,1 @@
+ALTER TABLE Mammals\nADD CONSTRAINT CK_Mammals_AnimalType CHECK (\n    EXISTS (\n        SELECT 1\n        FROM Animals\n        WHERE Animals.AnimalId = Mammals.AnimalId\n        AND Animals.AnimalType = 1\n    )\n);

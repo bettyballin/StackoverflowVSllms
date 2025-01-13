@@ -1,0 +1,1 @@
+use Utils\MyUtility;\n\nclass MyController extends Controller\n{\n    public function myAction()\n    {\n        $utility = new MyUtility();\n        // use the utility\n    }\n}

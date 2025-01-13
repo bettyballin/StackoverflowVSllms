@@ -1,1 +1,0 @@
-set RSH=myusername@host.suffix1.company.com\n   rsh %RSH% command

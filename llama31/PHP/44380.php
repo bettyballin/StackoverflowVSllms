@@ -1,0 +1,1 @@
+$errorCache = array();\n\nfunction errorHandler($errno, $errstr, $errfile, $errline) {\n    global $errorCache;\n    $errorKey = md5($errstr . $errfile . $errline);\n    if (!isset($errorCache[$errorKey])) {\n        error_log($errstr . " in " . $errfile . " on line " . $errline, 0);\n        $errorCache[$errorKey] = true;\n    }\n    return true;\n}

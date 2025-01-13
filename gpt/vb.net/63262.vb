@@ -1,1 +1,0 @@
-Dim scriptName As String = Request.ServerVariables("SCRIPT_NAME")\nResponse.Write(scriptName)

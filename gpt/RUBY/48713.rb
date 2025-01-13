@@ -1,1 +1,0 @@
-page.replace_html 'element_id', :partial => 'some_partial'\npage.visual_effect :highlight, 'element_id'

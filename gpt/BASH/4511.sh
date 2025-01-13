@@ -1,1 +1,0 @@
-git clone https://github.com/crosstool-ng/crosstool-ng\n   cd crosstool-ng\n   ./bootstrap\n   ./configure --prefix=/usr/local\n   make\n   sudo make install\n   ct-ng menuconfig

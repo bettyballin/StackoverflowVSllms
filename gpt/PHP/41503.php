@@ -1,1 +1,0 @@
-// Verify the CSRF token in PHP\n   session_start();\n   if ($_SERVER['REQUEST_METHOD'] === 'POST') {\n       if (!hash_equals($_SESSION['csrf_token'], $_POST['csrf_token'])) {\n           die('CSRF token validation failed');\n       }\n   }

@@ -1,0 +1,1 @@
+fn_exists() {\n  declare -f "$1" > /dev/null\n}

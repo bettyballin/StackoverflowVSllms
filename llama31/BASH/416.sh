@@ -1,0 +1,1 @@
+export MOZILLA_FIVE_HOME=/usr/lib/mozilla-1.7.12

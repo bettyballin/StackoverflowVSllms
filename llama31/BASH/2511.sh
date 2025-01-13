@@ -1,0 +1,1 @@
+start_line=$(grep -n -m 1 "May  3 13:21:12" mail.log* | cut -d: -f1)\nend_line=$(grep -n -m 1 "May  3 14:00:00" mail.log* | cut -d: -f1)\n\nsed -n "${start_line},${end_line}p" mail.log*

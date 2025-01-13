@@ -1,0 +1,1 @@
+CREATE TABLE friend_bulletin_2022 ( ... ) PARTITION BY RANGE (submit_date);

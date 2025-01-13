@@ -1,0 +1,1 @@
+[WebMethod]\npublic static void InsertUsers(List<User> usersToInsert)\n{\n    // Insert the users into the database\n    // ...\n}

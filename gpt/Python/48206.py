@@ -1,1 +1,0 @@
-import json\n\n# Read from a file\nwith open('data.json', 'r') as file:\n    d = json.load(file)\n\nprint(d)

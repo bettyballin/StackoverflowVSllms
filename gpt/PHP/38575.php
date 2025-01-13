@@ -1,1 +1,0 @@
-<?php\n// getDate.php\necho date('Y-m-d H:i:s');\n?>

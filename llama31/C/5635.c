@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <stdlib.h>\n\n__declspec(dllexport) char* MyFunc(void) {\n    char* str = (char*)malloc(256);\n    sprintf(str, "Hello, World!");\n    return str;\n}

@@ -1,1 +1,0 @@
-Sub Main()\n    Dim manager As New EventManager()\n\n    ' Raise event before Object2 is instantiated\n    manager.RaiseEventInObject1()\n\n    ' Instantiate Object2 and attach the handler\n    manager.CreateObject2AndAttachHandler()\n\n    ' Raise event after Object2 is instantiated\n    manager.RaiseEventInObject1()\nEnd Sub

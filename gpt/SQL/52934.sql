@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION my_function(input_value type)\nRETURNS SETOF type AS $$\nBEGIN\n    -- Function implementation that returns a set of values\nEND;\n$$ LANGUAGE plpgsql;

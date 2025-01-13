@@ -1,0 +1,1 @@
+from sqlalchemy import Column, PickleType\n\nclass User(Base):\n    __tablename__ = 'users'\n    id = Column(Integer, primary_key=True)\n    permissions = Column(PickleType)\n\nclass Group(Base):\n    __tablename__ = 'groups'\n    id = Column(Integer, primary_key=True)\n    permissions = Column(PickleType)

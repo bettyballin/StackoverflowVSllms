@@ -1,0 +1,1 @@
+If Response.Cookies.Count > 0 Then\n    Dim cookie As HttpCookie = Response.Cookies("aLog")\n    cookie.Expires = DateTime.Now.AddDays(-1)\n    Response.Cookies.Add(cookie)\nEnd If

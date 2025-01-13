@@ -1,0 +1,1 @@
+int sockfd = socket(AF_INET, SOCK_DGRAM, 0);\nif (sockfd < 0) {\n    perror("socket creation failed");\n    exit(1);\n}\n\nint val = IP_PMTUDISC_DO;\nif (setsockopt(sockfd, IPPROTO_IP, IP_DONTFRAG, &val, sizeof(val)) < 0) {\n    perror("setsockopt failed");\n    exit(1);\n}

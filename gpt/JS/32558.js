@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    $(function() {\n        $("#activator").click(function(){\n            $("#social").slideToggle("slow");\n        });\n    });\n</script>

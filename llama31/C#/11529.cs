@@ -1,0 +1,1 @@
+using System;\nusing System.IO;\nusing System.Text;\n\npublic class WriteAnsiFile\n{\n    public void WriteToFile(string filePath, string content)\n    {\n        using (StreamWriter writer = new StreamWriter(filePath, false, Encoding.GetEncoding("Windows-1252")))\n        {\n            writer.Write(content);\n        }\n    }\n}

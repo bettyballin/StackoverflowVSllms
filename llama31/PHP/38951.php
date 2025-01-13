@@ -1,0 +1,1 @@
+$ciphertext = 'sadfasfasdf90809sf890as8fjwkjlf';\n\n$fp = fopen('php://memory', 'r+');\nfwrite($fp, $ciphertext);\nrewind($fp);\n\n$upload = ftp_fput($conn_id, $dir."/".$ftp_file.$extenstion, $fp, FTP_BINARY);\n\nfclose($fp);\n\n// Check upload status\necho ('upload '. ($upload ? 'true':' false'));

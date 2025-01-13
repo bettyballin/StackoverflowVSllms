@@ -1,1 +1,0 @@
-./profiler.sh stop -f /path/to/output.jfr <PID>

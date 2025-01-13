@@ -1,0 +1,1 @@
+$url = parse_url($_SERVER['PHP_SELF']);\nif (!isset($url['path']) || strpos($url['path'], 'blog') === false) {\n    echo "<div id='stuff'></div>";\n}

@@ -1,1 +1,0 @@
-cd %windir%\system32\inetsrv\nappcmd add backup "MyBackup"

@@ -1,0 +1,1 @@
+s.append("[");\nfor (i = 0; i < 5; ++i) {\n    s.appendF("\"%d\"", i);\n    if (i < 4) { // don't append comma after last item\n        s.append(",");\n    }\n}\ns.append("]");

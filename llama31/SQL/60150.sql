@@ -1,0 +1,1 @@
+CREATE TABLE example (\n    id SERIAL PRIMARY KEY,\n    text_column text,\n    nvarchar_column nvarchar(5000)\n);

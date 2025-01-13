@@ -1,0 +1,1 @@
+CREATE PROCEDURE MyProcedure\n    @Param INT = NULL\nAS\nBEGIN\n    SELECT *\n    FROM Table\n    WHERE (@Param IS NULL OR id = @Param)\nEND

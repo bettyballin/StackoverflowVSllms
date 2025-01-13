@@ -1,0 +1,1 @@
+var dict = new OrderedDictionary<string, int>();\n\ndict.Add("a", 1);\ndict.Add("b", 2);\ndict.Add("c", 3);\n\nforeach (var value in dict)\n{\n    Console.WriteLine(value); // prints 1, 2, 3\n}\n\nConsole.WriteLine(dict.Get("b")); // prints 2

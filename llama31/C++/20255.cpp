@@ -1,0 +1,1 @@
+void foo() {\n    // Use RAII to ensure resources are released even in the presence of exceptions\n    std::unique_ptr<MyResource> resource(new MyResource());\n    // ...\n}

@@ -1,0 +1,1 @@
+class MyResourceController < ApplicationController\n  # ...\n\n  def destroy\n    # destroy logic\n  end\n\n  def restore\n    # restore logic\n  end\nend\n\n# routes.rb\nresources :my_resources do\n  member do\n    patch :restore\n  end\nend

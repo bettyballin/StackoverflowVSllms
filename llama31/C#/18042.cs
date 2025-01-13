@@ -1,0 +1,1 @@
+using System;\nusing System.Web.UI;\nusing AjaxControlToolkit;\n\npublic class MyCustomAnimationExtender : ExtenderControl\n{\n    // Implement your custom animation logic here\n}

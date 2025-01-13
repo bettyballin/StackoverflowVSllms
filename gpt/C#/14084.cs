@@ -1,1 +1,0 @@
-// Assuming you have an instance of the object containing the event\nvar myObject = new MyClass();\nEventHelper.RemoveAllEventHandlers(myObject, "SolutionExpired");

@@ -1,1 +1,0 @@
-using System;\nusing System.Web.Services;\n\npublic partial class _Default : System.Web.UI.Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n    }\n\n    [WebMethod]\n    public static string ServerSideMethod()\n    {\n        // This is your server-side logic\n        return "Hello from the server!";\n    }\n}

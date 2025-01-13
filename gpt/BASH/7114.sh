@@ -1,1 +1,0 @@
-#!/bin/bash\n   # Change ownership to the current user and group\n   sudo chown -R $(id -u):$(id -g) /path/to/your/volume\n\n   # Change permissions to be more restrictive than 777\n   sudo find /path/to/your/volume -type d -exec chmod 755 {} \;\n   sudo find /path/to/your/volume -type f -exec chmod 644 {} \;

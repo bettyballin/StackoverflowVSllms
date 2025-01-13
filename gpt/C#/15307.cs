@@ -1,1 +1,0 @@
-using System.ComponentModel.DataAnnotations;\n\npublic class YourEntity\n{\n    [Key]\n    [ScaffoldColumn(false)]\n    public Guid Id { get; set; }\n\n    // Other properties\n}

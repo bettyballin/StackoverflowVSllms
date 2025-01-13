@@ -1,0 +1,1 @@
+[ServiceContract]\npublic interface IMyService\n{\n    [OperationContract]\n    [WebGet(UriTemplate = "/data", ResponseFormat = WebMessageFormat.Json)]\n    string GetData();\n}\n\npublic class MyService : IMyService\n{\n    public string GetData()\n    {\n        return "{\"name\":\"John\",\"age\":30}";\n    }\n}

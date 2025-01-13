@@ -1,1 +1,0 @@
-gcc -Wextra -Wempty-body example.c -o example

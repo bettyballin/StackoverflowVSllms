@@ -1,0 +1,1 @@
+pg_prepare($pgconn, 'update_null_val', "UPDATE my_table SET col_b = $1 WHERE col_a = $2");\npg_execute($pgconn, 'update_null_val', array(null, 'whatever'));

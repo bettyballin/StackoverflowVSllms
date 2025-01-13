@@ -1,1 +1,0 @@
-# myapp/views.py\n    from django.http import HttpResponse\n    from myapp.models import session, User\n\n    def user_list(request):\n        users = session.query(User).all()\n        return HttpResponse(users)

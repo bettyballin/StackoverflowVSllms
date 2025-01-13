@@ -1,0 +1,1 @@
+var element = document.getElementById("something");\nvar anchors = getElementsByTagName(element, "a");

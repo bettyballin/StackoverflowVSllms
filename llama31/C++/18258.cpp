@@ -1,0 +1,1 @@
+auto next = i;\nitems.erase(i);\ni = next;

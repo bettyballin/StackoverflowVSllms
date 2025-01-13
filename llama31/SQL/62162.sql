@@ -1,0 +1,1 @@
+BACKUP DATABASE [YourDatabaseName]\nTO DISK = 'C:\Backup\YourDatabaseName.bak'\nWITH FORMAT, MEDIANAME = 'YourBackupMediaName', NAME = 'YourBackupName'

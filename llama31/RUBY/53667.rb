@@ -1,0 +1,1 @@
+Factory.define :message do |msg|\n  msg.text "Dummy text"\n  msg.association :sender\n  trait :owned_by do |msg|\n    msg.sender { @me }\n  end\nend

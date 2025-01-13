@@ -1,0 +1,1 @@
+#include <MQTTClient.h>\n\n// Example: Publish an MQTT message to control pan\nMQTTClient client;\nMQTTClient_connectOptions opts = MQTTClient_connectOptions_initializer;\nopts.username = "username";\nopts.password = "password";\nif (MQTTClient_connect(client, "tcp://camera_ip:port", &opts) == MQTTCLIENT_SUCCESS) {\n    MQTTClient_publishMessage(client, "pan", "angle=45", 0);\n}

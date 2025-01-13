@@ -1,1 +1,0 @@
-SELECT \n  orders.customer,\n  CASE \n    WHEN SUM(orders.value) = 0 THEN 0 \n    ELSE SUM(CASE items.color WHEN 'Green' THEN orders.value ELSE 0 END) * 100 / SUM(orders.value)\n  END AS percentage,\n  SUM(orders.value) AS total_value\nFROM \n  orders\nINNER JOIN \n  items ON orders.item_id = items.item_id\nGROUP BY \n  orders.customer\nHAVING \n  SUM(orders.value) > 0;

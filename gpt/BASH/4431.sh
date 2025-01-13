@@ -1,1 +1,0 @@
-git checkout main\n   git merge staging\n   git push origin mai

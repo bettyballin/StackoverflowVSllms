@@ -1,0 +1,1 @@
+reg query HKCR\TypeLib /s /f IXxxInterfaceName\nreg query HKCR\Interface /s /f IXxxInterfaceName

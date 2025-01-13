@@ -1,1 +1,0 @@
-// To store the search parameters\n   Session["PreviousSearchParameters"] = searchParameters;\n\n   // To retrieve the search parameters\n   var previousSearchParameters = Session["PreviousSearchParameters"] as NameValueCollection;

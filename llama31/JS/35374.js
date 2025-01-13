@@ -1,0 +1,1 @@
+$('#rating').click(function() {\n    // update the rating here\n});

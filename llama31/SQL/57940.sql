@@ -1,0 +1,1 @@
+-- SQL Server example\nSELECT \n    t.name AS table_name,\n    c.name AS column_name,\n    ty.name AS data_type\nFROM \n    sys.tables t\nINNER JOIN \n    sys.columns c ON t.object_id = c.object_id\nINNER JOIN \n    sys.types ty ON c.system_type_id = ty.system_type_id\nFOR XML PATH('table'), ROOT('schema')

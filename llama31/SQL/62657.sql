@@ -1,0 +1,1 @@
+SELECT \n  TO_CHAR(TRUNC(closedate, 'MONTH'), 'YYYY-MM') AS month,\n  COUNT(*) AS num_transactions\nFROM \n  MY_TRANSACTIONS\nGROUP BY \n  TO_CHAR(TRUNC(closedate, 'MONTH'), 'YYYY-MM')

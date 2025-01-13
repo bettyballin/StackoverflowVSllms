@@ -1,1 +1,0 @@
-php-cgi.exe -i | findstr /c:"Loaded Configuration File"

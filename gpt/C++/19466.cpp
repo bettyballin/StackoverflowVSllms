@@ -1,1 +1,0 @@
-#include <iostream>\n#include <locale>\n\nint main() {\n    // Set the locale to UTF-8\n    std::setlocale(LC_ALL, "en_US.UTF-8");\n\n    // Your existing code to output memory contents\n    std::cout << "Your output here" << std::endl;\n\n    return 0;\n}

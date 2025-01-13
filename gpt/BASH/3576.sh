@@ -1,1 +1,0 @@
-export CAKE_CORE_INCLUDE_PATH=/home/iopener/webapps/cake_1.2.1.8004

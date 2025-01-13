@@ -1,0 +1,1 @@
+setspn -s MSSQLSvc/<server_name>:1433 <service_account>

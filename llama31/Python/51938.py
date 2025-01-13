@@ -1,0 +1,1 @@
+import ev3dev.ev3 as ev3\n\n# Connect to the EV3 brick\nev3 = ev3.EV3()\n\n# Play a beep\nev3.speaker.beep()

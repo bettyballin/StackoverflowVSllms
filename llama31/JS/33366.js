@@ -1,0 +1,1 @@
+/html = html.replace(/href="([^\?]+)\?.*?"/g, 'href="$1"');\n/html = html.replace(/src="([^\?]+)\?.*?"/g, 'src="$1"');

@@ -1,0 +1,1 @@
+using System.IO.Pipes;\n\n// Create a named pipe\nusing (var pipe = new NamedPipeServerStream("myPipe", PipeDirection.Out))\n{\n    // Send the integer\n    using (var writer = new StreamWriter(pipe))\n    {\n        writer.WriteLine("42");\n    }\n}

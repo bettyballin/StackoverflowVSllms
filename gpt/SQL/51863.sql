@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetUserData\n    @UserId INT\nAS\nBEGIN\n    SELECT this, that \n    FROM myTable \n    WHERE myStuff = @UserId;\nEND

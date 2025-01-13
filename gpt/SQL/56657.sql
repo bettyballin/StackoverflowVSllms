@@ -1,1 +1,0 @@
-INSERT INTO temp_ids (ID)\nVALUES (1);\nINSERT INTO temp_ids (ID)\nVALUES (2);\n-- Repeat for all IDs

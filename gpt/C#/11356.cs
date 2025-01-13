@@ -1,1 +1,0 @@
-using (var context = new YourDataContext())\n   {\n       var classes = from c in context.Classes\n                     select c;\n       foreach (var cls in classes)\n       {\n           Console.WriteLine(cls.ClassName);\n       }\n   }

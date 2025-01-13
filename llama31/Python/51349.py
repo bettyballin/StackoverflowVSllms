@@ -1,0 +1,1 @@
+import olefile\n\nwith olefile.OleFileIO('example.doc') as ole:\n    print(ole.listdir())\n    for stream in ole.listdir():\n        print(f"Stream: {stream}")\n        print(f"Size: {ole.get_size(stream)} bytes")\n        print(f"Type: {ole.get_type(stream)}")\n        # You can also read the stream contents using ole.openstream()

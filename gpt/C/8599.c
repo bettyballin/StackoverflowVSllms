@@ -1,1 +1,0 @@
-// ClientApp.c\n   #include "MyLibrary.h"\n   \n   void main() {\n       Function1();\n       Function2();\n       int value = Variable1;\n   }

@@ -1,0 +1,1 @@
+using System;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        Console.WriteLine(Environment.Version.ToString());\n        // Output: 3.5.0.0 ( Client Profile ) or 3.5.30729.5420 ( Full Framework )\n    }\n}

@@ -1,0 +1,1 @@
+int main() {\n    HashTable hashTable;\n\n    // populate the hash table...\n\n    hashTable.saveToFile("hash_table.bin");\n\n    // later...\n\n    hashTable.loadFromFile("hash_table.bin");\n\n    // use the loaded hash table...\n\n    return 0;\n}

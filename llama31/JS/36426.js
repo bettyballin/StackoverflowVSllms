@@ -1,0 +1,1 @@
+$(this).remove(); // or $(this).detach();

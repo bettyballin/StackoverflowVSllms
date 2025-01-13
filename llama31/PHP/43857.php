@@ -1,0 +1,1 @@
+ignore_user_abort(true);\n// Initiate your long-running script here\n$script = new MyLongRunningScript();\n$script->start();

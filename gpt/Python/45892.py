@@ -1,1 +1,0 @@
-import math\n\ndef find_n_for_nlogn(target):\n    low, high = 1, target\n    while low < high:\n        mid = (low + high) // 2\n        if mid * math.log2(mid) < target:\n            low = mid + 1\n        else:\n            high = mid\n    return low\n\ntarget = 10**7\nn_for_nlogn = find_n_for_nlogn(target)\nprint(n_for_nlogn)

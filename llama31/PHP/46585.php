@@ -1,0 +1,1 @@
+$securePages = array("admin.php", "addslot.php", "classpost.php");\n$pagename = "admin.php";\n\nforeach ($securePages as $page) {\n    if ($page === $pagename) {\n        header("Location: index.php");\n        exit();\n    }\n}

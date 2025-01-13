@@ -1,1 +1,0 @@
-if (getenv('FCGI_ROLE') == 'RESPONDER') {\n    echo "Running in FastCGI mode.";\n} else {\n    echo "Running in CGI mode.";\n}

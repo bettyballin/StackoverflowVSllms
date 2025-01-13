@@ -1,0 +1,1 @@
+List<int> numbers = new List<int> { 4, 2, 7, 1, 3 };\nnumbers.Sort((a, b) => a.CompareTo(b)); // using Comparison<T>

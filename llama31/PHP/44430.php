@@ -1,0 +1,1 @@
+// msn.class.php (around line 1672)\npublic function addContact($contactEmail) {\n    // ... (existing code)\n\n    // Auto-accept contact request\n    $this->sendCommand("ADL $contactEmail OK");\n    return true;\n}

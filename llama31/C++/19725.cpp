@@ -1,0 +1,1 @@
+// mylib.cpp\nvoid myFunction() {\n    // implementation\n}\n\n// Compile and create static library\ng++ -c mylib.cpp\nar rcs mylib.a mylib.o

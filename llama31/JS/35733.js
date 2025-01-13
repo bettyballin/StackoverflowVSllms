@@ -1,0 +1,1 @@
+const hiddenInput = document.getElementById('hiddenInput');\n\nhiddenInput.addEventListener('input', function() {\n  console.log('Hidden input value changed to:', hiddenInput.value);\n  // Call your second JavaScript function here\n});

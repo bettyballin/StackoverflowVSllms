@@ -1,1 +1,0 @@
-SELECT  *\nFROM    employees e\nLEFT JOIN\n        (\n        SELECT  *\n        FROM    timereports\n        WHERE   date = '2009-05-04'\n        ) t\nON      e.id = t.employee_id

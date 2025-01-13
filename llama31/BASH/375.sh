@@ -1,0 +1,1 @@
+xsltproc --profile -o output.xhtml input.xml stylesheet.xsl

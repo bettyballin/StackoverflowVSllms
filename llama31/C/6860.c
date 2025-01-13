@@ -1,0 +1,1 @@
+void upperCaseString(char *_str) {};  // _str is a pointer to a char\nvoid upperCaseString(char _str[]) {};  // _str is also a pointer to a char

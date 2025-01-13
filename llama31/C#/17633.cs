@@ -1,0 +1,1 @@
+byte[] bytes = (byte[])reader["id"];\nGuid guid = new Guid(bytes);

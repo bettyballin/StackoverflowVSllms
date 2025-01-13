@@ -1,0 +1,1 @@
+template <typename MC, typename MT>\nclass Manager : public Factory<MC, MT>\n{\npublic:\n    bool RegisterType(const MT Type, const std::string TypeName)\n    {\n        return Factory<MC, MT>::template Register<MC>(Type);\n    }\n};

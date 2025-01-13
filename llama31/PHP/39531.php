@@ -1,0 +1,1 @@
+exec('mklink /d C:\\path\\to\\symlink C:\\path\\to\\target\\directory');

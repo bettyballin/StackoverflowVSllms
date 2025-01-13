@@ -1,0 +1,1 @@
+EXEC UpdateMultipleTables @new_value = 10, @table1_id = 1, @table2_id = 2, @table3_id = 3;

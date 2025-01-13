@@ -1,1 +1,0 @@
-import pandas as pd\n\ndef load_file_with_detected_delimiter(file_path):\n    delimiter = detect_delimiter(file_path)\n    df = pd.read_csv(file_path, delimiter=delimiter)\n    return df\n\n# Example usage\nfile_path = 'path/to/your/file.txt'\ndf = load_file_with_detected_delimiter(file_path)\nprint(df.head())

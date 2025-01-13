@@ -1,0 +1,1 @@
+public interface IServiceA\n{\n    // Define the contract of Service A\n}\n\npublic class ServiceAProxy : IServiceA\n{\n    // Implement the proxy for Service A\n}\n\npublic class ServiceB\n{\n    private readonly IServiceA _serviceA;\n\n    public ServiceB(IServiceA serviceA)\n    {\n        _serviceA = serviceA;\n    }\n\n    // Use _serviceA to communicate with Service A\n}

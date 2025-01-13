@@ -1,0 +1,1 @@
+$sql = "SELECT \n  (SELECT SUM(price) FROM `table_A`) + \n  (SELECT SUM(price) FROM `table_B`) AS total_price";\n\n$res = mysql_query($sql);\nif (mysql_num_rows($res) > 0) {\n  $row = mysql_fetch_array($res);\n  echo '<h3>'.number_format($row["total_price"], 0).'</h3>';\n}\necho mysql_error();

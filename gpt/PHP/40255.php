@@ -1,1 +1,0 @@
-$conn->begin_transaction();\n   try {\n       $conn->query($sql);\n       $conn->commit();\n   } catch (Exception $e) {\n       $conn->rollback();\n       echo "Transaction failed: " . $e->getMessage();\n   }

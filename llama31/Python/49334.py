@@ -1,0 +1,1 @@
+import os\nimport signal\n\ndef shutdown_handler(signum, frame):\n    # Your cleanup code here\n    print("Cleaning up...")\n    # ...\n\nsignal.signal(signal.SIGBREAK, shutdown_handler)

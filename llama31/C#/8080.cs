@@ -1,0 +1,1 @@
+[HttpPost]\npublic ActionResult MyAction(FormCollection formCollection)\n{\n    string selectedValue = formCollection["DropDownListName"];\n    // Do something with the selected value\n    return RedirectToAction("Index");\n}

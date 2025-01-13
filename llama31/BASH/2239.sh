@@ -1,0 +1,1 @@
+./configure --with-sqlite3=C:\sqlite3

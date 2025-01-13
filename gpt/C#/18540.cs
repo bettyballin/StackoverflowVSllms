@@ -1,1 +1,0 @@
-public List<string> DeserializeList(byte[] data)\n{\n    if (data == null)\n        return null;\n\n    using (MemoryStream ms = new MemoryStream(data))\n    {\n        BinaryFormatter bf = new BinaryFormatter();\n        return (List<string>)bf.Deserialize(ms);\n    }\n}

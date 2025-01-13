@@ -1,0 +1,1 @@
+@echo off\nset LOG_FILE="C:\EventLogBackup\%date:~0,4%%date:~5,2%%date:~8,2%.evtx"\nset EVENT_LOG="Application"\n\nwevtutil epl %EVENT_LOG% %LOG_FILE%

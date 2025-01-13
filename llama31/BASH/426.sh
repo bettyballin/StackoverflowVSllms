@@ -1,0 +1,1 @@
+vendor/bin/phpcs --standard=PSR2 /path/to/your/code

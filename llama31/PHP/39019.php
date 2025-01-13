@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare('SELECT * FROM users WHERE name = :name AND email = :email');\n$stmt->bindParam(':name', $name);\n$stmt->bindParam(':email', $email);\n$stmt->execute();

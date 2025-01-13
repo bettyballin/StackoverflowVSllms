@@ -1,1 +1,0 @@
-<% if (Model.Bar != null) { %>\n    <% Html.RenderPartial("_Bar", Model.Bar); %>\n<% } else { %>\n    <% Html.RenderPartial("_Bar", (string)null); %>\n<% } %>

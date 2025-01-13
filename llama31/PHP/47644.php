@@ -1,0 +1,1 @@
+class UserController extends Zend_Controller_Action\n{\n    public function displayAction()\n    {\n        // Render a specific view script\n        $this->render('different-view-script');\n    }\n}

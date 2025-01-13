@@ -1,1 +1,0 @@
-CREATE TABLE your_table_name_backup AS SELECT * FROM your_table_name;

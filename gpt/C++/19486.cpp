@@ -1,1 +1,0 @@
-#include <cppdb/frontend.h>\n   #include <iostream>\n\n   int main() {\n       cppdb::session sql("sqlite3:db=db.sqlite");\n       cppdb::result res = sql << "SELECT COUNT(*) FROM users" << cppdb::row;\n       if (!res.empty()) {\n           int count;\n           res >> count;\n           std::cout << "We have " << count << " users." << std::endl;\n       }\n   }

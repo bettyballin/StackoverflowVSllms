@@ -1,1 +1,0 @@
-@ModelType YourNamespace.Form\n\n@Code\n    Dim FormObject As Form = Model\nEnd Code

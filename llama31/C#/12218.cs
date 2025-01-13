@@ -1,0 +1,1 @@
+[AttributeUsage(AttributeTargets.Property)]\npublic class NonEmptyStringAttribute : ValidationAttribute\n{\n    public override bool IsValid(object value)\n    {\n        return value != null && !string.IsNullOrWhiteSpace(value.ToString());\n    }\n}

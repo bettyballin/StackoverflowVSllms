@@ -1,1 +1,0 @@
-List<Bloop> bloops = GetBloops(); // Assuming GetBloops() returns a list of Bloop objects\n\nList<Razzie> razzies = bloops.Select(b => new Razzie\n{\n    FirstName = b.FirstName,\n    LastName = b.LastName\n}).ToList();

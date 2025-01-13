@@ -1,0 +1,1 @@
+DECLARE @Profit decimal(10, 2) = 250.00\n\nSELECT \n    c.Comm\nFROM \n    (SELECT @Profit AS Profit) p\nINNER JOIN \n    CommissionTable c ON p.Profit BETWEEN c.ProfitStartRange AND c.ProfitEndRange

@@ -1,1 +1,0 @@
-ldd /path/to/your/binary

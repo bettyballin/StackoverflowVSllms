@@ -1,0 +1,1 @@
+if (!Directory.Exists(destination.Path))\n{\n    Directory.CreateDirectory(destination.Path);\n}

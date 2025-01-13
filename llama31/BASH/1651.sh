@@ -1,0 +1,1 @@
+socat TCP-LISTEN:3306,fork,bind=127.0.0.1 SOCKS4:<proxy_hostname>:<mysql_server_hostname>:3306,socksport=<proxy_port>

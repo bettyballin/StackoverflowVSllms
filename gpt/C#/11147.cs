@@ -1,1 +1,0 @@
-using System.Web;\n\nstring input = "It's a test string";\nstring encodedString = HttpUtility.JavaScriptStringEncode(input);\n\n// Now, use encodedString to build your HTML or JavaScript\nstring html = $"<script>var myString = '{encodedString}';</script>";

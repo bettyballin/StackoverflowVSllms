@@ -1,0 +1,1 @@
+public bool CollidesWith(BoundingBox other)\n{\n    BoundingBox myBox = new BoundingBox(\n        new Vector3(Position.X - Size.X / 2, Position.Y - Size.Y / 2, Position.Z - Size.Z / 2),\n        new Vector3(Position.X + Size.X / 2, Position.Y + Size.Y / 2, Position.Z + Size.Z / 2));\n\n    return myBox.Intersects(other);\n}

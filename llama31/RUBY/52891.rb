@@ -1,0 +1,1 @@
+class YourModel < ApplicationRecord\n  validates_format_of :text, :with => /\A[\x20-\x7f]*\z/, :allow_blank => true\nend

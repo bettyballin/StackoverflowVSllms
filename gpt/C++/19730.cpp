@@ -1,1 +1,0 @@
-class UnmanagedClass {\npublic:\n    void DoSomething();\n};

@@ -1,0 +1,1 @@
+find . -type f -name "*.html" -exec sed -i 's/<img[^>]*>/&\/>/g; s/<input[^>]*>/&\/>/g' {} \;

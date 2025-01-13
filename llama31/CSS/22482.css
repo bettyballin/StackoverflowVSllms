@@ -1,0 +1,1 @@
+.list-item {\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}\n\n.list-item a {\n  display: block;\n  overflow: hidden;\n  text-overflow: ellipsis;\n}

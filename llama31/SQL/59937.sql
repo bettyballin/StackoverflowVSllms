@@ -1,0 +1,1 @@
+ALTER TABLE [dbo].[ChildTable]\nADD CONSTRAINT [FK_ChildTable_ParentTable]\nFOREIGN KEY ([ParentId])\nREFERENCES [dbo].[ParentTable] ([Id]);

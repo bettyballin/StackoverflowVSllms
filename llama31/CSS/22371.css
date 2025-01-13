@@ -1,0 +1,1 @@
+div.box {\n  display: flex;\n  flex-direction: column;\n}\n\ndiv.box-header, div.box-body {\n  flex: 1;\n}\n\ndiv.box-header {\n  border: solid 1px #BBBBBB;\n  font-size: larger;\n  padding: 4px;\n  background-color: #DDDDDD;\n}\n\ndiv.box-body {\n  padding: 6px;\n  border: solid 1px #BBBBBB;\n  border-top: none;\n}

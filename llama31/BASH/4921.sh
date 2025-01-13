@@ -1,0 +1,1 @@
+# /etc/ppp/peers/demand-dial\nidle 300

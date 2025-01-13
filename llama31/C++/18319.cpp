@@ -1,0 +1,1 @@
+class _bstr_t {\npublic:\n    _bstr_t(const wchar_t* str = NULL) { ... }\n    ~_bstr_t() { ... }\n\n    // operators and methods for string manipulation\n};

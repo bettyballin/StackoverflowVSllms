@@ -1,0 +1,1 @@
+var result = dbContext.News\n    .Where(n => n.NewsID == dbContext.News\n        .Where(v => v.CategoryID == n.CategoryID)\n        .OrderByDescending(v => v.CreatedOn)\n        .FirstOrDefault().NewsID);

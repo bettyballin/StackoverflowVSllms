@@ -1,0 +1,1 @@
+Array\n(\n    [0] => word1#$word2#$word3\n    [1] => word1\n    [2] => word2\n    [3] => word3\n)

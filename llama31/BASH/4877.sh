@@ -1,0 +1,1 @@
+@echo off\nphp "%~f1"

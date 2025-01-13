@@ -1,1 +1,0 @@
-SELECT * \nFROM tbl \nWHERE field1 <> UPPER(field1);

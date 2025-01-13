@@ -1,0 +1,1 @@
+mysqldump -u [username] -p [password] --single-transaction [database_name] > /path/to/backup/file.sql

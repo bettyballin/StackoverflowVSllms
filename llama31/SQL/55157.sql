@@ -1,0 +1,1 @@
+UPDATE table\nSET lastname = (SELECT name FROM samplenames ORDER BY NEWID() LIMIT 1);

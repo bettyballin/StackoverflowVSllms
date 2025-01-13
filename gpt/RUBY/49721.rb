@@ -1,1 +1,0 @@
-# Assuming you're using the oauth gem\nconsumer = OAuth::Consumer.new('consumer_key', 'consumer_secret', {\n  :site => "https://api.twitter.com",\n  :authorize_path => '/oauth/authenticate'\n})\n\nrequest_token = consumer.get_request_token(:oauth_callback => 'http://yourapp.com/oauth/callback')

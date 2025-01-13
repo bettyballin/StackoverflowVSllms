@@ -1,0 +1,1 @@
+SET optimizer_trace='enabled=on';\nSELECT ...;\nSELECT * FROM information_schema.optimizer_trace;

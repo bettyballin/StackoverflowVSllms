@@ -1,0 +1,1 @@
+try {\n    // Code that might throw an exception\n    $db = new PDO('mysql:host=localhost;dbname=test', 'username', 'password');\n} catch (PDOException $e) {\n    // Handle the exception\n    error_log($e->getMessage());\n    header('HTTP/1.1 500 Internal Server Error');\n    echo 'Error: Unable to connect to database.';\n    exit;\n}

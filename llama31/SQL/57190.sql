@@ -1,0 +1,1 @@
+SELECT \n  ID,\n  MAX(CASE WHEN Type = 10 THEN Value END) AS Type10,\n  MAX(CASE WHEN Type = 14 THEN Value END) AS Type14,\n  MAX(CASE WHEN Type = 25 THEN Value END) AS Type25\nFROM \n  your_table\nGROUP BY \n  ID

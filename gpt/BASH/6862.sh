@@ -1,1 +1,0 @@
-mkdir -p ~/remote_mount\n   sshfs username@remote_host:/path/to/remote/directory ~/remote_mount

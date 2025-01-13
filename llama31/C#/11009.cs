@@ -1,0 +1,1 @@
+var webBrowser = new WebBrowser();\nwebBrowser.Navigate("https://example.com");\nvar pdfGenerator = new PdfGenerator();\npdfGenerator.GeneratePdf(webBrowser, "example.pdf");

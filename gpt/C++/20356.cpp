@@ -1,1 +1,0 @@
-class Camera {\npublic:\n    Vector3 eye;\n    Vector3 lookAt;\n    Vector3 up;\n\n    Camera();\n    void setModelViewMatrix();\n    void updateCamera();\n    void getCameraVectors(Vector3 &eye, Vector3 &lookAt, Vector3 &up);\n};

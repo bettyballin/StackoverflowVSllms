@@ -1,0 +1,1 @@
+java -Djava.util.logging.config.file=logging.properties -jar your_jar_file.jar > output.log 2>&1

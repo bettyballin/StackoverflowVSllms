@@ -1,1 +1,0 @@
-public static long CreateTimestamp(DateTime dateTime)\n{\n    // Ensure the DateTime is in UTC to avoid timezone issues\n    DateTime utcDateTime = dateTime.ToUniversalTime();\n    // Return the ticks as the timestamp\n    return utcDateTime.Ticks;\n}

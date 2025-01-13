@@ -1,0 +1,1 @@
+SELECT article_id, category_id, title, is_sticky, published_at\nFROM (\n  SELECT article_id, category_id, title, is_sticky, published_at,\n         ROW_NUMBER() OVER (PARTITION BY category_id ORDER BY is_sticky DESC, published_at) AS row_num\n  FROM articles\n) AS subquery\nWHERE row_num <= 3;

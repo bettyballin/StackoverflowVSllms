@@ -1,0 +1,1 @@
+from c in Db.Concessions\nselect new\n{\n    c.ConcessionID,\n    c.Title,\n    FirmTitle = c.Firm?.Title ?? string.Empty\n}

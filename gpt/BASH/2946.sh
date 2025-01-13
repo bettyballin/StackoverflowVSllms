@@ -1,1 +1,0 @@
-wrk -t12 -c400 -d30s http://testserver/submitdata?ax=value1&ay=value2&az=value3

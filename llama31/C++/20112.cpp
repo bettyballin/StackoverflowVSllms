@@ -1,0 +1,1 @@
+int & a; // Would this be a pointer to an int or an int variable with an address-of operator applied?

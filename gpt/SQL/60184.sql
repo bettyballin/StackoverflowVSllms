@@ -1,1 +1,0 @@
--- "Up" method to add a constraint\n   ALTER TABLE users ADD CONSTRAINT unique_email UNIQUE (email);\n\n   -- "Down" method to drop the constraint\n   ALTER TABLE users DROP CONSTRAINT unique_email;

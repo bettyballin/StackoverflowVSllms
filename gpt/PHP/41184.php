@@ -1,1 +1,0 @@
-<?php\n$data = array(\n    'name' => 'John Doe',\n    'age' => 28,\n    'city' => 'New York'\n);\n\n$query_string = http_build_query($data);\necho $query_string;  // Output: name=John+Doe&age=28&city=New+York\n?>

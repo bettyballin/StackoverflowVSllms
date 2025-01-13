@@ -1,0 +1,1 @@
+./configure --target=ia64-hp-hpux11.31 --with-gnu-as --with-gnu-ld --enable-64-bit-bfd

@@ -1,1 +1,0 @@
--- Group by one or more columns\nSELECT column1, COUNT(*) FROM table_name GROUP BY column1;\n\n-- Having clause to filter groups\nSELECT column1, COUNT(*) FROM table_name GROUP BY column1 HAVING COUNT(*) > 1;

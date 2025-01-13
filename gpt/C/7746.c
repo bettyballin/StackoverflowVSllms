@@ -1,1 +1,0 @@
-STRUCTMEMBER(Item, 1);\n\n// If dealing with pointers:\nSTRUCTMEMBER_PTR(GlobalStructInstancePtr, Item, 1);

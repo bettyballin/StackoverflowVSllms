@@ -1,0 +1,1 @@
+using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    await connection.OpenAsync();\n    using (SqlCommand command = new SqlCommand(query, connection))\n    {\n        await command.ExecuteNonQueryAsync();\n    }\n}

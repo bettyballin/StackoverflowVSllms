@@ -1,0 +1,1 @@
+<!-- Certificate.hbm.xml -->\n\n<class name="Certificate" table="Certificates">\n  ...\n  <bag name="Acquirers" table="CertificatesAcquiredByPeople">\n    <key column="CertificateId"/>\n    <one-to-many class="AcquiredCertificate"/>\n  </bag>\n</class>

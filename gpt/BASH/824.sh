@@ -1,1 +1,0 @@
-# Install ProxySQL\n   sudo apt-get install proxysql\n\n   # Configure ProxySQL to route queries to appropriate backend MySQL servers\n   # Edit /etc/proxysql.cnf or use the admin interface to set up routing rules

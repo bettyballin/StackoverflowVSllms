@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nFOR XML PATH('your_root_element'), ROOT('your_root_element')

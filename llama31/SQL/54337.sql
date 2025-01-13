@@ -1,0 +1,1 @@
+SELECT column1, column2\nFROM table1\nWHERE column1 IN (\n  SELECT column1\n  FROM table2\n)

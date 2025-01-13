@@ -1,0 +1,1 @@
+for (int i = 0; i < arrayLength; i++) {\n    int i_tmp2 = array[i] * 2; // calculate some temporary value\n    // use i_tmp2 for something\n}

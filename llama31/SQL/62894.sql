@@ -1,0 +1,1 @@
+SELECT *\nFROM member\nWHERE DATE_FORMAT(DOB, '%m%d') BETWEEN DATE_FORMAT(CURDATE() - INTERVAL 14 DAY, '%m%d') \n                                    AND DATE_FORMAT(CURDATE(), '%m%d')\n   OR (DATE_FORMAT(DOB, '%m%d') > DATE_FORMAT(CURDATE(), '%m%d') \n       AND DATE_FORMAT(DOB, '%m%d') < DATE_FORMAT(CURDATE() + INTERVAL 1 YEAR, '%m%d'))

@@ -1,0 +1,1 @@
+SmtpClient smtpClient = new SmtpClient();\nsmtpClient.Host = "your_smtp_server";\nsmtpClient.Port = 25;\nsmtpClient.EnableSsl = true; // if your SMTP server requires SSL\nsmtpClient.Credentials = new NetworkCredential("your_username", "your_password");

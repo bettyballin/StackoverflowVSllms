@@ -1,0 +1,1 @@
+# Example of using OpenSSL to verify a certificate chain\n# Note: This is a simplified command and assumes a direct connection without intermediate certificates.\nopenssl s_client -connect example.com:443 -showcerts -verify_return_error

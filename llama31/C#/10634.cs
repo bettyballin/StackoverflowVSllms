@@ -1,0 +1,1 @@
+if (Page.IsValid)\n{\n    // Validation succeeded\n}\nelse\n{\n    // Validation failed\n}

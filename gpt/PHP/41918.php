@@ -1,1 +1,0 @@
-// Using cURL to make a RESTful GET request\n$ch = curl_init();\ncurl_setopt($ch, CURLOPT_URL, "http://example.com/api/users?state=CO");\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);\n$response = curl_exec($ch);\ncurl_close($ch);\n\n// Decode JSON response into an array\n$users = json_decode($response, true);

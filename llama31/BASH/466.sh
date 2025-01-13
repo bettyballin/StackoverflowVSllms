@@ -1,0 +1,1 @@
+export MOZILLA_FIVE_HOME=/usr/lib/xulrunner-1.9.2

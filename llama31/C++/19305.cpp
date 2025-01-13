@@ -1,0 +1,1 @@
+HRESULT hr = CoInitialize(NULL);\nif (SUCCEEDED(hr)) {\n    IGetTestPtr ptest;\n    hr = CoCreateInstance(__uuidof(tester), NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&ptest));\n    if (SUCCEEDED(hr)) {\n        // Use method from the dll\n    } else {\n        // Handle error, e.g. display error message or return error code\n    }\n    CoUninitialize();\n}

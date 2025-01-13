@@ -1,0 +1,1 @@
+// Run the Oracle Report\nbyte[] reportBytes = reportsService.runReport("your_report_name", "your_report_server", new Parameter[] { \n    new Parameter("param1", "value1"), \n    new Parameter("param2", "value2") \n});

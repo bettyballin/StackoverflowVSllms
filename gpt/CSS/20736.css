@@ -1,1 +1,0 @@
-.window {\n       position: absolute;\n       z-index: 10; /* Ensure this is higher than other elements */\n   }\n   .windowContent {\n       position: relative;\n       z-index: 20; /* Ensure this is higher than the parent */\n   }

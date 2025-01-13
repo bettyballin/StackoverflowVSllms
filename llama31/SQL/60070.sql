@@ -1,0 +1,1 @@
+SELECT CONVERT(VARCHAR(8), DATEADD(SECOND, your_duration_in_seconds, 0), 108) AS duration;

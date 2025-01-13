@@ -1,1 +1,0 @@
-mkdir build-gcc\n    cd build-gcc\n    ../gcc-10.2.0/configure --target=arm-none-eabi --prefix=/usr/local/gnuarm --enable-languages=c,c++ --without-headers\n    make all-gcc\n    sudo make install-gcc\n    cd ..

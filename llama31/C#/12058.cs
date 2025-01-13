@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    string jsonData = GetDataAsJson();\n    ClientScript.RegisterStartupScript(GetType(), "data", "var data = " + jsonData + ";", true);\n}\n\nprivate string GetDataAsJson()\n{\n    // Return your data as a JSON string\n}

@@ -1,0 +1,1 @@
+// Set the font for a label and text box\nlabel1.Font = new Font("Segoe UI", 10F, FontStyle.Regular);\ntextBox1.Font = new Font("Segoe UI", 10F, FontStyle.Regular);\n\n// Set the font for a data grid\ndataGridView1.DefaultCellStyle.Font = new Font("Segoe UI", 9F, FontStyle.Regular);

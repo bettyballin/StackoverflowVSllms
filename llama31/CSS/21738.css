@@ -1,0 +1,1 @@
+.container {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n}\n\n.section1 {\n  flex-basis: 500px;\n  height: 170px;\n}\n\n.section2 {\n  flex-basis: 400px;\n  height: 570px; /* 170px + 400px */\n}\n\n#response {\n  flex-basis: 500px;\n  height: 400px;\n}

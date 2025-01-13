@@ -1,0 +1,1 @@
+$byteArray = unpack('C*', $data); // assume $data is the byte array\n$string = pack('C*', ...$byteArray);\n$hash = sha1($string);

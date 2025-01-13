@@ -1,1 +1,0 @@
-require 'deep_clone'  # You'll need a gem to perform deep cloning\n\ndef method_missing(*args, &block)\n  old = DeepClone.clone(@hash)\n  result = @hash.send(*args, &block)\n  unless old == @hash\n    Cache.sessions[@session.session_id] = self\n  end\n  result\nend

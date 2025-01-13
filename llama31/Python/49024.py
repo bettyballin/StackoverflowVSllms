@@ -1,0 +1,1 @@
+def split_array_into_groups(array, n):\n    group_size = len(array) // n\n    for i, element in enumerate(array):\n        group_index = i // group_size\n        print(f"group{group_index+1}: {element}")\n\n# Example usage:\narray = [f"e{i+1}" for i in range(30)]\nn = 3\nsplit_array_into_groups(array, n)

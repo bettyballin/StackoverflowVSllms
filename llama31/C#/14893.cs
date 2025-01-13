@@ -1,0 +1,1 @@
+using WeifenLuo.WinFormsUI.Docking;\n\npublic class DockableForm : DockContent\n{\n    // ...\n}

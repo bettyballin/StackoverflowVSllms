@@ -1,1 +1,0 @@
-using HtmlAgilityPack;\n\npublic string StripHtml(string input)\n{\n    var htmlDoc = new HtmlDocument();\n    htmlDoc.LoadHtml(input);\n    return htmlDoc.DocumentNode.InnerText;\n}\n\n// Example usage\nstring htmlString = "<ul><li>Hello</li></ul>";\nstring plainText = StripHtml(htmlString);\nConsole.WriteLine(plainText);  // Output: Hello

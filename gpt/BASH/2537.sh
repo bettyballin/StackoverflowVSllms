@@ -1,1 +1,0 @@
-cleartool protectvob -add_group gA -acl -chgrp gB -chmod 750 vB

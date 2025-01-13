@@ -1,1 +1,0 @@
-public class MyEntity\n{\n    [Unique("Namespace.MyEntity, AssemblyName", "SomeProperty")]\n    public string SomeProperty { get; set; }\n}\n\n// In your DataContext\npublic class MyDataContext : DataContext\n{\n    public Table<MyEntity> MyEntities;\n}

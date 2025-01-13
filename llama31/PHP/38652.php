@@ -1,0 +1,1 @@
+$username = mysql_real_escape_string($_GET['username']);\n$query = "SELECT * FROM users WHERE name = '$username'";\nmysql_query($query);

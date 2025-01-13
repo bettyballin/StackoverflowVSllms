@@ -1,0 +1,1 @@
+class MyComponent : public IUnknown {\npublic:\n    HRESULT GetSignature(\n        /* [out] */ BSTR* pbstrSignature\n    ) {\n        // Return the digital signature of your component\n    }\n};

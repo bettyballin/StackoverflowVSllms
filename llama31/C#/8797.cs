@@ -1,0 +1,1 @@
+HiddenField rangesField = (HiddenField)Page.FindControl("RangesHiddenField");\nstring[] ranges = rangesField.Value.Split(',');

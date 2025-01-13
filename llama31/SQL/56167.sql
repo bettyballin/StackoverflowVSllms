@@ -1,0 +1,1 @@
+CREATE VIEW TagView AS\nSELECT \n  T.id,\n  T.name,\n  T.sortorder,\n  T.parentid,\n  (SELECT COUNT(*) FROM ProductTags PT WHERE PT.tagid = T.id) AS ProductCount,\n  (SELECT COUNT(*) FROM Tags CT WHERE CT.parentid = T.id) AS ChildTagCount\nFROM \n  Tags T

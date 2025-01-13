@@ -1,0 +1,1 @@
+using Telerik.CodeConverter;\n\nstring csharpCode = "public class MyClass { public void MyMethod() { Console.WriteLine(\"Hello World!\"); } }";\nstring vbnetCode = Converter.ConvertCSharpToVb(csharpCode);\n\nConsole.WriteLine(vbnetCode);

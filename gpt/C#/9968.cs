@@ -1,1 +1,0 @@
-// In webapp1\n   protected void Page_Load(object sender, EventArgs e)\n   {\n       Session["myVarImSetting"] = "Hello from WebApp1";\n   }

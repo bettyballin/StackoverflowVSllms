@@ -1,0 +1,1 @@
+$(function() {\n  $("#autocompleteField").autocomplete({\n    source: function(request, response) {\n      $.ajax({\n        type: "GET",\n        url: "/rest/autocomplete",\n        data: { input: request.term },\n        success: function(data) {\n          response(data);\n        }\n      });\n    }\n  });\n});

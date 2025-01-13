@@ -1,1 +1,0 @@
-svn checkout <repository_url> <local_checkout_directory>

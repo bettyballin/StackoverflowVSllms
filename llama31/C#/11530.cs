@@ -1,0 +1,1 @@
+using System;\nusing System.Net.Http;\nusing System.Text;\n\npublic string GetWebPageAsString(string url)\n{\n    using (var client = new HttpClient())\n    {\n        var response = client.GetAsync(url).Result;\n        response.EnsureSuccessStatusCode();\n        return response.Content.ReadAsStringAsync().Result;\n    }\n}

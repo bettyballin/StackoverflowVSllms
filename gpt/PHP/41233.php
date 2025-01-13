@@ -1,1 +1,0 @@
-<?php\n// Loop through all cookies\nforeach ($_COOKIE as $name => $value) {\n    echo 'Cookie name: ' . htmlspecialchars($name) . '<br>';\n    echo 'Cookie value: ' . htmlspecialchars($value) . '<br>';\n}\n?>

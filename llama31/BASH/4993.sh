@@ -1,0 +1,1 @@
+xargs -I {} /path/to/executable < /path/to/virtual_file

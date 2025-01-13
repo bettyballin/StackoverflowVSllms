@@ -1,0 +1,1 @@
+.my_link {\n  cursor: pointer;\n  text-decoration: underline;\n}\n\n.my_link:hover {\n  color: blue;\n}\n\n.my_link:active {\n  color: red;\n}

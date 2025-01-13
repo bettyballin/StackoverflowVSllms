@@ -1,0 +1,1 @@
+function returnsAnArray() {\n    return array('test');\n}\n\necho current(returnsAnArray());

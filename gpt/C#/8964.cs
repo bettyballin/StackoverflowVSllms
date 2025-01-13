@@ -1,1 +1,0 @@
-MyObject myObject = new MyObject();\nSession["myKey"] = myObject;

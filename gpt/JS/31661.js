@@ -1,1 +1,0 @@
-element.removeAttribute("attributeName");

@@ -1,0 +1,1 @@
+appcmd list config -section:system.webServer -site.name:"WorkingSiteName" > workingSiteConfig.xml

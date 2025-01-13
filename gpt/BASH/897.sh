@@ -1,1 +1,0 @@
-composer require yooper/php-nlp-tools

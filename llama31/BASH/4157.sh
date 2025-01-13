@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Create a progress bar\nzenity --progress --title="My Script" --text="Working..." --percentage=0\n\n# Update the progress bar\nfor i in {1..100}; do\n  zenity --progress --percentage=$i\n  sleep 0.1\ndone

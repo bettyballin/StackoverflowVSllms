@@ -1,0 +1,1 @@
+include 'left.php';\nrenderLeftColumn();

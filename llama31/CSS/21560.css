@@ -1,0 +1,1 @@
+#right-content {\n  overflow: hidden;\n  width: 100%; /* or a fixed width if needed */\n}\n\n/* or */\n\n#right-content {\n  display: inline-block;\n}

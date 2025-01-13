@@ -1,1 +1,0 @@
-g++ -o output_executable main.cpp parse.cpp

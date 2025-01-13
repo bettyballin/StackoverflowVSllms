@@ -1,0 +1,1 @@
+gcc -g -o example example.c\ngdb example\n(gdb) break main  # or a specific function name\n(gdb) disassemble

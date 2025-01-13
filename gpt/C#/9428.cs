@@ -1,1 +1,0 @@
-using System.Web.Security;\n\n    public void CreateRole(string roleName)\n    {\n        if (!Roles.RoleExists(roleName))\n        {\n            Roles.CreateRole(roleName);\n        }\n    }

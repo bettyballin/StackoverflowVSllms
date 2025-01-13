@@ -1,1 +1,0 @@
-echo 1 > /sys/kernel/debug/tracing/tracing_o

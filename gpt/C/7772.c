@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint main() {\n    char c = 'A'; // Implementation-defined behavior\n    signed char sc = -1; // Explicitly signed\n    unsigned char uc = 255; // Explicitly unsigned\n\n    printf("char: %d\n", c);\n    printf("signed char: %d\n", sc);\n    printf("unsigned char: %u\n", uc);\n\n    return 0;\n}

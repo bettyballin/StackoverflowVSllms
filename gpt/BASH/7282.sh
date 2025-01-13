@@ -1,1 +1,0 @@
-gcc -march=native -O2 myprogram.c -o myprogram

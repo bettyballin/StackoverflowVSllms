@@ -1,1 +1,0 @@
-interface ConfigInterface {\n    public function getHost();\n    public function getUsername();\n    public function getPassword();\n}

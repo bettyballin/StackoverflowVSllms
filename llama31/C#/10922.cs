@@ -1,0 +1,1 @@
+var size = Marshal.SizeOf(typeof(MyValueType));

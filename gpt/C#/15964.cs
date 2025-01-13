@@ -1,1 +1,0 @@
-var product = new Product();\nvar storageHistory = new StorageHistory { Product = product };\n\nproduct.StorageHistories.Add(storageHistory);\n\nusing (var transaction = session.BeginTransaction())\n{\n    session.Save(product);\n    session.Save(storageHistory);\n    transaction.Commit();\n}

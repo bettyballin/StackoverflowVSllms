@@ -1,0 +1,1 @@
+public class MainWindowViewModel\n{\n    public ObservableCollection<DiceViewModel> Dice { get; set; }\n\n    public void RollAllDice()\n    {\n        foreach (var dice in Dice)\n        {\n            dice.Roll();\n        }\n    }\n}

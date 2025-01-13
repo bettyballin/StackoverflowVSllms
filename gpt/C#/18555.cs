@@ -1,1 +1,0 @@
-// Save back to DB\nint selectedTechId = (int)cboTechNumber.SelectedValue;\n\nif (selectedTechId == -1)\n{\n    taDevice.UpdateQuery_Restage(null, selectedSerial);\n}\nelse\n{\n    taDevice.UpdateQuery_Restage(selectedTechId, selectedSerial);\n}

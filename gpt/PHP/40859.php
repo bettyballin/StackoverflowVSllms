@@ -1,1 +1,0 @@
-<?php\n$referer = $_SERVER['HTTP_REFERER'];\n$parsed_url = parse_url($referer);\n$scheme = $parsed_url['scheme'];\n$host = $parsed_url['host'];\n$scheme_and_host = $scheme . '://' . $host;\n\necho $scheme_and_host; // Outputs: http://example.com\n?>

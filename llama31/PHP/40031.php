@@ -1,0 +1,1 @@
+$config = HTMLPurifier_Config::createDefault();\n$config->set('HTML.AllowedAttributes', 'a.href,a.title,img.src,img.alt');\n\n$purifier = new HTMLPurifier($config);\n$clean_html = $purifier->purify($dirty_html);

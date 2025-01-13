@@ -1,0 +1,1 @@
+using System.Net;\n\n// Create a new proxy instance\nWebProxy proxy = new WebProxy("http://your-proxy-server:port", true);\n\n// Set the proxy for the web request\nWebRequest.DefaultWebProxy = proxy;

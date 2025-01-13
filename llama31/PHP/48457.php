@@ -1,0 +1,1 @@
+<?php\n$uri = $_SERVER['REQUEST_URI'];\n$parts = explode('/', $uri);\n\n// Handle the request based on the URL parts\nif ($parts[1] == 'Blog') {\n    // Handle blog requests\n} elseif ($parts[1] == 'Title_Of_This_Page') {\n    // Handle page requests\n} else {\n    // Handle 404 errors\n    header('HTTP/1.1 404 Not Found');\n    echo 'Page not found';\n    exit;\n}\n?>

@@ -1,1 +1,0 @@
-// Example: High-level integration test\n   [Test]\n   public void OrderProcessing_ShouldCompleteSuccessfully()\n   {\n       var orderService = new OrderService();\n       var result = orderService.ProcessOrder(new Order());\n       \n       Assert.IsTrue(result.Success);\n   }

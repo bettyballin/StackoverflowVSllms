@@ -1,0 +1,1 @@
+using System.IO;\n\n// ...\n\nFile.SetAttributes(filePath, File.GetAttributes(filePath) & ~FileAttributes.ReadOnly);\nFile.Delete(filePath);

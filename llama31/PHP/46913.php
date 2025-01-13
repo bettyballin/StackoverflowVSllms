@@ -1,0 +1,1 @@
+class Bar extends Foo {\n    protected $var;\n\n    public function __construct() {\n        $this->var = 'protected value';\n    }\n}\n\n$bar = new Bar();\necho $bar->var; // __get() called for var

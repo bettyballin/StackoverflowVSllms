@@ -1,0 +1,1 @@
+HANDLE hProcess = /* handle of process 'A' */;\nDWORD exitCode;\n\nif (GetExitCodeProcess(hProcess, &exitCode)) {\n    if (exitCode == STILL_ACTIVE) {\n        // Process 'A' is still running\n    } else {\n        // Process 'A' has terminated\n    }\n} else {\n    // Error getting exit code\n}

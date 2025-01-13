@@ -1,0 +1,1 @@
+document.getElementById("cardNumber").setAttribute("autocomplete", "off");

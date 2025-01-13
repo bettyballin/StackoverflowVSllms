@@ -1,1 +1,0 @@
-# app/models/concerns/archivable.rb\nmodule Archivable\n  extend ActiveSupport::Concern\n\n  included do\n    scope :archived, -> { where(archived: true) }\n  end\n\n  def archive\n    update(archived: true)\n  end\n\n  def unarchive\n    update(archived: false)\n  end\nend

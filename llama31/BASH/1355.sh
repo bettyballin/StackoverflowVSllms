@@ -1,0 +1,1 @@
+ln -s libcurl.so.3 libcurl.so

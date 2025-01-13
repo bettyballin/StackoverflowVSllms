@@ -1,0 +1,1 @@
+pg_top -U postgres

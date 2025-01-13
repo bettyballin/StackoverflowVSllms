@@ -1,1 +1,0 @@
-function Schönhage-Strassen-Multiply(a, b):\n    1. Split a and b into smaller parts (digits or smaller numbers).\n    2. Apply FFT to the parts of a and b.\n    3. Multiply the FFT results pointwise.\n    4. Apply the inverse FFT to the result.\n    5. Combine the parts to form the final result.

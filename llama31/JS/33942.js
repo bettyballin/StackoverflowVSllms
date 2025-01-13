@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('.shadow').fadeTo(0, 0.1);\n});\n\n$(document).ready(function() {\n    $('a#work').hover(function() {\n        $('#workShadow').fadeTo(200, 0.6);\n    }, function() {\n        $('#workShadow').fadeTo(400, 0.1);\n    });\n});

@@ -1,1 +1,0 @@
-class A {\n         int state;\n     public:\n         A(int s): state(s) {}\n         int inc() { return state++; }\n     };\n\n     class B {\n         A* t; // B uses a pointer to an A object, indicating aggregation\n         // Other members and methods...\n     public:\n         B(A* a): t(a) {} // B does not own the A object; it just uses it\n     };

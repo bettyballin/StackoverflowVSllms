@@ -1,0 +1,1 @@
+// PluginInterface.h\n#ifndef PLUGININTERFACE_H\n#define PLUGININTERFACE_H\n\nclass PluginInterface {\npublic:\n    virtual ~PluginInterface() {}\n    virtual void doSomething() = 0;\n};\n\nextern "C" {\n    PluginInterface* createPluginInstance();\n    void deletePluginInstance(PluginInterface* instance);\n}\n\n#endif // PLUGININTERFACE_H

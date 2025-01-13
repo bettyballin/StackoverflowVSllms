@@ -1,0 +1,1 @@
+SELECT Name\nFROM Categories\nORDER BY \n    CASE \n        WHEN Parent IS NULL THEN Name \n        ELSE (SELECT Name FROM Categories WHERE ID = Parent) \n    END,\n    CASE \n        WHEN Parent IS NULL THEN 0 \n        ELSE 1 \n    END,\n    Name

@@ -1,0 +1,1 @@
+obj.roll_dice;

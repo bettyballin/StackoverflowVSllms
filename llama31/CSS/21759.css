@@ -1,0 +1,1 @@
+#layout {\n    display: grid;\n    grid-template-columns: 200px 1fr 200px; /* Example widths */\n}\n\n.panel:nth-child(1),\n.panel:nth-child(2),\n.panel:nth-child(3),\n.panel:nth-child(4) {\n    grid-column: 1;\n}\n\n#contentheader, #content {\n    grid-column: 2;\n}\n\n.panel:nth-child(5),\n.panel:nth-child(6),\n.panel:nth-child(7) {\n    grid-column: 3;\n}

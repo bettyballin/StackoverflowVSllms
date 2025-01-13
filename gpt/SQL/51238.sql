@@ -1,1 +1,0 @@
-CREATE TABLE codes (\n    code_id INT AUTO_INCREMENT PRIMARY KEY,\n    code_value VARCHAR(255) UNIQUE NOT NULL\n);\n\nCREATE TABLE user_entries (\n    entry_id INT AUTO_INCREMENT PRIMARY KEY,\n    user_code VARCHAR(255),\n    FOREIGN KEY (user_code) REFERENCES codes(code_value)\n);

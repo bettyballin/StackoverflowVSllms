@@ -1,0 +1,1 @@
+// When modification is the purpose and a null object doesn't make sense\nvoid modifyAlways(int &a) {\n    // No need to check for null\n    a = a + 1;\n}\n\n// When a null pointer can be a valid input\nvoid modifyIfNotNull(int *a) {\n    if (a) {\n        *a = *a + 1;\n    }\n}

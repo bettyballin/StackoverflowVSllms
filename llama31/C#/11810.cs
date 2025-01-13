@@ -1,0 +1,1 @@
+using System.Text;\n\nEncoding defaultEncoding = Encoding.Default;

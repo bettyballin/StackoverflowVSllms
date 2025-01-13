@@ -1,1 +1,0 @@
-$mysqli = new mysqli("localhost", "username", "password", "database");\n     $result = $mysqli->query("SELECT * FROM terms");\n     $terms = $result->fetch_all(MYSQLI_ASSOC);

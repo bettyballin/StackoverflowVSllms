@@ -1,1 +1,0 @@
-cat *.txt > combined_emails.txt

@@ -1,0 +1,1 @@
+#ifndef YOURBANKINGAPP_H\n#define YOURBANKINGAPP_H\n\nvoid create_account(const char* account_name);\nvoid deposit(double amount);\n\n#endif

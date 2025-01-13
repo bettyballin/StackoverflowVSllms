@@ -1,0 +1,1 @@
+UPDATE [YourTableName]\nSET [YourColumnName] = TRIM([YourColumnName]);

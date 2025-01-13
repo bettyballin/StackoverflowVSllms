@@ -1,0 +1,1 @@
+my_list = list([] for _ in range(10))\nmy_list[0].append(1)\nprint(my_list)  # Output: [[1], [], [], [], [], [], [], [], [], []]

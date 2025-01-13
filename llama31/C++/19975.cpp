@@ -1,0 +1,1 @@
+if (it == _ldapClientMap.end()) {

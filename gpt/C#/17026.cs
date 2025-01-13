@@ -1,1 +1,0 @@
-string filePath = "path_to_pdf_file.pdf";\n   string connectionString = "your_connection_string";\n\n   PdfKeywordExtractor extractor = new PdfKeywordExtractor();\n   string text = extractor.ExtractTextFromPdf(filePath);\n   List<string> keywords = extractor.GenerateKeywords(text);\n   extractor.StoreKeywordsInDatabase(connectionString, "your_file_name.pdf", keywords);

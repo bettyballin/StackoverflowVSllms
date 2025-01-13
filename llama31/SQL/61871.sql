@@ -1,0 +1,1 @@
+SELECT DUMP('Hello World') FROM DUAL;

@@ -1,0 +1,1 @@
+string redirectUrl = Request.QueryString["redirectUrl"];\nResponse.Redirect(redirectUrl);

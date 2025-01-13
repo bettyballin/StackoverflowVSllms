@@ -1,1 +1,0 @@
-<?php\n// some_file.php\ninclude 'db_connect.php';\n\nfunction someFunction() {\n    $mysqli = $GLOBALS['mysqli'];\n    $result = $mysqli->query("SELECT * FROM some_table");\n    \n    while ($row = $result->fetch_assoc()) {\n        echo $row['column_name'];\n    }\n}\n\n// Call the function\nsomeFunction();\n?>

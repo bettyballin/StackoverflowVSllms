@@ -1,1 +1,0 @@
-using System;\nusing System.Web;\n\npublic class UrlHelper\n{\n    public static string GetBaseUrl(HttpRequest request)\n    {\n        Uri uri = request.Url;\n        string baseUrl = $"{uri.Scheme}://{uri.Host}:{uri.Port}";\n        return baseUrl;\n    }\n}

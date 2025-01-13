@@ -1,0 +1,1 @@
+function checkPasswords() {\n  var passwrd1 = document.getElementsByName("password1")[0].value;\n  var passwrd2 = document.getElementsByName("password2")[0].value;\n  \n  if (passwrd1 != passwrd2) {\n    document.getElementById("response").innerHTML = "<font color='red'>Passwords do not match</font>";\n  }\n  \n  return false;\n}

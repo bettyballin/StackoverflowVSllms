@@ -1,0 +1,1 @@
+using System.Data.Services;\nusing System.Data.Services.Common;\n\n[DataServiceKey("id")]\npublic class MyDataService : DataService<MyEntities>\n{\n    public static void InitializeService(DataServiceConfiguration config)\n    {\n        config.SetEntitySetAccessRule("*", EntitySetRights.AllRead);\n    }\n}

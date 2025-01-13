@@ -1,1 +1,0 @@
-DECLARE @DateValue DATETIME = '1900-01-01';  -- example date\n\nSELECT * \nFROM table\nWHERE field1 = 'x'\n  AND field2 = 'y'\n  AND (\n    (@DateValue = '1900-01-01' AND field3 <= GETDATE())\n    OR\n    (@DateValue <> '1900-01-01' AND field3 = @DateValue)\n  );

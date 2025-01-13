@@ -1,1 +1,0 @@
-echo '#!/bin/sh' > /path/to/mirror-repo/hooks/pre-revprop-change\n   echo 'exit 0' >> /path/to/mirror-repo/hooks/pre-revprop-change\n   chmod +x /path/to/mirror-repo/hooks/pre-revprop-change

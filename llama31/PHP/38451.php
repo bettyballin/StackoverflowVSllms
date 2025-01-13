@@ -1,0 +1,1 @@
+if (password_verify($pwd, $hashed_password)) {\n    // Password is valid\n}

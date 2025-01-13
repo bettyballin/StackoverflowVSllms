@@ -1,0 +1,1 @@
+// The compiler will catch this error\nList<string> strings = new List<string> { "hello", "world" };\nvar query = strings.Where(s => s > 5); // Error: Operator '>' cannot be applied to operands of type 'string' and 'int'

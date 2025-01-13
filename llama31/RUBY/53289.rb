@@ -1,0 +1,1 @@
+require 'nokogiri'\nrequire 'open-uri'\n\nurl = 'http://example.com'\ndoc = Nokogiri::HTML(open(url))\n\nmeta_tags = doc.css('meta')\nmeta_tags.each do |tag|\n  puts "#{tag['name']}: #{tag['content']}"\nend

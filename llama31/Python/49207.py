@@ -1,0 +1,1 @@
+import subprocess\n\ndef test_c_executable():\n    # Run the C test executable\n    result = subprocess.run(["./path/to/c/test", "arg1", "arg2"])\n    assert result.returncode == 0

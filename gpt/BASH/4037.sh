@@ -1,1 +1,0 @@
-openssl genrsa -des3 -out server.key 2048\n    openssl req -new -key server.key -out server.csr\n    cp server.key server.key.org\n    openssl rsa -in server.key.org -out server.key\n    openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt

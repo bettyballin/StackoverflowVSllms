@@ -1,0 +1,1 @@
+WITH example AS (SELECT 1 AS id, 'John' AS name UNION ALL SELECT 2, 'Jane')\nSELECT * FROM example WHERE name = 'John';

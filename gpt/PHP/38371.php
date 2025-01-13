@@ -1,1 +1,0 @@
-$name = $names[1];\necho $name; // Outputs: Bobby

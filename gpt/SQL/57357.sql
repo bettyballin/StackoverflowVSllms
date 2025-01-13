@@ -1,1 +1,0 @@
-UPDATE t1\nSET t1.Amount = t2.Amount\nFROM YourTable t1\nJOIN YourTable t2 ON t2.AccNo = 2040\nWHERE t1.AccNo = 1020;

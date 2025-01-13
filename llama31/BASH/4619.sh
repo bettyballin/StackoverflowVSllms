@@ -1,0 +1,1 @@
+pt-query-digest --type=slowlog /path/to/slow.log

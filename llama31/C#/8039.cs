@@ -1,0 +1,1 @@
+// Example of strong naming an assembly\nusing System.Reflection;\nusing System.Security.Cryptography;\n\n[assembly: AssemblyKeyFile("MyKey.snk")]\n\nclass MyClass\n{\n    // ...\n}

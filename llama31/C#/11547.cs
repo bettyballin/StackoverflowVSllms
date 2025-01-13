@@ -1,0 +1,1 @@
+using System.Text.RegularExpressions;\n\npublic static string CleanUrl(string urlPart)\n{\n    return Regex.Replace(urlPart, @"[^a-z0-9\- ]", "", RegexOptions.IgnoreCase)\n                 .Replace(" ", "-")\n                 .ToLower();\n}

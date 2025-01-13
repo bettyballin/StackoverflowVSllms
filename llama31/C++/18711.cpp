@@ -1,0 +1,1 @@
+// yourdll.h\n#ifdef YOURDLL_EXPORTS\n    #define YOURDLL_API __declspec(dllexport)\n#else\n    #define YOURDLL_API __declspec(dllimport)\n#endif\n\ntemplate class YOURDLL_API B<int>;

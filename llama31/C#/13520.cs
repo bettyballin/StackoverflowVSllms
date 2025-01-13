@@ -1,0 +1,1 @@
+protected void Login1_Authenticate(object sender, AuthenticateEventArgs e)\n{\n    e.Authenticated = (Login1.UserName == "user" && Login1.Password == "password");\n}

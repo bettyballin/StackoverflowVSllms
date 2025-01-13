@@ -1,1 +1,0 @@
-# Original list\nlist = [[1,2,3],[4,5,6],[7,8,9]]\n\n# Number to insert at the beginning of each sublist\nnum_to_insert = 9\n\n# Loop through each sublist and insert the number\nfor sublist in list:\n    sublist.insert(0, num_to_insert)\n\n# Print the modified list\nprint(list)

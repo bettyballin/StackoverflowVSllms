@@ -1,0 +1,1 @@
+using System;\n\nclass Program {\n    static void Main() {\n        string localAppData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);\n        // Use the retrieved path to save and read data\n        // e.g., Directory.CreateDirectory, File.Create, File.WriteAllText, File.ReadAllText\n    }\n}

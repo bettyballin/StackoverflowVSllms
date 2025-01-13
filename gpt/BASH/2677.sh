@@ -1,1 +1,0 @@
-gcc -march=haswell -mtune=haswell -O2 -o myprogram myprogram.c

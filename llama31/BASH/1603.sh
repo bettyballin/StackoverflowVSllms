@@ -1,0 +1,1 @@
+gprof myapp gmon.out > gprof_output.txt

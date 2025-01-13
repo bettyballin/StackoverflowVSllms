@@ -1,1 +1,0 @@
-ALTER TABLE your_table ADD COLUMN lock_timestamp TIMESTAMP NULL DEFAULT NULL;

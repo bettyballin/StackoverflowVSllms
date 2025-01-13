@@ -1,1 +1,0 @@
--- Scenario 1: The 'foo' parameter defaults to NULL\ndo_something();\n\n-- Scenario 2: The 'foo' parameter is explicitly set to NULL\ndo_something(foo => NULL, foo_set => TRUE);

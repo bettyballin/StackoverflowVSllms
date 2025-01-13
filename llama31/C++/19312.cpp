@@ -1,0 +1,1 @@
+#include <stdint.h>\n\n__declspec(dllexport) int BTRCALL(\n    int operationCode,\n    uint8_t positionBlock[128],\n    uint8_t* dataBuffer,\n    int dataBufferLength,\n    uint8_t* keyBuffer,\n    int keyBufferLength,\n    uint16_t keyNumber\n) {\n    // Your implementation here...\n    return 0;\n}

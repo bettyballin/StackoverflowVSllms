@@ -1,1 +1,0 @@
-using MyProject.MyWebService;\n\nnamespace MyNamespace\n{\n    public class MyClass\n    {\n        public void MyMethod()\n        {\n            MyService service = new MyService();\n            // Use the service object to call methods from the web service\n        }\n    }\n}

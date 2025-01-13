@@ -1,1 +1,0 @@
-import filecmp\n\ndef are_files_equal(file1, file2):\n    return filecmp.cmp(file1, file2, shallow=False)\n\n# Example usage\nfile1 = 'path/to/first/file.txt'\nfile2 = 'path/to/second/file.txt'\n\nif are_files_equal(file1, file2):\n    print("The files are identical.")\nelse:\n    print("The files are different.")

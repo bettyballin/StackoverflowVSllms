@@ -1,1 +1,0 @@
-// Assuming $pdo is your PDO connection object\n   $stmt = $pdo->prepare("UPDATE your_table SET column_name = :value, fire_trigger = 1 WHERE id = :id");\n   $stmt->execute([':value' => $value, ':id' => $id]);

@@ -1,0 +1,1 @@
+SELECT * FROM search_results WHERE search_result LIKE '%John%';

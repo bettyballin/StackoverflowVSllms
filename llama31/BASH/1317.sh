@@ -1,0 +1,1 @@
+gcc -g your_program.c -o your_program\n./your_program\n# get the address of the crash (e.g. 0x12345678)\naddr2line -e your_program 0x12345678

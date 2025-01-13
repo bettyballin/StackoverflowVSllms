@@ -1,0 +1,1 @@
+class C { KVP<int, string> x; }

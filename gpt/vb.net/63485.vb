@@ -1,1 +1,0 @@
-Dim htmlData As String\n\n' Load the HTML data from the resource file\n' Assuming 101 is the resource ID for the HTML resource\nhtmlData = StrConv(LoadResData(101, "HTML"), vbUnicode)\n\n' Display the HTML content\n' For example, you can set it to a WebBrowser control\nWebBrowser1.Document.Open\nWebBrowser1.Document.Write htmlData\nWebBrowser1.Document.Close

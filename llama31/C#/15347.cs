@@ -1,0 +1,1 @@
+using System;\nusing System.Collections.Generic;\nusing System.Linq;\n\npublic class TimeSeries\n{\n    public string Name { get; set; }\n    public List<TimeValuePair> Values { get; set; }\n}\n\npublic class TimeValuePair\n{\n    public DateTime Time { get; set; }\n    public double Value { get; set; }\n}

@@ -1,0 +1,1 @@
+#include <cstdlib>\n\nint main() {\n    // Specify the file path\n    const char* filePath = "/path/to/your/file.txt";\n\n    // Open the file with its associated application\n    std::string command = "xdg-open \"" + std::string(filePath) + "\"";\n    system(command.c_str());\n\n    return 0;\n}

@@ -1,1 +1,0 @@
-sed 's|<tag>old_text</tag>|<tag>new_text</tag>|g' inputfile > outputfile

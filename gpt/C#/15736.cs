@@ -1,1 +1,0 @@
-[Route("cars/{carRego}/power")]\n  public class PowerController : Controller\n  {\n      [HttpPost("on")]\n      public IActionResult TurnOn(string carRego)\n      {\n          // Implementation\n      }\n\n      [HttpPost("off")]\n      public IActionResult TurnOff(string carRego)\n      {\n          // Implementation\n      }\n  }

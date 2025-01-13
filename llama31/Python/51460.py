@@ -1,0 +1,1 @@
+import zlib\n\ndef compression_ratio(data):\n    compressed_data = zlib.compress(data)\n    return len(compressed_data) / len(data)

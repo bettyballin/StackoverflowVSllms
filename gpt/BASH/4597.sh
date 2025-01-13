@@ -1,1 +1,0 @@
-cd projects/proj1\n    # make changes and commit them\n    git commit -am "Update proj1"\n    cd ../..\n    git add projects/proj1\n    git commit -m "Update proj1 subtree"

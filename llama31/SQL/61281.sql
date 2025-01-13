@@ -1,0 +1,1 @@
+insert into crsabstr_rec values ("COMS110","UG09","Y","Y", LVARCHAR('CHEESE'));

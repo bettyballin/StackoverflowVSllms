@@ -1,0 +1,1 @@
+$(document).ready(function(){\n  $('.quickcontactDisplay').delegate('form.quickcontact', 'submit', function() {\n    $(this).ajaxForm(function(html) {\n      $('.quickcontactDisplay').html(html);\n    });\n  });\n});

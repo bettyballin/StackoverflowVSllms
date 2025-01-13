@@ -1,1 +1,0 @@
-// In the DLL source code\n#ifdef BUILDING_MY_DLL\n#define DLL_API __declspec(dllexport)\n#else\n#define DLL_API __declspec(dllimport)\n#endif\n\n// Function declaration\nDLL_API void myFunction();

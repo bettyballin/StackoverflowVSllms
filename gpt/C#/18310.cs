@@ -1,1 +1,0 @@
-string pfxFilePath = @"path\to\your\certificate.pfx";\nstring password = "yourPfxPassword";\nImportCertificate(pfxFilePath, password, StoreName.My, StoreLocation.LocalMachine);

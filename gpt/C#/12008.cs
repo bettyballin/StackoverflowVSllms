@@ -1,1 +1,0 @@
-// Instead of:\n   string tempPath = System.IO.Path.GetTempPath();\n   \n   // Use:\n   string appDataPath = Server.MapPath("~/App_Data");

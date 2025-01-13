@@ -1,0 +1,1 @@
+<configuration>\n  <system.webServer>\n    <caching>\n      <profiles>\n        <add extension=".jpg" policy="CacheUntilChange" kernelCachePolicy="CacheUntilChange" />\n        <add extension=".png" policy="CacheUntilChange" kernelCachePolicy="CacheUntilChange" />\n      </profiles>\n    </caching>\n  </system.webServer>\n</configuration>

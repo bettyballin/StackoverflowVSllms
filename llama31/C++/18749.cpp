@@ -1,0 +1,1 @@
+CDatabaseSettingsStore settingsStore;\nCSettingsStore* pOldSettingsStore = AfxGetSettingsStore();\nAfxSetSettingsStore(&settingsStore);\n\n// Use the new UI controls, which will now use your custom settings store\n// ...\n\nAfxSetSettingsStore(pOldSettingsStore);

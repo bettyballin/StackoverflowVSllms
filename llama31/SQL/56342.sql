@@ -1,0 +1,1 @@
+CREATE DATABASE dbpedia;\nUSE dbpedia;\nCREATE TABLE infoboxes (\n  id INT PRIMARY KEY,\n  title VARCHAR(255),\n  ... other columns ...\n);

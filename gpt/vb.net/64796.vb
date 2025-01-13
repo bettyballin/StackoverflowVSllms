@@ -1,1 +1,0 @@
-' MainClass.vb\nImports YourNamespace ' Replace with the actual namespace containing TestClass\n\nPublic Class MainClass\n    Public Sub Main()\n        Dim result As Boolean = TestClass.Somefunc()\n        Console.WriteLine(result)\n    End Sub\nEnd Class

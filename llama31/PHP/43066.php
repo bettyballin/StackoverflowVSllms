@@ -1,0 +1,1 @@
+function index($surveyID = NULL, $guestID = NULL){\n    if($surveyID === NULL){\n        echo "no surveyID set";\n        return;\n    }\n    \n    if($guestID === NULL){\n        $this->take_survey($surveyID);\n    } else {\n        $this->survey_session($surveyID, $guestID);\n    }\n}

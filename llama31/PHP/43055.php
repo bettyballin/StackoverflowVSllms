@@ -1,0 +1,1 @@
+$exif_data = array(\n    'Artist' => 'Initrode',\n    'Copyright' => 'Copyright Initrode'\n);\n\n$image = imagecreatefromjpeg('image.jpg');\nexif_insert_data($image, $exif_data);\nimagejpeg($image, 'image.jpg');

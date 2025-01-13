@@ -1,1 +1,0 @@
-CREATE TABLE NewTable (\n        colA1 INT,\n        colA2 INT,\n        colA3 INT,\n        colA4 INT,\n        colA5 INT,\n        colA6 INT,\n        colB1 INT,\n        colB2 INT,\n        colB3 INT\n    );

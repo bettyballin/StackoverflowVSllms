@@ -1,0 +1,1 @@
+$maxYear = 0;\nforeach ($caption as $year => $values) {\n    if ($year > $maxYear) {\n        $maxYear = $year;\n    }\n}\necho $maxYear; // outputs 2009

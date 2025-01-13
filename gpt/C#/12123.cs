@@ -1,1 +1,0 @@
-// MyServiceClientExtensions.cs\npublic partial class MyServiceClient\n{\n    /// <summary>\n    /// This is a summary for MyMethod.\n    /// </summary>\n    public void MyMethod()\n    {\n        // You can call the original method if needed\n    }\n}

@@ -1,1 +1,0 @@
-ping smtp.yourmailserver.com\n   nslookup smtp.yourmailserver.com

@@ -1,1 +1,0 @@
-<?php\n$dir = '\\\\server\\dir'; // Properly escaped UNC path\n\nif (is_dir($dir)) {\n    echo 'success';\n} else {\n    echo 'failure';\n}\n?>

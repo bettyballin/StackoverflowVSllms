@@ -1,0 +1,1 @@
+DataTable myTable = new DataTable();\nmyTable.Columns.Add("id", typeof(int));\n\n// Add rows to the table...\n\nSqlCommand cmd = new SqlCommand("MyProcedure", connection);\ncmd.CommandType = CommandType.StoredProcedure;\ncmd.Parameters.AddWithValue("@myList", myTable);

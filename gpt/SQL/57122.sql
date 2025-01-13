@@ -1,1 +1,0 @@
-SELECT \n    CASE \n        WHEN v_n IN (1, 2) THEN 'Case 1 or 2'\n        WHEN v_n = 3 THEN 'Case 3'\n        ELSE 'Other case'\n    END AS result\nFROM dual;

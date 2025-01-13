@@ -1,1 +1,0 @@
-def rot5(text):\n        result = ''\n        for char in text:\n            if '0' <= char <= '9':\n                result += chr(((ord(char) - ord('0') + 5) % 10) + ord('0'))\n            else:\n                result += char\n        return result

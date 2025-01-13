@@ -1,0 +1,1 @@
+Public Sub Raise_Alarm(ByVal p_Page As Page, ByVal p_Message As String, Optional ByVal p_IsError As Boolean = True)\n    Dim strScript As String\n    strScript = "$(function() { Mesaj('" & p_Message & "'); });" & ControlChars.NewLine\n    ScriptManager.RegisterStartupScript(p_Page, p_Page.GetType(), "alert", strScript, True)\nEnd Sub

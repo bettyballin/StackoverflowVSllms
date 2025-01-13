@@ -1,1 +1,0 @@
-SELECT * \nFROM information_schema.table_constraints \nWHERE table_name = 'YourTableName';

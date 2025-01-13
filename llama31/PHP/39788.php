@@ -1,0 +1,1 @@
+function test_out() {\n    global $post;\n    if (!isset($post) || !is_object($post)) {\n        return; // or some other default value\n    }\n    // rest of the function remains the same\n}

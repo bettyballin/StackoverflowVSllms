@@ -1,1 +1,0 @@
-document.addEventListener('scroll', function() {\n    var activeElement = document.activeElement;\n\n    if (activeElement && activeElement.tagName === 'INPUT') {\n        activeElement.focus();\n    }\n});

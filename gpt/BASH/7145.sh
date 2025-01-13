@@ -1,1 +1,0 @@
-pip install nltk\npython -m nltk.downloader wordnet

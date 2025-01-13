@@ -1,1 +1,0 @@
-$config['migration_enabled'] = TRUE;

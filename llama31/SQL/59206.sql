@@ -1,0 +1,1 @@
+WITH temp_data AS (\n  SELECT * FROM table1 WHERE activity_code = :ActivityCode\n),\ntemp_data2 AS (\n  SELECT * FROM table2 WHERE execution_id = :ExecutionID\n)\nSELECT * FROM temp_data\nUNION ALL\nSELECT * FROM temp_data2;

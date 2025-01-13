@@ -1,0 +1,1 @@
+$input = htmlspecialchars($_POST['your_text_field'], ENT_QUOTES, 'UTF-8');

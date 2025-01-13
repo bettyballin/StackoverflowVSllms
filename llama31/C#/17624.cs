@@ -1,0 +1,1 @@
+public class Global : HttpApplication\n{\n    protected void Session_End(object sender, EventArgs e)\n    {\n        var session = (HttpSessionState)sender;\n        var wrapper = session["SessionObjectWrapper"] as SessionObjectWrapper;\n        if (wrapper != null)\n        {\n            wrapper.Dispose();\n        }\n    }\n}

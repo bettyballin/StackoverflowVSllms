@@ -1,0 +1,1 @@
+// Load the CodeIgniter session library\nrequire_once('path/to/codeigniter/system/libraries/Session.php');\n$session = new CI_Session();\n\n// Get the user ID from the session data\n$userid = $session->userdata('user_id');\n\n// Print the user ID\necho $userid;

@@ -1,0 +1,1 @@
+// Local server\n$conn = ssh2_connect('remote_server', 22);\nssh2_auth_password($conn, 'username', 'password');\n$sftp = ssh2_sftp($conn);\nssh2_scp_send($sftp, 'local_file.txt', 'remote_file.txt');

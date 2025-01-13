@@ -1,0 +1,1 @@
+SELECT * FROM table1 t1 INNER JOIN table2 t2 ON (\n    t1.some_id = t2.some_id\n)

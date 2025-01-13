@@ -1,1 +1,0 @@
-// Example code snippet for a custom print driver in C++\n   // You would need to develop the full driver using WDK\n   #include <windows.h>\n\n   // Custom print driver functions and structures\n   VOID CustomPrintDriver()\n   {\n       // Capture print job and convert to vector format\n   }

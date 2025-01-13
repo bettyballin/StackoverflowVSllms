@@ -1,0 +1,1 @@
+using System.IO;\n\n// Inside your submit button click event handler\nprotected void SubmitButton_Click(object sender, EventArgs e)\n{\n    string filePath = Server.MapPath("~/Pics/Image1.jpg");\n    if (File.Exists(filePath))\n    {\n        File.Delete(filePath);\n    }\n}

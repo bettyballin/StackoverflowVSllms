@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("SELECT city FROM city where countryid = ?");\n$stmt->bind_param("i", $country);\n$stmt->execute();\n$result = $stmt->get_result();

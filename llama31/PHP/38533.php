@@ -1,0 +1,1 @@
+session_cache_limiter('public, max-age=3600');\nsession_start();

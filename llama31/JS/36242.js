@@ -1,0 +1,1 @@
+PageMethods.SetTotalAmount('your_value_here');

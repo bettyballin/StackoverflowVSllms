@@ -1,1 +1,0 @@
-SELECT *\nFROM dba_fga_audit_trail\nWHERE policy_name = 'audit_revoke_policy';

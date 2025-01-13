@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <virtualDirectory path="/SharedContent" physicalPath="C:\SharedContent" />\n  </system.web>\n</configuration>

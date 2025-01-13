@@ -1,0 +1,1 @@
+ExpiringSession session = new ExpiringSession("sessionval", myvariable, TimeSpan.FromMinutes(5));\nSession["sessionval"] = session;\n\n// Later...\nExpiringSession session = (ExpiringSession)Session["sessionval"];\nmyvariable = session.GetValue();

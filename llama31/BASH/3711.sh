@@ -1,0 +1,1 @@
+wget --header="Accept-Language: ja" http://www.example.com

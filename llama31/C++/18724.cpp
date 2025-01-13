@@ -1,0 +1,1 @@
+extern void neverCalled() {\n  Foo<int> f(1);\n}

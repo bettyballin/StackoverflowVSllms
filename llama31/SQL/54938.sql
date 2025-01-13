@@ -1,0 +1,1 @@
+SELECT c.*, a.address, p.phone\nFROM customers c\nJOIN addresses a ON c.id = a.customer_id\nJOIN phones p ON c.id = p.customer_id\nWHERE c.email = 'example@example.com';

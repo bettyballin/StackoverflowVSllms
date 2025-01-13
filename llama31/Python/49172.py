@@ -1,0 +1,1 @@
+from sklearn.feature_extraction.text import TfidfVectorizer\n\ndef tfidf_similarity(s1, s2):\n    vectorizer = TfidfVectorizer()\n    v1 = vectorizer.fit_transform([s1])\n    v2 = vectorizer.transform([s2])\n    return v1.dot(v2.T).toarray()[0][0]

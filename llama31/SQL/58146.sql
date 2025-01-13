@@ -1,0 +1,1 @@
+SELECT DISTINCT `provisions`.id \nFROM `provisions` \nWHERE NOT EXISTS (\n  SELECT 1 \n  FROM `provisions_requirements` \n  JOIN `requirements` ON `requirements`.id = `provisions_requirements`.requirement_id \n  WHERE `provisions_requirements`.provision_id = `provisions`.id \n  AND `requirements`.id IN (4)\n)\nLIMIT 0, 10

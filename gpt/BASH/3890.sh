@@ -1,1 +1,0 @@
-pgbench -h <host> -p <port> -U <username> -i -s <scale_factor> <dbname>\n   pgbench -h <host> -p <port> -U <username> -c <number_of_clients> -T <duration> <dbname>

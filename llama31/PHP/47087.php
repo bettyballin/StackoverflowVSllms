@@ -1,0 +1,1 @@
+ksort($array);\nprint_r($array);

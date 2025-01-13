@@ -1,0 +1,1 @@
+@echo off\nchcp 65001 > nul

@@ -1,0 +1,1 @@
+SET @my_variable = (SELECT some_column FROM my_table WHERE some_condition);\n\nSELECT * FROM my_table WHERE column_name = @my_variable;

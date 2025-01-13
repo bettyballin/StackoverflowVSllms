@@ -1,1 +1,0 @@
-CREATE TABLE FieldLabels (\n    fieldName VARCHAR(255) PRIMARY KEY,\n    fieldLabel VARCHAR(255) NOT NULL\n);

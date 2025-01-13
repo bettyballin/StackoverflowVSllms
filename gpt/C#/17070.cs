@@ -1,1 +1,0 @@
-YourEntity entity = new YourEntity\n{\n    YourProperty = "exceedsMaxLength"\n    // Set other properties...\n};\n\nif (ValidationHelper.ValidateMaxLengths(entity, out string errorMessage))\n{\n    // Proceed with saving the entity\n}\nelse\n{\n    Console.WriteLine(errorMessage);\n    // Handle validation error\n}

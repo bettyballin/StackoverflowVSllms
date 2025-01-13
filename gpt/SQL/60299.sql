@@ -1,1 +1,0 @@
--- SQL Server\n   BEGIN TRANSACTION;\n   UPDATE MyTable SET Name = 'NewName' WHERE ID = 1;\n   COMMIT;\n\n   -- Oracle\n   BEGIN;\n   UPDATE MyTable SET Name = 'NewName' WHERE ID = 1;\n   COMMIT;

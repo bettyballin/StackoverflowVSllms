@@ -1,0 +1,1 @@
+string input = "GEORGE BURDELL";\nstring properCase = ToProperCase(input);\nConsole.WriteLine(properCase); // Output: George Burdell\n\ninput = "O'REILLY";\nproperCase = ToProperCase(input);\nConsole.WriteLine(properCase); // Output: O'Reilly

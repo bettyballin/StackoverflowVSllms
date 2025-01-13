@@ -1,1 +1,0 @@
-<?php\n  echo "Hello World!<br />";\n\n  include("file2.php");\n\n  echo "This line will be printed<br />";\n?>

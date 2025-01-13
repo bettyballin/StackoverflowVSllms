@@ -1,1 +1,0 @@
-sudo apt-get update\n   sudo apt-get install apt-transport-https ca-certificates curl software-properties-common\n   curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -\n   sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"\n   sudo apt-get update\n   sudo apt-get install sublime-text

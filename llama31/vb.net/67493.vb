@@ -1,0 +1,1 @@
+Imports System.Web.Routing\n\nPublic Module RouteConfig\n    Public Sub RegisterRoutes(routes As RouteCollection)\n        routes.MapPageRoute(\n            "HomeRoute",\n            "home",\n            "~/Default.aspx"\n        )\n\n        routes.MapPageRoute(\n            "AboutRoute",\n            "about",\n            "~/About.aspx"\n        )\n    End Sub\nEnd Module

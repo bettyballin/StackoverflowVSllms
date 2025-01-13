@@ -1,1 +1,0 @@
-Imports System.Security.Principal\n\nModule Module1\n    Sub Main()\n        Dim currentUser As WindowsIdentity = WindowsIdentity.GetCurrent()\n        Console.WriteLine("Current user: " & currentUser.Name)\n    End Sub\nEnd Module

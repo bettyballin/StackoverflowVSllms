@@ -1,1 +1,0 @@
-using System;\nusing System.Runtime.InteropServices;\n\n[Guid("YOUR-GUID-HERE"), InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]\npublic interface IPhonyOposDevice\n{\n    void SendKeyPress(string key);\n}

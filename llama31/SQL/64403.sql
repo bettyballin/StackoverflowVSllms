@@ -1,0 +1,1 @@
+SELECT col1 \nFROM myTable \nWHERE CONTAINS(fts_column, '("word" OR "office" OR "microsoft")');

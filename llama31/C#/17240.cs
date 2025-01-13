@@ -1,0 +1,1 @@
+using (FileStream fs = new FileStream("path/to/file.xml", FileMode.Append, FileAccess.Write))\n{\n    using (XmlWriter writer = XmlWriter.Create(fs))\n    {\n        // Write to the XML file\n    }\n}

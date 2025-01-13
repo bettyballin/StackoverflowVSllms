@@ -1,1 +1,0 @@
-var number = 10; // Type inference\nvar sb = new StringBuilder(); // Using statements and type inference\npublic string Name { get; set; } // Automatic properties\nvar list = new List<string> { "apple", "banana", "cherry" }; // Inline initializatio

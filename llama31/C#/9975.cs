@@ -1,0 +1,1 @@
+using (var dbContext = new MyDataContext())\n{\n    var newData = new MyTable();\n    newData.Name = "John Doe";\n    // Don't set the ID property here\n\n    dbContext.MyTables.InsertOnSubmit(newData);\n    dbContext.SubmitChanges();\n\n    // newData.Id will now contain the newly generated IDENTITY value\n    Console.WriteLine(newData.Id);\n}

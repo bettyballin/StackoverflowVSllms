@@ -1,0 +1,1 @@
+"string".each_byte do |b|\n  puts b\nend

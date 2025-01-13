@@ -1,1 +1,0 @@
-using System.Configuration;\n\npublic class DataAccess\n{\n    public void LoadData()\n    {\n        string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;\n        \n        YourDataSet dataSet = new YourDataSet();\n        dataSet.SetConnectionString(connectionString);\n        \n        // Use your dataset as needed\n    }\n}

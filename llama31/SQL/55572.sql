@@ -1,0 +1,1 @@
+SELECT RAND() * 10 - 5 AS Random

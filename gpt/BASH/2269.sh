@@ -1,1 +1,0 @@
-git clone <url-of-new-repo>\n    cd <new-repo>\n    git submodule init\n    git submodule update

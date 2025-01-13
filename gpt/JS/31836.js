@@ -1,1 +1,0 @@
-// Example jsonp response from server\n   const callback = req.query.callback;\n   const data = { message: 'Hello from foo.com' };\n   res.send(`${callback}(${JSON.stringify(data)})`);

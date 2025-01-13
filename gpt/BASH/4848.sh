@@ -1,1 +1,0 @@
-"C:\Program Files\7-Zip\7z.exe" a -tzip -pYourPassword "C:\path\to\your\encrypted_file.zip" "C:\path\to\your\script.sas"

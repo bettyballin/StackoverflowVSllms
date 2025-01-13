@@ -1,1 +1,0 @@
-from plyer import notification\n\ndef notify_user():\n    notification.notify(\n        title='Weekly Update Ready',\n        message='Your weekly update report has been generated. Check the file: weekly_report.html',\n        app_name='YourAppName'\n    )\n\n# Example usage\nreport_data = "Here is your weekly update: ..."\ngenerate_html_report(report_data)\nnotify_user()

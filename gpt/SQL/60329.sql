@@ -1,1 +1,0 @@
-SELECT ...\nFROM Customers AS c\nINNER JOIN Classification AS cf ON c.TypeCode = cf.Code\nINNER JOIN SalesReps AS s ON cf.SalesRepID = s.SalesRepID\nWHERE cf.CustomerType = 'Standard'

@@ -1,1 +1,0 @@
-#!/bin/bash\nphp -d include_path=/path/to/vhost1/includes /path/to/propel-gen ./ creole

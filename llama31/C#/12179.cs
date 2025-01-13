@@ -1,0 +1,1 @@
+string username = "your_username";\nstring password = "your_password";\n\nif (Membership.ValidateUser(username, password))\n{\n    // User is registered and credentials are valid\n}\nelse\n{\n    // User is not registered or credentials are invalid\n}

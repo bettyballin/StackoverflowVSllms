@@ -1,0 +1,1 @@
+using EnvDTE;\nusing System.Runtime.InteropServices;\n\nclass Program\n{\n    [STAThread]\n    static void Main(string[] args)\n    {\n        Type type = Type.GetTypeFromProgID("VisualStudio.DTE.8.0");\n        DTE dte = (DTE)Activator.CreateInstance(type);\n        // Use dte to automate Visual Studio\n    }\n}

@@ -1,1 +1,0 @@
-class MyBlock extends HTMLElement {\n      connectedCallback() {\n        this.innerHTML = `<div>Content goes here</div>`;\n      }\n    }\n    customElements.define('my-block', MyBlock);

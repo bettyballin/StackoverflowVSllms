@@ -1,0 +1,1 @@
+[PrincipalPermission(SecurityAction.Assert, Name=@"DJPITER-PC\Test", Role="LocalTestGroup")]\nstatic void LocalTestGroupOnly()\n{\n    Console.WriteLine("Inside LocalTestGroupOnly() - {0}", \n        WindowsIdentity.GetCurrent().Name);\n}

@@ -1,1 +1,0 @@
-public class Account\n   {\n       public int Id { get; set; }\n       public string Token { get; set; } // Token representing the sensitive data\n       public string AccountNumber { get; set; }\n       // Other properties\n   }

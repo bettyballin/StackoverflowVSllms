@@ -1,1 +1,0 @@
-public class MyDbContext : DbContext\n{\n    public DbSet<MyEntity> MyEntities { get; set; }\n\n    protected override void OnModelCreating(ModelBuilder modelBuilder)\n    {\n        modelBuilder.Entity<MyEntity>().HasKey(e => e.ID);\n        \n        // Additional configuration if needed\n    }\n}

@@ -1,0 +1,1 @@
+int lastID = getDatabase().executeQuery("SELECT @@IDENTITY AS ins_id").getInt("ins_id");

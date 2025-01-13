@@ -1,1 +1,0 @@
-// Assuming test() is a static method\n    WP_Http_ExtHTTP::test();

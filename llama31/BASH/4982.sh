@@ -1,0 +1,1 @@
+regshot -c <snapshot1> <snapshot2>

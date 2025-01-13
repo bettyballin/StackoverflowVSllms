@@ -1,0 +1,1 @@
+std::vector<MyClass> myVector;\nauto it = std::remove_if(myVector.begin(), myVector.end(), [](const MyClass& item) { return item.isTiredOfLife(); });\nmyVector.erase(it, myVector.end());

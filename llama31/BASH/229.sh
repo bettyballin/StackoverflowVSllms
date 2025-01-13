@@ -1,0 +1,1 @@
+awk 'BEGIN { srand() } { print rand() "\t" $0 }' input.txt | sort -n | cut -f2- > output.txt

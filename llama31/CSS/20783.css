@@ -1,0 +1,1 @@
+#container {\n  width: 100%;\n  overflow: hidden; /* clears float */\n}\n\n.column {\n  float: left;\n  margin: 0 10px; /* adjust spacing between columns */\n}\n\n#left {\n  width: 150px;\n}\n\n#middle {\n  width: calc(100% - 350px); /* 100% - (150px + 200px) */\n}\n\n#right {\n  width: 200px;\n}

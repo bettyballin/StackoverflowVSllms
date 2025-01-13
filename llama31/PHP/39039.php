@@ -1,0 +1,1 @@
+$db = mysqli_init();\nmysqli_options($db, MYSQLI_OPT_CONNECT_TIMEOUT, 300); // 5 minutes\nmysqli_options($db, MYSQLI_OPT_READ_TIMEOUT, 300); // 5 minutes\nmysqli_real_connect($db, 'your_host', 'your_user', 'your_password', 'your_database');

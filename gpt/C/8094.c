@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <stdint.h>\n#include <inttypes.h>\n\nint main(void)\n{\n  int x;\n  int *ptr = &x;\n\n  printf("ptr = %p\n", (void *)ptr);\n  printf("sizeof(ptr) = %zu\n", sizeof(ptr));\n\n  int64_t i1 = (int64_t) ptr;\n  printf("i1 = 0x%" PRIx64 "\n", i1);\n  printf("sizeof(i1) = %zu\n", sizeof(i1));\n\n  return 0;\n}

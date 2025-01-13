@@ -1,0 +1,1 @@
+perl Makefile.PL PREFIX=/path/to/local/dir\nmake test\nmake install

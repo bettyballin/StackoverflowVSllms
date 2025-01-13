@@ -1,1 +1,0 @@
-keytool -import -alias alias -file server.crt -keystore path/to/truststore.jks

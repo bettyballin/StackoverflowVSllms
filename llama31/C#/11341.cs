@@ -1,0 +1,1 @@
+using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    connection.Open();\n\n    using (SqlBulkCopy bulkCopy = new SqlBulkCopy(connection))\n    {\n        bulkCopy.DestinationTableName = "YourTableName";\n        bulkCopy.WriteToServer(dataTable);\n    }\n}

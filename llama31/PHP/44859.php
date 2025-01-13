@@ -1,0 +1,1 @@
+$mysqli = new mysqli("localhost", "username", "password", "database");\n\n$stmt = $mysqli->prepare("SELECT * FROM users WHERE email = ?");\n$stmt->bind_param("s", $email);\n$stmt->execute();\n$result = $stmt->get_result();\n\n// Fetch the result\nwhile ($row = $result->fetch_assoc()) {\n    // Process the row\n}

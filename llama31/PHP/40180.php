@@ -1,0 +1,1 @@
+if ($stmt = $mysqli->prepare("SELECT * FROM sample WHERE t2 LIKE ?")) {\n    $tt2 = '%';\n    $stmt->bind_param("s", $tt2);\n    // ...\n}

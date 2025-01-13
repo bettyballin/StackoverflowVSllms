@@ -1,1 +1,0 @@
-import time\n\n   def time_decay(created_at, half_life=86400):\n       # half_life is the time in seconds (default: 1 day)\n       age = time.time() - created_at\n       return 0.5 ** (age / half_life)

@@ -1,0 +1,1 @@
+int terminated_pid;\ndo {\n    terminated_pid = wait((int *)0);\n} while (terminated_pid != pid);

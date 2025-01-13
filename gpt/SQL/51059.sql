@@ -1,1 +1,0 @@
-WITH CTE AS (\n    SELECT \n        YourColumns,\n        ROW_NUMBER() OVER (ORDER BY SomeColumn) AS RowNum,\n        COUNT(*) OVER () AS TotalCount\n    FROM \n        YourTable\n    WHERE \n        YourConditions\n)\nSELECT \n    YourColumns,\n    RowNum,\n    TotalCount\nFROM \n    CTE\nWHERE \n    RowNum BETWEEN @PageStart AND @PageEnd

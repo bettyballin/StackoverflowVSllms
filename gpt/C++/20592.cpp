@@ -1,1 +1,0 @@
-// Example: Placing data in non-cacheable memory on ARM\n   volatile int critical_data __attribute__((section(".non_cacheable")));

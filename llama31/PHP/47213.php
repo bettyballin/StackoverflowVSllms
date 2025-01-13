@@ -1,0 +1,1 @@
+foreach($doc->seg as $key => $seg) {\n    if($seg['id'] == 'A12') {\n        unset($doc->seg[$key]);\n    }\n}

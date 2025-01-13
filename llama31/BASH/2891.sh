@@ -1,0 +1,1 @@
+# Install screen package\nsudo apt-get install screen\n\n# Start a new screen session\nscreen -S mysession\n\n# Run your command inside the screen session\n./your_command.sh\n\n# Detach from the screen session (Ctrl + A + D)

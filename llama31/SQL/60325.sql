@@ -1,0 +1,1 @@
+SET @row_num = 0;\nSELECT Name, Age, @row_num := @row_num + 1 AS RowOrder\nFROM YourTable\nORDER BY Age;

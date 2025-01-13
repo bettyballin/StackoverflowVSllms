@@ -1,0 +1,1 @@
+HttpClient client = new HttpClient();\nUser user = client.GetAsync("http://localhost:8080/users/1").Result.Content.ReadAsAsync<User>().Result;

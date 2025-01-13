@@ -1,0 +1,1 @@
+#include <chrono>\n\nauto start = std::chrono::high_resolution_clock::now();\nmyFunction(); // call the function you want to measure\nauto end = std::chrono::high_resolution_clock::now();\n\nauto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);\nstd::cout << "Execution time: " << duration.count() << " milliseconds" << std::endl;

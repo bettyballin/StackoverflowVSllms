@@ -1,0 +1,1 @@
+var uniqueId = currentElement.uuid;\nif (!uniqueId) {\n  uniqueId = UUID.generate();\n  currentElement.uuid = uniqueId;\n}

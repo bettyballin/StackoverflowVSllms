@@ -1,1 +1,0 @@
-readelf -S libmylibrary.so | grep debug

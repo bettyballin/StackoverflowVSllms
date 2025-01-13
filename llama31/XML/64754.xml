@@ -1,0 +1,1 @@
+<property name="MyBoolProperty" type="MyApp.OracleBoolType, MyApp">\n    <column name="MY_BOOL_COLUMN" />\n</property>

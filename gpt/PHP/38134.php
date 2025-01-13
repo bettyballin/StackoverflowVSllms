@@ -1,1 +1,0 @@
-<?php\nclass A {\n    private $to_construct = 'B';\n\n    function make_class() {\n        $myClass = new $this->to_construct();\n        return $myClass;\n    }\n}\n\nclass B {\n    function __construct() {\n        echo 'class constructed';\n    }\n}\n\n$myA = new A();\n$myA->make_class();\n?>

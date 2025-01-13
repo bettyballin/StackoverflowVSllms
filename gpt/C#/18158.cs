@@ -1,1 +1,0 @@
-public static class User32Constants\n{\n    public const uint MF_REMOVE = 0x00001000;\n    public const uint MF_BYCOMMAND = 0x00000000;\n\n    // Add more constants as needed\n}

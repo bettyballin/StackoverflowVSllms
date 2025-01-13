@@ -1,1 +1,0 @@
-CREATE TABLE QuestionStats (\n    QuestionID INT PRIMARY KEY,\n    RecentlyViewedDate DATETIME,\n    TotalViews INT,\n    FOREIGN KEY (QuestionID) REFERENCES Questions(QuestionID)\n);

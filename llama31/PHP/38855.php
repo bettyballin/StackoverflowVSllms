@@ -1,0 +1,1 @@
+$options = array(\n    'timeout' => 30, // set timeout to 30 seconds\n);\nhttp_request_options($options);

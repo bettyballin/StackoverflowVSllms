@@ -1,0 +1,1 @@
+if (php_sapi_name() === 'cli') {\n    // Running from console\n} else {\n    // Running from browser request\n}

@@ -1,1 +1,0 @@
-if (User.IsInRole(@"MyDomain\My Secure Users"))\n   {\n       // User is authorized\n   }\n   else\n   {\n       // User is not authorized\n       Response.Redirect("AccessDenied.aspx");\n   }

@@ -1,0 +1,1 @@
+DELETE A\nFROM A\nINNER JOIN B ON A.id = B.a_id\nWHERE B.date < '2008-10-10';

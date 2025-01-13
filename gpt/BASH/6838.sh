@@ -1,1 +1,0 @@
-thin start --socket /path/to/thin.sock

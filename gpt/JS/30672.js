@@ -1,1 +1,0 @@
-class MyCustomElement extends HTMLElement {\n       constructor() {\n           super();\n           // Element functionality written here\n       }\n   }\n   customElements.define('my-custom-element', MyCustomElement);

@@ -1,0 +1,1 @@
+Imports System.Reflection\n\nPublic Sub DisplayOnlyPublic(ByVal Someobject As Foo)\n    For Each prop As PropertyInfo In Someobject.GetType().GetProperties()\n        If prop.GetCustomAttributes(GetType(ShowInDisplayAttribute), False).Any() Then\n            Console.WriteLine(prop.Name & "=" & prop.GetValue(Someobject, Nothing))\n        End If\n    Next\nEnd Sub

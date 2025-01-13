@@ -1,0 +1,1 @@
+On Error GoTo Err_Handler\n' Your code here\nExit Sub\n\nErr_Handler:\n    MsgBox "Error " & Err.Number & ": " & Err.Description, vbExclamation, "Error"\n    ' Additional error handling or recovery code

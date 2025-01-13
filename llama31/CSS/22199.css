@@ -1,0 +1,1 @@
+div#header-outer {\n  background: rgb(33,33,33);\n  height:100px;\n  display:block;\n  clear:both;\n  position: relative;\n}\n\ndiv#header-container {\n  position: absolute;\n  left: 50%;\n  top: 0;\n  margin-left: -450px; /* half of the width of the container */\n  width: 900px;\n  padding: 0;\n}

@@ -1,1 +1,0 @@
-import cherrypy\nfrom sqlalchemy import create_engine\nfrom sqlalchemy.orm import sessionmaker\n\nclass MyApp:\n    @cherrypy.expose\n    def index(self):\n        # Your code to handle requests\n        return "Hello World!"\n\nif __name__ == '__main__':\n    cherrypy.quickstart(MyApp(), '/')

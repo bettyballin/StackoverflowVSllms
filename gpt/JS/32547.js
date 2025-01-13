@@ -1,1 +1,0 @@
-// Example of accessing the ID from the data attribute\n$('tr').each(function() {\n    var itemId = $(this).data('item-id');\n    console.log(itemId);\n});\n\n// Example of accessing the ID from a checkbox value\n$('input[name="item_id"]:checked').each(function() {\n    var itemId = $(this).val();\n    console.log(itemId);\n});

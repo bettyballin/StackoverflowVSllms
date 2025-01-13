@@ -1,0 +1,1 @@
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $xmlData = file_get_contents('php://input');\n    // process the XML data\n} else {\n    // handle other request methods\n}

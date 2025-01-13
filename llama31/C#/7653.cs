@@ -1,0 +1,1 @@
+CommandLoader loader = new CommandLoader();\nList<ICommand> commands = loader.LoadCommands(@"C:\Path\To\Commands");\n\nforeach (ICommand command in commands)\n{\n    listBox1.Items.Add(command.GetType().Name);\n}

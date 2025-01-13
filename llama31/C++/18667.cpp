@@ -1,0 +1,1 @@
+(testMenuPtr->*buttonFuncPtr)();

@@ -1,0 +1,1 @@
+var tabPage = new TabPage\n{\n    Name = "TabPage1",\n    Text = "Tab Page 1",\n    Visible = true\n};

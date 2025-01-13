@@ -1,0 +1,1 @@
+.viewport {\n  width: 300px; /* or any other width */\n  height: 200px; /* or any other height */\n  overflow-x: auto;\n}\n\n.container {\n  display: flex;\n  flex-wrap: wrap;\n  flex-direction: column;\n  height: 100%;\n}\n\n.item {\n  width: 100px; /* or any other width */\n  height: 20px; /* or any other height */\n  margin: 5px;\n}

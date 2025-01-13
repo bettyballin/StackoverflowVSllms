@@ -1,0 +1,1 @@
+array(2) {\n  [0]=>\n  string(4) "test"\n  [1]=>\n  string(5) "again"\n}

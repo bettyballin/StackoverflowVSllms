@@ -1,0 +1,1 @@
+using System.Data.Entity.SqlServer;\n\nvar query = context.YourEntity\n    .OrderBy(e => SqlFunctions.Log(e.YourProperty))\n    .ThenBy(e => SqlFunctions.Power(e.YourProperty, 2));

@@ -1,1 +1,0 @@
-import subprocess\n    \n    def scan_file(file_path):\n        result = subprocess.run(['clamscan', '--infected', '--remove', file_path], stdout=subprocess.PIPE)\n        return result.returncode == 0

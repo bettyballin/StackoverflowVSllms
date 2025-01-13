@@ -1,1 +1,0 @@
-WITH PaginatedResults AS (\n    SELECT *,\n           ROW_NUMBER() OVER (ORDER BY some_column) AS RowNum\n    FROM your_table\n)\nSELECT *\nFROM PaginatedResults\nWHERE RowNum BETWEEN @PageSize * (@PageNumber - 1) + 1 AND @PageSize * @PageNumber;

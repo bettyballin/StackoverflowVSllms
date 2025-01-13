@@ -1,0 +1,1 @@
+awk '{ORS=(NR%3==0)?"\n":","}1' yourfile.txt

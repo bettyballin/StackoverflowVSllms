@@ -1,1 +1,0 @@
-using (var context = new YourDataContext())\n{\n    // Create a new session\n    var session = new Session();\n\n    // Optionally set the User to null\n    session.User = null;\n\n    // Add session to context\n    context.Sessions.InsertOnSubmit(session);\n\n    // Submit changes to the database\n    context.SubmitChanges();\n}

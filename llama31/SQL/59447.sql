@@ -1,0 +1,1 @@
+CREATE TABLE salesforce_customers (\n  id SERIAL PRIMARY KEY,\n  tenant_id INTEGER NOT NULL,\n  name VARCHAR(50) NOT NULL,\n  email VARCHAR(100) NOT NULL\n);\n\nCREATE TABLE myapp_customers (\n  id SERIAL PRIMARY KEY,\n  tenant_id INTEGER NOT NULL,\n  name VARCHAR(50) NOT NULL,\n  email VARCHAR(100) NOT NULL\n);

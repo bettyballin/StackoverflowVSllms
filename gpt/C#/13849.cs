@@ -1,1 +1,0 @@
-@(Html.Syncfusion().Grid<YourModel>("Grid")\n       .Datasource((IEnumerable<YourModel>)ViewBag.datasource)\n       .Columns(col =>\n       {\n           col.Add(c => c.PropertyName).HeaderText("Header").Width(100);\n           // Add more columns as needed\n       })\n       .AllowPaging()\n       .AllowSorting()\n   )

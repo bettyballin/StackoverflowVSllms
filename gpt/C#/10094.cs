@@ -1,1 +1,0 @@
-using System;\n\nclass Program\n{\n    static void Main()\n    {\n        // Generate a new GUID\n        Guid newGuid = Guid.NewGuid();\n        \n        // Print the GUID\n        Console.WriteLine(newGuid.ToString());\n    }\n}

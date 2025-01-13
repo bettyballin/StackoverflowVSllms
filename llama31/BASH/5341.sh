@@ -1,0 +1,1 @@
+cscript iisvdir.vbs /s <remote_server> /set <virtual_directory> <property> <value>

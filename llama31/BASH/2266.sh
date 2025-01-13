@@ -1,0 +1,1 @@
+security cms -D -i /path/to/embedded.mobileprovisio

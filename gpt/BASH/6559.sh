@@ -1,1 +1,0 @@
-# Navigate to the directory containing your applet files\ncd /path/to/your/applet/files\n\n# Start the Python HTTP server (for Python 3.x)\npython3 -m http.server 8000\n\n# Or for Python 2.x\npython -m SimpleHTTPServer 8000

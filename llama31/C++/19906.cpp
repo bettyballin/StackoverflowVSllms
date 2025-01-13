@@ -1,0 +1,1 @@
+// mywrapper.h\n#pragma once\n\nusing namespace System::Runtime::InteropServices;\n\npublic ref class MyWrapper {\npublic:\n    static int MyWrappedFunction() {\n        // Call the unmanaged function\n        return MyUnmanagedFunction();\n    }\n};

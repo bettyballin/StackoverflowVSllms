@@ -1,0 +1,1 @@
+using System.Text;\n\nchar c = 'A';\nint asciiValue = Encoding.ASCII.GetBytes(new char[] { c })[0]; // equivalent to Asc()\n\nint value = 65;\nchar charValue = Encoding.ASCII.GetChars(new byte[] { (byte)value })[0]; // equivalent to Chr()

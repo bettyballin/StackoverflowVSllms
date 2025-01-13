@@ -1,0 +1,1 @@
+# Create a new instance\nopmnctl createinstance -instanceName myInstance1 -adminHost myHost1 -adminPort 7001\n\n# Create another instance\nopmnctl createinstance -instanceName myInstance2 -adminHost myHost2 -adminPort 7002

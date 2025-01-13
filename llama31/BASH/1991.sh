@@ -1,0 +1,1 @@
+$command = "mysqldump --opt -h $dbhost -u $dbuser -p$dbpass $dbname  | gzip > $backupFile";

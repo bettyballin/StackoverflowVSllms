@@ -1,0 +1,1 @@
+mxmlc -library-path+=path/to/charts.swc -target-player=9.0.0 -source-path=src src/Main.mxml

@@ -1,0 +1,1 @@
+string str = "Hello";\nList<string> list = Enumerable.Repeat(str, 5).ToList();\n// list is now ["Hello", "Hello", "Hello", "Hello", "Hello"]

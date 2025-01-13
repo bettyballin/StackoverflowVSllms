@@ -1,0 +1,1 @@
+<?php\n// Hash a password\nfunction hashPassword($password) {\n    $options = [\n        'cost' => 12,\n        'salt' => random_bytes(16),\n    ];\n    return password_hash($password, PASSWORD_BCRYPT, $options);\n}\n\n// Example usage:\n$password = 'your_password';\n$hashedPassword = hashPassword($password);\necho $hashedPassword;

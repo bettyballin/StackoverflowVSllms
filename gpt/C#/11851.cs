@@ -1,1 +1,0 @@
-public class YourDbContext : DbContext\n   {\n       public DbSet<YourModel> YourTable { get; set; }\n   }\n\n   public class YourModel\n   {\n       public int Id { get; set; }\n       public string YourColumn { get; set; }\n   }

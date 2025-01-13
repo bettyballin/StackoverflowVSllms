@@ -1,1 +1,0 @@
-#!/path/to/decryptandrun\n# Place your encrypted content here

@@ -1,1 +1,0 @@
-BEGIN\n    some_procedure;\nEND;\n/

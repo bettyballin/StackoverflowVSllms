@@ -1,0 +1,1 @@
+_ATL_COM_MODULE _AtlComModule;\n_AtlComModule.RegisterServer(TRUE);

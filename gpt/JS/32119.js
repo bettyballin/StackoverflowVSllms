@@ -1,1 +1,0 @@
-console.info('This is an info message');\nconsole.warn('This is a warning message');\nconsole.error('This is an error message');

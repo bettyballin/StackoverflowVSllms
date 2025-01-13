@@ -1,0 +1,1 @@
+<Deployment>\n  <!-- ... -->\n  <Files>\n    <File SourcePath="$(ProjectDir)LibComposites.dll" DestinationPath="$(OutputPath)LibComposites.dll" />\n  </Files>\n  <!-- ... -->\n</Deployment>

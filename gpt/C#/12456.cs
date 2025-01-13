@@ -1,1 +1,0 @@
-try\n   {\n       var result = AddOrder(orderMessage);\n       return result;\n   }\n   catch (TransactionAbortedException ex)\n   {\n       // Handle transaction timeout\n       throw new CustomException("Transaction timed out.", ex);\n   }

@@ -1,0 +1,1 @@
+$(function() {\n  $("#left-col, #right-col").sortable({\n    connectWith: ".connectedSortable",\n    items: "> .wrapper"\n  });\n});

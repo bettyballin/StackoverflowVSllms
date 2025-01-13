@@ -1,1 +1,0 @@
-using NUnit.Framework;\n\n[TestFixture]\npublic class CalculatorTests\n{\n    [Test]\n    public void Add_WhenCalled_ReturnsTheSumOfArguments()\n    {\n        // Arrange\n        var calculator = new Calculator();\n\n        // Act\n        var result = calculator.Add(1, 2);\n\n        // Assert\n        Assert.AreEqual(3, result);\n    }\n}

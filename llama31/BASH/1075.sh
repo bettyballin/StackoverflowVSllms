@@ -1,0 +1,1 @@
+perf report --call-graph --stdio

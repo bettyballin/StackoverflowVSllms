@@ -1,0 +1,1 @@
+sudo useradd -d /var/lib/postgresql -m postgres

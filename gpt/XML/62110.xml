@@ -1,1 +1,0 @@
-<ItemGroup>\n      <!-- Other include statements -->\n      <None Update="**\_svn\**">\n        <ExcludeFromPackage>true</ExcludeFromPackage>\n      </None>\n    </ItemGroup>

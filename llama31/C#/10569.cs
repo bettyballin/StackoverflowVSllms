@@ -1,0 +1,1 @@
+cmd.CommandText = "select * from myTable where (@param IS NULL AND myColumn IS NULL) OR (@param IS NOT NULL AND myColumn = @param)";

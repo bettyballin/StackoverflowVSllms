@@ -1,1 +1,0 @@
-IF (@DateStart IS NOT NULL)\nBEGIN\n    SET @DateStart = DATEADD(day, DATEDIFF(day, 0, @DateStart), 0)\nEND\n\nIF (@DateEnd IS NOT NULL)\nBEGIN\n    SET @DateEnd = DATEADD(day, DATEDIFF(day, 0, @DateEnd) + 1, 0)\nEND

@@ -1,0 +1,1 @@
+Dim db As New CDEvodbDataContext\n\n' Get the RISKCHANGES table\nDim riskChangesTable As Table(Of RISKCHANGE) = db.RISKCHANGEs\n\n' Set the IsDbGenerated property of the IDENTITY column to True\nriskChangesTable.EntityType.Properties("IDENTITY").IsDbGenerated = True

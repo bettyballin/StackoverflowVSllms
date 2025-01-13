@@ -1,0 +1,1 @@
+from django.db.models import Subquery, OuterRef\n\nlatest_funding = ProjectFundingDetail.objects.filter(project=OuterRef('pk')).order_by('-end_date').values('budget')[:1]\n\nprojects_list = Project.objects.filter(projectfundingdetail__budget__lte=1000,\n                                       projectfundingdetail__budget__in=Subquery(latest_funding)).distinct()

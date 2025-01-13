@@ -1,1 +1,0 @@
-// Install Lighthouse via npm\n   npm install -g lighthouse\n\n   // Run Lighthouse on a URL\n   lighthouse https://example.com --output html --output-path ./report.html

@@ -1,1 +1,0 @@
-DEFINE id_type = "NUMBER(7)"

@@ -1,0 +1,1 @@
+function getElementsByTagName(tagName) {\n  var elements = [];\n  var allElements = document.all;\n  for (var i = 0; i < allElements.length; i++) {\n    if (allElements[i].nodeName.toLowerCase() === tagName.toLowerCase()) {\n      elements.push(allElements[i]);\n    }\n  }\n  return elements;\n}\n\n// Usage\nvar elements = getElementsByTagName('div');

@@ -1,0 +1,1 @@
+const formData = new FormData();\nformData.append('textarea', textareaValue);\nxhr.send(formData);

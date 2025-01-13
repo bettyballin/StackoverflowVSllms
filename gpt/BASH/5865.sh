@@ -1,1 +1,0 @@
-"C:\path\to\desired\jdk\bin\java.exe" -jar jar_name.jar

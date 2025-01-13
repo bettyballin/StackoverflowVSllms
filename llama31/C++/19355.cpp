@@ -1,0 +1,1 @@
+for (long i = min; i <= max; i++) {\n    IMyInterface* l = NULL;\n    SafeArrayGetElement(array, &i, &l);\n    // ... use l ...\n    l->Release(); // Release the interface pointer\n}\n\nSafeArrayDestroy(array);

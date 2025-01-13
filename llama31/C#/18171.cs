@@ -1,0 +1,1 @@
+if (Response.Filter is System.Web.Http.Compression.GZipStream || \n    Response.Filter is System.Web.Http.Compression.DeflateStream)\n{\n    // compression is enabled\n}

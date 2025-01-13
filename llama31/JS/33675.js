@@ -1,0 +1,1 @@
+// Example of a WebSocket connection\nconst socket = new WebSocket('ws://127.0.0.1:8080');\n\nsocket.onmessage = (event) => {\n  console.log(`Received message: ${event.data}`);\n};\n\nsocket.onopen = () => {\n  console.log('Connected to the local service');\n  socket.send('Status request');\n};\n\nsocket.onerror = (error) => {\n  console.error('Error occurred:', error);\n};

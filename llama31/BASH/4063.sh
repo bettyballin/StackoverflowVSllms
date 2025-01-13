@@ -1,0 +1,1 @@
+# Example of setting up HDFS on Ubuntu\nsudo apt-get install hadoop-hdfs\nsudo hdfs namenode -format\nsudo hdfs datanode

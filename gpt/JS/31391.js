@@ -1,1 +1,0 @@
-$('#tree').jstree({\n       'core': {\n           'data': {\n               'url': 'your-url',\n               'data': function (node) {\n                   return { 'id': node.id };\n               }\n           }\n       }\n   });

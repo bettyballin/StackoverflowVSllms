@@ -1,0 +1,1 @@
+#include <conio.h>\n\nint main() {\n    int ch = _getch(); // read a single character from the keyboard\n    std::cout << "You pressed: " << (char)ch << std::endl;\n    return 0;\n}

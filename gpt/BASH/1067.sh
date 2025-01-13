@@ -1,1 +1,0 @@
-svn delete https://your-repo-url/branches/release-branch/path/to/unwanted-file -m "Removing unwanted file from release branch"

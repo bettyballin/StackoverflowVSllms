@@ -1,0 +1,1 @@
+function is_spam_content($content) {\n    $spam_keywords = array('viagra', 'casino', 'buy now');\n    foreach ($spam_keywords as $keyword) {\n        if (strpos(strtolower($content), $keyword) !== false) {\n            return true;\n        }\n    }\n    return false;\n}

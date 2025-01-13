@@ -1,0 +1,1 @@
+SELECT *\nFROM stock_items si\nLEFT JOIN parts p ON si.partnr = p.partnumber\nWHERE p.partnumber IS NULL;

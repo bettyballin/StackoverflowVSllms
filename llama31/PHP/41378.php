@@ -1,0 +1,1 @@
+$this->headScript()->appendFile('http://maps.google.com/maps?file=api&v=2&sensor=true&key=ABQIAAAAHSJ3TgOTyvA1VzwU8g4Y7RT2yXp_ZAY8_ufC3CFXhHIE1NvwkxRmCy1h3nGv3n46kcqaFljsimqfWw');

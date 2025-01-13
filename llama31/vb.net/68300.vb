@@ -1,0 +1,1 @@
+Public Class JCPropertyDTO\n    Public Property PropertyID As Integer\n    Public Property AddressLine1 As String\n    Public Property AddressLine2 As String\n    ' ... other properties ...\nEnd Class

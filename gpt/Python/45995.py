@@ -1,1 +1,0 @@
-import pkgutil\n\ndata = pkgutil.get_data(__package__, "yourfile.txt")\nprint(data.decode('utf-8'))

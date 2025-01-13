@@ -1,0 +1,1 @@
+[MessageHeader]\npublic string CustomHeader { get; set; }

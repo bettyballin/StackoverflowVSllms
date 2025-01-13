@@ -1,0 +1,1 @@
+user = User.new(name: "John", email: "invalid_email")\nuser.valid?\nputs user.errors.messages # => {:email=>["is invalid"]}

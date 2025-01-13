@@ -1,0 +1,1 @@
+IEnumerator<T> enumerator = letterRange.GetEnumerator();\nwhile (enumerator.MoveNext())\n{\n    T current = enumerator.Current;\n    Console.Write(current + ",");\n}

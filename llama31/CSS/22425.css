@@ -1,0 +1,1 @@
+th {\n  font-size: 50%;\n  width: 20em;\n  line-height: 100%;\n  display: flex;\n}\n\nth a {\n  display: block;\n  width: 100%;\n  height: 100%;\n  background-color: #aaa;\n  flex: 1;\n}\n\nth a:hover {\n  background-color: #333;\n}

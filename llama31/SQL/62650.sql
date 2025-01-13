@@ -1,0 +1,1 @@
+SUBSTRING(binary_value, index, 1)

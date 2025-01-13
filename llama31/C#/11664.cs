@@ -1,0 +1,1 @@
+vo.PlacementID = dr.IsDBNull(0) ? null : dr[0].ToString();

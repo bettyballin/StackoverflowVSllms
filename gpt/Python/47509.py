@@ -1,1 +1,0 @@
-from lxml import html\n\nhtml_content = "<html><body><p>Example without closing tags"\ntree = html.fromstring(html_content)\n\n# Extract data, for example, text inside <p> tag\ntext = tree.xpath('//p/text()')\nprint(text)

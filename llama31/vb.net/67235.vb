@@ -1,0 +1,1 @@
+Dim regexp1 As New Regex("""([^""]*)"" <([^>]*)>")

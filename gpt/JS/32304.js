@@ -1,1 +1,0 @@
-var description = new Array();\ndescription[0] = "...";\ndescription[1] = "...";\n\nfunction init() {\n    document.getElementById('somedivid').innerHTML = description[0];\n}\n\nwindow.onload = init;

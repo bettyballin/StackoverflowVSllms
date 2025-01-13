@@ -1,0 +1,1 @@
+protected void Page_Unload(object sender, EventArgs e)\n{\n    var guid = (Guid)ViewState["ViewStateGuid"];\n    ViewStateStore.RemoveViewState(guid);\n}

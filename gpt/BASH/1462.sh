@@ -1,1 +1,0 @@
-# Install .NET Framework 3.5 SP1\nStart-Process -FilePath "dotnetfx35.exe" -ArgumentList "/q /norestart" -Wait\n\n# Install SQL Server 2005\nStart-Process -FilePath "setup.exe" -ArgumentList "/q" -Wait\n# After SQL Server installation, apply SP2\nStart-Process -FilePath "SQLServer2005SP2-KB921896-x86-ENU.exe" -ArgumentList "/quiet" -Wait

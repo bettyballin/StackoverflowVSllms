@@ -1,0 +1,1 @@
+// Malicious script attempting to hijack JSON data\n<script>\n  var sensitiveData = eval( xhr.responseText );\n  // do something malicious with sensitiveData\n</script>\n\n// JSON data returned from vulnerable site\n{ "sensitiveInfo": "secret" }\n\n// Same JSON data wrapped in a comment block\n/* { "sensitiveInfo": "secret" } */

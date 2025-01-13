@@ -1,1 +1,0 @@
-dotnet add package NLog\ndotnet add package NLog.Config\ndotnet add package NLog.Targets

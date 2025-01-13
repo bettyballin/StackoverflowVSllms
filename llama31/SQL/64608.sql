@@ -1,0 +1,1 @@
+SELECT * \nFROM your_table \nWHERE LENGTH(your_field) - LENGTH(REPLACE(your_field, ' ', '')) < 3;

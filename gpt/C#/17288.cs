@@ -1,1 +1,0 @@
-using System.Net;\n// ...\n\nWebRequest request = WebRequest.Create("http://example.com");\nrequest.Proxy = new WebProxy("http://127.0.0.1:8888", true);

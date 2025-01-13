@@ -1,0 +1,1 @@
+private void Page_Load(object sender, EventArgs e)\n{\n  foreach (Control control in Page.Controls)\n  {\n    if (control is HyperLink)\n    {\n      ((HyperLink)control).Target = "rightFrame";\n    }\n  }\n}

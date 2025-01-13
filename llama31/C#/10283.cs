@@ -1,0 +1,1 @@
+using System.IO;\nusing System.Reflection;\n\n// Get the embedded resource stream\nStream stream = Assembly.GetExecutingAssembly()\n    .GetManifestResourceStream("YourNamespace.Resources.YourFile.aspx");\n\n// Read the stream\nusing (StreamReader reader = new StreamReader(stream))\n{\n    string fileContent = reader.ReadToEnd();\n    // Use the file content\n}

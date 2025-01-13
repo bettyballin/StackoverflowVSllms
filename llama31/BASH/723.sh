@@ -1,0 +1,1 @@
+gzip -c tinymce.min.js > tinymce.min.js.gz

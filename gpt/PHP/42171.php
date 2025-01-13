@@ -1,1 +1,0 @@
-if ($action != ""):\n    mail("$adminaddress", "Visitor Comment from YOUR SITE", $message);\nendif;

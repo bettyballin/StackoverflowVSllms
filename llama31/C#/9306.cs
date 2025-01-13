@@ -1,0 +1,1 @@
+// In your production assembly's AssemblyInfo.cs\n[assembly: InternalsVisibleTo("YourTestAssemblyName")]

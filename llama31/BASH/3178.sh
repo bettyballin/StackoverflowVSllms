@@ -1,0 +1,1 @@
+msbuild /t:ResolveReferences /p:Configuration=Debug /p:Platform=AnyCPU YourProject.vbproj\nvbc.exe ... (your original command)

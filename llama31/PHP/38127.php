@@ -1,0 +1,1 @@
+// Example usage:\nrequire_once 'PHPGit/PHPGit.php';\n$git = new PHPGit('/path/to/your/repo');

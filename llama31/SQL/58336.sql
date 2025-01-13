@@ -1,0 +1,1 @@
+CREATE PROCEDURE MyProc\nAS\nBEGIN\n    CREATE TABLE #MyTempTable (id INT);\n    INSERT INTO #MyTempTable (id) VALUES (1);\n    EXEC MyProc;  -- recursive call shares #MyTempTable instance\n    SELECT * FROM #MyTempTable;\nEND;\nGO

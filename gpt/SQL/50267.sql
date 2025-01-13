@@ -1,1 +1,0 @@
-CREATE INDEX ix_profiles_full_lookup ON Profiles(\n    FirstName,\n    LastName,\n    Address1,\n    City,\n    State,\n    Zip\n);

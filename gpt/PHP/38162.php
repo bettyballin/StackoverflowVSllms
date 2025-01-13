@@ -1,1 +1,0 @@
-try {\n    $client = new Zend_Rest_Client('http://localhost/my_application/api/index/');       \n    $client->auth($key);\n    $result = $client->get();\n    echo $result;\n} catch (Zend_Http_Client_Adapter_Exception $e) {\n    echo 'Connection error: ' . $e->getMessage();\n} catch (Exception $e) {\n    echo 'General error: ' . $e->getMessage();\n}

@@ -1,0 +1,1 @@
+SELECT id, name\nFROM students\nINTO OUTFILE '/path/to/list.csv'\nFIELDS TERMINATED BY ','\nENCLOSED BY '\"'\nLINES TERMINATED BY '\n';

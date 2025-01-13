@@ -1,1 +1,0 @@
-ALTER TABLE table_name\nADD COLUMN column_name data_type;

@@ -1,0 +1,1 @@
+PgpSignatureGenerator signatureGenerator = new PgpSignatureGenerator();\nsignatureGenerator.SetHashAlgorithm(PgpSignatureGenerator.HashAlgorithmTag.SHA1);\nsignatureGenerator.SetSignatureVersion(3);

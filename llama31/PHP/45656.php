@@ -1,0 +1,1 @@
+$a = 5;\nfunction changeValue(&$a) {\n    $a = 10;\n}\nchangeValue($a);\necho $a; // Outputs: 10

@@ -1,0 +1,1 @@
+keytool -genkeypair -alias mycert -keyalg RSA -keysize 2048 -validity 365 -keystore mykeystore.jks -ext SAN=IP:192.168.56.1

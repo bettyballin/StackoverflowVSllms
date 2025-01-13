@@ -1,0 +1,1 @@
+from pymongo import MongoClient\n\n# Connect to MongoDB\nclient = MongoClient('mongodb://localhost:27017/')\n\n# Select the database and collection\ndb = client['sensor_data']\ncollection = db['temperature_readings']\n\n# Insert sensor data\ndata = {\n    'sensor_id': ' sensor-123',\n    'temperature': 25.6,\n    'timestamp': datetime.now()\n}\ncollection.insert_one(data)

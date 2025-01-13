@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint main() {\n    int x = 5;\n    int y = x * 2;\n    printf("%d\n", y);\n    return 0;\n}

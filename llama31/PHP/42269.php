@@ -1,0 +1,1 @@
+ob_implicit_flush(true);\n$handle = popen('python last', 'r');\n$read = stream_get_contents($handle);\npclose($handle);

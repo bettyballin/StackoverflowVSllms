@@ -1,0 +1,1 @@
+SELECT /*+ REFRESH */ * FROM your_view_name@dblink;

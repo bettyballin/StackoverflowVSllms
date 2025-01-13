@@ -1,1 +1,0 @@
-set PATH=%JAVA_HOME%\bin;%PATH%

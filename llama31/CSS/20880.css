@@ -1,0 +1,1 @@
+label {\n  display: block;\n  position: relative;\n  padding-left: 25px; /* or any other suitable value */\n}\n\ninput[type="checkbox"] {\n  position: absolute;\n  top: 50%;\n  margin-top: -10px; /* or any other suitable value */\n}

@@ -1,0 +1,1 @@
+// Process A (server)\nusing System.IO.Pipes;\n\nvar pipeServer = new NamedPipeServerStream("myPipe", PipeDirection.InOut);\npipeServer.WaitForConnection();\n\n// Process B (client)\nusing System.IO.Pipes;\n\nvar pipeClient = new NamedPipeClientStream(".", "myPipe", PipeDirection.InOut);\npipeClient.Connect();

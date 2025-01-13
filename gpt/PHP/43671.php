@@ -1,1 +1,0 @@
-class StringUtils {\n    public static function toUpperCase($string) {\n        return strtoupper($string);\n    }\n}\n\n// Usage\necho StringUtils::toUpperCase('hello'); // Outputs: HELLO

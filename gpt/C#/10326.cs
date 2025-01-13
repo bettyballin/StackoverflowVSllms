@@ -1,1 +1,0 @@
-using System.Windows.Forms;\nusing mshtml;\n\npublic IHTMLElement3 ConvertToIHTMLElement3(HtmlElement htmlElement)\n{\n    if (htmlElement == null)\n    {\n        throw new ArgumentNullException(nameof(htmlElement));\n    }\n\n    return htmlElement.DomElement as IHTMLElement3;\n}

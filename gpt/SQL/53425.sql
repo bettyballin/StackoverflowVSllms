@@ -1,1 +1,0 @@
-ALTER TABLE your_table ADD COLUMN uuid VARCHAR(36) NOT NULL;

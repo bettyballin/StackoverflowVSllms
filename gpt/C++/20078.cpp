@@ -1,1 +1,0 @@
-// MyAlgorithm.h\n   #pragma once\n\n   extern "C" {\n       __declspec(dllexport) double CalculateSomething(const double* data, int length);\n   }

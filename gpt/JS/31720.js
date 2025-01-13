@@ -1,1 +1,0 @@
-function display(id) {\n    // Your display logic here\n    console.log("Display function called with id:", id);\n    \n    // Return true to allow the hyperlink to work\n    return true;\n}

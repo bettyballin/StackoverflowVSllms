@@ -1,0 +1,1 @@
+function showColumnSelector() {\n    document.getElementById('column-selector').style.display = 'block';\n}\n\nfunction showSelectedColumns() {\n    // Code to update your gridview to show selected columns\n    document.getElementById('column-selector').style.display = 'none';\n}

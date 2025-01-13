@@ -1,1 +1,0 @@
-#ifndef NEKO_VM_H\n#define NEKO_VM_H\n\n#ifdef __cplusplus\n#define EXTERN extern "C"\n#else\n#define EXTERN extern\n#endif\n\n#include <stdbool.h>\n\nEXTERN bool neko_thread_register(bool t);\n\n#endif // NEKO_VM_H

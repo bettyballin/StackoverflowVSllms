@@ -1,1 +1,0 @@
-/* Apply styles to top-level table only */\n.top-level-table {\n    border: dashed 1px #333333;\n    padding: 2px;\n}\n\n/* No styles for nested tables */\n.top-level-table table {\n    border: none;\n    padding: 0;\n}

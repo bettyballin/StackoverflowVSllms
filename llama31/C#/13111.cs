@@ -1,0 +1,1 @@
+public class Customer\n{\n    // ...\n    private ISet<CustomerPreferences> _customerPreferences = new HashedSet<CustomerPreferences>();\n\n    public ISet<CustomerPreferences> CustomerPreferences\n    {\n        get { return _customerPreferences; }\n        set { _customerPreferences = value; }\n    }\n    // ...\n}

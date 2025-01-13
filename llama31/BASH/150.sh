@@ -1,0 +1,1 @@
+# Install CollectD\nsudo apt-get install collectd\n\n# Configure CollectD to collect CPU and memory usage data\nsudo nano /etc/collectd/collectd.conf

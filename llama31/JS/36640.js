@@ -1,0 +1,1 @@
+$(".item").draggable({\n  revert: "invalid"\n});\n\n$(".container").selectable({\n  filter: ".item"\n});

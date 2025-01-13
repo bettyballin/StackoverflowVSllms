@@ -1,0 +1,1 @@
+DataRow[] rows = new DataRow[dt.Rows.Count];\ndt.Rows.CopyTo(rows, 0);\nArray.Sort(rows, (r1, r2) => string.Compare(r1["YourColumnName"].ToString(), r2["YourColumnName"].ToString()));

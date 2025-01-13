@@ -1,0 +1,1 @@
+psftp -b <username> <hostname> <local_file> <remote_file>

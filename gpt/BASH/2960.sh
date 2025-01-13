@@ -1,1 +1,0 @@
-keytool -export -alias myalias -keystore mykeystore.jks -file mycert.cer

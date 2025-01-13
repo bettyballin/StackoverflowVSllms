@@ -1,1 +1,0 @@
-<x:doc xmlns:x="http://thisns.com/">\n  <x:node x:property="true">\n     this part passes validation\n  </x:node>\n  <x:node property="false">\n     this part does not pass validation\n  </x:node>\n</x:doc>

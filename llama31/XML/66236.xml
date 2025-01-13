@@ -1,0 +1,1 @@
+<PermissionSet class="System.Security.NamedPermissionSet" version="1" Name="MyControlPermissions">\n  <!-- ... -->\n  <IPermission class="System.Diagnostics.EventLogPermission, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" version="1" Access="Administer"/>\n</PermissionSet>

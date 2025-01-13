@@ -1,1 +1,0 @@
-/* Ensuring hasLayout is triggered */\n* html #footer {\n    zoom: 1; /* Triggers hasLayout in IE */\n    position: relative; /* Another way to ensure the element has layout */\n}\n\n/* Additional fallback */\n* html body {\n    margin: 0;\n    padding: 0;\n}

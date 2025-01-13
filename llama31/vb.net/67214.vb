@@ -1,0 +1,1 @@
+Dim model = New MyModel(MvcApplication.IoC)

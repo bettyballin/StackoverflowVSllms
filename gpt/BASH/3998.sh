@@ -1,1 +1,0 @@
-robocopy C:\SourceFolder \\TargetServer\TargetFolder /MIR /R:5 /W:10

@@ -1,0 +1,1 @@
+openssl speed aes-256-cbc

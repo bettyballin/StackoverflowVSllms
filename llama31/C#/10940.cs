@@ -1,0 +1,1 @@
+var razorEngine = new RazorViewEngine();\nrazorEngine.AreaViewLocationFormats = new[] { "~/Areas/{2}/Views/Manage/{1}/{0}.cshtml" };

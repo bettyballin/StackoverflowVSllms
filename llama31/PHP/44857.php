@@ -1,0 +1,1 @@
+function str_replace_first($search, $replace, $subject) {\n    return preg_replace('/' . preg_quote($search, '/') . '/', $replace, $subject, 1);\n}

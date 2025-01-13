@@ -1,1 +1,0 @@
-<settings>\n       <servers>\n           <server>\n               <id>my-weblogic-server</id>\n               <username>weblogic-username</username>\n               <password>weblogic-password</password>\n           </server>\n       </servers>\n   </settings>

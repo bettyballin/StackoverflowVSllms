@@ -1,0 +1,1 @@
+Sub GetHTMLSource()\n    Dim http As Object\n    Set http = CreateObject("MSXML2.XMLHTTP")\n    \n    http.Open "GET", "http://example.com", False\n    http.Send\n    \n    Debug.Print http.responseText\nEnd Sub

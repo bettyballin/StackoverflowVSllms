@@ -1,0 +1,1 @@
+sudo chgrp uploaders /path/to/target/directory\nsudo chmod 775 /path/to/target/directory

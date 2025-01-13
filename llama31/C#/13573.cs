@@ -1,0 +1,1 @@
+var factory = new DuckTypingExportFactory<IWeapon>(typeof(IWeapon));\nvar sword = factory.CreateExport();

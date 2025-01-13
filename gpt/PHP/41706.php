@@ -1,1 +1,0 @@
-function isInternationalLettersAndSpaces($string) {\n    return preg_match('/^[\p{L}\s]+$/u', $string);\n}\n\n// Example usage\n$string = "Hello World Привет мир";\nif (isInternationalLettersAndSpaces($string)) {\n    echo "The string contains only international letters and spaces.";\n} else {\n    echo "The string contains other characters.";\n}

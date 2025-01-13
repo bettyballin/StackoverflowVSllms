@@ -1,0 +1,1 @@
+int rowsUpdated = executeUpdateQuery("UPDATE table_name ...");\nif (rowsUpdated == 0) {\n    // handle error, e.g. entry is locked\n}

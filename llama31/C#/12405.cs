@@ -1,0 +1,1 @@
+string s1 = "hello";\nstring s2 = "hello";\nAssert.AreEqual(s1, s2); // Passes (same value)\nAssert.AreSame(s1, s2); // Passes (same instance, due to string interning)\nAssert.AreNotSame(new string(s1.ToCharArray()), s2); // Passes (different instance)

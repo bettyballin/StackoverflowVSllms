@@ -1,0 +1,1 @@
+[ScriptService]\npublic class CheckSession : WebService\n{\n    [WebMethod(EnableSession = true)]\n    public bool IsSessionExpired()\n    {\n        return SessionExpired();\n    }\n}

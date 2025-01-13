@@ -1,1 +1,0 @@
-CREATE PROCEDURE dbo.UpdateTargetTable\n    @param1 INT -- Replace with actual parameters\nAS\nBEGIN\n    -- Your update logic here\n    UPDATE TargetTable\n    SET Column1 = @param1\n    WHERE SomeCondition = 'value';\nEND\nGO

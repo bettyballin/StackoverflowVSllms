@@ -1,0 +1,1 @@
+myControl.Visible = false;

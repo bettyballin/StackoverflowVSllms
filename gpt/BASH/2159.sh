@@ -1,1 +1,0 @@
-file --mime-type image.jpg

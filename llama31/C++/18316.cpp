@@ -1,0 +1,1 @@
+// Bytecode structure\nstruct Bytecode {\n    uint8_t opcode;\n    uint8_t operand1;\n    uint8_t operand2;\n};\n\n// Interpreter function\nvoid interpret(Bytecode* bytecode) {\n    switch (bytecode->opcode) {\n        case ADD:\n            // Handle addition\n            break;\n        case SUB:\n            // Handle subtraction\n            break;\n        // ...\n    }\n}

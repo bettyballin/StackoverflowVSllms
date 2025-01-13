@@ -1,0 +1,1 @@
+CREATE TABLE itinerary_items (\n  id SERIAL PRIMARY KEY,\n  name VARCHAR(50) NOT NULL,\n  value INTEGER NOT NULL\n);

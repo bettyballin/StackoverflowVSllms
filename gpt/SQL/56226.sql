@@ -1,1 +1,0 @@
-DECLARE @UserId uniqueidentifier\n   DECLARE @RoleId uniqueidentifier\n\n   SELECT @UserId = UserId FROM aspnet_Users WHERE UserName = 'newUser'\n   SELECT @RoleId = RoleId FROM aspnet_Roles WHERE RoleName = 'newRole'\n\n   INSERT INTO aspnet_UsersInRoles (UserId, RoleId)\n   VALUES (@UserId, @RoleId)

@@ -1,0 +1,1 @@
+void matrix_multiply(int** a, int** b, int** c, int size) {\n    for (int i = 0; i < size; i++) {\n        for (int j = 0; j < size; j++) {\n            c[i][j] = 0;\n            for (int k = 0; k < size; k++) {\n                c[i][j] += a[i][k] * b[k][j];\n            }\n        }\n    }\n}

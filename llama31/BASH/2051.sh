@@ -1,0 +1,1 @@
+curl -s -k -v https://example.com | grep -i "http:"

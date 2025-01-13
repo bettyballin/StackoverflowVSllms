@@ -1,0 +1,1 @@
+#header {\n  position: relative;\n}\n\n#overlay {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: 1;\n  background-image: url('your-image-url');\n}\n\n#nav, #promotion {\n  position: relative;\n  z-index: 2;\n}

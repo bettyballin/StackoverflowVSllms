@@ -1,1 +1,0 @@
-CREATE INDEX idx_job_type ON JobPostings(JobTypeID);\n    CREATE INDEX idx_job_location ON JobPostings(JobLocationID);

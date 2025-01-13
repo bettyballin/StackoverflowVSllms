@@ -1,0 +1,1 @@
+BACKUP LOG [FogBugz] TO DISK = 'C:\Backup\FogBugz_log.bak'

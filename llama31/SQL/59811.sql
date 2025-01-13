@@ -1,0 +1,1 @@
+INSERT INTO #Tmp (ID2, Name)\nSELECT TOP 1 ID, Name FROM TestTable

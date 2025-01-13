@@ -1,0 +1,1 @@
+void reorder(vector<char>& vA, const vector<size_t>& vOrder) {\n    assert(vA.size() == vOrder.size());\n\n    for (size_t i = 0; i < vA.size(); ++i) {\n        while (vOrder[i] != i) {\n            size_t j = vOrder[i];\n            std::swap(vA[i], vA[j]);\n            std::swap(vOrder[i], vOrder[j]);\n        }\n    }\n}

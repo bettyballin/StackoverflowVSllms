@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', function() {\n  var textboxes = document.querySelectorAll('input[type="text"]');\n  textboxes.forEach(function(textbox) {\n    textbox.addEventListener('blur', function() {\n      setTimeout(function() {\n        textbox.selectionStart = 0;\n        textbox.selectionEnd = 0;\n      }, 0);\n    });\n  });\n});

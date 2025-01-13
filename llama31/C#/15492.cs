@@ -1,0 +1,1 @@
+public class Global : HttpApplication\n{\n    protected void Application_Start(object sender, EventArgs e)\n    {\n        RouteTable.Routes.Add(new NickRoute());\n    }\n}

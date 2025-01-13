@@ -1,1 +1,0 @@
-echo "extension=imagick.so" > /your/php/directory/php.ini

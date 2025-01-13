@@ -1,0 +1,1 @@
+SELECT LTRIM(REPLACE('00001A', '0', ' '))

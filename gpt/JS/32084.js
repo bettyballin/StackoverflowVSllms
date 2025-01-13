@@ -1,1 +1,0 @@
-$.ajax({\n    url: 'your-xml-file.xml',\n    type: 'GET',\n    dataType: 'text',\n    success: function(data) {\n        // 'data' will be the plain text of the XML document\n        console.log(data);\n    },\n    error: function(xhr, status, error) {\n        console.error('Error fetching XML:', status, error);\n    }\n});

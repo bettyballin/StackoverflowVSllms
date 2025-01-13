@@ -1,1 +1,0 @@
-# Check DISPLAY variable\necho $DISPLAY\n\n# If DISPLAY is not set or incorrect, set it manually\nexport DISPLAY=your_local_ip:0.0\n\n# Run your application\nvs &

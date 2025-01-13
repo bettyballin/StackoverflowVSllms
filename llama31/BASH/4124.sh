@@ -1,0 +1,1 @@
+iptables -A OUTPUT -p tcp --dport 80 -d <trusted_ip_address> -j ACCEPT

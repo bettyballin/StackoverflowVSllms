@@ -1,1 +1,0 @@
-CREATE TABLE YourTableName (\n    ID INT PRIMARY KEY,\n    Column1 VARCHAR(100),\n    Column2 VARCHAR(100),\n    InsertionTime DATETIME DEFAULT GETDATE()\n);

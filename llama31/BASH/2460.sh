@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Get the current X DISPLAY from the SSH connection\nXDISPLAY=$SSH_CONNECTION\n\n# Update the XDISPLAY variable in the screen session\nscreen -S your_session_name -X setenv XDISPLAY $XDISPLAY

@@ -1,1 +1,0 @@
-public class HomeController : Controller\n{\n    public IActionResult Index()\n    {\n        return View();\n    }\n\n    public IActionResult About()\n    {\n        ViewData["Message"] = "Your application description page.";\n        return View();\n    }\n}

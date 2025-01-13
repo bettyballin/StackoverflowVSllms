@@ -1,1 +1,0 @@
-./configure --with-sqlite3=/path/to/your/sqlite3/install\nmake && make install

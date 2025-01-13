@@ -1,0 +1,1 @@
+INSERT INTO #TempTable (CustomerID, CustomerName)\nSELECT CustomerID, CustomerName\nFROM Customers\n\nEXEC AddCustomer @CustomerID = (SELECT CustomerID FROM #TempTable), \n                  @CustomerName = (SELECT CustomerName FROM #TempTable)

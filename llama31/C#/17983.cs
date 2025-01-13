@@ -1,0 +1,1 @@
+if (filePath == null)\n{\n    throw new ArgumentNullException(nameof(filePath));\n}

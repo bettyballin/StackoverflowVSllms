@@ -1,0 +1,1 @@
+public class MyModel\n{\n    public bool IsDivVisible { get; set; }\n}\n\npublic ActionResult MyAction()\n{\n    bool isVisible = // your database logic here\n    var model = new MyModel { IsDivVisible = isVisible };\n    return View(model);\n}

@@ -1,1 +1,0 @@
-public ActionResult VersionedUpdate(VersionedModel data)\n{\n    if (data.Version != null)\n    {\n        data.Version = Convert.FromBase64String(Request["Version"]);\n    }\n    \n    // Process the data\n    ...\n}

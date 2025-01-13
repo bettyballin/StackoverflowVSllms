@@ -1,0 +1,1 @@
+SELECT TRIM(address, CHAR(13) + CHAR(10)) AS address\nFROM your_access_table

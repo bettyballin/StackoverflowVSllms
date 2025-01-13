@@ -1,0 +1,1 @@
+class TextInputWithHint(TextInput):\n    def render(self, name, value, attrs):\n        attrs = self.build_attrs(attrs, name=name)\n        res = super(TextInputWithHint, self).render(name, value, attrs=attrs)\n        res += mark_safe(u'<script type="text/javascript">alert("%s")</script>' % attrs['id'])\n        return res

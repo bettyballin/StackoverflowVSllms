@@ -1,1 +1,0 @@
-public class DataItem\n{\n    public int Value { get; set; }\n}

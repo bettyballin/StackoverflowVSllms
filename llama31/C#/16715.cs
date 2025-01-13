@@ -1,0 +1,1 @@
+public class MyContext : DbContext\n{\n    public MyContext(string connectionStringName) : base(connectionStringName)\n    {\n    }\n}

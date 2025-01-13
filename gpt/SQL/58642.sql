@@ -1,1 +1,0 @@
-BACKUP LOG [YourDatabaseName] TO DISK = 'path_to_backup_file'

@@ -1,0 +1,1 @@
+using Microsoft.Xna.Framework.Storage;\n\n// Get the storage device\nStorageDevice device = StorageDevice.GetStorageDevice();\n\n// Create a directory for user-created levels\nstring userLevelsPath = "UserLevels";\ndevice.CreateDirectory(userLevelsPath);

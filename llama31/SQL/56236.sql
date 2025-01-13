@@ -1,0 +1,1 @@
+CREATE TABLE TransactionState\n(\n    TransactionStateId INT IDENTITY (1, 1) NOT NULL,\n    OriginalTransactionStateId INT NOT NULL,\n    TransactionStateName VarChar (100) NOT NULL,\n    StartDateTime DateTime NOT NULL,\n    EndDateTime NULL\n)

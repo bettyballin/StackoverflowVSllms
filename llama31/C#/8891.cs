@@ -1,0 +1,1 @@
+var text = "Your text here...";\nvar guids = GuidFinder.FindGuids(text);\nforeach (var guid in guids)\n{\n    Console.WriteLine(guid);\n}

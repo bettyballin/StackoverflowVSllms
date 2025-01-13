@@ -1,0 +1,1 @@
+// Ensure variables are numbers\n$celkova_suma = (float)mysql_result($c_res, 0, 0) + (float)mysql_result($d_res, 0, 0) - (float)$zlava_suma + (float)$arr[$_POST['sp_platby']];\n\n// Or, use intval() if you expect integers\n$celkova_suma = intval(mysql_result($c_res, 0, 0)) + intval(mysql_result($d_res, 0, 0)) - intval($zlava_suma) + intval($arr[$_POST['sp_platby']]);

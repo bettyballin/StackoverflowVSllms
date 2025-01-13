@@ -1,1 +1,0 @@
-<Holes>\n  <Hole id='1' dia='0.1' depth='2'/>\n  <Hole id='2' dia='0.2' depth='1.67'/>\n  <Hole id='3' dia='0.3' depth='0.44'/>\n</Holes>\n\n<Drill useHoleWithId='1'/>

@@ -1,1 +1,0 @@
-Backup-SPFarm -Directory "\\machineipaddress\s$\spbr00DF" -BackupMethod Full

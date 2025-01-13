@@ -1,1 +1,0 @@
-// app/init.php - Initialize the Application\nrequire_once 'core/App.php';\nrequire_once 'core/Controller.php';

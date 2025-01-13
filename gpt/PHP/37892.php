@@ -1,1 +1,0 @@
-<?php\n$pidQuery = "SELECT pg_backend_pid()";\n$pidResult = pg_query($conn, $pidQuery);\n$pidRow = pg_fetch_assoc($pidResult);\n$pg_pid = $pidRow['pg_backend_pid'];\n?>

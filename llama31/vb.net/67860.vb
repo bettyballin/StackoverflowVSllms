@@ -1,0 +1,1 @@
+' Example of Rename refactoring\nPublic Sub TestMethod()\n    Dim testVariable As Integer\n    ' Rename 'testVariable' to 'newVariable'\n    testVariable = 5\nEnd Sub

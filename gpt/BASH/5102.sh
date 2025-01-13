@@ -1,1 +1,0 @@
-title MyDatabaseInstance\nsqlplus username/password@database

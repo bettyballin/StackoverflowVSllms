@@ -1,1 +1,0 @@
-# Open crontab\ncrontab -e\n\n# Add a new cron job to run the script every day at midnight\n0 0 * * * /path/to/your/backup-script.sh

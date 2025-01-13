@@ -1,0 +1,1 @@
+const Joi = require('joi');\n\nconst schema = Joi.object().keys({\n  fieldA: Joi.number().required(),\n  fieldB: Joi.number().required(),\n  fieldC: Joi.boolean().required(),\n});\n\nconst result = Joi.validate(formData, schema);\nif (result.error) {\n  // handle error\n}

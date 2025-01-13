@@ -1,1 +1,0 @@
-// Sanitize input on entry\nfunction sanitize_input($input) {\n    return htmlspecialchars($input, ENT_QUOTES, 'UTF-8');\n}\n\n// Example usage\n$user_input = $_GET['user_input'];\n$sanitized_input = sanitize_input($user_input);\n\n// Use $sanitized_input safely in your application\necho $sanitized_input;

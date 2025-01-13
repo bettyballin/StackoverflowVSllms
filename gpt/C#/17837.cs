@@ -1,1 +1,0 @@
-Employee employee = new Employee();\nEmployeeDataTables dataTables = employee.GetEmployees();\n\ngridview1.DataSource = dataTables.DataTable1;\ngridview2.DataSource = dataTables.DataTable2;\ngridview3.DataSource = dataTables.DataTable3;

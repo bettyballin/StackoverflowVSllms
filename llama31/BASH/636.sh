@@ -1,0 +1,1 @@
+scp -r remotehost:/path/to/directory ~/

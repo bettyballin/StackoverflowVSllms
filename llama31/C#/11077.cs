@@ -1,0 +1,1 @@
+using System.IO;\n\n// Get the AppData folder path\nstring appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);\n\n// Create a subfolder for your application\nstring myAppDataPath = Path.Combine(appDataPath, "MyApplication");\n\n// Store and retrieve data as needed

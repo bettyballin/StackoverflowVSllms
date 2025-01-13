@@ -1,0 +1,1 @@
+WITH OrderedT AS (\n  SELECT ColA, ColB, ColC,\n         ROW_NUMBER() OVER (PARTITION BY ColA ORDER BY TopColumn DESC) AS RowNum\n  FROM T\n)\nSELECT T.ColA, T.ColB, T.ColC, OrderedT.ColB, OrderedT.ColC\nFROM T\nLEFT JOIN OrderedT ON T.ColA = OrderedT.ColA AND OrderedT.RowNum = 1;

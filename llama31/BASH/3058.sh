@@ -1,0 +1,1 @@
+# Open a new tmux session\ntmux new-session\n\n# Split the window into multiple panes\ntmux split-window -h "plink -ssh user@host1 tail -f /var/log/file1.log"\ntmux split-window -h "plink -ssh user@host2 tail -f /var/log/file2.log"\ntmux split-window -h "plink -ssh user@host3 tail -f /var/log/file3.log"

@@ -1,0 +1,1 @@
+const smartDropDowns = [];\n\nfunction AddLineItem() {\n  const uniqueId = uuid.v4();\n  const newRow = lineItemTemplateNode.cloneNode(true);\n  newRow.id = uniqueId;\n  \n  const smartDropDown = new SmartDropDown(`uomSDD-${uniqueId}`, '75', '1', '7', '', '', '', '', 2);\n  smartDropDowns.push(smartDropDown);\n  \n  lineItemsParent.appendChild(newRow);\n}

@@ -1,0 +1,1 @@
+$selectFields = [];\nforeach ($reportPrefs as $pref) {\n    $field = ReportField::getByKey($pref->getField());\n    if ($field) {\n        $selectFields[] = $field->getFieldSql();\n    }\n}

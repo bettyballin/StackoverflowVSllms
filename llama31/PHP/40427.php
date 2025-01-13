@@ -1,0 +1,1 @@
+$url = 'http://www.google.com';\n$command = "sudo -u $current_user sh script.sh $url";\nshell_exec($command);

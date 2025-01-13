@@ -1,0 +1,1 @@
+PredictableRandom random(0.2, 100); // 20% critical hits, 100 samples\n\nfor (int i = 0; i < 10; ++i) {\n    if (random.next() == 1) {\n        std::cout << "Critical hit!" << std::endl;\n    } else {\n        std::cout << "Normal hit." << std::endl;\n    }\n}

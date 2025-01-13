@@ -1,0 +1,1 @@
+DECLARE @sql NVARCHAR(MAX) = ''\n\nSELECT TOP 5 @sql += '\nDROP PROCEDURE ' + QUOTENAME(s.name) + '.' + QUOTENAME(p.name) + ';\n' + OBJECT_DEFINITION(p.object_id) + '\n'\nFROM sys.procedures p\nJOIN sys.schemas s ON p.schema_id = s.schema_id\nWHERE p.modify_date >= DATEADD(day, -30, GETDATE())  -- adjust the date range as needed\nORDER BY p.modify_date DESC\n\nPRINT @sql

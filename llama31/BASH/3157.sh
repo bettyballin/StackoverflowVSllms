@@ -1,0 +1,1 @@
+# Create a new AVD\nandroid create avd -n my_avd -t 1\n\n# Start the emulator\nemulator -avd my_avd

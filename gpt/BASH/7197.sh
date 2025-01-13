@@ -1,1 +1,0 @@
-# Install Netdata on a Linux server\nbash <(curl -Ss https://my-netdata.io/kickstart.sh)\n\n# Once installed, you can access the Netdata dashboard\nhttp://your-server-ip:19999

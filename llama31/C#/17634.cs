@@ -1,0 +1,1 @@
+[ComVisible(true)]\n[ClassInterface(ClassInterfaceType.AutoDispatch)]\npublic class TreeViewAdv : System.Windows.Forms.Control\n{\n    // ...\n}

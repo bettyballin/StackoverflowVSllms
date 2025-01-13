@@ -1,1 +1,0 @@
-using MarkdownSharp;\n\n   public string ConvertMarkdownToHtml(string markdownText)\n   {\n       var markdown = new Markdown();\n       string html = markdown.Transform(markdownText);\n       return html;\n   }

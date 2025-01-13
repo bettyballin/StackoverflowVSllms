@@ -1,0 +1,1 @@
+[SecurityPermission(SecurityAction.Demand, ControlThread = true)]\npublic void HighRiskMethod() { ... }

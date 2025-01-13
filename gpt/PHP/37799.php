@@ -1,1 +1,0 @@
-$bin = $this->Bin->find('first', array(\n    'conditions' => array('Bin.id' => $binId),\n    'contain' => array('Video')\n));

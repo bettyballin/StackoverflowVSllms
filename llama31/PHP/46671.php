@@ -1,0 +1,1 @@
+function currentDateTime() {\n  list($micro, $Unixtime) = explode(" ",microtime());\n  $sec = $micro + date("s", $Unixtime);\n  $sec = preg_replace('/' . sprintf('%d', $sec) . '/', "", ($micro + date("s", $Unixtime)));\n  return date("Y-m-d H:i:s", $Unixtime).$sec;\n}

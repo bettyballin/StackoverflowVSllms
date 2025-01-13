@@ -1,1 +1,0 @@
-USE [instkeeper_test]\nGO\n\nSELECT intPONumber, COUNT(*) AS ItemCount\nFROM dbo.tblPODetail\nWHERE datDateSent IS NOT NULL\nGROUP BY intPONumber

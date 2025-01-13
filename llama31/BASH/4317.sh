@@ -1,0 +1,1 @@
+makecert -r -pe -n "CN=YourCertificateName" -e 01/01/2025 -sv YourCertificateName.pvk YourCertificateName.cer

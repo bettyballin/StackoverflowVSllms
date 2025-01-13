@@ -1,1 +1,0 @@
-Module MainModule\n    Sub Main()\n        My.Nation.State.City.Restaurant.DisplayRestaurantInfo()\n    End Sub\nEnd Module

@@ -1,0 +1,1 @@
+def integrate_chatbot_training_data_with_intent_recognition(data, intent_recognition_sources):\n    # Integrate data with intent recognition data\n    integrated_data = integrate_data_with_intent_recognition(data, intent_recognition_sources)\n    return integrated_data

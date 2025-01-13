@@ -1,0 +1,1 @@
+var xhr = new XMLHttpRequest();\nxhr.open('GET', 'your_cgi_program.cgi?_=' + new Date().getTime(), true);

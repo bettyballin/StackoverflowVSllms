@@ -1,1 +1,0 @@
-scheme --library /usr/local/mit-scheme-7.5.1/lib --band 6001.com --edit

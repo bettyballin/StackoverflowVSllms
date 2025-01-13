@@ -1,0 +1,1 @@
+void MyClass::on_item_toggled()\n{\n    Gtk::RadioMenuItem* pItem = dynamic_cast<Gtk::RadioMenuItem*>(sender);\n    if (pItem->get_active())\n    {\n        // Take action only when the radio button is selected\n    }\n}

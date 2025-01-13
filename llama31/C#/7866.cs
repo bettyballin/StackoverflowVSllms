@@ -1,0 +1,1 @@
+using Microsoft.Win32;\n\nRegistryKey recordKey = Registry.CurrentUser.OpenSubKey(@"Software\Classes\Record", true);\nif (recordKey == null)\n{\n    recordKey = Registry.CurrentUser.CreateSubKey(@"Software\Classes\Record");\n}

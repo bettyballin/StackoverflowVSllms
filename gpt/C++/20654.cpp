@@ -1,1 +1,0 @@
-#include <omp.h>\n#include <iostream>\n\nint main() {\n    #pragma omp parallel\n    {\n        std::cout << "Hello from thread " << omp_get_thread_num() << std::endl;\n    }\n    return 0;\n}

@@ -1,0 +1,1 @@
+SetPriorityClass(hProcess, NORMAL_PRIORITY_CLASS);

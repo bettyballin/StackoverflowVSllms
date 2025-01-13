@@ -1,1 +1,0 @@
-#include "neko_vm.h"\n\nEXTERN bool neko_thread_register(bool t) {\n    // Your implementation here\n}

@@ -1,0 +1,1 @@
+SELECT \n  a.author_last_name, \n  b.dewey_number, \n  b.NumOccurrences\nFROM \n  author a\n  JOIN (\n    SELECT \n      dewey_number, \n      COUNT(dewey_number) AS NumOccurrences\n    FROM \n      book\n    GROUP BY \n      dewey_number\n    HAVING \n      COUNT(dewey_number) > 1\n  ) b ON a.author_id = b.author_id

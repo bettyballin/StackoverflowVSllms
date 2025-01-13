@@ -1,1 +1,0 @@
-// In any method of any controller\nif ($this->request->getSession()->check('User.UserId')) {\n    $userId = $this->request->getSession()->read('User.UserId');\n    // Do something with $userId\n} else {\n    // Handle the case where the session data does not exist\n}

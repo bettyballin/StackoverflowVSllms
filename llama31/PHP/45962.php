@@ -1,0 +1,1 @@
+$result = array_reduce($array, function ($carry, $item) {\n    parse_str($item, $temp);\n    return array_merge($carry, $temp);\n}, array());\n\nprint_r($result);

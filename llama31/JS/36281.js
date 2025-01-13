@@ -1,0 +1,1 @@
+// assuming you have a JavaScript library that can toggle classes\n$('.bar').toggleClass('shrink');

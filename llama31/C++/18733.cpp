@@ -1,0 +1,1 @@
+#include <HtmlHelp.h>\n\n// Assuming you have a CHM file named "myhelp.chm"\nvoid OpenHelpFile()\n{\n    HtmlHelp(GetDesktopWindow(), "path/to/myhelp.chm", HH_DISPLAY_TOPIC, NULL);\n}

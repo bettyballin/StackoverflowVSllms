@@ -1,0 +1,1 @@
+// Create an async proxy for the RemotingService\nvar remotingServiceProxy = new RemotingServiceProxy();\n\n// Call the async method on the proxy\nvar result = await remotingServiceProxy.MyMethodAsync();

@@ -1,1 +1,0 @@
-DECLARE\n        response VARCHAR2(4000);\n    BEGIN\n        call_web_service(\n            'http://example.com/service?wsdl',\n            'http://example.com/namespace',\n            'MyServiceName',\n            'MyPortName',\n            '<SOAP Request>',\n            response\n        );\n        DBMS_OUTPUT.PUT_LINE('Response: ' || response);\n    END;

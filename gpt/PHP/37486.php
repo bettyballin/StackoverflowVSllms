@@ -1,1 +1,0 @@
-// application/classes/Helper/Menu.php\n   class Helper_Menu {\n\n       public static function is_active($menu_item) {\n           $current_uri = Request::current()->uri();\n           return strpos($current_uri, $menu_item) !== false;\n       }\n   }

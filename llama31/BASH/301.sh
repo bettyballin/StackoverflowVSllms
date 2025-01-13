@@ -1,0 +1,1 @@
+git branch -d feature/new-feature\n   git push origin --delete feature/new-feature

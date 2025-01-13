@@ -1,1 +1,0 @@
-CREATE UNIQUE INDEX ui_example \nON YourTableName (YourPrimaryKeyColumn);

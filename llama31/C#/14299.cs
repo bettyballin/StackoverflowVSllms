@@ -1,0 +1,1 @@
+private static IEnumerable<Range<int>> GenerateRanges()\n{\n    var r = new Random();\n    var n = 10000;\n    while (--n >= 0)\n    {\n        var start = r.Next(10000);\n        var length = r.Next(1, 100); // Random length between 1 and 100\n        var end = start + length;\n        yield return Range.Create(start, end);\n    }\n}

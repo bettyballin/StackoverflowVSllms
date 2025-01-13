@@ -1,1 +1,0 @@
-# Example using Prometheus for monitoring\n    prometheus --config.file=prometheus.yml

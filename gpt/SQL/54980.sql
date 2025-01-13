@@ -1,1 +1,0 @@
-SELECT \n    Name\nFROM \n    Categories\nORDER BY \n    CASE \n        WHEN Parent IS NULL THEN Name \n        ELSE (SELECT Name FROM Categories WHERE Id = Categories.Parent)\n    END,\n    Parent,\n    Name;

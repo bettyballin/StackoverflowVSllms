@@ -1,0 +1,1 @@
+**Row data**\n----------------\n| id (INT) | name (VARCHAR(255)) |\n| --- | --- |\n| 1    | NULL                  |

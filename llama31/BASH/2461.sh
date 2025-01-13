@@ -1,0 +1,1 @@
+svn co svn+ssh://myuser@www.myclient.com/home/svn/project/trunk project

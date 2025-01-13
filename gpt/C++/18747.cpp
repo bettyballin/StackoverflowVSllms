@@ -1,1 +1,0 @@
-#include <pistache/endpoint.h>\n\nusing namespace Pistache;\n\nclass HelloHandler : public Http::Handler {\npublic:\n    HTTP_PROTOTYPE(HelloHandler)\n\n    void onRequest(const Http::Request&, Http::ResponseWriter response) override {\n        response.send(Http::Code::Ok, "Hello, World!");\n    }\n};\n\nint main() {\n    Http::listenAndServe<HelloHandler>("*:9080");\n}

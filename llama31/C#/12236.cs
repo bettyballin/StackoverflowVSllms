@@ -1,0 +1,1 @@
+using (var db = new MyDbContext()) {\n    var query = db.Employees\n        .Where(e => e.TotalSales > 1000)\n        .ToList();\n}

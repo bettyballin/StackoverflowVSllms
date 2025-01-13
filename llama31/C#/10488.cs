@@ -1,0 +1,1 @@
+AppDomain.CurrentDomain.UnhandledExceptionMode = UnhandledExceptionMode.ThrowExceptio

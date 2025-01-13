@@ -1,1 +1,0 @@
-sudo systemctl restart apache2\n# or for other systems\nsudo service apache2 restart

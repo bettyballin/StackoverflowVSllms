@@ -1,0 +1,1 @@
+$foo = 'some words';\n\n$start = microtime(true);\nfor ($i = 0; $i < 100000; $i++) {\n    echo "these are $foo";\n}\necho "\nTime taken: " . (microtime(true) - $start) . "\n";\n\n$start = microtime(true);\nfor ($i = 0; $i < 100000; $i++) {\n    echo 'these are ' . $foo;\n}\necho "\nTime taken: " . (microtime(true) - $start) . "\n";

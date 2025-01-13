@@ -1,0 +1,1 @@
+public Dictionary<string, int> CountStuff(IList<string> stuffList)\n{\n    return stuffList.GroupBy(s => s)\n                    .ToDictionary(g => g.Key, g => g.Count());\n}

@@ -1,0 +1,1 @@
+protected void btnSubmit_Click(object sender, System.EventArgs e)\n{\n    // ...\n    btnSubmit.Attributes.Add("style", "position:absolute;top:100px;left:200px");\n    // ...\n}

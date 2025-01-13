@@ -1,1 +1,0 @@
-using System;\nusing System.Data.Entity;\nusing System.Data.SqlClient;\nusing System.Linq;\n\npublic class MyDbContext : DbContext\n{\n    public MyDbContext(string connectionString) : base(connectionString)\n    {\n    }\n}

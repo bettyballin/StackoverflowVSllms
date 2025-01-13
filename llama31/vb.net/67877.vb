@@ -1,0 +1,1 @@
+Protected Sub Application_Error(sender As Object, e As EventArgs)\n    Dim ex As Exception = Server.GetLastError()\n    ExceptionLogger.LogException(ex)\nEnd Sub

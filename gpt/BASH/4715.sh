@@ -1,1 +1,0 @@
-ssh -L 1433:localhost:1433 user@remote_server

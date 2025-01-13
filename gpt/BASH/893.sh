@@ -1,1 +1,0 @@
-#!/bin/bash\n\n    # Path to the mounted USB drive\n    MOUNT_POINT=$1\n\n    # Example: Copy files to the USB drive\n    cp /path/to/files/* $MOUNT_POINT/

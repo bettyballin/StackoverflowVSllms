@@ -1,0 +1,1 @@
+// Insecure and inefficient way\nint value = (int)reader[0];\n\n// Secure and efficient way\nint value = reader.GetInt32(0);

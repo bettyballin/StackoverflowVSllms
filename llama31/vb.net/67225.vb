@@ -1,0 +1,1 @@
+Dim encodedValue As String = "your_base64_encoded_string"\nDim decodedValue As String = Convert.FromBase64String(encodedValue)

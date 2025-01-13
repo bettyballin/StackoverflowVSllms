@@ -1,0 +1,1 @@
+public class HostHeaderFilter : IActionFilter\n{\n    public void OnActionExecuting(ActionExecutingContext filterContext)\n    {\n        // Put your host header logic here\n        var hostHeader = filterContext.HttpContext.Request.Url.Host;\n        // ...\n    }\n}

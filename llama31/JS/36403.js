@@ -1,0 +1,1 @@
+textarea.addEventListener('drop', function(event) {\n    event.preventDefault();\n    // Get the dropped text\n    var text = event.dataTransfer.getData('text');\n    // Do something with the text\n    console.log(text);\n    // Clear the textarea\n    textarea.value = '';\n});

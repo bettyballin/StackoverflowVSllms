@@ -1,1 +1,0 @@
-$login = $_SESSION['login'];\n$login = str_replace("'", "", $login);\necho "Welcome $login!";

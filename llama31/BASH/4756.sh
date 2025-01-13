@@ -1,0 +1,1 @@
+bcp Person in people.csv -f format.xml -S yourserver\yourinstance -T -c

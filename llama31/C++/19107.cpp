@@ -1,0 +1,1 @@
+BSTR bstrValue;\nHRESULT hr = pInterface->GetMethod(&bstrValue);\nif (SUCCEEDED(hr)) {\n    // Use the BSTR\n    // ...\n    // Free the BSTR\n    SysFreeString(bstrValue);\n}

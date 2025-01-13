@@ -1,0 +1,1 @@
+[HandleError(ExceptionType = typeof(HttpRequestValidationException))]\npublic ActionResult MyAction(MyModel model)\n{\n    try\n    {\n        // ...\n    }\n    catch (HttpRequestValidationException ex)\n    {\n        ModelState.AddModelError("", "Invalid input. Please try again.");\n        return View(model);\n    }\n}

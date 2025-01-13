@@ -1,1 +1,0 @@
-UPDATE cart_items\n     SET quantity = ?\n     WHERE cart_id = ? AND item_id = ?;

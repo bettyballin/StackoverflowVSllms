@@ -1,0 +1,1 @@
+EmailAndSmsDeleter deleter = new EmailAndSmsDeleter();\ndeleter.DeleteEmailsAndSms();

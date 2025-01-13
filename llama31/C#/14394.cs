@@ -1,0 +1,1 @@
+// Set a session variable\nHttpContext.Session["MyObject"] = myObject;\n\n// Retrieve a session variable\nMyObject myObject = (MyObject)HttpContext.Session["MyObject"];

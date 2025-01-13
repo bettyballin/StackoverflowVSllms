@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE -- your conditions here (if any)\nORDER BY COALESCE(priority, 10) DESC;

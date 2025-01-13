@@ -1,0 +1,1 @@
+var value = $('#myDiv').attr('data-my-attribute');

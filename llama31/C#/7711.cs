@@ -1,0 +1,1 @@
+System.Web.Security.AntiXss.AntiXssEncoder.HtmlEncode(userInput, true);

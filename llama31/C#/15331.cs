@@ -1,0 +1,1 @@
+Bitmap image = new Bitmap("path_to_your_image.jpg");\nBitmap croppedImage = ImageCropper.CropImage(image);\ncroppedImage.Save("path_to_save_cropped_image.jpg");

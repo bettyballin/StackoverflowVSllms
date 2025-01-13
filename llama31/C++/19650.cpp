@@ -1,0 +1,1 @@
+// main.cpp\nint main() {\n    HMODULE hModule = LoadLibraryA("mydll.dll");\n    if (hModule) {\n        void (*MyFunction)() = (void (*)())GetProcAddress(hModule, "MyFunction");\n        if (MyFunction) {\n            MyFunction();\n        }\n        FreeLibrary(hModule);\n    }\n    return 0;\n}

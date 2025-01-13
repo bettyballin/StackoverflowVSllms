@@ -1,0 +1,1 @@
+auto compare = [](float x, const MyClass& obj) { return x < obj.internalValue; };\nstd::vector<MyClass>::iterator last = std::upper_bound(myClass.begin(), myClass.end(), x, compare);

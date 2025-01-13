@@ -1,1 +1,0 @@
-./appimagetool-x86_64.AppImage AppDir

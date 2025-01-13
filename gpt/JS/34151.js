@@ -1,1 +1,0 @@
-function pollServer() {\n     fetch('/poll-endpoint')\n       .then(response => response.json())\n       .then(data => {\n         console.log('New message:', data.message);\n         setTimeout(pollServer, 5000); // Poll every 5 seconds\n       });\n   }\n\n   pollServer();

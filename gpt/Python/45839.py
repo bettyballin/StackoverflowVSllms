@@ -1,1 +1,0 @@
-@app.route('/logout')\ndef logout():\n    session.clear()\n    response = redirect(url_for('login'))\n    response.set_cookie('session_id', '', expires=0)\n    return response

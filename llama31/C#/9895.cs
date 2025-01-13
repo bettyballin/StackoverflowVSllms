@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    hfSessionData.Value = Session["yourKey"].ToString();\n}

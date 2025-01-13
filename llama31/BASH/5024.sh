@@ -1,0 +1,1 @@
+# Convert XML to HTML using XSLT\nxsltproc -o output.html style.xsl input.xml\n\n# Convert XML to LaTeX\nxml2tex input.xml -o output.tex\n\n# Convert LaTeX to PDF\npdflatex output.tex

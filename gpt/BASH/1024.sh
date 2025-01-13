@@ -1,1 +1,0 @@
-etsh interface portproxy show all

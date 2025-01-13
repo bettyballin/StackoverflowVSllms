@@ -1,1 +1,0 @@
-object result = cmd.ExecuteScalar();\nint value = result == DBNull.Value ? 0 : (int)result;

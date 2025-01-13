@@ -1,0 +1,1 @@
+<serviceCredentials type="YourNamespace.CustomServiceCredentials, YourAssembly">\n  <userNameAuthentication userNamePasswordValidationMode="Custom" />\n</serviceCredentials>

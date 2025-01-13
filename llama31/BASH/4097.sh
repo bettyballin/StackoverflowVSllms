@@ -1,0 +1,1 @@
+istanbul cover --report html /path/to/your/php/script.php

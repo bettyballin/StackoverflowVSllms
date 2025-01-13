@@ -1,0 +1,1 @@
+SELECT CAST(datetime_column AS DATE)

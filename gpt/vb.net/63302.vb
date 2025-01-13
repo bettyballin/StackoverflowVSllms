@@ -1,1 +1,0 @@
-Private Sub OnOperationPercentComplete(ByVal message As String)\n       ' Handle percent complete\n   End Sub\n\n   Private Sub OnOperationNextMedia(ByVal mediaType As Integer, ByVal mediaName As String)\n       ' Handle next media\n   End Sub\n\n   Private Sub OnOperationComplete(ByVal errorCode As Integer, ByVal errorMessage As String)\n       ' Handle complete\n   End Sub

@@ -1,0 +1,1 @@
+regsvr32 /i:x86 mycomcomponent.dll\nregsvr32 /i:x64 mycomcomponent.dll

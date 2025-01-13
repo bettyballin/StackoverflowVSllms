@@ -1,1 +1,0 @@
-keytool -list -keystore your_keystore.jks

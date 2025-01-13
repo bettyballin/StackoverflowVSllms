@@ -1,0 +1,1 @@
+SELECT o.*\nFROM orders o\nINNER JOIN (\n  SELECT emp, cat, MAX(date) as max_date\n  FROM orders\n  GROUP BY emp, cat\n) m\nON o.emp = m.emp AND o.cat = m.cat AND o.date = m.max_date;

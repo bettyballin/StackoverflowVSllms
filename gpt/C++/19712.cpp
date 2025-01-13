@@ -1,1 +1,0 @@
-#include <list>\n#include <algorithm>\n#include <iterator>\n\nstruct Foo {\n  Foo(int i) {}\n};\n\nint main(void) {\n  std::list<Foo> l;\n  std::generate_n(std::back_inserter(l), 10, []() { return Foo(42); });\n  return 0;\n}

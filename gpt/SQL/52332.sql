@@ -1,1 +1,0 @@
-SELECT s.sid, s.serial#, s.username, t.start_time\n   FROM v$transaction t, v$session s\n   WHERE t.ses_addr = s.saddr;

@@ -1,0 +1,1 @@
+SELECT \n    t.name AS TableName,\n    i.name AS IndexName,\n    avg_fragmentation_in_percent\nFROM \n    sys.dm_db_index_physical_stats(DB_ID(), NULL, NULL, NULL, NULL) AS s\nINNER JOIN \n    sys.tables AS t ON s.object_id = t.object_id\nINNER JOIN \n    sys.indexes AS i ON s.object_id = i.object_id AND s.index_id = i.index_id\nWHERE \n    avg_fragmentation_in_percent > 30;

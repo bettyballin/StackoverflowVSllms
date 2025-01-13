@@ -1,0 +1,1 @@
+<Project ...>\n  ...\n  <ItemGroup>\n    <!-- VB.NET files -->\n    <Compile Include="VB\**\*.vb" />\n  </ItemGroup>\n  <ItemGroup>\n    <!-- C# files -->\n    <Compile Include="CS\**\*.cs" />\n  </ItemGroup>\n  ...\n</Project>

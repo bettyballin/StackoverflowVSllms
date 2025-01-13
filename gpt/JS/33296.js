@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    // Select the third list item (index 2) within the div with id "the_div"\n    $('#the_div ul li').eq(2).addClass('yourClass').text('3');\n});

@@ -1,0 +1,1 @@
+from bs4 import BeautifulSoup\nimport html.parser\n\nsoup = BeautifulSoup(twill.commands.get_browser().get_html(), 'html.parser')\nps = soup.body("p")\np = ps[52]\ntext = p.get_text()\nprint(text)

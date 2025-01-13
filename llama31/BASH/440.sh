@@ -1,0 +1,1 @@
+keytool -v -list -keystore <keystore_file> -storepass <store_password>

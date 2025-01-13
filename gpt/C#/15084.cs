@@ -1,1 +1,0 @@
-if (HttpContext.Current.User.Identity.IsAuthenticated)\n   {\n       // Renew the authentication ticket\n       FormsAuthentication.SetAuthCookie(HttpContext.Current.User.Identity.Name, false);\n   }

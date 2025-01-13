@@ -1,0 +1,1 @@
+$mysqli = new mysqli('your_host', 'your_user', 'your_password', 'your_database');\n$mysqli->query("INSERT IGNORE INTO your_table (unique_field, other_field) VALUES ('value1', 'value2')");

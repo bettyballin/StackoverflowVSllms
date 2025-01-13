@@ -1,0 +1,1 @@
+$brochurePath = realpath($_POST['brochure']);\nif ($brochurePath && is_file($brochurePath)) {\n    // do some stuff\n}

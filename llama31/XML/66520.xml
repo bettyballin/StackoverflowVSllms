@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?>\n<ReportItemDefinition xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/reportdefinition">\n  <Name>MyCustomControl</Name>\n  <Description>My custom control</Description>\n  <Properties>\n    <Property>\n      <Name>MyProperty</Name>\n      <Type>System.String</Type>\n    </Property>\n  </Properties>\n</ReportItemDefinition>

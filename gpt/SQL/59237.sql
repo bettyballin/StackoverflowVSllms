@@ -1,1 +1,0 @@
-SELECT SYS_CONTEXT('USERENV', 'CLIENT_IDENTIFIER') AS client_identifier FROM dual;

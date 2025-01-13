@@ -1,0 +1,1 @@
+<cluster>\n    <node>\n        <name>Node1</name>\n        <host>localhost</host>\n        <port>5555</port>\n    </node>\n    <node>\n        <name>Node2</name>\n        <host>localhost</host>\n        <port>5556</port>\n    </node>\n</cluster>

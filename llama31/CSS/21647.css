@@ -1,0 +1,1 @@
+.container {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n}\n\n.item {\n  flex-basis: calc(50% - 10px);\n  margin: 10px;\n}

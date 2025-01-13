@@ -1,0 +1,1 @@
+UPDATE table_name\nSET \n  field_name1 = REPLACE(REPLACE(field_name1, 'search_text1', 'replace_text1'), 'search_text2', 'replace_text2'),\n  field_name2 = REPLACE(REPLACE(field_name2, 'search_text1', 'replace_text1'), 'search_text2', 'replace_text2');

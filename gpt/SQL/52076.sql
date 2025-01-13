@@ -1,1 +1,0 @@
-SELECT COUNT(DISTINCT productId) AS unique_product_count\nFROM your_table_name\nWHERE keyword = '$keyword';

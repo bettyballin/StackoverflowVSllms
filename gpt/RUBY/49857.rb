@@ -1,1 +1,0 @@
-x = 0\nloop {\n  puts x\n  x += 1\n  break if x == 100\n}

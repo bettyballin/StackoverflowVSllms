@@ -1,0 +1,1 @@
+using (var ctx = new MyDataContext()) {\n    var query = from u in ctx.Users\n                where u.Username == username\n                select u;\n\n    // Use parameterized query to avoid SQL injection\n    ctx.ExecuteQuery<User>("SELECT * FROM Users WHERE Username = {0}", username);\n}

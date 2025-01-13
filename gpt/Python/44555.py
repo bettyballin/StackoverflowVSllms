@@ -1,1 +1,0 @@
-from django.urls import path, include\n   from rest_framework.routers import DefaultRouter\n   from .views import MyModelViewSet\n\n   router = DefaultRouter()\n   router.register(r'mymodels', MyModelViewSet)\n\n   urlpatterns = [\n       path('', include(router.urls)),\n   ]

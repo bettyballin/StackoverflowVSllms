@@ -1,0 +1,1 @@
+public interface ILogger { }\n\npublic class Logger : ILogger { }\n\npublic class MyComponent\n{\n    public MyComponent(ILogger logger) { }\n}\n\n// Register the logger with Unity\ncontainer.RegisterType<ILogger, Logger>();\n\n// Resolve the component with the logger dependency\nvar component = container.Resolve<MyComponent>();

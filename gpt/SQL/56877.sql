@@ -1,1 +1,0 @@
-GRANT SELECT, INSERT, UPDATE, DELETE ON dbo.YourTable TO YourUser;

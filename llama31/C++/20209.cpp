@@ -1,0 +1,1 @@
+ISmth *pSmth = NULL; \nHRESULT hr = pObj->GetSmth(&pSmth); \nif (SUCCEEDED(hr) && pSmth) \n{ \n    pSmth->Foo(); \n    pSmth->Release(); \n}

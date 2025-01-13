@@ -1,0 +1,1 @@
+CREATE FUNCTION dbo.SearchHtml\n(\n    @html nvarchar(max),\n    @pattern nvarchar(max)\n)\nRETURNS int\nAS EXTERNAL NAME [YourAssemblyName].UserDefinedFunctions.SearchHtml;

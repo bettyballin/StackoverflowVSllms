@@ -1,0 +1,1 @@
+CREATE CONTROLFILE REUSE DATABASE "MYDB" NORESETLOGS\n  MAXLOGFILES 16\n  MAXLOGMEMBERS 3\n  MAXDATAFILES 100\n  MAXINSTANCES 8\n  MAXLOGHISTORY 292\nLOGFILE\n  GROUP 1 '/path/to/redo/log/file1.log' SIZE 50M,\n  GROUP 2 '/path/to/redo/log/file2.log' SIZE 50M\nDATAFILE\n  '/path/to/data/file1.dbf',\n  '/path/to/data/file2.dbf'\n;

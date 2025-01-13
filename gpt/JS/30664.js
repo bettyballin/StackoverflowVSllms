@@ -1,1 +1,0 @@
-var nthLastIndex = 2; // For the second to last item\nvar $nthLastItem = $('ul li').eq(-nthLastIndex);\nconsole.log($nthLastItem.text());

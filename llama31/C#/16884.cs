@@ -1,0 +1,1 @@
+string myVariable = Request.Cookies["myVariable"].Value;

@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Directory to check\ndirectory="/path/to/your/directory"\n\n# Find files modified in the last 3 minutes\nfiles=$(find "$directory" -type f -mmin -3)\n\nif [ -n "$files" ]; then\n  echo "Files modified in the last 3 minutes:"\n  echo "$files"\n  # Continue with your script\nelse\n  echo "No files modified in the last 3 minutes."\n  exit 1\nfi

@@ -1,1 +1,0 @@
-public class OrderItem\n{\n    public decimal Cost { get; set; }\n}\n\npublic class Order\n{\n    public List<OrderItem> Items { get; set; } = new List<OrderItem>();\n\n    public decimal MaxCost\n    {\n        get\n        {\n            return Items.Any() ? Items.Max(item => item.Cost) : 0;\n        }\n    }\n}

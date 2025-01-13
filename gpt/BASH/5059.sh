@@ -1,1 +1,0 @@
-ee-gcc -o hello.elf hello.c

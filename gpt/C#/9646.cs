@@ -1,1 +1,0 @@
-public class CustomMembershipProvider : MembershipProvider\n{\n    // Implement required methods like ValidateUser, CreateUser, etc.\n    public override bool ValidateUser(string username, string password)\n    {\n        // Logic to validate user using dbo.Users table\n    }\n\n    // Implement other methods...\n}

@@ -1,1 +1,0 @@
-<?php\nrequire_once(LIBPATH . 'MySQLDB.php');\nrequire_once(LIBPATH . 'Authentication.php');\n\nglobal $auth;\n$auth = new Authentication();\n?>

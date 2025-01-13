@@ -1,0 +1,1 @@
+LIST(CAST(CAST(tblWOService.PricePerVehicle AS DECIMAL(19, 2)) AS VARCHAR(20)), ';')

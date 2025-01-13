@@ -1,0 +1,1 @@
+// Load the .NET 1.1 runtime\nvar runtime = new System.Runtime.InteropServices.ComTypes.ComRuntimeVersion();\nruntime.Version = "v1.1.4322";\n\n// Load the .NET 1.1 assembly\nvar assembly = System.Reflection.Assembly.Load("MyNet11Assembly", runtime.Version);

@@ -1,1 +1,0 @@
-class MyClass {\n    private $myVariable;\n\n    public function __construct($value) {\n        $this->setMyVariable($value);\n    }\n\n    public function getMyVariable() {\n        return $this->myVariable;\n    }\n\n    public function setMyVariable($value) {\n        $this->myVariable = $value;\n    }\n}

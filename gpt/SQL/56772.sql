@@ -1,1 +1,0 @@
-SELECT *\nFROM fn_dblog(NULL, NULL);

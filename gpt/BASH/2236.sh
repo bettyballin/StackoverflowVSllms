@@ -1,1 +1,0 @@
-start /low php path\to\your\script.php

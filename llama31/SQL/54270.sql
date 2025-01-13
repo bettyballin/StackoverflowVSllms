@@ -1,0 +1,1 @@
+CREATE DATABASE IndexTuningDemo;\nGO\nUSE IndexTuningDemo;\nGO

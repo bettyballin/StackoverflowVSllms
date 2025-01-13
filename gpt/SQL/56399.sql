@@ -1,1 +1,0 @@
-SELECT * \nFROM table \nWHERE (col1 / col2) = FLOOR(col1 / col2) \nAND (col1 / col2) BETWEEN 1 AND 8;

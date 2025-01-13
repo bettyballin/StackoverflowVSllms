@@ -1,0 +1,1 @@
+ImageResizer resizer = new ImageResizer();\nresizer.ResizeImages(@"C:\Images", 800, 600, 75);

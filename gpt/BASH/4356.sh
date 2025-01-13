@@ -1,1 +1,0 @@
-icacls <filename> /grant <user>:(<permissions>)\n    icacls <filename> /deny <user>:(<permissions>)

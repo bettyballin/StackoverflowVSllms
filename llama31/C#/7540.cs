@@ -1,0 +1,1 @@
+using Google.Cloud.Storage.V1;\n\n// Initialize GCS client\nvar client = StorageClient.Create();\n\n// Upload an image\nvar bucketName = "your-bucket-name";\nvar objectName = "image.jpg";\nvar fileStream = new FileStream("image.jpg", FileMode.Open);\nclient.UploadObject(bucketName, objectName, "image/jpeg", fileStream);

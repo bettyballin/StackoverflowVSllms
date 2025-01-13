@@ -1,0 +1,1 @@
+-- Create a SQL Server login\nCREATE LOGIN [myLogin] WITH PASSWORD = 'myPassword';\nGO\n\n-- Map the login to a database user\nCREATE USER [myUser] FOR LOGIN [myLogin];\nGO

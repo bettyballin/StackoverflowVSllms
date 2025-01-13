@@ -1,1 +1,0 @@
--- Example usage: Adding a new group with members having PersonIds 1, 2, and 3\nEXEC AddNewGroup '1,2,3';

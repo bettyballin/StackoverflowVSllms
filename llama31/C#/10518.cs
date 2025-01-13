@@ -1,0 +1,1 @@
+Label1.BorderStyle = BorderStyle.FixedSingle\nLabel1.ForeColor = Color.Blue

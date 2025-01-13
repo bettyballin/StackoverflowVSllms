@@ -1,0 +1,1 @@
+wprintf(L"%s", L"test");

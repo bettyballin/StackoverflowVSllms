@@ -1,1 +1,0 @@
-RSpec.describe "Addition" do\n     it "adds 10 and 5 to get 15" do\n       expect(10 + 5).to eq(15)\n     end\n   end

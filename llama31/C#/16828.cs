@@ -1,0 +1,1 @@
+string newConnectionString = "Data Source=YourTestDBServer;Initial Catalog=YourTestDB;Integrated Security=True";\n\nIDbConnection connection = new SqlConnection(newConnectionString);\nYourDataContext context = new YourDataContext(connection);

@@ -1,0 +1,1 @@
+require_once 'pclzip.lib.php';\n\n$zip = new PclZip('example.zip');\n$zip->extract(PCLZIP_OPT_PATH, '/path/to/extract');

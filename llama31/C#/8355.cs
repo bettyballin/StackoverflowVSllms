@@ -1,0 +1,1 @@
+using Microsoft.SharePoint;\n\n// Get the list item\nSPListItem item = list.GetItemById(itemID);\n\n// Update the "Created By" field\nitem["Author"] = new SPFieldUserValue(web, "DOMAIN\\username");\n\n// Save the changes\nitem.Update();

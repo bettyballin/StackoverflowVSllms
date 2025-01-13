@@ -1,1 +1,0 @@
-icacls C:\inetpub\wwwroot\YourAppDirectory /grant www.xyz.test:(OI)(CI)(M)

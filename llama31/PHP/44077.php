@@ -1,0 +1,1 @@
+if (ob_get_level() == 0) {\n    ob_start('ob_gzhandler');\n}

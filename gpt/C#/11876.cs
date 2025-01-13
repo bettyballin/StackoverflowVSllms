@@ -1,1 +1,0 @@
-// Query example for Organizations of a User\npublic IList<Organization> GetOrganizationsForUser(int userId)\n{\n    // Implement query to fetch organizations for a user\n}\n\n// Query example for Users in an Organization\npublic IList<User> GetUsersInOrganization(int organizationId)\n{\n    // Implement query to fetch users in an organization\n}

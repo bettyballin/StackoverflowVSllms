@@ -1,0 +1,1 @@
+class Callback {\n    public function __invoke($arg) {\n        echo "Callback called with argument: $arg\n";\n    }\n}\n\n$callback = new Callback();\n$callback('Hello, World!');

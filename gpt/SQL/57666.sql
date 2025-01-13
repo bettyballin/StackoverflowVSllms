@@ -1,1 +1,0 @@
-BACKUP DATABASE [YourSSPDatabase] TO DISK = 'C:\Backup\YourSSPDatabase.bak'\n   BACKUP DATABASE [YourSSPSearchDatabase] TO DISK = 'C:\Backup\YourSSPSearchDatabase.bak'

@@ -1,0 +1,1 @@
+List<List<Object>> list = new List<List<Object>>();\n\n// populate the list...\n\nObject[,] array = new Object[list.Count, list[0].Count];\n\nfor (int i = 0; i < list.Count; i++)\n{\n    for (int j = 0; j < list[i].Count; j++)\n    {\n        array[i, j] = list[i][j];\n    }\n}

@@ -1,1 +1,0 @@
-var sortParams = Request.QueryString["sort"]\n    .Split(',')\n    .Select(s => s.Split(':'))\n    .Select(arr => new { Field = arr[0], Direction = arr[1] })\n    .ToList();\n// sortParams will be a list of objects with Field and Direction properties

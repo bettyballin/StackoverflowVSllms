@@ -1,1 +1,0 @@
-SELECT a.Name, a.Street, a.City, a.State\nFROM Addresses a\nJOIN (\n    SELECT Name, MAX(Street) as MaxStreet\n    FROM Addresses\n    GROUP BY Name\n) b\nON a.Name = b.Name AND a.Street = b.MaxStreet

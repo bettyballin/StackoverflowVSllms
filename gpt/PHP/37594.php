@@ -1,1 +1,0 @@
-return array(\n       'modules' => array(\n           'Application',\n           // 'SomeUnusedModule', // Comment out or remove unused modules\n       ),\n       // Other configuration settings\n   );

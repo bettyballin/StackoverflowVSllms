@@ -1,0 +1,1 @@
+string sql = string.Format("{0}.bookmarks.funcGet_Bookmark_Id", ApplicationSchema);\nDataOperation operation = new DataOperation(DataOperationType.ExecuteScalar, ConnectionString, System.Data.CommandType.StoredProcedure, sql);\nreturn operation.PerformOperation();

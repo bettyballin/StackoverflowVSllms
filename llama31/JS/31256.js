@@ -1,0 +1,1 @@
+var element = document.querySelector('#yourElementId');\nvar computedStyles = getComputedStyle(element);\nfor (var property in computedStyles) {\n  console.log(property + ': ' + computedStyles.getPropertyValue(property));\n}

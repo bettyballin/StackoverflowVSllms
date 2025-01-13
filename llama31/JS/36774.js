@@ -1,0 +1,1 @@
+$.ajax({\n  type: 'GET',\n  url: 'session.php',\n  success: function(data) {\n    console.log(data); // outputs "ABC Message"\n  }\n});

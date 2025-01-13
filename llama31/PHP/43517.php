@@ -1,0 +1,1 @@
+// Handle the authorization response on your server\n$pinCode = $_GET['pin_code'];\n\n// Exchange the PIN code for an access token\n$accessToken = getAccessTokenFromTwitter($pinCode);\n\n// Use the access token to authenticate API requests\n$twitterClient = new TwitterClient($accessToken);

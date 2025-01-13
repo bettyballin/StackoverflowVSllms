@@ -1,1 +1,0 @@
-protected void btnSubmit_Click(object sender, EventArgs e)\n{\n    string htmlContent = Request.Form["editorContent"];\n    // Save the htmlContent to a file or database\n    System.IO.File.WriteAllText(Server.MapPath("~/savedPage.html"), htmlContent);\n}

@@ -1,0 +1,1 @@
+routes.MapRoute(\n    name: "SubscriberEdit",\n    template: "Subscriber/Edit/{idSub}",\n    defaults: new { controller = "Subscriber", action = "Edit", idSub = UrlParameter.Optional }\n);

@@ -1,0 +1,1 @@
+function eventHandler(type) {\n  return function(event) {\n    console.log(`Handling ${type} event:`, event);\n  };\n}\n\ndocument.getElementById('myButton').addEventListener('click', eventHandler('click'));

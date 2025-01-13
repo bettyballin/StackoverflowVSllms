@@ -1,1 +1,0 @@
-<?php\nreturn [\n    'db_host' => 'localhost',\n    'db_user' => 'root',\n    'db_pass' => 'password',\n    'api_key' => 'your_api_key_here',\n    // Add more configuration variables as needed\n];

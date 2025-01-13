@@ -1,1 +1,0 @@
-// Example of a simple firewall rule to allow only HTTP and HTTPS\n   iptables -A INPUT -p tcp --dport 80 -j ACCEPT\n   iptables -A INPUT -p tcp --dport 443 -j ACCEPT\n   iptables -A INPUT -p tcp --dport 21 -j ACCEPT\n   iptables -A INPUT -j DROP

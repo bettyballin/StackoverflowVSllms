@@ -1,1 +1,0 @@
-ALTER TABLE Stuff ADD CONSTRAINT DF_Stuff_LastTouched DEFAULT GETDATE() FOR LastTouched;

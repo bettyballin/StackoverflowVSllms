@@ -1,0 +1,1 @@
+session_start();\nif (isset($_SESSION['hello'])) {\n    echo "yes"; exit;\n}

@@ -1,1 +1,0 @@
-public class ServerAccessModel\n{\n    public List<SelectListItem> AvailableServerList { get; set; }\n    public List<SelectListItem> SelectedServerList { get; set; }\n\n    public ServerAccessModel()\n    {\n        AvailableServerList = new List<SelectListItem>();\n        SelectedServerList = new List<SelectListItem>();\n    }\n}

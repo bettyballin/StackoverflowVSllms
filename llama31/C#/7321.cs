@@ -1,0 +1,1 @@
+OracleCommandBuilder builder = new OracleCommandBuilder();\nCommand = builder.GetCommand(procedureName, connection);\nCommand.CommandType = CommandType.StoredProcedure;\nCommand.ExecuteNonQuery();

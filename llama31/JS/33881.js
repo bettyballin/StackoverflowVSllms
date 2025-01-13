@@ -1,0 +1,1 @@
+$( "#dialog" ).dialog({\n    close: function() {\n        $( "#date" ).datepicker( "destroy" );\n    }\n});

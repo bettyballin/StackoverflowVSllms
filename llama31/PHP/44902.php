@@ -1,0 +1,1 @@
+$qry = "SELECT * \n        FROM school \n        WHERE display = 'Y' \n        AND announcement <> '' \n        ORDER BY name, announcement, last_update";

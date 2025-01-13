@@ -1,0 +1,1 @@
+sqlcmd -S your_server -d your_database -Q "your_query" -s "," -W

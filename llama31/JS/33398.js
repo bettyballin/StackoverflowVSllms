@@ -1,0 +1,1 @@
+xhr.overrideMimeType('text/xml');

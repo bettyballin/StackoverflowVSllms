@@ -1,0 +1,1 @@
+asadmin set configs.config.server-config.network-config.protocols.protocol.http-listener-1.ssl.ssl-keystore=keystore.jks\nasadmin set configs.config.server-config.network-config.protocols.protocol.http-listener-1.ssl.ssl-keystore-password=changeit

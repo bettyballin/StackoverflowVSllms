@@ -1,1 +1,0 @@
-import string\n   text = "Hello, World!"\n   cleaned_text = text.strip(string.punctuation)

@@ -1,0 +1,1 @@
+[Random]\nclass Mother\n{ }\n\n[NonRandom] // overrides the Random attribute\nclass Child : Mother\n{ }

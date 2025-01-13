@@ -1,1 +1,0 @@
-set_error_handler(function ($errno, $errstr, $errfile, $errline) {\n        throw new ErrorException($errstr, $errno, 0, $errfile, $errline);\n    });

@@ -1,0 +1,1 @@
+.col {\n    float: left;\n    padding-bottom: 2000px;\n    margin-bottom: -2000px;\n    border-right: 1px solid black;\n    width: 100px;\n    background-color: grey;\n    overflow: visible; /* Add this line */\n}

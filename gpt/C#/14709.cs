@@ -1,1 +1,0 @@
-[ReliabilityContract(Consistency.MayCorruptInstance, Cer.MayFail)]\npublic static void Copy(Array sourceArray, Array destinationArray, int length)\n\n[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]\npublic static void ConstrainedCopy(Array sourceArray, int sourceIndex, Array destinationArray, int destinationIndex, int length)

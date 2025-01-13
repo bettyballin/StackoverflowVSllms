@@ -1,1 +1,0 @@
-// Using echo\necho "Hello, World!";\n\n// Using echo with multiple parameters\necho "Hello, ", "World!";\n\n// Using print\nprint "Hello, World!";\n\n// Using print in an expression\n$expr = print "Hello, World!"; // $expr will be 1

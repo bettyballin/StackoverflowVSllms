@@ -1,1 +1,0 @@
-// Using multiply operator\nint result1 = n * n * n;\n\n// Using Math.Pow\ndouble result2 = Math.Pow(n, 3);

@@ -1,0 +1,1 @@
+$string = "This is string sample - $2565";\n$split_point = " - ";\n\n// Split the string into two parts\n$parts = explode($split_point, $string);\n\n// Extract the number after the $ symbol\npreg_match('/\$(\d+)/', $string, $match);\n$number = $match[1];\n\nprint_r($parts);\necho "\nNumber: " . $number;

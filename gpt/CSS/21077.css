@@ -1,1 +1,0 @@
-.popup-container {\n       position: absolute;\n       z-index: 9999;\n   }\n\n   .popup-container .shim {\n       position: absolute;\n       top: 0;\n       left: 0;\n       width: 100%;\n       height: 100%;\n       z-index: 9989;\n       background-color: transparent;\n   }\n\n   .popup-container iframe {\n       position: relative;\n       z-index: 9999;\n   }

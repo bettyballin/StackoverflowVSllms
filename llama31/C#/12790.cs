@@ -1,0 +1,1 @@
+private static int counter = 0;\n\nprivate static string GetPasswordHash(string password)\n{\n    string result = password + counter.ToString();\n    result = Convert.ToBase64String(SHA256.Create().ComputeHash(Encoding.ASCII.GetBytes(result)));\n    counter++;\n    return result;\n}

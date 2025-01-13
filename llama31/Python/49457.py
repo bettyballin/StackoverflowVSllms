@@ -1,0 +1,1 @@
+def process_lines(lines):\n    it = iter(lines)\n    for line in it:\n        if line.startswith('007 A000000 Y'):\n            next_line = next(it)\n            if next_line.startswith('007 B'):\n                result = {'numberOfSeries': int(next_line.split()[2])}\n                # process subsequent lines\n                return result

@@ -1,0 +1,1 @@
+# Compile Objective-C code with MinGW-w64\ngcc -o output.exe input.m -lobjc -lwindows

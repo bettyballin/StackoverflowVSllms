@@ -1,0 +1,1 @@
+$post_param = '%u015F';\n$decoded_param = urldecode($post_param);\necho $decoded_param; // outputs 'š'

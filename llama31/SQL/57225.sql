@@ -1,0 +1,1 @@
+-- Create a new database project in SSDT\n-- Add the DEV and TEST databases as references\n-- Create a new data comparison\n\n-- Define the comparison key for Table A\nSELECT 'Name' AS ComparisonKey\nFROM TableA\n\n-- Define the comparison key for Table B\nSELECT 'Name', 'Description' AS ComparisonKey\nFROM TableB\n\n-- Run the data compariso

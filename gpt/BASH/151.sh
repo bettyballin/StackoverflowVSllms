@@ -1,1 +1,0 @@
-openssl x509 -inform der -in yourfile.cer -out yourfile.pem

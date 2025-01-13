@@ -1,0 +1,1 @@
+SELECT \n  owner,\n  SUM(is_dog) AS num_dogs,\n  SUM(is_cat) AS num_cats\nFROM \n  (\n    SELECT owner, 1 AS is_dog, 0 AS is_cat\n    FROM dogs\n    UNION ALL\n    SELECT owner, 0 AS is_dog, 1 AS is_cat\n    FROM cats\n  ) AS combined\nGROUP BY \n  owner\nORDER BY \n  owner;

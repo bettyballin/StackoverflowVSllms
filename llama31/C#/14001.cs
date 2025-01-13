@@ -1,0 +1,1 @@
+[HttpGet]\n[JsonRequestBehavior.AllowGet]\npublic JsonResult FindWidgets()\n{\n    // Return your JSON data here\n}

@@ -1,1 +1,0 @@
-public interface IUserRepository\n{\n    void AddUser(User user);\n}\n\npublic class UserRepository : IUserRepository\n{\n    public void AddUser(User user)\n    {\n        // Implement database interaction here\n    }\n}

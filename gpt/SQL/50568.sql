@@ -1,1 +1,0 @@
-MERGE INTO TargetTable AS target\n   USING SourceTable AS source\n   ON (target.ID = source.ID)\n   WHEN MATCHED THEN\n       UPDATE SET target.Column1 = source.Column1\n   WHEN NOT MATCHED BY TARGET THEN\n       INSERT (ID, Column1) VALUES (source.ID, source.Column1)\n   WHEN NOT MATCHED BY SOURCE THEN\n       DELETE;

@@ -1,0 +1,1 @@
+uint32_t zobrist_hash(const vector<int>& v) {\n  uint32_t hash = 0;\n  for (int x : v) {\n    hash ^= zobrist_table[x];\n  }\n  return hash;\n}

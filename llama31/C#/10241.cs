@@ -1,0 +1,1 @@
+// On another page\nstring value = (string)Session[root.ChildNodes.Item(x).Name];

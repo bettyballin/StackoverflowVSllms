@@ -1,0 +1,1 @@
+#logo {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 200px; /* fixed width */\n  height: 100px; /* fixed height */\n  background-color: #f00; /* red background */\n  z-index: 1; /* overlap content */\n}\n\n#content {\n  position: relative;\n  top: 0;\n  left: 0;\n  padding-top: 100px; /* match logo height */\n  background-color: #0f0; /* green background */\n}

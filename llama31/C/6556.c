@@ -1,0 +1,1 @@
+// example.c\nint main() {\n    int x = 5;\n    return x;\n}

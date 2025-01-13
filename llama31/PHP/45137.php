@@ -1,0 +1,1 @@
+$url = filter_var($url, FILTER_VALIDATE_URL);\nif ($url === false) {\n    // invalid URL, handle error\n}

@@ -1,1 +1,0 @@
-' Assume you have a TextBox named TextBox1\nTextBox1.Focus()\nTextBox1.SelectionStart = TextBox1.Text.Length

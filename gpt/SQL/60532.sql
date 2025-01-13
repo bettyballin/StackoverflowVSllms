@@ -1,1 +1,0 @@
-CREATE TABLE `log` (\n  `id` INTEGER NOT NULL AUTO_INCREMENT,\n  `date` DATETIME NOT NULL,\n  `count` INTEGER NOT NULL,\n  PRIMARY KEY (`id`)\n);

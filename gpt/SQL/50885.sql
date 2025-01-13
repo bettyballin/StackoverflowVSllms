@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table\nWHERE \n    B AND C AND D AND (\n        A1\n        OR (\n            E AND F1 AND G AND (\n                A2\n                OR (A3 AND A3a)\n            )\n        )\n        OR (A4 AND F2)\n    );

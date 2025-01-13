@@ -1,0 +1,1 @@
+gcc -E file*.c | xargs -I {} myprocess {}

@@ -1,0 +1,1 @@
+SELECT COUNT(*) \nFROM ALL_INDEXES \nWHERE INDEX_NAME = 'myIndex' \nAND TABLE_NAME = 'myTableName';

@@ -1,0 +1,1 @@
+public bool IsComDllInstalled(string classId)\n{\n    try\n    {\n        Type.GetTypeFromCLSID(new Guid(classId));\n        return true;\n    }\n    catch (Exception)\n    {\n        return false;\n    }\n}

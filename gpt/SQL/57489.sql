@@ -1,1 +1,0 @@
-CREATE TABLE products (\n         id SERIAL PRIMARY KEY,\n         product_block_id INT REFERENCES product_blocks(id),\n         name VARCHAR(100),\n         sku VARCHAR(50),\n         price DECIMAL(10, 2),\n         stock INT\n     );

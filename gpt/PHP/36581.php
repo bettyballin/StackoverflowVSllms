@@ -1,1 +1,0 @@
-function trigger($trigger_name, $data = false) {\n       global $registered_triggers;\n       if (isset($registered_triggers[$trigger_name])) {\n           return call_user_func($registered_triggers[$trigger_name], $data);\n       }\n       return false;\n   }

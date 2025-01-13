@@ -1,0 +1,1 @@
+public class CustomUpdateProgress : UpdateProgress\n{\n    protected override void OnPreRender(EventArgs e)\n    {\n        base.OnPreRender(e);\n        ModalPopupExtender mpe = new ModalPopupExtender();\n        mpe.ID = "ModalPopupExtender1";\n        mpe.PopupControlID = "Panel1";\n        mpe.TargetControlID = "Button1";\n        this.Controls.Add(mpe);\n    }\n}

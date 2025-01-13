@@ -1,1 +1,0 @@
-from your_app.models import Book, Recipe, Ingredient\n\n# Assuming you have a book instance\nbook = Book.objects.get(id=your_book_id)\n\n# Get all ingredients for all recipes in the specified book\ningredients = Ingredient.objects.filter(recipe__book=book)\n\n# Optionally, if you need the list of ingredient texts\ningredient_texts = ingredients.values_list('text', flat=True)

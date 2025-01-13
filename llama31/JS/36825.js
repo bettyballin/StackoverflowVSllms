@@ -1,0 +1,1 @@
+document.getElementById('myDiv').classList.toggle('hidden');

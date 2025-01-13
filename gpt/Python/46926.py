@@ -1,1 +1,0 @@
-count = [2]\n    def foo(lst):\n        lst[0] = 3\n\n    foo(count)\n    print(count[0])  # Outputs: 3

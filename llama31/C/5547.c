@@ -1,0 +1,1 @@
+LPVOID alloc_executable_memory(SIZE_T size) {\n    LPVOID ptr = VirtualAlloc(NULL, size, MEM_COMMIT | MEM_RESERVE, PAGE_EXECUTE_READWRITE);\n    if (!ptr) {\n        // Handle error\n    }\n    return ptr;\n}

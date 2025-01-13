@@ -1,0 +1,1 @@
+#story {\n    width: 600px;\n    height: inherit;\n    background-color: black;\n    margin-left: 34px;\n    margin-bottom: 3px;\n    overflow: auto; /* Add this property */\n}

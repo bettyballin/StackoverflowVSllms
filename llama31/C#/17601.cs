@@ -1,0 +1,1 @@
+using System;\nusing System.Reflection;\n\npublic static class ObjectExtensions\n{\n    public static void PrintProperties(this object obj)\n    {\n        foreach (var property in obj.GetType().GetProperties(BindingFlags.Instance | BindingFlags.Public))\n        {\n            Console.WriteLine($"{property.Name}: {property.GetValue(obj)}");\n        }\n    }\n}

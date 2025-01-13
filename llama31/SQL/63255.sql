@@ -1,0 +1,1 @@
+CREATE TABLE Relationships (\n    ID INT PRIMARY KEY,\n    TableID INT NOT NULL,\n    RelatedTableID INT NOT NULL,\n    FOREIGN KEY (TableID) REFERENCES YourTable(ID),\n    FOREIGN KEY (RelatedTableID) REFERENCES OtherTable1(ID),\n    FOREIGN KEY (RelatedTableID) REFERENCES OtherTable2(ID),\n    FOREIGN KEY (RelatedTableID) REFERENCES OtherTable3(ID)\n);

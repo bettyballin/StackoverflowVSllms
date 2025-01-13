@@ -1,0 +1,1 @@
+$.ajax({\n  type: "POST",\n  url: "Default.aspx/MyButton_Click",\n  contentType: "application/json; charset=utf-8",\n  data: "{}",\n  success: function(result) {\n    // handle the result\n  }\n});

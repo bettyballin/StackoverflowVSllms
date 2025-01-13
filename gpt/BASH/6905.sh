@@ -1,1 +1,0 @@
-FILES=$(ls)\necho $FILES | tr ' ' '\n' | head -n 10 | tr '\n' ' '

@@ -1,1 +1,0 @@
-wget -qO- "http://yourdomain.com/path/to/your/script.php?token=your-secret-token-here"

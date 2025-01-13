@@ -1,1 +1,0 @@
-mysqldump -u username -p --routines --databases dbname > backup.sql

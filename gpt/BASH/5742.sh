@@ -1,1 +1,0 @@
-dmtcp_restart ckpt_your_application*.dmtcp

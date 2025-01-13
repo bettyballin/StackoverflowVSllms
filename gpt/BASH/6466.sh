@@ -1,1 +1,0 @@
-# Globally\n   git config --global remote.origin.uploadpack /usr/local/bin/git-upload-pack\n\n   # For a specific repository\n   cd /path/to/repo\n   git config remote.origin.uploadpack /usr/local/bin/git-upload-pack

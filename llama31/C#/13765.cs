@@ -1,0 +1,1 @@
+protected void butUpload(object sender, EventArgs e)\n{\n    // Save file, prepare for import\n    string filePath = "path/to/your/file";\n    Import.ImportPendingFile(filePath);\n    Response.Redirect(NewLocation);\n}

@@ -1,0 +1,1 @@
+public class MyViewModel\n{\n    public ObservableCollection<MyData> MyCollection { get; set; }\n    public MyData SelectedItem { get; set; }\n}

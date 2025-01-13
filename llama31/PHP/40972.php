@@ -1,0 +1,1 @@
+$url = 'http://www.therussianfrostfarmers.com/oldspeak/?p=480';\n$parsed_url = parse_url($url);\nparse_str($parsed_url['query'], $query);\n\n$id = $query['p'];\n\n// Output the ID value as a JavaScript variable\necho '<script>var postId = "' . $id . '";</script>';

@@ -1,0 +1,1 @@
+// main.cpp\n#include "myclass.h"\n\nint main() {\n    HMODULE hModule = LoadLibraryA("mydll.dll");\n    if (!hModule) {\n        // error handling\n    }\n\n    void (MyClass::*foo)() = (void (MyClass::*)())GetProcAddress(hModule, "?foo@MyClass@@QAEXXZ");\n\n    MyClass myClass;\n    (myClass.*foo)();\n\n    FreeLibrary(hModule);\n    return 0;\n}

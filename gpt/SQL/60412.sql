@@ -1,1 +1,0 @@
-SELECT \n    t.type,\n    SUM(CASE WHEN g.group_name = 'A' THEN t.items ELSE 0 END) AS sum_group_a,\n    SUM(CASE WHEN g.group_name = 'B' THEN t.items ELSE 0 END) AS sum_group_b\nFROM\n    table1 t\n    LEFT OUTER JOIN table2 g ON t.item_type = g.item_type\n-- Add other LEFT OUTER JOINs here if necessary\nGROUP BY \n    t.type;

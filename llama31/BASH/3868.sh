@@ -1,0 +1,1 @@
+sudo curlftpfs ftp://user:pass@ftp-server /mnt/ftp-server

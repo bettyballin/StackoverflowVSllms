@@ -1,0 +1,1 @@
+<!-- reports/graduate_students_list.html.erb -->\n<%= session[:graduate_students_list] %>\n\n<!-- reports/current_students_list.html.erb -->\n<%= session[:current_students_list] %>

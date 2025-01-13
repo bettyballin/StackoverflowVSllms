@@ -1,1 +1,0 @@
-SELECT 'Test1' AS Status, * \nFROM TABLE \nWHERE CCC = 'D' AND DDD = 'X'\nUNION ALL\nSELECT 'Test2' AS Status, * \nFROM TABLE \nWHERE CCC <> 'D' AND DDD = 'X';

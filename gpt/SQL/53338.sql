@@ -1,1 +1,0 @@
-SELECT * FROM site WHERE site_id = 3;

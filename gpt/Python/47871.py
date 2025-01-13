@@ -1,1 +1,0 @@
-import objc\n   from Foundation import NSObject\n\n   class MySyncApp(NSObject):\n       def sync_data(self):\n           # Your syncing logic here\n           pass

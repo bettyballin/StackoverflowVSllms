@@ -1,0 +1,1 @@
+SELECT p.*\nFROM Properties p\nWHERE NOT EXISTS (\n  SELECT 1\n  FROM Countries c\n  WHERE c.CountryID = p.Country_ID\n)\nOR NOT EXISTS (\n  SELECT 1\n  FROM Regions r\n  WHERE r.RegionID = p.RegionID\n)\nOR NOT EXISTS (\n  SELECT 1\n  FROM Areas a\n  WHERE a.AreaID = p.AreaID\n);

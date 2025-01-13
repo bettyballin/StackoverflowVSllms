@@ -1,0 +1,1 @@
+ul {\n  margin: 0 auto;\n  display: table;\n  *display: block; /* for IE7 and below */\n}

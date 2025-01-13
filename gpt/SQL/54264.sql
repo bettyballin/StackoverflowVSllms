@@ -1,1 +1,0 @@
-CREATE TABLE tb_daily_factor (\n    id INT PRIMARY KEY,\n    daily_factor INT\n);

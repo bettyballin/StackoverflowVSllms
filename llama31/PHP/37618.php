@@ -1,0 +1,1 @@
+$tempDir = sys_get_temp_dir();\n$uniqueFilename = $tempDir . '/' . uuid_create(UUID_TYPE_RANDOM) . '.pdf';

@@ -1,0 +1,1 @@
+<Reference Include="YourVB6DllName, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">\n  <SpecificVersion>True</SpecificVersion>\n  <HintPath>path\to\YourVB6DllName.dll</HintPath>\n</Reference>

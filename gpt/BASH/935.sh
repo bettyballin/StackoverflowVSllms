@@ -1,1 +1,0 @@
-# First request\ncurl http://yourdomain.com/session.php\n\n# Use the session ID from the previous response\ncurl http://yourdomain.com/session.php?session_id=your_session_id

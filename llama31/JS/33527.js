@@ -1,0 +1,1 @@
+iframe.on('load', function() {\n    // Manipulate the iframe's content here\n    iframe.contents().find('form').remove();\n});

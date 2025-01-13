@@ -1,0 +1,1 @@
+# Open a new ConEmu tab for each log file\nConEmu -new-tab "plink -ssh user@host1 tail -f /var/log/file1.log"\nConEmu -new-tab "plink -ssh user@host2 tail -f /var/log/file2.log"\nConEmu -new-tab "plink -ssh user@host3 tail -f /var/log/file3.log"

@@ -1,1 +1,0 @@
-md5deep find * | awk '!/Is a directory/'

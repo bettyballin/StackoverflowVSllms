@@ -1,1 +1,0 @@
-drush cache-rebuild\n   drush php-eval 'session_destroy();'

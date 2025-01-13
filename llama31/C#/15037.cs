@@ -1,0 +1,1 @@
+using Markdig;\n\n// Markdown text\nstring markdownText = "# Hello World\n<script>alert('XSS')</script>";\n\n// Convert Markdown to HTML\nstring html = Markdig.Markdown.ToHtml(markdownText, new MarkdownPipelineBuilder().Build());\n\n// Output:\n// <h1 id="hello-world">Hello World</h1>\n// &lt;script&gt;alert(&#39;XSS&#39;)&lt;/script&gt;

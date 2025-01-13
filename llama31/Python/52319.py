@@ -1,0 +1,1 @@
+if cmo.getSuspended():\n    print "Datasource is already suspended"\nelse:\n    cmo.setDatasourceSuspended(true)

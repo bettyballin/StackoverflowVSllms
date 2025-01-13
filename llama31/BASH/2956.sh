@@ -1,0 +1,1 @@
+cd /path/to/pdo_mysql/source\nphpize\n./configure --with-mysql=/path/to/mysql/include --with-pdo-mysql=/path/to/mysql/lib\nmake\nmake install

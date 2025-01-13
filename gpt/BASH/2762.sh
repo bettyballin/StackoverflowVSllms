@@ -1,1 +1,0 @@
-robocopy c:\Deploy\Website1 \\remote-machine\c$\Inetpub\wwwroot\Website1 /e /mir /xf *.config

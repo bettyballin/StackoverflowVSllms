@@ -1,0 +1,1 @@
+using (Html.BeginForm(null, null, FormMethod.Post, new { target = "_self" }))\n{\n    // form content\n}

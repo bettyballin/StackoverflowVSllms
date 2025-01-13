@@ -1,0 +1,1 @@
+import pytest\n\ndef test_example():\n    assert 1 == 1\n\nif __name__ == '__main__':\n    pytest.main(["-v", "--html=report.html"])

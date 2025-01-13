@@ -1,0 +1,1 @@
+public class YourDbContext : DbContext\n{\n    public override int SaveChanges()\n    {\n        foreach (var entry in ChangeTracker.Entries())\n        {\n            if (entry.Entity is YourEntity)\n            {\n                entry.Entity.LastModifiedDate = DateTime.Now;\n            }\n        }\n        return base.SaveChanges();\n    }\n}

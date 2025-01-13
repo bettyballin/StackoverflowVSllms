@@ -1,1 +1,0 @@
-#include <taskLib.h>\n   #include <sysLib.h>\n   #include <usrLib.h>\n   \n   void monitorPerformance() {\n       TASK_DESC desc;\n       while (1) {\n           taskInfoGet(taskIdSelf(), &desc);\n           printf("Task: %s, CPU Usage: %u\n", desc.td_name, desc.td_cpuUsage);\n           taskDelay(sysClkRateGet()); // Delay for 1 second\n       }\n   }

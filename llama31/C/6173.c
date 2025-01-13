@@ -1,0 +1,1 @@
+int main() {\n    FILE *fp1 = fopen("file1.gz", "rb");\n    FILE *fp2 = fopen("file2.gz", "rb");\n    FILE *output = fopen("output.gz", "wb");\n\n    concat_gzip_files(fp1, fp2, output);\n\n    fclose(fp1);\n    fclose(fp2);\n    fclose(output);\n\n    return 0;\n}

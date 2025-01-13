@@ -1,1 +1,0 @@
-CREATE TRIGGER prevent_mass_update\n   BEFORE UPDATE ON your_table\n   FOR EACH ROW\n   BEGIN\n      DECLARE affected_rows INT;\n      SELECT COUNT(*) INTO affected_rows FROM your_table WHERE <your_condition>;\n      IF affected_rows > <threshold> THEN\n         SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Update exceeds allowed row limit';\n      END IF;\n   END;

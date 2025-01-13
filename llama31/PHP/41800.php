@@ -1,0 +1,1 @@
+$objects = [];\n$idnum = 123;\n$objects[$idnum] = new stdClass();\n$objects[$idnum]->property = 'value';

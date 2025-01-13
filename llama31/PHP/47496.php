@@ -1,0 +1,1 @@
+function output_template($template) use ($name) {\n    return eval('return "' . $template . '";');\n}

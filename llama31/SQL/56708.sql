@@ -1,0 +1,1 @@
+CREATE PROCEDURE your_procedure\nAS\nBEGIN\n    SELECT \n        REPLACE(CONVERT(VARCHAR(5), date_field, 106), ' ', '') AS date_column,\n        REPLACE(CONVERT(VARCHAR(5), date_field, 108), ':', '') + \n        CASE WHEN CONVERT(VARCHAR(5), date_field, 108) < '1200' THEN 'A' ELSE 'P' END AS time_column\n    FROM \n        your_table;\nEND;

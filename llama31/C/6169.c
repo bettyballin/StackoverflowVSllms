@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <sys/socket.h>\n\nint socket(int domain, int type, int protocol) {\n    // Redirect the socket call to your user space TCP stack\n    // For example, you can use a custom socket function like this:\n    int fd = my_user_space_socket(domain, type, protocol);\n    return fd;\n}

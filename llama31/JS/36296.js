@@ -1,0 +1,1 @@
+var screenWidth = screen.width;\nvar screenHeight = screen.height;\n\n$.ajax({\n  type: "POST",\n  url: "/path/to/your/script.php",\n  data: { screenWidth: screenWidth, screenHeight: screenHeight }\n});

@@ -1,0 +1,1 @@
+SELECT \n    DB_NAME(database_id) AS DatabaseName, \n    SUM(cpu_usage * 1.0 / 100) AS TotalCPUUsage\nFROM \n    sys.dm_db_resource_stats\nWHERE \n    database_id > 4  -- exclude system databases\nGROUP BY \n    database_id\nORDER BY \n    TotalCPUUsage DESC;

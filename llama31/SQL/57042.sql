@@ -1,0 +1,1 @@
+CREATE TABLE configs (\n  id INTEGER PRIMARY KEY,\n  name TEXT NOT NULL,\n  config TEXT NOT NULL\n);

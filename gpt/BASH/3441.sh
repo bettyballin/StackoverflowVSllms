@@ -1,1 +1,0 @@
-objdump -T <your_shared_object.so>

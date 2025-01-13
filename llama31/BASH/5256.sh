@@ -1,0 +1,1 @@
+cacls <component_dll>

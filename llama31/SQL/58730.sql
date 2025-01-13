@@ -1,0 +1,1 @@
+SELECT \n  w.word, \n  COUNT(*) as frequency \nFROM \n  texts t \n  JOIN (\n    SELECT \n      MATCH (text) AGAINST ('*' IN BOOLEAN MODE) as words \n    FROM \n      texts\n  ) w ON t.id = w.id \nGROUP BY \n  w.word \nORDER BY \n  frequency DESC \nLIMIT 10;

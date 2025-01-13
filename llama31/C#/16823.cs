@@ -1,0 +1,1 @@
+String returndata = Encoding.UTF8.GetString(receiveBytes).TrimEnd('\0');

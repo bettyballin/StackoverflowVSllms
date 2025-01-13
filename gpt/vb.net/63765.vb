@@ -1,1 +1,0 @@
-Private Sub InteropControl1_PassNames(ByVal names As Variant)\n    Dim i As Integer\n    For i = LBound(names) To UBound(names)\n        MsgBox names(i)\n    Next i\nEnd Sub

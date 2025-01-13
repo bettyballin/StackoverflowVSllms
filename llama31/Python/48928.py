@@ -1,0 +1,1 @@
+import os\nimport serial\n\ndef open_serial_device(tty):\n    # Open the device as the 'uucp' group\n    fd = os.open(tty, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)\n    return serial.Serial(fd, baudrate=115200, timeout=10)\n\n# Usage example:\ntty = '/dev/ttyUSB0'\nser = open_serial_device(tty)\nser.write('AT+CGSN\r\n')\nimei = ser.readline()\nprint(imei)

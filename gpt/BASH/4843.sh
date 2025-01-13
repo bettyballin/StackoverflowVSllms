@@ -1,1 +1,0 @@
-exiftool -all:all= -overwrite_original input.pdf

@@ -1,0 +1,1 @@
+gcc -Werror=format \\n     -Wno-unused-variable \\n     -Wfatal-errors \\n     -fdiagnostics-color=always \\n     your_code.c -o your_code

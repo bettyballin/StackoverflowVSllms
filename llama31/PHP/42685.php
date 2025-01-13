@@ -1,0 +1,1 @@
+$token = generate_token();\nif (!$something_important || !validate_token($token)) {\n    echo '<h1>Access Denied</h1>';\n    exit;\n}

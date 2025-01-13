@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    contentType: "application/x-www-form-urlencoded",\n    url: "WebService.asmx/HelloWorld",\n    data: "{}",\n    dataType: "text",\n    success: function(msg) {\n        alert(msg);\n    }\n});

@@ -1,0 +1,1 @@
+A = [4, 5, 9, 10, 1]\nB = [21, 7, -4, 180]\n\nresult = subset_sum(A, B)\nprint(result)

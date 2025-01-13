@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  $("#test").click(function(event) {\n    event.preventDefault(); // Prevent default link behavior\n    // Perform AJAX call and manipulate the DOM\n  });\n});

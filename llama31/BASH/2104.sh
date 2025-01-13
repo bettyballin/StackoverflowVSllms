@@ -1,0 +1,1 @@
+openssl pkcs12 -export -in bob_cert.cert -inkey bob_key.pem -out bob.pfx

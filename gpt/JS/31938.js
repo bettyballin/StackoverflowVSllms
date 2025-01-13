@@ -1,1 +1,0 @@
-// Example of setting szType before calling ReturnValue:\nvar szType = 'agt'; // or 'county', depending on your requirement\nReturnValue("adf", "asdf");

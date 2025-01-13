@@ -1,0 +1,1 @@
+from swftools import SWFParser\n\nwith open('yourfile.swf', 'rb') as f:\n    parser = SWFParser(f)\n    header = parser.parse_header()\n    print(f"Width: {header.width}")\n    print(f"Height: {header.height}")

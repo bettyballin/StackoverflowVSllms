@@ -1,1 +1,0 @@
-INSERT INTO sessions (session_id, user_id, ip_address, user_agent, expires_at)\n    VALUES (?, ?, ?, ?, DATE_ADD(NOW(), INTERVAL 30 MINUTE));

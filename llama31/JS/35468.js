@@ -1,0 +1,1 @@
+var isAjaxInProgress = false;\n\n$('button').click(function() {\n  if (isAjaxInProgress) {\n    return;\n  }\n  isAjaxInProgress = true;\n  $.ajax({\n    // your AJAX settings here\n  })\n  .done(function() {\n    isAjaxInProgress = false;\n  })\n  .fail(function() {\n    isAjaxInProgress = false;\n  });\n});

@@ -1,0 +1,1 @@
+DataTable table = new DataTable();\ntable.Columns.Add("Id", typeof(System.Guid));\ntable.Columns.Add("Name", typeof(System.String));\ntable.Columns.Add("Date", typeof(System.DateTime));\ntable.Columns.Add("Data", typeof(System.Byte[]));

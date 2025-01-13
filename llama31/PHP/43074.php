@@ -1,0 +1,1 @@
+$pathway = JFactory::getApplication()->getPathway();\n$pathway->addItem('Foo', 'index.php?option=com_foo&view=foo');\n$pathway->addItem('Bar', 'index.php?option=com_foo&view=bar');

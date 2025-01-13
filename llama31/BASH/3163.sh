@@ -1,0 +1,1 @@
+R CMD SHLIB Cclass.cc C++class.cc -lole32 -loleaut32 -v

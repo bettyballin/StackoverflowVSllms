@@ -1,0 +1,1 @@
+INSERT INTO #Validation (ItemId, ValidationResult)\nSELECT i.ItemId, v.ValidationResult\nFROM #Items i\nLEFT JOIN dbo.ValidateItem(i.ItemId) v ON 1 = 1;

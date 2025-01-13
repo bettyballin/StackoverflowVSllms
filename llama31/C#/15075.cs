@@ -1,0 +1,1 @@
+Page.Title = HttpUtility.HtmlEncode(Resources.YourResourceFile.YourTitleKey);

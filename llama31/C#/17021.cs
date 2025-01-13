@@ -1,0 +1,1 @@
+protected void GridView1_RowDataBound(object sender, GridViewRowEventArgs e)\n{\n  if (e.Row.RowType == DataControlRowType.DataRow)\n  {\n    DataRow row = ((DataRowView)e.Row.DataItem).Row;\n    decimal amount = Convert.ToDecimal(row["Amount"]);\n    if (amount < 0)\n    {\n      e.Row.Cells[0].CssClass = "negative";\n    }\n  }\n}

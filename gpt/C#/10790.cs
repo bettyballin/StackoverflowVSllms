@@ -1,1 +1,0 @@
-public static class CompiledQueries\n{\n    private static readonly Func<MyDbContext, int, MyEntity> getEntityById =\n        CompiledQuery.Compile((MyDbContext context, int id) =>\n            context.MyEntities.FirstOrDefault(e => e.Id == id));\n\n    public static MyEntity GetEntityById(MyDbContext context, int id)\n    {\n        return getEntityById(context, id);\n    }\n}

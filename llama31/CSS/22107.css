@@ -1,0 +1,1 @@
+.container-minwidth {\n    min-width: 5em;\n    display: inline-block;\n    *display: inline; /* for IE6 */\n    *zoom: 1; /* for IE6 */\n    border: 1px solid blue;\n}

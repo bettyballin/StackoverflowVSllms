@@ -1,0 +1,1 @@
+@page {\n  counter-increment: page;\n}\n\n.page-number: before {\n  content: "Page " counter(page) " of " counter(pages);\n}

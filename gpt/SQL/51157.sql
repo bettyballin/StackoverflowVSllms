@@ -1,1 +1,0 @@
--- Example of CHAR(1 BYTE)\nCREATE TABLE example_char (\n    id NUMBER,\n    single_char CHAR(1 BYTE)\n);\n\n-- Example of VARCHAR2(1 BYTE)\nCREATE TABLE example_varchar (\n    id NUMBER,\n    single_char VARCHAR2(1 BYTE)\n);\n\n-- Example of VARCHAR2(2000 BYTE)\nCREATE TABLE example_varchar_large (\n    id NUMBER,\n    single_char VARCHAR2(2000 BYTE)\n);

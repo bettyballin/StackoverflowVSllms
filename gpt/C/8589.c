@@ -1,1 +1,0 @@
-#include <stdio.h>\n    #include <stdlib.h>\n\n    int check_server_route(const char *server_ip) {\n        char command[256];\n        snprintf(command, sizeof(command), "ping -c 1 %s > /dev/null 2>&1", server_ip);\n        int status = system(command);\n        return (status == 0);\n    }

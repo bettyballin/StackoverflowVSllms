@@ -1,1 +1,0 @@
-const postcodeRegex = /\b([A-Z]{1,2}[0-9][A-Z0-9]? ?[0-9][A-Z]{2})\b/i;\nconst testStrings = [\n  "CW3 9SS",\n  "SE5 0EG",\n  "SE50EG",\n  "se5 0eg",\n  "WC2H 7LT",\n  "aWC2H 7LT",\n  "WC2H 7LTa",\n  "WC2H"\n];\n\ntestStrings.forEach(test => {\n  console.log(`${test}: ${postcodeRegex.test(test)}`);\n});

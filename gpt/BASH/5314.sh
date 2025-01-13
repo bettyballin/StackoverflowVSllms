@@ -1,1 +1,0 @@
-strace -o strace_output.txt -f -p <PID>\n   ltrace -o ltrace_output.txt -f -p <PID>

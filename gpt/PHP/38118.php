@@ -1,1 +1,0 @@
-$obj = new MyObject();\n$obj->setFlag(MyObject::FLAG_A);\n$obj->setFlag(MyObject::FLAG_C);\n\nif ($obj->isFlagSet(MyObject::FLAG_A)) {\n    echo "Flag A is set\n";\n}\n\nif (!$obj->isFlagSet(MyObject::FLAG_B)) {\n    echo "Flag B is not set\n";\n}\n\n$obj->unsetFlag(MyObject::FLAG_A);\n\necho "Flags: " . $obj->getFlags() . "\n"; // Should output the integer value of the flags

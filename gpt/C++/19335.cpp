@@ -1,1 +1,0 @@
-try {\n       // Your code here\n   } catch (const std::exception& e) {\n       std::cerr << "Exception: " << e.what() << std::endl;\n   } catch (...) {\n       std::cerr << "Unknown exception occurred." << std::endl;\n   }

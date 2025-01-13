@@ -1,0 +1,1 @@
+using (var ms = new MemoryStream(i_fileBytes))\n{\n    using (var reader = new StreamReader(ms, detectEncodingFromByteOrderMarks: true))\n    {\n        string asciiString = reader.ReadToEnd().Normalize(NormalizationForm.FormKD);\n        byte[] asciiBytes = Encoding.ASCII.GetBytes(asciiString);\n        // Use asciiBytes or asciiString as needed\n    }\n}

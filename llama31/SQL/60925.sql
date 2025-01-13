@@ -1,0 +1,1 @@
+SELECT t1.*\nFROM your_table t1\nJOIN (\n  SELECT DISTINCT client_id\n  FROM your_table\n  LIMIT 5\n) t2 ON t1.client_id = t2.client_id

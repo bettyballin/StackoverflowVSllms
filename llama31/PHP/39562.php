@@ -1,0 +1,1 @@
+Route::get('/posts/edit/{id}', 'PostController@edit');

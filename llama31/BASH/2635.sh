@@ -1,0 +1,1 @@
+# Example commands\nnetstat -tlnp | grep 1098\nlsof -i :1098\nps -ef | grep <process_name>

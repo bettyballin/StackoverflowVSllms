@@ -1,0 +1,1 @@
+[DataMember]\n[KnownType(typeof(System.Drawing.Bitmap))]\npublic Image Image { get; set; }

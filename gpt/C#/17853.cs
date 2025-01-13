@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\npublic static class WarningHelper\n{\n    [Conditional("DEBUG")]\n    public static void ShowWarning(string message)\n    {\n        Console.WriteLine("WARNING: " + message);\n    }\n}

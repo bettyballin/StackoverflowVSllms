@@ -1,1 +1,0 @@
-Dim foo = New Whatever()

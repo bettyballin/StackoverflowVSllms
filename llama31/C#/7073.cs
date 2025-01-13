@@ -1,0 +1,1 @@
+public class Foo\n{\n    private readonly SynchronizationContext _context;\n\n    public Foo(SynchronizationContext context)\n    {\n        _context = context;\n    }\n\n    public event EventHandler MyEvent;\n\n    public void RaiseEvent()\n    {\n        _context.Post((state) =>\n        {\n            MyEvent?.Invoke(this, EventArgs.Empty);\n        }, null);\n    }\n}

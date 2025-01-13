@@ -1,1 +1,0 @@
-CREATE FUNCTION dbo.GroupConcat (\n    @empName NVARCHAR(255)\n) RETURNS NVARCHAR(MAX)\nAS\nBEGIN\n    DECLARE @result NVARCHAR(MAX)\n\n    SELECT @result = COALESCE(@result + ' / ', '') + projID\n    FROM project_members\n    WHERE empName = @empName\n    ORDER BY projID\n\n    RETURN @result\nEND\nGO

@@ -1,1 +1,0 @@
-USE master;\nGO\nCREATE LOGIN readonly_user WITH PASSWORD = 'YourStrongPassword123!';\nGO

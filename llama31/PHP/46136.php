@@ -1,0 +1,1 @@
+// myfunctions.php\nfunction my_function() {\n    echo "Hello, World!\n";\n}

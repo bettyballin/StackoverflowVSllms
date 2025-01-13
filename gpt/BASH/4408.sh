@@ -1,1 +1,0 @@
-# Example rsync command to synchronize files from server A to server B\nrsync -avz --delete /path/to/source/ user@serverB:/path/to/destination/

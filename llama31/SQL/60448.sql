@@ -1,0 +1,1 @@
+SELECT *\nFROM employees e, departments d\nWHERE e.department_id = d.department_id(+);

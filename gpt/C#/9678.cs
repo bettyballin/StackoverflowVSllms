@@ -1,1 +1,0 @@
-public ActionResult CreateCourseDate(string Date, string City, int id)\n{\n    // Your logic here\n    return View();\n}

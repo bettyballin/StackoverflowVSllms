@@ -1,1 +1,0 @@
-// session_check.php\n<?php\nsession_start();\n\nif (!isset($_SESSION['user_id'])) {\n    header("HTTP/1.1 403 Forbidden");\n    exit('Access denied');\n}\n?>

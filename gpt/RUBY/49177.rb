@@ -1,1 +1,0 @@
-require 'benchmark'\n\ntime = Benchmark.measure do\n  # Code to benchmark\n  parse_data\nend\nputs time

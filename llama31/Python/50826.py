@@ -1,0 +1,1 @@
+print(find_multiplication_chain(256, 7, 1))  # (7, 1)\nprint(find_multiplication_chain(256, 1, 49))  # (25, 19)

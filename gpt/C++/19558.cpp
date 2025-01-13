@@ -1,1 +1,0 @@
-#include <iostream>\n\nvoid g(); // Forward declaration\n\nint main() {\n    std::cout << "Hello ";\n    g();  // Use the forward-declared function\n    return 0;\n}\n\nvoid g() {\n    std::cout << "world." << std::endl;\n}

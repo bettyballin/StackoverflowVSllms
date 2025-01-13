@@ -1,0 +1,1 @@
+openssl req -x509 -newkey rsa:2048 -nodes -keyout private_key.pem -out certificate.pem -days 365 -subj "/C=US/ST=State/L=Locality/O=Organization/CN=example.com"\nopenssl dgst -sha256 -sign private_key.pem -binary example.bin > signature\nopenssl dgst -sha256 -verify certificate.pem -signature signature example.bi

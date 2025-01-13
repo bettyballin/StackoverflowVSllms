@@ -1,0 +1,1 @@
+var mock = MockRepository.GenerateMock<IApi>();\nvar param = new int();\n\nmock.Expect(m => m.Method(out param))\n    .Will(new Modify(ref param).To(10));\n\nmock.Method(out param);\n\nAssert.AreEqual(10, param);

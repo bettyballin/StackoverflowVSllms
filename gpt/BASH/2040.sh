@@ -1,1 +1,0 @@
-htpasswd -c /etc/httpd/.htpasswd username

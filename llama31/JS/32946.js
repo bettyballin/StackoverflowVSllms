@@ -1,0 +1,1 @@
+if (navigator.userAgent.indexOf("MSIE") !== -1) {\n  // Display warning message for Internet Explorer users\n  document.getElementById("warning-message").innerHTML = "Warning: Background colors may not print correctly. Please enable printing of background colors in your browser settings.";\n}

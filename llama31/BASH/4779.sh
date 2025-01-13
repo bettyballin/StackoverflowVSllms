@@ -1,0 +1,1 @@
+awk '\n  /for [0-9]+ threads:/ { thread = $2; api1_sum = 0; api2_sum = 0 }\n  /API1/ { api1_sum += $7 }\n  /API2/ { api2_sum += $7 }\n  /for [0-9]+ threads:/ && api1_sum > 0 {\n    print "Thread", thread, "API1 sum:", api1_sum, "API2 sum:", api2_sum, "Total sum:", api1_sum + api2_sum\n  }\n' result

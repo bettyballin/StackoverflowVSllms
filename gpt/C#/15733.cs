@@ -1,1 +1,0 @@
-protected void Button1_Click(object sender, EventArgs e)\n{\n    if (MultiView1.ActiveViewIndex == 0)\n        MultiView1.SetActiveView(View2);\n    else\n        MultiView1.SetActiveView(View1);\n}

@@ -1,0 +1,1 @@
+.list-column {\n  float: left;\n  margin-right: 20px;\n  width: 20em;\n  zoom: 1; /* add this line */\n}

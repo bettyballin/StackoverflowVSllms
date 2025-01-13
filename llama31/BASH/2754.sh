@@ -1,0 +1,1 @@
+curl -X GET \\n  'https://query1.finance.yahoo.com/v7/finance/quote?symbols=MSFT'

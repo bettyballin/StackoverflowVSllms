@@ -1,1 +1,0 @@
-EDITOR="nano" bin/rails credentials:edit

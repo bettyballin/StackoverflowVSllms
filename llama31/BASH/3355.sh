@@ -1,0 +1,1 @@
+svn import c:\www\project1\htdocs c:\svnrepos\project1\trunk -m "Initial import"

@@ -1,1 +1,0 @@
-string emailList = ConfigurationManager.AppSettings["EmailList"];\nstring[] emails = emailList.Split(',');

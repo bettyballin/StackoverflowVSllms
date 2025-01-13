@@ -1,0 +1,1 @@
+lp -o PageSize=A4 -o Orientation=landscape input.pdf

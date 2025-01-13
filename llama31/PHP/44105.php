@@ -1,0 +1,1 @@
+// Example of vulnerable code\nif ($_POST['username'] == 'admin' && $_POST['password'] == 'password') {\n  // grant admin access\n}

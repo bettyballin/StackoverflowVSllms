@@ -1,1 +1,0 @@
-cd path\to\application\folder\nicacls . /grant ASPNET:(OI)(CI)M

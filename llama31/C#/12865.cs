@@ -1,0 +1,1 @@
+using Google.Protobuf;\nusing Grpc.Core;\n\npublic class MyService : MyServiceBase\n{\n    public override async Task<MyResponse> MyMethod(MyRequest request)\n    {\n        // implementation\n    }\n}

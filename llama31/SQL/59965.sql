@@ -1,0 +1,1 @@
+-- Connect as SYS\nSQL> @C:\oracle\product\10.2.0\db_1\rdbms\admin\utlmail.sql\nSQL> @C:\oracle\product\10.2.0\db_1\rdbms\admin\prvtmail.plb\n\n-- Create a public synonym for the package\nSQL> CREATE PUBLIC SYNONYM UTL_MAIL FOR SYS.UTL_MAIL;\n\n-- Grant execute privilege to PUBLIC\nSQL> GRANT EXECUTE ON UTL_MAIL TO PUBLIC;

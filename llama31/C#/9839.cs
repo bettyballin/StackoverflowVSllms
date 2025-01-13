@@ -1,0 +1,1 @@
+job = host.FindItems(Constants.VIX_FIND_ALL_VMS, null, -1, new DiscoveryCallback(lib));

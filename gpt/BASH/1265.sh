@@ -1,1 +1,0 @@
-backup  /home/yourusername/   localhost/\n   backup  /etc/   localhost/

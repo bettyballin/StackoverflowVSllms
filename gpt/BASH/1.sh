@@ -1,1 +1,0 @@
-gcloud datastore export --namespaces='your-namespace' gs://your-bucket-name

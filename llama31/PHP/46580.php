@@ -1,0 +1,1 @@
+exec("sqlcmd -S [server_name] -Q 'select * from [database_name]' > backup.sql");

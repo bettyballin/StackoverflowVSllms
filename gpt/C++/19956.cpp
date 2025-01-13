@@ -1,1 +1,0 @@
-#ifndef DOG_H\n#define DOG_H\n\nclass Dog {\npublic:\n    Dog();\n    ~Dog();\n\n    int getWeight() const;\n    void setWeight(int weight);\n\nprivate:\n    class DogImpl; // Forward declaration of the implementation class\n    DogImpl* pImpl; // Pointer to the implementation\n};\n\n#endif // DOG_H

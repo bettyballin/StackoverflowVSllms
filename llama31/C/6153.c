@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nvoid print_stack_address(int *ptr) {\n    printf("%p\n", (void*)ptr);\n}\n\nint main() {\n    int a = 10;\n    int b = 20;\n    int c = 30;\n\n    print_stack_address(&a);\n    print_stack_address(&b);\n    print_stack_address(&c);\n\n    return 0;\n}

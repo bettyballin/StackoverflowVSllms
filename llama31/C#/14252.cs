@@ -1,0 +1,1 @@
+public static class UserInfoHelper\n{\n    public static bool IsUserLoggedIn()\n    {\n        return HttpContext.Current.User.Identity.IsAuthenticated;\n    }\n\n    public static string GetUserName()\n    {\n        return HttpContext.Current.User.Identity.Name;\n    }\n}

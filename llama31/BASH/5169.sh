@@ -1,0 +1,1 @@
+patch -p1 < patch_file.patch

@@ -1,0 +1,1 @@
+Private Sub GridView1_RowCommand(sender As Object, e As GridViewCommandEventArgs) Handles GridView1.RowCommand\n    If e.CommandName = "LinkButtonClicked" Then\n        Dim rowIndex As Integer = Convert.ToInt32(e.CommandArgument)\n        ' Your code here to handle the click event\n    End If\nEnd Sub

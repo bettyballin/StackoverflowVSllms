@@ -1,1 +1,0 @@
-sudo LDFLAGS="-L/opt/local/lib" CPPFLAGS="-I/opt/local/include" pecl install memcached

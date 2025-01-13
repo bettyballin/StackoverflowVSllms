@@ -1,1 +1,0 @@
-object o = null;\n\n// Both are equivalent and produce the same IL code\nif (o == null) {\n    // Do something\n}\n\nif (null == o) {\n    // Do something\n}

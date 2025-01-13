@@ -1,0 +1,1 @@
+CREATE INDEX IX_ProductProperties ON ProductProperties (ProductId, PropertyId)

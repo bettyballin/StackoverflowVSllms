@@ -1,0 +1,1 @@
+$result = $handle->select()\n                 ->columns('store_details.store_name')\n                 ->from('store_details')\n                 ->where('store_details.store_id=?', $id);

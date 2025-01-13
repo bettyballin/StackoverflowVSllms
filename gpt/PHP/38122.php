@@ -1,1 +1,0 @@
-<?php\n// Process the POST request\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    // ... handle the vote ...\n\n    // Redirect back to the same page after processing\n    header("Location: display.php?page=" . intval($_GET['page']));\n    exit;\n}\n?>

@@ -1,0 +1,1 @@
+# Example of running pt-table-sync to synchronize tables\npt-table-sync -v --sync-to-master h=localhost,u=your_user,p=your_password,D=your_database,t=your_table

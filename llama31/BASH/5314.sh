@@ -1,0 +1,1 @@
+// Run PerfView and select the .NET application to profile\nPerfView /start / processName:MyDotNetApp\n\n// Run your application and perform actions to profile\nMyDotNetApp.exe\n\n// Stop the profiling session\nPerfView /stop\n\n// Analyze the profiling results\nPerfView /analyze

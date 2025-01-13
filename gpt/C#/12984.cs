@@ -1,1 +1,0 @@
-protected override void OnModelCreating(ModelBuilder modelBuilder)\n{\n    modelBuilder.Entity<SomeIntersection>()\n        .HasKey(si => new { si.TableAId, si.TableBId });\n}

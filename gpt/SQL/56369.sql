@@ -1,1 +1,0 @@
-CREATE TABLE projects (\n       project_id SERIAL PRIMARY KEY,\n       project_name TEXT NOT NULL,\n       owner_id INT NOT NULL\n   );

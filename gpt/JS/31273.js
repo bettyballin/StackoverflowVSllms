@@ -1,1 +1,0 @@
-// Example usage of Page.js\n   page('/page1', function(ctx) {\n       // Load content for Page 1\n   });\n\n   page('/page2', function(ctx) {\n       // Load content for Page 2\n   });\n\n   page();

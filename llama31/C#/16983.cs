@@ -1,0 +1,1 @@
+TextWriter myTextWriter = new StringWriter();\nHtmlTextWriter myWriter = new HtmlTextWriter(myTextWriter);\n\nPage dummyPage = new Page();\ndummyPage.Controls.Add(new HtmlForm());\n\nUserControl myControl = (UserControl)LoadControl("newUserControl.ascx");\ndummyPage.Controls[0].Controls.Add(myControl);\n\ndummyPage.RenderControl(myWriter);\n\nreturn myTextWriter.ToString();

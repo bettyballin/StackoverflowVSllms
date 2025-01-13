@@ -1,0 +1,1 @@
+IPAddress ipv6Address = IPAddress.Parse("fe80::c450:7142:67f5:ad66%11");\nstring addressString = ipv6Address.ToString();\nUri via = new Uri("soap.tcp://" + addressString + ":9063");

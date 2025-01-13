@@ -1,0 +1,1 @@
+sed '/regexp/{x;p;x;p;x;}' file.txt

@@ -1,0 +1,1 @@
+def slice_with_negative_stride(seq, start, end):\n    """\n    Returns a slice of seq from start to end with a negative stride.\n    """\n    seq_len = len(seq)\n    if start < 0:\n        start += seq_len\n    if end < 0:\n        end += seq_len\n    return seq[start:end-1:-1]\n\n# Example usage:\nA = list(range(10))\nprint(slice_with_negative_stride(A, 4, 0))  # [4, 3, 2, 1, 0]

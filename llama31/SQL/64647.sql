@@ -1,0 +1,1 @@
+BEGIN\n    DBMS_Stats.gather_table_stats(null, 'NEW_TABLE', cascade => true);\nEND;

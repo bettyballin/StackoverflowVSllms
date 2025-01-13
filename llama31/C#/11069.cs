@@ -1,0 +1,1 @@
+public static byte[] SerializeFile(string filePath)\n{\n    // ...\n}\n\npublic static void DeserializeFile(byte[] file, string filePath)\n{\n    // ...\n}

@@ -1,0 +1,1 @@
+Session["YourVariable"] = "YourValue";

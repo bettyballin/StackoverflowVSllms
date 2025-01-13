@@ -1,1 +1,0 @@
-jhat /path/to/heapdump

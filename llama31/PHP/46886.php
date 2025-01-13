@@ -1,0 +1,1 @@
+// In your view script\n<?= $this->translate('hello_world'); ?>

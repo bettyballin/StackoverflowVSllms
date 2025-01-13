@@ -1,0 +1,1 @@
+EXPLAIN ANALYZE\nSELECT * FROM your_table\nORDER BY your_custom_function(column1, column2) DESC;

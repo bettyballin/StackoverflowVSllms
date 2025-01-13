@@ -1,1 +1,0 @@
-S_A_new = S_A + K * (R_A - E_A)\n   S_B_new = S_B + K * (R_B - E_B)

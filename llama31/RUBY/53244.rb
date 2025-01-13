@@ -1,0 +1,1 @@
+<a class="more" href="#" data-post-id="<%= post.id %>">Click here for more!</a>

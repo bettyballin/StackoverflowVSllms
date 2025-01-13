@@ -1,0 +1,1 @@
+class MyClass {\npublic:\n    NeutralSharedPtr getSharedPtr() {\n        return NeutralSharedPtr(boost::shared_ptr<MyClass>(this));\n    }\n};

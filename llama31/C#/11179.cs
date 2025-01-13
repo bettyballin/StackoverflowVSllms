@@ -1,0 +1,1 @@
+using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    connection.Open();\n\n    string query = "SELECT * FROM customers WHERE country = @country";\n    SqlCommand command = new SqlCommand(query, connection);\n    command.Parameters.AddWithValue("@country", "USA");\n\n    SqlDataReader reader = command.ExecuteReader();\n    // ...\n}

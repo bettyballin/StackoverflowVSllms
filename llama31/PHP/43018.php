@@ -1,0 +1,1 @@
+// CakePHP example\n$query = $this->Users->find('all', [\n    'conditions' => [\n        'username' => $this->request->getData('username')\n    ]\n]);\n// CakePHP will automatically escape the input data to prevent SQL injectio

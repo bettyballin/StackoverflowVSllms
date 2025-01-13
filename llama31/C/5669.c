@@ -1,0 +1,1 @@
+HKEY hKey;\nRegOpenKeyEx(HKEY_CLASSES_ROOT, "TypeLib\\{myguid}\\1.0\\0", 0, KEY_WRITE, &hKey);\nif (hKey != NULL)\n{\n    SHSetValue(hKey, "win64", REG_SZ, (LPCTSTR)"C:\\Path\\To\\My\\64Bit\\DLL.dll");\n    RegCloseKey(hKey);\n}

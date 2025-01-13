@@ -1,0 +1,1 @@
+public class MyClass \n{\n    [DatabaseGenerated(DatabaseGeneratedOption.Computed)]\n    public DateTime MyTimestamp { get; set; }\n}

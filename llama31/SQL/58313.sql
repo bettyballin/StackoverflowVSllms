@@ -1,0 +1,1 @@
+WITH RECURSIVE children AS (\n  SELECT Id, ParentId, 0 AS level\n  FROM your_table\n  WHERE Id = @id_to_delete  -- start with the row to delete\n  UNION ALL\n  SELECT t.Id, t.ParentId, level + 1\n  FROM your_table t\n  JOIN children p ON t.ParentId = p.Id\n)\nDELETE FROM your_table\nWHERE Id IN (SELECT Id FROM children);

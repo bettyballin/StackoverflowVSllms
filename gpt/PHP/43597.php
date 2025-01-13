@@ -1,1 +1,0 @@
-Zend_Session::namespaceUnset('userdata');

@@ -1,0 +1,1 @@
+#outer {\n  display: grid;\n  grid-template-columns: 62% 38%;\n  grid-gap: 10px;\n}\n\n#inner1 {\n  grid-column: 1;\n}\n\n#inner2 {\n  grid-column: 2;\n}\n\n#another_top1 {\n  width: 500px;\n  height: 200px;\n}\n\n#another_top2 {\n  width: 350px;\n}\n\n#response {\n  grid-row: 2;\n  grid-column: 1;\n}\n\n#another_below {\n  grid-row: 2;\n  grid-column: 2;\n}

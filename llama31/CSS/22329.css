@@ -1,0 +1,1 @@
+li {\n  list-style-image: url('your-bullet-image.png');\n  list-style-position: inside;\n  vertical-align: middle;\n}

@@ -1,0 +1,1 @@
+private void buttonBrowse_Click(object sender, EventArgs e)\n{\n    FolderBrowserDialog dialog = new FolderBrowserDialog();\n    if (dialog.ShowDialog() == DialogResult.OK)\n    {\n        // do something with the selected folder path\n    }\n    System.Runtime.InteropServices.Marshal.ReleaseComObject(dialog);\n}

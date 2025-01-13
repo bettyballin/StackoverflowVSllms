@@ -1,1 +1,0 @@
-SELECT a.Field1, b.Field2\nFROM TableA AS a\nINNER JOIN TableB AS b ON a.JoinField = b.JoinField;

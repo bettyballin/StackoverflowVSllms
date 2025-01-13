@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n  SELECT \n    product_brand, \n    (CASE WHEN COUNT(product_brand)>50 THEN 1 ELSE 0 END) AS brand_count \n  FROM \n    products \n  GROUP BY \n    product_brand\n) AS subquery\nWHERE \n  brand_count = 1

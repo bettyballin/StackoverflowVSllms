@@ -1,1 +1,0 @@
-# Example command to create a VM with 8 vCPUs using KVM/QEMU\n   qemu-system-x86_64 -enable-kvm -cpu host -smp 8 -m 32768 -hda /path/to/disk/image

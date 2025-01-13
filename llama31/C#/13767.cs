@@ -1,0 +1,1 @@
+var result = db.tbl_repair_orders\n    .Where(x => x.contract == "con" && \n               new[] { "Parts Arr", "NA", "New Call", "Parts Ord", "Parts Req", "F Work" }.Contains(x.status))\n    .GroupBy(x => x.status)\n    .Select(g => new { Status = g.Key, Count = g.Count() });

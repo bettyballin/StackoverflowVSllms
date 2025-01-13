@@ -1,0 +1,1 @@
+# On your local machine\nssh-add -K  # Add your private key to the local SSH agent\n\n# Connect to the remote server\nssh -A user@remote-server  # Forward your local SSH agent to the remote server\n\n# On the remote server, you can now access other servers or repositories\n# without needing to enter your credentials agai

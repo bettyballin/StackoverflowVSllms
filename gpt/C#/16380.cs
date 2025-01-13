@@ -1,1 +1,0 @@
-protected void ButtonSubmit_Click(object sender, EventArgs e)\n{\n    // Assuming there are validation controls on the page\n    if (Page.IsValid)\n    {\n        // Process the form submission\n    }\n    else\n    {\n        // Handle the validation errors\n    }\n}

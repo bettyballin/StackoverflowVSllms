@@ -1,1 +1,0 @@
-SELECT Users.Username, Items.Item_Name, Pictures.Picture_URL\nFROM Users\nJOIN Items ON Users.User_ID = Items.User_ID\nJOIN Pictures ON Items.Item_ID = Pictures.Item_ID\nWHERE Users.User_ID = ?;  -- Replace '?' with the specific user ID

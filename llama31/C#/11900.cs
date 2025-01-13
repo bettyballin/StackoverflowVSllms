@@ -1,0 +1,1 @@
+using System.Web.Profile;\n\n// Get the ProfileBase object\nProfileBase profile = ProfileBase.Create(Page.User.Identity.Name);\n\n// Cast it to your custom profile type\nCustomProfile customProfile = (CustomProfile)profile;

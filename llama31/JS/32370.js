@@ -1,0 +1,1 @@
+xhr.onreadystatechange = function() {\n  if (xhr.readyState === 4 && xhr.status === 200) {\n    console.log('Request complete.');\n  }\n};

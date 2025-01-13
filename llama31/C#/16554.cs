@@ -1,0 +1,1 @@
+public static class LinqExtensions\n{\n    public static bool Like(this string str, string pattern)\n    {\n        return Regex.IsMatch(str, "^" + Regex.Escape(pattern).Replace(@"\*", ".*").Replace(@"\?", ".") + "$", RegexOptions.IgnoreCase);\n    }\n}\n\n// usage:\nvar results = data.Where(d => d.Like("*Test*if*it*work*"));

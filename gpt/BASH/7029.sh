@@ -1,1 +1,0 @@
-ps -eo pid,stat,comm,wchan | grep D

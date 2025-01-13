@@ -1,0 +1,1 @@
+foreach ($userData as $user) {\n    $data = array(\n        'User' => array('id' => $user['id']),\n        'Site' => array('id' => $user['site_id'])\n    );\n    $this->User->saveAssociated($data, array('validate' => false));\n}

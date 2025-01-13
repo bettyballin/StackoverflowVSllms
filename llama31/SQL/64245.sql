@@ -1,0 +1,1 @@
+CREATE TABLE ArtistFans (\n  ArtistFanID INT AUTO_INCREMENT NOT NULL,\n  ArtistID INT NOT NULL,\n  UserID INT NOT NULL,\n  PRIMARY KEY (ArtistFanID),\n  UNIQUE (ArtistID, UserID),\n  FOREIGN KEY (ArtistID) REFERENCES Artists(ArtistID),\n  FOREIGN KEY (UserID) REFERENCES Fans(UserID)\n);

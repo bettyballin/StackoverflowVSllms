@@ -1,0 +1,1 @@
+<html>\n<head>\n  <title>Test</title>\n</head>\n<body>\n  <input type="text" id="test1" name="test1">\n  <script>\n    const urlParams = new URLSearchParams(window.location.search);\n    const test1Value = urlParams.get('test1');\n    document.getElementById('test1').value = test1Value;\n  </script>\n</body>\n</html>

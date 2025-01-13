@@ -1,0 +1,1 @@
+from RestrictedPython import compile_restricted\n\n# Compile the user-uploaded script with restrictions\ntry:\n    restricted_script = compile_restricted(user_script)\n    exec(restricted_script)\nexcept Exception as e:\n    print(f"Error executing script: {e}")

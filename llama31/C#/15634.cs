@@ -1,0 +1,1 @@
+var selectedRows = filingTabsTable.AsEnumerable()\n    .Where(r => !parentTabsTable.AsEnumerable()\n        .Select(p => p.Field<int>("fsp_fsid"))\n        .Contains(r.Field<int>("fs_ID")))\n    .CopyToDataTable();

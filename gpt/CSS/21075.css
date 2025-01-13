@@ -1,1 +1,0 @@
-.popup-container {\n       position: absolute;\n       z-index: 9999; /* Ensure this is higher than other elements */\n   }\n\n   iframe {\n       z-index: 10000; /* Ensure iframe is on top */\n   }

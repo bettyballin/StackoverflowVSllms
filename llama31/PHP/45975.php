@@ -1,0 +1,1 @@
+error_reporting(E_ALL);\n\nclass ClassName {\n    var $varName = 'foo';\n    var $varName = 'bar'; // redeclaration\n}

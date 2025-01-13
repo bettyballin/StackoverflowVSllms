@@ -1,0 +1,1 @@
+$.ajax({\n    type: "GET",\n    url: "/countries/tariff/" + escape($(this).val()),\n    success: function(html){\n        $(this).parent().next('div').html(html);\n    }\n});

@@ -1,1 +1,0 @@
-require 'irb'\n\ndef some_method\n  x = 10\n  y = 20\n\n  # Drop to IRB prompt here\n  binding.irb\n\n  # Continue execution after closing IRB prompt\n  z = x + y\n  puts z\nend\n\nsome_method

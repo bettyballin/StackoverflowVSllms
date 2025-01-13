@@ -1,0 +1,1 @@
+import subprocess\nimport module_name\n\nfile_path = module_name.__file__\nsubprocess.run(['idle', file_path])

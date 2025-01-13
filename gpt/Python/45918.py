@@ -1,1 +1,0 @@
-my_list = [1, 2, 3, 4, 5]\nindex_to_remove = 2\n\nremoved_element = my_list.pop(index_to_remove)\nprint(my_list)  # Output will be [1, 2, 4, 5]\nprint(removed_element)  # Output will be 3

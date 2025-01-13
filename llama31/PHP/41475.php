@@ -1,0 +1,1 @@
+class myClass {\n    public static function test1() {\n        if (method_exists(__CLASS__, "test1")) {\n            echo "Hi";\n        }\n    }\n}\n\nmyClass::test1(); // Outputs: Hi

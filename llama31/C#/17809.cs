@@ -1,0 +1,1 @@
+var query = CreateDynamicQuery("Customer", new[] { "Number", "City", "CountryEntity.Name" });

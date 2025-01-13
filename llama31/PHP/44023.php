@@ -1,0 +1,1 @@
+// Business logic (controller)\n$user = new User();\n$user->setName('John Doe');\n$user->setEmail('johndoe@example.com');\n\n// Presentation logic (template)\n$template = new Twig_Template('user.twig');\n$template->render(array('user' => $user));

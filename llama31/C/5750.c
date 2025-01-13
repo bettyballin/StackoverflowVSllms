@@ -1,0 +1,1 @@
+while (*(s = fgets(buf, 100, stdin)) != NULL) ;

@@ -1,1 +1,0 @@
-try {\n    // Do something\n} catch (Exception ex) {\n    // Handle exception\n} finally {\n    // Do cleanup\n}

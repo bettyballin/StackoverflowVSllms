@@ -1,0 +1,1 @@
+countrydata.CountryObject = assembly.CreateInstance("CountryLayers.Local");

@@ -1,0 +1,1 @@
+<ItemGroup>\n  <EmbeddedResource Include="YourTlbFile.tlb" />\n</ItemGroup>

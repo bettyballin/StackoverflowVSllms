@@ -1,0 +1,1 @@
+find . -type f \( -not -name "$(head -1 list_files)" \)

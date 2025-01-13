@@ -1,1 +1,0 @@
-# Example command to use dblatex\n   dblatex -o output.pdf input.xml

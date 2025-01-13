@@ -1,1 +1,0 @@
-chmod o+x ~

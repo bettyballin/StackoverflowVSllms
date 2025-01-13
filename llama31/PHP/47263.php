@@ -1,0 +1,1 @@
+/**\n * Implementation of hook_profile_alter().\n */\nfunction mymodule_profile_alter(&$account, &$fields) {\n  // Add a new field to the profile form\n  $fields['email'] = array(\n    '#title' => t('Email'),\n    '#type' => 'markup',\n    '#value' => $account->mail,\n  );\n}

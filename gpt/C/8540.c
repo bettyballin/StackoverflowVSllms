@@ -1,1 +1,0 @@
-typedef struct _IMAGE_IMPORT_BY_NAME {\n    WORD    Hint;\n    BYTE    Name[1];\n} IMAGE_IMPORT_BY_NAME;

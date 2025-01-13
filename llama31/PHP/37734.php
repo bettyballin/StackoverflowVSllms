@@ -1,0 +1,1 @@
+$query = $this->db->get('mytable');\n// process the result set\n$query->free_result(); // optional, but can be used for memory efficiency

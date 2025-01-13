@@ -1,1 +1,0 @@
-use Shared\Classes\DB;\n   \n   $db = new DB();

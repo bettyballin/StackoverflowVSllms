@@ -1,0 +1,1 @@
+$order = $_POST['order'];\n// Assuming you have a database connection established\n// and a table called 'portlet_order' with a column 'portlet_id'\nforeach ($order as $portletId) {\n  $query = "UPDATE portlet_order SET order_id = '" . $portletId . "'";\n  // Execute the query\n}

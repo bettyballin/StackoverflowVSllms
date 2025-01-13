@@ -1,0 +1,1 @@
+// In your AuthComponent configuration\n'authorize' => array(\n    'Actions' => array(\n        'actionMap' => array(\n            'controllers/Users/index' => 'read',\n            'controllers/Users/add' => 'create',\n            'controllers/Posts/edit' => 'update'\n        )\n    )\n)

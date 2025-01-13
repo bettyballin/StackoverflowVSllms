@@ -1,0 +1,1 @@
+int main() {\n    struct timespec sleep_duration = {.tv_sec = 0, .tv_nsec = 1000000}; // 1 millisecond\n    active_sleep(&sleep_duration);\n    return 0;\n}

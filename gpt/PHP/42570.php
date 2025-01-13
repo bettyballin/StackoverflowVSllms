@@ -1,1 +1,0 @@
-// Index.php\n<?php\ninclude("Logger.static.php");\ninclude("TestClass.class.php");\nnew TestClass();\n?>

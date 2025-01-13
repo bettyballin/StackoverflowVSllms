@@ -1,1 +1,0 @@
-gen install MyAssembly.dll /platform:x64

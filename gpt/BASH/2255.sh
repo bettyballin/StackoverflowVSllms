@@ -1,1 +1,0 @@
-#!/bin/sh\numask 002\nexec /usr/bin/svnserve "$@"

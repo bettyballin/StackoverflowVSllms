@@ -1,0 +1,1 @@
+echo '<root><myel name="Foo" /><myel name="Bar" /></root>' | xmlstarlet sel -t -m "//myel" -v "@name" -n | sed 's/$/,/'

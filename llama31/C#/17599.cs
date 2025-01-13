@@ -1,0 +1,1 @@
+var obj = new { Foo = "bar", Baz = 42 };\nobj.PrintProperties();

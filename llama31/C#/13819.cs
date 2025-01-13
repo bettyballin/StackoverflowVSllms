@@ -1,0 +1,1 @@
+string originalFilename = "FooBar.xml";\nstring uniqueFilename = FileNameHelper.GetUniqueFilename(originalFilename);\nConsole.WriteLine(uniqueFilename);

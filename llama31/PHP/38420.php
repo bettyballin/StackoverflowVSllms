@@ -1,0 +1,1 @@
+if (stristr($page, "some_old_image.jpg")) {\n    header('Location: http://www.site.com/the/new/image.jpg');\n    exit;\n}

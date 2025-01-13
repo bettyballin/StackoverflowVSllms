@@ -1,0 +1,1 @@
+$getOpt = new Zend_Console_Getopt(array(\n    'v|version' => 'Print version information'\n));\n\n$getOpt->parse();\n\nif ($getOpt->getOption('v')) {\n    echo "Version 1.xxxxx\n";\n} else {\n    echo $getOpt->getUsageMessage() . "\n";\n}

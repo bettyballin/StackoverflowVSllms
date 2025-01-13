@@ -1,1 +1,0 @@
-var foo = new Foo\n{\n    Name = "Bob Dylan",\n    Age = 68,\n    Location = "On Tour",\n    IsCool = true\n};

@@ -1,1 +1,0 @@
-apc_clear_cache();\n    apc_clear_cache('user');\n    apc_clear_cache('opcode');

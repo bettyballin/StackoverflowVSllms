@@ -1,1 +1,0 @@
-caspol -machine -addgroup 1 -url file://H:/* FullTrust

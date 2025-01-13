@@ -1,1 +1,0 @@
-public ActionResult Edit(App.Models.PurchaseOrdersView model)\n{\n    if (!ModelState.IsValid)\n    {\n        // Add model-level errors if necessary\n        ModelState.AddModelError("", "There were some errors.");\n        return View(model);\n    }\n\n    // Your logic to handle the form submission\n    return RedirectToAction("Index");\n}

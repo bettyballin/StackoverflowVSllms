@@ -1,0 +1,1 @@
+import requests\nfrom datetime import datetime\n\nresponse = requests.get('https://www.google.com')\ndate_header = response.headers.get('Date')\nif date_header:\n    server_date = datetime.strptime(date_header, '%a, %d %b %Y %H:%M:%S GMT')\n    print(server_date)

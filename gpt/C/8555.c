@@ -1,1 +1,0 @@
-// file1.c\n#include <stdio.h>\n\nvoid func(); // Declaration with external linkage\n\nint main() {\n    func();\n    return 0;\n}

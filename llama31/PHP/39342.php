@@ -1,0 +1,1 @@
+class MyClass {\n    public static $myStaticProperty = 'Hello';\n    public static function myStaticMethod() { return 'World'; }\n}\n\necho MyClass::myStaticProperty; // outputs "Hello"\necho MyClass::myStaticMethod(); // outputs "World"

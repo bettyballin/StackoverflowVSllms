@@ -1,0 +1,1 @@
+<Content Exclude="Inspector.aspx" Condition="'$(Configuration)' != 'Debug'" />\n<Compile Exclude="Inspector.aspx.cs" Condition="'$(Configuration)' != 'Debug'" />

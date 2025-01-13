@@ -1,0 +1,1 @@
+etsh http add urlacl url=http://+:8080/ user=everyone\nnetsh http add iplisten ipaddress=0.0.0.0:8080

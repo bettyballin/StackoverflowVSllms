@@ -1,0 +1,1 @@
+def reversed_count(n):\n    for i in range(2**n):\n        reversed_i = int(bin(i)[2:].zfill(n)[::-1], 2)\n        print(f"{bin(i)[2:].zfill(n)} -> {reversed_i}")\n\nreversed_count(3)

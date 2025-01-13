@@ -1,1 +1,0 @@
-DataRow exercise = _exerciseDataSet.Exercise.FindByExerciseID(65);\n_AccelLimit = Convert.ToSingle(exercise["DefaultAccelLimit"]);

@@ -1,1 +1,0 @@
-sudo systemctl status my_service.service

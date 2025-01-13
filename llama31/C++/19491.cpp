@@ -1,0 +1,1 @@
+#include <boost/phoenix/phoenix.hpp>\n\nvoid p_map(point& p) {\n    p.x += 1;\n    p.y += 1;\n}\n\nvoid foreach(std::vector<pinfo>& pi_vec) {\n    auto pi_map = boost::phoenix::bind(&p_map, boost::phoenix::bind(&pinfo::p, boost::phoenix::placeholders::_1));\n    std::for_each(pi_vec.begin(), pi_vec.end(), pi_map);\n}

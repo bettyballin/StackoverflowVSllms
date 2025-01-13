@@ -1,1 +1,0 @@
--- Insert the record\nINSERT INTO recon VALUES (1, 'sri', -1, '20090806');\n\n-- Select to verify the insert\nSELECT * FROM recon;\n\n-- Commit the transaction\nCOMMIT;\n\n-- Select again to verify the commit\nSELECT * FROM recon;

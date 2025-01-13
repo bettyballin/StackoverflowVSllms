@@ -1,1 +1,0 @@
-$region = isset($region) ? intval($region) : 'NULL';\n   $sql = "INSERT INTO users (fname, lname, role, region, username, password, new_pass) \n           VALUES ('$fname', '$lname', '$role', $region, '$username', '$password', '$new_pass')";

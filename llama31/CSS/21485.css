@@ -1,0 +1,1 @@
+.spinner {\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  border: 4px solid #ccc;\n  border-top-color: #333;\n  animation: spin 1s linear infinite;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}

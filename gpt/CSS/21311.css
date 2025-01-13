@@ -1,1 +1,0 @@
-.menu {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n    display: flex;\n}\n\n.menu-item {\n    margin-right: 20px;\n}\n\n.menu-item a {\n    text-decoration: none;\n    color: #000;\n    padding: 10px 15px;\n    display: block;\n}\n\n.menu-item[aria-current="page"] a {\n    font-weight: bold;\n    color: #007BFF;\n}

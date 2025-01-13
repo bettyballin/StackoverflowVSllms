@@ -1,0 +1,1 @@
+XPathNavigator navigator = ...; // your XPathNavigator instance\n\nstring namespaceUri = navigator.SelectSingleNode("/*").NamespaceURI;

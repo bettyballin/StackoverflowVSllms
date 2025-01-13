@@ -1,0 +1,1 @@
+svnadmin load /path/to/your/repository < repository.dump

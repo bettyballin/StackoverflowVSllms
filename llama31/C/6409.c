@@ -1,0 +1,1 @@
+HMODULE hComCtl32 = LoadLibraryA("comctl32.dll");\nif (hComCtl32 != NULL) {\n    INITCOMMONCONTROLS ptrInitCommonControls = (INITCOMMONCONTROLS)GetProcAddress(hComCtl32, "InitCommonControls");\n    if (ptrInitCommonControls != NULL) {\n        ptrInitCommonControls();\n    }\n}

@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\nusing System.Reflection;\n\npublic class Program\n{\n    public static void Main()\n    {\n        string assemblyPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);\n        Console.WriteLine(assemblyPath);\n    }\n}

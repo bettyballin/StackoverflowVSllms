@@ -1,1 +1,0 @@
-$ch = curl_init('http://www.example.com/');\n   curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n   $response = curl_exec($ch);\n   if ($response === false) {\n       echo 'Curl error: ' . curl_error($ch);\n   } else {\n       echo 'Operation completed without any errors';\n   }\n   curl_close($ch);

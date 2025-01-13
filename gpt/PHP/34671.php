@@ -1,1 +1,0 @@
-if ($form_submission_success) {\n    header("Location: $thankyouurl");\n    exit;\n} else {\n    header("Location: $errorurl");\n    exit;\n}

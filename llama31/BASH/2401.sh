@@ -1,0 +1,1 @@
+implib -a libcurl.lib libcurl.dll

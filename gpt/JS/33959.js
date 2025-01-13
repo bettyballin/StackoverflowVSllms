@@ -1,1 +1,0 @@
-<script>\n  $(document).ready(function(){\n    $("button").click(function () {\n      if ($("#layoutDiv").css('opacity') == 0) {\n        $("#layoutDiv").css({'opacity': 1, 'height': 'auto'});\n      } else {\n        $("#layoutDiv").css({'opacity': 0, 'height': 0});\n      }\n    });\n  });\n</script>

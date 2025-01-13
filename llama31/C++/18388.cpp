@@ -1,0 +1,1 @@
+template<class BidirectionalIterator>\nbool next_partial_permutation(BidirectionalIterator first,\n                              BidirectionalIterator middle,\n                              BidirectionalIterator last)\n{\n    std::reverse(middle, last);\n    return std::next_permutation(first, last);\n}

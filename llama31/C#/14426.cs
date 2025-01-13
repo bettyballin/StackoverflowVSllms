@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    string buttonId = Button1.ClientID;\n    string script = $"var button = document.getElementById('{buttonId}');";\n    ClientScript.RegisterStartupScript(this.GetType(), "script", script, true);\n}

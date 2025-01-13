@@ -1,1 +1,0 @@
-function date_diff_days($old_date, $new_date) {\n    $old_date_obj = DateTime::createFromFormat('m/d/y', $old_date);\n    $new_date_obj = DateTime::createFromFormat('m/d/y', $new_date);\n\n    $interval = $old_date_obj->diff($new_date_obj);\n    return $interval->days;\n}\n\necho date_diff_days('3/15/09', '3/18/09'); // 3\necho date_diff_days('11/15/08', '3/18/09'); // 123

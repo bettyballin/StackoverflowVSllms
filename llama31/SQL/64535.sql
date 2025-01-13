@@ -1,0 +1,1 @@
+SELECT table_name \nFROM all_tab_columns \nWHERE data_type IN ('RAW', 'LONG RAW', 'BLOB', 'BFILE');

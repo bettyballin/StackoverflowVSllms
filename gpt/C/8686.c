@@ -1,1 +1,0 @@
-#include <stdio.h>\n\n#warning This is a compile-time warning message\n\n#define STRINGIFY(x) #x\n#define TOSTRING(x) STRINGIFY(x)\n#define COMPILER_MESSAGE(msg) _Pragma(TOSTRING(message(msg)))\n\nCOMPILER_MESSAGE("This is a compile-time message")\n\nint main() {\n    printf("Hello, World!\n");\n    return 0;\n}

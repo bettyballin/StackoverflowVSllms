@@ -1,0 +1,1 @@
+asm volatile("movl %eax, %ebx" ::: "eax", "ebx");

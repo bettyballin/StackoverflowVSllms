@@ -1,0 +1,1 @@
+// Launch your application with the -Xrunjdwp option to enable profiling\njava -Xrunjdwp:transport=dt_socket,server=y,suspend=n -jar your_app.jar

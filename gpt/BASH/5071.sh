@@ -1,1 +1,0 @@
-sqoop import --connect jdbc:mysql://database.example.com/dbname \\n   --username user --password pass --table tablename

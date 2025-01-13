@@ -1,0 +1,1 @@
+gcc -rdynamic -o main main.c -ldl\ngcc -shared -o mylib.so mylib.c -ldl

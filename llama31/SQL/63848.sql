@@ -1,0 +1,1 @@
+START TRANSACTION;\nINSERT IGNORE INTO table (critical_id, field) VALUES ($id, 'new_value');\nIF ROW_COUNT() = 0 THEN\n    UPDATE table SET field = 'new_value' WHERE critical_id = $id;\nEND IF;\nCOMMIT;

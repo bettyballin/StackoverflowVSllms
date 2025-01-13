@@ -1,1 +1,0 @@
-List<int> originalList = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };\nList<int> filteredList = new List<int>();\nint filterValue = 5;\n\nforeach (int item in originalList)\n{\n    if (item > filterValue)\n    {\n        filteredList.Add(item);\n    }\n}\n\n// filteredList now contains [6, 7, 8, 9, 10]

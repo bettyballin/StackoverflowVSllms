@@ -1,1 +1,0 @@
-#include <memory>\n\nint main() {\n    std::shared_ptr<int> ptr = std::make_shared<int>(10);\n    // Use the shared pointer\n    return 0;\n}

@@ -1,0 +1,1 @@
+// Interface defines the public API\npublic interface Shape\n{\n    void Draw();\n}\n\n// Class provides the implementation\npublic class ShapeClass : Shape\n{\n    public void Draw()\n    {\n        Console.WriteLine("Drawing a shape");\n    }\n}

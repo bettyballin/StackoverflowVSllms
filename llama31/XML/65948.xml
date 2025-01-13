@@ -1,0 +1,1 @@
+<service name="MyService">\n  <endpoint address="rest" binding="webHttpBinding" contract="MyServiceContract" />\n  <endpoint address="soap" binding="basicHttpBinding" contract="MyServiceContract" />\n</service>

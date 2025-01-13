@@ -1,0 +1,1 @@
+user.Roles.Add(new Role { Id = roleId });

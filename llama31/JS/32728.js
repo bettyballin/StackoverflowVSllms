@@ -1,0 +1,1 @@
+var url = 'https://cors-anywhere.herokuapp.com/https://www.random.org/integers/?num=1&min=1&max=100&col=1&base=10&format=plain&rnd=new';\n\n$.ajax({\n  type: 'GET',\n  url: url,\n  success: function(data) {\n    console.log(data);\n  }\n});

@@ -1,1 +1,0 @@
-SELECT * FROM parent_table WHERE is_deleted = FALSE;\nSELECT * FROM child_table WHERE is_deleted = FALSE;

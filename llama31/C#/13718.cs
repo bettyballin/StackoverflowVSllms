@@ -1,0 +1,1 @@
+public (List<MyType>, List<MyType>) ReturnTwoLists()\n{\n    List<MyType> listOne = ...;\n    List<MyType> listTwo = ...;\n    return (listOne, listTwo);\n}

@@ -1,0 +1,1 @@
+.parent {\n  display: flex;\n  width: 500px; /* fixed width */\n}\n\n.child {\n  flex: 1; /* equal width for each child */\n  text-align: center; /* optional */\n}

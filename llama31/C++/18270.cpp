@@ -1,0 +1,1 @@
+#include <cstdio>\n\nint main() {\n    char buffer[256];\n    std::snprintf(buffer, sizeof(buffer), "Hello, %s!", "world");\n    return 0;\n}

@@ -1,1 +1,0 @@
-using System.Windows.Forms;\n\npublic interface IModule\n{\n    string Name { get; }\n    Control GetControl();\n}

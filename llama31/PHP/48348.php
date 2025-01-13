@@ -1,0 +1,1 @@
+function autoload($class) {\n    $paths = array('/path/to/dir1', '/path/to/dir2');\n    foreach ($paths as $path) {\n        $file = $path . '/' . str_replace('_', '/', $class) . '.php';\n        if (file_exists($file)) {\n            require_once $file;\n            return;\n        }\n    }\n}\n\nspl_autoload_register('autoload');

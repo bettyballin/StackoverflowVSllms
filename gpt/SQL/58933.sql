@@ -1,1 +1,0 @@
-SELECT Product_Id, category, priority, atribute1, atribute2\nFROM YourTableName\nORDER BY category, \n         IIF(priority IS NULL, 1, 0), \n         priority;

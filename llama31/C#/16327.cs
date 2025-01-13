@@ -1,0 +1,1 @@
+var query = from row in db.Table\n            where Enumerable.Contains(row.Column, "searchString")\n            select row;

@@ -1,0 +1,1 @@
+// Import the certificate\nX509Certificate2 certificate = new X509Certificate2("path/to/certificate.pfx");\n\n// Add the certificate to the trusted store\nX509Store store = new X509Store(StoreName.TrustedPeople, StoreLocation.LocalMachine);\nstore.Open(OpenFlags.ReadWrite);\nstore.Add(certificate);\nstore.Close();

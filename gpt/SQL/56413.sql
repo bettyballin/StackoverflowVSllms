@@ -1,1 +1,0 @@
-SELECT YEAR(record_date) AS year, COUNT(id) AS count\nFROM stats\nGROUP BY YEAR(record_date);

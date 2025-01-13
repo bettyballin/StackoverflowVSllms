@@ -1,0 +1,1 @@
+try\n{\n    // Your code here...\n}\ncatch (Exception ex)\n{\n    System.Diagnostics.Trace.Write(ex.Message, "Error");\n}

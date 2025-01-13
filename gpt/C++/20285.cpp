@@ -1,1 +1,0 @@
-#ifdef _WIN32\n#define DLL_EXPORT __declspec(dllexport)\n#else\n#define DLL_EXPORT\n#endif\n\nextern "C" {\n    DLL_EXPORT void MyFunction();\n}\n\nvoid MyFunction() {\n    // function implementation\n}

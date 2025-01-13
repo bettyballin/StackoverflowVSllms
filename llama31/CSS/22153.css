@@ -1,0 +1,1 @@
+@page :first {\n    size: A4 landscape;\n}\n\n@page :left {\n    size: A4 portrait;\n}

@@ -1,0 +1,1 @@
+aspnet_merge /o output.dll /w yourwebsite

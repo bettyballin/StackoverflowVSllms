@@ -1,1 +1,0 @@
-StringBuilder sb = new StringBuilder();\n   sb.Append("Hello");\n   sb.Append(" ");\n   sb.Append("World");\n   string result = sb.ToString();

@@ -1,0 +1,1 @@
+handler: function() {\n    var selectedItem = attributeEditor.getSelectionModel().getSelected();\n\n    if (selectedItem) {\n        attributeStore.remove(selectedItem);\n        attributeStore.rejectChanges(); // Add this line\n\n        // ... rest of your code ...\n    }\n}

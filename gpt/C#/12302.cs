@@ -1,1 +1,0 @@
-using Sharprompt;\n\n    class Program\n    {\n        static void Main(string[] args)\n        {\n            var file = Prompt.Select("Select a file", new[] { "file1.txt", "file2.txt", "file3.txt" });\n            Console.WriteLine($"You selected: {file}");\n        }\n    }

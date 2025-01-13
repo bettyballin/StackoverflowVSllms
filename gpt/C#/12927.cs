@@ -1,1 +1,0 @@
-private void contextMenuStrip_Opening(object sender, System.ComponentModel.CancelEventArgs e)\n{\n    ContextMenuStrip cms = sender as ContextMenuStrip;\n    if (cms != null)\n    {\n        // Set the desired width\n        int desiredWidth = 200; // Example width in pixels\n        cms.Width = desiredWidth;\n    }\n}

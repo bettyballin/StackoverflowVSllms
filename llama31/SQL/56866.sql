@@ -1,0 +1,1 @@
+CREATE TABLE Tree (\n    NodeID INT PRIMARY KEY,\n    ParentNodeID INT NULL,\n    Name VARCHAR(50) NOT NULL,\n    ... other columns ...\n)

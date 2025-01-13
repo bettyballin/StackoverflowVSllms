@@ -1,1 +1,0 @@
-/**\n * Implements hook_page_attachments().\n */\nfunction your_module_page_attachments(array &$attachments) {\n  $attachments['#attached']['library'][] = 'your_module/ajaxify';\n}

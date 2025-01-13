@@ -1,0 +1,1 @@
+import copy\nxs = copy.deepcopy([[1] * 4] * 3)

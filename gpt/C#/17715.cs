@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\n\n[ComVisible(true), ClassInterface(ClassInterfaceType.None)]\n[ComDefaultInterface(typeof(IMyClass))]\npublic class MyClass : IMyClass\n{\n    // implementation of interface members\n}

@@ -1,0 +1,1 @@
+SELECT replace_strings(original_string, value1, value2, value3) \nFROM your_table, another_table;

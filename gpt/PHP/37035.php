@@ -1,1 +1,0 @@
-// 404.php\n   echo "<h1>404 Not Found</h1>";\n   echo "<p>The page you are looking for could not be found.</p>";\n\n   // error.php\n   echo "<h1>An Error Occurred</h1>";\n   echo "<p>Sorry, something went wrong. Please try again later.</p>";

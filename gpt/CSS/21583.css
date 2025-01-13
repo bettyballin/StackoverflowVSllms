@@ -1,1 +1,0 @@
-ol {\n    list-style-type: none;\n    counter-reset: item;\n}\n\nol li {\n    counter-increment: item;\n    margin-bottom: 10px; /* Adjust as needed */\n}\n\nol li::before {\n    content: counter(item) ") ";\n    font-weight: bold; /* Optional, for better visibility */\n}

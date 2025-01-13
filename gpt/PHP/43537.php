@@ -1,1 +1,0 @@
-<?php\n$a = 42;\n$b = "42";\n\nif ($a === $b) {\n    echo "Identical with ===";\n} else {\n    echo "Not identical with ===";  // This will be printed\n}\n?>

@@ -1,1 +1,0 @@
-<xs:simpleType name="BackslashRestrictedField">\n  <xs:restriction base="xs:string">\n    <xs:minLength value="0" />\n    <xs:pattern value="[^\\\]"/> <!-- disallow backslash '\' char -->\n  </xs:restriction>\n</xs:simpleType>

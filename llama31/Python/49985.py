@@ -1,0 +1,1 @@
+import requests\n\n# Define a dictionary of common words\ndictionary = ["login", "error", "index", "default", "admin"]\n\n# Iterate over the dictionary and check for resources\nfor word in dictionary:\n    response = requests.get(f"https://example.com/{word}")\n    if response.status_code != 404:\n        print(f"Found resource: {word}")

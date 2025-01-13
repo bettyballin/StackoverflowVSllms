@@ -1,0 +1,1 @@
+# spec/features/user_login_spec.rb\nrequire 'spec_helper'\n\nfeature 'User login' do\n  scenario 'user logs in successfully' do\n    # ...\n  end\nend

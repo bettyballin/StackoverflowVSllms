@@ -1,0 +1,1 @@
+var stopwatch = new Stopwatch();\nstopwatch.Start();\n// Do some work\nstopwatch.Stop();\nvar timeItTook = stopwatch.Elapsed;

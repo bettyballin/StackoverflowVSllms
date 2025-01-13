@@ -1,1 +1,0 @@
-$text = preg_replace('/(?<![a-zA-Z0-9._%+-])@([A-Za-z0-9_]+)/', '<a href="http://twitter.com/$1" target="_blank">@$1</a>', $text);

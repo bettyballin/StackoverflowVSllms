@@ -1,1 +1,0 @@
-def adjust_price_with_reputation(price, user_prediction, user_reputation):\n       return price + user_reputation * (user_prediction - price)

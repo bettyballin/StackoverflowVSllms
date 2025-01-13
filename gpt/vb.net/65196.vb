@@ -1,1 +1,0 @@
-' Example plugin: SumCalculation\n   Public Class SumCalculation\n       Implements ICalculation\n\n       Public Function Execute(numbers As List(Of Double)) As Double Implements ICalculation.Execute\n           Return numbers.Sum()\n       End Function\n   End Class

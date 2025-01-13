@@ -1,1 +1,0 @@
-<%@ Import Namespace="YourNamespace" %>\n<%  For Each m As Integer In DirectCast(ViewData("Months"), IEnumerable(Of Integer)) %>\n    <a href="#"><%= m.ConvertToMonth() %><br /></a>\n<% Next %>

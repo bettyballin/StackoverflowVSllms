@@ -1,0 +1,1 @@
+int main() {\n    std::string input = "Hello, here's a test colon&#58;. Here's a test semi-colon&#59;";\n    std::cout << replace_html_entities(input) << std::endl;\n    return 0;\n}

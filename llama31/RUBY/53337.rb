@@ -1,0 +1,1 @@
+# my_login_system/lib/my_login_system.rb\nmodule MyLoginSystem\n  class Engine < ::Rails::Engine\n    # Your login system code goes here\n  end\nend

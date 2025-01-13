@@ -1,1 +1,0 @@
-yum install policycoreutils setools

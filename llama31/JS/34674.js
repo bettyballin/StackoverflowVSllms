@@ -1,0 +1,1 @@
+var client = new oidcClient({\n  authority: 'https://openid.example.com',\n  client_id: 'your_client_id',\n  redirect_uri: 'https://your-site.com/callback',\n  response_type: 'id_token token'\n});\n\nclient.signinRedirect().then(function() {\n  // authentication successful\n});

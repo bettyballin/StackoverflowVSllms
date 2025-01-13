@@ -1,0 +1,1 @@
+DateTime fileSavedDateTime = System.IO.File.GetLastWriteTime(filepath);\nDateTime savedLastAccessDateTimeTruncated = SavedLastAccessDateTime.AddTicks(-SavedLastAccessDateTime.Ticks % TimeSpan.TicksPerMillisecond);\nif (fileSavedDateTime != savedLastAccessDateTimeTruncated)\n{\n    // do something - new save\n}

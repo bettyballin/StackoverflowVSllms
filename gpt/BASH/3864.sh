@@ -1,1 +1,0 @@
-mysql --user=username --password=password --database=your_database < your_file.sql

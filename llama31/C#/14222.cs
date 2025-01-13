@@ -1,0 +1,1 @@
+var result = (from t in table\n              where t.ID == 1\n              group t by new { t.Length, t.Width } into g\n              orderby g.Key.Length, g.Key.Width\n              select string.Format("{0} x {1}, ", g.Key.Length, g.Key.Width))\n              .Aggregate((a, b) => a + b);

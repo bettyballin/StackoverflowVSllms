@@ -1,0 +1,1 @@
+SELECT \n  CD, \n  STDATE, \n  ENDDATE, \n  SUM(PR) AS Total\nFROM \n  TABLE\nGROUP BY \n  CD, STDATE, ENDDATE

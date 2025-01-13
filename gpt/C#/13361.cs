@@ -1,1 +1,0 @@
-[Import(typeof(ExportFactory<ILedPanel>))]\npublic ExportFactory<ILedPanel> PanelFactory { get; set; }\n\n// Method to create a new instance of ILedPanel\npublic ILedPanel CreateNewPanel()\n{\n    var export = PanelFactory.CreateExport();\n    return export.Value;\n}

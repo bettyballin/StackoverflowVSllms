@@ -1,0 +1,1 @@
+var sortedResults = myObjects.OrderBy(sortClause);

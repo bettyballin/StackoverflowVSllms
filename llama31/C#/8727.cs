@@ -1,0 +1,1 @@
+public static double[] CalculateVelocity(double[] distanceData, double samplingPeriod)\n{\n    double[] velocityData = new double[distanceData.Length - 1];\n    for (int i = 1; i < distanceData.Length; i++)\n    {\n        velocityData[i - 1] = (distanceData[i] - distanceData[i - 1]) / samplingPeriod;\n    }\n    return velocityData;\n}

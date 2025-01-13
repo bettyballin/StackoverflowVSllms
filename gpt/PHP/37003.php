@@ -1,1 +1,0 @@
-// Check if the cookie exists\nif (isset($_COOKIE['formData'])) {\n    // Decode the JSON string from the cookie\n    $formData = json_decode($_COOKIE['formData'], true);\n\n    // $formData now contains an associative array of the form data\n    // You can use this array to filter search results or for any other purpose\n}

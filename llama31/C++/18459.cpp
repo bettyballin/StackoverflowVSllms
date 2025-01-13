@@ -1,0 +1,1 @@
+DWORD attributes = GetFileAttributesA("C:\\path\\to\\file.txt");\nif (attributes & FILE_ATTRIBUTE_SYSTEM) {\n    // File is marked as a system file\n}

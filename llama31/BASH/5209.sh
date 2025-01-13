@@ -1,0 +1,1 @@
+makecert -r -pe -n "CN=Your Company Name" -sv YourKeyName.pvk YourCertName.cer\npvk2pfx -pvk YourKeyName.pvk -spc YourCertName.cer -pfx YourCertName.pfx -po YourPassword

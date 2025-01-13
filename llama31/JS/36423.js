@@ -1,0 +1,1 @@
+$.ajax({\n  url: 'my.html',\n  success: function(data){\n    var content = $(data).find('#content');\n    // you can now append the content to your #box div\n    $('#box').append(content);\n  }\n});

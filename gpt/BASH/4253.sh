@@ -1,1 +1,0 @@
-@echo off\n"C:\Path\To\MSAccess.exe" "C:\Path\To\YourDatabase.accdb" /x RefreshLinkedTables

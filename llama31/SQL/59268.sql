@@ -1,0 +1,1 @@
+SELECT *\n  FROM OrderTbl\n  WHERE OrdDate >= '2007-01-01' AND OrdDate <= '2007-01-31'

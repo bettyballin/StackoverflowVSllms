@@ -1,1 +1,0 @@
-original_list_2d = [\n    ["apple", "banana", "cherry"],\n    ["date", "elderberry", "fig"],\n    ["grape", "honeydew", "kiwi"]\n]\n# Copy portion of the list from row index 1 to 2 (inclusive of start, exclusive of end)\nnew_list_2d = [row[1:3] for row in original_list_2d[1:3]]\nprint(new_list_2d)  # Output: [['elderberry', 'fig'], ['honeydew', 'kiwi']]

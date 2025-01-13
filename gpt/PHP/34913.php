@@ -1,1 +1,0 @@
-$session_id = session_id();\n   // Store the session ID in a way that it can be retrieved after PayPal redirect\n   $_SESSION['paypal_session_id'] = $session_id;

@@ -1,0 +1,1 @@
+hr = AutoWrap(DISPATCH_METHOD, &result, irange, L"Activate", 0);

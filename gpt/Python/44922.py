@@ -1,1 +1,0 @@
-import pandas as pd\n\n# Load the data\ndata = pd.read_csv('filesystem_space.csv', parse_dates=['timestamp'], index_col='timestamp')\n\n# Resample the data to ensure consistent intervals (e.g., every minute)\ndata = data.resample('1T').mean().fillna(method='ffill')

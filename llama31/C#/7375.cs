@@ -1,0 +1,1 @@
+foreach (Delegate @delegate in myHandlerContainer.GetInvocationList())\n{\n    Console.WriteLine(@delegate.Method.Name);\n}

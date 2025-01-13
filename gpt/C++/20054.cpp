@@ -1,1 +1,0 @@
-void f1() {\n    auto f1_private = [](){\n        // Implementation\n    };\n    f1_private();\n}\n\nvoid f2() {\n    // f1_private(); // Illegal, f1_private is not in scope\n    f1(); // Legal\n}

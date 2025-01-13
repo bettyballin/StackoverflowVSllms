@@ -1,1 +1,0 @@
-// Code behind for SearchResults.aspx\nprotected void Page_Load(object sender, EventArgs e)\n{\n    string searchQuery = Request.Form["SearchTextBox"];\n    if (!string.IsNullOrEmpty(searchQuery))\n    {\n        // Process the search query and display results\n        // Example: SearchResultsLabel.Text = PerformSearch(searchQuery);\n    }\n}

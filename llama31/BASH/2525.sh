@@ -1,0 +1,1 @@
+VBoxManage createvm --name "Ubuntu Dev" --register\nVBoxManage modifyvm "Ubuntu Dev" --memory 2048 --vram 128\nVBoxManage storagectl "Ubuntu Dev" --name "IDE Controller" --add ide\nVBoxManage storageattach "Ubuntu Dev" --storagectl "IDE Controller" --port 0 --device 0 --type hdd --medium ubuntu-server.iso

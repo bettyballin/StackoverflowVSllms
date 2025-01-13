@@ -1,0 +1,1 @@
+function toggleColumnVisibility(columnIndex) {\n  var grid = document.getElementById('yourDataGridId');\n  var rows = grid.rows;\n  for (var i = 0; i < rows.length; i++) {\n    var cells = rows[i].cells;\n    if (cells.length > columnIndex) {\n      cells[columnIndex].style.display = cells[columnIndex].style.display == 'none' ? '' : 'none';\n    }\n  }\n}

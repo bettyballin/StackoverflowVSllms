@@ -1,0 +1,1 @@
+private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)\n{\n    // Assuming 'reportViewer' is your ReportViewer control\n    reportViewer.Opacity = 0;\n    reportViewer.BeginAnimation(UIElement.OpacityProperty, new DoubleAnimation(1, TimeSpan.FromSeconds(1)));\n}

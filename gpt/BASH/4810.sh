@@ -1,1 +1,0 @@
-gcc -fprofile-use -o my_program_optimized my_program.c

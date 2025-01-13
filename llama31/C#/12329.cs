@@ -1,0 +1,1 @@
+MemoryFailPoint failPoint = new MemoryFailPoint(1024 * 1024); // 1MB\n\ntry\n{\n    // execute code here\n}\ncatch (OutOfMemoryException)\n{\n    // handle out-of-memory exception\n}

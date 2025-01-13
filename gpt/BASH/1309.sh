@@ -1,1 +1,0 @@
-aws autoscaling put-scaling-policy --auto-scaling-group-name my-asg --policy-name scale-out --scaling-adjustment 1 --adjustment-type ChangeInCapacity

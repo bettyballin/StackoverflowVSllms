@@ -1,0 +1,1 @@
+<!-- In your erb file -->\n<div id="slideshow">\n  <%= image_tag('image1.jpg', class: 'slide') %>\n  <%= image_tag('image2.jpg', class: 'slide', style: 'display:none;') %>\n  <%= image_tag('image3.jpg', class: 'slide', style: 'display:none;') %>\n</div>

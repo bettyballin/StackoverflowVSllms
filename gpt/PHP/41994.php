@@ -1,1 +1,0 @@
-<?=form_open_multipart('bro/submit_new');?>\n// other form data\nImage: <input type="file" name="image" size="20" /> <br>\n<input type="submit" value="Submit" />\n</form>

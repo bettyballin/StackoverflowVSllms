@@ -1,1 +1,0 @@
-// Example of using HttpResponse.Redirect in C#\n   Response.Redirect(safeInput, false);

@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetCustomerData\nAS\nBEGIN\n    SELECT CustomerID, CustomerEmail, CustomerAddress\n    FROM Customers\n    WHERE CustomerID = 55;\n\n    SELECT InventoryLineItem, ShipQty\n    FROM Inventory\n    WHERE CustomerID = 55;\nEND;

@@ -1,1 +1,0 @@
-SELECT * FROM someTable WHERE someColumn IN (value1, value2, value3);

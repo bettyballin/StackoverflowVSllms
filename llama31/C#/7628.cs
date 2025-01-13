@@ -1,0 +1,1 @@
+[OperationContract, WebInvoke(Method = "POST", UriTemplate = "File/{fileName}")]\nbool UploadFile(string fileName, byte[] fileContents);

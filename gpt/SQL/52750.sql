@@ -1,1 +1,0 @@
-INSERT INTO your_table (your_column) VALUES (' ');

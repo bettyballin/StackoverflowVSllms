@@ -1,0 +1,1 @@
+SELECT *\nFROM employees e\nLEFT JOIN departments d\nON e.department_id = d.department_id;

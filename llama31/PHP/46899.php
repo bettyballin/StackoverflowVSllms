@@ -1,0 +1,1 @@
+$name = "Worthington-Smythe";\nif (preg_match("/^[A-Z][a-zA-Z'-&\s]+[a-zA-Z]$/", $name)) {\n    echo "Name is valid";\n} else {\n    echo "Name is invalid";\n}

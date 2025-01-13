@@ -1,1 +1,0 @@
-import heapq\n\ndef merge_sorted_lists(*lists):\n    return list(heapq.merge(*lists))\n\n# Example usage:\nprint(merge_sorted_lists((1, 4, 7), (2, 5, 8), (3, 6, 9)))  # Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]\nprint(merge_sorted_lists((1, 10), (), (2, 5, 6, 7)))        # Output: [1, 2, 5, 6, 7, 10]

@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetUserData (@password NVARCHAR(255))\nAS\nBEGIN\n    SELECT important_data \n    FROM users \n    WHERE password = @password;\nEND

@@ -1,1 +1,0 @@
-link /DLL /DEF:yourfile.def /OUT:yourdll.dll yourobjectfiles.obj

@@ -1,1 +1,0 @@
-/* CSS */\n.contact {\n    display: flex;\n    flex-wrap: wrap;\n}\n.personal-info, .location-info {\n    flex: 1; /* Adjust as needed */\n}

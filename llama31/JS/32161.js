@@ -1,0 +1,1 @@
+const input = document.querySelector('input');\n\ninput.addEventListener('focus', () => {\n  if (input.value === '') {\n    input.value = '';\n  }\n});\n\ninput.addEventListener('blur', () => {\n  if (input.value === '') {\n    input.value = '';\n    input.setAttribute('placeholder', 'Search...');\n  }\n});

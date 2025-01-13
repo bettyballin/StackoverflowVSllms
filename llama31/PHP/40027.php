@@ -1,0 +1,1 @@
+$chester = new Chester();\n$chester->db->query(); // This will call SQL's execute method

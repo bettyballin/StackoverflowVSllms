@@ -1,0 +1,1 @@
+gcc -o yourguicode yourguicode.c -L. -lyourbankingapp

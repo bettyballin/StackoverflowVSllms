@@ -1,0 +1,1 @@
+using (var context = new YourDataContext())\n{\n    var results = context.YourStoredProcedureName("YourSearchType");\n    var scalarResult = results.Read<int>().FirstOrDefault();\n    var resultSet = results.Read<YourResultType>();\n}

@@ -1,1 +1,0 @@
-// Assume you have a control named 'myControl' in your form\nControl myControl = this.myControl;\n\n// Capture the screenshot of the control\nBitmap screenshot = CaptureControl(myControl);\n\n// Save the screenshot to a file (optional)\nscreenshot.Save("control_screenshot.png", System.Drawing.Imaging.ImageFormat.Png);

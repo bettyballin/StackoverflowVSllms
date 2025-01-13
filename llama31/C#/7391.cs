@@ -1,0 +1,1 @@
+string originalUrl = "http://myurl.com";\nstring tinyUrl = TinyUrlHelper.CreateTinyUrl(originalUrl);\nConsole.WriteLine(tinyUrl);

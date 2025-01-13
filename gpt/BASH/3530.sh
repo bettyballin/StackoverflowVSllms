@@ -1,1 +1,0 @@
-windres version.rc -o version.o

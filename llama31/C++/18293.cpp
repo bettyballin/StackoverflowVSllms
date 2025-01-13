@@ -1,0 +1,1 @@
+std::atomic<int> value(0x0000FFFF);\n\n// Thread 1: increment value\nvalue.fetch_add(0x00010000);\n\n// Thread 2: read value\nint readValue = value.load();

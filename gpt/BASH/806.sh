@@ -1,1 +1,0 @@
-rmiregistry 1099

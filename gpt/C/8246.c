@@ -1,1 +1,0 @@
-WriteLastDirectory(DLB->Directory);

@@ -1,0 +1,1 @@
+xperf -start -on base -f "C:\path\to\your\web\app.exe"

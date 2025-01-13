@@ -1,0 +1,1 @@
+mysql --default-character-set=utf8 -u your_username -p your_database

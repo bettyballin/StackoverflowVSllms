@@ -1,1 +1,0 @@
-HRESULT hr = CoInitializeEx(NULL, COINIT_MULTITHREADED);

@@ -1,0 +1,1 @@
+using System.Text.RegularExpressions;\n\npublic static string CsvToHtmlTable(string csv)\n{\n    return Regex.Replace(csv, @"(,|\r\n)", match =>\n    {\n        return match.Value == "," ? "</td><td>" : "</td></tr><tr><td>";\n    }, RegexOptions.Singleline);\n}

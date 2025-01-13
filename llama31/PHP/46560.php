@@ -1,0 +1,1 @@
+$site = "www.google.com";\n\nif (!parse_url($site, PHP_URL_SCHEME)) {\n    $site = "http://" . $site;\n}\n\ntry {\n    $content = file_get_contents($site);\n    echo $content;\n} catch (Exception $e) {\n    echo "Error: " . $e->getMessage();\n}

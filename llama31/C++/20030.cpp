@@ -1,0 +1,1 @@
+class Ringbuffer {\npublic:\n    Ringbuffer() {} // Custom default constructor\n    // ...\n};

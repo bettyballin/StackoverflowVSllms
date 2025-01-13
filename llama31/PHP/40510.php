@@ -1,0 +1,1 @@
+$pdo = new PDO('mysql:host=localhost;dbname=test', 'username', 'password', [\n    PDO::ATTR_EMULATE_PREPARES => false,\n]);

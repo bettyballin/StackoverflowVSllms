@@ -1,1 +1,0 @@
-CREATE PROCEDURE SampleProcedure\nAS\nBEGIN\n    -- Your logic here\n\n    -- Log a message using RAISERROR\n    RAISERROR('Sample log message', 10, 1) WITH NOWAIT;\n\n    -- More logic here\nEND;

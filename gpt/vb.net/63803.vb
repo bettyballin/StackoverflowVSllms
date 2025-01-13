@@ -1,1 +1,0 @@
-Dim query = From row In context.Table\n            Where row.Name.ToUpper() = "TEST".ToUpper()\n            Select row

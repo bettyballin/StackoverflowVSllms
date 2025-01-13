@@ -1,1 +1,0 @@
-#!/bin/sh\nREPOS="$1"\nTXN="$2"\nAUTHOR="desired_username"\n\nsvn propset --revprop -r 0 svn:author "$AUTHOR" "$REPOS" --transaction "$TXN" || exit 1\nexit 0

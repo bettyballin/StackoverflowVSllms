@@ -1,0 +1,1 @@
+#ifndef MY_PLUGIN_H\n#define MY_PLUGIN_H\n\n#include "Object.h"\n\nclass MyPlugin : public Object {\npublic:\n    // ...\n};\n\n#endif  // MY_PLUGIN_H

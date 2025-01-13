@@ -1,0 +1,1 @@
+#footer ul {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n  text-align: center;\n}\n\n#footer li {\n  display: inline;\n  margin: 0 10px;\n}\n\n#footer {\n  width: 100%;\n  text-align: center;\n}

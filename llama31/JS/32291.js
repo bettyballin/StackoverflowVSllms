@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $("#loadArea").load("source.html .spad");\n});

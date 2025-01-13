@@ -1,1 +1,0 @@
-#!/bin/bash\n\nHOST=$1\nDIR=$2\n\nssh -t "$HOST" "cd $DIR; exec \$SHELL -l"

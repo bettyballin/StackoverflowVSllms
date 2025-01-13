@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\n\n[ComVisible(true)]\n[Guid("YOUR-GUID-HERE")]\n[InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]\npublic interface IReadStream\n{\n    [DispId(1)]\n    int Read();\n}

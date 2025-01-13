@@ -1,0 +1,1 @@
+SELECT * FROM article WHERE category REGEXP ',5,|5,|,5$|^5';

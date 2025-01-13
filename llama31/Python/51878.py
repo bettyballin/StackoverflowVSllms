@@ -1,0 +1,1 @@
+import itertools\n\ndef combinations(items):\n    return itertools.product(*items)\n\n# Example usage:\nitems = [[1, 2, 3], [4, 5, 6, 7, 8, 9], [1, 2]]\nfor combo in combinations(items):\n    print(combo)

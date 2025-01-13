@@ -1,0 +1,1 @@
+import re\n\ndef sanitize_filename(filename):\n    return re.sub(r'[^a-zA-Z0-9_\-\.()\s]', '_', filename)\n\n# Example usage:\nfilename = "Hello, World!?.mp3"\nprint(sanitize_filename(filename))  # Output: "Hello_World_.mp3"

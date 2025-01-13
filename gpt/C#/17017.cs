@@ -1,1 +1,0 @@
-private string _firstName;\npublic string FirstName\n{\n    get { return _firstName; }\n    set\n    {\n        if (_firstName != value)\n        {\n            _firstName = value;\n            OnPropertyChanged("FirstName");\n        }\n    }\n}

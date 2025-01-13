@@ -1,1 +1,0 @@
-<?php\nsession_start();\nsession_regenerate_id(true); // Generate a new session ID and delete the old session\n?>

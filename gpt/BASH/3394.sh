@@ -1,1 +1,0 @@
-svn commit -m "Set svn:ignore property to ignore case-sensitive files"

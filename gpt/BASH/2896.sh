@@ -1,1 +1,0 @@
-man dtrace\n   man dtrace_d\n   man dtrace_s

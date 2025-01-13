@@ -1,1 +1,0 @@
-java -XX:PermSize=128m -XX:MaxPermSize=256m -Xms1024m -Xmx1536m -jar yourapp.jar

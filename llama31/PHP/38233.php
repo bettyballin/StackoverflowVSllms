@@ -1,0 +1,1 @@
+$html = '<p>Hello <span>World</span>!</p>';\n$doc = new DOMDocument();\n$doc->loadHTML($html);\n$xpath = new DOMXPath($doc);\n$nodes = $xpath->query('//*');\nforeach ($nodes as $node) {\n    echo $node->nodeName . "\n";\n}

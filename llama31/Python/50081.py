@@ -1,0 +1,1 @@
+self.connection.execute("INSERT INTO bin_test (b) VALUES (HEXTORAW(?))", (binascii.hexlify(value),))

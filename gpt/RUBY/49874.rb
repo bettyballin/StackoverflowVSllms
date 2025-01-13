@@ -1,1 +1,0 @@
-<%= sanitize(@user_input, tags: %w(b i u), attributes: %w(href)) %>

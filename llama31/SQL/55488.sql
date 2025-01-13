@@ -1,0 +1,1 @@
+SELECT \n  SUM(CASE WHEN A = 1 THEN 1 ELSE 0 END) AS A_COUNT,\n  SUM(CASE WHEN B = 2 THEN 1 ELSE 0 END) AS B_COUNT,\n  -- Add more conditions as needed\nFROM T1;

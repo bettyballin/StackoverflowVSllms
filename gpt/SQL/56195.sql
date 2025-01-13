@@ -1,1 +1,0 @@
-INSERT INTO linked_list (value) VALUES ('new_value');

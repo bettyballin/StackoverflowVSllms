@@ -1,0 +1,1 @@
+DbCommand command = db.CreateCommand();\n// Use the command\ncommand.Dispose();

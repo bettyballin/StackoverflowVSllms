@@ -1,0 +1,1 @@
+$client = new SoapClient($wsdl, array('soap_defencoding' => 'UTF-8'));

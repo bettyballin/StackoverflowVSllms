@@ -1,0 +1,1 @@
+foreach (string command in S)\n{\n    try\n    {\n        using (Process p = Process.Start(command))\n        {\n            p.WaitForExit();\n        }\n    }\n    catch (Exception e)\n    {\n        // notify of process failure\n    }\n}

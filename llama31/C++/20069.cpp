@@ -1,0 +1,1 @@
+void matrix_multiply(const float* A, const float* B, float* C, int n) {\n    // Use blocking to reduce cache misses\n    for (int i = 0; i < n; i += BLOCK_SIZE) {\n        for (int j = 0; j < n; j += BLOCK_SIZE) {\n            for (int k = 0; k < n; k += BLOCK_SIZE) {\n                // Perform block-wise multiplication\n            }\n        }\n    }\n}

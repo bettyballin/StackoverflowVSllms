@@ -1,0 +1,1 @@
+.input.radio fieldset {\n  padding: 0;\n  border: 0;\n  margin: 0;\n}\n\n.input.radio input[type="radio"] {\n  margin: 0 5px 0 0;\n  vertical-align: middle;\n}\n\n.input.radio label {\n  vertical-align: middle;\n}\n\n.input.radio input[type="radio"]:checked + label {\n  font-weight: bold;\n  color: #00698f;\n}

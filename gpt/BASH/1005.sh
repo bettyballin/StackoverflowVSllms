@@ -1,1 +1,0 @@
-keytool -import -trustcacerts -file your_certificate.crt -keystore C:\path\to\glassfish\domains\[your_domain]\config\cacerts.jks -alias yourAlias

@@ -1,0 +1,1 @@
+FactoryGirl.define do\n  factory :user do\n    name 'John Doe'\n    email 'john@example.com'\n  end\nend

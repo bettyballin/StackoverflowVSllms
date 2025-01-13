@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetX\n    @Date DATE = NULL,\n    @UserId INT = NULL\nAS\nBEGIN\n    SELECT *\n    FROM YourTable\n    WHERE\n        (@Date IS NULL OR DateColumn = @Date) AND\n        (@UserId IS NULL OR UserIdColumn = @UserId)\nEND

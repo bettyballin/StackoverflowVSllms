@@ -1,0 +1,1 @@
+# mymodule.py\n__all__ = ['public_function', 'PublicClass']\n\ndef public_function():\n    pass\n\nclass PublicClass:\n    pass\n\ndef _private_function():\n    pass

@@ -1,1 +1,0 @@
-class A<T>\n{\n    internal void Add(T obj) { }\n}\n\nclass C { }\n\nclass B<T> where T : C\n{\n    public B()\n    {\n        A<T> a = new A<T>();\n        a.Add(new C()); // This line causes a compile-time error\n    }\n}

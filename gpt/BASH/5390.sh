@@ -1,1 +1,0 @@
-sudo apt-get install ppp  # For Debian-based systems\n   sudo yum install ppp      # For Red Hat-based systems

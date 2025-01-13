@@ -1,1 +1,0 @@
-<?php\n   require_once 'path/to/controller/CronjobsController.php';\n\n   $cronjobs = new CronjobsController();\n   $cronjobs->newUserRegistrations();

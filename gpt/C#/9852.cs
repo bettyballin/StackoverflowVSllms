@@ -1,1 +1,0 @@
-// When the user logs in\nSession["UserName"] = User.Identity.Name;

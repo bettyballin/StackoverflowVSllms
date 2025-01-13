@@ -1,1 +1,0 @@
-CREATE TABLE Customer (\n    CustomerID INT,\n    CustomerName VARCHAR(100)\n);\n\nCREATE TABLE Products (\n    ProductID INT,\n    CustomerID INT,\n    ProductName VARCHAR(100)\n);

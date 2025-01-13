@@ -1,0 +1,1 @@
+SELECT COUNT(*) \nFROM Bookings \nWHERE Date = @Date AND Time = @Time AND InstructorID = @InstructorID;

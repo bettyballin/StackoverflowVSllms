@@ -1,0 +1,1 @@
+<?php\ndefine('EL', "\n<br />\n");\n?>

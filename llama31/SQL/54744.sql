@@ -1,0 +1,1 @@
+INSERT OR IGNORE INTO EVENTTYPE (EventTypeName) VALUES ('ANI Received');

@@ -1,0 +1,1 @@
+public class MyModel\n{\n    [AllowHtml]\n    public string YouTubeEmbedHtml { get; set; }\n}

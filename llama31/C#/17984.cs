@@ -1,0 +1,1 @@
+using System.Net;\n\nIPNetwork network = IPNetwork.Parse("192.168.0.0/16");

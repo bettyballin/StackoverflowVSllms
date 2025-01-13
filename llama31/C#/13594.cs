@@ -1,0 +1,1 @@
+protected override void OnInit(EventArgs e)\n{\n    base.OnInit(e);\n\n    ScriptManager scriptManager = ScriptManager.GetCurrent(Page);\n    if (scriptManager != null)\n    {\n        ServiceReference serviceReference = new ServiceReference("~/Path/To/Service.asmx");\n        scriptManager.Services.Add(serviceReference);\n    }\n}

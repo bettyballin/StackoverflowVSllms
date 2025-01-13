@@ -1,1 +1,0 @@
-GRUB_CMDLINE_LINUX_DEFAULT="clocksource=tsc tsc=reliable"

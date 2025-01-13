@@ -1,0 +1,1 @@
+# SSH example\nssh pc_name\n\n# FTP example\nftp pc_name\n\n# RDP example (Windows)\nmstsc /v:pc_name\n\n# VNC example (Mac)\nopen vnc://pc_name

@@ -1,1 +1,0 @@
-var template = $('#templateElement').clone();\ntemplate.find('.someClass').text('New content');\n$('#targetElement').append(template);

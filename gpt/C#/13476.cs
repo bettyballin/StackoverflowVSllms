@@ -1,1 +1,0 @@
-public class BusinessLayer\n{\n    public void ProcessData()\n    {\n        var userId = HttpContext.Current.Session["UserId"];\n        // Business logic using userId\n    }\n}

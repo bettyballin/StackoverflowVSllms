@@ -1,0 +1,1 @@
+CREATE PROCEDURE sp_NewClaim\n    @ClaimNumber nvarchar(50),\n    @blah............,\n    @RecordNumber INT OUTPUT\nAS\nBEGIN\n    INSERT INTO Accidente (ClaimNumber,.........)\n    VALUES (@ClaimNumber,.....)\n\n    SET @RecordNumber = SCOPE_IDENTITY();\nEND

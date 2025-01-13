@@ -1,1 +1,0 @@
-<?php\n$pdo = new PDO('mysql:host=hostname;dbname=database', 'username', 'password');\n$stmt = $pdo->prepare('SELECT * FROM users WHERE email = :email');\n$stmt->execute(['email' => $userInput]);\n$results = $stmt->fetchAll();\n?>

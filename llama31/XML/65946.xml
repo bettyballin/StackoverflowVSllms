@@ -1,0 +1,1 @@
+<appSettings>\n    <add key="AWSAccessKey" value="${AWS_ACCESS_KEY}" />\n    <add key="AWSSecretKey" value="${AWS_SECRET_KEY}" />\n</appSettings>

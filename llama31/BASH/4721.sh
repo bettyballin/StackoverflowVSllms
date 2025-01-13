@@ -1,0 +1,1 @@
+procdump.exe -e -w <process_name> -n 10

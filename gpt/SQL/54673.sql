@@ -1,1 +1,0 @@
-ALTER SYSTEM SET large_pool_size = 20M SCOPE=BOTH;

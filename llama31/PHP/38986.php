@@ -1,0 +1,1 @@
+$query = "SELECT * FROM user_table";\n\nif($stmt = $conn->prepare($query)) {\n    $stmt->execute();\n    $result = $stmt->get_result();\n\n    while ($row = $result->fetch_assoc()) {\n        print_r($row);\n    }\n}

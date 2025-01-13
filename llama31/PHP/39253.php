@@ -1,0 +1,1 @@
+// Add iframe to allowed tags in JCE Editor\n$allowedTags = 'p,a,img,iframe';

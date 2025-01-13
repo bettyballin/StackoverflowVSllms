@@ -1,1 +1,0 @@
-[DllImport("ole32.dll")]\n   private static extern int CoInitialize(IntPtr pvReserved);\n\n   [DllImport("ole32.dll")]\n   private static extern void CoUninitialize();\n\n   // Initialize COM library\n   CoInitialize(IntPtr.Zero);\n\n   // Perform COM operations\n\n   // Uninitialize COM library\n   CoUninitialize();

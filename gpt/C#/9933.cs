@@ -1,1 +1,0 @@
-// Validate the specified validation group\nPage.Validate("MyValidationGroup");\n\n// Check if the validation group is valid\nbool isValid = Page.IsValid;

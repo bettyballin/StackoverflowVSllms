@@ -1,0 +1,1 @@
+$allowed_classes = array('ClassPeer', 'OtherClass');\n$class_name = 'ClassPeer';\n\nif (in_array($class_name, $allowed_classes)) {\n    $class_name::doSomething();\n} else {\n    // handle error or throw exception\n}

@@ -1,1 +1,0 @@
--- Analyze and vacuum the table\nANALYZE your_table;\nVACUUM your_table;

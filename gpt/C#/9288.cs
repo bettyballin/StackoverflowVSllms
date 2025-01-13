@@ -1,1 +1,0 @@
-DateTime utcNow = DateTime.UtcNow;\nTimeZoneInfo centralZone = TimeZoneInfo.FindSystemTimeZoneById("Central Standard Time");\nDateTime centralTime = TimeZoneInfo.ConvertTimeFromUtc(utcNow, centralZone);\n\n// Use centralTime to insert into the database

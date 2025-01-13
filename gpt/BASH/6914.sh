@@ -1,1 +1,0 @@
-sudo pptpsetup --create <connection_name> --server <VPN_server_address> --username <VPN_username> --password <VPN_password> --encrypt

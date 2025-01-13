@@ -1,1 +1,0 @@
-// HomeController.cs\npublic ActionResult LoadPartialView()\n{\n    var model = new YourModel(); // Populate your model as needed\n    return PartialView("_MyPartialView", model);\n}

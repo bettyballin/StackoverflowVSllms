@@ -1,0 +1,1 @@
+wp_reset_query();\n$q = new WP_Query( "cat=-1&showposts=15&orderby=date&order=DESC" );

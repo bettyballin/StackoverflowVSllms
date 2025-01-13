@@ -1,0 +1,1 @@
+const iframe = document.querySelector('iframe');\nconst html = $('#try-input').val();\niframe.contentWindow.document.write(html);\niframe.contentWindow.document.close();

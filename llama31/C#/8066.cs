@@ -1,0 +1,1 @@
+using System.DirectoryServices.AccountManagement;\n\n// ...\n\nstring userName = "username"; // from your loop\n\nusing (var context = new PrincipalContext(ContextType.Domain))\n{\n    var user = UserPrincipal.FindByIdentity(context, userName);\n    if (user != null && user.Enabled)\n    {\n        // User is active\n    }\n    else\n    {\n        // User is not active\n    }\n}

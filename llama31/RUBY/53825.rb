@@ -1,0 +1,1 @@
+model.update_attributes(:updated_at => Time.now)

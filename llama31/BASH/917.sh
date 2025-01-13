@@ -1,0 +1,1 @@
+find . -type f -wholename '*.mbox' -print0 | xargs -0 -I{} bash -c 'echo "${1%.mbox}"' -- {}

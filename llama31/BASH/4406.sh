@@ -1,0 +1,1 @@
+# Start the OpenVPN server\nsudo openvpn --config /etc/openvpn/server.conf

@@ -1,0 +1,1 @@
+[DependsOn(typeof(ImageByNameProvider))]\nclass ImageFromMediaLocationProvider {}

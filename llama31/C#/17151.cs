@@ -1,0 +1,1 @@
+// Process A (server)\nusing System.IO.MemoryMappedFiles;\n\nvar mmf = MemoryMappedFile.CreateNew("mySharedMemory", 1024);\n\n// Process B (client)\nusing System.IO.MemoryMappedFiles;\n\nvar mmf = MemoryMappedFile.OpenExisting("mySharedMemory");

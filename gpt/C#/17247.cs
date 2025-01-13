@@ -1,1 +1,0 @@
-// CommonAssembly.dll\n   public interface IWeapon {\n       int Might { get; }\n   }

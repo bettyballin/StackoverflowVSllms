@@ -1,0 +1,1 @@
+def bar(x, y, **kwargs):\n    print(kwargs)\n\nbar(1, 2, a=3, b=4, c=5)  # Output: {'a': 3, 'b': 4, 'c': 5}

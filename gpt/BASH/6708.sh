@@ -1,1 +1,0 @@
-hping3 -S -p 80 [destination_ip_or_hostname]

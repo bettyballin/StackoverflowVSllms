@@ -1,1 +1,0 @@
-protected void validate_AllowedToDoSomething(object source, ServerValidateEventArgs args)\n{\n    CustomValidator validator = (CustomValidator)source;\n    validator.ErrorMessage = "Custom Error Message #1";\n    args.IsValid = false;\n    return;\n}

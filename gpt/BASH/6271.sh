@@ -1,1 +1,0 @@
-# Install the Blackfire agent and PHP probe\n   curl -sL https://packages.blackfire.io/install.sh | sudo bash\n   sudo blackfire-agent -register

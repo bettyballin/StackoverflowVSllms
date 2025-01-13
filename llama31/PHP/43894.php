@@ -1,0 +1,1 @@
+register_activation_hook(__FILE__, 'my_plugin_activation');\nfunction my_plugin_activation() {\n    // Schedule the task to run daily at 8am\n    wp_schedule_event(time(), 'daily', 'my_daily_digest');\n}\n\nadd_action('my_daily_digest', 'my_daily_digest_function');\nfunction my_daily_digest_function() {\n    // Code to read RSS feeds and post daily digest goes here\n}

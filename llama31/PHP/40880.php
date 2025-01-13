@@ -1,0 +1,1 @@
+// Example using a session management library (e.g., libsession)\nsession_start();\nsession_set("offset", "100");

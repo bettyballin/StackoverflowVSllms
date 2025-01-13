@@ -1,0 +1,1 @@
+#include <Windows.h>\n\nint main() {\n    DWORD pid = GetCurrentProcessId();\n    // use pid as needed\n    return 0;\n}

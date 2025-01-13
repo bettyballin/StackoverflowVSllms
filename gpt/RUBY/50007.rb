@@ -1,1 +1,0 @@
-require 'find'\n\n# Change 'scripts' to the directory you want to start from\nbase_directory = 'scripts'\n\nFind.find(base_directory) do |path|\n  if File.file?(path) && File.extname(path) == '.rb'\n    puts "Running: #{path}"\n    system("ruby", path)\n  end\nend

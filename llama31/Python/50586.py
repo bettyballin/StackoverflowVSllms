@@ -1,0 +1,1 @@
+import nltk\nfrom nltk.tokenize import word_tokenize\nfrom nltk.corpus import stopwords\n\ntext = "The way on Iraq"\n\n# Tokenize the text\ntokens = word_tokenize(text)\n\n# Remove stop words\nstop_words = set(stopwords.words('english'))\nfiltered_tokens = [token for token in tokens if token.lower() not in stop_words]\n\nprint(filtered_tokens)  # Output: ['way', 'Iraq']

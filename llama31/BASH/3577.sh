@@ -1,0 +1,1 @@
+gcc -Wno-write-strings -Werror your_file.c -o your_file

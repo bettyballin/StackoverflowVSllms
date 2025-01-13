@@ -1,0 +1,1 @@
+# Add Brakeman to your Gemfile\ngem 'brakeman', require: false\n\n# Run Brakeman from the command line\n$ bundle exec brakema

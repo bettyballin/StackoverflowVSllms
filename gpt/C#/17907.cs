@@ -1,1 +1,0 @@
-using System.ServiceModel;\n\n   [ServiceContract]\n   public interface IDeviceService\n   {\n       [OperationContract]\n       void SendCommand(string command);\n\n       [OperationContract]\n       string QueryState();\n   }

@@ -1,1 +1,0 @@
-// Assume you have a validator instance for your form\nvar validator = $("#yourForm").validate();\n\n// Remove the specific error message\nvalidator.element("#elementName");

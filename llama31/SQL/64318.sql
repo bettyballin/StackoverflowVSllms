@@ -1,0 +1,1 @@
+INSERT INTO nbr.lien_item (lien_item_sid, excel_row, include_in_calcs, indent, header_level, sort_order, unit, lien_item_status, lien_item_name)\nVALUES (nbr.lien_item_seq.nextval, 0, 'Y', 1, 0, 1, 'FTE', 'A', org(i));

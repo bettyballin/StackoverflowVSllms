@@ -1,1 +1,0 @@
-mklink /D "C:\Users\<YourUsername>\AppData\Roaming\sqldeveloper" "C:\Users\<YourUsername>\Dropbox\SQLDeveloperConfig"

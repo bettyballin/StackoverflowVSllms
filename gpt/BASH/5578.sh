@@ -1,1 +1,0 @@
-# Installing Yii2 via Composer\n   composer create-project --prefer-dist yiisoft/yii2-app-basic myproject\n\n   # Adding yii2-user extension\n   composer require dektrium/yii2-user

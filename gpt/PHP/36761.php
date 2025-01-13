@@ -1,1 +1,0 @@
-class ProjectConfiguration extends sfProjectConfiguration\n{\n    public function setup()\n    {\n        $this->enablePlugins('sfUtilsPlugin');\n    }\n}

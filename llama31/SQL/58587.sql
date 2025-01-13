@@ -1,0 +1,1 @@
+-- SQL example\nSELECT * FROM customers WHERE country='USA' AND age>18;

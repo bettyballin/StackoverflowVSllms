@@ -1,1 +1,0 @@
-public static class EncryptionHelper\n   {\n       public static string Encrypt(string clearText)\n       {\n           // Implement encryption logic here\n       }\n\n       public static string Decrypt(string cipherText)\n       {\n           // Implement decryption logic here\n       }\n   }

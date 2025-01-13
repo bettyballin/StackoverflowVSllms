@@ -1,1 +1,0 @@
-amespace Standard.Version1 {\n    public class AdifWriterV1 : IAdifWriter {\n        // Implementation\n    }\n}\n\nnamespace Standard.Version222 {\n    public class AdifWriterV222 : IAdifWriter {\n        // Implementation\n    }\n}

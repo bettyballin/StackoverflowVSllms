@@ -1,1 +1,0 @@
-ALTER TABLE your_table ALTER COLUMN your_column TYPE numeric(20, 15);

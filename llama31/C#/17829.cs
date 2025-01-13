@@ -1,0 +1,1 @@
+writer.Write(Convert.ToBase64String(data));

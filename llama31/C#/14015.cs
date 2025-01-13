@@ -1,0 +1,1 @@
+var form = browser.Forms[0];\nform.FileUploads[0].Set(@"C:\path\to\file.pdf");\nform.Submit();

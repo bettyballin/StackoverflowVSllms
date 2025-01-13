@@ -1,0 +1,1 @@
+User.validators.each do |validator|\n  puts "#{validator.class} #{validator.attributes} #{validator.options}"\nend

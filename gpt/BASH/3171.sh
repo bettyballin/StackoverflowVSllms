@@ -1,1 +1,0 @@
-tlbexp YourAssembly.dll /out:YourAssembly.tlb

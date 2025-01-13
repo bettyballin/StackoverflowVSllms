@@ -1,0 +1,1 @@
+sed -r 's/<input name="([^"]+)" id="([^"]+)" type="text" \/>/<input name="\1" id="\1" type="text" value="<?php echo $data[\'\1\']; ?>" \/>/g' your_file.php

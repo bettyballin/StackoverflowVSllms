@@ -1,0 +1,1 @@
+// script.php (the one that handles the rewritten URL)\n$user_id = get_user_id_from_database();\ninclude 'profile.php'; // include the profile page script

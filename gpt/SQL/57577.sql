@@ -1,1 +1,0 @@
-SELECT orderId, customerId, orderDateTime,\n    ROW_NUMBER() OVER (PARTITION BY customerId ORDER BY orderDateTime) AS RN\nFROM #order\nORDER BY customerId, orderDateTime;

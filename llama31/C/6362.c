@@ -1,0 +1,1 @@
+snprintf(tmpret, 128, "%ld", sz);

@@ -1,1 +1,0 @@
-for %f in (*.rar) do (copy "%f" "destination_directory" && goto :done)\n:done

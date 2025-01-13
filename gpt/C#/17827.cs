@@ -1,1 +1,0 @@
-private void LoadData(int pageNumber)\n{\n    int pageSize = 50; // Define your page size\n    var data = businessLayer.GetPagedData(pageNumber, pageSize);\n    yourDataGrid.DataSource = data.ToList();\n}

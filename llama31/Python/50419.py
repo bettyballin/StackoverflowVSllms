@@ -1,0 +1,1 @@
+from enum import Enum\n\nclass A(Enum):\n    B = 0\n    C = 1\n    D = 2\n\nstr_val = "C"\nenum_value = A[str_val]\nif enum_value == A.C:\n    print("Match!")

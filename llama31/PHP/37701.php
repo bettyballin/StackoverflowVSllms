@@ -1,0 +1,1 @@
+$string = 'Is this thing on??? or what???';\n$pattern = '/\?+/';\n$replacement = '?';\n$result = preg_replace($pattern, $replacement, $string);\necho $result; // Output: Is this thing on? or what?

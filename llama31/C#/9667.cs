@@ -1,0 +1,1 @@
+public ActionResult Index()\n{\n    var viewModel = new AdminViewModel\n    {\n        Products = db.Products.ToList(),\n        Categories = db.Categories.ToList()\n    };\n    return View(viewModel);\n}

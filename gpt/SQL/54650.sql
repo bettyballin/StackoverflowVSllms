@@ -1,1 +1,0 @@
-CREATE LOGIN YourUserName WITH PASSWORD = 'YourStrongPasswordHere';\n    CREATE USER YourUserName FOR LOGIN YourUserName;

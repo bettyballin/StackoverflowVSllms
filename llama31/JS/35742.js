@@ -1,0 +1,1 @@
+e.onreadystatechange = function() {\n  if (this.readyState === 'complete') {\n    document.write(myValue);\n  }\n};

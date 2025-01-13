@@ -1,0 +1,1 @@
+[XmlRoot("Response")]\npublic class Response<T>\n{\n    [XmlElement("Payload")]\n    public T Payload { get; set; }\n}\n\npublic class ActualResponsePayload\n{\n    [XmlElement("ResponseItem")]\n    public ResponseItem ResponseItem { get; set; }\n}\n\npublic class ErrorResponsePayload\n{\n    [XmlElement("Message")]\n    public string Message { get; set; }\n}

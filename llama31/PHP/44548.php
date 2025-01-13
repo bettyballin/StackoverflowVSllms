@@ -1,0 +1,1 @@
+$tablePages = 'orweb_pages';\n$uriResolve = new URIResolve($tablePages);\n$uriResolve->process_uri();

@@ -1,0 +1,1 @@
+using HtmlAgilityPack;\n\npublic string StandardizeHtml(string htmlSnippet)\n{\n    var doc = new HtmlDocument();\n    doc.LoadHtml(htmlSnippet);\n    var standardizedHtml = doc.DocumentNode.OuterHtml;\n    return standardizedHtml;\n}

@@ -1,0 +1,1 @@
+chmod 550 your_script.php

@@ -1,1 +1,0 @@
-using Microsoft.EntityFrameworkCore;\n\n   public class YourDbContext : DbContext\n   {\n       protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)\n       {\n           optionsBuilder.UseOracle("Your Oracle Connection String");\n       }\n\n       // DbSet properties for your entities\n       public DbSet<YourEntity> YourEntities { get; set; }\n   }

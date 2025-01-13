@@ -1,1 +1,0 @@
-tail -n +2 $FILE > temp && mv temp $FILE

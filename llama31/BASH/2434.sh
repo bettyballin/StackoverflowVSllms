@@ -1,0 +1,1 @@
+jhat -J-Xmx1024m -dump file java.hprof.txt

@@ -1,1 +1,0 @@
-public void FunctionA(object param)\n   {\n       if (param == null)\n       {\n           throw new ArgumentNullException(nameof(param), "Parameter cannot be null");\n       }\n\n       DoA(param);\n       DoB(param);\n       DoC(param);\n   }

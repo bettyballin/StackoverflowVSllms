@@ -1,0 +1,1 @@
+SELECT ft.[KEY], t.*\nFROM FREETEXTTABLE(dbo.MyTable, *, 'search_string') AS ft\nINNER JOIN dbo.MyTable AS t ON ft.[KEY] = t.PrimaryKey\nORDER BY ft.RANK DESC;

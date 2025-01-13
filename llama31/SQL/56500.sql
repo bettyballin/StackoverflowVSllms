@@ -1,0 +1,1 @@
+WITH RankedActions AS (\n  SELECT id, User, Action, insertDate,\n         ROW_NUMBER() OVER (PARTITION BY Action ORDER BY insertDate DESC) AS RowNum\n  FROM UserActions\n  WHERE User = 'john'\n)\nSELECT id, User, Action, insertDate\nFROM RankedActions\nWHERE RowNum = 1;

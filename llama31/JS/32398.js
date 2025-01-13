@@ -1,0 +1,1 @@
+function getFlexAppPosition() {\n    var flexApp = document.getElementById('yourFlexAppId'); // Replace 'yourFlexAppId' with the actual id of your Flex app\n    var rect = flexApp.getBoundingClientRect();\n    var x = rect.left;\n    var y = rect.top;\n    return { x: x, y: y };\n}

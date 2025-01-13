@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <stdlib.h>\n\nint main() {\n    void* ptr = malloc(1024);\n    if (!ptr) {\n        perror("malloc failed");\n        return 1;\n    }\n    printf("malloc succeeded!\n");\n    return 0;\n}

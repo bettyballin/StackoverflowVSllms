@@ -1,0 +1,1 @@
+class StringUtil {\n    public static function slugify($string) {\n        // implementation\n    }\n\n    public static function camelCase($string) {\n        // implementation\n    }\n}

@@ -1,1 +1,0 @@
-$sanitizedUserInput = mysqli_real_escape_string($conn, $userInput);\n$query = "SELECT id FROM plants WHERE Flower REGEXP '[[:<:]]" . $sanitizedUserInput . "[[:>:]]'";

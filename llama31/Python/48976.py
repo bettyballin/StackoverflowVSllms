@@ -1,0 +1,1 @@
+s = 'arbit'\nstring = '{} hello world {} hello world {}'.format(*([s] * 3))

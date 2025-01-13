@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("INSERT INTO course_prerequisites (course_id, prerequisite_type, prerequisite_value, prerequisite_course_id) VALUES (?, ?, ?, ?)");\n$stmt->bind_param("sssi", $course_id, $prerequisite_type, $prerequisite_value, $prerequisite_course_id);\n$stmt->execute();

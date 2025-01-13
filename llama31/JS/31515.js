@@ -1,0 +1,1 @@
+function mySubmit(id, bigText) {\n  var url = "SubmitPost.cfm";\n  var formData = new FormData();\n  formData.append("id", id);\n  formData.append("bigtext", bigText);\n\n  xhReq.open("POST", url, true);\n  xhReq.setRequestHeader("Content-type", "multipart/form-data");\n  xhReq.onreadystatechange = onPostSubmit;\n  xhReq.send(formData);\n}

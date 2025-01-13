@@ -1,1 +1,0 @@
-<project name="example" default="all">\n    <target name="init">\n        <!-- initialization tasks -->\n    </target>\n\n    <target name="compile" depends="init">\n        <!-- compilation tasks -->\n    </target>\n\n    <target name="all" depends="compile">\n        <!-- build all tasks -->\n    </target>\n</project>

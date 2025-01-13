@@ -1,0 +1,1 @@
+$random_bytes = random_bytes(16);

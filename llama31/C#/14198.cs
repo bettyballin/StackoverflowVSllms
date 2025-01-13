@@ -1,0 +1,1 @@
+DateTime myDateTime = DateTime.Now;

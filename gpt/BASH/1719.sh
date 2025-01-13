@@ -1,1 +1,0 @@
-source ~/.bashrc  # or source ~/.zshrc, depending on your shell

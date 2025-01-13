@@ -1,0 +1,1 @@
+def pairwise_distances(points)\n  points.flat_map do |p1|\n    points.map do |p2|\n      (p1 - p2).abs\n    end\n  end\nend\n\nx = [2, 5, 8, 33, 58]\ndistances = pairwise_distances(x)\nputs distances

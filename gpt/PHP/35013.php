@@ -1,1 +1,0 @@
-<?php\n// Start the session if not already started\nif (session_status() == PHP_SESSION_NONE) {\n    if (!session_start()) {\n        header('Location: error.php?id=13');\n        exit();\n    }\n}\n?>

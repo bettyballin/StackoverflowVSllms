@@ -1,0 +1,1 @@
+ALTER TABLE myOtherTable\nADD CONSTRAINT FK_myOtherTable_myTable\nFOREIGN KEY (id) REFERENCES myTable(id) ON DELETE CASCADE;

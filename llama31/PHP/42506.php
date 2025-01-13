@@ -1,0 +1,1 @@
+<?php\nini_set('default_charset', 'UTF-8');\nini_set('mbstring.func_overload', 7);\n\n// example usage\n$string = ' example string ';\necho mb_strlen($string); // outputs 15

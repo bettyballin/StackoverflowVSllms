@@ -1,0 +1,1 @@
+foreach (var export in exports)\n{\n    var exportedObject = export.Value;\n    // Do something with the exported object\n}

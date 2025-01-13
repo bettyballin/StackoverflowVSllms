@@ -1,1 +1,0 @@
-sudo htpasswd -c /etc/subversion/passwd username

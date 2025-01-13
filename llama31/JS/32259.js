@@ -1,0 +1,1 @@
+$.validator.addMethod('alphanumeric', function(value, element) {\n  return this.optional(element) || /^[a-zA-Z0-9]+$/.test(value);\n}, 'Only alphanumeric characters are allowed');\n\n$(document).ready(function() {\n  $('#myForm').validate({\n    rules: {\n      myTextbox: {\n        alphanumeric: true\n      }\n    }\n  });\n});

@@ -1,1 +1,0 @@
-<?php\n$file = '/path/to/your/myfile.txt';\nif (file_exists($file)) {\n    $content = file_get_contents($file);\n    // Process your content here\n} else {\n    // Handle error\n}\n?>

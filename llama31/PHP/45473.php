@@ -1,0 +1,1 @@
+$title = wp_title('');\n$title = preg_replace('/^\s+/', '', $title);\necho $title;

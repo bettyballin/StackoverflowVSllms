@@ -1,0 +1,1 @@
+dumpbin /exports mydll.dll > exports.txt

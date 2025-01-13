@@ -1,0 +1,1 @@
+struct CompareFoo {\n    bool operator()(const Foo& foo1, const Foo& foo2) const {\n        return foo1.foo_value < foo2.foo_value;\n    }\n};

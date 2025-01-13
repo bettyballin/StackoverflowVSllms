@@ -1,1 +1,0 @@
-class YourResource < ActiveResource::Base\n  self.site = "http://your.api.endpoint/"\nend\n\n# Create a new resource with a specific ID\nresource = YourResource.new(id: 123, name: "Sample Resource", other_attribute: "value")\nresource.prefix_options[:id] = resource.id\nresource.save

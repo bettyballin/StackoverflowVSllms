@@ -1,0 +1,1 @@
+SELECT \n    TRY_PARSE('Feb-09' AS DATE USING 'en-US') AS DateValue

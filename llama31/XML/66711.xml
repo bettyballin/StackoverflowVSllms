@@ -1,0 +1,1 @@
+<servlet-mapping>\n  <servlet-name>LoginServlet</servlet-name>\n  <url-pattern>/j_security_check</url-pattern>\n</servlet-mapping>

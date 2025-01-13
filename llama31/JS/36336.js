@@ -1,0 +1,1 @@
+$.ajax({\n    type: 'POST',\n    url: 'your-page.aspx',\n    data: { /* your data */ },\n    success: function (data) {\n        $('#status-label').text(data);\n    }\n});

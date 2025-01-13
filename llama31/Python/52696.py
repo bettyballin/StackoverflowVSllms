@@ -1,0 +1,1 @@
+from pdf2image import convert_from_path\nfrom PIL import Image\n\ndef split_pdf(input_file, output_dir):\n    pages = convert_from_path(input_file)\n    for i, page in enumerate(pages):\n        output_file = f"{output_dir}/page-{i+1}.pdf"\n        page.save(output_file, "PDF")\n\n# Example usage\ninput_file = "input.pdf"\noutput_dir = "output"\nsplit_pdf(input_file, output_dir)

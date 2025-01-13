@@ -1,0 +1,1 @@
+-- Create a new database with Auto-Close option\nCREATE DATABASE [myDatabase]\nWITH AUTO_CLOSE = { ON | OFF }

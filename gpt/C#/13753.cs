@@ -1,1 +1,0 @@
-[ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple)]\n   public class MyService : IMyService\n   {\n       // Service methods\n   }

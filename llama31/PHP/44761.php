@@ -1,0 +1,1 @@
+<?php\n$folder_id = $_GET['folder_id'];\n$xml_path = "/swfs/$folder_id/images.xml";\necho $xml_path;\n?>

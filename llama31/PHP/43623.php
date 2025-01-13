@@ -1,0 +1,1 @@
+$files = glob('*.*');\n$mtimes = array_map('filemtime', $files);\narray_multisort($mtimes, SORT_DESC, $files);

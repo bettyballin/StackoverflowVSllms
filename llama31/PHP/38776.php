@@ -1,0 +1,1 @@
+// Set a secure cookie\nsetcookie('cookie_name', 'cookie_value', ['expires' => 0, 'path' => '/', 'domain' => '', 'secure' => true, 'httponly' => true, 'samesite' => 'Strict']);

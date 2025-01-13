@@ -1,0 +1,1 @@
+$node = new stdClass();\n$node->type = 'your_node_type';\n$node->title = 'Your Node Title';\n$node->body = 'Your Node Body';\n$node->uid = 1; // or the ID of the user you want to own the node\n$node->status = 1; // published\n$node->promote = 0; // not promoted to front page\n$node->sticky = 0; // not sticky\n$node->revision = 0; // no revision\n\nnode_save($node);

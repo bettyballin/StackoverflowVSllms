@@ -1,1 +1,0 @@
-<?php\nif (isset($_POST['tr_id'])) {\n    $tr_id = $_POST['tr_id'];\n    // Use $tr_id for SQL updating\n    echo "Received tr_id: " . $tr_id;\n}\n?>

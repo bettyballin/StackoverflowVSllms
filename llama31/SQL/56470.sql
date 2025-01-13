@@ -1,0 +1,1 @@
+CREATE TABLE node (\n  id INT NOT NULL AUTO_INCREMENT,\n  name TEXT\n);\n\nCREATE TABLE edge (\n  from_node INT NOT NULL,\n  to_node INT NOT NULL,\n  weight FLOAT\n);

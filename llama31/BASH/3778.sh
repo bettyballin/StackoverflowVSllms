@@ -1,0 +1,1 @@
+pptp <vpn_server> -u <username> -p <password> -n <vpn_name>

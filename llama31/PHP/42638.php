@@ -1,0 +1,1 @@
+$dsn = 'mysql:host=' . $db_server . ';dbname=' . $db_name;\n$username = $db_user;\n$password = $db_pass;\n\ntry {\n    $pdo = new PDO($dsn, $username, $password);\n} catch (PDOException $e) {\n    echo 'Connection failed: ' . $e->getMessage();\n}

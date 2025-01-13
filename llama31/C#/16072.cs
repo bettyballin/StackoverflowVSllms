@@ -1,0 +1,1 @@
+protected override void OnClick(EventArgs e)\n{\n    if (e.Source == btnLookup)\n    {\n        btnLookup_Clicked(e);\n    }\n    base.OnClick(e);\n}\n\nprotected void btnLookup_Clicked(EventArgs e)\n{\n    // your code here\n}

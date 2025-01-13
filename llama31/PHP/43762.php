@@ -1,0 +1,1 @@
+$stmt = $mysqli->prepare("SELECT * FROM dacc_data WHERE date BETWEEN ? AND ?");\n$stmt->bind_param("ss", $startDate, $endDate);\n$stmt->execute();

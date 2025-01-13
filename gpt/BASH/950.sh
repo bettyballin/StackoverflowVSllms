@@ -1,1 +1,0 @@
-* * * * * /path/to/cronjob_script.sh

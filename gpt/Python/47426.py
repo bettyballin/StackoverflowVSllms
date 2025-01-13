@@ -1,1 +1,0 @@
-import requests\n\n   address = "Bloomington, IN"\n   api_key = "YOUR_API_KEY"\n   url = f"https://api.opencagedata.com/geocode/v1/json?q={address}&key={api_key}"\n   response = requests.get(url)\n   geocode_result = response.json()\n   location = geocode_result['results'][0]['geometry']\n   print((location['lat'], location['lng']))

@@ -1,0 +1,1 @@
+<add name="HtmlEmailFormatter"\n     type="YourNamespace.HtmlEmailFormatter, YourAssembly"\n     template="none" />

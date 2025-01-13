@@ -1,0 +1,1 @@
+EXEC sp_addlinkedsrvlogin \n    @rmtsrvname = 'OracleLinkedServer', \n    @useself = 'FALSE', \n    @locallogin = NULL, \n    @rmtuser = 'UserName', \n    @rmtpassword = 'UserPassword'

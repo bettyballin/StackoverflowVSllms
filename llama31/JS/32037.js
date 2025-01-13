@@ -1,0 +1,1 @@
+const xhr = new XMLHttpRequest();\nxhr.open('GET', '/example.xml', true);\nxhr.onload = function() {\n  const startTime = performance.now();\n  const xmlDoc = xhr.responseXML;\n  const endTime = performance.now();\n  const parsingTime = endTime - startTime;\n  console.log(`XML parsing took ${parsingTime}ms`);\n};\nxhr.send();

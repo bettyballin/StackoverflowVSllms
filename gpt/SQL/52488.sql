@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION call_dotnet_function()\n   RETURNS TEXT AS $$\n   import requests\n   response = requests.get("http://yourapiurl/api/MyController")\n   return response.text\n   $$ LANGUAGE plpython3u;

@@ -1,1 +1,0 @@
-<extension\n         point="org.eclipse.ui.editors">\n      <editor\n            id="com.example.myeditor"\n            name="My Web Page Editor"\n            icon="icons/myeditor.png"\n            class="com.example.MyWebPageEditor"\n            extensions="html,htm">\n      </editor>\n   </extension>

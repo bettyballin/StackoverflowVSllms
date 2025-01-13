@@ -1,0 +1,1 @@
+git apply --reject patch_file.patch

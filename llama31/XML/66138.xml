@@ -1,0 +1,1 @@
+<QueryOverride>\n  <Query>\n    <ViewFields>\n      <FieldRef Name="Title" />\n    </ViewFields>\n    <QueryOptions>\n      <GroupBy Collapse="TRUE">\n        <FieldRef Name="Title" />\n        <Substring Start="0" Length="1" />\n      </GroupBy>\n    </QueryOptions>\n  </Query>\n</QueryOverride>

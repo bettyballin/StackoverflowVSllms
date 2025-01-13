@@ -1,0 +1,1 @@
+document.addEventListener("click", function(event) {\n  if (event.target.tagName === "SPAN") {\n    // your code here\n  }\n});

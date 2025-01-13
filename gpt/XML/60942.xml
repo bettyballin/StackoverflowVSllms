@@ -1,1 +1,0 @@
-<ProjectReference Include="..\Foo\Foo.csproj">\n  <Project>{GUID}</Project>\n  <Name>Foo</Name>\n</ProjectReference>

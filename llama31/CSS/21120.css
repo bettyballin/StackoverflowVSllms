@@ -1,0 +1,1 @@
+a:hover:not(img) {\n  border-bottom: 1px solid;\n  color: black;\n}

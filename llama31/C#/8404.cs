@@ -1,0 +1,1 @@
+[Serializable]\npublic class Person\n{\n    // ...\n}

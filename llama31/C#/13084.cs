@@ -1,0 +1,1 @@
+SqlBytes sb = (SqlBytes)reader["message_body"];\nstring xmlString = Encoding.UTF8.GetString(sb.Value);\nSccmAction sa = DeserializeObject<SccmAction>(xmlString);\nIDelivery iD = DeserializeObject<IDelivery>(xmlString);

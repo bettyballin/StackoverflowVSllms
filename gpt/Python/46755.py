@@ -1,1 +1,0 @@
-from svglib.svglib import svg2rlg\nfrom reportlab.graphics import renderPDF\n\ndef convert_svg_to_pdf(input_file, output_file):\n    drawing = svg2rlg(input_file)\n    renderPDF.drawToFile(drawing, output_file)\n\nconvert_svg_to_pdf("input.svg", "output.pdf")

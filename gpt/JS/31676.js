@@ -1,1 +1,0 @@
-function setActiveTab(tabId) {\n    var tabs = document.querySelectorAll('.tab');\n    tabs.forEach(function(tab) {\n        tab.classList.remove('active');\n    });\n    document.getElementById(tabId).classList.add('active');\n}

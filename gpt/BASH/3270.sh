@@ -1,1 +1,0 @@
-# Set the environment variable (bash command)\nexport PYTHONPYCACHEPREFIX=/path/to/code_compiled\n\n# Run your Python script\npython /path/to/code/foo.py

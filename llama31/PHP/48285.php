@@ -1,0 +1,1 @@
+// script.php\n$options = getopt('', ['var:']);\n$var = $options['var'];\necho "Variable: $var\n";

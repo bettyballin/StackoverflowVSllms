@@ -1,0 +1,1 @@
+$domChild = dom_import_simplexml($child);\n$domParent = dom_import_simplexml($parent);\n$domParent->appendChild($domChild);

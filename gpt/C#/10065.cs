@@ -1,1 +1,0 @@
-var client = new YourServiceClient();\nclient.ClientCredentials.UserName.UserName = "yourUsername";\nclient.ClientCredentials.UserName.Password = "yourPassword";

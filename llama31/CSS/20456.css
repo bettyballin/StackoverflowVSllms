@@ -1,0 +1,1 @@
+.inauguration-content {\n  max-width: 800px; /* adjust the max-width as needed */\n  margin: 0 auto;\n}\n\n.side-by-side {\n  display: flex;\n  justify-content: space-between;\n}\n\n.event {\n  flex-basis: 45%; /* adjust the width as needed */\n}\n\n.centered {\n  text-align: center;\n  margin-top: 20px;\n}

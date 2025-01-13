@@ -1,1 +1,0 @@
-psexec \\RemoteComputerName powershell "Get-WmiObject -Class Win32_NTLogEvent -Filter 'LogFile = ''Security'''"

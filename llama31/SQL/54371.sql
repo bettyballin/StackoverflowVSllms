@@ -1,0 +1,1 @@
+SELECT * FROM categories WHERE parent_id = [parent_id];

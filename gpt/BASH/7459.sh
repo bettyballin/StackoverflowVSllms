@@ -1,1 +1,0 @@
-m68k-amigaos-gcc -o myapp myapp.c -lauto -lamiga

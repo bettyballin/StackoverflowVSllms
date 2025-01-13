@@ -1,0 +1,1 @@
+$('#yourDivId').css('display', 'block');

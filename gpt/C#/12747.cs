@@ -1,1 +1,0 @@
-public void OnReceive(ref byte[] pBuffer, int lSize)\n{\n    // Process the binary data\n    for (int i = 0; i < lSize; i++)\n    {\n        byte value = pBuffer[i];\n        // Process value\n    }\n}

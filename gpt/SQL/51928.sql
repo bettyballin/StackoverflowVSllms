@@ -1,1 +1,0 @@
-CREATE INDEX idx_tt_another_id ON target_table (another_id);\nCREATE INDEX idx_st_another_id ON source_table (another_id);

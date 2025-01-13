@@ -1,0 +1,1 @@
+.button {\n  width: 200px; /* Set the width */\n  height: 50px; /* Set the height */\n  background-color: #4CAF50; /* Set the background color */\n}\n\n/* Example usage: */\n<div class="button">Click me!</div>

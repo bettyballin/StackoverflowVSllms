@@ -1,0 +1,1 @@
+def remove_values_from_list(lst, value):\n    return list(filter(lambda x: x != value, lst))\n\nprint(remove_values_from_list([1, 2, 3, 4, 2, 2, 3], 2))  # Output: [1, 3, 4, 3]

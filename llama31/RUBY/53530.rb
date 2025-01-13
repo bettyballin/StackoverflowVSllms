@@ -1,0 +1,1 @@
+validates_each :password do |record, attr, value|\n  if value == record.login\n    record.errors.add(attr, "cannot be the same as login")\n  end\nend

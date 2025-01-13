@@ -1,0 +1,1 @@
+CREATE INDEX idx_sum_column ON table_name (sum_column);\nSELECT * FROM outer_table WHERE outer_column = (\n  SELECT SUM(sum_column) FROM table_name WHERE correlated_column = outer_table.outer_column\n);

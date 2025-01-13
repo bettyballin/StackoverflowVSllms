@@ -1,0 +1,1 @@
+vswhere -latest -products * -version [15.0,) -property installationVersio

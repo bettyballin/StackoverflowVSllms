@@ -1,0 +1,1 @@
+using System.Threading;\n\n// Create a shared memory region\nvar sharedMemory = new SharedMemory(1024);\n\n// Write the integer to shared memory\nsharedMemory.Write(42);

@@ -1,1 +1,0 @@
-robocopy C:\Data D:\Backup\Data /MIR /Z /R:3 /W:5

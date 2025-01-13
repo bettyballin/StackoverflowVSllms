@@ -1,1 +1,0 @@
-trac-admin /path/to/your/trac/environment initenv

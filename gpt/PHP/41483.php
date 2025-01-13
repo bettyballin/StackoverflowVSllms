@@ -1,1 +1,0 @@
-try {\n        // Your code here\n    } catch (Exception $e) {\n        error_log($e->getMessage());\n    }

@@ -1,1 +1,0 @@
-CREATE TABLE `your_table` (\n  `id` int(11) NOT NULL AUTO_INCREMENT,\n  `custom_data` varchar(255) NOT NULL,\n  PRIMARY KEY (`id`)\n);

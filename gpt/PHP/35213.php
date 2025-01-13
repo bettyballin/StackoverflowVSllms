@@ -1,1 +1,0 @@
-function my_plugin($content) {\n    if (is_single()) {\n        // Your plugin logic here\n        return $content . '<!--more-->';\n    } else {\n        return $content;\n    }\n}\n\nadd_action('the_content', 'my_plugin');

@@ -1,1 +1,0 @@
-var twitterURLs = [];\n\n    // Storing data\n    twitterURLs.push("https://twitter.com/example");\n\n    // Retrieving data\n    var firstURL = twitterURLs[0];\n    console.log(firstURL);

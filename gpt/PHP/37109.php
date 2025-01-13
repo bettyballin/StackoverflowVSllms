@@ -1,1 +1,0 @@
-function int2coord($i, $lookupTable) {\n    return $lookupTable[$i];\n}\n\n// Example usage\n$lookupTable = generateLookupTable();\n$coord = int2coord(27, $lookupTable); // Returns array(3, 3)

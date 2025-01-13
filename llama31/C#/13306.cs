@@ -1,0 +1,1 @@
+public ActionResult MyAction()\n{\n    return Json("Hello, World!");\n}

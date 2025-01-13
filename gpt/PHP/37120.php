@@ -1,1 +1,0 @@
-// config.php\nreturn [\n    'db' => [\n        'host' => 'localhost',\n        'username' => 'your_username',\n        'password' => 'your_password',\n        'dbname' => 'your_database',\n    ],\n    'api_keys' => [\n        'service1' => 'your_api_key',\n        'service2' => 'your_other_api_key',\n    ],\n    // Add other configuration settings as needed\n];

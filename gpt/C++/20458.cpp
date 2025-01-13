@@ -1,1 +1,0 @@
-delete pSomeObject;\npSomeObject = NULL;

@@ -1,0 +1,1 @@
+$role_name = 'your_role_name';\n$query = \Drupal::entityQuery('user')\n  ->condition('roles', $role_name);\n$users = $query->execute();

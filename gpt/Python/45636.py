@@ -1,1 +1,0 @@
-import subprocess\n\ndef php(script_path):\n    result = subprocess.run(['php', script_path], capture_output=True, text=True)\n    return result.stdout\n\npage_html = "<h1>News and Updates</h1>"\nnews_script_output = php("news-generator.php")\nprint(page_html + news_script_output)

@@ -1,0 +1,1 @@
+using System.Drawing;\n\n// Get the active caption color\nColor activeCaptionColor = SystemColors.ActiveCaption;\n\n// Use the color as needed

@@ -1,0 +1,1 @@
+makecert -r -pe -n "CN=YourCertName" -sky exchange -sv YourCertName.pvk -b 01/01/2023 -e 01/01/2024 -len 2048 YourCertName.cer

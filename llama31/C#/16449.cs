@@ -1,0 +1,1 @@
+_m.catalogProductCreate(MageSessionProvider.GetSession(), "simple", "26", product.SKU, mageProduct);\n_m.catalogProductIndex(MageSessionProvider.GetSession(), product.SKU);

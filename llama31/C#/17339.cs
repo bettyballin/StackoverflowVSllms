@@ -1,0 +1,1 @@
+// example in C#\nXmlDocument xmlDoc = new XmlDocument();\nxmlDoc.XmlResolver = null; // disable schema validatio

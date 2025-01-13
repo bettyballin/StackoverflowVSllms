@@ -1,0 +1,1 @@
+using System.Security.Cryptography;\n\npublic static byte[] EncryptData(byte[] data, byte[] key, byte[] iv)\n{\n    using (var aes = Aes.Create())\n    {\n        aes.Key = key;\n        aes.IV = iv;\n        using (var encryptor = aes.CreateEncryptor())\n        {\n            return encryptor.TransformFinalBlock(data, 0, data.Length);\n        }\n    }\n}

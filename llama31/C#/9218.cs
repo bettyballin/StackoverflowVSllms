@@ -1,0 +1,1 @@
+var newConfig = new ExeConfigurationFileMap { ExeConfigFilename = "new.config" };\nConfigurationManager.OpenMappedExeConfiguration(newConfig, ConfigurationUserLevel.None);

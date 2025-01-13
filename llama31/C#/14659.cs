@@ -1,0 +1,1 @@
+// Implement the async method on the RemotingService\npublic async Task<MyResult> MyMethodAsync()\n{\n    // Perform the complex algorithms and RPC calls asynchronously\n    // Use Task.Run to offload the work to a separate thread\n    var task = Task.Run(() =>\n    {\n        // Perform the work here\n    });\n    return await task;\n}

@@ -1,1 +1,0 @@
-SELECT * FROM cities WHERE state_id = 123 AND slug = 'some_city';

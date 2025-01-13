@@ -1,1 +1,0 @@
-subinacl /file <filename> /grant=<user>=<permissions>

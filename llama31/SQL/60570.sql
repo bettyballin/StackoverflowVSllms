@@ -1,0 +1,1 @@
+WITH \n  A1 AS ( \n    SELECT A0.*, \n    SL/SQRT(AB) AS ALPHA\n    FROM tablename A0\n  ),\n  A2 AS (\n    SELECT A1.*, \n    5*LOG(10,ALPHA) AS B,\n    2.5*LOG(10,1-EXP(-5/ALPHA)*((5/ALPHA)+1)) AS D\n    FROM A1\n  )\nSELECT \n  ALPHA, B, D, BS,\n  BS -2.74 + B + D AS BSA\nFROM A2

@@ -1,1 +1,0 @@
-CREATE TABLE MyTable (\n         ID INT PRIMARY KEY,\n         Description VARCHAR(MAX)\n     );

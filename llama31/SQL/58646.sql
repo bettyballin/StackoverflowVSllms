@@ -1,0 +1,1 @@
+DECLARE @Result1 TABLE (id int, name varchar(50))\nDECLARE @Result2 TABLE (id int, value decimal(10, 2))\n\nEXEC MyProcedure 1, @Result1 OUTPUT, @Result2 OUTPUT\n\nSELECT * FROM @Result1\nSELECT * FROM @Result2

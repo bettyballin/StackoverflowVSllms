@@ -1,0 +1,1 @@
+stream_context_set_option($streamContext, 'ssl', 'capath', '/path/to/cert-chain');

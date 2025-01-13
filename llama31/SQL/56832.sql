@@ -1,0 +1,1 @@
+DELETE FROM YourTable\nWHERE YourTable.id IN (\n    SELECT id\n    FROM (\n        SELECT id, ROW_NUMBER() OVER (ORDER BY YourColumn DESC) AS RowNum\n        FROM YourTable\n    ) AS subquery\n    WHERE RowNum > n\n);

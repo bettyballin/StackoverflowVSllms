@@ -1,1 +1,0 @@
-CREATE PROCEDURE GetImageData \n        @ImageID INT\n    AS\n    BEGIN\n        SET NOCOUNT ON;\n        SELECT ImageData \n        FROM YourImageTable\n        WHERE ImageID = @ImageID;\n    END\n    GO

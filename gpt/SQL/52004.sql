@@ -1,1 +1,0 @@
-SELECT a.*, b.*\nFROM TableA a\nJOIN TableB b ON a.KeyField = b.KeyField;

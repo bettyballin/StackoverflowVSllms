@@ -1,0 +1,1 @@
+CREATE DATABASE sys;\nUSE sys;\nSOURCE /path/to/sys.sql;

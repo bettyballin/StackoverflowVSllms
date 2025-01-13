@@ -1,0 +1,1 @@
+public class FileDataMap : ClassMap<FileData>\n{\n    public FileDataMap()\n    {\n        // Other mappings...\n\n        HasOne(x => x.Person)\n            .Constrained()\n            .ForeignKey("FileData");\n    }\n}

@@ -1,0 +1,1 @@
+/* reset.css */\n* {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n  box-sizing: border-box;\n}\n\n/* your-styles.css */\n.your-container {\n  /* your styles here */\n}

@@ -1,0 +1,1 @@
+EndianBinaryReader reader = new EndianBinaryReader(stream, Endianness.BigEndian);\nint value = reader.ReadInt32();\n\nEndianBinaryWriter writer = new EndianBinaryWriter(stream, Endianness.BigEndian);\nwriter.Write(value);

@@ -1,1 +1,0 @@
-CREATE PROCEDURE SampleProcedure\nAS\nBEGIN\n    SET NOCOUNT ON;\n    SET XACT_ABORT ON;\n\n    BEGIN TRANSACTION;\n\n    BEGIN TRY\n        -- Your SQL statements here\n\n        COMMIT TRANSACTION;\n    END TRY\n    BEGIN CATCH\n        ROLLBACK TRANSACTION;\n        -- Handle error, log it, etc.\n    END CATCH\nEND;

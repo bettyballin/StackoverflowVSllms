@@ -1,0 +1,1 @@
+if (get_magic_quotes_gpc()) {\n    $your_variable = stripslashes($your_variable);\n}

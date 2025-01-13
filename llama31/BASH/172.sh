@@ -1,0 +1,1 @@
+ILMerge /target:winexe /out:MergedAssembly.dll Assembly1.dll Assembly2.dll

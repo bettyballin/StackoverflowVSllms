@@ -1,0 +1,1 @@
+if (myObject.MyDateTimeProperty.HasValue)\n{\n    // Do something with the DateTime value\n}\nelse\n{\n    // Handle the null/uninitialized case\n}

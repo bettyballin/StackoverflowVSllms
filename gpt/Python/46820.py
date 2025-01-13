@@ -1,1 +1,0 @@
-def int_power(base, exp):\n    result = 1\n    for _ in range(exp):\n        result *= base\n    return result\n\n# Example usage\nr = 1000000\nn = 2\nfor i in range(r):\n    p = int_power(i, n)

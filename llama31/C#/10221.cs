@@ -1,0 +1,1 @@
+public class OtherClass\n{\n    public void DoSomething()\n    {\n        if (GlobalSwitch.ApplicationSwitch.TraceVerbose)\n        {\n            // Log something\n        }\n    }\n}

@@ -1,0 +1,1 @@
+var bloops = new List<Bloop> { /* populate with data */ };\n\nvar razzies = bloops.Select(b => new Razzie\n{\n    FirstName = b.FirstName,\n    LastName = b.LastName\n}).ToList();

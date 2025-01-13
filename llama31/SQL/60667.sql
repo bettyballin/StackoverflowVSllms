@@ -1,0 +1,1 @@
+-- Example answer: Using parameterized queries or stored procedures\nCREATE PROCEDURE GetUserData @username nvarchar(50)\nAS\nBEGIN\n    SELECT * FROM Users WHERE Username = @username\nEND

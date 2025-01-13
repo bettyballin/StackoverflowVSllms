@@ -1,1 +1,0 @@
-#!/bin/bash\n\nDIRECTORY="/path/to/directory"\nFILELIST="filenames.txt"\n\nwhile IFS= read -r filename; do\n    if [ -e "$DIRECTORY/$filename" ]; then\n        echo "$filename exists"\n    else\n        echo "$filename does not exist"\n    fi\ndone < "$FILELIST"

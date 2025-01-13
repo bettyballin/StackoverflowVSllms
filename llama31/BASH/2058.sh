@@ -1,0 +1,1 @@
+appcmd recycle apppool /apppool.name:MyAppPool

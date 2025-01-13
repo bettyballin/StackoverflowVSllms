@@ -1,1 +1,0 @@
-openssl req -new -out your_domain.csr -newkey rsa:2048 -nodes -keyout your_domain.key -config san.cnf

@@ -1,0 +1,1 @@
+List<MyObject> myList = new List<MyObject>();\n// populate the list...\n\nDataSet ds = ListToDataSetConverter.ToDataSet(myList);

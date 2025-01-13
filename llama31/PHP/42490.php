@@ -1,0 +1,1 @@
+session_start();\n$cookieParams = session_get_cookie_params();\necho "Domain: " . $cookieParams['domain'] . "\n";\necho "Path: " . $cookieParams['path'] . "\n";

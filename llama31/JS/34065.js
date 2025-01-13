@@ -1,0 +1,1 @@
+// assume you have a <div id="myDiv"></div> in your HTML\n\n// your JSON response\nvar jo = {\n  f_name: 'John',\n  l_name: 'Doe',\n  age: 30\n};\n\n// define a Handlebars template\nvar template = Handlebars.compile($('#my-template').html());\n\n// render the template with the JSON data\nvar html = template(jo);\n\n// append the rendered HTML to the DOM\n$('#myDiv').html(html);

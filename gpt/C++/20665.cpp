@@ -1,1 +1,0 @@
-int bufferSize = getUserInput();\n   char buffer[bufferSize];  // Potentially unsafe

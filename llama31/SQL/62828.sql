@@ -1,0 +1,1 @@
+CREATE TABLE search_logs (\n  id INT PRIMARY KEY AUTO_INCREMENT,\n  search_term VARCHAR(255) NOT NULL,\n  search_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n  user_id INT,  // optional, if you want to track user-specific searches\n  remote_ip VARCHAR(45)  // optional, if you want to track IP addresses\n);

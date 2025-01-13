@@ -1,1 +1,0 @@
-# Add this to your crontab for daily incremental backups\n0 2 * * * rsync -avz --delete /source/directory/ user@remote:/backup/directory/

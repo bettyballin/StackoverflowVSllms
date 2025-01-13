@@ -1,0 +1,1 @@
+@echo off\n\nmsiexec /x {DD75996F-C279-420A-9A19-48EF9EFE70C2}\n\nRD /s /q "C:\Program Files\ASGATech"\nRD /s /q "C:\Documents and Settings\%username%\My Documents\myCompanyName"\nRD /s /q "C:\Documents and Settings\%username%\Start Menu\Programs\myCompany"\n\npause

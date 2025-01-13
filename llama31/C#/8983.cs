@@ -1,0 +1,1 @@
+HtmlToFlowDocumentConverter converter = new HtmlToFlowDocumentConverter();\nFlowDocument fragmentDoc = converter.Convert(htmlFragment);\nmainDoc.Blocks.Add(fragmentDoc.Blocks.First());

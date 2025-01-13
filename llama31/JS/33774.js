@@ -1,0 +1,1 @@
+// add a new row to the grid\ngrid.addRow({ Column1: "New Value", Column2: "Another Value" });\n\n// remove the first row from the grid\ngrid.removeRow(0);

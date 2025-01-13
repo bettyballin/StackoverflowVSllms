@@ -1,1 +1,0 @@
-gem install watir\ngem install headless\ngem install selenium-webdriver

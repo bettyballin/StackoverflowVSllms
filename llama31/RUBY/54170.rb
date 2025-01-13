@@ -1,0 +1,1 @@
+class ApplicationController < ActionController::Base\n  before_filter :clear_current_user\n\n  private\n\n  def clear_current_user\n    @current_user = nil if session[:user_id].nil?\n  end\nend

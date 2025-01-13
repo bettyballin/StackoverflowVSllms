@@ -1,0 +1,1 @@
+<configuration>\n  <mscorlib>\n    <security>\n      <policy>\n        <zones>\n          <zone name="Intranet" security="FullTrust">\n            <paths>\n              <path include="file://your-network-share/*"/>\n            </paths>\n          </zone>\n        </zones>\n      </policy>\n    </security>\n  </mscorlib>\n</configuration>

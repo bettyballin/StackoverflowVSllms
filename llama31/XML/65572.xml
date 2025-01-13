@@ -1,0 +1,1 @@
+<manifest file="${dir.build}/META-INF/MANIFEST.MF">\n  <attribute name="Implementation-Version" value="${revision.range}"/>\n</manifest>

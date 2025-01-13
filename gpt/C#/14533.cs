@@ -1,1 +1,0 @@
-var futureSubscriptions = from subscription in dbContext.Subscriptions\n                             where subscription.Expires > DateTime.Now.AddDays(2)\n                             select subscription;

@@ -1,0 +1,1 @@
+awk -v FPAT='"[^"]*"|[^,]*' '{print $2, $5, $6}' filename.csv

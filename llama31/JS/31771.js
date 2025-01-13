@@ -1,0 +1,1 @@
+const selectElement = document.getElementById('mySelect');\n\nlet previousIndex = null;\n\nselectElement.addEventListener('click', function(event) {\n  const currentIndex = selectElement.selectedIndex;\n  if (currentIndex === previousIndex) {\n    selectElement.selectedIndex = -1; // Deselect all options\n  }\n  previousIndex = currentIndex;\n});

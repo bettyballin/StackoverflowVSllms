@@ -1,0 +1,1 @@
+CREATE TABLE my_large_table (\n    id INT PRIMARY KEY,\n    data VARCHAR(255)\n) ENGINE=NDBCLUSTER;

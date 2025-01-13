@@ -1,1 +1,0 @@
-jQuery(document).ready(function($) {\n    showConfirmation("Hello");\n\n    function showConfirmation(message) {\n        $.ajax({\n            url: 'ajax.php',\n            // More AJAX settings go here\n        });\n    }\n});

@@ -1,1 +1,0 @@
-let obj = {\n  name: "John",\n  age: 30,\n  greet: function() {\n    console.log("Hello");\n  }\n};\n\nconsole.log(obj);\nconsole.dir(obj);

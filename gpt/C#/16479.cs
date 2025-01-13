@@ -1,1 +1,0 @@
-// Storing data in cache with expiration\nCache.Insert("AllProducts", products, null, DateTime.Now.AddMinutes(10), Cache.NoSlidingExpiration);

@@ -1,1 +1,0 @@
-// Assuming you have a content control with a tag or placeholder\n   string docText = docText.Replace("checkboxPlaceholder", "✓"); // or use another symbol

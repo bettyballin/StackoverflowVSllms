@@ -1,1 +1,0 @@
-a = dict()\na['one'] = 1\na['two'] = 2\n\n# Using dictionary comprehension to swap keys and values\nres = {v: k for k, v in a.items()}\n\nprint(res)

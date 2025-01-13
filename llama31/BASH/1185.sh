@@ -1,0 +1,1 @@
+lxc-create -n python-container -t download -- --dist ubuntu --release xenial --arch amd64\nlxc-start -n python-container\nlxc-attach -n python-container -- /usr/bin/python script.py

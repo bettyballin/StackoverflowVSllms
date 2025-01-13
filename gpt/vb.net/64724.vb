@@ -1,1 +1,0 @@
-Dim statusValue As String\nstatusValue = Me.Controls("STATUS").Value\n\nsqltext = "SELECT utyp, count(*) AS anzahl " & _\n          "INTO UTYP_Anzahl " & _\n          "FROM 01_umwelt " & _\n          "WHERE [01_umwelt].status = '" & statusValue & "' " & _\n          "GROUP BY utyp;"

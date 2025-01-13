@@ -1,0 +1,1 @@
+using System;\nusing System.Web;\n\n[assembly: PreApplicationStartMethod(typeof(MyAppInitializer), "Initialize")]\n\npublic class MyAppInitializer\n{\n    public static void Initialize()\n    {\n        // Initialize Fluorine and its RTMP server here\n    }\n}

@@ -1,0 +1,1 @@
+$connection_details = get_db_connection_details();\n$dsn = "mysql:host={$connection_details['host']};dbname={$connection_details['database']}";\n$pdo_connection = new PDO($dsn, $connection_details['username'], $connection_details['password']);

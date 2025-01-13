@@ -1,1 +1,0 @@
-# Using the `h` method\nescaped_string = h(untrusted_string)\n\n# Using the `html_escape` method\nescaped_string = ERB::Util.html_escape(untrusted_string)

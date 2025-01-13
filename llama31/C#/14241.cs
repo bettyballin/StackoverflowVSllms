@@ -1,0 +1,1 @@
+DataGridViewCellStyle style = new DataGridViewCellStyle { NullValue = null };\ndataGridView1.Columns[0].DefaultCellStyle = style;

@@ -1,0 +1,1 @@
+"C:\Program Files\InstallShield\2009StandAloneBuild\IsCmdBld.exe" -p "C:\Path\To\Your\Project.ism" -b "C:\Path\To\Your\Output"

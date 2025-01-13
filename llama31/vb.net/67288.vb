@@ -1,0 +1,1 @@
+Imports System.Security.Cryptography\n\nDim rng As New RNGCryptoServiceProvider()\nDim n As Integer = 10\nDim randomBytes(3) As Byte\nrng.GetBytes(randomBytes)\nDim randomInteger As Integer = BitConverter.ToInt32(randomBytes, 0) Mod n + 1

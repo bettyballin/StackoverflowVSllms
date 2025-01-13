@@ -1,0 +1,1 @@
+GridView1.ShowFooter = true;\nGridView1.FooterRow.Cells[0].Text = "Your text here";

@@ -1,1 +1,0 @@
-import zlib\n\n# Example data\ndata1 = b"Example data A"\ndata2 = b"Example data B"\n\n# Compress data\ncompressed_data1 = zlib.compress(data1)\ncompressed_data2 = zlib.compress(data2)\n\n# Compare compressed data\nprint(compressed_data1 == compressed_data2)  # This will most likely print False

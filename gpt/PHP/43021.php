@@ -1,1 +1,0 @@
-$obj1 = new stdClass();\n   $obj2 = new stdClass();\n   \n   $storage = new SplObjectStorage();\n   $storage->attach($obj1);\n   $storage->attach($obj2);

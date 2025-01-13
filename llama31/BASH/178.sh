@@ -1,0 +1,1 @@
+$ grep " EXCEPTION_ACCESS_VIOLATION" hs_err_pidXXX.log

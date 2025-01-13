@@ -1,0 +1,1 @@
+ameList.Sort((x, y) => string.Compare(y.Text, x.Text));

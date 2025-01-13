@@ -1,0 +1,1 @@
+// Detect tab change and send message to Flash application\ndocument.addEventListener("visibilitychange", function() {\n    if (document.visibilityState === "visible") {\n        // Send message to Flash application to resume playback\n        var flashObj = document.getElementById("flashObj");\n        flashObj.resumePlayback();\n    }\n});

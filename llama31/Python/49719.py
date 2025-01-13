@@ -1,0 +1,1 @@
+with open('input.csv', 'rb') as f:\n    contents = f.read().decode('utf-16')

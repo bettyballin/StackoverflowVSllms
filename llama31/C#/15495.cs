@@ -1,0 +1,1 @@
+using (TextFieldParser parser = new TextFieldParser(new StringReader(csvString)))\n{\n    parser.SetDelimiters(",");\n    string[] values = parser.ReadFields();\n}

@@ -1,0 +1,1 @@
+if (!Request.IsSecureConnection)\n{\n    Response.Redirect(Request.Url.ToString().Replace("http:", "https:"));\n}

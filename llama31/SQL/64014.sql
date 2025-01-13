@@ -1,0 +1,1 @@
+CREATE TABLE questions (\n  id INT PRIMARY KEY,\n  title TEXT,\n  vote INT DEFAULT 0\n);\n\nCREATE TABLE votes (\n  id INT PRIMARY KEY,\n  question_id INT,\n  user_id INT,\n  FOREIGN KEY (question_id) REFERENCES questions (id),\n  FOREIGN KEY (user_id) REFERENCES users (id),\n  UNIQUE (question_id, user_id)\n);

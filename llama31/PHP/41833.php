@@ -1,0 +1,1 @@
+echo <<<HTML\n<input type="text" name="myname" value="myvalue">\nHTML;

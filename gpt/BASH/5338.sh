@@ -1,1 +1,0 @@
-scp /path/to/backup_online_redo_logs/* user@new_server:/path/to/oracle_redo_logs/

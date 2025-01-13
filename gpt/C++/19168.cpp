@@ -1,1 +1,0 @@
-#include "yourlibrary.h"\n\nint main() {\n    // Call functions from the DLL directly\n    functionFromDLL();\n    return 0;\n}

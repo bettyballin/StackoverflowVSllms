@@ -1,0 +1,1 @@
+using Oracle.DataAccess.Client;\n\n// ...\n\nOracleCommand cmd = new OracleCommand("SELECT TRUNC(TO_NUMBER('123.45', '99999D99', 'NLS_NUMERIC_CHARACTERS=,.')"my_integer")) FROM DUAL", connection);\nOracleDataReader reader = cmd.ExecuteReader();\n\nwhile (reader.Read())\n{\n    decimal value = reader.GetDecimal(0);\n    int myInteger = (int)value;\n    // ...\n}

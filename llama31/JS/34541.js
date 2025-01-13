@@ -1,0 +1,1 @@
+var myArray = ['element1', 'element2', 'element3'];\nvar index = myArray.indexOf('element2');\nif (index !== -1) {\n  myArray.splice(index, 1); // remove the element at index\n}

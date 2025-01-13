@@ -1,0 +1,1 @@
+public class TestSessionController : SessionController\n{\n    public override SessionData SessionData\n    {\n        get { return _sessionData; }\n        set { _sessionData = value; }\n    }\n\n    private SessionData _sessionData;\n}

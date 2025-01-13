@@ -1,0 +1,1 @@
+pprof --dynamic /usr/local/bin/jags jags.prof

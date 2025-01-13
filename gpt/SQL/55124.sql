@@ -1,1 +1,0 @@
-INSERT INTO Message (message, person_id) VALUES ('Hello there', (SELECT id FROM People WHERE name = 'John'));

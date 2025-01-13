@@ -1,0 +1,1 @@
+var results = dbContext.MyTable\n    .Select(t => new { t.ColA, t.ColB, t.ColC })\n    .ToList();

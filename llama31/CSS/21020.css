@@ -1,0 +1,1 @@
+.container {\n  height: 500px; /* Set a fixed height for the container */\n  overflow-y: auto; /* Set overflow-y to auto to create a scrollbar */\n  position: relative; /* Set position to relative to create a containing block */\n}\n\n.content {\n  height: 1000px; /* Set a height for the content that exceeds the container's height */\n}

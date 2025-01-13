@@ -1,0 +1,1 @@
+MailMessage message = ...; // assume you have a MailMessage object\n\nforeach (AlternateView view in message.AlternateViews)\n{\n    if (view.ContentType.MediaType == "text/plain")\n    {\n        string plainText = new StreamReader(view.ContentStream).ReadToEnd();\n        // do something with the plain text\n    }\n}

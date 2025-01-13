@@ -1,0 +1,1 @@
+// Facebook Webhook Setup\nFB.api('/' + appId + '/webhooks', 'POST', {\n  'callback_url': 'https://your-wordpress-site.com/fb-webhook',\n  'verify_token': 'YOUR_VERIFY_TOKEN',\n  'fields': 'comments',\n}, function(response) {\n  console.log(response);\n});

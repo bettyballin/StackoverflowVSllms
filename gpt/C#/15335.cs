@@ -1,1 +1,0 @@
-var binding = new BasicHttpBinding\n   {\n       OpenTimeout = TimeSpan.FromSeconds(10),\n       CloseTimeout = TimeSpan.FromSeconds(10),\n       SendTimeout = TimeSpan.FromSeconds(30),\n       ReceiveTimeout = TimeSpan.FromMinutes(10)\n   };

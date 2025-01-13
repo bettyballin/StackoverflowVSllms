@@ -1,0 +1,1 @@
+DECLARE\n  var1_ VARCHAR2(50);\n  var2_ VARCHAR2(50);\nBEGIN\n  SELECT MAX(blah1), MAX(blah2) INTO var1_, var2_\n  FROM (\n    SELECT blah1, blah2\n    FROM ...\n  );\nEND;

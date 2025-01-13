@@ -1,0 +1,1 @@
+pdfimages -j input.pdf output

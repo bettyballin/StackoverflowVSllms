@@ -1,0 +1,1 @@
+$description = htmlspecialchars($description, ENT_QUOTES, 'UTF-8');

@@ -1,0 +1,1 @@
+protected void Session_Start(object sender, EventArgs e)\n{\n    System.Diagnostics.Trace.WriteLine("Session_Start called");\n    // Your code here...\n}

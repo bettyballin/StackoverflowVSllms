@@ -1,0 +1,1 @@
+string absoluteUrl = VirtualPathUtility.ToAbsolute("~/index.aspx");

@@ -1,0 +1,1 @@
+proxy.Credentials = new NetworkCredential("username", "password");

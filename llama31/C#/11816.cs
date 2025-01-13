@@ -1,0 +1,1 @@
+string connectionString = "Provider=MSOLAP;Data Source=<analysis_services_server_name>;Initial Catalog=<database_name>;Cube=<cube_name>";

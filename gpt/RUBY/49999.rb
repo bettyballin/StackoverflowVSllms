@@ -1,1 +1,0 @@
-class Exception < ApplicationRecord\n  belongs_to :event\n\n  # Fields: occurrence_date, modified_event_details, is_deleted, etc.\nend

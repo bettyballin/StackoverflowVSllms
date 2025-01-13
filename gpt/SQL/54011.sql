@@ -1,1 +1,0 @@
-CREATE TRIGGER ConnectionLogoffTrigger\nON ALL SERVER\nFOR LOGOFF\nAS\nBEGIN\n    DECLARE @SPID INT\n    SET @SPID = @@SPID\n\n    DELETE FROM dbo.ConnectionTracker WHERE SPID = @SPID\nEND;

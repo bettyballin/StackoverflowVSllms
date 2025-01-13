@@ -1,1 +1,0 @@
-socat TCP-LISTEN:3306,fork SOCKS4A:localhost:remote_mysql_host:remote_mysql_port,socksport=3307

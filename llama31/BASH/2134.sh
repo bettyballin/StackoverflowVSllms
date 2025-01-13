@@ -1,0 +1,1 @@
+ssh-keygen -y -f private_key.key | diff - public_key.pub

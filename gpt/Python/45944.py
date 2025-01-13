@@ -1,1 +1,0 @@
-def make_bold(func):\n    def wrapper():\n        return f"<b>{func()}</b>"\n    return wrapper\n\ndef make_italic(func):\n    def wrapper():\n        return f"<i>{func()}</i>"\n    return wrapper\n\n@make_bold\n@make_italic\ndef say():\n    return "Hello"\n\n# Test the function\nresult = say()\nprint(result)  # Output: <b><i>Hello</i></b>

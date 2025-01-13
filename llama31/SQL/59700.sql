@@ -1,0 +1,1 @@
+declare @test varchar(20)\nset @test = 'VALUE'\n\nexec('select ''' + @test + ''' as Value')

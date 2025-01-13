@@ -1,1 +1,0 @@
-#pragma warning(push)\n#pragma warning(disable: 4251)\n\nclass DLL_EXPORT FontManager {\n    std::vector<tCharGlyphProviderRef> m_glyphProviders;\n    std::map<std::string, tFontInfoRef> m_fonts;\n};\n\n#pragma warning(pop)

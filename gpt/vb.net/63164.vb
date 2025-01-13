@@ -1,1 +1,0 @@
-Imports System.Linq\n\nModule Module1\n    Sub Main()\n        Dim array1 As Integer() = {1, 2, 3, 4, 5}\n        Dim array2 As Integer() = {3, 4, 5, 6, 7}\n\n        Dim commonElements = array1.Intersect(array2)\n\n        For Each element In commonElements\n            Console.WriteLine(element)\n        Next\n    End Sub\nEnd Module

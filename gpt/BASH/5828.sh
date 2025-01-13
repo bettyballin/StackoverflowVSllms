@@ -1,1 +1,0 @@
-sudo yum update\n   sudo yum install -y oracle-database-preinstall-19c

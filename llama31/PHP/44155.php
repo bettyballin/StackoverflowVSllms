@@ -1,0 +1,1 @@
+if (isset($_SERVER['HTTP_IF_MODIFIED_SINCE']) && (strtotime($_SERVER['HTTP_IF_MODIFIED_SINCE']) == $file_time)) {\n    // ...\n}

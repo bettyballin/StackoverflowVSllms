@@ -1,1 +1,0 @@
-from google.appengine.ext import ndb\n\nclass Person(ndb.Model):\n    name = ndb.StringProperty()\n    age = ndb.IntegerProperty()\n\n# GQL Query\nquery = Person.gql("WHERE age >= :1 ORDER BY name", 21)\nresults = query.fetch()\nfor person in results:\n    print(person.name, person.age)

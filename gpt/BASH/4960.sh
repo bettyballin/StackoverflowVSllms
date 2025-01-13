@@ -1,1 +1,0 @@
-cd C:\path\to\extracted\zend-framework

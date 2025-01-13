@@ -1,1 +1,0 @@
-import socket\n\ndomain = 'example.com'\ntry:\n    result = socket.gethostbyname(domain)\n    print(f'IP: {result}')\nexcept socket.gaierror as e:\n    print(f'Error: {e}')

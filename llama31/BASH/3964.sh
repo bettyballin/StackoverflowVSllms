@@ -1,0 +1,1 @@
+caspol.exe -m -ag 1.2 -url "file://C:/Documents and Settings/your_username/My Documents/Visual Studio 2008/Projects/*" FullTrust

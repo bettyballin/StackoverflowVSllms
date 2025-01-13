@@ -1,1 +1,0 @@
-seq = perms(x)\na, b, *rest = seq

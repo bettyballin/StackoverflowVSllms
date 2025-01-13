@@ -1,1 +1,0 @@
-CREATE OR REPLACE FUNCTION public.storeopeninghours_tostring(open_id numeric)\nRETURNS SETOF store_opening_hours AS $$\nBEGIN\n    RETURN QUERY\n    SELECT '1'::text, '2'::text, '3'::text\n    UNION ALL\n    SELECT '3'::text, '4'::text, '5'::text\n    UNION ALL\n    SELECT '3'::text, '4'::text, '5'::text;\nEND;\n$$ LANGUAGE plpgsql;

@@ -1,1 +1,0 @@
-source set_java_home.sh

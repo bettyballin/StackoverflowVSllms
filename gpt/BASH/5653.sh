@@ -1,1 +1,0 @@
-find src/ -maxdepth 1 -type f ! -name "*.*" -exec rm {} +

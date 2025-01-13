@@ -1,0 +1,1 @@
+#define MY_MACRO(x) do { \\n    std::cout << "MY_MACRO: " << x << std::endl; \\n    // ... rest of the macro ...\n} while (0)

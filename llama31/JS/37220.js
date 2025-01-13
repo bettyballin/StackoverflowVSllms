@@ -1,0 +1,1 @@
+$("#test2").click(function() {\n    $.getJSON("index.html")\n        .done(function(response) {\n            alert('hi');\n        })\n        .fail(function(xhr, textStatus, errorThrown) {\n            console.log('Error:', errorThrown);\n        });\n});

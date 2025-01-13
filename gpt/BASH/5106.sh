@@ -1,1 +1,0 @@
-pgp --import public_key.asc

@@ -1,1 +1,0 @@
-SELECT orders.* FROM orders\nINNER JOIN customers ON orders.customer_id = customers.id\nWHERE customers.active = 1;

@@ -1,0 +1,1 @@
+$('#yourTableId td').css('padding', '0');

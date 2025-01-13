@@ -1,1 +1,0 @@
-public class YourEntityMap : ClassMap<YourEntity>\n{\n    public YourEntityMap()\n    {\n        Id(x => x.Id)\n            .GeneratedBy.GuidComb()\n            .CustomType("AnsiString");\n        \n        // other mappings\n    }\n}

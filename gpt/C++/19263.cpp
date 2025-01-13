@@ -1,1 +1,0 @@
-#define DllExport __declspec(dllexport)\nextern "C" {\n    DllExport bool DisplayScan(bool bShow, bool bAllPasses) { \n        // function implementation\n    }\n}

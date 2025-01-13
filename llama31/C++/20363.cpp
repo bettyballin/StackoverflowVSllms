@@ -1,0 +1,1 @@
+// A BSTR with a NULL value is considered an empty string.\nif (pBstr == NULL) \n{\n    // treat as empty string\n}

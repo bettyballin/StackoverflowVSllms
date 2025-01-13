@@ -1,1 +1,0 @@
-public class Consumer\n{\n    private readonly IService _service;\n\n    [ImportingConstructor]\n    public Consumer(IService service)\n    {\n        _service = service;\n    }\n\n    public void Run()\n    {\n        _service.Execute();\n    }\n}

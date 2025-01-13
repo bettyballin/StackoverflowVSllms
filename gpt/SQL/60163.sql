@@ -1,1 +1,0 @@
-ALTER TABLE YourTable\n   DROP COLUMN OldIntPK;\n\n   ALTER TABLE ReferencedTable\n   DROP COLUMN YourTableFK;

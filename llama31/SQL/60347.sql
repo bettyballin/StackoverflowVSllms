@@ -1,0 +1,1 @@
+-- Connect to the remote server and execute a query\nSELECT * \nFROM OPENDATASOURCE('SQLNCLI', 'Data Source=RemoteServer;Initial Catalog=DatabaseName;Integrated Security=SSPI')\n    ...SchemaName.TableName

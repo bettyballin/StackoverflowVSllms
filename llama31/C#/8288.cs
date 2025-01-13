@@ -1,0 +1,1 @@
+using LinqToMdx;\n\n// create a connection to the cube\nvar cube = new MdxCube("Data Source=<your_cube_server>;Initial Catalog=<your_cube_name>");\n\n// define the query using LINQ-like syntax\nvar query = from m in cube.Measures\n            where m.Name == "Measure1"\n            select m;\n\n// execute the query and get the results\nvar results = query.Execute().ToList();

@@ -1,0 +1,1 @@
+List<MyObject> myList = new List<MyObject>();\n\n// populate the list\n\nMyObject target = new MyObject();\n\nforeach (MyObject obj in myList)\n{\n    if (obj.Equals(target))\n    {\n        // found it\n        break;\n    }\n}

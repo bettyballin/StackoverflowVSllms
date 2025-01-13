@@ -1,0 +1,1 @@
+#fixedDiv {\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100px; /* adjust to your needs */\n  height: 100px; /* adjust to your needs */\n  background-color: #f00; /* adjust to your needs */\n  z-index: 1000; /* to ensure it stays on top */\n}

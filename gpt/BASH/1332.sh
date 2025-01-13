@@ -1,1 +1,0 @@
-CC = gcc\nCFLAGS = -Wall -fPIC\nLDFLAGS = -shared\n\n# Object files\nOBJS = foo.o bar.o\n\n# Executable target\nmy_executable: $(OBJS)\n	$(CC) -o $@ $(OBJS)\n\n# Shared library target\nlibmylib.so: $(OBJS)\n	$(CC) $(LDFLAGS) -o $@ $(OBJS)\n\n# Compile source files into object files\n%.o: %.c\n	$(CC) $(CFLAGS) -c $< -o $@\n\nclean:\n	rm -f *.o my_executable libmylib.so

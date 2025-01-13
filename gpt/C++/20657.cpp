@@ -1,1 +1,0 @@
-void A() {\n    // Some code\n    B();\n    // Some more code\n}\n\nvoid B() {\n    // Some code\n    C();\n}\n\nvoid C() {\n    // Some code\n}

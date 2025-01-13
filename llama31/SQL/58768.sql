@@ -1,0 +1,1 @@
+CREATE TABLE T (\n  A INT,\n  B INT,\n  C INT,\n  D INT,\n  INDEX idx_ABCD (A, B, C, D)\n);\n\nSELECT * FROM T WHERE A = 1 AND B = 2 AND C = 3;

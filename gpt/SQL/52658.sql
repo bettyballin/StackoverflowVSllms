@@ -1,1 +1,0 @@
-SELECT * FROM sys.dm_exec_query_stats \n   CROSS APPLY sys.dm_exec_sql_text(sql_handle)\n   WHERE total_elapsed_time > 10000000; -- Adjust threshold as needed

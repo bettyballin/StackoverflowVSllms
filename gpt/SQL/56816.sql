@@ -1,1 +1,0 @@
-declare @startDate datetime\ndeclare @endDate datetime\n\nset @startDate = '2008-01-01 00:00:00'\nset @endDate = '2008-04-01 23:59:59.997'  -- Use 23:59:59.997 to include all times up to the end of the day\n\n-- Test what are the start and end dates\nselect min(date), max(date)\nfrom view_Inspections\nwhere date >= @startDate and date < dateadd(day, 1, @endDate)

@@ -1,0 +1,1 @@
+# Example: Generate a self-signed certificate using OpenSSL\nopenssl req -x509 -newkey rsa:2048 -nodes -keyout svn_server.key -out svn_server.crt -days 365 -subj "/C=US/ST=State/L=Locality/O=Organization/CN=svn.example.com"

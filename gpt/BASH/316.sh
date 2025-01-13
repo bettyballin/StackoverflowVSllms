@@ -1,1 +1,0 @@
-ildasm yourassembly.dll /text > output.txt

@@ -1,1 +1,0 @@
-public class Restaurant\n{\n    public Guid Id { get; set; }\n    public string Name { get; set; }\n    // Other properties...\n}

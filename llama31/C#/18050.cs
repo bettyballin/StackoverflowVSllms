@@ -1,0 +1,1 @@
+Logger.LogStatus("Print some status.....");\n// some code\nLogger.LogSuccess("Done!");

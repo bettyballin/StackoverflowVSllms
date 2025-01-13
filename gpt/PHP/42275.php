@@ -1,1 +1,0 @@
-$username = $this->users->getUsernameById($file->user);\n$sessionuser = $this->session->userdata('username');\n\nif (trim($username) == trim($sessionuser)) {\n    // Your code here\n    echo 'The usernames match!';\n}

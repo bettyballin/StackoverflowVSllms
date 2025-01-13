@@ -1,1 +1,0 @@
-DataTable table = new DataTable();\ntable.Columns.Add("ID", typeof(int));\ntable.Columns.Add("Name", typeof(string));\ntable.Columns.Add("Status", typeof(int)); // Use int to store enum values

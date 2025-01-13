@@ -1,1 +1,0 @@
-DataTable dataTable = yourTableAdapter.GetData();

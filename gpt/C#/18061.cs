@@ -1,1 +1,0 @@
-public DateTime GetTokenExpirationTime()\n{\n    return DateTime.UtcNow.AddHours(1);\n}

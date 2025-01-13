@@ -1,0 +1,1 @@
+var resizeTimeout;\n\nwindow.addEventListener('resize', function() {\n  clearTimeout(resizeTimeout);\n  resizeTimeout = setTimeout(function() {\n    // resize has ended\n    doResizeEnd();\n  }, 200); // adjust the timeout value as needed\n});\n\nfunction doResizeEnd() {\n  // your code here\n}

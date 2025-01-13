@@ -1,0 +1,1 @@
+// Before (ZF 1.7)\nclass Bootstrap extends Zend_Controller_Bootstrap {}\n\n// After (ZF 1.8)\nclass Bootstrap extends Zend_Application_Bootstrap_Bootstrap {}

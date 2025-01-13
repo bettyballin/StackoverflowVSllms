@@ -1,1 +1,0 @@
-readelf -p .comment binary_file

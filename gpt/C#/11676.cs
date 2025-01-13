@@ -1,1 +1,0 @@
-// Save session data to a shared database or other resource\nSaveSessionDataToDatabase(Session["MySessionVariable"]);\n\n// Redirect to another application\nResponse.Redirect("http://anotherapp.com/AnotherPage.aspx");

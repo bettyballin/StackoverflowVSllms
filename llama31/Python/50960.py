@@ -1,0 +1,1 @@
+def handle_request(request):\n    # Handle the request...\n    response = {'word': 'foo'}\n    return 'callback(' + json.dumps(response) + ')'

@@ -1,1 +1,0 @@
-phpcs /path/to/your/code

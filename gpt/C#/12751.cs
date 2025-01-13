@@ -1,1 +1,0 @@
-public class MyCSharpClass : IMyInterface\n{\n    public void MyMethod()\n    {\n        // Implementation\n    }\n}

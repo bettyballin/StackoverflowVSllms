@@ -1,0 +1,1 @@
+#include "pin.H"\n\nVOID ImageLoad(IMG img, VOID* v) {\n    // Inject code into the process\n    // ...\n}\n\nint main(INT32 argc, CHAR** argv) {\n    PIN_Init(argc, argv);\n    IMG_AddInstrumentFunction(ImageLoad, 0);\n    PIN_StartProgram();\n    return 0;\n}

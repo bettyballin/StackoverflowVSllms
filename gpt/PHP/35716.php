@@ -1,1 +1,0 @@
-<?php\n   return [\n       'app' => [\n           'version' => '1.2.3',\n       ],\n   ];

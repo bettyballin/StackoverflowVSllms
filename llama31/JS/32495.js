@@ -1,0 +1,1 @@
+$("#<%= txtNumber.ClientID %>").on('input', function() {\n    $(this).alphanumeric({allow:"-"});\n});

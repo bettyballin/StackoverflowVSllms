@@ -1,0 +1,1 @@
+gcc -Werror=non-literal-null-conversion your_file.cpp -o your_file

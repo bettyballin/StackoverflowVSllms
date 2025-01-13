@@ -1,0 +1,1 @@
+SELECT time_stamp, lives_remaining, usr_id, trans_id\nFROM (\n  SELECT time_stamp, lives_remaining, usr_id, trans_id,\n         ROW_NUMBER() OVER (PARTITION BY usr_id ORDER BY time_stamp DESC, trans_id DESC) AS rn\n  FROM lives\n) AS subquery\nWHERE rn = 1;

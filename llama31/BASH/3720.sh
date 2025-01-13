@@ -1,0 +1,1 @@
+chmod -R u+s /home/brianly/svn/test\nchown -R www-data:www-data /home/brianly/svn/test\nchmod -R 755 /home/brianly/svn/test

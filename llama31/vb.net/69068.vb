@@ -1,0 +1,1 @@
+Dim test = myDocuments.Where(predicate2).Concat(myPlans.Where(predicate1))\n                      .Select(Function(x) New With {x.ID, x.Name})

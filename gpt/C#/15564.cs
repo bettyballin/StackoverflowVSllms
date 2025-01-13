@@ -1,1 +1,0 @@
-public interface IMyService\n{\n    // Define your service methods here\n}

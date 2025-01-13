@@ -1,1 +1,0 @@
-using System;\n\nnamespace YourNamespace\n{\n    public partial class b : System.Web.UI.Page\n    {\n        protected void Page_Load(object sender, EventArgs e)\n        {\n            if (!IsPostBack)\n            {\n                string fileId = Request.QueryString["fileid"];\n                LabelMessage.Text = "File ID: " + fileId;\n            }\n        }\n    }\n}

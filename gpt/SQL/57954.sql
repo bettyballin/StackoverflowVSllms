@@ -1,1 +1,0 @@
-SELECT tag, COUNT(*) as frequency FROM image_tags GROUP BY tag ORDER BY frequency DESC;

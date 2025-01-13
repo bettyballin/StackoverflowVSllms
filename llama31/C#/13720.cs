@@ -1,0 +1,1 @@
+string imageUrl = "/media/1/image.jpg";\nbool exists = await CheckImageExistsAsync(imageUrl);\nif (!exists)\n{\n    throw new Exception("Image does not exist or is not accessible");\n}

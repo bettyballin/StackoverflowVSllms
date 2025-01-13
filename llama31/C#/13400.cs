@@ -1,0 +1,1 @@
+var matches = ahoCorasick.Search(inputText);

@@ -1,0 +1,1 @@
+$array = array('Birnen', 'Äpfel', 'Ungetüme', 'Apfel', 'Ungetiere', 'Österreich');\n\n$collator = new IntlCollator('de_DE');\n$collator->setStrength(IntlCollator::PRIMARY);\n$collator->setAttribute(IntlCollator::ATTR_NORMALIZATION_MODE, IntlCollator::NORMALIZATION_MODE_UNFOLDING);\n\nusort($array, array($collator, 'compare'));\n\nvar_dump($array);

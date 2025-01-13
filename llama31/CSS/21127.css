@@ -1,0 +1,1 @@
+#editor {\n  width: 800px;\n  height: 600px;\n  border: 1px solid #ccc;\n}\n\n#toolbar {\n  background-color: #f0f0f0;\n  padding: 10px;\n  border-bottom: 1px solid #ccc;\n}\n\n.draggable {\n  display: inline-block;\n  padding: 10px;\n  border: 1px solid #ccc;\n  background-color: #fff;\n  cursor: move;\n}\n\n#canvas {\n  padding: 20px;\n}

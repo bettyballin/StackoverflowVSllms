@@ -1,1 +1,0 @@
-/* Ensure that the div expands with its content */\n.container-div {\n    display: block;\n    overflow: auto; /* This will make sure the div expands and shows a scrollbar if necessary */\n}

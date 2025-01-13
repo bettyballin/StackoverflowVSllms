@@ -1,0 +1,1 @@
+public static bool IsNumeric(string someValue)\n{\n    Regex isNumber = new Regex(@"^-?\d{1,3}(,\d{3})*(\.\d+)?$");\n    try\n    {\n        Match m = isNumber.Match(someValue);\n        return m.Success;                           \n    }\n    catch (FormatException)\n    {\n        return false;\n    }\n}

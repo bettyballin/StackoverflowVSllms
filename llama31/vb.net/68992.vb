@@ -1,0 +1,1 @@
+Imports Oracle.ManagedDataAccess.Client\n\nPrivate mConnectionString As String = "Data Source=(DESCRIPTION=(CID=GTU_APP)(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=xxx)(PORT=1521)))(CONNECT_DATA=(SID=xxx)(SERVER=DEDICATED)));User Id=xxx;Password=xxx;"\n\nDim con As New OracleConnection(mConnectionString)\ncon.Open()

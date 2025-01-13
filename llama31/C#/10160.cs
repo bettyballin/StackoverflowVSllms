@@ -1,0 +1,1 @@
+[AttributeUsage(AttributeTargets.Method)]\npublic class XslStylesheetAttribute : Attribute\n{\n    public string Href { get; set; }\n}\n\n[OperationContract, XmlSerializerFormat]\n[XslStylesheet(Href = "transforms/Customer.xsl")]\n[WebGet(UriTemplate = "{id}")]\npublic Customer GetById(string id)\n{\n    // ...\n}

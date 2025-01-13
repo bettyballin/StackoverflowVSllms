@@ -1,0 +1,1 @@
+SELECT \n  GROUP_CONCAT(DISTINCT CONCAT(usrFirst, ' ', usrLast) SEPARATOR ', ') as receiver_name\nFROM \n  your_table_name;

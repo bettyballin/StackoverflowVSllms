@@ -1,1 +1,0 @@
-Dim n As Integer = 10 ' Replace with your upper limit\nDim rnd As New Random()\nDim randomNumber As Integer = rnd.Next(1, n + 1)\nConsole.WriteLine(randomNumber)

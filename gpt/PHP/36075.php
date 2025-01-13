@@ -1,1 +1,0 @@
-<?php\nif (!empty($_SERVER['HTTP_REFERER'])) {\n    $referer = filter_var($_SERVER['HTTP_REFERER'], FILTER_SANITIZE_URL);\n    header("Location: $referer");\n} else {\n    header("Location: $CFG->wwwroot");\n}\nexit;\n?>

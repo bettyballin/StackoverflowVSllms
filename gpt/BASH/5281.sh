@@ -1,1 +1,0 @@
-chmod +x remove-long-string.sh

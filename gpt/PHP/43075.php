@@ -1,1 +1,0 @@
-<?php\necho '&copy; ' . date("Y");\n?>

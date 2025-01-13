@@ -1,0 +1,1 @@
+cdb -z <path_to_dump_file>

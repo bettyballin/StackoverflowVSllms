@@ -1,1 +1,0 @@
-// php_foo.c\n#include "php_foo.h"\n\nzend_module_entry foo_module_entry = {\n    STANDARD_MODULE_HEADER,\n    "foo",\n    NULL,\n    NULL,\n    NULL,\n    NULL,\n    NULL,\n    NULL,\n    NO_VERSION_YET,\n    STANDARD_MODULE_PROPERTIES\n};\n\n#ifdef COMPILE_DL_FOO\nZEND_GET_MODULE(foo)\n#endif

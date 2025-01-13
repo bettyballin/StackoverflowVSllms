@@ -1,1 +1,0 @@
-// Accessing a string resource\n   string welcomeMessage = Properties.Resources.WelcomeMessage;\n\n   // Accessing an image resource\n   Image logo = Properties.Resources.Logo;

@@ -1,0 +1,1 @@
+// Create a new CakePHP project\ncomposer create-project --prefer-dist cakephp/app project-name\n\n// Navigate to the project directory\ncd project-name\n\n// Run the Bake console to generate scaffolding\nbin/cake bake model ModelName\nbin/cake bake controller ControllerName

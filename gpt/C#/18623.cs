@@ -1,1 +1,0 @@
-// Using null coalescing operator\n  string result = input ?? "default";\n\n  // Using ternary operator\n  string result = input != null ? input : "default";

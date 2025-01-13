@@ -1,0 +1,1 @@
+$start_date = '02/01/2022';\n$end_date = '02/15/2022';\n$format = 'm/d/Y';\n\n$offset = get_date_offset($start_date, $end_date, $format);\necho $offset; // Output: 14

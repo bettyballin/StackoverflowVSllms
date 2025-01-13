@@ -1,0 +1,1 @@
+$image_path = 'uploads/image.jpg';\n$dir_path = dirname($image_path);\necho $dir_path; // outputs "uploads"

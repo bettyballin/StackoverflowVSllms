@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <rewrite>\n      <rules>\n        <rule name="RewriteASMX" stopProcessing="true">\n          <match url="^soap/MyWebService$" />\n          <action type="Rewrite" url="soap/MyWebService.asmx" />\n        </rule>\n      </rules>\n    </rewrite>\n  </system.webServer>\n</configuration>

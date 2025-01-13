@@ -1,0 +1,1 @@
+var url = "http://www.google.com/cse?cx=017840637368510444960:ny1lmky7r-0&client=google-csbe&output=xml_no_dtd&q=simon+g";\nvar encodedUrl = encodeURIComponent(url);\n\n// Send the encoded URL as a single variable\n$.ajax({\n    type: "POST",\n    url: "your-php-script.php",\n    data: { url: encodedUrl },\n    success: function(data) {\n        console.log(data);\n    }\n});

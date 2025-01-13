@@ -1,1 +1,0 @@
-SELECT resource_name, current_utilization, max_utilization, limit_value\n   FROM v$resource_limit\n   WHERE resource_name IN ('sessions', 'processes');

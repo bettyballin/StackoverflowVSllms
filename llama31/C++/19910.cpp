@@ -1,0 +1,1 @@
+#include <Windows.h>\n\n// ...\n\nTCHAR szPath[MAX_PATH];\nGetModuleFileName(NULL, szPath, MAX_PATH);\n\n// szPath will now contain the full path to the executable (e.g. "C:\\Path\\To\\bar.exe")

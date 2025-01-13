@@ -1,0 +1,1 @@
+function is_rate_limited($ip_address) {\n    $limit = 1; // 1 post per minute\n    $time_frame = 60; // 1 minute\n    $query = "SELECT COUNT(*) FROM posts WHERE ip_address = '$ip_address' AND timestamp > NOW() - INTERVAL $time_frame SECOND";\n    $result = mysql_query($query);\n    $count = mysql_result($result, 0);\n    return $count >= $limit;\n}

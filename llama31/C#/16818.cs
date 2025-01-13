@@ -1,0 +1,1 @@
+using System.Web.Management;\n\npublic class MembershipDatabaseInstaller\n{\n    public void InstallMembershipDatabase(string connectionString)\n    {\n        SqlServices.Install(connectionString, SqlFeatures.Membership, connectionString);\n    }\n}

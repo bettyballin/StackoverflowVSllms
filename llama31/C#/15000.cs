@@ -1,0 +1,1 @@
+foreach (var info in TimeZoneInfo.GetSystemTimeZones())\n{\n    var utcOffset = info.GetUtcOffset(DateTime.Now);\n    if (utcOffset.TotalMinutes == timezoneOffset)\n    {\n        // do something here if this is a valid timezone\n    }\n}

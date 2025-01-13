@@ -1,0 +1,1 @@
+var users = [];\n// populate the users array...\nwindow.returnValue = JSON.stringify(users);

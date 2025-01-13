@@ -1,0 +1,1 @@
+from bs4 import BeautifulSoup\nimport requests\n\nhtml = requests.get('https://www.amazon.com/...').text\nsoup = BeautifulSoup(html, 'html.parser')\n\nproduct_dimensions = soup.find('li', text=lambda x: x and 'Product Dimensions:' in x)\nif product_dimensions:\n    print(product_dimensions.find_next_sibling('text').strip())

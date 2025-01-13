@@ -1,0 +1,1 @@
+@echo off\n\n:: Add to startup folder\ncopy "%~f0" "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\"

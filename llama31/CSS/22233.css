@@ -1,0 +1,1 @@
+#password {\n  -webkit-text-security: none; /* Hide the dots on WebKit browsers */\n}\n\n/* Add this CSS to remove the caret (cursor) */\n#password {\n  caret-color: transparent;\n}

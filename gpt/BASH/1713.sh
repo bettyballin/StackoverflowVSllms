@@ -1,1 +1,0 @@
-sudo dd if=/dev/urandom of=/root/keyfile bs=1024 count=4\n     sudo chmod 0400 /root/keyfile

@@ -1,0 +1,1 @@
+public static MvcHtmlString ConditionalLabel(this HtmlHelper html, bool showLabel, string labelText)\n{\n    if (showLabel)\n    {\n        return MvcHtmlString.Create(labelText);\n    }\n    return MvcHtmlString.Empty;\n}

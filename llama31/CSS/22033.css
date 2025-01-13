@@ -1,0 +1,1 @@
+.work .nav {\n  list-style: none;\n  margin: 0 0 5px 5px;\n  padding: 0;\n  position: absolute;\n  top: 248px;\n  left: 15px;\n  z-index: 2;\n  display: inline-block; /* add this line */\n}

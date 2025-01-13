@@ -1,1 +1,0 @@
-const marked = require('marked');\n\nconst markdownString = '# Hello World\nThis is a paragraph in **Markdown**.';\nconst htmlString = marked(markdownString);\n\nconsole.log(htmlString);

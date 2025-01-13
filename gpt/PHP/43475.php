@@ -1,1 +1,0 @@
-function addOne(&$number) {\n       $number++;\n   }\n   \n   $value = 5;\n   addOne($value);\n   echo $value; // Outputs 6

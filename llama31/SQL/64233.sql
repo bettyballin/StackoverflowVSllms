@@ -1,0 +1,1 @@
+CREATE NONCLUSTERED INDEX IX_Products_CategoryId\nON Products (CategoryId);

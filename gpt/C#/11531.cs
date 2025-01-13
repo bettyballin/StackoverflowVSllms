@@ -1,1 +1,0 @@
-// C#\n   var query = from item in collection\n               where item.Property == value\n               select item;

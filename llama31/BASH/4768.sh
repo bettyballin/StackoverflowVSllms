@@ -1,0 +1,1 @@
+find "$dir" -maxdepth 1 -type f -print0 | shuf -z -n 1

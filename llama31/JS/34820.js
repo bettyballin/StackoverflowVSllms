@@ -1,0 +1,1 @@
+const selectElement = document.querySelector('select');\n\nselectElement.addEventListener('change', (e) => {\n  e.preventDefault();\n  selectElement.selectedIndex = 0; // or any other index you want to set it to\n});

@@ -1,0 +1,1 @@
+$data = stream_get_contents($this->_socket);

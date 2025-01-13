@@ -1,0 +1,1 @@
+public class Person\n{\n    public string Name { get; set; }\n    public int Age { get; set; }\n\n    public Person(string name, int age)\n    {\n        Name = name;\n        Age = age;\n    }\n\n    public void SayHello()\n    {\n        Console.WriteLine($"Hello, my name is {Name} and I am {Age} years old.");\n    }\n}

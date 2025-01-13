@@ -1,0 +1,1 @@
+CREATE TABLE DepartmentManagers (\n    DepartmentID INT,\n    EmployeeID INT,\n    PRIMARY KEY (DepartmentID, EmployeeID),\n    FOREIGN KEY (DepartmentID) REFERENCES Departments(DepartmentID),\n    FOREIGN KEY (EmployeeID) REFERENCES Employees(EmployeeID)\n);

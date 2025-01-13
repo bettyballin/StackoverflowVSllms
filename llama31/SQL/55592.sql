@@ -1,0 +1,1 @@
+USE [YourDatabaseName]\nGO\n\nCREATE LOGIN [NewUserName] WITH PASSWORD=N'NewUserPassword', DEFAULT_DATABASE=[YourDatabaseName]\nGO\n\nCREATE USER [NewUserName] FOR LOGIN [NewUserName] WITH DEFAULT_SCHEMA=[dbo]\nGO\n\nGRANT CONNECT TO [NewUserName]\nGO

@@ -1,1 +1,0 @@
-psql -h localhost -U your_username -d your_database_name -c "SELECT PostGIS_Full_Version();"

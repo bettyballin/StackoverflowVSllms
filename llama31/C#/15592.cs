@@ -1,0 +1,1 @@
+public class RouteConfig\n{\n    public static void RegisterRoutes(RouteCollection routes)\n    {\n        routes.Add(new ExtensionlessUrlRoute());\n    }\n}

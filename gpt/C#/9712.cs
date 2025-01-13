@@ -1,1 +1,0 @@
-public ActionResult GetPdf()\n{\n    // Generate your PDF file here and get the byte array\n    byte[] pdfBuffer = GeneratePdf();\n    string fileName = "GeneratedFile.pdf";\n\n    return File(pdfBuffer, "application/pdf", fileName);\n}

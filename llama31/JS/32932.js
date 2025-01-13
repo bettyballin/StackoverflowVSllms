@@ -1,0 +1,1 @@
+$('#myForm').parsley({\n    rules: {\n        email: {\n            required: true,\n            email: true\n        }\n    }\n});

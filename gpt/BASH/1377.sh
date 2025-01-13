@@ -1,1 +1,0 @@
-icacls "C:\Path\To\Folder" /T /C /Q | findstr /I "username"

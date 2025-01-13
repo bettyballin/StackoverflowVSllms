@@ -1,0 +1,1 @@
+char *getp() {\n    static char s[] = "hello";\n    return s;\n}

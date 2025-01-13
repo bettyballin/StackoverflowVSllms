@@ -1,1 +1,0 @@
-// Example JavaScript to update user profile box via AJAX\n   function updateUserProfile() {\n       $.ajax({\n           url: '<?= base_url("somecontroller/ajax_user_profile"); ?>',\n           success: function(data) {\n               $('.user-profile-box').html(data);\n           }\n       });\n   }

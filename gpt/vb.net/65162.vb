@@ -1,1 +1,0 @@
-m_equipmentList = m_equipmentList.OrderByDescending(Function(item) item.resourceid).ToList()

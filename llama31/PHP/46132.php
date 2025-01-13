@@ -1,0 +1,1 @@
+interface MyInterface {\n    public function myMethod(...$args);\n}\n\nclass ChildClass implements MyInterface {\n    public function myMethod($arg1, $arg2) {\n        // implementation\n    }\n}\n\nclass AnotherChildClass implements MyInterface {\n    public function myMethod($arg1, $arg2, $arg3) {\n        // implementation\n    }\n}

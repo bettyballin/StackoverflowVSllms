@@ -1,1 +1,0 @@
-<?php\nfunction getLeadingString($string) {\n    if (preg_match('/^[^ .]+/', $string, $matches)) {\n        return $matches[0];\n    }\n    return '';\n}\n\n// Test cases\n$string1 = "test.test";\n$string2 = "test doe";\n\necho getLeadingString($string1); // Output: test\necho "\n";\necho getLeadingString($string2); // Output: test\n?>

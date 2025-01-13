@@ -1,0 +1,1 @@
+using System.IO;\n\nstring filePath = Server.MapPath("~/path/to/your/file.txt");\nusing (StreamWriter writer = new StreamWriter(filePath))\n{\n    writer.Write("Hello, World!");\n}

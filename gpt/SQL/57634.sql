@@ -1,1 +1,0 @@
-WHERE CAST([tstamp] AS DATE) = @dateParam

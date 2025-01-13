@@ -1,0 +1,1 @@
+gcc -fsanitize=address your_code.c -o your_code

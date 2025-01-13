@@ -1,1 +1,0 @@
-<?php\nheader('Content-Type: application/json');\n$results = "test";\necho json_encode($results);\n?>

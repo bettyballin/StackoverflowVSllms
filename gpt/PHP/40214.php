@@ -1,1 +1,0 @@
-class YourForm extends Zend_Form\n{\n    public function init()\n    {\n        // Retrieve the request object from the Zend_Registry\n        $request = Zend_Registry::get('request');\n\n        // Use the request object as needed\n        $param = $request->getParam('yourParam');\n    }\n}

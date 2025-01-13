@@ -1,1 +1,0 @@
-[assembly: System.Web.UI.WebResource("Namespace.FolderName.FileName.js", "application/x-javascript")]

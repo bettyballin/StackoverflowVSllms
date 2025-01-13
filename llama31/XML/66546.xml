@@ -1,0 +1,1 @@
+<context-param>\n    <param-name>org.apache.myfaces.USE_ENCRYPTION</param-name>\n    <param-value>false</param-value>\n</context-param>\n<context-param>\n    <param-name>org.apache.myfaces.USE_URL_REWRITING</param-name>\n    <param-value>false</param-value>\n</context-param>

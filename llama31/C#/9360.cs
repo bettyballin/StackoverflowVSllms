@@ -1,0 +1,1 @@
+SPUserToken token = new SPUserToken("DOMAIN\\USERNAME", _SPSite);\nusing (SPSite site = new SPSite(_SPSite, token))\n{\n    using (SPWeb eachWeb = site.AllWebs[0])\n    {\n        SPListItemCollection myItemCollection = eachWeb.Lists["Listings"].Items;\n        // Rest of your code here\n    }\n}

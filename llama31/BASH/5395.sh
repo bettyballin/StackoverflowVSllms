@@ -1,0 +1,1 @@
+svnadmin dump C:/myRepository --incremental -r HEAD:1 > G:/myRepositoryBackup/svn.dump

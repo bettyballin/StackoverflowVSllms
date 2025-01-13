@@ -1,0 +1,1 @@
+# In your view\n<%= periodically_call_remote(:url => {:action => 'progress_monitor', :controller => 'files'},\n                             :frequency => '5',\n                             :update => 'progressBar') %>\n\n# In your controller\ndef progress_monitor\n  progress = # calculate the progress percentage here\n  render :json => {:progress => progress}\nend

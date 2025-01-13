@@ -1,0 +1,1 @@
+SqlQuery q = new Select().From<VwInstitutes>();\n\nif (!string.IsNullOrEmpty(username))\n{\n    q = AddCondition(q, VwInstitutes.Columns.AssignedUser, username);\n}\n\nif (!string.IsNullOrEmpty(stage))\n{\n    q = AddCondition(q, VwInstitutes.Columns.Stage, stage);\n}

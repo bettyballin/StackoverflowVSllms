@@ -1,0 +1,1 @@
+function remove_carriage_returns($html) {\n    return preg_replace('/\s+/', ' ', $html);\n}

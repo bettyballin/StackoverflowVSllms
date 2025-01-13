@@ -1,1 +1,0 @@
-<script>\n  function printPage() {\n    window.print();\n  }\n</script>

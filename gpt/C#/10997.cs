@@ -1,1 +1,0 @@
-// Example of using Dotfuscator Community Edition\n    // You would typically configure and run this as part of your build process

@@ -1,1 +1,0 @@
-// Example of secure error handling\n   try {\n       // Code that may throw an error\n   } catch (error) {\n       console.error('An error occurred:', error.message);\n       // Optionally send a user-friendly message to the client\n   }

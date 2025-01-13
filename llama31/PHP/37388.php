@@ -1,0 +1,1 @@
+use League\Upload\Upload;\n\n$upload = new Upload('path/to/upload/directory', 'maxFileSizeInBytes');\n\nif ($upload->hasFile('inputName')) {\n    $file = $upload->getFile('inputName');\n    $file->moveTo('path/to/destination/directory');\n}

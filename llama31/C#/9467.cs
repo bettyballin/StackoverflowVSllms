@@ -1,0 +1,1 @@
+string connectionString = "Server=myServer;Database=myDatabase;Integrated Security=True;";

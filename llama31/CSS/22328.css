@@ -1,0 +1,1 @@
+table td {\n  overflow: hidden;\n  display: block;\n  max-height: 20px; /* or any other fixed height */\n}

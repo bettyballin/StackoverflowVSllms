@@ -1,0 +1,1 @@
+def create\n  # Your create action code here\n  respond_to do |format|\n    format.html { redirect_to root_path }\n    format.js { render partial: 'my_partial' }\n  end\nend

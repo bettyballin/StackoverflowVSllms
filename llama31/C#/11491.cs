@@ -1,0 +1,1 @@
+var sql = "Update Employees Set FirstName = 'Jim', [LastName] = 'Smith', CodeNum = codes.Num From Employees as em Join CodeNumbers as codes on codes.EmployeeID = em.EmployeeID";\nvar columns = SqlParser.ExtractUpdateColumns(sql);\nforeach (var column in columns)\n{\n    Console.WriteLine(column);\n}

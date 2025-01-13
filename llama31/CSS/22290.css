@@ -1,0 +1,1 @@
+iframe {\n  width: 100%;\n  height: 100%;\n  overflow: auto;\n}\n\ndiv.container {\n  width: 800px; /* or a larger width */\n  height: 600px; /* or a larger height */\n  overflow: hidden;\n}

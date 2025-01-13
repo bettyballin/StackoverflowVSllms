@@ -1,1 +1,0 @@
-GRANT SELECT ON schema.view TO your_user;

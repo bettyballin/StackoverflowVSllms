@@ -1,0 +1,1 @@
+IQueryable<ComputerAttribute> query = db.ComputerAttributes;\n\nquery = FilterByMemory(query, 1); // filter by memory >= 1GB\nquery = FilterByCpuSpeed(query, 2.8f); // filter by CPU speed >= 2.8GHz\n\nvar filteredComputers = query.Select(ca => ca.ComputerID).Distinct();

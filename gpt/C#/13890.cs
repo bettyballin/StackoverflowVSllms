@@ -1,1 +1,0 @@
-<!-- In your Razor view -->\n@{\n    HtmlString safeOutput = ViewBag.SafeOutput as HtmlString;\n}\n<div>\n    @safeOutput\n</div>

@@ -1,0 +1,1 @@
+import os\n\nprint(os.__path__)  # prints the list of directories where Python looks for os submodules\n\nimport os.path\nprint(os.path.__file__)  # prints the path to posixpath.pyc

@@ -1,0 +1,1 @@
+// Returns 0 for a NULL BSTR.\nint length = SysStringLen(NULL);  // returns 0

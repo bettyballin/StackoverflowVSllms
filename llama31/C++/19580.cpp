@@ -1,0 +1,1 @@
+// MyComInterface.h\n#ifndef MYCOMINTERFACE_H\n#define MYCOMINTERFACE_H\n\ninterface IMyComInterface : IUnknown\n{\n    HRESULT SendCommand(BSTR command);\n    HRESULT GetData(BSTR* data);\n};\n\n#endif // MYCOMINTERFACE_H

@@ -1,1 +1,0 @@
-include-image.pdf: include-image.dvi\n       dvipdfm include-image.dvi\n\n   include-image.dvi: include-image.tex\n       latex include-image.tex

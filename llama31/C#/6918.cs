@@ -1,0 +1,1 @@
+string name = "Ann";\nint age = 26;\n\nstring text = name + "\t" + age.ToString();\n\ntextBox.Text = text;

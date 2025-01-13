@@ -1,1 +1,0 @@
-using (var db = new YourDataContext())\n   {\n       var sale = db.Sales.Single(s => s.ID == 1);\n       string username = sale.User.Name; // Make sure 'User' is not null here\n   }

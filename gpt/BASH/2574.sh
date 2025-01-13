@@ -1,1 +1,0 @@
-sigcheck -h -n <path-to-exe-file>

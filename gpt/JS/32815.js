@@ -1,1 +1,0 @@
-// Example using jQuery for AJAX calls\n   $.ajax({\n       url: 'your-api-endpoint',\n       method: 'GET',\n       success: function(data) {\n           // Handle successful response\n       },\n       error: function(error) {\n           // Handle error\n       }\n   });

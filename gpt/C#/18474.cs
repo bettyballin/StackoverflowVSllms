@@ -1,1 +1,0 @@
-// Populate combo box\nBV_LEMSHIPDataSet.tblLEMSCredentialsDataTable dtAvailableTechs = taLEMSCreds.GetDataByAvailableTechs(selectedSerial);\ncboTechNumber.DataSource = dtAvailableTechs;\ncboTechNumber.DisplayMember = "TechNumber";\ncboTechNumber.ValueMember = "tblLEMSCredentialsId";

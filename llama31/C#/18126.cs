@@ -1,0 +1,1 @@
+using System.Globalization;\n\npublic class IdnConverter\n{\n    public static string ConvertIdnToAscii(string idn)\n    {\n        IdnMapping idnMapping = new IdnMapping();\n        return idnMapping.GetAscii(idn);\n    }\n}\n\n// Example usage:\nstring idn = "Bücher.ch";\nstring ascii = IdnConverter.ConvertIdnToAscii(idn);\nConsole.WriteLine(ascii); // Output: xn--bcher-kva.ch

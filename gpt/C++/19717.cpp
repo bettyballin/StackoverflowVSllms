@@ -1,1 +1,0 @@
-COleVariant result;\nHRESULT hr;\n\n// Activate the worksheet first\nhr = AutoWrap(DISPATCH_METHOD, &result, worksheet, L"Activate", 0);\nif (FAILED(hr)) {\n    // Handle error\n}\n\n// Now try to select the range\nhr = AutoWrap(DISPATCH_METHOD, &result, irange, L"Select", 0);\nif (FAILED(hr)) {\n    // Handle error\n}

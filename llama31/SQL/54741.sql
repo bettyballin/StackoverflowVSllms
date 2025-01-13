@@ -1,0 +1,1 @@
+SELECT c.CarId, c.CarVer, c.Colour, w.WheelId, w.WheelVer\nFROM Cars c\nJOIN Wheels w ON c.CarId = w.CarId\n  AND c.ValidFrom <= '2009-06-12 09:50'\n  AND (c.ValidTo IS NULL OR c.ValidTo > '2009-06-12 09:50')\n  AND w.ValidFrom <= '2009-06-12 09:50'\n  AND (w.ValidTo IS NULL OR w.ValidTo > '2009-06-12 09:50')\nWHERE c.CarId = 1;

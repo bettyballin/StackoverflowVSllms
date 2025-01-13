@@ -1,0 +1,1 @@
+int main() {\n    yyin = stdin;\n    yylex();\n    return 0;\n}

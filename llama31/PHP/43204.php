@@ -1,0 +1,1 @@
+$query = $_GET['query'];

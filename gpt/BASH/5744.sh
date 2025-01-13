@@ -1,1 +1,0 @@
-sudo tcpdump -i eth0 -w capture.pcap

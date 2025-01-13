@@ -1,1 +1,0 @@
-// ClassA.h\n    class ClassA {\n        public:\n            void doSomething();\n    };\n\n    // ClassA.cpp\n    #include "ClassA.h"\n    #include "ClassB.h"\n    void ClassA::doSomething() {\n        // Implementation\n    }

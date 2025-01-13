@@ -1,1 +1,0 @@
-CREATE TABLE FileDb.dbo.Files (\n    FileId INT PRIMARY KEY,\n    FileName NVARCHAR(100),\n    FileData VARBINARY(MAX)\n);

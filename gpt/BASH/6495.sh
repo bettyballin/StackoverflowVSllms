@@ -1,1 +1,0 @@
-# Allow HTTPS traffic only\niptables -A INPUT -p tcp --dport 443 -j ACCEPT\n# Allow SSH traffic for maintenance\niptables -A INPUT -p tcp --dport 22 -j ACCEPT\n# Drop all other incoming traffic\niptables -A INPUT -j DROP

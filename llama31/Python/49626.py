@@ -1,0 +1,1 @@
+import datetime\n\ndef unix_to_julian(timestamp):\n    dt = datetime.datetime.utcfromtimestamp(timestamp)\n    julian_date = dt.toordinal() + 1721119.5 + (dt.hour + dt.minute / 60.0 + dt.second / 3600.0) / 24.0\n    return julian_date\n\ntimestamp = 1232559922\njulian_date = unix_to_julian(timestamp)\nprint(julian_date)

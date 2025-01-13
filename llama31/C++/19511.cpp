@@ -1,0 +1,1 @@
+if (it != my_list.end()) {\n    // use the iterator\n}

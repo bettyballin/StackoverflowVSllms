@@ -1,0 +1,1 @@
+var offset = $('#myElement').offset();\nvar x = offset.left;\nvar y = offset.top;

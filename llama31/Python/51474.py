@@ -1,0 +1,1 @@
+test = list(range(10))  # create a list from 0 to 9\nn = 3\nrest_of_list = test[n:]  # slice from index n to the end\nprint(rest_of_list)  # output: [3, 4, 5, 6, 7, 8, 9]

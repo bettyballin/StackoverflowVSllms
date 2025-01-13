@@ -1,0 +1,1 @@
+# Define the public IP addresses\niptables -t nat -A PREROUTING -d x.x.x.123 -p tcp --dport 21 -j DNAT --to-destination 192.168.1.100\n\n# Define additional NAT rules for other ports and IP addresses

@@ -1,0 +1,1 @@
+// Embed the IPTC data\n$content = iptcembed($data, $path);\n\n// Save the edited image with IPTC data\n$file = fopen('phplogo-edited.jpg', 'w');\nfwrite($file, $content);\nfclose($file);

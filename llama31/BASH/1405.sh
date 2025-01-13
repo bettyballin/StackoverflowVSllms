@@ -1,0 +1,1 @@
+sudo ./setuid_exec 63093 501 /bin/launchctl load -S Aqua /Library/LaunchAgents/com.company.agent.plist

@@ -1,0 +1,1 @@
+/* Before */\n.header {\n  background-color: #fff;\n  padding: 20px;\n}\n\n.header .logo {\n  background-color: #fff;\n  margin: 10px;\n}\n\n/* After */\n.header {\n  background-color: #fff;\n  padding: 20px;\n}\n\n.header .logo {\n  margin: 10px;\n}

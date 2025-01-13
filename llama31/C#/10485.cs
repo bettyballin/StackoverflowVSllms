@@ -1,0 +1,1 @@
+Console.WriteLine(strTag.Length)\nConsole.WriteLine(tmp.Length)

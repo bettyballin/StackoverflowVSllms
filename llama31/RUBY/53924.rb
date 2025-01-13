@@ -1,0 +1,1 @@
+class MyFilter < Rack::Middleware\n  def call(env)\n    # do something with request parameters\n    @app.call(env)\n  end\nend

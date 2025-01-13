@@ -1,0 +1,1 @@
+$data = array_filter($this->request->data['Friend']);\n$this->Friend->saveAll($data);

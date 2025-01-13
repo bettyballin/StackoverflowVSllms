@@ -1,1 +1,0 @@
-<?php\necho '<html>';\necho '  <head>';\necho '    <title>' . $title . '</title>';\necho '  </head>';\necho '  <body>';\nif ($userLoggedIn) {\n    echo '    <p>Welcome, ' . $username . '!</p>';\n} else {\n    echo '    <p>Please log in.</p>';\n}\necho '  </body>';\necho '</html>';\n?>

@@ -1,1 +1,0 @@
-[WebMethod]\npublic void HelloWorld3(out string strVal1, out string strVal2)\n{\n    strVal1 = "Hello World";\n    strVal2 = "Hello World Again!";\n}

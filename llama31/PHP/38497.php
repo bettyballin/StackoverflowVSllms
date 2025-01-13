@@ -1,0 +1,1 @@
+class Repository {\n    public function save(Entity $entity) {\n        if ($entity->isModified()) {\n            // Save the entity to the database\n        }\n    }\n}

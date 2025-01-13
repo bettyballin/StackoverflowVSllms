@@ -1,0 +1,1 @@
+enum Vendor_ClassName_Option: int {\n    case FIRST_OPTION = 1;\n    case SECOND_OPTION = 2;\n}\n\nclass Vendor_ClassName_Helper {\n    public function __construct(private Vendor_ClassName_Option $option, $otherArgument) {}\n}

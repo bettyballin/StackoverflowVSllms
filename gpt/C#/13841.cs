@@ -1,1 +1,0 @@
-@using (Html.BeginForm("ActionName", "ControllerName", FormMethod.Post))\n{\n    <button type="submit" class="btn btn-primary">Button Text</button>\n}

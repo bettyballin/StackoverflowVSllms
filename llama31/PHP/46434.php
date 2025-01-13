@@ -1,0 +1,1 @@
+<?php\n	apcu_add('my_data', $data); // cache data\n	$data = apcu_fetch('my_data'); // retrieve cached data\n?>

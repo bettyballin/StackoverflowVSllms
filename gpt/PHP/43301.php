@@ -1,1 +1,0 @@
-// Example of using prepared statements with PDO\n    $pdo = new PDO('mysql:host=your_host;dbname=your_db', 'username', 'password');\n    $stmt = $pdo->prepare("INSERT INTO posts (title, content, html_content) VALUES (:title, :content, :html_content)");\n    $stmt->execute(['title' => $title, 'content' => $content, 'html_content' => $cleanHtmlContent]);

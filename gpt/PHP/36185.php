@@ -1,1 +1,0 @@
-Price = string(4) "1.15"\nCorrected price = float(115)\nInteger price = int(115)

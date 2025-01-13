@@ -1,1 +1,0 @@
-cd build-gcc\n    make all\n    sudo make install\n    cd ..

@@ -1,0 +1,1 @@
+gameProcess.StartInfo.LoadUserProfile = True

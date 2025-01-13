@@ -1,0 +1,1 @@
+var test = new RestrictedProxy(new Test());\ntest.DoSomething();

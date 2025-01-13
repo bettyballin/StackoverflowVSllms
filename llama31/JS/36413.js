@@ -1,0 +1,1 @@
+$.getJSON("http://api.domain.com/services/TradeService.svc?q=" + query.value + "&type=" + type.value + "&format=json",\n  function(data){\n    $.each(data.items, function(i,item){\n      $("<img/>").attr("src", item.media.m).appendTo("#images");\n      if ( i == 3 ) return false;\n    });\n  });

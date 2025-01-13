@@ -1,1 +1,0 @@
-[SoapLogger]\npublic class MyWebService : System.Web.Services.Protocols.SoapHttpClientProtocol\n{\n    // Your web service methods go here\n}

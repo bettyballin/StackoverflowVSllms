@@ -1,0 +1,1 @@
+var binding = new NetTcpBinding();\nbinding.Security.Mode = SecurityMode.None;\nvar client = new MyServiceClient(binding);

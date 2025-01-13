@@ -1,1 +1,0 @@
-/* Assuming the 'Member Login' text is inside a div with a class 'login-header' */\n.login-header {\n    margin-bottom: 0 !important; /* Reset the bottom margin */\n    padding-bottom: 0 !important; /* Reset any padding that might be contributing to the gap */\n}

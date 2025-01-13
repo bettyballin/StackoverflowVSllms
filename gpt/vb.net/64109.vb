@@ -1,1 +1,0 @@
-Dim users As List(Of MembershipUser) = TryCast(ViewData("Users"), List(Of MembershipUser))

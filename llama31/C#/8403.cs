@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    string id = Request.QueryString["Id"];\n    // Use the id to retrieve the article from your database\n}

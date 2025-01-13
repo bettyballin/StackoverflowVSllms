@@ -1,0 +1,1 @@
+// In your JavaScript code\nfunction MyObject(options) {\n  this.x = options.x;\n}\n\nMyObject.prototype.someFunction = function someFunctionF() {\n  return this.x + 1;\n}

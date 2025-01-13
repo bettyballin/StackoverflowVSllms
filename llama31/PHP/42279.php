@@ -1,0 +1,1 @@
+class Foo {\n    protected $bar = array();\n\n    public function &getBar() {\n        return $this->bar;\n    }\n}\n\nclass Foo2 {\n    public function __construct() {\n        $foo = new Foo();\n        $bar =& $foo->getBar();\n        $bar['test'] = 'value';\n        print_r($foo->getBar());\n    }\n}\n\nnew Foo2();

@@ -1,0 +1,1 @@
+#include <Windows.h>\n#include <iostream>\n\nint main() {\n    WIN32_FIND_DATA findData;\n    HANDLE hFind = FindFirstFile("*.bmp", &findData);\n    if (hFind != INVALID_HANDLE_VALUE) {\n        do {\n            std::cout << findData.cFileName << std::endl;\n        } while (FindNextFile(hFind, &findData));\n        FindClose(hFind);\n    }\n\n    return 0;\n}

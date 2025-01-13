@@ -1,1 +1,0 @@
-SELECT table_name, column_name, data_type, data_length\n   FROM all_tab_columns\n   WHERE owner = 'YOUR_SCHEMA_NAME';

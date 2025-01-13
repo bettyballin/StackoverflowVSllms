@@ -1,1 +1,0 @@
-sed -i 's/search_pattern/replacement_text/g' filename

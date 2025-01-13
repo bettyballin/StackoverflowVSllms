@@ -1,0 +1,1 @@
+MyService1 service = new MyService1();\nMyResponse response = service.HelloWorld();\nConsole.WriteLine(response.Value1);\nConsole.WriteLine(response.Value2);

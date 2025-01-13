@@ -1,1 +1,0 @@
-gcc -c source.s -o source.o

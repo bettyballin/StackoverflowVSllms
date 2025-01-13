@@ -1,0 +1,1 @@
+# Insecure way (prone to SQL injection)\nplayers = Player.objects.raw("SELECT * FROM player WHERE batting > %s" % user_input)\n\n# Secure way (using parameterized query)\nplayers = Player.objects.raw("SELECT * FROM player WHERE batting > %s", [user_input])

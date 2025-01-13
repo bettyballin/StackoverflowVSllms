@@ -1,0 +1,1 @@
+function dump($var) {\n    echo '<pre>';\n    var_dump($var);\n    echo '</pre>';\n}

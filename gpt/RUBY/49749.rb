@@ -1,1 +1,0 @@
-group :development do\n  gem 'byebug'\nend

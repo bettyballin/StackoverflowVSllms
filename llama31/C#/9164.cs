@@ -1,0 +1,1 @@
+DataSet ds = // retrieve data from oracle database\nif (ds.Tables[0].Rows.Count == 0)\n{\n    // Do Something\n}\nelse\n{\n    GridView1.DataSource = ds;\n    GridView1.DataBind();\n}

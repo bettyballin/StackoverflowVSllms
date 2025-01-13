@@ -1,0 +1,1 @@
+using Microsoft.ReportingServices.Rendering.ExcelRenderer;\nusing System.IO;\n\n// ...\n\n// Set the Excel renderer\nExcelRenderer excelRenderer = new ExcelRenderer();\nexcelRenderer.Password = "your_password";\n\n// Render the report to Excel\nbyte[] excelBytes = report.Render("Excel", excelRenderer);\n\n// Save the Excel to a file\nFile.WriteAllBytes("report.xlsx", excelBytes);

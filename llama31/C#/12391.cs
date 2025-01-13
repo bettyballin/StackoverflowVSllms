@@ -1,0 +1,1 @@
+using System.IO;\n\n// Create a custom stream\nMemoryStream customStream = new MemoryStream();\n\n// Pass the custom stream to the Packaging component\n// (assuming 'package' is an instance of System.IO.Packaging.Package)\npackage.WriteToStream(customStream);

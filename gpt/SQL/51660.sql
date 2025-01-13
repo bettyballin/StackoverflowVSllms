@@ -1,1 +1,0 @@
--- Using INSERT INTO\nINSERT INTO myTable (column1, column2) VALUES ('value1', 'value2');\n\n-- Using INSERT\nINSERT myTable (column1, column2) VALUES ('value1', 'value2');

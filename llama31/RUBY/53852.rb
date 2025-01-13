@@ -1,0 +1,1 @@
+cookies.permanent[:remember_token] = { value: user.remember_token, secure: true, httponly: true }

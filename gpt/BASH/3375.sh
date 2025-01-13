@@ -1,1 +1,0 @@
-7z a -tzip YourDatabaseName.bak.zip YourDatabaseName.bak

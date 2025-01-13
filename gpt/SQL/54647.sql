@@ -1,1 +1,0 @@
-DECLARE @List1 dbo.IntList;\n    DECLARE @List2 dbo.IntList;\n\n    INSERT INTO @List1 (Value) VALUES (1), (2), (3);\n    INSERT INTO @List2 (Value) VALUES (10), (20), (30);\n\n    EXEC dbo.MyStoredProc @List1, @List2;

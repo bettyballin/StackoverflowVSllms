@@ -1,1 +1,0 @@
-gpg --export -a "User Name" > public_key.asc

@@ -1,0 +1,1 @@
+window.addEventListener('beforeunload', function(event) {\n  // Your code here\n});\n\n// or\n\nwindow.addEventListener('unload', function(event) {\n  // Your code here\n});

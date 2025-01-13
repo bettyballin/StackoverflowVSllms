@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\nprotected void RestartButton_Click(object sender, EventArgs e)\n{\n    ProcessStartInfo psi = new ProcessStartInfo("iisreset.exe", "/restart");\n    psi.UseShellExecute = false;\n    psi.RedirectStandardOutput = true;\n    psi.RedirectStandardError = true;\n    Process.Start(psi);\n}

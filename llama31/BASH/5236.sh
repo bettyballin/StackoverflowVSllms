@@ -1,0 +1,1 @@
+echo "zone \"<zone_name>\" {" >> /etc/bind/named.conf\necho "  type master;" >> /etc/bind/named.conf\necho "  file \"/etc/bind/zones/<zone_name>.zone\";" >> /etc/bind/named.conf\necho "};" >> /etc/bind/named.conf

@@ -1,0 +1,1 @@
+rails g ajaxful_rating:install

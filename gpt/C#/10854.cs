@@ -1,1 +1,0 @@
-public interface IExample\n{\n    int MyProperty { get; set; }\n    void MyMethod();\n}\n\npublic class ExampleClass : IExample\n{\n    // Place the cursor on IExample and press Ctrl + . to implement the interface.\n}

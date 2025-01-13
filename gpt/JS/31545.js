@@ -1,1 +1,0 @@
-let str = "Hello, World!";\nconsole.log(str[0]); // Output: H\nconsole.log(str.charAt(0)); // Output: H

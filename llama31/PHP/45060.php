@@ -1,0 +1,1 @@
+require_once '../library/Zend/Loader.php';

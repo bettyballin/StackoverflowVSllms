@@ -1,0 +1,1 @@
+public interface IValidationService\n{\n    IList<ValidationError> Validate(UIState state);\n}\n\npublic class ValidationService : IValidationService\n{\n    public IList<ValidationError> Validate(UIState state)\n    {\n        // Complex validation logic goes here\n        // ...\n        return errors;\n    }\n}

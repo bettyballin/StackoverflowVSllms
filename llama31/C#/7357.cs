@@ -1,0 +1,1 @@
+using System.ServiceModel;\nusing System.ServiceModel.Web;\n\n[ServiceContract]\npublic interface IMyService\n{\n    [OperationContract]\n    [WebGet(UriTemplate = "/data")]\n    string GetData();\n}\n\npublic class MyService : IMyService\n{\n    public string GetData()\n    {\n        // Return data here\n    }\n}

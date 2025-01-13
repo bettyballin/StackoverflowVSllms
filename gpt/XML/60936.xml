@@ -1,1 +1,0 @@
-<action path="/saveServiceForm" type="com.example.SaveServiceFormAction" name="serviceForm" scope="request" validate="true" input="yourJspPage.jsp">\n    <forward name="success" path="successPage.jsp"/>\n</action>

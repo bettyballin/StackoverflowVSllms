@@ -1,1 +1,0 @@
-keytool -genkey -alias myalias -keystore mykeystore.jks

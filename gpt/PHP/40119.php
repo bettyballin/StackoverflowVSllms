@@ -1,1 +1,0 @@
-// index.php\n<?php\ninclude("foo.php");\ninclude("baz.php");\nfoo("bar.php", $x);\n?>\n\n// foo.php\n<?php\nfunction foo($p, $x) {\n    include($p);\n}\n?>\n\n// baz.php\n<?php\n$x = 42;\n?>\n\n// bar.php\n<?php\necho $x;\n?>

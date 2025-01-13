@@ -1,0 +1,1 @@
+// Instead of browser sniffing\nif (navigator.userAgent.indexOf('Chrome') !== -1) {\n    // Do something\n}\n\n// Use feature detection\nif (window.requestAnimationFrame) {\n    // Do something\n}

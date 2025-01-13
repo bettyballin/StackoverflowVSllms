@@ -1,1 +1,0 @@
-<%@ Application Language="C#" %>\n<script runat="server">\n    void Application_Start(Object sender, EventArgs e) \n    {\n        // Code that runs on application startup\n    }\n</script>

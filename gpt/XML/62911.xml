@@ -1,1 +1,0 @@
-<configuration>\n  <system.diagnostics>\n    <trace>\n      <listeners>\n        <add name="myListener" type="System.Diagnostics.DefaultTraceListener" />\n      </listeners>\n    </trace>\n  </system.diagnostics>\n</configuration>

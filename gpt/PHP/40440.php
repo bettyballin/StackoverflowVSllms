@@ -1,1 +1,0 @@
-$text = fetchTextFromAnotherPage(); // Replace with your actual method of fetching text\n$decoded_text = html_entity_decode($text, ENT_QUOTES, 'UTF-8');\n\n// Now insert $decoded_text into the database\n$stmt = $conn->prepare("INSERT INTO your_table_name (your_column) VALUES (?)");\n$stmt->bind_param("s", $decoded_text);\n$stmt->execute();\n$stmt->close();

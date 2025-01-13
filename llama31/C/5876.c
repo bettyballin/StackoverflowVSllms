@@ -1,0 +1,1 @@
+#include <sys/mman.h>\n\n// ...\n\n// Lock the memory page containing the token\nmlock(token, token_size);

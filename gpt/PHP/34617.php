@@ -1,1 +1,0 @@
-function isValidFile($filename) {\n    // Combined regex to check both conditions\n    $regex = "/^(?!\.{1,2}$).*\.(jpg|jpeg|gif|png)$/i";\n    \n    return preg_match($regex, $filename);\n}

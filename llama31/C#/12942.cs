@@ -1,0 +1,1 @@
+[AcceptVerbs(HttpVerbs.Post)]\npublic ActionResult Create([Bind(Exclude="Id")]Contact contact)\n{\n    try\n    {\n        contact.Save(); // assumes model does validation\n        return RedirectToAction("Index");\n    }\n    catch (Exception ex)\n    {\n        // handle model exceptions and populate ModelState errors\n        return View();\n    }\n}

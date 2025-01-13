@@ -1,0 +1,1 @@
+protected override void LoadViewState(object savedState)\n{\n    base.LoadViewState(savedState);\n\n    if (ViewState.Count == 0)\n    {\n        // Initialize properties here, e.g.\n        _clickCount = 0;\n        _mustUpdate = false;\n    }\n    else\n    {\n        _clickCount = ((int)ViewState["clickCount"]);\n        _mustUpdate = ((bool)ViewState["mustUpdate"]);\n    }\n}

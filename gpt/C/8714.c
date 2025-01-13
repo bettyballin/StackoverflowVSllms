@@ -1,1 +1,0 @@
-#include "mylib.h"\n\nint testlib(void) {\n    printf("Hello, World!\n");\n    return (0);\n}

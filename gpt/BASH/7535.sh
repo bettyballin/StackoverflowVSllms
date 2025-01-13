@@ -1,1 +1,0 @@
-mkdir -p mygame/DEBIAN\n   mkdir -p mygame/usr/local/games/mygame\n   mkdir -p mygame/usr/share/applications

@@ -1,0 +1,1 @@
+using RtfParser;\n\npublic class RtfConverter\n{\n    public static string ConvertRtfToText(byte[] rtfStream)\n    {\n        RtfParser parser = new RtfParser();\n        return parser.Parse(rtfStream).GetText();\n    }\n}

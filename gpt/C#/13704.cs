@@ -1,1 +1,0 @@
-private void Form1_Load(object sender, EventArgs e)\n{\n    int personID = 1; // Replace with actual person ID\n    LoadPersonData(personID);\n}

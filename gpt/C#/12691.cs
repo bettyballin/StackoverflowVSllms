@@ -1,1 +1,0 @@
-[HttpPost]\n   public ActionResult Details(int accountId)\n   {\n       var account = _accountService.GetAccountById(accountId);\n       return View(account);\n   }

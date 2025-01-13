@@ -1,1 +1,0 @@
-SELECT MAX(column_name) \nFROM table_name \nWHERE column_name < (SELECT MAX(column_name) FROM table_name);

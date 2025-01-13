@@ -1,1 +1,0 @@
-<?php\nif (isset($_POST['select'])) {\n    $select = urldecode($_POST['select']);\n    // Now use $select safely\n    $cmd = "some_command " . escapeshellarg($select);\n    exec($cmd, $output, $return_var);\n\n    // Handle the output and return value as needed\n    echo htmlspecialchars(print_r($output, true));\n}\n?>

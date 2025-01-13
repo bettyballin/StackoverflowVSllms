@@ -1,1 +1,0 @@
-.item {\n  width: 45%; /* Adjust as needed */\n  float: left;\n  margin: 2.5%; /* Adjust to suit spacing */\n  word-wrap: break-word;\n  border: 1px solid #ddd; /* Optional: for better visual separation */\n  padding: 5px; /* Optional: for better readability */\n  box-sizing: border-box;\n}

@@ -1,0 +1,1 @@
+regasm /codebase /tlb:mydotnetcomserver.tlb mydotnetcomserver.dll /manifest

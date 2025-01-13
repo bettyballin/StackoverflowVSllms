@@ -1,0 +1,1 @@
+psql -U your_username your_database < backup_file.sql

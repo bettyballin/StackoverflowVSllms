@@ -1,1 +1,0 @@
-INSERT INTO users (username, password) VALUES ('username_here', 'hashed_password_here');

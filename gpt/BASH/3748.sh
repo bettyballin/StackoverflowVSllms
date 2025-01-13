@@ -1,1 +1,0 @@
-cleartool mklabel LABEL_NAME /path/to/selective_file1\n   cleartool mklabel LABEL_NAME /path/to/selective_file2\n   # Continue for each selective file

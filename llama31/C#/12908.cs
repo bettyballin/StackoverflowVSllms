@@ -1,0 +1,1 @@
+using NUnit.Framework;\n\n[TestFixture]\npublic class CalculatorTests\n{\n    [Test]\n    public void Add_TwoPlusTwo_ReturnsFour()\n    {\n        // Arrange\n        var calculator = new Calculator();\n\n        // Act\n        var result = calculator.Add(2, 2);\n\n        // Assert\n        Assert.AreEqual(4, result);\n    }\n}

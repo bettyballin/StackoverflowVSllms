@@ -1,0 +1,1 @@
+public static List<string> GetImageList()\n{\n    Assembly assembly = Assembly.LoadFrom("YourDllName.dll");\n    return assembly.GetResources()\n        .Where(r => r.EndsWith(".png") || r.EndsWith(".jpg") || r.EndsWith(".bmp"))\n        .ToList();\n}

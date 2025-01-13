@@ -1,0 +1,1 @@
+$ts = "3/11/09 11:18:59 AM";\n$dt = DateTime::createFromFormat("m/d/y H:i:s A", $ts);\necho $dt->format("d-M-Y");

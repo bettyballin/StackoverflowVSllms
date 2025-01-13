@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare("SELECT * FROM $tbl_name WHERE username = :username AND pwd = :pass AND priv_level = :privlevel");\n$stmt->bindParam(':username', $myusername);\n$stmt->bindParam(':pass', $pass);\n$stmt->bindParam(':privlevel', $privlevel);\n$stmt->execute();

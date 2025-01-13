@@ -1,0 +1,1 @@
+If newBmp Is Nothing Then\n    context.Response.StatusCode = 404\n    context.Response.StatusDescription = "Image not found"\n    context.Response.End()\nEnd If

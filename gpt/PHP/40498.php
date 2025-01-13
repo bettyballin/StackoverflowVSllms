@@ -1,1 +1,0 @@
-$array = [\n    "name" => "John",\n    "age" => 30,\n    "address" => [\n        "city" => "New York",\n        "zip" => "10001"\n    ]\n];\n\n// Encode to JSON\n$jsonData = json_encode($array);\nfile_put_contents('cache.json', $jsonData);\n\n// Decode from JSON\n$jsonData = file_get_contents('cache.json');\n$array = json_decode($jsonData, true);

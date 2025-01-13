@@ -1,0 +1,1 @@
+MyWebService client = new MyWebService();\nstring feedback = client.MyWebServiceMethod();\nConsole.WriteLine(feedback);

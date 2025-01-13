@@ -1,0 +1,1 @@
+// example usage of the Validate package\nrequire_once 'Validate.php';\n\n$validator = new Validate();\n\nif ($validator->email('example@example.com')) {\n    echo 'Email is valid';\n} else {\n    echo 'Email is not valid';\n}

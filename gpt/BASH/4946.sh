@@ -1,1 +1,0 @@
-su - db2inst1\ndb2move testdb export

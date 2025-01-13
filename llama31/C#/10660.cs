@@ -1,0 +1,1 @@
+DataGridViewAirport.DataSource = GlobalDisplayAirports;\n\nDataGridViewAirport.Columns["InternalId"].Visible = false;

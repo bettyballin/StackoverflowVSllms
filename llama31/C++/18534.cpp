@@ -1,0 +1,1 @@
+Variant excelApp;\nVariant excelActiveSheet;\n\n// Assuming you have already initialized the excelApp object\n\nexcelActiveSheet = excelApp.OlePropertyGet("ActiveSheet");

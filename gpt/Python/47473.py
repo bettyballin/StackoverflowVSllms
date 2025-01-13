@@ -1,1 +1,0 @@
-from macros import multiline\n\n@multiline\ndef repeat(n):\n    def wrapper(code_block):\n        return "\n".join([line for line in code_block.split('\n') for _ in range(n)])\n    return wrapper\n\n# Usage\n@repeat(3)\ndef sample():\n    """\n    print("This is a repeated line.")\n    print("Another line to repeat.")\n    """

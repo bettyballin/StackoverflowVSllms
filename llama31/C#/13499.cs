@@ -1,0 +1,1 @@
+public class MyApplicationContext : ApplicationContext\n{\n    public CurrentUser CurrentUser { get; set; }\n}\n\npublic class MainForm : Form\n{\n    private readonly MyApplicationContext _context;\n\n    public MainForm(MyApplicationContext context)\n    {\n        _context = context;\n    }\n}

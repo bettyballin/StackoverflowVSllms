@@ -1,1 +1,0 @@
-from microbit import *\n\n   while True:\n       display.scroll('Hello, world!')\n       sleep(2000)

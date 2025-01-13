@@ -1,1 +1,0 @@
-SELECT a.*, b.*\nFROM TableA a\nJOIN TableB b ON a.id = b.id\nWHERE a.some_column = @some_value;

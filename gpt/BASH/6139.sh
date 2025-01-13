@@ -1,1 +1,0 @@
-# Change ownership of the directory\nsudo chown username:groupname /var/www/uploads\n\n# Set permissions to allow writing\nsudo chmod 755 /var/www/uploads\n\n# Optionally, allow group members to write\nsudo chmod 775 /var/www/uploads\n\n# Restart SSH service if configuration changed\nsudo systemctl restart sshd

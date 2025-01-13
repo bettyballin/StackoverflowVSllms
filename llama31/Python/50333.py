@@ -1,0 +1,1 @@
+import uuid\n\n# Generate a UUID for each record\nrecord_uuid = uuid.uuid4()\n\n# Store the UUID in a separate column\nrecord = {\n    'id': 123,  # primary key\n    'uuid': record_uuid,\n    'name': 'John Doe',\n    'email': 'john@example.com'\n}\n\n# Expose the UUID instead of the primary key\nprint(record['uuid'])

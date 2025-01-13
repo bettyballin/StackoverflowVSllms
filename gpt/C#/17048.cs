@@ -1,1 +1,0 @@
-var changes = db.GetChangeSet();\nConsole.WriteLine("Inserts: " + changes.Inserts.Count);\nConsole.WriteLine("Updates: " + changes.Updates.Count);\nConsole.WriteLine("Deletes: " + changes.Deletes.Count);

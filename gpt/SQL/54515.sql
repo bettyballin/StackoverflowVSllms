@@ -1,1 +1,0 @@
-SELECT STRING_AGG(CONCAT(FName, ' ', LName), ', ') AS FullNames\nFROM Employees;

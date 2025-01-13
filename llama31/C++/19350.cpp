@@ -1,0 +1,1 @@
+std::mutex mtx;\nbool dataUpdated = false;\n\n// Thread 1:\nwhile (1) {\n    std::lock_guard<std::mutex> lock(mtx);\n    if (dataUpdated) {\n        updateScreen();\n    }\n    doSomethingElse();\n}\n\n// Thread 2:\nwhile (1) {\n    if (doSomething()) {\n        std::lock_guard<std::mutex> lock(mtx);\n        dataUpdated = true;\n    }\n}

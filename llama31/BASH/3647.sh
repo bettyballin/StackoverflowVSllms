@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Update the web root with the latest changes\nsvn update /path/to/web/root

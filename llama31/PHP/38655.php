@@ -1,0 +1,1 @@
+use SebastianBergmann\Diff\Differ;\n\n$differ = new Differ();\n$diff = $differ->diffToArray($old_text, $new_text);

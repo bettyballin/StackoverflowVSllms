@@ -1,1 +1,0 @@
-wget --mirror -p --convert-links -P ./local_dir http://example.com

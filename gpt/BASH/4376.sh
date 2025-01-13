@@ -1,1 +1,0 @@
-et user IWAM_<MachineName> /add\n    net localgroup IIS_WPG /add IWAM_<MachineName>

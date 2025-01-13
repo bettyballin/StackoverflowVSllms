@@ -1,0 +1,1 @@
+String found = text.FirstOrDefault(s => s == "d");

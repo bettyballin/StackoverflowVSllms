@@ -1,0 +1,1 @@
+WITH aliasTable AS (\n  SELECT CONVERT(int, SUBSTRING(id, PATINDEX('%[0-9]%', id), 999)) AS memId\n  FROM accountingTab\n)\nSELECT memId, userDetails.title, userDetails.lname\nFROM aliasTable\nINNER JOIN (\n  SELECT id, title, first, last FROM memDetTab\n) AS userDetails\nON aliasTable.memId = userDetails.id

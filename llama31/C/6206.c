@@ -1,0 +1,1 @@
+#include <sys/inotify.h>\n\nint inotify_fd = inotify_init();\ninotify_add_watch(inotify_fd, "/path/to/watch", IN_MOVE);

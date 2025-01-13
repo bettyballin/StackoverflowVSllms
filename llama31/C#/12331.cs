@@ -1,0 +1,1 @@
+public class HomeController : Controller\n{\n    [RequireHttps]\n    public ActionResult Index()\n    {\n        //...\n    }\n}

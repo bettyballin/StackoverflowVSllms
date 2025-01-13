@@ -1,0 +1,1 @@
+DELETE ph\nFROM dbo.ProtocolHeaders ph\nINNER JOIN @Protocols p ON ph.ProtocolID = p.ProtocolID

@@ -1,0 +1,1 @@
+$macAddress = exec('getmac');

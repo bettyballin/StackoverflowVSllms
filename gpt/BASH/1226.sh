@@ -1,1 +1,0 @@
-alpha="a1"\nalpha="a2"\nalpha="a3"\nbeta="b1"\nbeta="b2"\nbeta="b3"

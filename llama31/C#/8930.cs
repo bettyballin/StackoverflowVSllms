@@ -1,0 +1,1 @@
+// Load captions from a resource file or configuration file\nvar captions = new Dictionary<string, string>();\ncaptions.Add("MyColumn", "User Friendly Caption");\n\n// Apply captions to DataColumns\nforeach (DataColumn column in dataTable.Columns)\n{\n    if (captions.ContainsKey(column.ColumnName))\n    {\n        column.Caption = captions[column.ColumnName];\n    }\n}

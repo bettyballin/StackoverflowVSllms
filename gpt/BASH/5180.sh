@@ -1,1 +1,0 @@
-mkfs.ext4 -O inline_data /dev/sdX

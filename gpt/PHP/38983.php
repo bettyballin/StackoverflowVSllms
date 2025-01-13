@@ -1,1 +1,0 @@
-class SomeModule_SomeController extends My_Controller_Base\n{\n    // Your controller-specific code here\n}

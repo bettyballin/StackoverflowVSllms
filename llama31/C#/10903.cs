@@ -1,0 +1,1 @@
+if (Page_IsValid) {\n    // Page is valid\n} else {\n    // Page is not valid\n}

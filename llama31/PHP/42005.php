@@ -1,0 +1,1 @@
+// Define a table class\nclass User extends ADOdb_Active_Record\n{\n    public $_table = 'users';\n}\n\n// Create a table instance\n$user = new User();\n\n// Fetch a row\n$user->load('id = 1');\n\n// Update a row\n$user->name = 'John Doe';\n$user->save();

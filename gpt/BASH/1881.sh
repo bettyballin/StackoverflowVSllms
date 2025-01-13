@@ -1,1 +1,0 @@
-chmod 755 /home/webtest/help\n   chmod 755 /home/webtest

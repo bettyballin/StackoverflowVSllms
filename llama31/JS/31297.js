@@ -1,0 +1,1 @@
+// application.js\nvar App = {\n  init: function() {\n    // Initialize your application logic here\n  },\n  saveState: function() {\n    // Send the state of the divs to the server via AJAX\n    $.ajax({\n      type: 'POST',\n      url: '/your-php-controller/save-state',\n      data: { state: yourStateData }\n    });\n  }\n};

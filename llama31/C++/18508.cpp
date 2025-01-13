@@ -1,0 +1,1 @@
+// debug_build.cpp\n#ifdef DEBUG\n#define DEBUG_LOGGING 1\n#else\n#define DEBUG_LOGGING 0\n#endif\n\nif (DEBUG_LOGGING) {\n    // Log sensitive information\n}\n\n// release_build.cpp\n#define DEBUG_LOGGING 0\n\nif (DEBUG_LOGGING) {\n    // Log sensitive information (disabled in release build)\n}

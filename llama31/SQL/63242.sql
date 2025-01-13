@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n  SELECT customer_id, SUM(total_amount) AS total_spent\n  FROM orders\n  GROUP BY customer_id\n) AS customer_spending\nLEFT OUTER JOIN orders\nON customer_spending.customer_id = orders.customer_id;

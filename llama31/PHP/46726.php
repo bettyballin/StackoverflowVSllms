@@ -1,0 +1,1 @@
+return call_user_func($wrap[$function], ...$args);

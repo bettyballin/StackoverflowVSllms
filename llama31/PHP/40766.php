@@ -1,0 +1,1 @@
+$dir = '/path/to/directory';\n$iterator = new DirectoryIterator($dir);\n\nforeach ($iterator as $file) {\n    if ($file->isFile()) {\n        echo $file->getFilename() . "\n";\n    }\n}

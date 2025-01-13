@@ -1,1 +1,0 @@
-[SomeAttribute("d2719f73-1d3b-4d45-9c21-5d420d6a7e6d")]\npublic class MyClass\n{\n    // Class implementation\n}

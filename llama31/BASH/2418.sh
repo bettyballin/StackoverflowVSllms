@@ -1,0 +1,1 @@
+procmon.exe /BackingFile:C:\temp\procmon.log /Capture

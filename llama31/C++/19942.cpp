@@ -1,0 +1,1 @@
+#include <tr1/memory>\n\nstd::tr1::shared_ptr<int> ptr(new int(5));

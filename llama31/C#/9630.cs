@@ -1,0 +1,1 @@
+using System.Security.Principal;\n\n// ...\n\nWindowsIdentity identity = (WindowsIdentity)HttpContext.Current.User.Identity;\nstring displayName = identity.Name;

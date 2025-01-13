@@ -1,1 +1,0 @@
-curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -\n   sudo add-apt-repository "$(curl https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/prod.list)"

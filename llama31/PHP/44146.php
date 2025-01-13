@@ -1,0 +1,1 @@
+// your_php_app.php (on OpenBSD server)\n\n$url = 'https://your_centos_server.com/data'; // Replace with your API endpoint\n$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n$response = curl_exec($ch);\ncurl_close($ch);\n$data = json_decode($response, true); // Decode JSON response

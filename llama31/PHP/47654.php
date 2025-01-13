@@ -1,0 +1,1 @@
+class StringUtil {\n    public static function sanitize($input) {\n        // Sanitization logic here\n    }\n\n    public static function format($input) {\n        // Formatting logic here\n    }\n}

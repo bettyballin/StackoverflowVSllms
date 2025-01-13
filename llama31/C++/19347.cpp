@@ -1,0 +1,1 @@
+void setup() {\n  Serial.begin(9600);\n}\n\nvoid loop() {\n  Serial.println("Hello, World!");\n  delay(1000);\n}

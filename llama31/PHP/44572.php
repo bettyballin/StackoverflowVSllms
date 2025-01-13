@@ -1,0 +1,1 @@
+function encodeUserInput($input) {\n    $input = trim($input);\n    $input = htmlspecialchars($input, ENT_QUOTES, 'UTF-8');\n    $input = preg_replace('/[^\w\s\.,!?-]/', '', $input); // Optional: whitelist allowed characters\n    return $input;\n}

@@ -1,0 +1,1 @@
+Using connection As New SqlConnection(myLC.GetConnectionString())\n    Try\n        ' Use the connection\n    Finally\n        connection.Close()\n        connection.Dispose()\n    End Try\nEnd Using

@@ -1,0 +1,1 @@
+function doSomething($con) {\n  // Do stuff with MySQL\n  $con->tralalala();\n}\n\n$con = connectToDatabase();\ndoSomething($con);

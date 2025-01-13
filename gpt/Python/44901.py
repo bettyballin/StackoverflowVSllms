@@ -1,1 +1,0 @@
-import requests\n   \n   api_key = 'YOUR_API_KEY'\n   symbol = 'AAPL'\n   url = f'https://yh-finance.p.rapidapi.com/stock/v2/get-financials?symbol={symbol}'\n   \n   headers = {\n       'x-rapidapi-host': 'yh-finance.p.rapidapi.com',\n       'x-rapidapi-key': api_key\n   }\n   \n   response = requests.get(url, headers=headers)\n   data = response.json()\n   \n   print(data)

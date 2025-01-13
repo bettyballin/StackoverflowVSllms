@@ -1,1 +1,0 @@
-// Shared Game Logic\npublic class GameLogic\n{\n    public void Update()\n    {\n        // Game update logic\n    }\n\n    public void Draw()\n    {\n        // Game drawing logic\n    }\n}

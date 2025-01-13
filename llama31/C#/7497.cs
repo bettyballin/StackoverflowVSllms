@@ -1,0 +1,1 @@
+string html = "<ul><li>Hello</li></ul>";\nstring stripped = HtmlStripper.StripHtmlTags(html);\nConsole.WriteLine(stripped); // Output: "Hello"

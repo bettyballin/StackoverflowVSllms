@@ -1,0 +1,1 @@
+document.getElementById('myform').onsubmit = function() {\n  // Submit the form using AJAX or a regular form submission\n  // ...\n\n  // Create a new entry in the browser's history stack\n  history.pushState(null, null, '/new-url');\n};

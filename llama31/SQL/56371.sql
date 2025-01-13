@@ -1,0 +1,1 @@
+SELECT DATALENGTH(myVarBinaryField) AS LengthInBytes\nFROM myTable;

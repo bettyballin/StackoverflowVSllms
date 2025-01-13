@@ -1,1 +1,0 @@
-<?php\nheader('Content-Type: application/json');\n$id = isset($_GET['id']) ? $_GET['id'] : null;\n$results = $id ? "Received ID: $id" : "test";\necho json_encode($results);\n?>

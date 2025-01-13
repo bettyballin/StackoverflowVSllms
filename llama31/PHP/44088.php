@@ -1,0 +1,1 @@
+$result = mysql_query("SELECT * FROM large_table");\nwhile ($row = mysql_fetch_assoc($result)) {\n    // process the row\n}\nmysql_free_result($result);

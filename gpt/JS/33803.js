@@ -1,1 +1,0 @@
-var DivModel = Backbone.Model.extend({\n    defaults: {\n        position: { top: 0, left: 0 },\n        content: ''\n    }\n});

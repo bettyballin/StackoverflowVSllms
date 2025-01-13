@@ -1,0 +1,1 @@
+#ifndef OBJECT_H\n#define OBJECT_H\n\nclass __declspec(dllexport) Object {\npublic:\n    // ...\n};\n\n#endif  // OBJECT_H

@@ -1,0 +1,1 @@
+$body = chunk_split($body, 70, "\r\n");

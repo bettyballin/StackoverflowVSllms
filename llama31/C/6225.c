@@ -1,0 +1,1 @@
+int r = 300; // invalid value, will be clamped to 255\nint g = 100; // valid value\nint b = -10; // invalid value, will be clamped to 0\n\nr = (r < 0) ? 0 : (r > 255) ? 255 : r;\ng = (g < 0) ? 0 : (g > 255) ? 255 : g;\nb = (b < 0) ? 0 : (b > 255) ? 255 : b;\n\n// Now r, g, and b are valid and can be used with gdResolveColor

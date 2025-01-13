@@ -1,0 +1,1 @@
+Dim bufferSize As Integer = 4096\nDim buffer(bufferSize - 1) As Byte\n\nUsing inputStream As New System.IO.FileStream(filePath, IO.FileMode.Open)\n    Dim bytesRead As Integer\n    Do\n        bytesRead = inputStream.Read(buffer, 0, bufferSize)\n        ' Process the buffer\n        ' ...\n    Loop While bytesRead > 0\nEnd Using

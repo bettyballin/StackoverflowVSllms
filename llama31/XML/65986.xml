@@ -1,0 +1,1 @@
+<sessionState \n  mode="SQLServer" \n  allowCustomSqlDatabase="true" \n  sqlConnectionString="Data Source=YourDBServer;Initial Catalog=YourDB;Integrated Security=True" \n  cookieless="false" \n  timeout="20" />

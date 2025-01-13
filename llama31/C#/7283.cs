@@ -1,0 +1,1 @@
+public EmployeeMap()\n{\n    Id(x => x.EmployeeID);\n    Map(x => x.FirstName);\n    Map(x => x.LastName);\n    Map(x => x.City);\n    Map(x => x.HireDate);\n    Map(x => x.Title);\n    HasMany(x => x.Orders)\n        .KeyColumn("EmployeeID") // Use KeyColumn instead of WithKeyColumn\n        .Inverse()\n        .Cascade.All();\n}

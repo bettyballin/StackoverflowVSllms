@@ -1,0 +1,1 @@
+Imports System.Windows.Forms\n\nPublic Class BaseForm\n    Inherits Form\n\n    Private Sub BaseForm_FormClosed(sender As Object, e As FormClosedEventArgs) Handles MyBase.FormClosed\n        Application.Exit()\n    End Sub\n\nEnd Class

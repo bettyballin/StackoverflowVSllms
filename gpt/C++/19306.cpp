@@ -1,1 +1,0 @@
-void construct(pointer p, const T& val) { new(p) T(val); }\nvoid destroy(pointer p) { p->~T(); }

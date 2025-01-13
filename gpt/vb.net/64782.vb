@@ -1,1 +1,0 @@
-Imports TC = TestClass\n\nPublic Class MainClass\n    Public Sub Main()\n        TC.Somefunc()\n    End Sub\nEnd Class

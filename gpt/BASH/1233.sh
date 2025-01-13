@@ -1,1 +1,0 @@
-command="/bin/myscript.sh",no-port-forwarding,no-X11-forwarding,no-agent-forwarding,no-pty ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAr... user@host

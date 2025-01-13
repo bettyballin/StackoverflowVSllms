@@ -1,1 +1,0 @@
-SELECT CASE WHEN Logo IS NULL THEN 0 ELSE 1 END AS HasLogo\n    FROM LogosTable\n    WHERE ReportID = @ReportID

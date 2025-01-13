@@ -1,0 +1,1 @@
+string sqlQuery = "SELECT one, two, three FROM table1, table2 WHERE X=Y";\nstring[] tableNames = TableNameExtractor.ExtractTableNames(sqlQuery);\nforeach (string tableName in tableNames)\n{\n    Console.WriteLine(tableName.Trim());\n}

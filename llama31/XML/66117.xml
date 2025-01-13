@@ -1,0 +1,1 @@
+<?xml version="1.0"?>\n<root>\n    <child1>\n        <grandchild1>grandvalue1</grandchild1>\n    </child1>\n    <child2>value2</child2>\n</root>

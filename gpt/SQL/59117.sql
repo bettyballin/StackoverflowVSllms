@@ -1,1 +1,0 @@
-CREATE VIEW case_sensitive_view AS\nSELECT * FROM your_table WHERE BINARY your_column = 'a';

@@ -1,0 +1,1 @@
+/usr/texbin/pdflatex -v foo.tex

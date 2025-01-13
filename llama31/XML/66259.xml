@@ -1,0 +1,1 @@
+<log4net>\n  <appender name="FileAppender" type="log4net.Appender.FileAppender">\n    <file value="logs/myapp.log" />\n    <appendToFile value="true" />\n  </appender>\n  <root>\n    <level value="INFO" />\n    <appender-ref ref="FileAppender" />\n  </root>\n</log4net>

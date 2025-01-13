@@ -1,1 +1,0 @@
-sudo docker run -d -p 1521:1521 -p 5500:5500 --name oracle-db -e ORACLE_PWD=YourStrong!Passw0rd oracle/database:19.3.0-ee

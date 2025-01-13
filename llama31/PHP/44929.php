@@ -1,0 +1,1 @@
+$sql = 'CREATE TABLE '.$table.' (\n                `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,\n                `name` VARCHAR( 55 ) NOT NULL ,\n                `venue` VARCHAR( 55 ) NOT NULL ,\n                `time` DATETIME NOT NULL ,\n                `desc` TEXT NOT NULL\n                )';

@@ -1,0 +1,1 @@
+template<typename T>\nstd::string format_helper(std::ostringstream& os, T item) {\n    os << item;\n    return os.str();\n}\n\ntemplate<typename T, typename... Args>\nstd::string format_helper(std::ostringstream& os, T item, Args... args) {\n    os << item;\n    return format_helper(os, args...);\n}\n\n#define FORMAT(items) format_helper(std::ostringstream(), items)

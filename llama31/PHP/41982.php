@@ -1,0 +1,1 @@
+print_r($your_array);\n// or\necho '<pre>';\nvar_dump($your_array);\necho '</pre>';\n// or\necho '<pre>';\nprint_r($your_array, true); // Notice the second argument set to true\necho '</pre>';

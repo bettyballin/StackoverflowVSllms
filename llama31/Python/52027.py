@@ -1,0 +1,1 @@
+import numpy as np\n\ndef logistic_map(n, r):\n    x = np.zeros(n)\n    x[0] = 0.5\n    for i in range(1, n):\n        x[i] = r * x[i-1] * (1 - x[i-1])\n    return x

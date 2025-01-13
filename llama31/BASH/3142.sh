@@ -1,0 +1,1 @@
+svn merge --force --accept theirs-full <path_to_temporary_directory> <path_to_tinymce_folder_in_svn_working_copy>

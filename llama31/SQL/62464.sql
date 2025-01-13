@@ -1,0 +1,1 @@
+SELECT AVG(LENGTH(content) - LENGTH(REGEXP_REPLACE(content, '[^\\s]+', '')) + 1)\nFROM documents;

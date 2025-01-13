@@ -1,0 +1,1 @@
+DECLARE @foo INT\nSET @foo = null\n\nCREATE TABLE #TempTable (value VARCHAR(50))\n\nINSERT INTO #TempTable (value)\nSELECT CASE WHEN @foo IS NULL THEN 'foo was null' ELSE 'foo not null' END

@@ -1,0 +1,1 @@
+$dateString = 'Jan 15 2005 12:00AM';\n$date = DateTime::createFromFormat('M j Y', substr($dateString, 0, -8));\necho $date->getTimestamp();

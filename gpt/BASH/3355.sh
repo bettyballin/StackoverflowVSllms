@@ -1,1 +1,0 @@
-ld -m elf_i386 -o myprogram myprogram.o

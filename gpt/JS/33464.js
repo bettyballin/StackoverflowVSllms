@@ -1,1 +1,0 @@
-if (typeof config !== 'undefined') {\n  alert(config.config); // Should alert "true"\n} else {\n  console.error("Config is not defined");\n}

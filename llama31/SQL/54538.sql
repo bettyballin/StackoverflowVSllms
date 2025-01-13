@@ -1,0 +1,1 @@
+SELECT uid, key, email\nFROM your_table\nWHERE email IN (\n  SELECT email\n  FROM your_table\n  GROUP BY email\n  HAVING COUNT(DISTINCT key) > 1\n)\nAND key IN (\n  SELECT key\n  FROM your_table\n  GROUP BY key\n  HAVING COUNT(email) = 1\n)

@@ -1,0 +1,1 @@
+use PHPSQLParser\PHPSQLParser;\n\n$sql = "SELECT * FROM tbl WHERE user_id > 50";\n$parser = new PHPSQLParser();\n$stmt = $parser->parse($sql);\n\nprint_r($stmt);

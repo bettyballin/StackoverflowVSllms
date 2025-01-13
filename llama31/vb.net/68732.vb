@@ -1,0 +1,1 @@
+Imports System.Web\n\nDim encodedHtml As String = "&lt;BR&gt;"\nDim decodedHtml As String = HttpUtility.HtmlDecode(encodedHtml)\n\nConsole.WriteLine(decodedHtml)  ' Outputs: <BR>

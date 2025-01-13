@@ -1,1 +1,0 @@
-<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">\n  <class name="YourNamespace.Certificate" table="Certificates">\n    <id name="Id" column="CertificateId">\n      <generator class="native" />\n    </id>\n  </class>\n</hibernate-mapping>

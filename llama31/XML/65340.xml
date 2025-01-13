@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?>\n<jnlp spec="1.0+">\n    <information>\n        <title>My Application</title>\n        <vendor>My Company</vendor>\n    </information>\n    <security>\n        <all-permissions/>\n    </security>\n    <resources>\n        <jar href="myapp.jar" main="true"/>\n    </resources>\n    <application-desc main-class="com.mycompany.MyApp"/>\n</jnlp>

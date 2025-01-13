@@ -1,1 +1,0 @@
-<?php\nsession_start();\n\n$username = $_POST['username'];\n$password = $_POST['password'];\n\n// Use secure password storage and verification in a real application\nif ($username === "admin" && $password === "XXX") {\n    $_SESSION['logged_in'] = true;\n    $_SESSION['user'] = $username;\n\n    include("isLoggedIn.php");\n} else {\n    include("isNotLoggedIn.php");\n}\n?>

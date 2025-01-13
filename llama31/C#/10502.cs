@@ -1,0 +1,1 @@
+so.Cpage = Request.Url.AbsolutePath + "?" + Request.QueryString.ToString().TrimStart("?"c)

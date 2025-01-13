@@ -1,0 +1,1 @@
+WITH RecursiveTree AS (\n    SELECT NodeID, ParentNodeID, 0 AS Level\n    FROM Tree\n    WHERE NodeID = @StartNodeID  -- anchor node\n    UNION ALL\n    SELECT t.NodeID, t.ParentNodeID, Level + 1\n    FROM Tree t\n    INNER JOIN RecursiveTree p ON t.ParentNodeID = p.NodeID\n)\nSELECT * FROM RecursiveTree

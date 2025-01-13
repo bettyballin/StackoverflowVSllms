@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $searchTerm = $_POST['searchTerm'];\n} else if ($_SERVER['REQUEST_METHOD'] === 'GET') {\n    $searchTerm = $_GET['searchTerm'];\n}\n\nif (!empty($searchTerm)) {\n    // Process the search term\n    echo "Searching for: " . htmlspecialchars($searchTerm);\n} else {\n    echo "No search term provided.";\n}\n?>

@@ -1,1 +1,0 @@
-try\n   {\n       // Service logic\n   }\n   catch (Exception ex)\n   {\n       // Log the detailed exception server-side\n       Logger.LogError(ex);\n\n       // Return a generic error message to the client\n       throw new FaultException("An error occurred while processing your request.");\n   }

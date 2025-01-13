@@ -1,1 +1,0 @@
-svnadmin create /path/to/mirror-repo

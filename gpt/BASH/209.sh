@@ -1,1 +1,0 @@
-find /path/to/start -type f -perm 777 -print

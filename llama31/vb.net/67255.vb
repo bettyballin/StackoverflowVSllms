@@ -1,0 +1,1 @@
+Imports Microsoft.VisualBasic\n\nStructure ctrObj\n    Dim Name As String\n    Dim Index As Integer\n    Dim Top As Integer\n    Dim Left As Integer\n    Dim Height As Integer\n    Dim width As Integer\n    Dim ScaleHeight As Integer\n    Dim ScaleWidth As Integer\nEnd Structure

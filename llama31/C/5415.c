@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint main() {\n    int x = 3;\n    int y = 10;\n\n    printf("%d\n", x / y);  // prints 0\n    printf("%d\n", (x * 100) / y);  // prints 30\n    printf("%d\n", (x * 1000 + 500) / y / 10);  // prints 30\n\n    return 0;\n}

@@ -1,0 +1,1 @@
+SELECT \n  Id, \n  Name\nFROM \n  Table1\nWHERE \n  Id NOT IN (SELECT Id FROM Table2)\n\nUNION\n\nSELECT \n  Id, \n  Name\nFROM \n  Table2\nWHERE \n  Id NOT IN (SELECT Id FROM Table1);

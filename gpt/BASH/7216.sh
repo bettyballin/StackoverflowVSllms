@@ -1,1 +1,0 @@
-echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc\n   source ~/.bashrc

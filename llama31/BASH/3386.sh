@@ -1,0 +1,1 @@
+doxygen -g path/to/config/file

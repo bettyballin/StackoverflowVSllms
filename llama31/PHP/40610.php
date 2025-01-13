@@ -1,0 +1,1 @@
+$obj = ORM::factory('shoppingcart')->where('sessionID', session_id())->find();\n\nif ($obj->loaded()) {\n    // A record was found, you can use $obj\n} else {\n    // No record was found, handle this case accordingly\n}

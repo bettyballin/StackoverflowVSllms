@@ -1,0 +1,1 @@
+div {\n  width: 80ch;\n  height: 25em; /* assuming 1em is the height of one line of text */\n  font-family: monospace;\n}

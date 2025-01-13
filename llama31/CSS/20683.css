@@ -1,0 +1,1 @@
+ul {\n    list-style: none;\n    padding: 0;\n    margin: 0;\n}\n\nli {\n    padding-left: 15px;\n    width: 400px;\n    position: relative; /* add this */\n}\n\n.options {\n    position: absolute; /* change from float to absolute positioning */\n    right: 0; /* align to the right */\n    width: 50px;\n    top: 0; /* align to the top */\n}

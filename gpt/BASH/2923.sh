@@ -1,1 +1,0 @@
-caspol -m -ag 1.2 -zone Intranet FullTrust

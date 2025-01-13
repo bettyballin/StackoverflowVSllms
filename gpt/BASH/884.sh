@@ -1,1 +1,0 @@
-cp db/development_backup.sqlite3 db/development.sqlite3

@@ -1,0 +1,1 @@
+public SqlQuery AddCondition(SqlQuery q, string columnName, string value)\n{\n    return q.HasWhere ? q.And(columnName).IsEqualTo(value) \n                     : q.Where(columnName).IsEqualTo(value);\n}

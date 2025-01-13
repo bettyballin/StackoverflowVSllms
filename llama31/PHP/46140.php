@@ -1,0 +1,1 @@
+$toField = explode(",", $ids);\n$json_toField = json_encode($toField);

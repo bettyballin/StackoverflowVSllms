@@ -1,1 +1,0 @@
-<dependency>\n    <groupId>org.projectlombok</groupId>\n    <artifactId>lombok</artifactId>\n    <version>1.18.24</version>\n    <scope>provided</scope>\n</dependency>

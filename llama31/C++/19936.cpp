@@ -1,0 +1,1 @@
+// myprogram.cpp\n#include <log4cpp/log4cpp.h> // include the header file\n\nint main() {\n    log4cpp::Category& root = log4cpp::Category::getRoot();\n    // ...\n    return 0;\n}

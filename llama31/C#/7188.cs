@@ -1,0 +1,1 @@
+string token = "your_token_here";\nstring protectedToken = TokenStorage.Protect(token);\n// Store protectedToken securely, e.g., in a file or registry

@@ -1,1 +1,0 @@
-require_once 'jsonRPCClient.php';\n    $client = new jsonRPCClient('http://jsonrpc.example.com/');\n    \n    try {\n        $result = $client->sampleMethod('parameter');\n        echo "Result: " . $result;\n    } catch (Exception $e) {\n        echo "Error: " . $e->getMessage();\n    }

@@ -1,1 +1,0 @@
-SELECT REPLACE('ClΘmentine' COLLATE Latin1_General_BIN, 'Θ', 'é')

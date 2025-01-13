@@ -1,1 +1,0 @@
-gcc source.o -o executable

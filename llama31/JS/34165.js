@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('#tblQuestions input[type="radio"]').change(function() {\n        var questionId = $(this).closest('table').attr('id');\n        var selectedValue = $(this).val();\n        console.log(questionId + ': ' + selectedValue);\n        // You can also use the questionId and selectedValue for further processing\n    });\n});

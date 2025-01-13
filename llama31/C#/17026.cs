@@ -1,0 +1,1 @@
+textBox1.Multiline = true;\ntextBox1.ScrollBars = ScrollBars.Vertical;\n\nList<string> agentsDetails = GetAgentsDetails(writeDir);\ntextBox1.Text = string.Join(Environment.NewLine, agentsDetails);

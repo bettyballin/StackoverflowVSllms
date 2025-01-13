@@ -1,1 +1,0 @@
-blackfire run php your_script.php

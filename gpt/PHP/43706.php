@@ -1,1 +1,0 @@
-$file = '/path/to/your/file.txt'; // Use an absolute path

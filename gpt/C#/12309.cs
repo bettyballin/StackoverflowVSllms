@@ -1,1 +1,0 @@
-using System.Collections.Generic;\nusing System.Linq;\n\nIEnumerable<int> enumerable = new List<int> { 1, 2, 3, 4, 5 };\nList<int> list = enumerable.ToList();

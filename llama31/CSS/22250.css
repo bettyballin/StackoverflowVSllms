@@ -1,0 +1,1 @@
+#site-navigation li {\n    background-image:url(../img/site-nav-seperator.gif);\n    background-position:0 4px;\n    background-repeat:no-repeat;\n    float:left;\n    padding-left:15px;\n    zoom: 1; /* Add this line */\n}

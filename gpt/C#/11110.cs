@@ -1,1 +1,0 @@
-var query = "SELECT * FROM Users WHERE Username = @username";\n    var users = dbContext.Users.SqlQuery(query, new SqlParameter("@username", username)).ToList();

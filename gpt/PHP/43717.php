@@ -1,1 +1,0 @@
-$type = 2;\n\n$typeMap = [\n    1 => 'gif',\n    2 => 'jpg',\n    3 => 'png',\n];\n\n// Use the null coalescing operator (??) to provide a default value\n$type = $typeMap[$type] ?? 'jpg';\n\necho $type; // Outputs 'jpg'

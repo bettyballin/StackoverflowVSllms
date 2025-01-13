@@ -1,0 +1,1 @@
+from selenium import webdriver\n\nurl = "https://example.com"\ndriver = webdriver.PhantomJS()\ndriver.get(url)\nhtml = driver.page_source\ndriver.quit()\n\nprint(html)

@@ -1,1 +1,0 @@
-ssh user@hostname 'cp -r /directory/subfolder/* /directory/'

@@ -1,0 +1,1 @@
+class CreateExampleTable < ActiveRecord::Migration[6.0]\n  def change\n    create_table :example, id: false do |t|\n      t.string :key_column, primary_key: true\n      t.string :value_column\n    end\n  end\nend

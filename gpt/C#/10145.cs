@@ -1,1 +1,0 @@
-protected void ButtonSubmit_Click(object sender, EventArgs e)\n{\n    // No validation controls and no Page.Validate call\n    if (Page.IsValid)  // This will always be true\n    {\n        // Process the form submission\n    }\n}

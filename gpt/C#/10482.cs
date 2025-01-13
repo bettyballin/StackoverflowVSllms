@@ -1,1 +1,0 @@
-for (int i = ListItem.RoleAssignments.Count - 1; i >= 0; --i)\n{ \n    ListItem.RoleAssignments.Remove(i); \n}

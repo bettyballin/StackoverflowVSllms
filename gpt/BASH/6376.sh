@@ -1,1 +1,0 @@
-# Example: Updating packages in Ubuntu\n   sudo apt-get update\n   sudo apt-get upgrade

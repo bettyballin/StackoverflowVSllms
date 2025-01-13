@@ -1,0 +1,1 @@
+$maxSize = [\n    $new_width ?: $source_width,\n    $new_height ?: $source_height\n];

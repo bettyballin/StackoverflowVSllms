@@ -1,1 +1,0 @@
-DECLARE @sql nvarchar(max) = N'';\n\nSELECT @sql += 'ALTER SCHEMA dbo TRANSFER jonathan.' + QUOTENAME(TABLE_NAME) + ';' + CHAR(13)\nFROM INFORMATION_SCHEMA.TABLES\nWHERE TABLE_SCHEMA = 'jonathan';\n\nPRINT @sql;\n-- EXEC sp_executesql @sql; -- Uncomment this line to execute the generated script

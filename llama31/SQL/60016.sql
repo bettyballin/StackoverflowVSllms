@@ -1,0 +1,1 @@
+CREATE TABLE MyTable (\n    Id INT PRIMARY KEY,\n    ColumnA CHAR(1),\n    ColumnB INT\n);\n\nALTER TABLE MyTable\nADD CONSTRAINT UC_ColumnA_ColumnB UNIQUE (ColumnA, ColumnB);

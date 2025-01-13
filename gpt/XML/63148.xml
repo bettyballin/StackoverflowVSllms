@@ -1,1 +1,0 @@
-<many-to-one name="A" class="A, Model" column="A_ID" not-null="true" />

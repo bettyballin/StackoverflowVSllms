@@ -1,0 +1,1 @@
+$("ul li").each(function(i) {\n  if (i % 3 == 0) {\n    $(this).nextAll("li").addBack().slice(0, 3).wrapAll("<div>");\n  }\n});

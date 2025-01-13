@@ -1,1 +1,0 @@
-// Example of configuring a TableAdapter to use a stored procedure\n    var adapter = new YourTableAdapter();\n    adapter.SelectCommand.CommandType = CommandType.StoredProcedure;\n    adapter.SelectCommand.CommandText = "usp_GetEventNotificationSubscribers";\n    adapter.SelectCommand.Parameters.AddWithValue("@FacilityCode", facilityCodeValue);

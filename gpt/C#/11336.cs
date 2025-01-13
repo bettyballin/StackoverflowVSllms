@@ -1,1 +1,0 @@
-protected void LogoutButton_Click(object sender, EventArgs e)\n    {\n        // Log the user out\n        FormsAuthentication.SignOut();\n\n        // Abandon the session\n        Session.Abandon();\n\n        // Redirect to the login page\n        Response.Redirect(FormsAuthentication.LoginUrl);\n    }

@@ -1,0 +1,1 @@
+SELECT * \nFROM mytree \nWHERE id NOT IN (SELECT parentid FROM mytree WHERE parentid IS NOT NULL)

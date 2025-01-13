@@ -1,1 +1,0 @@
-<?php\nclass MyClass {\n    public function myInstanceCallbackMethod() {\n        echo "Hello from myInstanceCallbackMethod!";\n    }\n}\n\n$instance = new MyClass();\n\nfunction executeCallback(callable $callback) {\n    $callback();\n}\n\nexecuteCallback([$instance, 'myInstanceCallbackMethod']);\n?>

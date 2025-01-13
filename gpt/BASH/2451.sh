@@ -1,1 +1,0 @@
-aspnet_regiis.exe -pef "connectionStrings" "<path_to_your_project_root>"

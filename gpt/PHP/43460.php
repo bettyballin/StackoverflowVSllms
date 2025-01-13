@@ -1,1 +1,0 @@
-$mysqli->autocommit(FALSE);\n    \n    // Insert your batch data\n\n    $mysqli->commit();

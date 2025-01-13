@@ -1,0 +1,1 @@
+private void InvokeCreateChildControls(Control control)\n{\n    var methodInfo = control.GetType().GetMethod("CreateChildControls",\n        BindingFlags.Instance | BindingFlags.NonPublic);\n    methodInfo.Invoke(control, null);\n}

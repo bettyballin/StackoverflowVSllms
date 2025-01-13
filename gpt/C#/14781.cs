@@ -1,1 +1,0 @@
-protected void Application_Start(object sender, EventArgs e)\n{\n    YourNamespace.DomainValidator.ValidateDomain();\n    // Other startup code...\n}

@@ -1,1 +1,0 @@
-CREATE TABLE contacts (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    first_name VARCHAR(50),\n    last_name VARCHAR(50),\n    postcode VARCHAR(10),\n    town VARCHAR(100),\n    country VARCHAR(50),\n    phone_number VARCHAR(15),\n    -- other fields\n    INDEX (first_name),\n    INDEX (last_name),\n    INDEX (postcode),\n    INDEX (phone_number)\n);

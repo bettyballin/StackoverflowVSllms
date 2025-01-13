@@ -1,0 +1,1 @@
+$_SESSION = mysql_fetch_array($result, MYSQL_ASSOC);

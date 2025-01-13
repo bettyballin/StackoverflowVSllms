@@ -1,1 +1,0 @@
-SQLDatabaseConnection dbConnection; // Assume this is properly initialized\n   CDatabaseArchive dbArchive(dbConnection);\n\n   CYourClass yourObject;\n   yourObject.Serialize(dbArchive);

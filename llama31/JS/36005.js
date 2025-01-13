@@ -1,0 +1,1 @@
+var ry=Math.floor(Math.random()*myimages.length)\ndocument.write('<img src="'+myimages[ry]+'" border=0>')

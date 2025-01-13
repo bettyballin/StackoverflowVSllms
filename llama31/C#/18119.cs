@@ -1,0 +1,1 @@
+using System.Text.RegularExpressions;\n\npublic bool ContainsHtml(string input)\n{\n    return Regex.IsMatch(input, "<[^>]*>");\n}

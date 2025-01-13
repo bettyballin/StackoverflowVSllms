@@ -1,0 +1,1 @@
+# Download and install Android SDK\nwget http://developer.android.com/sdk/

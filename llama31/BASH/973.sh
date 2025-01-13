@@ -1,0 +1,1 @@
+certreq -new -keyusage digitalSignature -extendedkeyusage codesigning

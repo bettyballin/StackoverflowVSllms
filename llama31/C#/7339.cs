@@ -1,0 +1,1 @@
+using System.Diagnostics;\n\n// ...\n\nEventLog.WriteEntry("MyApp", "This is a log message", EventLogEntryType.Information);

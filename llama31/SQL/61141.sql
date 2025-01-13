@@ -1,0 +1,1 @@
+SELECT ?husband ?color \nWHERE {\n  ?husband <spouse> ?wife .\n  ?husband <likes> ?color .\n  FILTER NOT EXISTS { ?wife <likes> ?color }\n}

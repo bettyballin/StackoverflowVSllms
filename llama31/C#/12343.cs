@@ -1,0 +1,1 @@
+ICAPClient client = new ICAPClient("icap-server-name", 1344);\nclient.ScanFile(@"C:\path\to\file.exe");

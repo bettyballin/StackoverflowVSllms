@@ -1,0 +1,1 @@
+gcc -static -lhdf5

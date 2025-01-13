@@ -1,0 +1,1 @@
+public class MyDto\n{\n    public List<MyObject> Items { get; set; }\n}\n\npublic MyDto GetMyData()\n{\n    IList<MyObject> data = ...; // your existing method\n    return new MyDto { Items = data.ToList() };\n}

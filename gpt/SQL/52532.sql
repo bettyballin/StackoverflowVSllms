@@ -1,1 +1,0 @@
-REORG TABLE work_item;

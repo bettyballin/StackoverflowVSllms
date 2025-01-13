@@ -1,0 +1,1 @@
+$userInput = $_POST['user_input'];\n$escapedInput = htmlspecialchars($userInput, ENT_QUOTES, 'UTF-8');\necho $escapedInput;

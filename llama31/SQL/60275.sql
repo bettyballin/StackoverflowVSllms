@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nORDER BY \n    CASE \n        WHEN ISNUMERIC(your_column) = 1 THEN CAST(your_column AS INT)\n        ELSE your_column\n    END;

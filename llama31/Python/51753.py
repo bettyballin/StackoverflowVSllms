@@ -1,0 +1,1 @@
+def integrate_chatbot_training_data_with_entity_recognition(data, entity_recognition_sources):\n    # Integrate data with entity recognition data\n    integrated_data = integrate_data_with_entity_recognition(data, entity_recognition_sources)\n    return integrated_data

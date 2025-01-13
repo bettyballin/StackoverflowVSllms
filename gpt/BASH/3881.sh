@@ -1,1 +1,0 @@
-sed -i '1s/ /_/g' filename

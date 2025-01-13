@@ -1,0 +1,1 @@
+$response = $client->call('branchzipdata', $param);\n$content = base64_decode($response);\n$filename = "test.gz";\n\nif (!$handle = fopen($filename, 'wb')) {\n    echo "Cannot open file ($filename)";\n    exit;\n}\n\nif (fwrite($handle, $content) === FALSE) {\n    echo "Cannot write to file ($filename)";\n    exit;\n}\nfclose($handle);

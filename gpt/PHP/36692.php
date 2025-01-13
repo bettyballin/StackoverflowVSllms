@@ -1,1 +1,0 @@
-function myadmintheme_theme(&$existing, $type, $theme, $path) {\n  return array(\n    'node_form' => array(\n      'arguments' => array('form' => NULL),\n      'template' => 'ccktype', // This should match the name of your template file without the .tpl.php extension\n    ),\n  );\n}

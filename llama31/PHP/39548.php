@@ -1,0 +1,1 @@
+$selected_value = $_POST['radio_group'];

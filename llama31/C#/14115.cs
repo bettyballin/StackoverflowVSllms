@@ -1,0 +1,1 @@
+public abstract class InterfaceConstraint<T> where T : class { }\n\npublic void Register<T>() where T : InterfaceConstraint<T>\n{\n    // rest of your code\n}

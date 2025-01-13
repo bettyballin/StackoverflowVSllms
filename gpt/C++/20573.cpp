@@ -1,1 +1,0 @@
-[\n    object,\n    uuid(YOUR_INTERFACE_UUID),\n    pointer_default(unique)\n]\ninterface IYourInterface : IUnknown\n{\n    HRESULT GetImage([out] SAFEARRAY(BYTE) *pArray);\n};

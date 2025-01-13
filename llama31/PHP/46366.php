@@ -1,0 +1,1 @@
+$url = 'http://example.com/thankyou.php';\n// Make sure there is no output before the header\nheader('Location: ' . $url);\nexit;

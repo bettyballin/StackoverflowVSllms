@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint main() {\n    for (int i = 0; i < 10; i++) {\n        printf("Iteration %d\n", i);\n    }\n    return 0;\n}

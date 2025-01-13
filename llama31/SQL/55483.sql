@@ -1,0 +1,1 @@
+impdp system/manager DIRECTORY=backup_dir \\n      QUERY="WHERE table_name NOT IN ('HUGE_TABLE1', 'HUGE_TABLE2', 'HUGE_TABLE3')"

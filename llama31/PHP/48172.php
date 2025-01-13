@@ -1,0 +1,1 @@
+<?php\n  // Remote file URL\n  $remoteFile = 'http://example.com/file.zip';\n  \n  // New file name\n  $newFileName = 'my_file.zip';\n  \n  // Set headers to force download\n  header('Content-Disposition: attachment; filename="' . $newFileName . '"');\n  header('Content-Type: application/zip');\n  \n  // Start downloading the file\n  readfile($remoteFile);\n?>

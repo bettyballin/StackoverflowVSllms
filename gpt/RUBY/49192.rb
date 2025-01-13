@@ -1,1 +1,0 @@
-add_index :classifications, [:species, :family]\nadd_index :classifications, :trivial_names

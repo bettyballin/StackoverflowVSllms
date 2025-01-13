@@ -1,1 +1,0 @@
-php -i | findstr /c:"Loaded Configuration File"

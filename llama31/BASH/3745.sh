@@ -1,0 +1,1 @@
+# Example of load testing using Apache JMeter\njmeter -n -t test.jmx -l results.jtl

@@ -1,1 +1,0 @@
-<?php\n   $filePath = 'path/to/your/document.doc';\n   $output = shell_exec("antiword " . escapeshellarg($filePath));\n   \n   if ($output === null) {\n       echo "Error reading the .doc file.";\n   } else {\n       echo "Contents of the .doc file:\n";\n       echo $output;\n   }\n   ?>

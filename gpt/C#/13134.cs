@@ -1,1 +1,0 @@
-public class MyDataObject : ValidatableBase\n{\n    private string _myProperty;\n\n    [CustomValidation("Invalid value", "http://help.url", 1)]\n    public string MyProperty\n    {\n        get => _myProperty;\n        set => SetProperty(ref _myProperty, value, nameof(MyProperty));\n    }\n}

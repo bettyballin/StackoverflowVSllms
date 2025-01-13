@@ -1,0 +1,1 @@
+-- Example for a temporary table\nCREATE TEMPORARY TABLE temp_values (value VARCHAR(255));\n\nINSERT INTO temp_values (value) VALUES ('A'), ('B'), ('C');\n\nSELECT my_column\nFROM my_table\nJOIN temp_values ON my_table.search_column = temp_values.value;

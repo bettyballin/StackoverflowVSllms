@@ -1,1 +1,0 @@
-tshark -r input_capture.pcap -T fields -e data > payload_data.txt

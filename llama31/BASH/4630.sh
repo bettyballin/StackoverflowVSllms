@@ -1,0 +1,1 @@
+# Edit PHP configuration file\nsudo nano /etc/php/7.x/apache2/php.ini\n\n# Disable display_errors\ndisplay_errors = Off\n\n# Set error_reporting to E_ALL\nerror_reporting = E_ALL\n\n# Restart Apache service\nsudo service apache2 restart

@@ -1,1 +1,0 @@
-#include <vector>\n\ntemplate <class T>\nvoid Class::setData(std::vector<T> data)\n{\n    typename std::vector<T>::iterator it;\n    // Your implementation here\n}

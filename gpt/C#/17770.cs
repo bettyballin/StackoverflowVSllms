@@ -1,1 +1,0 @@
-@Html.ActionLink("View Account", "Details", "Accounts", new { id = account.PublicId }, null)

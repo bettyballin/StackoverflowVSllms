@@ -1,0 +1,1 @@
+try\n{\n    object result = _api.SomeMethod();\n}\ncatch (Exception ex)\n{\n    LogException(ex);\n    // Handle the exception or throw a custom exception\n}

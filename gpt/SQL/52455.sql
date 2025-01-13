@@ -1,1 +1,0 @@
-SELECT *\nFROM your_table_name\nWHERE lastupdatedDate >= SYSDATE - INTERVAL '10' MINUTE;

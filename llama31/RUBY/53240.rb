@@ -1,0 +1,1 @@
+<fieldset class="fieldset">\n  <legend>Images</legend>\n  <%= @plant.images.map { |image| render(:partial => 'show_image', :object => image) }.join %>\n</fieldset>

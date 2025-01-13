@@ -1,0 +1,1 @@
+using Microsoft.EntityFrameworkCore;\nusing System.Collections.Generic;\nusing System.Linq;\n\npublic class MyRepository\n{\n    private readonly MyDbContext _context;\n\n    public MyRepository(MyDbContext context)\n    {\n        _context = context;\n    }\n\n    public List<MyObject> GetMyObjects()\n    {\n        return _context.MyObjects.ToList();\n    }\n}

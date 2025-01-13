@@ -1,1 +1,0 @@
-auditctl -w /etc/svn-access-file -p wa -k svn_access_file

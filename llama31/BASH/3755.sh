@@ -1,0 +1,1 @@
+python -m cProfile -o outfile /usr/bin/paster serve dev.ini

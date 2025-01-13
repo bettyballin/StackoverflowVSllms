@@ -1,0 +1,1 @@
+bundle exec ruby-prof -p graph_html -f tmp/profiles cucumber -p default features/your_slow_feature.feature

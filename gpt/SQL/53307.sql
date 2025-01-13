@@ -1,1 +1,0 @@
--- Uncompressed Backup\nBACKUP DATABASE YourDatabaseName\nTO DISK = 'C:\Backup\YourDatabaseName_Uncompressed.bak';\n\n-- Compressed Backup\nBACKUP DATABASE YourDatabaseName\nTO DISK = 'C:\Backup\YourDatabaseName_Compressed.bak'\nWITH COMPRESSION;\n\n-- Check backup sizes\nEXEC xp_cmdshell 'dir C:\Backup\YourDatabaseName_*.bak';

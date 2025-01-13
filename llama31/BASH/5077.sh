@@ -1,0 +1,1 @@
+@echo off\nset PHP_SRC=C:\php-src\nset SQLITE3=C:\sqlite3\n\ncd %PHP_SRC%\nbuildconf.bat\n\ncd %SQLITE3%\n%PHP_SRC%\phpize\n./configure --with-sqlite3=%SQLITE3%\nmake && make install

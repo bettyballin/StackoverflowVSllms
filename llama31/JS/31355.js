@@ -1,0 +1,1 @@
+var keys = $.map(foo, function(value, key) { return key; });\nconsole.log(keys); // Output: ["alfa", "beta"]

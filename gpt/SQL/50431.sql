@@ -1,1 +1,0 @@
-UPDATE YourTable\nSET PathColumn = REPLACE(PathColumn, '\\oldPath', '\\newPath')\nWHERE PathColumn LIKE '%\\oldPath%';

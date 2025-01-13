@@ -1,1 +1,0 @@
-BEGIN\n    DBMS_SCHEDULER.create_job (\n        job_name        => 'yearly_summary_job',\n        job_type        => 'PLSQL_BLOCK',\n        job_action      => 'BEGIN yearly_summary_proc; END;',\n        start_date      => SYSTIMESTAMP,\n        repeat_interval => 'FREQ=MINUTELY; INTERVAL=1', -- Adjust the interval as necessary\n        enabled         => TRUE\n    );\nEND;\n/

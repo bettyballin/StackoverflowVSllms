@@ -1,1 +1,0 @@
-$headers = getallheaders();\nvar_dump($headers);

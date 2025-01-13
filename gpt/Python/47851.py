@@ -1,1 +1,0 @@
-def find_smallest_missing_number(lst):\n    num_set = set(lst)\n\n    smallest_missing = 0\n    while smallest_missing in num_set:\n        smallest_missing += 1\n\n    return smallest_missing\n\n# Example usage:\nlst = [0, 1, 3, 4, 7]\nprint(find_smallest_missing_number(lst))  # Output: 2

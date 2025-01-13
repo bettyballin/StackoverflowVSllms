@@ -1,1 +1,0 @@
-CREATE TABLE Groups (\n    GroupID INT PRIMARY KEY,\n    GroupName VARCHAR(100) NOT NULL\n    -- Other group-related fields\n);

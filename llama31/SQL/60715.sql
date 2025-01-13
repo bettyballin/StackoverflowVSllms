@@ -1,0 +1,1 @@
+ALTER TABLE friend_reg_user ADD COLUMN friend_ids TEXT;

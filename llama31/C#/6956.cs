@@ -1,0 +1,1 @@
+public class StoredProcedureWrapper\n{\n    private readonly string _connectionString;\n\n    public StoredProcedureWrapper(string connectionString)\n    {\n        _connectionString = connectionString;\n    }\n\n    public void ExecuteStoredProcedure(string procedureName, params SqlParameter[] parameters)\n    {\n        // Implement stored procedure call logic here\n    }\n}

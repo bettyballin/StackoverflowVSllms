@@ -1,0 +1,1 @@
+foreach ($headers as $header => $value) {\n    echo "$header: $value\n";\n}

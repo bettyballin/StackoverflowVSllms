@@ -1,0 +1,1 @@
+$(document).ready(function() {\n    $('#flickrbadge').load('http://www.flickr.com/badge_code_v2.gne?count=8&display=latest&size=s&layout=x&source=all_tag&tag=monkey');\n});

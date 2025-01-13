@@ -1,0 +1,1 @@
+var query = from row in db.Table\n            where row.Column.Any(c => c == "searchString")\n            select row;

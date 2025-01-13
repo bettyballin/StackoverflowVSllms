@@ -1,0 +1,1 @@
+InstallUtil.exe /i install.config MyService.exe

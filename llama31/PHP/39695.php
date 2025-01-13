@@ -1,0 +1,1 @@
+echo '<a href="http://' . rawurldecode(substr($item[6],13)) . '" title="' . $item[0] . '">' . $item[0] . '</a>';

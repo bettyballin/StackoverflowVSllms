@@ -1,0 +1,1 @@
+// actions.class.php\npublic function executeIndex(sfWebRequest $request)\n{\n  $userInput = $request->getParameter('user_input');\n  $cleanInput = htmlentities($userInput, ENT_QUOTES, 'UTF-8');\n  $this->getResponse()->setSlot('myVariable', $cleanInput);\n}

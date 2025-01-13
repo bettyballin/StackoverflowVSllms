@@ -1,1 +1,0 @@
-SELECT \n    creation_time, \n    cursor_id, \n    name, \n    properties, \n    status, \n    sql_handle, \n    session_id\nFROM \n    sys.dm_exec_cursors(0);

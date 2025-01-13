@@ -1,0 +1,1 @@
+HRESULT hr = CoCreateInstance(clsid, NULL, CLSCTX_LOCAL_SERVER, IID_IExample, (LPVOID*)&pISimClass);\nif (FAILED(hr)) {\n    // E_NOINTERFACE error\n}

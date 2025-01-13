@@ -1,1 +1,0 @@
--- For the exhibitions table\nALTER TABLE exhibitions ADD INDEX(venue_id, active, ends);\n\n-- For the temperatures table\nALTER TABLE temperatures ADD INDEX(ref, temperature);

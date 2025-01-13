@@ -1,0 +1,1 @@
+<system.web>\n    <sessionState mode="InProc" customProvider="CustomSessionIDManager">\n        <providers>\n            <add name="CustomSessionIDManager" type="YourNamespace.CustomSessionIDManager" />\n        </providers>\n    </sessionState>\n</system.web>

@@ -1,0 +1,1 @@
+SELECT DISTINCT T1.* \nFROM YourLargeTable T1\nINNER JOIN @cities C ON T1.city = C.city\nINNER JOIN @states S ON T1.state = S.state;

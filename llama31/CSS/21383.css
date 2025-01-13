@@ -1,0 +1,1 @@
+.rating-system .up, .rating-system .down {\n  font-size: 24px;\n  margin-right: 10px;\n  cursor: pointer;\n}\n\n.rating-system .up:hover, .rating-system .down:hover {\n  color: #337ab7;\n}\n\n.rating-system .rating {\n  font-size: 24px;\n  font-weight: bold;\n}

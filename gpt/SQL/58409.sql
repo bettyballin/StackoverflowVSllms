@@ -1,1 +1,0 @@
-CREATE VIEW View1\n   AS\n   SELECT Col1,\n          Col2,\n          dbo.fn1(col2) as Col3\n   FROM   TestTable;

@@ -1,1 +1,0 @@
-# To start the JVM in client mode\njava -client -jar myapp.jar\n\n# To start the JVM in server mode\njava -server -jar myapp.jar

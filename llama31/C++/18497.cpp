@@ -1,0 +1,1 @@
+#include <Registry.hpp>\n\nTRegistry *reg = new TRegistry;\ntry {\n  reg->RootKey = HKEY_CURRENT_USER;\n  reg->OpenKey("Software\\YourCompany\\YourApp", true);\n  reg->WriteString("LastDirectory", "C:\\Path\\To\\Directory");\n  reg->CloseKey();\n} catch (Exception &e) {\n  // handle exception\n}\ndelete reg;

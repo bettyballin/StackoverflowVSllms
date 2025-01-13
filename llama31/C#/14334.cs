@@ -1,0 +1,1 @@
+var root = new Root { Emulate = BooleanType.True };\nvar serializer = new XmlSerializer(typeof(Root));\nvar writer = new StringWriter();\nserializer.Serialize(writer, root);\nConsole.WriteLine(writer.ToString());

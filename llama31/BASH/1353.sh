@@ -1,0 +1,1 @@
+ffmpeg -i input.dv -c:v dvvideo -an -vf showinfo -f null -

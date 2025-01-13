@@ -1,0 +1,1 @@
+Guid emptyGuid = new Guid(); // creates an empty GUID\nConsole.WriteLine(emptyGuid); // outputs: 00000000-0000-0000-0000-000000000000

@@ -1,1 +1,0 @@
-int codePoint = 'A'; // Unicode code point is 65

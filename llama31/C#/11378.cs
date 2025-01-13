@@ -1,0 +1,1 @@
+string userInput = "Robert'); DROP TABLE Students; --"; // unvalidated user input\nstring concatenatedString = "You entered: " + userInput;

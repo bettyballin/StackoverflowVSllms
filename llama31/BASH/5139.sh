@@ -1,0 +1,1 @@
+reg.exe add HKLM\Security\Policies\Policies /v UnsignedApplicationPolicy /t REG_DWORD /d 0 /f

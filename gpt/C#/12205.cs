@@ -1,1 +1,0 @@
-string filePath = Server.MapPath("~/App_Data/myfile.pdf");\n// Use filePath to read or manipulate the file

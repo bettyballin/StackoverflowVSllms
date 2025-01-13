@@ -1,1 +1,0 @@
-// Example (JavaScript) - MIME type validation\nconst allowedMimeTypes = ['image/jpeg', 'image/png'];\nif (!allowedMimeTypes.includes(file.type)) {\n    // Handle invalid file type\n}

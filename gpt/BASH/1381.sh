@@ -1,1 +1,0 @@
-s/\(.*\)bl\s*0 <mcount>/\1nop         (mov r0,r0)/g

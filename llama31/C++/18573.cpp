@@ -1,0 +1,1 @@
+void foo(int& x) { // reference parameter\n    x = 42;\n}\n\nvoid bar(int* x) { // pointer parameter\n    *x = 42;\n}\n\nint main() {\n    int x = 0;\n    foo(x); // passes x by reference\n    bar(&x); // passes address of x\n    return 0;\n}

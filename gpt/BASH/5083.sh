@@ -1,1 +1,0 @@
-gm convert input.jpg -modulate 110,102,100 output.jpg

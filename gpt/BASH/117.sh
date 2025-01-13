@@ -1,1 +1,0 @@
-g++ -o hello hello.cpp\n./hello

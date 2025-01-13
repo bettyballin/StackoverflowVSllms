@@ -1,1 +1,0 @@
-etstat -ano | findstr :1098

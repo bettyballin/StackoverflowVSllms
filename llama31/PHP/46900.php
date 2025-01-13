@@ -1,0 +1,1 @@
+$mem = new Memcached();\n$mem->pconnect('localhost', 11211);

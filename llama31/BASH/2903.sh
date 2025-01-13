@@ -1,0 +1,1 @@
+svn log --recursive --xml ProjectA/trunk > changelog.xml

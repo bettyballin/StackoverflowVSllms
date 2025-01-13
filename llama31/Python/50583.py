@@ -1,0 +1,1 @@
+def invert_dict_with_duplicates(d):\n    return [(v, k) for k, v in d.items()]\n\nmy_map = {'a': 1, 'b': 2, 'c': 1}\ninv_map = invert_dict_with_duplicates(my_map)\nprint(inv_map)  # Output: [(1, 'a'), (2, 'b'), (1, 'c')]

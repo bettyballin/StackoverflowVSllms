@@ -1,1 +1,0 @@
-using System;\nusing System.Web.UI;\n\npublic partial class LetterTemplate : LetterTemplateBase\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        // Any additional logic can be placed here\n    }\n}

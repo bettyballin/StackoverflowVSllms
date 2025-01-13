@@ -1,1 +1,0 @@
-<?php\n\n$sql = mysql_query("SELECT body FROM comments");\n\n$comments = array(); // Initialize an array to store each comment\n\nwhile ($r = mysql_fetch_assoc($sql)) {\n   $comments[] = $r['body'];\n}\n\n$body = implode("<br />", $comments); // Combine array elements with <br />\n\n?>\n\n<?php echo $body; ?><br />

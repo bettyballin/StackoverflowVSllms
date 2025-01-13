@@ -1,0 +1,1 @@
+<?php\nheader('Content-Type: image/jpeg');\necho file_get_contents('http://remoteserver/dynamicimage.php');\nexit;

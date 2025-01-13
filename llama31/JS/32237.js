@@ -1,0 +1,1 @@
+function DoSomething(userInput) {\n  // Sanitize user-input data using a library like DOMPurify\n  const sanitizedInput = DOMPurify.sanitize(userInput);\n  \n  // Use the sanitized input data\n  console.log(sanitizedInput);\n}

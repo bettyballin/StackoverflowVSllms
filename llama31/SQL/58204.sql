@@ -1,0 +1,1 @@
+-- Create a new stored procedure\nCREATE PROCEDURE [dbo].[MyStoredProcedure]\nAS\nBEGIN\n    -- stored procedure code here\nEND\nGO

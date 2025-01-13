@@ -1,1 +1,0 @@
-gcc -O0 -g -o factorial-tail factorial-tail.c\ngdb ./factorial-tail

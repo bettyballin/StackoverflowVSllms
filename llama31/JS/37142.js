@@ -1,0 +1,1 @@
+terms = document.getElementById("terms").checked;

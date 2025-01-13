@@ -1,0 +1,1 @@
+def manage_chatbot_training_data_lifecycle(data):\n    # Manage data lifecycle from creation to destruction\n    manage_lifecycle(data)\n    return True

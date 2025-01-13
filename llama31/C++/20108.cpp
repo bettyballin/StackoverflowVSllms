@@ -1,0 +1,1 @@
+void Camera::getCameraValuesFromOpenGL() {\n    float m[16];\n    glGetFloatv(GL_MODELVIEW_MATRIX, m);\n    getCameraValuesFromMatrix(m);\n}

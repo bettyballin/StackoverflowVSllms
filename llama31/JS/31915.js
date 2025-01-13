@@ -1,0 +1,1 @@
+var lis = $("ul li");\nfor(var i = 0; i < lis.length; i+=3) {\n  lis.slice(i, i+3).wrapAll("<div>");\n}

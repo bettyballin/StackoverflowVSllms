@@ -1,1 +1,0 @@
-gcc -shared -g -o libmylibrary.so source_file1.o source_file2.o

@@ -1,0 +1,1 @@
+$login = trim($_SESSION['login'], "'");

@@ -1,1 +1,0 @@
-using System;\nusing System.Runtime.InteropServices;\n\nclass Program\n{\n    static void Main()\n    {\n        MyComClass comClass = new MyComClass();\n        Console.WriteLine("COM server is running. Press Enter to exit...");\n        Console.ReadLine();\n    }\n}

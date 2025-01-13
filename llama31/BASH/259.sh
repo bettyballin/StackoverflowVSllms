@@ -1,0 +1,1 @@
+pm install -g csslint\ncsslint --format=checker path/to/your/css/file.css

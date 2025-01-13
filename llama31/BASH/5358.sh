@@ -1,0 +1,1 @@
+@echo off\npkill -f mongrel_rails.exe

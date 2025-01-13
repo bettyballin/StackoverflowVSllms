@@ -1,0 +1,1 @@
+try {\n    $decoded_token = JWT::decode($token, 'secret_key', array('HS256'));\n    // Use the decoded token data for SSO\n} catch (Exception $e) {\n    // Handle token verification errors\n}

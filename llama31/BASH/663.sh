@@ -1,0 +1,1 @@
+rsync -avz -e ssh remotehost:/path/to/file ~/

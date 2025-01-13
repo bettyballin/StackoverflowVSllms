@@ -1,0 +1,1 @@
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">\n  <PropertyGroup>\n    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>\n  </PropertyGroup>\n  ...\n</Project>

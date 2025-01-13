@@ -1,0 +1,1 @@
+mydumper -h localhost -u username -p password -B mydatabase -o /backup/mydatabase.sql

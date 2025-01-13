@@ -1,0 +1,1 @@
+System.Management.ManagementTraceListener listener = new System.Management.ManagementTraceListener();\nSystem.Diagnostics.Trace.Listeners.Add(listener);

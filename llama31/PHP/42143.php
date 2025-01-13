@@ -1,0 +1,1 @@
+$doc = new DOMDocument();\n$xml = '<identity><name>John Doe</name></identity>';\n$doc->loadXML($xml);\n$elem = $doc->getElementsByTagName('identity')->item(0);\n\n$newElem = $doc->renameNode($elem, null, 'person');\n\necho $doc->saveXML();

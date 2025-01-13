@@ -1,0 +1,1 @@
+Dim myFunc As Func(Of Integer, Integer) = Function(x) x * 2

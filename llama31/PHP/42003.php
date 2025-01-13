@@ -1,0 +1,1 @@
+$partitionNumber = floor($userid / 20000) + 1;

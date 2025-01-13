@@ -1,0 +1,1 @@
+while ($row = mysql_fetch_array($query)) {\n    if (!empty($row['email'])) {\n        echo "<li><a href=\"mailto:" . $row['email'] . "\">" . $row['name'] . "</a></li>";\n    } else {\n        echo "<li>" . $row['name'] . "</li>";\n    }\n}

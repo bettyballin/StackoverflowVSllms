@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('#calendar').fullCalendar({\n        events: '/path/to/your/php/script.php', // URL to your PHP script\n        // other FullCalendar options\n    });\n});

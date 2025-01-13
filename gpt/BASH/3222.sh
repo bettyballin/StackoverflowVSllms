@@ -1,1 +1,0 @@
-perl -MDBI -e 'print $DBI::VERSION . "\n";'

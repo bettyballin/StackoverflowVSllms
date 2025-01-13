@@ -1,1 +1,0 @@
-sudo perf record -e context-switches -a sleep 10

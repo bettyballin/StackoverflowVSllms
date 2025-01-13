@@ -1,1 +1,0 @@
-mysqladmin -u root -p status\nmysqladmin -u root -p processlist

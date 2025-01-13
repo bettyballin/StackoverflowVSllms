@@ -1,1 +1,0 @@
--- Using IFNULL\nSELECT IFNULL(column_name, 'default_value') AS result\nFROM table_name;\n\n-- Using COALESCE\nSELECT COALESCE(column_name, 'default_value') AS result\nFROM table_name;

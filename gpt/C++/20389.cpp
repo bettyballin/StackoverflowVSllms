@@ -1,1 +1,0 @@
-#include "foo.h"\n#include <boost/bind.hpp>\n\n// Assuming Bar is defined somewhere with a method bar_func\nextern Bar* bar_instance;\n\nFoo foo;\nfoo.func(boost::bind(&Bar::bar_func, bar_instance, _1));

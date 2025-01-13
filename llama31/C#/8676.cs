@@ -1,0 +1,1 @@
+private static int CalculateHeight(string text, Font font, int width)\n{\n    using (var graphics = Graphics.FromHwnd(IntPtr.Zero))\n    {\n        var size = graphics.MeasureString(text, font, width, StringFormat.GenericDefault | StringFormatFlags.MeasureTrailingSpaces);\n        return (int)size.Height;\n    }\n}

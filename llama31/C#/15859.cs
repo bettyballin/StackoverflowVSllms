@@ -1,0 +1,1 @@
+using Dapper;\n\n   string userInput = "Robert'); DROP TABLE Students; --";\n   var params = new { Name = userInput };\n   var result = connection.Query("SELECT * FROM Students WHERE Name = @Name", params);

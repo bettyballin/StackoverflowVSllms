@@ -1,0 +1,1 @@
+var divs = $('[id^="triger"]');\nconsole.log(divs); // array of div elements

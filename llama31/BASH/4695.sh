@@ -1,0 +1,1 @@
+openssl s_client -connect <novell_server_IP>:636

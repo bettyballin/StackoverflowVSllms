@@ -1,1 +1,0 @@
-et stop msdtc\nnet start msdtc

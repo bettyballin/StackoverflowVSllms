@@ -1,0 +1,1 @@
+// Define a mapping of IRC codes to handler functions\nconst handlers = {\n  "001": handleWelcome,\n  "002": handleYourHost,\n  // ...\n};\n\n// Define the handler functions\nfunction handleWelcome() {\n  // ...\n}\n\nfunction handleYourHost() {\n  // ...\n}\n\n// Replace the switch statement with a simple lookup\nif (val in handlers) {\n  handlers[val]();\n}

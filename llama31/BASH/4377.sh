@@ -1,0 +1,1 @@
+# Collect a heap dump using jmap\njmap -dump:file=heapdump.hprof <pid>\n\n# Collect a thread dump using jstack\njstack <pid> > thread-dump.txt

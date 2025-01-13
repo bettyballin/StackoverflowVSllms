@@ -1,0 +1,1 @@
+CREATE PROCEDURE [YourProcedureName]\nAS\nBEGIN\n    SET NOCOUNT ON;\n    -- procedure code here\nEND;

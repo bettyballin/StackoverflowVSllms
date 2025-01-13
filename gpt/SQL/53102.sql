@@ -1,1 +1,0 @@
-SELECT DISTINCT "column-one" || ':' || "column-two" AS "ResultColumn" FROM "datatable";

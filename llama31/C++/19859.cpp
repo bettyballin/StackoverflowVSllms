@@ -1,0 +1,1 @@
+#include <algorithm>\n#include <vector>\n\nint main() {\n    std::vector<int> numbers = {1, 2, 3, 4, 5};\n    std::vector<int> evenNumbers;\n\n    std::copy_if(numbers.begin(), numbers.end(),\n                 std::back_inserter(evenNumbers),\n                 [](int n) { return n % 2 == 0; });\n\n    // evenNumbers now contains {2, 4}\n\n    return 0;\n}

@@ -1,1 +1,0 @@
-export SFTP_HOST="your_sftp_host"\n      export SFTP_PORT="22"\n      export SFTP_USERNAME="your_username"\n      export SFTP_PASSWORD="your_password"\n      export SFTP_TARGET_DIRECTORY="/path/to/remote/dir"

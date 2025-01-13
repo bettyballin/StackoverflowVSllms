@@ -1,0 +1,1 @@
+If stringB IsNot Nothing AndAlso stringB.IndexOf("y,z") >= 0 AndAlso value = 0 Then\n    ' code here\nEnd If

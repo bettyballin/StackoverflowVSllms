@@ -1,0 +1,1 @@
+import nltk\nfrom nltk.classify import NaiveBayesClassifier\n\n# Training\ntrain_data = [(dict(words=sample1_tokens), 'one'), (dict(words=sample2_tokens), 'two')]\nclassifier = NaiveBayesClassifier.train(train_data)\n\n# Classification\ntest_data = dict(words=sample3_tokens)\nprint(classifier.classify(test_data))

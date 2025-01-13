@@ -1,0 +1,1 @@
+.container {\n  display: flex;\n  align-items: stretch;\n}\n\n.left-div {\n  background-color: #f0f0f0;\n  width: 200px; /* or any other fixed width */\n}\n\n.right-div {\n  background-color: #ffffff;\n  flex: 1; /* to make it take up the remaining space */\n}

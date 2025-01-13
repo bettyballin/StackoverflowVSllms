@@ -1,0 +1,1 @@
+from django.http import JsonResponse\nfrom django.views.decorators.csrf import csrf_exempt\n\n@csrf_exempt\ndef your_view(request):\n    if request.method == 'POST':\n        image_data = request.POST.get('image')\n        # validate and process image data\n        # ...\n        return JsonResponse({'success': True})\n    else:\n        return JsonResponse({'success': False})

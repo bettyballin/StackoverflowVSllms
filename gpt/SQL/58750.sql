@@ -1,1 +1,0 @@
-SELECT /*+ INDEX(emp emp_idx) */\n       emp_id, emp_name\n  FROM employees emp\n WHERE emp_dept = 'IT';

@@ -1,1 +1,0 @@
-from ping3 import ping, verbose_ping\n\n# Perform a single ping\nresponse_time = ping('example.com')\nprint(f"Ping response time: {response_time} seconds")\n\n# Perform multiple pings with verbose output\nverbose_ping('example.com', count=4)

@@ -1,1 +1,0 @@
-DECLARE\n    sql_stmt VARCHAR2(200);\n    bind_value NUMBER := 1;\nBEGIN\n    sql_stmt := 'SELECT SYSDATE FROM DUAL WHERE :var1 = :var2';\n    EXECUTE IMMEDIATE sql_stmt USING bind_value, bind_value;\nEND;\n/

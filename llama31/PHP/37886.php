@@ -1,0 +1,1 @@
+mysqli_query($conn, "SELECT id FROM addresses WHERE shiptozip = '13000' AND shiptostreet COLLATE utf8_general_ci = 'Františka Křížka'");

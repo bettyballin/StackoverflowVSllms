@@ -1,1 +1,0 @@
-<?php\nrequire 'vendor/autoload.php';\n\nuse PhpOffice\PhpSpreadsheet\IOFactory;\n\n$filename = 'path/to/your/excelfile.xlsx';\n\n// Load the spreadsheet file\n$spreadsheet = IOFactory::load($filename);\n\n// Get the first sheet\n$sheet = $spreadsheet->getActiveSheet();\n\n// Convert the sheet to an array\n$data = $sheet->toArray();\n\nprint_r($data);\n?>

@@ -1,1 +1,0 @@
-using (IDbConnection db = new SqlConnection("YourConnectionString"))\n   {\n       string sqlQuery = "SELECT * FROM Users";\n       var users = db.Query<User>(sqlQuery).ToList();\n       foreach (var user in users)\n       {\n           Console.WriteLine(user.Name);\n       }\n   }

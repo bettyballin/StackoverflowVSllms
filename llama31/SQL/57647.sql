@@ -1,0 +1,1 @@
+ALTER TABLE accounts\nADD CONSTRAINT fk_customer_id FOREIGN KEY (customer_id)\nREFERENCES customers (customer_id);

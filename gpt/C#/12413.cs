@@ -1,1 +1,0 @@
-using (var context = new BirdContext())\n{\n    var bird = new Bird { Length = 10.5, Age = 3 };\n    context.Birds.Add(bird);\n    context.SaveChanges();\n}

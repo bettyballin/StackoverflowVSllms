@@ -1,0 +1,1 @@
+using SendGrid;\n\nvar apiKey = "YOUR_SENDGRID_API_KEY";\nvar client = new SendGridClient(apiKey);\nvar msg = new SendGridMessage()\n{\n    From = new EmailAddress("your_email@gmail.com"),\n    Subject = "Subject",\n    PlainTextContent = "Body",\n    To = new[] { new EmailAddress("recipient@example.com") }\n};\n\nawait client.SendEmailAsync(msg);

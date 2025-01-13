@@ -1,1 +1,0 @@
-#include <panel.h>\n\n    WINDOW *win = newwin(10, 30, 5, 5);\n    PANEL *panel = new_panel(win);  // Create a panel from a window\n    update_panels();               // Refresh panels to reflect changes

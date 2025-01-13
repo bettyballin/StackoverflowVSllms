@@ -1,1 +1,0 @@
-ld --trace-symbol=<symbol_name> -o /dev/null <executable> $(ldd <executable> | awk '{print $3}' | xargs)

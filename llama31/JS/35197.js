@@ -1,0 +1,1 @@
+// Client-side JavaScript (using jQuery)\n$.ajax({\n  type: "GET",\n  url: "/ajax/hello",\n  success: function(data) {\n    $("#helloDiv").html(data);\n  }\n});

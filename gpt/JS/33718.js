@@ -1,1 +1,0 @@
-if ($('#element').is(':hidden')) {\n    // Element is hidden\n}

@@ -1,0 +1,1 @@
+// Using Get\nvar tableAdapter = new MyTableAdapter();\nvar dataTable = tableAdapter.GetMyData(); // Retrieves a new copy of the data\n\n// Using Fill\nvar tableAdapter = new MyTableAdapter();\nvar dataTable = new DataTable();\ntableAdapter.Fill(dataTable); // Fills the existing DataTable with data

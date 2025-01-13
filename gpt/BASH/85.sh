@@ -1,1 +1,0 @@
-xauth generate :0 . trusted

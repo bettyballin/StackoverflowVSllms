@@ -1,1 +1,0 @@
-# Compile assembly files with NASM\nnasm -f elf32 boot.asm -o boot.o\n\n# Compile C/C++ source files with MinGW-w64 GCC\ngcc -c kernel.c -o kernel.o -std=gnu99 -ffreestanding -O2 -Wall -Wextra\n\n# Link the object files to create the kernel binary\nld -T linker.ld -o kernel.bin -nostdlib boot.o kernel.o

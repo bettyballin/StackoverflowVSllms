@@ -1,0 +1,1 @@
+const express = require('express');\nconst app = express();\n\napp.post('/api/endpoint', (req, res) => {\n  const { data } = req.body;\n  // Process the data\n  res.json({ result: 'Success' });\n});\n\napp.listen(3000, () => {\n  console.log('Server listening on port 3000');\n});

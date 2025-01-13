@@ -1,0 +1,1 @@
+from bs4 import BeautifulSoup\n\nhtml_doc = """\n<html>\n    <head>\n        <title>Example</title>\n    </head>\n    <body>\n        <p>This is the body.</p>\n    </body>\n</html>\n"""\n\nsoup = BeautifulSoup(html_doc, 'html.parser')\nbody = soup.find('body')\n\nif body:\n    print(body.text)\nelse:\n    print("No body found.")

@@ -1,1 +1,0 @@
-function x_str_length_test(arg1, callback) {\n        sajax_do_call("str_length_test", [arg1], callback);\n    }

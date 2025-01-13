@@ -1,0 +1,1 @@
+using Memcached.Client;\n\n// Create a Memcached client\nvar memcachedClient = new MemcachedClient("your-memcached-server");\n\n// Store a value in the cache\nmemcachedClient.Store("key", "value");\n\n// Retrieve a value from the cache\nvar cachedValue = memcachedClient.Get("key");

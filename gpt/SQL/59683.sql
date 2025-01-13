@@ -1,1 +1,0 @@
-CREATE TABLE my_table (\n        id NUMBER PRIMARY KEY,\n        column1 VARCHAR2(50)\n    );

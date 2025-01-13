@@ -1,1 +1,0 @@
-public class MyClass\n{\n    private int _myPrivateVariable;\n\n    public MyClass(int myParam)\n    {\n        _myPrivateVariable = myParam;\n    }\n\n    public void MyMethod()\n    {\n        int localVariable = _myPrivateVariable * 2;\n        // do something with localVariable\n    }\n}

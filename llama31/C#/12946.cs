@@ -1,0 +1,1 @@
+// C# example: Secure password hashing using PBKDF2\nusing System.Security.Cryptography;\nusing System.Text;\n\nstring password = "mysecretpassword";\nbyte[] salt;\nnew RNGCryptoServiceProvider().GetBytes(salt = new byte[16]);\nvar pbkdf2 = new Rfc2898DeriveBytes(password, salt, 100000);\nbyte[] hash = pbkdf2.GetBytes(20);\nConsole.WriteLine(Convert.ToBase64String(hash));

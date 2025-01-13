@@ -1,0 +1,1 @@
+0 0 * * * rm /home/sites/example.com/www/files/backup.csv\n0 0 * * * mysql -u username -p password < your_sql_script.sql

@@ -1,1 +1,0 @@
-using (var session = sessionFactory.OpenSession())\nusing (var transaction = session.BeginTransaction())\n{\n    var myEntity = new MyEntity\n    {\n        MyData = new byte[] { 0x01, 0x02, 0x03 }\n    };\n\n    session.Save(myEntity);\n    transaction.Commit();\n}

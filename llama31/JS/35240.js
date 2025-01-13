@@ -1,0 +1,1 @@
+<!-- index.html -->\n<script>\n  const urlParams = new URLSearchParams(window.location.search);\n  if (urlParams.get('cleared') === 'true') {\n    alert('File cleared successfully!');\n  }\n</script>

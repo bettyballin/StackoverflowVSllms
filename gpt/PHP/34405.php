@@ -1,1 +1,0 @@
-$actionModel = new Application_Model_Action();\n$actionsWithUsers = $actionModel->fetchAllWithUsers();\n\nforeach ($actionsWithUsers as $action) {\n    echo 'Action ID: ' . $action->id . ', User Name: ' . $action->username . '<br>';\n}

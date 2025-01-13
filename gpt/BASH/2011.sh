@@ -1,1 +1,0 @@
-sudo smartctl -a /dev/sdX

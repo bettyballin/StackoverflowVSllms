@@ -1,0 +1,1 @@
+pg_basebackup -D /path/to/backup -Fp -X fetch -c fast -h localhost -U postgres

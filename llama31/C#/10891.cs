@@ -1,0 +1,1 @@
+ProcessStartInfo psi = new ProcessStartInfo("msbuild.exe");\npsi.UseShellExecute = false;\npsi.RedirectStandardOutput = true;\nProcess p = Process.Start(psi);

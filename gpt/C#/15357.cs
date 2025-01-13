@@ -1,1 +1,0 @@
-public class ClientMap : ClassMap<Client>\n{\n    public ClientMap()\n    {\n        Table("Clients");\n        // other mappings\n        Map(x => x.Language).CustomType<ListType>().Column("LanguageId");\n    }\n}

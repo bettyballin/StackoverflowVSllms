@@ -1,1 +1,0 @@
-// Redirect to third-party payment gateway\n   Response.Redirect("https://www.thirdpartypayment.com/pay");

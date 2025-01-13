@@ -1,0 +1,1 @@
+class FileProxy(XmpFile):\n    def __init__(self, instance):\n        self.instance = instance\n\n    def read(self, *args, **kwargs):\n        return self.instance.read(*args, **kwargs)\n\n    # Override other methods as needed

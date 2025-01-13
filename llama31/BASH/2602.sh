@@ -1,0 +1,1 @@
+readarray -t -d '' array < <(find . -print0)\necho ${#array[@]}

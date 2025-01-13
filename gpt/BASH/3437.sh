@@ -1,1 +1,0 @@
-# Using cpu=sample\njava -agentlib:hprof=cpu=sample MyClass\n\n# Using cpu=times\njava -agentlib:hprof=cpu=times MyClass

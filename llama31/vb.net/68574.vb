@@ -1,0 +1,1 @@
+Public Delegate Sub LogMessageDelegate(ByVal message As String, ByVal ParamArray args() As Object)

@@ -1,0 +1,1 @@
+CREATE PROCEDURE MyProcedure\n    @MyParameter INT\nAS\nBEGIN\n    SELECT *\n    FROM MyTable\n    WHERE CASE\n              WHEN @MyParameter = 1 THEN MyColumn IS NULL\n              WHEN @MyParameter = 2 THEN MyColumn IS NOT NULL\n              ELSE 1\n          END\nEND

@@ -1,1 +1,0 @@
-f = k * (sampling_rate / N)

@@ -1,1 +1,0 @@
-using System.Xml.Linq;\n\nvar doc = new XDocument(\n    new XElement("html",\n        new XElement("body",\n            new XElement("h1", new XText("Text\u00A0to\u00A0keep\u00A0together."))\n        )\n    )\n);\n\ndoc.Save("output.html");

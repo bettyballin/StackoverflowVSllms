@@ -1,1 +1,0 @@
-Console.WriteLine("{0}", string.Join("\n", beatles.ToArray()));\n    Console.ReadLine();

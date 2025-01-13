@@ -1,0 +1,1 @@
+sqlite3 -init export.sqlite3.sql your_database.db

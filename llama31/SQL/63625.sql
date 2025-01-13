@@ -1,0 +1,1 @@
+ALTER TABLE games MODIFY COLUMN win tinyint(1);\nALTER TABLE games MODIFY COLUMN loss tinyint(1);

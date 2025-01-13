@@ -1,1 +1,0 @@
-<%= link_to_remote 'Current Week', :url => { :action => :current_week } %>

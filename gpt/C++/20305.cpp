@@ -1,1 +1,0 @@
-#include <iostream>\n#include <vector>\n\nint findCommon(const std::vector<int>& nums) {\n    for (int num : nums) {\n        std::cout << num << std::endl;\n    }\n    return 1;\n}\n\nint main() {\n    int inCommon = findCommon({54, 56, 2, 10});\n    return 0;\n}

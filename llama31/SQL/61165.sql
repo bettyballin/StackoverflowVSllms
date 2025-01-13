@@ -1,0 +1,1 @@
+INSERT INTO videos (id, title) VALUES (23, 'Video Title');\n\nINSERT INTO video_categories (video_id, category_id) VALUES\n  (23, 1),  -- Fun\n  (23, 3),  -- Comedy\n  (23, 4);  -- TV Shows

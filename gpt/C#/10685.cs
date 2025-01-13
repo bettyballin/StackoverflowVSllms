@@ -1,1 +1,0 @@
-[WebMethod]\npublic string[] GetCompletionList(string prefixText, int count) {\n    // Your logic to get the list of items\n    List<string> items = new List<string> { "0010", "0100", "0x10" };\n    \n    // Ensure all values are strings\n    return items.Select(item => item.ToString()).ToArray();\n}

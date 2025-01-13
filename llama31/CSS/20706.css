@@ -1,0 +1,1 @@
+.container {\n  width: 100%; /* Occupy the whole width of the page */\n  margin: 0 auto; /* Center the container horizontally */\n  padding: 0 20px; /* Add 20px padding on left and right sides */\n  border: 1px solid #ddd; /* Add a small border around the container */\n  box-sizing: border-box; /* Include padding and border in the width calculation */\n}

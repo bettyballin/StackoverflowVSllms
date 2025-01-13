@@ -1,1 +1,0 @@
-// In your Smarty setup file\n   $smarty->registerPlugin('modifier', 'gettext', 'smarty_modifier_gettext');

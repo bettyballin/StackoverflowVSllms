@@ -1,1 +1,0 @@
-SELECT * FROM your_table\nTABLESAMPLE SYSTEM (1) -- Adjust the percentage based on the table size and desired number of rows\nLIMIT N;

@@ -1,1 +1,0 @@
-$file_content = str_replace(array("\r\n", "\r"), "\n", $file_content);

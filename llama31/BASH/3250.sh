@@ -1,0 +1,1 @@
+wget --start-pos=100 --end-pos=200 https://example.com/remote_file.txt

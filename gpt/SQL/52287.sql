@@ -1,1 +1,0 @@
-CREATE TABLE categories (\n    id UNIQUEIDENTIFIER PRIMARY KEY,\n    name NVARCHAR(255) NOT NULL,\n    lft INT NOT NULL,\n    rgt INT NOT NULL,\n    depth INT NOT NULL\n);

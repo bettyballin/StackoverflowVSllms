@@ -1,1 +1,0 @@
-string connectionString = "your_connection_string_here";\nstring pdfFilePath = @"C:\path\to\your\file.pdf";\nstring outputFilePath = @"C:\path\to\output\file.pdf";\n\nPdfHandler.InsertPdf(pdfFilePath, connectionString);\n\n// Assuming you know the ID of the inserted record\nint recordId = 1;\nPdfHandler.RetrievePdf(recordId, outputFilePath, connectionString);

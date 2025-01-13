@@ -1,0 +1,1 @@
+// Assume $widgets is an array of widgets retrieved from the database\nforeach ($widgets as $widget) {\n    echo '<div>';\n    echo '<input type="hidden" name="widget_id[]" value="' . $widget['id'] . '">';\n    echo '<input type="text" name="quantity[]" id="widget_quantity_' . $widget['id'] . '" value="">';\n    echo '</div>';\n}

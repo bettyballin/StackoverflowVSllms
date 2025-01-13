@@ -1,0 +1,1 @@
+// Append content\nvar html = "...";\nvar appendedContent = $('<div class="appended-content"></div>').appendTo("#id").hide().append(html).fadeIn('slow');\n\n// Later, to remove the appended content\n$(".appended-content").fadeOut('slow', function() {\n  $(this).remove();\n});

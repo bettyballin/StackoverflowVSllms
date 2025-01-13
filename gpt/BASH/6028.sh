@@ -1,1 +1,0 @@
-chkconfig <service_name> off

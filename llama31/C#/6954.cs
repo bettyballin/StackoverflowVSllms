@@ -1,0 +1,1 @@
+ultraCombo1.SelectedIndex = ultraCombo1.Items.IndexOf("Pre-selected value");

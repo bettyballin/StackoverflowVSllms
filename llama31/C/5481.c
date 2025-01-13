@@ -1,0 +1,1 @@
+#pragma GCC diagnostic push\n#pragma GCC diagnostic ignored "-Wformat"\n\nprintf("status: %x", status);\n\n#pragma GCC diagnostic pop

@@ -1,0 +1,1 @@
+var numbers = new List<int>();\nfor (int i = 1; i <= 10; i++)\n{\n    numbers.Add(i);\n}

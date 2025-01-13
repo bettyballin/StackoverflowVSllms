@@ -1,1 +1,0 @@
-CREATE INDEX idx_routes_carrier ON routes (carrier);

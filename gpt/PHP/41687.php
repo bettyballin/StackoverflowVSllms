@@ -1,1 +1,0 @@
-<?php\n// User input password\n$inputPassword = 'input_password_here';\n\n// Hashed password stored in the database\n$storedHashedPassword = 'stored_hashed_password_here';\n\n// Verify the password\nif (password_verify($inputPassword, $storedHashedPassword)) {\n    echo 'Password is valid!';\n} else {\n    echo 'Invalid password.';\n}\n?>

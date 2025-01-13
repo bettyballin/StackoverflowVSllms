@@ -1,1 +1,0 @@
-wget https://download.dokuwiki.org/src/dokuwiki/dokuwiki-stable.tgz\n   tar xvf dokuwiki-stable.tgz\n   mv dokuwiki-YYYY-MM-DD /path/to/your/application/dokuwiki

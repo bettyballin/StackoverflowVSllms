@@ -1,1 +1,0 @@
-INSERT INTO ReportingHierarchy (ID, ParentID, LevelID, Data)\nVALUES (1, NULL, 1, 'Top Level Data'),\n       (2, 1, 2, 'Second Level Data 1'),\n       (3, 1, 2, 'Second Level Data 2'),\n       (4, 2, 3, 'Third Level Data 1'),\n       (5, 2, 3, 'Third Level Data 2');

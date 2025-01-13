@@ -1,0 +1,1 @@
+if (maze[pacmanX / 20][pacmanY / 20] == 1) {\n  // Pacman has collided with a wall\n}

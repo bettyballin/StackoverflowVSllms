@@ -1,0 +1,1 @@
+free(p);\np = NULL;\nfree(x);\nx = NULL;

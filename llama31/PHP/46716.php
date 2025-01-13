@@ -1,0 +1,1 @@
+$lang = 'en'; // or 'fr', etc.\nbindtextdomain('mydomain', './languages');\ntextdomain('mydomain');\necho gettext('title'); // outputs "Stackoverflow is a great site" for e

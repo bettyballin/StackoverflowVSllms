@@ -1,0 +1,1 @@
+SELECT /*+ NO_CACHE */ *\nFROM your_table\nWHERE column = :param;

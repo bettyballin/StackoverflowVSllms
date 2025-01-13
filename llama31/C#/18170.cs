@@ -1,0 +1,1 @@
+var ticket = new FormsAuthenticationTicket(\n    formsIdentity.Ticket.Version,\n    formsIdentity.Ticket.Name,\n    DateTime.Now,\n    DateTime.Now.AddMinutes(FormsAuthentication.Timeout.TotalMinutes / 2),\n    true,\n    formsIdentity.Ticket.UserData);\n\nFormsAuthentication.SetAuthCookie(formsIdentity.Ticket.Name, ticket);

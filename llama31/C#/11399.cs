@@ -1,0 +1,1 @@
+[WebMethod]\npublic static string SendEmail(string jsonData)\n{\n    var json = JsonConvert.DeserializeObject<Dictionary<string, string>>(jsonData);\n    // access the values like this: json["var1"], json["var2"], etc.\n    // ...\n}

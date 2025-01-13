@@ -1,0 +1,1 @@
+import dill\n\ndef is_dumpable(obj):\n    try:\n        dill.dumps(obj)\n        return True\n    except:\n        return False

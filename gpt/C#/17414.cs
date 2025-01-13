@@ -1,1 +1,0 @@
-UpdateModel<ContestModel>(model);

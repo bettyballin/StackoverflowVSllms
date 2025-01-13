@@ -1,1 +1,0 @@
-. /GNUstep/System/Library/Makefiles/GNUstep.sh

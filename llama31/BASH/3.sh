@@ -1,0 +1,1 @@
+echo $(awk '{print $3}' /var/log/apache2/access.log | wc -l) / $(date +%s) - $(date -r /var/log/apache2/access.log +%s)

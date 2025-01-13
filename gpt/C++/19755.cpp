@@ -1,1 +1,0 @@
-void doIt(int arg1, int arg2 = 0) { }\n   void doIt(int arg1) { }\n\n   int main() {\n       doIt(42);  // Ambiguous call\n   }

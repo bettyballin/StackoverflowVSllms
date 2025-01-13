@@ -1,1 +1,0 @@
-DECLARE @cursor_name NVARCHAR(256);\nSET @cursor_name = 'your_cursor_name';\n\n-- Check if the cursor exists and is open\nIF EXISTS (\n    SELECT \n        1 \n    FROM \n        sys.dm_exec_cursors(0) \n    WHERE \n        name = @cursor_name\n)\nBEGIN\n    -- Close and deallocate the cursor\n    EXEC('CLOSE ' + @cursor_name);\n    EXEC('DEALLOCATE ' + @cursor_name);\nEND

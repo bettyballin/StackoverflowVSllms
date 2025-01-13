@@ -1,0 +1,1 @@
+// a.cpp\n#include <iostream>\n\nstatic int a = 10;\n\n// b.cpp\n#include <iostream>\n\nstatic int b = a; // undefined behavior!

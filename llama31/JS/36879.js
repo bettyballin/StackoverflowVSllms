@@ -1,0 +1,1 @@
+// Original code\nfunction add(a, b) {\n  return a + b;\n}\n\n// Encrypted code\nvar encryptedCode = '...encrypted string...';\nvar decryptedCode = CryptoJS.AES.decrypt(encryptedCode, 'secret key');\neval(decryptedCode.toString(CryptoJS.enc.Utf8));

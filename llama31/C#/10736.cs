@@ -1,0 +1,1 @@
+public class CustomRequiredFieldValidator : RequiredFieldValidator\n{\n    protected override void Validate()\n    {\n        if (Enabled && !string.IsNullOrEmpty(Request.Form[GetControlValidationValue(ControlToValidate)]))\n        {\n            base.Validate();\n        }\n    }\n}

@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint main() {\n    int num;\n    printf("Enter an integer: ");\n    scanf("%10d", &num); // read at most 10 characters\n    printf("You entered: %d\n", num);\n    return 0;\n}

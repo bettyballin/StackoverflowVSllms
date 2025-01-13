@@ -1,0 +1,1 @@
+public class MyClass\n{\n    public event EventHandler Click;\n\n    public void AttachEventHandler()\n    {\n        Click += new EventHandler(MyMethod); // Explicit syntax\n        Click += MyMethod; // Implicit syntax\n    }\n\n    public void MyMethod(object sender, EventArgs e) { }\n}

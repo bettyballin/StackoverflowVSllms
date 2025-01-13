@@ -1,0 +1,1 @@
+$.ajax({\n  type: 'DELETE',\n  url: '/widget/12',\n  success: function(data) {\n    console.log(data);\n  }\n});

@@ -1,0 +1,1 @@
+using System;\nusing System.Security;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        // Get the API key from an environment variable\n        string apiKey = Environment.GetEnvironmentVariable("API_KEY");\n\n        // Use the API key to calculate the hash\n        // ...\n    }\n}

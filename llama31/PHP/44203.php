@@ -1,0 +1,1 @@
+require_once 'PHPExcel/PHPExcel.php';\n\n$htmlTable = '<table>...</table>'; // your HTML table\n\n$objPHPExcel = new PHPExcel();\n$objPHPExcel->getActiveSheet()->setCellValue('A1', $htmlTable);\n$objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'PDF');\n$objWriter->save('table.pdf');

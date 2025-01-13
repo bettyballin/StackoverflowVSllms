@@ -1,0 +1,1 @@
+[WebMethod]\npublic static string GetRepeaterHtml()\n{\n    // your business logic here\n    RepeaterContainer.Visible = true;\n    StringWriter sw = new StringWriter();\n    HtmlTextWriter hw = new HtmlTextWriter(sw);\n    RepeaterContainer.RenderControl(hw);\n    return sw.ToString();\n}

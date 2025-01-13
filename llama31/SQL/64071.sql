@@ -1,0 +1,1 @@
+CREATE TABLE messages (\n  id INT PRIMARY KEY,\n  compressed_text BLOB,\n  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);

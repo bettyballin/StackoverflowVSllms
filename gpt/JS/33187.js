@@ -1,1 +1,0 @@
-var pattern = /(?<name>[a-z]+)/;

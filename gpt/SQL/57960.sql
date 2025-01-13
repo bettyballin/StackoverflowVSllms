@@ -1,1 +1,0 @@
-CREATE OR REPLACE PROCEDURE MYSCHEMA.my_procedure IS\nBEGIN\n    -- procedure logic\nEND;\n/

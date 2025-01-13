@@ -1,0 +1,1 @@
+$html = file_get_contents('test.html');\n$html = preg_replace('/[\x00-\x1F]/', '', $html); // remove invisible characters\n$doc = new DOMDocument();\n$doc->loadHTML($html);

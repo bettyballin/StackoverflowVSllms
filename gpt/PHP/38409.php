@@ -1,1 +1,0 @@
-class Model_Company extends LP_Model {\n    public function __construct() {\n        parent::__construct(new Model_Table_Company(), __CLASS__);\n    }\n}

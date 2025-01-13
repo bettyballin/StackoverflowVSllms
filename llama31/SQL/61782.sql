@@ -1,0 +1,1 @@
+select xml.value('sum(for $i in /List/value return xs:decimal($i))', 'numeric') sum\nfrom (select cast('<List><value>0</value><value>0</value></List>' as xml) xml) a

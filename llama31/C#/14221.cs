@@ -1,0 +1,1 @@
+public ActionResult MyAction(MyModel model)\n{\n    try\n    {\n        // ...\n    }\n    catch (Exception ex)\n    {\n        return Json(new { error = ex.Message });\n    }\n}

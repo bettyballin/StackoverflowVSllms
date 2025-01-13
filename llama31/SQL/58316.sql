@@ -1,0 +1,1 @@
+SELECT id,\n       COALESCE(max_value, 0) AS max_value\nFROM (\n  SELECT id,\n         (SELECT MAX(value) FROM my_table WHERE other_value = 1) AS max_value\n  FROM other_table\n) AS subquery

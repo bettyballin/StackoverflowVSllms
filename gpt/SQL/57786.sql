@@ -1,1 +1,0 @@
-WITH duplicates AS (\n    SELECT \n        *,\n        ROW_NUMBER() OVER (PARTITION BY column1, column2, column3 ORDER BY id) AS row_num\n    FROM \n        your_table\n)\nDELETE FROM your_table\nWHERE id IN (\n    SELECT id FROM duplicates WHERE row_num > 1\n);

@@ -1,0 +1,1 @@
+-- Always a good idea to keep your databases secure!\nSELECT * FROM v$patch_file WHERE status = 'Applied';

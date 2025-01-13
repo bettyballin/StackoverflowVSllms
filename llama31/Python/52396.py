@@ -1,0 +1,1 @@
+from colorthief import ColorThief\n\ndef get_dominant_colors(image_data):\n    color_thief = ColorThief(image_data)\n    dominant_color = color_thief.get_color(quality=1)\n    return dominant_color\n\n# Example usage:\nimage_data = 'image.jpg'  # replace with your image data\ndominant_color = get_dominant_colors(image_data)\nprint(dominant_color)

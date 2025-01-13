@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Validate input\nif [ -z "$1" ]; then\n  echo "Invalid input"\n  exit 1\nfi\n\n# Call Perl script\nperl /home/www/Init.pm -f "$1"

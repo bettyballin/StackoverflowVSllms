@@ -1,0 +1,1 @@
+Parent p = new ReadWriteChild();\np.Foo = "new value"; // compiler error

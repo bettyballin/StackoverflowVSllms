@@ -1,1 +1,0 @@
-ActiveRecord::Schema.define(version: 2023_10_11_000001) do\n  create_table "custom_table", primary_key: "key_column", force: :cascade do |t|\n    t.string "value_column"\n    t.datetime "created_at", precision: 6, null: false\n    t.datetime "updated_at", precision: 6, null: false\n  end\nend

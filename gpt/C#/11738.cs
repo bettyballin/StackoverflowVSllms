@@ -1,1 +1,0 @@
-var catalog = new DirectoryCatalog("PathToYourExtensions"); // Adjust the path as needed\nvar container = new CompositionContainer(catalog);\n\nvar batch = new CompositionBatch();\nbatch.AddExportedValue<Func<double, IRandomNumberGenerator>>(seed => new ConcreteRNG(seed));\ncontainer.Compose(batch);\n\nvar consumer = container.GetExportedValue<Consumer>();

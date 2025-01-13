@@ -1,0 +1,1 @@
+// protected_directory/index.php\n\n// Start the session\nsession_start();\n\n// Check if the user is logged in\nif (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {\n    // If not logged in, redirect to the login page\n    header('Location: ../auth.php');\n    exit;\n}\n\n// Display the protected content\necho 'Welcome to the protected directory!';

@@ -1,1 +1,0 @@
-using IronOcr;\n\n   var Ocr = new IronTesseract();\n   using (var Input = new OcrInput())\n   {\n       Input.AddImage("sample.png");\n       var Result = Ocr.Read(Input);\n       string text = Result.Text;\n   }

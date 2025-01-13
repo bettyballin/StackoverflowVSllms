@@ -1,1 +1,0 @@
-LogParser "SELECT TO_STRING(QUANTIZE(TO_TIMESTAMP(date, time), 3600), 'yyyy-MM-dd HH:mm:ss') AS Hour, COUNT(*) AS Hits FROM <path_to_iis_logs> GROUP BY Hour ORDER BY Hour" -i:IISW3C

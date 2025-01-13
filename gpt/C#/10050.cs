@@ -1,1 +1,0 @@
-var configuration = new Configuration();\n   configuration.Configure(); // Reads nhibernate.cfg.xml\n   var sessionFactory = configuration.BuildSessionFactory();\n   using (var session = sessionFactory.OpenSession())\n   {\n       var result = session.Query<YourEntity>().ToList();\n   }

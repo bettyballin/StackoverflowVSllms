@@ -1,0 +1,1 @@
+SELECT SUBSTRING(`Student Code`, 5) AS new_value\nFROM your_table;

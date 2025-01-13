@@ -1,1 +1,0 @@
-.file   "test1.c"\n    .def    ___main;    .scl    2;  .type   32; .endef\n    .text\n    .globl _main\n    .def    _main;  .scl    2;  .type   32; .endef

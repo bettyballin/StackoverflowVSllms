@@ -1,1 +1,0 @@
-// Assuming $pdo is your PDO instance and $stmt is your PDOStatement\n$stmt = $pdo->prepare("SELECT column1, column2, column3 FROM your_table");\n$stmt->execute();\n$results = $stmt->fetchAll(PDO::FETCH_ASSOC);\n\nforeach ($results as &$row) {\n    foreach ($row as &$value) {\n        $value = floatval($value);\n    }\n}\n\nprint_r($results);

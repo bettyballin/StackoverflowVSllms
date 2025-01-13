@@ -1,1 +1,0 @@
-SELECT BIT_XOR(some_column) AS checksum\nFROM your_table;

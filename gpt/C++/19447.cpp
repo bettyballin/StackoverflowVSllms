@@ -1,1 +1,0 @@
-HRESULT hr = CoInitialize(NULL);\nif (FAILED(hr)) {\n    // Handle the error\n    return hr;\n}

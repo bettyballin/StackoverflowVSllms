@@ -1,1 +1,0 @@
-const filter = JSON.stringify({ or: [{ field1: 'x' }, { field2: 'y' }] });\nconst encodedFilter = encodeURIComponent(filter);\nconst url = `/myresource?filter=${encodedFilter}`;

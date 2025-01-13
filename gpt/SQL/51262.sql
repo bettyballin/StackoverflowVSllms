@@ -1,1 +1,0 @@
-ALTER TABLE your_table ADD COLUMN guid_id CHAR(36);\n    ALTER TABLE your_table ADD COLUMN old_id BIGINT;

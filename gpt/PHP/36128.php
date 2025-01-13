@@ -1,1 +1,0 @@
-<?php\n// wait.php\n\necho '<script type="text/javascript">loadxml();</script>';\n?>

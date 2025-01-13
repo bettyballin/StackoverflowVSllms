@@ -1,0 +1,1 @@
+SELECT \n  si.studid,\n  si.name,\n  SUM(CASE WHEN md.subjectid = 3 THEN md.marks ELSE NULL END) AS subjectid_3,\n  SUM(CASE WHEN md.subjectid = 4 THEN md.marks ELSE NULL END) AS subjectid_4,\n  SUM(CASE WHEN md.subjectid = 5 THEN md.marks ELSE NULL END) AS subjectid_5\nFROM \n  student_info si\n  LEFT JOIN markdetails md ON si.studid = md.studid\nGROUP BY \n  si.studid, si.name

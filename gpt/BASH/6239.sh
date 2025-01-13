@@ -1,1 +1,0 @@
-keytool -import -alias mycert -file mycert.crt -keystore keystore.jks -trustcacerts\nkeytool -import -alias subCA -file subCA.crt -keystore keystore.jks -trustcacerts

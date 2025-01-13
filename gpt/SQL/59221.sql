@@ -1,1 +1,0 @@
-SELECT (CASE profile WHEN N'_default' THEN 1 ELSE 2 END) AS profile_order FROM engine_properties;

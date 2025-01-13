@@ -1,0 +1,1 @@
+using CsvHelper;\n\n// Load the .csv file\nusing (var reader = new StreamReader("file.csv"))\n{\n    var csvReader = new CsvReader(reader);\n    // Read the file content\n    while (csvReader.Read())\n    {\n        // ...\n    }\n}

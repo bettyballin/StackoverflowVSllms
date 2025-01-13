@@ -1,0 +1,1 @@
+$('#contentDiv').each(function() {\n  var wrapperHTML = "<div id='wrapperDiv'><div id='beforeDiv'></div>";\n  var afterHTML = "<div id='afterDiv'></div></div>";\n  \n  $(this).wrap(wrapperHTML + '<div id="wrapperDiv"></div>');\n  $(this).after(afterHTML);\n});

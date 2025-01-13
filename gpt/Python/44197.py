@@ -1,1 +1,0 @@
-def find_greatest(a, b, c, d):\n    greatest = a  # Assume the first number is the greatest initially\n    if b > greatest:\n        greatest = b\n    if c > greatest:\n        greatest = c\n    if d > greatest:\n        greatest = d\n    return greatest\n\n# Example usage\na, b, c, d = 10, 20, 30, 25\nprint("The greatest number is:", find_greatest(a, b, c, d))

@@ -1,1 +1,0 @@
-<!-- In your ASPX page -->\n   <input type="hidden" id="hiddenField" runat="server" value="JohnDoe" />\n\n   ' In your code-behind\n   Dim userName As String = hiddenField.Value

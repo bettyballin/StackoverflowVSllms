@@ -1,1 +1,0 @@
-public class AccountController : Controller\n{\n    [HttpPost]\n    public ActionResult Login(LoginViewModel model)\n    {\n        if (ModelState.IsValid)\n        {\n            // Perform login action\n            return RedirectToAction("Index", "Home");\n        }\n\n        // If we got this far, something failed; redisplay form\n        return View(model);\n    }\n}

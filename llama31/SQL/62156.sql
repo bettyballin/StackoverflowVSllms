@@ -1,0 +1,1 @@
+SELECT v.* \nFROM Videos v \nJOIN User_Video_Watchlist uw ON v.id = uw.video_id \nWHERE uw.user_id = ? AND uw.watched = FALSE;

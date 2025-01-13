@@ -1,0 +1,1 @@
+function search(str){\n    var contacts = document.querySelectorAll('.contactItem'); \n    for(var i=0; i<contacts.length; i++){\n        var span = contacts[i];\n        var contactName = span.textContent;\n        if(!contactName.match(str)){\n            span.parentNode.style.display = 'none';\n        }        \n    }\n}

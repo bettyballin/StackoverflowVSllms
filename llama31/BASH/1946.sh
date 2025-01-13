@@ -1,0 +1,1 @@
+dsacls \\BRANCH2\directory | findstr CENTRAL\ldapreader\ndsacls \\BRANCH2\OU=Users,DC=BRANCH2,DC=local | findstr CENTRAL\ldapreader

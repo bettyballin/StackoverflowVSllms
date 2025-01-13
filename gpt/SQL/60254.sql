@@ -1,1 +1,0 @@
-CREATE PROCEDURE TestStoredProcedures.[test myProcedure_ReturnsExpectedValue]\nAS\nBEGIN\n    -- Arrange\n    EXEC tSQLt.FakeTable 'MyTable';\n    INSERT INTO MyTable (Col1, Col2) VALUES ('Value1', 'Value2');\n    \n    -- Act\n    EXEC myProcedure @param1 = 'Value1';\n\n    -- Assert\n    EXEC tSQLt.AssertEqualsTable 'ExpectedTable', 'ActualTable';\nEND;\nGO

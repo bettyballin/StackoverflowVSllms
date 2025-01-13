@@ -1,0 +1,1 @@
+// Way1.dll\n#include <Windows.h>\n\n// Define the Way1 engine class\nclass Way1Engine : public IEngine\n{\npublic:\n    void Initialize() { /* Way1 initialization code */ }\n    void DoSomething() { /* Way1 do something code */ }\n};\n\n// Export the CreateEngine function\nextern "C" __declspec(dllexport) IEngine* CreateEngine()\n{\n    return new Way1Engine();\n}

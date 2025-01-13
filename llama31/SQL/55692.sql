@@ -1,0 +1,1 @@
+DECLARE @hash_value VARBINARY(32) = HASHBYTES('SHA2_256', 'HELLO');\n\nSELECT a, b, c, @hash_value AS hash_value\nFROM my_table;

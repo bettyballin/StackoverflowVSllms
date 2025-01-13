@@ -1,1 +1,0 @@
-curl -X POST -H "Content-Type: application/json" -d '{"text":"New release v1.0.0 is out!"}' https://your-forum-api.com/posts

@@ -1,0 +1,1 @@
+if (isset($_SERVER['HTTP_X_FORWARDED_FOR'])) {\n    $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];\n} else {\n    $ip = $_SERVER['REMOTE_ADDR'];\n}\n$host = gethostbyaddr($ip);\nif ($host === false) {\n    // handle the case where the IP address is not found in the DNS\n}

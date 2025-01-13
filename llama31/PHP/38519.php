@@ -1,0 +1,1 @@
+$array = $obj->getArray();\n$value = $array[0];

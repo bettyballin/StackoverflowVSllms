@@ -1,1 +1,0 @@
-mysqldump -u username -p --no-data --xml dbname > schema.xml

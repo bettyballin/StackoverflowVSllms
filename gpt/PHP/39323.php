@@ -1,1 +1,0 @@
-<?php\nclass CallableClass {\n    public function __invoke($param) {\n        return "Called with parameter: " . $param;\n    }\n}\n\n$callable = new CallableClass();\necho $callable("example"); // Output: Called with parameter: example\n?>

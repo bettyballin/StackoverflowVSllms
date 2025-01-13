@@ -1,0 +1,1 @@
+var timer = new System.Timers.Timer(5000); // 5 seconds\ntimer.Elapsed += (sender, args) =>\n{\n    // Call the code above to update the resultDataTable\n};\ntimer.Start();

@@ -1,0 +1,1 @@
+function displayApple1($str) {\n    if ($str == 'apple') {\n        return $str;\n    }\n}\n\nfunction displayApple2($str) {\n    if ($str == 'apple') {\n        return $str;\n    } else {\n        return null; // or throw an exception, depending on your use case\n    }\n}

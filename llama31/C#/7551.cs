@@ -1,0 +1,1 @@
+string dateValue = "03-Apr-2009"; // user-input date string\nDateTime userInputDate = DateTime.ParseExact(dateValue, "dd-MMM-yyyy", null);\nDateTime oneYearAgo = DateTime.Now.AddYears(-1);\n\nif (userInputDate > oneYearAgo)\n{\n    // date is valid\n}\nelse\n{\n    // date is not valid\n}

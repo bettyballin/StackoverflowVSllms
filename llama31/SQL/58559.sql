@@ -1,0 +1,1 @@
+SELECT \n    ID,\n    FISCAL AS Date,\n    SUM(Hour) AS Hour,\n    SUM(Weight) AS Weight\nFROM \n    (\n    SELECT \n        ID,\n        Hour,\n        Weight,\n        (SELECT MAX(FISCAL) FROM your_table AS t2 WHERE t2.FISCAL <= t1.Date) AS FISCAL\n    FROM \n        your_table AS t1\n    ) AS subquery\nGROUP BY \n    ID,\n    FISCAL\nORDER BY \n    ID ASC,\n    FISCAL ASC

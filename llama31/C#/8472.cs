@@ -1,0 +1,1 @@
+private static string TestOne(string RawData)\n{\n    for (int i = 0; i < mc.Count; i++)\n    {\n        int days = Convert.ToInt32(FindNumberRegex.Match(FindDaysRegex.Match(mc[i].Value).Value).Value);\n    }\n    return RawData;\n}

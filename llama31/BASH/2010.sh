@@ -1,0 +1,1 @@
+# Enable Client IP Affinity using PowerShell\nGet-NlbCluster | Set-NlbCluster -ClientIPAffinity $true -ClientIPAffinityTimeout 30

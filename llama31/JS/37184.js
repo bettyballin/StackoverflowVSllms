@@ -1,0 +1,1 @@
+// assuming you have a collection of items in a JavaScript array\nconst items = [...];\n\n// filter function\nfunction filterItems(filterValues) {\n  const filteredItems = items.filter((item) => {\n    // implement your filter logic here\n    return item.name.startsWith(filterValues.letter) && item.status === filterValues.status;\n  });\n  return filteredItems;\n}

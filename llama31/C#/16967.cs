@@ -1,0 +1,1 @@
+public class MyClass\n{\n    private readonly IDataRepository _dataRepository;\n\n    public MyClass(IDataRepository dataRepository)\n    {\n        _dataRepository = dataRepository;\n    }\n\n    public void MyMethod()\n    {\n        var dataset = _dataRepository.PrefetchData();\n        // Process dataset...\n    }\n}

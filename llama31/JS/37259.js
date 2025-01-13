@@ -1,0 +1,1 @@
+const input = "i like cats\n\n\nmy cat is happy\ni love my cat\n\n\n\nhope you have a nice day\n";\nconst sanitized = input.replace(/\n{2,}/g, '\n\n');\nconsole.log(sanitized);

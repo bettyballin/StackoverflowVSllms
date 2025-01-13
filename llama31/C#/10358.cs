@@ -1,0 +1,1 @@
+Console.CursorLeft = Console.WindowWidth - 1;\nConsole.CursorTop = Console.WindowHeight - 1;\nConsole.Write("x");\nConsole.CursorLeft = Console.WindowWidth - 1;\nConsole.CursorTop = Console.WindowHeight - 1;

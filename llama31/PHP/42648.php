@@ -1,0 +1,1 @@
+$myArray = array('key1'=>'value1', 'key2'=>'value2');\n$fileContents = serialize($myArray);\n\n// Save $fileContents to a file or database\n\n// Later, retrieve $fileContents and unserialize it\n$myArray = unserialize($fileContents);\n\necho $myArray['key1']; // output: value1\necho $myArray['key2']; // output: value2

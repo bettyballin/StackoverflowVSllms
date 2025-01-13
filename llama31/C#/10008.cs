@@ -1,0 +1,1 @@
+X509Store store = new X509Store("My", StoreLocation.LocalMachine);\nstore.Open(OpenFlags.ReadOnly);\nX509Certificate2Collection certs = store.Certificates.Find(X509FindType.FindBySubjectName, "your_cert_subject_name", false);

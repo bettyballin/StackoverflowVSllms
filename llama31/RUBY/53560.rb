@@ -1,0 +1,1 @@
+class Person < ActiveRecord::Base\n  # ...\n\n  def children\n    children_as_mother + children_as_father\n  end\nend

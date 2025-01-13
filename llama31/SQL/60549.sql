@@ -1,0 +1,1 @@
+SELECT *\nFROM (\n  SELECT *\n  FROM cool_table\n  WHERE date >= TO_DATE('200901010000', 'YYYYMMDDhh24mi')\n  ORDER BY seq_nr, entry_dts\n)\nFETCH FIRST 50 ROWS ONLY;

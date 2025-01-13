@@ -1,1 +1,0 @@
-#!/bin/bash\nmkdir -p tiff_files\nfor pdf_file in *.pdf; do\n    tiff_file="tiff_files/${pdf_file%.pdf}.tiff"\n    convert -density 300 "$pdf_file" -depth 8 "$tiff_file"\ndone

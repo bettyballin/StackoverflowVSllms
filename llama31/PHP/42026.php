@@ -1,0 +1,1 @@
+$mail_body_reply = "Sum: " . utf8_encode("€") . " from JavaScript";

@@ -1,0 +1,1 @@
+SELECT *\nFROM YourTableName\nORDER BY YourUniqueKeyColumn DESC\nOFFSET 0 ROWS\nFETCH NEXT 1 ROW ONLY;

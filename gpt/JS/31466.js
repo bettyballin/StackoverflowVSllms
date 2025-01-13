@@ -1,1 +1,0 @@
-window.addEventListener('resize', function() {\n    // Code to handle screen resizing\n    adjustLayout();\n});\n\nfunction adjustLayout() {\n    // Logic to re-position elements or adjust sizes\n    console.log('Screen resized. Adjusting layout...');\n}

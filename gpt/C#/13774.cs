@@ -1,1 +1,0 @@
-using NUnit.Framework;\n\nnamespace MyApplication.Tests\n{\n    [TestFixture]\n    public class MyTests\n    {\n        [Test]\n        public void TestMethod1()\n        {\n            // Arrange\n            int expected = 5;\n            int actual = 2 + 3;\n\n            // Act & Assert\n            Assert.AreEqual(expected, actual);\n        }\n    }\n}

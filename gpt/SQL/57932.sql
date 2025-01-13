@@ -1,1 +1,0 @@
-INSERT INTO NewTable (colA1, colA2, colA3, colA4, colA5, colA6, colB1, colB2, colB3)\n    SELECT colA1, colA2, colA3, colA4, colA5, colA6, colB1, colB2, colB3\n    FROM OldTable;

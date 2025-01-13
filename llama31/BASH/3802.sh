@@ -1,0 +1,1 @@
+xattr -l /path/to/your/directory

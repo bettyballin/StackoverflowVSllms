@@ -1,0 +1,1 @@
+ALTER TABLE Contact\nADD EmailAddressModified VARCHAR(255)\n\nUPDATE Contact\nSET EmailAddressModified = EmailAddress + '.x'

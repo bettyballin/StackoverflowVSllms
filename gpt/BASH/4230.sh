@@ -1,1 +1,0 @@
-@echo off\nset input_file=path\to\your\input_file_%date:~-10,2%-%date:~-7,2%-%date:~-4,4%.txt\nset offset_file=path\to\your\offset_file.txt\nset output_file=path\to\your\output_file_%date:~-10,2%-%date:~-7,2%-%date:~-4,4%.txt\n\npython file_offset.py %input_file% %offset_file% %output_file%

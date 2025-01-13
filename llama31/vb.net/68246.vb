@@ -1,0 +1,1 @@
+Dim password As String = "mysecretpassword"\nDim encryptedPassword As String = CredentialEncryptor.EncryptPassword(password)\nDim decryptedPassword As String = CredentialEncryptor.DecryptPassword(encryptedPassword)\nConsole.WriteLine(decryptedPassword)  ' Output: mysecretpassword

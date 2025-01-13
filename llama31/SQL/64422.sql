@@ -1,0 +1,1 @@
+CREATE SERVER AUDIT MyAudit TO FILE = 'C:\Logs\MyAudit.log';\nALTER SERVER AUDIT MyAudit ENABLE;

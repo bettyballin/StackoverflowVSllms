@@ -1,1 +1,0 @@
-sudo ln -s /usr/local/PEAR/bin/phpunit /usr/local/bin/phpunit

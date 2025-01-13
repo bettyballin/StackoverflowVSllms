@@ -1,1 +1,0 @@
-et stop "ColdFusion Instance Name"\n   net start "ColdFusion Instance Name"

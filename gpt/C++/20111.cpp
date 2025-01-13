@@ -1,1 +1,0 @@
-// Core.h\n#pragma once\n\n#ifdef CORE_EXPORTS\n#define CORE_API __declspec(dllexport)\n#else\n#define CORE_API __declspec(dllimport)\n#endif\n\nCORE_API void CoreFunction();\n\n// Core.cpp\n#include "Core.h"\n#include <iostream>\n\nvoid CoreFunction() {\n    std::cout << "Core Function" << std::endl;\n}

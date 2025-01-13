@@ -1,0 +1,1 @@
+// Simulate a malicious request with the anti-forgery token\nrequest.Form["__RequestVerificationToken"] = Guid.NewGuid().ToString();\n\n// Call the page's Load event handler\npage.ProcessRequest(httpContext);\n\n// Assert that the request was rejected\nAssert.AreEqual(401, response.StatusCode);

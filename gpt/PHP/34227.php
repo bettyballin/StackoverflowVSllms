@@ -1,1 +1,0 @@
-$myString = "Hello, World!";\n$position = 7;\n$charAtPosition = $myString[$position];\n\necho $charAtPosition; // outputs 'W'

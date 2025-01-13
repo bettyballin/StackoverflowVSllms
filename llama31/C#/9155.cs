@@ -1,0 +1,1 @@
+String found = text.Find(s => s == "d");

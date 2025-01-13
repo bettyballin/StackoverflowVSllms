@@ -1,0 +1,1 @@
+SELECT CONVERT(VARCHAR(MAX), (\n  SELECT TOP 4 carModels\n  FROM dbo.Models\n  FOR XML PATH(''), TYPE\n).value('.','VARCHAR(MAX)'))

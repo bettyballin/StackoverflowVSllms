@@ -1,0 +1,1 @@
+SELECT p.*\nFROM products p\nJOIN (\n  SELECT p1.product_id\n  FROM properties p1\n  JOIN properties p2 ON p1.product_id = p2.product_id\n  WHERE p1.value = 'red' AND p2.value = 'small'\n) AS filter ON p.id = filter.product_id;

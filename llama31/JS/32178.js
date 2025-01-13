@@ -1,0 +1,1 @@
+$.ajax({\n    type: "POST",\n    url: "YourPage.aspx/YourMethod",\n    data: '{"name":"John"}',\n    contentType: "application/json; charset=utf-8",\n    dataType: "json",\n    success: function (data) {\n        // Process the response\n    }\n});

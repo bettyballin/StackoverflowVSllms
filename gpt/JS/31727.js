@@ -1,1 +1,0 @@
-var styles = document.getElementsByTagName('style');\n   for (var i = 0; i < styles.length; i++) {\n       var styleNode = styles[i].cloneNode(true);\n       styles[i].parentNode.replaceChild(styleNode, styles[i]);\n   }

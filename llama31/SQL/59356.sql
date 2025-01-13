@@ -1,0 +1,1 @@
+SELECT \n    omID,\n    x.value('(imageId)[1]', 'int') AS imageId,\n    x.value('(title)[1]', 'varchar(50)') AS title\nFROM \n    dbo.myTable\nCROSS APPLY \n    omText.nodes('/things/Fruit') AS x(x)\nWHERE \n    x.value('(title)[1]', 'varchar(50)') = 'X'  -- or x.value('(imageId)[1]', 'int') = 55

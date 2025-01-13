@@ -1,0 +1,1 @@
+SELECT ID, COLUMN1, COLUMN2\nFROM (\n  SELECT ID, COLUMN1, COLUMN2, ROW_NUMBER() OVER (ORDER BY 2 DESC) NO\n  FROM A_TABLE\n  WHERE COLUMN1 LIKE '%value%'  -- add the WHERE clause here\n)\nWHERE NO BETWEEN 1 AND 100  -- corrected the range to start from 1\nORDER BY 2 DESC;  -- add the final ORDER BY clause here

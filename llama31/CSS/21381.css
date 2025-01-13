@@ -1,0 +1,1 @@
+.record {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n}\n\n.label {\n  width: 125px;\n}\n\n.data {\n  margin-left: 10px;\n}

@@ -1,0 +1,1 @@
+SELECT SUBSTR('JD-EQ-0001', INSTR('JD-EQ-0001', '-', -1) + 1) AS substring\nFROM dual;

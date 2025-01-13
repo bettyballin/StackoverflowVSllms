@@ -1,1 +1,0 @@
-function generateGUID() {\n    function s4() {\n        return Math.floor((1 + Math.random()) * 0x10000)\n            .toString(16)\n            .substring(1);\n    }\n    return s4() + s4() + '-' + s4() + '-' + s4() + '-' +\n           s4() + '-' + s4() + s4() + s4();\n}

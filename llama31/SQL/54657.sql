@@ -1,0 +1,1 @@
+SELECT f.*, MAX(c.comment_date) AS last_comment_date\nFROM forums f\nLEFT JOIN comments c ON f.forum_id = c.comment_thread_id\nGROUP BY f.forum_id\nORDER BY f.forum_order ASC

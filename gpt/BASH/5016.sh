@@ -1,1 +1,0 @@
-chmod 755 /path/to/your/executable\nchmod 755 $ORACLE_HOME/bin/*\nchmod 755 $ORACLE_HOME/lib/*

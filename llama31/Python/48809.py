@@ -1,0 +1,1 @@
+import mimetypes\n\ndef get_file_type(file_path):\n    mime_type, _ = mimetypes.guess_type(file_path)\n    return mime_type\n\n# or using python-magic\n\nimport magic\n\ndef get_file_type(file_path):\n    mime = magic.Magic(mime=True)\n    return mime.from_file(file_path)

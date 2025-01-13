@@ -1,1 +1,0 @@
-public static class UrlHelper\n   {\n       public static string GetStaticContentUrl(string relativePath)\n       {\n           var baseUrl = ConfigurationManager.AppSettings["StaticContentUrl"];\n           return $"{baseUrl}{relativePath}";\n       }\n   }

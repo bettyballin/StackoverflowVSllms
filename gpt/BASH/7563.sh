@@ -1,1 +1,0 @@
-php -m | grep mssql

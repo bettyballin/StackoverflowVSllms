@@ -1,0 +1,1 @@
+using Microsoft.EntityFrameworkCore;\n\npublic class MyContext : DbContext\n{\n    public DbSet<MyClass> MyClasses { get; set; }\n}\n\npublic class MyClass\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n}

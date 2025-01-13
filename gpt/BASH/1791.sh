@@ -1,1 +1,0 @@
-encrypted_drive /dev/sdX /root/keyfile luks

@@ -1,0 +1,1 @@
+echo urlencode($uri);

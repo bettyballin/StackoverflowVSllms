@@ -1,0 +1,1 @@
+$a = '# /[a-z] #i';\n$b = '/ Moo /x';\n\n$patterns = array($a, $b);\n$subject = 'Your input string here';\n\npreg_match($patterns, $subject, $matches, PREG_PATTERN_ORDER);\n\nif ($matches) {\n    echo "Match found: " . $matches[0] . "\n";\n} else {\n    echo "No match found\n";\n}

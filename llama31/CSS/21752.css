@@ -1,0 +1,1 @@
+.sprite {\n  background-image: url('sprite.png');\n  background-position: 0 0; /* top-left corner of the sprite */\n  width: 20px; /* width of the icon */\n  height: 20px; /* height of the icon */\n}\n\n.sprite.icon-1 {\n  background-position: -20px 0; /* move 20px to the right */\n}\n\n.sprite.icon-2 {\n  background-position: -40px 0; /* move 40px to the right */\n}

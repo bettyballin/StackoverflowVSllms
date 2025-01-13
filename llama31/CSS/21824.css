@@ -1,0 +1,1 @@
+#container {\n  display: flex;\n}\n\n#ContentCol {\n  flex: 1;\n  margin-right: 130px;\n  padding: 3px;\n}\n\n#RightSideCol {\n  background-color: #fff;\n  flex: 0 0 126px;\n}

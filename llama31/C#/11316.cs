@@ -1,0 +1,1 @@
+using Castle.ActiveRecord;\n\n// Define your model\n[ActiveRecord]\npublic class MyEntity\n{\n    [PrimaryKey]\n    public int Id { get; set; }\n}\n\n// Initialize Active Record\nActiveRecordStarter.Initialize(typeof(MyEntity).Assembly);\n\n// Update the schema\nActiveRecordStarter.CreateSchema();

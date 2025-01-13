@@ -1,0 +1,1 @@
+find . -not \( -name "*.jpg" -o -name "*.png" \) -exec grep -s "B206" '{}' \; -print

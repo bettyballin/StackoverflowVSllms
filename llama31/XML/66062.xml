@@ -1,0 +1,1 @@
+<!-- server.xml -->\n<jndi:EnvironmentEntry \n    jndiName="myApp/soapEndpoint"\n    type="java.lang.String"\n    value="http://example.com/soap/endpoint" />

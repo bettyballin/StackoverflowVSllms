@@ -1,1 +1,0 @@
-# Example command to grant read and execute permissions to all users\n   icacls "path\to\your\dtSearchNetApi.dll" /grant Everyone:(RX)

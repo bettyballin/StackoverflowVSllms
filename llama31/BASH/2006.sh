@@ -1,0 +1,1 @@
+# Create a new non-admin account\nnet user profilerUser /add\n\n# Grant SeDebugPrivilege to the new account\nicacls "C:\Windows\System32\SeDebugPrivilege" /grant:r profilerUser:F

@@ -1,0 +1,1 @@
+using (var context = new MyDataContext())\n{\n    var param = new SqlParameter("@Result", SqlDbType.Structured);\n    param.TypeName = "dbo.MyTableType";\n    param.Value = new MyTableType();\n    context.ExecuteQuery("EXEC OuterProc @Result OUTPUT", param);\n    var result = (MyTableType)param.Value;\n    // process the result set\n}

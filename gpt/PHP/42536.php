@@ -1,1 +1,0 @@
-echo $this->Form->create('Comment', array('action' => 'addComment'));\necho $this->Form->input('Comment.person_id', array('type' => 'hidden', 'value' => $person['Person']['id']));\necho $this->Form->input('Comment.content');\necho $this->Form->end('Add Comment');

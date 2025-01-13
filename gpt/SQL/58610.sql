@@ -1,1 +1,0 @@
-CREATE INDEX binary_data_hash_idx ON binary_data (DBMS_CRYPTO.HASH(data, 2));

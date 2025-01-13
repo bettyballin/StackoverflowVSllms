@@ -1,1 +1,0 @@
-caspol -machine -addgroup All_Code -url "file://C:/PathToYourApp/*" FullTrust

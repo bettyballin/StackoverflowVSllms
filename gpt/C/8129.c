@@ -1,1 +1,0 @@
-typedef int (*func_ptr_t)(int, double);

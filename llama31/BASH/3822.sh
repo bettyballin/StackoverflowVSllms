@@ -1,0 +1,1 @@
+dumpbin /headers <dll_file> | findstr "VERSION"

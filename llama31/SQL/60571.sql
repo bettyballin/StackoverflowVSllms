@@ -1,0 +1,1 @@
+SELECT orders.order_id, customers.name\nFROM orders\nINNER JOIN customers ON orders.customer_id = customers.id;

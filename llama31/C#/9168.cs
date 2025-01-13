@@ -1,0 +1,1 @@
+private void MyDataTable_ColumnChanging(object sender, DataColumnChangeEventArgs e)\n{\n    if (e.Column.ColumnName == "MyRequiredColumn" && string.IsNullOrEmpty(e.ProposedValue.ToString()))\n    {\n        // Show error message\n        MessageBox.Show("MyRequiredColumn is required.");\n        e.Cancel = true;\n    }\n}

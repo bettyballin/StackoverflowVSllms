@@ -1,1 +1,0 @@
-Dim doubleValue As Double = 12.53467345\nDim integerValue As Integer = CInt(Math.Floor(doubleValue))\nConsole.WriteLine(integerValue) ' Output will be 12

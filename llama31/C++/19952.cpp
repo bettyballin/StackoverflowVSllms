@@ -1,0 +1,1 @@
+// file1.h\n#pragma once\nvoid func1();

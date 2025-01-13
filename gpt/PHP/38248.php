@@ -1,1 +1,0 @@
-// Example function to log to a file\nfunction logToFile($action, $userId, $details) {\n    $logFile = '/path/to/logfile.log';\n    $logEntry = date('Y-m-d H:i:s') . " | UserID: $userId | Action: $action | Details: $details" . PHP_EOL;\n    file_put_contents($logFile, $logEntry, FILE_APPEND);\n}\n\n// Usage\nlogToFile('login', 1, 'User logged in');

@@ -1,0 +1,1 @@
+use Delphi\Security\Encryption;\n\n$encryption = new Encryption();\n$encryptedPhoneNumber = $encryption->encrypt('123-456-7890');

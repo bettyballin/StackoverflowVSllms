@@ -1,0 +1,1 @@
+CREATE TABLE users (\n    email VARCHAR(255) NOT NULL CHECK (email ~ '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$')\n    -- Add more constraints as needed\n);

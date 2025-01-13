@@ -1,0 +1,1 @@
+# Create a secure file with credentials\necho "myuser:mypassword" > /path/to/secure/file\n\n# Use the secure file in your script\nwhile IFS=: read -r username password; do\n  sqlplus "$username/$password@mydatabase"\ndone < /path/to/secure/file

@@ -1,0 +1,1 @@
+string userName = SPContext.Current.Web.CurrentUser.Name;\n// or\nSPUserToken userToken = SPContext.Current.Web.CurrentUser.UserToken;

@@ -1,0 +1,1 @@
+import socket\n\nport = 80\nservice_name = socket.getservbyport(port)\nprint(service_name)  # Output: http

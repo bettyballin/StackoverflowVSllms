@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE DATEPART(month, your_datetime_column) = DATEPART(month, GETDATE())\n  AND DATEPART(year, your_datetime_column) = DATEPART(year, GETDATE())

@@ -1,1 +1,0 @@
-string selectedValue = Request.Form["rb1"];\nif (selectedValue == "rb1_value")\n{\n    // rb1 was selected\n}\nelse if (selectedValue == "rb2_value")\n{\n    // rb2 was selected\n}

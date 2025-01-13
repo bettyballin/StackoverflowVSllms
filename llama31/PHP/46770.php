@@ -1,0 +1,1 @@
+$file = 'counter.txt';\n$fp = fopen($file, 'r+');\nif (flock($fp, LOCK_EX)) { // acquire exclusive lock\n    $counter = (int) fread($fp, filesize($file));\n    $counter++;\n    fseek($fp, 0);\n    fwrite($fp, $counter);\n    flock($fp, LOCK_UN); // release lock\n}\nfclose($fp);

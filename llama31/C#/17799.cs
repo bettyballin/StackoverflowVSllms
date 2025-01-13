@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    if (Request.Browser.JavaScriptEnabled)\n    {\n        noscriptPlaceHolder.Visible = false;\n    }\n}

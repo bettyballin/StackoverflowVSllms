@@ -1,1 +1,0 @@
-// Model (e.g., DataModel.cs)\npublic interface IDataModel\n{\n    string TransformData(string inputData);\n}\n\npublic class DataModel : IDataModel\n{\n    public string TransformData(string inputData)\n    {\n        // Example transformation logic\n        return inputData.ToUpper();\n    }\n}

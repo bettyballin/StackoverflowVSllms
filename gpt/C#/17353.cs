@@ -1,1 +1,0 @@
-// Original Code\npublic class HelloWorld {\n    public void SayHello() {\n        Console.WriteLine("Hello, World!");\n    }\n}\n\n// Obfuscated Code\npublic class a {\n    public void b() {\n        Console.WriteLine("a, b!");\n    }\n}

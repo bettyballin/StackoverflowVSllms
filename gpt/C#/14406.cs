@@ -1,1 +1,0 @@
-using WebSupergoo.ABCpdf8;\n   \n   Doc theDoc = new Doc();\n   theDoc.AddImageUrl("http://www.example.com");\n   theDoc.Save("example.pdf");\n   theDoc.Clear();

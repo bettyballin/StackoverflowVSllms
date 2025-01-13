@@ -1,0 +1,1 @@
+using Db4objects.Db4o;\nusing Db4objects.Db4o.Query;\n\n// Assume you have an IObjectContainer db\nIQuery query = db.Query(typeof(YourClass));\nquery.Descend("YourField").Constrain("YourConstraint");\nquery.Max(10); // equivalent to "TOP 10"\n\nIObjectSet result = query.Execute();

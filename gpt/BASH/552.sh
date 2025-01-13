@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Check if the current node is the active node\nIS_ACTIVE=$(crm_mon -1 | grep -i "Current DC" | grep "$(hostname)")\n\nif [ -n "$IS_ACTIVE" ]; then\n    echo "This is the active node."\n    # Trigger pager alert\nelse\n    echo "This is the inactive node."\n    # Send email alert\nfi

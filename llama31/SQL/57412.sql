@@ -1,0 +1,1 @@
+SELECT *\nFROM tempTable\nWHERE id BETWEEN X AND Y;

@@ -1,1 +1,0 @@
-cd /path/to/your/working/copy\nsvn switch --relocate svn+ssh://MYUSERNAME@server/svn/project/trunk/ svn+ssh://NEWUSERNAME@server/svn/project/trunk/

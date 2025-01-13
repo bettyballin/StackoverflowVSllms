@@ -1,0 +1,1 @@
+$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_TIMEOUT_MS, 1);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, false);\ncurl_exec($ch);\ncurl_close($ch);

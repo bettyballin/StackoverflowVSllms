@@ -1,1 +1,0 @@
-ruby script/performance/request scripts/performance/test_session.rb

@@ -1,0 +1,1 @@
+string path = @"\\samba\mount\path";\nif (!MountChecker.IsMountAvailable(path))\n{\n    Console.WriteLine("Mount is unavailable");\n}

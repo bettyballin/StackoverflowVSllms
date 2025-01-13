@@ -1,1 +1,0 @@
-using (var dc = new MyDataContext())\n{\n    var itemToDelete = dc.MyTables.SingleOrDefault(x => x.id == 1);\n    if (itemToDelete != null)\n    {\n        dc.MyTables.DeleteOnSubmit(itemToDelete);\n        dc.SubmitChanges();\n    }\n}

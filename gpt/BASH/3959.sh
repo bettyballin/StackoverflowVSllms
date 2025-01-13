@@ -1,1 +1,0 @@
-@echo off\nsetlocal\n\nset DLL_LIST=dll1.dll dll2.dll dll3.dll\nset BASE_ADDRESSES=0x60000000 0x61000000 0x62000000\n\nset INDEX=0\nfor %%D in (%DLL_LIST%) do (\n    set /A INDEX+=1\n    call :REBASE_AND_NGEN %%D !BASE_ADDRESSES[%INDEX%]!\n)\n\ngoto :EOF\n\n:REBASE_AND_NGEN\neditbin /rebase:base=%2 %1\nngen install %1\ngoto :EOF

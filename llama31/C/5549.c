@@ -1,0 +1,1 @@
+void* alloc_executable_memory(size_t size) {\n    void* ptr = mmap(NULL, size, PROT_EXEC | PROT_READ | PROT_WRITE, MAP_PRIVATE | MAP_ANONYMOUS, -1, 0);\n    if (ptr == MAP_FAILED) {\n        // Handle error\n    }\n    return ptr;\n}

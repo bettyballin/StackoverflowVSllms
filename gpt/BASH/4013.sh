@@ -1,1 +1,0 @@
-ginx -V 2>&1 | grep -o with-mail

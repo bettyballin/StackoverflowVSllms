@@ -1,0 +1,1 @@
+#include <fcgi_stdio.h>\n\nint main() {\n    while (FCGI_Accept() >= 0) {\n        printf("Content-type: text/html\r\n\r\n");\n        printf("Hello, World!\n");\n        FCGI_Finish();\n    }\n    return 0;\n}

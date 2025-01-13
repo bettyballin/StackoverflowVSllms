@@ -1,1 +1,0 @@
-sudo adduser phpuser\n    sudo addgroup phpgroup\n    sudo usermod -a -G phpgroup phpuser

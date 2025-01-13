@@ -1,1 +1,0 @@
-var result = e.CampaignCodes.SafeSum(f => f.Enquiries.Count());

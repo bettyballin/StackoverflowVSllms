@@ -1,0 +1,1 @@
+var startTime = new Date();\n\nvar deferred = $.Deferred();\n$(document).ready(function() {\n    // your code here\n    deferred.resolve();\n});\n\n$.when(deferred).done(function() {\n    var endTime = new Date();\n    var totalTime = endTime - startTime;\n    // log totalTime or send it to your server for monitoring\n});

@@ -1,0 +1,1 @@
+var available = m_AvailableDict.FirstOrDefault(p => p.Value == 0);\nif (available == default)\n{\n    // available is the default value, i.e., it does not exist in the dictionary\n}\nelse\n{\n    // available is a valid KeyValuePair\n}

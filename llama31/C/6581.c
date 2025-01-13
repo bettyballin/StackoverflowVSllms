@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <stdlib.h>\n\nvoid receive_file(int socket, char *save_to, int file_size) {\n    FILE *handle = fopen(save_to, "wb");\n    if (!handle) {\n        printf("Error opening file.\n");\n        return;\n    }\n\n    // Your code here...\n\n    fclose(handle);\n}\n\nint main() {\n    receive_file(0, "test.txt", 10);\n    return 0;\n}

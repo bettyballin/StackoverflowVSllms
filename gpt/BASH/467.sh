@@ -1,1 +1,0 @@
-chmod +x /path/to/restart_service.sh

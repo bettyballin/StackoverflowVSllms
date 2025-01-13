@@ -1,1 +1,0 @@
-SELECT * FROM your_table WHERE column_name REGEXP '^[^a-zA-Z0-9]';

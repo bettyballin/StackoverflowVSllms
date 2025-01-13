@@ -1,1 +1,0 @@
-CREATE FUNCTION update_times_after() RETURNS trigger AS $$\nBEGIN\n    UPDATE contact\n    SET update_time = NOW()\n    WHERE id = NEW.id;\n    RETURN NEW;\nEND;\n$$ LANGUAGE plpgsql;\n\n-- The trigger:\nCREATE TRIGGER test_update_time_after\nAFTER UPDATE ON contact\nFOR EACH ROW\nEXECUTE PROCEDURE update_times_after();

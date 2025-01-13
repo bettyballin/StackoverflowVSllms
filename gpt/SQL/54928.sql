@@ -1,1 +1,0 @@
--- Storing with named time zone\nINSERT INTO your_table (your_timestamp_column)\nVALUES (TO_TIMESTAMP_TZ('26-FEB-09 11.36.25.390713 AM Pacific/Auckland', 'DD-MON-RR HH.MI.SS.FF AM TZR'));\n\n-- Storing with offset\nINSERT INTO your_table (your_timestamp_column)\nVALUES (TO_TIMESTAMP_TZ('26-FEB-09 11.36.25.390713 AM +13:00', 'DD-MON-RR HH.MI.SS.FF AM TZH:TZM'));

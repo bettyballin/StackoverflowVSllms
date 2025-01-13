@@ -1,0 +1,1 @@
+sudo apt-get install xulrunner-1.9.2

@@ -1,1 +1,0 @@
-protected void GridView1_RowCreated(object sender, GridViewRowEventArgs e)\n{\n    if (e.Row.RowType == DataControlRowType.Footer)\n    {\n        // Merge the first two footer cells\n        e.Row.Cells[0].ColumnSpan = 2;\n        e.Row.Cells[1].Visible = false;\n    }\n}

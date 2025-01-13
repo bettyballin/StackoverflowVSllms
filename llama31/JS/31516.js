@@ -1,0 +1,1 @@
+const textarea = document.getElementById('myTextarea');\nconst lineHeight = textarea.scrollHeight / textarea.rows;\nconst scrollToLine = 345;\n\ntextarea.scrollTop = lineHeight * scrollToLine;

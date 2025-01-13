@@ -1,1 +1,0 @@
-Dim result As String = If(someString, "default value")

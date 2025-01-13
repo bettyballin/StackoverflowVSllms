@@ -1,1 +1,0 @@
-<configuration>\n  <system.webServer>\n    <applicationInitialization doAppInitAfterRestart="true">\n      <add initializationPage="/" />\n    </applicationInitialization>\n  </system.webServer>\n</configuration>

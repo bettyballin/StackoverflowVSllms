@@ -1,1 +1,0 @@
-@echo off\nsetlocal\n\nset SERVER_NAME=YourServerName\nset DATABASE_NAME=YourDatabaseName\nset OUTPUT_DIRECTORY=C:\Path\To\Your\Directory\n\npowershell -ExecutionPolicy Bypass -File ExportStoredProcedures.ps1 -serverName %SERVER_NAME% -databaseName %DATABASE_NAME% -outputDirectory %OUTPUT_DIRECTORY%\n\nendlocal

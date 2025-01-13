@@ -1,0 +1,1 @@
+// api.php\n$uploadDir = 'uploads/';\n$fileName = uniqid() . '.jpg';\n\nif ($_SERVER['REQUEST_METHOD'] == 'POST') {\n    $photoData = file_get_contents('php://input');\n    file_put_contents($uploadDir . $fileName, $photoData);\n    echo 'Photo uploaded successfully!';\n}

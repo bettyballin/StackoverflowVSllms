@@ -1,1 +1,0 @@
-mysqldump --tab=/path/to/output --fields-terminated-by=',' --fields-enclosed-by='"' --lines-terminated-by='\n' --hex-blob --user=yourusername --password=yourpassword yourdatabase

@@ -1,0 +1,1 @@
+string dllPath = System.Reflection.Assembly.GetExecutingAssembly().CodeBase;

@@ -1,0 +1,1 @@
+.background-image {\n  width: 50px;\n  height: 50px;\n  background-size: 250px 250px;\n  background-position: 50% 50%;\n  background-image: url('image.jpg');\n}

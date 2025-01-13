@@ -1,0 +1,1 @@
+public class SearchParameters\n{\n    [FromUri]\n    public string Query { get; set; }\n    // ...\n}

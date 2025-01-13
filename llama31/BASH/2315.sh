@@ -1,0 +1,1 @@
+find /usr/lib/php5 -name pdo_mysql.so

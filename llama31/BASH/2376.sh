@@ -1,0 +1,1 @@
+cp file1 file2\ngit mv --parents file1 file2\ngit commit -m "Copy file1 to file2" --amend

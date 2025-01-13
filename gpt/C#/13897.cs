@@ -1,1 +1,0 @@
-@using System.Data\n@{\n    DataSet ds = ViewBag.DataSet as DataSet;\n\n    if (ds != null)\n    {\n        foreach (DataRow row in ds.Tables[0].Rows)\n        {\n            <p>@row["ColumnName"]</p>\n        }\n    }\n}

@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>net.schmizz</groupId>\n    <artifactId>sshj</artifactId>\n    <version>0.33.0</version>\n</dependency>

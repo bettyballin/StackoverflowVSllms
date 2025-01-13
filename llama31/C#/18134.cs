@@ -1,0 +1,1 @@
+ContextTypeName="MyProject.MyDatabaseDataContext"

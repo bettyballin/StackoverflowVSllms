@@ -1,0 +1,1 @@
+byte[] header = new byte[] { 255, 216 };\nstring hexString = BitConverter.ToString(header);\nConsole.WriteLine(hexString); // Output: FF-D8

@@ -1,0 +1,1 @@
+string combinedString = "field1|field2|field3";\nstring[] separatedFields = combinedString.Split('|');

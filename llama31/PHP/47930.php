@@ -1,0 +1,1 @@
+$cipher = 'AES-256-CBC';\n$key = 'your_secret_key_here';\n$iv = openssl_random_pseudo_bytes(openssl_cipher_iv_length($cipher));\n$encrypted_credentials = openssl_encrypt($credentials, $cipher, $key, 0, $iv);

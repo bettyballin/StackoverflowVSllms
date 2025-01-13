@@ -1,1 +1,0 @@
-Response.Cache.SetCacheability(HttpCacheability.NoCache);\nResponse.Cache.AppendCacheExtension("no-store, must-revalidate");\nResponse.Cache.SetExpires(DateTime.UtcNow.AddSeconds(-1));\nResponse.Cache.SetNoStore();\nResponse.AppendHeader("Pragma", "no-cache");\nResponse.AppendHeader("Expires", "0");

@@ -1,0 +1,1 @@
+string[] files = Directory.GetFiles(sourceDirectory_, "*.jpg");

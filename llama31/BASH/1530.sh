@@ -1,0 +1,1 @@
+hhvm --compile --output compiled_file.hhbc input_file.php

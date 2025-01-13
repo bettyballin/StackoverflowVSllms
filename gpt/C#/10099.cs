@@ -1,1 +1,0 @@
-using KVP = System.Collections.Generic.KeyValuePair<int, string>;\n\nclass C \n{ \n    KVP x; \n}

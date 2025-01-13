@@ -1,0 +1,1 @@
+$(document).ready(function(){\n  $(".pages").click(function(){\n    var pageno = $(this).attr("id").slice(4,8);\n    $.ajax({\n      method: "POST",\n      url: "news.php",\n      data: { pageno: pageno },\n      dataType: "json",\n      success: function(response) {\n        $("#comments").text(response.comments);\n      }\n    });\n  });\n});

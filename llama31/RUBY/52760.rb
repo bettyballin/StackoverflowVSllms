@@ -1,0 +1,1 @@
+result = ProductsSold.where(merchant_id: 1)\n                     .group("DATE_FORMAT(created_at, '%m-%d-%Y')")\n                     .average(:sales_price)\n                     .map { |date, avg| [date, avg || 0] }

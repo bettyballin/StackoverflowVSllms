@@ -1,0 +1,1 @@
+var data = { /* prepare data here */ };\nvar url = '/your/endpoint/url';\n\nbaseAjaxCall(url, data, handleSpecificSuccess, centralizedErrorHandler);

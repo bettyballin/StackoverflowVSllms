@@ -1,1 +1,0 @@
-# Example command to add a DLL to the GAC\n   gacutil -i "path\to\your\dtSearchNetApi.dll"

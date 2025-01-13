@@ -1,0 +1,1 @@
+SELECT class_data\nFROM sys.java$class$md5$table\nWHERE class_name = 'YOUR_JAVA_CLASS_NAME';

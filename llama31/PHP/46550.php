@@ -1,0 +1,1 @@
+// Generate token\n$token = bin2hex(random_bytes(16));\n\n// Store token in database\n$db->insert('tokens', ['token' => $token, 'file_id' => $file_id]);\n\n// Pass token as parameter\n$url = 'https://example.com/play-mp3?token=' . $token;\n\n// Validate token before serving data\nif ($token !== $_GET['token']) {\n    http_response_code(401);\n    die('Invalid token');\n}

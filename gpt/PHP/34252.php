@@ -1,1 +1,0 @@
-try {\n         // Code that might throw an exception\n     } catch (Exception $e) {\n         // Handle exception\n     }

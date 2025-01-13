@@ -1,0 +1,1 @@
+ldapsearch -h <ldap_server> -b "ou=Primary OU,dc=example,dc=com" -s sub "(objectClass=user)"

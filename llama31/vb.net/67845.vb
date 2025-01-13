@@ -1,0 +1,1 @@
+Dim animation As New DoubleAnimation(0, TimeSpan.FromSeconds(1))\nAnimationRow.BeginAnimation(RowDefinition.HeightProperty, animation)

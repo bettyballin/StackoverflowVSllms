@@ -1,1 +1,0 @@
-tlbimp path\to\your\comdll.dll /out:Interop.YourComDll.dll

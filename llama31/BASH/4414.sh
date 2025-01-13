@@ -1,0 +1,1 @@
+sn.exe -k none YourAssembly.dll

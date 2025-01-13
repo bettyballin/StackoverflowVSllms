@@ -1,0 +1,1 @@
+require 'open3'\n\n# Run blender command\ncmd = "blender -b mball.blend -o //renders/ -F JPEG -x 1 -f 1"\n\n# Use Open3 to run the command and capture stdout\nOpen3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|\n  # Read stdout line by line\n  while line = stdout.gets\n    # Process the output line\n    puts line.chomp\n  end\nend

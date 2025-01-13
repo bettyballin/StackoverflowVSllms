@@ -1,1 +1,0 @@
-<CustomMethodAttribute>\nPublic Sub MyProcedure()\n    ' Procedure code\nEnd Sub\n\n<CustomMethodAttribute>\nPublic Function MyFunction() As Integer\n    ' Function code\n    Return 0\nEnd Functio

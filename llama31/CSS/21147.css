@@ -1,0 +1,1 @@
+table {\n  border-collapse: separate;\n  border-spacing: 0 10px; /* add 10px spacing between tbody elements */\n}\n\ntbody:not(:last-child) {\n  border-bottom: 10px solid transparent; /* add spacing between tbody elements */\n}

@@ -1,0 +1,1 @@
+.wrap-layout {\n  display: flex;\n  justify-content: flex-start;\n}\n\n.wrap-image {\n  float: left;\n  margin-right: 10px;\n}\n\n.wrap-text {\n  text-align: justify;\n}

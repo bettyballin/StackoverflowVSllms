@@ -1,1 +1,0 @@
-POST /entities/batch?chunk=1\n   Content-Type: application/xml\n\n   <entities>\n       <entity>\n           <!-- entity data -->\n       </entity>\n       <entity>\n           <!-- entity data -->\n       </entity>\n       ...\n   </entities>

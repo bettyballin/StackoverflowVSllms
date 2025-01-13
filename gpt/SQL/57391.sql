@@ -1,1 +1,0 @@
--- SQL Tables\nCREATE TABLE Users (\n    id INT PRIMARY KEY,\n    name VARCHAR(255)\n);\n\nCREATE TABLE Orders (\n    orderId INT PRIMARY KEY,\n    product VARCHAR(255),\n    quantity INT,\n    userId INT,\n    FOREIGN KEY (userId) REFERENCES Users(id)\n);

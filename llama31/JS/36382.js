@@ -1,0 +1,1 @@
+const element = document.getElementById('myElement');\nconst text = element.textContent;\nalert(text);

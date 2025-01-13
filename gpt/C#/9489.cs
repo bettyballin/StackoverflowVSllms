@@ -1,1 +1,0 @@
-var configuration = new Configuration();\n   configuration.DataBaseIntegration(db =>\n   {\n       db.ConnectionString = "Data Source=MyOracleDB;Integrated Security=yes;";\n       db.Dialect<NHibernate.Dialect.Oracle10gDialect>();\n       db.Driver<NHibernate.Driver.OracleClientDriver>();\n   });

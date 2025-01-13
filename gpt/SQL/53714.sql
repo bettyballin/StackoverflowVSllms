@@ -1,1 +1,0 @@
-CREATE TABLE categories (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(255) NOT NULL,\n    parent_id INT DEFAULT NULL,\n    FOREIGN KEY (parent_id) REFERENCES categories(id)\n);

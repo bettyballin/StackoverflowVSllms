@@ -1,0 +1,1 @@
+var binding = new BasicHttpBinding();\nbinding.UseDefaultWebProxy = false;\n\nvar client = new MyClient(binding, new EndpointAddress("http://localhost/myservice"));

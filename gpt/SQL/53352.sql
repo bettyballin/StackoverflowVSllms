@@ -1,1 +1,0 @@
-FIND_IN_SET(question, @q)

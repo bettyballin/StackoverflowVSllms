@@ -1,0 +1,1 @@
+SELECT \n  COUNT(j.jobseeker_id) as new_registrations, \n  i.description as industry_name,\n  MONTHNAME(j.created_at)\nFROM\n  tb_jobseeker as j, tb_industry as i\nWHERE \n  YEAR(j.created_at) = 2009 \nAND \n  i.industry_id = j.industry_id \nGROUP BY \n  i.description, MONTHNAME(j.created_at)\nHAVING\n  MONTHNAME(j.created_at) =  MONTHNAME(DATE_SUB(NOW(), INTERVAL 1 MONTH));

@@ -1,1 +1,0 @@
-#include <emmintrin.h>\n\n   void process(float *a, float *b, float *c) {\n       __m128 va = _mm_load_ps(a);\n       __m128 vb = _mm_load_ps(b);\n       __m128 vc = _mm_add_ps(va, vb);\n       _mm_store_ps(c, vc);\n   }

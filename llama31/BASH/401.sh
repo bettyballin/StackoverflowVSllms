@@ -1,0 +1,1 @@
+xsd -v schema.xsd input.xml

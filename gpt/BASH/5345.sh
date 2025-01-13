@@ -1,1 +1,0 @@
-sudo yast2 repositories refresh

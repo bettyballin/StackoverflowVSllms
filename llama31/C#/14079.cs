@@ -1,0 +1,1 @@
+public ImmutableList<string> GetStringList()\n{\n    return ImmutableList.Create("a", "b", "c");\n}

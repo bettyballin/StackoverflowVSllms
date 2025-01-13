@@ -1,1 +1,0 @@
-amespace YourCompany.YourSolution.Legacy\n  {\n      public class LegacyCustomerWrapper { ... }\n  }

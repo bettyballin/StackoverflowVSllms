@@ -1,1 +1,0 @@
-$certPath = "C:\path\to\your\certificate.pfx"\n$certPassword = ConvertTo-SecureString -String "yourPfxPassword" -AsPlainText -Force\n$cert = Import-PfxCertificate -FilePath $certPath -CertStoreLocation Cert:\LocalMachine\My -Password $certPassword

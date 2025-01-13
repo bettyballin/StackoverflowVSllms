@@ -1,0 +1,1 @@
+logparser -i:HTTPERR "SELECT date, time, cs-method, cs-uri-stem, sc-status FROM 'C:\Windows\System32\LogFiles\HTTPERR\httperr.log' WHERE sc-status = 503 AND date = 'YYYY-MM-DD' AND time >= 'HH:MM:SS'"

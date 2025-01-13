@@ -1,1 +1,0 @@
-strace -o linker_trace.txt -T -f ld [your linking command]

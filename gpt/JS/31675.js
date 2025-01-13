@@ -1,1 +1,0 @@
-fetch('https://your-server.com/your-script.php?page=example')\n     .then(response => response.text())\n     .then(data => {\n       document.getElementById('content').innerHTML = data;\n     })\n     .catch(error => console.error('Error:', error));

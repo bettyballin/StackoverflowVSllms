@@ -1,1 +1,0 @@
-// Avoid this situation\nlock (lockA)\n{\n    lock (lockB)\n    {\n        // Do something\n    }\n}

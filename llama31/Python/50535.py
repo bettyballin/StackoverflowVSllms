@@ -1,0 +1,1 @@
+from django.db.models.signals import post_save\nfrom django.dispatch import receiver\n\n@receiver(post_save, sender=Attachment)\ndef update_message_updated(sender, instance, **kwargs):\n    instance.message.updated = timezone.now()\n    instance.message.save()

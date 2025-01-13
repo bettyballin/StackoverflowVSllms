@@ -1,1 +1,0 @@
-header("Access-Control-Allow-Origin: *");\nheader("Access-Control-Allow-Methods: GET, POST, OPTIONS");\nheader("Access-Control-Allow-Headers: Content-Type, Authorization");

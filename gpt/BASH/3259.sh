@@ -1,1 +1,0 @@
-sudo a2enmod ssl\nsudo a2enmod proxy\nsudo a2enmod proxy_http

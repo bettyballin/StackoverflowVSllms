@@ -1,1 +1,0 @@
-@echo off\n    "C:\gacutil.exe" /i "C:\Program Files\AppName\Control.dll" /f\n    "C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\regasm.exe" "C:\Program Files\AppName\Control.dll" /tlb:"C:\Program Files\AppName\Control.tlb"

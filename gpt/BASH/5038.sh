@@ -1,1 +1,0 @@
-signtool sign /f "path\to\your\certificate.pfx" /p "yourPassword" /t http://timestamp.url "path\to\your\installer.msi"

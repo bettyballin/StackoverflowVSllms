@@ -1,0 +1,1 @@
+icacls "C:\inetpub\wwwroot\example.com\data" /setowner "NT AUTHORITY\NETWORK SERVICE"\nicacls "C:\inetpub\wwwroot\example.com\data" /grant:r "NT AUTHORITY\NETWORK SERVICE":(OI)(CI)M

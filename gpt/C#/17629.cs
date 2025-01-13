@@ -1,1 +1,0 @@
-RecurringJob.AddOrUpdate(\n    () => YourMethodToSendEmails(), Cron.Daily);\nRecurringJob.AddOrUpdate(\n    () => YourMethodToRemoveOutdatedObjects(), Cron.Hourly);\nRecurringJob.AddOrUpdate(\n    () => YourMethodToRetrieveStats(), Cron.Daily);

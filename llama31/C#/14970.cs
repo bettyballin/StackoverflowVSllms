@@ -1,0 +1,1 @@
+routes.MapRoute(\n    name: "UserDetails",\n    template: "User/Details/{name}",\n    defaults: new { controller = "User", action = "Details" }\n);

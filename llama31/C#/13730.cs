@@ -1,0 +1,1 @@
+public static int GetEnumMemberValue(Enum enumMember)\n{\n    if (!Enum.IsDefined(enumMember.GetType(), enumMember))\n    {\n        throw new ArgumentException("Invalid enum member", nameof(enumMember));\n    }\n    return (int)Enum.Parse(enumMember.GetType(), enumMember.ToString());\n}

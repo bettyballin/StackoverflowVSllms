@@ -1,0 +1,1 @@
+public static void ProcessAttribute<T>(T attribute) where T : Attribute\n{\n    // implementation...\n}

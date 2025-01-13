@@ -1,1 +1,0 @@
-using System;\n\nclass Program\n{\n    static void Main()\n    {\n        int result;\n        InitializeNumber(out result);\n        Console.WriteLine("Initialized: " + result);\n    }\n\n    static void InitializeNumber(out int num)\n    {\n        num = 30;\n    }\n}

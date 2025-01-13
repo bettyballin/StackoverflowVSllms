@@ -1,0 +1,1 @@
+// Open the package\nPackage package = Package.Open("example.package", FileMode.Open);\n\n// Check the version number\nstring version = package.Properties["Version"];\nif (version != "2.0")\n{\n    // Handle compatibility issues\n}

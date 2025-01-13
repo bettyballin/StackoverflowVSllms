@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetApplications\n    @LocationIds LocationIdTableType READONLY\nAS\nBEGIN\n    SELECT TOP 20 application_id, [name], location_id\n    FROM apps\n    WHERE (@LocationIds IS NULL OR location_id IN (SELECT location_id FROM @LocationIds));\nEND;

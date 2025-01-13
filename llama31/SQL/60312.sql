@@ -1,0 +1,1 @@
+SELECT DBMS_METADATA.get_ddl('INSERT', table_name, owner) \nFROM   all_tables \nWHERE  table_name = 'YOUR_TABLE_NAME';

@@ -1,0 +1,1 @@
+// Infinite loop\nfor (;;) {}\n\n// Loop until i is 5\nint i = 0;\nfor (; i < 5; i++) {}\n\n// Loop 5 times, with no initialization\nint j = 0;\nfor (; j < 5;) { j++; }\n\n// Loop forever, with initialization and increment\nfor (int k = 0; ; k++) {}

@@ -1,0 +1,1 @@
+keytool -importcert -v -trustcacerts -alias server-cert -file server.crt -keystore your-truststore.jks

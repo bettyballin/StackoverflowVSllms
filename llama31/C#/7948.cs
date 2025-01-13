@@ -1,0 +1,1 @@
+public class MyClass\n{\n    public string MyField { get; set; }\n}

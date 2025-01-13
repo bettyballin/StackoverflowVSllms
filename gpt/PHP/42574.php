@@ -1,1 +1,0 @@
-ini_set('memory_limit', '512M');\n   set_time_limit(300);

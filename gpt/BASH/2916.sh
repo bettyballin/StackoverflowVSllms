@@ -1,1 +1,0 @@
-certreq -accept cert.cer

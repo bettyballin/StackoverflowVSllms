@@ -1,0 +1,1 @@
+CREATE PROCEDURE GetX\n    @Date datetime = NULL,\n    @User nvarchar(50) = NULL\nAS\nBEGIN\n    SELECT * FROM X\n    WHERE (@Date IS NULL OR Date = @Date)\n    AND (@User IS NULL OR User = @User)\nEND

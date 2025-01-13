@@ -1,0 +1,1 @@
+using System;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        Console.WriteLine("Hello World!");\n        Console.ReadKey();\n    }\n}

@@ -1,0 +1,1 @@
+objdump -x executable | grep symbol_name

@@ -1,1 +1,0 @@
-SELECT \n    LOWER(SUBSTR(name, INSTR(name, ',') + 2, 1) || SUBSTR(name, 1, INSTR(name, ',') - 1)) AS formatted_name\nFROM \n    your_table;

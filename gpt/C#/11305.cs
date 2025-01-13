@@ -1,1 +1,0 @@
-DataCacheFactory cacheFactory = new DataCacheFactory();\n    DataCache defaultCache = cacheFactory.GetCache("default");\n\n    // Store item in cache\n    defaultCache.Put("key", "value");\n\n    // Retrieve item from cache\n    var value = defaultCache.Get("key");

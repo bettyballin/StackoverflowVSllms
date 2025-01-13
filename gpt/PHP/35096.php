@@ -1,1 +1,0 @@
-$expr2 = 10; // Example value for expr2\n$expr3 = 5;  // Example value for expr3\n\n$expr1 = ($expr2 % $expr3) == 0;\n\nvar_dump($expr1); // Outputs: bool(true)

@@ -1,0 +1,1 @@
+WITH temp_table AS (\n  SELECT * FROM complex_query\n)\nSELECT * FROM temp_table;

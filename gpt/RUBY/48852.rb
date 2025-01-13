@@ -1,1 +1,0 @@
-<%= embed_video(@external_video.video_url) %>

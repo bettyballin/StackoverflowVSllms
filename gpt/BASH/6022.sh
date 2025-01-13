@@ -1,1 +1,0 @@
-sqlcmd -S . -U sa -P YourPassword

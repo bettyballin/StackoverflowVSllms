@@ -1,0 +1,1 @@
+// Load the caching library\n$this->load->driver('cache');\n\n// Cache a page for 1 hour\n$this->cache->save('my_page', $output, 3600);

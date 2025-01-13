@@ -1,1 +1,0 @@
-<?php\nfunction getMicrotimeDate() {\n    $microtime = microtime(true);\n    $microseconds = sprintf("%06d", ($microtime - floor($microtime)) * 1000000);\n    $date = new DateTime(date('Y-m-d H:i:s.' . $microseconds, $microtime));\n    return $date->format("Y-m-d\TH:i:s.u");\n}\n\necho getMicrotimeDate() . "\n";\n?>

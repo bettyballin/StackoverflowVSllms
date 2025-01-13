@@ -1,0 +1,1 @@
+# Your list of dictionaries\ncompanies = [\n    {'Name':'TOTAL', 'Rank':100},\n    {'Name':'Woo Company', 'Rank':15},\n    {'Name':'ABC Company', 'Rank':20}\n]\n\n# Custom sorting key\ndef sorting_key(item):\n    return (item['Name'] == 'TOTAL', item['Name'])\n\n# Sorting\nsorted_companies = sorted(companies, key=sorting_key)\n\n# Print the sorted list\nprint(sorted_companies)

@@ -1,0 +1,1 @@
+label {\n  display: block;\n  width: 250px; /* adjust the width to your needs */\n}\n\nlabel input[type="checkbox"] {\n  float: right;\n}

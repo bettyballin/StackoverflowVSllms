@@ -1,1 +1,0 @@
-$text = '<SPAN style="TEXT-DECORATION: underline">text sample</SPAN>';\n\n$pattern = '/<SPAN style="TEXT-DECORATION: underline">(.*?)<\/SPAN>/i';\n$replacement = '<u>$1</u>';\n\n$result = preg_replace($pattern, $replacement, $text);\n\necho $result;

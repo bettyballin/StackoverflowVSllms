@@ -1,1 +1,0 @@
-class UserErrorException extends Exception {}\n   class FrameworkErrorException extends Exception {}

@@ -1,0 +1,1 @@
+import mms\n\n# Create an MMS message\nmms_msg = mms.MMSMessage()\nmms_msg.add_image(encoded_image, 'image/png')\n\n# Set the message type and encoding\nmms_msg.set_message_type('mms')\nmms_msg.set_encoding('base64')

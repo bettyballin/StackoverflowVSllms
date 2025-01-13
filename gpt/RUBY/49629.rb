@@ -1,1 +1,0 @@
-require 'date'\n   puts Date.today

@@ -1,1 +1,0 @@
-CREATE TABLE PARENT (\n    PARENT_ID serial PRIMARY KEY,\n    DESCRIPTION character varying(50)\n);\n\nCREATE TABLE CHILD (\n    PARENT_ID integer,\n    CHILD_ID integer,\n    DESCRIPTION character varying(50),\n    PRIMARY KEY (PARENT_ID, CHILD_ID),\n    FOREIGN KEY (PARENT_ID) REFERENCES PARENT(PARENT_ID)\n);

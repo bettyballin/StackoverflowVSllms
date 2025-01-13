@@ -1,0 +1,1 @@
+function changeObjectUrl(newUrl) {\n    var iframe = document.getElementById("contentarea");\n    if (iframe !== null) {\n        iframe.src = newUrl;\n    }\n}

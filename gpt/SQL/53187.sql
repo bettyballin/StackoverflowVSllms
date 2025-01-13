@@ -1,1 +1,0 @@
--- Perform the join query\nSELECT T1.Id\n  FROM S1.Table1 T1\n  JOIN temp_table2 T2 ON T1.Id = T2.refId;

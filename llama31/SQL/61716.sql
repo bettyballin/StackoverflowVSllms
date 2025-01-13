@@ -1,0 +1,1 @@
+TABLE NodeContentRelationship (\n  NodeId int,\n  ContentType string,\n  ContentId int,\n  TableName string  // <--- Add this column\n)

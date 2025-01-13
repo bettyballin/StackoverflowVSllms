@@ -1,1 +1,0 @@
-jar cmf MANIFEST.MF instance-tracker-agent.jar InstanceTracker.class

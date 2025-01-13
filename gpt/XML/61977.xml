@@ -1,1 +1,0 @@
-<error>\n  <code>429</code>\n  <message>Too Many Requests</message>\n  <details>You have exceeded the rate limit. Please try again in 60 seconds.</details>\n</error>

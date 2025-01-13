@@ -1,0 +1,1 @@
+bool debugMode = System.Diagnostics.Debugger.IsAttached;\nbool releaseMode = !debugMode;\nif (debugMode)\n{\n    // Debug mode\n}\nelse\n{\n    // Release mode\n}

@@ -1,1 +1,0 @@
-SELECT mt.*, wt.word\nFROM main_table mt\nJOIN words_table wt ON mt.id = wt.main_id\nWHERE wt.word = 'search_word';

@@ -1,0 +1,1 @@
+chown -R user:group /path/to/your/project

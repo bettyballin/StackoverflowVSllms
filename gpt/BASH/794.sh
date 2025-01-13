@@ -1,1 +1,0 @@
-# Switch to JDK 1.6.0\nsudo ln -sfn 1.6.0 /System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK

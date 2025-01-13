@@ -1,0 +1,1 @@
+zf create model MyModel

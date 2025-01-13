@@ -1,0 +1,1 @@
+object obj = "123";\nint number = (int)obj;

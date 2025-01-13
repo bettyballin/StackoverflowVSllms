@@ -1,0 +1,1 @@
+setcookie('search_preferences', json_encode($_POST), [\n    'expires' => time() + 3600, // 1 hour\n    'path' => '/',\n    'domain' => 'yourdomain.com',\n    'secure' => true,\n    'httponly' => true,\n]);

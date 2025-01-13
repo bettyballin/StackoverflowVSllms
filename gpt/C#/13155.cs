@@ -1,1 +1,0 @@
-public ActionResult Create(SimplePerson simplePerson)\n{\n    // Convert SimplePerson to Person\n    var personToCreate = new Person\n    {\n        FirstName = simplePerson.FirstName,\n        LastName = simplePerson.LastName,\n        Pet = new Pet { Name = simplePerson.PetName }\n    };\n\n    // Create person here\n}

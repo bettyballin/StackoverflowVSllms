@@ -1,1 +1,0 @@
-#!/bin/bash\n\ntest -f kill_me && rm kill_me\n\n(\n    touch kill_me\n    tail -f kill_me\n) &\n\nchild_pid=$!\n\nwhile true; do\n    sleep 1\n    if test -f kill_me; then\n        pkill -P $child_pid\n        wait $child_pid\n        exit\n    fi\ndone

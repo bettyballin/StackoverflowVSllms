@@ -1,0 +1,1 @@
+public sealed class Singleton\n{\n    private static readonly Lazy<Singleton> _instance = new Lazy<Singleton>(() => new Singleton());\n\n    private Singleton() { }\n\n    public static Singleton Instance\n    {\n        get { return _instance.Value; }\n    }\n}

@@ -1,1 +1,0 @@
-$email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);\nif (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {\n    echo "Invalid email format";\n} else {\n    echo "Email is valid";\n}

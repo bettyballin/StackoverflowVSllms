@@ -1,0 +1,1 @@
+span {\n  display: inline-block;\n  width: 0;\n  height: 0;\n  white-space: nowrap;\n  text-indent: 100%;\n  overflow: hidden;\n  background-image: url('your-image.png');\n  background-size: cover;\n  padding-left: 100%;\n}

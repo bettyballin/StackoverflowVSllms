@@ -1,1 +1,0 @@
-public class MyService : IMyService\n{\n    public string GetData()\n    {\n        return "This is a secure response";\n    }\n}

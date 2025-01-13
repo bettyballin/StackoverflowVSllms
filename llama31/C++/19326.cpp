@@ -1,0 +1,1 @@
+// mylib.h\n__declspec(dllexport) void myFunction();\n\n// mylib.cpp\nvoid myFunction() {\n    // implementation\n}

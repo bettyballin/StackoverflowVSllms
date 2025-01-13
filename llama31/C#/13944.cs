@@ -1,0 +1,1 @@
+try\n{\n    fileUpload.UploadFile(@"C:\path\to\file.pdf");\n}\ncatch (TimeoutException ex)\n{\n    // Handle timeout exception\n}

@@ -1,1 +1,0 @@
-// file1.c\n    static int counter = 0; // This variable is only visible within file1.c\n\n    static void incrementCounter() { // This function is only visible within file1.c\n        counter++;\n    }

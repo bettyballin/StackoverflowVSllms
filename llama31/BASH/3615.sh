@@ -1,0 +1,1 @@
+# Using Ghostscript\ngs -dBATCH -dNOPAUSE -sDEVICE=ljet4 -sOutputFile=output.pcl output.pdf

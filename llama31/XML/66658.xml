@@ -1,0 +1,1 @@
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">\n  <GenerateSerializationAssemblies>true</GenerateSerializationAssemblies>\n</PropertyGroup>

@@ -1,0 +1,1 @@
+using (IDataReader dataReader = ...)\n{\n    List<Employee> employees = ConvertDataReaderToList<Employee>(dataReader);\n    // ...\n}

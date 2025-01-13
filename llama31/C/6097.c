@@ -1,0 +1,1 @@
+StartService(hService, 0, NULL);

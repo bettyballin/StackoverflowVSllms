@@ -1,0 +1,1 @@
+class MyClass {\nprivate:\n    static int myData;\n\npublic:\n    static int getMyData() {\n        return myData;\n    }\n\n    // No setter method, to prevent external modification\n};

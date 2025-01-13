@@ -1,0 +1,1 @@
+# Compile and link\ngcc -shared -o mydll.dll mydll.c

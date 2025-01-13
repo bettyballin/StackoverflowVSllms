@@ -1,1 +1,0 @@
-<?php\necho sha1('example');\n?>

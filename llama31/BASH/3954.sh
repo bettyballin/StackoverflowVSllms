@@ -1,0 +1,1 @@
+msdeploy -verb:sync -source:apphostconfig="Default Web Site" -dest:auto,ComputerName='https://server2'

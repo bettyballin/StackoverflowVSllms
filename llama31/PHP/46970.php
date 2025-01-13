@@ -1,0 +1,1 @@
+$found = array_reduce($array, function ($carry, $item) use ($value) {\n    return $carry || strtolower($item) === strtolower($value);\n}, false);\n\nif ($found) {\n    echo "Value found";\n} else {\n    echo "Value not found";\n}

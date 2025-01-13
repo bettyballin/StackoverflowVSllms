@@ -1,0 +1,1 @@
+if (static_cast<int>(Enumerator::VALUE) == static_cast<int>(TemplatedEnumerator<5>::VALUE))\n{\n    ...\n}

@@ -1,1 +1,0 @@
-function open($file){\n    $h = fopen($file, 'w');\n    if ($h === false) {\n        throw new Exception("Unable to open file: $file");\n    }\n    return $h;\n}\n\nfunction write($file, $text){\n    $h = $this->open($file);\n    if ($h) {\n        fwrite($h, $text);\n        fclose($h);\n    } else {\n        throw new Exception("Invalid file handle.");\n    }\n}

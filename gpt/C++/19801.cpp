@@ -1,1 +1,0 @@
-#include <iostream>\n#include <vector>\n#include <algorithm>\n#include <gperftools/profiler.h>\n\nvoid exampleFunction() {\n    std::vector<int> v(1000000, 1);\n    std::sort(v.begin(), v.end());\n}\n\nint main() {\n    ProfilerStart("profile.prof");\n    for (int i = 0; i < 100; ++i) {\n        exampleFunction();\n    }\n    ProfilerStop();\n    return 0;\n}

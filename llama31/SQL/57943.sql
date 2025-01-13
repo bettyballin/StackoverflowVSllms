@@ -1,0 +1,1 @@
+CREATE OR REPLACE VIEW DataView\nAS\nSELECT a, b, (SELECT x FROM z) AS c\nFROM table\nWHERE ...;

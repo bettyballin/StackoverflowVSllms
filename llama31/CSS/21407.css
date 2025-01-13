@@ -1,0 +1,1 @@
+.right-image:after {\n  content: '';\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  width: 10px; /* adjust width */\n  height: 100%;\n  background-color: #333; /* adjust color */\n}

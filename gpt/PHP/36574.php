@@ -1,1 +1,0 @@
-<?php\n// Start the session\nsession_start();\n\n// Check if the colorcode cookie is set\nif (isset($_COOKIE['colorcode'])) {\n    $userColor = $_COOKIE['colorcode'];\n    // Use $userColor to set the color on your website\n} else {\n    $userColor = 'defaultColor'; // Default color if no cookie is set\n}\n\n// HTML and other PHP code here\n?>

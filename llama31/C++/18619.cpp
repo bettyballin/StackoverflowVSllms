@@ -1,0 +1,1 @@
+bool isEditControlEmpty(HWND hwnd) {\n    HWND hctrl = GetDlgItem(hwnd, ID_TEXTO2);\n    int len = GetWindowTextLength(hctrl);\n    return len == 0;\n}

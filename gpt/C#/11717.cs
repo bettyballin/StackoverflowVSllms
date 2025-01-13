@@ -1,1 +1,0 @@
-protected void Application_BeginRequest()\n{\n    string appPath = HttpContext.Current.Request.ApplicationPath;\n    if (!appPath.EndsWith("/"))\n    {\n        appPath += "/";\n    }\n    HttpContext.Current.RewritePath(appPath);\n}

@@ -1,1 +1,0 @@
-slookup your_sql_server_fqd

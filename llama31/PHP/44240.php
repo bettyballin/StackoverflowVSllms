@@ -1,0 +1,1 @@
+// MyController.php\npublic function myAction()\n{\n    $postData = $this->getRequest()->getPost();\n    // Process the POSTed data here\n    // ...\n    // Return a response to the client\n    return $this->getResponse()->setContent('Hello, World!');\n}

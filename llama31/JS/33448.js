@@ -1,0 +1,1 @@
+var selectElement = document.getElementById('mySelect');\nvar option = selectElement.options.namedItem('valueToFind');

@@ -1,0 +1,1 @@
+mysql -h <mysql_host> -u <mysql_username> -p<mysql_password> <database_name> < dump.sql

@@ -1,0 +1,1 @@
+# readlink /proc/1234/cwd\n/var/www/mydir

@@ -1,0 +1,1 @@
+CREATE PROFILE my_profile LIMIT\n  CPU_PER_CALL          1000  -- 1 second\n  LOGICAL_READS_PER_CALL 10000  -- 10,000 blocks\n  COMPOSITE_LIMIT       100000  -- 100,000 service units

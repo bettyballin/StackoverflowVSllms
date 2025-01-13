@@ -1,0 +1,1 @@
+const std::string VAL_TAG_OPEN = "<value>";\nconst std::string VAL_TAG_CLOSE = "</value>";\n\n// ...\n\nsAttr = sAttr + VAL_TAG_OPEN + sVal->c_str() + VAL_TAG_CLOSE;

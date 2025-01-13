@@ -1,0 +1,1 @@
+List<MyObject> list = this.DoSomethingHere();\nMyObjectCollection collection = new MyObjectCollection();\ncollection.AddRange(list);

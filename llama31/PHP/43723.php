@@ -1,0 +1,1 @@
+$allowedMethods = ['myMethod', 'anotherMethod'];\nif (in_array($_GET['func'], $allowedMethods) && method_exists($obj, $_GET['func'])) {\n    $obj->{$_GET['func']}($_GET['param']);\n} else {\n    // handle error or invalid input\n}

@@ -1,0 +1,1 @@
+string classId = "{xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}"; // Replace with the actual Class ID\nif (IsComDllInstalled(classId))\n{\n    Console.WriteLine("COM DLL is installed");\n}\nelse\n{\n    Console.WriteLine("COM DLL is not installed");\n}

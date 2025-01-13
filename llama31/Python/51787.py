@@ -1,0 +1,1 @@
+import pandas as pd\n\ndf = pd.read_csv('input.csv', error_bad_lines=False)\n# Inspect and correct the dataframe as needed\ndf.to_csv('output.csv', index=False)

@@ -1,1 +1,0 @@
-$(document).ready(function() { \n    $('div').each(function() {\n        $(this).click(function(e){\n            e.preventDefault(); // Prevent the default action\n            e.stopPropagation(); // Stop the event from bubbling up\n            //some code\n        });\n    });\n});

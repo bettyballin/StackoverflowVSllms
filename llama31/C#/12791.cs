@@ -1,0 +1,1 @@
+public ActionResult Details(string id)\n{\n    var userModel = GetUserModel(id);\n    \n    if (Request.QueryString["format"] == "xml")\n    {\n        return new XmlResult(userModel);\n    }\n    else\n    {\n        return View(userModel);\n    }\n}

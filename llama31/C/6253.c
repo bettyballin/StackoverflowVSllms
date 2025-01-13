@@ -1,0 +1,1 @@
+int fd = fileno(cgiOut);\nfsync(fd);

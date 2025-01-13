@@ -1,0 +1,1 @@
+gcc -o cpu_detect cpu_detect.cpp

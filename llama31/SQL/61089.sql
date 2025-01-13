@@ -1,0 +1,1 @@
+SELECT su.name, COUNT(ui.id) AS incidence_count\nFROM systemUsers su\nLEFT JOIN userIncidences ui ON su.id = ui.idUser\nGROUP BY su.name

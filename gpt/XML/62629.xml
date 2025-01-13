@@ -1,1 +1,0 @@
-<bindings>\n     <basicHttpBinding>\n       <binding name="secureBinding">\n         <security mode="Transport">\n           <transport clientCredentialType="None" />\n         </security>\n       </binding>\n     </basicHttpBinding>\n   </bindings>

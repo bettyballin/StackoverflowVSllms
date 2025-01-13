@@ -1,1 +1,0 @@
-#navbar {\n       float: right;\n       width: 200px; /* or any width you need */\n   }\n\n   #content {\n       margin-right: 220px; /* Adjust based on the width of the navbar */\n   }

@@ -1,1 +1,0 @@
-void doIt(Both *arg) { }\n\nint main() {\n    Both *b = new Both();\n    doIt(b);  // Calls doIt(Both *arg)\n}

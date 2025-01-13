@@ -1,1 +1,0 @@
-# Enable caching on the NFS client\necho 600 > /proc/sys/vm/vfs_cache_pressure\necho 1 > /proc/sys/vm/drop_caches\n\n# Mount options to improve NFS performance\nsudo mount -o rw,sync,noatime,nodiratime,actimeo=1800,tcp nfs_server:/exported_dir /mnt/nfs

@@ -1,1 +1,0 @@
-const link = document.querySelector('a');\nconst hasTooltip = link.getAttribute('data-has-tooltip');\nconst tipColour = link.getAttribute('data-tip-colour');\n\nconsole.log(hasTooltip); // Output: yes\nconsole.log(tipColour);  // Output: yellow

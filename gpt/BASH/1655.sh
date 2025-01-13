@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Input IMA4 ADPCM file\ninput_file="input.ima4"\n\n# Output files\noutput_wav="output.wav"\noutput_mp3="output.mp3"\n\n# Transcode to WAV\nffmpeg -i "$input_file" -c:a pcm_s16le "$output_wav"\n\n# Transcode to MP3\nffmpeg -i "$input_file" -codec:a libmp3lame -qscale:a 2 "$output_mp3"

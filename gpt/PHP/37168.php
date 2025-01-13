@@ -1,1 +1,0 @@
-function inet_ntop_to_decimal($binary) {\n    $unpacked = unpack('H*', $binary);\n    $hex = $unpacked[1];\n    $decimal = base_convert($hex, 16, 10);\n    return $decimal;\n}\n\n// Example usage\n$binary_ipv6 = inet_pton('2001:0db8:85a3:0000:0000:8a2e:0370:7334');\n$decimal_ipv6 = inet_ntop_to_decimal($binary_ipv6);\necho $decimal_ipv6; // Outputs the decimal string

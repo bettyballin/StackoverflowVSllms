@@ -1,0 +1,1 @@
+pm install css-unused\ncss-unused path/to/your/css/file.css path/to/your/html/file.html

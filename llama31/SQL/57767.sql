@@ -1,0 +1,1 @@
+DECLARE @sql nvarchar(4000)\nSET @sql = 'SELECT Md5 FROM ' + \n    CASE \n        WHEN @ClientType = 'Employee' THEN 'HR'\n        WHEN @ClientType = 'Member' THEN 'Other'\n    END + ' WHERE Current = 2'\nEXEC sp_executesql @sql

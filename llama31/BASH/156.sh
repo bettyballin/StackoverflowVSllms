@@ -1,0 +1,1 @@
+pdfopt input.pdf output.pdf

@@ -1,1 +1,0 @@
-function PopulateSeriesFields(result) {\n    try {\n        var data = JSON.parse(result);\n        var myFakeExample = data.exampleType;\n    } catch (e) {\n        console.error("Error parsing JSON:", e);\n    }\n}

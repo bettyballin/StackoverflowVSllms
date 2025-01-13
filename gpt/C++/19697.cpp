@@ -1,1 +1,0 @@
-int main(int argc, char** argv) {\n    Foo* foo = new Foo();\n    foo->say_hi();            // safe\n    foo->say_virtual_hi();    // safe\n    delete foo;\n    return 0;\n}

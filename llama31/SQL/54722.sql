@@ -1,0 +1,1 @@
+-- ANSI-89 syntax\nEXPLAIN PLAN FOR\nSELECT a.id, b.id, b.address_1\nFROM person a, address b\nWHERE a.id = b.id;\n\n-- ANSI-92 syntax\nEXPLAIN PLAN FOR\nSELECT a.id, b.id, b.address_1\nFROM person a\nINNER JOIN address b\nON a.id = b.id;

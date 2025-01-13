@@ -1,1 +1,0 @@
-comboBox.DataSource = someDataSource;\ncomboBox.DisplayMember = "SomeProperty";\ncomboBox.ValueMember = "SomeOtherProperty";\n\n// To clear the selection\ncomboBox.SelectedItem = null;

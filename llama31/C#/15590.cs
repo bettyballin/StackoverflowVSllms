@@ -1,0 +1,1 @@
+using System;\n\nnamespace HelloWorld\n{\n    public partial class _Default : System.Web.UI.Page\n    {\n        protected string HelloWorld()\n        {\n            return "Hello, World!";\n        }\n    }\n}

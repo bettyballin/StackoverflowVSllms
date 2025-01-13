@@ -1,0 +1,1 @@
+$allowedUrls = array('https://example.com/page1', 'https://example.com/page2');\n\n$page = filter_var($_GET['page'], FILTER_VALIDATE_URL);\n\nif (in_array($page, $allowedUrls)) {\n    header("Location: $page");\n    exit;\n} else {\n    // handle invalid input, e.g., redirect to a default page or error page\n    header("Location: /default-page");\n    exit;\n}

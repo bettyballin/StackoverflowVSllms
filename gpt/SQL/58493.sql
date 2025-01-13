@@ -1,1 +1,0 @@
-CREATE ROLE role_name;\n   GRANT ALL PRIVILEGES ON DATABASE dbname TO role_name;

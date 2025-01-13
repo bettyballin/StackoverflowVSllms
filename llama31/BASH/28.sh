@@ -1,0 +1,1 @@
+wget --recursive --level=0 --page-requisites --html-extension --convert-links http://your-site.com

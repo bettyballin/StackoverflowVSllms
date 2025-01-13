@@ -1,1 +1,0 @@
-icacls "C:\path\to\your\directory" /restore aclfile.txt /t /c /q

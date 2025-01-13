@@ -1,0 +1,1 @@
+EXEC sp_InsertWheel @car_id = 1, @wheel_name = 'Front Left Wheel';

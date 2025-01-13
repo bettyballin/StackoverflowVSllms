@@ -1,1 +1,0 @@
-Project.configure do |project|\n       project.build_command = 'rake'\n     end

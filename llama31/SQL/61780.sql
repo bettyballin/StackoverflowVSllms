@@ -1,0 +1,1 @@
+ALTER USER [YourUserName] WITH DEFAULT_SCHEMA = [YourSchemaName];

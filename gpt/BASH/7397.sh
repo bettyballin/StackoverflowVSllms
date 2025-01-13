@@ -1,1 +1,0 @@
-composer require drupal/og

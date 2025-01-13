@@ -1,0 +1,1 @@
+sed -i.bak 's/SO/so/' so/app.yaml

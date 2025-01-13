@@ -1,0 +1,1 @@
+preg_match('/(?:give|ga) (\d+) cars @(\w+)/i', $a->text, $output);

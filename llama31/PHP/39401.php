@@ -1,0 +1,1 @@
+$rawfile = "mediumfile.csv";\n$handle = fopen($rawfile, "r");\nif ($handle) {\n    $buffer_size = 1024;\n    while (!feof($handle)) {\n        $buffer = fread($handle, $buffer_size);\n        // process the buffer\n    }\n    fclose($handle);\n} else {\n    // error opening the file\n}

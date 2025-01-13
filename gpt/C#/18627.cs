@@ -1,1 +1,0 @@
-public abstract class BaseController : Controller\n{\n    protected IFooService _fooService;\n\n    protected BaseController(IFooService fooService)\n    {\n        _fooService = fooService;\n        ViewData["foo"] = _fooService.GetFoo();\n    }\n}

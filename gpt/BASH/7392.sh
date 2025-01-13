@@ -1,1 +1,0 @@
-pm install diff diff2html

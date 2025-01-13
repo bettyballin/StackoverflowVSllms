@@ -1,1 +1,0 @@
-# lib/tasks/my_namespace/my_task.rake\nnamespace :my_namespace do\n  desc 'Description of my task'\n  task my_task: :environment do\n    puts 'Task is running'\n    # Your task logic here\n  end\nend

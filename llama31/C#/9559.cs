@@ -1,0 +1,1 @@
+ObjectFactory.Initialize(registry =>\n{\n    registry.Scan(assembly =>\n    {\n        assembly.TheCallingAssembly();\n\n        assembly.AssembliesFromPath("extensions", addedAssembly => addedAssembly.GetName().Name.ToLower().Contains("extension"));\n    });\n\n    registry.AddRegistry(new ProductMockRegistry());\n});

@@ -1,0 +1,1 @@
+TEST_F(FooWrapperTest, ThreadSafety) {\n    // Start the test thread\n    threadTest_->start();\n\n    // Wait for thread 1 to finish\n    threadTest_->wait();\n\n    // Verify that thread 2 finished execution\n    ASSERT_TRUE(threadTest_->thread2_->isFinished());\n}

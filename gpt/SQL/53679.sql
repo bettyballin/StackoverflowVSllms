@@ -1,1 +1,0 @@
-ISNULL([ColumnName]) ? "" : [ColumnName]

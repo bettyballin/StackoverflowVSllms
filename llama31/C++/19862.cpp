@@ -1,0 +1,1 @@
+if (pCANoe) {\n    pCANoe->Release();\n    pCANoe = NULL;\n}

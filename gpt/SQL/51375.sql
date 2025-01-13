@@ -1,1 +1,0 @@
-CREATE INDEX idx_basket_user_wishlist ON core_item_in_basket(user_id, on_wishlist);

@@ -1,0 +1,1 @@
+// in iframe.js\nparent.postMessage(JSON.stringify(array), '*');\n\n// in parent.js\nwindow.addEventListener('message', function(event) {\n  var array = JSON.parse(event.data);\n  console.log(array);\n}, false);

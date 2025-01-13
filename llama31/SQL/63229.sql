@@ -1,0 +1,1 @@
+SELECT s.program_name, s.login_name, s.session_id\nFROM sys.dm_exec_sessions s\nWHERE s.program_name NOT IN ('SQL Server Management Studio', 'SQL Server Profiler');

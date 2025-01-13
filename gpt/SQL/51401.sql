@@ -1,1 +1,0 @@
--- First, get the total count of rows\nSELECT COUNT(*) FROM your_table;\n\n-- Then, select a random row based on a random offset\nSELECT * FROM your_table LIMIT 1 OFFSET FLOOR(RAND() * (SELECT COUNT(*) FROM your_table));

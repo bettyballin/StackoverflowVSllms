@@ -1,1 +1,0 @@
-$cacheId = md5($_GET['module']); // Generate a unique cache ID based on module\n   $smarty->display('index.tpl', $cacheId);

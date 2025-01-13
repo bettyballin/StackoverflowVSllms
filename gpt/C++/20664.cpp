@@ -1,1 +1,0 @@
-#ifndef MY_LIBRARY_H\n#define MY_LIBRARY_H\n\n#ifdef __cplusplus\nextern "C" {\n#endif\n\n__declspec(dllexport) void hello_world();\n\n#ifdef __cplusplus\n}\n#endif\n\n#endif // MY_LIBRARY_H

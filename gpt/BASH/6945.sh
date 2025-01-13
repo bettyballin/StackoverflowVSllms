@@ -1,1 +1,0 @@
-sudo htpasswd -c /etc/apache2/dav_svn.passwd user1\n   sudo htpasswd /etc/apache2/dav_svn.passwd user2\n   sudo systemctl restart apache2

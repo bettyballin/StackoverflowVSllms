@@ -1,0 +1,1 @@
+def encode(data, k, n):\n    cauchy_mat = cauchy_matrix(k, n)\n    encoded_blocks = []\n    for i in range(n):\n        block = 0\n        for j in range(k):\n            block += data[j] * cauchy_mat[j][i]\n        encoded_blocks.append(block)\n    return encoded_blocks

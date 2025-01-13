@@ -1,0 +1,1 @@
+set :svn, 'svn://your-repo-url.com/your-project'\nset :deploy_to, '/path/to/your/app'\nset :user, 'your-ftp-username'\nset :password, 'your-ftp-password'\n\nrole :web, 'your-ftp-server.com'\n\ntask :deploy do\n  svn.update\n  upload\nend\n\ntask :upload do\n  top.upload 'uploads', "#{deploy_to}/uploads", :via => :ftp\nend

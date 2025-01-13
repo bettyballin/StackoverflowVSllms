@@ -1,1 +1,0 @@
-from pyspark.sql import SparkSession\n\n   spark = SparkSession.builder.appName("CSV Reader").getOrCreate()\n   df = spark.read.csv('large_file.csv', header=True, inferSchema=True)\n   df.show()

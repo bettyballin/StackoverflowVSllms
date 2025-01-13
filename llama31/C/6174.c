@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <time.h>\n\nint main() {\n    time_t t = time(NULL);\n    long ms = (long)t * 1000;\n    printf("Time in milliseconds: %ld\n", ms);\n    return 0;\n}

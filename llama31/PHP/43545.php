@@ -1,0 +1,1 @@
+$colorCode = unserialize($_COOKIE['colorcode']);

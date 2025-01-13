@@ -1,1 +1,0 @@
-private void OpenWebPageWithToken(string token)\n{\n    string url = $"https://yourwebsite.com/updatesubscription?token={token}";\n    System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo\n    {\n        FileName = url,\n        UseShellExecute = true\n    });\n}

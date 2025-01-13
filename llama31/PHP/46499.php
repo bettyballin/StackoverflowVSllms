@@ -1,0 +1,1 @@
+$myData = $result->fetch_assoc();

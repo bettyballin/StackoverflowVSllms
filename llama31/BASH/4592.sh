@@ -1,0 +1,1 @@
+sed -e "$d; s/a/b/" file.txt

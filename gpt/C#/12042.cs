@@ -1,1 +1,0 @@
-void Application_End(object sender, EventArgs e)\n{\n    var shutdownReason = System.Web.Hosting.HostingEnvironment.ShutdownReason;\n    if (shutdownReason == System.Web.Hosting.ApplicationShutdownReason.ApplicationPoolRecycle)\n    {\n        // Code to handle application pool recycle event\n    }\n    else\n    {\n        // Code to handle other shutdown events\n    }\n}

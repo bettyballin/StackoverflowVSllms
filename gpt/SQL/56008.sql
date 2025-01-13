@@ -1,1 +1,0 @@
-SELECT a.Column1, b.Column2\n   FROM [Server50].[DatabaseName1].[Schema].[Table1] a\n   INNER JOIN [Server51].[DatabaseName2].[Schema].[Table2] b\n       ON a.KeyColumn = b.KeyColumn;

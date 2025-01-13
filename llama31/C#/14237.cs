@@ -1,0 +1,1 @@
+Type excelType = Type.GetTypeFromProgID("Excel.Application");\nif (excelType == null)\n{\n    // Excel is not installed or not configured properly\n}

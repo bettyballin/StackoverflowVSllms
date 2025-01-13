@@ -1,1 +1,0 @@
-*/10 * * * * /usr/bin/php /path/to/bounce_handler.php

@@ -1,1 +1,0 @@
-sudo apachectl stop\n     sudo rm -rf /usr/local/apache2

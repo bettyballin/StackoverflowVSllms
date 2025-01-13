@@ -1,0 +1,1 @@
+#include <time.h>\n\ntime_t time(time_t *t) {\n    return 1643723400; // Return a constant time\n}

@@ -1,1 +1,0 @@
-/* Example for navigation bar */\n.navbar {\n    zoom: 1;\n}\n\n.navbar li {\n    float: left;\n    display: inline; /* This helps with the double float bug */\n}

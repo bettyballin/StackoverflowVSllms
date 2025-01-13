@@ -1,0 +1,1 @@
+$(document).ready(function(){\n    ImportantFunction();\n    Otherstuff();\n    MoreStuff();\n});

@@ -1,0 +1,1 @@
+export LIBMEMCACHED_DIR=/opt/local\nsudo pecl install memcached

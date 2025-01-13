@@ -1,1 +1,0 @@
-let date1 = new Date;\nlet date2 = new Date();\n\nconsole.log(date1); // Current date and time\nconsole.log(date2); // Current date and time (same as date1)

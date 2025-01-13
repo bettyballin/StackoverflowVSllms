@@ -1,0 +1,1 @@
+SELECT * FROM table 1 WITH (NOLOCK)

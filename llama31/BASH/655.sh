@@ -1,0 +1,1 @@
+shellcheck /etc/crontab

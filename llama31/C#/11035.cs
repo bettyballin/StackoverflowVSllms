@@ -1,0 +1,1 @@
+string filePath = @"\\server\folder1\folder2\file.pdf;username=domain\aspnet;password=yourpassword";\nusing (FileStream fileStream = new FileStream(filePath, FileMode.Open, FileAccess.Read))\n{\n    // Read the file\n}

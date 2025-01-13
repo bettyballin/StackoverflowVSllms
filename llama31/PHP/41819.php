@@ -1,0 +1,1 @@
+$xml = new XmlWriter();\n$xml->openMemory();\n$xml->startDocument('1.0', 'UTF-8');\n$xml->startElement('root');\n$xml->writeElement('name', 'John Doe');\n$xml->writeElement('age', 30);\n$xml->endElement();\n$xml->endDocument();\n\necho $xml->outputMemory();

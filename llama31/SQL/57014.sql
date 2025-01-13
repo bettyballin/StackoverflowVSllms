@@ -1,0 +1,1 @@
+SELECT CONCAT(H.name, P.name)\nFROM urls AS U\nSTRAIGHT_JOIN hosts AS H ON U.host = H.id\nSTRAIGHT_JOIN paths AS P ON U.path = P.id;

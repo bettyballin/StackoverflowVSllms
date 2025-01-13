@@ -1,1 +1,0 @@
-// In application/config/config.php\n$config['base_url'] = 'https://yourdomain.com/';

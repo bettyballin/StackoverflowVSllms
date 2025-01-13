@@ -1,0 +1,1 @@
+<forms\n    name="MyAuthCookie"\n    loginUrl="~/login.aspx"\n    protection="All"\n    requireSSL="true" />

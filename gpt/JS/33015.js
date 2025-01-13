@@ -1,1 +1,0 @@
-alert("Post was successfully created!");

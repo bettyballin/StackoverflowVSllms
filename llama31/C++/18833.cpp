@@ -1,0 +1,1 @@
+#ifndef MYDLL_H\n#define MYDLL_H\n\nextern "C" __declspec(dllexport) int IsolatedFunction(int someParam);\n\n#endif

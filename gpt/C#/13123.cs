@@ -1,1 +1,0 @@
-public class PeriodicSyncJob\n{\n    private readonly SyncService _syncService;\n\n    public PeriodicSyncJob(SyncService syncService)\n    {\n        _syncService = syncService;\n    }\n\n    public async Task Execute()\n    {\n        // Fetch updates from the local DB\n        // ...\n\n        // Sync updates to the web DB\n        // ...\n    }\n}

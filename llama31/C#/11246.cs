@@ -1,0 +1,1 @@
+using AutoMoq;\n\n[TestMethod]\npublic void TestMethod()\n{\n    var mocker = new AutoMoqer();\n    var service = mocker.CreateInstance<ServiceClass>();\n\n    // Configure mock behavior as needed\n    mocker.GetMock<Repository1>().Setup(r => r.GetData()).Returns(new Data());\n}

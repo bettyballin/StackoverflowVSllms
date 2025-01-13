@@ -1,0 +1,1 @@
+// Set value in ViewState\nViewState["type"] = 3;\n\n// Retrieve value from ViewState\nint type = (int)ViewState["type"];

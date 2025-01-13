@@ -1,0 +1,1 @@
+gdb ./a.out\n(gdb) break _gfortran_allocate_array\n(gdb) ru

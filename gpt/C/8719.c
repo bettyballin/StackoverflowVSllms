@@ -1,1 +1,0 @@
-// Set the file and directory where trusted CAs are located\nif (SSL_CTX_load_verify_locations(ctx, "cacert.pem", "/path/to/cadir") <= 0) {\n    ERR_print_errors_fp(stderr);\n    abort();\n}

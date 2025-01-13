@@ -1,0 +1,1 @@
+[DllImport("kernel32.dll")]\nstatic extern bool GetExitCodeProcess(IntPtr hProcess, out uint lpExitCode);\n\n// ...\n\nuint exitCode;\nif (!GetExitCodeProcess(info.hProcess, out exitCode))\n{\n    // Process is still running\n}\nelse\n{\n    // Process has exited with code exitCode\n}

@@ -1,0 +1,1 @@
+<siteMap defaultProvider="SecureSiteMapProvider">\n  <providers>\n    <add name="SecureSiteMapProvider" type="YourNamespace.SecureSiteMapProvider, YourAssembly" />\n  </providers>\n</siteMap>

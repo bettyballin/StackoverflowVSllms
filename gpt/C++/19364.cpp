@@ -1,1 +1,0 @@
-// MyCppCliWrapper.cpp\n#include "MyCppDll.h"  // Assuming this is the header for the C++ DLL\n\npublic ref class CppCliWrapper {\npublic:\n    static void UpdateObject(int id, int newValue) {\n        UpdateCppObject(id, newValue);\n    }\n};

@@ -1,0 +1,1 @@
+/* Add the following styles to your blanket element */\nposition: absolute;\ntop: 0;\nleft: 0;\nwidth: 100%;\nheight: 100%; /* Use 100% instead of $(document).height() */\nz-index: 1;\n\n/* Add the following styles to your custom control element */\nposition: relative; /* or absolute, depending on your layout */\nz-index: 2;

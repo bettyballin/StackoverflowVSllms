@@ -1,0 +1,1 @@
+regsvr32 /i <your_app_proxy>.tlb

@@ -1,1 +1,0 @@
-def cantor_pairing(a, b):\n    return (a + b) * (a + b + 1) // 2 + b\n\n# Example usage\nA = 30\nB = 10\nC = cantor_pairing(A, B)\nprint(C)  # Output will be a unique integer representing the pair (A, B)

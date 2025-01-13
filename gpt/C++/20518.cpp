@@ -1,1 +1,0 @@
-IMyInterface* pMyObject = nullptr;\n    HRESULT hr = CoCreateInstance(CLSID_MyClass, nullptr, CLSCTX_INPROC_SERVER, IID_IMyInterface, (void**)&pMyObject);\n    if (SUCCEEDED(hr)) {\n        // Use the object\n        pMyObject->DoSomething();\n        pMyObject->Release();\n    }

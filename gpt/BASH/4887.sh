@@ -1,1 +1,0 @@
-pg_dump -U [username] -h [host] -p [port] -n [schema_name] -Fc [database_name] -f /path/to/backup/schema.dump

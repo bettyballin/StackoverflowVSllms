@@ -1,0 +1,1 @@
+<?php\necho ini_get('default_charset');\n?>

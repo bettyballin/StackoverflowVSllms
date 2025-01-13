@@ -1,0 +1,1 @@
+$email = 'test@example.com';\nobfuscate_email($email); // outputs: test&#64;example.com\n\n$html = 'Contact me at test@example.com or <a href="mailto:test@example.com">test@example.com</a>';\nobfuscate_email_ignore_mailto($html); // outputs: Contact me at test&#64;example.com or <a href="mailto:test@example.com">test@example.com</a>

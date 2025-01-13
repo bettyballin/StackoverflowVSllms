@@ -1,0 +1,1 @@
+my_list = [1, 2, 3, 4, 5]\nindex = my_list.index(3)  # returns 2

@@ -1,1 +1,0 @@
-gsk8capicmd_64 -cert -details -db yourkey.kdb -label "your_cert_label" -stashed

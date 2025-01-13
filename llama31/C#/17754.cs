@@ -1,0 +1,1 @@
+bool Foo(ref Object a, ref Object b, string c, ref string d)\n{\n    byte[] byteArrayA = (byte[])a;\n    byte[] byteArrayB = (byte[])b;\n    // ...\n}

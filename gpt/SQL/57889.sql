@@ -1,1 +1,0 @@
-UPDATE table_name\nSET group = 'usher'\nWHERE code = 15;

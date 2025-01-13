@@ -1,1 +1,0 @@
-<?php\n$Amp = $IsXhtml ? '&amp;' : '&';\n$Parameters = array('Action' => 'ShowList', 'Page' => '2');\n$QueryString = http_build_query($Parameters, '', $Amp);\necho $QueryString;\n?>

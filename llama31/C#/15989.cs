@@ -1,0 +1,1 @@
+using System.Runtime.InteropServices;\n\n// ...\n\n[DllImport("user32")]\nprivate static extern IntPtr SendMessage(IntPtr hWnd, uint Msg, IntPtr wParam, IntPtr lParam);\n\n// ...\n\nIntPtr hWnd = xlApp.Hwnd;\nSendMessage(hWnd, 0x000F, IntPtr.Zero, IntPtr.Zero); // WM_PAINT

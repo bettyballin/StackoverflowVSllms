@@ -1,0 +1,1 @@
+using BenchmarkDotNet.Attributes;\nusing BenchmarkDotNet.Jobs;\n\n[SimpleJob(RuntimeMoniker.NetCoreApp31)]\n[MemoryDiagnoser]\npublic class MyBenchmark\n{\n    [Benchmark]\n    public void MyMethod()\n    {\n        // Code to benchmark\n    }\n}

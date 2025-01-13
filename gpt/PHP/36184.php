@@ -1,1 +1,0 @@
-/ application\n    / controllers\n    / models\n    / views\n    / library\n    / modules\n        / authentication\n            / controllers\n                AuthController.php

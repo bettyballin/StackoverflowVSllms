@@ -1,1 +1,0 @@
-public static class AntiXsrfToken\n{\n    public static string GenerateToken()\n    {\n        return Guid.NewGuid().ToString("N");\n    }\n}

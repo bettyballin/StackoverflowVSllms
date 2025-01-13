@@ -1,1 +1,0 @@
-LC_ALL=C.UTF-8 sed 's/.*| //' < i

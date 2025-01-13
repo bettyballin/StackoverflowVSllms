@@ -1,1 +1,0 @@
-@profile\n     def my_view(request):\n         # Your code here

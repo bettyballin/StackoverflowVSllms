@@ -1,0 +1,1 @@
+ssh = paramiko.SSHClient()\nssh.connect(server, username=username, password=password)\n\nssh_stdin, ssh_stdout, ssh_stderr = ssh.exec_command("psql -U factory -d factory -f /tmp/data.sql")\nssh_stdin.write("your_password\n")  # Send the password followed by a newline character\nssh_stdin.flush()  # Ensure the input is sent

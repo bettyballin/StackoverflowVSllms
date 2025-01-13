@@ -1,0 +1,1 @@
+import styled from 'styled-components';\n\nconst Button = styled.button`\n  background-color: ${props => props.theme.primaryColor};\n  padding: 10px;\n`;

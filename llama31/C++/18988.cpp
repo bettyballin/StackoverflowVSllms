@@ -1,0 +1,1 @@
+#include <gtest/gtest.h>\n#include "Adder.h"\n\nTEST(AdderTest, Add) {\n  Adder adder;\n  int result = adder.Add(2, 3);\n  EXPECT_EQ(5, result);\n}

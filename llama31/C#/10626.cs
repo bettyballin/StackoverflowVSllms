@@ -1,0 +1,1 @@
+var sql = @"\n    SELECT * FROM table1\n    UNION ALL\n    SELECT * FROM table2\n    UNION ALL\n    SELECT * FROM table3";

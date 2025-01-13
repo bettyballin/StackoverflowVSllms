@@ -1,1 +1,0 @@
-regtlib YourComponent.tlb

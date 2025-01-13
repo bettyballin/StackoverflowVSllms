@@ -1,0 +1,1 @@
+print(mytext, flush=True)

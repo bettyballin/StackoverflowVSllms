@@ -1,0 +1,1 @@
+<Column(DbType:="VarChar(20)")> _\nPublic Property Name As String

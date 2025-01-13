@@ -1,1 +1,0 @@
-CREATE TABLE employees (\n    id INT,\n    name VARCHAR(100),\n    position VARCHAR(50),\n    salary DECIMAL(10, 2)\n);

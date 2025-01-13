@@ -1,0 +1,1 @@
+// Create a new ObjectSet<T>\nObjectSet<YourType> set = context.CreateObjectSet<YourType>();\n\n// Query the set\nvar results = from o in set\n              select o;

@@ -1,0 +1,1 @@
+string absoluteUrl = ResolveUrl("~/index.aspx");

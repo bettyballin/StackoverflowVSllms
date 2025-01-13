@@ -1,1 +1,0 @@
-#include <library1.h>\n#include <library2.h>\n\nint main() {\n    library1::function_name();\n    library2::function_name();\n    return 0;\n}

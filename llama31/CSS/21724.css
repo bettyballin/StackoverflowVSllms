@@ -1,0 +1,1 @@
+body {\n  width: 100%; /* or any other explicit width value */\n}\n\ndiv {\n  border: 1px solid #000;\n  min-width: 50%;\n}

@@ -1,1 +1,0 @@
-<script type="text/javascript">\n$(document).ready(function() {\n    var autocompleteUrl = "<?php echo $this->Url->build(['controller' => 'Items', 'action' => 'getItemsForAutocomplete'], ['fullBase' => true]); ?>";\n    \n    $("#searchstring").autocomplete(autocompleteUrl, {  \n        // more code\n    });\n});\n</script>

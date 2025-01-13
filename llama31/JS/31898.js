@@ -1,0 +1,1 @@
+fetch('/your-endpoint', {\n  method: 'POST',\n  headers: {\n    'Content-Type': 'application/x-www-form-urlencoded'\n  },\n  body: 'id=a&id=b&id=c&id=d'\n})

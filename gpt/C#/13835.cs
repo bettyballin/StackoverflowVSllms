@@ -1,1 +1,0 @@
-foreach (DataRow dataRow in table.Rows)\n{\n    Status status = (Status)Convert.ToInt32(dataRow["Status"]);\n    Console.WriteLine($"ID: {dataRow["ID"]}, Name: {dataRow["Name"]}, Status: {status}");\n}

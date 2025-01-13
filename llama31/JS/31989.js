@@ -1,0 +1,1 @@
+$('#myOlElement').on('DOMNodeInserted', 'li', function(){\n    $(this).css({color: 'red', backgroundColor: 'black'});\n});

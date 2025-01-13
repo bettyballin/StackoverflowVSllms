@@ -1,1 +1,0 @@
-company = Company.find(1)  # Find the company with ID 1\nemail_addresses = company.emails.pluck(:email_address)\nputs email_addresses  # This will print the array of email addresses

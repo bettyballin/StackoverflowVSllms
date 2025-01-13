@@ -1,1 +1,0 @@
-keytool -genkeypair -alias client -keyalg RSA -keysize 2048 -keystore client.jks -validity 3650

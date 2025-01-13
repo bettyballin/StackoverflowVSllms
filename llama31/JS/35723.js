@@ -1,0 +1,1 @@
+var textBoxId = '<%= myTextBox.ClientID %>';

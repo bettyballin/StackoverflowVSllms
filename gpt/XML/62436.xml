@@ -1,1 +1,0 @@
-<servlet>\n       <servlet-name>DynamicFileServlet</servlet-name>\n       <servlet-class>com.example.DynamicFileServlet</servlet-class>\n   </servlet>\n   <servlet-mapping>\n       <servlet-name>DynamicFileServlet</servlet-name>\n       <url-pattern>/dynamicFile</url-pattern>\n   </servlet-mapping>

@@ -1,0 +1,1 @@
+@using (Ajax.BeginForm("MyAction", "MyController", new AjaxOptions { HttpMethod = "POST" }))\n{\n    // form content here\n}

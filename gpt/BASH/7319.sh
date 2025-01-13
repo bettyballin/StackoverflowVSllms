@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Run svn update\nsvn update\n\n# Check for conflicts after update\nconflicts=$(svn status | grep '^C')\n\nif [ -n "$conflicts" ]; then\n  echo "Conflicts detected:"\n  echo "$conflicts"\n  exit 1\nelse\n  echo "Update completed successfully with no conflicts."\n  exit 0\nfi

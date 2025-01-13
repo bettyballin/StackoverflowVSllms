@@ -1,0 +1,1 @@
+var server = window.location.hostname;\nvar url = "http://" + server + "/store/results/index.jsp";\nwindow.location = url;

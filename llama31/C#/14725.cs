@@ -1,0 +1,1 @@
+// Create a ResourceManager instance\nResourceManager rm = new ResourceManager("MyApplication.Resources", typeof(MyForm).Assembly);\n\n// Use the ResourceManager to retrieve a string resource\nstring myString = rm.GetString("MyStringResource");\n\n// Use the ResourceManager to retrieve an image resource\nBitmap myImage = (Bitmap)rm.GetObject("MyImageResource");

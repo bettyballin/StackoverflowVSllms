@@ -1,0 +1,1 @@
+gpg -d --passphrase <your_passphrase> password_file.txt.gpg

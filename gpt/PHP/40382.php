@@ -1,1 +1,0 @@
-<?php\nfunction callback($buffer)\n{\n    // Regular expression to match HTML comments but not conditional comments\n    return preg_replace('/<!--(?!\[if\s[^\]]+\]>)(?!<\!\[endif\]-->).+?-->/s', '', $buffer);\n}\n\nob_start("callback");\n?>\n... HTML source goes here ...\n<?php ob_end_flush(); ?>

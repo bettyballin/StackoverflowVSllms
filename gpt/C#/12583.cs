@@ -1,1 +1,0 @@
-using System.Windows;\nusing System.Windows.Media;\n\nnamespace YourNamespace\n{\n    public partial class MainWindow : Window\n    {\n        public MainWindow()\n        {\n            InitializeComponent();\n\n            // Accessing the UserControl at runtime\n            DracoControl.ZuneColour = Brushes.Green;\n        }\n    }\n}

@@ -1,0 +1,1 @@
+[ComImport]\n[Guid("xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx")]\npublic interface INewService : IService\n{\n    // adds a couple new properties\n}\n\n[ComImport]\n[Guid("xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx")]\npublic interface INewProvider : IServiceProvider\n{\n    // adds nothing, just implements\n}

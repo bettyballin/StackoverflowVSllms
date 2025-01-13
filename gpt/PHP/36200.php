@@ -1,1 +1,0 @@
-// Check for user inactivity\n    if (isset($_SESSION['last_activity']) && (time() - $_SESSION['last_activity'] > 1200)) { // 20 minutes\n        // User has been inactive for 20 minutes, redirect to .NET login\n        header("Location: https://your-dotnet-app/login");\n        exit();\n    }\n    $_SESSION['last_activity'] = time(); // Update last activity timestamp

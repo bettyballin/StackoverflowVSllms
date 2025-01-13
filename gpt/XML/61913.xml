@@ -1,1 +1,0 @@
-<connectionStrings>\n    <add name="SAMRASConnectionString" \n         connectionString="Data Source=JOHANDEVVM; Initial Catalog=samrasDB; User ID=Johan; Password=password; Trusted_Connection=True" \n         providerName="System.Data.SqlClient" />\n</connectionStrings>

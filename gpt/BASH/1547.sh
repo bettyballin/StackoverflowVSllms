@@ -1,1 +1,0 @@
-brew install php@7.4  # Replace 7.4 with your PHP versio

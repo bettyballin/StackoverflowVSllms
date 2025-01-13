@@ -1,0 +1,1 @@
+$client = new SoapClientLogger('http://example.com/soap/wsdl');\n$client->myMethod('arg1', 'arg2'); // this will save the request to the log file instead of sending it

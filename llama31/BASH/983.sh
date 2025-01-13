@@ -1,0 +1,1 @@
+# Use LTO (Linear Tape-Open) tape drives for durable storage\ntar -czf /dev/nst0 /path/to/data

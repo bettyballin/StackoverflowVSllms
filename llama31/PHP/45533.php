@@ -1,0 +1,1 @@
+$i = 0;\n$count = count($array);\n\nforeach($array as $element) {\n    if ($i == 0) {\n        // first iteration\n    }\n    \n    // code\n    \n    if ($i == $count - 1) {\n        // last iteration\n    }\n    \n    $i++;\n}

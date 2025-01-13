@@ -1,1 +1,0 @@
-<?php\n// Default to English if no language parameter is set\n$lang = isset($_GET['lang']) ? $_GET['lang'] : 'eng';\n\n// Load the appropriate language content\nswitch ($lang) {\n    case 'eng':\n        include 'english.php';\n        break;\n    case 'fr':\n        include 'french.php';\n        break;\n    default:\n        include 'english.php';\n        break;\n}\n?>

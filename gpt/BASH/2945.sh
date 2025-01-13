@@ -1,1 +1,0 @@
-pg_ctl stop -D /path_to_data_directory

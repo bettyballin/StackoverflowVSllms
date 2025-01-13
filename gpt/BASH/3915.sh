@@ -1,1 +1,0 @@
-export LDR_PRELOAD=./mytime.so\n./your_binary

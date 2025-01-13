@@ -1,0 +1,1 @@
+body {\n  background-color: black;\n}\n\nimg {\n  width: 250px;\n  height: 70px;\n  border: 0;\n  margin: 0;\n  padding: 0;\n  display: block; /* Add this line */\n}\n\ndiv {\n  background-color: white;\n  border: 0;\n  margin: 0;\n  padding: 0;\n}

@@ -1,0 +1,1 @@
+td {\n  width: auto;\n  min-width: 100px;\n}\n\n/* IE6 hack */\n* html td {\n  width: 100px;\n}

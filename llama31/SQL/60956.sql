@@ -1,0 +1,1 @@
+DECLARE @table_var TABLE (id INT PRIMARY KEY);\n\nINSERT INTO @table_var (id)\nSELECT id FROM your_table;\n\nDECLARE @id INT;\n\nWHILE EXISTS (SELECT 1 FROM @table_var)\nBEGIN\n    SELECT TOP 1 @id = id FROM @table_var;\n\n    -- Perform your operation here\n    PRINT 'Processing row ' + CONVERT(VARCHAR, @id);\n\n    DELETE FROM @table_var WHERE id = @id;\nEND

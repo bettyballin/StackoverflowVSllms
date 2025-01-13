@@ -1,0 +1,1 @@
+// myapi.h\n#ifndef MYAPI_H\n#define MYAPI_H\n\nextern "C" __declspec(dllexport) void startAcquisition();\nextern "C" __declspec(dllexport) void stopAcquisition();\nextern "C" __declspec(dllexport) void setSamplingRate(int rate);\n\n#endif  // MYAPI_H

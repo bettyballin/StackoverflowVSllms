@@ -1,0 +1,1 @@
+icacls <website_root> /inheritance:r

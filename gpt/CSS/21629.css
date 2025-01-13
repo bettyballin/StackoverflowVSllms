@@ -1,1 +1,0 @@
-.col-middle .course-list li {\n    width: 50%;\n    float: left;\n}\n\n.col-middle .course-list ul::after {\n    content: "";\n    display: table;\n    clear: both;\n}\n\n.col-middle h2 {\n    margin-top: 20px; /* Adjust the value as needed for the desired spacing */\n}

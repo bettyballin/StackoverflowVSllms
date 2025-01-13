@@ -1,0 +1,1 @@
+$popularEntries = $this->Entry->query(\n  'SELECT \n     E.id, \n     E.title, \n     COUNT(C.id) AS recent_comment_count\n   FROM \n     entries E\n     LEFT JOIN comments C ON E.id = C.entry_id\n     AND C.created BETWEEN NOW() - INTERVAL 1 MONTH AND NOW()\n   GROUP BY \n     E.id, \n     E.title\n   ORDER BY \n     recent_comment_count DESC\n   LIMIT 10;'\n);

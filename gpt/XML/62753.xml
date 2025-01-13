@@ -1,1 +1,0 @@
-<!-- If using web.config -->\n   <configuration>\n     <system.web>\n       <sessionState timeout="20" /> <!-- Timeout in minutes -->\n     </system.web>\n   </configuration>

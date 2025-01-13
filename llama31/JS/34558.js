@@ -1,0 +1,1 @@
+ew Ajax.InPlaceEditor('edit', 'url', {\n  allowHTML: true\n});

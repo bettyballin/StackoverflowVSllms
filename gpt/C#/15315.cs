@@ -1,1 +1,0 @@
-int? myValue = null;\nif (!reader.IsDBNull(columnIndex))\n{\n    myValue = reader.GetInt32(columnIndex);\n}

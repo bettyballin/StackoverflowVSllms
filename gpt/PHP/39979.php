@@ -1,1 +1,0 @@
-use Symfony\Component\HttpFoundation\Request;\n\n// Assuming you have a request object\n$request = Request::createFromGlobals();\n\n// Get the cookie value\n$jsonData = $request->cookies->get('myCookie');\n\n// Decode the JSON back to an array\n$dataArray = json_decode($jsonData, true);

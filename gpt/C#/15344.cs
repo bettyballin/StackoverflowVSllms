@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        string filename = @"C:\MyDirectory\MyFile.bat";\n        string directory = Path.GetDirectoryName(filename);\n        Console.WriteLine(directory);  // Output: C:\MyDirectory\n    }\n}

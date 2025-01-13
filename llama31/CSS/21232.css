@@ -1,0 +1,1 @@
+.parent {\n  position: relative;\n  width: 25%; /* or any other width */\n  height: 100vh; /* or any other height */\n}\n\n.child {\n  position: absolute;\n  top: 10px;\n  right: 10px;\n  bottom: 5px;\n  left: 10px;\n}

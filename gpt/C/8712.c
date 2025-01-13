@@ -1,1 +1,0 @@
-#include "mylib.h"\n\nint main(int argc, char *argv[]) {\n    testlib();\n    return (0);\n}

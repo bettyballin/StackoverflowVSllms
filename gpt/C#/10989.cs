@@ -1,1 +1,0 @@
-var newDialog = new MyDialog();\nnewDialog.Show();

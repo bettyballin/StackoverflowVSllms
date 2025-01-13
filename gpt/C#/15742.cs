@@ -1,1 +1,0 @@
-public class SelectedItemsConverter : IMultiValueConverter\n{\n    public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)\n    {\n        return values[0];\n    }\n\n    public object[] ConvertBack(object value, Type[] targetTypes, object parameter, CultureInfo culture)\n    {\n        throw new NotImplementedException();\n    }\n}

@@ -1,0 +1,1 @@
+#container {\n    width: 970px;\n    margin: 0 auto;\n    box-sizing: border-box; /* add this line */\n}

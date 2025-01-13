@@ -1,0 +1,1 @@
+$name = 'John';\n$age = 30;\n$pi = 3.14159;\n\necho sprintf("Hello, %s! You are %02d years old.\n", $name, $age);\necho sprintf("Pi is approximately %01.2f.\n", $pi);\necho sprintf("The answer is %04x.\n", 255);\necho sprintf("The string '%s' has a length of %d.\n", $name, strlen($name));

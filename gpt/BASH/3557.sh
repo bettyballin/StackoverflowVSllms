@@ -1,1 +1,0 @@
-sudo chmod 640 /path/to/your/file

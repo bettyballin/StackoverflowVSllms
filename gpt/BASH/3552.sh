@@ -1,1 +1,0 @@
-curl -i http://yourserver.com/yourphpfile.php

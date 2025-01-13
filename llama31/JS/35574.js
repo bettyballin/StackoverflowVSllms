@@ -1,0 +1,1 @@
+const iframe = document.getElementById('yourIframeId');\niframe.contentWindow.postMessage('triggerSubmit', '*');

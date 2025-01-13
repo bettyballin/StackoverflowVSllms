@@ -1,1 +1,0 @@
-template <typename T>\nvoid func(T arg) { ... }

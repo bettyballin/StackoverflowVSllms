@@ -1,0 +1,1 @@
+#include <Windows.h>\n\nint main() {\n    HWND hWnd = GetForegroundWindow(); // Get the current foreground window\n    WINDOWPLACEMENT wp;\n    GetWindowPlacement(hWnd, &wp);\n\n    // Save the window placement to a file or database\n    // ...\n\n    return 0;\n}

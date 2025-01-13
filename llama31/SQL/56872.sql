@@ -1,0 +1,1 @@
+INSERT INTO MainTable_Option ([MainTableID], [OptionID])\nSELECT \n    dot.ID,\n    o.OptionID\nFROM DodgyOldTable dot\nINNER JOIN Option o ON \n    (dot.OptionVal1 = 'y' AND o.OptionDesc = 'OptionVal1') OR\n    (dot.OptionVal2 = 'y' AND o.OptionDesc = 'OptionVal2') OR\n    (dot.OptionVal3 = 'y' AND o.OptionDesc = 'OptionVal3')

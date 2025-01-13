@@ -1,0 +1,1 @@
+import requests\n\n# ... obtain the edit token ...\n\ntoken = "d96d72fae5e6c43b0b9f63d82ace366"\ndata = {\n    "action": "edit",\n    "title": "NewPage",\n    "text": "Hello World",\n    "wpEditToken": token\n}\n\nresponse = requests.post("https://yourwiki.com/w/api.php", data=data)

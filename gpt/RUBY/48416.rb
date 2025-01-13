@@ -1,1 +1,0 @@
-class AddressesController < ApplicationController\n  def index\n    @addresses = Address.all\n    respond_to do |format|\n      format.html\n      format.pdf do\n        pdf = AddressPdf.new(@addresses)\n        send_data pdf.render, filename: 'addresses.pdf', type: 'application/pdf', disposition: 'inline'\n      end\n    end\n  end\nend

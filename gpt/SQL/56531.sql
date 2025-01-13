@@ -1,1 +1,0 @@
-UPDATE Friends\nSET SortOrder = (ROW_NUMBER() OVER (ORDER BY FriendID)) * 10;

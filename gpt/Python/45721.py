@@ -1,1 +1,0 @@
-query = Album.query(Album.moods.IN(['happy', 'energetic'])).order(Album.insertion_datetime)\nalbums = query.fetch()

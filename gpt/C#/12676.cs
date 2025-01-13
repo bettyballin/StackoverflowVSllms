@@ -1,1 +1,0 @@
-string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=yourdatabase.accdb;";

@@ -1,0 +1,1 @@
+# Edit your sshd_config file (usually located in /etc/ssh)\nsudo nano /etc/ssh/sshd_config\n\n# Add the following line to the file\nPort 443\n\n# Restart your SSH server\nsudo service ssh restart

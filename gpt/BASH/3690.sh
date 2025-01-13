@@ -1,1 +1,0 @@
-supersede domain-name-servers 127.0.0.1;

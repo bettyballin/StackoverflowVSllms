@@ -1,1 +1,0 @@
-string enteredHashedPassword = PasswordHelper.HashPasswordWithSalt(enteredPassword, storedSalt);\n    if (enteredHashedPassword == storedHashedPassword)\n    {\n        // Password is correct\n    }\n    else\n    {\n        // Password is incorrect\n    }

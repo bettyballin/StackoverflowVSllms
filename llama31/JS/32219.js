@@ -1,0 +1,1 @@
+var newPageContent = '<html><head>...</head><body>...</body></html>';\ndocument.open('text/html', 'replace');\ndocument.write(newPageContent);\ndocument.close();

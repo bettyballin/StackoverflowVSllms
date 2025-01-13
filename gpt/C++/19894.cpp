@@ -1,1 +1,0 @@
-#include <windows.h>\n\n     bool IsDebuggerPresent() {\n         return ::IsDebuggerPresent();\n     }

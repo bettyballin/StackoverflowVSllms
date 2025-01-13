@@ -1,0 +1,1 @@
+$ mkdir testdir\n$ for i in {1..1000000}; do touch testdir/file_$i; done\n$ time ls testdir > /dev/null\n\nreal    1m15.142s\nuser    0m0.374s\nsys     0m14.829s

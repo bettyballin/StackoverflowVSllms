@@ -1,0 +1,1 @@
+SELECT COALESCE(h.NewValue, e.Department) AS Department\nFROM Employee e\nLEFT JOIN (\n  SELECT RowId, NewValue\n  FROM History\n  WHERE Field = 'Department' AND ChangeDate <= '2009-05-05'\n  ORDER BY ChangeDate DESC\n  LIMIT 1\n) h ON e.Id = h.RowId\nWHERE e.Id = 0;

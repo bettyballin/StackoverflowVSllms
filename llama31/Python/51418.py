@@ -1,0 +1,1 @@
+token = timestamp + ":" + signature

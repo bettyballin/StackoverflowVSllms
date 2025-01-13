@@ -1,1 +1,0 @@
-regsvr32 /n /i yourdll.dll

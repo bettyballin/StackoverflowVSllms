@@ -1,0 +1,1 @@
+#!/bin/bash\nsudo -E ./your_program

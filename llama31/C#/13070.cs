@@ -1,0 +1,1 @@
+public class EmptyStringToNullConverter : ValueConverter<string, string?>\n{\n    protected override string? ConvertToProvider(string value)\n    {\n        return value == "" ? null : value;\n    }\n\n    protected override string ConvertFromProvider(string? value)\n    {\n        return value ?? "";\n    }\n}

@@ -1,1 +1,0 @@
-CREATE CLUSTERED INDEX PK_TableName ON t1 (groupId);

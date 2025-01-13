@@ -1,1 +1,0 @@
-// Save activation key to HKLM\n   RegistryKey key = Registry.LocalMachine.CreateSubKey(@"SOFTWARE\MyApp");\n   key.SetValue("ActivationKey", activationKey);\n   key.Close();

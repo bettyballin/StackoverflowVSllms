@@ -1,1 +1,0 @@
-def my_function():\n       return [1, 2, 3], "Hello"\n   \n   my_list, my_string = my_function()

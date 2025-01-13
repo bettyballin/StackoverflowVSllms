@@ -1,1 +1,0 @@
-certreq -new request.inf request.req\ncertreq -submit request.req request.cer\ncertreq -accept request.cer

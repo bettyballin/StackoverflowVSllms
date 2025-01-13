@@ -1,0 +1,1 @@
+aws ec2 run-instances --image-id ami-xxxxxxx --instance-type t2.micro --key-name your-key-pair --eip-address xx.xx.xx.xx

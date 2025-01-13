@@ -1,1 +1,0 @@
-int[] array = { 1, 2, 3 };\nList<int> list = new List<int> { 4, 5, 6 };\n\narray.ForEach(Console.WriteLine);\nlist.ForEach(Console.WriteLine);

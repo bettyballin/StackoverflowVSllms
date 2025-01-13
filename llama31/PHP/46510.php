@@ -1,0 +1,1 @@
+amespace String {\n    function match($string1, $string2) {\n        // ...\n    }\n}\n\ninclude 'other_file.php'; // other_file.php declares a new namespace\n\nnamespace { // return to global namespace\n    // code in global namespace\n}

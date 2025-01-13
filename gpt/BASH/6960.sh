@@ -1,1 +1,0 @@
-# Full backup\nmysqlbackup --backup-dir=/path/to/backup/dir --user=username --password=password backup\n\n# Incremental backup\nmysqlbackup --backup-dir=/path/to/incremental/dir --incremental --incremental-base=dir:/path/to/backup/dir backup

@@ -1,0 +1,1 @@
+# -*- mode: ruby -*-\n# vi: set ft=ruby :\n\nVagrant.configure("2.2") do |config|\n  config.vm.box = "centos/7"\n\n  config.vm.provision "shell", inline: <<-SHELL\n    sudo yum install -y httpd mysql-server php php-mysql\n    sudo systemctl start httpd\n    sudo systemctl enable httpd\n  SHELL\nend

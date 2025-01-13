@@ -1,0 +1,1 @@
+$mem = new Memcached();\n$mem->addServer('localhost', 11211);\n$mem->addServer('localhost', 11212);\n$mem->addServer('localhost', 11213);\n\n$servers = $mem->getServerList();\n$server = $servers[array_rand($servers)];\n$mem->pconnect($server['host'], $server['port']);

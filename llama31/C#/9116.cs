@@ -1,0 +1,1 @@
+public bool Equals(MyDerivedClass obj)\n{\n    return base.Equals(obj)\n        && YetAnotherValue.Equals(obj?.YetAnotherValue);\n}

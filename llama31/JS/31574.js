@@ -1,0 +1,1 @@
+const xhr = new XMLHttpRequest();\nconst url = "https://example.com/getchat.php?latest=" + encodeURIComponent(latest) + "&token=" + token;\n\nxhr.onreadystatechange = function() {\n  if (xhr.readyState === 4 && xhr.status === 200) {\n    // handle response\n  }\n};\n\nxhr.open("GET", url, true);\nxhr.send();

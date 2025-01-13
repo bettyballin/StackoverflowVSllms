@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    Sys.Application.add_load(function() {\n        var textBox = $get("<%= tb_Search.ClientID %>");\n        textBox.onkeyup = function() {\n            __doPostBack("<%= tb_Search.ClientID %>", "");\n        };\n    });\n</script>

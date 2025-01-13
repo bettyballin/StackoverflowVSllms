@@ -1,0 +1,1 @@
+$str = preg_replace('/\n\s*\n/', "\n", $str);

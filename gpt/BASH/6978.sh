@@ -1,1 +1,0 @@
-"$(SolutionDir)\packages\ILMerge\tools\ILMerge.exe" /out:"$(TargetDir)merged_wrapper.dll" "$(TargetDir)wrapper.dll" "$(TargetDir)api.dll"

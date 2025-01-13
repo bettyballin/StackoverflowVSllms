@@ -1,0 +1,1 @@
+class UserArticlesController < ApplicationController\n  def show\n    user = User.find(params[:user_id])\n    article = Article.find(params[:article_id])\n    render xml: { user: user, article: article }\n  end\nend

@@ -1,0 +1,1 @@
+-- Retrieve the top 5 most recent orders\nSELECT *\nFROM orders\nORDER BY order_date DESC\nFETCH FIRST 5 ROWS ONLY;

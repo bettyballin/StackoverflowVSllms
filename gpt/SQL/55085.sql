@@ -1,1 +1,0 @@
-TRANSFORM First(Items.Name) AS FirstName\nSELECT Items.ID\nFROM Items\nGROUP BY Items.ID\nPIVOT Items.Name;

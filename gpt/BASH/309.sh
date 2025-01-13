@@ -1,1 +1,0 @@
-sudo apt-get install lighttpd php-cgi\n    sudo lighty-enable-mod fastcgi\n    sudo lighty-enable-mod fastcgi-php\n    sudo service lighttpd restart

@@ -1,0 +1,1 @@
+void updateOkButton(HWND hwnd) {\n    bool isEmpty = isEditControlEmpty(hwnd);\n    EnableWindow(GetDlgItem(hwnd, ID_BOTON9), !isEmpty);\n}

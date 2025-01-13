@@ -1,1 +1,0 @@
-from django.urls import path\nfrom .views import chart\n\nurlpatterns = [\n    path('images/dynamic_chart.png', chart, name='chart'),\n]

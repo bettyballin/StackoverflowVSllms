@@ -1,1 +1,0 @@
-public class SomeClass\n{\n    private List<string> _strings = new List<string>();\n\n    public IEnumerable<string> Strings\n    {\n        get { return _strings; }\n    }\n}

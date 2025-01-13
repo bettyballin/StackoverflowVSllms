@@ -1,0 +1,1 @@
+/**\n * @var string $myVar\n */\n$myVar = 'hello';

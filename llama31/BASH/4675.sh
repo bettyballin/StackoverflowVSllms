@@ -1,0 +1,1 @@
+gswin32c.exe -q -dNOPAUSE -sDEVICE=tiff24nc -r300 -sOutputFile=a.tif a.pdf -c quit

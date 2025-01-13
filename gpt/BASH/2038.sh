@@ -1,1 +1,0 @@
-svn diff > my-changes.patch

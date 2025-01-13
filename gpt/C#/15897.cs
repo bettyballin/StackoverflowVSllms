@@ -1,1 +1,0 @@
-[Fact]\n     public void Test_GetData()\n     {\n         var mockRepository = new Mock<IRepository>();\n         mockRepository.Setup(repo => repo.GetData()).Returns(new List<MyEntity> { new MyEntity { Name = "Test" } });\n\n         var service = new MyService(mockRepository.Object);\n         var result = service.GetData();\n\n         Assert.Single(result);\n     }

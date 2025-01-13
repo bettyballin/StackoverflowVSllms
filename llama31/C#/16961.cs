@@ -1,0 +1,1 @@
+double value = 1; // equivalent to CDbl(True)\nstring formatted = value.ToString("Yes;Yes;No");\nConsole.WriteLine(formatted); // outputs "Yes"

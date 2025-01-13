@@ -1,1 +1,0 @@
-INSERT INTO your_table (column1, column2) VALUES (value1, value2);\n\nSELECT DBINFO('sqlca.sqlerrd1') AS last_serial_id FROM systables WHERE tabid = 1;

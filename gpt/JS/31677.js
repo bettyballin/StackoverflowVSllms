@@ -1,1 +1,0 @@
-function handleResponse(data) {\n     document.getElementById('content').innerHTML = data.content;\n   }\n\n   var script = document.createElement('script');\n   script.src = 'https://your-server.com/your-script.php?page=example&callback=handleResponse';\n   document.body.appendChild(script);

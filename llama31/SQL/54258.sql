@@ -1,0 +1,1 @@
+SELECT * INTO #temp\nFROM OPENROWSET('Microsoft.ACE.OLEDB.12.0',\n                'Excel 12.0 Xml;HDR=YES;IMEX=1;DATABASE=C:\Path\To\Your\File.xlsx',\n                'SELECT * FROM [Sheet1$]')\n\nSELECT * FROM #temp

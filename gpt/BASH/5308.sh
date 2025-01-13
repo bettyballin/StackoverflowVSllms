@@ -1,1 +1,0 @@
-0 * * * * /path/to/deploy.sh

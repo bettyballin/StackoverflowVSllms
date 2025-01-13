@@ -1,0 +1,1 @@
+# Example: Simulate an old x86 machine with 128MB RAM and a 10GB disk\nqemu-system-i386 -m 128 -vnc :0 -hda old-hardware.img -boot c

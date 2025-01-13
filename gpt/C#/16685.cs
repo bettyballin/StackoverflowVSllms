@@ -1,1 +1,0 @@
-WebProxy proxyObject = (WebProxy)WebRequest.DefaultWebProxy;\nproxyObject.Credentials = CredentialCache.DefaultCredentials;\nproxyObject.BypassProxyOnLocal = true;\nWebRequest.DefaultWebProxy = proxyObject;

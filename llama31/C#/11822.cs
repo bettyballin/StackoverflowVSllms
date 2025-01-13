@@ -1,0 +1,1 @@
+var result = dbContext.News\n    .GroupBy(n => n.CategoryID)\n    .Select(g => g.OrderByDescending(n => n.CreatedOn).FirstOrDefault());

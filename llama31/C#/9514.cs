@@ -1,0 +1,1 @@
+public interface ISession\n{\n    string Get(string key);\n    void Set(string key, string value);\n}\n\npublic class HttpSession : ISession\n{\n    public string Get(string key)\n    {\n        return HttpContext.Current.Session[key];\n    }\n\n    public void Set(string key, string value)\n    {\n        HttpContext.Current.Session[key] = value;\n    }\n}

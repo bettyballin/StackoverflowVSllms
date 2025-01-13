@@ -1,1 +1,0 @@
-/usr/local/postgresql-8.3.6/bin/pg_ctl -D /usr/local/postgresql-8.3.6/data start

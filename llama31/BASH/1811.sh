@@ -1,0 +1,1 @@
+-- Replay a trace file using SQL Server's built-in Replay tool\nreplay.exe -S <server_name> -T <trace_file> -D <database_name>

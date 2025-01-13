@@ -1,0 +1,1 @@
+curl_easy_setopt(curl_handle, CURLOPT_VERBOSE, 1);

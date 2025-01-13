@@ -1,1 +1,0 @@
-// app.js\ndocument.addEventListener("DOMContentLoaded", function() {\n    var rect = document.getElementById("myRect");\n    rect.addEventListener("click", function() {\n        rect.setAttribute("fill", "green");\n    });\n});

@@ -1,1 +1,0 @@
-cp new_version.war /path/to/tomcat/webapps/yourapp.war

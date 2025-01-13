@@ -1,1 +1,0 @@
-int[,] array = new int[,] { { 1, 2 }, { 3, 4 } };\n\nfor (int i = 0; i < array.GetLength(0); i++)\n{\n    for (int j = 0; j < array.GetLength(1); j++)\n    {\n        Console.WriteLine(array[i, j]);\n    }\n}

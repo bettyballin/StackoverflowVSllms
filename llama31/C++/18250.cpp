@@ -1,0 +1,1 @@
+#include <boost/format.hpp>\n\nint main() {\n    std::string str = (boost::format("Hello, %1%!") % "world").str();\n    return 0;\n}

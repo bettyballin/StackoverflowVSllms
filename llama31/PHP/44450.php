@@ -1,0 +1,1 @@
+$headerText = "Your Header Text Here";\n$fileContent = file_get_contents('yourfile.csv');\nfile_put_contents('yourfile.csv', $headerText . "\n" . $fileContent);

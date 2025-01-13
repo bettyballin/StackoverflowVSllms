@@ -1,0 +1,1 @@
+$addHandler(o, 'click', Function.createDelegate(null, function() { f('arg1', 'arg2'); }));

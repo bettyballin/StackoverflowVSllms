@@ -1,1 +1,0 @@
-sudo yum update\n   sudo yum install ruby\n   sudo yum install wget\n   cd /home/ec2-user\n   wget https://aws-codedeploy-us-west-2.s3.us-west-2.amazonaws.com/latest/install\n   chmod +x ./install\n   sudo ./install auto\n   sudo service codedeploy-agent start

@@ -1,1 +1,0 @@
-<%\nDim isSSL\nisSSL = Request.ServerVariables("SERVER_PORT") = "443"\n\nIf isSSL Then\n    Response.Write "YES"\nElse\n    Response.Write "NO"\nEnd If\n%>

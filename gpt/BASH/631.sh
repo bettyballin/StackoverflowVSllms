@@ -1,1 +1,0 @@
-export LD_LIBRARY_PATH=/path/to/gcc/libraries:$LD_LIBRARY_PATH

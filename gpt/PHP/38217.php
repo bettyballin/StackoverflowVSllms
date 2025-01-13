@@ -1,1 +1,0 @@
-function deletePost($postId) {\n        global $client;\n\n        $params = [\n            'index' => 'forum_posts',\n            'id'    => $postId\n        ];\n\n        $response = $client->delete($params);\n        return $response;\n    }

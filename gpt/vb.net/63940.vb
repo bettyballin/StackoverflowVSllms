@@ -1,1 +1,0 @@
-Dim result = If(condition, truePart, falsePart)

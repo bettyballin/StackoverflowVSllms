@@ -1,0 +1,1 @@
+<jboss-web>\n  <context-root>/admin-console</context-root>\n  <valve>\n    <class-name>org.jboss.web.tomcat.security.RemoteAddrValve</class-name>\n    <param>\n      <param-name>allow</param-name>\n      <param-value>127.0.0.1</param-value>\n    </param>\n  </valve>\n</jboss-web>

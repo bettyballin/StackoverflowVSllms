@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        BindGrid();\n    }\n}\n\nprivate void BindGrid()\n{\n    // Your code to fetch data from the database\n    List<YourDataModel> data = GetDataFromDatabase();\n    GridView1.DataSource = data;\n    GridView1.DataBind();\n}

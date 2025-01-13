@@ -1,0 +1,1 @@
+// PHP 4 behavior\n$someVar =& new SomeClass(); // returns a reference to the object\n\n// PHP 5+ behavior\n$someVar = new SomeClass(); // returns a reference to the object

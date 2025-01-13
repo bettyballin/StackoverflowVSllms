@@ -1,0 +1,1 @@
+public class WebService\n{\n    private static ComComponent _comComponent;\n\n    public void Start()\n    {\n        _comComponent = new ComComponent();\n    }\n\n    public void Shutdown()\n    {\n        _comComponent = null;\n    }\n\n    public string GetCurrentState()\n    {\n        return _comComponent.GetCurrentState();\n    }\n}

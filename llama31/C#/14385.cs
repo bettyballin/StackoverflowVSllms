@@ -1,0 +1,1 @@
+string filePath = @"C:\path\to\file.txt";\nTimeSpan timeout = TimeSpan.FromSeconds(30);\n\nif (FileWaiter.WaitForFile(filePath, timeout))\n{\n    // File is unlocked and can be accessed\n}\nelse\n{\n    // File is still locked after timeout\n}

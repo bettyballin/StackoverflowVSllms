@@ -1,0 +1,1 @@
+channelFactory.Credentials.Windows.AllowedImpersonationLevel = \n    TokenImpersonationLevel.Delegation;

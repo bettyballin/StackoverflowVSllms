@@ -1,0 +1,1 @@
+from django.http import HttpResponseRedirect\n\ndef my_view(request):\n    # Your code here\n    return HttpResponseRedirect('https://www.example.com')

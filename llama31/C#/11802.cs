@@ -1,0 +1,1 @@
+// Install via NuGet\nInstall-Package DockPanelSuite\n\n// Basic usage\nusing WeifenLuo.WinFormsUI.Docking;\n\npublic class MyForm : Form\n{\n    private DockPanel _dockPanel;\n\n    public MyForm()\n    {\n        _dockPanel = new DockPanel();\n        _dockPanel.Dock = DockStyle.Fill;\n        this.Controls.Add(_dockPanel);\n    }\n}

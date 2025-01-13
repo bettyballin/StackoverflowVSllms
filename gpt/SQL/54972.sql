@@ -1,1 +1,0 @@
-SELECT CONCAT_WS(' ', fName1, mName2, lName3) AS userName\nFROM users\nWHERE level > 10;

@@ -1,0 +1,1 @@
+// This will only work on iOS devices\nfunction lockOrientation() {\n    if (window.orientation != 0) {\n        document.body.style.transform = 'rotate(-90deg)';\n        document.body.style.width = window.innerHeight + 'px';\n        document.body.style.height = window.innerWidth + 'px';\n    }\n}

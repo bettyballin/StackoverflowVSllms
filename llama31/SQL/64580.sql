@@ -1,0 +1,1 @@
+-- Example usage:\nSELECT '2022-07-25' AS date_column;\nSELECT '2022-07-25 14:30:00' AS timestamp_column;

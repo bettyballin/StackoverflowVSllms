@@ -1,0 +1,1 @@
+host.Description.Behaviors.Add(new ServiceBehaviorAttribute());\nhost.Description.Behaviors.Find<ServiceBehaviorAttribute>().AddDispatchMessageInspector(new MessageSizeInspector());

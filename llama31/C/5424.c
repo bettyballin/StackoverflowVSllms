@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <stdarg.h>\n#include <stdlib.h>\n\nvoid my_printf(const char *format, ...) {\n    va_list args;\n    va_start(args, format);\n\n    int len = vprintf(format, args);\n    char *data = malloc((len + 1) * sizeof(char));\n    vsprintf(data, format, args);\n\n    other_print(data);\n\n    free(data);\n    va_end(args);\n}

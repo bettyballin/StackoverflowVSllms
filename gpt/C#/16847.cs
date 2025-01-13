@@ -1,1 +1,0 @@
-using System.IO;\nusing System.Text;\n\nstring htmlContent = "<html><body>Hello, World!</body></html>";\nbyte[] byteArray = Encoding.UTF8.GetBytes(htmlContent);\n\nusing (FileStream fs = new FileStream("output.html", FileMode.Create, FileAccess.Write))\n{\n    fs.Write(byteArray, 0, byteArray.Length);\n}

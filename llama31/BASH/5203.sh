@@ -1,0 +1,1 @@
+secedit /configure /db secedit.sdb /cfg "C:\path\to\process_query_inf.inf"

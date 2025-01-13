@@ -1,1 +1,0 @@
-var nestedObject = Myobject?.MyNestedObject;\nif (nestedObject != null && nestedObject.Property != null)\n{\n    //code\n}

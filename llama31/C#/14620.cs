@@ -1,0 +1,1 @@
+[ComVisible(true)]\npublic interface IMyInterface\n{\n    [return: MarshalAs(UnmanagedType.BStr)]\n    string MyMethod([MarshalAs(UnmanagedType.BStr)] string param);\n}

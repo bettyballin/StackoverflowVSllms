@@ -1,0 +1,1 @@
+wget http://museum.php.net/php5/php-5.2.17.tar.gz\ntar -xvf php-5.2.17.tar.gz\ncd php-5.2.17\n./configure --prefix=/usr/local/php52 --with-apxs2=/usr/sbin/apxs\nmake\nmake install

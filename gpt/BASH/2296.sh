@@ -1,1 +1,0 @@
-svccfg import myapp.xml

@@ -1,0 +1,1 @@
+public class HomePage {\n    public string GetLink(string username) {\n        var tokenGenerator = new TokenGenerator();\n        var token = tokenGenerator.GenerateToken(username);\n\n        return $"<a href='https://javaserver/form.jsp?token={token}'>Link to form.jsp</a>";\n    }\n}

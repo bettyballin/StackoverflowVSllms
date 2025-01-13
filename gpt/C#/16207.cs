@@ -1,1 +1,0 @@
-var configuration = new Configuration();\n   configuration.Configure();\n   new SchemaExport(configuration).Execute(false, true, false);\n   \n   // Restore test data\n   ExecuteSqlScript("path/to/test_data.sql");

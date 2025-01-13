@@ -1,1 +1,0 @@
-// Example AJAX request using XML\n   var xhr = new XMLHttpRequest();\n   xhr.open('GET', 'https://api.example.com/data.xml', true);\n   xhr.onreadystatechange = function() {\n     if (xhr.readyState == 4 && xhr.status == 200) {\n       var xmlDoc = xhr.responseXML;\n       console.log(xmlDoc);\n     }\n   };\n   xhr.send();

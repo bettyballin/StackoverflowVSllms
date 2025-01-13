@@ -1,1 +1,0 @@
-CREATE PROCEDURE AddCustomer\n    @CustomerID INT,\n    @CustomerName VARCHAR(100)\nAS\nBEGIN\n    -- Your filtering logic here\nEND;

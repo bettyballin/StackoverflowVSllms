@@ -1,0 +1,1 @@
+// Shared Project (e.g., "SharedContracts")\nnamespace SharedContracts\n{\n    [DataContract]\n    public class User\n    {\n        [DataMember]\n        public string Name { get; set; }\n\n        [DataMember]\n        public string Email { get; set; }\n    }\n}

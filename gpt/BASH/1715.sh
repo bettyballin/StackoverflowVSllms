@@ -1,1 +1,0 @@
-plutil -convert xml1 ~/Library/Preferences/widget-com.apple.widget.<widget-identifier>.plist

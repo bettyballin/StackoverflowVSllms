@@ -1,0 +1,1 @@
+png(filename, width = 600, height = 600, res = 300)\nqqnorm(n, main = title)\nqqline(n)\ndev.off()

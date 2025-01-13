@@ -1,0 +1,1 @@
+// Node.js example using Handlebars\nconst Handlebars = require('handlebars');\nconst template = Handlebars.compile('function render() { {{body}} }');\nconst userSpecificCode = 'console.log("Hello, ' + username + '!");';\nconst generatedJs = template({ body: userSpecificCode });

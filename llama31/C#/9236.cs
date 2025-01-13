@@ -1,0 +1,1 @@
+var comparer = new BinaryFileComparer();\nvar areFilesEqual = comparer.AreFilesEqual(@"C:\Path\To\File1.bin", @"C:\Path\To\File2.bin");

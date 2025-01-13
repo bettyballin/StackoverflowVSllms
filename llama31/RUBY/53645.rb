@@ -1,0 +1,1 @@
+class Follow < ActiveRecord::Base\n  # ...\n  has_many :followee_messages, through: :followee, source: :messages\nend

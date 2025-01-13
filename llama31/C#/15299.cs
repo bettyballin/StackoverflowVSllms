@@ -1,0 +1,1 @@
+[WebMethod]\npublic static void Default2.aspx(string id, string uname, string upass)\n{\n    // Process the request\n    Response.Headers.Add("Access-Control-Allow-Origin", "*");\n    Response.Headers.Add("Access-Control-Allow-Methods", "POST, GET, OPTIONS");\n    Response.Headers.Add("Access-Control-Allow-Headers", "Content-Type");\n}

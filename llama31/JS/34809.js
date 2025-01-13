@@ -1,0 +1,1 @@
+$(".prodInfo").click(function(e) {\n  e.stopPropagation(); // add this line\n  // rest of your code...\n});

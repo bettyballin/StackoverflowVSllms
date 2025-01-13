@@ -1,0 +1,1 @@
+protected void okButton_Click(object sender, EventArgs e)\n{\n    if (selectedLinkButton != null)\n    {\n        selectedLinkButton.Text = numTextBox.Text.Trim();\n        myUpdatePanel.Update();\n    }\n}

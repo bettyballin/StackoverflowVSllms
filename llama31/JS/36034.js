@@ -1,0 +1,1 @@
+function customConfirm(message, timeout) {\n  var confirmDialog = confirm(message);\n  var timer = setTimeout(function() {\n    confirmDialog = null;\n  }, timeout);\n  if (confirmDialog === true) {\n    clearTimeout(timer);\n  }\n}

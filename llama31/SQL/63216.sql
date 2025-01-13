@@ -1,0 +1,1 @@
+CREATE PROCEDURE myProcedure(IN param1 INTEGER, IN param2 VARCHAR(255))\nRETURNS INTEGER\nLANGUAGE SQL\nBEGIN\n  DECLARE returnValue INTEGER;\n  -- your logic here\n  SET returnValue = 123;\n  RETURN returnValue;\nEND;

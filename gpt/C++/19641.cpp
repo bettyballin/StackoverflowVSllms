@@ -1,1 +1,0 @@
-interface IS8SimulationEvents : public IUnknown {\n       virtual HRESULT STDMETHODCALLTYPE OnEventNotify(/* Event parameters */) = 0;\n   };

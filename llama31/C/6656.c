@@ -1,0 +1,1 @@
+void monte_carlo_pi(int num_samples) {\n    int inside_circle = 0;\n    for (int i = 0; i < num_samples; i++) {\n        double x = (double)rand() / RAND_MAX;\n        double y = (double)rand() / RAND_MAX;\n        if (x * x + y * y <= 1) {\n            inside_circle++;\n        }\n    }\n    double pi_estimate = (double)inside_circle / num_samples * 4;\n}

@@ -1,0 +1,1 @@
+var label = new RotatedLabel\n{\n    Text = "Hello, world!",\n    Angle = 90,\n    AutoSize = false,\n    Width = 20,\n    Height = 100\n};\nthis.Controls.Add(label);

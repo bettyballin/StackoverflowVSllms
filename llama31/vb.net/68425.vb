@@ -1,0 +1,1 @@
+Private Sub NodoEstablo_MouseLeaves(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.MouseLeave\n    System.Threading.Thread.Sleep(10) ' Add a 10ms delay\n    Me.pictAdd.Visible = False\nEnd Sub

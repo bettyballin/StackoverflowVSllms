@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Check if ssconvert is installed\nif ! command -v ssconvert &> /dev/null; then\n    echo "ssconvert is not installed. Please install Gnumeric."\n    exit 1\nfi\n\n# Convert CSV to XLS\nssconvert input.csv output.xls

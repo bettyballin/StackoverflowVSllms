@@ -1,1 +1,0 @@
-SELECT * FROM sensitive_database.dbo.important_table;

@@ -1,0 +1,1 @@
+L = [['14', '65', 76], ['2', '5', 6], ['7', '12', 33], ['14', '22', 46]]\n\nseen = dict()\nnew_L = []\n\nfor sublist in L:\n    first_element = sublist[0]\n    if first_element not in seen:\n        seen[first_element] = True\n        new_L.append(sublist)\n\nprint(new_L)

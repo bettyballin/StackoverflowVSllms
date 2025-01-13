@@ -1,0 +1,1 @@
+// Load the 3D model\nvar loader = new THREE.OBJLoader();\nloader.load('model.obj', function(object) {\n  scene.add(object);\n});

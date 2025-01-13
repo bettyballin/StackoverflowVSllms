@@ -1,0 +1,1 @@
+<%=Html.RadioButton("my_flag", True, new { id = "my_flag_yes" })%>\n<label for="my_flag_yes">Yes</label>\n\n<%=Html.RadioButton("my_flag", False, new { id = "my_flag_no" })%>\n<label for="my_flag_no">No</label>

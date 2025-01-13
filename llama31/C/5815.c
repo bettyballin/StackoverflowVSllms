@@ -1,0 +1,1 @@
+// wrapper.h\nextern void xml_parse(const char* xml_string);\n\n// wrapper.c\n#include "wrapper.h"\n#include "java_xml_parser.h"\n#include "csharp_xml_parser.h"\n// ...\n\nvoid xml_parse(const char* xml_string) {\n    // Call the corresponding library function\n    java_xml_parser_parse(xml_string);\n    // or\n    csharp_xml_parser_parse(xml_string);\n    // ...\n}

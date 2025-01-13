@@ -1,0 +1,1 @@
+#include <stdlib.h>\n\nint main(int argc, char* argv[])\n{\n    int* sieve = (int*) calloc(2000000, sizeof(int));\n    if (sieve == NULL) {\n        // handle memory allocation error\n    }\n    // don't forget to free the memory when you're done with it\n    free(sieve);\n    return 0;\n}

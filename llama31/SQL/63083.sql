@@ -1,0 +1,1 @@
+Table a:\nid  | name\n----|------\n1   | John\n2   | Jane\n3   | Joe\n\nTable b:\nid  | address\n----|--------\n1   | NY\n2   | CA

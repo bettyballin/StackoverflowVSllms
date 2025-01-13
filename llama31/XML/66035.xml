@@ -1,0 +1,1 @@
+<validator>\n    <validator-id>loginValidator</validator-id>\n    <validator-class>myvalidators.LoginValidator</validator-class>\n</validator>

@@ -1,0 +1,1 @@
+var client = new SoapClient();\nclient.SoapExtensions.Add(new CustomSoapExtension());

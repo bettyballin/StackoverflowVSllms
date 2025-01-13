@@ -1,0 +1,1 @@
+<location path="CFIDE/main">\n    <system.web>\n        <authorization>\n            <allow users="*" />\n        </authorization>\n    </system.web>\n</location>

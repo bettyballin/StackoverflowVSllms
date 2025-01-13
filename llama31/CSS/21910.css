@@ -1,0 +1,1 @@
+#clickable-div {\n  cursor: pointer;\n}\n\n#clickable-div:hover {\n  background-color: #ccc;\n}

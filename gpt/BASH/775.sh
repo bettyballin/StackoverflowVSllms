@@ -1,1 +1,0 @@
-# Remount the filesystem\nsudo mount -o loop test.img /mnt/test\n\n# Check the behavior\nls /mnt/test/data

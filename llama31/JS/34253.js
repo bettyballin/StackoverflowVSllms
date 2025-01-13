@@ -1,0 +1,1 @@
+const colors = [...]; // your array of hex colors\nconst canvas = document.createElement('canvas');\ncanvas.width = 80 * colors.length;\ncanvas.height = 80;\nconst ctx = canvas.getContext('2d');\n\ncolors.forEach((color, index) => {\n  ctx.fillStyle = color;\n  ctx.fillRect(index * 80, 0, 80, 80);\n});\n\ndocument.body.appendChild(canvas);

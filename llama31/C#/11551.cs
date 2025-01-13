@@ -1,0 +1,1 @@
+using System.Messaging;\n\n// assume 'queue' is your MessageQueue object\n// assume 'messageId' is the ID of the message you want to delete\n\nqueue.ReceiveById(messageId, MessageQueueTransactionType.Single);

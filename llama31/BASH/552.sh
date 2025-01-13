@@ -1,0 +1,1 @@
+xmlstarlet sel -t -c "//a[b[@type='foo' and @value='1']]" input.xml

@@ -1,1 +1,0 @@
-SELECT \n    o.name, \n    o.object_id, \n    o.type_desc, \n    m.definition\nFROM \n    sys.objects o\nJOIN \n    sys.sql_modules m ON o.object_id = m.object_id\nWHERE \n    o.type IN ('FN', 'TF');

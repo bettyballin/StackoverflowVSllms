@@ -1,0 +1,1 @@
+<class name="Game" table="Games">\n  ...\n  <many-to-one name="Event" class="Event" column="EventId" fetch="join"/>\n  ...\n</class>

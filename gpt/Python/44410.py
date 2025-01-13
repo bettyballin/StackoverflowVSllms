@@ -1,1 +1,0 @@
-def is_valid_number(s):\n    try:\n        float(s)\n        return True\n    except ValueError:\n        return False

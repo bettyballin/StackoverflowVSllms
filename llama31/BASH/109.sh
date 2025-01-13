@@ -1,0 +1,1 @@
+#!/bin/bash\n\nPID_FILE=/path/to/pid/file.pid\n\nif [ -f "$PID_FILE" ]; then\n  PID=$(cat "$PID_FILE")\n  if kill -0 "$PID" 2>/dev/null; then\n    echo "Another instance is already running, exiting."\n    exit 1\n  fi\nfi\n\necho $$ > "$PID_FILE"\n\n# your code here\n\nrm "$PID_FILE"

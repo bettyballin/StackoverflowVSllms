@@ -1,0 +1,1 @@
+find . -name "*.java" | xargs sed -i '1i import package.name.*;'

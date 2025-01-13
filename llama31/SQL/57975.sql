@@ -1,0 +1,1 @@
+SELECT * FROM change_log\nWHERE table_name = 'Item' AND row_id = ?;

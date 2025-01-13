@@ -1,0 +1,1 @@
+$.ajax({\n  url: '/proxy/data',\n  success: function(data) {\n    console.log(data);\n  }\n});

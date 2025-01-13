@@ -1,1 +1,0 @@
-using System;\n   using System.Runtime.InteropServices;\n\n   [Guid("YOUR-INTERFACE-GUID-HERE")]\n   [InterfaceType(ComInterfaceType.InterfaceIsIDispatch)]\n   [ComVisible(true)]\n   public interface IMyComInterface\n   {\n       void MyMethod();\n   }

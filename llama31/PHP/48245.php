@@ -1,0 +1,1 @@
+class cBar {\n    // Original class definition\n}\n\nclass cBarExtended extends cBar {\n    function foobar() {\n        // Code\n    }\n}

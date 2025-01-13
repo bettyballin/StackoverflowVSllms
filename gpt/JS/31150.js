@@ -1,1 +1,0 @@
-if (isIsolated(pawnPosition)) {\n        score -= ISOLATED_PAWN_PENALTY;\n    }

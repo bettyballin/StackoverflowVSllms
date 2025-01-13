@@ -1,0 +1,1 @@
+public class MyModel\n{\n    [Required]\n    public string SelectedValue { get; set; }\n}

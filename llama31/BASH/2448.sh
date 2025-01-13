@@ -1,0 +1,1 @@
+aspnet_compiler -v / -p "$(ProjectDir)" -f "$(ProjectDir)\errors.txt"

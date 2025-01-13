@@ -1,0 +1,1 @@
+// WebApp.cs\npublic class WebApp\n{\n    private readonly BusinessLogic _businessLogic;\n\n    public WebApp(BusinessLogic businessLogic)\n    {\n        _businessLogic = businessLogic;\n    }\n\n    public void SaveData(Data data)\n    {\n        _businessLogic.SaveData(data);\n    }\n\n    public Data GetData()\n    {\n        return _businessLogic.GetData();\n    }\n}

@@ -1,0 +1,1 @@
+$file = 'example.txt';\n$content = 'Hello, world!' . PHP_EOL . 'This is a new line.';\nfile_put_contents($file, $content);

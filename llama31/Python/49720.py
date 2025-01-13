@@ -1,0 +1,1 @@
+# admin.py\nfrom django.contrib import admin\nfrom .models import MyModel\n\nclass MyModelAdmin(admin.ModelAdmin):\n    pass\n\nadmin.site.register(MyModel, MyModelAdmin)

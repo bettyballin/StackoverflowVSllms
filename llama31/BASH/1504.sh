@@ -1,0 +1,1 @@
+TFSBuild start /collection:http://your-tfs-server:8080/tfs/YourCollection /buildDefinition:YourBuildDefinition /queue

@@ -1,0 +1,1 @@
+<Host name="localhost" appBase="webapps">\n  <Context path="/myapp" docBase="myapp" reloadable="true"/>\n</Host>

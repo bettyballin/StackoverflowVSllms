@@ -1,1 +1,0 @@
-sudo tar -xvzf mit-scheme-7.5.1-ix86-linux.tar.gz -C /usr/local

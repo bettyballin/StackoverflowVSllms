@@ -1,1 +1,0 @@
-Dim connectionString As String = "Server=(localdb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\yourDatabaseFile.mdf;Integrated Security=True"

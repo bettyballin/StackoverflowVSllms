@@ -1,0 +1,1 @@
+# Create a lib directory in your application's root directory\nmkdir lib\n\n# Copy the required CPAN modules into the lib directory\ncp -r /path/to/CPAN/module/lib/My/Module.pm lib/

@@ -1,1 +1,0 @@
-sudo poff <connection_name>

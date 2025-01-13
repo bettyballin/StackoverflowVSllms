@@ -1,1 +1,0 @@
-// Get the username from the URL\n$username = $_GET['username'];\n\n// Fetch user profile data using the username\n$stmt = $pdo->prepare("SELECT * FROM users WHERE username = :username");\n$stmt->execute(['username' => $username]);\n$user = $stmt->fetch();\n\nif ($user) {\n    // Display the profile\n} else {\n    // User not found\n}

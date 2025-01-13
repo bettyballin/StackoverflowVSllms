@@ -1,1 +1,0 @@
-# config/application.rb\nmodule YourApp\n  class Application < Rails::Application\n    # other configurations...\n\n    # Skip schema dump after migrations\n    config.active_record.dump_schema_after_migration = false\n  end\nend

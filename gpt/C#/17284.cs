@@ -1,1 +1,0 @@
-// Example of internal class\ninternal class MyInternalClass\n{\n    internal void MyInternalMethod()\n    {\n        // Implementation\n    }\n}\n\n// Example of public class\npublic class MyPublicClass\n{\n    public void MyPublicMethod()\n    {\n        // Implementation\n    }\n}

@@ -1,1 +1,0 @@
-gem 'activerecord-oracle_enhanced-adapter'\n   gem 'ruby-oci8'

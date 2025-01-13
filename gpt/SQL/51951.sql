@@ -1,1 +1,0 @@
-declare @firstId int\ndeclare @lastId int\ndeclare @sql nvarchar(max)\n\nset @firstId = 5461094\nset @lastId = 5461097\n\nset @sql = N'SELECT * FROM YourTable WHERE id BETWEEN ' + CAST(@firstId AS nvarchar(10)) + ' AND ' + CAST(@lastId AS nvarchar(10))\n\nEXEC sp_executesql @sql

@@ -1,0 +1,1 @@
+-- Example answer: Using built-in encryption functions like ENCRYPTBYKEY\nOPEN SYMMETRIC KEY MyKey DECRYPTION BY PASSWORD = 'password'\nINSERT INTO EncryptedTable (EncryptedColumn) VALUES (ENCRYPTBYKEY(KEY_GUID('MyKey'), CONVERT(varchar, 'sensitive data')))

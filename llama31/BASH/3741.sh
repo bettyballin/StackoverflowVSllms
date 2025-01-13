@@ -1,0 +1,1 @@
+./configure --prefix=/usr --with-php-config=/usr/bin/php-config --with-gtk2 --with-glade2

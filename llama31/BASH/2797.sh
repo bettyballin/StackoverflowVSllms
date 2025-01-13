@@ -1,0 +1,1 @@
+sudo udevadm control --reload-rules\nsudo systemctl restart udev

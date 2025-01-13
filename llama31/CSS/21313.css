@@ -1,0 +1,1 @@
+/* default styles for desktop */\n@media only screen and (min-width: 768px) {\n  /* desktop styles */\n}\n\n/* styles for mobile devices */\n@media only screen and (max-width: 767px) {\n  /* mobile styles */\n  /* you can also add a redirect here */\n  /* e.g. */\n  /* .mobile-redirect { display: block; } */\n}

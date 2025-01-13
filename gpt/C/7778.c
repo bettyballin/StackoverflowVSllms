@@ -1,1 +1,0 @@
-#include <windows.h>\n\nint main() {\n    HMODULE hDll = LoadLibrary("example.dll");\n    if (hDll == NULL) {\n        // Handle error\n        return -1;\n    }\n\n    // Use the DLL's functions...\n\n    // Free the DLL when done\n    FreeLibrary(hDll);\n    return 0;\n}

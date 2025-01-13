@@ -1,1 +1,0 @@
-set_time_limit(0); // This will remove the time limit for the script executio

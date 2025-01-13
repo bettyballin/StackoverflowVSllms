@@ -1,0 +1,1 @@
+// func.h\nvoid func() {\n    // implementation\n}

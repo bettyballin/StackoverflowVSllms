@@ -1,0 +1,1 @@
+SELECT \n    MIN(100, MAX(0, calculated_score)) AS final_score

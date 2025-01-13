@@ -1,0 +1,1 @@
+GET /v13.0/{page_id}/notes HTTP/1.1\nHost: graph.facebook.com\nAuthorization: Bearer {page_access_token}

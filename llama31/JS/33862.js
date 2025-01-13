@@ -1,0 +1,1 @@
+document.attachEvent('onkeydown', function(event) {\n    CheckKey(event.keyCode);\n});

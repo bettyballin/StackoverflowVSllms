@@ -1,1 +1,0 @@
-mysqlhotcopy [database] /path/to/backup/

@@ -1,1 +1,0 @@
-grep -r '\$username' /path/to/your/codebase

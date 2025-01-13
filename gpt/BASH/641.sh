@@ -1,1 +1,0 @@
-setx SFTP_HOST "your_sftp_host"\n      setx SFTP_PORT "22"\n      setx SFTP_USERNAME "your_username"\n      setx SFTP_PASSWORD "your_password"\n      setx SFTP_TARGET_DIRECTORY "/path/to/remote/dir"

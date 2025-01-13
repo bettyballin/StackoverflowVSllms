@@ -1,1 +1,0 @@
-SELECT\n    v1.session,\n    v1.user_id,\n    v1.page\nFROM\n    views v1\nINNER JOIN (\n    SELECT\n        session,\n        MAX(page) AS max_page\n    FROM\n        views\n    WHERE\n        user_id = '1'\n    GROUP BY\n        session\n) v2 ON v1.session = v2.session AND v1.page = v2.max_page\nWHERE\n    v1.user_id = '1'\nORDER BY\n    v1.page DESC;

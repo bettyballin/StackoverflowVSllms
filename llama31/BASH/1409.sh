@@ -1,0 +1,1 @@
+pyinstaller --python-path=/path/to/egg.egg my_script.py

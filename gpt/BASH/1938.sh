@@ -1,1 +1,0 @@
-rpmbuild -ba your_package.spec

@@ -1,1 +1,0 @@
-<?php\n$a = NULL;\n$b = null;\n\nvar_dump($a); // Output: NULL\nvar_dump($b); // Output: NULL\n\nif ($a === $b) {\n    echo "Both are the same.\n"; // This will be executed\n} else {\n    echo "They are different.\n";\n}\n?>

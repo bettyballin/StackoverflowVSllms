@@ -1,1 +1,0 @@
-int ch = getch();  // Wait for user input\n    if (ch == 'q') {\n        // Handle 'q' key press\n    }

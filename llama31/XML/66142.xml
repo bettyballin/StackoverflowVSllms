@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <applicationPool \n      name="MyAppPool" \n      managedRuntimeVersion="v4.0" \n      managedPipelineMode="Integrated" \n      maxMemoryUsedMB="1024" \n      restartMemoryLimit="80" />\n  </system.web>\n</configuration>

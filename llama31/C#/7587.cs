@@ -1,0 +1,1 @@
+base.Text = string.Format("{0:C}", tempDollarAmount);

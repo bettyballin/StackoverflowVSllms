@@ -1,0 +1,1 @@
+@echo off\nset OPENSSL_VERSION=1.1.1g\nset OPENSSL_INSTALLER=openssl-%OPENSSL_VERSION%-win64.exe\n\n:: Download the installer\npowershell -Command "Invoke-WebRequest -Uri https://slproweb.com/download/Win64OpenSSL-%OPENSSL_VERSION%.exe -OutFile %OPENSSL_INSTALLER%"\n\n:: Run the installer\n%OPENSSL_INSTALLER% /silent /install

@@ -1,1 +1,0 @@
-# Example command to backup a Virtual Server using Veeam\n   veeamconfig job create --name "BackupJob" --vmname "VirtualMachineName" --destination "/path/to/backup/location" --vss

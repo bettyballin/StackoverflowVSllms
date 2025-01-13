@@ -1,0 +1,1 @@
+GUID guid;\nchar guidStr[] = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX";\n\n// Parse the GUID string into the GUID structure\nsscanf(guidStr, "%08x-%04x-%04x-%02x%02x-%02x%02x%02x%02x%02x%02x",\n    &guid.Data1, &guid.Data2, &guid.Data3,\n    &guid.Data4[0], &guid.Data4[1], &guid.Data4[2],\n    &guid.Data4[3], &guid.Data4[4], &guid.Data4[5],\n    &guid.Data4[6], &guid.Data4[7]);

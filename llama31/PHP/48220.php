@@ -1,0 +1,1 @@
+$pk[0] = "PK Fire!<br/>";\n$pk[1] = "PK Thunder!<br/>";\n$pk[2] = "PK Freeze!<br/>";\n\nfor($i = 0; $i < 5; $i++) {\n    echo $pk[rand(0,2)];\n}

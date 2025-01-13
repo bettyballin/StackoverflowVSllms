@@ -1,0 +1,1 @@
+public interface MyInterface\n{\n    MyEnum Number { get; }\n}\n\npublic static class MyInterfaceEnums\n{\n    public enum MyEnum\n    {\n        Yes = 0,\n        No = 1,\n        Maybe = 2\n    }\n}

@@ -1,0 +1,1 @@
+table {\n  table-layout: fixed;\n}\n\n.error-cell {\n  white-space: nowrap;\n  overflow: hidden; /* or visible, depending on your preference */\n}

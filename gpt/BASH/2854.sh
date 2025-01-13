@@ -1,1 +1,0 @@
-chmod 750 httpdocs/secure_data

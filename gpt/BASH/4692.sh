@@ -1,1 +1,0 @@
-g++ -fno-operator-names -o your_program your_program.cpp

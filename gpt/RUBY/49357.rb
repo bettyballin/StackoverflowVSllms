@@ -1,1 +1,0 @@
-Rails.application.routes.draw do\n     resources :countries do\n       resources :cities\n     end\n   end

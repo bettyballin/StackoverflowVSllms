@@ -1,0 +1,1 @@
+<script>\n  window.open('download.php', '_blank');\n</script>

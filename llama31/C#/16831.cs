@@ -1,0 +1,1 @@
+public class PagedTableViewModel<T>\n{\n    public IEnumerable<T> Data { get; set; }\n    public int PageSize { get; set; }\n    public int PageNumber { get; set; }\n    public string SortColumn { get; set; }\n    public string SortDirection { get; set; }\n}

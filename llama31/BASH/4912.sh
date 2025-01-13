@@ -1,0 +1,1 @@
+sed -r '/\/\/<<<.*?TAG\>>>/d' test.txt

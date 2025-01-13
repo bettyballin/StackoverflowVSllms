@@ -1,0 +1,1 @@
+char *word[3] = {"hello", "world", "foo"};\nchar word2[3] = {'h', 'e', 'l'};\n\nprintf("%p %p %p\n", word[0], word[1], word[2]);  // prints three different addresses\nprintf("%p %p %p\n", &word2[0], &word2[1], &word2[2]);  // prints contiguous addresses

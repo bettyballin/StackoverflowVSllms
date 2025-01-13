@@ -1,1 +1,0 @@
-sudo service smbd restart\n   sudo service nmbd restart

@@ -1,1 +1,0 @@
-class FooController extends Zend_Controller_Action\n{\n    public function defaultAspAction()\n    {\n        $this->_redirect('/foo', array('code' => 301));\n    }\n}

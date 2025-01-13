@@ -1,1 +1,0 @@
-WITH RECURSIVE FlowPath AS (\n    SELECT facility, upstream_facility\n    FROM Facilities\n    WHERE facility = @StartFacility\n    UNION ALL\n    SELECT f.facility, f.upstream_facility\n    FROM Facilities f\n    INNER JOIN FlowPath fp ON fp.upstream_facility = f.facility\n    OPTION (MAXRECURSION 1000)\n)\nSELECT * FROM FlowPath;

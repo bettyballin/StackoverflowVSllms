@@ -1,0 +1,1 @@
+var doc = new jsPDF();\ndoc.text('Your report content here', 10, 10);\ndoc.print();

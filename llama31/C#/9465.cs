@@ -1,0 +1,1 @@
+Canvas deserializedCanvas = (Canvas)XamlReader.Load(xaml);

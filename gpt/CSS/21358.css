@@ -1,1 +1,0 @@
-.masonry {\n       column-count: 4;\n       column-gap: 1em;\n   }\n   .masonry-item {\n       display: inline-block;\n       margin-bottom: 1em;\n       width: 100%;\n   }\n   .masonry-item img {\n       width: 100%;\n       display: block;\n   }

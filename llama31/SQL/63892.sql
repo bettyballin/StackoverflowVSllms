@@ -1,0 +1,1 @@
+INSERT INTO A (fname, lname)\nOUTPUT inserted.id, inserted.fname, inserted.lname\nINTO #temp\nSELECT fname, lname\nFROM B;\n\nUPDATE b\nSET NewId = t.id\nFROM B b\nINNER JOIN #temp t ON b.fname = t.fname AND b.lname = t.lname;\n\nDROP TABLE #temp;

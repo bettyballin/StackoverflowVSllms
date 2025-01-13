@@ -1,0 +1,1 @@
+pm.test("Status code is 200", function () {\n  pm.response.to.have.status(200);\n});\n\npm.test("Response body contains expected data", function () {\n  pm.expect(pm.response.json()).to.contain("expectedData");\n});

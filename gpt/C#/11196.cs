@@ -1,1 +1,0 @@
-var result = db.Records\n                 .OrderByDescending(x => x.WhateverProperty)\n                 .First();

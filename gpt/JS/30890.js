@@ -1,1 +1,0 @@
-function stepOne(callback) {\n    // Simulating an asynchronous operation\n    setTimeout(() => {\n        console.log("Step One Completed");\n        if (callback) callback();\n    }, 3000); // 3 seconds delay\n}\n\nfunction stepTwo() {\n    console.log("Step Two Completed");\n}\n\nstepOne(stepTwo);

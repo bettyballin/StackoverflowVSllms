@@ -1,0 +1,1 @@
+ul {\n  list-style: none;\n}\n\nli:before {\n  content: attr(data-bullet);\n  font-weight: bold;\n  margin-right: 10px;\n}

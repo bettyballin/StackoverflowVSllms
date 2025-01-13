@@ -1,0 +1,1 @@
+class MyRouter implements Zend_Controller_Router_Interface\n{\n    public function route(Zend_Controller_Request_Abstract $request)\n    {\n        $uri = $_SERVER['REQUEST_URI'];\n        // parse the URI and extract the controller and action\n        // ...\n        return $request;\n    }\n}

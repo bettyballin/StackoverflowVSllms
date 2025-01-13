@@ -1,1 +1,0 @@
-PdfContentByte cb = stamper.GetOverContent(pageNumber);\nBaseFont bf = BaseFont.CreateFont(BaseFont.HELVETICA, BaseFont.CP1252, BaseFont.NOT_EMBEDDED);\ncb.BeginText();\ncb.SetFontAndSize(bf, 12);\ncb.SetTextMatrix(x, y); // coordinates in points\ncb.ShowText("Your Text Here");\ncb.EndText();

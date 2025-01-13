@@ -1,0 +1,1 @@
+$html = '< p > blah blah blah < / p > < a href= " link.html " > blah blah blah < /a >';\n$clean = preg_replace('/<.*?>/s', '', $html);\necho $clean;

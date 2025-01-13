@@ -1,1 +1,0 @@
-# Create a list\nmy_list = [1, 2, 3, 4, 5]\n\n# Access elements\nprint(my_list[0])  # Output: 1\n\n# Append an element\nmy_list.append(6)\n\n# Print the list\nprint(my_list)  # Output: [1, 2, 3, 4, 5, 6]

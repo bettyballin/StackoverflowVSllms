@@ -1,1 +1,0 @@
-java -cp $(tr '\n' ':' < classpath.txt) YourMainClass

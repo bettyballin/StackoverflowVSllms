@@ -1,1 +1,0 @@
-CREATE TABLE ExampleTable (\n    ExampleColumn varchar2(255)\n);

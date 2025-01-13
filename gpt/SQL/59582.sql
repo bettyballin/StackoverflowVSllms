@@ -1,1 +1,0 @@
-SELECT product_id, SUM(quantity) AS total_quantity\nFROM sales\nGROUP BY product_id;

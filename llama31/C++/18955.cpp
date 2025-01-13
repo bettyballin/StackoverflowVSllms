@@ -1,0 +1,1 @@
+#include <Windows.h>\n\n// ...\n\nSERVICE_STATUS status;\nSERVICE_STATUS_HANDLE hStatus;\n\n// Get the service status handle\nhStatus = RegisterServiceCtrlHandlerEx("YourServiceName", NULL, NULL);\n\n// Stop the service\nControlService(hStatus, SERVICE_CONTROL_STOP, &status);

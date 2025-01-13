@@ -1,1 +1,0 @@
-CREATE TABLE Statuses (\n       StatusID int PRIMARY KEY,\n       StatusName nvarchar(50)\n   );\n\n   CREATE TABLE Units (\n       UnitID int PRIMARY KEY,\n       UnitName nvarchar(50)\n   );

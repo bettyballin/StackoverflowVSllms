@@ -1,0 +1,1 @@
+mkdir /sys/fs/cgroup/net_cls/restricted\necho 0x10001 > /sys/fs/cgroup/net_cls/restricted/net_cls.classid\necho "restricted_user" > /sys/fs/cgroup/net_cls/restricted/tasks

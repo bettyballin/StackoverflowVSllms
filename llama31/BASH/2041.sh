@@ -1,0 +1,1 @@
+# Example: Fork the library on GitHub, fix the bugs, and use the forked version\ngit clone https://github.com/original-library.git\n# Fix bugs and security issues\ngit commit -m "Fixed security vulnerabilities"\ngit push origin master

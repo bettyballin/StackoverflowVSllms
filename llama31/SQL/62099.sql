@@ -1,0 +1,1 @@
+CREATE TABLE form_1 (\n  field1 VARCHAR(50),\n  field2 VARCHAR(100),\n  ...\n);

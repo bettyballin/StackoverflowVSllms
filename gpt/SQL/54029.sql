@@ -1,1 +1,0 @@
-UPDATE sessions\n    SET persistent_token = ?\n    WHERE session_id = ?;

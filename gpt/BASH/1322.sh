@@ -1,1 +1,0 @@
-check process apache with pidfile /var/run/apache2.pid\n     start program = "/etc/init.d/apache2 start"\n     stop program  = "/etc/init.d/apache2 stop"\n     if failed host 127.0.0.1 port 80 protocol http\n        and request "/server-status?auto"\n        then restart

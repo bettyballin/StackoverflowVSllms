@@ -1,1 +1,0 @@
-public class MyApi\n{\n    public string Hello(string name)\n    {\n        return $"Hello, {name}!";\n    }\n}

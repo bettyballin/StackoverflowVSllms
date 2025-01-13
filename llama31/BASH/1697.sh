@@ -1,0 +1,1 @@
+icacls C:\Path\To\Bin\App_Licenses.dll /grant:r "IUSR":R

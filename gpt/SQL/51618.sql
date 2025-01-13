@@ -1,1 +1,0 @@
-SHOW VARIABLES LIKE 'query_cache_size';\nSET GLOBAL query_cache_size = 1048576; -- Example value, adjust as needed

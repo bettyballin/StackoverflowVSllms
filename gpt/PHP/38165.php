@@ -1,1 +1,0 @@
-$queryBuilder = $em->createQueryBuilder();\n$query = $queryBuilder->select('u')\n                      ->from('User', 'u')\n                      ->where($queryBuilder->expr()->eq('u.id', ':id'))\n                      ->setParameter('id', 1)\n                      ->getQuery();

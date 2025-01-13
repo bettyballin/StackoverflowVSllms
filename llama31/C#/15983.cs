@@ -1,0 +1,1 @@
+[ComVisible(true)]\npublic class FooImpl : IFoo\n{\n    // ...\n}

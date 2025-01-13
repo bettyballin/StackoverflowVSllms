@@ -1,1 +1,0 @@
-var criteria = session.CreateCriteria<YourEntity>()\n                      .Add(Restrictions.Eq("YourColumn", "value"));\n\nvar criteriaResult = criteria.List<YourEntity>();

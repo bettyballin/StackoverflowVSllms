@@ -1,1 +1,0 @@
-#!/bin/ksh\n\nfor file in $1/*.html\ndo\n  perl replace_and_log.pl "$file"\ndone

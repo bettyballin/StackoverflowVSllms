@@ -1,1 +1,0 @@
-<configuration>\n  <location path="admin">\n    <system.web>\n      <authorization>\n        <deny users="?" />\n      </authorization>\n    </system.web>\n  </location>\n\n  <system.web>\n    <compilation debug="true" targetFramework="4.7.2" />\n    <httpRuntime targetFramework="4.7.2" />\n  </system.web>\n</configuration>

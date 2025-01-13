@@ -1,0 +1,1 @@
+import sys\n\nif sys.stdout.isatty():\n    print("Running in a terminal")\nelse:\n    print("Not running in a terminal")

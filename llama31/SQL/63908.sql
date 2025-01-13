@@ -1,0 +1,1 @@
+SELECT u.UserName\nFROM (\n  SELECT UserName, StateTypeId, DateAdded,\n    ROW_NUMBER() OVER (PARTITION BY UserName ORDER BY DateAdded DESC) AS rn\n  FROM UserData\n) u\nWHERE u.rn = 1 AND u.StateTypeId != 2;

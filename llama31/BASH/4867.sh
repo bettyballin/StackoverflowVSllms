@@ -1,0 +1,1 @@
+VBoxManage modifyhd <path_to_vhd_file> --resize <new_size_in_mb>

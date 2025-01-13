@@ -1,0 +1,1 @@
+svn propset svn:ignore "your_project.vbproj" .

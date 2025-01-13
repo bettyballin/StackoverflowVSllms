@@ -1,1 +1,0 @@
-require 'minitest/autorun'\n\n   class TestExample < Minitest::Test\n     def test_addition\n       assert_equal 4, 2 + 2\n     end\n   end

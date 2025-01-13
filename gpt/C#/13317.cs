@@ -1,1 +1,0 @@
-public class Comment\n{\n    public int ID { get; set; }\n    public DateTime CreatedOn { get; set; }\n    public string Text { get; set; }\n    // Other properties\n}

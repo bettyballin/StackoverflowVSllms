@@ -1,1 +1,0 @@
-public class Startup\n   {\n       public void ConfigureServices(IServiceCollection services)\n       {\n           services.AddApplicationInsightsTelemetry(Configuration["ApplicationInsights:InstrumentationKey"]);\n       }\n   }

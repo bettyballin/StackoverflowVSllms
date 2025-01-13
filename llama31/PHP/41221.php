@@ -1,0 +1,1 @@
+$question_ids = array_keys($array1);\n\nforeach ($question_ids as $question_id) {\n    echo $array1[$question_id]['title'] . "\n";\n    foreach ($array2[$question_id]['tags'] as $tag) {\n        echo $tag . "\n";\n    }\n}

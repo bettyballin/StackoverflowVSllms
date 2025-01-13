@@ -1,1 +1,0 @@
-INSERT INTO MyTable (ID, Name, Age) VALUES (@ID, @Name, @Age)

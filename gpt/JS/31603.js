@@ -1,1 +1,0 @@
-function show_panel(index) {\n    // Your logic to show the panel\n    // For example, you can add a class to make it visible\n    var panel = document.querySelector('.submenu');\n    if (panel) {\n        panel.classList.add('visible');\n    }\n}

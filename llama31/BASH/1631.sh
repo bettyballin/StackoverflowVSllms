@@ -1,0 +1,1 @@
+java -jar sqlcl.jar -username username -password password -connect MYDB

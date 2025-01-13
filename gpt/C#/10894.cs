@@ -1,1 +1,0 @@
-// In your controller or action method\n[Authorize(Roles = "Admin")]\npublic ActionResult AdminOnlyAction()\n{\n    // Code for action\n    return View();\n}\n\n[Authorize(Roles = "User")]\npublic ActionResult UserOnlyAction()\n{\n    // Code for action\n    return View();\n}

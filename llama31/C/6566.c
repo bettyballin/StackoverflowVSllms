@@ -1,0 +1,1 @@
+int lookup(const char *word, const char *array[])

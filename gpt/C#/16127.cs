@@ -1,1 +1,0 @@
-string safeValue = HttpContext.Current.Items["textBoxId"] as string;\nif (safeValue != null)\n{\n    textBox.Text = safeValue;\n}

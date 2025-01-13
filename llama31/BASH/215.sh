@@ -1,0 +1,1 @@
+etstat -aon | find "8080"

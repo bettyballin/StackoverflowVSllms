@@ -1,1 +1,0 @@
-document.getElementById("myTextbox").onpaste = function(e) {\n    console.log("Paste event detected");\n    // Add logic here to allow or prevent pasting\n    return true; // or return false to prevent pasting\n};

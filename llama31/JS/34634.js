@@ -1,0 +1,1 @@
+var originalRequired = jQuery.validator.methods.required;\n\nvar newRequired = function(value, element, param) {\n    return originalRequired.apply(this, arguments);\n};\n\n// now you can use newRequired as a copy of the original functio

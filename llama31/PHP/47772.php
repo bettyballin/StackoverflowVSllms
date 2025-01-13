@@ -1,0 +1,1 @@
+$dt = new DateTime('now', new DateTimeZone('Europe/Stockholm'));\necho $dt->format('M d, H:i');

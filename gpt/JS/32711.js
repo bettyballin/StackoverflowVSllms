@@ -1,1 +1,0 @@
-var xhr = new XMLHttpRequest();\nxhr.open("GET", "example.xml", true);\nxhr.onreadystatechange = function () {\n    if (xhr.readyState == 4 && xhr.status == 200) {\n        var xmlDoc = xhr.responseXML;\n        // Process the XML document here\n    }\n};\nxhr.send(null);

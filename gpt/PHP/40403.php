@@ -1,1 +1,0 @@
-<?php\n\n$largenum = '95635000009453274121700';\n$modulus = '97';\n\n$result = bcmod($largenum, $modulus);\n\necho $result;\n\n?>

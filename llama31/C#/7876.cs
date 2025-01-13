@@ -1,0 +1,1 @@
+public enum NodeType\n{\n    // ...\n}\n\npublic class PackageDTO\n{\n    public NodeType? NodeType { get; set; }\n}

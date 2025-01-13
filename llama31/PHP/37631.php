@@ -1,0 +1,1 @@
+$consumerKey = 'YOUR_CONSUMER_KEY';\n$consumerSecret = 'YOUR_CONSUMER_SECRET';\n$callbackUrl = 'http://yourwebsite.com/callback.php';\n\n$myspaceUrl = 'https://api.myspace.com/authorize?client_id=' . $consumerKey . '&redirect_uri=' . $callbackUrl . '&response_type=code';\nheader('Location: ' . $myspaceUrl);\nexit;

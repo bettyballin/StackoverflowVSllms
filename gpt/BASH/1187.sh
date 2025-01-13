@@ -1,1 +1,0 @@
-xsltproc -o output.xml transform.xsl input.xml

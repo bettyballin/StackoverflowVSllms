@@ -1,1 +1,0 @@
-SELECT * \nFROM t1 \nWHERE (MATCH (t1.foo_desc, t1.bar_desc) AGAINST ('+foo* +bar*' IN BOOLEAN MODE)\n   OR (t1.foo_desc LIKE '%foo%' AND t1.bar_desc LIKE '%bar%'));

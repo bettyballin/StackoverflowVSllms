@@ -1,1 +1,0 @@
--- Step 1: Backup the transaction log\nBACKUP LOG [YourDatabaseName] TO DISK = 'C:\Backups\YourDatabaseName_LogBackup.trn';\n\n-- Step 2: Shrink the log file\nDBCC SHRINKFILE (YourDatabaseName_Log, 100); -- Target size in MB\n\n-- Optional: Change the recovery model (if point-in-time recovery is not needed)\nALTER DATABASE [YourDatabaseName] SET RECOVERY SIMPLE;

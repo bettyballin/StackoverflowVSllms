@@ -1,1 +1,0 @@
-$log_file = 'loop_log.txt';\n   $counter = 0;\n   $max_iterations = 1000;\n   \n   while (some_condition) {\n       error_log("Iteration: $counter\n", 3, $log_file);\n       if ($counter++ >= $max_iterations) {\n           error_log("Max iterations reached\n", 3, $log_file);\n           break;\n       }\n       // loop logic\n   }

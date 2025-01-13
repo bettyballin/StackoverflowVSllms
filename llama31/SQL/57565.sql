@@ -1,0 +1,1 @@
+CREATE TABLE example (\n  id INT PRIMARY KEY,\n  name VARCHAR(255)\n);\n\nSHOW INDEX FROM example;

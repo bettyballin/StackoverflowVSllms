@@ -1,1 +1,0 @@
-struct routing_entry {\n    unsigned long destSeq;  // 32 bits\n    unsigned long nextHop;  // 32 bits\n    unsigned char hopCount; // 8 bits\n    bool initialized;       // flag to indicate if the entry is valid\n\n    routing_entry() : destSeq(0), nextHop(0), hopCount(0), initialized(false) {}\n};

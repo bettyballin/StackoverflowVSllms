@@ -1,0 +1,1 @@
+struct FooBar __attribute__((section(".foobar"))) foobar;

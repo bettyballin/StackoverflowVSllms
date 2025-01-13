@@ -1,0 +1,1 @@
+class A {\n  public:\n    OtherClass a_;\n    AnotherClass b_;\n\n    A(OtherClass o, string x, int y)\n      : a_(o)\n      , b_(initB(a_, x, y)) {}\n\n  private:\n    AnotherClass initB(const OtherClass& a, string x, int y) {\n      return AnotherClass(a, x, y);\n    }\n};

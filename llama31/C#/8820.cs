@@ -1,0 +1,1 @@
+Configuration config = ConfigurationManager.OpenMappedExeConfiguration(\n    new ExeConfigurationFileMap { ExeConfigFilename = "path/to/validation.config" }, \n    ConfigurationUserLevel.None);\n\nValidationSettings settings = (ValidationSettings)config.GetSection("validationSettings");

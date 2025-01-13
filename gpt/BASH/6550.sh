@@ -1,1 +1,0 @@
-sudo /opt/ZendStudio/ZendStudio

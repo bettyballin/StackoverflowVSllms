@@ -1,1 +1,0 @@
-CREATE POLICY project_access_policy\n   ON projects\n   USING (\n       EXISTS (\n           SELECT 1\n           FROM user_projects\n           WHERE user_projects.user_id = current_user::int\n           AND user_projects.project_id = projects.project_id\n       )\n   );

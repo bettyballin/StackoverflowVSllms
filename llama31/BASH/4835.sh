@@ -1,0 +1,1 @@
+@echo off\nset server_name=my_server\nset database_name=my_database\nset tables=table1,table2,table3\n\nsqlcmd -S %server_name% -d %database_name% -Q "SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME IN ('%tables%')" -o script.sql

@@ -1,1 +1,0 @@
-rsync -av /media/your_ipod_mount_point/ /path/to/backup/directory/

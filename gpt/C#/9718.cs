@@ -1,1 +1,0 @@
-using Microsoft.Owin;\nusing Owin;\n\n[assembly: OwinStartup(typeof(YourNamespace.Startup))]\n\npublic class Startup\n{\n    public void Configuration(IAppBuilder app)\n    {\n        app.MapSignalR();\n    }\n}

@@ -1,0 +1,1 @@
+<system.serviceModel>\n  <serviceHostingEnvironment>\n    <baseAddresses>\n      <add baseAddress="http://1.2.3.4/TestService/Service.svc" />\n    </baseAddresses>\n  </serviceHostingEnvironment>\n</system.serviceModel>

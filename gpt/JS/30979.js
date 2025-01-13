@@ -1,1 +1,0 @@
-document.addEventListener("DOMContentLoaded", function() {\n    // List of element IDs to hide\n    const elementsToHide = ['element1', 'element2', 'element3'];\n\n    elementsToHide.forEach(function(id) {\n        const element = document.getElementById(id);\n        if (element) {\n            element.style.display = 'none';\n        }\n    });\n});

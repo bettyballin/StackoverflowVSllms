@@ -1,0 +1,1 @@
+<system.net>\n  <defaultProxy>\n    <proxy bypassProxyOnLocal="true" />\n  </defaultProxy>\n</system.net>

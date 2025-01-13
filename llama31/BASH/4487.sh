@@ -1,0 +1,1 @@
+chrome.exe --app=http://your-web-app.com

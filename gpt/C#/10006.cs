@@ -1,1 +1,0 @@
-private void RedirectToNonCompressedSite(HttpContext context)\n{\n    string originalUrl = context.Request.Url.ToString();\n    string targetUrl = "http://noncompressedsite.com" + context.Request.RawUrl;\n\n    context.Response.Redirect(targetUrl, true);\n}

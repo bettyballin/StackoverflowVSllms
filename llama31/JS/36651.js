@@ -1,0 +1,1 @@
+if (myDelete.open("GET", query, true)) {

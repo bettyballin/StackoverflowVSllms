@@ -1,0 +1,1 @@
+string username = Request.Form["username"];\nstring password = Request.Form["password"];

@@ -1,0 +1,1 @@
+SELECT \n    j.name AS JobName,\n    jh.run_status AS JobStatus,\n    jh.message AS JobMessage\nFROM \n    msdb.dbo.sysjobs j\nINNER JOIN \n    msdb.dbo.sysjobhistory jh ON j.job_id = jh.job_id\nWHERE \n    j.name = 'YourJobName'\nORDER BY \n    jh.run_date DESC;

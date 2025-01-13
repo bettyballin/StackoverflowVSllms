@@ -1,0 +1,1 @@
+UriBuilder urlBuilder = new UriBuilder(Request.Url);\nurlBuilder.Scheme = "https";\nurlBuilder.Path = "~/Login.aspx";\nResponse.Redirect(urlBuilder.ToString());

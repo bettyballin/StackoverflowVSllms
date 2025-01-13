@@ -1,0 +1,1 @@
+SELECT \n  AVG(TIMESTAMPDIFF(MINUTE, date_two, date_one)) AS avg_minutes,\n  AVG(TIMESTAMPDIFF(HOUR, date_two, date_one)) AS avg_hours\nFROM \n  some_table \nWHERE \n  some-restriction-applies;

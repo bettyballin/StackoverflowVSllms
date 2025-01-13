@@ -1,1 +1,0 @@
-<?php\n$timezone = new DateTimeZone('America/New_York'); // Change to your specific timezone\n$date = new DateTime('2009-03-01', $timezone);\n$timestamp = $date->getTimestamp();\n$days = $timestamp / 60 / 60 / 24;\n\necho $timestamp . "\n";\necho $days . " days\n";\n?>

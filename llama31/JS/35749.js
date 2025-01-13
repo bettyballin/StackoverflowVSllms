@@ -1,0 +1,1 @@
+const response = JSON.parse(xhr.responseText);\nconst response1 = response.response1;\nconst response2 = response.response2;\nconst response3 = response.response3;

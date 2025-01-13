@@ -1,1 +1,0 @@
-# Example of using YAK Pro - PHP Obfuscator\ngit clone https://github.com/pk-fr/yakpro-po\ncd yakpro-po\nphp yakpro-po.php /path/to/your/php/files

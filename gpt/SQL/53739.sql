@@ -1,1 +1,0 @@
-CREATE INDEX idx_content_date ON content(date);\n    CREATE INDEX idx_content_link ON content(link);\n    CREATE INDEX idx_content_language ON content(language);

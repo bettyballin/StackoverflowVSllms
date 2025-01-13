@@ -1,0 +1,1 @@
+var traceSource = new System.Diagnostics.TraceSource("MyTraceSource");\ntraceSource.TraceEvent(System.Diagnostics.TraceEventType.Error, 0, ex.ToString());

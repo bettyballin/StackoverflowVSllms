@@ -1,0 +1,1 @@
+[DllImport("kernel32.dll")]\npublic static extern bool Wow64DisableWow64FsRedirection(ref IntPtr oldValue);\n\n// Call this function before loading your DLL\nIntPtr oldValue = IntPtr.Zero;\nWow64DisableWow64FsRedirection(ref oldValue);

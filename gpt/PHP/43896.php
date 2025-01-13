@@ -1,1 +1,0 @@
-$xmlfile = 'path/to/your/file.xml';\n$xml = file_get_contents($xmlfile);\n\n$xml = preg_replace_callback('/<Name>(.*?)<\/Name>/s', function ($matches) {\n    return '<Name>' . strtolower($matches[1]) . '</Name>';\n}, $xml);\n\nfile_put_contents($xmlfile, $xml);

@@ -1,0 +1,1 @@
+# Example command to apply a patch with backup\npatch -b -p1 < patchfile.patch

@@ -1,0 +1,1 @@
+int[] queueSizes = new int[] {10, 20, 30, 40, 50};\nWeightedRandomQueueSelector selector = new WeightedRandomQueueSelector(queueSizes);\nint nextQueue = selector.selectQueue();

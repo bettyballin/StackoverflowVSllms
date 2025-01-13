@@ -1,0 +1,1 @@
+SqlDataSource ds = new SqlDataSource();\nds.SelectCommand = "SELECT * FROM MyTable WHERE name = @username";\nds.SelectParameters.Add("username", Request.QueryString["username"]);

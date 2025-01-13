@@ -1,1 +1,0 @@
-SELECT id, INET6_NTOA(ip_address) AS ip_address, masklen\nFROM ip_addresses;

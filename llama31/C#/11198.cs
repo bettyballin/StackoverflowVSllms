@@ -1,0 +1,1 @@
+string ipAddress = HttpContext.Current.Request.Headers["X-Forwarded-For"];\nif (string.IsNullOrEmpty(ipAddress))\n{\n    ipAddress = HttpContext.Current.Request.UserHostAddress;\n}

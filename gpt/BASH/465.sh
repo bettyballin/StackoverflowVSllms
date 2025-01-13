@@ -1,1 +1,0 @@
-asterisk -rx "dialplan reload"

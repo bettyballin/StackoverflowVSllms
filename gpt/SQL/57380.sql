@@ -1,1 +1,0 @@
-UPDATE #temp_table\nSET latest_date = (\n    CASE\n        WHEN date_column1 >= date_column2 AND date_column1 >= date_column3 THEN date_column1\n        WHEN date_column2 >= date_column1 AND date_column2 >= date_column3 THEN date_column2\n        ELSE date_column3\n    END\n);

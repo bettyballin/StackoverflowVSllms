@@ -1,0 +1,1 @@
+function onOk() {\n    if (!confirm('You sure?')) {\n        var extender = $find('ModalPopupExtender1');\n        extender.cancelHide();\n    }\n}

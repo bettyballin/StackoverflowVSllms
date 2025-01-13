@@ -1,1 +1,0 @@
-<add name="Plesk_Handler_0286090609" path="*.php" verb="*" modules="FastCgiModule" scriptProcessor="c:\program files (x86)\parallels\plesk\additional\pleskphp5\php-cgi.exe" resourceType="Either" />

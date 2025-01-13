@@ -1,0 +1,1 @@
+class User extends Model {\n    protected $table = 'users';\n\n    public function getNameAttribute($value) {\n        return strtoupper($value);\n    }\n\n    public function setNameAttribute($value) {\n        $this->attributes['name'] = strtolower($value);\n    }\n}

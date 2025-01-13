@@ -1,1 +1,0 @@
-SELECT\n    column1,\n    column2,\n    CASE\n        WHEN column1 = 'value1' THEN 'result1'\n        WHEN column1 = 'value2' THEN 'result2'\n        ELSE 'default_result'\n    END AS alias_name\nFROM\n    table_name;

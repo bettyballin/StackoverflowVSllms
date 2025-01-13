@@ -1,0 +1,1 @@
+use Doctrine\ORM\Query\Expr;\n\n$duration = 24; // in hours\n\n$reset = new PasswordReset();\n$reset->code = md5(uniqid());\n$reset->expires = Expr::literal("now() + interval $duration hours");\n$reset->User = $user;\n$reset->save();

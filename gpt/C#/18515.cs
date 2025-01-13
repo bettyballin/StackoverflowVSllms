@@ -1,1 +1,0 @@
-// MyAddIn.cs\nusing System.AddIn;\n\n[AddIn("Sample AddIn")]\npublic class MyAddIn : AddInView\n{\n    public override string GetName()\n    {\n        return "My Sample AddIn";\n    }\n}

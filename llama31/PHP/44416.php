@@ -1,0 +1,1 @@
+class MyClass {\n    private $obj;\n\n    public function __construct() {\n        $this->obj = new OBJ();\n    }\n\n    public function go($url){\n        $array = $this->obj->grabArray($url);\n        echo $array['hits'];\n    }\n}\n\n$myClass = new MyClass();\n$myClass->go('http://www.mysite.com/hello');

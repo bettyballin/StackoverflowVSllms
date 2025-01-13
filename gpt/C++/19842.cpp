@@ -1,1 +1,0 @@
-template<typename T>\nclass Foo\n{\n    template<typename U>\n    void Bar(const U& bar)\n    {\n      // Implementation\n    }\n};

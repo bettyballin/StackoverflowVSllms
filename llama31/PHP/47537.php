@@ -1,0 +1,1 @@
+$orderedData = json_decode('{\n    "foo": "bar",\n    "baz": "qux"\n}', JSON_OBJECT_AS_ARRAY);\n\n// access the data in order (only works in PHP 7.2 and later)\nforeach ($orderedData as $key => $value) {\n    echo $key . ': ' . $value . PHP_EOL;\n}

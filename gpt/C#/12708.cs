@@ -1,1 +1,0 @@
-routes.MapRoute(\n       name: "ClearSession",\n       url: "Home/ClearSession",\n       defaults: new { controller = "Home", action = "ClearSession" }\n   );

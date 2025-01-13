@@ -1,0 +1,1 @@
+table {\n  table-layout: fixed;\n  width: 100%;\n}\n\ntd {\n  word-wrap: break-word;\n}\n\ntd:nth-child(2) {\n  width: 100%;\n}

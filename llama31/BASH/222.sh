@@ -1,0 +1,1 @@
+// Example usage:\njava -jar SWFEncrypt.jar -i input.swf -o output.swf - rename -encrypt-strings

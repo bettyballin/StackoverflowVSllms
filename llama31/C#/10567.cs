@@ -1,0 +1,1 @@
+Console.SetCursorPosition(Console.WindowWidth - 1, Console.WindowHeight - 1);\nConsole.Write("x");\nConsole.SetCursorPosition(Console.WindowWidth - 1, Console.WindowHeight - 1);

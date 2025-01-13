@@ -1,1 +1,0 @@
-echo | gcc -E -v -

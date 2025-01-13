@@ -1,1 +1,0 @@
-// Correct way to fetch a single column from the next row\n$columnValue = $PDOStatement->fetchColumn();\n\n// Incorrect way to use PDO::FETCH_COLUMN, it will cause an error\n$columnValue = $PDOStatement->fetch(PDO::FETCH_COLUMN); // This will not work

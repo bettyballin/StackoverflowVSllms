@@ -1,0 +1,1 @@
+$filehandle = fopen($tmpfile, 'rb');\nstream_encoding($filehandle, 'UTF-16LE');\n\nwhile (($data = fgetcsv($filehandle, 1000, "\t")) !== FALSE) {\n    $values[] = array(\n        'id' => $data[0],\n        'type' => $data[1],\n        'text' => $data[4],\n        'desc' => $data[5],\n        'pdf' => $data[7]\n    );\n}\n\nfclose($filehandle);

@@ -1,0 +1,1 @@
+if (isset($tempParams['newColumns'])) {\n    $params['column1'] = $tempParams['newColumns'];\n}

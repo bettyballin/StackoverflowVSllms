@@ -1,0 +1,1 @@
+# Download and install WSDLValidator\n# Run the following command to validate the WSDL file\nwsdlvalidator -wsdl <wsdl-file-location>

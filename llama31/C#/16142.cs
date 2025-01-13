@@ -1,0 +1,1 @@
+var repo = new Repository<Order>();\nvar orders = repo.FindAll();

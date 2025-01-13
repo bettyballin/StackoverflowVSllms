@@ -1,0 +1,1 @@
+public static void RegisterRoutes(RouteCollection routes)\n{\n    routes.MapRoute(\n        name: "Blog",\n        template: "vd1/blog/{controller}/{action}/{id}",\n        defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }\n    );\n}

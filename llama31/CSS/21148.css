@@ -1,0 +1,1 @@
+table {\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-gap: 10px; /* add 10px spacing between tbody elements */\n}\n\ntbody {\n  grid-column: 1;\n}

@@ -1,0 +1,1 @@
+$dsn = 'sqlite:example.db;encoding=UTF-8';\n$conn = new PDO($dsn);

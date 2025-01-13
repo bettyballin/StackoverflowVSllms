@@ -1,1 +1,0 @@
-public static class AdifVersionConverter {\n    public static AdifWriterV222 ConvertToV222(AdifWriterV1 v1Writer) {\n        // Conversion logic\n        var v222Writer = new AdifWriterV222();\n        // Transfer data from v1Writer to v222Writer\n        return v222Writer;\n    }\n}

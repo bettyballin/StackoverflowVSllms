@@ -1,0 +1,1 @@
+using HtmlAgilityPack;\n\npublic List<string> ExtractImageSources(string htmlString)\n{\n    var doc = new HtmlDocument();\n    doc.LoadHtml(htmlString);\n    var imgNodes = doc.DocumentNode.SelectNodes("//img");\n\n    return imgNodes == null ? new List<string>() : imgNodes.Select(n => n.GetAttributeValue("src", "")).ToList();\n}

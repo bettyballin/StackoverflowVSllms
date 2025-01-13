@@ -1,0 +1,1 @@
+SELECT column1, column2, ..., column10\nFROM your_table\nGROUP BY column1, column2, ..., column10\nHAVING COUNT(*) > 1

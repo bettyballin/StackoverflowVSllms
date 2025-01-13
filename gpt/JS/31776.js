@@ -1,1 +1,0 @@
-function disableValidator() {\n    ValidatorEnable(document.getElementById('<%= RequiredFieldValidator1.ClientID %>'), false);\n    document.getElementById('<%= hfValidationEnabled.ClientID %>').value = 'false';\n}

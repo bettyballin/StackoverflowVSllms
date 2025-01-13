@@ -1,0 +1,1 @@
+@echo off\n\nset process="firefox.exe"\n\ntasklist /nh /fi "imagename eq %process%" | find /i "%process%" > nul\nif %errorlevel%==0 (\n    echo Process is running\n) else (\n    echo Process is not running\n)

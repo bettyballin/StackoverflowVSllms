@@ -1,1 +1,0 @@
-// Avoid this\n   var client = new TcpClient("example.com", 80);

@@ -1,0 +1,1 @@
+oleview -i input.tlb -h output.h

@@ -1,0 +1,1 @@
+$customer = CustomerQuery::create()\n    ->addNumberCompletedOrdersColumn()\n    ->findOne();\necho $customer->getNumberCompletedOrders();

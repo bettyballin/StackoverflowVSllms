@@ -1,1 +1,0 @@
-WITH RecentPrices AS (\n    SELECT\n        ItemName,\n        ItemPrice,\n        ROW_NUMBER() OVER (PARTITION BY ItemName ORDER BY ItemPriceEffectiveDate DESC) AS rn\n    FROM\n        FunTable\n    WHERE\n        ItemPriceEffectiveDate <= GETDATE()\n)\nSELECT\n    ItemName AS ItemDescription,\n    ItemPrice\nFROM\n    RecentPrices\nWHERE\n    rn = 1;

@@ -1,1 +1,0 @@
-static string RemoveDivTags(string input)\n{\n    // Use a regular expression to remove only <div> tags\n    return Regex.Replace(input, "</?div.*?>", string.Empty, RegexOptions.IgnoreCase);\n}

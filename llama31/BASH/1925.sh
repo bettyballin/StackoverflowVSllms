@@ -1,0 +1,1 @@
+pp -o output.exe --dependent input.pl

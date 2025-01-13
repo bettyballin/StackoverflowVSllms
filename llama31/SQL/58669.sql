@@ -1,0 +1,1 @@
+CREATE INDEX idx_column_name ON table_name (column_name) INCLUDE (additional_column1, additional_column2);

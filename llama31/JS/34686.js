@@ -1,0 +1,1 @@
+const controller = new AbortController();\n\nfunction makeRequest() {\n  // Cancel any pending request\n  controller.abort();\n\n  // Make the new request\n  const signal = controller.signal;\n  fetch('/your-url', { signal })\n    .then(response => response.json())\n    .then(data => {\n      // Handle the response data\n    });\n}

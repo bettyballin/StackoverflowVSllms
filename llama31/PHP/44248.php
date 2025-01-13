@@ -1,0 +1,1 @@
+$stmt = $conn->prepare('SELECT Ville FROM tblLstManufacturiers where province = :province');\n$stmt->bindValue(':province', 'Québec');\n$stmt->execute();

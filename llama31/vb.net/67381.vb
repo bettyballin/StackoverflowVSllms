@@ -1,0 +1,1 @@
+Dim number As Integer = 21\nDim ordinal As String = FormatAsOrdinal(number)\nConsole.WriteLine(ordinal)  ' Outputs: 21st

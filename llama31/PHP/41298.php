@@ -1,0 +1,1 @@
+$date = new DateTime();\n$locale = 'en_US';\necho $date->format('m/d/Y'); // outputs: MM/DD/YYYY\n\n$locale = 'fr_FR';\necho $date->format('d/m/Y'); // outputs: DD/MM/YYYY

@@ -1,1 +1,0 @@
-var catProducts = db.Products\n                   .Where(p => p.CategoryID == 1 && p.ID == 1)\n                   .OrderBy(p => p.ID) // Ensure ordering for pagination\n                   .Skip(1)\n                   .Take(1)\n                   .ToList();

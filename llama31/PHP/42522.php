@@ -1,0 +1,1 @@
+class Sample {\n    private $err_no_title = 'Missing title';\n\n    public function createNewRecord($title) {\n        if (!$title) {\n            throw new InvalidArgumentException($this->err_no_title);\n        }\n        // ... rest of the method implementation ...\n    }\n}

@@ -1,1 +1,0 @@
-[ServiceContract]\npublic interface IUserService\n{\n    [OperationContract]\n    UserDTO GetUser(int userId);\n}

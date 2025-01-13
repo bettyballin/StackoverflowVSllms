@@ -1,1 +1,0 @@
-// In the .exe source code\n__declspec(dllexport) BOOL InitInstance() {\n    // Initialization code here\n    return TRUE;\n}

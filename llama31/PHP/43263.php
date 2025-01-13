@@ -1,0 +1,1 @@
+$cronExpression = '1 * * * *';\n$timestamp = 1643723400; // Example timestamp\n$nextExecution = calculateNextCronExecution($cronExpression, $timestamp);\necho $nextExecution;

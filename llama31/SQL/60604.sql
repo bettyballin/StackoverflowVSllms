@@ -1,0 +1,1 @@
+SELECT \n  UserId,\n  STUFF((SELECT ', ' + Alias\n         FROM UserAliases AS ua2\n         WHERE ua2.UserId = ua1.UserId\n         FOR XML PATH('')), 1, 2, '') AS Alias\nFROM \n  UserAliases AS ua1\nGROUP BY \n  ua1.UserId

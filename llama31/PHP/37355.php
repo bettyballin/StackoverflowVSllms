@@ -1,0 +1,1 @@
+Route::get('/users/{id}', 'UserController@show');

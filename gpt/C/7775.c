@@ -1,1 +1,0 @@
-#define STB_IMAGE_IMPLEMENTATION\n     #include "stb_image.h"\n     \n     int width, height, channels;\n     unsigned char *img = stbi_load("input.jpg", &width, &height, &channels, 0);\n     if (img == NULL) {\n         // Handle error\n     }\n     // Use the image data in img\n     stbi_image_free(img);

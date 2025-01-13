@@ -1,1 +1,0 @@
-var connectionString = "your_connection_string_here";\nvar userSearch = new UserSearch(connectionString);\n\nList<string> searchNames = new List<string> { "Filip", "Ekberg" };\nvar results = userSearch.SearchUsers(searchNames);\n\nforeach (var result in results)\n{\n    Console.WriteLine(result);\n}

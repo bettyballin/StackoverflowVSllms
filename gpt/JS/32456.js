@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    var childScrollWidth = $('#child')[0].scrollWidth;\n    console.log("Child element's full width including overflow: " + childScrollWidth + "px");\n});

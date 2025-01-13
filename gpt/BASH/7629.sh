@@ -1,1 +1,0 @@
-vendor/bin/phpcs --standard=PHPCompatibility --runtime-set testVersion 5.0-5.6 /path/to/your/php4/code

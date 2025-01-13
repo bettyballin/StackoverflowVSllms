@@ -1,0 +1,1 @@
+var query2 = MasterCalendarInstance\n    .OrderBy(x => x.Key)\n    .Select((x, i) => new { CalendarId = x.Key, Iter = i });

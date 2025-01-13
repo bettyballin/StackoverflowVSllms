@@ -1,1 +1,0 @@
-#!/usr/bin/php\n<?php\nrequire_once 'facebook.php';\ninclude_once 'lib.php';\ninclude_once 'config.php';\n$facebook = new Facebook($api_key, $secret);\nget_db_conn();\n?>

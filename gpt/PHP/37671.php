@@ -1,1 +1,0 @@
-$doc = new DOMDocument();\n$doc->loadXML($xml);\n\n$xpath = new DOMXPath($doc);\n$query = "normalize-space(//your-element/@media)";\n\n$normalizedValue = $xpath->evaluate($query);\n\necho $normalizedValue;

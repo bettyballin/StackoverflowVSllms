@@ -1,1 +1,0 @@
-CREATE EXTENSION pg_trgm;\n\nSELECT similarity('kitten', 'sitting') AS similarity_score;

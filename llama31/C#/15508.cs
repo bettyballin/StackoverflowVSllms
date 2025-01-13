@@ -1,0 +1,1 @@
+DateTime? closedDate = srRow.Closed_Date as DateTime?;\nif (closedDate.HasValue)\n{\n    // Handle the DateTime value\n    Console.WriteLine(closedDate.Value);\n}\nelse\n{\n    // Handle the null value\n    Console.WriteLine("Closed Date is null");\n}

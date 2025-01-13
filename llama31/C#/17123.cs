@@ -1,0 +1,1 @@
+using Microsoft.Extensions.Caching.Redis;\n\n// Create a Redis cache client\nvar redisCache = new RedisCache(new RedisCacheOptions\n{\n    Configuration = "your-redis-cache-connection-string"\n});\n\n// Store a value in the cache\nawait redisCache.SetStringAsync("key", "value");\n\n// Retrieve a value from the cache\nvar cachedValue = await redisCache.GetStringAsync("key");

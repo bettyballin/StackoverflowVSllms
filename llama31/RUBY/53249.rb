@@ -1,0 +1,1 @@
+<fieldset class="fieldset">\n  <legend>Images</legend>\n  <%= render :partial => 'show_image', :collection => @plant.images %>\n</fieldset>

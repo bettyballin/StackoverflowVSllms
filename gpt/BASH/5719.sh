@@ -1,1 +1,0 @@
-tar -cvzf - AWK awk awk_tip awk_notes | gpg -c -o archive.tar.gz.gpg

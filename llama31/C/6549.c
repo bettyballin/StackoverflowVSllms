@@ -1,0 +1,1 @@
+// Object 2's Code:\nFILE* tempFile = fopen(sharedFileName, "r+");\nint theFile = fileno(tempFile);\n...\nsharedArea = (MyStruct*)mmap(NULL, fileSize,\n    PROT_READ | PROT_WRITE | PROT_EXEC, MAP_SHARED, theFile, 0);

@@ -1,0 +1,1 @@
+#!/bin/bash\nread -p "Enter passphrase: " passphrase\necho "$passphrase"

@@ -1,0 +1,1 @@
+if (!mkdir('/somedir')) {\n    $error = error_get_last();\n    echo "MKDIR failed, reason: " . $error['message'] . "\n";\n}

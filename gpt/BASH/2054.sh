@@ -1,1 +1,0 @@
-gdb ./myprogram\n(gdb) ru

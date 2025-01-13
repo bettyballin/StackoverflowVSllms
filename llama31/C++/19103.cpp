@@ -1,0 +1,1 @@
+HRESULT hr = CoCreateInstance(CLSID_dontnetcontrolClass, NULL, CLSCTX_INPROC_SERVER, IID_IDotNetControl, (void**)&pDotNetControl);\nif (SUCCEEDED(hr))\n{\n    // Use the control...\n    pDotNetControl->setText("Hello, World!");\n}

@@ -1,0 +1,1 @@
+var result = string.Format(new PaddedStringFormatInfo(), "->{0:20:x}<-", "Hello");\nConsole.WriteLine(result); // Output: ->xxxxxxxxxxxxxxxHello<-

@@ -1,1 +1,0 @@
-CREATE OR REPLACE TRIGGER birth_date_check\nBEFORE INSERT OR UPDATE ON your_table\nFOR EACH ROW\nBEGIN\n    IF :NEW.BIRTH_DATE < (SYSDATE - INTERVAL '100' YEAR) OR :NEW.BIRTH_DATE >= SYSDATE + 1 THEN\n        RAISE_APPLICATION_ERROR(-20001, 'BIRTH_DATE must be less than tomorrow and greater than or equal to 100 years ago.');\n    END IF;\nEND;\n/

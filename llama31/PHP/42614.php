@@ -1,0 +1,1 @@
+$friendsResponse = $fb->get('/me/friends?fields=id,name,picture', $accessToken);\n$friends = $friendsResponse->getGraphEdge();\nforeach ($friends as $friend) {\n  echo 'Friend ID: ' . $friend['id'];\n  echo 'Name: ' . $friend['name'];\n  echo 'Profile Picture: ' . $friend['picture']['url'];\n}

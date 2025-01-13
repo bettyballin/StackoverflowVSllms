@@ -1,1 +1,0 @@
-Public Class Player\n    Public Property PlayerID As Integer\n    Public Property CategoryID As Integer\n    Public Property CountryID As Integer\n    Public Property Country As Country\nEnd Class

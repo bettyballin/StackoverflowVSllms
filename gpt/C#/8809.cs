@@ -1,1 +1,0 @@
-string textWithLineBreaks = "First line\r\nSecond line\r\nThird line";\n\n// Writing to output stream\nusing (StreamWriter writer = new StreamWriter(response.OutputStream))\n{\n    writer.Write(textWithLineBreaks);\n}

@@ -1,0 +1,1 @@
+$(document).on('click', function(event) {\n  if (!$(event.target).closest('#comment-box').length) {\n    // show next bullet point or move to next page\n  }\n});

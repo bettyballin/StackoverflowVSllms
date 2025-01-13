@@ -1,0 +1,1 @@
+Private context As SynchronizationContext\n\nPublic Sub New()\n    context = SynchronizationContext.Current\nEnd Sub\n\nPublic Sub EventHandler()\n    context.Post(AddressOf DoEventHandler, Nothing)\nEnd Sub\n\nPrivate Sub DoEventHandler(state As Object)\n    ' Do your event handling code '\nEnd Sub

@@ -1,0 +1,1 @@
+<!-- page.php -->\n<?php include 'header.php'; ?>\n  <!-- page-specific content -->\n<?php include 'footer.php'; ?>

@@ -1,0 +1,1 @@
+RewriteEngine on\nRewriteRule ^(.*)$ /cgi-bin/showenv.py/$1 [L]

@@ -1,1 +1,0 @@
-// application/helpers/my_helper.php\nif (!function_exists('call_admin_login')) {\n    function call_admin_login() {\n        $CI =& get_instance();\n        $CI->load->library('../controllers/admin'); // Load the controller\n\n        // Call the controller method\n        return $CI->admin->login();\n    }\n}

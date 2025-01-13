@@ -1,0 +1,1 @@
+hr = AutoWrap(\n    DISPATCH_METHOD, \n    &result, \n    irange, \n    L"Select", \n    0);\nif (FAILED(hr)) return hr;

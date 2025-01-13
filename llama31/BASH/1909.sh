@@ -1,0 +1,1 @@
+all: your_executable_name\n\nyour_executable_name: your_source_file.c\n    $(CC) $(CFLAGS) -o $@ $<\n\nclean:\n    rm -f your_executable_name

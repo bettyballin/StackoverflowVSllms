@@ -1,0 +1,1 @@
+SELECT DBMS_METADATA.get_ddl('TABLE', 'your_table_name') FROM dual;

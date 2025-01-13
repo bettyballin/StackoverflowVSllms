@@ -1,1 +1,0 @@
-BACKUP DATABASE [YourDatabaseName] \n    TO URL = 'https://yourstorageaccount.blob.core.windows.net/backups/YourDatabaseName.bak'\n    WITH CREDENTIAL = 'yourcredential';

@@ -1,0 +1,1 @@
+public abstract interface IWorkflow;\npublic class Workflow : System.Object;

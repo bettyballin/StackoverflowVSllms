@@ -1,1 +1,0 @@
-regasm /unregister YourAssembly.dll

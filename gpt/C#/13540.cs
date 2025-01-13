@@ -1,1 +1,0 @@
-using System.IO;\n\n   public void WriteBinaryDataToFile(byte[] data, string filePath)\n   {\n       using (FileStream fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write))\n       {\n           fileStream.Write(data, 0, data.Length);\n       }\n   }

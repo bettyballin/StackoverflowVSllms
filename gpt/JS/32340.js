@@ -1,1 +1,0 @@
-console.log('South West:', southWest.toUrlValue());\nconsole.log('North East:', northEast.toUrlValue());

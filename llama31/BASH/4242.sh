@@ -1,0 +1,1 @@
+sudo php -q go-pear.php

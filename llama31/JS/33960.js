@@ -1,0 +1,1 @@
+$.ajax({\n  url: '/node/500/field-want-this-field',\n  dataType: 'json',\n  success: function(response) {\n    var fieldValue = response[0].field_want_this_field;\n    $someplace.append(fieldValue);\n  }\n});

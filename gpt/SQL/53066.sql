@@ -1,1 +1,0 @@
-ALTER TABLE YourTableName\n    ADD changed_at DATETIME;

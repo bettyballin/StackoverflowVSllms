@@ -1,0 +1,1 @@
+$allowed_path = realpath('/path/to/allowed/directory');\n$some_php_document = realpath($_POST["some_value_submitted_via_ajax"]);\n\nif (strpos($some_php_document, $allowed_path) !== 0) {\n    $some_php_document = null;\n}

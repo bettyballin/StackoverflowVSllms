@@ -1,0 +1,1 @@
+// main.c\n#include "myclass_c.h"\n\nint main() {\n    MyClass* obj = myclass_new();\n    myclass_myMethod(obj);\n    myclass_delete(obj);\n    return 0;\n}

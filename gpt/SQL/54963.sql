@@ -1,1 +1,0 @@
-SELECT Tag.Title, COUNT(ItemTag.ItemID) AS TagCount\nFROM Tag\nJOIN ItemTag ON Tag.TagID = ItemTag.TagID\nGROUP BY Tag.TagID, Tag.Title;

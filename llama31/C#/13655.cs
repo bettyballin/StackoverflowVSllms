@@ -1,0 +1,1 @@
+[assembly: InternalsVisibleTo("YourCompany.YourApplication")]

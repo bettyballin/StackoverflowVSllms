@@ -1,0 +1,1 @@
+// Load assembly from GAC\nAssembly gacAssembly = Assembly.Load("Newtonsoft.Json");\n\n// Load assembly from private directory\nAssembly privateAssembly = Assembly.LoadFrom("path/to/Newtonsoft.Json.dll");

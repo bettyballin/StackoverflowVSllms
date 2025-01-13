@@ -1,0 +1,1 @@
+// 32bit.dll (32-bit)\n#include <Windows.h>\n\n// Define the entry point\nextern "C" __declspec(dllexport) void EntryPoint() {\n    // Your 32-bit code here\n}

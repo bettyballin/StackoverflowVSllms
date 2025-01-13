@@ -1,0 +1,1 @@
+using Castle.Windsor;\nusing Castle.Security;\n\n// Example configuration\npublic class SecurityConfig : IWindsorInstaller\n{\n    public void Install(IWindsorContainer container, IConfigurationStore store)\n    {\n        container.AddFacility<SecurityFacility>();\n        container.Register(Component.For<ISecurityService>().ImplementedBy<MySecurityService>());\n    }\n}

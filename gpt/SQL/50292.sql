@@ -1,1 +1,0 @@
-BACKUP DATABASE [YourDatabaseName] \nTO DISK = '\\NetworkShare\BackupFolder\YourDatabaseName.bak' \nWITH INIT, NAME = 'Full Backup of YourDatabaseName';

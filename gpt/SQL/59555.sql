@@ -1,1 +1,0 @@
-SELECT email FROM tClient WHERE timezoneID IN (1, 4, 9);

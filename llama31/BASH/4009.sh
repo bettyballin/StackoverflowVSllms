@@ -1,0 +1,1 @@
+$ gdb -q\n(gdb) file your_assembly_code.o\n(gdb) break main\n(gdb) run\n(gdb) info registers\n(gdb) disassemble\n(gdb) stepi

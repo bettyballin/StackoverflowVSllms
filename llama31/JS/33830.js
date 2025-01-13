@@ -1,0 +1,1 @@
+$(document).ready(function() {\n  // Show all children of the selected item\n  $('#menu li.selected ul').show();\n});

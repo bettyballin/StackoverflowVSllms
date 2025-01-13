@@ -1,0 +1,1 @@
+$('#obal form').submit(function() {\n    var errorCount = 0;\n    $('.required').each(function() {\n        if ($(this).val() === "") {\n            errorCount++;\n        }\n    });\n\n    if (errorCount > 0) {\n        alert('You didn\'t pass');\n        return false;\n    } else {\n        return true;\n    }\n});

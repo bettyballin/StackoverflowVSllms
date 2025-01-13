@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint main() {\n    uint16_t a16 = 0xFFFF;\n    uint16_t b16 = 1;\n    uint32_t a32 = 0xFFFFFFFF;\n    uint32_t b32 = 1;\n\n    uint16_t result16 = sat_add16(a16, b16);\n    uint32_t result32 = sat_add32(a32, b32);\n\n    printf("16-bit Saturating Addition: 0x%X\n", result16);\n    printf("32-bit Saturating Addition: 0x%X\n", result32);\n\n    return 0;\n}

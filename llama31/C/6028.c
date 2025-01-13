@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <unistd.h>\n\nint main() {\n    pid_t pid = 1234;\n    char path[1024];\n    ssize_t len = readlink(("/proc/%d/exe", pid), path, sizeof(path) - 1);\n    if (len != -1) {\n        path[len] = '\0';\n        printf("%s\n", path);\n    }\n    return 0;\n}

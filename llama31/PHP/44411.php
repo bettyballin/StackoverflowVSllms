@@ -1,0 +1,1 @@
+if (isset($_GET['action']) && $_GET['action'] != 'reply') {\n    // ...\n}

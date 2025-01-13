@@ -1,0 +1,1 @@
+find /directory/to/archive -path './folder' -prune -o -print | tar -zcvf archive.tar.gz -T -

@@ -1,1 +1,0 @@
-catch (Exception ex)\n{\n    // Log the exception message\n    Console.WriteLine(ex.Message);\n}

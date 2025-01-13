@@ -1,0 +1,1 @@
+#Create a submission file\nsubmission = pd.DataFrame({'id': data_test['id'], 'label': y_test_pred})

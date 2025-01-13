@@ -1,1 +1,0 @@
-'name' => array(\n    'validFormat' => array(\n        'rule' => array('custom', '/^[A-Za-z]+ [A-Za-z]+$/'),\n        'message' => 'Name must contain only letters and a single space between the first and last name.'\n    )\n),

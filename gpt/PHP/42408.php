@@ -1,1 +1,0 @@
-case 'resetpass' :\n   case 'rp' :\n       $errors = reset_password($_GET['key']);\n\n       if (!is_wp_error($errors)) {\n           wp_redirect('wp-login.php?checkemail=newpass');\n           exit();\n       }\n\n       wp_redirect('wp-login.php?action=lostpassword&error=invalidkey');\n       exit();\n\n   break;

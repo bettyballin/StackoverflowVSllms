@@ -1,0 +1,1 @@
+<!-- Source page -->\n<form action="targetPage.aspx" method="post">\n    <input type="hidden" name="type" value="3" />\n    <!-- other fields -->\n</form>\n\n// Target page\nstring type = Request.Form["type"];

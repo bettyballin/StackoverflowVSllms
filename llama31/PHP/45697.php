@@ -1,0 +1,1 @@
+$url = 'https://example.com';\n\n$ch = curl_init($url);\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\ncurl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3');\n\n$response = curl_exec($ch);\ncurl_close($ch);\n\n$pageContent = $response;

@@ -1,1 +1,0 @@
-public class VisibilityContext\n{\n    private IVisibilityStrategy _strategy;\n\n    public void SetStrategy(IVisibilityStrategy strategy)\n    {\n        _strategy = strategy;\n    }\n\n    public void ApplyVisibility(Control a, Control b, Control c, Control d, Control e)\n    {\n        _strategy?.ApplyVisibility(a, b, c, d, e);\n    }\n}

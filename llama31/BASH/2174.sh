@@ -1,0 +1,1 @@
+# HTTP\ncurl -o /dev/null -s -w "%{time_total}" http://example.com\n\n# HTTPS\ncurl -o /dev/null -s -w "%{time_total}" https://example.com

@@ -1,1 +1,0 @@
-MyWebServiceSoapClient client = new MyWebServiceSoapClient();\nclient.Endpoint.Address = new EndpointAddress("https://your-secure-service-url");

@@ -1,0 +1,1 @@
+// mysharedlib.h\nextern "C" {\n    __declspec(dllexport) int add(int a, int b);\n}\n\n// mysharedlib.cpp\n#include "mysharedlib.h"\n\nint add(int a, int b) {\n    return a + b;\n}

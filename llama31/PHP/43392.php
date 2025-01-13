@@ -1,0 +1,1 @@
+<?= $this->Form->button('Register', ['name' => 'submit', 'value' => 'register', 'formaction' => '/users/register']) ?>\n<?= $this->Form->button('Login', ['name' => 'submit', 'value' => 'login', 'formaction' => '/users/login']) ?>

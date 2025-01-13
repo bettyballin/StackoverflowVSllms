@@ -1,1 +1,0 @@
--- Define the variable\nSET @myVar = 10;\n\n-- Use the variable in a query\nSELECT @myVar;\n\n-- Modify the variable\nSET @myVar = @myVar + 5;\n\n-- Use the modified variable in another query\nSELECT @myVar;

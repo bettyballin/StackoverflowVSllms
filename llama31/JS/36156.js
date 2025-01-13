@@ -1,0 +1,1 @@
+.replace(/(http:\/\/[^\s]+)\s+([^\s]+)(\.(jpe?g|png|gif))/ig, '$1$2'.replace(/\s+/g, '%20') + '$3')

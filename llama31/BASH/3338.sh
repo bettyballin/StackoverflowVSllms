@@ -1,0 +1,1 @@
+mprof run python my_script.py\nmprof plot

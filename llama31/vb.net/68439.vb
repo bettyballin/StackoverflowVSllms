@@ -1,0 +1,1 @@
+Dim result As DialogResult = CustomMessageBox.Show("Are you sure?", "Confirm", "Yes, I'm sure", "No, cancel")\nIf result = DialogResult.Yes Then\n    ' Yes button was clicked\nElseIf result = DialogResult.No Then\n    ' No button was clicked\nEnd If

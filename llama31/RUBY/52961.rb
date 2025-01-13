@@ -1,0 +1,1 @@
+MyScriptJob.perform_now

@@ -1,1 +1,0 @@
--- Replace 'original_table' with the name of the table you want to copy\n-- Replace 'copied_table' with the name of the new table\nSELECT TOP 0 *\nINTO copied_table\nFROM original_table;

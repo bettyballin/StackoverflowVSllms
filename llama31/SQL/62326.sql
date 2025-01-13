@@ -1,0 +1,1 @@
+SELECT * FROM people WHERE (<condition A>)\nMINUS\nSELECT * FROM people WHERE (<condition A>) AND (<condition B>);

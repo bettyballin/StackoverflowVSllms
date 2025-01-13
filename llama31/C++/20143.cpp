@@ -1,0 +1,1 @@
+class Component {\npublic:\n    // ...\n    Vector2D getRotatedPosition() const {\n        Vector2D rotatedPosition;\n        // calculate rotated position...\n        return rotatedPosition;\n    }\n    // ...\n};

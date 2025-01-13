@@ -1,1 +1,0 @@
--- Script: <script_name>\n    -- Description: <description>\n    -- Author: <author>\n    -- Date: <date>\n    \n    BEGIN\n        -- Your SQL statements here\n\n    EXCEPTION\n        WHEN OTHERS THEN\n            ROLLBACK;\n            RAISE;\n    END;\n    /

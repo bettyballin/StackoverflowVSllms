@@ -1,1 +1,0 @@
-<?php\nsession_start();\nif (/* login successful */) {\n    $token = bin2hex(random_bytes(16)); // Generate a secure token\n    $_SESSION['token'] = $token;\n    // Redirect or load the page with the ASX file link\n}\n?>

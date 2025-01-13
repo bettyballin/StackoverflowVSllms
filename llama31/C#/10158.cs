@@ -1,0 +1,1 @@
+Product product = new Product { Name = "My Product", Description = "This is a product" };\nstring template = File.ReadAllText("ProductTemplate.cshtml");\nstring html = RazorEngine.Render(template, product);

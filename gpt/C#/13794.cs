@@ -1,1 +1,0 @@
-double defectDensity = (double) totalDefects / KLOC;

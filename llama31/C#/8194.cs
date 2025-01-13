@@ -1,0 +1,1 @@
+B b1, b2;\nC c1, c2;\n\nCompareVisitor comparator;\nint result1 = comparator.Compare(b1, b2);\nint result2 = comparator.Compare(c1, c2);

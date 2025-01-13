@@ -1,1 +1,0 @@
-$_SESSION['csrf_token'] = bin2hex(random_bytes(32));\n   echo '<input type="hidden" name="csrf_token" value="'.$_SESSION['csrf_token'].'">';

@@ -1,1 +1,0 @@
-using System.Runtime.CompilerServices;\n\n   public class Example\n   {\n       [MethodImpl(MethodImplOptions.NoInlining)]\n       public void NotInlinedMethod()\n       {\n           // Method implementation\n       }\n   }

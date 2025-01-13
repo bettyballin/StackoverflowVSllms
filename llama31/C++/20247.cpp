@@ -1,0 +1,1 @@
+amespace Utilities {\n    class MyClass { // your class declaration\n        // ...\n    }; // <--- Make sure to close the class definition with a semicolon\n\n    template <typename T> \n    inline GLfloat NormalizeHorizontally(T x) {\n        // ...\n    }\n}

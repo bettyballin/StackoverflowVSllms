@@ -1,1 +1,0 @@
-# Cleanup old backup files\n   find /var/backups/ -type f -mtime +7 -exec rm {} \;

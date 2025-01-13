@@ -1,0 +1,1 @@
+// ...\n\naxFlash.Dispose();\naxFlash = new AxShockwaveFlashObject();

@@ -1,0 +1,1 @@
+mysqldump -h <host> -u <username> -p<password> --single-transaction --quick --lock-tables=false <database_name> | gzip | mysql -h <host> -u <username> -p<password> <database_name>

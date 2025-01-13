@@ -1,0 +1,1 @@
+class MyClass;\n\nclass AnotherClass {\npublic:\n    void doSomething(MyClass* obj);\n};

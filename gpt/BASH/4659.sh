@@ -1,1 +1,0 @@
-echo "<UID>" | sudo tee /sys/fs/cgroup/net_cls/mygroup/tasks

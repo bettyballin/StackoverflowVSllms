@@ -1,0 +1,1 @@
+cd $(ProjectDir)\nperl your_script.pl

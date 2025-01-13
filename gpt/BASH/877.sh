@@ -1,1 +1,0 @@
-uname -a   # To get the UNIX system version\ngcc --version   # To get the GCC versio

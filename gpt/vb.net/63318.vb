@@ -1,1 +1,0 @@
-Private Sub CJ5Form_PTOperatorAcknowlegement_Disposed(sender As Object, e As EventArgs) Handles Me.Disposed\n    If m_imgLiftingEye.Image IsNot Nothing Then\n        m_imgLiftingEye.Image.Dispose()\n        m_imgLiftingEye.Image = Nothing\n    End If\nEnd Sub

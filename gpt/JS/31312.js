@@ -1,1 +1,0 @@
-<script type="text/javascript">\n    function validateDateTime(source, args) {\n        // Regular expression for date and time validation (MM/DD/YYYY HH:MM format)\n        var regex = /^(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])\/(19|20)\d\d (0[0-9]|1[0-9]|2[0-3]):([0-5][0-9])$/;\n        args.IsValid = regex.test(args.Value);\n    }\n</script>

@@ -1,1 +1,0 @@
-sudo -i\nexport ORACLE_SID=your_database_sid\nsu - oracle\nsqlplus / as sysdba

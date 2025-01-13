@@ -1,1 +1,0 @@
-<?php\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\n    $data = $_POST['data'];\n    echo "Received data: " . htmlspecialchars($data);\n}\n?>

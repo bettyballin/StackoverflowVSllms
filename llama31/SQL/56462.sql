@@ -1,0 +1,1 @@
+CREATE TABLE #id_list (id INT);\n\n-- populate #id_list with the IDs to delete\nINSERT INTO #id_list (id) VALUES (123), (345), ...;\n\nDELETE t\nFROM OUR_TABLE t\nINNER JOIN #id_list i ON t.ID = i.id;\n\nDROP TABLE #id_list;

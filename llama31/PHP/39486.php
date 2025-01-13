@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare("SELECT COUNT(*) AS total FROM table");\n$stmt->execute();\n$row = $stmt->fetch(PDO::FETCH_ASSOC);\n$total = $row['total'];

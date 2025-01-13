@@ -1,0 +1,1 @@
+// MFC app's data structure\nstruct MyData {\n    // ...\n};\n\n// Exported function to write data structure to XML string\nextern "C" __declspec(dllexport) void GetXmlData(LPSTR* xmlData) {\n    // Create XML string from MyData instance\n    MyData data;\n    // ...\n    CString xml;\n    // ...\n    *xmlData = xml.GetBuffer(xml.GetLength());\n}

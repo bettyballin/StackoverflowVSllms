@@ -1,1 +1,0 @@
-using System;\n\nnamespace YourNamespace.UserControls\n{\n    public partial class AddMovie : System.Web.UI.UserControl\n    {\n        protected void btnSave_Click(object sender, EventArgs e)\n        {\n            string title = txtTitle.Text;\n            string director = txtDirector.Text;\n            // Save logic here\n        }\n    }\n}

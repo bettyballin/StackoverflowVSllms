@@ -1,0 +1,1 @@
+document.cookie = 'session_id=1234567890; Secure; HttpOnly';

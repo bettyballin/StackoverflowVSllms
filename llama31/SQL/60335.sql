@@ -1,0 +1,1 @@
+SELECT \n  CASE \n    WHEN DATEPART(dw, [Date]) BETWEEN 2 AND 5 \n      THEN DATEADD(day, 1, [Date]) \n    WHEN DATEPART(dw, [Date]) = 6 \n      THEN DATEADD(day, 3, [Date]) \n    ELSE [Date] \n  END AS AdjustedDate\nFROM \n  myTable

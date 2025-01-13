@@ -1,0 +1,1 @@
+fc /b file1.txt file2.txt > nul\nif %errorlevel%==0 goto files_match\ngoto files_do_not_match\n\n:files_match\necho The files match\ngoto end\n\n:files_do_not_match\necho The files do not match\ngoto end\n\n:end

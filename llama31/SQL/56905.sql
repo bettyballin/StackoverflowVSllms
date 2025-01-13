@@ -1,0 +1,1 @@
+ANALYZE TABLE table;\nCHECK TABLE table;

@@ -1,0 +1,1 @@
+semodule -i myapp.pp

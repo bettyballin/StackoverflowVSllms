@@ -1,0 +1,1 @@
+<?php\n  if ($status == 'closed' && is_logged_in()) {\n    // display HTML element\n  }\n?>

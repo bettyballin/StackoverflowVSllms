@@ -1,0 +1,1 @@
+$.ajax({\n  url: "yourfile.asp",\n  success: function(data) {\n    $("#asp-content").html(data);\n  }\n});

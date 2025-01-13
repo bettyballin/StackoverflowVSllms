@@ -1,0 +1,1 @@
+chmod -R 755 /home/taalhulp/domains/taalhulpmanager.nl/public_html/files

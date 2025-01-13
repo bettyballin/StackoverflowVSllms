@@ -1,1 +1,0 @@
-from sklearn.feature_extraction.text import TfidfVectorizer\n    from sklearn.cluster import KMeans\n\n    documents = ["news article 1 text", "news article 2 text", ...]\n    vectorizer = TfidfVectorizer(stop_words='english')\n    X = vectorizer.fit_transform(documents)\n\n    kmeans = KMeans(n_clusters=5, random_state=0).fit(X)\n    labels = kmeans.labels_

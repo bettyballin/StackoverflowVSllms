@@ -1,1 +1,0 @@
-LOAD DATA INFILE '/path/to/your/flatfile.csv'\nINTO TABLE temp_data\nFIELDS TERMINATED BY ',' \nENCLOSED BY '"'\nLINES TERMINATED BY '\n'\nIGNORE 1 ROWS;

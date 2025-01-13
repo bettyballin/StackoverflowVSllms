@@ -1,1 +1,0 @@
-sudo apt-get install git   # For Debian/Ubuntu\n   sudo yum install git       # For CentOS/RHEL

@@ -1,1 +1,0 @@
-<?php\n// Start the session\nsession_start();\n\n// Modify session variables\n$_SESSION['key'] = 'value';\n\n// Optionally, pass the session ID to the backend\n$session_id = session_id();\n?>\n<a href="backend.php?PHPSESSID=<?php echo $session_id; ?>">Go to Backend</a>

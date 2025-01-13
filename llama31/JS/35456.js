@@ -1,0 +1,1 @@
+// Update the page content using an AJAX call\n$('#menu a').on('click', function(e) {\n  e.preventDefault();\n  var page = $(this).attr('href').split('=').pop();\n  $.ajax({\n    type: 'GET',\n    url: 'update.php',\n    data: { page: page },\n    success: function(data) {\n      $('#main').html(data);\n    }\n  });\n});

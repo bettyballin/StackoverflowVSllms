@@ -1,0 +1,1 @@
+$entityParser = new HTMLPurifier_EntityParser();\n$html = $entityParser->parseEntities($html, ENT_NOQUOTES);\n\n$purifier = new HTMLPurifier();\n$cleanHtml = $purifier->purify($html);

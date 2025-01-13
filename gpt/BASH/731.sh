@@ -1,1 +1,0 @@
-find . \! -path '*.svn*' -type f -name '*.html' -exec sed -i -E 's/<(img|input)([^>]*[^\/])?>/<\1\2 \/>/g' {} \;

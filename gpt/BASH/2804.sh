@@ -1,1 +1,0 @@
-mklink /J C:\inetpub\wwwroot\ProjectName C:\WorkingCopy\ProjectName\Web

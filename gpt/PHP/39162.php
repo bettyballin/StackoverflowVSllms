@@ -1,1 +1,0 @@
-class YourSoapServiceClass {\n    public function yourSoapMethod($request) {\n        // Your method implementation\n    }\n}

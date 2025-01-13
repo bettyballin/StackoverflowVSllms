@@ -1,0 +1,1 @@
+success: function(response) {\n  var data = JSON.parse(response);\n  console.log(data.message); // outputs "Hello, client!"\n}

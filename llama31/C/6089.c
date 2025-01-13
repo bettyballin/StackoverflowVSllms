@@ -1,0 +1,1 @@
+register int foo asm("eax");

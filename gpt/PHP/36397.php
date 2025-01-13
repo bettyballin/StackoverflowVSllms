@@ -1,1 +1,0 @@
-// Assume Object is your model class\n$object = new Object();\n$object->setName('Foo Bar');\n\n// Create a DTO or ViewModel\n$viewModel = new ViewModel();\n$viewModel->setVariable('objectName', $object->getName());\n\n// Pass the ViewModel to the view\nreturn $viewModel;

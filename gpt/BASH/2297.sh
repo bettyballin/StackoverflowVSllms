@@ -1,1 +1,0 @@
-# Add to /etc/sysctl.conf\nnet.core.somaxconn = 1024\nnet.ipv4.tcp_tw_reuse = 1\nnet.ipv4.tcp_tw_recycle = 1\nnet.ipv4.ip_local_port_range = 1024 65535\n\n# Apply changes\nsysctl -p\n\n# Increase file descriptors limit\nulimit -n 65535

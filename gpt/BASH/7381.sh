@@ -1,1 +1,0 @@
-sudo apt install mysql-server\n   sudo mysql_secure_installatio

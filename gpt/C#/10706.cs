@@ -1,1 +1,0 @@
-protected void Application_End(Object sender, EventArgs e)\n{\n    foreach (var key in HttpContext.Current.Session.Keys)\n    {\n        var sessionObject = HttpContext.Current.Session[key] as IDisposable;\n        sessionObject?.Dispose();\n    }\n}

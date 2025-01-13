@@ -1,0 +1,1 @@
+$xml_string = '\n<profile>\n   <name>john</name>\n   <lang>english</lang>\n   <lang>dutch</lang>\n</profile>\n';\n\n$xml = simplexml_load_string($xml_string);\n\n// Accessing the 'lang' elements as an array\n$languages = $xml->lang;\n\nforeach ($languages as $lang) {\n    echo $lang . "\n";\n}

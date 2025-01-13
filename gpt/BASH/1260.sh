@@ -1,1 +1,0 @@
-sqlplus username/password@//1.2.3.4:1521/MY.URL.COM

@@ -1,0 +1,1 @@
+2[myArray] == *(2 + myArray) == *(myArray + 2) == myArray[2]

@@ -1,1 +1,0 @@
-// function declaration with extern (explicit)\nextern int f();\nint f() { return 0; }\n\n// function declaration without extern (implicit)\nint g();\nint g() { return 1; }

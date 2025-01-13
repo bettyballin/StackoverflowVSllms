@@ -1,1 +1,0 @@
-<?php\n// Create a new PDO instance\ntry {\n    $pdo = new PDO('mysql:host=your_host;dbname=your_db', 'username', 'password');\n    // Use the connection here\n    // ...\n\n} catch (PDOException $e) {\n    echo 'Connection failed: ' . $e->getMessage();\n} finally {\n    // Close the connection\n    $pdo = null;\n}\n?>

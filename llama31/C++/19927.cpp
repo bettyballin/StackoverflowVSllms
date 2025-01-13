@@ -1,0 +1,1 @@
+template<typename T>\nclass Foo\n{\n    template<typename U> // use a different name to avoid shadowing\n    void Bar(const U& bar)\n    {\n        // ...\n    }\n};

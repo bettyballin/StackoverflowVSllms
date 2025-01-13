@@ -1,1 +1,0 @@
-RewriteEngine On\nRewriteCond %{REQUEST_URI} ^/index\.html$ [NC]\nRewriteCond %{QUERY_STRING} (.*)\nRewriteRule ^ /?%1 [L,R=301]

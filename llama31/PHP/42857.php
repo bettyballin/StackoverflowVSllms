@@ -1,0 +1,1 @@
+// Example of linking a test case to a Bugzilla bug report in TestLink\n$testCase->setBugzillaId($bugzillaId);\n$testLink->updateTestCase($testCase);

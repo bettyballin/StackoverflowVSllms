@@ -1,0 +1,1 @@
+public partial class MyPage : Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        // This code will run on every request, including AJAX requests\n    }\n\n    protected void MyButton_Click(object sender, EventArgs e)\n    {\n        // This code will only run when the MyButton control is clicked\n    }\n}

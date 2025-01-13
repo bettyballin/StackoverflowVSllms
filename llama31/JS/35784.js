@@ -1,0 +1,1 @@
+// load the template\n$.get('template.html', function(template) {\n  // use the template\n  var $template = $(template);\n  // ...\n});

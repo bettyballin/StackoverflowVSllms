@@ -1,0 +1,1 @@
+SET LOCK_TIMEOUT 5000;  -- 5-second timeout

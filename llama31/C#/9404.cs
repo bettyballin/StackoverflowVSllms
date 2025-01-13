@@ -1,0 +1,1 @@
+using NHibernate.Type;\n\npublic class OracleBoolConverter : ITypeConverter\n{\n    public object Convert(object value)\n    {\n        if (value is string)\n        {\n            return (string)value == "Y";\n        }\n        return value;\n    }\n}

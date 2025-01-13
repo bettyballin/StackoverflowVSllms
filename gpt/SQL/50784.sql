@@ -1,1 +1,0 @@
-SELECT\n    SID,\n    SERIAL#,\n    USERNAME,\n    STATUS,\n    SCHEMANAME,\n    MACHINE,\n    PROGRAM\nFROM\n    V$SESSION\nWHERE\n    STATUS = 'ACTIVE';

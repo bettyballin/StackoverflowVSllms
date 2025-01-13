@@ -1,0 +1,1 @@
+SELECT c.CourseId, d.DayName\nFROM Course c\nJOIN CourseDays cd ON c.CourseId = cd.CourseId\nJOIN DaysOfWeek d ON cd.DayId = d.DayId\nWHERE c.CourseId = <your_course_id>;

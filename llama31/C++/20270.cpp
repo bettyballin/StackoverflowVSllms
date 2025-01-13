@@ -1,0 +1,1 @@
+// mydll.h\ntemplate <typename T>\nclass MyClass\n{\npublic:\n    T add(T a, T b) { return a + b; }\n};\n\nextern "C" __declspec(dllexport) int addInt(int a, int b)\n{\n    MyClass<int> myClass;\n    return myClass.add(a, b);\n}

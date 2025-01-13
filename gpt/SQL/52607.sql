@@ -1,1 +1,0 @@
--- Step 1: Find the foreign key constraint name\nSHOW CREATE TABLE assignment;\n\n-- Step 2: Drop the foreign key constraint (replace 'locationIDX' with your actual constraint name)\nALTER TABLE assignment DROP FOREIGN KEY locationIDX;\n\n-- Step 3: Drop the column (if needed)\nALTER TABLE assignment DROP COLUMN locationID;

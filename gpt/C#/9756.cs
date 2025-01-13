@@ -1,1 +1,0 @@
-[DllImport("shared.dll", EntryPoint = "_getVtableInfo_f_get_hello_world@12", CharSet = CharSet.Ansi, CallingConvention = CallingConvention.StdCall)]

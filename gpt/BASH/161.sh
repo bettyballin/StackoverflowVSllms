@@ -1,1 +1,0 @@
-ssh -M -S my-ctrl-socket -fnNT user@host

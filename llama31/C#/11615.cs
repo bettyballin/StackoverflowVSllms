@@ -1,0 +1,1 @@
+bundles.Add(new ScriptBundle("~/bundles/jqueryajax").Include(\n            "~/Scripts/jquery.unobtrusive-ajax.js"));

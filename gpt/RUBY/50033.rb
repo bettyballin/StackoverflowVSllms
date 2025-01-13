@@ -1,1 +1,0 @@
-require 'bcrypt'\n\n# Hashing a password\npassword = "user_password"\nhashed_password = BCrypt::Password.create(password)\n\n# Store 'hashed_password' in your database

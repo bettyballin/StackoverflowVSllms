@@ -1,0 +1,1 @@
+select * from TestFeature1 where RTRIM(id)='1';

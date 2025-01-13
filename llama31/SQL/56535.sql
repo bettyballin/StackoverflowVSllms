@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nORDER BY \n  CASE \n    WHEN id IN ( special_id_1, special_id_2, ... ) THEN 0\n    ELSE 1\n  END,\n  name ASC;

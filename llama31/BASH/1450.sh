@@ -1,0 +1,1 @@
+# Add latency and bandwidth limitation using tc\ntc qdisc add dev eth0 root netem delay 100ms rate 1gbit\n\n# Run your Git command\ngit clone -q git://git.example.com/repo.git\n\n# Remove the tc rule\ntc qdisc del dev eth0 root

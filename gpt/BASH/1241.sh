@@ -1,1 +1,0 @@
-// Example of enabling Views Cache module\n   drush en views_cache -y

@@ -1,0 +1,1 @@
+string username = HttpContext.Current.Request.LogonUserIdentity.Name;\n// log the username

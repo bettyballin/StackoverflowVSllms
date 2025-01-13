@@ -1,0 +1,1 @@
+xhr.onload = function() {\n    if (xhr.status === 200) {\n        document.getElementById('content').innerHTML = xhr.responseText;\n    }\n};

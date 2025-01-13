@@ -1,1 +1,0 @@
-def example_method(options = {})\n  puts options.inspect\nend\n\nexample_method :port => 80\n# Output: {:port=>80}\n\nexample_method(:port => 80)\n# Output: {:port=>80}

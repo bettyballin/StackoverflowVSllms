@@ -1,0 +1,1 @@
+using DotNetNuke.Security.Membership;\n\npublic class CustomLoginModule : LoginModule\n{\n    protected override void OnLoginButtonClicked(object sender, EventArgs e)\n    {\n        // Add custom login logic here\n        base.OnLoginButtonClicked(sender, e);\n    }\n}

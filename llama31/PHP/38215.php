@@ -1,0 +1,1 @@
+$html = '<p>Hello <span>World</span>!</p>';\n$crawler = new \Symfony\Component\DomCrawler\Crawler();\n$crawler->addHtmlContent($html);\n$nodes = $crawler->filter('//*');\nforeach ($nodes as $node) {\n    echo $node->nodeName . "\n";\n}

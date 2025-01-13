@@ -1,1 +1,0 @@
-all: myprogram\n\n  myprogram: myprogram.o\n      gcc -o myprogram myprogram.o\n\n  myprogram.o: myprogram.c\n      gcc -c myprogram.c

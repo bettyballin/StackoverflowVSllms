@@ -1,0 +1,1 @@
+function extractBeforeForbidden($str, $forbiddenChars) {\n    $pattern = implode('|', array_map('preg_quote', $forbiddenChars));\n    preg_match('/^[^' . $pattern . ']*/', $str, $match);\n    return $match[0];\n}\n\n$chars = array("a", "b", "c");\n$str = 'log dog hat bat';\necho extractBeforeForbidden($str, $chars);

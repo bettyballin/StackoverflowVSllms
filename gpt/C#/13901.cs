@@ -1,1 +1,0 @@
-[ServiceContract]\npublic interface IMyService\n{\n    [OperationContract]\n    string GetData(int value);\n}

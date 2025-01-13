@@ -1,0 +1,1 @@
+$x = gmp_mul(62574, 62574);\nvar_dump(gmp_strval($x));          // string(10) "3915505476"\nvar_dump(gmp_mod($x, 104659)); // int(59534)

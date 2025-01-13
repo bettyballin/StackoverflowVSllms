@@ -1,0 +1,1 @@
+protected void btnSubmit_Click(object sender, EventArgs e)\n{\n    if (Page.IsValid)\n    {\n        // Page is valid, proceed with postback\n    }\n    else\n    {\n        // Page is not valid, do not proceed with postback\n    }\n}

@@ -1,1 +1,0 @@
-public async Task<IActionResult> CallRemotingServiceAsync()\n{\n    var remotingService = (RemotingService)Activator.GetObject(\n        typeof(RemotingService),\n        "tcp://localhost:8080/RemotingService");\n\n    // Call the async method and await the result\n    string result = await remotingService.LongRunningOperationAsync();\n\n    return Content(result);\n}

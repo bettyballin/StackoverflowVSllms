@@ -1,1 +1,0 @@
-GRANT SELECT ON [dbo].[tblFoo] TO [public];

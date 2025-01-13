@@ -1,0 +1,1 @@
+protected override void OnLoad(EventArgs e)\n{\n    base.OnLoad(e);\n\n    if (Required)\n    {\n        Page.Validators.Add(_validator);\n    }\n}

@@ -1,0 +1,1 @@
+from gensim.models import Word2Vec\n\ndef word2vec_similarity(s1, s2):\n    model = Word2Vec([s1.split(), s2.split()], size=100, window=5, min_count=1)\n    v1 = model.wv[s1]\n    v2 = model.wv[s2]\n    return v1.dot(v2) / (v1.norm() * v2.norm())

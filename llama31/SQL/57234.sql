@@ -1,0 +1,1 @@
+SELECT * FROM orders\nWHERE order_date >= DATEADD(day, -7, GETDATE())\nORDER BY order_date DESC;

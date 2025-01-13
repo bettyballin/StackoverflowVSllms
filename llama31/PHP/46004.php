@@ -1,0 +1,1 @@
+require_once __DIR__ . '/vendor/autoload.php';\n\nuse Mpdf\Mpdf;\n\n$mpdf = new Mpdf();\n$mpdf->WriteHTML(file_get_contents('input.docx'));\n$mpdf->Output('output.pdf', 'D');

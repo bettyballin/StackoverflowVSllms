@@ -1,0 +1,1 @@
+Settings.DialogWatcher = new FailOnUnhandledDialogWatcher();

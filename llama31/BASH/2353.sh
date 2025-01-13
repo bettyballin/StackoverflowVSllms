@@ -1,0 +1,1 @@
+# Compile with standard GCC (may use parallelization)\ngcc -O2 -o benchmark benchmark.c\n\n# Compile with gcc-serial (forces serial code generation)\ngcc-serial -O2 -o benchmark benchmark.c

@@ -1,0 +1,1 @@
+if (Session["KeyName"] != null)\n{\n    string value = (string)Session["KeyName"];\n    // Use the value\n}

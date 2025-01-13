@@ -1,0 +1,1 @@
+$type = 2;\n$extensions = [\n    1 => 'gif',\n    2 => 'jpg',\n    3 => 'png',\n];\n\n$type = $extensions[$type] ?? 'jpg'; // 'jpg' is the default value

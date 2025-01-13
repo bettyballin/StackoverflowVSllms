@@ -1,1 +1,0 @@
-qcachegrind callgrind.out.<pid>

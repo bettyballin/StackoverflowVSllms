@@ -1,0 +1,1 @@
+SELECT Name\nFROM A\nORDER BY \n  CASE \n    WHEN Name LIKE 'KL%' THEN CAST(REPLACE(Name, 'KL', '') AS INT)\n    ELSE 0\n  END,\n  Name

@@ -1,1 +1,0 @@
-from myapp.models import Comment\n\ncomments_with_avatars = Comment.objects.select_related('user').values('user_id', 'user__image_path', 'comment')\n\nfor item in comments_with_avatars:\n    print(item['user_id'], item['user__image_path'], item['comment'])

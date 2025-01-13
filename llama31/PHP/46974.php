@@ -1,0 +1,1 @@
+$randomBytes = openssl_random_pseudo_bytes(4);\n$randomNumber = unpack('N', $randomBytes)[1] % 101;

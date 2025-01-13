@@ -1,1 +1,0 @@
-var dbFile = File.applicationStorageDirectory.resolvePath("mydatabase.db");\nvar conn = new air.SQLConnection();\nconn.open(dbFile);\n\nvar createStmt = new air.SQLStatement();\ncreateStmt.sqlConnection = conn;\ncreateStmt.text = "CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, email TEXT)";\ncreateStmt.execute();

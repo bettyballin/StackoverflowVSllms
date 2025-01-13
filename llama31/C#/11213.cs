@@ -1,0 +1,1 @@
+var impersonationContext = currentWindowsIdentity.Impersonate(SecurityDelegation);

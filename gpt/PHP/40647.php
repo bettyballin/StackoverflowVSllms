@@ -1,1 +1,0 @@
-function remove_img_dimensions($string) {\n    $pattern = '/\s*(width|height)="[0-9]*"/i';\n    $result = preg_replace($pattern, "", $string);\n    \n    return $result;\n}\n\n// Example usage:\n$html = '<img src="image.jpg" width="600" height="400">';\necho remove_img_dimensions($html); // Output: <img src="image.jpg">

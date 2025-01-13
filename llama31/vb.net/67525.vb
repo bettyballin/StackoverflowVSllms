@@ -1,0 +1,1 @@
+Imports System.Xml.Linq\n\nDim html As New System.Text.StringBuilder\nDim xml As New XElement("html",\n                         New XElement("body",\n                                      "dynamic content"))\n\nhtml.Append(xml.ToString())\n\nMsgBox("hello")

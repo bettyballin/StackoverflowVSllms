@@ -1,0 +1,1 @@
+$newline = PHP_EOL;

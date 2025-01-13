@@ -1,1 +1,0 @@
-using System.ServiceModel;\n\n[ServiceContract]\npublic interface IServiceRegistry\n{\n    [OperationContract]\n    void RegisterService(string serviceName, string serviceAddress);\n\n    [OperationContract]\n    string GetServiceAddress(string serviceName);\n}

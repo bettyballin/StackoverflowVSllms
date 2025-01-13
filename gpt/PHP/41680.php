@@ -1,1 +1,0 @@
-function executeQuery($query, $params = [], $fetch = true) {\n    try {\n        $db = DB::getInstance();\n        $stmt = $db->prepare($query);\n        $stmt->execute($params);\n\n        if ($fetch) {\n            return $stmt->fetchAll(PDO::FETCH_ASSOC);\n        }\n        return true;\n\n    } catch (PDOException $e) {\n        return false;\n    }\n}

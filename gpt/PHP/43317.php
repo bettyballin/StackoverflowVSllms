@@ -1,1 +1,0 @@
-try {\n    // Code that may throw an exception\n    $result = riskyOperation();\n    echo "Operation succeeded: $result";\n} catch (Exception $e) {\n    // Handle exception\n    echo "Caught exception: " . $e->getMessage();\n}

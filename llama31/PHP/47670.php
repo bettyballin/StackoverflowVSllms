@@ -1,0 +1,1 @@
+// User.php model file\nclass User extends AppModel {\n    public $useTable = 'user'; // non-standard table name\n    public $primaryKey = 'user_id'; // non-standard primary key\n\n    public $virtualFields = array(\n        'created' => 'generated', // alias for creation date\n        // other aliases as needed\n    );\n}

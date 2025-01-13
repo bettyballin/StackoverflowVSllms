@@ -1,0 +1,1 @@
+string[] tags = { "ruby", "rails", "scruffy", "rubyonrails" };\nstring query = "SELECT * FROM Tags WHERE Name IN (";\nforeach (string tag in tags)\n{\n    query += "'" + tag + "',";\n}\nquery = query.Substring(0, query.Length - 1) + ") ORDER BY Count DESC";

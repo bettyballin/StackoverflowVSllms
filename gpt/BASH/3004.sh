@@ -1,1 +1,0 @@
-mkdir -p demoCA/newcerts demoCA/private\ntouch demoCA/index.txt\necho 1000 > demoCA/serial

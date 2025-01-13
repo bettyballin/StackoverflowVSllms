@@ -1,0 +1,1 @@
+mysql --batch -u [username] -p[password] [database] -e "SELECT * FROM [table]"

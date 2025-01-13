@@ -1,1 +1,0 @@
-latex foo.tex\ndvips -Ppdf foo.dvi\nps2pdf foo.ps

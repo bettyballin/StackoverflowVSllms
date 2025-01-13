@@ -1,1 +1,0 @@
-// Using prepared statements with PDO\n    $stmt = $pdo->prepare("INSERT INTO users (username, password) VALUES (:username, :password)");\n    $stmt->execute(['username' => $username, 'password' => $hashedPassword]);

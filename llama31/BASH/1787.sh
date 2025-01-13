@@ -1,0 +1,1 @@
+sqlcmd -S <your_server_name> -Q "ALTER LOGIN [sa] WITH PASSWORD = 'new_password';"

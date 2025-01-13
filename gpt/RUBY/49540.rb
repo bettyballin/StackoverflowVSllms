@@ -1,1 +1,0 @@
-class SomeController < ApplicationController\n  def some_action\n    my_class_instance = MyModule::MyClass.new\n    my_class_instance.some_method\n  end\nend

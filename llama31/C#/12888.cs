@@ -1,0 +1,1 @@
+using System.IO;\n\npublic static bool IsValidFilename(string filename)\n{\n    foreach (char c in Path.GetInvalidFileNameChars())\n    {\n        if (filename.IndexOf(c) != -1)\n        {\n            return false;\n        }\n    }\n    return true;\n}

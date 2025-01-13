@@ -1,1 +1,0 @@
-<p><?php echo $this->myTranslate("Hello, world!"); ?></p>

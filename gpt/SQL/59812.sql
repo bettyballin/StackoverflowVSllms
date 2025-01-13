@@ -1,1 +1,0 @@
-CREATE TABLE t (\n    a INTEGER,\n    b INTEGER,\n    sorted_pair TEXT GENERATED ALWAYS AS (\n        CASE WHEN a < b THEN a || ',' || b ELSE b || ',' || a END\n    ) STORED,\n    UNIQUE (sorted_pair)\n);

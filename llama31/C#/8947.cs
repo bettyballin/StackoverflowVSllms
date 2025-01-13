@@ -1,0 +1,1 @@
+Guid guid = Guid.NewGuid();\nbyte[] guidBytes = guid.ToByteArray();\nuint dwRand = (uint)((guidBytes[0] << 24) | (guidBytes[1] << 16) | (guidBytes[2] << 8) | guidBytes[3]) & 0x7FFFFFFF;

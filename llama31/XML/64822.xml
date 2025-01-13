@@ -1,0 +1,1 @@
+<class name="Parent" table="ParentTable">\n  <!-- ... other properties ... -->\n  <set name="Children1" cascade="delete" inverse="true">\n    <key column="ParentId" />\n    <one-to-many class="Child1" />\n  </set>\n  <set name="Children2" cascade="delete" inverse="true">\n    <key column="ParentId" />\n    <one-to-many class="Child2" />\n  </set>\n</class>

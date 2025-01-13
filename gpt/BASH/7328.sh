@@ -1,1 +1,0 @@
-telnet indexing_server_ip 4949

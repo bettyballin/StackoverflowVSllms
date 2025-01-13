@@ -1,0 +1,1 @@
+// Set the variable\nvar formAction = "something.html";\n\n// Get the form element\nvar form = document.getElementById("myForm");\n\n// Set the form action\nform.action = formAction;

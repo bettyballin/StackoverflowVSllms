@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult GenerateXml()\n{\n    // Your logic to generate the XML file\n    // ...\n\n    return Json(new { success = true });\n}

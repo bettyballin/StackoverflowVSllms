@@ -1,0 +1,1 @@
+using (var proxy = new MyServiceProxy())\n{\n    proxy.MyOperation();\n}

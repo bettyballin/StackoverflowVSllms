@@ -1,0 +1,1 @@
+string selectedValue = Request.Form["rb1"];

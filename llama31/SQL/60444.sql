@@ -1,0 +1,1 @@
+SELECT CONVERT(nvarchar(max), notes) + 'SomeText'\nFROM NotesTable a

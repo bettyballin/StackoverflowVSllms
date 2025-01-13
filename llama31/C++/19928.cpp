@@ -1,0 +1,1 @@
+#ifndef MODULE1_H_\n#define MODULE1_H_\n\nint init(int option);\nint open(char* db, char* username, char* password);\nint get(int handler, int date[2], int time[2], int* data, int& rowsize, int& numrows);\nint put(int handler, int* data, int& datasize, int& numrows);\nint close(int handler);\nint finalize();\n\n#endif /* MODULE1_H_ */

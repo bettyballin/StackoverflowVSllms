@@ -1,0 +1,1 @@
+// Regenerate the session ID after a user logs in\nSessionIDManager manager = new SessionIDManager();\nstring newSessionId = manager.CreateSessionID(HttpContext.Current);

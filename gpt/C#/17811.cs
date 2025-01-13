@@ -1,1 +1,0 @@
-// Program.cs\nusing MyClassLibrary;\nusing MyWrapperLibrary;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        var wrapper = new Wrapper(); // my wrapper dll class\n        var classLib = new ClassLib(1, "test"); // create class from my library\n        wrapper.Send(classLib); // method in my wrapper\n    }\n}

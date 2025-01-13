@@ -1,1 +1,0 @@
-BEGIN TRANSACTION;\n\nIF OBJECT_ID('ActiveTableView') IS NOT NULL\n    DROP VIEW ActiveTableView;\n\nCREATE VIEW ActiveTableView AS\nSELECT * FROM TableB; -- Switch to TableB\n\nCOMMIT TRANSACTION;

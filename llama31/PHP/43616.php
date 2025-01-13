@@ -1,0 +1,1 @@
+function &test() {\n    $data = array(1, 2, 3);\n    return $data;\n}\n\n$result =& test();\n// $result is now a reference to $data

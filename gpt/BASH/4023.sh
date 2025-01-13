@@ -1,1 +1,0 @@
-phpcpd /path/to/your/php/project

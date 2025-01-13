@@ -1,1 +1,0 @@
-public enum ProductHandlerType {\n        DEFAULT,\n        EMAIL_NOTIFICATION,\n        CUSTOMER_STATUS_CHECK\n        // Add other handlers as needed\n    }

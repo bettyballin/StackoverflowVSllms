@@ -1,0 +1,1 @@
+using System.Security;\n\n// Assert the necessary permissions\nPermissionSet permissionSet = new PermissionSet(PermissionState.None);\npermissionSet.AddPermission(new FileIOPermission(FileIOPermissionAccess.Read, "dtSearchNetApi.dll"));\npermissionSet.Assert();

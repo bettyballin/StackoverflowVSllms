@@ -1,0 +1,1 @@
+#include "gtest/gtest.h"\n#include "my_mfc_app.h" // Include your MFC application's header

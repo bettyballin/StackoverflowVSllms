@@ -1,1 +1,0 @@
-protoc --java_out=. acceleration_measurement.proto

@@ -1,0 +1,1 @@
+from System import Exception\nfrom System.Runtime.InteropServices import COMException\n\ntry:\n    # Your COM interaction code here\nexcept COMException as ce:\n    # Handle the COM exception\n    print(ce.Message)

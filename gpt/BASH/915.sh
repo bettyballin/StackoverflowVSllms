@@ -1,1 +1,0 @@
-unzip -d hibernate_extract path/to/hibernate3.jar\n    ls hibernate_extract/META-INF/

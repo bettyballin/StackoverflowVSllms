@@ -1,0 +1,1 @@
+// Set data in Local Storage\nlocalStorage.setItem('formData', JSON.stringify(formData));\n\n// Get data from Local Storage\nconst formData = JSON.parse(localStorage.getItem('formData'));

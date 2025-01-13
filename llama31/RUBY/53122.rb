@@ -1,0 +1,1 @@
+amespace :deploy do\n  desc "Upload config.php"\n  task :upload_config do\n    on roles(:app) do\n      upload! StringIO.new(ERb.new(File.read('config.php.erb')).result(binding)), "#{release_path}/config.php"\n    end\n  end\n  before 'deploy:publishing', 'deploy:upload_config'\nend

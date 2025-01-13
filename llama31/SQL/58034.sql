@@ -1,0 +1,1 @@
+SELECT LENGTH('JD-EQ-0001') - INSTR(REVERSE('JD-EQ-0001'), '-') + 1 AS last_index\nFROM dual;

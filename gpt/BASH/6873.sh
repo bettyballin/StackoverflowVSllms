@@ -1,1 +1,0 @@
-link /DUMP /DISASM yourfile.dll > output.txt

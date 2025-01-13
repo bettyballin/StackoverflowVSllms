@@ -1,0 +1,1 @@
+$i = $_GET['i'];\n$p = $_GET['p'];\n\nif (!preg_match('/^\d+$/', $i)) {\n    // Handle invalid input for "i"\n}\n\nif (!preg_match('/^[a-zA-Z0-9]+$/', $p)) {\n    // Handle invalid input for "p"\n}

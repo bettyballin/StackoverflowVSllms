@@ -1,0 +1,1 @@
+mysqldump -u [username] -p[password] --lock-tables=false [database_name] > backup.sql

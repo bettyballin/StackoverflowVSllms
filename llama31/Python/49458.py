@@ -1,0 +1,1 @@
+from datetime import date\n\nmy_date = date(2009, 1, 31)\nWeather.objects.filter(timestamp__date=my_date)

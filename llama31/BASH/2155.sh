@@ -1,0 +1,1 @@
+dumpbin /exports /SYMBOLS mydll.dll

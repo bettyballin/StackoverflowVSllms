@@ -1,1 +1,0 @@
-public class DiceViewModel\n{\n    private Dice _dice;\n\n    public DiceViewModel(Dice dice)\n    {\n        _dice = dice;\n    }\n\n    public void Roll()\n    {\n        _dice.Roll();\n        // Notify property changed if necessary\n    }\n}

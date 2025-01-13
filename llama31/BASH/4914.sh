@@ -1,0 +1,1 @@
+svn checkout https://your-svn-server.com/repos/your-project/trunk your-project

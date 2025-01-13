@@ -1,1 +1,0 @@
-awk -F'\t' '{print $2 "\t" $1}' ip-list

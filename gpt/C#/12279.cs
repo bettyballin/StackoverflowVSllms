@@ -1,1 +1,0 @@
-public static void Main(string[] args)\n{\n    // Schedule emails every hour\n    while (true)\n    {\n        EmailScheduler.ScheduleEmails();\n        // Wait for an hour before running again\n        System.Threading.Thread.Sleep(TimeSpan.FromHours(1));\n    }\n}

@@ -1,0 +1,1 @@
+DECLARE @LocationIds LocationIdTableType;\n\nINSERT INTO @LocationIds (location_id)\nVALUES (33), (234);\n\nEXEC GetApplications @LocationIds;

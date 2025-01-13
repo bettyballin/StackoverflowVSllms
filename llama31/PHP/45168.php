@@ -1,0 +1,1 @@
+$connect = @mysql_connect('localhost', 'root', 'wrong_password');

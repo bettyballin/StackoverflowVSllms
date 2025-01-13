@@ -1,1 +1,0 @@
-require(["dojo/domReady!"], function() {\n    if (self === top) {\n        // Page is not in an iframe\n        dojo.style("body", "display", "block");\n    } else {\n        // Page is in an iframe\n        top.location = self.location;\n    }\n});

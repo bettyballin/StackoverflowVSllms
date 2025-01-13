@@ -1,1 +1,0 @@
-sudo apt-get install uchardet   # For Debian/Ubuntu\nsudo yum install uchardet       # For CentOS/RHEL\nsudo pacman -S uchardet         # For Arch Linux

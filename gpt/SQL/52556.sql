@@ -1,1 +1,0 @@
-CREATE VIEW dbo.OverlappingPatrols\n   WITH SCHEMABINDING\n   AS\n   SELECT p1.GuardID, p1.PatrolID, p1.Starts, p1.Ends\n   FROM dbo.Patrols p1\n   JOIN dbo.Patrols p2\n     ON p1.GuardID = p2.GuardID\n    AND p1.PatrolID <> p2.PatrolID\n    AND p1.Starts < p2.Ends\n    AND p1.Ends > p2.Starts;

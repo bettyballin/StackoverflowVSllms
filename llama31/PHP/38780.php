@@ -1,0 +1,1 @@
+// Create a new role\n$role = new stdClass();\n$role->name = 'group_admin';\n$role->weight = 1;\nuser_role_save($role);

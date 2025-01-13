@@ -1,0 +1,1 @@
+public class CustomFSDirectory : FSDirectory\n{\n    private static string _tempDir;\n\n    static CustomFSDirectory()\n    {\n        _tempDir = @"C:\path\to\your\temp\directory";\n    }\n\n    public CustomFSDirectory(string path) : base(new DirectoryInfo(path))\n    {\n    }\n\n    protected override string GetTempDir()\n    {\n        return _tempDir;\n    }\n}

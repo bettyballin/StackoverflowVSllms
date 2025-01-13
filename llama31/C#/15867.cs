@@ -1,0 +1,1 @@
+public class UserProfileDataContext : DataContext\n{\n    public Table<UserProfile> UserProfiles { get; set; }\n}

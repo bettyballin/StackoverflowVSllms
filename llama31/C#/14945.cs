@@ -1,0 +1,1 @@
+using (CryptoStream cs = new CryptoStream(ms, aes.CreateDecryptor(), CryptoStreamMode.Read))\n{\n    byte[] rawData = new byte[ms.Length];\n    int len = cs.Read(rawData, 0, (int)ms.Length);\n    string s = Encoding.Unicode.GetString(rawData, 0, len);\n    Console.WriteLine(s);\n}

@@ -1,0 +1,1 @@
+$msn = new msn();\n// ... (authenticate and connect to MSN)\n\n$contactEmail = 'contact_email@example.com';\n$msn->addContact($contactEmail);

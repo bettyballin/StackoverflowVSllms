@@ -1,1 +1,0 @@
-HMODULE hOtherDll = LoadLibrary(L"OtherDll.dll");\n   // Ensure hOtherDll is valid and handle errors\n\n   // In the singleton destructor or appropriate cleanup method\n   FreeLibrary(hOtherDll);

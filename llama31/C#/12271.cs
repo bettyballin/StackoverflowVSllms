@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n{\n    Response.Cache.SetCacheability(HttpCacheability.NoCache);\n    Response.Cache.SetMaxAge(TimeSpan.Zero);\n    Response.Cache.SetExpires(DateTime.Now.AddMinutes(-1));\n}

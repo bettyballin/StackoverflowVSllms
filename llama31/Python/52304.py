@@ -1,0 +1,1 @@
+import random\n\nb = [object(), object()]\nrandom.shuffle(b)\nprint(b)

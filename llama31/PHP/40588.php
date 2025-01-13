@@ -1,0 +1,1 @@
+$array = [...]; // your array data\n$json = json_encode($array, JSON_HEX_TAG | JSON_HEX_QUOT);\nfile_put_contents('cache.json', $json);

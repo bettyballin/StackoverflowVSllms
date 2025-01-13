@@ -1,1 +1,0 @@
-// SingleType is my LinqToSQL generated type \n// Singles is the table that contains many SingleType's\n// context is my datacontext\npublic SingleType getSingle(int id)\n{\n     var query = from s in context.Singles where s.ID == id select s;\n     var result = query.Take(2).SingleOrDefault();\n     return result;\n}

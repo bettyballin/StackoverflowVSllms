@@ -1,0 +1,1 @@
+$filename = '/tmp/script_' . time() . '.tmp';\n$editor = 'vi'; // or any other editor you prefer\n\n// Create the temporary file\nfile_put_contents($filename, '');\n\n// Execute the editor and wait for it to finish\nexec("$editor $filename");\n\n// Get the contents of the file\n$input = file_get_contents($filename);\n\n// Remove the temporary file\nunlink($filename);
