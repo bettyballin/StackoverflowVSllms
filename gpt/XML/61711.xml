@@ -1,0 +1,1 @@
+<element1 A="AValue" B="BValue">\n   <element2 C="DValue" D="CValue">\n      <element3 E="EValue1" F="FValue1"/>\n      <element3 E="EValue2" F="FValue2"/>\n   </element2>\n</element1>

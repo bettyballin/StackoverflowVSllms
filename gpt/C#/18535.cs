@@ -1,0 +1,1 @@
+using System;\nusing System.Collections.Generic;\nusing System.Data.Entity;\n\npublic class MyDbContext : DbContext\n{\n    public DbSet<MyEntity> MyEntities { get; set; }\n}\n\npublic class MyEntity\n{\n    public int Id { get; set; }\n    public string PropertyOne { get; set; }\n    public string PropertyTwo { get; set; }\n    // Add other properties as needed\n}

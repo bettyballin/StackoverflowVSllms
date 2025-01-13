@@ -1,1 +1,0 @@
-@ECHO OFF\nCLS\n\nFOR %%A in (*.rar) do (\n   COPY %%A  C:\temp\n   GOTO :Exit\n)\n\n:Exit

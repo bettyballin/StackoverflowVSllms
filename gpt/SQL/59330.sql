@@ -1,0 +1,1 @@
+SELECT ID, ProductionCode, TestTime FROM YourTable;

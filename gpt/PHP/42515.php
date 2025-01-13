@@ -1,0 +1,1 @@
+<?php\n// Specify the path to your ini file\n$iniFilePath = '/etc/php.d/eaccelerator.ini';\n\n// Check if the ini file exists\nif (file_exists($iniFilePath)) {\n    // Parse the ini file\n    $config = parse_ini_file($iniFilePath, true);\n\n    // Output the parsed configuration\n    print_r($config);\n} else {\n    echo "The ini file does not exist.";\n}\n?>

@@ -1,0 +1,1 @@
+int fibonacci(int n) {\n       if (n <= 1) {\n           return n;\n       }\n       return fibonacci(n - 1) + fibonacci(n - 2);\n   }

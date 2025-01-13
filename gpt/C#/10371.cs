@@ -1,0 +1,1 @@
+[AcceptVerbs("POST")]\npublic ActionResult Edit(Source src)\n{\n    if (!ModelState.IsValid || !_sourceService.ValidateSource(src))\n    {\n        return View("EditSource", src);\n    }\n\n    _sourceService.SaveSource(src);\n\n    return RedirectToAction("Index");\n}

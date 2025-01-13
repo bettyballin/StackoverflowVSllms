@@ -1,1 +1,0 @@
-var allowedExtensions = new HashSet<string> { ".jpg", ".mp3" };\n\nvar files = GetFiles(\n    "C:\\path", \n    SearchOption.AllDirectories, \n    fn => allowedExtensions.Contains(Path.GetExtension(fn))\n);

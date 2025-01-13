@@ -1,0 +1,1 @@
+cscript iisvdir.vbs /query

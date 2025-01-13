@@ -1,0 +1,1 @@
+sudo systemctl enable synergyc.service\n   sudo systemctl start synergyc.service

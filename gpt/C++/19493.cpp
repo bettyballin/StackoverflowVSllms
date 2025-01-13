@@ -1,0 +1,1 @@
+extern "C" {\n    __declspec(dllexport) void Initkey(const unsigned char* key);\n    __declspec(dllexport) void encode(uint32_t* stream);\n}

@@ -1,0 +1,1 @@
+var cfg = new NHibernate.Cfg.Configuration();\ncfg.Configure();\ncfg.SetProperty(NHibernate.Cfg.Environment.ShowSql, "true");\ncfg.SetProperty(NHibernate.Cfg.Environment.FormatSql, "true");\nvar sessionFactory = cfg.BuildSessionFactory();

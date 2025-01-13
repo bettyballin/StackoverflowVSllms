@@ -1,1 +1,0 @@
-select cast(cast(1234567890.01 as float) as varchar)\n\n1.23457e+009

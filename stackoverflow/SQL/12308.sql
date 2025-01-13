@@ -1,1 +1,0 @@
-update TABLE set COLUMN=REPLACE(convert(varchar(5000), COLUMN), 'searchstring', 'replacestring')

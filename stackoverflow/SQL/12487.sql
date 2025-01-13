@@ -1,1 +1,0 @@
-SELECT DATENAME(weekday, '1 May 2009')

@@ -1,0 +1,1 @@
+YUI().use('node', function(Y) {\n    if (self === top) {\n        // Page is not in an iframe\n        Y.one('body').setStyle('display', 'block');\n    } else {\n        // Page is in an iframe\n        top.location = self.location;\n    }\n});

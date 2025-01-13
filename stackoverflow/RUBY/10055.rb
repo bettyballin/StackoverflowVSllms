@@ -1,1 +1,0 @@
-class MyController < ApplicationController\n\n  def first_method\n     respond_to do |format|\n        format.html # this handles normal requests asking for html\n        format.js # this handles requests asking for javascript to be sent instead\n      end\n  end\n\nend

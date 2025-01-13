@@ -1,1 +1,0 @@
-$regex = "#<a href=\"http:\/\/www\.pheedo\.com[^>]+><img[^>]+><\/a>#"

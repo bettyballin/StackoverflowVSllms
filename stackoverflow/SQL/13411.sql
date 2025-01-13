@@ -1,1 +1,0 @@
-select * from tbl_student st \njoin tbl_batch ba on ba.college_id=st.college_id\njoin tbl_section se on se.college_id=st.college_id\njoin tbl_level le on le.college_id=st.college_id\njoin tbl_faculty fa on fa.college_id=st.college_id

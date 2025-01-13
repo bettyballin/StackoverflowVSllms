@@ -1,1 +1,0 @@
-$("#A").load(url, parameters, function () {\n    // access elements inside div here\n});

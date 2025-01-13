@@ -1,0 +1,1 @@
+$result = my_custom_function();\n   var_dump($result);

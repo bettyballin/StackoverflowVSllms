@@ -1,1 +1,0 @@
-var myDataTable = dt.AsEnumerable();\nvar headlines = myDataTable.Where(t => t.NewsID == 0).Take(5);

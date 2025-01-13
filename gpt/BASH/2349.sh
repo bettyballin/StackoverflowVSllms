@@ -1,0 +1,1 @@
+g++ -std=c++11 -o tokenizer tokenizer.cpp -ltinyxml2

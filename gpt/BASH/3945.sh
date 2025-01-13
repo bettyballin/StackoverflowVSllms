@@ -1,0 +1,1 @@
+ldapsearch ... | sed -n 's/dn: cn=\([^,]*\),.*/\1/p'

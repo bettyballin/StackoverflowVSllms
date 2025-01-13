@@ -1,1 +1,0 @@
-[Function(Name="GetDate", IsComposable=true)] \n public DateTime GetSystemDate() \n {   \n    MethodInfo mi = MethodBase.GetCurrentMethod() as MethodInfo;   \n    return (DateTime)this.ExecuteMethodCall(this, mi, new object[]{}).ReturnValue; \n }

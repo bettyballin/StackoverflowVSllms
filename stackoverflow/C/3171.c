@@ -1,1 +1,0 @@
-pItem->signal_activate().sigc::bind(sigc::mem_fun(*this,&MyClass::on_item_activated),pItem));

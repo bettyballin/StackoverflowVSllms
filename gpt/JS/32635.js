@@ -1,0 +1,1 @@
+function getParents(elementId) {\n    var parents = [];\n    $('#' + elementId).parents().each(function() {\n        parents.push(this.nodeName.toLowerCase());\n    });\n    return parents.reverse().join(' ');\n}\n\n// Usage\nvar parentSelectors = getParents('myImg');\nconsole.log(parentSelectors); // Output: "div a"

@@ -1,0 +1,1 @@
+public ActionResult DoSearch(SearchParameters searchParameters)\n{\n    // Your logic here...\n}

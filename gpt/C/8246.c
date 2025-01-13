@@ -1,0 +1,1 @@
+WriteLastDirectory(DLB->Directory);

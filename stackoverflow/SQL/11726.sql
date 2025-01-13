@@ -1,1 +1,0 @@
-select to_number('AA', 'xx') from dual;     

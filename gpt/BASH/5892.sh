@@ -1,0 +1,1 @@
+tasklist | find "ruby"\n   taskkill /PID <PID_OF_MONGREL> /F

@@ -1,0 +1,1 @@
+use Zend\I18n\Translator\Translator;\n\n     $translator = new Translator();\n     $translator->addTranslationFile('gettext', 'path/to/translations.mo', 'default', 'es_ES');\n\n     echo $translator->translate('Hello, world!', 'default', 'es_ES');

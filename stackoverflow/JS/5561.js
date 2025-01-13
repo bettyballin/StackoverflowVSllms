@@ -1,1 +1,0 @@
-var myVar = myFunction();\nmyVar;

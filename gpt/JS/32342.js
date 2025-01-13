@@ -1,0 +1,1 @@
+let count = { value: 2 };\n    function foo(obj) {\n        obj.value = 3;\n    }\n    foo(count);\n    console.log(count.value); // Outputs: 3

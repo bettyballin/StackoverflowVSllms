@@ -1,1 +1,0 @@
-select * from comments where id = $id limit 3

@@ -1,0 +1,1 @@
+<?php\n   ini_set('display_errors', 1);\n   ini_set('display_startup_errors', 1);\n   error_reporting(E_ALL);\n\n   $id = mysql_pconnect('localhost', 'myusername', 'mypassword', true);\n   if ($id) {\n       print "id=" . $id . "\n";\n   } else {\n       print "Failed to connect to MySQL: " . mysql_error() . "\n";\n   }\n   ?>

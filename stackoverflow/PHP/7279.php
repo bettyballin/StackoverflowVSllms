@@ -1,1 +1,0 @@
-$rowcount = count($rows);

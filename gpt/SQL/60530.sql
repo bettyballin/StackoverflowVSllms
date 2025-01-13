@@ -1,0 +1,1 @@
+-- SQL Server\n   CREATE TABLE MyTable (\n       ID INT IDENTITY(1,1) PRIMARY KEY,\n       Name VARCHAR(50)\n   );

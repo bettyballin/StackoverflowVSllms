@@ -1,1 +1,0 @@
-<?\nheader("Content-Disposition: attachment; filename=yourFile.xml.gz");\nheader("Content-type: application/x-gzip");\n\necho gzencode($xmlToCompress);

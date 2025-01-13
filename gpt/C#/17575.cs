@@ -1,0 +1,1 @@
+void IncrementValue(int number)\n   {\n       number++;\n   }\n\n   int myNumber = 5;\n   IncrementValue(myNumber);\n   // myNumber is still 5

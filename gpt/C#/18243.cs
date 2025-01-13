@@ -1,0 +1,1 @@
+[WebMethod]\npublic static string GetRepeaterData()\n{\n    // Perform your business logic to get data\n    var data = GetData();\n\n    // Serialize the data to JSON\n    var jsonData = JsonConvert.SerializeObject(data);\n\n    return jsonData;\n}

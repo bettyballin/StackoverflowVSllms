@@ -1,0 +1,1 @@
+protected void GridView1_RowDataBound(object sender, GridViewRowEventArgs e)\n{\n    if (e.Row.RowType == DataControlRowType.DataRow)\n    {\n        // Assuming the unique row ID is in the first column (adjust as necessary)\n        string rowId = DataBinder.Eval(e.Row.DataItem, "ID").ToString();\n        e.Row.Attributes["data-row-id"] = rowId;\n    }\n}

@@ -1,0 +1,1 @@
+public struct Decimal\n{\n    public const Decimal Zero = 0m;\n    public const Decimal One = 1m;\n    public const Decimal MinusOne = -1m;\n    ...\n}

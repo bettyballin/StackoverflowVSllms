@@ -1,1 +1,0 @@
-query1 = Q(is_paid=False)\n\nquery2 = Q()\n\nif status:\n    query2 = Q(status=status)\n\nif otherfield:\n    query2 = query2 & Q(otherfield=otherfield)\n\nif anotherfield:\n    query2 = query2 & Q(anotherfield=anotherfield)\n\nquery = query1 | query2\n\nresult = model.objects.filter(query)

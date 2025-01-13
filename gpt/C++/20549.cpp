@@ -1,0 +1,1 @@
+// In the static library project:\n#import "path\to\your.tlb" no_namespace named_guids\n\n// In the main project:\n#include "path\to\generated\file.tlh"

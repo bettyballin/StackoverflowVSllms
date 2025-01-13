@@ -1,0 +1,1 @@
+using System;\nusing System.Runtime.InteropServices;\n\nclass Program\n{\n    [DllImport("MyLibrary.dll", CallingConvention = CallingConvention.Cdecl)]\n    public static extern int Add(int a, int b);\n\n    static void Main()\n    {\n        int result = Add(3, 4);\n        Console.WriteLine("Result: " + result);\n    }\n}

@@ -1,0 +1,1 @@
+var newRecord = new YourSubSonicClass();\n   // Set other properties\n   newRecord.YourGuidColumn = null; // Ensure this is not set\n   newRecord.Save();

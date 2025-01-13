@@ -1,0 +1,1 @@
+composer require james-heinrich/getid3

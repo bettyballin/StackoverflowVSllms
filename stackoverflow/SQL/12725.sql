@@ -1,1 +1,0 @@
-SELECT MIN(timediff(t1.`time`, t2.`time`)) AS delta_t,\n    FROM temperatures t1 JOIN temperatures t2 ON t1.`time` < t2.`time`

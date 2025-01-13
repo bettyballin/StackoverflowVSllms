@@ -1,0 +1,1 @@
+// Assume the TLB defines an interface like this:\n    interface IS8SimulationEvents : IUnknown {\n        HRESULT S8SimulationEndRun();\n    };

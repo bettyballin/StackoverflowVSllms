@@ -1,0 +1,1 @@
+# Example of using multiple locks\nlock1 = threading.Lock()\nlock2 = threading.Lock()\n\ndef function1():\n    with lock1:\n        perform_operation_1()\n\ndef function2():\n    with lock2:\n        perform_operation_2()

@@ -1,0 +1,1 @@
+using FluentNHibernate.Mapping;\n\npublic class MyViewEntityMap : ClassMap<MyViewEntity>\n{\n    public MyViewEntityMap()\n    {\n        Table("MyView"); // The name of the view in the database\n        Id(x => x.Id); // Map the primary key or unique identifier\n        Map(x => x.SomeColumn); // Map other columns\n        // Add mappings for other properties\n    }\n}

@@ -1,0 +1,1 @@
+-- Insert data into a temporary table first\n   SELECT * INTO #TempTable FROM SourceTable;\n\n   -- Move data from the temporary table to the target table\n   INSERT INTO TargetTable\n   SELECT * FROM #TempTable;\n\n   -- Drop the temporary table if no longer needed\n   DROP TABLE #TempTable;

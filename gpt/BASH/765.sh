@@ -1,0 +1,1 @@
+gcc -o myprogram myprogram.c -Wl,-Bstatic -lstaticlib -Wl,-Bdynamic -ldynamiclib

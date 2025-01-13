@@ -1,1 +1,0 @@
-hash = MD5 (MD5 (password) . salt)

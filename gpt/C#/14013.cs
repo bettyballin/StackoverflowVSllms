@@ -1,0 +1,1 @@
+var list = new List<int?>() { 1, 2, null, 4 };\n   var result = list.Select(x => x ?? 0).ToList();\n   // result is List<int> { 1, 2, 0, 4 }

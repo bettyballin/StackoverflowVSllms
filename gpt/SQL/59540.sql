@@ -1,0 +1,1 @@
+INSERT INTO FailedLoginSummary (ip_address, username, failed_attempts, last_attempt_time)\n    VALUES (?, ?, 1, NOW())\n    ON DUPLICATE KEY UPDATE\n        failed_attempts = failed_attempts + 1,\n        last_attempt_time = NOW();

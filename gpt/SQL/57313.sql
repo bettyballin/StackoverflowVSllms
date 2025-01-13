@@ -1,0 +1,1 @@
+INSERT INTO tbltable1\nSELECT * FROM tbltable1_Link;

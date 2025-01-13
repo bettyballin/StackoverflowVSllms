@@ -1,0 +1,1 @@
+ALTER TABLE Booking ADD Version INT DEFAULT 0;

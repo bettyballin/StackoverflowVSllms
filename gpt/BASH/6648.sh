@@ -1,0 +1,1 @@
+DEST=/tmp\ncp -rfv $(find /mp3Dir -type f -name '*.mp3') $DEST | sed -e 's:.*/\([^/]*\.mp3\).*:\1 -> '"$DEST"':'

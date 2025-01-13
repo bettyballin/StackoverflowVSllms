@@ -1,1 +1,0 @@
-SELECT DISTINCT\n     CN.user_id\nFROM\n     dbo.Names N\nINNER JOIN dbo.Connect_Names CN ON CN.name_id = N.name_id\nINNER JOIN dbo.GetTableFromNameList(@names) T ON T.name = N.name

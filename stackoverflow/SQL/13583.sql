@@ -1,1 +1,0 @@
-SELECT column1, columnN\nFROM mytable;

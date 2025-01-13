@@ -1,0 +1,1 @@
+// In List.php (Model)\n     public function getRelatedLists($listId) {\n         // Implement logic to find related lists based on your criteria\n         $relatedLists = $this->find('all', [\n             'conditions' => ['List.related_to' => $listId]\n         ]);\n         return $relatedLists;\n     }

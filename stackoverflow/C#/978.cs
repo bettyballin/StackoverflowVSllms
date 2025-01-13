@@ -1,1 +1,0 @@
-if (!Request.IsLocal && !Request.IsSecureConnection) {\n    var ub = new UriBuilder(Request.Url);\n    ub.Scheme = Uri.UriSchemeHttps;\n    ub.Port = -1; // use default port for scheme\n    Response.Redirect(ub.Uri.AbsoluteUri, true);\n    return;\n}

@@ -1,0 +1,1 @@
+java -XX:+UseParallelGC -Xms512m -Xmx2048m -jar yourapp.jar

@@ -1,0 +1,1 @@
+protected void Page_Load(object sender, EventArgs e)\n   {\n       if (!IsPostBack)\n       {\n           BindDataList();\n       }\n   }\n\n   private void BindDataList()\n   {\n       // Fetch your data source\n       DataTable dt = GetData();\n       DataList1.DataSource = dt;\n       DataList1.DataBind();\n   }

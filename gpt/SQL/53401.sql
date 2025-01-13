@@ -1,0 +1,1 @@
+SELECT DISTINCT \n    associate_id\nFROM \n    tracking\nORDER BY \n    associate_id;

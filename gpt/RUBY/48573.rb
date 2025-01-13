@@ -1,0 +1,1 @@
+# config/routes.rb\n   post 'people/disable/:ids', to: 'people#disable', as: 'disable_people'

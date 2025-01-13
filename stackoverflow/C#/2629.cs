@@ -1,1 +1,0 @@
-browser.Navigate("about:blank");\nHtmlDocument doc = browser.Document;\ndoc.Write(String.Empty);\nbrowser.DocumentText = _emailHTML;

@@ -1,0 +1,1 @@
+$email = "example@domain.com";\n$host = explode('@', $email)[1];\n\nif (checkdnsrr($host . '.', 'MX') || checkdnsrr($host . '.', 'A') || checkdnsrr($host . '.', 'CNAME')) {\n    return true;\n} else {\n    return false;\n}

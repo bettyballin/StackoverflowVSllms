@@ -1,0 +1,1 @@
+Dim html As New System.Text.StringBuilder()\n\nhtml.Append(<html><body>.ToString())\n\n' Append your dynamic content here\nhtml.Append("<p>This is dynamic content</p>")\n\nhtml.Append(</body></html>.ToString())\n\nMsgBox(html.ToString())

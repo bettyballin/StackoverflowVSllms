@@ -1,0 +1,1 @@
+zenity --error --text="This is an error message"

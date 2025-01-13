@@ -1,1 +1,0 @@
-// determine type here\nvar type = typeof(MyClass);\n\n// create an object of the type\nvar obj = (MyClass)Activator.CreateInstance(type);

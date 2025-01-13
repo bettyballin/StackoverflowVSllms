@@ -1,0 +1,1 @@
+dotnet tool install --global coverlet.console\n   dotnet tool install --global reportgenerator

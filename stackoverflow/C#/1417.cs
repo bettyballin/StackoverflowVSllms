@@ -1,1 +1,0 @@
-[ImportMany("ApplicationResources", typeof(ResourceDictionary))]\n    public IEnumerable<ResourceDictionary> Views { get; set; }

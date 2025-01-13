@@ -1,0 +1,1 @@
+ILMerge /out:CombinedApp.exe MyApp.exe Dependency1.dll Dependency2.dll

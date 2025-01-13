@@ -1,0 +1,1 @@
+using System;\nusing Gtk;\n\npublic class HelloWorld\n{\n    public static void Main()\n    {\n        Application.Init();\n        Window myWin = new Window("Hello, World!");\n        myWin.Show();\n        Application.Run();\n    }\n}

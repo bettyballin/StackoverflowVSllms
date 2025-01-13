@@ -1,0 +1,1 @@
+java -jar schemaspy-6.1.0.jar -t orathin -dp /path/to/ojdbc6.jar -db dbname -s schema -u username -p password -o /output/directory

@@ -1,1 +1,0 @@
-output = String.Format("{0:0000}", intVariable); 

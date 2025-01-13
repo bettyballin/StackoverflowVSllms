@@ -1,0 +1,1 @@
+#include "ClientCode.h"\n#include <iostream>\n\nvoid useTemplateClass() {\n    MyTemplateClass<int>::staticMember = 42;\n    std::cout << "Static member value: " << MyTemplateClass<int>::staticMember << std::endl;\n}

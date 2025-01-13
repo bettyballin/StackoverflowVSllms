@@ -1,0 +1,1 @@
+zfs create -o encryption=on -o keyformat=passphrase pool/encrypted_dataset

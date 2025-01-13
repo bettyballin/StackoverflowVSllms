@@ -1,0 +1,1 @@
+private void ProcessMessages()\n    {\n        System.Windows.Forms.Application.DoEvents();\n    }

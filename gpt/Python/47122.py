@@ -1,0 +1,1 @@
+list_str_1 = ["hello"] * 10\nlist_str_2 = ["hello" for i in range(10)]

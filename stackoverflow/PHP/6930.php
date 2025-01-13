@@ -1,1 +1,0 @@
-$download_link = "http://myserver.com/download_asx_file.php?"\n$download_link .= "f=$file_id&";\n$download_link .= htmlspecialchars(SID);

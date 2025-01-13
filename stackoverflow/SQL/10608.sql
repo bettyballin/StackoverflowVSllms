@@ -1,1 +1,0 @@
-SELECT \n  TableA.A1 - TableB.A1 AS A1,\n  TableA.B1 - TableB.B1 AS B1\nFROM TableA, TableB

@@ -1,0 +1,1 @@
+class MySoapServer {\n    public function query($arg) {\n        $array = array('test', 'again');\n        return $array;\n    }\n}\n\n$options = array('uri' => 'http://example.com/');\n$server = new SoapServer('http://example.com/my.wsdl', $options);\n$server->setClass('MySoapServer');\n$server->handle();

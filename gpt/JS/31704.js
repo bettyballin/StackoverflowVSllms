@@ -1,0 +1,1 @@
+$("a[id^='link']").click(function(event) {\n  event.preventDefault(); // Prevent the default link behavior\n  $(".myDiv").hide(); // Hide all divs with class 'myDiv'\n  var targetDiv = $(this).data("target"); // Get the target div from the data attribute\n  $(targetDiv).toggle(); // Toggle the visibility of the target div\n});

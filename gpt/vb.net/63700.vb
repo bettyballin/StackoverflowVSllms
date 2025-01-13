@@ -1,0 +1,1 @@
+Dim myNewCars As List(Of Namespace.Car)\nDim carArray As Namespace.Car() = CarServiceProxy.GetCars()\nmyNewCars = carArray.ToList()

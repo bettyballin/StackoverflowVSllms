@@ -1,0 +1,1 @@
+#define MAX_TIMESTAMPS 100\nunsigned long timestamps[MAX_TIMESTAMPS];\nint count = 0;\n\nvoid log_timestamp(void) {\n    if (count < MAX_TIMESTAMPS) {\n        timestamps[count++] = jiffies;  // Use jiffies or another appropriate timer\n    }\n}\n\n// Example usage in Kernel code\nvoid some_kernel_stage_function(void) {\n    log_timestamp();\n    // ... existing code ...\n}

@@ -1,0 +1,1 @@
+CREATE TABLE user_projects (\n       user_id INT NOT NULL,\n       project_id INT NOT NULL,\n       PRIMARY KEY (user_id, project_id)\n   );

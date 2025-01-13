@@ -1,0 +1,1 @@
+function list_recursive($dir) {\n    $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($dir));\n    foreach ($iterator as $file) {\n        if ($file->isDir() && ($file->getFilename() == '.' || $file->getFilename() == '..')) {\n            continue;\n        }\n        echo $file->getPathname() . PHP_EOL;\n    }\n}

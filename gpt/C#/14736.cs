@@ -1,0 +1,1 @@
+using (var db = new YourDataContext())\n{\n    string updateCommand = "UPDATE FileEntity SET DateDeleted = GETDATE() WHERE ID IN (1,2,3)";\n    db.ExecuteCommand(updateCommand);\n}

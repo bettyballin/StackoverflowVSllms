@@ -1,0 +1,1 @@
+SELECT CONCAT('First Line', CHAR(10), 'Second Line') AS Result;

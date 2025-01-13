@@ -1,1 +1,0 @@
-$('td[name="tcol1"]')   // Matches exactly 'tcol1'\n$('td[name^="tcol"]' )  // Matches those that begin with 'tcol'\n$('td[name$="tcol"]' )  // Matches those that end with 'tcol'\n$('td[name*="tcol"]' )  // Matches those that contain 'tcol'

@@ -1,0 +1,1 @@
+sudo apt-get install python3-pip  # For Debian-based systems

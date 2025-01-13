@@ -1,1 +1,0 @@
-class MemCache \n{ \n  private static $instance = false;   \n  private function __construct() {}\n\n  public static function getInstance()\n  { \n    if(self::$instance === false)\n    { \n      self::$instance = memcache_connect(); \n    } \n\n    return self::$instance; \n  } \n}

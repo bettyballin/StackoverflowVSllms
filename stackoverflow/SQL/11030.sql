@@ -1,1 +1,0 @@
-select id, coalesce(price_brl, price_usd * tbl_2.value) \nfrom tbl_1\ninner join tbl2

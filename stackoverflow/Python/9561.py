@@ -1,1 +1,0 @@
-s = p.stderr.readline()

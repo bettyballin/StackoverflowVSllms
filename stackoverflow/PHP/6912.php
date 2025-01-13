@@ -1,1 +1,0 @@
-$sums = array();\n\nforeach ($source as $ar) {\n    //create an entry for this id in the array of sums if does not exist.\n    if (!isset($sums[ $ar['id'] ])) {\n        $sums[ $ar['id'] ] = 0;\n    }\n    \n    //add 'value' key to sum for that id\n    $sums[ $ar['id'] ] += $ar['value'];\n}\n\n//sort by id\nksort($sums);\n\nprint_r($sums);

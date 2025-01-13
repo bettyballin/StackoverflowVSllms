@@ -1,0 +1,1 @@
+protected WebControl _viewMode = new WebControl(HtmlTextWriterTag.Span);

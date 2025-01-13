@@ -1,0 +1,1 @@
+SomeClass someObject = null;\nsomeObject = new SomeClass();

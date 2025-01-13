@@ -1,0 +1,1 @@
+<dict>\n    <key>CFBundleTypeRole</key>\n    <string>Editor</string>\n    <key>CFBundleTypeExtensions</key>\n    <array>\n        <string>txt</string>\n    </array>\n    <key>CFBundleTypeName</key>\n    <string>Text Document</string>\n    <key>CFBundleTypeIconFile</key>\n    <string>TextIcon</string>\n</dict>

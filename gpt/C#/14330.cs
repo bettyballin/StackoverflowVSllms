@@ -1,0 +1,1 @@
+protected void Application_Start(object sender, EventArgs e)\n{\n    // Add a value to the cache\n    HttpRuntime.Cache.Insert("CacheKey", "CacheValue");\n\n    // Retrieve the value from the cache\n    var cachedValue = HttpRuntime.Cache["CacheKey"];\n}

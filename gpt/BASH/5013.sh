@@ -1,0 +1,1 @@
+$ python py-file.py file-to-be-processed.txt

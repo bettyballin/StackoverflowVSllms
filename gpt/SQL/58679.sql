@@ -1,0 +1,1 @@
+CREATE TABLE example_table (\n    column1 INT,\n    column2 INT,\n    column3 VARCHAR(255),\n    PRIMARY KEY (column1, column2)\n);

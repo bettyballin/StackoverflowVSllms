@@ -1,0 +1,1 @@
+SELECT [t0].[Id], [t0].[Age], [t0].[FirstName], [t0].[LastName]\nFROM [Person] AS [t0]\nWHERE ([t0].[Age] < 18) AND ([t0].[FirstName] = 'Daniel')

@@ -1,1 +1,0 @@
-#!/usr/bin/env python\n# -*- coding: utf-8 -*-\nfrom BeautifulSoup import BeautifulSoup\n\nstring = "Scam, hoax, or the real deal, he&#8217;s gonna work his way to the bottom of the sordid tale, and hopefully end up with an arcade game in the process."\ns = BeautifulSoup(string,convertEntities=BeautifulSoup.HTML_ENTITIES).contents[0]\nprint s

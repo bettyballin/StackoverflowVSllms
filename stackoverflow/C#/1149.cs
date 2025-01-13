@@ -1,1 +1,0 @@
-var projectsMemberWorkedOn = from p in Projects\n                    join projectMember in ProjectMembers on\n                        p.ProjectId equals projectMember.ProjectId\n                    where projectMember.MemberId == "a45bd16d-9be0-421b-b5bf-143d334c8155"\n                    select p;

@@ -1,0 +1,1 @@
+lock (lockObject)\n{\n    Monitor.Wait(lockObject); // Waits and releases the lock\n}

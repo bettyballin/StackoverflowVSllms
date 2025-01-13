@@ -1,0 +1,1 @@
+CREATE TABLE items (\n    item VARCHAR(255),\n    price DECIMAL(5, 2)\n);\n\nINSERT INTO items (item, price) VALUES\n('socks', 4.00),\n('cheap tv', 22.00),\n('book on tape', 9.00),\n('book on paper', 7.00),\n('party hats', 3.00),\n('picture frame', 10.00),\n('hammer', 5.00),\n('juicer', 16.00),\n('mysql guide', 24.00);

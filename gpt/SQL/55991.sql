@@ -1,0 +1,1 @@
+INSERT INTO Roles (role_id, role_name) VALUES\n   (1, 'User'),\n   (2, 'Facility Approver'),\n   (3, 'Facility Admin'),\n   (4, 'Corporate Approver'),\n   (5, 'Corporate Admin');

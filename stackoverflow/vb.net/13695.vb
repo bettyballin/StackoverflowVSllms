@@ -1,1 +1,0 @@
-Const NUMBER_DIGITS = 5\n\nDim myInteger\nDim formatedInteger\n\nmyInteger = 999\nformatedInteger = Right(String(NUMBER_DIGITS, "0") & myInteger, NUMBER_DIGITS)

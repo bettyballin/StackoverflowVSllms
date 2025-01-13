@@ -1,0 +1,1 @@
+/path/to/gc_patched_ruby/bin/bundle exec ruby your_script.rb

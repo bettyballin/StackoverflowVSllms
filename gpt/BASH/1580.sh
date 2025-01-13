@@ -1,0 +1,1 @@
+pexports yourlibrary.dll > yourlibrary.def

@@ -1,0 +1,1 @@
+function generateHash($data) {\n    return hash('sha256', $data);\n}

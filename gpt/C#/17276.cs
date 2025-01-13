@@ -1,0 +1,1 @@
+// Assuming 'dataGridView' is your DataGridView and 'bindingList' is your BindingList\n\n// Temporarily unbind the DataGridView\ndataGridView.DataSource = null;\n\n// Change the visibility of the first row\ndataGridView.Rows[0].Visible = false;\n\n// Rebind the DataGridView\ndataGridView.DataSource = bindingList;

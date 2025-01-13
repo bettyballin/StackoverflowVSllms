@@ -1,1 +1,0 @@
-Update Data\nSet data.Country = Translations.[To]\nFrom    Data\n        Inner Join Translations\n          On data.Country = Translations.[from]

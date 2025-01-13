@@ -1,1 +1,0 @@
-o.replace(/(<\s*\/?\s*)script(\s*([^>]*)?\s*>)/gi ,'$1div$2')

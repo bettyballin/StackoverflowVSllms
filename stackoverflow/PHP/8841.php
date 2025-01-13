@@ -1,1 +1,0 @@
-if(isset($_GET['bbname'])) {\n      $name = mysql_real_escape_string($_GET['bbname']);\n$query = mysql_query("SELECT * FROM places ORDER BY name ASC LIMIT 0,30 WHERE name LIKE '$name'") OR die(mysql_error());\n    }\n    else {\n       $data = mysql_query("SELECT * FROM places ORDER BY `places`.`name` ASC LIMIT 0, 30 ")\n    }

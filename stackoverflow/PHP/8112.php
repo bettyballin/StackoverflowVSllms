@@ -1,1 +1,0 @@
-function sanitize1() {\n  foreach($_POST as $k => $v) {\n    // code to sanitize $v\n  }\n}\n\nsanitize1();

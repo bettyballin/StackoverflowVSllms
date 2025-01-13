@@ -1,1 +1,0 @@
-SELECT * \nFROM HastaKurumlari\nWHERE '21-05-2009' between startDate and IsNull(endDate,getdate())

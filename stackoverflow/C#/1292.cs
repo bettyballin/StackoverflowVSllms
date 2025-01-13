@@ -1,1 +1,0 @@
-private static void PadToMultipleOf(ref byte[] src, int pad)\n{\n    int len = (src.Length + pad - 1) / pad * pad;\n    Array.Resize(ref src, len);\n}

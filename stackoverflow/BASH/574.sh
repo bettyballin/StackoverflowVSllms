@@ -1,1 +1,0 @@
-$ echo Some sample text [with some extra text].foo | sed -e 's/.*\[\([^]]*\)\].*/\1/g'\nwith some extra text\n\n$ echo Some sample text [with some extra text].foo | sed -e 's/.*\[\([^]]*\)\].*/Your text was: "\1", okay?/g'\nYour text was: "with some extra text", okay?

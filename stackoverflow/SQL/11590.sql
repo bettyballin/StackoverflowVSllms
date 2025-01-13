@@ -1,1 +1,0 @@
-DBCC SHOW_STATISTICS(<tablename>, <indexname>)

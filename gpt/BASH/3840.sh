@@ -1,0 +1,1 @@
+sudo port install autoconf automake libtool

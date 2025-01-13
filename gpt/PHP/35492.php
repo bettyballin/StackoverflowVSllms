@@ -1,0 +1,1 @@
+error_log("Session data: " . print_r($_SESSION, true));

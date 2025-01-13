@@ -1,0 +1,1 @@
+public class AllowCrossSiteJsonAttribute : ActionFilterAttribute\n    {\n        public override void OnActionExecuting(ActionExecutingContext filterContext)\n        {\n            filterContext.RequestContext.HttpContext.Response.AddHeader("Access-Control-Allow-Origin", "*");\n            base.OnActionExecuting(filterContext);\n        }\n    }

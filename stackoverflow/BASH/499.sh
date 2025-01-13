@@ -1,1 +1,0 @@
-nohup myprogram > foo.log 2> foo.err < /dev/null &

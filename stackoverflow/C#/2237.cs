@@ -1,1 +1,0 @@
-Math.Ceil(steps / stepsPerTurn)

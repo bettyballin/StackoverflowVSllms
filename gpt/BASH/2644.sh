@@ -1,0 +1,1 @@
+# Installing Blackfire\n   curl -sL https://packagecloud.io/blackfire/blackfire/gpgkey | sudo apt-key add -\n   echo "deb http://packages.blackfire.io/debian any main" | sudo tee /etc/apt/sources.list.d/blackfire.list\n   sudo apt-get update\n   sudo apt-get install blackfire-agent blackfire-php

@@ -1,0 +1,1 @@
+# On the server\n   yum install epel-release\n   yum install x2goserver x2goserver-xsession\n\n   # On the client, install the X2Go client from the X2Go website

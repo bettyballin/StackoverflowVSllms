@@ -1,0 +1,1 @@
+function getConfigVars() {\n    $config = include 'my_config.php';\n    // Use $config array here\n    // Example: echo $config['db_host'];\n}

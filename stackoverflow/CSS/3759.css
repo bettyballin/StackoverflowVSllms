@@ -1,1 +1,0 @@
-<style type="text/css">\n@font-face {\n    font-family: "My Custom Font";\n    src: url(http://www.example.org/mycustomfont.ttf) format("truetype");\n}\np.customfont { \n    font-family: "My Custom Font", Verdana, Tahoma;\n}\n</style>\n<p class="customfont">Hello world!</p>

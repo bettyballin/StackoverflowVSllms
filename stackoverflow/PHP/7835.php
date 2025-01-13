@@ -1,1 +1,0 @@
-strtotime($_POST['app_date']);

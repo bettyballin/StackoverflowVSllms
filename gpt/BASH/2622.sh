@@ -1,0 +1,1 @@
+LogParser "SELECT TOP 10 SourceName, COUNT(*) AS ErrorCount FROM <path_to_event_logs> WHERE EventType = 1 GROUP BY SourceName ORDER BY ErrorCount DESC" -i:EVT

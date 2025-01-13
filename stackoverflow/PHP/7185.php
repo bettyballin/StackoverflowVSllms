@@ -1,1 +1,0 @@
-function getAge($then) {\n    $then = date('Ymd', strtotime($then));\n    $diff = date('Ymd') - $then;\n    return substr($diff, 0, -4);\n}

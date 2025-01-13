@@ -1,0 +1,1 @@
+# Step 2: Use the CSRF token to edit a page\ncurl -X POST "https://www.example.com/w/api.php" \\n  -b cookies.txt \\n  -d "action=edit&title=Main_Page&token=1234abcd+\\&text=New content&format=json"

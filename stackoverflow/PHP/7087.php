@@ -1,1 +1,0 @@
-$c = true; // Let's not forget to initialize our variables, shall we?\nforeach($posts as $post)\n    echo '<div'.(($c = !$c)?' class="odd"':'').">$post</div>";

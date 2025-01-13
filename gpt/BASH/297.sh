@@ -1,0 +1,1 @@
+xmllint --noout --schema schema.xsd example.xml

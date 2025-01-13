@@ -1,1 +1,0 @@
-void foo( sometype * p ) {\n   p->func();\n}

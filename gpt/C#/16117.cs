@@ -1,0 +1,1 @@
+static string GetColumnName(int index)\n{\n    const int alphabetsCount = 26;\n    string columnName = string.Empty;\n\n    while (index > 0)\n    {\n        int mod = (index - 1) % alphabetsCount;\n        columnName = (char)(mod + 'A') + columnName;\n        index = (index - mod - 1) / alphabetsCount;\n    }\n\n    return columnName;\n}

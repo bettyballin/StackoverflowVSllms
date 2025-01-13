@@ -1,1 +1,0 @@
-'http://duncanmackenzie.net/blog/Enter-Instead-of-Tab/default.aspx\nProtected Overrides Sub OnKeyUp(ByVal e As System.Windows.Forms.KeyEventArgs)\n    If e.KeyCode = Keys.Enter Then\n        e.Handled = True\n        Me.ProcessTabKey(Not e.Shift)\n    Else\n        e.Handled = False\n        MyBase.OnKeyUp(e)\n    End If\nEnd Sub

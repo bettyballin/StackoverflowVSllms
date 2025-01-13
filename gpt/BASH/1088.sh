@@ -1,0 +1,1 @@
+ldd your_binary > ldd_output.txt

@@ -1,0 +1,1 @@
+php-cs-fixer fix /path/to/your/code --config=/.php_cs

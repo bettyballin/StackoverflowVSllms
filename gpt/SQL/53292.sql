@@ -1,0 +1,1 @@
+CREATE INDEX idx_CustomerID_Invoices \n   ON tblinvoices (CustomerID)\n   INCLUDE (InvoiceTotal, AmountPaid);

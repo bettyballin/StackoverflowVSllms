@@ -1,1 +1,0 @@
-select max(abs(mycol)) from mytbl

@@ -1,0 +1,1 @@
+void Session_Start(object sender, EventArgs e)\n    {\n        // Code that runs when a new session is started\n    }

@@ -1,0 +1,1 @@
+<system.serviceModel>\n  <serviceHostingEnvironment aspNetCompatibilityEnabled="true" />\n  <standardEndpoints>\n    <webHttpEndpoint>\n      <standardEndpoint name="" helpEnabled="true" automaticFormatSelectionEnabled="true" defaultOutgoingResponseFormat="Json" />\n    </webHttpEndpoint>\n  </standardEndpoints>\n</system.serviceModel>

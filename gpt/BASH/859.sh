@@ -1,0 +1,1 @@
+php -v       # Should show PHP 4.x.x\n   php5 -v      # Should show PHP 5.x.x

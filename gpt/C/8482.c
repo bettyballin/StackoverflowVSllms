@@ -1,0 +1,1 @@
+#include <stdio.h>\n#include <simde/x86/sse2.h>\n\nint main() {\n    simde__m128d a = simde_mm_set_pd(1.0, 2.0);\n    simde__m128d b = simde_mm_set_pd(3.0, 4.0);\n    simde__m128d c = simde_mm_add_pd(a, b);\n\n    double result[2];\n    simde_mm_storeu_pd(result, c);\n\n    printf("Result: %f %f\n", result[0], result[1]);\n\n    return 0;\n}

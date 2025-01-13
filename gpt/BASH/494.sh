@@ -1,0 +1,1 @@
+gcc -Wall -Wno-unused-variable -o myprogram myprogram.c

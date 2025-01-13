@@ -1,0 +1,1 @@
+#!/usr/bin/make -f\n\n%:\n	dh $@\n\noverride_dh_auto_install:\n	# Set the package name and version\n	DEB_PACKAGE=$(shell dh_listpackages)\n	DEB_VERSION=$(shell dpkg-parsechangelog --show-field Version)\n\n	# Your install commands\n	(cd $(CURDIR)/debian/$(DEB_PACKAGE)/usr/bin; ln -sf /usr/lib/$(DEB_PACKAGE)-$(DEB_VERSION)/$(DEB_PACKAGE) .)

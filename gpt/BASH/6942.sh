@@ -1,0 +1,1 @@
+#!/bin/sh\n    /sbin/route add -net <VPN_network> netmask <VPN_netmask> gw $PPP_REMOTE dev $PPP_IFACE

@@ -1,1 +1,0 @@
-#include<fstream>\n#include<iostream>\n#include<iterator>\n#include<string>\n\nusing namespace std;\n\nint main()\n{\n    // The one-liner\n    string fileContents(istreambuf_iterator<char>(ifstream("filename.txt")), istreambuf_iterator<char>());\n\n    // Check result\n    cout << fileContents;\n}

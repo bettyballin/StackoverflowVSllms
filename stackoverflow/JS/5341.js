@@ -1,1 +1,0 @@
-<script>\nprocess = function()\n {\n    window.open('about:blank', 'popup', 'width=320,height=240,resizeable=no');\n    document.login.setAttribute('target', 'popup');\n    document.login.setAttribute('onsubmit', '');\n    document.login.submit();\n };\n</script>

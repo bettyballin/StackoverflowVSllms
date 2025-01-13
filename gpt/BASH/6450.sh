@@ -1,0 +1,1 @@
+curl -I http://recpushdata.cyndigo.com/jobs.asmx

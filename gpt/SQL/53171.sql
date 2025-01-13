@@ -1,0 +1,1 @@
+CREATE TABLE urls (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    original_url TEXT NOT NULL,\n    short_url VARCHAR(255)\n);

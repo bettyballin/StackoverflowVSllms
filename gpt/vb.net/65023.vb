@@ -1,0 +1,1 @@
+Dim insertCommand As New SqlCommand("INSERT INTO your_table (column1, column2) VALUES (@value1, @value2)", connection)\n   insertCommand.Parameters.AddWithValue("@value1", value1)\n   insertCommand.Parameters.AddWithValue("@value2", value2)\n   connection.Open()\n   insertCommand.ExecuteNonQuery()\n   connection.Close()

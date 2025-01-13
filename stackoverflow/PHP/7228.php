@@ -1,1 +1,0 @@
-//To set the cookie\nif($refered)\n {\n    setcookie('sitenameReferal', 'REFERER');\n }\n//To retrieve it\nif($_COOKIE['sitenameReferal'])\n {\n    $referedBy = $_COOKIE['sitenameReferal'];\n }

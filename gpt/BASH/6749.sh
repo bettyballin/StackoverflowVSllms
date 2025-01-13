@@ -1,0 +1,1 @@
+sudo cpan\n    cpan> install Your::Module::Name

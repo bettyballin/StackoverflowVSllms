@@ -1,0 +1,1 @@
+@echo off\nsqlplus /nolog @install.sql\npause

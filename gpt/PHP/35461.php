@@ -1,0 +1,1 @@
+$headers = "From: site <sales@site.com>\r\n";\n$headers .= "Reply-To: site <sales@site.com>\r\n";\n$headers .= "MIME-Version: 1.0\r\n";\n$headers .= "Content-Type: text/html; charset=iso-8859-1\r\n";\n$headers .= "X-Mailer: PHP/" . phpversion() . "\r\n";\n$headers .= "To: $name <$email>\r\n";\n$headers .= "Subject: $subject\r\n";\n\nmail($email, $subject, $body, $headers);

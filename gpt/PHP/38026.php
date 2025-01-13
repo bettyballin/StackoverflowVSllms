@@ -1,0 +1,1 @@
+// Temporarily suppress strict standards\nerror_reporting(E_ALL & ~E_STRICT & ~E_NOTICE);

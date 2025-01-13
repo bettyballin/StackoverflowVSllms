@@ -1,0 +1,1 @@
+private:\n\n    CComPtr<IRawPdu> getRawPdu(); // Change the return type to CComPtr<IRawPdu>\n    // Returns the RawPdu interface pointer from the mRawPdu data member.\n    // mRawPdu is initialized, if necessary.\n\n    CComPtr<IRawPdu> mRawPdu;\n    // Initialized to nullptr in the ctor. Uses lazy evaluation via getRawPdu().

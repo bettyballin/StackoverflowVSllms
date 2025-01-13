@@ -1,1 +1,0 @@
-<add path="ChartImage.axd" verb="*" type="Telerik.Web.UI.ChartHttpHandler,\n Telerik.Web.UI, Version=2008.2.826.20, Culture=neutral, \nPublicKeyToken=121fae78165ba3d4" validate="false" />

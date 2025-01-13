@@ -1,0 +1,1 @@
+phpcbf /path/to/your/php/files

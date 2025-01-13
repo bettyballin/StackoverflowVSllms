@@ -1,1 +1,0 @@
-SELECT \n  CONVERT(CHAR(4), date_of_birth, 100) + CONVERT(CHAR(4), date_of_birth, 120) \nFROM customers

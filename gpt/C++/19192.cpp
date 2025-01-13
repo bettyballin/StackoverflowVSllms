@@ -1,0 +1,1 @@
+// MyBitmapDLL.cpp\n#include <windows.h>\n\nextern "C" __declspec(dllexport) HBITMAP LoadBitmapFromDLL()\n{\n    return LoadBitmap(GetModuleHandle(TEXT("MyBitmapDLL.dll")), MAKEINTRESOURCE(IDB_MYBITMAP));\n}

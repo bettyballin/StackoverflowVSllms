@@ -1,0 +1,1 @@
+ul, ol {\n  margin-left: 20px; /* Adjust the value as needed */\n  padding-left: 0;\n}\n\nli {\n  list-style-position: outside;\n}

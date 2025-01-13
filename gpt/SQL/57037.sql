@@ -1,0 +1,1 @@
+customer_name | amount\n--------------|-------\nAlice         | 50\nAlice         | 75\nBob           | 100

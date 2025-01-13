@@ -1,0 +1,1 @@
+$array = array('Birnen', 'Äpfel', 'Ungetüme', 'Apfel', 'Ungetiere', 'Österreich');\n\n// Create a Collator instance for the desired locale\n$collator = new Collator('de_DE.UTF-8');\n\n// Sort the array using the Collator instance\n$collator->sort($array);\n\nvar_dump($array);

@@ -1,0 +1,1 @@
+// Using prepared statements with PDO\n$stmt = $pdo->prepare("INSERT INTO table (a, b, c) VALUES (:a, :b, :c)");\n$stmt->execute([':a' => 1, ':b' => 2, ':c' => 3]);

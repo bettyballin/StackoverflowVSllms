@@ -1,1 +1,0 @@
-update a\nset\n  3rdColumn = b.2ndColumn\nfrom\n  tableA a\n  inner join tableB b\n  on a.linkToB = b.linkToA

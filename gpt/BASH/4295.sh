@@ -1,0 +1,1 @@
+sudo perf record -g ld [your linking command]\n   sudo perf report

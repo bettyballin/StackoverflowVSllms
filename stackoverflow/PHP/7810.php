@@ -1,1 +1,0 @@
-preg_replace("/^(>.*)$/im", "<span style=\"color: red;\">\\1</span>", $reply);

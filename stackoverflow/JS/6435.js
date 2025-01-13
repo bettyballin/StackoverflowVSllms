@@ -1,1 +1,0 @@
-var pasteEventName = $.browser.msie ? 'paste' : 'input';\n$("#<%= txtNumber.ClientID %>").bind(pasteEventName, function() {\n   setTimeout(function() { \n      RemoveInvalidCharacters(\n         $("#<%= txtNumber.ClientID %>").val()\n      ); \n   }, 0);\n});

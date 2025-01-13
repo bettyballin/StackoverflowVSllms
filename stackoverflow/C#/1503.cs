@@ -1,1 +1,0 @@
-public FooClass GetFooClassInstance()\n{\n    FooClass instance = (FooClass)this.Context.Application["FooClassInstance"];\n\n    if (instance == null)\n    {\n        instance = new FooClass(); // Creates the RCW.\n        this.Context.Application["FooClassInstance"] = instance;\n    }\n\n    return instance;\n}

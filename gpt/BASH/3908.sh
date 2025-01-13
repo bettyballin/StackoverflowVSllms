@@ -1,0 +1,1 @@
+bcp YourDatabase.dbo.YourTable out YourTableData.dat -c -T -S YourServerName

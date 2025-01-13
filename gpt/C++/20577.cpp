@@ -1,0 +1,1 @@
+void bar(Inputs inputs) {\n    // bar implementation\n}\n\nvoid foo(Inputs inputs) {\n    // foo implementation\n}

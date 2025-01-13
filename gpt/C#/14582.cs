@@ -1,0 +1,1 @@
+class Program\n{\n    static void Main(string[] args)\n    {\n        IOfficeWrapper officeWrapper = OfficeWrapperFactory.CreateWrapper();\n        \n        officeWrapper.OpenDocument("document.docx");\n        officeWrapper.SaveDocument("document.docx");\n    }\n}

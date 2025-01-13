@@ -1,0 +1,1 @@
+/path/to/glassfish/bin/asadmin deploy --force /path/to/yourapp.war

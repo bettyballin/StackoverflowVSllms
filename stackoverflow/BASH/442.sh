@@ -1,1 +1,0 @@
-./configure --with-mysql=/Applications/MAMP/Library --with-apxs2=/Applications/MAMP/Library/bin/apxs --with-gd --with-jpeg-dir=/Applications/MAMP/Library

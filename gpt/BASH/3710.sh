@@ -1,0 +1,1 @@
+keytool -genkey -alias myalias -keyalg RSA -keystore mykeystore.jks

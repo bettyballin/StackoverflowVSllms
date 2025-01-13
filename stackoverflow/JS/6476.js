@@ -1,1 +1,0 @@
-$('#<%= txtRcaNotes.ClientID %>').hide(); \nalert($('#<%= txtRcaNotes.ClientID %>').attr('id'));

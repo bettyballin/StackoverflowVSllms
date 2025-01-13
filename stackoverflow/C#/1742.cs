@@ -1,1 +1,0 @@
-BindingSource.endedit()\nadapter.update()

@@ -1,0 +1,1 @@
+libyourlibrary_la_LDFLAGS = -Wl,--version-script=$(srcdir)/hide_symbols.map

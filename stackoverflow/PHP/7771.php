@@ -1,1 +1,0 @@
-$value = (string) $xml->someNode->innerNode;

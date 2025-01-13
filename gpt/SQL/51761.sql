@@ -1,0 +1,1 @@
+SET @sample_size = 10000;\n    SET @total_rows = (SELECT COUNT(*) FROM `table`);\n    SET @fraction = @sample_size / @total_rows;\n\n    SELECT * FROM `table`\n    WHERE rand_value < @fraction\n    ORDER BY RAND()\n    LIMIT @sample_size;

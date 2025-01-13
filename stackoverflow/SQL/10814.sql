@@ -1,1 +1,0 @@
-AND br_fx.iso_dst = 'USD'

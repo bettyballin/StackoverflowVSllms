@@ -1,0 +1,1 @@
+CREATE TABLE my_counter (\n  counter_name VARCHAR2(50) PRIMARY KEY,\n  counter_value NUMBER\n);

@@ -1,1 +1,0 @@
-aString = 'abcd'\nnewString =''\ncolors= [0.0, 1.0, 0.5, 1.0]\nfor i in aString:\n    newString = newString + '<span style="background-color: rgb(0,%s,0)">%s</span>'%(colors.pop(0)*255,i)\n\n\n\nresponse = HttpResponse(newString)

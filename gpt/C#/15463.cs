@@ -1,0 +1,1 @@
+protected void AccessibleButton_Click(object sender, EventArgs e)\n{\n    ResultLabel.Text = "Button clicked at " + DateTime.Now.ToString();\n}

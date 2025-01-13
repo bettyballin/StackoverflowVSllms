@@ -1,0 +1,1 @@
+require(["dojo/hash", "dojo/on", "dojo/router"], function(hash, on, router) {\n       on(window, "hashchange", function() {\n           var currentHash = hash();\n           // Handle the hash change to update the view\n       });\n       // Optionally, synchronize router with hash changes\n       hash(router.currentPath());\n   });

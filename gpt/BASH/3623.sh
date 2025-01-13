@@ -1,0 +1,1 @@
+java -cp .:path/to/mypackage.jar:bin NewConsoleApp

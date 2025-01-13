@@ -1,0 +1,1 @@
+// AssemblyInfo.cs in C# project\n   [assembly: InternalsVisibleTo("YourVBProjectName")]

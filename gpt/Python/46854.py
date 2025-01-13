@@ -1,0 +1,1 @@
+from setuptools import setup\n\n    setup(\n        name='your_package',\n        version='0.1',\n        packages=['your_package'],\n        install_requires=[\n            'some_python_dependency',\n            'another_python_dependency',\n        ],\n    )

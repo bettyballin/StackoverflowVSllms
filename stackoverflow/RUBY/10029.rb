@@ -1,1 +1,0 @@
-MyModel.connection.execute "ALTER TABLE xxxxx CHANGE abcd ABCD text DEFAULT NULL"

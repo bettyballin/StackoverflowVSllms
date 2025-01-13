@@ -1,0 +1,1 @@
+interface DataProcessor {\n        public function process($data);\n    }

@@ -1,1 +1,0 @@
-select cinema_name, cinema_id\nfrom cinemas\norder by cinema_name;

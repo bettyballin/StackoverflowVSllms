@@ -1,1 +1,0 @@
-function GetXmlHttpObject()\n{\n    var xmlHttp=null;\n    try\n    {\n        xmlHttp=new XMLHttpRequest();\n    }catch (e)\n    {\n\n        try\n        {\n            xmlHttp =new ActiveXObject("Microsoft.XMLHTTP");\n        } \n        catch (e) {}\n\n    }\nreturn xmlHttp;\n}

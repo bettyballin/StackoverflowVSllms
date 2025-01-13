@@ -1,0 +1,1 @@
+// Example of an ASP.NET Controller with AJAX\npublic class HomeController : Controller\n{\n    public ActionResult Index()\n    {\n        return View();\n    }\n\n    [HttpPost]\n    public JsonResult GetData()\n    {\n        var data = new { Message = "Hello, world!" };\n        return Json(data);\n    }\n}

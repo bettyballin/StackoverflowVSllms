@@ -1,0 +1,1 @@
+$inputString = "9,admin@example.com,8";\n$outputArray = explode(",", $inputString);\nprint_r($outputArray);\n// Output: ['9', 'admin@example.com', '8']

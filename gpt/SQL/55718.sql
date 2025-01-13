@@ -1,0 +1,1 @@
+SELECT dbo.AddWorkingHours('2009-06-26 15:45:00', 9)\n-- Expected output: '2009-06-29 15:45:00'

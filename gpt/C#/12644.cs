@@ -1,0 +1,1 @@
+try\n   {\n       // Your web service code\n   }\n   catch (Exception ex)\n   {\n       // Log the exception\n       System.IO.File.WriteAllText(@"C:\logs\errorlog.txt", ex.ToString());\n       throw;\n   }

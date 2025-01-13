@@ -1,1 +1,0 @@
-$("input[type=text]").blur(function() {\n    this.value = this.value; // Firefox\n    this.scrollLeft = 0; // Internet Explorer\n});

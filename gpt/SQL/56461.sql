@@ -1,0 +1,1 @@
+SELECT now() AT TIME ZONE 'UTC' AS utc_time,\n       now() AT TIME ZONE 'GMT' AS gmt_time;

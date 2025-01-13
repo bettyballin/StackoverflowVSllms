@@ -1,0 +1,1 @@
+$string = "hello world";\n    echo rawurlencode($string); // Outputs: hello%20world

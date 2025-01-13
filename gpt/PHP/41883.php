@@ -1,0 +1,1 @@
+<?php\n   $test = "C:/xampp/htdocs/elearning/trunk/mypage.php";\n   require $test;\n   ?>

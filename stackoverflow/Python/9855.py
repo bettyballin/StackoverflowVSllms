@@ -1,1 +1,0 @@
-matrix = [[1.0 if x == "X" else 0.0 for x in y] for y in """.XX......\n.XXX..X..\n.....XXX.\n......X..\n.XX......\n.X.......\n.X.......\n....XX...\n....XX...""".split("\n")]\n\nHEIGHT = len(matrix)\nWIDTH = len(matrix[0])\nY_RADIUS = HEIGHT / 2\nX_RADIUS = WIDTH / 2

@@ -1,0 +1,1 @@
+CREATE INDEX idx_user_who_posted ON status_updates(user_who_posted);

@@ -1,0 +1,1 @@
+<!-- Example of a valid resource path in a .resx file -->\n<data name="SomeImage" type="System.Resources.ResXFileRef, System.Windows.Forms">\n  <value>..\Images\SomeImage.png;System.Drawing.Bitmap, System.Drawing</value>\n</data>

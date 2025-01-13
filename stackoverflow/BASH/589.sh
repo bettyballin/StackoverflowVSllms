@@ -1,1 +1,0 @@
-svn propset --recursive svn:mime-type text/plain *.vbs

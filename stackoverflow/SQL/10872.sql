@@ -1,1 +1,0 @@
-update mytable\nset id = mysequence.nextval;

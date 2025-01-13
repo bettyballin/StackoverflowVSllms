@@ -1,1 +1,0 @@
-$filesList = '';\nforeach ($files as $filenames)\n{\n    $filesList .= '<p><a href="./files/'. $filenames['FILENAME'] .'">'. $filenames['FILENAME'] ."</a></p>\n"; \n};

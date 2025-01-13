@@ -1,0 +1,1 @@
+liquibase --changeLogFile=path/to/your/changelog.xml update

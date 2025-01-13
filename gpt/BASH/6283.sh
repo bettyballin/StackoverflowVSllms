@@ -1,0 +1,1 @@
+# Export configuration\n    drush config-export --destination=../config/sync\n\n    # Import configuration\n    drush config-import --source=../config/sync

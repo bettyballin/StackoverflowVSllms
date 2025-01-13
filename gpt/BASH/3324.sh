@@ -1,0 +1,1 @@
+gcc -o output_filename source_file.c

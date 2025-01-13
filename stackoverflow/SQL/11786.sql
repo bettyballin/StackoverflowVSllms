@@ -1,1 +1,0 @@
-DECODE(field, NULL, 'it is null, man', field)

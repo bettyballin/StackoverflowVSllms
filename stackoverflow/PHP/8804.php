@@ -1,1 +1,0 @@
-$query = 'SELECT news.id AS newsId, user.id AS userId, [OTHER FIELDS HERE] FROM news JOIN users ON news.user = user.id'

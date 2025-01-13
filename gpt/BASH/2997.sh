@@ -1,0 +1,1 @@
+gcc -o check_port check_port.c\n./check_port <port_number>

@@ -1,0 +1,1 @@
+gcc -o my_program my_program.c -L/path/to/static/library -l:libexample.a

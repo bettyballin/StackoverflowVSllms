@@ -1,1 +1,0 @@
-resource.put '<foo><name>somethingwitty</name></foo>', :content_type => 'application/xml'

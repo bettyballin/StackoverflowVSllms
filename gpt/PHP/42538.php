@@ -1,0 +1,1 @@
+// Example of API usage in Magento\n   $client = new \Magento\Framework\Webapi\Rest\Client(['base_url' => 'http://example.com']);\n   $response = $client->get('/V1/products');

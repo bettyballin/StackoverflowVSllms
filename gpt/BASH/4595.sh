@@ -1,0 +1,1 @@
+mkdir main_repo\n    cd main_repo\n    git init

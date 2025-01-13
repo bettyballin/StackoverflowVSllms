@@ -1,0 +1,1 @@
+$ch = curl_init('http://www.example.com/');\n   curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n   $response = curl_exec($ch);\n   $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);\n   echo 'HTTP Status Code: ' . $httpCode;

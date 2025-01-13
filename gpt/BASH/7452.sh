@@ -1,0 +1,1 @@
+# Write test with NFS\ntime dd if=/dev/zero of=/path/to/nfs/mount/testfile bs=1M count=1024\n\n# Write test with SMB/CIFS\ntime dd if=/dev/zero of=/path/to/smb/mount/testfile bs=1M count=1024\n\n# Read test with NFS\ntime dd if=/path/to/nfs/mount/testfile of=/dev/null bs=1M\n\n# Read test with SMB/CIFS\ntime dd if=/path/to/smb/mount/testfile of=/dev/null bs=1M

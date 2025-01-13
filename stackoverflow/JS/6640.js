@@ -1,1 +1,0 @@
-new Ajax.PeriodicalUpdater({success: 'content'}, '/Doc?'+d.getTime(),\n  {\n    method: 'post',\n    frequency: 5,\n  });

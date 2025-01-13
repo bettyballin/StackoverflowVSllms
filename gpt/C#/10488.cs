@@ -1,0 +1,1 @@
+IStream comIStream = // Obtain the IStream from your COM interop call\nusing (Stream netStream = new ComStream(comIStream))\n{\n    // Use the netStream with .NET classes, such as XmlDocument\n    XmlDocument xmlDoc = new XmlDocument();\n    xmlDoc.Load(netStream);\n}

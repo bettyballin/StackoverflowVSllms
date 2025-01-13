@@ -1,0 +1,1 @@
+public static class TargetExtensions\n{\n    public static Target FromEntity(db_Target source)\n    {\n        if (source == null || source.db_TargetBase == null) return null;\n\n        return new Target\n        {\n            id = source.id,\n            LastModified = source.db_TargetBase.LastModified,\n            // Other properties\n        };\n    }\n}

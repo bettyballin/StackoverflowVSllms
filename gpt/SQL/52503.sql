@@ -1,0 +1,1 @@
+CREATE TABLE items (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    other_field INT\n);

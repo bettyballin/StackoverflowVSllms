@@ -1,0 +1,1 @@
+xcopy "$(SolutionDir)ControlsLib\bin\release\*.dll" "$(TargetDir)" /Y

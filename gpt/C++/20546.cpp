@@ -1,0 +1,1 @@
+if (ptr != nullptr) {\n       ptr->doSomething();\n   }

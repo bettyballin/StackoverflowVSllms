@@ -1,0 +1,1 @@
+std::vector<int> vec = {1, 2, 3, 4, 5};\nstd::vector<int> result(vec.size());\nstd::transform(vec.begin(), vec.end(), result.begin(), [](int n) { return n * 2; });

@@ -1,1 +1,0 @@
-for (i=lower=0;i< N*(X/100); lower++)\n  i+=count[lower];\n//repeat in other direction for upper

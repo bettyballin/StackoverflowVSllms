@@ -1,0 +1,1 @@
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="MyControl.ascx.cs" Inherits="YourNamespace.MyControl" %>\n<asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>\n<asp:TextBox ID="txtInput" runat="server"></asp:TextBox>\n<asp:DropDownList ID="ddlResults" runat="server"></asp:DropDownList>

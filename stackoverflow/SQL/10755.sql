@@ -1,1 +1,0 @@
-select name, email\nfrom tbl\nwhere name = '[name]'\norder by name, class\nfetch first row only;

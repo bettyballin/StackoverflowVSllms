@@ -1,1 +1,0 @@
-select t1.TARIH, t1.SIRA, VISITINGCOUNT = isnull(t2.SIRA, 0)\nfrom #TMP t1\nleft join ( --paste query 2 here-- ) t2 on t2.TARIH = t1.SIRA\norder by t1.SIRA

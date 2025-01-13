@@ -1,0 +1,1 @@
+# Example: Running Debezium with PostgreSQL\n   docker run -it --rm --name debezium -p 8083:8083 \\n       -e ADV_HOST=localhost \\n       -e GROUP_ID=1 \\n       -e CONFIG_STORAGE_TOPIC=my-connect-configs \\n       -e OFFSET_STORAGE_TOPIC=my-connect-offsets \\n       -e STATUS_STORAGE_TOPIC=my-connect-status \\n       debezium/connect

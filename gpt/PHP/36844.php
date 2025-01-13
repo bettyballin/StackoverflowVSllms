@@ -1,0 +1,1 @@
+$foo = unserialize($_SESSION['foo']);

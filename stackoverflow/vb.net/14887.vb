@@ -1,1 +1,0 @@
-Dim inputDate As String = "April 1, 2009"\n    Dim outputDate As Date = Date.Parse(inputDate)\n    Dim month As Integer = outputDate.Month

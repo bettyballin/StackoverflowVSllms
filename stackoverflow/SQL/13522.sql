@@ -1,1 +1,0 @@
-SELECT t2.id\nFROM table1 t1\nINNER JOIN table2 t2 ON t1.id = t2.relation_id\nWHERE t1.date BETWEEN ? AND ?\nHAVING MAX(t1.date)

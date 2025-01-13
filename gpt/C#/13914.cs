@@ -1,0 +1,1 @@
+var sessionFactory = Fluently.Configure()\n    .Database(/* Database configuration here */)\n    .Mappings(m => m.FluentMappings.AddFromAssemblyOf<MyViewEntity>())\n    .BuildSessionFactory();

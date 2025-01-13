@@ -1,1 +1,0 @@
-/*global getElementByAttribute, breakCycles, hanoi */

@@ -1,0 +1,1 @@
+document.querySelectorAll('div').forEach(function(div) {\n    if (div.hasAttribute('your-property')) {\n        console.log('Property found:', div);\n    }\n});

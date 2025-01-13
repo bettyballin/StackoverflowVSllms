@@ -1,0 +1,1 @@
+INSERT INTO TEST (id, col1, col2, col3, col4, decimal_col1, decimal_col2) \nVALUES (153, 'test', 'test', 1, 1, 1.11, 1.11);

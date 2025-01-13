@@ -1,0 +1,1 @@
+$ch = curl_init();\n\ncurl_setopt($ch, CURLOPT_URL, "http://example.com");\ncurl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);\n$response = curl_exec($ch);\n\nif(curl_errno($ch)) {\n    echo 'Error:' . curl_error($ch);\n}\n\ncurl_close($ch);\necho $response;

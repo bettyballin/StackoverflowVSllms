@@ -1,0 +1,1 @@
+aspnet_regiis -pef "sectionName" "pathToYourWebConfig"

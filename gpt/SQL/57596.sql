@@ -1,0 +1,1 @@
+set @SomeVariable = @AnotherVariable / ISNULL(NULLIF(@VariableEqualToZero, 0), 1) - 1

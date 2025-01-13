@@ -1,0 +1,1 @@
+using (var rsa = new RSACryptoServiceProvider())\n   {\n       rsa.ImportParameters(publicKey);\n       string publicKeyPem = Convert.ToBase64String(rsa.ExportSubjectPublicKeyInfo());\n       System.IO.File.WriteAllText("publicKey.pem", $"-----BEGIN PUBLIC KEY-----\n{publicKeyPem}\n-----END PUBLIC KEY-----");\n   }

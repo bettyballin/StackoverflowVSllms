@@ -1,0 +1,1 @@
+BEGIN TRANSACTION;\n\n-- Update the row in the main table\nUPDATE MainTable\nSET Column1 = 'NewValue'\nWHERE PrimaryKey = 'KeyValue';\n\n-- Log the update by calling the stored procedure\nEXEC dbo.LogUpdateProcedure @PrimaryKey = 'KeyValue', @UpdatedValue = 'NewValue';\n\nCOMMIT TRANSACTION;

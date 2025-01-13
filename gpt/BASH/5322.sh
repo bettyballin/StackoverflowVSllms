@@ -1,0 +1,1 @@
+strace -o output.txt -f -p <PID>

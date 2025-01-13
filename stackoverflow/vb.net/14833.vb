@@ -1,1 +1,0 @@
-<%@ LANGUAGE="VBScript" %> \n<%\nif Request.ServerVariables("HTTPS") <> "on" then\n    sServer = Request.ServerVariables("SERVER_NAME")\n    sScript = Request.ServerVariables("SCRIPT_NAME")\n    sQuery  = Request.ServerVariables("QUERY_STRING")\n    Response.Write("https://" & sServer & sScript & "?" & sQuery)\nend if\n%>

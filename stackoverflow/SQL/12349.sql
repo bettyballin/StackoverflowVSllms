@@ -1,1 +1,0 @@
-SELECT bugs.id, bug_color.name \nFROM bugs\nINNER JOIN bug_color ON bugs.id = bug_color.id\nWHERE bugs.id = 1

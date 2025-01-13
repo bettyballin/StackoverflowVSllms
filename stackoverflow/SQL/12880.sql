@@ -1,1 +1,0 @@
-select table_catalog,table_schema,table_name,column_name,rc.* from\ninformation_schema.constraint_column_usage ccu, \ninformation_schema.referential_constraints rc \nwhere ccu.constraint_name = rc.constraint_name

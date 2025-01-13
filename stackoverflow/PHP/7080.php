@@ -1,1 +1,0 @@
-$uploaddir = '../httpdocs/';\n$uploadfile = $uploaddir . basename($_FILES['myfile']['name']);

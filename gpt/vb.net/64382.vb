@@ -1,0 +1,1 @@
+' Both ExpensiveFunction1() and ExpensiveFunction2() are evaluated\nDim X As Integer = IIF(SomeBoolean = True, ExpensiveFunction1(), ExpensiveFunction2())

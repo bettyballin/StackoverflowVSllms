@@ -1,1 +1,0 @@
-UPDATE table SET colname=LOWER(colname);

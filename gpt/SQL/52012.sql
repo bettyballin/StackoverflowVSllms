@@ -1,0 +1,1 @@
+DATEADD(dd, DATEDIFF(dd, '19000101', [datetime_column]), '19000101')

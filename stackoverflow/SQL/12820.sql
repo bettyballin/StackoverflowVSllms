@@ -1,1 +1,0 @@
-select utl_raw.cast_to_varchar2(dbms_lob.substr(BLOB_FIELD)) from TABLE_WITH_BLOB where ID = '<row id>';

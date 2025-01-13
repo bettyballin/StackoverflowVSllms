@@ -1,0 +1,1 @@
+public class YourEntityConfiguration : EntityTypeConfiguration<YourEntity>\n    {\n        public YourEntityConfiguration()\n        {\n            // Define the primary key\n            this.HasKey(e => e.CorrectPrimaryKeyColumn);\n\n            // Other configurations\n            this.Property(e => e.UnwantedKeyColumn).IsRequired();\n        }\n    }

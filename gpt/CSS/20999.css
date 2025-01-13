@@ -1,0 +1,1 @@
+/* Ensure the parent ul has a relative position */\nul.parent {\n    position: relative;\n    z-index: 1; /* Lower z-index */\n}\n\n/* Ensure the submenu has an absolute position and higher z-index */\nul.submenu {\n    position: absolute;\n    z-index: 10; /* Higher z-index ensures it is in the foreground */\n}

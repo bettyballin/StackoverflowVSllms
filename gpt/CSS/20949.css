@@ -1,0 +1,1 @@
+table {\n  border-collapse: collapse;\n  width: 100%; /* Ensure the table takes full width */\n}\n\ntable td {\n  border: 1px solid black;\n}\n\ntable td:first-child, table td:nth-child(2) {\n  white-space: nowrap; /* Prevent these cells from expanding */\n}\n\ntable td:last-child {\n  width: 100%; /* Make this cell take the remaining space */\n}

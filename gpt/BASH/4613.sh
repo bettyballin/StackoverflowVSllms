@@ -1,0 +1,1 @@
+split -l 10000 dump.sql part_\n    mysql -u username -p database < part_aa &\n    mysql -u username -p database < part_ab &

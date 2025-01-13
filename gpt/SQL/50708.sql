@@ -1,0 +1,1 @@
+ALTER TABLE YourTable\n   ADD CONSTRAINT DF_YourTable_YourGuidColumn\n   DEFAULT newsequentialid() FOR YourGuidColumn;

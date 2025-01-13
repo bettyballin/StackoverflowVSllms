@@ -1,0 +1,1 @@
+def chebyshev_sin(x):\n       # Coefficients for Chebyshev approximation of sin(x) on [-pi/2, pi/2]\n       c = [0, 1, 0, -1/6, 0, 1/120, 0, -1/5040]\n       x2 = x * x\n       result = 0\n       for i in range(len(c) - 1, -1, -1):\n           result = result * x2 + c[i]\n       return result * x\n\n   print(chebyshev_sin(math.pi / 6))  # Example usage

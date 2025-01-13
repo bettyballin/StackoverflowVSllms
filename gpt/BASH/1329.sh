@@ -1,0 +1,1 @@
+PKG_CXXFLAGS = $(shell R CMD config --cxxflags)\nPKG_LIBS = $(shell R CMD config --ldflags) -lole32 -loleaut32

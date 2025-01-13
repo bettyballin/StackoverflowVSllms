@@ -1,0 +1,1 @@
+sshuttle --dns -r user@your.server.com 0/0 -x your.server.com

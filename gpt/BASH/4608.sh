@@ -1,0 +1,1 @@
+sudo a2ensite myflaskapp\n    sudo systemctl restart apache2

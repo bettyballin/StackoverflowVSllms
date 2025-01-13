@@ -1,0 +1,1 @@
+REM Pre-snapshot script (compress_snapshot.bat)\n   REM Change directory to the snapshot folder\n   cd C:\Replication\SnapshotFolder\n   REM Compress the snapshot files\n   tar -czf snapshot.tar.gz *

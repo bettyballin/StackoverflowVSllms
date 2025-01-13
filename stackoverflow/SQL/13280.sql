@@ -1,1 +1,0 @@
-SELECT t.id,\n       t.description AS most_popular_description,\n       COUNT(*) AS times_the_desc_appeared_for_an_id\nFROM mytable t INNER JOIN (\n  SELECT id, stats_mode(description) AS desc FROM mytable GROUP BY id\n) a ON t.id = a.id AND t.description = a.desc\nGROUP BY t.id, t.description;

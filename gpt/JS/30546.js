@@ -1,0 +1,1 @@
+var newDiv = document.createElement('div');\nnewDiv.id = 'mysection';\nnewDiv.innerHTML = 'Your content here';\n\ndocument.getElementById('topics').appendChild(newDiv);

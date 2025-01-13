@@ -1,0 +1,1 @@
+using (var writer = new StreamWriter(filePath, false, Encoding.UTF8, 65536)) // 64KB buffer

@@ -1,1 +1,0 @@
-sort -k 1 original > by_col_1\nsort -k 2 original > by_col_2

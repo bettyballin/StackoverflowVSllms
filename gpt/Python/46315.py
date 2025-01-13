@@ -1,0 +1,1 @@
+user_input = float(input_value)\n   if user_input > some_critical_value:\n       # handle accordingly

@@ -1,0 +1,1 @@
+from django.db import connection\n\ndef get_complex_query_results():\n    with connection.cursor() as cursor:\n        cursor.execute("SELECT * FROM my_table WHERE condition = %s", [condition_value])\n        rows = cursor.fetchall()\n    return rows

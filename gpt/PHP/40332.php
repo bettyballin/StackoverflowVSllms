@@ -1,0 +1,1 @@
+class Members_RegisterController extends Zend_Controller_Action\n    {\n        public function indexAction()\n        {\n            // Your action code here\n        }\n    }

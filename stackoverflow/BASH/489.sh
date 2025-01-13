@@ -1,1 +1,0 @@
-#!/bin/sh\nSED_ARG="-e 's/SOMETHING//g'"\necho SOMETHING | eval sed "$SED_ARG"\necho SOMETHING | sed $SED_ARG

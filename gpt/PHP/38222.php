@@ -1,0 +1,1 @@
+class MyClass {\n    // Class property\n    private $propertyName;\n\n    // Class method\n    public function myMethodName() {\n        // Method logic\n    }\n}

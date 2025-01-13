@@ -1,0 +1,1 @@
+public ActionResult Directions()\n{\n    uls_dbDataContext ulsdb_dc = new uls_dbDataContext();\n\n    ViewData["OfficeLocations"] = new SelectList(ulsdb_dc.GetOfficeLocations(), "location_address", "location_name");\n\n    ViewData["Title"] = "Directions";\n\n    return View();\n}

@@ -1,0 +1,1 @@
+# Generate a key file for NTP authentication\necho "1 M your_secure_key_here" > /etc/ntp.keys\n\n# Set permissions for the key file\nchmod 600 /etc/ntp.keys\n\n# Add the following lines to /etc/ntp.conf\nkeys /etc/ntp.keys\ntrustedkey 1\nrequestkey 1\ncontrolkey 1\n\n# Specify the NTP server and use the key\nserver your.ntp.server iburst key 1

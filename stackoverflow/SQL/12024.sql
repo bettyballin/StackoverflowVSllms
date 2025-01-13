@@ -1,1 +1,0 @@
-SELECT  SUM(CASE WHEN order_date >= '01/01/09' THEN quantity ELSE 0 END) AS items_sold_since_date,\n        SUM(quantity) AS items_sold_total,\n        product_ID\nFROM    Sales\nGROUP BY product_ID

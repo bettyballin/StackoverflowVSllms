@@ -1,1 +1,0 @@
-SELECT \n  A.articleNum, \n  MCreated.Timestamp AS Created, \n  MUpdated.Timestamp Updated\nFROM Articles A\nJOIN Messages MCreated \n  ON MCreated.articleNum = A.articleNum\n  AND MCreated.Message = 'added'\nLEFT JOIN Messages MUpdated\n  ON MUpdated.articleNum = A.articleNum\n  AND MUpdated.Message = 'updated'

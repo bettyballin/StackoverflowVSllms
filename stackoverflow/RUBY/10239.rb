@@ -1,1 +1,0 @@
-self.use_transactional_fixtures = false

@@ -1,0 +1,1 @@
+cp -r /path/to/xinc /var/www/path/to/xinc

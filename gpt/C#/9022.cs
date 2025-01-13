@@ -1,0 +1,1 @@
+var result = _container.Database.SqlQuery<MyStoredProcedureResult>("MyStoredProcedure @param", new SqlParameter("@param", uberParameter)).ToList();

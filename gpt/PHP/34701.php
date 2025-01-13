@@ -1,0 +1,1 @@
+<?php\n    if (isset($_GET['var'])) {\n        $var = $_GET['var'];\n        echo "The value of var is: " . htmlspecialchars($var, ENT_QUOTES, 'UTF-8');\n    } else {\n        echo "No 'var' parameter provided.";\n    }\n    ?>

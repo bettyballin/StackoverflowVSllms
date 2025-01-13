@@ -1,0 +1,1 @@
+CREATE TABLE Permissions (\n       permission_id INT PRIMARY KEY,\n       permission_name VARCHAR(255) NOT NULL\n   );

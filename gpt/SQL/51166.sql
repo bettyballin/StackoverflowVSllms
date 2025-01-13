@@ -1,0 +1,1 @@
+DECLARE @n INT;\nSET @n = DATEDIFF(d, '2009-01-01', GETDATE());\n\nINSERT INTO YourTargetTable (ColumnName)\nSELECT ID\nFROM dbo.InsertRecords(@n);

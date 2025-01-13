@@ -1,1 +1,0 @@
-'_'.join(['welcome', 'to', 'stack', 'overflow'])\n'_'.join(('welcome', 'to', 'stack', 'overflow'))

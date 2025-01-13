@@ -1,0 +1,1 @@
+<configuration>\n  <system.web>\n    <profile>\n      <properties>\n        <add name="GuidProperty" type="System.Guid" />\n        <add name="StringProperty1" type="System.String" />\n        <add name="StringProperty2" type="System.String" />\n        <add name="IntProperty" type="System.Int32" />\n      </properties>\n    </profile>\n  </system.web>\n</configuration>

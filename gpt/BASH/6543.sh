@@ -1,0 +1,1 @@
+mkdir ~/remote_directory

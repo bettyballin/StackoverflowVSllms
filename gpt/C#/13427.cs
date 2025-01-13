@@ -1,0 +1,1 @@
+public class HomeController : Controller\n{\n    public async Task<IActionResult> Index()\n    {\n        // Call the async method\n        string result = await CallRemotingServiceAsync();\n        return View((object)result);\n    }\n}

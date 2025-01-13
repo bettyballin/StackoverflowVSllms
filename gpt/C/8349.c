@@ -1,0 +1,1 @@
+char c_str[100];\n   snprintf(c_str, sizeof(c_str), "Hello, World!"); // Using C-style string functions

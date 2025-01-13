@@ -1,0 +1,1 @@
+SELECT *\nFROM your_table\nWHERE ABS(EXTRACT(EPOCH FROM (timestamp1 - timestamp2))) = 30;

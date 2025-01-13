@@ -1,1 +1,0 @@
-select userid,\n       my_date,\n       ...\nfrom\n(\nselect userid,\n       my_date,\n       ...\n       max(my_date) over (partition by userid) max_my_date\nfrom   users\n)\nwhere my_date = max_my_date

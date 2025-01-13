@@ -1,1 +1,0 @@
-select \n    table1.field1 as 'Node1/Field1'\n,   table2.field1 as 'Node1/Child1/Field1'\n,   table1.field2 as 'Node2/Field2'\nfrom table1\nleft join table2 on table1.id = table2.table1id\nfor xml PATH(''), ROOT('Root')

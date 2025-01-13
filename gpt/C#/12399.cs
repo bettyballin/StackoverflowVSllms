@@ -1,0 +1,1 @@
+for (int i = 0; i < letterRange.Count; i++)\n{\n    Console.Write(letterRange[i] + ",");\n}\nConsole.Write("\n");

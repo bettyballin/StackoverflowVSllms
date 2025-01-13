@@ -1,1 +1,0 @@
-private void functionName (ref Type variableName)\n{\n\n}

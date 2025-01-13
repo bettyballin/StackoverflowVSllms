@@ -1,1 +1,0 @@
-SELECT \n    [TableName] = so.name, \n    [RowCount] = MAX(si.rows) \nFROM \n    sysobjects so, \n    sysindexes si \nWHERE \n    so.xtype = 'U' \n    AND \n    si.id = OBJECT_ID(so.name) \nGROUP BY \n    so.name \nORDER BY \n    2 DESC

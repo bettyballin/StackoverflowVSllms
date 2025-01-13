@@ -1,0 +1,1 @@
+tr -d '\r' < yourfile.sql > yourfile_unix.sql

@@ -1,0 +1,1 @@
+SELECT request_session_id, resource_type, resource_description\nFROM sys.dm_tran_locks\nWHERE resource_associated_entity_id = OBJECT_ID('your_table_name');

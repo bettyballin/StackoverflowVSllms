@@ -1,0 +1,1 @@
+enum Option<T> {\n    Some(T value),\n    None\n}\n\n// Example usage\nOption<String> maybeName = Option.None;\nmaybeName = Option.Some("Alice");

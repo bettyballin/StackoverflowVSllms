@@ -1,1 +1,0 @@
-uwgMyGrid.Columns.FromKey("colTest").AllowUpdate = AllowUpdate.Yes;

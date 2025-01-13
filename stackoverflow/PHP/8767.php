@@ -1,1 +1,0 @@
-$logManager = new LogManager();\n$dbSession = new DbSession($logManager);\n$logManager->add(new FileLog($filename) );\n$logManager->add(new DBLog($dbSession) );

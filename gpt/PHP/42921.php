@@ -1,0 +1,1 @@
+function cleanVowels($str) {\n    $vowels = array("a", "e", "i", "o", "u");\n    $filter = "[explicit]";\n    $clean = str_ireplace($vowels, $filter, $str);\n    return $clean;\n}\n\n// Example usage\n$input = "Explicit text example";\necho cleanVowels($input);

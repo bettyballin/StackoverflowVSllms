@@ -1,0 +1,1 @@
+$data['x'] = $this->x->getResults();     \n\n// Clone each object in the array\n$data['y'] = [];\nforeach ($data['x'] as $key => $row) {\n    $data['y'][$key] = clone $row;\n}\n\n// Now modifying $data['y'] won't affect $data['x']

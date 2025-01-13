@@ -1,0 +1,1 @@
+CREATE TABLE SourceCodeExamples (\n    id INT PRIMARY KEY IDENTITY,\n    code NVARCHAR(MAX)\n);

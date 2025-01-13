@@ -1,0 +1,1 @@
+// Encrypting data with OpenSSL in PHP\n    $plaintext = "sensitive_data";\n    $key = "encryption_key";\n    $iv = openssl_random_pseudo_bytes(openssl_cipher_iv_length('aes-256-cbc'));\n    $ciphertext = openssl_encrypt($plaintext, 'aes-256-cbc', $key, 0, $iv);

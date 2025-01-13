@@ -1,1 +1,0 @@
-SELECT DISTINCT FROM_UNIXTIME(date, '%M %Y') FROM posts;

@@ -1,0 +1,1 @@
+-- Creating a table with XML column\nCREATE TABLE Logs (\n    LogID INT PRIMARY KEY,\n    LogData XML\n);\n\n-- Inserting XML data\nINSERT INTO Logs (LogID, LogData)\nVALUES (1, '<SOAPMessage><Header>...</Header><Body>...</Body></SOAPMessage>');\n\n-- Querying XML data using XQuery\nSELECT LogData.query('/SOAPMessage/Body')\nFROM Logs\nWHERE LogID = 1;

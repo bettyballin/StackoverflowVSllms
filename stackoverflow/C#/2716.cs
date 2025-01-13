@@ -1,1 +1,0 @@
-Convert.ToString(Convert.ToChar(Int32.Parse(EncodedString.Substring(intParseIndex, 2), System.Globalization.NumberStyles.HexNumber)));

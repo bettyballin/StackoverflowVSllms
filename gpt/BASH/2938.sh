@@ -1,0 +1,1 @@
+* * * * * cd /etc/parselog/ && /usr/bin/php run_all.php >/dev/null 2>&1

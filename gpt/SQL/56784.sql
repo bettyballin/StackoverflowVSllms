@@ -1,0 +1,1 @@
+CREATE TABLE example_table (\n       id BINARY(16) NOT NULL PRIMARY KEY,\n       other_column VARCHAR(255)\n   );

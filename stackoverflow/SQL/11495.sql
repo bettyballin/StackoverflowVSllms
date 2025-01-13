@@ -1,1 +1,0 @@
-SELECT *\nFROM payments p\nWHERE NOT EXISTS (\n    SELECT *\n    FROM payments p2\n    WHERE p2.CustomerID = p.CustomerId\n    AND   p2.Value > p.Value\n)

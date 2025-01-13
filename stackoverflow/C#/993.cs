@@ -1,1 +1,0 @@
-interface IProperty\n{\n    string Name { get; }\n    object Value { get; }\n}\n\ninterface IDataStreamProvider\n{\n    Stream OpenStream();\n}\n\ninterface IPlugin\n{\n    ReadOnlyCollection<IProperty> Properties { get; }\n\n    ReadOnlyCollection<IDataStreamProvider> DataStreams { get; }\n}

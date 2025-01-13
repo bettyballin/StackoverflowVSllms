@@ -1,0 +1,1 @@
+CREATE INDEX idx_gin_data ON users USING gin(data);

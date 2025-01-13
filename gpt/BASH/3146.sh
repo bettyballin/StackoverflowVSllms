@@ -1,0 +1,1 @@
+curl -L https://cpanmin.us | perl - App::cpanminus

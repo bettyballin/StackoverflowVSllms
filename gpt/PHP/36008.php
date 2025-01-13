@@ -1,0 +1,1 @@
+$link_text = "Example Link";\necho '<a href="../" title="' . htmlspecialchars('link title', ENT_QUOTES, 'UTF-8') . '">' . htmlspecialchars($link_text, ENT_QUOTES, 'UTF-8') . '</a>';

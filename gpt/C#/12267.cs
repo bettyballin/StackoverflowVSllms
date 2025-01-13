@@ -1,0 +1,1 @@
+protected void cvCheckBoxList_ServerValidate(object source, ServerValidateEventArgs args)\n{\n    args.IsValid = ckBoxListReasons.Items.Cast<ListItem>().Any(item => item.Selected);\n}

@@ -1,0 +1,1 @@
+public delegate void CallbackDelegate();\n\npublic class MyCSharpClass\n{\n    private CallbackDelegate _callbackDelegate;\n\n    public void RegisterCallback(CallbackDelegate callback)\n    {\n        _callbackDelegate = callback;\n    }\n\n    public void InvokeCallback()\n    {\n        _callbackDelegate?.Invoke();\n    }\n}

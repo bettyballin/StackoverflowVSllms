@@ -1,0 +1,1 @@
+-- Example of restricting access to a specific IP address in SQL Server\n   USE master;\n   GO\n   CREATE LOGIN [webserver_user] WITH PASSWORD = 'strong_password';\n   CREATE USER [webserver_user] FOR LOGIN [webserver_user];\n   EXEC sp_addrolemember N'db_datareader', N'webserver_user'; -- Minimal privileges

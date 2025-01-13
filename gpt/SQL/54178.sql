@@ -1,0 +1,1 @@
+SELECT id\nFROM your_table\nGROUP BY id\nHAVING COUNT(*) = COUNT(CASE WHEN stat LIKE 'FN%' OR stat LIKE 'W%' THEN 1 END);

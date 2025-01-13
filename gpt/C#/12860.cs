@@ -1,0 +1,1 @@
+public class HomeController : Controller\n{\n    public ActionResult Index()\n    {\n        // Example HTML content retrieved from a database\n        string htmlContent = "<h1>Hello World</h1>";\n        \n        // Pass the HTML content to the view using ViewData\n        ViewData["HtmlContent"] = htmlContent;\n        \n        return View();\n    }\n}

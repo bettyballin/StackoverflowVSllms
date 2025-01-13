@@ -1,0 +1,1 @@
+<WebRole name="YourWebRole" vmsize="Small">\n     <Endpoints>\n       <InputEndpoint name="HttpsIn" protocol="https" port="443" certificate="YourCertificateName" />\n     </Endpoints>\n     <Certificates>\n       <Certificate name="YourCertificateName" storeLocation="LocalMachine" storeName="My" />\n     </Certificates>\n   </WebRole>

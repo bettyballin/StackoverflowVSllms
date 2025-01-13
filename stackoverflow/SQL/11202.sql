@@ -1,1 +1,0 @@
-SELECT * FROM scales\nINNER JOIN items ON scales.id = items.scale_id

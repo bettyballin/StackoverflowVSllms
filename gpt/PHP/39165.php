@@ -1,0 +1,1 @@
+function customErrorHandler($errno, $errstr, $errfile, $errline) {\n    if (!(error_reporting() & $errno)) {\n        return;\n    }\n    throw new SoapFault("Server", $errstr);\n}\n\nset_error_handler("customErrorHandler");

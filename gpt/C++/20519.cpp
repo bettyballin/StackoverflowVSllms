@@ -1,0 +1,1 @@
+#include <xmmintrin.h>\n\n    void add_float_arrays(float* a, float* b, float* result, int n) {\n        for (int i = 0; i < n; i += 4) {\n            __m128 va = _mm_load_ps(&a[i]);\n            __m128 vb = _mm_load_ps(&b[i]);\n            __m128 vr = _mm_add_ps(va, vb);\n            _mm_store_ps(&result[i], vr);\n        }\n    }

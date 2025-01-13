@@ -1,0 +1,1 @@
+var topOrders = dbContext.Orders\n    .Select(order => new\n    {\n        Order = order,\n        GreaterOrdersCount = dbContext.Orders.Count(y => y.TotalOrder > order.TotalOrder)\n    })\n    .Where(orderInfo => orderInfo.GreaterOrdersCount < 6)\n    .Select(orderInfo => orderInfo.Order)\n    .ToList();

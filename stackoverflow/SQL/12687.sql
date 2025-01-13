@@ -1,1 +1,0 @@
-SELECT \n * \nFROM \n scott.emp\nWHERE \n (deptno,job,sal) IN\n (SELECT \n   deptno,\n   job,\n   max(sal) \n  FROM \n   scott.emp\n  WHERE \n   deptno = 20 \n   and job = 'CLERK'\n  GROUP BY \n   deptno,\n   job\n  )

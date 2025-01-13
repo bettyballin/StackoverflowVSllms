@@ -1,0 +1,1 @@
+$stmt = $pdo->prepare("SELECT * FROM master WHERE name LIKE ?");\n   $searchTerm = "%" . $input . "%";\n   $stmt->execute([$searchTerm]);\n   $results = $stmt->fetchAll();

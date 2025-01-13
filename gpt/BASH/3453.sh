@@ -1,0 +1,1 @@
+sudo systemctl enable myapp.service\nsudo systemctl start myapp.service

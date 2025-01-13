@@ -1,0 +1,1 @@
+sqlacodegen postgresql://user:password@localhost/dbname --outfile models.py

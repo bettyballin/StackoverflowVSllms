@@ -1,1 +1,0 @@
-$('a.special').click( function(){\n    $.post( '/someUrl.php', { data: userID});    \n});

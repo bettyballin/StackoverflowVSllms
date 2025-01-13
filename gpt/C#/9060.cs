@@ -1,0 +1,1 @@
+using (ISession session = _sessionManager.OpenSession())\n{\n    ICriteria crit = session.CreateCriteria(typeof(Content));\n    crit.SetCacheable(true); // Enable query caching if appropriate\n    return crit.List();\n}

@@ -1,0 +1,1 @@
+using System;\nusing System.Runtime.InteropServices;\n\n[ClassInterface(ClassInterfaceType.None)]\n[Guid("YYYYYYYY-YYYY-YYYY-YYYY-YYYYYYYYYYYY")]\n[ComVisible(true)]\npublic class MyComClass : IMyComInterface\n{\n    public int Add(int a, int b)\n    {\n        return a + b;\n    }\n}

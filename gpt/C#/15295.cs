@@ -1,0 +1,1 @@
+using (var context = new AppDbContext())\n{\n    var employee = context.Employees\n                          .Where(e => e.TotalSales == "1000")\n                          .FirstOrDefault();\n}

@@ -1,1 +1,0 @@
-$xorKey = 16909060;\n$data = 1337;\n\n$data = ((16 * ($xorKey ^ (~$data & 0xFF)))\n                 | (($xorKey ^ (~$data & 0xFF)) >> 4)) & 0xFF;\n\necho $data; // int 60

@@ -1,1 +1,0 @@
-select A, C from TableA where A >=0 order by C asc, A asc, B asc, D asc

@@ -1,1 +1,0 @@
-SELECT * FROM foo\n  LEFT OUTER JOIN (foo2bar JOIN bar ON (foo2bar.bid = bar.bid AND zid = 30))\n  USING (fid);

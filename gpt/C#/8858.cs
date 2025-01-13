@@ -1,0 +1,1 @@
+int[] array = { 1, 2, 3, 4, 5 };\nstring result = String.Join(", ", array);\nConsole.WriteLine(result);  // Output: 1, 2, 3, 4, 5

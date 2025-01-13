@@ -1,0 +1,1 @@
+protected void Application_Start()\n{\n    AreaRegistration.RegisterAllAreas();\n    FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);\n    RouteConfig.RegisterRoutes(RouteTable.Routes);\n    BundleConfig.RegisterBundles(BundleTable.Bundles);\n\n    FluentValidationModelValidatorProvider.Configure();\n}

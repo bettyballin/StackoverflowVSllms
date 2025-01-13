@@ -1,0 +1,1 @@
+<?php\n// Path to your image file\n$imagePath = 'path/to/your/favicon.ico';\n\n// Read the image file into a binary string\n$imageData = file_get_contents($imagePath);\n\n// Encode the binary data to Base64\n$base64Image = base64_encode($imageData);\n\n// Output the Base64 encoded image\necho $base64Image;\n?>

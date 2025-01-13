@@ -1,0 +1,1 @@
+using System;\nusing SlimTuneLib;\n\npublic class Program\n{\n    static void Main(string[] args)\n    {\n        Profiler.SetApplicationName("MyApp");\n        Profiler.Start();\n        \n        // Your code here\n        \n        Profiler.Stop();\n    }\n}

@@ -1,1 +1,0 @@
-if(strpos("abc", "a")) { \n  echo "Yes";\n} else {\n  echo "No";\n}

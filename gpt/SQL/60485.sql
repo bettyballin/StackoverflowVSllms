@@ -1,0 +1,1 @@
+CREATE FOREIGN TABLE foreign_schema.someTableName (\n       column1 datatype,\n       column2 datatype,\n       ...\n   )\n   SERVER foreign_db_server\n   OPTIONS (schema_name 'public', table_name 'someTableName');

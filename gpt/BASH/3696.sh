@@ -1,0 +1,1 @@
+chmod 600 /path/to/where/keys/really/are/id_rsa\nchmod 644 /path/to/where/keys/really/are/id_rsa.pub

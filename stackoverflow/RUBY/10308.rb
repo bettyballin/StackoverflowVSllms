@@ -1,1 +1,0 @@
-ActionController::Base.session_options[:session_domain] = '.site.com'

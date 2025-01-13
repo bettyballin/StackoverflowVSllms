@@ -1,1 +1,0 @@
-UPDATE nations \n   SET count = (\n       SELECT COUNT(id) \n         FROM poets \n        WHERE poets.nation = nations.id \n        GROUP BY id\n       );

@@ -1,0 +1,1 @@
+$yes = random_int(1, $possibilities);\n\n// OPTION 1\n$yesCheck = $possibilities;\n\n// OPTION 2\n// $yesCheck = random_int(1, $possibilities);\n\nreturn ($yesCheck == $yes);

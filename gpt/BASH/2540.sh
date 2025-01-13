@@ -1,0 +1,1 @@
+gcc -dumpspecs > custom_gcc_specs

@@ -1,0 +1,1 @@
+"$(Eazfuscator.NET)" "$(TargetPath)"

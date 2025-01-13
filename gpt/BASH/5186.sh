@@ -1,0 +1,1 @@
+./configure --with-apxs2=/usr/local/apache2/bin/apxs \\n   --with-config-file-path=/usr/local/apache2/conf/php.ini \\n   --with-curl=/usr/lib/ --with-mysql --with-mysqli \\n   --with-zlib --with-gd --with-jpeg-dir=/usr/local/lib/ \\n   --with-freetype-dir=/usr/lib/ --enable-soap --enable-pdo \\n   --with-pdo-mysql --with-sqlite=shared

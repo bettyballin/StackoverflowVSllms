@@ -1,1 +1,0 @@
-static GenericCollection()\n{\n    if (!typeof(T).IsSubclassOf(typeof(Delegate)))\n    {\n        throw new InvalidOperationException(typeof(T).Name + " is not a delegate type");\n    }\n}

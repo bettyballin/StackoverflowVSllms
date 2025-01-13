@@ -1,0 +1,1 @@
+SELECT\n    t.*, ct.RANK\nFROM\n    YourTable AS t\n    INNER JOIN CONTAINSTABLE(YourTable, YourColumn, 'the') AS ct\n    ON t.YourPrimaryKey = ct.[KEY]

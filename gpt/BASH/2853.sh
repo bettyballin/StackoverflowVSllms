@@ -1,0 +1,1 @@
+caspol -machine -addgroup 1.2 -url "file://C:/path/to/your/assembly/*" FullTrust

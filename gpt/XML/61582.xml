@@ -1,0 +1,1 @@
+<datamodel>\n  <customer>\n    <firstName type="string"/>\n    <lastName type="string"/>\n    <age type="int"/>\n  </customer>\n</datamodel>

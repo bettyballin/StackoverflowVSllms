@@ -1,1 +1,0 @@
-if (stripos($url, 'http://') !== 0) {\n   $url = 'http://' . $url;\n}

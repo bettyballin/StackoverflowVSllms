@@ -1,0 +1,1 @@
+pt-query-digest /var/log/mysql/slow-query.log

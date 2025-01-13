@@ -1,1 +1,0 @@
-import win32com.client\nobject = win32com.client.Dispatch("Outlook.Application")

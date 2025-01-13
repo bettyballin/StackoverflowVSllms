@@ -1,1 +1,0 @@
-public class Groups\n{\n    public List<Files> GroupFiles { get; set; }\n    public String Name{ get; set; }\n}\n\npublic class File\n{\n    public int FileId { get; set; }\n    public String FileName { get; set; }\n    public String FileSize { get; set; }\n}

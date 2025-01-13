@@ -1,1 +1,0 @@
-WHERE C_CredCardSSN LIKE @sp1

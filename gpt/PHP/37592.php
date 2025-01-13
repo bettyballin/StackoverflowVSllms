@@ -1,0 +1,1 @@
+$profiler = new \Zend\Db\Profiler\Profiler();\n   $adapter->setProfiler($profiler);

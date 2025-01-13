@@ -1,1 +1,0 @@
-// Each time you start a call, increment this by one\nvar counter = 0;\n\nvar callback = function() {\n    counter--;\n    if (counter == 0) {\n        // Execute code you wanted to do once both threads are finished.\n    }\n}

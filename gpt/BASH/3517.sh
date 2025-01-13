@@ -1,0 +1,1 @@
+export EMAIL_USERNAME='your_username'\nexport EMAIL_PASSWORD='your_password'

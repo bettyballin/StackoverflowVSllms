@@ -1,0 +1,1 @@
+import urllib.request\n\nresponse = urllib.request.urlopen('http://example.com')\npage_content = response.read().decode('utf-8')\nprint(page_content)

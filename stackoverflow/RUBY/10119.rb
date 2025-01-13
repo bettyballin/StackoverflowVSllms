@@ -1,1 +1,0 @@
-class Project\n  def make\n    transaction do |trans|\n      trans.rollback unless save\n      tasks.each do |task|\n        unless task.save\n          trans.rollback\n          break\n        end\n      end\n    end\n  end\nend

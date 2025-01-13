@@ -1,0 +1,1 @@
+pm install clean-css-cli -g\n   cleancss -o styles.min.css styles.css

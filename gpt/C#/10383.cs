@@ -1,0 +1,1 @@
+public class CustomUserNamePasswordValidator : UserNamePasswordValidator\n{\n    public override void Validate(string userName, string password)\n    {\n        if (userName != "bob" || password != "123!!")\n        {\n            throw new FaultException("Unknown Username or Incorrect Password");\n        }\n    }\n}

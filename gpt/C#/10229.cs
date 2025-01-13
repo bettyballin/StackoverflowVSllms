@@ -1,0 +1,1 @@
+public interface IUserService\n{\n    IList<User> FetchUsers();\n    User FetchUser(int userId);\n    bool SaveUser(User user);\n    bool DeleteUser(int userId);\n}

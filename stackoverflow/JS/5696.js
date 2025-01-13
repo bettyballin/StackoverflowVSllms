@@ -1,1 +1,0 @@
-\nfunction KeyPress() {\n  $("#test").load("TempJumpToAJAX.aspx", {searchText: $("#").val()});\n}

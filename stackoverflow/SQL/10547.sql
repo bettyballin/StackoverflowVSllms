@@ -1,1 +1,0 @@
-select A.id aid, GROUP_CONCAT(DISTINCT B.id) bid from A\nleft join B on B.aid = A.id\nwhere A.id = 1\nGROUP BY a.id

@@ -1,1 +1,0 @@
-echo "This square is {$square->width}00 centimeters broad."; 

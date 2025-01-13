@@ -1,1 +1,0 @@
-select distinct RC.* from RegisteredCodes RC, CodeVariations CV\nwhere RC.CODE LIKE CV.CODE;

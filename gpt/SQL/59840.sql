@@ -1,0 +1,1 @@
+DECLARE @query NVARCHAR(MAX) = 'SELECT ColumnName FROM YourTable WHERE SomeCondition';\nDECLARE @field NVARCHAR(100) = 'ColumnName';\nDECLARE @separator NVARCHAR(15) = ', ';\n\nEXEC dbo.ConcatFieldFromQuery @query, @field, @separator;

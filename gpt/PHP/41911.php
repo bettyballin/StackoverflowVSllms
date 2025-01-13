@@ -1,0 +1,1 @@
+function isValidJSON($string) {\n    // Decode the string\n    json_decode($string);\n    // Check if there was an error during decoding\n    return (json_last_error() == JSON_ERROR_NONE);\n}\n\n// Example usage:\n$jsonString = '{"name": "John", "age": 30}';\nif (isValidJSON($jsonString)) {\n    echo "Valid JSON";\n} else {\n    echo "Invalid JSON";\n}

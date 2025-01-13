@@ -1,1 +1,0 @@
-select r.registration_id, p.*\nfrom registration_people rp, registrations r, person p\nwhere /* your filter conditions on the "registration" table */\nand rp.registration_id = r.id\nand p.id = rp.person_id

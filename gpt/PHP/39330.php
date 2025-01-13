@@ -1,0 +1,1 @@
+$history12 = $_POST['history12'];\n   echo $history12;

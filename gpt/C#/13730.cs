@@ -1,0 +1,1 @@
+var container = ObjectFactory.Container;\nvar registries = container.Model.Registries;\nforeach (var registry in registries)\n{\n    Console.WriteLine($"Registry: {registry.Name}");\n}

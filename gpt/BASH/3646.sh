@@ -1,0 +1,1 @@
+gcc -o blowfish_example blowfish_example.c -lssl -lcrypto

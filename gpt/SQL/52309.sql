@@ -1,0 +1,1 @@
+CREATE TABLE PdfFiles (\n    Id INT PRIMARY KEY IDENTITY,\n    FileName NVARCHAR(255),\n    FileData VARBINARY(MAX),\n    ExtractedText NVARCHAR(MAX)\n);

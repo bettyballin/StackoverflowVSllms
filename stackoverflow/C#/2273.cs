@@ -1,1 +1,0 @@
-public delegate void MethodDelegate( ... ) ...\n\n//create the delegate we expect\n(MethodDelegate) Delegate.CreateDelegate(\n    typeof( MethodDelegate ), this, "methodName", true );

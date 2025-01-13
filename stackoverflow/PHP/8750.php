@@ -1,1 +1,0 @@
-$scan['reviewed'] == 1;

@@ -1,0 +1,1 @@
+extern "C" {\n#include "foo.h"  // Include the C header\n}\n\nclass bar : public foo {\npublic:\n    int my_bar() {\n        return ret_foo(static_cast<foo*>(this));\n    }\n};

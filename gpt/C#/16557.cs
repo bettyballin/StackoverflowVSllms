@@ -1,0 +1,1 @@
+public class CustomControl : SomeBaseControl\n   {\n       public CustomControl()\n       {\n           InitializeComponent();\n           this.BackColor = SystemColors.Control;\n       }\n   }

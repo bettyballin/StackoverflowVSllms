@@ -1,1 +1,0 @@
-public function func2() {<br>\n  $newarray = $this->func1();<br>\n  print_r($newarray);<br>\n}

@@ -1,0 +1,1 @@
+#if !defined(HEADER_RANDOM_H)\n#define HEADER_RANDOM_H \ninline void foo()\n{\n//something\n}\n#endif

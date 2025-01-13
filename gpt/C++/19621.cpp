@@ -1,0 +1,1 @@
+#include <iostream>\n#include <map>\n\nint main() {\n    std::map<char, int> mymap;\n    mymap['c'] = 30;\n    mymap.erase('c'); // Erase existing key\n    mymap.erase('c'); // Erase non-existing key\n    mymap.erase('D'); // Erase non-existing key\n\n    return 0;\n}

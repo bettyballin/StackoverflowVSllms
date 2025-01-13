@@ -1,1 +1,0 @@
-Public MyNETCOMObject as MyNETCOMObject\n\nPrivate Class_Initialize()\n  Set MyNETCOMObject = New MyNetCOMObject\nEnd Sub\n\nPrivate Class_Terminate()\n  If Not MyNETCOMObject = Nothing then MyNETCOMObject.Dispose\n  Set MyNETCOMObject = Nothing\nEnd Sub

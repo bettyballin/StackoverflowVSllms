@@ -1,0 +1,1 @@
+sudo vi /etc/xen/xend-config.sxp

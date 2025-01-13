@@ -1,1 +1,0 @@
-if ($tags==false)\n{\n    $tags=array();\n}

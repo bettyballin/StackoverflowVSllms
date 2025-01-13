@@ -1,0 +1,1 @@
+Dim myObject As New MyClass()\nDim jsonString As String = SerializeToJson(myObject)\nConsole.WriteLine(jsonString)

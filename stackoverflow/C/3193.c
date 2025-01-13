@@ -1,1 +1,0 @@
-int i, j, next, prev;\nfor(int i=0; i<N; i++) {\n  if(T[i]>=N) continue;\n  j=T[i];\n  prev=i;\n  while(j < N) {\n    next=T[j];\n    T[j]=prev+N;\n    prev=j;\n    j=next;\n  }\n}\nfor(int i=0; i<N; i++)\n  T[i]-=N;

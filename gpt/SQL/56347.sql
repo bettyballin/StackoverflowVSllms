@@ -1,0 +1,1 @@
+CREATE VIEW MyView AS\nSELECT ...\nFROM MyTable\nWHERE MyTable.DateColumn BETWEEN @StartDate AND @EndDate;

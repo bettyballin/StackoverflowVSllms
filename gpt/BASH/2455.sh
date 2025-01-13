@@ -1,0 +1,1 @@
+msdeploy.exe -verb:createApp -source:appHostConfig="Default Web Site/MyVirtualDir" -dest:appHostConfig="Default Web Site/MyVirtualDir"

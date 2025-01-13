@@ -1,0 +1,1 @@
+USE master;\nGO\nGRANT VIEW SERVER STATE TO [Domain\User];\nGO

@@ -1,0 +1,1 @@
+function getUserDetails($name, $email) {\n    return "Name: $name, Email: $email";\n}\n\n$name = "John Doe";\n$email = "john@example.com";\necho getUserDetails($name, $email);

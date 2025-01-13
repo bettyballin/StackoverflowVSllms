@@ -1,0 +1,1 @@
+# Test the UNC path accessibility\n    Test-Path -Path "\\machineipaddress\s$\spbr00DF"

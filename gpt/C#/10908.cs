@@ -1,0 +1,1 @@
+using System.Web.Services;\n\nnamespace AddAjaxToApplication\n{\n    public class List : WebService\n    {\n        [WebMethod]\n        public string HelloWorld()\n        {\n            return "Hello World";\n        }\n    }\n}

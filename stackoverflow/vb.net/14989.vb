@@ -1,1 +1,0 @@
-Using connection As SqlConnection = GetConnection\n    ' Use connection here.\n\nEnd Using

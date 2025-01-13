@@ -1,0 +1,1 @@
+java -Xms<size> -Xmx<size> -jar YourApplication.jar

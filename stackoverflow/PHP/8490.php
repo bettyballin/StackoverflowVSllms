@@ -1,1 +1,0 @@
-<?php\nrequire_once 'Spreadsheet/Excel/Writer.php';\n$workbook = new Spreadsheet_Excel_Writer('test.xls');\n$worksheet =& $workbook->addWorksheet('My first worksheet');\nif (PEAR::isError($worksheet)) {\n    die($worksheet->getMessage());\n}\n$workbook->close();\n?>

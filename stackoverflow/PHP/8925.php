@@ -1,1 +1,0 @@
-$images = array();\nforeach (scandir($folder) as $node) {\n    $nodePath = $folder . DIRECTORY_SEPARATOR . $node;\n    if (is_dir($nodePath)) continue;\n    $images[$nodePath] = filemtime($nodePath);\n}\narsort($images);\n$newest = array_slice($images, 0, 5);

@@ -1,0 +1,1 @@
+public abstract class Player\n{\n    public int Power { get; private set; }\n\n    public abstract int GetPower { get; }\n\n    protected Player()\n    {\n        // Leave the constructor empty\n    }\n\n    public void InitializePower()\n    {\n        Power = GetPower;\n    }\n}

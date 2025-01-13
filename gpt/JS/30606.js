@@ -1,0 +1,1 @@
+window.onbeforeunload = function() {\n       return "Are you sure you want to leave this page?";\n   };

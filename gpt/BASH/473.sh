@@ -1,0 +1,1 @@
+# Navigate to the Xcode preferences directory\ncd ~/Library/Preferences\n\n# List all Xcode related preference files\nls com.apple.dt.Xcode*\n\n# Remove Xcode preference files\nrm com.apple.dt.Xcode*\n\n# Alternatively, you can move them to a backup directory instead of deleting\nmkdir ~/XcodePrefsBackup\nmv com.apple.dt.Xcode* ~/XcodePrefsBackup/

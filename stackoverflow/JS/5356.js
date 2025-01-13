@@ -1,1 +1,0 @@
-$.ajaxSetup({\n    url: 'my/ajax/url'\n    success: function() {\n        // Do some default stuff on success\n    },\n    error: function() {\n        // Do some default stuff on a failure\n    }\n    // etc...\n});

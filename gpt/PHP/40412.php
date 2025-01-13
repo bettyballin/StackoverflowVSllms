@@ -1,0 +1,1 @@
+<?php\n// PHP\n$name = "John Doe";\necho "Hello " . $name;\n?>

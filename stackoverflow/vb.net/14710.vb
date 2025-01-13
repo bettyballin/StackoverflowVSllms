@@ -1,1 +1,0 @@
-Dim dt As New DataTable() 'Passing just a blank un-named table to client gave errors.\nDim dt As New DataTable("Table") 'Naming the table like so passes just fine.

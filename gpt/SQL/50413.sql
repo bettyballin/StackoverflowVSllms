@@ -1,0 +1,1 @@
+IF NOT EXISTS (SELECT 1 FROM your_table WHERE primary_key_column = value)\nBEGIN\n    INSERT INTO your_table (column1, column2, ...)\n    VALUES (value1, value2, ...);\nEND

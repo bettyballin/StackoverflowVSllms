@@ -1,0 +1,1 @@
+using System;\n\nclass Program\n{\n    static void Main()\n    {\n        Console.WriteLine(DateTimeOffset.Now.ToString("yyyy-MM-dd HH:mm:sszzz"));\n    }\n}

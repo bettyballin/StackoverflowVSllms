@@ -1,1 +1,0 @@
-Dim r as Regex = new Regex("(.+?)=(.+)")\nDim cookie as string = "test_cookie=blah;bleh"\nDim name as string = r.Match(cookie).Groups(1).ToString()\nDim value as string = r.Match(cookie).Groups(2).ToString()

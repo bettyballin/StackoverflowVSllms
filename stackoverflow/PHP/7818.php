@@ -1,1 +1,0 @@
-$contact_name = 'foo';\n$contact_phone = '555-1234';\n\nfunction do_something($args = array()) {\n    foreach ($args as $name => $value) {\n        echo "$name: $value<br />";\n    }\n}\n\ndo_something(compact('contact_name', 'contact_phone'));

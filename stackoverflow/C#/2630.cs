@@ -1,1 +1,0 @@
-Image newImage = Image.FromFile("SampImag.jpg");\nnewImage.HorizontalResolutio

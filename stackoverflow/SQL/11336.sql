@@ -1,1 +1,0 @@
-DATEDIFF(d, RunOutDate, ResupplyDate) + 1

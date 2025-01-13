@@ -1,0 +1,1 @@
+regsvr32.exe /s %WINDIR%\SysWOW64\ssleay32.dll\n   regsvr32.exe /s %WINDIR%\SysWOW64\libeay32.dll

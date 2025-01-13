@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint main() {\n    // Array of 800000 chars\n    char word1[800000] = "Hello";\n    printf("%s\n", word1);  // Prints "Hello"\n\n    // Array of 800000 char pointers\n    char *word2[800000];\n    word2[0] = "Hello";\n    word2[1] = "World";\n    printf("%s %s\n", word2[0], word2[1]);  // Prints "Hello World"\n\n    return 0;\n}

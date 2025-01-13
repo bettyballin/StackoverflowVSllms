@@ -1,1 +1,0 @@
-SELECT * FROM records WHERE ip_sha1 = "..."

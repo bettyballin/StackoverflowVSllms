@@ -1,0 +1,1 @@
+while (true)\n   {\n       VARIANT_BOOL readyState;\n       hr = pActiveXControl->get_ReadyState(&readyState);\n       if (readyState == VARIANT_TRUE)\n       {\n           // Control is ready\n           break;\n       }\n       // Sleep or yield for a short time before polling again\n   }

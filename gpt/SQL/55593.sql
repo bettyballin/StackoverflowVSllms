@@ -1,0 +1,1 @@
+SHOW FULL COLUMNS FROM your_table_name;

@@ -1,0 +1,1 @@
+require("includes.php"); // Use require instead of include

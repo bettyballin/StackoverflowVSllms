@@ -1,1 +1,0 @@
-preg_match_all( '/"([^"]+)"\s*"([^"]+)"\s*"([^"]+)"\s*"([^"]+)"/', $text, $matches, PREG_SET_ORDER );\n\nprint_r( $matches );

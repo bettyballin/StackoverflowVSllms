@@ -1,0 +1,1 @@
+void GetValue(out int number)\n   {\n       number = 10;\n   }\n\n   int myNumber;\n   GetValue(out myNumber);\n   // myNumber is now 10

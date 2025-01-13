@@ -1,0 +1,1 @@
+this.dependentProperties = []; // array\n\nfunction addDependentProperty(depName, depValue) {\n    this.dependentProperties.push({ name: depName, value: depValue });\n}\n\n// Example usage\naddDependentProperty('test', 1);\naddDependentProperty('test2', 2);\n\nconsole.log(this.dependentProperties);\n// Output: [{ name: 'test', value: 1 }, { name: 'test2', value: 2 }]

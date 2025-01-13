@@ -1,1 +1,0 @@
-Declare @Xml Xml\nSet @Xml = '<Root><DateFrom>8/10/2008</DateFrom></Root>'\n\nDeclare @DateFrom DateTime\nSelect @DateFrom= t.b.value('DateFrom[1]', 'datetime')\nfrom @xml.nodes('//Root') t(b)

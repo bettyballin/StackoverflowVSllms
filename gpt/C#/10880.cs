@@ -1,0 +1,1 @@
+public class UserSessionModel\n   {\n       public string Username { get; set; }\n       public List<string> AccessibleAreas { get; set; }\n\n       public bool HasAccessToArea(string area)\n       {\n           return AccessibleAreas != null && AccessibleAreas.Contains(area);\n       }\n   }

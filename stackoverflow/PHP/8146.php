@@ -1,1 +1,0 @@
-preg_replace("/(<br\s*\/?>\s*)+/", "<br/>", $input);

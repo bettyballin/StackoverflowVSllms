@@ -1,0 +1,1 @@
+class Foo\n{\npublic:\n    template <typename F>\n    void func(F f);\n\nprivate:\n    int member_;\n};

@@ -1,0 +1,1 @@
+$form = getForm(); // get a full Zend_Form object with elements\n$form->getElement('mySubmit')->setLabel('new value');\n$form->render(); // This will set 'new value' as the text on the submit butto

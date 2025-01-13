@@ -1,1 +1,0 @@
-int main(int argc, char* argv[])\n{\n    int size = 0;\n    Base** bases = new Base*[10];\n\n    bases[size++] = new A();\n    bases[size++] = new B();\n\n    for (int i = 0; i < size; i++)\n    {\n        Base* base = bases[i];\n        base->Test();\n    }\n}

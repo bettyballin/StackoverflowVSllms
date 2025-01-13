@@ -1,0 +1,1 @@
+SvcTraceViewer.exe MyService.svclog

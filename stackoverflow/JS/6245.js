@@ -1,1 +1,0 @@
-var node = document.createTextNode(x.attributes['title'].value);\ndocument.appendChild(node);

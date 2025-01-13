@@ -1,0 +1,1 @@
+SELECT * FROM all_objects WHERE object_type = 'PACKAGE' AND object_name LIKE 'UTL_%';

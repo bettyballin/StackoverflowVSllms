@@ -1,0 +1,1 @@
+public class CustomAuthorizationPolicy : IAuthorizationPolicy\n   {\n       public bool Evaluate(EvaluationContext evaluationContext, ref object state)\n       {\n           // Add custom claims to evaluationContext\n           return true;\n       }\n   }

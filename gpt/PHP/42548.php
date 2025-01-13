@@ -1,0 +1,1 @@
+<?php\nclass MyClass {\n    public static function myStaticCallbackMethod() {\n        echo "Hello from myStaticCallbackMethod!";\n    }\n}\n\nfunction executeCallback(callable $callback) {\n    $callback();\n}\n\nexecuteCallback(['MyClass', 'myStaticCallbackMethod']);\n?>

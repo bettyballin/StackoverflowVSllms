@@ -1,0 +1,1 @@
+// Example of sending a request to the WebService with the access token\nHttpClient client = new HttpClient();\nclient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);\n\nHttpResponseMessage response = await client.GetAsync("https://yourapiendpoint.com/resource");

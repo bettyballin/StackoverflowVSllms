@@ -1,1 +1,0 @@
-DECLARE @money AS money\nSET @money = 2871047428.20\nSELECT CAST(@money AS decimal(34,4)) / 10000000, @money / 10000000

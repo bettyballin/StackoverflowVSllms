@@ -1,0 +1,1 @@
+<script type="text/javascript">\n    //<![CDATA[\n    $(document).ready(function() {\n        $('#logout-link').click(function() {\n            if (confirm("Really log out?")) {\n                $.removeCookie('aLog', { path: '/' });\n                location.href = $(this).attr('href');\n            }\n            return false;\n        });\n    });\n    //]]>\n</script>

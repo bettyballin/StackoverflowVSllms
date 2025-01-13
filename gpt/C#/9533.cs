@@ -1,0 +1,1 @@
+if (datasetRow.ParentCategoryID == Guid.Empty)\n   {\n       row["ParentCategoryID"] = DBNull.Value;\n   }\n   else\n   {\n       row["ParentCategoryID"] = datasetRow.ParentCategoryID;\n   }

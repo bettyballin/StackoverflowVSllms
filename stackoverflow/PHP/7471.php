@@ -1,1 +1,0 @@
-$bom_schema->resultset('View_Of_Table1_And_Table2_And_Referrers_And_Affiliates');

@@ -1,1 +1,0 @@
-header("Set-Cookie: cookiename=cookievalue; expires=Tue, 06-Jan-2009 23:39:49 GMT; path=/; domain=subdomain.example.net");

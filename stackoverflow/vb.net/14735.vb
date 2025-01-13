@@ -1,1 +1,0 @@
-Public Sub Save(Of T As { IPta, New })(ByVal obj As T)\n    Dim foo As New T\n    ' Do more stuff here\nEnd Sub

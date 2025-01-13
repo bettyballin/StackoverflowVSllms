@@ -1,0 +1,1 @@
+pear remote-list -c example

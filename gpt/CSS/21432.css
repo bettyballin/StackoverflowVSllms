@@ -1,0 +1,1 @@
+/* Example of CSS3 property */\ndiv {\n    white-space: nowrap;\n    overflow: hidden;\n    text-overflow: ellipsis;\n}

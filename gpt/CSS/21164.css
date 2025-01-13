@@ -1,0 +1,1 @@
+<style>\n    .autocomplete-list {\n        border: 1px solid #ccc;\n        background-color: #fff;\n        list-style-type: none;\n        margin: 0;\n        padding: 0;\n    }\n\n    .autocomplete-item {\n        padding: 5px;\n        cursor: pointer;\n    }\n\n    .autocomplete-item-highlighted {\n        background-color: #ddd;\n    }\n</style>

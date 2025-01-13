@@ -1,1 +1,0 @@
-progressBar1.Maximum = 100\nprogressBar1.Manimum=0

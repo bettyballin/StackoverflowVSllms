@@ -1,1 +1,0 @@
-define('WP_USE_THEMES', false);\nrequire('./wp-blog-header.php');

@@ -1,1 +1,0 @@
-<?php\n$contact_image_data="data:image/png;base64,iVBORw0KGgo[...]";\n$fp = fopen('test.png', 'w');\nfwrite($fp, $contact_image_data);\nfclose($fp);\n?>

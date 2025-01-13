@@ -1,0 +1,1 @@
+// Example of configuring a Nexus repository\n   <repository>\n       <id>nexus-releases</id>\n       <url>http://your-nexus-server/repository/releases/</url>\n   </repository>

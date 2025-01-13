@@ -1,0 +1,1 @@
+using BenchmarkDotNet.Attributes;\nusing BenchmarkDotNet.Running;\n\npublic class MonoVsJavaBenchmark\n{\n    [Benchmark]\n    public void MonoTest()\n    {\n        // Your code to benchmark Mono\n    }\n}\n\npublic class Program\n{\n    public static void Main(string[] args)\n    {\n        var summary = BenchmarkRunner.Run<MonoVsJavaBenchmark>();\n    }\n}

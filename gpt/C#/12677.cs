@@ -1,0 +1,1 @@
+public interface IMyInterface\n{\n    void MyMethod();\n}\n\npublic class MyClass\n{\n    public void Register<T>() where T : IMyInterface\n    {\n        // Method implementation\n    }\n}

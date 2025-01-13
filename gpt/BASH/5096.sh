@@ -1,0 +1,1 @@
+composer require deployer/deployer --dev

@@ -1,0 +1,1 @@
+<ItemGroup>\n     <None Include="YourApp.exe.manifest">\n       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>\n     </None>\n   </ItemGroup>

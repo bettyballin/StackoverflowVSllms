@@ -1,1 +1,0 @@
-sqltext = "SELECT utyp, count(*) AS anzahl INTO UTYP_Anzahl " _\n        & "FROM 01_umwelt WHERE [01_umwelt].status = " _\n        & STATUS.Value _\n        & " GROUP BY utyp;"

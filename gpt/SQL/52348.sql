@@ -1,0 +1,1 @@
+INSERT INTO MonthlySnapshots (OfficeID, SnapshotDate, ActivityCount)\nSELECT OfficeID, GETDATE(), ActivityCount\nFROM YourOriginalTable;

@@ -1,0 +1,1 @@
+PROCESS_MITIGATION_BINARY_SIGNATURE_POLICY policy;\n   policy.MicrosoftSignedOnly = 1;\n   SetProcessMitigationPolicy(ProcessSignaturePolicy, &policy, sizeof(policy));

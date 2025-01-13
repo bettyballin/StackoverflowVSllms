@@ -1,0 +1,1 @@
+document.getElementById("myButton").addEventListener("click", function() {\n     console.log(this); // refers to the element that triggered the event\n   });

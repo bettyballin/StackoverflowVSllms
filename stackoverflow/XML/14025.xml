@@ -1,1 +1,0 @@
-<Reference Include="NLog" Condition="'$(Configuration)' == 'Debug'" />

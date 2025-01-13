@@ -1,0 +1,1 @@
+<fo:block-container>\n    <fo:block text-align="start" padding-right="2cm">\n        Left Aligned Text\n    </fo:block>\n    <fo:block text-align="end" width="100%">\n        Right Aligned Text\n    </fo:block>\n</fo:block-container>

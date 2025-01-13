@@ -1,0 +1,1 @@
+kinit your-kerberos-username

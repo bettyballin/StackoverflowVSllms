@@ -1,1 +1,0 @@
-vectorMyTypes.insert(\n    std::upper_bound(vectorMyTypes.begin(), vectorMyTypes.end(), newType),\n    newType);

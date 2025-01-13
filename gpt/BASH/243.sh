@@ -1,0 +1,1 @@
+gcc -O2 -S -o volatile.s volatile.c

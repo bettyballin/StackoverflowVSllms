@@ -1,0 +1,1 @@
+keytool -genkey -alias jetty -keyalg RSA -keystore keystore

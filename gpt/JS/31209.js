@@ -1,0 +1,1 @@
+window.onload = function() {\n    console.log(`Page size: ${getPageSizeInKB()} KB`);\n};

@@ -1,1 +1,0 @@
-SELECT month, year\n  FROM table1\nUNION\nSELECT month, year\n  FROM table2

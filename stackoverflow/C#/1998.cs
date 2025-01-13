@@ -1,1 +1,0 @@
-SqlConnection _con = new SqlConnection("server=.;database=Northwindintegrated Security=SSPI;");\n\n_con.InfoMessage += new SqlInfoMessageEventHandler(_con_InfoMessage);

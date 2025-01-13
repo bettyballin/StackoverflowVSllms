@@ -1,0 +1,1 @@
+#include "Dog.h"\n\n// Define the implementation class and its members\nclass Dog::DogImpl {\npublic:\n    int weight;\n};\n\nDog::Dog() : pImpl(new DogImpl()) {}\n\nDog::~Dog() {\n    delete pImpl;\n}\n\nint Dog::getWeight() const {\n    return pImpl->weight;\n}\n\nvoid Dog::setWeight(int weight) {\n    pImpl->weight = weight;\n}

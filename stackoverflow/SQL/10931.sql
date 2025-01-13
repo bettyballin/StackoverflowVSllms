@@ -1,1 +1,0 @@
-codesys.geom.sdo_centroid

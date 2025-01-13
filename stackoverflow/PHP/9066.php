@@ -1,1 +1,0 @@
-sfConfig::add(array(\n  'sf_web_dir'      => SF_ROOT_DIR.'/web/backend',\n  'sf_upload_dir'   => SF_ROOT_DIR.'/web/backend'.sfConfig::get('sf_upload_dir_name'),\n));

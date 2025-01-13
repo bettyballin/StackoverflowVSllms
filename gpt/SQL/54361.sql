@@ -1,0 +1,1 @@
+INSERT INTO CustomFields (FieldID, FieldName, FieldType) VALUES (1, 'Author', 'string');\nINSERT INTO CustomFields (FieldID, FieldName, FieldType) VALUES (2, 'PageCount', 'number');

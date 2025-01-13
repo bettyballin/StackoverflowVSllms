@@ -1,0 +1,1 @@
+const popupLinks = document.querySelectorAll('.popup');\npopupLinks.forEach(link => {\n    const popupTitle = link.getAttribute('data-popup-title');\n    console.log(popupTitle); // "Title for My Popup"\n});

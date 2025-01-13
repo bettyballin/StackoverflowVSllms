@@ -1,1 +1,0 @@
-text = "<p>" + text.Replace("\r\n", "</p><p>") + "</p>";

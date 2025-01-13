@@ -1,0 +1,1 @@
+// Select the element by its id\nvar inputElement = document.getElementById('in1');\n\n// Add the 'name' attribute with the value 'submit_content'\ninputElement.setAttribute('name', 'submit_content');

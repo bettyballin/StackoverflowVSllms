@@ -1,0 +1,1 @@
+ALTER <object_type> DMSYS.<object_name> COMPILE;

@@ -1,0 +1,1 @@
+$data = [\n       ['Name', 'Age', 'Email'],\n       ['John Doe', '30', 'john@example.com'],\n       ['Jane Doe', '25', 'jane@example.com'],\n   ];\n   \n   $file = fopen('file.csv', 'w');\n   \n   foreach ($data as $row) {\n       fputcsv($file, $row);\n   }\n   \n   fclose($file);

@@ -1,0 +1,1 @@
+file /tmp/dir/:0

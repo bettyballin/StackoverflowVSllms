@@ -1,1 +1,0 @@
-cscript adsutil.vbs set w3svc/WebSite/<SiteID>/NTAuthenticationProviders "NTLM"

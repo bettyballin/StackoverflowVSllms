@@ -1,1 +1,0 @@
-protected void gbGridWithSpaces_RowDataBound(object sender, GridViewRowEventArgs e)\n{\n    foreach (TableCell cell in e.Row.Cells)\n    {\n        cell.Text = "<pre>" + cell.Text + "</pre>";\n    }\n}

@@ -1,1 +1,0 @@
-def perform(fun, *args):\n    fun(*args)\n\ndef action1(args):\n    # something\n\ndef action2(args):\n    # something\n\nperform(action1)\nperform(action2, p)\nperform(action3, p, r)

@@ -1,0 +1,1 @@
+<?php\nsession_start();\n\nif (isset($_SESSION['authenticated']) && $_SESSION['authenticated'] === true) {\n    echo json_encode(['authenticated' => true]);\n} else {\n    echo json_encode(['authenticated' => false]);\n}\n?>

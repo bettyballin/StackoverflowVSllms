@@ -1,0 +1,1 @@
+drush en simple_sitemap -y

@@ -1,0 +1,1 @@
+using System;\nusing System.Runtime.InteropServices;\n\nint hr = SomeCOMFunction();\nif (Marshal.GetHRForLastWin32Error() < 0) {\n    // Handle error\n}

@@ -1,0 +1,1 @@
+// ast.c\n#include <stdlib.h>\n#include "ast.h"\n\nASTNode* createNode(int nodetype, ASTNode* left, ASTNode* right) {\n    ASTNode* node = (ASTNode*)malloc(sizeof(ASTNode));\n    if (!node) {\n        // Handle memory allocation failure\n        return NULL;\n    }\n    node->nodetype = nodetype;\n    node->left = left;\n    node->right = right;\n    return node;\n}

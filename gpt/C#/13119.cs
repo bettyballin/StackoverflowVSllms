@@ -1,0 +1,1 @@
+public interface ICommand\n{\n    void Execute();\n}\n\npublic class SerialPortCommand : ICommand\n{\n    private readonly string _command;\n\n    public SerialPortCommand(string command)\n    {\n        _command = command;\n    }\n\n    public void Execute()\n    {\n        // Execute the command on the serial port\n    }\n}

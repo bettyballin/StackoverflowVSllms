@@ -1,0 +1,1 @@
+Public Shared Function GetLastDayOfQuarter(ByVal originalDate As DateTime) As DateTime\n    Dim firstDayOfNextQuarter As DateTime = AddQuarters(GetFirstDayOfQuarter(originalDate), 1)\n    Return firstDayOfNextQuarter.AddDays(-1)\nEnd Functio

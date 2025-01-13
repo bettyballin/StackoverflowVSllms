@@ -1,1 +1,0 @@
-pdfStream.Seek(0,SeekOrigin.Begin)

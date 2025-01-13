@@ -1,1 +1,0 @@
-url: "/countries/tariff/"+escape($(this).val())

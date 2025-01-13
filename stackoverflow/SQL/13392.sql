@@ -1,1 +1,0 @@
-update top(1000) t1\nset t1.groupId = t2.groupId\nfrom\n    table t1\njoin newtable t2 on t1.email = t2.email

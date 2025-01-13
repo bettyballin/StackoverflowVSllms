@@ -1,0 +1,1 @@
+tmux new-window -n 'log1' 'tail -f /path/to/log1'\n     tmux split-window -h 'tail -f /path/to/log2'\n     tmux split-window -v 'tail -f /path/to/log3'\n     tmux select-layout tiled

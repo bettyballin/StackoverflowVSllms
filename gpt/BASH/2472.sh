@@ -1,0 +1,1 @@
+rebase -b 0x60000000 -v -d path\to\dlls\*.dll

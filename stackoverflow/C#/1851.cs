@@ -1,1 +1,0 @@
-if theString.Length > desiredWidth:\n    theString = theString.Left(desiredWidth-3) + "...";

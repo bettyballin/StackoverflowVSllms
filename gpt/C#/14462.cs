@@ -1,0 +1,1 @@
+// Example code to increment session value and ensure it's being updated correctly\nif (Session["Counter"] == null)\n{\n    Session["Counter"] = 1;\n}\nelse\n{\n    Session["Counter"] = (int)Session["Counter"] + 1;\n}\n\n// Output the session value to debug\nResponse.Write("Session Counter: " + Session["Counter"]);

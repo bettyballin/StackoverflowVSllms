@@ -1,0 +1,1 @@
+public static class CustomLogger\n{\n    private static string logFilePath = HttpContext.Current.Server.MapPath("~/App_Data/trace.log");\n\n    public static void Log(string message)\n    {\n        using (StreamWriter writer = new StreamWriter(logFilePath, true))\n        {\n            writer.WriteLine($"{DateTime.Now}: {message}");\n        }\n    }\n}

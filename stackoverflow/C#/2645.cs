@@ -1,1 +1,0 @@
-SqlParameters[1] = new SqlParameter("Date1", SqlDbType.SqlDateTime);\nSqlParameters[1].Value = DBNull.Value;\nSqlParameters[1].Direction = ParameterDirection.Input;

@@ -1,0 +1,1 @@
+<dependency>\n    <groupId>com.itextpdf</groupId>\n    <artifactId>itextpdf</artifactId>\n    <version>5.5.13.2</version> <!-- Ensure you have the correct version -->\n</dependency>

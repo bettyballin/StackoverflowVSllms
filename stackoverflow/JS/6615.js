@@ -1,1 +1,0 @@
-xmlRoot.getElementsByTagName("Postcode")[0].childNodes[0].nodeValue

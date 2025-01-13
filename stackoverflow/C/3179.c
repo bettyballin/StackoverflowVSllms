@@ -1,1 +1,0 @@
-SYSTEMTIME stUTC;        \nFileTimeToSystemTime(&f4, &stUTC);\nstd::cout<<"Thread1: Hour:"<<stUTC.wHour<<" Min:"<<stUTC.wMinute<<" Sec:"<<stUTC.wSecond<<" millSec:"<<stUTC.wMilliseconds<<std::endl;

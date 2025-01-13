@@ -1,0 +1,1 @@
+// Instead of this\n   void function() {\n       char largeArray[1024];\n       // Function code\n   }\n\n   // Use this\n   static char largeArray[1024];\n   void function() {\n       // Function code\n   }

@@ -1,0 +1,1 @@
+// Assuming textBoxString and textBoxDate are your TextBox controls\ntextBoxString.DataBindings["Text"].BindingManagerBase.EndCurrentEdit();\ntextBoxDate.DataBindings["Text"].BindingManagerBase.EndCurrentEdit();\n\n// Now call the BindingSource.EndEdit()\nbindingSource.EndEdit();\n\n// Proceed with the rest of your logic\ntableAdapter.Update(dataSet.TableName);

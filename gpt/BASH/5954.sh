@@ -1,0 +1,1 @@
+pyenv install 3.x.x  # Install specific Python version\n   pyenv global 3.x.x   # Set global Python versio

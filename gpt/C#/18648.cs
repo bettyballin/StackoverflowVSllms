@@ -1,0 +1,1 @@
+var result = myList.Select(a => new\n{\n    AvgTimeAtoB = a.BList.Average(b => (b.CompletedDate - a.CreatedDate).TotalMilliseconds),\n    AvgTimeBtoB = a.BList.Average(b => (b.CompletedDate - b.CreatedDate).TotalMilliseconds)\n})\n.ToList();

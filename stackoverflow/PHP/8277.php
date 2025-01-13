@@ -1,1 +1,0 @@
-$str = '<td><table><tr><td></td></tr></table></td>';\npreg_match('/(<td>)(<table>.*<\/table>)(<\/td>)/',$str,$matches);

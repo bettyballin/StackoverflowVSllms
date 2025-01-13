@@ -1,0 +1,1 @@
+td.day {\n    padding: 2px;\n    font-size: 12pt;\n    line-height: 1; /* Ensures no extra space between lines */\n    width: 14.3%;\n    height: calc(1.33em * 4); /* Adjust multiplier as needed for line-height and padding */\n    vertical-align: top;\n    border: 1px solid #000; /* Example border */\n}

@@ -1,0 +1,1 @@
+/* ie-styles.css */\n.navbar {\n    zoom: 1;\n}\n\n.navbar li {\n    float: left;\n    display: inline;\n    margin-right: -4px; /* Adjust if necessary */\n}

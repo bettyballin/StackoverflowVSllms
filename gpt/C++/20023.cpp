@@ -1,0 +1,1 @@
+HRESULT InterfaceSupportsErrorInfo(\n  REFIID riid\n);

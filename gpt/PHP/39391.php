@@ -1,0 +1,1 @@
+// Example using PDO for secure database queries\n    $stmt = $pdo->prepare("SELECT * FROM messages WHERE group_id = :group_id ORDER BY created_at DESC LIMIT 10");\n    $stmt->execute(['group_id' => $groupId]);\n    $messages = $stmt->fetchAll();

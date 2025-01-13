@@ -1,0 +1,1 @@
+$regexp = '/<(\w+):(\w+)\s+([^>]+)>/';\n\n$text = '<asp:gridview id=\'gridview1\' />';\n$matches = [];\n\npreg_match_all($regexp, $text, $matches);\n\nprint_r($matches);

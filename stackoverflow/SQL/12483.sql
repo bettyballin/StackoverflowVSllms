@@ -1,1 +1,0 @@
-select product_id, sum(quantity) As ProductQtySum\nfrom OrdersProducts \ngroup by product_id \norder by ProductQtySum Desc

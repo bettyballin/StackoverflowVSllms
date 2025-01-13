@@ -1,0 +1,1 @@
+CREATE TABLE actors (\n  id INT AUTO_INCREMENT PRIMARY KEY,\n  forename VARCHAR(255),\n  surname VARCHAR(255),\n  stage_name VARCHAR(255)\n);

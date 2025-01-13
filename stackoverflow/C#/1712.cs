@@ -1,1 +1,0 @@
-IEnumerable<string> inputList; // input words.\nvar mostFrequentlyUsed = inputList.GroupBy(word => word)\n  .Select(wordGroup => new { Word = wordGroup.Key, Frequency = wordGroup.Count() })\n  .OrderByDescending(word => word.Frequency);

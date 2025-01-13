@@ -1,1 +1,0 @@
-class CWidget; // Widget will exist sometime in the future\nCWidget* aWidget;  // An address (integer) to something that \n                   // isn't defined *yet*\n\n// later on define CWidget to be something concrete\nclass CWidget\n{\n     // methods and such \n};

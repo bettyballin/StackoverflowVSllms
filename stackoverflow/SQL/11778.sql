@@ -1,1 +1,0 @@
-SELECT name FROM user \nWHERE 'John Smith and Peter Johnson are best friends' LIKE\n  CONCAT('%', name, '%')

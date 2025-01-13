@@ -1,1 +1,0 @@
-class TABLE(models.Model):\n    id = models.AutoField(primary_key=True)\n    parent = models.ForeignKey('self')

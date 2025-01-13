@@ -1,0 +1,1 @@
+// Store user preference\nlocalStorage.setItem('theme', 'dark');\n\n// Retrieve user preference on page load\nconst theme = localStorage.getItem('theme');\nif (theme) {\n    document.body.classList.add(theme);\n}\n\n// Remove user preference\nlocalStorage.removeItem('theme');

@@ -1,1 +1,0 @@
-$screenshots= $dom->getElementsByTagName("screenshots")[0];\n\n$title= $dom->createElement("title");\n$title->appendChild($dom->createTextNode($newshottitle));\n$item= $dom->createElement("item");\n$item->appendChild($title);\n$screenshots->appendChild($item);

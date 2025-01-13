@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Define variables\nREMOTE_SERVER="user@your_server"\nREMOTE_LOG_PATH="/path/to/logs/*.log"\nLOCAL_LOG_DIR="/local/path/to/logs"\n\n# Transfer logs\nscp $REMOTE_SERVER:$REMOTE_LOG_PATH $LOCAL_LOG_DIR

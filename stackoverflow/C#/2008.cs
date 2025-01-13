@@ -1,1 +1,0 @@
-private IWorkbenchAction newWindowAction;

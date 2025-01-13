@@ -1,0 +1,1 @@
+EXEC sp_configure 'show advanced options', 1;\nRECONFIGURE;\nEXEC sp_configure 'nested triggers', 0;\nRECONFIGURE;

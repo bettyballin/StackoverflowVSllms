@@ -1,0 +1,1 @@
+SET NOCOUNT ON;\n\n-- Your SQL queries go here\nSELECT * FROM YourTable;\n\nSET NOCOUNT OFF;

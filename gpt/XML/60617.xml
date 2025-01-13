@@ -1,0 +1,1 @@
+<ItemGroup>\n  <EmbeddedResource Include="path\to\SomeAssembly1.dll" />\n  <EmbeddedResource Include="path\to\SomeAssembly2.dll" />\n</ItemGroup>

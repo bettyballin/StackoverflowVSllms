@@ -1,0 +1,1 @@
+<?php if (get_the_ID() % 3 == 0){ ?>\n    <div class="ad-code">\n        <!-- Your ad code here -->\n    </div>\n<?php } ?>

@@ -1,1 +1,0 @@
-sed -e 's!<html>!<html><link rel="stylesheet" type="text/css" href="LivingInStyle.css">!' < file

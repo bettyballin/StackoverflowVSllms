@@ -1,0 +1,1 @@
+import atexit\n\ndef cleanup_resources():\n    print("Cleaning up resources...")\n    # Add your resource deallocation logic here\n\natexit.register(cleanup_resources)\n\n# Simulate long-running process\nwhile True:\n    pass

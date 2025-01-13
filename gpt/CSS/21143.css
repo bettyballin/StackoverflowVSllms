@@ -1,0 +1,1 @@
+/* Add this to your main.css */\n    table {\n        width: 100%;\n        border-collapse: collapse;\n    }\n    \n    th, td {\n        border: 1px solid #000;\n        padding: 8px;\n        text-align: left;\n    }

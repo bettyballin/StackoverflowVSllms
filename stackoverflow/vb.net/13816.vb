@@ -1,1 +1,0 @@
-Protected Overloads Overrides ReadOnly Property ShowWithoutActivation() As Boolean  \n    Get  \n        Return True  \n    End Get  \nEnd Property

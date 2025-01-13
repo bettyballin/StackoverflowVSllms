@@ -1,1 +1,0 @@
-$(document).ready(function() {\n    $('a.delete').click(function(e) {\n        //prevent the link from going anywhere\n        e.preventDefault(); \n        //give me this link's parent (a <td>) and grab the text of the 'prev' one\n        var name = $(this).parent().prev('td').text();\n        var answer = confirm("Are you sure you want to delete " + name);\n    });\n});

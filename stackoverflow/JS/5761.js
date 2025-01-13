@@ -1,1 +1,0 @@
-var elem = document.getElementById("dark");  // #dark\nif (elem && elem.nodeName == "TD" && elem.height == 260) {  // td#dark[height='260']\n    var newElem = document.createElement("a");\n    newElem.href = "http://www.example.com";\n    elem.appendChild(newElem);\n}

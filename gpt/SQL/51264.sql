@@ -1,0 +1,1 @@
+UPDATE your_table SET guid_id = UUID() WHERE guid_id IS NULL;

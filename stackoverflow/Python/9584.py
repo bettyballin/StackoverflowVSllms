@@ -1,1 +1,0 @@
-l = [0, 1, 1, 2, 2]\nd = {}\nfor i in l: d[i] = i in d\n\n[k for k in d if not d[k]]  # unordered, loop over the dictionary\n[k for k in l if not d[k]]  # ordered, loop over the original list

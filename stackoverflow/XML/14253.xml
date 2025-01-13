@@ -1,1 +1,0 @@
-<jsp-config>\n  <jsp-property-group>\n    <url-pattern>*.jsp</url-pattern>\n    <scripting-invalid>true</scripting-invalid>\n  </jsp-property-group>\n</jsp-config>

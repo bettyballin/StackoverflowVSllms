@@ -1,0 +1,1 @@
+[WebMethod]\n   public string YourWebMethod(string apiKey)\n   {\n       if (apiKey != "your-predefined-api-key")\n       {\n           throw new UnauthorizedAccessException("Invalid API Key");\n       }\n       // Your method implementation\n   }

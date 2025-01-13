@@ -1,0 +1,1 @@
+var xmlDoc = new XmlDocument();\nxmlDoc.Load("XMLFile1.xml");\nXmlNamespaceManager manager = new XmlNamespaceManager(xmlDoc.NameTable);\nmanager.AddNamespace("frbny", "urn:toto");\n\nvar curs = xmlDoc.SelectNodes("/frbny:DataSet/frbny:Series/frbny:Key/frbny:CURR", manager);\nvar values = xmlDoc.SelectNodes("/frbny:DataSet/frbny:Series/frbny:Obs/frbny:OBS_VALUE", manager);

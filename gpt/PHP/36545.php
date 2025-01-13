@@ -1,0 +1,1 @@
+<?php\necho <<<'HTML'\n<html>\n<head>\n</head>\n<body>\n</body>\n</html>\nHTML;\n?>

@@ -1,0 +1,1 @@
+function is_not_empty($var) {\n    return isset($var) && $var !== "" && $var !== false && $var !== null && $var !== 0;\n}\n\n// Usage:\nif (is_not_empty($myvariable)) {\n    // do something\n}\nif (is_not_empty($othervar)) {\n    // do something\n}\nif (is_not_empty($anothervar)) {\n    // do something\n}

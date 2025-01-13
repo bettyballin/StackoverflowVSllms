@@ -1,1 +1,0 @@
-var idx = 1;\nvar row, next;\nwhile((row = $('#myTable tr:nth-child(' + idx++ + ')')).length) {\n    if((next = $('#myTable tr:nth-child(' + idx + ')')).length) {\n        row.append(next.find('td'));\n        next.remove();\n    }\n}

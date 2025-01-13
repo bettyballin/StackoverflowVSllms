@@ -1,0 +1,1 @@
+wget -O gitea https://dl.gitea.io/gitea/latest/gitea-1.15.7-linux-amd64\nchmod +x gitea\nsudo mv gitea /usr/local/bin/

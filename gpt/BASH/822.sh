@@ -1,0 +1,1 @@
+mxmlc -swf-version=xx YourApp.mxml

@@ -1,0 +1,1 @@
+-- Example: Oracle REST Data Services (ORDS) configuration\n   BEGIN\n      ORDS.ENABLE_SCHEMA(\n         p_enabled => TRUE,\n         p_schema  => 'my_schema',\n         p_url_mapping_type => 'BASE_PATH',\n         p_url_mapping_pattern => 'my_schema',\n         p_auto_rest_auth => FALSE\n      );\n   END;

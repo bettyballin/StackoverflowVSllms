@@ -1,0 +1,1 @@
+SELECT LISTAGG(column_name, ',') WITHIN GROUP (ORDER BY column_name) AS concatenated_result\nFROM table_name\nGROUP BY another_column;

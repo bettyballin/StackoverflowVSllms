@@ -1,0 +1,1 @@
+$json = '{"type": "text", "$t": "Miley and Mandy! KCA VIDEO WINNERS"}';\n$obj = json_decode($json);\n\n// Accessing the $t member\n$t_value = $obj->{'$t'};\n\necho $t_value; // Outputs: Miley and Mandy! KCA VIDEO WINNERS

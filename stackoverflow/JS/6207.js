@@ -1,1 +1,0 @@
-...\nvar checkbox = document.createElement('input');\ncheckbox.type = "checkbox";\ncheckbox.name = "name";\ncheckbox.value = "value";\ncheckbox.id = "id";\n\nvar label = document.createElement('label')\nlabel.htmlFor = "id";\nlabel.appendChild(document.createTextNode('text for label after checkbox'));\n\ncontainer.appendChild(checkbox);\ncontainer.appendChild(label);

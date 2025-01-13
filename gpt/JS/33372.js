@@ -1,0 +1,1 @@
+ew Ajax.InPlaceEditor('edit', '/your/update/url', { \n        // Your options here\n    });

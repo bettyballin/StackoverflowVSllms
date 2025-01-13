@@ -1,0 +1,1 @@
+# Example string\ns = 'abc'\n\n# Convert string to list\np = list(s)\n\nprint(p)

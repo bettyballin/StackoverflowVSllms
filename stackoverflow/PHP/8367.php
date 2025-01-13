@@ -1,1 +1,0 @@
-$content = Zend_Json::encode(array('Foo' => 'Nice', 'Bar' => 'Vice'));\n$this->getResponse()\n     ->setHeader('Content-Type', 'text/html')\n     ->setBody($content)\n     ->sendResponse();\nexit();

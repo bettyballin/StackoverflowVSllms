@@ -1,0 +1,1 @@
+$ch = curl_init('http://www.example.com/');\n   curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);\n   curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));\n   curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode(array('key' => 'value')));\n   $response = curl_exec($ch);

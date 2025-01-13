@@ -1,0 +1,1 @@
+openssl ocsp -issuer issuer_cert.pem -cert cert_to_check.pem -url http://ocsp.example.com

@@ -1,1 +1,0 @@
-if(lastKey == SDLK_RETURN)\n    lastResult = ENTERED;\nelse if(lastKey == SDLK_ESCAPE)\n    lastResult = ESCAPED;\nelse if(lastKey >= SDLK_SPACE && lastKey <= SDLK_z)\n{\n    input += static_cast<char> (lastKey);\n    lastResult = NOTHING;\n}

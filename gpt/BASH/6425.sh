@@ -1,0 +1,1 @@
+# Example using tc on Linux to shape traffic\ntc qdisc add dev eth0 root handle 1: htb default 12\ntc class add dev eth0 parent 1:1 classid 1:12 htb rate 100kbps ceil 100kbps\ntc qdisc add dev eth0 parent 1:12 netem delay 100ms

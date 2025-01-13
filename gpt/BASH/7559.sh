@@ -1,0 +1,1 @@
+./configure \\n   --with-apxs2=/usr/local/apache/bin/apxs \\n   --with-mysql=/usr/local/mysql \\n   --with-mssql=/usr/local/freetds \\n   --enable-safe-mode \\n   --enable-ftp \\n   --enable-inline-optimization \\n   --enable-magic-quotes \\n   --enable-xml \\n   --with-gd \\n   --with-zlib-dir=/usr/lib \\n   --with-jpeg-dir=/usr/local/lib

@@ -1,0 +1,1 @@
+Imports System.Text.RegularExpressions\n\nDim subject As String = "Information regarding John Doe sent."\nDim pattern As String = "(?<=regarding ).*?(?= sent)"\nDim match As Match = Regex.Match(subject, pattern)\n\nIf match.Success Then\n    Dim name As String = match.Value\n    Console.WriteLine(name) ' Output: John Doe\nEnd If

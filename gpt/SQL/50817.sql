@@ -1,0 +1,1 @@
+WITH ordered_results AS (\n  SELECT a, b, c, d\n  FROM example\n  WHERE <the_where_clause>\n  ORDER BY d\n  FETCH FIRST 100 ROWS ONLY\n)\nSELECT a, b, expensive_procedure(c)\nFROM ordered_results;

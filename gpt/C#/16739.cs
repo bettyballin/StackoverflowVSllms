@@ -1,0 +1,1 @@
+protected void SaveAndAddNew_Click(object sender, EventArgs e)\n   {\n       // Save data to the database\n       SaveData();\n\n       // Set the hidden field value to "true"\n       hfShowModal.Value = "true";\n\n       // Reload the page\n       Response.Redirect(Request.RawUrl);\n   }

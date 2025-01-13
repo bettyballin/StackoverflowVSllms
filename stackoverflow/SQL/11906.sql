@@ -1,1 +1,0 @@
-UPDATE table SET field3 = field1 + '_' + field2

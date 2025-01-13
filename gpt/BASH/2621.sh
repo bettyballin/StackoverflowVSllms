@@ -1,0 +1,1 @@
+LogParser "SELECT EventID, COUNT(*) AS EventCount FROM <path_to_event_logs> GROUP BY EventID ORDER BY EventCount DESC" -i:EVT

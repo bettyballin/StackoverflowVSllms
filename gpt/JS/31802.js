@@ -1,0 +1,1 @@
+var magazineName = "A+";\n   var encodedMagazineName = encodeURIComponent(magazineName);\n\n   $.ajax({\n       url: 'your_php_script.php',\n       type: 'GET',\n       data: { name: encodedMagazineName },\n       success: function(response) {\n           // Handle the response\n       }\n   });

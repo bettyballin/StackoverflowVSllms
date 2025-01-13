@@ -1,0 +1,1 @@
+# Example command using readelf\nreadelf -p .comment ./example_binary

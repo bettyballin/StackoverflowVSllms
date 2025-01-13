@@ -1,0 +1,1 @@
+<?php\nif (isset($_POST['checkboxes'])) {\n    $selected_checkboxes = $_POST['checkboxes'];\n    \n    // Loop through the selected checkboxes\n    foreach ($selected_checkboxes as $checkbox) {\n        echo "Selected: " . htmlspecialchars($checkbox) . "<br>";\n    }\n} else {\n    echo "No checkboxes were selected.";\n}\n?>

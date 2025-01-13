@@ -1,0 +1,1 @@
+CREATE INDEX idx_dated_on ON expenses(dated_on);

@@ -1,1 +1,0 @@
-news\n=====\nid\ntitle\ntext\n\ntag\n===\nid\ntag\n\ntag_map\n=======\ntag_id\nnews_id\n\nfavorite_tags\n=============\nuser_id\ntag_id

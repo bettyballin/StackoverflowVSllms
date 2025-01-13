@@ -1,0 +1,1 @@
+.warningDiv {\n    border-radius: 15px; /* Standard property */\n    font-size: 11px;\n    font-weight: bold;\n    height: 55px;\n    padding: 15px 25px;\n    width: 320px;\n    z-index: 100000;\n    display: block;\n}

@@ -1,0 +1,1 @@
+javascript:(function(){\n    var currentUrl = window.location.href;\n    var encodedUrl = encodeURIComponent(currentUrl);\n    var newUrl = 'http://example.com/resource.aspx?original=' + encodedUrl;\n    window.location.href = newUrl;\n})();

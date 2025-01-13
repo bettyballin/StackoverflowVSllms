@@ -1,0 +1,1 @@
+HRESULT hr;\nCComPtr<IUnknown> spUnknown; // Assuming m_pUnknown is of type IUnknown*\n\nhr = AtlAdvise(spUnknown, pDistributeSink, IID_IDistributeEvent, &m_dwConnectionPointCookie);\nif (FAILED(hr))\n{\n    // Handle error\n}

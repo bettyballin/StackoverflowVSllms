@@ -1,1 +1,0 @@
-SELECT * FROM xml\nWHERE EXTRACTVALUE(data, '<xpath-expr>') != '';

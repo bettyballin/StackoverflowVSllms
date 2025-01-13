@@ -1,0 +1,1 @@
+// Example of using Twig as an alternative\nrequire_once '/path/to/vendor/autoload.php';\n\n$loader = new \Twig\Loader\FilesystemLoader('/path/to/templates');\n$twig = new \Twig\Environment($loader);\n\necho $twig->render('index.html', ['name' => 'John Doe']);

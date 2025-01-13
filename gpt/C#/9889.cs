@@ -1,0 +1,1 @@
+ExampleClass example = new ExampleClass();\nstring value = example.get_MyProperty(); // This is how the getter method is accessed

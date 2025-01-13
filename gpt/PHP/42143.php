@@ -1,0 +1,1 @@
+<?php\n// Example division operation\n$numerator = 100;\n$num_rows = mysql_num_rows($result);\n\nif ($num_rows > 0) {\n    $result = $numerator / $num_rows;\n} else {\n    // Handle the zero rows case, e.g., set a default value or show a message\n    echo "No rows returned.";\n}\n?>

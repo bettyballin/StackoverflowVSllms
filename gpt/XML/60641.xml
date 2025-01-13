@@ -1,0 +1,1 @@
+<!-- Example of a BizTalk retry policy -->\n   <RetryPolicy>\n       <MaxRetries>5</MaxRetries>\n       <RetryInterval>PT5M</RetryInterval> <!-- Retry every 5 minutes -->\n   </RetryPolicy>

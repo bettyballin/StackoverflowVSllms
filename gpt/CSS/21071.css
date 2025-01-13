@@ -1,0 +1,1 @@
+@font-face {\n    font-family: 'DinEngshrift';\n    src: url('path/to/DinEngshrift.woff2') format('woff2'),\n         url('path/to/DinEngshrift.woff') format('woff');\n    font-weight: normal;\n    font-style: normal;\n}\n\nbody {\n    font-family: 'DinEngshrift', 'Courier New', monospace;\n}

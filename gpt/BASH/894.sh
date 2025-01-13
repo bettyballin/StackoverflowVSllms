@@ -1,0 +1,1 @@
+blkid /dev/sdX1

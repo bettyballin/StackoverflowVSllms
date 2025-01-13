@@ -1,0 +1,1 @@
+// Example of enabling rate limiting in a Node.js Express application\n   const rateLimit = require("express-rate-limit");\n\n   const limiter = rateLimit({\n     windowMs: 15 * 60 * 1000, // 15 minutes\n     max: 100, // limit each IP to 100 requests per windowMs\n     message: "Too many requests from this IP, please try again later."\n   });\n\n   app.use(limiter);

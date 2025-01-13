@@ -1,0 +1,1 @@
+FILE f = fopen("blah", "w"); // This is incorrect\nfclose(&f); // This is incorrect

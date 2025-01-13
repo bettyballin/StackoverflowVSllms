@@ -1,0 +1,1 @@
+struct CMyClass {\n    void *Ptr;\n    int Var;\n\n    bool operator==(const CMyClass &other) const {\n        return Ptr == other.Ptr && Var == other.Var;\n    }\n};

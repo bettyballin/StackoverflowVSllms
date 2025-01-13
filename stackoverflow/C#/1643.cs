@@ -1,1 +1,0 @@
-var db = new MyDataContext();\nIEnumerable<Table1> result = db.ExecuteQuery<Table1>("SELECT * FROM Table1");\ndb.ExecuteCommand("UPDATE Tabel1 SET Column1 = 'Foo'");

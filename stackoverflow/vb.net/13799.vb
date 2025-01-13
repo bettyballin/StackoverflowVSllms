@@ -1,1 +1,0 @@
-Function IsMember(strDomain As String, strGroup _\n  As String, strMember As String) As Boolean\n  Dim grp As Object\n  Dim strPath As String\n\n  strPath = "WinNT://" & strDomain & "/"\n  Set grp = GetObject(strPath & strGroup & ",group")\n  IsMember = grp.IsMember(strPath & strMember)\nEnd Functio

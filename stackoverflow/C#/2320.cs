@@ -1,1 +1,0 @@
-ds.Filter = "(objectClass=user)";

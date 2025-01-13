@@ -1,0 +1,1 @@
+fswatch -o /path/to/local/code | xargs -n1 -I{} ./sync.sh

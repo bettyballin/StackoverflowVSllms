@@ -1,0 +1,1 @@
+# For JavaScript\nuglifyjs yourfile.js -o yourfile.min.js\n\n# For CSS\ncssnano yourfile.css yourfile.min.css

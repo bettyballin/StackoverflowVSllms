@@ -1,0 +1,1 @@
+sudo chown -R :staff /path/to/your/folder

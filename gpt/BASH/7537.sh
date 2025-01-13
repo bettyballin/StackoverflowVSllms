@@ -1,0 +1,1 @@
+tar -xzf eclipse-php-<version>.tar.gz -C /opt/

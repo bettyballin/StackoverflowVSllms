@@ -1,0 +1,1 @@
+px eslint someScript.js

@@ -1,0 +1,1 @@
+python check_dlls.py path/to/directory 64bit

@@ -1,0 +1,1 @@
+Me.ReaderWriterLockSlimInstance.EnterWriteLock()\nTry\n    AddHandler ClassInstance.Event, New EventHandler(AddressOf Me.Method)\nFinally\n    Me.ReaderWriterLockSlimInstance.ExitWriteLock()\nEnd Try

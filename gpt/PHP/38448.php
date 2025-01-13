@@ -1,0 +1,1 @@
+// Register your custom helper if not already done\n$this->addHelperPath('path/to/helpers', 'Zend_View_Helper');\n\n// Use the helper to generate a URL with an anchor\necho $this->urlWithAnchor(\n    array('controller' => 'my.controller', 'action' => 'my.action'),\n    null,\n    false,\n    true,\n    'myanchor'\n);

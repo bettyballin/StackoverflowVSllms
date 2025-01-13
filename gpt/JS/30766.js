@@ -1,0 +1,1 @@
+var order = $('ul').sortable('serialize');\n\n// Convert serialized string to an object\nvar params = {};\norder.split('&').forEach(function(part) {\n    var item = part.split('=');\n    params[item[0]] = item[1];\n});\n\n$.post('ajax.php', {\n    action: 'updateOrder',\n    ...params\n}, function(response) {\n    // handle the response here\n});

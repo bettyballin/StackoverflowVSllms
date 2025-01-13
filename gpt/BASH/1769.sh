@@ -1,0 +1,1 @@
+jcmd <PID> JFR.stop name=MyRecording

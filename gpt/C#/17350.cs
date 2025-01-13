@@ -1,0 +1,1 @@
+public class MyModel\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n    // Add other properties as needed\n}

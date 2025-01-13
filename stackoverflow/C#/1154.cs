@@ -1,1 +1,0 @@
-new MemoryStream(Encoding.UTF8.GetBytes(text))

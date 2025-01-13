@@ -1,0 +1,1 @@
+tar -xzf gcc-4.4.X.tar.gz\n    cd gcc-4.4.X

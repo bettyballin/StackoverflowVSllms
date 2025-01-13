@@ -1,0 +1,1 @@
+java -jar oc4j.jar -versio

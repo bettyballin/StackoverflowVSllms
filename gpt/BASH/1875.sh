@@ -1,0 +1,1 @@
+$ php -a\nInteractive shell\n\nphp > include 'MyClass.php';\nphp > $obj = new MyClass();\nphp > echo $obj->sayHello();\nHello, World!\nphp > exit;\n$

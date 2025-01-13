@@ -1,0 +1,1 @@
+using iTextSharp.text;\nusing iTextSharp.text.pdf;\nusing System.IO;\n\npublic void CreatePdf()\n{\n    Document doc = new Document();\n    PdfWriter.GetInstance(doc, new FileStream("sample.pdf", FileMode.Create));\n    doc.Open();\n    doc.Add(new Paragraph("Hello, World!"));\n    doc.Close();\n}

@@ -1,1 +1,0 @@
-SELECT Team.Teamid, count(memberid)\nFROM \n    TEAM\nLEFT OUTER JOIN \n     Member on Member.teamid = Team.Teamid\nGROUP by Team.Teamid

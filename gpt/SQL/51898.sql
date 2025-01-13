@@ -1,0 +1,1 @@
+SELECT e.Name, d.DepartmentName\nFROM Employees e\nJOIN Departments d ON e.DepartmentId = d.Id\nWHERE e.Age > 30;

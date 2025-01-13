@@ -1,0 +1,1 @@
+' Step 1: Create and populate the hashtable\nDim ht As New Hashtable()\nht.Add("Key1", "Value1")\nht.Add("Key2", "Value2")\nht.Add("Key3", "Value3")\n\n' Step 2: Set the DataSource of the ComboBox\nComboBox1.DataSource = New BindingSource(ht, Nothing)\n\n' Step 3: Set the DisplayMember and ValueMember properties\nComboBox1.DisplayMember = "Value"\nComboBox1.ValueMember = "Key"

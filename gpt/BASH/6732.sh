@@ -1,0 +1,1 @@
+icacls "C:\InetPub\my-site\foo" /grant IIS_IUSRS:(OI)(CI)(RX)

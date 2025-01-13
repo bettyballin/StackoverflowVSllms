@@ -1,0 +1,1 @@
+CREATE TABLE api_tokens (\n  id SERIAL PRIMARY KEY,\n  user_id INTEGER NOT NULL,\n  token VARCHAR(64) NOT NULL,\n  expires_at TIMESTAMP NOT NULL,\n  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n);\n\n-- Ensure the token column has a unique index\nCREATE UNIQUE INDEX idx_token ON api_tokens(token);

@@ -1,0 +1,1 @@
+protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)\n     {\n         optionsBuilder.UseMySQL("Server=myServerAddress;Database=myDataBase;Uid=myUsername;Pwd=myPassword;");\n     }

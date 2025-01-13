@@ -1,1 +1,0 @@
-preg_replace_callback('!\{continue\}(.*)\{/continue\}!Us', 'replace_continue', $html);\n\nfunction replace_continue($matches) {\n  if (/* can continue */) {\n    return $matches[1];\n  } else {\n    return '';\n  }\n}

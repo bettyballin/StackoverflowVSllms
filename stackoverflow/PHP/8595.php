@@ -1,1 +1,0 @@
-$result = $a->stripVars($projCat);\nprint $result;

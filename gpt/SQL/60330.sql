@@ -1,0 +1,1 @@
+EXPLAIN PLAN FOR\nSELECT * FROM employees WHERE last_name = 'Smith';\n\nSELECT * FROM TABLE(DBMS_XPLAN.DISPLAY);

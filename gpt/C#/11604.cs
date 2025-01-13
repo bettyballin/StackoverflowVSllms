@@ -1,0 +1,1 @@
+private void OnActiveXEvent(object sender, EventArgs e)\n{\n    Task.Run(() => HandleEvent(e));\n}\n\nprivate void HandleEvent(EventArgs e)\n{\n    // Long running operation\n}

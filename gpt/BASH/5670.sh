@@ -1,0 +1,1 @@
+~/monitor_emacs_focus.sh &

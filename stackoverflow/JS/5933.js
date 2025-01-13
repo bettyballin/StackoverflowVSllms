@@ -1,1 +1,0 @@
-UrlParam = UrlParam + '&name=' + encodeURIComponent(name.text) + \n  '&business=' + encodeURIComponent(buisness.text);    \nnavigateToURL(new URLRequest(UrlParams),'_self');

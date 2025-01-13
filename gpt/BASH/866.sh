@@ -1,0 +1,1 @@
+#!/bin/bash\nsession_path=$(php -r "echo ini_get('session.save_path');")\nsession_count=$(ls -1 $session_path | wc -l)\necho $session_count > /path/to/sessioncount.txt

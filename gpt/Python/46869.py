@@ -1,0 +1,1 @@
+lines = ["line1", "line2", "line3"]\n\nwith open('output.txt', 'w') as f:\n    f.writelines(f"{line}\n" for line in lines)

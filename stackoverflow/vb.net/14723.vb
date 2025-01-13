@@ -1,1 +1,0 @@
-da = New OleDbDataAdapter("\n  SELECT [Vegetables Descriptions].[Task], \n         [Vegetables Descriptions].[Description], \n         [TasksOcc].[When] \n  FROM   [Vegetables Descriptions] INNER JOIN [TasksOcc] \n         ON [Vegetables Descriptions].[DescID] = [TasksOcc].[DescID] \n  WHERE  [Vegetables Descriptions].[VegeID] = vegeID\n", conn)

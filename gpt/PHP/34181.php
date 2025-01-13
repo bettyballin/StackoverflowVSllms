@@ -1,0 +1,1 @@
+$xml = simplexml_load_string($xmlString);\n    if ($xml === false) {\n        echo "Failed to parse XML.";\n        foreach(libxml_get_errors() as $error) {\n            echo "\t", $error->message;\n        }\n    } else {\n        $root = $xml->xpath('/my-root-element');\n        $lists = $root[0]->$type;\n        // Process $lists as needed\n    }

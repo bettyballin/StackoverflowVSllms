@@ -1,0 +1,1 @@
+// Assuming dataTable1 and dataTable2 have the same schema\nDataTable dataTable1 = new DataTable();\nDataTable dataTable2 = new DataTable();\n\n// Fill dataTable1 and dataTable2 with data\n\n// Merge dataTable2 into dataTable1\ndataTable1.Merge(dataTable2);

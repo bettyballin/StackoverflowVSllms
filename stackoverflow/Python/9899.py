@@ -1,1 +1,0 @@
-data = '\n'.join(','.join('"%s"' % field for field in row) for row in data)\nf= open('data.txt', 'w')\nf.write(data)\nf.close()

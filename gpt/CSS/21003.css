@@ -1,0 +1,1 @@
+/* Example of responsive CSS with flexbox */\n.container {\n  display: flex;\n  flex-wrap: wrap;\n}\n\n.item {\n  flex: 1 1 300px; /* Grow, shrink, and set a base width */\n  margin: 10px;\n  padding: 20px;\n  background-color: #f0f0f0;\n}

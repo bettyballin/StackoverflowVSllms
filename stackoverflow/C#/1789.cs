@@ -1,1 +1,0 @@
-public static String GetTimestamp(this DateTime value)\n{\n    return value.ToString("yyyyMMddHHmmssfff");\n}

@@ -1,0 +1,1 @@
+#MembersList li.Member.Typing {\n    list-style-image: url(images/member_typing.png);\n}\n\n#MembersList li.Moderator.Typing {\n    list-style-image: url(images/member_moderator_typing.png);\n}\n\n#MembersList li.Police.Typing {\n    list-style-image: url(images/member_police_typing.png);\n}

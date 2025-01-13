@@ -1,0 +1,1 @@
+using System.Configuration;\n\n    public class DataLayer\n    {\n        private string connectionString;\n\n        public DataLayer()\n        {\n            connectionString = ConfigurationManager.ConnectionStrings["YourConnectionStringName"].ConnectionString;\n        }\n\n        // Your data access methods here\n    }

@@ -1,0 +1,1 @@
+ew FroalaEditor('#editor', {\n       // Configuration options\n   });

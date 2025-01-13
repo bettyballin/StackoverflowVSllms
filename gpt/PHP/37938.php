@@ -1,0 +1,1 @@
+$pattern = '^[a-zA-Z0-9 .\-_]+$';\n$username = 'te\\st';\nif (preg_match('/^[a-zA-Z0-9 .\-_]+$/', $username)) {\n    echo "Valid username";\n} else {\n    echo "Invalid username";\n}

@@ -1,0 +1,1 @@
+jarsigner -keystore yourkeystore -storepass yourpassword -keypass yourkeypassword yourfile.jar youralias

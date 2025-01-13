@@ -1,0 +1,1 @@
+import hashlib\nimport uuid\n\n# Generate a new GUID\nguid = str(uuid.uuid4())\n\n# Create a SHA-256 hash of the GUID\nhash_object = hashlib.sha256(guid.encode())\nhash_hex = hash_object.hexdigest()\n\nprint(f"GUID: {guid}")\nprint(f"SHA-256 Hash: {hash_hex}")

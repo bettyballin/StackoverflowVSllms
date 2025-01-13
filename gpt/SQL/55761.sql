@@ -1,0 +1,1 @@
+-- Replace with actual values from Customers table\nEXEC AddCustomer 1, 'Test Customer';

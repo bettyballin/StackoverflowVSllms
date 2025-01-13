@@ -1,0 +1,1 @@
+# On the client's machine\nmd5sum sybase_dump_file.dmp.gz > sybase_dump_file.md5

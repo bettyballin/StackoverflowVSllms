@@ -1,0 +1,1 @@
+gcc -Wno-unused-value -Werror -o your_program your_program.c

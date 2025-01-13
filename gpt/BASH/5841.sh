@@ -1,0 +1,1 @@
+CC=/path/to/your/cross-compiler-gcc\nCXX=/path/to/your/cross-compiler-g++\nLD=/path/to/your/cross-compiler-ld

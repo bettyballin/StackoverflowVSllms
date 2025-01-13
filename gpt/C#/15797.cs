@@ -1,0 +1,1 @@
+bool ignoreValidation = bool.TryParse(ConfigurationManager.AppSettings["IgnoreValidation"], out bool result) && result;\n\nif (ignoreValidation)\n{\n    SessionData.IgnoreValidation = true;\n}

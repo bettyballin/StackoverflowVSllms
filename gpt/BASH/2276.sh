@@ -1,0 +1,1 @@
+your_program | iconv -f UTF-8 -t CP437

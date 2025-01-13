@@ -1,0 +1,1 @@
+#include <windows.h>\n#include <stdio.h>\n\nvoid CreateConsole() {\n    AllocConsole();\n    FILE* consoleOutput;\n    freopen_s(&consoleOutput, "CONOUT$", "w", stdout);\n    SetConsoleOutputCP(CP_UTF8);  // Set the console code page to UTF-8\n}\n\nint main() {\n    CreateConsole();\n    wprintf(L"%s\n", L"test");  // Use L for wide string literals\n    return 0;\n}

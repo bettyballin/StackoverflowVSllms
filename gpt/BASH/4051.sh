@@ -1,0 +1,1 @@
+sudo -i -u git\ngl-setup /path/to/your/public/key.pub

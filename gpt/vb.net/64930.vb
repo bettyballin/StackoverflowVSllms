@@ -1,0 +1,1 @@
+Dim lastLogin As Nullable(Of DateTime) = If(DT.Rows(0)("LastLogin") Is DBNull.Value, CType(Nothing, Nullable(Of DateTime)), CType(DT.Rows(0)("LastLogin"), DateTime))\n_LastLogin = lastLogi

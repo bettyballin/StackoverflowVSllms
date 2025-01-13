@@ -1,1 +1,0 @@
-$lsWhere = array();\nforeach($psWhere as $lsKey => $lsValue)\n{\n    $lsWhere[] = $lsKey." = '".mysql_real_escape_string($lsValue)."'";\n}\n$lsQuery .= join(" AND ", $lsWhere);

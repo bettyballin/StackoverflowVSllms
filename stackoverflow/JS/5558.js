@@ -1,1 +1,0 @@
-var item = queue.getNextItem();\nvar state = item.executeStep ();\nif (state == WAITING)\n    queue.AddItem (item);\nelse if (state == DONE)\n    // add to collection of done objects

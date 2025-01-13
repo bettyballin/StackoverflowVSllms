@@ -1,1 +1,0 @@
-$(window).scroll(function(){\n  if(isMyStuffScrolling()){\n    //There is a scroll bar here!\n  }\n}); \n\nfunction isMyStuffScrolling() {\n  var docHeight = $(document).height();\n  var scroll    = $(window).height() + $(window).scrollTop();\n  return (docHeight == scroll);\n} 

@@ -1,0 +1,1 @@
+UPDATE your_table_name\nSET filename = CONCAT(filename, '.jpg')\nWHERE id IN (list_of_ids);

@@ -1,0 +1,1 @@
+# Update package lists\nsudo apt update\n\n# Upgrade installed packages\nsudo apt upgrade\n\n# List files and directories\nls\n\n# Change directory\ncd <directory_name>\n\n# Copy files\ncp <source> <destination>\n\n# Move/Rename files\nmv <source> <destination>\n\n# Remove files/directories\nrm <file_name>\nrm -r <directory_name>

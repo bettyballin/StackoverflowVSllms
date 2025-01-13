@@ -1,0 +1,1 @@
+class My_Validate_NotEmpty extends Zend_Validate_NotEmpty\n{\n    protected $_messageTemplates = array(\n        self::IS_EMPTY => 'Please fill out this field.'\n    );\n}

@@ -1,0 +1,1 @@
+g++ -shared -o DLLb.dll DLLb.cpp -Wl,--out-implib,libb.a

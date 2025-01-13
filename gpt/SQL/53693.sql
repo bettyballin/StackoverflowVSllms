@@ -1,0 +1,1 @@
+SELECT \n    s.sid,\n    s.serial#,\n    s.username,\n    s.status,\n    s.program,\n    q.sql_text\nFROM \n    V$SESSION s\nJOIN \n    V$SQL q\nON \n    s.sql_address = q.address\nWHERE \n    q.sql_text LIKE 'BEGIN%'\n    OR q.sql_text LIKE 'DECLARE%'\n    OR q.sql_text LIKE '%PROCEDURE%'\n    OR q.sql_text LIKE '%FUNCTION%';

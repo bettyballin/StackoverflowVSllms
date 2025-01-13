@@ -1,1 +1,0 @@
-Public Function NDow(Y As Integer, M As Integer, _\n                N As Integer, DOW As Integer) As Date  \n\n' Returns Date of Nth Day of the Week in Month  \n\nNDow = DateSerial(Y, M, (8 - Weekday(DateSerial(Y, M, 1), _\n              (DOW + 1) Mod 8)) + ((N - 1) * 7))  \n\nEnd Function  

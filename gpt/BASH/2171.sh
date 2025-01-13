@@ -1,0 +1,1 @@
+chmod 700 your_script.sh

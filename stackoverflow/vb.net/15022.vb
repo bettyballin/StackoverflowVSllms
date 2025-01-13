@@ -1,1 +1,0 @@
-CustomerReport1.SetParameterValue("CustomerID", txtCustID.Text)\nCrystalReportViewer1.ReportSource = CustomerReport1

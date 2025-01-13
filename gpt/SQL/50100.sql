@@ -1,0 +1,1 @@
+CREATE TABLE field_responses (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    response_id INT,\n    field_id INT,\n    value TEXT,\n    FOREIGN KEY (response_id) REFERENCES form_responses(id),\n    FOREIGN KEY (field_id) REFERENCES form_fields(id)\n);

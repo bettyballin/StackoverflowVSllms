@@ -1,0 +1,1 @@
+<rule name="Mercurial Rewrite" stopProcessing="true">\n       <match url="^hgrepo/(.*)$" />\n       <action type="Rewrite" url="hgrepo/hgwebdir.py/{R:1}" />\n   </rule>

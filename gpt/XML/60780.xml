@@ -1,0 +1,1 @@
+<Window x:Class="WpfApp.MainWindow"\n        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"\n        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"\n        Title="MainWindow" Height="350" Width="525">\n    <Grid>\n        <RichTextBox Name="richTextBox" TextChanged="RichTextBox_TextChanged" VerticalScrollBarVisibility="Auto" />\n    </Grid>\n</Window>

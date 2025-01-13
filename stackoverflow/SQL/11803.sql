@@ -1,1 +1,0 @@
-DELETE categories.*\nFROM categories\nLEFT JOIN map USING (catId)\nWHERE map.catID IS NULL;

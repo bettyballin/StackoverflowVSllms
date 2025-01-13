@@ -1,1 +1,0 @@
-var list = new List<string>();\nvar sortedList = new SortedList<string, string>(list.ToDictionary(s => s));

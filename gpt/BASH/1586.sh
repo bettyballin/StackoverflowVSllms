@@ -1,0 +1,1 @@
+g++ -o my_program main.cpp -L/path/to/log4net -llog4net
