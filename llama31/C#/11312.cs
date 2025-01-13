@@ -1,1 +1,0 @@
-public class ComputerAttribute\n{\n    public int ComputerID { get; set; }\n    public string Attribute { get; set; }\n    public string Value { get; set; }\n}

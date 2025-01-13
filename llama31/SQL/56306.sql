@@ -1,0 +1,1 @@
+WHERE date_column >= DATEFROMPARTS(@year, @month, 1) \n  AND date_column < DATEFROMPARTS(@year, @month + 1, 1)

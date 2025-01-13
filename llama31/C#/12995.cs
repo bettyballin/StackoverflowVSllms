@@ -1,1 +1,0 @@
-HttpContext.Current.Session["UserId"] = userId;\nHttpContext.Current.Session["ChannelId"] = channelId;

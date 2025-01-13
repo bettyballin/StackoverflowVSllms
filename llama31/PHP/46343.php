@@ -1,0 +1,1 @@
+$myList = array();\n\n$myObject1 = new MyObject();\n$myObject2 = new MyObject();\n\n$myList[] = $myObject1;\n$myList[] = $myObject2;

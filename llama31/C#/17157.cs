@@ -1,1 +1,0 @@
-// Example of a Web Service call\n[WebService]\npublic class CampaignService : WebService\n{\n    [WebMethod]\n    public ClientCampaign GetInnerClient(int clientId)\n    {\n        // ...\n    }\n}

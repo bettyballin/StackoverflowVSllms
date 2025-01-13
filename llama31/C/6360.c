@@ -1,1 +1,0 @@
-int fd = open("decrypted_file.txt", O_CREAT | O_RDWR, 0600);\nif (fd != -1) {\n    unlink("decrypted_file.txt"); // Delete the file immediately\n    // Write decrypted data to the file\n    write(fd, decryptedData, dataSize);\n    close(fd); // File is already deleted\n}

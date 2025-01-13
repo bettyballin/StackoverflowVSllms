@@ -1,0 +1,1 @@
+// Waypoints\n$('.last-element').waypoint(() => {\n  // Load next 10 elements\n}, {\n  offset: 'bottom-in-view'\n});\n\n// Inview\nconst inview = require('inview');\ninview('.last-element', () => {\n  // Load next 10 elements\n});

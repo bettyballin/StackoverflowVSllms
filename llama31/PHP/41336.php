@@ -1,0 +1,1 @@
+use Symfony\Component\Security\Core\Encoder\PasswordEncoder;\n\n$encoder = new PasswordEncoder();\n$encryptedPhoneNumber = $encoder->encodePassword('123-456-7890', 'salt');

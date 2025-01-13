@@ -1,1 +1,0 @@
-string[] items = new string[] { "Item 1", "Item 2", "Item 3" };\nrptImages.DataSource = items;\nrptImages.DataBind();

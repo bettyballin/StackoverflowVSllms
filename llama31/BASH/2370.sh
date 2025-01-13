@@ -1,1 +1,0 @@
-cl /MT /LD your_dll_code.cpp

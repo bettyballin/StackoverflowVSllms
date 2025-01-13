@@ -1,0 +1,1 @@
+CREATE TABLE Employees (\n    EmployeeID INT PRIMARY KEY,\n    FirstName VARCHAR(50),\n    LastName VARCHAR(50),\n    Email VARCHAR(100)\n);\n\nCREATE NONCLUSTERED INDEX idx_Employees_Email \nON Employees (Email) \nINCLUDE (FirstName, LastName);

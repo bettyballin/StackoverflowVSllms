@@ -1,1 +1,0 @@
-using System.Net.Http;\n\n// ...\n\nvar client = new HttpClient();\nvar response = client.PostAsync(uri, new ByteArrayContent(postData)).Result;\nvar stream = response.Content.ReadAsStreamAsync().Result;

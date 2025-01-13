@@ -1,0 +1,1 @@
+SELECT \n  SUM(CASE WHEN $P{oneDayAgo} <= datetime AND datetime <= $P{now} THEN count ELSE 0 END) AS today,\n  SUM(CASE WHEN $P{oneWeekAgo} <= datetime AND datetime <= $P{now} THEN count ELSE 0 END) AS thisWeek,\n  SUM(CASE WHEN $P{oneMonthAgo} <= datetime AND datetime <= $P{now} THEN count ELSE 0 END) AS thisMonth\nFROM \n  statistics\nWHERE \n  name = "test"

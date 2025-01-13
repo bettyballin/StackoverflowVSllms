@@ -1,0 +1,1 @@
+// components/ProductView.php\nclass ProductView {\n    public function render($data) {\n        // render HTML template with $data\n        return $html;\n    }\n}

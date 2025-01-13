@@ -1,1 +1,0 @@
-#!/bin/bash\n\npages=(viewacct.php viewacct2.php viewacct_rcw.php)\n\nfor page in "${pages[@]}"; do\n  echo "Searching for $page..."\n  find . -type f -name "*.php" -exec grep -l "$page" {} \;\ndone

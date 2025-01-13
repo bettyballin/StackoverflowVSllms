@@ -1,0 +1,1 @@
+constraint chk_action_size check (\n    (action_action = 'F' and action_size = 0.00) or\n    (action_action <> 'F' and action_size > 0.00)\n)

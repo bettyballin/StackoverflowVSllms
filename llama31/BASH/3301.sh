@@ -1,1 +1,0 @@
--march=corei7 -mtune=corei7

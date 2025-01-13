@@ -1,0 +1,1 @@
+SELECT * \nFROM MM.test_1((SELECT dbo.test_2(kp.id) AS output_param))\nFROM kp kp\nWHERE id = 4679

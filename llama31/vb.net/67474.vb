@@ -1,0 +1,1 @@
+Imports System.Windows.Media.Animation\n\n' Assume your Storyboard is named "MyStoryboard"\nDim storyboard As Storyboard = DirectCast(Me.Resources("MyStoryboard"), Storyboard)\nstoryboard.Begin(Me)

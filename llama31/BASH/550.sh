@@ -1,1 +1,0 @@
-sudo -u postgres /usr/local/postgresql-8.3.6/bin/pg_ctl start -D /var/lib/postgresql/data

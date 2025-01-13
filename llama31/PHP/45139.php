@@ -1,0 +1,1 @@
+$array = [0];\necho $array[0]; // outputs 0

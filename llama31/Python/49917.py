@@ -1,0 +1,1 @@
+import sqlparse\n\nquery = "SELECT * FROM x;"\ntry:\n    sqlparse.parse(query)\n    print("Query is syntactically correct")\nexcept sqlparse.ParseException as e:\n    print("Query is not syntactically correct:", e)

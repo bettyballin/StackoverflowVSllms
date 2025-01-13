@@ -1,1 +1,0 @@
-# Initialize the slave repository\nsvnsync init --username=slaveuser file:///path/to/slave/repo https://master/repo/url\n\n# Create a hook script to sync with the master\n# File: /path/to/slave/repo/hooks/post-commit\n#!/bin/sh\nsvnsync sync --username=slaveuser file:///path/to/slave/repo

@@ -1,0 +1,1 @@
+function centralizedErrorHandler(xhr, status, error) {\n  console.error('Ajax Error:', error);\n  // Implement global error handling logic here, e.g., display user-friendly error messages\n}

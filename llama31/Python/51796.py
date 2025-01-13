@@ -1,0 +1,1 @@
+import random\n\ndef generate_k_non_repeating_integers(n, k):\n    numbers = list(range(n))\n    random.shuffle(numbers)\n    return numbers[:k]

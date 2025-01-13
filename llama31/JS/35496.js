@@ -1,0 +1,1 @@
+self.puff({duration: 0, queue: 'end',\n    afterFinish: function() { self.remove(); }\n});

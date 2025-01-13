@@ -1,0 +1,1 @@
+CREATE PROFILE reporting_profile LIMIT\n  CPU_PER_CALL          3000  -- 3 seconds\n  LOGICAL_READS_PER_CALL 50000  -- 50,000 blocks\n  COMPOSITE_LIMIT       500000  -- 500,000 service units\n\nALTER USER reporting_user PROFILE reporting_profile;

@@ -1,0 +1,1 @@
+function getTextBetweenTags($string, $tagname) {\n    $pattern = "/<$tagname[^>]*>(.*?)<\/$tagname>/s";\n    preg_match($pattern, $string, $matches);\n    return $matches[1];\n}\n\n$str = '<textformat leading="2"><p align="left"><font size="10">get me</font></p></textformat>';\n$txt = getTextBetweenTags($str, "font");\necho $txt;

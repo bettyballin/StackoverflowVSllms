@@ -1,1 +1,0 @@
-@echo off\nset interpreter=ruby\nset script=%1\n%interpreter% %script%
