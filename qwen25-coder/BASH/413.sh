@@ -1,1 +1,0 @@
-./configure --libdir=/usr/lib/i386-linux-gnu CFLAGS="-m32" LDFLAGS="-m32"

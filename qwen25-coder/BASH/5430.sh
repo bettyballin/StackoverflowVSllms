@@ -1,1 +1,0 @@
-gs -dSAFER -dBATCH -sDEVICE=pdfwrite -DNOPAUSE -sPAPERSIZE=halfletter \\n-dFIXEDMEDIA -dEmbedAllFonts=true -dCompressFonts=false \\n-sOutputFile=library.1of2.pdf -dLastPage=740 -dPDFFitPage library.pdf

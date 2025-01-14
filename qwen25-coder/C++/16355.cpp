@@ -1,1 +1,0 @@
-// Factory function to create a default vector if needed\nstd::vector<int> getDefaultVector() {\n    std::vector<int> vec;\n    // fill vec with data\n    return vec;\n}\n\nvoid foo(int i, const std::vector<int>& optional) {\n    // process vector\n}\n\nvoid foo(int i) {\n    auto vec = getDefaultVector();\n    foo(i, vec);\n}

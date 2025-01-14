@@ -1,1 +1,0 @@
-if (myObject != nullptr) {\n    myObject->func();\n} else {\n    // Handle null case, possibly throw an exception or log it\n    throw std::runtime_error("Attempted to call func() on a null object.");\n}

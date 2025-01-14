@@ -1,1 +1,0 @@
-// Assuming 'myTextBox' is your WPF TextBox control\nDispatcher.Invoke(() =>\n{\n    myTextBox.Text = "Updated text from another thread";\n});

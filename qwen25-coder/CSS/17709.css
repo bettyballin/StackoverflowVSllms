@@ -1,1 +1,0 @@
-.form-container {\n    padding: 20px; /* Adjust as needed */\n}\n\n.form-container div {\n    margin-bottom: 15px;\n}\n\nlabel {\n    display: inline-block;\n    width: 150px; /* Adjust as needed for alignment */\n}\n\ninput[type="text"] {\n    padding: 8px; /* Padding around the text box */\n}

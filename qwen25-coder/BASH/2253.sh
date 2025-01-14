@@ -1,1 +1,0 @@
-git add .gitattributes\n   git commit -m "Track binary files with Git LFS"\n   git push origin mai

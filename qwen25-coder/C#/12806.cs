@@ -1,1 +1,0 @@
-connection.Execute("INSERT INTO Users (Name) VALUES (@name)", new { name = userName });

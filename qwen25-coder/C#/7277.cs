@@ -1,1 +1,0 @@
-// Assume you have a database named "MyDB" with a table "Products"\nvar db = new MyDB();\nvar products = db.Products.All(); // Retrieves all rows from the Products table\n\nforeach(var product in products)\n{\n    Console.WriteLine(product.Name);\n}

@@ -1,1 +1,0 @@
-/* CSS for common styles */\n.common-style {\n    background-color: lightgray;\n    padding: 10px;\n}\n\n/* Specific styling using the ID */\n#unique-section {\n    background-color: blue;\n    color: white;\n}

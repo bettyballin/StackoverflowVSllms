@@ -1,1 +1,0 @@
-/* Assume .tab-menu is the class for your tabs container */\n.tab-menu {\n    font-size: 0; /* Remove white space between inline-block/inline elements */\n}\n\n.tab-menu img {\n    display: inline-block;\n    vertical-align: top;\n    font-size: 16px; /* Reset font size on images if text content exists */\n}

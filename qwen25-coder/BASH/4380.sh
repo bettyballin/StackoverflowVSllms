@@ -1,1 +1,0 @@
-sudo apt-get install libcrypto++-dev libssl-dev  # or equivalent for your distro

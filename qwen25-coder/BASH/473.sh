@@ -1,1 +1,0 @@
-sed -i.backup "s|thisisthestudycodereplacethiswiththestudycode|$study|g" freq.spx

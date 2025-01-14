@@ -1,1 +1,0 @@
-set TNS_ADMIN=C:\oracle\product\19.0.0\dbhome_1\network\admi

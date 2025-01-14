@@ -1,1 +1,0 @@
-program.exe: main.o libui.a\n    gcc -o program.exe main.o libui.a\n\nmain.o: main.c\n    gcc -c main.c -o main.o\n\nlibui.a: ui.o\n    ar rcs libui.a ui.o\n\nui.o: window1.o window2.o\n    gcc -r -combine window1.o window2.o -o ui.o\n\nwindow1.o: window1.c window1.h\n    gcc -c window1.c -o window1.o\n\nwindow2.o: window2.c window2.h\n    gcc -c window2.c -o window2.o

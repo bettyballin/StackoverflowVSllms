@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        // Accessing session variable\n        string user = Session["User"] as string;\n        if (user != null)\n        {\n            Label1.Text = "Welcome, " + user;\n        }\n    }\n}

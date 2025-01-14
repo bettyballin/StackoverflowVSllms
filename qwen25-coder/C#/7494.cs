@@ -1,1 +1,0 @@
-// Placeholder for what a connected content feature might look like if reintroduced\n   public SPListItem GetConnectedContent(string id) {\n       // Logic to connect and retrieve specific content\n       return spList.GetItemById(id);\n   }

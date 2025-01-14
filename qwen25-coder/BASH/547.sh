@@ -1,1 +1,0 @@
-openssl pkcs12 -in mycert.p12 -out temp.pem -nodes

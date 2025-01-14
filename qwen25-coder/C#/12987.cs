@@ -1,1 +1,0 @@
-<%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl<YourModelType>" %>\n\n<%= Html.DisplayFor(model => model.SomeProperty) %>

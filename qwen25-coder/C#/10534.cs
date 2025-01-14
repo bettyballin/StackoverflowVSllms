@@ -1,1 +1,0 @@
-public class LegacyEntityMap : ClassMap<LegacyEntity>\n{\n    public LegacyEntityMap()\n    {\n        Table("legacy_table");\n        Id(x => x.Id).Column("legacy_id").GeneratedBy.Native();\n        Map(x => x.Name).Column("name_column");\n        // Additional mappings here\n    }\n}

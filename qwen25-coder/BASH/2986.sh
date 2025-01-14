@@ -1,1 +1,0 @@
-#!/bin/bash\n\nUSER_ID=$1\nAPI_URL="https://api.stackexchange.com/2.3/users/$USER_ID?order=desc&sort=reputation&site=stackoverflow&filter=!9_bDDxJY5"\n\nreputation=$(curl -s "$API_URL" | jq -r '.items[0].reputation')\n\necho "Reputation: $reputation"

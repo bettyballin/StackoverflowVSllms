@@ -1,1 +1,0 @@
-split -b 2000k largefile.sql smallfile_

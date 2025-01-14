@@ -1,1 +1,0 @@
-make clean\n./configure --with-intl \\n            --with-icu-dir=/usr/local/icu \\n            LDFLAGS="-L/usr/local/icu/lib" \\n            CPPFLAGS="-I/usr/local/icu/include"\nmake\nsudo make install

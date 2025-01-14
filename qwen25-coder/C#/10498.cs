@@ -1,1 +1,0 @@
-[RequireHttps]\npublic class HomeController : Controller\n{\n    // ...\n}

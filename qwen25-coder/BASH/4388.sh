@@ -1,1 +1,0 @@
-sudo apt-get install php-mysql  # Debian/Ubuntu\n   sudo yum install php-mysql      # CentOS/RHEL

@@ -1,1 +1,0 @@
-./configure --enable-multilib --with-arch=opteron --with-cpu=opteron --build=i386-pc-solaris2.11 --host=i386-pc-solaris2.11 --target=i386-pc-solaris2.11 CC=gcc CXX=g++

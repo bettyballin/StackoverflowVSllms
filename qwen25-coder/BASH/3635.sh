@@ -1,1 +1,0 @@
-mysqldump -u root -p dbname --skip-set-charset > mrdb_compatible.sql

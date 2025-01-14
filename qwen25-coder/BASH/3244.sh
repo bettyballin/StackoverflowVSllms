@@ -1,1 +1,0 @@
-# Initialize repo on server\n   ssh server.domain 'mkdir -p /home/ME/home_dir.git && cd /home/ME/home_dir.git && git init --bare'\n\n   # Client-side operations\n   cd ~\n   git init\n   git remote add origin ssh://server.domain//home/ME/home_dir.git\n   git add .\n   git commit -m "Initial commit"\n   git push -u origin master

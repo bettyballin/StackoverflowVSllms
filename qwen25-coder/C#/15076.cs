@@ -1,1 +1,0 @@
-var query = from c in db.Customers\n            join o in db.Orders on c.CustomerID equals o.CustomerID into sr\n            from x in sr.DefaultIfEmpty()\n            select x?.OrderId; // Use null-conditional operator to ensure null is returned when x is null\n\nList<decimal?> resultList = query.ToList();

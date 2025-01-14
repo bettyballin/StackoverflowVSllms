@@ -1,1 +1,0 @@
-msbuild /t:clean /p:Configuration=Release\n   msbuild /t:rebuild /p:Configuration=Release

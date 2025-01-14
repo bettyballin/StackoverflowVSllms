@@ -1,1 +1,0 @@
-protected void RadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)\n{\n    // Your logic here\n\n    // Register the script again after partial postback\n    string script = "$('div.scrollable').scrollable({ size: 3 });";\n    ScriptManager.RegisterStartupScript(this, GetType(), "ScrollableScript", script, true);\n}

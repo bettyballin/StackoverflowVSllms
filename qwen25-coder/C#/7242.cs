@@ -1,1 +1,0 @@
-var events = this.GetSortedEvents().ToList(); // Execute the initial query\nvar timeZoneAdjustedDate = DateTime.UtcNow.AddHours(3).Date;\n\n// Filter on the client side\nvar filteredEvents = events.Where(e => e.FinishDateTime.AddHours(3).Date >= timeZoneAdjustedDate);

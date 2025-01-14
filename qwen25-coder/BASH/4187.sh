@@ -1,1 +1,0 @@
-svn checkout http://yourreposurl/trunk/web C:\inetpub\wwwroot\ProjectName

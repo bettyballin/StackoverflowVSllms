@@ -1,1 +1,0 @@
-string name = firstName ?? middleName ?? lastName ?? "Unknown";

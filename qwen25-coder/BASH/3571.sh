@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Navigate to the directory containing your pom.xml\ncd /path/to/your/project\n\n# Clean and package as WAR\nmvn clean package -Dpackaging=war\n\n# Optionally, move the war file to another location\nmv target/your-project.war /desired/location/

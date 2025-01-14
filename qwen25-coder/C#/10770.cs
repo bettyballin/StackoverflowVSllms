@@ -1,1 +1,0 @@
-public interface IModule {\n    void Initialize();\n    string Name { get; }\n}

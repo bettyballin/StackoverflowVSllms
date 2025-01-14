@@ -1,1 +1,0 @@
-ACCEPT_EULA=Y sudo yum install -y msodbcsql17

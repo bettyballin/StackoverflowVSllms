@@ -1,1 +1,0 @@
-sudo tail -f /var/log/messages # For Ubuntu\n   sudo tail -f /var/log/syslog # For CentOS

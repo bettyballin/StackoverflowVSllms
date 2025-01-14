@@ -1,1 +1,0 @@
-@media print {\n  tfoot {\n    position: relative;\n    display: table-footer-group; /* Ensure it remains as the footer */\n    background-color: white; /* Prevent overlapping with content if transparent */\n  }\n\n  /* Hide tfoot from each page except the last one */\n  tr + tfoot, tr + tr + tfoot, tr + tr + tr + tfoot {\n    display: none;\n  }\n}

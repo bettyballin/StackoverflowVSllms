@@ -1,1 +1,0 @@
-// Example of keywords in C++\nint main() {\n    if (true) { // 'if' is a keyword used here with a specific meaning\n        return 0; // 'return' is another keyword used to exit the function\n    }\n}

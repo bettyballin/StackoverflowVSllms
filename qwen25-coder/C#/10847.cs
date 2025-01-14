@@ -1,1 +1,0 @@
-using System.ServiceModel;\n\n[ServiceContract]\npublic interface IMyScriptingService\n{\n    [OperationContract]\n    string ExecuteScript(string script);\n    \n    [OperationContract]\n    int DoSomeToolFunction();\n}

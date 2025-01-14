@@ -1,1 +1,0 @@
-using System;\nusing System.Diagnostics;\nusing System.Windows.Forms;\n\npublic class Form1 : Form {\n    public Form1() {\n        this.MouseDown += new MouseEventHandler(Form1_MouseDown);\n    }\n\n    void Form1_MouseDown(object sender, MouseEventArgs e) {\n        Debug.WriteLine("MouseDown event fired at: " + DateTime.Now);\n        // Rest of your code...\n    }\n}

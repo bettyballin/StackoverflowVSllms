@@ -1,1 +1,0 @@
-.Centered {\n    width: 100px; /* Set your desired width */\n    height: auto;\n    position: fixed; /* Use fixed positioning for viewport relative positioning */\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%); /* Center the element */\n}

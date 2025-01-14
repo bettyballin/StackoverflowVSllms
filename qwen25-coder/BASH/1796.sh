@@ -1,1 +1,0 @@
-# Registering a DLL in SysWOW64 (use regsvr32 from SysWOW64 folder)\n"C:\Windows\SysWOW64\regsvr32.exe" your_plugin.dll

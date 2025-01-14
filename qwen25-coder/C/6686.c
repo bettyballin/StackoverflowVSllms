@@ -1,1 +1,0 @@
-// Incorrect way according to modern C standards\nvoid func();  // This means the function takes an unknown number of arguments

@@ -1,1 +1,0 @@
-var query = from h in db.Homes\n            where h.Description.Contains("private")\n                  && h.Available == 1\n                  && h.Price >= 200000\n                  && h.Price <= 750000\n            orderby h.Price descending\n            select new { h.HomeID, h.Bedrooms, h.ImageURL, h.Price, h.Available, h.Description };\n\nvar results = query.ToList();

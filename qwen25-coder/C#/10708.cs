@@ -1,1 +1,0 @@
-using System.Linq;\n   \n   var filteredList = text.Where(s => s.StartsWith("ele")).ToList(); // Gets all elements starting with "ele"\n   var orderedList = text.OrderBy(s => s.Length).ToList(); // Orders list by string length

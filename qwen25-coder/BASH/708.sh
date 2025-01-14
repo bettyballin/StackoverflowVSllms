@@ -1,1 +1,0 @@
-# Install ClamAV on Debian/Ubuntu systems\n   sudo apt-get update\n   sudo apt-get install clamav clamav-daemo

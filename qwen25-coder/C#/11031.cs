@@ -1,1 +1,0 @@
-protected void cvWordCount_ServerValidate(object source, ServerValidateEventArgs args)\n{\n    args.IsValid = ValidateIsMoreThanWords(txtInput.Text, 3);\n}\n\nprotected void btnSubmit_Click(object sender, EventArgs e)\n{\n    // Your logic to handle form submission\n}

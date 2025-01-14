@@ -1,1 +1,0 @@
-ffmpeg -i input.mp3 -af volumedetect -f null /dev/null 2>&1 | grep -Eo 'mean_volume: [^ ]+' | awk '{print $3}'

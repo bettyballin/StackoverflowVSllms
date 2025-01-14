@@ -1,1 +1,0 @@
-blat -to mike.roosa@toltsg.com -subject "[DEV] PO Detail Report" -bodyf "email_body.txt" -attach "C:\TXT\PODetail_26879.csv" -log C:\EMAIL.LOG\20090129.TXT -timestamp

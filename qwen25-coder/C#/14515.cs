@@ -1,1 +1,0 @@
-public class ExceptionLogger\n{\n    [DllImport("YourUnmanagedLoggingLib.dll", CharSet = CharSet.Auto)]\n    public static extern void LogCallStack();\n\n    public static void HandleException(Exception ex)\n    {\n        Console.WriteLine($"Exception: {ex.Message}");\n        LogCallStack();\n    }\n}

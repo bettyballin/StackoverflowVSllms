@@ -1,1 +1,0 @@
-gdb /path/to/executable\n   (gdb) break function_name    # Set a breakpoint\n   (gdb) run                    # Start the execution of the program\n   (gdb) backtrace              # Display stack trace when program halts

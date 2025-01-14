@@ -1,1 +1,0 @@
-sudo a2enmod cgi  # For mod_cgi\n# Or\nsudo a2enmod cgid  # For mod_cgid\nsudo systemctl restart apache2

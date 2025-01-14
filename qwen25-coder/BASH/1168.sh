@@ -1,1 +1,0 @@
-# Apache .htaccess example:\n   AddDefaultCharset UTF-8

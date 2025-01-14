@@ -1,1 +1,0 @@
-stsadm -o addcontentdb -url "http://your-new-farm-url" -databasename "SharePoint_ContentDB"

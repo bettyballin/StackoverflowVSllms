@@ -1,1 +1,0 @@
-#ifdef MYPLUGIN_EXPORTS\n        #define MYPLUGIN_API __declspec(dllexport)\n    #else\n        #define MYPLUGIN_API __declspec(dllimport)\n    #endif

@@ -1,1 +1,0 @@
-public class DataService\n{\n    [OperationContract]\n    public List<object> GetData()\n    {\n        // Example of dynamic data generation\n        var data = new List<object>();\n        data.Add(new { Column1 = "Value1", Column2 = "Value2" });\n        data.Add(new { ColumnB = "Value3", SomeOtherColumn = "Value4" });\n        return data;\n    }\n}

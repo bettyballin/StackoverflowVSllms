@@ -1,1 +1,0 @@
-gcc -o sniff sniff.c -lpcap

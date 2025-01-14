@@ -1,1 +1,0 @@
-using System;\n\nclass Program {\n    static void Main() {\n        string csv = "a1,b1,c1\r\na2,b2,c2";\n        string html = "<table><tr>" + csv.Replace("\r\n", "</tr><tr>").Replace(",", "</td><td>") + "</td></tr></table>";\n        Console.WriteLine(html);\n    }\n}

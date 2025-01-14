@@ -1,1 +1,0 @@
-sudo apt-get update\n   sudo apt-get install gcc-arm-linux-gnueabi g++-arm-linux-gnueabi

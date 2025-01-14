@@ -1,1 +1,0 @@
-# Example: Using a simple cron job for backup of MySQL\n   0 5 * * * /usr/bin/mysqldump -u user -p'password' dbname > /var/backups/dbname-$(date +\%Y-\%m-\%d).sql

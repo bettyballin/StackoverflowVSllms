@@ -1,1 +1,0 @@
-#include <iostream>\n\nint main() {\n    for (int i = 0; i < 1000; ++i) {\n        std::cout << "This is log entry number " << i << std::endl;\n    }\n    return 0; // Simulate normal exit or crash here\n}

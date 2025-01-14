@@ -1,1 +1,0 @@
-perf record ld your_object_files_and_flags -o output_binary

@@ -1,1 +1,0 @@
-// CSharpApp.cs\nusing ManagedDll;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        CameraController controller = new CameraController();\n        controller.SetParameter(42);\n        int result = controller.GetResult();\n        Console.WriteLine(result); // Should output 42 if correctly set up\n    }\n}

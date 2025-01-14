@@ -1,1 +1,0 @@
-public class LmpDemoRequest {\n    // other properties\n\n    [Timestamp]\n    public byte[] VerCol { get; private set; }\n}

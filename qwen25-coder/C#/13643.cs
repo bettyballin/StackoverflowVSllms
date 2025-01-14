@@ -1,1 +1,0 @@
-public Form1()\n{\n    InitializeComponent();\n    \n    txtBox1.TextChanged += txtBox1_TextChanged;\n    txtBox2.TextChanged += txtBox2_TextChanged;\n    txtBox3.TextChanged += txtBox3_TextChanged;\n\n    // Load event to attach KeyDown handlers\n    this.Load += Form1_Load;\n}

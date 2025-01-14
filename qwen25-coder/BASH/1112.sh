@@ -1,1 +1,0 @@
-# Caution: This will corrupt data. Ensure backups and operate in a controlled environment.\nsudo dd if=/dev/zero bs=1024 count=1 seek=<block_number> of=/dev/sdXN conv=notrunc

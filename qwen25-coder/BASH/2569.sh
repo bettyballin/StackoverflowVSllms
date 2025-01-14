@@ -1,1 +1,0 @@
-ffmpeg -re -i input.flv -c copy -f flv http://localhost:8081/live/stream

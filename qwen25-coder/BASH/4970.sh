@@ -1,1 +1,0 @@
-* * * * * /usr/bin/php /path/to/test.php >> /var/log/cronjob.log 2>&1

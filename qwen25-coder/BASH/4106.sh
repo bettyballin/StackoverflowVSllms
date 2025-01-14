@@ -1,1 +1,0 @@
-mkdir C:\InstantRails\ssl\n   cd C:\InstantRails\ssl\n\n   openssl req -x509 -newkey rsa:4096 -keyout instantrails-key.pem -out instantrails-cert.pem -days 365 -nodes

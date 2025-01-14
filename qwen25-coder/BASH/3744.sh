@@ -1,1 +1,0 @@
-strace -p <PID>

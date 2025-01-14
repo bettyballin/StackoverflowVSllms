@@ -1,1 +1,0 @@
-/* Reset margin and padding for paragraphs */\np {\n    margin: 0;\n    padding: 0;\n}\n\n/* Reset margin and padding for headings */\nh1, h2, h3, h4, h5, h6 {\n    margin: 0;\n    padding: 0;\n}

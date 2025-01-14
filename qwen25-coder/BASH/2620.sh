@@ -1,1 +1,0 @@
-# On each developer's machine:\n   git clone /path/to/central/repo/central-repo.git\n   cd central-repo/

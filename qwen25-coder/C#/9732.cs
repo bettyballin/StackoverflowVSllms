@@ -1,1 +1,0 @@
-try\n{\n    // Code to automate Excel\n    Application excelApp = new Application();\n}\ncatch (COMException ex)\n{\n    MessageBox.Show("Excel is not installed on your system.");\n}

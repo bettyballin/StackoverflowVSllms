@@ -1,1 +1,0 @@
-dig www.subdomain.site.com.br @<chosen_site_com_br_authoritative_server>

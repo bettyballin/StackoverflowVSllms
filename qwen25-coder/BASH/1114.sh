@@ -1,1 +1,0 @@
-dd if=/dev/random bs=1024 count=1 seek=<block_number> of=<device_name> conv=notrunc

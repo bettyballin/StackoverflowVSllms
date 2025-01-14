@@ -1,1 +1,0 @@
-using System;\nusing System.Collections.Generic;\nusing System.Linq;\n\npublic class YourClass\n{\n    public Array Values { get; set; }\n\n    public List<object> CategoriesToList()\n    {\n        // Convert the array to a list using LINQ\n        var vals = Values.Cast<object>().ToList();\n        \n        return vals;\n    }\n}

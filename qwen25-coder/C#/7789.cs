@@ -1,1 +1,0 @@
-int batchSize = 5; // Adjust based on your needs and server limits\n   for (int i = 0; i < messages.Count; i += batchSize)\n   {\n       var batch = messages.Skip(i).Take(batchSize);\n       using (SmtpClient client = new SmtpClient())\n       {\n           foreach (var message in batch)\n           {\n               client.Send(message);\n           }\n       }\n   }

@@ -1,1 +1,0 @@
-@echo off\nREM #!/usr/bin/perl\nREM use strict;\nREM print "Hello from Perl\n";\nif exist "%SYSTEMROOT%\system32\perl.exe" (\n    %SYSTEMROOT%\system32\perl.exe -x "%~f0" %*\n) else (\n    echo Perl is not installed.\n)\nexit /b\n\n__END__

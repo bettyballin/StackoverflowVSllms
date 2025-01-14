@@ -1,1 +1,0 @@
-ant -diagnostics | grep Ivy

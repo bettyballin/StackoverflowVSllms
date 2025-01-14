@@ -1,1 +1,0 @@
-using System.Collections.Generic;\nusing System.Collections.Specialized;\n\npublic List<string> ConvertStringCollectionToList(StringCollection stringCollection)\n{\n    List<string> list = new List<string>();\n    foreach (string item in stringCollection)\n    {\n        list.Add(item);\n    }\n    return list;\n}

@@ -1,1 +1,0 @@
-using System.Web;\n\npublic void ForceSessionTimeout()\n{\n    // Abandon the current session and redirect to login page\n    HttpContext.Current.Session.Abandon();\n    HttpContext.Current.Response.Redirect("~/Login.aspx");\n}

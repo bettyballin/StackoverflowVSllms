@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint main() {\n    Int32 status;\n\n    // Suppress warnings for the next line\n    #pragma GCC diagnostic push\n    #pragma GCC diagnostic ignored "-Wformat"\n\n    printf("status: %x", status);\n\n    // Re-enable all warnings\n    #pragma GCC diagnostic pop\n\n    return 0;\n}

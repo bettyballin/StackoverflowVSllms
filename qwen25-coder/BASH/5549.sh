@@ -1,1 +1,0 @@
-objdump -dS your_program.o

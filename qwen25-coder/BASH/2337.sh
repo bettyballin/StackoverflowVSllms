@@ -1,1 +1,0 @@
-tar -czvf nexus-data-backup.tar.gz /sonatype-work/nexus3/  # Assuming default installation path

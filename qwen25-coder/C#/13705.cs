@@ -1,1 +1,0 @@
-public interface IEmployeeRepository\n{\n    Employee GetById(int id);\n}\n\npublic class EmployeeRepository : IEmployeeRepository\n{\n    public Employee GetById(int id)\n    {\n        // Implementation to fetch employee by id from database.\n        return new Employee { Id = id, Name = "John Doe", Position = "Developer" };\n    }\n}

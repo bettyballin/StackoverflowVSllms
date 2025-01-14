@@ -1,1 +1,0 @@
-sudo chown root:yourusergroup /path/to/your/executable\nsudo chmod u+s /path/to/your/executable

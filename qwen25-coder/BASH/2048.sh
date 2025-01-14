@@ -1,1 +1,0 @@
-DISPLAY=THE_DISPLAY_I_WANT:0.1 java -jar my.jar

@@ -1,1 +1,0 @@
-modelBuilder.Entity<User>()\n       .Property(u => u.Name)\n       .IsRequired();\n\n   modelBuilder.Entity<User>()\n       .Property(u => u.Age)\n       .Range(18, 100);

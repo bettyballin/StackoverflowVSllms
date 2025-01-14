@@ -1,1 +1,0 @@
-brew install gcc\n\n# Use the specified version of GCC that matches the 'gprof'\ngcc-11 -pg test.c -o test && ./test\ngprof-11 test gmon.out

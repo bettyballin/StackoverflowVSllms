@@ -1,1 +1,0 @@
-public class MvcApplication : System.Web.HttpApplication\n   {\n       protected void Application_Start()\n       {\n           AppDomain.CurrentDomain.DomainUnload += CurrentDomain_DomainUnload;\n           // other startup code\n       }\n\n       private void CurrentDomain_DomainUnload(object sender, EventArgs e)\n       {\n           // Cleanup logic here\n       }\n   }

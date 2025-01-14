@@ -1,1 +1,0 @@
-@echo off\n:: Example: Setting up a custom environment using Local Group Policy Editor\n:: Note: This needs to be done as administrator once and does not require user intervention thereafter\n\n:: Navigate to the appropriate policy key for your application\nreg add "HKLM\SOFTWARE\Policies\YourApplication" /v SecurityPolicy /t REG_DWORD /d 1 /f

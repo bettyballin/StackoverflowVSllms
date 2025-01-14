@@ -1,1 +1,0 @@
-rpmbuild -ta foobar-1.0.tar.gz --define "_builddir $(pwd)" --define "_srcrpmdir $(pwd)" --define "_specdir $(pwd)" --define "_sourcedir $(pwd)"

@@ -1,1 +1,0 @@
-public class NewList<T>\n{\n    private List<T> _items;\n\n    public NewList()\n    {\n        _items = new List<T>();\n    }\n\n    // Proxy method to add items\n    public void Add(T item)\n    {\n        _items.Add(item);\n    }\n\n    // Other custom methods and properties can be added here\n}

@@ -1,1 +1,0 @@
-.container {\n    display: flex;\n    justify-content: center;\n    margin: 0 auto; /* Center the container */\n    max-width: 1200px; /* Set a maximum width */\n    padding: 20px; /* Add some padding for better readability */\n}\n\n.content {\n    flex-basis: 90%; /* Main content area takes up most space */\n    max-width: 65ch; /* Limit line length for readability */\n}

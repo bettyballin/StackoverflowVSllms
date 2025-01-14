@@ -1,1 +1,0 @@
-[System.Web.Services.WebMethod]\n   public static MyCustomObject GetMyData()\n   {\n       var myObject = new MyCustomObject\n       {\n           Property1 = "Hello World",\n           Property2 = 42\n       };\n       return myObject;\n   }

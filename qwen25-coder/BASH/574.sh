@@ -1,1 +1,0 @@
-python -m pip install jupyterlab dotnet-interactive[jupyter]

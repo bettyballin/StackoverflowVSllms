@@ -1,1 +1,0 @@
-private void startDateTextBox_Leave(object sender, EventArgs e)\n{\n    DateTime parsedDate;\n    if (!DateTime.TryParse(startDateTextBox.Text, out parsedDate))\n    {\n        // If parsing fails, set the text box to today's date in a user-friendly format.\n        startDateTextBox.Text = DateTime.Today.ToString("MM/dd/yyyy");\n    }\n}

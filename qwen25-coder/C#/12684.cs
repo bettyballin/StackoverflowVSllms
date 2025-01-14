@@ -1,1 +1,0 @@
-// Example in C# with StackExchange.Redis\n   var redis = ConnectionMultiplexer.Connect("your-redis-server");\n   var db = redis.GetDatabase();\n   db.StringSet("cacheKey", "cacheValue");

@@ -1,1 +1,0 @@
-#formItem label {\n    text-align: center;\n    line-height: 150%;\n    font-size: .85em;\n    display: block; /* Ensure the label takes full width to allow centering */\n    width: 100%; /* Full width for centering effect */\n}

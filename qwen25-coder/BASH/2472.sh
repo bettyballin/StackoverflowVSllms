@@ -1,1 +1,0 @@
-chmod +x /path/to/backup_and_email.sh

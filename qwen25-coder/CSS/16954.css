@@ -1,1 +1,0 @@
-/* IE specific styles */\n@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {\n    div[style*="height: 20px;"] {\n        width: auto !important;\n    }\n}

@@ -1,1 +1,0 @@
-HttpContext.Current.Items["UniqueID"] = someUniqueId;\nvar uniqueId = HttpContext.Current.Items["UniqueID"];

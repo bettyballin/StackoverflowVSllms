@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <stdlib.h>\n\nint main()\n{\n    const char *yytext = "0";\n    float f = (float)atof(yytext);\n    \n    // Use a union to interpret the float as size_t\n    union {\n        float f;\n        size_t t;\n    } u;\n\n    u.f = f;\n    printf("t should be 0 but is %zu\n", u.t);\n\n    return 0;\n}

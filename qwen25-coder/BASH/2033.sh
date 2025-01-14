@@ -1,1 +1,0 @@
-mysql -u username -p database_name --skip-column-names -e "SELECT * FROM your_table" | awk '{OFS=","} {print $0}'

@@ -1,1 +1,0 @@
-public class GameMapping : ClassMap<Game>\n{\n    public GameMapping()\n    {\n        Id(x => x.Id);\n        References(x => x.Event).Fetch.Join();\n        // other mappings...\n    }\n}

@@ -1,1 +1,0 @@
-#yourContainerDiv {\n    all: initial; /* Resets all inherited properties */\n    style1: value !important;\n    style2: value !important;\n    style3: value !important;\n    /* Add all necessary styles here with !important */\n}

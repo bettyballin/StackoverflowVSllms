@@ -1,1 +1,0 @@
-/* CSS after clear div */\n.box:first-of-type {  /* or use a specific class if possible */\n    margin-top: 10px;\n    zoom: 1;  /* Trigger hasLayout in IE8 */\n}

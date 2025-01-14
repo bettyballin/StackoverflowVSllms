@@ -1,1 +1,0 @@
-// C# Example using LINQ\nList<int> numbers = new List<int> { 1, 2, 3, 4, 5 };\nvar evenNumbers = numbers.Where(n => n % 2 == 0).ToList();

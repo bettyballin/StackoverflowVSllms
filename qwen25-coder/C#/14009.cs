@@ -1,1 +1,0 @@
-try {\n    ValidateMessage(orderMessage);\n    return this.orderBusiness.Add(orderMessage);\n} catch (TransactionTimeoutException e) {\n    // Handle transaction timeout exception\n    // Log the error or take appropriate action\n}

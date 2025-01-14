@@ -1,1 +1,0 @@
-using System.Reflection;\n\nvoid SetFocusControl(ref object ctl) {\n    MethodInfo methodInfo = ctl.GetType().GetMethod("Focus");\n    if (methodInfo != null) {\n        methodInfo.Invoke(ctl, null);\n    }\n}

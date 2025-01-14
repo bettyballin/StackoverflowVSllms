@@ -1,1 +1,0 @@
-using System.Diagnostics;\nusing System.Windows.Forms;\n\npublic void RestartApplication()\n{\n    Application.Exit();\n\n    Process.Start(Application.ExecutablePath);\n}

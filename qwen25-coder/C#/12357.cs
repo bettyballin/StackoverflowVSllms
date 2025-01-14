@@ -1,1 +1,0 @@
-public MainForm()\n    {\n        InitializeComponent();\n    }

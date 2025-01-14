@@ -1,1 +1,0 @@
-[AcceptVerbs(HttpVerbs.Get)]\npublic JsonResult Edit(String idSub)\n{\n    if (string.IsNullOrEmpty(idSub))\n    {\n        // Log or handle error\n    }\n\n    // Your logic here\n\n    return Json(new { success = true });\n}

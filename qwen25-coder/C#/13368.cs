@@ -1,1 +1,0 @@
-using System;\n\npublic class UrlValidator {\n    public static bool IsValidUrl(string url) {\n        return Uri.TryCreate(url, UriKind.Absolute, out _);\n    }\n\n    public static void Main(string[] args) {\n        string testUrl = "https://example.com";\n        Console.WriteLine($"Is the URL valid? {IsValidUrl(testUrl)}");\n    }\n}

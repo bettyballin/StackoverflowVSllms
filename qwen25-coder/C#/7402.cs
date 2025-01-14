@@ -1,1 +1,0 @@
-protected void UpdateButton_Click(object sender, EventArgs e)\n{\n    // No need to do anything if you want just to refresh the time label.\n}

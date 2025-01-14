@@ -1,1 +1,0 @@
-public AbstractModel ExecuteModel(AbstractModel modelForExecution)\n{\n    modelForExecution.Initialize();\n    modelForExecution.Execute();\n\n    // Assuming the execution modifies modelForExecution with results, return it.\n    return modelForExecution;\n}

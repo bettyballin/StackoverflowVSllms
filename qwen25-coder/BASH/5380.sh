@@ -1,1 +1,0 @@
-#!/bin/bash\n\n   exec gcc -I"$HOME/include" "$@"

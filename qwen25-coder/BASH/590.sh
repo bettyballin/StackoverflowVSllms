@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Base directory where user dirs will be created\nBASE_USERDIR="/path/to/userdirs"\n\n# Create a timestamped unique directory\nUSER_DIR="${BASE_USERDIR}/userdir_$(date +%Y%m%d_%H%M%S)"\n\n# Start the application with this unique user dir\njava -jar YourNetbeansRcpApp.jar --userdir "$USER_DIR"

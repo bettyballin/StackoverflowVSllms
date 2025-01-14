@@ -1,1 +1,0 @@
-presentation.Close();\n   powerPoint.Presentations.Open(presentationPath);\n   // Continue with your code

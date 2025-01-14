@@ -1,1 +1,0 @@
-sigcheck -q -n yourfile.dll

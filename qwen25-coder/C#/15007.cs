@@ -1,1 +1,0 @@
-// Assume 'myData' is your BindingList<T>\nBindingSource bindingSource = new BindingSource();\nbindingSource.DataSource = myData;\ndataGridView1.DataSource = bindingSource;\n\n// Filter to exclude the first row based on some criteria (e.g., ID)\nstring filterExpression = "Id <> 1"; // Adjust this condition as needed\nbindingSource.Filter = filterExpression;

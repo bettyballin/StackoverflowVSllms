@@ -1,1 +1,0 @@
-public class XmlTableRowResult\n{\n    public int ID { get; set; } // Assuming there is an ID column in xmltabletest\n    public XDocument Content { get; set; }\n    public double Value { get; set; }\n}

@@ -1,1 +1,0 @@
-sudo apt-get install php-imagick\nsudo systemctl restart apache2  # Restart Apache to load new modules

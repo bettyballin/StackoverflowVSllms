@@ -1,1 +1,0 @@
-# Example bb-hosts entry with modified ping test script for retries\nHOST=myhost\n        http://myhost/\n        # Modify the conn command line\n        CONN /bin/ping -c 3 myhost || (sleep 60 && /bin/ping -c 3 myhost)

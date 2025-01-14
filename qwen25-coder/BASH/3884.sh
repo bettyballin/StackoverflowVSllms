@@ -1,1 +1,0 @@
-sed -i 's/\boldtext\b/newtext/g' <file>

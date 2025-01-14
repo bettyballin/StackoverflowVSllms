@@ -1,1 +1,0 @@
-public ActionResult KeepSessionAlive()\n{\n    // Reset session timeout\n    Session.Timeout = 15; // or whatever timeout you need\n    return Json(new { success = true });\n}

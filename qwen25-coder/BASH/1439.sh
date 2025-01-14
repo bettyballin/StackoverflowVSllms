@@ -1,1 +1,0 @@
-setspn -S http/<SharePointServerName>.yourdomain.com <YourDomain>\<AppPoolAccount>\n   setspn -S k2workflowservice/k2server.yourdomain.com <YourDomain>\<K2ServiceAccount>

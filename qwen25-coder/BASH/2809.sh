@@ -1,1 +1,0 @@
-g++ -c bank_logic.cpp -o bank_logic.o -fPIC\n   g++ -c bank_interface.cpp -o bank_interface.o -fPIC\n   \n   gcc main.c -c `pkg-config --cflags gtk+-3.0`\n   \n   gcc main.o bank_logic.o bank_interface.o -o bank_app `pkg-config --libs gtk+-3.0` -lstdc++

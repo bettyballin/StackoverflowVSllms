@@ -1,1 +1,0 @@
-wget http://repo2.maven.org/maven2/org/apache/ivy/ivy/2.5.0/ivy-2.5.0.jar -O ivy.jar\n   mkdir -p ~/.ant/lib/\n   mv ivy.jar ~/.ant/lib/

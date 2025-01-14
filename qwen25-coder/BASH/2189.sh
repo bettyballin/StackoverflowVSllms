@@ -1,1 +1,0 @@
-# Example of checking installed .NET versions via PowerShell\nGet-WindowsFeature -Name NET-Framework-Core | Format-Table Name, InstallState\n\n# Add IIS6 Metabase compatibility (if not done through Server Manager)\nImport-Module WebAdministration\nAdd-WindowsFeature Web-Metabase, Web-Lgcy-Scripting, Web-Lgcy-Mgmt-Console

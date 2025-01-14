@@ -1,1 +1,0 @@
-img {\n    border: 1px solid black; /* Inner border */\n    box-shadow: 0 0 0 9px white; /* Outer "border" using box-shadow */\n    display: inline-block; /* Ensures the image doesn't stretch */\n}

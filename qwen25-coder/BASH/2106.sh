@@ -1,1 +1,0 @@
-perl convert_wmf_to_png.pl

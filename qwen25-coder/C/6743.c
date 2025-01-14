@@ -1,1 +1,0 @@
-#include <assert.h>\n#include <math.h>\n\nvoid processPositiveFloat(float value) {\n    assert(value >= 0.0f && "Negative float value encountered");\n    // Proceed with processing...\n}\n\nint main() {\n    float result = sqrt(4.0f);\n    processPositiveFloat(result); // Safe, as result is positive\n    return 0;\n}

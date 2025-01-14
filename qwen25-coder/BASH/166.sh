@@ -1,1 +1,0 @@
-echo 10 | sudo tee /proc/sys/vm/swappiness

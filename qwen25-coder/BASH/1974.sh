@@ -1,1 +1,0 @@
-# Find this line (or similar)\nCC = gcc\n\n# Add -lm at the end if not present\nCC = gcc -lm

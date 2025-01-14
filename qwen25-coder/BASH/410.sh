@@ -1,1 +1,0 @@
-chmod 700 ~/.ssh\n   chmod 600 ~/.ssh/id_rsa

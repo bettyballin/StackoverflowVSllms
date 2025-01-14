@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Clean previous builds\nrm -rf ./out/\n\n# Compile Java source files\njavac -d out/ src/**/*.java\n\n# Check if compilation was successful\nif [ $? -ne 0 ]; then\n    echo "Compilation failed."\n    exit 1\nelse\n    echo "Build succeeded."\nfi

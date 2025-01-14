@@ -1,1 +1,0 @@
-// Assuming id is an integer, for robustness you can treat it as string.\nXmlNode node = _xmlArticlesDocument.DocumentElement.SelectSingleNode("//page[id='" + id.ToString() + "']");

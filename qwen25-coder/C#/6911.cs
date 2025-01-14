@@ -1,1 +1,0 @@
-private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)\n{\n    if (Application.Current.Windows.Count == 1)\n    {\n        // Only hide if this is the last window\n        e.Cancel = true;\n        this.Hide();\n    }\n}

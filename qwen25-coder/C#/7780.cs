@@ -1,1 +1,0 @@
-public static class MyObjectExtensions\n{\n    public static void MyExtensionMethod(this MyObject obj)\n    {\n        if (obj == null)\n            return; // or throw ArgumentNullException, depending on your needs\n\n        Console.WriteLine(obj.SomeProperty);\n    }\n}

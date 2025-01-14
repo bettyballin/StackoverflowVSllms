@@ -1,1 +1,0 @@
-void HelloWorld() {\n    string message = "Hello, World!";\n    Console.WriteLine(message);\n}

@@ -1,1 +1,0 @@
-# Redirect all outgoing TCP SYN packets to queue 1\nsudo iptables -I OUTPUT -p tcp --tcp-flags SYN,RST SYN -j NFQUEUE --queue-num 1

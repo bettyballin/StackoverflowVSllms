@@ -1,1 +1,0 @@
-Response.ClearHeaders();\n   Response.AddHeader("Content-Type", "application/vnd.ms-excel");\n   Response.AddHeader("Content-Disposition", "attachment; filename=file.xls");

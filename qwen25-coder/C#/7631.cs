@@ -1,1 +1,0 @@
-private void OnButtonClick(object sender, RoutedEventArgs e)\n{\n    var muc = new MyUserControl();\n    dockPanel.Children.Add(muc);\n    muc.DataContext = new MyObject(); \n    muc.UpdateLayout(); // Force the layout update.\n}

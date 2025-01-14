@@ -1,1 +1,0 @@
-# Ensure only the web server user can access the directory\n   sudo chown -R www-data:www-data /path/to/directory\n   sudo chmod -R 750 /path/to/directory

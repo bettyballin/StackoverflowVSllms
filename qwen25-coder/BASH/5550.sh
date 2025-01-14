@@ -1,1 +1,0 @@
-# Rule: Move PDFs to Documents Folder\nName is "*.*"\nKind is "PDF document"\nMove to ~/Documents\n\n# Rule: Copy Scripts to Scripts Folder and Keep Original in Downloads\nAll Conditions are met:\n\n- Name ends with ".sh" or ".py"\n- The file is added.\n\nPerform these actions:\n- Execute “cp” to copy file to ~/Scripts

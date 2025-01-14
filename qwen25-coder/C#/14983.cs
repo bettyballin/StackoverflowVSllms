@@ -1,1 +1,0 @@
-string pdfPath = Server.MapPath("~/path/to/your/file.pdf");\nstring text = PdfParser.ExtractTextFromPdf(pdfPath);\nResponse.Write(text);

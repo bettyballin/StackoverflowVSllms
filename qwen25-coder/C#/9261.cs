@@ -1,1 +1,0 @@
-string originalString = "Your UTF-8 encoded string here";\nint maxLengthInBytes = 100; // Set your required maximum byte length here\n\nstring trimmedString = StringTrimmer.TrimUtf8Bytes(originalString, maxLengthInBytes);

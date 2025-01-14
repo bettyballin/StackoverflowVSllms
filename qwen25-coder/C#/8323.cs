@@ -1,1 +1,0 @@
-public class DiceViewModel : INotifyPropertyChanged\n{\n    private readonly ICommand _rollCommand;\n\n    public DiceViewModel()\n    {\n        _rollCommand = new RelayCommand(Roll);\n    }\n\n    public ICommand RollCommand => _rollCommand;\n\n    public void Roll()\n    {\n        // Logic to roll the dice\n    }\n}

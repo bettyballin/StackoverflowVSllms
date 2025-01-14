@@ -1,1 +1,0 @@
-sudo systemctl restart php-fpm\nsudo systemctl restart nginx

@@ -1,1 +1,0 @@
-amespace MyCompany.APIs {\n       // Sub-namespaces here like WebLogic and Compression\n   }

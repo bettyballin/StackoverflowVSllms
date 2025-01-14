@@ -1,1 +1,0 @@
-ObjectResult<MyStoredProcedureResult> result = _container.MyStoredProcedure(uberParameter);\n\nforeach (var item in result)\n{\n    Console.WriteLine(item.Id);\n}

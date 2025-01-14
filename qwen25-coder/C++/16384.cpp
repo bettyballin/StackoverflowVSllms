@@ -1,1 +1,0 @@
-#pragma pack(push, 1) // Start packing structures tightly\n\nstruct A {};\nstruct B : A { int i; };\n\n#pragma pack(pop)    // End of packed structures sectio

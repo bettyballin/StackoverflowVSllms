@@ -1,1 +1,0 @@
-sed -i 's/hello/world/g' example.txt

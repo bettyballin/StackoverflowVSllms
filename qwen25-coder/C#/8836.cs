@@ -1,1 +1,0 @@
-using (var stream = File.OpenRead(@"C:\path\to\yourfile.cab"))\nusing (var reader = ReaderFactory.Open(stream))\n{\n    while (reader.MoveToNextEntry())\n    {\n        if (!reader.Entry.IsDirectory)\n            Console.WriteLine(reader.Entry.Key);\n    }\n}

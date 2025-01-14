@@ -1,1 +1,0 @@
-# Change to the directory you want to back up\ncd /path/to/folder_to_backup\n\n# Run tar with exclude options\ntar --exclude='./folder_to_exclude1' --exclude='./another_folder/file_to_exclude.txt' -czvf /path/to/backup/filename.tgz .

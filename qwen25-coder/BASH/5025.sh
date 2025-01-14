@@ -1,1 +1,0 @@
-compiler.exe $(FullPath) /o $(OutputDir)

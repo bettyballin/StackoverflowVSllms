@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\n// In your code where you want to log or debug\nDebug.WriteLine("This is a debug message.");

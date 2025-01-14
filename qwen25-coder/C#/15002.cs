@@ -1,1 +1,0 @@
-// Assuming 'dataGridView1' is your DataGridView control.\ndataGridView1.Rows.Clear(); // Clear existing rows if any\n\n// Add new rows manually\nfor (int i = 0; i < 10; i++)\n{\n    dataGridView1.Rows.Add(i.ToString(), "Sample Data");\n}\n\n// Hide the first row\nif (dataGridView1.Rows.Count > 0)\n{\n    dataGridView1.Rows[0].Visible = false;\n}

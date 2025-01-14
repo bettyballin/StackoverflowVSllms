@@ -1,1 +1,0 @@
-inotifywait -m /path/to/directory -e modify,create,delete |\n    while read path action file; do\n        echo "The file '$file' appeared in directory '$path' via '$action'";\n    done

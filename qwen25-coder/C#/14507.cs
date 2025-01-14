@@ -1,1 +1,0 @@
-using System.ComponentModel.DataAnnotations;\nusing System.Web.Mvc;\n\npublic class YourModel\n{\n    [AllowHtml]\n    public string UserInput { get; set; }\n}

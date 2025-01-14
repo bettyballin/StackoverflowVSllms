@@ -1,1 +1,0 @@
-mysql $MYSQL_CONN dbname

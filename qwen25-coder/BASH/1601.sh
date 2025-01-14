@@ -1,1 +1,0 @@
-regasm /tlb YourAssembly.dll

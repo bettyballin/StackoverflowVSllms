@@ -1,1 +1,0 @@
-awk '{print (NR-1)%3+1 $0}' inputfile > outputfile

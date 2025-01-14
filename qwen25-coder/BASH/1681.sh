@@ -1,1 +1,0 @@
-:: Step 1: Take ownership of the PostgreSQL data directory\ntakeown /f "C:\Path\To\PostgreSQL\Data" /R\n\n:: Step 2: Grant full control permissions to your user account\nicacls "C:\Path\To\PostgreSQL\Data" /grant Users:(OI)(CI)F /T\n\n:: Step 3: Delete the PostgreSQL data directory\nrmdir /s /q "C:\Path\To\PostgreSQL\Data"

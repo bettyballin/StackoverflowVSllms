@@ -1,1 +1,0 @@
-cd path/to/your/new/solution/directory

@@ -1,1 +1,0 @@
-# Navigate to your project's WEB-INF/lib directory\ncd /path/to/your/webapp/WEB-INF/lib\n\n# Put log4j jar here\ncp /path/to/log4j.jar .

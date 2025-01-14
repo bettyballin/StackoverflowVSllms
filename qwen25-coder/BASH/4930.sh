@@ -1,1 +1,0 @@
-docker-compose up -d\n  # Define your services in docker-compose.yml with MySQL as the database service.

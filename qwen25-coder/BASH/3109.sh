@@ -1,1 +1,0 @@
-sudo cryptsetup luksOpen /dev/sdb1 my_encrypted_volume

@@ -1,1 +1,0 @@
-dumpbin /dependents yourdll.dll

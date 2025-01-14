@@ -1,1 +1,0 @@
-dig NS br @a.root-servers.net

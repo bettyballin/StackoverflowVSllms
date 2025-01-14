@@ -1,1 +1,0 @@
-# Initialize a new repository (if not already done)\ngit init\n\n# Add all SQL scripts to the repository\ngit add *.sql\n\n# Commit changes to the repository\ngit commit -m "Initial commit of stored procedures"\n\n# Push changes to a remote repository if needed\ngit push origin mai

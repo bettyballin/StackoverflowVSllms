@@ -1,1 +1,0 @@
-sudo chown _www /Applications/xampp/xamppfiles/htdocs/mysite/cache/

@@ -1,1 +1,0 @@
-protected internal override int FindPrototypeId(string s)\n{\n    int id = 0;\n\n    if (s.Length == 11 && s == "constructor")\n    {\n        id = Id_constructor;\n    }\n\n    return id;\n}

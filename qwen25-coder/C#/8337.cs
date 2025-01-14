@@ -1,1 +1,0 @@
-// Example of adding a migration\n    dotnet ef migrations add InitialCreate\n    \n    // Example of updating the database schema\n    dotnet ef database update

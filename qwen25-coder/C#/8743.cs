@@ -1,1 +1,0 @@
-protected void btnSubmit_Click(object sender, EventArgs e)\n   {\n       Page.Validate();\n       if (!Page.IsValid)\n       {\n           // Handle invalid form submission (e.g., display errors)\n           return;\n       }\n       // Proceed with valid data processing\n   }

@@ -1,1 +1,0 @@
-mkdir ~/toolchain/arm-gcc && cd ~/toolchain/arm-gcc\n   repo init -u https://github.com/SolidRun/arm-gcc.git\n   repo sync

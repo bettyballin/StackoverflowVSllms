@@ -1,1 +1,0 @@
-# Example using UFW for firewall rules\n   sudo ufw allow 22/tcp  # Allow SSH\n   sudo ufw deny from 10.0.0.0/8  # Deny all access from private network addresses

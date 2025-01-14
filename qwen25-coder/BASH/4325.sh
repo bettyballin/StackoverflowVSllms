@@ -1,1 +1,0 @@
-sed ':a; $!{N; ba}; s/.*\nyyyy\nxxxx.*\nzzzz\n/\n/g' filename

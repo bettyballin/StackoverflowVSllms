@@ -1,1 +1,0 @@
-sudo apt update && sudo apt upgrade apache2 -y

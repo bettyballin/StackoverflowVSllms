@@ -1,1 +1,0 @@
-Response.AddHeader("p3p", "CP=\"CAO PSA OUR\"");

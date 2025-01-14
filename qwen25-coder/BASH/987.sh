@@ -1,1 +1,0 @@
-# Open command prompt as administrator and run:\n     %windir%\Microsoft.NET\Framework\v2.0.50727\aspnet_regiis.exe -i

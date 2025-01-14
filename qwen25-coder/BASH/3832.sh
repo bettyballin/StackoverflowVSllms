@@ -1,1 +1,0 @@
-java -XX:+UnlockCommercialFeatures -XX:+FlightRecorder -XX:StartFlightRecording=duration=60s,filename=myprecording.jfr MyApplicatio

@@ -1,1 +1,0 @@
-var burrowConfig = NhBurrowConfig.Configure();\nvar sessionFactoryManager = new SessionFactoryManager(burrowConfig);

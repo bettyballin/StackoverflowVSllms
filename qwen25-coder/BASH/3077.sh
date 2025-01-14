@@ -1,1 +1,0 @@
-sudo mkfs.ext4 /dev/mapper/my_encrypted_volume

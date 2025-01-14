@@ -1,1 +1,0 @@
-/path/to/your/script.sh </dev/null >/dev/null 2>&1 &\ndisow

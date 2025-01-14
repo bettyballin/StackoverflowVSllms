@@ -1,1 +1,0 @@
-public class MyController<T> : Controller where T : SomeType, new()\n   {\n       public ActionResult Index()\n       {\n           var item = default(T);\n           // Example logic here\n           return View(item);\n       }\n       \n       // Other actions can be defined similarly\n   }

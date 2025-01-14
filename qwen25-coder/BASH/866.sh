@@ -1,1 +1,0 @@
-gcc -o lexer.o <(flex -t lexer.l)

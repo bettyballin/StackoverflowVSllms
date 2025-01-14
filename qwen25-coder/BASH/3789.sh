@@ -1,1 +1,0 @@
-openssl req -new -keyout client.key -out client.csr -days 3650 -nodes

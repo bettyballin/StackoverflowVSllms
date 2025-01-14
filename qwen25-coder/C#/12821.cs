@@ -1,1 +1,0 @@
-public interface ILogger {\n       void Log(string message);\n   }\n\n   public class FileLogger : ILogger {\n       public void Log(string message) => File.WriteAllText("log.txt", message);\n   }

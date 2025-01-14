@@ -1,1 +1,0 @@
-# Upload a file to Amazon S3 using multi-part upload for larger files\naws s3 cp C:\Backups\YourDatabaseName_Full.bak s3://your-bucket-name/ --storage-class STANDARD_IA

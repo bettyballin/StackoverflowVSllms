@@ -1,1 +1,0 @@
-libreoffice --headless --convert-to pdf input.doc /path/to/output/

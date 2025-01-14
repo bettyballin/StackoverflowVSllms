@@ -1,1 +1,0 @@
-public void LoginUser(string userId)\n{\n    Session["UserID"] = userId;\n}

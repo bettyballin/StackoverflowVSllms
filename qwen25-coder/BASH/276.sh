@@ -1,1 +1,0 @@
-sudo chown -R postgres:postgres /usr/local/postgresql-8.3.6/data

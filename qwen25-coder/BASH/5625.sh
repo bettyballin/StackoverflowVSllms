@@ -1,1 +1,0 @@
-# Example using awk to extract specific columns assuming fixed width columns.\nawk '{print substr($0,1,10), substr($0,12,25)}' yourfile.txt > output.csv

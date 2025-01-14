@@ -1,1 +1,0 @@
-using System;\nusing System.Net.Sockets;\nusing System.Net;\n\nint number = 123456789; // Example number\n\n// Convert to bytes (Little-Endian is the default)\nbyte[] dataToSend = BitConverter.GetBytes(number);\n\nUdpClient udpClient = new UdpClient();\nudpClient.Send(dataToSend, dataToSend.Length, "192.168.1.100", 12345); // Change IP and port as needed

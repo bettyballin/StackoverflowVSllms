@@ -1,1 +1,0 @@
-sudo dd if=/dev/urandom of=/etc/cryptsetup-keys/my_encrypted_volume.key bs=1M count=8 status=progress\n     sudo cryptsetup luksAddKey /dev/sdb1 /etc/cryptsetup-keys/my_encrypted_volume.key

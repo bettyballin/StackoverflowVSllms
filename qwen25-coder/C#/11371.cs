@@ -1,1 +1,0 @@
-[OperationContract]\nbool AuthenticateUser(string username, string password);\n\npublic bool AuthenticateUser(string username, string password)\n{\n    // Replace with actual user verification logic\n    if (username == "user" && password == "password")\n    {\n        return true;\n    }\n    return false;\n}

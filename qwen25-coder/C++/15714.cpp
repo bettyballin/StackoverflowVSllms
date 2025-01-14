@@ -1,1 +1,0 @@
-// Assuming you have a COM method like this:\nvoid CallManagedMethod(BSTR productName, BSTR version);\n\n// Example usage:\nCallManagedMethod(_bstr_t(L"MyProduct"), _bstr_t(L"1.0.0"));

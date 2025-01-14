@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nvoid function(float* arr) {\n    for (int i = 0; i < 4; ++i) {\n        printf("%f ", arr[i]);\n    }\n    printf("\n");\n}\n\nint main() {\n    // Using a compound literal\n    function((float[]){1, 2, 3, 4});\n    return 0;\n}

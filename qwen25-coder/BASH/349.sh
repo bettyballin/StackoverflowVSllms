@@ -1,1 +1,0 @@
-mysql -u root -p <path_to_mysql_sample>/employees.sql

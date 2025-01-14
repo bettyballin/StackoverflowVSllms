@@ -1,1 +1,0 @@
-amed-checkconf /etc/named.conf

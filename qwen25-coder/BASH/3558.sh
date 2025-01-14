@@ -1,1 +1,0 @@
-pk12util -i your_certificate.p12 -d sql:/path/to/nssdb

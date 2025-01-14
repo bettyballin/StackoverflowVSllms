@@ -1,1 +1,0 @@
-# Install Apache Bench on Linux if not already installed\nsudo apt-get install apache2-utils\n\n# Run a basic load test with 10 concurrent users and total 100 requests\nab -n 100 -c 10 http://yourapplication.com/endpoint

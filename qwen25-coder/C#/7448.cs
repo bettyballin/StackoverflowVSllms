@@ -1,1 +1,0 @@
-SortedList<int, string> sortedList = new SortedList<int, string>();

@@ -1,1 +1,0 @@
-perfview.exe collect -KernelEvents=CPU_Samples MyProgram.exe

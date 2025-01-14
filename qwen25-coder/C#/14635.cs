@@ -1,1 +1,0 @@
-void Application_End(object sender, EventArgs e)\n{\n    // Code that runs on application shutdown\n    // Log this event to an appropriate logging system.\n    System.Diagnostics.Trace.WriteLine("Application Ended at: " + DateTime.Now);\n}

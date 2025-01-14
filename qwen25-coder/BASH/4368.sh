@@ -1,1 +1,0 @@
-et start | findstr /i "ldap"

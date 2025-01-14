@@ -1,1 +1,0 @@
-public interface INotifyDataErrorInfo\n{\n    bool HasErrors { get; }\n    event EventHandler<DataErrorsChangedEventArgs> ErrorsChanged;\n    IEnumerable GetErrors(string propertyName);\n}

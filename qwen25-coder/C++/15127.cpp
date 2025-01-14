@@ -1,1 +1,0 @@
-template <typename InputIterator, typename UnaryPredicate>\nInputIterator find_if(InputIterator first, InputIterator last, UnaryPredicate p) {\n    while (first != last) {\n        if (p(*first)) {\n            return first;\n        }\n        ++first;\n    }\n    return last;\n}

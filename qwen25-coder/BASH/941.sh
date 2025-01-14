@@ -1,1 +1,0 @@
-# Example command to create a snapshot in VMware using vmrun\n   vmrun snapshot "C:\path\to\IE8.vmx" "Before Expiration"

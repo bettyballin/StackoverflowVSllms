@@ -1,1 +1,0 @@
-public object Convert(object[] values, Type targetType, object parameter, System.Globalization.CultureInfo culture)\n{\n    List<string> fields = values.Select(value => value.ToString()).ToList();\n\n    // process the fields here knowing they are strings\n    ...\n}

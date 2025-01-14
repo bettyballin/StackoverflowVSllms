@@ -1,1 +1,0 @@
-/* User-agent stylesheet (browser defaults) */\np {\n    color: gray; /* Default text color */\n}\n\n/* Author stylesheet */\np.article-text {\n    color: black; /* Specific for class article-text */\n}

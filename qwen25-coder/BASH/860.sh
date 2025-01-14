@@ -1,1 +1,0 @@
-#!/usr/bin/expect\n\nset password "p@ssword"\nspawn ssh me@127.0.0.1\nexpect "me@127.0.0.1's password:"\nsend "$password\r"\ninteract

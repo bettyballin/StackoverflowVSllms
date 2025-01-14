@@ -1,1 +1,0 @@
-#!/bin/bash\n   Xvfb :99 -ac &\n   export DISPLAY=:99\n   firefox $1\n   scrot -d 5 test.png\n   killall Xvfb

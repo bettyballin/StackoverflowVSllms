@@ -1,1 +1,0 @@
-// interface.h\n#pragma once\n\nclass IRefCounted {\npublic:\n    virtual ~IRefCounted() {}\n    virtual void AddRef() = 0;\n    virtual void Release() = 0;\n};\n\nclass IClass : public IRefCounted {\npublic:\n    virtual ~IClass() {}\n    virtual void PrintSomething() = 0;\n};

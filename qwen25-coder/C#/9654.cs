@@ -1,1 +1,0 @@
-cmdText = String.Format("EXEC foo_from_baz '{0}'", fuz)

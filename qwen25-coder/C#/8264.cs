@@ -1,1 +1,0 @@
-public class MyClass<T> where T : Attribute\n{\n    public void DisplayAttribute()\n    {\n        // You can now use T as a type that is either Attribute or derives from it.\n        var attributeInstance = Activator.CreateInstance<T>();\n        Console.WriteLine($"Created an instance of: {attributeInstance.GetType()}");\n    }\n}

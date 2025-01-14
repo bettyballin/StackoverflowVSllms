@@ -1,1 +1,0 @@
-#ifdef DLL_EXPORTS\n#define DLL_API __declspec(dllexport)\n#else\n#define DLL_API __declspec(dllimport)\n#endif\n\n// Exported Function Declaration\nextern "C" {\nDLL_API int DoWork();\n}

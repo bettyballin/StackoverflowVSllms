@@ -1,1 +1,0 @@
-curl http://pear.php.net/go-pear > go-pear.php\nsudo php -q go-pear.php

@@ -1,1 +1,0 @@
-sudo su - guestuser\n   cd ~

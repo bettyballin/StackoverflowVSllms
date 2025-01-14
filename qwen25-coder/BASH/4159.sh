@@ -1,1 +1,0 @@
-chgrp admin /path/to/directory

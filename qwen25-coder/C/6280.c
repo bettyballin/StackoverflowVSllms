@@ -1,1 +1,0 @@
-__inline__ double __cdecl __MINGW_NOTHROW strtod (const char* __restrict__ __nptr, char** __restrict__ __endptr)\n   { return __strtod(__nptr, __endptr); }

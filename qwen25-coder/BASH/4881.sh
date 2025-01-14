@@ -1,1 +1,0 @@
-gcc -g -c yourfile.c\ncflow yourfile.o --formal-arglist=longnames --include-levels=10 > function_calls.txt

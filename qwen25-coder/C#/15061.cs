@@ -1,1 +1,0 @@
-using System;\nusing System.Runtime.InteropServices;\n\n[assembly: ComVisible(true)]\n\nnamespace MyNamespace \n{\n  [ProgId("MyNamespace.MyClass")]\n  [ComVisible(true)]\n  public class MyClass\n  {\n    [ComVisible(true)]\n    public string Test()\n    {\n      return "teststring";\n    }\n  }\n}

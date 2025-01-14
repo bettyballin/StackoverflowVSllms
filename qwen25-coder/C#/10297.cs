@@ -1,1 +1,0 @@
-public class SafeLiteral : Literal, ISafeControl\n   {\n       public new string Text \n       {\n           get => base.Text;\n           set => SetSafeContent(new HtmlString(HttpUtility.HtmlEncode(value)));\n       }\n\n       public void SetSafeContent(HtmlString content)\n       {\n           base.SetLiteralContent(content);\n       }\n   }

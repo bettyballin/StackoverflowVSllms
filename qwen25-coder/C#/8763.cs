@@ -1,1 +1,0 @@
-// Assuming you have a class like this:\npublic class UserSessionData {\n    public string username { get; set; }\n    // other properties...\n}\n\n// Code to create an instance and add it to Session:\nUserSessionData data = new UserSessionData();\ndata.username = "exampleUser";\nSession["receipt"] = data;

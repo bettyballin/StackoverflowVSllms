@@ -1,1 +1,0 @@
-#include <QApplication>\n#include <QPushButton>\n\nint main(int argc, char *argv[]) {\n    QApplication app(argc, argv);\n\n    QPushButton button("Hello World");\n    button.setToolTip("Click me!");\n    button.resize(100,32);\n    button.show();\n\n    return app.exec();\n}

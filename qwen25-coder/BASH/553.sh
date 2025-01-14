@@ -1,1 +1,0 @@
-gcc -o myapp myapp.c -lpdcurses

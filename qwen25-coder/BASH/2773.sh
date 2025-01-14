@@ -1,1 +1,0 @@
-# Create a base file\necho "Base Document Template" > base.txt\n\n# Modify the base to create a second version\necho "Minor Change in Document Template" > v2.txt\n\n# Generate a delta between base and v2\nxdelta3 -e -s base.txt v2.txt v2.delta\n\n# To reconstruct v2 from base and delta:\nxdelta3 -d -s base.txt v2.delta reconstructed_v2.txt

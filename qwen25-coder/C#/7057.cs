@@ -1,1 +1,0 @@
-// Assuming you have a dbml file generated from your database\nusing (var db = new YourDataContext())\n{\n    var customers = from c in db.Customers\n                  where c.City == "New York"\n                  select c;\n}

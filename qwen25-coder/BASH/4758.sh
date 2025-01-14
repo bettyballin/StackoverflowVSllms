@@ -1,1 +1,0 @@
-g++ -Wall -g -fPIC -shared library.cpp -o library.so -Wl,-Bsymbolic

@@ -1,1 +1,0 @@
-uget locals all -clear

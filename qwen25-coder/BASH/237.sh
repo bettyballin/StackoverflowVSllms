@@ -1,1 +1,0 @@
-# Dump command\nmysqldump --single-transaction --quick -u username -p database_name > dump.sql

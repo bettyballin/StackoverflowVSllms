@@ -1,1 +1,0 @@
-#pragma GCC ivdep\n   for (int i = 0; i < N; ++i) {\n       // Loop that should be fully vectorized\n   }

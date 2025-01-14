@@ -1,1 +1,0 @@
-class IFileHandler {\npublic:\n    virtual ~IFileHandler() = default;\n    virtual bool open(const std::string& filename) = 0;\n    virtual size_t getFileSize() = 0;\n    virtual bool readFileToBuffer(void* buffer, size_t bufferSize) = 0;\n};

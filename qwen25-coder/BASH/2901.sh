@@ -1,1 +1,0 @@
-unmacro document.docm --extract /path/to/extract/directory

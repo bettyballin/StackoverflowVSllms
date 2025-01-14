@@ -1,1 +1,0 @@
-using System;\n\npublic class StringEscaper {\n    public static string EscapeSqlString(string input) {\n        return (input ?? "").Replace("'", "''");\n    }\n}

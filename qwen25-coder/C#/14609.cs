@@ -1,1 +1,0 @@
-using System;\nusing System.Linq;\n\nclass Program\n{\n    static void Main()\n    {\n        char[] alphabetArray = Enumerable.Range('a', 26).Select(i => (char)i).ToArray();\n        \n        Console.WriteLine(string.Join(", ", alphabetArray));\n    }\n}

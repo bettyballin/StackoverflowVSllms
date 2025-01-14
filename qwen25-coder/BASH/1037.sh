@@ -1,1 +1,0 @@
-#!/bin/sh\n   exec /usr/ccs/bin/ld -z textoff "$@"

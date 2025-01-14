@@ -1,1 +1,0 @@
-sudo chmod 777 /Applications/xampp/xamppfiles/htdocs/mysite/cache/

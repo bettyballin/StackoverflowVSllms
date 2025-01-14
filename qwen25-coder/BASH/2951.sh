@@ -1,1 +1,0 @@
-# Launch your application using Very Sleepy\nvery_sleepy.exe /path/to/your/application.exe [application arguments]

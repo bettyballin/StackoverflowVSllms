@@ -1,1 +1,0 @@
-php -d error_log=/path/to/your/php_errors.log -d log_errors=1 your_script.php

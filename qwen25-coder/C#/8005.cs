@@ -1,1 +1,0 @@
-// Example use case:\n   public class Options {\n       [Option('h', "help", Required = false, HelpText = "Display this help screen.")]\n       public bool Help { get; set; }\n   }\n\n   var parser = new Parser();\n   var result = parser.ParseArguments<Options>(args);

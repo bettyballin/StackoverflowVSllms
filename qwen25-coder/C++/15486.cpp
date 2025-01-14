@@ -1,1 +1,0 @@
-#include <iostream>\n#include <list>\n\nint main() {\n    std::list<int> myList = {1, 2, 3, 4, 5};\n    \n    // To access the third element (index 2):\n    auto it = myList.begin();\n    std::advance(it, 2);  // O(n) operation\n    std::cout << *it << std::endl;  // Outputs 3\n\n    return 0;\n}

@@ -1,1 +1,0 @@
-regsvr32 /u /s "path\to\your\library.dll"

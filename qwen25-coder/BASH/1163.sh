@@ -1,1 +1,0 @@
-// Example: Install SonarQube server, analyze your project using a scanner\n   sonar-scanner -Dsonar.projectKey=myprojectkey -Dsonar.sources=src/main/java

@@ -1,1 +1,0 @@
-using (var context = new MyDbContext()) {\n    var user = new User { UserName = "JohnDoe", Email = "john.doe@example.com" };\n    context.Users.Add(user);\n    context.SaveChanges();\n}

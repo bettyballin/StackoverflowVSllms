@@ -1,1 +1,0 @@
-#mybox {\n   background-color: green;\n   color: black; /* Assuming the text is visible with its current color */\n}\n\n#mybox:hover {\n   background-color: red;\n   color: red; /* Match this to the hover background-color to hide text */\n}

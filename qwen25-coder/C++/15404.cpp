@@ -1,1 +1,0 @@
-// In your main application file\nBOOL CMFCApp::InitInstance()\n{\n    CDialogEx dlg;\n    m_pMainWnd = &dlg;\n    INT_PTR nResponse = dlg.DoModal();\n    return FALSE;  // do not restart the application\n}

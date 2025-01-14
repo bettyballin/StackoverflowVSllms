@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <limits.h>\n\nint main() {\n    // Testing the range and behavior of char\n    printf("CHAR_MIN: %d\n", CHAR_MIN);\n    printf("CHAR_MAX: %d\n", CHAR_MAX);\n\n    if (CHAR_MIN == 0) {\n        printf("char is unsigned by default.\n");\n    } else {\n        printf("char is signed by default.\n");\n    }\n\n    return 0;\n}

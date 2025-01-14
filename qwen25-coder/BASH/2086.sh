@@ -1,1 +1,0 @@
-msbuild MyProj.sln /t:clean;rebuild

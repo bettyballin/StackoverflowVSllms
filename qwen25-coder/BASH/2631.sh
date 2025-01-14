@@ -1,1 +1,0 @@
-sudo systemctl restart httpd\n# or if your system uses init.d script\nsudo service httpd restart

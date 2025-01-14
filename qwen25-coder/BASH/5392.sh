@@ -1,1 +1,0 @@
-sqlite3 yourfile.db "SELECT COUNT(*) FROM data;"

@@ -1,1 +1,0 @@
-sudo strace -p your_process_id

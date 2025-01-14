@@ -1,1 +1,0 @@
-using System;\nusing System.Security.Permissions;\n\n[SecurityPermission(SecurityAction.Demand, ControlAppDomain = true)]\npublic class SafeApplication\n{\n    public static void Main()\n    {\n        Console.WriteLine("If we got this far, we have control over AppDomain!");\n    }\n}

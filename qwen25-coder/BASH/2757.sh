@@ -1,1 +1,0 @@
-# Open crontab editor for the current user\ncrontab -e\n\n# Add the following line to schedule the backup at 1 AM every day:\n0 1 * * * /path/to/backup_script.sh

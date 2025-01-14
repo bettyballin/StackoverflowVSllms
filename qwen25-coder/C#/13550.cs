@@ -1,1 +1,0 @@
-using (var context = new MyDataContext())\n{\n    string sqlQuery = "SELECT * FROM myTable";\n    var results = context.ExecuteQuery<MyTable>(sqlQuery);\n\n    foreach (var result in results)\n    {\n        // Process each result\n    }\n}

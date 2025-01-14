@@ -1,1 +1,0 @@
-public class UserViewModel\n{\n    public List<Address> Addresses { get; set; }\n}\n\npublic class Address\n{\n    public string Line1 { get; set; }\n    // other address fields...\n}

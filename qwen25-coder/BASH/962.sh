@@ -1,1 +1,0 @@
-cp post-commit.tmpl post-commit && chmod +x post-commit

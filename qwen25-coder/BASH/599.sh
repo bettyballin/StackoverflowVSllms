@@ -1,1 +1,0 @@
-# Navigate to your WebSphere application server working directory and remove temp dirs\ncd /path/to/was/profiles/AppSrv01/temp\nrm -rf *\n\ncd /path/to/was/profiles/AppSrv01/wstemp\nrm -rf *

@@ -1,1 +1,0 @@
-public ActionResult Index(string languages)\n{\n    if (!string.IsNullOrEmpty(languages))\n    {\n        string[] languageArray = languages.Split(',');\n        foreach (var language in languageArray)\n        {\n            // Process each language\n        }\n    }\n\n    return View();\n}

@@ -1,1 +1,0 @@
-#include <mico/options.hh>\nCORBA::ORB_var orb;\n// Initialize the ORB...\nCORBA::Any_var options = CORBA::Any::from_string("-InvocationTimeout 1000"); // Timeout in milliseconds\norb->perform_work(options.in());

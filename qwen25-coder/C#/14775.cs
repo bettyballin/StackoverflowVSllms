@@ -1,1 +1,0 @@
-public int fibonacci(int n) {\n         if (n <= 1) return n;\n         int a = 0, b = 1, c;\n         for (int i = 2; i <= n; i++) {\n             c = a + b;\n             a = b;\n             b = c;\n         }\n         return b;\n     }

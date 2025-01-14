@@ -1,1 +1,0 @@
-# Example command to create a CSR with Digital Signature EKU using OpenSSL\nopenssl req -new -key myprivate.key -out mycert.csr \\n-subj "/CN=xmlsigning.example.com" \\n-addext "extendedKeyUsage=critical,digitalSignature"

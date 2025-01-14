@@ -1,1 +1,0 @@
-mysql -u username -p your_home_database_name < load_data.sql

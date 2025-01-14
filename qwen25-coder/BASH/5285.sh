@@ -1,1 +1,0 @@
-# Stop CouchDB\n     sudo systemctl stop couchdb\n     \n     # Copy database files (replace '/var/lib/couchdb/' with actual path)\n     cp -r /var/lib/couchdb/your_database /path/to/dev/env/\n     \n     # Start CouchDB again\n     sudo systemctl start couchdb

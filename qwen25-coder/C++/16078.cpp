@@ -1,1 +1,0 @@
-// Assuming 'irange' is already pointing to the correct Excel Range object\nCOleVariant result;\n\n// Directly call Select on the range object\nHRESULT hr = AutoWrap(\n    DISPATCH_METHOD,\n    &result,\n    irange,  // Use the range object directly here\n    L"Select",\n    0);     // No parameters\n\nif (FAILED(hr)) {\n    return hr;\n}

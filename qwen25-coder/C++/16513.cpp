@@ -1,1 +1,0 @@
-#include "MathOperations.h"\n\nMATHOPERATIONS_API int calculateSquare(int num) {\n    return num * num;\n}

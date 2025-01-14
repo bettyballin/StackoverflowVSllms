@@ -1,1 +1,0 @@
-sudo systemctl status postfix  # Check Postfix service status\ntail -f /var/log/mail.log      # Monitor logs in real-time

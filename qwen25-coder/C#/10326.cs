@@ -1,1 +1,0 @@
-var sanitizedInput = SanitizeUtility.SanitizeInput(userInput);\nvar safeInt = SanitizeUtility.ParseInt(stringInput);\nif (safeInt.HasValue)\n{\n    Console.WriteLine("Parsed integer: " + safeInt.Value);\n}\nelse\n{\n    Console.WriteLine("Failed to parse integer.");\n}

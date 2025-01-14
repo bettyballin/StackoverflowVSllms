@@ -1,1 +1,0 @@
-.pre-wrap {\n    white-space: pre-wrap; /* wrap text */\n    font-family: 'Courier New', Monospace;\n    position: relative;\n}\n\n.continuation-indicator::after {\n    content: '↪'; /* Unicode Rightwards Arrow with Hook Symbol */\n    position: absolute;\n    right: 0;\n    opacity: 0;\n    pointer-events: none;\n}

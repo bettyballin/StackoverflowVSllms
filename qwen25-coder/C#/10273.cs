@@ -1,1 +1,0 @@
-using System.Collections.Concurrent;\n\npublic static class ConnectionManager {\n    private static ConcurrentDictionary<string, object> _connections = new ConcurrentDictionary<string, object>();\n\n    public static void AddConnection(string key, object connection) {\n        _connections.TryAdd(key, connection);\n    }\n\n    // Other methods...\n}

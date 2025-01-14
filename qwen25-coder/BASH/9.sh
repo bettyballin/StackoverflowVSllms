@@ -1,1 +1,0 @@
-m4 sendmail.mc > sendmail.cf

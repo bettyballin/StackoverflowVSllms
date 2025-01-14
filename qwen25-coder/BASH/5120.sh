@@ -1,1 +1,0 @@
-dos2unix /path/to/your/file.php

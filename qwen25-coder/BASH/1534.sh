@@ -1,1 +1,0 @@
-devenv /resetaddin Microsoft.VSDesigner.CodeDom.VBCodeProvider /resetsetting IDEGeneral

@@ -1,1 +1,0 @@
-.scroll-container {\n    width: 300px;\n    height: 400px;\n    overflow-y: scroll;\n    scrollbar-width: none; /* To hide default scrollbar in Firefox */\n}\n\n.scroll-container::-webkit-scrollbar {\n    display: none; /* Hide default scrollbar in WebKit browsers */\n}

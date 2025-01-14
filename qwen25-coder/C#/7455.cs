@@ -1,1 +1,0 @@
-AppDomain appDomain = AppDomain.CreateDomain("IsolatedDomain");\n   try {\n       appDomain.DoCallBack(() => {\n           // Load DLLs and perform operations here\n       });\n   } finally {\n       AppDomain.Unload(appDomain);\n   }

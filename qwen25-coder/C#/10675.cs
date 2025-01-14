@@ -1,1 +1,0 @@
-// Assuming you have a DataTable named dataTable within your DataSet\nstring filterExpression = "Column1 = 'Value1' AND Column2 = 'Value2'";\nDataRow[] results = dataTable.Select(filterExpression);\n\nforeach (DataRow row in results)\n{\n    // Process each found DataRow\n}

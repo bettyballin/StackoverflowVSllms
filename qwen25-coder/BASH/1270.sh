@@ -1,1 +1,0 @@
-composer require frconner/php-language-detectio

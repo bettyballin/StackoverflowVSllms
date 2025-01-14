@@ -1,1 +1,0 @@
-#ifdef _MSC_VER  // Only define if using Visual Studio compiler\n#include "stdafx.h"\n#endif

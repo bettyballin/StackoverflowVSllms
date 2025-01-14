@@ -1,1 +1,0 @@
-EXEC SQL BEGIN DECLARE SECTION;\n  char oracle_date[12]; // Enough space for 'YYYY-MM-DD HH24:MI:SS'\n  EXEC SQL END DECLARE SECTION;\n\n  EXEC SQL SELECT TO_CHAR(SYSDATE, 'YYYY-MM-DD') INTO :oracle_date FROM dual;

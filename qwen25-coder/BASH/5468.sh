@@ -1,1 +1,0 @@
-protoc-c --c_out=. your_file.proto

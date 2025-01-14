@@ -1,1 +1,0 @@
-kcachegrind-cli profile.calltree | less

@@ -1,1 +1,0 @@
-# Example of using pax for archiving\npax -w -x ustar -f myarchive.pax AWK awk awk_tip awk_notes\ngzip myarchive.pax  # To compress

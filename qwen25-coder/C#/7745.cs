@@ -1,1 +1,0 @@
-// Using a method from an external DLL\npublic int UseCalculator(int a, int b)\n{\n    // Assuming Calculator is a class inside an external DLL\n    var calculator = new Calculator();\n    return calculator.Add(a, b);\n}

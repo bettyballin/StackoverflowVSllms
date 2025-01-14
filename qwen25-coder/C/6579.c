@@ -1,1 +1,0 @@
-#include <stdio.h>\n\n   int main() {\n       printf("Hello, ARM!\n");\n       return 0;\n   }

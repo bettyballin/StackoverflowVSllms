@@ -1,1 +1,0 @@
-./bootstrap.sh --prefix=/your/install/path\n   ./b2 toolset=gcc-4.3 link=shared runtime-link=shared

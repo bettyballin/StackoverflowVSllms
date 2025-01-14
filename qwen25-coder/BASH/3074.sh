@@ -1,1 +1,0 @@
-cscope -Rbq /path/to/your/project

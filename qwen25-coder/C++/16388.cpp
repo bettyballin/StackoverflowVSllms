@@ -1,1 +1,0 @@
-amespace ns { class A {}; }

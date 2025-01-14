@@ -1,1 +1,0 @@
-if (User.Identity.AuthenticationType == "NTLM" || User.Identity.AuthenticationType == "Negotiate")\n   {\n       // This is an internal user with Windows Auth.\n   }\n   else if (User.Identity.AuthenticationType == "Basic")\n   {\n       // This is an external user with Basic Auth.\n   }

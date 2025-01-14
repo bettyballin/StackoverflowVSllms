@@ -1,1 +1,0 @@
-pConnection->Unadvise(dwCookie);\npConnection->Release();

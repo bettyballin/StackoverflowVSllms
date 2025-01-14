@@ -1,1 +1,0 @@
-# Example command for using JMeter from CLI\n   jmeter -n -t testplan.jmx -l results.csv

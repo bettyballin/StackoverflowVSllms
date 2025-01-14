@@ -1,1 +1,0 @@
-traceroute <database_server_IP>

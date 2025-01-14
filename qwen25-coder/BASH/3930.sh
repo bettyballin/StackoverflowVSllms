@@ -1,1 +1,0 @@
-# To check the status of SELinux\n   sestatus\n\n   # To temporarily disable SELinux (for testing purposes only)\n   setenforce 0

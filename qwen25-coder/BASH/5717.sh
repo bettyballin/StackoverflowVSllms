@@ -1,1 +1,0 @@
-@echo off\nREM Path to ISBuild.exe\nset IS_BUILD_PATH="C:\Program Files (x86)\InstallShield\2009\Express\Bin\ISBuild.exe"\n\nREM Path to your InstallShield project file (.ism)\nset PROJECT_FILE="YourProject.ism"\n\nREM Build command for release configuration\n%IS_BUILD_PATH% -p %PROJECT_FILE% -r Release

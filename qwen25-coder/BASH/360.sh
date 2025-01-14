@@ -1,1 +1,0 @@
-gcc server.c -o server\ngcc client.c -o client

@@ -1,1 +1,0 @@
-struct SimpleVertex {\n       float PosX;\n       float PosY;\n       float PosZ;\n\n       SimpleVertex(float X, float Y, float Z)\n           : PosX(X), PosY(Y), PosZ(Z) {}\n   };

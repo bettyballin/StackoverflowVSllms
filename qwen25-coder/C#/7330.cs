@@ -1,1 +1,0 @@
-// Example of accessing the current user in DNN\n   var currentUser = UserController.Instance.GetCurrentUserInfo();

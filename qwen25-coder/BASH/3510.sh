@@ -1,1 +1,0 @@
-# Example JMeter CLI command to run a simple test plan\njmeter -n -t /path/to/your_test_plan.jmx -l /path/to/results.csv

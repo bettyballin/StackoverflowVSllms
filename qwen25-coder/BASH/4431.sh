@@ -1,1 +1,0 @@
-postmap /etc/postfix/virtual

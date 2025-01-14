@@ -1,1 +1,0 @@
-// Assume a ResX file with an entry "WelcomeMessage" containing the string "Hello!"\nstring welcomeMessage = Properties.Resources.WelcomeMessage;\nConsole.WriteLine(welcomeMessage);

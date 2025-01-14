@@ -1,1 +1,0 @@
-# Example command to view the tnsnames.ora file\ncat $ORACLE_HOME/network/admin/tnsnames.ora

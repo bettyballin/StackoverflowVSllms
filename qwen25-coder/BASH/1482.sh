@@ -1,1 +1,0 @@
-sc sdset <ServiceName> D:(A;;CC;;;S-1-5-80-<SID>) # Replace <ServiceName> with the application pool's service name and <SID> with the appropriate SID for the identity.

@@ -1,1 +1,0 @@
-// In your console application (e.g., main.cpp)\n   #include <iostream>\n   #include "MyDll.h"  // Ensure this path is correct\n\n   int main() {\n       // Call the function from the DLL\n       int result = IsolatedFunction(10);\n       std::cout << "Result: " << result << std::endl;\n       return 0;\n   }

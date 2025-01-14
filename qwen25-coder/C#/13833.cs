@@ -1,1 +1,0 @@
-using System;\n     using MyFSharpLibrary;\n\n     class Program\n     {\n         static void Main()\n         {\n             string greeting = Greeter.SayHello("World");\n             Console.WriteLine(greeting);\n         }\n     }

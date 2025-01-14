@@ -1,1 +1,0 @@
-.column {\n       float: left;\n       width: 30%;\n       margin-right: 2%; /* Adjust as needed */\n   }\n   \n   .container::after {\n       content: "";\n       display: table;\n       clear: both; /* Clearfix to ensure the parent container wraps around floated elements */\n   }

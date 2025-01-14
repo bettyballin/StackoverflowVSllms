@@ -1,1 +1,0 @@
-using Microsoft.Win32;\n\n// Open the key where the value is stored\nRegistryKey key = Registry.CurrentUser.OpenSubKey(\n    @"Software\Microsoft\Windows\CurrentVersion\Run", true);\n\nif (key != null)\n{\n    // Delete the specified value\n    key.DeleteValue("MyApp", false);\n    \n    // Close the key to release resources\n    key.Close();\n}

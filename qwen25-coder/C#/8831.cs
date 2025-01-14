@@ -1,1 +1,0 @@
-public interface IMasterPageRepository\n   {\n       object GetMasterPageData();\n   }

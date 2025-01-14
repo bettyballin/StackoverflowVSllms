@@ -1,1 +1,0 @@
-using System;\nusing System.Text.RegularExpressions;\n\nclass Program\n{\n    static void Main()\n    {\n        string input = "ThisIsMyCapsDelimitedString";\n        string result = Regex.Replace(input, "(?<!^)(?=[A-Z])", " ");\n        Console.WriteLine(result);\n    }\n}

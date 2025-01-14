@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (IsPostBack && !IsCallback)\n    {\n        // Handle postback logic\n    }\n}\n\n[WebMethod]\npublic static string AddComment(string commentText)\n{\n    // Your server-side logic to add the comment\n    SaveComment(commentText);\n    return "success";\n}

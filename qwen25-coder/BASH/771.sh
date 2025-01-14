@@ -1,1 +1,0 @@
-asadmin restart-domain domain1

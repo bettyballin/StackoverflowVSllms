@@ -1,1 +1,0 @@
-# Command to export entire schema of user 'SCHEMA_NAME'\nexpdp SCHEMA_NAME/password DIRECTORY=DATA_PUMP_DIR DUMPFILE=schema_name.dmp LOGFILE=export_schema_name.log\n\n# Ensure that 'SCHEMA_NAME' is replaced with your actual schema name.

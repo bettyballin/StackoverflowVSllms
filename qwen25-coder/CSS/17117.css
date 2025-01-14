@@ -1,1 +1,0 @@
-#scroll-container {\n    width: 100%;\n    overflow-x: auto;\n    white-space: nowrap;\n}\n\n.thumbnail-image {\n    display: inline-block; /* Prevent wrapping */\n}

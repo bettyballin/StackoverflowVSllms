@@ -1,1 +1,0 @@
-using System;\n\nclass Program\n{\n    static void Main()\n    {\n        string dataString = "Hello World! ~";\n        string result = Uri.EscapeDataString(dataString);\n        \n        Console.WriteLine(result); // Output will be RFC 3986 compliant except for '~' if not manually handled.\n    }\n}

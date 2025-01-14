@@ -1,1 +1,0 @@
-// Ensure your project is set to x86, then use this code as before:\nShockwaveFlashObjects.ShockwaveFlashClass shockwave = new ShockwaveFlashObjects.ShockwaveFlashClass();

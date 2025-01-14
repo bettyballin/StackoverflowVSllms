@@ -1,1 +1,0 @@
-sudo criu restore [-t <new_PID>]

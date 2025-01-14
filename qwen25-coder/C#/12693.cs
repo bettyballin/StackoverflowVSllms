@@ -1,1 +1,0 @@
-// Interface defined by the library\npublic interface IShape {\n    void Draw();\n}\n\n// Implementation class provided by the Interop assembly\npublic class ShapeClass : IShape {\n    public void Draw() {\n        // Drawing logic here\n        Console.WriteLine("Drawing a shape.");\n    }\n}

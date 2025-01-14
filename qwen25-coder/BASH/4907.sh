@@ -1,1 +1,0 @@
-gcc -o runnable mycode.c -std=c99

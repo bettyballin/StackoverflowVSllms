@@ -1,1 +1,0 @@
-// Define a class for an event\npublic class Event { }\n\n// Define a class for iCalendar with a generic Create method\npublic class iCalendar {\n    public T Create<T>() where T : new() {\n        return new T();\n    }\n}\n\npublic class Program {\n    public static void Main() {\n        iCalendar iCal = new iCalendar();\n        Event evt = iCal.Create<Event>();\n    }\n}

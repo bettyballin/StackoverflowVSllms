@@ -1,1 +1,0 @@
-if (User.IsInRole(@"DOMAIN\GroupA"))\n   {\n       // Show/hide elements based on role membership\n   }

@@ -1,1 +1,0 @@
-public class DateTimeModel\n{\n    [RegularExpression(@"^\d{4}-\d{2}-\d{2} \d{2}:\d{2}$", ErrorMessage = "Date-time format must be YYYY-MM-DD HH:MM.")]\n    public string DateTimeInput { get; set; }\n}

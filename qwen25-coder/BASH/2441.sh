@@ -1,1 +1,0 @@
-sudo yum install -y mysql-server mysqldump gzip mutt msmtp

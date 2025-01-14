@@ -1,1 +1,0 @@
-phpdbg -qrr your_script.php

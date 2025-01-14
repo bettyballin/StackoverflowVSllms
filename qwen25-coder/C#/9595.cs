@@ -1,1 +1,0 @@
-using System;\n\nnamespace HelloWorldApp {\n    class Program {\n        static void Main(string[] args) {\n            Console.WriteLine("Hello World!");\n        }\n    }\n}

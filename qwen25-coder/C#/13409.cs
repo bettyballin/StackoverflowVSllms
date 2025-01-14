@@ -1,1 +1,0 @@
-void Application_Start(object sender, EventArgs e)\n{\n    // Example of precompiling a query\n    Func<ObjectContextType, long?, IQueryable<YourEntityType>> compiledQuery = \n        CompiledQuery.Compile((ObjectContextType context, long? param) =>\n          from o in context.YourEntities\n          where o.SomeProperty == param\n          select o);\n}

@@ -1,1 +1,0 @@
-svn --config-dir %APPDATA%\Subversion/ config set servers http-proxy-host <your-proxy-server>\nsvn --config-dir %APPDATA%\Subversion/ config set servers http-proxy-port <your-proxy-port>

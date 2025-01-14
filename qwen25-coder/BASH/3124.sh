@@ -1,1 +1,0 @@
-# Example of encrypting a tar archive with gpg\ntar -czvf myarchive.tar.gz AWK awk awk_tip awk_notes\ngpg --encrypt --recipient user@example.com myarchive.tar.gz

@@ -1,1 +1,0 @@
-# On Windows: Use the official installer from https://git-scm.com/download/win\n   # On MacOS: brew install git or use the installer from https://git-scm.com/download/mac\n   # On Linux: sudo apt-get update && sudo apt-get install git (or equivalent)

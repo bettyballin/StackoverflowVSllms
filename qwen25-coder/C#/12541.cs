@@ -1,1 +1,0 @@
-try\n{\n    using (System.Diagnostics.Process process = new System.Diagnostics.Process())\n    {\n        process.StartInfo.FileName = "yourprogram.exe";\n        process.Start();\n        \n        // Optionally wait for the process to complete\n        process.WaitForExit();\n    }\n}\ncatch (Exception ex)\n{\n    Console.WriteLine($"Error: {ex.Message}");\n}

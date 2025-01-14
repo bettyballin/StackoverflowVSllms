@@ -1,1 +1,0 @@
-string serverPath = Server.MapPath("~/bin/File.dll");

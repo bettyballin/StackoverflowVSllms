@@ -1,1 +1,0 @@
-subinacl /subkeyreg HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\MyLog /grant=networkservice=f

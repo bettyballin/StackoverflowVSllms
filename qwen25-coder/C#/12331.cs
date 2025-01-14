@@ -1,1 +1,0 @@
-// Example of accessing a folder using WebDAV in C#\nusing (WebClient client = new WebClient())\n{\n    client.Credentials = new NetworkCredential("username", "password");\n    string response = client.DownloadString("http://yourserver/exchange/username/calendar/");\n    Console.WriteLine(response);\n}

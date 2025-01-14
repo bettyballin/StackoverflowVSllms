@@ -1,1 +1,0 @@
-cd ..\n     svn checkout file:///path/to/your/local-repo/trunk local-working-copy\n     cp -r codeplex-updates-temp/* local-working-copy/\n     cd local-working-copy\n     svn add * --force  # Ensure new files are added\n     svn commit -m "Merged updates from CodePlex"

@@ -1,1 +1,0 @@
-composer require php-amqplib/php-amqplib:v3.0.0

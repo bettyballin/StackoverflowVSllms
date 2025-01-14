@@ -1,1 +1,0 @@
-// Example of noexcept specification\nvoid do_something() noexcept {\n    // Function implementation that does not throw exceptions\n}

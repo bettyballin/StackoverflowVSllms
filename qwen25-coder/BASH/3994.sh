@@ -1,1 +1,0 @@
-curl -X POST -H "Content-Type: application/json" -d '{"reference": "12345", "amount": 100, "status": "success", "description": "Transaction completed"}' http://yourserver/service.php

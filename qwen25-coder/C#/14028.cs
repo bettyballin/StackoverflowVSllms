@@ -1,1 +1,0 @@
-public class MyForm\n    {\n        [ABC]\n        public TextBox textBox1 { get; set; }\n    }

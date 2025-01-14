@@ -1,1 +1,0 @@
-protected void YourButton_Click(object sender, EventArgs e)\n{\n    string input = YourTextBox.Text.Trim();\n    \n    // Additional validation logic if needed\n    if (!string.IsNullOrEmpty(input) && !Regex.IsMatch(input, @"^\d+$"))\n    {\n        // Handle invalid case\n    }\n}

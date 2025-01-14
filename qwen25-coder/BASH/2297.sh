@@ -1,1 +1,0 @@
-et user IUSR_SITE1 password /add\nnet user IUSR_SITE2 password /add\nnet user IUSR_SITE3 password /add

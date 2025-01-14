@@ -1,1 +1,0 @@
-regasm /codebase path_to-your_assembly.dll

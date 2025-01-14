@@ -1,1 +1,0 @@
-// In your WPF Window or UserControl code.\nprivate void ResizeLabels()\n{\n    foreach (var label in LabelsContainer.Children)\n    {\n        if (label is Label wpfLabel)\n        {\n            TextLabelUtils.SetDynamicText(wpfLabel, wpfLabel.Content.ToString());\n        }\n    }\n}\n\n// Call this method when the size of your chart changes.

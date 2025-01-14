@@ -1,1 +1,0 @@
-protected override bool PropertyValid(object value)\n  {\n      return (string)value != "adrian@lobstersoft.com";\n  }

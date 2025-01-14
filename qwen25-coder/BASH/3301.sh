@@ -1,1 +1,0 @@
-socat -xv /dev/ttyUSB0,b9600,raw EXEC:'tee yourfile.log',pty,link=/tmp/myserialport

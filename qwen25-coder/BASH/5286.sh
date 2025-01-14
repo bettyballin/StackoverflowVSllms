@@ -1,1 +1,0 @@
-sudo mkdir /var/chroot/sftp/username/upload\n   sudo chown username:staff /var/chroot/sftp/username/upload  # Adjust group as necessary\n   sudo chmod 755 /var/chroot/sftp/username/upload

@@ -1,1 +1,0 @@
-a2enmod rewrite\na2enmod headers

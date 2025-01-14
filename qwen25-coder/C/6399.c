@@ -1,1 +1,0 @@
-// This would be in your c_code.c file\n#include <stdio.h>\n\nint my_c_function(unsigned int param) {\n    printf("Received parameter: 0x%X\n", param);\n    return param + 1; // Example operation\n}

@@ -1,1 +1,0 @@
-// Example of using fixed-size integer types from stdint.h in C99 and later\n#include <stdint.h>\n#include <stdio.h>\n\nint main() {\n    int32_t a = 0x12345678; // 32-bit signed integer\n    uint64_t b = 0x1234567812345678ULL; // 64-bit unsigned integer\n\n    printf("32-bit int: %x\n", a);\n    printf("64-bit int: %llx\n", (long long)b);\n\n    return 0;\n}

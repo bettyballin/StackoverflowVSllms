@@ -1,1 +1,0 @@
-class Bar {\npublic:\n    bool foo(int i) {\n        // Pre-processing logic (e.g., validation)\n        if (i < 0) {\n            return false; // Example condition\n        }\n        return foo_(i);\n    }\n\nprivate:\n    virtual bool foo_(int i) = 0;\n};

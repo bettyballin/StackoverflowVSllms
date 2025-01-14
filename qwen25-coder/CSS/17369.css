@@ -1,1 +1,0 @@
-fieldset {\n    float: left;\n    margin-right: 20px; /* Optional: Adds space between fieldsets */\n}\n\n/* Clearfix to clear floats */\nform::after {\n    content: "";\n    display: table;\n    clear: both;\n}

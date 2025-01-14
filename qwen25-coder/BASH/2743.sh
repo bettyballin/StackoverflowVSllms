@@ -1,1 +1,0 @@
-xperf -on Microsoft-Windows-Kernel-Process:0xff -stackwalk profile

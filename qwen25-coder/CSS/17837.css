@@ -1,1 +1,0 @@
-/* Example of vendor prefixed property */\n   .example {\n       -webkit-border-radius: 5px; /* Chrome, Safari */\n       -moz-border-radius:    5px; /* Firefox */\n       border-radius:         5px;\n   }

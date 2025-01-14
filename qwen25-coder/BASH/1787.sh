@@ -1,1 +1,0 @@
-telnet mysmtphost 587

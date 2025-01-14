@@ -1,1 +1,0 @@
-sudo snap install intellij-idea-community --classic\n  # or\n  sudo apt install eclipse

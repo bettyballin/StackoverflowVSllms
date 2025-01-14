@@ -1,1 +1,0 @@
-// If consumers need to modify the list (add/remove items)\npublic IList<User> GetAllUsers()\n\n// If consumers only need to read from the collection\npublic IEnumerable<User> GetAllUsers()

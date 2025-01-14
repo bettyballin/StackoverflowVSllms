@@ -1,1 +1,0 @@
-class Foo\n{\n    private static string joke = "yo momma";\n\n    private string GetJoke()\n    {\n        lock(Foo.objectToLockOn)\n        {\n            return Foo.joke;\n        }\n    }\n}

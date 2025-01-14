@@ -1,1 +1,0 @@
-// Example of manually defined interface; replace with actual definitions from your IDL or header files.\n[Guid("YOUR-GUID-HERE"), InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]\npublic interface IDirectShowManager {\n    // Method signatures as per your DirectShow manager class\n}

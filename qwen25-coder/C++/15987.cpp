@@ -1,1 +1,0 @@
-STDMETHODIMP CMyComObject::InterfaceSupportsErrorInfo(REFIID riid)\n{\n    if (InlineIsEqualGUID(IID_IMyPrimaryInterface, riid))\n        return S_OK;\n    return S_FALSE;\n}

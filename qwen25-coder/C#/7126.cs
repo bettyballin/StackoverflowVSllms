@@ -1,1 +1,0 @@
-using SharePoint.EPlugin;  // Adjust the namespace according to the SDK documentation.

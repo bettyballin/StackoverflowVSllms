@@ -1,1 +1,0 @@
-# Install New Relic for PHP\n   sudo rpm -Uvh https://download.newrelic.com/php_agent/release/newrelic-php5-9.20.4.267.x86_64.rpm

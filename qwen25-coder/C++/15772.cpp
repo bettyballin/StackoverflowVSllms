@@ -1,1 +1,0 @@
-#include <string>\n\n// Assume c is a std::string and pos is an appropriate position within it\nstd::string c;\nsize_t pos;\n\nlong int sz = std::atoi(c.substr(0, pos).c_str()) * 1024;\nchar tmpret[128];\n\nsnprintf(tmpret, sizeof(tmpret), "%ld", sz);

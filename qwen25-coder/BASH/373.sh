@@ -1,1 +1,0 @@
-ssh -L 1234:ComputerB_ip:22 user@ComputerA_ip

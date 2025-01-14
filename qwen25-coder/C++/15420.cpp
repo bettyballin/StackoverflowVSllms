@@ -1,1 +1,0 @@
-BOOL CYourChildControl::PreTranslateMessage(MSG* pMsg)\n    {\n        if (pMsg->message == WM_KEYDOWN || pMsg->message == WM_CHAR)\n        {\n            // Handle your key events here\n            return TRUE; // Return TRUE to prevent further processing\n        }\n\n        return CWnd::PreTranslateMessage(pMsg);\n    }

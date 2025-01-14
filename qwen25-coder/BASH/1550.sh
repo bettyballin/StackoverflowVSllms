@@ -1,1 +1,0 @@
-pear update-channels\n   pear channel-update my.channel.com

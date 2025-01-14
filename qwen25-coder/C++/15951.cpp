@@ -1,1 +1,0 @@
-#include <atomic>\n#include <thread>\n\nstd::atomic<int> value(0);\n\nvoid increment() {\n    ++value;\n}\n\nvoid readValue() {\n    int local_value = value.load();\n    // Use local_value\n}\n\nint main() {\n    std::thread writer(increment);\n    std::thread reader(readValue);\n\n    writer.join();\n    reader.join();\n\n    return 0;\n}

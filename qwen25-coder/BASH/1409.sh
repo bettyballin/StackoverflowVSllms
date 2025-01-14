@@ -1,1 +1,0 @@
-<pre class="pre-wrap" id="codeBlock">\nc:\Program Files\My Application\Module\bin\..> Some_really_long_command line "with parameters" "that just go on and on" " that should all be typed on one line" "but need to be wrapped for display and I'd like the text style to indicate that it has wrapped"\n</pre>

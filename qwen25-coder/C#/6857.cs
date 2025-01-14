@@ -1,1 +1,0 @@
-using MailMessage email = new MailMessage();\nemail.IsBodyHtml = true;\nstring htmlContent = @"\n<html>\n<head>\n<style>\nbody { font-family: Arial, sans-serif; }\n</style>\n</head>\n<body>\n<p>This is a paragraph with custom font.</p>\n<br/>\nThis text follows after a line break.\n</body>\n</html>";\nemail.Body = htmlContent;

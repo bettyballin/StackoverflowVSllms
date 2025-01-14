@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult Create([Bind(Exclude = "ID,CreatedOn")] Comment comment)\n{\n    // Your code here...\n}

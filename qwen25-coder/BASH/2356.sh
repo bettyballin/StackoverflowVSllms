@@ -1,1 +1,0 @@
-regsvr32 "%SystemRoot%\system32\mshtml.dll"

@@ -1,1 +1,0 @@
--XX:PermSize=256m -XX:MaxPermSize=256m # For Java 7 and below

@@ -1,1 +1,0 @@
-valgrind --tool=memcheck --leak-check=yes php your_script.php

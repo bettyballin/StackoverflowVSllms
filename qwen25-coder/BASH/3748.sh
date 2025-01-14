@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Original warnings list from your build system\noriginal_warnings="-W...other_valid_c_warnings -Wno-deprecated"\n\n# Filter out C++ specific flags\nc_only_warnings=$(echo $original_warnings | sed 's/-Wno-deprecated//g')\n\n# Compile all files (C and C++)\ngcc $c_only_warnings *.c *.cpp

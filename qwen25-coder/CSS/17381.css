@@ -1,1 +1,0 @@
-.ColorSeparatorArea {\n    background-color: #3d3d77;\n    height: 1px !important; /* Use !important if necessary */\n    font-size: 0;           /* Prevents any default line-height issues */\n    line-height: 0;         /* Ensures no extra space due to line height */\n    margin: 0;              /* Removes any padding or margin */\n    padding: 0;\n}

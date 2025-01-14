@@ -1,1 +1,0 @@
-public class UserService {\n       public void AddUser(User user) {\n           if (string.IsNullOrEmpty(user.Name)) throw new InvalidOperationException("Name cannot be empty.");\n           if (user.Age < 18 || user.Age > 100) throw new ArgumentOutOfRangeException(nameof(user.Age), "Age must be between 18 and 100.");\n\n           // Proceed with saving the user\n       }\n   }

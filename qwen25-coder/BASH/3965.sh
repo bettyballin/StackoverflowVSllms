@@ -1,1 +1,0 @@
-gcc -shared -o mod_python.dll mod_python.o -I"C:\Program Files (x86)\python\2.6\include" -LC:\Windows\system32 -L"C:\Program Files (x86)\python\2.6\libs" -lpython26 -Wl,--out-implib=libmod_python.a -g

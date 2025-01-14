@@ -1,1 +1,0 @@
-// In your Interfaces project (e.g., ProjectName.Interfaces.dll)\n\nusing System;\n\nnamespace ProjectName.Interfaces\n{\n    public interface IMyProvider\n    {\n        void Execute();\n        string GetName();\n    }\n}

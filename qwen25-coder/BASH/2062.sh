@@ -1,1 +1,0 @@
-ssh-keyscan -t rsa example.com > known_hosts

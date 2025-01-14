@@ -1,1 +1,0 @@
-wget -O /usr/local/bin/gitea https://dl.gitea.io/gitea/1.14.7/gitea-1.14.7-linux-amd64\nchmod +x /usr/local/bin/gitea

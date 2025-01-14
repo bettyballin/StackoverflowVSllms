@@ -1,1 +1,0 @@
-ffmpeg -i input.m4a -c:a libmp3lame -qscale:a 2 output.mp3

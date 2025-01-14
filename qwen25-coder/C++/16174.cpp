@@ -1,1 +1,0 @@
-// .h file in BigClass\nstatic FILEINFO* PassThis(FILEINFO*);\n\n// Use the function pointer in MyFunc call:\nMyFuncClass->MyFunc(GetNumber(), &BigClass::PassThis, GetArgs(), TheType);

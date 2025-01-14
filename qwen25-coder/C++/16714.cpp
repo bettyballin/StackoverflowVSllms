@@ -1,1 +1,0 @@
-#include <list>\nclass Request {\n    // Class members\n};\n\nclass LogManipulator {\npublic:\n    std::list<Request> getAsRequestList();\n};\n\nstd::list<Request> LogManipulator::getAsRequestList() {\n    std::list<Request> requests;\n    // Code to populate the list with Request objects from a log file\n    return requests;  // This will use move semantics in C++11 and later\n}

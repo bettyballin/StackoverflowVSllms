@@ -1,1 +1,0 @@
-racket myprogram.scm arg1 arg2 arg3

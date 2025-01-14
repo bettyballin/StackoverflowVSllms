@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Get all unique Passenger App PIDs (excluding master process)\npids=$(sudo passenger-memory-stats | awk '/^[0-9]+: [Pp]assenger.*App/ {print $1}')\n\n# Print PIDs separated by space\necho $pids

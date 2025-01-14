@@ -1,1 +1,0 @@
-var accountSettings = session.CreateQuery("select a.Settings from Account a where a.Id = :accountId")\n                             .SetParameter("accountId", accountId)\n                             .UniqueResult<Settings>();

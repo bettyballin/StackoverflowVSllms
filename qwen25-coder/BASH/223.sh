@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Checkout from SVN\nsvn update\n\n# Decompress binary files\nfind . -type f -iname "*.gz" -print0 | while IFS= read -r -d '' file; do\n    gunzip "$file"\ndone

@@ -1,1 +1,0 @@
-// my_time.c\n#include <stdio.h>\n#include <stdlib.h>\n\ntime_t time(time_t *tloc) {\n    static const time_t fake_time = 1672531200; // Example timestamp (January 1, 2023)\n    if (tloc != NULL) {\n        *tloc = fake_time;\n    }\n    return fake_time;\n}

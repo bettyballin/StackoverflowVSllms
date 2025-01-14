@@ -1,1 +1,0 @@
-using (var connection = new SqlConnection(connectionString))\n{\n    string sql = "SELECT * FROM YourTable WHERE SomeColumn = @value";\n    var results = connection.Query<YourType>(sql, new { value = yourDynamicValue });\n}

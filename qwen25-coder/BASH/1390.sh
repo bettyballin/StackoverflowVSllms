@@ -1,1 +1,0 @@
-mvn2.1 exec:java -Dexec.mainClass="com.yourpackage.YourMainClass" -Dsystem.test.property=test

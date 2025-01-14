@@ -1,1 +1,0 @@
-!510:p | xclip -selection c

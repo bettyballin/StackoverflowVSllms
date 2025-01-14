@@ -1,1 +1,0 @@
-FontManager manager = new FontManager(label1);\nmanager.SetFontSize(14); // Changes the label's font size to 14 pt

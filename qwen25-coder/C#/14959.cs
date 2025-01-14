@@ -1,1 +1,0 @@
-var criteria = session.CreateCriteria(typeof(MyEntity))\n    .Add(Expression.Like("MyProperty", "%" + userInput + "%"));

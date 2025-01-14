@@ -1,1 +1,0 @@
-using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    connection.FireInfoMessageEventOnUserErrors = false;\n    using (SqlCommand command = new SqlCommand("YourQueryHere", connection))\n    {\n        // Your command setup here\n        connection.Open();\n        SqlDataReader reader = command.ExecuteReader();\n        // Process results\n    }\n}

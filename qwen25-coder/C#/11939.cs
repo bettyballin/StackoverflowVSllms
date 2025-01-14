@@ -1,1 +1,0 @@
-public interface ICustomCacheProvider\n   {\n       void Delete(string key);\n       object Get(string key);\n       bool HasKey(string key);\n       void Store(string key, object data);\n   }

@@ -1,1 +1,0 @@
-git checkout -b feature-branch\n   # Make your changes and commit them\n   git add .\n   git commit -m "Your message here"

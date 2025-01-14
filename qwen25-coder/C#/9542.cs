@@ -1,1 +1,0 @@
-// In your logout method\n   FormsAuthentication.SignOut();\n   Session.Clear();  // Clear all session data\n   Response.Cookies[FormsAuthentication.FormsCookieName].Expires = DateTime.UtcNow.AddYears(-1);  // Expire the auth cookie\n   Response.Redirect("login.aspx");  // Redirect to login page

@@ -1,1 +1,0 @@
-/* Remove float and vertical-align properties */\n#header { \n    width: 64%;\n    margin: 12px;\n}\n\n/* No changes needed for other selectors */\n#header_title { \n    font-family: Arial;\n    font-size: xx-large;\n    font-weight: bold;\n}\n\n#hor_rule {\n    height: 1px;\n    background-color: #999;\n}

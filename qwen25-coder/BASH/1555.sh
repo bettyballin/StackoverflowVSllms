@@ -1,1 +1,0 @@
-xperf -stop -d "pagefaults_merged.etl"

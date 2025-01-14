@@ -1,1 +1,0 @@
-[assembly: Guid("your-unique-guid-here")]

@@ -1,1 +1,0 @@
-STDAPI DllGetClassObject(REFCLSID rclsid, REFIID riid, LPVOID* ppv);\nSTDAPI DllCanUnloadNow(void);\nSTDAPI DllRegisterServer(void);\nSTDAPI DllUnregisterServer(void);

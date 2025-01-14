@@ -1,1 +1,0 @@
-pip install pdfplumber beautifulsoup4 chmlib

@@ -1,1 +1,0 @@
-[DispId(1)]\nvoid ItemSelected(int someid);

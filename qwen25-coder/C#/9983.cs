@@ -1,1 +1,0 @@
-<% Html.RenderPartial("_PowerSearch", ViewData.Model); %>

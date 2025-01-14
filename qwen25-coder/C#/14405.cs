@@ -1,1 +1,0 @@
-SqlDataSource1.SelectCommand = "SELECT * FROM MyTable WHERE id=" + TextBox1.Text;

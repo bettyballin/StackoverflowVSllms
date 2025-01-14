@@ -1,1 +1,0 @@
-sudo mkdir -p /var/chroot/sftp/username\n   sudo chown root:wheel /var/chroot/sftp/username\n   sudo chmod 755 /var/chroot/sftp/username

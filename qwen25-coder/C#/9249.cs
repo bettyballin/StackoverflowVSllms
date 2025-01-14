@@ -1,1 +1,0 @@
-// Using EPPlus to read an Excel file (.xlsx)\n  using (var package = new ExcelPackage(new FileInfo("example.xlsx")))\n  {\n      ExcelWorksheet worksheet = package.Workbook.Worksheets[0];\n      string someValue = worksheet.Cells["A1"].Text;\n  }

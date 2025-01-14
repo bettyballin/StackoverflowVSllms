@@ -1,1 +1,0 @@
-// Example of simplified method call for admin operations\n   public void UpdateClient(Client client) {\n       DAL.UpdateClient(client);\n   }

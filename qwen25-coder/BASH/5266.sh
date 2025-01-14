@@ -1,1 +1,0 @@
-@echo off\nset temp_sql=%temp%\init_sql.sql\n\n(\n  echo SET DEFINE OFF;\n) > %temp_sql%\n\nsqlplus user/pwd@tnsname @%temp_sql%\n\ndel %temp_sql%

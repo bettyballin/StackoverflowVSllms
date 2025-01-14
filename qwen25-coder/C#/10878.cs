@@ -1,1 +1,0 @@
-try\n{\n    // Your code here...\n}\nfinally\n{\n    if (doc != null)\n    {\n        Marshal.ReleaseComObject(doc);\n        doc = null;\n    }\n}

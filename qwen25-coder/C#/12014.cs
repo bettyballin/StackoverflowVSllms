@@ -1,1 +1,0 @@
-using (var stream = new FileStream(path, FileMode.Open, FileAccess.Read))\n  {\n      return File(stream, "application/octet-stream", "file.pdf");\n  }

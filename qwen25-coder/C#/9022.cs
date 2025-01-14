@@ -1,1 +1,0 @@
-// Example of adding a custom header in WCF\n   public void MyMethod()\n   {\n       MessageHeader<string> myHeader = new MessageHeader<string>("myCustomValue");\n       OperationContext.Current.OutgoingMessageHeaders.Add(myHeader.GetUntypedHeader("MyHeader", "http://some.namespace"));\n   }

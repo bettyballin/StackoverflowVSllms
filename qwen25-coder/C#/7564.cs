@@ -1,1 +1,0 @@
-{\n    string nom;\n    string ou = null; // Initialize 'ou' to ensure it has a default value\n    nom = "1";\n    if (nom == "1")\n    {\n        nom += 1.ToString(); // Convert the integer 1 to a string before concatenation\n        ou = nom;\n    }\n    Console.Write(ou ?? "ou was not initialized"); // Use null-coalescing operator for safety\n}

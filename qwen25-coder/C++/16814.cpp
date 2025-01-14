@@ -1,1 +1,0 @@
-// Storing COM pointer with AddRef\npRend->cp = cpRT;\nif (pRend->cp) {\n    pRend->cp->AddRef();\n}\n\n// Later, when you're done with the stored COM pointer, Release it\nif (pRend->cp) {\n    pRend->cp->Release();\n    pRend->cp = nullptr; // Good practice to set it to nullptr after releasing\n}

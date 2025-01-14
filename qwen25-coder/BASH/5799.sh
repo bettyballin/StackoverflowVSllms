@@ -1,1 +1,0 @@
-keytool -import -alias your-repo-alias -keystore $JAVA_HOME/jre/lib/security/cacerts -file repo.crt

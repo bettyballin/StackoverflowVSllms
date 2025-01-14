@@ -1,1 +1,0 @@
-public class MyScriptingService : IMyScriptingService\n{\n    public string ExecuteScript(string script)\n    {\n        // Logic to execute a script here\n        return "Result of script execution";\n    }\n\n    public int DoSomeToolFunction()\n    {\n        // Logic for the tool function\n        return 42;\n    }\n}

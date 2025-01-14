@@ -1,1 +1,0 @@
-string contentFromWord = "See “café” and the price £15 for ‘wine’… – Refurbished in 2005.";\nstring safeHtmlContent = HtmlEncoderHelper.EncodeWordContent(contentFromWord);

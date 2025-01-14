@@ -1,1 +1,0 @@
-# Example steps for building a specific gcc version\nwget http://ftp.gnu.org/gnu/gcc/gcc-4.8/gcc-4.8.tar.gz\ntar -xzf gcc-4.8.tar.gz\ncd gcc-4.8/\n./contrib/download_prerequisites\nmkdir build && cd build\n../configure --prefix=/opt/gcc-4.8 --enable-languages=c,c++\nmake -j$(nproc)\nsudo make install

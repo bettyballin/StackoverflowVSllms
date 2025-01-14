@@ -1,1 +1,0 @@
-# Download Netdata installation script and execute it\nbash <(curl -Ss https://my-netdata.io/kickstart.sh) --stable-channel\n\n# Start Netdata (if it doesn't start automatically)\nsystemctl start netdata

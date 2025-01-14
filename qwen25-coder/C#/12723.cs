@@ -1,1 +1,0 @@
-using System.ServiceModel;\nusing System.Collections.Generic;\n\n[ServiceContract]\npublic interface IProductService\n{\n    [OperationContract]\n    [WebGet(ResponseFormat = WebMessageFormat.Json, UriTemplate = "products")]\n    List<Product> GetProducts();\n}

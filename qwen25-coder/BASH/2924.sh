@@ -1,1 +1,0 @@
-sudo zypper install php5-jso

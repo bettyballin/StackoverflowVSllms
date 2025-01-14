@@ -1,1 +1,0 @@
-[AttributeUsage(AttributeTargets.Property)]\npublic class DataGridViewColumnTitleAttribute : Attribute\n{\n    public string Title { get; }\n\n    public DataGridViewColumnTitleAttribute(string title)\n    {\n        Title = title;\n    }\n}

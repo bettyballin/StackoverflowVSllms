@@ -1,1 +1,0 @@
-public interface ICode<T>\n{\n    T CodeKey { get; set; }\n    string Description { get; set; }\n\n    IEnumerable<T> GetList();\n    T GetSpecific(T key);\n    void SetProperties(T code, string description);\n}

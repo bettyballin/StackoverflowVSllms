@@ -1,1 +1,0 @@
-public class AnotherViewModel\n{\n    public AnotherViewModel(IEventAggregator eventAggregator)\n    {\n        eventAggregator.GetEvent<ErrorNotificationEvent>().Subscribe(HandleErrors);\n    }\n\n    private void HandleErrors(IEnumerable errors)\n    {\n        // Display or handle errors...\n    }\n}

@@ -1,1 +1,0 @@
-wget http://search.maven.org/remotecontent?filepath=de/databene/benerator-ce/1.0.4/benerator-ce-1.0.4.jar -O benerator.jar

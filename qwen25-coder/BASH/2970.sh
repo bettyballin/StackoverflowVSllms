@@ -1,1 +1,0 @@
-# Example command to check dependencies for vulnerabilities using OWASP Dependency-Check\ndependency-check.sh --scan path/to/your/project --disableAssembly --prettyPrint

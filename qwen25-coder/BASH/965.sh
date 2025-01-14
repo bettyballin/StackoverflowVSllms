@@ -1,1 +1,0 @@
-diff -rupN flyingsaucer-R8pre2_b/ flyingsaucer-R8pre2/ > a.patch

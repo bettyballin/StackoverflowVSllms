@@ -1,1 +1,0 @@
-openssl x509 -in certFile.pem -noout -issuer

@@ -1,1 +1,0 @@
-amespace QS.DialogManager.Communication.IISHost\n{\n    using System.ServiceModel;\n\n    [ServiceContract(Namespace = "http://example.com/services")]\n    public class RecipientService\n    {\n        [OperationContract]\n        public string HelloWorld()\n        {\n            return "Hello, World!";\n        }\n    }\n}

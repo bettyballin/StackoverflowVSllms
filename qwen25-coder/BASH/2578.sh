@@ -1,1 +1,0 @@
-#!/bin/sh\n   GIT_WORK_TREE=/path/to/live/server git checkout -f

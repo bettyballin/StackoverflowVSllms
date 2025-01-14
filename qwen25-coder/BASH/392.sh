@@ -1,1 +1,0 @@
-rm -rf /path/to/sqldeveloper\n   tar -xzf sqldeveloper-<version>-no-jre.tar.gz -C /opt/oracle/

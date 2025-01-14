@@ -1,1 +1,0 @@
-using System;\n   using System.Runtime.InteropServices;\n\n   [ComVisible(true)]\n   public class YourClass\n   {\n       public void YourMethod()\n       {\n           // Your logic here\n       }\n   }

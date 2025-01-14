@@ -1,1 +1,0 @@
-#include <iostream>\n#include <initializer_list>\n\nint findCommon(std::initializer_list<int> nums) {\n    for (auto num : nums) {\n        std::cout << num << std::endl;\n    }\n    return 1; // Replace with actual logic\n}\n\nint main() {\n    int inCommon = findCommon({54, 56, 2, 10});\n    return 0;\n}

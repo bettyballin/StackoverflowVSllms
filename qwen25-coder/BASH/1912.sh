@@ -1,1 +1,0 @@
-# Create a backup\nBackup-SqlDatabase -ServerInstance "YourServerName" -Database "YourDatabaseName" -BackupFile "C:\Backup\YourDatabase.bak"\n\n# Compress the created backup file\nAdd-Type -AssemblyName System.IO.Compression.FileSystem\n[System.IO.Compression.ZipFile]::CreateFromDirectory("C:\Backup", "C:\Backup\YourDatabase.zip")

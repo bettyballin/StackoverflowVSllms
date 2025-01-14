@@ -1,1 +1,0 @@
-pm install @eddyystop/tocbot --save

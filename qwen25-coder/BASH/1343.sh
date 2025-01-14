@@ -1,1 +1,0 @@
-stat /cygdrive/c/Your/Directory/*

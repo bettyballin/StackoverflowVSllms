@@ -1,1 +1,0 @@
-sc config Tomcat6JavaHome binPath= "C:\Path\To\Tomcat\bin\tomcat6.exe" //US//Tomcat6 ++JvmOptions=-Duser.language=en -Duser.region=US

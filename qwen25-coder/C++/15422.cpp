@@ -1,1 +1,0 @@
-#include <iostream>\n\nint globalVar = 10; // Stored in data area\n\nvoid someFunction() {\n    static int staticVar = 20; // Also stored in the data area\n    std::cout << "Static variable: " << staticVar << std::endl;\n}\n\nint main() {\n    int localVar = 30; // Stored on the stack, not in the data area\n    someFunction();\n    return 0;\n}

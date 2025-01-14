@@ -1,1 +1,0 @@
-disown %1  # Replace 1 with the respective Job ID

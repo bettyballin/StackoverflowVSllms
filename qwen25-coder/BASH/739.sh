@@ -1,1 +1,0 @@
-# Generate a random string including high ASCII characters (note: ensure system compatibility)\n</dev/urandom tr -dc 'A-Za-z0-9\174' | head -c 20; echo

@@ -1,1 +1,0 @@
-grep -oP '(?<=key=")[^"]*' path/to/jsp/files/*.jsp | sort | uniq > extracted_keys.txt

@@ -1,1 +1,0 @@
-asadmin create-jks-keystore --type PKCS12 --identitykeystorepass changeit --storepass changeit myappstore --certalias myapp cert.pfx

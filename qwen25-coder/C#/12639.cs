@@ -1,1 +1,0 @@
-// Define a lambda expression with one input parameter and an expression body\nint increment = x => x + 1;\n\n// Using the lambda expression\nint result = increment(5); // result is 6

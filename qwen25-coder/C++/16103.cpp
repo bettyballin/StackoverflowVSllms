@@ -1,1 +1,0 @@
-#include <memory>\n   \n   std::shared_ptr<Foo> ptr = std::make_shared<Foo>();

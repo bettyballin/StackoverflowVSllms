@@ -1,1 +1,0 @@
-sudo mkdir -p /usr/local/svn/repositories

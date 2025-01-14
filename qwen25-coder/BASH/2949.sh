@@ -1,1 +1,0 @@
-chmod 600 /path/to/config/file.ini

@@ -1,1 +1,0 @@
-pandoc inputfile.xml -f docbook -t dokuwiki -o output.wiki

@@ -1,1 +1,0 @@
-#include "log4cplus/logger.h"\n#include "log4cplus/loggingmacros.h"

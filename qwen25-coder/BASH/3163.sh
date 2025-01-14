@@ -1,1 +1,0 @@
-# To compile new application named NewApp.java which references classes from mypackage.jar\njavac -cp .;mypackage.jar com/example/NewApp.java\n\n# To run the new application with the package JAR in classpath\njava -cp .;mypackage.jar com.example.NewApp

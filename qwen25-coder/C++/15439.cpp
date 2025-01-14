@@ -1,1 +1,0 @@
-void foo(int &value) {\n    value++;\n}\n\nint main() {\n    int count = 2;\n    foo(count);\n    std::cout << count; // Outputs: 3\n    return 0;\n}

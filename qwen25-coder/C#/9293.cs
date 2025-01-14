@@ -1,1 +1,0 @@
-string originalStr = "This is a <TAG1> placeholder.";\nchar asciiChar = (char)0x01; // Directly cast integer to char for ASCII value 0x01\nstring resultStr = originalStr.Replace("<TAG1>", asciiChar.ToString());\n\n// Alternatively, using string interpolation or concatenation:\nresultStr = $"This is a {asciiChar} test.";

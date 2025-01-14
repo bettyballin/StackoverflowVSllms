@@ -1,1 +1,0 @@
-java -agentlib:hprof=cpu=times,file=cpu-times.out HProfExample

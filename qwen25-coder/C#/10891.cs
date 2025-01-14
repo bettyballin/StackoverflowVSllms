@@ -1,1 +1,0 @@
-private void Button_Click(object sender, RoutedEventArgs e)\n{\n    if (sender is Button button)\n    {\n        int column = Grid.GetColumn(button);\n        int row = Grid.GetRow(button);\n        \n        // Now you have the column and row indices of the clicked button\n        Console.WriteLine($"Clicked button is in row {row}, column {column}");\n    }\n}

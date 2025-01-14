@@ -1,1 +1,0 @@
-@media print {\n    thead { display: table-header-group; }\n    tfoot { display: table-footer-group; }\n\n    /* Add border for better visibility */\n    th, td { border: 1px solid black; padding: 6px; }\n\n    /* Ensure the header is visible on each page */\n    tbody tr:nth-child(n) {\n        page-break-inside: avoid;\n    }\n}

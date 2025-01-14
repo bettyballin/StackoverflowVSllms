@@ -1,1 +1,0 @@
-mkdir temp_obj\n   cd temp_obj\n\n   ar x /path/to/libpng.a\n   ar x /path/to/libz.a\n   ar x /path/to/libjpeg.a

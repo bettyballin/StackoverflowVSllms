@@ -1,1 +1,0 @@
-public class SampleModule : IPlugin\n{\n    public string Name => "Sample Module";\n\n    public void Execute()\n    {\n        // Implementation of the module's functionality.\n    }\n}

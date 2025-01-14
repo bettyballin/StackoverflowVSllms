@@ -1,1 +1,0 @@
-public class ApplicationSettings\n   {\n       public string SettingOne { get; set; }\n       public int SettingTwo { get; set; }\n       // Add other settings as needed\n   }

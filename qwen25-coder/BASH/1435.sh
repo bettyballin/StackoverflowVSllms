@@ -1,1 +1,0 @@
-# Using xdelta3 to generate a binary diff\nxdelta3 -e -s original.bin updated.bin binarypatch.xdelta\n\n# Applying the binary patch\nxdelta3 -d -s original.bin binarypatch.xdelta patched.bi

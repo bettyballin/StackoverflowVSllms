@@ -1,1 +1,0 @@
-# Extract the gzip compressed tarball\ntar -xzvf archive.tar.gz

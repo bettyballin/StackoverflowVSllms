@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Create a function to handle cleanup\non_sigint() {\n  echo "Caught signal SIGINT, killing all processes"\n  pkill -P $$ # Kill all children of the script process\n  exit 1\n}\n\ntrap on_sigint SIGINT \n\nssh -t root@db-host 'mysqldump db | gzip > /tmp/file.sql'

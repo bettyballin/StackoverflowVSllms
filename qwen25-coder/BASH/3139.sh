@@ -1,1 +1,0 @@
-sc create YourServiceName binPath= "C:\Path\To\YourExecutable.exe"

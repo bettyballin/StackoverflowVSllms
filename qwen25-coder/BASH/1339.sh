@@ -1,1 +1,0 @@
-for REPOSITORY in $@\ndo\n    cd "$REPOSITORY" || exit\n\n    # commit the changes\n    hg commit -A -m "Commit changes `date`"\n\n    # push the changes to the remote repository\n    if hg push\n    then\n        logger "hg push success"\n    else\n        logger "hg push failure"\n    fi\ndone

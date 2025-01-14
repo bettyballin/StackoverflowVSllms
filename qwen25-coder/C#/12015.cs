@@ -1,1 +1,0 @@
-public class MyService : IMyService\n{\n    public string MyMethod(string myParam)\n    {\n        return "Hello " + myParam;\n    }\n}

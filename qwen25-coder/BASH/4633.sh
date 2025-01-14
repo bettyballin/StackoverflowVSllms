@@ -1,1 +1,0 @@
-flex_sdk/bin/mxmlc -optimize=true -obf true -out obfuscated_app.swf src/Main.mxml

@@ -1,1 +1,0 @@
-// Example of named pipe client in .NET\nNamedPipeClientStream pipeClient = new NamedPipeClientStream(".", "testpipe", PipeDirection.In);

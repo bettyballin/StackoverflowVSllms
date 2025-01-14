@@ -1,1 +1,0 @@
-# Example of creating a virtual directory using AppCmd, adjust paths as necessary\n   appcmd add vdir /app.name:"Default Web Site/" /path:/Reports /physicalPath:"C:\Program Files\Microsoft SQL Server\MSSQL.3\Reporting Services\ReportServer"

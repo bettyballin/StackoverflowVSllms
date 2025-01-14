@@ -1,1 +1,0 @@
-public ActionResult DisplayText()\n{\n    string textFromDatabase = "Line one\r\nLine two\r\nLine three";\n    string htmlOutput = textFromDatabase.Replace("\r\n", "<br>");\n    ViewBag.TextWithBr = htmlOutput;\n    return View();\n}

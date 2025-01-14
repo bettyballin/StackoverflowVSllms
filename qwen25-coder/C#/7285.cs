@@ -1,1 +1,0 @@
-// This is a pseudo-code representation, as changing this setting directly through code is not typical.\nProperties.Settings.Default.MaxParallelBuilds = Environment.ProcessorCount;

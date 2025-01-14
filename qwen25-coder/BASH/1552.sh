@@ -1,1 +1,0 @@
-xperf -on PROC_THREAD+LOADER -stackwalk PageFault -f "pagefaults.etl"

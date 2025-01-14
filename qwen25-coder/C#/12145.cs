@@ -1,1 +1,0 @@
-// Basic example of NHibernate mapping using FluentAPI\nvar sessionFactory = Fluently.Configure()\n    .Mappings(m => m.FluentMappings.AddFromAssemblyOf<Program>())\n    .BuildSessionFactory();\nusing (ISession session = sessionFactory.OpenSession())\n{\n    var entities = session.Query<MyEntity>().ToList(); // Example query\n}

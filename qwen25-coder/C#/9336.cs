@@ -1,1 +1,0 @@
-// Example setting current user after login\npublic void SetCurrentUser(string username)\n{\n    CurrentUser.Username = username;\n}

@@ -1,1 +1,0 @@
-// Pseudo-code example of optimistic locking using version numbers\n    int version;\n    Entity entity = findEntityById(id, &version);\n    modifyEntity(entity);\n    boolean success = updateEntityIfVersionMatches(entity, version);\n    if (!success) {\n        throw new ConflictException("Data has been changed by another transaction");\n    }

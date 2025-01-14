@@ -1,1 +1,0 @@
-using System.Web.Security;\n\npublic bool IsUserRegistered(string username)\n{\n    MembershipUser user = Membership.GetUser(username);\n    return user != null;\n}

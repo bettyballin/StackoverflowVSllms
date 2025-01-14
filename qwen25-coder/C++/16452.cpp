@@ -1,1 +1,0 @@
-#include <exception>\n#include <stdexcept>\n\nextern "C" {\n    __declspec(dllexport) void SomeNativeFunction() {\n        try {\n            // Native code that might throw an exception\n        } catch (...) {\n            // Convert the caught error to a managed exception\n            throw std::runtime_error("An error occurred in native code.");\n        }\n    }\n}

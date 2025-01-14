@@ -1,1 +1,0 @@
-class Program\n{\n    static void Main(string[] args)\n    {\n        List<int> c = new List<int>() { 1, 2, 3 };\n        List<int> a = new List<int>() { 5, 3, 2, 4 };\n        IEnumerable<int> j = c.Intersect(a); // Use Intersect to find common elements\n        // just show me the Count\n        Console.Write(j.Count().ToString());\n    }\n}

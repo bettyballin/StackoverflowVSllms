@@ -1,1 +1,0 @@
-cd repository-name\n   # add new files\n   git add .\n   # commit changes\n   git commit -m "Initial commit"\n   # push to GitHub\n   git push origin mai

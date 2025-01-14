@@ -1,1 +1,0 @@
-ative-image -jar my-application.jar

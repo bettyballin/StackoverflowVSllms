@@ -1,1 +1,0 @@
-<#@ template debug="true" hostspecific="false" #>\n<!DOCTYPE html>\n<html lang="en">\n<head>\n    <meta charset="UTF-8">\n    <title><#= Model.Title #></title>\n</head>\n<body>\n<h1>Welcome, <#= Model.UserName #>!</h1>\n<p>Date: <#= DateTime.Now.ToShortDateString() #></p>\n<# if (!string.IsNullOrEmpty(Model.Message)) { #>\n<p><#= Model.Message #></p>\n<# } #>\n</body>\n</html>

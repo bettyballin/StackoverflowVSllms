@@ -1,1 +1,0 @@
-[HttpPost]\n[ValidateAntiForgeryToken] // Validate the anti-forgery token\npublic ActionResult MyAction(MyViewModel model)\n{\n    if (ModelState.IsValid)\n    {\n        // Perform action here\n    }\n    return View(model);\n}

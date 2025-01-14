@@ -1,1 +1,0 @@
-int digit_to_int(char c) {\n    if (c >= '0' && c <= '9') {\n        return c - '0';\n    }\n    // Handle error or return invalid value\n    return -1;\n}

@@ -1,1 +1,0 @@
-public bool CanUserPerformAction(string userId, string action)\n{\n    // Example: Check user's roles against permissions required for the action\n    var userRoles = GetUserRoles(userId);\n    return userRoles.Any(role => PermissionService.HasPermission(action, role));\n}

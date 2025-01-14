@@ -1,1 +1,0 @@
-# Install a tool like dotPeek from JetBrains\n   # Note: Ensure you have legal permissions for decompiling if necessary.

@@ -1,1 +1,0 @@
-ps aux | grep your_command

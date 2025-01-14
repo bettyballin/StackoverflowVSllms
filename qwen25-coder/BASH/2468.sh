@@ -1,1 +1,0 @@
-mkdir my_crud_app && cd my_crud_app\ntouch app.py models.py config.py\nmkdir templates static

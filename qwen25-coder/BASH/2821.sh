@@ -1,1 +1,0 @@
-arm-linux-gnueabi-c++ -o hello_arm hello.cpp

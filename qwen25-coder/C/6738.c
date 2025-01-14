@@ -1,1 +1,0 @@
-#include <openssl/pem.h>\n#include <openssl/rsa.h>\n\nRSA *loadPublicKeyFromPem(const char *filename)\n{\n    FILE *pubKeyFile = fopen(filename, "r");\n    if (!pubKeyFile) return NULL;\n\n    RSA *rsaPubKey = PEM_read_RSA_PUBKEY(pubKeyFile, NULL, NULL, NULL);\n    fclose(pubKeyFile);\n\n    return rsaPubKey;\n}

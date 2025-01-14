@@ -1,1 +1,0 @@
-public class EmailData {\n    public string Name { get; set; }\n    public string Email { get; set; }\n    public string Subject { get; set; }\n    public string Message { get; set; }\n    public string Token { get; set; }\n}\n\n[WebMethod]\npublic string SendEmail(EmailData emailData) {\n    // Process the emailData object here\n    return "Email sent successfully!";\n}

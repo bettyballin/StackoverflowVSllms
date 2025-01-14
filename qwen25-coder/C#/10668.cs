@@ -1,1 +1,0 @@
-text.Remove("element3"); // Removes first occurrence of "element3"\n   text.RemoveAt(1); // Removes element at index 1

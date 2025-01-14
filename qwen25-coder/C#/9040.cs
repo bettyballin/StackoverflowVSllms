@@ -1,1 +1,0 @@
-public interface IPersonRepository\n   {\n       void SavePerson(Person person);\n       void ChangeCompanyOfPerson(int personId, int newCompanyId);\n   }

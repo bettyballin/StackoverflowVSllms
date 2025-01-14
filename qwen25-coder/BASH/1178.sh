@@ -1,1 +1,0 @@
-sudo apt-get install php-imagick  # For Linux/Debian-based systems

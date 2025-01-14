@@ -1,1 +1,0 @@
-// ExposedCInterface.h\n#ifdef __cplusplus\nextern "C" {\n#endif\n\n__declspec(dllexport) void CallManagedCode();\n\n#ifdef __cplusplus\n}\n#endif

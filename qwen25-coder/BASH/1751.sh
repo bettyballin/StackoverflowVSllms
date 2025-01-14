@@ -1,1 +1,0 @@
-fuslogvw /reset\n    fuslogvw /unilog:C:\assembly.log

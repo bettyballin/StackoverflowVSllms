@@ -1,1 +1,0 @@
-GIT_SSH_COMMAND='ssh -p 1234' git clone user@localhost:/path/to/repos local_repos

@@ -1,1 +1,0 @@
-# Ensure that the TFS web application is configured to use Windows Authentication in IIS.\n   # This can be set through the IIS Manager interface or via PowerShell:\n   Set-WebConfigurationProperty -pspath 'MACHINE/WEBROOT/APPHOST/<YourTFSApp>'  -filter "system.webServer/security/authentication/windowsAuthentication" -name "enabled" -value "True"

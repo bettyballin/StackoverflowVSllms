@@ -1,1 +1,0 @@
-using System.Collections.Generic;\n\npublic class WebsiteList : List<Website>\n{\n}

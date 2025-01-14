@@ -1,1 +1,0 @@
-html, body {\n    height: 100%;\n    margin: 0;\n}\n\nbody {\n    display: flex;\n    justify-content: center; /* Centers the div horizontally */\n    align-items: center; /* Optional: centers the div vertically if needed */\n}\n\ndiv {\n    width: 800px;\n}

@@ -1,1 +1,0 @@
-# Example of using clang-tidy on a directory\n   clang-tidy -p=build-dir src/*.cpp --checks="readability-avoid-unused-parameters"

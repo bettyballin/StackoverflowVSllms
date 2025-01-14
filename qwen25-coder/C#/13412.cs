@@ -1,1 +1,0 @@
-if (txtPackage.Text != string.Empty && txtPackage.Text == "abc")\n{\n   // Code logic here\n}

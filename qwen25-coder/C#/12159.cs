@@ -1,1 +1,0 @@
-// Ensure cookies are marked as secure and httpOnly\n  HttpContext.Current.Response.Cookies[FormsAuthentication.FormsCookieName].HttpOnly = true;\n  HttpContext.Current.Response.Cookies[FormsAuthentication.FormsCookieName].Secure = true;

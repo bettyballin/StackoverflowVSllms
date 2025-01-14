@@ -1,1 +1,0 @@
-sonar-scanner \\n       -Dsonar.projectKey=YourProjectKey \\n       -Dsonar.sources=. \\n       -Dsonar.host.url=http://localhost:9000 \\n       -Dsonar.login=<your_sonar_token>

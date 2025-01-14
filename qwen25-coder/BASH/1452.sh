@@ -1,1 +1,0 @@
-#!/bin/sh\n# Example pre-commit hook script (not used directly in your case)\nREPOS="$1"\nTXN="$2"\n\nSVNLOOK=/usr/bin/svnlook\n\nLOGMSG=$($SVNLOOK log -t "$TXN" "$REPOS")\n\n# Check if the commit message is empty\nif [ -z "$LOGMSG" ]; then\n   echo "Log message cannot be empty. Commit aborted." 1>&2\n   exit 1\nfi\n\nexit 0

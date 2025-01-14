@@ -1,1 +1,0 @@
-#include <jni.h>\n#include "Inpout32.h"\n\nJNIEXPORT void JNICALL Java_Inpout32_Out32(JNIEnv *, jobject, jshort portaddr, jshort value) {\n    Out32(portaddr, value);\n}\n\nJNIEXPORT jint JNICALL Java_Inpout32_Inp32(JNIEnv *, jobject, jshort portaddr) {\n    return Inp32(portaddr);\n}

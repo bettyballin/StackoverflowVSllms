@@ -1,1 +1,0 @@
-HttpCookie myCookie = new HttpCookie("MyAppCookie");\nmyCookie.Value = "cookieValue";\nmyCookie.Expires = DateTime.Now.AddDays(1); // Set expiration time\nmyCookie.Secure = true; // Set to true if using HTTPS\nmyCookie.HttpOnly = true; // Prevents client-side script access\nResponse.Cookies.Add(myCookie);

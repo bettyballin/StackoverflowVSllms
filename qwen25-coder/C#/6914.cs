@@ -1,1 +1,0 @@
-using System.Configuration;\nusing System.Data.Objects;\n\n// Retrieve the connection string from web.config\nstring connectionString = ConfigurationManager.ConnectionStrings["MyEntities"].ConnectionString;\n\n// Use the connection string to create an ObjectContext or DbContext (for newer versions)\nvar context = new MyEntities(connectionString);

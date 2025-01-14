@@ -1,1 +1,0 @@
-# Example using Windows Firewall in PowerShell:\n   New-NetFirewallRule -DisplayName "AllowTfsWebAccess" -Direction Inbound -Protocol TCP -LocalPort 8080,443 -Action Allow

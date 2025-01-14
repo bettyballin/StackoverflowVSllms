@@ -1,1 +1,0 @@
-setspn -S http/IP_ADDRESS domain\username

@@ -1,1 +1,0 @@
-$repoPath = "C:\repositories\your_repo_name"\n$backupFile = "W:\backups\your_repo_name_$(Get-Date -Format 'yyyyMMdd_HHmm').dump"\n\n# Full backup\nsvnadmin dump $repoPath > $backupFile\n\n# Verify the backup\nsvnadmin verify --quiet $repoPath

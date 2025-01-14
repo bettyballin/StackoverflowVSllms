@@ -1,1 +1,0 @@
-// Ensure no unnecessary headers are added that could interfere with the download

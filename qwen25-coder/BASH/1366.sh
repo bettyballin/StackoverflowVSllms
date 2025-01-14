@@ -1,1 +1,0 @@
-strip --strip-debug --strip-unneeded myprogram

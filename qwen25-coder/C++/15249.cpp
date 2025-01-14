@@ -1,1 +1,0 @@
-// In a header file\n  inline template<typename T>\n  void print(T t) { std::cout << t; }

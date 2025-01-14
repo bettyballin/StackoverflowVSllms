@@ -1,1 +1,0 @@
-git commit -m "Fix minor bug x on homepage"

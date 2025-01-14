@@ -1,1 +1,0 @@
-for (int i = _collection.Count - 1; i >= 0; i--)\n{\n    if (!_collection[i].IsApproved())\n    {\n        _collection.RemoveAt(i);\n    }\n}

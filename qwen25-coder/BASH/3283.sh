@@ -1,1 +1,0 @@
-mkdir ~/deployment\ncd ~/deployment\nsvn checkout http://your-svn-repository-url/path/to/your/zend-framework-app app-dir

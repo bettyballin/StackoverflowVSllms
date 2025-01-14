@@ -1,1 +1,0 @@
-protected void btnSubmit_Click(object sender, EventArgs e)\n{\n    // Assume some custom validation logic here\n    Page.Validate("CustomValidationGroup");\n    if (Page.IsValid)\n    {\n        // Proceed with processing, knowing all validations have passed.\n    }\n}

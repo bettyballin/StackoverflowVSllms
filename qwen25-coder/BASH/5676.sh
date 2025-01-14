@@ -1,1 +1,0 @@
-composer install --no-dev --optimize-autoloader\n   php bin/console cache:warmup

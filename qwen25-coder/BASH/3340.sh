@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Assuming the first line of your file is headers and file is comma separated\nCSV_FILE=$1\nDB_NAME=$(basename "$CSV_FILE" .csv).db\n\nsqlite3 $DB_NAME << EOF\n.mode csv\n.import $CSV_FILE data\nEOF

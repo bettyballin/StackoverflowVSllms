@@ -1,1 +1,0 @@
-public class DateController : ApiController\n{\n    [HttpGet]\n    public IHttpActionResult GetCurrentDate()\n    {\n        return Ok(DateTime.Now.ToString("yyyy-MM-dd"));\n    }\n}

@@ -1,1 +1,0 @@
-// Assuming you have a form with a button named 'myButton'\nBitmap myControlImage = CaptureControl(myButton);\n\n// Save the bitmap to a file\nmyControlImage.Save("controlImage.png", System.Drawing.Imaging.ImageFormat.Png);

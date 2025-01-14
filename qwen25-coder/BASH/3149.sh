@@ -1,1 +1,0 @@
-sed -n 's/.*\[\(.*\)\]\..*/\1/p' inputfile.txt

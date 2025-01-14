@@ -1,1 +1,0 @@
-// Example interface from the profiling API\npublic interface ICorProfilerCallback\n{\n    HRESULT Initialize(IUnknown pICorProfilerInfoUnk);\n    void Shutdown();\n    // ... other methods ...\n    HRESULT EnterMethod(FunctionID functionID);\n    HRESULT LeaveMethod(FunctionID functionID);\n}

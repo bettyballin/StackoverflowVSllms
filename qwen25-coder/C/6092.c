@@ -1,1 +1,0 @@
-#ifdef PEDANTIC_MODE\nenum Example {\n    A,\n    B\n};\n#else\nenum Example {\n    A,\n    B,\n};\n#endif

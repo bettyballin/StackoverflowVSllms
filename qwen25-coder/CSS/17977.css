@@ -1,1 +1,0 @@
-#logo {\n    position: relative; /* or absolute if needed */\n    z-index: 10;        /* Ensure it has a higher stacking order than the background */\n}\n\nbody {\n    background-image: url('your-background-image.jpg');\n    background-repeat: no-repeat;\n    background-attachment: fixed; /* or scroll, depending on your design needs */\n}

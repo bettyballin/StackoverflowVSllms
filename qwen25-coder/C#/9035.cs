@@ -1,1 +1,0 @@
-void Application_BeginRequest(object sender, EventArgs e)\n{\n    var context = ((HttpApplication)sender).Context;\n    context.Response.Filter = new ByteCountingStream(context.Response.Filter);\n}

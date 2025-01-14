@@ -1,1 +1,0 @@
-openssl pkcs12 -export -in mycert.crt -inkey mykey.key -out keystore.p12 -name alias_name -CAfile ca_bundle.crt -caname root

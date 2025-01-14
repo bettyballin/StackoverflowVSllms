@@ -1,1 +1,0 @@
-sudo systemctl start nexus  # Example command for systemd-based distributions

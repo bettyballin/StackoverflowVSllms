@@ -1,1 +1,0 @@
-time -v ./your_program

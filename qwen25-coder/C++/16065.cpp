@@ -1,1 +1,0 @@
-for (MyMap::iterator i = m.begin(); i != m.end(); ++i) {\n    v.push_back(i->first);\n}

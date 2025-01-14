@@ -1,1 +1,0 @@
-void methodName() {\n  int i = 7;\n  for (int j = 0; j < 10; j++) {\n    int i = j * 2; // This declaration is valid and scoped to this block.\n  }\n}

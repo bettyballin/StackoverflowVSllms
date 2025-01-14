@@ -1,1 +1,0 @@
-openssl pkcs12 -export -out mycert.pfx -in temp.pem -name "mycertificate" -password pass:MySecretPassword

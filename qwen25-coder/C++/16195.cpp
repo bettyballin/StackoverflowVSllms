@@ -1,1 +1,0 @@
-int result = myFunction(); // This would cause a compilation error because myFunction() has no return type.

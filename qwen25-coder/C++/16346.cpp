@@ -1,1 +1,0 @@
-char buffer[24]; // Ensure buffer is large enough and aligned correctly\n   MyClass* obj = new(buffer) MyClass(arg1, arg2, ...);

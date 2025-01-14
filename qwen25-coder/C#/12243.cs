@@ -1,1 +1,0 @@
-public interface IMapinfoWrapper\n{\n    void OpenTable(string path);\n}\n\npublic class MapinfoWrapper : IMapinfoWrapper\n{\n    private readonly Mapinfo _mapInfo;\n\n    public MapinfoWrapper(Mapinfo mapInfo)\n    {\n        _mapInfo = mapInfo;\n    }\n\n    public void OpenTable(string path)\n    {\n        _mapInfo.Do($"OpenTable(\"{path}\")");\n    }\n}

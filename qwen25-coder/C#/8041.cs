@@ -1,1 +1,0 @@
-public class MyClass : IMyInterface\n{\n    // Press Ctrl + . on 'IMyInterface' to implement interface methods and properties\n}\n\npublic interface IMyInterface\n{\n    void MyMethod();\n    int MyProperty { get; set; }\n}

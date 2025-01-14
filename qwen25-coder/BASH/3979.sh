@@ -1,1 +1,0 @@
-svn up http://your.svn.server/repo/path

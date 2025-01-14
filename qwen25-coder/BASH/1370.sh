@@ -1,1 +1,0 @@
-gcc -g3 -o myprogram mysource.c

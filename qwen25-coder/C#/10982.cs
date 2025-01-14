@@ -1,1 +1,0 @@
-[WebMethod]\n   public static string ValidateLogin(string username, string password)\n   {\n       if (HttpContext.Current.User.Identity.IsAuthenticated)\n       {\n           // Proceed with login validation logic here\n       }\n       else\n       {\n           throw new UnauthorizedAccessException("Not logged in.");\n       }\n   }

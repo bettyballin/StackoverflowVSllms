@@ -1,1 +1,0 @@
-sudo yum install freetds-devel

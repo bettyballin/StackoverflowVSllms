@@ -1,1 +1,0 @@
-using System;\nusing IronOcr;\n\nclass Program\n{\n    static void Main()\n    {\n        var Ocr = new AutoOcr();\n        var Result = Ocr.Read("path_to_image_with_text.png");\n        \n        // Text in all languages used in image:\n        string AllText = Result.Text;\n        \n        Console.WriteLine($"Extracted Text: {AllText}");\n    }\n}

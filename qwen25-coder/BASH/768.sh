@@ -1,1 +1,0 @@
-keytool -genkey -alias myapp -keyalg RSA -keystore keystore.jks -validity 365

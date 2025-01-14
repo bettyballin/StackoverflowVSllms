@@ -1,1 +1,0 @@
-pdfgrep "search_term" input.pdf

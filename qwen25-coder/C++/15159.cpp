@@ -1,1 +1,0 @@
-[iid("YOUR-GUID-HERE"), helpstring("IYourInterface Interface"), dual, nonextensible, oleautomation]\ninterface IYourInterface : IDispatch {\n    [id(5), helpstring("Returns true if the object is in a valid state.")]\n    HRESULT IsValid([out, retval] VARIANT_BOOL* pValid);\n};

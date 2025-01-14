@@ -1,1 +1,0 @@
-uncrustify -c .uncrustify.cfg -f your_file.c -o formatted_file.c

@@ -1,1 +1,0 @@
-chmod +x /usr/local/bin/get_available_modem

@@ -1,1 +1,0 @@
-public class MyCustomObject\n   {\n       public string Property1 { get; set; }\n       public int Property2 { get; set; }\n   }

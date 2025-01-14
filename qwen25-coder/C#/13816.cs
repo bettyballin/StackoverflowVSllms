@@ -1,1 +1,0 @@
-amespace YourNamespace\n{\n    public partial class CustomLetter : LetterTemplate\n    {\n        protected void Page_Load(object sender, EventArgs e)\n        {\n            // You can set these values from a database or other sources.\n            SetPersonalInfo("John", "Doe", "123 Elm St");\n        }\n    }\n}

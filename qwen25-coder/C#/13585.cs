@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    // Disable tracing for asynchronous postbacks\n    if (ScriptManager.GetCurrent(this.Page).IsInAsyncPostBack)\n    {\n        Trace.Enabled = false;\n    }\n}

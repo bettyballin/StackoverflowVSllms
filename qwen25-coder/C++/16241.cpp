@@ -1,1 +1,0 @@
-amespace nsB {\n    void theFunctionInNsB() {\n        // Function implementation\n    }\n}

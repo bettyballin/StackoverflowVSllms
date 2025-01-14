@@ -1,1 +1,0 @@
-NSP::Admin admin;\n   NSP::Server server;

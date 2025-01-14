@@ -1,1 +1,0 @@
-# Recursive labeling for a directory\ncleartool mklabel -rec your_label_name /path/to/large/directory\n\n# Selective labeling for specific files (assuming file_list.txt contains paths of files to label)\nwhile read -r file; do\n    cleartool mklabel your_label_name "$file"\ndone < file_list.txt

@@ -1,1 +1,0 @@
-if (!System.Guid.TryParse(Request.Headers["YourHeaderName"], out Guid userId))\n{\n    // Handle the case where the Guid is not valid or not provided\n    throw new ArgumentException("Invalid GUID in request header.");\n}

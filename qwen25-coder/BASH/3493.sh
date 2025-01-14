@@ -1,1 +1,0 @@
-java -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -versio

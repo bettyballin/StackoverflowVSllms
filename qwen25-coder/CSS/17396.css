@@ -1,1 +1,0 @@
-/* Define the initial style */\n.button {\n    background-color: #4CAF50;\n    color: white;\n    padding: 15px 32px;\n    text-align: center;\n    text-decoration: none;\n    display: inline-block;\n    font-size: 16px;\n    transition: background-color 0.3s ease; /* Smooth transition */\n}\n\n/* Define the hover style */\n.button:hover {\n    background-color: #45a049;\n}

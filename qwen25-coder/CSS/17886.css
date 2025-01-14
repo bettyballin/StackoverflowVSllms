@@ -1,1 +1,0 @@
-/* CSS */\n.preload {\n    height: 1px;\n    width: 1px;\n    position: absolute;\n    bottom: 0; /* Optional: Position the div at the bottom */\n    left: 0;   /* Optional: Position the div at the left side */\n}\n\n.image-1 {\n    background-image: url('image1.jpg');\n}\n\n.image-2 {\n    background-image: url('image2.jpg');\n}

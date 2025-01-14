@@ -1,1 +1,0 @@
-ol {\n    counter-reset: my-counter 5; /* Start numbering from 6 (since counters start at 0) */\n    list-style-type: none;       /* Remove default numbering style */\n}\n\nol li {\n    counter-increment: my-counter; /* Increment the counter for each list item */\n    content: counter(my-counter) ". "; /* Display the counter value followed by a period and space */\n}

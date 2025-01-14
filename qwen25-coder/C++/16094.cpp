@@ -1,1 +1,0 @@
-#include <vector>\n#include <iostream>\n\nint main() {\n    std::vector<int> v;\n    v.reserve(10); // Allocate space for 10 integers\n    v[5] = 42;     // Out of bounds access, should trigger debug assertion\n\n    // Normally this would not be printed due to the assertion failure.\n    std::cout << "Vector element at index 5: " << v[5] << std::endl;\n\n    return 0;\n}

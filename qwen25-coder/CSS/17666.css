@@ -1,1 +1,0 @@
-.content-div::before,\n.content-div::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  width: 15px; /* Width of the border line */\n  background: linear-gradient(to bottom, #ccc 20%, transparent 40%); /* Example gradient */\n}\n\n.content-div::before {\n  left: -15px;\n}\n\n.content-div::after {\n  right: -15px;\n}

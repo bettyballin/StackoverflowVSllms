@@ -1,1 +1,0 @@
-cat /etc/hosts | grep <your_ip>

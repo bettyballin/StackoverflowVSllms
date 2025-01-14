@@ -1,1 +1,0 @@
-#include <cmath>\n#include <iostream>\n\nstd::pair<double, double> pointOnCircle(double radius, double angleDegrees, std::pair<double, double> origin = {0.0, 0.0}) {\n    double angleRadians = angleDegrees * M_PI / 180.0;\n    double x = origin.first + radius * cos(angleRadians);\n    double y = origin.second + radius * sin(angleRadians);\n    return {x, y};\n}

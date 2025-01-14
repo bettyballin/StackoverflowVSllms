@@ -1,1 +1,0 @@
-using System.Net;\n\nstring rawUrl = "http://localhost/add.aspx?id=4;req=4";\nstring encodedUrl = HttpUtility.UrlEncode(rawUrl);

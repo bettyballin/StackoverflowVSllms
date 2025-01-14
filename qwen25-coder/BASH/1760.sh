@@ -1,1 +1,0 @@
-# Open an administrative command prompt and run:\n   net stop wsearch

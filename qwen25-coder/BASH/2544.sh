@@ -1,1 +1,0 @@
-scrapy startproject my_crawler

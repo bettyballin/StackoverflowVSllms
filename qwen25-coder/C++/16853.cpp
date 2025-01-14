@@ -1,1 +1,0 @@
-void MyClass::on_item_activated(Gtk::RadioMenuItem* pItem)\n{\n    // Check if the item is actually active before taking action\n    if (pItem->get_active()) {\n        // Perform your desired action here\n        perform_action(pItem);\n    }\n}

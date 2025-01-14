@@ -1,1 +1,0 @@
-sudo apt-get install poppler-utils  # (on Ubuntu)\n       pdftotext file1.pdf file1.txt\n       pdftotext file2.pdf file2.txt

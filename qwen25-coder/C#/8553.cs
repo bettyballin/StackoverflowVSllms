@@ -1,1 +1,0 @@
-public ActionResult YourAction()\n{\n    var formResponse = new FormResponse { /* populate with data */ };\n    return new FormResponseActionResult(formResponse);\n}

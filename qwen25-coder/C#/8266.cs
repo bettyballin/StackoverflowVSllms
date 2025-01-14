@@ -1,1 +1,0 @@
-// Assuming 'myCanvas' is your Canvas and 'userControlToFront' is the UserControl you want to bring to front.\nmyCanvas.Children.Remove(userControlToFront);\nmyCanvas.Children.Add(userControlToFront);

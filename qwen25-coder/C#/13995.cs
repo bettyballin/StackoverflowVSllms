@@ -1,1 +1,0 @@
-string levelPath = "levels/level1"; // No file extension needed\n   using (StreamReader reader = new StreamReader(Content.OpenStream(levelPath)))\n   {\n       string levelData = reader.ReadToEnd();\n       // Process your level data...\n   }

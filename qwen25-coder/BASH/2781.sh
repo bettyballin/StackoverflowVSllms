@@ -1,1 +1,0 @@
-# Checkpoint the application\nsudo criu dump -p <PID>\n\n# Transfer checkpoint files (e.g., via rsync)\nrsync * root@remote_host:/path/to/restore\n\n# Restore on remote host\nssh root@remote_host 'cd /path/to/restore; sudo criu restore'

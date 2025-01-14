@@ -1,1 +1,0 @@
-# Install Xdebug via PECL (example command)\n   pecl install xdebug

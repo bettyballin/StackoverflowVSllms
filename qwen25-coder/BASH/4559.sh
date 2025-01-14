@@ -1,1 +1,0 @@
-# Using ExifTool to change orientation tag\n   exiftool -Orientation=6 input.jpg  # This sets the image orientation to 90 degrees clockwise

@@ -1,1 +1,0 @@
-// Example of a generic method in C#\npublic T DoSomething<T>(T input) {\n    // Perform some operation with 'input' which is inferred at compile time.\n    return input;\n}\n\n// Usage\nint result = DoSomething(42);\nstring message = DoSomething("Hello");

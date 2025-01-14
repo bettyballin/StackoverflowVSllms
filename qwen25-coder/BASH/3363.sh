@@ -1,1 +1,0 @@
-# Example bpftrace script (simple example)\nbpftrace -e 'uprobe:/path/to/java-binary:poll@arg1 { @count = count() }'

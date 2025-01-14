@@ -1,1 +1,0 @@
-[HttpPost]\n   [ValidateAntiForgeryToken]\n   public ActionResult Create(MyModel model)\n   {\n       // Your code here\n   }

@@ -1,1 +1,0 @@
-perl your_test_script.t\necho "Exit code: $?"

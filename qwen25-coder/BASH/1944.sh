@@ -1,1 +1,0 @@
-// Example module enabling command in drush for Drupal\n   drush en og

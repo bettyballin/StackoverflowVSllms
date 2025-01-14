@@ -1,1 +1,0 @@
-osql -S your_server_name -U your_username -P your_password -d your_database

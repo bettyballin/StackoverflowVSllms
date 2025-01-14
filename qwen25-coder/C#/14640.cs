@@ -1,1 +1,0 @@
-public class MyViewModel\n   {\n       public string SelectedOption { get; set; }\n       // Other properties if necessary\n   }

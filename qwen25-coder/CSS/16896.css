@@ -1,1 +1,0 @@
-div {\n    display: inline-block; /* or block depending on layout needs */\n    cursor: pointer;\n}\n\na {\n    display: block;\n    width: 100%;\n    height: 100%;\n    text-decoration: none; /* Removes underline from link if not needed */\n}

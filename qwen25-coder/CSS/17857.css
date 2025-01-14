@@ -1,1 +1,0 @@
-#nav {\n    display: inline;\n    font-size: 0; /* Remove whitespace */\n}\n\n#nav li {\n    display: inline-block;\n    font-size: 16px; /* Reset font size for list items */\n}

@@ -1,1 +1,0 @@
-public class Document\n{\n    public virtual int Id { get; set; }\n    public virtual string Name { get; set; }\n    public virtual byte[] Content { get; set; } // Byte array to store binary data\n}

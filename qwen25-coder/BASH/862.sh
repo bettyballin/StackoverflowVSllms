@@ -1,1 +1,0 @@
-./catalina.sh stop\n./catalina.sh start

@@ -1,1 +1,0 @@
-pip install flask-migrate\nflask db init\nflask db migrate -m "Initial migration."\nflask db upgrade

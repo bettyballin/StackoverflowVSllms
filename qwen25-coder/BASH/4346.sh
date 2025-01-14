@@ -1,1 +1,0 @@
-sudo iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 2222 -j DNAT --to-destination 192.168.1.100:22

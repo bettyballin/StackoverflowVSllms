@@ -1,1 +1,0 @@
-mvn dependency:resolve -DgroupId=org.hamcrest -DartifactId=hamcrest -Dversion=[1.0,)

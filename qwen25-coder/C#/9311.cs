@@ -1,1 +1,0 @@
-Session["name"] = "JohnDoe";\n   Session["age"] = 25;

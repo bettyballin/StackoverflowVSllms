@@ -1,1 +1,0 @@
-export LD_LIBRARY_PATH=/opt/gcc-4.8/lib64:/opt/gcc-4.8/lib:$LD_LIBRARY_PATH

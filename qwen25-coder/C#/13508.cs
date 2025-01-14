@@ -1,1 +1,0 @@
-using System;\nusing System.Net.Sockets;\nusing System.Text;\n\nstring message = "Hello";\n\n// Convert string to byte array using UTF-8 encoding\nbyte[] dataToSend = Encoding.UTF8.GetBytes(message);\n\nUdpClient udpClient = new UdpClient();\nudpClient.Send(dataToSend, dataToSend.Length, "192.168.1.100", 12345); // Change IP and port as needed

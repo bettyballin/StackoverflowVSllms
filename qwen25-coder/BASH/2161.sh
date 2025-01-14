@@ -1,1 +1,0 @@
-gcc -shared -Wl,-subsystem,windows -I"%JAVA_HOME%\include" -I"%JAVA_HOME%\include\win32" -o inpout32.dll Inpout32.cpp

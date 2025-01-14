@@ -1,1 +1,0 @@
-[WebMethod]\n   public static string GetSessionData()\n   {\n       HttpContext.Current.Session["YourSessionKey"];\n       // Return the session value as needed, e.g., converted to JSON, serialized, etc.\n       return "Value from Session";\n   }

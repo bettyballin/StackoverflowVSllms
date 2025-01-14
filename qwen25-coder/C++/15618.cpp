@@ -1,1 +1,0 @@
-// Pseudo-code for Linear Congruential Generator\nunsigned int lcg_seed = 1; // Initial seed value\n\nunsigned int lcg() {\n    // Constants often used in LCGs\n    const unsigned int a = 1664525;\n    const unsigned int c = 1013904223;\n    const unsigned int m = 4294967296;\n\n    lcg_seed = (a * lcg_seed + c) % m;\n    return lcg_seed;\n}

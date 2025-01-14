@@ -1,1 +1,0 @@
-0 * * * * /usr/sbin/nscd -i passwd && /usr/sbin/nscd -i group

@@ -1,1 +1,0 @@
-var topFeeds = (from f in db.tblFeeds\n                join s in db.tblSubscribers on f.id equals s.FeedId\n                group f by f into g\n                orderby g.Count() descending\n                select new { FeedName = g.Key.name, SubscriberCount = g.Count() })\n               .Take(5)\n               .ToList();

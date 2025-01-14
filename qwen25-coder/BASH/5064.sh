@@ -1,1 +1,0 @@
-# Install cwebp if not already installed\nsudo apt-get install webp\n\n# Convert PNG image to lossless WebP\ncwebp -lossless input.png -o output.webp

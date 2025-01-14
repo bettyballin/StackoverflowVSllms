@@ -1,1 +1,0 @@
-setfacl -m u:yourusername:--- yourfile.txt

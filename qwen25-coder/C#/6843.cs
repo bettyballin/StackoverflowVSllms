@@ -1,1 +1,0 @@
-[DllImport(@"cnOCRsdk.dll", EntryPoint = "recoCHN_P_Name", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]\n   public static extern bool recoCHN_P_Name(string imgPath, ref RECO_DATA o_data);

@@ -1,1 +1,0 @@
-# Open SSMS from command line if necessary\nsqlsms.exe -S your_server_name -d your_database_name

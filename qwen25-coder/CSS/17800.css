@@ -1,1 +1,0 @@
-.form {\n  display: flex;\n  flex-direction: column;\n}\n\n.form-row {\n  display: flex;\n  align-items: center;\n}\n\nlabel {\n  margin-right: 10px; /* Adjust space between label and input */\n  flex-shrink: 0; /* Prevent labels from shrinking */\n}\n\ninput {\n  flex-grow: 1; /* Allow inputs to grow */\n}

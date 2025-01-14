@@ -1,1 +1,0 @@
-template<class T, T initial_t> class Bar {\n  // something\n};\n\nclass Foo {};\n\nint main() {\n    Bar<Foo*, nullptr> foo_and_bar_whatever_it_means_;\n    return 0;\n}

@@ -1,1 +1,0 @@
-uxBodyTag.Attributes["onbeforeunload"] += \n    "ajaxRequest('UnlockQuery.ashx?QueryID=" + queryId.ToString() + \n    "&UserID=" + Session["UserID"].ToString() + \n    "&_t=' + new Date().getTime();";

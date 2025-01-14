@@ -1,1 +1,0 @@
-sudo tune2fs -o journal_data_writeback /dev/sda1  # Adjust the device name as necessary

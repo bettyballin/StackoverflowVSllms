@@ -1,1 +1,0 @@
-// File: main.cpp\nextern "C" void BLANK() {}  // Dummy implementation\n\nint main() {\n    BLANK();\n    return 0;\n}

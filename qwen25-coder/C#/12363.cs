@@ -1,1 +1,0 @@
-// Example of Dapper usage\n   using (var connection = new SqlConnection(connectionString))\n   {\n       var users = connection.Query<User>("SELECT * FROM Users");\n   }

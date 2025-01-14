@@ -1,1 +1,0 @@
-// Example of P/Invoke in C#\npublic class NativeMethods\n{\n    [DllImport("YourCPlusPlusDll.dll", CallingConvention = CallingConvention.Cdecl)]\n    public static extern void YourFunction(IntPtr inputData, int length);\n}

@@ -1,1 +1,0 @@
-terser My1.js -m -c --output My1.min.obfs.js

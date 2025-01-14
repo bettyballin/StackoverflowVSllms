@@ -1,1 +1,0 @@
-using System.Net.Http;\n   public async Task<string> GetResponse(string url)\n   {\n       var client = new HttpClient();\n       return await client.GetStringAsync(url);\n   }

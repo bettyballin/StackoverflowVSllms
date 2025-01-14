@@ -1,1 +1,0 @@
-public bool Authenticate(string token)\n   {\n       // Simple validation logic\n       return TokenManager.IsValidToken(token);\n   }

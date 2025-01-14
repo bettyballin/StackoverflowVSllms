@@ -1,1 +1,0 @@
-#include <iostream>\n\nint factorial(int n, int acc = 1) {\n    if (n == 0) return acc;\n    return factorial(n - 1, n * acc);\n}\n\nint main() {\n    std::cout << factorial(5) << std::endl;\n    return 0;\n}

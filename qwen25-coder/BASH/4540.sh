@@ -1,1 +1,0 @@
-# Example command for tracerouting on Windows\n   tracert example.com

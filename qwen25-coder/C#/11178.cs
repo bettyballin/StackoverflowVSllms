@@ -1,1 +1,0 @@
-using System;\n    using System.ServiceModel;\n\n    [ServiceContract]\n    public interface IAuthenticationService\n    {\n        [OperationContract]\n        string Login(string username, string password);\n    }

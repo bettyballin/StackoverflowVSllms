@@ -1,1 +1,0 @@
-SymmetricKey.Padding = PaddingMode.PKCS7; // .NET treats PKCS5 and PKCS7 the same

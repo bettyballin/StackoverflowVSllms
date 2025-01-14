@@ -1,1 +1,0 @@
-// Example of initializing FFmpeg for decoding\n   extern "C" {\n     #include "libavformat/avformat.h"\n     #include "libavcodec/avcodec.h"\n   }

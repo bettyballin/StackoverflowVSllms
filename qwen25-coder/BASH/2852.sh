@@ -1,1 +1,0 @@
-ssh -t server.com "screen -S your_session_name -dr || screen -S your_session_name"

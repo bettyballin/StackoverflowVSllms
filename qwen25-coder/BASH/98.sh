@@ -1,1 +1,0 @@
-cflow --graph main.c > graph.dot

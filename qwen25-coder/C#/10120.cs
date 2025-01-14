@@ -1,1 +1,0 @@
-[Test]\npublic void TestableMethod_Test()\n{\n#if DEBUG\n    // Call or assert something here that should only run in Debug mode\n#endif\n\n    // Generic testing logic that can be compiled always\n}

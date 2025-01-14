@@ -1,1 +1,0 @@
-// Assuming TextBox1 is one of your controls bound to BindingSource and DataSource\nTextBox1.BindingContext[TextBox1.DataSource, TextBox1.DataMember].Bindings["Text"].WriteValue();\n\n// Call this for each binding you need to ensure data is pushed back\n\n// Now update the data source\ntableAdapter.Update(dataSet.YourDataTable);

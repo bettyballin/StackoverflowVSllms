@@ -1,1 +1,0 @@
-# Install Prometheus (example for Ubuntu)\n   sudo apt-get update && sudo apt-get install prometheus

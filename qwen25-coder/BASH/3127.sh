@@ -1,1 +1,0 @@
-gcc -shared -o mydll.dll mysource.c -Wl,--kill-at

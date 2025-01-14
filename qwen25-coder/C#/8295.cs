@@ -1,1 +1,0 @@
-// DbContext class\npublic class MyDbContext : DbContext\n{\n    public DbSet<Person> People { get; set; }\n}\n\n// Entity class\npublic class Person\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n}

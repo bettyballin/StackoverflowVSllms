@@ -1,1 +1,0 @@
-choco install db-browser-for-sqlite

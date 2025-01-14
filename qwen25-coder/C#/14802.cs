@@ -1,1 +1,0 @@
-using System.Web.Mvc;\n\npublic class YourController : Controller\n{\n    [HttpPost]\n    public ActionResult Delete(int id)\n    {\n        // Implement your delete logic here\n        bool success = true; // Set this based on whether the deletion was successful\n\n        return Json(new { success });\n    }\n}

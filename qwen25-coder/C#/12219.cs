@@ -1,1 +1,0 @@
-public partial class FinancialReport : SecurePage\n{\n    protected override string GetCurrentSecurityZone()\n    {\n        return "Financials";\n    }\n\n    // Rest of your page code here\n}

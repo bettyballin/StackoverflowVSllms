@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nvoid main() {\n    void *somePtr = NULL;\n\n    // Implicit check - safe to use\n    if (!somePtr) {\n        printf("Pointer is NULL\n");\n    }\n\n    // Explicit check - also safe and clear\n    if (somePtr == NULL) {\n        printf("Pointer is explicitly checked against NULL\n");\n    }\n}

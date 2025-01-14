@@ -1,1 +1,0 @@
-objectA.Location = new Point((int)A.position, objectA.Location.Y);\n// If you have both X and Y from A.positionX and A.positionY:\n// objectA.Location = new Point((int)A.positionX, (int)A.positionY);\n\nobjectA.Refresh(); // Usually not needed unless there's some specific repaint logic

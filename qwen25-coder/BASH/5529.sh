@@ -1,1 +1,0 @@
-# Ensure pip is up-to-date\npython -m ensurepip --upgrade\n\n# Install the specific version compatible with Python 2.6 and Windows XP\npip install pypiwin32==214.0

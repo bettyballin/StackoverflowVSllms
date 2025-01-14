@@ -1,1 +1,0 @@
-// Example of storing UserId in Cache with Session ID key\n   string sessionId = Session.SessionID;\n   Cache[sessionId] = "yourUserId";

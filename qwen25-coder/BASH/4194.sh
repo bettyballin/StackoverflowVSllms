@@ -1,1 +1,0 @@
-gzip input.html  # Creates input.html.gz

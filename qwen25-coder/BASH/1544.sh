@@ -1,1 +1,0 @@
-# Open Command Prompt as Administrator and run:\n   drwtsn32 -i

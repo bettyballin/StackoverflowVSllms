@@ -1,1 +1,0 @@
-composer require mediawiki/antispoof "~0.1"

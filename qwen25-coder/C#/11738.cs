@@ -1,1 +1,0 @@
-using System.Threading.Tasks;\n\n   public async Task SendEmailsAsync(List<MailMessage> mailMessages, SmtpClient client)\n   {\n       var tasks = mailMessages.Select(mail => client.SendMailAsync(mail));\n       await Task.WhenAll(tasks);\n   }

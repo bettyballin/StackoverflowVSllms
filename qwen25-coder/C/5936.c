@@ -1,1 +1,0 @@
-_main:\n       pushl   %ebp          ; Save the base pointer (previous frame)\n       movl    %esp, %ebp      ; Set new base pointer to current stack pointer\n       subl    $8, %esp        ; Allocate 8 bytes on the stack for local variables and alignment

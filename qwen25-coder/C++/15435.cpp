@@ -1,1 +1,0 @@
-// Example usage in Gprof:\n// Compile with g++ -pg and use gprof to analyze profiling data.

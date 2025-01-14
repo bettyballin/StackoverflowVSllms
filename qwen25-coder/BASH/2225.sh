@@ -1,1 +1,0 @@
-export DB_USERNAME='your_username'\n  export DB_PASSWORD='your_password'

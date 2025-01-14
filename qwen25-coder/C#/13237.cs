@@ -1,1 +1,0 @@
-@for (int i = 0; i < Model.AllItemsForListBox1.Count; i++)\n   {\n       @Html.Hidden("AllItemsForListBox1[" + i + "]", Model.AllItemsForListBox1[i])\n   }\n   \n   <!-- Your ListBox control -->\n   @Html.ListBox("SelectedItemsInListBox1", Model.SelectedItemList, new { multiple = "multiple" })

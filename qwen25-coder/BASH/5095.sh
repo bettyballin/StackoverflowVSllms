@@ -1,1 +1,0 @@
-#!/bin/bash\n\ndirectory="X:/Windows/System32/"\nfilelist="filename_list.txt"\n\nwhile IFS= read -r file; do\n  if [ -e "$directory$file" ]; then\n    echo "File found: $directory$file"\n  else\n    echo "File not found: $directory$file"\n  fi\ndone < "$filelist"

@@ -1,1 +1,0 @@
-dotnet new webapi -n OpenSocialApiServer\n   cd OpenSocialApiServer

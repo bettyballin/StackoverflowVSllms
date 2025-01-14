@@ -1,1 +1,0 @@
-table { \n    width: 900px; \n    table-layout: fixed; \n    border-collapse: collapse; \n}\n\n.gray th, .gray td {\n    background-color: #c2c2c2;\n    word-wrap: break-word; /* Ensures long content wraps */\n}\n\n.width200 { \n    width: 200px; \n}\n\n.width50 { \n    width: 50px; \n}

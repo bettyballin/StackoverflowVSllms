@@ -1,1 +1,0 @@
-var result = from row in dc.Table\n             select new { NoWav = !SqlMethods.IsNull(row.Wav) };

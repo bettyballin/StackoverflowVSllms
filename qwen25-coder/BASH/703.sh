@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Check if the process is not running\nif ! pgrep -f "your_program_name" > /dev/null; then\n    # Restart the program\n    open -a Terminal.app --args zsh -c "/path/to/your_program &"\nfi

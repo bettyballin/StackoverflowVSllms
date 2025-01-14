@@ -1,1 +1,0 @@
-git commit -m "Temporarily commit task ABC"

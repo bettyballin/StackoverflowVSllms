@@ -1,1 +1,0 @@
-sudo apt-get install qpdf  # For Debian/Ubuntu based systems\nbrew install qpdf          # For macOS

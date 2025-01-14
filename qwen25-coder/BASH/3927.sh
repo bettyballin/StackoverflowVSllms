@@ -1,1 +1,0 @@
-sudo apt-get install nginx\n   sudo apt-get install software-properties-common\n   sudo add-apt-repository ppa:certbot/certbot\n   sudo apt-get update\n   sudo apt-get install python3-certbot-nginx\n   sudo certbot --nginx -d example.com -d www.example.com

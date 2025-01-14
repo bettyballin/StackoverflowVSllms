@@ -1,1 +1,0 @@
-// C# lock example\n   private readonly object _lock = new object();\n   \n   public void Method()\n   {\n       lock (_lock)\n       {\n           // block of code\n       }\n   }

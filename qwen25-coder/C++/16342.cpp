@@ -1,1 +1,0 @@
-#pragma pack(push, 1)\n   struct PackedData {\n       int firstInt;\n       int secondInt;\n       // ... all members\n       unsigned short* ptr; // Be cautious with pointers in packed structures\n   };\n   #pragma pack(pop)\n\n   char buffer[sizeof(PackedData)];\n   PackedData* packedObj = reinterpret_cast<PackedData*>(buffer);

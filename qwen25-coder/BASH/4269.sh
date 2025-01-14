@@ -1,1 +1,0 @@
-# Start WildFly management console\n./jboss-cli.sh --connect command=:read-resource(recursive=true,include-runtime=true)

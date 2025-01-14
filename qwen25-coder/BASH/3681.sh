@@ -1,1 +1,0 @@
-sudo chmod +x /usr/lib/jvm/j2sdk1.4.2_XX/bin/javac

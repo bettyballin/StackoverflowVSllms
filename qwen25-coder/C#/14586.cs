@@ -1,1 +1,0 @@
-using System;\nusing System.Net;\n\nclass Program {\n    static void Main() {\n        string input = "<script>alert('Hello World!');</script>";\n        string encodedString = WebUtility.HtmlEncode(input);\n        \n        Console.WriteLine(encodedString); \n        // Output: &lt;script&gt;alert(&#39;Hello World!&#39;);&lt;/script&gt;\n    }\n}

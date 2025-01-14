@@ -1,1 +1,0 @@
-taskkill /PID <PID> /F

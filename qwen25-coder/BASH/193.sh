@@ -1,1 +1,0 @@
-# Clone the repository if you haven't already\ngit clone https://github.com/example/framework.git\n\n# Navigate to the repository directory\ncd framework\n\n# Check out the main branch or the relevant one\ngit checkout main\n\n# View commit history\ngit log --oneline\n\n# Examine a specific commit\ngit show <commit-hash>

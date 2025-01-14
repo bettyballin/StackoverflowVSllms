@@ -1,1 +1,0 @@
-# Recycle Application Pool (via command line)\n   appcmd recycle apppool /apppool.name:"ReportServer$YOUR_INSTANCE_NAME"\n   \n   # Restart Reporting Services Service\n   net stop ReportServer$\n   net start ReportServer$

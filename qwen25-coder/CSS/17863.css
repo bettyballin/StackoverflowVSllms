@@ -1,1 +1,0 @@
-.thead .tr .sorted_asc .cell::after {\n    content: ' \25B2';\n}\n\n.thead .tr .sorted_des .cell::after {\n    content: ' \25BC';\n}

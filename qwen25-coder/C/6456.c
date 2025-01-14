@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nunsigned long long factorial(int n) {\n    unsigned long long result = 1;\n    for (int i = 2; i <= n; i++) {\n        result *= i;\n    }\n    return result;\n}\n\nint main() {\n    printf("Factorial of 50: %llu\n", factorial(50));\n    return 0;\n}

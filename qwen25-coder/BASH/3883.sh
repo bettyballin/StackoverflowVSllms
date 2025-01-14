@@ -1,1 +1,0 @@
-wget --proxy=on --proxy-user=user --proxy-password=password -e http_proxy=http://your.proxy.server:port http://example.com/file.zip

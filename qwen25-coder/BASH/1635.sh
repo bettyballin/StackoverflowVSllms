@@ -1,1 +1,0 @@
-# Export schema from two databases\nsqlcmd -S ServerName -d DatabaseA -Q "sp_help_revlogin" > SchemaA.sql\nsqlcmd -S ServerName -d DatabaseB -Q "sp_help_revlogin" > SchemaB.sql\n\n# Compare the two schemas\ndiff SchemaA.sql SchemaB.sql > Differences.txt

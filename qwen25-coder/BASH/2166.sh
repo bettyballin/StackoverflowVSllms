@@ -1,1 +1,0 @@
-dtrace -n 'profile-97 /arg0/ { @[execname] = count(); }'

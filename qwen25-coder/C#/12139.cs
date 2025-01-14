@@ -1,1 +1,0 @@
-using System.Configuration;\n\nstring myQuery = ConfigurationManager.AppSettings["MyQuery"];

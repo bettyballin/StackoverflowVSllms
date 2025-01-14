@@ -1,1 +1,0 @@
-#include <vector>\n#include <algorithm>\n#include <boost/bind.hpp>\n#include <boost/mem_fn.hpp>\n\nvoid foreach2(std::vector<pinfo> &pi_vec) {\n    using namespace boost;\n    for_each(pi_vec.begin(), pi_vec.end(), bind(p_map, bind(mem_fn(&pinfo::p), _1)));\n}

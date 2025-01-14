@@ -1,1 +1,0 @@
-#include <windows.h>\n\n// Replace sleep(1) with Sleep(1000)

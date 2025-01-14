@@ -1,1 +1,0 @@
-cd my_crawler/my_crawler/spiders

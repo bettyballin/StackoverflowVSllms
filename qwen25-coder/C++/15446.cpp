@@ -1,1 +1,0 @@
-interface IMyComObject : public IDispatch {\n    HRESULT get_MyProperty([out, retval] BSTR* pbstr);\n    HRESULT put_MyProperty([in] BSTR bstr);\n};

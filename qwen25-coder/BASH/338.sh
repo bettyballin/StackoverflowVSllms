@@ -1,1 +1,0 @@
-# For PyCharm or VSCode (example uses VSCode)\n# Ensure you have Python 3 installed\npython --version\n\n# Create a virtual environment (optional but recommended)\npython -m venv myenv\nsource myenv/bin/activate  # On Windows use `myenv\Scripts\activate`\n\n# Install any necessary packages\npip install some_package\n\n# Open VSCode in the project directory\ncode .

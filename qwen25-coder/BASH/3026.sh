@@ -1,1 +1,0 @@
-cat MicrosoftWindowsXPEula.txt | python3 -c "import sys; import re; print('\n'.join(re.findall(r'[“”\"'](.*?)[“”\"']", sys.stdin.read()))"

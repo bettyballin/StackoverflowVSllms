@@ -1,1 +1,0 @@
-:: Example command using MIDL for generating TLB from IDL\nmidl /tlb MyComponent.tlb MyComponent.idl\n\n:: Using Regasm to register an assembly and generate a type library file\nregasm YourAssembly.dll /tlb:YourAssembly.tlb

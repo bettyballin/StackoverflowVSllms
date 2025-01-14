@@ -1,1 +1,0 @@
-swig -php4 foo.i     # For older Zend PHP 5\n# or\nswig -php5 foo.i     # For newer versions of PHP

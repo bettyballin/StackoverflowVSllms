@@ -1,1 +1,0 @@
-// Example interface declaration\n[\n    object,\n    uuid("12345678-1234-1234-1234-1234567890AB"),\n    dual,\n    nonextensible,\n    pointer_default(unique)\n]\n__interface IExample : IDispatch\n{\n    [id(1)] HRESULT MethodOne([in] BSTR input, [out, retval] BSTR* output);\n    [id(2)] HRESULT MethodTwo([in] long param);\n};

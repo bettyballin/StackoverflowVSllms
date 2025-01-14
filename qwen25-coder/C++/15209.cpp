@@ -1,1 +1,0 @@
-static void foo() {} // Accessible only within this translation unit

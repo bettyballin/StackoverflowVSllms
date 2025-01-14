@@ -1,1 +1,0 @@
-#!/bin/bash\n\n   . ./setup_logging.sh "$0" "$1"\n\n   java CMD | tee $LOGFILE

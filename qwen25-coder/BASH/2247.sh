@@ -1,1 +1,0 @@
-sudo ufw allow 22/tcp\n   sudo ufw allow 80/tcp\n   sudo ufw allow 443/tcp

@@ -1,1 +1,0 @@
-pip install pyodbc pypdf2 win32com

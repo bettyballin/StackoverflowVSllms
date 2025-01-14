@@ -1,1 +1,0 @@
-[DllImport(@"cnOCRsdk.dll", EntryPoint = "recoCHN_P_Name", CallingConvention = CallingConvention.Cdecl)]

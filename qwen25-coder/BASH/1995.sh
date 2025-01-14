@@ -1,1 +1,0 @@
-$baseDir = "C:\path\to\code"\n(Get-ChildItem -Path $baseDir -Directory -Recurse) | ForEach-Object {\n    $env:Path += ";"+ $_.FullName\n}

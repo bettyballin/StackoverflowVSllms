@@ -1,1 +1,0 @@
-sudo nmap -Pn --top-ports=10 yourwebsite.com

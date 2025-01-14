@@ -1,1 +1,0 @@
-# Define GUID structure (assuming little-endian format)\ntype =struct _GUID {\n    ULONG Data1;\n    USHORT Data2;\n    USHORT Data3;\n    UCHAR Data4[8];\n}\n\n# Use the defined type to display the GUID at a specific address\ndt _GUID 0x<address_of_guid>

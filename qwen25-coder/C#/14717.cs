@@ -1,1 +1,0 @@
-public static void Select(IList checkRead, IList checkWrite, IList checkError, int microseconds);\n// Issues: \n// - The function destroys input lists (bad side-effect).\n// - Timeout parameter is in microseconds which limits its usability significantly.

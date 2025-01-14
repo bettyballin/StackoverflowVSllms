@@ -1,1 +1,0 @@
-# Example logging in a shell script\n   sudo bash -c 'echo "Service account used to access user data at $(date)" >> /var/log/support_access.log'

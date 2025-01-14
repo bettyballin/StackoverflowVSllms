@@ -1,1 +1,0 @@
-# SvnWebClient is PHP-based, so you need to set up your LAMP environment first\n   sudo yum install httpd php -y

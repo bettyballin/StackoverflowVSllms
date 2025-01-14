@@ -1,1 +1,0 @@
-alias ftp='echo "use sftp!!" && false'

@@ -1,1 +1,0 @@
-protected void btnChangePassword_Click(object sender, EventArgs e)\n{\n    // Your logic here\n\n    if (!Page.IsValid)\n    {\n        hfHasValidationError.Value = "true";\n    }\n}

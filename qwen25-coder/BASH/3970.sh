@@ -1,1 +1,0 @@
-# Example command for announcing in Slack using webhook\n     curl -X POST -H 'Content-type: application/json' \\n          --data '{"text":"Check out the new DataProcessor API! /repositories/common-components/tree/main"}' \\n          https://hooks.slack.com/services/your/webhook/url

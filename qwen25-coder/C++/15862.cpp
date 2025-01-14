@@ -1,1 +1,0 @@
-#include <fstream>\n  #include <string>\n\n  int main() {\n      const std::string utf8String = u8"Привет мир"; // UTF-8 encoded string\n      std::ofstream outFile("output.txt", std::ios::out | std::ios::binary);\n      if (outFile) {\n          outFile.write(utf8String.c_str(), utf8String.length()); \n          outFile.close();\n      }\n      return 0;\n  }

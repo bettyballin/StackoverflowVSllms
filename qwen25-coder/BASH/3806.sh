@@ -1,1 +1,0 @@
-curl --proxy http://your-proxy:port http://example.com

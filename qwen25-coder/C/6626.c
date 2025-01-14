@@ -1,1 +1,0 @@
-// Inside ext/standard/basic_functions.c (or another appropriate file in the same directory)\n\nPHP_FE(my_custom_function, NULL)

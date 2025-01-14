@@ -1,1 +1,0 @@
-IRevision<T> current = context.GetTable(typeof(T))\n    .Cast<IRevision<T>>()\n    .SingleOrDefault(o => o.ID == recordId);

@@ -1,1 +1,0 @@
-var criteria = session.CreateCriteria<YourEntity>();\ncriteria.AddOrder(Order.Asc(Projections.SqlProjection("case when yourProperty = 'video' then 0 else 1 end", new string[] { }, new NHibernate.NHibernateUtil.IType[] { NHibernate.NHibernateUtil.Int32.Instance })));

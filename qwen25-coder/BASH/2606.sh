@@ -1,1 +1,0 @@
-export CC="ccache gcc"

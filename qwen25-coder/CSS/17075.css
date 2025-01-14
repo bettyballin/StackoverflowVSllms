@@ -1,1 +1,0 @@
-.content-container {\n  overflow: hidden; /* Clearfix to wrap content around floated elements */\n}\n\n.image {\n  float: left;\n  margin-right: 20px;\n}\n\n.text-content {\n  overflow: hidden; /* Ensures text wraps correctly around the image */\n}

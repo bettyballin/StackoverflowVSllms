@@ -1,1 +1,0 @@
-protected void ddlPDFs_SelectedIndexChanged(object sender, EventArgs e)\n{\n    string selectedPdf = ddlPDFs.SelectedValue;\n    ClientScript.RegisterStartupScript(this.GetType(), "MyScript", $"initPDFjs('{selectedPdf}');", true);\n}

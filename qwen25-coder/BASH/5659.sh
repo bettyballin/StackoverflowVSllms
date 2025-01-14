@@ -1,1 +1,0 @@
-pm run dev # for development (with source maps and watch mode)

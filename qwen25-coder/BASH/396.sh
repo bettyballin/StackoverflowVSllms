@@ -1,1 +1,0 @@
-openssl x509 -noout -text -in complete_chain.pem

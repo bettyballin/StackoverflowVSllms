@@ -1,1 +1,0 @@
-// Example for reading integers separated by spaces\n   string[] inputValues = Console.ReadLine().Split(' ');\n   int[] numbers = Array.ConvertAll(inputValues, int.Parse);

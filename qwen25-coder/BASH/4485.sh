@@ -1,1 +1,0 @@
-python -i myscript.py  # Executes myscript.py and then enters interactive mode.

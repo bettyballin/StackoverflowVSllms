@@ -1,1 +1,0 @@
-# Example of securely deleting a file with one pass in Unix-like systems:\nshred -u -z -n 1 /path/to/file

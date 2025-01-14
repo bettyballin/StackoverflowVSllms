@@ -1,1 +1,0 @@
-# Add these lines to your .gitignore if they aren't already there\n*~\n*.bak\n\n# Generate a clean patch considering .gitignore rules\ngit diff -ruN --no-renames > mypatch.patch

@@ -1,1 +1,0 @@
-using FluentValidation;\n\npublic class ProductModelValidator : AbstractValidator<ProductModel>\n{\n    public ProductModelValidator()\n    {\n        RuleFor(product => product.Name)\n            .NotEmpty().WithMessage("Product Name is required");\n\n        RuleFor(product => product.Price)\n            .GreaterThan(0).WithMessage("Price must be greater than 0");\n    }\n}

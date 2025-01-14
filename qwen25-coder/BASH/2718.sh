@@ -1,1 +1,0 @@
-InstallUtil /u YourServiceInstaller.dll "param1=value"

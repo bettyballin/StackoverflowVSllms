@@ -1,1 +1,0 @@
-cscript %SYSTEMDRIVE%\inetpub\adminscripts\adsutil.vbs set w3svc/AspMaxRequestEntityAllowed 800000\n   cscript %SYSTEMDRIVE%\inetpub\adminscripts\adsutil.vbs set w3svc/asp/AppAllowSessionState True

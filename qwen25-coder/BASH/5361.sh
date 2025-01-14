@@ -1,1 +1,0 @@
-sudo systemctl restart apache2 # Or 'nginx' depending on your setup

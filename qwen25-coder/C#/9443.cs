@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult Create(YourModel model)\n{\n    if (ModelState.IsValid)\n    {\n        // Sanitize the input\n        model.SanitizeData();\n\n        // Save your data to the database here\n\n        return RedirectToAction("Success");\n    }\n\n    // If we got this far, something failed. Redisplay form with validation errors.\n    return View(model);\n}

@@ -1,1 +1,0 @@
-int startAngleInt = 159;\nint stopAngleInt = 355;\n\nstartAngleInt = startAngleInt ^ stopAngleInt;\nstopAngleInt = startAngleInt ^ stopAngleInt;\nstartAngleInt = startAngleInt ^ stopAngleInt;\n\n// Now, startAngleInt is 355 and stopAngleInt is 159

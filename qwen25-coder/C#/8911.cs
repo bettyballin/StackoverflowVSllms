@@ -1,1 +1,0 @@
-public class MyClass\n   {\n       public bool MyProperty { get; set; }\n   }

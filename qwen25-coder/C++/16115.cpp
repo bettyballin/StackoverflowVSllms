@@ -1,1 +1,0 @@
-// No direct code change is needed here, but you need to set this in Project Properties\n#pragma comment(lib, "LIBCMT.LIB") // This is implicitly done by setting /MT in properties

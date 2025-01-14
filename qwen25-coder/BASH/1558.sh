@@ -1,1 +1,0 @@
-@echo off\n   java -jar YourApplication.jar\n   pause

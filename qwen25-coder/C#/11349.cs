@@ -1,1 +1,0 @@
-using System;\nusing System.Runtime.Serialization;\n\n[DataContract]\npublic class LargeDataRequest\n{\n    [DataMember(Name = "data")]\n    public List<string> Data { get; set; }\n}\n\npublic interface IMyWebServices\n{\n    [OperationContract]\n    string ProcessLargeData(LargeDataRequest request);\n}

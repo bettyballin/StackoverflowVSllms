@@ -1,1 +1,0 @@
-curl -sLI http://example.com/remote/file.txt | grep 'Last-Modified'

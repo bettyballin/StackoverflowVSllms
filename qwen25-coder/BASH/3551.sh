@@ -1,1 +1,0 @@
-sort -k 2 filename | sponge filename

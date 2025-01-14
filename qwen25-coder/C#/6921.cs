@@ -1,1 +1,0 @@
-// Example to check if user is in a specific AD group\n   public bool IsUserInRole(string groupName)\n   {\n       WindowsPrincipal currentUser = new WindowsPrincipal(WindowsIdentity.GetCurrent());\n       return currentUser.IsInRole(groupName);\n   }

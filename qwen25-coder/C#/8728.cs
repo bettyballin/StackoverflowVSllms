@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        // Set visibility based on some condition\n        MyVotingPolls.Visible = false; // Hidden\n        // Or\n        MyVotingPolls.Visible = true;  // Visible\n    }\n}

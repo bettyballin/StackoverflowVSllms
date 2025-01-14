@@ -1,1 +1,0 @@
-#include <iostream>\n\nvoid exampleFunction(int x, int y) {\n    std::cout << "x: " << x << ", y: " << y << std::endl;\n}\n\nint main() {\n    auto boundFunction = [x=5, y=10](){ exampleFunction(x, y); };\n    boundFunction(); // Outputs: x: 5, y: 10\n    return 0;\n}

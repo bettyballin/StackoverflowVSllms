@@ -1,1 +1,0 @@
-#pragma optimize("", off)\n// Your problematic code or function with known issues when optimized\nvoid problematicFunction() {\n    // Code here...\n}\n#pragma optimize("", on)

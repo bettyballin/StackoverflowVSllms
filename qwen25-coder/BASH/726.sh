@@ -1,1 +1,0 @@
-# Assuming you have the PHP source code and are in its directory\ncd /path/to/php-5.2.8\n\n# Re-run the configure script if needed\n./configure --enable-maintainer-zts --enable-debug [...] # Use the same options as when compiling PHP initially\n\nmake clean  # Clean up any previous builds\nmake        # Compile php-devel\nsudo make install # Install php-devel, including phpize

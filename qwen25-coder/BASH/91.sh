@@ -1,1 +1,0 @@
-# Add root qdisc on the egress of eth0 (change 'eth0' to your network interface)\nsudo tc qdisc add dev eth0 root netem\n\n# Add 200ms latency, 12% packet loss, and corrupt 5% packets for all traffic through eth0\nsudo tc qdisc change dev eth0 root netem delay 200ms loss 12% corrupt 5%

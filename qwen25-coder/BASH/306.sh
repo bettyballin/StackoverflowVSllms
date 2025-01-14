@@ -1,1 +1,0 @@
-dotnet add package Microsoft.AspNetCore.Mvc.Core\ndotnet add package Xunit\ndotnet add package Moq

@@ -1,1 +1,0 @@
-// Storing in Session for User-Specific Data\nprotected void StoreInSession(DataTable dt, string sessionKey)\n{\n    Session[sessionKey] = dt;\n}\n\n// Example usage:\nStoreInSession(searchResultsDataTable, "UserSearchResults");

@@ -1,1 +1,0 @@
-string result = "foobar".Left(3); // result will be "foo"\nresult = "f".Left(3); // result will be "f"

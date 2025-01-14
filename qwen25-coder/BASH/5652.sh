@@ -1,1 +1,0 @@
-msbuild YourProject.csproj /p:Configuration=Release /p:DeployOnBuild=true /p:PublishProfile=FolderPublishProfile

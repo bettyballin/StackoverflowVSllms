@@ -1,1 +1,0 @@
-public interface IHost\n{\n    User UserInfo { get; set; }\n    // Add more methods/properties as needed\n}

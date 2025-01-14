@@ -1,1 +1,0 @@
-curl -I http://mydomain.com/sitemap.xml

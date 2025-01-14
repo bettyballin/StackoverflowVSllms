@@ -1,1 +1,0 @@
-svn checkout file:///c:/svnrepos/project1/trunk c:\user\work\project1

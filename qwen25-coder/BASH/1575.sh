@@ -1,1 +1,0 @@
-regsvr32 /u "path_to_your_com_library.dll"  ' unregister\n    regsvr32 "path_to_your_com_library.dll"      ' register agai

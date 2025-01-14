@@ -1,1 +1,0 @@
-gcc ... -Wl,-z,nodlopen -o main_program main.o A.so B.so libldap_r.so -L. -lclntsh

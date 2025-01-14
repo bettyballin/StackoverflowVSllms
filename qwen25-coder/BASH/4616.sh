@@ -1,1 +1,0 @@
-cat client.key > mycert.pem\n   chmod 400 mycert.pem\n   cat client.crt>> mycert.pem

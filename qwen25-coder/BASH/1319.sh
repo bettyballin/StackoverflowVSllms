@@ -1,1 +1,0 @@
-# Use encryption tools for repositories\n   git-crypt init\n   git-crypt add-key user@example.com

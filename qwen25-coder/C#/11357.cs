@@ -1,1 +1,0 @@
-using Redgate.MemoryProfiler.Api; // or using JetBrains.ProfilerApi if using dotMemory\n\n// Initialize the profiler\nProfiler.Start();\n\ntry {\n    // Your application logic here\n} finally {\n    Profiler.Stop(true, @"C:\profiler_output");\n}

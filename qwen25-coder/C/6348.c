@@ -1,1 +1,0 @@
-static inline __m128i process_data(__m128i data) {\n       // SIMD intrinsics here\n       return data;\n   }

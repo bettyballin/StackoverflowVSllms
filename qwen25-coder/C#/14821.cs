@@ -1,1 +1,0 @@
-int count = isHere ? getHereCount(index) : getAwayCount(index);

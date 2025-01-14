@@ -1,1 +1,0 @@
-if (Session["FormData"] != null)\n{\n    var formData = Session["FormData"] as dynamic;\n    Response.Write($"<script type='text/javascript'>window.onload = function() {{ document.getElementById('name').value='{formData.Name}'; document.getElementById('email').value='{formData.Email}'; }};</script>");\n}

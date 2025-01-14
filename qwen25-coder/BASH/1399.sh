@@ -1,1 +1,0 @@
--classpath {java.class.path}\;C:\path\to\your\jarfile.jar

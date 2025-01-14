@@ -1,1 +1,0 @@
-.ajax-link {\n    display: inline-block;\n    background-size: contain; /* Or specify width and height */\n    width: 50px; /* Example size for small images */\n    height: 50px;\n}\n\n.ajax-link.larger-image {\n    width: 80px; /* Example size for large images */\n    height: 80px;\n}

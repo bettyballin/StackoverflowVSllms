@@ -1,1 +1,0 @@
-input[type="text"],\ninput[type="password"] {\n    width: 100%;\n    box-sizing: border-box;\n    margin: 0;\n    padding: 5px; /* Adjust as needed */\n    border: 1px solid #ccc; /* Example border style */\n}

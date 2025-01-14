@@ -1,1 +1,0 @@
-#include "your_file.pb-c.h"\n\nvoid send_sensors_data(YourFile__Packet *packet) {\n    size_t serialized_len;\n    uint8_t *serialized = your_file__packet__get_packed_size(packet);\n    if (serialized == NULL) return;\n\n    int status = rs232_send(serialized, serialized_len); // Pseudo-code for sending via RS232\n    free(serialized);\n}

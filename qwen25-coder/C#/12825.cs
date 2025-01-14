@@ -1,1 +1,0 @@
-label.Dispose();\n   tableLayoutPanel.Controls.Remove(label);

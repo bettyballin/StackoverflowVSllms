@@ -1,1 +1,0 @@
-int i = 0;\nbool boolA = true;\n\nwhile (i < temp.Count && boolA)\n{\n    if (temp[i].Count == 1)\n    {\n        temp.RemoveAt(i);\n        temps++;\n    }\n    else\n    {\n        i++; // Only increment if an element wasn't removed\n    }\n\n    if (i >= temp.Count) boolA = false;\n}

@@ -1,1 +1,0 @@
-curl -X POST http://localhost:8080/yourapp/postExample \\n-H "Content-Type: application/json" \\n-d '{"key1":"value1", "key2":"value2"}'

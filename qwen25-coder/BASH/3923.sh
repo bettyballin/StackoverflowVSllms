@@ -1,1 +1,0 @@
-# Download and extract freetype2-2.13.0 or latest version\ntar -xzvf freetype2-2.13.0.tar.gz\ncd freetype2-2.13.0\n\n# Configure, make, install\n./configure --prefix=/usr/local\nmake\nsudo make install

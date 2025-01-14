@@ -1,1 +1,0 @@
-tlbimp yourcomlibrary.tlb /out:yourcomlibrary.dll

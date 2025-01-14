@@ -1,1 +1,0 @@
-protected override void OnModelCreating(DbModelBuilder modelBuilder)\n{\n    // Example of configuring a single column as the key\n    modelBuilder.Entity<YourEntityType>()\n        .HasKey(e => e.YourPrimaryKeyColumn);\n\n    // If you need to ignore a specific property from being mapped\n    modelBuilder.Entity<YourEntityType>()\n        .Ignore(e => e.Descr);\n}

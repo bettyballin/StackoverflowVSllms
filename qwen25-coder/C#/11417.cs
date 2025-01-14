@@ -1,1 +1,0 @@
-using System.ComponentModel.Composition;\n\n[Export(typeof(IShapeViewModel))]\npublic class CircleViewModel : IShapeViewModel {\n    // Implementation of IShapeViewModel interface\n}\n\n[Export("CircleView")]\npublic DataTemplate CircleViewDataTemplate { get; set; }

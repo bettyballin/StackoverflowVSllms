@@ -1,1 +1,0 @@
-ps aux > ps_output.txt

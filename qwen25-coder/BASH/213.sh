@@ -1,1 +1,0 @@
-g++ -x c++-header stdafx.h

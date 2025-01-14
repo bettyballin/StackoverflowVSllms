@@ -1,1 +1,0 @@
-routes.MapRoute(\n    name: "NewNote",\n    url: "Notes/New/{type}/{id}",\n    defaults: new { controller = "Notes", action = "New" },\n    constraints: new { type = new EnumRouteConstraint<DataObjectType>() }\n);

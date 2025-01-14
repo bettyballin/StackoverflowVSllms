@@ -1,1 +1,0 @@
-map --script ssl-enum-ciphers -sV example.com

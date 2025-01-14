@@ -1,1 +1,0 @@
-public class UserRepository : IUserRepository\n{\n    private readonly ISession _session;\n\n    public UserRepository(ISession session)\n    {\n        _session = session;\n    }\n\n    public User GetByID(string userID)\n    {\n        return _session.Get<User>(userID);\n    }\n}

@@ -1,1 +1,0 @@
-# On the local server\nsvnadmin create /path/to/local/repo

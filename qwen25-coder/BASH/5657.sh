@@ -1,1 +1,0 @@
-sudo apt-get install gir1.2-webkit2-4.0  # For Debian-based systems

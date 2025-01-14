@@ -1,1 +1,0 @@
-# Create the database and grant privileges if not done yet\nmysql -u root -p -e "CREATE DATABASE IF NOT EXISTS database_name; GRANT ALL PRIVILEGES ON database_name.* TO 'username'@'localhost' IDENTIFIED BY 'password'; FLUSH PRIVILEGES;"\n\n# Import the SQL dump into the existing database\nmysql -u username -p database_name < dumpfile.sql

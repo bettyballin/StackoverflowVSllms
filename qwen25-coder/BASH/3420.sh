@@ -1,1 +1,0 @@
-# Example of enabling HTTPS using Let's Encrypt with Nginx\n   sudo apt-get install certbot python3-certbot-nginx\n   sudo certbot --nginx -d example.com -d www.example.com

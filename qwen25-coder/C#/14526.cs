@@ -1,1 +1,0 @@
-[HttpPost]\n   public ActionResult MyAction(string[] AllItemsForListBox1, string[] SelectedItemsInListBox1)\n   {\n       // Now you have access to all items as well as the selected ones.\n       return View();\n   }

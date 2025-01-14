@@ -1,1 +1,0 @@
-scp user@remote_host:/path/to/remote/file /local/path/

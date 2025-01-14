@@ -1,1 +1,0 @@
-#pragma warning(push)\n     #pragma warning(disable:4505) // Disable 'unreferenced local function' warning if needed\n     void UnusedFunction() {\n         // Your code here\n     }\n     #pragma warning(pop)

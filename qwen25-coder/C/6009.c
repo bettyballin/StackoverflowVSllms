@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint main() {\n    int x = -1;\n    \n    // Example of checking (x < 0)\n    if (x < 0) {\n        printf("x is negative\n");\n    }\n    \n    // Example of checking (x == -1)\n    if (x == -1) {\n        printf("x is exactly -1\n");\n    }\n\n    return 0;\n}

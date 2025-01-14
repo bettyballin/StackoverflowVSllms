@@ -1,1 +1,0 @@
-svn commit -m "Set the correct MIME type for text files"

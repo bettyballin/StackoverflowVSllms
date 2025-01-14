@@ -1,1 +1,0 @@
-#include <iostream>\n   void* __cdecl operator new(size_t size) {\n       std::cout << "Allocating: " << size << " bytes\n";\n       return malloc(size);\n   }\n\n   void __cdecl operator delete(void* p) noexcept {\n       if (p) {\n           std::cout << "Deallocating pointer: " << p << "\n";\n           free(p);\n       }\n   }

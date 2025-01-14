@@ -1,1 +1,0 @@
-keytool -keystore mykeystore.jks -alias myserver -genkey -keyalg RSA -validity 3650

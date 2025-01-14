@@ -1,1 +1,0 @@
-dig +short mail.example.com\n     dig -x your.server.ip.address

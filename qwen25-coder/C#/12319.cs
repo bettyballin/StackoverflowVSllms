@@ -1,1 +1,0 @@
-// In C#, you might overload methods to handle similar functionality.\npublic string Greet(string name)\n{\n    return Greet(name, "Hello");\n}\n\npublic string Greet(string name, string greeting = "Hello")\n{\n    return $"{greeting}, {name}!";\n}

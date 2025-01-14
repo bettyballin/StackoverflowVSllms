@@ -1,1 +1,0 @@
-# Creating a checkpoint of the running Java JVM process\nsudo criu dump -D jvm-checkpoint-dir -p <JVM_PID>\n\n# Restoring the Java JVM process from the checkpoint\nsudo criu restore --shell-job -D jvm-checkpoint-dir

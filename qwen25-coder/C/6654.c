@@ -1,1 +1,0 @@
-// Example C code where compiler might use SIMD for vectorization\n    void add_arrays(float *a, float *b, float *result, int n) {\n        for (int i = 0; i < n; i++) {\n            result[i] = a[i] + b[i];\n        }\n    }

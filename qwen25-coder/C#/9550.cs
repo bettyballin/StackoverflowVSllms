@@ -1,1 +1,0 @@
-using System;\nusing System.Xml;\n\npublic class XPathExample {\n    public static void Main() {\n        string xmlContent = @"<root><item>Value</item></root>";\n        XmlDocument doc = new XmlDocument();\n        doc.LoadXml(xmlContent);\n        XmlNode node = doc.SelectSingleNode("/root/item");\n        Console.WriteLine(node.InnerText); // Output: Value\n    }\n}

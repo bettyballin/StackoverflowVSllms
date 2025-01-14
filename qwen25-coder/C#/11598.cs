@@ -1,1 +1,0 @@
-mapping.Bag(x => x.lines, m => \n{\n    m.Table("OrderLines");\n    m.KeyColumn("OrderId");\n}).Element("OrderLine");

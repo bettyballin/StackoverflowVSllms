@@ -1,1 +1,0 @@
-cat file_list.txt | xargs -P 10 wget --tries=5 --waitretry=10

@@ -1,1 +1,0 @@
-copy ssleay32.dll "%YOUR_APP_DIR%"\ncopy libeay32.dll "%YOUR_APP_DIR%"

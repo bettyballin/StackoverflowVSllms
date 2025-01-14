@@ -1,1 +1,0 @@
-# Enable HSTS in .htaccess or server configuration\nHeader always set Strict-Transport-Security "max-age=31536000; includeSubDomains"

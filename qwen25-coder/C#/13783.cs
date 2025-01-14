@@ -1,1 +1,0 @@
-public class LetterTemplate : System.Web.UI.Page\n{\n    protected string foreName;\n    protected string sureName;\n    protected string addressLine1;\n\n    public void SetPersonalInfo(string firstName, string lastName, string addrLine1)\n    {\n        foreName = firstName;\n        sureName = lastName;\n        addressLine1 = addrLine1;\n    }\n}

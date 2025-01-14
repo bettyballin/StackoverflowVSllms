@@ -1,1 +1,0 @@
-public class MyViewMap : ClassMap<MyViewModel>\n{\n    public MyViewMap()\n    {\n        Table("MyDatabaseView"); // Name of the view in the database\n        ReadOnly(); // Views are typically read-only\n\n        Id(x => x.Id).GeneratedBy.Native();\n        Map(x => x.SomeColumn);\n        // Add other mappings for columns in your view as needed\n    }\n}

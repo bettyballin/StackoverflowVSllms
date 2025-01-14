@@ -1,1 +1,0 @@
-[object, uuid("Your-GUID-Here"), dual, nonextensible, helpstring("IMyATL2Control Interface"), pointer_default(unique)]\n     __interface IMyATL2Control : IDispatch {\n         [id(1)] HRESULT MyMethod([in] BSTR param);\n     };

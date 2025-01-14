@@ -1,1 +1,0 @@
-@echo off\nsqlcmd -S YourServerName -d AxDWH_Central_Reporting -E -Q ^\n"EXEC sp_spaceused @updateusage = N'TRUE'" ^\n-s "," -h -1 -W | findstr /V "database_name database size P" > clean_report.txt

@@ -1,1 +1,0 @@
-chmod 644 mysqltest.php facebook.php lib.php config.php

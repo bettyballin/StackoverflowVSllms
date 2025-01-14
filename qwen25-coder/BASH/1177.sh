@@ -1,1 +1,0 @@
-etstat -anp | grep ':80'

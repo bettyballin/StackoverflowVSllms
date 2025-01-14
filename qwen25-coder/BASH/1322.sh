@@ -1,1 +1,0 @@
-cleartool mklabel -rec your_label_name path/to/directory

@@ -1,1 +1,0 @@
-expand -F:* yourtemplate.stp C:\extractedFolder

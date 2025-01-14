@@ -1,1 +1,0 @@
-# Convert .p12 to .crt and .key\nopenssl pkcs12 -in yourfile.p12 -out certificate.crt -nokeys -clcerts\nopenssl pkcs12 -in yourfile.p12 -out privatekey.key -nocerts -nodes

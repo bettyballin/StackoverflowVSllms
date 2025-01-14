@@ -1,1 +1,0 @@
-// In PluginDLL.cpp\nclass MyPluginObject : public PluginBase {\npublic:\n    static void* allocateMemory(size_t size) {\n        // Use DLL-local allocation if necessary (could be a custom allocator)\n        return ::operator new(size);\n    }\n\n    static void freeMemory(void* ptr) noexcept {\n        // Use DLL-local deallocation\n        ::operator delete(ptr);\n    }\n};

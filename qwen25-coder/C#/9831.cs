@@ -1,1 +1,0 @@
-var companyNameQuery =\n         from cust in db.Customers // Replace Customers with your actual table name\n         where cust.City == "London"\n         select cust.CompanyName;\n     \n     foreach (var customer in companyNameQuery)\n     {\n         Console.WriteLine(customer);\n     }

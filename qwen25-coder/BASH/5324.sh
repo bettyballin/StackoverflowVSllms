@@ -1,1 +1,0 @@
-"C:\Path\To\ILMerge.exe" /out:$(TargetDir)MergedWrapper.dll $(TargetPath) $(SolutionDir)API\bin\Debug\API.dll

@@ -1,1 +1,0 @@
-public class Mammal {}\n   public class Human : Mammal {}\n\n   // Prefer composition over inheritance when applicable, e.g., for adding behavior functionality.

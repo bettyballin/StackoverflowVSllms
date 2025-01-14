@@ -1,1 +1,0 @@
-public bool Foo<T>()\n{\n    if (!typeof(T).IsInterface)\n    {\n        throw new InvalidOperationException("Type argument must be an interface.");\n    }\n\n    // Your logic here\n\n    return true;\n}

@@ -1,1 +1,0 @@
-string input = Console.ReadLine();

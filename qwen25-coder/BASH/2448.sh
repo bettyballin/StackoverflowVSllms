@@ -1,1 +1,0 @@
-dir /b "C:\path\to\your\folder" > filenames.txt

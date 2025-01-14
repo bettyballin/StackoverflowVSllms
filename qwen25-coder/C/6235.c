@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nvoid print_number(int *num) {\n    printf("Number: %d\n", *num);\n}\n\nvoid foo() {\n    int stack_var = 10;\n    print_number(&stack_var); // Safe to pass the address of a local variable within its scope\n}\n\nint main() {\n    foo();\n    return 0;\n}

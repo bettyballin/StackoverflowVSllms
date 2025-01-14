@@ -1,1 +1,0 @@
-gcc -o ssl_server ssl_server.c -lssl -lcrypto

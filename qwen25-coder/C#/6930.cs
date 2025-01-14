@@ -1,1 +1,0 @@
-protected void Application_End()\n{\n    // Log the event or perform cleanup before recycling\n    System.Diagnostics.Debug.WriteLine("AppDomain is ending, likely due to changes in configuration or code.");\n}

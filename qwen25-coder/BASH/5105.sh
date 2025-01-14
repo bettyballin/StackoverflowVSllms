@@ -1,1 +1,0 @@
-# Example command for the first test measuring time in milliseconds\n$ hobbitd_rrd.sh time_test "NCV 300"

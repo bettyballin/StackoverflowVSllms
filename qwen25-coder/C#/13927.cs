@@ -1,1 +1,0 @@
-public void AddNewItem()\n{\n    var newItem = new YourTableName();\n    // Do not set newItem.YourGuidColumn here if newsequentialid() should be used.\n    _repository.Add(newItem);\n    _repository.Save();\n}

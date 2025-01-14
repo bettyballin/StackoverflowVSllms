@@ -1,1 +1,0 @@
-var permissionManager = new PermissionManager();\npermissionManager.SetPermission("AccessToMySearch", true);\nbool hasAccess = permissionManager.HasPermission("AccessToMySearch");\nConsole.WriteLine($"Has Access to My Search: {hasAccess}");

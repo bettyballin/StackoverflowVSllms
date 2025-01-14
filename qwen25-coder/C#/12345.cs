@@ -1,1 +1,0 @@
-using System.IO;\nusing System.IO.Compression;\n\npublic static void CompressFiles(string sourceDirectory, string destinationArchive)\n{\n    ZipFile.CreateFromDirectory(sourceDirectory, destinationArchive);\n}

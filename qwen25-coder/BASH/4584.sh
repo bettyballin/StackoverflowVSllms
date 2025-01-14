@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Simple script to check server status\nSERVER="your.server.com"\n\nif ping -c 1 "$SERVER" &> /dev/null\nthen\n    echo "Server $SERVER is up!"\nelse\n    echo "Server $SERVER is down!"\nfi

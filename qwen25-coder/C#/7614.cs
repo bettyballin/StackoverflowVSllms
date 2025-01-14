@@ -1,1 +1,0 @@
-int num = 2147483647; // Maximum value for a signed 32-bit integer\n    num++; // This will cause an overflow and make num equal to -2147483648

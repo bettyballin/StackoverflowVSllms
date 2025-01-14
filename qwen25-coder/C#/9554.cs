@@ -1,1 +1,0 @@
-// Example of including a script in ASP.NET page under Plumtree\nScriptManager.RegisterStartupScript(this, GetType(), "uniqueKey", "yourJSFunction();", true);

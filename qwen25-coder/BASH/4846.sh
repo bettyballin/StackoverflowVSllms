@@ -1,1 +1,0 @@
-makecab /F MyWebPart.ddf

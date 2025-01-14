@@ -1,1 +1,0 @@
-# In Apache configuration file, e.g., /etc/apache2/mods-available/userdir.conf\n   a2dismod userdir

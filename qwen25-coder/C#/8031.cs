@@ -1,1 +1,0 @@
-// Example of using authorization in ASP.NET MVC\n   [Authorize(Roles = "Admin")]\n   public ActionResult SensitiveData()\n   {\n       // action that requires admin role\n       return View();\n   }

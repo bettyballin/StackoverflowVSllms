@@ -1,1 +1,0 @@
-# Edit credentials with encryption\nEDITOR="vim" bundle exec rails credentials:edit --environment productio

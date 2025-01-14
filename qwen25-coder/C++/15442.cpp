@@ -1,1 +1,0 @@
-#include "crow_all.h"\n\nint main() {\n    crow::SimpleApp app;\n\n    CROW_ROUTE(app, "/articles")([](){\n        // Simulate fetching articles\n        std::string response = "[{ \"id\": 1, \"title\": \"First Article\" }, { \"id\": 2, \"title\": \"Second Article\" }]";\n        return response;\n    });\n\n    app.run();\n}

@@ -1,1 +1,0 @@
-scp ~/.vimrc user@remote_host:/home/user/\n   scp ~/.bash_profile user@remote_host:/home/user/

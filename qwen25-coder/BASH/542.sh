@@ -1,1 +1,0 @@
-vim -S ~/.vim/session.vim

@@ -1,1 +1,0 @@
-[AcceptVerbs(HttpVerbs.Post)]\npublic JsonResult Create(string name)\n{\n    string hash = repo.addName(name);\n    return new JsonResult()\n    {\n        Data = new { data = hash }\n    };\n}

@@ -1,1 +1,0 @@
-// In your service configuration code:\nCustomCertificateValidator customCertValidator = new CustomCertificateValidator();\nServiceHost selfHost = new ServiceHost(typeof(YourService));\nselfHost.Credentials.ClientCertificate.Authentication.CustomCertificateValidator = customCertValidator;\nselfHost.Open();

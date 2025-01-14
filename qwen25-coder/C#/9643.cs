@@ -1,1 +1,0 @@
-myGuid.ToString()

@@ -1,1 +1,0 @@
-# Example for libiconv\nbrew uninstall libiconv\nbrew install --build-bottle --bottle-arch=ppc,i386 libiconv

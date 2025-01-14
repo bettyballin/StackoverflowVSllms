@@ -1,1 +1,0 @@
-export DB_HOST=localhost\nexport DB_USER=root\nexport DB_PASS=securepassword123\nexport DB_NAME=mydatabase

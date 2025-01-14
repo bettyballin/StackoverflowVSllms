@@ -1,1 +1,0 @@
-svn propset svn:mime-type "text/plain; charset=UTF-8" filename

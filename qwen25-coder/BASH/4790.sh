@@ -1,1 +1,0 @@
-cloc $(cat sources.txt)

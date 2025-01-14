@@ -1,1 +1,0 @@
-# Hashing two different files using SHA-256:\nsha256sum fileA.txt > hashA.sha256\nsha256sum fileB.txt > hashB.sha256\n\n# Compare the hash outputs:\ncmp hashA.sha256 hashB.sha256 && echo "Hashes are identical" || echo "Hashes differ"

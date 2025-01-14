@@ -1,1 +1,0 @@
-gcc example.c -o example `pkg-config --cflags NOTIFY` `pkg-config --libs notify`

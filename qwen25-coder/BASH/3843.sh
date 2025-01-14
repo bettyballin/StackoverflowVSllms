@@ -1,1 +1,0 @@
-svn list -R <repository_url>

@@ -1,1 +1,0 @@
-// Import mscorlib.tlb to resolve .NET base type issues\n#import <mscorlib.tlb>\n\n// Import your specific .NET assembly TLB, excluding auto-generated interface types if needed\n#import "server.tlb" raw_interfaces_only no_namespace exclude("GetType", "_TypePtr")

@@ -1,1 +1,0 @@
-composer require slim/slim "^4.0"

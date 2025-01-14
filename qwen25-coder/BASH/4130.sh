@@ -1,1 +1,0 @@
-wsadmin.sh -lang jython -c "print AdminTask.listSSLConfig([ 'AdminDefaultContext' ])"

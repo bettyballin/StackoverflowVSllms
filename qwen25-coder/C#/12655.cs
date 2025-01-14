@@ -1,1 +1,0 @@
-[DllImport("pk2.dll")]\npublic static extern bool OpenA(string path);\n\nif (OpenA(@"E:\asdasd\"))\n{\n    // Your logic here\n}

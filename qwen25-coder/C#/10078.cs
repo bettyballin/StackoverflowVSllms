@@ -1,1 +1,0 @@
-public DropDownList YourDropDown { get; set; }\n\nprotected void Page_Load(object sender, EventArgs e)\n{\n    // Initialize your control if necessary.\n    this.YourDropDown = this.FindControl("YourDropDown") as DropDownList;\n}

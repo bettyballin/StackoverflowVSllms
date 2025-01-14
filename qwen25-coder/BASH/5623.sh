@@ -1,1 +1,0 @@
-sudo chmod g+rx /path/to/your/httpdocs

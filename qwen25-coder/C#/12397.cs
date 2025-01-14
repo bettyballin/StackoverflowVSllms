@@ -1,1 +1,0 @@
-public void SetCellDataAndStyle(int row, int col, object value, DataGridViewCellStyle style)\n     {\n         virtualGrid.SetCellValue(row, col, value);\n         virtualGrid.ApplyCellStyle(row, col, style);\n     }

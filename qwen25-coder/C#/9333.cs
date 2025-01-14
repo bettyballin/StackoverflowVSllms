@@ -1,1 +1,0 @@
-// Example Controller in an ASP.NET MVC / Core project\nusing Microsoft.AspNetCore.Mvc;\n\n[ApiController]\n[Route("api/[controller]")]\npublic class ItemsController : ControllerBase\n{\n    [HttpGet]\n    public IEnumerable<string> Get()\n    {\n        return new string[] { "Item1", "Item2" };\n    }\n}

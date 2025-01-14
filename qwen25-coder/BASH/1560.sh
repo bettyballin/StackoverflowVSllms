@@ -1,1 +1,0 @@
-SQLCMD -S ServerName -d msdb -U Username -P Password -i path\to\jobs_script.sql

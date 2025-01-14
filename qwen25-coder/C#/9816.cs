@@ -1,1 +1,0 @@
-protected void DropDownList1_ItemDataBound(object sender, ListItemEventArgs e)\n{\n    // Append four non-breaking spaces before the existing text\n    e.Item.Text = "    " + e.Item.Text;\n}

@@ -1,1 +1,0 @@
-# Ensure MySQL server is stopped before running this script.\nsudo systemctl stop mysql\n\n# Define backup directory\nBACKUP_DIR="/safe/backup/location"\n\n# Create backup of InnoDB database data and configuration\nsudo rsync -av --delete /var/lib/mysql/ $BACKUP_DIR/mysql-data/\nsudo cp /etc/my.cnf $BACKUP_DIR/\n\n# Restart MySQL server (if needed)\nsudo systemctl start mysql

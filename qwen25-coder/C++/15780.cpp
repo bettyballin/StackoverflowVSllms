@@ -1,1 +1,0 @@
-#include <iostream>\n\nint main() {\n    std::string str = "Hello";\n    const char* cstr = "World";\n    int number = 42;\n\n    std::string result = FORMAT(str << ", " << cstr << "! Number is: " << number);\n    std::cout << result << std::endl; // Output: Hello, World! Number is: 42\n\n    return 0;\n}

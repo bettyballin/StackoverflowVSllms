@@ -1,1 +1,0 @@
-/usr/local/bin/php /home/yourusername/public_html/check.php

@@ -1,1 +1,0 @@
-using (SqlCommand cmd = new SqlCommand("usp_AddProduct", conn))\n   {\n       cmd.CommandType = CommandType.StoredProcedure;\n       cmd.Parameters.AddWithValue("@ProductName", productName);\n       // Add other parameters...\n       cmd.ExecuteNonQuery();\n   }

@@ -1,1 +1,0 @@
-# Start capturing packets with Wireshark (you might need sudo)\nsudo wireshark

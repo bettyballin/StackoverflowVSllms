@@ -1,1 +1,0 @@
-html, body {\n    height: 100%;\n    margin: 0;\n    padding: 0;\n}\n\ndiv#myId {\n    background-color: #3070cf;\n    position: absolute;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n}

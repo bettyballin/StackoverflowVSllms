@@ -1,1 +1,0 @@
-# Install VSCode extensions to enhance your development experience\ncode --install-extension ms-vscode.codedotnet\ncode --install-extension dbaeumer.vscode-eslint

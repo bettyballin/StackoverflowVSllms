@@ -1,1 +1,0 @@
-pp -o myscript.exe myscript.pl

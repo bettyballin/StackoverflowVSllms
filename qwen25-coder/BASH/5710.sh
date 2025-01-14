@@ -1,1 +1,0 @@
-sudo cryptsetup luksFormat /path/to/your/datafile.img

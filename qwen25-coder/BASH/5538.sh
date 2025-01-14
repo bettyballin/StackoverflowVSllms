@@ -1,1 +1,0 @@
-kill -SIGTERM <PID>  # Graceful shutdown\nkill -SIGKILL <PID>  # Forceful shutdow

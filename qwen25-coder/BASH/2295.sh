@@ -1,1 +1,0 @@
-fc /B SiteConfigOnServer1.xml SiteConfigOnServer2.xml

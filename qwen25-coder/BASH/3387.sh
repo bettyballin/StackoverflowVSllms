@@ -1,1 +1,0 @@
-#!/bin/bash\n# /usr/local/bin/get_available_modem\nfor device in ttyUSB0 ttyUSB1 ttyUSB2; do\n    if ! test -e "/var/lock/LCK..$device"; then\n        echo "Found free modem: $device"\n        exec chat -v -f /etc/chatscripts/dialup $device\n        exit 0\n    fi\ndone\necho "No modems available."\nexit 1

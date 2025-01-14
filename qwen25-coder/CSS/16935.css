@@ -1,1 +1,0 @@
-.vertical-text-wrapper {\n    display: inline-block; /* Ensures that inline-block does not affect other content */\n    overflow: visible;     /* Prevent hidden text due to rotation */\n}

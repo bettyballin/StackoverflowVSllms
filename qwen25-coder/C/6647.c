@@ -1,1 +1,0 @@
-#include <fcntl.h>\n#include <sys/stat.h>\n\nint main() {\n    const char *fileName = "/tmp/myfile";\n    int fd = open(fileName, O_CREAT|O_RDWR, 0777);\n    if (fd == -1) {\n        perror("Error opening file");\n        return 1;\n    }\n    close(fd);\n    return 0;\n}

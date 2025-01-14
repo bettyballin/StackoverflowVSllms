@@ -1,1 +1,0 @@
-sqlcmd -S .\SQLEXPRESS -Q "SELECT @@version;"

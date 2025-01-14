@@ -1,1 +1,0 @@
-#!/bin/bash\n    # /usr/local/bin/myscript.sh\n    echo "Running as root"

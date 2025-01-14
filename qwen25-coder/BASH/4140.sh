@@ -1,1 +1,0 @@
-# Add PHP buildpack on Heroku\n    heroku buildpacks:add https://github.com/heroku/php-buildpack.git\n\n    # Add Ruby buildpack if you decide to switch later\n    heroku buildpacks:add ruby --index 1

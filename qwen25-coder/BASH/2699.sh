@@ -1,1 +1,0 @@
-# Using curl to send a request through an HTTP proxy\n   curl --proxy http://your_proxy_server:your_proxy_port http://your_target_url

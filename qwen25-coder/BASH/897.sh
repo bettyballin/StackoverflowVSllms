@@ -1,1 +1,0 @@
-XCOPY C:\Path\To\Data D:\Backup /E /H /C /I /Y

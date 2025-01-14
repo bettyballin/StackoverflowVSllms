@@ -1,1 +1,0 @@
-perf stat -e instr:add your_program

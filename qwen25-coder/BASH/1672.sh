@@ -1,1 +1,0 @@
-java -cp @classpath.txt com.example.MainClass

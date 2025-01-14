@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <string.h>\n\nint main() {\n    char str1[50] = "Hello";\n    const char str2[] = "World";\n\n    // Concatenate at most 45 characters from str2 to str1 (ensuring null termination)\n    strncat(str1, str2, sizeof(str1) - strlen(str1) - 1);\n\n    printf("Concatenated String: %s\n", str1);\n    return 0;\n}

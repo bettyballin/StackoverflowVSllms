@@ -1,1 +1,0 @@
-XmlDocument xmldoc = new XmlDocument();\nstring text = "Hello, I am text α \u00A0 – —"; // Use Unicode escape sequences\nxmldoc.InnerXml = "<p>" + SecurityElement.Escape(text) + "</p>";

@@ -1,1 +1,0 @@
-public ActionResult SomePage()\n{\n    if (Request.IsAjaxRequest())\n    {\n        return PartialView("_SomePartialView");\n    }\n\n    return View();\n}

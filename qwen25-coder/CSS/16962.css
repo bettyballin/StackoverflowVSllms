@@ -1,1 +1,0 @@
-.body_content > :not(p) ~ p:first-of-type {\n    font-size: 18px; /* Example style */\n}

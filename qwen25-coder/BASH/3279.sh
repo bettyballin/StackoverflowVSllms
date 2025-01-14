@@ -1,1 +1,0 @@
-httpd.exe -k install\n     net start apache2.2

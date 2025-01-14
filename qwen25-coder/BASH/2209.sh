@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Transform patch from -p0 to -p1 by adjusting the paths\nsed -e 's|^--- .*/\(.*\)|--- a/\1|' \\n    -e 's|^+++ .*/\(.*\)|+++ b/\1|' \\n    input.patch > output-p1.patch

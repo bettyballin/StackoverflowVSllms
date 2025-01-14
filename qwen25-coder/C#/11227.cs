@@ -1,1 +1,0 @@
-public class YourController : Controller\n{\n    [HttpGet] // Ensure this attribute is present\n    public ActionResult YourAction(string param1)\n    {\n        return Content("Data from server");\n    }\n}

@@ -1,1 +1,0 @@
-signtool sign /v /n "Your Company Name" /t http://timestamp.digicert.com driver.sys

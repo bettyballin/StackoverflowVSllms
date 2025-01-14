@@ -1,1 +1,0 @@
-# Install necessary tools (Linux example)\nsudo apt-get install linux-tools-common linux-tools-generic linux-tools-`uname -r`\nperf record --all-user -g sleep 60\nperf script | stackcollapse-perf.pl | flamegraph.pl > out.svg

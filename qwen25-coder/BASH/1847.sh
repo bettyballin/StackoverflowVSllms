@@ -1,1 +1,0 @@
-# Import WebAdministration module\nImport-Module WebAdministration\n\n# Create a new application pool\nNew-WebAppPool -Name "MyDedicatedAppPool"\n\n# Set specific properties if needed\nSet-ItemProperty IIS:\AppPools\MyDedicatedAppPool -name "managedRuntimeVersion" -value "v4.0"

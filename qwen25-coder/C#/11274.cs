@@ -1,1 +1,0 @@
-DbParameter datePrm = updateStmt.CreateParameter();\ndatePrm.ParameterName = "@change_date";\ndatePrm.Value = nullableDate ?? (object)DBNull.Value;

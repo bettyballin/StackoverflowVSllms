@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        DataBind();\n    }\n}\n\npublic string GetResourceText()\n{\n    return Resources.res.Button_Text;\n}

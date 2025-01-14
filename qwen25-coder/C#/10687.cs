@@ -1,1 +1,0 @@
-// Instead of using Session["Cart"], use:\nSessionHelper.SetSessionValue("Cart", myCartObject);\nvar myCartObject = SessionHelper.GetSessionValue("Cart");

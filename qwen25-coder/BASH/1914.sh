@@ -1,1 +1,0 @@
-# Install DoPDF via Chocolatey (if using Windows with Chocolatey installed)\n   choco install dopdf-free-pdf-converter

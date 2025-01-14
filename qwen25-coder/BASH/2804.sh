@@ -1,1 +1,0 @@
-# Using net user command on Windows Server Command Prompt\nnet user <NewServiceAccountName> NewPassword123! /add\n\n# Add to necessary groups\nnet localgroup Administrators <NewServiceAccountName> /add\n\n# Apply this account for your ASP.NET application pool in IIS

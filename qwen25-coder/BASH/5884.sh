@@ -1,1 +1,0 @@
-valgrind --tool=memcheck --trace-children=yes ./z

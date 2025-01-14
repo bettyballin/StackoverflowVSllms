@@ -1,1 +1,0 @@
-// In C#, add reference to VB.NET class library project:\nusing MyVBNamespace;\n\npublic class CSharpClass\n{\n    public void SomeMethod()\n    {\n        VBClass vbInstance = new VBClass();\n        // Perform operations using vbInstance if needed\n    }\n}

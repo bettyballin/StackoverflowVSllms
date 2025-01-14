@@ -1,1 +1,0 @@
-using System;\n\npublic class Example\n{\n    private Lazy<string> _computedStuff = new Lazy<string>(() => ComputeIntensiveTask());\n\n    public string GetComputedStuff()\n    {\n        return _computedStuff.Value;\n    }\n\n    private static string ComputeIntensiveTask()\n    {\n        // Simulate a long computation\n        return "Expensive Computation Result";\n    }\n}

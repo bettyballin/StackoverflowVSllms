@@ -1,1 +1,0 @@
-// Example in an MVC Controller\n[HttpPost]\npublic ActionResult KeepSessionAlive()\n{\n    // This call will simply reset the session timeout if it's still valid\n    return Json(new { success = true });\n}

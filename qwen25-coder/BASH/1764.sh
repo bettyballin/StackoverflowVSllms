@@ -1,1 +1,0 @@
-wevtutil qe "C:\Path\To\LogFile.evtx" /f:text > output.txt

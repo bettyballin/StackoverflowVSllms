@@ -1,1 +1,0 @@
-unison /home/ME ssh://server.domain//home/ME -batch -prefer newer

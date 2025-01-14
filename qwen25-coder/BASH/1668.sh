@@ -1,1 +1,0 @@
-rpm -ivh glibc-devel-*.rpm binutils-*.rpm make-*.rpm

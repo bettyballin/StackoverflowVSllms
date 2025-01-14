@@ -1,1 +1,0 @@
-string mystring = "hello world";\nAction testit = new Action(delegate { string aString = "in anon method"; Debug.WriteLine(aString); });\ntestit();\n\n// Capture mystring. Is this still a closure?\nAction testit2 = new Action(delegate { Debug.WriteLine(mystring); });\n// mystring is still in scope\ntestit2();

@@ -1,1 +1,0 @@
-# To start JConsole from the command line\n   jconsole <pid>\n   \n   # Or attach to a remote application via JMX\n   jconsole <hostname>:<port>

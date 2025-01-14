@@ -1,1 +1,0 @@
-// In your ActiveX control C++ code (example)\nSTDMETHODIMP MyActiveXControl::GetVersion(BSTR* pVersion) {\n    if (!pVersion) return E_POINTER; // Check for null pointer\n    *pVersion = SysAllocString(L"1.2.3"); // Replace with actual version string\n    return S_OK;\n}

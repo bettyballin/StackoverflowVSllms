@@ -1,1 +1,0 @@
-msiexec /i vssdk.msi ADDLOCAL=FeatureName /quiet

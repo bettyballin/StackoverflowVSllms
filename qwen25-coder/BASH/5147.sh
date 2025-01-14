@@ -1,1 +1,0 @@
-cppcheck --std=c99 --enable=style,performance,portability,deprecated myprogram.c

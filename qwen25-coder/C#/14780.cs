@@ -1,1 +1,0 @@
-public void InsertData(SqlConnection conn, string query) {\n       SqlCommand cmd = new SqlCommand(query, conn);\n       conn.Open();\n       cmd.ExecuteNonQuery();\n       conn.Close();\n   }

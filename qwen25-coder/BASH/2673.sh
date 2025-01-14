@@ -1,1 +1,0 @@
-gcc -D'include <some/file.h>=' -include new/header.h your_source_file.c

@@ -1,1 +1,0 @@
-private void Button_Click(object sender, RoutedEventArgs e)\n{\n    // Assuming similar structure as WinForms example\n    var result = BusinessLogic.DoWork(inputTextBox.Text);\n    resultLabel.Content = "Result: " + result;\n}

@@ -1,1 +1,0 @@
-// Check if it's a synth (instrument)\n     bool isSynth = (effect->flags & effFlagsIsSynth) != 0;\n\n     // Check if it's an effect\n     bool isFx = !isSynth; // Simplified check, may need further refinement based on other flags and processing requirements.

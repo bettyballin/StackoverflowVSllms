@@ -1,1 +1,0 @@
-// Example: O(n^2 + n) vs O(10n^2)\n   public int inefficient(int[] array) {\n       int sum = 0;\n       for (int i : array) sum += i * i; // n^2 term\n       for (int i : array) sum += i;     // n term\n       return sum;\n   }\n\n   public int efficient(int[] array) {\n       int sum = 0;\n       for (int i : array) sum += 10 * i * i; // 10n^2 term\n       return sum;\n   }

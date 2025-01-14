@@ -1,1 +1,0 @@
-sudo umount -li /path/to/cifs/mountpoint

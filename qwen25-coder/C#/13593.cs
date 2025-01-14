@@ -1,1 +1,0 @@
-public class ValidationException : Exception {\n    public List<string> Errors { get; }\n\n    public ValidationException(List<string> errors) {\n        Errors = errors;\n    }\n}

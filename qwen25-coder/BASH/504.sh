@@ -1,1 +1,0 @@
-gacutil -i "C:\Path\To\Your\mydll.dll"

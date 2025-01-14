@@ -1,1 +1,0 @@
-DateTime dateTime = new DateTime(2009, 4, 1, 8, 0, 0); // Example datetime\nDateTime justTheDate = dateTime.Date; // Extracts the date part\n\nConsole.WriteLine(justTheDate.ToString("M/d/yyyy")); // Outputs: 4/1/2009

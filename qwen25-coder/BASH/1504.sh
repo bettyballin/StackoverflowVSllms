@@ -1,1 +1,0 @@
-cscript.exe adsutil.vbs get /MSFTPSVC/PassivePortRange

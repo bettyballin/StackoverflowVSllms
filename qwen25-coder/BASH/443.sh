@@ -1,1 +1,0 @@
-# Compile with coverage enabled\ng++ -fprofile-arcs -ftest-coverage your_source.cpp -o your_program\n\n# Run the program\n./your_program\n\n# Generate coverage report\ngcovr -r .\n\n# For branch coverage specifically, you might need:\ngcov --branch-probabilities your_source.gcda

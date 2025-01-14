@@ -1,1 +1,0 @@
-./zap.sh -cmd -quickurl https://yourwebsite.com/ -quickout /path/to/report.html

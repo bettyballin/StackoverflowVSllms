@@ -1,1 +1,0 @@
-#!/bin/bash\n   svn update /path/to/deploy\n   systemctl reload php-fpm

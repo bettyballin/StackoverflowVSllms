@@ -1,1 +1,0 @@
-# From your web directory\nln -s /path/to/your/project/web/frontend/assets frontend/assets\nln -s /path/to/your/project/web/backend/assets backend/assets

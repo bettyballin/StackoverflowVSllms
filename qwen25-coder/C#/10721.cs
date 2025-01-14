@@ -1,1 +1,0 @@
-text.Sort(); // Sorts the list elements based on their values\n   text.Reverse(); // Reverses the order of all elements

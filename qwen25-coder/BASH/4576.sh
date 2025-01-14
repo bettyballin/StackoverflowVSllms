@@ -1,1 +1,0 @@
-# Create a gzip compressed tarball\ntar -czvf archive.tar.gz /path/to/directory

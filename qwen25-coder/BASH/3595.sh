@@ -1,1 +1,0 @@
-#!/bin/bash\n\n   for i in {2..22}; do\n       curl --interface lo:$((i-2)) http://127.0.0.1/\n       sleep 1  # Adjust sleep duration as necessary\n   done

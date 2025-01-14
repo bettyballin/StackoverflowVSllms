@@ -1,1 +1,0 @@
-PASSWORD=$(security find-generic-password -a <Account> -s "<Service Name>" -w)\n     hdiutil attach ~/Documents/EncryptedVolume.sparsebundle -stdinpass <<EOF\n     $PASSWORD\n     EOF

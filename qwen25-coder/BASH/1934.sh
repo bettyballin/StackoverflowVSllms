@@ -1,1 +1,0 @@
-o conf urllist push http://cpan.perl.org/

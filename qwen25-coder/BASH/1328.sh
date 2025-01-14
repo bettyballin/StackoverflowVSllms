@@ -1,1 +1,0 @@
-grep -G 'defn -test.*' OctaneFullTest.clj | sed 's/^\(.\{N\}\).*/\1/'

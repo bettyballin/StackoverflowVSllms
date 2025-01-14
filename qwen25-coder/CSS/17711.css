@@ -1,1 +1,0 @@
-td.workloadcell {\n    background-color: #E6D7E9;\n    padding: 0px;\n    width: 14px;\n    height: 16px;\n    text-align: right; /* Align text in the cell */\n}\n\ndiv.workload {\n    background-color: #E6D7E9; /* Ensure this doesn't overlap with cell */\n    display: inline-block; /* IE7 needs this for proper float behavior */\n    zoom: 1; /* Trigger hasLayout in IE7 */\n}

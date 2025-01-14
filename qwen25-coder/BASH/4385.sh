@@ -1,1 +1,0 @@
-sed '/xxxx/{\n    x; # Swap hold and pattern space\n    /./!d; # If nothing in hold space, delete the line\n    H; # Append to hold space\n    g; # Get from hold space\n    s/\n.*\nyyyy\nxxxx\nzzzz//;\n    h; # Put back to hold space\n}'

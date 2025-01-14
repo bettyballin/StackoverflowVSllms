@@ -1,1 +1,0 @@
-#include <iostream>\n\nclass A {\npublic: \n    explicit A(int x) {}\n};\n\nclass B : public A {\npublic:\n    // Inheriting the constructor from A\n    using A::A;\n};\n\nint main(void) {\n    B *b = new B(5);\n    delete b;\n}

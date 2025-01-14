@@ -1,1 +1,0 @@
-/* Target all help texts */\n.comment .helpText {\n  color: blue;\n}\n\n/* Target a specific comment's help text */\n#comment1 .helpText {\n  font-weight: bold;\n}

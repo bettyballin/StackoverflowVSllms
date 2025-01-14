@@ -1,1 +1,0 @@
-using System;\nusing System.Collections.Generic;\n\npublic class Example\n{\n    public static void Main()\n    {\n        List<string> items = new List<string> { "apple", "banana", "cherry" };\n\n        foreach (string item in items)\n        {\n            Console.WriteLine(item);\n        }\n    }\n}

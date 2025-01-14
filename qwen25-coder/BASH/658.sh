@@ -1,1 +1,0 @@
-:: Set the physical path of Default Web Site using AppCmd\nappcmd set site /site.name:"Default Web Site" /physicalPath:C:\NewPath

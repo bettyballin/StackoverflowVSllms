@@ -1,1 +1,0 @@
-var groupedKeys = keys.GroupBy(key => key.Last())\n                     .Select(group => group.ToList())\n                     .ToList();

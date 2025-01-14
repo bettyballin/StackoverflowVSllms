@@ -1,1 +1,0 @@
-mex wrap.cpp -I/path/to/ipp/include -L/path/to/ipp/lib -lippiw64mt -lopencv_core

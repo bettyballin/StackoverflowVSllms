@@ -1,1 +1,0 @@
-# After linking a GitHub or GitLab repo to Netlify:\n   # Add any JavaScript files as needed in your project folder\n   echo "console.log('Hello World!');" > index.js\n   # Commit and push the changes\n   git add index.js\n   git commit -m "Add index.js"\n   git push origin mai

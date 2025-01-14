@@ -1,1 +1,0 @@
-SPSecurity.RunWithElevatedPrivileges(delegate()\n   {\n       // Your code that accesses remote file here\n       using (FileStream fs = File.Create(@"\\servername\sharename\folder\file.txt"))\n       {\n           // Your file operations\n       }\n   });

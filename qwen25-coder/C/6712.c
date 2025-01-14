@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint isPowerOfTwo(int x) {\n    return (x != 0) && ((x & (x - 1)) == 0);\n}\n\nint main() {\n    int number = 5;\n    printf("Is %d a power of two? %s\n", number, isPowerOfTwo(number) ? "Yes" : "No");\n\n    number = 4;\n    printf("Is %d a power of two? %s\n", number, isPowerOfTwo(number) ? "Yes" : "No");\n\n    return 0;\n}

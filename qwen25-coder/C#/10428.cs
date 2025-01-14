@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\n\npublic static class FileSystemHelper\n{\n    public static bool PathIsFile(this string fullPath)\n    {\n        return File.Exists(fullPath);\n    }\n\n    public static bool PathIsDirectory(this string fullPath)\n    {\n        return Directory.Exists(fullPath);\n    }\n}

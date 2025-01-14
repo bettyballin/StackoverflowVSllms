@@ -1,1 +1,0 @@
-BINS=file1 file2 file3\n\n# Default target that builds all binaries\nall: $(BINS)\n\n# Clean target to remove build artifacts\nclean:\n        rm -f $(BINS) *~\n\n# Common rule to build each binary from its corresponding C source file\n$*: $@.c\n        gcc -g -o $@ $?

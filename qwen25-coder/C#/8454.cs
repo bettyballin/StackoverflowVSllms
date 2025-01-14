@@ -1,1 +1,0 @@
-public const uint SIF_GENERAL = 0x08000000;\npublic const uint SIF_CONFIGURATION = 0x08010000;\npublic const uint SIF_ARCHIVE = 0x08020000;\npublic const uint SIF_SEARCH = 0x08030000;\npublic const uint SIF_REPLAY = 0x08040000;\npublic const uint SIF_STATISTICS = 0x08050000;\npublic const uint SIF_ENGINEER = 0x08060000;

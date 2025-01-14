@@ -1,1 +1,0 @@
-#include <fcntl.h>\n#include <unistd.h>\n#include <sys/mman.h>\n\nint theFile = open(sharedFileName, O_RDWR);\nif (theFile == -1) {\n    // Handle error\n}\n\nvoid* sharedArea = mmap(NULL, fileSize, PROT_READ | PROT_WRITE, MAP_SHARED, theFile, 0);\nif (sharedArea == MAP_FAILED) {\n    // Handle error\n}

@@ -1,1 +1,0 @@
-# Use version control to check out the exact code used that day.\n   git checkout <commit-hash>\n   \n   # Rebuild using MSBuild or Visual Studio ensuring release configuration.\n   msbuild /property:Configuration=Release

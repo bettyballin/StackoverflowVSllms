@@ -1,1 +1,0 @@
-"C:\Program Files\MySQL\MySQL Server X.X\bin\mysql.exe" -u username -p'yourpassword' your_database_name -e "CALL UpdateReportingPeriods();"

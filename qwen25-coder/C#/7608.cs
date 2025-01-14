@@ -1,1 +1,0 @@
-// Example of logging to a SQL table (simplified)\nusing (SqlConnection conn = new SqlConnection("your_connection_string"))\n{\n    SqlCommand command = new SqlCommand("INSERT INTO StatusLog (StatusText) VALUES (@status)", conn);\n    command.Parameters.AddWithValue("@status", "Service is running");\n    conn.Open();\n    command.ExecuteNonQuery();\n}

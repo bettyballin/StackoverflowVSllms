@@ -1,1 +1,0 @@
-.popup-container {\n    /* Ensure the container itself doesn't overflow */\n    overflow: hidden;\n    /* Optional: set a max-width if you want it */\n    max-width: 100%;\n}\n\n.table-cell-with-image img {\n    /* Make sure images inside this specific cell are responsive */\n    max-width: 100%;\n    height: auto; /* Maintain aspect ratio */\n}

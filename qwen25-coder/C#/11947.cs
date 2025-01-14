@@ -1,1 +1,0 @@
-using (var db = new LogEntities())\n{\n    // Execute the SQL query that fetches the next value from the sequence\n    var nextValue = db.Database.SqlQuery<int>("SELECT AUDITLOG.EVENTID_SEQ.NEXTVAL FROM SYSIBM.SYSDUMMY1").FirstOrDefault();\n\n    Console.WriteLine("Next Sequence Value: " + nextValue);\n}

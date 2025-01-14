@@ -1,1 +1,0 @@
-csslint yourfile.css

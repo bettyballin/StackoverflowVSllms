@@ -1,1 +1,0 @@
-#include <iostream>\n#include <cassert>\n\n#define CUSTOM_ASSERT(condition, message) \\n    do { \\n        if (!(condition)) { \\n            std::cerr << "Assertion failed: " << (message) << std::endl; \\n            assert((condition)); \\n        } \\n    } while (false)\n\nint num = -5;\nCUSTOM_ASSERT(num > 0, "The number must be greater than zero!");

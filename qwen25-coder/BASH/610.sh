@@ -1,1 +1,0 @@
-# Recursively find and replace 'http://' with 'https://'\nfind /path/to/your-project -type f \( -iname "*.html" -o -iname "*.js" -o -iname "*.css" \) -exec sed -i 's/http:/https:/g' {} +

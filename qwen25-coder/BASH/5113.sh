@@ -1,1 +1,0 @@
-php bin/magento setup:upgrade\n   php bin/magento cache:clean\n   php bin/magento cache:flush

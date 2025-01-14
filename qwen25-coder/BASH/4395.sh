@@ -1,1 +1,0 @@
-chmod +x run_ssh.sh\n./run_ssh.sh

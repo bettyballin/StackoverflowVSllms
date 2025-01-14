@@ -1,1 +1,0 @@
-public void UpdateField(DataRow row, string columnName, object newValue)\n{\n    if (!object.Equals(row[columnName], newValue))\n    {\n        row[columnName] = newValue;\n        _whatChanged.Add(columnName);\n    }\n}

@@ -1,1 +1,0 @@
-@model Registration\n@using (Html.BeginForm())\n{\n    foreach(var question in ViewBag.Questions as IEnumerable<Question>)\n    {\n        <div>\n            @question.Text: <input type="text" name="@question.QuestionId" />\n        </div>\n    }\n    \n    <button type="submit">Register</button>\n}

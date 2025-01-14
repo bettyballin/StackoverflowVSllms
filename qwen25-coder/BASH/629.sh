@@ -1,1 +1,0 @@
-# Start collection\nperfview collect\n\n# Run your program here or start it in a way that is captured by PerfView. For example:\n# perfview.exe collect -targetProcess:<YourApp>\n\n# Stop and analyze the collected data

@@ -1,1 +1,0 @@
-cd ..\n   jar -cvf myapp-updated.war -C myapp-war/ .

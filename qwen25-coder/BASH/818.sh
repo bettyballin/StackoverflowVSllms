@@ -1,1 +1,0 @@
-inkscape -z input.eps -e output.png -w 800

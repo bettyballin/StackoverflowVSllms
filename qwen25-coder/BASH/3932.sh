@@ -1,1 +1,0 @@
-chmod +x /var/www/vhosts/mydomain.com/httpsdocs/domain_prototype/code_base/url_handler.php

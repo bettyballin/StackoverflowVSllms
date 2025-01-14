@@ -1,1 +1,0 @@
-using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    string sql = "SELECT * FROM Users WHERE Id = @Id";\n    using (SqlCommand command = new SqlCommand(sql, connection))\n    {\n        command.Parameters.AddWithValue("@Id", userId);\n        connection.Open();\n        SqlDataReader reader = command.ExecuteReader();\n        // Process data...\n    }\n}

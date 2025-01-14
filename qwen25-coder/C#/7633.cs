@@ -1,1 +1,0 @@
-string content = Resources.BlogPosts.Post1Content;\n   blogPlaceHolder.InnerHtml = content;

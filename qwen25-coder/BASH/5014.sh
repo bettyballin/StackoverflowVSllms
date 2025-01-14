@@ -1,1 +1,0 @@
-pm install datatables.net -g # If you intend to build DataTables from sources\n# Otherwise, include the latest version via CDN in your base template.

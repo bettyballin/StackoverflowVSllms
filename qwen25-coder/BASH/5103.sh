@@ -1,1 +1,0 @@
-sudo chmod 755 /bin/employee1_script.sh\n   sudo chown root:root /bin/employee1_script.sh

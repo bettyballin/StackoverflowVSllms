@@ -1,1 +1,0 @@
-int number = 4;\nstring paddedNumber = String.Format("{0:D4}", number);\nConsole.WriteLine(paddedNumber); // Outputs: 0004

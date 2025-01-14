@@ -1,1 +1,0 @@
-export ORACLE_HOME=/path/to/oracle/product/version/dbhome_1\n   export PATH=$ORACLE_HOME/bin:$PATH

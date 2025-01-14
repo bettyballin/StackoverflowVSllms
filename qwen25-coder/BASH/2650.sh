@@ -1,1 +1,0 @@
-# Use Drush to clear all caches\n   drush cr

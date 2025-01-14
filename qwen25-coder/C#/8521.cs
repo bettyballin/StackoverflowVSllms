@@ -1,1 +1,0 @@
-using BCrypt.Net;\n\nstring pwd = "some password";\nstring hashedPwd = BCrypt.HashPassword(pwd);\n\n// To verify later\nbool isValid = BCrypt.Verify("some password", hashedPwd);

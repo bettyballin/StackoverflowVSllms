@@ -1,1 +1,0 @@
-# Install rpm-build and rpmbuild if not already available (you might need root access for this step)\n# Check your AIX documentation or discuss with your system administrator.

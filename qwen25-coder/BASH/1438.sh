@@ -1,1 +1,0 @@
-- If not installed, you can install it via Homebrew (a package manager for macOS). First, install Homebrew if you haven't:

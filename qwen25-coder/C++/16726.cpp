@@ -1,1 +1,0 @@
-// shared_state.h\n#ifndef SHARED_STATE_H\n#define SHARED_STATE_H\n\nextern bool g_isSet;\n\n#endif // SHARED_STATE_H

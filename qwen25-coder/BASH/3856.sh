@@ -1,1 +1,0 @@
-# Navigate to your PHP directory in XAMPP\n    cd C:/xampp/php\n    pear install channel://pecl.php.net/rar-<version>

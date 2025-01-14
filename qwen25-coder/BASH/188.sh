@@ -1,1 +1,0 @@
-otool -l /path/to/your/executable_or_library | grep -A2 LC_RPATH

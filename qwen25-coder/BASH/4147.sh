@@ -1,1 +1,0 @@
-visudo -f /etc/sudoers.d/httpd-cmds

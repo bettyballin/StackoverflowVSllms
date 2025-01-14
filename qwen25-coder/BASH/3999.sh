@@ -1,1 +1,0 @@
-$ sed -i '' 's/SO/so/' so/app.yaml

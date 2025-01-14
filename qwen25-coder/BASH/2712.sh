@@ -1,1 +1,0 @@
-xperf -stop ktrace\n   xperf -i c:\traces\kerneltarget.etl -d c:\traces\kernelanalysis.analysis

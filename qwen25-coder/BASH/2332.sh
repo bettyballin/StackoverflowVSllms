@@ -1,1 +1,0 @@
-tar -czvf nexus-config-backup.tar.gz /etc/nexus/

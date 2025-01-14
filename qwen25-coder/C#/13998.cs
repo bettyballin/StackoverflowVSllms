@@ -1,1 +1,0 @@
-// Define your data context class if not already defined.\npublic partial class MyDataContext : DataContext\n{\n    public Table<Company> Companies;\n    public Table<Contact> Contacts;\n}

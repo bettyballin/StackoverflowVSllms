@@ -1,1 +1,0 @@
-kdiff3.exe %b %r %m -o %a --L1 Base --L2 Merged --L3 Yours --auto

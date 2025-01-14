@@ -1,1 +1,0 @@
-diskpart\n   select vdisk file="C:\path\to\new.vhd"\n   attach vdisk\n   select vdisk file="C:\path\to\old.vhd"\n   attach vdisk

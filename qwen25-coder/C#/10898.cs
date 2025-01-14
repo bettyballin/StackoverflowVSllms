@@ -1,1 +1,0 @@
-using System.Collections.Generic;\n\n// Initialize the list\nList<double> ATmittelMin = new List<double>();\n\n// Add elements to the list\nATmittelMin.Add(Gradient(x, xATmax, y, yATmax));

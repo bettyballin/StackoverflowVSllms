@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\n\nclass Program\n{\n    // Assuming YourFunction is a method in your native DLL\n    [DllImport("Your64BitDll.dll", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Unicode)]\n    public static extern void YourFunction();\n\n    static void Main()\n    {\n        YourFunction();\n    }\n}

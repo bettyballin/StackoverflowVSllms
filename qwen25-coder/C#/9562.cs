@@ -1,1 +1,0 @@
-// Define Model\nmodel MySystem {\n    class User {\n        attribute string name;\n        method login() {\n            // login logic here\n        }\n    }\n}\n\n// Generate Code (in a language like C#)\npublic class User {\n    public string Name { get; set; }\n\n    public void Login() {\n        // Implementation of login based on model definition\n    }\n}

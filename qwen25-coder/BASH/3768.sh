@@ -1,1 +1,0 @@
-g++ -E -DMACRO_NAME=1 your_code.cpp > output.txt

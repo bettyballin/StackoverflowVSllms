@@ -1,1 +1,0 @@
-public class UserMap : ClassMap<User>\n{\n    public UserMap()\n    {\n        Table("Users");\n        Id(x => x.Id).GeneratedBy.GuidComb();\n        Map(x => x.Name);\n        Map(x => x.Email);\n        // Add more mappings as necessary\n    }\n}

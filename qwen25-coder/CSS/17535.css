@@ -1,1 +1,0 @@
-.element {\n    width: 50px;\n    height: 50px;\n    background-image: url('your-image.jpg');\n    background-size: 250px 250px; /* Size of the image to ensure it is scaled correctly */\n    background-position: center center; /* Center the background image */\n    background-repeat: no-repeat; /* Ensure the image doesn't repeat */\n}

@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nFILE *fp[2];\n\nint main() {\n    FILE *dump_f = fopen("dump.txt", "w"); // Example opening a file for writing\n\n    fp[0] = stdout;\n    fp[1] = dump_f;\n\n    // Use the file pointers...\n\n    if (dump_f) {\n        fclose(dump_f);\n    }\n    return 0;\n}

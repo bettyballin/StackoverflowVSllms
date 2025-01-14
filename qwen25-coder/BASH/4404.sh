@@ -1,1 +1,0 @@
-svn checkout http://your-svn-server/project/trunk /path/to/working-copy

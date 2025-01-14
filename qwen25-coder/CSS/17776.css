@@ -1,1 +1,0 @@
-html {\n    background-color: #fff;\n}\n\nbody {\n    background-color: #fff;\n    position: relative; /* Ensures body can handle stacking context */\n    z-index: 1; /* Ensures content is above any other elements with lower z-index */\n}

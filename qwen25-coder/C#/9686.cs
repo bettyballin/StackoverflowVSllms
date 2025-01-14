@@ -1,1 +1,0 @@
-public JsonResult Create(MyModel model)\n{\n    if (!ModelState.IsValid)\n    {\n        var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage);\n        return Json(new { success = false, errors });\n    }\n\n    // Proceed with your logic here\n    return Json(new { success = true, message = "Your data has been processed." });\n}

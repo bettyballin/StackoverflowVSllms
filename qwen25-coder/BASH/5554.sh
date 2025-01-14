@@ -1,1 +1,0 @@
-find . -iname "*.dmg" -exec du -cb {} + | awk 'END {print $1 " bytes" }' | numfmt --to=mebibyte

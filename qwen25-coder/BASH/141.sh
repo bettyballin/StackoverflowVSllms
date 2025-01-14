@@ -1,1 +1,0 @@
-runmqakm -cert -import -label "new_cert_label" -trust enable -file "newcert.arm" -format ascii_arm \\n   -db "yourfile.kdb" -stashed

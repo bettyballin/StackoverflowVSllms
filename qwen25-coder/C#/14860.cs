@@ -1,1 +1,0 @@
-LicenseEncryptor.EncryptFile("license.txt", "encrypted_license.dat");\n// When verifying license\nLicenseEncryptor.DecryptFile("encrypted_license.dat", "temp_license.txt");

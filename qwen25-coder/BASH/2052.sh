@@ -1,1 +1,0 @@
-winhttpcertcfg -gkr CURRENT_USER\MY -s CN=S80 -c {ServiceAccountSid}

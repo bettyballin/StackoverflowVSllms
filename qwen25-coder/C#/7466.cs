@@ -1,1 +1,0 @@
-class Parent\n{\n    public virtual string val { get; set; } = "Parent";\n\n    public virtual void getValue()\n    {\n        Console.WriteLine(this.val);\n    }\n}\n\nclass Child : Parent\n{\n    public override string val { get; set; } = "Child";\n}\n\nChild child = new Child();\nchild.getValue();  // This will output 'Child' if getValue is overridden properly

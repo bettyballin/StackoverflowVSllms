@@ -1,1 +1,0 @@
-// In your_source_file.cpp\nstatic void myPrivateFunction() {\n    // Function implementation\n}

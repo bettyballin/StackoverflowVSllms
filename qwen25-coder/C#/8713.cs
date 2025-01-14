@@ -1,1 +1,0 @@
-protected void Button_Click(object sender, EventArgs e)\n   {\n       int currentScore = Convert.ToInt32(Session["score"]);\n       currentScore++;\n       Session["score"] = currentScore;\n       Debug.WriteLine("New Score: " + currentScore);\n   }

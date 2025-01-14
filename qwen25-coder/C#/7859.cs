@@ -1,1 +1,0 @@
-try {\n    string dateString = yourTextBox.Text;\n    DateTime dateValue = DateTime.ParseExact(dateString, "dd-MM-yyyy", System.Globalization.CultureInfo.InvariantCulture);\n    // Use dateValue as needed\n} catch (FormatException) {\n    // Handle the format exception if input is not in correct format\n}

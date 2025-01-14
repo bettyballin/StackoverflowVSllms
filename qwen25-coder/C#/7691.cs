@@ -1,1 +1,0 @@
-destCmdB.QuotePrefix = "[";\n   destCmdB.QuoteSuffix = "]";

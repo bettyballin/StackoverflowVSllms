@@ -1,1 +1,0 @@
-bcp MyDatabase.dbo.Archived_June2009 in "D:\Archive\June2009.csv" -c -T

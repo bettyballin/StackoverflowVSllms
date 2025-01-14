@@ -1,1 +1,0 @@
-curl -O http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd

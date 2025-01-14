@@ -1,1 +1,0 @@
-sudo a2ensite default-ssl\nsudo systemctl restart apache2  # For systems using systemd\nsudo apachectl restart         # Alternative method to restart Apache

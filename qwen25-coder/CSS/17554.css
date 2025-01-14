@@ -1,1 +1,0 @@
-/* Your existing style for hyperlinks */\na {\n    color: blue;\n    text-decoration: underline;\n}\n\n/* Remove or override styles for hyperlinks containing images */\na > img {\n    /* Revert your styling here or explicitly override it */\n    text-decoration: none; /* Example of removing a style */\n}

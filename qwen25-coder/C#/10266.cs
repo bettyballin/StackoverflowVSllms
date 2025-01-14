@@ -1,1 +1,0 @@
-// Storing in Cache (Example of Static Data)\nprotected void StoreInCache(object data, string cacheKey)\n{\n    Cache.Insert(cacheKey, data, null, DateTime.Now.AddMinutes(10), TimeSpan.Zero);\n}\n\n// Example usage:\nStoreInCache(staticDataList, "StaticData");

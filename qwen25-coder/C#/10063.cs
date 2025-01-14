@@ -1,1 +1,0 @@
-script.Append("sometext" + ((dbInfo.IsIdentity) ? " IDENTITY(1,1)" : ""));

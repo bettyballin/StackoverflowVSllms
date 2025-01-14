@@ -1,1 +1,0 @@
-using System.Security;\n\n   [assembly: AllowPartiallyTrustedCallers]

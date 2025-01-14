@@ -1,1 +1,0 @@
-#include <vector>\n   #include <cmath>\n\n   std::vector<double> simulateModel(const std::vector<double>& timePoints) {\n       std::vector<double> results;\n       for (double t : timePoints) {\n           results.push_back(std::sin(t));\n       }\n       return results;\n   }

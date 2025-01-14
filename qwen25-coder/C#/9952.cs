@@ -1,1 +1,0 @@
-var myQuery = from c in Customers select c;\n\nif (someCondition)\n{\n    myQuery = myQuery.Where(c => c.ID > 2);\n}\n\nif (anotherCondition)\n{\n    myQuery = myQuery.Where(c => c.Name.Contains("r"));\n}\n\n// Execute the query and enumerate results\nvar filteredCustomers = myQuery.ToList();

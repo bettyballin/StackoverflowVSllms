@@ -1,1 +1,0 @@
-public ActionResult Index(string[] languages)\n{\n    // MVC will automatically parse a comma-separated list if it matches parameter names\n    if (languages != null)\n    {\n        foreach (var language in languages)\n        {\n            // Process each language\n        }\n    }\n\n    return View();\n}

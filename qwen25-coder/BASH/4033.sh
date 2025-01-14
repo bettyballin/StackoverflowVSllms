@@ -1,1 +1,0 @@
-sc query RedmineApplicatio

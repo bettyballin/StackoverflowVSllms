@@ -1,1 +1,0 @@
-size_t z = 0;\ndo {\n    Fred &fred = gFred[z];\n    // do processing with fred\n\n    z++;\n} while (z < gFred.size() && !gFred[z-1].lastElementInSet);

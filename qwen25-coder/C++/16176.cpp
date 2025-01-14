@@ -1,1 +1,0 @@
-MyFuncClass->MyFunc(GetNumber(), [](FILEINFO* info) -> FILEINFO* { return BigClassInstance.PassThis(info); }, GetArgs(), TheType);

@@ -1,1 +1,0 @@
-appcmd.exe set config /section:applicationPools /\n    "applicationPoolDefaults.cpu.limitCpuPercentage:50"\nappcmd.exe set apppool "MyAppPool" -limits.privateMemoryLimit:104857600  ; 100 MB in bytes

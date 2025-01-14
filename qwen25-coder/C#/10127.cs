@@ -1,1 +1,0 @@
-bool? GetBooleanFromChar(DataRow row, string columnName)\n{\n    if (row[columnName] == DBNull.Value || Convert.ToString(row[columnName]) == "")\n    {\n        return null;\n    }\n    else\n    {\n        return Convert.ToBoolean(Convert.ToInt16(Convert.ToString(row[columnName]) == "Y"));\n    }\n}

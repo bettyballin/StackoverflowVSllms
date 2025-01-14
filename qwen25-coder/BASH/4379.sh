@@ -1,1 +1,0 @@
-# functions.sh\nmy_function() {\n    echo "Hello from my function!"\n}

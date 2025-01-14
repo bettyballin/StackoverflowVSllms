@@ -1,1 +1,0 @@
-sudo nano /usr/local/bin/vpn_disconnect.sh

@@ -1,1 +1,0 @@
-string connectionString = @"Data Source=|DataDirectory|\MyDatabase.sdf;Encryption Mode=Engine Default;Password=someStrongP@ssw0rd;";\nusing (SqlCeConnection conn = new SqlCeConnection(connectionString))\n{\n    conn.Open();\n    // Your database operations here\n}

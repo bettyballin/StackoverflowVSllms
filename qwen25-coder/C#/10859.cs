@@ -1,1 +1,0 @@
-string someVariableValue = Request.QueryString["somevariable"];

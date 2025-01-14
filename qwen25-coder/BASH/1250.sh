@@ -1,1 +1,0 @@
-# Install pgwatch2 with Docker\n   docker-compose up

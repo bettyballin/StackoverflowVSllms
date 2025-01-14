@@ -1,1 +1,0 @@
-# Example command to update vulnerability database for npm packages\nnpm audit\n\n# Example command for Python using pip-audit\npip-audit --upgrade

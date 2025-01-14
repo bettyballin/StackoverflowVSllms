@@ -1,1 +1,0 @@
-diskutil info / | grep "FileVault"

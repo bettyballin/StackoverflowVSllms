@@ -1,1 +1,0 @@
-pm install -g @dbml/cli

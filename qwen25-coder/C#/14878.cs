@@ -1,1 +1,0 @@
-[WebMethod]\npublic string MyWebServiceMethod()\n{\n    string result = "Operation completed successfully.";\n    // Perform operations here...\n    return result;\n}

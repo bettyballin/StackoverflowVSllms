@@ -1,1 +1,0 @@
-regasm /tlb:PaymentComponent.dll PaymentComponent.dll

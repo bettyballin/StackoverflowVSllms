@@ -1,1 +1,0 @@
-DEST=/tmp && find mp3Dir -type f -name \*.mp3 | xargs -I {} cp -rfv {} $DEST | sed "s:[^`]*\(/\)\\([^/]*\.mp3\\)\`.*/\$DEST/\`: '\\2' -> '$DEST/'"

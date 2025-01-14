@@ -1,1 +1,0 @@
-/* Assuming all backgrounds follow a pattern, use attribute selectors */\n[id$="stable"] > div {\n    background-image: url(images/type1.giff); /* Adjust URL as needed or use variables */\n}\n\n/* Or if there's a specific pattern in classes */\n.item_type div {\n    background-image: url(images/type1.giff);\n}

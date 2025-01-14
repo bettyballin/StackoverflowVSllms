@@ -1,1 +1,0 @@
-sudo a2ensite svn-ssl.conf\nsudo systemctl restart apache2

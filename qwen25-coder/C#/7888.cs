@@ -1,1 +1,0 @@
-public partial class sample : System.Web.UI.MasterPage {\n        public Label LblHeading {\n            get { return lblHeading; }\n        }\n    }

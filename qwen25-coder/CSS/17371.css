@@ -1,1 +1,0 @@
-body {\n      display: flex;\n    }\n    #left {\n      background: red;\n      width: 20%;\n    }\n    #right {\n      background: green;\n      width: 80%;\n    }

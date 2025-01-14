@@ -1,1 +1,0 @@
-// Example of setting up custom mappers if necessary\n   using DevExpress.Xpo;\n\n   XpoDefault.MapDataSource("OracleConnection", "XPObjectType");

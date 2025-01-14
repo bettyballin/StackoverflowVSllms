@@ -1,1 +1,0 @@
-ps -o pid,rss,vsz,cmd -p 1234  # Replace '1234' with the PID of your application.

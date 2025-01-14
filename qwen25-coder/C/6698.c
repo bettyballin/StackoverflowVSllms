@@ -1,1 +1,0 @@
-// This example uses GCC-specific pragmas to suppress warnings\n#pragma GCC diagnostic push\n#pragma GCC diagnostic ignored "-Wmissing-field-initializers"\nstruct s;\ntypedef void (* func_t)(struct s _this);\n#pragma GCC diagnostic pop\n\nstruct s { func_t method; int dummy_member; };

@@ -1,1 +1,0 @@
-cd examples/tutorial/displaysocket\n   g++ -o DisplaySocket DisplaySocket.cpp -lcppnetlib-client-connections -lcurl

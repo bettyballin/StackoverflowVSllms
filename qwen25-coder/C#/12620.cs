@@ -1,1 +1,0 @@
-[AttributeUsage(AttributeTargets.Method)]\npublic class MessageHandlerAttribute : Attribute\n{\n    public string HandlerName { get; private set; }\n\n    public MessageHandlerAttribute(string handlerName)\n    {\n        HandlerName = handlerName;\n    }\n}

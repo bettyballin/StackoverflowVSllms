@@ -1,1 +1,0 @@
-.container {\n    display: flex;\n}\n\nnav ul {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n}\n\nnav li {\n    margin-bottom: 10px; /* Space between links */\n}\n\nmain {\n    margin-left: 20px; /* Space between nav and main content */\n}

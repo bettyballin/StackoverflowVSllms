@@ -1,1 +1,0 @@
-unsigned long long factorial_procedural(int n) {\n    unsigned long long result = 1;\n    for (int i = 2; i <= n; ++i) {\n        result *= i;\n    }\n    return result;\n}

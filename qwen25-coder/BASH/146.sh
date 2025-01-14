@@ -1,1 +1,0 @@
-# Example rsync command\n   rsync -avz --delete /path/to/local/project/ ec2-user@ec2-instance-ip:/var/www/html/

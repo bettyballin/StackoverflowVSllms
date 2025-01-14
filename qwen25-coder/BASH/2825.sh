@@ -1,1 +1,0 @@
-sudo apt-get update\nsudo apt-get install build-essential gcc-arm-linux-gnueabi g++-arm-linux-gnueabi

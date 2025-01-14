@@ -1,1 +1,0 @@
-.rss-container {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));\n    gap: 1em; /* Adjust gap between columns */\n}\n\n.rss-item {\n    background-color: #f4f4f4;\n    border: 1px solid #ddd;\n    padding: 1em;\n}

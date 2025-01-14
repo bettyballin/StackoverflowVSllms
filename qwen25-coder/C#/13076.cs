@@ -1,1 +1,0 @@
-public class LoginTests\n   {\n       [Test]\n       public void ShouldLoginWithValidCredentials()\n       {\n           // Test code here\n       }\n   }

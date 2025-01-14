@@ -1,1 +1,0 @@
-public partial class Demo : Window\n{\n    public Demo()\n    {\n        InitializeComponent();\n        myUserControlInstance.ZuneColour = Brushes.Blue; // Changes color to blue at runtime\n    }\n}

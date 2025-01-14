@@ -1,1 +1,0 @@
-# Compile and convert a C# class library to jar file\nikvmc YourDotNetLibrary.dll -out:YourJavaLibrary.jar

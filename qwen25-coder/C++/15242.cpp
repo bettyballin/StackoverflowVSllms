@@ -1,1 +1,0 @@
-#include <vector>\n#include <algorithm>\n\nint main() {\n    std::vector<int*> v1;\n    // Assume v1 is populated with some data...\n\n    std::vector<const int*> v2;\n    v2.resize(v1.size());\n    std::transform(v1.begin(), v1.end(), v2.begin(),\n                   [](int* p) -> const int* { return p; });\n\n    return 0;\n}

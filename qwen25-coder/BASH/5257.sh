@@ -1,1 +1,0 @@
-@echo off\niisapp /a | find "STARTING"\nif %errorlevel% == 0 (\n    echo Some Application Pools are starting.\n) else (\n    echo All Application Pools seem to be ready.\n)

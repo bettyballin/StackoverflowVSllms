@@ -1,1 +1,0 @@
-using ADODB;\n\n   public void ProcessRecordset()\n   {\n       Recordset rs = new Recordset();\n       // Assuming you have a method that returns a Recordset from your DLL\n       // rs = GetRecordSetFromDLL();\n       \n       while (!rs.EOF)\n       {\n           Console.WriteLine(rs.Fields[0].Value);\n           rs.MoveNext();\n       }\n       rs.Close();\n   }

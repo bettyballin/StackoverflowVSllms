@@ -1,1 +1,0 @@
-:'<,'>!tee >(mysql -uuser -ppass mydb >> %)

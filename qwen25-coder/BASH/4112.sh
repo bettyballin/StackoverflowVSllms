@@ -1,1 +1,0 @@
-umount -lf /mnt/data

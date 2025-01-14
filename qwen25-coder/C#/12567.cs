@@ -1,1 +1,0 @@
-protected void MyMethod()\n{\n    // Your logic here\n\n    Response.StatusCode = 302;  // Indicating Found, which means moved temporarily\n    Response.Write("{\"url\": \"http://www.example.com\"}");\n    Response.End();\n}

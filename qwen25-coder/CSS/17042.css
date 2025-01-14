@@ -1,1 +1,0 @@
-table {\n    border-collapse: collapse; /* This removes any default spacing between cells */\n}\n\nth, td {\n    padding: 0; /* Equivalent to cellpadding="0" */\n    margin: 0;\n}\n\ntd + td, th + th {\n    border-spacing: 0; /* Equivalent to cellspacing="0" */\n}

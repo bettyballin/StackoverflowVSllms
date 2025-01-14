@@ -1,1 +1,0 @@
-grid.DataSource = myEntities.entityName.Where(e => e.field == field).ToList();

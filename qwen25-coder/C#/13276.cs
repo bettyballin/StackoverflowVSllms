@@ -1,1 +1,0 @@
-[HttpPost]\n   public ActionResult MyForm(MyViewModel model)\n   {\n       string selectedValue = model.SelectedOption; // Accesses the selected dropdown value\n\n       // Process the selected value as needed\n\n       return View(model);\n   }

@@ -1,1 +1,0 @@
-mysql -u your_username -p --password=your_password your_local_db_name < path_to_mysqldump_file.sql

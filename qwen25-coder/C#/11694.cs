@@ -1,1 +1,0 @@
-public async Task PerformLongRunningTaskAsync()\n{\n    await Task.Run(() => DoBackgroundWork());\n}\n\nprivate void DoBackgroundWork()\n{\n    // Simulate a time-consuming task\n    System.Threading.Thread.Sleep(5000);\n\n    // Perform actions after operation is complete\n}

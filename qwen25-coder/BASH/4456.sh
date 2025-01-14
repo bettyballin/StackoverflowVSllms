@@ -1,1 +1,0 @@
-eclipse -application org.eclipse.pde.build.Build -configuration <yourConfigurationDir> -buildFile <yourBuildScript> -vmargs -Declipse.pde.build.log=true

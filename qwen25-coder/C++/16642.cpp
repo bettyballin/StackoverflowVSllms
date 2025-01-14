@@ -1,1 +1,0 @@
-// C++ Code (Offline Compilation)\n#include <iostream>\nusing namespace std;\n\nint main() {\n    int sum = 0;\n    for(int i = 0; i < 1e7; i++) {\n        sum += i;\n    }\n    cout << "Sum: " << sum << endl;\n    return 0;\n}

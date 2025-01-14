@@ -1,1 +1,0 @@
-foreach (DataRow row in dataTable.Rows) {\n       if (!row.HasErrors) continue;\n\n       foreach (DataColumn col in dataTable.Columns) {\n           Console.WriteLine(row.GetColumnsInError(col)[0]);\n       }\n   }

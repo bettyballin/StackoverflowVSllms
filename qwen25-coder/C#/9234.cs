@@ -1,1 +1,0 @@
-DateTime? closedDate = DBNull.Value.Equals(srRow["Closed_Date"]) ? (DateTime?)null : Convert.ToDateTime(srRow["Closed_Date"]);

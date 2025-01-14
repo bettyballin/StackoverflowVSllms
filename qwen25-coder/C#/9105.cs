@@ -1,1 +1,0 @@
-private void SwitchToForm2()\n{\n    this.Hide(); // Hide the current form\n\n    Form2 form2 = new Form2();\n    form2.WindowState = FormWindowState.Normal; // Ensure window state is normal\n    form2.Show();\n    form2.Activate(); // Bring form to front and make it active\n}

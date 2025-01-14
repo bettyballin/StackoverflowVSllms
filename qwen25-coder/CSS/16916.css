@@ -1,1 +1,0 @@
-ul {\n    list-style-type: disc; /* Ensures the list has bullets */\n}\n\nul li::marker {\n    color: lightgray;\n}

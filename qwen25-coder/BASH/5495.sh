@@ -1,1 +1,0 @@
-sudo ln -s "$HOME/include" /usr/local/include/

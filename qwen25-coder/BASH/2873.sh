@@ -1,1 +1,0 @@
-php -r "apc_clear_cache('user'); apc_clear_cache('opcode');"

@@ -1,1 +1,0 @@
-dataContext.ExecuteCommand("UPDATE [table] SET [column] = @value WHERE [predicate]", value);

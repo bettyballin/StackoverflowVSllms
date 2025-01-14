@@ -1,1 +1,0 @@
-protected override void Page_PreRender(object sender, EventArgs e)\n{\n    // Ensure Session is not null and available\n    if (HttpContext.Current.Session != null && HttpContext.Current.Session.IsNewSession == false)\n    {\n        HttpContext.Current.Session.Remove("foo");\n    }\n}

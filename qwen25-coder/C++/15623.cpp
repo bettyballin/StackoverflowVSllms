@@ -1,1 +1,0 @@
-#define GCC_VERSION (__GNUC__ * 10000 + __GNUC_MINOR__ * 100)\n\n#if GCC_VERSION >= 40200\n#  include <unordered_map>\n#  define EXT std\n#elif GCC_VERSION >= 40000\n#  include <tr1/unordered_map>\n#  define EXT std::tr1\n#else\n#  include <ext/hash_map>\n#  define unordered_map __gnu_cxx::hash_map\n#  define EXT __gnu_cxx\n#endif

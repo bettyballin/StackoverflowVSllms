@@ -1,1 +1,0 @@
-#include <algorithm>\n#include <vector>\n\nstruct BitwiseOr {\n    char operator()(char a, char b) const { return a | b; }\n};\n\nvoid orTogether2(std::vector<char>& v1, const std::vector<char>& v2) {\n    std::transform(v1.begin(), v1.end(), v2.begin(), \n                   v1.begin(), BitwiseOr());\n}

@@ -1,1 +1,0 @@
-sed -i '/<iframe.*?<\/iframe>/g' 's/<iframe.*?><\/iframe>//g' file

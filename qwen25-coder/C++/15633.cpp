@@ -1,1 +1,0 @@
-#ifdef __cplusplus\nextern "C" {\n#endif\n\n__declspec(dllexport) void __stdcall FunctionName(int param1, int param2);\n\n#ifdef __cplusplus\n}\n#endif

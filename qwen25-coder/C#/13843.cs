@@ -1,1 +1,0 @@
-using Microsoft.Playwright;\n\n   await using var playwright = await Playwright.CreateAsync();\n   var browser = await playwright.Chromium.LaunchAsync();\n   var page = await browser.NewPageAsync();\n   await page.GotoAsync("https://example.com");

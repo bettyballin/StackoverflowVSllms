@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    // Check your conditions here\n    bool isUnauthorized = true; // Example condition\n\n    if (isUnauthorized)\n    {\n        // Set the status code to 401 Unauthorized\n        Response.StatusCode = 401;\n        // End the response to prevent further content from being sent\n        Response.End();\n    }\n}

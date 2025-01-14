@@ -1,1 +1,0 @@
-public ActionResult Directions()\n{\n    using (uls_dbDataContext ulsdb_dc = new uls_dbDataContext())\n    {\n        var officeLocations = ulsdb_dc.GetOfficeLocations();\n        var viewModel = new DirectionsViewModel(officeLocations);\n\n        return View(viewModel);\n    }\n}

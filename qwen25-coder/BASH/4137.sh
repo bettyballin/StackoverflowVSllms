@@ -1,1 +1,0 @@
-mysql -u your_username -p your_database_name < restore_table_script.sql

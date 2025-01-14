@@ -1,1 +1,0 @@
-#fixedDiv {\n    position: fixed; /* Keeps the div in a fixed position relative to the viewport */\n    top: 0;            /* Distance from the top of the viewport */\n    left: 0;           /* Distance from the left of the viewport */\n    /* You can also add other styling properties here, like background-color, width, height, etc. */\n}

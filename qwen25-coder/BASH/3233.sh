@@ -1,1 +1,0 @@
-pg_basebackup -h primary_host -U replicator -D /var/lib/postgresql/data -P --xlog-method=stream

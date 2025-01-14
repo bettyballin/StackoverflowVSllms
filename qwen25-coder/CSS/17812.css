@@ -1,1 +1,0 @@
-/* Ensure all td elements in your map have consistent size */\n#stackoverflow td {\n    width: 50px; /* Adjust as necessary */\n    height: 50px; /* Adjust as necessary */\n    border: 1px solid black; /* Optional: adds a border to see the cell boundaries clearly */\n}

@@ -1,1 +1,0 @@
-public class EncryptedUsernameBindingList : BindingList<string>\n{\n    public void LoadEncryptedUsernames(IEnumerable<string> encryptedUsernames)\n    {\n        this.ClearItems();\n        foreach (var encryptedUsername in encryptedUsernames)\n        {\n            this.Add(EncryptionHelper.Decrypt(encryptedUsername));\n        }\n    }\n}

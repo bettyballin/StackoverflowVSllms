@@ -1,1 +1,0 @@
-// Example of using the Logging Application Block in Enterprise Library\nusing Microsoft.Practices.EnterpriseLibrary.Logging;\n\npublic void LogInformationMessage(string message)\n{\n    Logger.Write(new LogEntry()\n    {\n        Message = message,\n        Severity = TraceEventType.Information\n    });\n}

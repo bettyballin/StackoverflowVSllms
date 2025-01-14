@@ -1,1 +1,0 @@
-protected void Application_Start(object sender, EventArgs e)\n{\n    // Path to validation.config within your entity assembly can be defined here. \n    string configPath = Server.MapPath("~/bin/entitylibrary.validation.config");\n    \n    ValidationConfigLoader.LoadValidationConfiguration(configPath);\n}

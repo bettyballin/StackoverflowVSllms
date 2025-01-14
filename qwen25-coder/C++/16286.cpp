@@ -1,1 +1,0 @@
-#include <iostream>\n\nvoid function(float* arr) {\n    for (int i = 0; i < 4; ++i) {\n        std::cout << arr[i] << " ";\n    }\n    std::cout << std::endl;\n}\n\nint main() {\n    // Using a temporary array\n    function(new float[4]{1, 2, 3, 4});\n    return 0;\n}

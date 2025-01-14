@@ -1,1 +1,0 @@
-q -H "SELECT COUNT(*) FROM yourfile.csv"

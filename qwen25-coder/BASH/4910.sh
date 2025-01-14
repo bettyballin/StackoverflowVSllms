@@ -1,1 +1,0 @@
-wget https://bootstrap.pypa.io/pip/2.6/get-pip.py -O /tmp/get-pip.py\n    /usr/local/bin/python2.6 /tmp/get-pip.py --user

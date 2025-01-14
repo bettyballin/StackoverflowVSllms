@@ -1,1 +1,0 @@
-secedit /export /cfg secpol.cfg

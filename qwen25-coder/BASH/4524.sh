@@ -1,1 +1,0 @@
-./vendor/bin/phpcs /path/to/your/project

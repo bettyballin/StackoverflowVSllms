@@ -1,1 +1,0 @@
-# Example cron job entry for weekly refresh at midnight every Sunday\n# * * * * 0 /usr/bin/sqlplus your_user/your_password@your_db @refresh_mat_view.sql

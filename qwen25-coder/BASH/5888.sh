@@ -1,1 +1,0 @@
-ohup php /path/to/scraper.php &

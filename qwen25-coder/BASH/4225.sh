@@ -1,1 +1,0 @@
-sudo apt-get install nfs-kernel-server  # Debian/Ubuntu

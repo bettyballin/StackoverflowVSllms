@@ -1,1 +1,0 @@
-svnsync init file:///path/to/your/local/repo http://third.party/repo/path

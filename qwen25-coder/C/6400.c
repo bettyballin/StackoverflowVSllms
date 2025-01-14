@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint calculate_factorial(int n) {\n    return n <= 1 ? 1 : n * calculate_factorial(n - 1);\n}\n\nint main() {\n    int number;\n    printf("Enter a number: ");\n    scanf("%d", &number);\n    printf("Factorial of %d is %d\n", number, calculate_factorial(number));\n    return 0;\n}

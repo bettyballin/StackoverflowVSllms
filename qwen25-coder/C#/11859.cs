@@ -1,1 +1,0 @@
-using System.Data.SQLite;\n   \n   string connectionString = "Data Source=mydatabase.db;Version=3;";\n   using (SQLiteConnection conn = new SQLiteConnection(connectionString))\n   {\n       conn.Open();\n       // Perform database operations\n   }

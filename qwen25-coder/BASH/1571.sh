@@ -1,1 +1,0 @@
-icl /Zi /O2 your_code.cpp -o your_app.exe

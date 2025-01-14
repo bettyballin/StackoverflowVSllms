@@ -1,1 +1,0 @@
-Foo foo; // Stack allocatio

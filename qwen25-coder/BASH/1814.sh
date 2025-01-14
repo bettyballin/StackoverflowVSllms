@@ -1,1 +1,0 @@
-setspn -Q <ServiceClass>/<HostName>:<Port>

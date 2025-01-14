@@ -1,1 +1,0 @@
-private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)\n   {\n       var storyboard = (Storyboard)FindResource("FadeInOut");\n       storyboard.Begin();\n   }

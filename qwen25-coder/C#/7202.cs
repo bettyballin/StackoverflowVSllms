@@ -1,1 +1,0 @@
-var customers = data.Customers.Where(c => EF.Functions.Like(c.EmailDomain, $"{term}%"));

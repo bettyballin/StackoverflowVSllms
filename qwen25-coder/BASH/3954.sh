@@ -1,1 +1,0 @@
-# Pull the Oracle XE image from Docker Hub\ndocker pull gcr.io/oraclexe/oracle-database-xe:latest\n\n# Run the container\ndocker run --name oracle-xe -d -p 1521:1521 -p 5500:5500 gcr.io/oraclexe/oracle-database-xe:latest\n\n# Check the logs to get the default password for SYS and SYSTEM users\ndocker logs oracle-xe | grep "ORACLE PASSWORD FOR SYS AND SYSTEM"

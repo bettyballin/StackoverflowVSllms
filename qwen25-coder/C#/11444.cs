@@ -1,1 +1,0 @@
-using System.Net.Mail;\n\ntry {\n    MailAddress mailAddress = new MailAddress("example@example.com");\n    Console.WriteLine("Valid email address: " + mailAddress.Address);\n} catch (FormatException ex) {\n    Console.WriteLine("Invalid email address format: " + ex.Message);\n}

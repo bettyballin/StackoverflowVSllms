@@ -1,1 +1,0 @@
-# Example of setting file permissions\nchmod 644 /path/to/web/files/*\nfind /path/to/web/files -type d -exec chmod 755 {} +

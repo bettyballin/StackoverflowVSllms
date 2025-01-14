@@ -1,1 +1,0 @@
-a2enmod proxy_http\nsystemctl restart apache2  # For Debian/Ubuntu systems

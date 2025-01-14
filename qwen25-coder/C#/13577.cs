@@ -1,1 +1,0 @@
-// Example of creating a URL with an OrderId in ASP.NET C#\nstring orderId = Request.QueryString["OrderId"];\nResponse.Redirect($"PageA.aspx?SelectOrderId={orderId}");

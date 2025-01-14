@@ -1,1 +1,0 @@
-var client = new YourService.ServiceClient();\nvar result = client.GetStorageObjects();\n\nforeach (var storage in result) {\n    var hobbiesAttribute = storage.OtherInfo.Attributes["Hobbies"]?.Value;\n    Console.WriteLine($"{storage.Name} - Hobbies: {hobbiesAttribute}");\n}

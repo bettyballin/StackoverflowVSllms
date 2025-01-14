@@ -1,1 +1,0 @@
-curl -L http://a.com\n   curl -L http://b.com

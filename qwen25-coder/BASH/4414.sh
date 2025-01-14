@@ -1,1 +1,0 @@
-regsvr32 "C:\Path\ToObject.dll"

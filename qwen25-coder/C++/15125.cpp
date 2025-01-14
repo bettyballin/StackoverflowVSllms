@@ -1,1 +1,0 @@
-interface IYourInterface : IDispatch {\n    [propget, id(1), helpstring("The click through parameters")]\n    HRESULT Params([out, size_is(count)] int **rVal, [out, retval] long *count);\n\n    [propput, id(2), helpstring("The click through parameters")]\n    HRESULT Params([in, size_is(count)] const int *RnewVal, [in] long count);\n};

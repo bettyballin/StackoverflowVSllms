@@ -1,1 +1,0 @@
-#Treeview {\n    padding-right: 5px;\n    width: 250px;\n    height: 100%;\n    float: left;\n    border-right: solid 1px black;\n    overflow-x: hidden; /* Prevent horizontal scrollbars */\n    word-wrap: break-word; /* Ensures long words are broken and wrap onto the next line */\n}

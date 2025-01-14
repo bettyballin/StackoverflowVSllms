@@ -1,1 +1,0 @@
-# Install Xdebug (example for Linux)\nsudo pecl install xdebug\n\n# Add the following lines to your php.ini file\nzend_extension=xdebug.so\nxdebug.remote_enable=1\nxdebug.remote_host=127.0.0.1

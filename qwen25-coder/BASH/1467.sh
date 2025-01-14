@@ -1,1 +1,0 @@
-mkdir bin\n   cp /path/to/your/application ./bin/\n   chmod +x ./bin/your_applicatio

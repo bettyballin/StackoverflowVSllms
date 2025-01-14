@@ -1,1 +1,0 @@
-# Assign directory to a group the web server belongs to\nsudo chgrp -R www-data /correct/path/to/dir/\n\n# Ensure the directory is writable by the group\nsudo chmod -R 775 /correct/path/to/dir/

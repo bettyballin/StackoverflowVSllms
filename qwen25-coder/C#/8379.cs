@@ -1,1 +1,0 @@
-public class DocumentMap : ClassMap<Document>\n{\n    public DocumentMap()\n    {\n        Id(x => x.Id).GeneratedBy.Identity();\n        Map(x => x.Name);\n        Map(x => x.Content).CustomType("BinaryBlob"); // Custom type for byte array\n    }\n}

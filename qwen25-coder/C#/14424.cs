@@ -1,1 +1,0 @@
-string appPath = AppDomain.CurrentDomain.BaseDirectory;\nstring specificDllPath = System.IO.Path.Combine(appPath, "File.dll");

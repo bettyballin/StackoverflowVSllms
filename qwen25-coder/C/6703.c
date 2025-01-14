@@ -1,1 +1,0 @@
-#include <Python.h>\n\n   int main(int argc, char *argv[]) {\n       Py_Initialize();\n       printf("Hello from Python\n");\n       Py_Finalize();\n       return 0;\n   }

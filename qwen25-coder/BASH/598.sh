@@ -1,1 +1,0 @@
-check process my_application with pidfile /var/run/myapp.pid\n  start program = "/etc/init.d/myapp start"\n  stop program  = "/etc/init.d/myapp stop"\n  if failed port 8080 protocol http request "/" then restart

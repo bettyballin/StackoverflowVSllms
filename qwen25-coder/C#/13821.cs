@@ -1,1 +1,0 @@
-string resultString = null;\ntry {\n    System.Text.RegularExpressions.Regex regexObj = new System.Text.RegularExpressions.Regex(@"[^\d]");\n    resultString = regexObj.Replace(subjectString, "");\n} catch (System.ArgumentException ex) {\n    // Syntax error in the regular expression\n}

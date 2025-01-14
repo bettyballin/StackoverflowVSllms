@@ -1,1 +1,0 @@
-cscript.exe adsutil.vbs ENUM /W3SVC/1/Root

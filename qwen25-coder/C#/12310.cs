@@ -1,1 +1,0 @@
-public double ConvertPixelsToPoints(int pixels)\n{\n    const int dpi = 96;\n    return (pixels * 72.0) / dpi;\n}\n\n// Example usage:\nint pixelValue = 192;\ndouble pointValue = ConvertPixelsToPoints(pixelValue);\nConsole.WriteLine($"{pixelValue} pixels is equal to {pointValue} points.");

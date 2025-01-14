@@ -1,1 +1,0 @@
-certutil -addstore "-f -split" my path\to\zoneid.txt :path\to\yourfile.exe:Zone.Identifier

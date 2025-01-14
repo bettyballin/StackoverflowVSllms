@@ -1,1 +1,0 @@
-# Example of including stored procedure scripts in a Git repository\n\n# Directory structure\n/path/to/repo/\n    /app_code/\n        ...\n    /database_procedures/\n        create_users.sql\n        update_user_permissions.sql\n    .gitignore  # Ensure that sensitive data is not included

@@ -1,1 +1,0 @@
-public string GetDisplayText(bool isYes)\n{\n    return isYes ? "Yes" : "No";\n}\n\npublic string GetDisplayStyle(char status)\n{\n    switch (status)\n    {\n        case 'Y': \n            return "style=\"background-color:pink\"";\n        default:\n            return "";\n    }\n}

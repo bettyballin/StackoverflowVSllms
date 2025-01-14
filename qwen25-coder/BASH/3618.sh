@@ -1,1 +1,0 @@
-# Run JVisualVM from your JDK's bin directory\nvisualvm &

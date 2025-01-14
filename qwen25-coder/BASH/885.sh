@@ -1,1 +1,0 @@
-gacutil -i C:\path\to\Oracle.ManagedDataAccess.dll

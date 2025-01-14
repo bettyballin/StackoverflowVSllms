@@ -1,1 +1,0 @@
-# Create a simple Dockerfile\n  echo 'FROM python:3.9-slim' > Dockerfile\n\n  # Build the Docker image\n  docker build -t untrusted-python .\n\n  # Run the untrusted Python script in an isolated container with resource limits\n  docker run --rm -m="256m" --cpu-shares="512" -v $(pwd):/usr/src/myapp -w /usr/src/myapp untrusted-python python3 script.py

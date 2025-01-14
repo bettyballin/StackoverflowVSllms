@@ -1,1 +1,0 @@
-# Example command to check Apache status with security modules enabled\napachectl -M | grep security

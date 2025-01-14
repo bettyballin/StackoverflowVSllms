@@ -1,1 +1,0 @@
-Object myObject = createEmptyList(); // This works but T is inferred as Object\n\n// Or explicitly specify the type parameter if needed:\nObject myListOfIntegers = createEmptyList();

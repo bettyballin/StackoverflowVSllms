@@ -1,1 +1,0 @@
-unsigned int row_index(unsigned int i, unsigned int M) {\n       // Calculate the row index using the derived formula\n       return (static_cast<int>(sqrt(1 + 8 * i)) - 1) / 2;\n   }

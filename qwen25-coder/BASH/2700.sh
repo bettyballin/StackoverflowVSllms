@@ -1,1 +1,0 @@
-#!/bin/bash\n\nDATE=$(date +"%F-%H%M")\nBACKUP_DIR="/path/to/backups/physical"\nmkdir -p $BACKUP_DIR\n\npg_basebackup -h localhost -D $BACKUP_DIR/base_$DATE -U postgres --xlog-method=stream --format=tar

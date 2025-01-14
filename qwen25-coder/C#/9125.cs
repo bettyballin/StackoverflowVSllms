@@ -1,1 +1,0 @@
-try\n{\n    DisableEventFiring();\n    \n    // Modify the properties of the list item\n    properties.ListItem[HelloWorldInternalFieldName] = "Hello World!";\n    \n    // Update the list item without re-firing events\n    properties.ListItem.SystemUpdate(false);\n}\nfinally\n{\n    EnableEventFiring();\n}

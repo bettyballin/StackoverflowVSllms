@@ -1,1 +1,0 @@
-go get github.com/syndtr/goleveldb/leveldb

@@ -1,1 +1,0 @@
-[Authorize]\npublic class AuthController : Controller\n{\n    public ActionResult KeepAlive()\n    {\n        // Optionally reset your session object here if necessary\n        return new EmptyResult();\n    }\n}

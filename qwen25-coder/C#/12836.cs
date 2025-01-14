@@ -1,1 +1,0 @@
-// SRP Example: UserSettingsManager handles only user settings operations.\n   public class UserSettingsManager {\n       public void SaveSettings(UserSettings settings) { /*...*/ }\n       public UserSettings LoadSettings() { /*...*/ }\n   }

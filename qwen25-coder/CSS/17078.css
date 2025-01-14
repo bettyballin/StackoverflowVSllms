@@ -1,1 +1,0 @@
-/* Basic 12-column grid layout */\n.container {\n    display: grid;\n    grid-template-columns: repeat(12, 1fr);\n    gap: 10px; /* Adjust as needed */\n}\n\n.col-4 {\n    grid-column: span 4 / auto;\n}\n\n.col-8 {\n    grid-column: span 8 / auto;\n}

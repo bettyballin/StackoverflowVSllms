@@ -1,1 +1,0 @@
-# Edit crontab\ncrontab -e\n\n# Add this line to check every 5 minutes\n*/5 * * * * /usr/bin/fetchmail > /dev/null

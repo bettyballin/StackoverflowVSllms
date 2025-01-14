@@ -1,1 +1,0 @@
-/* Ensure this style is applied to your HTML dropdown */\n.your-html-dropdown-class {\n    position: relative; /* or absolute if positioned */\n    z-index: 1000; /* A high z-index value ensures it sits on top */\n}

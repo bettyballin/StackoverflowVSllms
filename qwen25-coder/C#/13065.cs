@@ -1,1 +1,0 @@
-using Castle.MicroKernel.Registration;\nusing Castle.Windsor;\n\nvar container = new WindsorContainer();\n\ncontainer.Register(\n    Component.For<ITaxService>().ImplementedBy<USATaxService>().Named("usatax"),\n    Component.For<ITaxService>().ImplementedBy<EUCTaxService>().Named("euctax")\n);

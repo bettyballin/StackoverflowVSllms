@@ -1,1 +1,0 @@
-find . -type f \( -iname "*.html" -o -iname "*.htm" \) -exec sed -i -E 's/(<(img|input)([^>]*)>)/\1\/>/g' {} +

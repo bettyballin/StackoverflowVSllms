@@ -1,1 +1,0 @@
-var orderTable = dataSet.Tables["Ord"];\nvar items = orderTable.DefaultView.Cast<DataRowView>()\n                                .Select(row => new OrderWithEmployeeName(row))\n                                .ToList();\n\nstackPanel.DataContext = items;

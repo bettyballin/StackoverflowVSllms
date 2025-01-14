@@ -1,1 +1,0 @@
-composer require symfony/form symfony/validator

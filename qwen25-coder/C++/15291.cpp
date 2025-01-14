@@ -1,1 +1,0 @@
-bool isProcessRunning(HANDLE process)\n{\n    if (process == INVALID_HANDLE_VALUE) return false;\n\n    DWORD exitCode;\n    if (!GetExitCodeProcess(process, &exitCode))\n        return false; // something went wrong retrieving the exit code\n\n    return exitCode == STILL_ACTIVE; // still running\n}

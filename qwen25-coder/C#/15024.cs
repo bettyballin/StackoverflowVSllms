@@ -1,1 +1,0 @@
-protected void Repeater1_ItemCommand(object source, RepeaterCommandEventArgs e)\n{\n    if (e.CommandName == "Update")\n    {\n        ObjectDataSource1.Update();\n    }\n}

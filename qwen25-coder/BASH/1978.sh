@@ -1,1 +1,0 @@
-pty "pptp <VPN_SERVER_IP> --nolaunchpppd"\n   name <YOUR_USERNAME>\n   remotename PPTP\n   require-mppe-128\n   file /etc/ppp/options.pptp\n   ipparam myvp

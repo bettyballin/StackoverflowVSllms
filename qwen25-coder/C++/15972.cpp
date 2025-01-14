@@ -1,1 +1,0 @@
-#include <type_traits>\n\nint main() {\n    static_assert(std::is_integral<int>::value, "Type is not integral");\n    return 0;\n}

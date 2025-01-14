@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    // Correctly referencing a WebResource\n    string scriptUrl = Page.ClientScript.GetWebResourceUrl(this.GetType(), "Mri.Controls.Resources.yourfile.js");\n    ScriptManager.RegisterClientScriptInclude(this, this.GetType(), "yourfileKey", scriptUrl);\n}

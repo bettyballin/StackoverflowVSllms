@@ -1,1 +1,0 @@
-[DllImport("PPPManager.dll", CallingConvention = CallingConvention.Cdecl)]\n   private static extern bool PPPConnect();

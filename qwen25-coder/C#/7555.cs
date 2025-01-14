@@ -1,1 +1,0 @@
-IList<int> items = new List<int> { 3, 1, 4, 1, 5 };\nitems.Sort(); // Sort the list\nint index = items.IndexOf(4); // Find the index of an item

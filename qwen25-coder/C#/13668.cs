@@ -1,1 +1,0 @@
-public class YourDto\n{\n    public int Id { get; set; }\n    // other non-circular reference fields...\n}\n\n[HttpGet]\npublic IHttpActionResult GetData()\n{\n    var data = new List<YourDto> { /* map from your object to DTO here */ };\n    return Json(data);\n}

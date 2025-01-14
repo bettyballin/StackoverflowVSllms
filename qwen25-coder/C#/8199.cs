@@ -1,1 +1,0 @@
-// Example of input validation using Data Annotations in ASP.NET MVC\n   public class TransactionModel\n   {\n       [StringLength(50)]\n       [RegularExpression(@"^[A-Za-z0-9_@.-]+$")]\n       public string AccountNumber { get; set; }\n   }

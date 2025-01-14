@@ -1,1 +1,0 @@
-Project Properties -> Build Events -> Post-build event command line

@@ -1,1 +1,0 @@
-# Install py-spy using pip\npip install py-spy\n\n# Run py-spy on a running python process by PID\npy-spy --pid <your_process_id>\n\n# Or attach py-spy to a Python script by name\npy-spy top -p `pgrep -fn your_script.py`

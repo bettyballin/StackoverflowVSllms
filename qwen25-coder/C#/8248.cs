@@ -1,1 +1,0 @@
-public string GetString()\n{\n    return "Hello, world!";\n}

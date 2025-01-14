@@ -1,1 +1,0 @@
-// Storing in session\nSession.SetString("profileInfo", JsonConvert.SerializeObject(profileData));\n\n// Retrieving from session\nvar profileJson = Session.GetString("profileInfo");\nvar profileData = JsonConvert.DeserializeObject<ProfileModel>(profileJson);

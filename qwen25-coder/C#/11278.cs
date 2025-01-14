@@ -1,1 +1,0 @@
-protected void SetUserImage()\n{\n    string sessionId = Session["userID"] as string;\n    string imageUrl = $"~/ImageHandler.ashx?user={sessionId}&rand={Guid.NewGuid()}";\n    MyImageControl.ImageUrl = imageUrl;\n}

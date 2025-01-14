@@ -1,1 +1,0 @@
-typedef int (__cdecl *_PIFV)(void);

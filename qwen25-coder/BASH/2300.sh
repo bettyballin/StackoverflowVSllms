@@ -1,1 +1,0 @@
-# Example commands for using Git:\n   git clone your_repository_url\n   # Make changes, then:\n   git add .\n   git commit -m "Your commit message"\n   git push origin mai

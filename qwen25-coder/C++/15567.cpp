@@ -1,1 +1,0 @@
-QSqlTableModel *sqlmodel = new QSqlTableModel();\n\nsqlmodel->setTable("Names");\nsqlmodel->setEditStrategy(QSqlTableModel::OnFieldChange);\nif (!sqlmodel->select()) {\n    qDebug() << "SQL error:" << sqlmodel->lastError().text();\n}\nsqlmodel->removeColumn(0); // Assuming column 0 is not needed\n\ntableView->setModel(sqlmodel);\ntableView->show();

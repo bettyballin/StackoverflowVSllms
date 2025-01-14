@@ -1,1 +1,0 @@
-rnObj somefunction()\n{\n    rnObj temp = rnObj();  // Create a local object\n    return temp;            // Return local object, might involve copying or moving\n}

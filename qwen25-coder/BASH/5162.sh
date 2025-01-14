@@ -1,1 +1,0 @@
-"C:\Program Files\SASHome\SASFoundation\9.1\sas.exe" -sysin "C:\path\to\CompileSCL.sas"

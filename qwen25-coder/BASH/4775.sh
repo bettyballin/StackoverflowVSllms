@@ -1,1 +1,0 @@
-# Check if VirtualBox is installed using Homebrew\nif brew list --versions virtualbox > /dev/null 2>&1; then\n    echo "VirtualBox is installed."\nelse\n    echo "VirtualBox is not installed. Please install it using: brew install --cask virtualbox"\nfi

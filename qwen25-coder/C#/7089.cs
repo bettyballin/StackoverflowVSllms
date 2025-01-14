@@ -1,1 +1,0 @@
-// Model (Entity)\npublic class Product {\n    public int Id { get; set; }\n    public string Name { get; set; }\n    public decimal Price { get; set; }\n}\n\n// Context Class\nusing System.Data.Entity;\n\npublic class StoreContext : DbContext {\n    public DbSet<Product> Products { get; set; }\n}

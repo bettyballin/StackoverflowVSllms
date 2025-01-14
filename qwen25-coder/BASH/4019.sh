@@ -1,1 +1,0 @@
-symfony doctrine-build-model\nsymfony doctrine-build-forms\nsymfony cc

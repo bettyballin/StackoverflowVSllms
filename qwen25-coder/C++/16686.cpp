@@ -1,1 +1,0 @@
-#ifdef __GNUC__\n#undef and\n#undef or\n// Optionally redefine to catch usage at compile time\n#define and error_use__and_instead_of__&&\n#define or  error_use__or_instead_of_||_\n#endif\n\nint main() {\n    // This will cause a compilation error if 'and' is used\n    bool result = true and false;\n    return 0;\n}

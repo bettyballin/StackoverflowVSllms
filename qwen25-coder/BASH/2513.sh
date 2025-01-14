@@ -1,1 +1,0 @@
-regasm.exe /tlb "path\to\your.dll" "path\to\output\tlb"

@@ -1,1 +1,0 @@
-sudo ip route add default via <gateway-ip> dev eth0 src <desired-outbound-ip>

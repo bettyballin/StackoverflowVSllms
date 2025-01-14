@@ -1,1 +1,0 @@
-#!/bin/bash\n\ncheck_var() {\n    if [ -n "${VAR:-x}" ]; then\n        echo "Condition passed with VAR=${VAR:-x}"\n        export VAR="#something"\n    else\n        echo "Condition failed, VAR is not set or empty"\n    fi\n}\n\n# Initial state\ncheck_var  # Should pass, uses default 'x'\n\n# Subsequent call\ncheck_var  # Should pass, uses new value '#something'

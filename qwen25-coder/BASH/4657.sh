@@ -1,1 +1,0 @@
-# Example of iptables command to open HTTP port (adjust as needed)\n   iptables -A INPUT -p tcp --dport 80 -j ACCEPT

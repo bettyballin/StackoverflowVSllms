@@ -1,1 +1,0 @@
-XmlNode oNode = oDocument.SelectSingleNode("E");\nXmlNodeList oNodeList = oNode.SelectNodes(".//C");

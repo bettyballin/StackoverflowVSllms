@@ -1,1 +1,0 @@
-public static string ByteArrayToString(byte[] byteArray)\n{\n    return System.Convert.ToBase64String(byteArray);\n}

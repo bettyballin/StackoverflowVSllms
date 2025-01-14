@@ -1,1 +1,0 @@
-// Install via NuGet:\n   // dotnet add package BenchmarkDotNet

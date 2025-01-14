@@ -1,1 +1,0 @@
-public class Entity\n{\n    public Guid Id { get; private set; }\n    public string Name { get; set; }\n\n    public Entity(string name)\n    {\n        Id = Guid.NewGuid();\n        Name = name;\n    }\n}

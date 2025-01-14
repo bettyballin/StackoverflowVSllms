@@ -1,1 +1,0 @@
-#footer {\n    display: flex;\n    justify-content: center; /* This centers the items horizontally */\n    align-items: center; /* This centers the items vertically if needed */\n}\n\nul {\n    list-style-type: none; /* Removes the default bullet points */\n    margin: 0;\n    padding: 0;\n    display: flex;\n    gap: 10px; /* Space between the list items */\n}

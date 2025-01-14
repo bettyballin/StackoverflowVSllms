@@ -1,1 +1,0 @@
-# Launch an AWS Batch Job Queue to manage your jobs\n   aws batch create-job-queue --job-queue my-job-queue --state ENABLED --priority 10 --compute-environment my-compute-env

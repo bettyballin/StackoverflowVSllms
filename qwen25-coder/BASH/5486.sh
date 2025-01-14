@@ -1,1 +1,0 @@
-#!/bin/bash\n# numbers.sh\n\nfor X in 1 2 3 4 5 6 7 8 9 0\ndo\n    echo $X\ndone | sed '$!N;s/\n/ /'

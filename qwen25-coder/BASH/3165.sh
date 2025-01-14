@@ -1,1 +1,0 @@
-# Example IPv4 iptables command to whitelist an IP\niptables -A INPUT -s X.X.X.X -j ACCEPT\n\n# Ensure packet inspection for web servers does not block the whitelisted IP addresses

@@ -1,1 +1,0 @@
-crontab -l -u oracle

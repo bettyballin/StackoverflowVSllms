@@ -1,1 +1,0 @@
-// Example of setting up self-hosting in a console application for ASP.NET Web API\n   using (WebApp.Start<Startup>("http://localhost:9000"))\n   {\n       Console.WriteLine("Server running...");\n       Console.ReadLine();\n   }

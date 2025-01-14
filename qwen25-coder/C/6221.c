@@ -1,1 +1,0 @@
-// in exporter.c\n\n#include <linux/module.h>\n#include <linux/kernel.h>\n\nint helper_function(void) {\n    printk(KERN_INFO "Helper function called\n");\n    return 0;\n}\n\nEXPORT_SYMBOL(helper_function); // or EXPORT_SYMBOL_GPL(helper_function);

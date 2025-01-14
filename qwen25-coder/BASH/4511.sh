@@ -1,1 +1,0 @@
-sudo chown root:root ./your_program\n   sudo chmod u+s,g+s ./your_program

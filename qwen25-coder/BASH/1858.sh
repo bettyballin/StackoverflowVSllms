@@ -1,1 +1,0 @@
-# PowerShell command to list ACLs for web.config file\n(Get-Acl "C:\Inetpub\wwwroot\wss\VirtualDirectories\8443\web.config").Access

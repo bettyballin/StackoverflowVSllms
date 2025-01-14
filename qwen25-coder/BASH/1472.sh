@@ -1,1 +1,0 @@
-xz -e --block-size=1M yourfile.dat

@@ -1,1 +1,0 @@
-mysql -u username -p database_name -e "INSERT INTO table_name (pdf_column) VALUES (UNHEX('$(cat file_hex)'));"

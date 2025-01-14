@@ -1,1 +1,0 @@
-sudo perf top -p <pid>

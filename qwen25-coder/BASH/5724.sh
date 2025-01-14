@@ -1,1 +1,0 @@
-git add .\n   git commit -m "Committing my current modifications"\n   # or\n   git stash  # to temporarily store uncommitted changes

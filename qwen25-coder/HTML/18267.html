@@ -1,1 +1,0 @@
-<!DOCTYPE html>\n<html xmlns:th="http://www.thymeleaf.org">\n<head>\n    <title>User List</title>\n</head>\n<body>\n    <h1>Users</h1>\n    <ul>\n        <li th:each="user : ${users}" th:text="${user.name}"></li>\n    </ul>\n</body>\n</html>

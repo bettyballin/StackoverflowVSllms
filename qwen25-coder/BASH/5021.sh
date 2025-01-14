@@ -1,1 +1,0 @@
-for %%f in ($(ProjectDir)*.own) do compiler.exe %%f /o $(OutputDir)

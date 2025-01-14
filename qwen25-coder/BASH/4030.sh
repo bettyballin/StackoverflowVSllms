@@ -1,1 +1,0 @@
-ls -l /path/to/your/script.php

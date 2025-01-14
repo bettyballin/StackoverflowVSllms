@@ -1,1 +1,0 @@
-readlink /proc/$(pgrep sshd)/exe

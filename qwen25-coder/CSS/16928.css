@@ -1,1 +1,0 @@
-/* Generic table style */\ntable {\n    border: dashed 1px #333333;\n    padding: 2px;\n}\n\n/* Resetting nested tables using a class */\n.no-border-padding-table {\n    border: none;\n    padding: 0;\n}

@@ -1,1 +1,0 @@
-sed -E 's/^(Hello) (.*)! Have a good day\./Bye \2! Good night./' inputfile.txt

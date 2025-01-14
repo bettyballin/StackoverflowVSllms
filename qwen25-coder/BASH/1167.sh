@@ -1,1 +1,0 @@
-# Apache configuration\nHeader set Content-Security-Policy "frame-ancestors 'none';"\n\n# Or for allowing specific domains, replace 'self' with the domain name\n# Header set Content-Security-Policy "frame-ancestors 'self' https://example.com;"

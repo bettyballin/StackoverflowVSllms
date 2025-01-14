@@ -1,1 +1,0 @@
-int intFromGuid = BitConverter.ToInt32(sample_guid.ToByteArray(), 0);

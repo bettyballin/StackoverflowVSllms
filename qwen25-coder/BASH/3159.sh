@@ -1,1 +1,0 @@
-javac -g com/myco/impl/QueueFooThread.java

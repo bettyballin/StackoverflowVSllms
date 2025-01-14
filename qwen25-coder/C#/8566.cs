@@ -1,1 +1,0 @@
-var q = source.SelectMany(foo => foo.Bars ?? new List<Bar>()) // Flatten to Bars\n              .SelectMany(bar => bar.Widgets ?? new List<Widget>()) // Then flatten to Widgets\n              .Select(widget => widget.WidgetId) // Select WidgetIds\n              .ToList();

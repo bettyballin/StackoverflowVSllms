@@ -1,1 +1,0 @@
-using Microsoft.Scripting.Hosting;\n// ...\n\nvar engine = Python.CreateEngine(); // Note: This should be Ruby.CreateEngine() for IronRuby\nvar scriptSource = engine.CreateScriptSourceFromFile("path_to_your_sketchup_script.rb");\nscriptSource.Execute(engine.Runtime.GlobalScope);

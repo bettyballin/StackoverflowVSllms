@@ -1,1 +1,0 @@
-%systemroot%\system32\inetsrv\appcmd set config "Default Web Site/<YourApp>" /section:applicationPools /[name='DefaultAppPool'].processModel.idleTimeout:00:00:00

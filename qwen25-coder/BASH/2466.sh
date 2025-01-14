@@ -1,1 +1,0 @@
-# Disable the Beagle Indexer plugin in Firefox:\necho 'user_pref("extensions.beagle.index", false);' >> ~/.mozilla/firefox/*.default/preferences/user.js\n\n# Restart Firefox and check if the issue persists.

@@ -1,1 +1,0 @@
-using System;\nusing YourNamespace;\n\nnamespace TestApp\n{\n    class Program\n    {\n        static void Main(string[] args)\n        {\n            string result = YourClass.YourMethod();\n            Console.WriteLine("Result: " + result);\n        }\n    }\n}

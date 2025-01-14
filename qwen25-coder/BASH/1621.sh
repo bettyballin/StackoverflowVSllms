@@ -1,1 +1,0 @@
-# Command to start capturing traffic on a specific port using Wireshark (CLI version - tshark)\n   sudo tshark -i eth0 -f 'tcp port 80 or tcp port 443' -w output.pcap

@@ -1,1 +1,0 @@
-# Command to get information about an SWF file using swfinfo\nswfinfo yourfile.swf | grep "Movie size"

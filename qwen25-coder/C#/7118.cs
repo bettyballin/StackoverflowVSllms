@@ -1,1 +1,0 @@
-public class UserProfile {\n       public int UserId { get; set; }\n       public string Address { get; set; }\n       public string PhoneNumber { get; set; }\n   }

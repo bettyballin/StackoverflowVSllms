@@ -1,1 +1,0 @@
-/* Example kernel patch: Adding trace points in the kernel */\n\n#include <linux/kernel.h>\n#include <linux/init.h>\n\nstatic int __init init_my_trace(void) {\n    pr_info("Kernel initialization start\n");\n    /* Insert your code here */\n    pr_info("Kernel initialization end\n");\n    return 0;\n}\nmodule_init(init_my_trace);

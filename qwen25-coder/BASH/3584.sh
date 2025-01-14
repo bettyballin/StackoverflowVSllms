@@ -1,1 +1,0 @@
-# On Ubuntu/Debian\nsudo apt-get update\nsudo apt-get install chicken-scheme\n\n# On macOS (using Homebrew)\nbrew install chicke

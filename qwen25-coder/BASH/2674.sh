@@ -1,1 +1,0 @@
-# Export data from a specific table where certain conditions are met\nbcp "SELECT * FROM YourDatabase.dbo.YourTable WHERE OwnershipCriteria = 'OwnerA'" queryout C:\path\to\export.csv -w -T -S YourServerName

@@ -1,1 +1,0 @@
-#pragma optimize("", off)\nClassTest test;\ntest.DoIt();\n#pragma optimize("", on)

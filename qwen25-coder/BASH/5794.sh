@@ -1,1 +1,0 @@
-rpm -i --dbpath ~/rpmdb \\n    ~/rpmbuild/RPMS/x86_64/your-application-1.0-1.x86_64.rpm

@@ -1,1 +1,0 @@
-# Set Beyond Compare as the diff tool\nsvn propset svn:global-ignores "*.user" .\nsvn config set tortoisesvn difftool.cmd path\to\bcompare.exe\nsvn config set tortoisesvn difftool.args "%base %mine"\n\n# Set Beyond Compare as the merge tool\nsvn config set tortoisesvn mergetool.cmd path\to\bcompare.exe\nsvn config set tortoisesvn mergetool.args "%theirs %mine %merged"

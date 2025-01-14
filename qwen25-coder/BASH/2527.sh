@@ -1,1 +1,0 @@
-gcc -o myapp myapp.o -Wl,-rpath,/path/to/glibc4.1/lib

@@ -1,1 +1,0 @@
-sed ':a;N;$!ba;s/<hr \/>[[:space:]]*\n<div id="sidebar">/<\/div><hr \/><div id="sidebar">/' file.txt

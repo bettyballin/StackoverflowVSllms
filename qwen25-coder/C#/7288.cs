@@ -1,1 +1,0 @@
-Assembly dll = Assembly.LoadFromFile(@"path\to\a.dll");

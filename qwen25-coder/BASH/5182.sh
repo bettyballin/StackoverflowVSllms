@@ -1,1 +1,0 @@
-@echo off\nreg add "HKCU\Software\MicrosoftInternet Explorer\Main" /v EnableMassivelyParallelXMLParsing /t REG_DWORD /d 0 /f\necho XML Data Binding has been disabled. Please restart Internet Explorer.\npause

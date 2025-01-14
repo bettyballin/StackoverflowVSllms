@@ -1,1 +1,0 @@
-sudo yum install gtk2-devel php-devel

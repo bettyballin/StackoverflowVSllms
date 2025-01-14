@@ -1,1 +1,0 @@
-#!/bin/bash\n\n   echo "User $PAM_USER logged in from $PAM_RHOST at $(date)" | mail -s "SSH Login Alert" your-email@example.com

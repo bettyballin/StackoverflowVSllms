@@ -1,1 +1,0 @@
-@echo off\nset ORACLE_HOME=C:\oracle\product\19.0.0\client_1\nset PATH=%ORACLE_HOME%\bin;%PATH%\nstart "" "YourServiceExecutable.exe"

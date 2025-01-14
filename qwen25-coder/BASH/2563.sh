@@ -1,1 +1,0 @@
-etsh interface ip delete arpcache\n   ipconfig /release\n   ipconfig /renew

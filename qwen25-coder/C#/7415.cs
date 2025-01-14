@@ -1,1 +1,0 @@
-try {\n       spList.GetItems(query);\n   } catch (SPQueryException ex) {\n       // More specific error message\n       throw new Exception("Failed to retrieve list items: " + ex.Message, ex);\n   }

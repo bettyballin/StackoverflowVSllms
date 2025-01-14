@@ -1,1 +1,0 @@
-// Example of an inline function\ninline int add(int a, int b) {\n    return a + b;\n}\n\nvoid performOperation() {\n    int result = add(5, 3);\n    // Use the result\n}

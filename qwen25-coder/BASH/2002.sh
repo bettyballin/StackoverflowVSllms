@@ -1,1 +1,0 @@
-command="/home/backup/upload.sh" ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAE2V[...] user@host1\ncommand="/home/backup/upload.sh" ssh-rsa AADAB3NzaC1yc2EAABCDvTfz[...] user@host2

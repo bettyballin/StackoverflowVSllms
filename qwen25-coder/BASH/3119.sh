@@ -1,1 +1,0 @@
-mysqldump --all-databases --single-transaction > /path/to/backup/mysql_full_backup.sql

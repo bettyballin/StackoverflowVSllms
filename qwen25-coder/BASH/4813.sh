@@ -1,1 +1,0 @@
-sudo mount -t nfs pc_name:/path/to/share /local/mount/point

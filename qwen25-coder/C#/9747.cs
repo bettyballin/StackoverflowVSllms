@@ -1,1 +1,0 @@
-public class DataAccessLayer : IDataAccessLayer\n{\n    public bool TryConnect()\n    {\n        // Actual connection logic here\n        return true; // simulating successful connection\n    }\n\n    public void FetchData()\n    {\n        // Data fetching logic here\n    }\n}

@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\n// At the beginning of your page load or method\nStopwatch stopwatch = Stopwatch.StartNew();\n\n// Your code logic here\n\nstopwatch.Stop();\nstring elapsedTime = stopwatch.Elapsed.ToString(); // Elapsed time in format dd.hh:mm:ss.ff\n\nResponse.Write("Page execution time: " + elapsedTime);

@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Loop to create 77 files\nfor i in {1..77}\ndo\n    # Create a file named "file$i" and write its name into the file\n    echo "file$i" > "file$i"\ndone

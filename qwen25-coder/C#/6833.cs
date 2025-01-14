@@ -1,1 +1,0 @@
-public class MyController : Controller\n{\n    private readonly IRepository _repository;\n\n    public MyController(IRepository repository)\n    {\n        _repository = repository;\n    }\n\n    public ActionResult Index()\n    {\n        var whatever = new Whatever(...);\n        _repository.Save(whatever);\n\n        return View(whatever);\n    }\n}

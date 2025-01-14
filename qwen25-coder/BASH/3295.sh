@@ -1,1 +1,0 @@
-gcc -fdiagnostics-show-option your_source_file.c -o your_program

@@ -1,1 +1,0 @@
-#if IIS7IntegratedPipeline\n    // Code specific to IIS 7 Integrated Pipeline\n#else\n    // Fallback code for other environments (like IIS6)\n#endif

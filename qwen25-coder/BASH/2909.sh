@@ -1,1 +1,0 @@
-yarn add @fullcalendar/core @fullcalendar/daygrid

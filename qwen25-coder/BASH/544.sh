@@ -1,1 +1,0 @@
-1) wget ftp://mirrors.kernel.org/gnu/gcc/gcc-3.4.6/gcc-3.4.6.tar.bz2\n2) tar -jxf gcc-3.4.6.tar.bz2\n3) cd gcc-3.4.6\n4) ./configure --prefix=/usr/local/gcc-3.4.6\n5) make\n6) sudo make install

@@ -1,1 +1,0 @@
-ul {\n    zoom: 1; /* Triggers hasLayout in IE */\n}\n\nli {\n    color: black !important; /* Ensure text color is not inherited from the background */\n}

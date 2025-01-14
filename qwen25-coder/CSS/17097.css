@@ -1,1 +1,0 @@
-/* Find the existing style in your CSS file */\n.bodytext2 {\n    color: blue; /* This is causing the text to be blue */\n}\n\n/* Change it to whatever color you prefer or remove it entirely */\n.bodytext2 {\n    color: black; /* Example of changing the text to black */\n    /* You can also remove the 'color' property if no specific coloring is needed */\n}

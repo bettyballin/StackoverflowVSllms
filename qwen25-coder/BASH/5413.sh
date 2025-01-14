@@ -1,1 +1,0 @@
-# Install phpMyAdmin (example for Ubuntu)\n   sudo apt-get install phpmyadmi

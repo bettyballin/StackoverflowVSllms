@@ -1,1 +1,0 @@
-g++ -o example example.cpp

@@ -1,1 +1,0 @@
-# Commands for WinDbg\n   .loadby sos clr\n   !dumpheap -stat\n   !gcroot <object address>

@@ -1,1 +1,0 @@
-context.Configuration.AutoDetectChangesEnabled = false;\n   \n   // Perform your inserts and updates\n   \n   context.Configuration.AutoDetectChangesEnabled = true;\n   context.SaveChanges();

@@ -1,1 +1,0 @@
-var userName = dbResult.Name ?? "Guest";

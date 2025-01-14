@@ -1,1 +1,0 @@
-dtrace -p <PID> -n 'pid$target::malloc:entry { @[ustack()] = sum(arg0); }'

@@ -1,1 +1,0 @@
-using System;\nusing System.Web.Services;\n\npublic partial class YourPage : System.Web.UI.Page\n{\n    [WebMethod]\n    public static string GetUpdatedContent()\n    {\n        // Replace with actual content generation logic\n        return "This is the new updated content.";\n    }\n}

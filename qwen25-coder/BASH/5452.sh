@@ -1,1 +1,0 @@
-# Step 1: Install JCE Unlimited Strength (already done as per instruction)\n\n# Step 2: Create a self-signed certificate\nkeytool -genkeypair -alias tomcat -keyalg RSA -keysize 2048 -keystore keystore.jks -validity 365\n\n# Step 3: Configure SSL in Tomcat's server.xml

@@ -1,1 +1,0 @@
-# To use the xlC compiler, simply invoke it instead of g++\nxlC_r -qthreaded exception.cpp -o a.out

@@ -1,1 +1,0 @@
-cscript %SYSTEMDRIVE%\inetpub\adminscripts\adsutil.vbs ENUM /W3SVC/AppPools/DefaultAppPool

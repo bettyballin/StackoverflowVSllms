@@ -1,1 +1,0 @@
-// Example of a simple test in C# using Selenium WebDriver\n[Test]\npublic void OpenWebsiteTest()\n{\n    IWebDriver driver = new ChromeDriver();\n    driver.Navigate().GoToUrl("http://example.com");\n    Assert.IsTrue(driver.Title.Contains("Example Domain"));\n    driver.Quit();\n}

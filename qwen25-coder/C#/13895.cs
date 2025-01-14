@@ -1,1 +1,0 @@
-Response.Clear();\nResponse.ContentType = "application/octet-stream"; // Example MIME type for binary data\nResponse.AddHeader("Content-Disposition", "attachment; filename=yourfile.ext");\nResponse.BinaryWrite(yourByteBuffer);\nResponse.End();  // Ends the response, ensuring no more content is added

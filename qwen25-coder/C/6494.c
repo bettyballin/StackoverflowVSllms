@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include "utils.h"\n\nvoid anotherFunction() {\n    double result = calculate(5.0, 15.0);\n    printf("Result from file2: %f\n", result);\n}

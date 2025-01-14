@@ -1,1 +1,0 @@
-dbml2sql --type mssql -o output.sql yourfile.dbml

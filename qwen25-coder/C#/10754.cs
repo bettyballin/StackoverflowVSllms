@@ -1,1 +1,0 @@
-private static readonly ConcurrentDictionary<Type, PropertyInfo[]> PropertyCache = new ConcurrentDictionary<Type, PropertyInfo[]>();\n\npublic static PropertyInfo[] GetPropertiesCached(Type type)\n{\n    return PropertyCache.GetOrAdd(type, t => t.GetProperties(BindingFlags.Public | BindingFlags.Instance));\n}

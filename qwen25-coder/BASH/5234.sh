@@ -1,1 +1,0 @@
-@echo off\n\nset ORACLE_USER=your_username\nset ORACLE_PASSWORD=your_password\nset ORACLE_TNS=your_tns_name\n\n(\n    echo CONNECT %ORACLE_USER%/%ORACLE_PASSWORD%@%ORACLE_TNS%;\n    echo SET HEADING OFF;\n    echo SET FEEDBACK OFF;\n    echo SELECT * FROM your_table;  -- Your SQL statement here\n    echo EXIT;\n) | sqlplus -S

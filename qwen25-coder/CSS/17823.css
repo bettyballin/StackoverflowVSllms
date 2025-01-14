@@ -1,1 +1,0 @@
-.contact {\n    display: flex;\n}\n\n.personal-info,\n.location-info {\n    flex: 1; /* Equal width */\n}

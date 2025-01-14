@@ -1,1 +1,0 @@
-regsvr32 "C:\Program Files\Common Files\Microsoft Shared\web server extensions\60\BIN\OWSSVR.DLL"

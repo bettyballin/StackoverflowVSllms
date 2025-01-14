@@ -1,1 +1,0 @@
-regsvr32 /u path\to\your\dll.dll

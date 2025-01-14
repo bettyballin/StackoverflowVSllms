@@ -1,1 +1,0 @@
-// Example of a sealed method in MOSS/WSS 3.0 that might benefit from being virtual or overridden\n   public class MyCustomItem : SPListItem {\n       // Override friendly methods instead\n       public override void Update() {\n           base.Update();\n           // Custom logic here\n       }\n   }

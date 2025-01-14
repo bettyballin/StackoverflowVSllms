@@ -1,1 +1,0 @@
-curl -X HEAD https://example.com/hidde

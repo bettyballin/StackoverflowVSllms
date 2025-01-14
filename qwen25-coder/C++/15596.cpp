@@ -1,1 +1,0 @@
-// Example: MyMathLib.cpp\n    #ifdef MYMATHLIB_EXPORTS\n    #define MYMATHLIB_API __declspec(dllexport)\n    #else\n    #define MYMATHLIB_API __declspec(dllimport)\n    #endif\n\n    extern "C" MYMATHLIB_API int Add(int a, int b) {\n        return a + b;\n    }

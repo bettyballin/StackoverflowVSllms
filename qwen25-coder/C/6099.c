@@ -1,1 +1,0 @@
-asm ("movl %1, %%eax;"  // Example for x86\n        "addl %2, %%eax;"\n        "movl %%eax, %0;"\n        : "=r" (result)\n        : "g" (a), "g" (b)\n        : "%eax");

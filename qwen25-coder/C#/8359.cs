@@ -1,1 +1,0 @@
-XNamespace xsi = "http://www.w3.org/2001/XMLSchema-instance";\n   XElement xml = new XElement("Configuration");\n   xml.Add(new XElement(xsi + "nil", true));

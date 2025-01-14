@@ -1,1 +1,0 @@
-string pattern = @"(\b.*?\b)\s+(start) (\b.*?;.*?end\b)";

@@ -1,1 +1,0 @@
-using System.Collections.Generic;\n\nclass C {\n    private KeyValuePair<int, string> x;\n\n    // Example of a method that uses a local alias-like approach for KeyValuePair\n    void UseKVP() {\n        using KVP = KeyValuePair<int, string>; // Local alias within the method scope\n        KVP kvpLocal = new KVP(1, "example");\n    }\n}

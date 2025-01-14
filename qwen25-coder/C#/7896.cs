@@ -1,1 +1,0 @@
-public async Task<IActionResult> FetchDataAsync()\n   {\n       var data = await SomeDatabaseQuery.GetAsync();\n       return View(data);\n   }

@@ -1,1 +1,0 @@
-rh.dsDetail.Tables[0].Columns.RemoveAt(1); // Removes the column at index 1

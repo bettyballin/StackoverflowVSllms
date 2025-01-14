@@ -1,1 +1,0 @@
-logparser file:query.sql -param1:1 -param2:2 -o:Sql -server:databaseserver \\n-database:database -createtable:ON -i:IISW3C -iCheckPoint:somewhere\query.lpc \\n-transactionRowCount:200

@@ -1,1 +1,0 @@
-$OutputEncoding = [System.Text.Encoding]::UTF8\n    chcp 65001\n    java -Dfile.encoding=UTF-8 -jar your-application.jar

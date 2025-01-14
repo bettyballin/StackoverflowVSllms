@@ -1,1 +1,0 @@
-var configuration = new Configuration()\n    .Configure();\n// Other configurations...\n\nvar sessionFactory = configuration\n    .SetInterceptor(new AddressInstantiationInterceptor())\n    .BuildSessionFactory();

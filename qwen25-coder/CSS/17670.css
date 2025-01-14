@@ -1,1 +1,0 @@
-html, body {\n    height: 100%;\n    margin: 0;\n    display: flex;\n    flex-direction: column;\n}\n\n.container {\n    flex: 1; /* This makes the container take up available space */\n}

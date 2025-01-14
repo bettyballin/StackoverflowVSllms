@@ -1,1 +1,0 @@
-Response.Cookies["YourCookieName"].HttpOnly = true;\n   Response.Cookies["YourCookieName"].Secure = true;\n   Response.Cookies["YourCookieName"].SameSite = SameSiteMode.None;

@@ -1,1 +1,0 @@
-pip install pyinstaller\n     pyinstaller --onefile your_script.py

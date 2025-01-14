@@ -1,1 +1,0 @@
-@model string[,] // Adjust the type as per your actual data type\n\n<table>\n    @for (int i = 0; i < Model.GetLength(0); i++)\n    {\n        <tr>\n            @for (int j = 0; j < Model.GetLength(1); j++)\n            {\n                <td>@Model[i, j]</td>\n            }\n        </tr>\n    }\n</table>

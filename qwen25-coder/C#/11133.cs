@@ -1,1 +1,0 @@
-[ServiceContract(SessionMode = SessionMode.Required)]\npublic interface IMyService\n{\n    [OperationContract]\n    void StoreData(string data);\n\n    [OperationContract]\n    string RetrieveData();\n}

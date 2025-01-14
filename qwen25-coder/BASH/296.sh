@@ -1,1 +1,0 @@
-pear package-package2xml -c package2xmlrw.xml .

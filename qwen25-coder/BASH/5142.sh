@@ -1,1 +1,0 @@
-sed '0,/^[ \t]*#include/ s//#include "newfile.h"\n&/' file.cpp

@@ -1,1 +1,0 @@
-// BusinessLogicLayer.csproj (targeting .NET Standard 2.0)\nnamespace BusinessLogicLayer\n{\n    public class BusinessService : IBusinessService\n    {\n        public string GetBusinessData()\n        {\n            return "Some business data";\n        }\n    }\n\n    public interface IBusinessService\n    {\n        string GetBusinessData();\n    }\n}

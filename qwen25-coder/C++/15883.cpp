@@ -1,1 +1,0 @@
-#include <windows.h>\n\nbool LoadNativeDependencies() {\n    const char* dependencies[] = {"cmr.dll", "PNL.dll", "OpenCV.dll"};\n    for (const auto& dll : dependencies) {\n        if (!LoadLibraryExA(dll, NULL, LOAD_WITH_ALTERED_SEARCH_PATH)) {\n            return false; // Failed to load a dependency\n        }\n    }\n    return true;\n}

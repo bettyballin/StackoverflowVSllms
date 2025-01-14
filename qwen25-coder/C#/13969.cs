@@ -1,1 +1,0 @@
-var container = new UnityContainer();\n\n// Register view\ncontainer.RegisterType<CustomerAllView>();\n\n// Register view model with the necessary constructor dependencies being automatically resolved.\ncontainer.RegisterType<CustomerAllViewModel>();

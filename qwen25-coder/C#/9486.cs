@@ -1,1 +1,0 @@
-public void FunctionA(object param)\n{\n    if (param == null) throw new ArgumentNullException(nameof(param));\n\n    DoA(param);\n    DoB(param);\n    DoC(param);\n    // etc.\n}\n\nprivate void DoA(object param)\n{\n    DoD(param);\n}\n\nprivate void DoD(object param)\n{\n    // You can assume 'param' is not null here\n    param.DoX();\n}

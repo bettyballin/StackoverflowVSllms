@@ -1,1 +1,0 @@
-Application.Current.Shutdown();

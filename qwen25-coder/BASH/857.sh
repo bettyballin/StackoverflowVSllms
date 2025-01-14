@@ -1,1 +1,0 @@
-echo "exec ~/bin/your_application" > ~/.bash_profile\n   echo "exit 0" >> ~/.bash_profile

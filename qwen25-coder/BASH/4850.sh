@@ -1,1 +1,0 @@
-keytool -importcert -file mycert.crt -alias myalias -keystore myks.jks -keysize 256

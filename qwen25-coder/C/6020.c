@@ -1,1 +1,0 @@
-char str2[] = "Hi world!";

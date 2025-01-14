@@ -1,1 +1,0 @@
-# Install PHP_CodeSniffer globally via Composer\ncomposer global require "squizlabs/php_codesniffer=*"\n\n# Run PHP_CodeSniffer on a directory\nphpcs --standard=PSR12 /path/to/code

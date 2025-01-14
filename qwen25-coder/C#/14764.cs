@@ -1,1 +1,0 @@
-using (YourServiceClient client = new YourServiceClient())\n{\n    // Call the service method\n    var result = client.YourMethod();\n}

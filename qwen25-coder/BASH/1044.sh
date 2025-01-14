@@ -1,1 +1,0 @@
-# Assuming 'new_lines.txt' contains the lines you want to add and 'config.txt' is your original file\n{ cat new_lines.txt; echo; cat config.txt; } > temp_config.txt && mv temp_config.txt config.txt

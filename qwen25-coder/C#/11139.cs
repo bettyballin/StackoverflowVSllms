@@ -1,1 +1,0 @@
-var numbers = new[] { 1, 2, 3, 4 };\nvar evenNumbers = from num in numbers where num % 2 == 0 select num;

@@ -1,1 +1,0 @@
-bool breakOuterLoop = false;\nfor (int i = 0; i < maxi && !breakOuterLoop; ++i) {\n    for (int j = 0; j < maxj; ++j) {\n        if (i == 4 && j == 3) { // Your condition to exit both loops\n            breakOuterLoop = true;\n            break;\n        }\n        // Other code\n    }\n}

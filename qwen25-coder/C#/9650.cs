@@ -1,1 +1,0 @@
-public partial class EditControl : System.Web.UI.UserControl\n   {\n       public event EventHandler OnEditingStarted;\n\n       protected void btnEdit_Click(object sender, EventArgs e)\n       {\n           // Trigger the event when the edit button is clicked\n           OnEditingStarted?.Invoke(this, EventArgs.Empty);\n       }\n   }

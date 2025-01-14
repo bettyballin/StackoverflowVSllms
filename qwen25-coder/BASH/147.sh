@@ -1,1 +1,0 @@
-tail -f /var/log/mail.log  # For Debian-based systems

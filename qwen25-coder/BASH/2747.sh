@@ -1,1 +1,0 @@
-cd /path/to/your/rails/project

@@ -1,1 +1,0 @@
-# Replace 'DBICTest', 'DBI:mysql:dbname=test;host=localhost', 'user', and 'pass' with your actual details\ndbicdump -o dump_directory=./lib MyApp::Schema DBI:mysql:dbname=test;host=localhost user pass

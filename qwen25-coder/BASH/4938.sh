@@ -1,1 +1,0 @@
-# Load command from file\nmysql -u username -p database_name < dump.sql

@@ -1,1 +1,0 @@
-tlbimp yourfile.tlb /out:YourInteropAssembly.dll /namespace:YourNamespace /transform:dispid

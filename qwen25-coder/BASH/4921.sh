@@ -1,1 +1,0 @@
-svn checkout --depth immediates <repository-url>\n   cd your-repository-directory\n   svn update --set-depth infinity .

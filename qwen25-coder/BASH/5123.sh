@@ -1,1 +1,0 @@
-svn commit -m "Fixed issue XYZ"

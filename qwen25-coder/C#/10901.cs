@@ -1,1 +1,0 @@
-public class DataProcessor\n{\n    private readonly IList<int> _data;\n\n    public DataProcessor(IList<int> data)\n    {\n        _data = data;\n    }\n\n    public void ProcessData()\n    {\n        // Process the data\n        foreach (var item in _data)\n        {\n            Console.WriteLine(item);\n        }\n    }\n}

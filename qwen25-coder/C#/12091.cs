@@ -1,1 +1,0 @@
-// Example: WCF service setup (very basic)\n[ServiceContract]\npublic interface IMyService {\n    [OperationContract]\n    string GetData(int value);\n}\n\npublic class MyService : IMyService {\n    public string GetData(int value) {\n        return "You entered: " + value;\n    }\n}

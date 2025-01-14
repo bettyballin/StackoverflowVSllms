@@ -1,1 +1,0 @@
-string Pattern = @"<title>(?<Title>[^<]+?)</title>[\w\W]*?<div\s+class=""article"">(?<Text>[\w\W]+?)</div>";\nbool isMatch = Regex.IsMatch(HTML, Pattern, RegexOptions.Singleline);

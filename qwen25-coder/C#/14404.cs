@@ -1,1 +1,0 @@
-SqlDataSource1.SelectCommand = "SELECT * FROM MyTable WHERE id=@id";\nSqlDataSource1.SelectParameters.Add("id", TypeCode.Int32, TextBox1.Text);

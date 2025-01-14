@@ -1,1 +1,0 @@
-# Install using Homebrew on macOS\n   brew install html-tidy\n\n   # Validate an HTML file\n   tidy -check foo.html

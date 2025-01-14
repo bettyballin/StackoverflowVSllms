@@ -1,1 +1,0 @@
-ssh-copy-id -i ~/.ssh/tunnel_key.pub user@remote_host

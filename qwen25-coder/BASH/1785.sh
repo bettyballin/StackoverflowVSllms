@@ -1,1 +1,0 @@
-regasm YourPythonDLL.dll /tlb:YourPythonServer.tlb

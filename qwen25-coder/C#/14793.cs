@@ -1,1 +1,0 @@
-using System;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        // Load the DLL and call the function that shows the form.\n        MyFormDll.FormHelper.ShowMyForm();\n    }\n}

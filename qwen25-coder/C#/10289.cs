@@ -1,1 +1,0 @@
-// Assuming db is your DataContext\n\npublic Person GetPersonWithNotes(int personId)\n{\n    var person = db.PersonGet(personId).Single();\n    person.Notes = new List<Note>(db.PersonNotesGet(personId));\n    return person;\n}\n\n// Usage:\nvar myPerson = GetPersonWithNotes(pnID);\n\nforeach (var note in myPerson.Notes)\n{\n    // Do something with note\n}

@@ -1,1 +1,0 @@
-# Adding your SSH key to the Keychain\n/usr/bin/ssh-add -K ~/.ssh/id_rsa

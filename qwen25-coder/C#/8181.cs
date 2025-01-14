@@ -1,1 +1,0 @@
-string appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);\nstring imagePath = Path.Combine(appDataPath, "YourAppName", "Images");\n\n// Ensure the directory exists\nDirectory.CreateDirectory(imagePath);\n\nreturn imagePath;

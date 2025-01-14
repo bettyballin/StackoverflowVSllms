@@ -1,1 +1,0 @@
-screen -S my_screen_session -X screen ./my_script.sh

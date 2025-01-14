@@ -1,1 +1,0 @@
-#!/bin/bash\n# Assume migrations/ directory contains all .sql files named according to version\nfor file in migrations/*.sql; do\n  echo "Running migration: $file"\n  sqlcmd -S <your_server> -d <your_db> -i "$file"\ndone

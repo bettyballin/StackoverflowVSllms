@@ -1,1 +1,0 @@
-sha256sum filename\n# or\nsha3sum filename

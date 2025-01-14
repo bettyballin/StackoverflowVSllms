@@ -1,1 +1,0 @@
-public class DataNotFoundException : Exception\n    {\n        public DataNotFoundException() { }\n        public DataNotFoundException(string message) : base(message) { }\n        public DataNotFoundException(string message, Exception innerException) : base(message, innerException) { }\n    }

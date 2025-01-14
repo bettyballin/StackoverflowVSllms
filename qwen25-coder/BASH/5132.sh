@@ -1,1 +1,0 @@
-/path/to/gc-patched-ruby/bin/gem install <gem-name>

@@ -1,1 +1,0 @@
-[HttpPost]\n[ValidateAntiForgeryToken]\npublic ActionResult SubmitForm(MyModel model)\n{\n    // Process the form data\n    return View();\n}

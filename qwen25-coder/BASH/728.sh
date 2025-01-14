@@ -1,1 +1,0 @@
-#!/bin/sh\nsyncthing -no-browser &

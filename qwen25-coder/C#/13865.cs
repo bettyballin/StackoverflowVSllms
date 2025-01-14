@@ -1,1 +1,0 @@
-public class CaseNoteDal {\n    public List<CaseNote> GetAllByMember(string memberId) {\n        // database operation to fetch case notes by member ID\n    }\n\n    public void Insert(CaseNote note) {\n        // database operation to insert a new case note\n    }\n}

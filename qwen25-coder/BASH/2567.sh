@@ -1,1 +1,0 @@
-sed '/#START-EDIT/,/#END-EDIT/s/#//g' filename

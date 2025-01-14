@@ -1,1 +1,0 @@
-var jwtManager = new JwtManager();\nvar token = jwtManager.GenerateToken("user123");\nResponse.Redirect($"http://www.anotherapplicationsite.com/somesuburl?token={Uri.EscapeDataString(token)}");

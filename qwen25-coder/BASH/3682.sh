@@ -1,1 +1,0 @@
-bcp "SELECT * FROM YourDatabaseName.dbo.YourTableName" queryout "C:\YourFilePath\output.csv" -c -T -S YourServerName

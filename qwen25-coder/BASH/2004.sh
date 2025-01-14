@@ -1,1 +1,0 @@
-To use XPerf:\n1. Install Windows Performance Toolkit from Windows SDK.\n2. Start a user-mode trace: xperf -start MyTrace\n3. Perform actions related to your BHO.\n4. Stop the trace and save data: xperf -stop MyTrace -d mytrace.etl\n5. Analyze with xperfview or other suitable tools.

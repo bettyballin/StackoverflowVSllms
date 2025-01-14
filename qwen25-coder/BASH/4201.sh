@@ -1,1 +1,0 @@
-docker run -d --name test-mail-server -p 25:25 -p 143:143 -e DISABLE\_CLAMAV=1 -e DISABLE\_SPAMASSASSIN=1 -e PERMIT\_ROOT=1 fauria/postfix-dovecot-sasl

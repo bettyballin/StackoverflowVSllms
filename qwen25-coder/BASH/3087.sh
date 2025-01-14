@@ -1,1 +1,0 @@
-function xwait() {\n    while ! xdotool search --onlyvisible --name "$1"; do\n        sleep 0.5\n    done\n}\n\nxterm -T foo &\nxwait "foo"\nxdotool windowmove "$(xdotool search --name "foo" | head -n 1)" 10 20

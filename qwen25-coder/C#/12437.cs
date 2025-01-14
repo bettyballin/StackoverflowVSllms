@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        btnX.Value = Resources.res.Button_Text;\n    }\n}

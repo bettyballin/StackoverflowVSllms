@@ -1,1 +1,0 @@
-CComPtr< IXMLDOMDocument > doc;\np->get_doc( &doc );\n// The file will be saved on the machine where 'doc' COM object resides.\ndoc->save( CComVariant( L"C:\\pathto\\mydoc.xml" ) );

@@ -1,1 +1,0 @@
-string nowWithOffset = DateTimeOffset.Now.ToString("o");

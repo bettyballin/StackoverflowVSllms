@@ -1,1 +1,0 @@
-# Bash Example: Sleep/Hibernate/Shutdown\n# Sleep (Standby)\nsudo pm-suspend\n\n# Hibernate\nsudo pm-hibernate\n\n# Shutdown\nsudo shutdown -h now

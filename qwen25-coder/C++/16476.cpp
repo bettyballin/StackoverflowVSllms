@@ -1,1 +1,0 @@
-#include <iostream>\n  #include <string>\n\n  int main() {\n      std::u32string unicodeString = U"Привет мир"; // Example with Russian text\n      return 0;\n  }

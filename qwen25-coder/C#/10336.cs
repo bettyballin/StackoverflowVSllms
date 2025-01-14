@@ -1,1 +1,0 @@
-routes.MapRoute(\n    name: "CarActions",\n    url: "{carRego}/{controller}/{action}/{value}",\n    defaults: new { controller = "Home", action = "Index", value = UrlParameter.Optional }\n);

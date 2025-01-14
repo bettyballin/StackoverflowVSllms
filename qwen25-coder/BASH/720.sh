@@ -1,1 +1,0 @@
-# Using SQL*Plus\n   sqlplus / as sysdba <<EOF\n   startup;\n   EOF\n\n   # Alternatively, using systemd (if configured)\n   sudo systemctl start oracle-database.service

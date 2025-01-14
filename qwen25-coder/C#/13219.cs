@@ -1,1 +1,0 @@
-using System;\nusing System.Collections.Generic;\nusing System.Linq;\n\nclass Program {\n    static void Main() {\n        List<int> list = new List<int> { 1, 3, 5 };\n        Console.WriteLine(string.Join("\t", list));\n    }\n}

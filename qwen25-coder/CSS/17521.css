@@ -1,1 +1,0 @@
-/* Styles for full-size website */\nbody {\n    font-size: 16px;\n}\n\n/* Styles specifically for mobile devices */\n@media only screen and (max-width: 600px) {\n    body {\n        font-size: 14px;\n        /* Additional styles to make it look better on small screens */\n    }\n}

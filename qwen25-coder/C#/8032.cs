@@ -1,1 +1,0 @@
-[HttpPost]\n    public ActionResult Edit(Source src)\n    {\n        if (!ModelState.IsValid || _sourceService.ValidateSource(src, ModelState))\n        {\n            return View("EditSource", src);\n        }\n\n        _sourceService.SaveSource(src);\n        return RedirectToAction("Index");\n    }

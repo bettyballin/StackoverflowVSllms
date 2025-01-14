@@ -1,1 +1,0 @@
-ffprobe -v error -show_format -show_streams input.mp4

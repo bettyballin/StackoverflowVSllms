@@ -1,1 +1,0 @@
-# For command line usage on Linux/Windows\nvtune -collect hotspots ./your_program

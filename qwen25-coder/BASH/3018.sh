@@ -1,1 +1,0 @@
-which php_beautifier  # Find the path on Linux/Mac

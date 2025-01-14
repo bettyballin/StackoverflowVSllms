@@ -1,1 +1,0 @@
-msbuild YourProject.vcxproj /p:Configuration=FullBuild\n   msbuild YourProject.vcxproj /p:Configuration=PartialBuild

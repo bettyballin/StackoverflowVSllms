@@ -1,1 +1,0 @@
-// In your code-behind or utility class\nstring tempPath = Server.MapPath(ConfigurationManager.AppSettings["TempFilePath"]);\nif (!Directory.Exists(tempPath))\n{\n    Directory.CreateDirectory(tempPath);\n}\n// Use tempPath for your temporary files

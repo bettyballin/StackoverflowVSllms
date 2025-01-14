@@ -1,1 +1,0 @@
-// In MyDll.cpp\n#include "MyDll.h"\n#include <iostream>\n\nvoid MyClass::DoSomething() {\n    std::cout << "Doing something!" << std::endl;\n}

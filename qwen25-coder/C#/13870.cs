@@ -1,1 +1,0 @@
-using NCalc;\n\nstring formulaText = "BenchmarkA + 1"; // This would come from your database PricingFormulas table\n\nExpression e = new Expression(formulaText);\ne.Parameters["BenchmarkA"] = benchmarkAValue; // retrieved from MarketBenchmarks table\ndecimal result = (decimal)e.Evaluate();\n\nConsole.WriteLine("Calculated Price: " + result);

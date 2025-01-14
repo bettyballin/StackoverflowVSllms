@@ -1,1 +1,0 @@
-# Example command to generate server code from WSDL service definition\n   soapcpp2 -Iimport_dir service.wsdl

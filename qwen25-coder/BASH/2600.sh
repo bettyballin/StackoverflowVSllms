@@ -1,1 +1,0 @@
-mkdir /path/to/central/repo\n   cd /path/to/central/repo\n   git init --bare central-repo.git

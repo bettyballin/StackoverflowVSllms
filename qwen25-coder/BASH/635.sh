@@ -1,1 +1,0 @@
-echo GET http://localhost/<YourApp>/ > c:\warmup.txt\n%systemroot%\system32\inetsrv\appcmd start warmup /urlfile:c:\warmup.txt /pinginterval:60000 /maxwaitinterval:360000

@@ -1,1 +1,0 @@
-reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\BizTalk Server\3.0\Admin" /v UseProxy /t REG_SZ /d TRUE\n   reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\BizTalk Server\3.0\Admin" /v ProxyServer /t REG_SZ /d http://your-proxy-server:port\n   reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\BizTalk Server\3.0\Admin" /v ProxyPort /t REG_DWORD /d port-number-here

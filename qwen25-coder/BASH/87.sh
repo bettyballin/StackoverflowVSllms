@@ -1,1 +1,0 @@
-g++ -S your_source_file.cpp

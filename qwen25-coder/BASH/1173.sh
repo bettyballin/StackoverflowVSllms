@@ -1,1 +1,0 @@
-RewriteEngine On\n\n# Check if the host is help.domain1.com\nRewriteCond %{HTTP_HOST} ^help\.domain1\.com$ [NC]\nRewriteRule ^(.*)$ http://help.domain2.com/$1 [P,L]\n\n# The P flag indicates a proxy through the server

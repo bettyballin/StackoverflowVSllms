@@ -1,1 +1,0 @@
-set REQUEST_METHOD=GET\nset QUERY_STRING="param1=value1&param2=value2"\nYourCGIExecutable.exe

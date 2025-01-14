@@ -1,1 +1,0 @@
-public class CustomServiceAuthorizationManager : ServiceAuthorizationManager\n   {\n       protected override bool CheckAccessCore(OperationContext operationContext)\n       {\n           // Implement your custom access rights logic here.\n           return true; // Or false if the user doesn't have permission.\n       }\n   }

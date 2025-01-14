@@ -1,1 +1,0 @@
-keytool -import -alias example.com -file example.com.crt -keystore /path/to/your/truststore.jks -storepass changeit

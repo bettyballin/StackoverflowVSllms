@@ -1,1 +1,0 @@
-// Ensure these settings are applied when building FreeImage in Debug mode:\n/DEBUG (Enable debugging information)\n/Zi (Program Database)

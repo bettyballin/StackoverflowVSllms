@@ -1,1 +1,0 @@
-perl path\to\yourscript.pl > "$(ProjectDir)desiredoutputfile.vb"

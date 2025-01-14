@@ -1,1 +1,0 @@
-string windowsIdentityName = OperationContext.Current.ServiceSecurityContext.PrimaryIdentity.Name;\nvar windowsPrincipal = (ClaimsPrincipal)OperationContext.Current.ServiceSecurityContext.AuthorizationContext.Properties["Principal"];

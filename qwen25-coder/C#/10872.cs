@@ -1,1 +1,0 @@
-// Example of a simplified interface in managed code\n   public interface IManagedDebugger\n   {\n       void StartDebugging();\n       void StopDebugging();\n       void Break();\n       IThread[] GetThreads();\n   }

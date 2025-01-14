@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Set HOME explicitly if not already set\nexport HOME=/root  # Assuming root user is used and home directory is /root\n\n# Use full path to ssh key\nssh -ni /path/to/your/private/key user@remotehost echo "hello world"

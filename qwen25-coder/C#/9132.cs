@@ -1,1 +1,0 @@
-// Define a single data context in LINQ to SQL\npublic class MyDataContext : DataContext\n{\n    public Table<User> Users { get; set; }\n    public Table<Order> Orders { get; set; }\n}

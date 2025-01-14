@@ -1,1 +1,0 @@
-var employees = db.Employees.ToArray();\nforeach (Employee e in employees)\n{\n    // Use the employee object as needed\n}

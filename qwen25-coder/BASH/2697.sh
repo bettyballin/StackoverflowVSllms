@@ -1,1 +1,0 @@
-pear install PHP_CodeSniffer\n   pear install PHP_Beautifier-0.10.0

@@ -1,1 +1,0 @@
-ssh -L <localport>:<hostname>:22 <user>@<hostname> -p <specialsshport>

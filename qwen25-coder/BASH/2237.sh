@@ -1,1 +1,0 @@
-sudo chown root:root /etc/postfix/sasl_passwd /etc/postfix/sasl_passwd.db\n   sudo chmod 0600 /etc/postfix/sasl_passwd /etc/postfix/sasl_passwd.db

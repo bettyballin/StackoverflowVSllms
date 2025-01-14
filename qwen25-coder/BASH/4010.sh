@@ -1,1 +1,0 @@
-# Ocra command to create an executable from a Ruby script\ngem install ocra\nocra your_script.rb

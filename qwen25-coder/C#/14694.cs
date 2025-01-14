@@ -1,1 +1,0 @@
-public class SecretLogic {\n    private string _secretKey = "SuperSecretKey123";\n\n    public bool ValidateAccess(string inputKey) {\n        return _secretKey == inputKey; // Attacker can see this logic in the PDB file.\n    }\n}

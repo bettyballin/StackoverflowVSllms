@@ -1,1 +1,0 @@
-// Example usage with HttpClient in .NET\nHttpClient client = new HttpClient();\nHttpRequestMessage request = new HttpRequestMessage(HttpMethod.Get, "http://server/user/get/1234");\nrequest.Headers.Authorization = new AuthenticationHeaderValue("Bearer", "token_id");\n\nHttpResponseMessage response = await client.SendAsync(request);

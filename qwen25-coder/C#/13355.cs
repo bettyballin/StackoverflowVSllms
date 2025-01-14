@@ -1,1 +1,0 @@
-protected override bool PropertyValid(object value)\n{\n    return IsPasswordSafe((string)value);\n}\n\npublic static bool IsPasswordSafe(string password)\n{\n    // Your password validation logic here\n    return password.Length >= 8 && password.Length <= 20;\n}

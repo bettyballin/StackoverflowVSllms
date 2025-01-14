@@ -1,1 +1,0 @@
-.two-column-list {\n    column-count: 2;\n    list-style-type: none; /* Remove bullet points */\n    padding-left: 0; /* Remove default padding */\n}\n\n/* Optional: For better spacing between columns */\n.two-column-list li {\n    break-inside: avoid; /* Prevents breaking of list items across columns */\n}

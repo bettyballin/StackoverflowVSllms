@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Start foo and bar in a subprocess group\n(\n  foo &\n  # Use wait here to make sure foo runs until bar is done or terminated\n  bar\n) &\n\n# Wait for the process group to be over (when Ctrl+C is pressed)\nwait $!

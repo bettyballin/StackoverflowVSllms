@@ -1,1 +1,0 @@
-public class ProductReadService {}\n  public class ProductWriteService {}

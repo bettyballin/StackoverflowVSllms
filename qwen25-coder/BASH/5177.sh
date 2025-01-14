@@ -1,1 +1,0 @@
-@echo off\nset "myString=This is my complex "string" that I want to echo."\necho %myString% > outputFile.txt

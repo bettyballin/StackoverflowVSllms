@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    // This page does nothing; its sole purpose is to refresh the session\n}

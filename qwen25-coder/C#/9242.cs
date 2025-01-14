@@ -1,1 +1,0 @@
-private DateTime? startdate;\n\npublic void SetStartDate(DateTime date)\n{\n    startdate = date;\n}\n\npublic string GetStartDateInfo()\n{\n    if (startdate.HasValue)\n    {\n        return "Start Date: " + startdate.Value.ToString();\n    }\n    else\n    {\n        return "Start Date not set.";\n    }\n}

@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Function to gracefully shut down the Java application\nshutdown() {\n    echo "Received signal, shutting down..."\n    kill $JAVA_PID\n}\n\n# Trap SIGINT (2) and SIGTERM (15)\ntrap 'shutdown' 2 15\n\n# Start the Java application in the background\njava -cp . SignalTest >> sigtest.log 2>&1 &\nJAVA_PID=$!\n\nwait $JAVA_PID\necho "Java process exited with status $?"

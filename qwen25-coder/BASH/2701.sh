@@ -1,1 +1,0 @@
-# Example httperf command to send GET request through a proxy\n   httperf --server=your_target_server --port=80 --proxy=your_proxy_server:your_proxy_port --uri=/your_uri --method=GET

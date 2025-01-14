@@ -1,1 +1,0 @@
-wget https://cs.sensiolabs.org/download/php-cs-fixer-v2.phar -O php-cs-fixer\n   chmod a+x php-cs-fixer

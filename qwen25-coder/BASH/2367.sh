@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Start Xvfb on display :99 with a tiny screen\nXvfb :99 -screen 0 1x1x8 &\n\n# Remember the process id to kill later\nXVFB_PID=$!\n\n# Set the DISPLAY variable to point to Xvfb's display\nexport DISPLAY=:99\n\n# Run your Java application\njava -jar your-java-application.jar\n\n# Clean up: stop Xvfb and wait for it to terminate\nkill $XVFB_PID\nwait $XVFB_PID

@@ -1,1 +1,0 @@
-[DllImport("YourLegacyDLL.dll", CallingConvention = CallingConvention.StdCall)]\npublic static extern void ProcessChunk(\n    IntPtr p_prochdl,\n    ref BIG_INPUT_STRC p_inparams,\n    out BIG_OUTPUT_STRC p_outparams);

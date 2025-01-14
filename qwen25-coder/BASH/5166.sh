@@ -1,1 +1,0 @@
-etsh advfirewall set allprofiles firewallpolicy blockinboundalways,allowoutboundalways

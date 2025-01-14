@@ -1,1 +1,0 @@
-using (var context = new YourDataContext())\n{\n    // Using parameterized query to prevent SQL injection\n    var safeQuery = from item in context.Items\n                    where item.Id == itemId && item.Name.StartsWith(namePrefix)\n                    select item;\n    var results = safeQuery.ToList();\n}

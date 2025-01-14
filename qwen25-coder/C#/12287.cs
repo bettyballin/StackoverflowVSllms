@@ -1,1 +1,0 @@
-routes.MapRoute(\n    name: "DefaultWithBool",\n    url: "{controller}/{action}Html/{id}",\n    defaults: new { controller = "Stationery", action = "ShowHtml" }\n);\n\nroutes.MapRoute(\n    name: "DefaultXml",\n    url: "{controller}/{action}Xml/{id}",\n    defaults: new { controller = "Stationery", action = "ShowXml" }\n);

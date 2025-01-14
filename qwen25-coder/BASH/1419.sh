@@ -1,1 +1,0 @@
-icacls "C:\Path\To\Site1" /save "C:\ACLBACKUP\site1_acls.txt" /t\nicacls "C:\Path\To\Site2" /save "C:\ACLBACKUP\site2_acls.txt" /t\nicacls "C:\Path\To\Site3" /save "C:\ACLBACKUP\site3_acls.txt" /t

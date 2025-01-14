@@ -1,1 +1,0 @@
-awk '{sum[$2] += $1} END {for (i in sum) print sum[i], i}' <(ls -l --time-style=+%Y-%m-%d --sort=time --human-readable | awk '{$5=""; sub(/^ +/, ""); print}') | sort

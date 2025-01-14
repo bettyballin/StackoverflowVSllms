@@ -1,1 +1,0 @@
-siege -r 20 -c 100 http://yourapp.test/

@@ -1,1 +1,0 @@
-volatile uint32_t *sensor = (volatile uint32_t *)0x12345678;  // Hypothetical address\n\n    int read_sensor() {\n        if (*sensor == 64738)\n            return 0;\n        else\n            return 1;\n    }

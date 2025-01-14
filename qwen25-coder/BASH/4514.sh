@@ -1,1 +1,0 @@
-tidy -config tidy.conf -o output.xhtml input.html

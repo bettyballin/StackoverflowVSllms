@@ -1,1 +1,0 @@
-/* Targets only IE6 and IE7 */\n*+html #Banner02 {\n    top: 59px;\n}\n\n/* IE8 specific (only works in quirks mode) */\n@media \0screen\ {\n  #Banner02 { \n      top: 59px; \n  }\n}

@@ -1,1 +1,0 @@
-public ActionResult Titles(string like)\n{\n    var issues = _db.GetSimilarIssues(like).ToList();\n    return PartialView("_Titles", issues);\n}

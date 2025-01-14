@@ -1,1 +1,0 @@
-public interface IOfficeWrapper\n{\n    void CreateDocument();\n}

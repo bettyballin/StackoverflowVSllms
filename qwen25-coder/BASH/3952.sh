@@ -1,1 +1,0 @@
-xcopy /y /d "$(SolutionDir)Path\To\YourDLL.dll" "$(OutDir)"

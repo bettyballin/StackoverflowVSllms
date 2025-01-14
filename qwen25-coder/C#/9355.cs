@@ -1,1 +1,0 @@
-public static class CurrentUser\n{\n    private static readonly AsyncLocal<string> _currentUser = new AsyncLocal<string>();\n\n    public static string Username\n    {\n        get { return _currentUser.Value; }\n        set { _currentUser.Value = value; }\n    }\n}

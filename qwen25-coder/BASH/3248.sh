@@ -1,1 +1,0 @@
-tail -f /var/log/syslog  # or wherever syslog is stored

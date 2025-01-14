@@ -1,1 +1,0 @@
-# Note: As of my last update, it's difficult to get more recent IE versions working with Wine.\n   # You might want to try with older versions if you can find it useful.\n   sudo apt-get install wine

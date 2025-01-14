@@ -1,1 +1,0 @@
-# Check existing MIME types (optional)\nGet-WebConfiguration -filter system.webServer/staticContent/mimeMap\n\n# Add MIME type for .xap files\nAdd-WebConfigurationProperty -pspath 'MACHINE/WEBROOT/APPHOST'  -filter "system.webServer/staticContent" -name "." -value @{fileExtension='.xap'; mimeType='application/x-silverlight-app'}

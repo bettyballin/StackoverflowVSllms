@@ -1,1 +1,0 @@
-// In global.asax\nvoid Application_BeginRequest(object sender, EventArgs e)\n{\n    string url = Request.Url.ToString();\n    if (url.ToLower().StartsWith("https://somesite.com"))\n    {\n        Response.Redirect(url.Replace("https://somesite.com", "https://www.somesite.com"));\n    }\n}

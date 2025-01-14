@@ -1,1 +1,0 @@
-set SVN_AUTHOR=YourCustomName

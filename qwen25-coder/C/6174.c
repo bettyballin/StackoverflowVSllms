@@ -1,1 +1,0 @@
-// Example vulnerable C code for stack buffer overflow\nvoid vulnerableFunction(char *str) {\n    char buffer[10];\n    strcpy(buffer, str);  // No bounds checking\n}\n\nint main(int argc, char **argv) {\n    vulnerableFunction(argv[1]);\n    return 0;\n}

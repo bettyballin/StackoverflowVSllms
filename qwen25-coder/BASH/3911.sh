@@ -1,1 +1,0 @@
-composer require davidxiaozhi/number-formatter

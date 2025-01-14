@@ -1,1 +1,0 @@
-# Open PowerShell as admin and run:\n   Add-WindowsFeature Web-Asp-Net

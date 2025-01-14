@@ -1,1 +1,0 @@
-string st = tt.PostedFile.FileName;\nint a = st.LastIndexOf("\\");\nstring fn = st.Substring(a + 1);\nstring fp = Server.MapPath("~/Uploads/") + "\\" + fn; // Ensure there's an 'Uploads' folder in your root directory\ntt.PostedFile.SaveAs(fp); // Pass the variable fp, not the string "fp"

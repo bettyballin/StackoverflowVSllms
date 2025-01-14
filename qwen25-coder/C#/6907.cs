@@ -1,1 +1,0 @@
-using Microsoft.Owin;\nusing Owin;\n\n[assembly: OwinStartup(typeof(YourNamespace.Startup))]\n\nnamespace YourNamespace\n{\n    public class Startup\n    {\n        public void Configuration(IAppBuilder app)\n        {\n            // Any connection or hub wire up and configuration should go here\n            app.MapSignalR();\n        }\n    }\n}

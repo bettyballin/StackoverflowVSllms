@@ -1,1 +1,0 @@
-# Example of static code analysis with SonarQube\n   sonar-scanner -D"sonar.projectKey=my_project" -D"sonar.sources=src"

@@ -1,1 +1,0 @@
-.multi-columns {\n    column-count: 2; /* This sets the number of columns */\n    -webkit-column-count: 2; /* For Safari */\n    -moz-column-count: 2; /* For Firefox */\n}\n\n@media (min-width: 768px) {\n    .multi-columns {\n        column-count: 3; /* Increases to three columns on larger screens */\n        -webkit-column-count: 3;\n        -moz-column-count: 3;\n    }\n}

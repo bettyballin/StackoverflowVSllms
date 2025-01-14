@@ -1,1 +1,0 @@
-void GetValues(out int x, out int y) {\n    x = 5;\n    y = 10;\n}\n\nint a, b;\nGetValues(out a, out b); // a will be 5 and b will be 10

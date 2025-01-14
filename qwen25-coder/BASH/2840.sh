@@ -1,1 +1,0 @@
-rpm -Uvh http://download.fedora.redhat.com/pub/epel/5/i386/epel-release-5-4.noarch.rpm\n   yum install ntfs-3g

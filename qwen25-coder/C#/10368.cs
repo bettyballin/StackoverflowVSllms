@@ -1,1 +1,0 @@
-// Program.cs\n\nusing System;\n\nclass Program\n{\n    static void Main(string[] args)\n    {\n        var greeting = MyModule.greet("World");\n        Console.WriteLine(greeting);\n    }\n}

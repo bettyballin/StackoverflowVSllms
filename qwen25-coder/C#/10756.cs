@@ -1,1 +1,0 @@
-this.Application.ItemSend += new Outlook.ApplicationEvents_11_ItemSendEventHandler(ThisAddIn_Senders_Inspection_Mail);

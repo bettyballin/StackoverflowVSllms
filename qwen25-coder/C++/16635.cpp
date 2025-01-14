@@ -1,1 +1,0 @@
-#include <vector>\nusing std::vector;\n\nvector<Foo*> foo_vec;\n// Assuming foo_vec is filled with Foo* pointers...\n\nfor (Foo* ptr : foo_vec) {\n    delete ptr;\n}\nfoo_vec.clear();  // Clear the vector so it no longer holds dangling pointers.

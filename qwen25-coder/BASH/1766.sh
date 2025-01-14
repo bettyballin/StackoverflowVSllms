@@ -1,1 +1,0 @@
-!analyze -v\n     k

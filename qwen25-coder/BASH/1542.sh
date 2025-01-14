@@ -1,1 +1,0 @@
-# Example command to check bindings for a specific website using PowerShell (for IIS 7+), but you can manually set in IIS Manager for IIS 6\nGet-WebBinding -Name "Default Web Site"

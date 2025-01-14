@@ -1,1 +1,0 @@
-# Command assumes your SOCKS5 server is at 127.0.0.1, port 9050 and MySQL server is at mysql.example.com on port 3306\n   socat TCP4-LISTEN:3307,fork SOCKS5:127.0.0.1:mysql.example.com:3306

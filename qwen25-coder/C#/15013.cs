@@ -1,1 +1,0 @@
-XmlNodeList entityTypes = edmxFile.SelectNodes("//e:EntityType", nsMan);

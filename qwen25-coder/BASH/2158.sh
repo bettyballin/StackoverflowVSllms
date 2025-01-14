@@ -1,1 +1,0 @@
-# PowerShell command to check .NET installed on a Windows PE environment\nGet-WindowsCapability -Online | Where-Object { $_.Name -like "*.Net*" }

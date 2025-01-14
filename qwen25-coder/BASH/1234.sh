@@ -1,1 +1,0 @@
-curl -X POST "http://example.com/your_php_script.php?email=user@example.com" \\n     -d "name=JohnDoe&age=30"

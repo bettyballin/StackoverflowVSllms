@@ -1,1 +1,0 @@
-.strikeout-row {\n    position: relative;\n}\n\n.strikeout-row::before {\n    content: '';\n    position: absolute;\n    top: 50%;\n    left: 0;\n    height: 2px; /* Thickness of the line */\n    width: 100%;\n    background-color: black; /* Color of the line */\n}

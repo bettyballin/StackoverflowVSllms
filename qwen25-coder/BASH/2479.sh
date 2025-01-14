@@ -1,1 +1,0 @@
-pdfdetach -list input.pdf

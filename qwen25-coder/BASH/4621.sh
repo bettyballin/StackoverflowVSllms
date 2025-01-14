@@ -1,1 +1,0 @@
-wget http://mirrors.ctan.org/support/pdfcrop/pdfcrop-1.5.zip

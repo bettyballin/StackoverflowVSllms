@@ -1,1 +1,0 @@
-javap -c MyProgram.class

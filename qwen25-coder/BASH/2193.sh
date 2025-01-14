@@ -1,1 +1,0 @@
-# Set DPI Scaling using PowerShell (requires administrative privileges)\nSet-ItemProperty -Path "HKCU:\Control Panel\Desktop\WindowMetrics" -Name AppliedDPI -Value 192\nRUNDLL32.EXE USER32.DLL,UpdatePerUserSystemParameters

@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <stdlib.h>\n\nvoid set_process_name(char* name) {\n    #ifdef __linux__\n        prctl(15 /* PR_SET_NAME */, name);\n    #elif defined(__APPLE__)\n        setproctitle("%s", name);\n    #endif\n}

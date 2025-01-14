@@ -1,1 +1,0 @@
-__declspec(dllexport) void MyExportedFunction() {\n         // Function body\n     }

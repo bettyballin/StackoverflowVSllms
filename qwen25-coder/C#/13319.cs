@@ -1,1 +1,0 @@
-public int GetLength() => _length;\n   \n   public void PrintName(string name) => Console.WriteLine(name);

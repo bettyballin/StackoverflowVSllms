@@ -1,1 +1,0 @@
-void swap(int* a, int* b) {\n    int t = *a;\n    *a = *b;\n    *b = t;\n}

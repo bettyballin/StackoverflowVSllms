@@ -1,1 +1,0 @@
-public class LegacyEntityMap : ClassMapping<LegacyEntity>\n{\n    public LegacyEntityMap()\n    {\n        Table("LegacyTable");\n        Id(x => x.Id, m =>\n        {\n            m.Column("StringPrimaryKey");\n            m.Generator(Generators.Assigned);\n        });\n        // Other properties mappings...\n    }\n}

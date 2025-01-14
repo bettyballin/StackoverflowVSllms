@@ -1,1 +1,0 @@
-%post\ncat /usr/share/doc/%{name}-%{version}/LICENSE | more\nread -p "Do you accept the terms of this license (yes/no)? "\nif [ "$REPLY" != yes ]; then\n  echo "EULA not accepted. Exiting installation."\n  exit 1\nfi\n\nexit 0

@@ -1,1 +1,0 @@
-ab -n 1000 -c 10 http://localhost/xslt_script.php\n   /usr/bin/time -v php xslt_script.php\n   valgrind --tool=massif php xslt_script.php

@@ -1,1 +1,0 @@
-C:\Windows\System32\inetsrv\appcmd.exe set config /section:system.webServer/fastCgi /+[fullPath='C:\PHP\php-cgi.exe',arguments='']

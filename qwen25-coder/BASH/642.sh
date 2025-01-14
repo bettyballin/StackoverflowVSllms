@@ -1,1 +1,0 @@
-groupadd oinstall\n    useradd -m -g oinstall oracle\n    passwd oracle

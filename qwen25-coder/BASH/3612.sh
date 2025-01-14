@@ -1,1 +1,0 @@
-sudo htpasswd -c /etc/apache2/.htpasswd username

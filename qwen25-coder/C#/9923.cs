@@ -1,1 +1,0 @@
-public override int GetHashCode()\n{\n    return Id.GetHashCode();\n}

@@ -1,1 +1,0 @@
-sqlcmd -S YourServerName\YourInstanceName -d msdb -i YourScript.sql -v DatabaseName="TargetDatabase" OwnerAccount="sa"

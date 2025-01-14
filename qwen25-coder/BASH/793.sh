@@ -1,1 +1,0 @@
-# Example of searching an LDAP server for users with 'John' in their common name:\nldapsearch -H ldap://example.com -b "dc=example,dc=com" "(cn=*John*)"

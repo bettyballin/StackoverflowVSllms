@@ -1,1 +1,0 @@
-svn checkout https://your-codeplex-repo-url/trunk codeplex-working-copy

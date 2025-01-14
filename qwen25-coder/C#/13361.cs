@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult Create(Product product)\n{\n    if (ModelState.IsValid)\n    {\n        // Save to database, etc.\n        return RedirectToAction("Index");\n    }\n\n    // If we got this far, something failed, redisplay form\n    return View(product);\n}

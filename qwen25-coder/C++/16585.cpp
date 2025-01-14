@@ -1,1 +1,0 @@
-// In MyClass.h\nclass MyClass {\npublic:\n    static int myStaticData;\n};\n\n// In MyClass.cpp\n#include "MyClass.h"\nint MyClass::myStaticData = 0; // Definition and initialization of the static data member

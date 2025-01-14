@@ -1,1 +1,0 @@
-gpg -dq passwords.txt.gpg

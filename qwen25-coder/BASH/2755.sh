@@ -1,1 +1,0 @@
-/opt/ibm/db2/V9.5/bin/db2icrt -u <username> <instance-name>

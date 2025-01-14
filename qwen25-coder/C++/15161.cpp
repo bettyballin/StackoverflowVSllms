@@ -1,1 +1,0 @@
-#include <iostream>\n#include <cstddef>\n\nstruct SomeStruct {\n    // ... (your full struct definition)\n};\n\nint main() {\n    std::cout << "someByte: " << offsetof(SomeStruct, someByte) << '\n';\n    std::cout << "someByteArray: " << offsetof(SomeStruct, someByteArray) << '\n';\n    // ... print offsets for all other members\n    return 0;\n}

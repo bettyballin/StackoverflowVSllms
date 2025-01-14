@@ -1,1 +1,0 @@
-public DataTable GetDataForReport()\n{\n    // Assume this method fetches and returns a DataTable from the database\n    DataTable dataTable = new DataTable();\n    // Fetch data...\n    return dataTable;\n}

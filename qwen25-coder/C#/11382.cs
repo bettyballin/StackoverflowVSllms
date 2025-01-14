@@ -1,1 +1,0 @@
-using System;\n   using YourInteropAssembly; // Adjust namespace as per the interop assembly\n\n   class Program\n   {\n       static void Main()\n       {\n           HelloWorld server = new HelloWorld();\n           string result = server.Hello("Sarah");\n           Console.WriteLine(result);\n       }\n   }

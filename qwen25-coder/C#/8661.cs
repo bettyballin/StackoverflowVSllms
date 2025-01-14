@@ -1,1 +1,0 @@
-[Table("BaseEntities")]\npublic abstract class BaseEntity\n{\n    public int Id { get; set; }\n}\n\n[Table("DerivedEntities1")]\npublic class DerivedEntity1 : BaseEntity\n{\n    public string PropertyOfDerived1 { get; set; }\n}\n\n[Table("DerivedEntities2")]\npublic class DerivedEntity2 : BaseEntity\n{\n    public string PropertyOfDerived2 { get; set; }\n}

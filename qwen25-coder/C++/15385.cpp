@@ -1,1 +1,0 @@
-// ManagedWrapper.h\n#include "ExportedFunction.h"\n\nusing namespace System;\n\npublic ref class ManagedWrapper {\npublic:\n    static int Add(int a, int b) {\n        return ::Add(a, b);\n    }\n};

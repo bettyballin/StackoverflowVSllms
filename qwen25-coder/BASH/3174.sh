@@ -1,1 +1,0 @@
-# On Debian/Ubuntu systems:\nsudo apt-get install inotify-tools rsync\n\n# On macOS, use Homebrew:\nbrew install inotify-tools coreutils

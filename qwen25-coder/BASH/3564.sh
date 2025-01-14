@@ -1,1 +1,0 @@
-# ~/.ssh/rc\n   ln -sf /home/user/.vimrc_local /home/user/.vimrc\n   ln -sf /home/user/.bash_profile_local /home/user/.bash_profile

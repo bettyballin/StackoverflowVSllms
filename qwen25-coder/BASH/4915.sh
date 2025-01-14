@@ -1,1 +1,0 @@
-# Create a project on Cloudflare Pages through their dashboard or CLI\n   # Add your JavaScript file\n   echo "console.log('Hello World!');" > index.js\n   # Commit and push the changes\n   git add index.js\n   git commit -m "Add index.js"\n   git push origin mai

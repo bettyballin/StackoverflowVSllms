@@ -1,1 +1,0 @@
-# Generate load with ab targeting different endpoints or scripts\n   ab -n 1000 -c 10 http://localhost/concurrent_xslt_script_1.php &\n   ab -n 1000 -c 10 http://localhost/concurrent_xslt_script_2.php\n   /usr/bin/time -v php concurrent_xslt_script.php

@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        BindGrid();\n    }\n}\n\nprivate void BindGrid()\n{\n    // Your grid binding logic here\n}

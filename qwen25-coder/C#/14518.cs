@@ -1,1 +1,0 @@
-Debug.WriteLine(yourTableAdapter.Adapter.SelectCommand.CommandText);

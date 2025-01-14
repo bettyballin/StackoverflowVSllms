@@ -1,1 +1,0 @@
-# Measure UNIX domain socket connection time (default)\ntime psql -c "SELECT 1;"\n\n# Measure TCP socket connection time\ntime psql -h localhost -c "SELECT 1;"

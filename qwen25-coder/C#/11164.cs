@@ -1,1 +1,0 @@
-using System;\n  using System.Net.Security;\n\n  class Program\n  {\n      static void Main()\n      {\n          ServicePointManager.ServerCertificateValidationCallback += (sender, cert, chain, sslPolicyErrors) => true;\n\n          // Run svcutil logic here or system calls to generate proxy\n      }\n  }

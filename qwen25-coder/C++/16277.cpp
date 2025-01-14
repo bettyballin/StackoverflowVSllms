@@ -1,1 +1,0 @@
-class bar : public foo {\n   int my_bar() const { \n       return ret_foo(static_cast<const foo*>(this)); \n   }\n};

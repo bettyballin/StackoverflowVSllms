@@ -1,1 +1,0 @@
-public class YourModel\n{\n    [LocalizedDateTime(ErrorMessageResourceType = typeof(ValidationMessages), \n                         ErrorMessageResourceName = "BlahIsNotValid")]\n    public DateTime? YourDateField { get; set; }\n}

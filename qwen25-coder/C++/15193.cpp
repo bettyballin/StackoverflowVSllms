@@ -1,1 +1,0 @@
-#include <QApplication>\n#include <QWidget>\n\nint main(int argc, char *argv[]) {\n    QApplication app(argc, argv);\n\n    QWidget window;\n    window.resize(250, 150);\n    window.setWindowTitle("Simple example");\n    window.show();\n\n    return app.exec();\n}

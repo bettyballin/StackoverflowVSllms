@@ -1,1 +1,0 @@
-# To audit files being added or removed from a directory\nicacls C:\Your\Directory /enable\nicacls C:\Your\Directory /setowner BUILTIN\Administrators\nicacls C:\Your\Directory /grant:r Administrators:F\nauditpol /set /subcategory:"File System" /failure:enable /success:enable

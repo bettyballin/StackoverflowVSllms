@@ -1,1 +1,0 @@
-public IQueryable<Dinner> FindUpcomingDinners()\n    {\n        var upcomingDinners = from dinner in db.Dinners\n                              where dinner.EventDate > DateTime.Now\n                              orderby dinner.EventDate\n                              select dinner;\n        return upcomingDinners;\n    }

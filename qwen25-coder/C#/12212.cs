@@ -1,1 +1,0 @@
-try\n   {\n       var result = apiInstance.SomeMethod();\n       // Log successful result details.\n   }\n   catch (Exception ex)\n   {\n       // Log exception with as much detail as possible.\n   }

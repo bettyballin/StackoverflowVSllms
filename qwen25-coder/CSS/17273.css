@@ -1,1 +1,0 @@
-.image_block {\n    width: 175px;\n    height: 175px;\n    display: flex; /* Use flexbox */\n    justify-content: center; /* Center horizontally */\n    align-items: flex-end; /* Align to the bottom */\n    margin: 0 auto;\n}\n\n.image_block a img {\n    max-width: 100%;\n    max-height: 100%;\n}

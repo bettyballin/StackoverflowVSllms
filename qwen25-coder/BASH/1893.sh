@@ -1,1 +1,0 @@
-$cscResult = csc /t:exe /out:a.exe SomeFile.cs\nif ($cscResult -eq $null) {\n    & .\a.exe\n}

@@ -1,1 +1,0 @@
-// Example C code that will compile and run on both Intel and AMD processors.\n#include <stdio.h>\n\nint main() {\n    printf("This program runs on x86/x86-64 architectures.\n");\n    return 0;\n}

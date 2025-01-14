@@ -1,1 +1,0 @@
-errno_t memcpy_s(void *dest, rsize_t destsz, const void *src, rsize_t count);

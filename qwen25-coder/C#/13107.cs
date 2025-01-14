@@ -1,1 +1,0 @@
-public bool IsItemSelectedPending { get; private set; }\n\nvoid OnItemSelected(int someid) {\n    this.IsItemSelectedPending = true;\n    // Store the IDs somewhere or use them directly if checking is immediate\n}

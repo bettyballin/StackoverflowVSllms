@@ -1,1 +1,0 @@
-pg_basebackup -h localhost -U postgres -D /path/to/backup/directory -Ft -z -P -v --wal-method=stream

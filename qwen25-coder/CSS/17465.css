@@ -1,1 +1,0 @@
-.block-link {\n    display: block;\n    width: 200px; /* Set your desired width */\n    height: auto; /* Or set a specific height if needed */\n    text-decoration: none; /* Remove underline from link */\n    color: inherit; /* Inherit text color from parent */\n}

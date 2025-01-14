@@ -1,1 +1,0 @@
-sudo apt-get install -y grafana\n   sudo systemctl start grafana-server\n   sudo systemctl enable grafana-server

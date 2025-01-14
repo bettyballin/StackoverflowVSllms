@@ -1,1 +1,0 @@
-.container {\n    overflow: hidden; /* Clears floats */\n}\n\n.float-left {\n    float: left;\n    display: inline-block; /* Allows for natural width handling */\n    word-wrap: break-word; /* Ensures long words or URLs wrap onto the next line */\n    max-width: 100%; /* Prevents elements from overflowing their container */\n}

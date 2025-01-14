@@ -1,1 +1,0 @@
-ssh ${REMOTE_USER}@${REMOTE_HOST} "${REMOTE_COMMAND}"\n  if [ $? -ne 0 ]; then\n      echo "SSH command failed with an error"\n      exit 1\n  fi

@@ -1,1 +1,0 @@
-httpWebRequest.AllowAutoRedirect = false;

@@ -1,1 +1,0 @@
-cat server.key server.crt > server.pem

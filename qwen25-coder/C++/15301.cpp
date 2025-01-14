@@ -1,1 +1,0 @@
-#pragma once\n\n#ifdef _WIN32\n    #ifdef MYLIB_EXPORTS\n        #define MYLIB_API __declspec(dllexport)\n    #else\n        #define MYLIB_API __declspec(dllimport)\n    #endif\n#else\n    #define MYLIB_API\n#endif\n\nextern "C" {\nMYLIB_API void someFunction();\n}

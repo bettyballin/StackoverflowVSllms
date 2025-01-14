@@ -1,1 +1,0 @@
-# Example command to scan a host with Nessus CLI:\n   nessuscli scan launch --uuid <template-uuid> -c 'hosts=<target-ip>'

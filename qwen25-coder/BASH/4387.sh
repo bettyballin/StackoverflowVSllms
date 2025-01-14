@@ -1,1 +1,0 @@
-iptables -A FORWARD -p tcp --dport <target-port> -d <secondary-server-ip> -m state --state NEW,ESTABLISHED,RELATED -j ACCEPT

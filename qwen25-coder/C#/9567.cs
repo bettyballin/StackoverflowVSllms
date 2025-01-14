@@ -1,1 +1,0 @@
-wsdl /out:MyService.cs http://yourdomain.com/webservices/myservice.asmx?wsdl

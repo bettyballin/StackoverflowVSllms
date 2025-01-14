@@ -1,1 +1,0 @@
-m_pLabel->SetText(description);\nGetParentFrame()->RecalcLayout();\nm_pLabel->Redraw();

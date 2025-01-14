@@ -1,1 +1,0 @@
-c => c.EmailDomain.Substring(0, term.Length) == term

@@ -1,1 +1,0 @@
-// Example of declaring an export function in C\n   #ifdef __cplusplus\n   extern "C" {\n   #endif\n\n   __declspec(dllexport) void MyExportedFunction() {\n       // Function implementation\n   }\n\n   #ifdef __cplusplus\n   }\n   #endif

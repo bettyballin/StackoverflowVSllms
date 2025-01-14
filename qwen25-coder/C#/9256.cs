@@ -1,1 +1,0 @@
-using FluentFTP;\n\nvar client = new FtpClient("xxx.xxx.xxx.mil");\nclient.Credentials = new NetworkCredential("ABC", "123");\n\ntry {\n    client.Connect();\n    // Execute commands here...\n} finally {\n    client.Disconnect();\n}

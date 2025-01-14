@@ -1,1 +1,0 @@
-.formSubmitButtons {\n    text-align: justify;\n  }\n  .formSubmitButtons input[type="submit"] {\n    display: inline-block;\n    width: calc(33% - 20px); /* Adjust width to account for margin */\n    margin-right: 10px;\n  }\n  .formSubmitButtons input:last-child {\n    margin-right: 0; /* Removes right margin from the last button */\n  }

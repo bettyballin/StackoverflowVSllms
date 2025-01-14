@@ -1,1 +1,0 @@
-# In Apache, you can log this information to your access log or a separate log file.\n   CustomLog logs/time_spent.log "%h %l %u %t \"%r\" %>s %b"

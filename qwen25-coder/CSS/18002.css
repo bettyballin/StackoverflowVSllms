@@ -1,1 +1,0 @@
-div#tbl-container {\n    width: 600px;   \n    overflow-x: auto; /* Allow horizontal scrolling */\n    overflow-y: hidden; /* Prevent vertical scrolling */\n    scrollbar-base-color:#ffeaff;\n}

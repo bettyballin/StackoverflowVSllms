@@ -1,1 +1,0 @@
-# Install wkhtmltopdf on Linux (using apt-get)\n   sudo apt-get install wkhtmltopdf

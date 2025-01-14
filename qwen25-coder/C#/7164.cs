@@ -1,1 +1,0 @@
-using System;\nusing System.Web;\n\n[AttributeUsage(AttributeTargets.Method)]\npublic class EntityAuthorizeAttribute : Attribute\n{\n    public string Permission { get; }\n\n    public EntityAuthorizeAttribute(string permission)\n    {\n        Permission = permission;\n    }\n}

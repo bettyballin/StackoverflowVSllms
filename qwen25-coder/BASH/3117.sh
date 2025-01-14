@@ -1,1 +1,0 @@
-dottrace.bat /home=<path_to_home> /app-name=w3wp.exe

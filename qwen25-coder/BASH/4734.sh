@@ -1,1 +1,0 @@
-./sample_app\n   pprof --text ./sample_app /proc/`pgrep -n sample_app`/stat

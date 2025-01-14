@@ -1,1 +1,0 @@
-export XEN_CONFIG_DIR=/etc/xen/vm

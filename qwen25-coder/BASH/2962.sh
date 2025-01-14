@@ -1,1 +1,0 @@
-# Example command to run JMeter from the command line with your test plan\n   jmeter -n -t /path/to/your/testplan.jmx -l /path/to/results.csv

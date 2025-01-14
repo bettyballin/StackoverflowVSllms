@@ -1,1 +1,0 @@
-p {\n       margin-bottom: 1em;\n   }\n   p:empty {\n       margin-bottom: 0; /* Prevent empty paragraphs from affecting spacing */\n   }

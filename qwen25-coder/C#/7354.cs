@@ -1,1 +1,0 @@
-try\n   {\n       destDA.Update(sourceTable);\n   }\n   catch (Exception ex)\n   {\n       Logging.updateLog("Error updating table " + tableName + ": " + ex.Message, true, false, false);\n   }

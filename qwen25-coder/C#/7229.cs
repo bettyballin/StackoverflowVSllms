@@ -1,1 +1,0 @@
-var recentUids = imapClient.Search(Criterium.Recent);

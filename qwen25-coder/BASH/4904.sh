@@ -1,1 +1,0 @@
-DESC="your_description_here"\nsed -i 's%brief_description\s*=\s*"none";%brief_description = "'"$DESC"'";%' temp_next.txt

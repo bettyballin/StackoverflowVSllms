@@ -1,1 +1,0 @@
-using System.Diagnostics;\n\npublic class PerformanceMonitor {\n    public static void MonitorCpuUsage() {\n        var cpuCounter = new PerformanceCounter("Processor", "% Processor Time", "_Total");\n        while (true) {\n            Console.WriteLine($"CPU Usage: {cpuCounter.NextValue()} %");\n            Thread.Sleep(1000); // Check every second\n        }\n    }\n}

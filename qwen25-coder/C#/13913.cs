@@ -1,1 +1,0 @@
-// C# Silverlight Code to Log Time\npublic void SomeMethodToMonitor()\n{\n    DateTime startTime = DateTime.Now;\n    \n    // Your method logic here\n\n    TimeSpan elapsedTime = DateTime.Now - startTime;\n    HtmlPage.Window.Invoke("logPerformance", "SomeMethodToMonitor: " + elapsedTime.TotalMilliseconds);\n}

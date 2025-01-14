@@ -1,1 +1,0 @@
-/* Basic styling for each cell */\n   .grid-cell {\n       width: 100px;\n       height: 100px;\n       background-size: contain;\n       background-repeat: no-repeat;\n       background-position: center;\n   }

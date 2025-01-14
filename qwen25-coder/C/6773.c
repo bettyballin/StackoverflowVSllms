@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint main() {\n    auto int a = 10; // The 'auto' keyword here is redundant and unnecessary.\n    printf("%d\n", a);\n    return 0;\n}

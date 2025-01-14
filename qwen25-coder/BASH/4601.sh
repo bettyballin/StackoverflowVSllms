@@ -1,1 +1,0 @@
-sudo chmod +x /etc/profile.d/foo.sh

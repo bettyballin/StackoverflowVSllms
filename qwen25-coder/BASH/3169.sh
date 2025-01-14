@@ -1,1 +1,0 @@
-# Connect to WildFly Server\njboss-cli.sh -c\n\n# Replace the deployment\ndeploy --force /path/to/new-application.war\n\n# If you need to undeploy first:\nundeploy existing-application.war

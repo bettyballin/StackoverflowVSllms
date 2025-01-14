@@ -1,1 +1,0 @@
-delete ptr;\n   ptr = nullptr; // C++11 or use NULL in older standards

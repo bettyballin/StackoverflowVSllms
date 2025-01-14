@@ -1,1 +1,0 @@
-public void SetErrorMessages(string message)\n{\n    lblErrors.Text = "<ol>" + message + "</ol>";\n    errorContainer.Style["display"] = "";\n}

@@ -1,1 +1,0 @@
-sudo chmod -R 775 /path/to/shared/folder\n   sudo chown -R username:groupname /path/to/shared/folder

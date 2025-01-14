@@ -1,1 +1,0 @@
-// main.c of the target or a plugin you control in it\n#include <dlfcn.h>\nvoid load_watchdog() {\n    void *handle = dlopen("./libmywatchdog.so", RTLD_LAZY);\n    if (!handle) {\n        fprintf(stderr, "%s\n", dlerror());\n        exit(1);\n    }\n}\n\nint main(int argc, char **argv) {\n    load_watchdog();\n    // Rest of your application\n}

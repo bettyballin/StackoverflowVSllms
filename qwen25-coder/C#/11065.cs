@@ -1,1 +1,0 @@
-using System.Net.Http;\nusing System.Text.Json;\nusing System.Threading.Tasks;\n\npublic classApiClient\n{\n    private readonly HttpClient _client = new HttpClient();\n\n    public async Task<T> GetJsonContentAsync<T>(string url)\n    {\n        var responseString = await _client.GetStringAsync(url);\n        return JsonSerializer.Deserialize<T>(responseString);\n    }\n}

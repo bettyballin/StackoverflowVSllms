@@ -1,1 +1,0 @@
-cd ~/.vim/bundle/YouCompleteMe\n   ./install.py --php-completer

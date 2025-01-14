@@ -1,1 +1,0 @@
-source ~/.bash_profile  # or source ~/.zshrc depending on your shell

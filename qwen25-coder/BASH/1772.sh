@@ -1,1 +1,0 @@
-regedit.exe /e dev_registry_dump.reg HKEY_CURRENT_USER\Software\<YourApp>

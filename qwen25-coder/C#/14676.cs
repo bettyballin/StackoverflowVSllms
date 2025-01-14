@@ -1,1 +1,0 @@
-// Original namespace generation line:\n// string ns = Settings.GetNamespace(null);\n\n// Modified namespace generation including schema:\nstring ns = Settings.GetNamespace(null) + "." + SchemaName;

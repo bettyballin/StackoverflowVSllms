@@ -1,1 +1,0 @@
-setfacl -R -m g:devgrp:rwx /media/myusbdisk/path/to/project

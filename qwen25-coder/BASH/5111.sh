@@ -1,1 +1,0 @@
-# Navigate to your project directory\ncd path/to/your/project\n\n# Initialize a new Git repository\ngit init\n\n# Add all files to staging area\ngit add .\n\n# Commit them with a message\ngit commit -m "Initial commit"

@@ -1,1 +1,0 @@
-chmod +x rolling_diff.sh

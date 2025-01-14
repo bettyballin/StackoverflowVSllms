@@ -1,1 +1,0 @@
-// Example of CDC usage in SQL Server with .NET to get changes\nusing (var connection = new SqlConnection(connectionString))\n{\n    await connection.OpenAsync();\n    using (var command = new SqlCommand("SELECT * FROM cdc.fn_cdc_get_all_changes_dbo_MyTable(@from_lsn, @to_lsn, 'all');", connection))\n    {\n        // Execute and process changes\n    }\n}

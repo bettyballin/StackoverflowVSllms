@@ -1,1 +1,0 @@
-amespace AddAjaxToApplication\n{\n    using System.Web.Services;\n\n    [WebService(Namespace = "http://tempuri.org/")]\n    public class List : WebService\n    {\n        [WebMethod]\n        public string HelloWorld()\n        {\n            return "Hello World";\n        }\n    }\n}

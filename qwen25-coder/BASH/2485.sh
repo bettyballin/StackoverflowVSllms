@@ -1,1 +1,0 @@
-sudo lsof +D /path/to/folder

@@ -1,1 +1,0 @@
-using (var context = new MyDbContext())\n{\n    var products = context.Products.Where(p => p.Price > 100).ToList();\n}

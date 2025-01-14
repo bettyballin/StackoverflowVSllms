@@ -1,1 +1,0 @@
-public class YourEntityMap : ClassMap<YourEntity>\n{\n    public YourEntityMap()\n    {\n        Property(x => x.YourPropertyName)\n            .Column("YOUR_DB_COLUMN")\n            .CustomType<YesNoBooleanType>();\n    }\n}

@@ -1,1 +1,0 @@
-saxon -s:input.xml -xsl:stylesheet.xsl -o:output.xml >> transformation_logs.txt

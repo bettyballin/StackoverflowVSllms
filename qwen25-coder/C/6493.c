@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint main() {\n    char ch = 'A';\n    printf("ASCII value of %c is %d\n", ch, (int)ch);\n\n    ch = 'a';\n    printf("ASCII value of %c is %d\n", ch, (int)ch);\n\n    return 0;\n}

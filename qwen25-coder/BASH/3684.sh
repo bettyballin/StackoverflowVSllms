@@ -1,1 +1,0 @@
-ilmerge /keyfile:mykey.snk /targetplatform:v4 /out:signed_comlib.dll comlib.dll

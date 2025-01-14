@@ -1,1 +1,0 @@
-/* CSS */\nhtml {\n    font-size: 16px; /* Base font size */\n}\n\n.frame-menu, .frame-content {\n    border: 0.2em solid #ccc;\n    padding: 1em;\n    margin: 1em;\n}\n\n.frame-menu li {\n    list-style-type: none;\n    margin-bottom: 0.5em;\n}

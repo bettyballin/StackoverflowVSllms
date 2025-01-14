@@ -1,1 +1,0 @@
-java -agentlib:hprof=heap=dump,format=b,file=myapp.hprof MyApplicatio

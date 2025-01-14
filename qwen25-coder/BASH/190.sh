@@ -1,1 +1,0 @@
-git checkout manufacturing-test-branch\ngit tag release-1.0-manufacturing\n\ngit checkout production-firmware-branch\ngit tag release-1.0-productio

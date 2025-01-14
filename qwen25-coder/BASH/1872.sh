@@ -1,1 +1,0 @@
-# Set private memory limit for an app pool (in bytes)\nSet-ItemProperty IIS:\AppPools\<YourAppPoolName> -name processModel.privateMemoryLimit -value 2048000\n\n# Enable recycling based on memory usage\nSet-ItemProperty IIS:\AppPools\<YourAppPoolName> -name recycling.periodicRestart.memory -value 1536000

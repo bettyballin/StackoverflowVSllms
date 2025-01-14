@@ -1,1 +1,0 @@
-public class MySpecificTypeController : MyController<SpecificType>\n   {\n       // Additional methods or overrides can go here if necessary\n   }

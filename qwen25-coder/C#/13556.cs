@@ -1,1 +1,0 @@
-public ActionResult YourAction(YourViewModel model)\n{\n    if (ModelState.IsValid)\n    {\n        // Process the data...\n\n        // If successful, re-initialize the model to clear values\n        model = new YourViewModel();\n    }\n\n    return View(model);\n}

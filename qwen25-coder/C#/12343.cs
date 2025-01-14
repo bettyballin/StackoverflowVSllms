@@ -1,1 +1,0 @@
-if (integerList.Count > 0)\n{\n    var lastElement = integerList[integerList.Count - 1];\n    Console.WriteLine("{0}\t{1}\t{2}\t{3}\t{4}",\n        lastElement.m_MessageID,\n        lastElement.m_MessageType,\n        lastElement.m_ClassID,\n        lastElement.m_CategoryID, \n        lastElement.m_MessageText);\n}

@@ -1,1 +1,0 @@
-pdffonts yourfile.pdf

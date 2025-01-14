@@ -1,1 +1,0 @@
-mkdir -p ~/docker/apache/{html,conf.d}\n   echo "<H1>Hello from Dockerized Apache</H1>" > ~/docker/apache/html/index.html

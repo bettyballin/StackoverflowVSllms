@@ -1,1 +1,0 @@
-rsync -avh --delete /home/user/music/flac/ /media/MUSIC/flac/

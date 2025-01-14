@@ -1,1 +1,0 @@
-# Using dd to test write speed on NFS share mounted at /mnt/nfs\ndd if=/dev/zero of=/mnt/nfs/testfile bs=1M count=1024 conv=fdatasync\n\n# Using dd to test read speed from the same file\ndd if=/mnt/nfs/testfile of=/dev/null bs=1M count=1024

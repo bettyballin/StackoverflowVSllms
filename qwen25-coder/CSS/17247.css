@@ -1,1 +1,0 @@
-@media print {\n  body {\n    margin: 0;\n    font-size: 12pt; /* Adjust font size as needed */\n  }\n  table, div {\n    page-break-inside: avoid;\n  }\n  @page {\n    size: A4; /* You can specify other sizes or orientation: portrait/landscape */\n    margin: 1cm; /* Set margins to control content area */\n  }\n}

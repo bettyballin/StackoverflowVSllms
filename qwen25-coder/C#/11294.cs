@@ -1,1 +1,0 @@
-public string GetCustomerNumber(Guid id)\n{\n    object accountNumber = DBSqlHelperFactory.ExecuteScalar(\n        connectionStringSplendidCRM,\n        CommandType.StoredProcedure,\n        "spx_GetCustomerNumber",\n        new SqlParameter("@id", id));\n\n    return accountNumber is DBNull ? string.Empty : accountNumber.ToString();\n}

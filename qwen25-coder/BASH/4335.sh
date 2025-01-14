@@ -1,1 +1,0 @@
-sed -n '/INSERT INTO `your_table_name`/,/^-- Dump completed on/p' full_backup.sql >> restore_table_script.sql

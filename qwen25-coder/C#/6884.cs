@@ -1,1 +1,0 @@
-routes.IgnoreRoute("{resource}.axd/{*pathInfo}");\n\n   routes.MapRoute(\n      "Default",                                              // Route name\n      "{controller}/{action}/{id}",                           // URL with parameters\n      new { controller = "Home", action = "Index", id = UrlParameter.Optional }  // Parameter defaults\n   );

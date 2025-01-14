@@ -1,1 +1,0 @@
-@using (Ajax.BeginForm("YourAction", "YourController", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "result" }, new { id = "ajaxForm" }))\n   {\n       <!-- Your form elements here -->\n       <input type="submit" value="Submit" />\n   }

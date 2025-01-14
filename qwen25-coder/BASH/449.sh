@@ -1,1 +1,0 @@
-sudo wvdial <connection-name>

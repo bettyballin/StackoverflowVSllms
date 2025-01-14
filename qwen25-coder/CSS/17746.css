@@ -1,1 +1,0 @@
-input[type="submit"].submit {\n    border-radius: 8px;\n    padding: 10px 20px;\n    border: none;\n    background-color: #007BFF; /* Example color */\n    color: white;\n    font-size: 16px;\n    cursor: pointer;\n    transition: background-color 0.3s ease;\n}\n\ninput[type="submit"].submit:hover {\n    background-color: #0056b3;\n}

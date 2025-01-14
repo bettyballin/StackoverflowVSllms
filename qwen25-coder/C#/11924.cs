@@ -1,1 +1,0 @@
-var result = list1.Where(item1 => !list2.Any(item2 => item2.propertyX == item1.column1)).ToList();

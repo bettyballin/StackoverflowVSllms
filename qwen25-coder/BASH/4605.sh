@@ -1,1 +1,0 @@
-composer require tijsverkoyen/css-to-inline-styles

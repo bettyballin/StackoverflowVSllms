@@ -1,1 +1,0 @@
-base64 -i /path/to/image.png | tr -d '\n'

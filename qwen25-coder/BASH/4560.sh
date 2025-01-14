@@ -1,1 +1,0 @@
-alias go_to_dir='ssh user@somehost "cd /some/directory/somewhere/named/Foo && $SHELL"'

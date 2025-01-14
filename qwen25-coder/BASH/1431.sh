@@ -1,1 +1,0 @@
-pm install -g uglify-js\nuglifyjs input.js -o output.min.js --mangle --compress

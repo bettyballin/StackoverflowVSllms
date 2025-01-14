@@ -1,1 +1,0 @@
-START=1\nEND=5\nfor i in $(seq $START $END); do \n    echo $i; \ndone

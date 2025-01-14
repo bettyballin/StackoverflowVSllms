@@ -1,1 +1,0 @@
-private void CreateDynamicTextBoxes(int count)\n{\n    for (int i = 1; i <= count; i++)\n    {\n        TextBox textBox = new TextBox\n        {\n            ID = "txt" + i,\n            CssClass = "dynamic-textbox"\n        };\n        container.Controls.Add(textBox);\n    }\n}

@@ -1,1 +1,0 @@
-perf record -g -p $(pidof your_program)  # Use -u username or -G groupname if targeting specific users/groups\n    perf report --stdio

@@ -1,1 +1,0 @@
-REM Example batch commands to open regedit and navigate to the CLSID key\nREM These are just for convenience and should be run in conjunction with manual edits\n\nstart regedit\n\nREM The following lines simulate navigating within the registry editor but are typically done manually:\nREM Navigate to HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\[Your-GUID]

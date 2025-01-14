@@ -1,1 +1,0 @@
-// Using HQL with Fetch\n   var entities = session.CreateQuery("from Entity e fetch e.RelatedEntity")\n                        .List<Entity>();\n\n   // Using Criteria API with FetchMode\n   var criteria = session.CreateCriteria<Entity>()\n                         .SetFetchMode("RelatedEntity", NHibernate.FetchMode.Eager);\n   var entities = criteria.List<Entity>();

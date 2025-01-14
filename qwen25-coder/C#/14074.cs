@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        // Assuming you have a method to get your date from the database\n        DateTime dbDate = GetDateFromDatabase();\n        DateTextBox.Text = dbDate.ToString("MM/dd/yyyy"); // Format according to your Mask property\n    }\n}

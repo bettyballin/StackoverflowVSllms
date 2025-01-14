@@ -1,1 +1,0 @@
-void Application_Start(object sender, EventArgs e)\n{\n    // Other startup code here...\n    \n    var imageCleanupService = new ImageCleanupService();\n    imageCleanupService.Start();\n}

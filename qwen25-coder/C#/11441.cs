@@ -1,1 +1,0 @@
-class Foo\n{\n    private static readonly string bar = "O_o";\n\n    private bool TrySomething()\n    {\n        string bar;\n\n        lock(Foo.objectToLockOn)\n        {\n            bar = Foo.bar;         \n        }       \n\n        // Do something with bar\n    }\n}

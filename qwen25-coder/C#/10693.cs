@@ -1,1 +1,0 @@
-bool contains = text.Contains("element2"); // Checks if "element2" is in the list

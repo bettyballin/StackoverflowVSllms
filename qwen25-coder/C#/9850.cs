@@ -1,1 +1,0 @@
-using NLog;\n\npublic class SomeService\n{\n    private readonly Logger _logger = LogManager.GetCurrentClassLogger();\n\n    public void DoWork()\n    {\n        try\n        {\n            // Some logic here...\n        }\n        catch (Exception ex)\n        {\n            _logger.Fatal(ex, "An unexpected error occurred during processing.");\n        }\n    }\n}

@@ -1,1 +1,0 @@
-ul {\n  list-style-type: none;\n  padding: 0;\n  margin: 0;\n}\n\nli {\n  display: inline-block;\n  white-space: nowrap; /* Prevents wrapping within each item */\n}\n\n.context-trigger {\n  width: 20px; /* Example size for the span/button, adjust as needed */\n}

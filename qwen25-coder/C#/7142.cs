@@ -1,1 +1,0 @@
-public partial class HistoryDataTable\n{\n    public int? GetCurrReadingNullSafe(HistoryRow row)\n    {\n        if (row.IsNull(row.curr_readingColumn))\n        {\n            return null;\n        }\n        else\n        {\n            return (int)row[curr_readingColumn];\n        }\n    }\n}

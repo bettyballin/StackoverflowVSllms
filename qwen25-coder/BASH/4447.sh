@@ -1,1 +1,0 @@
-svn switch --relocate <old-url> <new-url>

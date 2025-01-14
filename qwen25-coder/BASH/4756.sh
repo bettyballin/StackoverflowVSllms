@@ -1,1 +1,0 @@
-#!/bin/sh\n     export LANG=en_US.UTF-8\n\n     WEB_PATH="/path/to/htdocs"\n     LOGFILE="/var/log/svn-update.log"\n     echo "`date` Updating working copy..." >> $LOGFILE\n     svn update $WEB_PATH --username svnuser --password svnpass >> $LOGFILE 2>&1

@@ -1,1 +1,0 @@
-zstd --block-size=1MB -c yourfile.dat > yourfile.dat.zst

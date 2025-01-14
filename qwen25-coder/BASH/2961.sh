@@ -1,1 +1,0 @@
-# Example command line use of html-minifier\n   npx html-minifier --collapse-whitespace index.html -o output.html

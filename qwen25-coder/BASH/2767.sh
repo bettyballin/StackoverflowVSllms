@@ -1,1 +1,0 @@
-#!/bin/sh\n   GIT_PROJECT_ROOT=/path/to/repositories\n   export GIT_HTTP_EXPORT_ALL=\n   exec /usr/lib/git-core/git-http-backend "$@"

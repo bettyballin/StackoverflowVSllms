@@ -1,1 +1,0 @@
-using System;\n[assembly: Obfuscation(Feature = "rename", ApplyToMembers = true)]\n\nclass Program\n{\n    [Obfuscation(Exclude = false)]\n    static void Main()\n    {\n        Console.WriteLine("Hello, World!");\n    }\n}

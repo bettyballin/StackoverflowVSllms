@@ -1,1 +1,0 @@
-public interface IMessageVisitor {\n    void visit(ConcreteMessageA message);\n    void visit(ConcreteMessageB message);\n}

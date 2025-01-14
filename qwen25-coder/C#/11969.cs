@@ -1,1 +1,0 @@
-NetTcpBinding binding = new NetTcpBinding();\nbinding.ReliableSession.Enabled = true;

@@ -1,1 +1,0 @@
-text.Clear(); // Clears all elements from list

@@ -1,1 +1,0 @@
-# Install TCC if it's not already installed on your Linux system\n# sudo apt-get install tcc\n\n# Use TCC to interpret C code directly\n# You can type this line by line in the terminal:\ntcc -run\nint main(){\n    printf("Hello, World!\n");\n    return 0;\n}

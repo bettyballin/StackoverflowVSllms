@@ -1,1 +1,0 @@
-# First compilation and instrumentation\n   gcc -fprofile-generate -O3 your_code.c -o your_program\n\n   # Run your program to generate profiles\n   ./your_program\n\n   # Second compilation with optimizations guided by generated profiles\n   gcc -fprofile-use -O3 your_code.c -o your_program

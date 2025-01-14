@@ -1,1 +1,0 @@
-// Example of a simple test in C# using WatiN\n[Test]\npublic void OpenWebsiteWithWatinTest()\n{\n    using (var browser = new IE("http://example.com"))\n    {\n        Assert.IsTrue(browser.ContainsText("Example Domain"));\n    }\n}

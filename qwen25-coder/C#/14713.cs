@@ -1,1 +1,0 @@
-// Example: Define a class to perform threat modeling\n   public class ThreatModel {\n       public void modelThreats() {\n           // Analyze interactions between components for potential vulnerabilities\n       }\n   }

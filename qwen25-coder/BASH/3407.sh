@@ -1,1 +1,0 @@
-patchelf --set-rpath ./lib:/usr/lib ./your_applicatio

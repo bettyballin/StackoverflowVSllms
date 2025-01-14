@@ -1,1 +1,0 @@
-phpdoc -d <source_directory> -t <output_directory>

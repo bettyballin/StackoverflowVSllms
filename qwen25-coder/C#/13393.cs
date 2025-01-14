@@ -1,1 +1,0 @@
-async Task UsingAsyncProxy()\n{\n    using (var client = new ServiceClient())\n    {\n        try\n        {\n            var result = await client.SomeOperationAsync();\n            // Process result\n        }\n        catch (Exception ex)\n        {\n            // Handle exceptions\n        }\n    }\n    // The proxy is closed and disposed of here.\n}

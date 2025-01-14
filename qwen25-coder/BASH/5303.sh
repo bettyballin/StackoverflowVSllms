@@ -1,1 +1,0 @@
-gcc -pg your_program.c -o your_program\n   ./your_program\n   gprof your_program gmon.out > analysis.txt

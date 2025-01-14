@@ -1,1 +1,0 @@
-c:\>sqlplus -S username/password@databasename @- <<EOF\nset echo off\nset feedback off\nexec some_procedure;\nexit;\nEOF

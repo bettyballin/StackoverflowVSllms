@@ -1,1 +1,0 @@
-myList.RemoveAll(item => IsMatching(item));

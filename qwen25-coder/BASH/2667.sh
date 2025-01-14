@@ -1,1 +1,0 @@
-thin start -R app.rb -e production -S /path/to/thin/socket.sock

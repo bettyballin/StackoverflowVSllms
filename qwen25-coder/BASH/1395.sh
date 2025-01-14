@@ -1,1 +1,0 @@
-// Start the HSQLDB web server if it's not already running:\n   java -cp hsqldb.jar org.hsqldb.util.DatabaseManagerSwing --url jdbc:hsqldb:hsql://localhost/mydatabase

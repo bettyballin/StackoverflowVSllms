@@ -1,1 +1,0 @@
-// Retrieving all rows at once\nvar allData = context.YourTable.ToList();\n\n// Alternatively, retrieving in smaller batches (pseudo-code)\nint pageSize = 100;\nfor (int i = 0; i < totalRows; i += pageSize)\n{\n    var batch = context.YourTable.Skip(i).Take(pageSize).ToList();\n    // Process each batch\n}

@@ -1,1 +1,0 @@
-var grouped = from a in table\n              group a by a.ID into g\n              select new fooObject()\n              {\n                  ID = g.Key,\n                  DATE = g.Max(a => a.DATE),\n                  NAME = g.First(a => a.DATE == g.Max(b => b.DATE)).NAME // Ensure the name corresponds to the max date\n              };

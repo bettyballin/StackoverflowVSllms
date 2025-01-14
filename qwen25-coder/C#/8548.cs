@@ -1,1 +1,0 @@
-int variable1 = people.Count(person => person.Age > 3 && person.Age < 5);\nlabel1.Text = variable1.ToString();

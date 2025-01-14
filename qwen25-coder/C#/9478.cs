@@ -1,1 +1,0 @@
-// Using EF Migrations to add a migration\n   Add-Migration ChangeNameToLastName -ProjectName YourProjectName\n   \n   // Update the database with the latest migration\n   Update-Database -ProjectName YourProjectName

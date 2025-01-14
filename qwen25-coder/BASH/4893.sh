@@ -1,1 +1,0 @@
-# Assuming setDomainEnv.sh is sourced and weblogic home is set\ncreateDomain.sh -name myDomain -template=/path/to/domaintemplate.jar

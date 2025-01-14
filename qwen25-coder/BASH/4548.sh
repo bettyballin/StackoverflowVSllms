@@ -1,1 +1,0 @@
-# Read first 1000 lines\nhead -n 1000 largefile.txt\n\n# Read last 1000 lines\ntail -n 1000 largefile.txt\n\n# Edit specific line number (line 5000)\nsed '5000s/original_text/new_text/' largefile.txt > modified_largefile.txt

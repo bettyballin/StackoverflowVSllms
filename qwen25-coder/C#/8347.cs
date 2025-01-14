@@ -1,1 +1,0 @@
-var usersWithGroupMembers = _context.Users\n    .Include(u => u.GroupMember)\n    .ToList();

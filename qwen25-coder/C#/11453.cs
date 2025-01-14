@@ -1,1 +1,0 @@
-// Example EF Core setup in C#\n  public class MyDbContext : DbContext \n  {\n      public DbSet<MyEntity> Entities { get; set; }\n      \n      protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)\n      {\n          optionsBuilder.UseSqlServer("Server=myServerAddress;Database=myDataBase;User Id=myUsername;Password=myPassword;");\n      }\n  }

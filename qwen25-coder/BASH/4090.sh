@@ -1,1 +1,0 @@
-# Install pandoc if not already installed\nsudo apt-get install pandoc\n\n# Convert HTML to DOCX\npandoc input.html -s -o output.docx

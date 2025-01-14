@@ -1,1 +1,0 @@
-@echo off\ntaskkill /F /IM devenv.exe\n\ncd %~dp0\YourProjectFolder\n\nif exist bin (\n    rmdir /s /q bin\n)\n\nif exist obj (\n    rmdir /s /q obj\n)\n\ndel *.pdb\ndel *.xml\n\nstart "" "C:\Path\To\VisualStudio\Common7\IDE\devenv.exe" YourSolution.sl

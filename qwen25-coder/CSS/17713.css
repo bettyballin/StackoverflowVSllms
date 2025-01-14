@@ -1,1 +1,0 @@
-/* Targeting IE 6, 7, and 8 */\ntextarea {\n    _overflow: visible; /* Underscore hack for IE < 9 */\n}\n\n/* Another method using a backslash hack for IE 8 specifically */\ntextarea {\n    overflow: /**/ visible\9;\n}

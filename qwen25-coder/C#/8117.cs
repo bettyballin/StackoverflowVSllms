@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult SimpleUpdate(int carMake)\n{\n    ViewData["CarMake"] = new SelectList(_carDataContext.Makes.Select(m => new { ID = m.Id, Name = m.Name }), "ID", "Name", carMake);\n    var carModel = _carDataContext.Models.Where(m => m.MakeId == carMake).ToList();\n    return PartialView("_carmodelsPartial", carModel); // Use a partial view\n}

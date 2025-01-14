@@ -1,1 +1,0 @@
-private bool Is64BitOperatingSystem()\n{\n    return Environment.Is64BitOperatingSystem;\n}

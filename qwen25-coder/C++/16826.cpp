@@ -1,1 +1,0 @@
-#include <fstream>\n#include <iostream>\n\nint main() {\n    std::ifstream file("output.txt");\n    if (file.is_open()) {\n        std::string line;\n        while (std::getline(file, line)) {\n            std::cout << line << '\n';\n        }\n        file.close();\n    } else {\n        std::cerr << "Unable to open file";\n    }\n\n    return 0;\n}

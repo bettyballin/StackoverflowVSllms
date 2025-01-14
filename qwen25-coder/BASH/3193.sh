@@ -1,1 +1,0 @@
-sudo apt-get update\n   sudo apt-get install qemu-system-x86

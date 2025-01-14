@@ -1,1 +1,0 @@
-#include <windows.h>\n\nint WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow) {\n    // You can launch another application or perform any GUI operations here.\n    ShellExecute(NULL, "open", "notepad.exe", NULL, NULL, SW_SHOWNORMAL);\n    return 0;\n}

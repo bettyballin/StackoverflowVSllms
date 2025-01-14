@@ -1,1 +1,0 @@
-#container {\n    width: 500px;\n    display: flex; /* Enable Flexbox */\n}\n\n#left-sibling {\n    /* No change needed here for centering right-sibling */\n}\n\n#right-sibling {\n    margin-left: auto; /* Pushes #right-sibling to the end */\n    margin-right: auto; /* Centers #right-sibling if #left-sibling's width is known or flexible */\n}

@@ -1,1 +1,0 @@
-openssl req -x509 -newkey rsa:2048 -keyout localhost.key -out localhost.cert -days 365 -nodes

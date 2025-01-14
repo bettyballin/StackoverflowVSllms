@@ -1,1 +1,0 @@
-.gallery .thumbnails img {\n  width: 100px;\n  cursor: pointer;\n}\n\n.gallery .images img {\n  display: none; /* Hidden by default */\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}

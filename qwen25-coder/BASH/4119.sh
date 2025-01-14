@@ -1,1 +1,0 @@
-# Example of copying build output directory\nxcopy /E /Y "C:\Path\To\Your\Project\Output" "\\RemoteServer\C$\inetpub\wwwroot\YourApp"

@@ -1,1 +1,0 @@
-using System;\nusing System.ServiceProcess;\n\nclass Program\n{\n    static void Main()\n    {\n        ServiceController sc = new ServiceController("W3SVC");\n        Console.WriteLine($"W3SVC service is: {sc.Status}");\n    }\n}

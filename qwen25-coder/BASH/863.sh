@@ -1,1 +1,0 @@
-# Create a new branch for the fix\ngit checkout -b patch-fix\n\n# Make necessary changes to your files\n# Example: Fixing a bug in main.cpp\nnano src/main.cpp\n\n# Stage the changes\ngit add src/main.cpp\n\n# Commit the changes with a meaningful message\ngit commit -m "Fix critical bug"\n\n# Generate a patch file from the last commit\ngit format-patch -1 > fix-critical-bug.patch

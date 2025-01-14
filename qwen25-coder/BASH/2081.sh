@@ -1,1 +1,0 @@
-# Install Windows SDK, which includes WinDbg\n   winget install Microsoft.VisualStudio.2022.DebuggersDesktop

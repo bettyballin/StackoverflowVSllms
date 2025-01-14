@@ -1,1 +1,0 @@
-// mymodule.c\nstatic void internalFunction() {\n    // This function is only accessible within mymodule.c\n}\n\nvoid publicFunction() {\n    // Can call internalFunction here\n}

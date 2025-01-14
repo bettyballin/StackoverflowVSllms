@@ -1,1 +1,0 @@
-fsutil fsinfo ntfsinfo X:

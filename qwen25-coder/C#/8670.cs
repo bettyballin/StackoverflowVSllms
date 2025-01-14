@@ -1,1 +1,0 @@
-byte[] decryptionKey = ConfigEncryptor.GetSecureKey();\nstring decryptedConfigText = ConfigEncryptor.Decrypt(encryptedConfigText, decryptionKey);\n// Use decryptedConfigText as required by your service.

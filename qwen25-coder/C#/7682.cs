@@ -1,1 +1,0 @@
-// Example of a simple security practice: running applications in a limited context\nSystem.Security.Principal.WindowsIdentity.GetCurrent().Impersonate();\ntry {\n    // Code that requires less privilege\n} finally {\n    System.Security.Principal.WindowsImpersonationContext.Undo();\n}

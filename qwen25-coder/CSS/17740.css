@@ -1,1 +1,0 @@
-#leftcolumn {\n        float: left;\n        width: 200px; /* Example width */\n    }\n    \n    #middlecolumn {\n        margin-left: 210px; /* Account for left column width + padding/margin */\n    }

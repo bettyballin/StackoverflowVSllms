@@ -1,1 +1,0 @@
-g++ -T custom.ld -o myapp main.cpp

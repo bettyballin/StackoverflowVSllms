@@ -1,1 +1,0 @@
-DbUp.UpgradeEngineBuilder.ForSqlDatabase(connectionString)\n      .WithScriptsFromFileSystem(scriptsFolderPath)\n      .LogToConsole()\n      .Build();

@@ -1,1 +1,0 @@
-# Convert .p12 (PKCS#12) to JKS, if needed\n   keytool -importkeystore -srckeystore your-cert.p12 -srcstoretype PKCS12 -destkeystore keystore.jks -deststoretype JKS

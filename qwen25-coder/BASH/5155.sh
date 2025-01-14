@@ -1,1 +1,0 @@
-appcmd unlock config /section:system.webServer/security/authentication/windowsAuthenticatio

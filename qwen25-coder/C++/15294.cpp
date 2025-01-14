@@ -1,1 +1,0 @@
-#include <iostream>\n\nint main() {\n    char smallBuffer[5];\n    std::cin.getline(smallBuffer, 10); // Asking for more characters than the buffer can hold safely.\n    std::cout << smallBuffer;\n    return 0;\n}

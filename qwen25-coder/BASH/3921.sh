@@ -1,1 +1,0 @@
-find /path/to/webroot -type f -exec chmod 644 {} \;\n   find /path/to/webroot -type d -exec chmod 755 {} \;

@@ -1,1 +1,0 @@
-#ifdef __cplusplus\nextern "C" {\n#endif\n\n// Opaque structure definition\ntypedef struct MyType1Opaque MyType1;\ntypedef struct MyType2Opaque MyType2;\n\n// Handle definitions\ntypedef MyType1* MyType1Handle;\ntypedef MyType2* MyType2Handle;\n\n#ifdef __cplusplus\n}\n\n// Full struct definitions in C++ for type safety\nstruct MyType1Opaque {};\nstruct MyType2Opaque {};\n#endif

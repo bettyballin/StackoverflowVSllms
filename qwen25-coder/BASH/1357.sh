@@ -1,1 +1,0 @@
-# Example command-line usage of HTTrack\nhttrack "http://example.com" -O "/path/to/download/directory" "%U0+N1+C0+K0"

@@ -1,1 +1,0 @@
-# Reset umask to a more restrictive level, e.g., 022\numask 022

@@ -1,1 +1,0 @@
-./your-script-name.sh specific-subdir

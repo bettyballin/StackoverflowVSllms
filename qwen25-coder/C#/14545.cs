@@ -1,1 +1,0 @@
-from subscription in dbContext.Subscriptions\nwhere subscription.Expires > System.Data.Linq.SqlClient.SqlMethods.GetDate()\nselect subscriptio

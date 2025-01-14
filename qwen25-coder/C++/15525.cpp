@@ -1,1 +1,0 @@
-# Example of using cuDNN for encryption or custom kernels:\n// Assume you have written a kernel to perform some operations\n__global__ void encrypt_kernel(...) {\n    // Kernel code here\n}

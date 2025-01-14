@@ -1,1 +1,0 @@
-// Example of providing a destructor function\n    void* allocate_memory(size_t size) {\n        return malloc(size);\n    }\n\n    void free_memory(void* ptr) {\n        if (ptr != NULL) {\n            free(ptr);\n        }\n    }

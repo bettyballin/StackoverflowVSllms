@@ -1,1 +1,0 @@
-svn propset svn:ignore '*.tmp' path/to/directory_to_ignore/

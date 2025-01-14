@@ -1,1 +1,0 @@
-<%@ Page Language="C#" %>\n<html>\n<body>\n<h1>This is a simple test page.</h1>\n</body>\n</html>

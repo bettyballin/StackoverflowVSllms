@@ -1,1 +1,0 @@
-int a = 1;\nint* b = &a; // Correct: b is a pointer to int\n// int& b = &a; // Incorrect: cannot initialize non-const lvalue reference with rvalue '&a'

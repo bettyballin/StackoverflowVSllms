@@ -1,1 +1,0 @@
-#include "mylib.h"\n#include <iostream>\n\nvoid someFunction() {\n    std::cout << "Hello from the library!" << std::endl;\n}

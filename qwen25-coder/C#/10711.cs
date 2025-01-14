@@ -1,1 +1,0 @@
-// Define your Enum\npublic enum NodeType\n{\n    Type1 = 1,\n    Type2 = 2,\n    // Add other types as necessary\n}\n\n// Use nullable type in your DTO\npublic class PackageDTO\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n    public NodeType? NodeType { get; set; } // Nullable enum\n}

@@ -1,1 +1,0 @@
-string sqlScript = SqlScriptLoader.GetSqlScript("YourProjectName.SqlScripts.YourScript.sql");

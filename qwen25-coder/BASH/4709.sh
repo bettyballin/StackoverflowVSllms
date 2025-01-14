@@ -1,1 +1,0 @@
-clickhouse-client --query="INSERT INTO entity_data FORMAT TabSeparated" < input.tsv

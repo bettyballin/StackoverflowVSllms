@@ -1,1 +1,0 @@
-[DataContract]\n[KnownType(typeof(ConcreteMessage1))]\n[KnownType(typeof(ConcreteMessage2))]\npublic abstract class Message\n{\n    // Class implementation...\n}

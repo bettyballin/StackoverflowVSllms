@@ -1,1 +1,0 @@
-public ActionResult SomeAction()\n{\n    string currentUserName = User.Identity.Name;\n    // Use currentUserName as needed\n    return View();\n}

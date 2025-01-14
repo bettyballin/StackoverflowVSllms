@@ -1,1 +1,0 @@
-protected void Application_Start()\n{\n    AreaRegistration.RegisterAllAreas();\n    RouteConfig.RegisterRoutes(RouteTable.Routes);\n    SeedMembership(); // Call the seeding method here\n}

@@ -1,1 +1,0 @@
-g++ -shared -o libmylib.so mylib.o

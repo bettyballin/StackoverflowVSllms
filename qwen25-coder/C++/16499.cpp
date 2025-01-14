@@ -1,1 +1,0 @@
-#include "random.h"\n\nvoid foo() {\n    // Function definition\n}

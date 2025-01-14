@@ -1,1 +1,0 @@
-public void ProcessObject(object obj)\n   {\n       // Process the object\n   }\n   \n   int myInt = 5;\n   ProcessObject(myInt); // Boxing occurs here

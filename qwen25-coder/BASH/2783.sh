@@ -1,1 +1,0 @@
-sed -E 's/(^[^ ]+ )qux/\1/g' inputfile > outputfile

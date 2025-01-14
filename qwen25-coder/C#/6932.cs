@@ -1,1 +1,0 @@
-public class SomeSpecificViewModel : ApplicationViewModel<User>\n{\n    // Specific properties for this view model...\n}

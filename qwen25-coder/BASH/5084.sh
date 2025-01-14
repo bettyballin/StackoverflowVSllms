@@ -1,1 +1,0 @@
-.windbg -Z <dumpfile.dmp>\n.loadby sos clr\n!dumpheap –stat

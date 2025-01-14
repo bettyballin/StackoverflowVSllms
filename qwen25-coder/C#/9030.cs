@@ -1,1 +1,0 @@
-public interface ISafeControl\n   {\n       void SetSafeContent(HtmlString content);\n   }

@@ -1,1 +1,0 @@
-ArrayList list = new ArrayList();\n   int number = 10;\n   list.Add(number); // Boxing occurs here

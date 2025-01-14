@@ -1,1 +1,0 @@
-mountvol X: /s \\?\Volume{your-volume-id}

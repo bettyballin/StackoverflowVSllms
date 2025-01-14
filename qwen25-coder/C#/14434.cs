@@ -1,1 +1,0 @@
-using System.Xml.Linq;\n\nstring filePath = @"C:\path\to\Web.config";\ntry\n{\n    XDocument xDoc = XDocument.Load(filePath);\n    xDoc.Root.Element("configuration").SetElementValue("appSettings/add[@key='YourKey']", "New Value");\n    xDoc.Save(filePath);\n}\ncatch (Exception ex)\n{\n    Console.WriteLine("Error: " + ex.Message);\n}

@@ -1,1 +1,0 @@
-img {\n    max-width: 100%; /* Image will not exceed its container's width */\n    height: auto; /* Keeps aspect ratio */\n}\n\n/* Example media query for different screen sizes */\n@media (max-width: 600px) {\n    img {\n        max-width: 90%; /* Adjusts size on smaller screens */\n    }\n}

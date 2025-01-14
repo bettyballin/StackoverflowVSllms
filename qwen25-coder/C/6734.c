@@ -1,1 +1,0 @@
-write(clientSocketFD, myArrayFromFunction, sizeof(long) * ARRAY_LEN);

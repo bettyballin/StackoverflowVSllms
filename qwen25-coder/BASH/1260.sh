@@ -1,1 +1,0 @@
-ssh -Y -C -c arcfour256 user@hostname

@@ -1,1 +1,0 @@
-wget https://download.oracle.com/otn_software/linux/instantclient/oracle-database-xe-21c-1.0-1.x86_64.rpm.zip\n     unzip oracle-database-xe-21c-1.0-1.x86_64.rpm.zip\n     sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el7.x86_64.rpm\n     sudo rpm -ivh oracle-database-xe-21c-1.0-1.x86_64.rpm

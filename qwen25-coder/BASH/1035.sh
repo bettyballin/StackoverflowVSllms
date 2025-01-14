@@ -1,1 +1,0 @@
-sed -E 's/(^|[^:])C:(\\)([^\\\n]*\\.c)/\1C:\/\3/g' inputfile > outputfile

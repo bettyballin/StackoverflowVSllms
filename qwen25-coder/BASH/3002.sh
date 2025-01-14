@@ -1,1 +1,0 @@
-rphpc -o hello hello.php\n   gcc -lphp-rp -pthread hello.c -o hello_bi

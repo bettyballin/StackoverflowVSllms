@@ -1,1 +1,0 @@
-# Assuming you have installed PGP WDE and are familiar with the CLI\n   pgpwde --rescue-media image=pgp-rescue-cd.iso type=cd

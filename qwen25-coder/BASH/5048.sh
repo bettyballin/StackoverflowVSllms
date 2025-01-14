@@ -1,1 +1,0 @@
-gcc ctr1.o -o myprogram

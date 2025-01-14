@@ -1,1 +1,0 @@
-public class MyClass : ICloneable<MyClass>\n{\n    public MyClass Clone()\n    {\n        // Implementation for cloning.\n        return new MyClass();\n    }\n\n    object System.ICloneable.Clone()\n    {\n        return Clone();\n    }\n}

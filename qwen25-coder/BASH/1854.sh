@@ -1,1 +1,0 @@
-function test { \n    $outerArgs = $args\n    1..3 | % { echo "args inside pipeline: $outerArgs" } \n    echo "args outside pipeline: $args"\n}

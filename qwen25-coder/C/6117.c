@@ -1,1 +1,0 @@
-HWND hConsoleTextBox = CreateWindowEx(\n    WS_EX_CLIENTEDGE,\n    "EDIT", "",\n    WS_CHILD | WS_VISIBLE | ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY,\n    10, 10, 280, 200,\n    hwnd, (HMENU) 1, hInstance, NULL);

@@ -1,1 +1,0 @@
-// Point.h\n#define WIDTH 8\n#define HEIGHT 8\n\ntypedef struct Point\n{\n  signed char x; // Explicitly signed\n  signed char y; // Explicitly signed\n} Point;

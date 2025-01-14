@@ -1,1 +1,0 @@
-gcc -Wall -o myprogram myprogram.c 2>&1 | \\n    grep --color=always -E '(index|unused)|warning:' | \\n    sed -e 's/\(index\)/\x1b[31m\1\x1b[0m/g' -e 's/\(unused\)/\x1b[34m\1\x1b[0m/g'

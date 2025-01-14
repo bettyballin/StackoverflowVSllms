@@ -1,1 +1,0 @@
-private void SetCustomerIdButton_Click(object sender, EventArgs e)\n{\n    SharedData.CustomerId = 1; // Example customer ID\n}

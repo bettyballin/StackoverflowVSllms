@@ -1,1 +1,0 @@
-# Example of compiling with high optimization level and multi-threading support\n   g++ -O3 -fopenmp my_program.cpp -o my_program

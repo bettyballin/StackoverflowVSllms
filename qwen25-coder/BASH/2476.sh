@@ -1,1 +1,0 @@
-php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"\n   php composer-setup.php --install-dir=/usr/local/bin --filename=composer

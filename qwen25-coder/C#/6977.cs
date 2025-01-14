@@ -1,1 +1,0 @@
-public static bool IsNullOrZero<T>(T? value) where T : struct, IComparable<T>\n{\n    return !value.HasValue || value.Value.CompareTo(default(T)) == 0;\n}

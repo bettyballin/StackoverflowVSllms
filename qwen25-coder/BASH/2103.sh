@@ -1,1 +1,0 @@
-# To check and configure the application pool's architecture:\n   c:\windows\system32\inetsrv> appcmd list wp\n   # If it shows Enable32BitAppOnWin64 : False, you need to set it to True if using 32-bit DLLs\n   c:\windows\system32\inetsrv> appcmd set config -section:system.webServer/applicationPools /[name='YourAppPoolName'].enable32BitAppOnWin64:"True" /commit:apphost

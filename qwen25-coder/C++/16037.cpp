@@ -1,1 +1,0 @@
-// Include the same header file as in the DLL project.\n   #include "YourHeaderFile.h"\n\n   int main() {\n       B<int> obj;\n       obj.doSomething();\n       return 0;\n   }

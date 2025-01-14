@@ -1,1 +1,0 @@
-private void ultraGrid1_BeforeRowsDeleted(object sender, Infragistics.Shared.CancelEventArgs e)\n{\n    // Set Cancel to false to avoid showing the default confirmation dialog.\n    e.Cancel = true;\n\n    // Manually delete the selected rows without confirmation.\n    myUltraGrid.DeleteSelectedRows(false);\n}

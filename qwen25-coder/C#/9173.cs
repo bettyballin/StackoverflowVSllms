@@ -1,1 +1,0 @@
-public ActionResult Index()\n{\n    // Assume this HTML comes from a database or another source\n    string htmlContent = "<h1>Hello World</h1>";\n    \n    ViewData["UnsafeHtml"] = htmlContent;\n    \n    return View();\n}

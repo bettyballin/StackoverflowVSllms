@@ -1,1 +1,0 @@
-./bindiff64 idb1.idb idb2.idb -o difference.xdelta

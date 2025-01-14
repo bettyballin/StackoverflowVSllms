@@ -1,1 +1,0 @@
-#!/bin/bash\nwhile true; do\n  ps -eo pid,ppid,rss,cmd | grep php-cgi >> php_memory_usage.log\n  sleep 10\ndone

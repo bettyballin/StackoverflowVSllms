@@ -1,1 +1,0 @@
-private System.Windows.Forms.Label myGameCountLbl;

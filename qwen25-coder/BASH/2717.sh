@@ -1,1 +1,0 @@
-sudo apt-get install gnupg -y  # For Debian/Ubuntu based systems

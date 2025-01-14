@@ -1,1 +1,0 @@
-Int32 resultA = ((Int32)X | ((Int32)Y << 16));

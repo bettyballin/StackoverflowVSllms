@@ -1,1 +1,0 @@
-composer require --devphan/phan\n   ./vendor/bin/pha

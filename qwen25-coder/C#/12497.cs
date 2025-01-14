@@ -1,1 +1,0 @@
-WebProxy proxy = new WebProxy("<proxy address>", true);\nproxy.Credentials = new NetworkCredential("<username>", "<password>");\nSystem.Net.WebRequest.DefaultWebProxy = proxy;

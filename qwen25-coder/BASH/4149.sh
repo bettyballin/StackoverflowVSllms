@@ -1,1 +1,0 @@
-gem update --system\n   gem list --outdated | awk '{print $1}' | while read GEMS; do gem uninstall -Iax ${GEMS}; done\n   gem list | awk '{print $1}' | while read GEMS; do gem install ${GEMS} | grep 'Successfully installed' ; done

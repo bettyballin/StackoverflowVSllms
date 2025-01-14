@@ -1,1 +1,0 @@
-scan-build gcc <compile_commands>

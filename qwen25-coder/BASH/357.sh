@@ -1,1 +1,0 @@
-#!/bin/bash\n\necho "Running user code..."\nphp -r "$1"\necho "Execution finished."

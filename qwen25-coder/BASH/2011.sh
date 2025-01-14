@@ -1,1 +1,0 @@
-etsh nlb cluster <clustername> ipgeneral set affinity=unicastroundrobin persistence=yes

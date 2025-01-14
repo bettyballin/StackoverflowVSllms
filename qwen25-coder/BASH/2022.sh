@@ -1,1 +1,0 @@
-# Example: Simulate 50% packet loss to a specific IP\n.\clumsy.exe -target 192.168.1.10 -loss 50%

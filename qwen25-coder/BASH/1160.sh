@@ -1,1 +1,0 @@
-regsvr32 fuslogvw.dll\n   fuslogvw.exe

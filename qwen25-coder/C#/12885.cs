@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n    {\n        if (IsPostBack)\n        {\n            try\n            {\n                // Attempt to load state safely here if necessary\n            }\n            catch(ViewStateException ex)\n            {\n                // Log the exception details for analysis\n            }\n        }\n    }

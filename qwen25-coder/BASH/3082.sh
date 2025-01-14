@@ -1,1 +1,0 @@
-sudo cryptsetup reload my_encrypted_volume\n   sudo mount -a # Checks all filesystems mentioned in fstab for correctness\n   sudo reboot

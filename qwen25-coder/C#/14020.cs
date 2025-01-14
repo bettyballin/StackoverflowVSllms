@@ -1,1 +1,0 @@
-long totalManagedMemory = GC.GetTotalMemory(false);

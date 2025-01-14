@@ -1,1 +1,0 @@
-.content {\n    width: 100%; /* Ensure it takes the full width */\n    height: auto; /* Allow it to adjust based on content */\n    overflow: visible; /* Prevents content from being clipped */\n}

@@ -1,1 +1,0 @@
-public async Task UpdateUserSuggestionsAsync(string userId, List<string> newSuggestions)\n    {\n        // Logic to update database with new suggestions\n    }

@@ -1,1 +1,0 @@
-@echo off\nsetlocal enabledelayedexpansion\n\nrem Replace 'yourfile.txt' with the path to your text file\nfor /f "delims=" %%x in (yourfile.txt) do (\n    echo %%x\n)

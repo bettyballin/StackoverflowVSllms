@@ -1,1 +1,0 @@
-using Rhino.Mocks;\n\n// Initialize the mock repository if not already done\nvar _mocks = new MockRepository();

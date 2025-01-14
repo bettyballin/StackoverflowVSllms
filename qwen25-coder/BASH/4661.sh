@@ -1,1 +1,0 @@
-# Backup with Percona XtraBackup\n  xtrabackup --backup --target-dir=/data/backup\n   \n  # Restore with Percona XtraBackup\n  xtrabackup --prepare --target-dir=/data/backup\n  stop mysql\n  rsync -avrP /data/backup/ /var/lib/mysql/\n  chown -R mysql:mysql /var/lib/mysql\n  start mysql

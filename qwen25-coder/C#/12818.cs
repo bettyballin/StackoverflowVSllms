@@ -1,1 +1,0 @@
-public class Program\n{\n    [STAThread]\n    public static void Main(string[] args)\n    {\n        DllExtractor.EnsureSkype4ComRegistered();\n\n        // Your application logic here\n    }\n}

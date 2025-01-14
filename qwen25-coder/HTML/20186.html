@@ -1,1 +1,0 @@
-<html>\n<head>\n<title>Test</title>\n<script>\nfunction getQueryParam(param) {\n    var urlParams = new URLSearchParams(window.location.search);\n    return urlParams.get(param);\n}\n\nwindow.onload = function() {\n    document.querySelector('input[name="test1"]').value = getQueryParam('test1');\n};\n</script>\n</head>\n<body >\n <input type="text" name="test1">\n</body>\n</html>

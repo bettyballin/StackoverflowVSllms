@@ -1,1 +1,0 @@
-.header-with-button {\n    display: flex;\n    justify-content: space-between; /* Distributes space between items */\n    align-items: center; /* Centers items vertically within the header */\n}\n\n#btnRefund {\n    margin-left: auto; /* Pushes the button to the right */\n}

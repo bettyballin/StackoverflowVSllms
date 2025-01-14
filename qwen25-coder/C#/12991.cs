@@ -1,1 +1,0 @@
-// You need to create a strong name key file first:\n   sn -k MyApplication.snk\n   \n   // Then sign the assembly using this key file:\n   [assembly: System.Reflection.AssemblyKeyFile("MyApplication.snk")]

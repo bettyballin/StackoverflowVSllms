@@ -1,1 +1,0 @@
-sudo a2enmod ssl\n   sudo systemctl restart apache2

@@ -1,1 +1,0 @@
-# To control all program groups together\n     sudo supervisorctl reread && sudo supervisorctl update\n\n     # To check status of all processes\n     sudo supervisorctl status\n     \n     # To restart a process group\n     sudo supervisorctl restart php_worker:*\n     \n     # To stop a process group\n     sudo supervisorctl stop php_worker:*

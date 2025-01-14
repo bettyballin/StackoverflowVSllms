@@ -1,1 +1,0 @@
-java -XX:+UseG1GC -Xms1024m -Xmx1536m -XX:MaxMetaspaceSize=512m -jar your-application.jar

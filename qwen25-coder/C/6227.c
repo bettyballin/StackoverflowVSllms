@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <stdlib.h>\n\n#ifdef __cplusplus\nextern "C" {\n#endif\n\n// This function returns a pointer to a dynamically allocated string.\nvoid getStringFromDLLOnHeap(char* buffer, int bufferSize) {\n    const char* result = "Hello from DLL!";\n    snprintf(buffer, bufferSize, "%s", result);\n}\n\n#ifdef __cplusplus\n}\n#endif

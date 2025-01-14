@@ -1,1 +1,0 @@
-from c in Db.Concessions\njoin f in Db.Firms on c.FirmID equals f.FirmID into joinResult\nfrom jf in joinResult.DefaultIfEmpty()\nselect new {\n    c.ConcessionID,\n    c.Title,\n    Firm_Title = jf == null ? string.Empty : jf.Title\n}

@@ -1,1 +1,0 @@
-#!/bin/bash\n\nPID=1234  # Replace with your process ID\n\nwhile true; do\n    ps -o pid,state,cmd -p $PID | grep -v PID\n    sleep 5  # Check every 5 seconds\ndone

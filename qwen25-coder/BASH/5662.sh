@@ -1,1 +1,0 @@
-# Initialize composer in your project directory\ncomposer init\n\n# Install PHPStan via composer\ncomposer require --dev phpstan/phpstan\n\n# Run PHPStan analysis to check for errors\n./vendor/bin/phpstan analyse src/

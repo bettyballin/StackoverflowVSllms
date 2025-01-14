@@ -1,1 +1,0 @@
-xperf -on PROCESS_THREAD -stackwalk CSRSSWNDPROC

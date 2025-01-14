@@ -1,1 +1,0 @@
-awk '/^Wed/{if (NR>1) print "";} /^Wed|cat/ {print}' logfile.txt

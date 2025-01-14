@@ -1,1 +1,0 @@
-List<int> firstList = new List<int> { 1, 2, 3 };\n  List<int> secondList = new List<int> { 4, 5, 6 };\n  IEnumerable<int> combinedSequence = firstList.Concat(secondList);\n  // To see the results in a list:\n  List<int> combinedList = combinedSequence.ToList();\n  // combinedList now contains: 1, 2, 3, 4, 5, 6

@@ -1,1 +1,0 @@
-using System.Web;\n   \n   string message = "Could not find foo%20bar";\n   string encodedMessage = HttpUtility.UrlPathEncode(message);\n   // Log encodedMessage

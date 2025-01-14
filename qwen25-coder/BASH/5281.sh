@@ -1,1 +1,0 @@
-# Read files listed in 'list_files' into an array\nmapfile -t EXCLUDE_FILES < list_files\n\n# Find and delete all hidden files not in the exclusion list\nfind . -maxdepth 1 -type f -iname ".*" ! \( $(printf "-name '%s' -o " "${EXCLUDE_FILES[@]}") false \) -exec rm {} +

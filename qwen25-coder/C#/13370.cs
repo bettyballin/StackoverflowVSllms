@@ -1,1 +1,0 @@
-// Project data to memory and use .Date\n     var result = (from d in db.Dates select d).AsEnumerable()\n                  .Select(d => d.Date)\n                  .ToList();

@@ -1,1 +1,0 @@
-sudo apt-get install clamav\n   sudo freshclam\n   sudo clamscan -r /var/www/html/

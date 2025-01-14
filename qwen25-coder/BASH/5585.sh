@@ -1,1 +1,0 @@
-# Switch to your local SVN repository (if not already done)\ncd path-to-your-local-svn-repo\n\n# Apply the patch you generated\npatch -p0 < /path/to/latest-changes.patch\n\n# Resolve any issues or conflicts if they arise\nsvn status\n\n# Commit your changes once everything is resolved and tested\nsvn commit -m "Applied latest changes from remote repository."

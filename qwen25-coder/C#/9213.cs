@@ -1,1 +1,0 @@
-private void Button_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)\n{\n    // Your pre-processing code here.\n    // If you want to prevent the click event from firing, set Handled to true:\n    // e.Handled = true;\n}

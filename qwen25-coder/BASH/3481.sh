@@ -1,1 +1,0 @@
-cd /repos/projecta/trunk/Libs\n   svn propset svn:externals "ExtLib1 ../../../external/extlib1/trunk/Source Lib1 ../../../libs/lib1/trunk Lib2 ../../../libs/lib2/trunk" .\n   svn commit -m "Added externals for ProjectA"

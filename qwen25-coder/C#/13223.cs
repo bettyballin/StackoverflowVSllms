@@ -1,1 +1,0 @@
-string hql = "select e1.SomeProperty, e2.AnotherProperty " +\n             "from TableOne e1 " +\n             "join TableTwo e2 " +\n             "with e1.SomeID = e2.ID";\nvar result = session.CreateQuery(hql)\n                   .List<object[]>();

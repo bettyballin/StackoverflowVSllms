@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    // Example of testing a method from your back-end\n    string result = YourNamespace.YourClass.YourMethod();\n    Response.Write("Result of YourMethod: " + result);\n}

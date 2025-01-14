@@ -1,1 +1,0 @@
-[System.Security.Permissions.FileIOPermission(System.Security.Permissions.SecurityAction.RequestMinimum, AllLocalFiles = System.Security.Permissions.FileIOPermissionAccess.Read)]

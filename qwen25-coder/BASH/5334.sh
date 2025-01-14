@@ -1,1 +1,0 @@
-@echo off\nfor /f "tokens=*" %%a in ('hostname') do set host=%%a\necho %host%

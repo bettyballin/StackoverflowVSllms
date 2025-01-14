@@ -1,1 +1,0 @@
-./vendor/bin/phpunit --coverage-html build/coverage-api --coverage-clover build/logs/clover.xml

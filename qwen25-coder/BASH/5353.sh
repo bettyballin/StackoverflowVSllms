@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Replace with your FTP details\nFTP_USER="username"\nFTP_PASS="password"\nFTP_HOST="ftp.example.com"\nREMOTE_PATH="/path/on/server/"\n\n# Upload current document\n/usr/local/bin/lftp -u $FTP_USER,$FTP_PASS ftp://$FTP_HOST <<-EOF\n  put "$TM_FILEPATH" -O $REMOTE_PATH\nquit\nEOF

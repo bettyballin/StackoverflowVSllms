@@ -1,1 +1,0 @@
-// In Project Properties -> C/C++ -> Code Generation -> Runtime Library:\n   // For Release: Multi-threaded DLL (/MD)

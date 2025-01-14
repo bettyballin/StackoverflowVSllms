@@ -1,1 +1,0 @@
-svn checkout http://remote-svn-repo/trunk/ my-working-copy\ncd my-working-copy

@@ -1,1 +1,0 @@
-using System;\nusing System.Reflection;\n\npublic class AssemblyChecker {\n    public static void CheckAssemblyLocation(string assemblyName) {\n        var assembly = Assembly.Load(assemblyName);\n        Console.WriteLine($"Loaded {assembly.FullName} from {assembly.Location}");\n    }\n}

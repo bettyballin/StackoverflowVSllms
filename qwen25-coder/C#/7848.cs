@@ -1,1 +1,0 @@
-public class CustomAuthorizationManager : ServiceAuthorizationManager\n   {\n       protected override bool CheckAccessCore(OperationContext operationContext)\n       {\n           // Implementation for checking bearer token validity goes here\n           return true; // or false if invalid\n       }\n   }

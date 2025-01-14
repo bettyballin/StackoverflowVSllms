@@ -1,1 +1,0 @@
-// Example extracted from DLL exports using dumpbin and completed by hand\n#ifdef __cplusplus\nextern "C" {\n#endif\n\n__declspec(dllimport) int MyFunction(int param1, char* param2);\n\n#ifdef __cplusplus\n}\n#endif

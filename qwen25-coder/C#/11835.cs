@@ -1,1 +1,0 @@
-string settingValue = Configuration["Setting"] ?? "default";

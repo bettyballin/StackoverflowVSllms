@@ -1,1 +1,0 @@
-using NUnit.Framework;\n\n[TestFixture]\npublic class ExampleTests\n{\n    [Test]\n    public void TestInternalClass()\n    {\n        var instance = new MyInternalClass();\n        Assert.AreEqual(42, instance.GetMeaningOfLife());\n    }\n}\n\ninternal class MyInternalClass\n{\n    public int GetMeaningOfLife()\n    {\n        return 42;\n    }\n}

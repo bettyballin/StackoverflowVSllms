@@ -1,1 +1,0 @@
-int fileId = 1; // Example file ID\nstring outputPath = @"C:\try\retrieved_file.ext"; // Full path where you want to save the retrieved file\n\nRetrieveFileFromDatabase(fileId, outputPath);

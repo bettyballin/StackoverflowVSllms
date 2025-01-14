@@ -1,1 +1,0 @@
-// IRepository interface in Interfaces assembly\npublic interface IRepository<T>\n{\n    IEnumerable<T> GetAll();\n    T GetById(int id);\n    void Add(T entity);\n    void Delete(T entity);\n    // Other methods...\n}\n\npublic interface IProductRepository : IRepository<Product>\n{\n    // Additional specific product-related queries...\n}

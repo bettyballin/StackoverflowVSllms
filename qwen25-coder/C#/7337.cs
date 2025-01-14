@@ -1,1 +1,0 @@
-// Simple example of retrieving an item from the Sitecore database\n   Item homeItem = Sitecore.Context.Database.GetItem(Sitecore.Constants.HomeID);

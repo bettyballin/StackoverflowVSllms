@@ -1,1 +1,0 @@
-#!/bin/sh\n\n# Create a temporary sed script file\nSED_SCRIPT=$(mktemp) || exit 1\ntrap "rm -f -- '$SED_SCRIPT'" EXIT\n\n# Add your sed commands to the script file\ncat <<'EOF' > "$SED_SCRIPT"\ns/SOME THING//g\ns/SOME THING ELSE//g\nEOF\n\n# Use the sed script file with sed -f\nsomecommand | sed -f "$SED_SCRIPT"

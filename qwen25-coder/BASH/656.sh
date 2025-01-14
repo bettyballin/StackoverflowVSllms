@@ -1,1 +1,0 @@
-sudo apt-get install code  # For Debian/Ubuntu systems

@@ -1,1 +1,0 @@
-// For a target with an 8-bit char\nint myFourcc = 'ABCD'; // This would be interpreted as:\n                       // (int) ((unsigned char) 'A' * 256*256*256 + \n                       //        (unsigned char) 'B' * 256*256 +\n                       //        (unsigned char) 'C' * 256 +\n                       //        (unsigned char) 'D')

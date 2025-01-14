@@ -1,1 +1,0 @@
-#ifdef MATHOPERATIONS_EXPORTS\n#define MATHOPERATIONS_API __declspec(dllexport)\n#else\n#define MATHOPERATIONS_API __declspec(dllimport)\n#endif\n\nextern "C" MATHOPERATIONS_API int calculateSquare(int num);

@@ -1,1 +1,0 @@
-ssh myusername@host.suffix1.company.com command

@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Get the parent process ID (PPID) which you want to kill.\n# For demonstration, let's assume we have a known PPID:\nPARENT_PID=1234\n\n# Send a signal to all processes in the same process group as PARENT_PID.\nkill -- -$(ps -o pgid= $PARENT_PID)

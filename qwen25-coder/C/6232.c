@@ -1,1 +1,0 @@
-#include <stdint.h>\n#include <stdio.h>\n\nint main() {\n    int8_t a = 10;\n    int16_t b = 2000;\n    int32_t c = 1000000;\n\n    printf("Size of a: %zu bytes\n", sizeof(a));\n    printf("Size of b: %zu bytes\n", sizeof(b));\n    printf("Size of c: %zu bytes\n", sizeof(c));\n\n    return 0;\n}

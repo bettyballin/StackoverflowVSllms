@@ -1,1 +1,0 @@
-setfacl -m u:nobody:rwx /path/to/your/file

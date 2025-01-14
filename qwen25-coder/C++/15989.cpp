@@ -1,1 +1,0 @@
-#include <iostream>\n\nclass ClassTest {\npublic:\n    ClassTest() {\n        std::cout << "Constructor called" << std::endl; // Observable side effect\n    }\n\n    void DoIt() {\n        std::cout << "DoIt called" << std::endl;\n    }\n};\n\nint main() {\n    ClassTest test;\n    test.DoIt();\n    return 0;\n}

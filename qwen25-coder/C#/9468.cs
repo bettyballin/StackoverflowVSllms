@@ -1,1 +1,0 @@
-// Examples of dynamic analysis tools\n  var dynamicAnalysisTools = new List<string> { "OWASP ZAP", "Burp Suite", "Acunetix" };

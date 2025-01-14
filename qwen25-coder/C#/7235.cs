@@ -1,1 +1,0 @@
-public JsonResult Submit([FromBody] Party party)\n{\n    return Json(party);\n}

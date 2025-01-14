@@ -1,1 +1,0 @@
-/* Ensure both side panels are floated left and have the width defined */\n#sidePanel, #side2 {\n  float: left;\n}\n\n/* Example widths to fit them side by side; adjust as needed */\n#sidePanel {\n  width: 30%; /* example percentage */\n}\n\n#side2 {\n  width: 65%; /* example percentage */\n  margin-left: 5%; /* space between panels */\n}

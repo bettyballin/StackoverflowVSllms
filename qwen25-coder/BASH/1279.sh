@@ -1,1 +1,0 @@
-# Generate key pair if you don't have one\nssh-keygen -t rsa\n\n# Copy public key to remote server, replace user and host accordingly\nssh-copy-id your_ssh_user@other_linux_box_ip_or_domai

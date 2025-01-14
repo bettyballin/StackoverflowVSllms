@@ -1,1 +1,0 @@
-export LD_PRELOAD=./libmywatchdog.so\n./target_executable

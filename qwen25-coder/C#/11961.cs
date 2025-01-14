@@ -1,1 +1,0 @@
-using (var db = new YourDataContext())\n{\n    // Define your list of IDs\n    var ids = new List<int> { 1, 2, 3 };\n\n    // Create a comma-separated string of IDs for the IN clause\n    var idList = string.Join(",", ids);\n\n    // Execute the SQL command directly\n    db.ExecuteCommand("UPDATE FileEntity SET DateDeleted = GETDATE() WHERE ID IN ({0})", idList);\n}

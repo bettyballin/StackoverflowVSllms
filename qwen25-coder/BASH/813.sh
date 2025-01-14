@@ -1,1 +1,0 @@
-ano ~/mysql_connect.sh

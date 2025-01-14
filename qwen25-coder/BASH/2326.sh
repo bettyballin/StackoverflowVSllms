@@ -1,1 +1,0 @@
-mkdir /mnt/ntfsdrive\n   mount -t ntfs-3g /dev/sdb1 /mnt/ntfsdrive

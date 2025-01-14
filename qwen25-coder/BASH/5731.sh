@@ -1,1 +1,0 @@
-@echo off\nREM This sets a new DWORD value 'MyDwordValue' with data 1234 in the specified key.\nreg add "HKEY_CURRENT_USER\Software\MyCompany\MyApp" /v MyDwordValue /t REG_DWORD /d 1234 /f

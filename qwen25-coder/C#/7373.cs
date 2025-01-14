@@ -1,1 +1,0 @@
-public class MyItem\n{\n    public string Name { get; set; }\n    public bool IsImportant { get; set; }\n}

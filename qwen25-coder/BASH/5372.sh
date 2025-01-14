@@ -1,1 +1,0 @@
-%preun\nif [ $1 -eq 0 ]; then\n    # Actions to perform only when upgrading\n    echo "Handling upgrade-specific preun actions."\nfi\n# Actions that should be performed on both upgrades and removals can go here.

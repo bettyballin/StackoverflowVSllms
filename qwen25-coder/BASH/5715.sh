@@ -1,1 +1,0 @@
-# Install cups-pdf on Ubuntu/Debian\n   sudo apt-get install cups-pdf

@@ -1,1 +1,0 @@
-ssh -L 1025:workstation.work.com:25 workstation.work.com

@@ -1,1 +1,0 @@
-using (var context = new YourDbContext())\n   {\n       var results = context.Database.SqlQuery<YourTempTableEntity>(\n           "EXEC YourStoredProcedureName"\n       ).ToList();\n\n       foreach (var row in results)\n       {\n           // Process each row here\n       }\n   }

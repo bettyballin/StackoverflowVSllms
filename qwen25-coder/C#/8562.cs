@@ -1,1 +1,0 @@
-// Example in C# within a handler for .css, .js, .png etc.\npublic void ProcessRequest(HttpContext context)\n{\n    context.Response.ExpiresAbsolute = DateTime.Now.AddMonths(1);\n    context.Response.Cache.SetExpires(DateTime.Now.AddMonths(1));\n    context.Response.CacheControl = "public";\n    context.Response.WriteFile(context.Server.MapPath(context.Request.FilePath));\n}

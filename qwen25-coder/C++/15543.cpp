@@ -1,1 +1,0 @@
-STDAPI DllRegisterServer()\n{\n    HRESULT hr = _AtlModule.DllUnregisterServer();\n    if (FAILED(hr))\n        return hr;\n\n    // Register the server and typelib in both 32-bit and 64-bit contexts as needed.\n    return _AtlModule.DllRegisterServer(TRUE);\n}

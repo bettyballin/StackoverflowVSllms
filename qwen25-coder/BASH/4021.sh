@@ -1,1 +1,0 @@
-# Install PAR::Packer and create an executable from a Perl script\ncpanm PAR::Packer\npp -o my_script my_script.pl

@@ -1,1 +1,0 @@
-void my_function() __attribute__((optimize("O0")));\nvoid my_function() {\n    // Function body\n}

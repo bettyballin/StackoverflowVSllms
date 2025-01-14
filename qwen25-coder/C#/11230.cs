@@ -1,1 +1,0 @@
-void Application_End(object sender, EventArgs e)\n{\n    // Log the end event with a timestamp for later analysis\n    using (StreamWriter writer = new StreamWriter(Server.MapPath("~/AppPoolRecycleLog.txt"), true))\n    {\n        writer.WriteLine($"Application End Event: {DateTime.Now}");\n    }\n}

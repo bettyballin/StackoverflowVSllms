@@ -1,1 +1,0 @@
-sudo cryptsetup luksFormat /dev/sdb1

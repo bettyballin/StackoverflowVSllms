@@ -1,1 +1,0 @@
-mclient -u monetdb --password=monetdb dbname < modified_dbname_backup.sql

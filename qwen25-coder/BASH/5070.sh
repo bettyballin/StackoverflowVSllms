@@ -1,1 +1,0 @@
-svn copy trunk/<project> branches/<your-branch-name>

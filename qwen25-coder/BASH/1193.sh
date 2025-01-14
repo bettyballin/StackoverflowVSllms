@@ -1,1 +1,0 @@
-RewriteEngine On\nRewriteRule ^videos/login/?$ /videos/login.php [L,QSA]

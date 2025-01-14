@@ -1,1 +1,0 @@
-// Create a simple dataset\nint[] numbers = { 1, 2, 3, 4, 5 };\n\n// Define a query that filters even numbers.\nvar evenNumbersQuery = from number in numbers where number % 2 == 0 select number;\n\n// The query is not executed until we iterate over it\nConsole.WriteLine("Even numbers:");\nforeach (int num in evenNumbersQuery)\n{\n    Console.WriteLine(num);\n}

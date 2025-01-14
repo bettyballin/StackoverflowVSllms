@@ -1,1 +1,0 @@
-AddLink(MyForms.Select(form => form.GetLink()));

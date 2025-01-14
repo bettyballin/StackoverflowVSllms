@@ -1,1 +1,0 @@
-# Step 1: Copy the original file to the new location\ncp path/to/original-file.txt path/to/new-file-copy.txt\n\n# Step 2: Add the new file to staging\ngit add path/to/new-file-copy.txt\n\n# Step 3: Commit the change with a message indicating that this is a copy operation\ngit commit -m "Copy original-file.txt to new-file-copy.txt"

@@ -1,1 +1,0 @@
-# Install VirtualBox\nsudo apt-get install virtualbox\n\n# Import the VHD file (downloaded from Microsoft or obtained legally)\nVBoxManage import "path/to/your/IE6/VirtualHardDisk.vhd"\n\n# Start the VM to test in an isolated environment\nVBoxManage startvm "Your IE6 Name"

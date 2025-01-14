@@ -1,1 +1,0 @@
-#ifdef __cplusplus\nextern "C" {\n#endif\n\nint ret_foo(const struct foo* f); // If you need to declare this in the CPP file\n\n#ifdef __cplusplus\n}\n#endif

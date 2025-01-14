@@ -1,1 +1,0 @@
-# Clean the build directory to remove old compiled classes and rebuild the project.\n   ant clean all\n\n   # Or if using maven, run\n   mvn clean install

@@ -1,1 +1,0 @@
-foreach (DataRow row in dataTable.Rows)\n{\n    var originalColumnNameValue = row["OriginalColumnName"];\n    var renamedColumnValue = row["OriginalColumnName1"]; // Adjust the index as per your data\n\n    Console.WriteLine($"Original: {originalColumnNameValue}, Renamed: {renamedColumnValue}");\n}

@@ -1,1 +1,0 @@
-using System;\nusing System.Web;\n\npublic class GreetingHandler : IHttpHandler\n{\n    public void ProcessRequest(HttpContext context)\n    {\n        string name = context.Request.QueryString["name"];\n        context.Response.ContentType = "text/plain";\n        context.Response.Write($"Hello, {name}!");\n    }\n\n    public bool IsReusable => false;\n}

@@ -1,1 +1,0 @@
-# Install on Debian/Ubuntu: sudo apt-get install libjpeg-progs\n# Install on macOS via Homebrew: brew install jpeg\n\n# Example usage:\njpegtran -optimize -copy none -perfect image.jpg > optimized_image.jpg  # Strip all metadata, optimize Huffman tables

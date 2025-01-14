@@ -1,1 +1,0 @@
-var sortedItems = items.OrderBy(i => i.Name).ThenByDescending(i => i.Age);

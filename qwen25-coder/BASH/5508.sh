@@ -1,1 +1,0 @@
-sudo trace-cmd record -p function_graph sleep 60\n   sudo trace-cmd report

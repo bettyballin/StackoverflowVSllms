@@ -1,1 +1,0 @@
-@echo off\nsetlocal\n\n:: Define your multi-line string with \r\n for new lines\nset "multilineString=First Line\r\nSecond Line\r\nThird Line"\n\n:: Add or modify the registry entry with the multiline string\nreg.exe add "HKEY_LOCAL_MACHINE\SOFTWARE\YourCompany\YourApp" /v YourValueName /t REG_SZ /d "%multilineString%" /f\n\nendlocal

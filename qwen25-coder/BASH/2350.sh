@@ -1,1 +1,0 @@
-returnStatus=$(echo "$test" | sed -n 's/.*return status = \([0-9]\+\).*/\1/p')

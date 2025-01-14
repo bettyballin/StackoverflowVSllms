@@ -1,1 +1,0 @@
-ping -c 10 <database_server_IP>

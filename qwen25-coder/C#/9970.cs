@@ -1,1 +1,0 @@
-using System.ServiceModel;\n\n[ServiceContract]\npublic interface IMyRpcService\n{\n    [OperationContract]\n    string MyOperation(string value);\n}

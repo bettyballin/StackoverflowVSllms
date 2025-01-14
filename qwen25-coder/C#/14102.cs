@@ -1,1 +1,0 @@
-using Microsoft.Practices.EnterpriseLibrary.Logging;\n\n   // Disable all logging categories\n   Logger.SetLogEnabled(false);

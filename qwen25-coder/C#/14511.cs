@@ -1,1 +1,0 @@
-public class YourController : Controller\n{\n    [HttpPut]\n    public ActionResult Update(int id)\n    {\n        // Handle update logic here.\n        return Json(new { success = true });\n    }\n\n    [HttpDelete]\n    public ActionResult Delete(int id)\n    {\n        // Handle delete logic here.\n        return Json(new { success = true });\n    }\n}

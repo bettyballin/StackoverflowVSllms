@@ -1,1 +1,0 @@
-objcopy --only-keep-debug yourfile.dll yourfile.dll.debug\nobjcopy --strip-debug --strip-unneeded yourfile.dll

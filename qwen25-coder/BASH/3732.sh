@@ -1,1 +1,0 @@
-# For C code\ngcc -W...other_valid_c_warnings your_c_file.c\n\n# For C++ code\ng++ -W...other_valid_cpp_warnings -Wno-deprecated your_cpp_file.cpp

@@ -1,1 +1,0 @@
-awk -f extract_bind.awk yourlogfile.log

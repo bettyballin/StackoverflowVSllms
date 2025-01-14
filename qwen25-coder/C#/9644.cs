@@ -1,1 +1,0 @@
-db.AddInParameter(dbCommand, "YourDateTimeParameterName", DbType.DateTime2, dateTimeValue)

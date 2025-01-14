@@ -1,1 +1,0 @@
-flasm -x test.swf -o output.as  # Disassemble SWF to AS file\n# Manually edit and complicate output.as if needed, then reassemble\nflasm -a output.as -o protected.swf  # Reassemble AS back to SWF

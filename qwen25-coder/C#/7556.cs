@@ -1,1 +1,0 @@
-string selectedRadio = Request.Form["radioGroup"];\nif (selectedRadio == "rb1")\n{\n    // rb1 was selected\n}\nelse if (selectedRadio == "rb2")\n{\n    // rb2 was selected\n}

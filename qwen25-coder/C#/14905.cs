@@ -1,1 +1,0 @@
-// Example of setting up NHibernate Configuration programmatically.\n   var cfg = new Configuration();\n   cfg.AddAssembly(assembly);\n   ISessionFactory sessionFactory = cfg.BuildSessionFactory();

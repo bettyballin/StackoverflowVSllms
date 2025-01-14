@@ -1,1 +1,0 @@
-et use Y: \\sshfs\username@remotehost:/path/to/remote/directory /persistent:YES

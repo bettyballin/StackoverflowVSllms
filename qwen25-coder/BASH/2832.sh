@@ -1,1 +1,0 @@
-file /opt/csw/lib/libsunmath.so.1

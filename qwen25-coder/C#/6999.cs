@@ -1,1 +1,0 @@
-using System;\n\nbool IsEnglishLetterOrDigit(char c)\n{\n    return (c >= 'A' && c <= 'Z') || \n           (c >= 'a' && c <= 'z') || \n           (c >= '0' && c <= '9');\n}\n\n// Example usage:\nchar corruptedChar = 'Š';\nbool isValid = IsEnglishLetterOrDigit(corruptedChar);\nConsole.WriteLine(isValid); // Should print False for 'Š'

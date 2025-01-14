@@ -1,1 +1,0 @@
-ffmpeg -i guitar.mp3 -i bass.mp3 -i vocals.mp3 \\n-filter_complex "amerge=inputs=3" -ac 2 output.mp3

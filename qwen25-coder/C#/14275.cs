@@ -1,1 +1,0 @@
-using System.Net;\n\n   ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls13;

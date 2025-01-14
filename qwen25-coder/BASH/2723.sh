@@ -1,1 +1,0 @@
-gpg --import /path/to/public.key  # This step typically happens on the sending side where encryption occurs.

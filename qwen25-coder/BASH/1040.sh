@@ -1,1 +1,0 @@
-# Install WSL and a Linux distribution (Ubuntu as an example)\nwsl --install -d Ubuntu\n\n# Once installed, you can boot into the WSL Ubuntu instance and modify its time with:\nsudo timedatectl set-ntp false  # Disable network time sync\nsudo date -s "2024-12-31 12:00:00"  # Set desired date/time\n\n# Run your application under this modified WSL environment

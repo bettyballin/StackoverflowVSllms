@@ -1,1 +1,0 @@
-@media print {\n       body {\n           -webkit-print-color-adjust: exact;\n           color-adjust: exact;\n       }\n       \n       .chart-bar {\n           background-color: #desiredColor !important;\n       }\n   }

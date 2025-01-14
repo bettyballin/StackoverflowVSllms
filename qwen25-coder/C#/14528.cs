@@ -1,1 +1,0 @@
-using System;\nusing System.Web.Security;\n\nclass Program\n{\n    static void Main()\n    {\n        // Generate a random password of length 15 with at least 2 non-alphanumeric characters\n        string generatedPassword = Membership.GeneratePassword(15, 2);\n        Console.WriteLine("Generated Password: " + generatedPassword);\n    }\n}

@@ -1,1 +1,0 @@
-public class MyTableObject\n{\n    public int Id { get; set; }\n    public DateTime CreatedAt { get; set; }\n\n    public MyTableObject()\n    {\n        // Set default value for timestamp (current date and time)\n        CreatedAt = DateTime.Now;\n    }\n}

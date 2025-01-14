@@ -1,1 +1,0 @@
-using System;\nusing System.Runtime.InteropServices;\n\n[ComVisible(true)]\npublic interface IApiExposed\n{\n    void Exit();\n}\n\n[ClassInterface(ClassInterfaceType.None)]\n[ComVisible(true)]\npublic class ApiExposed : IApiExposed\n{\n    public string ModuleName { get; set; }\n\n    public void Exit()\n    {\n        System.Environment.Exit(0);\n    }\n}

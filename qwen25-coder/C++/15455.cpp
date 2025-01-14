@@ -1,1 +1,0 @@
-// Example of a type library declaration with a GUID\n[\n  uuid(12345678-9abc-def0-1234-56789abcdef0),\n  version(1.0)\n]\nlibrary MyTypeLibrary {\n    // Interfaces, classes, enums, etc.\n};

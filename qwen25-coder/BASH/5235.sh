@@ -1,1 +1,0 @@
-@echo off\nphp "%~dp0\framework.php" %*

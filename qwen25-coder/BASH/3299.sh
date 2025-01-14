@@ -1,1 +1,0 @@
-orchadmin dump -name <dataset name> > dataset_contents.txt

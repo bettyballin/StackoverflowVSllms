@@ -1,1 +1,0 @@
-using (var connection = new SqlConnection(connectionString))\n{\n    try\n    {\n        connection.Open();\n        // Perform your database operations here.\n    }\n    catch (Exception ex)\n    {\n        // Log the exception or handle it appropriately.\n    }\n    // No need to call Close(), as 'using' will take care of closing and disposing.\n}

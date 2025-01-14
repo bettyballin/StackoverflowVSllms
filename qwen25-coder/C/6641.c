@@ -1,1 +1,0 @@
-_CRTALLOC(".CRT$XIC") static _PIFV pinit = __initstdio1;

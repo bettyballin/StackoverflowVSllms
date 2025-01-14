@@ -1,1 +1,0 @@
-public class OrderMessage\n{\n    public Guid Id { get; set; } // Unique identifier for the order.\n    public string Content { get; set; } // The actual content of the order.\n}

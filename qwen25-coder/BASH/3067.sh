@@ -1,1 +1,0 @@
-# For example, in Ubuntu you might use:\n     sudo apt-get install tightvncserver

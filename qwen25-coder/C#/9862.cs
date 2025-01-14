@@ -1,1 +1,0 @@
-ConnectionOptions connection = new ConnectionOptions();\n   connection.Username = "YourUsername";\n   connection.Password = "YourPassword";\n\n   ManagementScope scope = new ManagementScope($"\\\\{remoteComputerName}\\root\\cimv2", connection);

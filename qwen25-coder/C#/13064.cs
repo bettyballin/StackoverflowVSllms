@@ -1,1 +1,0 @@
-protected void UpdateChartImage()\n{\n    // Generate your chart and save it to a file or stream\n    // Example: string imagePath = GenerateChart();\n\n    // Update the ImageUrl with a timestamp to prevent caching\n    imgChart.ImageUrl = "path/to/your/chart.png?" + DateTime.Now.Ticks;\n}

@@ -1,1 +1,0 @@
-cmake -GNinja ..\n   ninja

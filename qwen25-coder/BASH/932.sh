@@ -1,1 +1,0 @@
-export MOZILLA_FIVE_HOME=/usr/lib/xulrunner-24  # Update with your actual path\n   export PATH=$MOZILLA_FIVE_HOME:$PATH

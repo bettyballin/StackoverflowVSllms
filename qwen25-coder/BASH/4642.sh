@@ -1,1 +1,0 @@
-# Reader script\nFIFO="/tmp/fifo"\nmkfifo "$FIFO"\ncat "$FIFO"

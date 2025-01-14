@@ -1,1 +1,0 @@
-gcc -O2 -S yourfile.c  # Generates an assembler file 'yourfile.s'\nobjdump -d a.out         # Disassembles the object code

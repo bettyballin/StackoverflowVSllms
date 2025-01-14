@@ -1,1 +1,0 @@
-RAILS_ENV=test rake db:drop\nRAILS_ENV=test rake db:create\nRAILS_ENV=test rake db:migrate

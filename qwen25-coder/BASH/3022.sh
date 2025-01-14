@@ -1,1 +1,0 @@
-tail -f /var/log/httpd/error_log\n    tail -f /var/log/audit/audit.log

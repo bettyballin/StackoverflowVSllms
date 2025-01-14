@@ -1,1 +1,0 @@
-setx -m JAVA_HOME "C:\Program Files\Java\<Your_JDK_Version>"

@@ -1,1 +1,0 @@
-if not exist "$(ProjectDir)..\log\" mkdir "$(ProjectDir)..\log\"

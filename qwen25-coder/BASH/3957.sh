@@ -1,1 +1,0 @@
-cscope -RbqkS 4

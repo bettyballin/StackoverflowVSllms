@@ -1,1 +1,0 @@
-# Install via npm\n   npm install -g vnu-jar\n\n   # Validate a local HTML file\n   vnu /path/to/your/file.html

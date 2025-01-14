@@ -1,1 +1,0 @@
-// Example usage of WindowsIdentity\n   System.Security.Principal.WindowsIdentity curIdentity = \n       System.Security.Principal.WindowsIdentity.GetCurrent();

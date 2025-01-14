@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Step 1: Extract C/C++ source files listed in Makefiles\nmake -n | grep -E '\.cpp$|\.cc$|\.c$' | sort | uniq > sources.txt\n\n# Step 2: Calculate SLOC using cloc\ncloc $(cat sources.txt)

@@ -1,1 +1,0 @@
-#!/bin/bash\n\ncounter=0\nwhile IFS= read -r line; do\n    if [[ "$line" == *"foo"* ]]; then\n        ((counter++))\n        echo "$line" | sed "s/foo/foo_${counter}/"\n    else\n        echo "$line"\n    fi\ndone < file.txt

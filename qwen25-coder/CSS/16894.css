@@ -1,1 +1,0 @@
-body { \n    margin:0; \n    padding:0; \n}\n.outer {\n    background-color: #00f;\n    height: 50px;\n    overflow: auto; /* This will prevent margin collapsing */\n}\n.inner {\n    height: 20px;\n    width: 20px;\n    background-color: #f00;\n    margin: 10px 0 0 10px;\n}

@@ -1,1 +1,0 @@
-sudo localectl set-locale en_US.utf8

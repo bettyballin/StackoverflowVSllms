@@ -1,1 +1,0 @@
-# Compile with tcmalloc support\ng++ -ltcmalloc -o myapp myapp.cpp

@@ -1,1 +1,0 @@
-sudo chmod +x /etc/dhcp/dhclient-enter-hooks.d/95-prevent-resolv-conf-update

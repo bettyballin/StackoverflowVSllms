@@ -1,1 +1,0 @@
-bool isInDebugMode = System.Diagnostics.Debugger.IsAttached;\nbool isCompiledInDebugMode = #if DEBUG true #else false #endif;\n\nResponse.Write($"Is Debug Attached: {isInDebugMode}");\nResponse.Write($"Is Compiled In Debug Mode: {isCompiledInDebugMode}");

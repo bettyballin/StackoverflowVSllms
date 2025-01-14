@@ -1,1 +1,0 @@
-using System.Web.Script.Serialization;\n\n// ...\n\nstring responseJson = "Your JSON string here";\nJavaScriptSerializer serializer = new JavaScriptSerializer();\nRootResponseData translation = serializer.Deserialize<RootResponseData>(responseJson);\n\nforeach (var item in translation.responseData)\n{\n    Console.WriteLine(item.responseData.translatedText);\n}

@@ -1,1 +1,0 @@
-if (array[ii]->row < sheet->max_rows && array[ii]->column < sheet->max_columns) {\n       gtk_sheet_set_cell_text(GTK_SHEET(sheet->gtk_sheet),\n                               array[ii]->row,\n                               array[ii]->column,\n                               value_str);\n   } else {\n       std::cerr << "Row or column out of bounds" << std::endl;\n   }

@@ -1,1 +1,0 @@
-Guid? parentCategoryId = (row["ParentCategoryID"] == DBNull.Value) ? (Guid?)null : (Guid)row["ParentCategoryID"];

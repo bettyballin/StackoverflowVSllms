@@ -1,1 +1,0 @@
-Mapping(x => x.YourProperty)\n       .CustomType<DateTimeRangeUserType>();

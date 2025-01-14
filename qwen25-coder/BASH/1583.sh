@@ -1,1 +1,0 @@
-dumpbin /headers YourDllName.dll | findstr "File Version"

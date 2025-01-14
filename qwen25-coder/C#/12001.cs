@@ -1,1 +1,0 @@
-FileStream fs = System.IO.File.Create(fileName);

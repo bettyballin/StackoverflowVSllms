@@ -1,1 +1,0 @@
-sudo snap install netbeans --classic\n  # or \n  sudo snap install phpstorm --classic

@@ -1,1 +1,0 @@
-git clone https://gerrit.wikimedia.org/r/mediawiki/extensions/ACL $IP/extensions/ACL

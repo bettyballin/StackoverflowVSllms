@@ -1,1 +1,0 @@
-csvsql --query "SELECT COUNT(*) FROM yourfile" yourfile.csv

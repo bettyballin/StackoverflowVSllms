@@ -1,1 +1,0 @@
-chmod +x sync_script.sh

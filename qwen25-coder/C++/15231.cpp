@@ -1,1 +1,0 @@
-static const int internalConstant = 10; // Not accessible outside this file

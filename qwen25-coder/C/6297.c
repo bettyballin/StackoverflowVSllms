@@ -1,1 +1,0 @@
-void c_interrupt_handler(void) {\n    // Handle interrupt logic here\n}

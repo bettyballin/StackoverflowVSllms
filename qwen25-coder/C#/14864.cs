@@ -1,1 +1,0 @@
-// Create an instance of FormsAuthenticationService\nvar authentication = new FormsAuthenticationService();\n\n// Create a partial mock for the FormsAuthenticationService\nvar mockedAuthService = _mocks.PartialMock(authentication);\n\n// Set up expectations on the method you want to mock\nExpect.Call(mockedAuthService.SetAuthCookie(null, null)).IgnoreArguments();

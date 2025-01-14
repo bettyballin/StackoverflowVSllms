@@ -1,1 +1,0 @@
-#ifdef MYDLL_EXPORTS\n         #define MYDLL_API __declspec(dllexport)\n     #else\n         #define MYDLL_API __declspec(dllimport)\n     #endif\n\n     extern "C" {\n         MYDLL_API void MyExportedFunction();\n     }

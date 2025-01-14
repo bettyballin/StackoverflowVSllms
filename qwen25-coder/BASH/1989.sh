@@ -1,1 +1,0 @@
-QMAKE_LFLAGS_WIN32 += -mwindows

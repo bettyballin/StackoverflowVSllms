@@ -1,1 +1,0 @@
-// AVOID: Thread aborts can lead to inconsistent states\n   Thread currentThread = Thread.CurrentThread;\n   currentThread.Abort();

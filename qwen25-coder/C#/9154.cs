@@ -1,1 +1,0 @@
-bool value = true;\nstring result = Convert.ToInt32(value).ToString("Yes;No;");\nConsole.WriteLine(result); // Outputs: Yes

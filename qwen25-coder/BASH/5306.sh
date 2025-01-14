@@ -1,1 +1,0 @@
-etsh advfirewall firewall add rule name="Open Port 443" dir=in action=allow protocol=TCP localport=443 profile=any

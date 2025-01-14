@@ -1,1 +1,0 @@
-XPathNodeIterator iterator = (XPathNodeIterator)xNav.Evaluate("language/header/about");\nif (iterator.MoveNext())\n{\n    return iterator.Current.Value;\n}\nelse\n{\n    return string.Empty; // or handle the case where the node is not found\n}

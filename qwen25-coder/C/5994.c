@@ -1,1 +1,0 @@
-// Example of a simple rule in a hypothetical DSL\nrule("EnableFeatureX") {\n    condition { system.version >= "1.2" && featureEnabled() }\n    action { enableFeature() }\n}

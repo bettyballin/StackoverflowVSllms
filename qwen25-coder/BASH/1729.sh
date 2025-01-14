@@ -1,1 +1,0 @@
-systemctl restart apache2\n# or\napachectl graceful

@@ -1,1 +1,0 @@
-export EMAIL_USER=your-email@example.com\nexport EMAIL_PASS=your-password\npython your_script.py

@@ -1,1 +1,0 @@
-python <your_test_script>.py

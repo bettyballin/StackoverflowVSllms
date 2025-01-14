@@ -1,1 +1,0 @@
-# Using Duplicity for an encrypted incremental backup to S3\n   duplicity /path/to/backup s3://s3.amazonaws.com/your-bucket-name

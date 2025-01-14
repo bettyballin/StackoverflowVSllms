@@ -1,1 +1,0 @@
-svn checkout --depth empty http://example.com/repo/project\n     cd project\n     svn update --set-depth infinity specific_folder

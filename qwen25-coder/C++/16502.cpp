@@ -1,1 +1,0 @@
-// main.cpp\n   #include "MyDll.h"\n\n   int main() {\n       MyClass myObject;\n       myObject.DoSomething();\n       return 0;\n   }

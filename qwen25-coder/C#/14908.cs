@@ -1,1 +1,0 @@
-using System;\nusing System.Security.Principal;\n\nprotected void Page_Load(object sender, EventArgs e)\n{\n    string user = WindowsIdentity.GetCurrent().Name;\n    Response.Write("Running as: " + user);\n}

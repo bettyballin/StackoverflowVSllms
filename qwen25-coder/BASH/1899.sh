@@ -1,1 +1,0 @@
-# Register .NET assembly in GAC (run as Administrator)\ngacutil -i MyAssembly.dll\n\n# Register COM component (32-bit/64-bit based on the build configuration)\nregasm /codebase MyAssembly.dll /tlb:MyAssembly.tlb\n\n# Verify registration with PowerShell to check CLSID\nGet-ItemProperty HKLM:\Software\Classes\CLSID\<Your-GUID>

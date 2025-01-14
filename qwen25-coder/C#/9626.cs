@@ -1,1 +1,0 @@
-using System.Linq;\n\nif (orderLines.Any(orderLine => orderLine.Product.Equals(myLine.Product)))\n{\n    // Your logic here\n}

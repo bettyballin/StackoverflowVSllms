@@ -1,1 +1,0 @@
-#!/bin/sh\n\n# Set Content-type header\necho "Content-type: text/plain"\n# Disable output buffering\necho "Cache-Control: no-cache"\necho "Pragma: no-cache"\n\necho\n\nfor i in A B C D E\ndo\n    echo $i\n    # Flush the stdbuf if available or use a different method to flush\n    /usr/bin/stdbuf -oL echo -n ""\n    # Use sleep between outputs\n    sleep 10\ndone

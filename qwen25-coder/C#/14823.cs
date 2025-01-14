@@ -1,1 +1,0 @@
-public interface IMySyntax {\n    // Only custom methods here\n    IMySyntax myMethod1();\n    IMySyntax myMethod2();\n}

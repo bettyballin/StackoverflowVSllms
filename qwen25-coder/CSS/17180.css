@@ -1,1 +1,0 @@
-/* Add this to your main CSS file */\nol {\n    font-size: 1.1em;\n    list-style-position: outside; /* Default behavior */\n}\n\n/* Targeting IE only with conditional comment */\n<!--[if lt IE 8]>\n<style type="text/css">\nli.main_item p {\n    display: inline-block;\n}\n</style>\n<![endif]-->

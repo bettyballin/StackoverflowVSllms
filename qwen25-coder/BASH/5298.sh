@@ -1,1 +1,0 @@
-@echo off\n   php path\to\your\script.php

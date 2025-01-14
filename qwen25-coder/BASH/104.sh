@@ -1,1 +1,0 @@
-runmqakm -cert -create -label "new_cert_label" -size '2048' -type rsa -x509version 3 \\n   -dn "CN=your_CN,OU=your_OU,O=your_O,C=your_C" -sigalg sha256WithRSAEncryption \\n   -expire "number_of_days_new_cert_valid" -db "yourfile.kdb" -stashed

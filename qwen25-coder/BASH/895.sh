@@ -1,1 +1,0 @@
-git remote add origin <URL_OF_YOUR_REPO>\n     git push -u origin master

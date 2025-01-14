@@ -1,1 +1,0 @@
-tidy -i --indent-spaces 2 input.html -o output.html

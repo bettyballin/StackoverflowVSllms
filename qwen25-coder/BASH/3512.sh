@@ -1,1 +1,0 @@
-g++ -g your_program.cpp -o your_program_gdb\ngdb ./your_program_gdb

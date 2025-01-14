@@ -1,1 +1,0 @@
-@keyframes slideIn {\n  from { background-position: center -100%; }\n  to   { background-position: top;          }\n}\n\n@keyframes slideOut {\n  from { background-position: top;            }\n  to   { background-position: center -100%; }\n}

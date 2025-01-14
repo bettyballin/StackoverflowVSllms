@@ -1,1 +1,0 @@
-# Example of deploying WordPress in Docker for scalability testing\ndocker run -d --name wordpress --link mysql:db -p 80:80 wordpress

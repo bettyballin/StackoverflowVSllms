@@ -1,1 +1,0 @@
-public void LaunchDialog()\n   {\n       MyDialog dialog = new MyDialog();\n       // Optionally set the owner if modal\n       dialog.Owner = Application.Current.MainWindow;\n       dialog.ShowDialog(); // Or use Show() for a non-modal dialog\n   }

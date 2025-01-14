@@ -1,1 +1,0 @@
-diskutil eraseDisk MS-DOS UNTITLED MBR /dev/diskX

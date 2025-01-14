@@ -1,1 +1,0 @@
-awk -F '|' 'NF != 36 {print NR, ": ", $0}' records.txt

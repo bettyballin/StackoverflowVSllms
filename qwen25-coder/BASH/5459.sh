@@ -1,1 +1,0 @@
-ssh user@server "cd /usr/some/unknown/number/of/sub/folders && find . -name '*.class' | tar cf -" | (cd /usr/project/backup/ && tar xpf -)

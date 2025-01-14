@@ -1,1 +1,0 @@
-httpcfg set ssl -i 0.0.0.0:2443 -h <hash_of_certificate>

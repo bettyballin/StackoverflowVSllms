@@ -1,1 +1,0 @@
-using Microsoft.EntityFrameworkCore;\n\n   public class AppDbContext : DbContext\n   {\n       public DbSet<Product> Products { get; set; }\n\n       protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)\n       {\n           optionsBuilder.UseSqlite("Data Source=app.db");\n       }\n   }

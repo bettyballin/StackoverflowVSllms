@@ -1,1 +1,0 @@
-cscript %SYSTEMDRIVE%\inetpub\adminscripts\adsutil.vbs list w3svc/VersionString

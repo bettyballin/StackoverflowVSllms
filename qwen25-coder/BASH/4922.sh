@@ -1,1 +1,0 @@
-magick convert *.png -quality 85 output%d.jpeg

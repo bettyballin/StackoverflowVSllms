@@ -1,1 +1,0 @@
-protected void LinqDataSource_Updating(object sender, LinqDataSourceUpdateEventArgs e)\n{\n    var startDate = e.NewValues["StartDate"] as string;\n    if (string.IsNullOrEmpty(startDate))\n    {\n        e.NewValues["StartDate"] = null;\n    }\n}

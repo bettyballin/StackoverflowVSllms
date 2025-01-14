@@ -1,1 +1,0 @@
-# Example of testing migrations in CI/CD pipeline\n# Assuming you have Flyway installed and migrations are located at db/migrations\n\nflyway migrate -url=jdbc:mysql://localhost:3306/your_database -user=$MYSQL_USER -password=$MYSQL_PASSWORD\n\n# Run tests to ensure schema changes are correct\nphpunit --configuration phpunit.xml

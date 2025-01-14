@@ -1,1 +1,0 @@
-mkdir -p /path/to/repositories/common-components\n   git init /path/to/repositories/common-components

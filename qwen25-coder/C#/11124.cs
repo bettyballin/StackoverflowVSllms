@@ -1,1 +1,0 @@
-[NullableRegexValidator(@"^(?:(?<1>[(])?(?<AreaCode>[2-9]\d{2})(?(1)[)])(?(1)(?<2>[ ])|(?:(?<3>[-])|(?<4>[ ])))?)?(?<Prefix>[1-9]\d{2})(?(AreaCode)(?:(?(1)(?(2)[- ]|[-]?))|(?(3)[-])|(?(4)[- ]))|[- ]?)(?<Suffix>\d{4})$", ErrorMessage = "Invalid phone number format.")]\npublic string NotificationCellNumber { get; set; }

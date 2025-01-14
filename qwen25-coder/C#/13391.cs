@@ -1,1 +1,0 @@
-public class SomeController : Controller\n{\n    [AzmanAuthorize("EditDocument")]\n    public ActionResult Edit(int id)\n    {\n        // Your code here\n        return View();\n    }\n\n    [AzmanAuthorize("ViewDocuments")]\n    public ActionResult View(int id)\n    {\n        // Your code here\n        return View();\n    }\n}

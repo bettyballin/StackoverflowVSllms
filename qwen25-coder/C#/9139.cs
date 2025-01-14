@@ -1,1 +1,0 @@
-private void OnIEEvent(object sender, EventArgs e)\n   {\n       var form = new MyDynamicForm();\n       form.Closed += (fSender, fArgs) => { ((Form)fSender).Dispose(); };\n       form.Show();\n   }

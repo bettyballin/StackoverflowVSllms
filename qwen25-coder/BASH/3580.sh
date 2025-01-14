@@ -1,1 +1,0 @@
-#!/bin/sh\n\n# Run flake8 on all modified Python files before commit\nflake8 $(git diff --cached --name-only | grep '\.py$')\n\nif [ $? -ne 0 ]; then\n    echo 'Code does not adhere to style guidelines!'\n    exit 1\nfi

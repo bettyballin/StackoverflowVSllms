@@ -1,1 +1,0 @@
-ohup ffmpeg -i "uploaded_file" -b:v 450k "converted_file" > /path/to/ffmpeg.log 2>&1 &

@@ -1,1 +1,0 @@
-static void logoff() {\n       // function implementation\n   }

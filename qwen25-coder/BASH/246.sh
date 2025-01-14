@@ -1,1 +1,0 @@
-cat f.txt > your_fifo_name

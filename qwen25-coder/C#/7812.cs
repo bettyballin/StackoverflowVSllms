@@ -1,1 +1,0 @@
-public class NHibernateModule : NinjectModule\n{\n    public override void Load()\n    {\n        Bind<ISession>().ToMethod(GetSession).InRequestScope();\n    }\n\n    private ISession GetSession(IContext context)\n    {\n        var sessionFactory = context.Kernel.Get<ISessionFactory>();\n        return sessionFactory.OpenSession();\n    }\n}

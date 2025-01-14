@@ -1,1 +1,0 @@
-# Example command for enabling a WAF rule to block directory listing\n   sudo ufw allow 'Apache Full'

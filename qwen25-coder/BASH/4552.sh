@@ -1,1 +1,0 @@
-tcc -ms -O parsetest.c\ntlink /t parsetest.obj

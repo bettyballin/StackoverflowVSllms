@@ -1,1 +1,0 @@
-public void SomeFunction()\n{\n    try\n    {\n        // Assuming this function throws an exception in certain cases\n        ThirdPartyLibrary.ThirdPartyFunction(); \n    }\n    catch (Exception ex)\n    {\n        // Breakpoint should hit in the third-party method or here if caught\n        Debug.WriteLine("Caught exception: " + ex.Message);\n    }\n}

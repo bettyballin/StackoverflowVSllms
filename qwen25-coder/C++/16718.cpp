@@ -1,1 +1,0 @@
-#include <cmath>\n\nunsigned int row_index(unsigned int i, unsigned int M) {\n    return (static_cast<int>(sqrt(1 + 8 * i)) - 1) / 2;\n}\n\nunsigned int column_index(unsigned int i, unsigned int M) {\n    unsigned int r = (static_cast<int>(sqrt(1 + 8 * i)) - 1) / 2;\n    unsigned int cumulative_previous_elements = r * (r + 1) / 2;\n    return i - cumulative_previous_elements;\n}

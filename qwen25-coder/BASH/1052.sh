@@ -1,1 +1,0 @@
-ssh user@host "source ~/.bash_profile; echo \$PATH"

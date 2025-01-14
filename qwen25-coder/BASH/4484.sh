@@ -1,1 +1,0 @@
-0 2 * * * /usr/local/bin/backup-svn.sh >> /var/log/svn-backup.log 2>&1

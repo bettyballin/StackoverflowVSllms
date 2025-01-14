@@ -1,1 +1,0 @@
-// Assuming you have configured USBFloppY and your VM supports mounting it as a floppy drive\n   mount usb_floppy.img /path/to/your/compiler/files

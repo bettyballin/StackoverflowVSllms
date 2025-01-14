@@ -1,1 +1,0 @@
-try {\n    string[] path = { "Kernel" };\n    string memberName = "RaiseError";\n    object[] parameters = { "I'm an error lol!", ErrorLevel.Trivial };\n\n    var result = ReflectionInvoker.InvokeMember(path, memberName, parameters);\n} catch (Exception ex) {\n    Console.WriteLine($"Error invoking method: {ex.Message}");\n}

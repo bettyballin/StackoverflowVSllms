@@ -1,1 +1,0 @@
-signtool sign /f your_certificate.pfx /p your_password /td sha256 /fd sha256 your_file.msi

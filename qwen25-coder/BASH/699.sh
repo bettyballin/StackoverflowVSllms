@@ -1,1 +1,0 @@
-dumpbin /headers YourDll.dll | findstr "Timestamp"

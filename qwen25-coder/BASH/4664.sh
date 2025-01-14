@@ -1,1 +1,0 @@
-mysqldump --single-transaction -u user -p database > file.sql

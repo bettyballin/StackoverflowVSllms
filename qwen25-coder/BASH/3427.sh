@@ -1,1 +1,0 @@
-# Commands to install SSH using Cygwin setup-x86.exe or setup-x86_64.exe:\n   ./setup-x86.exe --no-admin -q -P openssh,cygutils-extra\n   ssh-host-config\n   net start sshd

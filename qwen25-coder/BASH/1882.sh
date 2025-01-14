@@ -1,1 +1,0 @@
-# Connect the new server to the existing SharePoint farm using Central Administration or stsadm command line tool.\nstsadm -o join -url "http://your-old-farm-url" -ownerlogin DOMAIN\username -owneremail user@example.com -ownername "User Name"

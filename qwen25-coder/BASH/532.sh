@@ -1,1 +1,0 @@
-setup.exe -silent -responseFile "C:\path\to\install.rsp"

@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Directory where the script should start searching\nROOT_DIR="path/to/your/directory"\n\n# Change to the root directory\ncd "$ROOT_DIR" || exit\n\n# Find all files with no extension and add .jpg\nfind . -type f ! -name "*.*" -exec sh -c 'for file; do mv -- "$file" "$file.jpg"; done' _ {} +

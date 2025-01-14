@@ -1,1 +1,0 @@
-# Delete all netem rules on eth0 (adjust interface as needed)\nsudo tc qdisc del dev eth0 root\n\n# Flush iptables rules\nsudo iptables -F INPUT

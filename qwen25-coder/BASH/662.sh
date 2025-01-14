@@ -1,1 +1,0 @@
-ssh -X name@***.cs.<school>

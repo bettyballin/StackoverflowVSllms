@@ -1,1 +1,0 @@
-svn delete filename\n   svn commit -m "Deleted file with incorrect MIME type"\n   svn add filename\n   svn commit -m "Re-committing file with correct MIME type"

@@ -1,1 +1,0 @@
-scan-build -o <output_dir> xcodebuild -target <YourTarget>

@@ -1,1 +1,0 @@
-systemctl restart apache2\n   # or use your system's service manager command if different

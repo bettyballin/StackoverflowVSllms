@@ -1,1 +1,0 @@
-using System;\n\nclass Program\n{\n    static void Main()\n    {\n        // Generate a new Guid\n        string userProfileGuid = Guid.NewGuid().ToString();\n        \n        Console.WriteLine("Generated GUID for user profile: " + userProfileGuid);\n        \n        // Here you would add code to store this GUID in the registry or a file\n    }\n}

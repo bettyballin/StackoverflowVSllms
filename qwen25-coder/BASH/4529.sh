@@ -1,1 +1,0 @@
-ping -M do -s 1472 <destination_ip> # Try this size to test if it goes through without issues.

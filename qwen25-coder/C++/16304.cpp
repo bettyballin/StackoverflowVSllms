@@ -1,1 +1,0 @@
-// Check for symbol definitions that relate to static or dynamic linking in the preprocessor\n#ifdef _DEBUG\n#pragma comment(lib, "libxml2d.lib")\n#else\n#pragma comment(lib, "libxml2.lib")\n#endif\n\n// Ensure there are no pragmas or directives that load libxml2.dll\n// #pragma comment(lib, "libxml2dll.lib") // This would link to the DLL version instead of static

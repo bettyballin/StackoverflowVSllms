@@ -1,1 +1,0 @@
-string guid1 = "12345678-9ABC-DEF0-GHIJ-KLMNOPQRST";\nstring guid2 = "12345678-9abc-def0-ghij-klmnopqrst";\n\nbool areEqual = guid1.ToLower() == guid2.ToLower(); // or use ToUpper()

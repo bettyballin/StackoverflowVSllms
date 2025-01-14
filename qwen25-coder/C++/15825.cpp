@@ -1,1 +1,0 @@
-// In cpp\nvoid Foo::foo(const bar* pBar) {\n    // Stuff\n}

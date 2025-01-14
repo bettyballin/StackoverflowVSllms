@@ -1,1 +1,0 @@
-if (RadioButtonList_VolunteerType.SelectedIndex >= 0)

@@ -1,1 +1,0 @@
-using(SqlConnection conn = new SqlConnection(DBConnString)) {\n       conn.Open();\n       SqlCommand cmd = conn.CreateCommand();\n       // Execute your command\n       SqlDataReader dr = cmd.ExecuteReader(CommandBehavior.CloseConnection);\n       while (dr.Read()) {\n           // Process data\n       }\n       dr.Close();\n   }\n\n   SqlConnection.ClearPool(conn);

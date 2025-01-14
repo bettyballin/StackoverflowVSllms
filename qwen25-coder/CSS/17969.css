@@ -1,1 +1,0 @@
-#linksinner a {\n    color: red;\n    text-decoration: none;\n    background: yellow;\n    display: block; /* Change from inline to block */\n    margin-bottom: 10px; /* Add vertical margin between links */\n}

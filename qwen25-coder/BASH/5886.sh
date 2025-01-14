@@ -1,1 +1,0 @@
-# Postman can be used via Newman (command line interface)\n   newman run "your-collection.json"

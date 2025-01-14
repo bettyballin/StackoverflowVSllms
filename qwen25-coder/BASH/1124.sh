@@ -1,1 +1,0 @@
-cpp -P -o output.c somefile.c

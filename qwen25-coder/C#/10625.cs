@@ -1,1 +1,0 @@
-Logger.LogMessage("This is a test log entry.");

@@ -1,1 +1,0 @@
-// Example guidelines for secure coding in C#\n  var secureCodingGuidelines = new List<string> \n  { \n      "Use proper input validation",\n      "Protect sensitive data with encryption",\n      "Implement authentication and authorization properly",\n      "Keep libraries up to date"\n  };

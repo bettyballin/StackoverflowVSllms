@@ -1,1 +1,0 @@
-var usersWithoutTerritories = \n    from u in db.Users\n    join uXt in db.User_x_Territories on u.Id equals uXt.UserID into gerr\n    from uxg in gerr.DefaultIfEmpty()\n    where uxg == null // This filters out users who have territories assigned\n    select new { u.Id, u.FirstName, u.LastName };

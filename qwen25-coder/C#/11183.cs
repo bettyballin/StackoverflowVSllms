@@ -1,1 +1,0 @@
-using (var connection = new SqlConnection(connectionString))\n{\n    var parameters = new DynamicParameters();\n    parameters.Add("@param1", value1);\n    parameters.Add("@param2", value2);\n\n    var result = connection.Query<YourModelType>("dbo.YourStoredProcedure", parameters, commandType: CommandType.StoredProcedure).ToList();\n}

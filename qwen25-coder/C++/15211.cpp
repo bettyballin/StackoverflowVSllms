@@ -1,1 +1,0 @@
-// In some .cpp file\n  void foo() {} // Can be accessed from other files via declaratio

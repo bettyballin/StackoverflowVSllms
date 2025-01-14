@@ -1,1 +1,0 @@
-sudo chmod +x /usr/local/bin/monitor_images.sh

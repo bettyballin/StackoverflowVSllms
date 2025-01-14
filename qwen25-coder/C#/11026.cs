@@ -1,1 +1,0 @@
-using (var resource = new Resource())\n{\n    // Use the resource.\n}\n// The resource is disposed here automatically.

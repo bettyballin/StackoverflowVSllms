@@ -1,1 +1,0 @@
-php maintenance/export dumps.php --current --filter "!User:* !MediaWiki:*" > wiki_content.xml

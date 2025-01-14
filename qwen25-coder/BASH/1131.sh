@@ -1,1 +1,0 @@
-wal-g backup-push pg_data_directory

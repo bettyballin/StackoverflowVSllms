@@ -1,1 +1,0 @@
-svn --config-option "tunnels.svn=ssh -o 'User=newusername'" update /path/to/working_copy

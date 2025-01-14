@@ -1,1 +1,0 @@
-// In another source file e.g., MainApp.cpp\n    #include "MyMathLib.h"\n\n    int main() {\n        int result = Add(5, 3);\n        printf("The result is %d", result);\n        return 0;\n    }

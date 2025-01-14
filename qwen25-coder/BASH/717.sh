@@ -1,1 +1,0 @@
-export ENCRYPTION_KEY='your-very-secret-key'\nexport INIT_VECTOR='your-initialization-vector'

@@ -1,1 +1,0 @@
-using Microsoft.Win32;\n\n// Writing to the registry\nRegistryKey key = Registry.CurrentUser.CreateSubKey(@"SOFTWARE\MyApp");\nkey.SetValue("MySetting", "Enabled");\n\n// Reading from the registry\nobject value = key.GetValue("MySetting");\nstring mySettingValue = value as string;

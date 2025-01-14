@@ -1,1 +1,0 @@
-aspnet_regiis -pa "MyKeys" "NT AUTHORITY\NETWORK SERVICE"

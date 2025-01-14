@@ -1,1 +1,0 @@
-public class Item\n{\n    public int Id { get; set; }\n}\n\npublic class Rating\n{\n    public int UserId { get; set; }\n    public int BetterObjectId { get; set; }\n    public int WorseObjectId { get; set; }\n}

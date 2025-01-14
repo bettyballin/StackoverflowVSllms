@@ -1,1 +1,0 @@
-// Lambda expression as a delegate.\n   Func<int, int> square = x => x * x;\n   \n   // Using lambda expression in a LINQ query\n   List<int> evenNumbers = numbers.Where(n => n % 2 == 0).ToList();

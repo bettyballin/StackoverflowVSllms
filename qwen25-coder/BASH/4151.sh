@@ -1,1 +1,0 @@
-java -jar benerator.jar config.xml

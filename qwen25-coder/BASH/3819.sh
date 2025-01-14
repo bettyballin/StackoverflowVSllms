@@ -1,1 +1,0 @@
-lsof -c php

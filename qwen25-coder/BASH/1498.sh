@@ -1,1 +1,0 @@
-dism /online /enable-feature /featurename:NetFx3 /all

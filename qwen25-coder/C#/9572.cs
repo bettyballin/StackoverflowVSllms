@@ -1,1 +1,0 @@
--- In your application when a user logs in:\nSqlCommand cmd = new SqlCommand("SET CONTEXT_INFO @UserID", conn);\ncmd.Parameters.AddWithValue("@UserID", userId);

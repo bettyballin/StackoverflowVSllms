@@ -1,1 +1,0 @@
-sudo a2ensite myservice

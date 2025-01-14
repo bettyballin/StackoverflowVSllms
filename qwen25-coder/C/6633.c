@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <string.h>\n\nint main() {\n    const char *command = "move10steps";\n    size_t length_of_alphabets = strspn(command, "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ");\n    printf("The command '%s' starts with %zu alphabetic characters.\n", command, length_of_alphabets);\n    return 0;\n}

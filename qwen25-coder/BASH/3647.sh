@@ -1,1 +1,0 @@
-php projectfolder/console/version.php -v

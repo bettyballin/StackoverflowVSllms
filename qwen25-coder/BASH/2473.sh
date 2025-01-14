@@ -1,1 +1,0 @@
-echo "0 1 * * * root /path/to/backup_and_email.sh" | sudo tee -a /etc/crontab

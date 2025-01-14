@@ -1,1 +1,0 @@
-[Test]\npublic void Test_Name_Returns_Correct_Value()\n{\n    // Arrange\n    var person = new Person();\n    // Assuming a constructor or method to set _name\n    person.SetName("John"); // Hypothetical setter for testing\n\n    // Act\n    string name = person.Name;\n\n    // Assert\n    Assert.AreEqual("John", name);\n}

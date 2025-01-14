@@ -1,1 +1,0 @@
-sudo tar czf pg_data.tar.gz /var/lib/postgresql/8.3/main/

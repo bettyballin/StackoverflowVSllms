@@ -1,1 +1,0 @@
-pdfsam basic --optimize true input.pdf output.pdf

@@ -1,1 +1,0 @@
-// In your Razor view\n@Html.DropDownList("invoice.county", (SelectList)ViewBag.Counties, new { id = "invoice_county" })

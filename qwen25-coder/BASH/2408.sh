@@ -1,1 +1,0 @@
-vendor/bin/phpcbf path/to/your/code

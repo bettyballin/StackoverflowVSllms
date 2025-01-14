@@ -1,1 +1,0 @@
-# Example of enabling dynamic compression in IIS which can improve performance\n  Set-WebConfigurationProperty -pspath 'MACHINE/WEBROOT/APPHOST'  -filter "system.webServer/httpCompression" -name "dynamicCompressionEnabled" -value "true"

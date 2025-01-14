@@ -1,1 +1,0 @@
-void Application_Error(object sender, EventArgs e)\n{\n    // Get the exception object.\n    Exception exc = Server.GetLastError();\n\n    if (exc != null)\n    {\n        // Handle logging of exceptions here\n        // Example: Log error details to a file or database\n    }\n}

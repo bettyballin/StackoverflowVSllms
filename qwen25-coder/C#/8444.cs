@@ -1,1 +1,0 @@
-using System.Web.Http;\n\nnamespace YourNamespace.Controllers\n{\n    public class BusinessLogicController : ApiController\n    {\n        [HttpGet]\n        public IHttpActionResult GetData()\n        {\n            var data = YourBusinessLayer.GetData(); // Assume GetData is a method in your business logic layer.\n            return Ok(data);\n        }\n    }\n}

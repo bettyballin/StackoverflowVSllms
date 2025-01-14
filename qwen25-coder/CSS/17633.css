@@ -1,1 +1,0 @@
-.container {\n  display: grid;\n  grid-template-areas:\n    "header header"\n    "sidebar main"\n    "footer footer";\n  grid-template-columns: 20% 1fr; /* Sidebar is 20% width, Main takes the rest */\n  grid-gap: 16px;\n}\n\n.header { grid-area: header; }\n.sidebar { grid-area: sidebar; }\n.main-content { grid-area: main; }\n.footer { grid-area: footer; }

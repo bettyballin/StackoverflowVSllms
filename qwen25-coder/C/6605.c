@@ -1,1 +1,0 @@
-// main.c or another dll2.c\n#include <stdio.h>\n#include "dll1.h"\n\nint main() {\n    FILE* myFile = openFileInDll1("example.txt");\n    if (myFile) {\n        // Do work with the file...\n        closeFileInDll1(myFile);\n    }\n    return 0;\n}

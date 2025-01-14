@@ -1,1 +1,0 @@
-sudo yum install xorg-x11-server-Xvfb scrot ImageMagick gtk2-devel

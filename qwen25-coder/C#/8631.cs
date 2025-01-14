@@ -1,1 +1,0 @@
-using DotNetOpenAuth.OpenId;\nusing DotNetOpenAuth.Providers;\n\nvar provider = new OpenIdRelyingParty(new HttpFetcher()\n{\n    HttpClient = new ProxyHttpClient("http://your-proxy-url:port")\n});

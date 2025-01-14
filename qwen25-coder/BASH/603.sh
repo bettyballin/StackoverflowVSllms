@@ -1,1 +1,0 @@
-gcc -I/home/me/development/skia your_source_file.c -o your_program

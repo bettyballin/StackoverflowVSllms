@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        FirstTablePart.InnerHtml = firstHalf;\n        SecondTablePart.InnerHtml = secondHalf;\n    }\n}

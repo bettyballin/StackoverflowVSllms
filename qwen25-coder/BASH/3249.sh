@@ -1,1 +1,0 @@
-dig example.com @localhost\n     nslookup example.com localhost

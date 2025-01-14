@@ -1,1 +1,0 @@
-php -f ioncube_encoder.phar /path/to/your/script.php --obfuscate-only

@@ -1,1 +1,0 @@
-stsadm.exe -o spsearch -action fullcrawlstart

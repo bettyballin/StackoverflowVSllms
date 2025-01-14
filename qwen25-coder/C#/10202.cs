@@ -1,1 +1,0 @@
-string value = session.CustomActionData["PROPERTYNAME"];

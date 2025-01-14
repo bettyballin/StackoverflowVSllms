@@ -1,1 +1,0 @@
-reg delete "HKEY_CLASSES_ROOT\msgfile\shell\Open\command" /v command /f

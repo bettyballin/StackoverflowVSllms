@@ -1,1 +1,0 @@
-@echo off\nREM This is an example batch script using sed\n\nREM Assuming all files are in the same directory as this script\nsetlocal\nset "SCRIPT_DIR=%~dp0"\n\n"%SCRIPT_DIR%sed.exe" -n 's/^pattern/replacement/p' input.txt > output.txt\nendlocal

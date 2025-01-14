@@ -1,1 +1,0 @@
-# Example using Logrotate for log management\n   sudo apt-get install logrotate

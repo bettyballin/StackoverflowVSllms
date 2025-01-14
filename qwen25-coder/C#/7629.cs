@@ -1,1 +1,0 @@
-public ISet<CustomerPreferences> CustomerPreferences { get; set; }

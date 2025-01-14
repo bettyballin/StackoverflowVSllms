@@ -1,1 +1,0 @@
-private void UpdateLabelOnUIThread(string text)\n{\n    if (label1.InvokeRequired) // Checks if invoke is required\n    {\n        label1.Invoke(new Action(() => label1.Text = text)); // Executes on UI thread\n    }\n    else\n    {\n        label1.Text = text; // Already on the UI thread\n    }\n}

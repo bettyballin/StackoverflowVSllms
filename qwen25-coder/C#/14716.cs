@@ -1,1 +1,0 @@
-if (isLargeScale || requiresHighScalability) {\n    // Consider MySQL, MS SQL, PostgreSQL etc.\n} else if (requiresComplexQueries || specificFeatureSupport) {\n    // Depending on the feature, consider PostgreSQL for advanced features, or MS SQL.\n} else {\n    // SQLite might still be sufficient.\n}

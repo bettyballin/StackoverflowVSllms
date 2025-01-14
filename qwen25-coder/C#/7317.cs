@@ -1,1 +1,0 @@
-private bool IsPowerOfTwo(ulong number)\n{\n    return number != 0 && (number & (number - 1)) == 0;\n}

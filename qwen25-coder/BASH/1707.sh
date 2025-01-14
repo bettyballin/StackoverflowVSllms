@@ -1,1 +1,0 @@
-# Quick setup command (example)\n     wget https://kanboard.org/kanboard-latest.zip -O kanboard.zip && unzip kanboard.zip -d /var/www/

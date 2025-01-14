@@ -1,1 +1,0 @@
-msdeploy -source:archive='YourPackage.zip' -dest:auto,ComputerName='localhost',UserName='username',Password='password',AllowUntrusted='-allowUntrusted' -setParamFile:"YourPackage.SetParameters.xml"

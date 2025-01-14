@@ -1,1 +1,0 @@
-// ChatHub.cs\nusing Microsoft.AspNet.SignalR;\n\npublic class NotificationHub : Hub\n{\n    public void SendNotification(string userId, string message)\n    {\n        // Passes the received message to the specified client using their connection id.\n        Clients.User(userId).receiveNotification(message);\n    }\n}

@@ -1,1 +1,0 @@
-#ifdef _WIN32\n// Windows-specific code, e.g., __try/__except blocks or using SEH translators\n#elif defined(__linux__)\n// Linux-specific signal handling setup\n#endif\n\n// Common code goes here

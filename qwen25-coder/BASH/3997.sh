@@ -1,1 +1,0 @@
-composer create-project symfony/skeleton your_project_name

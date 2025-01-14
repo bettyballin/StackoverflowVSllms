@@ -1,1 +1,0 @@
-// Example of mapping a command to a key in a Visual Studio extension (simplified)\nDTE2 dte = (DTE2)Package.GetGlobalService(typeof(DTE));\nEnvDTE80.Commands2 commands = (EnvDTE80.Commands2)dte.Commands;\nEnvDTE.Command cmdLineStart = commands.Item("Edit.LineStart");\ncmdLineStart.Bindings = "Global::HOME";\n\n// Example of removing a key binding\ncmdLineStart.Bindings = "";

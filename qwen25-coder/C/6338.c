@@ -1,1 +1,0 @@
-typedef struct {\n    int field_name1;\n    int field_name2;\n    int field_name3;\n} Fields;\n\nvoid update(Fields *fields);

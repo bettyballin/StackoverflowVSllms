@@ -1,1 +1,0 @@
-string applicationPath = @"C:\App"; // Could be either a file or a directory\nstring dataFolderPath = @"C:\Data";   // Specifically referring to a folder/directory\nstring logsDirectoryPath = @"C:\Logs"; // Also specifically referring to a directory

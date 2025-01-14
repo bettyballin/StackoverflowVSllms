@@ -1,1 +1,0 @@
-var excludedStates = new List<string> { "CA", "IN", "MD" };\nvar result = context.Authors\n    .Where(author => !excludedStates.Contains(author.state))\n    .Select(author => new { author.au_lname, author.state })\n    .ToList();

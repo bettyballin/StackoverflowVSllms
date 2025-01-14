@@ -1,1 +1,0 @@
-LdapConnection ldap = new LdapConnection();\n   ldap.Connect(new System.Net.LdapDirectoryIdentifier("localhost", 3890));\n   ldap.Bind(); // Bind with necessary credentials for testing

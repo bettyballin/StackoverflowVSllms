@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    // Avoid using Response.Write\n    // Instead use Control properties or ClientScript.RegisterStartupScript for client-side scripts\n    // Response.Write("This will cause issues with AJAX");\n    \n    if (!IsPostBack)\n    {\n        // Your initialization code here\n    }\n}

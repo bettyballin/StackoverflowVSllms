@@ -1,1 +1,0 @@
-string rtfOrTextContent = System.IO.File.ReadAllText("file.rtf");

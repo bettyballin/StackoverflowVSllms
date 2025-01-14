@@ -1,1 +1,0 @@
-// Example of a simple NHibernate mapping in C#\npublic class ProductMap : ClassMap<Product>\n{\n    public ProductMap()\n    {\n        Table("Products");\n        Id(x => x.ProductId);\n        Map(x => x.Name).Length(200);\n        Map(x => x.Price);\n        References(x => x.Category).Column("CategoryId"); // Many-to-One relationship\n    }\n}

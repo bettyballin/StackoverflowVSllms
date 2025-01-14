@@ -1,1 +1,0 @@
-# On Ubuntu/Debian\nsudo apt-get update\nsudo apt-get install guile-3.0\n\n# On macOS (using Homebrew)\nbrew install guile

@@ -1,1 +1,0 @@
-[AjaxAuthorize]\npublic class YourController : Controller\n{\n    public ActionResult SaveChanges(YourModel model)\n    {\n        // Your save logic here\n        return Json(new { success = true });\n    }\n}

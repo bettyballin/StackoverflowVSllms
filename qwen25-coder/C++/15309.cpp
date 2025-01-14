@@ -1,1 +1,0 @@
-template<typename T>\nclass Foo {\npublic:\n    template<typename T>  // This T shadows the outer T\n    void Bar(const T& bar) {\n        // The type T here is the one from Bar, not Foo\n    }\n};\n\nint main() {\n    Foo<int> foo;\n    foo.Bar("string");  // Here, T for Bar is deduced to const char*\n}

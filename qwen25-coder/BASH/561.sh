@@ -1,1 +1,0 @@
-sudo apt-get install icecast2  # On Debian-based systems

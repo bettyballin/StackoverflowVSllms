@@ -1,1 +1,0 @@
-#!/bin/bash\n\n(\nfor X in 1 2 3 4 5 6 7 8 9 0\ndo\n    echo $X\ndone\n) | sed '$!N;s/\n/ /'

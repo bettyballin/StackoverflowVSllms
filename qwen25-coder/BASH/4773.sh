@@ -1,1 +1,0 @@
-# Example command to check HTTPS through a proxy (using curl)\ncurl --proxy http://your-proxy:port https://your-site.com/

@@ -1,1 +1,0 @@
-CarService service = new CarService();\nCarPort port = service.getCarPort();\ncarPackage.port.search tempResult = port.search("Toyota");\nSearchResponse searchResult = convertToSearchResponse(tempResult); // Assuming a method exists

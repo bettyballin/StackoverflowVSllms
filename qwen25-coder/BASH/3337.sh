@@ -1,1 +1,0 @@
-# Create a new directory for nutch outside of /root or /usr\nmkdir /var/nutch1.0\nchown your_nutch_user:your_nutch_group /var/nutch1.0\nchmod 755 /var/nutch1.0\n\n# Copy your index files to the new location, adjusting permissions if needed\ncp -r /root/nutch1.0/* /var/nutch1.0/\nchown -R your_nutch_user:your_nutch_group /var/nutch1.0 /*

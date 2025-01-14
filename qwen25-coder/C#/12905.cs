@@ -1,1 +1,0 @@
-if (!resourceExists)\n{\n    WebOperationContext.Current.OutgoingResponse.StatusCode = System.Net.HttpStatusCode.NotFound;\n    return null;\n}

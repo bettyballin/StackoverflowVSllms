@@ -1,1 +1,0 @@
-ice gzip yourfile

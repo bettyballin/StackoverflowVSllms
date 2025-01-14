@@ -1,1 +1,0 @@
-public void LogMessage(string message)\n{\n    // This method can be called instead of Console.WriteLine()\n    textBoxOutput.AppendText(message + Environment.NewLine);\n}

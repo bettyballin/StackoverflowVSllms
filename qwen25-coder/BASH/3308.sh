@@ -1,1 +1,0 @@
-sudo apt-get install ghostscript  # On Debian-based systems like Ubuntu\nbrew install ghostscript          # On macOS using Homebrew

@@ -1,1 +1,0 @@
-# Using Ruby script\n    ruby path_to_your_script/redmine_service.rb --install\n\n    # Alternatively, using sc command\n    sc create RedmineApplication binPath= "C:\Ruby26-x64\bin\ruby.exe C:\path_to_redmine_service\redmine_service.rb --start" start= auto

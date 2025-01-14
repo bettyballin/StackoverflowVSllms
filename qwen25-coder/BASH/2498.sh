@@ -1,1 +1,0 @@
-perl wn_tools_3.0/db/makedb.pl -o nou

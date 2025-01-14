@@ -1,1 +1,0 @@
-using System.Data;\n\nbool ColumnExists(DataRow row, string columnName)\n{\n    return row.Table.Columns.Contains(columnName);\n}\n\n// Example usage:\nif (ColumnExists(yourDataRow, "YourColumnName"))\n{\n    // Proceed with accessing the column data safely\n}

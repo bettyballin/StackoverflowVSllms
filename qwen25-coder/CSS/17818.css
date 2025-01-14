@@ -1,1 +1,0 @@
-/* Reset default list styling */\nul {\n    text-align: center;\n    width: 600px;\n    margin: auto;\n    padding-left: 0;\n    list-style-type: none; /* Remove bullet points if needed */\n}\n\nli {\n    display: inline-block; /* or use float:left; clear:right; */\n    margin: 0;\n    padding: 0;\n}

@@ -1,1 +1,0 @@
-// Example of online forums for learning security\n  var forums = new List<string> { "Stack Overflow", "Reddit (r/netsec, r/security)", "HackerOne" };

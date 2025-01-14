@@ -1,1 +1,0 @@
-exec -a script1_python python your_script.py

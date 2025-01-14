@@ -1,1 +1,0 @@
-# Check Postfix logs for any errors related to sending emails to engineering@my_company.com\ngrep 'to=<engineering@my_company.com>' /var/log/mail.log | grep -Ei '(error|warning)'

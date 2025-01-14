@@ -1,1 +1,0 @@
-int typeId;\nif (TypeService.TryGetTypeId("SomeTypeName", out typeId))\n{\n    // Use the typeId as needed\n}\n\nstring typeName;\nif (TypeService.TryGetTypeName(1, out typeName))\n{\n    // Use the typeName as needed\n}

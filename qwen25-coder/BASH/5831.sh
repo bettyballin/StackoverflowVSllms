@@ -1,1 +1,0 @@
-# Example using iptables (Linux command)\n   iptables -A INPUT -p tcp --dport 80 -m limit --limit 50/minute --limit-burst 200 -j ACCEPT

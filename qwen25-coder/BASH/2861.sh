@@ -1,1 +1,0 @@
-cl /EHsc /MD mysource.cpp  # This uses the dynamic runtime library\ncl /EHsc /MT mysource.cpp  # This uses the static runtime library

@@ -1,1 +1,0 @@
-# Incorrect - Connecting over HTTP\ncurl http://localhost:443/some-endpoint\n\n# Correct - Connecting over HTTPS\ncurl https://localhost:443/some-endpoint

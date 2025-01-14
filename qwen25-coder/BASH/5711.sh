@@ -1,1 +1,0 @@
-# Example command to install Seafile server:\n   pip install seafile-server

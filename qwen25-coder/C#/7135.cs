@@ -1,1 +1,0 @@
-System.Environment.SetEnvironmentVariable("TNS_ADMIN", @"C:\Path\To\Oracle\network\admin");

@@ -1,1 +1,0 @@
-cd /path/to/wordpress\nchown -R kovshenin:kovshenin .

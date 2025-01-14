@@ -1,1 +1,0 @@
-git add .\n   git commit -m "Initial commit of branched ASP.Net project"

@@ -1,1 +1,0 @@
-public static class MyObjectExtensions\n{\n    public static void MyExtensionMethod(this MyObject obj)\n    {\n        // This will throw a NullReferenceException if obj is null\n        Console.WriteLine(obj.SomeProperty);\n    }\n}

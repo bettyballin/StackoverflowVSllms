@@ -1,1 +1,0 @@
-py-spy top --pid your_process_id\n   py-spy record -o profile.svg --pid your_process_id --native

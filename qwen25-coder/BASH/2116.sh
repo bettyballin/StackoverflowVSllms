@@ -1,1 +1,0 @@
-sc create BackupService binPath= "C:\Path\To\BackupService.exe"

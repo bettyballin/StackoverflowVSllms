@@ -1,1 +1,0 @@
-using System;\nusing System.Web.Services;\n\npublic class MyService : WebService {\n\n    [WebMethod]\n    public string SendEmail(string name, string email, string subject, string message, string token) {\n        // Process your data here\n        return "Email sent successfully!";\n    }\n}

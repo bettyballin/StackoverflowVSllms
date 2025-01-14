@@ -1,1 +1,0 @@
-./standalone.sh -c standalone-full.xml -Djboss.bind.address=0.0.0.0 --debug *:8787

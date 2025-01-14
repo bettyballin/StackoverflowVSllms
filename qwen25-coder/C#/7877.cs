@@ -1,1 +1,0 @@
-DateTime utcDate = DateTime.UtcNow; // This would be yourCreateDate retrieved from the database\nDateTime localDate = utcDate.ToLocalTime();

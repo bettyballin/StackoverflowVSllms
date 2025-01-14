@@ -1,1 +1,0 @@
-dotnet ef migrations add InitialCreate\n   dotnet ef database update

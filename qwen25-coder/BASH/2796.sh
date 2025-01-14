@@ -1,1 +1,0 @@
-wget -r -np -nH --cut-dirs=3 -R "*.*" --accept "*.htm,*.html" ftp://myuser:mypass@ftp.myserver.com/public_html/

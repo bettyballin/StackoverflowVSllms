@@ -1,1 +1,0 @@
-echo 1234abcd | gsed "s/[0-9]\+/#/g"

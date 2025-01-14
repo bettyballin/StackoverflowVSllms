@@ -1,1 +1,0 @@
-char *padded = StringPadRight("Hello", 10, '0');\nif (padded) {\n    printf("%s\n", padded);\n    free(padded); // Free the allocated memory\n}

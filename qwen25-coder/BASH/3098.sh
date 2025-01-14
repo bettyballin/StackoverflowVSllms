@@ -1,1 +1,0 @@
-mvn release:clean\n   mvn release:prepare

@@ -1,1 +1,0 @@
-chmod +x connect_ssh.sh

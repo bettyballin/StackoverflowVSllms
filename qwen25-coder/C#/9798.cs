@@ -1,1 +1,0 @@
-public class MyServiceTests\n{\n    [TestMethod]\n    public void TestMethod()\n    {\n        var fakeContext = new Mock<HttpContextBase>();\n        // Setup the mock object...\n        \n        var service = new Service(fakeContext.Object);\n        service.SomeMethod();\n        // Assert expectations...\n    }\n}

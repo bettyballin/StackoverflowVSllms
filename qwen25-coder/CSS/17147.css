@@ -1,1 +1,0 @@
-.table-with-spacing {\n    display: table;\n    border-collapse: separate; /* Allows to set border spacing */\n    border-spacing: 0 15px;     /* Add vertical space between tbodies */\n}

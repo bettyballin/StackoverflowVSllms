@@ -1,1 +1,0 @@
-ilmerge /target:library /out:Merged.Library.dll PrimaryDLL.dll ThirdPartyLibrary.dll

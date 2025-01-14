@@ -1,1 +1,0 @@
-svnadmin load /path/to/new/repository-name < repository-name.dmp

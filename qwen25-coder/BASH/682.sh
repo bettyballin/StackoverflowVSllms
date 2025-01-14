@@ -1,1 +1,0 @@
-Xvfb :9 -screen 0 1024x768x24 &\n   export DISPLAY=:9

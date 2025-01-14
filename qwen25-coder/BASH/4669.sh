@@ -1,1 +1,0 @@
-mkdir temp-war-dir\n   cd temp-war-dir\n   jar -xvf ../proprietary.war

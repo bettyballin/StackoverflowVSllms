@@ -1,1 +1,0 @@
-sudo systemctl restart apache2  # For Debian/Ubuntu systems\nsudo systemctl restart httpd   # For CentOS/RHEL systems

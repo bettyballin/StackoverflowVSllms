@@ -1,1 +1,0 @@
-sudo chown root:wheel /path/TestSetUIDAndExecuteTool\nsudo chmod u+s /path/TestSetUIDAndExecuteTool

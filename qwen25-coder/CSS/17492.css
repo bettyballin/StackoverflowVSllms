@@ -1,1 +1,0 @@
-ul.next-to-float {\n    overflow: hidden; /* Clear float */\n}\n\nul.next-to-float li {\n    padding-left: 20px; /* More space for bullet */\n    text-indent: -20px; /* Align the text with the line above after the bullet */\n}

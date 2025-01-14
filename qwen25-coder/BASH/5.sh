@@ -1,1 +1,0 @@
-gsutil cp gs://your-bucket-export-name/overall_export_metadata your-local-path/

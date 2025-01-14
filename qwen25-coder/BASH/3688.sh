@@ -1,1 +1,0 @@
-expdp username/password@database_service_name directory=data_pump_dir dumpfile=export_schema.dmp logfile=export_schema.log schemas=schema_name

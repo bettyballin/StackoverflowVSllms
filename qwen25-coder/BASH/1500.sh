@@ -1,1 +1,0 @@
-regasm MyDotNetLibrary.dll /codebase

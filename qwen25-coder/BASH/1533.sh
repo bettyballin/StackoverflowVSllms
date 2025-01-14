@@ -1,1 +1,0 @@
-# Create a release branch from the current stable trunk\nsvn copy https://repo/path/to/trunk https://repo/path/to/branches/release-1.0 -m "Creating Release 1.0 Branch"\n\n# Developers can now commit to trunk without blocking those working on release

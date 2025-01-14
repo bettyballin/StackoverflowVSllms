@@ -1,1 +1,0 @@
-gcc -m32 -o my_program my_program.s

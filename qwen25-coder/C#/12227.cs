@@ -1,1 +1,0 @@
-// In C#, setting SameSite in code-behind if needed:\n   HttpCookie myCookie = new HttpCookie("MyCookie");\n   myCookie.SameSite = SameSiteMode.Strict;  // or Lax, as appropriate for your app

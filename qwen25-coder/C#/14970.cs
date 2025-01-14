@@ -1,1 +1,0 @@
-public PartialViewResult YourAction(YourModel model)\n   {\n       if (ModelState.IsValid)\n       {\n           // perform actions here\n       }\n       return PartialView("_YourPartialView", model);\n   }

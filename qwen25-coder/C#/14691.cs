@@ -1,1 +1,0 @@
-using (var context = new YourDataContext())\n   {\n       var customerTaskCount = context.GetCustomerTaskCount(customerId);\n       Console.WriteLine($"Number of tasks for customer {customerId}: {customerTaskCount}");\n   }

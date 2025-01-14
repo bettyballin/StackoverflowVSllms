@@ -1,1 +1,0 @@
-# Check architecture of libz.dylib\nlipo -info /opt/local/lib/libz.dylib\n\n# If it doesn't include both ppc and i386, you need to rebuild it.\n# Navigate to the source directory of the library and run:\n./configure --enable-shared --prefix=/opt/local CFLAGS="-arch ppc -arch i386" LDFLAGS="-arch ppc -arch i386"\nmake\nsudo make install

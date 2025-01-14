@@ -1,1 +1,0 @@
-/* Adjust the z-index of your dropdown */\n.your-dropdown-menu-class {\n    position: relative; /* or absolute/fixed if already set */\n    z-index: 1000;\n}\n\n/* Ensure the map has a lower z-index */\n#map-container {\n    position: relative; /* or absolute/fixed if already set */\n    z-index: 500;\n}

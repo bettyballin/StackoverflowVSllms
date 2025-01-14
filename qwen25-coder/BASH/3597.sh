@@ -1,1 +1,0 @@
-pip install pyodbc cx_Oracle

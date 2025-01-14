@@ -1,1 +1,0 @@
-public class SlaveService : ServiceBase\n   {\n       protected override void OnStart(string[] args)\n       {\n           // Start listening to commands here...\n       }\n   }

@@ -1,1 +1,0 @@
-# For Windows Command Line (cmd)\n   set ORACLE_HOME=C:\oracle\product\10.2.0\client_1\n\n   # To temporarily add to PATH for that session\n   set PATH=%ORACLE_HOME%\bin;%PATH%

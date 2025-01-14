@@ -1,1 +1,0 @@
-# Get image dimensions and type\nfile -b --mime-type -I <filename>

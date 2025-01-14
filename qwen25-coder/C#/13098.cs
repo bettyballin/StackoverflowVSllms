@@ -1,1 +1,0 @@
-// Example: Using NHibernate.Validator attribute\n[NotNullNotEmpty(Message = "Name is required.")]\npublic virtual string Name { get; set; }

@@ -1,1 +1,0 @@
-keytool -genseckey -alias mySecretKey -storetype JCEKS -keystore keystore.jks -keyalg AES -keysize 256

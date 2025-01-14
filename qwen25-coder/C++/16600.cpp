@@ -1,1 +1,0 @@
-// Likely clearer and more intuitive\n  bool Rect::contains(const Point& point) const;

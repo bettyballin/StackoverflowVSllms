@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\n\n     public class VSSWrapper {\n         [DllImport("YourDLL.dll")]\n         public static extern void MyExportedFunction();\n     }

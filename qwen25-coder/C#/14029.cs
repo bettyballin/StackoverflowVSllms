@@ -1,1 +1,0 @@
-// Example setup in Form_Load or Designer File\ntxtZipCode.Tag = "zipcode";

@@ -1,1 +1,0 @@
-"C:\Program Files\Java\<Your_JRE_Version>\bin\jucheck.exe" -disable

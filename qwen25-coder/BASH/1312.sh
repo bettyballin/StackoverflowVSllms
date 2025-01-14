@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Connect to SQL*Plus as SYSDBA and get the alert log location\nALERT_LOG_PATH=$(sqlplus -S / AS SYSDBA <<EOF\nSET HEADING OFF\nSET FEEDBACK OFF\nSELECT value FROM v\$diag_info WHERE name = 'Diag Trace';\nEXIT;\nEOF)\n\n# Trim whitespace and tail the alert log file\ntail -f $(echo $ALERT_LOG_PATH | xargs)/alert_$(hostname).log

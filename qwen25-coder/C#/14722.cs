@@ -1,1 +1,0 @@
-@using (Html.BeginForm("Submit", "Lawyer"))\n{\n    <div>\n        @Html.LabelFor(model => model.SelectedStates)\n        @Html.DropDownListFor(\n            model => model.SelectedStates,\n            new MultiSelectList(ViewBag.States, "Value", "Text"),\n            new { multiple = "multiple" }\n        )\n    </div>\n\n    <input type="submit" value="Submit" />\n}

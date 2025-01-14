@@ -1,1 +1,0 @@
-QuestionsRepeater.DataSource = questions;\nQuestionsRepeater.DataBind();

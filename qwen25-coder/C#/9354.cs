@@ -1,1 +1,0 @@
-// In a C# file, you can reference and use classes from the VB project\n   using MyProject.VB; \n\n   public class MyClassInCSharp\n   {\n       public void UseVBClass()\n       {\n           var vbClass = new SomeVBClass();\n           // Use methods and properties of SomeVBClass\n       }\n   }

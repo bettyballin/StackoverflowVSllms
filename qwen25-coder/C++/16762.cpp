@@ -1,1 +1,0 @@
-#include <iostream>\n\n#ifdef _WIN32\n    #include <windows.h>\n#else\n    #include <unistd.h>\n#endif\n\nvoid platformSpecificFunction() {\n#ifdef _WIN32\n    MessageBox(NULL, "Hello from Windows!", "Info", MB_OK);\n#else\n    std::cout << "Running on a non-Windows system." << std::endl;\n#endif\n}\n\nint main() {\n    platformSpecificFunction();\n    return 0;\n}

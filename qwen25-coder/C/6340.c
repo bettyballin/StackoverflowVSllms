@@ -1,1 +1,0 @@
-#include <stdint.h>\n\nuint32_t djb2(const char* str) {\n    uint32_t hash = 5381;\n    int c;\n\n    while ((c = *str++))\n        hash = ((hash << 5) + hash) + c; /* hash * 33 + c */\n\n    return hash;\n}

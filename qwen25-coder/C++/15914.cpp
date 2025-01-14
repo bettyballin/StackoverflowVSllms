@@ -1,1 +1,0 @@
-class F1Helper {\nprivate:\n    static void f1_private() {\n        // Private functionality here\n    }\npublic:\n    static void f1() {\n        f1_private(); // Only accessible from f1\n    }\n};\n\nvoid f2() {\n    // Fails to compile: F1Helper::f1_private();\n    F1Helper::f1(); // OK, but cannot access f1_private directly.\n}

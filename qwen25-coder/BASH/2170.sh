@@ -1,1 +1,0 @@
-#!/bin/sh\n\nfile=$1\nn=$2\n\n# if number is zero exit\nif [ "$n" -eq "0" ]\nthen\n    exit 0\nfi\n\necho "Generating list of $n people."\n\n# Build the list in memory\nlist=""\nfor i in $(seq 1 $n); do\n    let "NUM=($RANDOM%75)+15"\n    list+="name$i $NUM (###)###-####\n"\ndone\n\n# Write the list to file once\necho -e "$list" > "$file"\n\necho "List generated."

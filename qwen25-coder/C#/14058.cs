@@ -1,1 +1,0 @@
-// Example of a simple ASP.NET Web API controller\n   public class MyController : ApiController\n   {\n     [HttpGet]\n     public string GetData(int id)\n     {\n       return "Data for ID: " + id;\n     }\n   }

@@ -1,1 +1,0 @@
-Label1.Text = "This is line one.<br>This is line two.".Replace(Environment.NewLine, "<br>")\nLabel1.Text = HttpUtility.HtmlEncode(Label1.Text)

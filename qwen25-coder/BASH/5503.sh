@@ -1,1 +1,0 @@
-sudo svnadmin create /usr/local/svn/repositories/project1\n   sudo svnadmin create /usr/local/svn/repositories/project2

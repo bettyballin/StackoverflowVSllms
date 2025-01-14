@@ -1,1 +1,0 @@
-g++ -std=c++11 your_program.cpp -o your_program

@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        // Store the current page's URL in session.\n        Session["LastVisitedPage"] = Request.Url.ToString();\n    }\n}

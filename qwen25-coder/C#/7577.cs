@@ -1,1 +1,0 @@
-uint foo = 42;\nif( foo == ~0 ) // ~0 is -1 in signed, but all bits set (max uint) in unsigned\n   // potential logic error if foo was intended to be compared with the max value of uint

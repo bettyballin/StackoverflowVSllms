@@ -1,1 +1,0 @@
-// Example: SessionFactory creation in NHibernate\nvar sessionFactory = new Configuration().Configure().BuildSessionFactory();\nusing (ISession session = sessionFactory.OpenSession())\n{\n    // Use the session for database operations\n}

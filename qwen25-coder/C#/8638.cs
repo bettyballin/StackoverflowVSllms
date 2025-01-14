@@ -1,1 +1,0 @@
-var result = context.MyEntities\n                  .Select(e => new \n                  {\n                      e.Id,\n                      e.Name,\n                      LogValue = Math.Log(e.SomeField)\n                  })\n                  .OrderBy(x => x.LogValue)\n                  .ToList();

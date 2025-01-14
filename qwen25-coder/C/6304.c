@@ -1,1 +1,0 @@
-#include <stdio.h>\n\n// Example function using cdecl calling convention\nint add(int a, int b) {\n    return a + b;\n}\n\nint main() {\n    printf("Result: %d\n", add(3, 4));\n    return 0;\n}

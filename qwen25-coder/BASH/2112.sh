@@ -1,1 +1,0 @@
-stsadm.exe -o osearch -status -url https://your.sharepointsite.com/

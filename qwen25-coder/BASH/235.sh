@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Compress binary files\nfind . -type f \( -iname "*.bin" -o -iname "*.exe" \) -print0 | while IFS= read -r -d '' file; do\n    gzip --keep "$file"\ndone\n\n# Add compressed files to SVN\nsvn add *.gz\n\n# Commit\nsvn commit -m "Auto-commit with compressed binaries"

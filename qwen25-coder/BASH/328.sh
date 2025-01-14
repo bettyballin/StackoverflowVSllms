@@ -1,1 +1,0 @@
-chown apache:apache mysql_connect.php\n   chown apache:apache /path/to/directory

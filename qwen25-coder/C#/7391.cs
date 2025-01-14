@@ -1,1 +1,0 @@
-using JetBrains.dotTrace;\n\nclass Program {\n    static void Main(string[] args) {\n        new ProfilerApi().StartNewSession();\n        Application.EnableVisualStyles();\n        Application.SetCompatibleTextRenderingDefault(false);\n        Application.Run(new MainForm());\n        new ProfilerApi().StopAndSave("output.dtp", SaveFormat.DotTrace70);\n    }\n}

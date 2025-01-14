@@ -1,1 +1,0 @@
-.tabs-container {\n    display: flex;\n    justify-content: center; /* Center the tabs */\n}\n\n.tab {\n    position: relative;\n    margin-left: -15px; /* Overlap each other by 15px */\n}\n.first-tab {\n    margin-left: 0; /* Avoid overlapping for the first tab */\n}

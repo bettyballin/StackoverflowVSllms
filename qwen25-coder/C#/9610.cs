@@ -1,1 +1,0 @@
-using System.Web.Security.AntiXss;\n\npublic class YourModel\n{\n    [AllowHtml]\n    public string Content { get; set; }\n\n    // This method will sanitize the input before saving to DB\n    public void SanitizeData()\n    {\n        if (!string.IsNullOrEmpty(Content))\n        {\n            Content = AntiXssEncoder.HtmlEncode(Content, true);\n        }\n    }\n}

@@ -1,1 +1,0 @@
-public class SecureController : Controller\n{\n    [RequireHttps]\n    public ActionResult SensitiveData()\n    {\n        // Your action logic here\n        return View();\n    }\n\n    // Other secure actions...\n}

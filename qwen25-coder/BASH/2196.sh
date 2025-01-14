@@ -1,1 +1,0 @@
-# Define the service name\n$serviceName = "YourServiceName"\n\n# Get the current service object\n$service = Get-Service -Name $serviceName\n\n# Set the service to restart on failure\nSet-Service -InputObject $service -StartType Automatic\n\n# Configure recovery options\nsc.exe failure $serviceName reset= 86400 actions= restart/5000/restart/5000/restart/5000

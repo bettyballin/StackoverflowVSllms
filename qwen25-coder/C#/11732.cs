@@ -1,1 +1,0 @@
-var myList = new List<object>(); // your list initialization here\nvar stringList = myList.Select(i => i.ToString()).ToList();

@@ -1,1 +1,0 @@
-[assembly: System.Web.UI.WebResource("Mri.Controls.Resources.yourfile.js", "text/javascript")]

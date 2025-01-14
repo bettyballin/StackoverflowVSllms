@@ -1,1 +1,0 @@
-# Initialize Git in your WordPress directory\n   git init\n\n   # Add all files to the repository\n   git add .\n\n   # Commit changes\n   git commit -m "Initial commit of WordPress"

@@ -1,1 +1,0 @@
-// Example of how you might handle this in a normal .aspx file:\nprotected void Page_Load(object sender, EventArgs e)\n{\n    Response.ContentType = "text/xml";\n    // Your logic here to scan folders and output XML data\n    Response.Write("<root><message>Hello, World!</message></root>");\n}

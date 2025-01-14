@@ -1,1 +1,0 @@
-.item1 { order: 3; }\n.item2 { order: 2; }\n.item3 { order: 1; }\n\n/* Assuming all items are within a container that uses grid layout */\n.container {\n    display: grid;\n}

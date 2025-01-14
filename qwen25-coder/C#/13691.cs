@@ -1,1 +1,0 @@
-cmd.CommandText = "INSERT INTO Prototype ( ParentID ) VALUES ( NULL ); SELECT last_insert_rowid();";

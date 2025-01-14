@@ -1,1 +1,0 @@
-curl 'http://localhost:5984/your_database/_changes?feed=continuous&since=<seq_number>' > changes.log

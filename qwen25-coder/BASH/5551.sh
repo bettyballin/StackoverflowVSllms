@@ -1,1 +1,0 @@
-# Check current limits\n   sysctl -a | grep "thread|process"\n\n   # Example: Increase maximum number of threads (not usually required)\n   sysctl -w kernel.threads-max=10000

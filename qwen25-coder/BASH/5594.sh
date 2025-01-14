@@ -1,1 +1,0 @@
-#!/bin/bash\n# Script to start multiple instances of your java application for horizontal scaling\n\nfor i in {1..4}  # Adjust the number as needed\ndo\n    nohup java -jar your-application.jar > output-$i.log 2>&1 &\ndone\n\necho "Started all instances"

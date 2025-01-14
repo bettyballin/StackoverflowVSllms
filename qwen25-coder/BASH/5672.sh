@@ -1,1 +1,0 @@
-sudo apt-get update && sudo apt-get upgrade # For Ubuntu\n   sudo yum update # For CentOS

@@ -1,1 +1,0 @@
-mv yourcertificate.cer yourcertificate.crt

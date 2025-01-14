@@ -1,1 +1,0 @@
-brew update\n   brew upgrade php@5.2 # Note: PHP 5.2 is very old and not recommended for modern use.

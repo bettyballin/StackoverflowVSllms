@@ -1,1 +1,0 @@
-.container {\n    overflow: hidden; /* Clearfix for floated elements */\n}\n\n#leftcontent {\n    width: 170px;\n    border: 1px solid #C0C0C0;\n    padding: 2px;\n    float: left;\n    margin-right: 10px;\n}\n\n#centercontent {\n    overflow: hidden; /* Ensures the center content takes the remaining space */\n    border: 1px solid #C0C0C0;\n}

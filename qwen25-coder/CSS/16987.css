@@ -1,1 +1,0 @@
-.tableheader {\n    position: sticky;\n    top: 0;\n    background-color: white; /* Ensure it stands out against the content */\n    z-index: 1; /* Keeps it above other elements */\n}

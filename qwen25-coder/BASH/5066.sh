@@ -1,1 +1,0 @@
-pg_dump -U <username> -h <host> -p <port> -F c <database_name> > backup_file.dump

@@ -1,1 +1,0 @@
-lsof -p [pid] | grep ESTABLISHED

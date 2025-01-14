@@ -1,1 +1,0 @@
-# To convert from DOS/Windows to UNIX/Linux format:\ndos2unix filename.php\n\n# To convert from UNIX/Linux to DOS/Windows format:\nunix2dos filename.php

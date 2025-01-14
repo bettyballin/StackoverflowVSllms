@@ -1,1 +1,0 @@
-pm install -g http-server\n   cd path/to/your/project/directory\n   http-server

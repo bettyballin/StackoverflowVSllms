@@ -1,1 +1,0 @@
-appcmd set config "YourSiteName" /section:system.webServer/staticContent /+"[fileExtension='.docx',mimeType='application/vnd.openxmlformats-officedocument.wordprocessingml.document']"

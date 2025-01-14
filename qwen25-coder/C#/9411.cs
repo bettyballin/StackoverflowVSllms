@@ -1,1 +1,0 @@
-// Example of updating output directory settings programmatically (rarely needed)\nProjectItem projectItem = yourProject.ProjectItems.Item("LibComposites.dll");\nprojectItem.Properties.Item("CopyToOutputDirectory").Value = 2; // Copy always

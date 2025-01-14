@@ -1,1 +1,0 @@
-gcc -Wall -Wdeprecated-declarations -o myprogram myprogram.c

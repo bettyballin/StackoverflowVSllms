@@ -1,1 +1,0 @@
-/* Define the parent div as a grid container */\n#gridContainer {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust column size according to needs */\n    gap: 10px; /* Space between grid items */\n}\n\n/* Style each child element */\n.grid-item {\n    background-color: lightblue;\n    border: 1px solid #ccc;\n}

@@ -1,1 +1,0 @@
-tesseract output_image_prefix-1.png searchable_output_pdf -l eng pdf

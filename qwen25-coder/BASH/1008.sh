@@ -1,1 +1,0 @@
-openssl genpkey -algorithm RSA -out private_key.pem -aes256

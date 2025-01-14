@@ -1,1 +1,0 @@
-wget https://wordpress.org/latest.zip\n   unzip latest.zip

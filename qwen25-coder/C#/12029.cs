@@ -1,1 +1,0 @@
-internal class MyInternalClass\n{\n    public void SomePublicMethod()\n    {\n        // This method can be called from within the same assembly\n    }\n\n    private void SomePrivateMethod()\n    {\n        // This method is only accessible within this class\n    }\n}

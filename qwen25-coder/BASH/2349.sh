@@ -1,1 +1,0 @@
-returnStatus=$(echo "$test" | grep -oP '(?<=return status = )\d+')

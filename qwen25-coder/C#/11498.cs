@@ -1,1 +1,0 @@
-using (var nhSession = NHibernateHelper.OpenSessionFactory())\n{\n    using (var uow = new UnitOfWork(nhSession))\n    {\n        var repository = new SecurityRepositoryNHibImpl(uow);\n        var user = repository.GetUser(someGuid);\n\n        // Now you can safely access lazy-loaded properties of the user.\n        \n        uow.Save();\n    }\n}

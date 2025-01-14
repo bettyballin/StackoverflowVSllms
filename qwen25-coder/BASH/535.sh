@@ -1,1 +1,0 @@
-ilmerge /out:MergedApp.exe App.exe Library.dll

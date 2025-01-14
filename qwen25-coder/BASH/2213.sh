@@ -1,1 +1,0 @@
-mkdir -p /path/to/your/rcsrepo

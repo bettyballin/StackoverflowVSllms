@@ -1,1 +1,0 @@
-sqlldr userid=username/password@1.2.3.4:1521/MY.URL.COM control=your_control_file.ctl

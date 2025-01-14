@@ -1,1 +1,0 @@
-icacls "C:\Path\To\Site1" /restore "C:\ACLBACKUP\site1_acls.txt"\nicacls "C:\Path\To\Site2" /restore "C:\ACLBACKUP\site2_acls.txt"\nicacls "C:\Path\To\Site3" /restore "C:\ACLBACKUP\site3_acls.txt"

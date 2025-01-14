@@ -1,1 +1,0 @@
-# Exporting LDAP entries to an LDIF file using ldapsearch\nldapsearch -x -LLL -H ldap://ldap.example.com -D "cn=admin,dc=example,dc=com" -W -b "ou=People,dc=example,dc=com" > people.ldif\n\n# Modifying LDAP directory with an LDIF file using ldapmodify\nldapmodify -x -D "cn=admin,dc=example,dc=com" -W -f modify.ldif

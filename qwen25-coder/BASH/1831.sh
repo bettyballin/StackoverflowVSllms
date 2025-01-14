@@ -1,1 +1,0 @@
-java -jar path\to\FakeSMTP.jar -server -b 587

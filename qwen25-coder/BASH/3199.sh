@@ -1,1 +1,0 @@
-composer require zendframework/zend-console

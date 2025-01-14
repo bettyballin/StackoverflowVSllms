@@ -1,1 +1,0 @@
-// Example with WCF Contract\n   [ServiceContract]\n   public interface ICommandService\n   {\n       [OperationContract]\n       string ExecuteCommand(string command);\n\n       [OperationContract]\n       string GetResponse();\n   }

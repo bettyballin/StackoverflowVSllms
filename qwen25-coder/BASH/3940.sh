@@ -1,1 +1,0 @@
-etsh interface ipv4 set interface "Local Area Connection" weakhostsend enabled

@@ -1,1 +1,0 @@
-pid_t p = fork();\nif (p == -1) {\n    // Handle error: fork failed\n    perror("fork");\n} else if (p == 0) {\n    // Child process\n} else {\n    // Parent process\n}

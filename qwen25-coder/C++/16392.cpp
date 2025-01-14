@@ -1,1 +1,0 @@
-// MyDll.cpp\n#include "MyDll.h"\n#include <iostream>\n\nMyClass::MyClass() { }\n\nMyClass::~MyClass() { }\n\nvoid MyClass::DoSomething() {\n    std::cout << "Doing something!" << std::endl;\n}

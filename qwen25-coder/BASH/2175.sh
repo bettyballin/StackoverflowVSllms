@@ -1,1 +1,0 @@
-phpize\n     configure --with-sqlite3=/path/to/your/sqlite3/install\n     nmake

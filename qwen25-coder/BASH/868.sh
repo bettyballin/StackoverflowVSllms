@@ -1,1 +1,0 @@
-svn checkout https://codeplex.svn.codeplex.com/svn/YOURPROJECT/trunk YOUR_PROJECT_LOCAL\n   cd YOUR_PROJECT_LOCAL

@@ -1,1 +1,0 @@
-using System.Linq;\nusing System.Xml.Linq;\n\nXDocument doc = XDocument.Parse(xmlString);\nvar personElement = doc.Descendants("person").FirstOrDefault(p => p.Element("name")?.Value == "Jim");\nstring personName = personElement?.Element("name")?.Value;\nvar locationElement = doc.Descendants("location").FirstOrDefault(l => l.Element("name")?.Value == personName);

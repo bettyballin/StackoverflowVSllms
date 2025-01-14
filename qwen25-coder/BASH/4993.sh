@@ -1,1 +1,0 @@
-sudo iptables -L -v # For checking current rule set

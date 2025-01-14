@@ -1,1 +1,0 @@
-Foo* foo = new Foo(); // Dynamic allocatio

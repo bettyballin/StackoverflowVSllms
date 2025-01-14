@@ -1,1 +1,0 @@
-decimal amount = 1234.56m;\n   string formattedAmount = String.Format("{0:C}", amount);

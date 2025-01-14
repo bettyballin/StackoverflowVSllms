@@ -1,1 +1,0 @@
-class Program\n   {\n       static void Main()\n       {\n           var settings = ConfigManager.LoadConfig();\n           // Use settings.SettingOne, settings.SettingTwo as needed\n       }\n   }

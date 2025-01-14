@@ -1,1 +1,0 @@
-sudo ln -s /usr/lib/libmagic.so.1 /usr/lib/libmagic.so

@@ -1,1 +1,0 @@
-// Google Test Example (via Community Tools)\n   #include "gtest/gtest.h"\n   #include "../YourProject/Adder.h"\n\n   TEST(AdderTest, CheckAddMethod) {\n       Adder adder;\n       EXPECT_EQ(3, adder.Add(1, 2));\n       EXPECT_EQ(5, adder.Add(2, 3));\n       // More test cases as needed\n   }

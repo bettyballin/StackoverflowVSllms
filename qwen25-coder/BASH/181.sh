@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Define variables\nLOCAL_DIR="/path/to/local/directory"\nREMOTE_USER="remote_user"\nREMOTE_HOST="remote_host"\nREMOTE_DIR="/path/on/remote/server"\n\n# SFTP command with batch mode\nsftp -b - ${REMOTE_USER}@${REMOTE_HOST} << EOF\n    put -r $LOCAL_DIR $REMOTE_DIR\nEOF

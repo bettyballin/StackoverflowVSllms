@@ -1,1 +1,0 @@
-extern const int globalConstant = 42;

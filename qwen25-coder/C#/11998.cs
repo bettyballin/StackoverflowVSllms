@@ -1,1 +1,0 @@
-public class SomeController : Controller\n   {\n       private readonly ICustomCacheProvider _cache;\n\n       public SomeController(ICustomCacheProvider cache)\n       {\n           _cache = cache;\n       }\n\n       public ActionResult Index()\n       {\n           var data = _cache.Get("someKey");\n           // ...\n           return View();\n       }\n   }

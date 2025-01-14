@@ -1,1 +1,0 @@
-svn propset svn:ignore 'config.conf' path/to/directory\n   svn commit -m "Added config.conf to ignore list"

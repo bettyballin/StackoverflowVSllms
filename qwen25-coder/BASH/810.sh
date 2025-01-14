@@ -1,1 +1,0 @@
-symfony propel-build-model

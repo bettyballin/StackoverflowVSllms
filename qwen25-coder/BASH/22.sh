@@ -1,1 +1,0 @@
-pdftops -paper a4 -noshrink input.pdf output.ps

@@ -1,1 +1,0 @@
-// Assuming we have a simple IRepository<T> interface\npublic interface IRepository<T>\n{\n    T GetById(int id);\n    void Save(T entity);\n}\n\nusing Moq;\n\nvar mockRepo = new Mock<IRepository<Foo>>();\nmockRepo.Setup(repo => repo.GetById(1)).Returns(new Foo { Id = 1, Name = "Test" });\n\n// Use the mock in your tests\nFoo result = mockRepo.Object.GetById(1);

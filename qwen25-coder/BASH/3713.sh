@@ -1,1 +1,0 @@
-sn -R myassembly.dll mykey.snk

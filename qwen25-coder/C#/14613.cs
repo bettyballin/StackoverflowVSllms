@@ -1,1 +1,0 @@
-public ActionResult Action(string sort, int? page)\n{\n    if (Request.QueryString.HasKeys())\n    {\n        ViewBag.RobotsMetaTag = "noindex";\n    }\n    else\n    {\n        ViewBag.RobotsMetaTag = "all";\n    }\n\n    return View();\n}

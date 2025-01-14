@@ -1,1 +1,0 @@
-/* Targeted Fix for IE7 */\n.widget-header {\n    margin-bottom: -5px; /* Adjust value as necessary */\n}\n\n/* Conditional Comment for IE7 Specific Styles */\n<!--[if ie 7]>\n<style>\n.widget-header {\n    margin-bottom: -5px;\n}\n</style>\n<![endif]-->

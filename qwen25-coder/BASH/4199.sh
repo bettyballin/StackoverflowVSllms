@@ -1,1 +1,0 @@
-cp -r actionmailer-2.3.2 /opt/ruby-enterprise-1.8.6-20090421/lib/ruby/gems/1.8/gems/actionmailer-2.3.2-backup

@@ -1,1 +1,0 @@
-g++ -std=c++11 -o sample_app sample_app.cpp -g -pthread -lprofiler\n   CPUPROFILE=sample.out ./sample_app\n   pprof --text ./sample_app sample.out

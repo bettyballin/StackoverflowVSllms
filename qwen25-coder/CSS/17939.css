@@ -1,1 +1,0 @@
-.parent {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 25%;\n  height: 100vh; /* Full viewport height */\n  position: relative;\n  box-sizing: border-box;\n}\n\n.child {\n  box-sizing: border-box;\n  margin: Npx; /* Replace N with your desired number of pixels */\n}

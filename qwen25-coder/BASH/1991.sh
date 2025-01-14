@@ -1,1 +1,0 @@
--L/opt/local/lib -l:libhdf5.a

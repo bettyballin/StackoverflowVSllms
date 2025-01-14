@@ -1,1 +1,0 @@
-vmstat 1 5                    # Monitor every second, 5 times\n   vmstat 1 >> memory_usage.log    # Append to a file for later analysis

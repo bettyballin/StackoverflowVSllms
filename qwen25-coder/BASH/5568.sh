@@ -1,1 +1,0 @@
-firefox -P TestProfile --disable-addons --allow-js-define-property-overriding --new-window http://your-local-test-site

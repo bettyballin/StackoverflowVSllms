@@ -1,1 +1,0 @@
-var i = 42; // The compiler will infer that i is of type int\nvar s = "Hello"; // The compiler will infer that s is of type string

@@ -1,1 +1,0 @@
-mysql -u your_user -p your_database -e "CREATE TEMPORARY TABLE temp_data (\n    individual VARCHAR(255),\n    pop VARCHAR(255),\n    marker VARCHAR(255),\n    genotype VARCHAR(255)\n);"\nmysqlimport --ignore-lines=1 --fields-terminated-by="," --lines-terminated-by="\n" -u your_user -p your_database temp_data.csv

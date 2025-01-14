@@ -1,1 +1,0 @@
-public class CustomerMapper {\n       public CustomerMap(Customer customer) { /* map from entity to DB */ }\n       public Customer UnmapCustomer(CustomerDB customerDB) { /* map from DB to entity */ }\n   }

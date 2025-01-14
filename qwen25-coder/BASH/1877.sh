@@ -1,1 +1,0 @@
-# Start the virtual machine\nStart-Process "C:\Path\To\VirtualPCFolder\vmrun.exe" -ArgumentList "start C:\vms\MYVM.vhd"\n\n# Stop (power off) the virtual machine\nStart-Process "C:\Path\To\VirtualPCFolder\vmrun.exe" -ArgumentList "stop C:\vms\MYVM.vhd soft"

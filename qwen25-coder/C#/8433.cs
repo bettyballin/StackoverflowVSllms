@@ -1,1 +1,0 @@
-[OperationContract, WebInvoke(Method = "POST", UriTemplate = "/data")]\nTask<Response> ReceiveDataAsync(Data data);

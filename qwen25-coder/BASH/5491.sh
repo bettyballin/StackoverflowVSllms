@@ -1,1 +1,0 @@
-# Generate a keystore if you don't have one already\nkeytool -genkeypair -alias myKeyName -keystore myKeystore.jks\n\n# Sign your JAR with the keystore alias\njarsigner -keystore myKeystore.jks -storepass myStorePassword C:\my path\myJar.jar myKeyName\n\n# Verify that JAR is signed correctly\njarsigner -verify -verbose -certs C:\my path\myJar.jar

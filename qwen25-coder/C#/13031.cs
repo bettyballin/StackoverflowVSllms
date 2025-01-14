@@ -1,1 +1,0 @@
-using System.Text.RegularExpressions;\n\npublic static class PhoneNumberUtils\n{\n    private static readonly Regex NumericOnlyRegex = new Regex(@"[^\d]", RegexOptions.Compiled);\n\n    public static long CleanPhoneNumber(string phoneNumber)\n    {\n        string cleanedNumber = NumericOnlyRegex.Replace(phoneNumber, "");\n        return long.Parse(cleanedNumber);\n    }\n}

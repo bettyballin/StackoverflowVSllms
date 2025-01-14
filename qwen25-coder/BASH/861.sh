@@ -1,1 +1,0 @@
-svn switch https://codeplex.svn.codeplex.com/svn/YOURPROJECT/trunk\n   svn merge https://yourlocalsvnrepo.com/svn/YOUR_PROJECT_LOCAL/branches/your_feature_branch\n   svn commit -m "Merging local feature branch to upstream"

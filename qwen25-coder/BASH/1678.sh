@@ -1,1 +1,0 @@
-wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb\nsudo dpkg -i packages-microsoft-prod.deb\nrm packages-microsoft-prod.deb\n\nsudo apt-get update && sudo apt-get install -y dotnet-sdk-6.0

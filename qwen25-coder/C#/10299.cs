@@ -1,1 +1,0 @@
-var safeLiteral = new SafeLiteral();\n   safeLiteral.Text = userInput; // Automatically HTML Encoded

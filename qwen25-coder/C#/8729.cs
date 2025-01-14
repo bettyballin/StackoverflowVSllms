@@ -1,1 +1,0 @@
-public class Utilities\n   {\n       public static string FormatDate(DateTime date)\n       {\n           return date.ToString("yyyy-MM-dd");\n       }\n   }

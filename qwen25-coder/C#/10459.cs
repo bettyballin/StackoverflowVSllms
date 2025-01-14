@@ -1,1 +1,0 @@
-// Simple C# class to represent a Part\n     public class Part {\n         public string Id { get; set; }\n         public string Name { get; set; }\n\n         public Part(string id, string name) {\n             this.Id = id;\n             this.Name = name;\n         }\n     }

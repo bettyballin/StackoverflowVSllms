@@ -1,1 +1,0 @@
-public enum LanguageEnum\n{\n    English = 1,\n    French = 2,\n    Spanish = 3,\n    // Add other languages as needed\n}

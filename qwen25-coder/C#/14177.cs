@@ -1,1 +1,0 @@
-using System;\nusing System.Linq;\n\nstring sNumbers = "1,2,3,4,5";\nList<int> numbers = sNumbers.Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToList();

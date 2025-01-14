@@ -1,1 +1,0 @@
-# Example Dockerfile for a LAMP stack application\nFROM php:7.4-apache\n\nCOPY . /var/www/html/\n\nRUN docker-php-ext-install mysqli pdo pdo_mysql

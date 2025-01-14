@@ -1,1 +1,0 @@
-#div1 {\n    display: flex;\n    align-items: center; /* Aligns content vertically */\n}\n\n#div2 {\n    flex-shrink: 0; /* Prevents #div2 from shrinking */\n    width: 10px;\n}

@@ -1,1 +1,0 @@
-pip install rarfile\nsudo apt-get install unrar  # For Debian/Ubuntu based systems. Use equivalent package manager for others.

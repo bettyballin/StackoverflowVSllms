@@ -1,1 +1,0 @@
-if (HttpContext.Current != null)\n{\n    // Accessing user's identity\n    var userIdentity = HttpContext.Current.User.Identity.Name;\n\n    // Accessing a form value specific to this request\n    var formValue = HttpContext.Current.Request.Form["someInputName"];\n\n    // Accessing all HTTP headers\n    var headers = HttpContext.Current.Request.Headers;\n}

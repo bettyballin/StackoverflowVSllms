@@ -1,1 +1,0 @@
-goaccess /path/to/iis.log --log-format=%d/%b/%Y:%T %>s %u "%r" -a > report.html

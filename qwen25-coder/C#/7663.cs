@@ -1,1 +1,0 @@
-WindowsPrincipal currentUser = new WindowsPrincipal(WindowsIdentity.GetCurrent());\n   bool isInRole = currentUser.IsInRole(@"MyDomain\My Secure Users");\n   if (isInRole) {\n       // Proceed with the action\n   }

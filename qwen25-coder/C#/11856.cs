@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        LinqDataSource1.WhereParameters["DateField"].DefaultValue = DateTime.Now.ToString("s");\n    }\n}\n\nprotected void LinqDataSource1_Selecting(object sender, LinqDataSourceSelectEventArgs e)\n{\n    LinqDataSource1.WhereParameters["DateField"].DefaultValue = DateTime.Now.ToString("s");\n}

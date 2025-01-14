@@ -1,1 +1,0 @@
-# Install node_exporter\nwget https://github.com/prometheus/node_exporter/releases/download/v1.3.0/node_exporter-1.3.0.linux-amd64.tar.gz\ntar xvfz node_exporter-1.3.0.linux-amd64.tar.gz\ncd node_exporter-1.3.0.linux-amd64\n\n# Start the node_exporter\n./node_exporter

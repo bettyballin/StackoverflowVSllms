@@ -1,1 +1,0 @@
-public void MyMethod()\n   {\n       OperationContext context = OperationContext.Current;\n       MessageHeaders headers = context.IncomingMessageHeaders;\n\n       string credentialHeader = headers.GetHeader<string>("Credentials", "http://mycompany.com/");\n       // Validate your credentials here...\n   }

@@ -1,1 +1,0 @@
-AGI(|"/your/full/path/to/restart_service.sh")

@@ -1,1 +1,0 @@
-# Command-line example of creating a pool in Azure Batch\n   az batch account login -n mybatchaccount -g myresourcegroup --shared-key-auth\n   az batch pool create --id mypool --vm-size standard_d4_v2 --target-dedicated-nodes 10 --image ubuntu-18.04-lts

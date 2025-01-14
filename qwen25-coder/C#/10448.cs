@@ -1,1 +1,0 @@
-protected override IEnumerable<ScriptDescriptor> GetScriptDescriptors()\n{\n    ScriptControlDescriptor desc = new ScriptControlDescriptor("NDI.WebControls.Client.GenericAutoComplete", this.ClientID);\n    desc.AddProperty("autoCompleteTargetControlID", autoComplete.TargetControlID); // Use TargetControlID instead of ClientID\n\n    return new ScriptDescriptor[] { desc };\n}

@@ -1,1 +1,0 @@
-.input-container {\n       position: relative;\n       display: inline-block;\n   }\n\n   .icon {\n       position: absolute;\n       top: 50%;\n       transform: translateY(-50%);\n       left: 10px;\n       pointer-events: none;\n   }\n\n   input[type="email"] {\n       padding-left: 40px; /* Make space for the icon */\n   }

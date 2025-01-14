@@ -1,1 +1,0 @@
-for file in modified_*.csv; do\n    sed '/^[^,]*,/s/[^,]*,\([^,]*\).*/\1/' "$file" > "cleaned_$file"\ndone

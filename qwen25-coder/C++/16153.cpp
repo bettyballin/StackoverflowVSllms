@@ -1,1 +1,0 @@
-// C++ Union Example\nunion MyUnion {\n    int i;\n    float f;\n    // Both 'i' and 'f' share the same memory space.\n};

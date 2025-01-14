@@ -1,1 +1,0 @@
-# On Ubuntu/Debian\nsudo apt-get install tesseract-ocr\n\n# On Windows, download and install from the official GitHub page or other reliable sources

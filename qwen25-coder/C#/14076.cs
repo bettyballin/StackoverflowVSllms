@@ -1,1 +1,0 @@
-string username = ServiceSecurityContext.Current.PrimaryIdentity.Name;

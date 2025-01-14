@@ -1,1 +1,0 @@
-xdotool search --onlyvisible --class 'Netscape' | head -n 1 | xargs -I {} xdotool windowactivate {}

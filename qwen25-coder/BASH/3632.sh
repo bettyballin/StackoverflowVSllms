@@ -1,1 +1,0 @@
-sort -k 1 filename > sortedfile

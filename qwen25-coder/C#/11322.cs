@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };\n        GridView1.DataSource = numbers;\n        GridView1.DataBind();\n    }\n}

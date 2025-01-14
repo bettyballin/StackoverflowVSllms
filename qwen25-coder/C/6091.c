@@ -1,1 +1,0 @@
-#import "http://example.com/Service?wsdl" no_namespace // Import your WSDL\n\ninterface IWebServicesWrapper : IDispatch {\n    [id(1), helpstring("method GetWeather")] \n    HRESULT GetWeather([in] BSTR location, [out, retval] BSTR* weather);\n};

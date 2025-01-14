@@ -1,1 +1,0 @@
-compare -metric AE reference.png test.png difference.png

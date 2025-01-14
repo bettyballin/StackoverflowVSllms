@@ -1,1 +1,0 @@
-EXPORT void __stdcall update_userlist(char ***ulist) {\n    int i = 0;\n    userlist *cur_user = userlist_head; // pointer to first item in linked list\n\n    for (; i < usercount_; ++i) {\n        (*ulist)[i] = cur_user->username;\n        cur_user = cur_user->next;\n    }\n}

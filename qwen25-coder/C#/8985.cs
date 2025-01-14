@@ -1,1 +1,0 @@
-var itemNames = items.Select(i => i.Name).ToList();

@@ -1,1 +1,0 @@
-/* Ensure this has higher priority than other a tags */\n#footer a {\n    color: #000 !important; /* Force the text color */\n}\n\n#footer a:hover {\n    text-decoration: none;\n    color: #fff !important; /* Force the hover text color */\n}\n\n/* Stop floating if not needed in footer links */\n#footer a {\n    float: none !important; /* Ensure links do not float */\n}

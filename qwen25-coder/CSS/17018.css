@@ -1,1 +1,0 @@
-/* Simple Reset */\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box; /* Ensures that padding and border apply internally rather than adding to the width/height */\n}\n\n/* Ensure consistency with headers */\nh1, h2, h3, h4, h5, h6 {\n    margin-top: 0;\n    margin-bottom: 0.5em; /* Adjust as necessary */\n}

@@ -1,1 +1,0 @@
-# Set keepalive time to 60 seconds\nsudo sysctl -w net.ipv4.tcp_keepalive_time=60\n\n# Set keepalive interval to 5 seconds\nsudo sysctl -w net.ipv4.tcp_keepalive_intvl=5\n\n# Set the number of retries to 3\nsudo sysctl -w net.ipv4.tcp_keepalive_probes=3

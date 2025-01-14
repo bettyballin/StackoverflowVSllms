@@ -1,1 +1,0 @@
-sysctl -w sunrpc.tcp_slot_table_entries=128\n     sysctl -w sunrpc.udp_slot_table_entries=64

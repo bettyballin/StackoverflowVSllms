@@ -1,1 +1,0 @@
-void ConnectionPoint::NotifySinks() {\n    for (auto& advisor : m_Advisors) {\n        IS8SimulationEvents* pSink = advisor.second;\n        if (pSink) {\n            pSink->S8SimulationEndRun();\n        }\n    }\n}

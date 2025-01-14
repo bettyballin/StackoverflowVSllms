@@ -1,1 +1,0 @@
-public ActionResult SomeOtherAction()\n{\n    string resetPasswordUrl = GetResetPasswordUrl(Request.RequestContext);\n    // Use resetPasswordUrl as needed\n    return View();\n}

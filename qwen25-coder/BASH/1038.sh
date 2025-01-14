@@ -1,1 +1,0 @@
-ssh -t user@host 'export PATH=$PATH:$HOME/new_path && command'

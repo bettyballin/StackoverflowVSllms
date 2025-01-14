@@ -1,1 +1,0 @@
-appcmd list site "YourWorkingSiteName" /config /xml > c:\inetpub\appcmd_yourworkingsite.xml

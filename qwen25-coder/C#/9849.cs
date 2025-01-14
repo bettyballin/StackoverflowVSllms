@@ -1,1 +1,0 @@
-// Hypothetical example of handling redirection in Plumtree (check docs for actual method)\nPortalResponse.Redirection("http://your-redirect-url.com");

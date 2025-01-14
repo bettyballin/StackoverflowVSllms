@@ -1,1 +1,0 @@
-# Example log monitoring using grep (Linux command)\n   grep -E "400|403|500" /var/log/apache2/access.log

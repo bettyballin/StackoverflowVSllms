@@ -1,1 +1,0 @@
-# Install phpcpd globally using composer\n   composer global require sebastian/phpcpd\n\n   # Run phpcpd on your project directory\n   vendor/bin/phpcpd /path/to/your/project/

@@ -1,1 +1,0 @@
-Response.AddHeader("Content-Disposition", "attachment; filename=report.xlsx");

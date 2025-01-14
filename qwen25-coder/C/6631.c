@@ -1,1 +1,0 @@
-// Inside ext/standard/php_standard.h\n\nPHP_FUNCTION(my_custom_function);

@@ -1,1 +1,0 @@
-public class YourModel\n{\n    public List<TextAndDate> YourProperty { get; set; }\n}\n\npublic class TextAndDate\n{\n    [Required(ErrorMessage = "Text is required")]\n    public string TextValue { get; set; }\n\n    [Required(ErrorMessage = "Date is required")]\n    [DataType(DataType.Date)]\n    public DateTime DateValue { get; set; }\n}

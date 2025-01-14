@@ -1,1 +1,0 @@
-setfacl -m u:1000:rwx /path/to/directory

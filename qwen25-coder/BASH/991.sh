@@ -1,1 +1,0 @@
-composer require laminas/laminas-validator

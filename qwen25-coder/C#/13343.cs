@@ -1,1 +1,0 @@
-[System.Web.Services.WebMethod]\n   public static string GetStatus()\n   {\n       // Return the current status from your process here.\n       return "Processing batch: " + GetCurrentBatchNumber();\n   }

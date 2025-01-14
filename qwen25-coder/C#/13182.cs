@@ -1,1 +1,0 @@
-public void Update(GameTime gameTime)\n{\n    KeyboardState state = Keyboard.GetState();\n\n    if (state.IsKeyDown(Keys.Up))\n        // Move forward or perform action for up key\n    if (state.IsKeyDown(Keys.Down))\n        // Similar actions here\n}

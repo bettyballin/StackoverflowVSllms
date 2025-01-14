@@ -1,1 +1,0 @@
-public MainForm()\n{\n    InitializeComponent();\n}\n\n// Method in MainForm\npublic void maxGameCountLblUpdate(decimal maxGames)\n{\n    int games = decimal.ToInt32(maxGames);\n    myGameCountLbl.Text = games.ToString(); // Ensure myGameCountLbl is not null.\n    compGameCountLbl.Text = games.ToString();\n}

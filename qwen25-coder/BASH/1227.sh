@@ -1,1 +1,0 @@
-export TEST_DB_URL="jdbc:mysql://localhost/testdb"\nexport TEST_DB_USER="testuser"\nexport TEST_DB_PASSWORD="testpassword"

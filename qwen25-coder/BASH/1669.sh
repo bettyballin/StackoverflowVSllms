@@ -1,1 +1,0 @@
-mysql -u localusername -p localpassword dbname < dump.sql

@@ -1,1 +1,0 @@
-using System.Linq;\n\n   static void Do()\n   {\n       S.DoFirst(new T());             // this call is OK\n\n       List<T> list = new List<T>();\n       list.Add(new T());\n       \n       S.DoSecond(list.Cast<A>().ToList());  // convert elements and create a new list\n   }

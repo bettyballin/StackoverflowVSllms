@@ -1,1 +1,0 @@
-#include <math.h> // For fabs, labs, etc.\nint abs_value = abs(x); // For integers\ndouble abs_double = fabs(y); // For floating-point numbers

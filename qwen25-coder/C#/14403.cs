@@ -1,1 +1,0 @@
-public partial class Form1 : Form\n{\n    public Form1()\n    {\n        InitializeComponent();\n\n        RotatedLabel rotatedLabel = new RotatedLabel\n        {\n            Text = "Vertical Text",\n            AutoSize = false,\n            Size = new Size(30, 100),\n            Location = new Point(50, 50)\n        };\n\n        this.Controls.Add(rotatedLabel);\n    }\n}

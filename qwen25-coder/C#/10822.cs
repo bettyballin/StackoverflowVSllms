@@ -1,1 +1,0 @@
-public void Action()\n{\n    var queryParameters = HttpContext.Request.Query;\n    \n    foreach (var param in queryParameters)\n    {\n        string key = param.Key;\n        string value = param.Value.ToString();\n        // Process each key-value pair as needed\n    }\n}

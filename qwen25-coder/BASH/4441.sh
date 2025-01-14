@@ -1,1 +1,0 @@
-composer require psr/http-message publicsuffix/list publicsuffix/parser

@@ -1,1 +1,0 @@
-#include <memory>\nusing namespace std;\n\nclass Table {\n    // Table class definition\n};\n\nint main() {\n    // This will not compile due to explicit constructor\n    // auto_ptr<Table> table = new Table(); \n\n    // This works because of direct initialization\n    auto_ptr<Table> table(new Table());\n\n    return 0;\n}

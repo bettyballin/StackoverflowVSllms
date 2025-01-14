@@ -1,1 +1,0 @@
-#define ARRAY_LEN 262144\n\nlong targetArray[ARRAY_LEN];\nconst size_t totalBytes = sizeof(long) * ARRAY_LEN;\nsize_t bytesRead = 0;\n\nwhile (bytesRead < totalBytes) {\n    ssize_t result = read(socketFD, targetArray + bytesRead / sizeof(long), totalBytes - bytesRead);\n    if (result <= 0) break; // Handle error or break condition\n    bytesRead += result;\n}

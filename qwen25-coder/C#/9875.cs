@@ -1,1 +1,0 @@
-public void Register<T>() where T : IYourInterface\n{\n    // Method implementation\n}

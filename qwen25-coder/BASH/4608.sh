@@ -1,1 +1,0 @@
-R CMD build yourPackageName\nR CMD INSTALL yourPackageName_*.tar.gz

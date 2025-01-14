@@ -1,1 +1,0 @@
-// Example of finding dependencies using dumpbin in Visual Studio Developer Command Prompt\ndumpbin /dependents your_application.exe

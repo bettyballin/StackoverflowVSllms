@@ -1,1 +1,0 @@
-mount -o big_writes,noatime /dev/sdX1 /mnt/ntfs_partitions

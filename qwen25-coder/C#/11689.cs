@@ -1,1 +1,0 @@
-public void PerformLongRunningTask()\n{\n    // Start the long-running operation on a separate thread\n    ThreadPool.QueueUserWorkItem(new WaitCallback(DoBackgroundWork));\n}\n\nprivate void DoBackgroundWork(object state)\n{\n    // Simulate a time-consuming task\n    System.Threading.Thread.Sleep(5000);\n\n    // Update database, send email or log results as needed\n}

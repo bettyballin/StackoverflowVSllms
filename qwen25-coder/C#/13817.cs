@@ -1,1 +1,0 @@
-using OpenQA.Selenium;\n   using OpenQA.Selenium.Chrome;\n\n   IWebDriver driver = new ChromeDriver();\n   driver.Navigate().GoToUrl("http://example.com");

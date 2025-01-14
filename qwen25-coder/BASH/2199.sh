@@ -1,1 +1,0 @@
-$appCmd = "$env:SYSTEMROOT\system32\inetsrv\appcmd.exe"\n& $appCmd list config /section:system.webServer/staticContent | findstr /i "\.gif"

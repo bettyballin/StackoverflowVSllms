@@ -1,1 +1,0 @@
-# Create a directory for the toolchain to be built in\n   mkdir build && cd build\n\n   # Configure\n   ../configure --target=arm-none-eabi --prefix=/opt/gcc-arm-none-eabi-10.3-2021.10 \\n       --enable-languages=c,c++ --disable-libssp --disable-multilib --with-newlib\n\n   # Compile and install\n   make -j$(nproc)\n   sudo make install

@@ -1,1 +1,0 @@
-static void Main(string[] args)\n{\n    List<List<string>> matrix = ReadFromFile("yourfile.txt");\n    \n    // Print the matrix\n    foreach (var row in matrix)\n    {\n        Console.WriteLine(string.Join("|", row));\n    }\n}

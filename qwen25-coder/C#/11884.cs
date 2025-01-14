@@ -1,1 +1,0 @@
-string original = "Hello World!";\n  string encrypted = SimpleEncryptor.Encrypt(original);

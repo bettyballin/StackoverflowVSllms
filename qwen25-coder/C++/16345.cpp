@@ -1,1 +1,0 @@
-char buffer[24];\n   void serialize(MyClass* obj, char* buffer) {\n       memcpy(buffer, &obj->firstInt, sizeof(int));\n       // Continue for other members...\n   }\n\n   void deserialize(char* buffer, MyClass* obj) {\n       memcpy(&obj->firstInt, buffer, sizeof(int));\n       // Continue for other members...\n   }

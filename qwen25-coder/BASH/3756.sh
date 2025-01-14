@@ -1,1 +1,0 @@
-openssl s_client -connect cas_server:443

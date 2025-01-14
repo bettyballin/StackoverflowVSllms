@@ -1,1 +1,0 @@
-public class MyServiceImpl : IMyService\n{\n    public string DoWork()\n    {\n        return "Operation successful!";\n    }\n}

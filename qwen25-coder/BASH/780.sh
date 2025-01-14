@@ -1,1 +1,0 @@
-svn copy <repository_url>/trunk <repository_url>/tags/Tag_Name -m "Create tag X.Y"

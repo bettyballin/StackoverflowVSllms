@@ -1,1 +1,0 @@
-// CustomNewDelete.h\nvoid* mynew(size_t size);\nvoid  mydelete(void* ptr);\n\n// CustomNewDelete.cpp\n#include <malloc.h>\n#include "CustomNewDelete.h"\n\nvoid* mynew(size_t size) {\n    void* ptr = malloc(size);\n    if (ptr == nullptr) throw std::bad_alloc();\n    return ptr;\n}\n\nvoid mydelete(void* ptr) {\n    free(ptr);\n}

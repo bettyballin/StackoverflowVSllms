@@ -1,1 +1,0 @@
-@echo off\nset JAVA_OPTS=-Xms512m -Xmx1024m

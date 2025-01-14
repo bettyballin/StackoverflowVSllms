@@ -1,1 +1,0 @@
-// Example of basic setup with Entity Framework (a popular .NET ORM)\nusing System.Data.Entity;\n\npublic class MyDbContext : DbContext {\n    public DbSet<Product> Products { get; set; }\n}\n\npublic class Product {\n    public int Id { get; set; }\n    public string Name { get; set; }\n    public decimal Price { get; set; }\n}

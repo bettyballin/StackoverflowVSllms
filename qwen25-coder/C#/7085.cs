@@ -1,1 +1,0 @@
-public class Foo {\n    public void Bar() {\n        ... // do some work\n\n        Ensures.That\n            .IsNotNull(result)\n            .IsInRange(result, 0, 100);\n\n        Ensures.WhileDebugging(validation => validation.IsPositive(ExpensiveCalculation(result)));\n\n        return result;\n    }\n}

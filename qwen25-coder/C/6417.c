@@ -1,1 +1,0 @@
-for (i = 0; i < IMGY; i++) \n    for (j = 0; j < IMGX; j++) \n      red_freq[img[i][j][0]] += 1;

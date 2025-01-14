@@ -1,1 +1,0 @@
-#include <iostream>\n#include <chrono>\n\nint main() {\n    auto start = std::chrono::steady_clock::now();\n\n    // Long computation here\n\n    auto end = std::chrono::steady_clock::now();\n    std::chrono::duration<double> elapsed = end - start;\n    \n    std::cout << "Elapsed time: " << elapsed.count() << " seconds" << std::endl;\n\n    return 0;\n}

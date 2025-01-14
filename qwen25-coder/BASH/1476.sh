@@ -1,1 +1,0 @@
-cdb -c ".loadby sos clr; !threads" your_application.exe

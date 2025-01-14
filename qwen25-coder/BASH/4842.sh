@@ -1,1 +1,0 @@
-#!/bin/sh\n\nphp "$(dirname "$0")/framework.php" $*

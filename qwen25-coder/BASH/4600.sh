@@ -1,1 +1,0 @@
-sudo chown -R apache:apache /var/svn/myproject\nsudo chmod -R 775 /var/svn/myproject

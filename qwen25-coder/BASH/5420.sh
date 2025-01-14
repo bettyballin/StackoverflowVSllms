@@ -1,1 +1,0 @@
-hibernate-tools/bin/schemexport.sh --config file=path/to/hibernate.cfg.xml --format=sql --outputfilename=ddl.sql --delimiter ";\n" --drop false --create true --stdout false

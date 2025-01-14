@@ -1,1 +1,0 @@
-html, body {\n    height: 100%;\n    margin: 0;\n}\n\n.container {\n    position: relative; /* or absolute if it fits better */\n    width: calc(100vw - 50px); /* document size - 50px */\n    height: calc(100vh - 130px); /* document size - 130px */\n    overflow: auto;\n    margin: auto; /* to center the container if needed */\n}

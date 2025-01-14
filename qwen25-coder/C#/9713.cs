@@ -1,1 +1,0 @@
-var validator = new Validator<User>();\n   ValidationResults results = validator.Validate(userInstance);\n   \n   foreach (ValidationResult validationResult in results)\n   {\n       Console.WriteLine(validationResult.Message); // Outputs localized message\n   }

@@ -1,1 +1,0 @@
-#include <stdio.h>\n\ntypedef struct {\n    int field1;\n    int field2;\n    int field3;\n} Param;\n\nint detect_prm(Param prm) {\n  int prm_arr[3]; // Declare the array without initialization\n\n  // Assign values to the array elements after the function starts executing\n  prm_arr[0] = prm.field1;\n  prm_arr[1] = prm.field2;\n  prm_arr[2] = prm.field3;\n\n  return 0;\n}

@@ -1,1 +1,0 @@
-// Example of what a simple service call might look like in C#\n   [System.Web.Services.WebMethod]\n   public string HelloWorld() {\n       return "Hello World";\n   }

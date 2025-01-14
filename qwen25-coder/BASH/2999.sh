@@ -1,1 +1,0 @@
-find . -type f -name "*.php3" -print0 | xargs -0 sed -i 's/php3/php/g'

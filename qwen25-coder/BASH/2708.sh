@@ -1,1 +1,0 @@
-# Example of using curl to make an API call, similar to what you can do with Postman\ncurl -X POST https://yourserver/api/endpoint \\n     -H "Content-Type: application/json" \\n     -d '{"key1":"value1", "key2":"value2"}' \\n     --cookie "session=yourSessionCookieIfNecessary"

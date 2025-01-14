@@ -1,1 +1,0 @@
-pdftotext input.pdf - | wc -l

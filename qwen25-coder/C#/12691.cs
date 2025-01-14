@@ -1,1 +1,0 @@
-extern alias OldTelerik;\nextern alias NewTelerik;\n\nusing OldUi = OldTelerik::Telerik.Web.UI;\nusing NewUi = NewTelerik::Telerik.Web.UI;\n\n// Example of using the old and new namespaces\nOldUi.RadEditor radEditorOld = new OldUi.RadEditor();\nNewUi.RadEditor radEditorNew = new NewUi.RadEditor();

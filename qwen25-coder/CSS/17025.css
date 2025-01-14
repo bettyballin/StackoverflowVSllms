@@ -1,1 +1,0 @@
-:root {\n       --padding-small: 5px;\n       --padding-medium: 10px;\n       --padding-large: 20px;\n   }\n\n   .content-item {\n       padding-top: var(--padding-medium);\n   }

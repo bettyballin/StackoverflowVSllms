@@ -1,1 +1,0 @@
-frmdec -i mymodule.fmt -o output.sql

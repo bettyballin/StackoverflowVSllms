@@ -1,1 +1,0 @@
-foreach (chunk in SplitIntoChunks(employeeCodesList, 1000)) {\n    SELECT * FROM Employees WHERE EmployeeCode IN chunk AND Department = 'YourDepartment';\n}

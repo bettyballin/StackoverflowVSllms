@@ -1,1 +1,0 @@
-dir /b /s System.Windows.Forms.dll

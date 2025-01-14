@@ -1,1 +1,0 @@
-void GetFoo(SafeArray<int> buffer);\n\n// Example usage\nint[] blah = new int[10]; // Initialize your array\nGetFoo(blah);

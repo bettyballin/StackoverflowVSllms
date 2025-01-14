@@ -1,1 +1,0 @@
-using System.IO;\nusing System.Text;\n\n// Specify UTF-8 encoding\nEncoding utf8 = Encoding.UTF8;\n\nusing (StreamWriter sw = new StreamWriter(@fileSobrantes, true, utf8))\n{\n    sw.WriteLine("SEGS,AUS1,1,0,0,712205,584,8659094,2,NUÑEZ   FELIX ARTURO,584");\n}

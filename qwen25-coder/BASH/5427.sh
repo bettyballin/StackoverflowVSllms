@@ -1,1 +1,0 @@
-sudo systemctl restart httpd\n   sudo systemctl restart php-fpm-php52\n   sudo systemctl restart php-fpm

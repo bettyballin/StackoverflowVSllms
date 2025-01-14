@@ -1,1 +1,0 @@
-prog = new Process();\nprog.StartInfo.FileName = exefile;\nprog.StartInfo.WorkingDirectory = Path.GetDirectoryName(exefile); // Set to the directory of the EXE file\nprog.Start();

@@ -1,1 +1,0 @@
-sudo tlmgr update --self --all

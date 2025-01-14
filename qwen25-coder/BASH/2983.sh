@@ -1,1 +1,0 @@
-# For Ubuntu/Debian\nsudo apt-get install libxml2-utils\n\n# For macOS\nbrew install libxml2

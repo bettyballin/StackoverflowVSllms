@@ -1,1 +1,0 @@
-a2enmod cgi\n    service apache2 restart

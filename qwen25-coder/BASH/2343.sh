@@ -1,1 +1,0 @@
-#!/bin/sh\n   export LC_ALL=en_US.UTF-8\n   /usr/bin/su richard -c '/usr/bin/svn update /server/staging'

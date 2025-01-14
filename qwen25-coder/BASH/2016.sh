@@ -1,1 +1,0 @@
-caspol -ag 1.2 -url "http://your.site.com/*" FullTrust

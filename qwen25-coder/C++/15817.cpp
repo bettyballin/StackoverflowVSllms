@@ -1,1 +1,0 @@
-#ifndef K_H\n#define K_H\n\n#ifdef DLL_EXPORTS\n    #define DLL_API __declspec(dllexport)\n#else\n    #define DLL_API __declspec(dllimport)\n#endif\n\nclass K {\npublic:\n    static int a;\n    static int b;\n};\n\n// Declare the static members as extern so they can be accessed from outside the DLL\nextern DLL_API int K::a;\nextern DLL_API int K::b;\n\n#endif // K_H

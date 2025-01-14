@@ -1,1 +1,0 @@
-runas /user:DOMAIN\username "path\to\your\application.exe"

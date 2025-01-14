@@ -1,1 +1,0 @@
-using System.Linq;\n\nvar query = records.Select((r, i) => new { r, Index = i })\n                   .Where(x => x.Index % 5 == 0)\n                   .Select(x => x.r);

@@ -1,1 +1,0 @@
-public T Accept<T>(ObjectVisitorEx<T> visitor)\n{\n    // Method implementation here\n}

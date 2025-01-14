@@ -1,1 +1,0 @@
-# Set svn:ignore property on the directory containing .htaccess\nsvn propset svn:ignore ".htaccess" path/to/directory

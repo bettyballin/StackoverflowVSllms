@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        string root = @"C:\users\example";\n        string file = "documents.txt";\n\n        string fullPath = Path.Combine(root, file);\n\n        Console.WriteLine(fullPath);\n    }\n}

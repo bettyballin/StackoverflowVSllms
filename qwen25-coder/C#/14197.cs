@@ -1,1 +1,0 @@
-services.AddResponseCompression(options =>\n   {\n       options.EnableForHttps = true;\n       options.Providers.Add<BrotliCompressionProvider>();\n       options.MimeTypes = ResponseCompressionDefaults.MimeTypes.Concat(\n           new[] { "image/svg+xml" });\n   });

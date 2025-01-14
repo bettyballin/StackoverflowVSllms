@@ -1,1 +1,0 @@
-openssl req -new -x509 -keyout ca.key -out ca.crt -days 3650 -sha256

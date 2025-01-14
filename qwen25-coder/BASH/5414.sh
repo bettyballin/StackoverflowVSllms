@@ -1,1 +1,0 @@
-# Example of using ConfuserEx (a .NET Obfuscator)\n   dotnet tool install --global Confuser.CLI\n   confuser YourAssembly.dll -o output_folder/

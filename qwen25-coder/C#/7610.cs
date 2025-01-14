@@ -1,1 +1,0 @@
-L_0011: stloc.0     // Store the result in local variable CS$1$0000\nL_0012: br.s L_0014 // Branch (jump) to label 0014\nL_0014: ldloc.0     // Load the value of local variable CS$1$0000 back onto the stack

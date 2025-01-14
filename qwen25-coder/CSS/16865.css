@@ -1,1 +1,0 @@
-#container {\n    margin: 10px auto;\n    width: 960px;\n    background-color: #dddddd;\n    padding-top: 1px; /* Adding a small padding or border can prevent margin collapsing */\n    box-sizing: border-box; /* Ensures the box model is consistent with most other browsers */\n}\n\n#container2 {\n    margin-left: 200px;\n    margin-top: 400px;\n    background-color: yellow;\n}

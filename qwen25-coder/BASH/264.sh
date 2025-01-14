@@ -1,1 +1,0 @@
-# Create a Dockerfile\nFROM python:3.9-slim\n\n# Install necessary packages\nRUN pip install numpy pandas  # example packages\n\n# Copy script from host to image\nCOPY ./user_script.py /app/user_script.py\n\n# Run the script\nCMD ["python", "/app/user_script.py"]

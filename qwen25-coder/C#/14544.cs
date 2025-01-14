@@ -1,1 +1,0 @@
-public partial class Form2 : Form\n{\n    private int _customerId;\n\n    public Form2(int customerId)\n    {\n        InitializeComponent();\n        _customerId = customerId;\n        // Use _customerId as needed\n    }\n}

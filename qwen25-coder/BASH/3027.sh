@@ -1,1 +1,0 @@
-#!/bin/bash\n  urls=(url1.com url2.com ... url250.com)  # Populate with your URLs\n\n  echo "${urls[@]}" | xargs -n 1 -P 30 curl -o /dev/null -w '%{http_code} %{url_effective}\n' -s

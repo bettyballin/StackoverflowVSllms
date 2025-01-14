@@ -1,1 +1,0 @@
-# On your machine, edit the post-receive hook:\n   cd /path/to/central/repo/central-repo.git/hooks/\n   nano post-receive

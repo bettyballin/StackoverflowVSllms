@@ -1,1 +1,0 @@
-// Ensure the project's platform target is set to x86 or AnyCPU with Prefer 32-bit checked in Visual Studio

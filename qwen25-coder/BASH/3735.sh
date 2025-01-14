@@ -1,1 +1,0 @@
-g++43 -O2 -o myapp myapp.cpp -L/usr/lib/gcc/i386-redhat-linux/4.3.2 -lstdc++

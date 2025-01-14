@@ -1,1 +1,0 @@
-# Using PowerShell to set permissions\n$folderA = "D:\files"\n$folderB = "D:\oldfiles"\n$saAccount = "DOMAIN\SQLServiceAccount"\n\n# Grant modify permission on D:\files and full control on D:\oldfiles to the SQL Server service account\nicacls $folderA /grant "$saAccount:(OI)(CI)M" /T\nicacls $folderB /grant "$saAccount:(OI)(CI)F" /T

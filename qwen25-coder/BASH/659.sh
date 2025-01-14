@@ -1,1 +1,0 @@
-mvn install:install-file -Dfile=path/to/your/dll-file.dll -DgroupId=com.yourcompany -DartifactId=your-dll-artifact -Dversion=1.0 -Dpackaging=dll

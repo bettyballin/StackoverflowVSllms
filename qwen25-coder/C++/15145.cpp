@@ -1,1 +1,0 @@
-#include <windows.h>\n#include <iostream>\n\nbool IsRunningInConsole() {\n    return GetConsoleWindow() != NULL;\n}\n\nint main() {\n    if (IsRunningInConsole()) {\n        std::cout << "Running in a console application." << std::endl;\n    } else {\n        std::cout << "Running in a windowed application." << std::endl;\n    }\n    // ... rest of your code\n    return 0;\n}

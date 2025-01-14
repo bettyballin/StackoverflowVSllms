@@ -1,1 +1,0 @@
-# Set the sticky bit on /tmp\nchmod 1777 /tmp\n\n# Ensure /tmp has ACL support, may vary by system/fs type\ngetfacl /tmp\n\n# Set ACL permissions for user 'blase'\nsetfacl -m u:blase:rw /tmp/secret\n\n# Verify the ACL settings\ngetfacl /tmp/secret

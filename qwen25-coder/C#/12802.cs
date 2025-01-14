@@ -1,1 +1,0 @@
-// Check if the session variable is available, else initialize it\nif (Session["MyVariable"] == null)\n{\n    // Initialize with default or fetch data as required\n    Session["MyVariable"] = "DefaultValue";\n}\n\nstring mySessionValue = Session["MyVariable"].ToString();\n// Proceed with using mySessionValue

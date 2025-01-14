@@ -1,1 +1,0 @@
-a2enmod rewrite\n   a2enmod ssl\n   service apache2 restart

@@ -1,1 +1,0 @@
-public class MyComEventsHandler : IMyEvents {\n    public void OnReceive(byte[] bytes) {\n        // Handle the byte array received here\n    }\n}

@@ -1,1 +1,0 @@
-#ifndef UTILS_H\n#define UTILS_H\n\ndouble calculate(double x, double y);\n\n#endif // UTILS_H

@@ -1,1 +1,0 @@
-# Navigate to Tomcat's lib directory\ncd $CATALINA_HOME/lib\n\n# Place log4j jar here\ncp /path/to/log4j.jar .

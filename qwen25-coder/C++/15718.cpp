@@ -1,1 +1,0 @@
-// MyDLL.h\n\n#ifdef MY_EXPORTS\n#define MY_API __declspec(dllexport)\n#else\n#define MY_API __declspec(dllimport)\n#endif\n\nextern "C" {\nMY_API int Add(int a, int b);\n}\n\n// MyDLL.cpp\n#include "MyDLL.h"\n\nMY_API int Add(int a, int b) {\n    return a + b;\n}

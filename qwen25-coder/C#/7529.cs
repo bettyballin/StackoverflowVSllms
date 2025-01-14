@@ -1,1 +1,0 @@
-ServicePointManager.Expect100Continue = false; // Only affects future requests, not existing ones!

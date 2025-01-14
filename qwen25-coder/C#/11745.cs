@@ -1,1 +1,0 @@
-int sessionSize = GetSessionSize(Session);\nConsole.WriteLine($"Session size is {sessionSize} bytes.");

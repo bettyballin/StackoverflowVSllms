@@ -1,1 +1,0 @@
-for file in *; do\n       ./sender "$file" | ssh -S ~/ssh_mux -W localhost:0 user@host 'cat > /path/to/remotefile'\n   done

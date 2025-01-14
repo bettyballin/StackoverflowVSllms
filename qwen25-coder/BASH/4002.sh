@@ -1,1 +1,0 @@
-svn up svn://localhost/path/to/repo

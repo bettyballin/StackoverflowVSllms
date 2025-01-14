@@ -1,1 +1,0 @@
-TypeValue& operator*(long value) const;

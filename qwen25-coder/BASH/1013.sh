@@ -1,1 +1,0 @@
-echo "YOUR_COMMAND ARGUMENT" > C:\Users\<YourUsername>\service_command.txt

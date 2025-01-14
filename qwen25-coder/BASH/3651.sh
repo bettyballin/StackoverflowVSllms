@@ -1,1 +1,0 @@
-ssh -L <local_port>:localhost:<debug_port> user@remote_host

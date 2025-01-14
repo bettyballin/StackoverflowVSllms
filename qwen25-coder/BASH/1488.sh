@@ -1,1 +1,0 @@
-dotnet add package Costura.Fody --version 6.8.0

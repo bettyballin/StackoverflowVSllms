@@ -1,1 +1,0 @@
-public class Level\n   {\n       public string Name { get; set; }\n       public List<string> Objects { get; set; } = new List<string>();\n       public List<string> TerrainTypes { get; set; } = new List<string>();\n   }

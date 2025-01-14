@@ -1,1 +1,0 @@
-# Install Syncthing (example for Ubuntu-based systems)\nsudo apt-get install syncthing\n\n# Start Syncthing\nsyncthing start\n\n# Configure Syncthing by accessing the web UI at http://localhost:8384\n# You will need to create a new folder and share the ID with other machines

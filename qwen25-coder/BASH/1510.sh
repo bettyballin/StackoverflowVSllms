@@ -1,1 +1,0 @@
-caspol -m -ag 1.4 FullTrust -url file://\\YourNetworkShare\* FullTrust

@@ -1,1 +1,0 @@
-# This line goes into the crontab file (crontab -e)\n0 1 * * * /usr/bin/mysqlexec "source /path/to/archive_script.sql"

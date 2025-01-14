@@ -1,1 +1,0 @@
-# Run this from your local PowerShell session to check if a virtual directory exists on a remote server\n$remoteComputer = "RemoteServerName"\n$siteName = "Default Web Site"\n$vdirPath = "MyVirtualDirectory"\n\nInvoke-Command -ComputerName $remoteComputer -ScriptBlock {\n    Import-Module WebAdministration\n    Test-Path IIS:\Sites\$using:siteName\$using:vdirPath\n}

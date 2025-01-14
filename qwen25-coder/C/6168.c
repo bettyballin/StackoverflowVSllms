@@ -1,1 +1,0 @@
-#pragma GCC diagnostic push\n#pragma GCC diagnostic ignored "-Wwrite-strings"\n\n// Your problematic code here\nchar *s = "constant string";\nvoid foo(char *str);\nfoo("constant string");\n\n#pragma GCC diagnostic pop

@@ -1,1 +1,0 @@
-short smallNum = (short) 12;\n  byte tinyNum = (byte) 255;

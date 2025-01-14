@@ -1,1 +1,0 @@
-using (var context = new YourDbContext())\n   {\n       var entity = new YourEntityClass\n       {\n           // Initialize other properties...\n       };\n       context.YourEntities.Add(entity);\n       context.SaveChanges();  // Id is generated upon save\n   }

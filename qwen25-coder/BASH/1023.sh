@@ -1,1 +1,0 @@
-* * * * * /usr/bin/php /path/to/background_process.php >> /var/log/signup_processing.log 2>&1

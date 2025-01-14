@@ -1,1 +1,0 @@
-class A {\npublic:\n    void foo(std::string s) {}\n};\n\nclass B : public A {\npublic:\n    int foo(int i) { return 0; } // returning something for demonstration\n};\n\nclass C : public B {\npublic:\n    void bar() {\n        std::string s;\n        A::foo(s); // Explicitly call the version from class A\n    }\n};

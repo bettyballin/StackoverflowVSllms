@@ -1,1 +1,0 @@
-# Get thread dump\njstack <pid> > threaddump.txt\n\n# Get heap memory details\njmap -heap <pid>\n\n# Get all VM flags and their values\njinfo -flags <pid>\n\n# Get loaded libraries\njcmd <pid> VM.native_memory summary

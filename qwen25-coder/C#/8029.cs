@@ -1,1 +1,0 @@
-var currentProjects = from p in db.Projects\n                      join lw in latestWorkplansForUsers on p.WorkplanID equals lw.WorkplanID\n                      select p;

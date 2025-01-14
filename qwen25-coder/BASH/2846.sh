@@ -1,1 +1,0 @@
-sudo yum remove php\*\n   sudo yum install php php-cli php-devel php-gd php-mbstring php-mcrypt php-mysql php-pear php-pecl-apc php-pspell php-snmp php-tidy php-xml php-xmlrpc php-zend-guard-loader php-pdo

@@ -1,1 +1,0 @@
-rsync -a --inplace /path/to/source/ /path/to/snapshot/

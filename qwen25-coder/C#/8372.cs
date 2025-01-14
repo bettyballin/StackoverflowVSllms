@@ -1,1 +1,0 @@
-using System.Web.Mvc;\n\npublic class HomeController : Controller\n{\n    public ActionResult Index()\n    {\n        ViewBag.Message = "Welcome to ASP.NET!";\n        return View();\n    }\n}

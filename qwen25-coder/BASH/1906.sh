@@ -1,1 +1,0 @@
-# Set the maximum number of requests per pipeline instance in an app pool\nSet-ItemProperty IIS:\AppPools\DefaultAppPool -name processModel.maxConcurrentRequestsPerCPU -value 100\n\n# Recycle the app pool to apply changes\nRestart-WebAppPool -Name DefaultAppPool

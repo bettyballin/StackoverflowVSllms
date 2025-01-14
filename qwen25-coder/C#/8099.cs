@@ -1,1 +1,0 @@
-using System;\n   using System.Runtime.InteropServices;\n\n   class Program {\n       [DllImport("MyCppDll.dll", CallingConvention = CallingConvention.Cdecl)]\n       public static extern void InvokeMyFunction();\n\n       static void Main(string[] args) {\n           InvokeMyFunction();\n       }\n   }

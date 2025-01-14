@@ -1,1 +1,0 @@
-mkdir /mnt/ramdisk\n  mount -t ramfs none /mnt/ramdisk\n  cd /mnt/ramdisk\n  mysqldump ... > dump.sql\n   \n  # Copy back to disk or import directly from ramdisk

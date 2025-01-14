@@ -1,1 +1,0 @@
-byte[] byteArray = Encoding.UTF8.GetBytes(sXML);\nreq.ContentLength = byteArray.Length;\nusing (Stream dataStream = req.GetRequestStream())\n{\n    dataStream.Write(byteArray, 0, byteArray.Length);\n}

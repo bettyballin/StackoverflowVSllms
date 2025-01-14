@@ -1,1 +1,0 @@
-sudo yast -i --install-new-recommends

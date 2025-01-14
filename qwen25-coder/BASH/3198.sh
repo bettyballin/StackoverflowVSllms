@@ -1,1 +1,0 @@
-appcmd set vdir "Default Web Site/YourVirtualDirectory/" /physicalPath:"C:\inetpub\wwwroot\app_v2"

@@ -1,1 +1,0 @@
-/* Ensure nested tables are styled correctly */\ntd > table {\n    width: 100%;\n    display: none; /* Initially hide nested tables if they should be collapsed */\n}\n\n.TreeCollapseSign {\n    cursor: pointer;\n}

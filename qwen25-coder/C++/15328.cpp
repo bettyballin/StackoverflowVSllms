@@ -1,1 +1,0 @@
-CComPtr<IDotnetcontrol> m_spDotNetControl;

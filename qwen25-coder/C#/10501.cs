@@ -1,1 +1,0 @@
-string pagePath = @"\Pages\MyPage.xaml";\nvar myPageInstance = PageFactory.CreatePageInstance(pagePath, arg1, arg2); // Add necessary constructor arguments here\n\n// Navigate to the created instance if needed\nthis.NavigationService.Navigate(myPageInstance);

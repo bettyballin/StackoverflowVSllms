@@ -1,1 +1,0 @@
-ohup sh -c 'xm console <domain-name> 2>&1 | tee domU-console.log' &

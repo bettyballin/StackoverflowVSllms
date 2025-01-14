@@ -1,1 +1,0 @@
-public class SomeClass\n{\n    public string GetSessionValue(string key)\n    {\n        if (HttpContext.Current != null && HttpContext.Current.Session != null)\n        {\n            return HttpContext.Current.Session[key]?.ToString();\n        }\n        return null;\n    }\n}

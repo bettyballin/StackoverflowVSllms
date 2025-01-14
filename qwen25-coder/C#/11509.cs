@@ -1,1 +1,0 @@
-string path = FileFolderDialog.ShowDialog();\nif (!string.IsNullOrEmpty(path))\n{\n    MessageBox.Show($"Selected: {path}");\n}

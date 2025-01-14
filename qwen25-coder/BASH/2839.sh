@@ -1,1 +1,0 @@
-# Initialize a git repository in your testing site root directory\n   git init\n\n   # Add all files to the repository\n   git add .\n\n   # Make the initial commit\n   git commit -m "Initial commit"

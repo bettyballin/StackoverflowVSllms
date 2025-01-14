@@ -1,1 +1,0 @@
-public partial class MyDataContext\n   {\n       // Add additional methods or properties to the data context\n       public void CustomInit()\n       {\n           // Custom initialization logic here\n       }\n   }

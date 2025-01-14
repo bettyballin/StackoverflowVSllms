@@ -1,1 +1,0 @@
-openssl s_client -connect pop3.live.com:995 -showcerts

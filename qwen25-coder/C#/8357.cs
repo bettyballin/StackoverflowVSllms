@@ -1,1 +1,0 @@
-using System;\nusing System.Collections.Generic;\n\nclass Program {\n    static void Main() {\n        List<string> list = new List<string> { "Hello", "World", "This", "Is", "C#" };\n        string result = String.Join(",", list);\n        Console.WriteLine(result); // Outputs: Hello,World,This,Is,C#\n    }\n}

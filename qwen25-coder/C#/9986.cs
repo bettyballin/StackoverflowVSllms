@@ -1,1 +1,0 @@
-using System.Collections.Generic;\n\npublic void CheckValue<T>(T thing)\n{\n    if (EqualityComparer<T>.Default.Equals(thing, default))\n    {\n        // Do something when thing is null or default(T)\n    }\n    else\n    {\n        // Do something else\n    }\n}

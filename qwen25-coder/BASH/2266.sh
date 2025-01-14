@@ -1,1 +1,0 @@
-dep deploy production -o branch=trunk

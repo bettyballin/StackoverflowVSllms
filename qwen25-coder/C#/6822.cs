@@ -1,1 +1,0 @@
-DateTime fromDate = new DateTime(2000, 1, 1);\nDateTime toDate = new DateTime(2012, 1, 1);\nyourTableAdapter.Fill(yourDataTable, fromDate, toDate);

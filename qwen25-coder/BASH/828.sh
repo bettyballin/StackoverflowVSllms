@@ -1,1 +1,0 @@
-for file in *; do\n    sed -e 's/$/ '"$file"'/' "$file" > "${file}.tmp"\n    mv "${file}.tmp" "$file"\ndone

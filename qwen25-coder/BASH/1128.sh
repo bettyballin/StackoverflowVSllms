@@ -1,1 +1,0 @@
-RptToText -i "reportfile.rpt" -o "output.txt"

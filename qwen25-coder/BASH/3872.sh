@@ -1,1 +1,0 @@
-# Creating a new Django project\ndjango-admin startproject myproject\n\n# Navigate into the project directory\ncd myproject\n\n# Create a new app within the project\npython manage.py startapp myapp\n\n# Apply migrations\npython manage.py migrate\n\n# Run the development server\npython manage.py runserver

@@ -1,1 +1,0 @@
-# PowerShell for getting OS version\nGet-WmiObject Win32_OperatingSystem | Select OSArchitecture, Caption, Version\n\n# Command line alternative\nsysteminfo | findstr /B /C:"OS Name" /C:"OS Version"

@@ -1,1 +1,0 @@
-cscript.exe adsutil.vbs CREATE /w3svc/1/root/YourVirtualDirectoryName iisweb

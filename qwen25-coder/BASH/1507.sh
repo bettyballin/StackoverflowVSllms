@@ -1,1 +1,0 @@
-# Ubuntu/Debian specific command to stop a firewall\n   sudo ufw disable

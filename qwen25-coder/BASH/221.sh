@@ -1,1 +1,0 @@
-arm-linux-gnueabi-gcc test.c -o test_arm

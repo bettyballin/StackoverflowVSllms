@@ -1,1 +1,0 @@
-# Check current PHP version\nphp -v\n\n# Example of command to install a newer PHP version using a package manager (e.g., on Ubuntu)\nsudo apt-get update\nsudo apt-get install php7.4  # or php8.1, depending on the desired versio

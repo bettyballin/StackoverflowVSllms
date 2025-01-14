@@ -1,1 +1,0 @@
-public class Bird\n   {\n       public int Id { get; set; } // Assuming you have a primary key column named 'Id'\n       public double Length { get; set; }\n       public int Age { get; set; }\n   }

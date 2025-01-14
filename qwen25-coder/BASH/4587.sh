@@ -1,1 +1,0 @@
-gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sPAPERSIZE=letter \\n   -dPDFFitPage -sOutputFile=output.pdf input_large.pdf

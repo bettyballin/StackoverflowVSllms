@@ -1,1 +1,0 @@
-var smtpClient = new SmtpClient("smtp.example.com")\n{\n    Port = 587,\n    Credentials = new System.Net.NetworkCredential("username", "password"),\n    EnableSsl = true,\n    DeliveryMethod = SmtpDeliveryMethod.Network,\n    UseDefaultCredentials = false,\n};

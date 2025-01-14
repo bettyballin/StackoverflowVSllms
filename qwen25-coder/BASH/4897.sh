@@ -1,1 +1,0 @@
-# Staging all changes applied by the patch\ngit add .\n\n# Committing the changes to Git\ngit commit -m "Applying changes from SVN revision 125"

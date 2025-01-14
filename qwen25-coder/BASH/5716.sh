@@ -1,1 +1,0 @@
-STAT_INFO=$(stat /proc/$(cat /var/run/httpd.pid)/stat)\n     START_TIME=$(echo $STAT_INFO | awk '{print ($21/100) + '978307200';}')\n     date -ud @${START_TIME}

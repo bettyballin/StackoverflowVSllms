@@ -1,1 +1,0 @@
-sudo dnf update  # First, update your system packages\nsudo dnf install iftop

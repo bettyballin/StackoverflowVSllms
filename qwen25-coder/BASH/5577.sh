@@ -1,1 +1,0 @@
-carton exec -- perl my_app.pl

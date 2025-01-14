@@ -1,1 +1,0 @@
-public ActionResult Books(string sort, int count)\n{\n    var sorts = sort.Split(',').ToDictionary(\n        s => s.Split(':')[0].Trim(),\n        s => s.Split(':')[1].Trim().ToLower() == "asc" ? ListSortDirection.Ascending : ListSortDirection.Descending);\n\n    // Apply sorting logic here...\n\n    return View();\n}

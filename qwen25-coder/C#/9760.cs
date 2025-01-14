@@ -1,1 +1,0 @@
-public class ModuleVariableMap : ClassMap<ModuleVariable>\n{\n    public ModuleVariableMap()\n    {\n        Id(x => x.Id);\n        // ... other mappings ...\n        References(x => x.ModuleId)\n            .Column("ModuleId")\n            .Not.Nullable()\n            .Cascade.SaveUpdate()\n            .Inverse(); // Use Inverse here\n    }\n}

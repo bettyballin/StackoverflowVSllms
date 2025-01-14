@@ -1,1 +1,0 @@
-sqlite3* db;\nint rc = sqlite3_open("path_to_database.db", &db);\nif (rc) {\n    // error handling\n}

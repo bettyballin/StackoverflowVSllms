@@ -1,1 +1,0 @@
-PHP_ARG_ENABLE(hello, whether to enable Hello World support,\n[ --enable-hello   Enable Hello World support])\n\nif test "$PHP_HELLO" = "yes"; then\n  AC_DEFINE(HAVE_HELLO, 1, [Whether you have Hello World])\n  PHP_NEW_EXTENSION(hello, hello.cpp, $ext_shared)\n  PHP_SUBST(CXXFLAGS_SHARED)\nfi

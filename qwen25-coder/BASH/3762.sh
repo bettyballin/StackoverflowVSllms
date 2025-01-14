@@ -1,1 +1,0 @@
-composer create-project --prefer-dist cakephp/app your_project_name

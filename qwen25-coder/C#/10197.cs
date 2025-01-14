@@ -1,1 +1,0 @@
-// In your C# file\n   using System;\n   using System.Runtime.InteropServices;\n\n   class Program {\n       [DllImport("MyUnmanagedDll.dll", CallingConvention = CallingConvention.Cdecl)]\n       private static extern void DoSomething();\n\n       static void Main(string[] args) {\n           DoSomething();\n       }\n   }

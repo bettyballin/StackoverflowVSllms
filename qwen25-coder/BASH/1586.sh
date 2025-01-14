@@ -1,1 +1,0 @@
-# Run PowerShell as Administrator and execute:\nAdd-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0\nStart-Service sshd\nSet-Service -Name sshd -StartupType 'Automatic'

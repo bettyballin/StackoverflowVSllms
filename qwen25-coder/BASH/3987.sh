@@ -1,1 +1,0 @@
-gcc -o test_program test_program.c \\n    -I/usr/local/icu/include \\n    -L/usr/local/icu/lib \\n    -licui18n -licuuc -licudata

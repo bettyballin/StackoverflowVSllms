@@ -1,1 +1,0 @@
-pear channel-discover pear.php.net\n   cp /path/to/pear-php-net.xml my-pear-channel.xml

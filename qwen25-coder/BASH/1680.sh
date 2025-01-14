@@ -1,1 +1,0 @@
-" Add this to your .vimrc to auto-check syntax for HTML files\n   autocmd BufWritePre *.html execute ':noautocmd w !tidy -q -i --gnu % :w!'

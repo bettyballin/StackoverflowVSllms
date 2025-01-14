@@ -1,1 +1,0 @@
-// Assuming hwndParent is your handle to the parent window\n\n// Redraw only the parent without sending WM_PAINT to child windows\nRedrawWindow(hwndParent, NULL, NULL,\n             RDW_ERASE | RDW_INVALIDATE | RDW_UPDATENOW | RDW_NOCHILDREN);

@@ -1,1 +1,0 @@
-#include <iostream>\n   #include "MyLibrary.h"\n\n   int main() {\n       MyClass* myObject = createMyClass(42);\n       if (myObject) {\n           myObject->doSomething();\n           destroyMyClass(myObject);\n       }\n       return 0;\n   }

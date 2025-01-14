@@ -1,1 +1,0 @@
-# Install ViewVC on CentOS\n   sudo yum install viewvc

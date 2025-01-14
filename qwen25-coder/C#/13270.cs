@@ -1,1 +1,0 @@
-object o = null;\nType tType = typeof(Point); // or any other type T you want to use\n\n// Setting o as a nothing reference of type T\no = (tType)Convert.ChangeType(null, tType);

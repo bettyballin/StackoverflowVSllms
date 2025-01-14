@@ -1,1 +1,0 @@
-sqlcmd -S YourServerName -d YourDatabaseName -i "c:\temp\file01.sql"\nsqlcmd -S YourServerName -d YourDatabaseName -i "c:\temp\file02.sql"

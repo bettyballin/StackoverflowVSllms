@@ -1,1 +1,0 @@
-chmod 755 /path/to/your/directory

@@ -1,1 +1,0 @@
-pg_resetwal -D <path-to-data-directory>

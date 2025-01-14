@@ -1,1 +1,0 @@
-find /path/to/search/ -type f ! -name "*.log" | xargs grep -L "your_pattern"

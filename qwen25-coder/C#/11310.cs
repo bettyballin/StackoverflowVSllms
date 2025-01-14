@@ -1,1 +1,0 @@
-using (var conn = new System.Data.SqlClient.SqlConnection("Data Source=.;Initial Catalog=DBNAME;Integrated Security=True;pooling=false"))\n{\n    // Your database operations here\n}

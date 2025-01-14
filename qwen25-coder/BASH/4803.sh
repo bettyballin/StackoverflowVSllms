@@ -1,1 +1,0 @@
-java -XX:+UseG1GC -Xmx1g MyApplicatio

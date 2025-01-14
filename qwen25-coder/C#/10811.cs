@@ -1,1 +1,0 @@
-using BCryptNet = BCrypt.Net.BCrypt;\n\n// Hashing the password before storing it\nstring hashedPassword = BCryptNet.HashPassword("userSecurePassword");\n\n// Verifying the password during login\nif (BCryptNet.Verify("enteredPassword", hashedPassword))\n{\n    // Password match, authenticate user\n}\nelse\n{\n    // Handle invalid password\n}

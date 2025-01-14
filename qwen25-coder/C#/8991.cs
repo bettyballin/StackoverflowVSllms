@@ -1,1 +1,0 @@
-double totalValue = items.Sum(i => i.Value);

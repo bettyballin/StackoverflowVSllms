@@ -1,1 +1,0 @@
-# Define the T-SQL query\n$query = "SELECT * FROM YourDatabase.YourSchema.YourTable"\n\n# Execute the query and save the result as UTF-8 CSV\nInvoke-Sqlcmd -Query $query -ServerInstance "YourServerName" | Export-Csv -Path "C:\path\to\your\output.csv" -Encoding UTF8 -NoTypeInformatio

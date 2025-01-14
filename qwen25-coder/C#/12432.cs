@@ -1,1 +1,0 @@
-int? number = null;\nif (number.HasValue)\n{\n    Console.WriteLine(number.Value);\n}\nelse\n{\n    Console.WriteLine("Number is null");\n}

@@ -1,1 +1,0 @@
-using System.Web.Services;\n\n[WebService(Namespace = "http://tempuri.org/")]\npublic class GreetingService : WebService\n{\n    [WebMethod]\n    public string GetGreeting(string name)\n    {\n        return $"Hello, {name}!";\n    }\n}

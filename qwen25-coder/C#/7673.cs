@@ -1,1 +1,0 @@
-public enum EnumWithSpaces\n{\n    ConstantWithoutSpaces,\n    [ConstantWithSpaces]\n}\n\npublic class Example usage\n{\n    public void UsingEnumWithSpaces()\n    {\n        EnumWithSpaces foo = EnumWithSpaces.[ConstantWithSpaces];\n    }\n}

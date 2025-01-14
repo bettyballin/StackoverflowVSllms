@@ -1,1 +1,0 @@
-[ServiceContract]\n   public interface IXhtmlService\n   {\n       [OperationContract]\n       [WebGet(ResponseFormat = WebMessageFormat.Raw)]\n       string GetXhtmlContent();\n   }

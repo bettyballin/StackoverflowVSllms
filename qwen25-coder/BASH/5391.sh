@@ -1,1 +1,0 @@
-# Add this line to your shell profile (e.g., ~/.bashrc) to set umask\n   umask 002

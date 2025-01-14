@@ -1,1 +1,0 @@
-public partial class ElementType : System.Windows.Controls.Grid { \n    public ElementType() {\n        InitializeComponent();\n    }\n}

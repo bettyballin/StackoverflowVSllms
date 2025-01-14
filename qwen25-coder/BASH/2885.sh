@@ -1,1 +1,0 @@
-dub build -b release --single samplemodule.d --compiler=ldc2 --arch=x86_64 -L-L/usr/lib/python3.9/config-3.9-x86_64-linux-gnu/ -L-lpython3.9 -ofsamplemodule.so

@@ -1,1 +1,0 @@
-FoxitReaderSetup.exe /VERYSILENT /NORESTART /COMPONENTS=PDFBrowserExtension,PDFCreator,VirtualPrint

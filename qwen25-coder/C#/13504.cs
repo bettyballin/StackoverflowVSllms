@@ -1,1 +1,0 @@
-// Reading from Environment Variables\nvar apiKey = Environment.GetEnvironmentVariable("MyApiServiceKey");\nvar dbPassword = Environment.GetEnvironmentVariable("DatabasePassword");

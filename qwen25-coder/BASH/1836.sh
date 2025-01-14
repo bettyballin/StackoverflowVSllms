@@ -1,1 +1,0 @@
-diskcleanup.exe /sageset:1 && diskcleanup.exe /sagerun:1\n   chkdsk C: /f

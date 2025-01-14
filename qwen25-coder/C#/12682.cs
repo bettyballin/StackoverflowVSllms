@@ -1,1 +1,0 @@
-using System;\n\npublic class Logger\n{\n    public void LogStatus(string message)\n    {\n        Console.WriteLine(message);\n    }\n}\n\nclass Program\n{\n    static void Main()\n    {\n        Logger logger = new Logger();\n        \n        logger.LogStatus("Print some status.....");\n        \n        // some code\n        \n        logger.LogStatus("Done!");\n    }\n}

@@ -1,1 +1,0 @@
-string tempFilePath = Path.GetTempFileName();\n   try\n   {\n       using (System.IO.TextWriter writer = new System.IO.StreamWriter(tempFilePath))\n       {\n           writer.Write(i);\n       }\n       System.IO.File.Delete(tempFilePath);\n   }\n   catch (System.UnauthorizedAccessException ex)\n   {\n       Console.Out.WriteLine("Boom at: " + i.ToString());\n   }

@@ -1,1 +1,0 @@
-# Install PMM Client\n   curl -fsSL https://www.percona.com/downloads/pmm-client/2.19/binary/tarball/percona-pmm-client-2.19.0.tar.gz | tar xz

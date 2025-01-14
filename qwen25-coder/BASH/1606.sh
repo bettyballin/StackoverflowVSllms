@@ -1,1 +1,0 @@
-sqlplus username/password@//myserver.mycompany.com:1530/orcl

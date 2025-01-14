@@ -1,1 +1,0 @@
-svn update -r <revision_of_WPC_2.7>

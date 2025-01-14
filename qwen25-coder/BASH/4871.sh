@@ -1,1 +1,0 @@
-brew install racket  # or `brew install chicken` for Chicken Scheme

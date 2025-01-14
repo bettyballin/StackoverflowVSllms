@@ -1,1 +1,0 @@
-Page.ClientScript.RegisterClientScriptBlock(this.GetType(), "feeAmountCheckKey", yourJavaScriptCodeHere, true);

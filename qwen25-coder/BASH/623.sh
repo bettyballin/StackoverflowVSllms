@@ -1,1 +1,0 @@
-./configure\n     make\n     sudo make install

@@ -1,1 +1,0 @@
-[SecuredAttribute]\npublic void SecureMethod() { }

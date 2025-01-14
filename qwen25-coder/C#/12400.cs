@@ -1,1 +1,0 @@
-public class UserViewModel\n{\n    public RemoteValidation.Models.User User { get; set; }\n    // Add other properties here as needed\n}

@@ -1,1 +1,0 @@
-public class Product\n{\n    // Auto-incrementing primary key\n    public int ProductID { get; set; }\n\n    // Natural product code as a primary key\n    [Key]\n    public string ProductCode { get; set; }\n\n    // Other properties\n    public string ProductName { get; set; }\n}

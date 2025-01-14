@@ -1,1 +1,0 @@
-// Assuming someUserInput is the content coming from user input\nstring safeOutput = Server.HtmlEncode(someUserInput);

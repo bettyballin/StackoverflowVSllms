@@ -1,1 +1,0 @@
-sudo apt-get update\n    sudo apt-get install -y curl autoconf bison gcc libc-dev make pkg-config libxml2-dev re2c libssl-dev openssl libbz2-dev libreadline-dev libpng-dev libjpeg-dev libcurl4-openssl-dev zlib1g-dev

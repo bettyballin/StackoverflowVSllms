@@ -1,1 +1,0 @@
-using System.Net;\nusing System.Security.Cryptography.X509Certificates;\n\n// Before making any requests, set the callback delegate:\nServicePointManager.ServerCertificateValidationCallback = \n    new RemoteCertificateValidationCallback(delegate { return true; });

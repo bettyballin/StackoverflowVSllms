@@ -1,1 +1,0 @@
-chown webuser:webuser /path/to/config/dir/\n    chmod 750 /path/to/config/dir/

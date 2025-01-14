@@ -1,1 +1,0 @@
-et stop slapd && net start slapd

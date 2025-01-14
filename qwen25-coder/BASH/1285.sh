@@ -1,1 +1,0 @@
-#!/bin/bash\n\nfor file in "$PATH_TO_SOMEWHERE"/*; do\n    if [ -d "$file" ]; then\n        # do something directory-ish\n    else\n        # Extract the extension\n        extension="${file##*.}"\n        if [ "$extension" == "txt" ]; then\n            # do something txt-ish\n        fi\n    fi\ndone

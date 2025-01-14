@@ -1,1 +1,0 @@
-gcc -std=c99 3np1.c -o 3np1

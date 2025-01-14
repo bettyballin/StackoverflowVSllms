@@ -1,1 +1,0 @@
-man -P cat gcc | grep "\-L"

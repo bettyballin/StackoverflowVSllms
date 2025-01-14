@@ -1,1 +1,0 @@
-# PowerShell command to set the log level for a specific category\nset-sploglevel -category "BDC" -level Verbose

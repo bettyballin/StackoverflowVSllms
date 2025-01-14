@@ -1,1 +1,0 @@
-using Microsoft.Security.Application;\n   \n   string safeString = Sanitizer.GetSafeHtmlFragment(inputString);

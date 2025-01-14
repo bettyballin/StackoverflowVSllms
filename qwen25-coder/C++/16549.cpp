@@ -1,1 +1,0 @@
-IUnknown* pUnknown = nullptr;\nHRESULT hr = CoCreateInstance(CLSID_YourClass, NULL, CLSCTX_ALL, IID_IUnknown, (void**)&pUnknown);\nif (SUCCEEDED(hr)) {\n    // Use the interface pointer\n    // Remember to release it when done\n    pUnknown->Release();\n}

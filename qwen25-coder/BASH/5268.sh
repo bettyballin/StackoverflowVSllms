@@ -1,1 +1,0 @@
-LogParser "SELECT date, time, c-ip, sc-bytes FROM ex*.log"

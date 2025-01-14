@@ -1,1 +1,0 @@
-ssh_connect() {\n    ssh user@computer_name\n}

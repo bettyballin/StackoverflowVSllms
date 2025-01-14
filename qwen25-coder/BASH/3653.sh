@@ -1,1 +1,0 @@
-ps -o pid,ppid,cmd 31756

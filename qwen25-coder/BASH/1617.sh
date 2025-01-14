@@ -1,1 +1,0 @@
-chkdsk C: /f /r /b

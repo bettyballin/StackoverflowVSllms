@@ -1,1 +1,0 @@
-public partial class SalesDataContext : DataContext {\n    public Table<Order> Orders { get; set; }\n    public Table<Customer> Customers { get; set; }\n}\n\npublic partial class InventoryDataContext : DataContext {\n    public Table<Product> Products { get; set; }\n    public Table<Supplier> Suppliers { get; set; }\n}

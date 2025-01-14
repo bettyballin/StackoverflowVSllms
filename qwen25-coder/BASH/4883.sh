@@ -1,1 +1,0 @@
-sudo auditctl -a entry,always -F arch=b64 -S execve -k proc_monitor\nsudo auditctl -a exit,always -F arch=b32 -S execve -k proc_monitor

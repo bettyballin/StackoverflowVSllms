@@ -1,1 +1,0 @@
-@echo off\n   REM Run any pre-requisite scripts or commands here\n   call path\to\your\pre_requisite_script.bat\n   \n   REM Now invoke devenv.com\n   devenv.com /useenv %NEWSOLFILE% /CLEAN %BUILDCONFIG% /OUT %OUTLOGFILE% > nul

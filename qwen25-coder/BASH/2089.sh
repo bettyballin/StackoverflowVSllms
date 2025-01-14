@@ -1,1 +1,0 @@
-vssadmin list shadows

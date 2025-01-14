@@ -1,1 +1,0 @@
-g++ -o check_mail_server check_mail_server.cpp -lssl -lcrypto

@@ -1,1 +1,0 @@
-#include "ClassA.h"\n#include "ClassB.h" // Includes full definition of ClassB needed for actual methods\n\nvoid ClassA::doSomethingWithB(ClassB* b) {\n    // Now you can use b as a pointer to an actual ClassB object\n}

@@ -1,1 +1,0 @@
-.zoom-element {\n    transform: scale(1.2); /* Scale factor */\n    transform-origin: 0 0; /* Scale from top-left corner */\n    transition: transform 0.3s ease; /* Optional: Animates the zoom effect */\n}

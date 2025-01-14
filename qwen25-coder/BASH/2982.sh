@@ -1,1 +1,0 @@
-* * * * * /path/to/update_monit_config.sh > /dev/null 2>&1 && monit reload

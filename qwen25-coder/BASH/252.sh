@@ -1,1 +1,0 @@
-sed -zi 's|/\*\*.*ProjectName .* USA\..*?\*/||s' *.java

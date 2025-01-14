@@ -1,1 +1,0 @@
-using System;\n\npublic class DotNetLibrary\n{\n    public static string HelloWorld()\n    {\n        return "Hello from .NET!";\n    }\n}

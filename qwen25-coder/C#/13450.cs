@@ -1,1 +1,0 @@
-SmtpClient client = new SmtpClient("localhost");\n     client.Timeout = 10000; // Set timeout to 10 seconds for testing

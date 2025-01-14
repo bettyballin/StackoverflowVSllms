@@ -1,1 +1,0 @@
-# Example of tagging a commit with version information\ngit tag -a v1.2.3 -m "Version 1.2.3 including fixes for #829"

@@ -1,1 +1,0 @@
-# Enable USB for your VM in VMware settings\n   vmware-installer --console --install-component=vmware-usbarbitrator

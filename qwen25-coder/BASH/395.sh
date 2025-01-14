@@ -1,1 +1,0 @@
-sudo ifconfig lo:1 up\n  sudo ifconfig lo:2 up

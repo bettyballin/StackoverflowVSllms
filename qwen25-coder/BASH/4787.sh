@@ -1,1 +1,0 @@
-# Example command to check routing table on Windows\n   route print

@@ -1,1 +1,0 @@
-sudo nano /etc/ppp/chap-secrets

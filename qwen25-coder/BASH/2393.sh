@@ -1,1 +1,0 @@
-sudo mount -t ntfs-3g /dev/disk1s1 /Volumes/SATA160 -o local,nosuid,allow_other,rw

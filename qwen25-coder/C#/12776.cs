@@ -1,1 +1,0 @@
-public interface IClientUIPlugin {\n       void LoadControls(WebPage page);\n   }\n\n   public interface IClientBusinessLogicPlugin {\n       void ExecuteCustomLogic(ClientContext context);\n   }

@@ -1,1 +1,0 @@
-string variable = "interpolated";\n   string myStr = $@"very {variable} long string \n   another long string";

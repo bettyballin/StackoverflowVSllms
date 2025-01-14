@@ -1,1 +1,0 @@
-rsync -avz --include='*/' --include='*.class' --exclude='*' server:/usr/some/unknown/number/of/sub/folders/ /usr/project/backup/

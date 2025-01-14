@@ -1,1 +1,0 @@
-amespace MyNamespace\n{\n    using System.Collections.Generic;\n    using IntPair = KeyValuePair<int, int>;  // Works now because System.Collections.Generic is explicitly referenced here.\n    \n    public class ExampleClass\n    {\n        private IntPair example;\n\n        public ExampleClass()\n        {\n            example = new IntPair(1, 2);\n        }\n    }\n}

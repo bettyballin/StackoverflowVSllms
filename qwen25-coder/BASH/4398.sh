@@ -1,1 +1,0 @@
-# Clone the Rails repository\ngit clone https://github.com/rails/rails.git\n\n# Navigate into the rails directory\ncd rails\n\n# Bundle install to ensure all dependencies are met\nbundle install\n\n# Generate the documentation\nbundle exec rake rdoc:guides\n\n# The documentation will be generated in /tmp/api

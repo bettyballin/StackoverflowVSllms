@@ -1,1 +1,0 @@
-curl -X POST -H "Content-Type: application/xml" --data @data.xml http://example.com/upload

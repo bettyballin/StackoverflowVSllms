@@ -1,1 +1,0 @@
-# Navigate to the directory containing the file on your Mac or PC in Terminal/Command Prompt\n   python -m http.server 8000

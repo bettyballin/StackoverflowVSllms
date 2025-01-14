@@ -1,1 +1,0 @@
-# redirect_script.pl (example)\n#!/bin/bash\n\nwhile read line; do\n    echo "$line"\ndone

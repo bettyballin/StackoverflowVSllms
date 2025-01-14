@@ -1,1 +1,0 @@
-git add path/to/taskABC/file1 path/to/taskABC/file2

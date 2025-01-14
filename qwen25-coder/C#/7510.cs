@@ -1,1 +1,0 @@
-using System.Runtime.InteropServices;\n\npublic void SafeReleaseComObject(object obj)\n{\n    if (obj != null)\n    {\n        Marshal.ReleaseComObject(obj);\n        obj = null;\n    }\n}\n\n// In your SaveWorkbook() and CopyWorksheet() methods, use SafeReleaseComObject for all Excel objects.

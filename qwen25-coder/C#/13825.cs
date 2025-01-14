@@ -1,1 +1,0 @@
-// Example in C# with ASP.NET Core MVC\n[HttpGet]\npublic IActionResult GetGridViewData()\n{\n    // Fetch your data from the database or any source\n    var data = GetDataFromDatabase();\n    return Json(data); \n}

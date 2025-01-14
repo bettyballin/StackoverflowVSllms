@@ -1,1 +1,0 @@
-HRESULT hr = SomeFunction();\n\nif (FAILED(hr)) {\n    // Handle the error\n}\nelse {\n    // Proceed if successful\n}

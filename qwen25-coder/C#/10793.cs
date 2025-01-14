@@ -1,1 +1,0 @@
-[WebMethod]\npublic static List<string> GetCompletionList(string prefixText)\n{\n    List<string> availableTags = new List<string>\n    {\n        "John Doe",\n        "Jane Smith",\n        "Mark Adams",\n        // add more names as needed\n    };\n\n    return availableTags.Where(tag => tag.IndexOf(prefixText, StringComparison.OrdinalIgnoreCase) >= 0).ToList();\n}

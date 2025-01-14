@@ -1,1 +1,0 @@
-strace <program_name> <arguments>

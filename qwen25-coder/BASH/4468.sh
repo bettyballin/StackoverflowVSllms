@@ -1,1 +1,0 @@
-sudo chmod 755 /usr/lib/php/extensions/mylib.dylib

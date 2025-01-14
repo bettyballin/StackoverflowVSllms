@@ -1,1 +1,0 @@
-protected void Button_Click(object sender, EventArgs e)\n{\n    TransformHTML = RawHTML.Text;\n    BEHtml.Text = Server.HtmlEncode(TransformHTML);\n}

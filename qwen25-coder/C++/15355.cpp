@@ -1,1 +1,0 @@
-// Project -> Properties\n#pragma comment(linker, "/NODEFAULTLIB:MSVCRT.LIB") // Disable dynamic linking

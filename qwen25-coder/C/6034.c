@@ -1,1 +1,0 @@
-// Example of including FDK-AAC header\n   #include <fdk-aac/aacenc_lib.h>

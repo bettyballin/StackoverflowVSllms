@@ -1,1 +1,0 @@
-# Navigate to the directory containing your VMDK files\ncd /path/to/vmdk\n\n# Compress the VMDK file(s)\ngzip -c YourVM-disk1.vmdk > YourVM-disk1.vmdk.gz

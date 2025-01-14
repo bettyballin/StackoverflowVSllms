@@ -1,1 +1,0 @@
-// ExportedFunction.h\n#ifdef MYLIBRARY_EXPORTS\n#define MYLIBRARY_API __declspec(dllexport)\n#else\n#define MYLIBRARY_API __declspec(dllimport)\n#endif\n\nextern "C" {\nMYLIBRARY_API int Add(int a, int b);\n}\n\n// ExportedFunction.cpp\n#include "ExportedFunction.h"\n\nint Add(int a, int b) {\n    return a + b;\n}

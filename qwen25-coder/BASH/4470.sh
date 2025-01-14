@@ -1,1 +1,0 @@
-git reflog show --all

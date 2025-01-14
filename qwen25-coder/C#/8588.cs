@@ -1,1 +1,0 @@
-public class MyPlugin : IPlugin {\n        public void Execute() {\n            Console.WriteLine("My Plugin Executing");\n        }\n    }

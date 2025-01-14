@@ -1,1 +1,0 @@
-sed -i 's/<tag>oldtext<\/tag>/<tag>newtext<\/tag>/g' file.xml

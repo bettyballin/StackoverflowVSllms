@@ -1,1 +1,0 @@
-// Incorrect example\nint *get_stack_address() {\n    int stack_var = 20;\n    return &stack_var; // Unsafe: returns address of local variable\n}\n\nint main() {\n    int *ptr = get_stack_address(); // Use-after-free scenario\n    printf("Number: %d\n", *ptr);   // Undefined behavior\n    return 0;\n}

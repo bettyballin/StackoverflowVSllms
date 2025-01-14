@@ -1,1 +1,0 @@
-makecert -sk MySiteServerCert -iv MySiteRootCA.pvk -n "CN=MySite.com Dev" -ic MySiteRootCA.cer -a sha256 -sky exchange -pe -sv MySite.com Dev.pvk MySite.com Dev.cer

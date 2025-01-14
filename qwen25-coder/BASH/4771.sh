@@ -1,1 +1,0 @@
-# Install prettier\n  npm install --global prettier\n  \n  # Format a specific file\n  prettier --write path/to/your/file.html

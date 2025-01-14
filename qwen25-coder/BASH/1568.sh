@@ -1,1 +1,0 @@
-// Add a code group for the network path:\n     caspol -m on -ag 1.3 -url "file://\\network\share\*" FullTrust

@@ -1,1 +1,0 @@
-public virtual void AddEntry(BackerEntry entry)\n{\n    BackerEntries.Add(entry);\n    entry.Backer = this;\n}

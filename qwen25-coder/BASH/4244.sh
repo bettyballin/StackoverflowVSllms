@@ -1,1 +1,0 @@
-aspnet_regsql.exe -S your_server_name -E -d your_database_name -A all

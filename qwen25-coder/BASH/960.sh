@@ -1,1 +1,0 @@
-xhost +SI:localuser:www-data

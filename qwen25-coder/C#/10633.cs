@@ -1,1 +1,0 @@
-bool isElevated = spContext.Site.EffectiveBasePermissions == SPBasePermissions.FullMask;\nif (!isElevated)\n{\n    // Safe to use SPContext.Current.Web.CurrentUser\n}\nelse\n{\n    // Running under elevated privileges, consider using other methods or re-authenticate if needed.\n}

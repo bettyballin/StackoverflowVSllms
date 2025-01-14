@@ -1,1 +1,0 @@
-int max3(int a, int b, int c) {\n    return max(a, max(b, c));\n}

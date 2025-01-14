@@ -1,1 +1,0 @@
-private static readonly Lazy<MyObjectType> lazyInstance = \n    new Lazy<MyObjectType>(() => new MyObjectType());\n\npublic static MyObjectType Instance \n{ \n    get \n    { \n        return lazyInstance.Value; \n    } \n}

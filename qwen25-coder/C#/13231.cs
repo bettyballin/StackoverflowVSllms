@@ -1,1 +1,0 @@
-@using (Html.BeginSecureForm("ActionName", "ControllerName"))\n{\n    <p>Form content here</p>\n    <input type="submit" value="Submit" />\n}

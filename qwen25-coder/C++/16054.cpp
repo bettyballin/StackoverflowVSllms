@@ -1,1 +1,0 @@
-#ifndef SHARED_FUNCTIONS_DECLARATIONS_H_\n#define SHARED_FUNCTIONS_DECLARATIONS_H_\n\nint get(int handler, int date[2], int time[2], int* data, int& rowsize, int& numrows);\n\n#endif /* SHARED_FUNCTIONS_DECLARATIONS_H_ */

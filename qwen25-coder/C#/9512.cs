@@ -1,1 +1,0 @@
-public void DoWork<T>() where T : IComparable\n{\n    // Method implementation\n}

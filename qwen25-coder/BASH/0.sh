@@ -1,1 +1,0 @@
-java -classpath jmxquery org.nagios.JMXQuery \\n    -U service:jmx:rmi:///jndi/rmi://localhost:8004/jmxrmi \\n    -O java.lang:type=Memory \\n    -A "NonHeapMemoryUsage" \\n    -username yourUsername \\n    -password yourPassword

@@ -1,1 +1,0 @@
-chmod 644 /home/webtest/help/ask_us.php

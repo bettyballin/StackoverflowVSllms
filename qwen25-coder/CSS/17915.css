@@ -1,1 +1,0 @@
-.container {\n    display: flex;\n    justify-content: center; /* Centers the items horizontally */\n}\n\n.child-div {\n    display: inline-block;\n    text-align: center; /* Optional, only if needed for text inside */\n}

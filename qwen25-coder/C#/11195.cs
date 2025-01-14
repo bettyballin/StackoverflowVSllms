@@ -1,1 +1,0 @@
-using (SqlConnection connection = new SqlConnection(connectionString))\n{\n    SqlCommand command = new SqlCommand("DeleteBookAndPages", connection);\n    command.CommandType = CommandType.StoredProcedure;\n\n    command.Parameters.AddWithValue("@bookId", bookId);\n\n    connection.Open();\n    command.ExecuteNonQuery();\n}

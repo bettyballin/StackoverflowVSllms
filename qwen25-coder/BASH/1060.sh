@@ -1,1 +1,0 @@
-svn propset svn:ignore '*' path/to/directory_to_ignore/\n   svn commit -m "Ignoring everything in directory_to_ignore"

@@ -1,1 +1,0 @@
-# Compile with Hoard support\n   g++ -lhoard -o myapp myapp.cpp

@@ -1,1 +1,0 @@
-#include <uuid/uuid.h>\n#include <iostream>\n\nint main() {\n    uuid_t uuid;\n    char buffer[37]; // 36 characters for UUID string + 1 for null terminator\n\n    // Generate a UUID\n    uuid_generate(uuid);\n\n    // Convert the UUID to a readable format\n    uuid_unparse_lower(uuid, buffer);\n\n    std::cout << "Generated GUID: " << buffer << std::endl;\n\n    return 0;\n}

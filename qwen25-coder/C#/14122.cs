@@ -1,1 +1,0 @@
-string username = Context.User.Identity.Name;

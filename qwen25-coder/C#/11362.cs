@@ -1,1 +1,0 @@
-// Create a new Console Application project in Visual Studio\n   // Write a simple program to output "Hello World"\n   using System;\n   class Program\n   {\n       static void Main()\n       {\n           Console.WriteLine("Hello World!");\n       }\n   }

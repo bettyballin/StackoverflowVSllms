@@ -1,1 +1,0 @@
-# Using prstat to get detailed memory statistics for a process\nprstat -p <pid> -v 1\n\n# Using ps with specific flags to extract relevant memory details\nps -o pid,vsz,rss,etime,comm -p <pid>

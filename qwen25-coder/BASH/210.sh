@@ -1,1 +1,0 @@
-wget -r --no-clobber --page-requisites --html-extension \\n        --convert-links --domains example.com --no-parent \\n        http://example.com/

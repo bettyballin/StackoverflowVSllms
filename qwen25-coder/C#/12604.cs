@@ -1,1 +1,0 @@
-if (!(foo is bar))\n{\n    // Do something here if foo is NOT of type bar\n}

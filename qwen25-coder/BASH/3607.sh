@@ -1,1 +1,0 @@
-# For Nginx\n   sudo certbot --nginx\n\n   # For Apache\n   sudo certbot --apache

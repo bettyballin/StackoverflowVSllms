@@ -1,1 +1,0 @@
-protected void Application_EndRequest(object sender, EventArgs e)\n{\n    // Capture SQL Queries Here\n    var sqlQueries = GetSqlQueriesFromContext();\n    foreach(var query in sqlQueries)\n    {\n        Trace.Write("SQL Query", query);\n    }\n}

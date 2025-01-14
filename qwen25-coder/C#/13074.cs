@@ -1,1 +1,0 @@
-using (StreamReader reader = new StreamReader("file.txt"))\n{\n    string line;\n    while ((line = reader.ReadLine()) != null)\n    {\n        Console.WriteLine(line);\n    }\n}

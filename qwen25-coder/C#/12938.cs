@@ -1,1 +1,0 @@
-context.Response.AddHeader("Cache-Control", "no-cache, no-store, must-revalidate");\ncontext.Response.AddHeader("Pragma", "no-cache");\ncontext.Response.AddHeader("Expires", "0");

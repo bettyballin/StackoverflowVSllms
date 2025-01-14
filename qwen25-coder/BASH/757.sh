@@ -1,1 +1,0 @@
-eet() {\n  { for cmd in "$@"; do eval "$cmd"; done; }\n}\n\n# Usage:\neet "echo 1" "echo 2" > file.txt

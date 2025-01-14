@@ -1,1 +1,0 @@
-lighthouse http://www.example.com --view

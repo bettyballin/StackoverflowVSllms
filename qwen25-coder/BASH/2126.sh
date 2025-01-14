@@ -1,1 +1,0 @@
-sc sdshow <servicename>\n    sc dacl <servicename>  "(A;;CCRCWPDTLOCRSDRCWDWO;;;S-1-5-32-544)" # Example ACL modificatio

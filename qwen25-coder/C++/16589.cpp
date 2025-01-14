@@ -1,1 +1,0 @@
-#include <windows.h>\n#include "HtmlHelp.h"\n\nvoid ShowHelp()\n{\n    // Path to your compiled CHM file\n    const char* pszHelpFile = "path_to_your_help_file.chm";\n\n    // Call HtmlHelp function to display the help file\n    HtmlHelp(NULL, pszHelpFile, HH_DISPLAY_TOPIC, NULL);\n}

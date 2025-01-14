@@ -1,1 +1,0 @@
-# Download Tomcat for example\n  wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.41/bin/apache-tomcat-9.0.41.tar.gz\n  \n  # Extract the downloaded file\n  tar -xvzf apache-tomcat-9.0.41.tar.gz\n      \n  # Navigate to tomcat directory and start\n  cd apache-tomcat-9.0.41/bin/\n  ./startup.sh

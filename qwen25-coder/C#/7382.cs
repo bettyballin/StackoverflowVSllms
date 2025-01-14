@@ -1,1 +1,0 @@
-// Setting session variables\nHttpContext.Current.Session["UserId"] = userId;\nHttpContext.Current.Session["ChannelId"] = channelId;\n\n// Retrieving session variables\nint? sessionId = HttpContext.Current.Session["UserId"] as int?;\nint? channel = HttpContext.Current.Session["ChannelId"] as int?;

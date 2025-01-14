@@ -1,1 +1,0 @@
-# Querying a 64-bit registry key from a 32-bit PowerShell session\nreg query "HKLM\SOFTWARE" /reg:64

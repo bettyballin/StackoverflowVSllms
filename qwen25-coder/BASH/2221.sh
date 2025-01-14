@@ -1,1 +1,0 @@
-# Example commands assuming a standard installation\n   sudo cp /path/to/backup/php-5.2.5/* /usr/local/lib/php/\n   sudo cp /path/to/backup/php.ini /etc/

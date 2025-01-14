@@ -1,1 +1,0 @@
-# Command to launch Google Chrome in kiosk mode\ngoogle-chrome --kiosk http://yourwebsite.com

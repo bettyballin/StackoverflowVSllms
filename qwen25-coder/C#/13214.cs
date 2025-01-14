@@ -1,1 +1,0 @@
-modelBuilder.ComplexType<MyStoredProcedureResult>();

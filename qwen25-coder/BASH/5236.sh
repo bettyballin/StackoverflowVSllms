@@ -1,1 +1,0 @@
-C:\path\to\your\desired\jvm\bin\java -jar jar_name.jar

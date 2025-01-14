@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\n\nstring tempPath = Path.GetTempPath();\nstring fileName = Path.GetFileNameWithoutExtension(Path.GetRandomFileName()) + ".csv";\nstring filePath = Path.Combine(tempPath, fileName);\n\n// Now filePath is a unique file path with .csv extension in the temporary directory.

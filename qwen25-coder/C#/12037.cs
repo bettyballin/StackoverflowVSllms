@@ -1,1 +1,0 @@
-DateTime fileSavedDateTime = System.IO.File.GetLastWriteTime(filepath);\nTimeSpan tolerance = TimeSpan.FromMilliseconds(10); // Define your tolerance here (e.g., 10 milliseconds)\nif (Math.Abs((fileSavedDateTime - SavedLastAccessDateTime).TotalMilliseconds) > tolerance.TotalMilliseconds)\n{\n    // do something - new save\n}

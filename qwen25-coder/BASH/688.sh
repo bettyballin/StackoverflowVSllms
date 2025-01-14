@@ -1,1 +1,0 @@
-# Compress and encrypt all emails in a folder\n   tar -cvf backup.tar /path/to/emails/\n   gpg --encrypt --recipient your-email@gmail.com backup.tar

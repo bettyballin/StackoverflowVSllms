@@ -1,1 +1,0 @@
-[HttpGet]\npublic IHttpActionResult GetProgress(string taskId)\n{\n    if (!ProgressTracker.TryGetValue(taskId, out int progress))\n    {\n        return NotFound();\n    }\n\n    return Ok(new { TaskId = taskId, Progress = progress });\n}

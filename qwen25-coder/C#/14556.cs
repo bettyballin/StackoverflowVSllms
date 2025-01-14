@@ -1,1 +1,0 @@
-using System;\nusing Microsoft.VisualBasic; // If there are any VB.NET specific features\n\nnamespace Vb6ComWrapper\n{\n    public class WrapperClass\n    {\n        private MyVb6Component.MyVb6Component vbCom = new MyVb6Component.MyVb6Component();\n\n        public void CallVb6Method()\n        {\n            vbCom.DoSomething();\n        }\n    }\n}

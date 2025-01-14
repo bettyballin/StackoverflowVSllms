@@ -1,1 +1,0 @@
-composer require squizlabs/php_codesniffer --dev\n   vendor/bin/phpcs src/

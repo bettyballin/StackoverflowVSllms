@@ -1,1 +1,0 @@
-git log -p -- path/to/file

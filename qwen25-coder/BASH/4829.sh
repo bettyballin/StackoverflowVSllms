@@ -1,1 +1,0 @@
-cat /path/to/remote/file | ssh user@localhost "dd of=/path/to/local/file"

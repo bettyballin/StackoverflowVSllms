@@ -1,1 +1,0 @@
-sudo apt update\nsudo apt install python3 python3-pip

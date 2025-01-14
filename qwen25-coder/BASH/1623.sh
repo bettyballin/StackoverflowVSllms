@@ -1,1 +1,0 @@
-regsvr32 path\to\x86\Component.dll\n     %windir%\syswow64\regsvr32.exe path\to\x64\FacadeComponent.dll

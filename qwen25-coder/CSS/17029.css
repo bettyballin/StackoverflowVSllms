@@ -1,1 +1,0 @@
-.image-slider {\n    position: relative;\n    width: 600px; /* Set your desired width */\n    height: 400px; /* Set your desired height */\n    overflow: hidden;\n}\n\n.image-slider img {\n    position: absolute;\n    width: 100%;\n    display: none;\n}

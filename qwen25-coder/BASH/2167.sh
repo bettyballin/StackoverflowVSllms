@@ -1,1 +1,0 @@
-# Start JVM with verbose GC options\n-server -Xms1024m -Xmx2048m -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -Xloggc:/path/to/your/gc.log

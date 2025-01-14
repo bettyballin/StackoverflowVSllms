@@ -1,1 +1,0 @@
-# Find files containing 'foo' and replace 'foo' with 'bar'\ngrep -l 'foo' * | xargs sed -i '' 's/foo/bar/g'

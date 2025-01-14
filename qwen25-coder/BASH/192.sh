@@ -1,1 +1,0 @@
-git checkout manufacturing-test-branch\ngit tag release-1.0\n\n# Record the commit hash for this branch\nMANUFACTURING_COMMIT=$(git rev-parse HEAD)\n\ngit checkout production-firmware-branch\ngit tag release-1.0\n\n# Record the commit hash for this branch\nPRODUCTION_COMMIT=$(git rev-parse HEAD)

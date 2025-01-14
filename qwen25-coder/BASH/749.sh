@@ -1,1 +1,0 @@
-openssl dgst -sha256 -sign private_key.pem -out signature.bin your_binary_file.bi

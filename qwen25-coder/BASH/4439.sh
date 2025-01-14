@@ -1,1 +1,0 @@
-# Edit crontab for your user with `crontab -e` and add:\n     0 1 * * * /path/to/backup_mysql.sh >/dev/null 2>&1

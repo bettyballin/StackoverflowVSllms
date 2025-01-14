@@ -1,1 +1,0 @@
-sudo cp /tmp/example.crt /usr/local/share/ca-certificates/\n   sudo update-ca-certificates

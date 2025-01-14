@@ -1,1 +1,0 @@
-# Install pgloader (on Ubuntu/Debian systems)\nsudo apt-get install pgloader\n\n# Create a pgloader configuration file, e.g., mysql-to-pg.load\nLOAD DATABASE\n     FROM mysql://user:password@localhost/mysql_database_name\n     INTO postgresql://user:password@localhost/postgresql_database_name\n\nBEFORE LOAD DO\n$$ create schema if not exists target_schema; $$;

@@ -1,1 +1,0 @@
-sqlplus username/password@//hostname:port/service_name

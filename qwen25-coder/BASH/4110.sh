@@ -1,1 +1,0 @@
-# Clone a repository (if your hosting allows git commands)\ngit clone https://github.com/your-repo.git\n\n# If you need to automate this in PHP for read-only purposes, ensure you have file permissions set correctly.

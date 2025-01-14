@@ -1,1 +1,0 @@
-using System;\nusing System.Reflection;\n\nclass Program\n{\n    static void Main()\n    {\n        foreach (Assembly assembly in AppDomain.CurrentDomain.GetAssemblies())\n        {\n            Console.WriteLine($"Assembly: {assembly.FullName}, Location: {assembly.Location}");\n        }\n    }\n}

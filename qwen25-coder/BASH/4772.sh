@@ -1,1 +1,0 @@
-# Install tidy (example for Ubuntu)\n  sudo apt-get install tidy\n  \n  # Clean and format an HTML file\n  tidy -i --doctype html5 -output cleaned_file.html original_file.html

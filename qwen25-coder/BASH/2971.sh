@@ -1,1 +1,0 @@
-# Example command to start Prometheus\nprometheus --config.file=prometheus.yml

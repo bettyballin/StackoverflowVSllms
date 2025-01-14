@@ -1,1 +1,0 @@
-using Microsoft.Dss.Core.Attributes;\n\nnamespace MyProject.Namespace\n{\n    [Contract(ContractInfo.Identifier)]\n    public class MyServiceName : DsspDefaultService\n    {\n        // Service implementation\n    }\n}

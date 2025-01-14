@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e) {\n    if (!IsPostBack) {\n        // Your initial page load logic\n    } else {\n        // If needed, you can disable it server-side as well\n        myValidator.Enabled = false;\n    }\n}

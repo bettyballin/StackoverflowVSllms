@@ -1,1 +1,0 @@
-for (std::vector<int>::iterator it = vec.begin(); it != vec.end(); ++it) { }

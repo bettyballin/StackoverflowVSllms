@@ -1,1 +1,0 @@
-sqlplus sys@xe as sysdba

@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Directory where the PID file is stored\nPID_DIR="/var/run"\nPID_FILE="$PID_DIR/myjavaapp.pid"\n\nif [ -f "$PID_FILE" ]; then\n  PID=$(cat $PID_FILE)\n  echo "Stopping Java Application with PID: $PID"\n  kill $PID\n  rm $PID_FILE\n  echo "Stopped."\nelse\n  echo "Java Application is not running."\nfi

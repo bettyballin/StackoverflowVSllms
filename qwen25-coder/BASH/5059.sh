@@ -1,1 +1,0 @@
-# Navigate to your working copy directory\ncd /path/to/your/working/copy\n\n# Find all conflicted files and resolve with 'theirs-full'\nfor file in $(svn status | grep '^C' | sed -e 's/^C //'); do\n    svn resolve --accept theirs-full "$file"\ndone\n\n# Check the summary of conflicts resolution\nsvn status

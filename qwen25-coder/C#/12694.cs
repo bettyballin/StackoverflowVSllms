@@ -1,1 +1,0 @@
-using System;\n\npublic DateTime ConvertToClientTime(DateTime serverTime, string timeZoneId)\n{\n    TimeZoneInfo serverZone = TimeZoneInfo.Local;\n    TimeZoneInfo clientZone = TimeZoneInfo.FindSystemTimeZoneById(timeZoneId);\n    \n    return TimeZoneInfo.ConvertTime(serverTime, serverZone, clientZone);\n}

@@ -1,1 +1,0 @@
-# Step 1: Checkout SVN repository locally\nsvn checkout http://myrepository/svn/project /tmp/project\n\n# Step 2: Sync the local checkout to the remote server\nrsync -avz /tmp/project/ me@otherlocation.net:/var/www/project/\n\n# Clean up local copy if needed\nrm -rf /tmp/project

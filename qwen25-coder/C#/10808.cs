@@ -1,1 +1,0 @@
-public class NorthwindContext : DbContext {\n    public DbSet<Customer> Customers { get; set; }\n    public DbSet<Item> Items { get; set; }\n    public DbSet<Order> Orders { get; set; }\n\n    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {\n        optionsBuilder.UseSqlServer("YourConnectionStringHere");\n    }\n}

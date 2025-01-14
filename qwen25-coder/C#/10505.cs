@@ -1,1 +1,0 @@
-string text = null;\nbool result = String.IsNullOrEmpty(text); // This will return true without any exception.

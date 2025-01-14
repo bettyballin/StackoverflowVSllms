@@ -1,1 +1,0 @@
-try {\n       // Database operations\n   } catch (OracleException ex) {\n       LogError(ex.Message); // Use a custom method for logging errors\n   }

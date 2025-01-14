@@ -1,1 +1,0 @@
-python manage.py makemigrations --dry-run\n   python manage.py migrate --run-syncdb

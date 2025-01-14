@@ -1,1 +1,0 @@
-using DocumentFormat.OpenXml.Packaging;\nusing System.IO;\n\npublic string ReadWordDocument(string filepath)\n{\n    using (WordprocessingDocument wordDoc = WordprocessingDocument.Open(filepath, false))\n    {\n        var body = wordDoc.MainDocumentPart.Document.Body;\n        return body.InnerText; // Simplified approach; does not handle rich text formatting.\n    }\n}

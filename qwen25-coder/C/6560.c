@@ -1,1 +1,0 @@
-int power(int base, int exp) {\n    int result = 1;\n    while (exp > 0) {\n        // If exp is odd, multiply base with result\n        if (exp % 2 == 1) {\n            result *= base;\n        }\n        // Square the base\n        base *= base;\n        // Divide exp by 2\n        exp /= 2;\n    }\n    return result;\n}

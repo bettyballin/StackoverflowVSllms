@@ -1,1 +1,0 @@
-sc config YourServiceName start= auto

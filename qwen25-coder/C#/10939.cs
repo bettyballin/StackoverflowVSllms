@@ -1,1 +1,0 @@
-var socketPerm = new SocketPermission(NetworkAccess.Connect, TransportType.Tcp, "127.0.0.1", 3306);\n   try {\n       socketPerm.Demand();\n   }\n   catch (SecurityException ex) {\n       // Handle permission request denial\n   }

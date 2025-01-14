@@ -1,1 +1,0 @@
-#include <stdio.h>\n#include <stdlib.h>\n#include <string.h>\n#include <unistd.h>\n#include <arpa/inet.h>\n\n#define MAX_NAME_LENGTH 50\n#define MAX_DATA_LENGTH 200\n\ntypedef struct {\n    int id;\n    char name[MAX_NAME_LENGTH];\n    char data[MAX_DATA_LENGTH];\n} Packet;

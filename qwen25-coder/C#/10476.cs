@@ -1,1 +1,0 @@
-using System.ComponentModel.DataAnnotations;\n\npublic class Product\n{\n    public int Id { get; set; }\n\n    [Required(ErrorMessage = "The product name cannot be empty.")]\n    [StringLength(100, MinimumLength = 3)]\n    public string Name { get; set; }\n\n    [Range(1, double.MaxValue, ErrorMessage = "Price must be at least 1.")]\n    public decimal Price { get; set; }\n}

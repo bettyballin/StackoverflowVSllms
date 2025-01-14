@@ -1,1 +1,0 @@
-export PYTHONSTARTUP=~/.pythonrc.py\nexport PYTHONIOENCODING=utf-8  # Optional: Set encoding if necessary

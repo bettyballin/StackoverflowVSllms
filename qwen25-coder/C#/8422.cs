@@ -1,1 +1,0 @@
-var rangeToCheck = _average.Skip(firstSample + 1).Take(lastSample - firstSample);\nminY = rangeToCheck.Min();\nmaxY = rangeToCheck.Max();

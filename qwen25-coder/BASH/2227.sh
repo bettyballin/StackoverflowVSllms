@@ -1,1 +1,0 @@
-# Navigate to the current directory explicitly\ncd .\n\n# List files in the current directory\nls .

@@ -1,1 +1,0 @@
-composer require vimeo/psalm --dev\n   vendor/bin/psalm --init .

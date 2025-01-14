@@ -1,1 +1,0 @@
-perf record -g ./your_applicatio

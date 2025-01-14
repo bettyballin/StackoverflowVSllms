@@ -1,1 +1,0 @@
-dlltool --dllname python26.dll --def python.def -v --output-lib C:\Program Files (x86)\python\2.6\libs\libpython26.a

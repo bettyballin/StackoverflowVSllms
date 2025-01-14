@@ -1,1 +1,0 @@
-// Function to get the balance factor of a node\nint getBalance(AVLNode N) {\n    if (N == null)\n        return 0; // No node, no imbalance\n    return height(N.left) - height(N.right);\n}

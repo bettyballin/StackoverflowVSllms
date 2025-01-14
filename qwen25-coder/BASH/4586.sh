@@ -1,1 +1,0 @@
-sudo certbot --apache -d example.com -d www.example.com

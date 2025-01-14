@@ -1,1 +1,0 @@
-# Set executable bit on a directory\nchmod 0755 folder/\n\n# Add changes to staging area\ngit add .\n\n# Commit changes\ngit commit -m "Set executable bit on folder"

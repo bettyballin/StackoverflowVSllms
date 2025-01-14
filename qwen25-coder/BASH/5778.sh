@@ -1,1 +1,0 @@
-# Generate a recursive diff between two directories\ngit diff --no-index --name-status directory1/ directory2/\n\n# For more detailed diffs with context and unified format\ngit diff --no-index -U5 directory1/ directory2/

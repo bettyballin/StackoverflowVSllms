@@ -1,1 +1,0 @@
-# To clone OpenJDK repository:\n     git clone https://hg.openjdk.org/jdk/jdk18u jdk-18u

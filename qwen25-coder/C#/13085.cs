@@ -1,1 +1,0 @@
-using System.Web.Mvc;\n\nnamespace YourNamespace.Controllers\n{\n    public class HomeController : Controller\n    {\n        OracleDbContext db = new OracleDbContext();\n\n        public ActionResult Index()\n        {\n            var models = db.YourModels.ToList();\n            return View(models);\n        }\n    }\n}

@@ -1,1 +1,0 @@
-.relative-container {\n    position: relative;\n}\n\n.inputbanner {\n    position: absolute;\n    display: none; /* Hidden by default */\n    width: 100%; /* Adjust width as needed */\n    top: -20px; /* Adjust based on the height of the div and spacing you want */\n    left: 0;\n}

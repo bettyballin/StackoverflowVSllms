@@ -1,1 +1,0 @@
-@echo off\nstart "" "path\to\your\WinFormsApp.exe" fr-FR

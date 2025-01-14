@@ -1,1 +1,0 @@
-// Include the engine before initializing OpenSSL operations\nENGINE_load_capi();\nENGINE *e = ENGINE_by_id("capi");\nif (!ENGINE_init(e)) {\n    return -1;\n}\nif (RAND_egd("/dev/hwrng") == -1) {\n    // Handle error\n}

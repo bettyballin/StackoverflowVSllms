@@ -1,1 +1,0 @@
-gvfs-mount -u /dev/sdb1  # Again, adjust the device ID as per your setup.

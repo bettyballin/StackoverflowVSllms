@@ -1,1 +1,0 @@
-strCommand = "svn update <local-directory> --username=your_username --password=your_password"

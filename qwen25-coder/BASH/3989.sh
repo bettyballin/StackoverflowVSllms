@@ -1,1 +1,0 @@
-pkg-config --modversion icu-i18

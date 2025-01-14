@@ -1,1 +1,0 @@
-# Generate private key\nopenssl genpkey -algorithm RSA -out key.pem\n\n# Create a self-signed certificate\nopenssl req -new -x509 -key key.pem -out cert.pem -days 365

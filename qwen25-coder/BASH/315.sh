@@ -1,1 +1,0 @@
-GIT_AUTHOR_DATE="YYYY-MM-DD HH:MM:SS TZ" git commit --amend --no-edit\n   GIT_COMMITTER_DATE="$GIT_AUTHOR_DATE" git commit --amend --no-edit

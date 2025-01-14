@@ -1,1 +1,0 @@
-string filePath = System.Configuration.ConfigurationManager.AppSettings["FilePath"] + "myfile.txt";\nusing (StreamReader sr = new StreamReader(filePath))\n{\n    string content = sr.ReadToEnd();\n    // Use the file content as needed\n}

@@ -1,1 +1,0 @@
-public class MockDateTimeProvider : IDateTimeProvider\n{\n    private readonly DateTime _fixedDate;\n\n    public MockDateTimeProvider(DateTime fixedDate)\n    {\n        _fixedDate = fixedDate;\n    }\n\n    public DateTime Now => _fixedDate;\n}

@@ -1,1 +1,0 @@
-public ActionResult ViewPost(int id)\n{\n    var post = GetPostById(id);\n    var comments = GetCommentsByPostId(id);\n\n    post.DisplayContent = MarkdownUtility.ConvertToHtml(post.Content);\n    \n    foreach (var comment in comments)\n    {\n        comment.DisplayContent = MarkdownUtility.ConvertToHtml(comment.Content);\n    }\n\n    return View(post);\n}

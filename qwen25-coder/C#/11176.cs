@@ -1,1 +1,0 @@
-(int, int) Foo(int c) => (c + 1, c * 2);\n\nvar (a, b) = Foo(5);

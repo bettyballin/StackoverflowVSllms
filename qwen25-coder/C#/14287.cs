@@ -1,1 +1,0 @@
-using System;\nusing System.Threading;\n\nclass Program\n{\n    static void Main()\n    {\n        Console.WriteLine("Program will pause for 50 milliseconds.");\n        Thread.Sleep(50); // Sleeps for 50 milliseconds\n        Console.WriteLine("Program resumed after 50 milliseconds.");\n    }\n}

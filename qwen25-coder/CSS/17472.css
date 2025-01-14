@@ -1,1 +1,0 @@
-/* Example of a simple media query to adjust layout for smaller screens */\n@media only screen and (max-width: 600px) {\n    body { font-size: 14px; }\n    img { max-width: 100%; height: auto; }\n}

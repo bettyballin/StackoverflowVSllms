@@ -1,1 +1,0 @@
-scrapy crawl form_checker -L ERROR  # Use ERROR level for less verbose logging

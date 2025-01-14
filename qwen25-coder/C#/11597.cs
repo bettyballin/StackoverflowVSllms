@@ -1,1 +1,0 @@
-public class EntityMap : ClassMap<Entity>\n{\n    public EntityMap()\n    {\n        Table("Entities");\n        Id(x => x.Id);\n        Map(x => x.Count).Column("Count").CustomType<int>();\n    }\n}

@@ -1,1 +1,0 @@
-wkhtmltopdf input.xhtml output.pdf

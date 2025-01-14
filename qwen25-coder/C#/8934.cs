@@ -1,1 +1,0 @@
-[HttpPost]\npublic ActionResult Create(ProductModel model)\n{\n    if (ModelState.IsValid)\n    {\n        // Proceed with save logic or business processing\n        return RedirectToAction("Index");\n    }\n    else\n    {\n        // Return view with validation errors shown on the page\n        return View(model);\n    }\n}

@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Check if the correct number of arguments is passed\nif [ "$#" -ne 2 ]; then\n    echo "Usage: $0 input.csv output.xls"\n    exit 1\nfi\n\nCSV_FILE="$1"\nXLS_FILE="$2"\n\n# Check if the CSV file exists\nif [ ! -f "$CSV_FILE" ]; then\n    echo "File not found!"\n    exit 1\nfi\n\n# Convert CSV to XLS using ssconvert\nssconvert "$CSV_FILE" "$XLS_FILE"

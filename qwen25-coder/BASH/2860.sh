@@ -1,1 +1,0 @@
-phpize\n   ./configure\n   make\n   make install

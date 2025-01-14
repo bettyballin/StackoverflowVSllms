@@ -1,1 +1,0 @@
-# Check current permissions\n   ls -ld /home/taalhulp/domains/taalhulpmanager.nl/public_html/files/

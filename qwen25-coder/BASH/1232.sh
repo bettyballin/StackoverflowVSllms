@@ -1,1 +1,0 @@
-# Start proxysql service\nsudo systemctl start proxysql\n\n# Check status\nsudo systemctl status proxysql

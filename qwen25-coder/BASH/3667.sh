@@ -1,1 +1,0 @@
-php -c /path/to/custom/php.ini your-script.php

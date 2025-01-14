@@ -1,1 +1,0 @@
-// Example command to add a migration in an EF project\n   Add-Migration MyVersionUpdate\n\n   // Command to apply migrations\n   Update-Database

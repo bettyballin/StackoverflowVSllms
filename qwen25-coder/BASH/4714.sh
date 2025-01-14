@@ -1,1 +1,0 @@
-# Install aporia with pip if not already installed\npip install aporia-sql-formatter\n\n# Format your SQL query\necho "SELECT id, name FROM users WHERE age > 20 ORDER BY name;" | aporia-sql-formatter

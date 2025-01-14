@@ -1,1 +1,0 @@
-rsync -avz --delete user@test_server:/path/to/app/ user@production_server:/path/to/app/

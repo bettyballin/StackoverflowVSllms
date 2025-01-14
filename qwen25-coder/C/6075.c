@@ -1,1 +1,0 @@
-errorCode = RegSetValueEx(hkey, TEXT("NoDriveTypeAutoRun"), 0, dwType, (PBYTE) &newAutorun, dwSize);

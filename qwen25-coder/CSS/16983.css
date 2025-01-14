@@ -1,1 +1,0 @@
-/* Utility for clearing floats */\n.clearfix::after {\n    content: '.';\n    display: block;\n    clear: both;\n    visibility: hidden;\n    height: 0;\n}\n\n/* Usage example where clearfix is necessary */\n#header, #menu {\n    overflow: hidden; /* another clearfix method */\n}

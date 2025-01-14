@@ -1,1 +1,0 @@
-// data is an array of 2 pointers\n// Each pointer points to an array of 2 integers\nint (*data[2])[2];

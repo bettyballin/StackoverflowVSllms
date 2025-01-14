@@ -1,1 +1,0 @@
-.container {\n    display: flex;\n    justify-content: space-between; /* Distribute items with space */\n    align-items: center;           /* Center vertically */\n}\n\n.item {\n    flex: 1;                       /* Grow equally */\n}

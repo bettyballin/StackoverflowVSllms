@@ -1,1 +1,0 @@
-public ActionResult TestAction(string TextBox)\n    {\n        // Assuming you have a partial view named _Result that takes a string model\n        return PartialView("_Result", TextBox);\n    }

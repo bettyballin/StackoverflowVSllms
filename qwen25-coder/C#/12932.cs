@@ -1,1 +1,0 @@
-var container = new WindsorContainer();\n   container.Register(\n       Component.For<ISomeService>()\n                .ImplementedBy<SomeServiceImplementation>()\n                .LifestyleTransient());

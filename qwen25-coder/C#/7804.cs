@@ -1,1 +1,0 @@
-string Filter;\n\n// Other: Include rows where Category is not 'HIGH', 'MEDIUM', 'LOW' or is NULL\nFilter = "((Category <> 'HIGH') AND (Category <> 'MEDIUM') AND (Category <> 'LOW')) OR (Category IS NULL)";\nResponse.Write("Other: " + dslErrors.Tables[0].Select(Filter).GetLength(0).ToString() + "<br>");

@@ -1,1 +1,0 @@
-using System;\nusing System.Collections.Generic;\nusing System.Linq;\n\nclass Program\n{\n    static void Main()\n    {\n        IList<string> names = "Tom,Scott,Bob".Split(',').Reverse().ToList();\n        \n        foreach (var name in names)\n        {\n            Console.WriteLine(name);\n        }\n    }\n}

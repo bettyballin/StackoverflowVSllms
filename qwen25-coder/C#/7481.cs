@@ -1,1 +1,0 @@
-public static List<string> GetImageList()\n{\n    // Manually maintain the list of image resource names here\n    List<string> resourceImages = new List<string>\n    {\n        "Namespace.Image1.png",\n        "Namespace.Image2.jpg"\n        // Add other resource names as necessary\n    };\n\n    return resourceImages;\n}

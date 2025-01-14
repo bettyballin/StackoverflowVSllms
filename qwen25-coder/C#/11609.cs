@@ -1,1 +1,0 @@
-// For EF Core 2.x and later\n   optionsBuilder.LogTo(Console.WriteLine);\n   \n   // For older versions of EF\n   dbContext.Database.Log = Console.Write;

@@ -1,1 +1,0 @@
-:: Example command to restart Windows Explorer\ntaskkill /f /im explorer.exe && start explorer.exe

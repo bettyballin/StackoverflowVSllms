@@ -1,1 +1,0 @@
-perl -ne'END{print"$."}' filename.xml

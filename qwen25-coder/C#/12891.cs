@@ -1,1 +1,0 @@
-using System;\n   using MarkdownSharp;\n\n   class Program\n   {\n       static void Main()\n       {\n           var markdown = new Markdown();\n           \n           string wikiStyleText = "# Heading\nThis is a **bold** text.";\n           string htmlOutput = markdown.Transform(wikiStyleText);\n           \n           Console.WriteLine(htmlOutput);\n       }\n   }

@@ -1,1 +1,0 @@
-cp /path/to/source/file /path/to/destination/file

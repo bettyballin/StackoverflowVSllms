@@ -1,1 +1,0 @@
-# Install Certbot to get a Let's Encrypt certificate (example for Ubuntu)\nsudo apt-get update\nsudo apt-get install certbot\n\n# Obtain a certificate for your domain\nsudo certbot certonly --standalone -d yourdomain.com

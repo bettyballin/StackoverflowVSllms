@@ -1,1 +1,0 @@
-mount -F nfs server:/exported/path /local/mountpoint

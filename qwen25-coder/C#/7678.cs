@@ -1,1 +1,0 @@
-using (var command = database.GetStoredProcCommand("YourStoredProcedureName"))\n{\n    // Set parameters and execute the command\n    command.AddInParameter("ParameterName", OracleDbType.Int32, paramValue);\n    var result = database.ExecuteScalar(command);\n}\n// No need to explicitly call Dispose, as it's handled by the using statement

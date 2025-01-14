@@ -1,1 +1,0 @@
-ossec-hids-agent -i # To install OSSEC agent if required

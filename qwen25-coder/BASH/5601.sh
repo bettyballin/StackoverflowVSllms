@@ -1,1 +1,0 @@
-cscript %SYSTEMDRIVE%\inetpub\adminscripts\adsutil.vbs set w3svc/WWWROOT/LogFile/Enabled 1

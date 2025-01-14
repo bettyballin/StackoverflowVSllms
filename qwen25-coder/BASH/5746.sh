@@ -1,1 +1,0 @@
-arm-none-eabi-gcc server.c -o server -lwsock\narm-none-eabi-gcc client.c -o client -lwsock

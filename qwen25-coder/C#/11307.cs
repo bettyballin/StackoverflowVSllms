@@ -1,1 +1,0 @@
-public virtual IList<int> PermissionIds { get; set; }

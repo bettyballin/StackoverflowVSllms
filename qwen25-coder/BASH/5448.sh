@@ -1,1 +1,0 @@
-export NLS_LANG=.AL32UTF8

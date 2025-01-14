@@ -1,1 +1,0 @@
-foreach (FieldInfo fieldInfo in type.GetFields(BindingFlags.Instance | BindingFlags.Public))\n{\n    // Your reflection code logic here\n}

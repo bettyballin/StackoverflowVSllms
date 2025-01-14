@@ -1,1 +1,0 @@
-#! /bin/sh\n\nPLACEHOLDER_1='string 1'\nexport PLACEHOLDER_1\n\nPLACEHOLDER_2='multiline \nstring \n2'\nexport PLACEHOLDER_2\n\n# Use envsubst to replace placeholders in a single pass\nenvsubst < output.template > output.txt

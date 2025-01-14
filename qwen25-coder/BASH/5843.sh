@@ -1,1 +1,0 @@
-mysqldump --single-transaction -u username -p database_name changing_table > changing_table_backup.sql

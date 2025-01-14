@@ -1,1 +1,0 @@
-dotnet new webapi -n MyApplicationApi\ncd MyApplicationApi

@@ -1,1 +1,0 @@
-p {\n  position: relative; /* or absolute/fixed if needed */\n  background-color: rgba(0, 128, 0, 0.6); /* green with 60% opacity */\n}\n\nspan {\n  color: white;\n}

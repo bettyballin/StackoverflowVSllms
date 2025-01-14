@@ -1,1 +1,0 @@
-public partial class Form2 : Form\n{\n    public int CustomerId { get; set; }\n\n    public Form2()\n    {\n        InitializeComponent();\n    }\n}

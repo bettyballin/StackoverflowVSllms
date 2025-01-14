@@ -1,1 +1,0 @@
-using System.Data.SqlClient;\n\nstring connectionString = "Server=myServerAddress;Database=myDataBase;" +\n    "User Id=myUsername;Password=myPassword;Pooling=true;";\nSqlConnection sqlConnection = new SqlConnection(connectionString);

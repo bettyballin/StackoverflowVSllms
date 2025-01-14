@@ -1,1 +1,0 @@
-using System;\nusing Shell32;\n\nclass Program\n{\n    static void Main()\n    {\n        var shell = new Shell();\n        Console.WriteLine(shell.NameSpace(11).Self.Path);\n    }\n}

@@ -1,1 +1,0 @@
-protected bool? isCompleted(decimal? totalLessons, decimal? completedLessons, decimal? totalNumAvail, decimal? totalNumCorrect)\n{\n    if (!totalLessons.HasValue || !completedLessons.HasValue || !totalNumAvail.HasValue || !totalNumCorrect.HasValue)\n        return null;\n\n    // Your logic here\n    return completedLessons >= totalLessons;\n}

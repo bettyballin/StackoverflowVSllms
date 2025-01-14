@@ -1,1 +1,0 @@
-for file in file*.c; do\n    gcc -E "$file" | myprocess\ndone

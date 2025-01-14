@@ -1,1 +1,0 @@
-gcc -O3 -mavx your_code.c -o your_program

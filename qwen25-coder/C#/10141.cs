@@ -1,1 +1,0 @@
-[System.Web.Services.WebMethod]\npublic static string GetTotalAmount()\n{\n    // Calculate or retrieve your total amount here\n    decimal total = GetSumOfPrices(); // example method to calculate sum\n    return total.ToString();\n}

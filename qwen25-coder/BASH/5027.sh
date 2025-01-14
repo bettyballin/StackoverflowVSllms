@@ -1,1 +1,0 @@
-sudo criu dump -t <PID>

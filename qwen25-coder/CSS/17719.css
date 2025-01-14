@@ -1,1 +1,0 @@
-a#feedback_link {\n    position: absolute; /* Use absolute positioning for older versions of IE */\n    top: expression(0+((e=document.documentElement.scrollTop)?e:document.body.scrollTop)+40+"px");\n    right: 0;\n    z-index: 9999999;\n    text-decoration: none;\n    background-color: #2E8CDC;\n    padding: 0;\n    border: 0;\n}

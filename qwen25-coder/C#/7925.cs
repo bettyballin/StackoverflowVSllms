@@ -1,1 +1,0 @@
-var queryBuilder = new DynamicQueryBuilder<YourEntity>();\nqueryBuilder.AddCondition("PropertyName", "Value", "And");\nqueryBuilder.AddCondition("AnotherProperty", 123, "Or");\n\nvar results = queryBuilder.BuildQuery();

@@ -1,1 +1,0 @@
-// Example of very basic remoting setup (not recommended)\n// Server-side:\nRemotingConfiguration.RegisterWellKnownServiceType(\n    typeof(MyRemoteObject), "MyRemoteObject", WellKnownObjectMode.Singleton);\n\n// Client-side:\nmyService = (MyRemoteObject)Activator.GetObject(\n    typeof(MyRemoteObject), "tcp://localhost:9090/MyRemoteObject");

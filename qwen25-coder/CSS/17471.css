@@ -1,1 +1,0 @@
-table {\n    width: 100%;\n    table-layout: fixed; /* This ensures that all columns are of equal width */\n}\n\ntd {\n    min-width: 100px;\n    overflow: hidden; /* In case content exceeds the minimum width, it can be clipped */\n}

@@ -1,1 +1,0 @@
-# Navigate to your website's root directory\ncd path/to/your/website\n\n# Initialize a new Git repository\ngit init\n\n# Add all files in the directory to the staging area\ngit add .\n\n# Commit the initial changes with a message\ngit commit -m "Initial commit"

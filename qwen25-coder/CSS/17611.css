@@ -1,1 +1,0 @@
-a {\n    display: inline-block;\n    line-height: 1; /* Ensures no extra space between lines */\n    text-decoration: none; /* Optional: Removes underline for clean look */\n}\n\na:hover {\n    background-color: yellow; /* Example hover effect */\n}

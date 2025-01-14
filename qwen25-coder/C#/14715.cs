@@ -1,1 +1,0 @@
-public int add(int a, int b) {\n    while (b != 0) {\n        // Calculate carry\n        int carry = a & b;\n        \n        // Sum without carry\n        a = a ^ b;\n        \n        // Shift carry to the left\n        b = carry << 1;\n    }\n    return a;\n}

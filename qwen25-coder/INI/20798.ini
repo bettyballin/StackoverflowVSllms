@@ -1,1 +1,0 @@
-set backspace=2

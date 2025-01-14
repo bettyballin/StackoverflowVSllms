@@ -1,1 +1,0 @@
-public interface IUnitOfWork : IDisposable\n{\n    ISession Session { get; }\n    void Save();\n}

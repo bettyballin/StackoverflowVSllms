@@ -1,1 +1,0 @@
-using System.Security.Cryptography;\nusing System.Text;\n\npublic string HashPassword(string password)\n{\n    using var pbkdf2 = new Rfc2898DeriveBytes(password, 16, 10000); // salt size and iterations are adjustable\n    return Convert.ToBase64String(pbkdf2.GetBytes(32));             // hash size is adjustable\n}

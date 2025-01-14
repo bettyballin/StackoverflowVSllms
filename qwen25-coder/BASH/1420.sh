@@ -1,1 +1,0 @@
-"C:\Program Files (x86)\Windows Kits\10\bin\<arch>\OleView.exe" /u "path_to_your_com_library.dll"

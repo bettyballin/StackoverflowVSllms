@@ -1,1 +1,0 @@
-// AVOID: This requires higher trust levels\n   string path = System.IO.Path.GetTempPath();

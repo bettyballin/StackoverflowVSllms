@@ -1,1 +1,0 @@
-cat /var/log/audit/audit.log | grep denied | grep httpd

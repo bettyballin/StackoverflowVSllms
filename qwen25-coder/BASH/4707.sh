@@ -1,1 +1,0 @@
-tlbimp $(TargetDir)MyLogic.dll /asmversion:2.1.0.180 /out:$(TargetDir)Interop.MyLogicLib.ManualVersion.dll

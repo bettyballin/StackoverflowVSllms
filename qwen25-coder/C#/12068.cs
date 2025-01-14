@@ -1,1 +1,0 @@
-protected void YourDropDownList_SelectedIndexChanged(object sender, EventArgs e)\n{\n    // Assuming DropDownList is populated and an item has been selected.\n    string selectedValue = YourDropDownList.SelectedValue;\n    \n    // Store the value in Session\n    Session["YourSessionKey"] = selectedValue;\n}

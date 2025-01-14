@@ -1,1 +1,0 @@
-fieldset {\n    -ms-border-radius: 4px; /* For older versions of Internet Explorer */\n    border-radius: 4px;     /* Standard CSS for modern browsers */\n    border: 1px solid red;\n    padding: 10px;\n    margin: 10px;\n}\n\nlegend {\n    padding: 5px;\n}

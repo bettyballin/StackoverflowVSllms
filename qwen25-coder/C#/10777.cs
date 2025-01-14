@@ -1,1 +1,0 @@
-using System.IO.Pipes;\nusing System.Text;\n\npublic void SendMessageToUserInterface(string message)\n{\n    using (NamedPipeClientStream pipe = new NamedPipeClientStream(".", "testpipe", PipeDirection.Out))\n    {\n        pipe.Connect();\n        using (StreamWriter sw = new StreamWriter(pipe, Encoding.UTF8))\n        {\n            sw.WriteLine(message);\n        }\n    }\n}

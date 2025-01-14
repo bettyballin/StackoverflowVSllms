@@ -1,1 +1,0 @@
-@echo off\nREM Sync static content folder to another server\nrobocopy "C:\path\to\static\content" "\\server2\C$\shared\static\content" /MIR /Z /R:3 /W:5 /LOG:"C:\logs\sync_%date:~4,2%%date:~7,2%%date:~10,4%.log"

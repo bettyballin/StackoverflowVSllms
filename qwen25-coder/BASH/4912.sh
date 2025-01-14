@@ -1,1 +1,0 @@
-composer require rackspace/php-opencloud

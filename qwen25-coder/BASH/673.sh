@@ -1,1 +1,0 @@
-find . -type d -exec chmod 755 {} \;\nfind . -type f -exec chmod 644 {} \;

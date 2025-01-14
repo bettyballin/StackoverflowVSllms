@@ -1,1 +1,0 @@
-// Assuming 'command' is your SqlCommand or similar database command object\n// and 'yourForeignKeyField' is the field that can be NULL\n\nif (this.yourForeignKeyField.HasValue)\n{\n    command.Parameters.AddWithValue("@YourForeignKeyParam", this.yourForeignKeyField.Value);\n}\nelse\n{\n    command.Parameters.AddWithValue("@YourForeignKeyParam", DBNull.Value);\n}

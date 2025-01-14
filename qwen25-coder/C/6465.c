@@ -1,1 +1,0 @@
-// a.c\n   #include "a.h"\n\n   void print_matrix(int* matrix, int rows, int cols) {\n       // function implementation\n   }

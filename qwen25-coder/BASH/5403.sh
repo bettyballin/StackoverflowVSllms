@@ -1,1 +1,0 @@
-sudo tar xvf j2sdk-1.4.2_XX-linux-i586.bin.tar.gz -C /usr/lib/jvm/

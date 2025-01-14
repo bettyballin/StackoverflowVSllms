@@ -1,1 +1,0 @@
-# Install mitmproxy\n  pip install mitmproxy\n\n  # Start the mitmweb interface (for interception UI)\n  mitmweb

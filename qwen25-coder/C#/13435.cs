@@ -1,1 +1,0 @@
-using System.Security.Permissions;\n\n// Requesting permissions for EventLog and SerialPort access\n[PermissionSet(SecurityAction.RequestMinimum, Name = "FullTrust")]\npublic partial class CardReader : UserControl\n{\n    private void Initialize()\n    {\n        // Your initialization code here\n    }\n}

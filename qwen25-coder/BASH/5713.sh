@@ -1,1 +1,0 @@
-@echo off\npowershell -NoProfile -ExecutionPolicy Bypass -Command "Start-Process powershell.exe -ArgumentList '-NoProfile -Command `"$env:OutputEncoding =[System.Text.Encoding]::UTF8; chcp 65001; java -Dfile.encoding=UTF-8 -jar your-application.jar`""

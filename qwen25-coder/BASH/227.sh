@@ -1,1 +1,0 @@
-install_name_tool -add_rpath /usr/local/oracle/instantclient_19_8 /path/to/your/executable_or_library

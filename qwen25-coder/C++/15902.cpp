@@ -1,1 +1,0 @@
-#include <iostream>\n#include <cmath> // Include cmath for pow function\n\nint main() {\n    double base = 2.0;\n    \n    std::cout << "2^1 = " << pow(base, 1) << std::endl;\n    std::cout << "2^2 = " << pow(base, 2) << std::endl;\n    std::cout << "2^3 = " << pow(base, 3) << std::endl;\n\n    return 0;\n}

@@ -1,1 +1,0 @@
-./sql username/password@database_service_name_or_tns_alias

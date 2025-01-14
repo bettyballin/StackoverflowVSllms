@@ -1,1 +1,0 @@
-sudo nano /etc/apache2/httpd.conf

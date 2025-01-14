@@ -1,1 +1,0 @@
-using System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine("Enter a number:");\n        int number = Convert.ToInt32(Console.ReadLine());\n        Console.WriteLine($"Factorial of {number} is {CalculateFactorial(number)}");\n    }\n\n    static int CalculateFactorial(int n) {\n        return n <= 1 ? 1 : n * CalculateFactorial(n - 1);\n    }\n}

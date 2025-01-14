@@ -1,1 +1,0 @@
-string connectionString = ConfigurationManager.ConnectionStrings["SecureDB"].ConnectionString;

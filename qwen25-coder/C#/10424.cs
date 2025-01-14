@@ -1,1 +1,0 @@
-public class MyDataService : DataService<MyDataContext>\n    {\n        public static void InitializeService(DataServiceConfiguration config)\n        {\n            config.SetEntitySetAccessRule("UserDetails", EntitySetRights.All);\n            // other entity sets...\n            config.DataServiceBehavior.MaxProtocolVersion = DataServiceProtocolVersion.V2;\n        }\n    }

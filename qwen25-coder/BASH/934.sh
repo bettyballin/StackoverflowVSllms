@@ -1,1 +1,0 @@
-# For PHP\nab -n 1000 -c 5 http://yourphpapp.com/\n\n# For Pylons (and Python in general)\nab -n 1000 -c 5 http://yourpylonsapp.com/

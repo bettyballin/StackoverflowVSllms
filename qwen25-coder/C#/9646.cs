@@ -1,1 +1,0 @@
-str.Read(xnl, 0, usn - 1)

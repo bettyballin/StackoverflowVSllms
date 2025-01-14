@@ -1,1 +1,0 @@
-SmtpClient emailClient = new SmtpClient("mail.sortuv.com", 587);\n    emailClient.EnableSsl = true;

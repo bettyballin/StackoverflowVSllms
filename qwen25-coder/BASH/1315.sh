@@ -1,1 +1,0 @@
-chmod 600 ~/.my.cnf\n   chown root:wheel ~/.my.cnf

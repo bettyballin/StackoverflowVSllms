@@ -1,1 +1,0 @@
-regsvr32 "path_to_your_dll.dll"

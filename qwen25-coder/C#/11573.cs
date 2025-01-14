@@ -1,1 +1,0 @@
-var ultraComboEditor = new Infragistics.Win.UltraWinEditors.UltraComboEditor();

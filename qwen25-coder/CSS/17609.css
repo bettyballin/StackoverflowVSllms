@@ -1,1 +1,0 @@
-@media (max-width: 480px) {\n    .button-container {\n        flex-direction: column; /* Stack buttons vertically on smaller screens */\n    }\n  }

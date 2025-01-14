@@ -1,1 +1,0 @@
-# Example of a script setting all files/dirs writable by the owner\n   find /path/to/share -type d -exec chmod 755 {} \;\n   find /path/to/share -type f -exec chmod 644 {} \;

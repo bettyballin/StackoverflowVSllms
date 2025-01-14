@@ -1,1 +1,0 @@
-using System;\n\nclass Program\n{\n    static void Main()\n    {\n        try\n        {\n            // Simulate a critical error condition\n            throw new Exception("Critical Error Detected");\n        }\n        catch (Exception e)\n        {\n            Environment.FailFast($"Application terminating due to critical failure: {e.Message}");\n        }\n    }\n}

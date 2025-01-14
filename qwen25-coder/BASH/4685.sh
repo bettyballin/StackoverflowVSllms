@@ -1,1 +1,0 @@
-wget -S --spider -T 1 -t 1 -O /dev/null http://myurl.com:15000/myhtml.html 2>&1 | grep "HTTP/1.1 302 Found"

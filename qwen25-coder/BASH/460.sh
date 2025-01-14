@@ -1,1 +1,0 @@
-sudo systemctl start miniupnpd\nsudo systemctl enable miniupnpd

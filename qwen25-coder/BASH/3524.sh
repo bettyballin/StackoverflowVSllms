@@ -1,1 +1,0 @@
-# Step 1: Identify the modules used by your app\njdeps --module-path mods -s -m com.your.module | grep requires\n\n# Step 2: Create the custom JDK image\n$JAVA_HOME/bin/jlink \\n--module-path $JAVA_HOME/jmods \\n--add-modules java.base,java.logging,java.net.http,jdk.unsupported,jdk.jfr,jdk.crypto.ec \\n--output mycustomjre

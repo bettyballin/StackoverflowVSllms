@@ -1,1 +1,0 @@
-dmesg | grep <your-app-relevant-keywords>

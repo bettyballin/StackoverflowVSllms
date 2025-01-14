@@ -1,1 +1,0 @@
-openssl pkcs12 -export -in wildcard.crt -inkey wildcard.key -out wildcard.pfx -passout pass:password

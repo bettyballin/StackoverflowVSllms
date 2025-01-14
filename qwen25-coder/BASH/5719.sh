@@ -1,1 +1,0 @@
-mkdir -p ~/rpmbuild/{BUILD,RPMS,SOURCES,SPECS,SRPMS,tmp}\nexport RPM_BUILD_ROOT=~/rpmbuild/BUILDROOT\nexport RPM_DATABASE_HOME=~/rpmdb

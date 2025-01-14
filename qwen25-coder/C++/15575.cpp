@@ -1,1 +1,0 @@
-private:\n    CComPtr<IRawPdu> getRawPdu(); // Return a copy of the CComPtr\n\n    CComPtr<IRawPdu> mRawPdu; // Initialized to 0 in the ctor

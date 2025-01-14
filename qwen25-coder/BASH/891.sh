@@ -1,1 +1,0 @@
-for file in *; do\n    awk '{print $0 " '"$file"'"}' "$file" > "${file%.tmp}.new"\n    mv "${file%.tmp}.new" "$file"\ndone

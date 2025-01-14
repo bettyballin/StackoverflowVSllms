@@ -1,1 +1,0 @@
-# Set the default 'group' permission to rwx for all new directories and files in /svn/db/revs/\n   setfacl -d -m g::rwx /svn/db/revs/\n\n   # Apply recursively to existing directories as well if needed\n   chmod g+s /svn/db/revs/

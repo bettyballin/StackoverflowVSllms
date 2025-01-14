@@ -1,1 +1,0 @@
-javap -verbose YourClassName

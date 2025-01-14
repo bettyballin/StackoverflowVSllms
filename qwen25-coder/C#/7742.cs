@@ -1,1 +1,0 @@
-using System;\n\nclass Program\n{\n    static void Main()\n    {\n#if DEBUG\n        Console.WriteLine("Running in Debug Mode");\n#else\n        Console.WriteLine("Running in Release Mode");\n#endif\n    }\n}

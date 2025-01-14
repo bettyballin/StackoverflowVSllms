@@ -1,1 +1,0 @@
-sudo mkdir -p /var/run/lighttpd\nsudo chown nobody:nogroup /var/run/lighttpd  # Adjust ownership as required by your setup

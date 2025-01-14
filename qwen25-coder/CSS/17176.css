@@ -1,1 +1,0 @@
-#container {\n    display: table;\n}\n\n#container > div {\n    display: table-cell;\n}\n\n#container {\n    direction: rtl; /* This makes the cells align in reverse order visually */\n}

@@ -1,1 +1,0 @@
-# Example script to back up SMS from Android to a remote server using adb (Android Debug Bridge)\n   \n   # Ensure you have enabled USB debugging on your device and connected it via USB.\n   adb pull /sdcard/sms-backup.xml\n   \n   # Use SCP or any other method to transfer the backup file to a central server\n   scp sms-backup.xml user@remote-server:/path/to/backup

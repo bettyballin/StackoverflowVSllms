@@ -1,1 +1,0 @@
-#include <windows.h>\nint main() {\n    HANDLE hMutex = CreateMutex(NULL, TRUE, TEXT("MyApplicationUpdateLock"));\n    // Perform your exit process here\n    ReleaseMutex(hMutex);\n    ExitProcess(0);\n}

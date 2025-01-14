@@ -1,1 +1,0 @@
-#include <windows.h>\n\nvoid CopyMyFile(LPCTSTR sourcePath, LPCTSTR destinationPath)\n{\n    if (!CopyFile(sourcePath, destinationPath, FALSE))\n    {\n        DWORD error = GetLastError();\n        // Handle the error based on error code if necessary\n        TRACE(_T("Failed to copy file. Error: %d\n"), error);\n    }\n}

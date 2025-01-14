@@ -1,1 +1,0 @@
-# Example of updating Anti-malware (assuming Windows Defender)\n   Update-MpSignature

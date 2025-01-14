@@ -1,1 +1,0 @@
-class Point {\npublic:\n    int X;\n    int Y;\n\n    Point(int x, int y) : X(x), Y(y) {}\n};\n\nint main() {\n    Point point(10, 20);\n    point.X = 30; // Changing X does not affect Y\n}

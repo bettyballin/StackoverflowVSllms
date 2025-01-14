@@ -1,1 +1,0 @@
-g++ -o monitorProcess monitorProcess.cpp -lpsapi

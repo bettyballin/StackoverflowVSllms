@@ -1,1 +1,0 @@
-umount /mnt/ntfsdrive\n   mount -a

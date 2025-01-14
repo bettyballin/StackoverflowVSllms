@@ -1,1 +1,0 @@
-keytool -genkeypair -alias tomcat -keyalg RSA -keysize 2048 -keystore tomcat.jks -validity 3650

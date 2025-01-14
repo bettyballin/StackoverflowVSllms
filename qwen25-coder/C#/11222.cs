@@ -1,1 +1,0 @@
-using (var db = new YourDataContext())\n{\n    // Set the Log property of your DataContext instance\n    db.Log = Console.Out; // This will output logs to the console\n\n    try\n    {\n        // Your LINQ to SQL operations here\n        db.SubmitChanges();\n    }\n    catch (Exception ex)\n    {\n        // Handle exception\n        Console.WriteLine(ex.Message);\n    }\n}

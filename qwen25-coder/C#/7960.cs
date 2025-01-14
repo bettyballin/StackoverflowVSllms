@@ -1,1 +1,0 @@
-int a = GetProviderForType(myType).Count;\nint b = GetProviderForType1(myType).Count();

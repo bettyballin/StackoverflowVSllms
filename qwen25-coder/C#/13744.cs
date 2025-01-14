@@ -1,1 +1,0 @@
-@using (Html.BeginForm())\n{\n    @Html.NavigateButton("Submit", (HomeController c) => c.MyAction())\n}

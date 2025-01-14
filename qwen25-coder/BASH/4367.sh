@@ -1,1 +1,0 @@
-pdepend --jdepend-chart=target/pdepend/dependencies.svg src

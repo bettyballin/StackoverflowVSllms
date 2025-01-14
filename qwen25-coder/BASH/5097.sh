@@ -1,1 +1,0 @@
-# Example command for the second test measuring amount in euros\nhobbitd_rrd.sh euro_test "NCV 500000"

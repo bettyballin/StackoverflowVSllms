@@ -1,1 +1,0 @@
-private static readonly Object syncHandle = new Object();\n\npublic void MyThreadSafeMethod()\n{\n    lock (syncHandle)\n    {\n        // Critical section of code\n    }\n}

@@ -1,1 +1,0 @@
-.container {\n  display: flex;\n  justify-content: center; /* Centers the child horizontally */\n}\n\n.content {\n  display: inline-block; /* Ensures .content behaves as a block without fixed width */\n}

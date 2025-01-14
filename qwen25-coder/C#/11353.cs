@@ -1,1 +1,0 @@
-// Example ADO.NET Data Service in Silverlight\nMyDataService client = new MyDataService(new Uri("http://serviceurl/Service.svc"));\nclient.GetDataCompleted += (s, e) => {\n    var result = e.Result;\n};\nclient.GetDataAsync();

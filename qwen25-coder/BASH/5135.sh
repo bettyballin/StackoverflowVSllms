@@ -1,1 +1,0 @@
-gcc -c -Wall -Werror -fPIC mylib.c -o mylib.o\ngcc -shared -o libmylib.so mylib.o

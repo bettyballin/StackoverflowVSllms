@@ -1,1 +1,0 @@
-gs -sDEVICE=pdfwrite -o output.pdf input.ps

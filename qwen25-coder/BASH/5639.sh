@@ -1,1 +1,0 @@
-php -d xdebug.remote_start=1 /path/to/your-script.php

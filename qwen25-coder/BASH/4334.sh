@@ -1,1 +1,0 @@
-sed -i '/^UNLOCK TABLES;/d' restore_table_script.sql

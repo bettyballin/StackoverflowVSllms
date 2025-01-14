@@ -1,1 +1,0 @@
-# Example of archiving with cpio and gzip\nfind AWK awk awk_tip awk_notes -print | cpio -ov > myarchive.cpio\ngzip myarchive.cpio  # To compress

@@ -1,1 +1,0 @@
-- To identify the UNIX variant, you can use commands like:

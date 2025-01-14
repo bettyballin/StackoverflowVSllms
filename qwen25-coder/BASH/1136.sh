@@ -1,1 +1,0 @@
-python -m venv my_project_env\n   source my_project_env/bin/activate  # On Windows use `my_project_env\Scripts\activate`

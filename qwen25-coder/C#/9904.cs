@@ -1,1 +1,0 @@
-[Authorize] // Requires user to be authenticated\n   public JsonResult FindWidgets()\n   {\n       var data = GetWidgetData(); \n       return Json(data);\n   }

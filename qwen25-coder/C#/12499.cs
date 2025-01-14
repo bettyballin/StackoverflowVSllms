@@ -1,1 +1,0 @@
-List<int> A = new List<int>();\n  for (int i = 0; i < 200; i++) A.Add(i);\n  int s=0;\n  for (int j = 0; j < 100000; j++)\n  {\n      for (int c = 0; c < A.Count; c++) s += A[c];\n  }

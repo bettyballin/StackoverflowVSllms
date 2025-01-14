@@ -1,1 +1,0 @@
-# On Ubuntu/Debian\nsudo apt update\nsudo apt install racket\n\n# On macOS (using Homebrew)\nbrew install --cask racket

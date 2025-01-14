@@ -1,1 +1,0 @@
-sudo pear upgrade-all

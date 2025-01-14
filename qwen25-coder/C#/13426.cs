@@ -1,1 +1,0 @@
-mem_stream.Seek(0, SeekOrigin.Begin);\n   byte[] bytes = new byte[mem_stream.Length];\n   int len = mem_stream.Read(bytes, 0, (int)mem_stream.Length);\n   Response.AddHeader("content-length", len.ToString());\n   Response.BinaryWrite(bytes);

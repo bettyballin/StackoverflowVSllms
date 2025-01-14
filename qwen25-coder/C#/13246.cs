@@ -1,1 +1,0 @@
-foreach (DataRow row in dataTable.Rows) {\n       if (row.IsNull("ColumnName")) { // Example for non-null constraint\n           throw new Exception("Column cannot be null");\n       }\n   }

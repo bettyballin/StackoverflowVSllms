@@ -1,1 +1,0 @@
-// Detect the namespace used.\nXNamespace ns = xDoc.Root.GetDefaultNamespace();\n\n// Use the detected namespace for querying.\nvar x = xDoc.Descendants(ns + "div");

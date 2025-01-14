@@ -1,1 +1,0 @@
-public class SalesSummaryModel\n{\n    public decimal TotalSales { get; set; }\n    // other properties...\n}\n\npublic class UserActivityModel\n{\n    public int ActiveUsersCount { get; set; }\n    // other properties...\n}

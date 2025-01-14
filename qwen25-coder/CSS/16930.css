@@ -1,1 +1,0 @@
-/* Example: Scale H1 based on viewport width */\n@media (max-width: 600px) {\n    h1 {\n        font-size: 24px;\n    }\n}\n\n@media (min-width: 601px) and (max-width: 900px) {\n    h1 {\n        font-size: 32px;\n    }\n}\n\n@media (min-width: 901px) {\n    h1 {\n        font-size: 48px;\n    }\n}

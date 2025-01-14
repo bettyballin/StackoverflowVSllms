@@ -1,1 +1,0 @@
-#!/bin/bash\n\nSESSION_NAME="app-session"\nUSER_CHECK=$(whoami)\n\nif screen -list | grep "$SESSION_NAME"; then\n    echo "Session $SESSION_NAME is already in use."\n    exit 1\nelse\n    # Start a new session if no one is using it\n    screen -S "$SESSION_NAME" -dm bash\nfi\n\n# Attach to the session.\nscreen -r "$SESSION_NAME"

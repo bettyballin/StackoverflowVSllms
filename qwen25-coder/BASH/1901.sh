@@ -1,1 +1,0 @@
-# Add a new wireless network profile\nnetsh wlan add profile filename="ProfileName.xml" keyMaterial="YourPassphraseHere" keyUsage=persistent ssid="YourSSID"\n\n# Connect to the specified wireless network using the profile\nnetsh wlan connect name="YourSSID"

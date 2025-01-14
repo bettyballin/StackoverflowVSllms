@@ -1,1 +1,0 @@
-# Add this line at the end of /etc/sudoers\n    username ALL=(ALL) NOPASSWD: /usr/local/bin/myscript.sh

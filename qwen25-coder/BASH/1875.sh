@@ -1,1 +1,0 @@
-stsadm -o deletecontentdb -url "http://your-site-collection-url" -databasename "SharePoint_ContentDB"

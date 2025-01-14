@@ -1,1 +1,0 @@
-git clone <URL_OF_YOUR_REPO> ~/.emacs.d

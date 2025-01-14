@@ -1,1 +1,0 @@
-REM Compile your source file(s) into object files\ncl /LD /W3 dllmain.c myfunctions.c /Fe:mydll.dll\n\nREM If you need more control, you can separate compilation and linking:\ncl /c dllmain.c myfunctions.c\n\nREM Then link them into a DLL with an import library\nlink dllmain.obj myfunctions.obj /DLL /out:mydll.dll

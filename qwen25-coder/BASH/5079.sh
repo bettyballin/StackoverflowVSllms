@@ -1,1 +1,0 @@
-export CFLAGS="$CFLAGS -I/usr/local/mysql/include/mysql"

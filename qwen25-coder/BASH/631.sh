@@ -1,1 +1,0 @@
-find . -name '*.php' -exec sed -i '' 's/[[:space:]]*$//' {} +

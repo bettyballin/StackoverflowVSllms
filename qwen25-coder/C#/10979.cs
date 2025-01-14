@@ -1,1 +1,0 @@
-using System.Text.RegularExpressions;\n\npublic class Encoder\n{\n    private static readonly Regex _badAmpersand = new Regex("&(?![a-zA-Z]{2,6};|#[0-9]{2,4};)");\n\n    public string EncodeForXml(string data)\n    {\n        data = _badAmpersand.Replace(data, "&amp;");\n\n        // more processing\n\n        return data;\n    }\n}

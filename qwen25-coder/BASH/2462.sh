@@ -1,1 +1,0 @@
-# First, install gas-preprocessor.pl if not already installed\ngit clone https://github.com/mirror/gas-preprocessor.git\ncd gas-preprocessor\n\n# Assuming you have an AT&T syntax assembly file named your_source_file.s\n./gas-preprocessor.pl --force-intel-syntax ./your_source_file.s -o output_in_intel_syntax.s

@@ -1,1 +1,0 @@
-using (var context = new YourDataContext())\n{\n    string insertQuery = "INSERT INTO YourTable (Column1, Column2) VALUES ('Value1', 'Value2'), ('Value3', 'Value4')";\n    int numberOfInsertedRecords = context.ExecuteCommand(insertQuery);\n    \n    Console.WriteLine($"Number of inserted records: {numberOfInsertedRecords}");\n}

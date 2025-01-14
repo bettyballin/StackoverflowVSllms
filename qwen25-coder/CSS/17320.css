@@ -1,1 +1,0 @@
-/* Ensure consistency by resetting margin and padding */\nlabel {\n    display: flex;\n    align-items: center;\n    margin: 0;\n    padding: 0;\n}\n\ninput[type="checkbox"] {\n    margin-right: 8px; /* Adjust spacing between checkbox and label text */\n    vertical-align: middle; /* Ensures the checkbox is vertically aligned with the label text in some browsers */\n}

@@ -1,1 +1,0 @@
-# Install pngquant and optipng if not already installed\nsudo apt-get install pngquant\nsudo apt-get install optipng\n\n# Use pngquant for palettization (if applicable, reduce colors if image has few colors)\npngquant --quality=100 input.png -o output.png\n\n# Use optipng to further compress the png file without losing quality\noptipng -o7 output.png

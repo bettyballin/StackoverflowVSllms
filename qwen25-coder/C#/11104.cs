@@ -1,1 +1,0 @@
-var result = list.Where(x => x.Value > 10).OrderByDescending(x => x.Date).Select(x => new { x.Name, x.Date });

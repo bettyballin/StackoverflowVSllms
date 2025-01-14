@@ -1,1 +1,0 @@
-0 * * * * /usr/bin/php /path/to/scraper.php >> /var/log/scraper.log 2>&1

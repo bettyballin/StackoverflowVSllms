@@ -1,1 +1,0 @@
-rnObj somefunction()\n{\n    return rnObj();\n}

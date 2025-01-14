@@ -1,1 +1,0 @@
-if [ -z "${mystr+x}" ]; then\n  echo "Variable mystr is not defined."\nelse\n  echo "Variable mystr is defined."\nfi

@@ -1,1 +1,0 @@
-int numberOfGuests = Convert.ToInt32(search.Guest);\nvar list = new List<Guest>();\n\nfor (int i = 1; i <= numberOfGuests; i++)\n{\n    Guest adult = new Guest();\n    adult.Id = i;\n    adult.Title = "Mr";\n    adult.Firstname = "Test";\n    adult.Surname = "Test";\n    list.Add(adult);\n}\n\nGuest[] adults = list.ToArray();

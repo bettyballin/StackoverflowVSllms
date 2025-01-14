@@ -1,1 +1,0 @@
-cvs checkout -P <module-name>

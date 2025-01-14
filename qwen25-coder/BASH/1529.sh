@@ -1,1 +1,0 @@
-aspnet_regiis -pc "MyKeys" -app "/" -prov "RSA"

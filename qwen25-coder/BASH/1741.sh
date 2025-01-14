@@ -1,1 +1,0 @@
-#!/bin/bash\ncase "$1" in\n    start)\n        echo "Starting myapp"\n        # Add commands to start your application here\n        ;;\n    stop)\n        echo "Stopping myapp"\n        # Add commands to stop your application here\n        ;;\n    *)\n        echo "Usage: $0 {start|stop}"\n        exit 1\n        ;;\nesac\nexit 0

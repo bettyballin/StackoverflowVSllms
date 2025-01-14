@@ -1,1 +1,0 @@
-public ActionResult GenerateLetter(int id)\n    {\n        var letter = GetLetterById(id); // Method to fetch data for the letter\n        return View(letter);\n    }

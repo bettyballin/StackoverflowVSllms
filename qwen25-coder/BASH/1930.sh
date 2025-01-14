@@ -1,1 +1,0 @@
-# Recycle Application Pool\n   Restart-WebAppPool -Name "YourAppPoolName"

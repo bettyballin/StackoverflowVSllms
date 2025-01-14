@@ -1,1 +1,0 @@
-[HttpPost]\n   public ActionResult Submit(YourModel model)\n   {\n       if (!ModelState.IsValid)\n       {\n           return View(model);\n       }\n       // Process the data\n       return RedirectToAction("Success");\n   }

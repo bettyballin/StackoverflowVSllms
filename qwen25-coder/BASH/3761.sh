@@ -1,1 +1,0 @@
-echo -ne "\033]1;Your New Title\007"

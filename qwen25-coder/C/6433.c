@@ -1,1 +1,0 @@
-// Example: Using libsodium to encrypt/decrypt data\n   #include <sodium.h>\n   \n   int encrypt_data(unsigned char *plain_text, size_t plain_len, unsigned char *cipher_text, unsigned char *nonce, unsigned char *key) {\n       crypto_secretbox_easy(cipher_text, plain_text, plain_len, nonce, key);\n       return 0; // Success\n   }

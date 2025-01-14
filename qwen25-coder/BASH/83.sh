@@ -1,1 +1,0 @@
-phpstan analyze your_code_directory/

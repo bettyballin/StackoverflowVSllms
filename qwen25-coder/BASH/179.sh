@@ -1,1 +1,0 @@
-# Add the DBeaver repository\nsudo wget -O /etc/yum.repos.d/dbeaver.repo https://dbeaver.io/files/dbeaver.repo\n\n# Import GPG key\nsudo rpm --import https://download-cf.jetbrains.com/dbrepo/gpg-key/public.key\n\n# Install DBeaver\nsudo yum update\nsudo yum install dbeaver-ce

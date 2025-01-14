@@ -1,1 +1,0 @@
-vtune -collect hotspots ./your_program

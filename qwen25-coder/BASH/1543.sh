@@ -1,1 +1,0 @@
-dumpbin /all c:\some\path\to\a\file.dll | findstr "GUID"

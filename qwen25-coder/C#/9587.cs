@@ -1,1 +1,0 @@
-public class Controller : Controller\n{\n    public ActionResult Action(string value)\n    {\n        // Process the input 'value' here\n        return Content(value); // For demonstration, echoing back the received value\n    }\n}

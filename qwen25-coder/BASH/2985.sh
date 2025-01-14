@@ -1,1 +1,0 @@
-#!/bin/bash\n\nREPO_PATH=$1\ncd "$REPO_PATH" && echo "$(basename "$PWD"): $(git describe --tags || git rev-parse HEAD): $(git status -s)"

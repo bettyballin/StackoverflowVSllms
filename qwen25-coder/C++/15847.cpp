@@ -1,1 +1,0 @@
-#include <algorithm> // For std::remove_if\n\nvoid removeTiredElements(std::vector<MyClass>& vec) {\n    vec.erase(\n        std::remove_if(vec.begin(), vec.end(),\n                       [](const MyClass& elem) { return elem.isTiredOfLife(); }),\n        vec.end()\n    );\n}

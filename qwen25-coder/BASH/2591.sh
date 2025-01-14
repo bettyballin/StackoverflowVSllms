@@ -1,1 +1,0 @@
-sudo ufw allow from webserver_ip to any port 3306\n   sudo ufw reload

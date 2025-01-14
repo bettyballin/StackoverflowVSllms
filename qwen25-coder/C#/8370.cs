@@ -1,1 +1,0 @@
-using Microsoft.AspNetCore.Mvc;\n\n[ApiController]\n[Route("api/[controller]")]\npublic class ValuesController : ControllerBase\n{\n    [HttpGet("{id}")]\n    public IActionResult GetValue(int id)\n    {\n        return Ok($"Value for {id}");\n    }\n}

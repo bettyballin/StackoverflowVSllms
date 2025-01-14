@@ -1,1 +1,0 @@
-Guid userLockId;\nif (Session["UserLockId"] == null)\n{\n    userLockId = Guid.NewGuid();\n    Session["UserLockId"] = userLockId;\n}\nelse\n{\n    userLockId = (Guid)Session["UserLockId"];\n}\n\n// Attempt to lock the image using the GUID\nbool lockAcquired = LockImage(imageId, userLockId);\nif (lockAcquired)\n{\n    // Proceed with locking logic\n}

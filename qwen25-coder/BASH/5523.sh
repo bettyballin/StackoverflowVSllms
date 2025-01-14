@@ -1,1 +1,0 @@
-valgrind --tool=callgrind ./your_program\n    kcachegrind callgrind.out.[number]  # Visualize results with KCachegrind or qcachegrind

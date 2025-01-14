@@ -1,1 +1,0 @@
-dotnet new webapi -n MyRestApi\ncd MyRestApi

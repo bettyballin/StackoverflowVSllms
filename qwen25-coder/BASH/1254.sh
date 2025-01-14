@@ -1,1 +1,0 @@
-ruby-prof --printer=flat --output=profile.txt my_app.rb

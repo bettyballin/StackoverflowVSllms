@@ -1,1 +1,0 @@
-# After checking out, set executable permission for specific scripts\nchmod +x path/to/executable/script.sh

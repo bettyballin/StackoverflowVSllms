@@ -1,1 +1,0 @@
-/* Example of media query */\n   @media (max-width: 600px) {\n       .container {\n           width: auto;\n           margin: 1em;\n       }\n   }

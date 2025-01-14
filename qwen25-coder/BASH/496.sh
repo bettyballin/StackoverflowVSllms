@@ -1,1 +1,0 @@
-sudo find / -name mysql_config 2>/dev/null

@@ -1,1 +1,0 @@
-protected void TriggerButton_Click(object sender, EventArgs e)\n{\n    // Load your data here\n    MyGridView.DataSource = GetData();\n    MyGridView.DataBind();\n}

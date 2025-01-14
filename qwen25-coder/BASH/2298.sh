@@ -1,1 +1,0 @@
-# Install required packages (example for Ubuntu/Debian)\nsudo apt-get update\nsudo apt-get install cacti snmpd\n\n# Start services after installation\nsudo systemctl start apache2\nsudo systemctl start mysql\nsudo systemctl start cacti\n\n# Access the web interface to complete setup\n# http://your-server-ip/cacti/

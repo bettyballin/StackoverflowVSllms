@@ -1,1 +1,0 @@
-cleartool protect vob:/vobs/vB -replace "gB:rwx" -add "gA:rx"

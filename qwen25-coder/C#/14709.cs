@@ -1,1 +1,0 @@
-MyTypedDataSet aDataSet = anotherDataSet;\n   aDataSet.Merge(yetAnotherDataSet);

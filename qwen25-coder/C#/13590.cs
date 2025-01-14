@@ -1,1 +1,0 @@
-public class ThemedControl : BaseControl\n{\n    public void ApplyTheme(Color backColor)\n    {\n        this.BackColor = backColor;\n        // Optionally, apply to child controls if necessary\n        foreach (Control child in this.Controls)\n        {\n            child.BackColor = backColor;\n        }\n    }\n}

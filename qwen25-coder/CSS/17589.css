@@ -1,1 +1,0 @@
-/* Style for vertical stacking */\n.containsVerticalElements > div {\n    display: block;\n}\n\n/* Style for containing horizontal elements */\n.containsHorizontalElements {\n    overflow: hidden; /* Clear floats within this container */\n}\n\n/* Style for horizontal elements */\n.isHorizontal {\n    float: left;\n    width: 50%; /* Adjust width as needed */\n}

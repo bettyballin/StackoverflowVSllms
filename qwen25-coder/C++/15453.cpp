@@ -1,1 +1,0 @@
-class example {\n    public:\n        int just_use_a(const a object);  // By default 'a' is passed by reference, const specifies non-modification.\n        int use_and_mess_with_b(b object); // By default 'b' is passed by reference.\n        extern "C" void do_nothing_on_c(c object); // Special case for C linkage.\n};

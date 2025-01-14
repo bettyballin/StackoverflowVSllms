@@ -1,1 +1,0 @@
-# Check MSMQ settings related to TCP\nGet-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Message Queuing\Configuration\Connections' | Select-Object TcpPort, TcpPortSecure\n\n# Check MSMQ settings related to HTTP\n(Get-ItemProperty -Path 'HKLM:\SOFTWARE\Microsoft\Message Queuing\Configuration\Connections' -Name HttpUrlMaskBase).HttpUrlMaskBase

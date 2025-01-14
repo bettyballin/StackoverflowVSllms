@@ -1,1 +1,0 @@
-cscript %windir%\system32\iisvdir.vbs /LM/W3SVC/1/ROOT "<folder>" /ScriptSrcAccess 1

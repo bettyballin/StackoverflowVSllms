@@ -1,1 +1,0 @@
-chmod 400 /path/to/config.php\n   chown www-data:www-data /path/to/config.php

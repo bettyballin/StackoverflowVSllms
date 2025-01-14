@@ -1,1 +1,0 @@
-StringBuilder sb = new StringBuilder();\nstring cat = "cat";\nsb.Append("the ").Append(cat).Append(" in the hat");\nstring s = sb.ToString();

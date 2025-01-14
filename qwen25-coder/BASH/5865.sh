@@ -1,1 +1,0 @@
-psql -f /path/to/yourfile.sql -d database_name --single-transaction --echo-errors

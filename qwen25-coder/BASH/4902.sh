@@ -1,1 +1,0 @@
-python setup.py clean\npython setup.py build\npython setup.py install

@@ -1,1 +1,0 @@
-@echo off\nfindstr /v "simdomain.com" C:\Windows\System32\drivers\etc\hosts > temp_hosts.txt\nmove /y temp_hosts.txt C:\Windows\System32\drivers\etc\hosts

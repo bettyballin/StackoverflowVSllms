@@ -1,1 +1,0 @@
-regasm YourClassLibrary.dll /codebase

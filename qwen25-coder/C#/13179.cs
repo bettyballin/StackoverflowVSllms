@@ -1,1 +1,0 @@
-public class StateModel\n{\n    public string StateInformation { get; set; }\n}

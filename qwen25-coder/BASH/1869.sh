@@ -1,1 +1,0 @@
-# PowerShell command to list all available DPAPI keys stored on a system\n   Get-ChildItem -Path Registry::\CurrentUser\Software\Microsoft\Protected Storage System Provider

@@ -1,1 +1,0 @@
-# Install OpenMPI on Ubuntu\nsudo apt-get update\nsudo apt-get install openmpi-bin libopenmpi-dev

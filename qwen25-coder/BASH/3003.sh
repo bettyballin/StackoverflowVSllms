@@ -1,1 +1,0 @@
-sudo semanage fcontext -a -t httpd_sys_content_t "/home/user/xxx(/.*)?"\n   sudo restorecon -RvZ /home/user/xxx

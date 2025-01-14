@@ -1,1 +1,0 @@
-%windir%\system32\inetsrv\appcmd set config "Default Web Site" /section:system.webServer/httpLogging /dontLogNormally:False /dontLogOnReadOnlyDrive:False /logFormat:IIS /logTarget:w3c

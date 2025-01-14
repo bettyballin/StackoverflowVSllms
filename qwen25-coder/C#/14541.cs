@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack) return;\n\n    var encodedForm = HttpContext.Current.Items["EncodedForm"] as NameValueCollection;\n    if (encodedForm != null)\n    {\n        TextBox1.Text = encodedForm["TextBox1"];\n    }\n}

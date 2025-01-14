@@ -1,1 +1,0 @@
-sn -k MyKey.snk

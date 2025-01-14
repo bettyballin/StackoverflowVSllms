@@ -1,1 +1,0 @@
-plackup --server FCGI app.pl -l /path/to/fcgi.sock

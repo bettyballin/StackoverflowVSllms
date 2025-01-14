@@ -1,1 +1,0 @@
-Pre-Build Event Command Line:\nREM No commands needed here\n\nCustom Build Step / General:\nDescription: Compile with GCC\nCommand line: gcc $(InputPath) -o $(InputDir)$(InputName).exe\nOutputs: $(InputDir)$(InputName).exe\n\nPost-Build Event Command Line:\nREM Optionally, you can add custom post build steps like copying files or running additional scripts.

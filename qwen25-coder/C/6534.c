@@ -1,1 +1,0 @@
-#include <libxml/htmlparser.h>\n   xmlDocPtr parseHTMLDocument(const char *htmlContent) {\n       htmlDocPtr document;\n       document = htmlReadMemory(htmlContent, strlen(htmlContent), "noname.html", NULL, HTML_PARSE_RECOVER);\n       return document;\n   }

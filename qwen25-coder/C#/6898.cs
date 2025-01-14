@@ -1,1 +1,0 @@
-public class YourEntityMap : ClassMap<YourEntity>\n{\n    public YourEntityMap()\n    {\n        Table("YourTableName");\n        \n        // Assuming FileData is a property of Person\n        References(x => x.Person)\n                .PropertyReference(x => x.FileData)\n                .Constrained();\n    }\n}

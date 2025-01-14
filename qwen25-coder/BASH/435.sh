@@ -1,1 +1,0 @@
-sudo apt-get install libc6-dev-i386 # On Debian/Ubuntu systems

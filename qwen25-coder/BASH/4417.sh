@@ -1,1 +1,0 @@
-fn_exists() {\n    type "$1" &> /dev/null && return 0 || return 1\n}

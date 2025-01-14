@@ -1,1 +1,0 @@
-pan.sh -file=/path/to/your_transformation.ktr

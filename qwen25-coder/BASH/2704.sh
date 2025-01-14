@@ -1,1 +1,0 @@
-php -v  # Check PHP installation, should print version info\n   pear version  # Check if PEAR is installed

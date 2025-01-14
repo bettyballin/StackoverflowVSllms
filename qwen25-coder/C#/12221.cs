@@ -1,1 +1,0 @@
-using Microsoft.Extensions.Configuration;\n\n// Assuming IConfiguration is configured elsewhere as _configuration\nstring myQuery = _configuration.GetSection("Queries:MyQuery").Value;

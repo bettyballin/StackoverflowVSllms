@@ -1,1 +1,0 @@
-cd C:\InstantRails\Apache\bin\n   httpd -k restart

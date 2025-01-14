@@ -1,1 +1,0 @@
-public class User {\n    public string FirstName { get; set; }\n    public string LastName { get; set; }\n}

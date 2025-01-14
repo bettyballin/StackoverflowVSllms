@@ -1,1 +1,0 @@
-# Navigate to the directory where rkru.exe is located or provide full path\ncd /path/to/rootkitrevealer\n\n# Run RootKitRevealer\n./rkuninst.exe

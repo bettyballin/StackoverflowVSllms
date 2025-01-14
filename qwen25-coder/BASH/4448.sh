@@ -1,1 +1,0 @@
-awk 'NR==1 {gsub(/ /,"_")} {print}' yourfile.txt > newfile.txt

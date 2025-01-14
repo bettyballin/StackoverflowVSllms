@@ -1,1 +1,0 @@
-#!/bin/bash\n   # Your app would use $DB_PASSWORD to connect to the database\n   /path/to/your/app --db-password=$DB_PASSWORD

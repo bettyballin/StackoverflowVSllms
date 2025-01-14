@@ -1,1 +1,0 @@
-git add --intent-to-add yourfile.php

@@ -1,1 +1,0 @@
-sudo dpkg -i ../game_<version>_all.deb

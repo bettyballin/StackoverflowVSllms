@@ -1,1 +1,0 @@
-mkdir myapp-war\n   cd myapp-war\n   jar -xvf /path/to/original.war

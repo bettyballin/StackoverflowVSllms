@@ -1,1 +1,0 @@
-var results = from rs in db.ratesSchedule\n              join ud in db.userdetails on rs.sid equals ud.sid\n              where rs.tabletype == "d"\n              select new { rs, ud };

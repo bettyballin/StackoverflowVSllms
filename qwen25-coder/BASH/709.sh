@@ -1,1 +1,0 @@
-svn add tests/foo.zip

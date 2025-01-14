@@ -1,1 +1,0 @@
-runas /user:DOMAIN\Username "C:\PathToYourExecutable.exe"

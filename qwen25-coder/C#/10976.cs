@@ -1,1 +1,0 @@
-using Ganss.XSS;\n\n   public string SanitizeHtml(string html)\n   {\n       var sanitizer = new HtmlSanitizer();\n       // Optionally, you can configure the allowed tags and attributes\n       // sanitizer.AllowedTags.Add("strong");\n       return sanitizer.Sanitize(html);\n   }

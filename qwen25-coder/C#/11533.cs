@@ -1,1 +1,0 @@
-public bool IsRunningUnderWebServer()\n{\n    return HttpContext.Current != null;\n}

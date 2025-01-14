@@ -1,1 +1,0 @@
-var result = myService1.HelloWorld3();\nConsole.WriteLine(result.StrVal1);\nConsole.WriteLine(result.StrVal2);

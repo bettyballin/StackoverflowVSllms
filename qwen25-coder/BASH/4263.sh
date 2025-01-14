@@ -1,1 +1,0 @@
-printf '\x02\x03' > ascii_codes.bi

@@ -1,1 +1,0 @@
-rclone sync "source_folder" "sftpremote:destination_folder"

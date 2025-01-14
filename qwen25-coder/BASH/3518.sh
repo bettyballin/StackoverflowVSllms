@@ -1,1 +1,0 @@
-gcc -o test_add test_add.c /usr/lib/libcmocka.so\n   ./test_add

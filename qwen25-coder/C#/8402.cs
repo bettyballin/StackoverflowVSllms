@@ -1,1 +1,0 @@
-public partial class MyWinForm : Form\n{\n    public MyWinForm()\n    {\n        InitializeComponent();\n\n        // Assuming 'elementHost1' is your ElementHost \n        var userControl = new MyWpfUserControl();\n        elementHost1.Child = userControl;\n\n        userControl.IsValidChanged += (s, e) =>\n            saveButton.Enabled = ((MyWpfUserControl)s).IsValid;\n    }\n}

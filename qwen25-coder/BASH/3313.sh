@@ -1,1 +1,0 @@
-%SystemRoot%\Microsoft.NET\Framework\<version>\regasm.exe delphitocsharp.dll /codebase /tlb:delphitocsharp.tlb

@@ -1,1 +1,0 @@
-protoc --c_out=. data.proto

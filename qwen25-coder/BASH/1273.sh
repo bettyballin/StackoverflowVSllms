@@ -1,1 +1,0 @@
-aspnet_compiler -v / -physicalpath "C:\Path\To\YourWebsite" "C:\Path\To\Compiled"

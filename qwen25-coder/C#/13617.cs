@@ -1,1 +1,0 @@
-[ServiceContract]\npublic interface IService1\n{\n    [OperationContract]\n    [WebInvoke(Method = "GET",\n        ResponseFormat = WebMessageFormat.Json,\n        UriTemplate = "/MethodName?param1={param1}&param2={param2}")]\n    string MethodName(string param1, string param2);\n}

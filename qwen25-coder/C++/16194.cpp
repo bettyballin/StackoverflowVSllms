@@ -1,1 +1,0 @@
-// Example: This is not actual code you would run but an illustrative snippet to show managing extensions conceptually.\nvoid ManageExtensions() {\n    // Open Extensions Manager from the Visual Studio menu or shortcut.\n    // Search for desired extension like "PHP Tools" or "Web Essentials".\n    // Click Install and follow the prompts provided by Visual Studio.\n}

@@ -1,1 +1,0 @@
-sudo a2enmod rewrite headers env dir mime setenvif

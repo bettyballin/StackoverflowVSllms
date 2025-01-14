@@ -1,1 +1,0 @@
-awk '{gsub(/foo/, "foo_" (++count["foo" $1]))} 1' file.txt

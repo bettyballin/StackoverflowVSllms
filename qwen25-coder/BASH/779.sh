@@ -1,1 +1,0 @@
-brew link --force --overwrite php@7.4

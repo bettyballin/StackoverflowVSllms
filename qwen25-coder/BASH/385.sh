@@ -1,1 +1,0 @@
-mvn dependency:tree > target/dependency-tree.txt

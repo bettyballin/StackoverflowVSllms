@@ -1,1 +1,0 @@
-using System.Security.Cryptography;\n\npublic string GenerateSecureToken()\n{\n    var randomNumber = new byte[32];\n    using (var rng = RandomNumberGenerator.Create())\n    {\n        rng.GetBytes(randomNumber);\n    }\n    return Convert.ToBase64String(randomNumber);\n}

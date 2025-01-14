@@ -1,1 +1,0 @@
-# Include directory for newmat headers\nINCLUDEPATH += C:/path/to/newmat\n\n# Library directory for libnewmat.a\nLIBS += -LC:/path/to/libraries -lnewmat\n\n# Check if the library exists\n!exists(C:/path/to/libraries/libnewmat.a) {\n    error("libnewmat.a does not exist")\n}

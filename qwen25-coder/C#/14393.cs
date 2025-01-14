@@ -1,1 +1,0 @@
-public class Baz\n{\n    [DataGridViewColumnTitle("Foo bar")]\n    public string Foo { get; set; }\n}

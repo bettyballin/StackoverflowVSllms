@@ -1,1 +1,0 @@
-// C++\nstd::string message = "Hello, world!";

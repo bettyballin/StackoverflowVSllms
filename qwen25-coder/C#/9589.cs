@@ -1,1 +1,0 @@
-public JsonResult GetData()\n{\n    var variable1 = "value1";\n    var variable2 = "value2";\n\n    return Json(new { Variable1 = variable1, Variable2 = variable2 }, JsonRequestBehavior.AllowGet);\n}

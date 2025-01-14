@@ -1,1 +1,0 @@
-find /path/to/search -type f -size 0c -delete

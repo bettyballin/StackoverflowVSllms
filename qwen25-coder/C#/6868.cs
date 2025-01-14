@@ -1,1 +1,0 @@
-var isValid = QueryStringSecurity.ValidateHmacSha256(\n      providedHash: Request.QueryString["hmac"],\n      ("param1", Request.QueryString["param1"]),\n      ("param2", Request.QueryString["param2"])\n  );

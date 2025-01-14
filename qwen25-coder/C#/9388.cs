@@ -1,1 +1,0 @@
-// Check if the user is logged in\nif (HttpContext.Current.User.Identity.IsAuthenticated)\n{\n    // User is logged in\n} else {\n    // User is not logged in, redirect to login page\n    Response.Redirect("~/LogIn.aspx");\n}

@@ -1,1 +1,0 @@
-# Example composer command to install PHPUnit\ncomposer require --dev phpunit/phpunit ^10

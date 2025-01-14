@@ -1,1 +1,0 @@
-# Navigate to Event Viewer via command line (if needed)\n   eventvwr.msc

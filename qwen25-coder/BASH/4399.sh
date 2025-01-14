@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# List of Rails gems to generate RDoc for\ngems=("rails" "activerecord" "actionpack" "activesupport" "railties" "actionview" "actionmailer" "activejob" "actioncable")\n\nfor gem in "${gems[@]}"; do\n  echo "Generating RDoc for $gem..."\n  sudo gem rdoc "$gem" --no-ri\ndone\n\necho "RDoc generation completed."

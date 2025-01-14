@@ -1,1 +1,0 @@
-gdb /path/to/php /path/to/core/file

@@ -1,1 +1,0 @@
-wp plugin install stage-showtime --activate

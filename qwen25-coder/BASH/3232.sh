@@ -1,1 +1,0 @@
-// Example command for WCAT to run a simple performance test\n   wcat /profile:MyProfile.xml

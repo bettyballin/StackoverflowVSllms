@@ -1,1 +1,0 @@
-robocopy \\source\share \\destination\share /MIR /Z /LOG+:robocopylog.txt

@@ -1,1 +1,0 @@
-// shared_state.cpp\n#include "shared_state.h"\n\nbool g_isSet = false;

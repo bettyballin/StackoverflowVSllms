@@ -1,1 +1,0 @@
-# Example command to disable all authentication methods in IIS\n   %windir%\system32\inetsrv\AppCmd set config "YourSiteName" /section:system.webServer/security/authentication/anonymousAuthentication /enabled:true\n   %windir%\system32\inetsrv\AppCmd set config "YourSiteName" /section:system.webServer/security/authentication/formsAuthentication /mode:o

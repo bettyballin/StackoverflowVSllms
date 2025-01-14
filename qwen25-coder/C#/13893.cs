@@ -1,1 +1,0 @@
-// Assuming cmd is your MySqlCommand object and postOld.URL is a string containing the URL\ncmd.Parameters.Add("@post_url", MySqlDbType.VarChar, 255).Value = postOld.URL;

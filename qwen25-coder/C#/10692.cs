@@ -1,1 +1,0 @@
-foreach (var item in collection) {\n      // Process item\n  }

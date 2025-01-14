@@ -1,1 +1,0 @@
-# Initialize an empty string to hold directory paths\npaths=""\n\n# Use find command to locate all subdirectories and add them to 'paths'\nfor dir in $(find ~/code/ -type d); do\n    paths+=$dir":"\ndone\n\n# Add the collected directories to PATH, remove the last colon\nexport PATH=$PATH:${paths%:}

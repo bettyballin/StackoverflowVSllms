@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nint main() {\n    int x = 10;\n    char message[25] = "The value of x is";\n    \n    // This will show an error in IDEs that support type checking,\n    // as printf expects a format specifier for the integer.\n    printf(message, x);\n    \n    return 0;\n}

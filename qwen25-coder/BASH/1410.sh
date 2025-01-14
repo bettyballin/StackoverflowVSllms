@@ -1,1 +1,0 @@
-icacls C:\path\to\file /grant username:F

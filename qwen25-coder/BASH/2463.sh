@@ -1,1 +1,0 @@
-# Command to run Apache Bench with 100 total requests, in 20 concurrent connections\nab -n 100 -c 20 http://testserver/submitdata?ax=value1&ay=value2&az=value3

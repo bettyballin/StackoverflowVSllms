@@ -1,1 +1,0 @@
-// Example of using Windows API via P/Invoke in C#\n  [DllImport("user32.dll", CharSet = CharSet.Auto)]\n  public static extern IntPtr SendMessage(IntPtr hWnd, uint Msg, IntPtr wParam, IntPtr lParam);

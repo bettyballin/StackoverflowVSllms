@@ -1,1 +1,0 @@
-# Example command to bind a PCI device to VFIO on a Linux system\n   sudo sh -c 'echo "vfio-pci" > /sys/bus/pci/devices/$DEVICE_ID/driver_override && echo "$DEVICE_ID" > /sys/bus/pci/drivers/vfio-pci/bind'

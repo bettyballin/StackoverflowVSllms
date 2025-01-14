@@ -1,1 +1,0 @@
-// Example: Setting Debug Info programmatically (usually done via project settings GUI)\nvar project = ProjectCollection.GlobalProjectCollection.GetLoadedProjects("YourProject.csproj").First();\nproject.SetProperty("DebugType", "full"); // Can be "none", "pdbonly", or "full"

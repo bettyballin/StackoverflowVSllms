@@ -1,1 +1,0 @@
-/* Define a font family and source URL */\n@font-face {\n    font-family: 'DinEngshrift';\n    src: url('path/to/dinengshrift.woff2') format('woff2'),\n         url('path/to/dinengshrift.ttf') format('truetype');\n}\n\n/* Apply the custom font to an element */\nbody {\n    font-family: 'DinEngshrift', sans-serif;\n}

@@ -1,1 +1,0 @@
-m -gC your_object_file.o | less

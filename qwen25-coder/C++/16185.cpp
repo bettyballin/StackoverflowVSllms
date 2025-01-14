@@ -1,1 +1,0 @@
-for (auto it = gFred.begin(); it != gFred.end(); ++it) {\n    Fred &fred = *it;\n    // do processing with fred\n\n    if (fred.lastElementInSet)\n        break;\n}

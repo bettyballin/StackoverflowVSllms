@@ -1,1 +1,0 @@
-@echo off\nREM Kill specific processes\ntaskkill /F /IM processname1.exe\ntaskkill /F /IM processname2.exe\ntaskkill /F /IM processname3.exe\nREM Add more lines for as many processes as needed\n\nREM Optionally, you can add a delay before continuing or perform other tasks\n timeout /t 5

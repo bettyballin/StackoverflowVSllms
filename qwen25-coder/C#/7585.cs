@@ -1,1 +1,0 @@
-ScriptManager.RegisterStartupScript(this.Page, typeof(LeaveApproval), "ShowSuccess", "window.opener = self; self.close();", true);

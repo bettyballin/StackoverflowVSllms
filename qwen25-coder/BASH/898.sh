@@ -1,1 +1,0 @@
-wget https://github.com/revive-adserver/revive-adserver/releases/download/v4.x/OpenX-4.x-full.tar.gz

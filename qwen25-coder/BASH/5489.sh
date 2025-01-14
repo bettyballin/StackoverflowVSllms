@@ -1,1 +1,0 @@
-# Example command to create a database backup using MySQL\nmysqldump -u username -p my_database > db_backup.sql

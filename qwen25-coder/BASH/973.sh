@@ -1,1 +1,0 @@
-cd /path/to/git/repository\ngit apply patchfile.diff

@@ -1,1 +1,0 @@
-scp importantFile.txt slave@theServerAddress:/pathToFile/\n   ssh slave@theServerAddress "sudo chown master:master /pathToFile/importantFile.txt"

@@ -1,1 +1,0 @@
-#include <iostream>\n\nint main() {\n    unsigned int value = 0;\n    \n    // Using bitwise OR to set bit at position 3\n    value |= (1 << 3);\n    \n    std::cout << "Bitwise operation result: " << value << std::endl; // Outputs 8\n    \n    return 0;\n}

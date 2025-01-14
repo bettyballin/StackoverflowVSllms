@@ -1,1 +1,0 @@
-gcc -fprofile-arcs -ftest-coverage -pthread your_source.c -o your_program

@@ -1,1 +1,0 @@
-public IEnumerable<Restaurant> All()\n{\n    return _context.Restaurants.Select(r => new \n    {\n        r.Id,\n        r.Name\n    })\n    .ToList() // Materialize results into memory\n    .Select(x => new Restaurant(x.Id) { Name = x.Name });\n}

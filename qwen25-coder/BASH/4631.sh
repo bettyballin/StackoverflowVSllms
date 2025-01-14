@@ -1,1 +1,0 @@
-sudo chown _www:_www /path/to/database/directory\n     sudo chmod 755 /path/to/database/directory

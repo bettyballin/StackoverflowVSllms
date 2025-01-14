@@ -1,1 +1,0 @@
-System.IO.File.AppendAllText(@"C:\Logs\MyAppLog.txt", "This is a log message.\n");

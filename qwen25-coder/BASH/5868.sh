@@ -1,1 +1,0 @@
-adsutil set /w3svc/[SITE ID]/[APP ROOT]/ScriptMaps /LM/W3SVC/[SITE ID]/Root/ -value:{"/.aspx,C:\Windows\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll,1"}

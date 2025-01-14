@@ -1,1 +1,0 @@
-__asm__(".intel_syntax noprefix");\n__asm__("mov DWORD PTR ds:[0xdeadbeef], 0x1234");

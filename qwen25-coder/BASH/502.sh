@@ -1,1 +1,0 @@
-logman start ASPNETTrace -p {10791526-afba-46fa-810d-ec53c7703c7b} 0xffffffff 0xff -etw.start /microsoft-iis

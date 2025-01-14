@@ -1,1 +1,0 @@
-string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "TEST", "Logs");\n   if (!Directory.Exists(path))\n   {\n       Directory.CreateDirectory(path);\n   }

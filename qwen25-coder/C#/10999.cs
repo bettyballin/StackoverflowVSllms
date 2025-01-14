@@ -1,1 +1,0 @@
-using Castle.ActiveRecord;\n\n[ActiveRecord]\npublic class Product : ActiveRecordBase<Product>\n{\n    [PrimaryKey(Generator = PrimaryKeyType.Native)]\n    public long Id { get; set; }\n\n    [Property(NotNull = true)]\n    public string Name { get; set; }\n\n    [Property(NotNull = true)]\n    public decimal Price { get; set; }\n}

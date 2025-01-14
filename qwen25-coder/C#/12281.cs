@@ -1,1 +1,0 @@
-public class UnsafeCodeExample\n{\n    public unsafe int Copy(int* src, int* dst, int count)\n    {\n        for (int i = 0; i < count; i++)\n        {\n            // Copy value from source to destination\n            dst[i] = src[i];\n        }\n        return count;\n    }\n}

@@ -1,1 +1,0 @@
-protected void BindImages(string[] imageurls)\n{\n    // Set the DataSource of the DataList to the array of image URLs\n    dlImages.DataSource = imageurls;\n    \n    // Bind the DataList\n    dlImages.DataBind();\n}

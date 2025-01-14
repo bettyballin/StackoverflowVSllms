@@ -1,1 +1,0 @@
-curl --http1.0 http://example.com

@@ -1,1 +1,0 @@
-public class MyController : Controller\n{\n    public ActionResult MyAction()\n    {\n        if (Session["MyKey"] == null)\n        {\n            Session["MyKey"] = "SomeValue";\n        }\n\n        var myValue = Session["MyKey"].ToString();\n        // Use the session data\n        return View(myValue);\n    }\n}

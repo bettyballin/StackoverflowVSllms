@@ -1,1 +1,0 @@
-./configure --target=powerpc-wrs-vxworks --enable-languages=c,c++ --disable-gcov

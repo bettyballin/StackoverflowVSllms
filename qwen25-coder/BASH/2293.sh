@@ -1,1 +1,0 @@
-git rm .git/modules/subby/refs/remotes/origin/v1.0~1  # Example of removing an unwanted reference

@@ -1,1 +1,0 @@
-sudo a2enmod fastcgi\n   sudo a2enmod suexec\n   sudo a2enmod actions

@@ -1,1 +1,0 @@
-# Start PerfView for Lock Contention Analysis\nperfview.exe /BufferSizeMB:500 /LocksData /ThreadTime CollectionO

@@ -1,1 +1,0 @@
-#!/bin/bash\n\nresolve_symlinks() {\n    local path="$1"\n    while [ -L "$path" ]; do\n        printf "%s -> " "$path"\n        path=$(readlink "$path")\n        # Make path absolute if necessary\n        [[ $path != /* ]] && path=$(dirname "$1")/$path\n    done\n    printf "%s\n" "$path"\n}\n\nresolve_symlinks "/Library/Java/Home"

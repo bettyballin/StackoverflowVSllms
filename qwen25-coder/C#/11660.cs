@@ -1,1 +1,0 @@
-// Example of simple managed code in C#\nusing System;\n\nclass Program {\n    static void Main() {\n        Console.WriteLine("Hello, managed world!");\n    }\n}

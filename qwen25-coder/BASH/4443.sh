@@ -1,1 +1,0 @@
-# Compile your main source and library sources into object files\ngcc -I/path/to/include -c src/main.c -o src/main.o\ngcc -I/path/to/include -c libfile1.c -o libfile1.o\ngcc -I/path/to/include -c libfile2.c -o libfile2.o\n\n# Link all object files to create the final executable\ngcc src/main.o libfile1.o libfile2.o -o myprogram

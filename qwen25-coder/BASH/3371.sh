@@ -1,1 +1,0 @@
-svnadmin dump c:\path\to\myrepo | 7z a -si svndump.7z -v512m

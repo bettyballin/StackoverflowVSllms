@@ -1,1 +1,0 @@
-// assuming 'iStream' is your IStream instance from the PrintTicket calls:\nusing (var stream = new ComStreamWrapper(iStream))\n{\n    // now you can use .NET Stream operations on stream, for example:\n    var xmlDoc = new XmlDocument();\n    xmlDoc.Load(stream);\n    // further processing...\n}

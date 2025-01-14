@@ -1,1 +1,0 @@
-# Example of initializing a git repository and adding files\ngit init my_repo\ncd my_repo\ncp -r /path/to/your/folders AWK awk awk_tip awk_notes .\ngit add --all\ngit commit -m "Initial commit"

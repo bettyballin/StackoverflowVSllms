@@ -1,1 +1,0 @@
-public class ContentWrapper {\n    public string Content { get; set; }\n}

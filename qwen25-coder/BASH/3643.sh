@@ -1,1 +1,0 @@
-git reset HEAD~1  # Remove the temporary commit\n   git stash pop

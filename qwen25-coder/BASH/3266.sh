@@ -1,1 +1,0 @@
-sudo scp -r /var/named/ user@new-server-ip:/var/named/

@@ -1,1 +1,0 @@
-#include <iostream>\n\nclass Init {\npublic:\n    Init(int v) { std::cout << "Init: " << v << "\n"; }\n};\n\nstatic Init init1(1);\n__attribute__((init_priority(200))) static Init init2(2);\n\nint main() {\n    return 0;\n}

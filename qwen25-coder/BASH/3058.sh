@@ -1,1 +1,0 @@
-sudo grep avc /var/log/audit/audit.log | audit2allow -M httpd_custom_sudo_policy

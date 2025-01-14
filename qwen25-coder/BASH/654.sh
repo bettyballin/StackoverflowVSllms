@@ -1,1 +1,0 @@
-convert output_*.png -append final_output.png

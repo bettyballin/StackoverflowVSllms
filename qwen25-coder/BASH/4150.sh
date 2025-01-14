@@ -1,1 +1,0 @@
-# Example of installing PHP using Microsoft's web platform installer (ancient method, use official binaries now)\nhttps://www.microsoft.com/web/downloads/platform.aspx\n\n# Using Chocolatey to install modern PHP on Windows (recommended)\nchoco install php -y

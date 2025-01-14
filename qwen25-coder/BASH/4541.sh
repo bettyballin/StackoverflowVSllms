@@ -1,1 +1,0 @@
-export TNS_ADMIN=/path/to/your/net/service/directory\n   export ORACLE_TRACE=1\n   export ORA_DEBUG_ON=true

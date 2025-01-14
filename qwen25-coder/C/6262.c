@@ -1,1 +1,0 @@
-typedef enum {\n    NODE,\n    REAL\n} Type;\n\ntypedef struct somestruct {\n    // ...snip...\n    Type type;\n} Somestruct;\n\nSomestruct* something;\nswitch (something->type) {\n    case NODE:\n        // ...stuff...;\n        break;\n    case REAL:\n        // ...otherstuff...;\n        break;\n}

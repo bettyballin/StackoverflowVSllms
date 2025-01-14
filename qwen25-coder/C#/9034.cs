@@ -1,1 +1,0 @@
-// Example MSTest method\n[TestMethod]\npublic void SampleTest()\n{\n    Assert.AreEqual(10, AddNumbers(5, 5));\n}\n\nprivate int AddNumbers(int a, int b)\n{\n    return a + b;\n}

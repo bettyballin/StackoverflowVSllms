@@ -1,1 +1,0 @@
-public class Bar {\n    public List<Foo> foos { get; set; }\n}\n\n// And the query2 part would change slightly:\nvar query2 = from foo in query\n             group foo by foo.id into groupedFoos\n             select new Bar\n             {\n                 foos = groupedFoos.ToList() // Convert to List<Foo>\n             };\n\nList<Bar> barList = query2.ToList();

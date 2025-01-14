@@ -1,1 +1,0 @@
-pecl install apcu\n   echo "extension=apc.so" >> /path/to/php/your/version/php.ini  # Adjust path accordingly

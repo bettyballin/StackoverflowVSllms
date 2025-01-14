@@ -1,1 +1,0 @@
-.grid-container {\n       display: grid;\n       grid-template-columns: repeat(3, 1fr); /* 3 equal columns */\n     }

@@ -1,1 +1,0 @@
-mkdir -p ~/game/debian/{bin,usr/share/doc/game,usr/share/games/game}\ncd ~/game

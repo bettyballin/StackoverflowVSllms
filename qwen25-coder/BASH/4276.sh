@@ -1,1 +1,0 @@
-gpg --output decrypted-file.tar.gz --decrypt encrypted-file.tar.gz.gpg\n   tar -xzf decrypted-file.tar.gz

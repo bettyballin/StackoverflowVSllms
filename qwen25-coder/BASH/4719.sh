@@ -1,1 +1,0 @@
-brew update\n   brew tap microsoft/msodbcsql https://github.com/microsoft/homebrew-mssql-release\n   brew install msodbcsql17 mssql-tools unixodbc

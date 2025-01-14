@@ -1,1 +1,0 @@
-try\n{\n    // Attempt to delete the record\n    context.Sections.Remove(section);\n    context.SaveChanges();\n}\ncatch (SqlException ex) when (ex.Number == 547)\n{\n    // Handle foreign key constraint violation\n    Console.WriteLine("Cannot delete the section because it is referenced by other records.");\n}

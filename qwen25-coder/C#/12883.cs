@@ -1,1 +1,0 @@
-protected override void Render(HtmlTextWriter writer)\n{\n    var html = new HtmlString(base.ToString());\n    html = new HtmlString(html.ToString().Replace("http://", "https://"));\n    writer.Write(html);\n}

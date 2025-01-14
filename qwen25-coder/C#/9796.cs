@@ -1,1 +1,0 @@
-public class BusinessLogic\n{\n    public int CalculateSum(int a, int b)\n    {\n        return a + b;\n    }\n\n    public bool IsEven(int number)\n    {\n        if (number % 2 == 0)\n        {\n            return true;\n        }\n        else\n        {\n            return false;\n        }\n    }\n}

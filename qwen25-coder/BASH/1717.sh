@@ -1,1 +1,0 @@
-#!/bin/bash\n\nLOGFILE="/path/to/your/access.log"\n# Filter out only the SSL transactions\ngrep "SSL" $LOGFILE > /tmp/ssllogs.txt\n\nwhile sleep 1 ; do \n    COUNT=$(stat -c%s "/tmp/ssllogs.txt")\n    NEWCOUNT=$(grep "SSL" $LOGFILE | wc -l)\n    echo "SSL Transactions per Second: $(($NEWCOUNT-$COUNT))"\n    echo $NEWCOUNT > /tmp/ssllogs.txt\ndone

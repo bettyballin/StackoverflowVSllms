@@ -1,1 +1,0 @@
-@echo off\n\n"C:\Path\To\WinSCP.com" /command ^\n    "open ftp://username:password@ftp.example.com -passive=on -rawsettings ProxyHost=proxy.example.com ProxyPort=1080 ProxyType=2" ^\n    "put C:\local\path\to\file.txt /remote/path/" ^\n    "exit"

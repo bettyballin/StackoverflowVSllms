@@ -1,1 +1,0 @@
-void foo() {\n  bar(); // takes 1 second\n} // total time 2 seconds\n\nvoid bar() {\n  // some code that takes 1 second\n}

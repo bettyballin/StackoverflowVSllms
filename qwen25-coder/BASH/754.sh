@@ -1,1 +1,0 @@
-sc * | grep <ClassName>

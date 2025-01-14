@@ -1,1 +1,0 @@
-perl -MCPAN -e shell\n   > install Some::Module

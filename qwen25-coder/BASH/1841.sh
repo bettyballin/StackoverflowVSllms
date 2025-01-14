@@ -1,1 +1,0 @@
-set PATH=C:\path\to\oracle_instant_client;%PATH%

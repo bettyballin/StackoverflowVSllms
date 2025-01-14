@@ -1,1 +1,0 @@
-g++ -o my_test my_test.cpp -lgtest -lpthread && ./my_test

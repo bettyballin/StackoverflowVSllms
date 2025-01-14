@@ -1,1 +1,0 @@
-pm i -D @fullhuman/postcss-purgecss postcss-cli

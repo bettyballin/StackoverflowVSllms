@@ -1,1 +1,0 @@
-using Microsoft.AspNet.SignalR;\n\n   public class StatusHub : Hub\n   {\n       public void SendStatus(string statusUpdate)\n       {\n           Clients.All.updateStatusLabel(statusUpdate);\n       }\n   }

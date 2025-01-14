@@ -1,1 +1,0 @@
-public static Expression<Func<DateTime, DateTime>> RiyadhTimeFromUtcExpr = utcTime => utcTime.AddHours(3);\n\n// Usage\nvar riyadhTimeSelector = RiyadhTimeFromUtcExpr;\nIQueryable<Event> test4 = this.GetSortedEvents()\n    .Where(e => riyadhTimeSelector.Compile()(e.FinishDateTime).Date >= riyadhTimeSelector.Compile()(DateTime.UtcNow).Date);

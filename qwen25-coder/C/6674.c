@@ -1,1 +1,0 @@
-#pragma GCC message "This is a custom compile-time message."\n#pragma GCC warning "This is a custom compile-time warning."\n#pragma GCC error "This will cause a compile-time error."

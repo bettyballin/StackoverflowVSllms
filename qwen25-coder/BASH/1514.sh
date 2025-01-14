@@ -1,1 +1,0 @@
-gen install YourAssemblyName.dll

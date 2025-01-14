@@ -1,1 +1,0 @@
-cd %windir%\Microsoft.NET\Framework\v2.0.xxxxx\\n    aspnet_regiis -i

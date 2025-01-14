@@ -1,1 +1,0 @@
-# Install rails if not already installed\ngem install rails\n\n# Create a new Rails application\nrails new BandWebsite\n\ncd BandWebsite\n\n# Generate controllers and models as needed\nbin/rails generate controller Pages home about\nbin/rails generate model Event name:string date:date location:string\n\n# Start the server to see your website\nbin/rails server

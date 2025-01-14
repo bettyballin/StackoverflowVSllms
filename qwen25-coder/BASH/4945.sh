@@ -1,1 +1,0 @@
-pyinstaller --windowed --onefile --name="YourAppName" your_script.py

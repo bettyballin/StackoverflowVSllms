@@ -1,1 +1,0 @@
-routes.IgnoreRoute("{resource}.axd/{*pathInfo}");

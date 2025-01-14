@@ -1,1 +1,0 @@
-public class MyCustomHost : ITextTemplatingEngineHost, IObjectHost\n    {\n        public IEnumerable<MyObjectType> SelectedObjects { get; private set; }\n\n        public void SetSelectedObjects(IEnumerable<MyObjectType> objects)\n        {\n            SelectedObjects = objects;\n        }\n        // Implement other members of ITextTemplatingEngineHost as needed...\n    }

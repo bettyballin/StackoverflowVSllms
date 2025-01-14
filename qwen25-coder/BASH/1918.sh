@@ -1,1 +1,0 @@
-# Use PowerShell for monitoring (example)\n  Get-NetTCPConnection -State Established | Group-Object RemoteAddress | Sort-Object Count -Descending

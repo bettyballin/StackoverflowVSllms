@@ -1,1 +1,0 @@
-sudo add-apt-repository ppa:ubuntu-toolchain-r/test\nsudo apt-get update\nsudo apt-get install gcc-4.8 g++-4.8

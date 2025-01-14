@@ -1,1 +1,0 @@
-ls -ld /path/to/directory

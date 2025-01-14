@@ -1,1 +1,0 @@
-et stop mysql\n   net start mysql

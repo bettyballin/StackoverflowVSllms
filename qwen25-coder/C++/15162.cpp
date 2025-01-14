@@ -1,1 +1,0 @@
-void incrementByPointer(int *value) {\n    if (value != nullptr) {\n        (*value) += 1;\n    }\n}\n\nint main() {\n    int num = 5;\n    incrementByPointer(&num); // num is now 6\n\n    int* ptr = nullptr;\n    incrementByPointer(ptr);  // Safe as function checks for nullptr\n    return 0;\n}

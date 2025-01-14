@@ -1,1 +1,0 @@
-# Example command to set permissions using icacls (Run as Administrator)\nicacls "C:\Windows\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files" /grant "NetworkService:(OI)(CI)F"

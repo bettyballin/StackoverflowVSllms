@@ -1,1 +1,0 @@
-using System.Linq;\n\nvar filteredRows = from row in dataTable.AsEnumerable()\n                   where (row.Field<string>("Column1") == "Value1" && \n                          row.Field<string>("Column2") == "Value2")\n                   select row;\n\nforeach (var row in filteredRows)\n{\n    // Process each found DataRow\n}

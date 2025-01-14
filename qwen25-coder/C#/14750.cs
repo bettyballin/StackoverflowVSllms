@@ -1,1 +1,0 @@
-string originalText = "Line1\nLine2\nLine3";\nstring windowsFormattedText = originalText.Replace("\n", "\r\n");

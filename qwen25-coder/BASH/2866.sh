@@ -1,1 +1,0 @@
-zypper search php5

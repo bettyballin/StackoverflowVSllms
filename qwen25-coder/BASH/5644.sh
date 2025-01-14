@@ -1,1 +1,0 @@
-# Check Buildroot configuration\ndiff /path/to/buildroot/config.mk\n\n# Compare environment variables\nenv | grep -E 'PATH|CFLAGS' > env_yours\nssh your_coworkers_machine "env | grep -E 'PATH|CFLAGS'" > env_his\ndiff env_yours env_his\n\n# Check GCC version and configuration details\ngcc -v

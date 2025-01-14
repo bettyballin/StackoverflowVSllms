@@ -1,1 +1,0 @@
-Response.AddHeader("Pragma", "public");\n   Response.Expires = -1;

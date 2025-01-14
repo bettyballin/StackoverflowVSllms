@@ -1,1 +1,0 @@
-ping <domain-controller-ip>

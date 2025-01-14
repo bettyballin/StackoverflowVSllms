@@ -1,1 +1,0 @@
-dig: couldn't get address for 'ns.bogustld': failure

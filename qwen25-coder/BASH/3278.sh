@@ -1,1 +1,0 @@
-./configure --prefix=/opt/apache2 --enable-so\n     make\n     make install

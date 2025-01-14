@@ -1,1 +1,0 @@
-# Example Dockerfile\nFROM php:7.4-cli\n\n# Expose a port if needed (optional)\nEXPOSE 9000\n\n# Create a script that will run user code\nWORKDIR /app\nCOPY runner.sh /app/runner.sh\nRUN chmod +x runner.sh\n\n# Command to run the server or evaluate script\nCMD ["./runner.sh"]

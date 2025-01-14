@@ -1,1 +1,0 @@
-try {\n       // Initialize or use the VB control here\n   } catch (Exception ex) {\n       Console.WriteLine("An exception occurred: " + ex.Message);\n       if (ex.InnerException != null) {\n           Console.WriteLine("Inner Exception: " + ex.InnerException.Message);\n       }\n   }

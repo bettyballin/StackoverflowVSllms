@@ -1,1 +1,0 @@
-c -l 9000 <backpipe | tee >(nc <isp-smtp> 26) >backpipe

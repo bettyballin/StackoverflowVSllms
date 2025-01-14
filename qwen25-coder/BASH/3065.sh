@@ -1,1 +1,0 @@
-pecl upgrade\n   pear upgrade

@@ -1,1 +1,0 @@
-class Program {\n    static void Main(string[] args) {\n        int result = ManagedWrapper::Add(5, 3);\n        Console.WriteLine($"The result is: {result}");\n    }\n}

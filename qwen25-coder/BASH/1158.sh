@@ -1,1 +1,0 @@
-// Compile with source and target set to Java 6 if using Java 6 features\njavac -source 1.6 -target 1.6 YourRmiClass.java

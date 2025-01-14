@@ -1,1 +1,0 @@
-using System.Collections.Generic;\n\npublic class ProductService : IProductService\n{\n    public List<Product> GetProducts()\n    {\n        // Logic to retrieve products from database or other source\n        return new List<Product>\n        {\n            new Product { Id = 1, Name = "Product 1" },\n            new Product { Id = 2, Name = "Product 2" }\n        };\n    }\n}

@@ -1,1 +1,0 @@
-# Extract function names assuming the format is `function name()`\ngrep -oP 'function \K[\w$]+' yourfile.js | \n# Sort them\nsort | \n# Find duplicates\nuniq -d

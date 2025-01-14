@@ -1,1 +1,0 @@
-python -m cProfile -o output.pstats manage.py runserver

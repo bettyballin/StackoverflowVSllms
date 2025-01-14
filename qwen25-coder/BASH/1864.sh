@@ -1,1 +1,0 @@
-# Test connectivity to the SQL server\nTest-Connection -ComputerName SHAREPOINT01\n\n# Fetch SQL Server instance configuration using PowerShell (requires admin rights)\nGet-SqlInstance -ServerInstance SHAREPOINT01 | Select-Object Name, Services

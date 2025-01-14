@@ -1,1 +1,0 @@
-svn delete /dir2/file.txt\nsvn move /dir1/file.txt /dir2/file.txt -m "Overwriting file.txt in dir2 with history from dir1"

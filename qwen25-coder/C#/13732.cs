@@ -1,1 +1,0 @@
-// Example method that would throw an exception, used here for illustration\npublic void ApplyWatermark()\n{\n    try\n    {\n        // Code that applies watermark using AJAX Control Toolkit\n    }\n    catch (Exception ex)\n    {\n        // Log the exception or handle it as needed\n        System.Diagnostics.Debug.WriteLine(ex.ToString());\n        throw;\n    }\n}

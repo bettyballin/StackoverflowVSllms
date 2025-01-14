@@ -1,1 +1,0 @@
-mtr -p 80 yourwebsite.com

@@ -1,1 +1,0 @@
-curl -E mycert.pem -F "fileupload=@foobar.png" https://example.com/secure-upload.php

@@ -1,1 +1,0 @@
-sudo port selfupdate\nsudo port upgrade outdated\nsudo port install libmemcached

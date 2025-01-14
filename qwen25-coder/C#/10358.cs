@@ -1,1 +1,0 @@
-public class PersonDTO {\n    public string FirstName { get; set; }\n    public string LastName { get; set; }\n    public int MyPetId { get; set; } // Assuming you want to send the pet ID instead of the whole object\n}

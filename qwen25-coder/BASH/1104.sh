@@ -1,1 +1,0 @@
-sudo adduser --shell /bin/rbash guestuser

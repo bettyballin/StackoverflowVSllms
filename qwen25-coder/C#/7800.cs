@@ -1,1 +1,0 @@
-using Microsoft.Extensions.Configuration;\n   public IConfiguration Configuration { get; }\n\n   public YourClass()\n   {\n       var builder = new ConfigurationBuilder()\n           .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);\n\n       Configuration = builder.Build();\n   }

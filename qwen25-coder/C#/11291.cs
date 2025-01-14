@@ -1,1 +1,0 @@
-// In AssemblyInfo.cs\n   [assembly: InternalsVisibleTo("DesignatedExecutable")]

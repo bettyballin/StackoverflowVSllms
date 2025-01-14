@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Store the argument in an array\narg1=('[5111.3$]="5"')\n\n# Run the job using the array element\nrunjob specfile.spx "${arg1[@]}"

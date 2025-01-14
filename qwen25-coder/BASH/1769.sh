@@ -1,1 +1,0 @@
-regasm /u YourProgram.dll

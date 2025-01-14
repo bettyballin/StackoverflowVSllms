@@ -1,1 +1,0 @@
-List<int> originalList = new List<int> { 1, 2, 3 };\n  List<int> additionalItems = new List<int> { 4, 5, 6 };\n  originalList.AddRange(additionalItems);\n  // originalList now contains: 1, 2, 3, 4, 5, 6

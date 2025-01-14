@@ -1,1 +1,0 @@
-systemctl list-units --type=service | grep -E 'gdm|kdm|sddm|lightdm'

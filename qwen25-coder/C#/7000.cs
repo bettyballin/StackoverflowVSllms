@@ -1,1 +1,0 @@
-public abstract class ModuleBase\n{\n    public abstract string Name { get; }\n    public abstract UserControl UIContent { get; }\n}

@@ -1,1 +1,0 @@
-sudo chcon -t httpd_sys_content_t /home/user/xxx -R

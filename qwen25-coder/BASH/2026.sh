@@ -1,1 +1,0 @@
-# Update from CVS repository\ncvs update\n\n# If there are conflicts, check which files need attention\ncvs status | grep Conflict\n\n# Manually edit conflicting files then mark them as resolved\ncvs resolve -m <filename>

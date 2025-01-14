@@ -1,1 +1,0 @@
-#include <iostream>\n#include "replace_all.h"  // Include the header with the template definition\n\nusing namespace std;\n\nint main() {\n    string const a = "foo bar fee boor foo barfoo b";\n    cout << replace_all<string>("foo", "damn", a) << endl;\n    return 0;\n}

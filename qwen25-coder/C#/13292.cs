@@ -1,1 +1,0 @@
-// C# does not need additional keywords for inheritance in the derived class definition\n     public class ChildClass : ParentClass { }

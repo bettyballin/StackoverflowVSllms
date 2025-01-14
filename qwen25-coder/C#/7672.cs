@@ -1,1 +1,0 @@
-using (var bw = new BinaryWriter(File.Open("data.dat", FileMode.Create), Encoding.ASCII))\n{\n    string value = "Foo";\n\n    // Writes length prefix + 3 ASCII bytes for "Foo"\n    bw.Write(value); // Length: 1 byte, Data: 3 bytes\n\n    // Writes only the 3 ASCII bytes for "Foo" characters\n    bw.Write(value.ToCharArray()); // Data: 3 bytes\n}

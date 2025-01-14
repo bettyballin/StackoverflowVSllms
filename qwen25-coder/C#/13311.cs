@@ -1,1 +1,0 @@
-string isoFilePath = "input.csv"; // Path to the input file in ISO-8859-1 encoding\nstring utf8FilePath = "output_utf8.csv"; // Path where you want to save the UTF-8 encoded output\n\nIso8859ToUtf8(isoFilePath, utf8FilePath);

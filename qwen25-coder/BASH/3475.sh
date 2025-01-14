@@ -1,1 +1,0 @@
-git checkout -b testing origin/develop

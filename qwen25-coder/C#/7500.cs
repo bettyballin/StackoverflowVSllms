@@ -1,1 +1,0 @@
-public void SomeMethod()\n{\n    using (SqlConnection connection = new SqlConnection(connectionString))\n    {\n        // Use the connection here\n        connection.Open();\n        // Your data access logic here...\n    } // Connection is closed here, even if an exception occurs\n}

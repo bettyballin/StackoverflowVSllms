@@ -1,1 +1,0 @@
-# On the local server\ncd /path/to/local/repo/hooks/\necho '#!/bin/sh' > pre-revprop-change\nchmod +x pre-revprop-change\n\n# Still on the local server, run svnsync to initialize and synchronize\nsvnsync init file:///path/to/local/repo http://your-central-svn-server/path/to/repo

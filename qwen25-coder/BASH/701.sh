@@ -1,1 +1,0 @@
-sudo usermod -aG dialout $USER  # Add user to dialout group

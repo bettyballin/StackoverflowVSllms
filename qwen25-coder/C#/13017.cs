@@ -1,1 +1,0 @@
-// Insecure way to set headers which could be exploited in older .NET versions\nHttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://example.com");\nrequest.Headers.Add("User-Agent", "Mozilla/5.0(Custom Header:InjectionTesting)");

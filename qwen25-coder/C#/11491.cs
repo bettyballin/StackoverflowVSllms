@@ -1,1 +1,0 @@
-[RateLimiter]\npublic JsonResult CheckUsernameAvailability(string username)\n{\n    bool isAvailable = IsUsernameAvailable(username); // Implement the logic for checking if the username is available\n    return Json(new { isValid = !isAvailable }, JsonRequestBehavior.AllowGet);\n}

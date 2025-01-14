@@ -1,1 +1,0 @@
-openssl req -x509 -newkey rsa:4096 \\n            -keyout key.pem -out cert.pem \\n            -days 365 -nodes \\n            -addext extendedKeyUsage=serverAuth

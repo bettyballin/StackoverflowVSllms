@@ -1,1 +1,0 @@
-#springboard {\n    width: 500px;\n    height: 700px;\n    border: 1px solid #ddd;\n    position: relative;\n    overflow: hidden;\n}\n\n.draggable-icon {\n    position: absolute;\n    background-color: #fff;\n    border: 1px solid #ddd;\n    width: 80px;\n    height: 80px;\n    line-height: 80px;\n    text-align: center;\n    cursor: move;\n}

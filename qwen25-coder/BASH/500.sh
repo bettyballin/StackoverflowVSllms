@@ -1,1 +1,0 @@
-curl -i -X POST \\n-H "Content-Type: application/json" \\n-d '{"screencast":{"subject":"tools"}}' \\nhttp://localhost:3570/index.php/trainingServer/screencast.jso

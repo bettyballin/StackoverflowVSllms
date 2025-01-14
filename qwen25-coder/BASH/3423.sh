@@ -1,1 +1,0 @@
-ls | head -n 10 | tr '\n' ' '\necho # To add a final newline character if needed

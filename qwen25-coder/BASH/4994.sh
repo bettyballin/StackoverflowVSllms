@@ -1,1 +1,0 @@
-openssl s_client -connect your-repo-url:443 < /dev/null 2> /dev/null | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > repo.crt

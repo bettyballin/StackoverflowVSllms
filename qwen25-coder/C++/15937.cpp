@@ -1,1 +1,0 @@
-#pragma once\n\nclass CMainFrame : public CFrameWnd\n{\npublic:\n    CMainFrame();\nprotected:\n    afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);\n    afx_msg void OnSysCommand(UINT nID, LPARAM lParam);\n    afx_msg void OnPaint();\n    DECLARE_MESSAGE_MAP()\n};\n\nclass CRtdApp: public CWinAppEx\n{\npublic:\n    virtual BOOL InitInstance();\n};

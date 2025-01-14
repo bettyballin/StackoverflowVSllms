@@ -1,1 +1,0 @@
-sudo apt-get install cppcheck  # On Debian/Ubuntu systems

@@ -1,1 +1,0 @@
-gcc -o list_processes list_processes.c -lprocps

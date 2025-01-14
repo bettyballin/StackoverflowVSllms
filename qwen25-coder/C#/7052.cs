@@ -1,1 +1,0 @@
-public static string EscapeEventLogMessage(string message)\n   {\n       if (string.IsNullOrEmpty(message)) return message;\n       return message.Replace("%", "%%");\n   }\n\n   string safeMessage = EscapeEventLogMessage("Could not find foo%20bar");\n   // Log safeMessage

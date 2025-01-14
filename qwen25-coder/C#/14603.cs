@@ -1,1 +1,0 @@
-[HttpPost]\npublic IActionResult Logout()\n{\n    HttpContext.Session.Clear(); // Clear all session variables\n    // Optionally, clean up user static properties if necessary\n    return Ok();\n}

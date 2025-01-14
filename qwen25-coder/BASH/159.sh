@@ -1,1 +1,0 @@
-ohup nice -n 19 cp -r bigtree bigtree2 &

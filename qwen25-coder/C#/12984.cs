@@ -1,1 +1,0 @@
-public interface IDatabaseAdapter\n{\n    string ConnectionString { get; set; }\n    IDbConnection GetConnection();\n    IDbCommand CreateCommand(string commandText, CommandType commandType);\n}

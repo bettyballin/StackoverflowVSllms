@@ -1,1 +1,0 @@
-strings client.dll  # Look for recognizable strings that might indicate functionality

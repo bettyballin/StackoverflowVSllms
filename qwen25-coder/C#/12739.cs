@@ -1,1 +1,0 @@
-using SubSonic.Repository;\n\nvar repo = new SimpleRepository();\nvar user = repo.Find<User>(u => u.Password == password && u.SINumber == siNumber);

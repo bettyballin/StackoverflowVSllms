@@ -1,1 +1,0 @@
-connection.ConnectionTimeout = 30\n   connection.IsolationLevel = IsolationLevel.ReadUncommitted

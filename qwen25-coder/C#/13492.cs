@@ -1,1 +1,0 @@
-[assembly: AssemblyKeyFile("cardreader.snk")]

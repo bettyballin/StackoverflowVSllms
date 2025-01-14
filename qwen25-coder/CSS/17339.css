@@ -1,1 +1,0 @@
-div {\n  width: 200px; /* For modern browsers */\n  _width: expression((document.documentElement.clientWidth > 768)? "300px" : "inherit"); /* IE<7 only */\n}

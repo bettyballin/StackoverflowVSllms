@@ -1,1 +1,0 @@
-// Always ensure your host OS is updated with the latest security patches\n   sudo apt-get update && sudo apt-get upgrade  // Example for Linux

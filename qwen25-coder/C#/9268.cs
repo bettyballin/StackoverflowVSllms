@@ -1,1 +1,0 @@
-// .NET class that will be exposed as a COM object\nusing System;\nusing System.EnterpriseServices;\n\n[ComVisible(true)]\n[ClassInterface(ClassInterfaceType.AutoDual)]\npublic class PaymentComponent : ServicedComponent\n{\n    public string ProcessPayment(string transactionData)\n    {\n        // Your payment processing logic here\n        return "Success";\n    }\n}

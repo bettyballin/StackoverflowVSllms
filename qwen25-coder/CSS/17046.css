@@ -1,1 +1,0 @@
-.entries a em {\n    height: 0%;\n    overflow: hidden;\n    transition: height 0.5s ease-in-out;\n}\n\n.entries a:hover em {\n    height: 100%;\n}

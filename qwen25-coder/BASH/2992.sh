@@ -1,1 +1,0 @@
-# Example: Running a containerized app\n    docker run --cpus="1" --memory="512m" my_app_image &

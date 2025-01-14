@@ -1,1 +1,0 @@
-var memberId = new Guid("a45bd16d-9be0-421b-b5bf-143d334c8155");\n\nvar projects = context.Projects\n    .Where(p => context.ProjectMembers\n        .Where(pm => pm.MemberId == memberId)\n        .Select(pm => pm.ProjectId)\n        .Contains(p.ProjectId))\n    .ToList();

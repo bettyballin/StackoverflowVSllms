@@ -1,1 +1,0 @@
-0 2 * * * /usr/local/bin/mysqldump --defaults-file=/root/.my.cnf --opt --single-transaction --comments --dump-date --no-autocommit --all-databases > /var/backups/mysql/all.sql

@@ -1,1 +1,0 @@
-using System.Data.Entity;\n\npublic class MyDataContext : DbContext\n{\n    public DbSet<Customer> Customers { get; set; }\n    public DbSet<Order> Orders { get; set; }\n\n    protected override void OnModelCreating(DbModelBuilder modelBuilder)\n    {\n        // Configuration (if needed)\n        base.OnModelCreating(modelBuilder);\n    }\n}

@@ -1,1 +1,0 @@
-# Create a snapshot of the VM\nVBoxManage snapshot "YourVMName" take "SnapshotName"\n\n# List all snapshots\nVBoxManage snapshot "YourVMName" list\n\n# Export the entire VM as an OVA file\nVBoxManage export "YourVMName" -o /path/to/external/hdd/YourVMBackup.ova\n\n# Import the VM from an OVA file\nVBoxManage import /path/to/external/hdd/YourVMBackup.ova

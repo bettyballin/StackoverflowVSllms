@@ -1,1 +1,0 @@
-#!/bin/bash\n\n# Insert the header line at the beginning of the file\necho -e '0i\ncolumn1, column2, column3\n.\nwq' | ed -s testfile.csv

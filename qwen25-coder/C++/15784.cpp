@@ -1,1 +1,0 @@
-#include "K.h"\n\n// Define the static members and initialize them\nDLL_API int K::a = 0;\nDLL_API int K::b = 0;

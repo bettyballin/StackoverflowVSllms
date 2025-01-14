@@ -1,1 +1,0 @@
-valgrind --tool=callgrind /usr/local/bin/jags regression.cmd\nkcachegrind callgrind.out.xxxx  # Replace xxxx with the output number

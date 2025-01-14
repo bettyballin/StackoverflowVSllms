@@ -1,1 +1,0 @@
-cl /FIyour_header.h your_source_file.cpp

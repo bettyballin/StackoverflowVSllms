@@ -1,1 +1,0 @@
-# For Django app directory (assuming 'my_django_app' is your project root)\nfind my_django_app -type f -exec chmod 644 {} \;\nfind my_django_app -type d -exec chmod 755 {} \;\n\n# For virtual environment directory (if any)\nchmod 750 path/to/venv

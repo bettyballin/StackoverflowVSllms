@@ -1,1 +1,0 @@
-#if DEBUG\n       var localDevUserName = Configuration.GetSection("UserSettings").GetValue<string>("LocalDevelopmentUserName");\n       var myUser = userBL.GetSingle(localDevUserName);\n   #else \n       var myUser = userBL.GetSingle(HttpContext.User.Identity.Name);\n   #endif\n   Session.Add("User", myUser);

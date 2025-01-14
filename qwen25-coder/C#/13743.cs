@@ -1,1 +1,0 @@
-var proxy = new GenericProxy<ConcreteClient>(new ConcreteClientFactory(), "configString");

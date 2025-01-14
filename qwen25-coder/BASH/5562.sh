@@ -1,1 +1,0 @@
-export DISPLAY=<VPN_IP>:0.0

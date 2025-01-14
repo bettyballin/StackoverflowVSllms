@@ -1,1 +1,0 @@
-// Setup AutoMapper mappings\nclass Startup\n{\n    public static void ConfigureAutoMapper()\n    {\n        Mapper.Initialize(cfg =>\n        {\n            cfg.CreateMap<ProductLinq2Sql, Product>().ReverseMap();\n        });\n    }\n}

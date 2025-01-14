@@ -1,1 +1,0 @@
-export LD_PRELOAD=./libmysockets.so; ./your_applicatio

@@ -1,1 +1,0 @@
-wget http://pecl.php.net/get/gtk-2.0.1.tgz # Check for the latest versio

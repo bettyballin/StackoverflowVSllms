@@ -1,1 +1,0 @@
-cscript.exe adsutil.vbs SET /w3svc/1/root/YourVirtualDirectoryName/Path "C:\path\to\your\web\content"

@@ -1,1 +1,0 @@
-openssl ocsp -issuer issuer.crt -cert certificate.crt -url http://ocsp.example.com/

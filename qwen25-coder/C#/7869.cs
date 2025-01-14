@@ -1,1 +1,0 @@
-public class BearerTokenAuthorizationPolicy : IAuthorizationPolicy\n    {\n        // Implement the necessary methods and logic here to validate tokens\n    }

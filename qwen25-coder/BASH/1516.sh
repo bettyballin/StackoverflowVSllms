@@ -1,1 +1,0 @@
-editbin /strip yourfile.dll

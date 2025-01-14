@@ -1,1 +1,0 @@
-php myScript.php & disow

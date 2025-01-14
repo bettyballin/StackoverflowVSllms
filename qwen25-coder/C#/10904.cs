@@ -1,1 +1,0 @@
-byte[] byteArray = System.Text.Encoding.Default.GetBytes(originalString);\nforeach (var b in byteArray)\n{\n    Console.Write(b.ToString("X2") + " ");\n}

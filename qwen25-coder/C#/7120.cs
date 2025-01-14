@@ -1,1 +1,0 @@
-[Table("People")]\n     public abstract class Person {\n         public int Id { get; set; }\n         // other fields...\n     }\n\n     public class Employee : Person {\n         public decimal Salary { get; set; }\n         // employee-specific fields...\n     }

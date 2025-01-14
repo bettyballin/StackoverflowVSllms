@@ -1,1 +1,0 @@
-// AVOID: Custom code evidence in Medium Trust can lead to issues\n   new System.Security.Policy.Evidence();

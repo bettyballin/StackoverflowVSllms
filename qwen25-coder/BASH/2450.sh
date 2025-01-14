@@ -1,1 +1,0 @@
-perfview.exe collect -ThreadsOnAllCPUs MyApplication.exe

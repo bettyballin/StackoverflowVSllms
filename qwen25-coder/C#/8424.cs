@@ -1,1 +1,0 @@
-public class UserAccount\n{\n    private string _passwordHash;\n\n    public string Username { get; set; }\n\n    public WriteOnlyString Password\n    {\n        set { _passwordHash = HashPassword(value); }\n    }\n\n    private string HashPassword(string password)\n    {\n        // Implement hashing logic here\n        return BCrypt.Net.BCrypt.HashPassword(password);\n    }\n}

@@ -1,1 +1,0 @@
-# /bin/employee1_script.sh\n   #!/bin/bash\n   if [ "$SSH_ORIGINAL_COMMAND" == "less logfile" ]; then\n       less logfile\n   elif [ "$SSH_ORIGINAL_COMMAND" == "./shutdown.sh" ]; then\n       ./shutdown.sh\n   else\n       echo "Invalid command"\n       exit 1\n   fi

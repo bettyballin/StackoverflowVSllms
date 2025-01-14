@@ -1,1 +1,0 @@
-sudo tcpdump -i <interface> 'tcp' -w output.pcap

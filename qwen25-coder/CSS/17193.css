@@ -1,1 +1,0 @@
-div {\n  width: 150px;\n  overflow-wrap: break-word; /* Ensures the text will wrap as needed */\n  word-break: break-all; /* Works in conjunction with overflow-wrap to ensure breaking at hyphens */\n  hyphens: manual; /* Allows breaks only at hyphens explicitly in the text */\n}

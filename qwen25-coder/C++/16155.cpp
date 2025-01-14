@@ -1,1 +1,0 @@
-pDisp->Release();\nCoUninitialize();

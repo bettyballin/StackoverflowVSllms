@@ -1,1 +1,0 @@
-%windir%\system32\inetsrv\appcmd.exe set app "Default Web Site/YourVirtualDirectoryName/" /applicationPool:"v4.0"

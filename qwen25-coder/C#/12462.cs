@@ -1,1 +1,0 @@
-string user = HttpContext.Current.Request.ServerVariables["LOGON_USER"];\nif (user != null)\n{\n    Response.Write("Authenticated User: " + user);\n}\nelse\n{\n    Response.Write("Authentication failed or not set.");\n}

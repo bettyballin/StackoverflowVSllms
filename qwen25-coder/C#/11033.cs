@@ -1,1 +1,0 @@
-public class YourController : Controller\n   {\n       [HttpPost]\n       public ActionResult GetPartialViewHtml()\n       {\n           var model = new YourModel { Title = "Example Title", Description = "This is a description." };\n           return PartialView("_YourPartialView", model);\n       }\n   }

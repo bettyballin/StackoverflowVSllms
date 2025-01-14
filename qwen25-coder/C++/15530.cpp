@@ -1,1 +1,0 @@
-// dll1.h\n#ifdef __cplusplus\nextern "C" {\n#endif\n\nFILE* openFileInDll1(const char* filename);\nvoid closeFileInDll1(FILE* file);\n\n#ifdef __cplusplus\n}\n#endif

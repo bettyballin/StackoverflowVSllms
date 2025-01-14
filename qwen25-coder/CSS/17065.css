@@ -1,1 +1,0 @@
-ul {\n    list-style-type: none; /* Remove bullets */\n    padding: 0;\n    margin: 0;\n}\n\n.layout {\n    display: grid; /* Use CSS Grid to define the layout */\n    grid-auto-flow: column; /* Automatically place items in columns */\n    gap: 10px; /* Optional: adds space between the columns */\n}

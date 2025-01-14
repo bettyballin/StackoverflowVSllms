@@ -1,1 +1,0 @@
-sudo mkdir /var/lib/mysql-encrypted\n   sudo mount /dev/mapper/mydata /var/lib/mysql-encrypted

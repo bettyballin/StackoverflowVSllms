@@ -1,1 +1,0 @@
-chmod +x check_service.sh

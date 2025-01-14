@@ -1,1 +1,0 @@
-g++ -o keypress_example keypress_example.cpp -lncurses

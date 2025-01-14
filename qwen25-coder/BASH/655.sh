@@ -1,1 +1,0 @@
-# Run this command in your terminal to start the sidekiq process.\nbundle exec sidekiq

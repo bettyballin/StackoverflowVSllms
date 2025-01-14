@@ -1,1 +1,0 @@
-sed -i 's/\<oldtext\>/newtext/g' <file>

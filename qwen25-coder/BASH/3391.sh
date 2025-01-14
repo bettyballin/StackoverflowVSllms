@@ -1,1 +1,0 @@
-tar -xzf file.tar.gz

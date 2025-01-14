@@ -1,1 +1,0 @@
-pecl install imagick\n   echo "extension=imagick.so" >> /path/to/php/your/version/php.ini

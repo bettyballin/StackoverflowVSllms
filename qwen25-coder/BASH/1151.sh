@@ -1,1 +1,0 @@
-# Apache mod_rewrite\n  RewriteEngine On\n  RewriteCond %{HTTP_HOST} ^(www\.)?clientdomain\.com$ [NC]\n  RewriteRule ^(.*)$ http://username.mywebapp.com/$1 [P,L]

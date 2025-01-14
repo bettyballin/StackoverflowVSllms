@@ -1,1 +1,0 @@
-// Example pseudo-code for setting user agent in a CEF-based browser\nCefString userAgent = "YourCustomUserAgentHere";\nbrowser->GetMainFrame()->SetUserPreference("general.useragent.override", CefValue::CreateStringValue(userAgent));

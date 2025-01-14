@@ -1,1 +1,0 @@
-Response.ContentType = "application/pdf";\n   // Optionally: Response.ContentType = "application/force-download";

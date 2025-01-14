@@ -1,1 +1,0 @@
-# Using jstack from your JDK's bin directory\njstack <pid> > threaddump.txt

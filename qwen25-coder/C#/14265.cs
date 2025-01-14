@@ -1,1 +1,0 @@
-using System;\nusing Microsoft.Web.Administration;\n\nclass Program\n{\n    static void Main()\n    {\n        using (ServerManager server = new ServerManager())\n        {\n            Console.WriteLine("IIS Version: " + server.GetApplicationHostConfiguration().Schema?.RootDirectory);\n        }\n    }\n}

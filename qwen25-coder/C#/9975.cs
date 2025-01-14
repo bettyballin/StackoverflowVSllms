@@ -1,1 +1,0 @@
-// Example of simple logging in C#\n    try\n    {\n        // Network operation here\n    }\n    catch (Exception ex)\n    {\n        WriteLog("Error: " + ex.Message);\n    }\n\n    void WriteLog(string message)\n    {\n        using (StreamWriter writer = new StreamWriter(@"\My Documents\Log.txt", true))\n        {\n            writer.WriteLine(message);\n        }\n    }

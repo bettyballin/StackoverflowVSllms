@@ -1,1 +1,0 @@
-// MyCppLibWrapper.h\n   #pragma once\n\n   using namespace System;\n\n   public ref class MyClass {\n   public:\n       void CallCppMethod();\n   };

@@ -1,1 +1,0 @@
-msiexec /i "YourInstaller.msi" /lvx* "installlog.txt"

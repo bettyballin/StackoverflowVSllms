@@ -1,1 +1,0 @@
-gcc -shared -o libmysockets.so mysockets.c -ldl

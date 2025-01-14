@@ -1,1 +1,0 @@
-#include <iostream>\n#include <string>\n#include <sstream>\n#include <fstream>\n\nint main() {\n    std::ifstream file("path/to/your/file.txt");\n    std::stringstream buffer;\n    buffer << file.rdbuf();\n    std::string fileContents = buffer.str();\n\n    // Output the contents to verify reading\n    std::cout << fileContents;\n\n    return 0;\n}

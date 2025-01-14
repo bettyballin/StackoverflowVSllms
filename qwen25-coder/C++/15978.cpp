@@ -1,1 +1,0 @@
-// bank_interface.cpp\n   extern "C" {\n       #include "bank_interface.h"\n       \n       void performTransaction() {\n           std::cout << "Transaction performed" << std::endl;\n       }\n   }

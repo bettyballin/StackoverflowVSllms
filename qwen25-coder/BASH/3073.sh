@@ -1,1 +1,0 @@
-#!/bin/bash\n\nSOURCE_DIR="/path/to/your/projects"\nBACKUP_DIR="/path/to/local/backup"\n\n# Create a timestamp variable\nTIMESTAMP=$(date +"%F")\n\n# Perform the backup with rsync\nrsync -av --delete $SOURCE_DIR $BACKUP_DIR/$TIMESTAMP\n\necho "Backup completed successfully."

@@ -1,1 +1,0 @@
-[Function(Name = "dbo.GetCustomerTaskCount")]\n   public int GetCustomerTaskCount(int customerId)\n   {\n       var result = ExecuteMethodCall(this, ((MethodInfo)MethodInfo.GetCurrentMethod()), customerId);\n       return (int)result.ReturnValue;\n   }

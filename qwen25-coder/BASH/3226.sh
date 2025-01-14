@@ -1,1 +1,0 @@
-set DB_PASSWORD=%DB_PASSWORD%\n   \path\to\your\app.exe --db-password=%DB_PASSWORD%

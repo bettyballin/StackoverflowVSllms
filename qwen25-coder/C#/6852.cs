@@ -1,1 +1,0 @@
-protected void Page_Load(object sender, EventArgs e)\n{\n    if (!IsPostBack)\n    {\n        string[] items = { "Item 1", "Item 2", "Item 3" };\n        rptImages.DataSource = items;\n        rptImages.DataBind();\n    }\n}

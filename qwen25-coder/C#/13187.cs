@@ -1,1 +1,0 @@
-[TestMethod]\npublic void MyMethod_should_fail_if_param_is_null_or_empty()\n{\n    var invalidParams = new List<string> { null, "" };\n\n    foreach (var param in invalidParams)\n    {\n        Assert.ThrowsException<ArgumentNullException>(() => myclass.MyMethod(param));\n    }\n}

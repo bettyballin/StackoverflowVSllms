@@ -1,1 +1,0 @@
-perl -d:NYTProf your_script.pl\nnytprofhtml

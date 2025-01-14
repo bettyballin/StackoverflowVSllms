@@ -1,1 +1,0 @@
-java -jar swagger-codegen-cli.jar generate -i openapi.yaml -l python -o ./client/python/

@@ -1,1 +1,0 @@
-[ValidateAntiForgeryToken]\n    public ActionResult Delete(int id)\n    {\n        // Action code goes here.\n    }

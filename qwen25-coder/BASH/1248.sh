@@ -1,1 +1,0 @@
-scomp your-schema.xsd

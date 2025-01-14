@@ -1,1 +1,0 @@
-chmod 644 mysql_connect.php

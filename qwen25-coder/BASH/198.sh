@@ -1,1 +1,0 @@
-chmod +x start_java_app.sh stop_java_app.sh

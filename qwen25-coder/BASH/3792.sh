@@ -1,1 +1,0 @@
-exec -a script2_python python another_script.py

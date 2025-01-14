@@ -1,1 +1,0 @@
-public void YourMethod()\n{\n    int num = 0;\n    Console.WriteLine(num);\n}

@@ -1,1 +1,0 @@
-az sql vm group ag create --name myaggroup --location eastus --resource-group myResourceGroup --sqlvm-sku Standard_DS3_v2 --ag-name myAG --listener-port 1433

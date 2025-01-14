@@ -1,1 +1,0 @@
-EditBin.exe /REBASE:#new_address,#size path_to_dll.dll

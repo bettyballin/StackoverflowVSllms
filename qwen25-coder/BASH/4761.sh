@@ -1,1 +1,0 @@
-sudo rpm -ivh db2_v11.5_linuxx64_odbc_cli.tar.gz

@@ -1,1 +1,0 @@
-#include <windows.h>\n#include <objbase.h>\n\nint main() {\n    HRESULT hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED);\n    if (SUCCEEDED(hr)) {\n        // COM operations here...\n\n        CoUninitialize();\n    }\n    return 0;\n}

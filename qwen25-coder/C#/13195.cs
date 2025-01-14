@@ -1,1 +1,0 @@
-public class User {\n       public string Id { get; set; }\n       public string Name { get; set; }\n       // Add other properties as needed\n   }

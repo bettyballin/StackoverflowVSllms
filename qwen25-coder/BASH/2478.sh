@@ -1,1 +1,0 @@
-qpdf --stream-data=compress --object-streams=disable input.pdf output.pdf

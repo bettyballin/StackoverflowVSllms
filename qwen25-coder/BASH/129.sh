@@ -1,1 +1,0 @@
-gcc linux_client.c -o client\n./client

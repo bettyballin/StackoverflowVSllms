@@ -1,1 +1,0 @@
-.annotation {\n    display: inline-block;\n    vertical-align: top; /* Adjust based on preferred alignment */\n    width: 100px; /* Increase width for longer annotations */\n    text-align: right; /* Aligns numbers to the right in their block */\n    position: absolute;\n    margin-left: -1.5em; /* Positioning the annotations to the left of the line */\n}

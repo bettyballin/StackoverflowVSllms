@@ -1,1 +1,0 @@
-# Encrypt the file using GPG\n   gpg --symmetric --cipher-algo AES256 /path/to/database.zip

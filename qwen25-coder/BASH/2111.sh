@@ -1,1 +1,0 @@
-C:\Windows\SysWOW64\regsvr32.exe path_to_your_com_dll.dll

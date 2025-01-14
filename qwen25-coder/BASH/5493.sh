@@ -1,1 +1,0 @@
-msbuild /p:OutputPath=C:\BuildArtifacts\Output

@@ -1,1 +1,0 @@
-pgbadger postgresql.log

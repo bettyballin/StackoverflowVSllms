@@ -1,1 +1,0 @@
-public interface IDataService\n{\n    IEnumerable<Person> GetPeople();\n}\n\npublic class DataService : IDataService\n{\n    public IEnumerable<Person> GetPeople()\n    {\n        // Simulate data fetching\n        return new List<Person>\n        {\n            new Person { Name = "John Doe" },\n            new Person { Name = "Jane Smith" }\n        };\n    }\n}

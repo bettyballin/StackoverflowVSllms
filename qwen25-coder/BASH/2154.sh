@@ -1,1 +1,0 @@
-# Import Sharepoint Power Shell module\nImport-Module Microsoft.SharePoint.PowerShell\n\n# Get the web application\n$webApp = Get-SPWebApplication -Identity "http://yourwebappurl"\n\n# Output the application pool username\nWrite-Host $webApp.ApplicationPool.Username

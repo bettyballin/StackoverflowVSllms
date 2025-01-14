@@ -1,1 +1,0 @@
-.navigation ul {\n  list-style: none;\n  padding: 0;\n  margin: 0 auto; /* Center the <ul> */\n  width: fit-content; /* Fit to its content width */\n}\n\n.navigation li {\n  float: left;\n  margin: 0 1.15em;\n}

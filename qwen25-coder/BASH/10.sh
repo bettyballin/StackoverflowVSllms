@@ -1,1 +1,0 @@
-grep 'sendmail\[.*\]:.*from=<.*, to=<.*>' /var/log/maillog

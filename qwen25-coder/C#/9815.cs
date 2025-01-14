@@ -1,1 +1,0 @@
-// Assuming your DLL is named MyLibrary.dll and it contains the namespace Microsoft.ServiceModel\n   var assemblyPath = HostingEnvironment.MapPath("~/bin/MyLibrary.dll");\n   var myAssembly = Assembly.LoadFrom(assemblyPath);

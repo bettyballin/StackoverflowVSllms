@@ -1,1 +1,0 @@
-# This cron job runs your PHP script every weekday at 5 AM\n0 5 * * 1-5 /usr/bin/php /path/to/your/script.php

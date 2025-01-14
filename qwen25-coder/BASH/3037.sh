@@ -1,1 +1,0 @@
-sudo setcap cap_setuid+ep /path/to/your/executable

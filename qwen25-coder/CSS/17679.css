@@ -1,1 +1,0 @@
-.custom-select {\n  position: relative;\n  display: inline-block;\n}\n\n.custom-select select {\n  padding: 5px;\n  position: absolute;\n  top: 0;\n  left: 0;\n  border-color: #2196F3;\n  z-index: 100;\n  width: 100%;\n  height: 100%;\n  font-size: 1em;\n}\n\n.custom-select select:not(:focus) {\n  user-select: none;\n}

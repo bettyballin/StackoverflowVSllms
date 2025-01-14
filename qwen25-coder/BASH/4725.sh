@@ -1,1 +1,0 @@
-# Example of setting mime-type on binary files\nsvn propset svn:mime-type application/octet-stream .\nsvn commit -m "Set binary file types"

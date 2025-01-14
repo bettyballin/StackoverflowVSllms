@@ -1,1 +1,0 @@
-regasm StringListProvider.dll /codebase

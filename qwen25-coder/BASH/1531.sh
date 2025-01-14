@@ -1,1 +1,0 @@
-sxstrace trace -logfile:sxstrace.log

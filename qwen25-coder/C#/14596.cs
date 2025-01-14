@@ -1,1 +1,0 @@
-// Example usage in ASP.NET\nstring currentDirectory = Server.MapPath(".");\nstring appRoot = Server.MapPath("~");\nstring driveRoot = Server.MapPath(@"\"); // Not recommended for web applications\nstring root = Server.MapPath("/");

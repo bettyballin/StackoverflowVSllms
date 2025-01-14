@@ -1,1 +1,0 @@
-public void AddPerson(DataTable dataTablePeople, string firstName, string lastName) {\n    DataRow newRow = dataTablePeople.NewRow();\n    newRow["FirstName"] = firstName;\n    newRow["LastName"] = lastName;\n    dataTablePeople.Rows.Add(newRow);\n    // Logic to add the new row to the database\n}

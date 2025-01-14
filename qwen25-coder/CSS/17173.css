@@ -1,1 +1,0 @@
-/* A simple CSS reset */\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n}\nbody {\n    font-size: 16px; /* Set a default font size */\n    line-height: 1.5;\n}

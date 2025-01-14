@@ -1,1 +1,0 @@
-# Install SQLForm (you might need to clone and compile it from GitHub or find a precompiled binary)\ngit clone https://github.com/kimmoli/sqlform.git\ncd sqlform\nmake  # or follow installation instructions available in the repository\n\n# Format your Oracle SQL file\nsqlform -d oracle -f your_procedure.sql -o formatted_procedure.sql

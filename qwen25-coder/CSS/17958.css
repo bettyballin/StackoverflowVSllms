@@ -1,1 +1,0 @@
-/* Base style for all header divs */\n.header_div {\n    padding: 10px;\n    border: 1px solid #ccc;\n}\n\n/* Specific styles for each category */\n.category_a {\n    background-color: lightblue;\n}\n\n.category_b {\n    background-color: lightgreen;\n}

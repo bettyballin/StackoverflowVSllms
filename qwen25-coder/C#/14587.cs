@@ -1,1 +1,0 @@
-[ServiceContract]\npublic interface IDataService\n{\n    [OperationContract]\n    System.Xml.Linq.XDocument GetXmlData();\n}

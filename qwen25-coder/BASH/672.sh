@@ -1,1 +1,0 @@
-make test\n   nmake install

@@ -1,1 +1,0 @@
-jar cvf myapplets.jar MyCoolApplet.class

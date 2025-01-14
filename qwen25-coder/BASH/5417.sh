@@ -1,1 +1,0 @@
-sudo yum install php52 php52-fpm

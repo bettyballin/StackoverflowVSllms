@@ -1,1 +1,0 @@
-sudo chown root:www-data /home/przepisy/php-fastcgi/php5-fcgi\n   sudo chmod 750 /home/przepisy/php-fastcgi/php5-fcgi

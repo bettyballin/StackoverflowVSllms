@@ -1,1 +1,0 @@
-sudo pecl install sqlsrv\nsudo pecl install pdo_sqlsrv

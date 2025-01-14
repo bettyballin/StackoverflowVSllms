@@ -1,1 +1,0 @@
-using (var stream = new SqlCeBufferedStream(dataReader))\n{\n    // Use the stream to read data\n    byte[] buffer = new byte[4096];\n    int bytesRead;\n    while ((bytesRead = stream.Read(buffer, 0, buffer.Length)) > 0)\n    {\n        // Process the bytes read as needed\n    }\n}

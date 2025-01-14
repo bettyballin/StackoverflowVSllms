@@ -1,1 +1,0 @@
-using System.IO;\n  using System.Security.Cryptography;\n\n  public string GetFileHash(string path) {\n      using (FileStream stream = File.OpenRead(path))\n      using (SHA256 sha256 = SHA256.Create())\n          return Convert.ToBase64String(sha256.ComputeHash(stream));\n  }

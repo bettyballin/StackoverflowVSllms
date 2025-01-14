@@ -1,1 +1,0 @@
-ls -l public_html/public/file.txt

@@ -1,1 +1,0 @@
-git clone <your-repo-url> myproject-local\n  cd myproject-live

@@ -1,1 +1,0 @@
-X509Store store = new X509Store("MY", StoreLocation.LocalMachine);\n     store.Open(OpenFlags.ReadOnly);\n     X509Certificate2Collection certificates = store.Certificates.Find(X509FindType.FindByThumbprint, "YOUR_CERT_THUMBPRINT", false);\n     if (certificates.Count > 0) {\n         myWebService.ClientCertificates.Add(certificates[0]);\n     }

@@ -1,1 +1,0 @@
-public abstract class KeyFrameBase\n{\n    public float Time { get; set; }\n}\n\npublic class KeyFrame<T> : KeyFrameBase\n{\n    public T Value { get; set; }\n}\n\nclass Timeline<TKeyframe> where TKeyframe : KeyFrameBase\n{\n    // This allows Timeline to accept any KeyFrame<T>\n}

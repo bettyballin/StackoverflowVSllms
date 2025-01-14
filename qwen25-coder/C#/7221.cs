@@ -1,1 +1,0 @@
-string plainText = "YourSecretMessage";\nbyte[] byteData = Encoding.UTF8.GetBytes(plainText);

@@ -1,1 +1,0 @@
-eventvwr /l:System /q:"*[System/Level='2']" | findstr "IIS"

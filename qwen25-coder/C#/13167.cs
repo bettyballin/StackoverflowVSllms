@@ -1,1 +1,0 @@
-public bool IsColliding(BoundingSphere sphere1, BoundingSphere sphere2)\n{\n    return sphere1.Intersects(sphere2);\n}\n\n// Usage in your game update or similar method:\nbool areColliding = IsColliding(playerCollisionSphere, enemyCollisionSphere);\nif (areColliding)\n{\n    // Handle collision\n}

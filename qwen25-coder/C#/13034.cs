@@ -1,1 +1,0 @@
-protected override void OnActionExecuted(ActionExecutedContext filterContext)\n{\n    var userModel = new UserModel\n    {\n        IsAuthenticated = User.Identity.IsAuthenticated,\n        Username = User.Identity.Name\n    };\n\n    filterContext.Controller.ViewData["UserModel"] = userModel;\n\n    base.OnActionExecuted(filterContext);\n}

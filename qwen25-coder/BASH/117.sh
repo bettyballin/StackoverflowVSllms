@@ -1,1 +1,0 @@
-# Initialize a new package\ncomposer init\n\n# Add a dependency, e.g., Monolog\ncomposer require monolog/monolog

@@ -1,1 +1,0 @@
-g++ -o myprogram myprogram.cpp -L/path/to/library -lmyclibrary

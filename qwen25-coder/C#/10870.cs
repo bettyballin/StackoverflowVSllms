@@ -1,1 +1,0 @@
-using System;\nusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        string path = @"C:\Path\To\Folder";\n        File.SetAttributes(path, File.GetAttributes(path) | FileAttributes.Hidden);\n    }\n}

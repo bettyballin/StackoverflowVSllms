@@ -1,1 +1,0 @@
-ctags --php-kinds=+cf --languages=PHP -R .

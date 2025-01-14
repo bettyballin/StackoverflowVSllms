@@ -1,1 +1,0 @@
-using System.ServiceModel;\nusing System.ServiceModel.Web;\n\n[ServiceContract]\npublic interface IMyRestService\n{\n    [OperationContract]\n    [WebGet(ResponseFormat = WebMessageFormat.Json)]\n    string GetData();\n}

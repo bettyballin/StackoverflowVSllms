@@ -1,1 +1,0 @@
-@echo off\nREM Run this as an administrator\n"C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe" /codebase "path_to_your_dll.dll"

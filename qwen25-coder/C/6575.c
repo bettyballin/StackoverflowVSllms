@@ -1,1 +1,0 @@
-for (int i = 0; i < 20; i++) {\n       printf("%x ", frame->image[i]);\n   }

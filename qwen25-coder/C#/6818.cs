@@ -1,1 +1,0 @@
-<%@ Control Language="C#" AutoEventWireup="true" CodeFile="JobEditControl.ascx.cs" Inherits="YourNamespace.JobEditControl" %>

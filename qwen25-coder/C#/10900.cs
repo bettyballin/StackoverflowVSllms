@@ -1,1 +1,0 @@
-HttpContext.Current.Request.InputStream.Position = 0;

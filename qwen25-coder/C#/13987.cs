@@ -1,1 +1,0 @@
-[WebMethod(EnableSession = true)]\npublic string MyWebServiceMethod()\n{\n    var sessionValue = Session["SomeKey"]?.ToString();\n    return "Session value is: " + sessionValue;\n}

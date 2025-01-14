@@ -1,1 +1,0 @@
-# Example for Debian/Ubuntu:\n   sudo apt-get install imapsync

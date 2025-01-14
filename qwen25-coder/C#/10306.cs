@@ -1,1 +1,0 @@
-WebsiteScreenshotCapture capture = new WebsiteScreenshotCapture();\n   capture.CaptureScreenshot("http://www.example.com", @"C:\path\to\screenshot.png");

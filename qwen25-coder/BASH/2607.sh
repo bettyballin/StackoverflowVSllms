@@ -1,1 +1,0 @@
-sudo rsync -av /Users/me/cs_project/ /Users/cs/

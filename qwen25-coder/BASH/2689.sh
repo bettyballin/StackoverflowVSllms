@@ -1,1 +1,0 @@
-sudo yum install php-pdo php-mysql\nsudo systemctl restart httpd

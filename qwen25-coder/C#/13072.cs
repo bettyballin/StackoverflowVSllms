@@ -1,1 +1,0 @@
-[Category("Login")]\n   public class LoginTests\n   {\n       // Test methods here\n   }

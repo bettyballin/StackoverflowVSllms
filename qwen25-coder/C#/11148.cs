@@ -1,1 +1,0 @@
-// Example of retrieving a value from the session\nstring value = Session["nodeName"] as string; // Replace "nodeName" with actual node name\n\nif (value != null)\n{\n    // Use your retrieved value here\n}

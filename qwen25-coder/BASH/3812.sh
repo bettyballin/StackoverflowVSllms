@@ -1,1 +1,0 @@
-ioncube_license_manager --domain example.com:/ --output /path/to/license.txt

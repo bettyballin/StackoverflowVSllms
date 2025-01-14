@@ -1,1 +1,0 @@
-# Install hub command line tool first if not already installed: https://hub.github.com/\necho "Hello, world!" > myfile.txt\ncat myfile.txt | hub create -p -m "My text file"

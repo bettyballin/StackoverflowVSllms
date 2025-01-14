@@ -1,1 +1,0 @@
-string firstName = Request.Form["firstName"];\nstring lastName = Request.Form["lastName"];

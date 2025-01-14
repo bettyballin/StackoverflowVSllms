@@ -1,1 +1,0 @@
-procstat -cwd <pid>

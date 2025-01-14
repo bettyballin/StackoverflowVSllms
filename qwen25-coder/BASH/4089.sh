@@ -1,1 +1,0 @@
-# Install unoconv and LibreOffice if not already installed\nsudo apt-get install unoconv libreoffice\n\n# Convert DOCX to DOC\nunoconv -f doc output.docx

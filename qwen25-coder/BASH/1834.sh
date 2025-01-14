@@ -1,1 +1,0 @@
-choco install smtp4dev -y

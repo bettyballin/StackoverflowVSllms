@@ -1,1 +1,0 @@
-openssl enc -aes-256-cbc -salt -in passwords.txt -out passwords.enc

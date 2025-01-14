@@ -1,1 +1,0 @@
-# Install the virtualenv package if not already installed\n   pip3 install virtualenv\n\n   # Create a virtual environment in your project directory\n   cd /path/to/your/project\n   python3 -m venv myenv\n\n   # Activate the virtual environment\n   source myenv/bin/activate

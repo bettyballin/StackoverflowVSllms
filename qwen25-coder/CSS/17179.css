@@ -1,1 +1,0 @@
-.clear {\n    clear: both;\n}\n\n.left {\n    float: left;\n}\n\n.right {\n    float: right;\n}\n\n.box {\n    overflow: auto;  /* or use zoom */\n    margin-top: 10px;\n    *zoom: 1;  /* Trigger hasLayout in IE6/7/8 */\n}

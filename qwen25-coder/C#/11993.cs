@@ -1,1 +1,0 @@
-using System.Data.SqlServerCe;\n\n   class Program\n   {\n       static void Main(string[] args)\n       {\n           SqlCeEngine.SetProviderOption("Tracing", true);\n           SqlCeTrace.Listeners.Add(new TextWriterTraceListener(Console.Out));\n           // Your code to work with SQL CE\n       }\n   }

@@ -1,1 +1,0 @@
--Wl,"-R$ORIGIN"

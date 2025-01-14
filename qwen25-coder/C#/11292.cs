@@ -1,1 +1,0 @@
-// Example of checking entry assembly name\n   if (Assembly.GetEntryAssembly().GetName().Name != "DesignatedExecutable")\n   {\n       throw new UnauthorizedAccessException("Unauthorized access to this assembly.");\n   }

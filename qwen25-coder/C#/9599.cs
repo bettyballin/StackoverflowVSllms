@@ -1,1 +1,0 @@
-string csvData = "value1,value2,value3";\nstring[] valuesArray = csvData.Split(',');\n\n// If you prefer to work with List<string>\nList<string> valuesList = new List<string>(valuesArray);

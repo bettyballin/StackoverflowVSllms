@@ -1,1 +1,0 @@
-string content = GetContentFromDatabase("blogPostId");\n   LiteralControl literalControl = new LiteralControl(content);\n   PlaceHolder1.Controls.Add(literalControl);

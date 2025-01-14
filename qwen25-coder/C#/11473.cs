@@ -1,1 +1,0 @@
-using System.Collections.Generic;\nusing System.Collections.ObjectModel;\n\npublic class Order\n{\n    private IList<OrderLine> lines = new List<OrderLine>();\n\n    public ICollection<OrderLine> Lines => new ReadOnlyCollection<OrderLine>(lines);\n\n    public void AddLine(OrderLine line)\n    {\n        this.lines.Add(line);\n    }\n}

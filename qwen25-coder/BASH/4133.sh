@@ -1,1 +1,0 @@
-composer require --dev symfony/maker-bundle\n# To create an entity (model)\nphp bin/console make:entity

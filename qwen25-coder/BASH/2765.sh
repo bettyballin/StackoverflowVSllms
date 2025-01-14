@@ -1,1 +1,0 @@
-htpasswd -c /path/to/.htpasswd username

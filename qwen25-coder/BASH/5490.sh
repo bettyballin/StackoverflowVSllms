@@ -1,1 +1,0 @@
-# Example of committing a migration script to a repository\ngit add migrate/12345_add_new_column.sql\ngit commit -m "Adding new column to users table"

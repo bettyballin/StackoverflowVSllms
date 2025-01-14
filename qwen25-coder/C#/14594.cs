@@ -1,1 +1,0 @@
-[System.Web.Services.WebMethod]\npublic static string GetPhoneNumber(string personId)\n{\n    // Simulate getting a phone number based on the selected person ID.\n    switch (personId)\n    {\n        case "1":\n            return "555-1234";\n        case "2":\n            return "555-9876";\n        default:\n            return "Unknown";\n    }\n}

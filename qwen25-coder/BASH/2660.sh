@@ -1,1 +1,0 @@
-aws s3api head-object --bucket your-bucket-name --key remote_image.jpg

@@ -1,1 +1,0 @@
-public static bool ValidateIsMoreThanWords(string input, int numberWords)\n{\n    if (string.IsNullOrEmpty(input)) return false;\n    \n    int words = 1; // Start with 1 because we count word breaks\n    foreach (char c in input.Trim())\n    {\n        if (char.IsWhiteSpace(c))\n        {\n            words++;\n        }\n    }\n\n    return words >= numberWords;\n}

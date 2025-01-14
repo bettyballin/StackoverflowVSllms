@@ -1,1 +1,0 @@
-# Using Gunicorn with Nginx as a reverse proxy\ngunicorn --workers 3 myproject.wsgi:application\nnginx -c /etc/nginx/sites-available/myproject_nginx.conf

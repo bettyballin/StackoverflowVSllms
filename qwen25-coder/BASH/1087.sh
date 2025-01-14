@@ -1,1 +1,0 @@
-rails s webrick -p 3000 --ssl -c localhost.cert -k localhost.key

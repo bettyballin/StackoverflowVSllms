@@ -1,1 +1,0 @@
-appcmd add site /in < c:\inetpub\appcmd_yourworkingsite.xml

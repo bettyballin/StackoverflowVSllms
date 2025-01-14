@@ -1,1 +1,0 @@
-context.Response.Headers.Add("Content-Disposition", "inline");

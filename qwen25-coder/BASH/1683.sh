@@ -1,1 +1,0 @@
-C:\Windows\SysWOW64\regsvr32 path\to\your.dll

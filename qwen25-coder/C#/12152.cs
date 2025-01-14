@@ -1,1 +1,0 @@
-var results = (from item in dataContext.YourTable\n               select new YourDomainObject {\n                   YourDoubleProperty = (double)item.MoneyColumn\n               }).ToList();

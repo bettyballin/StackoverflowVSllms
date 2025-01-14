@@ -1,1 +1,0 @@
-// Example: Enqueue data to process later\npublic void ReceiveData(Data data)\n{\n    QueueManager.Enqueue(data);\n}

@@ -1,1 +1,0 @@
-mvn clean install -Dmaven.test.failure.ignore=false

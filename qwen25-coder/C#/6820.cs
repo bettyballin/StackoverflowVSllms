@@ -1,1 +1,0 @@
-string relativeUrl = "~/index.aspx";\nUri baseUrl = new Uri(Request.Url.GetLeftPart(UriPartial.Authority));\nstring absoluteUrl = VirtualPathUtility.ToAbsolute(relativeUrl, Request.ApplicationPath);\nabsoluteUrl = new Uri(baseUrl, absoluteUrl).ToString();\n\n// Now you can use absoluteUrl in your JavaScript or HTML generatio

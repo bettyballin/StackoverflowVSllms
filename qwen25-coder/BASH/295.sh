@@ -1,1 +1,0 @@
-sudo systemctl restart httpd  # or 'php-fpm' for PHP-FPM

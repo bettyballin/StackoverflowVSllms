@@ -1,1 +1,0 @@
-# .htaccess example to force HTTPS\n   RewriteEngine On \n   RewriteCond %{HTTPS} off\n   RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

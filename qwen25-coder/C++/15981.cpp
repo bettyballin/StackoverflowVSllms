@@ -1,1 +1,0 @@
-// In your header or implementation file\n\n#ifdef __cplusplus\nextern "C" { // Prevent C++ name mangling for these functions\n#endif\n\n__declspec(dllexport) int Foo(int a);\n__declspec(dllexport) void Bar(int foo);\n\n#ifdef __cplusplus\n}\n#endif\n\n// Overloaded function declarations\nint Foo(int a, int b); // This will be mangled differently, no need to export explicitly

@@ -1,1 +1,0 @@
-ln -s /var/www/common/shared_file.php /var/www/domain1/public_html/shared_file.php\n   ln -s /var/www/common/another_shared_file.php /var/www/domain2/public_html/another_shared_file.php

@@ -1,1 +1,0 @@
-echo "file1.jar:file2.jar:path/to/dependency/*" > classpath.txt

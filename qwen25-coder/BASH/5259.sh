@@ -1,1 +1,0 @@
-@echo off\npowershell -Command "$content = Get-Content input.txt -raw; $cleaned = [regex]::Replace($content, '\[aaa bbb\].*?\[www yyy\]', '[aaa bbb][www yyy]'); Set-Content output.txt $cleaned"

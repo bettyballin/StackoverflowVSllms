@@ -1,1 +1,0 @@
-git clone <repository-url>\n   cd <project-directory>\n   ./install-dependencies.sh  # Example command for dependency installatio

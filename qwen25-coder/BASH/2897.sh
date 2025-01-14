@@ -1,1 +1,0 @@
-pdfimages -j input.pdf output_prefix

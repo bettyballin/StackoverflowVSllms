@@ -1,1 +1,0 @@
-gcc -m64 -c public01.c\n     gcc -m64 -c computation.c\n     gcc -m64 -o public01.x public01.o computation.o coreset.o

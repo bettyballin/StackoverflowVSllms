@@ -1,1 +1,0 @@
-// Install via NuGet or download from:\n   // https://github.com/microsoft/perfview/releases

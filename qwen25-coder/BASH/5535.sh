@@ -1,1 +1,0 @@
-# Check current limits\n   ulimit -a\n\n   # Temporarily increase process limit (this should be done as root or sudo)\n   ulimit -u 1024  # Adjust 1024 to a suitable higher number

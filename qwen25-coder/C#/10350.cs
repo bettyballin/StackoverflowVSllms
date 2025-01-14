@@ -1,1 +1,0 @@
-// Setup in-memory DbContext\n  var options = new DbContextOptionsBuilder<MyDbContext>()\n      .UseInMemoryDatabase(databaseName: "TestDatabase")\n      .Options;\n\n  using (var context = new MyDbContext(options))\n  {\n      // Test code goes here\n  }

@@ -1,1 +1,0 @@
-siege -r 10 -c 10 http://localhost/script.php

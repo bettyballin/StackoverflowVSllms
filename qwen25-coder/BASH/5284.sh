@@ -1,1 +1,0 @@
-sudo mkdir -p /var/chroot/sftp/username/.ssh\n   sudo chown username:staff /var/chroot/sftp/username/.ssh\n   echo "ssh-rsa AAAAB.." > /var/chroot/sftp/username/.ssh/authorized_keys  # Replace with the actual key\n   sudo chmod 600 /var/chroot/sftp/username/.ssh/authorized_keys

@@ -1,1 +1,0 @@
-# Example method call, replace with actual method and parameters\n   com_object.SomeMethod(param1, param2)

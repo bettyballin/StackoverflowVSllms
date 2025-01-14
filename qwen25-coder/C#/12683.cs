@@ -1,1 +1,0 @@
-public Event<Product> AddProduct(Product product) {\n      return new ProductAdded(product);\n  }

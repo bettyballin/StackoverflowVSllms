@@ -1,1 +1,0 @@
-define(`SMART_HOST', `[mailsec.website.com]')dnl

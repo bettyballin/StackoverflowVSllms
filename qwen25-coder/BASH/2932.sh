@@ -1,1 +1,0 @@
-phpdoc -d . -t docs

@@ -1,1 +1,0 @@
-reg query HKEY_CLASSES_ROOT\CLSID\<Your_CLSID>\Implemented Categories /s

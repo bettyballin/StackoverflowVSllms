@@ -1,1 +1,0 @@
-# Create a symbolic link (Windows) from local to external drive path for convenience\nNew-Item -ItemType SymbolicLink -Path "C:\Development" -Target "\\ExternalDrive\Projects"\n\n# Use version control systems (e.g., Git) to manage changes and ensure data integrity\ngit clone \\ExternalDrive\Projects\MyProject C:\Development\MyProject

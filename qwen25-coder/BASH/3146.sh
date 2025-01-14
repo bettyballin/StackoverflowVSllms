@@ -1,1 +1,0 @@
-et stop TFSBuildServiceHost10.0  # or your specific service name\n   net start TFSBuildServiceHost10.0

@@ -1,1 +1,0 @@
-public class CaseNote {\n    public int Id { get; set; }\n    public string MemberId { get; set; }\n    public string NoteContent { get; set; }\n    // other properties...\n}

@@ -1,1 +1,0 @@
-clang++ -Weverything myprogram.cpp -o myprogram

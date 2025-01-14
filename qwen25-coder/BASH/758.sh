@@ -1,1 +1,0 @@
-icacls "C:\path\to\your\files" /grant IIS_IUSRS:(OI)(CI)RX

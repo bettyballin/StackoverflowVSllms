@@ -1,1 +1,0 @@
-strace sh ./wrapper.sh console

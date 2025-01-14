@@ -1,1 +1,0 @@
-public class LayoutModel\n{\n    public string Greeting { get; set; }\n    // other common properties like menu items, user info etc.\n}

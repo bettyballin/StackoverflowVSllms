@@ -1,1 +1,0 @@
-@echo off\nREM Navigate to your solution directory\ncd /d "C:\Path\To\Your\Solution"\n\nREM Clean the solution\n"%ProgramFiles%\Microsoft Visual Studio 8\Common7\IDE\devenv.exe" "YourSolution.sln" /Clean Debug\n\nREM Rebuild the solution\n"%ProgramFiles%\Microsoft Visual Studio 8\Common7\IDE\devenv.exe" "YourSolution.sln" /Build Debug

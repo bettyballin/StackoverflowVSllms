@@ -1,1 +1,0 @@
-java -cp "path/to/your/class;path/to/mysql-connector-java.jar" StandaloneRunner

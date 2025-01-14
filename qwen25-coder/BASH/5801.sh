@@ -1,1 +1,0 @@
-@echo off\nsetlocal\n\n:copy_loop\nxcopy "source_path\*" "destination_path\" /i /s /e /h /k /y /z /q\nif %errorlevel% neq 0 (\n    echo Copy failed with error %errorlevel%. Retrying in 10 seconds...\n    timeout /t 10 >nul\n    goto copy_loop\n)\n\necho Files copied successfully.\nendlocal

@@ -1,1 +1,0 @@
-ssh -S ~/ssh_mux user@host 'receiverprogram /path/to/remotefile'

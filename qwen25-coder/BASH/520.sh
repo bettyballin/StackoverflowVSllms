@@ -1,1 +1,0 @@
-# For a tar file\ngit archive --format=tar --output=../snapshot.tar HEAD\n\n# For a zip file\ngit archive --format=zip --output=../snapshot.zip HEAD

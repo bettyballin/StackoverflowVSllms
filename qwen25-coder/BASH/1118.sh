@@ -1,1 +1,0 @@
-xset -b # Remove bell sound to reduce bandwidth usage

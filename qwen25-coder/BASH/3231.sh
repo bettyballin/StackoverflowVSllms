@@ -1,1 +1,0 @@
-gcc -c -DBUILD_DLL dll.c\ngcc -shared -o mydll.dll dll.o -Wl,--add-stdcall-alias

@@ -1,1 +1,0 @@
-public static bool IsAValidWholeNumber(string questionalWholeNumber)\n{\n    if (string.IsNullOrWhiteSpace(questionalWholeNumber))\n    {\n        return true; // Consider an empty or whitespace-only string as a valid whole number.\n    }\n    \n    return int.TryParse(questionalWholeNumber, out _);\n}

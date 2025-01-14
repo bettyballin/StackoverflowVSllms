@@ -1,1 +1,0 @@
-tail -f /var/log/apache2/error.log  # or wherever your application logs are stored

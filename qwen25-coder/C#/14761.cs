@@ -1,1 +1,0 @@
-// Pseudo-code for ensuring color diversity:\n     List<Color> colorfulScheme = adjustForDiversity(baseColors);

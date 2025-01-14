@@ -1,1 +1,0 @@
-./configure --with-config-file-scan-dir=/etc/php.d

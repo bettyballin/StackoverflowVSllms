@@ -1,1 +1,0 @@
-using System;\nusing System.Globalization;\n\nstring numberString = list_numbers.Item(i);\ndouble possibledouble;\n\ntry {\n    possibledouble = Double.Parse(numberString, CultureInfo.InvariantCulture);\n} catch (FormatException) {\n    // Handle the case where the string is not a valid double\n    Console.WriteLine("The provided string was not in a correct format.");\n}

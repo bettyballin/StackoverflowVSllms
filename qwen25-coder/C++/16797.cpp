@@ -1,1 +1,0 @@
-#define FAILED(hr) ((HRESULT)(hr) < 0)

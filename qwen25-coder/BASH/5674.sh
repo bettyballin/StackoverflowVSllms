@@ -1,1 +1,0 @@
-sudo apt-get update\nsudo apt-get install lighttpd php-cgi spawn-fcgi python3-flup

@@ -1,1 +1,0 @@
-protected void ButtonSubmit_Click(object sender, EventArgs e)\n   {\n       string name = TextBoxName.Text;\n       // Process the data\n   }

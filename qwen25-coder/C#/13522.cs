@@ -1,1 +1,0 @@
-public class ContentEditModel\n{\n    public string CurrentContent { get; set; }\n}

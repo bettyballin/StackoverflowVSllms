@@ -1,1 +1,0 @@
-# Assuming you know the database name or other details to uniquely identify your connection\nBACKEND_PID=$(ps -eo pid,cmd | grep [y]our_db_name | awk '{print $1}')\nschedtool -p 0x01 -a 0x01 -e -P $BACKEND_PID

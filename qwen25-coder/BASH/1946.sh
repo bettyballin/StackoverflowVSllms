@@ -1,1 +1,0 @@
-0 8 * * * /usr/local/bin/vpn_connect.sh\n   0 20 * * * /usr/local/bin/vpn_disconnect.sh

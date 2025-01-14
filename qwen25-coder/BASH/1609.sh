@@ -1,1 +1,0 @@
-tdsutil\n   metacleanup metadata cleanup remove selected DC "DomainName\ServerName"\n   q

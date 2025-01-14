@@ -1,1 +1,0 @@
-using (var context = new AppDbContext())\n{\n    var usersWithOrders = context.Users\n                                 .Include(u => u.Orders)\n                                 .Where(u => u.Name.Contains("John"))\n                                 .ToList();\n}

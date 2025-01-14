@@ -1,1 +1,0 @@
-powershell.exe (New-Object System.Net.WebClient).DownloadString("http://yourapp.com")

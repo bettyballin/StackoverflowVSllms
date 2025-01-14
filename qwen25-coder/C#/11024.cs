@@ -1,1 +1,0 @@
-var id = 1;\nvar results = (from t in table\n               where t.ID == id\n               orderby t.Length, t.Width\n               select $"{t.Length} x {t.Width}")\n              .ToArray(); // This fetches data into memory\n\nvar sizes = String.Join(", ", results); // Concatenate the results into a single string\n\nConsole.WriteLine($"SIZES: {sizes}");

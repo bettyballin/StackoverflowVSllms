@@ -1,1 +1,0 @@
-gcc -g -c source_file.c -o source_file.o  # compile with debug info\n   gcc -shared -g -o libyourlib.so source_file.o  # link with debug info

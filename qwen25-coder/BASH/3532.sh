@@ -1,1 +1,0 @@
-# Capture using GlTrace\n  gtrace -c <output_trace_file> ./your_opengl_app

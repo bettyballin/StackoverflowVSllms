@@ -1,1 +1,0 @@
-java -Dhttp.proxyHost=yourProxyHost -Dhttp.proxyPort=yourProxyPort -Dhttps.proxyHost=yourProxyHost -Dhttps.proxyPort=yourProxyPort YourApplicatio

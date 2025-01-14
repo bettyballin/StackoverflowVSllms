@@ -1,1 +1,0 @@
-sudo apt-get update\n   sudo apt-get install php7.4 libapache2-mod-php7.4 php7.4-cli php7.4-mysql

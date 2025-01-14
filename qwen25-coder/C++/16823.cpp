@@ -1,1 +1,0 @@
-delete pa;\ndelete pb;\npa = nullptr;\npb = nullptr;

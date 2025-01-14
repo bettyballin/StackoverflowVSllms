@@ -1,1 +1,0 @@
-var token = Request.QueryString["token"];\nvar claimsPrincipal = ValidateToken(token);\nvar userIdClaim = claimsPrincipal.FindFirst(JwtRegisteredClaimNames.Sub)?.Value;\n// Use 'userIdClaim' for processing

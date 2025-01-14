@@ -1,1 +1,0 @@
-java -Djava.ext.dirs=/path/to/your/directory -Djava.security.manager=allow YourMainClass

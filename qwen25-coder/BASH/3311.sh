@@ -1,1 +1,0 @@
-grep -r 'div style="border: 1px solid red;"' /path/to/your/project/

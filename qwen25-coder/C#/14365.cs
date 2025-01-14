@@ -1,1 +1,0 @@
-IList<Employee> employeesWithAddresses = sess.CreateCriteria(typeof(Employee))\n    .CreateAlias("Address", "addressAlias", JoinType.InnerJoin) // Inner join ensures AddressInfo cannot be null\n    .Add(Restrictions.IsNotNull("addressAlias.Street")) // Assuming 'Street' is a column in the AddressInfo table\n    .List<Employee>();

@@ -1,1 +1,0 @@
-@model NewAccountInfo\n\n<form asp-action="GenericPostHandler" method="post">\n    <input type="hidden" name="previousView" value="@ViewContext.RouteData.Values["action"].ToString()" />\n    \n    <!-- other form fields -->\n    \n    <button type="submit">Submit</button>\n</form>

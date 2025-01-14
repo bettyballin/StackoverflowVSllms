@@ -1,1 +1,0 @@
-string htmlOutput = $"<!DOCTYPE html><html>{elementWithNbsp}</html>";\n// Write htmlOutput to a file or send as response.

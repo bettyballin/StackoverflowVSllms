@@ -1,1 +1,0 @@
-svn --config-option config=miscellany:log-encoding=utf-8 checkout <repository_url> 2>&1 | tee svn_client.log

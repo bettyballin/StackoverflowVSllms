@@ -1,1 +1,0 @@
-if (resultSet.Rows[0][resultSet.Columns.IndexOf("fk_id")] == DBNull.Value)\n{\n    // This will be reached if the "fk_id" field is null in the database.\n}

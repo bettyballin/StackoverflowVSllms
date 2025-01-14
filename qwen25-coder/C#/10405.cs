@@ -1,1 +1,0 @@
-AccountType == 1 && GroupName >= LowerGroup && GroupName <= UpperGroup

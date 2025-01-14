@@ -1,1 +1,0 @@
-ProcessStartInfo startInfo = new ProcessStartInfo();\nstartInfo.FileName = "EXCEL.EXE";\nstring filePath = @"C:\Users\dj\Desktop\da ba excel"; // this should be dynamically set based on user input\nstartInfo.Arguments = $"\"{filePath}\""; // wrap the file path in double quotes\nProcess.Start(startInfo);

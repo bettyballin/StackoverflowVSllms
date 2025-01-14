@@ -1,1 +1,0 @@
-# Example of using PHPStan\n$ phpstan analyze src/ --level=8

@@ -1,1 +1,0 @@
-g++ -D_GLIBCXX_DEBUG your_program.cpp -o your_program_debug

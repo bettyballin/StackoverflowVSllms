@@ -1,1 +1,0 @@
-pgtune -i /path/to/original/postgresql.conf -o /path/to/new/postgresql.conf

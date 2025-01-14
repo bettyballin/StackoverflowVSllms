@@ -1,1 +1,0 @@
-protected void btnLogout_Click(object sender, EventArgs e)\n{\n    Session.Clear();\n    Session.Abandon();\n    \n    // Optionally, reset the authentication token if necessary\n    FormsAuthentication.SignOut();\n\n    Response.Redirect("Home.aspx", false);\n}

@@ -1,1 +1,0 @@
-@echo off\nrem Using certutil to display binary content as hex\ncertutil -f -decodehex yourbinaryfile.bin output.txt\ntype output.txt

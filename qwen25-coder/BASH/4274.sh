@@ -1,1 +1,0 @@
-# Use find and rsync in combination for efficient copying\nfind /source/nfs/directory -type f -print0 | rsync -avz --files-from=- --from0 / /destination/nfs/directory/

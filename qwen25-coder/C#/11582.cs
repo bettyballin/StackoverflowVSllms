@@ -1,1 +1,0 @@
-int     = 1       // Int32\ndouble  = 1.0, 1e5   // Double\ndecimal = 1.0m    // Decimal\nfloat   = 1.0f    // Single\nshort   = 1s      // Int16\nushort  = 1us     // UInt16\nuint    = 1u      // UInt32\nulong   = 1ul     // UInt64\nlong    = 1L      // Int64

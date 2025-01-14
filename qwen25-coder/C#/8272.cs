@@ -1,1 +1,0 @@
-// Check if resources can be accessed like this after correct setup:\nstring localizedText = Resources.YourResourceKey;

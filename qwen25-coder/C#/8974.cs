@@ -1,1 +1,0 @@
-[WebMethod]\npublic List<string> GetCompletionList(string prefixText, int count)\n{\n    // Example list that includes a string with leading zeros\n    List<string> items = new List<string> { "0010", "0100", "0x10", "Sample" };\n    return items.Where(item => item.StartsWith(prefixText)).Take(count).ToList();\n}

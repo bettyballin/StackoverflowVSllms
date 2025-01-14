@@ -1,1 +1,0 @@
-cmd.CommandText = "EXEC [dbo].insert_test_result @executed,\n" +\n                  "@failure, @success, @testID, @time, @name, \n" +\n                  "@description, @executionDateTime, @message;";\n\ncmd.Parameters.Add("@description", SqlDbType.VarChar);\ncmd.Parameters["@description"].Value = result.Description ?? "";\n\n// Similarly for other parameters if needed

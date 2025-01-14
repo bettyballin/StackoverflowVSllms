@@ -1,1 +1,0 @@
-private DataContext db = new DataContext("connection string");\n   var data =\n       from t in db.sometable\n       select new MyCustomData\n       {\n           Field1 = t.Name,\n           Field2 = t.Email,\n           Field3 = t.City\n       };\n\n   gridControl.DataSource = data;

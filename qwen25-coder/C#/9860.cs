@@ -1,1 +1,0 @@
-protected void ShowError(bool showError) {\n    if (showError) {\n        lblError.CssClass = "error";\n    }\n    else {\n        lblError.CssClass = "hidden";\n    }\n}

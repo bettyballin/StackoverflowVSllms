@@ -1,1 +1,0 @@
-scp user@host:~/folder/filename /local/path/

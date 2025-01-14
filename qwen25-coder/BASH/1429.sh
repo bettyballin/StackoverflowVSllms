@@ -1,1 +1,0 @@
-export LDFLAGS="-L/path/to/libstdc++"\n   ./configure --prefix=/usr/local/python25\n   make\n   make install

@@ -1,1 +1,0 @@
-var freqs = Huffman16.GetFrequencies(File.ReadAllBytes(@"D:\nodes"), true);

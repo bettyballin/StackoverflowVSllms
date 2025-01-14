@@ -1,1 +1,0 @@
-ldd ./your_applicatio

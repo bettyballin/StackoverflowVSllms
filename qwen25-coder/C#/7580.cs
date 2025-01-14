@@ -1,1 +1,0 @@
-httpWebRequest.Method = "POST";

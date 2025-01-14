@@ -1,1 +1,0 @@
-using System;\nusing System.Runtime.InteropServices;\n\nclass Program\n{\n    delegate int MyDelegate();\n\n    static void Main()\n    {\n        MyDelegate d = Target;\n        IntPtr ptrToNativeCode = Marshal.GetFunctionPointerForDelegate(d);\n        Console.WriteLine($"Function pointer: {ptrToNativeCode}");\n    }\n\n    static int Target() => 42;\n}

@@ -1,1 +1,0 @@
-sudo mysql -u username -p personal < /users/cs/SO_db/posts.sql

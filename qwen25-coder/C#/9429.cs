@@ -1,1 +1,0 @@
-public class Blog\n{\n    public int Id { get; set; }\n    public string Title { get; set; }\n    public string Body { get; set; }\n}\n\npublic class BlogContext : DbContext\n{\n    public DbSet<Blog> Blogs { get; set; }\n}

@@ -1,1 +1,0 @@
-m -Dg /path/to/executable | grep symbol_name

@@ -1,1 +1,0 @@
-// LINQ to SQL generated class (auto-generated)\npublic partial class ProductLinq2Sql // Example generated class name\n{\n    public int Id { get; set; }\n    public string Name { get; set; }\n    // other properties...\n}

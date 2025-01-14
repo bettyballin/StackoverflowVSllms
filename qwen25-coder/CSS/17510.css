@@ -1,1 +1,0 @@
-/* Global Styles */\nbody {\n    font-family: Arial, sans-serif;\n    margin: 0;\n    padding: 0;\n}\n\n/* Header Styles */\n.header {\n    background-color: #4CAF50;\n    color: white;\n    text-align: center;\n    padding: 1em 0;\n}\n\n/* Main Content Area Styles */\n#main-content {\n    margin: 20px;\n    padding: 10px;\n}

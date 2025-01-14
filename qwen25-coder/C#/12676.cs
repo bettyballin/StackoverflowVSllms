@@ -1,1 +1,0 @@
-return File(Server.MapPath("~/App_Data/file.pdf"), "application/pdf", "file.pdf");

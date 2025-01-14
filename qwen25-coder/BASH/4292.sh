@@ -1,1 +1,0 @@
-m -D --defined-only /path/to/your/library.so

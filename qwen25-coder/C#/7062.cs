@@ -1,1 +1,0 @@
-var result = setA.Where(a => !setB.Any(b => b.ID == a.ID));

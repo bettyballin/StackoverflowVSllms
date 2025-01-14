@@ -1,1 +1,0 @@
-var countryDifference = \n       db.Customers.Select(c => c.Country)\n                   .Except(db.Employees.Select(e => e.Country));

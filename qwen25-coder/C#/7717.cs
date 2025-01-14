@@ -1,1 +1,0 @@
-public Action GetCopyOfDelegate(Action original)\n{\n    return new Action(original);\n}\n\nAction b = TestMethod;\nAction c = b;                  // Keep reference to the old 'b'\nAction bNew = (Action)c + a; // Create a new delegate with combined actions\n\n// Use b and bNew as needed without modifying internal state of previous delegates.

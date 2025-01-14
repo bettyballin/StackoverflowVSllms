@@ -1,1 +1,0 @@
-gcc -o app.exe main.c app.res

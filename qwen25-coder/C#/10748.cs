@@ -1,1 +1,0 @@
-// Assuming you have a DataGridView named dataGridView1\ndataGridView1.Rows[0].Cells[1].Style.BackColor = System.Drawing.Color.LightBlue;\ndataGridView1.Rows[0].Cells[1].Style.ForeColor = System.Drawing.Color.DarkRed;\ndataGridView1.Rows[0].Cells[1].Style.Font = new System.Drawing.Font(dataGridView1.Font, FontStyle.Bold);

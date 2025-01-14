@@ -1,1 +1,0 @@
-using System;\nusing System.Data;\n\nbool? GetBooleanValue(DataRow row, string columnName)\n{\n    if (row[columnName] == DBNull.Value)\n    {\n        return null; // or default(bool?) if you prefer\n    }\n    else\n    {\n        return Convert.ToBoolean(row[columnName]);\n    }\n}

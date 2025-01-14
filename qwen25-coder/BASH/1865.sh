@@ -1,1 +1,0 @@
-# Open SharePoint PowerShell\n   $webApp = Get-SPWebApplication "http://your-web-application-url"\n   $webApp.MaxUploadSize = 500 * 1024 * 1024  # Set to 500 MB or your limit\n   $webApp.Update()

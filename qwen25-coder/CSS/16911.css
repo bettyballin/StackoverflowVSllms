@@ -1,1 +1,0 @@
-/* example custom.css */\nh1 {\n    font-size: 36px;\n    color: #005e9a;\n}\n\nh2 {\n    font-size: 28px;\n    color: #e74c3c;\n}\n\ntable {\n    width: 100%;\n    border-collapse: collapse;\n}\n\nth, td {\n    border: 1px solid #ddd;\n    padding: 8px;\n}

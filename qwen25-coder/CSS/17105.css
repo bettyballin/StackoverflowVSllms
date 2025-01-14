@@ -1,1 +1,0 @@
-.floated-item {\n  width: 200px; /* Adjust the width as needed */\n  float: left;\n  margin-right: 10px; /* Space between items in the same row */\n  overflow: hidden;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n}

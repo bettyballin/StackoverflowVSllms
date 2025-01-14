@@ -1,1 +1,0 @@
-public partial class MyPage : System.Web.UI.Page\n{\n    protected void Page_Load(object sender, EventArgs e)\n    {\n        // Your page load logic here.\n    }\n\n    public MyPage()\n    {\n        this.Load += new EventHandler(Page_Load);\n    }\n}

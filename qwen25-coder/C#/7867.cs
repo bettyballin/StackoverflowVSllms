@@ -1,1 +1,0 @@
-public class User {\n       [Required]\n       public string Name { get; set; }\n       \n       [Range(18, 100)]\n       public int Age { get; set; }\n   }

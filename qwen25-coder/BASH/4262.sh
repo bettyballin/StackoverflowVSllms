@@ -1,1 +1,0 @@
-sha1dcsum your_large_file.dat

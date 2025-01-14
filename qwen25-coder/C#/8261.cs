@@ -1,1 +1,0 @@
-var preferences = (UserPreferences)Session["UserPreferences"];

@@ -1,1 +1,0 @@
-wget https://ftp.gnu.org/gnu/glibc/glibc-2.XX.tar.gz\n   tar -xvf glibc-2.XX.tar.gz\n   cd glibc-2.XX/

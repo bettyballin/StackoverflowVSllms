@@ -1,1 +1,0 @@
-su - git # Switch to the git user\ngit clone http://github.com/sitaramc/gitolite.git\n~/gitolite/src/gl-system-install\ngl-setup <path-to-your-pub-key>

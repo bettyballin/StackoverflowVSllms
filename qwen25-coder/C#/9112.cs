@@ -1,1 +1,0 @@
-TabControl tabControl = new TabControl {\n    Dock = DockStyle.Fill,\n    Alignment = TabAlignment.Top,\n    TabCount = 3\n};

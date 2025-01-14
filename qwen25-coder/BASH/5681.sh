@@ -1,1 +1,0 @@
-# Step 1: Convert DocBook XML to XSL-FO\nxsltproc -o document.fo /path/to/docbook-xsl-ns/fo/profile-docbook.xsl document.xml\n\n# Step 2: Convert XSL-FO to PDF using FOP\nfop -fo document.fo -pdf document.pdf

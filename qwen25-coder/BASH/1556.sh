@@ -1,1 +1,0 @@
-sxe -c "!analyze -w3;gc" clr

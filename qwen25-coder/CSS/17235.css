@@ -1,1 +1,0 @@
-.form-container {\n    display: flex;\n    align-items: center; /* Vertically centers the items */\n    margin-bottom: 10px; /* Space between form rows */\n}\n\nlabel, input, .error {\n    margin-right: 15px; /* Space between label, input, and error message */\n}\n\n.label {\n    width: 120px; /* Set a fixed width for labels */\n}

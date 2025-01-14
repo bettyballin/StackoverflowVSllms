@@ -1,1 +1,0 @@
-public class GenericDaoGetByIdTests<TDao, TComponent> : BaseDaoTests \n    where TDao : IDao<TComponent>\n    where TComponent : EDC2ORMComponent \n{\n    public void GetByIdTest(int id) { }\n}

@@ -1,1 +1,0 @@
-[WebMethod]\npublic static dynamic GetProgress()\n{\n    HttpContext.Current.Session["Progress"] ??= new { Count = 0, Total = 0 };\n    return HttpContext.Current.Session["Progress"];\n}

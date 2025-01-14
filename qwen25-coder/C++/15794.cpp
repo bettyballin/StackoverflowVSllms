@@ -1,1 +1,0 @@
-// CppCliWrapper.cpp\nusing namespace System;\n\npublic ref class ManagedWrapper {\npublic:\n    void CallCSharpFunction() {\n        // Instantiate the C# class and call its method\n        MyCSNamespace::MyCSClass::DoWork();\n    }\n};

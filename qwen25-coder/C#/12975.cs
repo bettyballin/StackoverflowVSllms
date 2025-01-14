@@ -1,1 +1,0 @@
-using System.ComponentModel.DataAnnotations;\n\npublic class MyModel\n{\n    [Required(ErrorMessage = "Please agree to the terms.")]\n    public bool TermsAccepted { get; set; }\n}

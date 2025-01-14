@@ -1,1 +1,0 @@
-using System.Web;\n\nstring userInput = "<script>alert('XSS');</script>";\nstring safeOutput = HttpUtility.HtmlEncode(userInput);\n\n// safeOutput will be: &lt;script&gt;alert(&#39;XSS&#39;);&lt;/script&gt;

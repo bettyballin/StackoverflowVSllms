@@ -1,1 +1,0 @@
-secedit /configure /db secedit.sdb /srcfile secpol.cfg /areas SECURITYPOLICY
